@@ -1,10 +1,11 @@
 "use client";
 import { useState } from "react";
-import { ArrowLeft, ArrowRight, Sparkles, CheckCircle, Loader2 } from "lucide-react";
+import { ArrowLeft, ArrowRight, Sparkles, CheckCircle } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { cn } from "@/lib/utils";
 import type { QuizAnswers, MatchResult } from "@/lib/types";
 import { CityCard } from "@/components/CityCard";
+import { QuizShareButton } from "./QuizShareButton";
 
 // ─── Steps ───────────────────────────────────────────────────────────────────
 
@@ -190,7 +191,8 @@ export function QuizFlow() {
             </div>
           ))}
         </div>
-        <div className="mt-10 text-center">
+        <div className="mt-10 flex flex-col items-center gap-4">
+          <QuizShareButton results={results} />
           <Button variant="secondary" onClick={() => { setResults(null); setStep(0); setAnswers(INITIAL_ANSWERS); }}>
             Recommencer le quiz
           </Button>

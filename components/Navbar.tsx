@@ -9,6 +9,7 @@ const NAV_LINKS = [
   { label: "Classements", href: "/classements" },
   { label: "Comparer", href: "/comparer" },
   { label: "Explorer", href: "/villes" },
+  { label: "Red Flags", href: "/red-flags" },
 ];
 
 export function Navbar() {

@@ -5,6 +5,7 @@ import { Badge } from "@/components/ui/Badge";
 import { Card } from "@/components/ui/Card";
 import { ScoreBar } from "@/components/ui/ScoreBar";
 import { Button } from "@/components/ui/Button";
+import { ReviewModal } from "@/components/ReviewModal";
 import { formatNumber, formatScore, scoreColor, cn } from "@/lib/utils";
 import type { CitySeed } from "@/data/cities-seed";
 
@@ -56,6 +57,7 @@ const DEMO_REVIEWS = [
 export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number } }) {
   const [activeStage, setActiveStage] = useState("famille");
   const [activeTab, setActiveTab] = useState("overview");
+  const [showReviewModal, setShowReviewModal] = useState(false);
 
   const stage = LIFE_STAGES.find((s) => s.id === activeStage)!;
 
@@ -287,7 +289,7 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                   ))}
                 </div>
                 <div className="mt-4">
-                  <Button variant="secondary" className="w-full">
+                  <Button variant="secondary" className="w-full" onClick={() => setShowReviewModal(true)}>
                     Écrire un avis
                   </Button>
                 </div>
@@ -403,7 +405,7 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                 </div>
               </Card>
             ))}
-            <Button variant="secondary" className="w-full">
+            <Button variant="secondary" className="w-full" onClick={() => setShowReviewModal(true)}>
               Écrire un avis sur {city.name}
             </Button>
           </div>
@@ -436,6 +438,14 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
           </div>
         )}
       </div>
+
+      {showReviewModal && (
+        <ReviewModal
+          citySlug={city.slug}
+          cityName={city.name}
+          onClose={() => setShowReviewModal(false)}
+        />
+      )}
     </div>
   );
 }

@@ -11,8 +11,20 @@ export function NewsletterSection() {
     e.preventDefault();
     if (!email || state === "loading") return;
     setState("loading");
-    await new Promise((r) => setTimeout(r, 800));
-    setState("success");
+    try {
+      const res = await fetch("/api/newsletter", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email }),
+      });
+      if (res.ok) {
+        setState("success");
+      } else {
+        setState("error");
+      }
+    } catch {
+      setState("error");
+    }
   }
 
   return (
