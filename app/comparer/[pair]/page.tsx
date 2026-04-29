@@ -53,6 +53,40 @@ const SEO_PAIRS = [
   ["lorient", "brest"],
   ["bayonne", "bordeaux"],
   ["arles", "avignon"],
+  ["metz", "nancy"],
+  ["metz", "strasbourg"],
+  ["nancy", "strasbourg"],
+  ["saint-etienne", "grenoble"],
+  ["limoges", "bordeaux"],
+  ["limoges", "poitiers"],
+  ["amiens", "lille"],
+  ["amiens", "rouen"],
+  ["troyes", "reims"],
+  ["troyes", "dijon"],
+  ["tours", "angers"],
+  ["pau", "bayonne"],
+  ["clermont-ferrand", "lyon"],
+  ["clermont-ferrand", "grenoble"],
+  ["toulon", "marseille"],
+  ["perpignan", "nimes"],
+  ["avignon", "marseille"],
+  ["caen", "rouen"],
+  ["reims", "troyes"],
+  ["dijon", "besancon"],
+  ["poitiers", "tours"],
+  ["valence", "avignon"],
+  ["frejus", "toulon"],
+  ["colmar", "nancy"],
+  ["angers", "tours"],
+  ["nantes", "angers"],
+  ["biarritz", "pau"],
+  ["saint-malo", "brest"],
+  ["quimper", "lorient"],
+  ["vannes", "lorient"],
+  ["brest", "rennes"],
+  ["grenoble", "annecy"],
+  ["montpellier", "nice"],
+  ["gap", "grenoble"],
 ];
 
 export function generateStaticParams() {
@@ -135,14 +169,49 @@ export default async function PairPage({ params }: Props) {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "ItemList",
-            name: `${seedA.name} vs ${seedB.name} — Comparaison`,
-            itemListElement: [cityA, cityB].map((c, i) => ({
-              "@type": "ListItem",
-              position: i + 1,
-              name: c.name,
-              url: `https://meilleurville.fr/villes/${c.slug}`,
-            })),
+            "@graph": [
+              {
+                "@type": "ItemList",
+                name: `${seedA.name} vs ${seedB.name} — Comparaison`,
+                itemListElement: [cityA, cityB].map((c, i) => ({
+                  "@type": "ListItem",
+                  position: i + 1,
+                  name: c.name,
+                  url: `https://meilleurville.fr/villes/${c.slug}`,
+                })),
+              },
+              {
+                "@type": "FAQPage",
+                mainEntity: [
+                  {
+                    "@type": "Question",
+                    name: `Quelle est la meilleure ville entre ${seedA.name} et ${seedB.name} ?`,
+                    acceptedAnswer: {
+                      "@type": "Answer",
+                      text: winner
+                        ? `${winner.name} l'emporte globalement avec un score de ${winner.scores.global.toFixed(1)}/10 contre ${(winner.slug === seedA.slug ? seedB : seedA).scores.global.toFixed(1)}/10. ${winner.characterTags.slice(0, 3).join(", ")}.`
+                        : `${seedA.name} (${seedA.scores.global}/10) et ${seedB.name} (${seedB.scores.global}/10) sont très proches. Le choix dépend de vos priorités personnelles.`,
+                    },
+                  },
+                  {
+                    "@type": "Question",
+                    name: `Quelle est la différence de coût entre ${seedA.name} et ${seedB.name} ?`,
+                    acceptedAnswer: {
+                      "@type": "Answer",
+                      text: `${seedA.name} a un score coût de la vie de ${seedA.scores.cost}/10 et ${seedB.name} de ${seedB.scores.cost}/10. ${seedA.scores.cost > seedB.scores.cost ? seedA.name : seedB.name} est la ville la plus abordable.`,
+                    },
+                  },
+                  {
+                    "@type": "Question",
+                    name: `Où est-il plus facile de télétravailler, à ${seedA.name} ou ${seedB.name} ?`,
+                    acceptedAnswer: {
+                      "@type": "Answer",
+                      text: `${seedA.name} obtient ${seedA.scores.remoteWork}/10 en télétravail et ${seedB.name} obtient ${seedB.scores.remoteWork}/10. ${seedA.scores.remoteWork > seedB.scores.remoteWork ? seedA.name : seedB.name} est mieux équipée pour le télétravail.`,
+                    },
+                  },
+                ],
+              },
+            ],
           }),
         }}
       />

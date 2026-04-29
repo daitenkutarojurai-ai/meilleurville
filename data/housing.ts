@@ -60,6 +60,7 @@ export const HOUSING: Record<string, HousingData> = {
   vannes:          { avgRentT1: 620, avgRentT2: 850,  avgRentT3: 1150, avgBuyPriceM2: 3900 },
   cherbourg:       { avgRentT1: 450, avgRentT2: 620,  avgRentT3: 820,  avgBuyPriceM2: 1900 },
   tarbes:          { avgRentT1: 420, avgRentT2: 580,  avgRentT3: 770,  avgBuyPriceM2: 1600 },
+  nancy:           { avgRentT1: 510, avgRentT2: 710,  avgRentT3: 950,  avgBuyPriceM2: 2400 },
 };
 
 export function getHousing(slug: string): HousingData | undefined {

@@ -1406,6 +1406,32 @@ export const CITIES_SEED = [
       schools: 6.6,
     },
   },
+  {
+    slug: "nancy",
+    name: "Nancy",
+    region: "Grand Est",
+    department: "Meurthe-et-Moselle",
+    inseeCode: "54395",
+    population: 104885,
+    latitude: 48.6921,
+    longitude: 6.1844,
+    elevation: 212,
+    sunshinedays: 1700,
+    avgTempJuly: 20.8,
+    avgTempJanuary: 2.0,
+    characterTags: ["Place-Stanislas-UNESCO", "baroque", "étudiant", "art-nouveau", "dynamique"],
+    scores: {
+      global: 7.6,
+      life: 7.8,
+      transport: 7.8,
+      nature: 7.0,
+      cost: 8.2,
+      safety: 7.2,
+      culture: 8.5,
+      remoteWork: 7.8,
+      schools: 8.0,
+    },
+  },
 ];
 
 export type CitySeed = (typeof CITIES_SEED)[number];

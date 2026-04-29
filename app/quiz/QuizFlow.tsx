@@ -151,7 +151,7 @@ export function QuizFlow() {
         <div className="text-center">
           <p className="text-lg font-semibold text-[var(--text-primary)]">IA en cours...</p>
           <p className="text-sm text-[var(--text-secondary)] mt-1">
-            Analyse de votre profil contre {54}+ villes françaises
+            Analyse de votre profil contre {55}+ villes françaises
           </p>
         </div>
         <div className="flex gap-1.5">

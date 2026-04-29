@@ -47,6 +47,38 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ["bayonne", "bordeaux"],
     ["arles", "avignon"],
     ["angers", "le-mans"],
+    ["metz", "nancy"],
+    ["metz", "strasbourg"],
+    ["nancy", "strasbourg"],
+    ["saint-etienne", "lyon"],
+    ["saint-etienne", "grenoble"],
+    ["limoges", "bordeaux"],
+    ["limoges", "poitiers"],
+    ["amiens", "lille"],
+    ["amiens", "rouen"],
+    ["troyes", "reims"],
+    ["troyes", "dijon"],
+    ["tours", "angers"],
+    ["pau", "bayonne"],
+    ["clermont-ferrand", "lyon"],
+    ["clermont-ferrand", "grenoble"],
+    ["toulon", "marseille"],
+    ["perpignan", "nimes"],
+    ["avignon", "marseille"],
+    ["caen", "rouen"],
+    ["reims", "troyes"],
+    ["dijon", "besancon"],
+    ["poitiers", "tours"],
+    ["le-havre", "rouen"],
+    ["valence", "avignon"],
+    ["frejus", "toulon"],
+    ["colmar", "nancy"],
+    ["angers", "tours"],
+    ["nantes", "angers"],
+    ["biarritz", "pau"],
+    ["saint-malo", "brest"],
+    ["quimper", "lorient"],
+    ["vannes", "lorient"],
   ];
 
   const staticRoutes: MetadataRoute.Sitemap = [
@@ -64,6 +96,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/contact`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.4 },
     { url: `${BASE_URL}/donnees`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.6 },
     { url: `${BASE_URL}/regions`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.7 },
+    { url: `${BASE_URL}/departements`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.7 },
     { url: `${BASE_URL}/faq`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.5 },
     { url: `${BASE_URL}/mentions-legales`, lastModified: new Date(), changeFrequency: "yearly", priority: 0.3 },
     { url: `${BASE_URL}/confidentialite`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.3 },
@@ -97,6 +130,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
+  const depts = [...new Set(CITIES_SEED.map((c) => c.department))];
+  const deptRoutes: MetadataRoute.Sitemap = depts.map((d) => ({
+    url: `${BASE_URL}/departements/${d.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}`,
+    lastModified: new Date(),
+    changeFrequency: "weekly" as const,
+    priority: 0.65,
+  }));
+
   const cityRoutes: MetadataRoute.Sitemap = CITIES_SEED.flatMap((city) => [
     {
       url: `${BASE_URL}/villes/${city.slug}`,
@@ -112,5 +153,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ]);
 
-  return [...staticRoutes, ...guideRoutes, ...regionRoutes, ...cityRoutes];
+  return [...staticRoutes, ...guideRoutes, ...regionRoutes, ...deptRoutes, ...cityRoutes];
 }

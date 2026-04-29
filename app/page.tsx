@@ -4,6 +4,7 @@ import { StatsBar } from "@/components/StatsBar";
 import { RankingPreview } from "@/components/RankingPreview";
 import { FeaturedCities } from "@/components/FeaturedCities";
 import { QuizTeaser } from "@/components/QuizTeaser";
+import { ProfileQuickAccess } from "@/components/ProfileQuickAccess";
 import { GuidesTeaser } from "@/components/GuidesTeaser";
 import { RedFlagTeaser } from "@/components/RedFlagTeaser";
 import { CostCalculator } from "@/components/CostCalculator";
@@ -19,6 +20,7 @@ export default function HomePage() {
       <RankingPreview />
       <FeaturedCities />
       <QuizTeaser />
+      <ProfileQuickAccess />
       <GuidesTeaser />
       {/* Cost calculator section */}
       <section className="py-14 border-t border-[var(--border)]">
