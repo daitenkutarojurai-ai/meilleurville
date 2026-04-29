@@ -5,13 +5,13 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { CityCard } from "@/components/CityCard";
 import { Badge } from "@/components/ui/Badge";
 import Link from "next/link";
-import { Laptop, Home, TreePine, GraduationCap, Palmtree, ArrowRight } from "lucide-react";
+import { Laptop, Home, TreePine, GraduationCap, Palmtree, ArrowRight, Wallet, Sun, Shield } from "lucide-react";
 import type { City } from "@/lib/types";
 
 export const metadata: Metadata = {
-  title: "Classements villes françaises 2025 — Télétravail, Famille, Retraite",
+  title: "Classements villes françaises 2025 — Télétravail, Famille, Budget, Soleil",
   description:
-    "Classements des meilleures villes françaises par style de vie : télétravail, famille, retraite, étudiant, nature. Données 2025, mis à jour chaque semaine.",
+    "Classements des meilleures villes françaises par style de vie : télétravail, famille, retraite, étudiant, nature, budget, soleil, sécurité. Données 2025.",
 };
 
 function seedToCity(s: (typeof CITIES_SEED)[number]): City {
@@ -83,6 +83,36 @@ const CATEGORIES = [
     bgColor: "bg-amber-400/5",
     desc: "Douceur de vivre, santé, calme, soleil",
     scoreKey: "life" as keyof (typeof CITIES_SEED)[number]["scores"],
+  },
+  {
+    slug: "budget",
+    label: "Moins chères",
+    icon: Wallet,
+    color: "text-yellow-400",
+    borderColor: "border-yellow-400/20",
+    bgColor: "bg-yellow-400/5",
+    desc: "Loyer, coût de la vie, pouvoir d'achat réel",
+    scoreKey: "cost" as keyof (typeof CITIES_SEED)[number]["scores"],
+  },
+  {
+    slug: "soleil",
+    label: "Soleil & Douceur",
+    icon: Sun,
+    color: "text-orange-400",
+    borderColor: "border-orange-400/20",
+    bgColor: "bg-orange-400/5",
+    desc: "Ensoleillement, température, qualité de l'air",
+    scoreKey: "nature" as keyof (typeof CITIES_SEED)[number]["scores"],
+  },
+  {
+    slug: "securite",
+    label: "Sécurité",
+    icon: Shield,
+    color: "text-sky-400",
+    borderColor: "border-sky-400/20",
+    bgColor: "bg-sky-400/5",
+    desc: "Criminalité, sentiment de sécurité, cohésion sociale",
+    scoreKey: "safety" as keyof (typeof CITIES_SEED)[number]["scores"],
   },
 ];
 

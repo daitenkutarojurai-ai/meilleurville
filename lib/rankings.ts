@@ -112,6 +112,72 @@ export const RANKING_META = {
       "Activités seniors et vie sociale",
     ],
   },
+  budget: {
+    slug: "budget",
+    label: "Moins chères",
+    emoji: "💰",
+    headline: "Villes les moins chères de France pour bien vivre",
+    description:
+      "Classement des villes françaises où votre argent va le plus loin : loyer, course, sorties. Qualité de vie maximale pour budget maîtrisé.",
+    methodology:
+      "Score composite pondéré : Coût (×4), Qualité de vie (×2), Sécurité (×1.5), Transport (×1).",
+    weights: { cost: 4, life: 2, safety: 1.5, transport: 1 },
+    color: "text-yellow-400",
+    borderColor: "border-yellow-400/20",
+    bgColor: "bg-yellow-400/5",
+    scoreKey: "cost" as const,
+    why: [
+      "Loyer médian au m²",
+      "Indice des prix à la consommation local",
+      "Coût moyen d'un repas au restaurant",
+      "Prix de l'immobilier à l'achat",
+      "Charges moyennes (énergie, transport)",
+    ],
+  },
+  soleil: {
+    slug: "soleil",
+    label: "Soleil & Douceur",
+    emoji: "☀️",
+    headline: "Villes françaises les plus ensoleillées",
+    description:
+      "Classement des villes françaises par ensoleillement, douceur climatique et qualité de vie en extérieur. Pour ceux qui fuient la grisaille.",
+    methodology:
+      "Score composite pondéré : Nature (×3), Qualité de vie (×2), Coût (×1.5), Sécurité (×1).",
+    weights: { nature: 3, life: 2, cost: 1.5, safety: 1 },
+    color: "text-orange-400",
+    borderColor: "border-orange-400/20",
+    bgColor: "bg-orange-400/5",
+    scoreKey: "nature" as const,
+    why: [
+      "Nombre de jours de soleil par an",
+      "Température moyenne estivale et hivernale",
+      "Accès à la mer ou à la montagne",
+      "Qualité de l'air extérieur",
+      "Infrastructure sports de plein air",
+    ],
+  },
+  securite: {
+    slug: "securite",
+    label: "Sécurité",
+    emoji: "🛡️",
+    headline: "Villes françaises les plus sûres",
+    description:
+      "Classement des villes françaises les plus sûres : indice de criminalité, sentiment de sécurité, résultats scolaires, cohésion sociale.",
+    methodology:
+      "Score composite pondéré : Sécurité (×4), Écoles (×2), Qualité de vie (×2), Nature (×1).",
+    weights: { safety: 4, schools: 2, life: 2, nature: 1 },
+    color: "text-sky-400",
+    borderColor: "border-sky-400/20",
+    bgColor: "bg-sky-400/5",
+    scoreKey: "safety" as const,
+    why: [
+      "Taux de criminalité (statistiques préfecture)",
+      "Indice de vandalisme et incivilités",
+      "Résultats scolaires et décrochage",
+      "Cohésion sociale perçue (avis habitants)",
+      "Présence de services de proximité (police, pompiers)",
+    ],
+  },
 } as const;
 
 export type RankingSlug = keyof typeof RANKING_META;
