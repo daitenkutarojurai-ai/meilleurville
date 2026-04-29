@@ -4,6 +4,7 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { CityProfile } from "./CityProfile";
+import { CityJsonLd } from "@/components/CityJsonLd";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -32,6 +33,7 @@ export default async function CityPage({ params }: Props) {
 
   return (
     <main className="min-h-screen">
+      <CityJsonLd city={city} />
       <Navbar />
       <CityProfile city={city} />
       <Footer />

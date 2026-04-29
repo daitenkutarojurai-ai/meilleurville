@@ -43,6 +43,9 @@ export function Navbar() {
 
         {/* Desktop CTA */}
         <div className="hidden md:flex items-center gap-3">
+          <Link href="/premium" className="text-sm font-medium text-[var(--accent)] hover:underline">
+            Pro
+          </Link>
           <Link href="/quiz">
             <Button size="md" className="gap-2">
               <Sparkles className="h-4 w-4" />

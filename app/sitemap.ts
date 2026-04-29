@@ -1,19 +1,44 @@
 import { MetadataRoute } from "next";
 import { CITIES_SEED } from "@/data/cities-seed";
+import { RANKING_META } from "@/lib/rankings";
 
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://meilleurville.fr";
 
 export default function sitemap(): MetadataRoute.Sitemap {
+  const SEO_PAIRS = [
+    ["annecy", "grenoble"],
+    ["nantes", "rennes"],
+    ["bordeaux", "toulouse"],
+    ["lyon", "grenoble"],
+    ["montpellier", "nice"],
+    ["nantes", "bordeaux"],
+    ["rennes", "nantes"],
+    ["nice", "aix-en-provence"],
+    ["strasbourg", "lyon"],
+    ["brest", "rennes"],
+  ];
+
   const staticRoutes: MetadataRoute.Sitemap = [
     { url: BASE_URL, lastModified: new Date(), changeFrequency: "daily", priority: 1.0 },
     { url: `${BASE_URL}/quiz`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.9 },
     { url: `${BASE_URL}/villes`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.8 },
     { url: `${BASE_URL}/classements`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.9 },
-    { url: `${BASE_URL}/classements/teletravail`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.8 },
-    { url: `${BASE_URL}/classements/famille`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.8 },
-    { url: `${BASE_URL}/classements/nature`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.8 },
-    { url: `${BASE_URL}/classements/etudiant`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.8 },
-    { url: `${BASE_URL}/classements/retraite`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.8 },
+    { url: `${BASE_URL}/comparer`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE_URL}/premium`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.6 },
+    { url: `${BASE_URL}/methode`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.5 },
+    { url: `${BASE_URL}/red-flags`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.7 },
+    ...Object.keys(RANKING_META).map((slug) => ({
+      url: `${BASE_URL}/classements/${slug}`,
+      lastModified: new Date(),
+      changeFrequency: "weekly" as const,
+      priority: 0.8,
+    })),
+    ...SEO_PAIRS.map(([a, b]) => ({
+      url: `${BASE_URL}/comparer/${a}-vs-${b}`,
+      lastModified: new Date(),
+      changeFrequency: "weekly" as const,
+      priority: 0.6,
+    })),
   ];
 
   const cityRoutes: MetadataRoute.Sitemap = CITIES_SEED.map((city) => ({

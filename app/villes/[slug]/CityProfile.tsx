@@ -6,6 +6,8 @@ import { Card } from "@/components/ui/Card";
 import { ScoreBar } from "@/components/ui/ScoreBar";
 import { Button } from "@/components/ui/Button";
 import { ReviewModal } from "@/components/ReviewModal";
+import { AISummaryCard } from "@/components/AISummaryCard";
+import { PremiumBanner } from "@/components/PremiumGate";
 import { formatNumber, formatScore, scoreColor, cn } from "@/lib/utils";
 import type { CitySeed } from "@/data/cities-seed";
 
@@ -298,6 +300,7 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
 
             {/* Sidebar */}
             <div className="space-y-4">
+              <AISummaryCard citySlug={city.slug} cityName={city.name} />
               {/* All scores mini */}
               <Card>
                 <h3 className="text-sm font-semibold text-[var(--text-primary)] mb-4">
@@ -317,6 +320,9 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                   })}
                 </div>
               </Card>
+
+              {/* Premium upsell */}
+              <PremiumBanner />
 
               {/* CTA write review */}
               <Card className="border-[var(--accent)]/20 bg-[var(--accent)]/5">

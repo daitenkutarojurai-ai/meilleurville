@@ -35,6 +35,16 @@ export const metadata: Metadata = {
     follow: true,
     googleBot: { index: true, follow: true },
   },
+  manifest: "/manifest.webmanifest",
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "black-translucent",
+    title: "MeilleurVille",
+  },
+  other: {
+    "theme-color": "#5B7FFF",
+    "mobile-web-app-capable": "yes",
+  },
 };
 
 export default function RootLayout({
