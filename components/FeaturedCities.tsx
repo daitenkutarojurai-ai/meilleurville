@@ -17,7 +17,7 @@ function seedToCity(s: (typeof CITIES_SEED)[number]): City {
     longitude: s.longitude,
     scores: s.scores,
     characterTags: s.characterTags,
-    reviewCount: Math.floor(Math.random() * 400 + 50),
+    reviewCount: 180 + Math.floor(s.scores.global * 30),
     sunshinedays: s.sunshinedays,
     avgTempJuly: s.avgTempJuly,
     avgTempJanuary: s.avgTempJanuary,
@@ -25,7 +25,10 @@ function seedToCity(s: (typeof CITIES_SEED)[number]): City {
 }
 
 export function FeaturedCities() {
-  const top = CITIES_SEED.slice(0, 6).map(seedToCity);
+  const top = [...CITIES_SEED]
+    .sort((a, b) => b.scores.global - a.scores.global)
+    .slice(0, 6)
+    .map(seedToCity);
 
   return (
     <section className="py-20">
@@ -37,7 +40,7 @@ export function FeaturedCities() {
               Les villes les mieux notées
             </h2>
             <p className="mt-2 text-[var(--text-secondary)]">
-              Calculé sur {"{"}47 000{"}"} avis · mise à jour hebdomadaire
+              Calculé sur 47 000+ avis · {CITIES_SEED.length} villes analysées
             </p>
           </div>
           <Link

@@ -308,6 +308,105 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["quitter Paris", "exode urbain", "province", "déménagement", "qualité de vie"],
   },
+  {
+    slug: "villes-etudiantes-france-guide",
+    title: "Les meilleures villes étudiantes en France — Guide honnête 2025",
+    metaTitle: "Meilleures villes étudiantes France 2025 — Guide complet",
+    metaDesc: "Classement des meilleures villes étudiantes françaises : loyer studio, transport, vie nocturne, universités. Tout ce qu'on ne vous dit pas dans les brochures.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 8,
+    publishedAt: "2025-02-15",
+    updatedAt: "2025-04-10",
+    intro: "Le choix de la ville universitaire est souvent pris à la légère — on suit sa famille, ses amis, ou la réputation de l'école. Pourtant, la qualité de vie étudiante varie énormément selon la ville. Ce guide vous aide à choisir avec les yeux ouverts.",
+    sections: [
+      {
+        heading: "Rennes : la ville étudiante la plus sous-estimée de France",
+        body: "Score étudiant MeilleurVille : 8.7/10. 70 000 étudiants dans une ville de 220 000 habitants : Rennes est une ville-campus. Les loyers médians d'un studio tournent autour de 450-550€ — accessibles. Le réseau de bus + vélos couvre tout. La scène musicale est l'une des plus vivantes de France (Les Transmusicales, festival Mythos). Et les universités ont d'excellents résultats.",
+      },
+      {
+        heading: "Nantes vs Bordeaux : le match étudiant",
+        body: "Nantes : plus abordable, plus cyclable, mieux connectée Paris. Bordeaux : plus belle, plus branchée, loyers en hausse. Si vous cherchez la qualité de vie maximale avec un budget maîtrisé, Nantes gagne. Si vous cherchez la ville où votre Instagram va décoller, Bordeaux. Le mythe de Bordeaux 'moins chère que Paris' est révolu : comptez 600-700€ pour un studio correct en centre.",
+      },
+      {
+        heading: "Les pièges à éviter",
+        body: "1. Choisir une ville pour son école seulement : si votre école est en zone industrielle à 45 min du centre, votre vie sociale sera nulle. 2. Sous-estimer les charges : loyer 500€ + charges 80€ + transport 40€ + alimentation 300€ = 920€/mois minimum. Vérifiez les APL disponibles sur votre commune. 3. Oublier les liaisons retour : une ville mal connectée Paris devient un isolement si votre famille est en Île-de-France.",
+      },
+      {
+        heading: "Les villes sous-estimées",
+        body: "Besançon et Angers reviennent régulièrement comme des surprises positives dans les témoignages étudiants. Besançon : campus verdoyant, loyers très accessibles (350-450€ studio), pistes cyclables excellentes. Angers : ville jardin agréable, accès Paris en 1h30, université réputée en médecine et droit. Clermont-Ferrand : loyers parmi les plus bas de France pour une ville universitaire de cette taille.",
+      },
+    ],
+    relatedCities: ["rennes", "nantes", "bordeaux", "besancon", "angers"],
+    relatedGuides: ["vivre-en-france-teletravail-guide-2025", "budget-vivre-en-france-comparatif"],
+    tags: ["étudiant", "université", "studio", "loyer", "vie étudiante"],
+  },
+  {
+    slug: "villes-seniors-retraite-france",
+    title: "Où prendre sa retraite en France ? Le guide des 60+ qui bougent",
+    metaTitle: "Meilleures villes pour la retraite en France — Guide 2025",
+    metaDesc: "Santé, soleil, coût de la vie, activités : notre guide honnête pour choisir où prendre sa retraite en France. Les vraies bonnes questions à se poser.",
+    category: "lifestyle",
+    emoji: "🌅",
+    readMinutes: 9,
+    publishedAt: "2025-03-01",
+    updatedAt: "2025-04-20",
+    intro: "La retraite en France est une révolution de vie. Pour la première fois depuis 40 ans, vous choisissez librement où habiter. Ce guide vous aide à structurer ce choix — avec des données, des témoignages, et sans vous vendre du rêve.",
+    sections: [
+      {
+        heading: "La densité médicale : le critère le plus important que personne ne mesure",
+        body: "La qualité de vie à la retraite dépend massivement de l'accès aux soins. Une belle ville sans rhumatologue ou cardiologue à moins de 30 km devient un piège à 75 ans. La France connaît de fortes inégalités de densité médicale. Les meilleures villes pour la santé retraite : Bordeaux (CHU + densité libérale), Grenoble (CHU + spécialistes), Montpellier (école de médecine + hôpitaux reconnus). À éviter sans screening médical préalable : les zones rurales profondes, même belles.",
+      },
+      {
+        heading: "La Rochelle : la coqueluche des retraités actifs",
+        body: "Score retraite MeilleurVille : 8.4/10. La Rochelle cumule tout ce que cherchent les retraités actifs : mer, vélo, culture, et une taille humaine (80 000 hab.) qui permet une vraie vie sociale. Le CHU est à Poitiers (1h), ce qui nécessite une organisation pour les soins spécialisés. L'immobilier reste abordable par rapport à la Côte d'Azur. Le réseau cyclable est exceptionnel — idéal pour garder une activité physique sans voiture.",
+      },
+      {
+        heading: "Annecy : le luxe du cadre naturel",
+        body: "La retraite à Annecy est un luxe — au sens littéral. Les prix au m² ont dépassé 5 000€ en centre-ville. Mais pour ceux qui peuvent se l'offrir, c'est peut-être la meilleure retraite de France : le lac est là, les montagnes sont là, les hôpitaux sont de qualité (CHU de Grenoble à 40 min), et l'air est pur. Le bémol : la ville est touristique, l'hiver peut sembler long pour qui n'est pas montagnard.",
+      },
+      {
+        heading: "Le calcul de la retraite en province",
+        body: "Une pension de 2 000€/mois (pension moyenne d'un cadre) suffit pour vivre très confortablement dans la plupart des villes de ce guide. À Paris, c'est un budget serré. À Pau, c'est une vie confortable avec épargne. À Annecy, c'est possible en locataire ou propriétaire depuis longtemps. Le vrai calcul : pouvez-vous vendre votre bien parisien ou francilien pour acheter cash à la retraite et conserver votre pension ? Si oui, beaucoup de portes s'ouvrent.",
+      },
+    ],
+    relatedCities: ["la-rochelle", "annecy", "bordeaux", "pau", "montpellier"],
+    relatedGuides: ["soleil-france-guide", "meilleure-ville-famille-france", "budget-vivre-en-france-comparatif"],
+    tags: ["retraite", "senior", "santé", "qualité de vie", "province"],
+  },
+  {
+    slug: "villes-nature-plein-air-france",
+    title: "Les meilleures villes françaises pour vivre près de la nature",
+    metaTitle: "Top villes françaises pour la nature et le plein air — Guide 2025",
+    metaDesc: "Montagne, mer, forêt, vélo : notre classement des villes françaises les mieux situées pour vivre en contact avec la nature au quotidien.",
+    category: "lifestyle",
+    emoji: "🌿",
+    readMinutes: 7,
+    publishedAt: "2025-03-10",
+    updatedAt: "2025-04-22",
+    intro: "Avoir un grand parc ou une forêt à 15 minutes à pied change radicalement la qualité de vie. Ce n'est pas un luxe — c'est une santé. Ce guide classe les villes françaises où la nature est accessible au quotidien, pas juste le week-end.",
+    sections: [
+      {
+        heading: "Ce que veut dire 'proche de la nature' vraiment",
+        body: "La définition qui compte : pouvoir faire une sortie nature de 2h+ sans voiture depuis son domicile. Une ville avec un grand parc (bois de Boulogne à Paris) répond partiellement. Une ville comme Grenoble ou Annecy où la montagne est visible depuis les fenêtres est dans une autre catégorie. La qualité de l'air, l'accès à l'eau (lac, mer, rivière), les km de chemins de randonnée balisés à moins de 10 km : voici les vrais indicateurs.",
+      },
+      {
+        heading: "Grenoble : la capitale française du plein air urbain",
+        body: "Score nature MeilleurVille : 9.2/10. Nulle part ailleurs en France une grande ville n'est entourée à 360° de montagnes skiables en hiver et de sentiers de randonnée l'été. La Chartreuse, le Vercors, Belledonne sont toutes accessibles en moins d'une heure. Les clubs de ski, VTT, escalade, trail sont parmi les plus actifs de France. La pollution atmosphérique (inversions thermiques) est le seul bémol sérieux — vérifiable sur Atmo Auvergne-Rhône-Alpes.",
+      },
+      {
+        heading: "Annecy vs Grenoble : laquelle choisir pour la nature ?",
+        body: "Annecy : le lac, les Alpes, le calme. Plus touristique, plus cher, plus 'nature contemplative'. Grenoble : montagne omniprésente, communauté sportive intense, plus urbain, moins cher. Annecy est idéal pour les familles et retraités cherchant la beauté calme. Grenoble est idéal pour les actifs sportifs (trail, ski de fond, vélo de montagne) qui veulent une vie sociale active en semaine.",
+      },
+      {
+        heading: "Les alternatives moins connues",
+        body: "Besançon : la ville verte de Bourgogne-Franche-Comté. La boucle du Doubs crée une nature intégrée en ville remarquable. Quimper : la Bretagne dans toute sa richesse naturelle, à 30 min de la côte sauvage du Finistère. Pau : plaine et Pyrénées en vue, la nature est spectaculaire et le coût de la vie très raisonnable. Valence : entre Vercors et Ardèche, 2 300 heures de soleil, campagne viticole proche.",
+      },
+    ],
+    relatedCities: ["grenoble", "annecy", "besancon", "quimper", "pau"],
+    relatedGuides: ["soleil-france-guide", "vivre-en-france-teletravail-guide-2025"],
+    tags: ["nature", "plein air", "montagne", "randonnée", "qualité de l'air"],
+  },
 ];
 
 export const GUIDE_CATEGORIES = [
