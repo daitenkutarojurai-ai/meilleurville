@@ -1,8 +1,9 @@
 import Link from "next/link";
-import { MapPin, Star, Users, TrendingUp } from "lucide-react";
+import { MapPin, Star, TrendingUp } from "lucide-react";
 import { Badge } from "@/components/ui/Badge";
 import { cn, formatNumber, formatScore } from "@/lib/utils";
 import type { City } from "@/lib/types";
+import { HOUSING } from "@/data/housing";
 
 interface CityCardProps {
   city: City;
@@ -93,13 +94,18 @@ export function CityCard({ city, rank, delta, className }: CityCardProps) {
           ))}
         </div>
 
-        {/* Tags */}
-        <div className="flex flex-wrap gap-1.5">
-          {city.characterTags.slice(0, 3).map((tag) => (
+        {/* Tags + rent */}
+        <div className="flex flex-wrap items-center gap-1.5">
+          {city.characterTags.slice(0, 2).map((tag) => (
             <Badge key={tag} variant="subtle" className="capitalize text-[10px]">
               {tag}
             </Badge>
           ))}
+          {HOUSING[city.slug] && (
+            <span className="ml-auto text-[10px] text-[var(--text-tertiary)] font-mono-data">
+              T2 ~{HOUSING[city.slug].avgRentT2}€
+            </span>
+          )}
         </div>
       </div>
     </Link>

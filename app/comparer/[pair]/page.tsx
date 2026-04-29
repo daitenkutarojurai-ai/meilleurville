@@ -9,6 +9,7 @@ import { ScoreBar } from "@/components/ui/ScoreBar";
 import { Card } from "@/components/ui/Card";
 import type { City } from "@/lib/types";
 import Link from "next/link";
+import { getHousing } from "@/data/housing";
 
 type Props = { params: Promise<{ pair: string }> };
 
@@ -249,6 +250,40 @@ export default async function PairPage({ params }: Props) {
             ))}
           </div>
         </Card>
+
+        {/* Housing prices */}
+        {(getHousing(slugA) || getHousing(slugB)) && (
+          <Card>
+            <h2 className="text-base font-semibold text-[var(--text-primary)] mb-4">Immobilier & Loyers</h2>
+            <div className="grid grid-cols-3 gap-4 text-center text-sm">
+              <div />
+              <div className="font-semibold text-blue-400">{seedA.name}</div>
+              <div className="font-semibold text-violet-400">{seedB.name}</div>
+              {[
+                { label: "Loyer T1 / mois", a: getHousing(slugA)?.avgRentT1, b: getHousing(slugB)?.avgRentT1, unit: "€" },
+                { label: "Loyer T2 / mois", a: getHousing(slugA)?.avgRentT2, b: getHousing(slugB)?.avgRentT2, unit: "€" },
+                { label: "Loyer T3 / mois", a: getHousing(slugA)?.avgRentT3, b: getHousing(slugB)?.avgRentT3, unit: "€" },
+                { label: "Prix achat / m²", a: getHousing(slugA)?.avgBuyPriceM2, b: getHousing(slugB)?.avgBuyPriceM2, unit: "€/m²" },
+              ].map(({ label, a, b, unit }) => {
+                const cheaper = a && b ? (a < b ? "a" : b < a ? "b" : "equal") : null;
+                return (
+                  <>
+                    <div key={label} className="text-xs text-[var(--text-secondary)] text-left">{label}</div>
+                    <div className={`font-mono-data font-bold ${cheaper === "a" ? "text-emerald-400" : "text-[var(--text-primary)]"}`}>
+                      {a ? `${a.toLocaleString("fr-FR")} ${unit}` : "—"}
+                    </div>
+                    <div className={`font-mono-data font-bold ${cheaper === "b" ? "text-emerald-400" : "text-[var(--text-primary)]"}`}>
+                      {b ? `${b.toLocaleString("fr-FR")} ${unit}` : "—"}
+                    </div>
+                  </>
+                );
+              })}
+            </div>
+            <p className="text-xs text-[var(--text-tertiary)] mt-4">
+              Prix médians indicatifs (source : DVF / données marché 2024). La couleur verte indique la ville la moins chère.
+            </p>
+          </Card>
+        )}
 
         {/* CTA */}
         <div className="text-center space-y-3">

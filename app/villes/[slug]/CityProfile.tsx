@@ -11,6 +11,7 @@ import { PremiumBanner } from "@/components/PremiumGate";
 import { SimilarCities } from "@/components/SimilarCities";
 import { getNeighborhoods } from "@/data/neighborhoods";
 import { CITIES_SEED } from "@/data/cities-seed";
+import { getHousing } from "@/data/housing";
 import { formatNumber, formatScore, scoreColor, cn } from "@/lib/utils";
 import type { CitySeed } from "@/data/cities-seed";
 
@@ -62,6 +63,7 @@ const DEMO_REVIEWS = [
 export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number } }) {
   const [activeStage, setActiveStage] = useState("famille");
   const neighborhoods = getNeighborhoods(city.slug);
+  const housing = getHousing(city.slug);
   const [activeTab, setActiveTab] = useState("overview");
   const [showReviewModal, setShowReviewModal] = useState(false);
 
@@ -458,6 +460,12 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                   { label: "Jours de soleil / an", value: city.sunshinedays ? `${city.sunshinedays} jours` : "—" },
                   { label: "Temp. moyenne juillet", value: city.avgTempJuly ? `${city.avgTempJuly}°C` : "—" },
                   { label: "Temp. moyenne janvier", value: city.avgTempJanuary ? `${city.avgTempJanuary}°C` : "—" },
+                  ...(housing ? [
+                    { label: "Loyer moyen T1", value: `${housing.avgRentT1} €/mois` },
+                    { label: "Loyer moyen T2", value: `${housing.avgRentT2} €/mois` },
+                    { label: "Loyer moyen T3", value: `${housing.avgRentT3} €/mois` },
+                    { label: "Prix achat moyen", value: `${housing.avgBuyPriceM2.toLocaleString("fr-FR")} €/m²` },
+                  ] : []),
                 ].map(({ label, value }) => (
                   <div key={label} className="flex items-center justify-between border-b border-[var(--border)] pb-3 last:border-0 last:pb-0">
                     <span className="text-sm text-[var(--text-secondary)]">{label}</span>

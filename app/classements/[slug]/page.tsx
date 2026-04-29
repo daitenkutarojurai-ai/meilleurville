@@ -7,6 +7,7 @@ import { CityCard } from "@/components/CityCard";
 import { Badge } from "@/components/ui/Badge";
 import { Card } from "@/components/ui/Card";
 import { CheckCircle, TrendingUp, TrendingDown, Minus, Info } from "lucide-react";
+import { HOUSING } from "@/data/housing";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -97,6 +98,9 @@ export default async function RankingPage({ params }: Props) {
                     <th className="hidden sm:table-cell px-4 py-3 text-right text-xs font-semibold text-[var(--text-secondary)]">
                       Global
                     </th>
+                    <th className="hidden lg:table-cell px-4 py-3 text-right text-xs font-semibold text-[var(--text-secondary)]">
+                      Loyer T2
+                    </th>
                     <th className="px-4 py-3 text-right text-xs font-semibold text-[var(--text-secondary)]">
                       Évol.
                     </th>
@@ -136,6 +140,11 @@ export default async function RankingPage({ params }: Props) {
                       <td className="hidden sm:table-cell px-4 py-3 text-right">
                         <span className="text-xs font-mono-data text-[var(--text-secondary)]">
                           {entry.city.scores.global.toFixed(1)}
+                        </span>
+                      </td>
+                      <td className="hidden lg:table-cell px-4 py-3 text-right">
+                        <span className="text-xs font-mono-data text-[var(--text-secondary)]">
+                          {HOUSING[entry.city.slug]?.avgRentT2 ? `${HOUSING[entry.city.slug].avgRentT2}€` : "—"}
                         </span>
                       </td>
                       <td className="px-4 py-3 text-right">
