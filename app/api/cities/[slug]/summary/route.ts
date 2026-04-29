@@ -1,6 +1,7 @@
 import { NextRequest } from "next/server";
 import Anthropic from "@anthropic-ai/sdk";
 import { CITIES_SEED } from "@/data/cities-seed";
+import { getHousing } from "@/data/housing";
 
 export const runtime = "edge";
 
@@ -31,6 +32,7 @@ export async function GET(
     });
   }
 
+  const housing = getHousing(city.slug);
   const cityContext = `
 Ville : ${city.name} (${city.department}, ${city.region})
 Population : ${city.population?.toLocaleString("fr-FR")} habitants
@@ -38,6 +40,8 @@ Altitude : ${city.elevation}m
 Ensoleillement : ${city.sunshinedays} jours/an
 Température juillet : ${city.avgTempJuly}°C, janvier : ${city.avgTempJanuary}°C
 Tags caractère : ${city.characterTags.join(", ")}
+${housing ? `Loyer T1 : ${housing.avgRentT1}€/mois, T2 : ${housing.avgRentT2}€/mois, T3 : ${housing.avgRentT3}€/mois
+Prix achat : ${housing.avgBuyPriceM2}€/m²` : ""}
 
 Scores (sur 10) :
 - Qualité de vie globale : ${city.scores.global}
