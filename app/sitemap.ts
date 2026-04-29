@@ -73,12 +73,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  const cityRoutes: MetadataRoute.Sitemap = CITIES_SEED.map((city) => ({
-    url: `${BASE_URL}/villes/${city.slug}`,
-    lastModified: new Date(),
-    changeFrequency: "weekly" as const,
-    priority: 0.7,
-  }));
+  const cityRoutes: MetadataRoute.Sitemap = CITIES_SEED.flatMap((city) => [
+    {
+      url: `${BASE_URL}/villes/${city.slug}`,
+      lastModified: new Date(),
+      changeFrequency: "weekly" as const,
+      priority: 0.7,
+    },
+    {
+      url: `${BASE_URL}/villes/${city.slug}/quartiers`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.5,
+    },
+  ]);
 
   return [...staticRoutes, ...guideRoutes, ...cityRoutes];
 }

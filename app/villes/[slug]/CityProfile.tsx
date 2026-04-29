@@ -8,6 +8,7 @@ import { Button } from "@/components/ui/Button";
 import { ReviewModal } from "@/components/ReviewModal";
 import { AISummaryCard } from "@/components/AISummaryCard";
 import { PremiumBanner } from "@/components/PremiumGate";
+import { SimilarCities } from "@/components/SimilarCities";
 import { formatNumber, formatScore, scoreColor, cn } from "@/lib/utils";
 import type { CitySeed } from "@/data/cities-seed";
 
@@ -320,6 +321,25 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                   })}
                 </div>
               </Card>
+
+              {/* Similar cities */}
+              <Card>
+                <SimilarCities city={city} />
+              </Card>
+
+              {/* Neighborhoods link */}
+              <a
+                href={`/villes/${city.slug}/quartiers`}
+                className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
+              >
+                <div>
+                  <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
+                    🏘️ Quartiers de {city.name}
+                  </div>
+                  <div className="text-xs text-[var(--text-tertiary)] mt-0.5">Sécurité, loyers, ambiance par quartier</div>
+                </div>
+                <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors" />
+              </a>
 
               {/* Premium upsell */}
               <PremiumBanner />

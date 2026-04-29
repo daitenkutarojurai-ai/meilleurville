@@ -4,6 +4,7 @@ import { StatsBar } from "@/components/StatsBar";
 import { RankingPreview } from "@/components/RankingPreview";
 import { FeaturedCities } from "@/components/FeaturedCities";
 import { QuizTeaser } from "@/components/QuizTeaser";
+import { GuidesTeaser } from "@/components/GuidesTeaser";
 import { RedFlagTeaser } from "@/components/RedFlagTeaser";
 import { NewsletterSection } from "@/components/NewsletterSection";
 import { Footer } from "@/components/Footer";
@@ -17,6 +18,7 @@ export default function HomePage() {
       <RankingPreview />
       <FeaturedCities />
       <QuizTeaser />
+      <GuidesTeaser />
       <RedFlagTeaser />
       <NewsletterSection />
       <Footer />
