@@ -32,15 +32,20 @@ const SORT_OPTIONS = [
   { id: "remoteWork", label: "Télétravail" },
   { id: "nature", label: "Nature" },
   { id: "cost", label: "Coût de vie" },
+  { id: "safety", label: "Sécurité" },
   { id: "schools", label: "Écoles" },
+  { id: "culture", label: "Culture" },
 ];
 
 const REGIONS = [...new Set(CITIES_SEED.map((c) => c.region))].sort();
+
+const POPULAR_TAGS = ["mer", "montagne", "étudiant", "familial", "vélo", "nature", "dynamique", "abordable", "soleil", "culturel"];
 
 export function VillesSearch() {
   const [query, setQuery] = useState("");
   const [sortBy, setSortBy] = useState<string>("global");
   const [region, setRegion] = useState<string>("");
+  const [tag, setTag] = useState<string>("");
   const [showFilters, setShowFilters] = useState(false);
 
   const filtered = useMemo(() => {
@@ -60,6 +65,10 @@ export function VillesSearch() {
       result = result.filter((c) => c.region === region);
     }
 
+    if (tag) {
+      result = result.filter((c) => c.characterTags.includes(tag as never));
+    }
+
     return [...result]
       .sort((a, b) => {
         const av = a.scores[sortBy as keyof typeof a.scores] ?? 0;
@@ -72,10 +81,11 @@ export function VillesSearch() {
   function clearFilters() {
     setQuery("");
     setRegion("");
+    setTag("");
     setSortBy("global");
   }
 
-  const hasFilters = query || region || sortBy !== "global";
+  const hasFilters = query || region || tag || sortBy !== "global";
 
   return (
     <div>
@@ -138,6 +148,37 @@ export function VillesSearch() {
                   )}
                 >
                   {opt.label}
+                </button>
+              ))}
+            </div>
+          </div>
+
+          <div>
+            <label className="text-xs text-[var(--text-secondary)] block mb-2">Ambiance / Profil</label>
+            <div className="flex flex-wrap gap-2">
+              <button
+                onClick={() => setTag("")}
+                className={cn(
+                  "rounded-xl border px-3 py-1.5 text-xs font-medium transition-colors cursor-pointer",
+                  tag === ""
+                    ? "border-[var(--accent)] bg-[var(--accent)]/10 text-[var(--accent)]"
+                    : "border-[var(--border)] text-[var(--text-secondary)] hover:border-[var(--accent)]/40"
+                )}
+              >
+                Toutes
+              </button>
+              {POPULAR_TAGS.map((t) => (
+                <button
+                  key={t}
+                  onClick={() => setTag(tag === t ? "" : t)}
+                  className={cn(
+                    "rounded-xl border px-3 py-1.5 text-xs font-medium transition-colors cursor-pointer capitalize",
+                    tag === t
+                      ? "border-[var(--accent)] bg-[var(--accent)]/10 text-[var(--accent)]"
+                      : "border-[var(--border)] text-[var(--text-secondary)] hover:border-[var(--accent)]/40"
+                  )}
+                >
+                  {t}
                 </button>
               ))}
             </div>

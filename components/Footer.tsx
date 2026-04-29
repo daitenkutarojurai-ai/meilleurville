@@ -4,6 +4,7 @@ import { MapPin } from "lucide-react";
 const LINKS = {
   Explorer: [
     { label: "Toutes les villes", href: "/villes" },
+    { label: "Par région", href: "/regions" },
     { label: "Classements", href: "/classements" },
     { label: "Leaderboard", href: "/leaderboard" },
     { label: "Comparer", href: "/comparer" },
