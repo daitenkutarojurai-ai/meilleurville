@@ -1,0 +1,237 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model City {
+  id          String   @id @default(cuid())
+  slug        String   @unique
+  name        String
+  inseeCode   String?  @map("insee_code") @db.Char(5)
+  region      String?
+  department  String?
+  latitude    Float?
+  longitude   Float?
+  population  Int?
+  elevation   Int?     // meters
+
+  // Aggregated scores (recomputed from reviews, stored as snapshot)
+  scoreGlobal      Float?  @map("score_global")
+  scoreLife        Float?  @map("score_life")
+  scoreTransport   Float?  @map("score_transport")
+  scoreNature      Float?  @map("score_nature")
+  scoreCost        Float?  @map("score_cost")
+  scoreSafety      Float?  @map("score_safety")
+  scoreCulture     Float?  @map("score_culture")
+  scoreRemoteWork  Float?  @map("score_remote_work")
+  scoreSchools     Float?  @map("score_schools")
+
+  // Climate
+  sunshinedays      Int?   @map("sunshine_days")
+  avgTempJuly       Float? @map("avg_temp_july")
+  avgTempJanuary    Float? @map("avg_temp_january")
+
+  // Character tags (bobo, familial, rural, etc.)
+  characterTags String[] @map("character_tags")
+
+  reviewCount Int @default(0) @map("review_count")
+
+  reviews       Review[]
+  neighborhoods Neighborhood[]
+  rankingEntries RankingEntry[]
+
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  @@map("cities")
+}
+
+model Neighborhood {
+  id     String @id @default(cuid())
+  cityId String @map("city_id")
+  city   City   @relation(fields: [cityId], references: [id])
+
+  slug          String
+  name          String
+  characterTags String[] @map("character_tags")
+
+  scoreVibe      Float? @map("score_vibe")
+  scoreSafety    Float? @map("score_safety")
+  scoreSchools   Float? @map("score_schools")
+  scoreAmenities Float? @map("score_amenities")
+  scoreTransport Float? @map("score_transport")
+
+  reviews      Review[]
+  propertyFlags PropertyFlag[]
+
+  createdAt DateTime @default(now()) @map("created_at")
+
+  @@unique([cityId, slug])
+  @@map("neighborhoods")
+}
+
+model Review {
+  id              String  @id @default(cuid())
+  userId          String? @map("user_id")
+  user            User?   @relation(fields: [userId], references: [id])
+
+  cityId         String? @map("city_id")
+  city           City?   @relation(fields: [cityId], references: [id])
+  neighborhoodId String? @map("neighborhood_id")
+  neighborhood   Neighborhood? @relation(fields: [neighborhoodId], references: [id])
+
+  // Content
+  title       String?
+  body        String   @db.Text
+  livedHere   Boolean  @default(false) @map("lived_here")
+  durationMonths Int?  @map("duration_months")
+
+  // Scores (1-10)
+  scoreSafety    Int? @map("score_safety")
+  scoreTransport Int? @map("score_transport")
+  scoreSchools   Int? @map("score_schools")
+  scoreCost      Int? @map("score_cost")
+  scoreVibe      Int? @map("score_vibe")
+  scoreNature    Int? @map("score_nature")
+  scoreGlobal    Int  @map("score_global")
+
+  // Classification
+  lifestyleTags String[] @map("lifestyle_tags")
+  pros          String?  @db.Text
+  cons          String?  @db.Text
+
+  // Trust signals
+  verifiedResident Boolean @default(false) @map("verified_resident")
+  photoCount       Int     @default(0) @map("photo_count")
+
+  helpfulVotes  Int @default(0) @map("helpful_votes")
+  reportedCount Int @default(0) @map("reported_count")
+
+  // Moderation
+  status ReviewStatus @default(PENDING)
+
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  @@map("reviews")
+}
+
+enum ReviewStatus {
+  PENDING
+  APPROVED
+  REJECTED
+  FLAGGED
+}
+
+model User {
+  id      String  @id @default(cuid())
+  clerkId String  @unique @map("clerk_id")
+  email   String  @unique
+  handle  String? @unique
+  avatar  String?
+
+  persona       String[]
+  matchProfile  Json?    @map("match_profile")
+
+  contributionScore Int    @default(0) @map("contribution_score")
+  badgeLevel        String @default("Explorateur") @map("badge_level")
+
+  citiesLived    String[] @map("cities_lived")
+  citiesWishlist String[] @map("cities_wishlist")
+
+  reviews       Review[]
+  matchSessions MatchSession[]
+
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  @@map("users")
+}
+
+model Ranking {
+  id          String @id @default(cuid())
+  slug        String @unique
+  title       String
+  description String? @db.Text
+  category    RankingCategory
+  methodology Json?
+  year        Int    @default(2025)
+
+  entries RankingEntry[]
+
+  publishedAt   DateTime? @map("published_at")
+  recalculatedAt DateTime? @map("recalculated_at")
+  createdAt     DateTime  @default(now()) @map("created_at")
+
+  @@map("rankings")
+}
+
+enum RankingCategory {
+  REMOTE_WORK
+  FAMILLE
+  RETRAITE
+  ETUDIANT
+  NATURE
+  CULTURE
+  INVESTISSEMENT
+}
+
+model RankingEntry {
+  id        String  @id @default(cuid())
+  rankingId String  @map("ranking_id")
+  ranking   Ranking @relation(fields: [rankingId], references: [id])
+  cityId    String  @map("city_id")
+  city      City    @relation(fields: [cityId], references: [id])
+
+  rank  Int
+  score Float
+  delta Int    @default(0)
+
+  @@unique([rankingId, cityId])
+  @@map("ranking_entries")
+}
+
+model PropertyFlag {
+  id             String       @id @default(cuid())
+  neighborhoodId String       @map("neighborhood_id")
+  neighborhood   Neighborhood @relation(fields: [neighborhoodId], references: [id])
+
+  flagType  String  @map("flag_type")
+  severity  Int     @default(3)
+  source    String  @default("community")
+  latitude  Float?
+  longitude Float?
+
+  confirmedCount Int @default(0) @map("confirmed_count")
+  disputedCount  Int @default(0) @map("disputed_count")
+
+  createdAt DateTime @default(now()) @map("created_at")
+
+  @@map("property_flags")
+}
+
+model MatchSession {
+  id           String  @id @default(cuid())
+  userId       String? @map("user_id")
+  user         User?   @relation(fields: [userId], references: [id])
+  sessionToken String  @unique @map("session_token")
+
+  answers     Json
+  resultCities Json   @map("result_cities")
+
+  createdAt DateTime @default(now()) @map("created_at")
+
+  @@map("match_sessions")
+}
+
+model NewsletterSubscriber {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  createdAt DateTime @default(now()) @map("created_at")
+
+  @@map("newsletter_subscribers")
+}
