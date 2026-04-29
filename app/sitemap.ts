@@ -89,6 +89,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
+  const regions = [...new Set(CITIES_SEED.map((c) => c.region))];
+  const regionRoutes: MetadataRoute.Sitemap = regions.map((r) => ({
+    url: `${BASE_URL}/regions/${r.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}`,
+    lastModified: new Date(),
+    changeFrequency: "weekly" as const,
+    priority: 0.7,
+  }));
+
   const cityRoutes: MetadataRoute.Sitemap = CITIES_SEED.flatMap((city) => [
     {
       url: `${BASE_URL}/villes/${city.slug}`,
@@ -104,5 +112,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ]);
 
-  return [...staticRoutes, ...guideRoutes, ...cityRoutes];
+  return [...staticRoutes, ...guideRoutes, ...regionRoutes, ...cityRoutes];
 }

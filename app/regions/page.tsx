@@ -71,12 +71,14 @@ export default function RegionsPage() {
                   </div>
                 </div>
               </div>
-              <Link
-                href={`/villes?region=${encodeURIComponent(region)}`}
-                className="text-xs text-[var(--accent)] hover:underline font-medium flex-shrink-0"
-              >
-                Voir tout →
-              </Link>
+              <div className="flex items-center gap-3 flex-shrink-0">
+                <Link
+                  href={`/regions/${region.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}`}
+                  className="text-xs text-[var(--accent)] hover:underline font-medium"
+                >
+                  Guide région →
+                </Link>
+              </div>
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
