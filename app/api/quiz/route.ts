@@ -77,6 +77,26 @@ function matchScore(answers: QuizAnswers, city: (typeof CITIES_SEED)[number]): {
     if (scoreKey) weights[scoreKey] = (weights[scoreKey] ?? 1) + 1.5;
   }
 
+  // Climate preference
+  if (answers.climate === "soleil") {
+    // Prefer cities with more sunshine days
+    const sunScore = city.sunshinedays ? Math.min(10, city.sunshinedays / 300) : 7;
+    weighted += sunScore * 2.0;
+    total += 10 * 2.0;
+  } else if (answers.climate === "montagne") {
+    // Prefer cities with elevation
+    const elevScore = city.elevation ? Math.min(10, city.elevation / 100) : 4;
+    weighted += elevScore * 1.5;
+    total += 10 * 1.5;
+    weights.nature = (weights.nature ?? 1) + 1.0;
+  } else if (answers.climate === "ocean") {
+    // Prefer western coastal regions
+    const oceanRegions = ["Bretagne", "Pays de la Loire", "Nouvelle-Aquitaine", "Normandie"];
+    const oceanScore = oceanRegions.includes(city.region) ? 9 : 5;
+    weighted += oceanScore * 1.5;
+    total += 10 * 1.5;
+  }
+
   // Budget affordability score
   const budgetScore = answers.budget >= 1500 ? 10 : answers.budget >= 1000 ? city.scores.cost : Math.max(0, city.scores.cost - (1000 - answers.budget) / 100);
 

@@ -1,0 +1,156 @@
+import { Metadata } from "next";
+import Link from "next/link";
+import { Navbar } from "@/components/Navbar";
+import { Footer } from "@/components/Footer";
+import { Badge } from "@/components/ui/Badge";
+
+export const metadata: Metadata = {
+  title: "FAQ — Questions fréquentes | MeilleurVille",
+  description: "Réponses aux questions fréquentes sur MeilleurVille : comment sont calculés les scores, comment contribuer, comment fonctionne l'abonnement Pro.",
+};
+
+const FAQ_SECTIONS = [
+  {
+    title: "Les scores et classements",
+    questions: [
+      {
+        q: "Comment sont calculés les scores de qualité de vie ?",
+        a: "Nos scores sont des moyennes pondérées de données objectives (INSEE, Open Data, OpenStreetMap) et d'avis vérifiés d'habitants. Chaque critère (nature, transport, coût, sécurité, culture, télétravail, écoles) est noté sur 10. Le score global est un composite pondéré. Toute notre méthodologie est publique sur la page /methode.",
+      },
+      {
+        q: "À quelle fréquence les scores sont-ils mis à jour ?",
+        a: "Les scores sont recalculés chaque semaine pour intégrer les nouveaux avis. Les données sources (INSEE, data.gouv.fr) sont intégrées lors de leurs mises à jour annuelles ou semestrielles. La date de dernière mise à jour est visible sur chaque profil de ville.",
+      },
+      {
+        q: "Pourquoi ma ville est-elle si mal notée ?",
+        a: "Les scores reflètent des données objectives et des avis d'habitants. Si vous pensez qu'un score est incorrect, vous pouvez nous signaler une erreur via le formulaire de contact. Nous vérifierons les données sources et mettrons à jour si nécessaire. MeilleurVille n'accepte aucune modification de score en échange d'un paiement.",
+      },
+      {
+        q: "Pourquoi Annecy est-elle numéro 1 alors que c'est très cher ?",
+        a: "Annecy score très haut sur la nature, la sécurité, et la qualité de vie vécue — qui font partie de nos critères pondérés. Le coût est un critère parmi d'autres, pas le seul. Si votre priorité principale est le pouvoir d'achat, utilisez notre classement 'Moins chères' ou le quiz IA qui pondère selon vos priorités personnelles.",
+      },
+    ],
+  },
+  {
+    title: "Les avis et contributions",
+    questions: [
+      {
+        q: "Comment contribuer un avis sur une ville ?",
+        a: "Rendez-vous sur la page de la ville concernée et cliquez sur 'Écrire un avis'. Vous devrez certifier avoir habité ou travaillé dans la ville. Les avis sont modérés par notre équipe + algorithme anti-spam avant publication. Un avis publié vous rapporte des points de réputation (badge Explorateur → Légende).",
+      },
+      {
+        q: "Comment sont vérifiés les avis ?",
+        a: "Nous utilisons un système combiné : vérification email, détection de patterns de spam (même IP, même texte), et validation humaine pour les avis signalés. Les avis confirmés par d'autres utilisateurs comme utiles gagnent en visibilité. Nous n'utilisons pas de comptes anonymes non vérifiés.",
+      },
+      {
+        q: "Puis-je modifier ou supprimer mon avis ?",
+        a: "Oui. Connectez-vous à votre compte, accédez à votre tableau de bord, et vous pouvez modifier ou supprimer vos avis. Les avis supprimés sont retirés sous 24h. Si vous n'avez plus accès à votre compte, contactez hello@meilleurville.fr.",
+      },
+      {
+        q: "Qu'est-ce que le Red Flag Radar ?",
+        a: "Le Red Flag Radar est notre système de signalement de problèmes locaux : bruit, inondation, pollution, travaux, insécurité. Les signalements confirmés par plusieurs utilisateurs sont publiés sur la page dédiée et sur le profil de la ville concernée. L'objectif est de donner une information honnête que les annonces immobilières ne communiquent jamais.",
+      },
+    ],
+  },
+  {
+    title: "L'abonnement Pro",
+    questions: [
+      {
+        q: "Qu'est-ce qui est inclus dans l'abonnement Pro ?",
+        a: "L'abonnement Pro à 9,90€/mois inclut : profils de quartiers complets, Red Flag Radar illimité, rapport IA personnalisé PDF, alertes nouvelles avis sur vos villes sauvegardées, historique comparaisons illimité, export données CSV, et support prioritaire.",
+      },
+      {
+        q: "Comment fonctionne l'essai gratuit de 7 jours ?",
+        a: "Lors de votre inscription Pro, vous bénéficiez de 7 jours gratuits sans restriction. Votre carte bancaire est requise pour activer l'essai, mais aucun prélèvement n'est effectué pendant la période d'essai. Vous pouvez annuler à tout moment depuis votre tableau de bord avant la fin des 7 jours.",
+      },
+      {
+        q: "Comment annuler mon abonnement Pro ?",
+        a: "Rendez-vous dans votre tableau de bord → Paramètres → Abonnement → Annuler. L'annulation prend effet à la fin de la période de facturation en cours. Vous conservez l'accès aux fonctionnalités Pro jusqu'à cette date. Aucun remboursement prorata n'est effectué sauf demande dans les 14 jours suivant le premier prélèvement.",
+      },
+      {
+        q: "Les données du rapport IA PDF sont-elles fiables ?",
+        a: "Le rapport PDF est généré par Claude (Anthropic) sur la base de nos données vérifiées. Il est à jour au moment de la génération. Comme tout outil IA, il peut contenir des imprécisions — nous le présentons comme une aide à la décision, pas comme un conseil professionnel immobilier. Nous recommandons toujours de visiter la ville avant de décider.",
+      },
+    ],
+  },
+  {
+    title: "Données et confidentialité",
+    questions: [
+      {
+        q: "MeilleurVille vend-il des données à des tiers ?",
+        a: "Non. Nous ne vendons, ne louons, ni ne partageons vos données personnelles avec des tiers à des fins commerciales. Nos partenaires techniques (Vercel pour l'hébergement, Stripe pour les paiements) ont accès aux données strictement nécessaires à leur service. Voir notre politique de confidentialité complète.",
+      },
+      {
+        q: "Puis-je télécharger mes données personnelles ?",
+        a: "Oui, conformément au RGPD. Connectez-vous à votre compte → Paramètres → Télécharger mes données. Vous recevrez un email avec un fichier ZIP contenant vos avis, préférences, et données de compte. Délai : 48h.",
+      },
+      {
+        q: "Comment signaler un problème de données ou une erreur ?",
+        a: "Utilisez notre formulaire de contact avec la catégorie 'Signaler une erreur'. Indiquez la ville concernée, le score ou la donnée erronée, et si possible la source correcte. Notre équipe traite les signalements sous 72h ouvrables.",
+      },
+    ],
+  },
+];
+
+export default function FaqPage() {
+  return (
+    <main className="min-h-screen">
+      <Navbar />
+
+      <section className="bg-[var(--bg-surface)] border-b border-[var(--border)] py-14">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
+          <Badge variant="accent" className="mb-3">FAQ</Badge>
+          <h1 className="text-3xl font-bold text-[var(--text-primary)] mb-3">Questions fréquentes</h1>
+          <p className="text-[var(--text-secondary)]">
+            Tout ce que vous voulez savoir sur MeilleurVille, les scores, les avis, et l'abonnement Pro.
+          </p>
+        </div>
+      </section>
+
+      <div className="mx-auto max-w-3xl px-4 sm:px-6 py-12 space-y-12">
+        {FAQ_SECTIONS.map((section) => (
+          <div key={section.title}>
+            <h2 className="text-lg font-bold text-[var(--text-primary)] mb-5 pb-3 border-b border-[var(--border)]">
+              {section.title}
+            </h2>
+            <div className="space-y-5">
+              {section.questions.map((item) => (
+                <div key={item.q} className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-5">
+                  <h3 className="font-semibold text-[var(--text-primary)] mb-2">{item.q}</h3>
+                  <p className="text-sm text-[var(--text-secondary)] leading-relaxed">{item.a}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        ))}
+
+        <div className="rounded-2xl border border-[var(--accent)]/20 bg-[var(--accent)]/5 p-8 text-center">
+          <p className="font-semibold text-[var(--text-primary)] mb-2">Vous n'avez pas trouvé votre réponse ?</p>
+          <p className="text-sm text-[var(--text-secondary)] mb-5">
+            Notre équipe répond sous 48h ouvrables.
+          </p>
+          <Link
+            href="/contact"
+            className="inline-flex items-center gap-2 rounded-xl bg-[var(--accent)] text-white font-semibold px-5 py-2.5 text-sm hover:opacity-90 transition-opacity"
+          >
+            Contacter l'équipe →
+          </Link>
+        </div>
+
+        <div className="flex flex-wrap gap-3">
+          <Link href="/methode" className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors">
+            Méthodologie →
+          </Link>
+          <Link href="/donnees" className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors">
+            Données & Sources →
+          </Link>
+          <Link href="/premium" className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors">
+            Voir l'abonnement Pro →
+          </Link>
+        </div>
+      </div>
+
+      <Footer />
+    </main>
+  );
+}

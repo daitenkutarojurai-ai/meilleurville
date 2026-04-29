@@ -44,6 +44,14 @@ const SEO_PAIRS = [
   ["marseille", "nice"],
   ["saint-etienne", "lyon"],
   ["le-havre", "rouen"],
+  ["vannes", "rennes"],
+  ["chambery", "annecy"],
+  ["nimes", "montpellier"],
+  ["saint-malo", "rennes"],
+  ["colmar", "strasbourg"],
+  ["lorient", "brest"],
+  ["bayonne", "bordeaux"],
+  ["arles", "avignon"],
 ];
 
 export function generateStaticParams() {

@@ -76,7 +76,7 @@ export function VillesSearch() {
         return bv - av;
       })
       .map(seedToCity);
-  }, [query, sortBy, region]);
+  }, [query, sortBy, region, tag]);
 
   function clearFilters() {
     setQuery("");

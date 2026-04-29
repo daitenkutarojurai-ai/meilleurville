@@ -37,6 +37,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ["toulon", "nice"],
     ["rouen", "caen"],
     ["perpignan", "montpellier"],
+    ["vannes", "rennes"],
+    ["chambery", "annecy"],
+    ["nimes", "montpellier"],
+    ["gap", "grenoble"],
+    ["saint-malo", "rennes"],
+    ["colmar", "strasbourg"],
+    ["lorient", "brest"],
+    ["bayonne", "bordeaux"],
+    ["arles", "avignon"],
+    ["angers", "le-mans"],
   ];
 
   const staticRoutes: MetadataRoute.Sitemap = [
@@ -54,6 +64,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/contact`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.4 },
     { url: `${BASE_URL}/donnees`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.6 },
     { url: `${BASE_URL}/regions`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.7 },
+    { url: `${BASE_URL}/faq`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.5 },
+    { url: `${BASE_URL}/mentions-legales`, lastModified: new Date(), changeFrequency: "yearly", priority: 0.3 },
+    { url: `${BASE_URL}/confidentialite`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.3 },
+    { url: `${BASE_URL}/cgu`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.3 },
     ...Object.keys(RANKING_META).map((slug) => ({
       url: `${BASE_URL}/classements/${slug}`,
       lastModified: new Date(),

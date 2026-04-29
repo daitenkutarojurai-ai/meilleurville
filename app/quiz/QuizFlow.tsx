@@ -69,6 +69,17 @@ const STEPS = [
       { value: "independant", label: "🚀 Indépendant", desc: "Freelance / créateur" },
     ],
   },
+  {
+    id: "climate",
+    question: "Votre rapport au soleil ?",
+    type: "single" as const,
+    options: [
+      { value: "soleil", label: "☀️ Soleil max", desc: "Chaleur, +250j de soleil/an" },
+      { value: "tempere", label: "⛅ Tempéré", desc: "4 vraies saisons" },
+      { value: "ocean", label: "🌬️ Océanique", desc: "Doux, humide, verdoyant" },
+      { value: "montagne", label: "❄️ Montagne", desc: "Neige en hiver, fraîcheur" },
+    ],
+  },
 ];
 
 const INITIAL_ANSWERS: Partial<QuizAnswers> = {
@@ -140,7 +151,7 @@ export function QuizFlow() {
         <div className="text-center">
           <p className="text-lg font-semibold text-[var(--text-primary)]">IA en cours...</p>
           <p className="text-sm text-[var(--text-secondary)] mt-1">
-            Analyse de votre profil contre 850 villes françaises
+            Analyse de votre profil contre {54}+ villes françaises
           </p>
         </div>
         <div className="flex gap-1.5">
@@ -410,7 +421,7 @@ function getDemoResults(): MatchResult[] {
       avgTempJuly: null,
       avgTempJanuary: null,
     },
-    score: 70 + Math.random() * 25,
+    score: 70 + ((c.slug.charCodeAt(0) % 26) / 26) * 25,
     breakdown: {},
     topReason: c.reason,
   }));

@@ -22,6 +22,8 @@ const LINKS = {
     { label: "Contact", href: "/contact" },
     { label: "Confidentialité", href: "/confidentialite" },
     { label: "CGU", href: "/cgu" },
+    { label: "FAQ", href: "/faq" },
+    { label: "Mentions légales", href: "/mentions-legales" },
   ],
 };
 

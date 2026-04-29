@@ -49,6 +49,7 @@ export interface QuizAnswers {
   budget: number;
   priorities: string[];
   workStyle: "presentiel" | "hybride" | "remote" | "independant";
+  climate?: "soleil" | "tempere" | "ocean" | "montagne";
   currentCityMiss?: string;
 }
 
