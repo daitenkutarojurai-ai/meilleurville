@@ -10,6 +10,7 @@ import { AISummaryCard } from "@/components/AISummaryCard";
 import { PremiumBanner } from "@/components/PremiumGate";
 import { SimilarCities } from "@/components/SimilarCities";
 import { getNeighborhoods } from "@/data/neighborhoods";
+import { CITIES_SEED } from "@/data/cities-seed";
 import { formatNumber, formatScore, scoreColor, cn } from "@/lib/utils";
 import type { CitySeed } from "@/data/cities-seed";
 
@@ -449,7 +450,7 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
               </h2>
               <div className="space-y-3">
                 {[
-                  { label: "Code INSEE", value: "74010" },
+                  { label: "Code INSEE", value: city.inseeCode ?? "—" },
                   { label: "Population", value: formatNumber(city.population ?? 0) + " hab." },
                   { label: "Département", value: city.department ?? "—" },
                   { label: "Région", value: city.region ?? "—" },
@@ -467,6 +468,31 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
             </Card>
           </div>
         )}
+      </div>
+
+      {/* Compare bar */}
+      <div className="border-t border-[var(--border)] bg-[var(--bg-surface)] py-4">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6">
+          <div className="flex flex-wrap items-center gap-3">
+            <span className="text-xs text-[var(--text-secondary)] flex-shrink-0">Comparer {city.name} avec :</span>
+            {CITIES_SEED.filter((c) => c.slug !== city.slug)
+              .sort((a, b) => {
+                const aRegion = a.region === city.region ? 0 : 1;
+                const bRegion = b.region === city.region ? 0 : 1;
+                return aRegion !== bRegion ? aRegion - bRegion : b.scores.global - a.scores.global;
+              })
+              .slice(0, 6)
+              .map((c) => (
+                <a
+                  key={c.slug}
+                  href={`/comparer/${[city.slug, c.slug].sort().join("-vs-")}`}
+                  className="rounded-full border border-[var(--border)] px-3 py-1 text-xs text-[var(--text-secondary)] hover:border-[var(--accent)]/40 hover:text-[var(--text-primary)] transition-colors"
+                >
+                  {c.name}
+                </a>
+              ))}
+          </div>
+        </div>
       </div>
 
       {showReviewModal && (

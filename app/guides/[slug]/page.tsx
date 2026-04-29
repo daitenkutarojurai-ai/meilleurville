@@ -37,8 +37,33 @@ export default async function GuidePage({ params }: Props) {
   const relatedCities = CITIES_SEED.filter((c) => guide.relatedCities.includes(c.slug));
   const catMeta = GUIDE_CATEGORIES.find((c) => c.id === guide.category);
 
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL ?? "https://meilleurville.fr";
+  const articleJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: guide.title,
+    description: guide.intro,
+    url: `${baseUrl}/guides/${guide.slug}`,
+    dateModified: guide.updatedAt,
+    author: { "@type": "Organization", name: "MeilleurVille" },
+    publisher: {
+      "@type": "Organization",
+      name: "MeilleurVille",
+      url: baseUrl,
+    },
+    breadcrumb: {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "MeilleurVille", item: baseUrl },
+        { "@type": "ListItem", position: 2, name: "Guides", item: `${baseUrl}/guides` },
+        { "@type": "ListItem", position: 3, name: guide.title, item: `${baseUrl}/guides/${guide.slug}` },
+      ],
+    },
+  };
+
   return (
     <main className="min-h-screen">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }} />
       <Navbar />
 
       {/* Article header */}
@@ -206,6 +231,23 @@ export default async function GuidePage({ params }: Props) {
                 </div>
               </div>
             )}
+
+            {/* Pro CTA */}
+            <div className="rounded-xl border border-[var(--accent)]/20 bg-[var(--accent)]/5 p-5">
+              <p className="text-xs font-bold text-[var(--accent)] uppercase tracking-wider mb-2">Pro</p>
+              <p className="text-sm font-semibold text-[var(--text-primary)] mb-1">
+                Rapport IA personnalisé
+              </p>
+              <p className="text-xs text-[var(--text-secondary)] mb-3">
+                Obtenez un PDF sur mesure avec analyse de compatibilité, budget, Red Flags et checklist déménagement.
+              </p>
+              <Link
+                href="/premium"
+                className="block text-center text-xs font-semibold bg-[var(--accent)] text-white rounded-lg py-2 hover:opacity-90 transition-opacity"
+              >
+                Essai 7j gratuit →
+              </Link>
+            </div>
 
             {/* All guides link */}
             <Link

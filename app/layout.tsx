@@ -26,6 +26,14 @@ export const metadata: Metadata = {
     type: "website",
     locale: "fr_FR",
     siteName: "MeilleurVille",
+    url: "https://meilleurville.fr",
+    title: "MeilleurVille — Trouvez la ville qui vous ressemble",
+    description:
+      "IA + vraies expériences + données locales. La référence pour choisir où vivre en France.",
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@meilleurville",
     title: "MeilleurVille — Trouvez la ville qui vous ressemble",
     description:
       "IA + vraies expériences + données locales. La référence pour choisir où vivre en France.",
