@@ -14,16 +14,36 @@ type Props = { params: Promise<{ pair: string }> };
 
 // Pregenerate SEO comparison pages for top city pairs
 const SEO_PAIRS = [
-  ["annecy", "chambery"],
+  ["annecy", "grenoble"],
   ["nantes", "rennes"],
   ["bordeaux", "toulouse"],
   ["lyon", "grenoble"],
   ["montpellier", "marseille"],
   ["nantes", "bordeaux"],
   ["rennes", "nantes"],
-  ["annecy", "grenoble"],
   ["nice", "aix-en-provence"],
   ["strasbourg", "lyon"],
+  ["toulouse", "montpellier"],
+  ["angers", "nantes"],
+  ["lille", "strasbourg"],
+  ["bordeaux", "nantes"],
+  ["lyon", "bordeaux"],
+  ["la-rochelle", "bordeaux"],
+  ["pau", "biarritz"],
+  ["caen", "rennes"],
+  ["dijon", "strasbourg"],
+  ["tours", "orleans"],
+  ["annecy", "biarritz"],
+  ["quimper", "brest"],
+  ["valence", "grenoble"],
+  ["lyon", "nice"],
+  ["toulon", "nice"],
+  ["rouen", "caen"],
+  ["perpignan", "montpellier"],
+  ["besancon", "dijon"],
+  ["marseille", "nice"],
+  ["saint-etienne", "lyon"],
+  ["le-havre", "rouen"],
 ];
 
 export function generateStaticParams() {

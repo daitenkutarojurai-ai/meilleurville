@@ -5,18 +5,21 @@ const LINKS = {
   Explorer: [
     { label: "Toutes les villes", href: "/villes" },
     { label: "Classements", href: "/classements" },
+    { label: "Leaderboard", href: "/leaderboard" },
     { label: "Comparer", href: "/comparer" },
     { label: "Red Flag Radar", href: "/red-flags" },
   ],
-  "Quiz & IA": [
+  "Guides & IA": [
     { label: "Trouver ma ville", href: "/quiz" },
-    { label: "Comment ça marche", href: "/methode" },
-    { label: "Données & Sources", href: "/donnees" },
+    { label: "Guides pratiques", href: "/guides" },
+    { label: "Méthodologie", href: "/methode" },
+    { label: "Premium", href: "/premium" },
   ],
-  Légal: [
+  "À propos": [
+    { label: "Notre mission", href: "/about" },
+    { label: "Contact", href: "/contact" },
     { label: "Confidentialité", href: "/confidentialite" },
     { label: "CGU", href: "/cgu" },
-    { label: "Mentions légales", href: "/mentions-legales" },
   ],
 };
 
