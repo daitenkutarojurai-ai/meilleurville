@@ -9,6 +9,7 @@ import { ReviewModal } from "@/components/ReviewModal";
 import { AISummaryCard } from "@/components/AISummaryCard";
 import { PremiumBanner } from "@/components/PremiumGate";
 import { SimilarCities } from "@/components/SimilarCities";
+import { getNeighborhoods } from "@/data/neighborhoods";
 import { formatNumber, formatScore, scoreColor, cn } from "@/lib/utils";
 import type { CitySeed } from "@/data/cities-seed";
 
@@ -59,6 +60,7 @@ const DEMO_REVIEWS = [
 
 export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number } }) {
   const [activeStage, setActiveStage] = useState("famille");
+  const neighborhoods = getNeighborhoods(city.slug);
   const [activeTab, setActiveTab] = useState("overview");
   const [showReviewModal, setShowReviewModal] = useState(false);
 
@@ -336,7 +338,9 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                   <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
                     🏘️ Quartiers de {city.name}
                   </div>
-                  <div className="text-xs text-[var(--text-tertiary)] mt-0.5">Sécurité, loyers, ambiance par quartier</div>
+                  <div className="text-xs text-[var(--text-tertiary)] mt-0.5">
+                  {neighborhoods.length > 0 ? `${neighborhoods.length} quartiers analysés` : "Sécurité, loyers, ambiance par quartier"}
+                </div>
                 </div>
                 <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors" />
               </a>

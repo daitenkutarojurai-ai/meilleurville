@@ -3,6 +3,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Badge } from "@/components/ui/Badge";
 import { Card } from "@/components/ui/Card";
+import { ContributionStats } from "@/components/ContributionStats";
 import { AlertTriangle, Volume2, Droplets, Wind, Shield, Flame, Zap, Eye } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -202,6 +203,14 @@ export default function RedFlagsPage() {
               </div>
             ))}
           </div>
+        </div>
+
+        {/* Community stats */}
+        <div>
+          <h2 className="text-xl font-bold text-[var(--text-primary)] mb-6">
+            La communauté en action
+          </h2>
+          <ContributionStats />
         </div>
 
         {/* Contribute CTA */}
