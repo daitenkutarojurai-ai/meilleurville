@@ -407,6 +407,129 @@ export const GUIDES: Guide[] = [
     relatedGuides: ["soleil-france-guide", "vivre-en-france-teletravail-guide-2025"],
     tags: ["nature", "plein air", "montagne", "randonnée", "qualité de l'air"],
   },
+  {
+    slug: "vivre-bord-mer-france-guide",
+    title: "Vivre au bord de la mer en France : les 8 villes où la qualité de vie bat Paris",
+    metaTitle: "Meilleures villes bord de mer France 2025 — Guide complet",
+    metaDesc: "La Rochelle, Biarritz, Saint-Malo, Vannes... notre guide des meilleures villes côtières françaises pour y vivre vraiment, pas juste pour les vacances.",
+    category: "lifestyle",
+    emoji: "🌊",
+    readMinutes: 7,
+    publishedAt: "2025-02-10",
+    updatedAt: "2025-04-15",
+    intro: "Vivre au bord de la mer, pas juste y passer ses vacances. Il y a une différence fondamentale entre les villes côtières «touristiques» et celles où on peut réellement bien vivre toute l'année. Ce guide classe les meilleures villes maritimes françaises selon des critères de qualité de vie réelle : emploi, prix, services, vie hors saison.",
+    sections: [
+      {
+        heading: "Le piège des villes touristiques : l'hiver mort",
+        body: "Biarritz, Arcachon, La Baule... ces villes sont paradisiaques en juillet. En novembre, c'est une autre histoire : commerces fermés, solitude, manque de services. Le test clé : cherchez le ratio population permanente / saisonnière. Une ville où 40% des logements sont des résidences secondaires aura une ambiance désertique hors saison. Privilégiez les villes avec une économie permanente : port de pêche, université, tourisme d'affaires.",
+      },
+      {
+        heading: "La Rochelle : la ville côtière la plus équilibrée",
+        body: "Score MeilleurVille : 7.8/10, coût de vie : 8.5/10. La Rochelle est notre référence absolue pour vivre au bord de la mer. Port maritime actif, université (25 000 étudiants), industries navales, tourisme mais équilibré. Le vieux port est une des plus belles architectures côtières d'Europe. Loyer T2 médian : 820€/mois. Soleil : 2 100 heures/an. Service TGV vers Paris en 3h.",
+      },
+      {
+        heading: "Vannes : le Golfe du Morbihan, joyau sous-estimé",
+        body: "Score : 7.9/10. Vannes est la porte d'entrée du Golfe du Morbihan, l'une des plus belles mers intérieures d'Europe. La ville intra-muros médiévale est magnifique. La vie culturelle est riche, les prix encore raisonnables (loyer T2 : 850€), et la Bretagne côtière reste préservée. Idéal pour les familles, retraités et télétravailleurs cherchant beauté et calme.",
+      },
+      {
+        heading: "Saint-Malo : l'âme bretonne face à la mer",
+        body: "Score : 7.5/10. Saint-Malo est unique : une cité corsaire fortifiée face à l'Atlantique. Le cadre est incomparable. La vie culturelle est dense (festivals, marchés, théâtre). Les connexions TGV vers Paris (2h20) permettent des allers-retours. Attention : les prix ont beaucoup augmenté depuis Covid (prix achat : 4 000€/m²) et le stock locatif est tendu.",
+      },
+      {
+        heading: "Biarritz : lifestyle premium au pied des Pyrénées",
+        body: "Score : 7.6/10, coût de vie : 5.0/10. Biarritz est la ville des surfeurs, entrepreneurs et bobos qui ont quitté Paris. Le lifestyle y est incomparable : Atlantique, surf, gastronomie basque, montagne à 1h. Mais les prix ont explosé depuis 2020 (+35%). Loyer T2 : 1 000€/mois, achat : 6 500€/m². Vérifiez bien votre budget avant de vous y projeter.",
+      },
+      {
+        heading: "Le critère décisif : la mobilité professionnelle",
+        body: "La mer c'est beau mais si vous devez voyager pour le travail, vérifiez la connectivité TGV/aéroport. La Rochelle (TGV 3h Paris), Biarritz (aéroport international), Vannes (TGV 2h45), Saint-Malo (TGV 2h20 via Rennes). Certaines villes côtières idylliques sont à 5h de Paris — ce qui peut tuer votre projet professionnel en 6 mois.",
+      },
+    ],
+    relatedCities: ["la-rochelle", "vannes", "saint-malo", "biarritz", "lorient"],
+    relatedGuides: ["vivre-en-france-teletravail-guide-2025", "budget-vivre-en-france-comparatif"],
+    tags: ["mer", "côte", "qualité de vie", "La Rochelle", "Bretagne"],
+  },
+  {
+    slug: "bordeaux-lyon-nantes-quelle-ville-choisir",
+    title: "Bordeaux, Lyon ou Nantes : laquelle choisir en 2025 ?",
+    metaTitle: "Bordeaux vs Lyon vs Nantes — Quelle grande ville choisir en 2025 ?",
+    metaDesc: "Comparaison approfondie entre Bordeaux, Lyon et Nantes : coût de la vie, emploi, qualité de vie, quartiers. Le guide pour choisir la bonne métropole.",
+    category: "comparaison",
+    emoji: "⚖️",
+    readMinutes: 9,
+    publishedAt: "2025-01-20",
+    updatedAt: "2025-04-20",
+    intro: "Vous hésitez entre les trois grandes métropoles françaises hors Paris ? Bordeaux, Lyon et Nantes sont les destinations favorites des Parisiens qui cherchent à partir. Mais elles ne se ressemblent pas. Ce guide les compare honnêtement — sans langue de bois — sur les critères qui comptent vraiment.",
+    sections: [
+      {
+        heading: "Le verdict express : à qui s'adresse chaque ville",
+        body: "Lyon : pour les ambitieux qui veulent une vraie grande ville avec une économie solide. Bordeaux : pour ceux qui cherchent la dolce vita, le vin et le cadre de vie premium. Nantes : pour les familles et remote workers qui veulent qualité de vie + dynamisme sans sacrifier le budget. Ce n'est pas une question de «meilleure» ville mais de quel profil vous correspond.",
+      },
+      {
+        heading: "Coût de la vie : le classement honnête",
+        body: "Nantes gagne sur le budget. Loyer T2 médian : 850€ contre 1 000€ à Lyon et 900€ à Bordeaux. Les prix Bordeaux ont explosé (+45% en 8 ans) — c'est aujourd'hui plus cher que Lyon en centre-ville. Lyon reste chère dans la Presqu'île et les Pentes de la Croix-Rousse, mais offre des alternatives abordables (Villeurbanne, Vénissieux). Nantes est la seule des trois à rester dans des prix «acceptables» pour une grande ville.",
+      },
+      {
+        heading: "Marché de l'emploi : Lyon est hors catégorie",
+        body: "Lyon est la 2e économie de France après Paris. Les sièges sociaux, le secteur médical (CHU), la chimie/pharma, la tech (la French Tech Lyon est l'une des plus dynamiques) offrent un bassin d'emploi incomparable. Bordeaux et Nantes ont des marchés solides mais moins profonds. Si l'emploi est votre priorité n°1, Lyon s'impose.",
+      },
+      {
+        heading: "Qualité de vie vécue : l'avantage Bordeaux et Nantes",
+        body: "Sur le ressenti quotidien, Bordeaux et Nantes battent Lyon. Bordeaux : le charme de l'architecture XVIIIe, les quais de la Garonne, le bassin d'Arcachon à 1h, le vin. Nantes : le vélo, la scène culturelle avant-gardiste (le Voyage à Nantes), la proximité de l'Atlantique. Lyon est une grande ville efficace mais moins «glamour» — même si la gastronomie y est inégalée.",
+      },
+      {
+        heading: "Le choc thermique : soleil et météo",
+        body: "Bordeaux remporte largement la météo : 2 050h de soleil/an, étés secs et chauds. Nantes : 1 940h, doux et humide (vents de l'Atlantique). Lyon : 2 000h mais le mistral... pardon, la bise ! — et les hivers brumeux dans la vallée peuvent être déprimants. Si le soleil est un facteur, Bordeaux ou Nantes devant Lyon.",
+      },
+      {
+        heading: "Notre verdict final",
+        body: "Famille cherchant équilibre vie/travail : Nantes. Ambitieux orienté carrière : Lyon. Style de vie, gastronomie, cadre : Bordeaux si votre budget le permet. Et si vous hésitez encore : notre quiz IA intègre vos priorités exactes pour personnaliser la recommandation.",
+      },
+    ],
+    relatedCities: ["bordeaux", "lyon", "nantes", "toulouse", "rennes"],
+    relatedGuides: ["budget-vivre-en-france-comparatif", "meilleure-ville-famille-france"],
+    tags: ["Bordeaux", "Lyon", "Nantes", "comparaison", "grande ville", "métropole"],
+  },
+  {
+    slug: "paris-province-guide-demenagement-2025",
+    title: "Quitter Paris pour la province : le guide complet 2025",
+    metaTitle: "Quitter Paris : guide demenagement province 2025 — Choisir sa ville",
+    metaDesc: "Salaire, loyer, TGV, qualité de vie : tout ce que vous devez savoir avant de quitter Paris pour une ville de province en 2025. Villes recommandées selon votre profil.",
+    category: "lifestyle",
+    emoji: "🚂",
+    readMinutes: 10,
+    publishedAt: "2025-03-01",
+    updatedAt: "2025-04-25",
+    intro: "400 000 Parisiens ont quitté Île-de-France depuis 2020. Si vous y pensez, vous n'êtes pas seul. Mais «quitter Paris» est un projet qui peut se passer à merveille ou tourner au drame si mal préparé. Ce guide couvre les vraies questions — pas les clichés.",
+    sections: [
+      {
+        heading: "La première erreur : choisir une ville pour ses vacances",
+        body: "Tout le monde a un biais touristique : «j'ai adoré Biarritz cet été, j'y déménage». Mais vivre quelque part en novembre, avec votre vie professionnelle, votre réseau social à reconstruire et vos enfants à scolariser — c'est un test très différent d'un week-end au soleil. La règle d'or : passez au moins 2 semaines en hiver dans la ville avant de signer un bail.",
+      },
+      {
+        heading: "Votre réseau professionnel vaut de l'argent",
+        body: "À Paris, votre réseau représente souvent 30 à 50% de votre valeur professionnelle — clients potentiels, opportunités d'emploi, recommandations. En province, ce réseau s'effondre sauf si vous êtes full remote ou indépendant avec des clients nationaux/internationaux. Les salariés en CDI ont plus de flexibilité (télétravail) mais une vraie limite : le jour où vous voudrez changer de poste.",
+      },
+      {
+        heading: "Le calcul financier réel",
+        body: "Gain côté budget : loyer -600 à -1 000€/mois, charges -200€, transports -80€ = 880 à 1 280€/mois d'économies. Perte côté salaire : -10 à -25% selon le secteur et la ville. En tech/remote : 0% de perte. En finance/luxe/grands groupes : -15 à -25%. Pour un cadre à 55 000€ brut, perdre 15% = -8 250€/an. Gain logement = +13 000€/an. Bilan positif — mais vérifiez votre secteur précisément.",
+      },
+      {
+        heading: "Les villes qui absorbent le mieux les Parisiens",
+        body: "Rennes, Nantes et Bordeaux ont les communautés d'expatriés parisiens les plus structurées. Des groupes Facebook actifs, des associations de networking, des événements spécifiques. Strasbourg attire les profils UE / institutions européennes. Lyon absorbe les carrières ambitieuses. Montpellier et Nice attirent les profils soleil/lifestyle. Chacune a une «identité d'accueil» différente.",
+      },
+      {
+        heading: "Le facteur partenaire",
+        body: "Si vous êtes en couple et que votre partenaire reste attaché à Paris (famille, amis, emploi non transférable) : votre déménagement a moins de 30% de chances de durer 5 ans. Ce n'est pas un jugement, c'est une statistique. Assurez-vous que votre projet est partagé à 100% avant de signer quoi que ce soit. Beaucoup de gens reviennent à Paris non pas à cause de la ville choisie, mais à cause de cette asymétrie dans le couple.",
+      },
+      {
+        heading: "Notre recommandation selon votre profil",
+        body: "Remote worker/freelance : Rennes, Nantes, Bordeaux ou Montpellier selon votre préférence climat. Salarié en hybride (2j/semaine au bureau) : choisissez selon le TGV — 1h30 max. Famille avec enfants : Rennes, Nantes, Annecy, Aix-en-Provence. Retraite ou semi-retraite : La Rochelle, Vannes, Pau, Avignon. Utilisez notre quiz IA pour affiner selon vos critères personnels.",
+      },
+    ],
+    relatedCities: ["rennes", "nantes", "bordeaux", "montpellier", "annecy"],
+    relatedGuides: ["quitter-paris-guide-2025", "vivre-en-france-teletravail-guide-2025"],
+    tags: ["déménagement", "quitter Paris", "télétravail", "province", "expatrié"],
+  },
 ];
 
 export const GUIDE_CATEGORIES = [
