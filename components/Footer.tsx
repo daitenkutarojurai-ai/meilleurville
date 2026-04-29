@@ -13,6 +13,7 @@ const LINKS = {
     { label: "Trouver ma ville", href: "/quiz" },
     { label: "Guides pratiques", href: "/guides" },
     { label: "Méthodologie", href: "/methode" },
+    { label: "Données & Sources", href: "/donnees" },
     { label: "Premium", href: "/premium" },
   ],
   "À propos": [

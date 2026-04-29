@@ -52,6 +52,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/leaderboard`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.7 },
     { url: `${BASE_URL}/about`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.5 },
     { url: `${BASE_URL}/contact`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.4 },
+    { url: `${BASE_URL}/donnees`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.6 },
     ...Object.keys(RANKING_META).map((slug) => ({
       url: `${BASE_URL}/classements/${slug}`,
       lastModified: new Date(),

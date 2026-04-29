@@ -1,11 +1,12 @@
 "use client";
 import { useState } from "react";
-import { ArrowLeft, ArrowRight, Sparkles, CheckCircle } from "lucide-react";
+import { ArrowLeft, ArrowRight, Sparkles, CheckCircle, FileText, Lock } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { cn } from "@/lib/utils";
 import type { QuizAnswers, MatchResult } from "@/lib/types";
 import { CityCard } from "@/components/CityCard";
 import { QuizShareButton } from "./QuizShareButton";
+import Link from "next/link";
 
 // ─── Steps ───────────────────────────────────────────────────────────────────
 
@@ -191,7 +192,51 @@ export function QuizFlow() {
             </div>
           ))}
         </div>
-        <div className="mt-10 flex flex-col items-center gap-4">
+        {/* Quick compare top 2 */}
+        {results.length >= 2 && (
+          <div className="mt-8 text-center">
+            <Link
+              href={`/comparer/${results[0].city.slug}-vs-${results[1].city.slug}`}
+              className="inline-flex items-center gap-2 rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 px-5 py-3 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-all"
+            >
+              Comparer {results[0].city.name} vs {results[1].city.name} →
+            </Link>
+          </div>
+        )}
+
+        {/* Pro PDF Report upsell */}
+        <div className="mt-8 rounded-2xl border border-[var(--accent)]/20 bg-[var(--accent)]/5 p-8">
+          <div className="flex flex-col sm:flex-row gap-5 items-start">
+            <div className="flex h-14 w-14 flex-shrink-0 items-center justify-center rounded-2xl bg-[var(--accent)]/15 border border-[var(--accent)]/20">
+              <FileText className="h-7 w-7 text-[var(--accent)]" />
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center gap-2 mb-1">
+                <h3 className="font-bold text-[var(--text-primary)]">
+                  Rapport IA personnalisé — Pro
+                </h3>
+                <Lock className="h-4 w-4 text-[var(--text-tertiary)]" />
+              </div>
+              <p className="text-sm text-[var(--text-secondary)] mb-4">
+                Obtenez un PDF complet de 8 pages analysant votre compatibilité avec chaque ville recommandée :
+                comparatif budget, analyse quartier, Red Flags personnalisés, checklist avant déménagement.
+              </p>
+              <div className="flex flex-wrap gap-3">
+                <Link
+                  href="/premium"
+                  className="inline-flex items-center gap-2 rounded-xl bg-[var(--accent)] text-white font-semibold px-5 py-2.5 text-sm hover:opacity-90 transition-opacity"
+                >
+                  ✨ Générer mon rapport — Pro
+                </Link>
+                <span className="flex items-center text-xs text-[var(--text-tertiary)] self-center">
+                  Inclus dans l'abonnement 9,90€/mois
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-6 flex flex-col items-center gap-4">
           <QuizShareButton results={results} />
           <Button variant="secondary" onClick={() => { setResults(null); setStep(0); setAnswers(INITIAL_ANSWERS); }}>
             Recommencer le quiz
