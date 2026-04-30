@@ -455,6 +455,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ["rumilly", "chambery"],
     ["annonay", "saint-etienne"],
     ["annonay", "vienne"],
+    ["lons-le-saunier", "dole"],
+    ["lons-le-saunier", "besancon"],
+    ["saint-flour", "aurillac"],
+    ["saint-flour", "issoire"],
+    ["bar-le-duc", "verdun"],
+    ["bar-le-duc", "nancy"],
+    ["aubusson", "gueret"],
+    ["langres", "chaumont"],
+    ["langres", "dijon"],
+    ["guingamp", "saint-brieuc"],
+    ["guingamp", "morlaix"],
   ];
 
   const staticRoutes: MetadataRoute.Sitemap = [
