@@ -4964,6 +4964,158 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["Normandie", "bocage", "Flers", "Les Andelys", "Bernay", "cidre", "Orne", "Eure", "nature", "abordable", "Monet"],
   },
+  {
+    slug: "vivre-en-quercy-lot-perigord-guide-2025",
+    title: "Vivre dans le Lot et en Quercy en 2025 : falaises, gastronomie et liberté",
+    metaTitle: "Vivre dans le Lot et Quercy 2025 — Guide | MeilleurVille",
+    metaDesc: "Cahors, Figeac, Gourdon, Souillac : s'installer dans le Lot et le Quercy en 2025. Falaises, Dordogne, gastronomie et liberté à prix doux. Guide complet.",
+    category: "region",
+    emoji: "🦅",
+    readMinutes: 10,
+    publishedAt: "2026-04-01",
+    updatedAt: "2026-04-20",
+    intro: "Le Lot est l'un des départements les plus attachants de France : ses falaises calcaires, ses rivières émeraude, ses villages accrochés aux parois, sa gastronomie (truffe, foie gras, agneau du Quercy) et ses prix immobiliers défiant toute concurrence en font une destination de rêve pour quiconque veut rompre avec la vie urbaine sans se sacrifier.",
+    sections: [
+      {
+        heading: "Cahors : la capitale au méandre du Lot",
+        body: "Cahors est posée dans un méandre du Lot, protégée par un rempart naturel de calcaire. Son pont Valentré (XIVe siècle, classé UNESCO), sa cathédrale Saint-Étienne et son vignoble de Cahors (Malbec) font de la ville un incontournable. Préfecture bien équipée (CHU, universités), bonne desserte TGV (Paris en 4h45). Prix : 1 400-2 000€/m². Pour les amateurs de vin et d'architecture médiévale.",
+      },
+      {
+        heading: "Figeac : la ville de Champollion",
+        body: "Figeac, berceau de Jean-François Champollion (déchiffreur des hiéroglyphes), est une ville d'art et d'histoire avec un patrimoine médiéval exceptionnel. Ses maisons à soleilho (étage ouvert) sont uniques en France. Festival annuel de renom, dynamisme artistique. Prix très accessibles (1 000-1 500€/m²). Pour les amateurs d'histoire et d'architecture qui veulent une ville cultivée à budget raisonnable.",
+      },
+      {
+        heading: "Gourdon et la porte du Périgord Noir",
+        body: "Gourdon est au carrefour du Quercy Blanc et du Périgord Noir, à 25 km de Sarlat. Son marché du mardi et ses halles médiévales sont exceptionnels. Accès aux grottes préhistoriques (Cougnac à 5 km), aux plus beaux villages de France (Rocamadour, Domme, La Roque-Gageac). Prix plancher (900-1 300€/m²). Pour ceux qui veulent le cœur du triangle d'or Périgord-Quercy-Lot à prix minimum.",
+      },
+      {
+        heading: "Saint-Céré et la vallée de la Dordogne lotoise",
+        body: "Saint-Céré est une jolie petite ville dans la vallée de la Bave, entre les Tours de Saint-Laurent et les gorges de la Dordogne. Jean Lurçat y a vécu et créé des tapisseries monumentales aujourd'hui exposées au musée Jean-Lurçat. Accès direct aux gorges du Lot et à Rocamadour (30 km). Prix très bas (800-1 200€/m²). Pour les amateurs d'art et de paysages grandioses.",
+      },
+    ],
+    relatedCities: ["cahors", "figeac", "gourdon"],
+    relatedGuides: [
+      "vivre-en-dordogne-quercy-perigord-guide-2025",
+      "vivre-en-aveyron-lot-guide-2025",
+      "meilleures-villes-maison-jardin-moins-200000-euros-2025",
+    ],
+    tags: ["Lot", "Quercy", "Cahors", "Figeac", "Gourdon", "Dordogne", "falaises", "gastronomie", "truffe", "Malbec", "préhistoire"],
+  },
+  {
+    slug: "meilleures-villes-investissement-locatif-colocation-2025",
+    title: "Meilleures villes françaises pour l'investissement locatif et la colocation en 2025",
+    metaTitle: "Investissement locatif colocation France 2025 | MeilleurVille",
+    metaDesc: "Quelle ville française offre le meilleur rendement locatif en 2025 ? Colocation étudiante, meublés, petites surfaces : le guide complet pour investir.",
+    category: "budget",
+    emoji: "📈",
+    readMinutes: 10,
+    publishedAt: "2026-04-01",
+    updatedAt: "2026-04-20",
+    intro: "L'investissement locatif en France en 2025 se concentre sur deux stratégies : les villes universitaires pour la colocation étudiante, et les villes moyennes avec fort déficit de logements pour le meublé classique. Ce guide présente les marchés où le ratio prix d'achat / loyer offre les meilleurs rendements bruts.",
+    sections: [
+      {
+        heading: "Les rendements bruts : ce que les chiffres disent vraiment",
+        body: "Un rendement brut de 7 % sur un T3 à 150 000€ signifie 10 500€ de loyers annuels, soit 875€/mois. C'est atteignable dans des villes comme Saint-Étienne (7-9 % brut), Limoges (6-8 %), Mulhouse (7-9 %), Roubaix (7-9 %), Châteauroux (7-9 %). La contrepartie : vacances locatives plus élevées que dans les marchés tendus. Le rendement net (après charges, taxe foncière, gestion) est généralement 3 à 4 points en dessous.",
+      },
+      {
+        heading: "La colocation étudiante : villes universitaires à bon rapport",
+        body: "Les villes universitaires avec un ratio logements/étudiants tendu offrent d'excellents rendements en colocation : Tours (8 000 étudiants pour un marché locatif sous tension), Poitiers (28 000 étudiants, prix immobilier encore raisonnable), Limoges (13 000 étudiants, prix très bas), Reims (30 000 étudiants, marché porteur). La clé : acheter à moins de 10 min à pied des campus, dans des appartements faciles à diviser (T4-T5).",
+      },
+      {
+        heading: "La location meublée touristique : où ça marche encore",
+        body: "La location courte durée (type Airbnb) est en recul dans les grandes villes (Paris, Lyon, Bordeaux ont durci les règles). Mais elle reste très rentable dans des villes moyennes touristiques : Colmar, Annecy, Sarlat, Bayeux, Honfleur, Carcassonne, Avignon. Taux d'occupation estival : 80-95 %. Règle d'or : achetez un appartement de caractère en centre-ville historique, pas un appartement récent en périphérie.",
+      },
+      {
+        heading: "Les villes à éviter et les red flags",
+        body: "Méfiez-vous des taux de vacance locative supérieurs à 15 % (signe d'un marché peu liquide), des villes en décroissance démographique sans projet de renouveau (certains bassins miniers du Nord-Pas-de-Calais), et des copropriétés avec des charges élevées sans réserves de travaux. Sur SeLoger, filtrez les annonces avec 'bien vendu' pour voir le délai moyen de commercialisation.",
+      },
+      {
+        heading: "Nos 3 coups de cœur investissement 2025",
+        body: "1. Limoges : université de 14 000 étudiants, CHU, prix plancher (1 200-1 800€/m²), rendements bruts de 7-9 %. 2. Tours : 35 000 étudiants, TGV Paris en 55 min, marché locatif tendu, rendements 5-7 %. 3. Villefranche-sur-Saône : bassin d'emploi dynamique, demande locative de travailleurs du Beaujolais lyonnais, prix 30 % sous Lyon, rendements 5-6 %.",
+      },
+    ],
+    relatedCities: ["limoges", "tours", "villefranche-sur-saone", "reims", "poitiers"],
+    relatedGuides: [
+      "investissement-immobilier-villes-rentables-france-2025",
+      "acheter-immobilier-france-meilleures-villes-2025",
+      "meilleures-villes-etudiantes-france-2025",
+    ],
+    tags: ["investissement", "locatif", "colocation", "rendement", "étudiant", "Limoges", "Tours", "Villefranche", "meublé", "Airbnb"],
+  },
+  {
+    slug: "vivre-frontalier-france-belgique-luxembourg-suisse-2025",
+    title: "Vivre côté français près des frontières : Belgique, Luxembourg, Suisse — guide 2025",
+    metaTitle: "Vivre frontalier France 2025 — Belgique, Luxembourg, Suisse | MeilleurVille",
+    metaDesc: "Où vivre en France quand on travaille en Belgique, Luxembourg ou Suisse ? Longwy, Thionville, Annemasse, Saint-Louis : le guide complet des travailleurs frontaliers 2025.",
+    category: "teletravail",
+    emoji: "🌍",
+    readMinutes: 9,
+    publishedAt: "2026-04-01",
+    updatedAt: "2026-04-20",
+    intro: "Plus de 400 000 Français travaillent chaque jour en Belgique, au Luxembourg ou en Suisse tout en résidant côté français. Cette vie frontalière offre le meilleur des deux mondes : salaires étrangers (souvent 2 à 3 fois supérieurs aux salaires français), couverture sociale française, immobilier français. Ce guide cartographie les meilleures bases de résidence pour chaque frontière.",
+    sections: [
+      {
+        heading: "Travailler au Luxembourg depuis la France",
+        body: "Le Luxembourg est la frontière la plus lucrative : salaire minimum à 2 387€ net, secteur financier et européen très développé. Les villes françaises les mieux situées : Longwy (20 min), Thionville (30 min), Cattenom, Audun-le-Roman. Thionville est la ville frontalière la plus grande et la plus équipée. Prix immobilier : 2 000-3 000€/m² pour Thionville, 1 500-2 000€/m² pour Longwy. Économie : vous payez vos impôts en France mais avez un salaire luxembourgeois — la combinaison la plus favorable.",
+      },
+      {
+        heading: "Travailler en Suisse depuis la France",
+        body: "La Suisse emploie 200 000 frontaliers français. Les zones préférentielles : Annemasse (Genève, 15 min en tram — Léman Express), Saint-Louis (Bâle, 20 min), Pontarlier (Besançon-Pontarlier-La Chaux-de-Fonds), Ferney-Voltaire (Genève, 5 min mais très cher). Salaire minimum suisse : 4 000 CHF net (≈ 4 300€). Prix immobilier côté français : 3 000-5 000€/m² à Annemasse (effet de seuil), 2 000-3 000€/m² à Saint-Louis.",
+      },
+      {
+        heading: "Travailler en Belgique depuis la France",
+        body: "La frontière belge concerne les Hauts-de-France et les Ardennes. Les 70 000 frontaliers franco-belges travaillent surtout à Bruxelles (Lille, 1h20 en Thalys), Mons, Charleroi. Depuis 2022, le télétravail des frontaliers est limité à 25 jours/an au-delà desquels vous basculez dans le droit social belge. Impact fiscal : la convention bilatérale France-Belgique est favorable aux salariés. Villes recommandées : Valenciennes, Maubeuge, Charleville-Mézières.",
+      },
+      {
+        heading: "Les pièges fiscaux et sociaux à connaître",
+        body: "Le statut de frontalier comporte des règles complexes. Au Luxembourg : vous payez vos impôts partiellement en France dès que vous travaillez plus de 19 jours/an à distance. En Suisse : le régime d'imposition à la source du canton concerné s'applique. Le principe général : résider en France tout en travaillant à l'étranger expose à des déclarations dans les deux pays. Consultez un conseiller fiscal spécialisé frontalier avant de vous installer.",
+      },
+    ],
+    relatedCities: ["longwy", "thionville", "annemasse", "pontarlier"],
+    relatedGuides: [
+      "vivre-en-haute-savoie-hors-annecy-guide-2025",
+      "vivre-en-grand-est-alsace-moselle-guide-2025",
+      "teletravail-rythme-hybride-quelle-ville-choisir-2025",
+    ],
+    tags: ["frontalier", "Luxembourg", "Suisse", "Belgique", "Longwy", "Thionville", "Annemasse", "salaire", "immobilier", "fiscal"],
+  },
+  {
+    slug: "vivre-dans-le-gers-et-tarn-et-garonne-guide-2025",
+    title: "Vivre dans le Tarn-et-Garonne en 2025 : bastides, soleil et douceur de vivre",
+    metaTitle: "Vivre en Tarn-et-Garonne 2025 — Guide | MeilleurVille",
+    metaDesc: "Montauban, Moissac, Castelsarrasin, Villeneuve-sur-Lot : s'installer dans le Tarn-et-Garonne et le Lot-et-Garonne en 2025. Soleil, gastronomie, prix accessibles.",
+    category: "region",
+    emoji: "🌻",
+    readMinutes: 8,
+    publishedAt: "2026-04-15",
+    updatedAt: "2026-04-25",
+    intro: "Le Tarn-et-Garonne et le Lot-et-Garonne sont les deux départements gascons qui résistent le mieux à l'uniformisation. Entre Toulouse et Bordeaux, ce couloir de bastides, de vignobles et de vergers offre un cadre de vie exceptionnel pour les retraités, les télétravailleurs et les familles en quête de soleil et d'espace.",
+    sections: [
+      {
+        heading: "Montauban : la ville de Ingres à l'accent du Midi",
+        body: "Montauban est la ville rose du Tarn-et-Garonne, à 50 km de Toulouse. Patrie du peintre Ingres (musée de référence nationale), ville baroque avec sa place Nationale en briques roses, son Tarn et ses quais animés. Prix immobilier : 1 600-2 400€/m². Desserte TGV depuis Toulouse. Dynamique économique forte grâce à la proximité toulousaine. Pour les Toulousains qui veulent diviser leur loyer par deux sans sacrifier la qualité de vie.",
+      },
+      {
+        heading: "Moissac et le cloître UNESCO : vivre au patrimoine mondial",
+        body: "Moissac est connue dans le monde entier pour son cloître roman du XIIe siècle, inscrit au patrimoine mondial de l'UNESCO. La ville est une étape du Chemin de Compostelle et accueille des pèlerins, des artistes et des retraités attirés par son ambiance internationale douce. Le Chasselas de Moissac AOC est un raisin de table d'exception. Prix entre 1 200 et 1 700€/m².",
+      },
+      {
+        heading: "Villeneuve-sur-Lot et les bastides royales",
+        body: "Les bastides royales du Lot-et-Garonne — Villeneuve-sur-Lot, Monflanquin, Lauzerte — sont des créations médiévales planifiées, avec leurs places à arcades et leurs rues perpendiculaires. Villeneuve est la plus grande avec 23 000 habitants et une vraie vie commerciale. Le marché du mardi est l'un des plus beaux du Sud-Ouest. Prix : 1 200-1 700€/m².",
+      },
+      {
+        heading: "Le bassin de vie Agen-Villeneuve-Montauban : une cohérence géographique",
+        body: "Ces trois villes forment un triangle d'une cohérence géographique remarquable, à équidistance de Bordeaux (1h-1h30) et Toulouse (45 min-1h). Le long de la Garonne et du canal, la fertilité des terres (pruneaux, fruits, légumes, raisins) garantit une autonomie alimentaire locale rare en France. Pour les familles qui cherchent le Midi authentique sans les prix côtiers.",
+      },
+    ],
+    relatedCities: ["montauban", "moissac", "villeneuve-sur-lot", "agen", "castelsarrasin"],
+    relatedGuides: [
+      "vivre-en-gascogne-gers-guide-2025",
+      "vivre-en-dordogne-quercy-perigord-guide-2025",
+      "retraite-soleil-meilleures-villes-france-2025",
+    ],
+    tags: ["Tarn-et-Garonne", "Lot-et-Garonne", "Montauban", "Moissac", "bastides", "soleil", "gastronomie", "Ingres", "retraite", "abordable"],
+  },
 ];
 
 export const GUIDE_CATEGORIES = [
