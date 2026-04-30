@@ -325,6 +325,19 @@ const SEO_PAIRS = [
   ["la-baule", "nantes"],
   ["mende", "aurillac"],
   ["mende", "millau"],
+  ["amboise", "tours"],
+  ["amboise", "blois"],
+  ["amboise", "angers"],
+  ["orange", "avignon"],
+  ["orange", "nimes"],
+  ["vienne", "lyon"],
+  ["vienne", "grenoble"],
+  ["granville", "caen"],
+  ["granville", "cherbourg"],
+  ["frejus", "saint-raphael"],
+  ["frejus", "draguignan"],
+  ["menton", "nice"],
+  ["menton", "antibes"],
 ];
 
 export function generateStaticParams() {
