@@ -566,6 +566,18 @@ const SEO_PAIRS = [
   ["chateau-gontier-sur-mayenne", "mayenne"],
   ["rambouillet", "versailles"],
   ["rambouillet", "saint-germain-en-laye"],
+  ["massy", "evry-courcouronnes"],
+  ["massy", "etampes"],
+  ["argentan", "alencon"],
+  ["argentan", "flers"],
+  ["gerardmer", "epinal"],
+  ["gerardmer", "saint-die-des-vosges"],
+  ["guebwiller", "colmar"],
+  ["guebwiller", "mulhouse"],
+  ["saint-claude", "dole"],
+  ["saint-claude", "lons-le-saunier"],
+  ["sable-sur-sarthe", "le-mans"],
+  ["sable-sur-sarthe", "la-fleche"],
 ];
 
 export function generateStaticParams() {

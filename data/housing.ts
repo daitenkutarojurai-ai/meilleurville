@@ -316,6 +316,12 @@ export const HOUSING: Record<string, HousingData> = {
   venissieux:                { avgRentT1: 650,  avgRentT2: 920,  avgRentT3: 1240, avgBuyPriceM2: 2800 },
   "chateau-gontier-sur-mayenne": { avgRentT1: 370, avgRentT2: 520, avgRentT3: 700, avgBuyPriceM2: 1300 },
   rambouillet:               { avgRentT1: 750,  avgRentT2: 1060, avgRentT3: 1420, avgBuyPriceM2: 3500 },
+  massy:                     { avgRentT1: 870,  avgRentT2: 1230, avgRentT3: 1650, avgBuyPriceM2: 4100 },
+  argentan:                  { avgRentT1: 380,  avgRentT2: 540,  avgRentT3: 720,  avgBuyPriceM2: 1300 },
+  gerardmer:                 { avgRentT1: 460,  avgRentT2: 650,  avgRentT3: 870,  avgBuyPriceM2: 2200 },
+  guebwiller:                { avgRentT1: 500,  avgRentT2: 710,  avgRentT3: 950,  avgBuyPriceM2: 2300 },
+  "saint-claude":            { avgRentT1: 380,  avgRentT2: 540,  avgRentT3: 720,  avgBuyPriceM2: 1300 },
+  "sable-sur-sarthe":        { avgRentT1: 360,  avgRentT2: 510,  avgRentT3: 680,  avgBuyPriceM2: 1400 },
 };
 
 export function getHousing(slug: string): HousingData | undefined {
