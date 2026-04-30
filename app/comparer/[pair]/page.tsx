@@ -602,6 +602,16 @@ const SEO_PAIRS = [
   ["commercy", "bar-le-duc"],
   ["la-souterraine", "gueret"],
   ["la-souterraine", "aubusson"],
+  ["fleurance", "auch"],
+  ["fleurance", "condom"],
+  ["bellac", "limoges"],
+  ["bellac", "saint-yrieix-la-perche"],
+  ["saint-chely-d-apcher", "mende"],
+  ["saint-chely-d-apcher", "florac-trois-rivieres"],
+  ["clamecy", "nevers"],
+  ["clamecy", "cosne-cours-sur-loire"],
+  ["porto-vecchio", "ajaccio"],
+  ["corte", "bastia"],
 ];
 
 export function generateStaticParams() {
