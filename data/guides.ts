@@ -4804,6 +4804,166 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["Grenoble", "Chambéry", "Savoie", "Alpes", "comparatif", "montagne", "tech", "qualité de vie", "immobilier", "pollution"],
   },
+  {
+    slug: "choisir-ville-pour-ses-enfants-ecoles-activites-securite-2025",
+    title: "Choisir une ville pour ses enfants : écoles, activités et sécurité — guide 2025",
+    metaTitle: "Meilleure ville pour ses enfants 2025 — Écoles, sécurité | MeilleurVille",
+    metaDesc: "Comment choisir une ville en fonction des besoins de ses enfants ? Carte scolaire, activités périscolaires, sécurité, espaces verts : le guide famille complet 2025.",
+    category: "famille",
+    emoji: "👧",
+    readMinutes: 10,
+    publishedAt: "2026-03-01",
+    updatedAt: "2026-04-15",
+    intro: "Choisir une ville pour ses enfants, c'est évaluer simultanément la qualité des écoles, la sécurité perçue et réelle, les activités périscolaires disponibles, les espaces de jeu, et la capacité de l'enfant à grandir avec des perspectives. Ce guide vous donne les critères et les villes françaises qui marquent le plus de points.",
+    sections: [
+      {
+        heading: "La carte scolaire : comment l'analyser avant d'acheter",
+        body: "Le secteur scolaire détermine le lycée de rattachement et in fine le niveau du bac obtenu dans un bassin donné. L'outil Espace-académie du Ministère permet de vérifier les taux de réussite au bac et les indicateurs de valeur ajoutée (IVA) de chaque lycée. En pratique : évitez les villes où le seul lycée public a un taux de réussite inférieur à 70 %. Les villes avec plusieurs lycées publics concurrents sont toujours meilleures pour les familles ambitieuses.",
+      },
+      {
+        heading: "Activités périscolaires : la richesse associative compte",
+        body: "Le nombre d'associations sportives, culturelles et artistiques dans une ville dépasse souvent le budget municipal. Les villes moyennes (30 000-80 000 habitants) ont souvent plus d'activités para-scolaires accessibles et moins chères que les métropoles saturées. Vérifiez : conservatoire municipal, clubs sportifs de niveau régional ou national, centre équestre, piscine. Des villes comme Angers, Rennes, Poitiers ou Bayonne sont exemplaires.",
+      },
+      {
+        heading: "Sécurité : données objectives vs perception",
+        body: "Les statistiques de délinquance par commune sont publiées par le SSMSI (data.gouv.fr). Regardez les taux pour 1 000 habitants, pas les chiffres absolus. Une grande ville a des chiffres plus élevés en absolu mais pas forcément en relatif. Les petites villes de 10 000-40 000 habitants en province ont les meilleurs taux relatifs : Lannion, La Roche-sur-Yon, Annonay, Niort, Brive. Méfiez-vous des perceptions basées sur la réputation historique d'une ville.",
+      },
+      {
+        heading: "Espaces verts et mobilité douce : pour les enfants, c'est vital",
+        body: "Les enfants qui grandissent avec accès à des parcs, des forêts, des espaces de jeu en plein air développent une meilleure santé physique et mentale (études OFCE 2024). Les villes avec une forte densité d'espaces verts par habitant : Angers (premier rang français), Limoges, Nantes, Grenoble, Tours. Bonus si la ville a des pistes cyclables sécurisées : ça permet l'autonomie dès 10 ans.",
+      },
+      {
+        heading: "Nos 5 villes recommandées pour les familles avec enfants en 2025",
+        body: "1. Angers : parc des 50 otages, conservatoire national, taux de réussite au bac dans la moyenne haute. 2. La Roche-sur-Yon : sécurité excellente, ville compacte, espaces verts nombreux. 3. Chambéry : qualité de l'air, montagne accessible dès 8 ans, patrimoine culturel riche. 4. Bayonne : bilinguisme franco-basque une richesse, sécurité, accès mer et montagne. 5. Troyes : ville à taille humaine, excellent réseau associatif, proximité Paris pour les activités de haut niveau.",
+      },
+    ],
+    relatedCities: ["angers", "la-roche-sur-yon", "chambery", "bayonne", "troyes"],
+    relatedGuides: [
+      "meilleures-villes-familles-ecoles-securite-france-2025",
+      "meilleures-villes-familles-budget-serre-2025",
+      "meilleure-ville-famille-france",
+    ],
+    tags: ["famille", "enfants", "écoles", "carte scolaire", "sécurité", "activités", "périscolaire", "espaces verts", "lycée", "autonomie"],
+  },
+  {
+    slug: "teletravail-rythme-hybride-quelle-ville-choisir-2025",
+    title: "Télétravail hybride 2-3 jours/semaine : quelle ville française choisir en 2025 ?",
+    metaTitle: "Télétravail hybride quelle ville choisir 2025 | MeilleurVille",
+    metaDesc: "Vous travaillez 2-3 jours par semaine en télétravail. Quelle ville s'installe à 1h-2h de votre bureau ? Guide complet pour les profils hybrides 2025.",
+    category: "teletravail",
+    emoji: "🏠",
+    readMinutes: 9,
+    publishedAt: "2026-03-15",
+    updatedAt: "2026-04-15",
+    intro: "Le télétravail hybride (2-3 jours/semaine) a créé une nouvelle géographie résidentielle. Vous n'avez plus besoin d'habiter à 30 minutes du bureau — mais vous ne pouvez pas non plus vous exiler à 3 heures. La zone de confort optimal est entre 45 minutes et 1h30 de trajet, à condition d'avoir un TGV ou une autoroute. Ce guide identifie les meilleures options pour chaque grand pôle d'emploi.",
+    sections: [
+      {
+        heading: "Autour de Paris : le cercle de 1h à 1h30",
+        body: "Dans le rayon 1h-1h30 de Paris en TER ou TGV, les meilleures options pour les hybrides : Sens (Bourgogne-Franche-Comté, 1h15), Dreux (1h10), Évreux (1h20), Vendôme (45 min), Chartres (1h05), Châteaudun (1h20 avec correspondance). Qualité de vie nettement supérieure, prix entre 1 500 et 2 200€/m²: 2 à 3 fois moins chers que l'Île-de-France. Le grand calcul : si le TER coûte 180€/mois, vous économisez 300-500€/m² d'achat.",
+      },
+      {
+        heading: "Autour de Lyon : les zones de décantation",
+        body: "Lyon pratique, en hybride : Vienne (25 min en TER, prix abordables, gastronomie), Bourg-en-Bresse (45 min, prix bas, bonne qualité de vie), Mâcon (TGV à 25 min, vins de Bourgogne, lac), Roanne (1h, très abordable). Pour les plus aventureux : Valence TGV (30 min), Grenoble (1h en TER), Chambéry (1h en TER). La zone Rhône-Alpes reste la plus riche en options qualité-prix.",
+      },
+      {
+        heading: "Autour de Bordeaux : la grande évasion girondine",
+        body: "Bordeaux hybride : Libourne (20 min, Pomerol à pied, prix divisés par 3), Périgueux (1h10 TER), Saintes (1h35 TER), Agen (1h TGV), Bergerac (1h20 TER). Pour les plus aventureux en voiture : Arcachon (45 min, prix chers) ou les Landes (1h, pin maritime et océan). Le bémol : les TER bordeaux-province sont souvent bondés aux heures de pointe.",
+      },
+      {
+        heading: "Les critères techniques à vérifier",
+        body: "Avant de décider : vérifiez la fréquence des trains (au moins 1 par heure aux heures de pointe), le confort du siège (certains TER sont bondés), la fiabilité (taux de ponctualité sur le site SNCF Open Data), la présence d'un parking relais à la gare de destination. Testez le trajet RÉELLEMENT avant de signer un compromis : faites-le 3 fois le même jour de bureau, aux horaires habituels.",
+      },
+      {
+        heading: "La règle des 4 jours : recalculer son équation",
+        body: "En hybride 2j/semaine au bureau, vous faites 104 trajets aller-retour par an (en dehors des congés). À 1h30 chacun, c'est 312 heures de transport, soit 13 jours entiers. Est-ce que vous acceptez 13 jours perdus dans le train pour diviser votre loyer par 2 ? Pour la plupart des gens : oui, si le train est confortable. La lecture, le travail sur laptop, ou le podcast transforment ce temps. En 3j/semaine au bureau, multipliez par 1,5.",
+      },
+    ],
+    relatedCities: ["sens", "dreux", "vendome", "vienne", "bourg-en-bresse", "libourne"],
+    relatedGuides: [
+      "vivre-en-france-teletravail-guide-2025",
+      "paris-province-guide-demenagement-2025",
+      "quitter-paris-guide-2025",
+    ],
+    tags: ["télétravail", "hybride", "bureau", "train", "TGV", "TER", "Paris", "Lyon", "Bordeaux", "navetteur", "immobilier"],
+  },
+  {
+    slug: "meilleures-villes-sante-hopital-medecins-france-2025",
+    title: "Meilleures villes françaises pour l'accès aux soins de santé en 2025",
+    metaTitle: "Meilleures villes accès santé 2025 France | MeilleurVille",
+    metaDesc: "CHU, médecins généralistes, déserts médicaux : quelles villes françaises offrent le meilleur accès aux soins en 2025 ? Guide complet pour les familles et retraités.",
+    category: "famille",
+    emoji: "🏥",
+    readMinutes: 8,
+    publishedAt: "2026-03-01",
+    updatedAt: "2026-04-15",
+    intro: "La désertification médicale est l'une des grandes craintes des personnes qui s'installent en province. Pourtant, la carte médicale française réserve des surprises : certaines villes moyennes ont une densité de médecins bien supérieure aux grandes métropoles, tandis que certaines agglomérations de 100 000 habitants sont en difficulté réelle. Ce guide établit la carte des territoires les mieux pourvus.",
+    sections: [
+      {
+        heading: "Les CHU et hôpitaux de référence : le maillage de sécurité",
+        body: "La France compte 32 CHU (Centres Hospitalo-Universitaires). S'installer à moins de 30 minutes d'un CHU est la garantie maximale d'accès aux soins de recours (cardiologie, oncologie, neurochirurgie). Les villes avec CHU les moins connues mais très accessibles : Limoges (CHU de qualité reconnue), Brest (CHU côtier), Poitiers (excellent taux de prise en charge), Reims (CHU en croissance). Toutes ont des prix immobiliers bien inférieurs aux CHU parisiens et lyonnais.",
+      },
+      {
+        heading: "Médecins généralistes : le baromètre de la santé au quotidien",
+        body: "La densité de médecins généralistes pour 100 000 habitants varie du simple au triple selon les territoires (Atlas DREES 2024). Les mieux pourvus : Alpes-Maritimes, Bouches-du-Rhône, Bas-Rhin, Rhône. Les plus en tension : Sarthe, Eure, Oise, Moselle, certaines zones de Seine-Maritime. Avant de déménager, vérifiez sur Ameli.fr ou Doctolib si des médecins acceptent de nouveaux patients dans la ville cible — une vérification de 5 minutes qui peut éviter 5 ans de galère.",
+      },
+      {
+        heading: "Les déserts médicaux : où ne pas aller si la santé est prioritaire",
+        body: "Les zones en tension médicale identifiées par l'Observatoire des Zones d'Intervention Prioritaire (ZIP) couvrent environ 30 % du territoire. En clair : évitez de vous installer dans une zone rurale profonde sans CHU à moins de 45 minutes si vous avez plus de 60 ans ou une pathologie chronique. La Creuse, certaines zones du Lot, de l'Indre, de la Haute-Loire restent difficiles pour le suivi médical régulier.",
+      },
+      {
+        heading: "Les solutions : maisons de santé et téléconsultation",
+        body: "Dans les zones médicalement tendues, les Maisons de Santé Pluriprofessionnelles (MSP) ont explosé depuis 2020 : plus de 2 000 en France. Avant de décider, vérifiez sur le site de l'ARS régionale si une MSP est ouverte ou prévue dans votre commune cible. La téléconsultation (Doctolib, Medadom) permet désormais une consultation en moins de 30 minutes 7j/7 — ce qui change radicalement l'équation pour les soins courants.",
+      },
+      {
+        heading: "Nos recommandations 2025 pour un bon accès aux soins",
+        body: "Top 5 pour les retraités et familles prioritaisant la santé : 1. Angers (CHU + très bonne densité généralistes). 2. Limoges (CHU underrated, excellent ratio médecins/habitants). 3. Tours (CHU-CHRU, 3ème ville de France pour la densité médicale). 4. Rennes (CHU de référence, ville dynamique). 5. Clermont-Ferrand (CHU spécialisé en cardiologie et oncologie, prix accessibles).",
+      },
+    ],
+    relatedCities: ["angers", "limoges", "tours", "rennes", "clermont-ferrand"],
+    relatedGuides: [
+      "meilleures-villes-seniors-actifs-france-2025",
+      "meilleures-villes-pour-retraite-france-2025",
+      "meilleure-ville-famille-france",
+    ],
+    tags: ["santé", "hôpital", "CHU", "médecins", "désert médical", "famille", "retraite", "soins", "sécurité sociale", "médecin généraliste"],
+  },
+  {
+    slug: "vivre-en-normandie-interieure-guide-2025",
+    title: "Vivre en Normandie intérieure en 2025 : bocage, pommes et douceur de vivre",
+    metaTitle: "Vivre en Normandie intérieure 2025 — Guide | MeilleurVille",
+    metaDesc: "Lisieux, Vire, Flers, Les Andelys, Bernay : s'installer dans la Normandie intérieure loin du littoral. Nature, patrimoine et prix accessibles. Guide 2025.",
+    category: "region",
+    emoji: "🍎",
+    readMinutes: 9,
+    publishedAt: "2026-03-15",
+    updatedAt: "2026-04-15",
+    intro: "La Normandie intérieure — bocage, forêts de hêtres, vallées encaissées de la Seine et de l'Orne — est la face cachée de la région. Moins spectaculaire que le Mont-Saint-Michel ou les falaises d'Étretat, elle offre une qualité de vie authentique, des prix immobiliers très accessibles, et une nature préservée que le littoral commence à perdre.",
+    sections: [
+      {
+        heading: "Le bocage normand : Flers, Vire et la Normandie profonde",
+        body: "Le bocage normand du Calvados et de l'Orne est un paysage de haies, de vergers à cidre, de prairies à vaches et de villages de granit. Flers (Orne) et Vire-Normandie (Calvados) en sont les villes-centres. Prix : 1 000-1 500€/m². Accès à Caen et Alençon en moins d'une heure. Une vraie normalité provinciale, sans les foules des côtes normandes en été.",
+      },
+      {
+        heading: "Les Andelys et la vallée de la Seine : Monet en prime",
+        body: "La boucle de la Seine entre Vernon et Les Andelys est celle que Monet observait depuis Giverny. Les Andelys, sous le regard du Château-Gaillard (Richard Cœur de Lion), offre un cadre medieval-fluvial exceptionnel. À 100 km de Paris en voiture, 1h20 en car ou en voiture. Prix : 1 500-2 000€/m². Pour les Parisiens en quête du paysage impressionniste habitable.",
+      },
+      {
+        heading: "Bernay et l'Eure : les bourgs d'affaires discrets",
+        body: "Bernay, dans l'Eure, est une sous-préfecture active avec une belle abbatiale romane, un marché du samedi vivant, et une situation au carrefour de la Normandie. Prix : 1 300-1 800€/m². Bonne base pour travailler sur les zones d'activités d'Évreux-Rouen-Caen sans les prix de ces villes. Lisieux (pèlerinage, sainte Thérèse) est plus touristique mais garde un charme victorien.",
+      },
+      {
+        heading: "Tourisme vert et activités outdoor en Normandie intérieure",
+        body: "La Suisse Normande (Clécy, Pont-d'Ouilly) est un micro-relief de gorges et de cascades imprévu pour cette région plate. Escalade, canoe, randonnée pédestre, VTT : un terrain de jeu outdoor complet à 30 min de Caen. La forêt d'Écouves (50 000 ha, la plus grande forêt du Massif armoricain) est un poumon vert entre Alençon et Argentan.",
+      },
+    ],
+    relatedCities: ["flers", "les-andelys", "evreux", "caen", "alencon"],
+    relatedGuides: [
+      "vivre-en-normandie-guide-2025",
+      "normandie-vs-bretagne-comparatif-2025",
+      "meilleures-villes-maison-jardin-moins-200000-euros-2025",
+    ],
+    tags: ["Normandie", "bocage", "Flers", "Les Andelys", "Bernay", "cidre", "Orne", "Eure", "nature", "abordable", "Monet"],
+  },
 ];
 
 export const GUIDE_CATEGORIES = [
