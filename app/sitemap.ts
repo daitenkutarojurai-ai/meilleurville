@@ -515,6 +515,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ["longwy", "nancy"],
     ["saint-amand-montrond", "bourges"],
     ["saint-amand-montrond", "vierzon"],
+    ["bressuire", "niort"],
+    ["bressuire", "parthenay"],
+    ["ussel", "brive-la-gaillarde"],
+    ["ussel", "tulle"],
+    ["montbrison", "saint-etienne"],
+    ["montbrison", "roanne"],
+    ["pontoise", "cergy"],
+    ["pontoise", "argenteuil"],
+    ["romorantin-lanthenay", "blois"],
+    ["romorantin-lanthenay", "vendome"],
+    ["joigny", "auxerre"],
+    ["joigny", "sens"],
   ];
 
   const staticRoutes: MetadataRoute.Sitemap = [
