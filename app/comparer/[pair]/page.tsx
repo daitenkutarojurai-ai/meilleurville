@@ -542,6 +542,18 @@ const SEO_PAIRS = [
   ["romorantin-lanthenay", "vendome"],
   ["joigny", "auxerre"],
   ["joigny", "sens"],
+  ["privas", "aubenas"],
+  ["privas", "annonay"],
+  ["bagnols-sur-ceze", "nimes"],
+  ["bagnols-sur-ceze", "ales"],
+  ["muret", "toulouse"],
+  ["muret", "saint-gaudens"],
+  ["meaux", "fontainebleau"],
+  ["meaux", "provins"],
+  ["bourgoin-jallieu", "grenoble"],
+  ["bourgoin-jallieu", "vienne"],
+  ["gaillac", "albi"],
+  ["gaillac", "castres"],
 ];
 
 export function generateStaticParams() {
