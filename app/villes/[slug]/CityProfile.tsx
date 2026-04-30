@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import Link from "next/link";
 import { MapPin, Star, Sun, Thermometer, Users, TrendingUp, Home, Laptop, GraduationCap, Shield, Bus, TreePine, ChevronRight, ChevronDown } from "lucide-react";
 import { Badge } from "@/components/ui/Badge";
 import { Card } from "@/components/ui/Card";
@@ -12,8 +13,10 @@ import { SimilarCities } from "@/components/SimilarCities";
 import { getNeighborhoods } from "@/data/neighborhoods";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { getHousing } from "@/data/housing";
+import { RANKING_META, getRankedCities } from "@/lib/rankings";
 import { formatNumber, formatScore, scoreColor, cn } from "@/lib/utils";
 import type { CitySeed } from "@/data/cities-seed";
+import type { RankingSlug } from "@/lib/rankings";
 
 const SCORE_LABELS: Array<{ key: keyof CitySeed["scores"]; label: string; icon: React.ElementType }> = [
   { key: "life", label: "Qualité de vie", icon: Star },
@@ -363,6 +366,43 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                   <p className="text-xs text-[var(--text-tertiary)] mt-3">Médiane indicative · DVF 2024</p>
                 </Card>
               )}
+
+              {/* Thematic rankings */}
+              <Card>
+                <h3 className="text-sm font-semibold text-[var(--text-primary)] mb-3 flex items-center gap-2">
+                  <TrendingUp className="h-4 w-4 text-[var(--text-secondary)]" />
+                  Classements thématiques
+                </h3>
+                <div className="space-y-2">
+                  {(Object.keys(RANKING_META) as RankingSlug[]).slice(0, 6).map((slug) => {
+                    const meta = RANKING_META[slug];
+                    const ranked = getRankedCities(slug);
+                    const entry = ranked.find((e) => e.city.slug === city.slug);
+                    if (!entry) return null;
+                    return (
+                      <Link
+                        key={slug}
+                        href={`/classements/${slug}`}
+                        className="flex items-center justify-between hover:bg-[var(--bg-elevated)] rounded-lg px-2 py-1.5 -mx-2 transition-colors group"
+                      >
+                        <span className="text-xs text-[var(--text-secondary)] group-hover:text-[var(--text-primary)] transition-colors flex items-center gap-1.5">
+                          <span>{meta.emoji}</span>
+                          {meta.label}
+                        </span>
+                        <span className={`text-xs font-bold font-mono-data ${meta.color}`}>
+                          #{entry.rank}
+                        </span>
+                      </Link>
+                    );
+                  })}
+                </div>
+                <Link
+                  href="/classements"
+                  className="mt-3 block text-xs text-[var(--accent)] hover:underline"
+                >
+                  Voir tous les classements →
+                </Link>
+              </Card>
 
               {/* Similar cities */}
               <Card>
