@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
+import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { RANKING_META, getRankedCities, type RankingSlug } from "@/lib/rankings";
@@ -8,6 +9,7 @@ import { Badge } from "@/components/ui/Badge";
 import { Card } from "@/components/ui/Card";
 import { CheckCircle, TrendingUp, TrendingDown, Minus, Info } from "lucide-react";
 import { HOUSING } from "@/data/housing";
+import { GUIDES } from "@/data/guides";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -37,6 +39,23 @@ export default async function RankingPage({ params }: Props) {
   const ranked = getRankedCities(slug as RankingSlug);
   const top3 = ranked.slice(0, 3);
   const rest = ranked.slice(3);
+
+  // Map ranking category to relevant guide categories
+  const guideCategoryMap: Record<string, string[]> = {
+    teletravail: ["teletravail"],
+    famille: ["famille"],
+    nature: ["lifestyle", "region"],
+    etudiant: ["lifestyle"],
+    retraite: ["lifestyle"],
+    budget: ["budget"],
+    soleil: ["lifestyle", "region"],
+    securite: ["famille"],
+    culture: ["lifestyle", "region"],
+    mobilite: ["teletravail", "lifestyle"],
+    investissement: ["budget"],
+  };
+  const allowedCategories = guideCategoryMap[slug] ?? ["lifestyle"];
+  const relatedGuides = GUIDES.filter((g) => allowedCategories.includes(g.category)).slice(0, 3);
 
   const itemListJsonLd = {
     "@context": "https://schema.org",
@@ -273,6 +292,32 @@ export default async function RankingPage({ params }: Props) {
                 })}
             </div>
           </Card>
+
+          {/* Related guides */}
+          {relatedGuides.length > 0 && (
+            <div>
+              <p className="text-xs uppercase tracking-widest text-[var(--text-tertiary)] font-semibold mb-3">
+                Guides associés
+              </p>
+              <div className="space-y-2">
+                {relatedGuides.map((g) => (
+                  <Link
+                    key={g.slug}
+                    href={`/guides/${g.slug}`}
+                    className="flex items-start gap-3 rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 p-3 transition-colors group"
+                  >
+                    <span className="text-xl flex-shrink-0">{g.emoji}</span>
+                    <div className="min-w-0">
+                      <p className="text-xs font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors line-clamp-2 leading-snug">
+                        {g.title}
+                      </p>
+                      <p className="text-xs text-[var(--text-tertiary)] mt-0.5">{g.readMinutes} min</p>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
 
           {/* CTA */}
           <Card className={`${meta.bgColor} border ${meta.borderColor}`}>
