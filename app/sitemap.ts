@@ -220,6 +220,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ["boulogne-billancourt", "montreuil"],
     ["montreuil", "vincennes"],
     ["cergy", "versailles"],
+    ["neuilly-sur-seine", "vincennes"],
+    ["neuilly-sur-seine", "versailles"],
+    ["levallois-perret", "neuilly-sur-seine"],
+    ["saint-germain-en-laye", "versailles"],
+    ["saint-germain-en-laye", "fontainebleau"],
+    ["fontainebleau", "versailles"],
+    ["saint-denis", "montreuil"],
+    ["issy-les-moulineaux", "boulogne-billancourt"],
   ];
 
   const staticRoutes: MetadataRoute.Sitemap = [
