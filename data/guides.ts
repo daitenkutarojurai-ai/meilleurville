@@ -1058,6 +1058,198 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["Hauts-de-France", "Lille", "Arras", "Amiens", "Nord", "Flandres"],
   },
+  {
+    slug: "vivre-en-normandie-guide-2025",
+    title: "Vivre en Normandie en 2025 : Caen, Rouen, Le Havre, Bayeux — le guide complet",
+    metaTitle: "Vivre en Normandie 2025 : Caen, Rouen, Le Havre, Bayeux — Guide",
+    metaDesc:
+      "Qualité de vie, loyers, emploi, transports : notre guide complet pour s'installer en Normandie. Comparatif Caen vs Rouen vs Le Havre + avis d'habitants.",
+    category: "region",
+    emoji: "🏰",
+    readMinutes: 9,
+    publishedAt: "2025-03-10",
+    updatedAt: "2025-04-20",
+    intro:
+      "La Normandie est l'une des régions les plus sous-estimées de France pour s'y installer. À deux heures de Paris, avec une façade maritime de 600 km, des villes accessibles, une gastronomie incomparable et un patrimoine historique exceptionnel, elle attire de plus en plus de familles et de télétravailleurs. Ce guide vous aide à choisir entre Caen, Rouen, Le Havre, Bayeux et Alençon.",
+    sections: [
+      {
+        heading: "Caen : la capitale dynamique de la Basse-Normandie",
+        body: "Caen (score MeilleurVille : 7.2/10) est la ville qui cumule le mieux les avantages normands. Université de 30 000 étudiants, centre commercial restructuré, et une connexion Paris en 2h par le train. Le mémorial de Caen est un moteur touristique unique qui dynamise toute l'économie locale. Loyer médian T2 : 650€/mois, soit 40% moins cher qu'à Paris pour une ville qui offre réellement tout. Son point faible : un peu gris en hiver, et un tissu économique encore dépendant du secteur public.",
+      },
+      {
+        heading: "Rouen : l'alternative accessible à Paris",
+        body: "Rouen (7.0/10) est pour beaucoup de Parisiens la découverte qui change la vie. À 1h15 de Saint-Lazare, avec des loyers moitié prix et une vieille ville médiévale splendide (la place du Vieux-Marché, les colombages, la cathédrale), elle est l'une des villes françaises les plus photogéniques. Sa scène gastronomique est solide et sa vie culturelle active (Armada, Festival Normandie Impressionniste). Le revers : la pollution atmosphérique (vallée de la Seine industrielle) et des quartiers périphériques socialement contrastés.",
+      },
+      {
+        heading: "Le Havre : la surprise architecturale",
+        body: "Le Havre est classé au patrimoine UNESCO pour son centre reconstruit par Auguste Perret après-guerre — une architecture brutaliste lumineuse que beaucoup apprennent à aimer. C'est aussi le 2ème port de France, ce qui signifie des emplois industriels et logistiques solides. Le Havre (6.8/10) est l'une des villes françaises où le mètre carré reste le plus accessible pour une ville de cette taille. La plage de galets est à 10 min du centre, et Étretat à 25 min.",
+      },
+      {
+        heading: "Bayeux : la qualité de vie à taille humaine",
+        body: "Bayeux (7.5/10) est le secret le mieux gardé de la Normandie. Cette petite ville de 13 000 habitants autour de sa cathédrale et sa tapisserie offre une qualité de vie exceptionnelle : centre-ville piéton préservé, marché hebdomadaire vivant, et une campagne normande à portée de vélo. Idéale pour les télétravailleurs et les retraités fuyant les grandes villes. Les loyers y sont imbattables (T2 médian 500€) et l'immobilier abordable.",
+      },
+      {
+        heading: "Transport : comment se déplacer en Normandie",
+        body: "L'axe Paris-Caen-Cherbourg (2h20) et Paris-Rouen-Le Havre (2h) sont bien dotés en trains Intercités. La nouvelle ligne Normandie (projet LNPN) devrait rapprocher ces villes à terme. En revanche, les liaisons entre villes normandes sont souvent lentes : Caen-Rouen prend 2h en train avec correspondance, ce qui pousse beaucoup de Normands à utiliser la voiture. Le réseau Nomad (transport en commun régional) est honnête mais ne remplace pas un réseau TER dense.",
+      },
+      {
+        heading: "Gastronomie et art de vivre normand",
+        body: "La Normandie est une des régions où l'on mange le mieux en France : cidre, calvados, fromages (camembert, livarot, pont-l'évêque, neufchâtel), beurre AOP, moules, coquilles Saint-Jacques. Les marchés hebdomadaires sont parmi les plus riches de France. Côté nature : les falaises d'Étretat, le marais du Cotentin, la Suisse normande et le haras national du Pin offrent des possibilités de plein air variées qui surprennent les nouveaux arrivants.",
+      },
+    ],
+    relatedCities: ["caen", "rouen", "le-havre", "bayeux", "alencon"],
+    relatedGuides: [
+      "quitter-paris-guide-2025",
+      "budget-vivre-en-france-comparatif",
+      "vivre-sans-voiture-france-guide-2025",
+    ],
+    tags: ["Normandie", "Caen", "Rouen", "Le Havre", "Bayeux", "Alençon"],
+  },
+  {
+    slug: "vivre-en-bretagne-guide-2025",
+    title: "Vivre en Bretagne en 2025 : Rennes, Brest, Quimper, Saint-Malo — le guide",
+    metaTitle: "Vivre en Bretagne 2025 : Rennes, Brest, Quimper, Saint-Malo — Guide",
+    metaDesc:
+      "S'installer en Bretagne : qualité de vie, loyers, emploi, culture. Comparatif Rennes vs Brest vs Quimper vs Saint-Malo + conseils d'habitants.",
+    category: "region",
+    emoji: "⚓",
+    readMinutes: 9,
+    publishedAt: "2025-03-20",
+    updatedAt: "2025-04-25",
+    intro:
+      "La Bretagne est devenue l'une des destinations préférées des Français qui quittent les grandes métropoles. Entre sa façade atlantique spectaculaire, ses villes universitaires dynamiques, sa culture forte et ses prix immobiliers encore abordables (hors côte et grandes villes), la région offre un cadre de vie difficile à égaler. Ce guide vous aide à choisir votre ville bretonne.",
+    sections: [
+      {
+        heading: "Rennes : la star bretonne qui ne déçoit pas",
+        body: "Rennes (8.1/10) est régulièrement élue meilleure ville de France pour la qualité de vie. Elle mérite son titre : 70 000 étudiants, une scène startup et tech parmi les plus dynamiques de France (Rennes est la 3ème ville française en densité de startups), des transports en commun exemplaires (métro, BHNS), et une connexion TGV à Paris en 1h25. Le loyer médian T2 est à 760€ — encore raisonnable pour une ville de cette qualité. Son seul défaut : elle est victime de son succès, et les prix montent.",
+      },
+      {
+        heading: "Brest : la ville maritime au caractère unique",
+        body: "Brest (6.9/10) est l'anti-marketing de la Bretagne : grise, venteuse, construite dans la précipitation après sa destruction totale en 1944 — et pourtant attachante. C'est l'une des villes françaises avec la plus forte identité locale. Son port militaire est le premier de France. L'université de Bretagne Occidentale maintient une vie étudiante animée. Les loyers sont parmi les plus bas des villes universitaires (T2 médian 650€). Et la mer est partout, littéralement à 10 minutes de n'importe quel point de la ville.",
+      },
+      {
+        heading: "Quimper : la Bretagne profonde à taille humaine",
+        body: "Quimper (7.2/10) est l'âme de la Bretagne. Sa cathédrale gothique, ses maisons à colombages, son festival de Cornouaille, ses marchés colorés — tout ici respire l'identité bretonne. C'est une ville à taille humaine (60 000 hab.) qui offre tous les services d'une grande ville dans un cadre préservé. Idéale pour les familles et les retraités. L'aéroport de Quimper dessert Paris CDG en 1h, ce qui en fait un choix très sérieux pour les télétravilleurs fréquents.",
+      },
+      {
+        heading: "Saint-Malo : quand la mer devient un mode de vie",
+        body: "Saint-Malo (7.7/10) est la ville corsaire, l'intra-muros, les remparts, les grandes marées. C'est aussi une ville qui se dualise de plus en plus : une cité touristique premium l'été et une ville bretonne authentique le reste du temps. Les prix ont monté avec l'afflux de résidences secondaires, mais l'immobilier reste accessible comparé à la Côte d'Azur. Le lien TGV Paris-Saint-Malo (3h) s'est renforcé ces dernières années.",
+      },
+      {
+        heading: "La question du climat breton",
+        body: "Soyons honnêtes : la Bretagne reçoit plus de précipitations que la moyenne française (800-1200mm/an selon les zones). Mais «il pleut tout le temps en Bretagne» est un mythe. Brest reçoit environ 1200mm/an mais répartis sur 165 jours de pluie — ce qui signifie aussi des ciels mouvants, des lumières uniques et une végétation luxuriante que les climaphiles apprécient. Les Bretons de souche ont d'ailleurs un mot pour ça : «une belle averse bretonne».",
+      },
+      {
+        heading: "Culture et identité : vivre «breton»",
+        body: "La Bretagne a une identité culturelle forte qui transcende les générations : la langue bretonne (60 000 locuteurs), le fest-noz (danse traditionnelle, classé UNESCO), les pardons, les fest-deiz. Cette culture n'est pas folklorique : elle est vivante, revendiquée par les jeunes, et crée un sentiment d'appartenance rare. Les Bretons sont réputés pour leur solidarité locale — ce qui se traduit concrètement par des associations actives et une vie de quartier réelle.",
+      },
+    ],
+    relatedCities: ["rennes", "brest", "quimper", "saint-malo", "saint-brieuc", "lorient", "vannes"],
+    relatedGuides: [
+      "quitter-paris-guide-2025",
+      "vivre-en-france-teletravail-guide-2025",
+      "budget-vivre-en-france-comparatif",
+    ],
+    tags: ["Bretagne", "Rennes", "Brest", "Quimper", "Saint-Malo", "Vannes"],
+  },
+  {
+    slug: "centre-val-de-loire-tours-orleans-guide-2025",
+    title: "Vivre en Centre-Val de Loire : Tours, Orléans, Chartres — le guide 2025",
+    metaTitle: "Vivre en Centre-Val de Loire 2025 : Tours, Orléans, Chartres — Guide",
+    metaDesc:
+      "Tours, Orléans, Chartres, Blois : qualité de vie, loyers, châteaux de la Loire et douceur angevine. Guide complet pour s'installer en Centre-Val de Loire.",
+    category: "region",
+    emoji: "🏯",
+    readMinutes: 8,
+    publishedAt: "2025-04-01",
+    updatedAt: "2025-04-28",
+    intro:
+      "Le Centre-Val de Loire est la région la plus accessible de France depuis Paris — et pourtant la plus méconnue pour y habiter. Tours à 55 min de TGV, Orléans à 1h, Chartres à 1h15 : vous êtes en province, mais la capitale reste à portée de main pour vos rendez-vous. La région des châteaux, de la douceur de vivre et des loyers encore sages mérite votre attention.",
+    sections: [
+      {
+        heading: "Tours : la «jardin de la France» en ville",
+        body: "Tours (7.6/10) est une ville universitaire de 140 000 habitants avec une qualité de vie remarquable. Le vieux Tours (quartier Plumereau) est l'un des plus beaux centres médiévaux de France. L'université de Tours (30 000 étudiants) maintient une vie culturelle et nocturne active. À 55 min de Paris Montparnasse, Tours est la ville parfaite pour le télétravailleur qui veut «la province sans s'éloigner». Loyer T2 médian : 700€.",
+      },
+      {
+        heading: "Orléans : la plus parisienne des villes de province",
+        body: "Orléans (6.8/10) est la ville de France la plus proche de Paris accessible à moins de 600€/mois pour un T2. À 1h en TER depuis Paris-Austerlitz ou 45 min depuis Paris-les-Aubrais, elle est le choix pragmatique de nombreux Parisiens qui travaillent encore partiellement en présentiel. Le centre historique est beau (la rue Royale, la cathédrale Sainte-Croix, les bords de Loire). Le tramway dessert efficacement les quartiers résidentiels.",
+      },
+      {
+        heading: "Chartres : petite ville, grand patrimoine",
+        body: "Chartres (7.0/10) est une ville à taille humaine de 40 000 habitants dominée par l'une des plus belles cathédrales gothiques du monde. À 1h15 de Paris Montparnasse, elle est choisie par des familles parisiannes cherchant la maison avec jardin sans se couper de la capitale. L'Eure-et-Loir offre un immobilier parmi les moins chers d'Île-de-France élargie, avec un vrai sentiment de «ville de province» à 80km de Paris.",
+      },
+      {
+        heading: "Blois et la vallée des châteaux",
+        body: "Blois (6.5/10) est la ville qui offre le meilleur accès aux châteaux de la Loire (Chambord à 18 km, Cheverny à 12 km, Blois lui-même). C'est une ville modeste mais honnête, avec des loyers très bas (T2 médian 550€) et une qualité de vie correcte. Idéale pour les télétravailleurs qui veulent vivre dans un environnement patrimonial exceptionnel sans payer le prix fort des grandes villes.",
+      },
+      {
+        heading: "La «douceur angevine» : mythe ou réalité ?",
+        body: "La Loire est effectivement une des zones climatiques les plus clémentes de France : 2000h de soleil/an à Tours (autant que Lyon), des hivers doux (5°C en janvier), des étés chauds sans excès. La Loire Valley a un microclimat favorisé par le fleuve — c'est pour ça qu'on y a planté des vignes dès l'Antiquité (Vouvray, Chinon, Sancerre, Muscadet). Pour quelqu'un qui sort d'une ville nordique ou parisienne, le soleil ligérien fait réellement la différence.",
+      },
+      {
+        heading: "Emploi et économie locale",
+        body: "Le Centre-Val de Loire n'est pas une région économique puissante au sens où l'est l'Île-de-France ou l'Auvergne-Rhône-Alpes. Mais elle n'est pas sinistrée non plus : le nucléaire (Chinon, Dampierre, Saint-Laurent), l'agroalimentaire (Nestlé, Jacquet Brossard), le tourisme patrimonial, et la pharmacie (Cosyl à Chartres, Novo Nordisk à Tours) sont les piliers. Pour les profils remote, la région est excellente. Pour les profils qui cherchent un poste local, la palette est plus étroite.",
+      },
+    ],
+    relatedCities: ["tours", "orleans", "chartres", "blois" as unknown as string, "angers"],
+    relatedGuides: [
+      "quitter-paris-guide-2025",
+      "budget-vivre-en-france-comparatif",
+      "retraite-france-meilleures-villes-2025",
+    ],
+    tags: ["Centre-Val de Loire", "Tours", "Orléans", "Chartres", "Blois", "Loire"],
+  },
+  {
+    slug: "acheter-immobilier-france-meilleures-villes-2025",
+    title: "Acheter un bien immobilier en France : les 12 villes où investir en 2025",
+    metaTitle: "Meilleures villes pour acheter un logement en France — Classement 2025",
+    metaDesc:
+      "Prix au m², rendement locatif, dynamisme : notre classement des meilleures villes françaises pour acheter sa résidence principale ou un investissement locatif en 2025.",
+    category: "budget",
+    emoji: "🏠",
+    readMinutes: 10,
+    publishedAt: "2025-04-05",
+    updatedAt: "2025-04-28",
+    intro:
+      "Les taux immobiliers ont baissé en 2024-2025, relançant les velléités d'achat de nombreux Français. Mais où acheter ? Les grandes métropoles ont explosé, certaines villes moyennes ont rattrapé leur retard, et d'autres restent accessibles avec des fondamentaux solides. Ce guide analyse 12 villes françaises selon trois critères : prix actuel, potentiel de valorisation et rendement locatif brut.",
+    sections: [
+      {
+        heading: "Les critères qui comptent vraiment",
+        body: "Avant de parler de villes, rappelons les indicateurs clés : (1) le prix au m² — ce que vous payez aujourd'hui ; (2) le rendement locatif brut — loyer annuel / prix d'achat, en pourcentage ; (3) la tension locative — le ratio entre offre et demande, qui indique si vous trouverez facilement des locataires ; (4) le dynamisme démographique — une ville qui perd des habitants verra ses prix stagner ou baisser. Un bon investissement immobilier nécessite de croiser ces 4 facteurs, pas d'en optimiser un seul.",
+      },
+      {
+        heading: "Rennes : croissance soutenue, tension locative forte",
+        body: "Prix médian : 3 200€/m² (appartement), rendement brut T2 : 5,2%, tension locative : très forte (taux de vacance <2%). Rennes est la ville française où le ratio qualité de vie / dynamisme économique / prix reste le plus favorable en 2025. La population augmente de 1,5% par an, l'université génère une demande locative soutenue, et les projets urbains (Eurorennes, ligne b du métro) soutiennent les valeurs. Risque principal : les prix ont déjà beaucoup monté.",
+      },
+      {
+        heading: "Le Mans : le bon élève discret",
+        body: "Prix médian : 1 650€/m², rendement brut T2 : 7,8%. Le Mans est sous-estimée. À 50 min de Paris en TGV, avec une université de 20 000 étudiants et un tissu industriel solide (automobile, aéronautique), elle offre des rendements locatifs parmi les meilleurs de France pour une ville de cette taille. La demande locative étudiante est structurelle. C'est le choix de nombreux investisseurs parisiens qui veulent du rendement sans prendre trop de risque.",
+      },
+      {
+        heading: "Angers : entre Tours et Nantes, le bon compromis",
+        body: "Prix médian : 2 600€/m², rendement brut T2 : 5,8%. Angers cumule population étudiante importante (40 000 étudiants pour 150 000 habitants), dynamisme économique (bioéconomie, agriculture tech) et connexions TGV vers Paris (1h35) et Nantes (35 min). Ses prix ont moins monté que Nantes ou Rennes, laissant encore de la marge. La ville est régulièrement classée dans le top 5 des villes françaises pour la qualité de vie.",
+      },
+      {
+        heading: "Metz et Nancy : le potentiel lorrain inexploité",
+        body: "Metz (1 900€/m², rendement 6,8%) et Nancy (1 800€/m², rendement 7,2%) sont les deux villes lorraines qui méritent l'attention des investisseurs. Elles bénéficient de la dynamique frontalière avec le Luxembourg (salaires luxembourgeois, loyers français), de deux universités solides, et d'une connexion TGV Paris-Metz en 1h25. La région a longtemps souffert d'une image industrielle négative, mais la reconversion est en cours.",
+      },
+      {
+        heading: "Alençon et Laval : l'investissement contre-intuitif",
+        body: "Pour les investisseurs purs (rendement > qualité de vie personnelle), des villes comme Alençon (1 400€/m², rendement 8,5%) ou Laval (1 500€/m², rendement 8,2%) offrent des rendements exceptionnels. Elles ont des populations stables, peu de construction neuve (limitant la concurrence), et une demande locative locale solide. Le risque : la valorisation du capital sera limitée, et la gestion à distance nécessite un bon gestionnaire.",
+      },
+      {
+        heading: "Les pièges à éviter",
+        body: "Fuyez les villes en déclin démographique avancé (certaines villes du bassin minier, du textile, de la sidérurgie) où les prix bas cachent une demande inexistante. Méfiez-vous des «nouvelles métropoles» dont les prix ont déjà intégré tout l'optimisme (Bordeaux : 4 500€/m² — le rendement est structurellement faible). Et attention aux villes touristiques où la restriction des locations saisonnières (loi anti-Airbnb) change radicalement l'équation économique.",
+      },
+    ],
+    relatedCities: ["rennes", "le-mans", "angers", "metz", "nancy", "alencon", "laval"],
+    relatedGuides: [
+      "budget-vivre-en-france-comparatif",
+      "investissement-locatif-meilleures-villes-2025",
+      "quitter-paris-guide-2025",
+    ],
+    tags: ["immobilier", "achat", "investissement", "rendement locatif", "prix m²"],
+  },
 ];
 
 export const GUIDE_CATEGORIES = [
