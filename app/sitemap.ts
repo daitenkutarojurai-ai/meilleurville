@@ -575,6 +575,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ["le-blanc", "issoudun"],
     ["montmorillon", "poitiers"],
     ["montmorillon", "chatellerault"],
+    ["monistrol-sur-loire", "le-puy-en-velay"],
+    ["monistrol-sur-loire", "saint-etienne"],
+    ["embrun", "gap"],
+    ["embrun", "briancon"],
+    ["saint-girons", "pamiers"],
+    ["saint-girons", "foix"],
+    ["rethel", "charleville-mezieres"],
+    ["rethel", "sedan"],
+    ["commercy", "verdun"],
+    ["commercy", "bar-le-duc"],
+    ["la-souterraine", "gueret"],
+    ["la-souterraine", "aubusson"],
   ];
 
   const staticRoutes: MetadataRoute.Sitemap = [
