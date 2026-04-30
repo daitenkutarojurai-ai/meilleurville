@@ -968,6 +968,96 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["Occitanie", "Toulouse", "Montpellier", "Perpignan", "Sète", "Sud de la France"],
   },
+  {
+    slug: "vivre-dans-le-sud-france-guide-2025",
+    title: "Vivre dans le Sud de la France : le guide complet 2025",
+    metaTitle: "Vivre dans le Sud de la France 2025 — PACA, Occitanie : guide complet",
+    metaDesc: "Soleil, mer, qualité de vie : notre guide complet pour s'installer dans le sud de la France. Marseille, Nice, Montpellier, Toulon — où vivre vraiment dans le Sud ?",
+    category: "region",
+    emoji: "🌊",
+    readMinutes: 10,
+    publishedAt: "2025-02-15",
+    updatedAt: "2025-04-30",
+    intro: "Le Sud de la France fait rêver la moitié de la population française. Mais le «Sud», c'est vaste — PACA et Occitanie regroupent 15 grandes villes très différentes. Voici la carte honnête de ce qui vous attend, soleil et ombres compris.",
+    sections: [
+      {
+        heading: "PACA vs Occitanie : deux Suds très différents",
+        body: "La Provence-Alpes-Côte d'Azur est le Sud cher et cosmopolite : Marseille, Nice, Aix, Toulon. Les loyers sont élevés (Nice : T2 médian 1 050€), les hivers doux (Nice : 12°C en janvier), le style de vie ultra-méditerranéen. L'Occitanie est le Sud plus abordable : Montpellier, Toulouse, Perpignan, Nîmes. Même soleil, loyers 30 à 50% moins chers, mais réseau de transport moins dense hors Toulouse et Montpellier. Le choix entre les deux dépend de votre budget et de vos priorités professionnelles.",
+      },
+      {
+        heading: "Marseille : la vraie surprise",
+        body: "Score MeilleurVille : 7.2/10. Marseille est incomprise. C'est la ville la plus diverse de France, avec une vitalité culturelle et gastronomique unique. Le mouvement de fond est positif : les friches industrielles deviennent des quartiers créatifs, les prix de l'immobilier ont rattrapé Bordeaux (3 500€/m² en moyenne) mais restent inférieurs à Nice ou Aix. Le T2 médian est à 850€. La ville a de vrais problèmes d'insécurité dans certains quartiers — mais Paris aussi. Le vrai Marseille, c'est le 13e, le 8e, le 6e, le Panier rénové — pas les clichés.",
+      },
+      {
+        heading: "Nice : le lifestyle premium",
+        body: "Score MeilleurVille : 7.8/10. Nice est la ville la plus chère du Sud hors Paris. Le T2 médian atteint 1 050€, et l'achat dépasse 5 500€/m² en moyenne. Pour ce prix, vous avez : la Promenade des Anglais, 2 700h de soleil/an, une gastronomie exceptionnelle (socca, pissaladière, bouillabaisse niçoise). La ville a un réseau de tramway efficace et un aéroport international majeur. Le bassin d'emploi reste limité hors tourisme et digital — parfait pour retraités et télétravailleurs aisés.",
+      },
+      {
+        heading: "Aix-en-Provence : le secret le mieux gardé",
+        body: "Score MeilleurVille : 8.3/10. Aix est systématiquement sous-estimée dans les classements parce que son image est trop «bourgeoise». Mais ses atouts sont réels : sécurité parmi les meilleures de France, patrimoine exceptionnel, 300 jours de soleil, université réputée. Le T2 médian est de 900€ — moins cher que Nice pour une qualité de vie comparable, avec un accès direct à Marseille (30 min) et son CHU.",
+      },
+      {
+        heading: "Montpellier vs Marseille : la grande question",
+        body: "C'est la comparaison que tout le monde fait avant de s'installer dans le Sud. Montpellier : plus calme, plus étudiante, meilleure qualité de l'air, CHU de référence. Loyer T2 médian 780€. Marseille : plus grande métropole, plus de diversité culturelle, gastronomie plus intense, plages de calanques inégalées. Loyer T2 médian 850€. Notre verdict : Montpellier pour les familles et les retraités. Marseille pour ceux qui aiment la vie de grande ville et peuvent choisir leur quartier avec soin.",
+      },
+      {
+        heading: "Ce que personne ne vous dit sur le Sud",
+        body: "La canicule. Les estivants. Le pastis. Mais aussi : les hivers venteux sur la côte varoises (mistral), les incendies récurrents qui menacent les zones périurbaines, la congestion routière chronique de Nice et Marseille, les moustiques tigres entre mai et octobre, et un marché de l'emploi plus étroit que dans les grandes métropoles du nord. Le Sud est une récompense méritée — pas une solution de facilité.",
+      },
+    ],
+    relatedCities: ["marseille", "nice", "aix-en-provence", "montpellier", "toulon", "perpignan"],
+    relatedGuides: [
+      "retraite-france-meilleures-villes-2025",
+      "vivre-en-occitanie-guide-2025",
+      "budget-vivre-en-france-comparatif",
+    ],
+    tags: ["Sud de la France", "PACA", "Provence", "Méditerranée", "Marseille", "Nice"],
+  },
+  {
+    slug: "hauts-de-france-lille-arras-amiens-guide-2025",
+    title: "Vivre dans les Hauts-de-France : Lille, Arras, Amiens — Guide 2025",
+    metaTitle: "Vivre dans les Hauts-de-France 2025 — Lille, Arras, Amiens : guide complet",
+    metaDesc: "Immobilier abordable, Eurotunnel, Bruxelles à 35 min : les Hauts-de-France sont la région la plus sous-estimée. Notre guide honnête pour s'y installer.",
+    category: "region",
+    emoji: "🌾",
+    readMinutes: 8,
+    publishedAt: "2025-03-20",
+    updatedAt: "2025-04-29",
+    intro: "Les Hauts-de-France sont la région la plus sous-estimée de France pour le rapport qualité/prix. Lille est une métropole internationale à 35 min de Bruxelles, 1h de Paris et 1h25 de Londres — mais personne n'en parle. Ce guide corrige ce biais.",
+    sections: [
+      {
+        heading: "Lille : la métropole européenne que vous avez ignorée",
+        body: "Score MeilleurVille : 8.0/10. Lille est la 4e métropole de France par les flux économiques, devant Bordeaux. Son réseau Eurostar (Paris en 1h, Londres en 1h25, Bruxelles en 35 min) en fait un hub européen unique. Le T2 médian est de 700€ — 30% moins cher que Lyon pour une offre culturelle comparable (la Braderie de Lille, l'Euralille, la scène techno). La ville attire de plus en plus de cadres et start-ups qui veulent l'accessibilité sans les loyers parisiens.",
+      },
+      {
+        heading: "Arras : le bijou flamand méconnu",
+        body: "Score MeilleurVille : 6.6/10. Arras est l'une des plus belles petites villes de France avec ses arcades baroques flamandes classées UNESCO. À 50 min de Paris en TGV, 30 min de Lille et 20 min de la mer (Baie de Somme), la ville offre une qualité de vie réelle pour un T2 médian de 540€. C'est le choix idéal pour les télétravailleurs parisiens qui veulent espace, budget et beauté architecturale sans sacrifier l'accessibilité.",
+      },
+      {
+        heading: "Amiens : la cathédrale et le reste",
+        body: "Score MeilleurVille : 6.2/10. Amiens a la plus grande cathédrale gothique de France (plus haute voûte du monde) et l'une des universités les plus dynamiques du nord. Le T2 médian est à 570€, avec un parc des Hortillonnages unique en Europe (jardins flottants). La ville est à 1h20 de Paris Saint-Lazare, ce qui attire les ménages qui recherchent l'espace à prix raisonnable.",
+      },
+      {
+        heading: "Dunkerque et Boulogne : les villes maritimes",
+        body: "Dunkerque (6.0/10) fait sa mue post-industrielle et attire des projets industriels majeurs (batteries électriques, chimie verte). C'est l'une des rares villes de France où le tissu économique local crée des emplois industriels bien rémunérés. Boulogne-sur-Mer (6.1/10) est le 1er port de pêche de France — moins urbanisée mais avec une authenticité maritime et des loyers parmi les plus abordables du pays (T2 médian 450€).",
+      },
+      {
+        heading: "Le climat : ni si terrible, ni si parfait",
+        body: "Les Hauts-de-France ont une mauvaise réputation climatique souvent exagérée. Il y fait effectivement plus gris qu'en Occitanie (1 650h de soleil/an contre 2 800h à Perpignan), mais les hivers sont doux (Lille : 4°C en janvier, jamais vraiment froid) et les étés agréables (20°C en juillet, sans canicule). La pluie est répartie toute l'année — pas concentrée comme en Bretagne. L'air marin entretient une végétation luxuriante que vous n'imaginez pas depuis le Sud.",
+      },
+      {
+        heading: "Pourquoi ça ne va que s'améliorer",
+        body: "Les Hauts-de-France ont vu leur image se transformer depuis 2015. Lille attire des sièges sociaux, le Canal Seine-Nord Europe (ouverture 2030) va transformer la logistique régionale, et l'industrie verte (Nord-Pas-de-Calais est devenu «Gigafactory Valley») crée des emplois tech dans une région traditionnellement industrielle. Pour les profils ingénierie, logistique et industrie, c'est l'une des régions françaises avec le meilleur rapport salaire/coût de la vie.",
+      },
+    ],
+    relatedCities: ["lille", "arras", "amiens", "dunkerque", "boulogne-sur-mer"],
+    relatedGuides: [
+      "budget-vivre-en-france-comparatif",
+      "vivre-sans-voiture-france-guide-2025",
+      "quitter-paris-guide-2025",
+    ],
+    tags: ["Hauts-de-France", "Lille", "Arras", "Amiens", "Nord", "Flandres"],
+  },
 ];
 
 export const GUIDE_CATEGORIES = [
