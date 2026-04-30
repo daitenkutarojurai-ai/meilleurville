@@ -491,6 +491,16 @@ const SEO_PAIRS = [
   ["condom", "auch"],
   ["moissac", "montauban"],
   ["moissac", "agen"],
+  ["brioude", "le-puy-en-velay"],
+  ["brioude", "issoire"],
+  ["issoudun", "chateauroux"],
+  ["issoudun", "bourges"],
+  ["abbeville", "amiens"],
+  ["abbeville", "dieppe"],
+  ["les-andelys", "rouen"],
+  ["les-andelys", "evreux"],
+  ["dreux", "chartres"],
+  ["florac-trois-rivieres", "mende"],
 ];
 
 export function generateStaticParams() {
