@@ -81,6 +81,10 @@ export const HOUSING: Record<string, HousingData> = {
   macon:                    { avgRentT1: 430, avgRentT2: 600,  avgRentT3: 800,  avgBuyPriceM2: 2100 },
   "bourg-en-bresse":        { avgRentT1: 450, avgRentT2: 630,  avgRentT3: 840,  avgBuyPriceM2: 2300 },
   evreux:                   { avgRentT1: 440, avgRentT2: 610,  avgRentT3: 820,  avgBuyPriceM2: 2000 },
+  antibes:                  { avgRentT1: 750, avgRentT2: 1050, avgRentT3: 1450, avgBuyPriceM2: 5200 },
+  thionville:               { avgRentT1: 480, avgRentT2: 660,  avgRentT3: 880,  avgBuyPriceM2: 2400 },
+  arras:                    { avgRentT1: 390, avgRentT2: 540,  avgRentT3: 720,  avgBuyPriceM2: 1800 },
+  carcassonne:              { avgRentT1: 380, avgRentT2: 530,  avgRentT3: 710,  avgBuyPriceM2: 1500 },
 };
 
 export function getHousing(slug: string): HousingData | undefined {

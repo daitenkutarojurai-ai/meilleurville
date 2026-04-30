@@ -107,6 +107,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ["bourg-en-bresse", "annecy"],
     ["evreux", "rouen"],
     ["evreux", "caen"],
+    ["antibes", "nice"],
+    ["antibes", "cannes"],
+    ["thionville", "metz"],
+    ["thionville", "nancy"],
+    ["arras", "lille"],
+    ["arras", "amiens"],
+    ["carcassonne", "perpignan"],
+    ["carcassonne", "toulouse"],
   ];
 
   const staticRoutes: MetadataRoute.Sitemap = [
