@@ -671,6 +671,131 @@ export const GUIDES: Guide[] = [
     relatedGuides: ["quitter-paris-guide-2025", "vivre-en-france-teletravail-guide-2025"],
     tags: ["déménagement", "quitter Paris", "télétravail", "province", "expatrié"],
   },
+  {
+    slug: "vivre-en-normandie-guide-2025",
+    title: "Vivre en Normandie en 2025 : Rouen, Caen ou Le Havre ?",
+    metaTitle: "Vivre en Normandie 2025 — Rouen, Caen, Le Havre : laquelle choisir ?",
+    metaDesc:
+      "Guide complet pour s'installer en Normandie : comparatif Rouen vs Caen vs Le Havre, loyers, qualité de vie, TGV Paris, économie locale. Tout ce qu'il faut savoir avant de déménager.",
+    category: "region",
+    emoji: "⚓",
+    readMinutes: 7,
+    publishedAt: "2025-03-20",
+    updatedAt: "2025-04-28",
+    intro:
+      "La Normandie souffre d'une image injuste. On y pense pluie, pommes et plages du Débarquement — alors que la région offre l'une des meilleures qualités de vie de France à moins de 2h de Paris. Rouen, Caen et Le Havre sont trois profils radicalement différents. Ce guide vous aide à choisir selon votre situation.",
+    sections: [
+      {
+        heading: "Rouen : la métropole qui ressemble à Paris mais coûte deux fois moins cher",
+        body: "Score qualité de vie MeilleurVille : 7.0/10. Rouen est la grande surprise de la Normandie. Métropole de 500 000 habitants, elle concentre tous les atouts d'une vraie ville : scène culturelle dense (le 106, l'opéra, les musées), université active, tissu commercial complet. Le TGV la place à 1h10 de Paris Saint-Lazare — parfait pour les hybrides. Loyer T2 médian : 680€. Le bémol ? La pollution atmosphérique, amplifiée par la vallée de la Seine et les industries pétrochimiques.",
+      },
+      {
+        heading: "Caen : la ville la plus «vivable» de Normandie",
+        body: "Score qualité de vie : 7.0/10. Caen est la ville des familles et des étudiants. Son université accueille 30 000 étudiants, ce qui maintient une ambiance jeune et une vie nocturne décente. Les espaces verts sont nombreux, les quartiers résidentiels calmes et le prix de l'immobilier parmi les plus accessibles de France (T2 médian : 650€). Paris est à 2h en train — trop loin pour le quotidien hybride, mais parfait pour une vie décorrélée de la capitale.",
+      },
+      {
+        heading: "Le Havre : la ville patrimoniale méconnue",
+        body: "Score qualité de vie : 6.8/10. Le Havre est la ville surprenante de ce trio. Classé au Patrimoine mondial UNESCO pour son architecture d'après-guerre signée Auguste Perret, il connaît une renaissance culturelle portée par l'ESAM et la scène artistique. Son port en fait un hub économique solide avec des emplois stables dans la logistique et l'industrie. Loyer T2 médian : 580€ — un des plus bas de la région. L'accès à la mer est immédiat : les plages d'Étretat sont à 30 min.",
+      },
+      {
+        heading: "Le facteur décisif : le TGV",
+        body: "Si vous êtes en mode hybride Paris, la distance en train est cruciale. Rouen (1h10) est la seule option réaliste pour des allers-retours fréquents. Caen (2h) et Le Havre (2h10) sont mieux adaptés à des vies entièrement délocalisées. La ligne ferroviaire Paris-Rouen est dense (un train toutes les 30 min aux heures de pointe) et régulière — un avantage concret par rapport à d'autres régions.",
+      },
+      {
+        heading: "Notre verdict selon votre profil",
+        body: "Hybride Paris 2-3j/semaine : Rouen sans hésitation. Remote total ou salarié local : Caen pour les familles, Le Havre pour les budgets serrés ou les profils maritime/industriel. Investissement locatif : Le Havre offre les meilleures rentabilités brutes (5 à 7%). Le Havre est aussi la ville qui monte le plus vite — bonne nouvelle pour les primo-investisseurs.",
+      },
+    ],
+    relatedCities: ["rouen", "caen", "le-havre"],
+    relatedGuides: ["quitter-paris-guide-2025", "vivre-en-france-teletravail-guide-2025"],
+    tags: ["Normandie", "Rouen", "Caen", "Le Havre", "déménagement", "région"],
+  },
+  {
+    slug: "cote-atlantique-bordeaux-la-rochelle-bayonne",
+    title: "Côte Atlantique : Bordeaux, La Rochelle ou Bayonne — Laquelle vous correspond ?",
+    metaTitle: "Bordeaux vs La Rochelle vs Bayonne — Vivre sur la Côte Atlantique 2025",
+    metaDesc:
+      "Comparatif complet des trois grandes villes de la côte atlantique française : Bordeaux (métropole), La Rochelle (port), Bayonne (Pays Basque). Loyers, qualité de vie, profils d'habitants.",
+    category: "comparaison",
+    emoji: "🌊",
+    readMinutes: 8,
+    publishedAt: "2025-04-01",
+    updatedAt: "2025-04-28",
+    intro:
+      "La côte atlantique concentre trois des villes les plus convoitées de France. Bordeaux la métropole branchée, La Rochelle la cité portuaire ensoleillée, Bayonne la porte du Pays Basque. Chacune cible un profil différent — voici lequel vous correspond.",
+    sections: [
+      {
+        heading: "Bordeaux : la métropole qui a tout, mais qui le fait payer",
+        body: "Score MeilleurVille : 8.0/10. Bordeaux est l'une des grandes métropoles françaises les plus attractives. En 10 ans, elle a connu une gentrification spectaculaire : les loyers ont bondi de 40% et le prix au m² avoisine 4 500€. Ce n'est plus «la province accessible» d'avant 2015. En échange, vous avez : un tramway efficace, une scène gastronomique et culturelle de premier ordre, la mer à 45 min et les vignobles en vélo. Profil type : cadre en télétravail partiel, famille avec revenu dual.",
+      },
+      {
+        heading: "La Rochelle : soleil, vélos et 75 000 étudiants",
+        body: "Score MeilleurVille : 7.9/10. La Rochelle est la ville qui surprend. Avec 340 jours de soleil par an (plus que Nice selon certaines statistiques), un réseau de vélos exemplaire (30% des déplacements), une université dynamique et un port de plaisance de carte postale, elle cumule les atouts à un prix encore raisonnable : T2 médian à 870€. Le hic : le marché immobilier s'est tendu depuis le COVID et les prix à l'achat ont doublé en 8 ans. Profil type : remote worker lifestyle, retraité actif, famille primo-accédante.",
+      },
+      {
+        heading: "Bayonne : la ville la plus singulière des trois",
+        body: "Score MeilleurVille : 7.8/10. Bayonne n'est pas une métropole — elle est la capitale d'un territoire, le Pays Basque français. Ce qui la distingue : une identité culturelle forte (fêtes de Bayonne, gastronomie, pelote basque), une économie locale résiliente, et une proximité avec Biarritz et la côte à 8 km. Le revers : le marché immobilier est devenu tendu avec l'afflux de Parisiens post-COVID. T2 médian : 850€. Profil type : lifestyle fort, attachement au terroir, télétravail ou indépendant.",
+      },
+      {
+        heading: "Le tableau comparatif en 4 critères",
+        body: "Budget logement (loyer T2) : Le Havre 580€ < La Rochelle 870€ ≈ Bayonne 850€ < Bordeaux 950€. Transports Paris : Bordeaux 2h TGV ≈ La Rochelle 2h10 TGV < Bayonne 2h TGV. Ensoleillement : La Rochelle (2 400h/an) ≈ Bayonne (2 000h) < Bordeaux (2 050h). Métropole / services : Bordeaux >>> La Rochelle > Bayonne.",
+      },
+      {
+        heading: "Notre recommandation selon votre profil",
+        body: "Vous cherchez une vraie métropole avec une vie urbaine complète → Bordeaux. Vous voulez le soleil, le vélo et une ville à taille humaine → La Rochelle. Vous cherchez une identité culturelle forte et la montagne à 1h → Bayonne. Pour l'investissement locatif, La Rochelle reste la meilleure option en 2025 (rendement 4-5%, demande locative étudiante stable).",
+      },
+    ],
+    relatedCities: ["bordeaux", "la-rochelle", "bayonne", "biarritz", "pau"],
+    relatedGuides: ["quitter-paris-guide-2025", "vivre-bord-mer-france-guide"],
+    tags: ["côte atlantique", "Bordeaux", "La Rochelle", "Bayonne", "comparaison", "déménagement"],
+  },
+  {
+    slug: "investissement-locatif-meilleures-villes-2025",
+    title: "Investissement locatif 2025 : les 8 meilleures villes françaises",
+    metaTitle: "Meilleures villes investissement locatif France 2025 — Rendement & Tension",
+    metaDesc:
+      "Classement des meilleures villes françaises pour investir dans l'immobilier locatif en 2025 : rendement brut, tension locative, prix au m², perspectives de valorisation.",
+    category: "budget",
+    emoji: "🏘️",
+    readMinutes: 9,
+    publishedAt: "2025-04-10",
+    updatedAt: "2025-04-28",
+    intro:
+      "Avec des taux en baisse et un marché immobilier qui cherche son équilibre, 2025 offre des opportunités concrètes pour l'investisseur locatif bien informé. Mais toutes les villes ne se valent pas : certaines ont une rentabilité brute de 3%, d'autres de 7%. Ce guide classe les 8 meilleures villes françaises selon 4 critères : rendement brut, tension locative, perspectives de valorisation et risque de vacance.",
+    sections: [
+      {
+        heading: "Comment évaluer la qualité d'un investissement locatif",
+        body: "Le rendement brut (loyer annuel / prix d'achat) est le premier indicateur mais pas le seul. Une ville avec 7% brut mais 20% de vacance locative est pire qu'une ville à 4% brut avec un taux de vacance de 2%. Les 4 critères à croiser : rendement brut, tension locative (rapport offre/demande), dynamisme démographique (population croissante ou décroissante) et qualité du tissu économique local.",
+      },
+      {
+        heading: "Mulhouse : le rendement le plus élevé de France",
+        body: "Rendement brut moyen : 7 à 9%. Prix d'achat T2 : 70 000 à 100 000€. Loyer médian T2 : 580€/mois. Mulhouse est la ville des investisseurs à la recherche de cash-flow immédiat. Les prix restent très bas malgré une demande locative soutenue par la présence de l'Université de Haute-Alsace et des zones industrielles. Le risque : la tension sociale dans certains quartiers et une valorisation faible à long terme. À réserver aux investisseurs chevronnés qui savent sélectionner les bons secteurs.",
+      },
+      {
+        heading: "Le Havre : la ville qui monte",
+        body: "Rendement brut : 5 à 7%. Prix T2 : 90 000 à 140 000€. Loyer T2 : 580€. Le Havre combine des prix encore accessibles avec une revalorisation en cours (son classement UNESCO attire de nouveaux investisseurs, la fibre est déployée massivement). La demande locative est portée par le port, l'université et les étudiants. Profil idéal pour un investisseur à horizon 10-15 ans.",
+      },
+      {
+        heading: "Limoges et Poitiers : sécurité et régularité",
+        body: "Rendement brut : 5 à 6.5%. Ces deux villes universitaires de taille moyenne offrent des marchés locatifs stables sans les à-coups des grandes métropoles. À Limoges, un T2 s'achète entre 80 000 et 110 000€ pour un loyer de 500 à 600€. La demande locative est structurellement soutenue par les 18 000 étudiants de l'université. Peu spectaculaire, mais fiable.",
+      },
+      {
+        heading: "Toulouse et Montpellier : croissance démographique = sécurité locative",
+        body: "Rendement brut : 3.5 à 4.5%. Ces deux métropoles ont des rendements plus modestes mais une valorisation patrimoniale forte. Toulouse gagne 15 000 habitants par an, Montpellier 7 000. Les prix ont monté mais le déséquilibre offre/demande reste structurel. À privilégier si vous cherchez la plus-value plutôt que le cash-flow immédiat.",
+      },
+      {
+        heading: "Le trio à éviter pour un premier investissement",
+        body: "Paris : rendements de 2 à 3%, réglementation forte (encadrement des loyers), prix d'entrée prohibitifs. Nice : forte saisonnalité, prix élevés, marché tendu pour les locataires de longue durée. Cannes : marché ultra-saisonnier, inadapté à l'investissement locatif classique. Ces villes ont des qualités intrinsèques, mais elles ne sont pas optimales pour un investisseur cherchant régularité et rendement.",
+      },
+      {
+        heading: "Le bon moment pour investir en 2025",
+        body: "Avec des taux directeurs en baisse (-1 point en 12 mois) et des prix immobiliers stabilisés dans la plupart des villes secondaires, 2025 offre la meilleure fenêtre d'entrée depuis 2016. Les vendeurs acceptent plus de négociation, les acheteurs récupèrent du pouvoir d'achat. La stratégie recommandée : cibler des T2 dans les villes universitaires à tension locative forte, avec un prix d'achat permettant un rendement net (après charges) d'au moins 3.5%.",
+      },
+    ],
+    relatedCities: ["mulhouse", "le-havre", "limoges", "toulouse", "montpellier", "poitiers"],
+    relatedGuides: ["budget-vivre-en-france-comparatif", "quitter-paris-guide-2025"],
+    tags: ["investissement locatif", "immobilier", "rendement", "SCPI", "patrimoine"],
+  },
 ];
 
 export const GUIDE_CATEGORIES = [
