@@ -95,7 +95,7 @@ const FAQ_SECTIONS = [
     questions: [
       {
         q: "Comment fonctionne le comparateur de villes ?",
-        a: "Le comparateur met côte à côte deux villes françaises sur tous les critères de qualité de vie : scores détaillés, données météo, loyers, population. Accédez-y via /comparer ou depuis le profil de n'importe quelle ville. Plus de 90 paires de villes sont précalculées pour un accès instantané.",
+        a: "Le comparateur met côte à côte deux villes françaises sur tous les critères de qualité de vie : scores détaillés, données météo, loyers, population. Accédez-y via /comparer ou depuis le profil de n'importe quelle ville. Plus de 160 paires de villes sont précalculées pour un accès instantané.",
       },
       {
         q: "Comment fonctionne le quiz IA ?",
@@ -124,7 +124,7 @@ const FAQ_SECTIONS = [
       },
       {
         q: "Comment fonctionne la carte interactive ?",
-        a: "La carte interactive (/carte) affiche les 90+ villes analysées avec un code couleur selon leur score (vert = excellent, ambre = bon, rouge = à améliorer). Vous pouvez filtrer l'affichage par critère (nature, transport, coût...) et cliquer sur chaque ville pour accéder à son profil. La taille du cercle est proportionnelle au score.",
+        a: "La carte interactive (/carte) affiche les 95+ villes analysées avec un code couleur selon leur score (vert = excellent, ambre = bon, rouge = à améliorer). Vous pouvez filtrer l'affichage par critère (nature, transport, coût...) et cliquer sur chaque ville pour accéder à son profil. La taille du cercle est proportionnelle au score.",
       },
     ],
   },

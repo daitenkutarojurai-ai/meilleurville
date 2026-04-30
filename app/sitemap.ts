@@ -133,6 +133,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ["millau", "montpellier"],
     ["cognac", "bordeaux"],
     ["cognac", "angouleme"],
+    ["epinal", "nancy"],
+    ["epinal", "metz"],
+    ["montelimar", "valence"],
+    ["montelimar", "avignon"],
+    ["figeac", "cahors"],
+    ["figeac", "rodez"],
+    ["romans-sur-isere", "valence"],
+    ["romans-sur-isere", "grenoble"],
+    ["saintes", "rochefort"],
+    ["saintes", "angouleme"],
   ];
 
   const staticRoutes: MetadataRoute.Sitemap = [
