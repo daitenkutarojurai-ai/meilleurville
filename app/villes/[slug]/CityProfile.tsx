@@ -374,7 +374,7 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                   Classements thématiques
                 </h3>
                 <div className="space-y-2">
-                  {(Object.keys(RANKING_META) as RankingSlug[]).slice(0, 6).map((slug) => {
+                  {(Object.keys(RANKING_META) as RankingSlug[]).map((slug) => {
                     const meta = RANKING_META[slug];
                     const ranked = getRankedCities(slug);
                     const entry = ranked.find((e) => e.city.slug === city.slug);

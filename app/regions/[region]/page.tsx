@@ -6,6 +6,7 @@ import { Footer } from "@/components/Footer";
 import { Badge } from "@/components/ui/Badge";
 import { CityCard } from "@/components/CityCard";
 import { CITIES_SEED } from "@/data/cities-seed";
+import { GUIDES } from "@/data/guides";
 import type { City } from "@/lib/types";
 
 type Props = { params: Promise<{ region: string }> };
@@ -128,6 +129,10 @@ export default async function RegionPage({ params }: Props) {
   const regionDesc = REGION_DESCRIPTIONS[regionSlug];
   const departments = [...new Set(cities.map((c) => c.department))];
   const topCity = cities[0];
+
+  const regionGuide = GUIDES.find((g) =>
+    g.category === "region" && g.relatedCities.some((slug) => cities.some((c) => c.slug === slug))
+  );
 
   const baseUrl = process.env.NEXT_PUBLIC_BASE_URL ?? "https://meilleurville.fr";
 
@@ -282,6 +287,14 @@ export default async function RegionPage({ params }: Props) {
           <Link href="/regions" className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors">
             ← Toutes les régions
           </Link>
+          {regionGuide && (
+            <Link
+              href={`/guides/${regionGuide.slug}`}
+              className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] hover:border-[var(--accent)]/40 transition-colors"
+            >
+              {regionGuide.emoji} Guide {regionName.split("-")[0]} →
+            </Link>
+          )}
           <Link href="/classements" className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors">
             Classements thématiques →
           </Link>
