@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { MapPin, Star, Sun, Thermometer, Users, TrendingUp, Home, Laptop, GraduationCap, Shield, Bus, TreePine, ChevronRight } from "lucide-react";
+import { MapPin, Star, Sun, Thermometer, Users, TrendingUp, Home, Laptop, GraduationCap, Shield, Bus, TreePine, ChevronRight, ChevronDown } from "lucide-react";
 import { Badge } from "@/components/ui/Badge";
 import { Card } from "@/components/ui/Card";
 import { ScoreBar } from "@/components/ui/ScoreBar";
@@ -66,6 +66,7 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
   const housing = getHousing(city.slug);
   const [activeTab, setActiveTab] = useState("overview");
   const [showReviewModal, setShowReviewModal] = useState(false);
+  const [openFaq, setOpenFaq] = useState<number | null>(null);
 
   const stage = LIFE_STAGES.find((s) => s.id === activeStage)!;
 
@@ -82,9 +83,21 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
       <section className="bg-gradient-to-b from-[var(--bg-elevated)] to-[var(--bg-canvas)] py-12">
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <div className="flex flex-wrap items-center gap-2 text-sm text-[var(--text-secondary)] mb-4">
-            <span className="hover:text-[var(--text-primary)] cursor-pointer">Villes</span>
+            <a href="/villes" className="hover:text-[var(--text-primary)] transition-colors">Villes</a>
             <ChevronRight className="h-3.5 w-3.5" />
-            <span className="hover:text-[var(--text-primary)] cursor-pointer">{city.region}</span>
+            <a
+              href={`/regions/${city.region.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}`}
+              className="hover:text-[var(--text-primary)] transition-colors"
+            >
+              {city.region}
+            </a>
+            <ChevronRight className="h-3.5 w-3.5" />
+            <a
+              href={`/departements/${city.department.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}`}
+              className="hover:text-[var(--text-primary)] transition-colors"
+            >
+              {city.department}
+            </a>
             <ChevronRight className="h-3.5 w-3.5" />
             <span className="text-[var(--text-primary)]">{city.name}</span>
           </div>
@@ -477,6 +490,61 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
           </div>
         )}
       </div>
+
+      {/* FAQ accordion */}
+      <section className="border-t border-[var(--border)] bg-[var(--bg-surface)] py-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
+          <h2 className="text-xl font-bold text-[var(--text-primary)] mb-6">
+            Questions fréquentes — {city.name}
+          </h2>
+          <div className="space-y-2">
+            {[
+              {
+                q: `Quelle est la qualité de vie à ${city.name} ?`,
+                a: `${city.name} obtient un score global de ${city.scores.global.toFixed(1)}/10, ce qui reflète une qualité de vie ${city.scores.global >= 8.5 ? "excellente" : city.scores.global >= 7.5 ? "très bonne" : city.scores.global >= 6.5 ? "bonne" : "correcte"}. La ville est connue pour ${city.characterTags.slice(0, 3).join(", ")}. Les habitants apprécient particulièrement ${city.scores.nature >= 7.5 ? "la proximité avec la nature, " : ""}${city.scores.culture >= 7.5 ? "la vie culturelle, " : ""}${city.scores.safety >= 7.5 ? "la sécurité du quotidien" : "le cadre de vie"}.`,
+              },
+              {
+                q: `Quel est le coût de la vie à ${city.name} ?`,
+                a: housing
+                  ? `Le loyer médian pour un T2 à ${city.name} est de ${housing.avgRentT2} €/mois, et un T3 autour de ${housing.avgRentT3} €/mois. Le prix à l'achat s'établit aux alentours de ${housing.avgBuyPriceM2.toLocaleString("fr-FR")} €/m². Le score coût de la vie est de ${city.scores.cost.toFixed(1)}/10 — ${city.scores.cost >= 7.5 ? "la ville offre un excellent rapport qualité-prix" : city.scores.cost >= 6 ? "les prix restent raisonnables comparé aux grandes métropoles" : "le coût de la vie est dans la moyenne nationale"}.`
+                  : `${city.name} obtient un score coût de la vie de ${city.scores.cost.toFixed(1)}/10. ${city.scores.cost >= 7.5 ? "La ville est reconnue pour son excellent pouvoir d'achat et ses loyers abordables." : city.scores.cost >= 6 ? "Le coût de la vie y est raisonnable par rapport aux grandes métropoles françaises." : "Les prix reflètent la demande d'une ville dynamique."}`,
+              },
+              {
+                q: `${city.name} est-elle une bonne ville pour les familles ?`,
+                a: `Pour les familles, ${city.name} présente un score sécurité de ${city.scores.safety.toFixed(1)}/10 et un score écoles de ${city.scores.schools.toFixed(1)}/10. ${city.scores.safety >= 7.5 && city.scores.schools >= 7.5 ? `La ville cumule sécurité rassurante et offre scolaire de qualité — un choix privilégié pour élever des enfants.` : city.scores.nature >= 7.5 ? `La présence d'espaces verts et de parcs (score nature ${city.scores.nature.toFixed(1)}/10) est un atout majeur pour les familles.` : `Comme dans toute ville française de cette taille, l'offre en équipements familiaux est présente.`}`,
+              },
+              {
+                q: `Peut-on télétravailler à ${city.name} ?`,
+                a: `${city.name} obtient un score télétravail de ${city.scores.remoteWork.toFixed(1)}/10. ${city.scores.remoteWork >= 8 ? `La ville figure parmi les meilleures destinations pour le travail à distance en France : couverture fibre quasi totale, espaces de coworking, et coût de la vie permettant de vivre confortablement avec un salaire remote.` : city.scores.remoteWork >= 7 ? `La couverture fibre est bonne et plusieurs espaces de coworking sont disponibles. Le score qualité de vie (${city.scores.life.toFixed(1)}/10) en fait une ville agréable pour les télétravailleurs.` : `La ville dispose des infrastructures numériques de base. Le score transport (${city.scores.transport.toFixed(1)}/10) permet également des déplacements ponctuels vers les grandes métropoles.`}`,
+              },
+              {
+                q: `Quels sont les transports en commun à ${city.name} ?`,
+                a: `Le score transport de ${city.name} est de ${city.scores.transport.toFixed(1)}/10. ${city.scores.transport >= 8.5 ? `La ville dispose d'un réseau de transport exceptionnel : métro, tramway ou bus à haute fréquence, et connexions TGV permettent de se passer facilement de voiture.` : city.scores.transport >= 7 ? `Le réseau de transports en commun est bien développé avec des lignes de bus et/ou tramway régulières. La ville est correctement reliée au réseau TER.` : `Les transports en commun couvrent les besoins essentiels. Pour les déplacements quotidiens hors centre-ville, une voiture peut s'avérer utile.`}`,
+              },
+            ].map((item, i) => (
+              <div key={i} className="rounded-xl border border-[var(--border)] overflow-hidden">
+                <button
+                  onClick={() => setOpenFaq(openFaq === i ? null : i)}
+                  className="w-full flex items-center justify-between gap-4 px-5 py-4 text-left bg-[var(--bg-canvas)] hover:bg-[var(--bg-elevated)] transition-colors"
+                >
+                  <span className="text-sm font-medium text-[var(--text-primary)]">{item.q}</span>
+                  <ChevronDown
+                    className={cn(
+                      "h-4 w-4 flex-shrink-0 text-[var(--text-tertiary)] transition-transform",
+                      openFaq === i && "rotate-180"
+                    )}
+                  />
+                </button>
+                {openFaq === i && (
+                  <div className="px-5 py-4 bg-[var(--bg-surface)] border-t border-[var(--border)]">
+                    <p className="text-sm text-[var(--text-secondary)] leading-relaxed">{item.a}</p>
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
 
       {/* Compare bar */}
       <div className="border-t border-[var(--border)] bg-[var(--bg-surface)] py-4">

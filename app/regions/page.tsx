@@ -24,6 +24,7 @@ const REGION_EMOJIS: Record<string, string> = {
   "Provence-Alpes-Côte d'Azur": "🌺",
   "Grand Est": "🥨",
   "Île-de-France": "🗼",
+  "Corse": "🏝️",
 };
 
 export default function RegionsPage() {

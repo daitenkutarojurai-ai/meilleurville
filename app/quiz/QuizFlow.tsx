@@ -171,6 +171,23 @@ export function QuizFlow() {
   }
 
   if (results) {
+    const profileSummary = [
+      answers.environment && { label: "Cadre", value: { mer: "🌊 Mer", montagne: "⛰️ Montagne", campagne: "🌿 Campagne", ville: "🏙️ Ville" }[answers.environment as string] ?? answers.environment },
+      answers.situation && { label: "Situation", value: { seul: "🧍 Seul·e", couple: "👫 Couple", famille: "👨‍👩‍👧‍👦 Famille", retraite: "🌅 Retraite" }[answers.situation as string] ?? answers.situation },
+      answers.budget && { label: "Budget", value: `${answers.budget}€/mois` },
+      answers.workStyle && { label: "Travail", value: { presentiel: "🏢 Présentiel", hybride: "🔄 Hybride", remote: "💻 Remote", independant: "🚀 Freelance" }[answers.workStyle as string] ?? answers.workStyle },
+      answers.climate && { label: "Météo", value: { soleil: "☀️ Soleil max", tempere: "⛅ Tempéré", ocean: "🌬️ Océanique", montagne: "❄️ Montagne" }[answers.climate as string] ?? answers.climate },
+    ].filter(Boolean) as Array<{ label: string; value: string }>;
+
+    const SCORE_KEYS = [
+      { key: "life" as const, label: "Qualité de vie" },
+      { key: "cost" as const, label: "Budget" },
+      { key: "transport" as const, label: "Transport" },
+      { key: "nature" as const, label: "Nature" },
+      { key: "safety" as const, label: "Sécurité" },
+      { key: "culture" as const, label: "Culture" },
+    ];
+
     return (
       <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6">
         <div className="mb-10 text-center fade-in-up">
@@ -185,6 +202,19 @@ export function QuizFlow() {
             Basé sur votre profil · Score de compatibilité personnalisé
           </p>
         </div>
+
+        {/* Profile summary */}
+        {profileSummary.length > 0 && (
+          <div className="mb-8 flex flex-wrap gap-2 justify-center fade-in-up">
+            {profileSummary.map(({ label, value }) => (
+              <div key={label} className="rounded-full border border-[var(--border)] bg-[var(--bg-surface)] px-4 py-1.5 text-sm">
+                <span className="text-[var(--text-tertiary)]">{label} : </span>
+                <span className="font-medium text-[var(--text-primary)]">{value}</span>
+              </div>
+            ))}
+          </div>
+        )}
+
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {results.map((r, i) => (
             <div
@@ -203,15 +233,65 @@ export function QuizFlow() {
             </div>
           ))}
         </div>
-        {/* Quick compare top 2 */}
+
+        {/* Comparison table for top 3 */}
+        {results.length >= 3 && (
+          <div className="mt-12 fade-in-up">
+            <h2 className="text-xl font-bold text-[var(--text-primary)] mb-4">
+              Comparaison de vos 3 meilleures villes
+            </h2>
+            <div className="overflow-x-auto rounded-2xl border border-[var(--border)]">
+              <table className="w-full text-sm">
+                <thead>
+                  <tr className="border-b border-[var(--border)] bg-[var(--bg-elevated)]">
+                    <th className="text-left px-4 py-3 text-[var(--text-tertiary)] font-medium w-32">Critère</th>
+                    {results.slice(0, 3).map((r, i) => (
+                      <th key={r.city.slug} className="px-4 py-3 text-center">
+                        <Link href={`/villes/${r.city.slug}`} className="font-bold text-[var(--text-primary)] hover:text-[var(--accent)] transition-colors">
+                          {i === 0 ? "🥇 " : i === 1 ? "🥈 " : "🥉 "}{r.city.name}
+                        </Link>
+                        <div className="text-xs text-[var(--accent)] font-mono-data">{Math.round(r.score)}% match</div>
+                      </th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {SCORE_KEYS.map(({ key, label }) => {
+                    const vals = results.slice(0, 3).map((r) => r.city.scores[key]);
+                    const maxVal = Math.max(...vals);
+                    return (
+                      <tr key={key} className="border-b border-[var(--border)] last:border-0 hover:bg-[var(--bg-elevated)]/50 transition-colors">
+                        <td className="px-4 py-3 text-[var(--text-secondary)]">{label}</td>
+                        {vals.map((v, i) => (
+                          <td key={i} className="px-4 py-3 text-center">
+                            <span className={`font-bold font-mono-data ${v === maxVal ? "text-emerald-400" : "text-[var(--text-primary)]"}`}>
+                              {v.toFixed(1)}
+                            </span>
+                          </td>
+                        ))}
+                      </tr>
+                    );
+                  })}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        )}
+
+        {/* Compare links */}
         {results.length >= 2 && (
-          <div className="mt-8 text-center">
-            <Link
-              href={`/comparer/${results[0].city.slug}-vs-${results[1].city.slug}`}
-              className="inline-flex items-center gap-2 rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 px-5 py-3 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-all"
-            >
-              Comparer {results[0].city.name} vs {results[1].city.name} →
-            </Link>
+          <div className="mt-6 flex flex-wrap gap-2 justify-center">
+            {results.slice(0, 3).flatMap((r, i) =>
+              results.slice(i + 1, 3).map((r2) => (
+                <Link
+                  key={`${r.city.slug}-${r2.city.slug}`}
+                  href={`/comparer/${[r.city.slug, r2.city.slug].sort().join("-vs-")}`}
+                  className="inline-flex items-center gap-2 rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 px-4 py-2 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-all"
+                >
+                  Comparer {r.city.name} vs {r2.city.name} →
+                </Link>
+              ))
+            )}
           </div>
         )}
 

@@ -490,6 +490,147 @@ export const GUIDES: Guide[] = [
     tags: ["Bordeaux", "Lyon", "Nantes", "comparaison", "grande ville", "métropole"],
   },
   {
+    slug: "toulouse-montpellier-quelle-ville-choisir",
+    title: "Toulouse ou Montpellier : laquelle choisir en 2025 ?",
+    metaTitle: "Toulouse vs Montpellier — Comparaison complète 2025",
+    metaDesc:
+      "Coût de la vie, emploi, soleil, ambiance : notre guide honnête pour choisir entre Toulouse et Montpellier. Données réelles et retours d'habitants.",
+    category: "comparaison",
+    emoji: "⚖️",
+    readMinutes: 8,
+    publishedAt: "2025-04-01",
+    updatedAt: "2025-04-28",
+    intro:
+      "Toulouse et Montpellier sont les deux métropoles rivales du Sud-Ouest et du Languedoc. Elles partagent le soleil, le dynamisme et la jeunesse — mais leurs personnalités sont radicalement différentes. Laquelle correspond à votre projet de vie ?",
+    sections: [
+      {
+        heading: "Le verdict en une phrase",
+        body: "Toulouse est pour les ingénieurs, les familles et ceux qui veulent une grande ville avec un marché de l'emploi solide. Montpellier est pour les étudiants, les amateurs de méditerranée, et ceux qui veulent une ville plus petite mais très dynamique. Aucune n'est objectivement meilleure — tout dépend de votre profil.",
+      },
+      {
+        heading: "L'emploi : l'avantage Toulouse",
+        body: "Toulouse est la capitale européenne de l'aéronautique (Airbus, Safran, Thales). Le bassin d'emploi pour les ingénieurs, techniciens et profils tech est sans égal en province française. La French Tech Toulouse est en plein essor. Montpellier mise sur la santé (CHU, Sanofi), le numérique (IBM, Dell) et la recherche universitaire — solid mais plus étroit. Pour un CDI stable en grande entreprise, Toulouse gagne.",
+      },
+      {
+        heading: "Le coût de la vie : avantage Montpellier",
+        body: "Loyer médian T2 : Toulouse 820€, Montpellier 820€ également — quasi identique. Mais l'immobilier à l'achat est légèrement plus accessible à Montpellier (3 200€/m² vs 3 500€/m² à Toulouse). Les restaurants et loisirs sont comparables. L'avantage Montpellier : la mer est à 15 km, ce qui remplace des vacances coûteuses. L'inconvénient : les embouteillages sont pires par rapport à la taille de la ville.",
+      },
+      {
+        heading: "Le soleil et le cadre de vie",
+        body: "Montpellier : 2 740 heures de soleil/an, la mer à 15 min, une architecture de charme avec l'Écusson médiéval. Toulouse : 2 010 heures de soleil/an, la Garonne, les Pyrénées à 1h30. Sur le soleil pur, Montpellier écrase. Mais Toulouse est une ville plus chaleureuse (au sens humain), la culture rugby crée une cohésion sociale unique, et les Toulousains ont la réputation d'être parmi les plus accueillants de France.",
+      },
+      {
+        heading: "Pour les familles",
+        body: "Toulouse est généralement préférée pour les familles : réseau scolaire plus dense, quartiers résidentiels avec maisons et jardins plus accessibles, moins de trafic stressant qu'à Montpellier. Les familles Montpelliéraines citent régulièrement les embouteillages et le manque de logement familiaux à prix raisonnables en inconvénient majeur. Mais la proximité de la mer et le cadre languedocien compensent pour beaucoup.",
+      },
+      {
+        heading: "Notre verdict",
+        body: "Ingénieur ou technicien cherchant un emploi stable : Toulouse. Étudiant, remote worker ou amateur de Méditerranée : Montpellier. Famille cherchant une grande ville sud : Toulouse pour la stabilité, Montpellier pour le cadre. Retraité voulant le soleil : Montpellier si la mer est prioritaire, Toulouse si vous aimez les grandes villes animées.",
+      },
+    ],
+    relatedCities: ["toulouse", "montpellier", "bordeaux", "nimes", "perpignan"],
+    relatedGuides: [
+      "bordeaux-lyon-nantes-quelle-ville-choisir",
+      "budget-vivre-en-france-comparatif",
+      "soleil-france-guide",
+    ],
+    tags: ["Toulouse", "Montpellier", "Occitanie", "comparaison", "Sud de la France"],
+  },
+  {
+    slug: "vivre-sans-voiture-france-guide-2025",
+    title: "Vivre sans voiture en France : les 10 villes où c'est vraiment possible",
+    metaTitle: "Vivre sans voiture en France — Top villes 2025 (vélo, tramway, TGV)",
+    metaDesc:
+      "Tramway, vélo, marchabilité : notre classement des villes françaises où vous pouvez vous passer de voiture au quotidien. Données transports 2025.",
+    category: "lifestyle",
+    emoji: "🚲",
+    readMinutes: 7,
+    publishedAt: "2025-03-20",
+    updatedAt: "2025-04-26",
+    intro:
+      "La voiture coûte en moyenne 6 000€/an en France (assurance, carburant, entretien, stationnement). Se passer de voiture, c'est potentiellement 500€/mois de pouvoir d'achat retrouvé. Ce guide identifie les villes françaises où c'est réellement possible — pas théoriquement, mais dans la pratique du quotidien.",
+    sections: [
+      {
+        heading: "Les 3 critères qui font la différence",
+        body: "1. La marchabilité : pouvez-vous faire 80% de vos courses, rendez-vous médicaux et loisirs à pied ou à vélo ? 2. La fréquence des transports : un réseau de bus toutes les 20 min n'est pas sans-voiture. 15 min ou moins, ça l'est. 3. La connexion TGV : pour les déplacements professionnels ponctuels, un TGV à 1h30 de Paris remplace avantageusement une voiture.",
+      },
+      {
+        heading: "Strasbourg : le modèle européen",
+        body: "Score transport MeilleurVille : 9.1/10. Strasbourg est la référence française du sans-voiture. Son réseau de tramway (6 lignes, 69 km) est le plus dense de France. La ville est officiellement la capitale du vélo français avec 600 km de pistes cyclables. 25% des habitants n'ont pas de voiture. Les connexions TGV (Paris 1h50, Lyon 3h, Bruxelles 4h) permettent tous les déplacements professionnels. L'hiver est froid mais les Strasbourgeois ont appris à vivre avec.",
+      },
+      {
+        heading: "Grenoble et Nantes : les challengers",
+        body: "Grenoble : tramway + câble + vélos en libre-service, et la montagne accessible en bus de nuit pour les week-ends ski. Score transport 8.9/10. Nantes : le premier tramway de France (modernisé), un réseau de bus dense, et un plan vélo ambitieux. L'effort de la métropole en mobilité douce depuis 10 ans est remarquable. Score transport 8.7/10. Les deux villes permettent une vie sans voiture confortable.",
+      },
+      {
+        heading: "Le piège des villes moyennes",
+        body: "Beaucoup de villes moyennes ont un bus central mais laissent les quartiers périphériques sans desserte. Le test : regardez les horaires du dernier bus vers votre quartier un vendredi soir. S'il part à 20h30, vous aurez besoin d'une voiture pour sortir. Les réseaux «politiques» font bonne figure dans les brochures mais ne résistent pas à l'usage quotidien.",
+      },
+      {
+        heading: "Rennes : la montée en puissance",
+        body: "Rennes a investi massivement en mobilité ces dernières années : 2 lignes de métro, réseau de bus amélioré, vélos STAR en libre-service. Score transport 8.5/10. La ville est également cyclable à 90% selon les habitants. Et la taille humaine (220 000 hab.) fait que la plupart des destinations quotidiennes sont à 15-20 min à vélo.",
+      },
+      {
+        heading: "Le calcul sans-voiture",
+        body: "Abonnement transport mensuel : 50-75€. Location vélo : 15-20€/mois. Taxis/VTC ponctuels : 30-50€/mois. Total : 100-150€/mois. Voiture : 400-600€/mois (assurance, carburant, crédit, entretien). Économie mensuelle : 250-450€. Sur 5 ans : 15 000 à 27 000€. De quoi financer un projet de vie. Et une empreinte carbone divisée par 3.",
+      },
+    ],
+    relatedCities: ["strasbourg", "grenoble", "nantes", "rennes", "bordeaux"],
+    relatedGuides: [
+      "vivre-en-france-teletravail-guide-2025",
+      "budget-vivre-en-france-comparatif",
+      "villes-etudiantes-france-guide",
+    ],
+    tags: ["sans voiture", "vélo", "transport", "tramway", "mobilité douce"],
+  },
+  {
+    slug: "vivre-en-alsace-guide-2025",
+    title: "Vivre en Alsace en 2025 : Strasbourg, Colmar, Mulhouse — Guide complet",
+    metaTitle: "Vivre en Alsace 2025 — Guide Strasbourg, Colmar, Mulhouse",
+    metaDesc:
+      "Qualité de vie, emploi, gastronomie, culture : notre guide complet pour s'installer en Alsace. Comparaison Strasbourg vs Colmar vs Mulhouse avec données réelles.",
+    category: "region",
+    emoji: "🥨",
+    readMinutes: 8,
+    publishedAt: "2025-04-10",
+    updatedAt: "2025-04-28",
+    intro:
+      "L'Alsace est la région française la plus singulière : culturellement entre France et Allemagne, gastronomiquement incomparable, géographiquement entre Rhin et Vosges. S'y installer est un choix de vie fort. Ce guide compare les trois villes principales et vous aide à décider.",
+    sections: [
+      {
+        heading: "Strasbourg : la capitale européenne",
+        body: "Score global MeilleurVille : 8.2/10. Strasbourg est unique en France : siège du Parlement européen et du Conseil de l'Europe, elle concentre les institutions supranationales et attire profils internationaux et fonctionnaires européens. Son architecture renaissance et son centre médiéval (Grande Île classée UNESCO) en font l'une des plus belles villes de France. Le réseau de tramway est le meilleur de France. Seul bémol : les loyers ont augmenté (+30% en 5 ans) avec l'attractivité.",
+      },
+      {
+        heading: "Colmar : le charme sans les inconvénients de la grande ville",
+        body: "Score global : 7.9/10. Colmar est la «petite Venise d'Alsace» : ses maisons à colombages sont parmi les plus photographiées de France. La ville de 70 000 habitants a la taille idéale — tout est accessible à pied ou à vélo, sans les embouteillages et l'agitation de Strasbourg. Les loyers sont significativement plus bas (T2 médian : 620€ vs 850€ à Strasbourg). La Route des Vins débute à ses portes. Bémol : bassin d'emploi limité — préférez le remote ou les pendulaires vers Strasbourg (20 min de TER).",
+      },
+      {
+        heading: "Mulhouse : la valeur confidentielle",
+        body: "Score global : 6.8/10. Mulhouse est la plus incomprise des villes alsaciennes. Son passé industriel a laissé des quartiers populaires mais aussi des musées uniques (Cité de l'Automobile, Musée du Chemin de Fer). La ville est la moins chère d'Alsace (T2 médian : 540€) et bénéficie d'une position stratégique : 25 min de Bâle (Suisse) et ses salaires suisses, 45 min de Fribourg-en-Brisgau. Pour les travailleurs frontaliers, c'est une base remarquable.",
+      },
+      {
+        heading: "L'identité alsacienne : ce qu'on ne vous dit pas",
+        body: "L'Alsace a une identité culturelle forte et parfois fermée. Les Alsaciens de souche (environ 50% de la population régionale) peuvent sembler froids aux nouveaux arrivants. Mais ceux qui s'y établissent décrivent une intégration progressive chaleureuse — particulièrement si vous vous intéressez à la culture locale (marché de Noël, Winstubs, Bredele). La frontière culturelle franco-allemande crée aussi une richesse linguistique et gastronomique sans équivalent.",
+      },
+      {
+        heading: "L'avantage frontalier",
+        body: "Mulhouse et le Bas-Rhin sont à proximité de la Suisse et de l'Allemagne. Travailler à Bâle en habitant à Mulhouse (salaire suisse, loyer français) est un calcul financier redoutable : salaires 40-60% supérieurs en CHF, loyers 2x moins chers qu'à Bâle. 80 000 frontaliers font ce choix chaque jour. Pour les profils santé, ingénierie et finance, c'est un avantage compétitif majeur.",
+      },
+      {
+        heading: "Gastronomie et qualité de vie",
+        body: "L'Alsace est régulièrement classée première région de France pour la gastronomie. La densité de restaurants étoilés Michelin par habitant est la plus haute de France. Le vin d'Alsace (Riesling, Gewurztraminer, Pinot Gris) est produit à 20 minutes en voiture. Les marchés de Noël de Colmar et Strasbourg sont les plus beaux d'Europe. Pour la qualité de vie culinaire et culturelle, la région n'a pas d'équivalent.",
+      },
+    ],
+    relatedCities: ["strasbourg", "colmar", "mulhouse"],
+    relatedGuides: [
+      "budget-vivre-en-france-comparatif",
+      "vivre-sans-voiture-france-guide-2025",
+      "quitter-paris-guide-2025",
+    ],
+    tags: ["Alsace", "Strasbourg", "Colmar", "Mulhouse", "Grand Est", "frontalier"],
+  },
+  {
     slug: "paris-province-guide-demenagement-2025",
     title: "Quitter Paris pour la province : le guide complet 2025",
     metaTitle: "Quitter Paris : guide demenagement province 2025 — Choisir sa ville",

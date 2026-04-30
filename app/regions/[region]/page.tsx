@@ -23,6 +23,23 @@ const REGION_EMOJIS: Record<string, string> = {
   "provence-alpes-cote-d-azur": "🌺",
   "grand-est": "🥨",
   "ile-de-france": "🗼",
+  "corse": "🏝️",
+};
+
+const REGION_DESCRIPTIONS: Record<string, string> = {
+  "auvergne-rhone-alpes": "Auvergne-Rhône-Alpes est la région la plus diverse de France : elle allie la puissance économique de Lyon (2e ville de France), les Alpes avec Grenoble et Annecy, et les volcans auvergnats autour de Clermont-Ferrand. Idéale pour les profils cherchant nature alpine, emploi tech, ou cadre de vie exceptionnel.",
+  "pays-de-la-loire": "Les Pays de la Loire combinent la dynamique métropolitaine de Nantes, la vie étudiante, et un littoral atlantique accessible. Région des plus attractives de France, elle affiche une croissance démographique soutenue et un marché de l'emploi en progression constante.",
+  "bretagne": "La Bretagne est la région française où la qualité de vie côtière rencontre une économie tech dynamique. Rennes mène la French Tech, Brest modernise son identité maritime, et la côte offre des paysages parmi les plus spectaculaires d'Europe. L'identité bretonne forte crée une cohésion sociale unique.",
+  "nouvelle-aquitaine": "La Nouvelle-Aquitaine est la plus grande région de France en surface. Elle offre un éventail exceptionnel : Bordeaux et son dynamisme urbain, le Pays Basque et son lifestyle premium, le Périgord et la Corrèze ruraux mais authentiques. La viticulture, le surf et la gastronomie en font une région de style de vie à part.",
+  "occitanie": "L'Occitanie bénéficie du meilleur ensoleillement de France continentale. Toulouse concentre l'industrie aéronautique européenne, Montpellier rayonne en santé et numérique, et Perpignan affiche les hivers les plus doux de France. Une région pour ceux qui veulent le soleil sans s'expatrier.",
+  "normandie": "La Normandie allie patrimoine historique remarquable, agriculture d'exception et proximité de Paris (Rouen à 1h20 de Saint-Lazare). Caen et Rouen sont des villes universitaires solides, et le littoral normand reste l'un des plus accessibles depuis la région parisienne.",
+  "bourgogne-franche-comte": "Bourgogne-Franche-Comté est la région du patrimoine gastronomique et viticole français. Dijon est une ville universitaire méconnue avec une gastronomie exceptionnelle, Besançon une ville verte préservée. Les prix de l'immobilier restent parmi les plus accessibles de France.",
+  "centre-val-de-loire": "Le Centre-Val de Loire est la région des châteaux de la Loire et d'un immobilier remarquablement accessible à 1h de Paris. Tours, classée UNESCO, offre une qualité de vie patrimoniale rare. La région est idéale pour les Parisiens cherchant à s'éloigner sans perdre l'accessibilité capitale.",
+  "hauts-de-france": "Les Hauts-de-France sont la région la plus sous-estimée pour le rapport qualité/prix. Lille est une métropole internationale (à 35 min de Bruxelles, 1h de Paris, 1h25 de Londres), avec une scène culturelle et gastronomique intense. Amiens et ses voisines offrent un immobilier ultra-abordable avec accès TGV.",
+  "provence-alpes-cote-d-azur": "PACA est la région la plus ensoleillée et convoitée de France. Marseille (2e ville de France) monte en puissance, Aix-en-Provence cumule patrimoine et qualité de vie, Nice allie art de vivre et Méditerranée. Les prix sont élevés mais la qualité de vie y est souvent jugée incomparable.",
+  "grand-est": "Le Grand Est est la région des frontières ouvertes. Strasbourg est capitale européenne et modèle de mobilité douce. Mulhouse et le Bas-Rhin permettent le travail frontalier en Suisse et Allemagne avec des salaires bien supérieurs. Colmar est l'une des villes les plus photographiées de France.",
+  "ile-de-france": "L'Île-de-France concentre 20% de la population française et 30% du PIB. Paris reste le centre incontesté de la culture, de l'emploi et du réseau professionnel. Mais les villes de la petite couronne (Vincennes, Saint-Germain-en-Laye) offrent un compromis intéressant entre vie parisienne et cadre plus résidentiel.",
+  "corse": "La Corse est l'île de beauté française par excellence : 2 890 heures de soleil à Ajaccio, la mer Méditerranée omniprésente, le maquis parfumé, les montagnes accessibles. Elle attire retraités en quête de soleil et télétravailleurs cherchant un cadre de vie exceptionnel. Le coût de la vie y est plus élevé que sur le continent en raison de l'insularité, et les transports internes restent une contrainte.",
 };
 
 function slugToRegion(slug: string): string | undefined {
@@ -108,9 +125,56 @@ export default async function RegionPage({ params }: Props) {
     culture: cities.reduce((s, c) => s + c.scores.culture, 0) / cities.length,
   };
 
+  const regionDesc = REGION_DESCRIPTIONS[regionSlug];
+  const departments = [...new Set(cities.map((c) => c.department))];
+  const topCity = cities[0];
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "ItemList",
+        "name": `Meilleures villes de ${regionName}`,
+        "numberOfItems": cities.length,
+        "itemListElement": cities.slice(0, 10).map((c, i) => ({
+          "@type": "ListItem",
+          "position": i + 1,
+          "name": c.name,
+          "url": `https://meilleurville.fr/villes/${c.slug}`,
+        })),
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": `Quelle est la meilleure ville de ${regionName} ?`,
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": `La meilleure ville de ${regionName} selon notre algorithme est ${topCity.name} avec un score global de ${topCity.scores.global}/10. Elle se distingue par ${topCity.characterTags.slice(0, 3).join(", ")}.`,
+            },
+          },
+          {
+            "@type": "Question",
+            "name": `Combien de villes sont analysées en ${regionName} ?`,
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": `MeilleurVille analyse ${cities.length} villes en ${regionName}, réparties sur ${departments.length} département${departments.length > 1 ? "s" : ""}. Le score moyen de la région est de ${avgScore.toFixed(1)}/10.`,
+            },
+          },
+        ],
+      },
+    ],
+  };
+
   return (
     <main className="min-h-screen">
       <Navbar />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
 
       {/* Header */}
       <section className="bg-[var(--bg-surface)] border-b border-[var(--border)] py-14">
@@ -134,6 +198,11 @@ export default async function RegionPage({ params }: Props) {
           <p className="text-[var(--text-secondary)] max-w-2xl">
             {cities.length} villes analysées · Score moyen {avgScore.toFixed(1)}/10 · Données 2025
           </p>
+          {regionDesc && (
+            <p className="mt-3 text-sm text-[var(--text-secondary)] max-w-3xl leading-relaxed">
+              {regionDesc}
+            </p>
+          )}
           {/* Criteria bar */}
           <div className="mt-5 flex flex-wrap gap-3">
             {Object.entries(avgCriteria).map(([key, val]) => (
@@ -167,6 +236,33 @@ export default async function RegionPage({ params }: Props) {
               {rest.map((city, i) => (
                 <CityCard key={city.slug} city={seedToCity(city)} rank={i + 4} />
               ))}
+            </div>
+          </section>
+        )}
+
+        {/* Departments */}
+        {departments.length > 1 && (
+          <section>
+            <h2 className="text-lg font-bold text-[var(--text-primary)] mb-4">
+              Départements de {regionName}
+            </h2>
+            <div className="flex flex-wrap gap-2">
+              {departments.map((dept) => {
+                const deptSlug = dept.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+                const deptCities = cities.filter((c) => c.department === dept);
+                return (
+                  <Link
+                    key={dept}
+                    href={`/departements/${deptSlug}`}
+                    className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:bg-[var(--bg-elevated)] transition-all px-4 py-2.5 text-sm"
+                  >
+                    <span className="font-medium text-[var(--text-primary)]">{dept}</span>
+                    <span className="ml-1.5 text-xs text-[var(--text-tertiary)]">
+                      {deptCities.length} ville{deptCities.length > 1 ? "s" : ""}
+                    </span>
+                  </Link>
+                );
+              })}
             </div>
           </section>
         )}

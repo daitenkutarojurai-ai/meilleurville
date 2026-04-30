@@ -79,6 +79,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ["saint-malo", "brest"],
     ["quimper", "lorient"],
     ["vannes", "lorient"],
+    ["cannes", "nice"],
+    ["cannes", "marseille"],
+    ["ajaccio", "nice"],
+    ["mulhouse", "strasbourg"],
+    ["mulhouse", "colmar"],
+    ["dunkerque", "lille"],
+    ["dunkerque", "boulogne-sur-mer"],
+    ["cannes", "biarritz"],
   ];
 
   const staticRoutes: MetadataRoute.Sitemap = [

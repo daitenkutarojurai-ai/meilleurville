@@ -87,6 +87,14 @@ const SEO_PAIRS = [
   ["grenoble", "annecy"],
   ["montpellier", "nice"],
   ["gap", "grenoble"],
+  ["cannes", "nice"],
+  ["cannes", "marseille"],
+  ["cannes", "biarritz"],
+  ["ajaccio", "nice"],
+  ["mulhouse", "strasbourg"],
+  ["mulhouse", "colmar"],
+  ["dunkerque", "lille"],
+  ["dunkerque", "boulogne-sur-mer"],
 ];
 
 export function generateStaticParams() {

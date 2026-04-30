@@ -96,9 +96,54 @@ export default async function DeptPage({ params }: Props) {
     culture: cities.reduce((s, c) => s + c.scores.culture, 0) / cities.length,
   };
 
+  const topCity = cities[0];
+  const bestCriteria = Object.entries(avgCriteria).sort((a, b) => b[1] - a[1]).slice(0, 2).map(([k]) => k);
+  const criteriaLabels: Record<string, string> = {
+    nature: "la qualité de la nature",
+    cost: "l'accessibilité des prix",
+    safety: "la sécurité",
+    transport: "les transports",
+    culture: "la vie culturelle",
+  };
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "ItemList",
+        "name": `Meilleures villes du département ${deptName}`,
+        "numberOfItems": cities.length,
+        "itemListElement": cities.map((c, i) => ({
+          "@type": "ListItem",
+          "position": i + 1,
+          "name": c.name,
+          "url": `https://meilleurville.fr/villes/${c.slug}`,
+        })),
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": `Quelle est la meilleure ville du département ${deptName} ?`,
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": `D'après notre algorithme, la meilleure ville de ${deptName} est ${topCity.name} avec un score de ${topCity.scores.global}/10. Elle est reconnue pour ${topCity.characterTags.slice(0, 2).join(" et ")}.`,
+            },
+          },
+        ],
+      },
+    ],
+  };
+
   return (
     <main className="min-h-screen">
       <Navbar />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
 
       <section className="bg-[var(--bg-surface)] border-b border-[var(--border)] py-14">
         <div className="mx-auto max-w-5xl px-4 sm:px-6">
@@ -126,6 +171,13 @@ export default async function DeptPage({ params }: Props) {
           </div>
           <p className="text-[var(--text-secondary)] max-w-2xl">
             {cities.length} ville{cities.length > 1 ? "s" : ""} analysée{cities.length > 1 ? "s" : ""} · Score moyen {avgScore.toFixed(1)}/10 · Données 2025
+          </p>
+          <p className="mt-2 text-sm text-[var(--text-secondary)] max-w-3xl leading-relaxed">
+            Le département {deptName}, situé en {region}, se distingue particulièrement pour {bestCriteria.map((k) => criteriaLabels[k]).join(" et ")}
+            {topCity ? ` — la ville la mieux notée est ${topCity.name} avec ${topCity.scores.global.toFixed(1)}/10` : ""}.
+            {cities.length > 1
+              ? ` Les ${cities.length} villes analysées offrent un éventail de choix pour tous les profils.`
+              : " C'est la principale ville analysée dans ce département."}
           </p>
           <div className="mt-5 flex flex-wrap gap-3">
             {Object.entries(avgCriteria).map(([key, val]) => (
