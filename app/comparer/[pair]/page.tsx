@@ -166,6 +166,19 @@ const SEO_PAIRS = [
   ["cholet", "angers"],
   ["draguignan", "nice"],
   ["draguignan", "toulon"],
+  ["aix-les-bains", "annecy"],
+  ["aix-les-bains", "chambery"],
+  ["aix-les-bains", "thonon-les-bains"],
+  ["bergerac", "bordeaux"],
+  ["bergerac", "perigueux"],
+  ["arcachon", "bordeaux"],
+  ["arcachon", "biarritz"],
+  ["thonon-les-bains", "annecy"],
+  ["thonon-les-bains", "chambery"],
+  ["salon-de-provence", "aix-en-provence"],
+  ["salon-de-provence", "marseille"],
+  ["martigues", "marseille"],
+  ["martigues", "toulon"],
 ];
 
 export function generateStaticParams() {
