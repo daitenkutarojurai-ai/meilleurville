@@ -350,6 +350,18 @@ const SEO_PAIRS = [
   ["provins", "versailles"],
   ["gex", "annecy"],
   ["gex", "belfort"],
+  ["saint-tropez", "toulon"],
+  ["saint-tropez", "frejus"],
+  ["hossegor", "biarritz"],
+  ["hossegor", "dax"],
+  ["obernai", "strasbourg"],
+  ["obernai", "colmar"],
+  ["cagnes-sur-mer", "nice"],
+  ["cagnes-sur-mer", "antibes"],
+  ["noirmoutier", "saint-nazaire"],
+  ["noirmoutier", "les-sables-d-olonne"],
+  ["carnac", "vannes"],
+  ["carnac", "lorient"],
 ];
 
 export function generateStaticParams() {
