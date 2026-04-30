@@ -5839,6 +5839,211 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["gastronomie", "lifestyle", "marché", "bistrots", "cuisine régionale", "budget", "terroir"],
   },
+  {
+    slug: "teletravailler-depuis-alsace-guide-2025",
+    title: "Télétravailler depuis l'Alsace : Strasbourg, Colmar, Mulhouse",
+    metaTitle: "Télétravailler depuis l'Alsace 2025 — Strasbourg, Colmar, Mulhouse",
+    metaDesc: "Guide complet pour télétravailler depuis l'Alsace : fibre, coût de la vie, cadre de vie, mobilité. Strasbourg, Colmar, Mulhouse et villages alsaciens comparés.",
+    emoji: "🥨",
+    category: "teletravail",
+    readMinutes: 10,
+    publishedAt: "2025-04-01",
+    updatedAt: "2025-04-01",
+    intro: "L'Alsace conjugue efficacité allemande, art de vivre français et paysages vinicoles uniques. Pour les télétravailleurs, c'est une région d'élite : fibre généralisée, trains TGV vers Paris (1h50), loyers bien inférieurs à la capitale et qualité de vie remarquable entre Vosges et Rhin. Strasbourg est la grande ville euro-compatible ; Colmar est la carte postale ; Mulhouse est le choix malin à budget serré.",
+    sections: [
+      {
+        heading: "Strasbourg : la capitale européenne du télétravail de qualité",
+        body: "Strasbourg cumule les atouts : TGV Paris en 1h47, tramway dense, fibre FTTH couvrant plus de 90 % de la ville, deux universités et un bassin d'emploi tech en expansion. Le centre historique (Grande Île, classée UNESCO) est à vélo de tout. Loyer moyen T2 : 750–850€ en Petite-France, 600–700€ en Cronenbourg ou Hautepierre. Pour les digital nomads qui veulent une métropole avec charme, Strasbourg surpasse Bordeaux ou Lyon sur le rapport qualité-prix.",
+      },
+      {
+        heading: "Colmar : le télétravail dans un décor de conte",
+        body: "Colmar est la ville la plus photographiée d'Alsace, et pour cause : ses façades à colombages, canaux et géraniums débordants font oublier qu'on est en train de travailler. La fibre est disponible dans le centre et les lotissements, les transports vers Strasbourg (TER 30 min) ou Bâle sont fréquents. Loyer T2 : 600–750€ en centre-ville. La vie quotidienne reste accessible : marchés producteurs, vins locaux à 5€ la bouteille, restaurants alsaciens entre 12 et 18€ le midi.",
+      },
+      {
+        heading: "Mulhouse : le choix efficace à prix réduit",
+        body: "Mulhouse est sous-côtée. Son dynamisme industriel (Musée de l'Automobile, pôle chimie) masque une ville qui se réinvente : quartiers rénovés, coworking, tissu associatif culturel, accès direct à Bâle (15 min TGV) et ses emplois pharma. Loyers parmi les plus bas d'Alsace : T2 entre 450 et 580€. Idéal pour les télétravailleurs qui veulent maximiser le pouvoir d'achat sans s'éloigner d'une métropole fonctionnelle.",
+      },
+      {
+        heading: "Villages alsaciens : l'option teletravail rural de luxe",
+        body: "Obernai, Ribeauvillé, Kaysersberg, Eguisheim : les villages du vignoble alsacien sont raccordés à la fibre depuis 2022 pour la plupart. Maisons à colombages avec jardin entre 180 000€ et 350 000€. Vie de village intense entre sorties vélo sur la Route des Vins, marchés de producteurs et caves viticoles. Le revers : voiture indispensable pour tout déplacement, et les villages classés peuvent être envahis de touristes d'avril à novembre.",
+      },
+      {
+        heading: "Ce que les télétravailleurs doivent savoir sur l'Alsace",
+        body: "Hivers froids et humides (de novembre à mars, le brouillard sur la plaine du Rhin est réel). Été chaud et ensoleillé, parfois caniculaire. La frontière allemande (Kehl, Offenburg) offre des supermarchés de qualité à prix réduits : beaucoup d'Alsaciens font leurs courses en Allemagne. L'Alsace souffre d'une légère pénurie de logements abordables dans les zones les plus prisées. Prévoyez d'anticiper votre recherche de 2 à 3 mois.",
+      },
+    ],
+    relatedCities: ["strasbourg", "colmar", "mulhouse"],
+    relatedGuides: [
+      "strasbourg-vs-mulhouse-comparatif-2025",
+      "vivre-en-alsace-guide-2025",
+      "teletravail-rythme-hybride-quelle-ville-choisir-2025",
+    ],
+    tags: ["télétravail", "Alsace", "Strasbourg", "Colmar", "Mulhouse", "fibre", "Europe"],
+  },
+  {
+    slug: "teletravailler-depuis-occitanie-toulouse-montpellier-guide-2025",
+    title: "Télétravailler depuis l'Occitanie : Toulouse, Montpellier et les villes moyennes",
+    metaTitle: "Télétravailler depuis l'Occitanie 2025 — Guide complet",
+    metaDesc: "Télétravail en Occitanie : Toulouse, Montpellier, Nîmes, Albi, Rodez, Auch. Soleil, loyers, fibre, qualité de vie. Tout pour choisir la bonne ville occitane.",
+    emoji: "🌞",
+    category: "teletravail",
+    readMinutes: 11,
+    publishedAt: "2025-04-01",
+    updatedAt: "2025-04-01",
+    intro: "L'Occitanie est la région de France qui a connu la plus forte croissance démographique de télétravailleurs depuis 2020. Soleil garanti, gastronomie exceptionnelle, mer et montagne à portée de TGV ou de voiture. Toulouse est la capitale de l'aérospatiale; Montpellier est la ville la plus dynamique de Méditerranée; mais les vraies pépites sont dans les villes moyennes occitanes qui offrent le soleil sans les embouteillages.",
+    sections: [
+      {
+        heading: "Toulouse : l'écosystème tech et aérospatial comme tremplin",
+        body: "Toulouse est la 4e ville de France et le hub mondial d'Airbus. Pour les télétravailleurs dans l'aérospatial, la tech ou le numérique, c'est un écosystème sans égal en province. Fibre FTTH à 99 %, espaces de coworking en hausse, TGV Paris 4h15. Le revers : loyers en forte hausse (T2 : 700–900€ en centre, 550–700€ en périphérie) et embouteillages chroniques. Conseillé de vivre dans les communes de l'agglomération avec tramway (Blagnac, Colomiers, Tournefeuille) pour allier espace et connectivité.",
+      },
+      {
+        heading: "Montpellier : méditerranée, facultés et start-ups",
+        body: "Montpellier est la ville universitaire et tech la plus solaire de France : 300+ jours de soleil, TGV Paris 3h15, 8e ville de France. L'écosystème numérique (BIC, French Tech Montpellier) se densifie. Mais le prix de la popularité est là : loyers en forte tension (T2 : 750–1000€) et sentiment d'insécurité dans certains quartiers. Prévoyez les quartiers Port Marianne, Antigone ou Odysseum pour loger en sécurité avec vue sur la mer à 15 km.",
+      },
+      {
+        heading: "Nîmes et Béziers : le bon compromis Med à prix réduit",
+        body: "Nîmes et Béziers offrent le soleil méditerranéen, la même qualité de vie et des loyers 20 à 30 % inférieurs à Montpellier. Nîmes : amphithéâtre romain, 300 jours de soleil, T2 entre 580 et 720€, fibre bien déployée. Béziers : ville en reconversion, loyers parmi les plus bas du Sud (T2 à 450–580€), accès TER direct à Montpellier (50 min) et à la mer. Idéal pour les télétravailleurs qui veulent le Sud sans le prix fort.",
+      },
+      {
+        heading: "Albi, Rodez, Auch : les cités médiévales solaires",
+        body: "Albi (cathédrale UNESCO), Rodez (musée Soulages) et Auch (bastide gasconne) sont trois villes moyennes de charme qui conjuguent authenticité médiévale, soleil, loyers très abordables (T2 à 400–550€) et montée en puissance de la fibre. Pour le télétravail total, elles sont idéales : pas d'embouteillages, pas de bruit, commutation boulangerie-bureau en 3 minutes.",
+      },
+      {
+        heading: "Le Gers et l'Ariège : l'alternative radicale soleil-nature",
+        body: "Pour les télétravailleurs qui cherchent la nature totale avec le soleil garanti, le Gers et l'Ariège sont les réponses. Le Gers : plaines de collines gasconnes, 280+ jours de soleil, maisons avec jardin à partir de 120 000€, foie gras à prix fermier. L'Ariège : montagnes pyrénéennes à 1h de Toulouse, villages médiévaux (Foix, Tarascon), prix imbattables, télétravail total assumé. Le réseau 4G/fibre s'améliore chaque année.",
+      },
+    ],
+    relatedCities: ["toulouse", "montpellier", "nimes", "albi", "rodez", "auch"],
+    relatedGuides: [
+      "s-installer-dans-le-sud-ouest-teletravail-guide-2025",
+      "vivre-en-gascogne-gers-guide-2025",
+      "quitter-paris-province-teletravail-guide-complet-2025",
+    ],
+    tags: ["télétravail", "Occitanie", "Toulouse", "Montpellier", "soleil", "Sud", "villes moyennes"],
+  },
+  {
+    slug: "meilleures-villes-familles-recomposees-france-2025",
+    title: "Meilleures villes pour les familles recomposées en France",
+    metaTitle: "Meilleures villes familles recomposées France 2025 — Guide",
+    metaDesc: "Quelle ville choisir quand on est famille recomposée ? Écoles, logement, budget, vie associative : notre guide des meilleures villes françaises pour réussir ce défi.",
+    emoji: "🏠",
+    category: "famille",
+    readMinutes: 9,
+    publishedAt: "2025-04-01",
+    updatedAt: "2025-04-01",
+    intro: "Les familles recomposées ont des besoins spécifiques : logements T4–T5 à prix accessible, présence de plusieurs établissements scolaires pour répartir les enfants selon l'âge, activités parascolaires variées, environnement social ouvert. Certaines villes françaises cochent toutes ces cases mieux que d'autres — souvent des villes moyennes à 200 000–400 000 habitants avec une offre scolaire diversifiée et des loyers encore supportables.",
+    sections: [
+      {
+        heading: "Pourquoi les familles recomposées ont des besoins spécifiques",
+        body: "Une famille recomposée, c'est souvent 3 à 5 enfants d'âges différents, parfois deux lieux de vie (garde alternée), des besoins en activités extrascolaires variées et un budget serré avec deux loyers parfois. La ville idéale doit offrir des T4–T5 accessibles (en dessous de 1 200€/mois en province), plusieurs collèges et lycées pour éviter les fratries dans le même établissement si souhaité, de nombreuses associations sportives et culturelles, et un environnement social sans jugement.",
+      },
+      {
+        heading: "Nantes : la championne toutes catégories pour les familles recomposées",
+        body: "Nantes est régulièrement classée meilleure ville de France pour les familles. Son tissu associatif (sport, musique, arts) est exceptionnel, ses écoles publiques ont bonne réputation, le tramway dessert tous les quartiers. T4 entre 900 et 1 200€ dans les quartiers Nord (Bellevue, Chantenay) ou Est (Saint-Herblain). La culture de l'inclusion et l'esprit ouvert nantais en font un environnement particulièrement bienveillant pour toutes les configurations familiales.",
+      },
+      {
+        heading: "Rennes : cadre de vie study-friendly pour les ados",
+        body: "Rennes a l'un des meilleurs bilans scolaires de France (taux de réussite au bac, options disponibles). Pour une famille recomposée avec des adolescents, c'est un avantage décisif. La ville est sûre, les transports publics denses permettent aux jeunes une réelle autonomie. T4 entre 850 et 1 100€ dans des quartiers comme Maurepas ou Villejean. Le Marché des Lices et les espaces verts nombreux facilitent la vie de famille sans avoir besoin de voiture.",
+      },
+      {
+        heading: "Orléans et Tours : l'option Centre-Val-de-Loire",
+        body: "Orléans et Tours offrent le double avantage d'être à moins de 1h de Paris en TER et d'avoir des loyers nettement inférieurs aux villes ligériennes atlantiques. T4 à Orléans : 750–950€. Tours : 800–1 000€. Les deux villes ont d'excellents réseaux scolaires publics et privés, de nombreuses activités parascolaires et des quartiers résidentiels calmes avec jardins. Idéal pour les gardes alternées Paris–province.",
+      },
+      {
+        heading: "Montpellier et Nîmes : soleil et dynamisme pour les familles du Sud",
+        body: "Le Sud attire les familles recomposées qui veulent fuir les hivers nordiques. Montpellier a un tissu d'activités jeunesse exceptionnel : piscines, gymnases, clubs sportifs. Le revers est le prix : T4 à 1 100–1 400€. Nîmes est une alternative plus douce (T4 à 800–1 000€) avec le même soleil et un accès rapide à Montpellier. Les activités de plein air (Camargue, Cévennes) enrichissent la vie des familles tout au long de l'année.",
+      },
+    ],
+    relatedCities: ["nantes", "rennes", "orleans", "tours", "montpellier", "nimes"],
+    relatedGuides: [
+      "meilleure-ville-famille-france",
+      "meilleures-villes-familles-ecoles-securite-france-2025",
+      "meilleures-villes-familles-budget-serre-2025",
+    ],
+    tags: ["famille", "famille recomposée", "logement", "écoles", "Nantes", "Rennes", "qualité de vie"],
+  },
+  {
+    slug: "villes-france-ainés-retraite-services-proximite-2025",
+    title: "Les meilleures villes françaises pour les aînés : services, accessibilité, qualité de vie",
+    metaTitle: "Meilleures villes pour les aînés et retraités France 2025",
+    metaDesc: "Quelle ville choisir pour bien vieillir en France ? Accessibilité, services médicaux, transports, sécurité, activités : notre classement des villes les plus adaptées aux seniors.",
+    emoji: "🌿",
+    category: "famille",
+    readMinutes: 10,
+    publishedAt: "2025-04-01",
+    updatedAt: "2025-04-01",
+    intro: "Bien choisir sa ville pour la retraite ou pour accompagner un parent âgé, c'est une décision à 30 ans. Les critères changent : accessibilité PMR, densité de médecins spécialistes, transports sans voiture, sécurité, vie culturelle, et coût de la vie. Voici les villes françaises qui excellent sur ces critères — et les pièges à éviter.",
+    sections: [
+      {
+        heading: "Les critères qui comptent vraiment pour bien vieillir en ville",
+        body: "Les retraités et seniors actifs priorisent : la densité médicale (généralistes + spécialistes), les transports en commun accessibles (éviter la voiture obligatoire), la présence de commerces et services en centre-ville, un environnement sécurisé, des activités culturelles et associatives pour le lien social, et un coût de la vie compatible avec une pension de 1 400–1 800€/mois. La météo (soleil, douceur) compte aussi pour le bien-être.",
+      },
+      {
+        heading: "La Rochelle : le rêve atlantique des jeunes retraités actifs",
+        body: "La Rochelle est régulièrement en tête des classements retraite pour une bonne raison : 250+ jours de soleil, ville à vélo par excellence (plat, pistes cyclables partout), secteur médical dense, vie culturelle riche (musées, festivals), marché de l'île de Ré à portée. T2 entre 650 et 850€. Le seul bénémol : les prix immobiliers ont fortement augmenté. Pour les propriétaires qui revendent en Île-de-France, c'est encore très accessible.",
+      },
+      {
+        heading: "Aix-en-Provence : le cadre de vie méditerranéen premium",
+        body: "Aix-en-Provence combine douceur climatique (300 jours de soleil), richesse culturelle (festival, musées), excellente offre médicale et une sécurité perçue élevée dans les quartiers résidentiels. Centre-ville sans voiture, marchés provençaux quotidiens. Le revers : des loyers parmi les plus élevés de PACA (T2 : 850–1 200€) et un stationnement problématique. Pour les retraités aisés ou propriétaires, Aix reste une référence.",
+      },
+      {
+        heading: "Tours et Orléans : les villes seniors parfaites du Centre",
+        body: "Tours est souvent citée par les associations de seniors comme l'une des villes les mieux équipées de France. CHU de Tours reconnu pour ses services gériatriques, tramway accessible PMR, marché couvert, vie associative intense. T2 : 550–700€. Orléans suit de près avec ses nombreux parcs, son tramway, ses services de proximité et ses loyers encore plus abordables. Le train Paris–Tours en 1h permet de rester proche de la famille.",
+      },
+      {
+        heading: "Pau et Bayonne : le bon vivre à prix doux dans le Grand-Ouest pyrénéen",
+        body: "Pau offre aux seniors un cadre de vie exceptionnel : Boulevard des Pyrénées avec vue sur les sommets, 200 jours de soleil, CHU réputé, vie culturelle active, loyers très doux (T2 : 450–600€). Bayonne (avec Biarritz à 8 km) ajoute la dimension basque : gastronomie, lien social fort, activités en plein air. Ces deux villes sont idéales pour les retraités qui veulent le Pays Basque sans payer le prix de Biarritz.",
+      },
+    ],
+    relatedCities: ["la-rochelle", "aix-en-provence", "tours", "orleans", "pau", "bayonne"],
+    relatedGuides: [
+      "meilleures-villes-retraite-avec-mer-et-soleil-petit-budget-2025",
+      "meilleures-villes-retraites-budget-moins-1500-euros-2025",
+      "villes-france-bord-de-mer-budget-accessible-2025",
+    ],
+    tags: ["retraite", "aînés", "seniors", "accessibilité", "médecins", "qualité de vie", "famille"],
+  },
+  {
+    slug: "villes-france-reconversion-professionnelle-formation-2025",
+    title: "Les meilleures villes pour se reconvertir professionnellement en France",
+    metaTitle: "Meilleures villes reconversion professionnelle France 2025",
+    metaDesc: "Quelle ville française choisir pour une reconversion pro ? Écoles, centres de formation, coût de la vie, emploi, écosystème start-up. Notre guide complet pour réussir votre transition.",
+    emoji: "🔄",
+    category: "lifestyle",
+    readMinutes: 10,
+    publishedAt: "2025-04-01",
+    updatedAt: "2025-04-01",
+    intro: "La reconversion professionnelle est devenue un phénomène de masse : 1 actif sur 3 envisage d'en faire une d'ici 5 ans. Choisir la bonne ville pour se reconvertir, c'est choisir un écosystème de formation accessible, un marché de l'emploi ouvert aux nouveaux profils et un coût de la vie qui permet de vivre pendant la formation sans s'endetter. Certaines villes françaises se démarquent nettement.",
+    sections: [
+      {
+        heading: "Pourquoi la ville change tout pour une reconversion réussie",
+        body: "Une reconversion, c'est souvent 6 à 24 mois de revenus réduits. La ville doit permettre de vivre correctement avec un CPF et éventuellement une allocation chômage. Elle doit aussi avoir des centres de formation reconnus, un marché de l'emploi dans le secteur cible, et idéalement un réseau professionnel actif (French Tech, clusters sectoriels). Déménager pour se reconvertir peut être le meilleur investissement de la décennie.",
+      },
+      {
+        heading: "Nantes : l'écosystème numérique et créatif le plus accessible",
+        body: "Nantes est la ville de la reconversion tech par excellence. Son French Tech label, ses écoles numériques (Epitech, Wild Code School, école 42 campus partenaire), son tissu de start-ups en expansion et ses loyers encore maîtrisés (T2 à 650–850€) en font un choix de premier rang. La ville investit massivement dans les tiers-lieux et les espaces de coworking. Nombreuses formations CAP/BTS en présentiel ou hybride pour les métiers manuels également.",
+      },
+      {
+        heading: "Bordeaux : vins, tourisme, tech et artisanat — la reconversion solaire",
+        body: "Bordeaux a diversifié son économie bien au-delà du vin. L'écosystème tech bordelais (Lacave, Darwin, Hémicycle Numérique) est actif. Les formations en œnotourisme, en artisanat culinaire et en tourisme créatif font de Bordeaux une ville idéale pour les reconversions lifestyle. Loyers T2 : 700–950€ mais forte pression locative. À envisager avec un budget solide ou en visant les villes satellites (Mérignac, Pessac).",
+      },
+      {
+        heading: "Grenoble : l'ingénierie, le numérique et les métiers verts",
+        body: "Grenoble est la ville scientifique et technologique de France, avec son CEA, son campus universitaire et ses clusters micro-électronique et greentech. Les formations en ingénierie, énergie renouvelable et numérique y sont parmi les meilleures d'Europe. Loyers compétitifs (T2 : 550–750€), environnement montagne exceptionnel. Idéale pour les reconversions vers les métiers de l'énergie, l'environnement ou l'informatique industrielle.",
+      },
+      {
+        heading: "Rennes, Toulouse et Montpellier : les autres pôles de reconversion",
+        body: "Rennes excellence dans les métiers de la cybersécurité (pôle d'excellence national) et de l'agroalimentaire. Toulouse dans l'aérospatiale, le numérique et les métiers industriels de précision. Montpellier dans la santé, le numérique et le tourisme méditerranéen. Dans chacune, des formations reconnues, un marché de l'emploi actif et des loyers encore inférieurs à Paris permettent d'envisager une reconversion sereine.",
+      },
+    ],
+    relatedCities: ["nantes", "bordeaux", "grenoble", "rennes", "toulouse", "montpellier"],
+    relatedGuides: [
+      "quitter-paris-province-teletravail-guide-complet-2025",
+      "meilleures-villes-coworking-freelance-ecosysteme-2025",
+      "teletravail-rythme-hybride-quelle-ville-choisir-2025",
+    ],
+    tags: ["reconversion", "formation", "emploi", "French Tech", "start-up", "lifestyle", "numérique"],
+  },
 ];
 
 export const GUIDE_CATEGORIES = [
