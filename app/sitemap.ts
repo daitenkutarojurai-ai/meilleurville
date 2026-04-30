@@ -286,6 +286,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ["anglet", "bayonne"],
     ["honfleur", "caen"],
     ["honfleur", "rouen"],
+    ["cassis", "marseille"],
+    ["cassis", "la-ciotat"],
+    ["foix", "pamiers"],
+    ["foix", "toulouse"],
+    ["royan", "la-rochelle"],
+    ["royan", "saintes"],
+    ["grasse", "nice"],
+    ["grasse", "cannes"],
+    ["concarneau", "quimper"],
+    ["concarneau", "lorient"],
+    ["saint-jean-de-luz", "biarritz"],
+    ["saint-jean-de-luz", "bayonne"],
   ];
 
   const staticRoutes: MetadataRoute.Sitemap = [

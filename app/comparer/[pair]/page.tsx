@@ -301,6 +301,18 @@ const SEO_PAIRS = [
   ["anglet", "bayonne"],
   ["honfleur", "caen"],
   ["honfleur", "rouen"],
+  ["cassis", "marseille"],
+  ["cassis", "la-ciotat"],
+  ["foix", "pamiers"],
+  ["foix", "toulouse"],
+  ["royan", "la-rochelle"],
+  ["royan", "saintes"],
+  ["grasse", "nice"],
+  ["grasse", "cannes"],
+  ["concarneau", "quimper"],
+  ["concarneau", "lorient"],
+  ["saint-jean-de-luz", "biarritz"],
+  ["saint-jean-de-luz", "bayonne"],
 ];
 
 export function generateStaticParams() {
