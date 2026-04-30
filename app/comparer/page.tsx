@@ -41,6 +41,17 @@ const POPULAR_PAIRS = [
   { a: "figeac", labelA: "Figeac", b: "cahors", labelB: "Cahors" },
   { a: "epinal", labelA: "Épinal", b: "nancy", labelB: "Nancy" },
   { a: "montelimar", labelA: "Montélimar", b: "valence", labelB: "Valence" },
+  { a: "aix-les-bains", labelA: "Aix-les-Bains", b: "annecy", labelB: "Annecy" },
+  { a: "arcachon", labelA: "Arcachon", b: "bordeaux", labelB: "Bordeaux" },
+  { a: "hyeres", labelA: "Hyères", b: "toulon", labelB: "Toulon" },
+  { a: "salon-de-provence", labelA: "Salon-de-Provence", b: "aix-en-provence", labelB: "Aix-en-Provence" },
+  { a: "castres", labelA: "Castres", b: "albi", labelB: "Albi" },
+  { a: "lens", labelA: "Lens", b: "arras", labelB: "Arras" },
+  { a: "haguenau", labelA: "Haguenau", b: "strasbourg", labelB: "Strasbourg" },
+  { a: "bergerac", labelA: "Bergerac", b: "bordeaux", labelB: "Bordeaux" },
+  { a: "calais", labelA: "Calais", b: "dunkerque", labelB: "Dunkerque" },
+  { a: "roanne", labelA: "Roanne", b: "lyon", labelB: "Lyon" },
+  { a: "chatellerault", labelA: "Châtellerault", b: "poitiers", labelB: "Poitiers" },
 ];
 
 export default function ComparerPage() {
