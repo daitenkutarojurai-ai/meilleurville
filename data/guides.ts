@@ -1990,6 +1990,141 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["bord de mer", "littoral", "plage", "côte", "abordable", "pas cher", "Bretagne", "Méditerranée", "Atlantique"],
   },
+  {
+    slug: "investissement-immobilier-villes-france-2025",
+    title: "Investissement immobilier en France 2025 — Les meilleures villes pour investir et louer",
+    emoji: "🏗️",
+    category: "budget",
+    metaTitle: "Investissement immobilier France 2025 — Meilleures villes | MeilleurVille",
+    metaDesc: "Où investir dans l'immobilier locatif en France en 2025 ? Classement des villes avec le meilleur rendement locatif brut, tension locative, et perspectives de plus-value. Données réelles par ville.",
+    intro: "L'investissement locatif en France reste l'un des placements préférés des Français, mais les rendements varient considérablement d'une ville à l'autre. Ce guide classe les villes par rendement locatif brut réel et analyse les perspectives 2025-2030.",
+    readMinutes: 10,
+    publishedAt: "2026-02-15",
+    updatedAt: "2026-02-15",
+    sections: [
+      {
+        heading: "Rendement locatif brut : la métrique de base",
+        body: "Le rendement locatif brut = (loyer annuel / prix d'achat) × 100. C'est le point de départ mais pas le seul critère. Un rendement brut de 7% peut cacher une vacance locative de 15% dans une ville en déclin. Les villes avec les meilleurs rendements bruts sont souvent celles où les prix sont les plus bas : Lens (7-9%), Limoges (6-8%), Montluçon (8-10%), Châlons-en-Champagne (6-7%). Mais le risque de vacance et de dégradation est plus élevé. À l'inverse, Lyon (3-4%) ou Bordeaux (3-4%) offrent une sécurité locative maximale mais un rendement modeste.",
+      },
+      {
+        heading: "Le triangle d'or : rendement + tension + dynamisme",
+        body: "Les villes les plus intéressantes pour l'investissement 2025 combinent trois facteurs : rendement brut correct (5-7%), tension locative élevée (peu de vacance), et dynamisme économique ou démographique (pas de ville en déclin). Ce triangle d'or pointe vers : Toulouse (5-6%, marché étudiant/aéro), Montpellier (5-6%, croissance démographique), Rennes (5-7%, French Tech dynamique), Nantes (4-5%, métropole solide). Ces villes offrent la meilleure combinaison risque/rendement.",
+      },
+      {
+        heading: "Les champions cachés : villes moyennes à fort potentiel",
+        body: "Les villes de taille intermédiaire sont souvent sous-radar mais offrent d'excellentes opportunités en 2025 : Mulhouse (7-8% de rendement, pression des frontaliers suisses sur le marché locatif), Dijon (5-6%, marché étudiant robuste, prix encore raisonnables), Saint-Étienne (7-9% mais risque de vacance, choisir les quartiers proches universités), Le Mans (5-7%, ville étudiante méconnue avec une bonne tension locative). Ces marchés demandent plus de sélectivité dans le choix du quartier.",
+      },
+      {
+        heading: "Les pièges à éviter : villes en déclin démographique",
+        body: "Certaines villes ont des rendements bruts attractifs sur le papier mais des fondamentaux économiques inquiétants : Charleville-Mézières, Forbach, Montluçon, ou certaines villes du bassin minier. Le rendement brut de 9% ne vaut rien si vous avez 3 mois de vacance par an et une rotation de locataires qui dégradent le bien. Règle d'or : ne jamais investir dans une ville dont la population décline depuis plus de 10 ans sans un moteur de revitalisation visible (université, usine Toyota, musée d'envergure).",
+      },
+      {
+        heading: "Location meublée vs vide : la fiscalité qui change tout",
+        body: "En 2025, le statut LMNP (Loueur Meublé Non Professionnel) reste l'une des niches fiscales les plus efficaces pour un investissement immobilier. Pour les studios et T2 en zone étudiante (Toulouse, Montpellier, Rennes, Bordeaux), la location meublée permet d'amortir le bien sur 20-25 ans et d'effacer fiscalement les revenus locatifs pendant cette période. Le régime réel nécessite un comptable mais l'économie d'impôt peut dépasser 2 000-4 000€/an pour un bien à 180 000€. Obligatoire pour tout investisseur qui paie des impôts.",
+      },
+      {
+        heading: "Stratégie 2025 : où mettre 100 000€ à investir ?",
+        body: "Pour 100 000€ d'apport (soit environ 200 000€ de bien avec crédit), voici les stratégies 2025 : Option 1 — Studio en zone étudiante (Toulouse, Montpellier, Rennes) : rendement 5-6%, vacance quasi-nulle, LMNP. Option 2 — T2 en ville dynamique hors-top10 (Dijon, Nantes-périphérie, Mulhouse centre) : rendement 6-7%, marché de locataires familles/actifs plus stable. Option 3 — T3 en reconversion (Lens quartier Louvre, Saint-Étienne Fauriel) : rendement 7-9% avec risque, nécessite connaissance locale. Éviter les résidences de tourisme et les parkings seuls qui ne bénéficient pas de l'amortissement LMNP.",
+      },
+    ],
+    relatedCities: ["toulouse", "montpellier", "rennes", "nantes", "bordeaux", "dijon", "mulhouse", "lyon", "lens", "strasbourg"],
+    relatedGuides: [
+      "budget-vivre-en-france-comparatif",
+      "villes-france-bord-de-mer-budget-accessible-2025",
+      "quitter-paris-guide-pratique-2025",
+    ],
+    tags: ["investissement immobilier", "rendement locatif", "LMNP", "achat", "investir", "patrimoine"],
+  },
+  {
+    slug: "villes-france-mobilite-douce-sans-voiture-2025",
+    title: "Les meilleures villes françaises sans voiture — Mobilité douce, vélo et transports 2025",
+    emoji: "🚲",
+    category: "lifestyle",
+    metaTitle: "Vivre sans voiture en France 2025 — Meilleures villes vélo et transports | MeilleurVille",
+    metaDesc: "Quelle ville française permet de vivre sans voiture ? Classement 2025 des meilleures villes pour la mobilité douce : réseau vélo, transports en commun, walkability et qualité de vie sans automobile.",
+    intro: "Vivre sans voiture est possible dans beaucoup de villes françaises — mais le confort varie énormément. Ce guide classe les villes selon leur walkscore, leur réseau cyclable, leurs transports en commun, et les témoignages de résidents sans voiture.",
+    readMinutes: 7,
+    publishedAt: "2026-03-01",
+    updatedAt: "2026-03-01",
+    sections: [
+      {
+        heading: "Les critères d'une ville vraiment vécable sans voiture",
+        body: "Une ville est vraiment praticable sans voiture quand : les commerces essentiels (alimentation, pharmacie, médecin) sont accessibles à pied en 15 minutes maximum. Les transports en commun fonctionnent jusqu'à 22h minimum, 7j/7. Un réseau vélo séparé et sécurisé couvre au moins 70% des axes principaux. Et les trajets professionnels les plus courants sont réalisables sans voiture. Ces quatre conditions éliminent d'emblée la majorité des villes françaises de plus de 50 000 habitants.",
+      },
+      {
+        heading: "Le Top 5 sans voiture : Strasbourg, Bordeaux, Lyon, Nantes, Rennes",
+        body: "Strasbourg est la référence absolue en France pour la mobilité douce : 600 km de pistes cyclables, le tramway le plus dense de France, et une culture du vélo ancrée (35% des déplacements en vélo dans certains quartiers). Bordeaux suit avec son tram et son réseau vélo en extension constante. Lyon a métamorphosé sa mobilité depuis 2020 avec le plan vélo de la Métropole. Nantes et Rennes ferment le Top 5 avec des trams modernes et des politiques cyclables ambitieuses. Dans ces 5 villes, ne pas avoir de voiture est un choix de confort, pas une contrainte.",
+      },
+      {
+        heading: "Les surprises positives : Grenoble, Tours, Montpellier",
+        body: "Grenoble est souvent citée comme la ville la plus écologique de France et figure en tête des classements vélo depuis 2022 : la Métropole a investi massivement dans le réseau cyclable et les zones 30. Tours surprend par la densité de son réseau tramway et sa walkability exceptionnelle dans le centre-ville. Montpellier a développé l'un des réseaux de tramway les plus denses de France (4 lignes) avec une qualité de service reconnue. Ces trois villes permettent de vivre sans voiture confortablement.",
+      },
+      {
+        heading: "Les villes à éviter si vous êtes sans voiture",
+        body: "Certaines villes françaises restent très compliquées sans voiture malgré leurs efforts : Marseille (les transports en commun sont peu fréquents hors centre, le réseau vélo est encore embryonnaire dans de nombreux quartiers), Nice (topographie difficile, réseau vélo concentré sur la promenade), Toulon (très automobile-dépendante), et la plupart des villes de moins de 80 000 habitants sans tramway. À Perpignan ou Béziers, le vélo est possible dans le centre mais les zones commerciales et les quartiers excentrés sont inaccessibles autrement qu'en voiture.",
+      },
+      {
+        heading: "Le coût de la vie sans voiture : économies réelles",
+        body: "Le coût total d'une voiture en France en 2025 (crédit, assurance, carburant, entretien, stationnement) est estimé entre 350 et 600€/mois selon le type de véhicule. Pour une famille avec deux voitures, c'est 700-1 200€/mois. En comparaison, un abonnement transport annuel en ville (TCL à Lyon : 400€/an, TaM à Montpellier : 380€/an) représente 30-35€/mois. L'économie mensuelle nette pour une famille passant de deux voitures à zéro voiture avec un bon réseau de transport est de 600-1 100€/mois. Pour un célibataire : 300-550€/mois d'économie.",
+      },
+      {
+        heading: "Comment tester avant de décider : le mois sans voiture",
+        body: "Avant de décider de vivre sans voiture dans une nouvelle ville, testez pendant 30 jours en n'utilisant que les transports en commun et le vélo. Utilisez les vélos en libre-service (Vélo'v à Lyon, Vcub à Bordeaux, LE vélo à Marseille) pour tester les itinéraires. Identifiez les 5 trajets critiques de votre vie quotidienne (travail, école, supermarché, médecin, amis) et évaluez leur faisabilité. Si plus de 3 trajets sur 5 sont pénibles ou impossibles sans voiture, la ville n'est pas adaptée à votre mode de vie sans voiture.",
+      },
+    ],
+    relatedCities: ["strasbourg", "bordeaux", "lyon", "nantes", "rennes", "grenoble", "tours", "montpellier", "toulouse", "lille"],
+    relatedGuides: [
+      "quitter-paris-guide-pratique-2025",
+      "meilleures-villes-jeunes-actifs-france-2025",
+      "alternatives-ile-de-france-banlieue-parisienne-guide-2025",
+    ],
+    tags: ["sans voiture", "mobilité douce", "vélo", "transports en commun", "walkability", "tram", "écologie"],
+  },
+  {
+    slug: "guide-expatries-vivre-en-france-2025",
+    title: "Guide pour expatriés : s'installer en France en 2025 — Meilleures villes et conseils pratiques",
+    emoji: "✈️",
+    category: "comparaison",
+    metaTitle: "S'installer en France 2025 — Guide expatriés : meilleures villes et conseils | MeilleurVille",
+    metaDesc: "Vous êtes expatrié et souhaitez vous installer en France ? Guide complet 2025 : les meilleures villes pour les étrangers, les démarches administratives, le coût de la vie, et les communautés d'expatriés.",
+    intro: "La France accueille chaque année des dizaines de milliers d'expatriés venant du monde entier. Mais toutes les villes ne sont pas égales pour s'installer : communauté internationale, maîtrise de l'anglais, accès aux services administratifs, et qualité de vie varient considérablement.",
+    readMinutes: 10,
+    publishedAt: "2026-03-15",
+    updatedAt: "2026-03-15",
+    sections: [
+      {
+        heading: "Pourquoi la France attire autant d'expatriés",
+        body: "La France est le 5e pays d'accueil des expatriés dans le monde. Les raisons : la qualité du système de santé (gratuit pour les résidents légaux), la gastronomie et la qualité de vie reconnues mondialement, l'accès à l'éducation publique de qualité pour les enfants, un coût de la vie inférieur à Londres, Amsterdam, ou Stockholm, et — pour les profils anglophones — le prestige culturel de la langue française. La contrepartie : la bureaucratie française est réputée complexe et la barrière de la langue peut être un frein dans certaines villes.",
+      },
+      {
+        heading: "Les villes les plus internationales : Paris, Lyon, Bordeaux, Montpellier",
+        body: "Pour les expatriés qui ne parlent pas (encore) français, Paris reste la destination évidente avec une communauté internationale de 500 000 personnes, des services en anglais partout, et un marché du travail international solide. Lyon est souvent citée comme 'la meilleure ville de France pour les expats hors Paris' : international mais humain. Bordeaux a une importante communauté britannique historique (Eurostar fait partis de sa clientèle). Montpellier attire les Sud-Européens (Espagnols, Italiens, Portugais) et les Africains francophones. Chaque ville a sa couleur internationale distincte.",
+      },
+      {
+        heading: "Les villes underrated pour expatriés anglophones",
+        body: "Plusieurs villes françaises sont idéales pour les anglophones sans offrir le coût parisien : Grenoble (forte communauté scientifique internationale, CERN à 1h, 40 nationalités à l'université), Strasbourg (institutions européennes, anglais courant dans la fonction publique européenne), Nice (communauté britannique historique très active, temps exceptionnel). Pour les retraités anglophones à petit budget : Périgord (nombreux Britanniques installés, prix immobiliers très bas, mode de vie doux), région de Montpellier et Languedoc (soleil, prix raisonnables, aéroport direct Londres).",
+      },
+      {
+        heading: "Les démarches administratives : ce qu'il faut savoir avant d'arriver",
+        body: "Pour les citoyens UE : liberté de circulation totale, inscription possible directement en mairie. Pour les non-UE : titre de séjour obligatoire (visa long-séjour → carte de séjour). Ouvrir un compte bancaire en France sans y résider est difficile : des banques comme Shine, Revolut, ou N26 permettent d'avoir un IBAN français avant l'arrivée. La Sécurité sociale s'ouvre dès l'inscription en France (AMELI) pour les résidents légaux. L'enregistrement auprès du consulat de son pays d'origine est recommandé mais pas obligatoire.",
+      },
+      {
+        heading: "Coût de la vie en France comparé à d'autres pays",
+        body: "Pour un expatrié venant de Londres : le coût de la vie à Lyon ou Bordeaux est 35-40% moins cher (loyer 50% moins cher, alimentation 20% moins chère, restaurants 30% moins chers). Pour un expatrié venant des États-Unis : la santé est incomparablement moins chère (consultation médicale remboursée à 70%), l'alimentation et les transports sont comparables aux grandes villes américaines. Pour un expatrié venant du Maroc, de Tunisie ou d'Algérie : la vie est plus chère, mais les salaires sont 4 à 6 fois plus élevés selon les secteurs.",
+      },
+      {
+        heading: "Trouver une communauté : les réseaux d'expatriés en France",
+        body: "Rejoindre une communauté d'expatriés est essentiel pour une intégration réussie. Les réseaux à connaître : InterNations (événements dans toutes les grandes villes françaises), Meetup.com (groupes de conversation anglais, clubs internationaux), les associations Alliance Française à l'envers (des français qui veulent pratiquer l'anglais, parfait pour les anglophones qui veulent pratiquer le français en échange). Sur Facebook, les groupes 'Expats in [ville]' sont actifs dans toutes les grandes villes. Le premier hiver est souvent le plus difficile — prévoir de rejoindre 3-4 activités ou groupes dès le premier mois.",
+      },
+    ],
+    relatedCities: ["paris", "lyon", "bordeaux", "montpellier", "grenoble", "strasbourg", "nice", "marseille", "toulouse", "nantes"],
+    relatedGuides: [
+      "quitter-paris-guide-pratique-2025",
+      "budget-vivre-en-france-comparatif",
+      "meilleures-villes-pour-retraite-france-2025",
+    ],
+    tags: ["expatriés", "s'installer en France", "international", "anglophone", "immigration", "visa", "communauté"],
+  },
 ];
 
 export const GUIDE_CATEGORIES = [
