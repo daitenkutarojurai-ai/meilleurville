@@ -3025,6 +3025,231 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["campagne", "ville moyenne", "exode urbain", "télétravail", "rural", "qualité de vie", "choix résidentiel"],
   },
+  {
+    slug: "cote-azur-abordable-arriere-pays-paca-2025",
+    title: "Côte d'Azur abordable 2025 — Grasse, La Ciotat, Vence : profiter du Sud sans les prix du bord de mer",
+    emoji: "🌺",
+    category: "region",
+    metaTitle: "Côte d'Azur abordable 2025 — alternatives à Nice et Monaco | MeilleurVille",
+    metaDesc: "Habiter la Côte d'Azur sans payer 7 000€/m² ? Guide des meilleures villes de l'arrière-pays PACA : Grasse, Vence, La Ciotat, Manosque — soleil et mer à prix accessibles.",
+    intro: "La Côte d'Azur reste l'une des régions les plus recherchées de France, mais ses prix ont atteint des niveaux inaccessibles pour la majorité des actifs français. Bonne nouvelle : l'arrière-pays provençal offre des alternatives exceptionnelles à 20-40 km de la Méditerranée, avec le même soleil, des paysages magnifiques et des prix 40-60% inférieurs.",
+    readMinutes: 8,
+    publishedAt: "2026-04-30",
+    updatedAt: "2026-04-30",
+    sections: [
+      {
+        heading: "Pourquoi les prix de la Côte d'Azur ont-ils autant monté ?",
+        body: "La Côte d'Azur (Nice, Monaco, Cannes, Antibes) a toujours été chère, mais la décennie 2015-2025 a été particulièrement violente : flux d'investisseurs étrangers (russes avant 2022, asiatiques, Britanniques post-Brexit), télétravailleurs fortunés fuyant Paris, promoteurs immobiliers actifs. Résultat : Nice dépasse 5 500€/m², Antibes 6 000€/m², Cannes 7 000€/m², Menton 7 500€/m². Pour un actif avec un salaire de 2 500€/mois, s'installer sur la côte elle-même est quasiment impossible sans héritage. L'arrière-pays devient la seule alternative rationnelle.",
+      },
+      {
+        heading: "Grasse : la capitale mondiale du parfum à 330 m d'altitude",
+        body: "Grasse (51 000 hab) est le compromis parfait : à seulement 18 km de Cannes et 25 km de Nice, mais à 330 m d'altitude avec 5°C de moins en été (précieux avec les canicules). Prix : 3 000-3 500€/m² pour un appartement, contre 6 000-7 000€/m² sur la côte. Accessibilité : bus direct vers Cannes (40 min), Nice (1h). Qualité de vie : vieille ville médiévale parfumée, UNESCO, marchés provençaux, vue mer par temps clair. C'est l'une des alternatives les plus intelligentes pour les familles ou retraités qui refusent de payer le prix côtier.",
+      },
+      {
+        heading: "La Ciotat : le berceau du cinéma face aux calanques",
+        body: "La Ciotat (37 000 hab) bénéficie d'une double localisation stratégique : calanques de Cassis à 5 km, Marseille à 30 min en voiture, Toulon à 45 min. Contrairement à Cassis (7 500€/m²), La Ciotat affiche des prix de 3 500-4 500€/m² pour des appartements avec parfois vue mer. La ville possède le cinéma Eden, le plus ancien encore en activité dans le monde, et des plages décentes. Pour qui veut la Méditerranée sans l'étiquette calanques de luxe, La Ciotat est un choix excellent.",
+      },
+      {
+        heading: "Vence et Saint-Paul-de-Vence : l'art à l'ombre des Alpes",
+        body: "Vence (19 000 hab) est l'une des villes les plus culturellement riches de l'arrière-pays azuréen : Chapelle Matisse, Fondation Maeght à Saint-Paul-de-Vence (2 km), musées, galeries, festival de jazz. À 10 km de Nice en voiture, Vence offre un cadre médiéval spectaculaire, de l'air pur, et des prix de 4 000-5 000€/m² — encore chers mais 30% en dessous de Nice côtier. Attentivement considéré par les artistes, retraités culturels et familles aisées qui veulent Nice sans les embouteillages permanents.",
+      },
+      {
+        heading: "Manosque et le Luberon : le vrai arrière-pays provençal",
+        body: "Pour s'éloigner encore plus et vraiment économiser : Manosque (22 000 hab, Alpes-de-Haute-Provence) offre l'arrière-pays provençal authentique à 2 600€/m². La mer est à 1h de route (Cassis, Toulon), mais la Haute-Provence — lavande, Luberon, cigales, luminosité exceptionnelle — est à la porte. L'ensoleillement dépasse 2 750h/an (plus que Nice). C'est le choix du télétravailleurs ou retraité qui cherche la Provence profonde plutôt que les terrasses animées. Également : Apt (Luberon), Forcalquier, Sisteron.",
+      },
+      {
+        heading: "Budget comparé : côte vs arrière-pays",
+        body: "Pour un couple sans enfants (T2 loué) : Nice centre 1 350€/mois, Nice périphérie 1 050€, Antibes 1 200€, Cannes 1 300€. Alternatives arrière-pays : Grasse 800€, La Ciotat 920€, Vence 950€, Manosque 680€. L'économie mensuelle entre Nice et Grasse est de 550€ soit 6 600€/an. Sur 5 ans, c'est 33 000€ d'économies — le prix d'une voiture ou d'un voyage au long cours. Et les 18 km vers la mer ? En Côte d'Azur, avec le trafic, c'est 30-45 min — guère plus qu'un trajet dans Nice elle-même.",
+      },
+    ],
+    relatedCities: ["grasse", "la-ciotat", "cassis", "nice", "cannes", "antibes", "manosque", "menton"],
+    relatedGuides: [
+      "vivre-en-provence-paca-guide-2025",
+      "meilleures-villes-seniors-actifs-france-2025",
+      "investissement-immobilier-villes-rentables-france-2025",
+    ],
+    tags: ["Côte d'Azur", "arrière-pays", "Grasse", "La Ciotat", "Vence", "Manosque", "PACA", "abordable"],
+  },
+  {
+    slug: "vivre-autour-bordeaux-alternatives-2025",
+    title: "Autour de Bordeaux 2025 — S'installer dans la métropole sans payer le prix Bordeaux",
+    emoji: "🍷",
+    category: "region",
+    metaTitle: "Vivre autour de Bordeaux 2025 — alternatives abordables | MeilleurVille",
+    metaDesc: "Mérignac, Talence, Pessac, Libourne, Arcachon… Quelles communes autour de Bordeaux offrent le meilleur rapport qualité-prix ? Guide complet 2025.",
+    intro: "Bordeaux est devenue l'une des métropoles les plus prisées de France depuis l'ouverture de la LGV Paris-Bordeaux en 2017. Résultat : ses prix ont bondi de 60% en 10 ans. La couronne bordelaise offre des alternatives intéressantes à 20-40 km du centre, avec des prix 20-40% inférieurs et une bonne connexion au bassin d'emploi.",
+    readMinutes: 7,
+    publishedAt: "2026-04-30",
+    updatedAt: "2026-04-30",
+    sections: [
+      {
+        heading: "Bordeaux : pourquoi les prix ont-ils autant monté ?",
+        body: "Bordeaux est passée de 2 500€/m² en 2015 à 4 000-4 500€/m² en 2025, après un pic à 5 000€/m² en 2022 suivi d'une légère correction. La LGV vers Paris (2h04) a généré un afflux de « néo-Bordelais » parisiens qui ont télétravaillé depuis Bordeaux tout en gardant leur emploi francilien. La métropole de Bordeaux (28 communes, 800 000 hab) offre heureusement des alternatives bien desservies par le tramway et les lignes de bus.",
+      },
+      {
+        heading: "Mérignac : la première couronne accessible",
+        body: "Mérignac (70 000 hab) est la deuxième ville de la Gironde, attenante à Bordeaux, avec l'aéroport international. Tramway A direct vers Bordeaux-Pey-Berland en 20 min. Prix : 3 100-3 600€/m², soit 15-25% de moins que Bordeaux. Quartier intéressant : Mérignac-Arlac (résidentiel, calme, parc), Chemin Long (étudiant, animé). Mérignac attire beaucoup de familles et actifs du secteur aéronautique (Airbus, Thales).",
+      },
+      {
+        heading: "Talence et Pessac : le choix universitaire",
+        body: "Talence et Pessac sont les deux communes universitaires adossées à Bordeaux-Sud, avec le campus de l'Université de Bordeaux (56 000 étudiants). Tramway B vers Bordeaux-Victoire en 10 min. Prix : 3 000-3 500€/m², T2 loué à 750-850€/mois. Ambiance universitaire vivante toute l'année, bars, restos, associations. Idéal pour les actifs, les jeunes familles et les investisseurs locatifs cherchant une bonne rentabilité (6-7% brut avec studios/T1).",
+      },
+      {
+        heading: "Libourne : le hub Bordeaux-Périgord",
+        body: "Libourne (24 000 hab) est à 35 km de Bordeaux, accessible en TER en 25 min. Ville médiévale sur la Dordogne et l'Isle, avec un beau centre historique (bastide anglaise du XIIIe siècle) et les vignobles de Saint-Émilion à 8 km. Prix : 2 200-2 700€/m², T2 loué à 620-700€/mois. Pour les actifs en télétravail 3-4j/semaine, Libourne offre un cadre de vie médiéval exceptionnel à prix beaucoup plus raisonnable que Bordeaux.",
+      },
+      {
+        heading: "La Teste-de-Buch et le Bassin d'Arcachon",
+        body: "Le Bassin d'Arcachon à 60 km de Bordeaux (45 min par autoroute) a connu une explosion de prix post-Covid, mais des communes comme La Teste-de-Buch ou Gujan-Mestras restent plus accessibles qu'Arcachon-ville. La Teste : 3 500-4 500€/m², T2 loué à 900-1 000€/mois. Arcachon ville : 5 000-7 000€/m². Pour un télétravailleur qui peut se permettre le bassin : cadre exceptionnel (dune, pinède, huîtres). La navette ferroviaire vers Bordeaux (50 min) permet de maintenir un accès à la métropole.",
+      },
+      {
+        heading: "Les villes péri-bordelaises sous le radar",
+        body: "D'autres communes offrent un bon rapport qualité-prix autour de Bordeaux : Bruges (au nord, résidentiel, 3 100€/m², calme absolu), Bègles (au sud, jeune, branché, 3 200€/m², tramway direct), Floirac (rive droite, en pleine transformation, 2 500€/m², potentiel de plus-value), Cenon-Lormont (rive droite populaire, tramway, 2 200€/m², en gentrification progressive). Ces communes offrent des prix 30-45% inférieurs à Bordeaux intra-muros avec un accès tramway de moins de 20 min au centre.",
+      },
+    ],
+    relatedCities: ["bordeaux", "libourne", "arcachon", "la-rochelle", "bayonne", "biarritz"],
+    relatedGuides: [
+      "cote-basque-landes-vivre-atlantique-2025",
+      "vivre-en-nouvelle-aquitaine-guide-2025",
+      "investissement-immobilier-villes-rentables-france-2025",
+    ],
+    tags: ["Bordeaux", "Mérignac", "Talence", "Pessac", "Libourne", "métropole bordelaise", "immobilier", "alternatives"],
+  },
+  {
+    slug: "nomades-numeriques-meilleures-villes-france-2025",
+    title: "Nomades numériques en France 2025 — Meilleures villes pour une vie mobile",
+    emoji: "💻",
+    category: "teletravail",
+    metaTitle: "Nomades numériques France 2025 — meilleures villes | MeilleurVille",
+    metaDesc: "Vous travaillez où vous voulez ? Les meilleures villes françaises pour les nomades numériques en 2025 : coworking, fibre, communauté, coût de la vie et qualité de vie.",
+    intro: "Le nomadisme numérique s'est développé massivement en France depuis 2020. Contrairement au simple télétravail, le nomade numérique ne se fixe pas — il optimise son lieu de vie en permanence. Ce guide présente les villes françaises les plus adaptées à ce mode de vie : coworking dense, fibre partout, communauté d'indépendants active, et un coût de la vie qui permet de travailler moins pour vivre mieux.",
+    readMinutes: 8,
+    publishedAt: "2026-04-30",
+    updatedAt: "2026-04-30",
+    sections: [
+      {
+        heading: "Nomade numérique vs télétravailleur : des besoins différents",
+        body: "Un télétravailleur a généralement un contrat salarié fixe, une ville de rattachement et travaille depuis son domicile. Un nomade numérique est souvent freelance, entrepreneur ou indépendant — il peut changer de base toutes les semaines, tous les mois ou toutes les saisons. Ses critères : fibre ou 4G fiable partout (y compris dans les cafés, bibliothèques, hôtels), espaces de coworking variés (day pass, mensuel), communauté active de freelances pour les échanges pro et perso, transport facile (train, covoiturage), et un coût de la vie permettant de vivre avec 2 000-3 000€/mois nets.",
+      },
+      {
+        heading: "Le top du nomadisme : Montpellier, Biarritz, Lyon, Marseille",
+        body: "Montpellier s'impose comme LA ville des nomades numériques françaises : coworking dense (Station-H, Smartwork...), soleil, mer à 15 min, communauté tech active, jeunesse permanente (180 000 étudiants), TGV Paris en 3h30, prix encore raisonnables. Biarritz/Anglet concentre une forte densité de nomades surf+tech : ambiance décontractée, réseau bien établi, qualité de vie atlantique unique. Lyon : le hub tech français, deuxième bassin d'emploi numérique, coworking top (Woospeak, Nexity Lab), très bien desservie. Marseille : plus brut mais moins cher, communauté freelance en fort développement, Méditerranée immédiate.",
+      },
+      {
+        heading: "Les villes secondaires qui montent",
+        body: "Bordeaux reste attractif malgré ses prix plus élevés, avec une scène freelance et startup très active (French Tech Bordeaux, Darwin, le 17 des Arts). Nantes performe sur le mélange qualité de vie/communauté tech (Nantes Digital Week, nombreux espaces coworking, bonnes connexions TGV). Strasbourg surprend par la densité de freelances franco-allemands et la qualité de ses connexions européennes. Marseille et Montpellier côté Méditerranée, Rennes côté Bretagne, constituent le reste du top 7 national.",
+      },
+      {
+        heading: "Les coworkings à connaître par ville",
+        body: "Pour évaluer une ville : regarder le nombre de coworkings disponibles (Coworker.com), les espaces hybrides (bibliothèques et cafés wifi-fibre), et l'existence d'une communauté freelance locale (Meetup, Slack communities). Bonnes pratiques : Nantes → Cowork In Nantes, Darwin Bordeaux → 180m² de coworking écologique, Marseille → La Ruche, Montpellier → Station-H (incubateur), Lyon → Woospeak. La France compte plus de 4 000 espaces de coworking en 2025 — la plupart des villes moyennes ont au moins un espace digne.",
+      },
+      {
+        heading: "La saison comme variable de décision",
+        body: "Le nomadisme permet de jouer sur les saisons : hiverner à Montpellier ou Marseille (soleil mais calme), estiver en Bretagne (fraîcheur, mer, pas de canicule), printemps/automne dans le Pays Basque ou le Périgord. Ce mode de vie saisonnier permet d'optimiser la qualité de vie à un coût inférieur à une location annuelle dans une grande ville. Les nomades avancés utilisent des plateformes comme Homyspace ou VacancesFaciles pour des locations meublées flexibles (1 à 6 mois), non soumises au bail meublé classique.",
+      },
+      {
+        heading: "Fiscalité et statut pour les nomades basés en France",
+        body: "Un point souvent négligé : si vous passez plus de 183 jours en France, vous y êtes fiscalement résident et soumis à l'impôt français sur vos revenus mondiaux. Statuts recommandés pour les nomades français : auto-entrepreneur (simple, limité), SASU (flexible, séparation patrimoine), portage salarial (pour facturer en société sans créer la sienne). Domiciliation légale : vous devez avoir une adresse fiscale déclarée. Les services de domiciliation type Regus ou PostFinance permettent d'avoir une adresse légale sans louer un bureau permanent.",
+      },
+    ],
+    relatedCities: ["montpellier", "biarritz", "lyon", "bordeaux", "nantes", "rennes", "marseille", "anglet"],
+    relatedGuides: [
+      "vivre-en-france-teletravail-guide-2025",
+      "meilleures-villes-tech-numerique-france-2025",
+      "meilleures-villes-freelances-independants-france-2025",
+    ],
+    tags: ["nomades numériques", "télétravail", "freelance", "coworking", "Montpellier", "Biarritz", "Lyon", "vie mobile"],
+  },
+  {
+    slug: "val-de-loire-vivre-guide-2025",
+    title: "Val de Loire 2025 — Le guide pour s'installer dans la région des châteaux",
+    emoji: "🏰",
+    category: "region",
+    metaTitle: "Vivre dans le Val de Loire 2025 — guide complet | MeilleurVille",
+    metaDesc: "Tours, Orléans, Blois, Saumur, Chartres, Bourges… Notre guide pour s'installer dans le Val de Loire UNESCO en 2025 : qualité de vie, prix, transports et meilleures villes.",
+    intro: "Le Val de Loire est classé Patrimoine Mondial de l'UNESCO depuis 2000 — l'un des plus grands sites inscrits au monde. Pourtant, ses villes restent parmi les plus abordables de France à moins d'1h30 de Paris. La région Centre-Val de Loire bénéficie d'un ensoleillement correct, d'une gastronomie reconnue, et d'un immobilier accessible qui attire de plus en plus les télétravailleur actifs et les familles.",
+    readMinutes: 8,
+    publishedAt: "2026-04-30",
+    updatedAt: "2026-04-30",
+    sections: [
+      {
+        heading: "Tours : la capitale du bien-vivre ligérien",
+        body: "Tours (137 000 hab) est la métropole du Val de Loire, unanimement reconnue comme l'une des meilleures villes françaises pour la qualité de vie : TGV Paris en 55 min, CHU universitaire, 25 000 étudiants, riche patrimoine (Vieux-Tours, cathédrale Saint-Gatien), vignobles de Chinon et Vouvray aux portes de la ville. Prix : 2 500-3 200€/m², T2 loué à 700-850€/mois. Classée régulièrement dans le top 10 français des villes où il fait bon vivre.",
+      },
+      {
+        heading: "Orléans : la renaissance d'une métropole méconnue",
+        body: "Orléans (116 000 hab + agglo 300 000) est à 1h de Paris en TER (1h15 en voiture). Tramway performant, université, musée des Beaux-Arts de premier rang, cathédrale Sainte-Croix, fêtes johanniques connues mondialement. Orléans a souffert d'une image terne mais se transforme rapidement : réhabilitation des bords de Loire, nouveaux quartiers, montée en gamme de la vie culturelle. Prix encore très bas : 2 200-2 800€/m², T2 loué à 640-780€/mois. L'une des meilleures destinations pour les familles en quête d'une vie urbaine parisienne-friendly mais détendue.",
+      },
+      {
+        heading: "Blois et Saumur : les joyaux du Val de Loire",
+        body: "Blois (46 000 hab) est une ville à taille humaine avec un château royal spectaculaire dominant la Loire. Prix très accessibles (1 900-2 400€/m²), vie de ville agréable, connexion TER vers Tours (45 min) et Paris (1h50). Saumur (26 000 hab) a le meilleur rapport prestige/prix du Val : château Louis XIV, caves troglodytes de Saumur-Champigny, École Nationale d'Équitation. Prix 1 800-2 400€/m². Ces deux villes sont idéales pour les familles cherchant un cadre de vie exceptionnel sans contrainte budgétaire.",
+      },
+      {
+        heading: "Chartres : la cathédrale au quotidien",
+        body: "Chartres (39 000 hab) est à 1h de Paris Montparnasse en TER — l'une des liaisons les plus fréquentées d'Île-de-France étendue. La cathédrale Notre-Dame de Chartres (UNESCO) est visible depuis toute la plaine de Beauce. Ville tranquille avec de bons lycées, prix attractifs (2 100-2 600€/m²), et un profil idéal pour les familles dont l'un des parents travaille à Paris quelques jours par semaine. Chartres attire de plus en plus de familles parisiennes en semi-exode.",
+      },
+      {
+        heading: "Bourges : l'Auvergne-Berry à prix cassés",
+        body: "Bourges (63 000 hab) se trouve à la limite entre Centre-Val de Loire et l'Auvergne, à 2h de Paris. Son Printemps de Bourges (festival rock/pop de référence) et sa cathédrale Saint-Étienne UNESCO donnent à la ville une stature culturelle bien supérieure à sa taille. Prix très bas : 1 600-2 100€/m², T2 loué à 560-680€/mois. Bourges est l'une des villes les plus sous-estimées de France pour la qualité de vie, notamment pour les seniors actifs et les familles cherchant calme et prix bas.",
+      },
+      {
+        heading: "Le Val de Loire en chiffres : avantages et limites",
+        body: "Avantages : TGV Paris rapide depuis Tours et Orléans, prix 40-60% inférieurs à Paris, patrimoine UNESCO quotidien, gastronomie (vins de Loire, rillettes, fromages), vélo (Loire à Vélo), ensoleillement correct (1 900-2 100h/an). Limites : hiver gris et humide (peu de soleil novembre-mars), économie moins dynamique que Lyon ou Bordeaux, offre culturelle moins dense que les grandes métropoles, certaines villes petites (Saumur, Blois) ont peu de diversité d'emploi. Verdict : idéal pour les télétravailleurs et familles, moins pour les jeunes actifs cherchant un marché du travail bouillonnant.",
+      },
+    ],
+    relatedCities: ["tours", "orleans", "blois", "saumur", "chartres", "bourges"],
+    relatedGuides: [
+      "centre-val-de-loire-tours-orleans-guide-2025",
+      "vivre-campagne-vs-ville-moyenne-france-2025",
+      "quitter-paris-guide-pratique-2025",
+    ],
+    tags: ["Val de Loire", "Tours", "Orléans", "Blois", "Saumur", "Chartres", "UNESCO", "patrimoine"],
+  },
+  {
+    slug: "vivre-dans-les-pyrenees-guide-2025",
+    title: "Vivre dans les Pyrénées en 2025 — Le guide complet des villes de piémont",
+    emoji: "⛰️",
+    category: "region",
+    metaTitle: "Vivre dans les Pyrénées 2025 — guide villes de piémont | MeilleurVille",
+    metaDesc: "Pau, Tarbes, Foix, Pamiers, Bayonne, Perpignan… Notre guide pour s'installer au pied des Pyrénées en 2025 : qualité de vie, montagne, prix, et meilleures villes du piémont.",
+    intro: "Les Pyrénées offrent un art de vivre unique que l'on ne retrouve nulle part ailleurs en France : montagne accessible, mer à 1h (Atlantique ou Méditerranée selon le versant), cuisine régionale d'exception (basque, gasconne, catalane), et des prix immobiliers parmi les plus bas de France. Ce guide couvre les meilleures villes de piémont pyrénéen pour s'installer en 2025.",
+    readMinutes: 8,
+    publishedAt: "2026-04-30",
+    updatedAt: "2026-04-30",
+    sections: [
+      {
+        heading: "La double attraction des Pyrénées : montagne + mer",
+        body: "L'un des atouts les plus uniques des Pyrénées est que selon où l'on se place, on peut accéder à l'Atlantique ou à la Méditerranée en 1h à 1h30. Du versant basque : Bayonne, Pau, Tarbes → Atlantique à 45-90 min. Du versant ariégeois et catalan : Foix, Pamiers, Perpignan → Méditerranée à 1h-1h30. Ce double accès mer + montagne n'existe nulle part ailleurs en Europe à ces prix. Une randonnée dans les pics le matin, une baignade dans l'Atlantique l'après-midi — c'est possible depuis Bayonne ou Pau.",
+      },
+      {
+        heading: "Pau : la reine du piémont pyrénéen",
+        body: "Pau (76 000 hab) est systématiquement classée parmi les meilleures villes françaises pour la qualité de vie des seniors et familles. La BD du roi Henry IV, la vue du Boulevard des Pyrénées sur la chaîne enneigée, les Pyrénées à 45 min, Bayonne et l'Atlantique à 1h, Bordeaux à 1h30 en TGV — Pau a tout pour elle. Université, CHU, dynamisme économique (Total Energies), prix attractifs (2 000-2 500€/m²), loyers raisonnables (T2 : 600-750€). L'une des villes les plus sous-cotées de France.",
+      },
+      {
+        heading: "Bayonne et la Côte Basque : le summum du style de vie",
+        body: "Bayonne (52 000 hab) est la véritable capitale du Pays Basque français. Son cadre de vie est exceptionnel : remparts Vauban, cathédrale gothique, fêtes de Bayonne (500 000 personnes en juillet), chocolatiers historiques, accès TGV vers Bordeaux et Paris. Biarritz et l'Atlantique sont à 10 min. Tarifs : 4 500-5 500€/m², loyer T2 900-1 100€. Pour qui peut se le permettre, c'est l'une des adresses les plus désirables de France. Pour les budgets plus serrés : Orthez, Oloron-Sainte-Marie ou Mourenx dans les Pyrénées-Atlantiques.",
+      },
+      {
+        heading: "Tarbes et les Hautes-Pyrénées : la montagne accessible",
+        body: "Tarbes (41 000 hab) est la porte d'entrée des Hautes-Pyrénées, avec les stations de ski de Luz-Saint-Sauveur, Cauterets et Barèges à 40-60 min. Économique et pratique : prix immobiliers très bas (1 500-2 000€/m²), loyers T2 à 500-600€, bon CHU (Centre Hospitalier des Pyrénées), université, accès à Pau en 45 min. Lourdes (2 millions de pèlerins/an) est à 20 min. Pour les passionnés de montagne avec un budget limité, Tarbes est une base de vie imbattable.",
+      },
+      {
+        heading: "L'Ariège et les Pyrénées orientales : la partie moins connue",
+        body: "Foix (10 000 hab, Ariège) est une préfecture médiévale spectaculaire avec son château à trois tours. Connexion TER vers Toulouse en 1h. Prix : 1 700€/m². Pamiers (16 000 hab, Ariège) est plus grande et mieux équipée, aussi à 1h de Toulouse. Ces deux villes permettent d'habiter dans un cadre pyrénéen authentique avec Toulouse accessible pour l'emploi. Perpignan (120 000 hab) est la métropole catalane qui combine Méditerranée (30 min), Pyrénées (30 min), Espagne (30 min) et prix très bas (2 000-2 400€/m²). Un cocktail unique en France.",
+      },
+      {
+        heading: "Le piémont pyrénéen : points forts et limites",
+        body: "Points forts : prix immobiliers parmi les plus bas de France hors déserts médiques, accès unique montagne + mer, gastronomie exceptionnelle (terroir basque, gascon, catalan), qualité de l'air supérieure (montagne, flux atlantiques ou méditerranéens), chaleur humaine réputée (communautés soudées). Limites : marché de l'emploi moins développé que Lyon ou Bordeaux hors Toulouse-orbit, connectivité TGV limitée hors Bayonne et Bordeaux, certaines zones enclavées en hiver, pluie fréquente sur le versant atlantique (Pays Basque).",
+      },
+    ],
+    relatedCities: ["pau", "bayonne", "biarritz", "tarbes", "foix", "pamiers", "perpignan", "dax"],
+    relatedGuides: [
+      "cote-basque-landes-vivre-atlantique-2025",
+      "vivre-en-nouvelle-aquitaine-guide-2025",
+      "vivre-en-occitanie-guide-2025",
+    ],
+    tags: ["Pyrénées", "Pau", "Bayonne", "Tarbes", "Foix", "piémont", "montagne", "mer"],
+  },
 ];
 
 export const GUIDE_CATEGORIES = [
