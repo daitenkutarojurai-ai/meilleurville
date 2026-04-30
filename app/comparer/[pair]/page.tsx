@@ -243,6 +243,15 @@ const SEO_PAIRS = [
   ["fontainebleau", "versailles"],
   ["saint-denis", "montreuil"],
   ["issy-les-moulineaux", "boulogne-billancourt"],
+  ["bastia", "ajaccio"],
+  ["pantin", "montreuil"],
+  ["pantin", "saint-denis"],
+  ["ivry-sur-seine", "montreuil"],
+  ["creteil", "vincennes"],
+  ["rueil-malmaison", "versailles"],
+  ["rueil-malmaison", "saint-germain-en-laye"],
+  ["colombes", "argenteuil"],
+  ["argenteuil", "cergy"],
 ];
 
 export function generateStaticParams() {
