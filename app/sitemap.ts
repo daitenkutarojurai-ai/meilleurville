@@ -237,6 +237,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ["rueil-malmaison", "saint-germain-en-laye"],
     ["colombes", "argenteuil"],
     ["argenteuil", "cergy"],
+    ["marseille", "toulouse"],
+    ["paris", "marseille"],
+    ["paris", "strasbourg"],
+    ["paris", "rennes"],
+    ["paris", "nice"],
+    ["lyon", "nantes"],
+    ["bordeaux", "lyon"],
+    ["nantes", "bordeaux"],
   ];
 
   const staticRoutes: MetadataRoute.Sitemap = [

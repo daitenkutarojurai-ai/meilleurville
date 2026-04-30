@@ -252,6 +252,14 @@ const SEO_PAIRS = [
   ["rueil-malmaison", "saint-germain-en-laye"],
   ["colombes", "argenteuil"],
   ["argenteuil", "cergy"],
+  ["marseille", "toulouse"],
+  ["paris", "marseille"],
+  ["paris", "strasbourg"],
+  ["paris", "rennes"],
+  ["paris", "nice"],
+  ["lyon", "nantes"],
+  ["bordeaux", "lyon"],
+  ["nantes", "bordeaux"],
 ];
 
 export function generateStaticParams() {
