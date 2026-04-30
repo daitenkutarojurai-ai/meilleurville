@@ -238,6 +238,12 @@ export const HOUSING: Record<string, HousingData> = {
   vierzon:                  { avgRentT1: 340,  avgRentT2: 480,  avgRentT3: 650,  avgBuyPriceM2: 1100 },
   montargis:                { avgRentT1: 420,  avgRentT2: 590,  avgRentT3: 790,  avgBuyPriceM2: 1600 },
   gien:                     { avgRentT1: 380,  avgRentT2: 540,  avgRentT3: 720,  avgBuyPriceM2: 1500 },
+  lourdes:                  { avgRentT1: 380,  avgRentT2: 540,  avgRentT3: 720,  avgBuyPriceM2: 1400 },
+  "sarlat-la-caneda":       { avgRentT1: 520,  avgRentT2: 740,  avgRentT3: 1000, avgBuyPriceM2: 2800 },
+  marmande:                 { avgRentT1: 390,  avgRentT2: 560,  avgRentT3: 750,  avgBuyPriceM2: 1500 },
+  limoux:                   { avgRentT1: 380,  avgRentT2: 540,  avgRentT3: 720,  avgBuyPriceM2: 1400 },
+  gueret:                   { avgRentT1: 330,  avgRentT2: 470,  avgRentT3: 630,  avgBuyPriceM2: 1000 },
+  "saint-gaudens":          { avgRentT1: 400,  avgRentT2: 570,  avgRentT3: 760,  avgBuyPriceM2: 1600 },
 };
 
 export function getHousing(slug: string): HousingData | undefined {

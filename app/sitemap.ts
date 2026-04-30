@@ -407,6 +407,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ["montargis", "fontainebleau"],
     ["gien", "orleans"],
     ["gien", "saumur"],
+    ["lourdes", "tarbes"],
+    ["lourdes", "pau"],
+    ["sarlat-la-caneda", "perigueux"],
+    ["sarlat-la-caneda", "bergerac"],
+    ["marmande", "agen"],
+    ["marmande", "bordeaux"],
+    ["limoux", "carcassonne"],
+    ["limoux", "narbonne"],
+    ["gueret", "limoges"],
+    ["gueret", "brive-la-gaillarde"],
+    ["saint-gaudens", "tarbes"],
+    ["saint-gaudens", "toulouse"],
   ];
 
   const staticRoutes: MetadataRoute.Sitemap = [
