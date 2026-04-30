@@ -105,6 +105,12 @@ const SEO_PAIRS = [
   ["laval", "nantes"],
   ["laval", "rennes"],
   ["laval", "le-mans"],
+  ["perigueux", "bordeaux"],
+  ["perigueux", "limoges"],
+  ["ales", "nimes"],
+  ["ales", "montpellier"],
+  ["chartres", "orleans"],
+  ["chartres", "tours"],
 ];
 
 export function generateStaticParams() {

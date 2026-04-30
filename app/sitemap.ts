@@ -94,6 +94,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ["beziers", "nimes"],
     ["laval", "nantes"],
     ["laval", "rennes"],
+    ["perigueux", "bordeaux"],
+    ["ales", "nimes"],
+    ["chartres", "orleans"],
   ];
 
   const staticRoutes: MetadataRoute.Sitemap = [
