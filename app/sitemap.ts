@@ -563,6 +563,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ["saint-claude", "lons-le-saunier"],
     ["sable-sur-sarthe", "le-mans"],
     ["sable-sur-sarthe", "la-fleche"],
+    ["louviers", "evreux"],
+    ["louviers", "les-andelys"],
+    ["bagneres-de-bigorre", "tarbes"],
+    ["bagneres-de-bigorre", "lourdes"],
+    ["lure", "vesoul"],
+    ["lure", "gray"],
+    ["peronne", "amiens"],
+    ["peronne", "abbeville"],
+    ["le-blanc", "chateauroux"],
+    ["le-blanc", "issoudun"],
+    ["montmorillon", "poitiers"],
+    ["montmorillon", "chatellerault"],
   ];
 
   const staticRoutes: MetadataRoute.Sitemap = [
