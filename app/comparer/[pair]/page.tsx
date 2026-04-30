@@ -111,6 +111,17 @@ const SEO_PAIRS = [
   ["ales", "montpellier"],
   ["chartres", "orleans"],
   ["chartres", "tours"],
+  ["rodez", "toulouse"],
+  ["rodez", "montpellier"],
+  ["rodez", "clermont-ferrand"],
+  ["agen", "bordeaux"],
+  ["agen", "toulouse"],
+  ["macon", "lyon"],
+  ["macon", "dijon"],
+  ["bourg-en-bresse", "lyon"],
+  ["bourg-en-bresse", "annecy"],
+  ["evreux", "rouen"],
+  ["evreux", "caen"],
 ];
 
 export function generateStaticParams() {

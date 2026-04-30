@@ -23,8 +23,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: meta.headline,
     description: meta.description,
     openGraph: { title: meta.headline, description: meta.description },
+    twitter: { card: "summary_large_image" },
   };
 }
+
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://meilleurville.fr";
 
 export default async function RankingPage({ params }: Props) {
   const { slug } = await params;
@@ -35,8 +38,28 @@ export default async function RankingPage({ params }: Props) {
   const top3 = ranked.slice(0, 3);
   const rest = ranked.slice(3);
 
+  const itemListJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: meta.headline,
+    description: meta.description,
+    url: `${BASE_URL}/classements/${slug}`,
+    numberOfItems: ranked.length,
+    itemListElement: ranked.slice(0, 10).map((entry, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: entry.city.name,
+      url: `${BASE_URL}/villes/${entry.city.slug}`,
+      description: `Score ${entry.score.toFixed(1)}/10 — ${entry.city.region}`,
+    })),
+  };
+
   return (
     <main className="min-h-screen">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }}
+      />
       <Navbar />
 
       {/* Header */}

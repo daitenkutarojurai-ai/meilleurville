@@ -11,7 +11,15 @@ export const metadata: Metadata = {
   title: "Leaderboard — Top villes France par qualité de vie | MeilleurVille",
   description:
     "Le classement global des meilleures villes françaises par qualité de vie, agrégé sur 9 critères : nature, transport, coût, sécurité, culture, écoles.",
+  openGraph: {
+    title: "Leaderboard — Top villes France par qualité de vie",
+    description: "Score global agrégé sur 9 critères de qualité de vie. Classement des meilleures villes françaises.",
+    type: "website",
+  },
+  twitter: { card: "summary_large_image" },
 };
+
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://meilleurville.fr";
 
 const MEDAL = ["🥇", "🥈", "🥉"];
 const sorted = [...CITIES_SEED].sort((a, b) => b.scores.global - a.scores.global);
@@ -25,8 +33,28 @@ function scoreClass(s: number) {
 export default function LeaderboardPage() {
   const podium = sorted.slice(0, 3);
 
+  const itemListJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "Classement des meilleures villes françaises par qualité de vie 2025",
+    description: "Score global agrégé sur 9 critères : nature, transport, coût de la vie, sécurité, culture, écoles, qualité de vie, télétravail.",
+    url: `${BASE_URL}/leaderboard`,
+    numberOfItems: sorted.length,
+    itemListElement: sorted.slice(0, 20).map((city, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: city.name,
+      url: `${BASE_URL}/villes/${city.slug}`,
+      description: `Score ${city.scores.global.toFixed(1)}/10 — ${city.region}`,
+    })),
+  };
+
   return (
     <main className="min-h-screen">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }}
+      />
       <Navbar />
 
       {/* Hero */}

@@ -97,6 +97,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ["perigueux", "bordeaux"],
     ["ales", "nimes"],
     ["chartres", "orleans"],
+    ["rodez", "toulouse"],
+    ["rodez", "montpellier"],
+    ["agen", "bordeaux"],
+    ["agen", "toulouse"],
+    ["macon", "lyon"],
+    ["macon", "dijon"],
+    ["bourg-en-bresse", "lyon"],
+    ["bourg-en-bresse", "annecy"],
+    ["evreux", "rouen"],
+    ["evreux", "caen"],
   ];
 
   const staticRoutes: MetadataRoute.Sitemap = [
