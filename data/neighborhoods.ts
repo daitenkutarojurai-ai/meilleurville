@@ -2893,6 +2893,38 @@ export const NEIGHBORHOODS: CityNeighborhoods[] = [
     ],
   },
   {
+    citySlug: "blois",
+    neighborhoods: [
+      {
+        slug: "centre-chateau-blois",
+        name: "Centre — Château",
+        type: "centre-ville",
+        scores: { global: 8.0, safety: 7.5, transport: 8.0, nature: 7.5, cost: 7.5, nightlife: 7.0 },
+        avgRentT2: 620,
+        tags: ["château-royal", "patrimoine", "Loire", "animé", "touristique"],
+        summary: "Quartier historique dominé par le château royal de Blois, classé monument national. Ruelles médiévales, maisons à colombages et vue sur la Loire. Ambiance culturelle intense avec les musées et les restaurants. Idéal pour les passionnés de patrimoine.",
+      },
+      {
+        slug: "vienne-blois",
+        name: "Vienne",
+        type: "résidentiel",
+        scores: { global: 7.5, safety: 8.0, transport: 7.5, nature: 8.5, cost: 7.5, nightlife: 5.0 },
+        avgRentT2: 590,
+        tags: ["résidentiel", "bord-de-Loire", "calme", "familles", "verdoyant"],
+        summary: "Secteur résidentiel calme en bord de Loire avec de belles promenades fluviales. Maisons de ville et petits immeubles. Idéal pour les familles qui souhaitent profiter de la douceur du val de Loire tout en étant à deux pas du centre.",
+      },
+      {
+        slug: "vienne-sud-blois",
+        name: "Blois-Sud",
+        type: "résidentiel",
+        scores: { global: 7.0, safety: 8.0, transport: 7.0, nature: 8.5, cost: 8.0, nightlife: 4.0 },
+        avgRentT2: 560,
+        tags: ["pavillonnaire", "forêt", "calme", "abordable", "nature"],
+        summary: "Secteur pavillonnaire au sud de Blois aux portes de la forêt de Russy. Excellente qualité de vie pour les familles avec jardins, calme absolu et prix immobiliers raisonnables. La forêt domaniale offre des sentiers de randonnée exceptionnels.",
+      },
+    ],
+  },
+  {
     citySlug: "epinal",
     neighborhoods: [
       {

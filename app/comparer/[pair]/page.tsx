@@ -158,6 +158,8 @@ const SEO_PAIRS = [
   ["romans-sur-isere", "grenoble"],
   ["saintes", "rochefort"],
   ["saintes", "angouleme"],
+  ["blois", "tours"],
+  ["blois", "orleans"],
 ];
 
 export function generateStaticParams() {

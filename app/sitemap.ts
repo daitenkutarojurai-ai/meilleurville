@@ -143,6 +143,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ["romans-sur-isere", "grenoble"],
     ["saintes", "rochefort"],
     ["saintes", "angouleme"],
+    ["blois", "tours"],
+    ["blois", "orleans"],
   ];
 
   const staticRoutes: MetadataRoute.Sitemap = [

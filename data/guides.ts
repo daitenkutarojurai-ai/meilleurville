@@ -1191,7 +1191,7 @@ export const GUIDES: Guide[] = [
         body: "Le Centre-Val de Loire n'est pas une région économique puissante au sens où l'est l'Île-de-France ou l'Auvergne-Rhône-Alpes. Mais elle n'est pas sinistrée non plus : le nucléaire (Chinon, Dampierre, Saint-Laurent), l'agroalimentaire (Nestlé, Jacquet Brossard), le tourisme patrimonial, et la pharmacie (Cosyl à Chartres, Novo Nordisk à Tours) sont les piliers. Pour les profils remote, la région est excellente. Pour les profils qui cherchent un poste local, la palette est plus étroite.",
       },
     ],
-    relatedCities: ["tours", "orleans", "chartres", "blois" as unknown as string, "angers"],
+    relatedCities: ["tours", "orleans", "chartres", "blois", "angers"],
     relatedGuides: [
       "quitter-paris-guide-2025",
       "budget-vivre-en-france-comparatif",
@@ -1249,6 +1249,96 @@ export const GUIDES: Guide[] = [
       "quitter-paris-guide-2025",
     ],
     tags: ["immobilier", "achat", "investissement", "rendement locatif", "prix m²"],
+  },
+  {
+    slug: "vivre-en-grand-est-alsace-moselle-guide-2025",
+    title: "Vivre en Grand Est : Strasbourg, Metz, Nancy, Reims — Guide 2025",
+    emoji: "🥨",
+    category: "region",
+    metaTitle: "Vivre en Grand Est : Strasbourg, Metz, Nancy, Reims — Guide 2025 | MeilleurVille",
+    metaDesc: "Guide complet pour s'installer en Grand Est : Strasbourg, Metz, Nancy, Reims, Épinal, Colmar. Emploi, logement, coût de la vie, qualité de vie en Alsace, Moselle et Champagne.",
+    intro: "Le Grand Est est une région-carrefour à la croisée de l'Allemagne, du Luxembourg et de la Suisse. Strasbourg, capitale européenne, côtoie des villes à taille humaine comme Nancy, Metz ou Reims où la qualité de vie est excellente à prix compétitifs. Guide pour ceux qui envisagent de s'y installer.",
+    readMinutes: 9,
+    publishedAt: "2025-07-01",
+    updatedAt: "2025-07-01",
+    sections: [
+      {
+        heading: "Strasbourg : capitale européenne, loyers tendus",
+        body: "Strasbourg est dans une catégorie à part. Siège du Parlement européen et du Conseil de l'Europe, la ville attire diplomates, fonctionnaires et étudiants du monde entier — ce qui tire les loyers vers le haut (T2 : 750–900€). La qualité de vie reste exceptionnelle : pistes cyclables, tramway dense, vieille ville classée UNESCO. Idéale pour les profils européens et les familles bilingues franco-allemandes.",
+      },
+      {
+        heading: "Nancy : la capitale lorraine aux standards élevés",
+        body: "Nancy est souvent décrite comme 'la ville idéale pour ceux qui veulent une vraie ville sans les inconvénients d'une métropole'. Place Stanislas, Opéra, grandes écoles (Sciences Po, Mines Nancy, université de Lorraine) — le niveau culturel est métropolitain pour des loyers 30% inférieurs à Lyon. Transport en commun (tram) performant, gastronomie excellente.",
+      },
+      {
+        heading: "Metz : la renaissance spectaculaire du Centre Pompidou",
+        body: "Metz a connu une transformation remarkable depuis l'ouverture du Centre Pompidou-Metz en 2010. La ville, longtemps dans l'ombre de Nancy, s'est affirmée comme destination culturelle et touristique. Économie diversifiée (services, logistique, technologie), proximité du Luxembourg (<40 min) pour les frontaliers, et prix immobiliers encore très raisonnables (T2 : 680€).",
+      },
+      {
+        heading: "Reims : Champagne, cathédrale et boom économique",
+        body: "Reims jouit d'une position stratégique à 45 minutes de Paris en TGV. Ce qui en fait une ville prisée des télétravailleurs parisiens. La ville compte aussi sur l'économie champenoise (maisons de champagne, tourisme viticole) et un secteur automobile (Stellantis). La cathédrale gothique est l'une des plus belles de France. Loyers modérés (T2 : 650€) et excellent rapport qualité/prix.",
+      },
+      {
+        heading: "Épinal et Colmar : la douceur de vivre en Vosges et Alsace",
+        body: "Épinal reste méconnue du grand public mais offre une qualité de vie exceptionnelle : forêts vosgiennes, Moselle, musée de l'Image, et des loyers parmi les plus bas du Grand Est. Colmar, la «petite Venise d'Alsace», est un bijou touristique avec maisons à colombages et vignobles. Attention : le marché immobilier de Colmar est sous tension du fait du tourisme et du voisinage suisse.",
+      },
+      {
+        heading: "Vivre en Grand Est : ce qu'il faut savoir",
+        body: "Le Grand Est souffre encore d'une image parfois terne et d'un hiver rigoureux (Épinal, Reims). Mais la région a beaucoup d'atouts : richesse culturelle franco-allemande, gastronomie (choucroute, mirabelle, champagne, Munster), nature (Vosges, vignoble alsacien, Ardennes), et des opportunités pour les frontaliers luxembourgeois ou allemands. La région est également bien desservie par le TGV Est.",
+      },
+    ],
+    relatedCities: ["strasbourg", "nancy", "metz", "reims", "epinal", "colmar", "mulhouse"],
+    relatedGuides: [
+      "vivre-en-france-teletravail-guide-2025",
+      "budget-vivre-en-france-comparatif",
+      "quitter-paris-guide-2025",
+    ],
+    tags: ["Grand Est", "Alsace", "Moselle", "Lorraine", "Champagne", "Strasbourg", "Nancy", "Metz", "Reims"],
+  },
+  {
+    slug: "vivre-en-nouvelle-aquitaine-guide-2025",
+    title: "Vivre en Nouvelle-Aquitaine : Bordeaux, Pau, La Rochelle, Poitiers — Guide 2025",
+    emoji: "🍷",
+    category: "region",
+    metaTitle: "Vivre en Nouvelle-Aquitaine : Bordeaux, Pau, La Rochelle, Poitiers — Guide 2025 | MeilleurVille",
+    metaDesc: "Guide complet pour s'installer en Nouvelle-Aquitaine : Bordeaux, Bayonne, Pau, La Rochelle, Poitiers, Limoges, Cognac, Saintes. Qualité de vie, coût du logement, emploi.",
+    intro: "La Nouvelle-Aquitaine est la plus grande région de France en superficie, du Bassin Arcachon aux contreforts pyrénéens. Bordeaux en est la métropole, mais la région regorge d'alternatives moins chères et tout aussi séduisantes : Pau pour les Pyrénées, La Rochelle pour l'Atlantique, ou encore Saintes et Cognac pour l'authenticité charentaise.",
+    readMinutes: 10,
+    publishedAt: "2025-07-15",
+    updatedAt: "2025-07-15",
+    sections: [
+      {
+        heading: "Bordeaux : la belle endormie devenue trop chère",
+        body: "Bordeaux a réalisé en dix ans l'une des transformations urbaines les plus spectaculaires de France : LGV Paris (2h05), rénovation du centre, tram ultramoderne. Résultat : les prix ont explosé (4 500€/m² en moyenne). Bordeaux reste une métropole extraordinaire — la scène gastronomique, la culture, le port de la Lune — mais le rapport qualité/prix a fortement baissé pour les primo-accédants.",
+      },
+      {
+        heading: "Pau et Bayonne : la qualité de vie pyrénéenne",
+        body: "Pau est systématiquement citée dans les classements des villes où il fait bon vivre. La vue sur les Pyrénées enneigées depuis le boulevard des Pyrénées est un argument difficile à battre. Marché immobilier encore raisonnable (T2 : 650€), université active, économie mixte (pétrole, aéronautique, tourisme). Bayonne, de son côté, partage avec Biarritz une identité basque forte et une attraction touristique qui tend les prix.",
+      },
+      {
+        heading: "La Rochelle et le littoral atlantique",
+        body: "La Rochelle est un cas d'école : ville de taille moyenne (75 000 hab.) avec une qualité de vie maritime et une image de marque internationale grâce aux Francofolies et au développement durable. Les loyers ont augmenté significativement (T2 : 750€) mais restent inférieurs à Bordeaux. Le Pertuis charentais, Rochefort et Saintes proposent le même climat océanique à des prix bien plus sages.",
+      },
+      {
+        heading: "Poitiers et Limoges : les alternatives méconnues",
+        body: "Poitiers est une ville étudiante dynamique (plus de 25 000 étudiants sur 90 000 habitants) avec un centre médiéval remarquable. Loyers très compétitifs (T2 : 620€), bonne liaison TGV vers Paris (1h20), et une économie diversifiée. Limoges pâtit d'une image vieillissante mais mérite l'attention : prix immobiliers parmi les plus bas des préfectures françaises, et une rénovation du centre en cours.",
+      },
+      {
+        heading: "Cognac, Saintes et Périgueux : la douceur charentaise et périgordine",
+        body: "Ce triangle d'or de la qualité de vie abordable regroupe des villes riches en patrimoine (Périgueux est capitale de la truffe et du foie gras) et en art de vivre. Cognac mise sur son image internationale liée aux maisons de négoce. Saintes abrite des arènes romaines et une abbaye aux Dames de niveau européen. Pour les télétravailleurs et les retraités actifs, ce territoire offre un rapport qualité/coût imbattable.",
+      },
+      {
+        heading: "Travailler en Nouvelle-Aquitaine",
+        body: "L'économie régionale est diversifiée : aéronautique et défense (Safran, Thales, Dassault à Bordeaux), viticulture et œnotourisme, tourisme côtier, énergie (Lacq), agriculture. La Nouvelle-Aquitaine attire également beaucoup de télétravailleurs parisiens, ce qui a dynamisé les villes moyennes. Pour un emploi local qualifié, Bordeaux reste la référence ; pour les profils remote, les possibilités sont nombreuses à Pau, Poitiers ou La Rochelle.",
+      },
+    ],
+    relatedCities: ["bordeaux", "pau", "la-rochelle", "poitiers", "limoges", "cognac", "saintes", "angouleme"],
+    relatedGuides: [
+      "vivre-en-france-teletravail-guide-2025",
+      "vivre-dans-le-sud-france-guide-2025",
+      "quitter-paris-guide-2025",
+    ],
+    tags: ["Nouvelle-Aquitaine", "Bordeaux", "Pau", "La Rochelle", "Charente", "Gascogne", "Périgord"],
   },
 ];
 
