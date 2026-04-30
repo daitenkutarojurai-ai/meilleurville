@@ -2893,6 +2893,70 @@ export const NEIGHBORHOODS: CityNeighborhoods[] = [
     ],
   },
   {
+    citySlug: "rochefort",
+    neighborhoods: [
+      {
+        slug: "centre-rochefort",
+        name: "Centre — Corderie",
+        type: "centre-ville",
+        scores: { global: 7.8, safety: 8.5, transport: 7.0, nature: 7.5, cost: 8.5, nightlife: 6.0 },
+        avgRentT2: 490,
+        tags: ["corderie-royale", "patrimoine", "Charente", "animé", "marine"],
+        summary: "Le centre de Rochefort est dominé par la Corderie Royale et son arsenal maritime classé. Architecture classique Louis XIV d'une grande cohérence. Ville propre, agréable, avec des commerces et restaurants. Idéale pour les amateurs de patrimoine maritime.",
+      },
+      {
+        slug: "martrou-rochefort",
+        name: "Martrou — Charente",
+        type: "résidentiel",
+        scores: { global: 7.2, safety: 9.0, transport: 6.0, nature: 9.0, cost: 8.5, nightlife: 3.5 },
+        avgRentT2: 460,
+        tags: ["bord-de-Charente", "calme", "nature", "pêche", "familles"],
+        summary: "Secteur résidentiel le long de la Charente avec ambiance très calme et verdoyante. Maisons individuelles avec jardins, accès direct au bord de l'eau. Idéal pour les familles et les retraités cherchant la tranquillité en bord de fleuve.",
+      },
+      {
+        slug: "fouras-rochefort",
+        name: "Secteur Fouras",
+        type: "résidentiel",
+        scores: { global: 7.0, safety: 9.0, transport: 5.5, nature: 9.5, cost: 8.5, nightlife: 3.0 },
+        avgRentT2: 450,
+        tags: ["presqu'île", "océan", "nature", "télétravail", "estivants"],
+        summary: "Secteur en direction de la presqu'île de Fouras, entre Charente et Atlantique. Cadre naturel remarquable avec marais, oiseaux migrateurs et plages à proximité. Parfait pour les télétravailleurs et les retraités qui veulent un cadre de vie exceptionnel à prix doux.",
+      },
+    ],
+  },
+  {
+    citySlug: "cahors",
+    neighborhoods: [
+      {
+        slug: "centre-cahors",
+        name: "Centre — Pont Valentré",
+        type: "centre-ville",
+        scores: { global: 8.0, safety: 8.5, transport: 6.0, nature: 8.5, cost: 9.0, nightlife: 6.0 },
+        avgRentT2: 450,
+        tags: ["pont-valentré", "médiéval", "Lot", "patrimoine", "UNESCO"],
+        summary: "Le centre de Cahors est dominé par le pont Valentré, chef-d'œuvre gothique médiéval. La vieille ville dans le méandre du Lot est exceptionnellement préservée. Boutiques de vins, restaurants de truffe et foie gras. Qualité de vie hors norme pour un prix parmi les plus bas de France.",
+      },
+      {
+        slug: "cabessut-cahors",
+        name: "Cabessut",
+        type: "résidentiel",
+        scores: { global: 7.5, safety: 9.0, transport: 6.5, nature: 8.5, cost: 9.0, nightlife: 4.0 },
+        avgRentT2: 420,
+        tags: ["résidentiel", "calme", "familles", "bord-du-Lot", "maisons"],
+        summary: "Quartier résidentiel calme en bord du Lot. Maisons avec jardins à des prix imbattables. Bonne liaison au centre par les quais. Idéal pour les familles qui souhaitent profiter du cadre naturel exceptionnel de la vallée du Lot.",
+      },
+      {
+        slug: "regourd-cahors",
+        name: "Regourd",
+        type: "résidentiel",
+        scores: { global: 7.0, safety: 9.0, transport: 6.0, nature: 9.0, cost: 9.0, nightlife: 3.0 },
+        avgRentT2: 390,
+        tags: ["pavillonnaire", "nature", "vignes", "télétravail", "très abordable"],
+        summary: "Secteur pavillonnaire entouré de vignobles du Cahors AOC. Maisons individuelles avec jardins à des prix parmi les plus accessibles de France. Parfait pour les télétravailleurs et les retraités cherchant une qualité de vie authentique dans le Lot.",
+      },
+    ],
+  },
+  {
     citySlug: "blois",
     neighborhoods: [
       {
