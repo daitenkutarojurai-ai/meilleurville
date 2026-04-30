@@ -160,6 +160,10 @@ const SEO_PAIRS = [
   ["saintes", "angouleme"],
   ["blois", "tours"],
   ["blois", "orleans"],
+  ["cholet", "nantes"],
+  ["cholet", "angers"],
+  ["draguignan", "nice"],
+  ["draguignan", "toulon"],
 ];
 
 export function generateStaticParams() {

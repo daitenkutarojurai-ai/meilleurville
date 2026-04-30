@@ -36,6 +36,11 @@ const POPULAR_PAIRS = [
   { a: "macon", labelA: "Mâcon", b: "lyon", labelB: "Lyon" },
   { a: "bourg-en-bresse", labelA: "Bourg-en-Bresse", b: "lyon", labelB: "Lyon" },
   { a: "evreux", labelA: "Évreux", b: "rouen", labelB: "Rouen" },
+  { a: "blois", labelA: "Blois", b: "tours", labelB: "Tours" },
+  { a: "saintes", labelA: "Saintes", b: "la-rochelle", labelB: "La Rochelle" },
+  { a: "figeac", labelA: "Figeac", b: "cahors", labelB: "Cahors" },
+  { a: "epinal", labelA: "Épinal", b: "nancy", labelB: "Nancy" },
+  { a: "montelimar", labelA: "Montélimar", b: "valence", labelB: "Valence" },
 ];
 
 export default function ComparerPage() {

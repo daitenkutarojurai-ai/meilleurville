@@ -145,6 +145,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ["saintes", "angouleme"],
     ["blois", "tours"],
     ["blois", "orleans"],
+    ["cholet", "nantes"],
+    ["cholet", "angers"],
+    ["draguignan", "nice"],
+    ["draguignan", "toulon"],
   ];
 
   const staticRoutes: MetadataRoute.Sitemap = [

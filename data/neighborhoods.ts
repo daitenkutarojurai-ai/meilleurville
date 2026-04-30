@@ -2893,6 +2893,70 @@ export const NEIGHBORHOODS: CityNeighborhoods[] = [
     ],
   },
   {
+    citySlug: "cholet",
+    neighborhoods: [
+      {
+        slug: "centre-cholet",
+        name: "Centre-ville",
+        type: "centre-ville",
+        scores: { global: 7.5, safety: 8.0, transport: 8.0, nature: 7.0, cost: 7.5, nightlife: 7.0 },
+        avgRentT2: 610,
+        tags: ["centre", "commerces", "dynamique", "animé", "familles"],
+        summary: "Centre animé de Cholet avec de nombreux commerces et restaurants. Ville dynamique connue pour son tissu industriel et son équipe de basket. Centre récemment rénové avec places piétonnes. Bon compromis entre qualité de vie et prix modérés.",
+      },
+      {
+        slug: "vallee-cholet",
+        name: "La Vallée",
+        type: "résidentiel",
+        scores: { global: 7.2, safety: 8.5, transport: 7.0, nature: 8.5, cost: 8.0, nightlife: 4.5 },
+        avgRentT2: 580,
+        tags: ["résidentiel", "verdoyant", "familles", "calme", "parc"],
+        summary: "Secteur résidentiel calme autour des parcs et du lac de Ribou. Cadre naturel agréable avec espaces verts. Idéal pour les familles cherchant tranquillité et verdure tout en restant proches du centre de Cholet.",
+      },
+      {
+        slug: "maulevrier-cholet",
+        name: "Maulévrier",
+        type: "résidentiel",
+        scores: { global: 7.0, safety: 9.0, transport: 6.0, nature: 9.0, cost: 8.5, nightlife: 3.0 },
+        avgRentT2: 550,
+        tags: ["pavillonnaire", "jardins", "très calme", "familles", "jardin-japonais"],
+        summary: "Commune limitrophe avec le célèbre jardin japonais Zen. Secteur pavillonnaire calme avec maisons individuelles et jardins. Idéal pour les familles qui cherchent espace et nature. Prix immobiliers très attractifs pour la qualité de vie offerte.",
+      },
+    ],
+  },
+  {
+    citySlug: "draguignan",
+    neighborhoods: [
+      {
+        slug: "centre-draguignan",
+        name: "Centre-ville",
+        type: "centre-ville",
+        scores: { global: 7.5, safety: 7.5, transport: 7.0, nature: 7.5, cost: 7.5, nightlife: 7.0 },
+        avgRentT2: 730,
+        tags: ["centre", "Provence", "marché", "animé", "patrimoine"],
+        summary: "Centre provençal de Draguignan avec son marché du samedi, ses ruelles pittoresques et son musée. Ambiance authentiquement varoise, loin de l'agitation côtière. Prix très compétitifs pour une ville de Provence intérieure.",
+      },
+      {
+        slug: "les-arcs-draguignan",
+        name: "Les Arcs-sur-Argens",
+        type: "résidentiel",
+        scores: { global: 7.3, safety: 8.0, transport: 6.5, nature: 9.0, cost: 7.5, nightlife: 4.5 },
+        avgRentT2: 700,
+        tags: ["vignobles", "Var", "gastronomie", "calme", "Provence-verte"],
+        summary: "Commune viticole au cœur du vignoble varois AOC Côtes-de-Provence. Vignes, mas provençaux et bastides entourent ce secteur très prisé. Gastronomie d'exception et cadre naturel grandiose. Une des plus belles adresses de Provence intérieure.",
+      },
+      {
+        slug: "flayosc-draguignan",
+        name: "Flayosc",
+        type: "résidentiel",
+        scores: { global: 7.5, safety: 9.0, transport: 5.5, nature: 9.5, cost: 8.0, nightlife: 3.0 },
+        avgRentT2: 690,
+        tags: ["village", "Provence", "oliviers", "très calme", "télétravail"],
+        summary: "Village perché typiquement provençal aux maisons en pierre. Oliviers centenaires, fontaines et placettes ombragées. Rythme de vie méridional incomparable. Idéal pour les télétravailleurs et retraités qui veulent l'authenticité provençale sans les prix côtiers.",
+      },
+    ],
+  },
+  {
     citySlug: "rochefort",
     neighborhoods: [
       {
