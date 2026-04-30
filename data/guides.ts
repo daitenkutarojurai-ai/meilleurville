@@ -2125,6 +2125,96 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["expatriés", "s'installer en France", "international", "anglophone", "immigration", "visa", "communauté"],
   },
+  {
+    slug: "meilleures-villes-seniors-actifs-france-2025",
+    title: "Meilleures villes françaises pour les seniors actifs 2025 — Santé, nature et convivialité",
+    emoji: "🌿",
+    category: "lifestyle",
+    metaTitle: "Meilleures villes pour seniors actifs 2025 — Santé, nature, convivialité | MeilleurVille",
+    metaDesc: "Quelle ville choisir pour sa retraite active en France ? Guide 2025 des meilleures villes pour les seniors de 55-70 ans : accès médical, nature, vie associative, accessibilité et tarifs.",
+    intro: "Les seniors actifs de 55-70 ans ont des critères très différents des retraités « classiques » : ils veulent bouger, créer des liens sociaux, accéder à la nature, et maintenir un accès aux soins de qualité sans dépendre d'une voiture. Ce guide classe les villes selon ces critères spécifiques.",
+    readMinutes: 8,
+    publishedAt: "2026-03-20",
+    updatedAt: "2026-03-20",
+    sections: [
+      {
+        heading: "Seniors actifs : des besoins spécifiques et souvent sous-estimés",
+        body: "Un senior actif de 65 ans en 2025 fait du vélo, voyage, suit des formations, et participe à la vie associative. Il n'a pas besoin d'un EHPAD mais d'une ville qui lui offre : des médecins généralistes accessibles sans attente de 6 mois, un tissu associatif riche (randonnée, chorale, arts), une architecture piétonne agréable (trottoirs, bancs), une culture locale vivante hors-tourisme. Ces critères éliminent beaucoup de villes côtières touristiques qui ferment hors-saison, et avantagent les villes universitaires actives à l'année.",
+      },
+      {
+        heading: "Le Top 5 seniors actifs : Pau, Annecy, Bayonne, Tours, Clermont-Ferrand",
+        body: "Pau domine ce classement pour les seniors actifs : Pyrénées à 45 min, ensoleillement (2 200h), médecins disponibles, tissu associatif dense (clubs de randonnée, tennis, voile sur le Gave), et une communauté de retraités actifs reconnue. Annecy est cher mais incomparable pour les randonneurs et cyclistes. Bayonne/Biarritz offre l'Atlantique, la culture basque et une vie associative intense. Tours : patrimoine UNESCO, ville à échelle humaine, accès Paris en TGV 1h10, médecins disponibles. Clermont-Ferrand : montagne immédiate, vie universitaire à l'année, coût de la vie très raisonnable.",
+      },
+      {
+        heading: "L'accès aux soins : le critère décisif souvent négligé",
+        body: "La France traverse une crise des déserts médicaux qui touche même des villes de 50 000 habitants. Avant de s'installer, vérifier : le délai moyen pour obtenir un rendez-vous chez un généraliste, la présence d'un hôpital public avec service urgences dans un rayon de 30 min, et la disponibilité de spécialistes (cardiologue, ophtalmologue) en moins de 3 mois. Les villes universitaires médicales (Lyon, Bordeaux, Toulouse, Montpellier, Rennes) offrent systématiquement le meilleur accès aux soins. Les villes thermales (Vichy, Aix-les-Bains) ont souvent une offre médicale de qualité liée à leur histoire.",
+      },
+      {
+        heading: "Les villes thermales : la retraite active à prix doux",
+        body: "Les villes thermales françaises ont été conçues pour les soins et le bien-être, et offrent aujourd'hui souvent d'excellentes conditions pour les seniors actifs : Vichy (parcs, thermes modernes, médecins nombreux, prix très accessibles), Aix-les-Bains (lac, thermes, animations culturelles, train vers Chambéry), Évian-les-Bains (lac Léman, calme, soins), Bagnères-de-Bigorre (Pyrénées, calme, communauté de randonneurs). Ces villes ont conservé leur infrastructure médicale thermale, souvent de bon niveau.",
+      },
+      {
+        heading: "Vie sociale et associations : l'élément souvent décisif",
+        body: "L'isolement est la première cause de dépression chez les personnes âgées. Avant de choisir une ville, investiguez le tissu associatif : nombre de clubs de randonnée, associations sportives seniors, universités du temps libre (UTL), chorales, groupes de jardinage. Les villes avec des UTL actives (Montpellier, Tours, Bordeaux, Nantes) offrent un accès à des formations et des conférences qui stimulent intellectuellement. Le service France Bénévolat est une bonne fenêtre pour évaluer le tissu associatif d'une ville.",
+      },
+      {
+        heading: "Notre sélection de surprises : Rodez, Vichy, Saintes, Aurillac",
+        body: "Les villes qui surperforment pour les seniors actifs mais restent hors des radars : Rodez (sécurité maximale, musée Soulages d'envergure internationale, Aveyron et Grands Causses à portée, prix imbattables), Vichy (parcs Belle Époque immenses, opéra, thermes, coût de la vie très bas), Saintes (arènes romaines, Charente, patrimoine, Île de Ré accessible en 1h, grande tradition associative), Aurillac (volcans, festival de rue réputé, sécurité maximale, prix les plus bas de France pour ce niveau de services). Ces quatre villes méritent sérieusement d'être explorées avant de se ruer sur Bordeaux ou Nice.",
+      },
+    ],
+    relatedCities: ["pau", "annecy", "bayonne", "tours", "clermont-ferrand", "vichy", "rodez", "saintes", "aix-les-bains", "aurillac"],
+    relatedGuides: [
+      "meilleures-villes-pour-retraite-france-2025",
+      "villes-france-bord-de-mer-budget-accessible-2025",
+      "quitter-paris-guide-pratique-2025",
+    ],
+    tags: ["seniors actifs", "retraite active", "55-70 ans", "santé", "associations", "thermes", "randonnée"],
+  },
+  {
+    slug: "meilleures-villes-creer-entreprise-startup-france-2025",
+    title: "Meilleures villes françaises pour créer son entreprise en 2025 — Écosystème startup et TPE/PME",
+    emoji: "🚀",
+    category: "teletravail",
+    metaTitle: "Meilleures villes pour créer une entreprise en France 2025 | MeilleurVille",
+    metaDesc: "Quelle ville française choisir pour créer une startup, une TPE ou une PME en 2025 ? Classement des meilleures villes : écosystème entrepreneurial, aides régionales, coût des bureaux, réseau d'investisseurs.",
+    intro: "Le lieu d'implantation d'une entreprise détermine son accès au talent, aux financements, aux clients, et aux partenaires. Ce guide classe les villes françaises selon les critères qui comptent pour un entrepreneur : écosystème, talent, immobilier de bureau, et aides régionales.",
+    readMinutes: 9,
+    publishedAt: "2026-04-01",
+    updatedAt: "2026-04-01",
+    sections: [
+      {
+        heading: "Pourquoi la localisation d'une startup compte plus qu'on ne le croit",
+        body: "Un fondateur dans une ville sans écosystème startup est un fondateur seul. L'écosystème, ce n'est pas juste les espaces de coworking — c'est la densité de mentors disponibles, la présence de fonds régionaux actifs (BPI régionale, fonds régionaux), le réseau d'entreprises potentiellement clientes, et la capacité à recruter des profils techniques de qualité. Ces facteurs varient de 1 à 10 selon la ville, et peuvent faire la différence entre une levée de fonds en 6 mois et une en 3 ans.",
+      },
+      {
+        heading: "Le Top 5 startup : Paris, Lyon, Bordeaux, Nantes, Toulouse",
+        body: "Paris reste imbattable pour les startups Tech scale-up (accès aux investisseurs Tier 1, talent international, clients grands comptes) — mais le coût est prohibitif pour une early-stage. Lyon est la deuxième ville de France par l'écosystème : French Tech Lyon forte, CCI dynamique, fonds régionaux actifs, et un coût d'exploitation 40% inférieur à Paris. Bordeaux a connu une explosion entrepreneuriale depuis 2015 (Station F de la Gironde à Darwin). Nantes a un écosystème startup solide sur le numérique et les industries créatives. Toulouse est le choix des deeptech, avec l'accès à l'écosystème aéronautique et spatial.",
+      },
+      {
+        heading: "Les villes émergentes pour les entrepreneurs",
+        body: "Rennes est en forte progression : Rennes Métropole a investi massivement dans son écosystème (Territoire Smart), et la ville attire des profils tech de qualité à des coûts bien inférieurs à Paris. Grenoble est la référence pour les deeptech et l'énergie propre (CEA, Minatec, Schneider Electric, ST Microelectronics). Montpellier monte en puissance sur la biotech et l'AgriTech. Metz et Nancy bénéficient des flux frontaliers et d'un coût d'exploitation ultra-compétitif. Strasbourg est le choix des startups européennes qui veulent une adresse européenne avec accès aux institutions.",
+      },
+      {
+        heading: "TPE et commerce : les villes où le marché local fonctionne",
+        body: "Pour une TPE non-tech (restaurant, artisanat, services), les critères sont différents : pouvoir d'achat local, loyer commercial, concurrence, et dynamisme du tissu commerçant. Les meilleures villes pour ouvrir un commerce : Bordeaux (pouvoir d'achat élevé, tourisme, dynamisme), Rennes (population active jeune, consommation locale forte), Strasbourg (tourisme européen intense + résidents premium). À éviter : centres-villes en déclin (certaines villes du bassin minier), villes à forte saisonnalité qui creusent l'activité hors-saison.",
+      },
+      {
+        heading: "Aides régionales et dispositifs locaux : ce que vous ne savez pas",
+        body: "La France dispose d'un réseau d'aides à la création d'entreprise souvent méconnu des créateurs : les CCI (Chambres de Commerce et d'Industrie) proposent des accompagnements gratuits dans toutes les villes, les Conseils Régionaux ont des prêts d'honneur 0% et des dispositifs d'amorçage (montants de 15 000 à 100 000€ selon la région), et certaines métropoles (Bordeaux, Nantes, Lyon) ont des concours de startup avec des prix en numéraire. Le dispositif ARCE (conversion chômage en capital) est accessible pour tous les demandeurs d'emploi qui créent leur entreprise.",
+      },
+      {
+        heading: "Immobilier de bureau en 2025 : les villes où s'installer sans se ruiner",
+        body: "Le coût des bureaux varie de 1 à 8 entre Paris et une ville de taille moyenne. En 2025 : Paris intra-muros : 400-700€/m2/an. Lyon Part-Dieu : 200-350€/m2/an. Bordeaux Euratlantique : 180-280€/m2/an. Toulouse : 150-250€/m2/an. Nantes/Rennes : 130-220€/m2/an. Strasbourg : 120-200€/m2/an. Montbéliard, Metz, Nancy : 80-130€/m2/an. Pour une startup de 5 personnes qui loue 50m2, l'économie entre Paris et Metz peut dépasser 15 000€/an. La décision d'implantation peut financer plusieurs recrutements.",
+      },
+    ],
+    relatedCities: ["paris", "lyon", "bordeaux", "nantes", "toulouse", "rennes", "grenoble", "strasbourg", "montpellier", "metz"],
+    relatedGuides: [
+      "meilleures-villes-freelances-independants-france-2025",
+      "meilleures-villes-jeunes-actifs-france-2025",
+      "quitter-paris-guide-pratique-2025",
+    ],
+    tags: ["startup", "entrepreneuriat", "TPE", "PME", "créer entreprise", "écosystème", "French Tech"],
+  },
 ];
 
 export const GUIDE_CATEGORIES = [
