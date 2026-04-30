@@ -359,6 +359,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ["douarnenez", "brest"],
     ["biscarrosse", "hossegor"],
     ["biscarrosse", "arcachon"],
+    ["saint-remy-de-provence", "arles"],
+    ["saint-remy-de-provence", "aix-en-provence"],
+    ["gordes", "avignon"],
+    ["gordes", "arles"],
+    ["sisteron", "gap"],
+    ["sisteron", "manosque"],
+    ["saint-paul-de-vence", "nice"],
+    ["saint-paul-de-vence", "antibes"],
+    ["valbonne", "cannes"],
+    ["valbonne", "antibes"],
+    ["ceret", "perpignan"],
+    ["ceret", "collioure"],
   ];
 
   const staticRoutes: MetadataRoute.Sitemap = [
