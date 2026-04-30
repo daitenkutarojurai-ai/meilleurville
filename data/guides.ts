@@ -5116,6 +5116,259 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["Tarn-et-Garonne", "Lot-et-Garonne", "Montauban", "Moissac", "bastides", "soleil", "gastronomie", "Ingres", "retraite", "abordable"],
   },
+  {
+    slug: "meilleures-villes-sport-enfants-clubs-activites-2025",
+    title: "Meilleures villes françaises pour le sport et les activités des enfants",
+    metaTitle: "Sport & activités enfants : les meilleures villes de France 2025",
+    metaDesc: "Clubs sportifs, équipements, associations, piscines, conservatoires : quelles villes offrent le meilleur environnement pour les enfants actifs ? Notre classement 2025.",
+    category: "famille",
+    emoji: "⚽",
+    readMinutes: 9,
+    publishedAt: "2025-01-18",
+    updatedAt: "2025-01-18",
+    intro: "Le sport et les activités extrascolaires jouent un rôle central dans l'épanouissement des enfants — et dans la décision de mobilité des familles. Nombre de clubs, qualité des équipements, diversité des pratiques, tarifs des licences : ces critères varient énormément d'une ville à l'autre. Voici les villes françaises qui se distinguent pour offrir aux enfants le meilleur cadre sportif et culturel.",
+    sections: [
+      {
+        heading: "Pourquoi le tissu associatif sportif varie autant entre villes",
+        body: "La densité de clubs sportifs et d'associations culturelles dépend de plusieurs facteurs : les dotations de la collectivité aux associations, la présence d'équipements structurants (stades couverts, piscines olympiques, patinoires, salles d'escalade), et la démographie — les villes universitaires et familiales investissent davantage dans ce secteur. En France, les communes consacrent en moyenne 4 à 8% de leur budget aux sports et loisirs. Mais l'écart entre une ville bien dotée et une autre peut atteindre le simple au triple pour les familles.",
+      },
+      {
+        heading: "Nantes : l'excellence sportive dans toutes les disciplines",
+        body: "Nantes est régulièrement classée première ou deuxième ville française pour la qualité de vie sportive des enfants. Le tissu associatif dépasse 2 400 clubs pour toutes les disciplines : football (FCN école de foot), basket (Hermine), handball, natation (7 piscines dont 2 olympiques), équitation, arts martiaux, voile sur l'Erdre. Le Conservatoire de Nantes est l'un des plus importants de France. Les tarifs des licences sont parmi les plus accessibles des métropoles grâce aux subventions municipales. Pour une famille avec des enfants sportifs, Nantes est une référence.",
+      },
+      {
+        heading: "Rennes : la ville des champions de demain",
+        body: "Rennes investit massivement dans le sport de haut niveau et amateur : le Stade Rennais dispose d'une académie réputée, le club d'athlétisme SA Rennes forme des champions nationaux, et la piscine Saint-Georges est un équipement de premier ordre. Le Conservatoire de Rennes et l'École de Musique de Bretagne offrent des formations musicales de qualité. Les tarifs municipaux pour les activités sont bonifiés pour les familles résidentes, avec des chèques sport distribués dès le CP.",
+      },
+      {
+        heading: "Grenoble : montagne et sports d'hiver à 45 minutes",
+        body: "Grenoble est unique en France : les familles qui s'y installent ont accès aux clubs sportifs urbains d'une grande ville ET aux stations de ski des Alpes à 45 minutes. Cette double offre est inégalable. Les enfants pratiquent le ski dès 4 ans avec les classes de neige de l'Éducation nationale, et rejoignent des clubs de slalom, ski de fond ou biathlon facilement. En ville, les clubs de rugby (FCG), natation, escalade (avec les salles Vertical'Art) et arts martiaux sont très actifs. Une ville sport complète.",
+      },
+      {
+        heading: "Angers : le secret des familles sportives à budget modéré",
+        body: "Angers est moins médiatisée que Nantes ou Bordeaux mais elle offre un rapport qualité-prix exceptionnel pour les familles sportives : SCO Angers (football), Angers BC (basket Nationale), clubs d'aviron sur la Maine, piscines modernes, skatepark, accès aux plans d'eau de la région (Loire, lac de Maine). Le coût des licences sportives est inférieur de 20 à 30% aux grandes métropoles. Le Conservatoire d'Angers est réputé pour la musique classique. Et les logements sont 40% moins chers qu'à Nantes.",
+      },
+      {
+        heading: "Toulouse, Lyon, Bordeaux : les métropoles bien équipées",
+        body: "Les trois premières métropoles françaises offrent évidemment un spectre sportif complet — football, rugby (Toulouse est la capitale du rugby français avec le Stade Toulousain), basket, natation, sports de combat, tennis, golf. Lyon dispose de 6 piscines municipales et d'une politique sport active pour les scolaires. Bordeaux a investi dans de nombreuses salles omnisports dans ses quartiers après la Métropole. Le bémol : le coût global de la vie plus élevé comprime les budgets familiaux, et le prix des logements peut annuler l'avantage de l'offre sportive.",
+      },
+      {
+        heading: "Villes moyennes à fort tissu sportif : les découvertes",
+        body: "Certaines villes moyennes se distinguent par un investissement sportif remarquable au regard de leur taille. Pau est la capitale française du parachutisme et du parapente, avec une école de saut réputée. Millau attire les familles grâce à son contexte naturel (via-ferrata, canyoning, vélo). Annecy offre le lac (voile, kayak, natation en eau libre) et les montagnes. Dijon investit massivement dans ses équipements aquatiques (Dijon-Nautique). Ces villes cumulent accessibilité sportive et coût de la vie modéré.",
+      },
+      {
+        heading: "Les critères clés pour évaluer l'offre sportive",
+        body: "Avant de choisir votre ville pour les activités des enfants, vérifiez : le nombre de piscines couvertes par habitant (indicateur clé de l'investissement municipal), la présence d'un conservatoire municipal ou intercommunal, la densité de clubs sportifs agréés par rapport à la population jeune, les tarifs des licences sportives communales (certaines villes proposent des 'chèques sport' ou des tarifs familiaux), et l'accès aux équipements naturels (mer, montagne, forêt) qui multiplient les pratiques possibles.",
+      },
+    ],
+    relatedCities: ["nantes", "rennes", "grenoble", "angers", "toulouse", "bordeaux"],
+    relatedGuides: [
+      "meilleures-villes-familles-ecoles-securite-france-2025",
+      "choisir-ville-pour-ses-enfants-ecoles-activites-securite-2025",
+      "meilleure-ville-famille-france",
+    ],
+    tags: ["famille", "sport", "enfants", "clubs sportifs", "activités", "conservatoire", "piscine", "loisirs"],
+  },
+  {
+    slug: "meilleures-villes-ecoles-bilingues-internationales-france-2025",
+    title: "Villes françaises avec les meilleures écoles bilingues et internationales",
+    metaTitle: "Écoles bilingues & internationales : les meilleures villes en France 2025",
+    metaDesc: "Sections bilingues, lycées internationaux, enseignement en anglais, allemand ou espagnol : les villes françaises où vos enfants peuvent apprendre une langue dès le plus jeune âge.",
+    category: "famille",
+    emoji: "🌍",
+    readMinutes: 9,
+    publishedAt: "2025-02-05",
+    updatedAt: "2025-02-05",
+    intro: "Vous souhaitez que vos enfants grandissent dans une ville où ils peuvent apprendre une langue étrangère dès la maternelle, rejoindre une section bilingue ou accéder à un lycée international ? Ce critère est déterminant pour de nombreuses familles expatriées, familles mixtes ou tout simplement parents soucieux de l'avenir linguistique de leurs enfants. Voici les villes françaises les mieux équipées.",
+    sections: [
+      {
+        heading: "Sections bilingues publiques : la grande inégalité territoriale",
+        body: "La France dispose d'un réseau de sections bilingues dans l'enseignement public (sections européennes au collège/lycée, dispositifs immersifs en maternelle comme le DULCO à Strasbourg). Mais leur répartition est très inégale : les académies de Strasbourg, Bordeaux, Paris et Lyon concentrent la majorité des sections bilingues de qualité. Dans les académies de province plus reculées, les options se réduisent souvent à une section anglais-renforcé au collège.",
+      },
+      {
+        heading: "Strasbourg : la référence francophone pour le bilinguisme franco-allemand",
+        body: "Strasbourg est la ville française où le bilinguisme franco-allemand est le plus ancré dans la culture scolaire. Le dispositif ABCM (Association Bilinguisme et Culture) gère plusieurs écoles bilingues privées reconnues. L'école nationale d'administration est bilingue. Les sections européennes allemand-anglais sont présentes dans presque tous les collèges de l'académie. L'immersion culturelle avec l'Allemagne toute proche est naturelle. Pour une famille francophone qui veut des enfants trilingues (français-allemand-anglais), c'est le choix évident.",
+      },
+      {
+        heading: "Paris et banlieue : le plus grand réseau d'établissements internationaux",
+        body: "L'Île-de-France concentre le plus grand réseau de lycées internationaux (LIB à Saint-Germain-en-Laye, LFM à Fontainebleau, LIF à Yerres), d'écoles internationales privées (British School of Paris, American School of Paris, école alsacienne) et de sections ABIBAC ou OIB. C'est un avantage unique pour les familles avec des parcours internationaux. Mais le coût est prohibitif : les frais de scolarité des établissements privés internationaux dépassent souvent 15 000€/an. Les sections bilingues publiques existent mais les files d'attente sont longues.",
+      },
+      {
+        heading: "Lyon : sections bilingues fortes et enseignement international de qualité",
+        body: "Lyon dispose d'un excellent réseau de sections bilingues publiques (anglais, espagnol, allemand, arabe, mandarin au lycée Saint-Exupéry). Le lycée international de Lyon propose des sections OIB (Option Internationale du Bac) reconnues mondialement. La Cité Internationale abrite des structures éducatives pour les familles de passage. Contrairement à Paris, les coûts restent maîtrisés car l'offre publique est solide.",
+      },
+      {
+        heading: "Bordeaux : l'immersion linguistique en environnement international",
+        body: "Bordeaux attire de nombreuses familles anglaises et américaines (notamment autour du vignoble). L'académie de Bordeaux a développé un réseau de sections bilingues solide dès le primaire dans plusieurs communes de la Métropole (Mérignac, Pessac, Talence). L'école anglophone privée de Bordeaux propose un enseignement en anglais de la maternelle au lycée. La ville est idéale pour les familles francophones cherchant à immerger leurs enfants dans un environnement anglophone sans quitter la France.",
+      },
+      {
+        heading: "Caen, Rouen, Tours : les bons plans de province",
+        body: "Plusieurs villes de province offrent des options bilingues de qualité à coût de vie réduit. Caen dispose de sections bilingues anglais et une tradition d'échanges scolaires avec le Royaume-Uni (mémorial D-Day oblige). Rouen a développé des sections bilingues fortes dans les collèges de centre-ville. Tours, avec l'université de Touraine, propose des lycées avec options internationales et un tissu d'échanges européens actif. Ces villes permettent une éducation bilingue de qualité à des coûts immobiliers 3 à 4 fois inférieurs à Paris.",
+      },
+      {
+        heading: "Que vérifier avant de choisir",
+        body: "Avant de choisir une ville pour l'éducation bilingue de vos enfants, vérifiez : la présence d'une section bilingue dans la carte scolaire de votre futur quartier (pas seulement dans la ville), les critères de sélection (certaines sections ont des tests d'entrée), la continuité maternelle-primaire-collège-lycée dans le même système bilingue (la coupure entre deux systèmes différents est problématique), la qualité des échanges avec des établissements étrangers partenaires, et le projet pédagogique concret (heures en langue étrangère par semaine, matières enseignées en langue).",
+      },
+    ],
+    relatedCities: ["strasbourg", "lyon", "bordeaux", "caen", "rouen", "tours"],
+    relatedGuides: [
+      "meilleures-villes-familles-ecoles-securite-france-2025",
+      "choisir-ville-pour-ses-enfants-ecoles-activites-securite-2025",
+      "meilleures-villes-familles-budget-serre-2025",
+    ],
+    tags: ["famille", "école bilingue", "lycée international", "langues", "enfants", "expatriés", "éducation"],
+  },
+  {
+    slug: "villes-france-jardins-espaces-verts-enfants-familles-2025",
+    title: "Les meilleures villes françaises pour les familles qui aiment la nature et les espaces verts",
+    metaTitle: "Villes avec parcs, jardins et nature pour les familles — France 2025",
+    metaDesc: "Parcs municipaux, forêts accessibles, bords de rivière, jardins partagés : quelles villes françaises offrent le plus d'espaces naturels aux familles avec enfants ?",
+    category: "famille",
+    emoji: "🌳",
+    readMinutes: 8,
+    publishedAt: "2025-02-22",
+    updatedAt: "2025-02-22",
+    intro: "Pour les familles avec enfants, la proximité de la nature n'est pas un luxe — c'est une nécessité. Pouvoir se rendre en 10 minutes dans un parc où courir, dans une forêt pour ramasser des châtaignes ou au bord d'une rivière pour faire des ricochets : ces expériences quotidiennes marquent une enfance. Certaines villes françaises se distinguent nettement pour leur tissu naturel accessible aux familles.",
+    sections: [
+      {
+        heading: "La densité d'espaces verts : un indicateur trompeur",
+        body: "La superficie totale des espaces verts par habitant est souvent mise en avant dans les classements — mais elle peut être trompeuse. 500 hectares de forêt à 20 km du centre ne servent pas les mêmes usages qu'un parc de 2 hectares en centre-ville accessible à pied. Ce qui compte pour les familles, c'est la densité d'espaces verts de proximité : parcs accessibles en moins de 10 minutes à pied, aires de jeux entretenues, berges sécurisées, trames vertes urbaines. Les villes qui combinent les deux (accessibilité de proximité + grands espaces péri-urbains) sont les vraies gagnantes.",
+      },
+      {
+        heading: "Nantes : la ville aux 5 000 arbres et au végétal partout",
+        body: "Nantes est souvent présentée comme la ville française la plus verte en milieu urbain : 5 000 arbres en voirie, plusieurs grands parcs (Parc de Procé, Grand Blottereau, Chantenay), le Jardin des Plantes en plein centre et les bords de l'Erdre avec ses îles vertes. La politique 'Nantes Nature' plante 1 200 arbres par an. Les familles avec enfants trouvent systématiquement un espace vert accessible en moins de 5 minutes. Et les prairies de Mazerolles à 15 minutes offrent des promenades champêtres.",
+      },
+      {
+        heading: "Annecy : la ville lac et montagne",
+        body: "Annecy cumule ce que peu de villes françaises offrent : le lac (baignade gratuite, kayak, pédalos), les parcs du Pâquier et de la Pépinière en bord de lac, les forêts du Semnoz accessibles en 20 minutes, et les sentiers balisés sur les rives. Les enfants font du vélo sur la piste cyclable du tour du lac (42 km), nagent en eaux claires l'été, font de la raquette l'hiver. L'Usine est devenue un espace culturel et nature apprécié. Le seul bémol : les prix immobiliers en hausse.",
+      },
+      {
+        heading: "Montpellier : la ville aux 8 000 m² de jardins habités",
+        body: "Montpellier a misé sur les jardins partagés (plus de 50 en ville), les espaces agroécologiques et la trame verte urb baine dite 'coulée verte'. La Charpenne, le parc Rimbaud, le parc Méric et les espaces naturels du Lez offrent des promenades variées avec poussette ou vélo cargo. La ville a planté 80 000 arbres depuis 2010. En périphérie, la garrigue, l'Hérault et les étangs sont accessibles en 20 minutes. Pour les familles sensibles à l'environnement, c'est l'une des meilleures villes de France.",
+      },
+      {
+        heading: "Grenoble : les Alpes comme jardin naturel",
+        body: "Grenoble est bâtie au confluent de deux fleuves alpins et entourée de massifs montagneux. Les Parcs Paul Mistral et Jean Verlhac offrent de l'espace en ville, mais la vraie richesse est extérieure : le Vercors à 30 minutes (randonnées avec enfants, descentes en luge naturelle), le massif de Belledonne (alpages, lacs), le Chartreuse (forêts). Les familles grenobloises élèvent des enfants qui apprennent à skier dès 4 ans, à randonner dès 6 ans et à bivouaquer dès 10 ans. Une culture outdoor sans équivalent en ville française.",
+      },
+      {
+        heading: "Rennes : parcs urbains et bocage breton à 15 minutes",
+        body: "Rennes dispose d'un réseau de parcs urbains remarquable (parc du Thabor avec roseraie et espace jeux, Parc des Gayeulles avec lac et camping, Parc de Lormandière). Le bocage breton commence vraiment à 15 minutes du périphérique, avec des sentiers de randonnée balisés et des petits châteaux à découvrir. La Vilaine est aménagée pour les promenades familiales. En hiver, les mises en eau des prairies créent des espaces naturels fantastiques pour observer les oiseaux.",
+      },
+      {
+        heading: "Limoges : la ville sous-estimée des familles nature",
+        body: "Limoges est l'une des villes françaises les moins chères pour les familles, et elle offre un accès à la nature hors du commun : l'Aurence et la Vienne coulent en ville avec des berges aménagées, le parc de la Fabrique et le parc Résistance offrent de grandes pelouses, et la Creuse et le Plateau de Millevaches sont à 40 minutes. La densité de jardins partagés a explosé depuis 2020. Maisons avec jardin entre 150 000€ et 250 000€. Pour une famille nature qui fait du télétravail, Limoges est une découverte.",
+      },
+    ],
+    relatedCities: ["nantes", "annecy", "montpellier", "grenoble", "rennes", "limoges"],
+    relatedGuides: [
+      "meilleure-ville-famille-france",
+      "meilleures-villes-familles-ecoles-securite-france-2025",
+      "meilleures-villes-sport-enfants-clubs-activites-2025",
+    ],
+    tags: ["famille", "nature", "parcs", "espaces verts", "enfants", "lac", "forêt", "randonnée"],
+  },
+  {
+    slug: "quitter-paris-province-teletravail-guide-complet-2025",
+    title: "Quitter Paris pour la province en télétravail : le guide complet 2025",
+    metaTitle: "Quitter Paris pour travailler en remote depuis la province — Guide 2025",
+    metaDesc: "Salaire parisien, loyer de province : le guide complet pour quitter Paris en télétravail. Villes, budgets, fibre optique, coût réel de la vie, retours d'expérience.",
+    category: "teletravail",
+    emoji: "🚂",
+    readMinutes: 12,
+    publishedAt: "2025-03-01",
+    updatedAt: "2025-03-01",
+    intro: "Depuis 2020, des dizaines de milliers de Parisiens ont quitté la capitale pour s'installer en province, salaire parisien en poche, en télétravail partiel ou complet. Ce mouvement s'est accéléré mais il est aussi semé d'embûches : retour imposé au bureau, sentiment d'isolement, mauvaise connexion, regrets. Ce guide répond sans filtre à toutes les questions que vous vous posez avant de franchir le pas.",
+    sections: [
+      {
+        heading: "Les vrais chiffres du gain de pouvoir d'achat",
+        body: "L'argument financier est souvent surestimé dans les témoignages médiatiques. Oui, un loyer passe de 1 400€ à Paris à 650€ à Rennes — soit 750€ de gain mensuel. Mais : les transports en commun ne sont plus subventionnés par l'employeur (800€/an de passe Navigo vs voiture personnelle à 3 000–5 000€/an), les courses alimentaires en grande surface peuvent être moins chères mais les commerces de proximité souvent plus chers, et les frais de garde d'enfants plus élevés (moins de crèches municipales subventionnées). Le gain réel net se situe entre 400 et 800€/mois selon les villes — pas négligeable, mais moins spectaculaire qu'annoncé.",
+      },
+      {
+        heading: "La fibre et la connexion : vérifier avant de partir",
+        body: "La fibre optique (FTTH) est désormais déployée dans 85% des logements français, mais avec des disparités importantes. Dans les centres-bourgs de moins de 5 000 habitants, il reste des zones blanches ou VDSL à 30 Mb/s maximum — insuffisant pour les réunions en visio 4K ou le montage vidéo. Avant de signer un bail, vérifiez sur telecom.fr ou dans l'application de l'opérateur si l'adresse précise est bien raccordée en FTTH. Dans les villes moyennes comme Rennes, Nantes, Bordeaux, Strasbourg, Clermont-Ferrand, la fibre est généralisée.",
+      },
+      {
+        heading: "Les villes qui ont accueilli le plus de Parisiens",
+        body: "Les chiffres INSEE et les plateformes immobilières convergent : Bordeaux, Nantes, Rennes, Lyon et Montpellier ont été les grandes bénéficiaires de l'exode parisien 2020-2023. Dans un second temps, des villes comme Angers, Tours, Poitiers, Clermont-Ferrand et Brest ont capté des familles cherchant encore plus d'espace et d'abordabilité. Les Parisiens les plus aventureux ont rejoint Limoges, Aurillac ou Rodez — et en parlent comme d'une révélation.",
+      },
+      {
+        heading: "Les pièges à éviter",
+        body: "Premier piège : le retour imposé au bureau. Avant de partir, négociez en dur dans votre contrat le nombre de jours de télétravail par semaine, par mois, les conditions de révision. Un verbal 'pas de problème' ne vaut rien. Deuxième piège : partir trop loin de Paris si vous avez un employeur qui peut vous rappeler. Un TGV Paris-Bordeaux en 2h15 reste gérable pour 2 aller-retour par mois ; Paris-Brest (4h45) l'est moins. Troisième piège : la ville fantôme le soir. Beaucoup de Parisiens découvrent trop tard que leur 'ville dynamique' de 80 000 habitants n'a plus grand monde dehors après 21h.",
+      },
+      {
+        heading: "Rennes, le choix le plus sûr",
+        body: "Si vous ne savez pas quoi choisir, Rennes est la ville qui réunit le plus grand nombre de garanties : gare TGV avec Paris en 1h28, fibre généralisée, tissu économique diversifié (Brittany Ferries, Orange, Enedis, startup French Tech), coût de vie 35% inférieur à Paris, mer à 1h, campagne à 20 minutes. Le quartier Jeanne d'Arc est le meilleur accueil pour les Parisiens fraîchement arrivés. Angers offre quelques avantages supplémentaires côté prix.",
+      },
+      {
+        heading: "Nantes, Bordeaux, Angers : le trio de la sécurité",
+        body: "Nantes cumule TGV vers Paris (2h15), tissu culturel dense, hôpital CHU solide, université réputée, nature (Loire, Erdre, bocage). Bordeaux offre un cadre de vie séduisant mais les prix ont fortement augmenté depuis 2018 (TGV Paris en 2h04 a eu effet inflationniste). Angers est peut-être le meilleur rapport qualité-prix du trio : 1h30 de Paris en TGV, loyers 25% moins chers que Nantes, dynamisme économique Végépolys + agroalimentaire, qualité de vie reconnue.",
+      },
+      {
+        heading: "Le retour d'expérience : ce que les partis disent 3 ans après",
+        body: "D'après plusieurs sondages menés par des portails immobiliers, 78% des Parisiens partis en province déclarent ne pas regretter leur départ, 15% envisagent de revenir dans une grande ville (souvent pour des raisons de carrière ou relationnelles), 7% sont effectivement revenus. Les principaux regrets : la vie culturelle le soir et le week-end, la diversité gastronomique, certains réseaux professionnels, et la difficulté à s'intégrer dans une ville où 'tout le monde se connaît'. Les principaux gains : l'espace, le calme, la sérénité, le sentiment de communauté, les économies, et l'accès à la nature.",
+      },
+    ],
+    relatedCities: ["rennes", "nantes", "bordeaux", "angers", "poitiers", "limoges"],
+    relatedGuides: [
+      "vivre-en-france-teletravail-guide-2025",
+      "teletravail-rythme-hybride-quelle-ville-choisir-2025",
+      "meilleures-villes-investissement-locatif-colocation-2025",
+    ],
+    tags: ["télétravail", "quitter Paris", "province", "remote work", "gain pouvoir d'achat", "TGV", "fibre"],
+  },
+  {
+    slug: "meilleures-villes-coworking-freelance-ecosysteme-2025",
+    title: "Les meilleures villes françaises pour les freelances et le coworking en 2025",
+    metaTitle: "Villes françaises pour les freelances et coworking — Guide 2025",
+    metaDesc: "Espaces de coworking, French Tech, réseaux freelances, connectivité, communautés : quelles villes françaises offrent le meilleur écosystème pour les indépendants ?",
+    category: "teletravail",
+    emoji: "💼",
+    readMinutes: 10,
+    publishedAt: "2025-03-15",
+    updatedAt: "2025-03-15",
+    intro: "Le freelance a explosé en France : 3,5 millions de travailleurs indépendants en 2025, dont une forte proportion de télétravailleurs mobiles. Mais toutes les villes ne se valent pas pour lancer ou développer son activité en indépendant. Espaces de coworking, communautés tech, événements professionnels, rythme de vie propice à la productivité : voici notre classement des villes françaises pour les freelances.",
+    sections: [
+      {
+        heading: "Pourquoi le lieu compte pour un freelance",
+        body: "Un freelance en remote peut théoriquement travailler de partout. Mais le lieu influence profondément son quotidien : la densité du réseau de clients potentiels dans sa ville, la présence de communautés de pairs pour partager les missions et les méthodes, la qualité des espaces de coworking (tarifs, ambiance, internet), le rythme de vie (réunions clients le matin ou l'après-midi selon la ville), et le coût de fonctionnement global (loyer bureau + logement + déplacements). Ces facteurs créent des dynamiques très différentes selon les villes.",
+      },
+      {
+        heading: "Bordeaux : la capitale des freelances créatifs",
+        body: "Bordeaux s'est imposée comme la première ville française pour l'accueil des freelances numériques et créatifs. La densité d'agences digitales, de studios de design et de startups (label French Tech Atlantic) crée un marché local dynamique. Les espaces Darwin, le Numa Bordeaux, le coworking de la Caserne Niel, et les nombreux cafés de travail sur la rive gauche offrent un tissu de coworking unique. Le réseau Freelances en Action Bordeaux compte plus de 2 000 membres actifs. Et la douceur de vivre permet une productivité durable.",
+      },
+      {
+        heading: "Nantes : l'écosystème le plus complet",
+        body: "Nantes est la ville française avec l'écosystème freelance le plus complet hors Paris : French Tech Nantes très active, hub Liberté Living-Lab, Scopelec, Epitech, 42 Nantes forment une génération de développeurs qui restent sur place. Le coworking est dense (La Cantine, Hub Créatic, Nantes Coworking). Les associations professionnelles (développeurs, designers, consultants marketing) organisent des meetups hebdomadaires. Tarif coworking fixe : 150–300€/mois selon l'espace.",
+      },
+      {
+        heading: "Rennes : le hub tech atlantique",
+        body: "Rennes est la métropole française avec le plus fort taux d'emploi dans le numérique en dehors de Paris : Orange, Enedis, Nokia, Thales, Sopra Steria y ont leurs sièges régionaux. Ce tissu de grandes entreprises tech génère une demande permanente en freelances spécialisés (développement, cybersécurité, data, UX). Les espaces de coworking de la French Tech Rennes sont parmi les moins chers des métropoles françaises. Les TechMeetups du mardi soir rassemblent 100 à 200 professionnels chaque semaine.",
+      },
+      {
+        heading: "Lyon : la diversité des marchés freelance",
+        body: "Lyon offre aux freelances la diversité des secteurs clients : mode et luxe (capitale de la soie), gastronomie et tourisme (premier pôle touristique hors Paris), chimie-pharma (Sanofi, Biotech), numérique (French Tech Lyon Saint-Étienne). Cette diversité réduit le risque de dépendance à un seul secteur. Les espaces de coworking sont nombreux dans le 2ème et le 9ème arrondissement. Le marché de la communication, du design et du développement web est mature et rémunérateur.",
+      },
+      {
+        heading: "Montpellier : la montée en puissance",
+        body: "Montpellier est en train de devenir la ville des freelances de la Méditerranée. L'université (70 000 étudiants, dont une forte filière numérique), le Climate Change Campus de French Tech, et l'afflux de télétravailleurs post-COVID ont créé une communauté tech active. Les espaces La Ruche Montpellier, le Pop Up, et le Darwin local sont des lieux de socialisation professionnelle. Le coût de vie reste raisonnable pour le Sud (loyer T2 800€ en centre). Et le soleil de Méditerranée n'est pas un détail pour la qualité de vie des indépendants.",
+      },
+      {
+        heading: "Les villes abordables pour les freelances budget",
+        body: "Pour les freelances qui veulent maximiser leur liberté financière, certaines villes moins médiatisées offrent des avantages réels : Poitiers (loyer T2 à 600€, fibre généralisée, université tech, 2h de Paris en TGV), Limoges (loyer T2 à 600€, coworking Le Cloître très actif, excellent rapport coût/qualité de vie), Clermont-Ferrand (loyer T2 à 650€, tissu PME Auvergne, Michelin TechCenter). Ces villes permettent de vivre confortablement avec un chiffre d'affaires de 40 000–50 000€/an, là où Paris ou Bordeaux nécessitent 70 000€.",
+      },
+      {
+        heading: "Ce que les freelances sous-estiment souvent",
+        body: "Deux facteurs décisifs souvent négligés : l'intensité des événements de networking (une ville avec 2 meetups tech par semaine vs zéro change la donne pour l'acquisition de clients), et la culture locale de l'entrepreneuriat. Dans certaines villes, le statut de freelance est encore perçu comme précaire par les propriétaires et les banques. Dans d'autres (Bordeaux, Nantes, Montpellier), c'est un statut respecté. Avant de vous installer, passez une semaine sur place en coworking et assistez à un événement professionnel — vous saurez en 5 minutes si la ville vous correspond.",
+      },
+    ],
+    relatedCities: ["bordeaux", "nantes", "rennes", "lyon", "montpellier", "poitiers"],
+    relatedGuides: [
+      "vivre-en-france-teletravail-guide-2025",
+      "quitter-paris-province-teletravail-guide-complet-2025",
+      "teletravail-rythme-hybride-quelle-ville-choisir-2025",
+    ],
+    tags: ["freelance", "coworking", "télétravail", "indépendants", "French Tech", "startup", "numérique"],
+  },
 ];
 
 export const GUIDE_CATEGORIES = [
