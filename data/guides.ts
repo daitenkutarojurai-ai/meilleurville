@@ -4279,6 +4279,211 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["Angers", "Nantes", "comparatif", "Loire", "Pays de la Loire", "immobilier", "emploi", "qualité de vie"],
   },
+  {
+    slug: "vivre-en-aveyron-lot-guide-2025",
+    title: "Vivre en Aveyron et dans le Lot : Rodez, Millau, Cahors et les causses",
+    metaTitle: "Vivre en Aveyron et Lot — Guide 2025 : Rodez, Millau, Cahors, Figeac",
+    metaDesc: "Guide pour s'installer en Aveyron et dans le Lot : Rodez, Millau, Cahors, Figeac. Causses, viaducs, nature préservée et prix très accessibles dans le Sud-Ouest profond.",
+    category: "region",
+    emoji: "🏞️",
+    readMinutes: 9,
+    publishedAt: "2025-05-12",
+    updatedAt: "2025-05-12",
+    intro: "Rodez, Millau, Cahors, Figeac : l'Aveyron et le Lot sont parmi les destinations les plus authentiques et les moins chères de France. Causses, gorges, viaducs et gastronomie — un art de vivre préservé.",
+    sections: [
+      {
+        heading: "L'Aveyron : le département le plus sous-côté de France",
+        body: "L'Aveyron est régulièrement classé parmi les meilleurs départements français pour la qualité de vie, mais reste méconnu des candidats à l'exode urbain. 280 000 habitants sur 8 800 km², forêts, rivières, causses, villages médiévaux classés. 2 000h d'ensoleillement par an. Prix immobiliers parmi les plus bas du Sud-Ouest (1 000-2 000€/m²). Fibre déployée à 90% du territoire depuis 2023.",
+      },
+      {
+        heading: "Rodez : la préfecture dynamique et culturelle",
+        body: "Rodez (25 000 hab.) surprend par son dynamisme : le musée Soulages (architecte Piano) est une institution d'art contemporain de rang mondial, la cathédrale gothique domine la ville rouge depuis 800 ans. Vie culturelle active, commerces, hôpital, université. Prix au m² : 1 400-2 200€. Loyers T2 : 450-600€. Pour les actifs et familles qui veulent la vie culturelle sans les prix de la grande ville.",
+      },
+      {
+        heading: "Millau : ville du viaduc et du causse",
+        body: "Millau (22 000 hab.) est mondialement connue pour son viaduc (Foster+Partners, 2004) qui enjambe le Tarn à 270m de hauteur. Capitale mondiale de la ganterie en peau, skis des Gorges du Tarn, escalade, randonnées sur le Causse Noir. Prix très bas (1 200-1 800€/m²). Pour les amateurs d'outdoor et de paysages spectaculaires qui veulent l'Aveyron le plus actif.",
+      },
+      {
+        heading: "Cahors et le Lot : vin noir et patrimoine remarquable",
+        body: "Cahors (20 000 hab.) est la préfecture du Lot, ville du vin rouge Malbec (AOC Cahors) et du pont Valentré médiéval classé UNESCO. Le département du Lot concentre une densité de villages médiévaux exceptionnelle : Saint-Cirq-Lapopie, Rocamadour, Figeac. Prix au m² : 1 400-2 000€ — accessibles pour ce cadre. Pour les retraités et télétravailleurs qui veulent le Sud-Ouest profond.",
+      },
+      {
+        heading: "Figeac : la ville natale de Champollion",
+        body: "Figeac (10 000 hab.) est une surprise absolue : une ville médiévale parfaitement conservée, berceau de Jean-François Champollion (déchiffreur des hiéroglyphes), avec un musée Champollion de renommée internationale. Chemin de Saint-Jacques, accès aux Gorges du Célé. Prix plancher (1 200-1 700€/m²). Pour les passionnés d'histoire et de nature sauvage cherchant le Quercy authentique loin des foules.",
+      },
+    ],
+    relatedCities: ["rodez", "millau", "cahors", "figeac"],
+    relatedGuides: [
+      "vivre-en-dordogne-quercy-perigord-guide-2025",
+      "vivre-en-occitanie-guide-2025",
+      "meilleures-villes-retraites-budget-moins-1500-euros-2025",
+    ],
+    tags: ["Aveyron", "Lot", "Rodez", "Millau", "Cahors", "Figeac", "causses", "patrimoine", "abordable"],
+  },
+  {
+    slug: "vivre-en-touraine-guide-2025",
+    title: "Vivre en Touraine : Tours, Amboise, Saumur et les châteaux de la Loire",
+    metaTitle: "Vivre en Touraine — Guide 2025 : Tours, Amboise, Saumur, Vendôme",
+    metaDesc: "S'installer en Touraine : Tours, Amboise, Saumur, Vendôme. Châteaux de la Loire UNESCO, gastronomie tourangelle, TGV Paris et immobilier accessible en Val de Loire.",
+    category: "region",
+    emoji: "🏰",
+    readMinutes: 8,
+    publishedAt: "2025-04-28",
+    updatedAt: "2025-04-28",
+    intro: "Tours, Amboise, Saumur, Vendôme : la Touraine est le jardin de la France. Châteaux Renaissance, vignobles de renom, gastronomie exceptionnelle — et TGV Paris moins d'1h depuis Tours.",
+    sections: [
+      {
+        heading: "Tours : la métropole du Val de Loire",
+        body: "Tours (136 000 hab., 300 000 dans l'agglo) est la capitale de la Touraine et du Val de Loire classé UNESCO. TGV Paris-Montparnasse en 55 min — l'une des liaisons TGV les plus rapides de France. Ville universitaire dynamique (30 000 étudiants), quartiers piétons animés, gastronomie renommée. Prix au m² : 2 200-3 500€. Pour les actifs en télétravail qui veulent Paris à moins d'1h avec la qualité de vie de province.",
+      },
+      {
+        heading: "Amboise : le château de Léonard de Vinci",
+        body: "Amboise (13 000 hab.) est le village du Château Royal des Valois et de Clos Lucé, résidence de Léonard de Vinci (1516-1519). 1,5 million de visiteurs par an pour 13 000 habitants — la ville vit intensément du tourisme tout en restant à vivre. Prix au m² : 2 500-4 000€. Accès TER Tours en 20 min. Pour les amoureux de la Renaissance et de la Loire royale à budget intermédiaire.",
+      },
+      {
+        heading: "Saumur : vins, champignonnières et cavalerie",
+        body: "Saumur (27 000 hab.) est triple : la capitale du Saumurois (Saumur brut, Muscadet), la ville des champignonnières (70% de la production française), et la patrie de l'École nationale d'équitation (Cadre Noir). Château dominant la Loire, caves troglodytes. Prix au m² : 1 700-2 800€. Pour les amateurs de vin effervescent, de truffes et de spectacles équestres.",
+      },
+      {
+        heading: "Vendôme : le TGV le plus proche de Paris pour ce prix",
+        body: "Vendôme (17 000 hab.) est à 44 min de Paris par TGV — record pour une ville à ce niveau de prix (1 300-1 800€/m²). Abbaye de la Trinité flamboyante, bords du Loir verdoyants, marché animé. Pour les télétravailleurs et jeunes actifs parisiens qui veulent s'installer en province tout en travaillant à Paris 2-3 jours/semaine. Le meilleur rapport TGV/prix de France.",
+      },
+      {
+        heading: "Les vignobles : Vouvray, Chinon, Bourgueil",
+        body: "La Touraine est parsemée de vignobles de grand renom : Vouvray (Chenin blanc pétillant), Chinon (Cabernet Franc rouge), Bourgueil, Montlouis. Vivre entre Tours et Amboise permet d'avoir ces appellations à vélo. Le Val de Loire en tant que vignoble est l'un des plus longs du monde (800 km). Les troglodytes servaient de caves à vin — certains sont à vendre comme résidences.",
+      },
+    ],
+    relatedCities: ["tours", "amboise", "saumur", "vendome"],
+    relatedGuides: [
+      "centre-val-de-loire-tours-orleans-guide-2025",
+      "val-de-loire-vivre-guide-2025",
+      "quitter-paris-guide-2025",
+    ],
+    tags: ["Touraine", "Tours", "Amboise", "Saumur", "Vendôme", "Loire", "châteaux", "TGV", "vignobles"],
+  },
+  {
+    slug: "vivre-dans-le-tarn-guide-2025",
+    title: "Vivre dans le Tarn : Albi, Castres et les bastides du Sud-Ouest",
+    metaTitle: "Vivre dans le Tarn — Guide 2025 : Albi, Castres, Mazamet, Gaillac",
+    metaDesc: "Guide pour s'installer dans le Tarn : Albi la rouge, Castres et ses manufactures, Mazamet et la Montagne Noire. Patrimoine, prix accessibles et qualité de vie entre Toulouse et Méditerranée.",
+    category: "region",
+    emoji: "🏛️",
+    readMinutes: 8,
+    publishedAt: "2025-05-18",
+    updatedAt: "2025-05-18",
+    intro: "Albi la rouge, Castres la manufacturière, Mazamet et la Montagne Noire — le Tarn est un département de caractère entre Toulouse et la Méditerranée, avec 2 200h de soleil et des prix accessibles.",
+    sections: [
+      {
+        heading: "Albi : la cathédrale UNESCO et la ville rouge",
+        body: "Albi (50 000 hab.) est classée Patrimoine Mondial de l'UNESCO pour sa Cité épiscopale : la cathédrale Sainte-Cécile (la plus grande cathédrale gothique de briques au monde) et le palais de la Berbie. Ville natale de Toulouse-Lautrec avec un musée qui lui est consacré. À 1h de Toulouse, soleil méridional, vignobles de Gaillac. Prix au m² : 1 600-2 400€. Pour les retraités et actifs cherchant une grande ville culturelle à prix raisonnable.",
+      },
+      {
+        heading: "Castres : dynamisme industriel et canal du Midi",
+        body: "Castres (42 000 hab.) est une ville industrie et commerçante au bord de l'Agout, à 40 min de Toulouse et 1h de la Méditerranée. Siège du groupe Pierre Fabre (cosmétique), musée Goya (le plus important hors Espagne). Marché couvert remarquable. Prix accessibles (1 400-2 100€/m²). Pour les familles et actifs cherchant la ville de taille humaine entre Toulouse et Montpellier.",
+      },
+      {
+        heading: "Mazamet et la Montagne Noire : la reconversion exemplaire",
+        body: "Mazamet (10 000 hab.) est une ancienne capitale mondiale du délainage, en reconversion remarquable vers le tourisme et les loisirs de plein air. La Montagne Noire offre randonnées, VTT, cascades. Accès immédiat au Parc du Haut Languedoc. Prix très bas (800-1 400€/m²). Pour les télétravalleurs et retraités cherchant la montagne méridionale abordable entre Toulouse et Narbonne.",
+      },
+      {
+        heading: "Gaillac et ses vignobles : l'une des plus anciennes AOC de France",
+        body: "Gaillac est la plus ancienne appellation viticole de France (trace écrite en 972). La cité médiévale, le marché, les vignobles en terrasses sur les bords du Tarn. 8 000 habitants, accès direct à Albi (20 min) et Toulouse (45 min). Prix très bas (1 400-2 000€/m²). Pour les amateurs de vin et de Moyen Âge qui veulent vivre au cœur d'une appellation historique.",
+      },
+      {
+        heading: "Pourquoi le Tarn est encore méconnu des télétravailleurs",
+        body: "Malgré 2 200h d'ensoleillement (autant que Montpellier), des prix parmi les plus bas du Midi, et une fibre déployée à 95%, le Tarn n'est pas encore dans les listes des télétravailleurs. Avantage pour les arrivants : le marché immobilier reste accessible, les artisans sont disponibles, et la congestion n'a pas encore atteint le département. Toulouse n'est qu'à 1h, Méditerranée à 1h30.",
+      },
+    ],
+    relatedCities: ["albi", "castres"],
+    relatedGuides: [
+      "vivre-en-occitanie-guide-2025",
+      "vivre-dans-le-sud-france-guide-2025",
+      "toulouse-vs-bordeaux-comparatif-2025",
+    ],
+    tags: ["Tarn", "Albi", "Castres", "Mazamet", "Gaillac", "Montagne Noire", "Languedoc", "abordable"],
+  },
+  {
+    slug: "vivre-en-champagne-guide-2025",
+    title: "Vivre en Champagne : Reims, Troyes, Épernay et les vignes effervescentes",
+    metaTitle: "Vivre en Champagne — Guide 2025 : Reims, Troyes, Épernay, Châlons",
+    metaDesc: "Guide pour s'installer en Champagne : Reims, Troyes, Épernay, Châlons-en-Champagne. Cathédrales, vignobles, TGV Paris et immobilier accessible dans cette région royale.",
+    category: "region",
+    emoji: "🥂",
+    readMinutes: 8,
+    publishedAt: "2025-04-15",
+    updatedAt: "2025-04-15",
+    intro: "Reims, Troyes, Épernay, Châlons-en-Champagne : la région Champagne combine architecture gothique exceptionnelle, vignobles de renom mondial, et des prix immobiliers bien inférieurs à Paris malgré les TGV directs.",
+    sections: [
+      {
+        heading: "Reims : la cité des sacres et des bulles",
+        body: "Reims (187 000 hab.) est la ville des sacres des rois de France et des Grandes Maisons de Champagne (Veuve Clicquot, Taittinger, Piper-Heidsieck). Sa cathédrale Notre-Dame est classée UNESCO. TGV Paris-Est en 45 min — l'une des villes les plus proches de Paris avec ce niveau de services et ces prix (2 400-3 800€/m²). Excellent rapport qualité/prix pour les familles parisiennes. Pour les actifs qui font Paris en moins d'1h.",
+      },
+      {
+        heading: "Troyes : capitale de la maille et de l'architecture médiévale",
+        body: "Troyes (60 000 hab.) est une découverte constante : son centre médiéval en forme de bouchon de champagne, ses maisons à colombages colorées, ses 10 musées de référence. Capitale mondiale de la bonneterie (nombreux magasins d'usine). TGV Paris en 1h25. Prix au m² : 1 600-2 500€ — remarquablement bas pour la qualité de vie offerte. Pour les amateurs de Moyen Âge et les familles cherchant Paris accessible à petit budget.",
+      },
+      {
+        heading: "Épernay : la capitale du Champagne",
+        body: "Épernay (24 000 hab.) est la capitale mondiale du Champagne avec son avenue de Champagne (Moët & Chandon, Perrier-Jouët, Pol Roger). 200 millions de bouteilles de Champagne reposent dans les caves creusées sous la ville. 30 min de Reims, 1h25 de Paris. Ville à taille humaine, bourgeoise et tranquille hors saison. Prix (1 800-2 800€/m²). Pour les amateurs de bulles et de prestige à prix provincial.",
+      },
+      {
+        heading: "Châlons-en-Champagne : la préfecture méconnue",
+        body: "Châlons-en-Champagne (43 000 hab.) est la préfecture de la Marne et l'une des villes les plus sous-cotées de France. Architecture médiévale, canaux navigables, vie calme. Prix plancher (1 100-1 700€/m²) pour une préfecture avec tous les services. À 40 min de Reims. Pour les familles cherchant la ville préfecture la plus calme et la moins chère de l'Est de la France.",
+      },
+      {
+        heading: "La Route du Champagne : vivre dans les vignes",
+        body: "La Route du Champagne traverse des villages viticoles parmi les plus pittoresques de France : Hautvillers (où Dom Pérignon inventa le Champagne), Bouzy, Aÿ, Verzenay. Maisons vigneronnes (1 800-3 000€/m²) avec vue sur les vignes UNESCO. Microclimats chauds. Pour les amoureux du Champagne qui veulent vivre entre les rangées de Pinot Noir et recevoir leurs amis comme dans un rêve.",
+      },
+    ],
+    relatedCities: ["reims", "troyes", "epernay", "chalons-en-champagne"],
+    relatedGuides: [
+      "vivre-en-grand-est-alsace-moselle-guide-2025",
+      "quitter-paris-guide-2025",
+      "alternatives-ile-de-france-banlieue-parisienne-guide-2025",
+    ],
+    tags: ["Champagne", "Reims", "Troyes", "Épernay", "Châlons", "vins", "TGV", "patrimoine", "UNESCO"],
+  },
+  {
+    slug: "meilleures-villes-familles-budget-serre-2025",
+    title: "Meilleures villes françaises pour les familles à budget serré en 2025",
+    metaTitle: "Meilleures villes familles budget serré 2025 — Top villes abordables",
+    metaDesc: "Quelles villes françaises offrent le meilleur cadre familial avec un budget limité ? Écoles, sécurité, espace, activités : notre top 10 des villes abordables pour les familles en 2025.",
+    category: "famille",
+    emoji: "👨‍👩‍👧",
+    readMinutes: 9,
+    publishedAt: "2025-03-30",
+    updatedAt: "2025-03-30",
+    intro: "Pas besoin de dépenser une fortune pour offrir à sa famille une bonne vie. Ces villes françaises combinent logements spacieux, bonnes écoles, sécurité et nature — à des prix que les familles ordinaires peuvent se permettre.",
+    sections: [
+      {
+        heading: "Le critère clé : surface habitable par euro dépensé",
+        body: "Pour les familles avec enfants, la surface est fondamentale. Comparons : un T4 de 90m² coûte 450 000€ à Nantes, 280 000€ à Angers, 180 000€ à Vendôme, 120 000€ à Vierzon. Soit 4x moins cher qu'à Nantes pour le même espace. Si vous travaillez en remote 5 jours/5, Vierzon offre une maison individuelle avec jardin au prix d'un appartement en banlieue parisienne. Le calcul change tout.",
+      },
+      {
+        heading: "Top 5 villes sécurisées et abordables pour les familles",
+        body: "1. Vendôme (41) — TGV Paris 45 min, 1 500€/m², bonnes écoles. 2. Moulins (03) — 1 300€/m², centre France, services complets. 3. Tulle (19) — 1 400€/m², zéro délinquance, Corrèze verte. 4. Pontarlier (25) — 2 400€/m², montagne, Jura, sécurité maximale. 5. Fontenay-le-Comte (85) — 1 700€/m², Vendée, Marais Poitevin.",
+      },
+      {
+        heading: "Quels critères pour les familles ?",
+        body: "Au-delà du prix, les familles doivent vérifier : qualité des écoles primaires et collèges (vérifier sur l'annuaire Éducation nationale), temps de trajet domicile-école, présence d'une pédiatre et d'un cabinet médical, activités périscolaires (piscine, conservatoire, clubs sportifs), et sécurité (taux de délinquance sur data.gouv.fr). Ces villes cochent toutes les cases — avec en bonus un coût de vie 30 à 50% inférieur aux métropoles.",
+      },
+      {
+        heading: "Le piège des villes 'pas chères' sans services",
+        body: "Attention aux villes ultra-abordables mais sans écoles correctes ni médecins ni emploi local. Certaines villes rurales < 5 000 habitants affichent des prix à 500€/m² mais n'ont ni collège ni pédiatre ni pharmacie. Le bon équilibre se trouve entre 8 000 et 25 000 habitants : assez grand pour avoir tous les services, assez petit pour être à l'échelle humaine. Nos villes recommandées respectent ce critère.",
+      },
+      {
+        heading: "Le cas des familles monoparentales : transport et garde",
+        body: "Les familles monoparentales ont des contraintes supplémentaires : crèches et modes de garde disponibles, transport pour les enfants, réseau d'entraide local. Les villes préfectures (même petites) ont généralement plus de ressources associatives et de services sociaux. Niort, Tulle, Saint-Lô, Laval sont des préfectures avec de bons réseaux de soutien aux familles à budget serré.",
+      },
+    ],
+    relatedCities: ["vendome", "moulins", "tulle", "pontarlier", "fontenay-le-comte"],
+    relatedGuides: [
+      "meilleures-villes-familles-ecoles-securite-france-2025",
+      "meilleure-ville-famille-france",
+      "meilleures-villes-retraites-budget-moins-1500-euros-2025",
+    ],
+    tags: ["famille", "budget", "abordable", "écoles", "sécurité", "espace", "enfants", "monoparental", "maison"],
+  },
 ];
 
 export const GUIDE_CATEGORIES = [
