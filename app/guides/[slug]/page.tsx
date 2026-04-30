@@ -48,6 +48,7 @@ export default async function GuidePage({ params }: Props) {
     headline: guide.title,
     description: guide.intro,
     url: `${baseUrl}/guides/${guide.slug}`,
+    datePublished: guide.publishedAt,
     dateModified: guide.updatedAt,
     author: { "@type": "Organization", name: "MeilleurVille" },
     publisher: {
@@ -206,21 +207,30 @@ export default async function GuidePage({ params }: Props) {
               </div>
             )}
 
-            {/* Comparator CTA */}
-            <div className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-5">
-              <p className="text-xs uppercase tracking-widest text-[var(--text-tertiary)] font-semibold mb-2">
-                Comparer ces villes
-              </p>
-              <p className="text-xs text-[var(--text-secondary)] mb-3">
-                Analysez les critères côte à côte avec notre comparateur.
-              </p>
-              <Link
-                href="/comparer"
-                className="block text-center text-xs font-semibold text-[var(--accent)] border border-[var(--accent)]/30 rounded-lg py-2 hover:bg-[var(--accent)]/5 transition-colors"
-              >
-                Ouvrir le comparateur →
-              </Link>
-            </div>
+            {/* Compare pairs between related cities */}
+            {relatedCities.length >= 2 && (
+              <div className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-5">
+                <p className="text-xs uppercase tracking-widest text-[var(--text-tertiary)] font-semibold mb-3">
+                  Comparer ces villes
+                </p>
+                <div className="space-y-2">
+                  {relatedCities.slice(0, 4).flatMap((cityA, i) =>
+                    relatedCities.slice(i + 1, i + 3).map((cityB) => (
+                      <Link
+                        key={`${cityA.slug}-vs-${cityB.slug}`}
+                        href={`/comparer/${cityA.slug}-vs-${cityB.slug}`}
+                        className="flex items-center justify-between group rounded-lg hover:bg-[var(--bg-elevated)] px-2 py-1.5 transition-colors"
+                      >
+                        <span className="text-xs text-[var(--text-secondary)] group-hover:text-[var(--text-primary)] transition-colors">
+                          {cityA.name} vs {cityB.name}
+                        </span>
+                        <span className="text-xs text-[var(--accent)]">→</span>
+                      </Link>
+                    ))
+                  )}
+                </div>
+              </div>
+            )}
 
             {/* Related guides */}
             {relatedGuides.length > 0 && (
