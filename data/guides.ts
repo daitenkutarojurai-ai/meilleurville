@@ -3250,6 +3250,231 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["Pyrénées", "Pau", "Bayonne", "Tarbes", "Foix", "piémont", "montagne", "mer"],
   },
+  {
+    slug: "meilleures-villes-rse-developpement-durable-france-2025",
+    title: "Meilleures villes françaises pour les profils RSE et développement durable 2025",
+    emoji: "🌱",
+    category: "lifestyle",
+    metaTitle: "Villes France RSE développement durable 2025 — classement | MeilleurVille",
+    metaDesc: "Quelles villes françaises sont les plus engagées pour le développement durable en 2025 ? Grenoble, Nantes, Rennes, Strasbourg… Notre classement pour les profils RSE et éco-responsables.",
+    intro: "Les profils sensibles à l'écologie, au développement durable et à la responsabilité sociale d'entreprise (RSE) ont des critères de choix résidentiel très spécifiques : mobilité douce, commerces éthiques et locaux, végétalisation urbaine, gouvernance locale engagée, et présence d'une communauté d'entrepreneurs sociaux et d'associations. Ce guide classe les villes les plus alignées avec ces valeurs.",
+    readMinutes: 8,
+    publishedAt: "2026-04-30",
+    updatedAt: "2026-04-30",
+    sections: [
+      {
+        heading: "Les critères d'une ville « durable » en 2025",
+        body: "Une ville durable pour un habitant (pas seulement pour un classement) se définit par : des transports en commun ou pistes cyclables qui permettent de se passer de voiture, des marchés paysans, épiceries en vrac et circuits courts accessibles, une végétalisation urbaine significative (parcs, jardins partagés), une politique locale engagée (PCAET, Plan Vélo, neutralité carbone), et une communauté active d'associations, coopératives et entreprises à mission. Ces éléments sont vérifiables — ce ne sont pas que des slogans de communication.",
+      },
+      {
+        heading: "Grenoble : la pionnière et son écosystème",
+        body: "Grenoble est régulièrement classée première ville française pour son engagement écologique concret : 1er plan vélo métropolitain de France (300 km de pistes), candidature ZFE (Zone à Faibles Émissions) avancée, programme de végétalisation urbaine, nombreuses épiceries en vrac et coopératives alimentaires, université avec labo RSE actif, forte densité d'associations environnementales. La ville a des défauts (pollution hivernale par inversion thermique) mais aucune autre ville française n'a autant institutionnalisé l'approche durable depuis aussi longtemps.",
+      },
+      {
+        heading: "Nantes et Rennes : les métropoles à mission",
+        body: "Nantes s'est distinguée par son plan de végétalisation urbain (Nantes en Commun), son réseau de jardins partagés (160+), son marché de la Beaujoire bio et local, et sa scène de startups à mission (B-Corp, entreprises sociales). Rennes a investi massivement dans le vélo (réseau Star Express), les circuits courts et la commande publique locale. Les deux villes ont des labos d'innovation sociale actifs et une scène RSE corporative dense (grandes entreprises agroalimentaires bretonnes en transition).",
+      },
+      {
+        heading: "Strasbourg et Bordeaux : l'engagement par les mobilités",
+        body: "Strasbourg est la capitale française du vélo : 650 km de pistes cyclables pour 280 000 habitants, soit un réseau plus dense que toute autre ville française. 15% des déplacements se font à vélo (record national). Son marché de Noël bio et artisanal, ses fermes urbaines en périphérie (Terreau Libre), et ses associations éco-citoyennes très actives complètent ce tableau. Bordeaux : programme REV (Réseau Express Vélo), Fort du Hâ transformé en jardin partagé, marché des Capucins bio, nombreuses AMAP et coopératives alimentaires.",
+      },
+      {
+        heading: "Les villes surprises : Lons-le-Saunier, Valence, Montpellier",
+        body: "Des villes moins connues surprennent par leur engagement. Lons-le-Saunier (Jura) : ville pionnière du « zéro déchet » municipal (moins de 200kg/habitant/an). Valence (Drôme) : transition agro-écologique intense, réseau d'AMAP dense, Ferme Urbaine de Valence active. Montpellier : plan arbres ambitieux (10 000 arbres en 5 ans), vélos électriques subventionnés, marché du Lez bio quotidien. Ces villes prouvent qu'il ne faut pas être grande pour être durable.",
+      },
+      {
+        heading: "Comment évaluer concrètement une ville avant de s'y installer",
+        body: "Critères concrets à vérifier : 1. Score réseau vélo (Strava Global Heatmap ou baromètre FUB) ; 2. Nombre d'AMAP (Association pour le Maintien de l'Agriculture Paysanne) dans un rayon de 10 km ; 3. Label « Territoire Engagé Transition Écologique » (marque ADEME) ; 4. Présence d'un repair café ou recyclerie active ; 5. Score air (Indice ATMO) ; 6. Présence de jardins partagés (base Open Data Jardins). Ces indicateurs sont tous publics et permettent une comparaison objective entre villes au-delà des communications municipales.",
+      },
+    ],
+    relatedCities: ["grenoble", "nantes", "rennes", "strasbourg", "bordeaux", "montpellier"],
+    relatedGuides: [
+      "vivre-sans-voiture-france-guide-2025",
+      "meilleures-villes-qualite-air-nature-france-2025",
+      "petites-villes-qualite-de-vie-france-2025",
+    ],
+    tags: ["RSE", "développement durable", "écologie", "Grenoble", "Nantes", "vélo", "transition", "zéro déchet"],
+  },
+  {
+    slug: "vivre-dans-le-var-guide-2025",
+    title: "Vivre dans le Var en 2025 — Toulon, Saint-Raphaël, Hyères, Sanary : le guide complet",
+    emoji: "🌅",
+    category: "region",
+    metaTitle: "Vivre dans le Var 2025 — guide complet | MeilleurVille",
+    metaDesc: "Toulon, Hyères, Saint-Raphaël, Sanary-sur-Mer, Fréjus, Draguignan… Notre guide pour s'installer dans le Var en 2025 : prix, qualité de vie, transports et meilleures villes.",
+    intro: "Le Var est le département provençal le plus accessible de la Côte d'Azur. Entre Marseille et Nice, il offre un cadre méditerranéen exceptionnel (soleil, mer, Estérel, îles d'Hyères) avec des prix inférieurs de 20-40% aux Alpes-Maritimes voisines. Ce guide couvre les principales villes du Var pour vous aider à trouver votre coin de Provence.",
+    readMinutes: 8,
+    publishedAt: "2026-04-30",
+    updatedAt: "2026-04-30",
+    sections: [
+      {
+        heading: "Pourquoi le Var ?",
+        body: "Le Var cumule les atouts : 2 850h de soleil par an, Méditerranée, massif de l'Estérel (roches porphyriques rouges spectaculaires), îles d'Hyères (Porquerolles, Port-Cros, Le Levant), et des prix significativement inférieurs aux Alpes-Maritimes (Nice, Cannes, Antibes). Une maison de 100m² avec jardin coûte 250 000-350 000€ à Toulon ou Hyères contre 500 000-700 000€ dans les Alpes-Maritimes. La TGV dessert Toulon depuis Paris (3h45) et Saint-Raphaël (4h10).",
+      },
+      {
+        heading: "Toulon : la métropole varoise sous-estimée",
+        body: "Toulon (174 000 hab) est la grande ville du Var, souvent sous-estimée dans les classements nationaux mais en profonde transformation. La rade de Toulon est l'une des plus belles de Méditerranée. L'hypercentre rénové (Cours Lafayette et son marché provençal quotidien, Opéra de Toulon), le mont Faron accessible par téléphérique, et la plage du Mourillon à 2 km du centre constituent un cadre de vie très agréable. Prix : 2 500-3 200€/m², soit 40% moins cher que Nice.",
+      },
+      {
+        heading: "Hyères : les îles d'Or à la porte",
+        body: "Hyères (55 000 hab) est le paradis secret de la côte varoise : ferrys quotidiens vers Porquerolles (la plus belle île de France selon beaucoup), Port-Cros (réserve naturelle) et Le Levant. La vieille ville médiévale est moins touristique que celle de Menton ou de Grasse. La Presqu'île de Giens offre un kitesurf reconnu mondialement. Prix attractifs : 2 600-3 400€/m². Très prisé des retraités actifs et des familles cherchant un cadre nature+mer exceptionnel.",
+      },
+      {
+        heading: "Saint-Raphaël et l'Estérel",
+        body: "Saint-Raphaël (35 000 hab) est le portail de l'Estérel, massif aux roches rouges spectaculaires entre mer et montagne. La Corniche de l'Estérel (RN98) est l'une des plus belles routes côtières de France. TGV depuis Paris en 4h10. Le secteur de Valescure et Boulouris offrent des villas dans les pins avec accès mer direct. Prix élevés (4 500-5 500€/m²) mais justifiés par le cadre. Alternative plus abordable : Fréjus voisine (3 500-4 200€/m²) avec les arènes romaines et le musée archéologique.",
+      },
+      {
+        heading: "Sanary-sur-Mer et Bandol : les ports intimistes",
+        body: "Sanary-sur-Mer (17 000 hab) est le port méditerranéen le plus intimiste et le plus coloré de la côte varoise. Port de pêche actif, terrasses de restaurants de poissons, palmiers, façades pastel — une carte postale vivante. Aldous Huxley et Thomas Mann y ont vécu. Bandol (8 000 hab) voisine est célèbre pour son vin (l'AOC Bandol, l'un des meilleurs vins de Provence) et ses plages. Ces deux villes attirent les retraités aisés et les Parisiens en résidence secondaire.",
+      },
+      {
+        heading: "Draguignan et le Var intérieur",
+        body: "Le Var intérieur (Draguignan, Brignoles) offre un arrière-pays provençal à des prix très accessibles (2 000-2 500€/m²). Draguignan (38 000 hab) est la sous-préfecture avec un CHU de qualité, une vie culturelle active et des prix bien inférieurs au littoral. L'accès à la mer (Saint-Raphaël) est à 40 min. Pour les télétravilleurs cherchant la Provence authentique sans les foules estivales et les prix côtiers, Draguignan et la vallée de l'Argens offrent une alternative très valable.",
+      },
+    ],
+    relatedCities: ["toulon", "hyeres", "saint-raphael", "frejus", "sanary-sur-mer", "draguignan"],
+    relatedGuides: [
+      "vivre-en-provence-paca-guide-2025",
+      "cote-azur-abordable-arriere-pays-paca-2025",
+      "meilleures-villes-seniors-actifs-france-2025",
+    ],
+    tags: ["Var", "Toulon", "Hyères", "Saint-Raphaël", "Sanary-sur-Mer", "Estérel", "Provence", "Méditerranée"],
+  },
+  {
+    slug: "vivre-morbihan-bretagne-sud-guide-2025",
+    title: "Vivre dans le Morbihan et la Bretagne Sud 2025 — Vannes, Lorient, Golfe du Morbihan",
+    emoji: "⛵",
+    category: "region",
+    metaTitle: "Vivre Morbihan Bretagne Sud 2025 — guide complet | MeilleurVille",
+    metaDesc: "Vannes, Lorient, Auray, Quiberon, Belle-Île… Notre guide pour s'installer dans le Morbihan et la Bretagne Sud en 2025 : qualité de vie, golfe, prix et meilleures villes.",
+    intro: "Le Morbihan est le département breton le plus ensoleillé (1 900-2 100h/an, record pour la Bretagne) et le plus doux. Le Golfe du Morbihan — souvent surnommé « petite mer » — est l'un des sites naturels les plus extraordinaires de France avec ses dizaines d'îles. Vannes, Lorient et leurs environs attirent de plus en plus d'actifs et retraités cherchant la Bretagne sans le temps gris permanent.",
+    readMinutes: 8,
+    publishedAt: "2026-04-30",
+    updatedAt: "2026-04-30",
+    sections: [
+      {
+        heading: "Le Morbihan : la Bretagne sous le soleil",
+        body: "La réputation pluvieuse de la Bretagne ne s'applique pas complètement au Morbihan. Vannes enregistre 2 000-2 100h de soleil par an — autant que Bordeaux et nettement plus que Rennes (1 850h) ou Brest (1 680h). L'effet combiné du Gulf Stream atlantique et de la position du Golfe crée un microclimat doux : palmiers et hortensias géants poussent naturellement. Les étés y sont ensoleillés et l'hiver rarement rigoureux (gel rare).",
+      },
+      {
+        heading: "Vannes : la perle du Golfe",
+        body: "Vannes (50 000 hab) est la ville la mieux équilibrée du Morbihan : centre médiéval exceptionnel (remparts, cathédrale Saint-Pierre, quartier des lavandières), cadre du Golfe du Morbihan à 3 km, vie universitaire et culturelle active, commerces denses. TGV Paris-Vannes 2h30. Prix 3 200-4 000€/m², loyer T2 750-900€. Classée régulièrement parmi les meilleures villes de France pour la qualité de vie, Vannes attire retraités, familles et télétravailleurs en forte croissance.",
+      },
+      {
+        heading: "Lorient : la ville du renouveau",
+        body: "Lorient (55 000 hab) a été détruite à 90% pendant la 2e guerre mondiale puis reconstruite en un temps record — c'est la ville la plus étendue de Bretagne en superficie. Cité internationale de la Mer, sous-marins de la base de Keroman (patrimoine unique), festival Interceltique (10 jours en août, 700 000 visiteurs — le plus grand festival breton). Prix attractifs : 2 300-3 000€/m², loyer T2 650-800€. En pleine renaissance avec de jeunes actifs attirés par les prix et la qualité de vie.",
+      },
+      {
+        heading: "Auray et le pays d'Auray : la Bretagne intimiste",
+        body: "Auray (12 000 hab) et son quartier Saint-Goustan (port médiéval sur le Loc'h) sont parmi les endroits les plus pittoresques de toute la Bretagne. La ville est la porte d'entrée de la presqu'île de Quiberon et de Belle-Île-en-Mer. Ambiance bourgeoise et culturelle, marché hebdomadaire réputé, gastronomie de qualité. Prix : 2 800-3 500€/m². Idéal pour les retraités aisés et les familles cherchant la Bretagne authentique.",
+      },
+      {
+        heading: "Quiberon et les îles : le prix du paradis",
+        body: "La presqu'île de Quiberon (5 000 hab permanents, +50 000 l'été) et Belle-Île-en-Mer sont des destinations d'exception mais avec des prix qui ont explosé post-Covid. Quiberon : 5 000-7 000€/m² (plus cher que Vannes). Belle-Île : difficilement accessible pour une résidence principale (ferry obligatoire, 45 min). Carnac (5 000 hab, menhirs célèbres) est une meilleure option à prix encore raisonnables (2 500-3 200€/m²). L'espace naturel y est plus accessible et l'été moins chargé qu'à Quiberon.",
+      },
+      {
+        heading: "Vivre dans le Morbihan : avantages et points de vigilance",
+        body: "Avantages uniques : ensoleillement record pour la Bretagne, Golfe du Morbihan (navigation, kayak, birdwatching sur site Ramsar), culture bretonne vivante, prix inférieurs au littoral atlantique hors Bretagne, qualité médicale correcte (CHU Lorient). Points de vigilance : forte saisonnalité touristique (certains services ferment l'hiver), marché de l'emploi moins dense hors tourisme/agroalimentaire, trafic intense l'été sur les routes littorales, prix montant rapidement dans les communes touristiques. Recommandation : privilégier Vannes ou Lorient pour un mode de vie urbain, le pays d'Auray pour la tranquillité.",
+      },
+    ],
+    relatedCities: ["vannes", "lorient", "quimper", "saint-malo", "rennes"],
+    relatedGuides: [
+      "vivre-en-bretagne-guide-2025",
+      "teletravail-bretagne-guide",
+      "meilleures-villes-qualite-air-nature-france-2025",
+    ],
+    tags: ["Morbihan", "Vannes", "Lorient", "Golfe du Morbihan", "Bretagne Sud", "mer", "ensoleillement"],
+  },
+  {
+    slug: "meilleures-villes-outdoor-sport-nature-france-2025",
+    title: "Meilleures villes françaises pour les sportifs et amateurs d'outdoor 2025",
+    emoji: "🏔️",
+    category: "lifestyle",
+    metaTitle: "Meilleures villes outdoor et sport nature France 2025 | MeilleurVille",
+    metaDesc: "Randonnée, surf, ski, trail, vélo, escalade… Quelles villes françaises offrent le meilleur accès aux sports outdoor en 2025 ? Notre classement des villes les plus sportives.",
+    intro: "En France, la géographie conditionne directement l'accès aux sports outdoor. Certaines villes permettent d'être sur les pistes de ski, en kayak sur une rivière de montagne, ou dans les vagues en moins de 30 min. Ce guide classe les villes en fonction de la densité et de la diversité des pratiques sportives accessibles depuis le domicile.",
+    readMinutes: 8,
+    publishedAt: "2026-04-30",
+    updatedAt: "2026-04-30",
+    sections: [
+      {
+        heading: "Les critères outdoor : plus que juste la montagne",
+        body: "Un profil outdoor n'est pas nécessairement un alpiniste ou un skieur. L'outdoor 2025 inclut : trail et randonnée (accès depuis la ville à des sentiers en moins de 20 min), surf et bodyboard (Atlantique, Méditerranée), vélo de route et VTT (réseau cyclable et relief accessibles), escalade (falaises naturelles ou salles spécialisées), kayak et eau vive (rivières, lacs, mer), et ski alpin/fond pour les profils montagne. Notre classement composite les intègre tous.",
+      },
+      {
+        heading: "Le top trail et randonnée : Chamonix, Grenoble, Nice",
+        body: "Chamonix (9 000 hab) est la capitale mondiale de l'outdoor alpin : ultra-trails, alpinisme, ski de rando, via ferrata, trail — tout part du centre-ville. Mais Chamonix est surtout une résidence secondaire de luxe (8 000-12 000€/m²). Grenoble (160 000 hab) offre le même accès aux Alpes mais à des prix 3x inférieurs (2 500-3 200€/m²) — Vercors à 30 min, Chartreuse à 20 min, Belledonne à 15 min depuis les quartiers est. Nice : Mercantour et Alpes-Maritimes à 1h, côte à 5 min, randonnées littorales spectaculaires.",
+      },
+      {
+        heading: "Les villes surf : Biarritz, Hossegor, Anglet",
+        body: "Pour les surfeurs, le Pays Basque et les Landes constituent le seul endroit d'Europe comparable en termes de qualité de vagues. Biarritz est la capitale du surf français (Côte des Basques, Grande Plage), mais ses prix ont explosé (6 000-8 000€/m²). Anglet, entre Biarritz et Bayonne, offre 4,5 km de plages de surf avec des prix plus accessibles (4 000-5 000€/m²). Hossegor/Capbreton dans les Landes : spot surf de réputation mondiale, VF open (plus grande compétition après Hawaii), prix plus abordables.",
+      },
+      {
+        heading: "Vélo de route et VTT : Strasbourg, La Rochelle, Rennes",
+        body: "Pour le vélo au quotidien et le cyclo-tourisme, trois villes dominent. Strasbourg : la capitale du vélo avec 650 km de pistes, réseau plat et continu. La Rochelle : île de Ré accessible à vélo (pont), réseau plat, 2e ville de France pour le vélo. Rennes : réseau vélo en fort développement, accès à la Bretagne à vélo (EuroVélo 4). Pour le VTT et trail running : Grenoble (Vercors, Chartreuse), Metz (côtes de Moselle), Nice (arrière-pays alpin). La Loire à Vélo est le plus grand réseau cyclable de France (900 km) et valorise toutes les villes ligériennes.",
+      },
+      {
+        heading: "Escalade : le paradis du calcaire français",
+        body: "La France est paradis de l'escalade avec des secteurs de renommée mondiale. Les villes permettant d'escalader à 30 min de chez soi : Montpellier (Thaurac, Saint-Guilhem-le-Désert), Marseille (calanques, Sainte-Victoire), Gap (Ceüse, l'un des meilleurs sites mondiaux), Annecy (Aravis, Bornes), Clermont-Ferrand (gorges de la Sioule). La France compte plus de 2 000 sites d'escalade naturels, mais l'accès en moins de 30 min n'est possible qu'en se plaçant stratégiquement.",
+      },
+      {
+        heading: "Notre top 8 villes outdoor composites 2025",
+        body: "En combinant trail, vélo, eau vive, surf et escalade selon leur accessibilité depuis le domicile : 1. Grenoble (trail+escalade+ski+randonnée) 2. Biarritz (surf+randonnée basque+vélo) 3. Nice (trail+mer+randonnée) 4. Strasbourg (vélo+kayak Rhin) 5. Annecy (trail+vélo+ski+escalade) 6. La Rochelle (vélo+kite+voile) 7. Montpellier (escalade+mer+trail garigue) 8. Bayonne (surf+montagne+vélo plat). Chaque profil outdoor trouvera sa ville idéale en pondérant sa pratique principale.",
+      },
+    ],
+    relatedCities: ["grenoble", "biarritz", "anglet", "annecy", "nice", "strasbourg", "la-rochelle", "montpellier"],
+    relatedGuides: [
+      "vivre-en-montagne-villes-alpes-pyrenees-france-2025",
+      "meilleures-villes-qualite-air-nature-france-2025",
+      "cote-basque-landes-vivre-atlantique-2025",
+    ],
+    tags: ["outdoor", "sport", "trail", "surf", "ski", "randonnée", "vélo", "escalade", "nature"],
+  },
+  {
+    slug: "vivre-en-savoie-haute-savoie-guide-2025",
+    title: "Vivre en Savoie et Haute-Savoie 2025 — Annecy, Chambéry, Aix-les-Bains : le guide complet",
+    emoji: "🏔️",
+    category: "region",
+    metaTitle: "Vivre Savoie et Haute-Savoie 2025 — guide complet | MeilleurVille",
+    metaDesc: "Annecy, Chambéry, Aix-les-Bains, Thonon, Annemasse… Notre guide complet pour s'installer en Savoie et Haute-Savoie en 2025 : prix, qualité de vie, ski et transports.",
+    intro: "Les deux Savoie (Savoie et Haute-Savoie) forment l'une des régions les plus attractives de France pour la qualité de vie : montagnes, lacs, gastronomie, air pur, dynamisme économique et une connexion genevoise qui offre des opportunités salariales uniques. Ce guide couvre les principales villes pour vous aider à choisir votre base dans les Alpes du Nord.",
+    readMinutes: 8,
+    publishedAt: "2026-04-30",
+    updatedAt: "2026-04-30",
+    sections: [
+      {
+        heading: "Annecy : le joyau des Alpes du Nord",
+        body: "Annecy (125 000 hab) est systématiquement classée première ou deuxième ville de France pour la qualité de vie. Le lac d'Annecy (2e lac le plus propre d'Europe selon l'OMS), les canaux du Vieux-Annecy, le château médiéval et les montagnes environnantes constituent un cadre unique en Europe. Contrepartie : prix immobiliers parmi les plus élevés hors IDF et Côte d'Azur (4 500-6 000€/m²). Économie solide : haute technologie (Dexxon, Hydronef), tourisme, gastronomie.",
+      },
+      {
+        heading: "Chambéry : l'alternative abordable",
+        body: "Chambéry (60 000 hab) est la capitale historique de la Savoie — moins connue qu'Annecy mais très appréciée de ceux qui cherchent la qualité de vie savoyarde à prix plus accessibles. Prix : 2 800-3 500€/m², soit 35-40% de moins qu'Annecy. Montagnes accessibles (Chartreuse à 20 min, Bauges à 15 min, Belledonne à 30 min), lac du Bourget à 12 km (plus grand lac naturel de France), TGV Paris-Chambéry 3h. Université Savoie Mont Blanc, vie culturelle active.",
+      },
+      {
+        heading: "Aix-les-Bains : thermes et Lac du Bourget",
+        body: "Aix-les-Bains (28 000 hab) bénéficie d'un site exceptionnel sur les rives du lac du Bourget. Ville thermale réputée (rhumatologie), infrastructure médicale et hôtelière de qualité, belle architecture Art Déco des années folles. Prix : 3 000-3 600€/m². Très prisée des retraités actifs pour son cadre, ses thermes remboursés, et son accès facile à Chambéry (15 min) et Annecy (45 min). Idéale pour les familles cherchant l'équilibre nature/services.",
+      },
+      {
+        heading: "Thonon-les-Bains et la Haute-Savoie lac Léman",
+        body: "Thonon-les-Bains (35 000 hab) est sur les rives du lac Léman, à 15 min de Genève. La vocation transfrontalière est forte : de nombreux Genevois frontaliers habitent Thonon pour des salaires suisses et des prix français. L'immobilier y est donc sous forte pression : 3 500-4 500€/m². Annemasse (35 000 hab), attenante à Genève, est encore plus directement impactée par l'économie genevoise (4 500-5 500€/m²). Ces villes sont très intéressantes pour les actifs travaillant en Suisse.",
+      },
+      {
+        heading: "L'économie transfrontalière : la variable genevoise",
+        body: "Plus de 85 000 travailleurs frontaliers français traversent quotidiennement la frontière franco-suisse pour travailler à Genève. Salaires moyens +60% par rapport aux équivalents français, avantages sociaux complets, CHF stable. En contrepartie : embouteillages aux postes frontières, vie sociale parfois difficile (collègues suisses restent côté suisse), et pression immobilière qui a fait tripler les prix dans les communes frontalières. Pour un travailleur qualifié, l'équation reste très avantageuse.",
+      },
+      {
+        heading: "Budget et conclusions : quelle Savoie pour vous ?",
+        body: "Pour un couple d'actifs avec budget moyen : Chambéry offre le meilleur rapport qualité-prix (montagne, lac, TGV, universités). Pour un retraité actif : Aix-les-Bains (thermes, lac, prix modéré, services). Pour un travailleur genevois : Thonon ou Annemasse. Pour qui veut le summum et peut se le permettre : Annecy. Pour les amateurs de sport d'hiver pur sans surpayer : vallée de Tarentaise (Moutiers, Moûtiers) ou Savoie profonde (Albertville, Bourg-Saint-Maurice) — mais marché de l'emploi local limité sans Genève ou Lyon.",
+      },
+    ],
+    relatedCities: ["annecy", "chambery", "aix-les-bains", "thonon-les-bains", "annemasse", "grenoble"],
+    relatedGuides: [
+      "vivre-en-montagne-villes-alpes-pyrenees-france-2025",
+      "vivre-en-auvergne-rhone-alpes-guide-2025",
+      "meilleures-villes-outdoor-sport-nature-france-2025",
+    ],
+    tags: ["Savoie", "Haute-Savoie", "Annecy", "Chambéry", "Aix-les-Bains", "Genève", "lac Léman", "montagne"],
+  },
 ];
 
 export const GUIDE_CATEGORIES = [
