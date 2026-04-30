@@ -1,8 +1,10 @@
 import Link from "next/link";
-import { GUIDES } from "@/data/guides";
+import { GUIDES, GUIDE_CATEGORIES } from "@/data/guides";
 
 export function GuidesTeaser() {
-  const featured = GUIDES.slice(0, 3);
+  const featured = [...GUIDES]
+    .sort((a, b) => new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime())
+    .slice(0, 3);
 
   return (
     <section className="border-t border-[var(--border)] bg-[var(--bg-surface)] py-20">
@@ -37,7 +39,7 @@ export function GuidesTeaser() {
             >
               <div className="text-3xl mb-4">{guide.emoji}</div>
               <div className="text-xs text-[var(--text-tertiary)] mb-2 font-medium uppercase tracking-wide">
-                {guide.readMinutes} min · {guide.category === "teletravail" ? "Télétravail" : guide.category === "famille" ? "Famille" : guide.category === "budget" ? "Budget" : "Style de vie"}
+                {guide.readMinutes} min · {GUIDE_CATEGORIES.find((c) => c.id === guide.category)?.label ?? guide.category}
               </div>
               <h3 className="text-base font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors leading-snug mb-3">
                 {guide.title}

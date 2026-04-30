@@ -3,9 +3,15 @@ import { QuizFlow } from "./QuizFlow";
 import { Navbar } from "@/components/Navbar";
 
 export const metadata: Metadata = {
-  title: "Quiz — Trouvez votre ville idéale",
+  title: "Quiz — Trouvez votre ville idéale en France | MeilleurVille",
   description:
-    "7 questions pour trouver la ville française qui correspond parfaitement à votre style de vie, grâce à notre IA.",
+    "Quiz de matching en 3 minutes : 7 questions pour trouver la ville française parfaite pour vous. Télétravail, famille, budget, soleil — notre IA analyse 80 villes.",
+  openGraph: {
+    title: "Quiz de matching — Trouvez votre ville idéale",
+    description: "3 minutes · 7 questions · 80 villes analysées. Quel est votre profil géographique ?",
+    type: "website",
+  },
+  twitter: { card: "summary_large_image" },
 };
 
 export default function QuizPage() {
