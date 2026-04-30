@@ -106,6 +106,7 @@ export const HOUSING: Record<string, HousingData> = {
   cahors:                   { avgRentT1: 320, avgRentT2: 440,  avgRentT3: 590,  avgBuyPriceM2: 1400 },
   cholet:                   { avgRentT1: 440, avgRentT2: 600,  avgRentT3: 800,  avgBuyPriceM2: 1900 },
   draguignan:               { avgRentT1: 520, avgRentT2: 720,  avgRentT3: 960,  avgBuyPriceM2: 2800 },
+  "chalon-sur-saone":       { avgRentT1: 400, avgRentT2: 550,  avgRentT3: 740,  avgBuyPriceM2: 1700 },
 };
 
 export function getHousing(slug: string): HousingData | undefined {

@@ -2893,6 +2893,38 @@ export const NEIGHBORHOODS: CityNeighborhoods[] = [
     ],
   },
   {
+    citySlug: "chalon-sur-saone",
+    neighborhoods: [
+      {
+        slug: "centre-chalon",
+        name: "Centre-ville",
+        type: "centre-ville",
+        scores: { global: 7.2, safety: 7.0, transport: 8.0, nature: 7.5, cost: 8.0, nightlife: 7.0 },
+        avgRentT2: 560,
+        tags: ["centre", "Saône", "marché", "animé", "patrimoine"],
+        summary: "Centre historique de Chalon avec le musée Nicéphore-Niépce (inventeur de la photographie), les quais de la Saône et un marché animé. Bonne desserte ferroviaire. Ville agréable à vivre avec des commerces variés et une vie culturelle active.",
+      },
+      {
+        slug: "saint-jean-des-vignes-chalon",
+        name: "Saint-Jean-des-Vignes",
+        type: "résidentiel",
+        scores: { global: 7.0, safety: 8.0, transport: 6.5, nature: 8.5, cost: 8.5, nightlife: 4.0 },
+        avgRentT2: 520,
+        tags: ["résidentiel", "vignobles", "calme", "familles", "maisons"],
+        summary: "Secteur résidentiel entre Chalon et le vignoble bourguignon. Maisons avec jardins à des prix très accessibles. Cadre verdoyant avec vues sur le vignoble de la Côte Chalonnaise. Idéal pour les familles cherchant espace et nature.",
+      },
+      {
+        slug: "saone-chalon",
+        name: "Bords de Saône",
+        type: "résidentiel",
+        scores: { global: 7.5, safety: 7.5, transport: 7.0, nature: 9.0, cost: 8.0, nightlife: 5.0 },
+        avgRentT2: 540,
+        tags: ["bord-de-Saône", "promenades", "verdoyant", "calme", "vélo"],
+        summary: "Secteur longeant les rives de la Saône avec promenades aménagées et pistes cyclables. Cadre naturel exceptionnel avec îles et bras d'eau. Très prisé des familles actives et des amateurs de nature urbaine. Excellent rapport qualité/prix.",
+      },
+    ],
+  },
+  {
     citySlug: "cholet",
     neighborhoods: [
       {

@@ -160,6 +160,8 @@ const SEO_PAIRS = [
   ["saintes", "angouleme"],
   ["blois", "tours"],
   ["blois", "orleans"],
+  ["chalon-sur-saone", "dijon"],
+  ["chalon-sur-saone", "macon"],
   ["cholet", "nantes"],
   ["cholet", "angers"],
   ["draguignan", "nice"],
