@@ -7,7 +7,7 @@ import { VillesSearch } from "@/components/VillesSearch";
 export const metadata: Metadata = {
   title: "Explorer toutes les villes françaises — Avis & Classements",
   description:
-    "Découvrez les meilleures villes françaises : avis d'habitants, scores de qualité de vie, données locales. 262 communes analysées et comparées.",
+    "Découvrez les meilleures villes françaises : avis d'habitants, scores de qualité de vie, données locales. 268 communes analysées et comparées.",
 };
 
 export default function VillesPage() {
@@ -17,7 +17,7 @@ export default function VillesPage() {
 
       <section className="bg-[var(--bg-surface)] py-14 border-b border-[var(--border)]">
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
-          <Badge variant="accent" className="mb-3">262 villes</Badge>
+          <Badge variant="accent" className="mb-3">268 villes</Badge>
           <h1 className="text-4xl font-bold text-[var(--text-primary)] mb-3">
             Explorer les villes françaises
           </h1>

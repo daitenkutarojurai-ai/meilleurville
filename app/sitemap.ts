@@ -466,6 +466,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ["langres", "dijon"],
     ["guingamp", "saint-brieuc"],
     ["guingamp", "morlaix"],
+    ["flers", "alencon"],
+    ["flers", "caen"],
+    ["la-fleche", "le-mans"],
+    ["la-fleche", "angers"],
+    ["cosne-cours-sur-loire", "nevers"],
+    ["cosne-cours-sur-loire", "auxerre"],
+    ["sens", "auxerre"],
+    ["condom", "auch"],
+    ["moissac", "montauban"],
+    ["moissac", "agen"],
   ];
 
   const staticRoutes: MetadataRoute.Sitemap = [
