@@ -55,6 +55,65 @@ export default function HomePage() {
       <ProfileQuickAccess />
       <GuidesTeaser />
 
+      {/* Hidden gems section */}
+      {(() => {
+        const top10Slugs = new Set(
+          [...CITIES_SEED].sort((a, b) => b.scores.global - a.scores.global).slice(0, 10).map((c) => c.slug)
+        );
+        const gems = CITIES_SEED
+          .filter((c) => !top10Slugs.has(c.slug) && c.scores.global >= 7.0 && c.scores.cost >= 7.5 && c.population < 100000)
+          .sort((a, b) => (b.scores.global + b.scores.cost) - (a.scores.global + a.scores.cost))
+          .slice(0, 6);
+        return (
+          <section className="py-16 border-t border-[var(--border)]">
+            <div className="mx-auto max-w-7xl px-4 sm:px-6">
+              <div className="flex items-end justify-between mb-8">
+                <div>
+                  <p className="text-xs uppercase tracking-widest text-[var(--accent)] font-semibold mb-2">
+                    💎 Pépites méconnues
+                  </p>
+                  <h2 className="text-2xl font-bold text-[var(--text-primary)]">
+                    Qualité de vie · Prix accessibles
+                  </h2>
+                  <p className="text-sm text-[var(--text-secondary)] mt-1">
+                    Ces villes ont d&apos;excellents scores mais restent sous le radar
+                  </p>
+                </div>
+                <Link href="/classements/budget" className="hidden sm:flex items-center gap-1 text-sm font-medium text-[var(--accent)] hover:underline">
+                  Classement budget →
+                </Link>
+              </div>
+              <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+                {gems.map((city) => (
+                  <Link
+                    key={city.slug}
+                    href={`/villes/${city.slug}`}
+                    className="group flex items-center gap-4 rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-4 py-3"
+                  >
+                    <div className="flex-1 min-w-0">
+                      <p className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
+                        {city.name}
+                      </p>
+                      <p className="text-xs text-[var(--text-secondary)] mt-0.5 truncate">
+                        {city.department}, {city.region}
+                      </p>
+                    </div>
+                    <div className="text-right flex-shrink-0">
+                      <div className="text-sm font-bold font-mono-data text-[var(--accent)]">
+                        {city.scores.global.toFixed(1)}
+                      </div>
+                      <div className="text-xs text-emerald-500 font-medium mt-0.5">
+                        coût {city.scores.cost.toFixed(1)}
+                      </div>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </section>
+        );
+      })()}
+
       {/* Trending comparisons */}
       <section className="py-14 border-t border-[var(--border)] bg-[var(--bg-surface)]">
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
