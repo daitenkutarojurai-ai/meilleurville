@@ -202,6 +202,17 @@ const SEO_PAIRS = [
   ["aurillac", "clermont-ferrand"],
   ["chatellerault", "poitiers"],
   ["chatellerault", "tours"],
+  ["annemasse", "annecy"],
+  ["annemasse", "thonon-les-bains"],
+  ["compiegne", "amiens"],
+  ["beauvais", "amiens"],
+  ["beauvais", "rouen"],
+  ["narbonne", "montpellier"],
+  ["narbonne", "perpignan"],
+  ["saint-quentin", "amiens"],
+  ["saint-quentin", "reims"],
+  ["selestat", "strasbourg"],
+  ["selestat", "colmar"],
 ];
 
 export function generateStaticParams() {

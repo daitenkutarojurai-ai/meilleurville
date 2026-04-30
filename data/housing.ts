@@ -125,6 +125,12 @@ export const HOUSING: Record<string, HousingData> = {
   montbeliard:              { avgRentT1: 390, avgRentT2: 540,  avgRentT3: 720,  avgBuyPriceM2: 1700 },
   aurillac:                 { avgRentT1: 310, avgRentT2: 420,  avgRentT3: 560,  avgBuyPriceM2: 1200 },
   chatellerault:            { avgRentT1: 350, avgRentT2: 480,  avgRentT3: 640,  avgBuyPriceM2: 1500 },
+  annemasse:                { avgRentT1: 720, avgRentT2: 1000, avgRentT3: 1350, avgBuyPriceM2: 4800 },
+  compiegne:                { avgRentT1: 530, avgRentT2: 730,  avgRentT3: 980,  avgBuyPriceM2: 2700 },
+  beauvais:                 { avgRentT1: 470, avgRentT2: 650,  avgRentT3: 870,  avgBuyPriceM2: 2200 },
+  narbonne:                 { avgRentT1: 490, avgRentT2: 680,  avgRentT3: 920,  avgBuyPriceM2: 2400 },
+  "saint-quentin":          { avgRentT1: 350, avgRentT2: 480,  avgRentT3: 650,  avgBuyPriceM2: 1500 },
+  selestat:                 { avgRentT1: 540, avgRentT2: 750,  avgRentT3: 1000, avgBuyPriceM2: 3200 },
 };
 
 export function getHousing(slug: string): HousingData | undefined {
