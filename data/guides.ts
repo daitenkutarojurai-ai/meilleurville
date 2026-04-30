@@ -4648,6 +4648,162 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["emploi", "industrie", "plasturgie", "décolletage", "coutellerie", "Oyonnax", "Cluses", "Thiers", "hors-métropoles", "reconversion"],
   },
+  {
+    slug: "vivre-en-sarthe-maine-guide-2025",
+    title: "Vivre en Sarthe et dans le Maine en 2025 : nature, patrimoine et douceur angevine",
+    metaTitle: "Vivre en Sarthe 2025 — Guide complet | MeilleurVille",
+    metaDesc: "La Flèche, Le Mans, Sablé-sur-Sarthe, Mamers : s'installer en Sarthe en 2025. Patrimoine, nature et vie de qualité à prix accessibles. Guide complet.",
+    category: "region",
+    emoji: "🏎️",
+    readMinutes: 9,
+    publishedAt: "2026-01-01",
+    updatedAt: "2026-04-01",
+    intro: "La Sarthe est le département du Mans 24 Heures, de la douceur du Maine et des bords de Loire. Moins connue que ses voisines ligériennes (Anjou, Touraine), elle offre un compromis remarquable : qualité de vie élevée, patrimoine exceptionnel, nature préservée, et des prix immobiliers qui font pâlir les Parisiens en quête de résidence principale.",
+    sections: [
+      {
+        heading: "Le Mans : la métropole méconnue",
+        body: "Le Mans est systématiquement sous-estimée. Ses 140 000 habitants bénéficient d'une desserte TGV remarquable (Paris-Montparnasse en 55 min), d'une vie culturelle dense (Musée de l'Automobile, Cité Plantagenêt), et d'une scène gastronomique qui s'éveille. Prix médian : 1 800-2 400€/m² — soit 2 fois moins qu'à Tours et 3 fois moins qu'à Paris. La capitale sarthoise est une vraie opportunité pour les Parisiens qui travaillent dans le 15ème.",
+      },
+      {
+        heading: "La Flèche : zoo, Prytanée et bords du Loir",
+        body: "La Flèche est l'une des plus jolies petites villes de France : son Prytanée National Militaire (école royale fondée par Henri IV), son zoo national, ses quais du Loir et son marché animé en font une destination très prisée des familles. Prix entre 1 200 et 1 700€/m². À 45 min d'Angers et 50 min du Mans, c'est une base idéale pour les télétravailleurs qui veulent le charme de province sans l'isolement.",
+      },
+      {
+        heading: "Sablé-sur-Sarthe : abbaye, silence et Loire proche",
+        body: "Sablé est la ville sarthoise la plus apaisante. Son château, ses abbayes (Solesmes — les chants grégoriens !), ses bords de Sarthe et la douceur de son marché font de cette sous-préfecture un havre. À 30 km d'Angers, connectée par TER. Prix très accessibles (1 000-1 500€/m²). Pour les retraités et télétravailleurs cherchant le calme total avec la culture à portée.",
+      },
+      {
+        heading: "Le patrimoine naturel sarthois : forêts et bocage",
+        body: "La Sarthe est traversée par la forêt de Perseigne (5 000 ha) et la forêt de Bercé (chênes séculaires classés), deux des plus belles de France. Le bocage sarthois dans le nord du département offre des paysages de haies et de vergers dignes du bocage normand. Bons réseaux de VTT et de randonnée. Pour les familles et retraités sportifs, c'est un terrain de jeu exceptionnel.",
+      },
+    ],
+    relatedCities: ["le-mans", "la-fleche"],
+    relatedGuides: [
+      "vivre-en-pays-de-la-loire-guide-2025",
+      "vivre-en-touraine-guide-2025",
+      "meilleures-villes-familles-budget-serre-2025",
+    ],
+    tags: ["Sarthe", "Le Mans", "La Flèche", "Maine", "patrimoine", "nature", "abordable", "famille", "TGV", "Pays de la Loire"],
+  },
+  {
+    slug: "vivre-en-gascogne-gers-guide-2025",
+    title: "Vivre dans le Gers et en Gascogne en 2025 : soleil, armagnac et bien-être",
+    metaTitle: "Vivre dans le Gers 2025 — Guide Gascogne | MeilleurVille",
+    metaDesc: "Auch, Condom, Lectoure, Fleurance : s'installer dans le Gers et la Gascogne en 2025. Soleil, gastronomie et qualité de vie à prix doux. Guide complet.",
+    category: "region",
+    emoji: "🦆",
+    readMinutes: 9,
+    publishedAt: "2026-01-15",
+    updatedAt: "2026-04-01",
+    intro: "Le Gers est le département où la France sait encore prendre le temps. Foie gras, armagnac, marchés au gras, collines de Gascogne : ici, la douceur de vivre n'est pas un slogan marketing mais un mode de vie quotidien. Avec des prix immobiliers parmi les plus bas du Midi et plus de 2 000 heures de soleil par an, le Gers s'impose comme une alternative sérieuse pour toute personne cherchant à décélérer.",
+    sections: [
+      {
+        heading: "Auch : la capitale gasconne qui monte",
+        body: "Auch, préfecture du Gers, est une ville de taille humaine (22 000 habitants) avec une vie culturelle plus dense qu'il n'y paraît. Sa cathédrale gothique et ses stalles en bois sculpté sont d'une qualité muséale. Le marché du jeudi est l'un des plus vivants du Midi. Bonne desserte vers Toulouse (1h). Prix : 1 500-2 000€/m². Idéale pour les retraités qui cherchent le Midi à prix de Normandie.",
+      },
+      {
+        heading: "Condom : armagnac et chemin de pèlerinage",
+        body: "Condom est la ville de l'armagnac — la plus ancienne eau-de-vie de France. Ses chais, ses producteurs, sa cathédrale et ses hôtels particuliers du XVIIe siècle en font l'une des belles sous-préfectures du Midi. Étape du Chemin de Compostelle (GR65), elle accueille des pèlerins du monde entier. Prix entre 1 000 et 1 500€/m². Une destination de retraite gastronomique à prix plancher.",
+      },
+      {
+        heading: "Lectoure : la colline des panoramas",
+        body: "Lectoure est perchée sur une colline avec une vue à 360° sur les collines de Gascogne et les Pyrénées par temps clair. Thermes, musée gallo-romain, festival Jazz in Marciac à 25 km. Classée Détour de France. Prix entre 900 et 1 400€/m². Pour les amoureux de silence, de panoramas, et de gastronomie qui veulent fuir la côte et ses foules.",
+      },
+      {
+        heading: "La vie quotidienne dans le Gers : avantages et réalités",
+        body: "La réalité du Gers, c'est la voiture obligatoire : les transports en commun sont quasi inexistants. Mais c'est aussi : 30 minutes max de trajet pour aller partout dans le département, des marchés hebdomadaires de qualité exceptionnelle, des festivals d'été (Jazz in Marciac, Simples), une communauté d'expats et de Parisiens installés qui transforme le territoire. La fibre arrive progressivement. Idéal pour le télétravail avec un bon routeur 4G en attendant.",
+      },
+    ],
+    relatedCities: ["auch", "condom"],
+    relatedGuides: [
+      "vivre-en-occitanie-guide-2025",
+      "vivre-en-dordogne-quercy-perigord-guide-2025",
+      "retraite-soleil-meilleures-villes-france-2025",
+    ],
+    tags: ["Gers", "Gascogne", "Auch", "Condom", "armagnac", "foie gras", "soleil", "retraite", "gastronomie", "abordable"],
+  },
+  {
+    slug: "meilleures-villes-maison-jardin-moins-200000-euros-2025",
+    title: "Acheter une maison avec jardin à moins de 200 000€ en France : le guide 2025",
+    metaTitle: "Maison jardin moins 200 000€ France 2025 — Meilleures villes | MeilleurVille",
+    metaDesc: "Dans quelles villes françaises peut-on encore acheter une maison avec jardin à moins de 200 000€ ? Guide 2025 avec les meilleures destinations budget.",
+    category: "budget",
+    emoji: "🏡",
+    readMinutes: 10,
+    publishedAt: "2026-02-01",
+    updatedAt: "2026-04-15",
+    intro: "200 000€ pour une maison avec jardin en France : utopie en Île-de-France et PACA, réalité dans une trentaine de départements. Ce guide identifie les villes françaises où ce budget permet d'accéder à un pavillon fonctionnel, un jardin de 200 à 500 m², des services de proximité, et une qualité de vie correcte — sans se sacrifier à l'isolement rural total.",
+    sections: [
+      {
+        heading: "Les départements sous les 1 500€/m² pour les maisons",
+        body: "La liste des départements où le prix médian des maisons est inférieur à 1 500€/m² est plus longue qu'on ne le croit : Creuse (800-1 100€/m²), Cantal (900-1 300€/m²), Haute-Marne (800-1 200€/m²), Meuse (900-1 300€/m²), Ardennes (900-1 300€/m²), Orne (1 000-1 400€/m²), Allier (1 000-1 400€/m²), Corrèze (1 000-1 500€/m²). Dans ces marchés, 200 000€ achètent 150 à 200 m² avec un grand jardin.",
+      },
+      {
+        heading: "Les meilleures villes avec services à moins de 1 500€/m²",
+        body: "Le vrai défi n'est pas de trouver de l'immobilier pas cher — c'est de trouver une ville avec assez de services pour ne pas s'ennuyer ou se sentir isolé. Les meilleures options : Guéret (Creuse), Aurillac (Cantal), Chaumont et Langres (Haute-Marne), Bar-le-Duc (Meuse), Charleville-Mézières (Ardennes), Flers (Orne), Moulins (Allier), Tulle (Corrèze), Riom (Puy-de-Dôme). Toutes offrent hôpital, collèges/lycées, marché, et quelques commerces de centre-ville.",
+      },
+      {
+        heading: "La zone péri-urbaine des métropoles moyennes : le bon compromis",
+        body: "Une autre stratégie consiste à chercher à 20-30 min des métropoles moyennes (Clermont, Limoges, Rouen, Caen, Amiens, Nancy). Les communes périphériques à 20 km de ces villes ont souvent des prix entre 1 200 et 1 700€/m², encore sous les 200 000€ pour une maison correcte. L'avantage : accès à l'emploi présentiel, aux CHU, aux bonnes écoles, tout en vivant à la campagne.",
+      },
+      {
+        heading: "Les pièges à éviter : isolation thermique et transports",
+        body: "Un DPE F ou G sur une maison à 150 000€ peut coûter 30 000 à 50 000€ de travaux pour être rendu confortable. Avant d'acheter, exigez le DPE réel et les factures énergétiques. La rénovation énergétique est aidée (MaPrimeRénov') mais elle prend du temps. Autre piège : les communes sans médecin ni arrêt de bus. Vérifiez la liste des médecins acceptant de nouveaux patients et la distance au collège le plus proche.",
+      },
+      {
+        heading: "Le verdict 2025 : Guéret, Saint-Flour, Moulins",
+        body: "Nos trois coups de cœur 2025 pour une maison avec jardin sous 200 000€ : Guéret (Creuse) — 140-160 m² de maison en centre pour 110 000-150 000€, ville de 14 000 hab. avec tous les services. Saint-Flour (Cantal) — maison de caractère en ville haute pour 100 000-150 000€, cadre médiéval exceptionnel. Moulins (Allier) — ville patrimoniale sur l'Allier, maison de 150 m² pour 140 000-180 000€.",
+      },
+    ],
+    relatedCities: ["gueret", "aurillac", "chaumont", "bar-le-duc", "flers", "moulins", "tulle", "saint-flour"],
+    relatedGuides: [
+      "meilleures-villes-budget-moins-700-euros-t2-2025",
+      "meilleures-villes-retraites-budget-moins-1500-euros-2025",
+      "petites-villes-qualite-de-vie-france-2025",
+    ],
+    tags: ["maison", "jardin", "budget", "moins 200000", "abordable", "Creuse", "Cantal", "Haute-Marne", "achat immobilier", "campagne"],
+  },
+  {
+    slug: "grenoble-vs-chambery-comparatif-2025",
+    title: "Grenoble vs Chambéry : quelle ville alpine choisir en 2025 ?",
+    metaTitle: "Grenoble vs Chambéry 2025 — Comparatif | MeilleurVille",
+    metaDesc: "Grenoble ou Chambéry ? Comparatif 2025 : qualité de vie, prix immobilier, emploi, montagne, transports. Quelle ville alpine choisir pour s'installer ?",
+    category: "comparaison",
+    emoji: "🏔️",
+    readMinutes: 9,
+    publishedAt: "2026-02-15",
+    updatedAt: "2026-04-15",
+    intro: "Grenoble et Chambéry sont à 55 km l'une de l'autre mais offrent des profils de vie radicalement différents. Grenoble est une métropole technologique et universitaire, dense, parfois grise ; Chambéry est une préfecture savoyarde plus petite, plus douce, plus centrée sur la qualité de vie. Voici comment choisir selon votre profil.",
+    sections: [
+      {
+        heading: "Emploi et économie : Grenoble gagne haut la main",
+        body: "Grenoble est l'une des capitales mondiales de la micro-électronique et de la recherche (STMicroelectronics, SOITEC, CEA, CNRS). Plus de 20 000 chercheurs dans l'agglomération. Si vous êtes ingénieur, scientifique ou technicien de pointe, Grenoble est dans une catégorie à part. Chambéry a un tissu industriel et tertiaire correct (BTP, tourisme, administrations) mais rien de comparable à l'écosystème grenoblois.",
+      },
+      {
+        heading: "Prix immobilier : Chambéry plus accessible",
+        body: "Grenoble : 2 500-3 500€/m² selon les quartiers (Europole, Presqu'île, Île-Verte les plus chers). Chambéry : 2 200-3 000€/m². L'écart est réel mais pas abyssal. Ce qui change : la qualité ressentie des quartiers. À budget équivalent, on habite souvent dans un appartement plus lumineux et dans un immeuble mieux entretenu à Chambéry qu'à Grenoble.",
+      },
+      {
+        heading: "Cadre de vie et pollution : avantage net Chambéry",
+        body: "Grenoble souffre d'un problème structurel : son bassin naturel piège la pollution atmosphérique en hiver (inversions thermiques, PM10, NOx). La ville est régulièrement en alerte pollution. Chambéry, mieux ventilée, est moins touchée. Pour les familles avec enfants asthmatiques ou les personnes sensibles, c'est un facteur décisif. La qualité de l'air est mesurée et comparée sur notre site.",
+      },
+      {
+        heading: "Accès à la montagne : match nul",
+        body: "Les deux villes sont à 30-45 minutes des premières stations de ski (Chamrousse et Alpe d'Huez depuis Grenoble ; Les Ménuires, Les Arcs depuis Chambéry). Grenoble est plus proche du Vercors (randonnée, escalade), Chambéry l'est du lac du Bourget (voile, plage en été). Pour le ski de rando et l'escalade, Grenoble a un léger avantage ; pour le Léman et les lacs alpins, Chambéry gagne.",
+      },
+      {
+        heading: "Notre verdict",
+        body: "Choisissez Grenoble si : vous avez un emploi dans la tech/recherche/industrie grenobloise, vous cherchez l'effervescence urbaine et culturelle, ou vous êtes étudiant cherchant l'un des meilleurs campus scientifiques français. Choisissez Chambéry si : vous êtes en télétravail ou dans une fonction moins liée à l'écosystème grenoblois, vous avez des enfants et valorisez la qualité de l'air, ou vous cherchez un cadre de vie plus apaisé sans sacrifier l'accès aux Alpes.",
+      },
+    ],
+    relatedCities: ["grenoble", "chambery"],
+    relatedGuides: [
+      "vivre-en-savoie-haute-savoie-guide-2025",
+      "meilleures-villes-ski-montagne-investissement-2025",
+      "vivre-en-haute-savoie-hors-annecy-guide-2025",
+    ],
+    tags: ["Grenoble", "Chambéry", "Savoie", "Alpes", "comparatif", "montagne", "tech", "qualité de vie", "immobilier", "pollution"],
+  },
 ];
 
 export const GUIDE_CATEGORIES = [
