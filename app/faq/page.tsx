@@ -95,7 +95,7 @@ const FAQ_SECTIONS = [
     questions: [
       {
         q: "Comment fonctionne le comparateur de villes ?",
-        a: "Le comparateur met côte à côte deux villes françaises sur tous les critères de qualité de vie : scores détaillés, données météo, loyers, population. Accédez-y via /comparer ou depuis le profil de n'importe quelle ville. Plus de 160 paires de villes sont précalculées pour un accès instantané.",
+        a: "Le comparateur met côte à côte deux villes françaises sur tous les critères de qualité de vie : scores détaillés, données météo, loyers, population. Accédez-y via /comparer ou depuis le profil de n'importe quelle ville. Plus de 200 paires de villes sont précalculées pour un accès instantané.",
       },
       {
         q: "Comment fonctionne le quiz IA ?",
@@ -124,7 +124,28 @@ const FAQ_SECTIONS = [
       },
       {
         q: "Comment fonctionne la carte interactive ?",
-        a: "La carte interactive (/carte) affiche les 100+ villes analysées avec un code couleur selon leur score (vert = excellent, ambre = bon, rouge = à améliorer). Vous pouvez filtrer l'affichage par critère (nature, transport, coût...) et cliquer sur chaque ville pour accéder à son profil. La taille du cercle est proportionnelle au score.",
+        a: "La carte interactive (/carte) affiche les 113 villes analysées avec un code couleur selon leur score (vert = excellent, ambre = bon, rouge = à améliorer). Vous pouvez filtrer l'affichage par critère (nature, transport, coût...) et cliquer sur chaque ville pour accéder à son profil. La taille du cercle est proportionnelle au score.",
+      },
+    ],
+  },
+  {
+    title: "Guides & Conseils",
+    questions: [
+      {
+        q: "Qu'est-ce que les guides MeilleurVille ?",
+        a: "Les guides sont des articles longs et approfondis (7 à 12 minutes de lecture) qui couvrent des sujets de mobilité résidentielle : quitter Paris, s'installer en télétravail, choisir une ville pour sa famille, investissement immobilier, vivre en bord de mer à budget accessible, etc. Chaque guide est rédigé avec des données concrètes, des comparatifs de villes, et des conseils pratiques tirés de retours d'habitants.",
+      },
+      {
+        q: "Comment sont organisés les guides ?",
+        a: "Les guides sont classés par catégorie : Télétravail, Famille, Budget & Coût, Style de vie, Par région, et Comparaisons. Chaque guide est lié aux profils des villes qu'il mentionne, aux classements thématiques correspondants, et à d'autres guides connexes. Accédez à l'ensemble des 49 guides sur /guides.",
+      },
+      {
+        q: "Puis-je suggérer un sujet de guide ?",
+        a: "Oui. Utilisez le formulaire de contact (catégorie 'Suggestion de guide') pour nous proposer un sujet. Les demandes les plus fréquentes sont priorisées. Nos sujets les plus demandés pour 2025 : 'meilleures villes pour créer une entreprise', 'villes pour seniors en bonne santé', et 'meilleures villes pour les profils RSE/développement durable'.",
+      },
+      {
+        q: "Les informations des guides sont-elles vérifiées ?",
+        a: "Oui. Toutes les données chiffrées (loyers, prix au m2, temps de trajet, ensoleillement) sont sourcées depuis des données publiques (INSEE, notaires.fr, Météo-France) ou nos propres agrégations d'avis vérifiés. Les guides sont mis à jour annuellement. Si vous relevez une donnée incorrecte, signalez-la via le bouton 'Signaler une erreur' en bas de chaque guide.",
       },
     ],
   },
