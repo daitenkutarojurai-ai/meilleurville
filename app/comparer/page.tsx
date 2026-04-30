@@ -30,6 +30,7 @@ const POPULAR_PAIRS = [
   { a: "dijon", labelA: "Dijon", b: "besancon", labelB: "Besançon" },
   { a: "la-rochelle", labelA: "La Rochelle", b: "bordeaux", labelB: "Bordeaux" },
   { a: "metz", labelA: "Metz", b: "nancy", labelB: "Nancy" },
+  { a: "sete", labelA: "Sète", b: "montpellier", labelB: "Montpellier" },
 ];
 
 export default function ComparerPage() {

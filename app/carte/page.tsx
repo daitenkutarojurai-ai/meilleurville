@@ -8,7 +8,7 @@ import { CarteClient } from "./CarteClient";
 export const metadata: Metadata = {
   title: "Carte des villes françaises — Qualité de vie visualisée | MeilleurVille",
   description:
-    "Carte interactive des meilleures villes de France : visualisez les scores de qualité de vie, coût de la vie, nature, sécurité sur une carte. 55+ villes.",
+    `Carte interactive des meilleures villes de France : visualisez les scores de qualité de vie, coût de la vie, nature, sécurité sur une carte. ${CITIES_SEED.length}+ villes.`,
 };
 
 export default function CartePage() {

@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: `Score QdV ${city.scores.global}/10 · ${city.region} · ${city.characterTags.slice(0, 3).join(", ")}`,
     },
     twitter: {
-      card: "summary",
+      card: "summary_large_image",
       title: `${city.name} — ${city.scores.global}/10 | MeilleurVille`,
       description: `Qualité de vie, avis d'habitants et données locales pour ${city.name}.`,
     },
