@@ -431,6 +431,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ["autun", "macon"],
     ["saverne", "strasbourg"],
     ["saverne", "obernai"],
+    ["laon", "reims"],
+    ["laon", "amiens"],
+    ["vesoul", "besancon"],
+    ["vesoul", "belfort"],
+    ["chaumont", "troyes"],
+    ["chaumont", "epernay"],
+    ["chinon", "tours"],
+    ["chinon", "saumur"],
+    ["saint-die-des-vosges", "epinal"],
+    ["saint-die-des-vosges", "nancy"],
+    ["villefranche-de-rouergue", "rodez"],
+    ["villefranche-de-rouergue", "cahors"],
   ];
 
   const staticRoutes: MetadataRoute.Sitemap = [
