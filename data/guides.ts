@@ -1845,7 +1845,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["annecy", "rennes", "pau", "vannes", "chambery", "rodez", "bayeux", "vichy", "cholet", "millau"],
     relatedGuides: [
-      "meilleures-villes-securite-france-2025",
+      "meilleures-villes-familles-ecoles-securite-france-2025",
       "budget-vivre-en-france-comparatif",
       "meilleures-villes-pour-retraite-france-2025",
     ],
@@ -2254,7 +2254,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["annecy", "grenoble", "chambery", "gap", "pau", "tarbes", "aurillac", "clermont-ferrand", "aix-les-bains", "thonon-les-bains"],
     relatedGuides: [
-      "meilleures-villes-sport-outdoor-nature-france-2025",
+      "meilleures-villes-outdoor-sport-nature-france-2025",
       "quitter-paris-guide-pratique-2025",
       "meilleures-villes-pour-retraite-france-2025",
     ],
@@ -2841,7 +2841,7 @@ export const GUIDES: Guide[] = [
     relatedGuides: [
       "meilleures-villes-qualite-air-nature-france-2025",
       "vivre-en-occitanie-guide-2025",
-      "meilleures-villes-soleil-france-2025",
+      "soleil-france-guide",
     ],
     tags: ["retraite", "seniors", "soleil", "santé", "qualité de vie", "Montpellier", "Provence", "Atlantique"],
   },
@@ -2884,7 +2884,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["lyon", "villeurbanne", "annecy", "grenoble", "saint-etienne"],
     relatedGuides: [
-      "quitter-paris-sans-se-tromper-guide-2025",
+      "quitter-paris-guide-2025",
       "meilleures-villes-tech-numerique-france-2025",
       "vivre-en-ile-de-france-guide-2025",
     ],
@@ -2931,7 +2931,7 @@ export const GUIDES: Guide[] = [
     relatedGuides: [
       "meilleures-villes-qualite-air-nature-france-2025",
       "vivre-en-nouvelle-aquitaine-guide-2025",
-      "meilleures-villes-soleil-france-2025",
+      "soleil-france-guide",
     ],
     tags: ["Côte Basque", "Biarritz", "Bayonne", "Hossegor", "Landes", "surf", "Atlantique", "immobilier"],
   },
@@ -2976,7 +2976,7 @@ export const GUIDES: Guide[] = [
     relatedGuides: [
       "petites-villes-qualite-de-vie-france-2025",
       "paris-vs-province-qualite-de-vie-2025",
-      "quitter-paris-sans-se-tromper-guide-2025",
+      "quitter-paris-guide-2025",
     ],
     tags: ["investissement immobilier", "rentabilité locative", "province", "Limoges", "Lorient", "colocation", "2025"],
   },
