@@ -2800,6 +2800,231 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["qualité de l'air", "nature", "verdure", "espaces verts", "Annecy", "Bretagne", "littoral", "santé"],
   },
+  {
+    slug: "meilleures-villes-seniors-actifs-france-2025",
+    title: "Meilleures villes françaises pour les seniors actifs en 2025",
+    emoji: "🌞",
+    category: "lifestyle",
+    metaTitle: "Meilleures villes pour seniors actifs France 2025 — classement | MeilleurVille",
+    metaDesc: "Où s'installer à la retraite en France ? Notre classement 2025 des meilleures villes pour les seniors actifs : soleil, santé, transports, culture, prix et qualité de vie.",
+    intro: "La retraite active en France s'est transformée : les nouveaux retraités veulent du soleil, des activités culturelles et sportives, une bonne offre médicale, et des prix encore raisonnables. Ce guide classe les meilleures villes pour les 60+ qui veulent profiter de leur nouvelle liberté sans se ruiner.",
+    readMinutes: 9,
+    publishedAt: "2026-04-30",
+    updatedAt: "2026-04-30",
+    sections: [
+      {
+        heading: "Les critères essentiels pour les seniors actifs",
+        body: "Un retraité actif a des priorités différentes d'une famille avec enfants : densité médicale (généralistes, spécialistes, hôpital de proximité), transports en commun performants (ou accessibilité piétonne si voiture abandonnée), ensoleillement et douceur climatique, offre culturelle (théâtres, musées, associations, clubs sportifs), et coût de la vie compatible avec une retraite moyenne française (1 400€/mois). Enfin, la qualité des parcs et espaces de promenade compte autant que les scores sportifs pour cette tranche d'âge.",
+      },
+      {
+        heading: "Le trio de tête : Montpellier, Aix-en-Provence, La Rochelle",
+        body: "Montpellier séduit par son dynamisme, son ensoleillement exceptionnel (plus de 300 jours de soleil/an), son CHU réputé et son accès à la mer. Aix-en-Provence combine patrimoine culturel provençal, commerces de luxe, arts vivants et douceur de vivre. La Rochelle offre un front de mer piéton, un vélo-réseau exceptionnel, un CHU de référence et une atmosphère Atlantic chic à prix encore inférieurs à la PACA. Ces trois villes arrivent systématiquement en tête des sondages seniors.",
+      },
+      {
+        heading: "Les villes à fort ensoleillement et prix encore raisonnables",
+        body: "Pour les retraités soucieux de leur pouvoir d'achat : Perpignan (300 jours de soleil, Méditerranée, prix à 1 700€/m²), Nîmes (amphithéâtre romain, garrigue, soleil provençal à prix occitans), Béziers (Languedoc ensoleillé, vignobles, Canal du Midi, ~1 600€/m²), Sète (mer, étangs, port, esprit méridional), Manosque (Luberon, Haute-Provence, calme et nature). Ces villes offrent le style de vie du Sud à des prix 40-60% inférieurs à la Côte d'Azur.",
+      },
+      {
+        heading: "La façade atlantique : Arcachon, Biarritz, Vannes",
+        body: "Pour ceux qui préfèrent l'air iodé à la chaleur méditerranéenne : Arcachon (pinède et bassin, retraités aisés, prix élevés), Biarritz (surf, élégance basco-basque, bonne desserte TGV), Vannes (golfe du Morbihan, bonne qualité médicale, vie culturelle riche en Bretagne Sud). La Bretagne Sud offre un atout méconnu : des prix encore raisonnables, une longévité parmi les plus élevées de France, et une qualité de services médicaux meilleure que la moyenne nationale.",
+      },
+      {
+        heading: "Les villes thermales : soins + qualité de vie",
+        body: "Un atout méconnu des retraités actifs : les villes thermales combinant soins remboursés, infrastructures sportives dédiées et ambiance détendue. Vichy (cure thermale, lac d'Allier, agenda culturel soutenu), Dax (thermes réputés pour la rhumatologie, Landes, Atlantique proche), Aix-les-Bains (lac du Bourget, thermes, Savoie), Bagnères-de-Bigorre (Hautes-Pyrénées, thermes, air de montagne). Ces villes accueillent massivement les retraités et ont adapté leur infrastructure en conséquence.",
+      },
+      {
+        heading: "Tableau comparatif : 8 villes seniors actifs",
+        body: "Sur une note /10 combinant soleil, santé, culture, transport et coût : 1. Montpellier (8.5) 2. La Rochelle (8.3) 3. Aix-en-Provence (8.1) 4. Vannes (8.0) 5. Biarritz (7.9) 6. Sète (7.8) 7. Manosque (7.7) 8. Dax (7.6). Toutes ces villes ont une densité médicale supérieure à la moyenne nationale et une offre culturelle active toute l'année.",
+      },
+    ],
+    relatedCities: ["montpellier", "aix-en-provence", "la-rochelle", "biarritz", "vannes", "sete", "manosque", "dax"],
+    relatedGuides: [
+      "meilleures-villes-qualite-air-nature-france-2025",
+      "vivre-en-occitanie-guide-2025",
+      "meilleures-villes-soleil-france-2025",
+    ],
+    tags: ["retraite", "seniors", "soleil", "santé", "qualité de vie", "Montpellier", "Provence", "Atlantique"],
+  },
+  {
+    slug: "vivre-autour-de-lyon-banlieue-metropole-2025",
+    title: "Vivre autour de Lyon en 2025 — S'installer dans la métropole sans payer le prix de Lyon",
+    emoji: "🦁",
+    category: "region",
+    metaTitle: "Vivre autour de Lyon 2025 — banlieue et métropole lyonnaise | MeilleurVille",
+    metaDesc: "Villeurbanne, Bron, Vénissieux, Décines, Caluire… Quelles communes autour de Lyon offrent le meilleur compromis prix/qualité de vie ? Guide complet 2025.",
+    intro: "Lyon est la troisième ville de France, dynamique et attractive, mais ses prix immobiliers ont fortement progressé (4 000-5 500€/m² en centre). De plus en plus de Lyonnais et de nouveaux arrivants s'installent dans la couronne métropolitaine pour des loyers 20-40% inférieurs tout en restant connectés au bassin d'emploi lyonnais. Mode d'emploi.",
+    readMinutes: 8,
+    publishedAt: "2026-04-30",
+    updatedAt: "2026-04-30",
+    sections: [
+      {
+        heading: "Pourquoi la banlieue lyonnaise attire de plus en plus",
+        body: "La Métropole de Lyon regroupe 59 communes et 1,4 million d'habitants. Le TCL (réseau de transports en commun lyonnais) couvre la grande majorité de la métropole avec ses 4 lignes de métro, 5 lignes de tramway et des lignes fortes de bus. Cela permet de résider à Villeurbanne, Caluire, Bron ou Vénissieux tout en étant à 10-20 min en TCL de la Part-Dieu ou de Bellecour. Avec des loyers 25-35% inférieurs à Lyon intra-muros, l'économie mensuelle peut atteindre 200-400€ pour un T3.",
+      },
+      {
+        heading: "Villeurbanne : la banlieue qui ne se ressent pas comme une banlieue",
+        body: "Villeurbanne est la commune la plus peuplée autour de Lyon (149 000 hab) et la plus intégrée. Les Gratte-Ciel, son quartier signature avec ses tours Art déco des années 1930, ont une vraie identité architecturale et une vie de quartier dense. L'INSA Lyon, plusieurs IUT et écoles d'ingénieurs créent une forte population étudiante animée. Métro A direct vers la Part-Dieu en 5 min. T2 à 870€/mois vs 1 100€ à Lyon 3e voisin.",
+      },
+      {
+        heading: "Caluire-et-Cuire : le choix résidentiel et familial",
+        body: "Caluire-et-Cuire (43 000 hab) est la commune résidentielle prisée au nord de Lyon, entre Saône et Rhône. Connue pour sa tranquillité, ses maisons de ville, ses écoles réputées et ses espaces verts. Tramway T1 et T4 relient Caluire à la Part-Dieu en 20-25 min. Côté image, Caluire bénéficie d'une réputation très positive (criminalité faible, cadre de vie agréable). Prix ~3 200€/m², soit 30% de moins qu'un Lyon 6e voisin.",
+      },
+      {
+        heading: "Bron et Décines-Charpieu : l'Est lyonnais dynamique",
+        body: "L'Est lyonnais a été transformé par le Grand Stade (Parc OL à Décines) et les investissements d'infrastructure. Bron (40 000 hab) héberge l'Aéroport Lyon–Saint-Exupéry et un important technopole. Décines-Charpieu (26 000 hab) a vu ses prix monter depuis le Parc OL mais reste 40% moins cher que Lyon intra-muros. Tramway T3 dessert les deux communes. Ces secteurs attirent les jeunes actifs et les profils tech/aérospatial.",
+      },
+      {
+        heading: "Vénissieux et Saint-Fons : l'option budget maxi",
+        body: "Pour le budget le plus serré avec accès à l'emploi lyonnais : Vénissieux (63 000 hab) et Saint-Fons (17 000 hab) sont les communes les plus abordables de la première couronne lyonnaise (2 000-2 400€/m², loyer T2 700-750€). Métro D direct depuis Vénissieux jusqu'à Bellecour en 15 min. Ces communes ont une image plus industrielle et une mixité sociale marquée, mais les trajets TCL sont excellents et les prix immobiliers offrent un vrai potentiel de valorisation à long terme.",
+      },
+      {
+        heading: "Tassin, Écully, Saint-Genis-Laval : l'Ouest résidentiel huppé",
+        body: "L'Ouest lyonnais (Tassin-la-Demi-Lune, Écully, Francheville) est la direction la plus prisée des familles aisées : hillside résidentiel, coteaux du Lyonnais, maisons avec jardins. Mais les prix y sont presque aussi élevés que Lyon intra-muros (3 500-4 200€/m²). Saint-Genis-Laval au sud offre un compromis : prix ~2 800€/m², bon lycée, tramway T4 vers Bellecour en 25 min, ambiance résidentielle tranquille.",
+      },
+    ],
+    relatedCities: ["lyon", "villeurbanne", "annecy", "grenoble", "saint-etienne"],
+    relatedGuides: [
+      "quitter-paris-sans-se-tromper-guide-2025",
+      "meilleures-villes-tech-numerique-france-2025",
+      "vivre-en-ile-de-france-guide-2025",
+    ],
+    tags: ["Lyon", "banlieue", "métropole lyonnaise", "Villeurbanne", "Caluire", "Bron", "immobilier", "TCL"],
+  },
+  {
+    slug: "cote-basque-landes-vivre-atlantique-2025",
+    title: "Côte Basque et Landes 2025 — Vivre au bord de l'Atlantique sans se ruiner",
+    emoji: "🌊",
+    category: "region",
+    metaTitle: "Vivre Côte Basque et Landes 2025 — guide complet | MeilleurVille",
+    metaDesc: "Biarritz, Bayonne, Anglet, Dax, Hossegor… Comment s'installer sur la Côte Basque et dans les Landes en 2025 ? Prix, qualité de vie, transports et alternatives abordables.",
+    intro: "La Côte Basque est devenue l'une des destinations les plus recherchées par les télétravailleurs et retraités français. Mais Biarritz et ses 7 000€/m² ne sont pas accessibles à tous. Ce guide explore les alternatives pour profiter du surf, de l'Atlantique et de la gastronomie basque sans explosser son budget immobilier.",
+    readMinutes: 8,
+    publishedAt: "2026-04-30",
+    updatedAt: "2026-04-30",
+    sections: [
+      {
+        heading: "Le mythe Biarritz : fantasme ou réalité quotidienne ?",
+        body: "Biarritz (25 000 hab permanents, +30 000 l'été) cristallise les désirs de vie balnéaire : surf, Grande Plage, villas Belle Époque, Rocher de la Vierge. Mais ses prix ont explosé post-Covid : 6 500-8 000€/m² en appartement, 1 500€/mois pour un T3. L'attractivité médiatique (Biarritz est devenu un symbole de l'exode urbain bobo) a créé une pression immobilière intense. La réalité quotidienne : circulation dense l'été, services surchargés, locaux déplacés vers les périphéries.",
+      },
+      {
+        heading: "Bayonne : la vraie capitale basque, plus abordable",
+        body: "Bayonne (52 000 hab) est souvent sous-estimée par rapport à Biarritz. Pourtant la ville offre une richesse culturelle supérieure : remparts Vauban, cathédrale gothique, musée Basque de référence, chocolatiers historiques, fêtes de Bayonne (500 000 personnes en juillet). Les prix : 4 200-5 500€/m², soit 25-35% moins chers que Biarritz. TGV direct vers Bordeaux (1h15) et Paris (3h30). Bayonne attire de plus en plus comme base quotidienne, avec Biarritz à 10 min de TER.",
+      },
+      {
+        heading: "Anglet : le compromis surf + famille",
+        body: "Anglet (37 000 hab) est la commune entre Bayonne et Biarritz, avec 4,5 km de plages de surf. Moins clinquante mais très appréciée des familles : nombreuses écoles, forêt de pignada, lacs de Chiberta. Prix 3 800-5 000€/m², légèrement en dessous de Biarritz. Accès direct à Bayonne et Biarritz en bus TXIK TXAK (réseau Pays Basque). Anglet est souvent le choix rationnel des personnes qui veulent l'ambiance Côte Basque sans le prix de Biarritz.",
+      },
+      {
+        heading: "Hossegor, Capbreton et les Landes : le surf moins cher",
+        body: "Pour les amateurs de surf avec un budget plus serré, les Landes offrent de belles alternatives. Hossegor (6 000 hab permanents) est le spot surf mondial le plus réputé de France, mais ses prix ont suivi l'engouement (5 000-6 500€/m²). Capbreton voisin (9 500 hab) est légèrement plus accessible (3 800-4 800€/m²). Plus au nord, Mimizan et Biscarrosse offrent des plages de surf à moins de 2 000€/m² pour les maisons et moins de 3 000€/m² pour les appartements.",
+      },
+      {
+        heading: "Dax et Mont-de-Marsan : vivre dans les Landes sans la mer mais avec un budget",
+        body: "Dax (20 000 hab) et Mont-de-Marsan (30 000 hab) sont les deux principales villes des Landes, à 50-80 km de la côte. Dax est connue pour ses thermes (rhumatologie, station thermale de référence française) et son ambiance tauromachique (feria d'août). Mont-de-Marsan est une ville administrative tranquille avec une scène musicale métal étonnante (Hellfest région) et des prix immobiliers parmi les plus bas du Sud-Ouest (1 800-2 200€/m²). Ces villes permettent de profiter des Landes et d'un mode de vie sudiste à prix très raisonnable.",
+      },
+      {
+        heading: "Budget mensuel comparé Côte Basque vs reste France",
+        body: "Un couple sans enfants vivant à Biarritz (appartement T2 meublé) peut s'attendre à dépenser : loyer 1 200€ + charges 150€ + alimentation 600€ + transports 200€ = environ 2 150€/mois de budget courant. Le même niveau de vie à Bayonne : ~1 800€/mois. À Anglet : ~1 950€. À Dax : ~1 400€. L'écart annuel Biarritz vs Dax représente ~9 000€ — soit l'équivalent d'un vol Paris-Tokyo retour par mois. Ce calcul pousse de nombreuses personnes à arbitrer vers les villes de l'arrière-pays.",
+      },
+    ],
+    relatedCities: ["biarritz", "bayonne", "dax", "mont-de-marsan", "la-rochelle", "bordeaux"],
+    relatedGuides: [
+      "meilleures-villes-qualite-air-nature-france-2025",
+      "vivre-en-nouvelle-aquitaine-guide-2025",
+      "meilleures-villes-soleil-france-2025",
+    ],
+    tags: ["Côte Basque", "Biarritz", "Bayonne", "Hossegor", "Landes", "surf", "Atlantique", "immobilier"],
+  },
+  {
+    slug: "investissement-immobilier-villes-rentables-france-2025",
+    title: "Investissement immobilier en province : les villes les plus rentables en 2025",
+    emoji: "📈",
+    category: "budget",
+    metaTitle: "Investissement immobilier province villes rentables 2025 — guide | MeilleurVille",
+    metaDesc: "Quelles villes françaises offrent les meilleures rentabilités locatives en 2025 ? Lorient, Limoges, Saint-Étienne, Le Mans… Notre analyse des marchés porteurs pour l'investissement immobilier.",
+    intro: "L'immobilier locatif en France a subi la hausse des taux depuis 2022, mais certaines villes offrent toujours des rentabilités brutes supérieures à 6%. La clé : trouver le bon équilibre entre prix d'achat maîtrisé, demande locative soutenue (étudiants, jeunes actifs) et tension locative réelle. Ce guide analyse les marchés immobiliers les plus attractifs pour l'investisseur individuel en 2025.",
+    readMinutes: 10,
+    publishedAt: "2026-04-30",
+    updatedAt: "2026-04-30",
+    sections: [
+      {
+        heading: "La rentabilité brute : comment la calculer et quoi en penser",
+        body: "La rentabilité brute = (loyer annuel × 12) / prix d'achat × 100. Une rentabilité brute de 5% est correcte, 6-7% est bonne, au-delà de 8% il faut analyser la demande locative réelle (risque de vacance). Les grandes métropoles (Paris, Lyon, Bordeaux) affichent 3-4% brut — les prix ont tellement monté que la rentabilité s'est comprimée. Les villes moyennes dynamiques (20 000-150 000 hab) avec forte population étudiante restent les meilleurs marchés pour l'investisseur individuel en 2025.",
+      },
+      {
+        heading: "Le top des rentabilités : villes étudiantes sous-cotées",
+        body: "Les villes universitaires à prix encore maîtrisés affichent les meilleures rentabilités en 2025. Limoges : T2 à 530€/mois, achat à 1 300€/m² → rentabilité brute ~8.5%. Lorient : T2 à 690€/mois, achat à 2 200€/m² → 7.2%. Le Mans : T2 à 620€/mois, achat à 2 100€/m² → 6.8%. Mulhouse : T2 à 620€/mois, achat à 1 400€/m² → 8.9% (attention: marché atone). Saint-Étienne : T2 à 550€/mois, achat à 1 200€/m² → 9.2% (risque demande locative).",
+      },
+      {
+        heading: "Les marchés tendus : Rennes, Nantes, Bordeaux en 2025",
+        body: "Rennes et Nantes ont vu leurs prix se corriger légèrement depuis 2023 (-8% à -12% sur 2 ans) mais restent tendus. Nantes T2 à 870€/mois pour 3 800€/m² → rentabilité 5.3%. Rennes T2 à 850€/mois pour 4 200€/m² → 4.9%. Ces marchés offrent moins de rentabilité mais une meilleure sécurité locative (tension locative élevée, vacance quasi nulle, plus-value possible). Pour Bordeaux, le marché post-TGV s'est normalisé : 4 200€/m², rentabilités autour de 5-5.5%.",
+      },
+      {
+        heading: "Piège à éviter : les villes à fort rendement mais faible demande",
+        body: "Certaines villes affichent des rentabilités apparentes très élevées mais dissimulent un risque locatif majeur. Saint-Étienne (1 200€/m², rentabilité théorique >9%) souffre d'une décroissance démographique et d'une demande locative fragile. Mulhouse affiche des prix très bas mais une vacance structurelle dans certains quartiers. La règle : avant d'investir, vérifier le taux de vacance locative local (idéalement <5%), la dynamique démographique, et le ratio étudiants/actifs.",
+      },
+      {
+        heading: "Les marchés émergents : Reims, Dijon, Montpellier",
+        body: "Quelques villes offrent en 2025 le bon équilibre : prix encore raisonnables + forte demande locative + dynamisme économique. Reims (3 000€/m²) bénéficie du TGV vers Paris (45 min) et d'une forte population étudiante — rentabilité 6-7% avec bonne sécurité locative. Dijon (2 700€/m²) a une économie diversifiée, un CHU important, des grandes écoles — rentabilité 5.5-6.5%. Montpellier reste tendu malgré des prix plus élevés (3 500-4 000€/m²) grâce à sa croissance démographique parmi les plus fortes de France.",
+      },
+      {
+        heading: "Stratégie colocation : multiplier la rentabilité",
+        body: "La colocation dans les villes universitaires peut doubler la rentabilité brute par rapport à une location classique. Pour une maison de 5 chambres à Limoges (achat 180 000€), 5 × 400€/mois = 2 000€/mois de loyer → rentabilité brute 13.3%. Dans les villes étudiantes comme Rennes, Montpellier, Bordeaux, Strasbourg, la colocation est fortement demandée. Attention : gestion plus active (turnover étudiant annuel), coûts d'entretien plus élevés, réglementation colocation à connaître.",
+      },
+    ],
+    relatedCities: ["limoges", "lorient", "reims", "dijon", "montpellier", "bordeaux", "rennes", "nantes"],
+    relatedGuides: [
+      "petites-villes-qualite-de-vie-france-2025",
+      "paris-vs-province-qualite-de-vie-2025",
+      "quitter-paris-sans-se-tromper-guide-2025",
+    ],
+    tags: ["investissement immobilier", "rentabilité locative", "province", "Limoges", "Lorient", "colocation", "2025"],
+  },
+  {
+    slug: "vivre-campagne-vs-ville-moyenne-france-2025",
+    title: "Campagne vs ville moyenne en France 2025 — Faire le bon choix",
+    emoji: "🌾",
+    category: "lifestyle",
+    metaTitle: "Campagne vs ville moyenne France 2025 — guide du choix | MeilleurVille",
+    metaDesc: "S'installer à la campagne ou dans une ville moyenne ? Avantages, inconvénients, pièges à éviter, témoignages d'exilés urbains. Le guide honnête pour choisir en 2025.",
+    intro: "L'exode urbain post-Covid a poussé des milliers de Français à quitter Paris et les grandes villes. Certains ont visé des villages isolés, d'autres des villes de 20 000 à 80 000 habitants. Deux ans plus tard, bilans contrastés : regrets chez les ruraux isolés, satisfaction chez les « ville-moyen-nards ». Ce guide tranche honnêtement entre les deux options.",
+    readMinutes: 9,
+    publishedAt: "2026-04-30",
+    updatedAt: "2026-04-30",
+    sections: [
+      {
+        heading: "La réalité de la campagne : ce que les magazines ne disent pas",
+        body: "Les magazines et réseaux sociaux véhiculent une image idyllique de la ruralité : maison de pierre, potager, vie simple. La réalité est plus nuancée. Les « déserts médicaux » sont réels : 6 millions de Français n'ont pas de médecin traitant attitré, concentrés principalement dans les zones rurales. Le « dernier café du village » a souvent fermé. La voiture est obligatoire pour tout achat au-delà du pain quotidien. Internet fibré reste limité dans 15% des communes rurales malgré le plan France Très Haut Débit. Ces contraintes sont surmontables avec préparation mais doivent être anticipées.",
+      },
+      {
+        heading: "Ce que la campagne apporte vraiment",
+        body: "Les arguments en faveur de la vie rurale ne sont pas que fantasmes. Les prix sont incomparables : une maison de 150m² avec jardin coûte 80 000-150 000€ dans la Creuse ou la Haute-Marne contre 400 000-600 000€ à Tours ou Rennes. L'espace, le calme et la qualité de l'air sont réels et mesurables en bien-être. La communauté rurale est souvent plus soudée qu'en ville. Le temps de transport domicile-travail n'existe plus pour les télétravailleurs complets. La relation à l'alimentation change radicalement (jardinage, circuits courts, marchés paysans directs).",
+      },
+      {
+        heading: "La ville moyenne : le meilleur des deux mondes",
+        body: "Une ville de 30 000 à 80 000 habitants offre un équilibre souvent sous-estimé : commerces variés à pied, cinéma, hôpital, lycées, services administratifs — sans la densité et la pollution des grandes villes. Exemples réussis : Saumur (26 000 hab, Loire, châteaux, calme), Rodez (24 000 hab, Aveyron, patrimoine exceptionnel, qualité de vie top), Aurillac (26 000 hab, Cantal, prix immobiliers très bas, nature immédiate), Figeac (10 000 hab, Lot, médiéval, dynamisme culturel). Ces villes offrent la nature à 10 min et tous les services à pied.",
+      },
+      {
+        heading: "Le télétravail change tout — mais pas complètement",
+        body: "La généralisation du télétravail a rendu vivable des configurations autrefois impossibles. Un cadre en full-remote peut s'installer dans le Périgord ou l'Ardèche sans perdre son salaire parisien. Mais 2024-2025 a vu de nombreuses entreprises rappeler partiellement leurs salariés (1 à 3 jours/semaine au bureau). Résultat : les ruraux purs ont dû soit revenir, soit accepter des déplacements coûteux en temps et argent. La ville moyenne à 1h max d'une métropole reste donc le scénario le plus solide pour un télétravailleur partiel.",
+      },
+      {
+        heading: "Les pièges à éviter lors du choix",
+        body: "Pièges classiques de l'installation rurale précipitée : 1. Acheter sans avoir loué 6 mois sur place (le charme de l'été disparaît en novembre) ; 2. Choisir uniquement sur le prix sans évaluer la desserte (moins de 1 bus/heure = voiture obligatoire pour tout) ; 3. Négliger l'offre médicale (médecin généraliste, urgences à moins de 30 min) ; 4. Oublier les enfants (activités périscolaires, lycée, réseau social) ; 5. Ignorer la valeur de revente (maison de village dans une commune en déclin démographique = difficile à revendre).",
+      },
+      {
+        heading: "Notre verdict : pour qui, quelle solution ?",
+        body: "Campagne profonde recommandée pour : retraités sans contrainte professionnelle, télétravailleurs full-remote avec famille stable, artisans et agriculteurs, personnes recherchant avant tout le calme et l'espace absolu. Ville moyenne recommandée pour : télétravailleurs partiels (1-2j/sem au bureau), familles avec enfants en âge scolaire, actifs avec possible évolution professionnelle, personnes voulant le compromis qualité/accessibilité/prix. Notre recommandation la plus fréquente : choisir une ville de 25 000-50 000 habitants dans un rayon de 60-90 km d'une métropole régionale, avec accès TER ou autoroute.",
+      },
+    ],
+    relatedCities: ["saumur", "rodez", "aurillac", "figeac", "nevers", "aubenas"],
+    relatedGuides: [
+      "petites-villes-qualite-de-vie-france-2025",
+      "mutation-professionnelle-choisir-ville-france-2025",
+      "paris-vs-province-qualite-de-vie-2025",
+    ],
+    tags: ["campagne", "ville moyenne", "exode urbain", "télétravail", "rural", "qualité de vie", "choix résidentiel"],
+  },
 ];
 
 export const GUIDE_CATEGORIES = [
