@@ -120,6 +120,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ["saint-brieuc", "brest"],
     ["saint-nazaire", "nantes"],
     ["chalons-en-champagne", "reims"],
+    ["auxerre", "dijon"],
+    ["auxerre", "troyes"],
+    ["belfort", "mulhouse"],
+    ["belfort", "besancon"],
+    ["vichy", "clermont-ferrand"],
+    ["montauban", "toulouse"],
+    ["montauban", "agen"],
+    ["alencon", "caen"],
+    ["alencon", "le-mans"],
+    ["millau", "rodez"],
+    ["millau", "montpellier"],
+    ["cognac", "bordeaux"],
+    ["cognac", "angouleme"],
   ];
 
   const staticRoutes: MetadataRoute.Sitemap = [
