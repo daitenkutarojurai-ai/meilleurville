@@ -213,6 +213,18 @@ const SEO_PAIRS = [
   ["saint-quentin", "reims"],
   ["selestat", "strasbourg"],
   ["selestat", "colmar"],
+  ["bourges", "tours"],
+  ["bourges", "orleans"],
+  ["chateauroux", "tours"],
+  ["chateauroux", "bourges"],
+  ["brive-la-gaillarde", "perigueux"],
+  ["brive-la-gaillarde", "bordeaux"],
+  ["auch", "toulouse"],
+  ["auch", "pau"],
+  ["dole", "besancon"],
+  ["dole", "dijon"],
+  ["lannion", "brest"],
+  ["lannion", "saint-brieuc"],
 ];
 
 export function generateStaticParams() {

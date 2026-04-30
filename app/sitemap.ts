@@ -198,6 +198,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ["saint-quentin", "reims"],
     ["selestat", "strasbourg"],
     ["selestat", "colmar"],
+    ["bourges", "tours"],
+    ["bourges", "orleans"],
+    ["chateauroux", "tours"],
+    ["chateauroux", "bourges"],
+    ["brive-la-gaillarde", "perigueux"],
+    ["brive-la-gaillarde", "bordeaux"],
+    ["auch", "toulouse"],
+    ["auch", "pau"],
+    ["dole", "besancon"],
+    ["dole", "dijon"],
+    ["lannion", "brest"],
+    ["lannion", "saint-brieuc"],
   ];
 
   const staticRoutes: MetadataRoute.Sitemap = [
