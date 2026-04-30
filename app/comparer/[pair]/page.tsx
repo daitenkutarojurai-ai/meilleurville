@@ -612,6 +612,16 @@ const SEO_PAIRS = [
   ["clamecy", "cosne-cours-sur-loire"],
   ["porto-vecchio", "ajaccio"],
   ["corte", "bastia"],
+  ["sartene", "ajaccio"],
+  ["sartene", "porto-vecchio"],
+  ["calvi", "bastia"],
+  ["calvi", "corte"],
+  ["jarnac", "angouleme"],
+  ["jarnac", "cognac"],
+  ["mauriac", "aurillac"],
+  ["mauriac", "saint-flour"],
+  ["delle", "belfort"],
+  ["riberac", "perigueux"],
 ];
 
 export function generateStaticParams() {
