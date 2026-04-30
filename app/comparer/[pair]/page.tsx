@@ -10,6 +10,7 @@ import { Card } from "@/components/ui/Card";
 import type { City } from "@/lib/types";
 import Link from "next/link";
 import { getHousing } from "@/data/housing";
+import React from "react";
 
 type Props = { params: Promise<{ pair: string }> };
 
@@ -95,6 +96,10 @@ const SEO_PAIRS = [
   ["mulhouse", "colmar"],
   ["dunkerque", "lille"],
   ["dunkerque", "boulogne-sur-mer"],
+  ["sete", "montpellier"],
+  ["sete", "perpignan"],
+  ["sete", "nimes"],
+  ["sete", "beziers"],
 ];
 
 export function generateStaticParams() {
@@ -147,6 +152,15 @@ const SCORE_ROWS: Array<{ key: keyof (typeof CITIES_SEED)[number]["scores"]; lab
   { key: "culture", label: "Culture" },
   { key: "remoteWork", label: "Télétravail" },
   { key: "schools", label: "Écoles" },
+];
+
+type ScoreKey = keyof (typeof CITIES_SEED)[number]["scores"];
+
+const PROFILES: Array<{ label: string; emoji: string; keys: ScoreKey[]; desc: string }> = [
+  { label: "Famille", emoji: "👨‍👩‍👧", keys: ["safety", "schools", "nature", "cost"], desc: "sécurité, écoles, espaces verts, budget" },
+  { label: "Télétravail", emoji: "💻", keys: ["remoteWork", "transport", "cost", "life"], desc: "fibre, coworking, coût, qualité de vie" },
+  { label: "Retraite", emoji: "☀️", keys: ["nature", "safety", "cost", "life"], desc: "nature, sécurité, budget, bien-être" },
+  { label: "Étudiant·e", emoji: "🎓", keys: ["culture", "transport", "cost", "schools"], desc: "culture, transports, budget, campus" },
 ];
 
 export default async function PairPage({ params }: Props) {
@@ -319,11 +333,11 @@ export default async function PairPage({ params }: Props) {
               { label: "Juillet", a: seedA.avgTempJuly ? `${seedA.avgTempJuly}°C` : "—", b: seedB.avgTempJuly ? `${seedB.avgTempJuly}°C` : "—" },
               { label: "Janvier", a: seedA.avgTempJanuary ? `${seedA.avgTempJanuary}°C` : "—", b: seedB.avgTempJanuary ? `${seedB.avgTempJanuary}°C` : "—" },
             ].map(({ label, a, b }) => (
-              <>
-                <div key={label} className="text-xs text-[var(--text-secondary)] text-left">{label}</div>
+              <React.Fragment key={label}>
+                <div className="text-xs text-[var(--text-secondary)] text-left">{label}</div>
                 <div className="font-mono-data font-bold text-[var(--text-primary)]">{a}</div>
                 <div className="font-mono-data font-bold text-[var(--text-primary)]">{b}</div>
-              </>
+              </React.Fragment>
             ))}
           </div>
         </Card>
@@ -344,15 +358,15 @@ export default async function PairPage({ params }: Props) {
               ].map(({ label, a, b, unit }) => {
                 const cheaper = a && b ? (a < b ? "a" : b < a ? "b" : "equal") : null;
                 return (
-                  <>
-                    <div key={label} className="text-xs text-[var(--text-secondary)] text-left">{label}</div>
+                  <React.Fragment key={label}>
+                    <div className="text-xs text-[var(--text-secondary)] text-left">{label}</div>
                     <div className={`font-mono-data font-bold ${cheaper === "a" ? "text-emerald-400" : "text-[var(--text-primary)]"}`}>
                       {a ? `${a.toLocaleString("fr-FR")} ${unit}` : "—"}
                     </div>
                     <div className={`font-mono-data font-bold ${cheaper === "b" ? "text-emerald-400" : "text-[var(--text-primary)]"}`}>
                       {b ? `${b.toLocaleString("fr-FR")} ${unit}` : "—"}
                     </div>
-                  </>
+                  </React.Fragment>
                 );
               })}
             </div>
@@ -361,6 +375,38 @@ export default async function PairPage({ params }: Props) {
             </p>
           </Card>
         )}
+
+        {/* Pour qui ? */}
+        <Card>
+          <h2 className="text-base font-semibold text-[var(--text-primary)] mb-5">
+            Pour quel profil choisir chaque ville ?
+          </h2>
+          <div className="grid grid-cols-2 gap-3">
+            {PROFILES.map(({ label, emoji, keys, desc }) => {
+              const scoreA = keys.reduce((s, k) => s + seedA.scores[k], 0) / keys.length;
+              const scoreB = keys.reduce((s, k) => s + seedB.scores[k], 0) / keys.length;
+              const diff = Math.abs(scoreA - scoreB);
+              const profileWinner = scoreA > scoreB ? seedA : scoreB > scoreA ? seedB : null;
+              return (
+                <div key={label} className="rounded-xl border border-[var(--border)] bg-[var(--bg-elevated)] p-4">
+                  <div className="flex items-center gap-2 mb-2">
+                    <span className="text-lg">{emoji}</span>
+                    <span className="text-sm font-semibold text-[var(--text-primary)]">{label}</span>
+                  </div>
+                  <p className="text-xs text-[var(--text-tertiary)] mb-2">{desc}</p>
+                  {profileWinner ? (
+                    <div className="flex items-center gap-1.5">
+                      <span className="text-sm font-bold text-emerald-400">{profileWinner.name}</span>
+                      <span className="text-xs text-[var(--text-tertiary)]">+{diff.toFixed(1)} pts</span>
+                    </div>
+                  ) : (
+                    <span className="text-sm text-[var(--text-tertiary)]">Égalité</span>
+                  )}
+                </div>
+              );
+            })}
+          </div>
+        </Card>
 
         {/* CTA */}
         <div className="text-center space-y-3">
@@ -387,7 +433,10 @@ export default async function PairPage({ params }: Props) {
             Comparaisons similaires
           </h2>
           <div className="flex flex-wrap gap-2">
-            {SEO_PAIRS.filter(([a, b]) => a !== slugA || b !== slugB).slice(0, 8).map(([a, b]) => {
+            {SEO_PAIRS.filter(([a, b]) =>
+              (a === slugA || b === slugA || a === slugB || b === slugB) &&
+              !(a === slugA && b === slugB) && !(a === slugB && b === slugA)
+            ).slice(0, 10).map(([a, b]) => {
               const ca = CITIES_SEED.find((c) => c.slug === a);
               const cb = CITIES_SEED.find((c) => c.slug === b);
               if (!ca || !cb) return null;

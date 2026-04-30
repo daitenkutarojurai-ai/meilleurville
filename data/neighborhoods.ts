@@ -2060,6 +2060,38 @@ export const NEIGHBORHOODS: CityNeighborhoods[] = [
       },
     ],
   },
+  {
+    citySlug: "sete",
+    neighborhoods: [
+      {
+        slug: "centre-sete",
+        name: "Centre-ville",
+        type: "centre-ville",
+        scores: { global: 7.2, safety: 6.5, transport: 7.0, nature: 7.5, cost: 7.0, nightlife: 7.5 },
+        avgRentT2: 720,
+        tags: ["canaux", "marché", "terrasses", "port", "animé"],
+        summary: "Le cœur de Sète entre mer et canal. Ruelles animées, halles du marché, bars de pêcheurs. Ambiance authentique et populaire, loin du tourisme de masse.",
+      },
+      {
+        slug: "corniche-sete",
+        name: "La Corniche",
+        type: "résidentiel",
+        scores: { global: 7.8, safety: 7.5, transport: 5.5, nature: 9.5, cost: 5.5, nightlife: 5.0 },
+        avgRentT2: 850,
+        tags: ["vue-mer", "plages", "résidentiel", "calme", "Méditerranée"],
+        summary: "La bande côtière entre la Grande Plage et le Mont Saint-Clair. Vue panoramique sur la Méditerranée, appartements lumineux et calme résidentiel. Idéal pour les retraités et télétravailleurs.",
+      },
+      {
+        slug: "villeroy-sete",
+        name: "Villeroy",
+        type: "populaire",
+        scores: { global: 6.5, safety: 5.5, transport: 6.0, nature: 6.0, cost: 8.5, nightlife: 5.5 },
+        avgRentT2: 560,
+        tags: ["abordable", "populaire", "calme", "résidentiel", "accessible"],
+        summary: "Quartier résidentiel populaire à l'écart des circuits touristiques. Loyers parmi les plus bas de la ville, tissu de petites maisons et immeubles anciens. Bonne desserte en bus.",
+      },
+    ],
+  },
 ];
 
 export function getNeighborhoods(citySlug: string): Neighborhood[] {

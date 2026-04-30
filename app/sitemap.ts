@@ -87,6 +87,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ["dunkerque", "lille"],
     ["dunkerque", "boulogne-sur-mer"],
     ["cannes", "biarritz"],
+    ["sete", "montpellier"],
+    ["sete", "perpignan"],
+    ["sete", "nimes"],
   ];
 
   const staticRoutes: MetadataRoute.Sitemap = [

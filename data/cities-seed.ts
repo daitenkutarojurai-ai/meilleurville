@@ -1666,6 +1666,32 @@ export const CITIES_SEED = [
       schools: 7.0,
     },
   },
+  {
+    slug: "sete",
+    name: "Sète",
+    region: "Occitanie",
+    department: "Hérault",
+    inseeCode: "34295",
+    population: 46000,
+    latitude: 43.4028,
+    longitude: 3.6974,
+    elevation: 4,
+    sunshinedays: 2800,
+    avgTempJuly: 25.5,
+    avgTempJanuary: 8.0,
+    characterTags: ["mer", "canaux", "authentique", "gastronomie", "Méditerranée"],
+    scores: {
+      global: 7.1,
+      life: 7.5,
+      transport: 5.5,
+      nature: 8.5,
+      cost: 7.5,
+      safety: 6.5,
+      culture: 7.5,
+      remoteWork: 6.0,
+      schools: 6.5,
+    },
+  },
 ];
 
 export type CitySeed = (typeof CITIES_SEED)[number];

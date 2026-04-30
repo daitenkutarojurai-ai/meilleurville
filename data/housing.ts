@@ -70,6 +70,7 @@ export const HOUSING: Record<string, HousingData> = {
   mulhouse:                 { avgRentT1: 420, avgRentT2: 580,  avgRentT3: 780,  avgBuyPriceM2: 1700 },
   dunkerque:                { avgRentT1: 400, avgRentT2: 560,  avgRentT3: 750,  avgBuyPriceM2: 1800 },
   cannes:                   { avgRentT1: 850, avgRentT2: 1250, avgRentT3: 1700, avgBuyPriceM2: 6500 },
+  sete:                     { avgRentT1: 490, avgRentT2: 680,  avgRentT3: 920,  avgBuyPriceM2: 2600 },
 };
 
 export function getHousing(slug: string): HousingData | undefined {
