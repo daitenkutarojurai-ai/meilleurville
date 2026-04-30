@@ -6,6 +6,7 @@ import { cn } from "@/lib/utils";
 import type { QuizAnswers, MatchResult } from "@/lib/types";
 import { CityCard } from "@/components/CityCard";
 import { QuizShareButton } from "./QuizShareButton";
+import { CITIES_SEED } from "@/data/cities-seed";
 import Link from "next/link";
 
 // ─── Steps ───────────────────────────────────────────────────────────────────
@@ -151,7 +152,7 @@ export function QuizFlow() {
         <div className="text-center">
           <p className="text-lg font-semibold text-[var(--text-primary)]">IA en cours...</p>
           <p className="text-sm text-[var(--text-secondary)] mt-1">
-            Analyse de votre profil contre {60}+ villes françaises
+            Analyse de votre profil contre {CITIES_SEED.length}+ villes françaises
           </p>
         </div>
         <div className="flex gap-1.5">

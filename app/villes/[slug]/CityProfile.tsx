@@ -340,6 +340,30 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                 </div>
               </Card>
 
+              {/* Housing summary */}
+              {housing && (
+                <Card>
+                  <h3 className="text-sm font-semibold text-[var(--text-primary)] mb-4 flex items-center gap-2">
+                    <Home className="h-4 w-4 text-[var(--text-secondary)]" />
+                    Loyers & Immobilier
+                  </h3>
+                  <div className="space-y-2.5">
+                    {[
+                      { label: "T1 / mois", value: `${housing.avgRentT1} €` },
+                      { label: "T2 / mois", value: `${housing.avgRentT2} €` },
+                      { label: "T3 / mois", value: `${housing.avgRentT3} €` },
+                      { label: "Achat / m²", value: `${housing.avgBuyPriceM2.toLocaleString("fr-FR")} €` },
+                    ].map(({ label, value }) => (
+                      <div key={label} className="flex items-center justify-between">
+                        <span className="text-xs text-[var(--text-secondary)]">{label}</span>
+                        <span className="text-sm font-bold font-mono-data text-[var(--text-primary)]">{value}</span>
+                      </div>
+                    ))}
+                  </div>
+                  <p className="text-xs text-[var(--text-tertiary)] mt-3">Médiane indicative · DVF 2024</p>
+                </Card>
+              )}
+
               {/* Similar cities */}
               <Card>
                 <SimilarCities city={city} />

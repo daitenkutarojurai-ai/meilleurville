@@ -90,6 +90,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ["sete", "montpellier"],
     ["sete", "perpignan"],
     ["sete", "nimes"],
+    ["beziers", "montpellier"],
+    ["beziers", "nimes"],
+    ["laval", "nantes"],
+    ["laval", "rennes"],
   ];
 
   const staticRoutes: MetadataRoute.Sitemap = [

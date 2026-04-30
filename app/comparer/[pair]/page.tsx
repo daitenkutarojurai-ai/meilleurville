@@ -100,6 +100,11 @@ const SEO_PAIRS = [
   ["sete", "perpignan"],
   ["sete", "nimes"],
   ["sete", "beziers"],
+  ["beziers", "montpellier"],
+  ["beziers", "nimes"],
+  ["laval", "nantes"],
+  ["laval", "rennes"],
+  ["laval", "le-mans"],
 ];
 
 export function generateStaticParams() {
