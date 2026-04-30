@@ -129,9 +129,19 @@ export default async function RegionPage({ params }: Props) {
   const departments = [...new Set(cities.map((c) => c.department))];
   const topCity = cities[0];
 
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL ?? "https://meilleurville.fr";
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "MeilleurVille", item: baseUrl },
+          { "@type": "ListItem", position: 2, name: "Régions", item: `${baseUrl}/regions` },
+          { "@type": "ListItem", position: 3, name: regionName, item: `${baseUrl}/regions/${regionSlug}` },
+        ],
+      },
       {
         "@type": "ItemList",
         "name": `Meilleures villes de ${regionName}`,
@@ -140,7 +150,7 @@ export default async function RegionPage({ params }: Props) {
           "@type": "ListItem",
           "position": i + 1,
           "name": c.name,
-          "url": `https://meilleurville.fr/villes/${c.slug}`,
+          "url": `${baseUrl}/villes/${c.slug}`,
         })),
       },
       {

@@ -11,9 +11,39 @@ import { CostCalculator } from "@/components/CostCalculator";
 import { NewsletterSection } from "@/components/NewsletterSection";
 import { Footer } from "@/components/Footer";
 
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://meilleurville.fr";
+
+const websiteJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "MeilleurVille",
+  url: BASE_URL,
+  description: "La référence pour choisir où vivre en France : classements, avis d'habitants, quiz de matching, données locales.",
+  potentialAction: {
+    "@type": "SearchAction",
+    target: {
+      "@type": "EntryPoint",
+      urlTemplate: `${BASE_URL}/villes?q={search_term_string}`,
+    },
+    "query-input": "required name=search_term_string",
+  },
+};
+
+const organizationJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "MeilleurVille",
+  url: BASE_URL,
+  logo: `${BASE_URL}/icon.png`,
+  sameAs: [],
+  description: "Plateforme de comparaison et classement des villes françaises par qualité de vie.",
+};
+
 export default function HomePage() {
   return (
     <main className="min-h-screen">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }} />
       <Navbar />
       <HeroSection />
       <StatsBar />

@@ -40,18 +40,30 @@ export default async function RankingPage({ params }: Props) {
 
   const itemListJsonLd = {
     "@context": "https://schema.org",
-    "@type": "ItemList",
-    name: meta.headline,
-    description: meta.description,
-    url: `${BASE_URL}/classements/${slug}`,
-    numberOfItems: ranked.length,
-    itemListElement: ranked.slice(0, 10).map((entry, i) => ({
-      "@type": "ListItem",
-      position: i + 1,
-      name: entry.city.name,
-      url: `${BASE_URL}/villes/${entry.city.slug}`,
-      description: `Score ${entry.score.toFixed(1)}/10 — ${entry.city.region}`,
-    })),
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "MeilleurVille", item: BASE_URL },
+          { "@type": "ListItem", position: 2, name: "Classements", item: `${BASE_URL}/classements` },
+          { "@type": "ListItem", position: 3, name: meta.headline, item: `${BASE_URL}/classements/${slug}` },
+        ],
+      },
+      {
+        "@type": "ItemList",
+        name: meta.headline,
+        description: meta.description,
+        url: `${BASE_URL}/classements/${slug}`,
+        numberOfItems: ranked.length,
+        itemListElement: ranked.slice(0, 10).map((entry, i) => ({
+          "@type": "ListItem",
+          position: i + 1,
+          name: entry.city.name,
+          url: `${BASE_URL}/villes/${entry.city.slug}`,
+          description: `Score ${entry.score.toFixed(1)}/10 — ${entry.city.region ?? ""}`,
+        })),
+      },
+    ],
   };
 
   return (

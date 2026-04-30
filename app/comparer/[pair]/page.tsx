@@ -215,13 +215,21 @@ export default async function PairPage({ params }: Props) {
             "@context": "https://schema.org",
             "@graph": [
               {
+                "@type": "BreadcrumbList",
+                itemListElement: [
+                  { "@type": "ListItem", position: 1, name: "MeilleurVille", item: process.env.NEXT_PUBLIC_BASE_URL ?? "https://meilleurville.fr" },
+                  { "@type": "ListItem", position: 2, name: "Comparer", item: `${process.env.NEXT_PUBLIC_BASE_URL ?? "https://meilleurville.fr"}/comparer` },
+                  { "@type": "ListItem", position: 3, name: `${seedA.name} vs ${seedB.name}`, item: `${process.env.NEXT_PUBLIC_BASE_URL ?? "https://meilleurville.fr"}/comparer/${pair}` },
+                ],
+              },
+              {
                 "@type": "ItemList",
                 name: `${seedA.name} vs ${seedB.name} — Comparaison`,
                 itemListElement: [cityA, cityB].map((c, i) => ({
                   "@type": "ListItem",
                   position: i + 1,
                   name: c.name,
-                  url: `https://meilleurville.fr/villes/${c.slug}`,
+                  url: `${process.env.NEXT_PUBLIC_BASE_URL ?? "https://meilleurville.fr"}/villes/${c.slug}`,
                 })),
               },
               {
