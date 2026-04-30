@@ -5369,6 +5369,239 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["freelance", "coworking", "télétravail", "indépendants", "French Tech", "startup", "numérique"],
   },
+  {
+    slug: "strasbourg-vs-mulhouse-comparatif-2025",
+    title: "Strasbourg vs Mulhouse : laquelle choisir pour s'installer en Alsace ?",
+    metaTitle: "Strasbourg vs Mulhouse — Comparatif complet 2025 | MeilleurVille",
+    metaDesc: "Strasbourg ou Mulhouse pour s'installer en Alsace ? Scores, loyers, emploi, transports, qualité de vie : notre comparatif complet pour vous aider à choisir.",
+    category: "comparaison",
+    emoji: "🥨",
+    readMinutes: 8,
+    publishedAt: "2025-04-01",
+    updatedAt: "2025-04-01",
+    intro: "Strasbourg et Mulhouse, deux villes alsaciennes aux identités radicalement différentes : l'une est capitale régionale européenne, l'autre est la ville ouvrière et multiculturelle du Haut-Rhin. À 70 km l'une de l'autre, elles offrent des styles de vie et des niveaux de coût très différents. Laquelle vous correspond ?",
+    sections: [
+      {
+        heading: "Profil général : deux Alsaces en un",
+        body: "Strasbourg (280 000 hab.) est la métropole régionale, capitale de l'Union européenne, siège du Parlement européen et du Conseil de l'Europe. Ville universitaire d'envergure internationale (Université de Strasbourg, Sciences Po), elle attire les expatriés, les fonctionnaires européens et les étudiants du monde entier. Mulhouse (110 000 hab.) est une ville industrielle reconvertie, historiquement liée au textile et à la chimie, aujourd'hui tournée vers l'industrie automobile (PSA Stellantis) et la réhabilitation de ses friches. Deux villes, deux ADN.",
+      },
+      {
+        heading: "Les loyers : un écart de 30 à 40%",
+        body: "Strasbourg est nettement plus chère : un T2 coûte en moyenne 850€ à 1 050€ par mois en centre, contre 580€ à 720€ à Mulhouse. Pour l'achat, comptez 3 500–4 500€/m² à Strasbourg centre vs 1 500–2 200€/m² à Mulhouse. L'effet capital régionale et présence européenne est réel. Pour les familles, Mulhouse offre une maison 4 pièces pour 180 000–250 000€ là où Strasbourg dépasse 400 000€.",
+      },
+      {
+        heading: "Emploi et économie : Strasbourg plus diverse",
+        body: "Strasbourg dispose d'un marché de l'emploi plus diversifié : administrations européennes, université, santé (CHU de Strasbourg, premier de France hors Paris), tourisme, services. Mulhouse est plus dépendante de l'industrie : PSA Stellantis (usines à Mulhouse et Sausheim), chimie (Rhodia, Solvay), logistique. Cette dépendance industrielle rend Mulhouse plus vulnérable aux cycles économiques mais offre des emplois ouvriers et techniques bien rémunérés.",
+      },
+      {
+        heading: "Transports : deux connexions différentes",
+        body: "Strasbourg est connectée par TGV direct vers Paris en 1h47, par Eurostar vers l'Allemagne et la Suisse, et dispose d'un tram-train exemplaire en ville. Mulhouse est à 20 minutes de Bâle-Mulhouse-Freiburg (aéroport trinational), à 40 minutes de Bâle et à 1h de Zurich par train. Cette proximité suisse est un argument fort pour les frontaliers. Les deux villes ont du vélo développé (Strasbourg est la capitale française du vélo).",
+      },
+      {
+        heading: "Qualité de vie : Strasbourg plus riche, Mulhouse plus authentique",
+        body: "Strasbourg offre une vie culturelle exceptionnelle : Opéra du Rhin, Philharmonie, Musée d'Art Moderne et Contemporain, marché de Noël de réputation mondiale. La Petite France, les canaux, les maisons à colombages en font l'une des plus belles villes de France. Mulhouse a investi dans ses friches culturelles (La Filature scène nationale, Fonderie) et dispose de musées techniques uniques (Musée de l'Automobile — premier d'Europe, Musée du Chemin de Fer). Ambiance plus populaire et moins touristique.",
+      },
+      {
+        heading: "Qui choisit quoi ?",
+        body: "Strasbourg est le choix pour : les familles avec enfants (écoles bilingues remarquables, tissu culturel dense), les expatriés et fonctionnaires européens, les professionnels de la santé et de l'enseignement, les jeunes actifs qui veulent une vie culturelle riche. Mulhouse est le choix pour : les frontaliers suisses et allemands (économies significatives sur le logement), les ouvriers et techniciens de l'industrie, les familles à budget serré qui veulent rester en Alsace, les acheteurs immobiliers cherchant du rendement locatif.",
+      },
+    ],
+    relatedCities: ["strasbourg", "mulhouse"],
+    relatedGuides: [
+      "vivre-frontalier-france-belgique-luxembourg-suisse-2025",
+      "normandie-vs-bretagne-comparatif-2025",
+      "lyon-vs-bordeaux-comparatif-2025",
+    ],
+    tags: ["Alsace", "Strasbourg", "Mulhouse", "comparatif", "Haut-Rhin", "frontalier", "Bas-Rhin"],
+  },
+  {
+    slug: "metz-vs-nancy-comparatif-2025",
+    title: "Metz vs Nancy : quelle ville de Lorraine choisir ?",
+    metaTitle: "Metz vs Nancy — Comparatif complet 2025 | MeilleurVille",
+    metaDesc: "Metz ou Nancy pour s'installer en Lorraine ? Loyers, qualité de vie, emploi, culture : notre comparatif complet des deux capitales lorraines.",
+    category: "comparaison",
+    emoji: "⚜️",
+    readMinutes: 8,
+    publishedAt: "2025-04-15",
+    updatedAt: "2025-04-15",
+    intro: "La Lorraine a deux capitales historiques qui se livrent une concurrence amicale : Metz, la romaine, et Nancy, la baroque. Ces deux villes séparées de seulement 55 km par l'autoroute sont souvent mises en opposition, alors qu'elles se complètent parfaitement. Mais si vous devez en choisir une, laquelle vous correspond ?",
+    sections: [
+      {
+        heading: "Deux villes, deux héritages",
+        body: "Metz (118 000 hab.) est la plus ancienne — cité gallo-romaine, cathédrale gothique parmi les plus lumineuses de France, Centre Pompidou-Metz ouvert en 2010. Elle est aussi le siège du commandement militaire du nord-est de la France. Nancy (103 000 hab.) est baroque — la place Stanislas, chef-d'œuvre classé UNESCO, reste l'une des plus belles places d'Europe. Capitale historique du duché de Lorraine, elle a développé l'École de Nancy (art nouveau) et reste un centre culturel reconnu.",
+      },
+      {
+        heading: "Loyers et immobilier : un équilibre presque parfait",
+        body: "Metz et Nancy sont dans la même fourchette de prix, légèrement en faveur de Nancy sur les loyers : T2 entre 600 et 750€ à Metz, 580 et 720€ à Nancy. L'achat est légèrement plus élevé à Metz (2 200–2 800€/m² en centre) qu'à Nancy (2 000–2 600€/m²). Les deux restent très abordables par rapport aux métropoles de l'Ouest.",
+      },
+      {
+        heading: "Emploi : Metz administration, Nancy université",
+        body: "Metz a un profil plus administratif et militaire : préfecture régionale, nombreux fonctionnaires, présence du ministère de l'Intérieur décentralisé, logistique (à proximité de l'A31 axe Europe). Nancy est plus universitaire : Université de Lorraine (premier employeur, 60 000 étudiants), grandes écoles (Mines Nancy, ENSEM, ICN Business School), tissu PME innovantes dans la pharmacie et les sciences du vivant.",
+      },
+      {
+        heading: "Culture et vie urbaine",
+        body: "Metz a investi massivement depuis 2010 avec le Centre Pompidou-Metz (1,5 million de visiteurs cumulés) qui a repositionné la ville culturellement. Les quais de la Moselle réaménagés, le Marché couvert et la cathédrale Saint-Étienne complètent un tableau exceptionnel. Nancy a la place Stanislas illuminée le soir, le Musée des Beaux-Arts, les hôtels particuliers art nouveau et un opéra national actif. La vie nocturne est légèrement plus animée à Nancy (population étudiante plus forte).",
+      },
+      {
+        heading: "Transports : avantage Metz sur le TGV",
+        body: "Metz est sur l'axe TGV Paris-Strasbourg : Paris en 1h25, Strasbourg en 1h15. C'est un avantage décisif pour les pendulaires vers Paris. Nancy est à 10 minutes de Metz en TGV et à 1h35 de Paris — légèrement moins bien positionnée. En revanche, Nancy dispose d'un tramway plus étendu et d'une ligne Metz-Nancy fréquente (30 trains par jour).",
+      },
+      {
+        heading: "Notre verdict",
+        body: "Metz est le choix pour les familles et professionnels qui voyagent souvent vers Paris ou Strasbourg, et pour ceux qui apprécient une ville plus centrale et administrative. Nancy est le choix pour les étudiants, les enseignants-chercheurs, les familles qui valorisent la densité culturelle et l'atmosphère baroque. Les deux villes méritent une visite d'une semaine avant de décider.",
+      },
+    ],
+    relatedCities: ["metz", "nancy"],
+    relatedGuides: [
+      "strasbourg-vs-mulhouse-comparatif-2025",
+      "vivre-frontalier-france-belgique-luxembourg-suisse-2025",
+      "lyon-vs-bordeaux-comparatif-2025",
+    ],
+    tags: ["Lorraine", "Metz", "Nancy", "comparatif", "Grand Est", "culture", "TGV"],
+  },
+  {
+    slug: "dijon-vs-besancon-comparatif-2025",
+    title: "Dijon vs Besançon : laquelle choisir pour s'installer en Bourgogne-Franche-Comté ?",
+    metaTitle: "Dijon vs Besançon — Comparatif 2025 | MeilleurVille",
+    metaDesc: "Dijon ou Besançon pour vivre en Bourgogne-Franche-Comté ? Vignoble vs montagnes, loyers, emploi, TGV : notre comparatif pour faire le bon choix.",
+    category: "comparaison",
+    emoji: "🍷",
+    readMinutes: 8,
+    publishedAt: "2025-05-01",
+    updatedAt: "2025-05-01",
+    intro: "Bourgogne-Franche-Comté est une grande région à deux visages : Dijon, ville de la moutarde et des vins grands crus, et Besançon, ville d'horlogerie et de montagnes comtoises. Ces deux capitales régionales n'en sont officiellement plus qu'une (région), mais elles conservent des caractères bien distincts. Laquelle correspond à votre projet de vie ?",
+    sections: [
+      {
+        heading: "Portrait de deux villes",
+        body: "Dijon (157 000 hab.) est la capitale historique de la Bourgogne : route des grands crus à 20 minutes, centre médiéval préservé, Musée des Beaux-Arts, université renommée. Elle a bénéficié d'un fort regain d'attractivité post-COVID. Besançon (116 000 hab.) est la ville de Victor Hugo et de Vauban, inscrite au patrimoine mondial de l'UNESCO pour sa citadelle. Nichée dans une boucle du Doubs entourée de collines, elle est plus proche des Alpes et de la Suisse.",
+      },
+      {
+        heading: "Loyers et immobilier",
+        body: "Dijon est légèrement plus chère depuis 2020 : T2 entre 650 et 850€/mois en centre, achat entre 2 500 et 3 500€/m². Besançon est plus abordable : T2 entre 580 et 750€/mois, achat entre 2 000 et 2 900€/m². En périphérie, les deux villes offrent des maisons avec jardins entre 230 000€ et 350 000€. Le vignoble dijonnais en propriété coûte bien plus cher.",
+      },
+      {
+        heading: "Emploi et économie",
+        body: "Dijon a une économie diversifiée : agro-alimentaire (moutarde, vins, cassis), université, santé (CHU Dijon), logistique (carrefour autoroutier). Besançon est historiquement liée à l'horlogerie (Lip est née ici) et à la microtechnique, avec un tissu de PME spécialisées dans la précision, l'optique et les instruments de mesure. Besançon héberge aussi le campus universitaire de l'Université de Franche-Comté.",
+      },
+      {
+        heading: "Nature et sports de plein air",
+        body: "C'est là que les deux villes divergent le plus. Dijon offre la proximité du vignoble (Côte de Nuits, Côte de Beaune), les randonnées en forêt, mais pas de montagne accessible. Besançon est entourée de collines boisées et à 45 minutes du Jura (ski de fond, raquettes, randonnée), à 1h30 des Alpes. Cette dimension montagnarde est un argument fort pour les familles actives.",
+      },
+      {
+        heading: "Culture et gastronomie",
+        body: "Dijon rayonne dans la gastronomie nationale et internationale : restaurants étoilés, halles centrales, festival de la gastronomie. La vie culturelle dijonnaise est dense (Opéra de Dijon, musées). Besançon offre le Festival International de Musique (parmi les plus anciens de France) et une scène culturelle active malgré une taille plus modeste. Les deux villes ont une forte activité universitaire qui anime la vie nocturne.",
+      },
+      {
+        heading: "Notre verdict",
+        body: "Dijon est le choix pour les gastronomes, les amateurs de vin, les familles cherchant une ville à fort rayonnement culturel et une bonne connexion TGV (Paris en 1h35). Besançon est le choix pour les amoureux de montagne, les précisionnistes, les familles cherchant une ville à taille humaine avec un charme unique, et les frontaliers suisses (Bâle à 1h15).",
+      },
+    ],
+    relatedCities: ["dijon", "besancon"],
+    relatedGuides: [
+      "strasbourg-vs-mulhouse-comparatif-2025",
+      "metz-vs-nancy-comparatif-2025",
+      "grenoble-vs-chambery-comparatif-2025",
+    ],
+    tags: ["Bourgogne", "Franche-Comté", "Dijon", "Besançon", "comparatif", "vignoble", "montagnes"],
+  },
+  {
+    slug: "meilleures-villes-achat-immobilier-moins-150000-euros-2025",
+    title: "Acheter un appartement ou une maison à moins de 150 000€ en France en 2025",
+    metaTitle: "Achat immobilier moins de 150 000€ — Meilleures villes France 2025",
+    metaDesc: "Où acheter un T3 ou une maison pour moins de 150 000€ en France ? Villes abordables, qualité de vie, rendement locatif : notre sélection 2025.",
+    category: "budget",
+    emoji: "🏠",
+    readMinutes: 9,
+    publishedAt: "2025-05-10",
+    updatedAt: "2025-05-10",
+    intro: "Avec la remontée des taux d'intérêt et la pression des prix dans les métropoles, beaucoup de primo-accédants et d'investisseurs se tournent vers la province profonde pour acheter à moins de 150 000€. Est-ce encore possible en 2025 ? Oui — à condition de savoir où chercher. Voici notre sélection des villes françaises où l'immobilier reste à portée de main.",
+    sections: [
+      {
+        heading: "Le marché sous les 150 000€ : où en est-on ?",
+        body: "En 2025, acheter un T3 ou une petite maison pour moins de 150 000€ en France est possible dans environ 30% des communes — majoritairement dans des villes de moins de 50 000 habitants situées dans des bassins d'emplois régionaux. Les grandes métropoles (Paris, Lyon, Bordeaux, Nice) sont évidemment hors de portée. Mais des villes préfectorales ou sous-préfectorales offrent encore de véritables opportunités, surtout si vous combinez achat + télétravail.",
+      },
+      {
+        heading: "Saint-Dizier (52) : l'immobilier le plus abordable du Grand Est",
+        body: "Saint-Dizier est l'une des villes où les prix sont les plus bas de France : T3 à partir de 60 000€ en centre-ville, maison 4 pièces avec jardin entre 80 000€ et 130 000€. La ville a souffert d'un déclin industriel mais reste dynamique grâce à sa base logistique et sa proximité avec Reims (50 min) et Nancy (1h). Pour les investisseurs locatifs, les rendements bruts dépassent souvent 10%.",
+      },
+      {
+        heading: "Limoges (87) : la surprise de qualité de vie",
+        body: "Limoges est peut-être la ville française qui offre le meilleur rapport qualité-prix : T3 entre 80 000€ et 130 000€, maison 4 pièces entre 120 000€ et 200 000€, excellent CHU, université, patrimoine porcelaine, accès à la Creuse et à la Corrèze. Le TER pour Paris (3h) ou Bordeaux (2h) est remplacé par la voiture sur l'A20. Idéal pour les télétravailleurs qui veulent une vraie ville avec services, pas un bourg.",
+      },
+      {
+        heading: "Châteauroux (36) : le meilleur rapport immobilier/qualité de vie",
+        body: "Châteauroux offre un parc immobilier de qualité à des prix inférieurs à 1 200€/m² : T3 entre 70 000€ et 100 000€, maisons entre 90 000€ et 150 000€ avec grands jardins. La ville est la préfecture de l'Indre, avec tous les services (hôpital, lycées, centres commerciaux). Paris à 2h30 en TGV depuis Châteaudun ou Vierzon. Idéal pour retraités et télétravailleurs cherchant à s'installer loin de la pression des prix.",
+      },
+      {
+        heading: "Aubusson (23) : la ville la plus abordable de France",
+        body: "Aubusson est régulièrement citée comme la ville française avec les prix immobiliers les plus bas : T3 à partir de 35 000€, maisons 4 pièces entre 40 000€ et 90 000€. La ville est petite (4 000 hab.) mais historiquement importante pour la tapisserie (UNESCO). Internet fibre disponible. Pour les télétravailleurs complets qui veulent le maximum de liberté financière dans un cadre naturel de Creuse.",
+      },
+      {
+        heading: "Guéret (23) et Mende (48) : les capitales rurales préservées",
+        body: "Guéret (préfecture de la Creuse) et Mende (préfecture de la Lozère) offrent toutes deux des T3 entre 60 000€ et 95 000€ dans des villes avec services préfectoraux complets. Guéret est entourée de lacs et forêts, Mende se situe dans les gorges du Lot avec un paysage de montagne. Les deux ont une connexion internet fibre correcte et un CHU accessible dans l'heure.",
+      },
+      {
+        heading: "Ce que vous ne pouvez pas acheter à moins de 150 000€",
+        body: "Pour être honnête, les villes avec le plus fort attrait naturel ou culturel (Annecy, Bayonne, La Rochelle, Biarritz, Colmar) ont toutes des prix bien au-dessus de ce seuil. De même pour les villes avec un marché de l'emploi local dynamique (Rennes, Nantes, Lyon). Sous 150 000€, vous achetez généralement dans des villes où la croissance économique est lente. L'équation n'est intéressante que si vous avez un revenu extérieur (télétravail, retraite) qui ne dépend pas du marché local.",
+      },
+    ],
+    relatedCities: ["limoges", "chateauroux", "gueret", "mende", "aubusson"],
+    relatedGuides: [
+      "meilleures-villes-maison-jardin-moins-200000-euros-2025",
+      "meilleures-villes-budget-moins-700-euros-t2-2025",
+      "meilleures-villes-investissement-locatif-colocation-2025",
+    ],
+    tags: ["immobilier", "achat", "moins 150000 euros", "abordable", "primo-accédant", "investissement"],
+  },
+  {
+    slug: "meilleures-villes-retraite-avec-mer-et-soleil-petit-budget-2025",
+    title: "Les meilleures villes pour prendre sa retraite au soleil sans se ruiner en 2025",
+    metaTitle: "Retraite au soleil à petit budget — meilleures villes France 2025",
+    metaDesc: "Mer, soleil et budget maîtrisé : les villes du Sud de la France où prendre sa retraite sans se ruiner. Notre sélection des bonnes adresses méconnues.",
+    category: "budget",
+    emoji: "☀️",
+    readMinutes: 9,
+    publishedAt: "2025-05-20",
+    updatedAt: "2025-05-20",
+    intro: "La retraite au soleil est le rêve de millions de Français — mais Nice, Biarritz et Aix-en-Provence ont des prix qui ont explosé ces dix dernières années. Est-il encore possible de s'installer en bord de mer ou dans le Sud avec une retraite modeste (1 400–1 800€/mois) ? Oui — en cherchant aux bons endroits.",
+    sections: [
+      {
+        heading: "Le mythe du Sud abordable : les chiffres réels",
+        body: "Le 'Sud abordable' a largement disparu dans les zones côtières premium. Nice (4 500€/m² en moyenne), Biarritz (6 000€/m²), Antibes (5 500€/m²) ou La Rochelle (4 200€/m²) sont inaccessibles pour une retraite modeste. En revanche, l'arrière-pays méditerranéen, le littoral languedocien hors stations balnéaires, et le Pays Basque intérieur offrent encore du soleil et de la douceur de vivre à des prix humains.",
+      },
+      {
+        heading: "Bagnols-sur-Cèze (30) : le soleil du Gard à prix accessible",
+        body: "Bagnols-sur-Cèze cumule 2 600 heures de soleil par an (parmi les plus élevées de France), proximité de la Provence (Avignon à 30 min), du Pont du Gard (10 min) et des Gorges de l'Ardèche (20 min). Les loyers sont 40% inférieurs à Nîmes pour un cadre de vie similaire. T2 entre 550€ et 700€/mois. Achat maison 3 pièces entre 150 000€ et 210 000€. Idéal pour la retraite active au cœur du Gard rhodanien.",
+      },
+      {
+        heading: "Narbonne (11) : entre mer et vignoble, abordable",
+        body: "Narbonne est souvent ignorée au profit de Montpellier ou Perpignan, mais elle combine mer (plages à 15 km), canal du Midi, garrigue, vignoble AOC Corbières, et des prix restés accessibles : T2 entre 580€ et 780€, maison 3 pièces entre 160 000€ et 250 000€. Le marché couvert de Narbonne est un régal. TGV Barcelone en 2h. Pour une retraite méditerranéenne sans les prix de l'Hérault.",
+      },
+      {
+        heading: "Lodève (34) : l'Hérault sauvage pour la retraite nature",
+        body: "Lodève est une découverte : petite ville de l'Hérault dans les gorges du Lergue (affluent de l'Hérault), à 50 km de Montpellier et 1h des plages. Soleil méditerranéen, produits locaux, marché hebdomadaire, tissu de télétravailleurs et retraités installés depuis 2020. T2 entre 450€ et 600€/mois. Maison 3 pièces entre 120 000€ et 180 000€. La Méditerranée sans la foule ni les prix.",
+      },
+      {
+        heading: "Castres (81) : le Tarn ensoleillé et abordable",
+        body: "Castres est sous-estimée : 800 heures de soleil de plus que Toulouse (1 500m plus au sud), Agout et ses maisons sur pilotis (les 'castraises'), musée Goya unique en France hors Espagne. Les prix sont très abordables : T2 entre 480€ et 650€, maison 3 pièces entre 130 000€ et 200 000€. Accès aux Pyrénées en 1h30 (Ax-les-Thermes), Barcelone en 3h. Une belle option pour une retraite active.",
+      },
+      {
+        heading: "Montélimar (26) : Provence nord à prix maîtrisés",
+        body: "Montélimar marque l'entrée de la Provence : lavande, nougat, garrigue, Mistral. TGV direct depuis Lyon et Marseille. Les prix sont encore raisonnables : T2 entre 580€ et 750€, maison entre 180 000€ et 290 000€. La Drôme provençale offre d'infinies randonnées. Les marchés provençaux sont à 20 minutes. Pour une retraite provençale à budget maîtrisé, c'est l'une des meilleures entrées.",
+      },
+      {
+        heading: "Les critères à vérifier pour une retraite au Sud",
+        body: "Avant de signer, vérifiez : la proximité d'un hôpital ou d'un EHPAD (importante à mesure qu'on avance en âge), le réseau de médecins généralistes (désertification médicale dans certaines zones rurales du Sud), le coût de l'assurance habitation (zone à risque incendie ou inondation dans certains coins), et les réseaux sociaux — car l'intégration dans une communauté est essentielle pour éviter l'isolement. Les villes étudiantes ou avec associations dynamiques facilitent l'intégration.",
+      },
+    ],
+    relatedCities: ["narbonne", "castres", "montelimar", "bagnols-sur-ceze"],
+    relatedGuides: [
+      "retraite-soleil-meilleures-villes-france-2025",
+      "meilleures-villes-pour-retraite-france-2025",
+      "meilleures-villes-retraites-budget-moins-1500-euros-2025",
+    ],
+    tags: ["retraite", "soleil", "Sud", "budget", "mer", "Méditerranée", "abordable"],
+  },
 ];
 
 export const GUIDE_CATEGORIES = [
