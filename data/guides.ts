@@ -1385,6 +1385,96 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["Auvergne-Rhône-Alpes", "Lyon", "Grenoble", "Annecy", "Alpes", "Rhône", "Auvergne"],
   },
+  {
+    slug: "vivre-en-pays-de-la-loire-guide-2025",
+    title: "Vivre en Pays de la Loire : Nantes, Angers, Le Mans, Saint-Nazaire — Guide 2025",
+    emoji: "🌊",
+    category: "region",
+    metaTitle: "Vivre en Pays de la Loire : Nantes, Angers, Le Mans, Cholet — Guide 2025 | MeilleurVille",
+    metaDesc: "Guide complet pour s'installer en Pays de la Loire : Nantes, Angers, Le Mans, Saint-Nazaire, Laval, Cholet. Emploi, logement, qualité de vie entre Atlantique et vallée de la Loire.",
+    intro: "Le Pays de la Loire est une région qui attire de plus en plus de Franciliens en quête de qualité de vie. Nantes, régulièrement élue ville où il fait bon vivre, en est la figure de proue. Mais Angers, Le Mans, Laval et Saint-Nazaire proposent des alternatives convaincantes à des prix bien plus abordables.",
+    readMinutes: 9,
+    publishedAt: "2025-08-15",
+    updatedAt: "2025-08-15",
+    sections: [
+      {
+        heading: "Nantes : la métropole atlantique idéale, mais sous pression",
+        body: "Nantes est depuis des années dans le top 5 des villes françaises préférées. Sa dynamique culturelle (les Machines de l'Île, la Folle Journée), son tissu économique (aéronautique avec Airbus, numérique, agroalimentaire) et sa connectivité (2h Paris en TGV) en font une destination très prisée. La contre-partie : les loyers ont fortement augmenté (T2 : 750–900€) et le marché immobilier est très tendu. Les quartiers périphériques (Saint-Herblain, Rezé, Carquefou) permettent de décompresser légèrement.",
+      },
+      {
+        heading: "Angers : le meilleur rapport qualité/prix de la région",
+        body: "Angers est souvent citée comme l'alternative idéale à Nantes. À 40 minutes en TGV de Paris et 1h de Nantes, elle offre une qualité de vie excellente à des prix nettement inférieurs (T2 : 600€). La ville du roi René abrite un château médiéval magnifique, une scène culturelle dynamique, une importante population étudiante (40 000 étudiants) et une économie diversifiée (santé, numérique, végétal). Le secteur du végétal fait d'Angers une ville pionnière dans l'agriculture du futur.",
+      },
+      {
+        heading: "Le Mans : la ville qui a su se réinventer",
+        body: "Au-delà de la course mythique des 24 Heures, Le Mans est une ville qui a considérablement évolué. La cité Plantagenêt (quartier médiéval exceptionnel), les tramways, le nouveau centre commercial et la zone d'activités se sont combinés pour attirer de nouveaux habitants. Loyers très accessibles (T2 : 520€), bonne desserte ferroviaire (55 min de Paris), et un marché immobilier parmi les moins chers des villes de cette taille.",
+      },
+      {
+        heading: "Saint-Nazaire et le littoral",
+        body: "Saint-Nazaire est une ville ouvrière qui se réinvente : les chantiers navals (Naval Group, STX/Chantiers de l'Atlantique) restent le cœur économique, mais la ville développe un port de plaisance, des espaces culturels (Base sous-marine reconvertie) et un littoral accessible. Les plages de La Baule sont à 15 minutes. Pour ceux qui veulent l'Atlantique sans les prix bretons, c'est une option sérieuse.",
+      },
+      {
+        heading: "Laval et Cholet : les alternatives oubliées",
+        body: "Laval (Mayenne) souffre d'une image de ville de transit mais mérite attention : centre-ville rénové, activité économique liée à l'agroalimentaire (Lactalis y est né), et loyers très compétitifs (T2 : 490€). Cholet, dans le Maine-et-Loire, est une ville industrielle dynamique connue pour son basket (les Choletais en Pro A) et sa population très sportive. Bien connectée à Nantes et Angers, elle offre un bon équilibre qualité de vie / prix.",
+      },
+      {
+        heading: "Travailler en Pays de la Loire",
+        body: "L'économie ligérienne est diversifiée et solide : aéronautique (Airbus, Safran à Nantes/Saint-Nazaire), agroalimentaire (Lactalis, Maine Foods), numérique (cluster Digital Loire Valley), santé et pharma (Sartorius Stedim, Boiron). Nantes est la locomotive mais la région entière profite d'un tissu de PME-PMI dynamique. Pour les télétravailleurs, toute la Loire entre Nantes et Angers est excellente — cadre de vie, fibre, et Paris accessible.",
+      },
+    ],
+    relatedCities: ["nantes", "angers", "le-mans", "laval", "saint-nazaire", "cholet"],
+    relatedGuides: [
+      "vivre-en-bretagne-guide-2025",
+      "quitter-paris-guide-2025",
+      "budget-vivre-en-france-comparatif",
+    ],
+    tags: ["Pays de la Loire", "Nantes", "Angers", "Le Mans", "Loire", "Atlantique"],
+  },
+  {
+    slug: "vivre-en-provence-paca-guide-2025",
+    title: "Vivre en Provence-Alpes-Côte d'Azur : Nice, Marseille, Aix, Toulon — Guide 2025",
+    emoji: "🌞",
+    category: "region",
+    metaTitle: "Vivre en PACA : Nice, Marseille, Aix-en-Provence, Toulon — Guide 2025 | MeilleurVille",
+    metaDesc: "Guide complet pour s'installer en Provence-Alpes-Côte d'Azur : Nice, Marseille, Aix-en-Provence, Toulon, Avignon, Draguignan, Arles. Soleil, mer, mais aussi red flags.",
+    intro: "PACA est le rêve de millions de Français : soleil, mer, lavande, gastronomie. Mais cette attractivité a un coût — immobilier sous tension, inégalités criantes, embouteillages. Ce guide démêle le vrai du faux pour vous aider à choisir la bonne ville et le bon quartier.",
+    readMinutes: 11,
+    publishedAt: "2025-09-01",
+    updatedAt: "2025-09-01",
+    sections: [
+      {
+        heading: "Nice : le luxe méditerranéen et ses contraintes",
+        body: "Nice est la 5ème ville de France et la capitale de la Côte d'Azur. Promenade des Anglais, vieille ville, colline du Château — l'identité est forte. Mais Nice est aussi l'une des villes les plus chères hors Paris (T2 : 900–1200€), avec des embouteillages chroniques sur la Côte et un marché immobilier très spéculatif. Pour les profils très aisés ou les expatriés européens, c'est une destination de choix. Pour les autres, les alternatives — Antibes, Grasse, Draguignan — méritent exploration.",
+      },
+      {
+        heading: "Marseille : la renaissance turbulente d'une métropole",
+        body: "Marseille est une ville clivante : on l'adore ou on la fuit. La cité phocéenne est en pleine mutation (Euro-Méditerranée, Aix-Marseille Université, secteur tech) mais reste marquée par des inégalités sociales fortes et une criminalité en hausse dans certains quartiers. Les calanques, le vieux-port, la bouillabaisse, le soleil 300 jours par an et des loyers inférieurs à Lyon (T2 : 700€) compensent pour beaucoup. La sélection du quartier est absolument critique.",
+      },
+      {
+        heading: "Aix-en-Provence : la ville parfaite, au prix parfait ?",
+        body: "Aix est souvent décrite comme 'Marseille pour ceux qui n'ont pas le courage de Marseille'. La ville de Cézanne est effectivement plus calme, plus bourgeoise, plus chère (5 000€/m² en centre). Elle abrite une grande université (Aix-Marseille), une scène culturelle intense (Festival d'art lyrique) et une économie diversifiée. Le trajet Aix-Marseille en train prend 30 minutes, ce qui en fait une base pour travailler à Marseille en vivant à Aix.",
+      },
+      {
+        heading: "Toulon et la face cachée du Var",
+        body: "Toulon est la ville militaire de France par excellence (arsenal de la Marine, base navale). Elle a longtemps souffert d'une image dégradée mais se redresse : les quais rénovés, l'opéra, les calanques de Cassis à portée de bateau. Les loyers sont modérés pour une ville côtière (T2 : 680€) et l'immobilier reste accessible. L'hyper-touristique Saint-Tropez est à 1h, mais Toulon reste une ville qui 'vit à l'année'.",
+      },
+      {
+        heading: "Avignon, Arles et l'arrière-pays : les trésors cachés",
+        body: "Avignon (Palais des Papes, Festival mondial de théâtre) est une ville extraordinaire mais congestionnée et touristique. Les prix ont augmenté (T2 : 720€) mais restent inférieurs à Aix. Arles, plus tranquille, est une ville d'art (musée Fondation Van Gogh, Arles Antique) à prix très raisonnables. L'arrière-pays varois — Draguignan, Barjols, Cotignac — offre l'authenticité provençale à prix plancher. À creuser sérieusement pour les profils remote.",
+      },
+      {
+        heading: "Les Red Flags de PACA",
+        body: "PACA concentre plusieurs Red Flags sérieux : risque inondation dans les Alpes-Maritimes et les Bouches-du-Rhône (crues torrentielles), risque feux de forêt en été (Var, Alpes-Maritimes), tramontane/mistral qui peut être épuisant psychologiquement, pollution de l'air estivale à Marseille et Nice, et marchés immobiliers spéculatifs dans les villes touristiques. Vérifiez impérativement les plans de prévention des risques (PPR) avant tout achat.",
+      },
+    ],
+    relatedCities: ["nice", "marseille", "aix-en-provence", "toulon", "avignon", "draguignan", "antibes", "cannes"],
+    relatedGuides: [
+      "vivre-dans-le-sud-france-guide-2025",
+      "vivre-en-france-teletravail-guide-2025",
+      "acheter-immobilier-france-meilleures-villes-2025",
+    ],
+    tags: ["PACA", "Provence", "Côte d'Azur", "Nice", "Marseille", "Aix", "Toulon", "soleil", "mer"],
+  },
 ];
 
 export const GUIDE_CATEGORIES = [
