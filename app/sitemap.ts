@@ -495,6 +495,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ["mayenne", "laval"],
     ["pont-a-mousson", "nancy"],
     ["pont-a-mousson", "metz"],
+    ["etampes", "evry-courcouronnes"],
+    ["etampes", "chartres"],
+    ["soissons", "laon"],
+    ["villefranche-sur-saone", "lyon"],
+    ["villefranche-sur-saone", "macon"],
+    ["montbard", "beaune"],
+    ["montbard", "dijon"],
+    ["paray-le-monial", "chalon-sur-saone"],
+    ["semur-en-auxois", "beaune"],
+    ["semur-en-auxois", "dijon"],
   ];
 
   const staticRoutes: MetadataRoute.Sitemap = [

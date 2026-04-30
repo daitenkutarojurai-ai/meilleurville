@@ -286,6 +286,12 @@ export const HOUSING: Record<string, HousingData> = {
   "saint-yrieix-la-perche":  { avgRentT1: 340,  avgRentT2: 480,  avgRentT3: 640,  avgBuyPriceM2: 1000 },
   mayenne:                   { avgRentT1: 400,  avgRentT2: 570,  avgRentT3: 760,  avgBuyPriceM2: 1300 },
   "pont-a-mousson":          { avgRentT1: 460,  avgRentT2: 650,  avgRentT3: 870,  avgBuyPriceM2: 1700 },
+  etampes:                   { avgRentT1: 590,  avgRentT2: 840,  avgRentT3: 1120, avgBuyPriceM2: 2500 },
+  soissons:                  { avgRentT1: 490,  avgRentT2: 700,  avgRentT3: 930,  avgBuyPriceM2: 1700 },
+  "villefranche-sur-saone":  { avgRentT1: 560,  avgRentT2: 800,  avgRentT3: 1070, avgBuyPriceM2: 2500 },
+  montbard:                  { avgRentT1: 340,  avgRentT2: 480,  avgRentT3: 640,  avgBuyPriceM2: 1000 },
+  "paray-le-monial":         { avgRentT1: 380,  avgRentT2: 540,  avgRentT3: 720,  avgBuyPriceM2: 1300 },
+  "semur-en-auxois":         { avgRentT1: 360,  avgRentT2: 510,  avgRentT3: 680,  avgBuyPriceM2: 1200 },
 };
 
 export function getHousing(slug: string): HousingData | undefined {
