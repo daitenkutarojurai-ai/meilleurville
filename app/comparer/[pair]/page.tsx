@@ -338,6 +338,18 @@ const SEO_PAIRS = [
   ["frejus", "draguignan"],
   ["menton", "nice"],
   ["menton", "antibes"],
+  ["dinard", "saint-malo"],
+  ["dinard", "saint-brieuc"],
+  ["collioure", "perpignan"],
+  ["collioure", "sete"],
+  ["senlis", "compiegne"],
+  ["senlis", "beauvais"],
+  ["morlaix", "brest"],
+  ["morlaix", "quimper"],
+  ["provins", "fontainebleau"],
+  ["provins", "versailles"],
+  ["gex", "annecy"],
+  ["gex", "belfort"],
 ];
 
 export function generateStaticParams() {
