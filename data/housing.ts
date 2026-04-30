@@ -280,6 +280,12 @@ export const HOUSING: Record<string, HousingData> = {
   "les-andelys":             { avgRentT1: 470,  avgRentT2: 660,  avgRentT3: 890,  avgBuyPriceM2: 1900 },
   dreux:                     { avgRentT1: 490,  avgRentT2: 700,  avgRentT3: 930,  avgBuyPriceM2: 2000 },
   "florac-trois-rivieres":   { avgRentT1: 340,  avgRentT2: 480,  avgRentT3: 640,  avgBuyPriceM2: 1300 },
+  sedan:                     { avgRentT1: 380,  avgRentT2: 540,  avgRentT3: 720,  avgBuyPriceM2: 1100 },
+  "bar-sur-aube":            { avgRentT1: 340,  avgRentT2: 480,  avgRentT3: 640,  avgBuyPriceM2: 1100 },
+  gray:                      { avgRentT1: 360,  avgRentT2: 510,  avgRentT3: 680,  avgBuyPriceM2: 1100 },
+  "saint-yrieix-la-perche":  { avgRentT1: 340,  avgRentT2: 480,  avgRentT3: 640,  avgBuyPriceM2: 1000 },
+  mayenne:                   { avgRentT1: 400,  avgRentT2: 570,  avgRentT3: 760,  avgBuyPriceM2: 1300 },
+  "pont-a-mousson":          { avgRentT1: 460,  avgRentT2: 650,  avgRentT3: 870,  avgBuyPriceM2: 1700 },
 };
 
 export function getHousing(slug: string): HousingData | undefined {

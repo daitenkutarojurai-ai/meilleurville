@@ -486,6 +486,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ["les-andelys", "evreux"],
     ["dreux", "chartres"],
     ["florac-trois-rivieres", "mende"],
+    ["sedan", "charleville-mezieres"],
+    ["sedan", "verdun"],
+    ["bar-sur-aube", "troyes"],
+    ["gray", "vesoul"],
+    ["gray", "besancon"],
+    ["saint-yrieix-la-perche", "limoges"],
+    ["mayenne", "laval"],
+    ["pont-a-mousson", "nancy"],
+    ["pont-a-mousson", "metz"],
   ];
 
   const staticRoutes: MetadataRoute.Sitemap = [
