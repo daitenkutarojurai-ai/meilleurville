@@ -1655,6 +1655,112 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["bord de mer", "côtier", "Atlantique", "Méditerranée", "Manche", "Bretagne", "Normandie", "PACA"],
   },
+  {
+    slug: "tresors-caches-villes-sous-estimees-france-2025",
+    title: "Les 10 villes françaises sous-estimées qui méritent d'être connues — 2025",
+    emoji: "💎",
+    category: "comparaison",
+    metaTitle: "Villes françaises sous-estimées et méconnues — Top 10 Pépites 2025 | MeilleurVille",
+    metaDesc: "Ces 10 villes françaises sont des pépites cachées : qualité de vie exceptionnelle, prix abordables, mais méconnues du grand public. Figeac, Rodez, Saintes, Vannes, Besançon...",
+    intro: "Pendant que tout le monde se dispute Bordeaux et Annecy, des dizaines de villes françaises offrent une qualité de vie remarquable à des prix qui n'ont pas encore explosé. Ce guide les révèle avant qu'il ne soit trop tard.",
+    readMinutes: 7,
+    publishedAt: "2025-11-01",
+    updatedAt: "2025-11-01",
+    sections: [
+      {
+        heading: "1. Rodez (Aveyron) — 7.5/10, incroyablement sous-côté",
+        body: "Rodez est une ville préfectorale de 25 000 habitants perchée à 630m d'altitude dans l'Aveyron. Son musée Soulages (architecte-vedette Jean-Michel Wilmotte) attire 200 000 visiteurs par an. Le marché de l'immobilier est imbattable (T2 : 510€, achat < 1 600€/m²), les Aveyronnais sont reconnus pour leur accueil chaleureux, et la gastronomie locale (tripoux, aligot, fromages) est d'un niveau exceptionnel. Contrainte : l'enclavement (voiture indispensable).",
+      },
+      {
+        heading: "2. Saintes (Charente-Maritime) — 7.2/10, la Rome méconnue de France",
+        body: "Saintes abrite des arènes romaines et un arc de triomphe du 1er siècle qui rivaliseraient avec Rome si la ville se trouvait en Toscane. L'abbaye aux Dames et le centre médiéval sont remarquables. La ville est traversée par la Charente, avec de belles promenades à vélo. Soleil océanique, prix très accessibles (T2 : 520€), taille humaine (25 000 hab.). Méconnue parce qu'elle est à l'ombre de La Rochelle.",
+      },
+      {
+        heading: "3. Figeac (Lot) — 7.4/10, le joyau médiéval du Quercy",
+        body: "Figeac est une ville médiévale en grès doré d'une beauté exceptionnelle. C'est la ville natale de Champollion, déchiffreur des hiéroglyphes — le musée qui lui est consacré est l'un des meilleurs de France. La rivière Célé et ses gorges sont à quelques kilomètres. L'immobilier est parmi les plus accessibles de France. Pour les télétravailleurs cherchant l'authenticité française absolue, c'est une destination de premier choix.",
+      },
+      {
+        heading: "4. Besançon (Doubs) — 7.6/10, la citadelle Vauban dans la boucle du Doubs",
+        body: "Besançon est classée UNESCO (citadelle de Vauban), championne de France du vélo, naissance de Victor Hugo et des frères Lumière. Et pourtant, peu de Français la citent quand on leur demande les meilleures villes où vivre. Son isolement relatif (1h30 de Lyon, 3h de Paris) est sa principale faiblesse — mais aussi sa force : les loyers restent très raisonnables (T2 : 600€) malgré une qualité de vie métropolitaine.",
+      },
+      {
+        heading: "5. Millau (Aveyron) — 7.3/10, le viaduc et les Causses",
+        body: "Millau est connue pour son viaduc (le plus haut pont du monde par son tablier). Moins connue : c'est une ville de plein air exceptionnelle — escalade sur les Causses, kayak sur le Tarn, randonnées sur les Grands Causses. Score nature : 9.5/10. Prix immobiliers plancher, qualité de vie hors norme, et le gant de Millau est un artisanat d'exception. Idéale pour les profils outdoor/télétravail.",
+      },
+      {
+        heading: "6. Cahors (Lot) — 7.3/10, le Pont Valentré et le Cahors AOC",
+        body: "Cahors est une ville dans une boucle du Lot avec un pont médiéval fortifié (Pont Valentré) classé Patrimoine Mondial. Le vignoble de Cahors (malbec) est l'un des plus anciens de France. Les ruelles médiévales, le marché des truffes et foie gras en hiver, et les prix plancher (T2 : 440€) en font une destination de rêve pour les amateurs d'authenticité.",
+      },
+      {
+        heading: "7. Épinal (Vosges) — 6.8/10, l'imagerie et les forêts",
+        body: "Épinal est connue pour ses images (imagerie populaire du XIXe siècle) et rien d'autre aux yeux du grand public. En réalité, c'est une ville agréable au bord de la Moselle, aux portes des forêts vosgiennes. Les loyers sont parmi les plus bas de France (T2 : 490€). La ville a une vraie vie culturelle (musée de l'Image de renommée internationale) et un accès facile aux Vosges pour la randonnée et le ski.",
+      },
+      {
+        heading: "8. Vichy (Allier) — 7.0/10, la station thermale réinventée",
+        body: "Vichy souffre d'une image sulfureuse (le régime de Vichy). Mais la ville thermale belle époque, avec ses parcs majestueux, ses thermes ouverts au public, son Palais des Congrès et ses promenades au bord de l'Allier, est d'une qualité de vie remarquable. Loyers très accessibles (T2 : 480€), infrastructure médicale excellente, à 45 minutes de Clermont-Ferrand. Une destination idéale pour les retraités et télétravailleurs.",
+      },
+      {
+        heading: "9. Cognac (Charente) — 7.0/10, le luxe méconnu du Cognac",
+        body: "Cognac est connue dans le monde entier pour son eau-de-vie — mais personne ne pense à y habiter. Et pourtant : maisons de négoce magnifiques (Hennessy, Rémy Martin, Martell), vieille ville médiévale, bords de Charente agréables, soleil charentais, et prix immobiliers encore très abordables (T2 : 460€). Un cadre de vie authentique avec une identité mondiale unique.",
+      },
+      {
+        heading: "10. Montélimar (Drôme) — 7.1/10, le soleil drômois et le nougat",
+        body: "Montélimar est sur l'axe Paris-Marseille (gare TGV), ce qui en fait une base excellente pour les pendulaires. La ville du nougat bénéficie de plus de 2 600h de soleil par an, d'une vieille ville avec le château des Adhémar, et d'une position idéale entre les Alpes et la Provence. Loyers modérés (T2 : 580€). Une alternative sérieuse à Valence et Avignon pour ceux qui veulent le Sud à prix raisonnable.",
+      },
+    ],
+    relatedCities: ["rodez", "saintes", "figeac", "besancon", "millau", "cahors", "epinal", "vichy", "cognac", "montelimar"],
+    relatedGuides: [
+      "budget-vivre-en-france-comparatif",
+      "quitter-paris-guide-2025",
+      "vivre-en-france-teletravail-guide-2025",
+    ],
+    tags: ["villes méconnues", "pépites", "trésors cachés", "qualité de vie", "abordable", "authenticité"],
+  },
+  {
+    slug: "alternatives-ile-de-france-banlieue-parisienne-guide-2025",
+    title: "Quitter l'Île-de-France : les meilleures alternatives à la banlieue parisienne",
+    emoji: "🗺️",
+    category: "teletravail",
+    metaTitle: "Quitter l'Île-de-France : meilleures alternatives à la banlieue parisienne 2025 | MeilleurVille",
+    metaDesc: "Vous vivez en banlieue parisienne et cherchez mieux ? Guide 2025 des villes hors Île-de-France accessibles en TGV où vivre comme en banlieue pour deux fois moins cher.",
+    intro: "Des millions de Français vivent en banlieue parisienne dans des appartements trop petits, avec 2h de RER par jour, pour des loyers de 1 200€. La même qualité de vie est disponible en province pour moitié moins cher — et souvent à 2h de Paris en TGV. Ce guide pour les familles et télétravaille urs qui envisagent le saut.",
+    readMinutes: 9,
+    publishedAt: "2025-11-15",
+    updatedAt: "2025-11-15",
+    sections: [
+      {
+        heading: "Le calcul qui change tout : banlieue vs province",
+        body: "En grande banlieue parisienne (Meaux, Melun, Pontoise), un T3 coûte 900–1 100€/mois. À Reims, Tours, Le Mans ou Orléans, le même T3 coûte 700–850€. La différence : 250–350€/mois, soit 3 000–4 200€/an. Ajoutez le temps de trajet annuel économisé (1h/jour × 220j × 2 personnes = 880h/an), la qualité de vie supérieure, et l'espace supplémentaire. Le ROI du déménagement est typiquement positif dès la 2ème année pour un télétravailleur full remote.",
+      },
+      {
+        heading: "Les 'faux Paris' : Reims, Rouen, Caen, Tours",
+        body: "Ces villes ont une accessibilité Paris remarquable (moins de 2h en TGV) et un cadre de vie métropolitain complet — universités, CHU, culture, transport. Reims : 45 min de Paris, champagne, cathédrale gothique, loyers 30% moins chers qu'en grande banlieue. Rouen : 1h15 de Paris, Normands aux pieds sur terre, architecture remarquable. Tours : 1h de Paris, douceur tourangelle, qualité de vie élevée. Caen : 2h de Paris, vie normande, mer à 20 min.",
+      },
+      {
+        heading: "Pour les familles : Le Mans, Angers, Laval",
+        body: "Le Mans à 55 min de Paris est l'alternative familiale idéale : loyers plancher (T3 : 750€), qualité des écoles correcte, vie culturelle active (24 Heures, cité Plantagenêt). Angers est l'option premium : qualité de vie supérieure, ville plus dynamique, mais loyers légèrement plus élevés (T3 : 900€). Laval, moins connue, est parfaite pour les profils full remote avec des enfants : calme, abordable, proche de Rennes et Le Mans.",
+      },
+      {
+        heading: "Pour les télétravailleurs exigeants : Nantes, Rennes, Bordeaux",
+        body: "Si vous êtes full remote et prêts à aller plus loin, Nantes (2h20), Rennes (1h30), Bordeaux (2h05) ouvrent un monde de possibilités. Nantes et Rennes sont dans le top 5 des villes préférées des Français — et coûtent encore 30–40% moins cher qu'en grande banlieue parisienne. Bordeaux est plus chère mais reste bien en dessous du seuil parisien.",
+      },
+      {
+        heading: "Le piège à éviter : déménager trop loin sans avoir testé",
+        body: "Le plus grand risque est de déménager à 4h de Paris et de réaliser 6 mois plus tard que vous avez besoin de remonter régulièrement — pour le bureau, la famille, les amis. La règle empirique : la ville cible doit être accessible depuis Paris en moins de 3h de porte à porte (train + trajet gare). Au-delà, planifiez vraiment pour ne pas remonter. En pratique : Reims, Tours, Le Mans, Caen, Angers sont dans la zone '2h' ; Lyon, Nantes, Bordeaux, Rennes dans la zone '2-3h' ; tout le reste requiert une vraie rupture.",
+      },
+      {
+        heading: "Comment réussir la transition",
+        body: "Trois conditions pour réussir : 1) Testez avant. Louez un logement Airbnb 1 mois dans la ville cible avant de déménager — vous saurez si le mode de vie vous convient. 2) Gardez un pied à Paris si possible. Un bail flexible, une chambre chez la famille — pour les premières années, avoir un 'QG parisien' réduit l'anxiété. 3) Rejoignez les communautés locales immédiatement. Les associations sportives, les clubs, le marché local : l'intégration sociale est la clé du succès dans une nouvelle ville.",
+      },
+    ],
+    relatedCities: ["reims", "caen", "le-mans", "angers", "laval", "tours", "nantes", "rennes", "bordeaux"],
+    relatedGuides: [
+      "quitter-paris-guide-2025",
+      "vivre-en-france-teletravail-guide-2025",
+      "budget-vivre-en-france-comparatif",
+    ],
+    tags: ["Île-de-France", "banlieue parisienne", "quitter Paris", "TGV", "télétravail", "famille"],
+  },
 ];
 
 export const GUIDE_CATEGORIES = [
