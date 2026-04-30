@@ -874,6 +874,100 @@ export const GUIDES: Guide[] = [
     relatedGuides: ["vivre-en-france-teletravail-guide-2025", "quitter-paris-guide-2025"],
     tags: ["Auvergne-Rhône-Alpes", "Lyon", "Grenoble", "Annecy", "comparaison", "alpes"],
   },
+  {
+    slug: "retraite-france-meilleures-villes-2025",
+    title: "Prendre sa retraite en France : les 10 meilleures villes 2025",
+    metaTitle: "Retraite en France : meilleures villes 2025 — Soleil, budget, santé",
+    metaDesc: "Soleil, accès aux soins, sécurité, coût de la vie : notre guide complet pour choisir la meilleure ville française pour votre retraite. Top 10 avec données réelles.",
+    category: "lifestyle",
+    emoji: "☀️",
+    readMinutes: 9,
+    publishedAt: "2025-03-15",
+    updatedAt: "2025-04-28",
+    intro: "La retraite est l'une des grandes décisions géographiques de la vie. Faut-il rester près des enfants, ou partir au soleil ? Faut-il sacrifier l'accessibilité médicale pour un budget plus confortable ? Ce guide répond honnêtement — avec des données, pas des clichés.",
+    sections: [
+      {
+        heading: "Les 4 critères qui comptent vraiment pour la retraite",
+        body: "Les retraités sérieux mesurent : (1) Accès aux soins — délai moyen pour un généraliste, présence d'un CHU ou hôpital de référence, densité de spécialistes. (2) Douceur du climat — nombre de jours de soleil et températures hivernales, car les hivers rudes ont un coût physique et émotionnel. (3) Sécurité — les retraités sont plus vulnérables aux cambriolages et à l'insécurité publique. (4) Budget logement — est-ce que votre pension vous permet de vivre sans vous restreindre ?",
+      },
+      {
+        heading: "Montpellier : la ville-retraite n°1",
+        body: "Score retraite MeilleurVille : 8.3/10. Montpellier cumule tout : 300 jours de soleil, le CHU de Montpellier parmi les meilleurs de France, un réseau de tramway excellent, et des loyers encore accessibles (T2 médian 780€). La proximité de la mer (Palavas à 15 km) est un bonus. La ville accueille chaque année des milliers de retraités de la région parisienne. Seul bémol : les étés très chauds (canicules récurrentes) et un taux d'insécurité supérieur au centre-ville.",
+      },
+      {
+        heading: "Aix-en-Provence : le premium de Provence",
+        body: "Score retraite : 8.1/10. Aix est la ville idéale pour le retraité aisé : sécurité exceptionnelle, gastronomie, patrimoine, 300 jours de soleil, et une communauté internationale importante. Le CHU de Marseille est à 30 minutes. Mais comptez 850-950€ pour un T2 et 4 500-5 000€/m² pour acheter. Le coût est élevé mais la qualité de vie l'est aussi.",
+      },
+      {
+        heading: "Vannes : la retraite bretonne parfaite",
+        body: "Score retraite : 7.9/10. Vannes est méconnue des Parisiens malgré ses atouts exceptionnels : golfe du Morbihan (le plus beau golfe de France selon les navigateurs), sécurité parmi les meilleures de Bretagne, hôpital de proximité solide, et loyers encore raisonnables (T2 médian 800€). L'été breton attire les touristes mais l'hiver reste doux (8°C en janvier). Idéale pour les retraités actifs qui aiment la voile, la randonnée et la nature.",
+      },
+      {
+        heading: "Annecy : pour ceux qui ont les moyens",
+        body: "Score retraite : 8.6/10 (1er au global). Annecy est objectivement la meilleure ville de France pour la retraite si le budget n'est pas une contrainte. Lac, montagnes, sécurité exceptionnelle, CHU de Grenoble à 45 min. Mais le T2 dépasse 1 000€/mois et l'achat nécessite 5 500€/m². Pour les retraités avec patrimoine immobilier parisien à revendre, c'est souvent le calcul idéal.",
+      },
+      {
+        heading: "Rodez et l'Aveyron : le secret bien gardé",
+        body: "Score retraite : 7.8/10. Rodez est l'une des villes les mieux classées de France pour la retraite sur le rapport qualité/coût. Son indice de sécurité est remarquable, l'hôpital de Rodez est moderne, et un T2 se loue 510€. Le plateau aveyronnais offre une nature préservée, une gastronomie authentique (aligot, tripoux, fromages) et une qualité d'air exceptionnelle. Le bémol : l'isolation géographique et des hivers froids (630m d'altitude).",
+      },
+      {
+        heading: "La question santé : ne pas se tromper",
+        body: "L'erreur classique : choisir une belle ville sans vérifier l'accès aux soins. Des villes magnifiques comme Biarritz ont des délais de rdv chez le spécialiste supérieurs à 3 mois — parce que beaucoup de retraités s'y installent et saturent l'offre médicale. Vérifiez : délai rdv généraliste, présence d'un cardiologue, dermatologue, ophtalmologue, distance au CHU le plus proche. C'est la décision la plus importante à 65 ans.",
+      },
+    ],
+    relatedCities: ["montpellier", "aix-en-provence", "vannes", "annecy", "rodez", "nice"],
+    relatedGuides: [
+      "budget-vivre-en-france-comparatif",
+      "vivre-dans-le-sud-france-guide-2025",
+      "meilleure-ville-famille-france",
+    ],
+    tags: ["retraite", "soleil", "santé", "sécurité", "Provence", "Bretagne"],
+  },
+  {
+    slug: "vivre-en-occitanie-guide-2025",
+    title: "Vivre en Occitanie : Toulouse, Montpellier, Perpignan, Sète — Guide 2025",
+    metaTitle: "Vivre en Occitanie 2025 — Toulouse, Montpellier, Perpignan : guide complet",
+    metaDesc: "Soleil, emploi, immobilier, qualité de vie : notre guide pour choisir où s'installer en Occitanie entre Toulouse, Montpellier, Perpignan et Sète. Analyse honnête.",
+    category: "region",
+    emoji: "🌻",
+    readMinutes: 9,
+    publishedAt: "2025-04-01",
+    updatedAt: "2025-04-29",
+    intro: "L'Occitanie est la région la plus ensoleillée de France continentale. Mais entre Toulouse et Perpignan, les réalités sont radicalement différentes. Ce guide démêle les clichés du soleil et de la douceur de vivre pour vous aider à choisir la bonne ville occitane selon votre profil.",
+    sections: [
+      {
+        heading: "Toulouse : la métropole ambitieuse",
+        body: "Score MeilleurVille : 8.0/10. Toulouse est la 4e ville de France et la capitale mondiale de l'aéronautique (Airbus, ATR, Safran). Son bassin d'emploi est l'un des plus dynamiques de France en dehors de Paris. Le loyer T2 médian est de 800€, et la ville investit massivement dans son réseau de transport (3e ligne de métro en cours). Idéale pour les carrières tech, ingénierie et aéronautique. Bémol : la croissance a tendu l'immobilier et la ville souffre d'embouteillages chroniques.",
+      },
+      {
+        heading: "Montpellier : la ville des possibles",
+        body: "Score MeilleurVille : 8.1/10. Montpellier est la ville française qui a le plus changé en 20 ans. Université d'excellence (classée 150e mondiale), CHU de référence, French Tech active, tramway dense — la ville a tout d'une grande métropole sans les inconvénients de Paris. Son accès à la mer (Palavas à 15 min), ses 300 jours de soleil et une communauté internationale importante en font la destination préférée des expats français de retour. Loyer T2 médian : 780€.",
+      },
+      {
+        heading: "Perpignan : le soleil à prix doux",
+        body: "Score MeilleurVille : 6.6/10. Perpignan est la ville la moins chère du Midi avec le meilleur ensoleillement de France (2 800h/an). Un T2 se loue 550€ en moyenne. La ville est à 30 min de la frontière espagnole (Barcelone en 1h de TGV), ce qui ouvre un marché de l'emploi transfrontalier. Mais son économie locale est fragile et son taux de chômage parmi les plus élevés de France. Idéale pour les retraités et télétravailleurs, pas pour les salariés locaux.",
+      },
+      {
+        heading: "Sète : l'anti-ville parfaite",
+        body: "Score MeilleurVille : 7.1/10. Sète est surnommée la «Venise du Languedoc» et attire de plus en plus de familles et télétavailleurs qui fuient les grandes villes. Ses 45 000 habitants lui donnent la taille d'une ville vivable, sa position entre mer et étang est unique, et ses loyers sont encore raisonnables (T2 médian 680€). L'identité culturelle forte (carnaval, joutes nautiques) crée une cohésion sociale rare. Limite : la connectivité internet et l'offre d'emploi local.",
+      },
+      {
+        heading: "Nîmes et Alès : les alternatives oubliées",
+        body: "Nîmes (7.0/10) est la ville des arènes romaines et du sud authentique. 2 600h de soleil/an, T2 médian 640€, et un accès TGV vers Paris en 2h45. Alès (6.2/10) offre quant à elle le rapport qualité/prix le plus attractif du Gard : T2 médian 520€, nature Cévénole à 10 minutes, et une économie locale en reconversion. Pour les familles cherchant un cadre de vie occitan sans la pression immobilière de Montpellier, ces deux villes méritent une vraie attention.",
+      },
+      {
+        heading: "Le verdict : pour qui ?",
+        body: "Carrière ambitieuse / industrie : Toulouse. Lifestyle / soleil / équilibre : Montpellier. Retraite / budget serré / soleil max : Perpignan. Télétravail / authenticité / mer : Sète. Famille / budget / nature cévenole : Alès. Il n'y a pas de mauvais choix en Occitanie — il y a des choix qui correspondent à votre profil.",
+      },
+    ],
+    relatedCities: ["toulouse", "montpellier", "perpignan", "sete", "nimes", "ales"],
+    relatedGuides: [
+      "vivre-dans-le-sud-france-guide-2025",
+      "budget-vivre-en-france-comparatif",
+      "retraite-france-meilleures-villes-2025",
+    ],
+    tags: ["Occitanie", "Toulouse", "Montpellier", "Perpignan", "Sète", "Sud de la France"],
+  },
 ];
 
 export const GUIDE_CATEGORIES = [
