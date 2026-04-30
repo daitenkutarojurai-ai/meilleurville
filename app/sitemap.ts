@@ -395,6 +395,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ["tulle", "limoges"],
     ["pontarlier", "besancon"],
     ["pontarlier", "belfort"],
+    ["challans", "la-roche-sur-yon"],
+    ["challans", "les-sables-d-olonne"],
+    ["fontenay-le-comte", "niort"],
+    ["fontenay-le-comte", "la-roche-sur-yon"],
+    ["vendome", "blois"],
+    ["vendome", "tours"],
+    ["vierzon", "bourges"],
+    ["vierzon", "chateauroux"],
+    ["montargis", "orleans"],
+    ["montargis", "fontainebleau"],
+    ["gien", "orleans"],
+    ["gien", "saumur"],
   ];
 
   const staticRoutes: MetadataRoute.Sitemap = [
