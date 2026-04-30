@@ -398,6 +398,18 @@ const SEO_PAIRS = [
   ["digne-les-bains", "sisteron"],
   ["vaison-la-romaine", "avignon"],
   ["vaison-la-romaine", "orange"],
+  ["albertville", "chambery"],
+  ["albertville", "annecy"],
+  ["evian-les-bains", "annecy"],
+  ["evian-les-bains", "thonon-les-bains"],
+  ["issoire", "clermont-ferrand"],
+  ["issoire", "vichy"],
+  ["moulins", "vichy"],
+  ["moulins", "clermont-ferrand"],
+  ["tulle", "brive-la-gaillarde"],
+  ["tulle", "limoges"],
+  ["pontarlier", "besancon"],
+  ["pontarlier", "belfort"],
 ];
 
 export function generateStaticParams() {

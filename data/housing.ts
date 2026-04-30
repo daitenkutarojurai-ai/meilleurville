@@ -226,6 +226,12 @@ export const HOUSING: Record<string, HousingData> = {
   "sainte-maxime":          { avgRentT1: 750,  avgRentT2: 1050, avgRentT3: 1450, avgBuyPriceM2: 5500 },
   "digne-les-bains":        { avgRentT1: 380,  avgRentT2: 540,  avgRentT3: 720,  avgBuyPriceM2: 1700 },
   "vaison-la-romaine":      { avgRentT1: 490,  avgRentT2: 700,  avgRentT3: 950,  avgBuyPriceM2: 2500 },
+  albertville:              { avgRentT1: 520,  avgRentT2: 740,  avgRentT3: 1000, avgBuyPriceM2: 2800 },
+  "evian-les-bains":        { avgRentT1: 650,  avgRentT2: 920,  avgRentT3: 1250, avgBuyPriceM2: 3800 },
+  issoire:                  { avgRentT1: 380,  avgRentT2: 540,  avgRentT3: 720,  avgBuyPriceM2: 1600 },
+  moulins:                  { avgRentT1: 360,  avgRentT2: 510,  avgRentT3: 680,  avgBuyPriceM2: 1300 },
+  tulle:                    { avgRentT1: 370,  avgRentT2: 530,  avgRentT3: 700,  avgBuyPriceM2: 1400 },
+  pontarlier:               { avgRentT1: 490,  avgRentT2: 700,  avgRentT3: 940,  avgBuyPriceM2: 2400 },
 };
 
 export function getHousing(slug: string): HousingData | undefined {
