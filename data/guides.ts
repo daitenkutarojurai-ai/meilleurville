@@ -2575,6 +2575,231 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["Corse", "Ajaccio", "Bastia", "île", "Méditerranée", "télétravail", "logement", "installation"],
   },
+  {
+    slug: "lyon-vs-bordeaux-comparatif-2025",
+    title: "Lyon vs Bordeaux 2025 — Quelle ville choisir pour s'installer ?",
+    emoji: "⚖️",
+    category: "comparaison",
+    metaTitle: "Lyon vs Bordeaux 2025 — Comparatif complet pour s'installer | MeilleurVille",
+    metaDesc: "Lyon ou Bordeaux pour s'installer en 2025 ? Comparatif prix de l'immobilier, emploi, transports, qualité de vie, gastronomie. Analyse détaillée pour choisir entre les deux métropoles.",
+    intro: "Lyon et Bordeaux sont les deux métropoles françaises qui concentrent le plus de demandes de mutation depuis Paris. Proches dans les sondages de satisfaction, elles sont pourtant profondément différentes dans leur culture, leur économie et leur rapport au quotidien. Ce guide vous aide à choisir.",
+    readMinutes: 9,
+    publishedAt: "2026-04-25",
+    updatedAt: "2026-04-25",
+    sections: [
+      {
+        heading: "L'économie et l'emploi : Lyon plus solide, Bordeaux plus jeune",
+        body: "Lyon est la 2e économie française avec une diversification remarquable : pharma (Sanofi, bioMérieux), chimie, finance, tech (French Tech labellisée), BTP. Le chômage y est structurellement bas et le marché de l'emploi absorbe bien les arrivants de Paris. Bordeaux a connu une explosion démographique et économique depuis 2010 mais son tissu économique est moins mature : aéronautique (Dassault, Thales), tourisme, wine economy et une scène startup plus récente. Lyon gagne sur la stabilité de l'emploi ; Bordeaux est plus excitante pour les profils entrepreneuriaux.",
+      },
+      {
+        heading: "L'immobilier : Lyon plus cher, Bordeaux rattrapant",
+        body: "Pendant longtemps, Bordeaux était la ville 'pas chère' face à Lyon. Ce n'est plus vrai depuis 2018 : les prix bordelais ont explosé (+ 60% en 10 ans). Bordeaux affiche désormais des prix comparables à Lyon en centre-ville (4 500-5 500€/m²) et même supérieurs dans les quartiers prisés comme les Chartrons ou Saint-Michel. Lyon reste globalement plus cher (5 000-6 500€/m² dans les arrondissements centraux) mais offre plus de diversité dans les options en dehors du centre. Avantage Lyon sur le long terme pour la stabilité des prix.",
+      },
+      {
+        heading: "La gastronomie : le duel sans perdant",
+        body: "Lyon est la capitale mondiale de la gastronomie — Paul Bocuse, les bouchons lyonnais, les marchés de la Croix-Rousse et les mâchons du dimanche matin. C'est une culture culinaire profondément ancrée dans l'identité locale. Bordeaux a la gastronomie du vin (les meilleurs accords mets-vins, les châteaux en sortie de ville) et une nouvelle scène gastronomique bistronomique très dynamique. Les deux villes se valent, mais pour des expériences différentes : Lyon pour la tradition, Bordeaux pour la modernité.",
+      },
+      {
+        heading: "La qualité de vie quotidienne",
+        body: "Lyon a une structure de grande ville plus développée : 4 lignes de métro, 5 lignes de tramway, un réseau cyclable en expansion. La ville est plus compacte et plus efficace à traverser qu'il n'y paraît. Bordeaux a le tramway le plus dense de France (3 lignes qui couvrent toute l'agglomération) et est plus plate — le vélo y est roi. Bordeaux est aussi plus proche de l'océan (Lacanau : 1h15) et du surf. Pour la vie culturelle pure, Lyon (Opéra, Biennale, 15 musées nationaux) est légèrement en avance.",
+      },
+      {
+        heading: "Le climat et l'ensoleillement",
+        body: "C'est ici que Bordeaux prend l'avantage décisif pour les amoureux du soleil. Bordeaux bénéficie d'un climat océanique doux : 2 050 heures de soleil, hivers très doux (jamais vraiment froid), étés chauds mais pas excessifs. Lyon a un climat continental semi-montagnard : hivers froids (brouillard fréquent en vallée du Rhône), étés chauds et parfois caniculaires, mais aussi ensoleillement correct (1 970 h/an). Si vous venez du soleil ou êtes sensible au froid, Bordeaux gagne clairement.",
+      },
+      {
+        heading: "Verdict : qui devrait choisir quoi ?",
+        body: "Choisir Lyon si : vous êtes dans la pharma, la chimie, la finance ou la tech mature ; vous voulez une grande ville compacte et efficace ; vous êtes fan de gastronomie traditionnelle et de culture ; vous cherchez une ville plus 'établie'. Choisir Bordeaux si : vous êtes sensible au climat et aimez le soleil et l'océan ; vous êtes dans l'entrepreneuriat ou la scène créative ; vous aimez le vin et l'art de vivre ; vous cherchez une ville en transformation avec un potentiel d'appartenance fort.",
+      },
+    ],
+    relatedCities: ["lyon", "bordeaux", "nantes", "toulouse", "grenoble"],
+    relatedGuides: [
+      "bordeaux-lyon-nantes-quelle-ville-choisir",
+      "paris-vs-province-qualite-de-vie-2025",
+      "vivre-en-nouvelle-aquitaine-guide-2025",
+    ],
+    tags: ["Lyon", "Bordeaux", "comparatif", "s'installer", "immobilier", "qualité de vie", "gastronomie"],
+  },
+  {
+    slug: "nantes-vs-rennes-comparatif-2025",
+    title: "Nantes vs Rennes 2025 — Quelle ville de l'Ouest choisir ?",
+    emoji: "⚖️",
+    category: "comparaison",
+    metaTitle: "Nantes vs Rennes 2025 — Comparatif pour s'installer dans l'Ouest | MeilleurVille",
+    metaDesc: "Nantes ou Rennes ? Notre comparatif 2025 : immobilier, emploi, culture, qualité de vie, transports. Quelle métropole de l'Ouest choisir pour s'installer ?",
+    intro: "Nantes et Rennes sont les deux capitales régionales de l'Ouest français, souvent comparées car proches géographiquement (1h10 par TGV) et partageant un dynamisme démographique exceptionnel. Pourtant, elles ont des personnalités très différentes.",
+    readMinutes: 8,
+    publishedAt: "2026-04-25",
+    updatedAt: "2026-04-25",
+    sections: [
+      {
+        heading: "Taille et densité : Nantes grande métropole, Rennes ville à taille humaine",
+        body: "Nantes (960 000 hab. dans l'agglomération) est une grande métropole avec la masse critique qui va avec : réseau de tram étendu, concert hall, aéroport international, tissu économique très diversifié. Rennes (450 000 hab.) est une ville à taille humaine — le centre-ville est accessible à pied ou à vélo depuis presque n'importe où, et la densité crée une convivialité que les Nantais envient parfois. Si vous aimez les grandes villes, Nantes. Si vous préférez la ville 'où on se retrouve', Rennes.",
+      },
+      {
+        heading: "L'emploi : Nantes plus diversifié, Rennes plus tech",
+        body: "Nantes a une économie très diversifiée : agroalimentaire (LU, Sodebo), construction navale (Chantiers de l'Atlantique à Saint-Nazaire), commerce (Cdiscount, Showroomprivé), BTP et santé. Le bassin d'emploi est plus large. Rennes est plus spécialisée : télécoms (Orange, Nokia), cybersécurité, agroalimentaire (Yoplait, Lactalis) et une French Tech très active. Pour les profils tech et numériques, Rennes est souvent une meilleure porte d'entrée.",
+      },
+      {
+        heading: "L'immobilier : Rennes plus accessible (mais plus pour longtemps)",
+        body: "Les prix ont convergé mais Rennes reste légèrement moins chère : 3 800-4 500€/m² en centre-ville contre 4 000-5 000€/m² à Nantes. Historiquement, Nantes est une des villes françaises qui a le plus augmenté depuis 2010 (+ 70%). Les deux villes ont des marchés locatifs tendus. Pour un T3 raisonnable, comptez 1 000-1 300€/mois à Rennes vs 1 100-1 400€/mois à Nantes. Avantage léger Rennes sur le budget.",
+      },
+      {
+        heading: "La culture et l'art de vivre",
+        body: "Nantes a investi massivement dans la culture depuis 2000 (Voyage à Nantes, Machines de l'Île, Royal de Luxe) et est reconnue comme une ville créative de référence. Rennes a une scène culturelle plus 'underground' mais ultra-dynamique : Transmusicales, Jardin Moderne, TNB. Nantes gagne sur l'envergure des événements ; Rennes sur l'intensité de la scène locale. Les deux villes ont une vie nocturne active et une vie étudiante importante.",
+      },
+      {
+        heading: "L'accès à la nature",
+        body: "Les deux villes offrent un accès à la nature remarquable. Depuis Nantes : la Loire à vélo, les marais de Brière, les plages du Pays de Retz (Pornic : 1h15). Depuis Rennes : le Mont Saint-Michel (1h), la côte bretonne (Dinard, Saint-Malo : 1h), et la forêt de Brocéliande (45 min). Rennes est légèrement mieux placée pour les amateurs de côte bretonne sauvage ; Nantes pour l'Atlantique et les îles (île de Noirmoutier : 1h30).",
+      },
+      {
+        heading: "Verdict : Nantes ou Rennes ?",
+        body: "Choisir Nantes si : vous cherchez une grande métropole avec tout ce que ça implique, si vous avez un profil généraliste en termes d'emploi, ou si la culture créative et les arts sont importants pour vous. Choisir Rennes si : vous êtes dans la tech ou les télécoms, si vous voulez une ville à taille humaine, ou si l'identité bretonne forte vous attire. Les deux villes sont d'excellents choix — la décision finale peut se réduire à une simple visite de 48h.",
+      },
+    ],
+    relatedCities: ["nantes", "rennes", "saint-malo", "angers", "lorient", "vannes"],
+    relatedGuides: [
+      "vivre-en-bretagne-guide-2025",
+      "vivre-en-pays-de-la-loire-guide-2025",
+      "normandie-vs-bretagne-comparatif-2025",
+    ],
+    tags: ["Nantes", "Rennes", "Ouest", "comparatif", "Bretagne", "Pays de la Loire", "s'installer"],
+  },
+  {
+    slug: "marseille-vs-toulouse-comparatif-2025",
+    title: "Marseille vs Toulouse 2025 — Comparatif des deux grandes métropoles du Sud",
+    emoji: "⚖️",
+    category: "comparaison",
+    metaTitle: "Marseille vs Toulouse 2025 — Quelle métropole du Sud choisir ? | MeilleurVille",
+    metaDesc: "Marseille ou Toulouse pour s'installer en 2025 ? Comparatif emploi, logement, qualité de vie, transports, culture, sécurité. Analyse honnête des deux grandes métropoles méridionales.",
+    intro: "Marseille et Toulouse sont les deux plus grandes métropoles du Sud de la France. Pourtant, elles n'ont presque rien en commun — à l'exception du soleil et d'une identité locale forte. Ce guide dresse un comparatif honnête pour vous aider à choisir.",
+    readMinutes: 9,
+    publishedAt: "2026-04-25",
+    updatedAt: "2026-04-25",
+    sections: [
+      {
+        heading: "Emploi : Toulouse plus stable, Marseille plus diversifiée",
+        body: "Toulouse est la capitale européenne de l'aéronautique (Airbus, Thales, Dassault, CNES) avec un marché de l'emploi ingénieur/tech parmi les meilleurs de France. Les salaires des ingénieurs aéro y sont élevés et le taux de chômage structurellement bas. Marseille a une économie plus diversifiée mais aussi plus contrastée : premier port méditerranéen (logistique, pétro-chimie), tourisme, santé (CHU de la Timone), commerce et une scène tech émergente. Pour les profils ingénieurs industriels, Toulouse gagne. Pour les profils polyvalents, Marseille offre plus d'options sectorielles.",
+      },
+      {
+        heading: "La sécurité : le vrai sujet",
+        body: "Il faut parler de la sécurité à Marseille. La ville a un problème chronique de trafic de drogue et de violence dans certains quartiers (Nord de la ville, cités de la périphérie) qui pèse sur la perception générale et le quotidien dans certains secteurs. Les quartiers résidentiels (6e, 7e, 8e, 9e arrondissements, Endoume) sont parfaitement sûrs et agréables. Toulouse est nettement plus sûre dans l'ensemble avec des violences beaucoup moins visibles. Si vous avez des enfants ou si la sécurité est prioritaire, c'est un argument fort pour Toulouse.",
+      },
+      {
+        heading: "Le cadre naturel : mer contre rose",
+        body: "Marseille offre le cadre naturel le plus spectaculaire de France urbaine : les Calanques sont à 20 min du Vieux-Port, la Méditerranée est partout, les criques sauvages accessibles à pied. Le quotidien marseillais offre une beauté qui s'apprivoise avec le temps. Toulouse n'a pas la mer mais elle a la Garonne et les Pyrénées à 1h30. Le cadre est beau mais moins spectaculaire. Si la proximité de la mer est un critère fort, Marseille gagne sans discussion.",
+      },
+      {
+        heading: "L'immobilier et le coût de la vie",
+        body: "Marseille est significativement moins chère que Toulouse pour le logement : appartement T3 dans un bon quartier marseillais (8e ou 7e) : 1 100-1 500€/mois ou 3 000-4 500€/m². À Toulouse (Compans, Saint-Aubin) : 1 200-1 600€/mois ou 3 500-5 000€/m². La différence n'est pas énorme mais Marseille offre souvent plus d'espace pour le même budget. Le coût de la vie est comparable dans l'ensemble.",
+      },
+      {
+        heading: "La culture locale : deux identités incomparables",
+        body: "Marseille est une ville méditerranéenne avec une identité cosmopolite, populaire et attachante. Le Vieux-Port, le marché du Capucins, les AM (Mucem, Villa Méditerranée) et la Friche Belle de Mai en font une ville culturellement riche et diverse. Toulouse a une identité occitane plus discrète, une ambiance de ville de province vivante avec Sciences Po, l'INSA, Paul-Sabatier et une scène musicale toulousaine active. Les deux identités sont fortes — votre choix reflète probablement votre caractère.",
+      },
+      {
+        heading: "Verdict final",
+        body: "Choisir Toulouse si : vous êtes ingénieur aéro/défense, vous avez des enfants et la sécurité est prioritaire, vous cherchez une ville agréable sans les aspérités de Marseille. Choisir Marseille si : vous êtes attiré par la Méditerranée et les Calanques, vous êtes à l'aise avec la complexité urbaine, vous cherchez un cadre de vie spectaculaire à prix abordable, ou vous aimez les villes authentiquement populaires et cosmopolites.",
+      },
+    ],
+    relatedCities: ["marseille", "toulouse", "montpellier", "nice", "bordeaux", "aix-en-provence"],
+    relatedGuides: [
+      "vivre-en-provence-paca-guide-2025",
+      "vivre-en-occitanie-guide-2025",
+      "vivre-dans-le-sud-france-guide-2025",
+    ],
+    tags: ["Marseille", "Toulouse", "comparatif", "Sud de la France", "emploi", "immobilier", "sécurité"],
+  },
+  {
+    slug: "petites-villes-qualite-de-vie-france-2025",
+    title: "Petites villes de France : les trésors de qualité de vie sous 50 000 habitants",
+    emoji: "🏡",
+    category: "lifestyle",
+    metaTitle: "Petites villes France — qualité de vie, charme et accessibilité 2025 | MeilleurVille",
+    metaDesc: "Les meilleures petites villes françaises (moins de 50 000 habitants) pour vivre bien : Bayeux, Sarlat, Figeac, Millau, Saint-Malo, Dole… Qualité de vie, coûts, emploi.",
+    intro: "Pas besoin de vivre dans une grande métropole pour avoir une qualité de vie exceptionnelle. Les petites villes françaises offrent souvent le meilleur de la France : patrimoine, convivialité, nature proche et coût de la vie accessible. Mais lesquelles valent vraiment le détour ?",
+    readMinutes: 9,
+    publishedAt: "2026-04-27",
+    updatedAt: "2026-04-27",
+    sections: [
+      {
+        heading: "Pourquoi les petites villes regagnent du terrain",
+        body: "La crise du Covid-19 a accéléré une tendance de fond : les Français redécouvrent les petites villes. Plusieurs facteurs convergent — le développement du télétravail (qui annule l'avantage de proximité des grandes villes), la hausse des prix immobiliers dans les métropoles (qui rend les arbitrages plus favorables), et une quête de sens et de convivialité. Les petites villes avec une connexion TGV ou RER restent les plus recherchées (Bayeux, Figeac, Sarlat), mais les bourgs bien connectés en voiture gagnent aussi.",
+      },
+      {
+        heading: "Les meilleures petites villes pour les télétravailleurs",
+        body: "Pour les full remote, les petites villes combinent le meilleur des deux mondes. Figeac (Lot, 11 000 hab.) est souvent citée : patrimoine médiéval, accès aux Gorges du Lot, espaces de coworking actifs, qualité de vie exceptionnelle et prix immobiliers ridiculement bas (900-1 200€/m²). Sarlat-la-Canéda (Dordogne) offre un cadre patrimonial unique mais les connexions internet étaient historiquement limitées (désormais améliorées). Millau (Aveyron) est surprenante : petite ville dynamique avec le Viaduc iconique, accès aux Gorges et vallée verdoyante.",
+      },
+      {
+        heading: "Les pépites du bord de mer",
+        body: "Les petites villes côtières françaises concentrent souvent une qualité de vie incomparable : Bayeux (Normandie) est à 15 min des plages du Débarquement avec un centre médiéval préservé. Honfleur (Calvados) est pittoresque mais très touristique et chère en été. Concarneau (Bretagne, 20 000 hab.) mêle ville close médiévale et port de pêche actif à prix accessibles. Sur l'Atlantique, Arcachon est prisée mais chère ; préférez Royan ou Les Sables-d'Olonne pour la vie à l'année.",
+      },
+      {
+        heading: "Les petites villes patrimoniales du Centre",
+        body: "Le Centre-Val de Loire regorge de petites villes patrimoniales à prix accessibles. Chinon (Indre-et-Loire) : château royal, vignobles et rivière Vienne à 40 min de Tours. Loches est encore plus confidentielle — forteresse médiévale intacte, marché vivant et prix au m² sous les 1 200€. Amboise a l'avantage d'être sur l'axe TGV et de concentrer le tourisme (château + Clos Lucé de Léonard de Vinci) ce qui anime les commerces à l'année.",
+      },
+      {
+        heading: "Les contraintes des petites villes",
+        body: "Les petites villes ont des limites réelles : services médicaux spécialisés parfois distants (les déserts médicaux ruraux sont une réalité), offre culturelle plus limitée (cinéma oui, opéra non), marché de l'emploi restreint si vous n'êtes pas full remote, et une vie sociale plus contraignante (tout le monde se connaît — c'est un avantage ou un inconvénient selon votre caractère). Les meilleures petites villes compensent en partie ces défauts par une proximité de villes plus grandes (Figeac est à 40 min de Cahors).",
+      },
+      {
+        heading: "Notre sélection : les 5 meilleures petites villes pour s'installer",
+        body: "Figeac (46) : télétravail + patrimoine + immobilier accessible. Bayeux (14) : bord de mer Normandie + histoire + accès Caen. Sarlat (24) : Périgord Noir + tourisme + douceur de vivre. Millau (12) : paysages spectaculaires + dynamisme économique. Dole (39) : Jura + canal + Pasteur + proximité Dijon/Besançon. Chaque ville a des inconvénients (Sarlat est saturée l'été, Millau est isolée) mais toutes méritent une visite exploratoire sérieuse.",
+      },
+    ],
+    relatedCities: ["figeac", "bayeux", "millau", "sarlat", "dole", "rodez", "cahors"],
+    relatedGuides: [
+      "tresors-caches-villes-sous-estimees-france-2025",
+      "vivre-en-france-teletravail-guide-2025",
+      "budget-vivre-en-france-comparatif",
+    ],
+    tags: ["petites villes", "charme", "qualité de vie", "télétravail", "patrimoine", "bord de mer", "accessibilité"],
+  },
+  {
+    slug: "meilleures-villes-qualite-air-nature-france-2025",
+    title: "Meilleures villes françaises pour la qualité de l'air et la nature en 2025",
+    emoji: "🌿",
+    category: "lifestyle",
+    metaTitle: "Villes France qualité de l'air et nature 2025 — classement | MeilleurVille",
+    metaDesc: "Quelles villes françaises ont le meilleur air, le plus d'espaces verts et la meilleure nature accessible ? Notre classement 2025 pour les amateurs de plein air et de qualité environnementale.",
+    intro: "La qualité de l'air et l'accès à la nature sont devenus des critères déterminants pour choisir une ville. Après des années de smog parisien et de canicules urbaines, les Français s'informent sur la pollution atmosphérique et la verdure avant de s'installer. Ce guide classe les meilleures villes sur ces critères.",
+    readMinutes: 8,
+    publishedAt: "2026-04-27",
+    updatedAt: "2026-04-27",
+    sections: [
+      {
+        heading: "Où est-il le plus facile de respirer en France ?",
+        body: "Les données ATMO France (réseau national de surveillance de la qualité de l'air) montrent sans surprise que les zones avec la meilleure qualité de l'air sont les villes de montagne et du littoral atlantique ou breton. Les champions : Brest (qualité de l'air médiocre seulement 4% des jours selon ATMO Bretagne), Cherbourg, Biarritz, Vannes, Quimper. En montagne : Grenoble a longtemps souffert de pollutions encaissées dans sa cuvette, mais les jours de dépassement ont diminué de 40% depuis 2015.",
+      },
+      {
+        heading: "Les villes avec le plus d'espaces verts par habitant",
+        body: "Strasbourg est régulièrement classée parmi les villes les plus vertes de France avec ses parcs, forêts rhénanes et berges. Nantes avec son réseau de parcs et son coulée verte. Bordeaux le long des quais aménagés et ses bois de Bouliac. Lyon avec le parc de la Tête d'Or et les coteaux de Fourvière. Toulouse le long des berges de la Garonne. Les villes de montagne comme Annecy, Chambéry et Grenoble ont par nature une accessibilité à la nature incomparable.",
+      },
+      {
+        heading: "Annecy : le cas d'école de la ville nature",
+        body: "Annecy est le cas d'école de la ville où nature et urbanité coexistent parfaitement. Le lac d'Annecy (deuxième lac le plus propre d'Europe selon l'OMS), les montagnes environnantes, le Vieux-Annecy avec ses canaux — aucune autre ville française ne propose ce niveau d'intégration nature/ville à cette échelle. Les habitants marchent jusqu'au lac en 10 min depuis le centre. Contrepartie : prix immobiliers parmi les plus élevés hors IDF et PACA (4 500-6 000€/m²).",
+      },
+      {
+        heading: "Les villes du littoral atlantique",
+        body: "La côte atlantique française offre une qualité de l'air exceptionnelle (iodes, vents d'Ouest nets). La Rochelle (2e ville de France pour le vélo), Vannes (golfe du Morbihan), Quimper (Finistère) et Brest ont des indices de qualité de l'air parmi les meilleurs de France. L'Atlantique apporte une régulation thermique naturelle et une humidité qui limite les particules fines. Le Pays Basque (Biarritz, Bayonne) combine Atlantique, Pyrénées et vent oceanique pour un air exceptionnel.",
+      },
+      {
+        heading: "Les villes les plus polluées : ce qu'il faut savoir",
+        body: "Les zones à éviter si la qualité de l'air est prioritaire : la vallée de l'Arve (Sallanches, Cluses) — encaissée et polluée par le trafic des camions alpins. L'étang de Berre (Martigues, Fos-sur-Mer) — pétro-chimie intensive. Le couloir rhodanien industriel. Le bassin parisien en général — encore au-dessus des normes OMS malgré les progrès. Attention aussi aux villes alpines en inversion thermique hivernale (Grenoble, Chambéry, Albertville).",
+      },
+      {
+        heading: "Tableau de bord : meilleures villes air + nature",
+        body: "Top 10 des villes avec le meilleur équilibre qualité de l'air + nature accessible + taille raisonnable : 1. Annecy 2. Vannes 3. Biarritz/Bayonne 4. La Rochelle 5. Quimper 6. Strasbourg (espaces verts) 7. Chambéry 8. Grenoble (montagne, malgré pollutions ponctuelles) 9. Rennes (parcs, rivières) 10. Aix-en-Provence (nature provençale, calanques proches). Ces villes combinent air de qualité, forêts/mer à proximité et cadre de vie urbain agréable.",
+      },
+    ],
+    relatedCities: ["annecy", "vannes", "biarritz", "la-rochelle", "quimper", "brest", "rennes", "strasbourg"],
+    relatedGuides: [
+      "villes-nature-plein-air-france",
+      "vivre-en-bretagne-guide-2025",
+      "vivre-en-montagne-villes-alpes-pyrenees-france-2025",
+    ],
+    tags: ["qualité de l'air", "nature", "verdure", "espaces verts", "Annecy", "Bretagne", "littoral", "santé"],
+  },
 ];
 
 export const GUIDE_CATEGORIES = [
