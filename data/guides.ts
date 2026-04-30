@@ -3674,6 +3674,201 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["Charentes", "Angoulême", "La Rochelle", "Saintes", "Cognac", "Charente", "Charente-Maritime", "Atlantique"],
   },
+  {
+    slug: "vivre-sur-cote-atlantique-surf-guide-2025",
+    title: "Vivre sur la Côte Atlantique Surf en 2025 : Hossegor, Capbreton, Biscarrosse, Mimizan",
+    metaTitle: "Côte Atlantique Surf 2025 : Hossegor, Capbreton, Biscarrosse — Où s'installer ?",
+    metaDesc:
+      "Guide pour s'installer sur la Côte Atlantique : Hossegor, Capbreton, Biscarrosse, Mimizan. Loyers, qualité de vie, communautés surf, emploi. 2025.",
+    category: "lifestyle",
+    emoji: "🏄",
+    readMinutes: 8,
+    publishedAt: "2025-04-27",
+    updatedAt: "2025-04-28",
+    intro:
+      "La Côte Atlantique entre Bayonne et Arcachon est devenue l'une des destinations de relocation les plus prisées de France, portée par l'essor du surf, la qualité de vie exceptionnelle dans les Landes, et des prix encore abordables comparés à la Côte d'Azur. Mais Hossegor, Capbreton, Biscarrosse et Mimizan sont des univers radicalement différents. Ce guide vous aide à choisir selon votre budget et votre style de vie.",
+    sections: [
+      {
+        heading: "Hossegor : le Malibu des Landes, cosmopolite et cher",
+        body: "Hossegor (score MeilleurVille : 7.8/10) est la capitale mondiale du surf professionnel, hôte du Rip Curl Pro et du Quiksilver Pro. Lac marin, villas Art déco dans les pins, vie internationale jeune et créative. Loyer T2 : 1 000€, achat : 4 500-7 000€/m². Prix en hausse accélérée depuis 2020 (+35%). La destination de rêve du lifestyle surf, désormais avec des prix qui s'en approchent.",
+      },
+      {
+        heading: "Capbreton : l'alternative authentique à Hossegor",
+        body: "Capbreton jouxte Hossegor mais propose une ambiance plus locale. Port de pêche actif, commerces de proximité, familles multigénérationnelles. Même accès aux vagues (Caverne du Gouffre à 5 min), ambiance moins hype. Loyer T2 : 850€, achat : 3 000-5 000€/m². Idéal pour les familles qui veulent le lifestyle landes-surf sans payer le premium Hossegor.",
+      },
+      {
+        heading: "Biscarrosse : le grand lac dans la pinède, pour les kite-surfeurs",
+        body: "Biscarrosse (score MeilleurVille : 7.4/10) est une ville de 14 000 habitants avec deux faces : Biscarrosse Plage (océan + dunes) et Biscarrosse Lac (kite, véliplanche, wakeboard). Moins cher qu'Hossegor (achat : 2 500-3 500€/m²), plus familial, avec un tissu économique local plus développé (mairie, lycée, commerces complets). Pour les familles et les adeptes de sports nautiques non-surf.",
+      },
+      {
+        heading: "Mimizan : la dernière aubaine de la côte landaise",
+        body: "Mimizan est souvent oubliée dans les guides, mais c'est l'une des dernières destinations où l'on peut acheter face aux vagues à moins de 2 500€/m². Ville de 7 500 habitants avec toutes les commodités (hôpital, lycée), long ruban de plage sauvage, ambiance famille. En 10 ans, les prix ont doublé mais restent les plus accessibles de la côte landaise. La porte d'entrée pour les budgets serrés cherchant l'Atlantique.",
+      },
+    ],
+    relatedCities: ["hossegor", "dax", "arcachon", "bayonne", "biarritz"],
+    relatedGuides: [
+      "cote-basque-landes-vivre-atlantique-2025",
+      "vivre-en-nouvelle-aquitaine-guide-2025",
+      "meilleures-villes-outdoor-sport-nature-france-2025",
+    ],
+    tags: ["surf", "Landes", "Atlantique", "Hossegor", "Capbreton", "Biscarrosse", "Mimizan", "lifestyle"],
+  },
+  {
+    slug: "vivre-ile-de-france-alternatives-pas-cheres-2025",
+    title: "Quitter la région parisienne sans aller trop loin : les meilleures villes à 1h de Paris",
+    metaTitle: "Meilleures villes à 1h de Paris 2025 : alternatives pas chères en Île-de-France",
+    metaDesc:
+      "Rester accessible à Paris tout en gagnant en espace et qualité de vie : notre guide des meilleures villes à 1-1h30 de Paris avec bons prix immobiliers.",
+    category: "lifestyle",
+    emoji: "🚄",
+    readMinutes: 7,
+    publishedAt: "2025-04-27",
+    updatedAt: "2025-04-28",
+    intro:
+      "Vous voulez quitter l'Île-de-France chère et dense mais vous ne pouvez pas (ou ne voulez pas) vous éloigner de Paris. La solution : les villes dans un rayon de 1h à 1h30 de train, où les prix sont 40-60% moins chers et la qualité de vie bien supérieure. Ce guide passe en revue les meilleures options selon votre profil.",
+    sections: [
+      {
+        heading: "Moins de 1h de Paris : Chartres, Fontainebleau, Senlis",
+        body: "Chartres (score MeilleurVille : 7.3/10) : cathédrale UNESCO, 45 min Paris Montparnasse, T2 : 600€, achat 1 600-2 200€/m². Fontainebleau (score 7.5/10) : forêt royale, 40 min Paris Gare de Lyon, T2 : 850€, achat 2 500-3 500€/m². Senlis (score 7.6/10) : ville royale médiévale, 45 min Gare du Nord, T2 : 760€, achat 2 200-3 000€/m². Ces trois villes permettent de conserver un pied parisien tout en vivant dans un cadre qualitatif.",
+      },
+      {
+        heading: "Entre 1h et 1h30 : Provins, Épernay, Compiègne, Évreux",
+        body: "Provins (score 7.3/10) : UNESCO médiéval, 1h Paris Est, achat 1 800-2 500€/m². Épernay (score 7.4/10) : Champagne, 1h25 Paris Est, achat 2 000-2 800€/m². Compiègne (score 7.7/10) : forêt, château, 45 min Paris Nord en TGV, achat 1 800-2 500€/m². Évreux (score 7.0/10) : Normandie accessible, 1h20 Paris Saint-Lazare, achat 1 400-2 000€/m². Ces villes offrent le meilleur rapport qualité-prix pour les profils hybrides travaillant 2-3 jours/semaine à Paris.",
+      },
+      {
+        heading: "Le critère clé : la fréquence des trains et le temps réel",
+        body: "Attention : le temps de trajet officiel et le temps réel diffèrent. Vérifiez la fréquence aux heures de pointe (certaines lignes ont des trains toutes les 30 min, d'autres toutes les heures), la fiabilité historique de la ligne (Transilien et TER ont des scores de ponctualité publiés sur les sites SNCF), et la saturation aux heures de pointe. Les lignes les plus fiables pour sortir de Paris : TGV Paris-Lyon (Fontainebleau), ligne TER Paris-Caen (Évreux), TGV Paris-Strasbourg (Épernay).",
+      },
+      {
+        heading: "Notre top 3 selon votre profil",
+        body: "Jeune couple télétravailleur : Senlis (patrimoine, forêt de Chantilly, Roissy CDG à 20 min). Famille avec enfants : Compiègne (forêt, château, grandes écoles). Retraité actif : Fontainebleau (forêt royale, escalade, train direct Paris Gare de Lyon). Bonus pour les investisseurs : Provins (rendement locatif correct, 1h Paris Est, tourisme UNESCO qui remplit les locations courte durée).",
+      },
+    ],
+    relatedCities: ["chartres", "fontainebleau", "senlis", "provins", "compiegne", "epernay"],
+    relatedGuides: [
+      "alternatives-ile-de-france-banlieue-parisienne-guide-2025",
+      "quitter-paris-guide-2025",
+      "vivre-en-ile-de-france-guide-2025",
+    ],
+    tags: ["Paris", "1h de Paris", "banlieue", "télétravail", "accessibilité", "immobilier", "qualité de vie"],
+  },
+  {
+    slug: "vivre-en-bretagne-nord-guide-2025",
+    title: "Bretagne Nord en 2025 : Saint-Malo, Dinard, Morlaix, Brest — le guide pour s'installer",
+    metaTitle: "Bretagne Nord 2025 : Saint-Malo, Dinard, Morlaix, Brest — Où s'installer ?",
+    metaDesc:
+      "Guide complet pour vivre en Bretagne Nord : comparatif Saint-Malo vs Dinard vs Morlaix vs Brest. Loyers, qualité de vie, emploi. 2025.",
+    category: "region",
+    emoji: "⚓",
+    readMinutes: 9,
+    publishedAt: "2025-04-28",
+    updatedAt: "2025-04-28",
+    intro:
+      "La Bretagne Nord, de la Côte d'Emeraude aux Abers, en passant par la Côte des Légendes, offre des paysages d'une beauté saisissante et une qualité de vie authentiquement bretonne. Saint-Malo, Dinard, Dinan, Morlaix et Brest dessinent quatre profils très différents. Ce guide vous aide à choisir selon votre situation.",
+    sections: [
+      {
+        heading: "Saint-Malo : la cité corsaire pour les amoureux de la mer",
+        body: "Saint-Malo (score MeilleurVille : 8.0/10) est l'une des villes les plus emblématiques de Bretagne. La cité intra-muros, reconstruite après 1944, domine une rade magnifique. Tourisme de masse en été (2M visiteurs/an), mais en hiver la ville retrouve son caractère. Loyer T2 : 730€, achat : 3 000-4 500€/m². TGV via Rennes (2h45 Paris). Idéale pour les amateurs de histoire maritime, de Grand Large et d'authenticité bretonne.",
+      },
+      {
+        heading: "Dinard : la rivale de Saint-Malo, Belle Époque et résidentielle",
+        body: "Dinard (score MeilleurVille : 7.8/10) est juste en face de Saint-Malo, de l'autre côté de la Rance. Station balnéaire créée par les Britanniques au XIXe siècle, avec ses villas Belle Époque et son festival du film britannique. Plus calme et résidentielle que Saint-Malo. Achat : 2 800-4 500€/m². Idéale pour les retraités aisés et les familles cherchant la Bretagne chic.",
+      },
+      {
+        heading: "Morlaix : l'authenticité bretonne à prix doux",
+        body: "Morlaix (score MeilleurVille : 7.1/10) est la grande surprise de ce guide. Marché couvert animé, viaduc ferroviaire mythique, maisons à lanterne du XVe siècle — Morlaix est une vraie ville bretonne hors des sentiers touristiques. Loyer T2 : 530€, achat : 1 400-1 900€/m². TER vers Brest (35 min) et Paris via Rennes (3h30). La meilleure option budget de Bretagne Nord.",
+      },
+      {
+        heading: "Brest : la métropole bretonne dynamique et étudiante",
+        body: "Brest (score MeilleurVille : 7.2/10) est la grande métropole de Bretagne Ouest. Port militaire, université, Centre Océanographique, téléphérique urbain et tramway exemplaire. Longtemps sous-estimée, Brest se réinvente depuis 15 ans avec des investissements culturels importants. Loyer T2 : 620€, achat : 1 800-2 400€/m². Idéale pour les jeunes actifs, les familles et les télétravailleurs cherchant une vraie métropole bretonne à prix modéré.",
+      },
+    ],
+    relatedCities: ["saint-malo", "dinard", "morlaix", "brest", "dinan"],
+    relatedGuides: [
+      "vivre-en-bretagne-guide-2025",
+      "teletravail-bretagne-guide",
+      "normandie-vs-bretagne-comparatif-2025",
+    ],
+    tags: ["Bretagne", "Saint-Malo", "Dinard", "Morlaix", "Brest", "Côte d'Émeraude", "Finistère"],
+  },
+  {
+    slug: "meilleures-villes-retraites-budget-moins-1500-euros-2025",
+    title: "Les meilleures villes pour prendre sa retraite avec moins de 1 500€/mois en 2025",
+    metaTitle: "Retraite avec 1 500€/mois : meilleures villes françaises en 2025",
+    metaDesc:
+      "Retraite à petit budget : où vivre confortablement avec 1 200-1 500€/mois en France ? Notre top villes avec qualité de vie, santé, nature et prix bas.",
+    category: "lifestyle",
+    emoji: "🌻",
+    readMinutes: 8,
+    publishedAt: "2025-04-28",
+    updatedAt: "2025-04-28",
+    intro:
+      "La pension de retraite moyenne en France est de 1 512€/mois (Drees 2024). Avec une bonne stratégie de localisation, il est tout à fait possible de vivre confortablement dans une ville de qualité avec ce budget. Ce guide identifie les villes qui combinent loyers abordables, bons services de santé, accès à la nature, et qualité de vie élevée.",
+    sections: [
+      {
+        heading: "Les critères clés pour la retraite à budget modéré",
+        body: "Pour un retraité avec 1 200-1 500€/mois, les priorités sont : loyer T2 sous 600€/mois, présence d'un CHU ou hôpital de niveau 2, commerces alimentaires à pied ou en transport, et nature accessible sans voiture obligatoire. La présence d'associations actives pour retraités (clubs sportifs, culturels, bénévolat) est également un facteur important pour la socialisation. Évitez les zones où la voiture est indispensable si vous anticipez ne plus conduire.",
+      },
+      {
+        heading: "Notre top 5 des villes retraite à budget accessible",
+        body: "1. Albi (Tarn, score 7.5/10) : T2 640€, hôpital complet, UNESCO, soleil 2 200h. 2. Mende (Lozère, score 6.5/10) : T2 480€, nature exceptionnelle, très sûre. 3. Rodez (Aveyron, score 7.0/10) : T2 560€, Musée Soulages, qualité de vie rurale + services urbains. 4. Nevers (Nièvre, score 6.8/10) : T2 490€, Loire, calme absolu, 2h Paris. 5. Aurillac (Cantal, score 6.8/10) : T2 430€, Massif Central, authenticité, faible coût de la vie.",
+      },
+      {
+        heading: "Villes avec le soleil : le compromis Occitanie-PACA pas chères",
+        body: "Pour les retraités qui veulent la chaleur : Millau (Aveyron, T2 550€, score 7.2/10) offre Causses + vallée du Tarn, moins cher que Montpellier. Lodève (Hérault, T2 560€) est à 30 min de Montpellier avec un cadre naturel exceptionnel. Mende (Lozère) avec ses 2 100h de soleil. Éviter les grandes villes PACA pour ce budget : Nice, Toulon et Marseille dépassent facilement 800€ de loyer T2.",
+      },
+      {
+        heading: "Conseils pratiques pour choisir sa ville de retraite",
+        body: "Avant de s'installer, passer au minimum 1 semaine hors saison (novembre-février) dans la ville envisagée. Le ressenti climatique hivernal est souvent sous-estimé. Vérifier la qualité et les délais d'accès au médecin généraliste (zone médicale tendue ou non). Contacter la mairie pour connaître les activités proposées aux seniors. Vérifier la présence d'un service de soins à domicile (pour anticiper). Rejoindre des groupes Facebook de la ville pour obtenir des avis authentiques.",
+      },
+    ],
+    relatedCities: ["albi", "rodez", "millau", "nevers", "aurillac", "mende"],
+    relatedGuides: [
+      "retraite-france-guide",
+      "villes-seniors-retraite-france",
+      "meilleures-villes-seniors-actifs-france-2025",
+    ],
+    tags: ["retraite", "budget", "1 500€", "soleil", "qualité de vie", "santé", "nature", "accessibilité"],
+  },
+  {
+    slug: "vivre-en-alsace-route-des-vins-villages-guide-2025",
+    title: "Vivre sur la Route des Vins d'Alsace en 2025 : Obernai, Ribeauvillé, Riquewihr, Kaysersberg",
+    metaTitle: "Route des Vins Alsace 2025 : vivre à Obernai, Ribeauvillé, Riquewihr — Guide",
+    metaDesc:
+      "S'installer sur la Route des Vins d'Alsace : comparatif des villages les plus beaux et vivables. Qualité de vie, loyers, communautés. Guide 2025.",
+    category: "region",
+    emoji: "🍷",
+    readMinutes: 7,
+    publishedAt: "2025-04-28",
+    updatedAt: "2025-04-28",
+    intro:
+      "La Route des Vins d'Alsace est l'un des itinéraires touristiques les plus courus d'Europe, mais c'est aussi un territoire exceptionnel pour s'y installer. Entre vignobles, villages à colombages et proximité de Strasbourg et Colmar, les opportunités résidentielles sont nombreuses. Zoom sur les principales destinations.",
+    sections: [
+      {
+        heading: "Obernai : le meilleur équilibre entre authenticité et commodités",
+        body: "Obernai (score MeilleurVille : 8.2/10) est la perle de la Route des Vins. À 30 min de Strasbourg par TER ou voiture, elle propose tous les services d'une vraie ville (11 500 habitants, lycée, hôpital, commerces) dans un cadre médiéval magnifique. Remparts intacts, place du Marché légendaire, vignobles Grand Cru Zotzenberg. Achat : 2 500-3 500€/m². Le meilleur choix pour les actifs travaillant à Strasbourg.",
+      },
+      {
+        heading: "Ribeauvillé et Riquewihr : les joyaux touristiques pour télétravailleurs",
+        body: "Ribeauvillé (7 000 hab.) et Riquewihr (1 200 hab.) sont classés parmi les plus beaux villages de France. Trop touristiques pour certains, ils offrent pourtant une qualité de vie authentiquement alsacienne hors saison. Riquewihr surtout est petit (on y connaît tout le monde) — idéal pour les écrivains et télétravailleurs cherchant l'immersion totale. Prix en hausse (3 000-5 000€/m²), mais le décor est incomparable.",
+      },
+      {
+        heading: "Kaysersberg : ville préférée des Français, un classement mérité",
+        body: "Kaysersberg a été élue Ville Préférée des Français en 2017. La maison natale d'Albert Schweitzer, la rivière Weiss traversant le village, les maisons à colombages colorées — c'est un ensemble cohérent d'une rare beauté. 3 000 habitants, petite épicerie, restaurant étoilé (Arnaud Lallement). Achat : 3 500-5 500€/m². Pour les retraités très aisés et les télétravailleurs cherchant le sommet de l'authenticité alsacienne.",
+      },
+      {
+        heading: "Investir dans un gîte alsacien : une opportunité réelle",
+        body: "La Route des Vins attire 8 millions de visiteurs par an. Un gîte dans un village alsacien se loue 150-250€/nuit en haute saison et génère 25 000-40 000€ de revenus locatifs annuels. Le marché est tendu mais des opportunités existent dans les villages légèrement hors axe touristique (Dambach-la-Ville, Andlau, Barr). Pour les retraités qui veulent compléter leur pension tout en s'impliquant dans l'accueil touristique.",
+      },
+    ],
+    relatedCities: ["obernai", "colmar", "strasbourg", "mulhouse"],
+    relatedGuides: [
+      "vivre-en-alsace-strasbourg-colmar-mulhouse-2025",
+      "vivre-en-grand-est-alsace-moselle-guide-2025",
+      "vivre-en-alsace-guide-2025",
+    ],
+    tags: ["Alsace", "Route des Vins", "Obernai", "Ribeauvillé", "Riquewihr", "Kaysersberg", "colombages", "tourisme"],
+  },
 ];
 
 export const GUIDE_CATEGORIES = [
