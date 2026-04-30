@@ -362,6 +362,18 @@ const SEO_PAIRS = [
   ["noirmoutier", "les-sables-d-olonne"],
   ["carnac", "vannes"],
   ["carnac", "lorient"],
+  ["ile-de-re", "la-rochelle"],
+  ["ile-de-re", "royan"],
+  ["quiberon", "carnac"],
+  ["quiberon", "vannes"],
+  ["pezenas", "montpellier"],
+  ["pezenas", "beziers"],
+  ["agde", "sete"],
+  ["agde", "montpellier"],
+  ["douarnenez", "quimper"],
+  ["douarnenez", "brest"],
+  ["biscarrosse", "hossegor"],
+  ["biscarrosse", "arcachon"],
 ];
 
 export function generateStaticParams() {
