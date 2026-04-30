@@ -191,6 +191,17 @@ const SEO_PAIRS = [
   ["hyeres", "nice"],
   ["haguenau", "strasbourg"],
   ["haguenau", "colmar"],
+  ["roanne", "lyon"],
+  ["roanne", "saint-etienne"],
+  ["douai", "lens"],
+  ["douai", "valenciennes"],
+  ["cambrai", "valenciennes"],
+  ["cambrai", "arras"],
+  ["montbeliard", "belfort"],
+  ["montbeliard", "besancon"],
+  ["aurillac", "clermont-ferrand"],
+  ["chatellerault", "poitiers"],
+  ["chatellerault", "tours"],
 ];
 
 export function generateStaticParams() {

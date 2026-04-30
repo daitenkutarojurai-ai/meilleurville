@@ -176,6 +176,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ["hyeres", "nice"],
     ["haguenau", "strasbourg"],
     ["haguenau", "colmar"],
+    ["roanne", "lyon"],
+    ["roanne", "saint-etienne"],
+    ["douai", "lens"],
+    ["douai", "valenciennes"],
+    ["cambrai", "valenciennes"],
+    ["cambrai", "arras"],
+    ["montbeliard", "belfort"],
+    ["montbeliard", "besancon"],
+    ["aurillac", "clermont-ferrand"],
+    ["chatellerault", "poitiers"],
+    ["chatellerault", "tours"],
   ];
 
   const staticRoutes: MetadataRoute.Sitemap = [
