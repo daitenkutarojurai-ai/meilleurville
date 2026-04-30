@@ -245,6 +245,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ["lyon", "nantes"],
     ["bordeaux", "lyon"],
     ["nantes", "bordeaux"],
+    ["nanterre", "cergy"],
+    ["courbevoie", "levallois-perret"],
+    ["nanterre", "courbevoie"],
+    ["vitry-sur-seine", "ivry-sur-seine"],
+    ["noisy-le-grand", "creteil"],
+    ["evry-courcouronnes", "cergy"],
+    ["menton", "nice"],
+    ["menton", "antibes"],
   ];
 
   const staticRoutes: MetadataRoute.Sitemap = [
