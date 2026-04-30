@@ -6044,6 +6044,55 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["reconversion", "formation", "emploi", "French Tech", "start-up", "lifestyle", "numérique"],
   },
+  {
+    slug: "meilleures-villes-couples-teletravail-deux-bureaux-2026",
+    title: "Meilleures villes françaises pour les couples en télétravail — deux bureaux, une adresse 2026",
+    metaTitle: "Villes idéales pour les couples en télétravail — Guide 2026 | MeilleurVille",
+    metaDesc: "Deux télétravailleurs sous un même toit : quelle ville française offre assez d'espace, deux options de coworking et un budget raisonnable ? Notre guide complet 2026.",
+    category: "teletravail",
+    emoji: "👫",
+    readMinutes: 9,
+    publishedAt: "2026-04-30",
+    updatedAt: "2026-04-30",
+    intro: "En 2026, 4,4 millions de Français télétravaillent au moins 3 jours par semaine (Observatoire du télétravail, baromètre 2025). Parmi eux, des centaines de milliers de couples partagent le même logement — et souvent la même table de cuisine en guise de bureau. La question n'est plus « quelle ville pour télétravailler ? » mais « quelle ville pour télétravailler à deux sans se rendre fous ? ». Espace habitable suffisant, deux coworkings de qualité, connexion fibre symétrique, vie sociale stimulante, budget maîtrisé : voici notre guide 2026 pour les couples en double télétravail.",
+    sections: [
+      {
+        heading: "Le double télétravail : un défi logistique sous-estimé",
+        body: "Un couple en télétravail intégral nécessite deux espaces de travail distincts : acoustique séparée pour les appels simultanés, deux prises dédiées, idéalement deux pièces fermées. Selon l'INSEE (enquête Loyers et Charges 2024), un T2 de 45 m² ne convient pas à deux télétravailleurs à plein temps — le seuil de confort commence à 65 m² avec deux pièces distinctes. Cette contrainte écarte d'emblée les grandes métropoles où un T3 dépasse 1 200 €/mois (Paris, Bordeaux hypercentre, Lyon 6e). Les villes qui combinent logements spacieux et prix accessibles sont donc les vraies gagnantes pour les duos en remote.",
+      },
+      {
+        heading: "Rennes : la ville des couples remote par excellence",
+        body: "Rennes cumule tous les atouts : loyer médian T3 à 870–960 €/mois (Observatoire CLAMEUR 2025), fibre FTTH disponible à plus de 95 % des logements (ARCEP), deux pôles de coworking denses (French Tech Rennes, espaces Startway et Darwin) et un réseau de cafés-coworking en forte expansion. Deux télétravailleurs peuvent alterner bureau à domicile et coworking sans planification complexe. La ville est cyclable à 90 % (Métropole Rennes Mobilités), ce qui élimine les frais de transport. Et le TGV Paris–Rennes en 1 h 25 reste le plus rapide des grandes métropoles périphériques pour les rares réunions en présentiel.",
+      },
+      {
+        heading: "Angers : le bon compromis espace-budget",
+        body: "Angers est la grande ville sous-estimée pour les couples en remote. Loyer médian T3 : 720–830 €/mois (INSEE, données locatives 2025). La ville compte six espaces de coworking actifs, dont Le Bureau Factory et Coworking Anjou, permettant à chaque membre du couple de trouver son espace. La fibre est déployée dans 91 % des logements (ARCEP T4 2025). Angers est à 1 h 30 de Paris en TGV, 45 minutes de Nantes en TER. La qualité de vie est remarquable — le Jardin des plantes, le château, une scène gastronomique vivante — sans la pression locative des métropoles voisines.",
+      },
+      {
+        heading: "Nantes : l'équilibre parfait pour les couples ambitieux",
+        body: "Nantes s'impose pour les couples dont les deux membres ont des carrières dans le numérique, le design ou la communication. L'écosystème professionnel actif (French Tech Nantes, 3 000+ startups régionales) génère des événements de networking réguliers pour chacun. Loyer médian T3 : 900–1 060 €/mois. La ville dispose d'une offre de coworking exceptionnelle : La Cantine, le Blockhouse, Hub Créatic, et une quarantaine d'autres espaces de travail partagé. Le réseau tram-Chronobus et les pistes cyclables permettent à chaque partenaire de rejoindre son coworking favori de manière indépendante.",
+      },
+      {
+        heading: "Montpellier : le soleil comme troisième colocataire",
+        body: "Pour les couples qui veulent allier productivité et qualité de vie méditerranéenne, Montpellier est la référence. Plus de 300 jours de soleil par an (Météo-France, normales 1991–2020), terrasses habitables 9 mois sur 12. Les T3 avec terrasse ou jardin sont nombreux dans les quartiers Mosson, Ovalie et Port-Marianne à 720–870 €/mois. L'université (70 000 étudiants, source MESRI 2025) maintient un tissu dense de services et d'espaces de coworking. Deux télétravailleurs peuvent y travailler : l'un au bureau fermé, l'autre en terrasse avec un casque antibruit.",
+      },
+      {
+        heading: "Villes moyennes : les vraies opportunités pour les budgets serrés",
+        body: "Poitiers (T3 à 600–720 €/mois, fibre à 88 %, French Tech Poitiers active), Limoges (T3 à 580–690 €/mois, Le Cloître coworking, cadre de vie calme) et Béziers (T3 à 510–630 €/mois, 300 jours de soleil, mer à 20 km) offrent aux couples des logements spacieux pour le prix d'un studio parisien. Le critère décisif : la présence d'au moins deux espaces de coworking indépendants pour éviter que les deux partenaires se retrouvent côte à côte. Dans ces trois villes, c'est le cas. Sources : Observatoire CLAMEUR, ARCEP déploiement fibre.",
+      },
+      {
+        heading: "Checklist : ce qu'un couple en double télétravail doit vérifier avant de signer",
+        body: "Avant de signer un bail : (1) Le logement dispose d'au moins deux pièces fermées — pas un T3 salon ouvert. (2) La fibre est confirmée à l'adresse précise (outil numerique.gouv.fr / maconnexion.fr). (3) La ville compte au moins deux espaces de coworking permettant à chacun d'avoir un refuge quand les appels simultanés rendent la cohabitation impossible. (4) Les transports permettent à chacun d'atteindre son coworking de manière indépendante. (5) L'orientation du logement est favorable — un couple travaillant 8 h/jour dans un appartement sans lumière naturelle dégrade rapidement son bien-être. Un weekend de repérage avec visite de coworking et test de débit à l'adresse vaut dix heures de recherche en ligne.",
+      },
+    ],
+    relatedCities: ["rennes", "angers", "nantes", "montpellier", "poitiers", "limoges"],
+    relatedGuides: [
+      "vivre-en-france-teletravail-guide-2025",
+      "meilleures-villes-coworking-freelance-ecosysteme-2025",
+      "quitter-paris-province-teletravail-guide-complet-2025",
+    ],
+    tags: ["télétravail", "couple", "double télétravail", "coworking", "logement", "T3", "fibre", "remote work"],
+  },
 ];
 
 export const GUIDE_CATEGORIES = [
