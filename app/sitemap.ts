@@ -539,6 +539,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ["bourgoin-jallieu", "vienne"],
     ["gaillac", "albi"],
     ["gaillac", "castres"],
+    ["romilly-sur-seine", "troyes"],
+    ["romilly-sur-seine", "bar-sur-aube"],
+    ["saint-dizier", "chaumont"],
+    ["saint-dizier", "langres"],
+    ["chateaudun", "chartres"],
+    ["chateaudun", "dreux"],
+    ["venissieux", "lyon"],
+    ["venissieux", "villeurbanne"],
+    ["chateau-gontier-sur-mayenne", "laval"],
+    ["chateau-gontier-sur-mayenne", "mayenne"],
+    ["rambouillet", "versailles"],
+    ["rambouillet", "saint-germain-en-laye"],
   ];
 
   const staticRoutes: MetadataRoute.Sitemap = [
