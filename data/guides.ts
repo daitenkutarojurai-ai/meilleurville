@@ -2305,6 +2305,276 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["Normandie", "Bretagne", "comparatif régions", "s'installer", "Atlantic", "bord de mer", "Rennes", "Caen"],
   },
+  {
+    slug: "vivre-en-ile-de-france-guide-2025",
+    title: "Vivre en Île-de-France 2025 — Paris, banlieue et alternatives : le guide complet",
+    emoji: "🗼",
+    category: "region",
+    metaTitle: "Vivre en Île-de-France 2025 — Paris, banlieue chic et villes nouvelles | MeilleurVille",
+    metaDesc: "Où vivre en Île-de-France en 2025 ? Comparatif Paris intra-muros, banlieue chic (Versailles, Vincennes, Boulogne-Billancourt), banlieue accessible (Cergy, Montreuil) — pros, cons et prix.",
+    intro: "L'Île-de-France est la région la plus dense, la plus chère et la plus complexe de France. Pourtant, elle reste la région avec la plus forte concentration d'emplois, d'opportunités culturelles et de transports. Ce guide décrypte les différents profils de territoires franciliens pour vous aider à trouver votre niche.",
+    readMinutes: 10,
+    publishedAt: "2026-04-20",
+    updatedAt: "2026-04-20",
+    sections: [
+      {
+        heading: "Paris intra-muros : la vie d'hyper-centre",
+        body: "Paris reste incomparable pour l'accès à la culture, la gastronomie, la nightlife et les réseaux professionnels. Mais les contreparties sont connues : loyer T2 à 1 800€/mois minimum, espaces verts rares, bruit, pollution et stress du quotidien. Les arrondissements les plus prisés (Marais, Montmartre, Saint-Germain, Bastille) sont désormais inabordables pour les salaires médians. Les 18e, 19e et 20e restent plus accessibles mais connaissent une gentrification rapide. Paris convient parfaitement aux personnes sans enfants, à fort revenu ou bénéficiant d'un logement ancien à loyer maîtrisé.",
+      },
+      {
+        heading: "Banlieue chic : Versailles, Vincennes, Boulogne-Billancourt",
+        body: "La banlieue chic offre le meilleur compromis pour les familles aisées : loyers 30-50% moins élevés que Paris, qualité de vie supérieure (espaces verts, calme, écoles réputées) et transport en commun vers Paris très efficace. Vincennes (château, bois, métro ligne 1) est souvent citée comme la ville la plus agréable de la petite couronne. Versailles (RER C, patrimoine exceptionnel) attire les familles avec enfants. Boulogne-Billancourt combine le dynamisme d'une grande ville avec une distance quasi-parisienne. Prix : 5 500-7 200€/m² à l'achat.",
+      },
+      {
+        heading: "Banlieue accessible : Cergy, Montreuil, Saint-Denis",
+        body: "Pour les budgets plus serrés ou les profils créatifs, la grande couronne ou les villes moins cotées de la petite couronne offrent un équilibre différent. Cergy-Pontoise (ville nouvelle, RER A) est la meilleure option pour les étudiants et jeunes actifs avec un accès rapide à Paris à prix contenus. Montreuil (métro ligne 9 et 11) est devenu le Belleville de la banlieue : artistes, startups, population créative et internationale. Prix d'achat : 3 000-5 500€/m² selon la localisation.",
+      },
+      {
+        heading: "Les grandes villes nouvelles : Marne-la-Vallée, Évry",
+        body: "Les villes nouvelles des années 70 (Marne-la-Vallée, Évry-Courcouronnes, Sénart) ont vieilli de façon inégale. Marne-la-Vallée bénéficie de Disney et d'une desserte RER A excellente. Évry-Courcouronnes est en pleine transformation avec la restructuration de son centre et de nouveaux projets urbains. Ces villes offrent des superficies de logement bien supérieures pour un budget comparable, idéales pour les familles qui ne peuvent pas s'offrir la banlieue chic.",
+      },
+      {
+        heading: "La grande couronne : l'équation complexe",
+        body: "À plus de 30 km de Paris (Yvelines hors Versailles, Essonne, Val-d'Oise rural, Seine-et-Marne), le calcul immobilier est tentant (200 000€ pour une maison) mais le temps de trajet peut dépasser 1h30 aller. La grande couronne est un pari sur le télétravail : si vous travaillez de chez vous 4j/5, le calcul peut être gagnant. Mais si vous devez être au bureau quotidiennement, les 2-3h de trajet quotidien deviennent rapidement épuisants.",
+      },
+      {
+        heading: "Quand quitter l'Île-de-France ?",
+        body: "Pour un budget équivalent à un T3 en grande banlieue de Paris, vous pouvez vous offrir une belle maison à Nantes, Lyon, Bordeaux ou Rennes. Si votre emploi est full remote ou accessible depuis ces villes (TGV Paris-Lyon en 2h, Paris-Nantes en 2h15), la province devient un choix rationnel. Les motivations principales pour quitter l'IDF : avoir un jardin, être dans la nature, calme, réduction des coûts de vie et éducation des enfants dans un cadre moins stressant.",
+      },
+    ],
+    relatedCities: ["paris", "versailles", "vincennes", "boulogne-billancourt", "montreuil", "cergy"],
+    relatedGuides: [
+      "quitter-paris-guide-pratique-2025",
+      "alternatives-ile-de-france-banlieue-parisienne-guide-2025",
+      "meilleures-villes-familles-ecoles-securite-france-2025",
+    ],
+    tags: ["Île-de-France", "Paris", "banlieue", "Versailles", "Vincennes", "Cergy", "Montreuil", "banlieue chic", "logement"],
+  },
+  {
+    slug: "meilleures-villes-tech-numerique-france-2025",
+    title: "Meilleures villes françaises pour la tech et le numérique en 2025",
+    emoji: "💻",
+    category: "teletravail",
+    metaTitle: "Meilleures villes tech & numérique France 2025 — French Tech, startups, remote | MeilleurVille",
+    metaDesc: "Paris, Lyon, Nantes, Bordeaux, Toulouse, Grenoble, Rennes : quelle ville française offre le meilleur écosystème tech pour un développeur, designer ou entrepreneur numérique en 2025 ?",
+    intro: "La France possède l'un des écosystèmes tech les plus dynamiques d'Europe. Mais l'écosystème ne se concentre plus uniquement à Paris — la French Tech s'est profondément décentralisée depuis 2015. Ce guide classe les meilleures villes françaises pour les profils du numérique.",
+    readMinutes: 9,
+    publishedAt: "2026-04-20",
+    updatedAt: "2026-04-20",
+    sections: [
+      {
+        heading: "Paris : la capitale de la tech française",
+        body: "Station F (le plus grand campus startup du monde), La Défense (sièges des grandes ESN), 42 et l'EPITA... Paris reste incontournable pour les profils qui veulent rejoindre un scaleup ou une grande tech. Le réseau et la densité de recruteurs, d'investisseurs et d'événements (Viva Tech) n'ont pas d'équivalent en province. Mais les coûts fixes (loyer, mobilité) mangent une part significative du salaire.",
+      },
+      {
+        heading: "Lyon : la tech sérieuse du Rhône",
+        body: "Lyon est la 2e ville tech de France avec un tissu d'ESN mature (Capgemini, Sopra, Atos) et une French Tech labellisée. La Part-Dieu concentre le tertiaire tech, la Confluence les nouveaux espaces de coworking. L'École Centrale et l'INSA Lyon alimentent un vivier de talents excellent. Les salaires sont légèrement inférieurs à Paris (5-15%) mais les loyers sont 40% plus bas, ce qui améliore nettement le reste à vivre.",
+      },
+      {
+        heading: "Nantes et Bordeaux : les French Tech montantes",
+        body: "Nantes (French Tech labellisée, Digital League) et Bordeaux (Bordeaux Technowest, Darwin) sont les deux villes tech qui ont le plus progressé depuis 2015. Nantes attire les profils de la mobilité et du commerce digital. Bordeaux a une scène startup jeune mais dynamique autour du quartier Darwin. Les deux villes offrent une qualité de vie exceptionnelle à des coûts bien inférieurs à Paris.",
+      },
+      {
+        heading: "Toulouse et Grenoble : tech industrielle et R&D",
+        body: "Toulouse est la capitale européenne de l'aéronautique (Airbus, Thales, Dassault) — les profils software embarqué et ingénierie systèmes y sont très recherchés. Grenoble est le pôle R&D par excellence : CEA, Minatec, STMicroelectronics — une concentration scientifique exceptionnelle. Pour les ingénieurs physique, semi-conducteurs ou énergie, Grenoble dépasse Paris en termes d'opportunités de niche.",
+      },
+      {
+        heading: "Rennes et Lannion : le pôle télécoms breton",
+        body: "Rennes est une ville tech sous-estimée : l'IUT de Lannion et Télécom Bretagne ont historiquement alimenté Orange, Nokia et Ericsson. Lannion (Orange Labs) reste le pôle mondial des réseaux et télécoms de la France. Pour les profils télécoms, réseaux et embedded systems, Bretagne est une option sérieuse souvent ignorée des Parisiens.",
+      },
+      {
+        heading: "Comment choisir selon votre profil",
+        body: "Développeur full-stack junior → Paris ou Lyon (densité de missions). Designer UX en remote → Bordeaux ou Nantes (qualité de vie + communauté créative). Ingénieur embarqué aéro → Toulouse. Chercheur R&D → Grenoble. Profil télécoms → Rennes ou Lannion. Entrepreneur tech en bootstrap → Lyon ou Bordeaux. La règle d'or : regardez où se concentrent les offres d'emploi de votre domaine sur LinkedIn avant de décider.",
+      },
+    ],
+    relatedCities: ["paris", "lyon", "nantes", "bordeaux", "toulouse", "grenoble", "rennes", "lannion"],
+    relatedGuides: [
+      "meilleures-villes-freelances-independants-france-2025",
+      "meilleures-villes-creer-entreprise-startup-france-2025",
+      "vivre-en-france-teletravail-guide-2025",
+    ],
+    tags: ["tech", "numérique", "startup", "French Tech", "développeur", "remote", "télétravail", "ingénieur"],
+  },
+  {
+    slug: "mutation-professionnelle-choisir-ville-france-2025",
+    title: "Mutation professionnelle : comment choisir sa prochaine ville en France",
+    emoji: "📦",
+    category: "lifestyle",
+    metaTitle: "Mutation pro : comment choisir sa ville en France 2025 — guide décision | MeilleurVille",
+    metaDesc: "Mutation professionnelle en France : nos critères pour choisir votre prochaine ville — emploi du conjoint, écoles, logement, transport, qualité de vie. Grille de décision complète.",
+    intro: "Une mutation professionnelle est l'une des transitions de vie les plus complexes. Ce guide vous donne une méthode structurée pour choisir votre prochaine ville sans vous perdre dans les comparatifs infinis.",
+    readMinutes: 8,
+    publishedAt: "2026-04-22",
+    updatedAt: "2026-04-22",
+    sections: [
+      {
+        heading: "Étape 1 : valider l'emploi du conjoint en priorité",
+        body: "La principale cause d'échec des mutations est l'emploi du conjoint. Avant de chercher un logement, validez : le conjoint a-t-il une opportunité d'emploi dans la ville cible, ou peut-il travailler en remote ? Les villes avec un tissu économique diversifié (Lyon, Nantes, Bordeaux, Toulouse, Rennes) minimisent le risque. Les villes mono-industrielles exposent davantage au risque si l'industrie en question n'est pas celle du conjoint.",
+      },
+      {
+        heading: "Étape 2 : les écoles (si vous avez des enfants)",
+        body: "Le réseau scolaire public français est généralement de qualité uniforme, mais la réalité des établissements varie selon les quartiers. Outils : le classement des lycées dans Parcoursup, les taux de réussite au brevet et les avis de parents sur les forums locaux. Renseignez-vous sur le secteur scolaire avant de signer un bail — un arrondissement ou une commune peut tout changer.",
+      },
+      {
+        heading: "Étape 3 : budget logement — achat ou location ?",
+        body: "En cas de mutation potentiellement temporaire (2-3 ans), louer est presque toujours plus prudent — les frais de notaire (~7-8%) et l'incertitude sur l'évolution des prix rendent l'achat risqué. Si la mutation est durable (5 ans+), l'achat peut être rationnel. Villes où l'achat reste accessible : Limoges, Rouen, Reims, Nancy, Clermont-Ferrand, Saint-Étienne.",
+      },
+      {
+        heading: "Étape 4 : les transports et la mobilité du quotidien",
+        body: "Évaluez votre trajet domicile-travail avant de choisir un quartier. Dans une ville inconnue, les habitués sous-estiment souvent les temps réels. Préférez un quartier bien desservi en transport, même un peu moins beau, à un quartier pittoresque accessible uniquement en voiture. Utilisez Google Maps en mode commute avec les heures de pointe pour des estimations réalistes.",
+      },
+      {
+        heading: "Étape 5 : visiter avant de décider",
+        body: "Résistez à la tentation de tout régler à distance. Une visite de 2-3 jours dans la ville cible est indispensable. Ce que vous ne trouverez pas en ligne : l'ambiance du quartier, le bruit, la qualité des commerces de proximité. Visitez un jour de semaine et un weekend — les villes changent beaucoup. L'impression personnelle après une vraie visite est souvent le meilleur prédicteur de satisfaction.",
+      },
+      {
+        heading: "Les villes les plus accueillantes pour les mutations",
+        body: "Certaines villes ont une culture d'accueil des arrivants plus marquée. Toulouse (aéronautique), Grenoble (R&D), Rennes, Lyon et Bordeaux ont des réseaux d'expatriés internes et des associations d'intégration actives. Angers, Nantes et Montpellier sont connues pour leur facilité d'intégration. L'Île-de-France, paradoxalement, est souvent la plus difficile à intégrer malgré sa taille — les réseaux sont souvent fermés.",
+      },
+    ],
+    relatedCities: ["lyon", "nantes", "bordeaux", "toulouse", "rennes", "grenoble", "paris", "strasbourg"],
+    relatedGuides: [
+      "quitter-paris-guide-pratique-2025",
+      "meilleures-villes-familles-ecoles-securite-france-2025",
+      "budget-vivre-en-france-comparatif",
+    ],
+    tags: ["mutation professionnelle", "déménagement", "choix de ville", "emploi du conjoint", "écoles", "mobilité"],
+  },
+  {
+    slug: "paris-vs-province-qualite-de-vie-2025",
+    title: "Paris vs Province 2025 — Qualité de vie : le vrai comparatif",
+    emoji: "⚖️",
+    category: "comparaison",
+    metaTitle: "Paris vs Province 2025 — Comparatif qualité de vie, salaires, logement | MeilleurVille",
+    metaDesc: "Paris ou la province ? Salaire net ajusté du coût de la vie, temps de trajet, espace de vie, stress, culture : notre comparatif honnête pour 2025.",
+    intro: "Le débat Paris vs Province est l'un des plus anciens de la sociologie française. Mais au-delà des clichés, il existe des données réelles pour trancher. Ce guide donne une analyse honnête des deux options.",
+    readMinutes: 9,
+    publishedAt: "2026-04-22",
+    updatedAt: "2026-04-22",
+    sections: [
+      {
+        heading: "L'argument salarial : Paris gagne... mais pas autant qu'on croit",
+        body: "Les salaires à Paris sont effectivement plus élevés : en moyenne 20-30% supérieurs pour le même poste. Mais raisonnez en salaire net ajusté du coût de la vie. Un T3 de 70m² coûte 2 500€/mois à Paris contre 900-1 300€ à Lyon, Nantes ou Bordeaux. Soustrayez également le coût des transports (Navigo : 84€/mois), la restauration et les loisirs. Le calcul final donne souvent une différence de pouvoir d'achat de moins de 10% en faveur de Paris — parfois nul pour les cadres de moins de 35 ans.",
+      },
+      {
+        heading: "L'espace de vie : l'écart est brutal",
+        body: "Pour 1 200€/mois en province (Lyon, Bordeaux, Nantes), vous louez un T3 de 65-75m² dans un quartier agréable. Pour le même budget à Paris, vous obtenez un T1-T2 de 30-40m² en banlieue ou un studio en intra-muros. Sur 10 ans, la différence de superficie vécue est considérable — surtout en présence d'enfants.",
+      },
+      {
+        heading: "La culture et les loisirs : moins unilatéral qu'on croit",
+        body: "Oui, Paris concentre les grandes expositions et les premières mondiales. Mais la vie culturelle hors Paris est souvent sous-estimée. Lyon (Biennale, Nuits de Fourvière), Bordeaux (CAPC), Nantes (Voyage à Nantes), Strasbourg (Philharmonie) et Rennes (Transmusicales) offrent une programmation de niveau européen. Pour les habitués parisiens de l'expo du Grand Palais une fois par an, la province offre 90% de la valeur pour un accès beaucoup plus simple.",
+      },
+      {
+        heading: "Le temps de transport : l'argument décisif",
+        body: "Le Parisien moyen passe 1h30 par jour dans les transports (enquête déplacements IDFM 2024). Sur un an travaillé (~220 jours), c'est 330 heures. En province dans une ville bien conçue, le trajet moyen est de 25-35 min par jour. L'écart de 60-80 min quotidiennes représente, valorisé au SMIC net, 4 000-5 000€ de valeur annuelle — l'un des arguments les plus forts et les moins discutés.",
+      },
+      {
+        heading: "Le réseau professionnel : l'avantage Paris qui dure",
+        body: "Sur un point, Paris conserve un avantage structurel : la densité des réseaux professionnels. Les déjeuners d'affaires, les conférences et les rencontres fortuites avec VC ou recruteurs sont infiniment plus fréquents à Paris. Pour les entrepreneurs, dirigeants et profils qui vivent de leur réseau, la prime à Paris est réelle. Mais pour 80% des actifs qui travaillent dans une entreprise, cet avantage est théorique.",
+      },
+      {
+        heading: "Le verdict selon votre profil",
+        body: "Restez à Paris si : vous êtes en début de carrière dans la tech, la finance ou les médias, si vous avez un réseau parisien à entretenir, ou si vous aimez la vie urbaine intense. Partez en province si : vous avez des enfants, vous êtes en full remote, vous valorisez l'espace et le calme, ou vous êtes à 5-10 ans de la retraite. La bonne nouvelle : le TGV et le télétravail ont rendu le choix moins définitif — nombreux font l'aller-retour quelques jours par semaine.",
+      },
+    ],
+    relatedCities: ["paris", "lyon", "nantes", "bordeaux", "toulouse", "rennes", "grenoble", "strasbourg"],
+    relatedGuides: [
+      "quitter-paris-guide-pratique-2025",
+      "vivre-en-ile-de-france-guide-2025",
+      "budget-vivre-en-france-comparatif",
+    ],
+    tags: ["Paris", "province", "comparatif", "qualité de vie", "coût de la vie", "salaire", "déménagement"],
+  },
+  {
+    slug: "meilleures-villes-artistes-creatifs-france-2025",
+    title: "Meilleures villes françaises pour les artistes et créatifs en 2025",
+    emoji: "🎨",
+    category: "lifestyle",
+    metaTitle: "Villes pour artistes et créatifs France 2025 — ateliers, scène, communauté | MeilleurVille",
+    metaDesc: "Où vivre en France comme artiste, designer, musicien ou créatif en 2025 ? Montreuil, Marseille, Nantes, Bordeaux, Rennes, Montpellier — scènes, ateliers, coûts.",
+    intro: "La France bénéficie d'un réseau de soutien à la création artistique unique en Europe (intermittents du spectacle, IRCAM, résidences régionales). Mais toutes les villes ne sont pas égales pour les créatifs.",
+    readMinutes: 8,
+    publishedAt: "2026-04-22",
+    updatedAt: "2026-04-22",
+    sections: [
+      {
+        heading: "Montreuil : le Bushwick parisien",
+        body: "Montreuil est devenue la ville des artistes en banlieue parisienne : artistes plasticiens, designers, musiciens et architectes y ont afflué depuis les années 2000, attirés par les ateliers dans d'anciennes usines reconverties. Le Bas Montreuil concentre la majorité des ateliers et galeries émergentes. Les Portes Ouvertes des Ateliers de Montreuil rassemblent chaque année des centaines de créatifs. Bonne connexion métro vers Paris (lignes 9 et 11).",
+      },
+      {
+        heading: "Marseille : la ville créative la plus sous-estimée",
+        body: "Marseille est la grande surprise de la scène créative française. La Friche la Belle de Mai est l'un des centres d'art contemporain les plus actifs de France. Le Cours Julien est animé d'une scène musicale diverse (rap, électro, world music), de galeries sauvages et de studios à prix inégalés. Les loyers d'atelier y sont parmi les plus bas de toute grande ville française.",
+      },
+      {
+        heading: "Nantes : ville des arts vivants",
+        body: "Nantes a investi massivement dans la culture depuis 2000 (Voyage à Nantes, machines de l'île, Royal de Luxe) et est devenue une référence pour les arts de rue et le spectacle. La scène indépendante (musique électro, jazz, rock) est solide autour du Pannonica et du Lieu Unique. Les artistes bénéficient de nombreuses résidences et d'aides régionales.",
+      },
+      {
+        heading: "Bordeaux et Montpellier : les montantes de la scène créative",
+        body: "Bordeaux a connu une explosion créative post-2010 avec le CAPC, Darwin (espace créatif alternatif) et une scène musicale en plein essor. Montpellier est particulièrement forte sur les arts performatifs (danse contemporaine : festival Montpellier Danse, CNSMD). Les deux villes attirent des profils créatifs venant de Paris pour des raisons de coût.",
+      },
+      {
+        heading: "Rennes : la capitale de la musique bretonne",
+        body: "Rennes est incontournable pour les musiciens : les Transmusicales (festival de découverte musicale de référence internationale) et le Jardin Moderne symbolisent une scène musicale parmi les plus vivantes de France. Coût de vie modéré, tissu associatif actif et communauté créative soudée. Idéal pour les musiciens, artistes sonores et intermittents du spectacle.",
+      },
+      {
+        heading: "Conseils pratiques pour les créatifs en mobilité",
+        body: "Avant de choisir une ville, vérifiez : la présence d'un CAC ou d'un FRAC, la densité de compagnies et théâtres agréés, l'existence d'associations de mise à disposition d'ateliers à prix social, et la communauté locale sur Instagram/Facebook. Le statut d'intermittent du spectacle est géré nationalement mais certaines villes ont plus de structures employeurs que d'autres, ce qui influe sur le renouvellement des droits.",
+      },
+    ],
+    relatedCities: ["montreuil", "marseille", "nantes", "bordeaux", "rennes", "montpellier", "paris"],
+    relatedGuides: [
+      "meilleures-villes-jeunes-actifs-france-2025",
+      "vivre-en-ile-de-france-guide-2025",
+      "vivre-en-provence-paca-guide-2025",
+    ],
+    tags: ["artistes", "créatifs", "ateliers", "scène culturelle", "intermittents", "musique", "arts visuels"],
+  },
+  {
+    slug: "vivre-en-corse-guide-2025",
+    title: "Vivre en Corse en 2025 — le guide complet pour s'installer sur l'Île de Beauté",
+    emoji: "🏝️",
+    category: "region",
+    metaTitle: "Vivre en Corse 2025 — guide installation Ajaccio, Bastia, Porto-Vecchio | MeilleurVille",
+    metaDesc: "Vivre en Corse : logement, emploi, télétravail, coût de la vie, transports, vie pratique. Notre guide honnête pour s'installer à Ajaccio, Bastia ou ailleurs sur l'île.",
+    intro: "La Corse fait rêver : montagne, mer, maquis et soleil quasi méditerranéen. Mais vivre en Corse ne s'improvise pas — le marché immobilier est l'un des plus tendus de France, le marché de l'emploi est limité, et la vie sur l'île nécessite une adaptation réelle.",
+    readMinutes: 9,
+    publishedAt: "2026-04-24",
+    updatedAt: "2026-04-24",
+    sections: [
+      {
+        heading: "Ajaccio vs Bastia : les deux capitales",
+        body: "Ajaccio (70 000 hab.) est la préfecture et la capitale politique de l'île. Ville plus ensoleillée (plus de 2 800 heures/an), tournée vers le tourisme et les services. Bastia (45 000 hab.) est le pôle économique avec un port commercial actif et une vie de quartier plus dense. Les insulaires eux-mêmes sont partagés : Ajaccio est la ville de la Costa del Sud, Bastia est la ville qui vit vraiment. Pour les arrivants continentaux, Bastia est souvent la meilleure porte d'entrée.",
+      },
+      {
+        heading: "Le logement : attention au piège",
+        body: "La Corse a un marché immobilier paradoxal : théoriquement moins cher que la Côte d'Azur, mais très tendu en pratique. Les résidences secondaires (40% du parc) appauvrissent le marché locatif principal. Un T2 à Ajaccio se loue 700-900€/mois. L'achat est compliqué par des prix qui ont explosé post-Covid (Ajaccio : 3 500-5 000€/m²). Les zones littorales populaires (Bonifacio, Porto-Vecchio) sont hors de prix pour une résidence permanente.",
+      },
+      {
+        heading: "L'emploi : la vraie contrainte",
+        body: "L'emploi en Corse est la contrainte principale pour les arrivants. L'économie insulaire est dominée par le tourisme saisonnier, le BTP, l'administration publique et les services. Les profils tech, finance ou marketing ont peu de débouchés locaux hors télétravail. Le taux de chômage (12-15% selon les années) est nettement supérieur à la moyenne nationale. La solution pour la majorité des nouveaux arrivants : le full remote, les métiers de l'artisanat ou l'enseignement.",
+      },
+      {
+        heading: "Le télétravail en Corse : l'option réaliste",
+        body: "Pour les profils full remote, la Corse offre un cadre de vie exceptionnel. La fibre est déployée dans les principales villes. Le grand obstacle reste l'accès au continent : vol Ajaccio-Paris aller-retour compte 150-250€, et les vols sont saturés l'été. Si votre emploi nécessite des déplacements réguliers en France continentale, le coût et la contrainte logistique peuvent devenir fatigants.",
+      },
+      {
+        heading: "La vie pratique : les surprises",
+        body: "Plusieurs aspects surprennent les arrivants : les prix des supermarchés sont 10-20% plus élevés qu'en France continentale, les files d'attente administratives sont longues, et certains artisans exigent des recommandations locales. L'été (juin-septembre) transforme la Corse en destination touristique — certains services locaux ferment pour servir les touristes. La vie hors saison (octobre-mai) est beaucoup plus paisible et donne accès à la vraie Corse.",
+      },
+      {
+        heading: "Verdict : pour qui est la Corse ?",
+        body: "La Corse est idéale pour : les profils full remote cherchant une qualité de vie méditerranéenne exceptionnelle, les amoureux de la nature, les métiers de l'artisanat ou du tourisme, et les familles qui valorisent un environnement naturel préservé. Elle est déconseillée pour : les profils en recherche active d'emploi salarié, ceux qui ont besoin d'un accès fréquent au continent, ou les personnes qui ont du mal à s'intégrer dans une culture locale forte.",
+      },
+    ],
+    relatedCities: ["ajaccio"],
+    relatedGuides: [
+      "vivre-bord-mer-france-guide",
+      "meilleures-villes-bord-de-mer-france-2025",
+      "vivre-en-france-teletravail-guide-2025",
+    ],
+    tags: ["Corse", "Ajaccio", "Bastia", "île", "Méditerranée", "télétravail", "logement", "installation"],
+  },
 ];
 
 export const GUIDE_CATEGORIES = [
