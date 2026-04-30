@@ -5602,6 +5602,243 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["retraite", "soleil", "Sud", "budget", "mer", "Méditerranée", "abordable"],
   },
+  {
+    slug: "famille-monoparentale-quelle-ville-france-2025",
+    title: "Quelle ville choisir pour une famille monoparentale en France en 2025 ?",
+    metaTitle: "Famille monoparentale : les meilleures villes de France 2025",
+    metaDesc: "Parent solo : quelles villes offrent le meilleur soutien aux familles monoparentales ? Crèches, haltes-garderies, réseaux d'entraide, coût de la vie : notre guide complet.",
+    category: "famille",
+    emoji: "👩‍👧",
+    readMinutes: 9,
+    publishedAt: "2025-06-01",
+    updatedAt: "2025-06-01",
+    intro: "En France, plus de 2 millions de familles monoparentales élèvent seules leurs enfants. Pour elles, le choix de la ville est crucial : accessibilité des modes de garde, réseaux d'entraide, coût du logement, proximité des services d'urgence. Certaines villes se distinguent nettement pour l'accompagnement des parents solos.",
+    sections: [
+      {
+        heading: "Les critères spécifiques aux familles monoparentales",
+        body: "Un parent solo n'a pas les mêmes besoins qu'un couple avec enfants. Les critères prioritaires sont : la densité de places en crèches et haltes-garderies municipales (le délai d'attente peut atteindre 3 ans dans certaines grandes villes), la présence d'associations d'entraide type CNIDFF (centres d'information pour les droits des femmes et des familles), le coût du logement par rapport aux APL accessibles, les transports en commun à horaires étendus (pour les horaires décalés), et la qualité des écoles à proximité pour éviter les longues distances domicile-école.",
+      },
+      {
+        heading: "Rennes : la ville la plus favorable aux familles monoparentales",
+        body: "Rennes se distingue par sa politique familiale ambitieuse : taux de couverture en mode de garde parmi les plus élevés de France (92%), nombreuses haltes-garderies associatives, réseau de CAF très actif, tarification progressive selon les revenus. Le coût du logement, bien qu'en hausse, reste inférieur à Nantes ou Bordeaux. Les associations de familles monoparentales (Monoparents Ensemble Bretagne) sont très présentes. Un soutien municipal concret et une solidarité locale réelle.",
+      },
+      {
+        heading: "Nantes : équipements denses et réseau associatif fort",
+        body: "Nantes dispose d'un réseau de crèches intercommunales dense et de plusieurs structures Maison des Familles dans les quartiers. Les tarifications CAF y sont bien appliquées. L'association Familles Solo Nantes organise des activités et du soutien pair-à-pair. Les loyers restent plus abordables que Paris tout en offrant la densité de services d'une grande ville. Les transports en commun (Navibus, Tramway) permettent des trajets sans voiture.",
+      },
+      {
+        heading: "Montpellier : l'accès aux services malgré les prix en hausse",
+        body: "Montpellier a l'avantage d'un tramway étendu accessible dès 5h du matin — crucial pour les parents solos aux horaires décalés. La présence de l'université et des hôpitaux crée un tissu de modes de garde informels (étudiant(e)s en puériculture). Les associations de soutien aux familles y sont nombreuses. En revanche, les loyers ont fortement augmenté depuis 2020 et les places en crèche publique sont très demandées.",
+      },
+      {
+        heading: "Les villes moyennes sous-estimées pour parents solos",
+        body: "Angers offre peut-être le meilleur équilibre pour les familles monoparentales : loyers abordables (T3 entre 650€ et 800€), nombre de places en crèche en hausse depuis 2022, réseau d'associations actif, sécurité élevée. Tours dispose également d'une offre de modes de garde diversifiée avec des tarifications sociales bien calibrées. Ces villes permettent de vivre correctement avec un seul salaire et les APL, là où Paris ou Lyon nécessitent un revenu nettement supérieur.",
+      },
+      {
+        heading: "Ce qu'il faut éviter",
+        body: "Certaines villes présentent des risques spécifiques pour les familles monoparentales : les communes où les écoles primaires sont éloignées du logement (zones péri-urbaines sans transports), les villes où les CAF sont engorgées (délais d'attente pour le RSA ou les APL), et les agglomérations sans réseau d'entraide associatif. La solitude et l'isolement sont les premiers risques pour les parents solos en mobilité résidentielle. Choisir une ville où vous avez déjà un réseau de proches est souvent préférable à la ville théoriquement idéale sans connexion humaine.",
+      },
+      {
+        heading: "Ressources pratiques",
+        body: "Avant de vous installer, contactez la CAF de la ville de destination pour connaître les délais d'attente pour une place en crèche, les assistantes maternelles disponibles sur le secteur, et les associations locales. Le portail Mon Enfant (monenfant.fr) permet de visualiser les modes de garde disponibles sur une commune. Et n'hésitez pas à rejoindre les groupes Facebook ou les forums locaux de mamans et papas solos pour avoir des retours concrets.",
+      },
+    ],
+    relatedCities: ["rennes", "nantes", "montpellier", "angers", "tours"],
+    relatedGuides: [
+      "meilleure-ville-famille-france",
+      "meilleures-villes-familles-budget-serre-2025",
+      "meilleures-villes-sante-hopital-medecins-france-2025",
+    ],
+    tags: ["famille monoparentale", "parent solo", "crèche", "halte-garderie", "soutien familial", "logement"],
+  },
+  {
+    slug: "teletravailler-depuis-montagne-guide-complet-2025",
+    title: "Télétravailler depuis la montagne : le guide complet 2025",
+    metaTitle: "Travailler en télétravail depuis la montagne — Guide complet 2025",
+    metaDesc: "Fibre, coworking, isolation en hiver, vie sociale, transports : tout ce qu'il faut savoir pour s'installer en montagne française en télétravail. Guide 2025.",
+    category: "teletravail",
+    emoji: "⛰️",
+    readMinutes: 11,
+    publishedAt: "2025-06-10",
+    updatedAt: "2025-06-10",
+    intro: "Depuis 2020, des milliers de télétravailleurs se sont installés en montagne — Alpes, Pyrénées, Vosges, Jura, Massif Central. Le rêve est réel : air pur, sports de plein air, calme absolu. Mais les pièges sont nombreux : connexion internet aléatoire, isolement hivernal, manque de vie sociale, retours au bureau impossibles en cas de neige. Ce guide démonte les idées reçues.",
+    sections: [
+      {
+        heading: "La fibre en montagne : réalité et mythe",
+        body: "La fibre optique (FTTH) est en cours de déploiement dans les zones de montagne mais avec un retard de 3 à 5 ans sur les plaines. En 2025, les centres-bourgs des vallées alpines (Chamonix, Megève, Briançon) sont bien couverts. Mais les hameaux d'altitude sont souvent limités au VDSL ou 4G fixe. Avant de signer un bail, testez la connexion à l'adresse précise — pas seulement dans la commune. Un abonnement 4G fixe (Box 4G Bouygues, Orange) peut atteindre 50 Mb/s dans les zones à bonne couverture réseau.",
+      },
+      {
+        heading: "Grenoble : la ville montagne parfaite pour le télétravail",
+        body: "Grenoble est la première ville alpine pour le télétravail : fibre partout, coworking dense (Hub Grenoble, Drôle d'Endroit), French Tech Grenoble active, CHU de rang mondial. Les Alpes commencent à 30 minutes. Le coût de la vie est inférieur de 30% à Lyon. Et la qualité de vie est exceptionnelle : ski en hiver (Chamrousse), vélo en été (Vercors à portée), randonnées à l'année. C'est l'option montagne la plus sécurisée pour un télétravailleur.",
+      },
+      {
+        heading: "Chambéry : le bon compromis alpin",
+        body: "Chambéry est moins connue que Grenoble mais offre un excellent rapport qualité-prix : lac du Bourget (le plus grand lac naturel de France) à 10 minutes, Savoie à portée, TGV Lyon en 45 minutes. La fibre est généralisée. La ville est à 500m d'altitude, donc sans les contraintes de la haute montagne (routes coupées, neige difficile). Idéal pour les télétravailleurs qui veulent la montagne accessible sans ses inconvénients extrêmes.",
+      },
+      {
+        heading: "Les stations de ski : vivre dans une bulle",
+        body: "Certains télétravailleurs ont tenté de s'installer dans des stations (Megève, Val-d'Isère, Les Gets). L'expérience est radicalement différente selon la saison. En hiver : cadre magique, sports à pied de porte, mais loyers multipliés par 3 à 5 (saison touristique), restaurants bondés, vie sociale limitée aux amoureux des pistes. En été : stations mortes, commerces fermés, impression de ville fantôme. Ce modèle convient aux télétravailleurs autonomes qui s'épanouissent dans la solitude et les sports — pas aux familles.",
+      },
+      {
+        heading: "Les Pyrénées : l'alternative moins connue",
+        body: "Les Pyrénées sont moins exploitées que les Alpes pour le télétravail, ce qui crée des opportunités : Bagnères-de-Bigorre ou Saint-Gaudens offrent des logements à des prix nettement inférieurs avec un accès aux vallées pyrénéennes remarquable. La connexion internet s'améliore rapidement. Toulouse est à 1h de nombreuses vallées pyrénéennes — pour les réunions mensuelles, c'est gérable. Pau (à 30 min des Pyrénées) est la ville parfaite : fibre partout, TGV Paris, aéroport, et montagne à portée.",
+      },
+      {
+        heading: "Les Vosges et le Jura : montagne abordable à l'est",
+        body: "Gérardmer (Vosges) et Saint-Claude (Jura) offrent des logements à des prix incroyablement bas pour un cadre montagnard — 450€ à 650€/mois pour un T2. La fibre arrive progressivement. L'inconvénient : ces zones sont isolées en hiver, les hivers sont longs (5-6 mois), et les opportunités sociales sont limitées. Convient aux télétravailleurs très autonomes, avec une voiture fiable et un tempérament solitaire. Strasbourg ou Besançon sont accessibles en 1h pour les interactions humaines.",
+      },
+      {
+        heading: "Le Massif Central : nature profonde et peu connue",
+        body: "Le Massif Central (Auvergne, Ardèche, Cévennes, Lozère) est peut-être la meilleure opportunité pour les télétravailleurs qui cherchent la montagne sans les prix alpins : logements à partir de 400€/mois, fibre en déploiement, Vivatech Auvergne qui crée une communauté tech locale, accès aux volcans, plateaux et gorges. Clermont-Ferrand est la ville hub du Massif Central avec tous les services. Les Puy-de-Dôme et la Haute-Loire sont magnifiques et encore peu exploités.",
+      },
+    ],
+    relatedCities: ["grenoble", "chambery", "briançon", "clermont-ferrand", "pau"],
+    relatedGuides: [
+      "vivre-en-france-teletravail-guide-2025",
+      "quitter-paris-province-teletravail-guide-complet-2025",
+      "meilleures-villes-coworking-freelance-ecosysteme-2025",
+    ],
+    tags: ["télétravail", "montagne", "Alpes", "Pyrénées", "Vosges", "Jura", "fibre", "remote work"],
+  },
+  {
+    slug: "s-installer-dans-le-sud-ouest-teletravail-guide-2025",
+    title: "S'installer dans le Sud-Ouest de la France en télétravail : le guide complet 2025",
+    metaTitle: "Télétravail dans le Sud-Ouest — Guide d'installation 2025",
+    metaDesc: "Bordeaux, Toulouse, Bayonne, Pau, Périgueux : le guide complet pour s'installer dans le Sud-Ouest en télétravail. Villes, budget, qualité de vie, fibre.",
+    category: "teletravail",
+    emoji: "🍇",
+    readMinutes: 10,
+    publishedAt: "2025-06-20",
+    updatedAt: "2025-06-20",
+    intro: "Le Sud-Ouest est la destination préférée des télétravailleurs français depuis 2020 : douceur de vivre, gastronomie, vignobles, côte atlantique et Pyrénées accessibles. Mais la région est vaste et les différences entre Bordeaux (prix en hausse explosive) et Périgueux (abordable et méconnu) sont considérables. Voici comment choisir votre ville dans le Grand Sud-Ouest.",
+    sections: [
+      {
+        heading: "Bordeaux : le marché surchauffé",
+        body: "Bordeaux a bénéficié d'un effet TGV massif depuis 2017 (Paris en 2h04) qui a fait exploser les prix : +60% sur l'immobilier en 8 ans, loyer T2 à 950€–1 150€ en centre. La ville reste excellente pour la qualité de vie (Cité du Vin, quais de la Garonne, proximité du bassin d'Arcachon) mais le pouvoir d'achat a fortement chuté. Pour les télétravailleurs, Bordeaux mérite encore le détour si le salaire est élevé — sinon, cherchez dans un rayon de 30 km : Pessac, Mérignac, Artigues-près-Bordeaux offrent encore des loyers raisonnables.",
+      },
+      {
+        heading: "Toulouse : la ville rose pour les ingénieurs",
+        body: "Toulouse est le hub du télétravail technique et ingénierie en France : Airbus, Thalès, ISAE-SUPAERO génèrent un tissu de freelances et contractors dense. Même en télétravail, être à Toulouse signifie intégrer ce réseau — des missions y affluent. Les loyers restent 20% inférieurs à Bordeaux. La vie étudiante (150 000 étudiants) garantit une vie nocturne animée. Le soleil, la gastronomie (cassoulet, foie gras, armagnac), l'accès aux Pyrénées : un trifecta difficile à battre.",
+      },
+      {
+        heading: "Pau : le secret le mieux gardé du Sud-Ouest",
+        body: "Pau est la grande oubliée des listes de 'meilleures villes pour télétravailler'. Pourtant : TGV Paris en 4h, aéroport international (Paris CDG direct), Pyrénées à 30 minutes, 1 900 heures de soleil, loyer T2 entre 580€ et 780€. La ville est agréable (Boulevard des Pyrénées, château Henri IV), avec une vie associative et sportive dense. La French Tech Pays Basque et Pyrénées déborde sur Pau. Pour les télétravailleurs qui veulent les Pyrénées + une vraie ville avec services, c'est le choix optimal.",
+      },
+      {
+        heading: "Bayonne/Biarritz : le glamour à prix élevé",
+        body: "L'axe Bayonne-Anglet-Biarritz attire une concentration de télétravailleurs de la 'nouvelle économie' : surfeurs du numérique, créatifs, consultants. L'ambiance est unique, le surf à pied de porte, l'architecture basque superbe. Mais les prix ont rattrapé les niveaux méditerranéens : T2 à 1 000€–1 300€, achat au-delà de 5 000€/m² à Biarritz. Ce choix est compatible seulement avec des salaires élevés ou un patrimoine immobilier à revendre.",
+      },
+      {
+        heading: "Périgueux et Bergerac : le Périgord à prix doux",
+        body: "Périgueux (préfecture de la Dordogne) et Bergerac offrent un cadre exceptionnel à des prix très abordables : T2 entre 480€ et 650€, maisons 4 pièces entre 150 000€ et 250 000€. Périgueux possède un hôpital, une université, un cinéma, un opéra. Bergerac a son aéroport (vols Ryanair vers Londres, Amsterdam, Bruxelles) et son vignoble. Bordeaux est à 1h30 en voiture. Pour les télétravailleurs qui cherchent la Dordogne traditionnelle avec tous les services, ce duo est imbattable en termes de rapport qualité-prix.",
+      },
+      {
+        heading: "Montauban : la porte des Pyrénées accessible",
+        body: "Montauban est une alternative sérieuse à Toulouse : à seulement 50 km de Toulouse avec des loyers 35% inférieurs, dans une ville préfectorale de 60 000 habitants avec tous les services. Musée Ingres réputé, vieux centre en brique rose, Tarn à travers la ville. La connexion TGV passe par Toulouse. Pyrénées à 1h30. Pour les télétravailleurs qui bossent parfois à Toulouse mais ne veulent pas payer les prix toulousains, Montauban est le meilleur satellite.",
+      },
+      {
+        heading: "Comment choisir : matrice décision Sud-Ouest",
+        body: "Résumé pratique : Bordeaux si vous voulez la vie culturelle d'une grande ville et pouvez payer. Toulouse si vous êtes dans le secteur tech/ingénierie et voulez le réseau. Pau si vous voulez les Pyrénées avec une vraie ville à prix modéré. Bayonne si vous pouvez vous payer le luxe. Périgueux/Bergerac si vous voulez le Périgord à prix bas. Montauban si vous voulez la proximité toulousaine sans les prix. Avant de décider, testez votre future ville pendant au moins une semaine à la même saison que votre mode de vie habituel.",
+      },
+    ],
+    relatedCities: ["bordeaux", "toulouse", "pau", "montauban", "perigueux"],
+    relatedGuides: [
+      "quitter-paris-province-teletravail-guide-complet-2025",
+      "vivre-en-france-teletravail-guide-2025",
+      "vivre-en-gascogne-gers-guide-2025",
+    ],
+    tags: ["télétravail", "Sud-Ouest", "Bordeaux", "Toulouse", "Pau", "Pyrénées", "Dordogne", "installation"],
+  },
+  {
+    slug: "villes-france-parents-enfants-handicap-2025",
+    title: "Les meilleures villes françaises pour les familles avec un enfant en situation de handicap",
+    metaTitle: "Villes pour familles avec enfant handicapé — France 2025",
+    metaDesc: "SESSAD, IME, ULIS, RASED, accessibilité, associations : quelles villes françaises offrent le meilleur accompagnement pour les enfants en situation de handicap et leurs familles ?",
+    category: "famille",
+    emoji: "♿",
+    readMinutes: 9,
+    publishedAt: "2025-07-01",
+    updatedAt: "2025-07-01",
+    intro: "En France, 350 000 enfants sont scolarisés avec une reconnaissance MDPH. Pour les familles qui les élèvent, le choix de la ville est souvent déterminé par la densité de structures spécialisées : SESSAD, IME, ULIS, CAMSP, et la qualité de l'inclusion scolaire. Ce guide aide à identifier les villes les mieux équipées.",
+    sections: [
+      {
+        heading: "Les structures clés à vérifier",
+        body: "Avant de choisir une ville pour un enfant en situation de handicap, identifiez : les SESSAD (services d'éducation spéciale et de soins à domicile) disponibles dans le secteur, la présence d'un IME (Institut Médico-Éducatif) ou d'un IEM (Institut d'Éducation Motrice) pour les formes de handicap plus lourdes, la densité d'ULIS (unités localisées pour l'inclusion scolaire) dans les écoles primaires et collèges du secteur, l'existence d'un CAMSP (centre d'action médico-sociale précoce) pour les petits, et les associations locales de parents (APEI, Autisme France locale, etc.) qui constituent le premier réseau d'information.",
+      },
+      {
+        heading: "Lyon : la densité de structures la plus forte hors Paris",
+        body: "Lyon concentre la plus grande densité de structures d'accompagnement du handicap hors Île-de-France : CHU pédiatrique avec service neuropédiatrie réputé, nombreux SESSAD thématiques (troubles du spectre autistique, déficience motrice, déficience intellectuelle), plusieurs IME de taille et spécialités variées, et un maillage d'ULIS parmi les plus denses de France. L'association APF (Association des Paralysés de France) y est très active. Pour les handicaps rares ou lourds, Lyon est souvent la meilleure option en province.",
+      },
+      {
+        heading: "Bordeaux : inclusif et dynamique",
+        body: "Bordeaux a fait de l'inclusion scolaire une priorité depuis 2015. Le taux d'ULIS dans les écoles de la Métropole est supérieur à la moyenne nationale. L'accessibilité urbaine est l'une des meilleures de France (tramway accessible, trottoirs larges). Les structures de soins sont diversifiées (SESSAD Autisme Gironde, structures TSA). L'ESAT (entreprise adaptée de travail) est bien développé pour la transition vers l'emploi adapté des adultes.",
+      },
+      {
+        heading: "Rennes et Nantes : coopération et innovation",
+        body: "Ces deux villes bretonnes/ligériennes se distinguent par leur approche innovante du handicap scolaire. Rennes héberge le seul CAMSP spécialisé 'basse vision' de Bretagne, et des dispositifs d'accompagnement TSA très avancés. Nantes dispose d'un réseau dense d'AVS/AESH (accompagnants des élèves en situation de handicap), une MAiSON de l'autisme métropolitaine et un CHU pédiatrique de référence. Les deux villes ont développé des formations spécifiques pour les enseignants.",
+      },
+      {
+        heading: "Villes moyennes bien équipées",
+        body: "Certaines villes moyennes offrent une excellente accessibilité aux structures spécialisées grâce à des politiques locales volontaristes : Angers dispose d'un réseau SESSAD complet et d'un CHU pédiatrique de qualité. Tours a développé plusieurs structures TSA innovantes. Clermont-Ferrand est centre de référence pour certains handicaps rares dans le Massif Central. Ces villes permettent de combiner qualité des soins et coût de la vie modéré — un avantage non négligeable pour les familles qui doivent souvent réduire leur temps de travail.",
+      },
+      {
+        heading: "Ce que les familles découvrent trop tard",
+        body: "Les délais d'attente pour les SESSAD et les places en IME peuvent atteindre 2 à 5 ans dans certaines villes — même les mieux équipées. S'inscrire sur les listes d'attente AVANT le déménagement est essentiel. Par ailleurs, les AVS/AESH ne suivent pas l'enfant en cas de déménagement : la notification MDPH doit être refaite dans le département d'accueil, avec parfois un délai de plusieurs mois. Planifiez votre mobilité avec au moins 12 mois d'avance pour ces démarches.",
+      },
+    ],
+    relatedCities: ["lyon", "bordeaux", "rennes", "nantes", "angers"],
+    relatedGuides: [
+      "choisir-ville-pour-ses-enfants-ecoles-activites-securite-2025",
+      "meilleures-villes-sante-hopital-medecins-france-2025",
+      "meilleure-ville-famille-france",
+    ],
+    tags: ["famille", "handicap", "SESSAD", "IME", "ULIS", "autisme", "inclusion scolaire", "enfants"],
+  },
+  {
+    slug: "villes-france-grandes-tables-gastronomie-budget-reduit-2025",
+    title: "Les villes françaises où manger excellemment bien sans se ruiner",
+    metaTitle: "Manger bien à petit budget — Villes gastronomiques abordables France 2025",
+    metaDesc: "Bistrots, marchés, boucheries artisanales, cuisine de terroir : les villes françaises où la gastronomie est excellente sans être hors de prix. Nos coups de cœur.",
+    category: "lifestyle",
+    emoji: "🍽️",
+    readMinutes: 8,
+    publishedAt: "2025-07-15",
+    updatedAt: "2025-07-15",
+    intro: "Paris concentre les restaurants étoilés mais c'est dans les villes de province que la gastronomie du quotidien est la plus accessible : bistrots familiaux, marchés de producteurs, boucheries artisanales, fromageries. Voici les villes françaises où l'on mange le mieux pour un budget modeste.",
+    sections: [
+      {
+        heading: "Lyon : la capitale mondiale de la gastronomie accessible",
+        body: "Lyon est la seule grande ville française où la haute gastronomie coexiste avec une tradition de bistrots ouvriers (les 'bouchons') proposant des menus copieux à 15–20€ le midi. Les halles Paul Bocuse permettent d'acheter quenelles, grattons, rosette et fromages directement aux artisans. Le marché de la Croix-Rousse le mardi et le samedi est l'un des plus beaux de France. Les restaurateurs lyonnais savent valoriser les abats, les abattis, les produits de terroir Rhône-Alpes.",
+      },
+      {
+        heading: "Toulouse : cassoulet, confits et foie gras à prix accessibles",
+        body: "À Toulouse, les produits du Sud-Ouest (foie gras, confit de canard, saucisse de Toulouse) sont omniprésents dans les marchés à des prix inférieurs à ceux pratiqués dans les épiceries parisiennes. Le marché Victor Hugo est un temple des saveurs gasconnes. Le cassoulet servi dans les restaurants du Vieux Capitole est une expérience gastronomique accessible dès 18€. Les vins du Frontonnais et du Cahors complètent le tableau.",
+      },
+      {
+        heading: "Strasbourg : choucroute, tarte flambée et kouglof",
+        body: "Strasbourg est la ville alsacienne par excellence pour la cuisine populaire de qualité : winstubs (tavernes alsaciennes) servant choucroute, baeckeoffe et tarte flambée à moins de 20€ le midi, pain d'épices, pretzel frais, vin blanc d'Alsace à 3€ le verre en winstub. Le marché de Noël de Strasbourg est la meilleure excuse pour goûter bredele, pain d'épices chaud et vins chauds artisanaux. La gastronomie alsacienne est authentique, généreuse et abordable.",
+      },
+      {
+        heading: "Bordeaux : huîtres du Bassin, agneau de Pauillac, canelés",
+        body: "Bordeaux a la chance de la proximité : le Bassin d'Arcachon (huîtres à 8€ la douzaine directement chez l'ostréiculteur), l'agneau de Pauillac, les cèpes de la forêt landaise en automne. Les marchés des Capucins (surnommé 'le ventre de Bordeaux') et du quartier Saint-Pierre offrent une abondance de produits locaux. Le canelé bordelais — spécialité sucrée — est délicieux et coûte moins de 2€ chez les artisans confiseurs.",
+      },
+      {
+        heading: "Brest et Quimper : iode et creustes",
+        body: "La Bretagne finistérienne offre une gastronomie maritime inégalée : coques, palourdes, huîtres de Prat-ar-Coum, homards, langoustines, saint-jaques en saison. À Brest, le marché de Saint-Louis est un rendez-vous des produits de la mer à prix de pêcheur. Le kouign-amann, la galette de blé noir garnie de fromage local et le cidre breton artisanal complètent une assiette bretonne irréprochable à moins de 15€.",
+      },
+      {
+        heading: "Montauban, Cahors, Figeac : le triangle du terroir occitan",
+        body: "Le Lot et le Tarn-et-Garonne offrent une gastronomie paysanne parmi les plus riches de France à des prix dérisoires : foie gras fermier, truffes noires (en saison), agneau du Quercy, veau du Lot, vins de Cahors (Malbec). Les marchés de Montauban, Cahors et Figeac permettent de se nourrir divinement avec 30€ par semaine de budget produits frais. Pour les gourmets qui cherchent un pied-à-terre dans une région gastronomique abordable, ce triangle est une révélation.",
+      },
+    ],
+    relatedCities: ["lyon", "toulouse", "strasbourg", "bordeaux", "montauban"],
+    relatedGuides: [
+      "retraite-soleil-meilleures-villes-france-2025",
+      "vivre-en-gascogne-gers-guide-2025",
+      "vivre-en-quercy-lot-perigord-guide-2025",
+    ],
+    tags: ["gastronomie", "lifestyle", "marché", "bistrots", "cuisine régionale", "budget", "terroir"],
+  },
 ];
 
 export const GUIDE_CATEGORIES = [
