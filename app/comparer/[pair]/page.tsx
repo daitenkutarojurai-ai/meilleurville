@@ -289,6 +289,18 @@ const SEO_PAIRS = [
   ["pamiers", "toulouse"],
   ["saumur", "angers"],
   ["saumur", "tours"],
+  ["briancon", "gap"],
+  ["briancon", "grenoble"],
+  ["epernay", "reims"],
+  ["epernay", "chalons-en-champagne"],
+  ["la-ciotat", "cassis"],
+  ["la-ciotat", "marseille"],
+  ["saint-raphael", "frejus"],
+  ["saint-raphael", "cannes"],
+  ["anglet", "biarritz"],
+  ["anglet", "bayonne"],
+  ["honfleur", "caen"],
+  ["honfleur", "rouen"],
 ];
 
 export function generateStaticParams() {

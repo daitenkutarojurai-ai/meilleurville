@@ -174,6 +174,12 @@ export const HOUSING: Record<string, HousingData> = {
   aubenas:                  { avgRentT1: 400,  avgRentT2: 560,  avgRentT3: 740,  avgBuyPriceM2: 1900 },
   pamiers:                  { avgRentT1: 410,  avgRentT2: 570,  avgRentT3: 760,  avgBuyPriceM2: 1800 },
   saumur:                   { avgRentT1: 430,  avgRentT2: 600,  avgRentT3: 800,  avgBuyPriceM2: 1900 },
+  briancon:                 { avgRentT1: 500,  avgRentT2: 720,  avgRentT3: 970,  avgBuyPriceM2: 3200 },
+  epernay:                  { avgRentT1: 450,  avgRentT2: 630,  avgRentT3: 850,  avgBuyPriceM2: 2100 },
+  "la-ciotat":              { avgRentT1: 650,  avgRentT2: 920,  avgRentT3: 1250, avgBuyPriceM2: 4200 },
+  "saint-raphael":          { avgRentT1: 680,  avgRentT2: 970,  avgRentT3: 1300, avgBuyPriceM2: 4500 },
+  anglet:                   { avgRentT1: 620,  avgRentT2: 890,  avgRentT3: 1200, avgBuyPriceM2: 4300 },
+  honfleur:                 { avgRentT1: 490,  avgRentT2: 700,  avgRentT3: 940,  avgBuyPriceM2: 3500 },
 };
 
 export function getHousing(slug: string): HousingData | undefined {
