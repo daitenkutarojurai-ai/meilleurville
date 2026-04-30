@@ -505,6 +505,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ["paray-le-monial", "chalon-sur-saone"],
     ["semur-en-auxois", "beaune"],
     ["semur-en-auxois", "dijon"],
+    ["villeneuve-sur-lot", "agen"],
+    ["villeneuve-sur-lot", "marmande"],
+    ["gourdon", "cahors"],
+    ["gourdon", "figeac"],
+    ["castelsarrasin", "moissac"],
+    ["castelsarrasin", "montauban"],
+    ["sarrebourg", "metz"],
+    ["longwy", "nancy"],
+    ["saint-amand-montrond", "bourges"],
+    ["saint-amand-montrond", "vierzon"],
   ];
 
   const staticRoutes: MetadataRoute.Sitemap = [

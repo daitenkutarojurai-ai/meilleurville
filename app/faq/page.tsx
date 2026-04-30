@@ -124,7 +124,7 @@ const FAQ_SECTIONS = [
       },
       {
         q: "Comment fonctionne la carte interactive ?",
-        a: "La carte interactive (/carte) affiche les 286 villes analysées avec un code couleur selon leur score (vert = excellent, ambre = bon, rouge = à améliorer). Vous pouvez filtrer l'affichage par critère (nature, transport, coût...) et cliquer sur chaque ville pour accéder à son profil. La taille du cercle est proportionnelle au score.",
+        a: "La carte interactive (/carte) affiche les 292 villes analysées avec un code couleur selon leur score (vert = excellent, ambre = bon, rouge = à améliorer). Vous pouvez filtrer l'affichage par critère (nature, transport, coût...) et cliquer sur chaque ville pour accéder à son profil. La taille du cercle est proportionnelle au score.",
       },
     ],
   },

@@ -292,6 +292,12 @@ export const HOUSING: Record<string, HousingData> = {
   montbard:                  { avgRentT1: 340,  avgRentT2: 480,  avgRentT3: 640,  avgBuyPriceM2: 1000 },
   "paray-le-monial":         { avgRentT1: 380,  avgRentT2: 540,  avgRentT3: 720,  avgBuyPriceM2: 1300 },
   "semur-en-auxois":         { avgRentT1: 360,  avgRentT2: 510,  avgRentT3: 680,  avgBuyPriceM2: 1200 },
+  "villeneuve-sur-lot":      { avgRentT1: 430,  avgRentT2: 610,  avgRentT3: 810,  avgBuyPriceM2: 1500 },
+  gourdon:                   { avgRentT1: 360,  avgRentT2: 510,  avgRentT3: 680,  avgBuyPriceM2: 1200 },
+  castelsarrasin:            { avgRentT1: 420,  avgRentT2: 590,  avgRentT3: 790,  avgBuyPriceM2: 1400 },
+  sarrebourg:                { avgRentT1: 430,  avgRentT2: 610,  avgRentT3: 820,  avgBuyPriceM2: 1500 },
+  longwy:                    { avgRentT1: 480,  avgRentT2: 680,  avgRentT3: 910,  avgBuyPriceM2: 1700 },
+  "saint-amand-montrond":    { avgRentT1: 380,  avgRentT2: 540,  avgRentT3: 720,  avgBuyPriceM2: 1200 },
 };
 
 export function getHousing(slug: string): HousingData | undefined {
