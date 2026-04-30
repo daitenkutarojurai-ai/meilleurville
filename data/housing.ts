@@ -85,6 +85,11 @@ export const HOUSING: Record<string, HousingData> = {
   thionville:               { avgRentT1: 480, avgRentT2: 660,  avgRentT3: 880,  avgBuyPriceM2: 2400 },
   arras:                    { avgRentT1: 390, avgRentT2: 540,  avgRentT3: 720,  avgBuyPriceM2: 1800 },
   carcassonne:              { avgRentT1: 380, avgRentT2: 530,  avgRentT3: 710,  avgBuyPriceM2: 1500 },
+  bayeux:                   { avgRentT1: 410, avgRentT2: 570,  avgRentT3: 760,  avgBuyPriceM2: 2200 },
+  "saint-brieuc":           { avgRentT1: 420, avgRentT2: 580,  avgRentT3: 780,  avgBuyPriceM2: 1800 },
+  "saint-nazaire":          { avgRentT1: 460, avgRentT2: 640,  avgRentT3: 850,  avgBuyPriceM2: 2200 },
+  "clermont-herault":       { avgRentT1: 360, avgRentT2: 490,  avgRentT3: 660,  avgBuyPriceM2: 1800 },
+  "chalons-en-champagne":   { avgRentT1: 390, avgRentT2: 540,  avgRentT3: 720,  avgBuyPriceM2: 1700 },
 };
 
 export function getHousing(slug: string): HousingData | undefined {

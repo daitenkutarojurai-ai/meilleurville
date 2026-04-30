@@ -130,6 +130,11 @@ const SEO_PAIRS = [
   ["arras", "amiens"],
   ["carcassonne", "perpignan"],
   ["carcassonne", "toulouse"],
+  ["bayeux", "caen"],
+  ["saint-brieuc", "rennes"],
+  ["saint-brieuc", "brest"],
+  ["saint-nazaire", "nantes"],
+  ["chalons-en-champagne", "reims"],
 ];
 
 export function generateStaticParams() {

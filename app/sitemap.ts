@@ -115,6 +115,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ["arras", "amiens"],
     ["carcassonne", "perpignan"],
     ["carcassonne", "toulouse"],
+    ["bayeux", "caen"],
+    ["saint-brieuc", "rennes"],
+    ["saint-brieuc", "brest"],
+    ["saint-nazaire", "nantes"],
+    ["chalons-en-champagne", "reims"],
   ];
 
   const staticRoutes: MetadataRoute.Sitemap = [
