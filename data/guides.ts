@@ -2215,6 +2215,96 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["startup", "entrepreneuriat", "TPE", "PME", "créer entreprise", "écosystème", "French Tech"],
   },
+  {
+    slug: "vivre-en-montagne-villes-alpes-pyrenees-france-2025",
+    title: "Vivre en montagne en France 2025 — Meilleures villes des Alpes et des Pyrénées",
+    emoji: "⛰️",
+    category: "lifestyle",
+    metaTitle: "Vivre en montagne France 2025 — Alpes, Pyrénées, Massif Central | MeilleurVille",
+    metaDesc: "Vous rêvez de vivre en montagne en France ? Guide 2025 des meilleures villes alpines et pyrénéennes : qualité de vie, emploi, sports d'hiver, accessibilité et comparatif des prix.",
+    intro: "Vivre en montagne est un mode de vie à part entière : air pur, sport au quotidien, communauté soudée — mais aussi des contraintes réelles. Ce guide compare les meilleures villes de montagne selon leurs conditions de vie, leurs accès, et leurs profils de résidents.",
+    readMinutes: 9,
+    publishedAt: "2026-04-10",
+    updatedAt: "2026-04-10",
+    sections: [
+      {
+        heading: "Montagne : les trois modèles de villes",
+        body: "Il existe trois modèles de villes de montagne en France : les métropoles alpines (Grenoble, Chambéry, Annecy) où la montagne est un avantage de qualité de vie mais l'économie est diversifiée et non-saisonnière. Les villes-stations (Bagnères-de-Bigorre, Briançon, Cluses) dont l'économie est fortement liée au ski et au tourisme. Et les villes de vallée (Gap, Aurillac, Rodez) qui bénéficient d'un cadre montagnard tout en restant dans une économie diversifiée. Chaque modèle a ses avantages et ses contraintes.",
+      },
+      {
+        heading: "Le Top 5 montagne : Annecy, Grenoble, Chambéry, Gap, Pau",
+        body: "Annecy est le rêve de montagne accessible : lac du Bourget, Aravis à portée, économie diversifiée, qualité de vie maximale — mais à un prix élevé (4 000€/m2+). Grenoble est la ville de montagne la plus complète : économie tech solide, Vercors et Chartreuse à portée, prix raisonnables. Chambéry offre un accès alpin à des prix encore gérables avec le bonus de la proximité Lyon/Annecy. Gap est la ville alpine la plus accessible : soleil des Alpes du Sud, vélo et ski à portée, coût de la vie Provence-sans-mer. Pau donne accès aux Pyrénées à 45 min pour un coût de la vie parmi les meilleurs de France.",
+      },
+      {
+        heading: "Les Pyrénées : l'alternative moins chère aux Alpes",
+        body: "Les Pyrénées sont systématiquement sous-estimées face aux Alpes : les prix de l'immobilier y sont 30 à 50% moins élevés pour un cadre montagnard comparable. Pau est la porte d'entrée (plaine mais Pyrénées à 45 min), Tarbes (similaire avec des prix plus bas), Bagnères-de-Bigorre (station thermale et montagne combinées), Foix (Ariège, montagne pyrénéenne authentique à prix très accessibles). La contrainte principale : les Pyrénées sont moins bien desservies en TGV que les Alpes (pas de Thalys ou Eurostar).",
+      },
+      {
+        heading: "Le Massif central : la montagne accessible et abordable",
+        body: "Le Massif central est la montagne la plus accessible de France (géographiquement et financièrement) : Clermont-Ferrand est à 1h de Paris en TGV avec le Puy-de-Dôme comme arrière-cour, Aurillac est entourée des volcans du Cantal à des prix immobiliers imbattables, Rodez donne accès aux Causses et aux Gorges du Tarn. Ces villes sont idéales pour les amateurs de montagne à budget contraint — mais les altitudes sont plus modestes (600-900m) que les Alpes.",
+      },
+      {
+        heading: "Travailler en montagne : les secteurs qui recrutent",
+        body: "La montagne n'est plus synonyme de chômage pour les actifs. Grenoble est l'un des premiers pôles de R&D en France (CEA, Minatec, STMicroelectronics). Chambéry monte sur le numérique et les énergies renouvelables. Gap attire les profils de la filière montagne (tourisme, snowpark, ESF) et les télétravailleurs. Pour les profils non-mountain economy, le télétravail a transformé la donne : être en full remote depuis Annecy ou Pau est désormais commun et souvent envisageable. L'accès aux espaces de coworking de qualité s'est amélioré dans toutes les villes alpines depuis 2020.",
+      },
+      {
+        heading: "Ce que personne ne vous dit sur la vie en montagne",
+        body: "Les aspects moins glamour de la vie en montagne : les hivers longs et froids dans les villes de haute altitude (jusqu'à 6 mois de neige à Gap ou Briançon), le coût élevé du chauffage, l'isolation routière lors des épisodes neigeux (Route des Alpes fermée), et la saisonnalité qui peut rendre les stations mornes hors-saison. Les avantages souvent sous-estimés : la qualité de l'air (parmi la meilleure de France), la vie en plein air quotidienne (randonnée, ski, vélo), et une qualité de sommeil supérieure en altitude.",
+      },
+    ],
+    relatedCities: ["annecy", "grenoble", "chambery", "gap", "pau", "tarbes", "aurillac", "clermont-ferrand", "aix-les-bains", "thonon-les-bains"],
+    relatedGuides: [
+      "meilleures-villes-sport-outdoor-nature-france-2025",
+      "quitter-paris-guide-pratique-2025",
+      "meilleures-villes-pour-retraite-france-2025",
+    ],
+    tags: ["montagne", "Alpes", "Pyrénées", "Massif central", "ski", "randonnée", "air pur", "altitude"],
+  },
+  {
+    slug: "normandie-vs-bretagne-comparatif-2025",
+    title: "Normandie vs Bretagne 2025 — Quelle région choisir pour s'installer ?",
+    emoji: "🌊",
+    category: "comparaison",
+    metaTitle: "Normandie vs Bretagne 2025 — Comparatif complet pour s'installer | MeilleurVille",
+    metaDesc: "Vous hésitez entre Normandie et Bretagne ? Notre comparatif 2025 analyse les deux régions sur tous les critères : climat, emploi, qualité de vie, immobilier, transport et culture.",
+    intro: "Normandie et Bretagne sont les deux grandes régions de l'Ouest français, souvent mises en concurrence par les Parisiens en quête d'une vie plus sereine en bord de mer. Elles sont proches géographiquement mais très différentes dans leur identité, leur économie et leur cadre de vie.",
+    readMinutes: 8,
+    publishedAt: "2026-04-15",
+    updatedAt: "2026-04-15",
+    sections: [
+      {
+        heading: "La première différence : l'accessibilité depuis Paris",
+        body: "La Normandie est la région la plus accessible depuis Paris : Rouen est à 1h20 de Saint-Lazare, Caen à 2h, Le Havre à 2h10. C'est l'avantage de la Normandie pour les profils en présentiel partiel. La Bretagne est plus éloignée : Rennes à 1h27 en TGV (excellent), mais Brest à 3h45, Quimper à 4h. Si vous êtes full remote, la distance importe moins. Si vous avez 2-3 jours de bureau par semaine à Paris, la Normandie a un avantage décisif.",
+      },
+      {
+        heading: "Climat : deux tempéraments atlantiques différents",
+        body: "Les deux régions ont un climat atlantique avec des hivers doux mais pluvieux. La Bretagne est légèrement plus douce en hiver (tempérée par l'Atlantique) mais aussi la plus pluvieuse : Brest est la ville la plus arrosée de France (1 200 mm/an). La Normandie a des hivers légèrement plus froids mais un ensoleillement comparable (1 700-1 800 heures/an). Aucune des deux n'est la destination idéale pour les fans de soleil — pour ça, il faut aller plus au sud. Mais si vous aimez la lumière bretonne et les ciels changeants, ces régions sont absolument magnifiques.",
+      },
+      {
+        heading: "Économie et emploi : Bretagne gagne",
+        body: "En termes d'emploi et de dynamisme économique, la Bretagne a pris l'avantage sur la Normandie depuis 2010. Rennes (French Tech forte, agroalimentaire, numérique) et Brest (marine, défense, numérique) ont des marchés de l'emploi dynamiques. La Normandie est plus industrielle (automobile à Caen, nucléaire, pétrochimie au Havre) et ses grandes villes ont moins connu la transformation vers le numérique. Rouen reste solide mais Caen est plus fragmentée économiquement. Pour un profil numérique, Rennes gagne sans discussion.",
+      },
+      {
+        heading: "Immobilier : Normandie moins chère, Bretagne en tension",
+        body: "Le prix de l'immobilier est nettement plus accessible en Normandie : maison 4 pièces à Caen ou Rouen pour 220 000-280 000€, contre 280 000-380 000€ dans la périphérie de Rennes. La côte normande (Deauville, Honfleur, Étretat) est chère (résidences secondaires des Parisiens), mais les villes de l'intérieur sont très accessibles. En Bretagne, la tension locative est plus forte dans les grandes villes, et les prix littoraux (Saint-Malo, Quimper côté) ont explosé post-Covid. Brest reste bon marché. Avantage Normandie pour l'immobilier.",
+      },
+      {
+        heading: "Culture et identité locale",
+        body: "La Bretagne a une identité régionale forte et revendiquée : langue bretonne, fest-noz, bagad de cornemuses, culture celtique. Cette identité peut être une force d'appartenance pour ceux qui y adhèrent, ou une barrière légère pour ceux qui arrivent de loin. La Normandie a une identité plus discrète : cidre, camembert, patrimoine du Débarquement, architecture de reconstruction (Le Havre, Caen). Les deux régions accueillent bien les arrivants, mais le processus d'intégration est différent.",
+      },
+      {
+        heading: "Verdict : qui devrait choisir quoi ?",
+        body: "Choisir la Bretagne si : vous êtes en full remote (ou avec accès TGV vers Paris), vous valorisez l'identité culturelle forte, vous cherchez une ville dynamique (Rennes), ou vous êtes dans la tech/numérique. Choisir la Normandie si : vous avez besoin de pouvoir aller à Paris régulièrement (Rouen, Caen), vous cherchez un immobilier moins cher que la Bretagne, ou vous êtes dans l'industrie, l'automobile ou le nucléaire. Les deux régions offrent une qualité de vie supérieure à beaucoup d'alternatives françaises — le choix dépend avant tout de votre projet de vie.",
+      },
+    ],
+    relatedCities: ["rennes", "brest", "nantes", "caen", "rouen", "quimper", "saint-malo", "lorient", "le-havre", "vannes"],
+    relatedGuides: [
+      "vivre-en-bretagne-guide-2025",
+      "vivre-en-normandie-guide-2025",
+      "quitter-paris-guide-pratique-2025",
+    ],
+    tags: ["Normandie", "Bretagne", "comparatif régions", "s'installer", "Atlantic", "bord de mer", "Rennes", "Caen"],
+  },
 ];
 
 export const GUIDE_CATEGORIES = [
