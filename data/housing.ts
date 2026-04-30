@@ -162,6 +162,12 @@ export const HOUSING: Record<string, HousingData> = {
   "noisy-le-grand":         { avgRentT1: 650,  avgRentT2: 950,  avgRentT3: 1250, avgBuyPriceM2: 4000 },
   "evry-courcouronnes":     { avgRentT1: 600,  avgRentT2: 850,  avgRentT3: 1150, avgBuyPriceM2: 3200 },
   menton:                   { avgRentT1: 700,  avgRentT2: 1050, avgRentT3: 1450, avgBuyPriceM2: 5200 },
+  "la-roche-sur-yon":       { avgRentT1: 440,  avgRentT2: 600,  avgRentT3: 800,  avgBuyPriceM2: 2100 },
+  "les-sables-d-olonne":    { avgRentT1: 550,  avgRentT2: 790,  avgRentT3: 1050, avgBuyPriceM2: 3500 },
+  dax:                      { avgRentT1: 420,  avgRentT2: 580,  avgRentT3: 780,  avgBuyPriceM2: 2200 },
+  "mont-de-marsan":         { avgRentT1: 400,  avgRentT2: 550,  avgRentT3: 740,  avgBuyPriceM2: 1900 },
+  "le-puy-en-velay":        { avgRentT1: 380,  avgRentT2: 530,  avgRentT3: 700,  avgBuyPriceM2: 1600 },
+  villeurbanne:             { avgRentT1: 600,  avgRentT2: 870,  avgRentT3: 1150, avgBuyPriceM2: 4200 },
 };
 
 export function getHousing(slug: string): HousingData | undefined {

@@ -253,6 +253,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ["evry-courcouronnes", "cergy"],
     ["menton", "nice"],
     ["menton", "antibes"],
+    ["la-roche-sur-yon", "les-sables-d-olonne"],
+    ["les-sables-d-olonne", "nantes"],
+    ["la-roche-sur-yon", "nantes"],
+    ["dax", "pau"],
+    ["dax", "bayonne"],
+    ["mont-de-marsan", "dax"],
+    ["le-puy-en-velay", "clermont-ferrand"],
+    ["le-puy-en-velay", "mende"],
+    ["villeurbanne", "lyon"],
+    ["villeurbanne", "grenoble"],
   ];
 
   const staticRoutes: MetadataRoute.Sitemap = [

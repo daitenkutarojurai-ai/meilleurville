@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from "react";
 
 const STATS = [
   { value: 47000, suffix: "+", label: "avis d'habitants" },
-  { value: 156, suffix: "+", label: "villes profilées" },
+  { value: 162, suffix: "+", label: "villes profilées" },
   { value: 12000, suffix: "+", label: "membres actifs" },
   { value: 96, suffix: "%", label: "satisfaction quiz" },
 ];
