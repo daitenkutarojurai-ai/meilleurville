@@ -796,6 +796,84 @@ export const GUIDES: Guide[] = [
     relatedGuides: ["budget-vivre-en-france-comparatif", "quitter-paris-guide-2025"],
     tags: ["investissement locatif", "immobilier", "rendement", "SCPI", "patrimoine"],
   },
+  {
+    slug: "vivre-pays-basque-bayonne-biarritz-pau",
+    title: "Vivre au Pays Basque Français — Bayonne, Biarritz ou Pau ?",
+    metaTitle: "Vivre au Pays Basque 2025 : Bayonne, Biarritz, Pau — laquelle choisir ?",
+    metaDesc:
+      "Guide complet pour s'installer au Pays Basque français : Bayonne (ville centre), Biarritz (station balnéaire) ou Pau (Pyrénées). Loyers, qualité de vie, culture basque.",
+    category: "region",
+    emoji: "🏄",
+    readMinutes: 7,
+    publishedAt: "2025-04-15",
+    updatedAt: "2025-04-28",
+    intro:
+      "Le Pays Basque français est devenu l'une des destinations de relocation les plus convoitées depuis 2020. Et pour cause : culture identitaire forte, gastronomie exceptionnelle, mer et montagne à portée de main, et une qualité de vie qu'on ne trouve nulle part ailleurs en France. Bayonne, Biarritz et Pau sont trois profils radicalement différents. Décryptage.",
+    sections: [
+      {
+        heading: "Bayonne : la vraie capitale du Pays Basque",
+        body: "Score MeilleurVille : 7.8/10. Bayonne n'est pas une ville de vacances — c'est une vraie métropole à taille humaine, capitale culturelle et économique du Pays Basque français. Le marché immobilier s'est tendu avec l'afflux post-COVID mais les loyers restent plus accessibles que Biarritz : T2 médian à 850€/mois. La gare SNCF la connecte à Paris en 2h par TGV. Elle concentre les commerces, administrations, hôpitaux et une vie culturelle intense — notamment les Fêtes de Bayonne (600 000 festivaliers).",
+      },
+      {
+        heading: "Biarritz : la station qui a la cote... et le prix",
+        body: "Score MeilleurVille : 7.5/10. Biarritz est la ville du surf, des grands hôtels et des retraités aisés. Sa beauté est incontestable — mais son marché immobilier est parmi les plus tendus du sud-ouest : T2 à 1 100€/mois en location, 5 500€/m² à l'achat. Post-COVID, les Parisiens ont fait exploser les prix. Résultat : les locaux quittent Biarritz pour Bayonne et les jeunes actifs ne peuvent plus s'y loger. Idéale pour les retraités avec patrimoine, les indépendants à revenus élevés, ou l'investissement locatif saisonnier.",
+      },
+      {
+        heading: "Pau : la porte des Pyrénées, souvent oubliée",
+        body: "Score MeilleurVille : 7.5/10. Pau est la grande surprise du trio. Moins médiatisée, elle offre pourtant un cadre exceptionnel : vue panoramique sur les Pyrénées depuis le boulevard des Pyrénées (classé «plus belle vue de France» par Lamartine), ski à 1h30, Atlantique à 1h. Son tissu économique est renforcé par Total Energies, l'UPPA et un secteur aéronautique actif. Le loyer T2 médian est à 650€ — bien en dessous de Bayonne. Profil idéal : familles, ingénieurs, retraités actifs.",
+      },
+      {
+        heading: "Le facteur décisif : vos racines et votre mode de vie",
+        body: "Le Pays Basque n'est pas un territoire neutre. Sa culture, sa langue (euskara), ses traditions sont vivantes et revendiquées. Les «expatriés» qui s'y intègrent le mieux sont ceux qui viennent avec respect et curiosité, pas ceux qui cherchent «une vie parisienne au soleil». Les tensions autour du logement (pression touristique, prix en hausse) sont réelles — dans certains quartiers de Biarritz, des tags «Stop tourisme» apparaissent. Venez avec de bonnes intentions.",
+      },
+      {
+        heading: "Notre recommandation selon votre profil",
+        body: "Remote worker cadre / couple sans enfants : Bayonne pour l'équilibre budget-qualité. Retraité avec patrimoine ou investisseur : Biarritz pour la valorisation. Famille avec enfants et amour de la montagne : Pau sans hésitation (meilleures écoles, loyers 30% moins chers que Bayonne). Budget serré : Anglet (entre Bayonne et Biarritz) propose un compromis intéressant.",
+      },
+    ],
+    relatedCities: ["bayonne", "biarritz", "pau"],
+    relatedGuides: ["cote-atlantique-bordeaux-la-rochelle-bayonne", "quitter-paris-guide-2025"],
+    tags: ["Pays Basque", "Bayonne", "Biarritz", "Pau", "déménagement", "région"],
+  },
+  {
+    slug: "auvergne-rhone-alpes-lyon-grenoble-annecy",
+    title: "Lyon, Grenoble ou Annecy : quel choix en Auvergne-Rhône-Alpes ?",
+    metaTitle: "Lyon vs Grenoble vs Annecy — Laquelle choisir en Auvergne-Rhône-Alpes ?",
+    metaDesc:
+      "Comparatif des trois grandes villes d'Auvergne-Rhône-Alpes pour s'y installer : Lyon (métropole), Grenoble (technopole alpine), Annecy (lac et nature). Loyers, emploi, qualité de vie.",
+    category: "comparaison",
+    emoji: "🏔️",
+    readMinutes: 8,
+    publishedAt: "2025-04-20",
+    updatedAt: "2025-04-28",
+    intro:
+      "Auvergne-Rhône-Alpes est la région la plus dynamique de France hors Île-de-France. Lyon, Grenoble et Annecy représentent trois projets de vie radicalement différents, mais toutes ont en commun une chose : une qualité de vie que les Parisiens découvrent avec stupéfaction quand ils s'y installent.",
+    sections: [
+      {
+        heading: "Lyon : le meilleur de la France en un seul endroit",
+        body: "Score MeilleurVille : 8.5/10. Lyon est régulièrement citée comme la meilleure ville française pour s'installer. Pourquoi ? Parce qu'elle réunit tout sans compromis : une métropole de 2 millions d'habitants avec tous les services, une gastronomie mondiale, un réseau de transport dense (métro, tramway, vélo), une scène culturelle et festive active, et une connexion TGV à Paris en 2h. Le loyer médian T2 est de 900€ — cher, mais justifié par l'offre. Son unique défaut : la pollution de l'air (agglomération encaissée dans une vallée).",
+      },
+      {
+        heading: "Grenoble : la technopole coincée entre deux massifs",
+        body: "Score MeilleurVille : 8.0/10. Grenoble est la ville des ingénieurs et des skieurs. La concentration de talents tech et scientifiques (CEA, CNRS, STMicroelectronics) y est unique en France hors Paris. Son réseau de transport est excellent pour sa taille, et les pistes de ski sont à 45 min de voiture. Le loyer T2 médian est de 750€ — 20% moins cher que Lyon pour une qualité de vie comparable. Le revers de la médaille : la pollution hivernale (inversions thermiques) et un taux de pauvreté plus élevé que dans d'autres grandes villes.",
+      },
+      {
+        heading: "Annecy : la nature sublimée, mais au prix fort",
+        body: "Score MeilleurVille : 8.6/10. Annecy est la ville au score le plus élevé de France sur MeilleurVille — et ce n'est pas un hasard. Son lac classé le plus pur d'Europe, ses paysages alpins, sa sécurité exceptionnelle et sa qualité d'air en font un rêve de vivre. Mais ce rêve a un prix : loyer T2 médian à 1 050€, prix à l'achat à 5 500€/m². La ville a aussi ses limites : peu de grandes entreprises locales, réseau de transport moins dense que Lyon ou Grenoble, et tourisme intense en été.",
+      },
+      {
+        heading: "Le tableau comparatif en 5 dimensions",
+        body: "Budget (T2) : Grenoble 750€ < Lyon 900€ < Annecy 1 050€. Emploi local : Lyon >>> Grenoble tech > Annecy limité. Nature : Annecy 9.8/10 > Grenoble 8.5/10 > Lyon 7.2/10. Transport Paris TGV : Lyon 2h < Grenoble 3h < Annecy 3h30. Sécurité : Annecy 8.7/10 > Lyon 7.2/10 > Grenoble 6.5/10.",
+      },
+      {
+        heading: "Notre recommandation selon votre profil",
+        body: "Salarié en hybrid Paris ou cherchant une vraie métropole : Lyon sans hésitation. Ingénieur tech / chercheur / amoureux de ski : Grenoble pour le profil parfait. Famille aisée, retraité actif, télétravailleur haut revenu qui veut la nature absolue : Annecy pour l'ultime qualité de vie. Si le budget est la contrainte principale, Chambéry (entre Grenoble et Annecy, 600€/T2) est une alternative souvent oubliée.",
+      },
+    ],
+    relatedCities: ["lyon", "grenoble", "annecy", "chambery"],
+    relatedGuides: ["vivre-en-france-teletravail-guide-2025", "quitter-paris-guide-2025"],
+    tags: ["Auvergne-Rhône-Alpes", "Lyon", "Grenoble", "Annecy", "comparaison", "alpes"],
+  },
 ];
 
 export const GUIDE_CATEGORIES = [
