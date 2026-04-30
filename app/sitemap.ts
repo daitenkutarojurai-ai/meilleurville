@@ -371,6 +371,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ["valbonne", "antibes"],
     ["ceret", "perpignan"],
     ["ceret", "collioure"],
+    ["carpentras", "avignon"],
+    ["carpentras", "orange"],
+    ["apt", "avignon"],
+    ["apt", "gordes"],
+    ["aubagne", "marseille"],
+    ["aubagne", "aix-en-provence"],
+    ["sainte-maxime", "saint-tropez"],
+    ["sainte-maxime", "frejus"],
+    ["digne-les-bains", "gap"],
+    ["digne-les-bains", "sisteron"],
+    ["vaison-la-romaine", "avignon"],
+    ["vaison-la-romaine", "orange"],
   ];
 
   const staticRoutes: MetadataRoute.Sitemap = [
