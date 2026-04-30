@@ -137,6 +137,12 @@ export const HOUSING: Record<string, HousingData> = {
   auch:                     { avgRentT1: 350, avgRentT2: 480,  avgRentT3: 640,  avgBuyPriceM2: 1500 },
   dole:                     { avgRentT1: 420, avgRentT2: 580,  avgRentT3: 780,  avgBuyPriceM2: 1800 },
   lannion:                  { avgRentT1: 430, avgRentT2: 600,  avgRentT3: 800,  avgBuyPriceM2: 2100 },
+  paris:                    { avgRentT1: 1200, avgRentT2: 1800, avgRentT3: 2800, avgBuyPriceM2: 10500 },
+  versailles:               { avgRentT1: 800,  avgRentT2: 1200, avgRentT3: 1700, avgBuyPriceM2: 5800 },
+  "boulogne-billancourt":   { avgRentT1: 900,  avgRentT2: 1400, avgRentT3: 2000, avgBuyPriceM2: 7200 },
+  montreuil:                { avgRentT1: 700,  avgRentT2: 1050, avgRentT3: 1400, avgBuyPriceM2: 5500 },
+  vincennes:                { avgRentT1: 850,  avgRentT2: 1300, avgRentT3: 1800, avgBuyPriceM2: 6800 },
+  cergy:                    { avgRentT1: 600,  avgRentT2: 880,  avgRentT3: 1150, avgBuyPriceM2: 3500 },
 };
 
 export function getHousing(slug: string): HousingData | undefined {

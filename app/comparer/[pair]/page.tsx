@@ -225,6 +225,16 @@ const SEO_PAIRS = [
   ["dole", "dijon"],
   ["lannion", "brest"],
   ["lannion", "saint-brieuc"],
+  ["paris", "lyon"],
+  ["paris", "nantes"],
+  ["paris", "bordeaux"],
+  ["paris", "toulouse"],
+  ["versailles", "vincennes"],
+  ["versailles", "cergy"],
+  ["boulogne-billancourt", "vincennes"],
+  ["boulogne-billancourt", "montreuil"],
+  ["montreuil", "vincennes"],
+  ["cergy", "versailles"],
 ];
 
 export function generateStaticParams() {

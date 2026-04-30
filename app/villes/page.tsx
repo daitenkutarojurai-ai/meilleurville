@@ -17,7 +17,7 @@ export default function VillesPage() {
 
       <section className="bg-[var(--bg-surface)] py-14 border-b border-[var(--border)]">
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
-          <Badge variant="accent" className="mb-3">131 villes</Badge>
+          <Badge variant="accent" className="mb-3">137 villes</Badge>
           <h1 className="text-4xl font-bold text-[var(--text-primary)] mb-3">
             Explorer les villes françaises
           </h1>
