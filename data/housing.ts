@@ -113,6 +113,12 @@ export const HOUSING: Record<string, HousingData> = {
   "thonon-les-bains":       { avgRentT1: 650, avgRentT2: 900,  avgRentT3: 1200, avgBuyPriceM2: 4500 },
   "salon-de-provence":      { avgRentT1: 560, avgRentT2: 780,  avgRentT3: 1050, avgBuyPriceM2: 2900 },
   martigues:                { avgRentT1: 580, avgRentT2: 800,  avgRentT3: 1080, avgBuyPriceM2: 3100 },
+  calais:                   { avgRentT1: 340, avgRentT2: 480,  avgRentT3: 640,  avgBuyPriceM2: 1350 },
+  lens:                     { avgRentT1: 320, avgRentT2: 440,  avgRentT3: 590,  avgBuyPriceM2: 1200 },
+  valenciennes:             { avgRentT1: 360, avgRentT2: 490,  avgRentT3: 660,  avgBuyPriceM2: 1600 },
+  castres:                  { avgRentT1: 380, avgRentT2: 520,  avgRentT3: 700,  avgBuyPriceM2: 1700 },
+  hyeres:                   { avgRentT1: 680, avgRentT2: 950,  avgRentT3: 1250, avgBuyPriceM2: 4200 },
+  haguenau:                 { avgRentT1: 500, avgRentT2: 700,  avgRentT3: 940,  avgBuyPriceM2: 2900 },
 };
 
 export function getHousing(slug: string): HousingData | undefined {

@@ -179,6 +179,18 @@ const SEO_PAIRS = [
   ["salon-de-provence", "marseille"],
   ["martigues", "marseille"],
   ["martigues", "toulon"],
+  ["calais", "boulogne-sur-mer"],
+  ["calais", "dunkerque"],
+  ["lens", "arras"],
+  ["lens", "lille"],
+  ["valenciennes", "lens"],
+  ["valenciennes", "lille"],
+  ["castres", "albi"],
+  ["castres", "toulouse"],
+  ["hyeres", "toulon"],
+  ["hyeres", "nice"],
+  ["haguenau", "strasbourg"],
+  ["haguenau", "colmar"],
 ];
 
 export function generateStaticParams() {
