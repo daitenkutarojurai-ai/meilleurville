@@ -12,6 +12,12 @@ export const metadata: Metadata = {
   title: "Classements villes françaises 2025 — Télétravail, Famille, Budget, Culture",
   description:
     "Classements des meilleures villes françaises par style de vie : télétravail, famille, retraite, étudiant, nature, budget, soleil, sécurité, culture, mobilité. Données 2025.",
+  openGraph: {
+    title: "Classements des meilleures villes françaises 2025",
+    description: "10 classements thématiques : télétravail, famille, budget, soleil, sécurité, culture et plus.",
+    type: "website",
+  },
+  twitter: { card: "summary_large_image" },
 };
 
 function seedToCity(s: (typeof CITIES_SEED)[number]): City {
