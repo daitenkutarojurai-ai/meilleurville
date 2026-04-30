@@ -3869,6 +3869,211 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["Alsace", "Route des Vins", "Obernai", "Ribeauvillé", "Riquewihr", "Kaysersberg", "colombages", "tourisme"],
   },
+  {
+    slug: "toulouse-vs-bordeaux-comparatif-2025",
+    title: "Toulouse vs Bordeaux : laquelle choisir pour s'installer ?",
+    metaTitle: "Toulouse vs Bordeaux 2025 : comparatif complet pour choisir sa ville",
+    metaDesc: "Toulouse ou Bordeaux ? Emploi, prix immobilier, qualité de vie, soleil : comparatif détaillé pour les familles et actifs qui hésitent entre les deux grandes métropoles du Sud-Ouest.",
+    category: "comparaison",
+    emoji: "⚖️",
+    readMinutes: 9,
+    publishedAt: "2025-03-12",
+    updatedAt: "2025-03-12",
+    intro: "Deux métropoles dynamiques, deux ambiances différentes. Toulouse, ville rose et tech, ou Bordeaux, entre vignobles et océan ? Comparatif complet pour décider.",
+    sections: [
+      {
+        heading: "Toulouse : la ville rose qui accélère",
+        body: "Toulouse est la 4e ville de France avec 500 000 habitants (1,4 million dans l'aire urbaine). Son dynamisme repose sur l'aéronautique (Airbus, Safran, Thales), l'espace (CNES, Thalès Alenia) et une université d'excellence qui attire 130 000 étudiants. La ville rose conserve une identité méridionale forte : soleil (2 100h/an), terrasses animées, rugby omniprésent. Loyers : T2 650-850€, prix au m² 3 200-4 500€ selon quartier.",
+      },
+      {
+        heading: "Bordeaux : la ville UNESCO entre océan et vignes",
+        body: "Bordeaux a radicalement changé depuis l'arrivée du TGV Paris-Bordeaux (2h04). Les prix immobiliers ont explosé (+60% en 8 ans), la ville attire massivement les Parisiens. Classée Patrimoine Mondial de l'UNESCO, elle offre un cadre architectural exceptionnel avec ses façades en pierre blonde. L'océan Atlantique est à 50 min (Lacanau, Arcachon). Loyers : T2 750-950€, prix au m² 4 500-7 000€.",
+      },
+      {
+        heading: "Comparatif emploi : secteurs clés",
+        body: "Toulouse domine dans l'aéronautique, le spatial et la défense — des secteurs stables à hauts salaires. Bordeaux est plus diversifié : tourisme, vins, e-commerce, services. Pour les profils tech et ingénierie, Toulouse offre plus d'opportunités locales. Pour les commerciaux, consultants et créatifs, Bordeaux est plus attractive. Les deux villes ont un très bon tissu de PME et une French Tech active.",
+      },
+      {
+        heading: "Qualité de vie au quotidien : le match",
+        body: "Toulouse est plus soleilleuse (2 100h vs 1 900h), plus chaude l'été (29°C vs 27°C). Bordeaux est plus proche de l'océan (surf, baignade) et de la nature médocaine. Les deux villes ont un excellent réseau de tramway/métro. Toulouse est souvent jugée plus 'authentiquement méridionale' — Bordeaux plus 'internationale'. Bordeaux gagne sur l'architecture et l'esthétique urbaine ; Toulouse sur le coût de vie.",
+      },
+      {
+        heading: "Budget : Toulouse nettement plus abordable",
+        body: "C'est le critère clé en 2025. Bordeaux est devenue chère : un T2 se loue 750-950€ et s'achète 200 000-350 000€. À Toulouse, les mêmes biens se négocient 15-25% moins cher. Pour les familles, Toulouse offre un meilleur accès à la propriété. Si le budget est serré, Toulouse s'impose. Si vous cherchez la valeur patrimoniale et une revente future, Bordeaux reste intéressante malgré des prix tendus.",
+      },
+    ],
+    relatedCities: ["toulouse", "bordeaux"],
+    relatedGuides: [
+      "toulouse-montpellier-quelle-ville-choisir",
+      "vivre-en-nouvelle-aquitaine-guide-2025",
+      "vivre-en-occitanie-guide-2025",
+    ],
+    tags: ["Toulouse", "Bordeaux", "comparatif", "immobilier", "emploi", "qualité de vie", "métropole", "sud-ouest"],
+  },
+  {
+    slug: "vivre-en-franche-comte-jura-guide-2025",
+    title: "Vivre en Franche-Comté et dans le Jura : nature, Suisse, qualité de vie",
+    metaTitle: "Vivre en Franche-Comté et Jura — Guide 2025 : Besançon, Pontarlier, Belfort",
+    metaDesc: "Guide complet pour vivre en Franche-Comté : Besançon, Pontarlier, Dole, Belfort. Prix immobilier, qualité de vie, frontaliers Suisse, activités outdoor. Région sous-cotée et accessible.",
+    category: "region",
+    emoji: "🏔️",
+    readMinutes: 8,
+    publishedAt: "2025-04-05",
+    updatedAt: "2025-04-05",
+    intro: "Besançon, Pontarlier, Dole, Belfort : la Franche-Comté reste l'une des régions les moins chères et les plus préservées de France, à portée de la Suisse.",
+    sections: [
+      {
+        heading: "Franche-Comté : la grande oubliée de l'exode urbain",
+        body: "La Franche-Comté (fusionnée avec la Bourgogne) est paradoxalement l'une des régions les plus attractives pour la qualité de vie — et les moins surmédiatisées. Forêts du Jura, cascades du Hérisson, lacs de Chalain et de Vouglans, gastronomie (Comté, Morbier, vins jaunes), et une frontière avec la Suisse qui ouvre le marché de l'emploi helvétique. Prix immobiliers : parmi les plus bas de France métropolitaine.",
+      },
+      {
+        heading: "Besançon : la capitale horlogère et étudiante",
+        body: "Besançon (115 000 hab.) est classée régulièrement parmi les villes les plus agréables de France. Construite dans un méandre du Doubs, dominée par la Citadelle Vauban (UNESCO), elle est verte (50% d'espaces naturels), étudiante (28 000 étudiants) et innovante. TGV direct Paris en 2h20. Prix au m² : 2 200-3 200€ en centre, 1 800-2 600€ en périphérie. Loyers T2 : 550-750€. Un excellent rapport qualité/prix.",
+      },
+      {
+        heading: "Pontarlier : la ville des amoureux du Jura et de la Suisse",
+        body: "Pontarlier (18 000 hab.) est la capitale de l'absinthe et la porte du Jura à 837m d'altitude. Hiver enneigé (150 cm), étés frais, ski de fond au départ de la ville, forêts de sapins. À 15 km de la frontière suisse — les frontaliers représentent 20% de la population active. Prix très accessibles (2 000-2 800€/m²) pour cette qualité de cadre. Pour les familles actives et les frontaliers suisses.",
+      },
+      {
+        heading: "Dole et Lons-le-Saunier : les villes méconnues du Jura",
+        body: "Dole (23 000 hab.), ville natale de Pasteur, est une belle cité comtoise sur le canal du Rhône au Rhin, accessible et peu chère (1 600-2 200€/m²). Lons-le-Saunier, préfecture du Jura, offre des thermes, un vignoble réputé (Château-Chalon, Arbois) et des paysages de reculées spectaculaires. Deux villes idéales pour les retraités cherchant la France profonde et authentique à budget modeste.",
+      },
+      {
+        heading: "L'effet Suisse : un marché de l'emploi exceptionnel",
+        body: "Plus de 40 000 frontaliers de Franche-Comté travaillent en Suisse (Neuchâtel, Berne, Genève accessibles). Les salaires suisses (3 à 4 fois supérieurs aux salaires français pour les profils qualifiés) permettent d'acheter à bas prix en France tout en accumulant une épargne conséquente. Pontarlier, Morteau, Maîche, Montbéliard sont les principales zones de départ. Ce modèle attire de plus en plus de jeunes actifs qui quittent Paris.",
+      },
+    ],
+    relatedCities: ["besancon", "pontarlier", "belfort", "dole"],
+    relatedGuides: [
+      "vivre-en-bourgogne-franche-comte-guide-2025",
+      "petites-villes-qualite-de-vie-france-2025",
+      "meilleures-villes-budget-moins-700-euros-t2-2025",
+    ],
+    tags: ["Franche-Comté", "Jura", "Besançon", "Pontarlier", "Suisse", "frontaliers", "nature", "abordable"],
+  },
+  {
+    slug: "vivre-en-correze-limousin-guide-2025",
+    title: "Vivre en Corrèze et Limousin : le green flag de la France intérieure",
+    metaTitle: "Vivre en Corrèze et Limousin — Guide 2025 : Tulle, Brive, Limoges",
+    metaDesc: "Guide pour s'installer en Corrèze et Limousin : maisons à prix plancher, nature luxuriante, télétravail. Tulle, Brive-la-Gaillarde, Limoges — la région la plus abordable de France.",
+    category: "region",
+    emoji: "🌿",
+    readMinutes: 8,
+    publishedAt: "2025-04-18",
+    updatedAt: "2025-04-18",
+    intro: "Tulle, Brive, Limoges : le Limousin est la région française avec le meilleur ratio qualité de vie/prix. Vert, calme, sécurisé, abordable — les télétravailleurs l'ont découvert.",
+    sections: [
+      {
+        heading: "Le Limousin, eldorado des télétravailleurs",
+        body: "Depuis 2020, la Corrèze et la Haute-Vienne connaissent un afflux de télétravailleurs parisiens et lyonnais attirés par des prix immobiliers parmi les plus bas de France (800-1 600€/m²) et une qualité environnementale exceptionnelle. Forêts, rivières, lacs, air pur, zéro pollution — et internet fibre déployé à 95% du territoire. Les maisons de caractère avec jardin se trouvent pour 80 000-150 000€.",
+      },
+      {
+        heading: "Brive-la-Gaillarde : la porte d'entrée la plus accessible",
+        body: "Brive (46 000 hab.) est la ville la plus dynamique du Limousin avec un pôle TGV (Paris en 3h30, Bordeaux en 1h), un aéroport, des zones d'activités et une vie culturelle active. Centre-ville animé, marché du samedi légendaire, rugby en Top 14. Prix au m² : 1 400-2 200€. Loyers T2 : 480-650€. Pour les actifs qui veulent la 'vraie vie de province' sans sacrifier les services d'une ville moyenne bien équipée.",
+      },
+      {
+        heading: "Tulle : la capitale de l'accordéon et des cascades",
+        body: "Tulle (15 000 hab.) est la préfecture de la Corrèze, dans un site géographique saisissant — une vallée encaissée bordée de maisons à encorbellement. Festival accordéon mondialement connu, cathédrale gothique, accès aux gorges de la Truyère et du Dordogne. Prix immobiliers plancher : 800-1 500€/m². Loyers T2 : 400-550€. Pour les retraités et les artistes qui cherchent l'authenticité corrézienne la plus brute.",
+      },
+      {
+        heading: "Limoges : réhabilitation d'une capitale porcelainière",
+        body: "Limoges (130 000 hab.) souffre d'une image désuète mais s'est considérablement améliorée : tramway moderne, centre-ville rénové, gastronomie reconnue, musée des Beaux-Arts exceptionnel. TGV Paris en 2h10. Prix au m² très bas : 1 400-2 200€. Grande ville avec toutes les commodités à prix de petite ville. Pour les familles qui veulent les services d'une grande ville avec les prix d'une ville moyenne.",
+      },
+      {
+        heading: "Maisons de caractère : le marché qu'il faut saisir",
+        body: "Le Limousin offre les meilleurs prix de France pour les maisons de caractère en pierre. Une ferme rénovée avec 3 ha de terrain coûte 180 000-280 000€ là où le même bien vaudrait 800 000€ en Dordogne ou 1,2M€ en Provence. La fibre est déployée, les artisans locaux sont compétents et moins chers qu'ailleurs. Le marché reste accessible en 2025, mais les flux de télétravailleurs font monter les prix (+ 15% depuis 2020). À ne pas trop attendre.",
+      },
+    ],
+    relatedCities: ["limoges", "brive-la-gaillarde", "tulle"],
+    relatedGuides: [
+      "vivre-en-nouvelle-aquitaine-guide-2025",
+      "vivre-campagne-vs-ville-moyenne-france-2025",
+      "meilleures-villes-retraites-budget-moins-1500-euros-2025",
+    ],
+    tags: ["Corrèze", "Limousin", "Tulle", "Brive", "Limoges", "télétravail", "abordable", "nature"],
+  },
+  {
+    slug: "meilleures-villes-ski-montagne-investissement-2025",
+    title: "Ski, montagne et investissement : les meilleures villes des Alpes en 2025",
+    metaTitle: "Villes des Alpes : ski, montagne et investissement — Guide 2025",
+    metaDesc: "Albertville, Annecy, Chambéry, Grenoble : comparatif des villes alpines pour vivre et investir. Accès aux stations, prix immobilier, qualité de vie — le guide complet des Alpes françaises.",
+    category: "lifestyle",
+    emoji: "⛷️",
+    readMinutes: 10,
+    publishedAt: "2025-02-28",
+    updatedAt: "2025-02-28",
+    intro: "Albertville, Annecy, Chambéry, Grenoble : quelles villes alpines offrent le meilleur rapport qualité/prix pour habiter et investir ? Le comparatif complet.",
+    sections: [
+      {
+        heading: "Les Alpes françaises : le marché immobilier le plus dynamique de France",
+        body: "Les Alpes françaises concentrent des marchés immobiliers parmi les plus tendus de France avec des disparités énormes : d'un côté les stations de ski (Megève à 15 000€/m², Courchevel jusqu'à 50 000€/m²), de l'autre les villes de vallée très accessibles (Albertville à 2 800€/m²). Entre les deux, un tissu de villes moyennes (Annecy, Chambéry, Grenoble) offre le meilleur compromis : accès aux pistes + commodités urbaines + vie culturelle.",
+      },
+      {
+        heading: "Albertville : la porte des Alpes la plus accessible",
+        body: "Albertville (19 000 hab.), ville olympique de 1992, est la plaque tournante de la Tarentaise avec accès direct aux Arcs, La Plagne, Les Menuires et Val Thorens en moins de 45 min. Ville animée avec commerces, lycées et hôpital. Prix au m² : 2 400-3 200€, soit 5 fois moins que les stations de ski desservies. Loyers T2 : 650-800€. Pour les familles de skieurs et les frontaliers savoyards cherchant la porte des Alpes sans le prix des stations.",
+      },
+      {
+        heading: "Annecy : qualité de vie maximale, prix en hausse",
+        body: "Annecy est régulièrement classée 1ère ville de France pour la qualité de vie. Son lac d'une limpidité exceptionnelle, son architecture médiévale, ses parcs, son accès aux Aravis et au Mont-Blanc en font un cadre unique. Mais les prix ont explosé : 4 500-7 500€/m² dans l'agglomération. Pour les télétravailleurs high-salary et les cadres suisses, Annecy reste une valeur sûre malgré les prix. Pour les budgets serrés, Albertville ou Rumilly sont de meilleures alternatives.",
+      },
+      {
+        heading: "Chambéry : la capitale savoyarde sous-cotée",
+        body: "Chambéry (62 000 hab.) offre tous les avantages d'Annecy à 35% de moins. À 30 min d'Annecy, à 45 min de Grenoble, entre Chartreuse et Belledonne, la ville dispose d'un centre historique charmant, d'un réseau universitaire solide et d'un TGV pour Paris (3h). Prix au m² : 3 000-4 500€. Pour les familles et les actifs qui veulent les Alpes sans se ruiner. La ville la plus sous-cotée des Alpes en 2025.",
+      },
+      {
+        heading: "Investir dans un chalet ou un appartement de station : les règles",
+        body: "Investir en station alpine demande de comprendre la saisonnalité : haute saison (décembre-mars) vs basse saison (mai-juin). Un appartement de 40m² à 200 000€ dans une station moyenne (Morzine, Les Gets) peut générer 15 000-25 000€ de loyer saisonnier. Les stations 'toutes saisons' (Annecy, Megève, Chamonix) offrent une meilleure rentabilité car louées 12 mois. La fiscalité LMNP (Loueur Meublé Non Professionnel) est favorable. À analyser station par station avant d'investir.",
+      },
+    ],
+    relatedCities: ["annecy", "chambery", "grenoble", "albertville", "gap"],
+    relatedGuides: [
+      "vivre-en-savoie-haute-savoie-guide-2025",
+      "vivre-en-montagne-villes-alpes-pyrenees-france-2025",
+      "investissement-locatif-meilleures-villes-2025",
+    ],
+    tags: ["Alpes", "ski", "investissement", "Annecy", "Chambéry", "Albertville", "Grenoble", "montagne", "immobilier"],
+  },
+  {
+    slug: "vivre-alpes-du-sud-provence-alpine-guide-2025",
+    title: "Vivre dans les Alpes du Sud : Provence alpine, lavande et soleil à prix abordables",
+    metaTitle: "Vivre dans les Alpes du Sud — Guide 2025 : Gap, Sisteron, Digne, Manosque",
+    metaDesc: "Guide pour s'installer dans les Alpes du Sud : Gap, Sisteron, Digne-les-Bains, Manosque. Soleil provençal, nature alpine et prix 3x moins chers que la Côte d'Azur.",
+    category: "region",
+    emoji: "🌞",
+    readMinutes: 8,
+    publishedAt: "2025-05-02",
+    updatedAt: "2025-05-02",
+    intro: "Gap, Sisteron, Digne, Manosque : les Alpes du Sud combinent soleil provençal, nature alpine et prix accessibles. Le secret le mieux gardé de la PACA.",
+    sections: [
+      {
+        heading: "Les Alpes du Sud : Provence + montagne sans le prix de la Côte d'Azur",
+        body: "Les Alpes-de-Haute-Provence (04) et les Hautes-Alpes (05) forment un territoire unique : 2 700-3 000 heures d'ensoleillement par an (autant que la Côte d'Azur), nature alpine grandiose, lavande à perte de vue, rivières cristallines — et des prix immobiliers 3 à 5 fois inférieurs à Nice ou Cannes. Une région qui séduit les télétravailleurs et retraités depuis quelques années, sans avoir encore déclenché la bulle spéculative du littoral.",
+      },
+      {
+        heading: "Gap : la capitale alpine la plus ensoleillée de France",
+        body: "Gap (40 000 hab.) est la plus haute préfecture de France (735m) et l'une des villes les plus ensoleillées (3 000h/an). Préfecture des Hautes-Alpes avec tous les services, accès aux domaines skiables de Vars, Risoul, Orciières en moins d'une heure. Prix au m² : 1 800-2 600€. Loyers T2 : 490-660€. Pour les familles cherchant la montagne, le soleil et l'espace à un coût très maîtrisé.",
+      },
+      {
+        heading: "Sisteron : entre Provence et Alpes, la porte naturelle",
+        body: "Sisteron (7 500 hab.) marque la frontière géologique entre Provence et Alpes, avec sa citadelle perchée sur un rocher face aux marmites de géants de la Durance. Été très chaud (32°C), hiver doux (5°C). À 1h de Gap au nord, 1h de Digne au sud. Prix très bas (1 500-2 100€/m²). Village animé avec marché, commerces et un festival estival réputé. Pour les amateurs de cadre médiéval et de Haute-Provence authentique.",
+      },
+      {
+        heading: "Manosque et la vallée de la Durance : industrie et nature",
+        body: "Manosque (22 000 hab.) est la plus grande ville des Alpes-de-Haute-Provence, connue pour le site nucléaire de Cadarache (CEA, ITER) qui emploie des milliers d'ingénieurs. Ville de Jean Giono, au cœur du pays de Forcalquier et du Parc du Luberon. Prix intermédiaires (2 200-3 000€/m²). Pour les ingénieurs et techniciens du secteur nucléaire qui veulent la Provence à prix raisonnable.",
+      },
+      {
+        heading: "Digne-les-Bains : la lavande, les thermes et le géoparc",
+        body: "Digne-les-Bains (17 000 hab.) est la capitale mondiale de la lavande, classée Géoparc UNESCO et station thermale réputée. Le Train des Pignes vers Nice (3h) reste une ligne emblématique. Prix plancher : 1 400-1 900€/m². Idéale pour les retraités qui veulent se soigner au thermal, randonneurs, et télétravailleurs cherchant la Provence sauvage sans la foule de la Côte d'Azur.",
+      },
+    ],
+    relatedCities: ["gap", "sisteron", "digne-les-bains", "manosque", "briancon"],
+    relatedGuides: [
+      "vivre-en-provence-paca-guide-2025",
+      "cote-azur-abordable-arriere-pays-paca-2025",
+      "vivre-en-montagne-villes-alpes-pyrenees-france-2025",
+    ],
+    tags: ["Alpes du Sud", "Haute-Provence", "Gap", "Sisteron", "Digne", "lavande", "soleil", "abordable", "montagne"],
+  },
 ];
 
 export const GUIDE_CATEGORIES = [
