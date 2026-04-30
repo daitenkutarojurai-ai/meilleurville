@@ -222,6 +222,28 @@ export const RANKING_META = {
       "Disponibilité vélos et trottinettes en libre-service",
     ],
   },
+  investissement: {
+    slug: "investissement",
+    label: "Investissement",
+    emoji: "🏠",
+    headline: "Meilleures villes françaises pour investir en immobilier",
+    description:
+      "Classement des villes françaises pour l'investissement immobilier : rendement locatif, tension locative, dynamisme économique et qualité de vie pour attirer des locataires.",
+    methodology:
+      "Score composite pondéré : Coût (×3 — pour le prix d'achat accessible), Qualité de vie (×2.5), Transport (×2), Culture (×1), Écoles (×1).",
+    weights: { cost: 3, life: 2.5, transport: 2, culture: 1, schools: 1 },
+    color: "text-rose-400",
+    borderColor: "border-rose-400/20",
+    bgColor: "bg-rose-400/5",
+    scoreKey: "cost" as const,
+    why: [
+      "Prix au m² accessibles (pour un bon rendement brut)",
+      "Tension locative (demande locative forte)",
+      "Dynamisme économique et emploi local",
+      "Qualité de vie pour attirer des locataires stables",
+      "Connectivité (TGV, transports) — critère d'attractivité",
+    ],
+  },
 } as const;
 
 export type RankingSlug = keyof typeof RANKING_META;

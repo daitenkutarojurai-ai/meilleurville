@@ -5,16 +5,16 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { CityCard } from "@/components/CityCard";
 import { Badge } from "@/components/ui/Badge";
 import Link from "next/link";
-import { Laptop, Home, TreePine, GraduationCap, Palmtree, ArrowRight, Wallet, Sun, Shield, Music, Bike } from "lucide-react";
+import { Laptop, Home, TreePine, GraduationCap, Palmtree, ArrowRight, Wallet, Sun, Shield, Music, Bike, Building2 } from "lucide-react";
 import type { City } from "@/lib/types";
 
 export const metadata: Metadata = {
   title: "Classements villes françaises 2025 — Télétravail, Famille, Budget, Culture",
   description:
-    "Classements des meilleures villes françaises par style de vie : télétravail, famille, retraite, étudiant, nature, budget, soleil, sécurité, culture, mobilité. Données 2025.",
+    "Classements des meilleures villes françaises par style de vie : télétravail, famille, retraite, étudiant, nature, budget, soleil, sécurité, culture, mobilité, investissement. Données 2025.",
   openGraph: {
     title: "Classements des meilleures villes françaises 2025",
-    description: "10 classements thématiques : télétravail, famille, budget, soleil, sécurité, culture et plus.",
+    description: "11 classements thématiques : télétravail, famille, budget, soleil, sécurité, culture, investissement et plus.",
     type: "website",
   },
   twitter: { card: "summary_large_image" },
@@ -139,6 +139,16 @@ const CATEGORIES = [
     bgColor: "bg-teal-400/5",
     desc: "Transports, vélo, marchabilité, TGV",
     scoreKey: "transport" as keyof (typeof CITIES_SEED)[number]["scores"],
+  },
+  {
+    slug: "investissement",
+    label: "Investissement",
+    icon: Building2,
+    color: "text-rose-400",
+    borderColor: "border-rose-400/20",
+    bgColor: "bg-rose-400/5",
+    desc: "Prix accessibles, rendement locatif, attractivité",
+    scoreKey: "cost" as keyof (typeof CITIES_SEED)[number]["scores"],
   },
 ];
 

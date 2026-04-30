@@ -7,7 +7,7 @@ import { VillesSearch } from "@/components/VillesSearch";
 export const metadata: Metadata = {
   title: "Explorer toutes les villes françaises — Avis & Classements",
   description:
-    "Découvrez les meilleures villes françaises : avis d'habitants, scores de qualité de vie, données locales. Plus de 850 communes analysées.",
+    "Découvrez les meilleures villes françaises : avis d'habitants, scores de qualité de vie, données locales. 90 communes analysées et comparées.",
 };
 
 export default function VillesPage() {
