@@ -4484,6 +4484,170 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["famille", "budget", "abordable", "écoles", "sécurité", "espace", "enfants", "monoparental", "maison"],
   },
+  {
+    slug: "vivre-en-auvergne-guide-2025",
+    title: "Vivre en Auvergne en 2025 : volcans, qualité de vie et opportunités",
+    metaTitle: "Vivre en Auvergne 2025 — Guide complet | MeilleurVille",
+    metaDesc: "Qualité de vie, prix immobilier, emploi et meilleures villes d'Auvergne pour s'installer : Clermont-Ferrand, Vichy, Riom, Thiers, Issoire. Le guide complet 2025.",
+    category: "region",
+    emoji: "🌋",
+    readMinutes: 10,
+    publishedAt: "2025-09-01",
+    updatedAt: "2026-01-15",
+    intro: "L'Auvergne — terres de volcans, fromages et air pur — est devenue l'une des destinations phares de l'exode urbain post-Covid. Logement abordable, nature omniprésente, et un tissu économique plus solide qu'on ne le croit : voici pourquoi de plus en plus de familles et de télétravailleurs choisissent de s'y installer.",
+    sections: [
+      {
+        heading: "Le dynamisme méconnu de Clermont-Ferrand",
+        body: "Clermont-Ferrand est bien plus qu'une ville Michelin. Son université (25 000 étudiants), son hub de startups et sa scène culturelle en font une métropole dynamique — le tout à des prix 40 % inférieurs à Lyon. Le prix médian d'un appartement tourne autour de 2 200€/m², contre 5 500€ à Paris. La ville bénéficie de liaisons TGV vers Paris (3h) et d'un aéroport international.",
+      },
+      {
+        heading: "Riom et Vichy : deux alternatives méconnues",
+        body: "À 15 km de Clermont, Riom est la ville médiévale la plus préservée d'Auvergne, construite en pierre de Volvic noire. Maisons à partir de 100 000€, desserte TER vers Clermont (15 min). Vichy, plus connue pour ses thermes, est en pleine renaissance : réhabilitations de villas Belle Époque, population jeune qui revient, et un projet de reconversion de l'ancien casino en hub créatif.",
+      },
+      {
+        heading: "Thiers : la ville-atelier des gorges de la Durolle",
+        body: "Thiers est unique en France : une ville médiévale perchée sur un versant de gorge, avec ses maisons à pan de bois suspendues et ses ateliers de couteliers toujours actifs. Les gorges de la Durolle sont classées. Prix immobiliers parmi les plus bas du Puy-de-Dôme (700-1 400€/m²). Idéal pour les artisans, télétravailleurs et artistes cherchant un cadre spectaculaire à budget ultra-serré.",
+      },
+      {
+        heading: "Issoire et la Limagne : la bonne vie à prix doux",
+        body: "Issoire, sur l'axe Paris-Clermont, est une sous-préfecture qui monte. Son aérodrome (planeur, ULM) attire une communauté de passionnés. La plaine de la Limagne tout autour est fertile, verdoyante, et parsemée de villages de caractère. Prix entre 1 200 et 1 800€/m² pour des maisons avec jardins. Le bon compromis entre accès services et campagne auvergnate.",
+      },
+      {
+        heading: "Emploi et télétravail : qu'en est-il vraiment ?",
+        body: "Le tissu économique auvergnat est dominé par l'industrie (Michelin, Limagrain, Volvic/Danone, Vichy Celestins) et le secteur public (CHU, universités). Pour les télétravailleurs, la connectivité s'est nettement améliorée : la fibre couvre désormais 80 % du Puy-de-Dôme. Des espaces de coworking ont ouvert à Clermont, Issoire, Riom. La qualité de vie compense largement les salaires légèrement inférieurs à la moyenne nationale.",
+      },
+    ],
+    relatedCities: ["clermont-ferrand", "vichy", "riom", "thiers", "issoire"],
+    relatedGuides: [
+      "vivre-en-franche-comte-jura-guide-2025",
+      "meilleures-villes-ski-montagne-investissement-2025",
+      "vivre-en-correze-limousin-guide-2025",
+    ],
+    tags: ["Auvergne", "Puy-de-Dôme", "volcans", "Clermont-Ferrand", "Riom", "Thiers", "patrimoine", "abordable", "nature"],
+  },
+  {
+    slug: "vivre-en-haute-savoie-hors-annecy-guide-2025",
+    title: "Haute-Savoie sans payer le prix Annecy : les alternatives 2025",
+    metaTitle: "Vivre en Haute-Savoie hors Annecy 2025 — Guide | MeilleurVille",
+    metaDesc: "Cluses, Rumilly, Thonon, Annemasse : les meilleures alternatives à Annecy en Haute-Savoie pour s'installer sans se ruiner. Guide complet 2025.",
+    category: "budget",
+    emoji: "🏔️",
+    readMinutes: 9,
+    publishedAt: "2025-10-01",
+    updatedAt: "2026-02-01",
+    intro: "Annecy est régulièrement classée dans le top 3 des villes françaises — et ses prix immobiliers le reflètent : 4 500 à 6 000€/m² en moyenne. Mais la Haute-Savoie ne se résume pas à sa perle. À 20 à 40 minutes du lac, des villes moins connues offrent le même cadre naturel, les mêmes bassins d'emploi frontaliers, mais à des prix 30 à 50 % inférieurs.",
+    sections: [
+      {
+        heading: "Rumilly : l'alternative famille la plus convaincante",
+        body: "À 20 minutes d'Annecy par l'A41, Rumilly est une bourgade savoyarde authentique traversée par le Chéran. La ville a connu une forte croissance démographique ces 10 ans, attirant les familles annéciennes. Prix médian : 3 000-3 500€/m² (vs 5 500 à Annecy). Deux groupes scolaires récents, crèches, et une vie locale bien fournie. L'option numéro un pour les familles qui quittent Annecy.",
+      },
+      {
+        heading: "Cluses et la vallée de l'Arve : emploi garanti, montagne assurée",
+        body: "Cluses est le cœur mondial du décolletage de précision — une industrie qui résiste bien aux cycles économiques. La ville est desservie par le Mont-Blanc Express (gare TGV de Genève à 45 min). Prix : 2 500-3 000€/m². Entourée de massifs skiables (Flaine, Les Carroz), Cluses est le bon plan pour les familles qui veulent ski et nature sans sacrifier l'emploi local.",
+      },
+      {
+        heading: "Annemasse : la vraie ville frontalière accessible",
+        body: "Annemasse est pour Genève ce que Saint-Julien-en-Genevois est pour les navetteurs : une base de départ à prix français avec salaires suisses. Tramway direct jusqu'à Genève en 15 min (ligne Léman Express). Prix : 3 500-4 500€/m² — encore 20-30 % sous Genève (côté français). Ambiance cosmopolite, commerces variés, forte communauté de frontaliers.",
+      },
+      {
+        heading: "Thonon-les-Bains : le lac à prix Léman raisonnable",
+        body: "Thonon offre les rives du Léman à un prix nettement inférieur à Évian. Vieille ville charmante, port de plaisance, marché couvert animé. Desserte par bateau vers Lausanne (30 min). Prix : 2 800-3 500€/m². Idéal pour les retraités suisses revenus en France ou les télétravailleurs qui veulent le Léman sans sortir un appartement 7 000€/m².",
+      },
+      {
+        heading: "Pour les amateurs de montagne pure : Saint-Gervais et Megève",
+        body: "Saint-Gervais-les-Bains, à l'ombre du Mont-Blanc, est une alternative au duo Chamonix-Megève nettement plus abordable. Télécabine du Mont-Blanc accessible, thermes, village animé toute l'année. Prix : 3 000-4 000€/m². Megève reste le luxe (5 000-8 000€/m²), mais le marché locatif saisonnier y est très rentable pour les investisseurs.",
+      },
+    ],
+    relatedCities: ["annecy", "rumilly", "cluses", "annemasse", "thonon-les-bains", "evian-les-bains"],
+    relatedGuides: [
+      "meilleures-villes-ski-montagne-investissement-2025",
+      "vivre-alpes-du-sud-provence-alpine-guide-2025",
+      "meilleures-villes-familles-budget-serre-2025",
+    ],
+    tags: ["Haute-Savoie", "Annecy", "Cluses", "Rumilly", "Annemasse", "Thonon", "abordable", "montagne", "frontaliers", "famille"],
+  },
+  {
+    slug: "vivre-en-ardeche-drome-guide-2025",
+    title: "Vivre en Ardèche et Drôme en 2025 : soleil, nature et douceur de vivre",
+    metaTitle: "Vivre en Ardèche et Drôme 2025 — Guide complet | MeilleurVille",
+    metaDesc: "Annonay, Montélimar, Romans-sur-Isère, Die : s'installer dans la Drôme et l'Ardèche en 2025. Soleil, nature et prix encore accessibles. Guide complet.",
+    category: "lifestyle",
+    emoji: "☀️",
+    readMinutes: 10,
+    publishedAt: "2025-11-01",
+    updatedAt: "2026-03-01",
+    intro: "L'Ardèche et la Drôme sont des terres d'adoption plébiscitées par les urbains en quête de soleil, de nature et d'authenticité. Entre le Rhône et les Cévennes, ces deux départements offrent un cadre de vie que beaucoup de régions plus connues ne peuvent plus offrir : espace, calme, et des prix encore abordables.",
+    sections: [
+      {
+        heading: "Annonay : le début de l'Ardèche, à portée de Lyon",
+        body: "Annonay est la porte nord de l'Ardèche, à 50 km de Lyon et 30 km de Saint-Étienne. Ville industrielle reconvertie (papeterie, textile), elle retrouve une nouvelle vitalité avec l'arrivée de Lyonnais qui fuient les prix de la métropole. Prix : 1 200-1 800€/m². Entourée de collines, ponctuée de villages de caractère, elle est le point d'entrée idéal pour explorer l'Ardèche à budget raisonnable.",
+      },
+      {
+        heading: "La Drôme des Collines : Romans, Saint-Marcellin, Tain",
+        body: "La Drôme des Collines est l'une des zones les plus prisées des Lyonnais en quête de semi-campagne. Romans-sur-Isère (chaussures, centre animé), Tain-l'Hermitage (vignoble Hermitage, chocolat Valrhona), Saint-Marcellin (fromage et cadre idyllique) : tous à moins d'une heure de Lyon. Prix : 2 000-2 800€/m² selon la commune.",
+      },
+      {
+        heading: "Montélimar, Valence et l'axe Rhône : le couloir solaire",
+        body: "Valence et Montélimar bénéficient d'un ensoleillement exceptionnel (2 400-2 600h/an) et d'un accès TGV Paris en moins de 2 heures. Valence monte fort (réhabilitation du centre, dynamisme économique, université). Montélimar reste plus accessible et garde un charme provençal. Pour des retraités ou des télétravailleurs cherchant le soleil sans le prix Provence.",
+      },
+      {
+        heading: "Die et la Drôme Provençale : l'alternative bio et nature",
+        body: "Die, capitale de la clairette pétillante, est au cœur de la Drôme des alternatives. Marché bio le samedi, communauté de migrants urbains installés depuis les années 80, cadre montagnard spectaculaire (Vercors, Diois). Prix : 2 000-3 000€/m². Territoire très prisé par les familles attachées à une alimentation de qualité, à l'école alternative et aux circuits courts.",
+      },
+      {
+        heading: "L'Ardèche méridionale : Aubenas, Largentière, Joyeuse",
+        body: "L'Ardèche du sud combine gorges de l'Ardèche, lavande, chênaies et garrigue. Aubenas est la ville-centre, bien équipée. Largentière et Joyeuse sont des villages médiévaux de caractère. Prix très bas (900-1 500€/m² pour des maisons avec terrain). Le territoire rêvé pour les artisans, artistes, ou retraités cherchant la Provence à prix ardéchois.",
+      },
+    ],
+    relatedCities: ["annonay", "romans-sur-isere", "montelimar", "valence", "aubenas"],
+    relatedGuides: [
+      "vivre-alpes-du-sud-provence-alpine-guide-2025",
+      "vivre-dans-le-gard-guide-2025",
+      "meilleures-villes-30-min-mer-france-2025",
+    ],
+    tags: ["Ardèche", "Drôme", "Annonay", "Montélimar", "Valence", "nature", "soleil", "bio", "abordable", "lifestyle"],
+  },
+  {
+    slug: "meilleures-villes-industrie-emploi-stable-france-2025",
+    title: "Les villes françaises avec le plus d'emplois stables hors grandes métropoles",
+    metaTitle: "Meilleures villes emploi stable hors métropoles 2025 | MeilleurVille",
+    metaDesc: "Oyonnax, Cluses, Thiers, Fougères, Saint-Dié : les villes françaises hors-métropoles avec les marchés de l'emploi les plus robustes. Guide 2025.",
+    category: "teletravail",
+    emoji: "🏭",
+    readMinutes: 8,
+    publishedAt: "2025-12-01",
+    updatedAt: "2026-04-01",
+    intro: "La France hors-métropoles abrite de nombreuses villes industrielles discrètes où le taux de chômage reste structurellement bas. Plasturgie, coutellerie, pharmacie, aéronautique : ces secteurs de niche ont construit des bassins d'emploi stables que les crises économiques traversent mieux que d'autres. Portrait de 6 territoires à découvrir.",
+    sections: [
+      {
+        heading: "Oyonnax (01) : la capitale mondiale de la plasturgie",
+        body: "Oyonnax et son agglomération emploient plus de 10 000 personnes dans la plasturgie, un secteur qui alimente aussi bien l'automobile que le médical et l'alimentaire. Le chômage y est structurellement en dessous de la moyenne nationale. Prix immobilier : 1 300-1 800€/m². Idéal pour les techniciens, ingénieurs et opérateurs en reconversion vers l'industrie de précision.",
+      },
+      {
+        heading: "Cluses - Faucigny (74) : le royaume du décolletage",
+        body: "La vallée de l'Arve autour de Cluses concentre 60 % de la production mondiale de pièces décolletées (petites pièces de précision pour horlogerie, automobile, médical). Les entreprises peinent régulièrement à recruter des tourneuses-fraiseurs et des usineurs CNC. Salaires supérieurs à la moyenne régionale. Combiné aux stations de ski voisines, c'est l'un des meilleurs marchés emploi/qualité de vie de France.",
+      },
+      {
+        heading: "Thiers (63) : la coutellerie qui résiste",
+        body: "Thiers fournit encore 70 % de la production française de couteaux. Le secteur artisanal et semi-industriel emploie plusieurs milliers de personnes dans les ateliers des gorges de la Durolle. La ville attire aussi des designers et entrepreneurs qui reprennent des ateliers traditionnels. Prix plancher du Puy-de-Dôme (700-1 200€/m²). Pour les artisans-créateurs cherchant un atelier-logement dans un cadre exceptionnel.",
+      },
+      {
+        heading: "Laval (53) : électronique et agroalimentaire en Mayenne",
+        body: "Laval est la préfecture discrète qui surprend. Son cluster électronique (Atmel, Delfour) et son industrie agroalimentaire (Lactalis a son siège ici) lui assurent un marché de l'emploi robuste. Le chômage y est inférieur à la moyenne nationale. Prix : 1 600-2 200€/m², bien sous les prix rennais (50 km). Une option sérieuse pour les profils industriels et logistiques qui veulent fuir la cherté bretonne.",
+      },
+      {
+        heading: "Saint-Dié-des-Vosges (88) : textile et cartographie",
+        body: "Saint-Dié est connue comme la ville qui a donné son nom à l'Amérique (Waldseemüller, 1507), mais c'est aussi un bassin industriel textile et bois solide. Les Vosges en général résistent bien : Hermès (soie), pharmaceutique (Lilly France à Fegersheim), papier-imprimerie. Prix très bas (900-1 300€/m²). Pour les profils techniques cherchant un emploi stable dans un environnement naturel exceptionnel.",
+      },
+    ],
+    relatedCities: ["oyonnax", "cluses", "thiers", "laval", "saint-die-des-vosges"],
+    relatedGuides: [
+      "vivre-en-haute-savoie-hors-annecy-guide-2025",
+      "vivre-en-auvergne-guide-2025",
+      "vivre-en-franche-comte-jura-guide-2025",
+    ],
+    tags: ["emploi", "industrie", "plasturgie", "décolletage", "coutellerie", "Oyonnax", "Cluses", "Thiers", "hors-métropoles", "reconversion"],
+  },
 ];
 
 export const GUIDE_CATEGORIES = [

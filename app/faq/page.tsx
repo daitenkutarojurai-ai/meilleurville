@@ -124,7 +124,7 @@ const FAQ_SECTIONS = [
       },
       {
         q: "Comment fonctionne la carte interactive ?",
-        a: "La carte interactive (/carte) affiche les 250 villes analysées avec un code couleur selon leur score (vert = excellent, ambre = bon, rouge = à améliorer). Vous pouvez filtrer l'affichage par critère (nature, transport, coût...) et cliquer sur chaque ville pour accéder à son profil. La taille du cercle est proportionnelle au score.",
+        a: "La carte interactive (/carte) affiche les 256 villes analysées avec un code couleur selon leur score (vert = excellent, ambre = bon, rouge = à améliorer). Vous pouvez filtrer l'affichage par critère (nature, transport, coût...) et cliquer sur chaque ville pour accéder à son profil. La taille du cercle est proportionnelle au score.",
       },
     ],
   },
@@ -137,7 +137,7 @@ const FAQ_SECTIONS = [
       },
       {
         q: "Comment sont organisés les guides ?",
-        a: "Les guides sont classés par catégorie : Télétravail, Famille, Budget & Coût, Style de vie, Par région, et Comparaisons. Chaque guide est lié aux profils des villes qu'il mentionne, aux classements thématiques correspondants, et à d'autres guides connexes. Accédez à l'ensemble des 103 guides sur /guides.",
+        a: "Les guides sont classés par catégorie : Télétravail, Famille, Budget & Coût, Style de vie, Par région, et Comparaisons. Chaque guide est lié aux profils des villes qu'il mentionne, aux classements thématiques correspondants, et à d'autres guides connexes. Accédez à l'ensemble des 107 guides sur /guides.",
       },
       {
         q: "Puis-je suggérer un sujet de guide ?",

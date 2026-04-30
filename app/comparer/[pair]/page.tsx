@@ -458,6 +458,18 @@ const SEO_PAIRS = [
   ["saint-die-des-vosges", "nancy"],
   ["villefranche-de-rouergue", "rodez"],
   ["villefranche-de-rouergue", "cahors"],
+  ["riom", "clermont-ferrand"],
+  ["riom", "vichy"],
+  ["thiers", "clermont-ferrand"],
+  ["thiers", "riom"],
+  ["oyonnax", "bourg-en-bresse"],
+  ["oyonnax", "annecy"],
+  ["cluses", "annecy"],
+  ["cluses", "albertville"],
+  ["rumilly", "annecy"],
+  ["rumilly", "chambery"],
+  ["annonay", "saint-etienne"],
+  ["annonay", "vienne"],
 ];
 
 export function generateStaticParams() {
