@@ -1565,6 +1565,96 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["retraite", "séniors", "soleil", "patrimoine", "santé", "qualité de vie", "thermales"],
   },
+  {
+    slug: "meilleures-villes-etudiantes-france-2025",
+    title: "Meilleures villes étudiantes en France 2025 — Logement, vie nocturne, emploi",
+    emoji: "🎓",
+    category: "lifestyle",
+    metaTitle: "Meilleures villes étudiantes France 2025 — Logement, Vie, Emploi | MeilleurVille",
+    metaDesc: "Quelles villes choisir pour ses études en France ? Notre classement 2025 des meilleures villes étudiantes selon le logement, la vie nocturne, les universités, le coût de la vie et les débouchés.",
+    intro: "Choisir sa ville pour ses études est une décision qui engage plusieurs années — et souvent, qui forge votre réseau professionnel pour la vie. Budget serré, vie sociale intense, besoin de transports efficaces et d'un logement abordable : voici les villes qui cochent toutes ces cases.",
+    readMinutes: 7,
+    publishedAt: "2025-10-01",
+    updatedAt: "2025-10-01",
+    sections: [
+      {
+        heading: "Les critères d'une ville étudiante idéale",
+        body: "Un étudiant n'optimise pas les mêmes critères qu'un actif ou un retraité. Les loyers bas et la colocation facile sont prioritaires (T1/coloc < 450€). La vie nocturne et culturelle contribue directement au bien-être. La qualité et la diversité des établissements (universités, grandes écoles, IUT) déterminent les débouchés. Et surtout : la mobilité sans voiture doit être possible — tramway, vélo en libre-service, bus nocturne.",
+      },
+      {
+        heading: "Le Top 3 confirmé : Rennes, Montpellier, Toulouse",
+        body: "Rennes est régulièrement en tête des palmarès étudiants : 2ème ville la plus étudiante de France en proportion (60 000 étudiants pour 220 000 hab.), loyers modérés, campus très actif, vie bretonne authentique. Montpellier est la surprise permanente des palmarès : soleil, plage à 15 min, forte présence étudiante (90 000 étudiants) et loyers plus abordables que Nice ou Marseille. Toulouse est la 'ville rose' avec l'INSA, l'ISAE-SUPAERO, l'ENVT — une concentration de grandes écoles unique en France.",
+      },
+      {
+        heading: "Les bonnes surprises : Grenoble, Dijon, Poitiers",
+        body: "Grenoble est le paradis des ingénieurs et chercheurs : UGA, Grenoble INP, ENSIMAG, CEA à deux pas. L'économie technologique garantit des stages et des emplois. En revanche, le coût des loyers est plus élevé qu'on ne l'imagine (T1 : 450–600€). Dijon est méconnue des étudiants parisiens mais a tout : loyers très bas, université active, vie culturelle dense, gastronomie bourguignonne. Poitiers coche toutes les cases du budget : loyers plancher, ville jeune, et une accessibilité Paris-Nantes-Bordeaux.",
+      },
+      {
+        heading: "Paris et les grandes villes : attention au budget",
+        body: "Paris concentre les meilleures grandes écoles et universités — mais à quel prix. Un T1 coûte 900–1200€ sans les charges. La solution pour Paris sans les prix : s'installer à Versailles, Saint-Denis, Aubervilliers ou Ivry où les loyers baissent de 30–50% avec le même accès au réseau métro/RER. Bordeaux, Lyon et Nantes ont subi la même pression : les loyers d'un étudiant dépassent souvent le budget CROUS+APL.",
+      },
+      {
+        heading: "Les villes sous-estimées : Reims, Le Mans, Besançon",
+        body: "Reims est à 45 min de Paris en TGV — parfait pour décrocher des stages et des emplois en Île-de-France tout en vivant à un coût parisien divisé par deux. L'URCA (Université de Reims) est solide en droit, médecine, et sciences. Le Mans a des loyers plancher (T1 : 380€), un campus actif et une desserte ferroviaire idéale. Besançon offre une qualité de vie universitaire remarquable : campus verdoyant, Doubs, citadelle — et les horlogers suisses qui recrutent à 40 km.",
+      },
+      {
+        heading: "Ce que vous ne saviez peut-être pas",
+        body: "Les APL peuvent couvrir jusqu'à 250€/mois selon vos revenus parentaux et la ville. Un T1 à Grenoble à 550€ peut revenir à 300€ net APL inclus. La colocation est beaucoup plus développée dans les villes avec forte proportion étudiante (Rennes, Montpellier) — les prix par chambre peuvent descendre à 250–350€. Et n'oubliez pas les résidences CROUS : 300–400€/mois en chambre simple, 500–600€ en studio — la file d'attente en vaut largement la peine.",
+      },
+    ],
+    relatedCities: ["rennes", "montpellier", "toulouse", "grenoble", "dijon", "poitiers", "reims", "besancon"],
+    relatedGuides: [
+      "budget-vivre-en-france-comparatif",
+      "vivre-en-france-teletravail-guide-2025",
+      "quitter-paris-guide-2025",
+    ],
+    tags: ["étudiant", "université", "logement étudiant", "vie nocturne", "budget", "CROUS"],
+  },
+  {
+    slug: "meilleures-villes-bord-de-mer-france-2025",
+    title: "Meilleures villes côtières françaises 2025 — Mer, Qualité de vie, Prix",
+    emoji: "🌊",
+    category: "lifestyle",
+    metaTitle: "Meilleures villes côtières France 2025 — Atlantique, Méditerranée, Manche | MeilleurVille",
+    metaDesc: "Quelles villes côtières choisir en France ? Comparatif 2025 des meilleures villes au bord de la mer : Atlantique (La Rochelle, Brest, Saint-Nazaire), Méditerranée (Sète, Toulon, Antibes), Manche (Caen, Cherbourg).",
+    intro: "Vivre au bord de la mer est un rêve pour beaucoup de Français. Mais la mer a un prix — et selon la côte choisie, il peut varier du simple au décuple. Ce guide compare les meilleures villes côtières selon le coût, la qualité de vie à l'année, et ce que la côte apporte vraiment au quotidien.",
+    readMinutes: 8,
+    publishedAt: "2025-10-15",
+    updatedAt: "2025-10-15",
+    sections: [
+      {
+        heading: "Vivre en bord de mer : la réalité vs le rêve",
+        body: "Le bord de mer est beau sur Instagram — mais il faut démythifier certains aspects. La saisonnalité : certaines villes côtières se vident en hiver (Arcachon, Collioure) et s'engorgent en été. Le mistral et les vents du large peuvent être épuisants psychologiquement. L'humidité saline abîme les voitures et les balcons. Et surtout : les prix immobiliers côtiers ont connu une inflation spectaculaire post-Covid, poussés par les télétravailleurs parisiens en quête de vue mer.",
+      },
+      {
+        heading: "Côte Atlantique : La Rochelle, Brest, Bayonne",
+        body: "La Rochelle est la ville côtière française la plus attirante pour les actifs : dynamique économique, Francofolies, vélo roi. Mais les loyers ont explosé (T2 : 750€+). Brest, en Bretagne, est souvent décrite comme 'la ville côtière la plus abordable de France sérieuse' (T2 : 550€). La rade de Brest est l'une des plus belles baies d'Europe. Bayonne/Biarritz est le rêve basco-atlantique — magnifique, mais tendu et cher (Biarritz : 5 000–7 000€/m²).",
+      },
+      {
+        heading: "Côte Méditerranée : Sète, Toulon, Antibes",
+        body: "Sète est l'alternative intelligente à Montpellier côtière : ville de pêcheurs avec une identité forte (Brassens, Valéry), loyers encore raisonnables (T2 : 620€) et une mer à 5 minutes en vélo. Toulon est méconnu des touristes mais très prisé des marins, avec une cité historique en rénovation et des plages de calanques sublimes à portée de bus. Antibes, entre Nice et Cannes, donne accès à la Côte à des prix légèrement inférieurs aux deux villes voisines.",
+      },
+      {
+        heading: "Côte Normande et Bretagne Sud",
+        body: "Caen est la grande oubliée : à 2h de Paris, à 20 minutes de la mer (Ouistreham) et de la mémoire du Débarquement, avec des loyers très compétitifs (T2 : 650€). La Bretagne Sud — Lorient, Vannes, Quimper — offre des villes à taille humaine avec une véritable culture maritime et des plages accessibles toute l'année. Vannes et son golfe du Morbihan sont particulièrement prisés des retraités et télétravailleurs.",
+      },
+      {
+        heading: "Les villes côtières sous pression : les éviter",
+        body: "Certaines villes côtières sont des pièges : Arcachon (saisonnière, saturée, très chère), Saint-Jean-de-Luz (prix niçois pour une ville de 13 000 habitants), Collioure (touristique à outrance). La règle générale : méfiez-vous des villes côtières de moins de 20 000 habitants où la proportion de résidences secondaires dépasse 30% — elles manquent de services, d'emplois locaux et de vie sociale permanente.",
+      },
+      {
+        heading: "Notre classement mer 2025",
+        body: "Rapport qualité/prix : 1. Brest (56) — rade sublime, loyers bas, vraie ville. 2. Sète (34) — identité forte, prix encore raisonnables, mer immédiate. 3. La Rochelle (17) — dynamisme, vélo, mer. 4. Toulon (83) — calanques, marine, sous-estimée. 5. Caen (14) — Paris 2h, mer 20 min, loyers normands. Coup de cœur 'caché' : Saint-Nazaire (44) — chantiers navals, plages de La Baule proches, loyers plancher.",
+      },
+    ],
+    relatedCities: ["la-rochelle", "brest", "sete", "toulon", "caen", "lorient", "vannes", "saint-nazaire"],
+    relatedGuides: [
+      "vivre-en-bretagne-guide-2025",
+      "vivre-en-normandie-guide-2025",
+      "vivre-en-provence-paca-guide-2025",
+    ],
+    tags: ["bord de mer", "côtier", "Atlantique", "Méditerranée", "Manche", "Bretagne", "Normandie", "PACA"],
+  },
 ];
 
 export const GUIDE_CATEGORIES = [
