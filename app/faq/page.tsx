@@ -137,7 +137,7 @@ const FAQ_SECTIONS = [
       },
       {
         q: "Comment sont organisés les guides ?",
-        a: "Les guides sont classés par catégorie : Télétravail, Famille, Budget & Coût, Style de vie, Par région, et Comparaisons. Chaque guide est lié aux profils des villes qu'il mentionne, aux classements thématiques correspondants, et à d'autres guides connexes. Accédez à l'ensemble des 93 guides sur /guides.",
+        a: "Les guides sont classés par catégorie : Télétravail, Famille, Budget & Coût, Style de vie, Par région, et Comparaisons. Chaque guide est lié aux profils des villes qu'il mentionne, aux classements thématiques correspondants, et à d'autres guides connexes. Accédez à l'ensemble des 98 guides sur /guides.",
       },
       {
         q: "Puis-je suggérer un sujet de guide ?",

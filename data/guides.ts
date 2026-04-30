@@ -4074,6 +4074,211 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["Alpes du Sud", "Haute-Provence", "Gap", "Sisteron", "Digne", "lavande", "soleil", "abordable", "montagne"],
   },
+  {
+    slug: "vivre-en-dordogne-quercy-perigord-guide-2025",
+    title: "Vivre en Dordogne et Quercy : le Périgord Noir et Blanc pour s'installer",
+    metaTitle: "Vivre en Dordogne et Quercy — Guide 2025 : Périgueux, Sarlat, Cahors",
+    metaDesc: "S'installer en Dordogne et Quercy : Périgueux, Sarlat, Bergerac, Cahors, Figeac. Prix immobilier, qualité de vie, gastronomie et art de vivre dans le Sud-Ouest.",
+    category: "region",
+    emoji: "🦆",
+    readMinutes: 9,
+    publishedAt: "2025-04-22",
+    updatedAt: "2025-04-22",
+    intro: "Périgueux, Sarlat, Bergerac, Cahors, Figeac : la Dordogne et le Quercy forment le cœur gastronomique et culturel du Sud-Ouest. Foie gras, truffes, vins de Cahors, bastides médiévales — et des prix encore accessibles.",
+    sections: [
+      {
+        heading: "Périgueux : la capitale historique et commerçante",
+        body: "Périgueux (30 000 hab.) est la préfecture de la Dordogne, avec sa cathédrale byzantine Saint-Front (UNESCO) et son quartier médiéval animé. Marché de Noël du foie gras et truffe mondialement connu. Bonne accessibilité (TGV indirect Paris en 3h30). Prix au m² : 1 600-2 400€. Pour les actifs et retraités qui veulent une ville préfecture avec services complets et l'art de vivre périgourdin.",
+      },
+      {
+        heading: "Sarlat : la plus belle ville médiévale de Dordogne",
+        body: "Sarlat-la-Canéda est un bijou médiéval de 9 500 habitants avec 70 monuments classés dans un périmètre de 1 km². Marchés du foie gras, noix, truffes. Très prisée des Britanniques et Néerlandais (depuis les années 1980). Prix en hausse (2 500-4 000€/m²) mais toujours inférieurs à la Provence. Pour les retraités aisés qui veulent l'authenticité périgourdine absolue.",
+      },
+      {
+        heading: "Bergerac : vins, Cyrano et accessibilité",
+        body: "Bergerac (26 000 hab.) est la capitale des vins de Bergerac et le pays de Cyrano de Bergerac. Son aéroport international (vols directs Londres, Dublin) en fait l'entrée de la Dordogne la plus accessible depuis l'étranger. Prix modérés (1 500-2 300€/m²). Ville agréable avec quais animés sur la Dordogne. Pour les couples franco-étrangers et les retraités britanniques emblématiques du Périgord.",
+      },
+      {
+        heading: "Cahors et le Quercy : vins noirs et falaises",
+        body: "Cahors (20 000 hab.) est la préfecture du Lot, dominée par son pont Valentré médiéval (UNESCO) et entourée de coteaux de Malbec (Cahors AOC). Le Quercy, entre Lot et Dordogne, offre les paysages les plus dramatiques du Sud-Ouest : falaises blanches, causses, rivières. Prix très bas (1 400-2 000€/m²). Pour les amateurs de vin rouge et de paysages calcaires à prix accessibles.",
+      },
+      {
+        heading: "Figeac : la cité de Champollion, trésor méconnu",
+        body: "Figeac (10 000 hab.) est la ville natale de Jean-François Champollion (déchiffreur des hiéroglyphes égyptiens). Architecture médiévale intacte, musée Champollion de réputation mondiale, Chemin de Saint-Jacques. Hors des circuits touristiques de Sarlat. Prix plancher (1 200-1 700€/m²). Pour les passionnés d'histoire et de culture qui veulent le Quercy authentique à prix modeste.",
+      },
+    ],
+    relatedCities: ["perigueux", "bergerac", "cahors", "figeac"],
+    relatedGuides: [
+      "vivre-en-dordogne-perigord-guide-2025",
+      "vivre-en-nouvelle-aquitaine-guide-2025",
+      "vivre-campagne-vs-ville-moyenne-france-2025",
+    ],
+    tags: ["Dordogne", "Quercy", "Périgueux", "Sarlat", "Cahors", "Figeac", "Périgord", "gastronomie", "médiéval"],
+  },
+  {
+    slug: "vivre-en-vendee-guide-2025",
+    title: "Vivre en Vendée : entre mer, bocage et qualité de vie",
+    metaTitle: "Vivre en Vendée — Guide 2025 : La Roche, Les Sables, Challans, Fontenay",
+    metaDesc: "Guide complet pour s'installer en Vendée : La Roche-sur-Yon, Les Sables-d'Olonne, Challans, Fontenay-le-Comte. Immobilier, soleil, qualité de vie et activités.",
+    category: "region",
+    emoji: "🌊",
+    readMinutes: 8,
+    publishedAt: "2025-05-08",
+    updatedAt: "2025-05-08",
+    intro: "La Vendée est l'une des régions françaises les plus dynamiques : soleil atlantique, plages, bocage verdoyant, dynamisme économique. La Roche-sur-Yon, Les Sables-d'Olonne, Challans, Fontenay-le-Comte — des villes pour tous les profils.",
+    sections: [
+      {
+        heading: "La Vendée en 2025 : la région surprise de l'exode urbain",
+        body: "La Vendée est devenue l'une des régions les plus attractives depuis 2020 : 2 100h d'ensoleillement (autant que Bordeaux), économie dynamique (3e département français pour la croissance de l'emploi), tourisme de classe mondiale (Puy-du-Fou), et immobilier encore accessible. Le département attire massivement les Parisiens, Lyonnais et Bordelais en quête d'espace et de mer.",
+      },
+      {
+        heading: "La Roche-sur-Yon : la préfecture moderne et ambitieuse",
+        body: "La Roche-sur-Yon (57 000 hab.) est une ville préfecture napoléonienne construite sur plan géométrique, avec un centre-ville de plus en plus attractif. Tram, services, emplois dans l'agroalimentaire et la santé. À 45 min des plages. Prix au m² : 2 400-3 500€. Loyers T2 : 580-750€. Pour les actifs qui veulent la ville avec accès rapide à l'Atlantique.",
+      },
+      {
+        heading: "Les Sables-d'Olonne : station balnéaire et ville à vivre",
+        body: "Les Sables-d'Olonne (43 000 hab.) est bien plus qu'une station balnéaire — c'est une ville qui vit à l'année avec son port de pêche, ses commerces, le Vendée Globe (tour du monde à la voile). 3 km de sable blanc, surf, kitesurf. Prix au m² : 3 500-6 500€ selon la vue mer. Pour les amoureux de l'Atlantique et les familles de plaisanciers.",
+      },
+      {
+        heading: "Challans : l'authenticité vendéenne au quotidien",
+        body: "Challans (21 000 hab.) est la ville du canard vendéen Label Rouge et du marché-rencontres du mardi. Au carrefour du bocage et du marais, à 25 min de la mer. Prix très accessibles (1 700-2 300€/m²). Pour les familles qui veulent vivre comme les Vendéens — bocage, marché local, plage le week-end — sans les prix des stations.",
+      },
+      {
+        heading: "Fontenay-le-Comte : la perle Renaissance du Bas-Poitou",
+        body: "Fontenay-le-Comte (14 000 hab.) est souvent ignorée des circuits touristiques, à tort : c'est une ville de la Renaissance avec des hôtels particuliers du XVIe siècle et à l'entrée de la Venise Verte (Marais Poitevin, site Ramsar). Prix plancher (1 300-1 800€/m²). Pour les amateurs de patrimoine et de nature aquatique qui veulent la Vendée authentique hors saison.",
+      },
+    ],
+    relatedCities: ["la-roche-sur-yon", "les-sables-d-olonne", "challans", "fontenay-le-comte"],
+    relatedGuides: [
+      "vivre-en-pays-de-la-loire-guide-2025",
+      "meilleures-villes-bord-de-mer-france-2025",
+      "vivre-sur-cote-atlantique-surf-guide-2025",
+    ],
+    tags: ["Vendée", "Atlantique", "La Roche-sur-Yon", "Les Sables-d'Olonne", "Challans", "Fontenay", "mer", "bocage"],
+  },
+  {
+    slug: "meilleures-villes-30-min-mer-france-2025",
+    title: "Habiter à 30 minutes de la mer : les meilleures villes abordables de France",
+    metaTitle: "Meilleures villes à 30 min de la mer — Guide 2025 : abordables et qualitatives",
+    metaDesc: "Habiter près de la mer sans payer le prix du bord de mer : top des meilleures villes françaises à 20-30 min des plages. Atlantique, Méditerranée, Manche — comparatif complet.",
+    category: "budget",
+    emoji: "🏖️",
+    readMinutes: 9,
+    publishedAt: "2025-03-25",
+    updatedAt: "2025-03-25",
+    intro: "Vivre à 30 minutes de la mer sans payer les prix du littoral est possible. De Bordeaux à Aubagne, en passant par Saint-Lô et Challans — voici les meilleures villes abordables proches de la mer.",
+    sections: [
+      {
+        heading: "Le calcul gagnant : -50% sur l'immo, 30 min de voiture",
+        body: "Habiter à 20-30 km du littoral plutôt qu'en bord de mer permet d'économiser 40-70% sur le prix d'achat immobilier. Un T3 en bord de mer à Arcachon coûte 600 000€ — le même bien à 25 km vaut 250 000€. En ajoutant l'essence (environ 150-200€/mois), vous économisez quand même 180 000€ à l'achat. Pour les familles et primo-accédants, ce calcul change tout.",
+      },
+      {
+        heading: "Atlantique Nord : Saintes et Rochefort vs La Rochelle",
+        body: "La Rochelle est magnifique mais chère (4 500-7 000€/m²). Saintes (25 min) et Rochefort (30 min) offrent la même accessibilité à l'Atlantique avec des prix 3 fois inférieurs (1 500-2 500€/m²). Saintes a l'arc de triomphe romain, les thermes et une vraie vie de ville. Rochefort conserve ses quartiers napoléoniens et l'Arsenal. Deux choix remarquables pour les familles atlantiques à budget raisonnable.",
+      },
+      {
+        heading: "Méditerranée Est : Aubagne et Brignoles vs Marseille/Toulon",
+        body: "Marseille plages à 30 min d'Aubagne, Toulon à 30 min de Brignoles. Aubagne (2 900€/m²) vs Marseille (3 500€/m²) — gain modéré mais confort de vie supérieur. Brignoles (2 000€/m²) vs Toulon (3 200€/m²) — économie réelle avec accès à la mer et aux Alpes varois. Ces villes sont idéales pour les familles qui travaillent en métropole méditerranéenne mais veulent vivre au calme.",
+      },
+      {
+        heading: "Bretagne : Landerneau et Pontivy vs Brest et Lorient",
+        body: "Brest (côte) : 2 800€/m². Landerneau (30 min) : 1 900€/m². Lorient (côte) : 2 500€/m². Pontivy (50 min) : 1 600€/m². La Bretagne offre d'excellents compromis entre qualité de vie maritime et prix accessibles. Landerneau a son propre dynamisme culturel (fondation Leclerc) ; Pontivy est la petite ville napoléonienne du centre Bretagne. Deux paris sûrs.",
+      },
+      {
+        heading: "Top 5 des meilleures villes abordables proches de la mer",
+        body: "1. Saintes (17) — 25 min de Royan : 1 600€/m², vie riche. 2. Aubagne (13) — 30 min Marseille plages : 2 900€/m², Marcel Pagnol. 3. Challans (85) — 25 min Saint-Jean-de-Monts : 2 100€/m², bocage vendéen. 4. Nîmes (30) — 40 min Camargue/Palavas : 2 200€/m², patrimoine romain. 5. Toulon hinterland (83) — 20 min Sanary/Bandol : 2 000-2 500€/m², Var ensoleillé.",
+      },
+    ],
+    relatedCities: ["saintes", "rochefort", "aubagne", "nimes", "challans"],
+    relatedGuides: [
+      "meilleures-villes-bord-de-mer-france-2025",
+      "vivre-bord-mer-france-guide",
+      "villes-france-bord-de-mer-budget-accessible-2025",
+    ],
+    tags: ["mer", "litoral", "abordable", "30 minutes", "Atlantique", "Méditerranée", "Bretagne", "budget", "famille"],
+  },
+  {
+    slug: "vivre-dans-le-gard-guide-2025",
+    title: "Vivre dans le Gard : Nîmes, Uzès, Alès et le soleil occitan",
+    metaTitle: "Vivre dans le Gard — Guide 2025 : Nîmes, Uzès, Alès, Pont-du-Gard",
+    metaDesc: "Guide pour s'installer dans le Gard : Nîmes, Uzès, Alès. Patrimoine romain, garrigue, Camargue proche, soleil occitan. Prix immobiliers et qualité de vie dans ce département méconnu.",
+    category: "region",
+    emoji: "🏛️",
+    readMinutes: 8,
+    publishedAt: "2025-04-10",
+    updatedAt: "2025-04-10",
+    intro: "Le Gard est un département qui surprend : Nîmes avec son amphithéâtre romain, Uzès la première duchée de France, Alès en reconversion industrielle — avec 2 700h d'ensoleillement et des prix bien inférieurs à la Côte d'Azur.",
+    sections: [
+      {
+        heading: "Nîmes : Rome française, tauromachie et dynamisme",
+        body: "Nîmes (146 000 hab.) est surnommée la Rome française pour ses monuments romains exceptionnels : Arènes (1er s.), Maison Carrée, Tour Magne. Ville passionnée par la tauromachie et les ferias (mai, septembre). Accès Méditerranée (Palavas-les-Flots) en 30 min. TGV Paris en 2h45. Prix au m² : 2 000-3 000€. Pour les actifs et retraités attirés par la Méditerranée sans les prix azuréens.",
+      },
+      {
+        heading: "Uzès : la plus chic petite ville du Gard",
+        body: "Uzès (8 000 hab.) est la première Duché de France, avec son château ducal médiéval, sa cathédrale et ses marchés légendaires. Elle attire des résidents fortunés, artistes et expatriés depuis les années 1980. Prix en hausse (3 000-5 000€/m²) mais encore raisonnables pour ce niveau de prestige. À 25 km de Nîmes. Pour les retraités aisés cherchant la Provence côté Languedoc.",
+      },
+      {
+        heading: "Alès : la reconversion industrielle réussie",
+        body: "Alès (43 000 hab.) est l'ancienne capitale du bassin houiller gardois, en reconversion réussie vers les industries vertes et le tourisme. Centre-ville rénové, Bambouseraie de Prafrance, accès aux Cévennes. Prix très accessibles (1 400-2 000€/m²). Pour les jeunes actifs et familles cherchant la ville moyenne occitane la plus accessible financièrement avec nature à portée.",
+      },
+      {
+        heading: "Le Pont du Gard et la garrigue : vivre dans un site classé",
+        body: "Les communes autour du Pont du Gard (Vers-Pont-du-Gard, Remoulins) permettent de vivre à quelques kilomètres d'un site UNESCO Patrimoine Mondial en ayant pour voisins les cigales et les vignes. Prix très bas pour la région (1 500-2 200€/m²). Garrigues, galets roulants, oliviers. Pour les retraités et télétravailleurs qui veulent le Languedoc authentique hors agglomération.",
+      },
+      {
+        heading: "Sommières et les villages gardois : les perles méconnues",
+        body: "Sommières est un bourg médiéval classé avec son pont romain, entre Nîmes et Montpellier. Lawrence Durrell y a écrit 'L'Esprit des Lieux'. Vignoble Pic-Saint-Loup à portée. Prix modérés (2 000-2 800€/m²) pour ce cadre. Autres pépites : Sauve, Quissac, Le Vigan dans les Cévennes pour ceux qui veulent la montagne occitane à prix dérisoire.",
+      },
+    ],
+    relatedCities: ["nimes", "ales", "montpellier"],
+    relatedGuides: [
+      "vivre-en-occitanie-guide-2025",
+      "vivre-dans-le-sud-france-guide-2025",
+      "meilleures-villes-budget-moins-700-euros-t2-2025",
+    ],
+    tags: ["Gard", "Nîmes", "Uzès", "Alès", "Languedoc", "soleil", "romain", "Cévennes", "occitan"],
+  },
+  {
+    slug: "angers-vs-nantes-comparatif-2025",
+    title: "Angers vs Nantes : laquelle choisir pour vivre dans l'Ouest ?",
+    metaTitle: "Angers vs Nantes 2025 : comparatif complet pour choisir sa ville de l'Ouest",
+    metaDesc: "Angers ou Nantes ? Prix immobilier, emploi, qualité de vie, transports : comparatif détaillé pour les familles et actifs qui hésitent entre les deux capitales de l'Ouest de la France.",
+    category: "comparaison",
+    emoji: "⚖️",
+    readMinutes: 9,
+    publishedAt: "2025-03-20",
+    updatedAt: "2025-03-20",
+    intro: "Deux capitales de l'Ouest attractives, deux ambiances différentes. Nantes, métropole dynamique en bord d'estuaire, ou Angers, ville douce en bord de Loire ? Comparatif pour choisir.",
+    sections: [
+      {
+        heading: "Nantes : la métropole ambitieuse qui attire",
+        body: "Nantes (320 000 habitants, 700 000 dans l'agglomération) est régulièrement classée parmi les villes les plus attractives de France. Capitale de la Loire-Atlantique, elle combine dynamisme économique (Airbus, aéronautique, numérique), culture innovante (Les Machines de l'Île), et accès à l'estuaire et à l'océan (La Baule à 1h). TGV Paris en 2h. Mais les prix ont fortement augmenté : 3 500-5 500€/m².",
+      },
+      {
+        heading: "Angers : l'alternative verte et plus abordable",
+        body: "Angers (155 000 habitants) est surnommée la ville verte de France pour ses espaces naturels et sa politique de mobilité douce. Château du roi René, tapisserie de l'Apocalypse (UNESCO), vignoble du Muscadet et Anjou. TGV Paris en 1h35 — plus rapide que Nantes ! Prix au m² : 2 800-4 200€, soit 20-30% moins que Nantes. Pour les familles cherchant la qualité de vie de la Loire sans payer le prix Nantes.",
+      },
+      {
+        heading: "Emploi : Nantes devant, mais Angers se défend",
+        body: "Nantes offre un marché de l'emploi plus vaste et diversifié : aéronautique, numérique, santé, finance. Angers se spécialise dans l'électronique (Nexans, STMicroelectronics), les plantes médicinales (filière végétale mondiale) et l'agriculture innovante. Pour les profils ingénierie et tech, Nantes offre plus d'opportunités ; pour les chercheurs et scientifiques, Angers avec son CHU et ses universités est un excellent choix.",
+      },
+      {
+        heading: "Qualité de vie : avantage Angers pour le quotidien",
+        body: "Angers est régulièrement élue n°1 en France pour la qualité de vie au quotidien : peu de pollution, tramway efficace, marchés, culture accessible. Nantes est plus cosmopolite, festive, avec des quais animés et une vie nocturne plus riche. Angers gagne sur le calme, les prix, la nature proche (Loire, Maine). Nantes gagne sur l'ambition, la culture et le prestige. Tout dépend de votre mode de vie.",
+      },
+      {
+        heading: "Notre verdict en 2025",
+        body: "Si vous avez moins de 35 ans et cherchez une métropole dynamique avec TGV Paris, emploi diversifié et vie culturelle intense : Nantes. Si vous avez des enfants ou cherchez calme + propriété + nature + TGV encore plus rapide pour Paris : Angers. Budget décisif : avec le même apport, vous aurez 25m² de plus à Angers qu'à Nantes. En 2025, Angers s'impose comme la ville sous-cotée de l'Ouest.",
+      },
+    ],
+    relatedCities: ["angers", "nantes", "laval", "le-mans"],
+    relatedGuides: [
+      "vivre-en-pays-de-la-loire-guide-2025",
+      "bordeaux-lyon-nantes-quelle-ville-choisir",
+      "quitter-paris-guide-2025",
+    ],
+    tags: ["Angers", "Nantes", "comparatif", "Loire", "Pays de la Loire", "immobilier", "emploi", "qualité de vie"],
+  },
 ];
 
 export const GUIDE_CATEGORIES = [
