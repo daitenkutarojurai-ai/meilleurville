@@ -69,7 +69,7 @@ export default function Image() {
             Quelle ville vous ressemble ?
           </div>
           <div style={{ color: "#8b949e", fontSize: "18px", maxWidth: "600px" }}>
-            7 questions · {CITIES_SEED.length} villes analysées · Résultat personnalisé
+            6 questions · {CITIES_SEED.length} villes analysées · Résultat personnalisé
           </div>
         </div>
 
