@@ -1475,6 +1475,96 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["PACA", "Provence", "Côte d'Azur", "Nice", "Marseille", "Aix", "Toulon", "soleil", "mer"],
   },
+  {
+    slug: "vivre-en-bourgogne-franche-comte-guide-2025",
+    title: "Vivre en Bourgogne-Franche-Comté : Dijon, Besançon, Auxerre, Belfort — Guide 2025",
+    emoji: "🍷",
+    category: "region",
+    metaTitle: "Vivre en Bourgogne-Franche-Comté : Dijon, Besançon, Auxerre, Belfort — Guide 2025 | MeilleurVille",
+    metaDesc: "Guide complet pour s'installer en Bourgogne-Franche-Comté : Dijon, Besançon, Auxerre, Belfort, Mâcon, Chalon-sur-Saône. Vignobles, Jura, qualité de vie et immobilier abordable.",
+    intro: "La Bourgogne-Franche-Comté est une région souvent sous-estimée. Connue pour ses vins et ses moutardes, elle abrite aussi Besançon — l'une des villes les plus agréables de France — et Dijon, capitale gastronomique mondiale. Une région où l'immobilier reste accessible et la qualité de vie élevée.",
+    readMinutes: 8,
+    publishedAt: "2025-09-15",
+    updatedAt: "2025-09-15",
+    sections: [
+      {
+        heading: "Dijon : la capitale gastronomique et culturelle",
+        body: "Dijon mérite amplement son titre de capitale de la gastronomie mondiale (classée UNESCO). Le centre historique est exceptionnel : hôtels particuliers, la Chouette, les Halles Zola, la rue de la Liberté. L'université de Bourgogne amène 35 000 étudiants. L'économie repose sur l'agroalimentaire (moutarde Maille, crémant de Bourgogne), la santé, et un secteur tertiaire en développement. Loyers modérés (T2 : 650€) et immobilier encore raisonnable.",
+      },
+      {
+        heading: "Besançon : la ville horlogère et verte par excellence",
+        body: "Besançon est régulièrement dans le top 5 des villes vertes de France. Entourée par une boucle du Doubs et classifiée Ville Verte Patrimoine Mondial par l'UNESCO (citadelle Vauban), elle offre une qualité de vie exceptionnelle. Ville de naissance de Victor Hugo, Pasteur et les frères Lumière, son héritage culturel est immense. L'industrie de précision (montres, microtechniques, Stellantis) y est forte. Loyers très compétitifs (T2 : 600€).",
+      },
+      {
+        heading: "Auxerre et la Bourgogne viticole",
+        body: "Auxerre est la porte d'entrée de la Bourgogne viticole. La ville sur l'Yonne dispose d'un centre médiéval remarquable (abbaye Saint-Germain, cathédrale), d'un tissu commercial actif et de loyers très accessibles (T2 : 490€). Les amateurs de vin sont à portée des grands crus de Chablis. À 2h de Paris en TER, la ville attire de plus en plus de télétravaille urs parisiens.",
+      },
+      {
+        heading: "Belfort : la porte d'Alsace et la Franche-Comté industrielle",
+        body: "Belfort est une ville à part : son lion en granit rouge de Bartholdi et sa citadelle Vauban symbolisent la résistance. Ville d'industrie (GE Renewable Energy, Alstom, Stellantis), elle jouit d'une économie plus solide que la moyenne régionale. La proximité de l'Alsace (Mulhouse : 30 min), de la Suisse (Bâle : 45 min) et du Jura ouvre des perspectives de frontaliers et d'excursions.",
+      },
+      {
+        heading: "Le vignoble et le Jura : un mode de vie à part",
+        body: "Vivre en Bourgogne ou dans le Jura, c'est adopter un rythme de vie particulier : marché du dimanche matin avec fromages et vins locaux, randonnées dans les reculées du Jura, sorties en vélo dans le vignoble. La gastronomie (coq au vin, bœuf bourguignon, epoisses, comté) fait partie du quotidien. Une vie qui tranche radicalement avec le rythme parisien — pour beaucoup, c'est précisément la raison de venir.",
+      },
+      {
+        heading: "Travailler en BFC : forces et limites",
+        body: "L'économie bourguignonne-comtoise est solide mais pas bouillonnante. Les secteurs forts sont l'industrie (Peugeot à Sochaux, Alstom à Belfort, Framatome), l'agroalimentaire (Lactalis, coopératives viticoles), la santé et les technologies de précision à Besançon. Pour les profils remote, la région est excellente. Pour les chercheurs d'emploi local en informatique/numérique, Dijon est la seule vraie option — les autres villes ont un marché du travail plus limité.",
+      },
+    ],
+    relatedCities: ["dijon", "besancon", "auxerre", "belfort", "macon", "chalon-sur-saone"],
+    relatedGuides: [
+      "vivre-en-france-teletravail-guide-2025",
+      "budget-vivre-en-france-comparatif",
+      "quitter-paris-guide-2025",
+    ],
+    tags: ["Bourgogne-Franche-Comté", "Dijon", "Besançon", "vignobles", "Jura", "patrimoine UNESCO"],
+  },
+  {
+    slug: "meilleures-villes-pour-retraite-france-2025",
+    title: "Meilleures villes pour la retraite en France — Guide 2025",
+    emoji: "🌅",
+    category: "lifestyle",
+    metaTitle: "Meilleures villes françaises pour prendre sa retraite — Guide 2025 | MeilleurVille",
+    metaDesc: "Quelles villes choisir pour sa retraite en France ? Notre guide 2025 classe les meilleures villes selon le soleil, la santé, le coût de la vie, la sécurité et la qualité de vie pour les séniors.",
+    intro: "La retraite est une opportunité de vie — et le choix de la ville où s'installer peut faire une différence considérable sur la qualité du quotidien. Soleil, accès aux soins, vie sociale, sécurité, logement abordable : voici les critères et les villes qui cochent toutes les cases.",
+    readMinutes: 8,
+    publishedAt: "2025-09-20",
+    updatedAt: "2025-09-20",
+    sections: [
+      {
+        heading: "Les critères d'une retraite idéale",
+        body: "Un retraité n'optimise pas les mêmes critères qu'un actif. La mobilité douce devient essentielle (tram, bus, médecins à pied) ; les loyers ou charges importent moins que le coût global (santé, alimentation, loisirs) ; la sécurité du quartier pèse davantage ; et surtout, le soleil — qui corrèle directement avec le bien-être et la santé mentale. Les villes avec un hôpital universitaire proche, une offre culturelle pour séniors (cinéma, musées, bibliothèques) et un marché de plein air hebdomadaire sont les meilleures bases.",
+      },
+      {
+        heading: "Le Sud : Montpellier, Perpignan, Nîmes, Saintes",
+        body: "Le Sud reste la destination préférée des retraités français. Montpellier cumule CHU de rang mondial, tram ultramoderne, climat méditerranéen et vie culturelle intense — mais les loyers ont grimpé. Perpignan et Nîmes offrent un soleil équivalent à prix bien inférieurs. Saintes, en Charente-Maritime, coche toutes les cases : soleil océanique, patrimoine romain, ville à taille humaine, immobilier très accessible et hôpital complet.",
+      },
+      {
+        heading: "Les surprises : Vichy, Cahors, Rodez",
+        body: "Vichy est une ville thermale qui a repensé son offre pour les séniors actifs : parcs, promenades le long de l'Allier, Palais des Congrès, thermes ouverts à tous. À 45 minutes de Clermont-Ferrand pour les soins spécialisés. Cahors est un bijou médiéval dans le Lot avec des prix imbattables et une qualité de vie extraordinaire. Rodez, dans l'Aveyron, offre des soins de qualité (CHG), un climat tempéré et une communauté soudée.",
+      },
+      {
+        heading: "Les villes thermales et patrimoniales",
+        body: "Un segment méconnu : les villes thermales reconverties. Vichy, Vittel, Contrexéville, Dax, Bagnères-de-Bigorre — elles ont toutes une infrastructure médicale ancienne, des parcs exceptionnels et une architecture de villégiature Belle Époque. Les prix y sont plancher. Le risque : une vie sociale limitée hors saison dans certaines. Choisissez une ville thermale avec une population permanente suffisante (> 15 000 hab.) pour garantir commerces et vie sociale à l'année.",
+      },
+      {
+        heading: "Éviter les pièges",
+        body: "Certaines villes très attractives en apparence sont des pièges pour les retraités : les villes touristiques saisonnières (Saint-Malo, Collioure) où tout ferme hors-saison ; les villes chères qui nécessitent de vendre un bien parisien pour accéder à la propriété (Annecy, Biarritz) ; et les villes à forte inégalité sociale où certains quartiers posent des problèmes de sécurité (Marseille : choix du quartier absolument critique ; Perpignan : idem). Les villes sous 40 000 habitants avec un hôpital complet sont souvent les meilleures options.",
+      },
+      {
+        heading: "Notre Top 5 retraite 2025",
+        body: "1. Saintes (17) : soleil, patrimoine romain, sécurité, immobilier accessible, Charente à vélo. 2. Rodez (12) : qualité des soins, nature aveyronaise, prix plancher, sécurité maximale. 3. Vichy (03) : thermes, parcs, Allier, infrastructure médicale, prix très accessibles. 4. Bayeux (14) : patrimoine normand, calme, village bien équipé, 2h de Paris en train. 5. Vannes (56) : Bretagne intérieure, golfe du Morbihan, culture bretonne, ville vivante à l'année.",
+      },
+    ],
+    relatedCities: ["saintes", "rodez", "vichy", "bayeux", "vannes", "cahors", "montpellier", "sete"],
+    relatedGuides: [
+      "budget-vivre-en-france-comparatif",
+      "vivre-dans-le-sud-france-guide-2025",
+      "vivre-en-normandie-guide-2025",
+    ],
+    tags: ["retraite", "séniors", "soleil", "patrimoine", "santé", "qualité de vie", "thermales"],
+  },
 ];
 
 export const GUIDE_CATEGORIES = [
