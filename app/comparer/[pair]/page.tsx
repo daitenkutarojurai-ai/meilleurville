@@ -313,6 +313,18 @@ const SEO_PAIRS = [
   ["concarneau", "lorient"],
   ["saint-jean-de-luz", "biarritz"],
   ["saint-jean-de-luz", "bayonne"],
+  ["sanary-sur-mer", "toulon"],
+  ["sanary-sur-mer", "hyeres"],
+  ["dinan", "saint-brieuc"],
+  ["dinan", "saint-malo"],
+  ["hendaye", "saint-jean-de-luz"],
+  ["hendaye", "biarritz"],
+  ["vitre", "rennes"],
+  ["vitre", "laval"],
+  ["la-baule", "saint-nazaire"],
+  ["la-baule", "nantes"],
+  ["mende", "aurillac"],
+  ["mende", "millau"],
 ];
 
 export function generateStaticParams() {

@@ -5,10 +5,10 @@ import { Navbar } from "@/components/Navbar";
 export const metadata: Metadata = {
   title: "Quiz — Trouvez votre ville idéale en France | MeilleurVille",
   description:
-    "Quiz de matching en 3 minutes : 6 questions pour trouver la ville française parfaite pour vous. Télétravail, famille, budget, soleil — notre IA analyse 180 villes.",
+    "Quiz de matching en 3 minutes : 6 questions pour trouver la ville française parfaite pour vous. Télétravail, famille, budget, soleil — notre IA analyse 186 villes.",
   openGraph: {
     title: "Quiz de matching — Trouvez votre ville idéale",
-    description: "3 minutes · 6 questions · 180 villes analysées. Quel est votre profil géographique ?",
+    description: "3 minutes · 6 questions · 186 villes analysées. Quel est votre profil géographique ?",
     type: "website",
   },
   twitter: { card: "summary_large_image" },
