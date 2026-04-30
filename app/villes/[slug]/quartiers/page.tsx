@@ -10,6 +10,10 @@ import { getNeighborhoods } from "@/data/neighborhoods";
 
 type Props = { params: Promise<{ slug: string }> };
 
+export function generateStaticParams() {
+  return CITIES_SEED.map((c) => ({ slug: c.slug }));
+}
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const city = CITIES_SEED.find((c) => c.slug === slug);
@@ -59,9 +63,26 @@ export default async function QuartiersPage({ params }: Props) {
 
   const neighborhoods = getNeighborhoods(slug);
 
+  const jsonLd = neighborhoods.length > 0 ? {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": `Quartiers de ${city.name}`,
+    "description": `Comparatif des quartiers de ${city.name} : sécurité, loyers, transports, ambiance.`,
+    "numberOfItems": neighborhoods.length,
+    "itemListElement": neighborhoods.map((n, i) => ({
+      "@type": "ListItem",
+      "position": i + 1,
+      "name": `${n.name} — ${city.name}`,
+      "description": n.summary,
+    })),
+  } : null;
+
   return (
     <main className="min-h-screen">
       <Navbar />
+      {jsonLd && (
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      )}
 
       <section className="bg-[var(--bg-surface)] border-b border-[var(--border)] py-12">
         <div className="mx-auto max-w-5xl px-4 sm:px-6">
@@ -153,6 +174,54 @@ export default async function QuartiersPage({ params }: Props) {
                 </div>
               </Card>
             ))}
+
+            {/* Comparison table */}
+            {neighborhoods.length > 1 && (
+              <div className="overflow-hidden rounded-2xl border border-[var(--border)]">
+                <div className="bg-[var(--bg-surface)] px-5 py-4 border-b border-[var(--border)]">
+                  <h3 className="text-sm font-semibold text-[var(--text-primary)]">Tableau comparatif</h3>
+                </div>
+                <div className="overflow-x-auto">
+                  <table className="w-full text-sm">
+                    <thead>
+                      <tr className="border-b border-[var(--border)] bg-[var(--bg-elevated)]">
+                        <th className="text-left px-5 py-3 text-xs font-medium text-[var(--text-tertiary)]">Critère</th>
+                        {neighborhoods.map((n) => (
+                          <th key={n.slug} className="px-4 py-3 text-center text-xs font-semibold text-[var(--text-primary)]">{n.name}</th>
+                        ))}
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {([...SCORE_KEYS, { key: "global" as const, label: "Score global" }]).map(({ key, label }) => {
+                        const vals = neighborhoods.map((n) => key === "global" ? n.scores.global : n.scores[key as keyof typeof n.scores]);
+                        const best = Math.max(...vals);
+                        return (
+                          <tr key={key} className="border-b border-[var(--border)] last:border-0">
+                            <td className="px-5 py-3 text-xs text-[var(--text-secondary)]">{label}</td>
+                            {vals.map((v, i) => (
+                              <td key={i} className="px-4 py-3 text-center">
+                                <span className={`font-bold font-mono-data text-xs ${v === best ? "text-emerald-400" : scoreColor(v)}`}>{v.toFixed(1)}</span>
+                              </td>
+                            ))}
+                          </tr>
+                        );
+                      })}
+                      <tr className="border-b border-[var(--border)] bg-[var(--bg-surface)]">
+                        <td className="px-5 py-3 text-xs text-[var(--text-secondary)]">Loyer T2</td>
+                        {neighborhoods.map((n) => {
+                          const cheapest = Math.min(...neighborhoods.map((x) => x.avgRentT2));
+                          return (
+                            <td key={n.slug} className="px-4 py-3 text-center">
+                              <span className={`font-bold text-xs ${n.avgRentT2 === cheapest ? "text-emerald-400" : "text-[var(--text-primary)]"}`}>{n.avgRentT2}€</span>
+                            </td>
+                          );
+                        })}
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            )}
 
             {/* Premium lock teaser */}
             <div className="rounded-2xl border border-[var(--accent)]/20 bg-[var(--accent)]/5 p-8 text-center">

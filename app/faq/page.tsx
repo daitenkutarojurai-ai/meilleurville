@@ -90,12 +90,68 @@ const FAQ_SECTIONS = [
       },
     ],
   },
+  {
+    title: "Comparaisons et quiz",
+    questions: [
+      {
+        q: "Comment fonctionne le comparateur de villes ?",
+        a: "Le comparateur met côte à côte deux villes françaises sur tous les critères de qualité de vie : scores détaillés, données météo, loyers, population. Accédez-y via /comparer ou depuis le profil de n'importe quelle ville. Plus de 90 paires de villes sont précalculées pour un accès instantané.",
+      },
+      {
+        q: "Comment fonctionne le quiz IA ?",
+        a: "Notre quiz vous pose 6 questions sur votre situation (cadre de vie souhaité, budget, mode de travail, préférences climatiques). En moins de 2 minutes, l'algorithme pondère les critères selon vos réponses et vous propose les 5 villes les plus compatibles avec un score de correspondance personnalisé.",
+      },
+      {
+        q: "Quelle est la différence entre le leaderboard et les classements thématiques ?",
+        a: "Le leaderboard (/leaderboard) est un classement global sur le score composite de toutes les villes. Les classements thématiques (/classements) sont des classements spécialisés par profil : télétravail, famille, budget, nature, retraite, culture, sécurité, mobilité, soleil, étudiant. Chaque classement utilise une pondération différente adaptée au profil.",
+      },
+      {
+        q: "Peut-on comparer plus de deux villes à la fois ?",
+        a: "Le comparateur affiche deux villes côte à côte. Pour comparer plusieurs villes simultanément, utilisez le quiz IA qui vous propose un top 5 avec tableau comparatif pour les 3 premiers résultats. La version Pro permettra à terme un comparateur multi-villes jusqu'à 5 simultanément.",
+      },
+    ],
+  },
+  {
+    title: "Naviguer sur MeilleurVille",
+    questions: [
+      {
+        q: "Comment trouver les villes par région ou département ?",
+        a: "Accédez à /regions pour parcourir les 13 régions françaises (+ la Corse) ou à /departements pour les 46 départements représentés. Chaque page liste les villes avec leurs scores et des indicateurs moyens par territoire.",
+      },
+      {
+        q: "Qu'est-ce que la page 'Quartiers' d'une ville ?",
+        a: "Chaque ville analysée dispose d'une page /villes/[ville]/quartiers qui détaille 3 quartiers représentatifs avec leurs propres scores (sécurité, transport, nature, coût, vie nocturne), le loyer moyen d'un T2, et un résumé de l'ambiance. Idéal pour choisir précisément où habiter dans une ville.",
+      },
+      {
+        q: "Comment fonctionne la carte interactive ?",
+        a: "La carte interactive (/carte) affiche les 64 villes analysées avec un code couleur selon leur score (vert = excellent, ambre = bon, rouge = à améliorer). Vous pouvez filtrer l'affichage par critère (nature, transport, coût...) et cliquer sur chaque ville pour accéder à son profil. La taille du cercle est proportionnelle au score.",
+      },
+    ],
+  },
 ];
 
 export default function FaqPage() {
+  const allQuestions = FAQ_SECTIONS.flatMap((s) => s.questions);
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": allQuestions.map((item) => ({
+      "@type": "Question",
+      "name": item.q,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": item.a,
+      },
+    })),
+  };
+
   return (
     <main className="min-h-screen">
       <Navbar />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
 
       <section className="bg-[var(--bg-surface)] border-b border-[var(--border)] py-14">
         <div className="mx-auto max-w-3xl px-4 sm:px-6">

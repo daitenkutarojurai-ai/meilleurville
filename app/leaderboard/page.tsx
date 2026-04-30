@@ -3,8 +3,8 @@ import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Badge } from "@/components/ui/Badge";
-import { Card } from "@/components/ui/Card";
 import { ScoreBar } from "@/components/ui/ScoreBar";
+import { LeaderboardTable } from "@/components/LeaderboardTable";
 import { CITIES_SEED } from "@/data/cities-seed";
 
 export const metadata: Metadata = {
@@ -14,19 +14,7 @@ export const metadata: Metadata = {
 };
 
 const MEDAL = ["🥇", "🥈", "🥉"];
-
 const sorted = [...CITIES_SEED].sort((a, b) => b.scores.global - a.scores.global);
-
-const CRITERIA = [
-  { key: "life" as const, label: "Qualité de vie" },
-  { key: "transport" as const, label: "Transport" },
-  { key: "nature" as const, label: "Nature" },
-  { key: "cost" as const, label: "Coût de vie" },
-  { key: "safety" as const, label: "Sécurité" },
-  { key: "culture" as const, label: "Culture" },
-  { key: "remoteWork" as const, label: "Télétravail" },
-  { key: "schools" as const, label: "Écoles" },
-];
 
 function scoreClass(s: number) {
   if (s >= 8) return "text-emerald-400";
@@ -36,7 +24,6 @@ function scoreClass(s: number) {
 
 export default function LeaderboardPage() {
   const podium = sorted.slice(0, 3);
-  const rest = sorted.slice(3);
 
   return (
     <main className="min-h-screen">
@@ -78,7 +65,7 @@ export default function LeaderboardPage() {
                 </div>
                 <div className="text-xs text-[var(--text-tertiary)] mt-1">{city.region}</div>
                 <div className="mt-4 space-y-1.5">
-                  {CRITERIA.slice(0, 4).map(({ key, label }) => (
+                  {([ { key: "life" as const, label: "Qualité de vie" }, { key: "transport" as const, label: "Transport" }, { key: "nature" as const, label: "Nature" }, { key: "cost" as const, label: "Coût de vie" } ]).map(({ key, label }) => (
                     <div key={key} className="flex-1">
                       <ScoreBar label={label} score={city.scores[key]} />
                     </div>
@@ -89,61 +76,13 @@ export default function LeaderboardPage() {
           </div>
         </div>
 
-        {/* Full table */}
-        <Card>
-          <h2 className="text-base font-semibold text-[var(--text-primary)] mb-6">
+        {/* Full table — interactive with region filter + sort */}
+        <div>
+          <h2 className="text-base font-semibold text-[var(--text-primary)] mb-4">
             Classement complet — {sorted.length} villes
           </h2>
-          <div className="overflow-x-auto">
-            <table className="w-full text-sm">
-              <thead>
-                <tr className="border-b border-[var(--border)]">
-                  <th className="text-left text-xs uppercase tracking-wide text-[var(--text-tertiary)] pb-3 pr-4 w-10">#</th>
-                  <th className="text-left text-xs uppercase tracking-wide text-[var(--text-tertiary)] pb-3 pr-4">Ville</th>
-                  <th className="text-right text-xs uppercase tracking-wide text-[var(--text-tertiary)] pb-3 pr-4">Global</th>
-                  {CRITERIA.map(({ key, label }) => (
-                    <th key={key} className="text-right text-xs uppercase tracking-wide text-[var(--text-tertiary)] pb-3 px-2 hidden md:table-cell">
-                      {label.split(" ")[0]}
-                    </th>
-                  ))}
-                  <th className="w-8" />
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-[var(--border)]">
-                {sorted.map((city, i) => (
-                  <tr
-                    key={city.slug}
-                    className="hover:bg-[var(--bg-elevated)] transition-colors group"
-                  >
-                    <td className="py-3 pr-4 text-[var(--text-tertiary)] font-mono text-xs">
-                      {i < 3 ? MEDAL[i] : `${i + 1}`}
-                    </td>
-                    <td className="py-3 pr-4">
-                      <div className="font-medium text-[var(--text-primary)]">{city.name}</div>
-                      <div className="text-xs text-[var(--text-tertiary)]">{city.region}</div>
-                    </td>
-                    <td className={`py-3 pr-4 text-right font-bold font-mono-data ${scoreClass(city.scores.global)}`}>
-                      {city.scores.global.toFixed(1)}
-                    </td>
-                    {CRITERIA.map(({ key }) => (
-                      <td key={key} className={`py-3 px-2 text-right font-mono-data text-xs hidden md:table-cell ${scoreClass(city.scores[key])}`}>
-                        {city.scores[key].toFixed(1)}
-                      </td>
-                    ))}
-                    <td className="py-3 pl-2">
-                      <Link
-                        href={`/villes/${city.slug}`}
-                        className="text-xs text-[var(--accent)] opacity-0 group-hover:opacity-100 transition-opacity font-medium"
-                      >
-                        Voir →
-                      </Link>
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </Card>
+          <LeaderboardTable />
+        </div>
 
         {/* Stats strip */}
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
