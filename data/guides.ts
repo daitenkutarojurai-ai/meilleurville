@@ -1340,6 +1340,51 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["Nouvelle-Aquitaine", "Bordeaux", "Pau", "La Rochelle", "Charente", "Gascogne", "Périgord"],
   },
+  {
+    slug: "vivre-en-auvergne-rhone-alpes-guide-2025",
+    title: "Vivre en Auvergne-Rhône-Alpes : Lyon, Grenoble, Annecy, Valence — Guide 2025",
+    emoji: "🏔️",
+    category: "region",
+    metaTitle: "Vivre en Auvergne-Rhône-Alpes : Lyon, Grenoble, Annecy, Valence — Guide 2025 | MeilleurVille",
+    metaDesc: "Guide complet pour s'installer en Auvergne-Rhône-Alpes : Lyon, Grenoble, Annecy, Chambéry, Clermont-Ferrand, Valence, Montélimar, Romans. Emploi, logement, qualité de vie montagne-soleil.",
+    intro: "Auvergne-Rhône-Alpes est la région la plus polyvalente de France : des Alpes à la Provence en passant par les volcans d'Auvergne, elle offre une diversité de paysages et de modes de vie unique. Lyon en est la locomotive économique, mais Grenoble, Annecy, Chambéry et Valence proposent chacune une équation qualité de vie / coût très convaincante.",
+    readMinutes: 10,
+    publishedAt: "2025-08-01",
+    updatedAt: "2025-08-01",
+    sections: [
+      {
+        heading: "Lyon : la métropole incontournable du couloir rhodanien",
+        body: "Lyon est la deuxième ville économique de France, souvent classée meilleure ville où vivre par les Français. La gastronomie, les bouchons, la Presqu'île et la Croix-Rousse font partie d'une identité forte. Le marché de l'emploi est très diversifié (pharmacie, chimie, numérique, finance, logistique). En contrepartie, les loyers ont fortement augmenté (T2 : 900€–1100€ en centre). La banlieue lyonnaise — Tassin, Écully, Caluire — offre un bon compromis.",
+      },
+      {
+        heading: "Grenoble : la Silicon Valley des Alpes",
+        body: "Grenoble est l'une des villes les plus innovantes d'Europe : STMicroelectronics, Soitec, Schneider Electric, le CEA et l'INRIA en font un hub technologique de premier plan. La ville est encadrée par trois massifs (Belledonne, Vercors, Chartreuse) — les amateurs de montagne sont servis. Les loyers restent modérés pour la dimension économique de la ville (T2 : 750€). La pollution de l'air en hiver est un Red Flag important.",
+      },
+      {
+        heading: "Annecy : la perle des Alpes, mais à quel prix ?",
+        body: "Annecy est régulièrement élue ville préférée des Français — lac, montagnes, vieille ville médiévale, propreté exceptionnelle. Mais cette popularité a un coût : les prix immobiliers ont explosé (5 000–6 000€/m²), rivalisant avec Lyon. Idéale pour les revenus élevés (cadres, freelances bien établis, retraités aisés) ou les propriétaires qui vendent un bien parisien. Pour un primo-accédant, le calcul est difficile.",
+      },
+      {
+        heading: "Chambéry et Valence : les alternatives moins connues",
+        body: "Chambéry est une ville de 60 000 habitants entre Lyon et Genève avec une douceur de vivre alpine et des loyers encore raisonnables (T2 : 680€). Elle attire les frontaliers qui cherchent une alternative à Annecy. Valence, préfecture de la Drôme sur le Rhône, bénéficie d'un excellent ensoleillement (2 300h/an), d'une position centrale entre Lyon et Marseille, et de prix immobiliers très compétitifs. Le projet de rénovation urbaine du centre a transformé la ville.",
+      },
+      {
+        heading: "Clermont-Ferrand : la surprise auvergnate",
+        body: "Clermont est souvent ignorée mais mérite l'attention : puy de Dôme à portée de vue, économie solide (Michelin, Limagrain, CHU), vie étudiante dynamique, et loyers parmi les plus bas des grandes villes françaises (T2 : 540€). La ville a engagé une rénovation urbaine ambitieuse et sa scène culturelle (Comédie de Clermont, Volcanik festival) se développe rapidement.",
+      },
+      {
+        heading: "Télétravail et montagne : une combinaison gagnante",
+        body: "Auvergne-Rhône-Alpes est le territoire par excellence du télétravailleur qui veut le meilleur des deux mondes : nature et montagne accessible, mais aussi des villes universitaires avec cafés, co-working et vie culturelle. Romans-sur-Isère, Montélimar, Annonay, Vichy — des dizaines de villes moyennes au bon rapport qualité/coût sont accessibles en 1h de Lyon ou Grenoble. L'idée du 'tribu alpine' (3j/semaine en ville, 2j en montagne) y est particulièrement répandue.",
+      },
+    ],
+    relatedCities: ["lyon", "grenoble", "annecy", "chambery", "clermont-ferrand", "valence", "montelimar", "romans-sur-isere"],
+    relatedGuides: [
+      "vivre-en-france-teletravail-guide-2025",
+      "vivre-dans-le-sud-france-guide-2025",
+      "quitter-paris-guide-2025",
+    ],
+    tags: ["Auvergne-Rhône-Alpes", "Lyon", "Grenoble", "Annecy", "Alpes", "Rhône", "Auvergne"],
+  },
 ];
 
 export const GUIDE_CATEGORIES = [
