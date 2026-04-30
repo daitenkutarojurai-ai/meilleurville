@@ -263,6 +263,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ["le-puy-en-velay", "mende"],
     ["villeurbanne", "lyon"],
     ["villeurbanne", "grenoble"],
+    ["manosque", "aix-en-provence"],
+    ["manosque", "gap"],
+    ["nevers", "auxerre"],
+    ["nevers", "dijon"],
+    ["verdun", "metz"],
+    ["aubenas", "valence"],
+    ["aubenas", "montélimar"],
+    ["pamiers", "foix"],
+    ["pamiers", "toulouse"],
+    ["saumur", "angers"],
+    ["saumur", "tours"],
   ];
 
   const staticRoutes: MetadataRoute.Sitemap = [
