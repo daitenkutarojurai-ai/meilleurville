@@ -672,7 +672,7 @@ export const GUIDES: Guide[] = [
     tags: ["déménagement", "quitter Paris", "télétravail", "province", "expatrié"],
   },
   {
-    slug: "vivre-en-normandie-guide-2025",
+    slug: "normandie-rouen-caen-le-havre-guide-2025",
     title: "Vivre en Normandie en 2025 : Rouen, Caen ou Le Havre ?",
     metaTitle: "Vivre en Normandie 2025 — Rouen, Caen, Le Havre : laquelle choisir ?",
     metaDesc:
@@ -3474,6 +3474,205 @@ export const GUIDES: Guide[] = [
       "meilleures-villes-outdoor-sport-nature-france-2025",
     ],
     tags: ["Savoie", "Haute-Savoie", "Annecy", "Chambéry", "Aix-les-Bains", "Genève", "lac Léman", "montagne"],
+  },
+  {
+    slug: "vivre-en-dordogne-perigord-guide-2025",
+    title: "Vivre en Dordogne-Périgord en 2025 : Périgueux, Bergerac, Sarlat — le guide complet",
+    metaTitle: "Vivre en Dordogne-Périgord 2025 : Périgueux, Bergerac, Sarlat — Guide",
+    metaDesc:
+      "S'installer en Dordogne : qualité de vie, prix immobiliers, économie locale, cuisine. Guide complet Périgueux vs Bergerac vs Sarlat, avec avis d'habitants.",
+    category: "region",
+    emoji: "🍖",
+    readMinutes: 9,
+    publishedAt: "2025-04-15",
+    updatedAt: "2025-04-28",
+    intro:
+      "La Dordogne est l'une des destinations de qualité de vie les plus prisées de France, notamment auprès des retraités, des Britanniques expatriés et des familles cherchant la France profonde. Gastronomie (foie gras, truffes, noix), patrimoine (châteaux des Bories, Lascaux, Sarlat), nature (rivières Dordogne et Vézère), prix immobiliers encore accessibles : tout concourt à en faire l'une des régions les plus séduisantes de Nouvelle-Aquitaine.",
+    sections: [
+      {
+        heading: "Périgueux : la capitale secrète avec tout le confort urbain",
+        body: "Périgueux (score MeilleurVille : 6.8/10) est la préfecture de la Dordogne, avec 30 000 habitants. Centre historique romano-byzantin exceptionnel (cathédrale Saint-Front), université, hôpital, tous commerces. C'est la ville la plus complète du département pour ceux qui veulent la qualité de vie périgordine sans s'isoler. Loyer T2 médian : 520€, prix d'achat : 1 600-2 000€/m². En revanche, le tissu économique est limité — idéale pour les télétravailleurs ou les indépendants.",
+      },
+      {
+        heading: "Bergerac : le compromis parfait entre agriculture et arts de vivre",
+        body: "Bergerac (score MeilleurVille : 6.6/10) est la deuxième ville de Dordogne, réputée pour ses vignobles AOP et son marché du vin. Aéroport international (Paris Roissy en 1h, Londres en 2h), gare TER vers Bordeaux (1h30). La ville attire de nombreux Britanniques et Néerlandais retraités, ce qui a dynamisé le marché immobilier (1 800-2 500€/m²). École Montessori, lycée international, associations anglophones actives. La ville idéale pour les retraités aisés voulant un pied dans la France authentique.",
+      },
+      {
+        heading: "Sarlat-la-Canéda : la perle médiévale pour télétravailleurs aisés",
+        body: "Sarlat (9 000 habitants, score MeilleurVille : 7.1/10) est le joyau du Périgord Noir. Centre médiéval entièrement préservé, décor de film (Les Visiteurs, L'Allée du Roi), 4 millions de visiteurs par an. Hors saison (octobre-avril), c'est une ville tranquille et authentique à prix encore raisonnables (2 000-3 000€/m²). L'essor du télétravail a fait monter les prix depuis 2020. Fibre déployée en 2024 dans le centre. Idéale pour les couples sans enfant cherchant le summum de l'authenticité française.",
+      },
+      {
+        heading: "Prix immobiliers et budget mensuel en Dordogne",
+        body: "La Dordogne reste l'un des départements les plus abordables de Nouvelle-Aquitaine. Acheter une maison avec jardin est encore possible entre 150 000 et 250 000€ hors Sarlat et alentours. Location : T2 entre 450€ (Périgueux périphérie) et 700€ (Sarlat centre). Coût de la vie localement bas : marchés producteurs (volailles, légumes, fromages), peu de fast-food. Budget mensuel confortable pour un couple : 2 200-2 800€ toutes charges incluses, soit 30-40% de moins qu'en Île-de-France.",
+      },
+      {
+        heading: "Conclusion : la Dordogne pour qui ?",
+        body: "La Dordogne est idéale pour : retraités cherchant patrimoine + gastronomie, télétravailleurs ayant sacrifié les grandes villes pour la qualité de vie, Britanniques et expatriés du Nord souhaitant la France profonde, artisans et agriculteurs. Elle est moins adaptée aux jeunes actifs cherchant un marché de l'emploi dynamique. Le réseau TGV est absent — prévoir un trajet en voiture ou via Bordeaux-Saint-Jean (2h de Périgueux en voiture puis 2h de TGV vers Paris).",
+      },
+    ],
+    relatedCities: ["perigueux", "bergerac", "brive-la-gaillarde", "bordeaux"],
+    relatedGuides: [
+      "vivre-en-nouvelle-aquitaine-guide-2025",
+      "retraite-france-guide",
+      "vivre-campagne-vs-ville-moyenne-france-2025",
+    ],
+    tags: ["Dordogne", "Périgord", "Périgueux", "Bergerac", "Sarlat", "gastronomie", "patrimoine", "retraite"],
+  },
+  {
+    slug: "vivre-en-alsace-strasbourg-colmar-mulhouse-2025",
+    title: "Vivre en Alsace : Strasbourg, Colmar ou Mulhouse — comparatif 2025",
+    metaTitle: "Alsace 2025 : Strasbourg vs Colmar vs Mulhouse — Où s'installer ?",
+    metaDesc:
+      "Comparatif Strasbourg / Colmar / Mulhouse : loyers, qualité de vie, emploi, culture. Guide complet pour s'installer en Alsace en 2025.",
+    category: "region",
+    emoji: "🥨",
+    readMinutes: 8,
+    publishedAt: "2025-04-20",
+    updatedAt: "2025-04-28",
+    intro:
+      "L'Alsace est l'une des régions françaises les plus qualitatives pour s'installer : carrefour européen, gastronomie unique, architecture à colombages, vignobles, et une économie parmi les plus dynamiques de France grâce à la frontière germano-suisse. Mais Strasbourg, Colmar et Mulhouse offrent des profils radicalement différents. Ce guide vous aide à faire le bon choix.",
+    sections: [
+      {
+        heading: "Strasbourg : la métropole européenne, cosmopolite et étudiante",
+        body: "Strasbourg (score MeilleurVille : 8.2/10) est la capitale alsacienne et l'une des plus belles villes de France. Siège du Parlement Européen et du Conseil de l'Europe, université de 53 000 étudiants, scène culturelle et gastronomique de premier plan. Le tram est exemplaire (8 lignes, 77 stations). Loyer T2 médian : 820€, achat : 3 500-4 500€/m². Point faible : comme toutes les métropoles, les inégalités géographiques sont marquées entre Neudorf et le quartier européen.",
+      },
+      {
+        heading: "Colmar : la perle touristique qui reste une vraie ville à vivre",
+        body: "Colmar (score MeilleurVille : 8.1/10) est souvent élue l'une des villes les plus belles et agréables de France. Centre médiéval préservé (la Petite Venise), fêtes de Noël légendaires, proximité des vignobles de la Route des Vins. Mais Colmar n'est pas qu'une carte postale : université, hôpital, tissu économique équilibré (tourisme + industrie + services). Loyer T2 : 680€, achat : 2 500-3 500€/m². Idéale pour les couples cherchant la beauté au quotidien.",
+      },
+      {
+        heading: "Mulhouse : la ville industrielle qui se réinvente avec les meilleurs prix",
+        body: "Mulhouse (score MeilleurVille : 6.9/10) est souvent sous-estimée. L'ancienne capitale textile alsacienne a subi sa reconversion, mais porte aujourd'hui des atouts méconnus : musées techniques parmi les plus grands d'Europe (Cité de l'Automobile, Musée du Chemin de fer), TGV Paris en 2h30, loyers 40% moins chers qu'à Strasbourg (T2 à 560€). La frontière suisse (Bâle) est à 30 min, ce qui permet d'y travailler en frontalier. Le bon choix pour les budgets serrés ou les familles.",
+      },
+      {
+        heading: "Tableau comparatif : loyers, emploi, accessibilité",
+        body: "Synthèse des 3 villes — Strasbourg : TGV 1h45 Paris, T2 820€/mois, 3 900€/m² achat, emploi dynamique (EU + digital). Colmar : TER Strasbourg 20min, T2 680€/mois, 3 000€/m² achat, emploi équilibré (tourisme + industrie). Mulhouse : TGV 2h30 Paris, T2 560€/mois, 2 200€/m² achat, emploi en reconversion (frontalier Bâle, industrie). Verdict : choisissez Strasbourg pour la carrière, Colmar pour le cadre de vie, Mulhouse pour le budget.",
+      },
+    ],
+    relatedCities: ["strasbourg", "colmar", "mulhouse"],
+    relatedGuides: [
+      "vivre-en-grand-est-alsace-moselle-guide-2025",
+      "vivre-en-alsace-guide-2025",
+      "investissement-immobilier-villes-rentables-france-2025",
+    ],
+    tags: ["Alsace", "Strasbourg", "Colmar", "Mulhouse", "Grand Est", "frontalier", "Allemagne", "Suisse"],
+  },
+  {
+    slug: "meilleures-villes-budget-moins-700-euros-t2-2025",
+    title: "Les 10 meilleures villes françaises où le T2 coûte moins de 700€ en 2025",
+    metaTitle: "Villes françaises T2 moins de 700€ : top 10 en 2025",
+    metaDesc:
+      "Où louer un T2 à moins de 700€/mois en France sans sacrifier la qualité de vie ? Notre top 10 avec scores de qualité de vie, emploi et transports.",
+    category: "budget",
+    emoji: "💸",
+    readMinutes: 7,
+    publishedAt: "2025-04-22",
+    updatedAt: "2025-04-28",
+    intro:
+      "Le mythe veut que la qualité de vie coûte cher. Faux. Plusieurs villes françaises affichent des loyers T2 sous 700€/mois tout en proposant des scores de qualité de vie supérieurs à 7/10, une connexion TGV, et un marché de l'emploi viable. Ce guide vous dresse la liste des 10 meilleures en 2025.",
+    sections: [
+      {
+        heading: "Pourquoi certaines villes restent très abordables en 2025",
+        body: "Les causes du maintien de loyers bas sont multiples : tissu économique diversifié mais non en tension, population stable ou en légère baisse, offre locative abondante (patrimoine HLM + investisseurs privés faiblement rentabilisés), et éloignement des grands bassins d'emploi. Ces villes ne sont pas moins désirables — elles sont moins connues. C'est précisément leur avantage pour les télétravailleurs, les retraités, et les jeunes ménages en début de vie active.",
+      },
+      {
+        heading: "Top 5 : les villes à moins de 600€ le T2 avec qualité de vie > 7/10",
+        body: "1. Morlaix (Finistère) : T2 530€, score 7.1/10. Bretagne authentique, viaduc, marché animé, mer à 15 km. 2. Nevers (Nièvre) : T2 490€, score 6.8/10. Bords de Loire, circuit automobile, calme absolu, 2h Paris. 3. Limoges (Haute-Vienne) : T2 530€, score 7.0/10. Grande ville complète, université, porcelaine, accessible. 4. Châteauroux (Indre) : T2 450€, score 6.5/10. Centre géographique de la France, calme. 5. Aurillac (Cantal) : T2 430€, score 6.8/10. Massif Central, nature exceptionnelle, qualité de vie rurale.",
+      },
+      {
+        heading: "Top 6-10 : entre 600 et 700€ avec bons scores qualité de vie",
+        body: "6. Roanne (Loire) : T2 600€, score 7.0/10. Entre Lyon et Clermont, gastronomie, calme. 7. Angoulême (Charente) : T2 570€, score 7.1/10. Festival BD, patrimoine, qualité de vie douce-amère. 8. Metz (Moselle) : T2 680€, score 7.8/10. Exceptionnel rapport qualité-prix pour une métropole culturelle avec le Centre Pompidou-Metz. 9. Le Mans (Sarthe) : T2 620€, score 7.0/10. Grande ville avec circuit F1, 55 min Paris TGV. 10. Albi (Tarn) : T2 640€, score 7.5/10. UNESCO, Lautrec, Occitanie accessible.",
+      },
+      {
+        heading: "Les pièges à éviter avec les villes à loyers bas",
+        body: "Un loyer bas peut cacher un marché de l'emploi déprécié, un réseau de transport sous-dimensionné, ou une offre de soins dégradée. Critères à vérifier : présence d'un hôpital de proximité, offre de transports en commun, fibre optique déployée, et vitalité du marché immobilier à l'achat. Pour les télétravailleurs, vérifier aussi la couverture 4G/5G et la disponibilité des espaces de coworking.",
+      },
+    ],
+    relatedCities: ["morlaix", "nevers", "limoges", "metz", "albi", "angouleme"],
+    relatedGuides: [
+      "budget-vivre-en-france-comparatif",
+      "tresors-caches-villes-sous-estimees-france-2025",
+      "vivre-campagne-vs-ville-moyenne-france-2025",
+    ],
+    tags: ["budget", "loyer", "abordable", "T2", "qualité de vie", "économie", "télétravail"],
+  },
+  {
+    slug: "cote-opale-nord-pas-de-calais-vivre-guide-2025",
+    title: "Vivre sur la Côte d'Opale en 2025 : Boulogne-sur-Mer, Calais, Le Touquet — guide complet",
+    metaTitle: "Côte d'Opale 2025 : Boulogne-sur-Mer, Calais, Le Touquet — Où s'installer ?",
+    metaDesc:
+      "Guide complet pour vivre sur la Côte d'Opale : qualité de vie, prix immobiliers, emploi, liaisons Londres. Comparatif Boulogne vs Calais vs Le Touquet.",
+    category: "region",
+    emoji: "🌊",
+    readMinutes: 8,
+    publishedAt: "2025-04-25",
+    updatedAt: "2025-04-28",
+    intro:
+      "La Côte d'Opale est l'une des destinations françaises les plus méconnues pour s'y installer. À deux heures de Paris par le TGV, à 35 minutes de Londres par l'Eurostar, avec des paysages marins spectaculaires (Caps Blanc-Nez et Gris-Nez classés Grand Site de France), des prix immobiliers parmi les plus bas de la façade maritime française, et une cuisine de la mer incomparable. Tour d'horizon des principales villes.",
+    sections: [
+      {
+        heading: "Boulogne-sur-Mer : la première ville halieutique de France",
+        body: "Boulogne-sur-Mer (55 000 habitants, score MeilleurVille : 6.8/10) est la capitale de la pêche française. Port de pêche, port transmanche, centre historique médiéval sur la haute-ville, Nausicaá (plus grand aquarium d'Europe). Économie diversifiée : pêche, agroalimentaire, tourisme. Loyer T2 : 560€, achat : 1 500-2 200€/m². Liaison directe avec Lille (1h TER) et Paris (2h30 TER). Idéale pour les familles cherchant la mer à prix accessible.",
+      },
+      {
+        heading: "Calais : le carrefour européen en pleine transformation",
+        body: "Calais (75 000 habitants, score MeilleurVille : 6.5/10) souffre d'une image négative liée à la crise migratoire, mais la ville se transforme. Loyers parmi les plus bas de la côte (T2 : 500€), liaison Eurostar Londres en 35 min (accès gare Fréthun), zone industrielle dynamique (logistique, chimie). Prix d'achat : 1 200-1 800€/m². La ville s'est engagée dans une rénovation urbaine ambitieuse. Pour les travailleurs transfrontaliers franco-britanniques ou les budgets ultra-serrés.",
+      },
+      {
+        heading: "Le Touquet-Paris-Plage : la station de luxe accessible",
+        body: "Le Touquet (5 000 habitants en basse saison) est l'exception : station balnéaire huppée créée au XIXe siècle par des Anglais, avec ses villas dans les pins, son casino, et sa réputation de week-end parisien par excellence. Aéroport avec liaisons UK. Immobilier cher en bord de mer (3 500-6 000€/m²), mais les quartiers résidentiels restent abordables (2 000-3 000€/m²). Pour les télétravailleurs aisés cherchant la Côte d'Opale haut de gamme.",
+      },
+      {
+        heading: "Conclusion : pourquoi la Côte d'Opale mérite plus d'attention",
+        body: "La Côte d'Opale souffre d'un déficit d'image injuste. Ses atouts réels : le littoral le plus spectaculaire du nord de la France, des prix immobiliers 50-70% inférieurs à Normandie ou Bretagne, une connexion directe aux marchés anglais et belge, et une gastronomie marine authentique. Sa faiblesse : un tissu économique fragile dans certaines zones, et un hiver long et venteux. Pour les télétravailleurs qui veulent la mer à prix bas et une connexion européenne directe, c'est imbattable.",
+      },
+    ],
+    relatedCities: ["boulogne-sur-mer", "calais", "dunkerque", "arras", "lille"],
+    relatedGuides: [
+      "hauts-de-france-lille-arras-amiens-guide-2025",
+      "vivre-bord-mer-france-guide",
+      "villes-france-bord-de-mer-budget-accessible-2025",
+    ],
+    tags: ["Côte d'Opale", "Boulogne-sur-Mer", "Calais", "Le Touquet", "Pas-de-Calais", "mer", "frontalier", "budget"],
+  },
+  {
+    slug: "vivre-en-charentes-angouleme-la-rochelle-saintes-guide-2025",
+    title: "Vivre en Charentes en 2025 : Angoulême, La Rochelle, Saintes, Cognac — le guide complet",
+    metaTitle: "Vivre en Charentes 2025 : Angoulême, La Rochelle, Saintes — Guide complet",
+    metaDesc:
+      "S'installer en Charente ou Charente-Maritime : comparatif Angoulême / La Rochelle / Saintes / Cognac, loyers, qualité de vie, économie. Guide 2025.",
+    category: "region",
+    emoji: "🥃",
+    readMinutes: 8,
+    publishedAt: "2025-04-26",
+    updatedAt: "2025-04-28",
+    intro:
+      "Les Charentes réunissent deux départements aux identités distinctes : la Charente (16) centrée sur Angoulême et le cognac, et la Charente-Maritime (17) avec La Rochelle, l'île de Ré, Saintes et Royan. Entre douceur climatique (2 200h de soleil par an), gastronomie remarquable et prix immobiliers 40% sous la moyenne nationale, c'est l'une des régions les plus séduisantes pour quitter les grandes villes.",
+    sections: [
+      {
+        heading: "Angoulême : la capitale BD entre authenticité et renouveau",
+        body: "Angoulême (score MeilleurVille : 7.1/10) est connue dans le monde entier pour son festival international de la bande dessinée. Mais c'est avant tout une ville de 40 000 habitants avec un centre médiéval perché, un tissu économique diversifié (papier, imprimerie, multimédia), et des loyers exceptionnellement bas pour la qualité de vie (T2 : 570€). TGV Paris en 1h40 via Bordeaux. L'une des villes avec le meilleur rapport qualité-prix de Nouvelle-Aquitaine.",
+      },
+      {
+        heading: "La Rochelle : la ville lumière de l'Atlantique",
+        body: "La Rochelle (score MeilleurVille : 8.1/10) est la star des Charentes et l'une des villes françaises les plus dynamiques. Qualité de vie exceptionnelle : vélo omniprésent (1er réseau vélo de France hors Paris), 2 300h de soleil, port historique des Francs, Aquarium, Vieux Port magnifique. Loyer T2 : 820€, achat : 3 500-4 500€/m². TGV Paris en 3h. Tissu économique diversifié (maritime, tourisme, enseignement supérieur, agroalimentaire). Idéale pour tous les profils.",
+      },
+      {
+        heading: "Saintes : la cité romaine authentique le long de la Charente",
+        body: "Saintes (score MeilleurVille : 6.9/10) est la capitale historique des Saintonge, avec son amphithéâtre romain, son arc de Germanicus, ses abbayes médiévales et ses quais de Charente. Ville tranquille de 25 000 habitants, marché animé, bonnes écoles, hôpital. Loyer T2 : 600€, achat : 1 800-2 500€/m². TGV via Bordeaux ou La Rochelle. Idéale pour les retraités, les familles télétravailleuses et les couples cherchant la France douce sans la pression touristique.",
+      },
+      {
+        heading: "Cognac : le prestige mondial dans une ville à taille humaine",
+        body: "Cognac (score MeilleurVille : 6.8/10) est une ville de 19 000 habitants connue dans le monde entier pour son eau-de-vie. Châis Hennessy, Rémy Martin, Martell — l'économie locale est directement liée au cognac (2,5 milliards d'export/an). La ville bénéficie de prix immobiliers très bas (1 500-2 000€/m²) et d'un cadre de vie authentique le long de la Charente. Liaison ferroviaire avec Saintes (30 min) et Angoulême (30 min). Pour les amateurs de viticulture et de vie tranquille.",
+      },
+    ],
+    relatedCities: ["angouleme", "la-rochelle", "saintes", "cognac", "royan"],
+    relatedGuides: [
+      "vivre-en-nouvelle-aquitaine-guide-2025",
+      "cote-atlantique-bordeaux-la-rochelle-bayonne",
+      "soleil-france-guide",
+    ],
+    tags: ["Charentes", "Angoulême", "La Rochelle", "Saintes", "Cognac", "Charente", "Charente-Maritime", "Atlantique"],
   },
 ];
 
