@@ -2061,6 +2061,70 @@ export const NEIGHBORHOODS: CityNeighborhoods[] = [
     ],
   },
   {
+    citySlug: "beziers",
+    neighborhoods: [
+      {
+        slug: "centre-beziers",
+        name: "Centre historique",
+        type: "centre-ville",
+        scores: { global: 6.5, safety: 5.5, transport: 6.5, nature: 6.0, cost: 7.5, nightlife: 7.0 },
+        avgRentT2: 540,
+        tags: ["Cathédrale", "halles", "animé", "populaire", "patrimoine"],
+        summary: "Le cœur médiéval de Béziers autour de la Cathédrale Saint-Nazaire et des Halles. Quartier populaire et vivant, avec les marchés hebdomadaires et les terrasses. Loyers parmi les plus accessibles du Hérault.",
+      },
+      {
+        slug: "plateau-beziers",
+        name: "Le Plateau",
+        type: "résidentiel",
+        scores: { global: 7.0, safety: 6.5, transport: 6.0, nature: 7.0, cost: 7.5, nightlife: 5.0 },
+        avgRentT2: 570,
+        tags: ["résidentiel", "calme", "pavillonnaire", "vue-Canal", "familles"],
+        summary: "Quartier résidentiel sur les hauteurs dominant le Canal du Midi et la plaine de l'Orb. Maisons de ville avec jardins, bon niveau scolaire, ambiance tranquille. Idéal pour les familles cherchant calme et prix raisonnables.",
+      },
+      {
+        slug: "allees-paul-riquet-beziers",
+        name: "Allées Paul-Riquet",
+        type: "branché",
+        scores: { global: 6.8, safety: 6.0, transport: 6.5, nature: 6.5, cost: 7.0, nightlife: 7.5 },
+        avgRentT2: 560,
+        tags: ["promenade", "terrasses", "commercial", "animé", "centre"],
+        summary: "La grande promenade arborée de Béziers, cœur de la vie sociale et commerciale. Boutiques, restaurants, cafés et le marché du samedi matin en font le quartier le plus animé de la ville.",
+      },
+    ],
+  },
+  {
+    citySlug: "laval",
+    neighborhoods: [
+      {
+        slug: "vieux-laval",
+        name: "Vieux-Laval",
+        type: "centre-ville",
+        scores: { global: 7.0, safety: 6.5, transport: 7.5, nature: 6.5, cost: 8.0, nightlife: 6.5 },
+        avgRentT2: 500,
+        tags: ["patrimoine", "médiéval", "Mayenne", "boutiques", "animé"],
+        summary: "Le centre historique de Laval sur les bords de la Mayenne. Château et vieux quartier médiéval bien préservé, commerces de proximité. Très bonne accessibilité pédestre, parfait pour les primo-accédants.",
+      },
+      {
+        slug: "saint-nicolas-laval",
+        name: "Saint-Nicolas",
+        type: "résidentiel",
+        scores: { global: 7.2, safety: 7.5, transport: 6.5, nature: 8.0, cost: 8.5, nightlife: 5.0 },
+        avgRentT2: 480,
+        tags: ["résidentiel", "calme", "verdoyant", "familles", "pavillonnaire"],
+        summary: "Quartier résidentiel calme et verdoyant à l'ouest du centre. Lotissements pavillonnaires, espaces verts nombreux, excellente sécurité. L'un des meilleurs secteurs pour les familles avec de jeunes enfants.",
+      },
+      {
+        slug: "moulin-laval",
+        name: "Le Moulin",
+        type: "populaire",
+        scores: { global: 6.2, safety: 5.5, transport: 6.0, nature: 6.5, cost: 9.0, nightlife: 5.0 },
+        avgRentT2: 420,
+        tags: ["abordable", "populaire", "accessible", "mixte", "bus"],
+        summary: "Quartier populaire avec les loyers les plus bas de Laval. Tissu social mixte, bonne desserte en bus. Idéal pour les petits budgets et primo-locataires. En cours de requalification urbaine.",
+      },
+    ],
+  },
+  {
     citySlug: "sete",
     neighborhoods: [
       {

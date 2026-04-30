@@ -29,9 +29,10 @@ export function HeroSection() {
       setOpen(false);
       return;
     }
-    const q = query.toLowerCase();
+    const normalize = (s: string) => s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
+    const q = normalize(query);
     const results = CITIES_SEED.filter(
-      (c) => c.name.toLowerCase().includes(q) || c.region.toLowerCase().includes(q)
+      (c) => normalize(c.name).includes(q) || normalize(c.region).includes(q)
     )
       .sort((a, b) => {
         const aStart = a.name.toLowerCase().startsWith(q) ? 0 : 1;

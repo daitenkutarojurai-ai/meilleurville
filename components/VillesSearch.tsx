@@ -42,6 +42,10 @@ const DEPARTMENTS = [...new Set(CITIES_SEED.map((c) => c.department))].sort();
 
 const POPULAR_TAGS = ["mer", "montagne", "étudiant", "familial", "vélo", "nature", "dynamique", "abordable", "soleil", "culturel"];
 
+function normalize(s: string): string {
+  return s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
+}
+
 export function VillesSearch() {
   const [query, setQuery] = useState("");
   const [sortBy, setSortBy] = useState<string>("global");
@@ -54,12 +58,12 @@ export function VillesSearch() {
     let result = CITIES_SEED;
 
     if (query) {
-      const q = query.toLowerCase();
+      const q = normalize(query);
       result = result.filter(
         (c) =>
-          c.name.toLowerCase().includes(q) ||
-          c.region.toLowerCase().includes(q) ||
-          c.department.toLowerCase().includes(q)
+          normalize(c.name).includes(q) ||
+          normalize(c.region).includes(q) ||
+          normalize(c.department).includes(q)
       );
     }
 
