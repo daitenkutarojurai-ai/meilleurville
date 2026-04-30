@@ -434,6 +434,18 @@ const SEO_PAIRS = [
   ["gueret", "brive-la-gaillarde"],
   ["saint-gaudens", "tarbes"],
   ["saint-gaudens", "toulouse"],
+  ["dieppe", "rouen"],
+  ["dieppe", "le-havre"],
+  ["saint-lo", "caen"],
+  ["saint-lo", "cherbourg"],
+  ["parthenay", "niort"],
+  ["parthenay", "poitiers"],
+  ["beaune", "dijon"],
+  ["beaune", "chalon-sur-saone"],
+  ["autun", "dijon"],
+  ["autun", "macon"],
+  ["saverne", "strasbourg"],
+  ["saverne", "obernai"],
 ];
 
 export function generateStaticParams() {
