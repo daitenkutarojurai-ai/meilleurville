@@ -38,6 +38,7 @@ const SORT_OPTIONS = [
 ];
 
 const REGIONS = [...new Set(CITIES_SEED.map((c) => c.region))].sort();
+const DEPARTMENTS = [...new Set(CITIES_SEED.map((c) => c.department))].sort();
 
 const POPULAR_TAGS = ["mer", "montagne", "étudiant", "familial", "vélo", "nature", "dynamique", "abordable", "soleil", "culturel"];
 
@@ -45,6 +46,7 @@ export function VillesSearch() {
   const [query, setQuery] = useState("");
   const [sortBy, setSortBy] = useState<string>("global");
   const [region, setRegion] = useState<string>("");
+  const [dept, setDept] = useState<string>("");
   const [tag, setTag] = useState<string>("");
   const [showFilters, setShowFilters] = useState(false);
 
@@ -65,6 +67,10 @@ export function VillesSearch() {
       result = result.filter((c) => c.region === region);
     }
 
+    if (dept) {
+      result = result.filter((c) => c.department === dept);
+    }
+
     if (tag) {
       result = result.filter((c) => c.characterTags.includes(tag as never));
     }
@@ -76,16 +82,17 @@ export function VillesSearch() {
         return bv - av;
       })
       .map(seedToCity);
-  }, [query, sortBy, region, tag]);
+  }, [query, sortBy, region, dept, tag]);
 
   function clearFilters() {
     setQuery("");
     setRegion("");
+    setDept("");
     setTag("");
     setSortBy("global");
   }
 
-  const hasFilters = query || region || tag || sortBy !== "global";
+  const hasFilters = !!(query || region || dept || tag || sortBy !== "global");
 
   return (
     <div>
@@ -184,34 +191,33 @@ export function VillesSearch() {
             </div>
           </div>
 
-          <div>
-            <label className="text-xs text-[var(--text-secondary)] block mb-2">Région</label>
-            <div className="flex flex-wrap gap-2">
-              <button
-                onClick={() => setRegion("")}
-                className={cn(
-                  "rounded-xl border px-3 py-1.5 text-xs font-medium transition-colors cursor-pointer",
-                  region === ""
-                    ? "border-[var(--accent)] bg-[var(--accent)]/10 text-[var(--accent)]"
-                    : "border-[var(--border)] text-[var(--text-secondary)] hover:border-[var(--accent)]/40"
-                )}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label className="text-xs text-[var(--text-secondary)] block mb-2">Région</label>
+              <select
+                value={region}
+                onChange={(e) => { setRegion(e.target.value); setDept(""); }}
+                className="w-full rounded-xl border border-[var(--border)] bg-[var(--bg-canvas)] px-3 py-2 text-sm text-[var(--text-primary)] outline-none focus:border-[var(--accent)]/50 transition-colors cursor-pointer"
               >
-                Toutes
-              </button>
-              {REGIONS.map((r) => (
-                <button
-                  key={r}
-                  onClick={() => setRegion(r)}
-                  className={cn(
-                    "rounded-xl border px-3 py-1.5 text-xs font-medium transition-colors cursor-pointer",
-                    region === r
-                      ? "border-[var(--accent)] bg-[var(--accent)]/10 text-[var(--accent)]"
-                      : "border-[var(--border)] text-[var(--text-secondary)] hover:border-[var(--accent)]/40"
-                  )}
-                >
-                  {r}
-                </button>
-              ))}
+                <option value="">Toutes les régions</option>
+                {REGIONS.map((r) => (
+                  <option key={r} value={r}>{r}</option>
+                ))}
+              </select>
+            </div>
+
+            <div>
+              <label className="text-xs text-[var(--text-secondary)] block mb-2">Département</label>
+              <select
+                value={dept}
+                onChange={(e) => { setDept(e.target.value); setRegion(""); }}
+                className="w-full rounded-xl border border-[var(--border)] bg-[var(--bg-canvas)] px-3 py-2 text-sm text-[var(--text-primary)] outline-none focus:border-[var(--accent)]/50 transition-colors cursor-pointer"
+              >
+                <option value="">Tous les départements</option>
+                {DEPARTMENTS.map((d) => (
+                  <option key={d} value={d}>{d}</option>
+                ))}
+              </select>
             </div>
           </div>
         </div>
@@ -223,7 +229,7 @@ export function VillesSearch() {
           {filtered.length} ville{filtered.length !== 1 ? "s" : ""}
         </span>
         {hasFilters && (
-          <Badge variant="accent">{sortBy !== "global" ? `Triées par ${SORT_OPTIONS.find(o => o.id === sortBy)?.label}` : ""} {region ? `· ${region}` : ""}</Badge>
+          <Badge variant="accent">{sortBy !== "global" ? `Triées par ${SORT_OPTIONS.find(o => o.id === sortBy)?.label}` : ""}{region ? ` · ${region}` : ""}{dept ? ` · ${dept}` : ""}</Badge>
         )}
       </div>
 

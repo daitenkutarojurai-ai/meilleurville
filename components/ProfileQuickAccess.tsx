@@ -17,11 +17,11 @@ const PROFILES = [
     scoreKey: "remoteWork" as const,
   },
   {
-    slug: "etudiant",
-    emoji: "🎓",
-    label: "Étudiants",
-    desc: "Culture, transport, budget",
-    scoreKey: "culture" as const,
+    slug: "mobilite",
+    emoji: "🚲",
+    label: "Sans voiture",
+    desc: "Transports, vélo, marchabilité",
+    scoreKey: "transport" as const,
   },
   {
     slug: "budget",
@@ -29,6 +29,13 @@ const PROFILES = [
     label: "Petit budget",
     desc: "Loyers abordables, coût de la vie",
     scoreKey: "cost" as const,
+  },
+  {
+    slug: "culture",
+    emoji: "🎭",
+    label: "Vie culturelle",
+    desc: "Musées, festivals, patrimoine",
+    scoreKey: "culture" as const,
   },
   {
     slug: "nature",

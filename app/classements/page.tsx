@@ -5,13 +5,13 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { CityCard } from "@/components/CityCard";
 import { Badge } from "@/components/ui/Badge";
 import Link from "next/link";
-import { Laptop, Home, TreePine, GraduationCap, Palmtree, ArrowRight, Wallet, Sun, Shield } from "lucide-react";
+import { Laptop, Home, TreePine, GraduationCap, Palmtree, ArrowRight, Wallet, Sun, Shield, Music, Bike } from "lucide-react";
 import type { City } from "@/lib/types";
 
 export const metadata: Metadata = {
-  title: "Classements villes françaises 2025 — Télétravail, Famille, Budget, Soleil",
+  title: "Classements villes françaises 2025 — Télétravail, Famille, Budget, Culture",
   description:
-    "Classements des meilleures villes françaises par style de vie : télétravail, famille, retraite, étudiant, nature, budget, soleil, sécurité. Données 2025.",
+    "Classements des meilleures villes françaises par style de vie : télétravail, famille, retraite, étudiant, nature, budget, soleil, sécurité, culture, mobilité. Données 2025.",
 };
 
 function seedToCity(s: (typeof CITIES_SEED)[number]): City {
@@ -113,6 +113,26 @@ const CATEGORIES = [
     bgColor: "bg-sky-400/5",
     desc: "Criminalité, sentiment de sécurité, cohésion sociale",
     scoreKey: "safety" as keyof (typeof CITIES_SEED)[number]["scores"],
+  },
+  {
+    slug: "culture",
+    label: "Vie culturelle",
+    icon: Music,
+    color: "text-purple-400",
+    borderColor: "border-purple-400/20",
+    bgColor: "bg-purple-400/5",
+    desc: "Musées, festivals, patrimoine, théâtres",
+    scoreKey: "culture" as keyof (typeof CITIES_SEED)[number]["scores"],
+  },
+  {
+    slug: "mobilite",
+    label: "Sans voiture",
+    icon: Bike,
+    color: "text-teal-400",
+    borderColor: "border-teal-400/20",
+    bgColor: "bg-teal-400/5",
+    desc: "Transports, vélo, marchabilité, TGV",
+    scoreKey: "transport" as keyof (typeof CITIES_SEED)[number]["scores"],
   },
 ];
 

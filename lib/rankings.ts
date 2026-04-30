@@ -178,6 +178,50 @@ export const RANKING_META = {
       "Présence de services de proximité (police, pompiers)",
     ],
   },
+  culture: {
+    slug: "culture",
+    label: "Vie culturelle",
+    emoji: "🎭",
+    headline: "Villes françaises avec la meilleure vie culturelle",
+    description:
+      "Classement des villes françaises par richesse culturelle : musées, théâtres, concerts, festivals, patrimoine, scène artistique et offre de loisirs.",
+    methodology:
+      "Score composite pondéré : Culture (×4), Transport (×2), Qualité de vie (×1.5), Écoles (×1).",
+    weights: { culture: 4, transport: 2, life: 1.5, schools: 1 },
+    color: "text-purple-400",
+    borderColor: "border-purple-400/20",
+    bgColor: "bg-purple-400/5",
+    scoreKey: "culture" as const,
+    why: [
+      "Nombre de musées et monuments nationaux",
+      "Festivals annuels et programmation culturelle",
+      "Scène musicale et théâtrale",
+      "Universités et grandes écoles",
+      "Librairies, galeries, cinémas indépendants",
+    ],
+  },
+  mobilite: {
+    slug: "mobilite",
+    label: "Sans voiture",
+    emoji: "🚲",
+    headline: "Meilleures villes françaises pour vivre sans voiture",
+    description:
+      "Classement des villes françaises où vous pouvez vous passer de voiture : transports en commun, pistes cyclables, commerces de proximité et services accessibles à pied.",
+    methodology:
+      "Score composite pondéré : Transport (×4), Qualité de vie (×2), Culture (×1.5), Coût (×1).",
+    weights: { transport: 4, life: 2, culture: 1.5, cost: 1 },
+    color: "text-teal-400",
+    borderColor: "border-teal-400/20",
+    bgColor: "bg-teal-400/5",
+    scoreKey: "transport" as const,
+    why: [
+      "Réseau tramway / métro / bus (fréquences, couverture)",
+      "Km de pistes cyclables sécurisées",
+      "Score marchabilité (commerces, services à pied)",
+      "Gare TGV ou TER desservie",
+      "Disponibilité vélos et trottinettes en libre-service",
+    ],
+  },
 } as const;
 
 export type RankingSlug = keyof typeof RANKING_META;

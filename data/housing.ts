@@ -60,7 +60,12 @@ export const HOUSING: Record<string, HousingData> = {
   vannes:          { avgRentT1: 620, avgRentT2: 850,  avgRentT3: 1150, avgBuyPriceM2: 3900 },
   cherbourg:       { avgRentT1: 450, avgRentT2: 620,  avgRentT3: 820,  avgBuyPriceM2: 1900 },
   tarbes:          { avgRentT1: 420, avgRentT2: 580,  avgRentT3: 770,  avgBuyPriceM2: 1600 },
-  nancy:           { avgRentT1: 510, avgRentT2: 710,  avgRentT3: 950,  avgBuyPriceM2: 2400 },
+  nancy:                    { avgRentT1: 510, avgRentT2: 710,  avgRentT3: 950,  avgBuyPriceM2: 2400 },
+  montlucon:                { avgRentT1: 360, avgRentT2: 490,  avgRentT3: 650,  avgBuyPriceM2: 1100 },
+  "charleville-mezieres":   { avgRentT1: 380, avgRentT2: 520,  avgRentT3: 700,  avgBuyPriceM2: 1300 },
+  "boulogne-sur-mer":       { avgRentT1: 420, avgRentT2: 580,  avgRentT3: 780,  avgBuyPriceM2: 1900 },
+  niort:                    { avgRentT1: 460, avgRentT2: 640,  avgRentT3: 860,  avgBuyPriceM2: 2100 },
+  albi:                     { avgRentT1: 450, avgRentT2: 620,  avgRentT3: 840,  avgBuyPriceM2: 2200 },
 };
 
 export function getHousing(slug: string): HousingData | undefined {

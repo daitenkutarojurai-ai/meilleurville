@@ -6,6 +6,7 @@ const LINKS = {
     { label: "Toutes les villes", href: "/villes" },
     { label: "Par région", href: "/regions" },
     { label: "Par département", href: "/departements" },
+    { label: "Carte interactive", href: "/carte" },
     { label: "Classements", href: "/classements" },
     { label: "Leaderboard", href: "/leaderboard" },
     { label: "Comparer", href: "/comparer" },
