@@ -6,7 +6,7 @@ import { Badge } from "@/components/ui/Badge";
 
 export const metadata: Metadata = {
   title: "FAQ — Questions fréquentes | MeilleurVille",
-  description: "Réponses aux questions fréquentes sur MeilleurVille : comment sont calculés les scores, comment contribuer, comment fonctionne l'abonnement Pro.",
+  description: "Réponses aux questions fréquentes sur MeilleurVille : comment sont calculés les scores, comment contribuer, comment marche le quiz et le comparateur.",
 };
 
 const FAQ_SECTIONS = [
@@ -19,7 +19,7 @@ const FAQ_SECTIONS = [
       },
       {
         q: "À quelle fréquence les scores sont-ils mis à jour ?",
-        a: "Les scores sont recalculés chaque semaine pour intégrer les nouveaux avis. Les données sources (INSEE, data.gouv.fr) sont intégrées lors de leurs mises à jour annuelles ou semestrielles. La date de dernière mise à jour est visible sur chaque profil de ville.",
+        a: "Les scores sont calibrés sur les données ouvertes les plus récentes (Insee, Ministère de l'Intérieur SSMSI, observatoires des loyers Clameur). La calibration est revue à chaque édition annuelle des sources publiques.",
       },
       {
         q: "Pourquoi ma ville est-elle si mal notée ?",
@@ -49,27 +49,6 @@ const FAQ_SECTIONS = [
       {
         q: "Qu'est-ce que le Red Flag Radar ?",
         a: "Le Red Flag Radar est notre système de signalement de problèmes locaux : bruit, inondation, pollution, travaux, insécurité. Les signalements confirmés par plusieurs utilisateurs sont publiés sur la page dédiée et sur le profil de la ville concernée. L'objectif est de donner une information honnête que les annonces immobilières ne communiquent jamais.",
-      },
-    ],
-  },
-  {
-    title: "L'abonnement Pro",
-    questions: [
-      {
-        q: "Qu'est-ce qui est inclus dans l'abonnement Pro ?",
-        a: "L'abonnement Pro à 9,90€/mois inclut : profils de quartiers complets, Red Flag Radar illimité, rapport IA personnalisé PDF, alertes nouvelles avis sur vos villes sauvegardées, historique comparaisons illimité, export données CSV, et support prioritaire.",
-      },
-      {
-        q: "Comment fonctionne l'essai gratuit de 7 jours ?",
-        a: "Lors de votre inscription Pro, vous bénéficiez de 7 jours gratuits sans restriction. Votre carte bancaire est requise pour activer l'essai, mais aucun prélèvement n'est effectué pendant la période d'essai. Vous pouvez annuler à tout moment depuis votre tableau de bord avant la fin des 7 jours.",
-      },
-      {
-        q: "Comment annuler mon abonnement Pro ?",
-        a: "Rendez-vous dans votre tableau de bord → Paramètres → Abonnement → Annuler. L'annulation prend effet à la fin de la période de facturation en cours. Vous conservez l'accès aux fonctionnalités Pro jusqu'à cette date. Aucun remboursement prorata n'est effectué sauf demande dans les 14 jours suivant le premier prélèvement.",
-      },
-      {
-        q: "Les données du rapport IA PDF sont-elles fiables ?",
-        a: "Le rapport PDF est généré par Claude (Anthropic) sur la base de nos données vérifiées. Il est à jour au moment de la génération. Comme tout outil IA, il peut contenir des imprécisions — nous le présentons comme une aide à la décision, pas comme un conseil professionnel immobilier. Nous recommandons toujours de visiter la ville avant de décider.",
       },
     ],
   },
@@ -107,7 +86,7 @@ const FAQ_SECTIONS = [
       },
       {
         q: "Peut-on comparer plus de deux villes à la fois ?",
-        a: "Le comparateur affiche deux villes côte à côte. Pour comparer plusieurs villes simultanément, utilisez le quiz IA qui vous propose un top 5 avec tableau comparatif pour les 3 premiers résultats. La version Pro permettra à terme un comparateur multi-villes jusqu'à 5 simultanément.",
+        a: "Le comparateur affiche deux villes côte à côte. Pour comparer plusieurs villes simultanément, utilisez le quiz qui vous propose un top 5 avec tableau comparatif sur l'ensemble des résultats.",
       },
     ],
   },
@@ -179,7 +158,7 @@ export default function FaqPage() {
           <Badge variant="accent" className="mb-3">FAQ</Badge>
           <h1 className="text-3xl font-bold text-[var(--text-primary)] mb-3">Questions fréquentes</h1>
           <p className="text-[var(--text-secondary)]">
-            Tout ce que vous voulez savoir sur MeilleurVille, les scores, les avis, et l'abonnement Pro.
+            Tout ce que vous voulez savoir sur MeilleurVille — les scores, les avis et la méthode.
           </p>
         </div>
       </section>
@@ -222,7 +201,7 @@ export default function FaqPage() {
             Données & Sources →
           </Link>
           <Link href="/quiz" className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors">
-            Voir l'abonnement Pro →
+            Faire le quiz →
           </Link>
         </div>
       </div>

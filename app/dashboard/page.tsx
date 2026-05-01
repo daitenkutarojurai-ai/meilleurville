@@ -85,7 +85,7 @@ export default function DashboardPage() {
             <Link href="/quiz">
               <Button size="sm" className="gap-1.5">
                 <Sparkles className="h-3.5 w-3.5" />
-                Passer à Pro
+                Refaire le quiz
               </Button>
             </Link>
           </div>
@@ -202,31 +202,24 @@ export default function DashboardPage() {
               </div>
             </Card>
 
-            {/* Pro features (locked) */}
+            {/* Outils */}
             <Card className="border-[var(--accent)]/20 bg-[var(--accent)]/5">
               <div className="flex items-center gap-2 mb-3">
-                <Lock className="h-4 w-4 text-[var(--accent)]" />
+                <Sparkles className="h-4 w-4 text-[var(--accent)]" />
                 <h3 className="text-sm font-semibold text-[var(--text-primary)]">
-                  Fonctionnalités Pro
+                  Outils utiles
                 </h3>
               </div>
-              <div className="space-y-2 mb-4">
-                {[
-                  "Rapport IA personnalisé",
-                  "Profils de quartiers",
-                  "Red Flag Radar complet",
-                  "Alertes temps réel",
-                ].map((f) => (
-                  <div key={f} className="flex items-center gap-2 text-xs text-[var(--text-secondary)]">
-                    <Lock className="h-3 w-3 text-[var(--accent)]/50 flex-shrink-0" />
-                    {f}
-                  </div>
-                ))}
+              <div className="space-y-2 mb-4 text-xs text-[var(--text-secondary)]">
+                <div>• Quiz de matching (3 min)</div>
+                <div>• Comparateur 2 villes</div>
+                <div>• Carte interactive avec filtres</div>
+                <div>• Discussions par ville</div>
               </div>
               <Link href="/quiz">
                 <Button size="sm" className="w-full gap-1.5">
                   <Sparkles className="h-3.5 w-3.5" />
-                  Essai 7j gratuit
+                  Faire le quiz
                 </Button>
               </Link>
             </Card>

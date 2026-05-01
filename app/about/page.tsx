@@ -80,10 +80,10 @@ export default function AboutPage() {
         {/* Stats */}
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
           {[
-            { value: `${CITIES_SEED.length}+`, label: "Villes profilées" },
-            { value: "9", label: "Critères par ville" },
-            { value: "47k+", label: "Avis collectés" },
-            { value: "100%", label: "Données publiques" },
+            { value: `${CITIES_SEED.length}`, label: "Villes profilées" },
+            { value: "8", label: "Axes de notation" },
+            { value: "12", label: "Classements thématiques" },
+            { value: "100%", label: "Données ouvertes" },
           ].map(({ value, label }) => (
             <div key={label} className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-5 text-center">
               <div className="text-2xl font-black text-[var(--accent)] font-mono-data">{value}</div>

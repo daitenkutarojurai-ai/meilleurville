@@ -1,14 +1,17 @@
 import { Metadata } from "next";
 import { QuizFlow } from "./QuizFlow";
 import { Navbar } from "@/components/Navbar";
+import { Footer } from "@/components/Footer";
+import { AmbientBackground } from "@/components/AmbientBackground";
 
 export const metadata: Metadata = {
   title: "Quiz — Trouvez votre ville idéale en France | MeilleurVille",
   description:
-    "Quiz de matching en 3 minutes : 6 questions pour trouver la ville française parfaite pour vous. Télétravail, famille, budget, soleil — notre IA analyse 340 villes.",
+    "Quiz de matching en 3 minutes : 6 questions pour trouver la ville française parfaite pour vous. Algorithme pondéré sur 340 villes.",
   openGraph: {
     title: "Quiz de matching — Trouvez votre ville idéale",
-    description: "3 minutes · 6 questions · 340 villes analysées. Quel est votre profil géographique ?",
+    description:
+      "3 minutes · 6 questions · 340 villes analysées. Quel est votre profil géographique ?",
     type: "website",
   },
   twitter: { card: "summary_large_image" },
@@ -16,9 +19,11 @@ export const metadata: Metadata = {
 
 export default function QuizPage() {
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen relative">
+      <AmbientBackground />
       <Navbar />
       <QuizFlow />
+      <Footer />
     </main>
   );
 }

@@ -114,6 +114,94 @@ const OVERRIDES: Record<string, Partial9> = {
   colmar:          { safety: 7.4, cost: 7.4, transport: 6.4, nature: 7.6, culture: 7.6, schools: 7.0, remoteWork: 7.0, life: 7.5 },
   bastia:          { safety: 5.4, cost: 6.4, transport: 5.0, nature: 8.6, culture: 6.8, schools: 5.6, remoteWork: 5.8, life: 6.6 },
   ajaccio:         { safety: 5.6, cost: 6.0, transport: 5.0, nature: 8.8, culture: 7.0, schools: 5.8, remoteWork: 6.0, life: 6.8 },
+
+  // === Additional Mediterranean / PACA ====================================
+  hyeres:          { safety: 6.4, cost: 5.6, transport: 5.6, nature: 8.6, culture: 6.6, schools: 6.4, remoteWork: 6.6, life: 7.2 },
+  toulon_dpt:      { safety: 5.4, cost: 6.6, transport: 6.0, nature: 8.4, culture: 6.8, schools: 6.0, remoteWork: 6.4, life: 6.6 },
+  draguignan:      { safety: 6.0, cost: 7.0, transport: 5.4, nature: 7.8, culture: 6.4, schools: 6.4, remoteWork: 6.2, life: 6.8 },
+  martigues:       { safety: 5.6, cost: 7.2, transport: 6.0, nature: 7.6, culture: 6.4, schools: 6.2, remoteWork: 6.4, life: 6.6 },
+  salon_de_provence:{safety: 6.0, cost: 6.6, transport: 5.8, nature: 7.4, culture: 7.0, schools: 6.4, remoteWork: 6.4, life: 6.8 },
+  manosque:        { safety: 6.6, cost: 7.0, transport: 5.4, nature: 8.2, culture: 6.4, schools: 6.4, remoteWork: 6.4, life: 7.0 },
+  carcassonne:     { safety: 5.8, cost: 7.4, transport: 5.6, nature: 7.4, culture: 7.6, schools: 6.4, remoteWork: 6.4, life: 6.8 },
+  narbonne:        { safety: 5.4, cost: 7.0, transport: 5.6, nature: 7.6, culture: 6.8, schools: 6.0, remoteWork: 6.4, life: 6.6 },
+  alès:            { safety: 5.4, cost: 7.6, transport: 5.4, nature: 7.6, culture: 6.6, schools: 6.0, remoteWork: 6.2, life: 6.6 },
+  ales:            { safety: 5.4, cost: 7.6, transport: 5.4, nature: 7.6, culture: 6.6, schools: 6.0, remoteWork: 6.2, life: 6.6 },
+
+  // === Atlantic / South-West ==============================================
+  saintes:         { safety: 7.2, cost: 7.4, transport: 5.6, nature: 7.8, culture: 7.0, schools: 6.8, remoteWork: 6.8, life: 7.4 },
+  rochefort:       { safety: 7.0, cost: 7.6, transport: 5.6, nature: 7.6, culture: 6.8, schools: 6.6, remoteWork: 6.6, life: 7.2 },
+  niort:           { safety: 7.2, cost: 7.6, transport: 6.0, nature: 7.2, culture: 6.8, schools: 7.0, remoteWork: 6.8, life: 7.2 },
+  angouleme:       { safety: 6.4, cost: 8.0, transport: 5.8, nature: 7.0, culture: 7.0, schools: 6.8, remoteWork: 6.6, life: 6.8 },
+  cognac:          { safety: 7.2, cost: 7.8, transport: 5.4, nature: 7.4, culture: 7.0, schools: 6.6, remoteWork: 6.4, life: 7.0 },
+  perigueux:       { safety: 7.0, cost: 7.8, transport: 5.4, nature: 7.6, culture: 7.4, schools: 6.6, remoteWork: 6.4, life: 7.0 },
+  bergerac:        { safety: 6.8, cost: 7.6, transport: 5.0, nature: 7.6, culture: 6.6, schools: 6.4, remoteWork: 6.2, life: 6.9 },
+  agen:            { safety: 6.0, cost: 7.6, transport: 5.4, nature: 7.0, culture: 6.4, schools: 6.4, remoteWork: 6.2, life: 6.6 },
+  mont_de_marsan:  { safety: 7.0, cost: 7.4, transport: 5.4, nature: 7.4, culture: 6.4, schools: 6.6, remoteWork: 6.4, life: 7.0 },
+  dax:             { safety: 6.8, cost: 7.4, transport: 5.4, nature: 7.6, culture: 6.4, schools: 6.4, remoteWork: 6.2, life: 6.9 },
+
+  // === Brittany & Normandy coast ==========================================
+  saint_brieuc:    { safety: 7.0, cost: 7.6, transport: 5.6, nature: 8.0, culture: 6.6, schools: 6.8, remoteWork: 6.8, life: 7.2 },
+  morlaix:         { safety: 7.4, cost: 7.6, transport: 5.4, nature: 8.4, culture: 6.6, schools: 6.6, remoteWork: 6.4, life: 7.2 },
+  douarnenez:      { safety: 7.6, cost: 7.4, transport: 5.0, nature: 8.6, culture: 6.4, schools: 6.4, remoteWork: 6.4, life: 7.2 },
+  concarneau:      { safety: 7.6, cost: 7.0, transport: 5.0, nature: 8.6, culture: 6.6, schools: 6.4, remoteWork: 6.4, life: 7.2 },
+  cherbourg:       { safety: 6.6, cost: 7.6, transport: 5.6, nature: 7.6, culture: 6.6, schools: 6.6, remoteWork: 6.4, life: 6.9 },
+  granville:       { safety: 7.4, cost: 7.0, transport: 5.0, nature: 8.4, culture: 6.4, schools: 6.4, remoteWork: 6.4, life: 7.2 },
+  bayeux:          { safety: 7.6, cost: 7.4, transport: 5.4, nature: 7.8, culture: 7.4, schools: 6.8, remoteWork: 6.4, life: 7.4 },
+  honfleur:        { safety: 7.6, cost: 6.4, transport: 4.8, nature: 8.4, culture: 7.4, schools: 6.4, remoteWork: 6.4, life: 7.4 },
+  deauville:       { safety: 7.4, cost: 4.4, transport: 5.4, nature: 8.6, culture: 7.6, schools: 6.4, remoteWork: 6.4, life: 7.4 },
+  trouville:       { safety: 7.2, cost: 4.6, transport: 5.4, nature: 8.6, culture: 7.2, schools: 6.4, remoteWork: 6.4, life: 7.2 },
+
+  // === Mountain & Alps ====================================================
+  grenoble_alps_nearby_chambery_done: { safety: 7.6, cost: 6.0, transport: 6.4, nature: 9.2, culture: 6.8, schools: 7.4, remoteWork: 7.0, life: 7.6 },
+  aix_les_bains:   { safety: 7.4, cost: 5.0, transport: 5.6, nature: 9.0, culture: 6.6, schools: 6.8, remoteWork: 6.8, life: 7.4 },
+  evian_les_bains: { safety: 7.4, cost: 4.4, transport: 5.0, nature: 9.2, culture: 6.4, schools: 6.4, remoteWork: 6.6, life: 7.4 },
+  cluses:          { safety: 7.0, cost: 6.0, transport: 5.4, nature: 9.0, culture: 6.0, schools: 6.4, remoteWork: 6.4, life: 7.0 },
+  thonon_les_bains:{ safety: 7.4, cost: 5.4, transport: 5.4, nature: 9.0, culture: 6.4, schools: 6.6, remoteWork: 6.6, life: 7.4 },
+  briancon:        { safety: 7.6, cost: 6.4, transport: 5.0, nature: 9.4, culture: 6.4, schools: 6.6, remoteWork: 6.4, life: 7.4 },
+  gap:             { safety: 7.2, cost: 6.6, transport: 5.4, nature: 9.0, culture: 6.4, schools: 6.6, remoteWork: 6.6, life: 7.4 },
+  digne_les_bains: { safety: 7.0, cost: 7.0, transport: 5.0, nature: 8.6, culture: 6.4, schools: 6.4, remoteWork: 6.2, life: 7.0 },
+
+  // === East / Alsace / Vosges =============================================
+  mulhouse:        { safety: 5.8, cost: 7.6, transport: 7.0, nature: 7.0, culture: 7.2, schools: 6.6, remoteWork: 7.0, life: 6.8 },
+  haguenau:        { safety: 7.0, cost: 7.4, transport: 6.4, nature: 7.4, culture: 7.0, schools: 7.0, remoteWork: 6.8, life: 7.2 },
+  selestat:        { safety: 7.4, cost: 7.4, transport: 6.0, nature: 7.6, culture: 7.0, schools: 7.0, remoteWork: 6.6, life: 7.4 },
+  thionville:      { safety: 6.4, cost: 7.4, transport: 6.4, nature: 7.0, culture: 6.6, schools: 6.8, remoteWork: 6.6, life: 7.0 },
+  forbach:         { safety: 5.4, cost: 8.0, transport: 6.0, nature: 6.8, culture: 6.2, schools: 6.0, remoteWork: 6.2, life: 6.4 },
+  epinal:          { safety: 7.0, cost: 7.6, transport: 5.8, nature: 7.6, culture: 6.8, schools: 6.8, remoteWork: 6.6, life: 7.1 },
+
+  // === North ==============================================================
+  arras:           { safety: 6.6, cost: 7.4, transport: 6.4, nature: 6.4, culture: 7.4, schools: 7.0, remoteWork: 6.8, life: 7.0 },
+  douai:           { safety: 6.0, cost: 7.6, transport: 6.6, nature: 6.4, culture: 6.8, schools: 6.6, remoteWork: 6.6, life: 6.7 },
+  valenciennes:    { safety: 5.6, cost: 7.6, transport: 6.4, nature: 6.4, culture: 6.8, schools: 6.6, remoteWork: 6.4, life: 6.6 },
+  dunkerque:       { safety: 5.8, cost: 7.6, transport: 6.4, nature: 7.0, culture: 6.6, schools: 6.6, remoteWork: 6.4, life: 6.7 },
+  calais:          { safety: 5.0, cost: 7.6, transport: 6.4, nature: 6.4, culture: 6.4, schools: 6.0, remoteWork: 6.2, life: 6.3 },
+  boulogne_sur_mer:{ safety: 5.6, cost: 7.6, transport: 5.8, nature: 7.4, culture: 6.6, schools: 6.4, remoteWork: 6.2, life: 6.7 },
+  amiens_dpt:      { safety: 5.8, cost: 7.6, transport: 6.4, nature: 6.4, culture: 7.0, schools: 7.0, remoteWork: 6.4, life: 6.6 },
+
+  // === Center / Loire valley ==============================================
+  bourges:         { safety: 6.6, cost: 8.0, transport: 5.8, nature: 7.0, culture: 7.0, schools: 6.6, remoteWork: 6.4, life: 6.9 },
+  blois:           { safety: 6.6, cost: 7.6, transport: 6.0, nature: 7.4, culture: 7.4, schools: 6.8, remoteWork: 6.6, life: 7.0 },
+  chartres:        { safety: 6.8, cost: 7.4, transport: 6.6, nature: 7.0, culture: 7.4, schools: 7.0, remoteWork: 6.8, life: 7.1 },
+  chateauroux:     { safety: 6.6, cost: 8.4, transport: 5.4, nature: 7.0, culture: 6.4, schools: 6.4, remoteWork: 6.2, life: 6.8 },
+  vierzon:         { safety: 5.8, cost: 8.4, transport: 5.6, nature: 6.8, culture: 6.0, schools: 6.0, remoteWork: 6.0, life: 6.6 },
+
+  // === Île-de-France suburbs ==============================================
+  meaux:           { safety: 5.4, cost: 5.4, transport: 7.4, nature: 6.4, culture: 6.8, schools: 6.6, remoteWork: 7.0, life: 6.6 },
+  melun:           { safety: 5.4, cost: 5.6, transport: 7.4, nature: 6.6, culture: 6.6, schools: 6.4, remoteWork: 7.0, life: 6.5 },
+  mantes_la_jolie: { safety: 4.6, cost: 6.0, transport: 7.4, nature: 6.0, culture: 6.0, schools: 5.6, remoteWork: 6.6, life: 5.9 },
+  pontoise:        { safety: 5.6, cost: 5.4, transport: 7.6, nature: 6.6, culture: 6.6, schools: 6.6, remoteWork: 7.0, life: 6.6 },
+  evry:            { safety: 5.0, cost: 5.6, transport: 7.6, nature: 6.4, culture: 6.6, schools: 6.4, remoteWork: 7.0, life: 6.4 },
+  creteil:         { safety: 5.4, cost: 4.8, transport: 8.4, nature: 6.0, culture: 6.8, schools: 6.4, remoteWork: 7.4, life: 6.5 },
+  nanterre:        { safety: 5.4, cost: 4.0, transport: 8.6, nature: 5.6, culture: 7.0, schools: 6.6, remoteWork: 7.6, life: 6.5 },
+
+  // === Mountain / pre-Alps ================================================
+  privas:          { safety: 6.8, cost: 7.6, transport: 5.0, nature: 8.6, culture: 6.0, schools: 6.0, remoteWork: 6.0, life: 7.0 },
+  aurillac:        { safety: 7.4, cost: 8.0, transport: 5.0, nature: 8.6, culture: 6.4, schools: 6.4, remoteWork: 6.0, life: 7.2 },
+  rodez:           { safety: 7.4, cost: 8.0, transport: 5.0, nature: 8.0, culture: 6.6, schools: 6.6, remoteWork: 6.0, life: 7.2 },
+  millau:          { safety: 7.6, cost: 7.8, transport: 4.8, nature: 8.8, culture: 6.4, schools: 6.4, remoteWork: 6.2, life: 7.2 },
+  cahors:          { safety: 7.0, cost: 7.6, transport: 5.0, nature: 8.0, culture: 7.0, schools: 6.4, remoteWork: 6.0, life: 7.2 },
+  figeac:          { safety: 7.4, cost: 7.6, transport: 4.8, nature: 8.0, culture: 6.6, schools: 6.4, remoteWork: 6.0, life: 7.2 },
+  sarlat_la_caneda:{ safety: 7.4, cost: 7.0, transport: 4.6, nature: 8.4, culture: 7.6, schools: 6.4, remoteWork: 6.0, life: 7.4 },
 };
 
 /**

@@ -218,15 +218,15 @@ export default function DonneesPage() {
             Export des données
           </h2>
           <p className="text-[var(--text-secondary)] mb-5">
-            Les abonnés Pro peuvent exporter l'ensemble des scores en CSV pour leurs propres analyses.
-            Journalistes et chercheurs : contactez-nous pour un accès dataset complet.
+            Journalistes, chercheurs, collectivités : contactez-nous pour un accès au dataset complet
+            (CSV / JSON), avec la grille de calibration et les sources par champ.
           </p>
           <div className="flex flex-wrap gap-3">
             <Link
-              href="/quiz"
+              href="/contact"
               className="rounded-xl bg-[var(--accent)] text-white font-semibold px-5 py-2.5 text-sm hover:opacity-90 transition-opacity"
             >
-              ✨ Accès Pro — Export CSV
+              ✉️ Demander l&apos;accès
             </Link>
             <Link
               href="/contact"

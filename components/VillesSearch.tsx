@@ -101,9 +101,9 @@ export function VillesSearch() {
   return (
     <div>
       {/* Search & filter bar */}
-      <div className="mb-6 flex flex-col gap-3 sm:flex-row">
-        <div className="flex flex-1 items-center gap-2 rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] px-4 py-2.5 focus-within:border-[var(--accent)]/50 transition-colors">
-          <Search className="h-4 w-4 flex-shrink-0 text-[var(--text-secondary)]" />
+      <div className="mb-6 flex flex-col gap-3 sm:flex-row sticky top-16 z-30">
+        <div className="flex flex-1 items-center gap-2 rounded-2xl glass-strong border border-white/60 px-4 py-3 shadow-md focus-within:shadow-lg focus-within:ring-2 focus-within:ring-[var(--accent)]/30 transition-all">
+          <Search className="h-4 w-4 flex-shrink-0 text-[var(--accent)]" />
           <input
             type="text"
             value={query}

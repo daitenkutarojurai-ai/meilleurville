@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { ArrowLeft, ArrowRight, Sparkles, CheckCircle, FileText, Lock } from "lucide-react";
+import { ArrowLeft, ArrowRight, Sparkles, CheckCircle } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { cn } from "@/lib/utils";
 import type { QuizAnswers, MatchResult } from "@/lib/types";
@@ -296,39 +296,7 @@ export function QuizFlow() {
           </div>
         )}
 
-        {/* Pro PDF Report upsell */}
-        <div className="mt-8 rounded-2xl border border-[var(--accent)]/20 bg-[var(--accent)]/5 p-8">
-          <div className="flex flex-col sm:flex-row gap-5 items-start">
-            <div className="flex h-14 w-14 flex-shrink-0 items-center justify-center rounded-2xl bg-[var(--accent)]/15 border border-[var(--accent)]/20">
-              <FileText className="h-7 w-7 text-[var(--accent)]" />
-            </div>
-            <div className="flex-1">
-              <div className="flex items-center gap-2 mb-1">
-                <h3 className="font-bold text-[var(--text-primary)]">
-                  Rapport IA personnalisé — Pro
-                </h3>
-                <Lock className="h-4 w-4 text-[var(--text-tertiary)]" />
-              </div>
-              <p className="text-sm text-[var(--text-secondary)] mb-4">
-                Obtenez un PDF complet de 8 pages analysant votre compatibilité avec chaque ville recommandée :
-                comparatif budget, analyse quartier, Red Flags personnalisés, checklist avant déménagement.
-              </p>
-              <div className="flex flex-wrap gap-3">
-                <Link
-                  href="/quiz"
-                  className="inline-flex items-center gap-2 rounded-xl bg-[var(--accent)] text-white font-semibold px-5 py-2.5 text-sm hover:opacity-90 transition-opacity"
-                >
-                  ✨ Générer mon rapport — Pro
-                </Link>
-                <span className="flex items-center text-xs text-[var(--text-tertiary)] self-center">
-                  Inclus dans l'abonnement 9,90€/mois
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="mt-6 flex flex-col items-center gap-4">
+        <div className="mt-8 flex flex-col items-center gap-4">
           <QuizShareButton results={results} />
           <Button variant="secondary" onClick={() => { setResults(null); setStep(0); setAnswers(INITIAL_ANSWERS); }}>
             Recommencer le quiz
@@ -339,16 +307,19 @@ export function QuizFlow() {
   }
 
   return (
-    <div className="mx-auto max-w-2xl px-4 py-12 sm:px-6">
+    <div className="relative mx-auto max-w-2xl px-4 py-16 sm:px-6">
+      <div className="rounded-3xl glass-strong border border-white/60 p-6 sm:p-8 shadow-2xl shadow-[var(--accent)]/10">
       {/* Progress */}
       <div className="mb-10">
-        <div className="mb-2 flex items-center justify-between text-sm text-[var(--text-secondary)]">
-          <span>Question {step + 1} / {STEPS.length}</span>
-          <span>{Math.round(progress)}%</span>
+        <div className="mb-2 flex items-center justify-between text-sm">
+          <span className="font-mono-data text-[var(--text-secondary)]">
+            Question <span className="text-[var(--accent)] font-bold">{step + 1}</span> / {STEPS.length}
+          </span>
+          <span className="font-mono-data font-bold text-[var(--accent)]">{Math.round(progress)}%</span>
         </div>
-        <div className="h-1.5 w-full rounded-full bg-[var(--bg-elevated)] overflow-hidden">
+        <div className="h-2 w-full rounded-full bg-[var(--bg-elevated)] overflow-hidden">
           <div
-            className="h-full rounded-full bg-[var(--accent)] transition-all duration-500 ease-out"
+            className="h-full rounded-full bg-gradient-to-r from-[var(--accent)] via-emerald-400 to-lime-400 transition-all duration-500 ease-out"
             style={{ width: `${progress}%` }}
           />
         </div>
@@ -356,7 +327,10 @@ export function QuizFlow() {
 
       {/* Question */}
       <div className="mb-8 fade-in-up" key={step}>
-        <h2 className="text-2xl sm:text-3xl font-bold text-[var(--text-primary)] mb-2">
+        <p className="text-xs uppercase tracking-widest text-[var(--accent)] font-semibold mb-2">
+          ✨ Étape {step + 1}
+        </p>
+        <h2 className="text-2xl sm:text-3xl font-bold text-[var(--text-primary)] mb-2 leading-tight">
           {currentStep.question}
         </h2>
         {currentStep.type === "multi" && (
@@ -452,12 +426,13 @@ export function QuizFlow() {
           <Button
             onClick={handleSubmit}
             disabled={!canAdvance(step, currentStep, answers)}
-            className="gap-2"
+            className="gap-2 shadow-lg shadow-[var(--accent)]/30 shine"
           >
             <Sparkles className="h-4 w-4" />
             Trouver mes villes
           </Button>
         )}
+      </div>
       </div>
     </div>
   );
