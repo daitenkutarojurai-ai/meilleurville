@@ -860,7 +860,7 @@ export default async function PairPage({ params }: Props) {
             <div className="font-semibold text-blue-600">{seedA.name}</div>
             <div className="font-semibold text-violet-400">{seedB.name}</div>
             {[
-              { label: "Soleil / an", a: seedA.sunshinedays ? `${seedA.sunshinedays}j` : "—", b: seedB.sunshinedays ? `${seedB.sunshinedays}j` : "—" },
+              { label: "Soleil / an", a: seedA.sunshinedays ? `${seedA.sunshinedays} h` : "—", b: seedB.sunshinedays ? `${seedB.sunshinedays} h` : "—" },
               { label: "Juillet", a: seedA.avgTempJuly ? `${seedA.avgTempJuly}°C` : "—", b: seedB.avgTempJuly ? `${seedB.avgTempJuly}°C` : "—" },
               { label: "Janvier", a: seedA.avgTempJanuary ? `${seedA.avgTempJanuary}°C` : "—", b: seedB.avgTempJanuary ? `${seedB.avgTempJanuary}°C` : "—" },
             ].map(({ label, a, b }) => (

@@ -12,10 +12,10 @@ interface Stat {
 }
 
 const STATS: Stat[] = [
-  { value: 47000, suffix: "+", label: "avis d'habitants", icon: Users, accent: "from-emerald-400 to-lime-400" },
-  { value: 340,   suffix: "+", label: "villes profilées", icon: MapPin, accent: "from-amber-400 to-orange-400" },
-  { value: 12000, suffix: "+", label: "membres actifs", icon: Sparkles, accent: "from-pink-400 to-rose-400" },
-  { value: 96,    suffix: "%", label: "satisfaction quiz", icon: Star, accent: "from-sky-400 to-emerald-400" },
+  { value: 340, suffix: "+",  label: "villes profilées", icon: MapPin, accent: "from-emerald-400 to-lime-400" },
+  { value: 12,  suffix: "",   label: "classements thématiques", icon: Star, accent: "from-amber-400 to-orange-400" },
+  { value: 8,   suffix: "",   label: "axes de notation", icon: Sparkles, accent: "from-pink-400 to-rose-400" },
+  { value: 100, suffix: "%",  label: "données ouvertes", icon: Users, accent: "from-sky-400 to-emerald-400" },
 ];
 
 function useCountUp(target: number, started: boolean) {

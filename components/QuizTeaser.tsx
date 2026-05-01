@@ -8,7 +8,7 @@ import { TiltCard } from "@/components/effects/TiltCard";
 
 const STEPS = [
   { icon: Brain, label: "7 questions", desc: "Style de vie, budget, priorités" },
-  { icon: Zap, label: "IA en 3s", desc: "Claude analyse votre profil" },
+  { icon: Zap, label: "Match en 3s", desc: "Algorithme pondéré sur 8 axes" },
   { icon: Target, label: "Top 5 villes", desc: "Personnalisé et expliqué" },
 ];
 

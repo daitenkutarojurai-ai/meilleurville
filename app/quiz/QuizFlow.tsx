@@ -75,7 +75,7 @@ const STEPS = [
     question: "Votre rapport au soleil ?",
     type: "single" as const,
     options: [
-      { value: "soleil", label: "☀️ Soleil max", desc: "Chaleur, +250j de soleil/an" },
+      { value: "soleil", label: "☀️ Soleil max", desc: "Chaleur, +2500 h de soleil/an" },
       { value: "tempere", label: "⛅ Tempéré", desc: "4 vraies saisons" },
       { value: "ocean", label: "🌬️ Océanique", desc: "Doux, humide, verdoyant" },
       { value: "montagne", label: "❄️ Montagne", desc: "Neige en hiver, fraîcheur" },

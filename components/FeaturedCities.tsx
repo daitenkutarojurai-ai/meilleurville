@@ -41,7 +41,7 @@ export function FeaturedCities() {
               Les villes où on se sent bien
             </h2>
             <p className="mt-2 text-[var(--text-secondary)]">
-              {`Élu par 47 000+ habitants — sur ${CITIES_SEED.length} villes passées au crible`}
+              {`${CITIES_SEED.length} villes passées au crible — calibré sur Insee + Ministère Intérieur`}
             </p>
           </div>
           <Link

@@ -79,8 +79,8 @@ function matchScore(answers: QuizAnswers, city: (typeof CITIES_SEED)[number]): {
 
   // Climate preference
   if (answers.climate === "soleil") {
-    // Prefer cities with more sunshine days
-    const sunScore = city.sunshinedays ? Math.min(10, city.sunshinedays / 300) : 7;
+    // sunshinedays stores hours/year (e.g., Marseille 2850, Paris 1630).
+    const sunScore = city.sunshinedays ? Math.min(10, city.sunshinedays / 270) : 7;
     weighted += sunScore * 2.0;
     total += 10 * 2.0;
   } else if (answers.climate === "montagne") {

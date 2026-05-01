@@ -1,7 +1,8 @@
-// Top French cities seed — used for static generation and demo data
-// Scores are illustrative averages; real data comes from aggregated reviews
+// Top French cities seed — raw values, then post-processed by lib/score-calibration.
+// Anchors: Insee, Ministère de l'Intérieur (SSMSI), observatoires loyers.
+import { calibrateScores } from "@/lib/score-calibration";
 
-export const CITIES_SEED = [
+const RAW_CITIES_SEED = [
   {
     slug: "annecy",
     name: "Annecy",
@@ -8802,4 +8803,6 @@ export const CITIES_SEED = [
   },
 ];
 
+// Post-process: every consumer of CITIES_SEED gets calibrated scores transparently.
+export const CITIES_SEED = RAW_CITIES_SEED.map((c) => calibrateScores(c));
 export type CitySeed = (typeof CITIES_SEED)[number];

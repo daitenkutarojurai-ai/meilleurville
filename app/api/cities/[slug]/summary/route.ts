@@ -37,7 +37,7 @@ export async function GET(
 Ville : ${city.name} (${city.department}, ${city.region})
 Population : ${city.population?.toLocaleString("fr-FR")} habitants
 Altitude : ${city.elevation}m
-Ensoleillement : ${city.sunshinedays} jours/an
+Ensoleillement : ${city.sunshinedays} heures/an
 Température juillet : ${city.avgTempJuly}°C, janvier : ${city.avgTempJanuary}°C
 Tags caractère : ${city.characterTags.join(", ")}
 ${housing ? `Loyer T1 : ${housing.avgRentT1}€/mois, T2 : ${housing.avgRentT2}€/mois, T3 : ${housing.avgRentT3}€/mois

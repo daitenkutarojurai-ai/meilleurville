@@ -38,33 +38,6 @@ const LIFE_STAGES = [
   { id: "etudiant", label: "Étudiant", icon: GraduationCap, keys: ["culture", "transport", "cost", "life"] },
 ];
 
-const DEMO_REVIEWS = [
-  {
-    id: "1",
-    handle: "Marie_L",
-    badge: "Cartographe",
-    score: 9,
-    text: "J'habite ici depuis 3 ans et c'est vraiment une ville où il fait bon vivre. Le lac est accessible à pied, les transports sont corrects, et les enfants adorent les espaces verts. Le seul bémol : les prix de l'immobilier ont explosé ces 5 dernières années.",
-    pros: "Nature, sécurité, qualité de l'air",
-    cons: "Immobilier très cher, tourisme intense en été",
-    tags: ["famille", "propriétaire"],
-    votes: 47,
-    date: "il y a 3 jours",
-  },
-  {
-    id: "2",
-    handle: "ThomasR_dev",
-    badge: "Ambassadeur",
-    score: 8,
-    text: "Parfait pour le télétravail. La fibre est partout, il y a plusieurs coworking spaces, et la qualité de vie est incomparable. En hiver la ville est plus calme, ce que j'apprécie beaucoup.",
-    pros: "Fibre, coworking, nature à 5 min",
-    cons: "Pas de grande métropole à proximité",
-    tags: ["remote_worker", "locataire"],
-    votes: 31,
-    date: "il y a 1 semaine",
-  },
-];
-
 export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number } }) {
   const [activeStage, setActiveStage] = useState("famille");
   const neighborhoods = getNeighborhoods(city.slug);
@@ -157,9 +130,9 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                   <Sun className="h-4 w-4 text-white" />
                 </div>
                 <div className="text-2xl font-bold font-mono-data text-[var(--text-primary)]">
-                  {city.sunshinedays}<span className="text-base text-[var(--text-tertiary)]">j</span>
+                  {city.sunshinedays}<span className="text-base text-[var(--text-tertiary)]"> h</span>
                 </div>
-                <div className="text-xs text-[var(--text-secondary)]">de soleil/an</div>
+                <div className="text-xs text-[var(--text-secondary)]">de soleil / an</div>
               </div>
             )}
             {city.avgTempJuly && (
@@ -268,73 +241,23 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                 </div>
               </Card>
 
-              {/* Recent reviews */}
+              {/* Témoignages — pointer to real CommentSection at the bottom */}
               <Card>
-                <div className="flex items-center justify-between mb-4">
+                <div className="flex items-center justify-between mb-3">
                   <h2 className="text-base font-semibold text-[var(--text-primary)]">
-                    Avis récents
+                    Témoignages d&apos;habitants
                   </h2>
-                  <button
-                    onClick={() => setActiveTab("reviews")}
-                    className="text-sm text-[var(--accent)] hover:underline"
-                  >
-                    Tous les avis →
-                  </button>
                 </div>
-                <div className="space-y-4">
-                  {DEMO_REVIEWS.map((r) => (
-                    <div
-                      key={r.id}
-                      className="rounded-xl border border-[var(--border)] bg-[var(--bg-elevated)] p-4"
-                    >
-                      <div className="flex items-center gap-2 mb-3">
-                        <div className="h-7 w-7 rounded-full bg-[var(--accent)]/20 flex items-center justify-center text-xs font-bold text-[var(--accent)]">
-                          {r.handle[0]}
-                        </div>
-                        <div>
-                          <span className="text-sm font-medium text-[var(--text-primary)]">
-                            {r.handle}
-                          </span>
-                          <span className="ml-2 text-xs text-[var(--text-secondary)] border border-[var(--border)] rounded-full px-2 py-0.5">
-                            {r.badge}
-                          </span>
-                        </div>
-                        <div className="ml-auto flex items-center gap-1">
-                          <Star className="h-3.5 w-3.5 fill-yellow-400 text-amber-500" />
-                          <span className="text-sm font-bold font-mono-data text-[var(--text-primary)]">
-                            {r.score}/10
-                          </span>
-                        </div>
-                      </div>
-                      <p className="text-sm text-[var(--text-secondary)] leading-relaxed mb-3">
-                        {r.text}
-                      </p>
-                      <div className="flex flex-wrap gap-2 text-xs">
-                        {r.pros && (
-                          <span className="text-emerald-600">
-                            ✓ {r.pros}
-                          </span>
-                        )}
-                        {r.cons && (
-                          <span className="text-red-500">
-                            ✗ {r.cons}
-                          </span>
-                        )}
-                      </div>
-                      <div className="mt-3 flex items-center gap-3 text-xs text-[var(--text-secondary)]">
-                        <span>{r.date}</span>
-                        <button className="hover:text-[var(--text-primary)] transition-colors">
-                          👍 {r.votes} utile
-                        </button>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-                <div className="mt-4">
-                  <Button variant="secondary" className="w-full" onClick={() => setShowReviewModal(true)}>
-                    Écrire un avis
-                  </Button>
-                </div>
+                <p className="text-sm text-[var(--text-secondary)] mb-3 leading-relaxed">
+                  Cette section affiche les vrais retours postés par la communauté.
+                  Les premiers témoignages apparaissent en bas de la page.
+                </p>
+                <a
+                  href="#discussions"
+                  className="inline-flex items-center gap-1 text-sm font-semibold text-[var(--accent)] hover:underline"
+                >
+                  Lire et participer →
+                </a>
               </Card>
             </div>
 
@@ -485,54 +408,24 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
         )}
 
         {activeTab === "reviews" && (
-          <div className="max-w-3xl space-y-4">
-            {DEMO_REVIEWS.map((r) => (
-              <Card key={r.id}>
-                <div className="flex items-center gap-2 mb-3">
-                  <div className="h-9 w-9 rounded-full bg-[var(--accent)]/20 flex items-center justify-center text-sm font-bold text-[var(--accent)]">
-                    {r.handle[0]}
-                  </div>
-                  <div>
-                    <div className="font-semibold text-[var(--text-primary)]">{r.handle}</div>
-                    <div className="text-xs text-[var(--text-secondary)]">{r.date}</div>
-                  </div>
-                  <div className="ml-auto flex items-center gap-1.5">
-                    <Star className="h-4 w-4 fill-yellow-400 text-amber-500" />
-                    <span className="font-bold font-mono-data text-[var(--text-primary)]">
-                      {r.score}/10
-                    </span>
-                  </div>
-                </div>
-                <p className="text-[var(--text-secondary)] leading-relaxed mb-4">{r.text}</p>
-                <div className="grid grid-cols-2 gap-3 text-sm">
-                  {r.pros && (
-                    <div className="rounded-lg bg-emerald-500/5 border border-emerald-500/20 p-3">
-                      <div className="text-xs text-emerald-600 font-medium mb-1">Points positifs</div>
-                      <p className="text-[var(--text-secondary)] text-xs">{r.pros}</p>
-                    </div>
-                  )}
-                  {r.cons && (
-                    <div className="rounded-lg bg-red-500/5 border border-red-500/20 p-3">
-                      <div className="text-xs text-red-500 font-medium mb-1">Points négatifs</div>
-                      <p className="text-[var(--text-secondary)] text-xs">{r.cons}</p>
-                    </div>
-                  )}
-                </div>
-                <div className="mt-4 flex items-center gap-3 text-xs text-[var(--text-secondary)]">
-                  <div className="flex gap-1">
-                    {r.tags.map((tag) => (
-                      <Badge key={tag} variant="subtle">{tag}</Badge>
-                    ))}
-                  </div>
-                  <button className="ml-auto hover:text-[var(--text-primary)]">
-                    👍 {r.votes} utile
-                  </button>
-                </div>
-              </Card>
-            ))}
-            <Button variant="secondary" className="w-full" onClick={() => setShowReviewModal(true)}>
-              Écrire un avis sur {city.name}
-            </Button>
+          <div className="max-w-3xl">
+            <Card>
+              <div className="text-center py-6">
+                <div className="text-4xl mb-3">💬</div>
+                <h3 className="font-semibold text-[var(--text-primary)] mb-2">
+                  Les vrais témoignages sont en bas de la page
+                </h3>
+                <p className="text-sm text-[var(--text-secondary)] max-w-md mx-auto mb-5">
+                  Pas de faux avis ici. La discussion sur {city.name} est ouverte plus bas — lisez les retours et partagez le vôtre.
+                </p>
+                <a
+                  href="#discussions"
+                  className="inline-flex items-center gap-1.5 rounded-xl bg-[var(--accent)] text-white px-5 py-2.5 text-sm font-semibold hover:bg-emerald-700 transition-colors"
+                >
+                  Aller aux témoignages →
+                </a>
+              </div>
+            </Card>
           </div>
         )}
 
@@ -549,7 +442,7 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                   { label: "Département", value: city.department ?? "—" },
                   { label: "Région", value: city.region ?? "—" },
                   { label: "Altitude", value: city.elevation ? `${city.elevation} m` : "—" },
-                  { label: "Jours de soleil / an", value: city.sunshinedays ? `${city.sunshinedays} jours` : "—" },
+                  { label: "Heures de soleil / an", value: city.sunshinedays ? `${city.sunshinedays} h` : "—" },
                   { label: "Temp. moyenne juillet", value: city.avgTempJuly ? `${city.avgTempJuly}°C` : "—" },
                   { label: "Temp. moyenne janvier", value: city.avgTempJanuary ? `${city.avgTempJanuary}°C` : "—" },
                   ...(housing ? [
@@ -651,7 +544,7 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
       </div>
 
       {/* Discussions */}
-      <div className="mx-auto max-w-5xl px-4 sm:px-6 pb-16">
+      <div id="discussions" className="mx-auto max-w-5xl px-4 sm:px-6 pb-16 scroll-mt-24">
         <CommentSection
           topic={`city:${city.slug}`}
           title={`Témoignages sur ${city.name}`}

@@ -73,7 +73,7 @@ export function RankingPreview() {
               Classements par style de vie
             </h2>
             <p className="mt-2 text-[var(--text-secondary)]">
-              Algorithme composite · mis à jour chaque semaine
+              Algorithme composite · données 2025
             </p>
           </div>
           <Link

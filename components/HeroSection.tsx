@@ -167,7 +167,7 @@ export function HeroSection() {
               <span className="relative inline-flex h-2 w-2 rounded-full bg-[var(--accent)]" />
             </span>
             <span className="font-medium text-[var(--text-secondary)]">
-              {`${CITIES_SEED.length}+ villes · 47 000+ avis vérifiés`}
+              {`${CITIES_SEED.length} villes · 8 axes de notation · 12 classements`}
             </span>
           </div>
         </FadeBlurIn>
@@ -284,10 +284,10 @@ export function HeroSection() {
           <div className="mt-12 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-xs text-[var(--text-tertiary)]">
             <span className="inline-flex items-center gap-1.5">
               <Star className="h-3.5 w-3.5 fill-[var(--accent-warm)] text-[var(--accent-warm)]" />
-              <span>4.8/5 · 12 000+ membres</span>
+              <span>Données ouvertes · 2025</span>
             </span>
             <span className="hidden sm:inline">·</span>
-            <span>Données INSEE 2025</span>
+            <span>Sources : Insee, Min. Intérieur, observatoires loyers</span>
             <span className="hidden sm:inline">·</span>
             <span>Indépendant — sans pub</span>
           </div>
