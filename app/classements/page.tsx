@@ -5,7 +5,7 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { CityCard } from "@/components/CityCard";
 import { Badge } from "@/components/ui/Badge";
 import Link from "next/link";
-import { Laptop, Home, TreePine, GraduationCap, Palmtree, ArrowRight, Wallet, Sun, Shield, Music, Bike, Building2 } from "lucide-react";
+import { Laptop, Home, TreePine, GraduationCap, Palmtree, ArrowRight, Wallet, Sun, Shield, Music, Bike, Building2, Heart } from "lucide-react";
 import type { City } from "@/lib/types";
 
 export const metadata: Metadata = {
@@ -149,6 +149,16 @@ const CATEGORIES = [
     bgColor: "bg-rose-400/5",
     desc: "Prix accessibles, rendement locatif, attractivité",
     scoreKey: "cost" as keyof (typeof CITIES_SEED)[number]["scores"],
+  },
+  {
+    slug: "sante",
+    label: "Santé & Soins",
+    icon: Heart,
+    color: "text-pink-400",
+    borderColor: "border-pink-400/20",
+    bgColor: "bg-pink-400/5",
+    desc: "Densité médicale, hôpitaux, qualité de l'air, bien-être",
+    scoreKey: "life" as keyof (typeof CITIES_SEED)[number]["scores"],
   },
 ];
 
