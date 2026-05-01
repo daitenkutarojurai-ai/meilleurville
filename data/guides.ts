@@ -6093,6 +6093,61 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["télétravail", "couple", "double télétravail", "coworking", "logement", "T3", "fibre", "remote work"],
   },
+  {
+    slug: "meilleures-villes-etudiantes-france-2026",
+    title: "Meilleures villes étudiantes en France — Le guide honnête 2026",
+    metaTitle: "Meilleures villes étudiantes France 2026 — Classement & Guide | MeilleurVille",
+    metaDesc:
+      "Loyer studio, vie nocturne, offre universitaire, transports : notre classement honnête des meilleures villes étudiantes françaises en 2026. Sans langue de bois.",
+    category: "budget",
+    emoji: "🎓",
+    readMinutes: 10,
+    publishedAt: "2026-05-01",
+    updatedAt: "2026-05-01",
+    intro:
+      "En 2026, 2,98 millions d'étudiants sont inscrits dans l'enseignement supérieur français (MESRI, données rentrée 2025-2026). Choisir sa ville d'études ne se limite pas à l'offre de formations : c'est une décision financière, sociale et de qualité de vie pour 3 à 5 ans. Loyer d'un studio, densité de l'offre culturelle et nocturne, réseau de transports, opportunités de jobs étudiants, ambiance de campus — ces critères pèsent autant que le rang de l'université dans les classements. Ce guide analyse sans filtre les meilleures villes pour étudier en France en 2026.",
+    sections: [
+      {
+        heading: "Les critères qui comptent vraiment pour un étudiant",
+        body: "Les classements généralistes mesurent la réputation académique — utile, mais insuffisant. Pour un étudiant qui vit dans la ville, les critères décisifs sont : (1) Le loyer médian d'un studio ou d'une chambre en résidence privée — donnée CLAMEUR et UNPI 2025 ; (2) La disponibilité du logement CROUS, qui réduit drastiquement le reste-à-charge ; (3) La praticabilité sans voiture — les étudiants ont rarement un budget voiture ; (4) Le tissu associatif, sportif et culturel, qui détermine la vie extra-académique ; (5) Les opportunités de jobs étudiants dans le bassin d'emploi local, indispensables quand la bourse ne couvre pas les charges. Un étudiant sur deux occupe un emploi salarié pendant ses études (INSEE, enquête emploi 2025).",
+      },
+      {
+        heading: "Rennes : le meilleur rapport qualité-prix de France",
+        body: "Score étudiant MeilleurVille : 8,8/10. Rennes réunit tous les critères : loyer médian studio à 480–560 €/mois (Observatoire CLAMEUR Bretagne, T4 2025), l'un des plus compétitifs pour une ville de cette taille et de cette offre. Université de Rennes (40 000 étudiants), Sciences Po Rennes, l'INSA, l'ENS Rennes — la diversité académique est réelle. La ville est cyclable à 90 % (Rennes Métropole Mobilités), ce qui supprime les frais de transport. La scène musicale (Trans Musicales, festival des Tombées de la Nuit) et la vie de quartier autour de la place Sainte-Anne créent une ambiance unique. Le taux de chômage reste bas (6,4 %, INSEE T3 2025), ce qui facilite les jobs étudiants.",
+      },
+      {
+        heading: "Toulouse : la capitale étudiante du Sud-Ouest",
+        body: "Score étudiant : 8,5/10. Toulouse accueille 130 000 étudiants — soit le plus grand campus universitaire de province. L'Université Paul-Sabatier, Sciences Po Toulouse, l'ISAE-SUPAERO, l'INP et une quarantaine de grandes écoles couvrent tous les domaines. Loyer médian studio : 500–600 €/mois (source : UNPI Haute-Garonne, 2025). La météo est un avantage concret : plus de 2 000 heures d'ensoleillement par an (Météo-France, normales 1991-2020) rendent la vie de campus agréable de septembre à juin. L'écosystème aéronautique (Airbus, CNES, Thales) génère massivement des stages et alternances bien rémunérés — un avantage décisif pour les filières ingénierie et numérique.",
+      },
+      {
+        heading: "Montpellier : l'expérience étudiante méditerranéenne",
+        body: "Score étudiant : 8,2/10. Montpellier est la ville universitaire française dont la population a le profil le plus jeune : les étudiants représentent plus de 20 % des habitants. La mer Méditerranée est à 12 km du centre — une donnée qui change la vie sociale. Loyer médian studio : 510–620 €/mois (ADIL Hérault, 2025). La tension locative est réelle (demande > offre) mais de nouvelles résidences étudiantes ont ouvert en 2024-2025 à Port-Marianne. La facette internationale de la ville (Université de Montpellier, fondée en 1289 — l'une des plus anciennes d'Europe) attire des étudiants du monde entier, ce qui enrichit l'expérience sociale. Le tramway dessert tous les campus et quartiers pour 38 €/mois avec la carte étudiant.",
+      },
+      {
+        heading: "Grenoble : le paradis des filières scientifiques",
+        body: "Score étudiant : 8,0/10. Grenoble est LA ville des ingénieurs et des scientifiques. Le CEA, Minatec, le Synchrotron, l'Université Grenoble Alpes et Grenoble INP concentrent une densité de recherche fondamentale et appliquée unique en France hors Paris. Loyer médian studio : 450–550 €/mois (CLAMEUR Auvergne-Rhône-Alpes). Les pistes de ski des Belledonne sont à 45 minutes — un atout de bien-être qui fait la différence lors des week-ends de révisions intenses. Le seul bénéfice manquant : la vie nocturne y est plus discrète que dans d'autres villes universitaires. L'ambiance est studieuse, ce qui convient à certains profils mais peut peser sur d'autres.",
+      },
+      {
+        heading: "Nantes : la ville étudiante qui ressemble le plus à la vraie vie",
+        body: "Score étudiant : 7,9/10. Nantes est souvent sous-estimée dans les classements étudiants parce qu'elle n'a pas de grande école de notoriété nationale autre que l'École Centrale. C'est précisément ce qui en fait une ville à taille humaine. Son université (40 000 inscrits), ses IUT et ses écoles de commerce et de design attirent des profils variés. Loyer médian studio : 530–640 €/mois (UNPI Loire-Atlantique). La scène culturelle (Royal de Luxe, Le Voyage à Nantes, La Cigale) est exceptionnelle pour une ville de cette taille. Les 45 minutes de mer (Pornic, Saint-Brévin) sont accessibles le week-end sans voiture via TER.",
+      },
+      {
+        heading: "Les villes underrated : Caen, Poitiers, Dijon",
+        body: "Trois villes moyennes universitaires offrent une expérience étudiante souvent supérieure à leur réputation : Caen (studios à 380–460 €/mois, Université de Caen 27 000 étudiants, D-Day mémorial pour les cursus histoire, plages normandes à 20 min), Poitiers (loyer studio 360–440 €/mois — parmi les plus bas de France pour une ville universitaire de cette taille, Futuroscope accessible, dynamisme de la French Tech Poitiers montante) et Dijon (400–500 €/mois, Université de Bourgogne, gastronomie et vignobles, TGV Paris en 1h40). Dans ces trois villes, un étudiant boursier échelon 5 (592 €/mois en 2026 selon le CNOUS) peut couvrir son loyer seul — chose impossible à Lyon ou Bordeaux. Source loyers : Observatoire CLAMEUR par région, données T4 2025.",
+      },
+      {
+        heading: "Ce que les classements ne vous disent pas : le vrai coût mensuel",
+        body: "Un budget étudiant réaliste inclut : loyer + charges (50–65 % du budget), alimentation (150–250 €/mois selon le recours au CROUS — 3,40 € le repas au restaurant universitaire en 2026), transports (abonnement étudiant 25–45 €/mois selon la ville), loisirs et sorties (50–150 €/mois), téléphone et internet (20–35 €/mois). Total hors loyer : 245 à 480 €/mois. Avec un studio à 500 €/mois, un étudiant a besoin d'environ 750 à 980 €/mois pour vivre correctement — bourse et APL incluses. À Caen ou Poitiers, ce seuil peut descendre à 600–700 €. À Bordeaux ou Nantes hypercentre, il peut dépasser 1 100 €. La ville choisie est la première variable d'ajustement du budget étudiant. Sources : CNOUS barème 2026, CROUS tarifs restauration, CAF simulateur APL.",
+      },
+    ],
+    relatedCities: ["rennes", "toulouse", "montpellier", "grenoble", "nantes", "caen", "poitiers", "dijon"],
+    relatedGuides: [
+      "budget-vivre-en-france-comparatif",
+      "meilleures-villes-achat-immobilier-moins-150000-euros-2025",
+      "quitter-paris-province-teletravail-guide-complet-2025",
+    ],
+    tags: ["étudiant", "université", "logement étudiant", "CROUS", "loyer studio", "vie étudiante", "budget", "campus"],
+  },
 ];
 
 export const GUIDE_CATEGORIES = [
