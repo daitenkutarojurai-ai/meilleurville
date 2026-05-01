@@ -42,7 +42,7 @@ export function NewsletterSection() {
         </p>
 
         {state === "success" ? (
-          <div className="flex items-center justify-center gap-2 text-emerald-400">
+          <div className="flex items-center justify-center gap-2 text-emerald-600">
             <CheckCircle className="h-5 w-5" />
             <span className="font-medium">Inscription confirmée — à bientôt !</span>
           </div>

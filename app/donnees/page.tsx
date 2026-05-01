@@ -97,9 +97,9 @@ const SOURCES = [
 ];
 
 const STATUS_CONFIG = {
-  live: { label: "Actif", color: "text-emerald-400 bg-emerald-400/10 border-emerald-400/20" },
+  live: { label: "Actif", color: "text-emerald-600 bg-emerald-500/10 border-emerald-400/20" },
   partial: { label: "Partiel", color: "text-amber-400 bg-amber-400/10 border-amber-400/20" },
-  coming: { label: "Bientôt", color: "text-blue-400 bg-blue-400/10 border-blue-400/20" },
+  coming: { label: "Bientôt", color: "text-blue-600 bg-blue-400/10 border-blue-400/20" },
 };
 
 const SCORE_CRITERIA = [

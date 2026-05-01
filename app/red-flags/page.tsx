@@ -17,7 +17,7 @@ const FLAG_CATEGORIES = [
     id: "bruit",
     label: "Bruit",
     icon: Volume2,
-    color: "text-orange-400",
+    color: "text-orange-600",
     bg: "bg-orange-400/10 border-orange-400/20",
     examples: ["Couloir aérien", "Autoroute proche", "Voie ferrée", "Bar / discothèque"],
     count: 412,
@@ -26,7 +26,7 @@ const FLAG_CATEGORIES = [
     id: "inondation",
     label: "Inondation & Eau",
     icon: Droplets,
-    color: "text-blue-400",
+    color: "text-blue-600",
     bg: "bg-blue-400/10 border-blue-400/20",
     examples: ["Zone inondable PPRi", "Sous-sol humide récurrent", "Cave inondée", "Ruissellement urbain"],
     count: 287,
@@ -35,7 +35,7 @@ const FLAG_CATEGORIES = [
     id: "pollution",
     label: "Pollution",
     icon: Wind,
-    color: "text-purple-400",
+    color: "text-purple-600",
     bg: "bg-purple-400/10 border-purple-400/20",
     examples: ["PM2.5 élevé", "Zone industrielle proche", "Site pollué BASIAS", "Pesticides agricoles"],
     count: 198,
@@ -44,8 +44,8 @@ const FLAG_CATEGORIES = [
     id: "securite",
     label: "Sécurité",
     icon: Shield,
-    color: "text-red-400",
-    bg: "bg-red-400/10 border-red-400/20",
+    color: "text-red-500",
+    bg: "bg-red-500/10 border-red-400/20",
     examples: ["Cambriolages fréquents", "Dégradations récurrentes", "Squat identifié", "Éclairage insuffisant"],
     count: 341,
   },
@@ -53,8 +53,8 @@ const FLAG_CATEGORIES = [
     id: "construction",
     label: "Construction & Chantier",
     icon: Flame,
-    color: "text-yellow-400",
-    bg: "bg-yellow-400/10 border-yellow-400/20",
+    color: "text-amber-500",
+    bg: "bg-amber-400/10 border-yellow-400/20",
     examples: ["Chantier ≥ 2 ans prévu", "Démolition programmée", "PLU modification", "Promoteur actif"],
     count: 156,
   },
@@ -62,8 +62,8 @@ const FLAG_CATEGORIES = [
     id: "infrastructure",
     label: "Infrastructures",
     icon: Zap,
-    color: "text-emerald-400",
-    bg: "bg-emerald-400/10 border-emerald-400/20",
+    color: "text-emerald-600",
+    bg: "bg-emerald-500/10 border-emerald-400/20",
     examples: ["Fibre non disponible", "Coupures électricité", "Réseau eau dégradé", "Route défoncée"],
     count: 89,
   },
@@ -86,10 +86,10 @@ function SeverityBar({ level }: { level: number }) {
           className={`h-2 w-4 rounded-sm ${
             i <= level
               ? level >= 4
-                ? "bg-red-400"
+                ? "bg-red-500"
                 : level >= 3
-                ? "bg-yellow-400"
-                : "bg-emerald-400"
+                ? "bg-amber-400"
+                : "bg-emerald-500"
               : "bg-[var(--bg-elevated)]"
           }`}
         />
@@ -109,7 +109,7 @@ export default function RedFlagsPage() {
       {/* Header */}
       <section className="bg-gradient-to-b from-red-950/20 to-[var(--bg-canvas)] border-b border-[var(--border)] py-14">
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
-          <div className="mb-3 inline-flex items-center gap-2 rounded-full border border-red-500/30 bg-red-500/10 px-4 py-1.5 text-sm text-red-400">
+          <div className="mb-3 inline-flex items-center gap-2 rounded-full border border-red-500/30 bg-red-500/10 px-4 py-1.5 text-sm text-red-500">
             <AlertTriangle className="h-3.5 w-3.5" />
             Red Flag Radar
           </div>
@@ -119,7 +119,7 @@ export default function RedFlagsPage() {
           <p className="max-w-2xl text-[var(--text-secondary)] text-lg">
             Les habitants signalent. L'IA agrège et vérifie. Vous êtes informé
             avant l'achat ou la signature du bail. Plus de{" "}
-            <span className="text-red-400 font-semibold">2 400 signalements</span>{" "}
+            <span className="text-red-500 font-semibold">2 400 signalements</span>{" "}
             vérifiés sur 850 villes.
           </p>
         </div>
@@ -129,9 +129,9 @@ export default function RedFlagsPage() {
         {/* Stats */}
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
           {[
-            { label: "Signalements actifs", value: "2 483", color: "text-red-400" },
+            { label: "Signalements actifs", value: "2 483", color: "text-red-500" },
             { label: "Villes couvertes", value: "312", color: "text-[var(--text-primary)]" },
-            { label: "Signalements confirmés", value: "78%", color: "text-emerald-400" },
+            { label: "Signalements confirmés", value: "78%", color: "text-emerald-600" },
             { label: "Utilisateurs contributeurs", value: "4 200+", color: "text-[var(--accent)]" },
           ].map(({ label, value, color }) => (
             <div key={label} className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5 text-center">
@@ -181,7 +181,7 @@ export default function RedFlagsPage() {
                 className="flex items-start gap-4 rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5"
               >
                 <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-xl bg-red-500/10 border border-red-500/20">
-                  <AlertTriangle className="h-5 w-5 text-red-400" />
+                  <AlertTriangle className="h-5 w-5 text-red-500" />
                 </div>
                 <div className="flex-1 min-w-0">
                   <div className="flex flex-wrap items-center gap-2 mb-1">
@@ -194,7 +194,7 @@ export default function RedFlagsPage() {
                   </p>
                   <div className="flex items-center gap-4">
                     <SeverityBar level={flag.severity} />
-                    <div className="flex items-center gap-1 text-xs text-emerald-400">
+                    <div className="flex items-center gap-1 text-xs text-emerald-600">
                       <Eye className="h-3 w-3" />
                       {flag.confirmed} confirmations
                     </div>
@@ -215,7 +215,7 @@ export default function RedFlagsPage() {
 
         {/* Contribute CTA */}
         <div className="rounded-3xl border border-red-500/20 bg-gradient-to-br from-red-950/20 via-[var(--bg-surface)] to-[var(--bg-elevated)] p-8 sm:p-10 text-center">
-          <AlertTriangle className="h-10 w-10 text-red-400 mx-auto mb-4" />
+          <AlertTriangle className="h-10 w-10 text-red-500 mx-auto mb-4" />
           <h2 className="text-2xl font-bold text-[var(--text-primary)] mb-3">
             Vous connaissez un problème non signalé ?
           </h2>
@@ -223,7 +223,7 @@ export default function RedFlagsPage() {
             Aidez des milliers de personnes à éviter une mauvaise surprise.
             Les signalements vérifiés par 3+ utilisateurs sont publiés.
           </p>
-          <button className="inline-flex items-center gap-2 rounded-xl bg-red-500/10 border border-red-500/30 text-red-400 px-6 py-3 font-semibold hover:bg-red-500/20 transition-colors">
+          <button className="inline-flex items-center gap-2 rounded-xl bg-red-500/10 border border-red-500/30 text-red-500 px-6 py-3 font-semibold hover:bg-red-500/20 transition-colors">
             <AlertTriangle className="h-4 w-4" />
             Signaler un problème
           </button>

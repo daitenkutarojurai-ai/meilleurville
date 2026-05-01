@@ -25,7 +25,7 @@ export function QuizShareButton({ results }: { results: MatchResult[] }) {
   return (
     <div className="flex items-center gap-2 flex-wrap justify-center">
       <Button variant="secondary" size="sm" onClick={copyLink} className="gap-2">
-        {copied ? <Check className="h-4 w-4 text-emerald-400" /> : <Share2 className="h-4 w-4" />}
+        {copied ? <Check className="h-4 w-4 text-emerald-600" /> : <Share2 className="h-4 w-4" />}
         {copied ? "Lien copié !" : "Partager mon résultat"}
       </Button>
       <Button variant="secondary" size="sm" onClick={shareOnTwitter} className="gap-2">

@@ -14,14 +14,14 @@ export function Badge({ children, variant = "default", className }: BadgeProps) 
         {
           "border-[var(--border)] bg-[var(--bg-elevated)] text-[var(--text-secondary)]":
             variant === "default",
-          "border-emerald-500/30 bg-emerald-500/10 text-emerald-400":
+          "border-emerald-200 bg-emerald-50 text-emerald-700":
             variant === "success",
-          "border-yellow-500/30 bg-yellow-500/10 text-yellow-400":
+          "border-amber-200 bg-amber-50 text-amber-700":
             variant === "warning",
-          "border-red-500/30 bg-red-500/10 text-red-400": variant === "danger",
-          "border-[var(--accent)]/30 bg-[var(--accent)]/10 text-[var(--accent)]":
+          "border-red-200 bg-red-50 text-red-700": variant === "danger",
+          "border-[var(--accent)]/30 bg-[var(--accent-soft)] text-[var(--accent)]":
             variant === "accent",
-          "border-transparent bg-white/5 text-[var(--text-secondary)]":
+          "border-transparent bg-[var(--bg-elevated)] text-[var(--text-secondary)]":
             variant === "subtle",
         },
         className

@@ -35,12 +35,12 @@ export function FeaturedCities() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <div className="mb-10 flex items-end justify-between">
           <div>
-            <Badge variant="success" className="mb-3">Top villes</Badge>
+            <Badge variant="success" className="mb-3">🏆 Coup de cœur</Badge>
             <h2 className="text-3xl font-bold text-[var(--text-primary)]">
-              Les villes les mieux notées
+              Les villes où on se sent bien
             </h2>
             <p className="mt-2 text-[var(--text-secondary)]">
-              Calculé sur 47 000+ avis · {CITIES_SEED.length} villes analysées
+              {`Élu par 47 000+ habitants — sur ${CITIES_SEED.length} villes passées au crible`}
             </p>
           </div>
           <Link

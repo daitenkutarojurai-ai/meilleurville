@@ -45,8 +45,8 @@ export function Footer() {
               </span>
             </Link>
             <p className="text-sm text-[var(--text-secondary)] leading-relaxed">
-              La référence française pour choisir où vivre. IA + avis authentiques
-              + données locales.
+              On vous aide à trouver votre coin idéal en France 🌿 Données vraies,
+              avis d&apos;habitants, zéro bullshit.
             </p>
           </div>
 
@@ -74,10 +74,10 @@ export function Footer() {
 
         <div className="border-t border-[var(--border)] pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-[var(--text-secondary)]">
-            © 2025 MeilleurVille · Fait avec passion en France 🇫🇷
+            © 2026 MeilleurVille · Fait avec amour en France 🌻
           </p>
           <p className="text-xs text-[var(--text-secondary)]">
-            Données Open Data · Avis communautaires · Powered by Claude IA
+            Open Data · Avis d&apos;habitants · Un peu d&apos;IA pour t&apos;aider à choisir
           </p>
         </div>
       </div>

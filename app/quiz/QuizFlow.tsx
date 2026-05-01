@@ -192,7 +192,7 @@ export function QuizFlow() {
     return (
       <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6">
         <div className="mb-10 text-center fade-in-up">
-          <div className="mb-4 inline-flex items-center gap-2 text-emerald-400">
+          <div className="mb-4 inline-flex items-center gap-2 text-emerald-600">
             <CheckCircle className="h-5 w-5" />
             <span className="font-semibold">Votre profil analysé</span>
           </div>
@@ -265,7 +265,7 @@ export function QuizFlow() {
                         <td className="px-4 py-3 text-[var(--text-secondary)]">{label}</td>
                         {vals.map((v, i) => (
                           <td key={i} className="px-4 py-3 text-center">
-                            <span className={`font-bold font-mono-data ${v === maxVal ? "text-emerald-400" : "text-[var(--text-primary)]"}`}>
+                            <span className={`font-bold font-mono-data ${v === maxVal ? "text-emerald-600" : "text-[var(--text-primary)]"}`}>
                               {v.toFixed(1)}
                             </span>
                           </td>

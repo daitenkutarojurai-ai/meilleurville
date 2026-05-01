@@ -21,7 +21,7 @@ const SCORE_ROWS: Array<{ key: keyof CitySeed["scores"]; label: string; emoji: s
   { key: "schools", label: "Écoles", emoji: "🏫" },
 ];
 
-const CITY_COLORS = ["text-blue-400", "text-violet-400", "text-amber-400"];
+const CITY_COLORS = ["text-blue-600", "text-violet-400", "text-amber-400"];
 const CITY_BG = ["bg-blue-400/10 border-blue-400/20", "bg-violet-400/10 border-violet-400/20", "bg-amber-400/10 border-amber-400/20"];
 
 function CityPicker({
@@ -237,9 +237,9 @@ export function CompareTool() {
                                 className={cn(
                                   "font-bold font-mono-data text-sm",
                                   selected.length >= 2 && city.scores[key] === maxVal
-                                    ? "text-emerald-400"
+                                    ? "text-emerald-600"
                                     : selected.length >= 2 && city.scores[key] === minVal && vals.length > 1
-                                    ? "text-red-400"
+                                    ? "text-red-500"
                                     : scoreColor(city.scores[key])
                                 )}
                               >
@@ -251,7 +251,7 @@ export function CompareTool() {
                       )}
                       {selected.length >= 2 && (
                         <td className="px-6 py-4 text-right">
-                          <span className="text-xs font-medium text-emerald-400">
+                          <span className="text-xs font-medium text-emerald-600">
                             {selected.find((c) => c.scores[key] === maxVal)?.name}
                           </span>
                         </td>
@@ -283,7 +283,7 @@ export function CompareTool() {
                           return c.scores[key] === Math.max(...vals);
                         }).length
                       ))
-                        ? "border-emerald-400/30 bg-emerald-400/5"
+                        ? "border-emerald-400/30 bg-emerald-500/5"
                         : "border-[var(--border)] bg-[var(--bg-surface)]"
                     )}
                   >

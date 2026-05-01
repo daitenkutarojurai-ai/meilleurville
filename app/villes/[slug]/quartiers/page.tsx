@@ -34,18 +34,18 @@ const TYPE_LABELS: Record<string, string> = {
 };
 
 const TYPE_COLORS: Record<string, string> = {
-  "centre-ville": "text-blue-400 bg-blue-400/10 border-blue-400/20",
-  résidentiel: "text-emerald-400 bg-emerald-400/10 border-emerald-400/20",
+  "centre-ville": "text-blue-600 bg-blue-400/10 border-blue-400/20",
+  résidentiel: "text-emerald-600 bg-emerald-500/10 border-emerald-400/20",
   étudiant: "text-violet-400 bg-violet-400/10 border-violet-400/20",
   branché: "text-pink-400 bg-pink-400/10 border-pink-400/20",
-  populaire: "text-orange-400 bg-orange-400/10 border-orange-400/20",
+  populaire: "text-orange-600 bg-orange-400/10 border-orange-400/20",
   pavillonnaire: "text-amber-400 bg-amber-400/10 border-amber-400/20",
 };
 
 function scoreColor(s: number) {
-  if (s >= 8) return "text-emerald-400";
+  if (s >= 8) return "text-emerald-600";
   if (s >= 6) return "text-amber-400";
-  return "text-red-400";
+  return "text-red-500";
 }
 
 const SCORE_KEYS: Array<{ key: "safety" | "transport" | "nature" | "cost" | "nightlife"; label: string }> = [
@@ -200,7 +200,7 @@ export default async function QuartiersPage({ params }: Props) {
                             <td className="px-5 py-3 text-xs text-[var(--text-secondary)]">{label}</td>
                             {vals.map((v, i) => (
                               <td key={i} className="px-4 py-3 text-center">
-                                <span className={`font-bold font-mono-data text-xs ${v === best ? "text-emerald-400" : scoreColor(v)}`}>{v.toFixed(1)}</span>
+                                <span className={`font-bold font-mono-data text-xs ${v === best ? "text-emerald-600" : scoreColor(v)}`}>{v.toFixed(1)}</span>
                               </td>
                             ))}
                           </tr>
@@ -212,7 +212,7 @@ export default async function QuartiersPage({ params }: Props) {
                           const cheapest = Math.min(...neighborhoods.map((x) => x.avgRentT2));
                           return (
                             <td key={n.slug} className="px-4 py-3 text-center">
-                              <span className={`font-bold text-xs ${n.avgRentT2 === cheapest ? "text-emerald-400" : "text-[var(--text-primary)]"}`}>{n.avgRentT2}€</span>
+                              <span className={`font-bold text-xs ${n.avgRentT2 === cheapest ? "text-emerald-600" : "text-[var(--text-primary)]"}`}>{n.avgRentT2}€</span>
                             </td>
                           );
                         })}

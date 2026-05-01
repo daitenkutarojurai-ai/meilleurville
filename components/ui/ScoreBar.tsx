@@ -29,7 +29,7 @@ export function ScoreBar({ label, score, max = 10, className }: ScoreBarProps) {
 
   const pct = Math.min(100, (score / max) * 100);
   const color =
-    score >= 8 ? "bg-emerald-400" : score >= 6 ? "bg-yellow-400" : "bg-red-400";
+    score >= 8 ? "bg-emerald-500" : score >= 6 ? "bg-amber-400" : "bg-red-500";
 
   return (
     <div ref={ref} className={cn("space-y-1.5", className)}>

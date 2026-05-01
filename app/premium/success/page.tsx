@@ -20,8 +20,8 @@ export default function PremiumSuccessPage() {
     <main className="min-h-screen">
       <Navbar />
       <div className="flex min-h-[80vh] flex-col items-center justify-center px-4 py-20 text-center">
-        <div className="mb-6 flex h-20 w-20 items-center justify-center rounded-full bg-emerald-400/10 border-2 border-emerald-400/30">
-          <CheckCircle className="h-10 w-10 text-emerald-400" />
+        <div className="mb-6 flex h-20 w-20 items-center justify-center rounded-full bg-emerald-500/10 border-2 border-emerald-400/30">
+          <CheckCircle className="h-10 w-10 text-emerald-600" />
         </div>
         <div className="mb-2 inline-flex items-center gap-2 rounded-full border border-[var(--accent)]/30 bg-[var(--accent)]/10 px-4 py-1.5 text-sm text-[var(--accent)]">
           <Sparkles className="h-3.5 w-3.5" />

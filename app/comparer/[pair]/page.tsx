@@ -792,9 +792,9 @@ export default async function PairPage({ params }: Props) {
 
         {/* Winner verdict */}
         {winner && (
-          <div className="rounded-2xl border border-emerald-400/30 bg-emerald-400/5 p-6 text-center">
+          <div className="rounded-2xl border border-emerald-400/30 bg-emerald-500/5 p-6 text-center">
             <p className="text-sm text-[var(--text-secondary)] mb-1">Recommandé par MeilleurVille</p>
-            <p className="text-xl font-bold text-emerald-400">
+            <p className="text-xl font-bold text-emerald-600">
               {winner.name} l'emporte sur {SCORE_ROWS.length - Math.min(winsA, winsB)} critères
             </p>
             <p className="text-xs text-[var(--text-secondary)] mt-1">
@@ -816,19 +816,19 @@ export default async function PairPage({ params }: Props) {
               return (
                 <div key={key}>
                   <div className="flex justify-between text-xs text-[var(--text-secondary)] mb-2">
-                    <span className={diff > 0 ? "font-bold text-emerald-400" : ""}>{seedA.name}</span>
+                    <span className={diff > 0 ? "font-bold text-emerald-600" : ""}>{seedA.name}</span>
                     <span className="font-medium text-[var(--text-primary)]">{label}</span>
-                    <span className={diff < 0 ? "font-bold text-emerald-400" : ""}>{seedB.name}</span>
+                    <span className={diff < 0 ? "font-bold text-emerald-600" : ""}>{seedB.name}</span>
                   </div>
                   <div className="flex items-center gap-3">
-                    <span className={`w-8 text-right text-sm font-bold font-mono-data ${diff > 0 ? "text-emerald-400" : "text-[var(--text-secondary)]"}`}>
+                    <span className={`w-8 text-right text-sm font-bold font-mono-data ${diff > 0 ? "text-emerald-600" : "text-[var(--text-secondary)]"}`}>
                       {va.toFixed(1)}
                     </span>
                     <div className="flex-1 flex gap-1">
                       {/* A bar — right-aligned */}
                       <div className="flex-1 flex justify-end">
                         <div
-                          className={`h-2 rounded-l-full ${diff > 0 ? "bg-emerald-400" : "bg-[var(--bg-elevated)]"}`}
+                          className={`h-2 rounded-l-full ${diff > 0 ? "bg-emerald-500" : "bg-[var(--bg-elevated)]"}`}
                           style={{ width: `${(va / 10) * 100}%` }}
                         />
                       </div>
@@ -836,12 +836,12 @@ export default async function PairPage({ params }: Props) {
                       {/* B bar — left-aligned */}
                       <div className="flex-1">
                         <div
-                          className={`h-2 rounded-r-full ${diff < 0 ? "bg-emerald-400" : "bg-[var(--bg-elevated)]"}`}
+                          className={`h-2 rounded-r-full ${diff < 0 ? "bg-emerald-500" : "bg-[var(--bg-elevated)]"}`}
                           style={{ width: `${(vb / 10) * 100}%` }}
                         />
                       </div>
                     </div>
-                    <span className={`w-8 text-sm font-bold font-mono-data ${diff < 0 ? "text-emerald-400" : "text-[var(--text-secondary)]"}`}>
+                    <span className={`w-8 text-sm font-bold font-mono-data ${diff < 0 ? "text-emerald-600" : "text-[var(--text-secondary)]"}`}>
                       {vb.toFixed(1)}
                     </span>
                   </div>
@@ -856,7 +856,7 @@ export default async function PairPage({ params }: Props) {
           <h2 className="text-base font-semibold text-[var(--text-primary)] mb-4">Climat</h2>
           <div className="grid grid-cols-3 gap-4 text-center text-sm">
             <div />
-            <div className="font-semibold text-blue-400">{seedA.name}</div>
+            <div className="font-semibold text-blue-600">{seedA.name}</div>
             <div className="font-semibold text-violet-400">{seedB.name}</div>
             {[
               { label: "Soleil / an", a: seedA.sunshinedays ? `${seedA.sunshinedays}j` : "—", b: seedB.sunshinedays ? `${seedB.sunshinedays}j` : "—" },
@@ -878,7 +878,7 @@ export default async function PairPage({ params }: Props) {
             <h2 className="text-base font-semibold text-[var(--text-primary)] mb-4">Immobilier & Loyers</h2>
             <div className="grid grid-cols-3 gap-4 text-center text-sm">
               <div />
-              <div className="font-semibold text-blue-400">{seedA.name}</div>
+              <div className="font-semibold text-blue-600">{seedA.name}</div>
               <div className="font-semibold text-violet-400">{seedB.name}</div>
               {[
                 { label: "Loyer T1 / mois", a: getHousing(slugA)?.avgRentT1, b: getHousing(slugB)?.avgRentT1, unit: "€" },
@@ -890,10 +890,10 @@ export default async function PairPage({ params }: Props) {
                 return (
                   <React.Fragment key={label}>
                     <div className="text-xs text-[var(--text-secondary)] text-left">{label}</div>
-                    <div className={`font-mono-data font-bold ${cheaper === "a" ? "text-emerald-400" : "text-[var(--text-primary)]"}`}>
+                    <div className={`font-mono-data font-bold ${cheaper === "a" ? "text-emerald-600" : "text-[var(--text-primary)]"}`}>
                       {a ? `${a.toLocaleString("fr-FR")} ${unit}` : "—"}
                     </div>
-                    <div className={`font-mono-data font-bold ${cheaper === "b" ? "text-emerald-400" : "text-[var(--text-primary)]"}`}>
+                    <div className={`font-mono-data font-bold ${cheaper === "b" ? "text-emerald-600" : "text-[var(--text-primary)]"}`}>
                       {b ? `${b.toLocaleString("fr-FR")} ${unit}` : "—"}
                     </div>
                   </React.Fragment>
@@ -926,7 +926,7 @@ export default async function PairPage({ params }: Props) {
                   <p className="text-xs text-[var(--text-tertiary)] mb-2">{desc}</p>
                   {profileWinner ? (
                     <div className="flex items-center gap-1.5">
-                      <span className="text-sm font-bold text-emerald-400">{profileWinner.name}</span>
+                      <span className="text-sm font-bold text-emerald-600">{profileWinner.name}</span>
                       <span className="text-xs text-[var(--text-tertiary)]">+{diff.toFixed(1)} pts</span>
                     </div>
                   ) : (

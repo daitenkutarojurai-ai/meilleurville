@@ -15,7 +15,7 @@ interface CityCardProps {
 export function CityCard({ city, rank, delta, className }: CityCardProps) {
   const score = city.scores.global;
   const scoreColor =
-    score >= 8 ? "text-emerald-400" : score >= 6 ? "text-yellow-400" : "text-red-400";
+    score >= 8 ? "text-emerald-600" : score >= 6 ? "text-amber-500" : "text-red-500";
 
   return (
     <Link href={`/villes/${city.slug}`}>
@@ -56,7 +56,7 @@ export function CityCard({ city, rank, delta, className }: CityCardProps) {
           </div>
           <div className="flex flex-col gap-0.5">
             <div className="flex items-center gap-1">
-              <Star className="h-3 w-3 fill-yellow-400 text-yellow-400" />
+              <Star className="h-3 w-3 fill-yellow-400 text-amber-500" />
               <span className="text-xs text-[var(--text-secondary)]">
                 {city.reviewCount} avis
               </span>
@@ -65,7 +65,7 @@ export function CityCard({ city, rank, delta, className }: CityCardProps) {
               <div
                 className={cn(
                   "flex items-center gap-0.5 text-xs font-medium",
-                  delta > 0 ? "text-emerald-400" : "text-red-400"
+                  delta > 0 ? "text-emerald-600" : "text-red-500"
                 )}
               >
                 <TrendingUp className={cn("h-3 w-3", delta < 0 && "rotate-180")} />

@@ -32,7 +32,7 @@ const MY_REVIEWS = [
 
 const BADGE_LEVELS = [
   { level: "Explorateur", minPoints: 0, color: "text-slate-400 border-slate-600" },
-  { level: "Cartographe", minPoints: 100, color: "text-blue-400 border-blue-600" },
+  { level: "Cartographe", minPoints: 100, color: "text-blue-600 border-blue-600" },
   { level: "Ambassadeur", minPoints: 500, color: "text-violet-400 border-violet-600" },
   { level: "Légende", minPoints: 2000, color: "text-amber-400 border-amber-600" },
 ];
@@ -100,7 +100,7 @@ export default function DashboardPage() {
             <section>
               <div className="flex items-center justify-between mb-4">
                 <div className="flex items-center gap-2">
-                  <Heart className="h-4 w-4 text-red-400" />
+                  <Heart className="h-4 w-4 text-red-500" />
                   <h2 className="font-semibold text-[var(--text-primary)]">
                     Villes sauvegardées
                   </h2>
@@ -120,11 +120,11 @@ export default function DashboardPage() {
                           {c.name}
                         </span>
                       </div>
-                      <div className="text-2xl font-bold font-mono-data text-emerald-400 mb-1">
+                      <div className="text-2xl font-bold font-mono-data text-emerald-600 mb-1">
                         {c.scores.global.toFixed(1)}
                       </div>
                       <p className="text-xs text-[var(--text-secondary)]">{c.region}</p>
-                      <div className="mt-2 flex items-center gap-1 text-xs text-yellow-400">
+                      <div className="mt-2 flex items-center gap-1 text-xs text-amber-500">
                         <Bell className="h-3 w-3" />
                         <span className="text-[var(--text-secondary)]">Alertes activées</span>
                       </div>
@@ -138,7 +138,7 @@ export default function DashboardPage() {
             <section>
               <div className="flex items-center justify-between mb-4">
                 <div className="flex items-center gap-2">
-                  <Star className="h-4 w-4 text-yellow-400" />
+                  <Star className="h-4 w-4 text-amber-500" />
                   <h2 className="font-semibold text-[var(--text-primary)]">Mes avis</h2>
                   <Badge variant="subtle">{MY_REVIEWS.length}</Badge>
                 </div>
@@ -157,7 +157,7 @@ export default function DashboardPage() {
                         </span>
                       </div>
                       <div className="flex items-center gap-1">
-                        <Star className="h-3.5 w-3.5 fill-yellow-400 text-yellow-400" />
+                        <Star className="h-3.5 w-3.5 fill-yellow-400 text-amber-500" />
                         <span className="text-sm font-bold font-mono-data text-[var(--text-primary)]">
                           {r.score}/10
                         </span>
@@ -168,7 +168,7 @@ export default function DashboardPage() {
                     </p>
                     <div className="flex items-center justify-between text-xs text-[var(--text-secondary)]">
                       <span>{new Date(r.date).toLocaleDateString("fr-FR")}</span>
-                      <span className="text-emerald-400">👍 {r.votes} utile</span>
+                      <span className="text-emerald-600">👍 {r.votes} utile</span>
                     </div>
                   </div>
                 ))}
@@ -188,9 +188,9 @@ export default function DashboardPage() {
               </h3>
               <div className="space-y-3">
                 {[
-                  { icon: Star, label: "Avis rédigés", value: MY_REVIEWS.length, color: "text-yellow-400" },
-                  { icon: TrendingUp, label: "Votes utiles reçus", value: 34, color: "text-emerald-400" },
-                  { icon: Heart, label: "Villes sauvegardées", value: SAVED_CITIES.length, color: "text-red-400" },
+                  { icon: Star, label: "Avis rédigés", value: MY_REVIEWS.length, color: "text-amber-500" },
+                  { icon: TrendingUp, label: "Votes utiles reçus", value: 34, color: "text-emerald-600" },
+                  { icon: Heart, label: "Villes sauvegardées", value: SAVED_CITIES.length, color: "text-red-500" },
                   { icon: Trophy, label: "Points de contribution", value: userPoints, color: "text-[var(--accent)]" },
                 ].map(({ icon: Icon, label, value, color }) => (
                   <div key={label} className="flex items-center gap-3">

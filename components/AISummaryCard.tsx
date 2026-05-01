@@ -72,8 +72,8 @@ export function AISummaryCard({ citySlug, cityName }: Props) {
         {/* Strengths */}
         <div>
           <div className="flex items-center gap-1.5 mb-1.5">
-            <CheckCircle className="h-3.5 w-3.5 text-emerald-400" />
-            <span className="text-xs font-semibold text-emerald-400">Points forts</span>
+            <CheckCircle className="h-3.5 w-3.5 text-emerald-600" />
+            <span className="text-xs font-semibold text-emerald-600">Points forts</span>
           </div>
           <p className="text-xs text-[var(--text-secondary)] leading-relaxed">{data.strengths}</p>
         </div>
@@ -81,8 +81,8 @@ export function AISummaryCard({ citySlug, cityName }: Props) {
         {/* Weaknesses */}
         <div>
           <div className="flex items-center gap-1.5 mb-1.5">
-            <XCircle className="h-3.5 w-3.5 text-red-400" />
-            <span className="text-xs font-semibold text-red-400">Points faibles</span>
+            <XCircle className="h-3.5 w-3.5 text-red-500" />
+            <span className="text-xs font-semibold text-red-500">Points faibles</span>
           </div>
           <p className="text-xs text-[var(--text-secondary)] leading-relaxed">{data.weaknesses}</p>
         </div>
@@ -90,22 +90,22 @@ export function AISummaryCard({ citySlug, cityName }: Props) {
         {/* Best for */}
         <div className="grid grid-cols-2 gap-2">
           <div>
-            <p className="text-[10px] text-emerald-400 font-medium mb-1.5">Idéal pour</p>
+            <p className="text-[10px] text-emerald-600 font-medium mb-1.5">Idéal pour</p>
             <div className="space-y-1">
               {data.bestFor.map((p) => (
                 <div key={p} className="flex items-center gap-1 text-xs text-[var(--text-secondary)]">
-                  <ChevronRight className="h-2.5 w-2.5 text-emerald-400 flex-shrink-0" />
+                  <ChevronRight className="h-2.5 w-2.5 text-emerald-600 flex-shrink-0" />
                   {p}
                 </div>
               ))}
             </div>
           </div>
           <div>
-            <p className="text-[10px] text-red-400 font-medium mb-1.5">Moins adapté</p>
+            <p className="text-[10px] text-red-500 font-medium mb-1.5">Moins adapté</p>
             <div className="space-y-1">
               {data.notIdealFor.map((p) => (
                 <div key={p} className="flex items-center gap-1 text-xs text-[var(--text-secondary)]">
-                  <ChevronRight className="h-2.5 w-2.5 text-red-400 flex-shrink-0" />
+                  <ChevronRight className="h-2.5 w-2.5 text-red-500 flex-shrink-0" />
                   {p}
                 </div>
               ))}

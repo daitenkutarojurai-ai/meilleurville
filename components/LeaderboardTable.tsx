@@ -22,9 +22,9 @@ const CRITERIA = [
 type SortKey = "global" | keyof (typeof CITIES_SEED)[number]["scores"];
 
 function scoreClass(s: number) {
-  if (s >= 8) return "text-emerald-400";
+  if (s >= 8) return "text-emerald-600";
   if (s >= 6) return "text-amber-400";
-  return "text-red-400";
+  return "text-red-500";
 }
 
 export function LeaderboardTable() {

@@ -17,10 +17,10 @@ function SeverityDots({ level }: { level: number }) {
           className={`h-1.5 w-1.5 rounded-full ${
             i <= level
               ? level >= 4
-                ? "bg-red-400"
+                ? "bg-red-500"
                 : level >= 3
-                ? "bg-yellow-400"
-                : "bg-emerald-400"
+                ? "bg-amber-400"
+                : "bg-emerald-500"
               : "bg-[var(--bg-elevated)]"
           }`}
         />
@@ -36,13 +36,13 @@ export function RedFlagTeaser() {
         <div className="grid gap-12 lg:grid-cols-2 items-center">
           {/* Left: copy */}
           <div>
-            <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-red-500/30 bg-red-500/10 px-4 py-1.5 text-sm text-red-400">
+            <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-red-500/30 bg-red-500/10 px-4 py-1.5 text-sm text-red-500">
               <AlertTriangle className="h-3.5 w-3.5" />
               Red Flag Radar
             </div>
             <h2 className="mb-4 text-3xl lg:text-4xl font-bold text-[var(--text-primary)] leading-tight">
               Ce que l'annonce immobilière{" "}
-              <span className="text-red-400">ne vous dira jamais.</span>
+              <span className="text-red-500">ne vous dira jamais.</span>
             </h2>
             <p className="mb-8 text-[var(--text-secondary)] leading-relaxed text-lg">
               Les habitants signalent. L'IA agrège. Vous êtes informé.
@@ -51,7 +51,7 @@ export function RedFlagTeaser() {
             </p>
             <Link
               href="/red-flags"
-              className="inline-flex items-center gap-2 text-red-400 font-semibold hover:underline"
+              className="inline-flex items-center gap-2 text-red-500 font-semibold hover:underline"
             >
               Explorer le Red Flag Radar
               <ArrowRight className="h-4 w-4" />
@@ -66,7 +66,7 @@ export function RedFlagTeaser() {
                 className="flex items-center gap-4 rounded-2xl border border-[var(--border)] bg-[var(--bg-canvas)] p-4"
               >
                 <div className="flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-xl bg-red-500/10 border border-red-500/20">
-                  <Icon className="h-4 w-4 text-red-400" />
+                  <Icon className="h-4 w-4 text-red-500" />
                 </div>
                 <div className="flex-1 min-w-0">
                   <div className="text-sm font-medium text-[var(--text-primary)] truncate">

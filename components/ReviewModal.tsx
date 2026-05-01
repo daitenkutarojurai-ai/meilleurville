@@ -55,10 +55,10 @@ function StarRating({
               "h-6 w-6 rounded text-xs font-bold font-mono-data transition-all cursor-pointer",
               n <= (hovered || value)
                 ? value >= 8 || hovered >= 8
-                  ? "bg-emerald-400 text-black"
+                  ? "bg-emerald-500 text-black"
                   : value >= 6 || hovered >= 6
-                  ? "bg-yellow-400 text-black"
-                  : "bg-red-400 text-black"
+                  ? "bg-amber-400 text-black"
+                  : "bg-red-500 text-black"
                 : "bg-[var(--bg-elevated)] text-[var(--text-secondary)]"
             )}
           >
@@ -145,8 +145,8 @@ export function ReviewModal({ citySlug, cityName, onClose }: ReviewModalProps) {
 
         {step === "success" ? (
           <div className="flex flex-col items-center gap-4 px-6 py-12 text-center">
-            <div className="flex h-16 w-16 items-center justify-center rounded-full bg-emerald-400/10 border border-emerald-400/30">
-              <CheckCircle className="h-8 w-8 text-emerald-400" />
+            <div className="flex h-16 w-16 items-center justify-center rounded-full bg-emerald-500/10 border border-emerald-400/30">
+              <CheckCircle className="h-8 w-8 text-emerald-600" />
             </div>
             <h3 className="text-xl font-bold text-[var(--text-primary)]">
               Merci pour votre avis !
@@ -225,7 +225,7 @@ export function ReviewModal({ citySlug, cityName, onClose }: ReviewModalProps) {
                 <label className="text-sm font-semibold text-[var(--text-primary)]">
                   Votre avis *
                 </label>
-                <span className={cn("text-xs", body.length < 50 ? "text-[var(--text-secondary)]" : "text-emerald-400")}>
+                <span className={cn("text-xs", body.length < 50 ? "text-[var(--text-secondary)]" : "text-emerald-600")}>
                   {body.length}/2000 (min. 50)
                 </span>
               </div>
@@ -241,7 +241,7 @@ export function ReviewModal({ citySlug, cityName, onClose }: ReviewModalProps) {
             {/* Pros / Cons */}
             <div className="grid grid-cols-2 gap-3">
               <div>
-                <label className="text-xs text-emerald-400 font-medium block mb-1.5">
+                <label className="text-xs text-emerald-600 font-medium block mb-1.5">
                   ✓ Points positifs
                 </label>
                 <input
@@ -250,11 +250,11 @@ export function ReviewModal({ citySlug, cityName, onClose }: ReviewModalProps) {
                   onChange={(e) => setPros(e.target.value)}
                   placeholder="Nature, transports..."
                   maxLength={300}
-                  className="w-full rounded-xl border border-emerald-400/20 bg-emerald-400/5 px-3 py-2 text-sm text-[var(--text-primary)] placeholder:text-[var(--text-secondary)] outline-none focus:border-emerald-400/40 transition-colors"
+                  className="w-full rounded-xl border border-emerald-400/20 bg-emerald-500/5 px-3 py-2 text-sm text-[var(--text-primary)] placeholder:text-[var(--text-secondary)] outline-none focus:border-emerald-400/40 transition-colors"
                 />
               </div>
               <div>
-                <label className="text-xs text-red-400 font-medium block mb-1.5">
+                <label className="text-xs text-red-500 font-medium block mb-1.5">
                   ✗ Points négatifs
                 </label>
                 <input
@@ -263,7 +263,7 @@ export function ReviewModal({ citySlug, cityName, onClose }: ReviewModalProps) {
                   onChange={(e) => setCons(e.target.value)}
                   placeholder="Trafic, prix..."
                   maxLength={300}
-                  className="w-full rounded-xl border border-red-400/20 bg-red-400/5 px-3 py-2 text-sm text-[var(--text-primary)] placeholder:text-[var(--text-secondary)] outline-none focus:border-red-400/40 transition-colors"
+                  className="w-full rounded-xl border border-red-400/20 bg-red-500/5 px-3 py-2 text-sm text-[var(--text-primary)] placeholder:text-[var(--text-secondary)] outline-none focus:border-red-400/40 transition-colors"
                 />
               </div>
             </div>
@@ -294,7 +294,7 @@ export function ReviewModal({ citySlug, cityName, onClose }: ReviewModalProps) {
 
             {/* Error */}
             {error && (
-              <p className="rounded-xl border border-red-400/30 bg-red-400/5 px-4 py-3 text-sm text-red-400">
+              <p className="rounded-xl border border-red-400/30 bg-red-500/5 px-4 py-3 text-sm text-red-500">
                 {error}
               </p>
             )}

@@ -206,12 +206,12 @@ export default async function RankingPage({ params }: Props) {
                         {entry.delta === 0 ? (
                           <Minus className="ml-auto h-3.5 w-3.5 text-[var(--text-secondary)]" />
                         ) : entry.delta > 0 ? (
-                          <div className="flex items-center justify-end gap-0.5 text-emerald-400 text-xs">
+                          <div className="flex items-center justify-end gap-0.5 text-emerald-600 text-xs">
                             <TrendingUp className="h-3.5 w-3.5" />
                             {entry.delta}
                           </div>
                         ) : (
-                          <div className="flex items-center justify-end gap-0.5 text-red-400 text-xs">
+                          <div className="flex items-center justify-end gap-0.5 text-red-500 text-xs">
                             <TrendingDown className="h-3.5 w-3.5" />
                             {Math.abs(entry.delta)}
                           </div>
@@ -244,7 +244,7 @@ export default async function RankingPage({ params }: Props) {
                   key={item}
                   className="flex items-start gap-2 text-xs text-[var(--text-secondary)]"
                 >
-                  <CheckCircle className="mt-0.5 h-3.5 w-3.5 flex-shrink-0 text-emerald-400" />
+                  <CheckCircle className="mt-0.5 h-3.5 w-3.5 flex-shrink-0 text-emerald-600" />
                   {item}
                 </div>
               ))}

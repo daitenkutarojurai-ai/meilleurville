@@ -124,7 +124,7 @@ export default function PremiumPage() {
               </div>
               <div className="text-[var(--text-secondary)] text-sm mt-1">par mois · sans engagement</div>
             </div>
-            <div className="my-6 rounded-xl border border-emerald-400/30 bg-emerald-400/5 p-3 text-center text-sm text-emerald-400">
+            <div className="my-6 rounded-xl border border-emerald-400/30 bg-emerald-500/5 p-3 text-center text-sm text-emerald-600">
               🎁 7 jours d'essai gratuit — aucune carte requise
             </div>
             <PremiumCheckout />

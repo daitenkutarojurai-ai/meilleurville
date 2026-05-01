@@ -118,7 +118,7 @@ export function CostCalculator() {
                 </div>
               </div>
               <div className="flex items-center gap-2 flex-shrink-0">
-                <div className={cn("text-right", positive ? "text-emerald-400" : "text-red-400")}>
+                <div className={cn("text-right", positive ? "text-emerald-600" : "text-red-500")}>
                   <div className="text-sm font-bold font-mono-data">
                     {positive ? "+" : ""}{totalMonthlySavings}€/mois
                   </div>
@@ -127,9 +127,9 @@ export function CostCalculator() {
                   </div>
                 </div>
                 {positive ? (
-                  <TrendingDown className="h-4 w-4 text-emerald-400 flex-shrink-0" />
+                  <TrendingDown className="h-4 w-4 text-emerald-600 flex-shrink-0" />
                 ) : (
-                  <TrendingUp className="h-4 w-4 text-red-400 flex-shrink-0" />
+                  <TrendingUp className="h-4 w-4 text-red-500 flex-shrink-0" />
                 )}
               </div>
             </Link>

@@ -68,7 +68,7 @@ export function PremiumCheckout() {
         )}
       </Button>
       {error && (
-        <p className="text-xs text-red-400 text-center">{error}</p>
+        <p className="text-xs text-red-500 text-center">{error}</p>
       )}
       <p className="text-[10px] text-center text-[var(--text-secondary)]">
         Paiement sécurisé Stripe · SSL

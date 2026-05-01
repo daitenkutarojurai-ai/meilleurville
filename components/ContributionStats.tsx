@@ -21,7 +21,7 @@ const TOP_CONTRIBUTORS = [
 const BADGE_COLORS: Record<string, string> = {
   Légende: "text-amber-400 bg-amber-400/10 border-amber-400/20",
   Ambassadeur: "text-violet-400 bg-violet-400/10 border-violet-400/20",
-  Cartographe: "text-blue-400 bg-blue-400/10 border-blue-400/20",
+  Cartographe: "text-blue-600 bg-blue-400/10 border-blue-400/20",
   Explorateur: "text-slate-400 bg-slate-400/10 border-slate-400/20",
 };
 
@@ -63,7 +63,7 @@ export function ContributionStats() {
           {RECENT_CONTRIBUTIONS.map((c, i) => (
             <div key={i} className="flex items-start gap-2.5">
               <div className={`mt-0.5 flex-shrink-0 w-6 h-6 rounded-full flex items-center justify-center text-xs ${
-                c.type === "red-flag" ? "bg-red-400/15 text-red-400" : "bg-emerald-400/15 text-emerald-400"
+                c.type === "red-flag" ? "bg-red-500/15 text-red-500" : "bg-emerald-500/15 text-emerald-600"
               }`}>
                 {c.type === "red-flag" ? "🚩" : "⭐"}
               </div>

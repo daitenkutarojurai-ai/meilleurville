@@ -73,10 +73,10 @@ export default function HomePage() {
                     💎 Pépites méconnues
                   </p>
                   <h2 className="text-2xl font-bold text-[var(--text-primary)]">
-                    Qualité de vie · Prix accessibles
+                    Bien vivre, sans se ruiner
                   </h2>
                   <p className="text-sm text-[var(--text-secondary)] mt-1">
-                    Ces villes ont d&apos;excellents scores mais restent sous le radar
+                    Des villes super chouettes, encore peu connues — et le loyer y est doux
                   </p>
                 </div>
                 <Link href="/classements/budget" className="hidden sm:flex items-center gap-1 text-sm font-medium text-[var(--accent)] hover:underline">
@@ -120,10 +120,10 @@ export default function HomePage() {
           <div className="flex items-end justify-between mb-8">
             <div>
               <p className="text-xs uppercase tracking-widest text-[var(--accent)] font-semibold mb-2">
-                Comparaisons populaires
+                ⚖️ Le match du jour
               </p>
               <h2 className="text-2xl font-bold text-[var(--text-primary)]">
-                Les grandes questions du moment
+                Hésitations classiques, on tranche
               </h2>
             </div>
             <Link href="/comparer" className="hidden sm:flex items-center gap-1 text-sm font-medium text-[var(--accent)] hover:underline">
@@ -174,9 +174,9 @@ export default function HomePage() {
       <section className="py-14 border-t border-[var(--border)]">
         <div className="mx-auto max-w-3xl px-4 sm:px-6">
           <div className="text-center mb-8">
-            <p className="text-sm font-semibold text-[var(--accent)] mb-2">Simulateur</p>
-            <h2 className="text-2xl font-bold text-[var(--text-primary)] mb-2">Combien économiseriez-vous ?</h2>
-            <p className="text-[var(--text-secondary)]">Entrez votre loyer actuel et votre salaire pour voir le gain mensuel par ville.</p>
+            <p className="text-sm font-semibold text-[var(--accent)] mb-2">💸 Simulateur express</p>
+            <h2 className="text-2xl font-bold text-[var(--text-primary)] mb-2">Combien resterait-il sur le compte ?</h2>
+            <p className="text-[var(--text-secondary)]">Tapez votre loyer et votre salaire — on calcule l&apos;écart, ville par ville.</p>
           </div>
           <CostCalculator />
         </div>

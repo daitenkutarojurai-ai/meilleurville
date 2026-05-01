@@ -151,7 +151,7 @@ export default function MethodePage() {
                       <ul className="space-y-0.5">
                         {sources.map((s) => (
                           <li key={s} className="text-xs text-[var(--text-secondary)] flex items-center gap-1.5">
-                            <CheckCircle className="h-3 w-3 flex-shrink-0 text-emerald-400" />
+                            <CheckCircle className="h-3 w-3 flex-shrink-0 text-emerald-600" />
                             {s}
                           </li>
                         ))}
@@ -205,7 +205,7 @@ export default function MethodePage() {
                 "Les villes touristiques ont un biais : les avis de touristes sont filtrés mais pas toujours détectables.",
               ].map((limit) => (
                 <li key={limit} className="flex items-start gap-2 text-sm text-[var(--text-secondary)]">
-                  <span className="mt-1 h-1.5 w-1.5 rounded-full bg-yellow-400 flex-shrink-0" />
+                  <span className="mt-1 h-1.5 w-1.5 rounded-full bg-amber-400 flex-shrink-0" />
                   {limit}
                 </li>
               ))}

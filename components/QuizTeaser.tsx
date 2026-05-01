@@ -22,22 +22,22 @@ export function QuizTeaser() {
           <div className="relative grid gap-10 lg:grid-cols-2 lg:gap-16 items-center">
             {/* Left: copy */}
             <div>
-              <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-[var(--accent)]/30 bg-[var(--accent)]/10 px-4 py-1.5 text-sm text-[var(--accent)]">
-                <Sparkles className="h-3.5 w-3.5" />
-                Quiz de Matching IA
+              <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-[var(--accent)]/30 bg-white px-4 py-1.5 text-sm text-[var(--accent)] shadow-sm">
+                <span className="text-base leading-none">🎯</span>
+                Le quiz qui trouve votre ville
               </div>
               <h2 className="mb-4 text-3xl lg:text-4xl font-bold text-[var(--text-primary)] leading-tight">
-                Votre ville idéale existe.{" "}
-                <span className="gradient-text">On va la trouver.</span>
+                Votre ville parfaite existe.{" "}
+                <span className="gradient-text">On va la dénicher ensemble.</span>
               </h2>
               <p className="mb-8 text-[var(--text-secondary)] leading-relaxed text-lg">
-                7 questions. Notre IA analyse votre profil contre les données de 850
-                villes françaises et vous explique pourquoi chaque résultat vous correspond.
+                7 questions, 3 minutes. On compare vos envies à 340 villes françaises
+                et on vous dit pourquoi chacune pourrait être votre prochain chez-vous.
               </p>
               <Link href="/quiz">
-                <Button size="lg" className="gap-2 shadow-xl shadow-[var(--accent)]/20">
+                <Button size="lg" className="gap-2 shadow-xl shadow-[var(--accent)]/25">
                   <Sparkles className="h-5 w-5" />
-                  Commencer le quiz (gratuit)
+                  Trouver ma ville (c&apos;est gratuit)
                   <ArrowRight className="h-4 w-4" />
                 </Button>
               </Link>

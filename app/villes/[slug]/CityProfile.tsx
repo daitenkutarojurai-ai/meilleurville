@@ -131,7 +131,7 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
               </div>
               <div className="text-xs text-[var(--text-secondary)] mb-2">Score global / 10</div>
               <div className="flex items-center justify-center gap-1 text-sm text-[var(--text-secondary)]">
-                <Star className="h-3.5 w-3.5 fill-yellow-400 text-yellow-400" />
+                <Star className="h-3.5 w-3.5 fill-yellow-400 text-amber-500" />
                 <span>
                   {city.reviewCount ?? 180} avis
                 </span>
@@ -143,7 +143,7 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
           <div className="mt-6 grid grid-cols-2 sm:grid-cols-4 gap-3">
             {city.sunshinedays && (
               <div className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-3">
-                <Sun className="h-4 w-4 text-yellow-400 mb-1" />
+                <Sun className="h-4 w-4 text-amber-500 mb-1" />
                 <div className="text-lg font-bold font-mono-data text-[var(--text-primary)]">
                   {city.sunshinedays}j
                 </div>
@@ -152,7 +152,7 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
             )}
             {city.avgTempJuly && (
               <div className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-3">
-                <Thermometer className="h-4 w-4 text-orange-400 mb-1" />
+                <Thermometer className="h-4 w-4 text-orange-600 mb-1" />
                 <div className="text-lg font-bold font-mono-data text-[var(--text-primary)]">
                   {city.avgTempJuly}°C
                 </div>
@@ -161,7 +161,7 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
             )}
             {city.avgTempJanuary && (
               <div className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-3">
-                <Thermometer className="h-4 w-4 text-blue-400 mb-1" />
+                <Thermometer className="h-4 w-4 text-blue-600 mb-1" />
                 <div className="text-lg font-bold font-mono-data text-[var(--text-primary)]">
                   {city.avgTempJanuary}°C
                 </div>
@@ -170,7 +170,7 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
             )}
             {city.elevation && (
               <div className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-3">
-                <TrendingUp className="h-4 w-4 text-emerald-400 mb-1" />
+                <TrendingUp className="h-4 w-4 text-emerald-600 mb-1" />
                 <div className="text-lg font-bold font-mono-data text-[var(--text-primary)]">
                   {city.elevation}m
                 </div>
@@ -282,7 +282,7 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                           </span>
                         </div>
                         <div className="ml-auto flex items-center gap-1">
-                          <Star className="h-3.5 w-3.5 fill-yellow-400 text-yellow-400" />
+                          <Star className="h-3.5 w-3.5 fill-yellow-400 text-amber-500" />
                           <span className="text-sm font-bold font-mono-data text-[var(--text-primary)]">
                             {r.score}/10
                           </span>
@@ -293,12 +293,12 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                       </p>
                       <div className="flex flex-wrap gap-2 text-xs">
                         {r.pros && (
-                          <span className="text-emerald-400">
+                          <span className="text-emerald-600">
                             ✓ {r.pros}
                           </span>
                         )}
                         {r.cons && (
-                          <span className="text-red-400">
+                          <span className="text-red-500">
                             ✗ {r.cons}
                           </span>
                         )}
@@ -482,7 +482,7 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                     <div className="text-xs text-[var(--text-secondary)]">{r.date}</div>
                   </div>
                   <div className="ml-auto flex items-center gap-1.5">
-                    <Star className="h-4 w-4 fill-yellow-400 text-yellow-400" />
+                    <Star className="h-4 w-4 fill-yellow-400 text-amber-500" />
                     <span className="font-bold font-mono-data text-[var(--text-primary)]">
                       {r.score}/10
                     </span>
@@ -492,13 +492,13 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                 <div className="grid grid-cols-2 gap-3 text-sm">
                   {r.pros && (
                     <div className="rounded-lg bg-emerald-500/5 border border-emerald-500/20 p-3">
-                      <div className="text-xs text-emerald-400 font-medium mb-1">Points positifs</div>
+                      <div className="text-xs text-emerald-600 font-medium mb-1">Points positifs</div>
                       <p className="text-[var(--text-secondary)] text-xs">{r.pros}</p>
                     </div>
                   )}
                   {r.cons && (
                     <div className="rounded-lg bg-red-500/5 border border-red-500/20 p-3">
-                      <div className="text-xs text-red-400 font-medium mb-1">Points négatifs</div>
+                      <div className="text-xs text-red-500 font-medium mb-1">Points négatifs</div>
                       <p className="text-[var(--text-secondary)] text-xs">{r.cons}</p>
                     </div>
                   )}
