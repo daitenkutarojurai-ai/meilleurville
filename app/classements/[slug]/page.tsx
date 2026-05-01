@@ -3,6 +3,8 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
+import { AmbientBackground } from "@/components/AmbientBackground";
+import { CommentSection } from "@/components/CommentSection";
 import { RANKING_META, getRankedCities, type RankingSlug } from "@/lib/rankings";
 import { CityCard } from "@/components/CityCard";
 import { Badge } from "@/components/ui/Badge";
@@ -87,26 +89,30 @@ export default async function RankingPage({ params }: Props) {
   };
 
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen relative">
+      <AmbientBackground />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }}
       />
       <Navbar />
 
-      {/* Header */}
-      <section
-        className={`border-b border-[var(--border)] ${meta.bgColor} py-14`}
-      >
-        <div className="mx-auto max-w-7xl px-4 sm:px-6">
-          <div className="mb-3 text-4xl">{meta.emoji}</div>
-          <Badge variant="accent" className="mb-3">
-            Classement 2025
-          </Badge>
-          <h1 className="mb-3 text-3xl sm:text-4xl font-bold text-[var(--text-primary)]">
-            {meta.headline}
+      {/* Premium hero */}
+      <section className="relative overflow-hidden py-16">
+        <div className="pointer-events-none absolute inset-0" aria-hidden>
+          <div className="absolute inset-0 bg-aurora opacity-40" />
+        </div>
+        <div className="relative mx-auto max-w-5xl px-4 sm:px-6 text-center">
+          <div className="mb-4 inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-[var(--accent)] to-emerald-700 shadow-xl shadow-[var(--accent)]/30 ring-1 ring-white/40">
+            <span className="text-2xl">{meta.emoji}</span>
+          </div>
+          <p className="text-xs uppercase tracking-widest text-[var(--accent)] font-semibold mb-2">
+            🏆 Classement 2025 · {ranked.length} villes
+          </p>
+          <h1 className="mb-4 text-3xl sm:text-5xl font-bold text-[var(--text-primary)] tracking-tight leading-[1.05]">
+            <span className="font-display gradient-text-anim italic">{meta.headline}</span>
           </h1>
-          <p className="max-w-2xl text-[var(--text-secondary)]">
+          <p className="max-w-2xl mx-auto text-[var(--text-secondary)] text-lg">
             {meta.description}
           </p>
         </div>
@@ -333,6 +339,14 @@ export default async function RankingPage({ params }: Props) {
             </a>
           </Card>
         </div>
+      </div>
+
+      <div className="mx-auto max-w-3xl px-4 sm:px-6 pb-16">
+        <CommentSection
+          topic={`ranking:${slug}`}
+          title="Vous n'êtes pas d'accord ?"
+          emptyHint="Donnez votre avis sur ce classement, ajoutez une ville qui manque, ou racontez votre expérience."
+        />
       </div>
 
       <Footer />

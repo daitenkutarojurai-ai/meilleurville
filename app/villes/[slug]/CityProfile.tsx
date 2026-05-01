@@ -8,6 +8,8 @@ import { ScoreBar } from "@/components/ui/ScoreBar";
 import { Button } from "@/components/ui/Button";
 import { ReviewModal } from "@/components/ReviewModal";
 import { CommentSection } from "@/components/CommentSection";
+import { FavoriteButton } from "@/components/effects/FavoriteButton";
+import { GrainOverlay } from "@/components/effects/GrainOverlay";
 import { AISummaryCard } from "@/components/AISummaryCard";
 import { SimilarCities } from "@/components/SimilarCities";
 import { getNeighborhoods } from "@/data/neighborhoods";
@@ -82,9 +84,17 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
 
   return (
     <div>
-      {/* Hero */}
-      <section className="bg-gradient-to-b from-[var(--bg-elevated)] to-[var(--bg-canvas)] py-12">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6">
+      {/* Hero — premium */}
+      <section className="relative overflow-hidden pt-10 pb-14 sm:pt-14 sm:pb-16">
+        {/* Aurora + grain */}
+        <div className="pointer-events-none absolute inset-0" aria-hidden>
+          <div className="absolute inset-0 bg-aurora opacity-50" />
+          <div className="absolute -top-32 -right-32 h-96 w-96 rounded-full bg-[var(--accent)]/12 blur-[120px] animate-drift" />
+          <div className="absolute -bottom-32 -left-32 h-80 w-80 rounded-full bg-[var(--accent-warm)]/12 blur-[100px] animate-drift" style={{ animationDelay: "2s" }} />
+        </div>
+        <GrainOverlay opacity={0.18} blend="overlay" />
+
+        <div className="relative mx-auto max-w-7xl px-4 sm:px-6">
           <div className="flex flex-wrap items-center gap-2 text-sm text-[var(--text-secondary)] mb-4">
             <a href="/villes" className="hover:text-[var(--text-primary)] transition-colors">Villes</a>
             <ChevronRight className="h-3.5 w-3.5" />
@@ -106,73 +116,81 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
           </div>
 
           <div className="flex flex-col sm:flex-row gap-6 items-start">
-            <div className="flex-1">
-              <div className="flex flex-wrap gap-2 mb-3">
+            <div className="flex-1 min-w-0">
+              <div className="flex flex-wrap items-center gap-2 mb-4">
                 {city.characterTags.map((tag) => (
                   <Badge key={tag} variant="subtle" className="capitalize">
                     {tag}
                   </Badge>
                 ))}
+                <FavoriteButton slug={city.slug} className="!ml-1" label />
               </div>
-              <h1 className="text-4xl sm:text-5xl font-bold text-[var(--text-primary)] mb-2">
-                {city.name}
+              <h1 className="text-5xl sm:text-7xl font-bold text-[var(--text-primary)] mb-3 tracking-tight leading-[1.02]">
+                <span className="font-display gradient-text-anim italic">{city.name}</span>
               </h1>
               <p className="text-[var(--text-secondary)] text-lg">
-                <MapPin className="inline h-4 w-4 mr-1" />
+                <MapPin className="inline h-4 w-4 mr-1 text-[var(--accent)]" />
                 {city.department} · {city.region}
                 {city.population && ` · ${formatNumber(city.population)} hab.`}
               </p>
             </div>
 
-            {/* Global score */}
-            <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-6 text-center min-w-[160px]">
-              <div className={`text-5xl font-bold font-mono-data mb-1 ${scoreColor(city.scores.global)}`}>
+            {/* Global score — glass card */}
+            <div className="relative rounded-3xl border border-white/60 glass-strong p-6 text-center min-w-[180px] shadow-2xl shadow-[var(--accent)]/10">
+              <div className="absolute -top-1 left-4 right-4 h-2 rounded-b-full bg-gradient-to-r from-[var(--accent)] via-emerald-400 to-lime-400 opacity-80" aria-hidden />
+              <div className={`text-6xl font-bold font-mono-data mb-1 ${scoreColor(city.scores.global)}`}>
                 {formatScore(city.scores.global)}
               </div>
-              <div className="text-xs text-[var(--text-secondary)] mb-2">Score global / 10</div>
+              <div className="text-[11px] uppercase tracking-wider text-[var(--text-secondary)] mb-2 font-semibold">Score global / 10</div>
               <div className="flex items-center justify-center gap-1 text-sm text-[var(--text-secondary)]">
-                <Star className="h-3.5 w-3.5 fill-yellow-400 text-amber-500" />
-                <span>
-                  {city.reviewCount ?? 180} avis
-                </span>
+                <Star className="h-3.5 w-3.5 fill-amber-400 text-amber-500" />
+                <span>{city.reviewCount ?? 180} avis</span>
               </div>
             </div>
           </div>
 
-          {/* Quick stats */}
-          <div className="mt-6 grid grid-cols-2 sm:grid-cols-4 gap-3">
+          {/* Quick stats — glass tiles with gradient icons */}
+          <div className="mt-7 grid grid-cols-2 sm:grid-cols-4 gap-3">
             {city.sunshinedays && (
-              <div className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-3">
-                <Sun className="h-4 w-4 text-amber-500 mb-1" />
-                <div className="text-lg font-bold font-mono-data text-[var(--text-primary)]">
-                  {city.sunshinedays}j
+              <div className="group rounded-2xl glass border border-white/50 p-4 hover:shadow-lg transition-shadow">
+                <div className="mb-2 inline-flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-amber-300 to-orange-400 shadow-md ring-1 ring-white/40 group-hover:scale-110 transition-transform">
+                  <Sun className="h-4 w-4 text-white" />
+                </div>
+                <div className="text-2xl font-bold font-mono-data text-[var(--text-primary)]">
+                  {city.sunshinedays}<span className="text-base text-[var(--text-tertiary)]">j</span>
                 </div>
                 <div className="text-xs text-[var(--text-secondary)]">de soleil/an</div>
               </div>
             )}
             {city.avgTempJuly && (
-              <div className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-3">
-                <Thermometer className="h-4 w-4 text-orange-600 mb-1" />
-                <div className="text-lg font-bold font-mono-data text-[var(--text-primary)]">
-                  {city.avgTempJuly}°C
+              <div className="group rounded-2xl glass border border-white/50 p-4 hover:shadow-lg transition-shadow">
+                <div className="mb-2 inline-flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-rose-300 to-orange-400 shadow-md ring-1 ring-white/40 group-hover:scale-110 transition-transform">
+                  <Thermometer className="h-4 w-4 text-white" />
+                </div>
+                <div className="text-2xl font-bold font-mono-data text-[var(--text-primary)]">
+                  {city.avgTempJuly}<span className="text-base text-[var(--text-tertiary)]">°C</span>
                 </div>
                 <div className="text-xs text-[var(--text-secondary)]">temp. juillet</div>
               </div>
             )}
             {city.avgTempJanuary && (
-              <div className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-3">
-                <Thermometer className="h-4 w-4 text-blue-600 mb-1" />
-                <div className="text-lg font-bold font-mono-data text-[var(--text-primary)]">
-                  {city.avgTempJanuary}°C
+              <div className="group rounded-2xl glass border border-white/50 p-4 hover:shadow-lg transition-shadow">
+                <div className="mb-2 inline-flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-sky-300 to-cyan-400 shadow-md ring-1 ring-white/40 group-hover:scale-110 transition-transform">
+                  <Thermometer className="h-4 w-4 text-white" />
+                </div>
+                <div className="text-2xl font-bold font-mono-data text-[var(--text-primary)]">
+                  {city.avgTempJanuary}<span className="text-base text-[var(--text-tertiary)]">°C</span>
                 </div>
                 <div className="text-xs text-[var(--text-secondary)]">temp. janvier</div>
               </div>
             )}
             {city.elevation && (
-              <div className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-3">
-                <TrendingUp className="h-4 w-4 text-emerald-600 mb-1" />
-                <div className="text-lg font-bold font-mono-data text-[var(--text-primary)]">
-                  {city.elevation}m
+              <div className="group rounded-2xl glass border border-white/50 p-4 hover:shadow-lg transition-shadow">
+                <div className="mb-2 inline-flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-emerald-400 to-lime-400 shadow-md ring-1 ring-white/40 group-hover:scale-110 transition-transform">
+                  <TrendingUp className="h-4 w-4 text-white" />
+                </div>
+                <div className="text-2xl font-bold font-mono-data text-[var(--text-primary)]">
+                  {city.elevation}<span className="text-base text-[var(--text-tertiary)]">m</span>
                 </div>
                 <div className="text-xs text-[var(--text-secondary)]">altitude</div>
               </div>

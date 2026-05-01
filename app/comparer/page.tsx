@@ -1,9 +1,9 @@
 import { Metadata } from "next";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
+import { AmbientBackground } from "@/components/AmbientBackground";
 import { CompareTool } from "./CompareTool";
 import Link from "next/link";
-import { Badge } from "@/components/ui/Badge";
 
 export const metadata: Metadata = {
   title: "Comparer des villes — MeilleurVille",
@@ -66,17 +66,34 @@ const POPULAR_PAIRS = [
 
 export default function ComparerPage() {
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen relative">
+      <AmbientBackground />
       <Navbar />
+
+      <section className="relative pt-16 pb-6">
+        <div className="mx-auto max-w-4xl px-4 sm:px-6 text-center">
+          <p className="text-xs uppercase tracking-widest text-[var(--accent)] font-semibold mb-2">
+            ⚖️ Comparateur
+          </p>
+          <h1 className="text-4xl sm:text-6xl font-bold text-[var(--text-primary)] mb-3 tracking-tight leading-[1.05]">
+            On <span className="font-display gradient-text-anim italic">tranche</span> entre vos villes
+          </h1>
+          <p className="text-[var(--text-secondary)] text-lg max-w-2xl mx-auto">
+            Choisissez deux villes, on les met côte à côte. Score par score, sans détour.
+          </p>
+        </div>
+      </section>
+
       <CompareTool />
 
-      {/* Popular comparisons SEO section */}
-      <section className="border-t border-[var(--border)] bg-[var(--bg-surface)] py-12">
-        <div className="mx-auto max-w-5xl px-4 sm:px-6">
-          <div className="flex items-center gap-3 mb-6">
-            <Badge variant="accent">Populaires</Badge>
-            <h2 className="text-lg font-bold text-[var(--text-primary)]">
-              Comparaisons fréquentes
+      <section className="relative border-t border-[var(--border)] py-14">
+        <div className="mx-auto max-w-6xl px-4 sm:px-6">
+          <div className="text-center mb-8">
+            <p className="text-xs uppercase tracking-widest text-[var(--accent)] font-semibold mb-2">
+              ✨ Populaires
+            </p>
+            <h2 className="text-2xl sm:text-3xl font-bold text-[var(--text-primary)]">
+              Les <span className="font-display gradient-text-anim italic">duels</span> qu&apos;on lit le plus
             </h2>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
@@ -84,10 +101,12 @@ export default function ComparerPage() {
               <Link
                 key={`${a}-${b}`}
                 href={`/comparer/${a}-vs-${b}`}
-                className="group rounded-xl border border-[var(--border)] bg-[var(--bg-canvas)] hover:border-[var(--accent)]/40 hover:bg-[var(--bg-elevated)] transition-all px-4 py-3"
+                className="group relative overflow-hidden rounded-xl border border-[var(--border)] bg-white/70 backdrop-blur hover:border-[var(--accent)]/40 hover:bg-white hover:shadow-lg hover:-translate-y-0.5 transition-all px-4 py-3"
               >
-                <div className="text-sm font-medium text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors leading-snug">
-                  {labelA} <span className="text-[var(--text-tertiary)]">vs</span> {labelB}
+                <div className="text-sm font-medium text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors leading-snug flex items-center justify-between gap-2">
+                  <span className="truncate">{labelA}</span>
+                  <span className="text-[10px] font-bold text-[var(--text-tertiary)] uppercase tracking-wider">vs</span>
+                  <span className="truncate">{labelB}</span>
                 </div>
               </Link>
             ))}

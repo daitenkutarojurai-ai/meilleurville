@@ -5,6 +5,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { GuideCard } from "@/components/GuideCard";
 import { Badge } from "@/components/ui/Badge";
+import { CommentSection } from "@/components/CommentSection";
 import { GUIDES, GUIDE_CATEGORIES } from "@/data/guides";
 import { CITIES_SEED } from "@/data/cities-seed";
 
@@ -272,6 +273,14 @@ export default async function GuidePage({ params }: Props) {
             </Link>
           </aside>
         </div>
+      </div>
+
+      <div className="mx-auto max-w-3xl px-4 sm:px-6 pb-16">
+        <CommentSection
+          topic={`guide:${guide.slug}`}
+          title="Vos retours sur ce guide"
+          emptyHint="Une remarque, une question, un point que vous voulez ajouter ? Lancez la discussion."
+        />
       </div>
 
       <Footer />

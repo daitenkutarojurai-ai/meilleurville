@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
+import { CommentSection } from "@/components/CommentSection";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { CityCard } from "@/components/CityCard";
 import { Badge } from "@/components/ui/Badge";
@@ -982,6 +983,14 @@ export default async function PairPage({ params }: Props) {
             })}
           </div>
         </div>
+      </div>
+
+      <div className="mx-auto max-w-3xl px-4 sm:px-6 pb-16">
+        <CommentSection
+          topic={`compare:${[slugA, slugB].sort().join("-")}`}
+          title={`${seedA.name} vs ${seedB.name} — votre verdict`}
+          emptyHint={`Vous avez vécu dans l'une ou l'autre ? Donnez votre avis honnête : on n'a pas tout dit.`}
+        />
       </div>
 
       <Footer />

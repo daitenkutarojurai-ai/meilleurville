@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
 import { addContactMessage, maybeForwardEmail } from "@/lib/contact-store";
+import { rateLimit, getClientIp } from "@/lib/rate-limit";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -19,6 +20,20 @@ const Schema = z.object({
 });
 
 export async function POST(req: NextRequest) {
+  const ip = getClientIp(req.headers);
+  // 3 contact submissions per 5 minutes; 10 per day
+  const burst = rateLimit(`ctc:b:${ip}`, 3, 5 * 60_000);
+  if (!burst.allowed) {
+    return NextResponse.json(
+      { error: `Patientez ${burst.retryAfterSeconds}s avant un nouvel envoi.` },
+      { status: 429, headers: { "Retry-After": String(burst.retryAfterSeconds) } }
+    );
+  }
+  const daily = rateLimit(`ctc:d:${ip}`, 10, 24 * 60 * 60_000);
+  if (!daily.allowed) {
+    return NextResponse.json({ error: "Limite quotidienne atteinte." }, { status: 429 });
+  }
+
   let payload: unknown;
   try {
     payload = await req.json();

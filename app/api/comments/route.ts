@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
 import { addComment, listComments, countComments } from "@/lib/comments-store";
+import { rateLimit, getClientIp } from "@/lib/rate-limit";
+import { checkContent } from "@/lib/spam-filter";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -18,15 +20,10 @@ const PostSchema = z.object({
     .regex(/^[\p{L}0-9 .'_-]+$/u, "Caractères non autorisés"),
   body: z.string().min(8, "Trop court (8 caractères mini)").max(2000),
   rating: z.number().int().min(1).max(5).optional(),
+  // Anti-bot: honeypot must be empty, formStartedAt must be at least ~2s in the past
+  website: z.string().max(0).optional(),
+  formStartedAt: z.number().int().optional(),
 });
-
-// Light profanity / link spam filter — avoids the most blatant abuse without being heavy.
-function isClean(body: string): boolean {
-  const lower = body.toLowerCase();
-  if (lower.includes("http://") || lower.includes("https://")) return false;
-  const blocked = ["connard", "salope", "pute", "enculé", "fdp"];
-  return !blocked.some((w) => lower.includes(w));
-}
 
 export async function GET(req: NextRequest) {
   const topic = req.nextUrl.searchParams.get("topic");
@@ -37,6 +34,24 @@ export async function GET(req: NextRequest) {
 }
 
 export async function POST(req: NextRequest) {
+  const ip = getClientIp(req.headers);
+
+  // 5 comments per minute per IP, 30 per hour
+  const minuteWindow = rateLimit(`cmt:m:${ip}`, 5, 60_000);
+  if (!minuteWindow.allowed) {
+    return NextResponse.json(
+      { error: `Trop de messages — réessayez dans ${minuteWindow.retryAfterSeconds}s.` },
+      { status: 429, headers: { "Retry-After": String(minuteWindow.retryAfterSeconds) } }
+    );
+  }
+  const hourWindow = rateLimit(`cmt:h:${ip}`, 30, 60 * 60_000);
+  if (!hourWindow.allowed) {
+    return NextResponse.json(
+      { error: "Limite horaire atteinte. Revenez plus tard." },
+      { status: 429, headers: { "Retry-After": String(hourWindow.retryAfterSeconds) } }
+    );
+  }
+
   let payload: unknown;
   try {
     payload = await req.json();
@@ -47,21 +62,37 @@ export async function POST(req: NextRequest) {
   const parsed = PostSchema.safeParse(payload);
   if (!parsed.success) {
     return NextResponse.json(
-      {
-        error: "Données invalides",
-        issues: parsed.error.flatten().fieldErrors,
-      },
+      { error: "Données invalides", issues: parsed.error.flatten().fieldErrors },
       { status: 400 }
     );
   }
 
-  if (!isClean(parsed.data.body)) {
-    return NextResponse.json(
-      { error: "Votre commentaire a été refusé (liens ou propos non autorisés)." },
-      { status: 422 }
-    );
+  // Honeypot — drop silently like the contact form (bots think they succeeded).
+  if (parsed.data.website && parsed.data.website.length > 0) {
+    return NextResponse.json({ ok: true, comment: null }, { status: 200 });
   }
 
-  const comment = await addComment(parsed.data);
+  // Time-to-submit: humans take >2s to type a comment.
+  if (parsed.data.formStartedAt) {
+    const elapsed = Date.now() - parsed.data.formStartedAt;
+    if (elapsed < 2_000) {
+      return NextResponse.json(
+        { error: "Patientez quelques secondes avant de soumettre." },
+        { status: 429 }
+      );
+    }
+  }
+
+  const check = checkContent({ author: parsed.data.author, body: parsed.data.body });
+  if (!check.ok) {
+    return NextResponse.json({ error: check.reason ?? "Contenu refusé" }, { status: 422 });
+  }
+
+  const comment = await addComment({
+    topic: parsed.data.topic,
+    author: parsed.data.author.trim(),
+    body: parsed.data.body.trim(),
+    rating: parsed.data.rating,
+  });
   return NextResponse.json({ ok: true, comment }, { status: 201 });
 }

@@ -56,10 +56,12 @@ export function CommentSection({
   const [author, setAuthor] = useState("");
   const [body, setBody] = useState("");
   const [rating, setRating] = useState<number | null>(null);
+  const [website, setWebsite] = useState(""); // honeypot
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [success, setSuccess] = useState<string | null>(null);
   const formRef = useRef<HTMLFormElement | null>(null);
+  const formStartedAt = useRef<number>(Date.now());
 
   // Pre-fill author from localStorage
   useEffect(() => {
@@ -97,7 +99,13 @@ export function CommentSection({
 
     setSubmitting(true);
     try {
-      const payload: Record<string, unknown> = { topic, author: author.trim(), body: body.trim() };
+      const payload: Record<string, unknown> = {
+        topic,
+        author: author.trim(),
+        body: body.trim(),
+        website,
+        formStartedAt: formStartedAt.current,
+      };
       if (showRating && rating) payload.rating = rating;
       const res = await fetch("/api/comments", {
         method: "POST",
@@ -106,8 +114,8 @@ export function CommentSection({
       });
       const data = await res.json().catch(() => ({}));
       if (!res.ok) throw new Error(data?.error ?? "Erreur lors de l'envoi");
-      const newComment: Comment = data.comment;
-      setItems((prev) => [newComment, ...prev]);
+      const newComment: Comment | null = data.comment ?? null;
+      if (newComment) setItems((prev) => [newComment, ...prev]);
       setBody("");
       setRating(null);
       setSuccess("Merci ! Votre commentaire est en ligne.");
@@ -181,6 +189,20 @@ export function CommentSection({
           rows={4}
           className="mt-3 w-full rounded-xl border border-[var(--border)] bg-white/80 px-3 py-2 text-sm outline-none focus:border-[var(--accent)]/60 focus:bg-white transition-all resize-y"
         />
+
+        {/* Honeypot — hidden from real users */}
+        <div aria-hidden className="absolute -left-[9999px] top-0 opacity-0 pointer-events-none">
+          <label>
+            Site web
+            <input
+              type="text"
+              tabIndex={-1}
+              autoComplete="off"
+              value={website}
+              onChange={(e) => setWebsite(e.target.value)}
+            />
+          </label>
+        </div>
 
         <div className="mt-3 flex items-center justify-between gap-3">
           <div className="text-[11px] text-[var(--text-tertiary)] flex items-center gap-1">

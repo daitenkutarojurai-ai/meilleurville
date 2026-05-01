@@ -4,6 +4,7 @@ import { Footer } from "@/components/Footer";
 import { Badge } from "@/components/ui/Badge";
 import { Card } from "@/components/ui/Card";
 import { ContributionStats } from "@/components/ContributionStats";
+import { CommentSection } from "@/components/CommentSection";
 import { AlertTriangle, Volume2, Droplets, Wind, Shield, Flame, Zap, Eye } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -227,6 +228,14 @@ export default function RedFlagsPage() {
             <AlertTriangle className="h-4 w-4" />
             Signaler un problème
           </button>
+        </div>
+
+        <div className="mt-16">
+          <CommentSection
+            topic="red-flags:public"
+            title="Témoignages et signalements"
+            emptyHint="Vous avez vécu un truc qui ne va pas dans une ville ? Partagez-le ici (sans nommer de personnes ni d'adresses)."
+          />
         </div>
       </div>
 
