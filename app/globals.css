@@ -40,9 +40,17 @@ html {
 body {
   background-color: var(--bg-canvas);
   color: var(--text-primary);
-  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-family: var(--font-inter), 'Inter', system-ui, -apple-system, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+.font-display {
+  font-family: var(--font-display), 'Cormorant Garamond', 'Times New Roman', Georgia, serif;
+  font-feature-settings: "ss01", "liga";
+  letter-spacing: -0.022em;
+  font-style: italic;
 }
 
 ::-webkit-scrollbar {
@@ -190,4 +198,159 @@ body {
 }
 .animate-dot-pulse {
   animation: dotPulse 2.4s ease-in-out infinite;
+}
+
+/* === Premium primitives ===================================================== */
+
+/* Soft film grain — adds tactile depth on hero/cards */
+.grain {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.45;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.12  0 0 0 0 0.22  0 0 0 0 0.16  0 0 0 0.5 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+  background-size: 220px 220px;
+}
+.grain-soft { opacity: 0.18; mix-blend-mode: multiply; }
+
+/* Glass surface — translucent + blur */
+.glass {
+  background: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(14px) saturate(1.2);
+  -webkit-backdrop-filter: blur(14px) saturate(1.2);
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.7) inset,
+    0 12px 40px -12px rgba(22, 163, 74, 0.18),
+    0 4px 14px -6px rgba(31, 58, 42, 0.10);
+}
+.glass-strong {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(20px) saturate(1.4);
+  -webkit-backdrop-filter: blur(20px) saturate(1.4);
+}
+
+/* Animated gradient (subtle hue drift) */
+@keyframes gradientShift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+.gradient-text-anim {
+  background: linear-gradient(120deg, #15803D 0%, #22C55E 30%, #84CC16 55%, #F59E0B 80%, #EC4899 100%);
+  background-size: 220% 220%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: gradientShift 12s ease-in-out infinite;
+}
+
+/* Marquee infinite scroll */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.animate-marquee {
+  animation: marquee 60s linear infinite;
+}
+.animate-marquee:hover { animation-play-state: paused; }
+
+/* Word reveal — used by WordsReveal component */
+@keyframes wordReveal {
+  from { opacity: 0; transform: translateY(0.6em) rotate(2deg); filter: blur(8px); }
+  to   { opacity: 1; transform: translateY(0)     rotate(0);    filter: blur(0); }
+}
+.word-reveal-item {
+  display: inline-block;
+  opacity: 0;
+  animation: wordReveal 1s cubic-bezier(0.2, 0.7, 0.2, 1) forwards;
+  will-change: transform, opacity, filter;
+}
+
+/* Spotlight follow — set --x and --y from JS (0-1) */
+.spotlight {
+  position: relative;
+  isolation: isolate;
+}
+.spotlight::before {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  background: radial-gradient(
+    280px circle at calc(var(--x, 0.5) * 100%) calc(var(--y, 0.5) * 100%),
+    rgba(22, 163, 74, 0.18),
+    transparent 60%
+  );
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+  z-index: 0;
+}
+.spotlight:hover::before { opacity: 1; }
+
+/* Tilt 3D wrapper — children tilt-card-inner gets transform */
+.tilt-3d {
+  perspective: 1000px;
+  transform-style: preserve-3d;
+}
+.tilt-3d-inner {
+  transition: transform 0.18s cubic-bezier(0.2, 0.7, 0.2, 1);
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+
+/* Shine sweep on hover */
+.shine {
+  position: relative;
+  overflow: hidden;
+}
+.shine::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -120%;
+  width: 60%;
+  height: 100%;
+  background: linear-gradient(
+    115deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.55) 50%,
+    transparent 100%
+  );
+  transition: left 0.7s ease;
+  pointer-events: none;
+}
+.shine:hover::after { left: 130%; }
+
+/* Floating slow drift */
+@keyframes driftSlow {
+  0%, 100% { transform: translate3d(0, 0, 0); }
+  50% { transform: translate3d(0, -16px, 0); }
+}
+.animate-drift { animation: driftSlow 8s ease-in-out infinite; }
+
+/* Hero noise vignette */
+.bg-aurora {
+  background:
+    radial-gradient(60% 50% at 18% 12%, rgba(34, 197, 94, 0.22), transparent 65%),
+    radial-gradient(45% 40% at 78% 18%, rgba(245, 158, 11, 0.20), transparent 65%),
+    radial-gradient(40% 38% at 50% 78%, rgba(236, 72, 153, 0.12), transparent 65%),
+    radial-gradient(60% 50% at 92% 88%, rgba(132, 204, 22, 0.18), transparent 65%);
+}
+
+/* Reduced motion: disable heavy effects */
+@media (prefers-reduced-motion: reduce) {
+  .animate-marquee,
+  .animate-leaf-fall,
+  .animate-blob-slow,
+  .animate-blob-slower,
+  .animate-drift,
+  .gradient-text-anim,
+  .float-anim,
+  .word-reveal-item,
+  .accent-pulse {
+    animation: none !important;
+  }
+  .word-reveal-item { opacity: 1; }
 }

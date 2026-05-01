@@ -13,6 +13,8 @@ import { NewsletterSection } from "@/components/NewsletterSection";
 import { Footer } from "@/components/Footer";
 import { FranceHeatmap } from "@/components/FranceHeatmap";
 import { AmbientBackground } from "@/components/AmbientBackground";
+import { CityMarquee } from "@/components/CityMarquee";
+import { ScrollReveal } from "@/components/effects/ScrollReveal";
 import { CITIES_SEED } from "@/data/cities-seed";
 
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://meilleurville.fr";
@@ -51,13 +53,14 @@ export default function HomePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }} />
       <Navbar />
       <HeroSection />
-      <StatsBar />
-      <FranceHeatmap />
-      <RankingPreview />
-      <FeaturedCities />
-      <QuizTeaser />
-      <ProfileQuickAccess />
-      <GuidesTeaser />
+      <CityMarquee />
+      <ScrollReveal><StatsBar /></ScrollReveal>
+      <ScrollReveal><FranceHeatmap /></ScrollReveal>
+      <ScrollReveal><RankingPreview /></ScrollReveal>
+      <ScrollReveal><FeaturedCities /></ScrollReveal>
+      <ScrollReveal><QuizTeaser /></ScrollReveal>
+      <ScrollReveal><ProfileQuickAccess /></ScrollReveal>
+      <ScrollReveal><GuidesTeaser /></ScrollReveal>
 
       {/* Hidden gems section */}
       {(() => {

@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { ArrowRight, Laptop, Home, TreePine, GraduationCap, Palmtree } from "lucide-react";
 import { Badge } from "@/components/ui/Badge";
+import { TiltCard } from "@/components/effects/TiltCard";
+import { Spotlight } from "@/components/effects/Spotlight";
 
 const RANKINGS = [
   {
@@ -87,32 +89,34 @@ export function RankingPreview() {
           {RANKINGS.map((r) => {
             const Icon = r.icon;
             return (
-              <Link key={r.slug} href={`/classements/${r.slug}`}>
-                <div
-                  className={`group relative overflow-hidden rounded-2xl border ${r.border} ${r.bg} p-5 transition-all duration-200 hover:scale-[1.02] hover:shadow-lg cursor-pointer h-full`}
-                >
-                  <div
-                    className={`mb-3 inline-flex h-10 w-10 items-center justify-center rounded-xl bg-black/20`}
-                  >
-                    <Icon className={`h-5 w-5 ${r.color}`} />
-                  </div>
-                  <h3 className={`font-semibold ${r.color} mb-1`}>{r.label}</h3>
-                  <p className="text-xs text-[var(--text-secondary)] mb-4 leading-relaxed">
-                    {r.description}
-                  </p>
-                  <div className="flex items-center justify-between">
-                    <div>
-                      <div className="text-xs text-[var(--text-secondary)]">N°1</div>
-                      <div className="text-sm font-semibold text-[var(--text-primary)]">
-                        {r.topCity}
+              <TiltCard key={r.slug} max={6} scale={1.025} className="h-full">
+                <Link href={`/classements/${r.slug}`} className="block h-full">
+                  <Spotlight className={`group relative overflow-hidden rounded-2xl border ${r.border} ${r.bg} p-5 cursor-pointer h-full backdrop-blur-sm transition-shadow hover:shadow-xl shine`}>
+                    <div className="relative z-10" style={{ transform: "translateZ(20px)" }}>
+                      <div
+                        className={`mb-3 inline-flex h-10 w-10 items-center justify-center rounded-xl bg-white/70 ring-1 ring-white/40 backdrop-blur shadow-sm`}
+                      >
+                        <Icon className={`h-5 w-5 ${r.color}`} />
+                      </div>
+                      <h3 className={`font-semibold ${r.color} mb-1`}>{r.label}</h3>
+                      <p className="text-xs text-[var(--text-secondary)] mb-4 leading-relaxed">
+                        {r.description}
+                      </p>
+                      <div className="flex items-center justify-between">
+                        <div>
+                          <div className="text-xs text-[var(--text-secondary)]">N°1</div>
+                          <div className="text-sm font-semibold text-[var(--text-primary)]">
+                            {r.topCity}
+                          </div>
+                        </div>
+                        <div className={`text-2xl font-bold font-mono-data ${r.color}`}>
+                          {r.topScore}
+                        </div>
                       </div>
                     </div>
-                    <div className={`text-xl font-bold font-mono-data ${r.color}`}>
-                      {r.topScore}
-                    </div>
-                  </div>
-                </div>
-              </Link>
+                  </Spotlight>
+                </Link>
+              </TiltCard>
             );
           })}
         </div>

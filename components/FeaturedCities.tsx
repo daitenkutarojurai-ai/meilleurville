@@ -4,6 +4,7 @@ import { Badge } from "@/components/ui/Badge";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import type { City } from "@/lib/types";
+import { TiltCard } from "@/components/effects/TiltCard";
 
 function seedToCity(s: (typeof CITIES_SEED)[number]): City {
   return {
@@ -54,7 +55,9 @@ export function FeaturedCities() {
 
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {top.map((city, i) => (
-            <CityCard key={city.slug} city={city} rank={i + 1} />
+            <TiltCard key={city.slug} max={5} scale={1.015}>
+              <CityCard city={city} rank={i + 1} />
+            </TiltCard>
           ))}
         </div>
       </div>
