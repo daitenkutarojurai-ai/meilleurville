@@ -11,6 +11,8 @@ import { RedFlagTeaser } from "@/components/RedFlagTeaser";
 import { CostCalculator } from "@/components/CostCalculator";
 import { NewsletterSection } from "@/components/NewsletterSection";
 import { Footer } from "@/components/Footer";
+import { FranceHeatmap } from "@/components/FranceHeatmap";
+import { AmbientBackground } from "@/components/AmbientBackground";
 import { CITIES_SEED } from "@/data/cities-seed";
 
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://meilleurville.fr";
@@ -43,12 +45,14 @@ const organizationJsonLd = {
 
 export default function HomePage() {
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen relative">
+      <AmbientBackground />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }} />
       <Navbar />
       <HeroSection />
       <StatsBar />
+      <FranceHeatmap />
       <RankingPreview />
       <FeaturedCities />
       <QuizTeaser />

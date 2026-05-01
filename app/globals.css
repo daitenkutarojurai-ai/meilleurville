@@ -143,3 +143,51 @@ body {
   background-size: 24px 24px, 32px 32px;
   background-position: 0 0, 12px 16px;
 }
+
+/* Ambient background animations */
+@keyframes blobDriftSlow {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33% { transform: translate(40px, -30px) scale(1.05); }
+  66% { transform: translate(-20px, 20px) scale(0.97); }
+}
+@keyframes blobDriftSlower {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(-50px, 40px) scale(1.08); }
+}
+.animate-blob-slow {
+  animation: blobDriftSlow 22s ease-in-out infinite;
+}
+.animate-blob-slower {
+  animation: blobDriftSlower 32s ease-in-out infinite;
+}
+
+@keyframes leafFall {
+  0% {
+    transform: translate3d(0, 0, 0) rotate(0deg);
+  }
+  25% {
+    transform: translate3d(40px, 25vh, 0) rotate(120deg);
+  }
+  50% {
+    transform: translate3d(-30px, 50vh, 0) rotate(220deg);
+  }
+  75% {
+    transform: translate3d(50px, 75vh, 0) rotate(340deg);
+  }
+  100% {
+    transform: translate3d(-20px, 110vh, 0) rotate(440deg);
+  }
+}
+.animate-leaf-fall {
+  animation: leafFall linear infinite;
+  will-change: transform;
+}
+
+/* Heatmap dot pulse for top-tier cities */
+@keyframes dotPulse {
+  0%, 100% { opacity: 0.18; }
+  50% { opacity: 0.45; }
+}
+.animate-dot-pulse {
+  animation: dotPulse 2.4s ease-in-out infinite;
+}
