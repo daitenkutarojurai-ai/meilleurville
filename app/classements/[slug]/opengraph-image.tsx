@@ -127,7 +127,7 @@ export default async function Image({ params }: Props) {
                   {entry.city.name}
                 </span>
                 <span style={{ color, fontSize: "14px", fontWeight: 700 }}>
-                  {entry.score.toFixed(1)}/10
+                  {`${entry.score.toFixed(1)}/10`}
                 </span>
                 <span style={{ color: "#8b949e", fontSize: "11px" }}>
                   {(entry.city.region ?? "").split("-")[0]}

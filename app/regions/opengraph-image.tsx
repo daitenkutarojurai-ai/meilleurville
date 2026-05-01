@@ -74,7 +74,7 @@ export default function Image() {
               fontSize: "14px",
             }}
           >
-            {regionMap.size} régions · {CITIES_SEED.length} villes
+            {`${regionMap.size} régions · ${CITIES_SEED.length} villes`}
           </div>
         </div>
 

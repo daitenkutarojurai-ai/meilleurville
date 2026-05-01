@@ -61,7 +61,7 @@ export default async function Image({ params }: Props) {
               fontSize: "14px",
             }}
           >
-            {guide.readMinutes} min de lecture
+            {`${guide.readMinutes} min de lecture`}
           </div>
         </div>
 
@@ -81,7 +81,7 @@ export default async function Image({ params }: Props) {
                 width: "fit-content",
               }}
             >
-              {cat.emoji} {cat.label}
+              {`${cat.emoji} ${cat.label}`}
             </div>
           )}
           <div

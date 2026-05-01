@@ -58,7 +58,7 @@ export default function Image() {
               fontSize: "14px",
             }}
           >
-            {deptMap.size} départements · {CITIES_SEED.length} villes
+            {`${deptMap.size} départements · ${CITIES_SEED.length} villes`}
           </div>
         </div>
 

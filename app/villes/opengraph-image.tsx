@@ -59,7 +59,7 @@ export default function Image() {
               fontSize: "14px",
             }}
           >
-            {CITIES_SEED.length}+ villes analysées
+            {`${CITIES_SEED.length}+ villes analysées`}
           </div>
         </div>
 

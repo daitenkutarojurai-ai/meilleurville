@@ -83,7 +83,7 @@ export default async function Image({ params }: Props) {
         {/* City name + meta */}
         <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
           <div style={{ color: "#8b949e", fontSize: "16px", letterSpacing: "2px", textTransform: "uppercase" }}>
-            {city.region} · {city.department}
+            {`${city.region} · ${city.department}`}
           </div>
           <div
             style={{

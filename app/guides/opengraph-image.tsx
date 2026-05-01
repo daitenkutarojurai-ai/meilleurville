@@ -63,7 +63,7 @@ export default function Image() {
             Bien choisir sa ville en France
           </div>
           <div style={{ color: "#f0f6fc", fontSize: "72px", fontWeight: 900, lineHeight: 1 }}>
-            {GUIDES.length} guides
+            {`${GUIDES.length} guides`}
           </div>
           <div style={{ color: "#8b949e", fontSize: "17px" }}>
             Analyses honnêtes · Données réelles · Sans langue de bois
@@ -93,7 +93,7 @@ export default function Image() {
                     {cat.label}
                   </span>
                   <span style={{ color: "#8b949e", fontSize: "12px" }}>
-                    {count} guide{count > 1 ? "s" : ""}
+                    {`${count} guide${count > 1 ? "s" : ""}`}
                   </span>
                 </div>
               </div>

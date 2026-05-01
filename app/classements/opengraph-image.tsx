@@ -55,7 +55,7 @@ export default function Image() {
               fontSize: "14px",
             }}
           >
-            {rankings.length} classements · 2025
+            {`${rankings.length} classements · 2025`}
           </div>
         </div>
 
@@ -68,7 +68,7 @@ export default function Image() {
             Classements 2025
           </div>
           <div style={{ color: "#8b949e", fontSize: "17px" }}>
-            Par style de vie · Données officielles · {rankings.length} thématiques
+            {`Par style de vie · Données officielles · ${rankings.length} thématiques`}
           </div>
         </div>
 

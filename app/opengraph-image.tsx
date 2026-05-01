@@ -65,7 +65,7 @@ export default function Image() {
               fontWeight: 600,
             }}
           >
-            {CITIES_SEED.length} villes · {GUIDES.length} guides
+            {`${CITIES_SEED.length} villes · ${GUIDES.length} guides`}
           </div>
         </div>
 

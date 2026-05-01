@@ -83,7 +83,7 @@ export default async function Image({ params }: Props) {
               fontSize: "14px",
             }}
           >
-            {cities.length} ville{cities.length > 1 ? "s" : ""} analysée{cities.length > 1 ? "s" : ""}
+            {`${cities.length} ville${cities.length > 1 ? "s" : ""} analysée${cities.length > 1 ? "s" : ""}`}
           </div>
         </div>
 
@@ -104,7 +104,7 @@ export default async function Image({ params }: Props) {
           </div>
           {cities[0] && (
             <div style={{ color: "#8b949e", fontSize: "17px" }}>
-              N°1 : {cities[0].name} · {cities[0].scores.global.toFixed(1)}/10
+              {`N°1 : ${cities[0].name} · ${cities[0].scores.global.toFixed(1)}/10`}
             </div>
           )}
         </div>
@@ -134,7 +134,7 @@ export default async function Image({ params }: Props) {
                       {city.name}
                     </span>
                     <span style={{ color, fontSize: "13px", fontWeight: 700 }}>
-                      {city.scores.global.toFixed(1)}/10
+                      {`${city.scores.global.toFixed(1)}/10`}
                     </span>
                   </div>
                 </div>

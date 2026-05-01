@@ -67,7 +67,7 @@ export default function Image() {
               fontSize: "14px",
             }}
           >
-            {CITIES_SEED.length} villes comparables
+            {`${CITIES_SEED.length} villes comparables`}
           </div>
         </div>
 

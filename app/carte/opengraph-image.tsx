@@ -66,7 +66,7 @@ export default function Image() {
             Visualisation qualité de vie
           </div>
           <div style={{ color: "#f0f6fc", fontSize: "68px", fontWeight: 900, lineHeight: 1 }}>
-            {CITIES_SEED.length} villes sur la carte
+            {`${CITIES_SEED.length} villes sur la carte`}
           </div>
           <div style={{ color: "#8b949e", fontSize: "17px" }}>
             Filtrez par nature, transport, coût, sécurité, culture, télétravail

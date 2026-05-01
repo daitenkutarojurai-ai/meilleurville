@@ -73,10 +73,10 @@ export default function Image() {
             Qualité de vie · France
           </div>
           <div style={{ color: "#f0f6fc", fontSize: "60px", fontWeight: 900, lineHeight: 1 }}>
-            Top {top10.length} villes
+            {`Top ${top10.length} villes`}
           </div>
           <div style={{ color: "#8b949e", fontSize: "17px" }}>
-            Score agrégé sur 9 critères · {CITIES_SEED.length} villes analysées
+            {`Score agrégé sur 9 critères · ${CITIES_SEED.length} villes analysées`}
           </div>
         </div>
 
@@ -105,7 +105,7 @@ export default function Image() {
                     {city.name}
                   </span>
                   <span style={{ color: color, fontSize: "13px", fontWeight: 700 }}>
-                    {city.scores.global.toFixed(1)}/10
+                    {`${city.scores.global.toFixed(1)}/10`}
                   </span>
                 </div>
               </div>

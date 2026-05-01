@@ -69,7 +69,7 @@ export default function Image() {
             Transparence totale
           </div>
           <div style={{ color: "#f0f6fc", fontSize: "68px", fontWeight: 900, lineHeight: 1 }}>
-            {CITIES_SEED.length} villes · sources documentées
+            {`${CITIES_SEED.length} villes · sources documentées`}
           </div>
           <div style={{ color: "#8b949e", fontSize: "17px" }}>
             Toutes nos sources sont publiques, vérifiables et téléchargeables en CSV
