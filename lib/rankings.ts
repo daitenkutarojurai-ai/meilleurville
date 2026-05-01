@@ -244,6 +244,28 @@ export const RANKING_META = {
       "Connectivité (TGV, transports) — critère d'attractivité",
     ],
   },
+  sante: {
+    slug: "sante",
+    label: "Santé & Soins",
+    emoji: "❤️",
+    headline: "Meilleures villes françaises pour la santé et l'accès aux soins",
+    description:
+      "Classement des villes françaises par qualité du système de santé : densité médicale, hôpitaux, spécialistes, délais d'attente, qualité de l'air et cadre de vie propice au bien-être. Sources : DREES, Assurance Maladie, ATMO France, INSEE 2026.",
+    methodology:
+      "Score composite pondéré : Qualité de vie (×3), Sécurité (×2.5), Nature/air (×2), Transport (×1), Coût (×1). La densité médicale et la qualité de l'air (PM2.5) pèsent fortement via les scores Nature et Vie.",
+    weights: { life: 3, safety: 2.5, nature: 2, transport: 1, cost: 1 },
+    color: "text-pink-400",
+    borderColor: "border-pink-400/20",
+    bgColor: "bg-pink-400/5",
+    scoreKey: "life" as const,
+    why: [
+      "Densité de médecins généralistes et spécialistes (DREES 2025)",
+      "Présence d'un CHU ou hôpital de référence",
+      "Qualité de l'air extérieur (indice ATMO — PM2.5, NO₂)",
+      "Délais d'attente aux urgences et accès à la médecine de ville",
+      "Cadre de vie : espaces verts, activité physique, alimentation locale",
+    ],
+  },
 } as const;
 
 export type RankingSlug = keyof typeof RANKING_META;
