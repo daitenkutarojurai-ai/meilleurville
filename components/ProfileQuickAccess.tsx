@@ -59,15 +59,20 @@ function getTopCity(scoreKey: (typeof PROFILES)[number]["scoreKey"]) {
 
 export function ProfileQuickAccess() {
   return (
-    <section className="py-14 border-t border-[var(--border)]">
-      <div className="mx-auto max-w-5xl px-4 sm:px-6">
-        <div className="text-center mb-8">
-          <p className="text-sm font-semibold text-[var(--accent)] mb-2">Votre profil</p>
-          <h2 className="text-2xl font-bold text-[var(--text-primary)] mb-2">
-            Trouver la ville idéale selon votre situation
+    <section className="relative py-14 border-t border-[var(--border)]">
+      <div className="pointer-events-none absolute inset-0" aria-hidden>
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_50%_40%_at_30%_50%,rgba(34,197,94,0.06),transparent_70%)]" />
+      </div>
+      <div className="relative mx-auto max-w-5xl px-4 sm:px-6">
+        <div className="text-center mb-10">
+          <p className="text-xs uppercase tracking-widest text-[var(--accent)] font-semibold mb-2">
+            ✨ Votre profil
+          </p>
+          <h2 className="text-3xl sm:text-4xl font-bold text-[var(--text-primary)] mb-3 tracking-tight">
+            La <span className="font-display gradient-text-anim italic">vôtre</span>, selon votre vie
           </h2>
           <p className="text-[var(--text-secondary)]">
-            Classements spécialisés par profil de vie
+            Classements spécialisés par profil. Cliquez sur le vôtre.
           </p>
         </div>
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
@@ -77,7 +82,7 @@ export function ProfileQuickAccess() {
               <Link
                 key={profile.slug}
                 href={`/classements/${profile.slug}`}
-                className="group rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:bg-[var(--bg-elevated)] hover:shadow-sm transition-all p-4"
+                className="group relative overflow-hidden rounded-2xl glass border border-white/50 hover:border-[var(--accent)]/40 hover:shadow-lg hover:-translate-y-0.5 transition-all p-4"
               >
                 <div className="flex items-center gap-3 mb-2">
                   <div className="text-2xl">{profile.emoji}</div>

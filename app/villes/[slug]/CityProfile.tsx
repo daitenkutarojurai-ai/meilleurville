@@ -6,7 +6,6 @@ import { Badge } from "@/components/ui/Badge";
 import { Card } from "@/components/ui/Card";
 import { ScoreBar } from "@/components/ui/ScoreBar";
 import { Button } from "@/components/ui/Button";
-import { ReviewModal } from "@/components/ReviewModal";
 import { CommentSection } from "@/components/CommentSection";
 import { FavoriteButton } from "@/components/effects/FavoriteButton";
 import { GrainOverlay } from "@/components/effects/GrainOverlay";
@@ -43,7 +42,6 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
   const neighborhoods = getNeighborhoods(city.slug);
   const housing = getHousing(city.slug);
   const [activeTab, setActiveTab] = useState("overview");
-  const [showReviewModal, setShowReviewModal] = useState(false);
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
   const stage = LIFE_STAGES.find((s) => s.id === activeStage)!;
@@ -371,7 +369,7 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                 <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors" />
               </a>
 
-              {/* CTA write review */}
+              {/* CTA — partager son expérience via la discussion */}
               <Card className="border-[var(--accent)]/20 bg-[var(--accent)]/5">
                 <div className="text-center">
                   <Users className="h-8 w-8 text-[var(--accent)] mx-auto mb-3" />
@@ -379,11 +377,14 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                     Vous habitez {city.name} ?
                   </h3>
                   <p className="text-xs text-[var(--text-secondary)] mb-4">
-                    Partagez votre expérience et aidez {formatNumber(Math.floor((city.population ?? 10000) * 0.1))} personnes à prendre leur décision.
+                    Partagez votre expérience dans la discussion ouverte plus bas — votre témoignage aide ceux qui cherchent où vivre.
                   </p>
-                  <Button size="sm" className="w-full">
-                    Écrire un avis
-                  </Button>
+                  <a
+                    href="#discussions"
+                    className="inline-flex items-center justify-center gap-1.5 w-full rounded-xl bg-[var(--accent)] text-white text-sm font-semibold px-4 py-2 hover:bg-emerald-700 transition-colors"
+                  >
+                    Aller à la discussion →
+                  </a>
                 </div>
               </Card>
             </div>
@@ -558,13 +559,6 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
         />
       </div>
 
-      {showReviewModal && (
-        <ReviewModal
-          citySlug={city.slug}
-          cityName={city.name}
-          onClose={() => setShowReviewModal(false)}
-        />
-      )}
     </div>
   );
 }

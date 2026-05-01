@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import { Badge } from "@/components/ui/Badge";
+import { AmbientBackground } from "@/components/AmbientBackground";
 import { Card } from "@/components/ui/Card";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { getNeighborhoods } from "@/data/neighborhoods";
@@ -78,13 +78,14 @@ export default async function QuartiersPage({ params }: Props) {
   } : null;
 
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen relative">
+      <AmbientBackground />
       <Navbar />
       {jsonLd && (
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       )}
 
-      <section className="bg-[var(--bg-surface)] border-b border-[var(--border)] py-12">
+      <section className="relative pt-20 pb-10">
         <div className="mx-auto max-w-5xl px-4 sm:px-6">
           <nav className="flex items-center gap-2 text-xs text-[var(--text-tertiary)] mb-5">
             <Link href="/villes" className="hover:text-[var(--text-secondary)]">Villes</Link>
@@ -93,11 +94,14 @@ export default async function QuartiersPage({ params }: Props) {
             <span>/</span>
             <span className="text-[var(--text-secondary)]">Quartiers</span>
           </nav>
-          <Badge variant="accent" className="mb-3">Profils de quartiers</Badge>
-          <h1 className="text-3xl font-bold text-[var(--text-primary)] mb-2">
-            Quartiers de {city.name}
+          <p className="text-xs uppercase tracking-widest text-[var(--accent)] font-semibold mb-2">
+            🏘️ Profils de quartiers
+          </p>
+          <h1 className="text-4xl sm:text-5xl font-bold text-[var(--text-primary)] mb-3 tracking-tight leading-[1.05]">
+            Quartiers de{" "}
+            <span className="font-display gradient-text-anim italic">{city.name}</span>
           </h1>
-          <p className="text-[var(--text-secondary)]">
+          <p className="text-[var(--text-secondary)] text-lg max-w-2xl">
             {neighborhoods.length > 0
               ? `${neighborhoods.length} quartiers analysés — sécurité, loyers, transports, ambiance.`
               : "Données de quartiers en cours de collecte pour cette ville."}
