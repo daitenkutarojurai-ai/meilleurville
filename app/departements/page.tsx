@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import { Badge } from "@/components/ui/Badge";
+import { AmbientBackground } from "@/components/AmbientBackground";
 import { CITIES_SEED } from "@/data/cities-seed";
 
 export const metadata: Metadata = {
@@ -36,25 +36,27 @@ export default function DepartementsPage() {
     .sort((a, b) => b.avgScore - a.avgScore);
 
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen relative">
+      <AmbientBackground />
       <Navbar />
 
-      <section className="bg-[var(--bg-surface)] border-b border-[var(--border)] py-14">
-        <div className="mx-auto max-w-5xl px-4 sm:px-6">
-          <Badge variant="accent" className="mb-3">Par département</Badge>
-          <h1 className="text-3xl sm:text-4xl font-bold text-[var(--text-primary)] mb-3">
-            Explorer par département
+      <section className="relative pt-20 pb-10">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6 text-center">
+          <p className="text-xs uppercase tracking-widest text-[var(--accent)] font-semibold mb-2">
+            🏙️ {sortedDepts.length} départements
+          </p>
+          <h1 className="text-4xl sm:text-6xl font-bold text-[var(--text-primary)] mb-4 tracking-tight leading-[1.05]">
+            Par <span className="font-display gradient-text-anim italic">département</span>
           </h1>
-          <p className="text-[var(--text-secondary)] max-w-2xl">
-            {CITIES_SEED.length} villes analysées dans {sortedDepts.length} départements français.
-            Chaque département avec ses meilleures villes par score global.
+          <p className="text-[var(--text-secondary)] text-lg max-w-2xl mx-auto">
+            {CITIES_SEED.length} villes regroupées par département, classées par score global.
           </p>
         </div>
       </section>
 
-      <div className="mx-auto max-w-5xl px-4 sm:px-6 py-12 space-y-4">
+      <div className="relative mx-auto max-w-5xl px-4 sm:px-6 pb-12 space-y-3">
         {sortedDepts.map(({ dept, cities, avgScore }) => (
-          <div key={dept} className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5">
+          <div key={dept} className="rounded-2xl glass border border-white/50 hover:border-[var(--accent)]/30 p-5 shadow-sm hover:shadow-md transition-all">
             <div className="flex items-start justify-between gap-4 mb-4">
               <div>
                 <h2 className="text-base font-bold text-[var(--text-primary)]">{dept}</h2>

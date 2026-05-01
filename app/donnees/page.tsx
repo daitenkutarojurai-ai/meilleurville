@@ -52,7 +52,7 @@ const SOURCES = [
   {
     name: "Open-Meteo",
     category: "Météo & Climat",
-    description: "Températures moyennes historiques, précipitations, jours de soleil par commune.",
+    description: "Températures moyennes historiques, précipitations, ensoleillement par commune (heures et jours).",
     update: "Quotidien",
     format: "JSON API",
     status: "live" as const,

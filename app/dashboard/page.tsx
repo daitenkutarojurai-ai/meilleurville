@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
+import { AmbientBackground } from "@/components/AmbientBackground";
 import { Badge } from "@/components/ui/Badge";
 import { Card } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
@@ -11,11 +12,9 @@ import {
   Star,
   Heart,
   Bell,
-  FileText,
   Trophy,
-  TrendingUp,
   Sparkles,
-  Lock,
+  TrendingUp,
 } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -46,14 +45,15 @@ export default function DashboardPage() {
     : 100;
 
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen relative">
+      <AmbientBackground />
       <Navbar />
 
-      <section className="bg-[var(--bg-surface)] border-b border-[var(--border)] py-10">
+      <section className="relative pt-20 pb-8">
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
-          <div className="flex flex-col sm:flex-row sm:items-center gap-4">
+          <div className="flex flex-col sm:flex-row sm:items-center gap-4 rounded-3xl glass-strong border border-white/60 p-6 shadow-md">
             {/* Avatar */}
-            <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-[var(--accent)]/15 border border-[var(--accent)]/20 text-xl font-bold text-[var(--accent)]">
+            <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-[var(--accent)] to-emerald-700 ring-1 ring-white/40 text-xl font-bold text-white shadow-lg">
               D
             </div>
             <div className="flex-1">

@@ -16,7 +16,7 @@ import { getNeighborhoods } from "@/data/neighborhoods";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { getHousing } from "@/data/housing";
 import { RANKING_META, getRankedCities } from "@/lib/rankings";
-import { formatNumber, formatScore, scoreColor, cn } from "@/lib/utils";
+import { formatNumber, formatScore, scoreColor, cn, sunshineDays, sunshineHours } from "@/lib/utils";
 import type { CitySeed } from "@/data/cities-seed";
 import type { RankingSlug } from "@/lib/rankings";
 
@@ -130,9 +130,14 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                   <Sun className="h-4 w-4 text-white" />
                 </div>
                 <div className="text-2xl font-bold font-mono-data text-[var(--text-primary)]">
-                  {city.sunshinedays}<span className="text-base text-[var(--text-tertiary)]"> h</span>
+                  {sunshineDays(city.sunshinedays)}<span className="text-base text-[var(--text-tertiary)]"> j</span>
                 </div>
-                <div className="text-xs text-[var(--text-secondary)]">de soleil / an</div>
+                <div className="text-xs text-[var(--text-secondary)]">
+                  de soleil / an
+                  <span className="block text-[10px] text-[var(--text-tertiary)] font-mono-data">
+                    ({sunshineHours(city.sunshinedays)})
+                  </span>
+                </div>
               </div>
             )}
             {city.avgTempJuly && (
@@ -442,7 +447,7 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                   { label: "Département", value: city.department ?? "—" },
                   { label: "Région", value: city.region ?? "—" },
                   { label: "Altitude", value: city.elevation ? `${city.elevation} m` : "—" },
-                  { label: "Heures de soleil / an", value: city.sunshinedays ? `${city.sunshinedays} h` : "—" },
+                  { label: "Ensoleillement / an", value: city.sunshinedays ? `${sunshineDays(city.sunshinedays)} j (${sunshineHours(city.sunshinedays)})` : "—" },
                   { label: "Temp. moyenne juillet", value: city.avgTempJuly ? `${city.avgTempJuly}°C` : "—" },
                   { label: "Temp. moyenne janvier", value: city.avgTempJanuary ? `${city.avgTempJanuary}°C` : "—" },
                   ...(housing ? [

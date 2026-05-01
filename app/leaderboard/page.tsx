@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import { Badge } from "@/components/ui/Badge";
+import { AmbientBackground } from "@/components/AmbientBackground";
 import { ScoreBar } from "@/components/ui/ScoreBar";
 import { LeaderboardTable } from "@/components/LeaderboardTable";
 import { CITIES_SEED } from "@/data/cities-seed";
@@ -50,23 +50,27 @@ export default function LeaderboardPage() {
   };
 
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen relative">
+      <AmbientBackground />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }}
       />
       <Navbar />
 
-      {/* Hero */}
-      <section className="bg-[var(--bg-surface)] border-b border-[var(--border)] py-14">
-        <div className="mx-auto max-w-5xl px-4 sm:px-6">
-          <Badge variant="accent" className="mb-3">Classement global</Badge>
-          <h1 className="text-3xl sm:text-4xl font-bold text-[var(--text-primary)] mb-3">
-            Leaderboard des villes françaises
+      {/* Premium hero */}
+      <section className="relative pt-20 pb-10">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6 text-center">
+          <p className="text-xs uppercase tracking-widest text-[var(--accent)] font-semibold mb-2">
+            🏆 Classement global · {sorted.length} villes
+          </p>
+          <h1 className="text-4xl sm:text-6xl font-bold text-[var(--text-primary)] mb-4 tracking-tight leading-[1.05]">
+            Le grand{" "}
+            <span className="font-display gradient-text-anim italic">leaderboard</span>
           </h1>
-          <p className="text-[var(--text-secondary)] max-w-2xl">
-            Score global agrégé sur 9 critères de qualité de vie, mis à jour trimestriellement.
-            Chaque critère est noté sur 10 ; le score global est une moyenne pondérée.
+          <p className="text-[var(--text-secondary)] text-lg max-w-2xl mx-auto">
+            Score global pondéré sur 8 axes (vie, sécurité, coût, nature, transport, culture, écoles, télétravail).
+            Calibré sur Insee + Ministère Intérieur.
           </p>
         </div>
       </section>

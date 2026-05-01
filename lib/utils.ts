@@ -14,6 +14,27 @@ export function formatScore(score: number | null | undefined): string {
   return score.toFixed(1);
 }
 
+/**
+ * The seed stores annual sunshine in **hours/year** (Marseille 2 850, Paris 1 630).
+ * French readers usually think in **jours d'ensoleillement** (Marseille ≈ 300 j).
+ * Météo-France defines a sunny day as ≥4 h direct sun; the empirical conversion
+ * is roughly hours / 9.5. We expose both helpers so views stay consistent.
+ */
+export function sunshineHours(value: number | null | undefined): string {
+  if (value == null) return "—";
+  return `${formatNumber(value)} h`;
+}
+
+export function sunshineDays(value: number | null | undefined): number | null {
+  if (value == null) return null;
+  return Math.round(value / 9.5);
+}
+
+export function formatSunshineDays(value: number | null | undefined): string {
+  const d = sunshineDays(value);
+  return d == null ? "—" : `${d} j`;
+}
+
 export function scoreColor(score: number): string {
   if (score >= 8) return "text-emerald-400";
   if (score >= 6) return "text-yellow-400";

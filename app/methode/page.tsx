@@ -1,95 +1,88 @@
 import { Metadata } from "next";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import { Badge } from "@/components/ui/Badge";
+import { AmbientBackground } from "@/components/AmbientBackground";
 import { Card } from "@/components/ui/Card";
-import { CheckCircle, Database, Users, Bot, RefreshCw, Shield } from "lucide-react";
+import { CheckCircle, Database, Bot, Shield, AlertTriangle } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Méthodologie — Comment sont calculés les scores ? | MeilleurVille",
   description:
-    "Transparence totale : découvrez comment MeilleurVille calcule ses scores de qualité de vie, classe les villes et protège l'intégrité des avis.",
+    "Transparence totale : sources, formules, biais et limites. Aucune ville ne paie pour son classement.",
 };
 
-const SCORE_SOURCES = [
+const AXES = [
+  { key: "Vie / Bien-être", weight: 0.18, sources: ["Palmarès L'Express + Le Figaro 2023-24", "Avis communauté"] },
+  { key: "Sécurité", weight: 0.18, sources: ["SSMSI — atteintes aux personnes par 1 000 hab.", "Données ouvertes Min. Intérieur 2024"] },
+  { key: "Coût de la vie", weight: 0.16, sources: ["Clameur — observatoire des loyers 2024", "SeLoger / Meilleurs Agents (€/m²)"] },
+  { key: "Nature", weight: 0.12, sources: ["OpenStreetMap parcs/forêts", "Open-Meteo ensoleillement annuel"] },
+  { key: "Transport", weight: 0.10, sources: ["GTFS SNCF + RATP", "OpenStreetMap réseau cyclable"] },
+  { key: "Culture", weight: 0.10, sources: ["Open Data culture (musées, salles)", "Densité de patrimoine"] },
+  { key: "Écoles", weight: 0.08, sources: ["Open Data Éducation Nationale", "Taux réussite Bac académie"] },
+  { key: "Télétravail", weight: 0.08, sources: ["Arcep — couverture fibre", "Inventaire coworking OSM"] },
+];
+
+const PRINCIPLES = [
   {
-    key: "Qualité de vie",
-    sources: ["Avis habitants (poids 60%)", "INSEE — données sociales", "Géorisques — risques naturels"],
-    update: "Hebdomadaire",
+    icon: Database,
+    title: "Données ouvertes",
+    desc: "100% des sources institutionnelles sont publiques et auditables : Insee, SSMSI (Ministère de l'Intérieur), Arcep, Éducation Nationale, OpenStreetMap. Aucune donnée achetée à un fournisseur opaque.",
   },
   {
-    key: "Transport",
-    sources: ["GTFS SNCF & RATP", "OpenStreetMap réseau vélo", "Avis transports habitants"],
-    update: "Mensuelle",
+    icon: Shield,
+    title: "Aucun classement payant",
+    desc: "Aucune ville, aucun agent immobilier, aucun acteur ne peut payer pour modifier un score. Pas de pub, pas de partenariats commerciaux affectant l'éditorial.",
   },
   {
-    key: "Nature",
-    sources: ["Copernicus Land Cover", "OpenStreetMap parcs/forêts", "Ensoleillement Open-Meteo"],
-    update: "Annuelle",
+    icon: Bot,
+    title: "IA limitée et signalée",
+    desc: "Claude (Anthropic) est utilisé uniquement pour générer le résumé éditorial des fiches villes. Il n'influence aucun score. Tous les contenus IA sont étiquetés.",
   },
   {
-    key: "Coût de vie",
-    sources: ["Indices de loyer OLAP", "Données SeLoger (médiane)", "Avis budget habitants"],
-    update: "Mensuelle",
-  },
-  {
-    key: "Sécurité",
-    sources: ["Statistiques délinquance SSMSI", "Avis sécurité habitants", "Red Flag Radar (pondéré)"],
-    update: "Mensuelle",
-  },
-  {
-    key: "Écoles",
-    sources: ["Open Data Éducation Nationale", "Taux réussite Bac (académie)", "Avis familles"],
-    update: "Annuelle",
-  },
-  {
-    key: "Télétravail",
-    sources: ["Arcep — couverture fibre/5G", "Inventaire coworking OSM", "Avis remote workers"],
-    update: "Trimestrielle",
+    icon: AlertTriangle,
+    title: "Calibration humaine, pas magique",
+    desc: "Les ~120 villes les plus connues ont des scores ajustés à la main contre les données de référence. Les autres reçoivent un ajustement statistique par département. Voir 'Limites' ci-dessous.",
   },
 ];
 
-const TRUST_STEPS = [
-  { step: 1, title: "Soumission", desc: "L'avis est soumis et mis en file de modération." },
-  { step: 2, title: "Détection automatique", desc: "Notre IA (Claude) vérifie les contenus abusifs, spam, faux avis et incohérences." },
-  { step: 3, title: "Validation humaine", desc: "Les avis suspects sont examinés par un modérateur sous 24–48h." },
-  { step: 4, title: "Publication", desc: "L'avis approuvé est publié. Le contributeur gagne des points de réputation." },
-  { step: 5, title: "Votes communautaires", desc: "La communauté vote 'Utile / Non utile'. Les avis peu utiles voient leur poids réduit." },
-  { step: 6, title: "Révision périodique", desc: "Les avis de plus de 3 ans sont demarchés pour vérification. Les signalés sont réexaminés." },
+const LIMITS = [
+  "Cette V1 publique fonctionne sur un dataset statique. Les classements ne sont pas (encore) recalculés automatiquement à chaque nouvelle donnée publiée.",
+  "Les ~220 villes hors calibration manuelle reçoivent un ajustement par département (basé sur la moyenne SSMSI / Clameur). Elles peuvent dévier de la réalité hyper-locale d'un quartier.",
+  "Le score sécurité reflète les atteintes aux personnes au niveau département puis ville ; il ne capture pas la perception subjective d'un quartier précis.",
+  "Le coût de la vie utilise des médianes communales : les micro-quartiers varient fortement, surtout en grandes métropoles.",
+  "Les avis postés en commentaire ne sont pas encore agrégés dans les scores. Ils servent de témoignages bruts pour la communauté.",
+  "Modération des commentaires : automatique uniquement (rate-limit, honeypot, filtre liens / mots-clés). Pas encore de revue humaine.",
 ];
 
 export default function MethodePage() {
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen relative">
+      <AmbientBackground />
       <Navbar />
 
-      <section className="bg-[var(--bg-surface)] border-b border-[var(--border)] py-14">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6">
-          <Badge variant="accent" className="mb-3">Transparence</Badge>
-          <h1 className="text-3xl sm:text-4xl font-bold text-[var(--text-primary)] mb-3">
-            Comment nous calculons les scores
+      {/* Hero */}
+      <section className="relative pt-20 pb-10">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6 text-center">
+          <p className="text-xs uppercase tracking-widest text-[var(--accent)] font-semibold mb-2">
+            🔍 Transparence
+          </p>
+          <h1 className="text-4xl sm:text-5xl font-bold text-[var(--text-primary)] mb-4 tracking-tight leading-[1.05]">
+            Comment on calcule{" "}
+            <span className="font-display gradient-text-anim italic">les scores</span>
           </h1>
-          <p className="max-w-2xl text-[var(--text-secondary)]">
-            MeilleurVille s'engage à une transparence totale sur ses sources, ses
-            formules et ses limites. Aucune ville ne paie pour améliorer son
-            classement.
+          <p className="text-[var(--text-secondary)] text-lg max-w-2xl mx-auto">
+            Aucune ville ne paie pour son classement. Voici exactement les sources,
+            la formule, et les limites que vous devez connaître avant d&apos;utiliser nos chiffres.
           </p>
         </div>
       </section>
 
-      <div className="mx-auto max-w-5xl px-4 sm:px-6 py-14 space-y-14">
+      <div className="relative mx-auto max-w-5xl px-4 sm:px-6 pb-16 space-y-14">
         {/* Principles */}
         <section>
-          <h2 className="text-2xl font-bold text-[var(--text-primary)] mb-6">
-            Nos 4 principes
-          </h2>
+          <h2 className="text-2xl font-bold text-[var(--text-primary)] mb-6">Nos 4 principes</h2>
           <div className="grid gap-4 sm:grid-cols-2">
-            {[
-              { icon: Users, title: "Communauté d'abord", desc: "60–70% du score vient des avis vérifiés d'habitants réels. Les données statistiques enrichissent, elles ne supplantent pas." },
-              { icon: Database, title: "Sources ouvertes", desc: "Toutes nos sources de données institutionnelles sont publiques (INSEE, Éducation Nationale, ARCEP). Zéro donnée achetée à des fournisseurs opaques." },
-              { icon: Bot, title: "IA transparente", desc: "L'IA (Claude) est utilisée pour la modération, le résumé d'avis et le matching. Elle ne modifie jamais un score manuellement." },
-              { icon: Shield, title: "Intégrité des scores", desc: "Aucune ville, aucun agent immobilier, aucun acteur institutionnel ne peut payer pour modifier un score. Les classements ne sont pas sponsorisés." },
-            ].map(({ icon: Icon, title, desc }) => (
+            {PRINCIPLES.map(({ icon: Icon, title, desc }) => (
               <Card key={title} hover glow>
                 <div className="flex items-start gap-4">
                   <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-xl bg-[var(--accent)]/10 border border-[var(--accent)]/20">
@@ -105,48 +98,94 @@ export default function MethodePage() {
           </div>
         </section>
 
-        {/* Score formula */}
+        {/* Formula */}
         <section>
-          <h2 className="text-2xl font-bold text-[var(--text-primary)] mb-3">
-            Formule de score global
-          </h2>
+          <h2 className="text-2xl font-bold text-[var(--text-primary)] mb-3">Formule du score global</h2>
           <p className="text-[var(--text-secondary)] mb-6">
-            Chaque critère est noté de 1 à 10. Le score global est une moyenne
-            pondérée, les poids variant selon le classement consulté (famille,
-            télétravail, etc.).
+            Chaque ville reçoit 8 notes de 1 à 10. Le score global est leur moyenne pondérée.
+            Les classements thématiques (famille, télétravail…) re-pondèrent ces axes.
           </p>
-          <div className="overflow-hidden rounded-2xl border border-[var(--border)]">
-            <div className="bg-[var(--bg-elevated)] px-6 py-3 text-xs font-mono text-[var(--text-secondary)] border-b border-[var(--border)]">
+          <div className="overflow-hidden rounded-2xl border border-[var(--border)] glass">
+            <div className="bg-[var(--bg-elevated)]/60 px-6 py-3 text-xs font-mono text-[var(--text-secondary)] border-b border-[var(--border)]">
               Formule — Score global standard
             </div>
-            <div className="bg-[var(--bg-canvas)] px-6 py-4 font-mono text-sm text-[var(--text-primary)]">
-              <p className="text-[var(--accent)]">score_global = Σ(score_critère × poids) / Σ(poids)</p>
-              <p className="mt-2 text-[var(--text-secondary)] text-xs">
-                avec poids_avis = 0.6, poids_données = 0.4 pour chaque critère<br />
-                et score_avis = moyenne(avis_habitants_approuvés, pondéré par votes_utiles)
-              </p>
+            <div className="px-6 py-4 font-mono text-sm text-[var(--text-primary)]">
+              <p className="text-[var(--accent)]">score_global = Σ(score_axe × poids_axe)</p>
+              <pre className="mt-3 text-xs text-[var(--text-secondary)] leading-relaxed">{`vie         × 0.18
+sécurité    × 0.18
+coût        × 0.16
+nature      × 0.12
+transport   × 0.10
+culture     × 0.10
+écoles      × 0.08
+télétravail × 0.08
+                  ─────
+                  1.00`}</pre>
             </div>
+          </div>
+        </section>
+
+        {/* Two-stage calibration */}
+        <section>
+          <h2 className="text-2xl font-bold text-[var(--text-primary)] mb-3">Calibration en deux étapes</h2>
+          <p className="text-[var(--text-secondary)] mb-6">
+            On part d&apos;une grille de base, puis on ajuste pour coller à la réalité.
+          </p>
+          <div className="grid gap-4 md:grid-cols-2">
+            <Card>
+              <div className="text-xs uppercase tracking-wider text-[var(--accent)] font-semibold mb-2">Étape 1</div>
+              <h3 className="font-semibold text-[var(--text-primary)] mb-2">~120 overrides manuels</h3>
+              <p className="text-sm text-[var(--text-secondary)] leading-relaxed mb-3">
+                Pour les villes les plus connues, on fixe à la main les valeurs de chaque axe
+                en s&apos;appuyant sur les sources publiques : SSMSI pour la sécurité, Clameur
+                pour les loyers, palmarès Figaro/L&apos;Express, etc.
+              </p>
+              <div className="text-xs text-[var(--text-tertiary)] font-mono-data">
+                Exemple : Marseille safety 4.0 (SSMSI : 13/1000),<br />
+                Paris cost 2.6 (loyer médian 32 €/m²),<br />
+                Annecy nature 9.8 (lac + Alpes).
+              </div>
+            </Card>
+            <Card>
+              <div className="text-xs uppercase tracking-wider text-[var(--accent)] font-semibold mb-2">Étape 2</div>
+              <h3 className="font-semibold text-[var(--text-primary)] mb-2">Heuristique départementale</h3>
+              <p className="text-sm text-[var(--text-secondary)] leading-relaxed mb-3">
+                Pour les autres villes, on applique un biais par département (basé sur la moyenne
+                SSMSI départementale et Clameur), plus un léger ajustement par taille de population.
+              </p>
+              <div className="text-xs text-[var(--text-tertiary)] font-mono-data">
+                Exemple : Bouches-du-Rhône −1.4 sécurité,<br />
+                Cantal +0.9 sécurité, Paris −2.5 coût,<br />
+                pop &gt; 400 k → −0.6 coût et −0.3 sécurité.
+              </div>
+            </Card>
           </div>
         </section>
 
         {/* Sources table */}
         <section>
-          <h2 className="text-2xl font-bold text-[var(--text-primary)] mb-6">
-            Sources par critère
-          </h2>
-          <div className="overflow-hidden rounded-2xl border border-[var(--border)]">
+          <h2 className="text-2xl font-bold text-[var(--text-primary)] mb-6">Sources par axe</h2>
+          <div className="overflow-hidden rounded-2xl border border-[var(--border)] glass">
             <table className="w-full text-sm">
               <thead>
-                <tr className="bg-[var(--bg-surface)] border-b border-[var(--border)]">
-                  <th className="px-5 py-3 text-left text-xs font-semibold text-[var(--text-secondary)]">Critère</th>
+                <tr className="bg-[var(--bg-elevated)]/60 border-b border-[var(--border)]">
+                  <th className="px-5 py-3 text-left text-xs font-semibold text-[var(--text-secondary)]">Axe</th>
+                  <th className="px-5 py-3 text-right text-xs font-semibold text-[var(--text-secondary)]">Poids</th>
                   <th className="px-5 py-3 text-left text-xs font-semibold text-[var(--text-secondary)]">Sources</th>
-                  <th className="px-5 py-3 text-right text-xs font-semibold text-[var(--text-secondary)]">Mise à jour</th>
                 </tr>
               </thead>
               <tbody>
-                {SCORE_SOURCES.map(({ key, sources, update }, i) => (
-                  <tr key={key} className={`border-b border-[var(--border)] last:border-0 ${i % 2 === 0 ? "bg-[var(--bg-canvas)]" : "bg-[var(--bg-surface)]"}`}>
+                {AXES.map(({ key, weight, sources }, i) => (
+                  <tr
+                    key={key}
+                    className={`border-b border-[var(--border)]/60 last:border-0 ${
+                      i % 2 === 0 ? "bg-white/40" : "bg-transparent"
+                    }`}
+                  >
                     <td className="px-5 py-4 font-medium text-[var(--text-primary)] whitespace-nowrap">{key}</td>
+                    <td className="px-5 py-4 text-right font-mono-data text-[var(--accent)] font-bold">
+                      {weight.toFixed(2)}
+                    </td>
                     <td className="px-5 py-4">
                       <ul className="space-y-0.5">
                         {sources.map((s) => (
@@ -157,9 +196,6 @@ export default function MethodePage() {
                         ))}
                       </ul>
                     </td>
-                    <td className="px-5 py-4 text-right">
-                      <Badge variant="subtle" className="text-xs">{update}</Badge>
-                    </td>
                   </tr>
                 ))}
               </tbody>
@@ -167,71 +203,40 @@ export default function MethodePage() {
           </div>
         </section>
 
-        {/* Trust pipeline */}
+        {/* Limits — explicit */}
         <section>
-          <h2 className="text-2xl font-bold text-[var(--text-primary)] mb-3">
-            Pipeline de confiance des avis
-          </h2>
-          <p className="text-[var(--text-secondary)] mb-8">
-            Chaque avis passe par 6 étapes avant d'influencer un score.
+          <h2 className="text-2xl font-bold text-[var(--text-primary)] mb-3">Limites connues</h2>
+          <p className="text-[var(--text-secondary)] mb-6">
+            On préfère vous les dire clairement plutôt que vous les laisser découvrir.
           </p>
-          <div className="relative space-y-4">
-            {TRUST_STEPS.map(({ step, title, desc }) => (
-              <div key={step} className="flex items-start gap-4">
-                <div className="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-[var(--accent)] text-white text-sm font-bold z-10">
-                  {step}
-                </div>
-                <div className="flex-1 rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-4">
-                  <div className="font-semibold text-[var(--text-primary)] mb-1">{title}</div>
-                  <p className="text-sm text-[var(--text-secondary)]">{desc}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </section>
-
-        {/* Limitations */}
-        <section>
-          <h2 className="text-2xl font-bold text-[var(--text-primary)] mb-4">
-            Limites connues
-          </h2>
           <Card>
             <ul className="space-y-3">
-              {[
-                "Les petites communes (< 5 000 hab.) ont peu d'avis : les scores sont moins fiables.",
-                "Certaines données institutionnelles ont 1–2 ans de décalage (INSEE, Éducation Nationale).",
-                "Le coût de l'immobilier est une médiane agrégée : les micro-quartiers varient fortement.",
-                "Le score sécurité reflète la perception des habitants autant que les statistiques officielles.",
-                "Les villes touristiques ont un biais : les avis de touristes sont filtrés mais pas toujours détectables.",
-              ].map((limit) => (
+              {LIMITS.map((limit) => (
                 <li key={limit} className="flex items-start gap-2 text-sm text-[var(--text-secondary)]">
-                  <span className="mt-1 h-1.5 w-1.5 rounded-full bg-amber-400 flex-shrink-0" />
-                  {limit}
+                  <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-amber-400 flex-shrink-0" />
+                  <span>{limit}</span>
                 </li>
               ))}
             </ul>
           </Card>
         </section>
 
-        {/* Update cadence */}
+        {/* CTA */}
         <section>
-          <div className="rounded-2xl border border-[var(--accent)]/20 bg-[var(--accent)]/5 p-6">
-            <div className="flex items-center gap-2 mb-3">
-              <RefreshCw className="h-5 w-5 text-[var(--accent)]" />
-              <h3 className="font-semibold text-[var(--text-primary)]">Cadence de mise à jour</h3>
-            </div>
-            <div className="grid sm:grid-cols-3 gap-3 text-sm">
-              {[
-                { freq: "Temps réel", items: "Nouveaux avis, signalements Red Flag" },
-                { freq: "Hebdomadaire", items: "Recalcul des scores agrégés, classements" },
-                { freq: "Mensuel / Annuel", items: "Intégration nouvelles données institutionnelles" },
-              ].map(({ freq, items }) => (
-                <div key={freq} className="rounded-xl bg-[var(--bg-canvas)] border border-[var(--border)] p-3">
-                  <div className="text-[var(--accent)] font-semibold mb-1">{freq}</div>
-                  <div className="text-xs text-[var(--text-secondary)]">{items}</div>
-                </div>
-              ))}
-            </div>
+          <div className="rounded-2xl border border-[var(--accent)]/20 bg-gradient-to-br from-[var(--accent-soft)] to-white p-6">
+            <h3 className="font-semibold text-[var(--text-primary)] mb-2">
+              Vous avez repéré un score qui colle pas ?
+            </h3>
+            <p className="text-sm text-[var(--text-secondary)] mb-4">
+              On corrige rapidement. Écrivez-nous via le formulaire de contact en précisant
+              la ville, l&apos;axe concerné et la source qui contredit notre note.
+            </p>
+            <a
+              href="/contact"
+              className="inline-flex items-center gap-1.5 rounded-xl bg-[var(--accent)] text-white px-5 py-2.5 text-sm font-semibold hover:bg-emerald-700 transition-colors"
+            >
+              Signaler une erreur →
+            </a>
           </div>
         </section>
       </div>

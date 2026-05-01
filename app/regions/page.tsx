@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import { Badge } from "@/components/ui/Badge";
+import { AmbientBackground } from "@/components/AmbientBackground";
 import { CITIES_SEED } from "@/data/cities-seed";
 
 export const metadata: Metadata = {
@@ -43,32 +43,43 @@ export default function RegionsPage() {
     .sort((a, b) => b.avgScore - a.avgScore);
 
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen relative">
+      <AmbientBackground />
       <Navbar />
 
-      <section className="bg-[var(--bg-surface)] border-b border-[var(--border)] py-14">
-        <div className="mx-auto max-w-5xl px-4 sm:px-6">
-          <Badge variant="accent" className="mb-3">Par région</Badge>
-          <h1 className="text-3xl sm:text-4xl font-bold text-[var(--text-primary)] mb-3">
-            Explorer par région
+      <section className="relative pt-20 pb-10">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6 text-center">
+          <p className="text-xs uppercase tracking-widest text-[var(--accent)] font-semibold mb-2">
+            🗺️ {sortedRegions.length} régions
+          </p>
+          <h1 className="text-4xl sm:text-6xl font-bold text-[var(--text-primary)] mb-4 tracking-tight leading-[1.05]">
+            Explorer{" "}
+            <span className="font-display gradient-text-anim italic">par région</span>
           </h1>
-          <p className="text-[var(--text-secondary)] max-w-2xl">
-            {CITIES_SEED.length} villes analysées dans {sortedRegions.length} régions françaises.
-            Chaque région avec ses meilleures villes par score global.
+          <p className="text-[var(--text-secondary)] text-lg max-w-2xl mx-auto">
+            {CITIES_SEED.length} villes analysées dans {sortedRegions.length} régions françaises —
+            chacune avec ses pépites par score global.
           </p>
         </div>
       </section>
 
-      <div className="mx-auto max-w-5xl px-4 sm:px-6 py-12 space-y-6">
+      <div className="relative mx-auto max-w-5xl px-4 sm:px-6 pb-12 space-y-5">
         {sortedRegions.map(({ region, cities, avgScore }) => (
-          <div key={region} className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-6">
+          <div key={region} className="group rounded-2xl glass border border-white/50 hover:border-[var(--accent)]/30 p-6 shadow-md hover:shadow-xl transition-all">
             <div className="flex items-start justify-between gap-4 mb-5">
               <div className="flex items-center gap-3">
-                <div className="text-3xl">{REGION_EMOJIS[region] ?? "📍"}</div>
+                <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-[var(--accent)] to-emerald-700 shadow-lg ring-1 ring-white/40 text-2xl">
+                  {REGION_EMOJIS[region] ?? "📍"}
+                </div>
                 <div>
-                  <h2 className="text-lg font-bold text-[var(--text-primary)]">{region}</h2>
+                  <h2 className="text-xl font-bold text-[var(--text-primary)]">{region}</h2>
                   <div className="text-xs text-[var(--text-tertiary)] mt-0.5">
-                    {cities.length} ville{cities.length > 1 ? "s" : ""} · score moyen {avgScore.toFixed(1)}/10
+                    {cities.length} ville{cities.length > 1 ? "s" : ""} ·
+                    <span className="ml-1 inline-flex items-center gap-1">
+                      score moyen
+                      <span className="font-mono-data font-bold text-[var(--accent)]">{avgScore.toFixed(1)}</span>
+                      / 10
+                    </span>
                   </div>
                 </div>
               </div>
