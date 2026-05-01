@@ -223,7 +223,7 @@ export default function DonneesPage() {
           </p>
           <div className="flex flex-wrap gap-3">
             <Link
-              href="/premium"
+              href="/quiz"
               className="rounded-xl bg-[var(--accent)] text-white font-semibold px-5 py-2.5 text-sm hover:opacity-90 transition-opacity"
             >
               ✨ Accès Pro — Export CSV

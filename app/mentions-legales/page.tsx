@@ -60,7 +60,7 @@ export default function MentionsLegalesPage() {
           <div>
             <h2 className="text-base font-semibold text-[var(--text-primary)] mb-2">Crédits technologiques</h2>
             <p>
-              Ce site utilise notamment : Next.js (Vercel), Tailwind CSS, Stripe (paiements),
+              Ce site utilise notamment : Next.js (Vercel), Tailwind CSS,
               Anthropic Claude (résumés IA), Open-Meteo (données météo).
             </p>
           </div>

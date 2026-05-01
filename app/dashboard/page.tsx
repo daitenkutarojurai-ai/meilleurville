@@ -82,7 +82,7 @@ export default function DashboardPage() {
                 </span>
               </div>
             </div>
-            <Link href="/premium">
+            <Link href="/quiz">
               <Button size="sm" className="gap-1.5">
                 <Sparkles className="h-3.5 w-3.5" />
                 Passer à Pro
@@ -223,7 +223,7 @@ export default function DashboardPage() {
                   </div>
                 ))}
               </div>
-              <Link href="/premium">
+              <Link href="/quiz">
                 <Button size="sm" className="w-full gap-1.5">
                   <Sparkles className="h-3.5 w-3.5" />
                   Essai 7j gratuit

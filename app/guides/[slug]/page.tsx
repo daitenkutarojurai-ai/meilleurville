@@ -256,7 +256,7 @@ export default async function GuidePage({ params }: Props) {
                 Obtenez un PDF sur mesure avec analyse de compatibilité, budget, Red Flags et checklist déménagement.
               </p>
               <Link
-                href="/premium"
+                href="/quiz"
                 className="block text-center text-xs font-semibold bg-[var(--accent)] text-white rounded-lg py-2 hover:opacity-90 transition-opacity"
               >
                 Essai 7j gratuit →

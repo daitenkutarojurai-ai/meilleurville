@@ -315,7 +315,7 @@ export function QuizFlow() {
               </p>
               <div className="flex flex-wrap gap-3">
                 <Link
-                  href="/premium"
+                  href="/quiz"
                   className="inline-flex items-center gap-2 rounded-xl bg-[var(--accent)] text-white font-semibold px-5 py-2.5 text-sm hover:opacity-90 transition-opacity"
                 >
                   ✨ Générer mon rapport — Pro

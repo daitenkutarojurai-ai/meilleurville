@@ -191,24 +191,36 @@ export function FranceHeatmap() {
 
         {/* Map + side panel */}
         <div className="grid lg:grid-cols-[1fr_320px] gap-8 items-start">
-          {/* Map surface — glass card with cursor spotlight */}
+          {/* Map surface — deep forest gradient with aurora glow + cursor spotlight */}
           <div
             ref={mapRef}
-            className="group relative rounded-3xl border border-white/60 glass-strong shadow-2xl shadow-[var(--accent)]/10 p-4 sm:p-6"
-            style={{ ["--mx" as never]: "50%", ["--my" as never]: "50%" }}
+            className="group relative rounded-3xl border border-[#0F2419]/40 shadow-2xl shadow-[var(--accent)]/20 p-4 sm:p-6 overflow-hidden"
+            style={{
+              ["--mx" as never]: "50%",
+              ["--my" as never]: "50%",
+              background:
+                "radial-gradient(ellipse 80% 100% at 50% 0%, #1F3A2A 0%, #15301F 55%, #0B1E14 100%)",
+            }}
           >
+            {/* Aurora glow inside the surface */}
+            <div className="pointer-events-none absolute inset-0 rounded-3xl" aria-hidden>
+              <div className="absolute -top-32 left-1/4 h-96 w-96 rounded-full bg-[#22C55E]/25 blur-[120px]" />
+              <div className="absolute top-0 right-0 h-72 w-72 rounded-full bg-[#F59E0B]/15 blur-[100px]" />
+              <div className="absolute bottom-0 left-0 h-72 w-72 rounded-full bg-[#84CC16]/15 blur-[100px]" />
+            </div>
+
             {/* Cursor spotlight */}
             <div
               aria-hidden
               className="pointer-events-none absolute inset-0 rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
               style={{
                 background:
-                  "radial-gradient(360px circle at var(--mx) var(--my), rgba(22,163,74,0.18), transparent 60%)",
+                  "radial-gradient(420px circle at var(--mx) var(--my), rgba(132,204,22,0.25), transparent 65%)",
               }}
             />
 
-            {/* Subtle grain on top */}
-            <div className="grain grain-soft rounded-3xl" style={{ opacity: 0.18 }} />
+            {/* Grain on top */}
+            <div className="grain rounded-3xl" style={{ opacity: 0.18, mixBlendMode: "overlay" }} />
 
             <svg
               ref={svgRef}
@@ -219,9 +231,9 @@ export function FranceHeatmap() {
             >
               <defs>
                 <radialGradient id="franceFill" cx="50%" cy="40%" r="60%">
-                  <stop offset="0%" stopColor="#DCFCE7" stopOpacity="0.95" />
-                  <stop offset="60%" stopColor="#F0F5E5" stopOpacity="0.85" />
-                  <stop offset="100%" stopColor="#FAFBF4" stopOpacity="0.7" />
+                  <stop offset="0%" stopColor="#34D399" stopOpacity="0.18" />
+                  <stop offset="60%" stopColor="#22C55E" stopOpacity="0.12" />
+                  <stop offset="100%" stopColor="#0F2419" stopOpacity="0.05" />
                 </radialGradient>
                 <linearGradient id="franceStroke" x1="0%" y1="0%" x2="100%" y2="100%">
                   <stop offset="0%" stopColor="#15803D" />
@@ -248,7 +260,7 @@ export function FranceHeatmap() {
                   </feMerge>
                 </filter>
                 <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-                  <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(22,163,74,0.06)" strokeWidth="1" />
+                  <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(132,204,22,0.07)" strokeWidth="1" />
                 </pattern>
                 <clipPath id="franceClip">
                   <path d={BORDER_PATH} />
@@ -309,7 +321,7 @@ export function FranceHeatmap() {
                 d={BORDER_PATH}
                 fill="url(#franceFill)"
                 stroke="url(#franceStroke)"
-                strokeWidth="2"
+                strokeWidth="2.5"
                 strokeLinejoin="round"
                 strokeLinecap="round"
                 style={{
@@ -324,7 +336,7 @@ export function FranceHeatmap() {
               <path
                 d={BORDER_PATH}
                 fill="none"
-                stroke="rgba(22,163,74,0.30)"
+                stroke="rgba(132,204,22,0.45)"
                 strokeWidth="6"
                 strokeLinejoin="round"
                 filter="url(#borderGlow)"
@@ -346,10 +358,12 @@ export function FranceHeatmap() {
                   </g>
                 ))}
 
-              {/* City dots — staggered fade-in */}
+              {/* City dots — staggered fade-in, click to open city */}
               {dots.map((d) => (
-                <g
+                <a
                   key={d.slug}
+                  href={`/villes/${d.slug}`}
+                  aria-label={`Voir ${d.name}`}
                   className="cursor-pointer"
                   style={{
                     opacity: mounted ? 1 : 0,
@@ -372,13 +386,10 @@ export function FranceHeatmap() {
                   }
                   onMouseLeave={() => setHover(null)}
                 >
-                  {/* Outer glow halo */}
                   <circle cx={d.x} cy={d.y} r={d.r * 2.6} fill={d.color} opacity="0.18" filter="url(#dotGlow)" />
-                  {/* Mid glow */}
                   <circle cx={d.x} cy={d.y} r={d.r * 1.6} fill={d.color} opacity="0.35" />
-                  {/* Core dot */}
                   <circle cx={d.x} cy={d.y} r={d.r} fill={d.color} stroke="white" strokeWidth="1" />
-                </g>
+                </a>
               ))}
 
               {/* Hover ring */}
@@ -442,18 +453,18 @@ export function FranceHeatmap() {
             )}
 
             {/* Legend */}
-            <div className="mt-4 flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-xs">
-              <span className="text-[var(--text-tertiary)]">Score :</span>
+            <div className="relative mt-4 flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-xs">
+              <span className="text-[#A8C4A8]">Score :</span>
               {[
                 { c: "#FB923C", l: "<5.5" },
                 { c: "#F59E0B", l: "5.5–6.5" },
                 { c: "#84CC16", l: "6.5–7.5" },
                 { c: "#22C55E", l: "7.5–8.5" },
-                { c: "#059669", l: "≥8.5" },
+                { c: "#34D399", l: "≥8.5" },
               ].map((s) => (
                 <span key={s.l} className="flex items-center gap-1.5">
-                  <span className="h-2.5 w-2.5 rounded-full" style={{ background: s.c, boxShadow: `0 0 8px ${s.c}` }} />
-                  <span className="text-[var(--text-secondary)] font-mono-data">{s.l}</span>
+                  <span className="h-2.5 w-2.5 rounded-full" style={{ background: s.c, boxShadow: `0 0 10px ${s.c}` }} />
+                  <span className="text-[#C4D5C0] font-mono-data">{s.l}</span>
                 </span>
               ))}
             </div>

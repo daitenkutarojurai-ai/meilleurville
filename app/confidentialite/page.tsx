@@ -67,7 +67,7 @@ Pour exercer ces droits, contactez : privacy@meilleurville.fr`,
     content: `MeilleurVille utilise les services suivants qui peuvent traiter des données techniques :
 
 • Vercel (hébergement) — données techniques de connexion, CDN
-• Stripe (paiement) — uniquement si vous souscrivez à l'abonnement Pro
+
 • Anthropic (IA) — les résumés IA sont générés via Claude ; aucune donnée personnelle n'est envoyée
 
 Aucune donnée n'est transmise à des courtiers de données ou à des fins publicitaires.`,

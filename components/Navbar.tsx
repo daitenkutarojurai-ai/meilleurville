@@ -1,9 +1,10 @@
 "use client";
 import Link from "next/link";
 import { useState, useEffect } from "react";
-import { Menu, X, MapPin, Sparkles } from "lucide-react";
+import { Menu, X, MapPin, Sparkles, Heart } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { cn } from "@/lib/utils";
+import { FavoriteCount } from "@/components/effects/FavoriteButton";
 
 const NAV_LINKS = [
   { label: "Classements", href: "/classements" },
@@ -64,9 +65,14 @@ export function Navbar() {
         </div>
 
         {/* Desktop CTA */}
-        <div className="hidden md:flex items-center gap-3">
-          <Link href="/premium" className="text-sm font-medium text-[var(--accent)] hover:underline">
-            Pro
+        <div className="hidden md:flex items-center gap-2">
+          <Link
+            href="/favoris"
+            className="inline-flex items-center gap-1.5 rounded-lg px-3 py-2 text-sm font-medium text-[var(--text-secondary)] hover:text-[var(--accent-pink)] hover:bg-[var(--bg-elevated)] transition-colors"
+            aria-label="Mes favoris"
+          >
+            <Heart className="h-4 w-4" />
+            <FavoriteCount />
           </Link>
           <Link href="/quiz">
             <Button size="md" className="gap-2">

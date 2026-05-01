@@ -17,7 +17,7 @@ const SECTIONS = [
     title: "2. Accès au service",
     content: `MeilleurVille est accessible gratuitement à tout utilisateur disposant d'un accès internet.
 
-L'accès aux fonctionnalités Pro (rapport PDF, alertes, export CSV) nécessite un abonnement payant de 9,90€/mois soumis à des conditions spécifiques présentées lors de la souscription.
+Le service est entièrement gratuit. Toutes les fonctionnalités (classements, comparateur, quiz, carte, avis) sont accessibles sans paiement ni inscription.
 
 MeilleurVille se réserve le droit de suspendre ou supprimer l'accès de tout utilisateur en cas d'abus.`,
   },
@@ -49,15 +49,7 @@ MeilleurVille ne peut être tenu responsable des décisions prises sur la base d
 Les données sont mises à jour régulièrement mais peuvent présenter des inexactitudes. Signalez-les via notre formulaire de contact.`,
   },
   {
-    title: "6. Abonnement Pro",
-    content: `L'abonnement Pro est facturé mensuellement via Stripe. Il peut être annulé à tout moment depuis votre tableau de bord.
-
-Un essai de 7 jours est offert aux nouveaux abonnés. Aucune facturation pendant la période d'essai ; la carte bancaire est requise pour l'activer.
-
-Conformément au droit de rétractation européen, vous disposez de 14 jours pour annuler sans frais après la fin de la période d'essai.`,
-  },
-  {
-    title: "7. Droit applicable",
+    title: "6. Droit applicable",
     content: "Les présentes CGU sont soumises au droit français. En cas de litige, les parties s'engagent à rechercher une solution amiable avant toute action judiciaire. À défaut, le tribunal compétent sera celui du lieu du siège social de MeilleurVille.",
   },
 ];

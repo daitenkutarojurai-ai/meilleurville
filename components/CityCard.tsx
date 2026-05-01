@@ -4,6 +4,7 @@ import { Badge } from "@/components/ui/Badge";
 import { cn, formatNumber, formatScore } from "@/lib/utils";
 import type { City } from "@/lib/types";
 import { HOUSING } from "@/data/housing";
+import { FavoriteButton } from "@/components/effects/FavoriteButton";
 
 interface CityCardProps {
   city: City;
@@ -40,13 +41,16 @@ export function CityCard({ city, rank, delta, className }: CityCardProps) {
         </div>
 
         <div className="p-5">
-          {rank && (
-            <div className="absolute top-5 right-4 flex h-7 w-7 items-center justify-center rounded-full bg-[var(--bg-elevated)] border border-[var(--border)]">
-              <span className="text-xs font-bold font-mono-data text-[var(--text-secondary)]">
-                {rank}
-              </span>
-            </div>
-          )}
+          <div className="absolute top-5 right-4 flex items-center gap-1.5">
+            <FavoriteButton slug={city.slug} size={14} className="!px-2 !py-1.5" />
+            {rank && (
+              <div className="flex h-7 w-7 items-center justify-center rounded-full bg-[var(--bg-elevated)] border border-[var(--border)]">
+                <span className="text-xs font-bold font-mono-data text-[var(--text-secondary)]">
+                  {rank}
+                </span>
+              </div>
+            )}
+          </div>
 
           <div className="mb-3">
             <div className="flex items-start gap-2">

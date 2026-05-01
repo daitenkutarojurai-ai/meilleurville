@@ -17,7 +17,6 @@ const LINKS = {
     { label: "Guides pratiques", href: "/guides" },
     { label: "Méthodologie", href: "/methode" },
     { label: "Données & Sources", href: "/donnees" },
-    { label: "Premium", href: "/premium" },
   ],
   "À propos": [
     { label: "Notre mission", href: "/about" },

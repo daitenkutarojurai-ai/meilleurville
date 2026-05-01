@@ -7,8 +7,8 @@ import { Card } from "@/components/ui/Card";
 import { ScoreBar } from "@/components/ui/ScoreBar";
 import { Button } from "@/components/ui/Button";
 import { ReviewModal } from "@/components/ReviewModal";
+import { CommentSection } from "@/components/CommentSection";
 import { AISummaryCard } from "@/components/AISummaryCard";
-import { PremiumBanner } from "@/components/PremiumGate";
 import { SimilarCities } from "@/components/SimilarCities";
 import { getNeighborhoods } from "@/data/neighborhoods";
 import { CITIES_SEED } from "@/data/cities-seed";
@@ -425,9 +425,6 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                 <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors" />
               </a>
 
-              {/* Premium upsell */}
-              <PremiumBanner />
-
               {/* CTA write review */}
               <Card className="border-[var(--accent)]/20 bg-[var(--accent)]/5">
                 <div className="text-center">
@@ -633,6 +630,16 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
               ))}
           </div>
         </div>
+      </div>
+
+      {/* Discussions */}
+      <div className="mx-auto max-w-5xl px-4 sm:px-6 pb-16">
+        <CommentSection
+          topic={`city:${city.slug}`}
+          title={`Témoignages sur ${city.name}`}
+          showRating
+          emptyHint={`Vous avez vécu ou visité ${city.name} ? Racontez-nous : ce que vous avez aimé, ce qui vous a surpris, vos coups de cœur de quartier…`}
+        />
       </div>
 
       {showReviewModal && (
