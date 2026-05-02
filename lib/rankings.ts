@@ -266,6 +266,28 @@ export const RANKING_META = {
       "Cadre de vie : espaces verts, activité physique, alimentation locale",
     ],
   },
+  ecologie: {
+    slug: "ecologie",
+    label: "Écologie & Air",
+    emoji: "🌿",
+    headline: "Villes françaises les plus engagées pour l'écologie et la qualité de l'air",
+    description:
+      "Classement des villes françaises par engagement environnemental : qualité de l'air (PM2.5, NO₂), mobilité douce, espaces verts, politiques bas-carbone et résilience climatique. Sources : ATMO France, Ademe, Cerema, Ministère de la Transition Écologique 2026.",
+    methodology:
+      "Score composite pondéré : Nature/air (×4), Transport doux (×2.5), Qualité de vie (×2), Coût (×0.5). L'indice qualité de l'air ATMO et la densité d'espaces verts (Cerema) pèsent prioritairement.",
+    weights: { nature: 4, transport: 2.5, life: 2, cost: 0.5 },
+    color: "text-lime-500",
+    borderColor: "border-lime-500/20",
+    bgColor: "bg-lime-500/5",
+    scoreKey: "nature" as const,
+    why: [
+      "Indice moyen de qualité de l'air ATMO (PM2.5, NO₂, O₃) — données 2024",
+      "Part des déplacements en mobilité douce (vélo, marche, TC) — Cerema 2024",
+      "Densité d'espaces verts par habitant (ha/1 000 hab.) — Ademe",
+      "Plan Climat-Air-Énergie Territorial (PCAET) adopté et ambitieux",
+      "Engagement zéro artificialisation nette et végétalisation urbaine",
+    ],
+  },
 } as const;
 
 export type RankingSlug = keyof typeof RANKING_META;
