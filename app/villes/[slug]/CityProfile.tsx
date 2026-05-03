@@ -10,6 +10,7 @@ import { CommentSection } from "@/components/CommentSection";
 import { FavoriteButton } from "@/components/effects/FavoriteButton";
 import { GrainOverlay } from "@/components/effects/GrainOverlay";
 import { AISummaryCard } from "@/components/AISummaryCard";
+import { UserVsOfficialScore } from "@/components/UserVsOfficialScore";
 import { SimilarCities } from "@/components/SimilarCities";
 import { getNeighborhoods } from "@/data/neighborhoods";
 import { CITIES_SEED } from "@/data/cities-seed";
@@ -327,6 +328,11 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
 
             {/* Sidebar */}
             <div className="space-y-4">
+              <UserVsOfficialScore
+                topic={`city:${city.slug}`}
+                officialGlobal={city.scores.global}
+                cityName={city.name}
+              />
               <AISummaryCard citySlug={city.slug} cityName={city.name} />
               {/* All scores mini */}
               <Card>
@@ -616,6 +622,7 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
           topic={`city:${city.slug}`}
           title={`Témoignages sur ${city.name}`}
           showRating
+          subscribeContext={city.name}
           emptyHint={`Vous avez vécu ou visité ${city.name} ? Racontez-nous : ce que vous avez aimé, ce qui vous a surpris, vos coups de cœur de quartier…`}
         />
       </div>

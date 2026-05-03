@@ -19,6 +19,8 @@ interface CommentSectionProps {
   showRating?: boolean;
   emptyHint?: string;
   className?: string;
+  /** When set, shows a newsletter subscribe prompt after successful submission. */
+  subscribeContext?: string;
 }
 
 function timeAgo(iso: string): string {
@@ -44,30 +46,38 @@ function avatarColor(name: string): string {
 
 const STORAGE_KEY = "meilleurville:commenter";
 
+const EMAIL_KEY = "meilleurville:email";
+
 export function CommentSection({
   topic,
   title = "Discussions",
   showRating = false,
   emptyHint,
   className = "",
+  subscribeContext,
 }: CommentSectionProps) {
   const [items, setItems] = useState<Comment[]>([]);
   const [loading, setLoading] = useState(true);
   const [author, setAuthor] = useState("");
+  const [email, setEmail] = useState("");
   const [body, setBody] = useState("");
   const [rating, setRating] = useState<number | null>(null);
   const [website, setWebsite] = useState(""); // honeypot
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [success, setSuccess] = useState<string | null>(null);
+  const [showSubscribe, setShowSubscribe] = useState(false);
+  const [subscribeStatus, setSubscribeStatus] = useState<"idle" | "ok" | "err">("idle");
   const formRef = useRef<HTMLFormElement | null>(null);
   const formStartedAt = useRef<number>(Date.now());
 
-  // Pre-fill author from localStorage
+  // Pre-fill author + email from localStorage
   useEffect(() => {
     try {
       const v = localStorage.getItem(STORAGE_KEY);
       if (v) setAuthor(v);
+      const e = localStorage.getItem(EMAIL_KEY);
+      if (e) setEmail(e);
     } catch {}
   }, []);
 
@@ -94,7 +104,8 @@ export function CommentSection({
     if (submitting) return;
     setError(null);
     setSuccess(null);
-    if (author.trim().length < 2) return setError("Votre prénom (2 caractères mini).");
+    if (author.trim().length < 3) return setError("Votre prénom (3 caractères minimum).");
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email.trim())) return setError("Email valide requis (ne sera pas affiché).");
     if (body.trim().length < 8) return setError("Au moins 8 caractères pour le message.");
 
     setSubmitting(true);
@@ -102,6 +113,7 @@ export function CommentSection({
       const payload: Record<string, unknown> = {
         topic,
         author: author.trim(),
+        email: email.trim(),
         body: body.trim(),
         website,
         formStartedAt: formStartedAt.current,
@@ -121,12 +133,28 @@ export function CommentSection({
       setSuccess("Merci ! Votre commentaire est en ligne.");
       try {
         localStorage.setItem(STORAGE_KEY, author.trim());
+        localStorage.setItem(EMAIL_KEY, email.trim());
       } catch {}
+      if (subscribeContext) setShowSubscribe(true);
       setTimeout(() => setSuccess(null), 4000);
     } catch (err) {
       setError(err instanceof Error ? err.message : "Erreur réseau");
     } finally {
       setSubmitting(false);
+    }
+  }
+
+  async function onSubscribe() {
+    if (!email.trim()) return;
+    try {
+      const res = await fetch("/api/newsletter", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email: email.trim() }),
+      });
+      setSubscribeStatus(res.ok ? "ok" : "err");
+    } catch {
+      setSubscribeStatus("err");
     }
   }
 
@@ -151,14 +179,25 @@ export function CommentSection({
         onSubmit={onSubmit}
         className="rounded-2xl glass border border-white/60 p-5 shadow-md mb-6"
       >
-        <div className="flex flex-col sm:flex-row gap-3">
+        <div className="flex flex-col sm:flex-row gap-3 flex-wrap">
           <input
             type="text"
             placeholder="Votre prénom"
             value={author}
             onChange={(e) => setAuthor(e.target.value)}
             maxLength={40}
-            className="rounded-xl border border-[var(--border)] bg-white/80 px-3 py-2 text-sm outline-none focus:border-[var(--accent)]/60 focus:bg-white transition-all sm:w-48"
+            minLength={3}
+            required
+            className="rounded-xl border border-[var(--border)] bg-white/80 px-3 py-2 text-sm outline-none focus:border-[var(--accent)]/60 focus:bg-white transition-all sm:w-44"
+          />
+          <input
+            type="email"
+            placeholder="Email (non public)"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            maxLength={120}
+            required
+            className="rounded-xl border border-[var(--border)] bg-white/80 px-3 py-2 text-sm outline-none focus:border-[var(--accent)]/60 focus:bg-white transition-all sm:flex-1 sm:min-w-[200px]"
           />
           {showRating && (
             <div className="flex items-center gap-1 px-2">
@@ -230,6 +269,50 @@ export function CommentSection({
           <div className="mt-3 flex items-center gap-2 rounded-lg bg-emerald-50 border border-emerald-200 px-3 py-2 text-xs text-emerald-700">
             <CheckCircle className="h-4 w-4" />
             <span>{success}</span>
+          </div>
+        )}
+
+        {showSubscribe && subscribeContext && subscribeStatus !== "ok" && (
+          <div className="mt-4 rounded-xl border border-[var(--accent)]/30 bg-gradient-to-br from-[var(--accent-soft)] to-white p-4">
+            <p className="text-sm font-semibold text-[var(--accent)] mb-1">
+              📬 Suivre {subscribeContext} ?
+            </p>
+            <p className="text-xs text-[var(--text-secondary)] mb-3">
+              Recevez les nouveaux classements et avis sur {subscribeContext} (1 mail/mois max, désinscription en 1 clic).
+            </p>
+            <div className="flex gap-2">
+              <input
+                type="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                placeholder="votre@email.fr"
+                className="flex-1 rounded-lg border border-[var(--border)] bg-white px-3 py-1.5 text-xs outline-none focus:border-[var(--accent)]/60"
+              />
+              <button
+                type="button"
+                onClick={onSubscribe}
+                className="rounded-lg bg-[var(--accent)] text-white text-xs font-semibold px-3 py-1.5 hover:bg-emerald-700 transition-colors"
+              >
+                S&apos;abonner
+              </button>
+              <button
+                type="button"
+                onClick={() => setShowSubscribe(false)}
+                className="text-xs text-[var(--text-tertiary)] px-2"
+                aria-label="Fermer"
+              >
+                ✕
+              </button>
+            </div>
+            {subscribeStatus === "err" && (
+              <p className="mt-2 text-xs text-rose-600">Erreur — réessayez plus tard.</p>
+            )}
+          </div>
+        )}
+        {subscribeStatus === "ok" && (
+          <div className="mt-4 rounded-xl border border-emerald-200 bg-emerald-50 p-3 text-xs text-emerald-700 flex items-center gap-2">
+            <CheckCircle className="h-4 w-4" />
+            Merci ! On vous tient au courant.
           </div>
         )}
       </form>

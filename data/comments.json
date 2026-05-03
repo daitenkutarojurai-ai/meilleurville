@@ -1,9 +1,322 @@
 [
   {
-    "id": "862c30fc-7360-4482-961d-086ab8538775",
-    "createdAt": "2026-05-01T18:01:01.436Z",
+    "id": "seed-annecy-1",
+    "createdAt": "2026-04-12T10:14:00.000Z",
     "topic": "city:annecy",
-    "author": "Test",
-    "body": "Belle ville, lac magnifique."
+    "author": "Camille",
+    "body": "Cadre exceptionnel, on n'en revient pas tous les matins. Par contre les loyers sont devenus délirants depuis 5 ans, et l'été le centre est saturé de touristes.",
+    "rating": 4
+  },
+  {
+    "id": "seed-annecy-2",
+    "createdAt": "2026-03-20T08:32:00.000Z",
+    "topic": "city:annecy",
+    "author": "Jean-Marc",
+    "body": "Pour une famille avec enfants c'est top : sécurité, bonnes écoles, randonnées le week-end. Le revers : trouver un T3 abordable quasi impossible sans s'éloigner.",
+    "rating": 4
+  },
+  {
+    "id": "seed-annecy-3",
+    "createdAt": "2026-02-08T19:22:00.000Z",
+    "topic": "city:annecy",
+    "author": "Sofia",
+    "body": "Magnifique mais cher et un peu fermé sur soi. Sortir un mardi soir : pas grand-chose. Pour le télétravail c'est parfait.",
+    "rating": 3
+  },
+  {
+    "id": "seed-annecy-4",
+    "createdAt": "2026-01-15T11:45:00.000Z",
+    "topic": "city:annecy",
+    "author": "Mathieu",
+    "body": "Vécu 8 ans à Annecy. Le lac, la montagne, oui. Mais la ville en elle-même est petite et l'offre culturelle limitée comparée à Lyon ou Grenoble.",
+    "rating": 3
+  },
+  {
+    "id": "seed-annecy-5",
+    "createdAt": "2025-12-04T16:00:00.000Z",
+    "topic": "city:annecy",
+    "author": "Élise",
+    "body": "Pour la qualité de vie au quotidien, difficile de faire mieux. Vélo partout, lac à 5 min, montagne à 20. Bémol : circulation infernale en juillet-août.",
+    "rating": 5
+  },
+  {
+    "id": "seed-bordeaux-1",
+    "createdAt": "2026-04-02T09:00:00.000Z",
+    "topic": "city:bordeaux",
+    "author": "Thomas",
+    "body": "Centre-ville magnifique, tram efficace, vie culturelle riche. Insécurité ressentie qui s'est dégradée ces dernières années dans certains quartiers.",
+    "rating": 3
+  },
+  {
+    "id": "seed-bordeaux-2",
+    "createdAt": "2026-03-18T14:20:00.000Z",
+    "topic": "city:bordeaux",
+    "author": "Aurélie",
+    "body": "Bordeaux a beaucoup gentrifié — c'est très joli, mais les prix immobiliers ont explosé. Bonne ville pour télétravailler.",
+    "rating": 4
+  },
+  {
+    "id": "seed-bordeaux-3",
+    "createdAt": "2026-02-22T18:30:00.000Z",
+    "topic": "city:bordeaux",
+    "author": "Karim",
+    "body": "Climat doux, restaurants de qualité, ocean à 1h. Mais l'été 38°C en pleine ville c'est de plus en plus dur, et certains quartiers à éviter le soir.",
+    "rating": 4
+  },
+  {
+    "id": "seed-bordeaux-4",
+    "createdAt": "2026-01-30T20:10:00.000Z",
+    "topic": "city:bordeaux",
+    "author": "Pauline",
+    "body": "Étudiante à Bordeaux, j'adore la vie nocturne et la diversité des bars. Inconvénient majeur : se loger reste un sport de combat à la rentrée.",
+    "rating": 4
+  },
+  {
+    "id": "seed-bordeaux-5",
+    "createdAt": "2025-11-12T13:45:00.000Z",
+    "topic": "city:bordeaux",
+    "author": "Vincent",
+    "body": "Sympa pour visiter, moins pour y vivre à mon goût : bouchons constants, prix élevés, et la sécurité qui se dégrade.",
+    "rating": 2
+  },
+  {
+    "id": "seed-nantes-1",
+    "createdAt": "2026-04-19T11:00:00.000Z",
+    "topic": "city:nantes",
+    "author": "Léa",
+    "body": "Vie culturelle vraiment dynamique, le tram fonctionne bien, beaucoup de pistes cyclables. Climat humide et gris en hiver — il faut aimer.",
+    "rating": 4
+  },
+  {
+    "id": "seed-nantes-2",
+    "createdAt": "2026-03-08T16:00:00.000Z",
+    "topic": "city:nantes",
+    "author": "Romain",
+    "body": "Famille à Nantes depuis 6 ans. Bons quartiers résidentiels, écoles correctes. Mais sécurité en baisse côté centre, à surveiller.",
+    "rating": 3
+  },
+  {
+    "id": "seed-nantes-3",
+    "createdAt": "2026-02-14T19:30:00.000Z",
+    "topic": "city:nantes",
+    "author": "Inès",
+    "body": "Ambiance créative géniale (Voyage à Nantes, Machines de l'île). Marché immobilier qui chauffe mais encore plus accessible que Bordeaux.",
+    "rating": 5
+  },
+  {
+    "id": "seed-nantes-4",
+    "createdAt": "2026-01-25T10:00:00.000Z",
+    "topic": "city:nantes",
+    "author": "Hugo",
+    "body": "Télétravail facile, fibre partout, plein de coworkings. Petit bémol : le centre-ville devient pénible le samedi (circulation).",
+    "rating": 4
+  },
+  {
+    "id": "seed-nantes-5",
+    "createdAt": "2025-12-15T15:15:00.000Z",
+    "topic": "city:nantes",
+    "author": "Sarah",
+    "body": "On y vit bien sans avoir à se ruiner, contrairement à Bordeaux ou Nice. Manque un peu de soleil, mais Pornic à 1h compense.",
+    "rating": 4
+  },
+  {
+    "id": "seed-rennes-1",
+    "createdAt": "2026-04-25T09:30:00.000Z",
+    "topic": "city:rennes",
+    "author": "Maxime",
+    "body": "Étudiant et jeune actif, Rennes est un bon spot : prix raisonnables, métro qui fonctionne, scène musicale active. Pluie : oui, c'est vrai.",
+    "rating": 4
+  },
+  {
+    "id": "seed-rennes-2",
+    "createdAt": "2026-03-12T14:00:00.000Z",
+    "topic": "city:rennes",
+    "author": "Charlotte",
+    "body": "Très agréable pour les familles, beaucoup d'espaces verts en ville. Connexion Paris en 1h25 c'est un vrai atout.",
+    "rating": 5
+  },
+  {
+    "id": "seed-rennes-3",
+    "createdAt": "2026-02-01T17:45:00.000Z",
+    "topic": "city:rennes",
+    "author": "Antoine",
+    "body": "Bon équilibre, mais centre-ville parfois saturé le week-end soir et quelques bagarres. Reste tolérable.",
+    "rating": 3
+  },
+  {
+    "id": "seed-rennes-4",
+    "createdAt": "2026-01-08T12:20:00.000Z",
+    "topic": "city:rennes",
+    "author": "Margaux",
+    "body": "Loyer T2 à 700€ en plein centre — où trouve-t-on encore ça ? La météo bretonne ne déçoit pas non plus.",
+    "rating": 4
+  },
+  {
+    "id": "seed-lyon-1",
+    "createdAt": "2026-04-18T08:00:00.000Z",
+    "topic": "city:lyon",
+    "author": "Olivier",
+    "body": "Métro, gastro, Alpes proches : Lyon a tout. Le revers : pollution, loyers en flèche, et l'été suffocant côté Part-Dieu.",
+    "rating": 4
+  },
+  {
+    "id": "seed-lyon-2",
+    "createdAt": "2026-03-05T11:10:00.000Z",
+    "topic": "city:lyon",
+    "author": "Nadia",
+    "body": "Vie pro top, mais les transports saturent aux heures de pointe et certains arrondissements ont des soucis de sécurité.",
+    "rating": 3
+  },
+  {
+    "id": "seed-lyon-3",
+    "createdAt": "2026-02-19T20:00:00.000Z",
+    "topic": "city:lyon",
+    "author": "Pierre-Louis",
+    "body": "Vivant à Lyon depuis 12 ans : la ville s'est embellie mais devenue chère. Pour la qualité de vie générale, ça reste très bon.",
+    "rating": 4
+  },
+  {
+    "id": "seed-lyon-4",
+    "createdAt": "2026-01-21T16:40:00.000Z",
+    "topic": "city:lyon",
+    "author": "Émilie",
+    "body": "Quartiers très différents les uns des autres. Croix-Rousse génial, La Guillotière compliqué le soir. Bien se renseigner avant de chercher un appart.",
+    "rating": 3
+  },
+  {
+    "id": "seed-marseille-1",
+    "createdAt": "2026-04-08T13:00:00.000Z",
+    "topic": "city:marseille",
+    "author": "Rachid",
+    "body": "Marseille c'est la mer, le soleil, l'âme. Mais soyons honnêtes : insécurité bien réelle dans certains quartiers, et services publics fatigués.",
+    "rating": 3
+  },
+  {
+    "id": "seed-marseille-2",
+    "createdAt": "2026-03-14T09:25:00.000Z",
+    "topic": "city:marseille",
+    "author": "Claire",
+    "body": "On adore ou on déteste. Pour ma part : nature à 10 min (Calanques), bouffe top, ambiance unique. Mais la propreté laisse à désirer.",
+    "rating": 3
+  },
+  {
+    "id": "seed-marseille-3",
+    "createdAt": "2026-02-25T18:00:00.000Z",
+    "topic": "city:marseille",
+    "author": "David",
+    "body": "Loyers raisonnables comparé à Nice, mais sécurité variable selon le quartier. À choisir avec discernement.",
+    "rating": 2
+  },
+  {
+    "id": "seed-marseille-4",
+    "createdAt": "2026-01-30T14:30:00.000Z",
+    "topic": "city:marseille",
+    "author": "Yasmine",
+    "body": "Métropole très contrastée. Le 7e et le 8e c'est très bien, le 13e/14e/15e c'est compliqué. Le métro est minimal.",
+    "rating": 2
+  },
+  {
+    "id": "seed-paris-1",
+    "createdAt": "2026-04-22T10:00:00.000Z",
+    "topic": "city:paris",
+    "author": "Florence",
+    "body": "Tout à portée de main, vie culturelle imbattable. Mais loyers absurdes, métro bondé, peu de nature. À 40 ans on commence à fatiguer.",
+    "rating": 3
+  },
+  {
+    "id": "seed-paris-2",
+    "createdAt": "2026-03-30T17:30:00.000Z",
+    "topic": "city:paris",
+    "author": "Julien",
+    "body": "Pour les célibataires actifs c'est imbattable. Pour les familles : compliqué sauf à habiter intra-muros bourgeois ou en proche banlieue verte.",
+    "rating": 3
+  },
+  {
+    "id": "seed-paris-3",
+    "createdAt": "2026-02-12T20:45:00.000Z",
+    "topic": "city:paris",
+    "author": "Aïcha",
+    "body": "Le Grand Paris ouvre des perspectives, mais à 1500€/mois pour 25m², on se demande pourquoi on s'inflige ça.",
+    "rating": 2
+  },
+  {
+    "id": "seed-paris-4",
+    "createdAt": "2026-01-18T15:00:00.000Z",
+    "topic": "city:paris",
+    "author": "Bertrand",
+    "body": "Travail oblige, je reste. Mais le rêve : partir à Bordeaux ou Nantes. Coût/qualité de vie pas tenable à long terme.",
+    "rating": 2
+  },
+  {
+    "id": "seed-toulouse-1",
+    "createdAt": "2026-04-05T11:30:00.000Z",
+    "topic": "city:toulouse",
+    "author": "Philippe",
+    "body": "La ville rose c'est une douceur de vivre, écosystème aéro/spatial dynamique. Mais sécurité en demi-teinte et transports en retard.",
+    "rating": 3
+  },
+  {
+    "id": "seed-toulouse-2",
+    "createdAt": "2026-03-22T13:50:00.000Z",
+    "topic": "city:toulouse",
+    "author": "Lucie",
+    "body": "Climat très agréable hors canicule. Marché immobilier qui devient cher mais encore accessible vs Bordeaux.",
+    "rating": 4
+  },
+  {
+    "id": "seed-toulouse-3",
+    "createdAt": "2026-02-07T19:00:00.000Z",
+    "topic": "city:toulouse",
+    "author": "Marc",
+    "body": "Vie étudiante au top, soirées rugby, restau à tous les coins de rue. Insécurité présente côté Mirail.",
+    "rating": 4
+  },
+  {
+    "id": "seed-strasbourg-1",
+    "createdAt": "2026-04-11T10:45:00.000Z",
+    "topic": "city:strasbourg",
+    "author": "Anne",
+    "body": "Tram super, ville cyclable, mix culturel franco-allemand. Hivers vraiment froids, à anticiper.",
+    "rating": 5
+  },
+  {
+    "id": "seed-strasbourg-2",
+    "createdAt": "2026-03-17T16:15:00.000Z",
+    "topic": "city:strasbourg",
+    "author": "Stéphane",
+    "body": "Excellent rapport qualité de vie / coût. Petite ville à taille humaine avec tous les services d'une métropole.",
+    "rating": 5
+  },
+  {
+    "id": "seed-montpellier-1",
+    "createdAt": "2026-04-14T09:15:00.000Z",
+    "topic": "city:montpellier",
+    "author": "Bastien",
+    "body": "Soleil, mer à 10 min, vie étudiante débordante. L'insécurité est devenue un vrai sujet ces dernières années.",
+    "rating": 3
+  },
+  {
+    "id": "seed-montpellier-2",
+    "createdAt": "2026-03-09T14:55:00.000Z",
+    "topic": "city:montpellier",
+    "author": "Mélanie",
+    "body": "Pour les jeunes c'est génial, pour fonder une famille on a fini par partir : trop de tensions en centre-ville.",
+    "rating": 2
+  },
+  {
+    "id": "seed-grenoble-1",
+    "createdAt": "2026-04-09T11:40:00.000Z",
+    "topic": "city:grenoble",
+    "author": "Théo",
+    "body": "Ski le week-end, taf en semaine : combo imbattable. Pollution hivernale et tensions urbaines à ne pas sous-estimer.",
+    "rating": 4
+  },
+  {
+    "id": "seed-grenoble-2",
+    "createdAt": "2026-03-02T17:20:00.000Z",
+    "topic": "city:grenoble",
+    "author": "Hélène",
+    "body": "Cadre montagnard fantastique, écosystème scientifique très solide. Centre-ville parfois compliqué le soir.",
+    "rating": 3
   }
 ]

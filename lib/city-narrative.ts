@@ -162,7 +162,20 @@ function buildIntro(city: CitySeed): string {
   return `${city.name} (${city.department}, ${city.region}) ${tier}. Avec ses ${popPart}, on la décrit souvent comme ${tagsPart}. Score global ${g.toFixed(1)}/10, calibré sur 340 villes.`;
 }
 
+const NARRATIVE_CACHE = new Map<string, CityNarrative>();
+
 export function buildCityNarrative(
+  city: CitySeed,
+  housing: HousingData | undefined
+): CityNarrative {
+  const cached = NARRATIVE_CACHE.get(city.slug);
+  if (cached) return cached;
+  const result = buildCityNarrativeUncached(city, housing);
+  NARRATIVE_CACHE.set(city.slug, result);
+  return result;
+}
+
+function buildCityNarrativeUncached(
   city: CitySeed,
   housing: HousingData | undefined
 ): CityNarrative {

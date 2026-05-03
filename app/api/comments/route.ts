@@ -7,6 +7,20 @@ import { checkContent } from "@/lib/spam-filter";
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
+const BANNED_NAMES = new Set([
+  "test", "tests", "testing",
+  "user", "users", "utilisateur", "utilisateurs",
+  "admin", "administrator", "administrateur", "moderator", "moderateur",
+  "anonymous", "anonyme", "anon",
+  "root", "guest", "invité", "invite",
+  "bot", "robot", "ai", "ia",
+  "null", "undefined", "none",
+  "azerty", "qwerty", "asdf",
+  "noname", "sansnom",
+]);
+
+const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
+
 const PostSchema = z.object({
   topic: z
     .string()
@@ -15,9 +29,14 @@ const PostSchema = z.object({
     .regex(/^[a-z0-9:_\-]+$/i, "topic invalide"),
   author: z
     .string()
-    .min(2, "Au moins 2 caractères")
+    .min(3, "Au moins 3 caractères")
     .max(40, "Trop long")
     .regex(/^[\p{L}0-9 .'_-]+$/u, "Caractères non autorisés"),
+  email: z
+    .string()
+    .min(5, "Email requis")
+    .max(120, "Email trop long")
+    .regex(EMAIL_RE, "Email invalide"),
   body: z.string().min(8, "Trop court (8 caractères mini)").max(2000),
   rating: z.number().int().min(1).max(5).optional(),
   // Anti-bot: honeypot must be empty, formStartedAt must be at least ~2s in the past
@@ -83,14 +102,35 @@ export async function POST(req: NextRequest) {
     }
   }
 
-  const check = checkContent({ author: parsed.data.author, body: parsed.data.body });
+  // Reject generic / fake usernames
+  const authorClean = parsed.data.author.trim();
+  const authorLc = authorClean.toLowerCase();
+  if (BANNED_NAMES.has(authorLc) || /^(.)\1+$/.test(authorLc)) {
+    return NextResponse.json(
+      { error: "Merci d'utiliser un vrai prénom (pas \"test\", \"user\", etc.)" },
+      { status: 422 }
+    );
+  }
+
+  // 1 comment per IP per topic per 24h (prevents stuffing same city with same IP)
+  const dailyKey = `cmt:d:${ip}:${parsed.data.topic}`;
+  const dailyWindow = rateLimit(dailyKey, 1, 24 * 60 * 60_000);
+  if (!dailyWindow.allowed) {
+    const hours = Math.ceil(dailyWindow.retryAfterSeconds / 3600);
+    return NextResponse.json(
+      { error: `Vous avez déjà commenté cette page récemment. Réessayez dans ~${hours}h.` },
+      { status: 429, headers: { "Retry-After": String(dailyWindow.retryAfterSeconds) } }
+    );
+  }
+
+  const check = checkContent({ author: authorClean, body: parsed.data.body });
   if (!check.ok) {
     return NextResponse.json({ error: check.reason ?? "Contenu refusé" }, { status: 422 });
   }
 
   const comment = await addComment({
     topic: parsed.data.topic,
-    author: parsed.data.author.trim(),
+    author: authorClean,
     body: parsed.data.body.trim(),
     rating: parsed.data.rating,
   });

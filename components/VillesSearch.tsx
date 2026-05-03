@@ -7,6 +7,7 @@ import { Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
 import { cn } from "@/lib/utils";
 import type { City } from "@/lib/types";
+import { computeNicheScores, TERRAIN_LABELS, type Terrain } from "@/lib/niche-scores";
 
 function seedToCity(s: (typeof CITIES_SEED)[number]): City {
   return {
@@ -42,6 +43,22 @@ const DEPARTMENTS = [...new Set(CITIES_SEED.map((c) => c.department))].sort();
 
 const POPULAR_TAGS = ["mer", "montagne", "étudiant", "familial", "vélo", "nature", "dynamique", "abordable", "soleil", "culturel"];
 
+const NICHE_OPTIONS = [
+  { id: "expat", label: "🌍 Expat-friendly", desc: "Anglais parlé, communauté internationale" },
+  { id: "remote", label: "💻 Télétravail", desc: "Fibre, coworkings, cafés" },
+  { id: "petFriendly", label: "🐶 Animaux", desc: "Parcs, vétos, espaces verts" },
+  { id: "retirement", label: "🌿 Retraite", desc: "Calme, santé, climat doux" },
+  { id: "studentLife", label: "🎓 Étudiant", desc: "Université, sorties, loyer accessible" },
+] as const;
+type NicheKey = (typeof NICHE_OPTIONS)[number]["id"];
+
+const TERRAIN_OPTIONS: Terrain[] = ["mer", "montagne", "plaine", "vallee"];
+
+// Precompute niche scores once per city — cheap, pure
+const NICHE_BY_SLUG: Record<string, ReturnType<typeof computeNicheScores>> = Object.fromEntries(
+  CITIES_SEED.map((c) => [c.slug, computeNicheScores(c)])
+);
+
 function normalize(s: string): string {
   return s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
 }
@@ -52,7 +69,27 @@ export function VillesSearch() {
   const [region, setRegion] = useState<string>("");
   const [dept, setDept] = useState<string>("");
   const [tag, setTag] = useState<string>("");
+  const [niches, setNiches] = useState<Set<NicheKey>>(new Set());
+  const [nicheMin, setNicheMin] = useState<number>(7);
+  const [terrains, setTerrains] = useState<Set<Terrain>>(new Set());
   const [showFilters, setShowFilters] = useState(false);
+
+  function toggleNiche(id: NicheKey) {
+    setNiches((prev) => {
+      const n = new Set(prev);
+      if (n.has(id)) n.delete(id);
+      else n.add(id);
+      return n;
+    });
+  }
+  function toggleTerrain(t: Terrain) {
+    setTerrains((prev) => {
+      const n = new Set(prev);
+      if (n.has(t)) n.delete(t);
+      else n.add(t);
+      return n;
+    });
+  }
 
   const filtered = useMemo(() => {
     let result = CITIES_SEED;
@@ -79,6 +116,21 @@ export function VillesSearch() {
       result = result.filter((c) => c.characterTags.includes(tag as never));
     }
 
+    if (niches.size > 0) {
+      result = result.filter((c) => {
+        const n = NICHE_BY_SLUG[c.slug];
+        if (!n) return false;
+        for (const k of niches) {
+          if (n[k] < nicheMin) return false;
+        }
+        return true;
+      });
+    }
+
+    if (terrains.size > 0) {
+      result = result.filter((c) => terrains.has(NICHE_BY_SLUG[c.slug]?.terrain));
+    }
+
     return [...result]
       .sort((a, b) => {
         const av = a.scores[sortBy as keyof typeof a.scores] ?? 0;
@@ -86,17 +138,20 @@ export function VillesSearch() {
         return bv - av;
       })
       .map(seedToCity);
-  }, [query, sortBy, region, dept, tag]);
+  }, [query, sortBy, region, dept, tag, niches, nicheMin, terrains]);
 
   function clearFilters() {
     setQuery("");
     setRegion("");
     setDept("");
     setTag("");
+    setNiches(new Set());
+    setTerrains(new Set());
+    setNicheMin(7);
     setSortBy("global");
   }
 
-  const hasFilters = !!(query || region || dept || tag || sortBy !== "global");
+  const hasFilters = !!(query || region || dept || tag || sortBy !== "global" || niches.size > 0 || terrains.size > 0);
 
   return (
     <div>
@@ -192,6 +247,72 @@ export function VillesSearch() {
                   {t}
                 </button>
               ))}
+            </div>
+          </div>
+
+          <div>
+            <label className="text-xs text-[var(--text-secondary)] block mb-2">
+              Profils de vie · niche
+              {niches.size > 0 && (
+                <span className="ml-2 text-[10px] text-[var(--text-tertiary)]">
+                  Score mini : <span className="font-mono-data font-bold">{nicheMin.toFixed(1)}</span>/10
+                </span>
+              )}
+            </label>
+            <div className="flex flex-wrap gap-2 mb-2">
+              {NICHE_OPTIONS.map((n) => {
+                const active = niches.has(n.id);
+                return (
+                  <button
+                    key={n.id}
+                    onClick={() => toggleNiche(n.id)}
+                    title={n.desc}
+                    className={cn(
+                      "rounded-xl border px-3 py-1.5 text-xs font-medium transition-colors cursor-pointer",
+                      active
+                        ? "border-[var(--accent)] bg-[var(--accent)]/10 text-[var(--accent)]"
+                        : "border-[var(--border)] text-[var(--text-secondary)] hover:border-[var(--accent)]/40"
+                    )}
+                  >
+                    {n.label}
+                  </button>
+                );
+              })}
+            </div>
+            {niches.size > 0 && (
+              <input
+                type="range"
+                min={5}
+                max={9}
+                step={0.5}
+                value={nicheMin}
+                onChange={(e) => setNicheMin(Number(e.target.value))}
+                className="w-full accent-[var(--accent)]"
+                aria-label="Score minimum sur les niches sélectionnées"
+              />
+            )}
+          </div>
+
+          <div>
+            <label className="text-xs text-[var(--text-secondary)] block mb-2">Terrain</label>
+            <div className="flex flex-wrap gap-2">
+              {TERRAIN_OPTIONS.map((t) => {
+                const active = terrains.has(t);
+                return (
+                  <button
+                    key={t}
+                    onClick={() => toggleTerrain(t)}
+                    className={cn(
+                      "rounded-xl border px-3 py-1.5 text-xs font-medium transition-colors cursor-pointer",
+                      active
+                        ? "border-[var(--accent)] bg-[var(--accent)]/10 text-[var(--accent)]"
+                        : "border-[var(--border)] text-[var(--text-secondary)] hover:border-[var(--accent)]/40"
+                    )}
+                  >
+                    {TERRAIN_LABELS[t]}
+                  </button>
+                );
+              })}
             </div>
           </div>
 

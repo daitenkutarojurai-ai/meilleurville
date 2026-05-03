@@ -1,6 +1,8 @@
-// Top French cities seed — raw values, then post-processed by lib/score-calibration.
+// Top French cities seed — raw values, then post-processed by lib/score-calibration
+// (editorial overrides) and lib/score-distribution (z-score rescaling).
 // Anchors: Insee, Ministère de l'Intérieur (SSMSI), observatoires loyers.
 import { calibrateScores } from "@/lib/score-calibration";
+import { normalizeDistribution } from "@/lib/score-distribution";
 
 const RAW_CITIES_SEED = [
   {
@@ -8803,6 +8805,9 @@ const RAW_CITIES_SEED = [
   },
 ];
 
-// Post-process: every consumer of CITIES_SEED gets calibrated scores transparently.
-export const CITIES_SEED = RAW_CITIES_SEED.map((c) => calibrateScores(c));
+// Post-process: editorial calibration first, then z-score rescaling so the
+// distribution spreads (mean ≈ 6, top ≈ 8.5, bottom ≈ 3.5) instead of clustering high.
+export const CITIES_SEED = normalizeDistribution(
+  RAW_CITIES_SEED.map((c) => calibrateScores(c))
+);
 export type CitySeed = (typeof CITIES_SEED)[number];
