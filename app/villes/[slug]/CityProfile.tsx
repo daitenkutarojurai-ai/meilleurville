@@ -16,6 +16,7 @@ import { getNeighborhoods } from "@/data/neighborhoods";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { getHousing } from "@/data/housing";
 import { buildCityNarrative } from "@/lib/city-narrative";
+import { computeNicheScores, TERRAIN_LABELS } from "@/lib/niche-scores";
 import { RANKING_META, getRankedCities } from "@/lib/rankings";
 import { formatNumber, formatScore, scoreColor, cn, sunshineDays, sunshineHours } from "@/lib/utils";
 import type { CitySeed } from "@/data/cities-seed";
@@ -48,6 +49,7 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
 
   const stage = LIFE_STAGES.find((s) => s.id === activeStage)!;
   const narrative = buildCityNarrative(city, housing);
+  const niche = computeNicheScores(city);
 
   const TABS = [
     { id: "overview", label: "Vue d'ensemble" },
@@ -262,6 +264,62 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                       </li>
                     ))}
                   </ul>
+                </div>
+              </Card>
+
+              {/* Niche scores — pour qui cette ville est-elle faite ? */}
+              <Card>
+                <h2 className="text-base font-semibold text-[var(--text-primary)] mb-1">
+                  Pour qui {city.name} est-elle faite ?
+                </h2>
+                <p className="text-xs text-[var(--text-tertiary)] mb-4">
+                  Scores dérivés des indicateurs officiels. Plus le score est haut, plus le profil colle.
+                </p>
+                <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+                  {[
+                    { label: "🌍 Expats", val: niche.expat, hint: "Ouverture internationale, transport, services anglophones" },
+                    { label: "💻 Télétravail", val: niche.remote, hint: "Fibre, coworkings, art de vivre" },
+                    { label: "🐶 Animaux", val: niche.petFriendly, hint: "Espaces verts, calme, vétérinaires" },
+                    { label: "🌿 Retraite", val: niche.retirement, hint: "Sécurité, santé, climat doux, calme" },
+                    { label: "🎓 Étudiant", val: niche.studentLife, hint: "Universités, vie nocturne, loyers" },
+                  ].map((n) => {
+                    const color =
+                      n.val >= 7 ? "from-emerald-500 to-lime-400"
+                      : n.val >= 5.5 ? "from-lime-400 to-amber-300"
+                      : n.val >= 4 ? "from-amber-400 to-orange-400"
+                      : "from-orange-400 to-rose-400";
+                    const txt =
+                      n.val >= 7 ? "text-emerald-600"
+                      : n.val >= 5.5 ? "text-lime-700"
+                      : n.val >= 4 ? "text-amber-600"
+                      : "text-rose-600";
+                    return (
+                      <div
+                        key={n.label}
+                        title={n.hint}
+                        className="rounded-xl border border-[var(--border)] bg-[var(--bg-canvas)] p-3"
+                      >
+                        <div className="flex items-baseline justify-between mb-1.5">
+                          <span className="text-xs font-semibold text-[var(--text-secondary)]">{n.label}</span>
+                          <span className={`text-base font-bold font-mono-data ${txt}`}>{n.val.toFixed(1)}</span>
+                        </div>
+                        <div className="h-1.5 rounded-full bg-[var(--bg-elevated)] overflow-hidden">
+                          <div
+                            className={`h-full rounded-full bg-gradient-to-r ${color}`}
+                            style={{ width: `${(n.val / 10) * 100}%` }}
+                          />
+                        </div>
+                      </div>
+                    );
+                  })}
+                  <div className="rounded-xl border border-[var(--border)] bg-[var(--bg-canvas)] p-3 flex flex-col justify-center">
+                    <div className="text-[10px] uppercase tracking-wider text-[var(--text-tertiary)] font-semibold mb-1">
+                      Terrain
+                    </div>
+                    <div className="text-sm font-bold text-[var(--text-primary)]">
+                      {TERRAIN_LABELS[niche.terrain]}
+                    </div>
+                  </div>
                 </div>
               </Card>
 

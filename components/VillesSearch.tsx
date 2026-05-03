@@ -36,6 +36,11 @@ const SORT_OPTIONS = [
   { id: "safety", label: "Sécurité" },
   { id: "schools", label: "Écoles" },
   { id: "culture", label: "Culture" },
+  { id: "niche:expat", label: "Expat-friendly" },
+  { id: "niche:remote", label: "Remote workers" },
+  { id: "niche:petFriendly", label: "Pet-friendly" },
+  { id: "niche:retirement", label: "Retraite" },
+  { id: "niche:studentLife", label: "Vie étudiante" },
 ];
 
 const REGIONS = [...new Set(CITIES_SEED.map((c) => c.region))].sort();
@@ -133,6 +138,12 @@ export function VillesSearch() {
 
     return [...result]
       .sort((a, b) => {
+        if (sortBy.startsWith("niche:")) {
+          const k = sortBy.slice(6) as Exclude<NicheKey, "terrain">;
+          const av = NICHE_BY_SLUG[a.slug]?.[k] ?? 0;
+          const bv = NICHE_BY_SLUG[b.slug]?.[k] ?? 0;
+          return bv - av;
+        }
         const av = a.scores[sortBy as keyof typeof a.scores] ?? 0;
         const bv = b.scores[sortBy as keyof typeof b.scores] ?? 0;
         return bv - av;

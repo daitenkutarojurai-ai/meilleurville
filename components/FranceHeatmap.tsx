@@ -36,10 +36,10 @@ function project(lng: number, lat: number): [number, number] {
 }
 
 function scoreColor(score: number): string {
-  if (score >= 8.5) return "#059669";
-  if (score >= 7.5) return "#22C55E";
-  if (score >= 6.5) return "#84CC16";
-  if (score >= 5.5) return "#F59E0B";
+  if (score >= 7.5) return "#059669";
+  if (score >= 6.5) return "#22C55E";
+  if (score >= 5.5) return "#84CC16";
+  if (score >= 4.5) return "#F59E0B";
   return "#FB923C";
 }
 
@@ -118,9 +118,9 @@ export function FranceHeatmap() {
   const dots = useMemo(() => {
     return [...CITIES_SEED]
       .filter((c) => {
-        if (filter === "top") return c.scores.global >= 8.0;
-        if (filter === "budget") return c.scores.cost >= 7.5;
-        if (filter === "nature") return c.scores.nature >= 8.5;
+        if (filter === "top") return c.scores.global >= 7.0;
+        if (filter === "budget") return c.scores.cost >= 7.0;
+        if (filter === "nature") return c.scores.nature >= 7.5;
         return true;
       })
       .sort((a, b) => a.scores.global - b.scores.global)
@@ -151,7 +151,7 @@ export function FranceHeatmap() {
     const all = CITIES_SEED;
     const avg = all.reduce((s, c) => s + c.scores.global, 0) / all.length;
     const best = Math.max(...all.map((c) => c.scores.global));
-    const top = all.filter((c) => c.scores.global >= 8.0).length;
+    const top = all.filter((c) => c.scores.global >= 7.0).length;
     return { count: all.length, avg, best, top };
   }, []);
 
@@ -183,7 +183,7 @@ export function FranceHeatmap() {
         <div className="flex flex-wrap items-center justify-center gap-2 mb-8">
           {[
             { id: "all" as const, label: "Toutes", emoji: "🌍" },
-            { id: "top" as const, label: "Top villes (8+)", emoji: "🏆" },
+            { id: "top" as const, label: "Top villes (7+)", emoji: "🏆" },
             { id: "budget" as const, label: "Bon budget", emoji: "💸" },
             { id: "nature" as const, label: "Côté nature", emoji: "🌲" },
           ].map((f) => {
@@ -305,10 +305,10 @@ export function FranceHeatmap() {
               {/* Heat layer — radial gradients per top city, clipped to France */}
               <g clipPath="url(#franceClip)" opacity="0.55" style={{ mixBlendMode: "screen" }}>
                 {[...CITIES_SEED]
-                  .filter((c) => c.scores.global >= 7.5)
+                  .filter((c) => c.scores.global >= 6.5)
                   .map((c) => {
                     const [x, y] = project(c.longitude, c.latitude);
-                    const r = 70 + (c.scores.global - 7.5) * 30;
+                    const r = 70 + (c.scores.global - 6.5) * 30;
                     return (
                       <radialGradient
                         key={`h-${c.slug}`}
@@ -324,10 +324,10 @@ export function FranceHeatmap() {
                     );
                   })}
                 {[...CITIES_SEED]
-                  .filter((c) => c.scores.global >= 7.5)
+                  .filter((c) => c.scores.global >= 6.5)
                   .map((c) => {
                     const [x, y] = project(c.longitude, c.latitude);
-                    const r = 70 + (c.scores.global - 7.5) * 30;
+                    const r = 70 + (c.scores.global - 6.5) * 30;
                     return (
                       <circle
                         key={`hc-${c.slug}`}
@@ -392,7 +392,7 @@ export function FranceHeatmap() {
 
               {/* Top-tier expanding rings for cities ≥ 8.5 */}
               {dots
-                .filter((d) => d.score >= 8.5)
+                .filter((d) => d.score >= 7.5)
                 .map((d, i) => (
                   <g key={`r-${d.slug}`} pointerEvents="none">
                     <circle cx={d.x} cy={d.y} r={d.r * 2.5} fill="none" stroke={d.color} strokeWidth="1.5" opacity="0.45">
@@ -515,11 +515,11 @@ export function FranceHeatmap() {
             <div className="relative mt-4 flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-xs">
               <span className="text-[#A8C4A8]">Score :</span>
               {[
-                { c: "#FB923C", l: "<5.5" },
-                { c: "#F59E0B", l: "5.5–6.5" },
-                { c: "#84CC16", l: "6.5–7.5" },
-                { c: "#22C55E", l: "7.5–8.5" },
-                { c: "#34D399", l: "≥8.5" },
+                { c: "#FB923C", l: "<4.5" },
+                { c: "#F59E0B", l: "4.5–5.5" },
+                { c: "#84CC16", l: "5.5–6.5" },
+                { c: "#22C55E", l: "6.5–7.5" },
+                { c: "#059669", l: "≥7.5" },
               ].map((s) => (
                 <span key={s.l} className="flex items-center gap-1.5">
                   <span className="h-2.5 w-2.5 rounded-full" style={{ background: s.c, boxShadow: `0 0 10px ${s.c}` }} />
@@ -551,7 +551,7 @@ export function FranceHeatmap() {
                 </div>
                 <div>
                   <div className="text-2xl font-bold font-mono-data text-[var(--accent-warm)]">{stats.top}</div>
-                  <div className="text-[11px] text-[var(--text-secondary)]">villes ≥ 8.0</div>
+                  <div className="text-[11px] text-[var(--text-secondary)]">villes ≥ 7.0</div>
                 </div>
               </div>
             </div>

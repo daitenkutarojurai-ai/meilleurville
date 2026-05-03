@@ -70,7 +70,7 @@ export default function HomePage() {
           [...CITIES_SEED].sort((a, b) => b.scores.global - a.scores.global).slice(0, 10).map((c) => c.slug)
         );
         const gems = CITIES_SEED
-          .filter((c) => !top10Slugs.has(c.slug) && c.scores.global >= 7.0 && c.scores.cost >= 7.5 && c.population < 100000)
+          .filter((c) => !top10Slugs.has(c.slug) && c.scores.global >= 6.2 && c.scores.cost >= 6.5 && c.population < 100000)
           .sort((a, b) => (b.scores.global + b.scores.cost) - (a.scores.global + a.scores.cost))
           .slice(0, 6);
         return (
