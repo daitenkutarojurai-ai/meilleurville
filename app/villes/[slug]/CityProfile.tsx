@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
-import { MapPin, Star, Sun, Thermometer, Users, TrendingUp, Home, Laptop, GraduationCap, Shield, Bus, TreePine, ChevronRight, ChevronDown } from "lucide-react";
+import { MapPin, Star, Sun, Thermometer, Users, TrendingUp, Home, Laptop, GraduationCap, Shield, Bus, TreePine, ChevronRight, ChevronDown, Check, X, Sparkles } from "lucide-react";
 import { Badge } from "@/components/ui/Badge";
 import { Card } from "@/components/ui/Card";
 import { ScoreBar } from "@/components/ui/ScoreBar";
@@ -14,6 +14,7 @@ import { SimilarCities } from "@/components/SimilarCities";
 import { getNeighborhoods } from "@/data/neighborhoods";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { getHousing } from "@/data/housing";
+import { buildCityNarrative } from "@/lib/city-narrative";
 import { RANKING_META, getRankedCities } from "@/lib/rankings";
 import { formatNumber, formatScore, scoreColor, cn, sunshineDays, sunshineHours } from "@/lib/utils";
 import type { CitySeed } from "@/data/cities-seed";
@@ -45,6 +46,7 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
   const stage = LIFE_STAGES.find((s) => s.id === activeStage)!;
+  const narrative = buildCityNarrative(city, housing);
 
   const TABS = [
     { id: "overview", label: "Vue d'ensemble" },
@@ -203,6 +205,65 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
           <div className="grid gap-6 lg:grid-cols-3">
             {/* Scores */}
             <div className="lg:col-span-2 space-y-6">
+              {/* Summary — intro + pros/cons + notable */}
+              <Card>
+                <div className="mb-5">
+                  <h2 className="text-base font-semibold text-[var(--text-primary)] mb-2">
+                    En bref — {city.name}
+                  </h2>
+                  <p className="text-sm text-[var(--text-secondary)] leading-relaxed">
+                    {narrative.intro}
+                  </p>
+                </div>
+
+                <div className="grid gap-4 sm:grid-cols-2 mb-5">
+                  <div className="rounded-xl border border-emerald-200/70 bg-emerald-50/60 p-4">
+                    <h3 className="flex items-center gap-2 text-sm font-bold text-emerald-700 mb-3">
+                      <Check className="h-4 w-4" />
+                      Ce qu&apos;on aime
+                    </h3>
+                    <ul className="space-y-2">
+                      {narrative.pros.map((p, i) => (
+                        <li key={i} className="flex items-start gap-2 text-sm text-[var(--text-primary)]">
+                          <span className="mt-1 inline-block h-1.5 w-1.5 rounded-full bg-emerald-500 shrink-0" />
+                          <span className="leading-snug">{p}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+
+                  <div className="rounded-xl border border-rose-200/70 bg-rose-50/60 p-4">
+                    <h3 className="flex items-center gap-2 text-sm font-bold text-rose-700 mb-3">
+                      <X className="h-4 w-4" />
+                      Les points faibles
+                    </h3>
+                    <ul className="space-y-2">
+                      {narrative.cons.map((c, i) => (
+                        <li key={i} className="flex items-start gap-2 text-sm text-[var(--text-primary)]">
+                          <span className="mt-1 inline-block h-1.5 w-1.5 rounded-full bg-rose-500 shrink-0" />
+                          <span className="leading-snug">{c}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
+
+                <div className="rounded-xl border border-[var(--border)] bg-[var(--bg-elevated)]/50 p-4">
+                  <h3 className="flex items-center gap-2 text-sm font-bold text-[var(--text-primary)] mb-3">
+                    <Sparkles className="h-4 w-4 text-[var(--accent)]" />
+                    À savoir
+                  </h3>
+                  <ul className="space-y-2">
+                    {narrative.notable.map((n, i) => (
+                      <li key={i} className="flex items-start gap-2 text-sm text-[var(--text-secondary)]">
+                        <span className="mt-1 inline-block h-1.5 w-1.5 rounded-full bg-[var(--accent)] shrink-0" />
+                        <span className="leading-snug">{n}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </Card>
+
               {/* Life Stage Lens */}
               <Card>
                 <h2 className="text-base font-semibold text-[var(--text-primary)] mb-4">

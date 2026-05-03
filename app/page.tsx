@@ -12,6 +12,7 @@ import { CostCalculator } from "@/components/CostCalculator";
 import { NewsletterSection } from "@/components/NewsletterSection";
 import { Footer } from "@/components/Footer";
 import { FranceHeatmap } from "@/components/FranceHeatmap";
+import { TopFiveCities } from "@/components/TopFiveCities";
 import { AmbientBackground } from "@/components/AmbientBackground";
 import { CityMarquee } from "@/components/CityMarquee";
 import { ScrollReveal } from "@/components/effects/ScrollReveal";
@@ -53,6 +54,7 @@ export default function HomePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }} />
       <Navbar />
       <HeroSection />
+      <ScrollReveal><TopFiveCities /></ScrollReveal>
       <CityMarquee />
       <ScrollReveal><StatsBar /></ScrollReveal>
       <ScrollReveal><FranceHeatmap /></ScrollReveal>

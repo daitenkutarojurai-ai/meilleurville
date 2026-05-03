@@ -51,13 +51,30 @@ function dotRadius(population: number): number {
   return 3;
 }
 
-const BORDER_PATH =
-  "M " +
-  BORDER.map(([lng, lat]) => {
-    const [x, y] = project(lng, lat);
-    return `${x.toFixed(1)} ${y.toFixed(1)}`;
-  }).join(" L ") +
-  " Z";
+// Hand-traced Corsica polygon (lng, lat)
+const CORSICA: Array<[number, number]> = [
+  [9.45, 43.02], [9.56, 42.85], [9.55, 42.55], [9.52, 42.13],
+  [9.40, 41.85], [9.28, 41.55], [9.17, 41.38], [9.05, 41.40],
+  [8.79, 41.56], [8.65, 41.92], [8.55, 42.10], [8.65, 42.40],
+  [8.55, 42.55], [8.85, 42.75], [9.10, 42.93], [9.25, 43.00],
+  [9.45, 43.02],
+];
+
+function buildPath(points: Array<[number, number]>): string {
+  return (
+    "M " +
+    points
+      .map(([lng, lat]) => {
+        const [x, y] = project(lng, lat);
+        return `${x.toFixed(1)} ${y.toFixed(1)}`;
+      })
+      .join(" L ") +
+    " Z"
+  );
+}
+
+const BORDER_PATH = buildPath(BORDER);
+const CORSICA_PATH = buildPath(CORSICA);
 
 interface HoverState {
   slug: string;
@@ -264,6 +281,7 @@ export function FranceHeatmap() {
                 </pattern>
                 <clipPath id="franceClip">
                   <path d={BORDER_PATH} />
+                  <path d={CORSICA_PATH} />
                 </clipPath>
               </defs>
 
@@ -273,6 +291,12 @@ export function FranceHeatmap() {
               {/* Soft outer glow shadow */}
               <path
                 d={BORDER_PATH}
+                fill="rgba(22,163,74,0.18)"
+                filter="url(#borderGlow)"
+                transform="translate(0 6)"
+              />
+              <path
+                d={CORSICA_PATH}
                 fill="rgba(22,163,74,0.18)"
                 filter="url(#borderGlow)"
                 transform="translate(0 6)"
@@ -342,6 +366,30 @@ export function FranceHeatmap() {
                 filter="url(#borderGlow)"
               />
 
+              {/* Corsica filled shape */}
+              <path
+                d={CORSICA_PATH}
+                fill="url(#franceFill)"
+                stroke="url(#franceStroke)"
+                strokeWidth="2.5"
+                strokeLinejoin="round"
+                strokeLinecap="round"
+                style={{
+                  strokeDasharray: 700,
+                  strokeDashoffset: mounted ? 0 : 700,
+                  transition: "stroke-dashoffset 2.4s cubic-bezier(0.2, 0.7, 0.2, 1)",
+                  filter: "url(#franceShadow)",
+                }}
+              />
+              <path
+                d={CORSICA_PATH}
+                fill="none"
+                stroke="rgba(132,204,22,0.45)"
+                strokeWidth="6"
+                strokeLinejoin="round"
+                filter="url(#borderGlow)"
+              />
+
               {/* Top-tier expanding rings for cities ≥ 8.5 */}
               {dots
                 .filter((d) => d.score >= 8.5)
@@ -403,54 +451,65 @@ export function FranceHeatmap() {
               )}
             </svg>
 
-            {/* Glass tooltip */}
-            {hover && (
-              <Link
-                href={`/villes/${hover.slug}`}
-                className="absolute pointer-events-auto rounded-2xl glass-strong border border-white/60 px-4 py-3 shadow-2xl shadow-[var(--accent)]/20 text-left transition-transform hover:scale-105 z-20"
-                style={{
-                  left: `calc(${(hover.x / W) * 100}% + 28px)`,
-                  top: `calc(${(hover.y / H) * 100}% - 12px)`,
-                  transform: "translate(0, -50%)",
-                  minWidth: 220,
-                }}
-              >
-                <div className="flex items-center gap-2 mb-2">
-                  <span className="inline-block h-3 w-3 rounded-full ring-2 ring-white shadow" style={{ background: hover.color }} />
-                  <span className="text-base font-bold text-[var(--text-primary)]">{hover.name}</span>
-                  <span
-                    className="ml-auto text-base font-bold font-mono-data"
-                    style={{ color: hover.color }}
-                  >
-                    {hover.scores.global.toFixed(1)}
-                  </span>
-                </div>
-                <div className="text-[11px] text-[var(--text-tertiary)] mb-2">{hover.region}</div>
-                <div className="space-y-1">
-                  {[
-                    { label: "Nature", val: hover.scores.nature },
-                    { label: "Transport", val: hover.scores.transport },
-                    { label: "Coût", val: hover.scores.cost },
-                  ].map((s) => (
-                    <div key={s.label} className="flex items-center gap-2 text-[10px]">
-                      <span className="w-14 text-[var(--text-secondary)]">{s.label}</span>
-                      <div className="flex-1 h-1 rounded-full bg-[var(--bg-elevated)] overflow-hidden">
-                        <div
-                          className="h-full rounded-full"
-                          style={{
-                            width: `${(s.val / 10) * 100}%`,
-                            background: scoreColor(s.val),
-                            transition: "width 0.4s ease",
-                          }}
-                        />
+            {/* Glass tooltip — viewport-aware, flips when near edges */}
+            {hover && (() => {
+              const xPct = (hover.x / W) * 100;
+              const yPct = (hover.y / H) * 100;
+              const flipX = xPct > 60;
+              const flipY = yPct > 70;
+              return (
+                <Link
+                  href={`/villes/${hover.slug}`}
+                  className="absolute pointer-events-auto rounded-2xl glass-strong border border-white/60 px-5 py-4 shadow-2xl shadow-[var(--accent)]/30 text-left transition-transform hover:scale-[1.02] z-20"
+                  style={{
+                    left: flipX ? `calc(${xPct}% - 16px)` : `calc(${xPct}% + 16px)`,
+                    top: flipY ? `calc(${yPct}% - 16px)` : `calc(${yPct}% + 16px)`,
+                    transform: `translate(${flipX ? "-100%" : "0"}, ${flipY ? "-100%" : "0"})`,
+                    width: "min(280px, calc(100vw - 32px))",
+                    maxWidth: 280,
+                  }}
+                >
+                  <div className="flex items-center gap-2 mb-2">
+                    <span className="inline-block h-3.5 w-3.5 rounded-full ring-2 ring-white shadow" style={{ background: hover.color }} />
+                    <span className="text-lg font-bold text-[var(--text-primary)] truncate">{hover.name}</span>
+                    <span
+                      className="ml-auto text-xl font-bold font-mono-data shrink-0"
+                      style={{ color: hover.color }}
+                    >
+                      {hover.scores.global.toFixed(1)}
+                    </span>
+                  </div>
+                  <div className="text-xs text-[var(--text-tertiary)] mb-3 truncate">
+                    {hover.region} · {hover.population.toLocaleString("fr-FR")} hab.
+                  </div>
+                  <div className="space-y-2">
+                    {[
+                      { label: "Nature", val: hover.scores.nature },
+                      { label: "Transport", val: hover.scores.transport },
+                      { label: "Coût", val: hover.scores.cost },
+                    ].map((s) => (
+                      <div key={s.label} className="flex items-center gap-2 text-xs">
+                        <span className="w-16 text-[var(--text-secondary)] font-medium">{s.label}</span>
+                        <div className="flex-1 h-1.5 rounded-full bg-[var(--bg-elevated)] overflow-hidden">
+                          <div
+                            className="h-full rounded-full"
+                            style={{
+                              width: `${(s.val / 10) * 100}%`,
+                              background: scoreColor(s.val),
+                              transition: "width 0.4s ease",
+                            }}
+                          />
+                        </div>
+                        <span className="font-mono-data font-bold text-[var(--text-primary)] w-8 text-right">{s.val.toFixed(1)}</span>
                       </div>
-                      <span className="font-mono-data text-[var(--text-secondary)] w-6 text-right">{s.val.toFixed(1)}</span>
-                    </div>
-                  ))}
-                </div>
-                <div className="mt-2 text-[10px] text-[var(--accent)] font-semibold">Voir la fiche →</div>
-              </Link>
-            )}
+                    ))}
+                  </div>
+                  <div className="mt-3 pt-3 border-t border-[var(--border)]/60 text-xs text-[var(--accent)] font-semibold">
+                    Voir la fiche complète →
+                  </div>
+                </Link>
+              );
+            })()}
 
             {/* Legend */}
             <div className="relative mt-4 flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-xs">
