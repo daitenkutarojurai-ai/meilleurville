@@ -117,6 +117,7 @@ export function FranceHeatmap() {
 
   const dots = useMemo(() => {
     return [...CITIES_SEED]
+      .filter((c) => c.longitude >= -6 && c.longitude <= 10 && c.latitude >= 40 && c.latitude <= 52)
       .filter((c) => {
         if (filter === "top") return c.scores.global >= 7.0;
         if (filter === "budget") return c.scores.cost >= 7.0;

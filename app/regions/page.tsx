@@ -25,6 +25,11 @@ const REGION_EMOJIS: Record<string, string> = {
   "Grand Est": "🥨",
   "Île-de-France": "🗼",
   "Corse": "🏝️",
+  "La Réunion": "🌋",
+  "Martinique": "🌺",
+  "Guadeloupe": "🌴",
+  "Guyane": "🌿",
+  "Mayotte": "🐢",
 };
 
 export default function RegionsPage() {

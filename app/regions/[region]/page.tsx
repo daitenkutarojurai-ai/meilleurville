@@ -25,6 +25,11 @@ const REGION_EMOJIS: Record<string, string> = {
   "grand-est": "🥨",
   "ile-de-france": "🗼",
   "corse": "🏝️",
+  "la-reunion": "🌋",
+  "martinique": "🌺",
+  "guadeloupe": "🌴",
+  "guyane": "🌿",
+  "mayotte": "🐢",
 };
 
 const REGION_DESCRIPTIONS: Record<string, string> = {
@@ -41,6 +46,11 @@ const REGION_DESCRIPTIONS: Record<string, string> = {
   "grand-est": "Le Grand Est est la région des frontières ouvertes. Strasbourg est capitale européenne et modèle de mobilité douce. Mulhouse et le Bas-Rhin permettent le travail frontalier en Suisse et Allemagne avec des salaires bien supérieurs. Colmar est l'une des villes les plus photographiées de France.",
   "ile-de-france": "L'Île-de-France concentre 20% de la population française et 30% du PIB national. Paris est le centre incontesté de la culture, de l'emploi et du réseau professionnel. Mais la région offre un éventail considérable : la banlieue chic (Neuilly-sur-Seine, Versailles, Saint-Germain-en-Laye, Vincennes) pour les familles aisées en quête de prestige et d'espaces verts, les villes tech (Issy-les-Moulineaux, Levallois-Perret) pour les profils numériques, les villes créatives (Montreuil, Pantin) pour les artistes, et les villes nouvelles accessibles (Cergy) pour les budgets serrés. La forêt de Fontainebleau et le Bois de Boulogne offrent des espaces naturels exceptionnels sans quitter la région.",
   "corse": "La Corse est l'île de beauté française par excellence : 2 890 heures de soleil à Ajaccio, la mer Méditerranée omniprésente, le maquis parfumé, les montagnes accessibles. Elle attire retraités en quête de soleil et télétravailleurs cherchant un cadre de vie exceptionnel. Le coût de la vie y est plus élevé que sur le continent en raison de l'insularité, et les transports internes restent une contrainte.",
+  "la-reunion": "La Réunion est un département français de l'océan Indien à 9 000 km de la métropole : volcan actif (Piton de la Fournaise), cirques classés UNESCO, lagon, et un climat tropical tempéré par l'altitude. Saint-Denis concentre l'administration, Saint-Pierre rayonne sur le sud, Le Tampon et les hauts offrent fraîcheur et nature. Le coût de la vie reste 7 à 12 % au-dessus de la métropole (octroi de mer), mais la qualité de vie outdoor est exceptionnelle.",
+  "martinique": "La Martinique est une île caribéenne au climat tropical (28 °C toute l'année), avec Fort-de-France comme préfecture et un patrimoine créole vivant. Les plages, les fonds blancs, le rhum agricole AOC et la gastronomie font partie du quotidien. Le coût de la vie est plus élevé qu'en métropole, le marché de l'emploi reste tendu, mais le cadre est inégalable pour qui cherche soleil, mer et lifestyle créole.",
+  "guadeloupe": "La Guadeloupe est un archipel caribéen en forme de papillon : Grande-Terre balnéaire (Pointe-à-Pitre, Le Gosier), Basse-Terre montagneuse avec la Soufrière et la forêt tropicale. Les Abymes et Baie-Mahault concentrent l'activité économique. Climat chaud toute l'année, lagons accessibles, mais coût de la vie élevé et marché immobilier sous tension dans les zones touristiques.",
+  "guyane": "La Guyane est un territoire amazonien grand comme le Portugal, en majorité couvert de forêt primaire. Cayenne (préfecture) est portée par le centre spatial de Kourou et une démographie jeune. Saint-Laurent-du-Maroni borde le fleuve frontalier avec le Suriname. Climat équatorial chaud et humide, biodiversité exceptionnelle, mais infrastructures limitées et coût de la vie élevé loin du littoral.",
+  "mayotte": "Mayotte est le 101e département français, dans l'archipel des Comores. Lagon parmi les plus grands du monde, biodiversité marine remarquable (tortues, dauphins, baleines à bosse en saison). Mamoudzou concentre la population et l'activité. La situation économique et sociale reste difficile (insécurité, accès aux services, immigration), mais le potentiel naturel est immense et l'île attire de plus en plus de profils tournés vers la mer.",
 };
 
 function slugToRegion(slug: string): string | undefined {

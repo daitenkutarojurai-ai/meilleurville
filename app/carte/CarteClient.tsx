@@ -49,6 +49,10 @@ function project(lng: number, lat: number): [number, number] {
   return [PAD + (lng - LNG_MIN) * SCALE_X, PAD + (LAT_MAX - lat) * SCALE_Y];
 }
 
+function isMetropolitan(lng: number, lat: number): boolean {
+  return lng >= -6 && lng <= 10 && lat >= 40 && lat <= 52;
+}
+
 function scoreColor(score: number): string {
   if (score >= 8.5) return "#34D399";
   if (score >= 7.5) return "#22C55E";
@@ -108,6 +112,7 @@ export function CarteClient() {
   const dots = useMemo(
     () =>
       [...CITIES_SEED]
+        .filter((c) => isMetropolitan(c.longitude, c.latitude))
         .sort((a, b) => a.scores[scoreKey] - b.scores[scoreKey])
         .map((c, i) => {
           const [x, y] = project(c.longitude, c.latitude);
@@ -236,7 +241,7 @@ export function CarteClient() {
               {/* Heat layer (top cities for current metric) */}
               <g clipPath="url(#cFranceClip)" opacity="0.55" style={{ mixBlendMode: "screen" }}>
                 {[...CITIES_SEED]
-                  .filter((c) => c.scores[scoreKey] >= 7.5)
+                  .filter((c) => isMetropolitan(c.longitude, c.latitude) && c.scores[scoreKey] >= 7.5)
                   .map((c) => {
                     const [x, y] = project(c.longitude, c.latitude);
                     const r = 70 + (c.scores[scoreKey] - 7.5) * 30;
@@ -255,7 +260,7 @@ export function CarteClient() {
                     );
                   })}
                 {[...CITIES_SEED]
-                  .filter((c) => c.scores[scoreKey] >= 7.5)
+                  .filter((c) => isMetropolitan(c.longitude, c.latitude) && c.scores[scoreKey] >= 7.5)
                   .map((c) => {
                     const [x, y] = project(c.longitude, c.latitude);
                     const r = 70 + (c.scores[scoreKey] - 7.5) * 30;
