@@ -4,6 +4,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { HOUSING } from "@/data/housing";
+import { DromStrip } from "@/components/DromStrip";
 
 type ScoreKey = "global" | "nature" | "cost" | "safety" | "transport" | "culture" | "remoteWork" | "schools";
 
@@ -374,6 +375,8 @@ export function CarteClient() {
             ))}
             <span className="ml-auto text-[#A8C4A8]">Cliquez sur un point pour ouvrir la fiche</span>
           </div>
+
+          <DromStrip />
         </div>
 
         {/* Side panel */}

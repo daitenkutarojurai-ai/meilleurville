@@ -2,6 +2,7 @@
 import { useMemo, useRef, useState, useEffect } from "react";
 import Link from "next/link";
 import { CITIES_SEED } from "@/data/cities-seed";
+import { DromStrip } from "@/components/DromStrip";
 
 // Hand-traced French border (lng, lat) — closed polygon
 const BORDER: Array<[number, number]> = [
@@ -528,6 +529,8 @@ export function FranceHeatmap() {
                 </span>
               ))}
             </div>
+
+            <DromStrip />
           </div>
 
           {/* Side panel */}
