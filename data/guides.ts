@@ -6507,6 +6507,75 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["Bordeaux", "quitter Bordeaux", "Bayonne", "La Rochelle", "Arcachon", "Périgueux", "Nouvelle-Aquitaine", "déménagement"],
   },
+  {
+    slug: "vivre-en-outre-mer-guide-2026",
+    title: "Vivre en Outre-mer en 2026 : Antilles, Guyane, Réunion, Mayotte sans filtre",
+    metaTitle: "Vivre en Outre-mer 2026 — Guide complet : DROM, climat, coût, métiers",
+    metaDesc:
+      "Antilles, Guyane, La Réunion, Mayotte : où vivre, à quel coût, quels avantages, quels écueils. Le guide honnête pour s'installer dans un département d'outre-mer.",
+    category: "region",
+    emoji: "🌴",
+    readMinutes: 11,
+    publishedAt: "2026-05-05",
+    updatedAt: "2026-05-05",
+    intro:
+      "S'installer en Outre-mer fascine — climat, paysages, culture créole, océan toute l'année. Mais la réalité quotidienne n'est ni un Club Med ni un enfer : c'est la France, avec un coût de la vie majoré par l'octroi de mer, une géographie contraignante, et des écosystèmes pro et scolaires plus restreints qu'en métropole. Ce guide pose les vraies questions et compare les cinq départements DROM (Guadeloupe, Martinique, Guyane, La Réunion, Mayotte) sur ce qui change la vie au quotidien.",
+    sections: [
+      {
+        heading: "Le coût de la vie : 7 à 38 % au-dessus de la métropole",
+        body: "L'INSEE mesure régulièrement le différentiel de prix entre les DROM et la France hexagonale. En 2022 : +9 % en Martinique, +13 % en Guadeloupe, +14 % à La Réunion, +20 % en Guyane, +38 % à Mayotte. Cela vient de l'octroi de mer (taxe d'importation), de la chaîne logistique, et d'un tissu commercial concentré. Concrètement : un panier de courses standard peut peser 200 à 350 € de plus par mois pour un ménage de 4. Les loyers, en revanche, sont souvent plus accessibles qu'en métropole (sauf zones premium type Saint-Barthélemy ou Saint-François en Guadeloupe).",
+      },
+      {
+        heading: "La Réunion : le DROM le plus complet",
+        body: "Population 870 000 hab., 4 villes principales dans notre base : Saint-Denis (préfecture, 154 000 hab.), Saint-Paul, Saint-Pierre, Le Tampon. La Réunion combine ce que les autres DROM séparent : volcan actif, lagon, hauts climatiques (Le Tampon à 530 m d'altitude offre un climat tempéré), océan, cirques UNESCO. Université, écoles d'ingénieur (ESIROI), CHU, scène entrepreneuriale. C'est le DROM où le couple métropolitain qualifié s'intègre le plus facilement. Climat tropical inversé : été austral chaud et humide (saison cyclonique novembre-avril), hiver austral plus frais et sec (mai-octobre, idéal pour visiter).",
+      },
+      {
+        heading: "Martinique et Guadeloupe : Caraïbes et arbitrages",
+        body: "Martinique et Guadeloupe partagent un climat tropical caribéen (saison sèche de carême décembre-avril, saison cyclonique juin-novembre), une population française de souche créole, un patrimoine sucrier-rhumier et la culture du déjeuner long. Différence : la Martinique est plus dense, plus tertiaire, avec Fort-de-France (75 000 hab.) comme préfecture ; la Guadeloupe est un archipel papillon avec deux pôles (Pointe-à-Pitre/Les Abymes côté Grande-Terre, Basse-Terre côté volcan). Pour s'installer, beaucoup arbitrent ainsi : la Guadeloupe offre plus de variété (plages calmes, montagne, randonnée volcanique), la Martinique offre une vie urbaine plus dense.",
+      },
+      {
+        heading: "Guyane : le DROM le moins compris",
+        body: "Population 290 000 hab., territoire grand comme le Portugal, en majorité couvert de forêt amazonienne. Cayenne (65 000 hab., préfecture) et Saint-Laurent-du-Maroni (50 000, frontière Suriname) sont les deux pôles principaux. La Guyane est portée par le centre spatial de Kourou (Ariane, Soyouz, Vega), une démographie jeune (âge médian 25 ans), une biodiversité exceptionnelle. Mais : climat équatorial très humide toute l'année, infrastructures limitées, insécurité plus marquée dans certaines zones, accès médical spécialisé restreint hors Cayenne. À considérer avec sérieux et préparation, pas en lifestyle move.",
+      },
+      {
+        heading: "Mayotte : le DROM le plus difficile",
+        body: "Population déclarée 320 000 hab. (l'INSEE estime la population réelle à 350 000+ avec l'immigration comorienne). 101e département depuis 2011. Mamoudzou (71 000 hab.) concentre l'activité. Lagon parmi les plus grands du monde (1 100 km²), biodiversité marine exceptionnelle (tortues, dauphins, baleines en saison). Mais : tensions sécuritaires régulières, infrastructures sous-dimensionnées, accès à l'eau potable épisodique, services publics sous tension, scolarité difficile dans certains secteurs. Réservé à des profils engagés (santé publique, éducation, ONG, militaires) plutôt qu'à un projet de vie classique.",
+      },
+      {
+        heading: "Le piège des « primes » et de la fiscalité",
+        body: "Les fonctionnaires d'État affectés en Outre-mer perçoivent une indexation (1,4× pour la Réunion, jusqu'à 1,53× pour les Antilles, 1,4× pour la Guyane). C'est l'argument financier classique qui pousse au choix DROM. Mais pour les salariés du privé et les indépendants, cette prime n'existe pas — vous payez la majoration du coût de la vie sans contrepartie. Côté impôts, l'IR est minoré (-30 % à -40 % selon les DROM) et la TVA est réduite ; ces avantages compensent partiellement. Faites le calcul net-net avant de signer.",
+      },
+      {
+        heading: "Métiers et emploi : qui s'en sort ?",
+        body: "Trois profils s'intègrent bien : (1) les professions médicales — il y a une pénurie chronique partout, particulièrement spécialistes ; (2) les enseignants — postes ouverts régulièrement, indemnités d'éloignement ; (3) les fonctionnaires d'État (police, gendarmerie, justice, fiscalité, douanes). Profils plus difficiles : cadres tech ou ingénieurs hors secteur spatial (Guyane), métiers de la communication, marchés culturels — l'écosystème est petit. Le télétravail change la donne pour qui peut conserver un employeur métropolitain, mais le décalage horaire (-1h Antilles/Guyane, +1h ou +3h Mayotte/Réunion selon la saison) reste à gérer.",
+      },
+      {
+        heading: "Scolarité : ce que les familles doivent savoir",
+        body: "Le réseau scolaire est complet pour le primaire et le collège dans tous les DROM. Au lycée et post-bac, le panel est plus restreint : universités complètes à La Réunion (Saint-Denis), aux Antilles (pôles Martinique et Guadeloupe), en Guyane (Cayenne) ; CPGE existantes mais peu nombreuses ; grandes écoles d'ingénieur représentées par ESIROI à La Réunion. Beaucoup de familles ultramarines envoient leurs enfants en métropole pour les CPGE et les écoles sélectives. Si la scolarité du supérieur est un critère majeur pour vous, La Réunion offre l'écosystème le plus complet, suivie des Antilles.",
+      },
+      {
+        heading: "La rupture sociale : sous-estimée systématiquement",
+        body: "Quitter la métropole pour un DROM, c'est une rupture comparable à expatriation. Les vols vers Paris coûtent 800 à 1 400 € en haute saison, le décalage horaire complique les appels famille, vous arrivez sans réseau professionnel ni amical, et la population locale métropolitaine tourne (2-4 ans en moyenne pour les fonctionnaires). Certains s'enracinent, beaucoup repartent. Avant de signer, posez-vous une question simple : si nous repartons dans 3 ans, qu'est-ce que nous aurons gagné ? Si la réponse est « rien de durable », reconsidérez.",
+      },
+      {
+        heading: "Quel DROM pour quel profil ?",
+        body: "Famille avec enfants, télétravail majoritaire, attachement à un cadre français complet : La Réunion (Saint-Pierre, Le Tampon). Couple lifestyle, retraite active, recherche de chaleur et de mer : Martinique (Fort-de-France, Schoelcher) ou Guadeloupe (Saint-François, Le Gosier). Profil engagé sur l'environnement ou la coopération scientifique : Guyane (Cayenne, Kourou). Mission de service public, profil militant ou militaire : Mayotte (Mamoudzou). Et si vous hésitez : commencez par 6 mois en location avant tout achat ou décision irréversible.",
+      },
+    ],
+    relatedCities: [
+      "saint-denis-reunion", "saint-paul-reunion", "saint-pierre-reunion", "le-tampon",
+      "fort-de-france", "le-lamentin",
+      "pointe-a-pitre", "les-abymes", "baie-mahault",
+      "cayenne", "saint-laurent-du-maroni",
+      "mamoudzou",
+    ],
+    relatedGuides: [
+      "soleil-france-guide",
+      "vivre-bord-mer-france-guide",
+      "quitter-paris-guide-2025",
+    ],
+    tags: ["Outre-mer", "DROM", "DOM-TOM", "La Réunion", "Martinique", "Guadeloupe", "Guyane", "Mayotte", "tropical", "expatriation"],
+  },
 ];
 
 export const GUIDE_CATEGORIES = [
