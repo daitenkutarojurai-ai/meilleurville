@@ -56,6 +56,8 @@ export default async function RankingPage({ params }: Props) {
     mobilite: ["teletravail", "lifestyle"],
     investissement: ["budget"],
     sante: ["lifestyle", "famille"],
+    ecologie: ["lifestyle", "region"],
+    climat: ["lifestyle", "region"],
   };
   const allowedCategories = guideCategoryMap[slug] ?? ["lifestyle"];
   const relatedGuides = GUIDES.filter((g) => allowedCategories.includes(g.category)).slice(0, 3);

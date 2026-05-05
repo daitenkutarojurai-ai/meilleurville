@@ -8,7 +8,7 @@ import { ScrollReveal } from "@/components/effects/ScrollReveal";
 import Link from "next/link";
 import {
   Laptop, Home, TreePine, GraduationCap, Palmtree, ArrowRight, Wallet,
-  Sun, Shield, Music, Bike, Building2, Heart, Leaf,
+  Sun, Shield, Music, Bike, Building2, Heart, Leaf, CloudSun,
 } from "lucide-react";
 import type { City } from "@/lib/types";
 
@@ -58,6 +58,7 @@ const CATEGORIES = [
   { slug: "investissement", label: "Investissement", emoji: "📈", icon: Building2, gradient: "from-rose-400 to-pink-500", color: "#F43F5E", desc: "Prix accessibles, rendement locatif, attractivité", scoreKey: "cost" },
   { slug: "sante", label: "Santé & Soins", emoji: "❤️", icon: Heart, gradient: "from-pink-400 to-rose-500", color: "#EC4899", desc: "Densité médicale, hôpitaux, qualité de l'air, bien-être", scoreKey: "life" },
   { slug: "ecologie", label: "Écologie & Air", emoji: "🌿", icon: Leaf, gradient: "from-lime-400 to-green-500", color: "#84CC16", desc: "Qualité de l'air, mobilité douce, espaces verts, bas-carbone", scoreKey: "nature" },
+  { slug: "climat", label: "Climat de comfort", emoji: "🌤️", icon: CloudSun, gradient: "from-amber-400 to-yellow-500", color: "#F59E0B", desc: "Données réelles : ensoleillement, douceur d'été, clémence d'hiver", scoreKey: "nature" },
 ] as const;
 
 export default function ClassementsPage() {

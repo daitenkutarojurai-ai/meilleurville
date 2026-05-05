@@ -266,6 +266,28 @@ export const RANKING_META = {
       "Cadre de vie : espaces verts, activité physique, alimentation locale",
     ],
   },
+  climat: {
+    slug: "climat",
+    label: "Climat de comfort",
+    emoji: "🌤️",
+    headline: "Villes françaises au climat le plus agréable",
+    description:
+      "Classement basé sur les données réelles d'ensoleillement et de température : ensoleillement annuel, douceur estivale (sans canicule), clémence hivernale (sans gel marqué). Les villes au climat le plus équilibré arrivent en tête.",
+    methodology:
+      "Score climatique composite : ensoleillement (×3, plafonné à 3 000 h/an), douceur d'été (×2, idéal ≈ 23 °C en juillet), clémence d'hiver (×2, idéal ≈ 8 °C en janvier). Calcul à partir des données seed (Météo-France / Open-Meteo agrégées).",
+    weights: { nature: 0, life: 0 }, // ignored — climat uses a custom scorer
+    color: "text-amber-400",
+    borderColor: "border-amber-400/20",
+    bgColor: "bg-amber-400/5",
+    scoreKey: "nature" as const,
+    why: [
+      "Heures d'ensoleillement annuel (Météo-France)",
+      "Température moyenne de juillet (douceur sans canicule)",
+      "Température moyenne de janvier (clémence sans gel)",
+      "Pénalité automatique pour les extrêmes (été > 30 °C, hiver < 0 °C)",
+      "Classification climatique (méditerranéen / océanique / montagnard / tropical)",
+    ],
+  },
   ecologie: {
     slug: "ecologie",
     label: "Écologie & Air",
@@ -292,6 +314,31 @@ export const RANKING_META = {
 
 export type RankingSlug = keyof typeof RANKING_META;
 
+function climateComfortScore(c: (typeof CITIES_SEED)[number]): number {
+  // Real data-driven climate-comfort scorer. Returns 0..10.
+  // Sunshine: more is better, diminishing returns past 3 000 h.
+  const sun = Math.min(c.sunshinedays ?? 1900, 3000);
+  const sunScore = Math.max(0, (sun - 1500) / 1500); // 0..1, full at 3 000 h
+
+  // Summer: ideal ≈ 23 °C; harsh penalty past 30 °C, mild penalty under 18 °C.
+  const tj = c.avgTempJuly ?? 22;
+  const summerScore = tj > 30 ? Math.max(0, 1 - (tj - 30) / 5)
+    : tj < 18 ? Math.max(0, 1 - (18 - tj) / 6)
+    : 1 - Math.abs(tj - 23) / 12;
+
+  // Winter: ideal ≈ 8 °C; harsh penalty under 0 °C, mild penalty over 16 °C
+  // (very mild winters can mean too hot if it's a tropical city — but those
+  // already lose points on summer if July is hot).
+  const ta = c.avgTempJanuary ?? 5;
+  const winterScore = ta < 0 ? Math.max(0, 1 - (0 - ta) / 5)
+    : ta > 16 ? Math.max(0, 1 - (ta - 16) / 8)
+    : 1 - Math.abs(ta - 8) / 10;
+
+  // Composite — sunshine ×3, summer ×2, winter ×2.
+  const raw = (sunScore * 3 + summerScore * 2 + winterScore * 2) / 7;
+  return Math.max(0, Math.min(10, raw * 10));
+}
+
 export function getRankedCities(
   slug: RankingSlug
 ): Array<{ city: City; rank: number; score: number; delta: number }> {
@@ -299,6 +346,9 @@ export function getRankedCities(
   const weights = meta.weights as Record<string, number>;
 
   const scored = CITIES_SEED.map((c) => {
+    if (slug === "climat") {
+      return { city: c, score: climateComfortScore(c) };
+    }
     let total = 0;
     let weighted = 0;
     for (const [key, w] of Object.entries(weights)) {
