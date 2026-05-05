@@ -526,6 +526,22 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                 <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors" />
               </a>
 
+              {/* Écoles link */}
+              <a
+                href={`/villes/${city.slug}/ecoles`}
+                className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
+              >
+                <div>
+                  <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
+                    🎓 Écoles à {city.name}
+                  </div>
+                  <div className="text-xs text-[var(--text-tertiary)] mt-0.5">
+                    Université, CPGE, écoles · score {city.scores.schools.toFixed(1)}/10
+                  </div>
+                </div>
+                <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors" />
+              </a>
+
               {/* CTA — partager son expérience via la discussion */}
               <Card className="border-[var(--accent)]/20 bg-[var(--accent)]/5">
                 <div className="text-center">

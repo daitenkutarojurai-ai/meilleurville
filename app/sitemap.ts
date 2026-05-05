@@ -691,6 +691,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly" as const,
       priority: 0.6,
     },
+    {
+      url: `${BASE_URL}/villes/${city.slug}/ecoles`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
+    },
   ]);
 
   return [...staticRoutes, ...guideRoutes, ...regionRoutes, ...deptRoutes, ...cityRoutes];
