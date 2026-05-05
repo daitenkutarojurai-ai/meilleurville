@@ -6260,6 +6260,253 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["Lorraine", "Metz", "Nancy", "Thionville", "Épinal", "frontalier", "Luxembourg", "logement abordable", "télétravail", "patrimoine"],
   },
+  {
+    slug: "quitter-lyon-guide-2026",
+    title: "Quitter Lyon en 2026 : où aller, pourquoi, et combien on récupère",
+    metaTitle: "Quitter Lyon 2026 — Le guide honnête (Annecy, Grenoble, Saint-Étienne, ailleurs)",
+    metaDesc:
+      "Pollution, prix au m², circulation, A7 saturée : pourquoi de plus en plus de Lyonnais s'exilent. Les vraies destinations, le vrai calcul, et les pièges à éviter.",
+    category: "comparaison",
+    emoji: "🦁",
+    readMinutes: 9,
+    publishedAt: "2026-05-05",
+    updatedAt: "2026-05-05",
+    intro:
+      "Lyon reste la deuxième ville de France et un succès économique indéniable, mais le contrat tacite — qualité de vie supérieure à la capitale, prix maîtrisés, accès montagne — s'est tendu. Le m² au centre dépasse désormais 5 500 €, les inversions thermiques d'hiver collent un PM2,5 supérieur à celui de Paris, et la rocade Est asphyxie tout déplacement entre 7h30 et 9h30. Ce guide regarde froidement les alternatives et ce qu'on y gagne réellement.",
+    sections: [
+      {
+        heading: "Les vraies raisons pour lesquelles on part",
+        body: "Trois griefs reviennent dans nos retours : (1) le coût immobilier — un T3 dans le 6e ou la Croix-Rousse dépasse 1 500 €/mois et 7 000 €/m² à l'achat ; (2) la qualité de l'air en hiver — la cuvette lyonnaise piège les particules fines plusieurs semaines par an, ce qui rend le vélo quotidien ambivalent malgré les pistes ; (3) la fatigue de la rocade et du tunnel de Fourvière, qui transforme un trajet domicile-travail périphérique en épreuve. Aucun de ces points n'est rédhibitoire seul, mais cumulés ils poussent à regarder ailleurs.",
+      },
+      {
+        heading: "Annecy : la sortie premium, mais à quel prix",
+        body: "C'est la destination réflexe. Score MeilleurVille parmi les plus élevés du pays : nature 9.8, sécurité 8.7, vie 8.9. Le revers : le m² achat tutoie 7 000 € sur Annecy-le-Vieux et le centre historique, parfois autant qu'à Lyon. Le calcul financier ne joue pas — vous payez plutôt la qualité de l'air, le lac, et un cadre familial. Réservé aux profils dont les revenus suivent (cadres, frontaliers Genève, professions libérales) ou à ceux prêts à viser Cran-Gevrier ou Seynod.",
+      },
+      {
+        heading: "Grenoble : la voisine sous-cotée",
+        body: "À 1h15 par l'A48, Grenoble offre un cadre montagneux supérieur à Lyon (montagnes à 20 minutes, pas à 1h30), un coût immobilier inférieur (≈ 3 800 €/m² au centre), et un écosystème tech, recherche et ingénierie unique en France. La pollution hivernale existe aussi (cuvette identique), mais les politiques de mobilité douce (vélo, tram) sont plus abouties. À considérer sérieusement si la montagne pèse plus que le rayonnement urbain.",
+      },
+      {
+        heading: "Saint-Étienne : le pari à contre-courant",
+        body: "Personne n'y pense, et c'est précisément l'opportunité : prix divisés par deux (≈ 1 800 €/m² au centre), TGV Paris en 2h45, scène culturelle réelle (Biennale du design, Comédie). Pour un télétravailleur ou une famille dont l'attache pro reste sur Lyon (45 minutes en TER direct), c'est le meilleur arbitrage prix/qualité de vie de la région. À condition d'accepter un centre encore convalescent.",
+      },
+      {
+        heading: "Plus loin : Valence, Chambéry, Aix-les-Bains",
+        body: "Valence est la plus pragmatique : TGV Paris 2h10, TGV Lyon 30 min, prix immobilier ≈ 2 800 €/m², vrai centre-ville et cadre rhodanien apaisé. Chambéry et Aix-les-Bains capitalisent sur la proximité montagne + lac avec des prix plus tendus que Valence mais inférieurs à Annecy (≈ 4 000 €/m²). Pour une famille qui télétravaille, le triangle Valence–Chambéry–Aix offre des compromis souvent meilleurs que la sortie standard «Annecy ou rien».",
+      },
+      {
+        heading: "Le calcul financier honnête",
+        body: "Ménage à 4 200 € nets, T3 actuel à Lyon 6e (loyer 1 350 €) → mêmes m² à Saint-Étienne (550 €), Valence (700 €), Grenoble (900 €), Chambéry (950 €), Annecy (1 250 €). Sur 10 ans, le différentiel Saint-Étienne représente ≈ 96 000 € d'épargne. Mais retirez de ce calcul deux coûts cachés : aller-retours Lyon hebdomadaires (carburant + péages, ≈ 200 €/mois) et garde d'enfants moins flexible si vous gardez un employeur lyonnais. Le vrai gain net est plus proche de 60 000 € — toujours significatif, mais loin du chiffre brut.",
+      },
+      {
+        heading: "Les erreurs classiques",
+        body: "Ne basez pas la décision sur un week-end ensoleillé d'avril : visitez en novembre (inversion lyonnaise, brouillard grenoblois), un mardi soir (réelle vitalité du centre), et faites le trajet domicile-bureau aux heures critiques. Méfiez-vous aussi du rêve montagnard : si vous ne skiez pas plus de 5 jours par an, l'argument perd 80 % de sa valeur. Enfin, ne sous-estimez pas la rupture sociale — quitter Lyon, c'est aussi quitter un réseau d'amis, d'écoles, de praticiens. Prévoir 18 mois pour reconstruire.",
+      },
+    ],
+    relatedCities: ["annecy", "grenoble", "saint-etienne", "valence", "chambery", "aix-les-bains"],
+    relatedGuides: [
+      "auvergne-rhone-alpes-lyon-grenoble-annecy",
+      "vivre-en-auvergne-rhone-alpes-guide-2025",
+      "quitter-paris-guide-2025",
+    ],
+    tags: ["Lyon", "quitter Lyon", "Annecy", "Grenoble", "Saint-Étienne", "Valence", "Chambéry", "déménagement", "télétravail"],
+  },
+  {
+    slug: "quitter-marseille-guide-2026",
+    title: "Quitter Marseille en 2026 : qui part, où, pourquoi",
+    metaTitle: "Quitter Marseille 2026 — Aix, Toulon, Avignon, Montpellier : le guide honnête",
+    metaDesc:
+      "Pourquoi tant de Marseillais cherchent à partir — et qui le devrait vraiment. Aix, Toulon, Avignon, Montpellier, Aubagne : avantages, vrais coûts et faux espoirs.",
+    category: "comparaison",
+    emoji: "⛵",
+    readMinutes: 9,
+    publishedAt: "2026-05-05",
+    updatedAt: "2026-05-05",
+    intro:
+      "Marseille divise comme aucune ville française. Ceux qui l'aiment l'aiment violemment ; ceux qui veulent en partir le font en silence, souvent après un évènement précis (cambriolage, scolarité, accident). Ce guide n'argumente ni pour ni contre : il regarde concrètement les alternatives provençales et leur vrai coût de bascule.",
+    sections: [
+      {
+        heading: "Les déclencheurs récurrents",
+        body: "Quatre motifs reviennent : (1) la sécurité ressentie — Marseille reste classée parmi les villes au taux d'atteintes aux personnes les plus élevés (SSMSI 2024), particulièrement marqué dans les 13e, 14e, 15e et 16e ; (2) la scolarité — la carte scolaire publique est tendue dans plusieurs collèges, ce qui pousse au privé ou à la sortie ; (3) la propreté et la voirie ; (4) l'embouteillage chronique de la A50 et de l'A55 si on travaille hors centre. À l'inverse, ceux qui restent invoquent souvent le climat, la mer, l'âme, et un coût de la vie encore raisonnable au regard de la métropole.",
+      },
+      {
+        heading: "Aix-en-Provence : le voisin évident",
+        body: "Score sécurité, qualité de vie, écoles : nettement supérieurs à Marseille. Aix joue dans une autre cour fiscalement (IFI, prix immobilier) avec un m² > 5 500 € au centre. C'est typiquement la sortie des CSP+ marseillais — médecins, avocats, cadres. Pour une famille avec deux enfants, le delta de loyer (≈ 400-600 €/mois sur un T4) est compensé par la disparition des frais de scolarité privée. Connexion Marseille-Aix : 30 minutes en autocar Cartreize ou TER, ou 50 minutes en voiture aux heures de pointe.",
+      },
+      {
+        heading: "Toulon : le pari maritime contre-intuitif",
+        body: "Toulon a longtemps souffert d'une image industrialo-militaire, mais la rade, les sentiers du Faron, le Mourillon et la nouvelle ligne TGV Paris (3h45) ont changé la donne. Prix immobilier ≈ 3 200 €/m² — bien en-dessous d'Aix et de Marseille centre. C'est l'option pour qui veut conserver mer + soleil sans le tumulte marseillais. Limite : tissu culturel et économique inférieur à Marseille ou Aix.",
+      },
+      {
+        heading: "Aubagne, La Ciotat, Cassis : la périphérie qualitative",
+        body: "Aubagne (15 minutes de Marseille) offre un compromis pragmatique : tramway moderne, vie de petite ville, marchés provençaux, et un m² ≈ 3 200 €. La Ciotat (calanques, port relancé) et Cassis (premium, ≈ 7 000 €/m²) sont plus chères. Ces communes restent dans la métropole Aix-Marseille — accès aux services et au bassin d'emploi marseillais conservé.",
+      },
+      {
+        heading: "Montpellier : la rupture franche",
+        body: "À 1h45 par l'A9, Montpellier change de département (Hérault), de réseau et d'écosystème. C'est la sortie pour qui veut quitter le bassin marseillais sans perdre le soleil. Vie étudiante et tech dynamique, tramway 4 lignes, plages à 12 minutes. Mais : prix immobilier en hausse forte (+25 % en 5 ans), été parfois plus chaud que Marseille, et la rupture pro est totale — votre réseau marseillais ne vous y servira plus.",
+      },
+      {
+        heading: "L'option à laquelle on ne pense pas : Avignon",
+        body: "Avignon (1h en TGV de Marseille, 2h40 de Paris) joue petit mais bien : patrimoine UNESCO, festival, m² ≈ 2 600 € en centre intra-muros, climat provençal sans la pression touristique de la côte. Pour un télétravailleur ou un retraité actif, c'est un arbitrage qualité de vie / prix souvent imbattable.",
+      },
+      {
+        heading: "Le calcul et le piège",
+        body: "Famille de 4, loyer T4 Marseille 13e (centre) ≈ 1 100 €. Même surface : Aix 1 600 €, Aubagne 1 050 €, Toulon 950 €, Avignon 850 €, Montpellier 1 350 €. Mais attention : si vous quittez Marseille pour Aix, ne sous-estimez pas la dépense imprévue de la « normalisation bourgeoise » (vêtements école privée, cotisations, brunchs). L'écart de loyer peut être effacé par l'écart de mode de vie. Avant de signer, vivez une semaine sur place en tablant sur le mode de vie réel, pas vacancier.",
+      },
+    ],
+    relatedCities: ["aix-en-provence", "toulon", "montpellier", "avignon", "aubagne", "la-ciotat", "cassis"],
+    relatedGuides: [
+      "vivre-en-provence-paca-guide-2025",
+      "vivre-dans-le-sud-france-guide-2025",
+      "quitter-paris-guide-2025",
+    ],
+    tags: ["Marseille", "quitter Marseille", "Aix-en-Provence", "Toulon", "Aubagne", "Montpellier", "Avignon", "déménagement", "PACA"],
+  },
+  {
+    slug: "quitter-lille-guide-2026",
+    title: "Quitter Lille en 2026 : la métropole, et après ?",
+    metaTitle: "Quitter Lille 2026 — Arras, Roubaix, Valenciennes, Bruxelles : guide complet",
+    metaDesc:
+      "Lille est une métropole attachante mais le bassin évolue vite. Où aller depuis Lille — vers Arras, la Belgique frontalière, ou plus loin — et à quel coût.",
+    category: "comparaison",
+    emoji: "🌧️",
+    readMinutes: 8,
+    publishedAt: "2026-05-05",
+    updatedAt: "2026-05-05",
+    intro:
+      "Lille reste l'une des villes françaises où l'on s'attache le plus vite — Vieux-Lille, marché de Wazemmes, Eurostar, gastronomie. Mais l'attractivité fait monter les prix (m² ≈ 4 200 € au centre), la pression locative pèse sur les jeunes ménages, et certains profils cherchent un cadre moins urbain ou un accès Belgique/Luxembourg plus court. Ce guide traite les vraies alternatives.",
+    sections: [
+      {
+        heading: "Pourquoi quitter Lille ?",
+        body: "Trois cas typiques : (1) familles primo-accédantes que le marché lillois exclut désormais — il faut sortir de la métropole pour acheter un T4 sous 280 k€ ; (2) profils travaillant à Bruxelles ou Luxembourg, à qui Lille offre un confort urbain mais un trajet long (1h20 Bruxelles, 4h Luxembourg) ; (3) recherche d'un cadre moins humide et moins gris — le climat océanique dégradé du Nord pèse psychologiquement sur certains profils.",
+      },
+      {
+        heading: "Arras : la rupture en douceur",
+        body: "À 35 minutes en TER, Arras (UNESCO pour ses places) offre un cadre patrimonial remarquable, un m² ≈ 2 600 €, des écoles solides, et un sentiment de petite ville encore très vivante. C'est la sortie type pour les familles qui veulent acheter sans perdre l'accès Lille (TER cadencés, pas de péage). Le revers : tissu culturel et professionnel plus restreint. Pour un télétravailleur, le rapport est excellent.",
+      },
+      {
+        heading: "Roubaix, Tourcoing, Villeneuve-d'Ascq : rester dans la MEL",
+        body: "Si l'attache Lille reste forte mais que le centre est devenu inaccessible, la métropole offre des alternatives. Roubaix (renaissance La Condition Publique, cité de l'initiative) et Tourcoing voient leurs prix progresser mais restent ≈ 30 % moins chers que Lille intra-muros. Villeneuve-d'Ascq cible les familles (campus universitaire, Pré Catelan, lacs). Métro relié, donc dépendance voiture limitée.",
+      },
+      {
+        heading: "La frontière belge : Mouscron, Tournai, Mons",
+        body: "Pour qui travaille déjà côté belge, vivre côté France et travailler à Bruxelles ou Mons reste la norme. Mais l'inverse — vivre en Belgique frontalière (Mouscron, Tournai, Mons) en travaillant à Lille — devient une option pour les ménages qui peuvent encaisser la complexité fiscale (régime frontalier). À condition de bien étudier l'imposition (et son évolution).",
+      },
+      {
+        heading: "Plus loin : Amiens, Reims, Strasbourg",
+        body: "Amiens (1h15 TGV de Lille) offre un cadre similaire à des prix bien inférieurs (m² ≈ 2 200 €). Reims (1h45) ouvre l'écosystème champenois et Paris (TGV 45 min). Strasbourg (3h, donc rupture) est plus une fin qu'un repli — pour qui veut changer radicalement de bassin de vie tout en restant dans le Nord-Est.",
+      },
+      {
+        heading: "Le calcul, et la météo",
+        body: "Ménage 4 200 € nets, T3 Vieux-Lille (loyer 1 100 €) → même surface Arras 700 €, Roubaix 700 €, Amiens 600 €, Reims 850 €. Sur 10 ans, Arras représente ≈ 48 000 € d'épargne. Mais ne minimisez pas le facteur météo — si la grisaille du Nord vous pèse, sortir du Nord (Reims, Strasbourg, plus au sud) doit primer sur l'arbitrage prix. Lille pluvieux + cadre apprécié = tenable. Arras pluvieux + cadre patrimonial = tenable. Mais ce n'est pas un changement de climat.",
+      },
+    ],
+    relatedCities: ["arras", "amiens", "roubaix", "tourcoing", "valenciennes", "reims"],
+    relatedGuides: [
+      "hauts-de-france-lille-arras-amiens-guide-2025",
+      "vivre-frontalier-france-belgique-luxembourg-suisse-2025",
+      "quitter-paris-guide-2025",
+    ],
+    tags: ["Lille", "quitter Lille", "Arras", "Amiens", "Roubaix", "Hauts-de-France", "frontalier Belgique", "déménagement"],
+  },
+  {
+    slug: "quitter-toulouse-guide-2026",
+    title: "Quitter Toulouse en 2026 : où va-t-on quand on en a fait le tour ?",
+    metaTitle: "Quitter Toulouse 2026 — Albi, Montauban, Pau, Bordeaux, Montpellier : honnête",
+    metaDesc:
+      "Toulouse a explosé démographiquement : prix, embouteillages, canicules. Les vrais arbitrages pour partir — vers la périphérie, l'Occitanie ou la Nouvelle-Aquitaine.",
+    category: "comparaison",
+    emoji: "🚀",
+    readMinutes: 8,
+    publishedAt: "2026-05-05",
+    updatedAt: "2026-05-05",
+    intro:
+      "Toulouse est l'une des villes françaises les plus dynamiques (+10 000 habitants/an, ville étudiante, écosystème aérospatial), mais la croissance est aussi le problème : circulation intra-muros lourde, m² qui dépasse 4 200 € en centre, étés de plus en plus caniculaires (40 °C plusieurs jours en 2022, 2023, 2024). Voici les vraies sorties.",
+    sections: [
+      {
+        heading: "Pourquoi tant de Toulousains regardent ailleurs",
+        body: "(1) La canicule estivale est devenue invivable pour qui n'a pas climatisation et toiture isolée — la ville est en pleine plaine, et les nuits tropicales se multiplient. (2) Le prix immobilier est passé devant des villes pourtant plus prestigieuses (Montpellier, Marseille intra-muros). (3) L'A61, la rocade et le périphérique cumulent des temps de trajet pénibles, particulièrement pour qui travaille à Blagnac depuis l'est de la ville.",
+      },
+      {
+        heading: "Albi : la sortie patrimoniale (et fraîche)",
+        body: "À 1h en voiture ou 1h en TER, Albi (UNESCO) joue un coup à part : centre patrimonial exceptionnel (cité épiscopale, cathédrale Sainte-Cécile, musée Toulouse-Lautrec), m² ≈ 2 600 €, été marqué mais nuits plus fraîches qu'en plaine. C'est typiquement la sortie d'un télétravailleur ou d'un cadre supérieur qui peut négocier un déplacement Toulouse 2-3 j/semaine.",
+      },
+      {
+        heading: "Montauban : le compromis prix",
+        body: "Montauban (45 min) offre un m² ≈ 2 100 € et un centre de brique rose qui rappelle Toulouse en miniature. Connexion TER + A20. Limite : la ville a encore un déficit d'attractivité culturelle et la connexion ferroviaire reste à améliorer. Pour une famille primo-accédante, le rapport prix/qualité reste imbattable dans le Grand Sud-Ouest.",
+      },
+      {
+        heading: "Pau : la sortie premium",
+        body: "Pau (2h voiture, TGV Paris depuis 2017) joue dans la cour des villes haut de gamme : hippodrome, université, écosystème pétrolier-gaz, et surtout vue sur les Pyrénées. Climat plus humide mais beaucoup plus tempéré que Toulouse en été. M² ≈ 2 800 €, prix raisonnable pour la qualité. C'est une sortie de cadres qui veulent montagne + bourgade tranquille.",
+      },
+      {
+        heading: "Bordeaux ou Montpellier : la mutation latérale",
+        body: "Si l'objectif est de garder une grande ville mais de changer d'environnement : Bordeaux (2h20 par l'A62) offre vignobles, océan à 1h, ambiance plus posée — mais m² ≈ 5 000 € au centre, plus cher que Toulouse. Montpellier (2h par l'A75 + A9) propose la mer, le tramway dense, l'écosystème santé — m² ≈ 4 300 €, comparable à Toulouse, été comparable. Ce sont moins des sorties qu'un échange.",
+      },
+      {
+        heading: "Le calcul et la canicule",
+        body: "T3 centre Toulouse (Carmes, Saint-Cyprien) ≈ 1 100 €. Albi 700 €, Montauban 600 €, Pau 800 €. Sur 10 ans, l'écart Albi représente ≈ 48 000 €. Mais surtout : si la canicule pèse, regardez les minimales nocturnes. Albi gagne 2-3 °C la nuit en juillet-août. Sur dix ans, c'est plusieurs centaines de nuits dormables récupérées. Critère sous-estimé qui peut peser plus que les 4 800 €/an d'épargne.",
+      },
+    ],
+    relatedCities: ["albi", "montauban", "pau", "bordeaux", "montpellier", "carcassonne"],
+    relatedGuides: [
+      "vivre-en-occitanie-guide-2025",
+      "toulouse-montpellier-quelle-ville-choisir",
+      "vivre-dans-le-sud-france-guide-2025",
+    ],
+    tags: ["Toulouse", "quitter Toulouse", "Albi", "Montauban", "Pau", "Bordeaux", "Montpellier", "canicule", "déménagement"],
+  },
+  {
+    slug: "quitter-bordeaux-guide-2026",
+    title: "Quitter Bordeaux en 2026 : la rançon du succès",
+    metaTitle: "Quitter Bordeaux 2026 — Arcachon, Bayonne, La Rochelle, Périgueux : guide",
+    metaDesc:
+      "Bordeaux est devenue une des villes les plus chères de France hors capitale. Où vont les Bordelais qui ne suivent plus — et qui devrait vraiment partir.",
+    category: "comparaison",
+    emoji: "🍷",
+    readMinutes: 9,
+    publishedAt: "2026-05-05",
+    updatedAt: "2026-05-05",
+    intro:
+      "Bordeaux a connu en quinze ans la transformation urbaine la plus spectaculaire de France : tramway, façades ravalées, LGV Paris en 2h, gentrification accélérée. Le revers : un m² au centre passé de 2 800 € à plus de 5 200 €, une rocade chronique, et un sentiment de ville-musée pour beaucoup d'habitants historiques. Ce guide examine les vraies sorties.",
+    sections: [
+      {
+        heading: "Le profil-type qui part",
+        body: "(1) La famille primo-accédante exclue du marché bordelais — il faut désormais 380 k€ pour un T4 dans un quartier acceptable ; (2) le télétravailleur qui réalise qu'il paie un loyer parisien sans la masse critique parisienne ; (3) le retraité actif arrivé pendant la vague 2015-2018 qui découvre l'été humide et lourd, plus chaud que prévu. À l'inverse, ceux qui restent valorisent le tissu culturel, l'aéroport, et la proximité Atlantique.",
+      },
+      {
+        heading: "Arcachon, Cap-Ferret, Andernos : la côte premium",
+        body: "L'option lifestyle. Sauf que Arcachon centre a aligné Bordeaux sur les prix (m² ≈ 7 500 € sur la promenade) et le Cap-Ferret est devenu inaccessible. Andernos, Audenge, La Teste-de-Buch sont les vraies alternatives — m² ≈ 4 200-4 800 €, accès bassin et plage. Réservé aux familles dont l'employeur accepte le télétravail majoritaire (45 minutes-1h de Bordeaux selon point de chute).",
+      },
+      {
+        heading: "Bayonne / Anglet / Biarritz : la mutation Pays basque",
+        body: "C'est la sortie premium par excellence — surf, montagne, gastronomie, identité. Mais Biarritz pratique des prix Côte d'Azur (m² > 7 000 €), et Bayonne suit (≈ 4 600 €). Anglet reste la transition raisonnable. Connexion Bordeaux : 2h en TGV/Intercités, donc rupture pro réelle. À privilégier si la mutation est durable.",
+      },
+      {
+        heading: "La Rochelle, Rochefort, Royan : l'Atlantique plus posé",
+        body: "Pour qui veut l'océan sans la pression touristique du bassin d'Arcachon ni les prix basques, le triangle La Rochelle–Rochefort–Royan offre un excellent rapport. La Rochelle (m² ≈ 4 000 €) est la plus chère mais propose un centre vivant, université, ferries pour Ré. Rochefort (≈ 2 400 €) est l'arbitrage prix le plus malin de la côte. Connexion Bordeaux : 2h-2h30 en voiture.",
+      },
+      {
+        heading: "Périgueux, Bergerac, Sarlat : la campagne haut de gamme",
+        body: "Le Périgord vert et noir attire les profils cherchant patrimoine + nature + budget. Périgueux (m² ≈ 1 900 €), Bergerac (≈ 1 800 €), Sarlat (≈ 2 700 €) sont des arbitrages qualité de vie / prix imbattables — mais le tissu pro est limité. Réservé aux retraités actifs et aux télétravailleurs majoritaires. Connexion TER vers Bordeaux : 1h15 (Périgueux) à 1h40 (Sarlat). En train, pas en voiture — la D936 est lente.",
+      },
+      {
+        heading: "Plus loin : Limoges, Angoulême, Niort",
+        body: "Si l'attache Atlantique est secondaire, ces villes-de-ligne (TGV Paris) offrent un vrai centre, des prix imbattables (m² < 2 000 €), et une accessibilité étonnante. Angoulême est portée par le festival de la BD et un centre patrimonial. Niort par son écosystème mutualiste. Limoges par son université et un patrimoine sous-coté. Aucune ne brille mais toutes offrent un rapport prix/services rare.",
+      },
+      {
+        heading: "Le calcul et le piège « je veux la mer »",
+        body: "T3 Chartrons / Saint-Pierre / Capucins ≈ 1 200 €. Mêmes m² : Andernos 850 €, Bayonne 950 €, La Rochelle 850 €, Périgueux 600 €, Limoges 550 €. Le piège classique : signer pour la mer en pensant aller s'y baigner toutes les semaines. Vérifiez que vous y allez plus de 15 fois par an dans votre vie actuelle. Sinon, l'arbitrage Périgueux ou Limoges peut être plus rationnel — et libère 600 €/mois pour des vacances mer où vous voulez.",
+      },
+    ],
+    relatedCities: ["bayonne", "biarritz", "la-rochelle", "rochefort", "arcachon", "perigueux", "sarlat-la-caneda", "limoges", "angouleme", "niort"],
+    relatedGuides: [
+      "vivre-en-nouvelle-aquitaine-guide-2025",
+      "cote-atlantique-bordeaux-la-rochelle-bayonne",
+      "vivre-pays-basque-bayonne-biarritz-pau",
+    ],
+    tags: ["Bordeaux", "quitter Bordeaux", "Bayonne", "La Rochelle", "Arcachon", "Périgueux", "Nouvelle-Aquitaine", "déménagement"],
+  },
 ];
 
 export const GUIDE_CATEGORIES = [
