@@ -6576,6 +6576,85 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["Outre-mer", "DROM", "DOM-TOM", "La Réunion", "Martinique", "Guadeloupe", "Guyane", "Mayotte", "tropical", "expatriation"],
   },
+  {
+    slug: "vivre-cantal-aubrac-massif-central-guide-2026",
+    title: "Vivre dans le Cantal et l'Aubrac en 2026 : volcans, hauts plateaux et marché immobilier sous-coté",
+    metaTitle: "Vivre dans le Cantal et l'Aubrac 2026 — Aurillac, Saint-Flour, Mende, Rodez",
+    metaDesc:
+      "Cantal, Aubrac, Lozère, Haute-Loire : guide 2026 pour s'installer dans le Massif central — climat, immobilier, santé, fibre, métiers. Données INSEE, DREES, observatoires loyers.",
+    category: "region",
+    emoji: "🌋",
+    readMinutes: 10,
+    publishedAt: "2026-05-09",
+    updatedAt: "2026-05-09",
+    intro:
+      "Le Massif central reste, en 2026, le grand impensé de la mobilité résidentielle française. Pendant que la côte atlantique sature et que les contreforts alpins flambent, les hauts plateaux du Cantal, de l'Aubrac, de la Lozère et de la Haute-Loire conservent un m² sous les 1 700 €, des bourgs vivants, et un cadre naturel comparable aux meilleures stations de moyenne montagne. Ce guide regarde sans filtre ce qui marche — et ce qui rate — quand on s'installe dans ce quart sud du Massif, à partir des données INSEE, DREES, des observatoires des loyers et des relevés Météo-France.",
+    sections: [
+      {
+        heading: "Pourquoi le Massif central capte (enfin) l'attention",
+        body: "Trois courants convergent. (1) Le télétravail régulier s'est stabilisé depuis 2022 dans le tertiaire qualifié — la distance physique au siège pèse moins qu'un cadre de vie. (2) Le marché des littoraux et des préalpes a aspiré les budgets jusqu'à exclure une partie des familles primo-accédantes. (3) Les départements du Cantal, de la Lozère et de la Creuse, longtemps stigmatisés sur la démographie, ont vu leur solde migratoire devenir positif depuis 2018 selon les recensements complémentaires de l'INSEE. Conséquence : un marché immobilier qui se réveille doucement, mais reste à des niveaux 3 à 4 fois inférieurs à ceux de l'arrière-pays atlantique ou alpin.",
+      },
+      {
+        heading: "Aurillac et Saint-Flour : la centralité cantalienne",
+        body: "Aurillac (≈ 26 000 hab. INSEE 2022, 615 m d'altitude) reste la préfecture la plus enclavée de France métropolitaine — c'est aussi sa force et sa limite. Tissu hospitalier complet (CH d'Aurillac), lycées publics et privés, IUT, scène culturelle structurée autour du Festival international de théâtre de rue. Saint-Flour (≈ 6 500 hab.) joue la carte du bourg patrimonial perché à 880 m, avec un accès direct à l'A75 — l'autoroute gratuite qui change la donne sur les distances vers Clermont-Ferrand (1h30) et Montpellier (2h45). Pour qui cherche un vrai centre-ville actif, Aurillac et Saint-Flour sont les deux points d'ancrage rationnels du département.",
+      },
+      {
+        heading: "Le triangle Aubrac : Aveyron, Lozère, Cantal réunis",
+        body: "L'Aubrac est moins un territoire administratif qu'un plateau d'environ 1 000 km² entre Saint-Flour, Mende et Rodez, à 800-1 400 m d'altitude. Sa renommée gastronomique (race bovine Aubrac, aligot, Laguiole AOP) attire désormais une clientèle néo-rurale qualifiée. Les bourgs périphériques — Saint-Chély-d'Aubrac, Nasbinals, Aubrac, Laguiole — offrent des longères en pierre à 1 200-1 800 €/m² selon les observatoires régionaux et la base DVF (data.gouv.fr). Pour les services structurants, on dépend de Saint-Flour côté Cantal, Mende côté Lozère, ou Rodez côté Aveyron — les trois étant accessibles en 45 minutes à 1h15 selon le point de chute.",
+      },
+      {
+        heading: "Mende et la Lozère : le département le plus rural de France",
+        body: "Avec environ 76 000 habitants (INSEE 2022), la Lozère est le département le moins peuplé de France métropolitaine. Sa préfecture, Mende (≈ 11 800 hab., 731 m), n'a aucune ambition métropolitaine et c'est précisément son intérêt : centre-ville médiéval traversé par le Lot, hôpital public, lycée Chaptal, fibre déployée à plus de 90 % selon l'ARCEP, A75 à 30 minutes via Marvejols. Le solde migratoire départemental est redevenu positif depuis 2019 selon l'INSEE, porté par les actifs autonomes et les retraités cherchant air pur, espace, et un coût d'accession sous les 1 600 €/m² en centre-ville.",
+      },
+      {
+        heading: "Rodez et le nord-Aveyron : le pôle économique",
+        body: "Rodez (≈ 23 700 hab.) sort du cadre strictement Aubrac mais reste l'aimant économique naturel du plateau. Bassin d'emploi solide (Bosch, Sam Technologies historique, hôpital, services publics), m² au-dessus de la moyenne du Massif (≈ 1 800-2 100 € en centre selon les notaires), aéroport Rodez-Aveyron avec liaisons saisonnières. Pour une famille avec deux salariés dont un cherche un employeur stable hors télétravail, Rodez reste la base la plus rationnelle pour rayonner sur l'Aubrac le week-end. Villefranche-de-Rouergue et Espalion complètent le maillage avec des tissus locaux plus modestes mais des prix encore plus doux.",
+      },
+      {
+        heading: "Climat : moyenne montagne tempérée, vraie",
+        body: "Aurillac enregistre selon Météo-France une température moyenne annuelle d'environ 10,5 °C, avec 30 à 50 jours de neige et 150 à 180 jours hors gel. Saint-Flour et Mende, plus en altitude, subissent des hivers plus marqués (jusqu'à -10 °C en pointe), des étés tempérés (rarement au-dessus de 30 °C) et un été plus court qu'en plaine. Le revers : une saison de chauffe étendue (octobre à mai), à arbitrer dès l'achat — les rénovations énergétiques en pierre épaisse et l'isolation toiture sont des postes incontournables. ATMO Auvergne-Rhône-Alpes et ATMO Occitanie publient des bulletins qualité de l'air généralement très favorables sur l'ensemble du plateau, l'air y reste l'un des plus propres de France.",
+      },
+      {
+        heading: "Immobilier : un m² entre 900 € et 2 100 €",
+        body: "À partir des observatoires et de la base DVF (ventes notariées publiques), les ordres de grandeur 2025-2026 ressortent ainsi : Mauriac et bourgs ruraux du Cantal nord ≈ 900-1 200 €/m² ; Saint-Flour ≈ 1 100-1 400 € ; Aurillac ≈ 1 400-1 600 € ; Mende ≈ 1 400-1 700 € ; Le Puy-en-Velay ≈ 1 500-1 800 € ; Rodez ≈ 1 800-2 100 €. Sur ces niveaux de prix, une longère rénovée 130 m² avec terrain en périphérie d'Aurillac ou de Mende reste accessible autour de 200-260 k€. Le piège : la rénovation énergétique d'un bâti pierre 1850-1930, à intégrer en coût complet (15-25 k€ par tranche de 50 m² selon le diagnostic).",
+      },
+      {
+        heading: "Santé et démographie médicale : le sujet n°1",
+        body: "C'est la limite la plus sérieuse du projet d'installation. Selon les indicateurs de la DREES (statistiques annuelles des établissements et de la démographie médicale), le Cantal, la Lozère et la Creuse affichent les densités les plus basses de France métropolitaine en médecins généralistes par habitant (entre 65 et 85 pour 100 000 contre une moyenne nationale autour de 130). Les ARS Auvergne-Rhône-Alpes et Occitanie ont classé l'ensemble du périmètre en Zone d'Intervention Prioritaire, avec aides à l'installation. Pour les spécialistes, les délais et la distance vers les CHU de Clermont-Ferrand, Montpellier ou Toulouse pèsent. Avant tout achat, vérifier la disponibilité d'un médecin traitant dans un rayon de 20 km — c'est aujourd'hui le critère qui décourage le plus de projets familiaux.",
+      },
+      {
+        heading: "Fibre, télétravail, métiers : qui peut s'installer",
+        body: "Le déploiement fibre est largement avancé sur les bourgs principaux (>85 % des locaux raccordables selon les tableaux de bord ARCEP, fin 2024) — Aurillac, Saint-Flour, Mende, Rodez, Le Puy-en-Velay sont en très bonne position. Les hameaux à plus de 5 km d'un central sont parfois encore en transition cuivre/4G fixe. Les profils qui s'installent avec succès : fonctionnaires d'État qui demandent une mutation (Éducation nationale, gendarmerie, finances publiques), personnels soignants attirés par les aides ZIP, télétravailleurs majoritaires avec un employeur tolérant un déplacement mensuel, repreneurs d'activités existantes (artisanat, hébergement touristique, agriculture). Plus difficile : cadres tech sans télétravail ou métiers de la communication — l'écosystème local est restreint.",
+      },
+      {
+        heading: "Le piège de l'isolement : qui rate son projet",
+        body: "Le Massif central pardonne mal l'erreur de casting. Trois profils repartent dans les trois ans selon les retours associatifs et les données ANIL : (1) le couple parisien sans expérience rurale qui sous-estime la distance aux services (gares TGV à 1h30-2h, hôpitaux spécialisés à 1h-1h30) ; (2) la famille avec adolescents qui découvre la rareté des activités sportives compétitives et des lycées option art ou sport-études ; (3) le télétravailleur isolé socialement, qui n'a pas anticipé le besoin d'un coworking ou d'une vie associative active. Le bon réflexe : louer 12 mois sur place avant tout achat, et tester un hiver complet — c'est la saison qui filtre.",
+      },
+      {
+        heading: "Profil-type qui réussit",
+        body: "Ce qui fonctionne, observé sur les installations 2020-2024 : couple ou famille avec au moins un revenu stable indépendant du tissu local (télétravail, retraite, fonction publique), budget d'acquisition de 180 à 280 k€ permettant une vraie maison rénovée + travaux, projet pluriannuel d'enracinement (école sur place pour les enfants, engagement associatif), et acceptation explicite de la distance — pas seulement géographique, mais culturelle. Sur ces bases, le Cantal, l'Aubrac, la Lozère et la Haute-Loire offrent en 2026 le meilleur rapport qualité de vie / prix de France métropolitaine. À condition d'y aller pour les bonnes raisons.",
+      },
+    ],
+    relatedCities: [
+      "aurillac",
+      "saint-flour",
+      "mauriac",
+      "mende",
+      "rodez",
+      "villefranche-de-rouergue",
+      "le-puy-en-velay",
+      "millau",
+      "tulle",
+      "brive-la-gaillarde",
+    ],
+    relatedGuides: [
+      "vivre-en-auvergne-guide-2025",
+      "vivre-en-aveyron-lot-guide-2025",
+      "vivre-en-correze-limousin-guide-2025",
+      "vivre-campagne-vs-ville-moyenne-france-2025",
+    ],
+    tags: ["Cantal", "Aubrac", "Lozère", "Haute-Loire", "Aveyron", "Massif central", "Aurillac", "Mende", "Rodez", "ruralité", "moyenne montagne"],
+  },
 ];
 
 export const GUIDE_CATEGORIES = [
