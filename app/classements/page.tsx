@@ -13,11 +13,11 @@ import {
 import type { City } from "@/lib/types";
 
 export const metadata: Metadata = {
-  title: "Classements villes françaises 2025 — Télétravail, Famille, Budget, Culture",
+  title: "Classements villes françaises 2026 — Télétravail, Famille, Budget, Culture",
   description:
-    "Classements des meilleures villes françaises par style de vie : télétravail, famille, retraite, étudiant, nature, budget, soleil, sécurité, culture, mobilité, investissement. Données 2025.",
+    "Classements des meilleures villes françaises par style de vie : télétravail, famille, retraite, étudiant, nature, budget, soleil, sécurité, culture, mobilité, investissement. Données 2026.",
   openGraph: {
-    title: "Classements des meilleures villes françaises 2025",
+    title: "Classements des meilleures villes françaises 2026",
     description:
       "11 classements thématiques : télétravail, famille, budget, soleil, sécurité, culture, investissement et plus.",
     type: "website",
@@ -73,7 +73,7 @@ export default function ClassementsPage() {
       <section className="relative pt-20 pb-12">
         <div className="mx-auto max-w-5xl px-4 sm:px-6 text-center">
           <p className="text-xs uppercase tracking-widest text-[var(--accent)] font-semibold mb-2">
-            🏆 Édition 2025
+            🏆 Édition 2026
           </p>
           <h1 className="text-4xl sm:text-6xl font-bold text-[var(--text-primary)] mb-4 tracking-tight leading-[1.05]">
             Les <span className="font-display gradient-text-anim italic">classements</span><br className="hidden sm:block" />

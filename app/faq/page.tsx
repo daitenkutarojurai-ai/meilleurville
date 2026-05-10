@@ -120,7 +120,7 @@ const FAQ_SECTIONS = [
       },
       {
         q: "Puis-je suggérer un sujet de guide ?",
-        a: "Oui. Utilisez le formulaire de contact (catégorie 'Suggestion de guide') pour nous proposer un sujet. Les demandes les plus fréquentes sont priorisées. Nos sujets les plus demandés pour 2025 : 'meilleures villes pour créer une entreprise', 'villes pour seniors en bonne santé', et 'meilleures villes pour les profils RSE/développement durable'.",
+        a: "Oui. Utilisez le formulaire de contact (catégorie 'Suggestion de guide') pour nous proposer un sujet. Les demandes les plus fréquentes sont priorisées. Nos sujets les plus demandés pour 2026 : 'meilleures villes pour créer une entreprise', 'villes pour seniors en bonne santé', et 'meilleures villes pour les profils RSE/développement durable'.",
       },
       {
         q: "Les informations des guides sont-elles vérifiées ?",

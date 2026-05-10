@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 import { RANKING_META } from "@/lib/rankings";
 
-export const alt = "Classements villes françaises 2025 — MeilleurVille";
+export const alt = "Classements villes françaises 2026 — MeilleurVille";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -55,7 +55,7 @@ export default function Image() {
               fontSize: "14px",
             }}
           >
-            {`${rankings.length} classements · 2025`}
+            {`${rankings.length} classements · 2026`}
           </div>
         </div>
 
@@ -65,7 +65,7 @@ export default function Image() {
             Villes françaises
           </div>
           <div style={{ color: "#f0f6fc", fontSize: "64px", fontWeight: 900, lineHeight: 1 }}>
-            Classements 2025
+            Classements 2026
           </div>
           <div style={{ color: "#8b949e", fontSize: "17px" }}>
             {`Par style de vie · Données officielles · ${rankings.length} thématiques`}

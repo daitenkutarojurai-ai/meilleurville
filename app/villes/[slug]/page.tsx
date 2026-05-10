@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const housing = getHousing(city.slug);
   const rentHint = housing ? ` Loyer T2 : ${housing.avgRentT2}€/mois.` : "";
   return {
-    title: `${city.name} — Avis habitants, qualité de vie & classements 2025`,
+    title: `${city.name} — Avis habitants, qualité de vie & classements 2026`,
     description: `${city.name} (${city.department}, ${city.region}) : score de qualité de vie ${city.scores.global}/10. Avis d'habitants, quartiers, données locales.${rentHint} Comparez avec d'autres villes.`,
     openGraph: {
       title: `${city.name} — MeilleurVille · ${city.scores.global}/10`,

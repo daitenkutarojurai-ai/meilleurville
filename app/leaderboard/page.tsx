@@ -36,7 +36,7 @@ export default function LeaderboardPage() {
   const itemListJsonLd = {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    name: "Classement des meilleures villes françaises par qualité de vie 2025",
+    name: "Classement des meilleures villes françaises par qualité de vie 2026",
     description: "Score global agrégé sur 9 critères : nature, transport, coût de la vie, sécurité, culture, écoles, qualité de vie, télétravail.",
     url: `${BASE_URL}/leaderboard`,
     numberOfItems: sorted.length,
@@ -79,7 +79,7 @@ export default function LeaderboardPage() {
         {/* Podium */}
         <div>
           <h2 className="text-xs uppercase tracking-widest text-[var(--text-tertiary)] font-semibold mb-5">
-            Podium 2025
+            Podium 2026
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {podium.map((city, i) => (
