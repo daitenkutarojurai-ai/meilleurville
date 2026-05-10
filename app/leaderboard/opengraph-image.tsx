@@ -63,7 +63,7 @@ export default function Image() {
               fontSize: "14px",
             }}
           >
-            Classement 2025
+            Classement 2026
           </div>
         </div>
 

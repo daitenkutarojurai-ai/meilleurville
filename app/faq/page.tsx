@@ -103,7 +103,7 @@ const FAQ_SECTIONS = [
       },
       {
         q: "Comment fonctionne la carte interactive ?",
-        a: "La carte interactive (/carte) affiche les 340 villes analysées avec un code couleur selon leur score (vert = excellent, ambre = bon, rouge = à améliorer). Vous pouvez filtrer l'affichage par critère (nature, transport, coût...) et cliquer sur chaque ville pour accéder à son profil. La taille du cercle est proportionnelle au score.",
+        a: "La carte interactive (/carte) affiche les 352 villes analysées avec un code couleur selon leur score (vert = excellent, ambre = bon, rouge = à améliorer). Vous pouvez filtrer l'affichage par critère (nature, transport, coût...) et cliquer sur chaque ville pour accéder à son profil. La taille du cercle est proportionnelle au score.",
       },
     ],
   },
@@ -120,7 +120,7 @@ const FAQ_SECTIONS = [
       },
       {
         q: "Puis-je suggérer un sujet de guide ?",
-        a: "Oui. Utilisez le formulaire de contact (catégorie 'Suggestion de guide') pour nous proposer un sujet. Les demandes les plus fréquentes sont priorisées. Nos sujets les plus demandés pour 2025 : 'meilleures villes pour créer une entreprise', 'villes pour seniors en bonne santé', et 'meilleures villes pour les profils RSE/développement durable'.",
+        a: "Oui. Utilisez le formulaire de contact (catégorie 'Suggestion de guide') pour nous proposer un sujet. Les demandes les plus fréquentes sont priorisées. Nos sujets les plus demandés pour 2026 : 'meilleures villes pour créer une entreprise', 'villes pour seniors en bonne santé', et 'meilleures villes pour les profils RSE/développement durable'.",
       },
       {
         q: "Les informations des guides sont-elles vérifiées ?",
