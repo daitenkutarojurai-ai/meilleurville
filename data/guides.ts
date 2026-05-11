@@ -7720,6 +7720,382 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["surf", "voile", "kayak", "kitesurf", "sports nautiques", "Biarritz", "Hossegor", "Brest", "La Rochelle", "lifestyle", "mer"],
   },
+  {
+    slug: "vivre-dans-les-landes-guide-2026",
+    title: "Vivre dans les Landes en 2026 : forêt, océan, Mont-de-Marsan, Dax — le guide complet",
+    metaTitle: "Vivre dans les Landes 2026 — Mont-de-Marsan, Dax, Biscarrosse, Hossegor",
+    metaDesc:
+      "Forêt de pins, côte atlantique, thermalisme, pelote basque : les Landes sont la grande oubliée des guides de relocation. Notre guide honnête 2026 du plus grand département forestier de France.",
+    category: "region",
+    emoji: "🌲",
+    readMinutes: 9,
+    publishedAt: "2026-05-11",
+    updatedAt: "2026-05-11",
+    intro:
+      "Les Landes sont le département français le moins dense après la Guyane. 5 800 km² de forêt de pins maritime, une façade atlantique de 106 km de plages en quasi-totalité vierges de construction, et une identité gasconne profonde qui se manifeste dans la corrida, la pelote basque et les fêtes communales. Ce département attire peu les guides de relocation — précisément parce qu'il n'est ni une métropole ni une destination touristique de masse. C'est souvent un avantage.",
+    sections: [
+      {
+        heading: "Mont-de-Marsan : la préfecture méconnue",
+        body: "Mont-de-Marsan (32 000 habitants) est la préfecture des Landes — et l'une des préfectures françaises les moins connues hors de sa région. La ville est au confluent de deux Douze et dispose d'un musée de sculpture contemporaine remarquable (Despiau-Wlérick). Prix immobilier ≈ 1 800 €/m², loyer médian T2 ≈ 550 €. L'économie tourne autour de la base aérienne 118 (armée de l'Air), de l'agroalimentaire landais (foie gras, volailles, pintades Label Rouge) et de l'administration. Pour un fonctionnaire en mutation ou un télétravailleur cherchant une ville à taille humaine avec une qualité de vie discrète et un coût bas, Mont-de-Marsan mérite qu'on s'y arrête.",
+      },
+      {
+        heading: "Dax : les thermes et la corrida",
+        body: "Dax (22 000 habitants) est la ville thermale la plus fréquentée de France — 70 000 curistes par an viennent traiter leurs rhumatismes dans la boue volcanique de l'Adour. Ce n'est pas une image de jeunesse, mais la ville a un dynamisme propre : arènes actives (corrida avec les plus grands toreros d'Espagne), festival de jazz du Nouveau Genre, et une position géographique idéale entre Pau (45 min), Bordeaux (1h15) et Bayonne (35 min). Prix ≈ 1 900 €/m². Pour une famille cherchant une base dans le Sud-Ouest avec accès thermalisme, nature landaise et mer à 30 km, Dax fonctionne bien.",
+      },
+      {
+        heading: "La côte landaise : entre Biscarrosse et Hossegor",
+        body: "Le littoral landais s'étend de la pointe du Cap-Ferret (Gironde) jusqu'à Hossegor/Capbreton. Entre les deux : Biscarrosse (lac + mer, surf, camping premium), Mimizan (station surf familiale, prix plus accessibles qu'Hossegor : ≈ 3 200 €/m²), Lit-et-Mixe, Vieux-Boucau. Ces communes sont des stations balnéaires authentiques — moins gentrifiées que le littoral basque, encore accessibles pour les familles qui cherchent une résidence principale et pas une résidence secondaire. La connexion vers Bordeaux (1h30) ou Bayonne (45-60 min) permet d'envisager un emploi en métropole avec résidence côtière.",
+      },
+      {
+        heading: "La forêt landaise : comprendre ce qu'on habite",
+        body: "La forêt des Landes de Gascogne est la plus grande forêt artificielle d'Europe de l'Ouest (1 million d'hectares, créée au XIXe pour assécher les marécages). Elle couvre 70 % du département. Ce n'est pas une forêt de diversité botanique maximale — c'est une monoculture de pins maritimes plantée par l'État et régulièrement entretenue pour la sylviculture. La forêt brûle régulièrement : l'incendie de l'été 2022 a détruit 35 000 hectares. Vivre dans les Landes, c'est comprendre ce rapport particulier à la forêt : beau, apaisante, mais vulnérable.",
+      },
+      {
+        heading: "La gastronomie landaise : la France qui mange le mieux",
+        body: "Les Landes produisent le foie gras IGP le plus réputé de France, l'asperge blanche des Sables, la volaille Label Rouge (pintade, poulet, canard), l'agneau de Pauillac à la limite girondine. Le marché de Morcenx, les marchés au gras de Dax en hiver, et les fermes auberges (formule repas directement chez le producteur) constituent un patrimoine gastronomique rural qui n'a pas d'équivalent en densité. Pour un foyer qui cuisine et valorise les circuits courts, c'est un argument concret et chiffrable (économies alimentaires de 20-30 % vs grande surface).",
+      },
+      {
+        heading: "Les Landes pour quel profil ?",
+        body: "Trois profils s'installent dans les Landes. (1) Le télétravailleur qui voulait le Pays Basque mais n'en a pas le budget : les Landes offrent l'océan, le surf, les Pyrénées à 1h, et des prix 50 % inférieurs au Pays Basque. (2) La famille qui fuit les grandes métropoles pour un cadre naturel exceptionnel : espace, sécurité, nature, école à l'échelle humaine. (3) Le retraité actif qui veut thermalisme, nature et gastronomie sans se ruiner. Ce qui est absent : une scène tech-startup, des connexions TGV directes depuis les villes intérieures, et une offre culturelle métropolitaine.",
+      },
+    ],
+    relatedCities: ["mont-de-marsan", "dax", "biscarrosse", "mimizan", "hossegor", "capbreton"],
+    relatedGuides: [
+      "vivre-en-pays-basque-guide-2026",
+      "vivre-en-nouvelle-aquitaine-guide-2025",
+      "quitter-bordeaux-guide-2026",
+    ],
+    tags: ["Landes", "Mont-de-Marsan", "Dax", "Biscarrosse", "Hossegor", "forêt", "surf", "thermalisme", "s'installer", "Gascogne"],
+  },
+  {
+    slug: "vivre-en-roussillon-guide-2026",
+    title: "Vivre en Roussillon en 2026 : Perpignan, Collioure, Céret — le guide honnête",
+    metaTitle: "Vivre en Roussillon 2026 — Perpignan, Côte Vermeille, Pyrénées-Orientales",
+    metaDesc:
+      "Le Roussillon offre mer, montagne catalane, soleil et des prix parmi les plus bas du Midi. Notre guide honnête sur ce qu'on y gagne vraiment et ce qu'on n'y trouve pas.",
+    category: "region",
+    emoji: "🏔️",
+    readMinutes: 9,
+    publishedAt: "2026-05-11",
+    updatedAt: "2026-05-11",
+    intro:
+      "Le Roussillon — grossièrement le département des Pyrénées-Orientales — est la bande de terre catalane française coincée entre la Méditerranée, les Pyrénées et la frontière espagnole. C'est la région la plus ensoleillée de France (3 000 heures de soleil par an, plus que Nice), l'une des moins chères du Midi, et l'une des plus méconnues des guides de relocation. Ce guide regarde ce qui s'y passe vraiment en 2026.",
+    sections: [
+      {
+        heading: "Perpignan : capitale catalane de France",
+        body: "Score MeilleurVille : 5.9/10. Perpignan est souvent présentée comme une ville avec des problèmes — et elle en a réellement (chômage structurel ≈ 17 %, indicateurs sociaux en retrait). Mais la vision est incomplète. Le Castillet, le Palais des Rois de Majorque, les marchés animés et la culture catalane profonde font de Perpignan une ville authentique et singulière. Le prix immobilier ≈ 1 900 €/m² permet d'acheter un appartement T3 pour 130 000 €. Le marché locatif est parmi les moins tendus du Midi. Pour un télétravailleur qui optimise le rapport soleil/coût/mer, Perpignan est l'option la plus agressive de France.",
+      },
+      {
+        heading: "La Côte Vermeille : Collioure, Banyuls, Port-Vendres",
+        body: "La Côte Vermeille est le tronçon littoral entre Argelès-sur-Mer et la frontière espagnole. Ses calanques, ses villages colorés et ses vignobles (Banyuls, Collioure AOC) en font un des paysages les plus beaux du Midi. Collioure est classée parmi les plus beaux villages de France et a été peinte par Matisse et Derrière — mais ne vous y installez pas sans avoir vérifié le marché : les prix y ont fortement monté (≈ 4 000–5 000 €/m²). Banyuls-sur-Mer et Port-Vendres sont plus accessibles (≈ 3 000 €/m²) tout en restant à 10 minutes des calanques.",
+      },
+      {
+        heading: "Les Pyrénées catalanes : Céret, Prades, Font-Romeu",
+        body: "L'arrière-pays roussillonnais monte rapidement vers les Pyrénées. Céret (musée d'art moderne remarquable, marché aux cerises réputé) : ≈ 2 800 €/m², à 30 km de la mer et 45 min de Perpignan. Prades (ville de Pablo Casals, festival de musique baroque) : ≈ 1 800 €/m², porte du Conflent et du Vernet-les-Bains. Font-Romeu (2 000 m d'altitude, ensoleillement exceptionnel, station ski) : ≈ 1 600 €/m² — une des stations de montagne les moins chères de France pour un cadre alpin pyrénéen. Ces villes attirent les télétravailleurs cherchant montagne + soleil + accessibilité.",
+      },
+      {
+        heading: "L'identité catalane : une réalité quotidienne",
+        body: "Contrairement à la Corse, le particularisme catalan français est discret mais réel. La langue catalane (le catalan de France) est enseignée dans les écoles (filière bilingue Diwan-CALANDRETA) et se pratique dans les villages de l'arrière-pays. Les sardanes se dansent encore à Céret et Amélie-les-Bains. La frontière espagnole (Portbou, Puigcerdà, La Junquera) est poreuse : les Perpignanais font régulièrement leurs courses en Espagne pour profiter des prix inférieurs (alcool, alimentaire, essence ≈ 20-30 % moins chers). C'est un art de vivre frontalier tranquille.",
+      },
+      {
+        heading: "Le Roussillon pour quel profil ?",
+        body: "Quatre profils trouvent leur compte. (1) Le télétravailleur cherchant le soleil maximum au coût minimum : Perpignan est imbattable sur ce ratio. (2) L'artiste ou le créatif : la tradition picturale de la Côte Vermeille (Matisse, Derain, Picasso y ont séjourné), les ateliers bon marché à Perpignan et les résidences d'artistes actives. (3) La retraite active : randonnée pyrénéenne, via ferrata, montagne, calanques, thermes à Vernet-les-Bains. (4) Le couple international (franco-espagnol ou franco-catalan) qui valorise la proximité de Barcelone (2h de TGV depuis Perpignan).",
+      },
+      {
+        heading: "Ce qui manque et ce qu'on ne peut pas changer",
+        body: "Deux limites structurelles. (1) L'emploi privé : le tissu économique du Roussillon est dominé par le tourisme estival, le commerce transfrontalier et l'agriculture (vergers, vigne). Les emplois qualifiés dans le tech, la finance ou l'industrie sont concentrés à Barcelone (2h) et Toulouse (1h45 de TGV). Pour un salarié cherchant à évoluer localement hors secteur public, le département est trop petit. (2) La précarité sociale visible : Perpignan a un taux de pauvreté parmi les plus élevés des grandes villes françaises. La cohabitation entre touristes aisés et populations précaires est une réalité du quotidien.",
+      },
+    ],
+    relatedCities: ["perpignan", "narbonne", "beziers", "collioure", "banyuls-sur-mer", "ceret"],
+    relatedGuides: [
+      "vivre-en-occitanie-guide-2025",
+      "quitter-montpellier-guide-2026",
+      "vivre-dans-le-gard-guide-2025",
+    ],
+    tags: ["Roussillon", "Perpignan", "Pyrénées-Orientales", "Côte Vermeille", "Collioure", "catalan", "Méditerranée", "soleil", "s'installer"],
+  },
+  {
+    slug: "caen-vs-rouen-comparatif-2026",
+    title: "Caen vs Rouen en 2026 : deux capitales normandes, deux projets de vie",
+    metaTitle: "Caen vs Rouen 2026 — Mer, Seine, qualité de vie : comparatif complet",
+    metaDesc:
+      "Caen ou Rouen pour s'installer en Normandie ? Les deux villes ont des profils très différents malgré leur proximité. Notre comparatif honnête pour choisir selon votre situation.",
+    category: "comparaison",
+    emoji: "🏰",
+    readMinutes: 8,
+    publishedAt: "2026-05-11",
+    updatedAt: "2026-05-11",
+    intro:
+      "Caen et Rouen sont les deux grandes villes de Normandie. Elles sont à 2h de voiture l'une de l'autre, mais elles ont des profils très différents : Rouen est plus proche de Paris, plus grande, plus industrielle ; Caen est plus plate, plus calme, plus proche de la mer. Ce guide aide à choisir selon ce qui compte vraiment dans votre situation.",
+    sections: [
+      {
+        heading: "Taille et dynamisme : Rouen devant",
+        body: "Rouen est la métropole normande (500 000 habitants pour l'aire urbaine, contre 420 000 pour Caen). Elle dispose d'une économie plus diversifiée : industrie pétrolière et chimique (raffineries de Normandie), logistique portuaire (4e port de France), services, commerce. L'université de Rouen compte 32 000 étudiants (contre 30 000 à Caen). En termes de vie culturelle, Rouen a davantage à offrir : musée des Beaux-Arts de rang national, Armada (rassemblement de grands voiliers tous les 3-4 ans), festival Normandie Impressionniste. Sur presque tous les indicateurs de dynamisme urbain, Rouen devance Caen — mais l'écart est moins marqué qu'entre une métropole et une ville moyenne.",
+      },
+      {
+        heading: "Proximité Paris : avantage Rouen",
+        body: "C'est l'argument qui tranche souvent pour les télétravailleurs parisiens. Rouen est à 1h20 de Paris Saint-Lazare en TER direct (et moins de 2h en pointe avec les arrêts). Caen est à 2h05 de Paris Montparnasse en TGV. Pour un remote worker qui monte à Paris une ou deux fois par semaine, les 45 minutes de différence représentent une heure aller-retour de moins chaque jour de déplacement. Sur un mois avec 8 allers-retours, c'est 8 heures gagnées. Ce n'est pas anodin.",
+      },
+      {
+        heading: "La mer : avantage Caen",
+        body: "Caen est à 15 km des plages de la Côte de Nacre (Ouistreham, Courseulles, Arromanches-les-Bains). En été, les familles caennaises font de la plage après le travail. Deauville et Honfleur sont à 45-60 minutes. Rouen est à l'intérieur des terres, sur la Seine — la mer est à 80-100 km. Pour les familles avec enfants ou les sportifs nautiques, la proximité de la mer à Caen est un avantage concret de qualité de vie qui ne se mesure pas en m².",
+      },
+      {
+        heading: "Topographie et mobilité douce",
+        body: "Caen est une ville plate, construite sur la plaine du Bessin — elle est exceptionnellement cyclable pour une ville de cette taille. Le réseau de pistes cyclables couvre plus de 300 km et les traversées de la ville à vélo sont agréables. Rouen est vallonnée — les côtes qui bordent la Seine (côte Sainte-Catherine, côte de la Croix-de-Pierre) rendent le vélo quotidien difficile pour les non-sportifs. Le tramway de Rouen compense partiellement, mais la topographie reste une limite réelle.",
+      },
+      {
+        heading: "Immobilier : avantage Caen (légèrement)",
+        body: "Les prix sont proches : Caen ≈ 2 600 €/m², Rouen ≈ 2 800 €/m². La différence est faible mais réelle dans les meilleurs quartiers : le quartier du Vieux-Rouen (colombages historiques) pousse localement à 4 000 €/m² tandis que le quartier Saint-Jean à Caen plafonne à 3 200 €. En location, les loyers médiaux sont quasi identiques (T3 ≈ 800–900 €). Le critère immobilier seul ne différencie pas les deux villes.",
+      },
+      {
+        heading: "Le verdict selon votre profil",
+        body: "Choisissez Rouen si : vous travaillez à Paris ou y allez fréquemment ; vous valorisez la richesse culturelle et patrimoniale d'une grande ville ; vous êtes dans l'industrie, la logistique ou les services aux entreprises. Choisissez Caen si : vous avez des enfants et valorisez la mer et la douceur de vie ; vous télétravailler à 100 % et cherchez une ville plate et cyclable ; vous venez de l'Ouest (Rennes, Nantes) et cherchez à rester dans cette ambiance atlantique. Les deux villes sont de bonnes options normandes — elles correspondent à des modes de vie différents.",
+      },
+    ],
+    relatedCities: ["caen", "rouen", "le-havre", "cherbourg", "deauville", "bayeux"],
+    relatedGuides: [
+      "vivre-en-normandie-guide-2025",
+      "teletravailler-depuis-normandie-guide-2026",
+      "quitter-paris-guide-2025",
+    ],
+    tags: ["Caen", "Rouen", "Normandie", "comparatif", "mer", "Seine", "qualité de vie", "télétravail", "Paris", "immobilier"],
+  },
+  {
+    slug: "dijon-vs-lyon-comparatif-2026",
+    title: "Dijon vs Lyon en 2026 : la capitale bourguignonne face à la métropole rhônalpine",
+    metaTitle: "Dijon vs Lyon 2026 — Prix, emploi, gastronomie : comparatif complet",
+    metaDesc:
+      "Dijon est à 1h40 de TGV de Lyon. Pour la moitié du prix. Est-ce suffisant pour en faire une alternative crédible ? Notre comparatif honnête Dijon vs Lyon 2026.",
+    category: "comparaison",
+    emoji: "🍷",
+    readMinutes: 8,
+    publishedAt: "2026-05-11",
+    updatedAt: "2026-05-11",
+    intro:
+      "On pourrait caricaturer : Dijon est Lyon en moins grand, moins cher et moins pollué. C'est partiellement vrai. Mais les deux villes ont des identités et des marchés de l'emploi suffisamment différents pour que le choix ne soit pas aussi simple. Ce guide fait le point pour ceux qui hésitent entre les deux — souvent des Parisiens qui cherchent une métropole de province, ou des Lyonnais qui cherchent à respirer.",
+    sections: [
+      {
+        heading: "Taille et poids économique : Lyon sans débat",
+        body: "Lyon est la troisième ville de France (520 000 habitants, 2,3 millions pour la métropole). Dijon est la capital de la Bourgogne-Franche-Comté (160 000 habitants, 260 000 pour l'aire urbaine). L'écart n'est pas une nuance — c'est un ordre de grandeur. Lyon dispose d'une économie diversifiée de rang européen (pharmacie, numérique, chimie, finance). Dijon est une ville universitaire et administrative dont l'économie repose sur l'agroalimentaire (moutarde, cassis, vins de Bourgogne), la santé (CHU) et les services. Pour les profils qui cherchent un vaste marché de l'emploi privé et une scène startup, Lyon n'a pas d'équivalent en Bourgogne.",
+      },
+      {
+        heading: "Immobilier : Dijon à moins de la moitié",
+        body: "Dijon centre (Darcy, Victoire, Centre Historique) : ≈ 2 700 €/m². Lyon centre (Vieux-Lyon, Presqu'île, Croix-Rousse) : 5 500–7 000 €/m². Pour un T3 de 70 m² : Dijon ≈ 190 000 €, Lyon ≈ 420 000 €. L'écart est massif. En location, le T3 médian à Dijon coûte ≈ 820 €/mois ; à Lyon ≈ 1 450 €. Sur 10 ans de location, la différence représente 75 000 €. À l'achat, l'économie de capital est de 230 000 € — de quoi financer une résidence secondaire en Bourgogne ou une retraite anticipée de plusieurs années.",
+      },
+      {
+        heading: "Gastronomie : match nul au sommet",
+        body: "C'est le terrain d'égalité des deux villes. Lyon est la capitale gastronomique française (bouchons, Halles Paul Bocuse, densité de tables étoilées). Dijon est la capitale de la cuisine bourguignonne : bœuf bourguignon, escargots de Bourgogne AOP, coq au vin, épicerie fine (moutarde Fallot, pain d'épices Mulot & Petitjean). La Route des Grands Crus de Bourgogne (Gevrey-Chambertin, Vosne-Romanée, Chambolle-Musigny, Meursault) commence à 20 minutes du centre de Dijon. Pour les amateurs de vins fins, Dijon donne accès à la Bourgogne comme Lyon donne accès au Beaujolais — mais à un niveau de prestige encore supérieur.",
+      },
+      {
+        heading: "Connexions TGV : Lyon hub européen",
+        body: "Lyon Part-Dieu est l'un des hubs TGV les plus importants de France : Paris en 2h, Marseille en 1h35, Genève en 2h, Turin en 3h45, Barcelone en 4h45. Dijon est à 1h35 de Paris-Bercy/Lyon, 2h15 de Marseille, 2h30 de Genève. Pour les profils à fort besoin de mobilité internationale (commerciaux, consultants, managers), Lyon est nettement supérieure. Pour un télétravailleur qui monte à Paris une fois par semaine, Dijon (1h35 direct) est parfaitement compétitive.",
+      },
+      {
+        heading: "Qualité de l'air et cadre de vie quotidien",
+        body: "Lyon est dans la vallée du Rhône, soumise aux mêmes inversions thermiques que Grenoble en hiver. La qualité de l'air y est un sujet récurrent. Dijon est sur le plateau bourguignon — moins sujette aux phénomènes d'accumulation de polluants. Par ailleurs, Dijon est une ville à taille humaine : on la traverse en vélo en 20 minutes, les temps de trajet sont courts, les files d'attente aux administrations moins longues. Ce n'est pas mesurable en score global mais c'est très perceptible au quotidien.",
+      },
+      {
+        heading: "Pour qui Dijon, pour qui Lyon ?",
+        body: "Choisissez Dijon si : vous télétravailler majoritairement ; vous cherchez à acheter sous 250 000 € un T3 en centre-ville de qualité ; vous valorisez la vigne, la gastronomie bourguignonne et les week-ends à vélo entre les crus ; vous avez des enfants et valorisez une ville à échelle humaine et sans pollution hivernale sévère. Choisissez Lyon si : votre emploi est à Lyon ou en dépend ; vous valorisez le rayonnement international, la densité culturelle et la connexion TGV européenne ; vous avez un budget d'achat au-dessus de 400 000 € pour un T3.",
+      },
+    ],
+    relatedCities: ["dijon", "lyon", "beaune", "chalon-sur-saone", "macon", "bourg-en-bresse"],
+    relatedGuides: [
+      "vivre-en-bourgogne-franche-comte-guide-2025",
+      "quitter-lyon-guide-2026",
+      "vivre-en-auvergne-rhone-alpes-guide-2025",
+    ],
+    tags: ["Dijon", "Lyon", "comparatif", "Bourgogne", "gastronomie", "vins", "immobilier", "emploi", "télétravail", "qualité de vie"],
+  },
+  {
+    slug: "meilleures-villes-randonnee-trail-france-2026",
+    title: "Les meilleures villes françaises pour la randonnée et le trail en 2026",
+    metaTitle: "Meilleures villes randonnée et trail France 2026 — GR, massifs, sentiers",
+    metaDesc:
+      "Sortir randonner ou trailrunner depuis chez soi en 20 minutes : notre guide des villes françaises où c'est possible, avec les massifs accessibles, les clubs et le coût de vie.",
+    category: "lifestyle",
+    emoji: "🥾",
+    readMinutes: 8,
+    publishedAt: "2026-05-11",
+    updatedAt: "2026-05-11",
+    intro:
+      "Choisir sa ville de résidence en fonction de l'accès à la montagne ou aux sentiers n'est plus marginal. Le trail running et la randonnée sont parmi les sports dont la pratique a le plus augmenté en France depuis 2020. Ce guide identifie les villes françaises où un trailrunner ou randonneur peut sortir ses chaussures depuis son domicile en moins de 30 minutes, sans voiture idéalement, et trouver un terrain suffisamment varié pour progresser.",
+    sections: [
+      {
+        heading: "Chamonix-Mont-Blanc : l'extrême référence",
+        body: "Chamonix est la capitale mondiale du trail et de l'alpinisme. L'UTMB (Ultra-Trail du Mont-Blanc) y attire chaque été 10 000 coureurs de 100 pays. Les sentiers démarrent littéralement depuis le centre-ville vers les glaciers, les aiguilles et les cols suisses et italiens. Le problème est le même que pour tous les spots mythiques : les prix ont suivi la réputation (≈ 8 000–12 000 €/m², parmi les plus chers de France hors Paris). Pour un trailrunner qui veut vivre à Chamonix à l'année, le budget est celui d'un cadre supérieur ou d'un propriétaire qui a revendu à Paris. La communauté sportive internationale est intense et stimulante.",
+      },
+      {
+        heading: "Grenoble : les sentiers à 15 minutes du bureau",
+        body: "Score MeilleurVille nature : 9.6/10. Grenoble est la ville française où la montagne est la plus proche du centre-ville. La Bastille est à 20 minutes à pied (ou 6 minutes en téléphérique) depuis le Vieux-Grenoble. La Chartreuse est accessible en 25 minutes en voiture, le Vercors en 30 minutes, Chamrousse en 35 minutes. Pour un trailrunner, c'est un paradise logistique : sortie après le travail possible à l'année, même en semaine, sans planifier une expédition. Prix ≈ 3 800 €/m² — nettement plus abordable que Chamonix pour un accès terrain presque équivalent.",
+      },
+      {
+        heading: "Pau : la porte des Pyrénées sous-estimée",
+        body: "Pau est systématiquement sous-estimée dans les classements de villes pour randonneurs. La ville est en bas des Pyrénées — le Pic du Midi d'Ossau, les vallées d'Aspe et d'Ossau, le GR10 transverse des Pyrénées — tout cela démarre à 40-50 minutes en voiture. La ville elle-même dispose du boulevard des Pyrénées, considéré comme la plus belle promenade de France (vue sur 80 km de chaîne pyrénéenne). Prix ≈ 2 400 €/m² — deux fois moins que Grenoble, trois fois moins que Chamonix. Pour un randonneur famille avec budget médian, Pau est probablement le meilleur compromis de France.",
+      },
+      {
+        heading: "Millau et le Causse : le trail du bout du monde accessible",
+        body: "Millau (23 000 habitants) est connue pour son viaduc, mais elle est aussi l'une des villes françaises les plus cohérentes pour le trail de nature sauvage. Le Causse du Larzac, les gorges du Tarn, le Parc Naturel des Grandes Causses — ces espaces sont immenses, préservés et accessibles depuis le centre de Millau en moins de 20 minutes à pied ou à vélo. Le Trail des Templiers (50 km, 3 000 participants) en est l'événement phare. Prix ≈ 1 600 €/m² — parmi les moins chers de ce guide. Pour un télétravailleur trailrunner, c'est l'option la plus radicale et la plus cohérente.",
+      },
+      {
+        heading: "Annecy : les sentiers au bord du lac",
+        body: "Annecy dispose d'un accès exceptionnel à la randonnée alpine depuis la ville même. Le tour du lac (36 km, peu de dénivelé) est praticable en trail à l'année. Les crêtes des Bauges et des Aravis démarrent à 30-45 minutes. La Tournette (2 351 m) est accessible en une journée depuis le centre. Revers connu : les prix (≈ 5 000–7 000 €/m²) rendent l'installation difficile pour les revenus médians. La solution adoptée par beaucoup de randonneurs-trailrunners : s'installer à Rumilly, Cran-Gevrier ou Alby-sur-Chéran (20-30 minutes d'Annecy) pour un m² 30 à 40 % inférieur.",
+      },
+      {
+        heading: "Pour les randonneurs côtiers : Brest, La Rochelle, Nice",
+        body: "Tout le monde ne veut pas la montagne. Pour les randonneurs côtiers (GR34 en Bretagne, GR51 sur les Maures et l'Estérel, sentiers des Calanques), trois villes se démarquent. Brest : accès direct au GR34 (sentier des douaniers, 1 800 km de Bretagne) depuis la rade. Nice : les sentiers du Mercantour et de la Côte d'Azur depuis le front de mer. La Rochelle : les îles de Ré et d'Oléron à vélo et à pied. Ces villes sont moins typiques du trail alpin mais parfaitement cohérentes pour les marcheurs longue distance et les randonneuses côtières.",
+      },
+    ],
+    relatedCities: ["grenoble", "pau", "millau", "annecy", "chamonix", "brest"],
+    relatedGuides: [
+      "vivre-en-montagne-villes-alpes-pyrenees-france-2025",
+      "meilleures-villes-outdoor-sport-nature-france-2025",
+      "meilleures-villes-seniors-actifs-france-2026",
+    ],
+    tags: ["randonnée", "trail", "trail running", "montagne", "GR", "Grenoble", "Pau", "Millau", "Annecy", "lifestyle", "sport nature"],
+  },
+  {
+    slug: "villes-france-retraite-anticipee-fire-2026",
+    title: "Retraite anticipée et FIRE en France : les meilleures villes pour s'arrêter à 45 ans",
+    metaTitle: "Retraite anticipée et FIRE France 2026 — Villes à faible coût, haute qualité de vie",
+    metaDesc:
+      "S'arrêter de travailler à 40-50 ans en France : dans quelles villes est-ce financièrement viable avec un capital de 400 000 à 700 000 € ? Notre analyse 2026.",
+    category: "lifestyle",
+    emoji: "🏡",
+    readMinutes: 9,
+    publishedAt: "2026-05-11",
+    updatedAt: "2026-05-11",
+    intro:
+      "Le mouvement FIRE (Financial Independence, Retire Early) a émergé aux États-Unis mais s'adapte parfaitement au modèle social français, où la sécurité sociale, les mutuelles et les crèches publiques réduisent considérablement les dépenses contraintes. Avec un capital de 500 000 € et un taux de retrait de 3,5 %, une famille peut vivre de ses investissements avec 17 500 €/an — soit environ 1 460 €/mois. Dans certaines villes françaises, ce budget suffit largement pour une qualité de vie excellente. Ce guide identifie ces villes.",
+    sections: [
+      {
+        heading: "Le calcul FIRE en France : ce qui change par rapport aux États-Unis",
+        body: "En France, le FIRE est structurellement plus facile qu'aux États-Unis sur trois points : (1) la santé publique — une famille avec Complémentaire Santé Solidaire (CSS) peut avoir une couverture santé quasi complète pour moins de 200 €/mois, contre 1 000-2 000 $/mois aux États-Unis ; (2) les retraites futures — même en s'arrêtant à 45 ans avec des cotisations réduites, on aura une pension publique de 600 à 800 €/mois à 67 ans qui réduit le capital nécessaire ; (3) l'alimentation — les marchés français permettent de bien manger pour 400 €/mois pour deux dans des villes de province. Le taux de retrait viable en France est plutôt 3 à 3,5 % contre 4 % dans les modèles anglosaxons.",
+      },
+      {
+        heading: "Millau, Aurillac, Figeac : la France profonde pour les FIRE radicaux",
+        body: "Pour les profils qui maximisent le taux d'épargne et ont un capital plus modeste (300 000–400 000 €), les villes de taille moyenne du Massif Central offrent le coût de vie le plus bas de France métropolitaine. Millau : loyer T2 ≈ 450 €/mois, marché alimentaire local excellent, randonnée immédiate. Aurillac : loyer T2 ≈ 420 €/mois, fromages AOP accessibles, nature volcanique. Figeac (Lot) : patrimoine médiéval, vallée du Célé, prix ≈ 1 400 €/m². Dans ces villes, un couple FIRE peut vivre confortablement avec 1 200 €/mois grâce aux loyers bas et aux circuits courts alimentaires.",
+      },
+      {
+        heading: "Béziers, Sète, Nîmes : le Midi à prix doux",
+        body: "Pour les FIRE qui valorisent le soleil, la mer et la culture méditerranéenne sans les prix du Pays Basque ou des Alpes-Maritimes, le Midi « abordable » offre des options réelles. Béziers : loyer T3 ≈ 600 €/mois, plages à 25 km, Canal du Midi à 10 minutes. Sète : ≈ 700 €/mois, entre étang et mer, marché aux poissons direct. Nîmes : ≈ 750 €/mois, patrimoine romain, festivals actifs. Dans ces villes, le couple FIRE vit avec 1 500–1 800 €/mois — accessible avec un capital de 520 000–620 000 € à 3,5 %.",
+      },
+      {
+        heading: "Pau, Carcassonne, Auch : le Sud-Ouest accessible",
+        body: "Le Sud-Ouest pyrénéen offre un compromis remarquable pour le FIRE lifestyle. Pau : loyer T2 ≈ 550 €/mois, Pyrénées à 40 min, marché couvert exceptionnel, cuisine gasconne. Carcassonne : loyer T2 ≈ 480 €/mois, la cité médiévale à 15 minutes à pied, vignobles du Languedoc à portée de vélo. Auch (Gers) : loyer T2 ≈ 400 €/mois, cathédrale et stabat mater, foie gras à moins de 15 €/barquette au marché, communauté de télétravailleurs et FIRE en développement. Ces villes permettent un budget mensuel total de 1 300–1 600 €/mois pour deux.",
+      },
+      {
+        heading: "FIRE avec enfants : les villes qui fonctionnent",
+        body: "Le FIRE avec enfants impose des contraintes supplémentaires : crèches (liste d'attente parfois longue), écoles de qualité, activités sportives et culturelles accessibles. Deux villes ressortent pour les familles FIRE. Angers : CHU, écoles bien notées, Loire à Vélo, prix ≈ 3 200 €/m² (achat propriété possible avec capital FIRE confortable). La Rochelle : mer immédiate, vélo partout, réseau associatif dense, écoles de voile. Les familles FIRE qui achètent leur résidence principale (hors capital de rente) peuvent vivre avec 2 000 €/mois à deux dans ces villes.",
+      },
+      {
+        heading: "Ce que les guides FIRE internationaux ne disent pas sur la France",
+        body: "Trois réalités pratiques souvent ignorées. (1) La fiscalité des revenus du capital : les dividendes et plus-values en France sont soumis à la flat tax de 30 % (PFU) — inférieure à l'impôt sur le revenu pour les hauts revenus mais significative pour les revenus moyens du FIRE. Un conseil fiscal est utile avant d'optimiser le portefeuille. (2) La résidence principale n'est pas exclue du calcul : en France, posséder sa résidence principale supprime le loyer du budget et constitue une forme d'assurance contre l'inflation immobilière — différent du modèle FIRE americain qui loue toujours. (3) La communauté : la culture FIRE est encore peu développée en France — les forums, meetups et groupes locaux sont rares mais existent (FIRE France sur Reddit, groupes Telegram).",
+      },
+    ],
+    relatedCities: ["millau", "aurillac", "beziers", "pau", "carcassonne", "auch"],
+    relatedGuides: [
+      "meilleures-villes-retraite-avec-mer-et-soleil-petit-budget-2025",
+      "meilleures-villes-achat-immobilier-moins-150000-euros-2025",
+      "villes-france-ainés-retraite-services-proximite-2025",
+    ],
+    tags: ["FIRE", "retraite anticipée", "indépendance financière", "coût de vie bas", "Millau", "Pau", "Béziers", "Sète", "mini-retraite"],
+  },
+  {
+    slug: "teletravailler-depuis-bourgogne-guide-2026",
+    title: "Télétravailler depuis la Bourgogne en 2026 : Dijon, Beaune, Auxerre, Mâcon",
+    metaTitle: "Télétravailler depuis la Bourgogne 2026 — Dijon, Beaune, vignobles et TGV",
+    metaDesc:
+      "La Bourgogne est à 1h35 de TGV de Paris, trois fois moins chère, et propose une qualité de vie gastronomique unique. Notre guide complet pour télétravailler depuis les vignes.",
+    category: "teletravail",
+    emoji: "🍇",
+    readMinutes: 8,
+    publishedAt: "2026-05-11",
+    updatedAt: "2026-05-11",
+    intro:
+      "La Bourgogne est une des régions françaises les mieux positionnées pour le télétravail et paradoxalement l'une des moins exploitées. Dijon est à 1h35 de Paris-Bercy en TGV. Les prix immobiliers sont inférieurs de 65 % à ceux de Paris. La cuisine, les vins et la qualité de vie sont parmi les meilleurs de France. Ce guide répare un oubli.",
+    sections: [
+      {
+        heading: "Dijon : la base TGV parfaite",
+        body: "Score MeilleurVille télétravail : 7.6/10. Dijon est la seule grande ville de France à proposer la combinaison TGV Paris < 2h + prix immobilier < 3 000 €/m² + CHU de niveau national + vignoble classé UNESCO à 20 minutes. Les coworkings y sont actifs (Coworking Dijon, La Cantine, WeHub) avec des abonnements à partir de 90 €/mois. Les connexions TGV vers Lyon (1h40), Genève (2h30) et Marseille (3h05) permettent aussi des journées en clientèle dans plusieurs grandes villes sans nuit d'hôtel. Pour un consultant ou un commercial qui doit se déplacer régulièrement, Dijon est un hub de province sous-estimé.",
+      },
+      {
+        heading: "Beaune : télétravailler au cœur du vignoble",
+        body: "Beaune est à 25 minutes de TGV de Dijon (et donc 2h de Paris). Prix ≈ 2 800 €/m² — légèrement supérieur à Dijon mais avec une qualité architecturale et une situation géographique uniques : la ville est entourée de vignobles AOC, les sorties à vélo dans les Côtes de Beaune (Pommard, Meursault, Chassagne-Montrachet) sont pratiquées par les habitants à l'année, pas seulement les touristes. Les coworkings sont moins nombreux qu'à Dijon (2 espaces confirmés) mais la fibre est totale dans la zone urbaine. Pour un télétravailleur solo ou un couple, Beaune offre une douceur de vie quotidienne difficile à trouver ailleurs à ce prix.",
+      },
+      {
+        heading: "Auxerre, Sens, Joigny : la Bourgogne nord à 1h de Paris",
+        body: "L'Yonne (département nord de la Bourgogne) est encore plus proche de Paris. Auxerre est à 1h40 d'Austerlitz en Intercités, Sens à 1h10, Joigny à 1h25. Ces villes proposent des prix ≈ 1 800–2 200 €/m² — parmi les moins chers à moins de 2h de Paris. Auxerre dispose d'une cathédrale gothique exceptionnelle, d'un tissu commercial actif et d'un environnement viticole (Chablis à 20 km). Pour le télétravailleur qui cherche la connexion Paris-rapide au coût le plus bas, l'Yonne est probablement la meilleure offre de France.",
+      },
+      {
+        heading: "Mâcon et le Mâconnais : entre Bourgogne et Beaujolais",
+        body: "Mâcon est en bas de la Bourgogne, à la frontière avec l'Ain et le Beaujolais. TGV Paris en 1h40, TGV Lyon en 35 minutes. Prix ≈ 2 000 €/m². L'accès aux vins du Mâconnais (Pouilly-Fuissé, Viré-Clessé), aux villages de Pierreclos et Cluny (l'abbaye la plus grande de France médiévale) et à la campagne bourguignonne est immédiat. Pour un télétravailleur qui fait des allers-retours hebdomadaires entre Paris et Lyon, Mâcon à mi-chemin est une option géographiquement logique.",
+      },
+      {
+        heading: "Fibre et coworkings en Bourgogne 2026",
+        body: "La couverture fibre FTTH en Bourgogne-Franche-Comté atteint 84 % des locaux en 2026 — en retrait par rapport aux régions les plus avancées mais suffisant pour les zones urbaines (Dijon, Beaune, Chalon-sur-Saône, Mâcon : >96 %). Les zones rurales de l'Yonne et du Morvan restent moins bien couvertes. En coworking, Dijon dispose d'une offre solide (7 espaces, abonnements flexibles). Les autres villes bourguignonnes ont des espaces de taille plus modeste mais en croissance depuis 2022.",
+      },
+      {
+        heading: "Le style de vie bourguignon comme argument de travail",
+        body: "Travailler depuis la Bourgogne, c'est aussi accepter — et embrasser — un rythme différent. Les caves de Dijon ouvrent au mois ou à la bouteille. Le marché de Dijon (mardi, vendredi, samedi) est l'un des meilleurs de province. La randonnée dans le Morvan, les sorties à vélo sur la Route des Grands Crus, et les visites de domaine en fin de semaine ne nécessitent pas de voiture. Ce style de vie — production locale, slow food, nature proche — n'est pas pour tout le monde. Mais pour ceux à qui il correspond, la Bourgogne est difficile à battre.",
+      },
+    ],
+    relatedCities: ["dijon", "beaune", "auxerre", "macon", "chalon-sur-saone", "sens"],
+    relatedGuides: [
+      "vivre-en-bourgogne-franche-comte-guide-2025",
+      "dijon-vs-lyon-comparatif-2026",
+      "teletravailler-depuis-grand-est-guide-2026",
+    ],
+    tags: ["Bourgogne", "Dijon", "Beaune", "Auxerre", "télétravail", "remote work", "TGV Paris", "vignoble", "fibre", "coworking"],
+  },
+  {
+    slug: "meilleures-villes-freelances-independants-france-2026",
+    title: "Les meilleures villes françaises pour les freelances et indépendants en 2026",
+    metaTitle: "Meilleures villes freelances et indépendants France 2026 — Coworking, réseau, coût",
+    metaDesc:
+      "Coworking abordable, réseau professionnel actif, cotisations sociales : notre guide 2026 des villes françaises où un freelance peut développer son activité sans se ruiner.",
+    category: "teletravail",
+    emoji: "💼",
+    readMinutes: 9,
+    publishedAt: "2026-05-11",
+    updatedAt: "2026-05-11",
+    intro:
+      "Le freelance français ne vit plus à Paris par obligation. La dématérialisation des missions, le développement des plateformes de mise en relation et la maturité des coworkings en province ont rendu possible l'installation dans n'importe quelle ville avec une fibre correcte. Mais toutes les villes de province ne sont pas équivalentes pour un indépendant : le réseau local, la densité de clients potentiels, le coût des espaces de travail et l'accès à des associations professionnelles actives varient énormément. Ce guide fait le point.",
+    sections: [
+      {
+        heading: "Les 4 critères qui comptent pour un freelance en province",
+        body: "Un salarié remote cherche avant tout fibre + loyer bas. Un freelance a quatre besoins supplémentaires : (1) un réseau client local ou accessible en 2h (les missions 100 % à distance existent mais la proximité physique ouvre les portes) ; (2) des coworkings avec salles de réunion, imprimante et adresse postale (pour les mentions légales) ; (3) des événements professionnels — meetups, conférences, BNI ou équivalents — pour entretenir le pipeline commercial ; (4) une identité professionnelle visible dans la ville (LinkedIn local actif, associations sectorielles). Ces critères défavorisent les villes de moins de 50 000 habitants.",
+      },
+      {
+        heading: "Rennes : l'écosystème freelance le plus dynamique hors Paris",
+        body: "Score MeilleurVille télétravail : 8.4/10. Rennes dispose de la communauté freelance la plus active de France hors Paris et Lyon. French Tech Rennes recense >400 startups, les meetups tech (ReactRennes, Rennes Startup, GDG Rennes) sont hebdomadaires, et le réseau d'indépendants est dense. La Cordée et Cowork'In Rennes proposent des abonnements à 120-180 €/mois avec salles de réunion. Pour un développeur, designer, consultant marketing ou spécialiste SEO, Rennes génère suffisamment de prospects locaux pour constituer 40 à 60 % d'un carnet de commandes — le reste en remote.",
+      },
+      {
+        heading: "Bordeaux : les freelances lifestyle",
+        body: "Bordeaux attire un profil de freelance particulier : créatifs, consultants en stratégie, brand strategists, photographes, architectes d'intérieur. L'agglomération compte une des densités de studios créatifs et d'agences de communication les plus élevées de France hors Paris. La scène wine-and-design (salons, events, showcases) génère des missions locales régulières. Les coworkings (Darwin, La Caserne, Wojo Bordeaux) sont nombreux et bien positionnés. Bémol : les loyers sont 40 % plus élevés que Rennes — ce qui réduit la marge sur charge fixe d'un freelance solo.",
+      },
+      {
+        heading: "Nantes : le hub de la French Tech Atlantique",
+        body: "Nantes est le troisième écosystème startup de France. Les agences digitales, les ESN (Entreprises de Services du Numérique) et les éditeurs de logiciels SaaS y sont nombreux — et tous potentiellement clients pour un freelance dev, product ou data. La Cantine (espace numérique) est une référence nationale. Les tarifs coworking démarrent à 100 €/mois. Pour un freelance tech cherchant des missions locales en mode régie ou forfait, Nantes offre probablement le meilleur potentiel client de province.",
+      },
+      {
+        heading: "Strasbourg et Lyon : les hubs sectoriels",
+        body: "Strasbourg est pertinente pour les freelances travaillant avec des institutions européennes (traducteurs, consultants en affaires publiques, juristes européens) — une niche qui n'existe nulle part ailleurs en France. Lyon est incontournable pour les freelances de la santé (Boehringer Ingelheim, Sanofi, Ipsen ont tous des sites), de la chimie et de l'industrie agroalimentaire (Danone, Léa Nature). Ces deux villes offrent des niches sectorielles que Paris donne en volume mais que Rennes ou Nantes ne peuvent pas égaler.",
+      },
+      {
+        heading: "Les erreurs de localisation du freelance",
+        body: "Trois pièges classiques. (1) S'installer dans une ville belle mais sans tissu économique : une ville de 30 000 habitants avec un beau centre historique ne génère pas de missions locales pour un consultant. Les clients sont à Bordeaux, Lyon, Rennes — pas à Uzès ou Honfleur. (2) Confondre coworking et réseau : payer 150 €/mois dans un coworking ne suffit pas à construire un réseau. Il faut aller aux événements, proposer des talks, contribuer. (3) Sous-estimer les déplacements client : même en travaillant à distance, un freelance qui gagne bien voit ses clients en présentiel 2 à 4 fois par an. Une ville à 3h de train de Paris change la logistique et le coût de ces rencontres.",
+      },
+    ],
+    relatedCities: ["rennes", "bordeaux", "nantes", "strasbourg", "lyon", "toulouse"],
+    relatedGuides: [
+      "meilleures-villes-coworking-freelance-ecosysteme-2025",
+      "teletravailler-depuis-bretagne-guide-2026",
+      "meilleures-villes-tech-numerique-france-2025",
+    ],
+    tags: ["freelance", "indépendant", "auto-entrepreneur", "coworking", "réseau", "Rennes", "Bordeaux", "Nantes", "Strasbourg", "télétravail"],
+  },
 ];
 
 export const GUIDE_CATEGORIES = [
