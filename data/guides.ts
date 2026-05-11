@@ -7344,6 +7344,382 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["gastronomie", "cuisine française", "marchés", "vins", "Lyon", "Bordeaux", "Strasbourg", "Pays Basque", "lifestyle", "terroir"],
   },
+  {
+    slug: "quitter-grenoble-guide-2026",
+    title: "Quitter Grenoble en 2026 : quand la montagne et la pollution ne suffisent plus",
+    metaTitle: "Quitter Grenoble 2026 — Valence, Chambéry, Lyon, Gap : le guide honnête",
+    metaDesc:
+      "Grenoble attire et frustre en parts égales. Qui part, pourquoi, et quelles villes offrent la montagne sans les inversions thermiques ni la saturation routière.",
+    category: "comparaison",
+    emoji: "🏔️",
+    readMinutes: 8,
+    publishedAt: "2026-05-11",
+    updatedAt: "2026-05-11",
+    intro:
+      "Grenoble est la ville française qui génère le plus de paradoxes affectifs : ses habitants l'adorent pour la montagne et la détestent pour la pollution, adorent le tissu tech et détestent le trafic de l'A48. Ce n'est pas une ville qu'on quitte avec légèreté — mais de plus en plus la quittent quand même. Ce guide examine concrètement les raisons et les destinations, sans romantiser ni diaboliser.",
+    sections: [
+      {
+        heading: "Ce qui fait vraiment partir",
+        body: "Quatre moteurs récurrents. (1) La pollution atmosphérique : Grenoble est dans les pires classements français pour le PM2,5 et les NO₂ en hiver. La cuvette alpine emprisonne les particules pendant des semaines entières. Pour les asthmatiques, les personnes avec des enfants en bas âge ou ceux qui font du sport quotidiennement, c'est un vrai sujet de santé. (2) Le trafic sur la rocade et l'A48 : les échangeurs de la Presqu'île sont saturés aux heures de pointe. (3) Le prix immobilier qui a rattrapé les métropoles (≈ 3 800 €/m² en centre) sans en avoir le rayonnement. (4) L'enclavement hivernal : un événement météo peut bloquer les axes routiers vers Lyon ou Chambéry plusieurs heures.",
+      },
+      {
+        heading: "Valence : la sortie la plus intelligente",
+        body: "Score MeilleurVille : 6.8/10. À 1h par l'A49 ou 45 minutes de TGV, Valence est la grande ville que peu de Grenoblois considèrent — à tort. Prix ≈ 2 800 €/m² (26 % de moins que Grenoble), TGV Paris en 2h10, TGV Lyon en 30 minutes. Valence offre un vrai centre-ville avec la Maison des Têtes, des halles rénovées, un parc Jouvet au bord du Rhône, et un air mesurément meilleur que la cuvette grenobloise. La Drôme Provençale (Dieulefit, Crest) est à 30 minutes pour les week-ends. Limite : le bassin d'emploi tech est nettement plus étroit qu'à Grenoble.",
+      },
+      {
+        heading: "Chambéry : garder la montagne, perdre la cuvette",
+        body: "Chambéry est souvent citée comme la première alternative pour ceux qui ne veulent pas renoncer à la montagne. Prix ≈ 4 000 €/m² (légèrement plus cher que Grenoble), mais la qualité de l'air y est mesurément supérieure — la cuvette chambérienne est plus ouverte. Les Bauges, le lac du Bourget, Aix-les-Bains à 15 minutes et Annecy à 45 minutes composent un cadre naturel exceptionnel. TGV Lyon en 55 minutes. Limite : le tissu économique privé est moins dense que Grenoble pour les profils tech et recherche.",
+      },
+      {
+        heading: "Gap et les Hautes-Alpes : le choix radical",
+        body: "Gap (40 000 habitants) est la préfecture des Hautes-Alpes à 1h de Grenoble par le col de la Croix-Haute. Altitude 735 m — la ville échappe aux inversions thermiques de basse vallée. L'air est remarquablement pur. Prix ≈ 2 200 €/m². Orcières, Risoul et Vars sont à moins d'1h15 pour le ski. C'est un choix de rupture — pas de TGV, bassin d'emploi limité au service public et aux industries de montagne — mais pour un télétravailleur autonome cherchant la montagne à l'état pur, Gap et ses environs sont une option sous-estimée.",
+      },
+      {
+        heading: "Rester dans le Grésivaudan : la périphérie intelligente",
+        body: "Tous ceux qui quittent Grenoble ne partent pas loin. Beaucoup optent pour les communes du Grésivaudan (Crolles, Domène, Pontcharra) ou du Trièves (Mens, Clelles). Crolles, en particulier, est pertinente : ST Microelectronics y a son principal site français (10 000 emplois), le cadre de Chartreuse est immédiat, et les prix sont 20 à 30 % inférieurs à Grenoble pour des maisons avec jardin. Le revers : on reste dans le bassin de pollution grenoblois certains jours d'inversion.",
+      },
+      {
+        heading: "Le calcul net sur la pollution",
+        body: "C'est le critère le moins quantifiable mais le plus mentionné par les partants avec enfants. Le RNSA et Atmo Auvergne-Rhône-Alpes publient les données : Grenoble dépasse régulièrement le seuil OMS de 15 µg/m³ PM2,5 en hiver. À Valence, la moyenne annuelle est environ 25 % inférieure. À Chambéry, comparable ou légèrement meilleure. Ce différentiel a un impact sanitaire réel sur les enfants asthmatiques (coût de traitement, jours d'école manqués) que peu de comparatifs immobiliers intègrent — mais qui compte dans la décision d'une famille.",
+      },
+    ],
+    relatedCities: ["valence", "chambery", "gap", "aix-les-bains", "crolles", "romans-sur-isere"],
+    relatedGuides: [
+      "vivre-en-auvergne-rhone-alpes-guide-2025",
+      "grenoble-vs-chambery-comparatif-2025",
+      "quitter-lyon-guide-2026",
+    ],
+    tags: ["Grenoble", "quitter Grenoble", "Valence", "Chambéry", "Gap", "Isère", "montagne", "pollution", "télétravail", "déménagement"],
+  },
+  {
+    slug: "quitter-clermont-ferrand-guide-2026",
+    title: "Quitter Clermont-Ferrand en 2026 : et si l'Auvergne avait mieux à offrir juste à côté ?",
+    metaTitle: "Quitter Clermont-Ferrand 2026 — Vichy, Issoire, Lyon, Riom : guide honnête",
+    metaDesc:
+      "Clermont n'est pas Lyon. Mais elle est aussi différente d'elle-même selon le quartier. Qui part, pourquoi, et les vraies alternatives auvergnates avant de traverser le Massif Central.",
+    category: "comparaison",
+    emoji: "🌋",
+    readMinutes: 7,
+    publishedAt: "2026-05-11",
+    updatedAt: "2026-05-11",
+    intro:
+      "Clermont-Ferrand est une ville qui divise : ceux qui y sont nés l'aiment profondément, ceux qui y arrivent de grandes métropoles mettent quelques années à comprendre son charme. Ce guide n'est pas pour ceux qui partent parce qu'ils n'ont jamais accroché à Clermont — c'est pour ceux qui y ont vraiment vécu et qui, pour des raisons précises, cherchent autre chose sans nécessairement tout quitter.",
+    sections: [
+      {
+        heading: "Les raisons légitimes de partir",
+        body: "Trois points récurrents. (1) Le marché de l'emploi privé reste étroit pour les profils tech, finance et design — Michelin, IBM et le CHU dominent, ce qui crée une dépendance à quelques grands employeurs. (2) Les connexions : pas de TGV direct vers Paris (liaison Intercités en 3h15), pas d'autoroute rapide vers Lyon (2h15 via l'A89). Pour un salarié dont les clients ou collègues sont à Paris, la fréquence de déplacement se ressent. (3) Le sentiment de relatif enclavement culturel par rapport aux métropoles — une scène musicale et artistique réelle mais moins dense qu'à Lyon ou Bordeaux.",
+      },
+      {
+        heading: "Vichy : le pari thermal reconverti",
+        body: "À 45 km au nord de Clermont, Vichy est la grande surprise de l'Auvergne pour qui cherche à changer d'air sans aller loin. La ville thermale s'est réinventée : le palais des congrès, le lac d'Allier, les parcs Belle Époque et l'architecture Art Nouveau composent un cadre de vie étonnamment agréable. Prix ≈ 1 800 €/m² — parmi les plus accessibles des villes de 25 000 habitants en France. Le train Clermont-Vichy : 30 minutes. Bémol : la population âgée, le tourisme thermal et le passif historique (capitale de l'État français 1940-1944) pèsent sur l'image et freinent certains profils.",
+      },
+      {
+        heading: "Riom et Issoire : la périphérie cultivée",
+        body: "Riom (20 km au nord) est la plus belle ville médiévale de la région — souvent ignorée à tort. Son centre historique en lave noire est remarquable. Prix ≈ 1 900 €/m², TER Clermont en 12 minutes. Issoire (30 km au sud) ouvre l'accès à la chaîne des Puys et au Parc Naturel du Livradois-Forez pour les marcheurs et vttistes. Ces deux communes permettent de conserver l'accès à Clermont tout en gagnant un cadre résidentiel plus calme, des maisons avec jardin accessibles, et un réel dépaysement quotidien.",
+      },
+      {
+        heading: "Lyon : la grande migration",
+        body: "Pour ceux qui quittent vraiment Clermont, Lyon est la destination dominante (2h15 par l'A89, 2h30 de TGV via Paris). Le salaire médian à Lyon est 20 % supérieur à Clermont pour les profils qualifiés, l'offre culturelle est incomparable, et le bassin d'emploi tech/services est sans équivalent dans un rayon de 3h. Le revers : les prix passent de ≈ 2 800 €/m² (Clermont centre) à 5 000+ €/m² à Lyon — c'est une migration réelle, pas juste un déménagement.",
+      },
+      {
+        heading: "Ce qu'on sous-estime à Clermont",
+        body: "Avant de partir, il vaut la peine de mesurer ce qu'on laisse réellement. Clermont a des avantages concrets que les grandes métropoles ne peuvent pas offrir : zéro embouteillage (20 minutes maxi d'un bout à l'autre de l'agglomération), accès ski en 45 minutes (Super-Besse, Le Mont-Dore), randonnée volcanique à 15 minutes du centre (Puy de Dôme en vélo ou à pied), fromages AOP au marché du samedi pour moins de 15 €/kg, et un CHU de niveau national qui recrute. Pour un médecin, un ingénieur Michelin ou un enseignant chercheur, Clermont est une proposition solide que la réputation ne reflète pas.",
+      },
+    ],
+    relatedCities: ["vichy", "riom", "issoire", "lyon", "thiers", "ambert"],
+    relatedGuides: [
+      "vivre-en-auvergne-guide-2025",
+      "quitter-lyon-guide-2026",
+      "vivre-en-ardeche-drome-guide-2025",
+    ],
+    tags: ["Clermont-Ferrand", "quitter Clermont", "Vichy", "Riom", "Issoire", "Auvergne", "déménagement", "Massif Central"],
+  },
+  {
+    slug: "toulon-vs-marseille-comparatif-2026",
+    title: "Toulon vs Marseille en 2026 : deux villes méditerranéennes, deux destins",
+    metaTitle: "Toulon vs Marseille 2026 — Rade, calanques, coût, emploi : comparatif complet",
+    metaDesc:
+      "Toulon ou Marseille ? Les deux villes partagent la Méditerranée et un fort caractère. Mais elles ont divergé radicalement en termes de coût, de sécurité, de dynamisme et de qualité de vie quotidienne.",
+    category: "comparaison",
+    emoji: "⚓",
+    readMinutes: 8,
+    publishedAt: "2026-05-11",
+    updatedAt: "2026-05-11",
+    intro:
+      "Marseille et Toulon sont à 65 km l'une de l'autre sur l'A50 et partagent la Méditerranée, le soleil et un tempérament sudiste affirmé. Mais elles ont divergé en profondeur sur presque tous les indicateurs depuis 15 ans : économie, prix immobilier, sécurité ressentie, dynamisme culturel, connectivité. Ce comparatif les regarde telles qu'elles sont, pas telles qu'on imagine qu'elles devraient être.",
+    sections: [
+      {
+        heading: "Taille et dynamisme : Marseille hors catégorie",
+        body: "Marseille est la deuxième ville de France (870 000 habitants, 1,9 million pour la métropole). Elle dispose d'un port de commerce majeur, d'une université de rang international, du CHU le plus grand de France, d'Airbus Helicopters à Marignane, du marché Euroméditerranée (le plus grand projet de rénovation urbaine de France). Toulon est la troisième ville de PACA (175 000 habitants, 600 000 pour l'aire urbaine) avec une économie centrée sur la Marine Nationale, le port militaire et les activités liées à la Défense. En termes de rayonnement, de diversité économique et d'offre culturelle, Marseille surpasse Toulon sans discussion.",
+      },
+      {
+        heading: "Sécurité : l'écart qui pèse dans la décision",
+        body: "C'est le facteur qui oriente le plus les choix familiaux entre les deux villes. Marseille enregistre régulièrement l'un des taux d'atteintes aux personnes les plus élevés des grandes villes françaises (SSMSI 2024). Certains quartiers (13e, 14e, 15e, 16e arrondissements) concentrent des problématiques de trafic et de violence qui dépassent largement le seuil de confort pour les familles avec enfants. Toulon a ses propres zones de tension (quartiers nord, Sainte-Musse dans une moindre mesure) mais le sentiment de sécurité quotidien y est généralement supérieur, notamment dans le centre rénové et le Mourillon.",
+      },
+      {
+        heading: "Immobilier : Toulon reste 30 % moins chère",
+        body: "Marseille centre (13e, Endoume, Vieux-Port) : 4 000–5 500 €/m². Toulon centre (Mourillon, Le Faron, hauteurs) : 3 000–4 000 €/m². En location, un T3 à Marseille dans un bon secteur tourne autour de 1 100–1 300 €/mois ; à Toulon ≈ 850–1 050 €. Sur 10 ans de location, le différentiel atteint 30 000–60 000 €. À l'achat, pour un T3 familial, comptez en moyenne 80 000 à 100 000 € de moins à Toulon pour une surface équivalente. L'écart se réduit dans les quartiers populaires marseillais, mais ces quartiers posent leur propre jeu de contraintes.",
+      },
+      {
+        heading: "Rade de Toulon vs Calanques de Marseille",
+        body: "Les deux villes ont un atout naturel majeur mais différent. La rade de Toulon est l'un des ports naturels les plus beaux du monde — fermée, protégée, avec des îles accessibles en 20 minutes de bateau (Porquerolles, Port-Cros, l'île du Levant). Les calanques de Marseille (classées Parc National depuis 2012) sont une des merveilles géologiques de France — calcaires blancs, eaux turquoise, plongée — mais soumises à une fréquentation massive en été (quota d'accès instauré). Pour la navigation de plaisance, Toulon gagne. Pour la randonnée de falaise et la plongée, les calanques sont irremplaçables.",
+      },
+      {
+        heading: "Connectivité : avantage Marseille",
+        body: "Marseille Provence est l'aéroport régional le mieux connecté du Sud (Amsterdam, Francfort, Londres, Dubaï en direct). TGV Paris en 3h15. Toulon n'a pas d'aéroport commercial direct ; le plus proche est Hyères Toulon-Var (liaisons Paris uniquement) ou Marseille Provence (50 min). Le TGV Toulon–Paris est direct en 3h45 depuis l'ouverture du contournement. Pour les profils à fort besoin de mobilité internationale, Marseille est nettement mieux positionnée.",
+      },
+      {
+        heading: "À qui s'adresse chacune ?",
+        body: "Choisissez Marseille si : vous êtes dans la santé, le maritime, la recherche ou les services aux entreprises ; vous valorisez la diversité culturelle intense, la gastronomie de marché et l'énergie urbaine brute ; vous avez la capacité financière et le sens de la navigation pour identifier un bon quartier. Choisissez Toulon si : vous avez une famille avec enfants et que la sécurité quotidienne est une priorité ; vous êtes en télétravail et cherchez la Méditerranée à prix réduit ; vous êtes lié à la Défense ou la Marine Nationale ; vous valorisez la rade et la navigation de plaisance.",
+      },
+    ],
+    relatedCities: ["toulon", "marseille", "hyeres", "la-seyne-sur-mer", "aubagne", "cassis"],
+    relatedGuides: [
+      "vivre-en-provence-paca-guide-2025",
+      "quitter-marseille-guide-2026",
+      "quitter-nice-guide-2026",
+    ],
+    tags: ["Toulon", "Marseille", "comparatif", "PACA", "Méditerranée", "rade", "calanques", "immobilier", "sécurité", "qualité de vie"],
+  },
+  {
+    slug: "vivre-en-auvergne-profonde-guide-2026",
+    title: "Vivre en Auvergne profonde en 2026 : Cantal, Haute-Loire, Allier — le guide honnête",
+    metaTitle: "Vivre en Auvergne profonde 2026 — Aurillac, Le Puy-en-Velay, Moulins",
+    metaDesc:
+      "L'Auvergne au-delà de Clermont : Cantal, Haute-Loire, Allier. Pour qui, à quel prix, et ce que personne ne vous dit sur la vie dans le Massif Central.",
+    category: "region",
+    emoji: "🌾",
+    readMinutes: 9,
+    publishedAt: "2026-05-11",
+    updatedAt: "2026-05-11",
+    intro:
+      "L'Auvergne au-delà de Clermont-Ferrand est l'une des régions françaises les plus méconnues et les plus mal comprises. Dans l'imaginaire collectif : désert médical, chômage, exode rural. Dans la réalité : des prix immobiliers parmi les plus bas de France, une nature d'une qualité exceptionnelle, et une résurgence discrète mais réelle de l'installation de télétravailleurs, d'artisans et de familles en quête de sens. Ce guide va dans les départements peu racontés.",
+    sections: [
+      {
+        heading: "Le Cantal : l'authenticité à un prix déconcertant",
+        body: "Le Cantal est le département français le moins dense après la Lozère. Aurillac, sa préfecture (27 000 habitants), offre des prix immobiliers à ≈ 1 200 €/m² — parmi les plus bas de toutes les préfectures françaises. Une maison de 120 m² avec jardin dans un village cantalu s'achète entre 60 000 et 120 000 €. La qualité de vie nature est exceptionnelle : plateau du Cézallier, monts du Cantal, Truyère. Le fromage (Cantal, Salers, Laguiole côté Aveyron) est au sommet de la production française. Ce qu'il faut savoir avant : l'emploi local est dominé par l'agriculture, le service public et l'artisanat. Pour un salarié du privé urbain, l'installation exige soit le télétravail complet, soit une reconversion.",
+      },
+      {
+        heading: "La Haute-Loire : le plateau et la foi",
+        body: "Le Puy-en-Velay est une des villes françaises les plus singulières : les rochers volcaniques qui portent la chapelle Saint-Michel d'Aiguilhe et la Cathédrale Notre-Dame sont uniques au monde. Le Puy est aussi le principal point de départ du chemin de Saint-Jacques de Compostelle (GR65), ce qui lui confère une vocation spirituelle et touristique particulière. Prix ≈ 1 600 €/m². L'économie locale tourne autour du pèlerinage, des dentelles du Puy (tradition artisanale classée UNESCO) et de l'agriculture du plateau. Altitude 630 m — les hivers sont froids mais l'ensoleillement est meilleur que dans les vallées.",
+      },
+      {
+        heading: "L'Allier : la douceur bourbonnaise ignorée",
+        body: "L'Allier est le département le moins connu d'Auvergne et le plus accessible pour une transition depuis une grande ville. Moulins (18 000 habitants, préfecture) dispose d'un centre historique médiéval intact, de musées de qualité (musée de l'Illustration, Centre National du Costume de Scène) et d'un m² à ≈ 1 300 €. Vichy (voir ci-dessus) est aussi dans ce département. L'accès à la Sologne et à la Forêt de Tronçais (la plus belle chênaie de France selon les forestiers) est immédiat. Paris–Moulins : 3h en voiture, 3h15 de train. Idéal pour les retraités actifs et les télétravailleurs cherchant un cadre verdoyant et paisible.",
+      },
+      {
+        heading: "La désertification médicale : état réel en 2026",
+        body: "C'est le problème réel de la région — il ne faut pas le minimiser. L'Auvergne figure parmi les régions les plus touchées par les déserts médicaux. Dans le Cantal, le délai pour obtenir un rendez-vous de médecin généraliste non-urgentiste peut dépasser 3 mois. Les spécialistes (cardiologue, rhumatologue, pédiâtre) sont concentrés à Aurillac, Clermont-Ferrand et Saint-Flour. Pour une personne avec des besoins médicaux réguliers, cet accès aux soins est une contrainte réelle. Pour une personne jeune et en bonne santé, c'est un risque gérable à condition d'anticiper.",
+      },
+      {
+        heading: "Qui s'installe vraiment en Auvergne profonde ?",
+        body: "Trois profils dominent parmi les nouveaux arrivants. (1) Les télétravailleurs en pleine propriété : couple ou famille qui vend un appartement parisien ou lyonnais, achète une maison avec 2 hectares pour le prix d'un garage en métropole, et télétravaille 5j/5. (2) Les artisans et créateurs : potiers, charpentiers, maraîchers bio, fromagers — la région attire ceux qui valorisent l'espace, le foncier bon marché et une communauté de ruraux motivés. (3) Les retraités anticipés ou les FIRE (Financial Independence, Retire Early) qui maximisent leur capital sur une faible charge de vie. Ces profils ne représentent pas le mouvement de masse — mais ils existent et ont transformé certains villages.",
+      },
+      {
+        heading: "Ressources pratiques pour s'installer",
+        body: "La Région Auvergne-Rhône-Alpes et les trois conseils départementaux proposent des dispositifs spécifiques pour attirer les nouveaux habitants : télécentres municipaux (fibre + salle de réunion), aides à l'installation artisanale, accompagnement à la reprise de commerce de village. Le réseau Bienvenue en Auvergne centralise les offres immobilières et les témoignages de nouveaux arrivants. La connexion fibre dépasse 75 % dans les bourgs du Cantal et de la Haute-Loire — suffisant pour du télétravail, insuffisant pour certains hameaux en fond de vallée.",
+      },
+    ],
+    relatedCities: ["aurillac", "moulins", "vichy", "riom", "issoire", "brioude"],
+    relatedGuides: [
+      "vivre-en-auvergne-guide-2025",
+      "quitter-clermont-ferrand-guide-2026",
+      "meilleures-villes-maison-jardin-moins-200000-euros-2025",
+    ],
+    tags: ["Auvergne", "Cantal", "Haute-Loire", "Allier", "Aurillac", "Le Puy-en-Velay", "Moulins", "France profonde", "télétravail", "immobilier accessible"],
+  },
+  {
+    slug: "meilleures-villes-cyclistes-france-2026",
+    title: "Les meilleures villes françaises pour les cyclistes en 2026",
+    metaTitle: "Meilleures villes cyclistes France 2026 — Pistes, culture vélo, topographie",
+    metaDesc:
+      "Strasbourg, Bordeaux, Nantes, Grenoble : quelles villes françaises ont vraiment construit une culture du vélo du quotidien ? Notre classement honnête 2026 par profil cycliste.",
+    category: "lifestyle",
+    emoji: "🚴",
+    readMinutes: 8,
+    publishedAt: "2026-05-11",
+    updatedAt: "2026-05-11",
+    intro:
+      "Le vélo quotidien n'est pas un hobby — c'est un mode de vie qui change radicalement la relation à la ville, au corps et au budget. Une famille qui roule à vélo économise entre 3 000 et 8 000 € de frais automobiles par an. Mais pour que ce soit possible, il faut que la ville soit réellement cyclable : pas de pistes cyclables peintes sur une route à 70 km/h, pas de box à vélo inexistants, pas de topographie qui transforme le trajet domicile-bureau en ascension du Galibier. Ce guide évalue les villes françaises selon des critères concrets.",
+    sections: [
+      {
+        heading: "Strasbourg : la référence absolue",
+        body: "Score cycliste MeilleurVille : 9.6/10. Strasbourg est la ville française la plus cyclable — et elle le mérite vraiment. Le réseau dépasse 650 km de voies cyclables, incluant des pistes séparées de la circulation sur la quasi-totalité des axes principaux. Le taux de déplacement à vélo atteint 17 % des déplacements (contre 3 % en moyenne nationale). La topographie est plate (plaine rhénane), le climat est continental avec moins de pluie que Paris, et la culture alsacienne du vélo est profondément ancrée. Le vélo-partage (Vélhop) couvre toute l'agglomération. Bémol presque imperceptible : les jours de neige (5-10 jours/an), certaines pistes ne sont pas déneigées prioritairement.",
+      },
+      {
+        heading: "Bordeaux : le réseau en expansion constante",
+        body: "Bordeaux a fait un bond spectaculaire depuis 2020. Les berges de la Garonne sont entièrement aménagées pour les vélos (30 km de pistes continues), et les grands axes vers Mérignac, Pessac et Talence sont en cours de transformation. Le vélo en libre-service (Vcub+) compte 3 000 vélos dont 1 200 électriques. La topographie est plate — idéale. Points faibles : les pistes ne sont pas toujours séparées physiquement de la circulation, et la traversée du centre-ville aux heures de pointe reste une expérience sportive. Mais la dynamique est clairement orientée vers la consolidation d'une vraie culture vélo.",
+      },
+      {
+        heading: "Nantes : la ville qui a le plus progressé en 5 ans",
+        body: "Nantes a augmenté son réseau cyclable de 60 % entre 2020 et 2026. L'axe centre–Saint-Nazaire via la Loire à Vélo est entièrement accessible. Le Bicloo (vélo libre-service) couvre l'essentiel de l'hypercentre. La topographie est légèrement vallonnée (la butte Sainte-Anne, le Vieux Doulon) mais sans excès. La ville manque encore de pistes vraiment séparées sur certains axes périphériques — mais la progression est la plus rapide des métropoles françaises. Pour un cycliste du quotidien installé au centre, Nantes est devenue très compétente.",
+      },
+      {
+        heading: "Grenoble : le paradoxe cycliste",
+        body: "Grenoble est un paradoxe : la ville avec peut-être la communauté cycliste la plus engagée de France, mais une topographie qui rend le quotidien difficile pour le cycliste ordinaire. Le centro-ville et la plaine de l'Isère sont cyclables et plats. En revanche, les communes en pente (Fontaine, Saint-Égrève, Saint-Martin-d'Hères) demandent une forme physique ou un vélo électrique. La ville dispose de 500 km de voies balisées et d'un réseau de Métrovélo (3 500 vélos dont une forte proportion d'électriques). Pour un cycliste sportif ou équipé d'un VAE, Grenoble est idéale. Pour un débutant ou un parent avec enfants, la topographie est un frein réel.",
+      },
+      {
+        heading: "La Rochelle : la ville cyclable à taille humaine",
+        body: "La Rochelle est la ville française qui a le meilleur rapport réseau cyclable / taille de population. 170 km de pistes pour 80 000 habitants. La ville est plate, compacte, et peut entièrement se traverser à vélo en 20 minutes. Le vélo libre-service (Yélo) est gratuit pour les trajets de moins de 30 minutes — un modèle unique en France. Pour des familles avec enfants ou des personnes âgées, La Rochelle est probablement la ville française la plus praticable à vélo au quotidien. Bémol : sa taille limite les opportunités d'emploi locales.",
+      },
+      {
+        heading: "Paris, Rennes, Montpellier : les villes en rattrapage",
+        body: "Paris a considérablement progressé depuis 2020 (1 000 km de pistes) mais la cohabitation avec le trafic automobile reste tendue sur de nombreux axes. Rennes développe activement son réseau (≈ 350 km) mais la ville est collines, ce qui limite les profils. Montpellier dispose d'un réseau en développement mais souffre de discontinuités. La mention spéciale va à Strasbourg, Bordeaux et La Rochelle comme les trois villes où le vélo quotidien est réellement une option fiable 365 jours par an sans exiger d'être un athlète ou un kamikaze.",
+      },
+    ],
+    relatedCities: ["strasbourg", "bordeaux", "nantes", "grenoble", "la-rochelle", "rennes"],
+    relatedGuides: [
+      "vivre-sans-voiture-france-guide-2025",
+      "vivre-en-alsace-guide-2025",
+      "meilleures-villes-seniors-actifs-france-2026",
+    ],
+    tags: ["vélo", "cycliste", "pistes cyclables", "mobilité douce", "Strasbourg", "Bordeaux", "Nantes", "La Rochelle", "qualité de vie"],
+  },
+  {
+    slug: "meilleures-villes-primo-accedants-france-2026",
+    title: "Premier achat immobilier : les meilleures villes françaises en 2026",
+    metaTitle: "Premier achat immobilier France 2026 — Villes accessibles pour primo-accédants",
+    metaDesc:
+      "PTZ, prix du m², loyer résiduel : notre guide des villes françaises où un primo-accédant avec un revenu médian peut encore acheter en 2026 sans sacrifier la qualité de vie.",
+    category: "budget",
+    emoji: "🔑",
+    readMinutes: 9,
+    publishedAt: "2026-05-11",
+    updatedAt: "2026-05-11",
+    intro:
+      "Acheter son premier logement avec un salaire médian (2 200 € nets) et un apport de 15 000 à 30 000 € est devenu une épreuve dans la plupart des grandes villes françaises. Ce guide ne liste pas des villes au hasard — il utilise un critère simple : dans quelle ville un ménage gagnant 3 500 € à deux (deux revenus médians) peut-il acheter un T3 de 65 m² avec un taux d'effort inférieur à 33 % de ses revenus, sans apport supérieur à 25 000 € ? La liste est plus courte qu'on ne le croit.",
+    sections: [
+      {
+        heading: "La méthode de calcul",
+        body: "Pour un ménage à 3 500 € nets, la capacité d'emprunt maximale à 33 % de taux d'effort (mensualité ≤ 1 155 €) est d'environ 240 000 € sur 25 ans à 3,8 % (taux moyen 2026). Avec 25 000 € d'apport, le budget d'achat maximal (frais de notaire inclus) est d'environ 260 000 €. Le prix cible pour un T3 de 65 m² ne doit donc pas dépasser 4 000 €/m² — en réalité plutôt 3 500 €/m² pour avoir une marge sur les charges de copropriété et les travaux éventuels. C'est le filtre de base de ce guide.",
+      },
+      {
+        heading: "Angers : l'équilibre parfait du primo-accédant",
+        body: "Score MeilleurVille : 7.4/10. Angers est la ville de plus de 150 000 habitants la plus pertinente pour ce profil en 2026. Prix ≈ 3 200 €/m² au centre, loyer médian T3 ≈ 850 €. Pour notre ménage, un T3 à Angers coûte environ 210 000 € frais inclus — bien dans l'enveloppe. La qualité de vie est solide : Loire à Vélo, CHU, universités, TGV Paris 1h35. Le PTZ est éligible dans la zone B2 (Angers) depuis la réforme 2024 — à vérifier selon l'ancienneté du bien.",
+      },
+      {
+        heading: "Le Mans : la valeur sûre du Grand Ouest",
+        body: "Le Mans est à 55 minutes de TGV de Paris, dispose d'un bassin d'emploi industriel solide (Toyota, MFPM, agroalimentaire) et d'un prix ≈ 1 900 €/m² au centre. Un T3 de 65 m² s'achète autour de 130 000 € — presque 2 fois moins que la limite haute de notre calcul. Cela laisse une marge confortable pour des travaux ou l'ameublement. La qualité de vie est honnête (24h du Mans, Abbaye de l'Épau, accès forêts) sans être exceptionnelle. Idéal pour les primo-accédants qui optimisent le ratio mensualité/patrimoine.",
+      },
+      {
+        heading: "Clermont-Ferrand : la surprise du Massif Central",
+        body: "Clermont est souvent ignorée dans les comparatifs parisiens, mais pour un primo-accédant, son profil est remarquable : ≈ 2 800 €/m², CHU de niveau national, ski à 45 minutes, fromages AOP au marché, et un bassin d'emploi Michelin-IBM-CHU qui résiste aux cycles économiques. Notre ménage peut s'offrir un T3 pour ≈ 185 000 € frais inclus. Éligible PTZ zone B2. Bémol habituel : pas de TGV direct vers Paris.",
+      },
+      {
+        heading: "Caen, Rouen, Amiens : le trio nordique accessible",
+        body: "Trois villes normandes et picardines méritent l'attention pour le primo-accédant sérieux. Caen : ≈ 2 600 €/m², TGV Paris 2h05, mer à 30 min, université et CHU. Rouen : ≈ 2 800 €/m², TER Paris 1h20, patrimoine architectural exceptionnel. Amiens : ≈ 2 100 €/m², TGV Paris 1h10, hortillonnages classés. Dans les trois cas, notre ménage reste bien sous les 200 000 € pour un T3 de qualité. Ces villes sont éligibles au PTZ zone B2 ou B1 selon les secteurs.",
+      },
+      {
+        heading: "Ce que le PTZ change en 2026",
+        body: "Le Prêt à Taux Zéro rénové (loi de finances 2024-2025) s'applique désormais à l'ensemble du territoire pour le logement neuf, et à certaines zones pour l'ancien avec travaux. Pour notre ménage (3 500 € nets, premier achat), le PTZ peut représenter 30 à 40 % du montant emprunté dans les zones B1/B2, ce qui réduit la mensualité effective de 200 à 350 €/mois. En pratique, cela déplace le curseur : des villes comme Rennes (≈ 3 700 €/m²) peuvent redevenir accessibles avec PTZ, là où sans PTZ le taux d'effort dépasse 33 %. À simuler obligatoirement avant de valider le choix de la ville.",
+      },
+      {
+        heading: "Les erreurs classiques du primo-accédant en région",
+        body: "Trois pièges récurrents. (1) Acheter trop loin pour économiser : une maison à 180 000 € à 45 km de la ville-emploi paraît une affaire — jusqu'à ce qu'on calcule 2 voitures, essence, péages, et 2h de transport par jour. Le coût total peut dépasser un appartement en ville. (2) Acheter dans une ville moribonde pour faire du patrimoine : certaines villes de la liste ont des prix bas parce que la demande est structurellement faible. Une maison à 90 000 € dans une ville en déclin démographique n'est pas un investissement — c'est une charge. (3) Sous-estimer les charges de copropriété : une résidence mal entretenue peut ajouter 200-300 €/mois de charges aux mensualités — ce qui retourne le calcul du taux d'effort.",
+      },
+    ],
+    relatedCities: ["angers", "le-mans", "clermont-ferrand", "caen", "rouen", "amiens"],
+    relatedGuides: [
+      "meilleures-villes-achat-immobilier-moins-150000-euros-2025",
+      "meilleures-villes-maison-jardin-moins-200000-euros-2025",
+      "budget-vivre-en-france-comparatif",
+    ],
+    tags: ["primo-accédant", "premier achat", "immobilier", "PTZ", "budget", "Angers", "Le Mans", "Caen", "Clermont-Ferrand", "s'installer"],
+  },
+  {
+    slug: "teletravailler-depuis-grand-est-guide-2026",
+    title: "Télétravailler depuis le Grand Est en 2026 : Reims, Troyes, Champagne, Lorraine",
+    metaTitle: "Télétravailler depuis le Grand Est 2026 — Reims, Troyes, Metz, Nancy",
+    metaDesc:
+      "À 45 minutes de TGV de Paris, Reims et Troyes sont parmi les villes les moins connues et les plus rentables pour les télétravailleurs. Notre guide complet du Grand Est 2026.",
+    category: "teletravail",
+    emoji: "🍾",
+    readMinutes: 8,
+    publishedAt: "2026-05-11",
+    updatedAt: "2026-05-11",
+    intro:
+      "Le Grand Est est la région de France la plus mal vendue aux télétravailleurs — et c'est une erreur. Reims est à 45 minutes de Paris en TGV. Troyes est à 1h30. Metz est à 1h25. Nancy à 1h30. Ces villes offrent des prix immobiliers entre 1 800 et 2 800 €/m² — 60 à 75 % en dessous de Paris — dans des cadres historiques et gastronomiques de première qualité. Ce guide comble un angle mort.",
+    sections: [
+      {
+        heading: "Reims : la connexion TGV la plus spectaculaire de France",
+        body: "Score MeilleurVille : 6.7/10. Reims est à 45 minutes de TGV de Paris-Est. C'est la connexion TGV la plus courte de toutes les villes de province de plus de 100 000 habitants. Prix immobilier ≈ 2 700 €/m² au centre — contre 10 000+ €/m² à Paris pour des quartiers comparables architecturalement (Reims a sa propre tradition haussmannienne et art déco post-reconstruction). Le loyer médian T3 est de 800 €/mois. Pour un télétravailleur qui monte à Paris une ou deux fois par semaine, le calcul est brutal : économie de logement 10 000+ €/an, surcoût transport (abonnement Reims-Paris ≈ 300 €/mois) → gain net ≈ 6 000–8 000 €/an.",
+      },
+      {
+        heading: "Troyes : le bonus champêtre à 1h30 de Paris",
+        body: "Troyes est architecturalement l'une des plus belles villes de France — son centre médiéval (colombages, ruelles, la forme de bouchon de champagne de la vieille ville) est exceptionnel. Prix ≈ 2 000 €/m² (encore inférieur à Reims). TGV Paris-Est en 1h30. Le lac de la Forêt d'Orient (3 000 ha, voile, kayak, plage) est à 15 minutes. Les magasins d'usine (McArthurGlen, Marques Avenue) en font paradoxalement un lieu de shopping recherché — ce qui entretient une économie locale. Pour un couple télétravailleur cherchant maison et nature, Troyes est peut-être la meilleure offre à moins de 2h de Paris.",
+      },
+      {
+        heading: "Metz et Nancy : la Lorraine mise à jour",
+        body: "Metz et Nancy ont été traités dans le guide Lorraine 2026, mais leur pertinence pour le télétravail mérite d'être rappelée. Metz est à 1h25 de TGV de Paris-Est, prix ≈ 2 400 €/m², Centre Pompidou-Metz, île Chambière réhabilitée. Nancy est à 1h30, prix ≈ 2 200 €/m², Place Stanislas classée UNESCO, université active. Les deux villes offrent en 2026 une fibre quasi totale dans les zones urbaines et des coworkings en développement (La Fabrique Lorraine à Metz, La Chaufferie à Nancy).",
+      },
+      {
+        heading: "La Champagne viticole comme argument de vie",
+        body: "Vivre dans le Grand Est, c'est aussi avoir accès à la Route de la Champagne (Épernay, Hautvillers, Ay) en 30 à 45 minutes depuis Reims. Les dégustations directes au domaine, les vendanges en septembre, le vignoble UNESCO inscrit depuis 2015 — c'est un art de vivre particulier qui n'a pas d'équivalent en France à ce prix. Pour les amateurs de vins, c'est un argument concret : acheter du champagne de producteur récoltant directement à la propriété à 12–20 €/bouteille, c'est une réalité du quotidien pour les Rémois.",
+      },
+      {
+        heading: "Fibre et coworkings dans le Grand Est 2026",
+        body: "La couverture fibre FTTH dans les zones urbaines du Grand Est dépasse 91 % en 2026, portée par des investissements massifs dans les métropoles de Strasbourg, Metz et Nancy. Reims et Troyes affichent >88 %. Les zones rurales de l'Aube et de la Meuse restent plus hétérogènes. Les coworkings se sont développés rapidement : Reims compte 7 espaces (Coworking Reims, La Nacelle, Workstay), Troyes 4, Metz 6. Les abonnements démarrent à 100 €/mois pour un accès flexible — 30 à 40 % moins chers qu'à Paris pour une qualité souvent supérieure.",
+      },
+      {
+        heading: "Le vrai avantage concurrentiel du Grand Est",
+        body: "Au-delà des prix, le Grand Est a un atout que peu d'analyses mentionnent : la frontalité avec l'Allemagne, la Belgique, le Luxembourg et la Suisse crée des opportunités de mobilité professionnelle uniques. Un télétravailleur basé à Metz peut rejoindre Luxembourg-Ville en 40 minutes (salaires 30 % supérieurs), Saarbrück en 45 minutes, Trèves en 1h. Un résident de Strasbourg peut travailler à Kehl ou Fribourg-en-Brisgau. Pour les profils bilingues ou multilingues, le Grand Est est la seule région de France qui donne accès à quatre marchés du travail différents depuis un seul domicile.",
+      },
+    ],
+    relatedCities: ["reims", "troyes", "metz", "nancy", "epernay", "chalons-en-champagne"],
+    relatedGuides: [
+      "vivre-en-lorraine-metz-nancy-thionville-2026",
+      "vivre-en-champagne-guide-2025",
+      "vivre-en-grand-est-alsace-moselle-guide-2025",
+    ],
+    tags: ["Grand Est", "Reims", "Troyes", "Champagne", "télétravail", "remote work", "TGV Paris", "fibre", "coworking", "frontalier"],
+  },
+  {
+    slug: "meilleures-villes-surf-sports-nautiques-france-2026",
+    title: "Les meilleures villes françaises pour le surf et les sports nautiques en 2026",
+    metaTitle: "Meilleures villes surf et sports nautiques France 2026 — Biarritz, Hossegor, Brest",
+    metaDesc:
+      "Surf, voile, kayak, kitesurf : notre guide des villes françaises où pratiquer des sports nautiques au quotidien, avec le vrai coût de la vie et les spots par niveau.",
+    category: "lifestyle",
+    emoji: "🏄",
+    readMinutes: 8,
+    publishedAt: "2026-05-11",
+    updatedAt: "2026-05-11",
+    intro:
+      "S'installer dans une ville pour surfer le matin avant le travail ou sortir le kayak le week-end n'est plus un fantasme de retraite — c'est un choix de vie que le télétravail a rendu accessible à 35 ans. Mais toutes les villes côtières ne se valent pas : la qualité des vagues, la densité de spots praticables hors saison, le tissu de clubs et de loueurs, et le coût de la vie adjacent sont des critères qui diffèrent radicalement d'une ville à l'autre. Ce guide fait le tri.",
+    sections: [
+      {
+        heading: "Hossegor-Capbreton : la mecque du surf européen",
+        body: "Hossegor est l'épicentre du surf français — et européen. La qualité des vagues du Capbreton Canyon produit des houles régulières tout au long de l'année, avec des pics automne-hiver qui attirent le Quicksilver Pro depuis des décennies. La communauté surf est intense, les shops de matériel et les écoles de surf sont nombreux. Le revers est brutal : Hossegor est une petite station balnéaire (4 000 habitants à l'année) avec des prix immobiliers qui ont explosé (≈ 6 000–8 000 €/m²). Capbreton voisine est plus accessible (≈ 4 500 €/m²) et dispose d'un port de plaisance actif. Pour un surfeur sérieux qui accepte ces prix, c'est sans équivalent en France.",
+      },
+      {
+        heading: "Biarritz : le cadre, la communauté, la facture",
+        body: "Biarritz est le berceau du surf européen (première démonstration en 1957) et dispose d'une culture surf profondément enracinée. La Côte des Basques, la Grande Plage, Ilbarritz — les spots se succèdent sur 5 km. La communauté est internationale et active. Les prix immobiliers sont parmi les plus élevés du littoral français (≈ 7 000–10 000 €/m² face mer). Pour un surfeur débutant à intermédiaire cherchant une base de vie avec une vraie scène, Biarritz est parfaite. Pour un surfeur avancé cherchant des vagues puissantes et peu fréquentées, les spots landais (Hossegor, La Gravière) sont préférables.",
+      },
+      {
+        heading: "Lacanau, Montalivet, Soulac : les Landes abordables",
+        body: "Pour les surfeurs qui veulent les vagues atlantiques sans les prix basques, le littoral girondin offre un excellent compromis. Lacanau est la station surf la plus active de Gironde, à 45 km de Bordeaux. Prix ≈ 3 500 €/m², communauté surf active, école de surf reconnue (ESL). Montalivet et Soulac sont plus calmes et moins chers (≈ 2 500 €/m²) mais avec des vagues de qualité et une vie à l'année plus restreinte. La connexion Bordeaux (emploi, culture, TGV) à 45 min fait de cette côte une option crédible pour le télétravailleur surfeur.",
+      },
+      {
+        heading: "Brest et la Bretagne : voile, kayak, vent",
+        body: "Le littoral breton est l'empire de la voile et du kayak de mer. Brest dispose d'une des plus grandes rades de France, d'une école de voile active (CVB, 2 000 membres) et d'un accès direct au Parc Naturel Marin d'Iroise. Lorient est la ville de la Transat et du Vendée Globe (en termes d'écosystème nautico-professionnel). Les prix immobiliers à Brest (≈ 2 100 €/m²) permettent de combiner appartement face rade et budget matériel. Concarneau, Douarnenez et Camaret-sur-Mer sont les niches des kayakistes et voileux qui veulent un cadre hors du temps.",
+      },
+      {
+        heading: "La Rochelle : kitesurf et voile de compétition",
+        body: "La Rochelle est la capitale française du kitesurf et de la voile légère. L'estuaire de la Charente et les îles (Ré, Oléron) génèrent des conditions de vent régulières et variées. Le Grand Pavois (salon nautique international) se tient à La Rochelle chaque automne — ce qui dit quelque chose de l'écosystème. Le Club Nautique de La Rochelle est l'un des plus grands de France. Prix ≈ 3 800 €/m² — plus abordable que Biarritz, avec une qualité de vie familiale supérieure à Hossegor.",
+      },
+      {
+        heading: "Ce que personne ne dit : la pratique hivernale",
+        body: "Le test d'un vrai spot de vie nautique, c'est l'hiver. En été, tout le monde est dehors. En octobre-mars, qui surfe encore ? À Biarritz et Hossegor, la communauté est dense et les spots fonctionnent même sous la pluie (vagues meilleures en automne-hiver). À Lacanau, la station se vide et la vie sociale s'effondre. En Bretagne, les voileux et kayakistes hivernaux sont nombreux — la culture maritime est moins saisonnière. Ce critère est souvent négligé par ceux qui visitent un spot en juillet avant d'acheter — et regrettent en décembre.",
+      },
+    ],
+    relatedCities: ["biarritz", "hossegor", "capbreton", "la-rochelle", "brest", "lorient"],
+    relatedGuides: [
+      "vivre-en-pays-basque-guide-2026",
+      "teletravailler-depuis-bretagne-guide-2026",
+      "meilleures-villes-cyclistes-france-2026",
+    ],
+    tags: ["surf", "voile", "kayak", "kitesurf", "sports nautiques", "Biarritz", "Hossegor", "Brest", "La Rochelle", "lifestyle", "mer"],
+  },
 ];
 
 export const GUIDE_CATEGORIES = [
