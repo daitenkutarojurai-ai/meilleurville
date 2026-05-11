@@ -58,6 +58,7 @@ export default async function RankingPage({ params }: Props) {
     sante: ["lifestyle", "famille"],
     ecologie: ["lifestyle", "region"],
     climat: ["lifestyle", "region"],
+    logement: ["budget", "lifestyle"],
   };
   const allowedCategories = guideCategoryMap[slug] ?? ["lifestyle"];
   const relatedGuides = GUIDES.filter((g) => allowedCategories.includes(g.category)).slice(0, 3);
