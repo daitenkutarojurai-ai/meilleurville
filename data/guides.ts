@@ -6964,6 +6964,386 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["Bretagne", "télétravail", "remote work", "Rennes", "Brest", "Lorient", "Vannes", "fibre", "coworking", "digital nomad"],
   },
+  {
+    slug: "quitter-strasbourg-guide-2026",
+    title: "Quitter Strasbourg en 2026 : où aller quand le Rhin coûte trop cher",
+    metaTitle: "Quitter Strasbourg 2026 — Mulhouse, Colmar, Metz, Nancy : le guide honnête",
+    metaDesc:
+      "Strasbourg est devenue l'une des villes les plus chères du Grand Est. Qui quitte, où, et pourquoi. Les vraies alternatives alsaciennes et lorraines, sans langue de bois.",
+    category: "comparaison",
+    emoji: "🦅",
+    readMinutes: 8,
+    publishedAt: "2026-05-11",
+    updatedAt: "2026-05-11",
+    intro:
+      "Strasbourg est une réussite urbaine indéniable : capitale européenne, université de rang mondial, vélo partout, gastronomie alsacienne et Noël le plus couru de France. Mais la réussite a un prix. Le m² au centre dépasse 4 200 €, la pression touristique a fait flamber les loyers, et de plus en plus de Strasbourgeois — étudiants devenus salariés, familles cherchant une maison, retraités actifs — regardent ce que le reste du Grand Est a à offrir.",
+    sections: [
+      {
+        heading: "Les raisons qui font partir",
+        body: "Trois moteurs se dégagent clairement. (1) Le logement : un T3 dans la Krutenau ou le quartier de la Gare se loue 1 200–1 400 €/mois. La tension locative est exacerbée par les 55 000 étudiants et les fonctionnaires des institutions européennes qui tirent les prix vers le haut. (2) La frontalité avec l'Allemagne et la Suisse, paradoxalement : beaucoup de salariés frontaliers (Kehl, Offenburg, Fribourg-en-Brisgau) résident à Strasbourg par confort administratif mais paient le prix d'une métropole pour des commodités qu'ils n'utilisent pas. (3) La saturation estivale et l'avant-décembre : la vieille ville est pratiquement ingérable en novembre-décembre avec les 3 millions de visiteurs du marché de Noël.",
+      },
+      {
+        heading: "Colmar : la carte alsacienne premium sans la pression",
+        body: "Score MeilleurVille : 7.0/10. Colmar est la ville de ceux qui veulent rester en Alsace sans payer le prix strasbourgeois. La petite Venise, les maisons à colombages, la Route des Vins à 10 minutes — le cadre est réel. Prix ≈ 2 800 €/m², soit 33 % de moins qu'à Strasbourg. TGV Paris en 2h10, TGV Strasbourg en 25 minutes. Le marché de l'emploi local est limité (tourisme, agroalimentaire, PME) mais la connexion TGV rend le navettage hebdomadaire réaliste. Limite : Colmar est plus petite (72 000 habitants) et certains profils urbains ressentent le manque de densité culturelle.",
+      },
+      {
+        heading: "Mulhouse : le pari industriel à contre-courant",
+        body: "Mulhouse souffre d'une image difficile — et ses indicateurs sociaux restent inférieurs à la moyenne alsacienne. Mais la ville présente un argument massue : ≈ 2 000 €/m² au centre (moitié de Strasbourg), une communauté créative en développement autour du Kunsthal et des friches industrielles reconverties, et une proximité unique avec Bâle (20 min), Fribourg (45 min) et Zurich (1h15). Pour un salarié frontalier suisse qui cherche à acheter une maison en France, Mulhouse est souvent la meilleure option financière de la région.",
+      },
+      {
+        heading: "Metz : la rivale lorraine sous-cotée",
+        body: "Metz est à 1h20 de TGV de Strasbourg et à 1h20 de Paris. Elle offre un centre historique remarquable (cathédrale gothique, île Chambière réhabilitée, Centre Pompidou-Metz), une université active et des prix ≈ 2 400 €/m² — 43 % sous Strasbourg. Le bassin d'emploi est plus diversifié qu'on ne le croit : armée, administrations, santé, industrie automobile (Hambach n'est qu'à 40 km). Pour les couples dont l'un travaille à Strasbourg et l'autre à Metz, le midpoint géographique est souvent une ville lorraine.",
+      },
+      {
+        heading: "Nancy : la ville art-nouveau pour les amateurs de culture",
+        body: "Nancy est la ville que les architectes et les amateurs d'art mentionnent quand on parle du Grand Est. La Place Stanislas (classée UNESCO) est l'une des plus belles places de France. L'université de Lorraine (60 000 étudiants) maintient une vie intellectuelle et associative dense. Prix ≈ 2 200 €/m², loyer médian T2 ≈ 620 €. TGV Paris en 1h30. Pour un couple télétravailleur attaché à la qualité architecturale et à la vie culturelle, Nancy est probablement la meilleure offre du Grand Est.",
+      },
+      {
+        heading: "Le calcul frontalier : Strasbourg reste-t-elle indispensable ?",
+        body: "La question qui revient : est-il vraiment obligatoire de vivre à Strasbourg pour travailler en Allemagne ou en Suisse ? La réponse est non depuis le développement du télétravail. Un frontalier qui travaille à Kehl ou Offenburg peut très bien résider à Colmar (35 min), Sélestat (40 min) ou même Mulhouse (1h) et économiser 400–600 €/mois sur son loyer. Pour les frontaliers suisses de la région bâloise, Mulhouse et Saint-Louis (ville-frontière à ≈ 1 800 €/m²) offrent des économies encore plus significatives. À condition de vérifier les règles de détachement selon la convention franco-suisse ou franco-allemande.",
+      },
+    ],
+    relatedCities: ["colmar", "mulhouse", "metz", "nancy", "strasbourg", "sélestat"],
+    relatedGuides: [
+      "vivre-en-alsace-guide-2025",
+      "vivre-en-lorraine-metz-nancy-thionville-2026",
+      "vivre-en-grand-est-alsace-moselle-guide-2025",
+    ],
+    tags: ["Strasbourg", "quitter Strasbourg", "Colmar", "Mulhouse", "Metz", "Nancy", "Grand Est", "Alsace", "frontalier", "déménagement"],
+  },
+  {
+    slug: "quitter-nice-guide-2026",
+    title: "Quitter Nice en 2026 : qui part, où, et ce qu'on gagne vraiment",
+    metaTitle: "Quitter Nice 2026 — Toulon, Antibes, Montpellier, Aix : le guide honnête",
+    metaDesc:
+      "Nice est magnifique et hors de prix. Pourquoi de plus en plus de Niçois regardent vers Toulon, l'arrière-pays ou Montpellier — et ce que le calcul donne vraiment.",
+    category: "comparaison",
+    emoji: "🌊",
+    readMinutes: 8,
+    publishedAt: "2026-05-11",
+    updatedAt: "2026-05-11",
+    intro:
+      "Nice est l'une des villes françaises les plus chères à la location et à l'achat, portée par une demande internationale (retraités anglais, nordiques, investisseurs) qui n'a aucune raison de s'arrêter. Pour les actifs locaux — enseignants, soignants, employés de commerce — le rapport qualité-de-vie-prix est devenu insoutenable. Ce guide examine froidement les alternatives, proches et moins proches, et ce qu'on y gagne concrètement.",
+    sections: [
+      {
+        heading: "Le diagnostic : pourquoi Nice est devenue inabordable pour ses propres habitants",
+        body: "Nice a un problème structurel : sa géographie l'empêche de s'étendre. Coincée entre les Alpes-Maritimes et la Méditerranée, la ville n'a quasiment plus de foncier constructible au niveau de la mer. Résultat : le m² au Vieux-Nice atteint 6 500–8 000 €, le Carré d'Or 7 000–9 000 €, et même les quartiers populaires comme l'Ariane ou les Moulins dépassent 3 500 €. En location, un T2 fonctionnel au-delà de la Promenade se loue difficilement sous 900 €. Le salaire médian niçois étant d'environ 2 200 € nets (service et tourisme dominent), l'équation ne tient plus pour une famille.",
+      },
+      {
+        heading: "Toulon : la sortie maritime logique",
+        body: "Score MeilleurVille nature : 8.8/10. Toulon est à 1h20 de Nice par le TER côtier (ou 50 min par autoroute) et propose un cadre maritime comparable — rade exceptionnelle, Méditerranée, soleil — pour un prix immobilier divisé par deux (≈ 3 000 €/m²). La ville a longtemps peiné sur son image mais la réhabilitation du centre-ville, le tramway et l'afflux de télétravailleurs changent la donne. Bémol : le tissu culturel et économique reste inférieur à Nice, et la dépendance à la Marine Nationale crée une économie locale peu diversifiée.",
+      },
+      {
+        heading: "Antibes, Cagnes-sur-Mer : rester sur la Côte mais décaler",
+        body: "Pour ceux qui veulent rester dans les Alpes-Maritimes sans payer le prix niçois, Antibes (≈ 5 000 €/m² mais plus accessible que Nice face mer), Cagnes-sur-Mer (≈ 4 200 €/m²) et Vence (≈ 3 500 €/m², arrière-pays proche) offrent des compromis. On reste dans la même zone d'emploi, le même bassin scolaire, et on économise 20 à 30 % sur le logement. La difficulté : la route des bords de mer entre Antibes et Nice reste saturée dès 7h30 (A8 ou bord de mer).",
+      },
+      {
+        heading: "L'arrière-pays niçois : le choix des connaisseurs",
+        body: "Sospel, Saint-Martin-Vésubie, Vence, Grasse, Saint-Paul-de-Vence — l'arrière-pays des Alpes-Maritimes est accessible en 30 à 60 minutes depuis Nice et propose un cadre naturel exceptionnel (Mercantour à portée de randonnée) avec des prix divisés par deux à quatre selon l'altitude et l'éloignement. Grasse (parfum, industrie) : ≈ 2 800 €/m². Vence (plateau de montagne, village perché) : ≈ 3 500 €/m². Idéal pour les télétravailleurs et les artisans — moins adapté aux salariés devant être présents quotidiennement à Nice.",
+      },
+      {
+        heading: "Montpellier : la sortie méditerranéenne qui change vraiment d'air",
+        body: "Pour ceux qui acceptent de rompre avec les Alpes-Maritimes, Montpellier offre mer + soleil + TGV Paris (3h15) pour ≈ 4 500 €/m² — soit 30 % de moins que Nice pour un cadre méditerranéen similaire. La ville est plus jeune (âge médian 33 ans contre 42 pour Nice), plus dynamique économiquement pour les profils tech-santé-recherche, et ses plages (Carnon, Palavas) sont différentes des plages niçoises — moins glamour, plus familiales. À envisager pour ceux dont l'emploi est transférable ou en remote.",
+      },
+      {
+        heading: "Le calcul honnête",
+        body: "Ménage à 3 800 € nets, T3 en location à Nice quartier Musiciens (1 450 €) → même surface à Toulon (800 €), Antibes (1 100 €), arrière-pays Vence (800 €), Montpellier (1 000 €). Différentiel Nice–Toulon sur 10 ans en location : 78 000 €. À l'achat (budget Nice 450 000 € pour un T3 standard) vs Toulon (même surface à 260 000 €) : économie de 190 000 € sur le capital, soit des mensualités libérées d'environ 700 €/mois. Ce différentiel couvre facilement 2 à 3 allers-retours Nice–Toulon par mois si l'emploi nécessite des déplacements.",
+      },
+    ],
+    relatedCities: ["toulon", "antibes", "cannes", "grasse", "montpellier", "aix-en-provence"],
+    relatedGuides: [
+      "vivre-en-provence-paca-guide-2025",
+      "nice-vs-montpellier-comparatif-2026",
+      "quitter-marseille-guide-2026",
+    ],
+    tags: ["Nice", "quitter Nice", "Toulon", "Antibes", "Côte d'Azur", "PACA", "Alpes-Maritimes", "déménagement", "immobilier"],
+  },
+  {
+    slug: "vivre-en-pays-basque-guide-2026",
+    title: "Vivre en Pays Basque en 2026 : Bayonne, Biarritz, Saint-Jean-de-Luz — le guide honnête",
+    metaTitle: "Vivre au Pays Basque 2026 — Guide complet Bayonne, Biarritz, Anglet",
+    metaDesc:
+      "Le Pays Basque est la région de France dont les prix ont le plus augmenté en 10 ans. Notre guide honnête : qui peut encore s'y installer, et à quel prix réel.",
+    category: "region",
+    emoji: "🏄",
+    readMinutes: 10,
+    publishedAt: "2026-05-11",
+    updatedAt: "2026-05-11",
+    intro:
+      "Le Pays Basque français est devenu l'une des régions les plus convoitées et les plus chères de France. La combinaison atlantique + montagne + culture basque + gastronomie + surf a attiré des vagues successives de Parisiens, de télétravailleurs et d'investisseurs étrangers qui ont littéralement transformé le marché immobilier. En 10 ans, les prix ont augmenté de 80 à 120 % selon les secteurs. Ce guide regarde la réalité en face : qui peut encore y vivre, dans quelles conditions, et quelles sont les alternatives pour ceux que les prix excluent.",
+    sections: [
+      {
+        heading: "La réalité du marché immobilier basque en 2026",
+        body: "Biarritz centre : 7 000–10 000 €/m². Saint-Jean-de-Luz : 6 500–9 000 €/m². Anglet (entre Bayonne et Biarritz) : 5 500–7 000 €/m². Bayonne (moins touristique, plus urbain) : 4 500–5 500 €/m². Ces prix ont exclu de facto les primo-accédants locaux avec un revenu médian. Conséquence : les Basques de souche qui travaillent dans l'hôtellerie, la restauration, le commerce local ne peuvent plus se loger à moins de 45 minutes du lieu de travail. C'est une tension sociale réelle qui fait l'objet de politiques publiques (contrôle des meublés touristiques, encadrement des loyers en projet) mais dont les effets restent limités à ce jour.",
+      },
+      {
+        heading: "Bayonne : la porte d'entrée la plus accessible",
+        body: "Score MeilleurVille : 7.6/10. Bayonne est la ville du Pays Basque la plus polyvalente. Préfecture des Pyrénées-Atlantiques, elle dispose d'un CHU, de commerces de proximité, d'un réseau de transport urbain correct (bus + train côtier) et d'une vie de quartier authentique autour du Grand et du Petit Bayonne. Le m² y est encore 25-30 % inférieur à Biarritz. Un T3 dans le quartier Saint-Esprit ou Petit-Bayonne se négocie entre 350 000 et 420 000 €. Le marché de l'emploi tourne autour du commerce, de l'artisanat, de la santé et de quelques industries (Dassault, Safran ont des sites dans l'agglo).",
+      },
+      {
+        heading: "Biarritz : vivre le mythe à quel prix ?",
+        body: "Biarritz est la ville du rêve basque — et c'est précisément le problème. Le mythe fait les prix. En dehors du tourisme de luxe, de la retraite aisée et du télétravail premium, il est très difficile d'y habiter avec un revenu local ordinaire. Le bénéfice réel : les plages de surf de renommée mondiale à 5 minutes à pied, une architecture Belle Époque unique, le marché des Halles parmi les meilleurs de France pour les produits basques. Le réalisme : une location T2 dépasse 1 200 €/mois hors charges et un T3 à l'achat s'inscrit rarement sous 550 000 €.",
+      },
+      {
+        heading: "Le Pays Basque intérieur : l'alternative méconnue",
+        body: "Cambo-les-Bains, Hasparren, Mauléon-Licharre, Tardets — le Pays Basque intérieur (Soule, Basse-Navarre) est une autre planète tarifaire. Cambo-les-Bains : ≈ 3 500 €/m², 30 km de Bayonne. Hasparren : ≈ 2 800 €/m², marché agricole, authenticité basque non touristifiée. Ces communes permettent de vivre l'identité basque (langue, fêtes, fronton, gastronomie) sans les prix du littoral. Le revers : l'isolement relatif et la dépendance à la voiture — les transports en commun s'arrêtent vite dès qu'on quitte la côte.",
+      },
+      {
+        heading: "Saint-Jean-de-Luz, Hendaye : la frontière espagnole comme levier",
+        body: "Hendaye est la dernière commune française avant l'Espagne (Irun est de l'autre côté du pont). Prix ≈ 4 500 €/m², soit moitié moins qu'à Saint-Jean-de-Luz. L'accès à Donostia-San Sebastián (20 minutes) et à la côte basque espagnole est total. Une partie des acquéreurs d'Hendaye travaillent ou consomment en Espagne, où les prix de l'alimentation et de la restauration sont 20 à 30 % inférieurs. C'est un style de vie frontalier particulier, mais de plus en plus recherché.",
+      },
+      {
+        heading: "S'installer au Pays Basque : les règles non écrites",
+        body: "Trois choses que les guides touristiques ne disent pas. (1) Le marché locatif est extrêmement tendu à l'année — les propriétaires préfèrent souvent la location saisonnière, plus lucrative. Arriver en juin pour chercher un logement à l'année pour septembre est une stratégie perdante. Prévoir de commencer la recherche en janvier. (2) La communauté est soudée et les réseaux informels comptent. Connaître des gens locaux accélère tout. (3) L'identité culturelle basque (euskara, traditions) est présente et valorisée — ne pas l'ignorer est un signe de respect qui ouvre des portes.",
+      },
+    ],
+    relatedCities: ["bayonne", "biarritz", "anglet", "saint-jean-de-luz", "hendaye", "pau"],
+    relatedGuides: [
+      "vivre-dans-les-pyrenees-guide-2025",
+      "vivre-en-nouvelle-aquitaine-guide-2025",
+      "quitter-bordeaux-guide-2026",
+    ],
+    tags: ["Pays Basque", "Bayonne", "Biarritz", "Anglet", "Saint-Jean-de-Luz", "surf", "Pyrénées-Atlantiques", "s'installer", "immobilier"],
+  },
+  {
+    slug: "bordeaux-vs-rennes-comparatif-2026",
+    title: "Bordeaux vs Rennes en 2026 : le grand duel des métropoles atlantiques",
+    metaTitle: "Bordeaux vs Rennes 2026 — Coût, emploi, qualité de vie : comparatif complet",
+    metaDesc:
+      "Les deux alternatives favorites des Parisiens qui partent vers l'Atlantique. Bordeaux vs Rennes : laquelle choisir selon votre profil, votre budget et votre projet de vie ?",
+    category: "comparaison",
+    emoji: "⚓",
+    readMinutes: 9,
+    publishedAt: "2026-05-11",
+    updatedAt: "2026-05-11",
+    intro:
+      "Quand un Parisien dit «je veux partir vers l'ouest», la question finit presque toujours par se réduire à Bordeaux ou Rennes. Les deux métropoles atlantiques cumulent les atouts — TGV Paris en moins de 2h, qualité de vie reconnue, écosystème tech et universitaire — mais elles sont devenues très différentes en termes de coût, de culture et de profil démographique. Ce comparatif est fait pour vous aider à choisir, pas pour vous vendre du rêve.",
+    sections: [
+      {
+        heading: "Immobilier : l'écart qui change tout",
+        body: "C'est le premier critère et il est décisif. Bordeaux centre (Chartrons, Saint-Pierre, Victor-Hugo) : 5 000–6 500 €/m² à l'achat. Rennes centre (Thabor, République, Villejean-Université) : 3 500–4 200 €/m². L'écart moyen est de 35 à 40 %. En location : un T3 à Bordeaux centre coûte 1 300–1 600 €/mois. Le même à Rennes : 1 000–1 200 €. Sur 10 ans de location, la différence peut atteindre 50 000 €. Sur un achat, l'écart de capital investi pour un T3 standard est de 80 000 à 120 000 €. Ce n'est pas une nuance — c'est une décision structurante.",
+      },
+      {
+        heading: "Emploi et économie : deux moteurs différents",
+        body: "Bordeaux est une métropole de services, de tourisme, d'aéronautique (Dassault, Thales, Airbus sur l'agglo de Mérignac) et de viticulture. Elle attire des profils commerce, finance, luxe, tourisme et industrie aérospatiale. Rennes est plus tech et santé : Thales, Orange, Atos, STMicroelectronics ont tous une présence significative, et French Tech Rennes est l'une des plus actives de province. Pour les profils software, data et recherche, Rennes est objectivement plus dense en offres locales. Pour les profils commerce, événementiel et gastronomie, Bordeaux surpasse.",
+      },
+      {
+        heading: "Climat : le Sud-Ouest contre l'Armorique",
+        body: "Bordeaux : 2 050 heures d'ensoleillement par an, étés chauds (canicules fréquentes depuis 2019), hivers doux. Rennes : 1 700 heures d'ensoleillement, pluies plus régulières (mais pas torrentielles), étés agréables et jamais caniculaires, hivers gris mais modérés. Si le soleil est une priorité absolue, Bordeaux l'emporte clairement. Si vous souffrez de la chaleur estivale ou si vous avez des enfants qui dorment mal l'été, Rennes est plus tempérée. La question mérite d'être posée honnêtement — beaucoup de télétravailleurs ont sous-estimé l'impact des 45 °C de 2022 sur leur confort de travail à domicile à Bordeaux.",
+      },
+      {
+        heading: "Culture, gastronomie et art de vivre",
+        body: "Bordeaux est une ville de plaisirs : vins de renommée mondiale (Médoc, Saint-Émilion à 40 km), gastronomie (les restaurants étoilés y sont plus nombreux que dans n'importe quelle autre ville de province), architecture classique, et une culture de la terrasse et du marché qui structure le quotidien. Rennes a une culture plus nordique, plus associative et plus festive (festival Tombées de la Nuit, Trans Musicales). Les deux villes ont une scène musicale vivante mais de nature très différente. En gastronomie brute, Bordeaux domine — c'est un avantage concret pour ceux qui valorisent la table.",
+      },
+      {
+        heading: "Connectivité et mobilité",
+        body: "Bordeaux : TGV Paris en 2h05 (Montparnasse), aéroport international (Dublin, Londres, Madrid directs), connexions vers l'Espagne. Rennes : TGV Paris en 1h25 (Montparnasse), aéroport plus modeste mais liaisons vers Londres, Amsterdam, Barcelone. Connexion Bordeaux–Rennes : 4h de TGV via Paris ou 3h30 en voiture. Les deux villes sont en pratique à distance similaire de Paris, mais Rennes est géographiquement plus proche de la capitale et le gain de temps sur le trajet est réel (40 minutes).",
+      },
+      {
+        heading: "Le verdict selon votre profil",
+        body: "Choisissez Bordeaux si : vous êtes dans l'aéronautique, le commerce, l'événementiel ou l'hôtellerie-restauration ; vous valorisez le soleil et la gastronomie ; vous avez un budget achat > 450 000 € pour un T3 ou vous louez et acceptez 1 400 €/mois. Choisissez Rennes si : vous êtes dans le tech, la santé ou la recherche ; vous cherchez à acheter un T3 sous 380 000 € ; vous avez des enfants et valorisez la fraîcheur climatique ; vous êtes sensible à la pluie mais pas à la grisaille. Les deux villes sont excellentes — mais pour des projets de vie et des budgets différents.",
+      },
+    ],
+    relatedCities: ["bordeaux", "rennes", "nantes", "la-rochelle", "brest"],
+    relatedGuides: [
+      "vivre-en-bretagne-guide-2025",
+      "vivre-en-nouvelle-aquitaine-guide-2025",
+      "quitter-rennes-guide-2026",
+    ],
+    tags: ["Bordeaux", "Rennes", "comparatif", "Atlantique", "qualité de vie", "immobilier", "emploi", "télétravail"],
+  },
+  {
+    slug: "meilleures-villes-artistes-creatifs-france-2026",
+    title: "Les meilleures villes françaises pour les artistes et créatifs en 2026",
+    metaTitle: "Meilleures villes artistes et créatifs France 2026 — Studios, galeries, coût de vie",
+    metaDesc:
+      "Ateliers abordables, scène culturelle vivante, communauté active : notre guide des villes françaises où un artiste ou créatif peut vraiment travailler et vivre sans se saigner.",
+    category: "lifestyle",
+    emoji: "🎨",
+    readMinutes: 9,
+    publishedAt: "2026-05-11",
+    updatedAt: "2026-05-11",
+    intro:
+      "La question que tout artiste finit par se poser : dans quelle ville est-ce que je peux louer un atelier de 40 m² sans sacrifier le reste de mon budget ? Cette question est de plus en plus difficile à résoudre à Paris, où les ateliers d'artistes sont rares et protégés, ou à Lyon, où la gentrification a fait flamber le moindre mètre carré de friche industrielle. Ce guide cherche les villes où le rapport loyer-d'atelier / densité-de-scène-artistique est encore favorable — pas celles qui se prétendent créatives à coups de communication municipale.",
+    sections: [
+      {
+        heading: "Ce qui fait vraiment une ville créative",
+        body: "La créativité urbaine ne se décrète pas. Elle nécessite quatre conditions que peu de villes réunissent simultanément. (1) Des espaces bon marché : friches industrielles, caves, entrepôts, rez-de-chaussée commerciaux vides. (2) Une communauté critique et active — galeristes, curators, collectionneurs, médias culturels. (3) Des financements accessibles : DRAC, fonds régionaux, bourses locales, résidences. (4) Une tolérance urbaine aux activités atypiques (bruit, flux, heures décalées). Les villes qui cochent toutes ces cases en 2026 ne sont pas les plus médiatiques.",
+      },
+      {
+        heading: "Marseille : l'énergie brute qui n'a pas encore été vendue",
+        body: "Score MeilleurVille culture : 8.2/10. Marseille reste la ville française où un artiste peut encore trouver un atelier de 60 m² pour 400 €/mois dans certains quartiers (La Plaine, Belsunce, Noailles). La DRAC PACA y est active, les résidences sont nombreuses (Friche la Belle de Mai, Villa Méditerranée, Triangle), et la communauté artistique est réelle — pas une construction marketing. Le revers honnête : la sécurité dans certains quartiers reste un sujet, et la qualité de vie quotidienne peut être éprouvante pour des profils peu habitués aux environnements tendus. Ceux qui s'y installent et restent en font souvent la meilleure décision de leur vie.",
+      },
+      {
+        heading: "Roubaix : la renaissance textile devenue artistique",
+        body: "Roubaix est la ville-surprise de ce guide. L'ancienne capitale textile mondiale a gardé un parc extraordinaire de bâtiments industriels qui accueillent désormais ateliers, galeries et collectifs. La Condition Publique (23 000 m² de friche reconvertie) est la résidence d'artistes la plus grande de France. Les prix : ≈ 1 400 €/m² à l'achat, loyers d'atelier parmi les plus bas du Grand Nord (150–400 €/mois). Connexion Lille–Roubaix en 15 minutes de métro. La ville monte — mais pas trop vite encore.",
+      },
+      {
+        heading: "Limoges : la porcelaine et les arts du feu",
+        body: "Limoges est la ville française la plus cohérente pour les arts plastiques et les arts du feu en particulier. La tradition de la porcelaine a laissé une infrastructure unique : fours, ateliers équipés, savoir-faire artisanal local. CRAFT (Centre de Recherche sur les Arts du Feu et de la Terre) est une référence internationale. Prix immobilier ≈ 1 500 €/m² — parmi les plus bas des préfectures françaises. Pour un céramiste, un verrier ou un plasticien travaillant les matériaux, Limoges offre un tissu d'outils et de connaissances qui n'existe nulle part ailleurs en France à ce prix.",
+      },
+      {
+        heading: "Montpellier : la scène vivante du Sud",
+        body: "Montpellier a développé une scène artistique contemporaine réelle, portée par l'Université Paul-Valéry (arts et lettres), le MOCO (nouveau musée d'art contemporain), et la présence d'écoles d'art actives. Les friches du port Marianne et de l'écusson accueillent des studios et galeries. Le soleil et la qualité de vie attirent des créatifs de toute la France. Réserve : les loyers commerciaux et d'atelier ont suivi la gentrification résidentielle — il faut chercher dans les quartiers moins centraux (Mosson, La Paillade) pour trouver des prix raisonnables.",
+      },
+      {
+        heading: "Saint-Étienne : le design industriel réinventé",
+        body: "Saint-Étienne a transformé sa crise post-industrielle en identité créative : la Biennale du Design de Saint-Étienne est l'une des plus importantes au monde. L'ESADSE (école supérieure d'art et de design) est une référence nationale. Les prix ≈ 1 800 €/m² permettent de s'installer en studio-atelier pour un budget que Paris rend impossible. Pour les designers, graphistes et plasticiens travaillant à la croisée art-industrie, Saint-Étienne est une des villes françaises les plus sous-estimées.",
+      },
+      {
+        heading: "Les villes à surveiller : Lens, Forbach, Arles",
+        body: "Trois villes moins connues méritent l'attention. Lens : le succès du Louvre-Lens a créé un écosystème culturel autour du musée et des friches minières — prix encore très bas (≈ 1 400 €/m²). Forbach : ville frontalière franco-allemande avec un patrimoine industriel intact et des loyers défiant toute concurrence. Arles : la tradition photographique (Rencontres d'Arles) et la présence du LUMA Foundation ont attiré une communauté internationale de photographes, vidéastes et scénographes — prix ≈ 3 000 €/m², moins cher que la plupart des grandes villes du Sud.",
+      },
+    ],
+    relatedCities: ["marseille", "saint-etienne", "montpellier", "limoges", "roubaix", "arles"],
+    relatedGuides: [
+      "vivre-dans-le-sud-france-guide-2025",
+      "villes-france-reconversion-professionnelle-formation-2025",
+      "vivre-en-hauts-de-france-guide-2026",
+    ],
+    tags: ["artistes", "créatifs", "ateliers", "friche", "culture", "design", "Marseille", "Saint-Étienne", "Roubaix", "Limoges"],
+  },
+  {
+    slug: "teletravailler-depuis-normandie-guide-2026",
+    title: "Télétravailler depuis la Normandie en 2026 : le guide complet",
+    metaTitle: "Télétravailler depuis la Normandie 2026 — Caen, Rouen, Le Havre, Cherbourg",
+    metaDesc:
+      "2h de Paris en TGV, prix divisés par deux, mer à portée de main : la Normandie est l'une des régions les plus sous-estimées pour le télétravail. Notre guide complet 2026.",
+    category: "teletravail",
+    emoji: "⚓",
+    readMinutes: 8,
+    publishedAt: "2026-05-11",
+    updatedAt: "2026-05-11",
+    intro:
+      "La Normandie est à 2h de Paris en TGV, à 45 minutes en voiture de ses plages, et propose des prix immobiliers inférieurs de 40 à 60 % à ceux de la capitale. Pourtant, elle reste largement sous-représentée dans les guides de télétravail, éclipsée par la Bretagne plus photogénique ou le Sud plus ensoleillé. Ce guide regarde ce que la Normandie offre vraiment à un remote worker — sans idéaliser ni minimiser.",
+    sections: [
+      {
+        heading: "Pourquoi la Normandie est sous-estimée pour le télétravail",
+        body: "Trois préjugés persistent. (1) La pluie : la Normandie est humide, c'est réel (800 à 1 200 mm de pluie par an selon les secteurs). Mais la pluie normande est souvent une bruine légère, pas des averses tropicales. Les télétravailleurs qui y sont installés mentionnent rarement la météo comme problème — parce qu'on ne sort pas dehors pour travailler. (2) L'enclavement : faux. Rouen est à 1h20 de Paris Saint-Lazare, Caen à 2h. (3) Le manque de vie : faux pour Rouen et Caen, vrai pour des communes rurales de 500 habitants. Le préjugé s'applique à la Normandie profonde, pas aux villes.",
+      },
+      {
+        heading: "Rouen : la métropole à 1h20 de Paris",
+        body: "Score MeilleurVille : 6.8/10. Rouen est la grande ville la plus proche de Paris en dehors de l'Île-de-France. La cathédrale gothique, les vieux quartiers à colombages, la Seine qui traverse la ville — le cadre est riche. Prix ≈ 2 800 €/m² (contre 10 000 €+ à Paris pour le même niveau de charme architectural). Les coworkings se sont développés ces 5 dernières années (Le Betamax, La Cantine Numérique de Normandie). Bémol : Rouen est vallonnée, avec des colles difficiles à vélo. Et le trafic routier vers Paris (A13) reste une horreur aux heures de pointe si vous ne prenez pas le train.",
+      },
+      {
+        heading: "Caen : le compromis parfait pour les familles",
+        body: "Caen (110 000 habitants) est plate, cyclable, et dispose d'une offre scolaire et universitaire solide (Université de Caen Normandie, 30 000 étudiants). Le m² y est ≈ 2 600 €, soit 74 % de moins qu'à Paris. La mer (Côte de Nacre, plages du Débarquement) est à 20-30 minutes en voiture. Les associations sportives sont nombreuses. TGV Paris en 2h05 (Montparnasse). Pour une famille qui télétravaille avec enfants, Caen est une option très sérieuse — moins chargée en repères culturels que Rouen, mais plus vivable au quotidien.",
+      },
+      {
+        heading: "Le Havre : le port UNESCO et l'esprit maritime",
+        body: "Le Havre est une ville de caractère. Reconstruite par Auguste Perret après-guerre, elle est classée au patrimoine mondial de l'UNESCO pour son architecture moderniste — unique au monde. Le MuMa (musée des Beaux-Arts) et le MHNA ont une programmation de qualité. Prix ≈ 2 200 €/m², parmi les moins chers des villes normandes de cette taille. La mer est à 5 minutes à pied. L'identité portuaire et ouvrière est forte — certains y voient une authenticité, d'autres un manque de douceur. À voir en hiver avant de décider.",
+      },
+      {
+        heading: "Cherbourg, Granville, Honfleur : les niches normandes",
+        body: "Cherbourg (50 000 habitants) est une ville de sous-marins nucléaires et de ferries vers l'Angleterre — un profil industriel assumé avec des prix ≈ 1 800 €/m² et une connectivité maritime vers Portsmouth. Granville est la Saint-Malo normande : falaises, port de plaisance, prix ≈ 3 200 €/m². Honfleur est la ville la plus touristique de Normandie, adorée des Parisiens le week-end, avec des prix qui le reflètent (≈ 4 000 €/m²). Pour un télétravailleur cherchant à acheter, Caen, Rouen et Cherbourg sont les options les plus pertinentes.",
+      },
+      {
+        heading: "Fibre et coworking en Normandie 2026",
+        body: "La couverture fibre FTTH en Normandie dépasse 88 % des locaux en 2026, avec des efforts particuliers dans le Calvados et la Seine-Maritime. Les zones blanches résiduelles se concentrent dans le Perche et la Normandie profonde du Bocage. En termes de coworking, Rouen concentre l'essentiel de l'offre régionale (6 espaces confirmés), Caen en compte 4, Le Havre 3. Pour les télétravailleurs ruraux, le réseau de tiers-lieux normands (programme Normandie Numérique) propose des solutions dans des communes de 2 000 à 10 000 habitants — moins développé qu'en Bretagne mais en progression.",
+      },
+    ],
+    relatedCities: ["rouen", "caen", "le-havre", "cherbourg", "granville"],
+    relatedGuides: [
+      "vivre-en-normandie-guide-2025",
+      "vivre-en-normandie-interieure-guide-2025",
+      "teletravailler-depuis-bretagne-guide-2026",
+    ],
+    tags: ["Normandie", "télétravail", "remote work", "Rouen", "Caen", "Le Havre", "fibre", "Paris 2h", "mer", "coworking"],
+  },
+  {
+    slug: "teletravailler-depuis-provence-guide-2026",
+    title: "Télétravailler depuis la Provence en 2026 : PACA, Luberon, Aix, Avignon",
+    metaTitle: "Télétravailler depuis la Provence 2026 — Aix, Avignon, Aubagne, Luberon",
+    metaDesc:
+      "Soleil 300 jours/an, lavande et TGV : la Provence attire les télétravailleurs. Notre guide 2026 sur ce qui fonctionne vraiment, les prix réels et les villes à éviter.",
+    category: "teletravail",
+    emoji: "🌻",
+    readMinutes: 9,
+    publishedAt: "2026-05-11",
+    updatedAt: "2026-05-11",
+    intro:
+      "La Provence est le fantasme du télétravailleur en région parisienne : terrasse en pierre, lavande à l'horizon, WiFi 1 Gb/s et appel Teams à 14h. La réalité est plus nuancée. Les prix ont suivi la réputation, la chaleur estivale est devenue un problème de productivité réel, et certains villages provençaux photogrphiés sur Instagram n'ont pas de débit fibre suffisant. Ce guide regarde ce qui fonctionne, ce qui ne fonctionne pas, et où s'installer si vous êtes sérieux.",
+    sections: [
+      {
+        heading: "La chaleur estivale : le problème dont personne ne parle",
+        body: "L'été provençal est magnifique. Il est aussi difficile pour le télétravail. Depuis 2019, les épisodes de canicule (>38 °C plusieurs jours consécutifs) sont fréquents de juin à septembre. Sans climatisation — que beaucoup d'appartements anciens du centre d'Aix ou d'Avignon n'ont pas — le travail de 13h à 17h devient impraticable. Les télétravailleurs expérimentés en Provence décalent leurs horaires (7h-12h, puis 18h-20h) ou investissent dans une clim réversible. Ce n'est pas rédhibitoire mais c'est une adaptation réelle qui ne figure dans aucune brochure.",
+      },
+      {
+        heading: "Aix-en-Provence : le hub premium et ses coûts réels",
+        body: "Score MeilleurVille télétravail : 7.8/10. Aix est la ville provençale la plus établie pour le télétravail premium. Les coworkings (Numa Aix, Ellipse, La Ruche) sont de qualité. Les Cours Mirabeau et le quartier Mazarin offrent un cadre de travail extérieur exceptionnel de mars à novembre. Le problème : tout coûte cher. Un T2 en location dépasse 1 000 €/mois, un T3 ≈ 1 400 €. L'achat d'un appartement en centre dépasse 5 500 €/m². Pour les budgets serrés, Aix est une ville de passage, pas d'installation.",
+      },
+      {
+        heading: "Avignon : la carte culture-connexion TGV",
+        body: "Avignon dispose d'une gare TGV (Paris en 2h35 avec TGV direct) et d'un centre historique classé UNESCO — le Palais des Papes est une institution mondiale. Prix ≈ 3 200 €/m² (40 % moins qu'Aix). La ville est plate et relativement cyclable. Le Festival d'Avignon en juillet amène 150 000 spectateurs et crée une effervescence culturelle unique en France. Réserves : la saison culturelle est très concentrée (juin-août), le reste de l'année est plus calme. L'économie locale est moins diversifiée qu'Aix. La chaleur en été dépasse régulièrement 42 °C dans la cuvette du Rhône.",
+      },
+      {
+        heading: "Le Luberon et le Vaucluse : la carte villages",
+        body: "Lourmarin, Roussillon, Gordes, Apt — les villages du Luberon attirent des télétravailleurs franco-étrangers depuis le Covid. Mais la réalité en 2026 est plus complexe. (1) La fibre est présente dans les bourgs principaux (Apt, Pertuis, Cadenet) mais pas dans tous les hameaux. (2) Les prix ont explosé : une maison de 100 m² avec terrain dans le Luberon dépasse souvent 450 000–600 000 €. (3) L'isolement hivernal est réel — les villages se vident de septembre à mars et la vie sociale se réduit drastiquement. À visiter en février avant d'acheter.",
+      },
+      {
+        heading: "Salon-de-Provence, Manosque, Pertuis : les villes moyennes intelligentes",
+        body: "Pour un télétravailleur cherchant le soleil provençal sans payer le prix d'Aix ni s'isoler dans un village, les villes moyennes du département sont souvent la meilleure option. Salon-de-Provence : ≈ 2 800 €/m², 40 km d'Aix et d'Arles, vrai marché et tissu de commerces. Manosque (≈ 2 600 €/m²) : porte du Luberon, accès au lac de Sainte-Croix (Verdon). Pertuis (≈ 3 000 €/m²) : entre Aix et Luberon, connexion TER vers Aix. Ces villes permettent de garder une vie urbaine fonctionnelle avec un accès rapide à la nature et au TGV.",
+      },
+      {
+        heading: "Fibre et coworking en Provence 2026",
+        body: "La couverture fibre FTTH en PACA atteint 89 % des locaux en 2026. Aix, Avignon, Arles, Salon, Manosque : couverture quasi complète. Les zones blanches résiduelles touchent des hameaux du Luberon, des Alpilles et de la montagne du Luberon nord. Les coworkings se sont multipliés depuis 2020 : Aix en compte 8 espaces, Avignon 5, Arles 3. Le réseau Provence Coworking recense les espaces par département. Pour les installations rurales, les tiers-lieux financés par le Conseil Régional SUD se développent — prévoir de vérifier l'adresse exacte avant signature.",
+      },
+    ],
+    relatedCities: ["aix-en-provence", "avignon", "arles", "salon-de-provence", "apt", "manosque"],
+    relatedGuides: [
+      "vivre-en-provence-paca-guide-2025",
+      "teletravailler-depuis-occitanie-toulouse-montpellier-guide-2025",
+      "teletravailler-depuis-bretagne-guide-2026",
+    ],
+    tags: ["Provence", "PACA", "télétravail", "remote work", "Aix-en-Provence", "Avignon", "Luberon", "soleil", "coworking", "fibre"],
+  },
+  {
+    slug: "meilleures-villes-gastronomie-france-2026",
+    title: "Les meilleures villes françaises pour les amateurs de gastronomie en 2026",
+    metaTitle: "Meilleures villes gastronomie France 2026 — Restaurants, marchés, vignobles",
+    metaDesc:
+      "Lyon, Bordeaux, Strasbourg, San Sebastián à 30 km : les villes françaises où bien manger quotidiennement sans se ruiner. Notre classement honnête 2026.",
+    category: "lifestyle",
+    emoji: "🍽️",
+    readMinutes: 8,
+    publishedAt: "2026-05-11",
+    updatedAt: "2026-05-11",
+    intro:
+      "Bien manger en France n'est pas une question de restaurant étoilé — c'est une question de marché le jeudi matin, de boucher qui connaît son éleveur, et de bistrot qui fait encore une vraie sauce au vin rouge. Pour les passionnés de gastronomie qui choisissent leur ville de résidence, l'écosystème alimentaire est un critère aussi sérieux que le prix du m² ou la fibre optique. Ce guide évalue les villes françaises sur la richesse de leur patrimoine gastronomique quotidien — pas sur le nombre d'étoiles Michelin.",
+    sections: [
+      {
+        heading: "Lyon : la capitale incontestée, mais à quel prix ?",
+        body: "Score MeilleurVille culture : 8.4/10. Lyon est la capitale gastronomique française — et le restera probablement longtemps. Les bouchons lyonnais (quenelles, andouillette, tête de veau) sont une institution vivante, le marché Saint-Antoine est l'un des meilleurs marchés alimentaires du pays, et la densité de restaurateurs formés dans les meilleures maisons est unique. Le problème est désormais le coût : les meilleurs bouchons affichent des additions à 40–55 € par personne sans vin, et les produits des Halles Paul Bocuse ont suivi l'inflation du tourisme gastronomique. Lyon reste la référence absolue, mais elle n'est plus l'affaire de tous les jours.",
+      },
+      {
+        heading: "Bordeaux : terroir et douceur de vivre",
+        body: "Bordeaux a construit une identité gastronomique différente de Lyon — moins populaire, plus terroir. Le canelé, l'entrecôte bordelaise, les huîtres du Bassin d'Arcachon (30 min), les fromages de Landes, et bien sûr les vins de l'Entre-Deux-Mers accessibles à moins de 15 €/bouteille. Le Marché des Capucins est actif à l'année. La scène des bistrots naturels et de la bistronomie s'est considérablement développée depuis 2020. Pour les amateurs de vins, Bordeaux est imbattable en termes de proximité avec les châteaux (dégustations directes au domaine).",
+      },
+      {
+        heading: "Strasbourg et l'Alsace : la générosité rhénane",
+        body: "La cuisine alsacienne est une des plus généreuses de France. Choucroute garnie, baeckeoffe, flammekueche, munster affiné, bretzels frais, vins de Gewurztraminer — le terroir est riche et diversifié. Strasbourg possède les meilleures winstubs de France (l'équivalent alsacien du bouchon lyonnais). Le Marché de Noël est une institution gastronomique à lui seul (bredele, vin chaud épicé, mannele). Et la Route des Vins est à 30 minutes du centre-ville. Pour un amateur qui valorise l'authenticité et la diversité des produits régionaux, l'Alsace rivalise avec n'importe quelle région française.",
+      },
+      {
+        heading: "Le Pays Basque : la table qui surpasse tout",
+        body: "Si l'on sort de la France métropolitaine traditionnelle, le Pays Basque mérite d'être cité hors catégorie. La densité de restaurants étoilés par habitant autour de San Sebastián (30 km de Bayonne) est la plus haute du monde. La txoco (société gastronomique basque) est une institution unique. Les pintxos de Saint-Jean-de-Luz, le jambon de Bayonne, le fromage Ossau-Iraty, l'axoa de veau — la matière première et le savoir-faire sont exceptionnels. Pour un passionné de table, s'installer à Bayonne est l'un des choix gastronomiques les plus forts qu'on puisse faire en France.",
+      },
+      {
+        heading: "Clermont-Ferrand : la gastronomie volcanique sous-estimée",
+        body: "Clermont-Ferrand n'est pas une destination gastronomique de réputation mais une destination de substance. Le fromage (Saint-Nectaire, Cantal, Fourme d'Ambert — tous produits à moins de 1h30) est d'une qualité rare. La lentille verte du Puy, la tripou, le cochon de lait auvergnat. Et une scène de restaurants bistrotiers en plein développement depuis 5 ans, portée par des chefs formés à Lyon et Paris qui reviennent au pays. Prix d'un repas de bistrot de qualité : 25–35 € — 40 % moins qu'à Lyon pour un niveau comparable.",
+      },
+      {
+        heading: "Les marchés comme critère de choix",
+        body: "Pour un amateur de gastronomie quotidienne, la qualité du marché alimentaire hebdomadaire est souvent plus importante que celle des restaurants. En France, les marchés qui méritent de se lever tôt : Bayonne (mardi, mercredi, vendredi, samedi), Aix-en-Provence (mardi-jeudi-samedi, Place Richelme), Périgueux (mercredi et samedi, Marché Place du Coderc — référence nationale pour les truffes et foie gras), Annecy (mardi, vendredi, dimanche), Lyon Saint-Antoine (mardi-samedi). Si vous pouvez faire votre marché à pied depuis chez vous plusieurs fois par semaine, vous avez fait 50 % du chemin.",
+      },
+    ],
+    relatedCities: ["lyon", "bordeaux", "strasbourg", "bayonne", "clermont-ferrand", "perigueux"],
+    relatedGuides: [
+      "villes-france-grandes-tables-gastronomie-budget-reduit-2025",
+      "vivre-en-pays-basque-guide-2026",
+      "vivre-en-alsace-guide-2025",
+    ],
+    tags: ["gastronomie", "cuisine française", "marchés", "vins", "Lyon", "Bordeaux", "Strasbourg", "Pays Basque", "lifestyle", "terroir"],
+  },
 ];
 
 export const GUIDE_CATEGORIES = [
