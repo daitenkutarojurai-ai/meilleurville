@@ -6576,6 +6576,394 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["Outre-mer", "DROM", "DOM-TOM", "La Réunion", "Martinique", "Guadeloupe", "Guyane", "Mayotte", "tropical", "expatriation"],
   },
+  {
+    slug: "quitter-nantes-guide-2026",
+    title: "Quitter Nantes en 2026 : où aller quand la Loire Atlantique devient trop chère",
+    metaTitle: "Quitter Nantes 2026 — Angers, La Rochelle, Rennes, Vannes : le guide honnête",
+    metaDesc:
+      "Nantes a décroché son étoile mais ses prix ont suivi. Pourquoi les Nantais cherchent à partir et quelles villes offrent le meilleur rapport qualité-de-vie prix à moins de 2h.",
+    category: "comparaison",
+    emoji: "🦢",
+    readMinutes: 9,
+    publishedAt: "2026-05-11",
+    updatedAt: "2026-05-11",
+    intro:
+      "Nantes a longtemps été la référence des villes où il fait bon vivre — et elle le mérite encore en grande partie. Mais les prix ont rattrapé la réputation. Le m² au centre dépasse 4 500 € à l'achat et 15 €/m² en location, la rocade est saturée aux heures de pointe, et le marché de l'emploi local peine à absorber tous les arrivants que la réputation continue d'attirer. De plus en plus de Nantais de longue date — et de familles récemment installées — regardent ailleurs. Ce guide fait le point sans langue de bois.",
+    sections: [
+      {
+        heading: "Pourquoi on part : les trois moteurs",
+        body: "Premier moteur : le logement. Un T3 familial dans le quartier Dobrée ou Canclaux dépasse 1 400 €/mois en location et 420 000 € à l'achat — des chiffres qui excluent les primo-accédants avec un seul revenu médian. Deuxième moteur : la rocarde. Les travaux du périphérique durent depuis des années ; rejoindre Saint-Herblain ou Rezé depuis le centre aux heures de pointe prend 35 à 50 minutes pour 8 km. Troisième moteur : le sentiment que la ville a perdu en authenticité à mesure qu'elle gagnait en notoriété. Ce n'est pas mesurable, mais beaucoup le ressentent.",
+      },
+      {
+        heading: "Angers : la sortie naturelle à 1h",
+        body: "Score MeilleurVille : 7.4/10. Angers est la destination évidente pour les familles qui quittent Nantes. TGV Paris en 1h35, TER Nantes en 1h, prix immobilier ≈ 3 200 €/m² en centre-ville (contre 4 500 € à Nantes). La ville offre une vraie vie urbaine (CHU, grandes écoles, scène culturelle) sans la tension nantaise. Elle reste accessible aux revenus médians — un T4 s'achète autour de 280 000 € dans les quartiers résidentiels. Bémol : l'économie locale tourne beaucoup autour du vin, de l'horticulture et du secteur public ; les profils tech/startups y trouvent moins de densité qu'à Nantes.",
+      },
+      {
+        heading: "La Rochelle : mer, vélo et cap sur la qualité de vie",
+        body: "À 1h45 de TGV, La Rochelle est la sortie lifestyle par excellence. Score nature : 9.2/10. Le réseau cyclable est l'un des meilleurs de France, la mer est à 20 minutes, et les prix immobiliers — bien que tendus — restent inférieurs à Nantes (≈ 3 800 €/m² dans le Vieux-Port). Ce qui change tout : la densité de population est deux fois moindre qu'à Nantes, ce qui fluidifie tout, du parking aux écoles. Limite pour les familles : le bassin d'emploi privé est nettement plus étroit. Idéal pour les télétravailleurs et les professions libérales.",
+      },
+      {
+        heading: "Rennes : la métropole miroir",
+        body: "Rennes ressemble à Nantes d'il y a dix ans. Dynamisme similaire, communauté tech active, prix encore 20 % inférieurs (≈ 3 500 €/m² au centre). L'inconvénient : la distance entre les deux villes (2h de TER) rend difficile de garder un pied dans chaque. C'est une vraie migration, pas une délocalisation. Mais pour ceux prêts à repartir à zéro, Rennes offre aujourd'hui le meilleur compromis entre métropole dynamique et coût maîtrisé dans l'Ouest.",
+      },
+      {
+        heading: "Vannes, Saint-Nazaire, Le Mans : les options décotées",
+        body: "Vannes (1h20 de TER) est la sortie bretonne plus douce : mer du Golfe du Morbihan à 5 minutes, prix ≈ 3 600 €/m², et une qualité de vie familiale très forte. Saint-Nazaire reste 40 min de Nantes et propose des prix divisés par deux (≈ 2 200 €/m²), idéal pour les primo-accédants qui gardent un emploi nantais. Le Mans est à 1h de TGV Paris (moins de 1h des Pays de la Loire) avec des prix parmi les plus bas des villes moyennes de l'Ouest (≈ 1 800 €/m²) — souvent méconnu et sous-estimé.",
+      },
+      {
+        heading: "Ce qu'on ne récupère pas toujours",
+        body: "Quitter Nantes, c'est quitter un bassin d'emploi de 700 000 actifs, des connexions TGV vers Paris, Lyon, Bordeaux, Bruxelles, et une communauté d'alumni grandes écoles très dense. Ces actifs réseau ne se transfèrent pas automatiquement. Avant de décider, posez-vous trois questions : votre employeur est-il localisé à Nantes ou remote ? Votre réseau professionnel est-il géographiquement dépendant ? Vos enfants ont-ils des attachements scolaires ou associatifs ? Si deux réponses sur trois sont «non», la sortie est probablement la bonne décision.",
+      },
+      {
+        heading: "Le calcul sur 10 ans",
+        body: "Ménage à 4 000 € nets, T3 en location à Nantes Centre (1 350 €) → même surface à Angers (900 €), La Rochelle (1 000 €), Vannes (950 €), Saint-Nazaire (700 €). Différentiel Nantes–Angers sur 10 ans en location : 54 000 €. À l'achat (pour 80 000 € de moins), l'économie sur mensualités + apport libéré dépasse les 100 000 €. Même en soustrayant d'éventuels coûts de mobilité, le gain est massif pour les familles propriétaires.",
+      },
+    ],
+    relatedCities: ["angers", "la-rochelle", "rennes", "vannes", "saint-nazaire", "le-mans"],
+    relatedGuides: [
+      "vivre-en-pays-de-la-loire-guide-2025",
+      "vivre-en-bretagne-guide-2025",
+      "quitter-paris-guide-2025",
+    ],
+    tags: ["Nantes", "quitter Nantes", "Angers", "La Rochelle", "Rennes", "Vannes", "déménagement", "Pays de la Loire", "Bretagne"],
+  },
+  {
+    slug: "quitter-rennes-guide-2026",
+    title: "Quitter Rennes en 2026 : les alternatives quand la Bretagne capitale devient trop dense",
+    metaTitle: "Quitter Rennes 2026 — Brest, Lorient, Vannes, Saint-Brieuc : le guide honnête",
+    metaDesc:
+      "Rennes a rattrapé les métropoles en prix sans tout à fait les égaler en offre. Qui quitte et pourquoi. Les vraies options bretonnes et la carte Anjou ou Maine.",
+    category: "comparaison",
+    emoji: "🌊",
+    readMinutes: 8,
+    publishedAt: "2026-05-11",
+    updatedAt: "2026-05-11",
+    intro:
+      "Il y a cinq ans, Rennes était la ville-refuge des Parisiens et Nantais qui fuyaient la cherté. Elle l'est moins aujourd'hui. Le m² au centre dépasse 3 700 € à l'achat, les quartiers prisés comme Thabor-Saint-Hélier flirtent avec 4 500 €, et la dynamique «eldorado de l'Ouest» a fait monter les loyers sans que les salaires locaux aient suivi. Une partie des Rennais de souche — et des nouveaux arrivants désenchantés — regardent ce que le reste de la Bretagne a à offrir.",
+    sections: [
+      {
+        heading: "Les griefs des partants",
+        body: "Trois raisons se détachent dans les témoignages. (1) Le coût du logement : un T3 central se loue entre 1 100 et 1 300 €/mois — autant qu'à Bordeaux ou Lyon pour une ville sans leur rayonnement international. (2) La saturation des axes routiers : la N136 vers Lorient et la rocade ouest sont engorgées dès 7h30 ; le périphérique ne suffit plus. (3) Un sentiment de «métropolisation à marche forcée» : centres commerciaux, promoteurs immobiliers, afflux d'étudiants (+12 % en cinq ans) qui tendent les transports, les crèches, les logements. Rennes reste une très bonne ville ; elle n'est plus la bonne affaire qu'elle était.",
+      },
+      {
+        heading: "Brest : l'alternative atlantique radicale",
+        body: "Score MeilleurVille : 6.8/10 (mais nature : 9.1). Brest est à 1h30 de TGV depuis Paris — moins que Rennes il y a dix ans. Les prix immobiliers sont parmi les plus abordables des villes de plus de 100 000 habitants en France : ≈ 2 100 €/m² au centre, loyer médian T2 ≈ 620 €. La rade de Brest, le Parc Naturel Régional d'Armorique à 20 minutes et la présence de l'Ifremer et de la Marine nationale en font une ville à vraie identité. Limite réelle : le vent et la pluie entre novembre et mars ne sont pas un mythe — comptez 180 jours de pluie par an.",
+      },
+      {
+        heading: "Lorient : le port qui monte",
+        body: "Moins connue que Brest mais souvent préférée par les familles, Lorient dispose d'une façade maritime exceptionnelle (Île de Groix à 45 minutes de ferry), d'un tissu industriel naval qui résiste, et de prix ≈ 2 400 €/m². Le festival Interceltique y attire 700 000 personnes chaque août — ce qui dit quelque chose de la vitalité associative. Le réseau de transport urbain est limité ; la voiture reste indispensable pour les communes périphériques.",
+      },
+      {
+        heading: "Vannes : l'équilibre breton",
+        body: "Vannes est sans doute la ville de Bretagne qui capitalise le mieux sur ses atouts sans les vendre à découvert. Le Golfe du Morbihan est à 5 minutes à vélo du centre historique, les écoles sont bien notées, et le prix ≈ 3 600 €/m² reste 15 % sous Rennes pour un cadre de vie supérieur en termes de douceur et de nature accessible. La faiblesse : un bassin d'emploi privé restreint en dehors du tourisme, du commerce et des services. Pour un télétravailleur, c'est une évidence ; pour un salarié cherchant à changer d'entreprise, c'est contraignant.",
+      },
+      {
+        heading: "Saint-Brieuc, Quimper : les options sous-cotées",
+        body: "Saint-Brieuc souffre d'une réputation injuste. Le centre a été rénové, la Baie de Saint-Brieuc est classée, et le prix ≈ 1 700 €/m² en fait l'une des moins chères des préfectures françaises. Quimper combine centre historique exceptionnel, 25 km de la mer et ≈ 2 200 €/m². Les deux villes fonctionnent bien pour les profils public-privé mix (hôpital, enseignement, artisanat) mais restent sous-alimentées en offres tech et startups.",
+      },
+      {
+        heading: "Hors Bretagne : Le Mans, Laval, Angers",
+        body: "Si la contrainte est avant tout financière et qu'une connexion TGV vers Paris est prioritaire, le triangle Le Mans–Laval–Angers mérite d'être considéré. Le Mans est à 55 minutes de TGV Paris, ≈ 1 800 €/m², scène culturelle solide. Laval (≈ 1 400 €/m²) est la moins connue mais la plus accessible financièrement de cette zone, avec une fibre bien déployée et une industrie agroalimentaire stable. Angers à 1h de TGV est le compromis taille-prix-qualité de vie le plus polyvalent de l'Ouest.",
+      },
+    ],
+    relatedCities: ["brest", "lorient", "vannes", "saint-brieuc", "quimper", "le-mans", "angers"],
+    relatedGuides: [
+      "vivre-en-bretagne-guide-2025",
+      "vivre-en-bretagne-nord-guide-2025",
+      "quitter-nantes-guide-2026",
+    ],
+    tags: ["Rennes", "quitter Rennes", "Brest", "Lorient", "Vannes", "Saint-Brieuc", "Bretagne", "déménagement", "télétravail"],
+  },
+  {
+    slug: "quitter-montpellier-guide-2026",
+    title: "Quitter Montpellier en 2026 : quand le soleil ne justifie plus le loyer",
+    metaTitle: "Quitter Montpellier 2026 — Sète, Béziers, Nîmes, Perpignan : le guide honnête",
+    metaDesc:
+      "Montpellier a gagné 100 000 habitants en 15 ans et ses prix ont suivi. Qui quitte, pourquoi, et quelles villes occitanes offrent mer + soleil à moindre coût.",
+    category: "comparaison",
+    emoji: "☀️",
+    readMinutes: 8,
+    publishedAt: "2026-05-11",
+    updatedAt: "2026-05-11",
+    intro:
+      "Montpellier est la métropole française qui a le plus crû en 30 ans. Ce succès démographique a un revers : les prix immobiliers ont été multipliés par 2,5 depuis 2000, la ville est désormais la 7e la plus chère de France à la location, et les embouteillages sur la L1 et la rocade Est sont constants. Des Montpelliérains qui n'auraient jamais envisagé de partir cherchent maintenant mer et soleil à un coût supportable dans un rayon de 150 km.",
+    sections: [
+      {
+        heading: "Ce qui fait partir aujourd'hui",
+        body: "Logement en tête : un T3 se loue 1 200 à 1 400 €/mois dans les quartiers proches du centre (Aiguerelles, Beaux-Arts, Hôpitaux-Facultés) et dépasse 4 500 €/m² à l'achat. Pour une famille avec un salaire médian, l'accès à la propriété est de fait exclu sauf en périphérie lointaine. Viennent ensuite : les bouchons chroniques sur le périphérique ouest (travaux du tramway ligne 5 ont aggravé la situation), et la pression sur les établissements scolaires — les collèges du centre-ville ont des ratios élèves/enseignants parmi les plus tendus de l'académie.",
+      },
+      {
+        heading: "Sète : l'île singulière à 30 minutes",
+        body: "Score MeilleurVille nature : 9.4/10. Sète est entre étang de Thau et Méditerranée — une géographie unique qui crée une qualité de vie difficile à trouver ailleurs. Prix ≈ 3 200 €/m² au centre, en hausse mais encore accessibles. La ville vit à l'année grâce à la pêche, au port et au tourisme. Le marché de l'emploi local est limité mais la proximité de Montpellier (30 min de TER) permet de combiner les deux. Limite : le tramway et les liaisons de transport sont moins denses que dans une grande métropole.",
+      },
+      {
+        heading: "Béziers : l'opportuniste à petit budget",
+        body: "Béziers est la ville de l'Hérault dont les prix n'ont pas encore décollé. Le m² plafonne à ≈ 1 600 €, soit trois fois moins qu'à Montpellier. La ville souffre d'une image compliquée (politique locale clivante, indicateurs sociaux plus faibles) mais le cadre — Canal du Midi, vignobles à 10 minutes, mer à 25 km — est réel. Pour un couple télétravailleur cherchant à acheter une maison avec jardin sous 200 000 €, Béziers est aujourd'hui l'une des rares options en Occitanie méditerranéenne.",
+      },
+      {
+        heading: "Nîmes : la grande voisine gardoise",
+        body: "Nîmes (150 000 habitants) est souvent oubliée dans les comparatifs montpelliérains alors qu'elle offre un vrai centre historique, des monuments romains, un tissu culturel solide (Féria, Carré d'Art) et des prix ≈ 2 300 €/m² — 45 % sous Montpellier. La connexion TGV vers Paris (2h55) est meilleure que depuis Montpellier. Point noir : chaleur très sèche l'été (40 °C réguliers) et accessibilité à la mer 45 min (sans autoroute directe vers le Grau-du-Roi).",
+      },
+      {
+        heading: "Perpignan : le pari le plus aventureux",
+        body: "Perpignan cumule mer (plages à 10 min), montagne (Canigou visible depuis le centre), soleil (3 000h/an, plus que Nice), et des prix immobiliers parmi les plus bas du Midi (≈ 1 900 €/m²). Ce que personne ne dit : les indicateurs de revenus et d'emploi de la ville figurent parmi les plus faibles des grandes villes françaises (chômage ≈ 17 % en 2024). Pour un télétravailleur autonome, c'est un paradis discret. Pour un salarié cherchant à évoluer localement, le marché est restreint.",
+      },
+      {
+        heading: "Montagnac, Frontignan, Lunel : les périphéries intelligentes",
+        body: "Si l'objectif est de conserver l'accès à Montpellier tout en divisant son loyer par deux, plusieurs communes périphériques méritent attention. Frontignan (étang + mer, TER 20 min) : ≈ 2 500 €/m². Lunel (plaine viticole, TER 25 min) : ≈ 2 000 €/m². Ces communes permettent un aller-retour quotidien réaliste pour qui garde un emploi montpelliérain — et un accès à la maison avec jardin que la métropole interdit financièrement.",
+      },
+    ],
+    relatedCities: ["sete", "beziers", "nimes", "perpignan", "montpellier"],
+    relatedGuides: [
+      "vivre-en-occitanie-guide-2025",
+      "vivre-dans-le-gard-guide-2025",
+      "quitter-marseille-guide-2026",
+    ],
+    tags: ["Montpellier", "quitter Montpellier", "Sète", "Béziers", "Nîmes", "Perpignan", "Occitanie", "déménagement", "sud de France"],
+  },
+  {
+    slug: "nice-vs-montpellier-comparatif-2026",
+    title: "Nice vs Montpellier : deux villes méditerranéennes, deux philosophies",
+    metaTitle: "Nice vs Montpellier 2026 — Mer, soleil, coût : comparatif complet",
+    metaDesc:
+      "Nice et Montpellier se disputent le titre de capitale méditerranéenne pour ceux qui quittent Paris. Laquelle choisir selon votre profil, votre budget et vos priorités ?",
+    category: "comparaison",
+    emoji: "🏖️",
+    readMinutes: 9,
+    publishedAt: "2026-05-11",
+    updatedAt: "2026-05-11",
+    intro:
+      "Nice et Montpellier partagent la façade méditerranéenne, le soleil, la douceur de vivre et une réputation de villes où il fait bon s'installer depuis Paris. Elles sont pourtant profondément différentes dans leur économie, leur population, leur immobilier et ce qu'elles offrent vraiment au quotidien. Ce comparatif va au-delà de la carte postale.",
+    sections: [
+      {
+        heading: "Soleil et mer : avantage Nice sur le papier",
+        body: "Nice affiche 300 jours de soleil par an (contre 300 pour Montpellier aussi, mais avec un ensoleillement horaire supérieur) et la Méditerranée est accessible en 10 minutes de marche depuis le centre. La Promenade des Anglais reste unique. Montpellier est à 15 km de la mer — la plage de Carnon ou La Grande-Motte, moins glamour, mais praticables à vélo en été. Sur le plan climat brut, les deux villes sont comparables ; Nice est légèrement plus douce l'hiver (7 °C contre 5 °C en moyenne en janvier), Montpellier légèrement plus fraîche l'été (les nuits refroidissent plus).",
+      },
+      {
+        heading: "Immobilier : l'écart est brutal",
+        body: "Nice centre : ≈ 5 800 €/m² au centre (Vieux-Nice, Carré d'Or), jusqu'à 8 000 € face mer. Montpellier centre : ≈ 4 500 €/m², déjà tendu mais 25 % sous Nice. En location, l'écart est similaire : un T2 à Nice prend ≈ 900–1 100 €/mois contre 750–950 € à Montpellier. Pour une famille visantun T4, l'écart sur 10 ans représente 50 000 à 80 000 €. Seul segment où Nice est compétitive : les studios et T1 en copropriété ancienne dans les quartiers populaires (Ariane, l'Arenas) à ≈ 3 500 €/m², souvent mieux positionnés qu'à Montpellier pour les petits budgets.",
+      },
+      {
+        heading: "Emploi et économie : deux modèles opposés",
+        body: "Montpellier est une ville universitaire et de recherche (75 000 étudiants, pôle santé, Sanofi, IBM Research). L'emploi privé y est dynamique pour les profils tech, santé et services. Nice est davantage tournée vers le tourisme, le commerce de luxe, la finance privée et les institutions internationales (siège d'organisations mondiales, consulats). Pour un profil ingénieur ou data science, Montpellier offre plus d'opportunités locales. Pour un profil finance, droit des affaires ou hôtellerie haut de gamme, Nice est supérieure.",
+      },
+      {
+        heading: "Qualité de vie quotidienne : les différences que les chiffres ne montrent pas",
+        body: "Nice est une vraie grande ville internationale — avec les avantages (diversité, gastronomie, connexions) et les inconvénients (embouteillages sur la Promenade, gentrification du Vieux-Nice, saisonnalité touristique qui gonfle les prix juillet-août). Montpellier est plus jeune démographiquement (âge médian 33 ans contre 42 pour Nice) et a une culture étudiante marquée — ce qui se ressent dans les cafés, les bars, le tissu associatif. Pour une famille avec enfants, Montpellier est souvent préférée ; pour un couple actif sans enfant ou une retraite active, Nice l'emporte.",
+      },
+      {
+        heading: "Transports et connectivité",
+        body: "Nice Côte d'Azur est l'un des aéroports les plus connectés de France (deuxième après CDG pour les liaisons internationales directes). Depuis Montpellier, l'aéroport est plus modeste mais les TGV vers Paris (3h15) et Barcelone (3h en Ouigo) compensent. En trains régionaux, Montpellier gagne : les TER vers Nîmes, Sète, Béziers sont fréquents et pas trop chers. La mobilité de Nice vers l'arrière-pays est plus contrainte (routes de montagne, trafic côtier).",
+      },
+      {
+        heading: "Le verdict selon votre profil",
+        body: "Choisissez Nice si : vous avez un budget achat ≥ 450 000 € pour un T3, vous valorisez l'aéroport international, la mer à pied et un cadre de vie premium assumé, et vous travaillez dans la finance, le tourisme ou les institutions. Choisissez Montpellier si : vous êtes dans le tech-santé-recherche, vous avez des enfants en âge scolaire, vous cherchez à acheter en dessous de 350 000 € pour un T3, et vous valorisez la proximité de nature diversifiée (Camargue, Cévennes, vignobles). Les deux sont de très bonnes villes — mais pour des profils assez différents.",
+      },
+    ],
+    relatedCities: ["nice", "montpellier", "antibes", "cannes", "sete", "nimes"],
+    relatedGuides: [
+      "vivre-en-provence-paca-guide-2025",
+      "vivre-en-occitanie-guide-2025",
+      "quitter-montpellier-guide-2026",
+    ],
+    tags: ["Nice", "Montpellier", "comparatif", "Méditerranée", "PACA", "Occitanie", "soleil", "immobilier", "qualité de vie"],
+  },
+  {
+    slug: "vivre-en-hauts-de-france-guide-2026",
+    title: "Vivre en Hauts-de-France en 2026 : Lille, Amiens, Arras, Valenciennes — le guide complet",
+    metaTitle: "Vivre en Hauts-de-France 2026 — Guide complet Lille, Amiens, Arras",
+    metaDesc:
+      "La région la plus proche de Paris et de Londres offre bien plus que Lille. Notre guide honnête des villes des Hauts-de-France : coût, emploi, qualité de vie, sans clichés.",
+    category: "region",
+    emoji: "🌾",
+    readMinutes: 10,
+    publishedAt: "2026-05-11",
+    updatedAt: "2026-05-11",
+    intro:
+      "Les Hauts-de-France souffrent d'une image déprimée, héritée d'une désindustrialisation douloureuse et d'indicateurs sociaux en retrait par rapport à la moyenne nationale. Cette image est à la fois juste (les poches de précarité existent) et fausse (la région a plus de ressources que sa réputation). Entre Lille qui s'affirme comme métropole européenne, Amiens qui se reinvente, Arras qui attire les télé-travailleurs, et des paysages de plaine d'une beauté froide unique, les Hauts-de-France méritent qu'on les regarde honnêtement.",
+    sections: [
+      {
+        heading: "Lille : capitale européenne, pas juste régionale",
+        body: "Score MeilleurVille Lille : 7.1/10. Lille est à 1h de Paris (TGV), 35 min de Bruxelles, 1h20 de Londres (Eurostar). Ce positionnement géographique est unique en France. La métropole lilloise (1,2 million d'habitants) dispose d'un tissu économique diversifié — distribution (Décathlon, Kiabi, Leroy Merlin ont toutes leur siège dans l'agglo), logistique, fintech, commerce. L'immobilier au centre (Vieux-Lille) taquine 4 200 €/m², mais Wazemmes, Fives ou Moulins offrent des prix 30 % inférieurs pour une vie de quartier authentique. Le revers : la grisaille climatique entre novembre et mars est réelle (une centaine de jours de pluie de plus par an que Nantes).",
+      },
+      {
+        heading: "Amiens : le joyau de la Somme sous-estimé",
+        body: "Score MeilleurVille : 6.2/10. Amiens a une cathédrale qui écrase Notre-Dame de Paris en volume, des hortillonnages uniques au monde (jardins flottants médiévaux dans les canaux), et un prix immobilier ≈ 2 100 €/m² — 50 % de moins que Lille. TGV Paris en 1h10. La ville abrite une université active (27 000 étudiants) et un CHU régional. Ce qui manque : un tissu économique privé diversifié. Amiens est encore trop dépendante du secteur public et de quelques grands groupes (Goodyear, Whirlpool — dont les fermetures ont marqué la région).",
+      },
+      {
+        heading: "Arras : la ville de marché qui redevient désirable",
+        body: "Arras est la grande surprise des Hauts-de-France pour les télé-travailleurs. Ses deux grandes places flamandes (Grand-Place et Place des Héros) classées sont parmi les plus belles de France. Prix ≈ 1 900 €/m², TGV Paris en 50 minutes, TGV Lille en 35 minutes. La vie de marché y est intense — marchés trois fois par semaine. L'offre culturelle reste limitée mais la qualité de vie quotidienne (calme, espaces, architecture) est réelle. Pour un couple télétravaillant 4 jours sur 5, c'est peut-être la ville la plus sous-cotée du Nord.",
+      },
+      {
+        heading: "Valenciennes, Douai, Lens : le renouveau industriel",
+        body: "Ces trois villes portent les stigmates et les opportunités de la transition industrielle. Valenciennes abrite l'IRT Railenium (ferroviaire) et des industries liées à la mobilité électrique (Toyota, Alstom). Lens a réussi un pari culturel remarquable avec le Louvre-Lens. Douai reconstruit. Les prix immobiliers sont parmi les plus bas des villes moyennes françaises (≈ 1 400–1 600 €/m²) — ouvrant l'accession à la propriété pour des ménages exclus partout ailleurs. À considérer si on cherche maison + jardin + potager pour moins de 150 000 €.",
+      },
+      {
+        heading: "La nature des Hauts-de-France : un bien-gardé",
+        body: "La Côte d'Opale (Boulogne-sur-Mer, Le Touquet, Wimereux) est l'une des côtes les plus spectaculaires de France — falaises, dunes, surf, vents du large. Le Parc Naturel Régional Scarpe-Escaut couvre 100 000 hectares de forêts et zones humides. La Baie de Somme (phoques, oiseaux migrateurs, sealwatching) est une des zones humides majeures d'Europe de l'Ouest. Ces richesses naturelles sont accessibles en voiture depuis toutes les villes de la région en moins de 1h30.",
+      },
+      {
+        heading: "Le Nord pour qui, vraiment ?",
+        body: "Les Hauts-de-France sont faites pour trois profils. (1) Le frontalier belge ou le salarié d'un grand groupe de la MEL (Métropole Européenne de Lille) qui cherche à combiner emploi métropolitain et logement abordable. (2) Le télétravailleur qui valorise la connectivité TGV (Paris en 1h, Londres en 1h20) et cherche à acheter une maison sans se saigner. (3) La famille dont les enfants aiment les grands espaces et le cheval (l'équitation est une tradition profonde de la région). En revanche, si vous fuyez la grisaille climatique pour le soleil — ce n'est pas ici qu'il faut chercher.",
+      },
+    ],
+    relatedCities: ["lille", "amiens", "arras", "valenciennes", "lens", "boulogne-sur-mer"],
+    relatedGuides: [
+      "vivre-en-grand-est-alsace-moselle-guide-2025",
+      "vivre-en-normandie-guide-2025",
+      "quitter-paris-guide-2025",
+    ],
+    tags: ["Hauts-de-France", "Lille", "Amiens", "Arras", "Valenciennes", "Nord", "Pas-de-Calais", "Picardie", "s'installer", "télétravail"],
+  },
+  {
+    slug: "vivre-en-centre-val-de-loire-guide-2026",
+    title: "Vivre en Centre-Val de Loire en 2026 : Tours, Orléans, Blois — le guide complet",
+    metaTitle: "Vivre en Centre-Val de Loire 2026 — Tours, Orléans, Blois : guide honnête",
+    metaDesc:
+      "Châteaux, vignobles et 1h de TGV depuis Paris. Le Centre-Val de Loire est la région la plus accessible de France pour qui veut quitter la capitale sans aller loin. Notre guide complet.",
+    category: "region",
+    emoji: "🏰",
+    readMinutes: 9,
+    publishedAt: "2026-05-11",
+    updatedAt: "2026-05-11",
+    intro:
+      "Le Centre-Val de Loire est la région la plus oubliée par les guides de relocation — et peut-être la plus logique pour ceux qui veulent quitter Paris sans couper le cordon complètement. Tours est à 1h05 de TGV Saint-Lazare, Orléans à 1h en Intercités, Blois à 1h20. Les prix immobiliers y sont encore raisonnables, la Loire à vélo traverse le cœur de la région, et les châteaux de la Renaissance ne sont pas que des décors — ils font partie de la vie quotidienne.",
+    sections: [
+      {
+        heading: "Tours : la métropole idéale pour les ex-Parisiens",
+        body: "Score MeilleurVille : 7.2/10. Tours est probablement la ville française la plus confortable pour un Parisien qui télétravaille 3-4 jours par semaine. TGV Paris en 1h05 (Montparnasse), prix immobilier ≈ 2 800 €/m² en centre-ville — 40 % de moins qu'à Bordeaux pour un cadre similaire. La ville est belle, plate (cyclable), avec une université de 30 000 étudiants qui maintient une vie nocturne et culturelle active. Le marché de l'emploi local est porté par le CHU, l'industrie pharmaceutique (Servier, Pfizer ont des sites dans l'agglo) et le secteur agricole-agroalimentaire.",
+      },
+      {
+        heading: "Orléans : la surprise à 1h de Paris",
+        body: "Orléans est la ville de la région qui monte le plus vite. Récemment rénovée (nouveau tramway, réhabilitation du centre historique autour de la cathédrale), elle offre un profil cohérent : 115 000 habitants, une vie urbaine équilibrée, des prix ≈ 2 600 €/m², et une connexion Paris Austerlitz en 55 minutes (Intercités) ou TGV Austerlitz–Tours avec arrêt partiel. L'économie locale est davantage tournée vers la logistique, l'agroalimentaire et les services aux entreprises — moins de profils tech qu'à Tours.",
+      },
+      {
+        heading: "Blois : la ville de château qui fonctionne vraiment",
+        body: "Blois (46 000 habitants) est la préfecture qui illustre le mieux le modèle «ville moyenne avec château». Le château de Blois est l'un des plus beaux de la Loire — et il surplombe le centre-ville. Prix immobilier ≈ 2 000 €/m², loyer médian T2 ≈ 600 €. TGV Paris en 1h20. Pour un télétravailleur cherchant à acheter une maison dans une ville à échelle humaine, à proximité de vignobles (Vouvray, Cheverny) et de forêts (Chambord à 20 km), Blois est un choix cohérent. Bémol : les offres d'emploi locales sont limitées et le réseau de transport interne à la ville est faible.",
+      },
+      {
+        heading: "Les vignobles et la Loire à vélo",
+        body: "Le Val de Loire est classé au patrimoine mondial de l'UNESCO — non pour les seuls châteaux, mais pour l'ensemble paysager de la Loire et ses levées de tuffeau. La Loire à Vélo (820 km du source à l'Atlantique) traverse Tours, Blois, Amboise, Chinon. Ce n'est pas qu'un attrait touristique : c'est un mode de vie pour beaucoup d'habitants. Les caves tuffeau (creusées dans la roche calcaire blanche) servent de chais à vins, de chambres d'hôtes et même d'habitations — un patrimoine troglodytique unique en France.",
+      },
+      {
+        heading: "Châteauroux, Vierzon, Bourges : la France profonde abordable",
+        body: "Le sud de la région (département du Cher, Indre) est une France rurale et aucun guide ne vous y encouragera si vous venez de Paris. Mais pour ceux qui valorisent les grands espaces, la chasse et la pêche, et un prix immobilier ≈ 900–1 200 €/m² (maisons de village à 80 000 €), Bourges et ses environs offrent une qualité de vie tranquille difficile à trouver ailleurs en France à ce prix. Bourges conserve un patrimoine roman exceptionnel (Cathédrale Saint-Étienne, Palais Jacques-Cœur) et une Fête des Groupes de Musique (Printemps de Bourges) qui lui donne un rayonnement national.",
+      },
+      {
+        heading: "Le Centre-Val de Loire pour quel profil ?",
+        body: "La région est faite pour trois profils nets. (1) L'ex-Parisien en télétravail 3-5j/semaine qui veut garder la connexion TGV sans payer les prix de Bordeaux ou Nantes. (2) La famille qui valorise la nature immédiate (Loire, forêts de Sologne, vignobles), l'architecture, et une échelle humaine. (3) Le retraité ou le proche-retraite qui cherche à acheter grand pour peu cher, dans un cadre de vie doux, sans exil au bout de la France. Ce n'est pas la région pour qui cherche une vie de grande métropole ou une dynamique startup — Nantes, Rennes ou Toulouse sont alors plus pertinentes.",
+      },
+    ],
+    relatedCities: ["tours", "orleans", "blois", "bourges", "amboise", "chinon"],
+    relatedGuides: [
+      "vivre-en-touraine-guide-2025",
+      "vivre-en-normandie-interieure-guide-2025",
+      "quitter-paris-guide-2025",
+    ],
+    tags: ["Centre-Val de Loire", "Tours", "Orléans", "Blois", "Bourges", "Loire", "châteaux", "télétravail", "s'installer", "quitter Paris"],
+  },
+  {
+    slug: "meilleures-villes-seniors-actifs-france-2026",
+    title: "Les meilleures villes pour les seniors actifs en France en 2026",
+    metaTitle: "Meilleures villes seniors actifs France 2026 — Randonnée, culture, budget",
+    metaDesc:
+      "Retraite active, sport, culture, santé accessible : notre guide des villes françaises les plus adaptées aux 60-75 ans qui refusent de ralentir.",
+    category: "lifestyle",
+    emoji: "🚵",
+    readMinutes: 9,
+    publishedAt: "2026-05-11",
+    updatedAt: "2026-05-11",
+    intro:
+      "La retraite active n'est plus une exception — elle est devenue le modèle dominant pour les 60-75 ans en bonne santé. Voyages, randonnée, associations, culture, petits-enfants : les seniors actifs ont des exigences précises qui ne ressemblent pas à celles des familles avec enfants ni à celles des télé-travailleurs de 35 ans. Ce guide identifie les villes françaises qui répondent vraiment à ces exigences, en croisant qualité de l'air, accessibilité des soins, réseau de transport et densité d'activités de plein air.",
+    sections: [
+      {
+        heading: "Les 4 critères qui comptent vraiment",
+        body: "Un senior actif n'a pas les mêmes priorités qu'une famille. (1) Accessibilité médicale : CHU ou hôpital de 500+ lits à moins de 30 minutes ; spécialistes (cardiologue, rhumatologue, ophtalmo) disponibles sans 6 mois d'attente. (2) Terrain physique : une ville cyclable ou avec réseau de randonnée depuis le centre, et des associations sportives adultes actives (clubs de marche nordique, vélo, natation). (3) Culture et lien social : bibliothèques, festivals, associations de bénévolat, universités du 3e âge (UTLA). (4) Budget maîtrisé : retraite médiane ≈ 1 500 € nets — le logement ne doit pas dépasser 40 % du revenu.",
+      },
+      {
+        heading: "Pau : le choix montagne-santé par excellence",
+        body: "Score MeilleurVille nature : 9.4/10. Pau est sous-cotée dans tous les classements grand public. Le CHU de Pau est un hôpital universitaire de référence. Les Pyrénées sont à 40 minutes en voiture (et la gare de Pau a des navettes ski l'hiver). L'association Rando Pyrénées Pau organise plus de 200 sorties par an. Le prix immobilier ≈ 2 400 €/m² permet à une retraite de 1 800 € d'acheter un T3 avec balcon sans s'endetter. Bonus : la Cité de Pau est plate et cyclable — utile quand les genoux commencent à jouer des tours.",
+      },
+      {
+        heading: "Aix-en-Provence : la retraite premium sous le soleil",
+        body: "Score MeilleurVille : 7.8/10. Aix est la référence pour les seniors à budget confortable. Soleil (300 jours/an), gastronomie, festivals (Piano, Musique Baroque, Opéra), université et tissu associatif dense. Le CHU d'Aix-Marseille est à 30 minutes. Bémol : les prix immobiliers (≈ 5 500 €/m²) excluent les retraites modestes. À envisager pour les professions libérales retraitées ou les couples ayant capitalisé sur un appartement parisien.",
+      },
+      {
+        heading: "Angers : le compromis parfait pour les budgets médians",
+        body: "Score famille : 8.2/10 — et ce score vaut pour les seniors actifs. Angers combine plusieurs avantages rares : CHU de niveau national, 60 km de pistes cyclables en ville, Loire à Vélo depuis le centre, UTLA active (Université du Temps Libre d'Anjou avec 800 membres), et des prix ≈ 3 200 €/m² accessibles à une retraite correcte. La ville est plate et compacte — tout se fait à pied ou à vélo. TGV Paris en 1h35.",
+      },
+      {
+        heading: "Grenoble : pour les seniors qui refusent de descendre de montagne",
+        body: "Les retraités actifs de Grenoble ne ressemblent à personne : sortie ski le mercredi, randonnée le samedi, concert de chambre le dimanche. L'écosystème est là : Chamrousse à 35 minutes, Chartreuse à 25 minutes, Vercors à 30 minutes. Le CHU de Grenoble est l'un des meilleurs de France en cardiologie et orthopédie — deux spécialités utiles après 65 ans. Prix ≈ 3 800 €/m², plus abordable qu'Annecy pour un cadre montagneux comparable. Limite : la pollution hivernale reste un enjeu réel pour les personnes asthmatiques.",
+      },
+      {
+        heading: "La Rochelle et le littoral atlantique",
+        body: "La Rochelle cumule mer, vélo et espaces verts — trois atouts majeurs pour un senior actif. Le réseau cyclable (60+ km) permet de tout faire à vélo. L'île de Ré est à 20 minutes. Les associations de randonnée côtière et kayak de mer sont parmi les plus actives de la région. Le CHU de Poitiers (60 km) complète l'hôpital de La Rochelle pour les interventions lourdes. Prix ≈ 3 800 €/m² — raisonnable pour le cadre offert.",
+      },
+      {
+        heading: "Ce qu'on ne dit pas dans les autres classements",
+        body: "Les classements de villes pour seniors se focalisent souvent sur les maisons de retraite et les Ehpad — ce n'est pas ce guide. Pour les 60-75 ans autonomes et actifs, les vrais critères sont : est-ce que je peux encore faire du vélo depuis le centre-ville sans risquer ma vie ? Est-ce que les médecins spécialistes acceptent de nouveaux patients ? Est-ce que je peux m'impliquer bénévolement dans quelque chose qui compte ? Ces questions ont des réponses très différentes selon les villes — et elles ne figurent pas dans les indicateurs INSEE.",
+      },
+    ],
+    relatedCities: ["pau", "aix-en-provence", "angers", "grenoble", "la-rochelle", "bayonne"],
+    relatedGuides: [
+      "meilleures-villes-retraite-avec-mer-et-soleil-petit-budget-2025",
+      "villes-france-ainés-retraite-services-proximite-2025",
+      "vivre-en-auvergne-rhone-alpes-guide-2025",
+    ],
+    tags: ["seniors actifs", "retraite active", "randonnée", "vélo", "santé", "CHU", "qualité de vie 60+", "France"],
+  },
+  {
+    slug: "teletravailler-depuis-bretagne-guide-2026",
+    title: "Télétravailler depuis la Bretagne en 2026 : le guide complet",
+    metaTitle: "Télétravailler depuis la Bretagne 2026 — Rennes, Brest, Lorient, Vannes",
+    metaDesc:
+      "Fibre, coworking, TGV Paris : la Bretagne est-elle vraiment compatible avec le télétravail ? Notre guide honnête des villes bretonnes pour les remote workers.",
+    category: "teletravail",
+    emoji: "🦭",
+    readMinutes: 8,
+    publishedAt: "2026-05-11",
+    updatedAt: "2026-05-11",
+    intro:
+      "La Bretagne attire de plus en plus de télétravailleurs — à raison. La région combine qualité de vie exceptionnelle (mer, nature, culture locale dense), prix immobiliers encore accessibles hors Rennes, et une infrastructure numérique meilleure que sa réputation. Ce guide va au-delà du cliché «galettes et crêpes» pour répondre à la vraie question : est-ce que la Bretagne tient ses promesses pour un remote worker qui gagne sa vie depuis un écran ?",
+    sections: [
+      {
+        heading: "La fibre en Bretagne : état réel en 2026",
+        body: "La Bretagne a réalisé un rattrapage spectaculaire sur le numérique grâce au réseau Mégalis Bretagne. En 2026, plus de 92 % des locaux bretons sont éligibles à la fibre optique (FTTH). Rennes, Brest, Lorient, Vannes, Quimper et Saint-Brieuc sont couvertes à quasi 100 %. Les zones rurales côtières (Finistère nord, cap Sizun, presqu'île de Crozon) restent plus hétérogènes — prévoir de vérifier l'éligibilité à l'adresse exacte avant de louer. En tertiaire (coworkings, tiers-lieux), la connexion est systématiquement garantie.",
+      },
+      {
+        heading: "Rennes : le hub breton pour les remote workers",
+        body: "Score télétravail MeilleurVille : 8.4/10. Rennes cumule tous les avantages : TGV Paris en 1h25 (2 allers-retours/jour sans difficulté), French Tech active (>400 startups), coworkings à partir de 100 €/mois (La Cordée, Grains de Sel, Le Village by CA). Le loyer médian T2 est de 750 €/mois — moitié d'un T2 parisien. Deux réserves : le prix immobilier monte vite (≈ 3 700 €/m² en 2026) et la ville est moins «Bretagne» que ses cousines du Finistère.",
+      },
+      {
+        heading: "Brest : le choix du bout du monde bien connecté",
+        body: "Brest est à 3h de Paris par TGV — plus loin que Rennes, mais pas au bout du monde. La ville a développé un écosystème numérique inattendu autour de l'Ifremer, de la Marine Nationale et de l'UBO (Université de Bretagne Occidentale). Les coworkings se sont multipliés (Espace Nautilus, Digital Lab) et les prix ≈ 2 100 €/m² permettent d'acheter un T3 pour 180 000 €. La réalité du temps breton (vent, pluie, lumière grise d'octobre à mars) est un filtre naturel — ceux qui restent adorent.",
+      },
+      {
+        heading: "Lorient et Vannes : la mer sans faire le sacrifice brestois",
+        body: "Lorient est à 2h45 de Paris en TGV, Vannes à 2h20. Les deux villes offrent la mer à 10-15 minutes du centre, un tissu de coworkings en développement et des prix ≈ 2 400-3 600 €/m². Lorient est plus industrieuse (pêche, nautisme, Citroën), Vannes plus touristico-résidentielle. Pour un télétravailleur en couple ou en famille, Vannes est souvent préférée (Golfe du Morbihan, écoles, vie de marché). Pour un profil solo budget-first, Lorient est plus pertinente.",
+      },
+      {
+        heading: "Le calcul TGV : quand est-ce que ça devient rentable ?",
+        body: "Un aller-retour Paris-Rennes en TGV coûte 70-140 € selon le préavis. Pour un remote worker qui monte une fois par semaine à Paris (50 fois/an), le budget transport est de 3 500 à 7 000 €/an. C'est significatif — mais les économies sur le logement (750 € vs 1 400 € de loyer) représentent 7 800 €/an. Le différentiel net est positif même avec un aller-retour hebdomadaire. Pour ceux qui montent une à deux fois par mois, le gain annuel dépasse 10 000 €. Faites votre propre calcul avec la fréquence réelle de vos déplacements.",
+      },
+      {
+        heading: "Coworking et tiers-lieux en Bretagne : état des lieux 2026",
+        body: "Rennes concentre l'essentiel des espaces de coworking premium (La Cordée, Station C, Cowork'In Rennes). Brest, Lorient et Vannes ont chacune 3 à 5 espaces opérationnels. La carte des tiers-lieux (fab labs, ateliers partagés, espaces hybrides) est bien fournie dans les villes moyennes (Quimper, Pontivy, Morlaix). Pour le travail rural ou côtier, le réseau Bretagne Fabrique développe des «télécentres de village» avec fibre et salle de réunion dans plusieurs communes — une option méconnue qui change la donne pour les profils solo souhaitant s'installer dans une commune de moins de 5 000 habitants.",
+      },
+      {
+        heading: "Les limites à connaître avant de signer",
+        body: "La Bretagne n'est pas parfaite pour tous les profils remote. Trois limites réelles. (1) Les déplacements inter-villes sont lents hors TGV : Brest-Rennes en TER prend 2h (contre 1h en voiture). Si votre employeur est à Lorient et vos collègues à Rennes, les réunions en présentiel peuvent devenir chronophages. (2) L'aéroport de Rennes est limité aux liaisons domestiques et européennes courtes — si votre client est à New York ou Dubai, l'aéroport de Nantes (1h30) ou CDG (1h25 de TGV) sont indispensables. (3) L'hiver breton demande une adaptation psychologique : les journées de pluie continue entre novembre et février peuvent être dures pour des profils peu habitués.",
+      },
+    ],
+    relatedCities: ["rennes", "brest", "lorient", "vannes", "quimper", "saint-brieuc"],
+    relatedGuides: [
+      "vivre-en-bretagne-guide-2025",
+      "vivre-en-france-teletravail-guide-2025",
+      "quitter-rennes-guide-2026",
+    ],
+    tags: ["Bretagne", "télétravail", "remote work", "Rennes", "Brest", "Lorient", "Vannes", "fibre", "coworking", "digital nomad"],
+  },
 ];
 
 export const GUIDE_CATEGORIES = [
