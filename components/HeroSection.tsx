@@ -204,6 +204,7 @@ export function HeroSection() {
                   onChange={(e) => setQuery(e.target.value)}
                   onFocus={() => suggestions.length > 0 && setOpen(true)}
                   placeholder="Quelle ville vous fait rêver ?"
+                  aria-label="Rechercher une ville"
                   className="flex-1 bg-transparent py-2 text-sm text-[var(--text-primary)] placeholder:text-[var(--text-tertiary)] outline-none"
                   autoComplete="off"
                 />
