@@ -126,3 +126,124 @@ npm run lint
 ```
 
 @AGENTS.md
+
+---
+
+## Content roadmap — guides (`data/guides.ts`)
+
+Current count: **182 guides** (target: 250+). Add via the pattern in this file — each guide needs `slug, title, metaTitle, metaDesc, category, emoji, readMinutes, publishedAt, updatedAt, intro, sections[], relatedCities[], relatedGuides[], tags[]`. All copy in **French**, direct voice, data-led. No silent fake figures.
+
+### Série "Quitter X" 2026
+Track big cities — one guide per city, category `"comparaison"`.
+
+| Ville | Slug | Status |
+|-------|------|--------|
+| Paris | `quitter-paris-guide-2025` | ✅ done (2025) |
+| Lyon | `quitter-lyon-guide-2026` | ✅ done |
+| Marseille | `quitter-marseille-guide-2026` | ✅ done |
+| Lille | `quitter-lille-guide-2026` | ✅ done |
+| Toulouse | `quitter-toulouse-guide-2026` | ✅ done |
+| Bordeaux | `quitter-bordeaux-guide-2026` | ✅ done |
+| Nantes | `quitter-nantes-guide-2026` | ✅ done |
+| Rennes | `quitter-rennes-guide-2026` | ✅ done |
+| Montpellier | `quitter-montpellier-guide-2026` | ✅ done |
+| Strasbourg | `quitter-strasbourg-guide-2026` | ✅ done |
+| Nice | `quitter-nice-guide-2026` | ✅ done |
+| Grenoble | `quitter-grenoble-guide-2026` | ✅ done |
+| Clermont-Ferrand | `quitter-clermont-ferrand-guide-2026` | ✅ done |
+| Dijon | `quitter-dijon-guide-2026` | ⬜ todo |
+| Rouen | `quitter-rouen-guide-2026` | ⬜ todo |
+| Nîmes | `quitter-nimes-guide-2026` | ⬜ todo |
+| Toulon | `quitter-toulon-guide-2026` | ⬜ todo |
+| Annecy | `quitter-annecy-guide-2026` | ⬜ todo |
+
+### Comparaisons A vs B 2026
+Category `"comparaison"`. Prefer pairs not yet covered and high-search-intent.
+
+| Paire | Slug | Status |
+|-------|------|--------|
+| Lyon vs Bordeaux | `lyon-vs-bordeaux-comparatif-2025` | ✅ done |
+| Nantes vs Rennes | `nantes-vs-rennes-comparatif-2025` | ✅ done |
+| Marseille vs Toulouse | `marseille-vs-toulouse-comparatif-2025` | ✅ done |
+| Bordeaux vs Rennes | `bordeaux-vs-rennes-comparatif-2026` | ✅ done |
+| Nice vs Montpellier | `nice-vs-montpellier-comparatif-2026` | ✅ done |
+| Toulon vs Marseille | `toulon-vs-marseille-comparatif-2026` | ✅ done |
+| Dijon vs Lyon | `dijon-vs-lyon-comparatif-2026` | ✅ done |
+| Caen vs Rouen | `caen-vs-rouen-comparatif-2026` | ✅ done |
+| Nantes vs Bordeaux | `nantes-vs-bordeaux-comparatif-2026` | ⬜ todo |
+| Pau vs Bayonne | `pau-vs-bayonne-comparatif-2026` | ⬜ todo |
+| Annecy vs Chambéry | `annecy-vs-chambery-comparatif-2026` | ⬜ todo |
+| Reims vs Amiens | `reims-vs-amiens-comparatif-2026` | ⬜ todo |
+| La Rochelle vs Bayonne | `la-rochelle-vs-bayonne-comparatif-2026` | ⬜ todo |
+| Brest vs Lorient | `brest-vs-lorient-comparatif-2026` | ⬜ todo |
+
+### Région 2026
+Category `"region"`. Prefer departments/zones with no 2026 guide yet.
+
+| Zone | Slug | Status |
+|------|------|--------|
+| Hauts-de-France | `vivre-en-hauts-de-france-guide-2026` | ✅ done |
+| Centre-Val de Loire | `vivre-en-centre-val-de-loire-guide-2026` | ✅ done |
+| Pays Basque | `vivre-en-pays-basque-guide-2026` | ✅ done |
+| Lorraine | `vivre-en-lorraine-metz-nancy-thionville-2026` | ✅ done |
+| Corse | `vivre-en-corse-guide-2026` | ✅ done |
+| Outre-mer | `vivre-en-outre-mer-guide-2026` | ✅ done |
+| Auvergne profonde | `vivre-en-auvergne-profonde-guide-2026` | ✅ done |
+| Landes | `vivre-dans-les-landes-guide-2026` | ✅ done |
+| Roussillon | `vivre-en-roussillon-guide-2026` | ✅ done |
+| Ain (Pays de Gex, Bresse) | `vivre-dans-l-ain-guide-2026` | ⬜ todo |
+| Ariège | `vivre-en-ariege-guide-2026` | ⬜ todo |
+| Ardennes / Meuse | `vivre-en-ardennes-meuse-guide-2026` | ⬜ todo |
+| Creuse / Corrèze profonde | `vivre-en-creuse-guide-2026` | ⬜ todo |
+
+### Télétravail par région 2026
+Category `"teletravail"`.
+
+| Région | Slug | Status |
+|--------|------|--------|
+| Bretagne | `teletravailler-depuis-bretagne-guide-2026` | ✅ done |
+| Normandie | `teletravailler-depuis-normandie-guide-2026` | ✅ done |
+| Provence | `teletravailler-depuis-provence-guide-2026` | ✅ done |
+| Grand Est | `teletravailler-depuis-grand-est-guide-2026` | ✅ done |
+| Bourgogne | `teletravailler-depuis-bourgogne-guide-2026` | ✅ done |
+| Pays de la Loire | `teletravailler-depuis-pays-de-la-loire-guide-2026` | ⬜ todo |
+| Auvergne / Massif Central | `teletravailler-depuis-auvergne-guide-2026` | ⬜ todo |
+| Nouvelle-Aquitaine | `teletravailler-depuis-nouvelle-aquitaine-guide-2026` | ⬜ todo |
+| Île-de-France banlieue | `teletravailler-grande-couronne-ile-de-france-2026` | ⬜ todo |
+
+### Lifestyle / thématiques 2026
+Category `"lifestyle"`.
+
+| Thème | Slug | Status |
+|-------|------|--------|
+| Seniors actifs | `meilleures-villes-seniors-actifs-france-2026` | ✅ done |
+| Artistes / créatifs | `meilleures-villes-artistes-creatifs-france-2026` | ✅ done |
+| Gastronomie | `meilleures-villes-gastronomie-france-2026` | ✅ done |
+| Cyclistes | `meilleures-villes-cyclistes-france-2026` | ✅ done |
+| Surf / sports nautiques | `meilleures-villes-surf-sports-nautiques-france-2026` | ✅ done |
+| Randonnée / trail | `meilleures-villes-randonnee-trail-france-2026` | ✅ done |
+| FIRE / retraite anticipée | `villes-france-retraite-anticipee-fire-2026` | ✅ done |
+| Culture / festivals | `meilleures-villes-culture-festivals-france-2026` | ⬜ todo |
+| Zéro déchet / éco | `meilleures-villes-zero-dechet-ecologie-france-2026` | ⬜ todo |
+| Animaux / pets | `meilleures-villes-animaux-chiens-france-2026` | ⬜ todo |
+| Musique / scène musicale | `meilleures-villes-musique-scene-france-2026` | ⬜ todo |
+| Expatriés revenant en France | `expatries-retour-france-quelle-ville-2026` | ⬜ todo |
+
+### Budget 2026
+Category `"budget"`.
+
+| Thème | Slug | Status |
+|-------|------|--------|
+| Primo-accédants | `meilleures-villes-primo-accedants-france-2026` | ✅ done |
+| Freelances | `meilleures-villes-freelances-independants-france-2026` | ✅ done |
+| Investissement < 100k | `investissement-locatif-moins-100000-euros-france-2026` | ⬜ todo |
+| Étudiant budget serré | `survivre-etudiant-province-moins-700-euros-2026` | ⬜ todo |
+| Colocation jeunes actifs | `meilleures-villes-colocation-jeunes-actifs-2026` | ⬜ todo |
+
+### Famille 2026
+Category `"famille"`.
+
+| Thème | Slug | Status |
+|-------|------|--------|
+| Scolarisation alternative | `villes-france-ecoles-alternatives-montessori-2026` | ⬜ todo |
+| Familles expatriées retour | `familles-expatriees-retour-france-quelle-ville-2026` | ⬜ todo |

@@ -8096,6 +8096,382 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["freelance", "indépendant", "auto-entrepreneur", "coworking", "réseau", "Rennes", "Bordeaux", "Nantes", "Strasbourg", "télétravail"],
   },
+  {
+    slug: "quitter-dijon-guide-2026",
+    title: "Quitter Dijon en 2026 : quand la Bourgogne devient trop petite",
+    metaTitle: "Quitter Dijon 2026 — Lyon, Besançon, Chalon, Mâcon : le guide honnête",
+    metaDesc:
+      "Dijon est agréable mais son marché de l'emploi est étroit. Qui part, pourquoi, et quelles villes offrent plus sans tout sacrifier — calcul honnête.",
+    category: "comparaison",
+    emoji: "🍷",
+    readMinutes: 7,
+    publishedAt: "2026-05-11",
+    updatedAt: "2026-05-11",
+    intro:
+      "Dijon est une ville de qualité de vie — gastronomie, vignobles, architecture, centre historique intact. Mais elle a un talon d'Achille que les guides touristiques évitent : le marché de l'emploi privé y est étroit pour les profils qualifiés hors Michelin, BNP, Danone et secteur public. Quand une mutation professionnelle, une rupture de contrat ou simplement l'envie d'évoluer se présente, beaucoup de Dijonnais regardent ailleurs.",
+    sections: [
+      {
+        heading: "Les raisons qui font partir",
+        body: "Deux moteurs principaux. (1) Le marché de l'emploi : Dijon a une économie solide pour les profils agroalimentaire, finance-assurance (BPCE, Crédit Agricole), santé et secteur public. Pour les profils tech, marketing digital, design UX ou SaaS, les offres locales sont nettement plus rares qu'à Lyon, Bordeaux ou Rennes. (2) La taille : 260 000 habitants dans l'aire urbaine, c'est assez grand pour éviter l'isolement, mais assez petit pour que les réseaux professionnels soient saturés après quelques années. Les profils ambitieux finissent par avoir rencontré tout le monde — et cherchent du sang neuf.",
+      },
+      {
+        heading: "Lyon : la destination évidente à 1h40",
+        body: "Lyon est la première destination des Dijonnais qui partent pour l'emploi. TGV en 1h40, métropole de 2,3 millions d'habitants, écosystème tech-pharma-finance de rang européen. Les prix immobiliers à Lyon sont 2 fois supérieurs (≈ 5 500 €/m² au centre contre 2 700 € à Dijon). La stratégie adoptée par beaucoup : acheter à Bourg-en-Bresse ou Mâcon (45-60 min de Lyon en TER) et faire le trajet 2-3 fois par semaine. Le résultat : accès au marché lyonnais avec un coût de logement 40 % inférieur.",
+      },
+      {
+        heading: "Besançon : rester en Bourgogne-Franche-Comté avec plus de relief",
+        body: "Besançon est à 1h15 de Dijon par l'A36. Son économie est différente : microtechniques, horlogerie (héritage jurassien), santé (CHU national), université de Franche-Comté. La ville est vallonnée et la Boucle du Doubs crée un cadre naturel remarquable en plein cœur de ville. Prix ≈ 2 400 €/m². Pour un Dijonnais cherchant à changer d'environnement sans exploser son budget et en restant dans la région, Besançon est une option cohérente et sous-évaluée.",
+      },
+      {
+        heading: "Chalon-sur-Saône et Mâcon : les villes de la Saône à prix cassés",
+        body: "Chalon-sur-Saône (45 000 habitants, 40 min de Dijon en TER) : ≈ 1 700 €/m², tissu industriel et commercial actif, marché hebdomadaire réputé, festival des arts de la rue (Chalon dans la Rue) de rang national. Mâcon (35 min de TGV vers Lyon, 40 min vers Dijon) : ≈ 2 000 €/m², porte de la Bourgogne du Sud et du Beaujolais. Les deux permettent de garder la connexion TGV vers Lyon ou Paris avec un coût de vie nettement inférieur.",
+      },
+      {
+        heading: "Paris : le pari de l'ambition maximale",
+        body: "Pour les Dijonnais qui quittent vraiment leur région, Paris reste la destination des grandes ambitions. TGV en 1h35 (Bercy), salaires parisiens pour les profils qualifiés 25 à 40 % supérieurs aux équivalents dijonnais. Le coût de la vie efface une grande partie de ce différentiel — mais pas complètement pour les hauts salaires. La migration peut se faire en plusieurs étapes : d'abord 100 % remote depuis Dijon, puis 2j/semaine à Paris, puis décision.",
+      },
+      {
+        heading: "Ce que Dijon offre qu'on ne retrouve pas facilement ailleurs",
+        body: "Avant de partir, le calcul doit intégrer ce qu'on laisse : un centre-ville piéton exceptionnel, des marchés alimentaires de grande qualité, la Route des Grands Crus à vélo en 30 minutes, un CHU de niveau national, et un coût de vie qui permet d'épargner 20-25 % d'un salaire cadre moyen. Ces éléments ne se retrouvent pas à Lyon ou Paris à prix équivalent. Si l'emploi local existe — même en format hybride — la question mérite d'être posée à rebours : pourquoi partir quand on a Gevrey-Chambertin à 30 minutes ?",
+      },
+    ],
+    relatedCities: ["dijon", "lyon", "besancon", "chalon-sur-saone", "macon", "beaune"],
+    relatedGuides: [
+      "dijon-vs-lyon-comparatif-2026",
+      "teletravailler-depuis-bourgogne-guide-2026",
+      "quitter-lyon-guide-2026",
+    ],
+    tags: ["Dijon", "quitter Dijon", "Lyon", "Besançon", "Bourgogne", "emploi", "déménagement", "Saône-et-Loire"],
+  },
+  {
+    slug: "nantes-vs-bordeaux-comparatif-2026",
+    title: "Nantes vs Bordeaux en 2026 : le match des métropoles atlantiques enfin tranché",
+    metaTitle: "Nantes vs Bordeaux 2026 — Coût, emploi, qualité de vie : comparatif complet",
+    metaDesc:
+      "Nantes ou Bordeaux pour s'installer ? Les deux métropoles atlantiques sont les premières destinations des Parisiens qui partent. Ce comparatif honnête aide à choisir selon votre profil.",
+    category: "comparaison",
+    emoji: "⚖️",
+    readMinutes: 9,
+    publishedAt: "2026-05-11",
+    updatedAt: "2026-05-11",
+    intro:
+      "Nantes et Bordeaux sont systématiquement en tête des classements des villes préférées des Français — et se retrouvent souvent en finale dans le choix des Parisiens qui partent vers l'Atlantique. Elles partagent beaucoup : taille similaire, TGV Paris < 2h10, réputation de villes où il fait bon vivre, forte communauté tech. Mais elles sont profondément différentes. Ce guide fait le point sans concession.",
+    sections: [
+      {
+        heading: "Immobilier : Bordeaux nettement plus chère",
+        body: "L'écart est significatif en 2026. Bordeaux centre (Saint-Pierre, Chartrons, Victor-Hugo) : 5 200–6 500 €/m². Nantes centre (Dobrée, Canclaux, Île de Nantes) : 4 200–5 000 €/m². Soit 20 à 30 % de moins à Nantes. En location, le T3 médian à Bordeaux atteint 1 400 €/mois ; à Nantes ≈ 1 200 €. Sur 10 ans, l'écart représente 24 000 €. À l'achat pour un T3 de 70 m², comptez 100 000 à 120 000 € de moins à Nantes. Bordeaux a subi une hausse de +60 % en 10 ans, largement alimentée par l'ouverture de la LGV Paris-Bordeaux en 2017.",
+      },
+      {
+        heading: "Emploi : deux dynamiques comparables, deux spécialisations",
+        body: "Les deux métropoles ont des bassins d'emploi de taille similaire, mais orientés différemment. Bordeaux est forte sur : aéronautique et défense (Dassault, Airbus, Thales à Mérignac), vins et négoce, numérique. Nantes est forte sur : numérique et SaaS (French Tech dense), agroalimentaire, énergie éolienne offshore, santé (CHU). Pour les profils ingénieurs aéronautique : Bordeaux. Pour les profils dev/data/product : Nantes est légèrement plus dense en offres locales.",
+      },
+      {
+        heading: "Soleil et météo : avantage Bordeaux",
+        body: "Bordeaux bénéficie de 2 050 heures d'ensoleillement par an contre 1 750 pour Nantes. Les étés bordelais sont chauds (canicules en 2022, 2023) et les hivers doux. Nantes est plus tempérée, avec des précipitations mieux réparties. Pour les personnes sensibles au soleil, Bordeaux l'emporte. Pour ceux qui préfèrent ne pas subir la chaleur estivale, Nantes est plus confortable.",
+      },
+      {
+        heading: "Culture et art de vivre",
+        body: "Bordeaux a une culture patrimoniale et gastronomique assumée : le vin, les restaurants étoilés, les châteaux du Médoc à 45 minutes, la Cité du Vin. Nantes est plus inventive et décalée : les Machines de l'Île sont uniques au monde, le festival des Utopiales est le meilleur festival SF de France, et la communauté artistique est dense et créative. Pour une vie culturelle surprenante et en mouvement, Nantes. Pour une vie gastronomique et patrimoniale profonde, Bordeaux.",
+      },
+      {
+        heading: "Connectivité et mobilité",
+        body: "Les deux villes sont quasi équivalentes sur TGV Paris (Bordeaux 2h05, Nantes 2h10). Bordeaux Mérignac est un aéroport plus international (Dublin, Madrid, Amsterdam en direct, routes vers l'Afrique du Nord). Nantes Atlantique est solide mais légèrement inférieur en volume de liaisons. La connexion directe entre les deux villes n'est pas rapide (2h15 via Paris). Bordeaux est légèrement mieux positionnée pour les profils à forte mobilité internationale.",
+      },
+      {
+        heading: "Le verdict selon votre profil",
+        body: "Choisissez Bordeaux si : budget achat > 450 000 € pour un T3 ; aéronautique ou négoce de vin ; soleil, gastronomie, vie de terrasse ; sensibilité à l'architecture haussmannienne et au patrimoine UNESCO. Choisissez Nantes si : tech/numérique avec bassin d'emploi dense ; budget 20-30 % inférieur à Bordeaux ; créativité artistique et inventivité urbaine ; enfants, cyclabilité croissante et espaces verts accessibles.",
+      },
+    ],
+    relatedCities: ["nantes", "bordeaux", "la-rochelle", "rennes", "angers", "bayonne"],
+    relatedGuides: [
+      "bordeaux-vs-rennes-comparatif-2026",
+      "quitter-nantes-guide-2026",
+      "quitter-bordeaux-guide-2026",
+    ],
+    tags: ["Nantes", "Bordeaux", "comparatif", "Atlantique", "immobilier", "emploi", "qualité de vie", "soleil", "culture", "télétravail"],
+  },
+  {
+    slug: "pau-vs-bayonne-comparatif-2026",
+    title: "Pau vs Bayonne en 2026 : deux visions du Sud-Ouest pyrénéen",
+    metaTitle: "Pau vs Bayonne 2026 — Pyrénées, mer, prix, emploi : comparatif complet",
+    metaDesc:
+      "Pau ou Bayonne pour s'installer dans le Sud-Ouest ? Une préfecture calme et abordable contre une cité basque bouillonnante et chère. Notre comparatif honnête.",
+    category: "comparaison",
+    emoji: "🏔️",
+    readMinutes: 8,
+    publishedAt: "2026-05-11",
+    updatedAt: "2026-05-11",
+    intro:
+      "Pau et Bayonne sont distantes de 110 km et représentent deux philosophies radicalement différentes du Sud-Ouest pyrénéen. Pau est tranquille, universitaire, avec des Pyrénées spectaculaires à portée de main et des prix accessibles. Bayonne est la capitale du Pays Basque français, intense, chère, au carrefour de l'Atlantique et de la culture basque.",
+    sections: [
+      {
+        heading: "Immobilier : l'écart qui oriente tout",
+        body: "Pau centre (Hédas, quartier du Château) : ≈ 2 400 €/m², loyer médian T3 ≈ 750 €. Bayonne centre (Grand Bayonne, Saint-Esprit) : ≈ 4 800 €/m², loyer médian T3 ≈ 1 100 €. L'écart est de 100 % à l'achat et de 47 % en location. Pour un ménage à 3 800 € nets, l'achat d'un T3 à Pau est accessible (≈ 160 000 € frais inclus, mensualité ≈ 750 €) ; à Bayonne, le même bien coûte 330 000 € (mensualité ≈ 1 550 €) — soit 41 % du revenu net.",
+      },
+      {
+        heading: "Pyrénées vs océan : le critère nature",
+        body: "Pau est la ville des Pyrénées. Le boulevard des Pyrénées offre une vue sur 80 km de chaîne. Le Pic du Midi d'Ossau, les vallées d'Aspe et d'Ossau, le GR10 sont à 40-50 minutes. Bayonne est à 8 km de la mer. Les plages de surf de Côte Basque sont à 15-20 minutes. Pour un randonneur ou alpiniste, Pau est supérieure. Pour un surfeur ou amateur de côte atlantique, Bayonne est irremplaçable.",
+      },
+      {
+        heading: "Identité culturelle : basque vs béarnaise",
+        body: "Bayonne a une identité basque forte : fêtes de Bayonne (500 000 visiteurs en 5 jours), txoco gastronomiques, pelote basque, langue euskara dans les rues. L'identité est revendiquée et quotidienne. Pau est la capitale du Béarn — une culture gasconne plus discrète mais réelle. Pour quelqu'un qui valorise l'effervescence communautaire, Bayonne est plus intense. Pour un cadre de vie apaisé, Pau est plus confortable.",
+      },
+      {
+        heading: "Emploi et économie",
+        body: "Pau dispose d'un pôle pétrole-gaz (TotalEnergies, plusieurs milliers d'emplois exploration-production), d'un CHU et d'une université de 13 000 étudiants, et d'une base aérienne (armée de Terre). Bayonne bénéficie de la dynamique économique du Pays Basque (tourisme, commerce, artisanat) mais son bassin d'emploi privé qualifié est moins dense que Pau hors tertiaire. Les deux villes restent nettement en deçà de Bordeaux ou Toulouse en volume d'offres.",
+      },
+      {
+        heading: "Connexions et mobilité",
+        body: "Pau : TGV Paris en 4h15 (souvent correspondance à Bordeaux). Bayonne : TGV Paris en 4h35. L'aéroport de Pau Pyrénées dessert Paris CDG et Orly (3-4 vols/jour). Biarritz Pays Basque Airport (10 km de Bayonne) dessert Paris et plusieurs capitales européennes. Sur la mobilité longue distance, les deux villes sont comparables — toutes deux en retrait des grands hubs TGV.",
+      },
+      {
+        heading: "Pour qui Pau, pour qui Bayonne ?",
+        body: "Choisissez Pau si : budget achat < 250 000 € pour un T3 ; randonneur/alpiniste valorizant les Pyrénées ; pétrole-gaz, défense ou santé ; ville à taille humaine sans effervescence touristique permanente. Choisissez Bayonne si : budget achat > 320 000 € pour un T3 ; surfeur ou amateur de côte basque ; identité culturelle basque, fêtes et intensité sociale ; tourisme, restauration ou commerce haut de gamme.",
+      },
+    ],
+    relatedCities: ["pau", "bayonne", "biarritz", "anglet", "tarbes", "oloron-sainte-marie"],
+    relatedGuides: [
+      "vivre-en-pays-basque-guide-2026",
+      "vivre-dans-les-pyrenees-guide-2025",
+      "vivre-en-nouvelle-aquitaine-guide-2025",
+    ],
+    tags: ["Pau", "Bayonne", "comparatif", "Pyrénées", "Pays Basque", "Béarn", "surf", "randonnée", "immobilier", "qualité de vie"],
+  },
+  {
+    slug: "vivre-dans-l-ain-guide-2026",
+    title: "Vivre dans l'Ain en 2026 : Bourg-en-Bresse, Pays de Gex, Belley — le guide complet",
+    metaTitle: "Vivre dans l'Ain 2026 — Bourg-en-Bresse, Pays de Gex, frontaliers Genève",
+    metaDesc:
+      "L'Ain est le département français qui compte le plus de travailleurs frontaliers. Entre Pays de Gex à 20 minutes de Genève et Bresse authentique, notre guide complet 2026.",
+    category: "region",
+    emoji: "🐔",
+    readMinutes: 9,
+    publishedAt: "2026-05-11",
+    updatedAt: "2026-05-11",
+    intro:
+      "L'Ain est un département qu'on traverse souvent sans s'arrêter, coincé entre Lyon à l'ouest, la Savoie au sud-est et la Suisse au nord-est. C'est une erreur. L'Ain cumule des situations très contrastées : le Pays de Gex (20 minutes de Genève, frontaliers parmi les mieux payés de France), la Dombes (mille étangs, paradis ornithologique), la Bresse (poulet de Bresse AOP) et le Bugey (vignoble méconnu).",
+    sections: [
+      {
+        heading: "Le Pays de Gex : l'eldorado frontalier",
+        body: "Le Pays de Gex est une enclave française entre le Jura et le lac Léman, à 20-40 minutes de Genève. C'est une des zones les plus prospères de France par le revenu médian, alimentée par les frontaliers dont les salaires suisses sont en moyenne 40-60 % supérieurs aux équivalents français. Prix immobilier à Ferney-Voltaire : ≈ 5 500 €/m², Divonne-les-Bains : ≈ 6 000 €/m², Gex ville : ≈ 4 500 €/m². Avantage fiscal : les frontaliers résidant en France paient leurs impôts en France (taux français) tout en percevant un salaire suisse.",
+      },
+      {
+        heading: "Bourg-en-Bresse : la préfecture gastronomique méconnue",
+        body: "Score MeilleurVille : 6.6/10. Bourg-en-Bresse est une des préfectures françaises les moins connues pour sa taille (60 000 habitants) — et l'une des plus gastronomiques. La volaille de Bresse AOP (poulet, poularde, chapon) est le seul produit carné classé AOC/AOP en Europe, produit à moins de 30 km du centre. Prix ≈ 2 100 €/m². Lyon est à 1h de TER, Genève à 1h30 de TGV. Pour un télétravailleur gastronome, c'est un choix cohérent et sous-estimé.",
+      },
+      {
+        heading: "La Dombes : mille étangs et tranquillité radicale",
+        body: "La Dombes est un plateau entre Bourg-en-Bresse et Lyon parsemé de 1 000 étangs médiévaux. C'est un des sites ornithologiques les plus riches de France (Parc des Oiseaux de Villars-les-Dombes). Prix immobilier ≈ 1 600–1 900 €/m², connexion routière Lyon en 40-60 minutes. Pour un télétravailleur cherchant nature et tranquillité à portée de métropole, la Dombes est unique — et presque ignorée des guides de relocation.",
+      },
+      {
+        heading: "Belley et le Bugey : le Jura méridional méconnu",
+        body: "Le Bugey est la partie méridionale du Jura dans l'Ain. Belley (9 000 habitants) en est la capitale — ville médiévale avec cathédrale, gastronomie locale et vignoble du Bugey AOC (Manicle, Montagnieu, Cerdon pétillant rosé). Prix ≈ 1 900 €/m². Accès Chambéry (50 min) et Lyon (1h15). La nature est immédiatement présente : gorges de l'Ain, randonnée, cascade de Cerveyrieu.",
+      },
+      {
+        heading: "Oyonnax : l'industrie plastique qui se réinvente",
+        body: "Oyonnax (23 000 habitants) est surnommée «capitale mondiale de la lunetterie» — un passé industriel plastique qui lui a valu une réputation difficile. La ville se réinvente : pôle de plasturgie technique (médical, aéronautique), tissu de PMI solide, prix ≈ 1 500 €/m² parmi les moins chers du département. Pour un ingénieur ou technicien dans les matériaux, Oyonnax reste un bassin d'emploi réel à coût de vie réduit.",
+      },
+      {
+        heading: "L'Ain pour quel profil ?",
+        body: "Quatre profils distincts. (1) Le frontalier genevois cherchant la résidence française : Pays de Gex. (2) Le gastronome télétravailleur : Bourg-en-Bresse pour le poulet AOP et le marché couvert. (3) L'ornithologiste ou amateur de nature aquatique : la Dombes est unique en France. (4) L'industrie-technique : Oyonnax et Ambérieu-en-Bugey (nœud ferroviaire et ZI active). Ce n'est pas une destination lifestyle généraliste — c'est un département de niches précises.",
+      },
+    ],
+    relatedCities: ["bourg-en-bresse", "oyonnax", "gex", "belley", "amberieu-en-bugey", "divonne-les-bains"],
+    relatedGuides: [
+      "vivre-en-auvergne-rhone-alpes-guide-2025",
+      "vivre-en-franche-comte-jura-guide-2025",
+      "vivre-frontalier-france-belgique-luxembourg-suisse-2025",
+    ],
+    tags: ["Ain", "Bourg-en-Bresse", "Pays de Gex", "frontalier", "Genève", "Dombes", "Bugey", "Bresse", "s'installer", "gastronomie"],
+  },
+  {
+    slug: "teletravailler-depuis-pays-de-la-loire-guide-2026",
+    title: "Télétravailler depuis les Pays de la Loire en 2026 : Nantes, Angers, Le Mans, Saumur",
+    metaTitle: "Télétravailler depuis les Pays de la Loire 2026 — Nantes, Angers, Le Mans",
+    metaDesc:
+      "TGV < 2h10 de Paris, prix divisés par deux, Loire à Vélo : les Pays de la Loire sont peut-être la région la plus cohérente de France pour télétravailler. Notre guide complet 2026.",
+    category: "teletravail",
+    emoji: "🏰",
+    readMinutes: 8,
+    publishedAt: "2026-05-11",
+    updatedAt: "2026-05-11",
+    intro:
+      "Les Pays de la Loire ont un atout que peu de régions peuvent revendiquer : trois villes de plus de 100 000 habitants à moins de 2h10 de TGV de Paris (Nantes, Angers, Le Mans), avec fibre quasi-totale, coworkings actifs et prix immobiliers en dessous de la moyenne des grandes métropoles. Pour le télétravailleur qui veut rester proche de Paris sans y vivre, c'est peut-être la région la plus cohérente de France.",
+    sections: [
+      {
+        heading: "Nantes : le hub régional pour les remote workers",
+        body: "Score MeilleurVille télétravail : 8.1/10. TGV Paris en 2h10, French Tech active (>500 startups), coworkings nombreux (La Cantine, Le Palace, Wojo Nantes) à partir de 100 €/mois, fibre >97 %. Loyer médian T2 ≈ 830 €/mois contre 1 400 € à Paris. Pour les profils tech, numérique et startup, Nantes est le bassin d'emploi et réseau le plus dense de la région. Limite : prix immobilier en hausse (≈ 4 500 €/m² au centre) qui s'approche des niveaux parisiens dans les quartiers prisés.",
+      },
+      {
+        heading: "Angers : le meilleur rapport qualité-de-vie-prix de la région",
+        body: "Score MeilleurVille : 7.4/10. TGV Paris en 1h35 (le plus rapide des trois villes ligériennes), prix ≈ 3 200 €/m², Loire à Vélo depuis le centre, CHU de niveau national, 35 000 étudiants. Les coworkings se développent (La Ruche Angers, CISA). Pour un télétravailleur valorisant qualité de vie familiale, cyclabilité et connexion TGV rapide, Angers dépasse souvent Nantes dans le calcul global.",
+      },
+      {
+        heading: "Le Mans : 55 minutes de Paris, le meilleur rapport temps-prix",
+        body: "Le Mans est à 55 minutes de TGV de Paris Montparnasse — le trajet le plus court de toutes les villes de province de plus de 100 000 habitants. Prix ≈ 1 900 €/m². Pour un télétravailleur qui monte à Paris une fois par semaine, Le Mans offre le meilleur arbitrage financier de France : économie de logement massive + trajet aussi court qu'un trajet banlieue-Paris. L'offre de coworking reste modeste (4 espaces) mais en développement.",
+      },
+      {
+        heading: "Saumur, Saint-Nazaire, La Roche-sur-Yon : les options secondaires",
+        body: "Saumur (28 000 habitants) : château, vignoble Saumur-Champigny, école de cavalerie. Prix ≈ 2 100 €/m², TER Nantes 1h. Saint-Nazaire : mer + industrie (Chantiers de l'Atlantique, Airbus), prix ≈ 2 200 €/m², 45 min de Nantes. La Roche-sur-Yon : préfecture de Vendée, 35 minutes de la mer, ≈ 1 900 €/m². Ces trois villes permettent d'accéder à la qualité de vie ligérienne avec un coût encore inférieur aux capitales régionales.",
+      },
+      {
+        heading: "Loire à Vélo : l'atout mobilité-douce régional",
+        body: "La Loire à Vélo (820 km de la source à Saint-Nazaire) passe par le centre d'Angers et à moins de 5 km du centre de Nantes. Pour un télétravailleur cycliste, c'est un argument concret : sortie de 20 à 80 km depuis le domicile, sur des pistes séparées, avec châteaux et caveaux de vins blancs toutes les 20 km. Plusieurs télétravailleurs de la région font le trajet domicile-coworking à vélo sur la Loire — à moins de 30 minutes pour la plupart.",
+      },
+      {
+        heading: "Fibre et coworkings en Pays de la Loire 2026",
+        body: "La couverture fibre FTTH atteint 91 % des locaux en 2026 (Nantes >98 %, Angers >97 %, Le Mans >96 %). Les zones rurales de Vendée et Sarthe progressent vite. En coworking, Nantes concentre l'essentiel de l'offre régionale premium (>10 espaces). Angers en compte 6, Le Mans 4, Saumur 2. Le réseau Pays de la Loire Coworking référence l'ensemble avec tarifs et équipements.",
+      },
+    ],
+    relatedCities: ["nantes", "angers", "le-mans", "saumur", "saint-nazaire", "la-roche-sur-yon"],
+    relatedGuides: [
+      "vivre-en-pays-de-la-loire-guide-2025",
+      "quitter-nantes-guide-2026",
+      "teletravailler-depuis-bretagne-guide-2026",
+    ],
+    tags: ["Pays de la Loire", "Nantes", "Angers", "Le Mans", "télétravail", "remote work", "TGV Paris", "Loire à Vélo", "fibre", "coworking"],
+  },
+  {
+    slug: "meilleures-villes-culture-festivals-france-2026",
+    title: "Les meilleures villes françaises pour la culture et les festivals en 2026",
+    metaTitle: "Meilleures villes culture et festivals France 2026 — Musique, théâtre, art",
+    metaDesc:
+      "Avignon, Rennes, Clermont-Ferrand, Montpellier : quelles villes françaises ont une vie culturelle intense toute l'année ? Notre guide honnête par type de culture.",
+    category: "lifestyle",
+    emoji: "🎭",
+    readMinutes: 8,
+    publishedAt: "2026-05-11",
+    updatedAt: "2026-05-11",
+    intro:
+      "La culture n'est pas une variable d'ajustement dans le choix d'une ville — pour beaucoup, c'est un critère structurant. Mais «vie culturelle» est un terme valise. Un passionné de jazz, un amateur de théâtre contemporain et un cinéphile ont des besoins différents. Ce guide découpe par type de culture et identifie les villes qui se distinguent vraiment — pas celles qui ont un grand auditorium vide 300 jours par an.",
+    sections: [
+      {
+        heading: "Avignon : la capitale européenne du théâtre",
+        body: "Le Festival d'Avignon (3 semaines en juillet, 150 000 spectateurs, 1 400 représentations) est le plus grand festival de théâtre au monde. Mais Avignon n'est pas qu'un festival — c'est une ville qui vit au rythme du théâtre à l'année. La Collection Lambert (art contemporain), l'Opéra Grand Avignon, la scène nationale et une cinquantaine de compagnies locales assurent une programmation continue. Pour un passionné de théâtre, s'installer à Avignon est un choix de vie cohérent. Prix ≈ 3 200 €/m².",
+      },
+      {
+        heading: "Rennes : le moteur musical de l'Ouest",
+        body: "Rennes est la capitale française de la musique indépendante. Les Trans Musicales (décembre, 60 000 spectateurs) ont révélé Portishead, Blur, M.I.A. des années avant qu'ils ne deviennent mainstream. La scène locale est dense : la Cité, le 1988 Live Club, le Liberté, l'Ubu — une densité de salles rares pour 220 000 habitants. Pour un mélomane tourné vers les musiques actuelles et expérimentales, Rennes est la meilleure ville de province.",
+      },
+      {
+        heading: "Clermont-Ferrand : l'image animée au sommet mondial",
+        body: "Le Festival International du Court Métrage de Clermont-Ferrand est le plus grand festival de courts métrages du monde (160 000 entrées, 8 000 films soumis par an). C'est un événement qui transforme la ville en capitale mondiale du cinéma pendant 10 jours en février. Hors festival, Clermont dispose de La Coopérative de Mai et d'un musée d'art Roger-Quilliot solide. Pour les cinéphiles et professionnels de l'image, Clermont a une légitimité culturelle souvent ignorée.",
+      },
+      {
+        heading: "Montpellier : la scène vivante méditerranéenne",
+        body: "Montpellier concentre une vie culturelle d'une intensité rare pour 350 000 habitants. Le MOCO (musée art contemporain) est l'un des plus actifs de province. Le Festival Radio France Montpellier est l'un des plus importants de musique classique de France. Le CCN Montpellier Danse est de rang international. Le Printemps des Comédiens couvre le théâtre. Pour quelqu'un qui valorise la diversité — contemporain, classique, théâtre, arts de la rue — Montpellier est difficile à battre en province.",
+      },
+      {
+        heading: "Nantes : l'inventivité artistique permanente",
+        body: "Nantes a choisi une stratégie culturelle à rebours des villes-festival : l'art permanent dans l'espace public. Les Machines de l'Île (l'Éléphant géant, le Carrousel des Mondes Marins) sont une installation permanente unique au monde. Le Voyage à Nantes transforme la ville entière en parcours d'art contemporain chaque été. Le Lieu Unique est une des scènes les plus inventives de France. Pour quelqu'un qui cherche une culture quotidienne et pas seulement festivalière, Nantes est exceptionnelle.",
+      },
+      {
+        heading: "Strasbourg, Lyon, Bordeaux : les cultures institutionnelles solides",
+        body: "Ces trois villes ont des infrastructures culturelles de premier plan. Strasbourg : Opéra du Rhin (co-production transfrontalière), MAMCS, philharmonie active. Lyon : capitale française de la danse (Biennale, Maison de la Danse) et du cinéma (Institut Lumière, festival Lumière). Bordeaux monte avec la Cité du Vin, la Base Sous-Marine (art contemporain) et le CAPC. Ces trois villes offrent la culture institutionnelle la plus robuste hors Paris.",
+      },
+    ],
+    relatedCities: ["avignon", "rennes", "clermont-ferrand", "montpellier", "nantes", "strasbourg"],
+    relatedGuides: [
+      "meilleures-villes-artistes-creatifs-france-2026",
+      "meilleures-villes-gastronomie-france-2026",
+      "vivre-en-provence-paca-guide-2025",
+    ],
+    tags: ["culture", "festivals", "musique", "théâtre", "art contemporain", "Avignon", "Rennes", "Clermont-Ferrand", "Montpellier", "Nantes", "lifestyle"],
+  },
+  {
+    slug: "investissement-locatif-moins-100000-euros-france-2026",
+    title: "Investissement locatif sous 100 000 € : les villes françaises où c'est encore possible en 2026",
+    metaTitle: "Investissement locatif < 100 000 € France 2026 — Rentabilité, risques, villes",
+    metaDesc:
+      "Studio ou T2 sous 100 000 € avec un loyer viable : les villes françaises où ce profil reste possible en 2026 — rentabilité brute, vacance locative, pièges à éviter.",
+    category: "budget",
+    emoji: "🔑",
+    readMinutes: 8,
+    publishedAt: "2026-05-11",
+    updatedAt: "2026-05-11",
+    intro:
+      "L'investissement immobilier sous 100 000 € frais inclus est devenu rare dans la plupart des grandes villes françaises — mais il existe encore. Ce guide identifie les villes où ce profil est réaliste, calcule la rentabilité brute et met en garde contre les pièges spécifiques à ce segment : vacance locative élevée, coûts de rénovation cachés, dynamique démographique négative. Acheter à 70 000 € ne vaut rien si le bien ne se loue pas ou se déprécie.",
+    sections: [
+      {
+        heading: "Les critères d'un bon investissement < 100 000 €",
+        body: "Trois filtres avant de regarder le prix. (1) La demande locative : y a-t-il suffisamment d'étudiants, jeunes actifs ou retraités pour louer le bien toute l'année ? Une ville universitaire ou une ville-hôpital génère une demande structurelle. (2) La dynamique démographique : la ville gagne-t-elle des habitants ? Les villes en déclin démographique ont des prix qui suivent la baisse. (3) La qualité du bien : un studio à 60 000 € nécessitant 30 000 € de travaux n'est pas une opportunité à 90 000 € — c'est un risque à 90 000 €.",
+      },
+      {
+        heading: "Limoges : l'université et la porcelaine comme socle",
+        body: "Limoges est la ville universitaire française la moins chère à l'achat. Le studio étudiant se négocie à 40 000–65 000 € en bon état, pour un loyer de 300–380 €/mois. Rentabilité brute : 6 à 8 %. L'Université de Limoges compte 16 000 étudiants — vivier locatif stable. Quartiers à cibler : Carnot-Marceau (proche campus) et Centre historique. Le marché est peu liquide — anticiper une détention > 7 ans pour amortir les frais de notaire.",
+      },
+      {
+        heading: "Saint-Étienne : design et rénovation",
+        body: "Saint-Étienne propose des biens à des prix défiant toute concurrence pour 170 000 habitants. Les T2 en bon état se trouvent à 60 000–90 000 €. Loyer médian T2 : 420 €/mois. Rentabilité brute : 5 à 7 %. Secteurs à privilégier : Jacquard, Centre et Chappe. Les quartiers périphériques ont une vacance locative significativement plus élevée. L'ESADSE et l'Université Jean-Monnet (22 000 étudiants) alimentent la demande en studios.",
+      },
+      {
+        heading: "Mulhouse : le pari alsacien",
+        body: "Mulhouse (110 000 habitants) est une des moins chères de France pour sa taille. Studio en bon état : 45 000–75 000 €, loyer ≈ 380–450 €/mois. Rentabilité brute : 6 à 8,5 %. La proximité de Bâle (30 min) génère une demande de jeunes actifs et frontaliers suisses à budget serré. Risques : certains quartiers (Vieux Mulhouse, Bourtzwiller) ont des taux de vacance plus élevés. Cibler le secteur Rebberg ou le centre historique.",
+      },
+      {
+        heading: "Béziers et Perpignan : le Midi abordable",
+        body: "Béziers studio : 35 000–60 000 €, loyer ≈ 350–420 €/mois. Perpignan T2 : 60 000–85 000 €, loyer ≈ 400–500 €/mois. Rentabilités brutes de 7 à 9 % — mais avec un risque de vacance plus élevé que dans les villes universitaires. À Béziers, viser les quartiers proches du Canal du Midi. À Perpignan, les secteurs Moulin-à-Vent et Centre historique sont plus stables.",
+      },
+      {
+        heading: "Quatre vérifications non négociables avant d'acheter",
+        body: "(1) Les charges de copropriété : une vieille résidence mal entretenue peut avoir 150–250 €/mois de charges — 40 % du loyer. Demandez le relevé des 3 dernières AG. (2) La taxe foncière : elle a fortement augmenté dans de nombreuses communes depuis 2023 (Grenoble +25 % en un an). (3) Le DPE : depuis 2025, les passoires thermiques (étiquette G) ne peuvent plus être louées — vérifier avant tout achat. (4) L'encadrement des loyers : dans les zones tendues, il peut limiter la rentabilité réelle.",
+      },
+    ],
+    relatedCities: ["limoges", "saint-etienne", "mulhouse", "beziers", "perpignan", "brive-la-gaillarde"],
+    relatedGuides: [
+      "meilleures-villes-achat-immobilier-moins-150000-euros-2025",
+      "meilleures-villes-investissement-locatif-colocation-2025",
+      "meilleures-villes-primo-accedants-france-2026",
+    ],
+    tags: ["investissement locatif", "moins de 100 000 €", "rentabilité", "studio", "T2", "Limoges", "Saint-Étienne", "Mulhouse", "Béziers", "budget immobilier"],
+  },
+  {
+    slug: "expatries-retour-france-quelle-ville-2026",
+    title: "Expatriés : retour en France en 2026 — dans quelle ville s'installer ?",
+    metaTitle: "Expatriés retour France 2026 — Quelle ville choisir après l'étranger ?",
+    metaDesc:
+      "Après des années à Londres, New York, Singapour ou Dubaï : comment choisir sa ville en France ? Notre guide pour les expatriés qui rentrent, selon leur budget et leur profil.",
+    category: "lifestyle",
+    emoji: "✈️",
+    readMinutes: 9,
+    publishedAt: "2026-05-11",
+    updatedAt: "2026-05-11",
+    intro:
+      "Le retour en France après une expatriation mêle le pratique (fiscalité, immobilier, école des enfants) et l'émotionnel (réapprentissage des codes sociaux, gestion du reverse culture shock). Ce guide s'adresse aux expatriés de London, Dubai, Singapour ou New York qui cherchent à choisir leur ville avec les mêmes critères rigoureux qu'ils appliqueraient à n'importe quelle décision professionnelle.",
+    sections: [
+      {
+        heading: "Les questions à se poser avant de choisir la ville",
+        body: "Trois questions structurantes avant toute liste. (1) Où se trouve votre employeur ou votre réseau professionnel principal ? Rentrer pour un poste à Paris change tout par rapport à rentrer en remote pour un employeur étranger. (2) Avez-vous des enfants ? L'accès à une école internationale (IB, AEFE, lycée anglophone) peut être décisif — et ces écoles sont concentrées à Paris, Lyon, Bordeaux, Nice. (3) Quel est votre budget immobilier, et en quelle devise avez-vous capitalisé ? Un expat revenant de Londres avec £300 000 d'épargne a un pouvoir d'achat très différent selon la parité £/€.",
+      },
+      {
+        heading: "Paris : le réflexe naturel et ses pièges",
+        body: "La plupart des expatriés rentrent à Paris — parce que le réseau y est, les connexions CDG sont là, et la ville est familière. C'est souvent le bon choix pour finance, conseil, luxe et media. Les pièges du retour parisien : le choc du coût de la vie (Paris est moins chère que Londres ou Singapour, mais nettement plus chère que la plupart des villes françaises), la réduction de l'espace de vie (120 m² dans un pays émergent deviennent 60 m² à Paris pour le même budget), et la désillusion de certains quartiers gentrifié irréversiblement.",
+      },
+      {
+        heading: "Lyon pour les expats Asie et Moyen-Orient",
+        body: "Les expatriés revenant d'Asie (Singapour, Hong Kong, Shanghai) ou du Moyen-Orient (Dubai, Doha) trouvent souvent Lyon plus cohérente que Paris. Gastronomiquement proche de ce qu'ils ont vécu, elle dispose d'une école internationale active (International School of Lyon) et d'un prix immobilier 40 % inférieur à Paris pour des superficies supérieures. Le bassin pharma-biotech-industrie est fort pour les profils qui reviennent dans ces secteurs.",
+      },
+      {
+        heading: "Bordeaux pour les expats anglophones",
+        body: "Bordeaux a historiquement une forte communauté britannique (l'Aquitaine a été anglaise pendant 300 ans). Les expats revenant du Royaume-Uni, d'Australie ou d'Amérique du Nord y trouvent une communauté active, un aéroport bien connecté vers Londres et Dublin, et un mode de vie wine-and-outdoor qui ressemble aux meilleures villes australiennes ou canadiennes. Le Bordeaux International School et le lycée International de Bordeaux couvrent les besoins scolaires bilingues.",
+      },
+      {
+        heading: "Nice pour les expats Méditerranée et Afrique",
+        body: "Nice est la destination naturelle pour les expatriés revenant d'Afrique du Nord, du Proche-Orient ou d'autres destinations méditerranéennes. Le soleil, la mer et la douceur créent une transition moins brutale avec les pays chauds. La communauté internationale y est dense et l'aéroport Côte d'Azur est parmi les mieux connectés. Le lycée international de Valbonne couvre les besoins scolaires. Revers : prix parmi les plus élevés de France hors Paris (≈ 5 800–8 000 €/m² en centre).",
+      },
+      {
+        heading: "La question fiscale du retour : IFI et Exit Tax",
+        body: "Le retour en France implique un changement de résidence fiscale non anodin. Deux points à anticiper. (1) L'IFI (Impôt sur la Fortune Immobilière) : si vous avez accumulé un patrimoine immobilier à l'étranger et que vous rentrez en France, ce patrimoine sera soumis à l'IFI dès votre première déclaration s'il dépasse 1,3 M€. (2) L'Exit Tax : si vous aviez des plus-values latentes sur des titres lors de votre départ, leur réalisation au retour peut entraîner une imposition. Un avocat fiscaliste spécialisé en mobilité internationale est indispensable avant tout retour.",
+      },
+    ],
+    relatedCities: ["paris", "lyon", "bordeaux", "nice", "montpellier", "aix-en-provence"],
+    relatedGuides: [
+      "guide-expatries-vivre-en-france-2025",
+      "quitter-paris-guide-2025",
+      "vivre-en-provence-paca-guide-2025",
+    ],
+    tags: ["expatriés", "retour en France", "expat", "internationale", "école internationale", "fiscalité", "Paris", "Lyon", "Bordeaux", "Nice"],
+  },
 ];
 
 export const GUIDE_CATEGORIES = [
