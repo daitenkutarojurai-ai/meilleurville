@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { Users, Star, BarChart3 } from "lucide-react";
+import { scoreHex } from "@/lib/utils";
 
 interface Comment {
   id: string;
@@ -72,8 +73,8 @@ export function UserVsOfficialScore({ topic, officialGlobal, cityName }: Props) 
               </div>
               <div className="h-2 rounded-full bg-[var(--bg-elevated)] overflow-hidden">
                 <div
-                  className="h-full rounded-full bg-gradient-to-r from-emerald-500 to-lime-400 transition-all duration-700"
-                  style={{ width: `${officialPct}%` }}
+                  className="h-full rounded-full transition-all duration-700"
+                  style={{ width: `${officialPct}%`, background: `linear-gradient(90deg, ${scoreHex(officialGlobal)}, ${scoreHex(officialGlobal)}88)` }}
                 />
               </div>
             </div>
@@ -96,8 +97,8 @@ export function UserVsOfficialScore({ topic, officialGlobal, cityName }: Props) 
               <div className="h-2 rounded-full bg-[var(--bg-elevated)] overflow-hidden">
                 {enough ? (
                   <div
-                    className="h-full rounded-full bg-gradient-to-r from-amber-400 to-orange-400 transition-all duration-700"
-                    style={{ width: `${userPct}%` }}
+                    className="h-full rounded-full transition-all duration-700"
+                    style={{ width: `${userPct}%`, background: `linear-gradient(90deg, ${scoreHex(userOnTen)}, ${scoreHex(userOnTen)}88)` }}
                   />
                 ) : (
                   <div className="h-full w-full bg-[repeating-linear-gradient(45deg,var(--bg-elevated),var(--bg-elevated)_4px,#e5e7eb_4px,#e5e7eb_8px)]" />

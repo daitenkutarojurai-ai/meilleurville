@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { MapPin, Star, TrendingUp } from "lucide-react";
 import { Badge } from "@/components/ui/Badge";
-import { cn, formatNumber, formatScore } from "@/lib/utils";
+import { cn, formatNumber, formatScore, scoreHex } from "@/lib/utils";
 import type { City } from "@/lib/types";
 import { HOUSING } from "@/data/housing";
 import { FavoriteButton } from "@/components/effects/FavoriteButton";
@@ -113,8 +113,8 @@ export function CityCard({ city, rank, delta, className }: CityCardProps) {
                 </div>
                 <div className="mt-1 h-1 rounded-full bg-white/70 overflow-hidden">
                   <div
-                    className="h-full rounded-full bg-gradient-to-r from-[var(--accent)] to-emerald-400 transition-all duration-700 ease-out"
-                    style={{ width: `${(val / 10) * 100}%` }}
+                    className="h-full rounded-full transition-all duration-700 ease-out"
+                    style={{ width: `${(val / 10) * 100}%`, background: `linear-gradient(90deg, ${scoreHex(val)}, ${scoreHex(val)}88)` }}
                   />
                 </div>
                 <div className="text-[10px] text-[var(--text-secondary)] mt-1">{label}</div>

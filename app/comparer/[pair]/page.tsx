@@ -11,6 +11,7 @@ import { Card } from "@/components/ui/Card";
 import type { City } from "@/lib/types";
 import Link from "next/link";
 import { getHousing } from "@/data/housing";
+import { scoreColor, scoreHex } from "@/lib/utils";
 import React from "react";
 
 type Props = { params: Promise<{ pair: string }> };
@@ -824,27 +825,27 @@ export default async function PairPage({ params }: Props) {
                     <span className={diff < 0 ? "font-bold text-emerald-600" : ""}>{seedB.name}</span>
                   </div>
                   <div className="flex items-center gap-3">
-                    <span className={`w-8 text-right text-sm font-bold font-mono-data ${diff > 0 ? "text-emerald-600" : "text-[var(--text-secondary)]"}`}>
+                    <span className={`w-8 text-right text-sm font-bold font-mono-data ${diff > 0 ? scoreColor(va) : "text-[var(--text-secondary)]"}`}>
                       {va.toFixed(1)}
                     </span>
                     <div className="flex-1 flex gap-1">
                       {/* A bar — right-aligned */}
                       <div className="flex-1 flex justify-end">
                         <div
-                          className={`h-2 rounded-l-full ${diff > 0 ? "bg-emerald-500" : "bg-[var(--bg-elevated)]"}`}
-                          style={{ width: `${(va / 10) * 100}%` }}
+                          className="h-2 rounded-l-full"
+                          style={{ width: `${(va / 10) * 100}%`, background: diff > 0 ? scoreHex(va) : `${scoreHex(va)}44` }}
                         />
                       </div>
                       <div className="w-px bg-[var(--border)]" />
                       {/* B bar — left-aligned */}
                       <div className="flex-1">
                         <div
-                          className={`h-2 rounded-r-full ${diff < 0 ? "bg-emerald-500" : "bg-[var(--bg-elevated)]"}`}
-                          style={{ width: `${(vb / 10) * 100}%` }}
+                          className="h-2 rounded-r-full"
+                          style={{ width: `${(vb / 10) * 100}%`, background: diff < 0 ? scoreHex(vb) : `${scoreHex(vb)}44` }}
                         />
                       </div>
                     </div>
-                    <span className={`w-8 text-sm font-bold font-mono-data ${diff < 0 ? "text-emerald-600" : "text-[var(--text-secondary)]"}`}>
+                    <span className={`w-8 text-sm font-bold font-mono-data ${diff < 0 ? scoreColor(vb) : "text-[var(--text-secondary)]"}`}>
                       {vb.toFixed(1)}
                     </span>
                   </div>

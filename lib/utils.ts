@@ -44,6 +44,15 @@ export function scoreColor(score: number): string {
   return "text-red-500";
 }
 
+export function scoreHex(score: number): string {
+  if (score >= 7.5) return "#A855F7";
+  if (score >= 7.0) return "#16A34A";
+  if (score >= 6.0) return "#84CC16";
+  if (score >= 5.0) return "#F59E0B";
+  if (score >= 4.0) return "#F97316";
+  return "#EF4444";
+}
+
 export function scoreBg(score: number): string {
   if (score >= 7.5) return "bg-purple-500/15 border-purple-500/40";
   if (score >= 7.0) return "bg-green-500/10 border-green-500/30";

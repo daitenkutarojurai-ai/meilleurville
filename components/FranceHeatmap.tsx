@@ -586,7 +586,7 @@ export function FranceHeatmap() {
                             className="h-full rounded-full"
                             style={{
                               width: `${(c.scores.global / 10) * 100}%`,
-                              background: `linear-gradient(90deg, ${scoreColor(c.scores.global)}, #84CC16)`,
+                              background: `linear-gradient(90deg, ${scoreColor(c.scores.global)}, ${scoreColor(c.scores.global)}33)`,
                             }}
                           />
                         </div>
