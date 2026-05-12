@@ -64,6 +64,10 @@ export default async function RankingPage({ params }: Props) {
   const allowedCategories = guideCategoryMap[slug] ?? ["lifestyle"];
   const relatedGuides = GUIDES.filter((g) => allowedCategories.includes(g.category)).slice(0, 3);
 
+  const topName = ranked[0]?.city.name ?? "—";
+  const topScore = ranked[0]?.score ?? 0;
+  const secondName = ranked[1]?.city.name ?? "—";
+
   const itemListJsonLd = {
     "@context": "https://schema.org",
     "@graph": [
@@ -88,6 +92,43 @@ export default async function RankingPage({ params }: Props) {
           url: `${BASE_URL}/villes/${entry.city.slug}`,
           description: `Score ${entry.score.toFixed(1)}/10 — ${entry.city.region ?? ""}`,
         })),
+      },
+      {
+        "@type": "FAQPage",
+        mainEntity: [
+          {
+            "@type": "Question",
+            name: `Quelle est la meilleure ville pour le classement ${meta.headline.toLowerCase()} en 2026 ?`,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: `D'après notre algorithme, ${topName} arrive en tête du classement « ${meta.headline} » avec un score de ${topScore.toFixed(1)}/10, devant ${secondName}.`,
+            },
+          },
+          {
+            "@type": "Question",
+            name: `Combien de villes sont comparées dans ce classement ?`,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: `${ranked.length} villes françaises sont notées et triées pour ce classement.`,
+            },
+          },
+          {
+            "@type": "Question",
+            name: `Comment est calculé le classement « ${meta.headline} » ?`,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: `Chaque ville reçoit une note de 0 à 10 sur 8 axes (vie, sécurité, coût, nature, transport, culture, écoles, télétravail). Le classement « ${meta.headline} » combine ces axes selon une pondération spécifique au thème, calibrée sur les données Insee, SSMSI (Ministère de l'Intérieur) et observatoires des loyers. Méthodologie complète : ${BASE_URL}/methode.`,
+            },
+          },
+          {
+            "@type": "Question",
+            name: `Ce classement est-il payant ou influencé par les villes elles-mêmes ?`,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: `Aucune ville ne peut payer pour son classement ou modifier son score. Les données sont 100% issues de sources ouvertes et publiques.`,
+            },
+          },
+        ],
       },
     ],
   };

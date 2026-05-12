@@ -2,6 +2,13 @@
 import { useEffect, useState } from "react";
 import { cn } from "@/lib/utils";
 
+function readNavbarHeight(): number {
+  if (typeof document === "undefined") return 56;
+  const nav = document.querySelector("nav.sticky");
+  if (!nav) return 56;
+  return Math.round((nav as HTMLElement).getBoundingClientRect().height);
+}
+
 const SECTIONS = [
   { id: "top5",       label: "Top 5",       emoji: "🏆" },
   { id: "classements",label: "Classements", emoji: "📊" },
@@ -14,6 +21,18 @@ const SECTIONS = [
 export function SectionNav() {
   const [visible, setVisible] = useState(false);
   const [active, setActive] = useState("");
+  const [navHeight, setNavHeight] = useState(56);
+
+  useEffect(() => {
+    const sync = () => setNavHeight(readNavbarHeight());
+    sync();
+    window.addEventListener("resize", sync);
+    window.addEventListener("scroll", sync, { passive: true });
+    return () => {
+      window.removeEventListener("resize", sync);
+      window.removeEventListener("scroll", sync);
+    };
+  }, []);
 
   useEffect(() => {
     const hero = document.getElementById("hero");
@@ -57,9 +76,10 @@ export function SectionNav() {
   return (
     <div
       className={cn(
-        "sticky top-[56px] z-40 transition-all duration-300",
+        "sticky z-40 transition-all duration-300",
         visible ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-2 pointer-events-none"
       )}
+      style={{ top: navHeight }}
       aria-label="Navigation sections"
     >
       <div className="border-b border-[var(--border)]/60 bg-[var(--bg-canvas)]/90 backdrop-blur-xl">

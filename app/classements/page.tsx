@@ -6,6 +6,7 @@ import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { CityCard } from "@/components/CityCard";
 import { ScrollReveal } from "@/components/effects/ScrollReveal";
+import { ClassementsJumpNav } from "@/components/ClassementsJumpNav";
 import Link from "next/link";
 import {
   Laptop, Home, TreePine, GraduationCap, Palmtree, ArrowRight, Wallet,
@@ -94,23 +95,10 @@ export default function ClassementsPage() {
         </div>
       </section>
 
-      {/* Quick jump chips */}
-      <section className="relative pb-8 sticky top-14 z-30">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6">
-          <div className="flex flex-wrap gap-2 justify-center rounded-2xl glass border border-white/50 p-3 backdrop-blur-xl shadow-md">
-            {CATEGORIES.map((cat) => (
-              <a
-                key={cat.slug}
-                href={`#cat-${cat.slug}`}
-                className="inline-flex items-center gap-1.5 rounded-full bg-white/70 hover:bg-white border border-[var(--border)] hover:border-[var(--accent)]/40 px-3 py-1.5 text-xs font-medium text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-all"
-              >
-                <span>{cat.emoji}</span>
-                {cat.label}
-              </a>
-            ))}
-          </div>
-        </div>
-      </section>
+      {/* Quick jump chips with scrollspy */}
+      <ClassementsJumpNav
+        categories={CATEGORIES.map(({ slug, label, emoji }) => ({ slug, label, emoji }))}
+      />
 
       {/* Sections */}
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 pb-16 space-y-20">

@@ -769,6 +769,22 @@ export default async function PairPage({ params }: Props) {
                       text: `${seedA.name} obtient ${seedA.scores.remoteWork}/10 en télétravail et ${seedB.name} obtient ${seedB.scores.remoteWork}/10. ${seedA.scores.remoteWork > seedB.scores.remoteWork ? seedA.name : seedB.name} est mieux équipée pour le télétravail.`,
                     },
                   },
+                  {
+                    "@type": "Question",
+                    name: `${seedA.name} ou ${seedB.name} : laquelle est meilleure pour les familles avec enfants ?`,
+                    acceptedAnswer: {
+                      "@type": "Answer",
+                      text: `Score sécurité — ${seedA.name} : ${seedA.scores.safety}/10, ${seedB.name} : ${seedB.scores.safety}/10. Score écoles — ${seedA.name} : ${seedA.scores.schools}/10, ${seedB.name} : ${seedB.scores.schools}/10. ${(seedA.scores.safety + seedA.scores.schools) > (seedB.scores.safety + seedB.scores.schools) ? seedA.name : seedB.name} est globalement mieux notée pour les familles sur ces deux critères.`,
+                    },
+                  },
+                  {
+                    "@type": "Question",
+                    name: `${seedA.name} ou ${seedB.name} : laquelle a le meilleur cadre naturel ?`,
+                    acceptedAnswer: {
+                      "@type": "Answer",
+                      text: `${seedA.name} obtient ${seedA.scores.nature}/10 sur le critère nature et ${seedB.name} obtient ${seedB.scores.nature}/10. ${seedA.scores.nature > seedB.scores.nature ? seedA.name : seedB.name} l'emporte côté nature, parcs et accès au plein air.`,
+                    },
+                  },
                 ],
               },
             ],

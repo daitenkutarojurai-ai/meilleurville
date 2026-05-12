@@ -99,25 +99,41 @@ export function LeaderboardTable() {
           <table className="w-full text-sm">
             <thead>
               <tr className="border-b border-[var(--border)] bg-[var(--bg-elevated)]">
-                <th className="text-left text-xs uppercase tracking-wide text-[var(--text-tertiary)] px-4 py-3 w-10">#</th>
-                <th className="text-left text-xs uppercase tracking-wide text-[var(--text-tertiary)] px-4 py-3">Ville</th>
+                <th scope="col" className="text-left text-xs uppercase tracking-wide text-[var(--text-tertiary)] px-4 py-3 w-10">#</th>
+                <th scope="col" className="text-left text-xs uppercase tracking-wide text-[var(--text-tertiary)] px-4 py-3">Ville</th>
                 <th
-                  className={cn("text-right text-xs uppercase tracking-wide px-3 py-3 cursor-pointer transition-colors", sortKey === "global" ? "text-[var(--accent)]" : "text-[var(--text-tertiary)] hover:text-[var(--text-primary)]")}
-                  onClick={() => setSortKey("global")}
+                  scope="col"
+                  aria-sort={sortKey === "global" ? "descending" : "none"}
+                  className={cn("text-right px-3 py-3 transition-colors", sortKey === "global" ? "text-[var(--accent)]" : "text-[var(--text-tertiary)]")}
                 >
-                  Global ↕
+                  <button
+                    type="button"
+                    onClick={() => setSortKey("global")}
+                    className="text-xs uppercase tracking-wide hover:text-[var(--text-primary)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)] rounded"
+                    aria-label={`Trier par score global${sortKey === "global" ? " (actif)" : ""}`}
+                  >
+                    Global ↕
+                  </button>
                 </th>
                 {CRITERIA.map(({ key, label }) => (
                   <th
                     key={key}
-                    className={cn("text-right text-xs uppercase tracking-wide px-2 py-3 hidden md:table-cell cursor-pointer transition-colors", sortKey === key ? "text-[var(--accent)]" : "text-[var(--text-tertiary)] hover:text-[var(--text-primary)]")}
-                    onClick={() => setSortKey(key)}
+                    scope="col"
+                    aria-sort={sortKey === key ? "descending" : "none"}
+                    className={cn("text-right px-2 py-3 hidden md:table-cell transition-colors", sortKey === key ? "text-[var(--accent)]" : "text-[var(--text-tertiary)]")}
                   >
-                    {label.split(" ")[0]} ↕
+                    <button
+                      type="button"
+                      onClick={() => setSortKey(key)}
+                      className="text-xs uppercase tracking-wide hover:text-[var(--text-primary)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)] rounded"
+                      aria-label={`Trier par ${label}${sortKey === key ? " (actif)" : ""}`}
+                    >
+                      {label.split(" ")[0]} ↕
+                    </button>
                   </th>
                 ))}
-                <th className="text-right text-xs uppercase tracking-wide text-[var(--text-tertiary)] px-3 py-3 hidden lg:table-cell">Loyer T2</th>
-                <th className="w-8" />
+                <th scope="col" className="text-right text-xs uppercase tracking-wide text-[var(--text-tertiary)] px-3 py-3 hidden lg:table-cell">Loyer T2</th>
+                <th scope="col" aria-label="Action" className="w-8" />
               </tr>
             </thead>
             <tbody className="divide-y divide-[var(--border)]">

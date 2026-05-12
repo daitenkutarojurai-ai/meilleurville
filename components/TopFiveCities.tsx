@@ -89,7 +89,7 @@ export function TopFiveCities() {
                   <p className="text-xs text-[var(--text-tertiary)] mt-0.5 truncate">
                     {city.region}
                   </p>
-                  <p className="text-xs text-[var(--text-secondary)] mt-3 leading-snug line-clamp-3 flex-1">
+                  <p className="text-xs text-[var(--text-secondary)] mt-3 leading-snug line-clamp-2 sm:line-clamp-3 flex-1">
                     {tagline(city)}
                   </p>
                   <div className="mt-4 flex items-end justify-between">

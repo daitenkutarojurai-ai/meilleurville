@@ -10091,6 +10091,33 @@ export const GUIDES: Guide[] = [
   },
 ];
 
+// --- Build-time integrity check -------------------------------------------
+// Cross-check every relatedCities / relatedGuides slug against the canonical
+// CITIES_SEED + this file's own GUIDES. Throws at module load if anything is
+// missing — catches the class of bug that fixed AUDIT-2026-05-12 (23 ghost
+// city slugs silently filtered).
+import { CITIES_SEED } from "@/data/cities-seed";
+import { assertKnownSlugs } from "@/lib/data-integrity";
+
+const KNOWN_CITY_SLUGS = new Set(CITIES_SEED.map((c) => c.slug));
+const KNOWN_GUIDE_SLUGS = new Set(GUIDES.map((g) => g.slug));
+
+assertKnownSlugs({
+  contextLabel: "guides.relatedCities",
+  known: KNOWN_CITY_SLUGS,
+  refs: GUIDES.flatMap((g) =>
+    g.relatedCities.map((slug) => ({ slug, sourceLabel: `guide "${g.slug}"` }))
+  ),
+});
+
+assertKnownSlugs({
+  contextLabel: "guides.relatedGuides",
+  known: KNOWN_GUIDE_SLUGS,
+  refs: GUIDES.flatMap((g) =>
+    g.relatedGuides.map((slug) => ({ slug, sourceLabel: `guide "${g.slug}"` }))
+  ),
+});
+
 export const GUIDE_CATEGORIES = [
   { id: "teletravail", label: "Télétravail", emoji: "💻", color: "text-blue-400", bg: "bg-blue-400/10 border-blue-400/20" },
   { id: "famille", label: "Famille", emoji: "👨‍👩‍👧", color: "text-emerald-400", bg: "bg-emerald-400/10 border-emerald-400/20" },

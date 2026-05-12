@@ -317,7 +317,15 @@ export function QuizFlow() {
           </span>
           <span className="font-mono-data font-bold text-[var(--accent)]">{Math.round(progress)}%</span>
         </div>
-        <div className="h-2 w-full rounded-full bg-[var(--bg-elevated)] overflow-hidden">
+        <div
+          role="progressbar"
+          aria-label="Progression du quiz"
+          aria-valuemin={0}
+          aria-valuemax={STEPS.length}
+          aria-valuenow={step + 1}
+          aria-valuetext={`Question ${step + 1} sur ${STEPS.length}`}
+          className="h-2 w-full rounded-full bg-[var(--bg-elevated)] overflow-hidden"
+        >
           <div
             className="h-full rounded-full bg-gradient-to-r from-[var(--accent)] via-emerald-400 to-lime-400 transition-all duration-500 ease-out"
             style={{ width: `${progress}%` }}
