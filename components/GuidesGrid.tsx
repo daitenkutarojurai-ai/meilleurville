@@ -108,9 +108,21 @@ export function GuidesGrid({ guides }: Props) {
             ))}
           </div>
         ) : (
-          <p className="text-[var(--text-secondary)] py-8 text-center">
-            Aucun guide dans cette catégorie pour l'instant.
-          </p>
+          <div className="rounded-2xl border border-dashed border-[var(--border)] bg-[var(--bg-surface)]/50 py-12 px-6 text-center">
+            <div className="text-4xl mb-3" aria-hidden>📭</div>
+            <p className="text-sm font-medium text-[var(--text-primary)] mb-1">
+              Aucun guide dans cette catégorie pour l&apos;instant.
+            </p>
+            <p className="text-xs text-[var(--text-tertiary)] mb-4">
+              On y travaille. En attendant, parcourez les autres catégories.
+            </p>
+            <button
+              onClick={() => setActiveCategory("all")}
+              className="inline-flex items-center gap-1.5 rounded-full bg-[var(--accent)]/10 hover:bg-[var(--accent)]/15 text-[var(--accent)] text-xs font-semibold px-4 py-2 transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]"
+            >
+              Voir tous les guides
+            </button>
+          </div>
         )}
       </div>
     </div>

@@ -4,20 +4,27 @@ import { Footer } from "@/components/Footer";
 import { AmbientBackground } from "@/components/AmbientBackground";
 import { VillesSearch } from "@/components/VillesSearch";
 import { CITIES_SEED } from "@/data/cities-seed";
+import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 
 export const metadata: Metadata = {
   title: "Explorer toutes les villes françaises — Avis & Classements",
   description:
     "Découvrez les meilleures villes françaises : avis d'habitants, scores de qualité de vie, données locales. 352 communes analysées et comparées.",
+  alternates: { canonical: "/villes" },
 };
 
 export default function VillesPage() {
   const count = CITIES_SEED.length;
   const avg = (CITIES_SEED.reduce((s, c) => s + c.scores.global, 0) / count).toFixed(1);
   const topPct = Math.round((CITIES_SEED.filter((c) => c.scores.global >= 7.5).length / count) * 100);
+  const breadcrumb = breadcrumbJsonLd([
+    { name: "Accueil", path: "/" },
+    { name: "Villes", path: "/villes" },
+  ]);
 
   return (
-    <main className="min-h-screen relative">
+    <main id="main-content" className="min-h-screen relative">
+      <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(breadcrumb)} />
       <AmbientBackground />
       <Navbar />
 

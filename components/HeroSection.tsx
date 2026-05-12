@@ -201,7 +201,7 @@ export function HeroSection() {
                   onFocus={() => setDismissed(false)}
                   placeholder="Quelle ville vous fait rêver ?"
                   aria-label="Rechercher une ville"
-                  className="flex-1 bg-transparent py-2 text-sm text-[var(--text-primary)] placeholder:text-[var(--text-tertiary)] outline-none"
+                  className="flex-1 bg-transparent py-2 text-sm text-[var(--text-primary)] placeholder:text-[var(--text-tertiary)] outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)] rounded-md"
                   autoComplete="off"
                 />
                 <Button type="submit" size="sm">

@@ -342,16 +342,30 @@ body {
 
 /* Reduced motion: disable heavy effects */
 @media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
   .animate-marquee,
   .animate-leaf-fall,
   .animate-blob-slow,
   .animate-blob-slower,
   .animate-drift,
+  .animate-dot-pulse,
   .gradient-text-anim,
   .float-anim,
   .word-reveal-item,
-  .accent-pulse {
+  .accent-pulse,
+  .score-bar-fill,
+  .shine::after,
+  .skeleton {
     animation: none !important;
+    transition: none !important;
   }
   .word-reveal-item { opacity: 1; }
+  .score-bar-fill { width: var(--score-w); }
+  .shine:hover::after { left: -120%; }
+  .card-hover:hover { transform: none; }
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
 }

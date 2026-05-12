@@ -41,7 +41,7 @@ export default async function CityPage({ params }: Props) {
   if (!city) notFound();
 
   return (
-    <main className="min-h-screen">
+    <main id="main-content" className="min-h-screen">
       <CityJsonLd city={city} />
       <Navbar />
       <CityProfile city={city} />

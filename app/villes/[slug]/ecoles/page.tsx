@@ -56,6 +56,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Écoles & études à ${city.name} — Université, CPGE, écoles | MeilleurVille`,
     description: desc,
+    alternates: { canonical: `/villes/${slug}/ecoles` },
     openGraph: { title: `Écoles à ${city.name}`, description: desc },
   };
 }
@@ -83,7 +84,7 @@ export default async function EcolesPage({ params }: Props) {
   };
 
   return (
-    <main className="min-h-screen relative">
+    <main id="main-content" className="min-h-screen relative">
       <AmbientBackground />
       <Navbar />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />

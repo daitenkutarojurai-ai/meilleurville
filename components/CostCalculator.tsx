@@ -69,7 +69,7 @@ export function CostCalculator() {
               step={50}
               value={parisRent}
               onChange={(e) => setParisRent(Number(e.target.value))}
-              className="flex-1 accent-[var(--accent)]"
+              className="flex-1 accent-[var(--accent)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)] rounded"
             />
             <span className="text-sm font-bold font-mono-data text-[var(--accent)] w-20 text-right">
               {parisRent}€/mois
@@ -89,7 +89,7 @@ export function CostCalculator() {
               step={100}
               value={salary}
               onChange={(e) => setSalary(Number(e.target.value))}
-              className="flex-1 accent-[var(--accent)]"
+              className="flex-1 accent-[var(--accent)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)] rounded"
             />
             <span className="text-sm font-bold font-mono-data text-[var(--accent)] w-20 text-right">
               {salary}€/mois

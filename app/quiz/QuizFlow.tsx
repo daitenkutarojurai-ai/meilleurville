@@ -357,7 +357,7 @@ export function QuizFlow() {
                   isMulti ? handleMulti(field, opt.value) : handleSingle(field, opt.value)
                 }
                 className={cn(
-                  "relative flex flex-col items-start rounded-2xl border p-4 text-left transition-all duration-150 cursor-pointer",
+                  "relative flex flex-col items-start rounded-2xl border p-4 text-left transition-all duration-150 cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]",
                   selected
                     ? "border-[var(--accent)] bg-[var(--accent)]/10 shadow-lg shadow-[var(--accent)]/10"
                     : "border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:bg-[var(--bg-elevated)]"
@@ -393,7 +393,7 @@ export function QuizFlow() {
             value={(answers as Record<string, number>)[currentStep.id] ?? 1200}
             onChange={(e) => handleSlider(currentStep.id, Number(e.target.value))}
             aria-label={currentStep.question}
-            className="w-full accent-[var(--accent)] cursor-pointer"
+            className="w-full accent-[var(--accent)] cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)] rounded"
           />
           <div className="flex justify-between text-xs text-[var(--text-secondary)] mt-2">
             <span>{(currentStep as { min: number }).min}€</span>

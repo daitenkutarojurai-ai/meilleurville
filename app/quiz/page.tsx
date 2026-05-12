@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 
 export default function QuizPage() {
   return (
-    <main className="min-h-screen relative">
+    <main id="main-content" className="min-h-screen relative">
       <AmbientBackground />
       <Navbar />
       <QuizFlow />

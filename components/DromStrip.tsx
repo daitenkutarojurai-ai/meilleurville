@@ -43,20 +43,24 @@ export function DromStrip() {
       </div>
       <div className="grid grid-cols-2 sm:grid-cols-5 gap-2">
         {byRegion.map((r) => (
-          <Link
+          <div
             key={r.regionSlug}
-            href={`/regions/${r.regionSlug}`}
             className="group rounded-xl border border-[var(--border)] bg-[var(--bg-canvas)]/60 hover:border-[var(--accent)]/40 hover:bg-[var(--bg-elevated)] transition-all p-3"
           >
-            <div className="flex items-center gap-1.5 mb-1.5">
+            <Link
+              href={`/regions/${r.regionSlug}`}
+              className="flex items-center gap-1.5 mb-1.5 hover:text-[var(--accent)] transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)] rounded-md"
+              aria-label={`Région ${r.name}`}
+            >
               <span className="text-base leading-none">{r.emoji}</span>
-              <span className="text-xs font-bold text-[var(--text-primary)] truncate">{r.name}</span>
-            </div>
-            <div className="flex flex-wrap gap-1.5">
+              <span className="text-xs font-bold text-[var(--text-primary)] group-hover:text-[var(--accent)] truncate">{r.name}</span>
+            </Link>
+            <div className="flex flex-wrap gap-x-2 gap-y-1">
               {r.cities.slice(0, 4).map((c) => (
-                <span
+                <Link
                   key={c.slug}
-                  className="inline-flex items-center gap-1 text-[10px] text-[var(--text-secondary)] truncate"
+                  href={`/villes/${c.slug}`}
+                  className="inline-flex items-center gap-1 text-[10px] text-[var(--text-secondary)] hover:text-[var(--accent)] hover:underline truncate focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)] rounded"
                   title={`${c.name} — ${c.scores.global.toFixed(1)}/10`}
                 >
                   <span
@@ -64,15 +68,18 @@ export function DromStrip() {
                     style={{ background: scoreColor(c.scores.global) }}
                   />
                   {c.name.replace(/\s*\(.*\)\s*$/, "")}
-                </span>
+                </Link>
               ))}
               {r.cities.length > 4 && (
-                <span className="text-[10px] text-[var(--text-tertiary)]">
+                <Link
+                  href={`/regions/${r.regionSlug}`}
+                  className="text-[10px] text-[var(--text-tertiary)] hover:text-[var(--accent)] hover:underline"
+                >
                   +{r.cities.length - 4}
-                </span>
+                </Link>
               )}
             </div>
-          </Link>
+          </div>
         ))}
       </div>
     </div>

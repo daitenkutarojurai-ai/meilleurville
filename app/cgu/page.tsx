@@ -56,7 +56,7 @@ Les données sont mises à jour régulièrement mais peuvent présenter des inex
 
 export default function CguPage() {
   return (
-    <main className="min-h-screen">
+    <main id="main-content" className="min-h-screen">
       <Navbar />
       <div className="mx-auto max-w-3xl px-4 sm:px-6 py-14">
         <div className="mb-10">

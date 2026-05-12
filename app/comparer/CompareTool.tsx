@@ -1,5 +1,5 @@
 "use client";
-import { useState, useMemo } from "react";
+import { useState, useMemo, useRef, useEffect } from "react";
 import { Plus, X, Search, MapPin, Star, TrendingUp, TrendingDown, Minus } from "lucide-react";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { Badge } from "@/components/ui/Badge";
@@ -37,6 +37,23 @@ function CityPicker({
 }) {
   const [query, setQuery] = useState("");
   const [open, setOpen] = useState(false);
+  const wrapRef = useRef<HTMLDivElement | null>(null);
+
+  useEffect(() => {
+    if (!open) return;
+    function onDocClick(e: MouseEvent) {
+      if (wrapRef.current && !wrapRef.current.contains(e.target as Node)) setOpen(false);
+    }
+    function onKey(e: KeyboardEvent) {
+      if (e.key === "Escape") setOpen(false);
+    }
+    document.addEventListener("mousedown", onDocClick);
+    document.addEventListener("keydown", onKey);
+    return () => {
+      document.removeEventListener("mousedown", onDocClick);
+      document.removeEventListener("keydown", onKey);
+    };
+  }, [open]);
 
   const filtered = useMemo(
     () =>
@@ -70,17 +87,18 @@ function CityPicker({
   }
 
   return (
-    <div className="relative">
-      <div className="flex items-center gap-2 rounded-2xl border border-dashed border-[var(--border)] bg-[var(--bg-surface)] p-4 transition-colors focus-within:border-[var(--accent)]/50">
+    <div className="relative" ref={wrapRef}>
+      <div className="flex items-center gap-2 rounded-2xl border border-dashed border-[var(--border)] bg-[var(--bg-surface)] p-4 transition-colors focus-within:border-[var(--accent)]/50 focus-within:ring-2 focus-within:ring-[var(--accent)]/30">
         <Search className="h-4 w-4 text-[var(--text-secondary)]" />
         <input
           type="text"
           value={query}
           onChange={(e) => { setQuery(e.target.value); setOpen(true); }}
           onFocus={() => setOpen(true)}
-          onBlur={() => setTimeout(() => setOpen(false), 150)}
           placeholder="Rechercher une ville..."
           aria-label="Rechercher une ville à comparer"
+          aria-expanded={open}
+          aria-autocomplete="list"
           className="flex-1 bg-transparent text-sm text-[var(--text-primary)] placeholder:text-[var(--text-secondary)] outline-none"
         />
       </div>
@@ -90,8 +108,8 @@ function CityPicker({
           {filtered.map((c) => (
             <button
               key={c.slug}
-              onMouseDown={() => { onSelect(c); setQuery(""); setOpen(false); }}
-              className="flex w-full items-center gap-3 px-4 py-3 text-left transition-colors hover:bg-[var(--bg-elevated)]"
+              onClick={() => { onSelect(c); setQuery(""); setOpen(false); }}
+              className="flex w-full items-center gap-3 px-4 py-3 text-left transition-colors hover:bg-[var(--bg-elevated)] focus-visible:bg-[var(--bg-elevated)] focus-visible:outline-2 focus-visible:outline-offset-[-2px] focus-visible:outline-[var(--accent)]"
             >
               <MapPin className="h-3.5 w-3.5 flex-shrink-0 text-[var(--text-secondary)]" />
               <div className="flex-1 min-w-0">

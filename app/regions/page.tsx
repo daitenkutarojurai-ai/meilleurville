@@ -4,11 +4,13 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { AmbientBackground } from "@/components/AmbientBackground";
 import { CITIES_SEED } from "@/data/cities-seed";
+import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 
 export const metadata: Metadata = {
   title: "Villes par région — Toutes les régions françaises | MeilleurVille",
   description:
     "Explorez les meilleures villes françaises région par région : Bretagne, Occitanie, PACA, Auvergne-Rhône-Alpes et plus. Scores comparés, top villes.",
+  alternates: { canonical: "/regions" },
 };
 
 const REGION_EMOJIS: Record<string, string> = {
@@ -47,8 +49,14 @@ export default function RegionsPage() {
     }))
     .sort((a, b) => b.avgScore - a.avgScore);
 
+  const breadcrumb = breadcrumbJsonLd([
+    { name: "Accueil", path: "/" },
+    { name: "Régions", path: "/regions" },
+  ]);
+
   return (
-    <main className="min-h-screen relative">
+    <main id="main-content" className="min-h-screen relative">
+      <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(breadcrumb)} />
       <AmbientBackground />
       <Navbar />
 

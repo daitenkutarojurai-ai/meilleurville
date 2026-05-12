@@ -66,7 +66,7 @@ const FLAG_CATEGORIES = [
 
 export default function RedFlagsPage() {
   return (
-    <main className="min-h-screen">
+    <main id="main-content" className="min-h-screen">
       <Navbar />
 
       {/* Header */}

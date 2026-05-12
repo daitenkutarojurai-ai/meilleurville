@@ -50,9 +50,12 @@ export default async function GuidePage({ params }: Props) {
     headline: guide.title,
     description: guide.intro,
     url: `${baseUrl}/guides/${guide.slug}`,
+    image: [`${baseUrl}/guides/${guide.slug}/opengraph-image`],
     datePublished: guide.publishedAt,
     dateModified: guide.updatedAt,
-    author: { "@type": "Organization", name: "MeilleurVille" },
+    inLanguage: "fr-FR",
+    keywords: guide.tags?.join(", "),
+    author: { "@type": "Organization", name: "MeilleurVille", url: baseUrl },
     publisher: {
       "@type": "Organization",
       name: "MeilleurVille",
@@ -69,7 +72,7 @@ export default async function GuidePage({ params }: Props) {
   };
 
   return (
-    <main className="min-h-screen">
+    <main id="main-content" className="min-h-screen">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }} />
       <Navbar />
 

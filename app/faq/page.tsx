@@ -146,7 +146,7 @@ export default function FaqPage() {
   };
 
   return (
-    <main className="min-h-screen">
+    <main id="main-content" className="min-h-screen">
       <Navbar />
       <script
         type="application/ld+json"

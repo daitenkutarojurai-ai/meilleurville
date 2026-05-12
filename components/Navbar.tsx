@@ -84,16 +84,30 @@ export function Navbar() {
 
         {/* Hamburger — visible below lg (tablet + mobile) */}
         <button
-          className="lg:hidden rounded-lg p-2 text-[var(--text-secondary)] hover:bg-[var(--bg-elevated)] hover:text-[var(--text-primary)] transition-colors"
+          className="lg:hidden rounded-lg p-2 text-[var(--text-secondary)] hover:bg-[var(--bg-elevated)] hover:text-[var(--text-primary)] transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]"
           onClick={() => setOpen(!open)}
-          aria-label="Menu"
+          aria-label={open ? "Fermer le menu" : "Ouvrir le menu"}
+          aria-expanded={open}
+          aria-controls="mobile-menu"
         >
           {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
         </button>
       </div>
 
+      {/* Mobile/tablet backdrop */}
+      {open && (
+        <button
+          type="button"
+          onClick={() => setOpen(false)}
+          aria-label="Fermer le menu"
+          tabIndex={-1}
+          className="lg:hidden fixed inset-x-0 top-14 bottom-0 -z-10 bg-black/30 backdrop-blur-[2px]"
+        />
+      )}
+
       {/* Mobile/tablet menu */}
       <div
+        id="mobile-menu"
         className={cn(
           "lg:hidden overflow-hidden transition-all duration-200",
           open ? "max-h-80" : "max-h-0"

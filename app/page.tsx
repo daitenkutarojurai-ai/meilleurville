@@ -49,7 +49,7 @@ const organizationJsonLd = {
 
 export default function HomePage() {
   return (
-    <main className="min-h-screen relative">
+    <main id="main-content" className="min-h-screen relative">
       <AmbientBackground />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }} />

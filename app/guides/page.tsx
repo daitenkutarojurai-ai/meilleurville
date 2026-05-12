@@ -17,8 +17,33 @@ export const metadata: Metadata = {
 };
 
 export default function GuidesPage() {
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL ?? "https://meilleurville.fr";
+  const collectionJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: "Guides MeilleurVille",
+    description: `Tous les guides pour bien choisir sa ville en France (${GUIDES.length} guides).`,
+    url: `${baseUrl}/guides`,
+    inLanguage: "fr-FR",
+    isPartOf: { "@type": "WebSite", name: "MeilleurVille", url: baseUrl },
+    breadcrumb: {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Accueil", item: baseUrl },
+        { "@type": "ListItem", position: 2, name: "Guides", item: `${baseUrl}/guides` },
+      ],
+    },
+    hasPart: GUIDES.slice(0, 50).map((g) => ({
+      "@type": "Article",
+      headline: g.title,
+      url: `${baseUrl}/guides/${g.slug}`,
+      datePublished: g.publishedAt,
+      dateModified: g.updatedAt,
+    })),
+  };
   return (
-    <main className="min-h-screen">
+    <main id="main-content" className="min-h-screen">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionJsonLd) }} />
       <Navbar />
 
       {/* Hero */}

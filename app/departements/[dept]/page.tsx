@@ -138,7 +138,7 @@ export default async function DeptPage({ params }: Props) {
   };
 
   return (
-    <main className="min-h-screen">
+    <main id="main-content" className="min-h-screen">
       <Navbar />
 
       <script

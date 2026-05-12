@@ -27,6 +27,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Transports à ${city.name} — Métro, tram, TGV, vélo | MeilleurVille`,
     description: `Réseau de transports à ${city.name} : ${summary} Sans-voiture, accessibilité, comparé à ${CITIES_SEED.length} villes.`,
+    alternates: { canonical: `/villes/${slug}/transports` },
     openGraph: {
       title: `Transports à ${city.name}`,
       description: summary,
@@ -105,7 +106,7 @@ export default async function TransportsPage({ params }: Props) {
   };
 
   return (
-    <main className="min-h-screen relative">
+    <main id="main-content" className="min-h-screen relative">
       <AmbientBackground />
       <Navbar />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />

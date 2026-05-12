@@ -93,7 +93,7 @@ export default async function RankingPage({ params }: Props) {
   };
 
   return (
-    <main className="min-h-screen relative">
+    <main id="main-content" className="min-h-screen relative">
       <AmbientBackground />
       <script
         type="application/ld+json"

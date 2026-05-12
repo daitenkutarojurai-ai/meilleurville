@@ -194,7 +194,7 @@ export default async function RegionPage({ params }: Props) {
   };
 
   return (
-    <main className="min-h-screen">
+    <main id="main-content" className="min-h-screen">
       <Navbar />
 
       <script

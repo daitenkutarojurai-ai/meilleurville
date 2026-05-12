@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 export default function CartePage() {
   return (
-    <main className="min-h-screen">
+    <main id="main-content" className="min-h-screen">
       <Navbar />
 
       <section className="bg-[var(--bg-surface)] border-b border-[var(--border)] py-12">

@@ -85,7 +85,7 @@ Vous pouvez également introduire une réclamation auprès de la CNIL (cnil.fr).
 
 export default function ConfidentialitePage() {
   return (
-    <main className="min-h-screen">
+    <main id="main-content" className="min-h-screen">
       <Navbar />
       <div className="mx-auto max-w-3xl px-4 sm:px-6 py-14">
         <div className="mb-10">

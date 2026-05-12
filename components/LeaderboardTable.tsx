@@ -59,12 +59,12 @@ export function LeaderboardTable() {
           aria-label="Rechercher une ville dans le classement"
           value={search}
           onChange={(e) => setSearch(e.target.value)}
-          className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] px-4 py-2 text-sm text-[var(--text-primary)] placeholder:text-[var(--text-tertiary)] focus:border-[var(--accent)]/50 focus:outline-none transition-colors"
+          className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] px-4 py-2 text-sm text-[var(--text-primary)] placeholder:text-[var(--text-tertiary)] focus:border-[var(--accent)]/50 focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--accent)]/40 transition-colors"
         />
         <select
           value={region}
           onChange={(e) => setRegion(e.target.value)}
-          className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] px-4 py-2 text-sm text-[var(--text-primary)] focus:border-[var(--accent)]/50 focus:outline-none transition-colors cursor-pointer"
+          className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] px-4 py-2 text-sm text-[var(--text-primary)] focus:border-[var(--accent)]/50 focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--accent)]/40 transition-colors cursor-pointer"
         >
           {REGIONS.map((r) => (
             <option key={r} value={r}>{r}</option>
@@ -73,7 +73,7 @@ export function LeaderboardTable() {
         <select
           value={sortKey}
           onChange={(e) => setSortKey(e.target.value as SortKey)}
-          className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] px-4 py-2 text-sm text-[var(--text-primary)] focus:border-[var(--accent)]/50 focus:outline-none transition-colors cursor-pointer"
+          className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] px-4 py-2 text-sm text-[var(--text-primary)] focus:border-[var(--accent)]/50 focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--accent)]/40 transition-colors cursor-pointer"
         >
           <option value="global">Trier : Score global</option>
           {CRITERIA.map(({ key, label }) => (

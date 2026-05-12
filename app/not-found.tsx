@@ -6,7 +6,7 @@ import { MapPin, Search } from "lucide-react";
 
 export default function NotFound() {
   return (
-    <main className="min-h-screen">
+    <main id="main-content" className="min-h-screen">
       <Navbar />
       <div className="flex min-h-[70vh] flex-col items-center justify-center px-4 text-center">
         <div className="mb-6 text-8xl font-bold font-mono-data gradient-text">404</div>

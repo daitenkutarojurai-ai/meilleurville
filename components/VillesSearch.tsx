@@ -378,11 +378,22 @@ export function VillesSearch() {
           ))}
         </div>
       ) : (
-        <div className="py-20 text-center">
-          <div className="text-4xl mb-3">🔍</div>
-          <p className="text-[var(--text-secondary)]">
-            Aucune ville trouvée pour «{query}». Essayez un autre terme.
+        <div className="rounded-2xl border border-dashed border-[var(--border)] bg-[var(--bg-surface)]/50 py-16 px-6 text-center">
+          <div className="text-5xl mb-3" aria-hidden>🔍</div>
+          <p className="text-base font-semibold text-[var(--text-primary)] mb-1">
+            Aucune ville ne correspond {query ? <>à «&nbsp;{query}&nbsp;»</> : "à vos filtres"}.
           </p>
+          <p className="text-xs text-[var(--text-tertiary)] mb-5">
+            Essayez un autre terme, ou réinitialisez les filtres.
+          </p>
+          {hasFilters && (
+            <button
+              onClick={clearFilters}
+              className="inline-flex items-center gap-1.5 rounded-full bg-[var(--accent)]/10 hover:bg-[var(--accent)]/15 text-[var(--accent)] text-xs font-semibold px-4 py-2 transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]"
+            >
+              Réinitialiser les filtres
+            </button>
+          )}
         </div>
       )}
     </div>

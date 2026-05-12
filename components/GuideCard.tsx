@@ -6,27 +6,52 @@ interface GuideCardProps {
   featured?: boolean;
 }
 
+function categoryLabel(c: Guide["category"]): string {
+  switch (c) {
+    case "teletravail": return "Télétravail";
+    case "famille": return "Famille";
+    case "budget": return "Budget";
+    case "region": return "Région";
+    case "comparaison": return "Comparaison";
+    default: return "Style de vie";
+  }
+}
+
+function freshness(updatedAt: string): string | null {
+  const dt = new Date(updatedAt);
+  if (Number.isNaN(dt.getTime())) return null;
+  const days = Math.floor((Date.now() - dt.getTime()) / 86_400_000);
+  if (days < 14) return "Mis à jour récemment";
+  return dt.toLocaleDateString("fr-FR", { month: "short", year: "numeric" });
+}
+
 export function GuideCard({ guide, featured = false }: GuideCardProps) {
+  const fresh = freshness(guide.updatedAt);
   return (
     <Link
       href={`/guides/${guide.slug}`}
-      className={`group block rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-lg hover:shadow-[var(--accent)]/5 transition-all duration-200 ${featured ? "p-6" : "p-5"}`}
+      aria-label={`${guide.title} — ${guide.readMinutes} minutes de lecture`}
+      className={`group block rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-lg hover:shadow-[var(--accent)]/5 active:scale-[0.99] transition-all duration-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)] ${featured ? "p-6" : "p-5"}`}
     >
       <div className="flex items-start gap-4">
-        <div className={`flex-shrink-0 rounded-xl bg-[var(--bg-elevated)] flex items-center justify-center ${featured ? "w-14 h-14 text-2xl" : "w-11 h-11 text-xl"}`}>
+        <div className={`flex-shrink-0 rounded-xl bg-[var(--bg-elevated)] flex items-center justify-center ${featured ? "w-14 h-14 text-2xl" : "w-11 h-11 text-xl"}`} aria-hidden>
           {guide.emoji}
         </div>
         <div className="flex-1 min-w-0">
-          <div className="flex items-center gap-2 mb-1.5">
+          <div className="flex items-center gap-2 mb-1.5 flex-wrap">
             <span className="text-xs text-[var(--text-tertiary)] uppercase tracking-wide font-medium">
-              {guide.category === "teletravail" ? "Télétravail" :
-               guide.category === "famille" ? "Famille" :
-               guide.category === "budget" ? "Budget" :
-               guide.category === "region" ? "Région" :
-               guide.category === "comparaison" ? "Comparaison" : "Style de vie"}
+              {categoryLabel(guide.category)}
             </span>
-            <span className="text-xs text-[var(--text-tertiary)]">·</span>
-            <span className="text-xs text-[var(--text-tertiary)]">{guide.readMinutes} min</span>
+            <span className="text-xs text-[var(--text-tertiary)]" aria-hidden>·</span>
+            <span className="text-xs text-[var(--text-tertiary)]">{guide.readMinutes} min de lecture</span>
+            {fresh && (
+              <>
+                <span className="text-xs text-[var(--text-tertiary)]" aria-hidden>·</span>
+                <span className="text-xs text-[var(--text-tertiary)]">
+                  <time dateTime={guide.updatedAt}>{fresh}</time>
+                </span>
+              </>
+            )}
           </div>
           <h3 className={`font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors leading-snug ${featured ? "text-base" : "text-sm"}`}>
             {guide.title}

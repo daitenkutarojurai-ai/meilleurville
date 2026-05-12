@@ -36,7 +36,7 @@ export default function DepartementsPage() {
     .sort((a, b) => b.avgScore - a.avgScore);
 
   return (
-    <main className="min-h-screen relative">
+    <main id="main-content" className="min-h-screen relative">
       <AmbientBackground />
       <Navbar />
 

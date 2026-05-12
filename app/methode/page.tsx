@@ -56,7 +56,7 @@ const LIMITS = [
 
 export default function MethodePage() {
   return (
-    <main className="min-h-screen relative">
+    <main id="main-content" className="min-h-screen relative">
       <AmbientBackground />
       <Navbar />
 

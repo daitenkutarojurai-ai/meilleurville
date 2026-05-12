@@ -708,7 +708,7 @@ export default async function PairPage({ params }: Props) {
   const winner = winsA > winsB ? cityA : winsB > winsA ? cityB : null;
 
   return (
-    <main className="min-h-screen">
+    <main id="main-content" className="min-h-screen">
       <Navbar />
 
       {/* JSON-LD for SEO */}

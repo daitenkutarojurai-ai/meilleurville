@@ -115,7 +115,7 @@ const SCORE_CRITERIA = [
 
 export default function DonneesPage() {
   return (
-    <main className="min-h-screen">
+    <main id="main-content" className="min-h-screen">
       <Navbar />
 
       <section className="bg-[var(--bg-surface)] border-b border-[var(--border)] py-14">

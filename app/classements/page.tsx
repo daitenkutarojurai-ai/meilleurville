@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { AmbientBackground } from "@/components/AmbientBackground";
+import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { CityCard } from "@/components/CityCard";
 import { ScrollReveal } from "@/components/effects/ScrollReveal";
@@ -23,6 +24,7 @@ export const metadata: Metadata = {
     type: "website",
   },
   twitter: { card: "summary_large_image" },
+  alternates: { canonical: "/classements" },
 };
 
 function seedToCity(s: (typeof CITIES_SEED)[number]): City {
@@ -64,9 +66,14 @@ const CATEGORIES = [
 
 export default function ClassementsPage() {
   const allCities = CITIES_SEED.map(seedToCity);
+  const breadcrumb = breadcrumbJsonLd([
+    { name: "Accueil", path: "/" },
+    { name: "Classements", path: "/classements" },
+  ]);
 
   return (
-    <main className="min-h-screen relative">
+    <main id="main-content" className="min-h-screen relative">
+      <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(breadcrumb)} />
       <AmbientBackground />
       <Navbar />
 
@@ -146,7 +153,7 @@ export default function ClassementsPage() {
                 </div>
 
                 {/* Podium (medals) */}
-                <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
+                <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
                   {top3.map((city, i) => (
                     <div key={city.slug} className="relative">
                       {/* Medal badge */}

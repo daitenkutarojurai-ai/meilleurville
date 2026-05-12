@@ -2747,7 +2747,7 @@ export const GUIDES: Guide[] = [
         body: "Figeac (46) : télétravail + patrimoine + immobilier accessible. Bayeux (14) : bord de mer Normandie + histoire + accès Caen. Sarlat (24) : Périgord Noir + tourisme + douceur de vivre. Millau (12) : paysages spectaculaires + dynamisme économique. Dole (39) : Jura + canal + Pasteur + proximité Dijon/Besançon. Chaque ville a des inconvénients (Sarlat est saturée l'été, Millau est isolée) mais toutes méritent une visite exploratoire sérieuse.",
       },
     ],
-    relatedCities: ["figeac", "bayeux", "millau", "sarlat", "dole", "rodez", "cahors"],
+    relatedCities: ["figeac", "bayeux", "millau", "dole", "rodez", "cahors"],
     relatedGuides: [
       "tresors-caches-villes-sous-estimees-france-2025",
       "vivre-en-france-teletravail-guide-2025",
@@ -5692,7 +5692,7 @@ export const GUIDES: Guide[] = [
         body: "Le Massif Central (Auvergne, Ardèche, Cévennes, Lozère) est peut-être la meilleure opportunité pour les télétravailleurs qui cherchent la montagne sans les prix alpins : logements à partir de 400€/mois, fibre en déploiement, Vivatech Auvergne qui crée une communauté tech locale, accès aux volcans, plateaux et gorges. Clermont-Ferrand est la ville hub du Massif Central avec tous les services. Les Puy-de-Dôme et la Haute-Loire sont magnifiques et encore peu exploités.",
       },
     ],
-    relatedCities: ["grenoble", "chambery", "briançon", "clermont-ferrand", "pau"],
+    relatedCities: ["grenoble", "chambery", "clermont-ferrand", "pau"],
     relatedGuides: [
       "vivre-en-france-teletravail-guide-2025",
       "quitter-paris-province-teletravail-guide-complet-2025",
@@ -6401,7 +6401,7 @@ export const GUIDES: Guide[] = [
         body: "Ménage 4 200 € nets, T3 Vieux-Lille (loyer 1 100 €) → même surface Arras 700 €, Roubaix 700 €, Amiens 600 €, Reims 850 €. Sur 10 ans, Arras représente ≈ 48 000 € d'épargne. Mais ne minimisez pas le facteur météo — si la grisaille du Nord vous pèse, sortir du Nord (Reims, Strasbourg, plus au sud) doit primer sur l'arbitrage prix. Lille pluvieux + cadre apprécié = tenable. Arras pluvieux + cadre patrimonial = tenable. Mais ce n'est pas un changement de climat.",
       },
     ],
-    relatedCities: ["arras", "amiens", "roubaix", "tourcoing", "valenciennes", "reims"],
+    relatedCities: ["arras", "amiens", "valenciennes", "reims"],
     relatedGuides: [
       "hauts-de-france-lille-arras-amiens-guide-2025",
       "vivre-frontalier-france-belgique-luxembourg-suisse-2025",
@@ -6562,13 +6562,7 @@ export const GUIDES: Guide[] = [
         body: "Famille avec enfants, télétravail majoritaire, attachement à un cadre français complet : La Réunion (Saint-Pierre, Le Tampon). Couple lifestyle, retraite active, recherche de chaleur et de mer : Martinique (Fort-de-France, Schoelcher) ou Guadeloupe (Saint-François, Le Gosier). Profil engagé sur l'environnement ou la coopération scientifique : Guyane (Cayenne, Kourou). Mission de service public, profil militant ou militaire : Mayotte (Mamoudzou). Et si vous hésitez : commencez par 6 mois en location avant tout achat ou décision irréversible.",
       },
     ],
-    relatedCities: [
-      "saint-denis-reunion", "saint-paul-reunion", "saint-pierre-reunion", "le-tampon",
-      "fort-de-france", "le-lamentin",
-      "pointe-a-pitre", "les-abymes", "baie-mahault",
-      "cayenne", "saint-laurent-du-maroni",
-      "mamoudzou",
-    ],
+    relatedCities: ["saint-denis-reunion", "saint-paul-reunion", "saint-pierre-reunion", "le-tampon", "fort-de-france", "le-lamentin", "pointe-a-pitre", "les-abymes", "baie-mahault", "cayenne", "saint-laurent-du-maroni", "mamoudzou"],
     relatedGuides: [
       "soleil-france-guide",
       "vivre-bord-mer-france-guide",
@@ -7003,7 +6997,7 @@ export const GUIDES: Guide[] = [
         body: "La question qui revient : est-il vraiment obligatoire de vivre à Strasbourg pour travailler en Allemagne ou en Suisse ? La réponse est non depuis le développement du télétravail. Un frontalier qui travaille à Kehl ou Offenburg peut très bien résider à Colmar (35 min), Sélestat (40 min) ou même Mulhouse (1h) et économiser 400–600 €/mois sur son loyer. Pour les frontaliers suisses de la région bâloise, Mulhouse et Saint-Louis (ville-frontière à ≈ 1 800 €/m²) offrent des économies encore plus significatives. À condition de vérifier les règles de détachement selon la convention franco-suisse ou franco-allemande.",
       },
     ],
-    relatedCities: ["colmar", "mulhouse", "metz", "nancy", "strasbourg", "sélestat"],
+    relatedCities: ["colmar", "mulhouse", "metz", "nancy", "strasbourg"],
     relatedGuides: [
       "vivre-en-alsace-guide-2025",
       "vivre-en-lorraine-metz-nancy-thionville-2026",
@@ -7195,7 +7189,7 @@ export const GUIDES: Guide[] = [
         body: "Trois villes moins connues méritent l'attention. Lens : le succès du Louvre-Lens a créé un écosystème culturel autour du musée et des friches minières — prix encore très bas (≈ 1 400 €/m²). Forbach : ville frontalière franco-allemande avec un patrimoine industriel intact et des loyers défiant toute concurrence. Arles : la tradition photographique (Rencontres d'Arles) et la présence du LUMA Foundation ont attiré une communauté internationale de photographes, vidéastes et scénographes — prix ≈ 3 000 €/m², moins cher que la plupart des grandes villes du Sud.",
       },
     ],
-    relatedCities: ["marseille", "saint-etienne", "montpellier", "limoges", "roubaix", "arles"],
+    relatedCities: ["marseille", "saint-etienne", "montpellier", "limoges", "arles"],
     relatedGuides: [
       "vivre-dans-le-sud-france-guide-2025",
       "villes-france-reconversion-professionnelle-formation-2025",
@@ -7383,7 +7377,7 @@ export const GUIDES: Guide[] = [
         body: "C'est le critère le moins quantifiable mais le plus mentionné par les partants avec enfants. Le RNSA et Atmo Auvergne-Rhône-Alpes publient les données : Grenoble dépasse régulièrement le seuil OMS de 15 µg/m³ PM2,5 en hiver. À Valence, la moyenne annuelle est environ 25 % inférieure. À Chambéry, comparable ou légèrement meilleure. Ce différentiel a un impact sanitaire réel sur les enfants asthmatiques (coût de traitement, jours d'école manqués) que peu de comparatifs immobiliers intègrent — mais qui compte dans la décision d'une famille.",
       },
     ],
-    relatedCities: ["valence", "chambery", "gap", "aix-les-bains", "crolles", "romans-sur-isere"],
+    relatedCities: ["valence", "chambery", "gap", "aix-les-bains", "romans-sur-isere"],
     relatedGuides: [
       "vivre-en-auvergne-rhone-alpes-guide-2025",
       "grenoble-vs-chambery-comparatif-2025",
@@ -7426,7 +7420,7 @@ export const GUIDES: Guide[] = [
         body: "Avant de partir, il vaut la peine de mesurer ce qu'on laisse réellement. Clermont a des avantages concrets que les grandes métropoles ne peuvent pas offrir : zéro embouteillage (20 minutes maxi d'un bout à l'autre de l'agglomération), accès ski en 45 minutes (Super-Besse, Le Mont-Dore), randonnée volcanique à 15 minutes du centre (Puy de Dôme en vélo ou à pied), fromages AOP au marché du samedi pour moins de 15 €/kg, et un CHU de niveau national qui recrute. Pour un médecin, un ingénieur Michelin ou un enseignant chercheur, Clermont est une proposition solide que la réputation ne reflète pas.",
       },
     ],
-    relatedCities: ["vichy", "riom", "issoire", "lyon", "thiers", "ambert"],
+    relatedCities: ["vichy", "riom", "issoire", "lyon", "thiers"],
     relatedGuides: [
       "vivre-en-auvergne-guide-2025",
       "quitter-lyon-guide-2026",
@@ -7473,7 +7467,7 @@ export const GUIDES: Guide[] = [
         body: "Choisissez Marseille si : vous êtes dans la santé, le maritime, la recherche ou les services aux entreprises ; vous valorisez la diversité culturelle intense, la gastronomie de marché et l'énergie urbaine brute ; vous avez la capacité financière et le sens de la navigation pour identifier un bon quartier. Choisissez Toulon si : vous avez une famille avec enfants et que la sécurité quotidienne est une priorité ; vous êtes en télétravail et cherchez la Méditerranée à prix réduit ; vous êtes lié à la Défense ou la Marine Nationale ; vous valorisez la rade et la navigation de plaisance.",
       },
     ],
-    relatedCities: ["toulon", "marseille", "hyeres", "la-seyne-sur-mer", "aubagne", "cassis"],
+    relatedCities: ["toulon", "marseille", "hyeres", "aubagne", "cassis"],
     relatedGuides: [
       "vivre-en-provence-paca-guide-2025",
       "quitter-marseille-guide-2026",
@@ -7712,7 +7706,7 @@ export const GUIDES: Guide[] = [
         body: "Le test d'un vrai spot de vie nautique, c'est l'hiver. En été, tout le monde est dehors. En octobre-mars, qui surfe encore ? À Biarritz et Hossegor, la communauté est dense et les spots fonctionnent même sous la pluie (vagues meilleures en automne-hiver). À Lacanau, la station se vide et la vie sociale s'effondre. En Bretagne, les voileux et kayakistes hivernaux sont nombreux — la culture maritime est moins saisonnière. Ce critère est souvent négligé par ceux qui visitent un spot en juillet avant d'acheter — et regrettent en décembre.",
       },
     ],
-    relatedCities: ["biarritz", "hossegor", "capbreton", "la-rochelle", "brest", "lorient"],
+    relatedCities: ["biarritz", "hossegor", "la-rochelle", "brest", "lorient"],
     relatedGuides: [
       "vivre-en-pays-basque-guide-2026",
       "teletravailler-depuis-bretagne-guide-2026",
@@ -7759,7 +7753,7 @@ export const GUIDES: Guide[] = [
         body: "Trois profils s'installent dans les Landes. (1) Le télétravailleur qui voulait le Pays Basque mais n'en a pas le budget : les Landes offrent l'océan, le surf, les Pyrénées à 1h, et des prix 50 % inférieurs au Pays Basque. (2) La famille qui fuit les grandes métropoles pour un cadre naturel exceptionnel : espace, sécurité, nature, école à l'échelle humaine. (3) Le retraité actif qui veut thermalisme, nature et gastronomie sans se ruiner. Ce qui est absent : une scène tech-startup, des connexions TGV directes depuis les villes intérieures, et une offre culturelle métropolitaine.",
       },
     ],
-    relatedCities: ["mont-de-marsan", "dax", "biscarrosse", "mimizan", "hossegor", "capbreton"],
+    relatedCities: ["mont-de-marsan", "dax", "biscarrosse", "hossegor"],
     relatedGuides: [
       "vivre-en-pays-basque-guide-2026",
       "vivre-en-nouvelle-aquitaine-guide-2025",
@@ -7806,7 +7800,7 @@ export const GUIDES: Guide[] = [
         body: "Deux limites structurelles. (1) L'emploi privé : le tissu économique du Roussillon est dominé par le tourisme estival, le commerce transfrontalier et l'agriculture (vergers, vigne). Les emplois qualifiés dans le tech, la finance ou l'industrie sont concentrés à Barcelone (2h) et Toulouse (1h45 de TGV). Pour un salarié cherchant à évoluer localement hors secteur public, le département est trop petit. (2) La précarité sociale visible : Perpignan a un taux de pauvreté parmi les plus élevés des grandes villes françaises. La cohabitation entre touristes aisés et populations précaires est une réalité du quotidien.",
       },
     ],
-    relatedCities: ["perpignan", "narbonne", "beziers", "collioure", "banyuls-sur-mer", "ceret"],
+    relatedCities: ["perpignan", "narbonne", "beziers", "collioure", "ceret"],
     relatedGuides: [
       "vivre-en-occitanie-guide-2025",
       "quitter-montpellier-guide-2026",
@@ -7853,7 +7847,7 @@ export const GUIDES: Guide[] = [
         body: "Choisissez Rouen si : vous travaillez à Paris ou y allez fréquemment ; vous valorisez la richesse culturelle et patrimoniale d'une grande ville ; vous êtes dans l'industrie, la logistique ou les services aux entreprises. Choisissez Caen si : vous avez des enfants et valorisez la mer et la douceur de vie ; vous télétravailler à 100 % et cherchez une ville plate et cyclable ; vous venez de l'Ouest (Rennes, Nantes) et cherchez à rester dans cette ambiance atlantique. Les deux villes sont de bonnes options normandes — elles correspondent à des modes de vie différents.",
       },
     ],
-    relatedCities: ["caen", "rouen", "le-havre", "cherbourg", "deauville", "bayeux"],
+    relatedCities: ["caen", "rouen", "le-havre", "cherbourg", "bayeux"],
     relatedGuides: [
       "vivre-en-normandie-guide-2025",
       "teletravailler-depuis-normandie-guide-2026",
@@ -7947,7 +7941,7 @@ export const GUIDES: Guide[] = [
         body: "Tout le monde ne veut pas la montagne. Pour les randonneurs côtiers (GR34 en Bretagne, GR51 sur les Maures et l'Estérel, sentiers des Calanques), trois villes se démarquent. Brest : accès direct au GR34 (sentier des douaniers, 1 800 km de Bretagne) depuis la rade. Nice : les sentiers du Mercantour et de la Côte d'Azur depuis le front de mer. La Rochelle : les îles de Ré et d'Oléron à vélo et à pied. Ces villes sont moins typiques du trail alpin mais parfaitement cohérentes pour les marcheurs longue distance et les randonneuses côtières.",
       },
     ],
-    relatedCities: ["grenoble", "pau", "millau", "annecy", "chamonix", "brest"],
+    relatedCities: ["grenoble", "pau", "millau", "annecy", "brest"],
     relatedGuides: [
       "vivre-en-montagne-villes-alpes-pyrenees-france-2025",
       "meilleures-villes-outdoor-sport-nature-france-2025",
@@ -8229,7 +8223,7 @@ export const GUIDES: Guide[] = [
         body: "Choisissez Pau si : budget achat < 250 000 € pour un T3 ; randonneur/alpiniste valorizant les Pyrénées ; pétrole-gaz, défense ou santé ; ville à taille humaine sans effervescence touristique permanente. Choisissez Bayonne si : budget achat > 320 000 € pour un T3 ; surfeur ou amateur de côte basque ; identité culturelle basque, fêtes et intensité sociale ; tourisme, restauration ou commerce haut de gamme.",
       },
     ],
-    relatedCities: ["pau", "bayonne", "biarritz", "anglet", "tarbes", "oloron-sainte-marie"],
+    relatedCities: ["pau", "bayonne", "biarritz", "anglet", "tarbes"],
     relatedGuides: [
       "vivre-en-pays-basque-guide-2026",
       "vivre-dans-les-pyrenees-guide-2025",
@@ -8276,7 +8270,7 @@ export const GUIDES: Guide[] = [
         body: "Quatre profils distincts. (1) Le frontalier genevois cherchant la résidence française : Pays de Gex. (2) Le gastronome télétravailleur : Bourg-en-Bresse pour le poulet AOP et le marché couvert. (3) L'ornithologiste ou amateur de nature aquatique : la Dombes est unique en France. (4) L'industrie-technique : Oyonnax et Ambérieu-en-Bugey (nœud ferroviaire et ZI active). Ce n'est pas une destination lifestyle généraliste — c'est un département de niches précises.",
       },
     ],
-    relatedCities: ["bourg-en-bresse", "oyonnax", "gex", "belley", "amberieu-en-bugey", "divonne-les-bains"],
+    relatedCities: ["bourg-en-bresse", "oyonnax", "gex"],
     relatedGuides: [
       "vivre-en-auvergne-rhone-alpes-guide-2025",
       "vivre-en-franche-comte-jura-guide-2025",
@@ -8511,7 +8505,7 @@ export const GUIDES: Guide[] = [
         body: "Avant de partir : le patrimoine architectural de Rouen (cathédrale immortalisée par Monet, vieux quartier à colombages) est exceptionnel pour une ville de 115 000 habitants. Le musée des Beaux-Arts est parmi les meilleurs de province. L'Armada (rassemblement de grands voiliers tous les 3-4 ans) est l'événement maritime le plus important de France. Et la Seine, malgré tout, reste un cadre de vie rare. Pour ceux qui peuvent accepter la topographie et les nuisances industrielles dans les quartiers bien choisis, Rouen mérite d'être réévaluée avant de partir.",
       },
     ],
-    relatedCities: ["rouen", "caen", "le-havre", "evreux", "dieppe", "fecamp"],
+    relatedCities: ["rouen", "caen", "le-havre", "evreux", "dieppe"],
     relatedGuides: [
       "caen-vs-rouen-comparatif-2026",
       "teletravailler-depuis-normandie-guide-2026",
@@ -8699,7 +8693,7 @@ export const GUIDES: Guide[] = [
         body: "Trois profils s'y installent avec succès. (1) Le télétravailleur complet qui n'a besoin d'aller à Toulouse qu'une fois par mois maximum, cherche une maison avec terrain pour moins de 150 000 €, et valorise la montagne quotidienne. (2) L'artisan ou le maraîcher en reconversion : l'espace foncier, les prix et la communauté de néo-ruraux établis (l'Ariège attire ce type de profil depuis les années 1970) créent un tissu social favorable. (3) La retraite active : randonnée, thermes (Ax-les-Thermes, Ussat), vignoble de l'Ariège côté Mirepoix — à condition d'être en bonne santé.",
       },
     ],
-    relatedCities: ["foix", "pamiers", "saint-girons", "ax-les-thermes", "mirepoix", "tarascon-sur-ariege"],
+    relatedCities: ["foix", "pamiers", "saint-girons"],
     relatedGuides: [
       "vivre-dans-les-pyrenees-guide-2025",
       "vivre-en-occitanie-guide-2025",
@@ -9183,7 +9177,7 @@ export const GUIDES: Guide[] = [
         body: "Évreux (52 000 habitants, Eure, Normandie) mérite une mention spéciale : 1h15 de Paris-Saint-Lazare en TER direct, immobilier à 1 600–2 200 €/m² — parmi les moins chers à moins de 1h30 de Paris. Préfecture normande active, lycées de qualité, hôpital en restructuration. Le cadre est agréable (vallée de l\'Iton) sans être spectaculaire.\n\nPour un télétravailleur qui n\'a besoin d\'être à Paris qu\'une ou deux fois par semaine, Évreux change radicalement le budget logement : un T4 de 85 m² s\'achète 160 000–200 000 €. Contrepartie : les TER Paris–Évreux ont une fréquence irrégulière le soir et certains week-ends. Vérifier les horaires avant tout achat si le télétravail génère des déplacements en soirée fréquents.",
       },
     ],
-    relatedCities: ["fontainebleau", "meaux", "melun", "chartres", "rambouillet", "evreux"],
+    relatedCities: ["fontainebleau", "meaux", "chartres", "rambouillet", "evreux"],
     relatedGuides: [
       "vivre-en-france-teletravail-guide-2025",
       "teletravailler-depuis-normandie-guide-2026",
@@ -9393,7 +9387,7 @@ export const GUIDES: Guide[] = [
         body: "Rennes est sous-représentée dans les discussions sur le retour d\'expatriation, mais elle mérite l\'attention pour un profil spécifique : les familles avec des enfants de moins de 10 ans, dont l\'expatriation était dans un pays francophone partiel, et qui veulent privilégier la qualité de vie et le coût sur l\'accès à un environnement ultra-international.\n\nRennes n\'a pas d\'école internationale IB etablie, mais son tissu scolaire public est parmi les meilleurs de France (lycées bien classés en résultats au baccalauréat, écoles primaires à effectifs raisonnables). Les classes bilingues anglais-français de l\'Éducation nationale sont disponibles dans certaines écoles rennaises. La ville est humaine (220 000 habitants), le coût de la vie est raisonnable (immobilier 2 800–4 200 €/m²), et l\'intégration sociale est plus facile que dans les grandes métropoles. Pour une famille rentrée de pays anglophones avec des enfants en bas âge qui souhaitent une réintégration douce dans le système français, Rennes est une option sérieuse.",
       },
     ],
-    relatedCities: ["lyon", "bordeaux", "sophia-antipolis", "rennes", "paris", "nice"],
+    relatedCities: ["lyon", "bordeaux", "rennes", "paris", "nice"],
     relatedGuides: [
       "meilleure-ville-famille-france",
       "quitter-lyon-guide-2026",

@@ -45,7 +45,7 @@ export default function DashboardPage() {
     : 100;
 
   return (
-    <main className="min-h-screen relative">
+    <main id="main-content" className="min-h-screen relative">
       <AmbientBackground />
       <Navbar />
 

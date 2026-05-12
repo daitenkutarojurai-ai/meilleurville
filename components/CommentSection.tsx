@@ -183,7 +183,7 @@ export function CommentSection({
             maxLength={40}
             minLength={3}
             required
-            className="rounded-xl border border-[var(--border)] bg-white/80 px-3 py-2 text-sm outline-none focus:border-[var(--accent)]/60 focus:bg-white transition-all sm:w-44"
+            className="rounded-xl border border-[var(--border)] bg-white/80 px-3 py-2 text-sm outline-none focus:border-[var(--accent)]/60 focus:bg-white focus-visible:ring-2 focus-visible:ring-[var(--accent)]/40 transition-all sm:w-44"
           />
           <input
             type="email"
@@ -192,7 +192,7 @@ export function CommentSection({
             onChange={(e) => setEmail(e.target.value)}
             maxLength={120}
             required
-            className="rounded-xl border border-[var(--border)] bg-white/80 px-3 py-2 text-sm outline-none focus:border-[var(--accent)]/60 focus:bg-white transition-all sm:flex-1 sm:min-w-[200px]"
+            className="rounded-xl border border-[var(--border)] bg-white/80 px-3 py-2 text-sm outline-none focus:border-[var(--accent)]/60 focus:bg-white focus-visible:ring-2 focus-visible:ring-[var(--accent)]/40 transition-all sm:flex-1 sm:min-w-[200px]"
           />
           {showRating && (
             <div className="flex items-center gap-1 px-2">
@@ -222,7 +222,7 @@ export function CommentSection({
           onChange={(e) => setBody(e.target.value)}
           maxLength={2000}
           rows={4}
-          className="mt-3 w-full rounded-xl border border-[var(--border)] bg-white/80 px-3 py-2 text-sm outline-none focus:border-[var(--accent)]/60 focus:bg-white transition-all resize-y"
+          className="mt-3 w-full rounded-xl border border-[var(--border)] bg-white/80 px-3 py-2 text-sm outline-none focus:border-[var(--accent)]/60 focus:bg-white focus-visible:ring-2 focus-visible:ring-[var(--accent)]/40 transition-all resize-y"
         />
 
         {/* Honeypot — hidden from real users */}
@@ -256,13 +256,13 @@ export function CommentSection({
         </div>
 
         {error && (
-          <div className="mt-3 flex items-start gap-2 rounded-lg bg-red-50 border border-red-200 px-3 py-2 text-xs text-red-700">
+          <div role="alert" aria-live="assertive" className="mt-3 flex items-start gap-2 rounded-lg bg-red-50 border border-red-200 px-3 py-2 text-xs text-red-700">
             <AlertCircle className="h-4 w-4 mt-0.5 flex-shrink-0" />
             <span>{error}</span>
           </div>
         )}
         {success && (
-          <div className="mt-3 flex items-center gap-2 rounded-lg bg-emerald-50 border border-emerald-200 px-3 py-2 text-xs text-emerald-700">
+          <div role="status" aria-live="polite" className="mt-3 flex items-center gap-2 rounded-lg bg-emerald-50 border border-emerald-200 px-3 py-2 text-xs text-emerald-700">
             <CheckCircle className="h-4 w-4" />
             <span>{success}</span>
           </div>

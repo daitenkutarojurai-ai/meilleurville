@@ -66,7 +66,7 @@ const POPULAR_PAIRS = [
 
 export default function ComparerPage() {
   return (
-    <main className="min-h-screen relative">
+    <main id="main-content" className="min-h-screen relative">
       <AmbientBackground />
       <Navbar />
 

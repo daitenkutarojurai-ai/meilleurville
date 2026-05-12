@@ -71,25 +71,30 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
         <GrainOverlay opacity={0.18} blend="overlay" />
 
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6">
-          <div className="flex flex-wrap items-center gap-2 text-sm text-[var(--text-secondary)] mb-4">
+          <nav
+            aria-label="Fil d'Ariane"
+            className="flex flex-wrap items-center gap-2 text-sm text-[var(--text-secondary)] mb-4"
+          >
+            <a href="/" className="hover:text-[var(--text-primary)] transition-colors">Accueil</a>
+            <ChevronRight className="h-3.5 w-3.5" aria-hidden />
             <a href="/villes" className="hover:text-[var(--text-primary)] transition-colors">Villes</a>
-            <ChevronRight className="h-3.5 w-3.5" />
+            <ChevronRight className="h-3.5 w-3.5" aria-hidden />
             <a
               href={`/regions/${city.region.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}`}
               className="hover:text-[var(--text-primary)] transition-colors"
             >
               {city.region}
             </a>
-            <ChevronRight className="h-3.5 w-3.5" />
+            <ChevronRight className="h-3.5 w-3.5" aria-hidden />
             <a
               href={`/departements/${city.department.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}`}
               className="hover:text-[var(--text-primary)] transition-colors"
             >
               {city.department}
             </a>
-            <ChevronRight className="h-3.5 w-3.5" />
-            <span className="text-[var(--text-primary)]">{city.name}</span>
-          </div>
+            <ChevronRight className="h-3.5 w-3.5" aria-hidden />
+            <span className="text-[var(--text-primary)]" aria-current="page">{city.name}</span>
+          </nav>
 
           <div className="flex flex-col sm:flex-row gap-6 items-start">
             <div className="flex-1 min-w-0">
@@ -183,13 +188,32 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
       {/* Tabs */}
       <div className="sticky top-16 z-40 border-b border-[var(--border)] bg-[var(--bg-canvas)]/90 backdrop-blur-xl">
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
-          <div className="flex gap-0 overflow-x-auto">
+          <div
+            role="tablist"
+            aria-label={`Sections du profil de ${city.name}`}
+            className="flex gap-0 overflow-x-auto"
+            onKeyDown={(e) => {
+              if (e.key !== "ArrowRight" && e.key !== "ArrowLeft") return;
+              const idx = TABS.findIndex((t) => t.id === activeTab);
+              const next = e.key === "ArrowRight"
+                ? (idx + 1) % TABS.length
+                : (idx - 1 + TABS.length) % TABS.length;
+              setActiveTab(TABS[next].id);
+              const el = document.getElementById(`city-tab-${TABS[next].id}`);
+              el?.focus();
+            }}
+          >
             {TABS.map((tab) => (
               <button
                 key={tab.id}
+                id={`city-tab-${tab.id}`}
+                role="tab"
+                aria-selected={activeTab === tab.id}
+                aria-controls={`city-panel-${tab.id}`}
+                tabIndex={activeTab === tab.id ? 0 : -1}
                 onClick={() => setActiveTab(tab.id)}
                 className={cn(
-                  "whitespace-nowrap px-5 py-4 text-sm font-medium border-b-2 transition-colors",
+                  "whitespace-nowrap px-5 py-4 text-sm font-medium border-b-2 transition-colors focus-visible:outline-2 focus-visible:outline-offset-[-2px] focus-visible:outline-[var(--accent)]",
                   activeTab === tab.id
                     ? "border-[var(--accent)] text-[var(--accent)]"
                     : "border-transparent text-[var(--text-secondary)] hover:text-[var(--text-primary)]"
@@ -205,7 +229,11 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
       {/* Content */}
       <div className="mx-auto max-w-7xl px-4 sm:px-6 py-10">
         {activeTab === "overview" && (
-          <div className="grid gap-6 lg:grid-cols-3">
+          <div
+            id="city-panel-overview"
+            role="tabpanel"
+            aria-labelledby="city-tab-overview"
+            className="grid gap-6 lg:grid-cols-3">
             {/* Scores */}
             <div className="lg:col-span-2 space-y-6">
               {/* Summary — intro + pros/cons + notable */}
@@ -569,7 +597,7 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
         )}
 
         {activeTab === "scores" && (
-          <div className="max-w-2xl">
+          <div id="city-panel-scores" role="tabpanel" aria-labelledby="city-tab-scores" className="max-w-2xl">
             <Card>
               <h2 className="text-lg font-bold text-[var(--text-primary)] mb-6">
                 Scores détaillés — {city.name}
@@ -591,7 +619,7 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
         )}
 
         {activeTab === "reviews" && (
-          <div className="max-w-3xl">
+          <div id="city-panel-reviews" role="tabpanel" aria-labelledby="city-tab-reviews" className="max-w-3xl">
             <Card>
               <div className="text-center py-6">
                 <div className="text-4xl mb-3">💬</div>
@@ -613,7 +641,7 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
         )}
 
         {activeTab === "data" && (
-          <div className="max-w-2xl">
+          <div id="city-panel-data" role="tabpanel" aria-labelledby="city-tab-data" className="max-w-2xl">
             <Card>
               <h2 className="text-lg font-bold text-[var(--text-primary)] mb-6">
                 Données brutes — {city.name}
