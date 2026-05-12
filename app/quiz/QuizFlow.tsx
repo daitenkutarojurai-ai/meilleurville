@@ -392,6 +392,7 @@ export function QuizFlow() {
             step={(currentStep as { step: number }).step}
             value={(answers as Record<string, number>)[currentStep.id] ?? 1200}
             onChange={(e) => handleSlider(currentStep.id, Number(e.target.value))}
+            aria-label={currentStep.question}
             className="w-full accent-[var(--accent)] cursor-pointer"
           />
           <div className="flex justify-between text-xs text-[var(--text-secondary)] mt-2">

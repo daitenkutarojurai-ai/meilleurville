@@ -131,6 +131,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Climat de ${city.name} — ${climate.label}, températures, ensoleillement | MeilleurVille`,
     description: `Climat ${climate.label.toLowerCase()} à ${city.name} : ${city.avgTempJuly ?? "–"} °C en juillet, ${city.avgTempJanuary ?? "–"} °C en janvier, ${city.sunshinedays ?? "–"} h de soleil par an. Quand y aller, à quoi s'attendre.`,
+    alternates: { canonical: `/villes/${slug}/climat` },
     openGraph: {
       title: `Climat de ${city.name} — ${climate.label}`,
       description: `${city.sunshinedays ?? "–"} h de soleil · ${city.avgTempJuly ?? "–"}/${city.avgTempJanuary ?? "–"} °C juillet/janvier`,

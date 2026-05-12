@@ -623,6 +623,7 @@ const SEO_PAIRS = [
   ["mauriac", "saint-flour"],
   ["delle", "belfort"],
   ["riberac", "perigueux"],
+  ["le-mans", "tours"],
 ];
 
 export function generateStaticParams() {
@@ -639,6 +640,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${a.name} vs ${b.name} — Comparaison qualité de vie 2026`,
     description: `Comparaison complète entre ${a.name} (${a.scores.global}/10) et ${b.name} (${b.scores.global}/10) : coût de vie, transport, nature, sécurité, écoles. Laquelle choisir ?`,
+    alternates: { canonical: `/comparer/${pair}` },
     openGraph: {
       title: `${a.name} vs ${b.name} — Quelle ville choisir ?`,
       description: `${a.name} : ${a.scores.global}/10 · ${b.name} : ${b.scores.global}/10. Comparez tous les critères.`,

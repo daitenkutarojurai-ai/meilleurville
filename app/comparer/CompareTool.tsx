@@ -80,6 +80,7 @@ function CityPicker({
           onFocus={() => setOpen(true)}
           onBlur={() => setTimeout(() => setOpen(false), 150)}
           placeholder="Rechercher une ville..."
+          aria-label="Rechercher une ville à comparer"
           className="flex-1 bg-transparent text-sm text-[var(--text-primary)] placeholder:text-[var(--text-secondary)] outline-none"
         />
       </div>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Green rounded square matching --accent (#16A34A) with rounded-xl radius -->
+  <rect width="32" height="32" rx="7" fill="#16A34A"/>
+  <!-- White MapPin (lucide) scaled to fill icon with comfortable padding -->
+  <g transform="translate(1.6 1.6) scale(1.2)">
+    <!-- Outer pin shape -->
+    <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" fill="white"/>
+    <!-- Inner aperture hole (green = same as background) -->
+    <circle cx="12" cy="10" r="3.2" fill="#16A34A"/>
+  </g>
+</svg>

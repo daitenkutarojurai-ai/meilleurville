@@ -57,11 +57,12 @@ export function CostCalculator() {
       {/* Inputs */}
       <div className="grid sm:grid-cols-2 gap-4 mb-6">
         <div>
-          <label className="text-xs text-[var(--text-secondary)] block mb-2">
+          <label htmlFor="calc-loyer" className="text-xs text-[var(--text-secondary)] block mb-2">
             Mon loyer actuel (Paris)
           </label>
           <div className="flex items-center gap-2">
             <input
+              id="calc-loyer"
               type="range"
               min={700}
               max={3000}
@@ -76,11 +77,12 @@ export function CostCalculator() {
           </div>
         </div>
         <div>
-          <label className="text-xs text-[var(--text-secondary)] block mb-2">
+          <label htmlFor="calc-salaire" className="text-xs text-[var(--text-secondary)] block mb-2">
             Mon salaire net mensuel
           </label>
           <div className="flex items-center gap-2">
             <input
+              id="calc-salaire"
               type="range"
               min={1500}
               max={8000}

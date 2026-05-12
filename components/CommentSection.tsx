@@ -58,8 +58,14 @@ export function CommentSection({
 }: CommentSectionProps) {
   const [items, setItems] = useState<Comment[]>([]);
   const [loading, setLoading] = useState(true);
-  const [author, setAuthor] = useState("");
-  const [email, setEmail] = useState("");
+  const [author, setAuthor] = useState(() => {
+    if (typeof window === "undefined") return "";
+    try { return localStorage.getItem(STORAGE_KEY) ?? ""; } catch { return ""; }
+  });
+  const [email, setEmail] = useState(() => {
+    if (typeof window === "undefined") return "";
+    try { return localStorage.getItem(EMAIL_KEY) ?? ""; } catch { return ""; }
+  });
   const [body, setBody] = useState("");
   const [rating, setRating] = useState<number | null>(null);
   const [website, setWebsite] = useState(""); // honeypot
@@ -71,19 +77,8 @@ export function CommentSection({
   const formRef = useRef<HTMLFormElement | null>(null);
   const formStartedAt = useRef<number>(Date.now());
 
-  // Pre-fill author + email from localStorage
-  useEffect(() => {
-    try {
-      const v = localStorage.getItem(STORAGE_KEY);
-      if (v) setAuthor(v);
-      const e = localStorage.getItem(EMAIL_KEY);
-      if (e) setEmail(e);
-    } catch {}
-  }, []);
-
   useEffect(() => {
     let cancelled = false;
-    setLoading(true);
     fetch(`/api/comments?topic=${encodeURIComponent(topic)}`, { cache: "no-store" })
       .then((r) => r.json())
       .then((d) => {
@@ -222,6 +217,7 @@ export function CommentSection({
         </div>
         <textarea
           placeholder={emptyHint ?? "Partagez votre expérience, votre avis, votre coup de cœur…"}
+          aria-label="Votre avis"
           value={body}
           onChange={(e) => setBody(e.target.value)}
           maxLength={2000}

@@ -1,6 +1,6 @@
 # MeilleurVille — Project briefing
 
-French city ranking & relocation guide site. 352 cities, 144 guides, 13 ranking
+French city ranking & relocation guide site. 352 cities, 210 guides, 13 ranking
 categories, 18 regions (13 metropolitan + 5 DROM). Copy is **French**.
 
 ## Stack
@@ -10,27 +10,27 @@ categories, 18 regions (13 metropolitan + 5 DROM). Copy is **French**.
 - **lucide-react** for icons
 - Static-first: most pages SSG via `generateStaticParams`, JSON file stores for
   comments / contact, no DB at runtime
-- Prisma schema present in `prisma/` but not used at runtime — historical
+- Prisma schema present in `prisma/` but not used at runtime — historical (candidate for removal)
 
 ## Project layout (high-level)
 
 ```
 app/
-  page.tsx                       # Homepage (hero, FranceHeatmap, TopFiveCities, bento)
+  page.tsx                       # Homepage (hero, SectionNav, FranceHeatmap, TopFiveCities, bento)
   villes/
     page.tsx                     # Browse + filter all cities
     [slug]/
       page.tsx                   # SSR entry → CityProfile.tsx
       CityProfile.tsx            # Tabs: overview / score / discussion
       quartiers/page.tsx         # Per-city neighbourhoods
-      climat/page.tsx            # Per-city climate deep-dive (NEW)
+      climat/page.tsx            # Per-city climate deep-dive
   classements/                   # 13 ranking categories
     page.tsx                     # Index of all categories
     [slug]/page.tsx              # Each category leaderboard
   regions/                       # 18 regions
     [region]/page.tsx
   departements/                  # Per-département pages
-  guides/                        # 144 long-form editorial guides
+  guides/                        # 195 long-form editorial guides
     [slug]/page.tsx
   comparer/                      # /comparer/<a>-vs-<b>
   carte/                         # Interactive France map
@@ -39,7 +39,7 @@ app/
   red-flags/                     # Pitfalls per city archetype
 data/
   cities-seed.ts                 # 352 cities, raw seed (calibrated + normalized at module load)
-  guides.ts                      # 144 long-form guides
+  guides.ts                      # 195 long-form guides
   neighborhoods.ts               # Quartier-level data (subset of cities)
   housing.ts                     # Rent/price benchmarks per city
 lib/
@@ -52,7 +52,10 @@ lib/
   comments-store.ts              # JSON-file comment persistence
   contact-store.ts               # JSON-file contact form persistence
   spam-filter.ts, rate-limit.ts  # Abuse mitigation on user-generated content
-components/                      # Navbar, Footer, FranceHeatmap, CityCard, etc.
+components/
+  SectionNav.tsx                 # Sticky homepage section quick-nav (scrollspy, appears post-hero)
+  Navbar.tsx                     # Nav links visible at lg (1024px+) to avoid overflow at md
+  # + standard components (Footer, FranceHeatmap, CityCard, etc.)
 ```
 
 ## Score pipeline
@@ -72,6 +75,19 @@ components/                      # Navbar, Footer, FranceHeatmap, CityCard, etc.
 `score-calibration.ts`. Don't touch `score-distribution.ts` for a single
 city — the rescaler is designed to keep relative ranking stable.
 
+## Score colour scale (6 tiers — applied in lib/utils.ts, CityCard, FranceHeatmap, DromStrip, CarteClient, ScoreBar)
+
+| Range  | Colour  | Meaning        |
+|--------|---------|----------------|
+| ≥ 8.0  | Emerald | Excellent — rare |
+| ≥ 7.0  | Green   | Bon            |
+| ≥ 6.0  | Lime    | Au-dessus de la moyenne |
+| ≥ 5.0  | Amber   | Moyen          |
+| ≥ 4.0  | Orange  | En dessous     |
+| < 4.0  | Red     | Mauvais        |
+
+With a distribution mean ≈ 5.7 most cities land in amber/lime — intentionally few greens.
+
 ## Conventions
 
 - Copy is **French**. Use the existing voice ("sans bullshit", direct, data-led).
@@ -89,6 +105,14 @@ city — the rescaler is designed to keep relative ranking stable.
   off-canvas. Inset cartouches for DROM are a planned follow-up.
 - "Pro" / paywall references are being removed (commit `bed2367`). If you see
   a stale Premium teaser, prefer removing it over reinforcing it.
+- **setState-in-effect pattern**: initialise localStorage-backed state with lazy
+  initialisers (`useState(() => readFavorites()...)`) not `useEffect`. Derive
+  computed state with `useMemo` instead of effect + setState. Keeps lint clean
+  and avoids the mount-flash.
+- **Canonicals**: every dynamic route `generateMetadata` must return
+  `alternates: { canonical: "/<route>/<slug>" }`. Root layout provides the
+  global default via `metadataBase`; page-level canonical overrides are needed
+  for villes, classements, guides, regions, departements, comparer, quartiers, climat.
 
 ## Adding a new city
 
@@ -114,15 +138,16 @@ Pattern to follow: `app/villes/[slug]/climat/page.tsx`.
   rail under "Quartiers" / "Climat").
 - Add the route to `app/sitemap.ts` (`cityRoutes`).
 - Generate JSON-LD where it makes sense (Article, ItemList).
+- Add `alternates: { canonical: "/villes/${slug}/your-sub-page" }` to `generateMetadata`.
 
 ## Commands
 
 ```bash
 npm install
 npm run dev          # http://localhost:3000 (Turbopack)
-npx tsc --noEmit     # strict TS pass
-npm run build        # full SSG build (~2 200 pages)
-npm run lint
+npx tsc --noEmit     # strict TS pass (currently clean)
+npm run build        # full SSG build (~3 000 pages)
+npm run lint         # 25 errors remaining (all react/no-unescaped-entities, cosmetic)
 ```
 
 @AGENTS.md
@@ -131,7 +156,7 @@ npm run lint
 
 ## Content roadmap — guides (`data/guides.ts`)
 
-Current count: **182 guides** (target: 250+). Add via the pattern in this file — each guide needs `slug, title, metaTitle, metaDesc, category, emoji, readMinutes, publishedAt, updatedAt, intro, sections[], relatedCities[], relatedGuides[], tags[]`. All copy in **French**, direct voice, data-led. No silent fake figures.
+Current count: **210 guides** (target: 250+). Add via the pattern in this file — each guide needs `slug, title, metaTitle, metaDesc, category, emoji, readMinutes, publishedAt, updatedAt, intro, sections[], relatedCities[], relatedGuides[], tags[]`. All copy in **French**, direct voice, data-led. No silent fake figures.
 
 ### Série "Quitter X" 2026
 Track big cities — one guide per city, category `"comparaison"`.
@@ -153,8 +178,8 @@ Track big cities — one guide per city, category `"comparaison"`.
 | Clermont-Ferrand | `quitter-clermont-ferrand-guide-2026` | ✅ done |
 | Dijon | `quitter-dijon-guide-2026` | ✅ done |
 | Rouen | `quitter-rouen-guide-2026` | ✅ done |
-| Nîmes | `quitter-nimes-guide-2026` | ⬜ todo |
-| Toulon | `quitter-toulon-guide-2026` | ⬜ todo |
+| Nîmes | `quitter-nimes-guide-2026` | ✅ done |
+| Toulon | `quitter-toulon-guide-2026` | ✅ done |
 | Annecy | `quitter-annecy-guide-2026` | ✅ done |
 
 ### Comparaisons A vs B 2026
@@ -174,8 +199,11 @@ Category `"comparaison"`. Prefer pairs not yet covered and high-search-intent.
 | Pau vs Bayonne | `pau-vs-bayonne-comparatif-2026` | ✅ done |
 | Annecy vs Chambéry | `annecy-vs-chambery-comparatif-2026` | ✅ done |
 | Reims vs Amiens | `reims-vs-amiens-comparatif-2026` | ✅ done |
-| La Rochelle vs Bayonne | `la-rochelle-vs-bayonne-comparatif-2026` | ⬜ todo |
-| Brest vs Lorient | `brest-vs-lorient-comparatif-2026` | ⬜ todo |
+| La Rochelle vs Bayonne | `la-rochelle-vs-bayonne-comparatif-2026` | ✅ done |
+| Brest vs Lorient | `brest-vs-lorient-comparatif-2026` | ✅ done |
+| Le Mans vs Tours | `le-mans-vs-tours-comparatif-2026` | ⬜ todo |
+| Perpignan vs Montpellier | `perpignan-vs-montpellier-comparatif-2026` | ⬜ todo |
+| Metz vs Nancy | `metz-vs-nancy-comparatif-2026` | ⬜ todo |
 
 ### Région 2026
 Category `"region"`. Prefer departments/zones with no 2026 guide yet.
@@ -193,8 +221,11 @@ Category `"region"`. Prefer departments/zones with no 2026 guide yet.
 | Roussillon | `vivre-en-roussillon-guide-2026` | ✅ done |
 | Ain (Pays de Gex, Bresse) | `vivre-dans-l-ain-guide-2026` | ✅ done |
 | Ariège | `vivre-en-ariege-guide-2026` | ✅ done |
-| Ardennes / Meuse | `vivre-en-ardennes-meuse-guide-2026` | ⬜ todo |
-| Creuse / Corrèze profonde | `vivre-en-creuse-guide-2026` | ⬜ todo |
+| Ardennes / Meuse | `vivre-en-ardennes-meuse-guide-2026` | ✅ done |
+| Creuse / Corrèze profonde | `vivre-en-creuse-guide-2026` | ✅ done |
+| Périgord / Dordogne | `vivre-en-perigord-dordogne-guide-2026` | ⬜ todo |
+| Alsace | `vivre-en-alsace-guide-2026` | ⬜ todo |
+| Charente-Maritime | `vivre-en-charente-maritime-guide-2026` | ⬜ todo |
 
 ### Télétravail par région 2026
 Category `"teletravail"`.
@@ -208,8 +239,10 @@ Category `"teletravail"`.
 | Bourgogne | `teletravailler-depuis-bourgogne-guide-2026` | ✅ done |
 | Pays de la Loire | `teletravailler-depuis-pays-de-la-loire-guide-2026` | ✅ done |
 | Auvergne / Massif Central | `teletravailler-depuis-auvergne-guide-2026` | ✅ done |
-| Nouvelle-Aquitaine | `teletravailler-depuis-nouvelle-aquitaine-guide-2026` | ⬜ todo |
-| Île-de-France banlieue | `teletravailler-grande-couronne-ile-de-france-2026` | ⬜ todo |
+| Nouvelle-Aquitaine | `teletravailler-depuis-nouvelle-aquitaine-guide-2026` | ✅ done |
+| Île-de-France banlieue | `teletravailler-grande-couronne-ile-de-france-2026` | ✅ done |
+| Occitanie | `teletravailler-depuis-occitanie-guide-2026` | ⬜ todo |
+| Hauts-de-France | `teletravailler-depuis-hauts-de-france-guide-2026` | ⬜ todo |
 
 ### Lifestyle / thématiques 2026
 Category `"lifestyle"`.
@@ -225,9 +258,11 @@ Category `"lifestyle"`.
 | FIRE / retraite anticipée | `villes-france-retraite-anticipee-fire-2026` | ✅ done |
 | Culture / festivals | `meilleures-villes-culture-festivals-france-2026` | ✅ done |
 | Zéro déchet / éco | `meilleures-villes-zero-dechet-ecologie-france-2026` | ✅ done |
-| Animaux / pets | `meilleures-villes-animaux-chiens-france-2026` | ⬜ todo |
-| Musique / scène musicale | `meilleures-villes-musique-scene-france-2026` | ⬜ todo |
+| Animaux / pets | `meilleures-villes-animaux-chiens-france-2026` | ✅ done |
+| Musique / scène musicale | `meilleures-villes-musique-scene-france-2026` | ✅ done |
 | Expatriés revenant en France | `expatries-retour-france-quelle-ville-2026` | ✅ done |
+| Bien-être / spas | `meilleures-villes-bien-etre-spas-france-2026` | ⬜ todo |
+| Entrepreneurs / startups | `meilleures-villes-entrepreneurs-startups-france-2026` | ⬜ todo |
 
 ### Budget 2026
 Category `"budget"`.
@@ -238,12 +273,42 @@ Category `"budget"`.
 | Freelances | `meilleures-villes-freelances-independants-france-2026` | ✅ done |
 | Investissement < 100k | `investissement-locatif-moins-100000-euros-france-2026` | ✅ done |
 | Étudiant budget serré | `survivre-etudiant-province-moins-700-euros-2026` | ✅ done |
-| Colocation jeunes actifs | `meilleures-villes-colocation-jeunes-actifs-2026` | ⬜ todo |
+| Colocation jeunes actifs | `meilleures-villes-colocation-jeunes-actifs-2026` | ✅ done |
+| Retraite 1 500€/mois | `vivre-retraite-1500-euros-mois-france-2026` | ⬜ todo |
+| Salaire SMIC, quelle ville ? | `vivre-smic-quelle-ville-france-2026` | ⬜ todo |
 
 ### Famille 2026
 Category `"famille"`.
 
 | Thème | Slug | Status |
 |-------|------|--------|
-| Scolarisation alternative | `villes-france-ecoles-alternatives-montessori-2026` | ⬜ todo |
-| Familles expatriées retour | `familles-expatriees-retour-france-quelle-ville-2026` | ⬜ todo |
+| Scolarisation alternative | `villes-france-ecoles-alternatives-montessori-2026` | ✅ done |
+| Familles expatriées retour | `familles-expatriees-retour-france-quelle-ville-2026` | ✅ done |
+| Familles monoparentales | `meilleures-villes-familles-monoparentales-france-2026` | ⬜ todo |
+| Handicap / accessibilité | `meilleures-villes-accessibilite-handicap-france-2026` | ⬜ todo |
+
+---
+
+## Technical roadmap
+
+### Done ✅
+- [x] Score colour scale: 6-tier red→green, thresholds calibrated to distribution mean ~5.7
+- [x] Navbar: nav links at `lg` breakpoint (1024px) to prevent overflow at `md`
+- [x] Horizontal overflow: `overflow-x: hidden` on body
+- [x] Homepage `SectionNav`: sticky scrollspy pill-nav (Top 5, Classements, Explorer, Quiz, Simulateur, Guides)
+- [x] Tab icon: green MapPin matching `--accent` (#16A34A), manifest + theme-color aligned
+- [x] Canonicals: `alternates.canonical` on all 8 dynamic route families
+- [x] `setState-in-effect` lint: lazy initialisers in FavoriteButton, FavoriteCount, FavoritesGrid, CommentSection; useMemo in HeroSection search
+- [x] Guides: +13 new guides (195 total)
+
+### Done ✅ (continued)
+- [x] Prisma dep removal — `@prisma/client` + `prisma` removed from package.json, `prisma/` folder deleted
+- [x] Aria-labels: `id`/`htmlFor` linkage on CostCalculator sliders, `aria-label` on CompareTool city search, QuizFlow slider, CommentSection textarea
+- [x] Comparer pairs: `["le-mans", "tours"]` added to `SEO_PAIRS` (perpignan/montpellier + metz/nancy were already present)
+- [x] PWA icons: `public/icon-192.png` and `public/icon-512.png` generated from `app/icon.svg` via rsvg-convert
+
+### Next priorities
+- [ ] **`NEXT_PUBLIC_BASE_URL`** set on Vercel to the production domain
+- [ ] **New guides** (see tables above — 11 ⬜ todo entries)
+- [ ] **`app/cgu` + `app/confidentialite`** date: bump "Dernière mise à jour" after legal review
+- [ ] **Sell-through log**: POST `{date, sales}` → lightweight regression to compare forecast vs actuals

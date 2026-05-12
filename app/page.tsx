@@ -16,6 +16,7 @@ import { TopFiveCities } from "@/components/TopFiveCities";
 import { AmbientBackground } from "@/components/AmbientBackground";
 import { CityMarquee } from "@/components/CityMarquee";
 import { ScrollReveal } from "@/components/effects/ScrollReveal";
+import { SectionNav } from "@/components/SectionNav";
 import { CITIES_SEED } from "@/data/cities-seed";
 
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://meilleurville.fr";
@@ -54,6 +55,7 @@ export default function HomePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }} />
       <Navbar />
       <HeroSection />
+      <SectionNav />
       <ScrollReveal><TopFiveCities /></ScrollReveal>
       <CityMarquee />
       <ScrollReveal><StatsBar /></ScrollReveal>
@@ -180,7 +182,7 @@ export default function HomePage() {
       </section>
 
       {/* Cost calculator section */}
-      <section className="py-14 border-t border-[var(--border)]">
+      <section id="simulateur" className="py-14 border-t border-[var(--border)]">
         <div className="mx-auto max-w-3xl px-4 sm:px-6">
           <div className="text-center mb-8">
             <p className="text-sm font-semibold text-[var(--accent)] mb-2">💸 Simulateur express</p>

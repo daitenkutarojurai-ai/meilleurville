@@ -27,22 +27,15 @@ function seedToCity(s: (typeof CITIES_SEED)[number]): City {
 }
 
 export function FavoritesGrid() {
-  const [slugs, setSlugs] = useState<string[] | null>(null);
+  const [slugs, setSlugs] = useState<string[]>(() => readFavorites());
 
   useEffect(() => {
-    setSlugs(readFavorites());
     function onChange() {
       setSlugs(readFavorites());
     }
     window.addEventListener("favorites-changed", onChange);
     return () => window.removeEventListener("favorites-changed", onChange);
   }, []);
-
-  if (slugs === null) {
-    return (
-      <div className="text-center text-sm text-[var(--text-tertiary)] py-16">Chargement…</div>
-    );
-  }
 
   if (slugs.length === 0) {
     return (

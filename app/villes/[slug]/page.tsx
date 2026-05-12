@@ -22,6 +22,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${city.name} — Avis habitants, qualité de vie & classements 2026`,
     description: `${city.name} (${city.department}, ${city.region}) : score de qualité de vie ${city.scores.global}/10. Avis d'habitants, quartiers, données locales.${rentHint} Comparez avec d'autres villes.`,
+    alternates: { canonical: `/villes/${slug}` },
     openGraph: {
       title: `${city.name} — MeilleurVille · ${city.scores.global}/10`,
       description: `Score QdV ${city.scores.global}/10 · ${city.region} · ${city.characterTags.slice(0, 3).join(", ")}`,

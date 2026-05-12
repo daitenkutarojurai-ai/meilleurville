@@ -7,8 +7,8 @@ export default function manifest(): MetadataRoute.Manifest {
     description: "Trouvez la ville française qui vous ressemble — IA + avis authentiques",
     start_url: "/",
     display: "standalone",
-    background_color: "#0E0F13",
-    theme_color: "#5B7FFF",
+    background_color: "#FAFBF4",
+    theme_color: "#16A34A",
     orientation: "portrait-primary",
     icons: [
       {

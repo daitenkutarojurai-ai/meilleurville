@@ -17,7 +17,7 @@ export function GuidesTeaser() {
   const [hero, ...rest] = featured;
 
   return (
-    <section className="relative border-t border-[var(--border)] py-20">
+    <section id="guides" className="relative border-t border-[var(--border)] py-20">
       {/* Soft gradient backdrop */}
       <div className="pointer-events-none absolute inset-0" aria-hidden>
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_60%_40%_at_30%_0%,rgba(34,197,94,0.10),transparent_70%)]" />

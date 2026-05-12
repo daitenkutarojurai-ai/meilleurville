@@ -21,6 +21,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Quartiers de ${city.name} — Quel quartier choisir ? | MeilleurVille`,
     description: `Comparatif des quartiers de ${city.name} : sécurité, loyers, transports, ambiance. Trouvez le quartier fait pour vous.`,
+    alternates: { canonical: `/villes/${slug}/quartiers` },
   };
 }
 

@@ -35,11 +35,10 @@ export function FavoriteButton({
   size?: number;
   label?: boolean;
 }) {
-  const [active, setActive] = useState(false);
+  const [active, setActive] = useState(() => readFavorites().includes(slug));
   const [animating, setAnimating] = useState(false);
 
   useEffect(() => {
-    setActive(readFavorites().includes(slug));
     function onChange() {
       setActive(readFavorites().includes(slug));
     }
@@ -91,16 +90,15 @@ export function FavoriteButton({
 }
 
 export function FavoriteCount({ className = "" }: { className?: string }) {
-  const [count, setCount] = useState<number | null>(null);
+  const [count, setCount] = useState(() => readFavorites().length);
   useEffect(() => {
-    setCount(readFavorites().length);
     function onChange() {
       setCount(readFavorites().length);
     }
     window.addEventListener("favorites-changed", onChange);
     return () => window.removeEventListener("favorites-changed", onChange);
   }, []);
-  if (count === null || count === 0) return null;
+  if (count === 0) return null;
   return (
     <span className={`inline-flex items-center justify-center rounded-full bg-[var(--accent-pink)]/15 text-[var(--accent-pink)] text-[10px] font-bold font-mono-data px-1.5 py-0.5 ${className}`}>
       {count}

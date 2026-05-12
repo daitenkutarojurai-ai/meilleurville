@@ -64,7 +64,7 @@ const RANKINGS = [
 
 export function RankingPreview() {
   return (
-    <section className="py-20">
+    <section id="classements" className="py-20">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <div className="mb-10 flex items-end justify-between">
           <div>

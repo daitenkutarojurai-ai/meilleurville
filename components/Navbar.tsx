@@ -51,20 +51,20 @@ export function Navbar() {
           </span>
         </Link>
 
-        {/* Desktop nav */}
-        <div className="hidden md:flex items-center gap-1">
+        {/* Desktop nav — visible from lg (1024px) to avoid overflow at md */}
+        <div className="hidden lg:flex items-center gap-1">
           {NAV_LINKS.map((link) => (
             <Link
               key={link.href}
               href={link.href}
-              className="rounded-lg px-4 py-2 text-sm font-medium text-[var(--text-secondary)] transition-colors hover:text-[var(--text-primary)] hover:bg-[var(--bg-elevated)]"
+              className="rounded-lg px-3 py-2 text-sm font-medium text-[var(--text-secondary)] transition-colors hover:text-[var(--text-primary)] hover:bg-[var(--bg-elevated)]"
             >
               {link.label}
             </Link>
           ))}
         </div>
 
-        {/* Desktop CTA */}
+        {/* Desktop CTA — visible from md so favoris/quiz are always reachable on tablet */}
         <div className="hidden md:flex items-center gap-2">
           <Link
             href="/favoris"
@@ -82,9 +82,9 @@ export function Navbar() {
           </Link>
         </div>
 
-        {/* Mobile hamburger */}
+        {/* Hamburger — visible below lg (tablet + mobile) */}
         <button
-          className="md:hidden rounded-lg p-2 text-[var(--text-secondary)] hover:bg-[var(--bg-elevated)] hover:text-[var(--text-primary)] transition-colors"
+          className="lg:hidden rounded-lg p-2 text-[var(--text-secondary)] hover:bg-[var(--bg-elevated)] hover:text-[var(--text-primary)] transition-colors"
           onClick={() => setOpen(!open)}
           aria-label="Menu"
         >
@@ -92,10 +92,10 @@ export function Navbar() {
         </button>
       </div>
 
-      {/* Mobile menu */}
+      {/* Mobile/tablet menu */}
       <div
         className={cn(
-          "md:hidden overflow-hidden transition-all duration-200",
+          "lg:hidden overflow-hidden transition-all duration-200",
           open ? "max-h-80" : "max-h-0"
         )}
       >

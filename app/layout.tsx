@@ -62,7 +62,7 @@ export const metadata: Metadata = {
     title: "MeilleurVille",
   },
   other: {
-    "theme-color": "#5B7FFF",
+    "theme-color": "#16A34A",
     "mobile-web-app-capable": "yes",
   },
 };

@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect, useMemo } from "react";
 import { Search, Sparkles, ArrowRight, MapPin, Star } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { useRouter } from "next/navigation";
@@ -29,12 +29,29 @@ const FLOATING_DOTS = [
 
 export function HeroSection() {
   const [query, setQuery] = useState("");
-  const [suggestions, setSuggestions] = useState<SearchResult[]>([]);
-  const [open, setOpen] = useState(false);
+  const [dismissed, setDismissed] = useState(false);
   const router = useRouter();
   const inputRef = useRef<HTMLInputElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
   const heroRef = useRef<HTMLElement | null>(null);
+
+  const suggestions = useMemo<SearchResult[]>(() => {
+    if (query.length < 1) return [];
+    const normalize = (s: string) => s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
+    const q = normalize(query);
+    return CITIES_SEED.filter(
+      (c) => normalize(c.name).includes(q) || normalize(c.region).includes(q)
+    )
+      .sort((a, b) => {
+        const aStart = normalize(a.name).startsWith(q) ? 0 : 1;
+        const bStart = normalize(b.name).startsWith(q) ? 0 : 1;
+        return aStart !== bStart ? aStart - bStart : b.scores.global - a.scores.global;
+      })
+      .slice(0, 6)
+      .map((c) => ({ slug: c.slug, name: c.name, region: c.region, score: c.scores.global }));
+  }, [query]);
+
+  const open = suggestions.length > 0 && !dismissed;
 
   useEffect(() => {
     const el = heroRef.current;
@@ -61,31 +78,9 @@ export function HeroSection() {
   }, []);
 
   useEffect(() => {
-    if (query.length < 1) {
-      setSuggestions([]);
-      setOpen(false);
-      return;
-    }
-    const normalize = (s: string) => s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
-    const q = normalize(query);
-    const results = CITIES_SEED.filter(
-      (c) => normalize(c.name).includes(q) || normalize(c.region).includes(q)
-    )
-      .sort((a, b) => {
-        const aStart = a.name.toLowerCase().startsWith(q) ? 0 : 1;
-        const bStart = b.name.toLowerCase().startsWith(q) ? 0 : 1;
-        return aStart !== bStart ? aStart - bStart : b.scores.global - a.scores.global;
-      })
-      .slice(0, 6)
-      .map((c) => ({ slug: c.slug, name: c.name, region: c.region, score: c.scores.global }));
-    setSuggestions(results);
-    setOpen(results.length > 0);
-  }, [query]);
-
-  useEffect(() => {
     function handleClick(e: MouseEvent) {
       if (containerRef.current && !containerRef.current.contains(e.target as Node)) {
-        setOpen(false);
+        setDismissed(true);
       }
     }
     document.addEventListener("mousedown", handleClick);
@@ -96,7 +91,7 @@ export function HeroSection() {
     e.preventDefault();
     if (suggestions.length > 0) {
       router.push(`/villes/${suggestions[0].slug}`);
-      setOpen(false);
+      setDismissed(true);
       return;
     }
     if (!query.trim()) return;
@@ -109,13 +104,14 @@ export function HeroSection() {
   }
 
   function pickCity(slug: string) {
-    setOpen(false);
     setQuery("");
+    setDismissed(true);
     router.push(`/villes/${slug}`);
   }
 
   return (
     <section
+      id="hero"
       ref={heroRef}
       className="relative overflow-hidden pt-24 pb-32 sm:pt-28"
     >
@@ -201,8 +197,8 @@ export function HeroSection() {
                   ref={inputRef}
                   type="text"
                   value={query}
-                  onChange={(e) => setQuery(e.target.value)}
-                  onFocus={() => suggestions.length > 0 && setOpen(true)}
+                  onChange={(e) => { setQuery(e.target.value); setDismissed(false); }}
+                  onFocus={() => setDismissed(false)}
                   placeholder="Quelle ville vous fait rêver ?"
                   aria-label="Rechercher une ville"
                   className="flex-1 bg-transparent py-2 text-sm text-[var(--text-primary)] placeholder:text-[var(--text-tertiary)] outline-none"
@@ -235,7 +231,7 @@ export function HeroSection() {
                 <Link
                   href="/villes"
                   className="flex items-center justify-center gap-1 py-2.5 text-xs text-[var(--text-tertiary)] hover:text-[var(--accent)] border-t border-white/40 transition-colors"
-                  onClick={() => setOpen(false)}
+                  onClick={() => setDismissed(true)}
                 >
                   Voir toutes les villes →
                 </Link>
