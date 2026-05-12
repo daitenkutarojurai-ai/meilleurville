@@ -4,12 +4,19 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Badge } from "@/components/ui/Badge";
 import { CITIES_SEED } from "@/data/cities-seed";
+import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 
 export const metadata: Metadata = {
   title: "À propos — MeilleurVille",
   description:
     "Découvrez la mission de MeilleurVille : aider chaque Français à trouver la ville faite pour lui, avec des données réelles et des avis honnêtes.",
+  alternates: { canonical: "/about" },
 };
+
+const aboutBreadcrumb = breadcrumbJsonLd([
+  { name: "Accueil", path: "/" },
+  { name: "À propos", path: "/about" },
+]);
 
 const TEAM = [
   {
@@ -58,6 +65,7 @@ const VALUES = [
 export default function AboutPage() {
   return (
     <main id="main-content" className="min-h-screen">
+      <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(aboutBreadcrumb)} />
       <Navbar />
 
       {/* Hero */}

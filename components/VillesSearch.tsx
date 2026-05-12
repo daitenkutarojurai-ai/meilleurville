@@ -174,8 +174,9 @@ export function VillesSearch() {
             type="text"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Rechercher une ville, région, département..."
+            placeholder="Rechercher une ville, région, département... (raccourci : /)"
             aria-label="Rechercher une ville, région ou département"
+            data-search-shortcut
             className="flex-1 bg-transparent text-sm text-[var(--text-primary)] placeholder:text-[var(--text-secondary)] outline-none"
           />
           {query && (

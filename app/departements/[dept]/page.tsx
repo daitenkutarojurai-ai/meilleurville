@@ -107,9 +107,31 @@ export default async function DeptPage({ params }: Props) {
     culture: "la vie culturelle",
   };
 
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL ?? "https://meilleurville.fr";
   const jsonLd = {
     "@context": "https://schema.org",
     "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", position: 1, name: "Accueil", item: baseUrl },
+          { "@type": "ListItem", position: 2, name: "Départements", item: `${baseUrl}/departements` },
+          { "@type": "ListItem", position: 3, name: deptName, item: `${baseUrl}/departements/${deptSlug}` },
+        ],
+      },
+      {
+        "@type": "AdministrativeArea",
+        "name": deptName,
+        "url": `${baseUrl}/departements/${deptSlug}`,
+        "containedInPlace": { "@type": "AdministrativeArea", name: region },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": avgScore.toFixed(2),
+          "bestRating": "10",
+          "worstRating": "1",
+          "ratingCount": cities.length,
+        },
+      },
       {
         "@type": "ItemList",
         "name": `Meilleures villes du département ${deptName}`,
@@ -118,7 +140,7 @@ export default async function DeptPage({ params }: Props) {
           "@type": "ListItem",
           "position": i + 1,
           "name": c.name,
-          "url": `https://meilleurville.fr/villes/${c.slug}`,
+          "url": `${baseUrl}/villes/${c.slug}`,
         })),
       },
       {

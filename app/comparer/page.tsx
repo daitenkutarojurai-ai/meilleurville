@@ -4,12 +4,19 @@ import { Footer } from "@/components/Footer";
 import { AmbientBackground } from "@/components/AmbientBackground";
 import { CompareTool } from "./CompareTool";
 import Link from "next/link";
+import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 
 export const metadata: Metadata = {
   title: "Comparer des villes — MeilleurVille",
   description:
     "Comparez deux ou trois villes françaises côte à côte : qualité de vie, coût, transport, nature, sécurité, écoles. Outil de comparaison gratuit.",
+  alternates: { canonical: "/comparer" },
 };
+
+const comparerBreadcrumb = breadcrumbJsonLd([
+  { name: "Accueil", path: "/" },
+  { name: "Comparer", path: "/comparer" },
+]);
 
 const POPULAR_PAIRS = [
   { a: "annecy", labelA: "Annecy", b: "grenoble", labelB: "Grenoble" },
@@ -67,6 +74,7 @@ const POPULAR_PAIRS = [
 export default function ComparerPage() {
   return (
     <main id="main-content" className="min-h-screen relative">
+      <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(comparerBreadcrumb)} />
       <AmbientBackground />
       <Navbar />
 

@@ -5,12 +5,19 @@ import { Card } from "@/components/ui/Card";
 import { ContributionStats } from "@/components/ContributionStats";
 import { CommentSection } from "@/components/CommentSection";
 import { AlertTriangle, Volume2, Droplets, Wind, Shield, Flame, Zap } from "lucide-react";
+import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 
 export const metadata: Metadata = {
   title: "Red Flag Radar — Signalements communautaires | MeilleurVille",
   description:
     "Découvrez les alertes et signalements communautaires : bruit, inondation, pollution, insécurité. Ce que l'annonce immobilière ne vous dit jamais.",
+  alternates: { canonical: "/red-flags" },
 };
+
+const redFlagsBreadcrumb = breadcrumbJsonLd([
+  { name: "Accueil", path: "/" },
+  { name: "Red Flags", path: "/red-flags" },
+]);
 
 const FLAG_CATEGORIES = [
   {
@@ -67,6 +74,7 @@ const FLAG_CATEGORIES = [
 export default function RedFlagsPage() {
   return (
     <main id="main-content" className="min-h-screen">
+      <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(redFlagsBreadcrumb)} />
       <Navbar />
 
       {/* Header */}

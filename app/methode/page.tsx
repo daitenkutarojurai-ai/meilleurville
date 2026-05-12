@@ -4,12 +4,19 @@ import { Footer } from "@/components/Footer";
 import { AmbientBackground } from "@/components/AmbientBackground";
 import { Card } from "@/components/ui/Card";
 import { CheckCircle, Database, Bot, Shield, AlertTriangle } from "lucide-react";
+import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 
 export const metadata: Metadata = {
   title: "Méthodologie — Comment sont calculés les scores ? | MeilleurVille",
   description:
     "Transparence totale : sources, formules, biais et limites. Aucune ville ne paie pour son classement.",
+  alternates: { canonical: "/methode" },
 };
+
+const methodeBreadcrumb = breadcrumbJsonLd([
+  { name: "Accueil", path: "/" },
+  { name: "Méthodologie", path: "/methode" },
+]);
 
 const AXES = [
   { key: "Vie / Bien-être", weight: 0.18, sources: ["Palmarès L'Express + Le Figaro 2023-24", "Avis communauté"] },
@@ -57,6 +64,7 @@ const LIMITS = [
 export default function MethodePage() {
   return (
     <main id="main-content" className="min-h-screen relative">
+      <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(methodeBreadcrumb)} />
       <AmbientBackground />
       <Navbar />
 

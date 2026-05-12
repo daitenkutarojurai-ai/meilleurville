@@ -10,6 +10,10 @@ export const metadata: Metadata = {
   title: "Guides — Bien choisir sa ville en France | MeilleurVille",
   description:
     `${GUIDES.length} guides complets pour choisir sa ville en France : télétravail, famille, budget, qualité de vie. Analyses honnêtes avec données réelles.`,
+  alternates: {
+    canonical: "/guides",
+    types: { "application/rss+xml": "/guides/feed.xml" },
+  },
   openGraph: {
     title: "Guides — Bien choisir sa ville | MeilleurVille",
     description: "Tous nos guides pour vous aider à trouver la ville faite pour vous.",

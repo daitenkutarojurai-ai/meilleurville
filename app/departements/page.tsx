@@ -4,11 +4,13 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { AmbientBackground } from "@/components/AmbientBackground";
 import { CITIES_SEED } from "@/data/cities-seed";
+import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 
 export const metadata: Metadata = {
   title: "Villes par département — Tous les départements français | MeilleurVille",
   description:
     "Explorez les meilleures villes françaises département par département : Isère, Ille-et-Vilaine, Gironde, Hérault et plus. Scores comparés, top villes.",
+  alternates: { canonical: "/departements" },
 };
 
 function deptToSlug(dept: string): string {
@@ -35,8 +37,14 @@ export default function DepartementsPage() {
     }))
     .sort((a, b) => b.avgScore - a.avgScore);
 
+  const breadcrumb = breadcrumbJsonLd([
+    { name: "Accueil", path: "/" },
+    { name: "Départements", path: "/departements" },
+  ]);
+
   return (
     <main id="main-content" className="min-h-screen relative">
+      <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(breadcrumb)} />
       <AmbientBackground />
       <Navbar />
 

@@ -22,6 +22,15 @@ function gradientForScore(score: number) {
   return "from-red-500 via-rose-400 to-orange-400";
 }
 
+function qualityLabel(score: number): string {
+  if (score >= 7.5) return "exceptionnel";
+  if (score >= 7.0) return "excellent";
+  if (score >= 6.0) return "bon";
+  if (score >= 5.0) return "moyen";
+  if (score >= 4.0) return "en dessous";
+  return "mauvais";
+}
+
 export function CityCard({ city, rank, delta, className }: CityCardProps) {
   const score = city.scores.global;
   const scoreColor =
@@ -32,9 +41,13 @@ export function CityCard({ city, rank, delta, className }: CityCardProps) {
     : score >= 4.0 ? "text-orange-500"
     : "text-red-500";
   const cover = gradientForScore(score);
+  const tier = qualityLabel(score);
 
   return (
-    <Link href={`/villes/${city.slug}`}>
+    <Link
+      href={`/villes/${city.slug}`}
+      aria-label={`${city.name} — score ${formatScore(score)} sur 10 (${tier})`}
+    >
       <div
         className={cn(
           "group relative overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] transition-all duration-200 hover:border-[var(--accent)]/40 hover:shadow-xl hover:shadow-[var(--accent)]/10 hover:-translate-y-0.5 cursor-pointer shine",
@@ -73,8 +86,9 @@ export function CityCard({ city, rank, delta, className }: CityCardProps) {
           </div>
 
           <div className="mb-4 flex items-center gap-3">
-            <div className={cn("text-3xl font-bold font-mono-data", scoreColor)}>
+            <div className={cn("text-3xl font-bold font-mono-data", scoreColor)} title={`Score ${tier}`}>
               {formatScore(score)}
+              <span className="sr-only"> sur 10 — {tier}</span>
             </div>
             <div className="flex flex-col gap-0.5">
               <div className="flex items-center gap-1">

@@ -243,9 +243,18 @@ export function CommentSection({
           <div className="text-[11px] text-[var(--text-tertiary)] flex items-center gap-1">
             {body.length}/2000 · pas de liens · respect
           </div>
-          <Button type="submit" size="sm" disabled={submitting} className="gap-2">
+          <Button
+            type="submit"
+            size="sm"
+            disabled={submitting}
+            aria-busy={submitting}
+            className={submitting ? "gap-2 opacity-60 cursor-wait" : "gap-2"}
+          >
             {submitting ? (
-              <span className="animate-pulse">Envoi…</span>
+              <>
+                <span className="inline-block h-3.5 w-3.5 rounded-full border-2 border-current border-r-transparent animate-spin" aria-hidden />
+                Envoi…
+              </>
             ) : (
               <>
                 <Send className="h-3.5 w-3.5" />

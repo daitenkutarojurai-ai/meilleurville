@@ -201,6 +201,7 @@ export function HeroSection() {
                   onFocus={() => setDismissed(false)}
                   placeholder="Quelle ville vous fait rêver ?"
                   aria-label="Rechercher une ville"
+                  data-search-shortcut
                   className="flex-1 bg-transparent py-2 text-sm text-[var(--text-primary)] placeholder:text-[var(--text-tertiary)] outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)] rounded-md"
                   autoComplete="off"
                 />
@@ -211,7 +212,11 @@ export function HeroSection() {
             </form>
 
             {open && suggestions.length > 0 && (
-              <div className="absolute top-full left-0 right-0 mt-2 z-50 rounded-2xl glass-strong shadow-2xl shadow-[var(--accent)]/15 overflow-hidden border border-white/40">
+              <div
+                role="listbox"
+                aria-label="Suggestions de villes"
+                className="absolute top-full left-0 right-0 mt-2 z-50 rounded-2xl glass-strong shadow-2xl shadow-[var(--accent)]/15 overflow-hidden border border-white/40 max-h-[60vh] overflow-y-auto"
+              >
                 {suggestions.map((r) => (
                   <button
                     key={r.slug}

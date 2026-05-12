@@ -410,38 +410,41 @@ export function FranceHeatmap() {
                 ))}
 
               {/* City dots — staggered fade-in, click to open city */}
-              {dots.map((d) => (
-                <a
-                  key={d.slug}
-                  href={`/villes/${d.slug}`}
-                  aria-label={`Voir ${d.name}`}
-                  className="cursor-pointer"
-                  style={{
-                    opacity: mounted ? 1 : 0,
-                    transform: mounted ? "scale(1)" : "scale(0)",
-                    transformOrigin: `${d.x}px ${d.y}px`,
-                    transformBox: "view-box",
-                    transition: `opacity 0.5s ease ${d.delay}ms, transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) ${d.delay}ms`,
-                  }}
-                  onMouseEnter={() =>
-                    setHover({
-                      slug: d.slug,
-                      name: d.name,
-                      region: d.region,
-                      population: d.population,
-                      scores: { global: d.score, nature: d.scores.nature, transport: d.scores.transport, cost: d.scores.cost },
-                      x: d.x,
-                      y: d.y,
-                      color: d.color,
-                    })
-                  }
-                  onMouseLeave={() => setHover(null)}
-                >
-                  <circle cx={d.x} cy={d.y} r={d.r * 2.6} fill={d.color} opacity="0.18" filter="url(#dotGlow)" />
-                  <circle cx={d.x} cy={d.y} r={d.r * 1.6} fill={d.color} opacity="0.35" />
-                  <circle cx={d.x} cy={d.y} r={d.r} fill={d.color} stroke="white" strokeWidth="1" />
-                </a>
-              ))}
+              {dots.map((d) => {
+                const hoverPayload = {
+                  slug: d.slug,
+                  name: d.name,
+                  region: d.region,
+                  population: d.population,
+                  scores: { global: d.score, nature: d.scores.nature, transport: d.scores.transport, cost: d.scores.cost },
+                  x: d.x,
+                  y: d.y,
+                  color: d.color,
+                };
+                return (
+                  <a
+                    key={d.slug}
+                    href={`/villes/${d.slug}`}
+                    aria-label={`${d.name} (${d.region}) — score ${d.score.toFixed(1)} sur 10`}
+                    className="cursor-pointer outline-none focus-visible:[outline:2px_solid_white] focus-visible:[outline-offset:2px]"
+                    style={{
+                      opacity: mounted ? 1 : 0,
+                      transform: mounted ? "scale(1)" : "scale(0)",
+                      transformOrigin: `${d.x}px ${d.y}px`,
+                      transformBox: "view-box",
+                      transition: `opacity 0.5s ease ${d.delay}ms, transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) ${d.delay}ms`,
+                    }}
+                    onMouseEnter={() => setHover(hoverPayload)}
+                    onMouseLeave={() => setHover(null)}
+                    onFocus={() => setHover(hoverPayload)}
+                    onBlur={() => setHover(null)}
+                  >
+                    <circle cx={d.x} cy={d.y} r={d.r * 2.6} fill={d.color} opacity="0.18" filter="url(#dotGlow)" />
+                    <circle cx={d.x} cy={d.y} r={d.r * 1.6} fill={d.color} opacity="0.35" />
+                    <circle cx={d.x} cy={d.y} r={d.r} fill={d.color} stroke="white" strokeWidth="1" />
+                  </a>
+                );
+              })}
 
               {/* Hover ring */}
               {hover && (
@@ -513,6 +516,24 @@ export function FranceHeatmap() {
                 </Link>
               );
             })()}
+
+            {/* Screen reader fallback — text listing of map content */}
+            <div className="sr-only">
+              <h3>Top 10 villes affichées sur la carte</h3>
+              <ul>
+                {[...dots]
+                  .sort((a, b) => b.score - a.score)
+                  .slice(0, 10)
+                  .map((d) => (
+                    <li key={`sr-${d.slug}`}>
+                      <a href={`/villes/${d.slug}`}>
+                        {d.name} ({d.region}) — {d.score.toFixed(1)}/10
+                      </a>
+                    </li>
+                  ))}
+              </ul>
+              <p>Pour la liste complète, consulter la page <a href="/leaderboard">leaderboard</a> ou <a href="/villes">toutes les villes</a>.</p>
+            </div>
 
             {/* Legend */}
             <div className="relative mt-4 flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-xs">

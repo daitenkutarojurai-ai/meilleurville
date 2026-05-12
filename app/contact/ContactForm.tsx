@@ -84,32 +84,49 @@ export function ContactForm() {
 
       <div className="relative space-y-5">
         {/* Topic chips */}
-        <div>
-          <label className="block text-xs font-semibold uppercase tracking-wider text-[var(--text-secondary)] mb-2">
+        <fieldset>
+          <legend className="block text-xs font-semibold uppercase tracking-wider text-[var(--text-secondary)] mb-2">
             Sujet
-          </label>
-          <div className="flex flex-wrap gap-2">
+          </legend>
+          <div
+            role="radiogroup"
+            aria-label="Sujet du message"
+            className="flex flex-wrap gap-2"
+            onKeyDown={(e) => {
+              if (e.key !== "ArrowRight" && e.key !== "ArrowLeft" && e.key !== "ArrowDown" && e.key !== "ArrowUp") return;
+              e.preventDefault();
+              const idx = TOPICS.findIndex((t) => t.id === topic);
+              const forward = e.key === "ArrowRight" || e.key === "ArrowDown";
+              const next = forward ? (idx + 1) % TOPICS.length : (idx - 1 + TOPICS.length) % TOPICS.length;
+              setTopic(TOPICS[next].id);
+              document.getElementById(`topic-${TOPICS[next].id}`)?.focus();
+            }}
+          >
             {TOPICS.map((t) => {
               const active = topic === t.id;
               return (
                 <button
                   key={t.id}
+                  id={`topic-${t.id}`}
                   type="button"
+                  role="radio"
+                  aria-checked={active}
+                  tabIndex={active ? 0 : -1}
                   onClick={() => setTopic(t.id)}
                   className={
-                    "rounded-full px-3.5 py-1.5 text-sm font-medium transition-all border " +
+                    "rounded-full px-3.5 py-1.5 text-sm font-medium transition-all border focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)] " +
                     (active
                       ? "bg-[var(--accent)] text-white border-[var(--accent)] shadow-md shadow-[var(--accent)]/30"
                       : "bg-white/70 backdrop-blur text-[var(--text-secondary)] border-[var(--border)] hover:border-[var(--accent)]/40 hover:text-[var(--text-primary)]")
                   }
                 >
-                  <span className="mr-1.5">{t.emoji}</span>
+                  <span className="mr-1.5" aria-hidden>{t.emoji}</span>
                   {t.label}
                 </button>
               );
             })}
           </div>
-        </div>
+        </fieldset>
 
         {/* Name + Email */}
         <div className="grid sm:grid-cols-2 gap-3">
@@ -179,7 +196,7 @@ export function ContactForm() {
         </div>
 
         {error && (
-          <div className="flex items-start gap-2 rounded-xl bg-red-50 border border-red-200 px-3 py-2.5 text-sm text-red-700">
+          <div role="alert" aria-live="assertive" className="flex items-start gap-2 rounded-xl bg-red-50 border border-red-200 px-3 py-2.5 text-sm text-red-700">
             <AlertCircle className="h-4 w-4 mt-0.5 flex-shrink-0" />
             <span>{error}</span>
           </div>

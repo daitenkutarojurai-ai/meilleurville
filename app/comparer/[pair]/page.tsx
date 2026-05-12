@@ -631,6 +631,10 @@ export function generateStaticParams() {
   return SEO_PAIRS.map(([a, b]) => ({ pair: `${a}-vs-${b}` }));
 }
 
+// Allow any city-vs-city pair beyond the curated SEO_PAIRS list to render on-demand.
+// Only SEO_PAIRS are pre-built + sitemap'd, but Lyon-vs-Annecy etc. still resolve.
+export const dynamicParams = true;
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { pair } = await params;
   const [slugA, slugB] = pair.split("-vs-");

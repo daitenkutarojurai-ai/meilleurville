@@ -56,8 +56,14 @@ export function NewsletterSection() {
               Alertes avis pour vos villes sauvegardées
             </p>
 
+            {state === "error" && (
+              <div role="alert" aria-live="assertive" className="mb-3 inline-flex items-center gap-2 rounded-xl bg-red-50 border border-red-200 px-4 py-2 text-sm text-red-700">
+                Erreur — réessayez dans un instant.
+              </div>
+            )}
+
             {state === "success" ? (
-              <div className="inline-flex items-center gap-2 rounded-2xl bg-[var(--accent-soft)] border border-[var(--accent)]/30 px-5 py-3 text-emerald-700 shadow-md">
+              <div role="status" aria-live="polite" className="inline-flex items-center gap-2 rounded-2xl bg-[var(--accent-soft)] border border-[var(--accent)]/30 px-5 py-3 text-emerald-700 shadow-md">
                 <CheckCircle className="h-5 w-5" />
                 <span className="font-semibold">Inscription confirmée — à dimanche !</span>
               </div>
@@ -70,7 +76,7 @@ export function NewsletterSection() {
                   placeholder="votre@email.fr"
                   aria-label="Adresse email pour la newsletter"
                   required
-                  className="flex-1 rounded-xl border border-white/60 bg-white/80 backdrop-blur px-4 py-3 text-sm text-[var(--text-primary)] placeholder:text-[var(--text-tertiary)] outline-none focus:border-[var(--accent)]/60 focus:bg-white transition-all shadow-sm"
+                  className="flex-1 rounded-xl border border-white/60 bg-white/85 backdrop-blur px-4 py-3 text-sm text-[var(--text-primary)] placeholder:text-[var(--text-secondary)] outline-none focus:border-[var(--accent)]/60 focus:bg-white focus-visible:ring-2 focus-visible:ring-[var(--accent)]/40 transition-all shadow-sm"
                 />
                 <MagneticButton strength={0.25}>
                   <Button type="submit" size="lg" disabled={state === "loading"} className="gap-2 shine shadow-xl shadow-[var(--accent)]/30">

@@ -4,16 +4,24 @@ import { Footer } from "@/components/Footer";
 import { Badge } from "@/components/ui/Badge";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { CarteClient } from "./CarteClient";
+import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 
 export const metadata: Metadata = {
   title: "Carte des villes françaises — Qualité de vie visualisée | MeilleurVille",
   description:
     `Carte interactive des meilleures villes de France : visualisez les scores de qualité de vie, coût de la vie, nature, sécurité sur une carte. ${CITIES_SEED.length}+ villes.`,
+  alternates: { canonical: "/carte" },
 };
+
+const carteBreadcrumb = breadcrumbJsonLd([
+  { name: "Accueil", path: "/" },
+  { name: "Carte", path: "/carte" },
+]);
 
 export default function CartePage() {
   return (
     <main id="main-content" className="min-h-screen">
+      <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(carteBreadcrumb)} />
       <Navbar />
 
       <section className="bg-[var(--bg-surface)] border-b border-[var(--border)] py-12">

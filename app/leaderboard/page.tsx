@@ -11,6 +11,7 @@ export const metadata: Metadata = {
   title: "Leaderboard — Top villes France par qualité de vie | MeilleurVille",
   description:
     "Le classement global des meilleures villes françaises par qualité de vie, agrégé sur 9 critères : nature, transport, coût, sécurité, culture, écoles.",
+  alternates: { canonical: "/leaderboard" },
   openGraph: {
     title: "Leaderboard — Top villes France par qualité de vie",
     description: "Score global agrégé sur 9 critères de qualité de vie. Classement des meilleures villes françaises.",
@@ -38,6 +39,15 @@ export default function LeaderboardPage() {
 
   const itemListJsonLd = {
     "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Accueil", item: BASE_URL },
+          { "@type": "ListItem", position: 2, name: "Leaderboard", item: `${BASE_URL}/leaderboard` },
+        ],
+      },
+      {
     "@type": "ItemList",
     name: "Classement des meilleures villes françaises par qualité de vie 2026",
     description: "Score global agrégé sur 9 critères : nature, transport, coût de la vie, sécurité, culture, écoles, qualité de vie, télétravail.",
@@ -50,6 +60,8 @@ export default function LeaderboardPage() {
       url: `${BASE_URL}/villes/${city.slug}`,
       description: `Score ${city.scores.global.toFixed(1)}/10 — ${city.region}`,
     })),
+      },
+    ],
   };
 
   return (
