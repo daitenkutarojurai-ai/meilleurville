@@ -1,18 +1,18 @@
 @import "tailwindcss";
 
 :root {
-  /* Warm cream + grass green palette — friendly, positive, approachable */
-  --bg-canvas: #FAFBF4;          /* warm cream, very faint green tint */
+  /* Neutral cream palette — greens reserved for score tiers only */
+  --bg-canvas: #F8FAFB;          /* neutral near-white */
   --bg-surface: #FFFFFF;         /* clean white cards */
-  --bg-elevated: #F0F5E5;        /* soft sage hover surface */
-  --border: #DDE5CD;             /* warm sage border */
+  --bg-elevated: #EFF3F4;        /* light neutral hover surface */
+  --border: #DCE4E7;             /* neutral light border */
 
-  --text-primary: #1F3A2A;       /* deep forest, friendly near-black */
-  --text-secondary: #5A7565;     /* muted sage */
-  --text-tertiary: #8FA597;      /* lighter sage for hints */
+  --text-primary: #1C2833;       /* dark charcoal, neutral near-black */
+  --text-secondary: #5D6D7E;     /* medium gray */
+  --text-tertiary: #8C9BAB;      /* lighter gray for hints */
 
-  --accent: #16A34A;             /* grass green — primary action */
-  --accent-soft: #DCFCE7;        /* pale mint for soft accent backgrounds */
+  --accent: #0D9488;             /* teal — clearly distinct from score greens */
+  --accent-soft: #F0FDFA;        /* pale teal for soft accent backgrounds */
   --accent-warm: #F59E0B;        /* sunny amber */
   --accent-pink: #EC4899;        /* pop pink for playful highlights */
 

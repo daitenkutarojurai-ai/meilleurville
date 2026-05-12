@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ArrowRight, Trophy } from "lucide-react";
 import { CITIES_SEED } from "@/data/cities-seed";
+import { scoreColor } from "@/lib/utils";
 
 function tagline(city: (typeof CITIES_SEED)[number]): string {
   const s = city.scores;
@@ -27,7 +28,7 @@ function rankColor(rank: number): string {
   if (rank === 1) return "from-amber-300 via-yellow-400 to-orange-400";
   if (rank === 2) return "from-slate-200 via-slate-300 to-slate-400";
   if (rank === 3) return "from-orange-200 via-amber-400 to-orange-500";
-  return "from-emerald-200 via-emerald-300 to-emerald-400";
+  return "from-slate-200 via-slate-300 to-slate-400";
 }
 
 export function TopFiveCities() {
@@ -96,7 +97,7 @@ export function TopFiveCities() {
                       <div className="text-[10px] uppercase tracking-wider text-[var(--text-tertiary)] font-semibold">
                         Score global
                       </div>
-                      <div className="text-2xl font-bold font-mono-data text-[var(--accent)]">
+                      <div className={`text-2xl font-bold font-mono-data ${scoreColor(city.scores.global)}`}>
                         {city.scores.global.toFixed(1)}
                       </div>
                     </div>
