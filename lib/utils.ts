@@ -35,31 +35,38 @@ export function formatSunshineDays(value: number | null | undefined): string {
   return d == null ? "—" : `${d} j`;
 }
 
+/**
+ * Single source of truth for the 6-tier score colour scale.
+ * Documented in CLAUDE.md — every UI surface that paints a score must
+ * route through this function so a change here applies everywhere.
+ */
+export const SCORE_TIERS = [
+  { min: 7.5, text: "text-purple-500", hex: "#A855F7", bg: "bg-purple-500/15 border-purple-500/40", label: "exceptionnel" },
+  { min: 7.0, text: "text-green-500",  hex: "#16A34A", bg: "bg-green-500/10 border-green-500/30",   label: "excellent" },
+  { min: 6.0, text: "text-lime-500",   hex: "#84CC16", bg: "bg-lime-500/10 border-lime-500/30",     label: "bon" },
+  { min: 5.0, text: "text-amber-400",  hex: "#F59E0B", bg: "bg-amber-400/10 border-amber-400/30",   label: "moyen" },
+  { min: 4.0, text: "text-orange-500", hex: "#F97316", bg: "bg-orange-500/10 border-orange-500/30", label: "en dessous" },
+  { min: -Infinity, text: "text-red-500", hex: "#EF4444", bg: "bg-red-500/10 border-red-500/30",    label: "mauvais" },
+] as const;
+
+function tierFor(score: number) {
+  return SCORE_TIERS.find((t) => score >= t.min) ?? SCORE_TIERS[SCORE_TIERS.length - 1];
+}
+
 export function scoreColor(score: number): string {
-  if (score >= 7.5) return "text-purple-500";
-  if (score >= 7.0) return "text-green-500";
-  if (score >= 6.0) return "text-lime-500";
-  if (score >= 5.0) return "text-amber-400";
-  if (score >= 4.0) return "text-orange-500";
-  return "text-red-500";
+  return tierFor(score).text;
 }
 
 export function scoreHex(score: number): string {
-  if (score >= 7.5) return "#A855F7";
-  if (score >= 7.0) return "#16A34A";
-  if (score >= 6.0) return "#84CC16";
-  if (score >= 5.0) return "#F59E0B";
-  if (score >= 4.0) return "#F97316";
-  return "#EF4444";
+  return tierFor(score).hex;
 }
 
 export function scoreBg(score: number): string {
-  if (score >= 7.5) return "bg-purple-500/15 border-purple-500/40";
-  if (score >= 7.0) return "bg-green-500/10 border-green-500/30";
-  if (score >= 6.0) return "bg-lime-500/10 border-lime-500/30";
-  if (score >= 5.0) return "bg-amber-400/10 border-amber-400/30";
-  if (score >= 4.0) return "bg-orange-500/10 border-orange-500/30";
-  return "bg-red-500/10 border-red-500/30";
+  return tierFor(score).bg;
+}
+
+export function scoreLabel(score: number): string {
+  return tierFor(score).label;
 }
 
 export function slugify(str: string): string {

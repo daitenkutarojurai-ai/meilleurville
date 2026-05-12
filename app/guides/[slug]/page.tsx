@@ -44,6 +44,10 @@ export default async function GuidePage({ params }: Props) {
   const catMeta = GUIDE_CATEGORIES.find((c) => c.id === guide.category);
 
   const baseUrl = process.env.NEXT_PUBLIC_BASE_URL ?? "https://meilleurville.fr";
+  const articleWordCount = guide.sections.reduce(
+    (n, s) => n + (s.body?.match(/\S+/g)?.length ?? 0),
+    (guide.intro?.match(/\S+/g)?.length ?? 0)
+  );
   const articleJsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -55,6 +59,8 @@ export default async function GuidePage({ params }: Props) {
     dateModified: guide.updatedAt,
     inLanguage: "fr-FR",
     keywords: guide.tags?.join(", "),
+    wordCount: articleWordCount,
+    timeRequired: `PT${guide.readMinutes}M`,
     author: { "@type": "Organization", name: "MeilleurVille", url: baseUrl },
     publisher: {
       "@type": "Organization",

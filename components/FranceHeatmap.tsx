@@ -3,6 +3,7 @@ import { useMemo, useRef, useState, useEffect } from "react";
 import Link from "next/link";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { DromStrip } from "@/components/DromStrip";
+import { scoreHex } from "@/lib/utils";
 
 // Hand-traced French border (lng, lat) — closed polygon
 const BORDER: Array<[number, number]> = [
@@ -36,14 +37,8 @@ function project(lng: number, lat: number): [number, number] {
   return [PAD + (lng - LNG_MIN) * SCALE_X, PAD + (LAT_MAX - lat) * SCALE_Y];
 }
 
-function scoreColor(score: number): string {
-  if (score >= 7.5) return "#A855F7"; // violet — légendaire
-  if (score >= 7.0) return "#16A34A"; // green — excellent
-  if (score >= 6.0) return "#84CC16"; // lime — bon
-  if (score >= 5.0) return "#F59E0B"; // amber — moyen
-  if (score >= 4.0) return "#F97316"; // orange — en dessous
-  return "#EF4444";                   // red — mauvais
-}
+// scoreColor: use scoreHex from @/lib/utils
+const scoreColor = scoreHex;
 
 function dotRadius(population: number): number {
   if (population > 500000) return 8;
@@ -393,6 +388,85 @@ export function FranceHeatmap() {
                 filter="url(#borderGlow)"
               />
 
+              {/* DROM inset cartouches — overseas regions in bottom-left.
+                  CITIES_SEED outside the metropolitan bbox are filtered from
+                  the main dot layer (lng/lat bounds), so we surface them
+                  here as small framed labels colored by their top city. */}
+              <g aria-label="Régions d'outre-mer">
+                {(() => {
+                  const droms = [
+                    { code: "GUA", name: "Guadeloupe", slug: "guadeloupe" },
+                    { code: "MAR", name: "Martinique", slug: "martinique" },
+                    { code: "GUY", name: "Guyane", slug: "guyane" },
+                    { code: "REU", name: "La Réunion", slug: "la-reunion" },
+                    { code: "MAY", name: "Mayotte", slug: "mayotte" },
+                  ];
+                  const boxW = 56;
+                  const boxH = 32;
+                  const gap = 4;
+                  const startX = 24;
+                  const startY = 540;
+                  return droms.map((r, i) => {
+                    const top = [...CITIES_SEED]
+                      .filter((c) => c.region === r.name)
+                      .sort((a, b) => b.scores.global - a.scores.global)[0];
+                    const color = top ? scoreColor(top.scores.global) : "#94A3B8";
+                    const x = startX + i * (boxW + gap);
+                    return (
+                      <g key={r.code} opacity={mounted ? 1 : 0} style={{ transition: `opacity 0.5s ease ${(800 + i * 60).toFixed(0)}ms` }}>
+                        <rect
+                          x={x}
+                          y={startY}
+                          width={boxW}
+                          height={boxH}
+                          rx={6}
+                          ry={6}
+                          fill="rgba(15,36,25,0.7)"
+                          stroke={color}
+                          strokeOpacity={0.8}
+                          strokeWidth={1}
+                        />
+                        <text
+                          x={x + boxW / 2}
+                          y={startY + 13}
+                          textAnchor="middle"
+                          fontSize="9"
+                          fontWeight="700"
+                          fill="#E5E7EB"
+                          fontFamily="JetBrains Mono, monospace"
+                        >
+                          {r.code}
+                        </text>
+                        {top && (
+                          <text
+                            x={x + boxW / 2}
+                            y={startY + 25}
+                            textAnchor="middle"
+                            fontSize="10"
+                            fontWeight="700"
+                            fill={color}
+                            fontFamily="JetBrains Mono, monospace"
+                          >
+                            {top.scores.global.toFixed(1)}
+                          </text>
+                        )}
+                      </g>
+                    );
+                  });
+                })()}
+                <text
+                  x="24"
+                  y="534"
+                  fontSize="9"
+                  fontWeight="600"
+                  fill="rgba(229,231,235,0.65)"
+                  letterSpacing="1"
+                  style={{ textTransform: "uppercase" }}
+                >
+                  Outre-mer (score top ville)
+                </text>
+              </g>
+
               {/* Top-tier expanding rings for cities ≥ 7.5 */}
               {dots
                 .filter((d) => d.score >= 7.5)
@@ -532,7 +606,7 @@ export function FranceHeatmap() {
                     </li>
                   ))}
               </ul>
-              <p>Pour la liste complète, consulter la page <a href="/leaderboard">leaderboard</a> ou <a href="/villes">toutes les villes</a>.</p>
+              <p>Pour la liste complète, consulter la page <Link href="/leaderboard">leaderboard</Link> ou <Link href="/villes">toutes les villes</Link>.</p>
             </div>
 
             {/* Legend */}

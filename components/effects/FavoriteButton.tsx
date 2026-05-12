@@ -1,9 +1,10 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useSyncExternalStore, useState } from "react";
 import { Heart } from "lucide-react";
 
 const STORAGE_KEY = "meilleurville:favorites";
+const CHANGED_EVENT = "favorites-changed";
 
 export function readFavorites(): string[] {
   if (typeof window === "undefined") return [];
@@ -20,9 +21,57 @@ export function readFavorites(): string[] {
 function writeFavorites(slugs: string[]): void {
   try {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(slugs));
-    window.dispatchEvent(new CustomEvent("favorites-changed"));
+    window.dispatchEvent(new CustomEvent(CHANGED_EVENT));
   } catch {}
 }
+
+// ----- useSyncExternalStore plumbing -------------------------------------
+// One subscribe target (both components react to the same event) avoids the
+// useEffect-then-setState pattern that triggers
+// react-hooks/set-state-in-effect under React 19 strict-mode.
+function subscribe(notify: () => void) {
+  window.addEventListener(CHANGED_EVENT, notify);
+  window.addEventListener("storage", notify);
+  return () => {
+    window.removeEventListener(CHANGED_EVENT, notify);
+    window.removeEventListener("storage", notify);
+  };
+}
+
+// Snapshot is cached so consecutive reads of "same content" return the same
+// array reference — useSyncExternalStore requires this to avoid render loops.
+let cachedRaw: string | null = null;
+let cachedList: string[] = [];
+
+function readSnapshot(): string[] {
+  if (typeof window === "undefined") return cachedList;
+  let raw: string | null = null;
+  try {
+    raw = localStorage.getItem(STORAGE_KEY);
+  } catch {
+    raw = null;
+  }
+  if (raw === cachedRaw) return cachedList;
+  cachedRaw = raw;
+  try {
+    const data = raw ? JSON.parse(raw) : [];
+    cachedList = Array.isArray(data) ? (data as string[]) : [];
+  } catch {
+    cachedList = [];
+  }
+  return cachedList;
+}
+
+const EMPTY: string[] = [];
+function readServerSnapshot(): string[] {
+  return EMPTY;
+}
+
+function useFavorites(): string[] {
+  return useSyncExternalStore(subscribe, readSnapshot, readServerSnapshot);
+}
+
+// ----- Public components --------------------------------------------------
 
 export function FavoriteButton({
   slug,
@@ -35,24 +84,18 @@ export function FavoriteButton({
   size?: number;
   label?: boolean;
 }) {
-  const [active, setActive] = useState(() => readFavorites().includes(slug));
+  const favorites = useFavorites();
+  const active = favorites.includes(slug);
   const [animating, setAnimating] = useState(false);
-
-  useEffect(() => {
-    function onChange() {
-      setActive(readFavorites().includes(slug));
-    }
-    window.addEventListener("favorites-changed", onChange);
-    return () => window.removeEventListener("favorites-changed", onChange);
-  }, [slug]);
 
   function toggle(e: React.MouseEvent) {
     e.preventDefault();
     e.stopPropagation();
     const current = readFavorites();
-    const next = current.includes(slug) ? current.filter((s) => s !== slug) : [...current, slug];
+    const next = current.includes(slug)
+      ? current.filter((s) => s !== slug)
+      : [...current, slug];
     writeFavorites(next);
-    setActive(next.includes(slug));
     setAnimating(true);
     setTimeout(() => setAnimating(false), 400);
   }
@@ -90,18 +133,11 @@ export function FavoriteButton({
 }
 
 export function FavoriteCount({ className = "" }: { className?: string }) {
-  const [count, setCount] = useState(() => readFavorites().length);
-  useEffect(() => {
-    function onChange() {
-      setCount(readFavorites().length);
-    }
-    window.addEventListener("favorites-changed", onChange);
-    return () => window.removeEventListener("favorites-changed", onChange);
-  }, []);
-  if (count === 0) return null;
+  const favorites = useFavorites();
+  if (favorites.length === 0) return null;
   return (
     <span className={`inline-flex items-center justify-center rounded-full bg-[var(--accent-pink)]/15 text-[var(--accent-pink)] text-[10px] font-bold font-mono-data px-1.5 py-0.5 ${className}`}>
-      {count}
+      {favorites.length}
     </span>
   );
 }

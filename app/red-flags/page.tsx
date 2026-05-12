@@ -85,7 +85,7 @@ export default function RedFlagsPage() {
             Red Flag Radar
           </div>
           <h1 className="mb-3 text-3xl sm:text-4xl font-bold text-[var(--text-primary)]">
-            Ce que l'annonce immobilière ne vous dira jamais.
+            Ce que l&apos;annonce immobilière ne vous dira jamais.
           </h1>
           <p className="max-w-2xl text-[var(--text-secondary)] text-lg">
             On agrège les données ouvertes (Géorisques, ATMO, SSMSI) et on ouvre la discussion

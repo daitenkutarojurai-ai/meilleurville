@@ -3,7 +3,7 @@ import { useState, useMemo } from "react";
 import Link from "next/link";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { HOUSING } from "@/data/housing";
-import { cn } from "@/lib/utils";
+import { cn, scoreColor as scoreClass } from "@/lib/utils";
 
 const MEDAL = ["🥇", "🥈", "🥉"];
 const REGIONS = ["Toutes", ...Array.from(new Set(CITIES_SEED.map((c) => c.region))).sort()];
@@ -21,14 +21,7 @@ const CRITERIA = [
 
 type SortKey = "global" | keyof (typeof CITIES_SEED)[number]["scores"];
 
-function scoreClass(s: number) {
-  if (s >= 7.5) return "text-purple-500";
-  if (s >= 7.0) return "text-green-500";
-  if (s >= 6.0) return "text-lime-500";
-  if (s >= 5.0) return "text-amber-400";
-  if (s >= 4.0) return "text-orange-500";
-  return "text-red-500";
-}
+// scoreClass = scoreColor from @/lib/utils (aliased import above)
 
 export function LeaderboardTable() {
   const [region, setRegion] = useState("Toutes");

@@ -77,7 +77,7 @@ export default function AboutPage() {
           </h1>
           <p className="text-[var(--text-secondary)] text-lg leading-relaxed">
             Changer de ville est une des décisions les plus importantes de votre vie. Elle mérite
-            mieux qu'un guide touristique ou un classement basé sur des critères abstraits.
+            mieux qu&apos;un guide touristique ou un classement basé sur des critères abstraits.
             MeilleurVille est le Glassdoor des villes : des données réelles, des avis honnêtes,
             aucune langue de bois.
           </p>
@@ -105,18 +105,18 @@ export default function AboutPage() {
           <h2 className="text-2xl font-bold text-[var(--text-primary)] mb-6">Pourquoi MeilleurVille existe</h2>
           <div className="space-y-4 text-[var(--text-secondary)] leading-relaxed">
             <p>
-              Tout a commencé avec une question simple : <em className="text-[var(--text-primary)]">"Où vivre en France pour être heureux ?"</em>
-              Les réponses disponibles étaient soit des classements trop génériques (coût moyen de l'immobilier, soleil),
+              Tout a commencé avec une question simple : <em className="text-[var(--text-primary)]">&quot;Où vivre en France pour être heureux ?&quot;</em>
+              Les réponses disponibles étaient soit des classements trop génériques (coût moyen de l&apos;immobilier, soleil),
               soit des forums où des inconnus vous donnent leur opinion sans aucune donnée.
             </p>
             <p>
-              Ce qu'il manquait : une plateforme qui agrège des données objectives ET du vécu humain,
+              Ce qu&apos;il manquait : une plateforme qui agrège des données objectives ET du vécu humain,
               avec une transparence totale sur la méthode. Quelque chose entre Glassdoor (avis structurés et vérifiés)
               et Tripadvisor (dense, orienté usages), appliqué aux villes où vous envisagez de vivre.
             </p>
             <p>
-              MeilleurVille ne vend pas de publicité pour les villes. Ne reçoit pas d'argent des offices de tourisme.
-              Ne classe pas les villes selon leur budget marketing. La seule chose qui monte un score, c'est la réalité.
+              MeilleurVille ne vend pas de publicité pour les villes. Ne reçoit pas d&apos;argent des offices de tourisme.
+              Ne classe pas les villes selon leur budget marketing. La seule chose qui monte un score, c&apos;est la réalité.
             </p>
           </div>
         </div>
@@ -157,7 +157,7 @@ export default function AboutPage() {
           </h2>
           <p className="text-[var(--text-secondary)] mb-5 leading-relaxed">
             Notre méthodologie est entièrement publique. Formules, sources, pondérations, limites connues :
-            tout est documenté et auditable par n'importe qui.
+            tout est documenté et auditable par n&apos;importe qui.
           </p>
           <div className="flex flex-wrap gap-3">
             <Link

@@ -75,7 +75,9 @@ export function CommentSection({
   const [showSubscribe, setShowSubscribe] = useState(false);
   const [subscribeStatus, setSubscribeStatus] = useState<"idle" | "ok" | "err">("idle");
   const formRef = useRef<HTMLFormElement | null>(null);
-  const formStartedAt = useRef<number>(Date.now());
+  // Lazy-init via useState so we never call Date.now() during render
+  // (react-hooks rule: pure-render). Survives re-renders identically.
+  const [formStartedAt] = useState<number>(() => Date.now());
 
   useEffect(() => {
     let cancelled = false;
@@ -111,7 +113,7 @@ export function CommentSection({
         email: email.trim(),
         body: body.trim(),
         website,
-        formStartedAt: formStartedAt.current,
+        formStartedAt,
       };
       if (showRating && rating) payload.rating = rating;
       const res = await fetch("/api/comments", {

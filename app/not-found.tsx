@@ -11,17 +11,17 @@ export default function NotFound() {
       <div className="flex min-h-[70vh] flex-col items-center justify-center px-4 text-center">
         <div className="mb-6 text-8xl font-bold font-mono-data gradient-text">404</div>
         <h1 className="mb-3 text-2xl font-bold text-[var(--text-primary)]">
-          Cette page n'existe pas
+          Cette page n&apos;existe pas
         </h1>
         <p className="mb-8 max-w-md text-[var(--text-secondary)]">
           La ville ou la page que vous cherchez est introuvable. Essayez la
-          recherche ou revenez à l'accueil.
+          recherche ou revenez à l&apos;accueil.
         </p>
         <div className="flex flex-wrap gap-3 justify-center">
           <Link href="/">
             <Button size="lg" className="gap-2">
               <MapPin className="h-4 w-4" />
-              Retour à l'accueil
+              Retour à l&apos;accueil
             </Button>
           </Link>
           <Link href="/villes">

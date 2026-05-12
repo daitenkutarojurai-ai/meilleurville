@@ -61,7 +61,7 @@ export default function CguPage() {
       <div className="mx-auto max-w-3xl px-4 sm:px-6 py-14">
         <div className="mb-10">
           <h1 className="text-3xl font-bold text-[var(--text-primary)] mb-2">
-            Conditions Générales d'Utilisation
+            Conditions Générales d&apos;Utilisation
           </h1>
           <p className="text-sm text-[var(--text-tertiary)]">
             Dernière mise à jour : 1er avril 2025

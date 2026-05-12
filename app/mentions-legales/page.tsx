@@ -15,7 +15,7 @@ export default function MentionsLegalesPage() {
       <div className="mx-auto max-w-3xl px-4 sm:px-6 py-14">
         <div className="mb-10">
           <h1 className="text-3xl font-bold text-[var(--text-primary)] mb-2">Mentions légales</h1>
-          <p className="text-sm text-[var(--text-tertiary)]">Conformément à la loi n°2004-575 du 21 juin 2004 pour la Confiance dans l'Économie Numérique.</p>
+          <p className="text-sm text-[var(--text-tertiary)]">Conformément à la loi n°2004-575 du 21 juin 2004 pour la Confiance dans l&apos;Économie Numérique.</p>
         </div>
 
         <div className="space-y-8 text-sm text-[var(--text-secondary)] leading-relaxed">
@@ -23,7 +23,7 @@ export default function MentionsLegalesPage() {
             <h2 className="text-base font-semibold text-[var(--text-primary)] mb-2">Éditeur du site</h2>
             <p>
               MeilleurVille SAS<br />
-              En cours d'immatriculation<br />
+              En cours d&apos;immatriculation<br />
               France<br />
               Email : hello@meilleurville.fr
             </p>
@@ -48,8 +48,8 @@ export default function MentionsLegalesPage() {
           <div>
             <h2 className="text-base font-semibold text-[var(--text-primary)] mb-2">Propriété intellectuelle</h2>
             <p>
-              L'ensemble du contenu du site MeilleurVille (textes, analyses, design, algorithmes, code) est
-              protégé par le droit d'auteur français. Toute reproduction sans autorisation expresse est interdite.
+              L&apos;ensemble du contenu du site MeilleurVille (textes, analyses, design, algorithmes, code) est
+              protégé par le droit d&apos;auteur français. Toute reproduction sans autorisation expresse est interdite.
             </p>
             <p className="mt-2">
               Les données sources utilisées (INSEE, data.gouv.fr, OpenStreetMap) sont soumises à leurs licences
@@ -68,7 +68,7 @@ export default function MentionsLegalesPage() {
           <div>
             <h2 className="text-base font-semibold text-[var(--text-primary)] mb-2">Litiges</h2>
             <p>
-              Pour tout litige relatif à l'utilisation du site, les parties s'engagent à tenter une résolution
+              Pour tout litige relatif à l&apos;utilisation du site, les parties s&apos;engagent à tenter une résolution
               amiable avant toute action judiciaire. Les présentes mentions légales sont soumises au droit français.
             </p>
           </div>

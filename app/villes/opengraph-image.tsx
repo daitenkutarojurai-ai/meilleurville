@@ -75,7 +75,7 @@ export default function Image() {
             Trouvez la vôtre
           </div>
           <div style={{ color: "#8b949e", fontSize: "17px" }}>
-            Scores · Avis d'habitants · Quartiers · Comparaisons
+            Scores · Avis d&apos;habitants · Quartiers · Comparaisons
           </div>
         </div>
 

@@ -239,7 +239,7 @@ export default async function QuartiersPage({ params }: Props) {
               </h3>
               <p className="text-sm text-[var(--text-secondary)] mb-5 max-w-md mx-auto">
                 Les abonnés Pro accèdent aux données détaillées : prix au m², qualité des écoles par quartier,
-                densité médicale, criminalité par type d'acte.
+                densité médicale, criminalité par type d&apos;acte.
               </p>
               <Link
                 href="/quiz"

@@ -49,7 +49,7 @@ export function CostCalculator() {
           <Calculator className="h-5 w-5 text-[var(--accent)]" />
         </div>
         <div>
-          <h3 className="font-bold text-[var(--text-primary)]">Calculateur de pouvoir d'achat</h3>
+          <h3 className="font-bold text-[var(--text-primary)]">Calculateur de pouvoir d&apos;achat</h3>
           <p className="text-xs text-[var(--text-secondary)]">Combien économiseriez-vous en quittant Paris ?</p>
         </div>
       </div>

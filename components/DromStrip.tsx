@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { CITIES_SEED } from "@/data/cities-seed";
+import { scoreHex } from "@/lib/utils";
 
 const DROM = [
   { name: "Guadeloupe", emoji: "🌴", region: "Guadeloupe", regionSlug: "guadeloupe" },
@@ -9,14 +10,7 @@ const DROM = [
   { name: "Mayotte", emoji: "🐢", region: "Mayotte", regionSlug: "mayotte" },
 ] as const;
 
-function scoreColor(score: number): string {
-  if (score >= 7.5) return "#A855F7"; // violet — légendaire
-  if (score >= 7.0) return "#16A34A"; // green — excellent
-  if (score >= 6.0) return "#84CC16"; // lime — bon
-  if (score >= 5.0) return "#F59E0B"; // amber — moyen
-  if (score >= 4.0) return "#F97316"; // orange — en dessous
-  return "#EF4444";                   // red — mauvais
-}
+// scoreHex imported from @/lib/utils — single source of truth
 
 export function DromStrip() {
   // Group DROM cities by region from the seed
@@ -65,7 +59,7 @@ export function DromStrip() {
                 >
                   <span
                     className="h-1.5 w-1.5 rounded-full flex-shrink-0"
-                    style={{ background: scoreColor(c.scores.global) }}
+                    style={{ background: scoreHex(c.scores.global) }}
                   />
                   {c.name.replace(/\s*\(.*\)\s*$/, "")}
                 </Link>

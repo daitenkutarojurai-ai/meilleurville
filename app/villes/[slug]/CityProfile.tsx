@@ -75,23 +75,23 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
             aria-label="Fil d'Ariane"
             className="flex flex-wrap items-center gap-2 text-sm text-[var(--text-secondary)] mb-4"
           >
-            <a href="/" className="hover:text-[var(--text-primary)] transition-colors">Accueil</a>
+            <Link href="/" className="hover:text-[var(--text-primary)] transition-colors">Accueil</Link>
             <ChevronRight className="h-3.5 w-3.5" aria-hidden />
-            <a href="/villes" className="hover:text-[var(--text-primary)] transition-colors">Villes</a>
+            <Link href="/villes" className="hover:text-[var(--text-primary)] transition-colors">Villes</Link>
             <ChevronRight className="h-3.5 w-3.5" aria-hidden />
-            <a
+            <Link
               href={`/regions/${city.region.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}`}
               className="hover:text-[var(--text-primary)] transition-colors"
             >
               {city.region}
-            </a>
+            </Link>
             <ChevronRight className="h-3.5 w-3.5" aria-hidden />
-            <a
+            <Link
               href={`/departements/${city.department.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}`}
               className="hover:text-[var(--text-primary)] transition-colors"
             >
               {city.department}
-            </a>
+            </Link>
             <ChevronRight className="h-3.5 w-3.5" aria-hidden />
             <span className="text-[var(--text-primary)]" aria-current="page">{city.name}</span>
           </nav>

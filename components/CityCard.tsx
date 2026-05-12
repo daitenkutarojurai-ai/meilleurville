@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { MapPin, Star, TrendingUp } from "lucide-react";
 import { Badge } from "@/components/ui/Badge";
-import { cn, formatNumber, formatScore, scoreHex } from "@/lib/utils";
+import { cn, formatNumber, formatScore, scoreHex, scoreColor, scoreLabel } from "@/lib/utils";
 import type { City } from "@/lib/types";
 import { HOUSING } from "@/data/housing";
 import { FavoriteButton } from "@/components/effects/FavoriteButton";
@@ -22,26 +22,10 @@ function gradientForScore(score: number) {
   return "from-red-500 via-rose-400 to-orange-400";
 }
 
-function qualityLabel(score: number): string {
-  if (score >= 7.5) return "exceptionnel";
-  if (score >= 7.0) return "excellent";
-  if (score >= 6.0) return "bon";
-  if (score >= 5.0) return "moyen";
-  if (score >= 4.0) return "en dessous";
-  return "mauvais";
-}
-
 export function CityCard({ city, rank, delta, className }: CityCardProps) {
   const score = city.scores.global;
-  const scoreColor =
-    score >= 7.5 ? "text-purple-500"
-    : score >= 7.0 ? "text-green-500"
-    : score >= 6.0 ? "text-lime-500"
-    : score >= 5.0 ? "text-amber-400"
-    : score >= 4.0 ? "text-orange-500"
-    : "text-red-500";
   const cover = gradientForScore(score);
-  const tier = qualityLabel(score);
+  const tier = scoreLabel(score);
 
   return (
     <Link
@@ -86,7 +70,7 @@ export function CityCard({ city, rank, delta, className }: CityCardProps) {
           </div>
 
           <div className="mb-4 flex items-center gap-3">
-            <div className={cn("text-3xl font-bold font-mono-data", scoreColor)} title={`Score ${tier}`}>
+            <div className={cn("text-3xl font-bold font-mono-data", scoreColor(score))} title={`Score ${tier}`}>
               {formatScore(score)}
               <span className="sr-only"> sur 10 — {tier}</span>
             </div>

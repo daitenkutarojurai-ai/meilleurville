@@ -211,7 +211,7 @@ export default async function PairPage({ params }: Props) {
           <div className="rounded-2xl border border-emerald-400/30 bg-emerald-500/5 p-6 text-center">
             <p className="text-sm text-[var(--text-secondary)] mb-1">Recommandé par MeilleurVille</p>
             <p className="text-xl font-bold text-emerald-600">
-              {winner.name} l'emporte sur {SCORE_ROWS.length - Math.min(winsA, winsB)} critères
+              {winner.name} l&apos;emporte sur {SCORE_ROWS.length - Math.min(winsA, winsB)} critères
             </p>
             <p className="text-xs text-[var(--text-secondary)] mt-1">
               Résultat basé sur 9 critères pondérés équitablement

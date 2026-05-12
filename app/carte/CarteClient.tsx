@@ -5,6 +5,7 @@ import Link from "next/link";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { HOUSING } from "@/data/housing";
 import { DromStrip } from "@/components/DromStrip";
+import { scoreHex as scoreColor } from "@/lib/utils";
 
 type ScoreKey = "global" | "nature" | "cost" | "safety" | "transport" | "culture" | "remoteWork" | "schools";
 
@@ -54,14 +55,7 @@ function isMetropolitan(lng: number, lat: number): boolean {
   return lng >= -6 && lng <= 10 && lat >= 40 && lat <= 52;
 }
 
-function scoreColor(score: number): string {
-  if (score >= 7.5) return "#A855F7"; // violet — légendaire
-  if (score >= 7.0) return "#16A34A"; // green — excellent
-  if (score >= 6.0) return "#84CC16"; // lime — bon
-  if (score >= 5.0) return "#F59E0B"; // amber — moyen
-  if (score >= 4.0) return "#F97316"; // orange — en dessous
-  return "#EF4444";                   // red — mauvais
-}
+// scoreColor is imported above from @/lib/utils (single source of truth)
 
 function scoreSize(score: number): number {
   return 5 + Math.max(0, score - 4) * 0.9;

@@ -181,7 +181,7 @@ export default function FaqPage() {
         ))}
 
         <div className="rounded-2xl border border-[var(--accent)]/20 bg-[var(--accent)]/5 p-8 text-center">
-          <p className="font-semibold text-[var(--text-primary)] mb-2">Vous n'avez pas trouvé votre réponse ?</p>
+          <p className="font-semibold text-[var(--text-primary)] mb-2">Vous n&apos;avez pas trouvé votre réponse ?</p>
           <p className="text-sm text-[var(--text-secondary)] mb-5">
             Notre équipe répond sous 48h ouvrables.
           </p>
@@ -189,7 +189,7 @@ export default function FaqPage() {
             href="/contact"
             className="inline-flex items-center gap-2 rounded-xl bg-[var(--accent)] text-white font-semibold px-5 py-2.5 text-sm hover:opacity-90 transition-opacity"
           >
-            Contacter l'équipe →
+            Contacter l&apos;équipe →
           </Link>
         </div>
 

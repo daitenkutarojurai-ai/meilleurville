@@ -126,7 +126,7 @@ export default function DonneesPage() {
           </h1>
           <p className="text-[var(--text-secondary)] max-w-2xl">
             Tout ce que vous voyez sur MeilleurVille est construit sur des données vérifiables et publiques.
-            Aucune "note magique", aucun résultat payant.
+            Aucune &quot;note magique&quot;, aucun résultat payant.
           </p>
         </div>
       </section>

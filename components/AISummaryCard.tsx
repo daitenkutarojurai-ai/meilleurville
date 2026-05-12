@@ -64,7 +64,7 @@ export function AISummaryCard({ citySlug, cityName }: Props) {
 
       {data.tagline && (
         <p className={cn("text-xs font-medium mb-4 mt-1", "text-[var(--accent)]")}>
-          "{data.tagline}"
+          &quot;{data.tagline}&quot;
         </p>
       )}
 

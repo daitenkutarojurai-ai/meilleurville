@@ -1,5 +1,9 @@
 "use client";
 
+// global-error runs outside the Next router (it owns <html>+<body>) so
+// next/link is not available — the bare <a> is correct here.
+/* eslint-disable @next/next/no-html-link-for-pages */
+
 export default function GlobalError({
   error,
   reset,
