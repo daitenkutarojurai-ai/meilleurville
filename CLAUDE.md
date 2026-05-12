@@ -156,7 +156,7 @@ npm run lint         # 25 errors remaining (all react/no-unescaped-entities, cos
 
 ## Content roadmap — guides (`data/guides.ts`)
 
-Current count: **210 guides** (target: 250+). Add via the pattern in this file — each guide needs `slug, title, metaTitle, metaDesc, category, emoji, readMinutes, publishedAt, updatedAt, intro, sections[], relatedCities[], relatedGuides[], tags[]`. All copy in **French**, direct voice, data-led. No silent fake figures.
+Current count: **224 guides** (target: 250+). Add via the pattern in this file — each guide needs `slug, title, metaTitle, metaDesc, category, emoji, readMinutes, publishedAt, updatedAt, intro, sections[], relatedCities[], relatedGuides[], tags[]`. All copy in **French**, direct voice, data-led. No silent fake figures.
 
 ### Série "Quitter X" 2026
 Track big cities — one guide per city, category `"comparaison"`.
@@ -201,9 +201,9 @@ Category `"comparaison"`. Prefer pairs not yet covered and high-search-intent.
 | Reims vs Amiens | `reims-vs-amiens-comparatif-2026` | ✅ done |
 | La Rochelle vs Bayonne | `la-rochelle-vs-bayonne-comparatif-2026` | ✅ done |
 | Brest vs Lorient | `brest-vs-lorient-comparatif-2026` | ✅ done |
-| Le Mans vs Tours | `le-mans-vs-tours-comparatif-2026` | ⬜ todo |
-| Perpignan vs Montpellier | `perpignan-vs-montpellier-comparatif-2026` | ⬜ todo |
-| Metz vs Nancy | `metz-vs-nancy-comparatif-2026` | ⬜ todo |
+| Le Mans vs Tours | `le-mans-vs-tours-comparatif-2026` | ✅ done |
+| Perpignan vs Montpellier | `perpignan-vs-montpellier-comparatif-2026` | ✅ done |
+| Metz vs Nancy | `metz-vs-nancy-comparatif-2026` | ✅ done |
 
 ### Région 2026
 Category `"region"`. Prefer departments/zones with no 2026 guide yet.
@@ -223,9 +223,9 @@ Category `"region"`. Prefer departments/zones with no 2026 guide yet.
 | Ariège | `vivre-en-ariege-guide-2026` | ✅ done |
 | Ardennes / Meuse | `vivre-en-ardennes-meuse-guide-2026` | ✅ done |
 | Creuse / Corrèze profonde | `vivre-en-creuse-guide-2026` | ✅ done |
-| Périgord / Dordogne | `vivre-en-perigord-dordogne-guide-2026` | ⬜ todo |
-| Alsace | `vivre-en-alsace-guide-2026` | ⬜ todo |
-| Charente-Maritime | `vivre-en-charente-maritime-guide-2026` | ⬜ todo |
+| Périgord / Dordogne | `vivre-en-perigord-dordogne-guide-2026` | ✅ done |
+| Alsace | `vivre-en-alsace-guide-2026` | ✅ done |
+| Charente-Maritime | `vivre-en-charente-maritime-guide-2026` | ✅ done |
 
 ### Télétravail par région 2026
 Category `"teletravail"`.
@@ -241,8 +241,8 @@ Category `"teletravail"`.
 | Auvergne / Massif Central | `teletravailler-depuis-auvergne-guide-2026` | ✅ done |
 | Nouvelle-Aquitaine | `teletravailler-depuis-nouvelle-aquitaine-guide-2026` | ✅ done |
 | Île-de-France banlieue | `teletravailler-grande-couronne-ile-de-france-2026` | ✅ done |
-| Occitanie | `teletravailler-depuis-occitanie-guide-2026` | ⬜ todo |
-| Hauts-de-France | `teletravailler-depuis-hauts-de-france-guide-2026` | ⬜ todo |
+| Occitanie | `teletravailler-depuis-occitanie-guide-2026` | ✅ done |
+| Hauts-de-France | `teletravailler-depuis-hauts-de-france-guide-2026` | ✅ done |
 
 ### Lifestyle / thématiques 2026
 Category `"lifestyle"`.
@@ -261,8 +261,8 @@ Category `"lifestyle"`.
 | Animaux / pets | `meilleures-villes-animaux-chiens-france-2026` | ✅ done |
 | Musique / scène musicale | `meilleures-villes-musique-scene-france-2026` | ✅ done |
 | Expatriés revenant en France | `expatries-retour-france-quelle-ville-2026` | ✅ done |
-| Bien-être / spas | `meilleures-villes-bien-etre-spas-france-2026` | ⬜ todo |
-| Entrepreneurs / startups | `meilleures-villes-entrepreneurs-startups-france-2026` | ⬜ todo |
+| Bien-être / spas | `meilleures-villes-bien-etre-spas-france-2026` | ✅ done |
+| Entrepreneurs / startups | `meilleures-villes-entrepreneurs-startups-france-2026` | ✅ done |
 
 ### Budget 2026
 Category `"budget"`.
@@ -274,8 +274,8 @@ Category `"budget"`.
 | Investissement < 100k | `investissement-locatif-moins-100000-euros-france-2026` | ✅ done |
 | Étudiant budget serré | `survivre-etudiant-province-moins-700-euros-2026` | ✅ done |
 | Colocation jeunes actifs | `meilleures-villes-colocation-jeunes-actifs-2026` | ✅ done |
-| Retraite 1 500€/mois | `vivre-retraite-1500-euros-mois-france-2026` | ⬜ todo |
-| Salaire SMIC, quelle ville ? | `vivre-smic-quelle-ville-france-2026` | ⬜ todo |
+| Retraite 1 500€/mois | `vivre-retraite-1500-euros-mois-france-2026` | ✅ done |
+| Salaire SMIC, quelle ville ? | `vivre-smic-quelle-ville-france-2026` | ✅ done |
 
 ### Famille 2026
 Category `"famille"`.
@@ -284,8 +284,8 @@ Category `"famille"`.
 |-------|------|--------|
 | Scolarisation alternative | `villes-france-ecoles-alternatives-montessori-2026` | ✅ done |
 | Familles expatriées retour | `familles-expatriees-retour-france-quelle-ville-2026` | ✅ done |
-| Familles monoparentales | `meilleures-villes-familles-monoparentales-france-2026` | ⬜ todo |
-| Handicap / accessibilité | `meilleures-villes-accessibilite-handicap-france-2026` | ⬜ todo |
+| Familles monoparentales | `meilleures-villes-familles-monoparentales-france-2026` | ✅ done |
+| Handicap / accessibilité | `meilleures-villes-accessibilite-handicap-france-2026` | ✅ done |
 
 ---
 
@@ -299,7 +299,7 @@ Category `"famille"`.
 - [x] Tab icon: green MapPin matching `--accent` (#16A34A), manifest + theme-color aligned
 - [x] Canonicals: `alternates.canonical` on all 8 dynamic route families
 - [x] `setState-in-effect` lint: lazy initialisers in FavoriteButton, FavoriteCount, FavoritesGrid, CommentSection; useMemo in HeroSection search
-- [x] Guides: +13 new guides (195 total)
+- [x] Guides: +27 new guides (224 total)
 
 ### Done ✅ (continued)
 - [x] Prisma dep removal — `@prisma/client` + `prisma` removed from package.json, `prisma/` folder deleted
@@ -309,6 +309,6 @@ Category `"famille"`.
 
 ### Next priorities
 - [ ] **`NEXT_PUBLIC_BASE_URL`** set on Vercel to the production domain
-- [ ] **New guides** (see tables above — 11 ⬜ todo entries)
+- [ ] **New guides** — all current series complete; next batch needed to reach 250+
 - [ ] **`app/cgu` + `app/confidentialite`** date: bump "Dernière mise à jour" after legal review
 - [ ] **Sell-through log**: POST `{date, sales}` → lightweight regression to compare forecast vs actuals
