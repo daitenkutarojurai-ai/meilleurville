@@ -284,13 +284,13 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                     { label: "🎓 Étudiant", val: niche.studentLife, hint: "Universités, vie nocturne, loyers" },
                   ].map((n) => {
                     const color =
-                      n.val >= 7.5 ? "from-yellow-400 to-amber-300"
+                      n.val >= 7.5 ? "from-purple-500 to-violet-400"
                       : n.val >= 7.0 ? "from-green-500 to-lime-400"
                       : n.val >= 5.5 ? "from-lime-400 to-amber-300"
                       : n.val >= 4 ? "from-amber-400 to-orange-400"
                       : "from-orange-400 to-rose-400";
                     const txt =
-                      n.val >= 7.5 ? "text-yellow-500"
+                      n.val >= 7.5 ? "text-purple-500"
                       : n.val >= 7.0 ? "text-green-600"
                       : n.val >= 5.5 ? "text-lime-700"
                       : n.val >= 4 ? "text-amber-600"

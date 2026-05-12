@@ -37,7 +37,7 @@ function project(lng: number, lat: number): [number, number] {
 }
 
 function scoreColor(score: number): string {
-  if (score >= 7.5) return "#EAB308"; // gold — légendaire
+  if (score >= 7.5) return "#A855F7"; // violet — légendaire
   if (score >= 7.0) return "#16A34A"; // green — excellent
   if (score >= 6.0) return "#84CC16"; // lime — bon
   if (score >= 5.0) return "#F59E0B"; // amber — moyen
@@ -523,7 +523,7 @@ export function FranceHeatmap() {
                 { c: "#F59E0B", l: "5.0–6.0" },
                 { c: "#84CC16", l: "6.0–7.0" },
                 { c: "#16A34A", l: "7.0–7.5" },
-                { c: "#EAB308", l: "≥ 7.5 ✦" },
+                { c: "#A855F7", l: "≥ 7.5 ✦" },
               ].map((s) => (
                 <span key={s.l} className="flex items-center gap-1.5">
                   <span className="h-2.5 w-2.5 rounded-full" style={{ background: s.c, boxShadow: `0 0 10px ${s.c}` }} />

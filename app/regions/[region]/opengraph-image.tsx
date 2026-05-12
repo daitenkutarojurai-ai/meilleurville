@@ -21,7 +21,7 @@ function slugToRegion(slug: string): string | undefined {
 }
 
 function scoreColor(score: number): string {
-  if (score >= 7.5) return "#EAB308";
+  if (score >= 7.5) return "#A855F7";
   if (score >= 7.0) return "#16A34A";
   if (score >= 6.0) return "#84CC16";
   if (score >= 5.0) return "#F59E0B";
