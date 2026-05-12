@@ -8,7 +8,7 @@ import { CITIES_SEED } from "@/data/cities-seed";
 export const metadata: Metadata = {
   title: "Explorer toutes les villes françaises — Avis & Classements",
   description:
-    "Découvrez les meilleures villes françaises : avis d'habitants, scores de qualité de vie, données locales. 340 communes analysées et comparées.",
+    "Découvrez les meilleures villes françaises : avis d'habitants, scores de qualité de vie, données locales. 352 communes analysées et comparées.",
 };
 
 export default function VillesPage() {

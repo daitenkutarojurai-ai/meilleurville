@@ -8,18 +8,18 @@ import { ScrollReveal } from "@/components/effects/ScrollReveal";
 import Link from "next/link";
 import {
   Laptop, Home, TreePine, GraduationCap, Palmtree, ArrowRight, Wallet,
-  Sun, Shield, Music, Bike, Building2, Heart, Leaf, CloudSun,
+  Sun, Shield, Music, Bike, Building2, Heart, Leaf, CloudSun, KeyRound,
 } from "lucide-react";
 import type { City } from "@/lib/types";
 
 export const metadata: Metadata = {
-  title: "Classements villes françaises 2025 — Télétravail, Famille, Budget, Culture",
+  title: "Classements villes françaises 2026 — Télétravail, Famille, Budget, Culture",
   description:
-    "Classements des meilleures villes françaises par style de vie : télétravail, famille, retraite, étudiant, nature, budget, soleil, sécurité, culture, mobilité, investissement. Données 2025.",
+    "Classements des meilleures villes françaises par style de vie : télétravail, famille, retraite, étudiant, nature, budget, soleil, sécurité, culture, mobilité, investissement, logement abordable. Données 2026.",
   openGraph: {
-    title: "Classements des meilleures villes françaises 2025",
+    title: "Classements des meilleures villes françaises 2026",
     description:
-      "11 classements thématiques : télétravail, famille, budget, soleil, sécurité, culture, investissement et plus.",
+      "15 classements thématiques : télétravail, famille, budget, soleil, sécurité, culture, investissement, logement et plus.",
     type: "website",
   },
   twitter: { card: "summary_large_image" },
@@ -59,6 +59,7 @@ const CATEGORIES = [
   { slug: "sante", label: "Santé & Soins", emoji: "❤️", icon: Heart, gradient: "from-pink-400 to-rose-500", color: "#EC4899", desc: "Densité médicale, hôpitaux, qualité de l'air, bien-être", scoreKey: "life" },
   { slug: "ecologie", label: "Écologie & Air", emoji: "🌿", icon: Leaf, gradient: "from-lime-400 to-green-500", color: "#84CC16", desc: "Qualité de l'air, mobilité douce, espaces verts, bas-carbone", scoreKey: "nature" },
   { slug: "climat", label: "Climat de comfort", emoji: "🌤️", icon: CloudSun, gradient: "from-amber-400 to-yellow-500", color: "#F59E0B", desc: "Données réelles : ensoleillement, douceur d'été, clémence d'hiver", scoreKey: "nature" },
+  { slug: "logement", label: "Logement abordable", emoji: "🔑", icon: KeyRound, gradient: "from-cyan-400 to-sky-500", color: "#06B6D4", desc: "Données DVF + Observatoires loyers : loyer T2, prix au m², coût de vie", scoreKey: "cost" },
 ] as const;
 
 export default function ClassementsPage() {
@@ -73,7 +74,7 @@ export default function ClassementsPage() {
       <section className="relative pt-20 pb-12">
         <div className="mx-auto max-w-5xl px-4 sm:px-6 text-center">
           <p className="text-xs uppercase tracking-widest text-[var(--accent)] font-semibold mb-2">
-            🏆 Édition 2025
+            🏆 Édition 2026
           </p>
           <h1 className="text-4xl sm:text-6xl font-bold text-[var(--text-primary)] mb-4 tracking-tight leading-[1.05]">
             Les <span className="font-display gradient-text-anim italic">classements</span><br className="hidden sm:block" />

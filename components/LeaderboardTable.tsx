@@ -53,6 +53,7 @@ export function LeaderboardTable() {
         <input
           type="text"
           placeholder="Rechercher une ville..."
+          aria-label="Rechercher une ville dans le classement"
           value={search}
           onChange={(e) => setSearch(e.target.value)}
           className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] px-4 py-2 text-sm text-[var(--text-primary)] placeholder:text-[var(--text-tertiary)] focus:border-[var(--accent)]/50 focus:outline-none transition-colors"

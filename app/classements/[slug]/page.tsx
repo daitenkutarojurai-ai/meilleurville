@@ -58,6 +58,7 @@ export default async function RankingPage({ params }: Props) {
     sante: ["lifestyle", "famille"],
     ecologie: ["lifestyle", "region"],
     climat: ["lifestyle", "region"],
+    logement: ["budget", "lifestyle"],
   };
   const allowedCategories = guideCategoryMap[slug] ?? ["lifestyle"];
   const relatedGuides = GUIDES.filter((g) => allowedCategories.includes(g.category)).slice(0, 3);
@@ -109,7 +110,7 @@ export default async function RankingPage({ params }: Props) {
             <span className="text-2xl">{meta.emoji}</span>
           </div>
           <p className="text-xs uppercase tracking-widest text-[var(--accent)] font-semibold mb-2">
-            🏆 Classement 2025 · {ranked.length} villes
+            🏆 Classement 2026 · {ranked.length} villes
           </p>
           <h1 className="mb-4 text-3xl sm:text-5xl font-bold text-[var(--text-primary)] tracking-tight leading-[1.05]">
             <span className="font-display gradient-text-anim italic">{meta.headline}</span>

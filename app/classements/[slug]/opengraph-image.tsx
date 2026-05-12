@@ -83,7 +83,7 @@ export default async function Image({ params }: Props) {
               fontWeight: 600,
             }}
           >
-            Classement 2025
+            Classement 2026
           </div>
         </div>
 

@@ -68,12 +68,12 @@ export function RankingPreview() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <div className="mb-10 flex items-end justify-between">
           <div>
-            <Badge variant="accent" className="mb-3">Classements 2025</Badge>
+            <Badge variant="accent" className="mb-3">Classements 2026</Badge>
             <h2 className="text-3xl font-bold text-[var(--text-primary)]">
               Classements par style de vie
             </h2>
             <p className="mt-2 text-[var(--text-secondary)]">
-              Algorithme composite · données 2025
+              Algorithme composite · données 2026
             </p>
           </div>
           <Link

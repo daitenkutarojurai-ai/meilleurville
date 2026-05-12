@@ -159,7 +159,7 @@ function buildIntro(city: CitySeed): string {
   const popPart = city.population
     ? `${city.population.toLocaleString("fr-FR")} habitants`
     : "ville française";
-  return `${city.name} (${city.department}, ${city.region}) ${tier}. Avec ses ${popPart}, on la décrit souvent comme ${tagsPart}. Score global ${g.toFixed(1)}/10, calibré sur 340 villes.`;
+  return `${city.name} (${city.department}, ${city.region}) ${tier}. Avec ses ${popPart}, on la décrit souvent comme ${tagsPart}. Score global ${g.toFixed(1)}/10, calibré sur 352 villes.`;
 }
 
 const NARRATIVE_CACHE = new Map<string, CityNarrative>();

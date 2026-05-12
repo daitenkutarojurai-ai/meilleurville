@@ -16,7 +16,11 @@ const instrumentSerif = Instrument_Serif({
   display: "swap",
 });
 
+const SITE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://meilleurville.fr";
+
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
+  alternates: { canonical: "/" },
   title: {
     default: "MeilleurVille — Trouvez la ville qui vous ressemble",
     template: "%s | MeilleurVille",

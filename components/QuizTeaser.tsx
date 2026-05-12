@@ -52,7 +52,7 @@ export function QuizTeaser() {
                   On va la dénicher.
                 </h2>
                 <p className="mb-8 text-[var(--text-secondary)] leading-relaxed text-lg">
-                  7 questions, 3 minutes. On compare vos envies à 340 villes françaises et
+                  7 questions, 3 minutes. On compare vos envies à 352 villes françaises et
                   on vous dit pourquoi chacune pourrait être votre prochain chez-vous.
                 </p>
 

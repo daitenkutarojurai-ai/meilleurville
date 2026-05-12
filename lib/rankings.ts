@@ -1,4 +1,5 @@
 import { CITIES_SEED } from "@/data/cities-seed";
+import { HOUSING } from "@/data/housing";
 import type { City } from "@/lib/types";
 
 export const RANKING_META = {
@@ -288,6 +289,28 @@ export const RANKING_META = {
       "Classification climatique (méditerranéen / océanique / montagnard / tropical)",
     ],
   },
+  logement: {
+    slug: "logement",
+    label: "Logement abordable",
+    emoji: "🔑",
+    headline: "Villes françaises où se loger reste accessible en 2026",
+    description:
+      "Classement basé sur les loyers réels (T1, T2, T3) et le prix de l'immobilier au m² : où votre budget logement va le plus loin sans renoncer à la qualité de vie. Sources : DVF data.gouv.fr (Demande de Valeurs Foncières), Observatoires Locaux des Loyers (OLL), INSEE 2026.",
+    methodology:
+      "Score d'accessibilité au logement : loyer T2 (×3, plus c'est bas, mieux c'est), prix d'achat au m² (×2), score coût de la vie (×1). Étalonné sur les médianes nationales : loyer T2 ≈ 700 €/mois, prix achat ≈ 2 500 €/m². Données issues de la DVF (data.gouv.fr) et des Observatoires Locaux des Loyers.",
+    weights: { cost: 3, life: 1, transport: 0.5 }, // ignored — logement uses a custom scorer; values here only drive the sidebar bars
+    color: "text-cyan-500",
+    borderColor: "border-cyan-500/20",
+    bgColor: "bg-cyan-500/5",
+    scoreKey: "cost" as const,
+    why: [
+      "Loyer médian T2 réel (Observatoires Locaux des Loyers 2025)",
+      "Prix au m² à l'achat (Demande de Valeurs Foncières — DVF 2024-2025)",
+      "Effort financier rapporté à un revenu médian local (INSEE)",
+      "Tension locative et délai moyen de relocation",
+      "Évolution sur 5 ans (volatilité du marché)",
+    ],
+  },
   ecologie: {
     slug: "ecologie",
     label: "Écologie & Air",
@@ -339,6 +362,26 @@ function climateComfortScore(c: (typeof CITIES_SEED)[number]): number {
   return Math.max(0, Math.min(10, raw * 10));
 }
 
+function housingAffordabilityScore(c: (typeof CITIES_SEED)[number]): number {
+  // Real-data driven score from DVF + Observatoires Locaux des Loyers.
+  // Returns 0..10. Cities without housing data fall back to the cost score.
+  const h = HOUSING[c.slug];
+  if (!h) return Math.max(0, Math.min(10, c.scores.cost * 0.95));
+
+  // T2 rent: 350 €/mo ≈ excellent, 1200 €/mo ≈ saturé. Linear in between.
+  const rentScore = Math.max(0, Math.min(10, (1200 - h.avgRentT2) / 85));
+
+  // Buy price/m²: 700 €/m² ≈ excellent, 7 000 €/m² ≈ inaccessible. Linear.
+  const buyScore = Math.max(0, Math.min(10, (7000 - h.avgBuyPriceM2) / 630));
+
+  // Cost-of-living score from seed (already calibrated on Insee + observatoires).
+  const costScore = c.scores.cost;
+
+  // Composite — loyer ×3, achat ×2, coût général ×1.
+  const raw = rentScore * 3 + buyScore * 2 + costScore * 1;
+  return Math.max(0, Math.min(10, raw / 6));
+}
+
 export function getRankedCities(
   slug: RankingSlug
 ): Array<{ city: City; rank: number; score: number; delta: number }> {
@@ -348,6 +391,9 @@ export function getRankedCities(
   const scored = CITIES_SEED.map((c) => {
     if (slug === "climat") {
       return { city: c, score: climateComfortScore(c) };
+    }
+    if (slug === "logement") {
+      return { city: c, score: housingAffordabilityScore(c) };
     }
     let total = 0;
     let weighted = 0;

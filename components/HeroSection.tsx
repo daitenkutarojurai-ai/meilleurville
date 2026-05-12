@@ -204,6 +204,7 @@ export function HeroSection() {
                   onChange={(e) => setQuery(e.target.value)}
                   onFocus={() => suggestions.length > 0 && setOpen(true)}
                   placeholder="Quelle ville vous fait rêver ?"
+                  aria-label="Rechercher une ville"
                   className="flex-1 bg-transparent py-2 text-sm text-[var(--text-primary)] placeholder:text-[var(--text-tertiary)] outline-none"
                   autoComplete="off"
                 />
@@ -284,7 +285,7 @@ export function HeroSection() {
           <div className="mt-12 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-xs text-[var(--text-tertiary)]">
             <span className="inline-flex items-center gap-1.5">
               <Star className="h-3.5 w-3.5 fill-[var(--accent-warm)] text-[var(--accent-warm)]" />
-              <span>Données ouvertes · 2025</span>
+              <span>Données ouvertes · 2026</span>
             </span>
             <span className="hidden sm:inline">·</span>
             <span>Sources : Insee, Min. Intérieur, observatoires loyers</span>

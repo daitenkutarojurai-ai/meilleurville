@@ -68,6 +68,7 @@ export function NewsletterSection() {
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder="votre@email.fr"
+                  aria-label="Adresse email pour la newsletter"
                   required
                   className="flex-1 rounded-xl border border-white/60 bg-white/80 backdrop-blur px-4 py-3 text-sm text-[var(--text-primary)] placeholder:text-[var(--text-tertiary)] outline-none focus:border-[var(--accent)]/60 focus:bg-white transition-all shadow-sm"
                 />

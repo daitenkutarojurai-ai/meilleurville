@@ -637,7 +637,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!a || !b) return {};
 
   return {
-    title: `${a.name} vs ${b.name} — Comparaison qualité de vie 2025`,
+    title: `${a.name} vs ${b.name} — Comparaison qualité de vie 2026`,
     description: `Comparaison complète entre ${a.name} (${a.scores.global}/10) et ${b.name} (${b.scores.global}/10) : coût de vie, transport, nature, sécurité, écoles. Laquelle choisir ?`,
     openGraph: {
       title: `${a.name} vs ${b.name} — Quelle ville choisir ?`,
@@ -772,7 +772,7 @@ export default async function PairPage({ params }: Props) {
       {/* Header */}
       <section className="bg-[var(--bg-surface)] border-b border-[var(--border)] py-12">
         <div className="mx-auto max-w-5xl px-4 sm:px-6">
-          <Badge variant="accent" className="mb-3">Comparaison 2025</Badge>
+          <Badge variant="accent" className="mb-3">Comparaison 2026</Badge>
           <h1 className="text-3xl sm:text-4xl font-bold text-[var(--text-primary)] mb-2">
             {seedA.name}{" "}
             <span className="text-[var(--text-secondary)]">vs</span>{" "}
