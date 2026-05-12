@@ -122,7 +122,17 @@ export function SearchPalette() {
       const isSlash = e.key === "/" && !inField && !open;
       if (isCmdK || isSlash) {
         e.preventDefault();
-        setOpen((v) => !v);
+        // Reset state when opening so the previous query doesn't linger;
+        // doing it here (in a handler) instead of an effect avoids the
+        // react-hooks/set-state-in-effect cascade warning.
+        setOpen((v) => {
+          const next = !v;
+          if (next) {
+            setQuery("");
+            setHighlight(0);
+          }
+          return next;
+        });
       } else if (e.key === "Escape" && open) {
         setOpen(false);
       }
@@ -132,14 +142,11 @@ export function SearchPalette() {
   }, [open]);
 
   useEffect(() => {
-    if (open) {
-      inputRef.current?.focus();
-      setQuery("");
-      setHighlight(0);
-    } else {
+    if (open) inputRef.current?.focus();
+    document.body.style.overflow = open ? "hidden" : "";
+    return () => {
       document.body.style.overflow = "";
-    }
-    if (open) document.body.style.overflow = "hidden";
+    };
   }, [open]);
 
   const results = useMemo<Entry[]>(() => {
@@ -165,9 +172,9 @@ export function SearchPalette() {
       .map((x) => x.e);
   }, [query]);
 
-  useEffect(() => {
-    if (highlight >= results.length) setHighlight(0);
-  }, [results, highlight]);
+  // Clamp highlight inline; setting state in an effect for derived data
+  // would trigger react-hooks/set-state-in-effect.
+  const safeHighlight = highlight >= results.length ? 0 : highlight;
 
   function commit(entry: Entry) {
     setOpen(false);
@@ -200,18 +207,18 @@ export function SearchPalette() {
             onKeyDown={(e) => {
               if (e.key === "ArrowDown") {
                 e.preventDefault();
-                setHighlight((i) => Math.min(i + 1, Math.max(0, results.length - 1)));
+                setHighlight(Math.min(safeHighlight + 1, Math.max(0, results.length - 1)));
               } else if (e.key === "ArrowUp") {
                 e.preventDefault();
-                setHighlight((i) => Math.max(i - 1, 0));
+                setHighlight(Math.max(safeHighlight - 1, 0));
               } else if (e.key === "Enter") {
-                if (results[highlight]) commit(results[highlight]);
+                if (results[safeHighlight]) commit(results[safeHighlight]);
               }
             }}
             placeholder="Rechercher une ville, un guide, un classement…"
             aria-label="Recherche globale"
             aria-controls="palette-results"
-            aria-activedescendant={results[highlight] ? `palette-opt-${highlight}` : undefined}
+            aria-activedescendant={results[safeHighlight] ? `palette-opt-${safeHighlight}` : undefined}
             className="flex-1 bg-transparent text-sm outline-none placeholder:text-[var(--text-tertiary)] text-[var(--text-primary)]"
           />
           <kbd className="hidden sm:inline-flex items-center gap-1 rounded border border-[var(--border)] bg-[var(--bg-elevated)] px-1.5 py-0.5 text-[10px] font-mono text-[var(--text-tertiary)]">
@@ -235,7 +242,7 @@ export function SearchPalette() {
           )}
           {results.map((entry, i) => {
             const href = entryHref(entry);
-            const active = i === highlight;
+            const active = i === safeHighlight;
             return (
               <li
                 key={`${entry.kind}-${entry.slug}`}

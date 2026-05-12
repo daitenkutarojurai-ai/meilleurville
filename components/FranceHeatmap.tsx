@@ -705,8 +705,15 @@ export function FranceHeatmap() {
               </p>
               <p className="relative text-xs text-[var(--text-secondary)] leading-relaxed">
                 Les gros points = grandes villes. Les petits = pépites de campagne.
-                Or = exceptionnel · vert = excellent · jaune = moyen · rouge = en dessous.
               </p>
+              <ul className="relative mt-2 grid grid-cols-2 gap-x-3 gap-y-1 text-[11px] text-[var(--text-secondary)]">
+                <li className="flex items-center gap-1.5"><span className="h-2 w-2 rounded-full" style={{ background: "#A855F7" }} aria-hidden /> Violet · exceptionnel</li>
+                <li className="flex items-center gap-1.5"><span className="h-2 w-2 rounded-full" style={{ background: "#16A34A" }} aria-hidden /> Vert · excellent</li>
+                <li className="flex items-center gap-1.5"><span className="h-2 w-2 rounded-full" style={{ background: "#84CC16" }} aria-hidden /> Lime · bon</li>
+                <li className="flex items-center gap-1.5"><span className="h-2 w-2 rounded-full" style={{ background: "#F59E0B" }} aria-hidden /> Ambre · moyen</li>
+                <li className="flex items-center gap-1.5"><span className="h-2 w-2 rounded-full" style={{ background: "#F97316" }} aria-hidden /> Orange · en dessous</li>
+                <li className="flex items-center gap-1.5"><span className="h-2 w-2 rounded-full" style={{ background: "#EF4444" }} aria-hidden /> Rouge · mauvais</li>
+              </ul>
             </div>
 
             <Link
