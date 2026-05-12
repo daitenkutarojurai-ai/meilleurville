@@ -77,7 +77,7 @@ const AXIS_COPY: Record<ScoreKey, AxisCopy> = {
 function pickAxisLine(score: number, key: ScoreKey, mode: "pro" | "con"): string | null {
   const c = AXIS_COPY[key];
   if (mode === "pro") {
-    if (score >= 8.0) return c.proStrong;
+    if (score >= 7.5) return c.proStrong;
     if (score >= 7.0) return c.proGood;
     return null;
   }

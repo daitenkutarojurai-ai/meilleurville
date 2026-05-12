@@ -22,8 +22,11 @@ const CRITERIA = [
 type SortKey = "global" | keyof (typeof CITIES_SEED)[number]["scores"];
 
 function scoreClass(s: number) {
-  if (s >= 8) return "text-emerald-600";
-  if (s >= 6) return "text-amber-400";
+  if (s >= 7.5) return "text-yellow-400";
+  if (s >= 7.0) return "text-green-500";
+  if (s >= 6.0) return "text-lime-500";
+  if (s >= 5.0) return "text-amber-400";
+  if (s >= 4.0) return "text-orange-500";
   return "text-red-500";
 }
 
