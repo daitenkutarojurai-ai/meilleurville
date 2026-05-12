@@ -10089,6 +10089,63 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["accessibilité handicap", "MDPH", "PMR", "fauteuil roulant", "Grenoble", "Strasbourg", "transport adapté", "ESAT", "inclusion handicap"],
   },
+  {
+    slug: "quitter-reims-guide-2026",
+    title: "Quitter Reims en 2026 : quand la cathédrale ne compense plus la grisaille",
+    metaTitle: "Quitter Reims 2026 — Châlons, Épernay, Troyes, Paris : le guide honnête",
+    metaDesc:
+      "Reims attire pour sa cathédrale et son TGV à 45 minutes de Paris, mais son climat, son tissu d'emploi et certains quartiers font partir. Où partent les Rémois — et ce qu'ils gagnent vraiment.",
+    category: "comparaison",
+    emoji: "🍾",
+    readMinutes: 8,
+    publishedAt: "2026-05-12",
+    updatedAt: "2026-05-12",
+    intro:
+      "Reims fait partie de ces villes que tout le monde aime visiter et que beaucoup hésitent à quitter — la cathédrale gothique classée UNESCO en 1991, les maisons de champagne, le TGV Paris-Est en 45 minutes. Et pourtant, en 2024-2025, l'INSEE confirme une croissance démographique très faible (+0,1 %/an dans la Marne) et un solde migratoire négatif chez les 25-39 ans. Trois raisons reviennent dans les témoignages : un climat continental rude (1 664 h d'ensoleillement par an selon Météo-France, contre 2 200 h pour la moyenne nationale), un tissu d'emploi tertiaire saturé, et des quartiers prioritaires (Croix-Rouge, Wilson, Orgeval) dont la situation s'est dégradée. Ce guide regarde honnêtement les alternatives.",
+    sections: [
+      {
+        heading: "Ce qui fait partir : le diagnostic à froid",
+        body: "Trois griefs récurrents chez les Rémois qui partent. (1) La grisaille : 1 664 heures de soleil par an placent Reims dans le tiers inférieur du classement Météo-France des préfectures — proche de Lille (1 643 h) et loin de Toulouse (2 100 h) ou Montpellier (2 700 h). Avec une température moyenne de janvier autour de 3,2 °C et des hivers prolongés, le climat continental marqué pèse à la longue. (2) Le marché de l'emploi : les maisons de champagne, le CHU et l'Université Reims Champagne-Ardenne (URCA, 30 000 étudiants) tiennent l'économie locale, mais la création nette d'emplois est faible depuis 2015 selon l'INSEE — les cadres ambitieux montent vite à Paris en TGV. (3) La sécurité dans certains quartiers : Reims figurait en 2024 dans les 30 communes les plus exposées aux atteintes aux biens selon le Service statistique ministériel de la sécurité intérieure (SSMSI), avec des écarts très marqués entre le centre historique et les QPV de l'ouest (Croix-Rouge, Orgeval).",
+      },
+      {
+        heading: "Châlons-en-Champagne : la solution administrative et abordable",
+        body: "Préfecture de la Marne (45 000 habitants, à 45 minutes de Reims par l'A26), Châlons-en-Champagne est l'alternative la plus directe pour ceux qui veulent rester dans le département. Prix d'achat : environ 1 700 €/m² selon les données DVF 2024-2025 sur data.gouv.fr — soit près de 25 % en dessous de Reims (≈ 2 300 €/m²). Loyer T2 médian autour de 580 €/mois d'après les Observatoires Locaux des Loyers, contre 680 € à Reims. La ville reste petite, calme, structurée autour de ses canaux et de la basilique Notre-Dame-en-Vaux (classée UNESCO également), avec un bassin d'emploi tertiaire et administratif limité mais stable (préfecture, conseil départemental, hôpital). Pour un fonctionnaire mutable ou un télétravailleur qui veut diviser son loyer par 1,2 sans changer de région, c'est l'option la plus simple.",
+      },
+      {
+        heading: "Épernay : champagne, prestige et fragilité du marché",
+        body: "Épernay (23 000 habitants, à 30 minutes de Reims) concentre les sièges des maisons de champagne premium (Moët, Pol Roger, Perrier-Jouët) sur l'avenue de Champagne, candidate au patrimoine UNESCO depuis 2015 (et inscrite en 2015 avec les coteaux, maisons et caves de Champagne). Le marché immobilier y est paradoxal : prix moyen ≈ 2 400 €/m² selon DVF, mais des biens d'exception sur l'avenue de Champagne s'échangent au-delà de 5 000 €/m². L'emploi local dépend fortement de la viticulture et du tourisme œnologique — exposition forte aux cycles du marché du champagne. Pour un profil œnologie-restauration-hospitalité, Épernay est une vraie destination. Pour un cadre tertiaire généraliste, le bassin est trop étroit.",
+      },
+      {
+        heading: "Troyes : la médiévale qu'on sous-estime",
+        body: "Troyes (60 000 habitants, préfecture de l'Aube) est à 1h45 de Reims par l'A26 puis l'A5. Son centre médiéval à colombages est l'un des mieux préservés de France (cité de la bonneterie classée Ville et Pays d'art et d'histoire). Prix d'achat ≈ 1 600 €/m² selon DVF — l'un des centres anciens les plus accessibles du nord-est. Liaison Paris-Est en TER en 1h30. La ville héberge l'Université de Technologie de Troyes (UTT), un pôle d'ingénieurs reconnu, et le bassin d'emploi industriel-textile s'est diversifié vers la logistique (McArthurGlen) et le numérique. Pour un Rémois qui cherche un patrimoine équivalent à un prix nettement inférieur, Troyes mérite un détour sérieux.",
+      },
+      {
+        heading: "Metz et Nancy : monter d'un cran en Lorraine",
+        body: "Metz (115 000 habitants, à 2h30 de Reims) et Nancy (105 000 habitants, à 2h45) sont les deux capitales lorraines. Metz cumule un centre piéton très étendu, le Centre Pompidou-Metz, et un prix au m² ≈ 2 300 €/m² — équivalent Reims. Nancy offre la place Stanislas (UNESCO) et un pôle universitaire (Université de Lorraine, 60 000 étudiants) avec un prix ≈ 2 100 €/m². Les deux villes sont mieux desservies par les TGV vers Paris-Est (1h25 pour Metz, 1h30 pour Nancy) et offrent un tissu d'emploi industriel et tertiaire plus diversifié que Reims, héritage de la sidérurgie et de la santé. Pour un Rémois fatigué de la dépendance au binôme champagne-université, la Lorraine élargit clairement les options professionnelles.",
+      },
+      {
+        heading: "Paris : le pari du TGV maintenu",
+        body: "La proximité TGV (45 minutes Reims–Paris-Est, 7 allers-retours quotidiens) fait que certains Rémois envisagent l'inverse : déménager à Paris plutôt que de quitter la région. Avec un abonnement TGV maxi-jazz à environ 380 €/mois (tarifs SNCF 2026), le retour Paris reste une option pour ceux qui ne veulent pas vraiment partir. Mais à l'inverse, beaucoup font le saut Paris : salaires médians supérieurs de 25 à 30 % selon l'INSEE, marché de l'emploi sans équivalent régional. Les arrondissements abordables (19e, 20e) et la petite couronne nord (Saint-Denis, Aubervilliers) restent dans la zone des 5 000 à 6 500 €/m² — soit cher, mais à comparer à un coût-opportunité salaire. La décision dépend du métier plus que du prix au m² brut.",
+      },
+      {
+        heading: "Charleville-Mézières et les Ardennes : ralentir vraiment",
+        body: "Charleville-Mézières (45 000 habitants, à 1h15 de Reims par l'A34) est l'alternative la plus radicale en termes de coût et de rythme. Prix d'achat ≈ 1 100 €/m² selon DVF — parmi les moins chers des préfectures françaises. La place Ducale, calquée sur la place des Vosges parisienne, est un joyau urbanistique méconnu. Le bassin d'emploi est en revanche fragile (déprise industrielle dans les Ardennes depuis les années 1980, taux de chômage parmi les plus élevés du Grand Est selon Pôle Emploi). C'est une vraie option pour des retraités, des télétravailleurs autonomes ou des artisans qui cherchent un cadre patrimonial à un coût d'entrée minimal — pas pour un jeune cadre cherchant à progresser localement.",
+      },
+      {
+        heading: "Ce que Reims offre qu'on sous-estime avant de partir",
+        body: "Avant de boucler les cartons : Reims n'est pas qu'une cathédrale. Le tramway inauguré en 2011 (deux lignes, 11 km) reste l'un des plus jeunes réseaux de France et dessert correctement le centre, l'université, le CHU. L'offre culturelle (Opéra de Reims, Cartonnerie, scène nationale Le Manège) est dense pour une ville de 184 000 habitants. Le bassin gastronomique (étoilés Michelin Assiette Champenoise, Crayères, Foch) classe Reims parmi les villes culinaires de référence. Et le prix moyen de 2 300 €/m² reste très en dessous des grandes capitales régionales comparables (Strasbourg ≈ 3 400 €/m², Nantes ≈ 4 000 €/m²). Pour ceux qui peuvent éviter les quartiers ouest les plus tendus et accepter le climat, Reims offre un cadre dense et historique qu'on ne retrouve pas à Châlons ou Charleville.",
+      },
+    ],
+    relatedCities: ["reims", "chalons-en-champagne", "epernay", "troyes", "metz", "nancy", "charleville-mezieres", "laon"],
+    relatedGuides: [
+      "reims-vs-amiens-comparatif-2026",
+      "metz-vs-nancy-comparatif-2026",
+      "vivre-en-lorraine-metz-nancy-thionville-2026",
+      "teletravailler-depuis-grand-est-guide-2026",
+      "vivre-en-champagne-guide-2025",
+    ],
+    tags: ["Reims", "quitter Reims", "Châlons-en-Champagne", "Épernay", "Troyes", "Marne", "Grand Est", "champagne", "TGV Paris", "déménagement"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
