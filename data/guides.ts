@@ -8472,6 +8472,382 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["expatriés", "retour en France", "expat", "internationale", "école internationale", "fiscalité", "Paris", "Lyon", "Bordeaux", "Nice"],
   },
+  {
+    slug: "quitter-rouen-guide-2026",
+    title: "Quitter Rouen en 2026 : quand la Seine devient trop contraignante",
+    metaTitle: "Quitter Rouen 2026 — Caen, Le Havre, Évreux, Paris : le guide honnête",
+    metaDesc:
+      "Rouen attire mais ses embouteillages, sa topographie et ses prix en hausse poussent certains à partir. Qui quitte, où, et ce qu'on gagne ou perd vraiment.",
+    category: "comparaison",
+    emoji: "⚓",
+    readMinutes: 7,
+    publishedAt: "2026-05-12",
+    updatedAt: "2026-05-12",
+    intro:
+      "Rouen est la grande ville la plus proche de Paris hors Île-de-France, et c'est à la fois son principal atout et sa limite. Elle attire pour cette proximité — et fait partir ceux que la topographie, les embouteillages sur l'A13 et les prix en hausse du Vieux-Rouen finissent par épuiser. Ce guide regarde honnêtement les alternatives.",
+    sections: [
+      {
+        heading: "Ce qui fait partir",
+        body: "Trois points récurrents. (1) La topographie : Rouen est vallonnée, ce qui rend le vélo difficile et les déplacements à pied épuisants entre les coteaux. Pour des familles avec poussettes ou des personnes à mobilité réduite, c'est une vraie contrainte quotidienne. (2) L'A13 vers Paris : au-delà de la commodité du TER (1h20), beaucoup de Rouennais prennent la voiture — et l'autoroute Paris-Rouen reste un enfer aux heures de pointe, avec des bouchons chroniques à Mantes. (3) La pollution industrielle : la vallée de la Seine en aval concentre les sites pétrochimiques (Lubrizol, Total, Exxon) — l'accident de Lubrizol de 2019 a durablement marqué les consciences.",
+      },
+      {
+        heading: "Caen : l'alternative normande à la mer",
+        body: "Caen est l'alternative la plus cohérente pour les Rouennais. Plate (idéale pour le vélo), plus proche de la mer (20 km), CHU et universités actifs, prix ≈ 2 600 €/m² — légèrement sous Rouen (≈ 2 800 €/m²). TGV Paris en 2h05. La difficulté : il n'existe pas de liaison ferrée directe et rapide entre Rouen et Caen (2h de TER avec correspondance) — c'est une vraie migration, pas une délocalisation. Pour un Rouennais dont l'emploi est transférable, Caen offre plus d'espace, plus de mer et moins de pollution industrielle.",
+      },
+      {
+        heading: "Le Havre : le port et le béton Perret",
+        body: "Le Havre est à 1h de route depuis Rouen (A150). Son architecture Perret (UNESCO), sa façade maritime, son prix ≈ 2 200 €/m² et son identité portuaire forte en font une alternative crédible pour les profils qui apprécient un cadre urbain affirmé et une vraie présence de la mer. L'emploi local tourne autour du port, de la logistique, de l'industrie. Pour un couple dont un travaille à Rouen et l'autre au Havre, la position mi-chemin (Bolbec, Lillebonne) peut être une solution.",
+      },
+      {
+        heading: "Évreux et Bernay : rester en Normandie, sortir de la vallée",
+        body: "Évreux (50 000 habitants, préfecture de l'Eure) est à 1h de route de Rouen, dans une vallée de l'Iton plus aérée. Prix ≈ 1 900 €/m², TER Paris Saint-Lazare en 1h30. La ville est calme, administrative, avec un tissu commercial correct. Bernay (plus petit, 10 000 habitants) offre un marché couvert remarquable et une situation en Pays d'Ouche préservé, à 45 minutes de Rouen. Pour un Rouennais cherchant à ralentir, Évreux et les petites villes de l'Eure représentent un changement d'échelle doux.",
+      },
+      {
+        heading: "Paris : la décision d'amplitude",
+        body: "Certains Rouennais, devant la quasi-équivalence des prix Rouen-Paris-province, choisissent Paris directement : 1h20 de TER garanti, salaires 25-30 % supérieurs, marché de l'emploi sans équivalent régional. Le paradoxe : Paris est parfois une meilleure décision financière que les villes normandes intermédiaires si l'emploi le justifie. La marge de manœuvre se trouve dans les arrondissements périphériques (19e, 20e) ou la petite couronne côté nord (Saint-Denis, Aubervilliers) pour les budgets < 5 000 €/m².",
+      },
+      {
+        heading: "Ce que Rouen offre qu'on sous-estime",
+        body: "Avant de partir : le patrimoine architectural de Rouen (cathédrale immortalisée par Monet, vieux quartier à colombages) est exceptionnel pour une ville de 115 000 habitants. Le musée des Beaux-Arts est parmi les meilleurs de province. L'Armada (rassemblement de grands voiliers tous les 3-4 ans) est l'événement maritime le plus important de France. Et la Seine, malgré tout, reste un cadre de vie rare. Pour ceux qui peuvent accepter la topographie et les nuisances industrielles dans les quartiers bien choisis, Rouen mérite d'être réévaluée avant de partir.",
+      },
+    ],
+    relatedCities: ["rouen", "caen", "le-havre", "evreux", "dieppe", "fecamp"],
+    relatedGuides: [
+      "caen-vs-rouen-comparatif-2026",
+      "teletravailler-depuis-normandie-guide-2026",
+      "vivre-en-normandie-guide-2025",
+    ],
+    tags: ["Rouen", "quitter Rouen", "Caen", "Le Havre", "Normandie", "Seine", "topographie", "pollution", "déménagement"],
+  },
+  {
+    slug: "quitter-annecy-guide-2026",
+    title: "Quitter Annecy en 2026 : quand le lac ne justifie plus le prix",
+    metaTitle: "Quitter Annecy 2026 — Chambéry, Aix-les-Bains, Grenoble, Thonon : le guide honnête",
+    metaDesc:
+      "Annecy est la ville française la plus chère hors Paris pour son niveau de services. Qui peut encore y rester — et où partent ceux qui n'en ont plus les moyens.",
+    category: "comparaison",
+    emoji: "🏔️",
+    readMinutes: 8,
+    publishedAt: "2026-05-12",
+    updatedAt: "2026-05-12",
+    intro:
+      "Annecy est systématiquement classée parmi les meilleures villes de France pour la qualité de vie — et systématiquement parmi les plus chères à l'achat. Le m² y dépasse désormais 6 500 € en centre-ville et 5 000 € dans les communes proches du lac. Pour les Annéciens qui n'ont pas profité de la bulle immobilière (locataires, primo-accédants, jeunes actifs), la question n'est plus de savoir si la ville est belle — elle l'est. C'est de savoir si elle est encore accessible.",
+    sections: [
+      {
+        heading: "Le diagnostic : qui quitte Annecy et pourquoi",
+        body: "Deux profils dominants. (1) Les jeunes actifs et les familles en primo-accession : avec un salaire médian savoyard d'environ 2 300 € nets, l'achat d'un T3 à Annecy (≈ 420 000 € frais inclus) est mathématiquement impossible sans apport massif ou héritage. Ces profils partent vers Chambéry, Albertville ou la périphérie lointaine. (2) Les locataires longue durée dont le propriétaire a revendu ou augmenté le loyer : un T3 à Annecy se loue désormais 1 300–1 600 €/mois — soit plus de 50 % du salaire médian net d'un Savoyard.",
+      },
+      {
+        heading: "Chambéry : conserver la Savoie sans le prix du lac",
+        body: "Score MeilleurVille : 6.9/10. Chambéry est l'alternative la plus logique. À 45 minutes d'Annecy par l'A41, elle offre les Bauges et les Alpes directement, le lac du Bourget à 15 minutes, et Aix-les-Bains à 10 minutes. Prix ≈ 3 800 €/m² — 40 % de moins qu'Annecy. La ville est plus provinciale, moins cosmopolite, mais ses marchés, son vieux Chambéry et son accès montagne sont de vraie qualité. TGV Lyon en 55 minutes. Pour une famille qui part d'Annecy, Chambéry est souvent le premier choix raisonné.",
+      },
+      {
+        heading: "Aix-les-Bains : le lac à prix réduit",
+        body: "Aix-les-Bains est à 30 minutes d'Annecy et dispose du lac du Bourget (le plus grand lac naturel de France) à portée de main. Prix ≈ 4 000 €/m² — 35 % sous Annecy. Le thermalisme, le casino et la tradition touristique donnent à la ville un dynamisme particulier. Pour les amateurs de nautisme et de baignade en lac, le Bourget est moins encombré que le lac d'Annecy en juillet. Bémol : l'accès aux emplois annéciens sans voiture est limité.",
+      },
+      {
+        heading: "Thonon-les-Bains et Évian : la rive sud du Léman",
+        body: "Thonon-les-Bains (36 000 habitants, rive française du lac Léman) est souvent oubliée dans les comparatifs savoyards. Prix ≈ 3 500 €/m², lac immédiat, accès frontalier Genève/Suisse en 45 minutes. Évian (bien plus chère, ≈ 5 000 €/m²) est premium mais propose elle aussi l'accès franco-suisse. Pour les travailleurs frontaliers qui ne peuvent plus se loger en Haute-Savoie central, Thonon représente une bonne base : lac, montagne et salaire suisse.",
+      },
+      {
+        heading: "Grenoble : la version montagne moins chère",
+        body: "Grenoble est à 1h15 d'Annecy par l'A41. Elle offre un cadre alpin équivalent ou supérieur (trois massifs au lieu d'un), un tissu tech-recherche sans équivalent en Rhône-Alpes hors Lyon, et des prix ≈ 3 800 €/m² — 40 % sous Annecy. La pollution hivernale grenobloise (inversions thermiques) est un argument inverse que beaucoup d'Annéciens pesent dans leur décision. Pour un ingénieur ou chercheur, Grenoble est cependant le meilleur arbitrage montagne-emploi de la région.",
+      },
+      {
+        heading: "La périphérie annécienne : Cran-Gevrier, Seynod, Poisy",
+        body: "Avant de partir loin, beaucoup d'Annéciens explorent la périphérie immédiate. Cran-Gevrier (fusionné avec Annecy depuis 2017 mais quartier occidental plus abordable), Seynod (5 km du centre, ≈ 4 500 €/m²), Poisy (≈ 4 200 €/m², plateau des Bornes) — ces communes permettent de rester dans le Grand Annecy tout en réduisant le coût de 20 à 30 %. La qualité de vie est légèrement en retrait (moins de piéton, plus de voiture) mais l'accès au lac et à la montagne reste excellent.",
+      },
+    ],
+    relatedCities: ["annecy", "chambery", "aix-les-bains", "thonon-les-bains", "grenoble", "albertville"],
+    relatedGuides: [
+      "grenoble-vs-chambery-comparatif-2025",
+      "vivre-en-haute-savoie-hors-annecy-guide-2025",
+      "quitter-grenoble-guide-2026",
+    ],
+    tags: ["Annecy", "quitter Annecy", "Chambéry", "Aix-les-Bains", "Thonon", "Haute-Savoie", "lac", "immobilier", "déménagement"],
+  },
+  {
+    slug: "annecy-vs-chambery-comparatif-2026",
+    title: "Annecy vs Chambéry en 2026 : deux capitales savoyardes, deux rapports au prix",
+    metaTitle: "Annecy vs Chambéry 2026 — Lac, montagne, immobilier : comparatif complet",
+    metaDesc:
+      "Annecy ou Chambéry pour s'installer en Savoie ? L'une est la plus belle et la plus chère ; l'autre offre presque autant pour 40 % de moins. Notre comparatif honnête.",
+    category: "comparaison",
+    emoji: "🏔️",
+    readMinutes: 8,
+    publishedAt: "2026-05-12",
+    updatedAt: "2026-05-12",
+    intro:
+      "Annecy et Chambéry sont séparées de 50 km, reliées en 45 minutes par l'A41, et représentent deux réponses très différentes à la même question : peut-on vivre dans les Alpes françaises sans renoncer à une vie urbaine de qualité ? La réponse est oui dans les deux cas — mais à des prix radicalement différents, et pour des profils qui ne se ressemblent pas.",
+    sections: [
+      {
+        heading: "Immobilier : l'écart qui change tout",
+        body: "Annecy centre et bord de lac : 6 500–9 000 €/m². Annecy quartiers résidentiels (Cran-Gevrier, Seynod) : 4 500–5 500 €/m². Chambéry centre (Curial, Vieux-Chambéry) : 3 600–4 200 €/m². L'écart moyen est de 40 à 50 %. En location : T3 à Annecy ≈ 1 300–1 600 €/mois ; T3 à Chambéry ≈ 900–1 100 €/mois. Pour un ménage gagnant 4 000 € nets, la différence représente 400–500 €/mois — soit, sur 10 ans, 48 000 à 60 000 €. À l'achat, l'écart pour un T3 de 70 m² dépasse 150 000 €.",
+      },
+      {
+        heading: "Le lac d'Annecy vs le lac du Bourget",
+        body: "Annecy dispose du lac d'Annecy (27 km², eau la plus pure d'Europe selon les analyses régulières), accessible à pied depuis le Vieux-Annecy en 5 minutes. C'est un argument de qualité de vie quotidien incomparable. Chambéry n'a pas de lac en son cœur — mais le lac du Bourget (44 km², le plus grand lac naturel de France) est à 15 minutes en voiture (Aix-les-Bains). Moins immédiat, mais souvent moins bondé en été. Pour ceux qui veulent une plage de lac praticable un mercredi soir en semaine, Annecy l'emporte. Pour ceux qui n'en ont pas besoin au quotidien, Chambéry compense.",
+      },
+      {
+        heading: "Montagne et ski : avantage équilibré",
+        body: "Annecy donne accès aux Aravis (La Clusaz, Le Grand-Bornand, Megève) en 30-45 minutes. Chambéry donne accès aux Bauges (Saint-François-Longchamp) en 30 minutes, aux Belledonnes et à l'Alpe d'Huez en 1h, et à Courchevel/Les 3 Vallées en 1h15. Sur la quantité de domaines skiables accessibles en moins de 1h30, Chambéry est objectivement mieux placée que la plupart des villes alpines. Les amateurs de ski alpin sérieux ont souvent une préférence pour Chambéry.",
+      },
+      {
+        heading: "Emploi et tissu économique",
+        body: "Annecy est une ville industrielle de précision (décolletage, industrie mécanique, Salomon, Petzl, Dynastar) dont le tissu PME est remarquablement dense pour sa taille. Elle attire aussi des profils tech et un tissu de startups en développement. Chambéry a un tissu industriel plus discret (Léon Grosse, chimie, plasturgie), un pôle de recherche autour de l'Université Savoie Mont Blanc et un secteur touristique actif. Pour les profils industrie de précision, Annecy est supérieure. Pour les profils enseignement-recherche et tourisme-montagne, les deux sont comparables.",
+      },
+      {
+        heading: "Qualité de l'air et environnement urbain",
+        body: "Les deux villes sont en cuvette alpine et connaissent des épisodes d'inversion thermique en hiver — mais à des degrés différents. Chambéry, plus ouverte géographiquement vers la plaine de l'Isère, s'en tire en général un peu mieux qu'Annecy sur les pics de particules. En revanche, Annecy a investi massivement dans la mobilité douce (pistes cyclables, transports propres) ce qui réduit la pollution de proximité en été. Les deux villes se situent en-dessous des grandes métropoles françaises sur ce critère.",
+      },
+      {
+        heading: "Le verdict selon votre profil",
+        body: "Choisissez Annecy si : vous avez un budget achat > 500 000 € pour un T4 ; vous valorisez le lac à portée de pied et l'image premium ; vous êtes dans l'industrie de précision ou le tourisme de luxe ; vous acceptez de payer le prix de la réputation. Choisissez Chambéry si : votre budget d'achat pour un T3 est < 350 000 € ; vous êtes skieur sérieux et valorisez l'accès aux grands domaines ; vous êtes dans l'enseignement-recherche ou les services ; vous préférez une ville moins touristique et plus authentique au quotidien.",
+      },
+    ],
+    relatedCities: ["annecy", "chambery", "aix-les-bains", "albertville", "thonon-les-bains", "grenoble"],
+    relatedGuides: [
+      "quitter-annecy-guide-2026",
+      "grenoble-vs-chambery-comparatif-2025",
+      "vivre-en-savoie-haute-savoie-guide-2025",
+    ],
+    tags: ["Annecy", "Chambéry", "comparatif", "Savoie", "Haute-Savoie", "lac", "montagne", "ski", "immobilier", "qualité de vie"],
+  },
+  {
+    slug: "reims-vs-amiens-comparatif-2026",
+    title: "Reims vs Amiens en 2026 : deux capitales du Grand Nord à moins de 2h de Paris",
+    metaTitle: "Reims vs Amiens 2026 — TGV, patrimoine, prix : comparatif complet",
+    metaDesc:
+      "Reims ou Amiens pour s'installer à moins de 2h de Paris ? Deux villes à cathédrale classée UNESCO, deux profils économiques, deux dynamiques très différentes.",
+    category: "comparaison",
+    emoji: "🍾",
+    readMinutes: 7,
+    publishedAt: "2026-05-12",
+    updatedAt: "2026-05-12",
+    intro:
+      "Reims et Amiens partagent deux atouts remarquables : une cathédrale gothique classée UNESCO et une connexion TGV à moins de 2h de Paris. C'est à peu près tout ce qu'elles ont en commun. Leur économie, leur dynamisme, leur tissu social et leur rapport à leur propre attractivité sont profondément différents. Ce comparatif aide à choisir entre les deux.",
+    sections: [
+      {
+        heading: "Connexion Paris : avantage Amiens légèrement",
+        body: "Amiens est à 1h10 de Paris Gare du Nord en TGV — l'une des connexions les plus courtes de France en dehors de la grande couronne. Reims est à 45 minutes de Paris-Est, mais la Gare de l'Est est moins centrale que la Gare du Nord pour beaucoup de Parisiens. En pratique, les deux connexions sont excellentes pour un télétravailleur qui monte une ou deux fois par semaine. La différence se joue sur la gare parisienne de destination plutôt que sur la durée du trajet.",
+      },
+      {
+        heading: "Immobilier : Reims légèrement plus chère",
+        body: "Reims centre (Clairmarais, Boulingrin, quartier des Sacres) : ≈ 2 700 €/m². Amiens centre (Saint-Leu, Hortillonnages, Quartier cathédrale) : ≈ 2 100 €/m². L'écart de 25 % reflète le dynamisme plus affirmé de Reims. En location, le T2 médian à Reims coûte ≈ 700 €/mois ; à Amiens ≈ 580 €. Les deux villes restent très accessibles comparées à la plupart des villes proches de Paris.",
+      },
+      {
+        heading: "Économie et emploi : Reims nettement plus dynamique",
+        body: "Reims est une métropole de 220 000 habitants avec un bassin d'emploi diversifié : agroalimentaire (Champagne, Veuve Clicquot, Mumm, Pommery — les grandes maisons ont toutes des sièges à Reims), services, logistique, santé (CHU), enseignement supérieur (URCA, Sciences Po Reims, ESC). La ville attire des investissements continus et sa population croît. Amiens (135 000 habitants) a une économie plus fragile : industrie en reconversion (Goodyear, Whirlpool ont tous deux fermé des usines), secteur public important, université solide mais tissu privé moins dense.",
+      },
+      {
+        heading: "Patrimoine et cadre de vie",
+        body: "La cathédrale Notre-Dame d'Amiens est la plus grande cathédrale gothique de France en volume — elle dépasse Notre-Dame de Paris. Les hortillonnages (jardins flottants médiévaux dans les canaux) sont uniques en Europe du Nord. Reims a la cathédrale du Sacre des Rois, le Palais du Tau, et une architecture Art Déco post-1918 remarquable (la ville a été reconstruite après la Première Guerre mondiale). Les deux villes ont des patrimoines exceptionnels — mais Amiens a quelque chose d'encore plus préservé des flux touristiques de masse.",
+      },
+      {
+        heading: "Gastronomie : Champagne vs hortillonnages",
+        body: "Reims est entourée du vignoble champenois — les caves de Reims (Ruinart, Taittinger) proposent des visites et des tarifs dégustation directs qui changent la relation quotidienne au champagne. Le marché du Boulingrin (construit dans la halle Art Déco de 1929) est un des plus beaux de France. Amiens est la capitale du canard à la ficelle, des macarons d'Amiens et de la ficelle picarde. Aucune des deux ne rivalise avec Lyon — mais Reims, grâce au champagne accessible en direct, a un avantage gastronomique unique.",
+      },
+      {
+        heading: "Pour qui Reims, pour qui Amiens ?",
+        body: "Choisissez Reims si : vous cherchez une ville dynamique avec un marché de l'emploi privé actif ; vous valorisez le champagne, la gastronomie et une vie de terrasses ; vous êtes dans l'agroalimentaire, les services ou la logistique. Choisissez Amiens si : votre priorité est le prix immobilier le plus bas à moins de 2h de Paris ; vous valorisez un patrimoine gothique exceptionnel dans une ville moins saturée ; vous êtes dans l'enseignement, la santé ou le secteur public.",
+      },
+    ],
+    relatedCities: ["reims", "amiens", "epernay", "chalons-en-champagne", "laon", "soissons"],
+    relatedGuides: [
+      "teletravailler-depuis-grand-est-guide-2026",
+      "vivre-en-hauts-de-france-guide-2026",
+      "vivre-en-champagne-guide-2025",
+    ],
+    tags: ["Reims", "Amiens", "comparatif", "champagne", "Picardie", "Grand Est", "TGV Paris", "immobilier", "patrimoine UNESCO"],
+  },
+  {
+    slug: "vivre-en-ariege-guide-2026",
+    title: "Vivre en Ariège en 2026 : Foix, Pamiers, Tarascon — le guide honnête",
+    metaTitle: "Vivre en Ariège 2026 — Foix, Pamiers, Pyrénées ariégeoises : guide complet",
+    metaDesc:
+      "L'Ariège est le département le moins cher de l'arc pyrénéen et le moins connu des guides de relocation. Pour qui, à quel prix, et ce qu'on n'y trouve vraiment pas.",
+    category: "region",
+    emoji: "🏔️",
+    readMinutes: 8,
+    publishedAt: "2026-05-12",
+    updatedAt: "2026-05-12",
+    intro:
+      "L'Ariège est le département français qui combine le mieux prix immobiliers bas, montagne pyrénéenne, et accès raisonnable à Toulouse (80 km). C'est aussi l'un des plus oubliés dans les guides de relocation. Ce n'est pas une destination pour tout le monde — les déserts médicaux, l'isolement hivernal et la faiblesse du marché de l'emploi privé sont réels. Mais pour les profils qui correspondent, c'est une opportunité rare.",
+    sections: [
+      {
+        heading: "Foix : la préfecture médiévale au pied des Pyrénées",
+        body: "Foix (10 000 habitants) est l'une des plus petites préfectures de France — et l'une des plus spectaculaires. Le château comtal dominant la ville depuis son rocher calcaire, les gorges de la Frau à 30 minutes, les grottes de Niaux (peintures rupestres paléolithiques) à 15 km : le cadre est exceptionnel. Prix immobilier ≈ 1 500 €/m² — parmi les plus bas des villes préfectorales françaises. Toulouse est à 1h10 par l'A66 (et bientôt 50 minutes avec l'A66 complétée). Pour un télétravailleur qui peut se rendre à Toulouse une ou deux fois par semaine, Foix est une base crédible.",
+      },
+      {
+        heading: "Pamiers : la ville la plus accessible du département",
+        body: "Pamiers (16 000 habitants) est la plus grande ville de l'Ariège et la porte d'entrée du département depuis Toulouse (60 km). Train Toulouse-Pamiers : 55 minutes (TER direct, plusieurs par jour). Prix ≈ 1 700 €/m², loyer médian T2 ≈ 480 €. L'économie locale tourne autour des services, de l'agroalimentaire et du commerce. C'est la ville la plus fonctionnelle du département pour ceux qui gardent une dépendance à Toulouse — emploi, médecins spécialistes, commerces spécialisés.",
+      },
+      {
+        heading: "Le Couserans et Saint-Girons : la haute vallée préservée",
+        body: "Saint-Girons (7 000 habitants) est le chef-lieu du Couserans, la partie occidentale de l'Ariège, au confluent de plusieurs vallées pyrénéennes. C'est la ville la plus éloignée de Toulouse (1h30) mais aussi la plus préservée et la plus «sauvage». Les Pyrénées ariégeoises offrent des conditions de randonnée et de ski nordique (plateau de Beille) de haute qualité. Prix ≈ 1 200 €/m² — parmi les plus bas de France hors DOM. Pour un profil rural-radical ou un télétravailleur cherchant à couper totalement, Saint-Girons est l'option maximale.",
+      },
+      {
+        heading: "La montagne ariégeoise : ski, randonnée, spéléologie",
+        body: "L'Ariège est une des régions françaises les plus riches en activités de plein air. Ax-les-Thermes (1 400 m) est la station ski la plus méridionale des Pyrénées françaises — 80 km de pistes, prix accessibles. Le GR10 traverse le département d'est en ouest. Les grottes (Niaux, Mas-d'Azil, Bédeilhac) font de l'Ariège la capitale française de la spéléologie. Le parc naturel régional des Pyrénées Ariégeoises protège 280 000 hectares. Pour un randonneur, vttiste ou spéléologue, c'est un terrain de jeu exceptionnel.",
+      },
+      {
+        heading: "Le désert médical ariégeois : ne pas minimiser",
+        body: "L'Ariège figure régulièrement parmi les départements français les plus touchés par le désert médical. Le délai pour un médecin généraliste non-urgentiste peut dépasser 3 à 4 mois dans certaines zones. Les spécialistes (cardiologue, gynécologue, rhumatologue) sont quasi absents du département — les rendez-vous se prennent à Toulouse, à 1h-1h30. Pour une famille avec enfants en bas âge, une personne âgée ou quelqu'un avec des besoins médicaux réguliers, c'est un risque réel qu'aucun guide honnête ne peut minimiser.",
+      },
+      {
+        heading: "L'Ariège pour quel profil ?",
+        body: "Trois profils s'y installent avec succès. (1) Le télétravailleur complet qui n'a besoin d'aller à Toulouse qu'une fois par mois maximum, cherche une maison avec terrain pour moins de 150 000 €, et valorise la montagne quotidienne. (2) L'artisan ou le maraîcher en reconversion : l'espace foncier, les prix et la communauté de néo-ruraux établis (l'Ariège attire ce type de profil depuis les années 1970) créent un tissu social favorable. (3) La retraite active : randonnée, thermes (Ax-les-Thermes, Ussat), vignoble de l'Ariège côté Mirepoix — à condition d'être en bonne santé.",
+      },
+    ],
+    relatedCities: ["foix", "pamiers", "saint-girons", "ax-les-thermes", "mirepoix", "tarascon-sur-ariege"],
+    relatedGuides: [
+      "vivre-dans-les-pyrenees-guide-2025",
+      "vivre-en-occitanie-guide-2025",
+      "villes-france-retraite-anticipee-fire-2026",
+    ],
+    tags: ["Ariège", "Foix", "Pamiers", "Saint-Girons", "Pyrénées", "montagne", "France profonde", "télétravail", "randonnée", "maison accessible"],
+  },
+  {
+    slug: "teletravailler-depuis-auvergne-guide-2026",
+    title: "Télétravailler depuis l'Auvergne en 2026 : Clermont, Vichy, Aurillac, Le Puy",
+    metaTitle: "Télétravailler depuis l'Auvergne 2026 — Clermont-Ferrand, volcans, Massif Central",
+    metaDesc:
+      "L'Auvergne cumule prix bas, nature volcanique unique et fibre en progression. Notre guide complet 2026 pour télétravailler depuis le Massif Central.",
+    category: "teletravail",
+    emoji: "🌋",
+    readMinutes: 8,
+    publishedAt: "2026-05-12",
+    updatedAt: "2026-05-12",
+    intro:
+      "L'Auvergne est la région de France la plus sous-représentée dans les guides de télétravail — et c'est injuste. Clermont-Ferrand est à 3h15 d'Intercités de Paris, mais surtout à 3h de TGV via Lyon (1h30 Clermont-Lyon, 2h Lyon-Paris). Les prix immobiliers sont parmi les plus bas des grandes villes de province. Et la chaîne des Puys — classée UNESCO en 2018 — est à 15 minutes du centre-ville. Ce guide répare cet oubli.",
+    sections: [
+      {
+        heading: "Clermont-Ferrand : la base auvergne la plus complète",
+        body: "Score MeilleurVille télétravail : 7.0/10. Clermont est la seule grande ville (140 000 habitants) du Massif Central. Ses atouts pour le télétravailleur : prix ≈ 2 800 €/m² (entre Dijon et Besançon), fibre >95 % en zone urbaine, coworkings actifs (La Coopérative, Klox, Openfield), CHU de niveau national, accès ski à 45 minutes (Super-Besse, Mont-Dore), Puy de Dôme à vélo depuis certains quartiers en 1h30. Sa limite : la connexion ferroviaire avec Paris (3h15 sans TGV direct) est le plus cité des freins — compensée par l'aéroport de Clermont-Auvergne (liaisons Paris CDG et Orly, plusieurs vols/jour).",
+      },
+      {
+        heading: "Le calcul aéroport vs train pour les Parisiens",
+        body: "Pour un télétravailleur qui monte à Paris une fois par semaine, l'avion (50 min Paris-Clermont, tarifs Transavia ou Air France dès 60 € aller) compense l'absence de TGV direct. Un billet aller-retour Clermont-Paris en avion revient à 100-150 € avec un peu d'anticipation — comparable à un AR TGV Bordeaux-Paris ou Nantes-Paris. L'abonnement mensuel Clermont-Paris en avion (avec les billets multi-voyage) peut se négocier à 250-350 €/mois pour les grands voyageurs. En économies de loyer (900 €/mois contre 1 400 € à Paris), le différentiel reste largement positif.",
+      },
+      {
+        heading: "Vichy, Riom, Issoire : les options périphériques intelligentes",
+        body: "Les villes de la périphérie clermontoise offrent des prix encore inférieurs avec une connexion TER vers Clermont très rapide. Vichy (45 km nord, 30 min de TER) : ≈ 1 800 €/m², thermes, lac d'Allier, Belle Époque. Riom (15 km nord, 12 min de TER) : ≈ 1 900 €/m², centre médiéval en lave noire exceptionnel. Issoire (30 km sud, 20 min de TER) : ≈ 1 800 €/m², porte des gorges de l'Allier et du Livradois-Forez. Ces trois villes permettent une vie résidentielle dans la nature à prix réduit avec l'accès aux services clermontois.",
+      },
+      {
+        heading: "Fibre et coworkings en Auvergne 2026",
+        body: "La couverture fibre FTTH en Auvergne-Rhône-Alpes atteint 89 % des locaux en 2026 sur le périmètre de l'ancienne Auvergne. Clermont et son agglomération dépassent 97 %. Les zones rurales du Cantal et de la Haute-Loire restent plus hétérogènes (70-80 %). Les coworkings se sont bien développés à Clermont (7 espaces confirmés), moins dans les villes secondaires (2-3 espaces à Vichy, 1 à Issoire). Le programme Auvergne Numérique déploie des télécentres dans les bourgs ruraux — prévoir de vérifier l'adresse exacte avant signature.",
+      },
+      {
+        heading: "Le Puy-en-Velay, Aurillac, Moulins : pour les télétravailleurs ruraux",
+        body: "Pour les profils qui veulent réduire encore davantage la charge de vie, les villes secondaires auvergnates offrent des conditions extrêmes. Le Puy-en-Velay : ≈ 1 600 €/m², cadre volcanique et pèlerin, altitude 630 m, 80 km de Clermont. Aurillac : ≈ 1 200 €/m², dans le Cantal, environnement pastoral exceptionnel, mais désert médical sévère (voir guide Auvergne profonde). Moulins : ≈ 1 300 €/m², douceur bourbonnaise, patrimoine médiéval intact. Ces villes fonctionnent pour un télétravailleur 5j/5 — moins bien pour qui a besoin d'un écosystème professionnel local.",
+      },
+      {
+        heading: "Ce que l'Auvergne offre de unique",
+        body: "Deux choses impossibles à trouver ailleurs. (1) La chaîne des Puys à 15 minutes d'une grande ville : 80 volcans éteints, lacs de cratère, panoramas sur 300 km par temps clair — classée UNESCO en 2018, accessible à vélo électrique depuis certains quartiers de Clermont. (2) Le fromage AOP le plus dense de France : Saint-Nectaire, Cantal, Salers, Fourme d'Ambert, Bleu d'Auvergne — tous produits dans un rayon de 80 km. Ce n'est pas anecdotique pour ceux dont la table compte dans le quotidien.",
+      },
+    ],
+    relatedCities: ["clermont-ferrand", "vichy", "riom", "issoire", "aurillac", "le-puy-en-velay"],
+    relatedGuides: [
+      "vivre-en-auvergne-profonde-guide-2026",
+      "quitter-clermont-ferrand-guide-2026",
+      "teletravailler-depuis-bourgogne-guide-2026",
+    ],
+    tags: ["Auvergne", "Clermont-Ferrand", "télétravail", "remote work", "Massif Central", "volcans", "Vichy", "Riom", "fibre", "coworking"],
+  },
+  {
+    slug: "meilleures-villes-zero-dechet-ecologie-france-2026",
+    title: "Les meilleures villes françaises pour vivre zéro déchet et éco-responsable en 2026",
+    metaTitle: "Meilleures villes zéro déchet et écologie France 2026 — Vrac, vélo, circuits courts",
+    metaDesc:
+      "Vrac, compost, vélo, circuits courts, énergie renouvelable : quelles villes françaises ont vraiment construit une infrastructure du quotidien durable ? Notre guide 2026.",
+    category: "lifestyle",
+    emoji: "🌿",
+    readMinutes: 8,
+    publishedAt: "2026-05-12",
+    updatedAt: "2026-05-12",
+    intro:
+      "Choisir une ville pour son infrastructure écologique du quotidien est une approche encore peu formalisée — mais de plus en plus de ménages y pensent concrètement. Ce guide ne mesure pas les déclarations politiques ni les objectifs 2030 : il mesure ce qu'un habitant peut faire aujourd'hui — acheter en vrac à 10 minutes à pied, composter sans voiture, aller au travail à vélo sur une piste sécurisée, trouver une AMAP active et un repair café ouvert le samedi.",
+    sections: [
+      {
+        heading: "Les critères concrets d'une ville éco-praticable",
+        body: "Cinq critères mesurables. (1) Densité de magasins vrac et épiceries zéro déchet accessibles sans voiture. (2) Réseau cyclable réellement séparé du trafic (pas des marquages au sol sur des axes à 50 km/h). (3) Compostage collectif de pied d'immeuble ou jardins partagés accessibles. (4) Présence d'AMAPs actives dans un rayon de 20 minutes. (5) Taux de tri sélectif et collecte de déchets organiques. Ces données sont publiques (Ademe, municipalités) mais rarement agrégées. Ce guide le fait.",
+      },
+      {
+        heading: "Grenoble : le laboratoire écologique de France",
+        body: "Score MeilleurVille qualité de l'air/nature : 9.6/10. Grenoble est la ville française qui a le plus systématiquement construit une infrastructure du quotidien durable. La collecte des déchets organiques est généralisée à toute la ville depuis 2022 (bacs marron). Le réseau de Métrovélo (3 500 vélos dont beaucoup d'électriques) couvre toute l'agglomération. La densité de magasins vrac (Vrac et Bocal, La Cagette, Scarabée) et d'AMAPs est parmi les plus élevées de province. L'université et les labos tech créent une communauté scientifique sensible à ces enjeux. La pollution hivernale reste le paradoxe structurel.",
+      },
+      {
+        heading: "Rennes : la ville qui a tout structuré",
+        body: "Rennes a développé une politique de déchets et d'alimentation locale parmi les plus avancées de France. La collecte séparée des biodéchets est en place depuis 2020, les composteurs partagés sont disséminés dans tous les quartiers, et l'offre vrac (Vrac en Ville, L'Épicerie Commune) s'est multipliée. Le marché de Lices (le plus grand marché de Bretagne) fournit en circuits courts directs à portée de tram. Le réseau cyclable progress rapide (350 km) permet à beaucoup d'habitants de faire leurs courses à vélo. Pour un ménage zéro-déchet, Rennes offre l'infrastructure la plus complète hors Paris.",
+      },
+      {
+        heading: "Montpellier et la Méditerranée durable",
+        body: "Montpellier a fait des choix forts en matière de mobilité douce (réseau tramway l'un des plus denses de France, pistes cyclables en expansion) et d'alimentation locale. La Coopérative Bio La Ronde des Pétales, les marchés bio permanents du Lez, et la densité des AMAPs (plus de 80 dans l'Hérault) créent un écosystème accessible. La chaleur estivale est un enjeu d'adaptation (fraîcheur des logements, gestion de l'eau) mais favorise aussi les déplacements actifs neuf mois sur douze.",
+      },
+      {
+        heading: "Nantes et Bordeaux : les métropoles atlantiques qui progressent",
+        body: "Nantes est en avance sur Bordeaux mais les deux progressent vite. Nantes a généralisé le compostage collectif (600 composteurs partagés en 2026), la collecte des biodéchets couvre 80 % des ménages, et les 30 km de berges de Loire accessibles à vélo ont changé la relation à la mobilité. Bordeaux monte en puissance sur les jardins partagés (200 jardins associatifs recensés en 2025) et les AMAP girondines (les plus denses de France hors Île-de-France). La Biocoop et les épiceries vrac se sont multipliées dans les quartiers.",
+      },
+      {
+        heading: "Ce qui manque dans toutes les villes",
+        body: "Deux angles morts persistent dans toutes les villes françaises, même les plus avancées. (1) La réparation : malgré les repair cafés, la culture de la réparation reste fragile — les SAV des grandes marques ont réduit leur réseau, les cordonniers disparaissent des quartiers, et les filières de réparation électronique restent marginales. (2) L'alimentation locale en hiver : les AMAPs et marchés de producteurs couvrent bien l'été et le printemps. Novembre à février, l'offre locale en légumes frais s'effondre dans la plupart des régions françaises hors serres chauffées. La saisonnalité radicale est une réalité que peu de guides zéro déchet documentent honnêtement.",
+      },
+    ],
+    relatedCities: ["grenoble", "rennes", "montpellier", "nantes", "bordeaux", "strasbourg"],
+    relatedGuides: [
+      "meilleures-villes-cyclistes-france-2026",
+      "meilleures-villes-qualite-air-nature-france-2025",
+      "meilleures-villes-rse-developpement-durable-france-2025",
+    ],
+    tags: ["zéro déchet", "écologie", "vrac", "circuits courts", "AMAP", "compost", "vélo", "Grenoble", "Rennes", "Montpellier", "lifestyle durable"],
+  },
+  {
+    slug: "survivre-etudiant-province-moins-700-euros-2026",
+    title: "Étudiant en province : vivre avec moins de 700 €/mois en 2026 — les villes où c'est possible",
+    metaTitle: "Étudiant province moins 700 €/mois 2026 — Villes accessibles, APL, CROUS",
+    metaDesc:
+      "APL, CROUS, colocation, budget alimentation : quelles villes françaises permettent à un étudiant de vivre décemment avec 700 €/mois tout compris en 2026 ?",
+    category: "budget",
+    emoji: "🎓",
+    readMinutes: 8,
+    publishedAt: "2026-05-12",
+    updatedAt: "2026-05-12",
+    intro:
+      "Le budget étudiant médian en France est de 880 €/mois selon l'Observatoire de la Vie Étudiante 2025. Mais 30 % des étudiants vivent avec moins de 700 €. Ce guide est pour eux — pas pour ceux qui peuvent se payer un studio meublé sans APL. Il cherche les villes où les loyers CROUS ou l'offre privée accessible permettent de loger, manger et se déplacer avec 700 € nets par mois, en vivant dans un environnement étudiant actif et pas dans un désert.",
+    sections: [
+      {
+        heading: "Le calcul à 700 €/mois : ce qu'il reste après le loyer",
+        body: "Loyer CROUS chambre traditionnelle : 210–300 €/mois selon la ville et le niveau de résidence. Loyer studio privé avec APL maximale (environ 200 € pour un boursier sur critères sociaux niveau 5-6) : loyer résiduel ≈ 300–420 € selon la ville. En ciblant un loyer résiduel de 350 €/mois, il reste 350 € pour alimentation (150-180 €), transport (20-50 €), téléphone (15 €), courses diverses (60-70 €) et imprévus. Ce budget n'est pas confortable — mais il est tenable dans des villes où le CROUS est actif et les offres privées accessibles.",
+      },
+      {
+        heading: "Limoges : la ville universitaire la moins chère de France",
+        body: "Limoges est la référence pour le budget étudiant ultra-contraint. Chambre CROUS : 230 €/mois en moyenne. Studio privé : 380–450 €/mois. APL moyenne : ≈ 190 €. Loyer résiduel ≈ 200-260 €. Il reste 440-500 € pour vivre — plus que dans n'importe quelle ville de taille comparable. L'Université de Limoges (16 000 étudiants, droit, santé, sciences, lettres) offre une vie estudiantine active sans la pression des grandes métropoles. Le CROUS du Limousin est l'un de ceux qui proposent le plus de logements en proportion du nombre d'étudiants.",
+      },
+      {
+        heading: "Clermont-Ferrand : université nationale, prix provinciaux",
+        body: "Clermont est la ville universitaire qui offre le meilleur rapport offre académique / coût de la vie. L'Université Clermont Auvergne (37 000 étudiants, médecine, droit, sciences, pharmacie) est de rang national. Chambre CROUS : ≈ 270 €/mois. Studio privé avec APL : résiduel ≈ 300-380 €. Les restaurants universitaires (le prix du repas CROUS est plafonné à 3,30 € pour les étudiants boursiers) compensent partiellement le coût alimentaire. Le ski à 45 minutes est un luxe inattendu dans un budget étudiant.",
+      },
+      {
+        heading: "Amiens et Reims : le Nord accessible près de Paris",
+        body: "Amiens (Université de Picardie Jules Verne, 30 000 étudiants) : chambre CROUS ≈ 260 €, studio résiduel ≈ 300-360 €. Très accessible depuis Paris pour rentrer les week-ends. Reims (Université de Reims Champagne-Ardenne, Sciences Po Reims) : chambre CROUS ≈ 280 €, studio résiduel ≈ 320-400 €. Les deux villes sont à moins de 1h30 de Paris — ce qui permet de rentrer chez les parents sans passer la nuit, réduisant les frais de déplacement. Pour un étudiant boursier originaire de l'Île-de-France, c'est souvent la meilleure équation.",
+      },
+      {
+        heading: "Les pièges du budget étudiant en ville bon marché",
+        body: "Deux pièges récurrents. (1) Les villes sans CROUS suffisant : une ville peut avoir des loyers privés très bas mais une offre CROUS inexistante — forçant l'étudiant vers le marché privé sans filet. Vérifier le nombre de logements CROUS disponibles avant de candidater. (2) La mobilité obligatoire : une ville où le campus est à 8 km du centre sans transport en commun fréquent impose un vélo ou une voiture — qui coûtent. Les villes compactes et bien desservies (Limoges, Chambéry, Besançon) sont préférables aux campus périphériques isolés.",
+      },
+      {
+        heading: "Les aides à ne pas rater",
+        body: "Quatre aides accessibles à la quasi-totalité des étudiants de moins de 28 ans. (1) Les APL (aide personnalisée au logement) : simuler sur le calculateur CAF avant de signer tout bail. (2) Les bourses sur critères sociaux (BCS) : 6 niveaux, de 1 370 à 6 335 €/an selon les revenus parentaux — les niveaux 5 et 6 changent complètement le budget mensuel. (3) La garantie Visale : caution gratuite de l'État pour les étudiants sans garant — ouvre l'accès au marché privé. (4) L'épicerie solidaire de l'université (CROUS ou associative) : souvent inconnue des nouveaux étudiants, elle permet d'acheter des produits alimentaires à -30 à -50 % du prix de marché.",
+      },
+    ],
+    relatedCities: ["limoges", "clermont-ferrand", "amiens", "reims", "besancon", "caen"],
+    relatedGuides: [
+      "meilleures-villes-etudiantes-france-2026",
+      "meilleures-villes-budget-moins-700-euros-t2-2025",
+      "meilleures-villes-primo-accedants-france-2026",
+    ],
+    tags: ["étudiant", "budget étudiant", "CROUS", "APL", "Limoges", "Clermont-Ferrand", "Amiens", "Reims", "province", "moins de 700 €"],
+  },
 ];
 
 export const GUIDE_CATEGORIES = [
