@@ -308,10 +308,10 @@ export function FranceHeatmap() {
               {/* Heat layer — radial gradients per top city, clipped to France */}
               <g clipPath="url(#franceClip)" opacity="0.55" style={{ mixBlendMode: "screen" }}>
                 {[...CITIES_SEED]
-                  .filter((c) => c.scores.global >= 6.5)
+                  .filter((c) => c.scores.global >= 6.0)
                   .map((c) => {
                     const [x, y] = project(c.longitude, c.latitude);
-                    const r = 70 + (c.scores.global - 6.5) * 30;
+                    const r = 70 + (c.scores.global - 6.0) * 30;
                     return (
                       <radialGradient
                         key={`h-${c.slug}`}
@@ -327,10 +327,10 @@ export function FranceHeatmap() {
                     );
                   })}
                 {[...CITIES_SEED]
-                  .filter((c) => c.scores.global >= 6.5)
+                  .filter((c) => c.scores.global >= 6.0)
                   .map((c) => {
                     const [x, y] = project(c.longitude, c.latitude);
-                    const r = 70 + (c.scores.global - 6.5) * 30;
+                    const r = 70 + (c.scores.global - 6.0) * 30;
                     return (
                       <circle
                         key={`hc-${c.slug}`}
@@ -393,7 +393,7 @@ export function FranceHeatmap() {
                 filter="url(#borderGlow)"
               />
 
-              {/* Top-tier expanding rings for cities ≥ 8.5 */}
+              {/* Top-tier expanding rings for cities ≥ 7.5 */}
               {dots
                 .filter((d) => d.score >= 7.5)
                 .map((d, i) => (

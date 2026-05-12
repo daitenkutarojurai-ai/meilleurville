@@ -113,23 +113,23 @@ function buildFallback(city: (typeof CITIES_SEED)[number]) {
   const bestFor: string[] = [];
   const notIdealFor: string[] = [];
 
-  if (city.scores.nature >= 8) strengths.push("Cadre naturel exceptionnel et accès à la nature");
-  if (city.scores.safety >= 8) strengths.push("Excellente sécurité, idéale pour les familles");
-  if (city.scores.transport >= 8) strengths.push("Réseau de transport performant");
-  if (city.scores.culture >= 8) strengths.push("Vie culturelle et dynamisme remarquables");
-  if (city.scores.remoteWork >= 8) strengths.push("Infrastructure idéale pour le télétravail");
+  if (city.scores.nature >= 7.5) strengths.push("Cadre naturel exceptionnel et accès à la nature");
+  if (city.scores.safety >= 7.5) strengths.push("Excellente sécurité, idéale pour les familles");
+  if (city.scores.transport >= 7.5) strengths.push("Réseau de transport performant");
+  if (city.scores.culture >= 7.5) strengths.push("Vie culturelle et dynamisme remarquables");
+  if (city.scores.remoteWork >= 7.5) strengths.push("Infrastructure idéale pour le télétravail");
   if (strengths.length === 0) strengths.push("Qualité de vie globale satisfaisante");
 
-  if (city.scores.cost < 6.5) weaknesses.push("Coût de la vie et de l'immobilier élevé");
-  if (city.scores.transport < 6.5) weaknesses.push("Réseau de transport perfectible");
-  if (city.scores.culture < 6.5) weaknesses.push("Offre culturelle et de services limitée");
+  if (city.scores.cost < 6.0) weaknesses.push("Coût de la vie et de l'immobilier élevé");
+  if (city.scores.transport < 6.0) weaknesses.push("Réseau de transport perfectible");
+  if (city.scores.culture < 6.0) weaknesses.push("Offre culturelle et de services limitée");
   if (weaknesses.length === 0) weaknesses.push("Peu de points négatifs notables");
 
   if (city.scores.schools >= 7.5 && city.scores.safety >= 7.5) bestFor.push("Familles avec enfants");
   if (city.scores.remoteWork >= 7.5) bestFor.push("Télétravailleurs");
-  if (city.scores.nature >= 8) bestFor.push("Amoureux de la nature");
+  if (city.scores.nature >= 7.5) bestFor.push("Amoureux de la nature");
   if (city.scores.cost >= 7.5) bestFor.push("Profils à budget serré");
-  if (city.scores.culture >= 8) bestFor.push("Étudiants");
+  if (city.scores.culture >= 7.5) bestFor.push("Étudiants");
   if (bestFor.length === 0) bestFor.push("Profils variés");
 
   if (city.scores.cost < 6) notIdealFor.push("Primo-accédants avec petit budget");

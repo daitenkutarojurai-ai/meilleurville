@@ -26,11 +26,11 @@ export function CityCard({ city, rank, delta, className }: CityCardProps) {
   const score = city.scores.global;
   const scoreColor =
     score >= 7.5 ? "text-purple-500"
-    : score >= 7.0 ? "text-green-600"
-    : score >= 6.0 ? "text-lime-600"
-    : score >= 5.0 ? "text-amber-600"
-    : score >= 4.0 ? "text-orange-600"
-    : "text-red-600";
+    : score >= 7.0 ? "text-green-500"
+    : score >= 6.0 ? "text-lime-500"
+    : score >= 5.0 ? "text-amber-400"
+    : score >= 4.0 ? "text-orange-500"
+    : "text-red-500";
   const cover = gradientForScore(score);
 
   return (

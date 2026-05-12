@@ -150,7 +150,7 @@ function elevationNotable(city: CitySeed): string | null {
 function buildIntro(city: CitySeed): string {
   const g = city.scores.global;
   const tier =
-    g >= 8.0 ? "se classe parmi les meilleures villes françaises pour la qualité de vie"
+    g >= 7.5 ? "se classe parmi les meilleures villes françaises pour la qualité de vie"
     : g >= 7.0 ? "offre une qualité de vie clairement au-dessus de la moyenne"
     : g >= 6.0 ? "présente un profil équilibré, sans excès dans un sens ni dans l'autre"
     : "présente quelques fragilités sur la qualité de vie selon nos indicateurs";

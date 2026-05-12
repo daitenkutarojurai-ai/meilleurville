@@ -2,10 +2,11 @@ import type { CitySeed } from "@/data/cities-seed";
 import { getHousing } from "@/data/housing";
 
 function qualityLabel(score: number): string {
-  if (score >= 8.5) return "excellente";
-  if (score >= 7.5) return "très bonne";
-  if (score >= 6.5) return "bonne";
-  return "correcte";
+  if (score >= 7.5) return "exceptionnelle";
+  if (score >= 7.0) return "excellente";
+  if (score >= 6.0) return "bonne";
+  if (score >= 5.0) return "correcte";
+  return "en dessous de la moyenne";
 }
 
 export function CityJsonLd({ city }: { city: CitySeed & { reviewCount?: number } }) {
@@ -29,11 +30,11 @@ export function CityJsonLd({ city }: { city: CitySeed & { reviewCount?: number }
     },
     {
       q: `Peut-on télétravailler à ${city.name} ?`,
-      a: `${city.name} obtient un score télétravail de ${city.scores.remoteWork}/10. ${city.scores.remoteWork >= 8 ? "Excellente infrastructure numérique, espaces de coworking et réseau fibre." : city.scores.remoteWork >= 7 ? "Bonne infrastructure pour le télétravail avec une connectivité satisfaisante." : "Infrastructure correcte pour le télétravail, à confirmer selon vos besoins spécifiques."}`,
+      a: `${city.name} obtient un score télétravail de ${city.scores.remoteWork}/10. ${city.scores.remoteWork >= 7.5 ? "Excellente infrastructure numérique, espaces de coworking et réseau fibre." : city.scores.remoteWork >= 7.0 ? "Bonne infrastructure pour le télétravail avec une connectivité satisfaisante." : "Infrastructure correcte pour le télétravail, à confirmer selon vos besoins spécifiques."}`,
     },
     {
       q: `Quels sont les transports en commun à ${city.name} ?`,
-      a: `Le score transport de ${city.name} est de ${city.scores.transport}/10. ${city.scores.transport >= 8 ? "Réseau de transport en commun très développé (tram, bus, vélo)." : city.scores.transport >= 6.5 ? "Réseau de transport en commun correct." : "Réseau de transport limité, une voiture peut être utile."}`,
+      a: `Le score transport de ${city.name} est de ${city.scores.transport}/10. ${city.scores.transport >= 7.5 ? "Réseau de transport en commun très développé (tram, bus, vélo)." : city.scores.transport >= 6.0 ? "Réseau de transport en commun correct." : "Réseau de transport limité, une voiture peut être utile."}`,
     },
   ];
 

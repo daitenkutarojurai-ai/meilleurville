@@ -113,11 +113,11 @@ export default async function Image({ params }: Props) {
               const vb = seedB.scores[key];
               return (
                 <div key={key} style={{ display: "flex", alignItems: "center", gap: "8px" }}>
-                  <div style={{ color: va > vb ? "#10b981" : "#8b949e", fontSize: "12px", fontWeight: va > vb ? 700 : 400, width: "40px", textAlign: "right" }}>
+                  <div style={{ color: va > vb ? "#16A34A" : "#8b949e", fontSize: "12px", fontWeight: va > vb ? 700 : 400, width: "40px", textAlign: "right" }}>
                     {va.toFixed(1)}
                   </div>
                   <div style={{ color: "#30363d", fontSize: "11px", width: "120px", textAlign: "center" }}>{label}</div>
-                  <div style={{ color: vb > va ? "#10b981" : "#8b949e", fontSize: "12px", fontWeight: vb > va ? 700 : 400, width: "40px" }}>
+                  <div style={{ color: vb > va ? "#16A34A" : "#8b949e", fontSize: "12px", fontWeight: vb > va ? 700 : 400, width: "40px" }}>
                     {vb.toFixed(1)}
                   </div>
                 </div>
@@ -128,7 +128,7 @@ export default async function Image({ params }: Props) {
             <div
               style={{
                 background: "#0d2818",
-                border: "1px solid #10b98130",
+                border: "1px solid #16A34A30",
                 borderRadius: "12px",
                 padding: "14px 24px",
                 display: "flex",
@@ -137,10 +137,10 @@ export default async function Image({ params }: Props) {
                 gap: "4px",
               }}
             >
-              <div style={{ color: "#10b981", fontSize: "12px", textTransform: "uppercase", letterSpacing: "1px" }}>
+              <div style={{ color: "#16A34A", fontSize: "12px", textTransform: "uppercase", letterSpacing: "1px" }}>
                 Recommandé
               </div>
-              <div style={{ color: "#10b981", fontSize: "22px", fontWeight: 900 }}>
+              <div style={{ color: "#16A34A", fontSize: "22px", fontWeight: 900 }}>
                 {winner.name}
               </div>
             </div>

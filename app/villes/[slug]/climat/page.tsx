@@ -145,7 +145,7 @@ function Diff({ value, baseline, suffix }: { value: number | null; baseline: num
   if (Math.abs(d) < 0.5) return <span className="text-[var(--text-tertiary)]">≈ moyenne</span>;
   const positive = d > 0;
   return (
-    <span className={positive ? "text-emerald-600" : "text-orange-600"}>
+    <span className={positive ? "text-green-500" : "text-orange-500"}>
       {positive ? "+" : ""}{d}{suffix} vs moyenne FR
     </span>
   );

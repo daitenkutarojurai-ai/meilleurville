@@ -286,15 +286,17 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                     const color =
                       n.val >= 7.5 ? "from-purple-500 to-violet-400"
                       : n.val >= 7.0 ? "from-green-500 to-lime-400"
-                      : n.val >= 5.5 ? "from-lime-400 to-amber-300"
-                      : n.val >= 4 ? "from-amber-400 to-orange-400"
-                      : "from-orange-400 to-rose-400";
+                      : n.val >= 6.0 ? "from-lime-400 to-amber-300"
+                      : n.val >= 5.0 ? "from-amber-400 to-orange-300"
+                      : n.val >= 4.0 ? "from-orange-400 to-red-400"
+                      : "from-red-500 to-rose-400";
                     const txt =
                       n.val >= 7.5 ? "text-purple-500"
-                      : n.val >= 7.0 ? "text-green-600"
-                      : n.val >= 5.5 ? "text-lime-700"
-                      : n.val >= 4 ? "text-amber-600"
-                      : "text-rose-600";
+                      : n.val >= 7.0 ? "text-green-500"
+                      : n.val >= 6.0 ? "text-lime-500"
+                      : n.val >= 5.0 ? "text-amber-400"
+                      : n.val >= 4.0 ? "text-orange-500"
+                      : "text-red-500";
                     return (
                       <div
                         key={n.label}
@@ -654,7 +656,7 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
             {[
               {
                 q: `Quelle est la qualité de vie à ${city.name} ?`,
-                a: `${city.name} obtient un score global de ${city.scores.global.toFixed(1)}/10, ce qui reflète une qualité de vie ${city.scores.global >= 8.5 ? "excellente" : city.scores.global >= 7.5 ? "très bonne" : city.scores.global >= 6.5 ? "bonne" : "correcte"}. La ville est connue pour ${city.characterTags.slice(0, 3).join(", ")}. Les habitants apprécient particulièrement ${city.scores.nature >= 7.5 ? "la proximité avec la nature, " : ""}${city.scores.culture >= 7.5 ? "la vie culturelle, " : ""}${city.scores.safety >= 7.5 ? "la sécurité du quotidien" : "le cadre de vie"}.`,
+                a: `${city.name} obtient un score global de ${city.scores.global.toFixed(1)}/10, ce qui reflète une qualité de vie ${city.scores.global >= 7.5 ? "exceptionnelle" : city.scores.global >= 7.0 ? "excellente" : city.scores.global >= 6.0 ? "bonne" : city.scores.global >= 5.0 ? "correcte" : "en dessous de la moyenne"}. La ville est connue pour ${city.characterTags.slice(0, 3).join(", ")}. Les habitants apprécient particulièrement ${city.scores.nature >= 7.5 ? "la proximité avec la nature, " : ""}${city.scores.culture >= 7.5 ? "la vie culturelle, " : ""}${city.scores.safety >= 7.5 ? "la sécurité du quotidien" : "le cadre de vie"}.`,
               },
               {
                 q: `Quel est le coût de la vie à ${city.name} ?`,
@@ -668,11 +670,11 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
               },
               {
                 q: `Peut-on télétravailler à ${city.name} ?`,
-                a: `${city.name} obtient un score télétravail de ${city.scores.remoteWork.toFixed(1)}/10. ${city.scores.remoteWork >= 8 ? `La ville figure parmi les meilleures destinations pour le travail à distance en France : couverture fibre quasi totale, espaces de coworking, et coût de la vie permettant de vivre confortablement avec un salaire remote.` : city.scores.remoteWork >= 7 ? `La couverture fibre est bonne et plusieurs espaces de coworking sont disponibles. Le score qualité de vie (${city.scores.life.toFixed(1)}/10) en fait une ville agréable pour les télétravailleurs.` : `La ville dispose des infrastructures numériques de base. Le score transport (${city.scores.transport.toFixed(1)}/10) permet également des déplacements ponctuels vers les grandes métropoles.`}`,
+                a: `${city.name} obtient un score télétravail de ${city.scores.remoteWork.toFixed(1)}/10. ${city.scores.remoteWork >= 7.5 ? `La ville figure parmi les meilleures destinations pour le travail à distance en France : couverture fibre quasi totale, espaces de coworking, et coût de la vie permettant de vivre confortablement avec un salaire remote.` : city.scores.remoteWork >= 7.0 ? `La couverture fibre est bonne et plusieurs espaces de coworking sont disponibles. Le score qualité de vie (${city.scores.life.toFixed(1)}/10) en fait une ville agréable pour les télétravailleurs.` : `La ville dispose des infrastructures numériques de base. Le score transport (${city.scores.transport.toFixed(1)}/10) permet également des déplacements ponctuels vers les grandes métropoles.`}`,
               },
               {
                 q: `Quels sont les transports en commun à ${city.name} ?`,
-                a: `Le score transport de ${city.name} est de ${city.scores.transport.toFixed(1)}/10. ${city.scores.transport >= 8.5 ? `La ville dispose d'un réseau de transport exceptionnel : métro, tramway ou bus à haute fréquence, et connexions TGV permettent de se passer facilement de voiture.` : city.scores.transport >= 7 ? `Le réseau de transports en commun est bien développé avec des lignes de bus et/ou tramway régulières. La ville est correctement reliée au réseau TER.` : `Les transports en commun couvrent les besoins essentiels. Pour les déplacements quotidiens hors centre-ville, une voiture peut s'avérer utile.`}`,
+                a: `Le score transport de ${city.name} est de ${city.scores.transport.toFixed(1)}/10. ${city.scores.transport >= 7.5 ? `La ville dispose d'un réseau de transport exceptionnel : métro, tramway ou bus à haute fréquence, et connexions TGV permettent de se passer facilement de voiture.` : city.scores.transport >= 7.0 ? `Le réseau de transports en commun est bien développé avec des lignes de bus et/ou tramway régulières. La ville est correctement reliée au réseau TER.` : `Les transports en commun couvrent les besoins essentiels. Pour les déplacements quotidiens hors centre-ville, une voiture peut s'avérer utile.`}`,
               },
             ].map((item, i) => (
               <div key={i} className="rounded-xl border border-[var(--border)] overflow-hidden">
