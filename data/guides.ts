@@ -10146,6 +10146,153 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["Reims", "quitter Reims", "Châlons-en-Champagne", "Épernay", "Troyes", "Marne", "Grand Est", "champagne", "TGV Paris", "déménagement"],
   },
+  {
+    slug: "vivre-a-la-campagne-france-guide-2026",
+    title: "Vivre à la campagne en France — vraie liberté ou faux rêve ? Guide 2026",
+    metaTitle: "Vivre à la campagne en France 2026 : prix, télétravail, services — réalité",
+    metaDesc:
+      "Loyers divisés par trois, fibre disponible, services médicaux fragiles : ce que vivre à la campagne en France veut vraiment dire en 2026. Avantages, angles morts, où s'installer.",
+    category: "lifestyle",
+    emoji: "🌾",
+    readMinutes: 9,
+    publishedAt: "2026-05-13",
+    updatedAt: "2026-05-13",
+    intro:
+      "L'idée de quitter la ville pour la campagne a explosé depuis 2020. Le télétravail a rendu le projet faisable pour des centaines de milliers de Français — d'après l'Insee, 22 % des urbains de moins de 50 ans envisagent sérieusement une installation rurale d'ici trois ans. Mais «la campagne» n'est pas une catégorie homogène : on n'achète pas la même vie à 20 minutes de Rennes qu'à 50 minutes d'Aurillac. Ce guide regarde froidement ce que coûte la campagne, ce qu'elle offre, ce qui manque, et où installer son projet pour qu'il tienne au-delà des trois premières années.",
+    sections: [
+      {
+        heading: "Définir «la campagne» : trois cercles, trois vies différentes",
+        body: "Premier cercle — la campagne périurbaine (15–30 min d'une métropole de 100 000+ hab.) : services intacts (médecin, école, supermarché à 10 min), prix immobiliers déjà divisés par deux par rapport au centre-ville, télétravail confortable. C'est ce que choisissent 70 % des néo-ruraux. Deuxième cercle — la campagne intermédiaire (30–60 min d'une grande agglo, autour d'un bourg de 5–15 000 hab.) : services présents mais clairsemés, immobilier 3 fois moins cher, démarches administratives à distance, dépendance à la voiture totale. Troisième cercle — la campagne profonde (Cantal, Creuse, Lozère, Hautes-Alpes, intérieur des Landes) : prix dérisoires (40 000–80 000 € pour une maison), mais désertification médicale réelle, école à 20 min, supermarché à 30, urgences hospitalières à 45+ min. Ces trois cercles n'attirent pas les mêmes profils et ne tiennent pas dans la durée pour les mêmes raisons.",
+      },
+      {
+        heading: "Ce que vous gagnez (pour de vrai, chiffres à l'appui)",
+        body: "Immobilier : maison de 100 m² avec jardin à 90 000 € dans la Creuse, 150 000 € en Auvergne profonde, 200 000 € dans le Périgord, 280 000 € en Pays Basque intérieur. Comparé à 350 000 € pour un T3 dans une grande métropole, le différentiel finance souvent un crédit travaux + une voiture supplémentaire. Coût de la vie : courses 10–15 % moins chères (légumes producteurs, marchés), restaurants 30 % moins chers, transports en commun quasi gratuits (peu utilisables, mais peu utiles). Qualité de l'air : selon l'Atmo Auvergne-Rhône-Alpes, les ruraux respirent en moyenne 2 µg/m³ de PM2.5 en moins que les habitants des grandes villes — l'équivalent d'un an d'espérance de vie selon les estimations OMS. Temps gagné : pas de trajets domicile-travail si vous télétravaillez (le compte d'heures hebdo économisées dépasse souvent 8 heures).",
+      },
+      {
+        heading: "Ce que vous perdez (et que peu de guides vous disent)",
+        body: "Services médicaux : 87 % des cantons ruraux sont classés «zone sous-dense» par l'ARS. Trouver un médecin traitant en Lozère, Creuse ou Cantal prend en moyenne 14 mois. Spécialiste (ophtalmo, dermato, gynéco) : 3 à 9 mois d'attente, souvent à 40+ minutes de route. Pour les familles avec enfants, prévoir aussi : pédiatre, orthophoniste, kiné — tous saturés. Vie sociale : si vous n'êtes pas du coin, intégrer le tissu local prend 2 à 4 ans. Les associations locales (foot, gym, jardins partagés) sont les meilleurs points d'entrée. Couple solo qui ne sort pas de chez lui : isolement réel après 18 mois. École : les écoles rurales ont souvent des classes multi-niveaux (CP-CE1-CE2 ensemble). Pas de catastrophe pédagogique en soi mais à anticiper. Collège et lycée : éloignement (30–50 min de bus), choix de filières très limité au lycée. Mobilité : sans voiture, oubliez. Avec une voiture, comptez 800–1 500 € de carburant annuel supplémentaire vs un urbain.",
+      },
+      {
+        heading: "Le test télétravail : votre projet tient-il sans bureau ?",
+        body: "La fibre est désormais déployée dans 89 % des communes rurales (Arcep, fin 2025). Vérifiez sur monreseaumobile.arcep.fr le débit réel de l'adresse exacte — pas du bourg, de l'adresse. Les zones blanches mobile (4G/5G) persistent dans 7 % du territoire rural, principalement en montagne et dans le Massif Central. Coworking : les espaces de coworking ont fleuri dans les bourgs de 3 000+ habitants. France Tiers-Lieux recense 3 100 espaces en 2025, contre 800 en 2018. Si votre métier dépend de réunions clients en présentiel, calculez le coût mensuel des trajets vers Paris/Lyon/Bordeaux : un Cantal-Paris en TGV (via Aurillac–Brive ou Clermont) coûte 130–200 € aller-retour et 5h porte-à-porte. Soutenable une fois par mois, pas une fois par semaine.",
+      },
+      {
+        heading: "Les régions «campagne réussie» selon les chiffres",
+        body: "Périgord (Dordogne) : densité médicale correcte (105 médecins/100k hab.), prix immobiliers raisonnables (1 800 €/m² hors zones touristiques), tissu associatif solide, gastronomie + culture vivante (festivals d'été). Pays de Loire intérieur (Mayenne, Sarthe) : services intacts, fibre quasi-totale, proximité Paris (2h TGV via Le Mans) et grandes villes (Nantes, Rennes). Avant-pays Basque : qualité de vie exceptionnelle mais prix immobiliers qui ont triplé en 10 ans — plus vraiment «campagne abordable». Ariège : Toulouse à 1h30, paysages, prix bas mais désertification médicale forte. Auvergne profonde (Cantal, Cézallier) : les prix les plus bas de France, mais le projet ne tient que si vous adorez vraiment la nature et acceptez les 30 minutes de voiture quotidiennes. Eux qui réussissent : ceux qui choisissent en fonction d'un emploi, d'une famille déjà présente sur place, ou d'une passion concrète (élevage, vigne, sport outdoor), pas en fonction d'un fantasme.",
+      },
+      {
+        heading: "Vérifications de terrain avant de signer",
+        body: "Faites le trajet en hiver, par temps de pluie ou neige. Beaucoup de campagnes vendues sur des photos d'été deviennent oppressantes de novembre à mars (jours courts, brumes, jardins boueux). Allez à la mairie de la commune : demandez le projet local d'urbanisme (PLU), les permis de construire récents (un projet de centre logistique à 2 km change tout), la vitalité associative. Allez à la pharmacie : c'est le meilleur indicateur du tissu médical et social d'un village. Si la pharmacienne tient un fichier de patients orphelins de médecin et soupire en l'évoquant, c'est un signal. Allez au café du dimanche matin : qui est là, est-ce que ça parle, est-ce qu'il y a des gens de votre âge ? Le test à 3 mois : louer avant d'acheter, idéalement sur un trimestre d'hiver, voir comment la routine tient avant d'engager 200 000 € et un déménagement.",
+      },
+    ],
+    relatedCities: ["aurillac", "mende", "rodez", "figeac", "tulle", "le-puy-en-velay"],
+    relatedGuides: [
+      "vivre-en-auvergne-profonde-guide-2026",
+      "vivre-en-perigord-dordogne-guide-2026",
+      "vivre-en-creuse-guide-2026",
+      "vivre-en-ariege-guide-2026",
+      "teletravailler-depuis-auvergne-guide-2026",
+      "meilleures-villes-zero-dechet-ecologie-france-2026",
+    ],
+    tags: ["vivre à la campagne", "néo-rural", "exode urbain", "télétravail rural", "Périgord", "Auvergne", "fibre rurale", "désert médical", "Cantal"],
+  },
+  {
+    slug: "meilleures-villes-universitaires-etudiants-etrangers-france-2026",
+    title: "Meilleures villes universitaires françaises pour les étudiants étrangers — 2026",
+    metaTitle: "Universités France étudiants étrangers 2026 : Toulouse, Lyon, Montpellier, Strasbourg",
+    metaDesc:
+      "Logement étudiant, démarches préfecture, services internationaux, coût de la vie : les villes françaises les plus accueillantes pour les étudiants internationaux en 2026.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 8,
+    publishedAt: "2026-05-13",
+    updatedAt: "2026-05-13",
+    intro:
+      "La France accueille environ 430 000 étudiants étrangers chaque année, selon Campus France — c'est le 6e pays d'accueil mondial. Mais l'expérience varie énormément selon la ville d'inscription : démarches préfectorales fluides ou cauchemardesques, logement abordable ou inaccessible, communauté internationale visible ou diluée, services en anglais ou inexistants. Ce guide classe les villes universitaires françaises selon cinq critères qui comptent réellement pour un étudiant international : disponibilité du logement, qualité des services internationaux des universités, efficacité de la préfecture, coût de la vie, et vivacité de la communauté étudiante étrangère.",
+    sections: [
+      {
+        heading: "Toulouse : le bon compromis qualité-prix",
+        body: "Toulouse accueille 130 000 étudiants dont 18 000 internationaux, principalement à l'Université Toulouse Capitole, Toulouse Jean Jaurès et Toulouse III Paul Sabatier. Atouts : logement CROUS très bien doté (~12 000 places, attribution équitable), loyers privés contenus (~430 €/mois pour un studio en colocation), forte communauté Erasmus très visible (associations, soirées, voyages). Préfecture de la Haute-Garonne : depuis 2022, plateforme en ligne pour les titres de séjour étudiants, délais de 6–10 semaines. Climat ensoleillé (210 jours/an), pôle aéronautique (Airbus) ouvrant des stages techniques. Limites : la préfecture sature en septembre-octobre (gros volume d'arrivées simultanées) — prendre rendez-vous dès l'attribution Campus France.",
+      },
+      {
+        heading: "Lyon : prestige académique + tissu international fort",
+        body: "Lyon accueille 160 000 étudiants dont 22 000 internationaux. Trois universités phares : Lyon 1 (sciences, santé), Lyon 2 (sciences humaines), Lyon 3 (droit, économie). Plus l'INSA, l'École Centrale, EM Lyon, et de nombreuses écoles d'ingénieurs. Atouts : forte connexion avec entreprises internationales (Sanofi, Veolia, biotech), métro et tramway efficace pour étudiants sans voiture, communauté internationale très active (ESN Lyon, plus de 60 nationalités représentées). Coût : ~500 €/mois pour studio meublé, ~600 €/mois en centre-ville. Préfecture du Rhône : délais 8–12 semaines, plateforme en ligne fonctionnelle. CHU et plateaux techniques permettent stages médicaux et scientifiques de très haut niveau.",
+      },
+      {
+        heading: "Montpellier : ville étudiante par excellence + climat",
+        body: "Montpellier est statistiquement la ville la plus étudiante de France : 80 000 étudiants sur 300 000 habitants, soit 27 % de la population. Université de Montpellier (sciences, santé, droit), Paul Valéry (lettres, langues), plus Polytech, Sup de Co, et écoles spécialisées. ~12 000 étudiants internationaux. Atouts : climat méditerranéen (300 jours de soleil), proximité mer (Palavas, La Grande-Motte à 15 min en tram), tissu associatif dense, sortie étudiante très active. Faiblesse : pression sur le logement (loyers en hausse de 8 % en 2 ans, ~510 €/mois studio), préfecture de l'Hérault avec délais variables. Réservation logement Crous fortement recommandée dès mars pour rentrée septembre.",
+      },
+      {
+        heading: "Strasbourg : Europe + bilingue",
+        body: "Strasbourg accueille 60 000 étudiants dont 11 000 internationaux. L'Université de Strasbourg est régulièrement classée dans le top 100 mondial (Shanghai), particulièrement reconnue en sciences dures, médecine, et droit européen. Position géographique unique : capitale parlementaire européenne, frontière allemande à 5 km. Atouts : nombreux cours dispensés en anglais (master M2 essentiellement bilingues), stages Conseil de l'Europe + Parlement européen, climat universitaire international très marqué, transports doux (vélo, tram). Le revers : climat continental rude (hivers froids, étés ponctuellement caniculaires), coût immobilier en hausse (~500–600 €/mois studio). Préfecture du Bas-Rhin : délais 7–9 semaines.",
+      },
+      {
+        heading: "Aix-Marseille, Bordeaux, Nantes : alternatives sérieuses",
+        body: "Aix-Marseille : 75 000 étudiants, climat exceptionnel, mais campus très éclatés (Marseille-centre, Luminy, Aix-en-Provence) — vérifier la localisation du master avant de choisir un logement. Aix-en-Provence : ambiance bourgeoise, coût plus élevé. Bordeaux : 95 000 étudiants, ville magnifique, économie dynamique, mais immobilier en forte hausse (~520 €/mois studio centre). Université de Bordeaux bien classée pour sciences, santé, droit. Nantes : 70 000 étudiants, port atlantique, qualité de vie reconnue, plus accessible côté loyers (~440 €/mois studio en colocation), bonne ouverture entreprise (Airbus, Atlantique). Préfectures : Gironde fluide, Loire-Atlantique correcte, Bouches-du-Rhône plus chargée (anticiper).",
+      },
+      {
+        heading: "Démarches à ne pas rater avant l'arrivée",
+        body: "1. Campus France : votre dossier doit être accepté en pays d'origine — délai 3–6 mois avant la rentrée. 2. Visa long séjour étudiant (VLS-TS) : à valider dans les 3 mois suivant l'arrivée via l'OFII (en ligne, ~50 €) — c'est ce qui sert de titre de séjour la première année. 3. Logement CROUS : candidature en mai sur trouverunlogement.lescrous.fr — priorité aux boursiers du gouvernement français mais places disponibles aussi pour étudiants payants. 4. Numéro de Sécurité sociale étudiant : automatique via etudiant-etranger.ameli.fr dès inscription universitaire. Couvre 70 % des frais médicaux — complémentaire (mutuelle) fortement recommandée. 5. Compte bancaire français : nécessaire pour APL, virements. La Banque Postale et BoursoBank acceptent les étudiants étrangers avec attestation universitaire. 6. APL (aide personnalisée au logement) : ouverte aux étudiants étrangers sous conditions, demande sur caf.fr. Peut représenter 100–250 €/mois selon loyer et revenus. Ne pas l'oublier — beaucoup d'étudiants étrangers ne savent pas qu'ils y ont droit.",
+      },
+    ],
+    relatedCities: ["toulouse", "lyon", "montpellier", "strasbourg", "bordeaux", "nantes", "aix-en-provence"],
+    relatedGuides: [
+      "meilleures-villes-entrepreneurs-startups-france-2026",
+      "expatries-retour-france-quelle-ville-2026",
+      "survivre-etudiant-province-moins-700-euros-2026",
+      "meilleures-villes-colocation-jeunes-actifs-2026",
+    ],
+    tags: ["étudiants étrangers", "université", "Campus France", "logement étudiant", "Toulouse", "Lyon", "Montpellier", "Strasbourg", "international"],
+  },
+  {
+    slug: "vivre-dans-le-vaucluse-guide-2026",
+    title: "Vivre dans le Vaucluse — Provence authentique, mistral inclus — Guide 2026",
+    metaTitle: "Vivre dans le Vaucluse 2026 : Avignon, Carpentras, Luberon — coût et qualité de vie",
+    metaDesc:
+      "Avignon, Orange, Carpentras, Luberon : que vaut vraiment le Vaucluse en 2026 ? Climat, prix de l'immobilier, transports, désert médical. Le vrai bilan d'une installation provençale.",
+    category: "region",
+    emoji: "🌻",
+    readMinutes: 8,
+    publishedAt: "2026-05-13",
+    updatedAt: "2026-05-13",
+    intro:
+      "Le Vaucluse est cette Provence qu'on croit déjà connaître par les cartes postales : Avignon et son pont, le Mont Ventoux, les villages perchés du Luberon, les champs de lavande. La réalité 2026 est plus contrastée. Avignon est une ville moyenne attachante mais avec des défis (sécurité, climat extrême). Le Luberon est devenu inabordable pour la classe moyenne. Carpentras et Orange offrent un compromis. Ce guide regarde le Vaucluse sans filtre Instagram : ce que coûte vraiment l'installation, où s'installer selon votre profil, ce qui est sous-tendu par le mistral, et où trouver une vie locale qui ne soit pas une réserve touristique.",
+    sections: [
+      {
+        heading: "Géographie : quatre Vaucluses très différents",
+        body: "1. Avignon et sa couronne (~95 000 hab.) : ville moyenne, gare TGV (2h40 de Paris, 1h de Lyon, 35 min de Marseille), tissu culturel dense (Festival d'Avignon). 2. Le triangle Orange–Carpentras–Cavaillon : zone agricole et viticole (côtes-du-Rhône), villes moyennes (15–30 000 hab.), prix immobiliers raisonnables. 3. Le Luberon (Apt, Gordes, Bonnieux, Lourmarin) : villages très demandés par les expatriés et résidents secondaires — prix immobiliers parmi les plus élevés de Provence intérieure. 4. Le Haut-Vaucluse (Vaison-la-Romaine, Valréas) : campagne plus rude, plus rurale, prix plus accessibles, désertification médicale plus marquée. Le choix entre ces quatre zones détermine entièrement votre projet de vie.",
+      },
+      {
+        heading: "Climat : mistral, canicule, sécheresse",
+        body: "Le Vaucluse a un climat méditerranéen contrasté. Été : caniculaire, températures dépassant 40 °C en plein cœur d'Avignon (2023 : record à 42,9 °C). Pas d'air conditionné systématique dans le logement ancien. Hiver : doux mais ponctué par le mistral, ce vent du nord qui souffle 100–130 jours par an et peut durer 3 à 9 jours d'affilée. Vitesse moyenne 50 km/h, rafales 100+. Effet sur le moral : significatif pour les habitants non originaires de la région. Sécheresse : le Vaucluse est régulièrement en alerte sécheresse (de juin à octobre depuis 2022). Restrictions d'arrosage, jardins difficiles à entretenir sans système économe. Si vous achetez en zone rurale, vérifier le statut du forage/puits — beaucoup sont sur l'aquifère karstique très sensible. Précipitations : surtout concentrées en automne (épisodes cévenols intenses), avec risque d'inondation dans certaines vallées (Sorgue, Coulon).",
+      },
+      {
+        heading: "Avignon : ville-pivot, qualités et défis",
+        body: "Avignon (~94 000 hab.) est la porte d'entrée du Vaucluse. Atouts : TGV direct (Paris en 2h40), CHU efficace, université (10 000 étudiants), tissu culturel exceptionnel pendant le Festival (juillet) et toute l'année (Opéra Grand Avignon, théâtres). Loyer T2 ~620 €/mois, prix à l'achat ~2 200 €/m² intra-muros (avec fortes variations selon quartier). Quartiers à connaître : Intra-muros (touristique mais charmant), Saint-Lazare (résidentiel calme), Champfleury (ouvrier, en gentrification lente), Quartier de la Croix-des-Oiseaux (à éviter pour familles selon SSMSI 2024). Défis : sécurité — Avignon est classée 5e ville française pour les atteintes aux personnes par habitant (Statistique 2024 Ministère Intérieur), problèmes concentrés dans des quartiers spécifiques. Embouteillages aux entrées de ville aux heures de pointe. Habitat ancien souvent mal isolé thermiquement (problème pour les étés).",
+      },
+      {
+        heading: "Le Luberon : trop cher, trop touristique, mais magique",
+        body: "Apt, Bonnieux, Gordes, Lacoste, Roussillon, Ménerbes, Lourmarin : ces villages forment ce que les Anglo-Saxons appellent depuis Peter Mayle «Provence». Conséquence : 30 % des biens immobiliers du Luberon sont des résidences secondaires. Prix à l'achat moyens : 4 500–6 000 €/m², 8 000+ €/m² pour les biens prestige. Locations à l'année très rares (la plupart des propriétaires préfèrent la location saisonnière). Conséquence sociale : villages largement désertés en hiver (commerces fermés, écoles à classe unique). Pour qui ça marche : retraités aisés, télétravailleurs très bien rémunérés, propriétaires de gîtes. Pour qui ça ne marche pas : jeunes familles modestes (logement inaccessible, écoles fragiles), célibataires (vie sociale très limitée hors saison).",
+      },
+      {
+        heading: "Carpentras, Orange, Cavaillon : le compromis raisonnable",
+        body: "Carpentras (28 000 hab.) : ville moyenne, marché du vendredi (le plus grand de Provence), tissu commercial vivant, prix immobiliers 1 700–2 300 €/m². Loyer T2 ~520 €/mois. Atouts : TER vers Avignon (25 min), proximité Mont Ventoux pour les cyclistes/randonneurs, Festival vénasque. Faiblesse : sécurité moyenne, désertification médicale en cours. Orange (29 000 hab.) : héritage romain (Théâtre antique, arc de triomphe UNESCO), Chorégies d'Orange (festival lyrique d'été), prix similaires Carpentras. Mauvaise réputation politique récente mais qualité de vie quotidienne correcte. Cavaillon (27 000 hab.) : ville plus populaire, prix les plus bas du département, désindustrialisation visible, mais position stratégique entre Avignon et Aix-en-Provence (autoroute A7 + TER). Bons compromis pour télétravailleurs cherchant Provence sans budget Luberon.",
+      },
+      {
+        heading: "Services et démographie : ce qui manque",
+        body: "Densité médicale : 102 médecins/100 000 hab. (moyenne nationale 110). Spécialistes concentrés à Avignon. Cardiologie et dermatologie : 4–6 mois d'attente. Pédiatrie : situation tendue partout dans le département. Écoles : ratio acceptable dans les villes, plus fragile dans les villages (classes uniques fréquentes dans le Luberon profond). Transports : la ligne TGV Paris-Avignon-Marseille structure tout. TER Avignon-Carpentras et Avignon-Orange efficaces. Bus inter-villages limités. Sans voiture : Avignon possible, Carpentras/Orange difficile, villages impossibles. Cyclabilité : EuroVélo 17 (ViaRhôna) longe le Rhône, idéale pour Avignon-Orange. Reste du département : routes étroites, dangereuses pour le vélo aux heures de pointe.",
+      },
+    ],
+    relatedCities: ["avignon", "orange", "carpentras", "apt"],
+    relatedGuides: [
+      "vivre-en-roussillon-guide-2026",
+      "teletravailler-depuis-provence-guide-2026",
+      "meilleures-villes-randonnee-trail-france-2026",
+      "vivre-en-corse-guide-2026",
+      "meilleures-villes-seniors-actifs-france-2026",
+    ],
+    tags: ["Vaucluse", "Provence", "Avignon", "Luberon", "Carpentras", "mistral", "climat méditerranéen", "vivre en Provence", "Mont Ventoux"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------

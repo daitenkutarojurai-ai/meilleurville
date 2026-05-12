@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
-import { Menu, X, MapPin, Sparkles, Heart } from "lucide-react";
+import { Menu, X, MapPin, Sparkles, Heart, Search } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { cn } from "@/lib/utils";
 import { FavoriteCount } from "@/components/effects/FavoriteButton";
@@ -30,6 +30,45 @@ function isActive(item: NavItem, pathname: string): boolean {
   if (!item.matchPrefix) return false;
   if (item.matchPrefix === "/") return pathname === "/";
   return pathname === item.matchPrefix || pathname.startsWith(item.matchPrefix + "/");
+}
+
+function openSearchPalette() {
+  if (typeof window === "undefined") return;
+  window.dispatchEvent(new CustomEvent("meilleurville:open-search"));
+}
+
+function SearchTrigger({ compact = false }: { compact?: boolean }) {
+  // Lazy initialiser: read once at mount, no setState-in-effect dance.
+  const [isMac] = useState(() =>
+    typeof navigator !== "undefined" && /Mac|iPad|iPhone/.test(navigator.platform)
+  );
+  if (compact) {
+    return (
+      <button
+        type="button"
+        onClick={openSearchPalette}
+        aria-label="Ouvrir la recherche (Cmd+K)"
+        className="rounded-full p-2 text-[var(--text-secondary)] hover:bg-[var(--bg-elevated)] hover:text-[var(--text-primary)] transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]"
+      >
+        <Search className="h-4 w-4" />
+      </button>
+    );
+  }
+  return (
+    <button
+      type="button"
+      onClick={openSearchPalette}
+      aria-label="Ouvrir la recherche (Cmd+K)"
+      className="group hidden md:inline-flex items-center gap-2 rounded-full border border-[var(--border)] bg-white/60 backdrop-blur px-3 py-1.5 text-xs text-[var(--text-tertiary)] hover:border-[var(--accent)]/40 hover:bg-white hover:text-[var(--text-primary)] transition-all focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]"
+    >
+      <Search className="h-3.5 w-3.5" />
+      <span>Rechercher une ville, un guide…</span>
+      <kbd className="ml-2 inline-flex items-center gap-0.5 rounded border border-[var(--border)] bg-[var(--bg-elevated)] px-1.5 py-0.5 text-[10px] font-mono text-[var(--text-tertiary)] group-hover:text-[var(--text-secondary)]">
+        {isMac ? "⌘" : "Ctrl"}
+        <span>K</span>
+      </kbd>
+    </button>
+  );
 }
 
 export function Navbar() {
@@ -96,6 +135,7 @@ export function Navbar() {
 
         {/* Desktop CTA — visible from md so favoris/quiz are always reachable on tablet */}
         <div className="hidden md:flex items-center gap-2 flex-shrink-0">
+          <SearchTrigger />
           <Link
             href="/favoris"
             className="inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-medium text-[var(--text-secondary)] hover:text-[var(--accent-pink)] hover:bg-[var(--bg-elevated)] transition-colors"
@@ -110,6 +150,11 @@ export function Navbar() {
               Quiz IA
             </Button>
           </Link>
+        </div>
+
+        {/* Mobile: compact search icon next to hamburger */}
+        <div className="md:hidden flex items-center gap-1">
+          <SearchTrigger compact />
         </div>
 
         {/* Hamburger — visible below lg (tablet + mobile) */}

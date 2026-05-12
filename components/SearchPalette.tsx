@@ -137,8 +137,20 @@ export function SearchPalette() {
         setOpen(false);
       }
     }
+    function onOpenEvent() {
+      setOpen((v) => {
+        if (v) return v;
+        setQuery("");
+        setHighlight(0);
+        return true;
+      });
+    }
     window.addEventListener("keydown", onKey);
-    return () => window.removeEventListener("keydown", onKey);
+    window.addEventListener("meilleurville:open-search", onOpenEvent);
+    return () => {
+      window.removeEventListener("keydown", onKey);
+      window.removeEventListener("meilleurville:open-search", onOpenEvent);
+    };
   }, [open]);
 
   useEffect(() => {
