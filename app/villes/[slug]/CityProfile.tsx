@@ -5,7 +5,6 @@ import { MapPin, Star, Sun, Thermometer, Users, TrendingUp, Home, Laptop, Gradua
 import { Badge } from "@/components/ui/Badge";
 import { Card } from "@/components/ui/Card";
 import { ScoreBar } from "@/components/ui/ScoreBar";
-import { Button } from "@/components/ui/Button";
 import { CommentSection } from "@/components/CommentSection";
 import { FavoriteButton } from "@/components/effects/FavoriteButton";
 import { GrainOverlay } from "@/components/effects/GrainOverlay";

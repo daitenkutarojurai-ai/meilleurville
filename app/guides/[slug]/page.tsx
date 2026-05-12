@@ -4,7 +4,6 @@ import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { GuideCard } from "@/components/GuideCard";
-import { Badge } from "@/components/ui/Badge";
 import { CommentSection } from "@/components/CommentSection";
 import { GUIDES, GUIDE_CATEGORIES } from "@/data/guides";
 import { CITIES_SEED } from "@/data/cities-seed";

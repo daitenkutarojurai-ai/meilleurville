@@ -6,7 +6,6 @@ import { CommentSection } from "@/components/CommentSection";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { CityCard } from "@/components/CityCard";
 import { Badge } from "@/components/ui/Badge";
-import { ScoreBar } from "@/components/ui/ScoreBar";
 import { Card } from "@/components/ui/Card";
 import type { City } from "@/lib/types";
 import Link from "next/link";

@@ -98,7 +98,7 @@ Scores (sur 10) :
         },
       }
     );
-  } catch (err) {
+  } catch {
     // Deterministic fallback if Claude is unavailable
     const fallback = buildFallback(city);
     return new Response(JSON.stringify(fallback), {

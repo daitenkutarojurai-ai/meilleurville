@@ -25,7 +25,7 @@ type ClimateType =
   | { id: "oceanic-degraded"; label: "Océanique dégradé"; emoji: "🌤️"; oneLiner: string };
 
 function classifyClimate(c: City): ClimateType {
-  const { latitude, longitude, elevation, region, avgTempJuly, avgTempJanuary } = c;
+  const { latitude, longitude, elevation, region } = c;
 
   // DROM
   if (region === "Martinique" || region === "Guadeloupe") {

@@ -1,10 +1,10 @@
 "use client";
 import { useState, useMemo, useRef, useEffect } from "react";
-import { Plus, X, Search, MapPin, Star, TrendingUp, TrendingDown, Minus } from "lucide-react";
+import { Plus, X, Search, MapPin } from "lucide-react";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
-import { cn, formatScore, scoreColor } from "@/lib/utils";
+import { cn, scoreColor } from "@/lib/utils";
 import Link from "next/link";
 
 type CitySeed = (typeof CITIES_SEED)[number];
@@ -97,14 +97,14 @@ function CityPicker({
           onFocus={() => setOpen(true)}
           placeholder="Rechercher une ville..."
           aria-label="Rechercher une ville à comparer"
-          aria-expanded={open}
           aria-autocomplete="list"
+          aria-controls="city-picker-options"
           className="flex-1 bg-transparent text-sm text-[var(--text-primary)] placeholder:text-[var(--text-secondary)] outline-none"
         />
       </div>
 
       {open && filtered.length > 0 && (
-        <div className="absolute top-full left-0 right-0 z-50 mt-1 overflow-hidden rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] shadow-xl">
+        <div id="city-picker-options" role="listbox" className="absolute top-full left-0 right-0 z-50 mt-1 overflow-hidden rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] shadow-xl">
           {filtered.map((c) => (
             <button
               key={c.slug}
@@ -237,7 +237,7 @@ export function CompareTool() {
                         <span className="mr-2">{emoji}</span>
                         {label}
                       </td>
-                      {cities.map((city, i) =>
+                      {cities.map((city) =>
                         city ? (
                           <td key={city.slug} className="px-6 py-4 text-right">
                             <div className="flex items-center justify-end gap-2">
@@ -296,7 +296,7 @@ export function CompareTool() {
                     key={city.slug}
                     className={cn(
                       "rounded-2xl border p-5 text-center",
-                      wins === Math.max(...selected.map((c, ci) =>
+                      wins === Math.max(...selected.map((c) =>
                         SCORE_ROWS.filter(({ key }) => {
                           const vals = selected.map((s) => s.scores[key]);
                           return c.scores[key] === Math.max(...vals);

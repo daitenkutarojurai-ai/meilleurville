@@ -6,10 +6,6 @@ export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
 export default function Image() {
-  const top3 = [...CITIES_SEED]
-    .sort((a, b) => b.scores.global - a.scores.global)
-    .slice(0, 3);
-
   return new ImageResponse(
     (
       <div

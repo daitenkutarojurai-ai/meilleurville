@@ -1,0 +1,89 @@
+import { ImageResponse } from "next/og";
+import { CITIES_SEED } from "@/data/cities-seed";
+
+export const alt = "Écoles et études — MeilleurVille";
+export const size = { width: 1200, height: 630 };
+export const contentType = "image/png";
+
+type Props = { params: Promise<{ slug: string }> };
+
+function scoreColor(score: number): string {
+  if (score >= 7.5) return "#A855F7";
+  if (score >= 7.0) return "#16A34A";
+  if (score >= 6.0) return "#84CC16";
+  if (score >= 5.0) return "#F59E0B";
+  if (score >= 4.0) return "#F97316";
+  return "#EF4444";
+}
+
+export default async function Image({ params }: Props) {
+  const { slug } = await params;
+  const city = CITIES_SEED.find((c) => c.slug === slug);
+  if (!city) return new Response("Not found", { status: 404 });
+
+  const eScore = city.scores.schools;
+  const color = scoreColor(eScore);
+
+  return new ImageResponse(
+    (
+      <div
+        style={{
+          width: "100%",
+          height: "100%",
+          background: "linear-gradient(135deg, #0d1117 0%, #15201a 60%, #0e1f2a 100%)",
+          display: "flex",
+          flexDirection: "column",
+          fontFamily: "system-ui, -apple-system, sans-serif",
+          padding: "60px",
+          justifyContent: "space-between",
+        }}
+      >
+        <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+            <div style={{ width: 32, height: 32, background: "#7c6af0", borderRadius: 8, display: "flex", alignItems: "center", justifyContent: "center", color: "white", fontSize: 18, fontWeight: 900 }}>M</div>
+            <span style={{ color: "#7c6af0", fontSize: 20, fontWeight: 700 }}>MeilleurVille</span>
+          </div>
+          <div style={{ background: "rgba(255,255,255,0.05)", border: "1px solid #30363d", borderRadius: 8, padding: "6px 14px", color: "#8b949e", fontSize: 14 }}>
+            Écoles & études
+          </div>
+        </div>
+
+        <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+          <div style={{ color: "#8b949e", fontSize: 16, letterSpacing: 2, textTransform: "uppercase" }}>
+            Étudier à
+          </div>
+          <div style={{ color: "#f0f6fc", fontSize: city.name.length > 12 ? 80 : 96, fontWeight: 900, lineHeight: 1 }}>
+            {city.name}
+          </div>
+        </div>
+
+        <div style={{ display: "flex", alignItems: "flex-end", justifyContent: "space-between" }}>
+          <div style={{ background: "rgba(255,255,255,0.04)", border: `2px solid ${color}55`, borderRadius: 18, padding: "24px 36px", display: "flex", flexDirection: "column", alignItems: "center", gap: 4 }}>
+            <div style={{ color, fontSize: 80, fontWeight: 900, lineHeight: 1 }}>{eScore.toFixed(1)}</div>
+            <div style={{ color: "#8b949e", fontSize: 14 }}>Score écoles · /10</div>
+          </div>
+
+          <div style={{ display: "flex", flexDirection: "column", gap: 12, minWidth: 380 }}>
+            {([
+              { label: "Écoles", score: city.scores.schools },
+              { label: "Sécurité", score: city.scores.safety },
+              { label: "Culture", score: city.scores.culture },
+            ] as const).map(({ label, score }) => {
+              const c = scoreColor(score);
+              return (
+                <div key={label} style={{ display: "flex", alignItems: "center", gap: 12 }}>
+                  <div style={{ color: "#8b949e", fontSize: 14, width: 90, textAlign: "right" }}>{label}</div>
+                  <div style={{ flex: 1, height: 10, background: "#21262d", borderRadius: 5, overflow: "hidden", display: "flex" }}>
+                    <div style={{ width: `${score * 10}%`, height: "100%", background: c, borderRadius: 5 }} />
+                  </div>
+                  <div style={{ color: c, fontSize: 14, fontWeight: 700, width: 32 }}>{score.toFixed(1)}</div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </div>
+    ),
+    { ...size }
+  );
+}

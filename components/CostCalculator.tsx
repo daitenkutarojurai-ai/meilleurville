@@ -6,7 +6,6 @@ import { HOUSING } from "@/data/housing";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 
-const PARIS_T2_RENT = 1400;
 const PARIS_CHARGES = 180;
 const PARIS_TRANSPORT = 86;
 const PARIS_FOOD_INDEX = 100;
@@ -100,7 +99,7 @@ export function CostCalculator() {
 
       {/* Results */}
       <div className="space-y-2">
-        {cities.map(({ city, housing, totalMonthlySavings, annualSavings, savingsPct }) => {
+        {cities.map(({ city, housing, totalMonthlySavings, annualSavings }) => {
           const positive = totalMonthlySavings > 0;
           return (
             <Link

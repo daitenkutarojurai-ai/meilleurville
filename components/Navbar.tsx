@@ -5,7 +5,7 @@ import { Menu, X, MapPin, Sparkles, Heart } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { cn } from "@/lib/utils";
 import { FavoriteCount } from "@/components/effects/FavoriteButton";
-import { SearchShortcut } from "@/components/SearchShortcut";
+import { SearchPalette } from "@/components/SearchPalette";
 
 const NAV_LINKS = [
   { label: "Classements", href: "/classements" },
@@ -29,7 +29,7 @@ export function Navbar() {
 
   return (
     <>
-    <SearchShortcut />
+    <SearchPalette />
     <nav
       className={cn(
         "sticky top-0 z-50 transition-all duration-300",

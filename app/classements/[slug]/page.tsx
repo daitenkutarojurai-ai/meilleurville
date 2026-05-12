@@ -7,7 +7,6 @@ import { AmbientBackground } from "@/components/AmbientBackground";
 import { CommentSection } from "@/components/CommentSection";
 import { RANKING_META, getRankedCities, type RankingSlug } from "@/lib/rankings";
 import { CityCard } from "@/components/CityCard";
-import { Badge } from "@/components/ui/Badge";
 import { Card } from "@/components/ui/Card";
 import { CheckCircle, TrendingUp, TrendingDown, Minus, Info } from "lucide-react";
 import { HOUSING } from "@/data/housing";
@@ -41,7 +40,6 @@ export default async function RankingPage({ params }: Props) {
   const meta = RANKING_META[slug as RankingSlug];
   const ranked = getRankedCities(slug as RankingSlug);
   const top3 = ranked.slice(0, 3);
-  const rest = ranked.slice(3);
 
   // Map ranking category to relevant guide categories
   const guideCategoryMap: Record<string, string[]> = {
