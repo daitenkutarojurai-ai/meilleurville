@@ -7,8 +7,7 @@ export const contentType = "image/png";
 type Props = { params: Promise<{ pair: string }> };
 
 function scoreColor(score: number): string {
-  if (score >= 9.5) return "#EAB308";
-  if (score >= 7.5) return "#10b981";
+  if (score >= 7.5) return "#EAB308";
   if (score >= 6) return "#f59e0b";
   return "#ef4444";
 }
