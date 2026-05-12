@@ -8,8 +8,11 @@ type Props = { params: Promise<{ pair: string }> };
 
 function scoreColor(score: number): string {
   if (score >= 7.5) return "#EAB308";
-  if (score >= 6) return "#f59e0b";
-  return "#ef4444";
+  if (score >= 7.0) return "#16A34A";
+  if (score >= 6.0) return "#84CC16";
+  if (score >= 5.0) return "#F59E0B";
+  if (score >= 4.0) return "#F97316";
+  return "#EF4444";
 }
 
 export default async function Image({ params }: Props) {

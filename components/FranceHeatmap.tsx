@@ -518,11 +518,12 @@ export function FranceHeatmap() {
             <div className="relative mt-4 flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-xs">
               <span className="text-[#A8C4A8]">Score :</span>
               {[
-                { c: "#FB923C", l: "<4.5" },
-                { c: "#F59E0B", l: "4.5–5.5" },
-                { c: "#84CC16", l: "5.5–6.5" },
-                { c: "#22C55E", l: "6.5–7.5" },
-                { c: "#059669", l: "≥7.5" },
+                { c: "#EF4444", l: "< 4.0" },
+                { c: "#F97316", l: "4.0–5.0" },
+                { c: "#F59E0B", l: "5.0–6.0" },
+                { c: "#84CC16", l: "6.0–7.0" },
+                { c: "#16A34A", l: "7.0–7.5" },
+                { c: "#EAB308", l: "≥ 7.5 ✦" },
               ].map((s) => (
                 <span key={s.l} className="flex items-center gap-1.5">
                   <span className="h-2.5 w-2.5 rounded-full" style={{ background: s.c, boxShadow: `0 0 10px ${s.c}` }} />
@@ -551,7 +552,7 @@ export function FranceHeatmap() {
                   <div className="text-[11px] text-[var(--text-secondary)]">score moyen</div>
                 </div>
                 <div>
-                  <div className="text-2xl font-bold font-mono-data text-emerald-600">{stats.best.toFixed(1)}</div>
+                  <div className="text-2xl font-bold font-mono-data" style={{ color: scoreColor(stats.best) }}>{stats.best.toFixed(1)}</div>
                   <div className="text-[11px] text-[var(--text-secondary)]">meilleure ville</div>
                 </div>
                 <div>
@@ -609,7 +610,7 @@ export function FranceHeatmap() {
               </p>
               <p className="relative text-xs text-[var(--text-secondary)] leading-relaxed">
                 Les gros points = grandes villes. Les petits = pépites de campagne.
-                Plus c&apos;est vert, plus on s&apos;y sent bien.
+                Or = exceptionnel · vert = excellent · jaune = moyen · rouge = en dessous.
               </p>
             </div>
 
