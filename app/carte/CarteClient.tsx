@@ -55,6 +55,7 @@ function isMetropolitan(lng: number, lat: number): boolean {
 }
 
 function scoreColor(score: number): string {
+  if (score >= 9.5) return "#EAB308"; // gold — légendaire
   if (score >= 7.5) return "#059669"; // emerald — exceptionnel
   if (score >= 7.0) return "#16A34A"; // green — excellent
   if (score >= 6.0) return "#84CC16"; // lime — bon

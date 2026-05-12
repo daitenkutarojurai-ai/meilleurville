@@ -29,7 +29,8 @@ export function ScoreBar({ label, score, max = 10, className }: ScoreBarProps) {
 
   const pct = Math.min(100, (score / max) * 100);
   const color =
-    score >= 7.5 ? "bg-emerald-500"
+    score >= 9.5 ? "bg-yellow-400"
+    : score >= 7.5 ? "bg-emerald-500"
     : score >= 7.0 ? "bg-green-500"
     : score >= 6.0 ? "bg-lime-500"
     : score >= 5.0 ? "bg-amber-400"
