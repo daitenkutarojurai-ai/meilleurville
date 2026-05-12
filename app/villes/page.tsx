@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 export default function VillesPage() {
   const count = CITIES_SEED.length;
   const avg = (CITIES_SEED.reduce((s, c) => s + c.scores.global, 0) / count).toFixed(1);
-  const topPct = Math.round((CITIES_SEED.filter((c) => c.scores.global >= 8.0).length / count) * 100);
+  const topPct = Math.round((CITIES_SEED.filter((c) => c.scores.global >= 7.5).length / count) * 100);
 
   return (
     <main className="min-h-screen relative">

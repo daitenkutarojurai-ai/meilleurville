@@ -75,18 +75,22 @@ components/
 `score-calibration.ts`. Don't touch `score-distribution.ts` for a single
 city — the rescaler is designed to keep relative ranking stable.
 
-## Score colour scale (6 tiers — applied in lib/utils.ts, CityCard, FranceHeatmap, DromStrip, CarteClient, ScoreBar)
+## Score colour scale (6 tiers — applied in lib/utils.ts, CityCard, FranceHeatmap, DromStrip, CarteClient, ScoreBar, all opengraph-image.tsx)
 
-| Range  | Colour  | Meaning        |
-|--------|---------|----------------|
-| ≥ 8.0  | Emerald | Excellent — rare |
-| ≥ 7.0  | Green   | Bon            |
-| ≥ 6.0  | Lime    | Au-dessus de la moyenne |
-| ≥ 5.0  | Amber   | Moyen          |
-| ≥ 4.0  | Orange  | En dessous     |
-| < 4.0  | Red     | Mauvais        |
+| Range  | Colour  | Count (352 cities) | Meaning        |
+|--------|---------|-------------------|----------------|
+| ≥ 7.5  | Emerald | ~3 (0.9%)         | Exceptionnel — très rare |
+| ≥ 7.0  | Green   | ~22 (6.3%)        | Excellent      |
+| ≥ 6.0  | Lime    | ~100 (28%)        | Bon            |
+| ≥ 5.0  | Amber   | ~116 (33%)        | Moyen          |
+| ≥ 4.0  | Orange  | ~63 (18%)         | En dessous     |
+| < 4.0  | Red     | ~48 (14%)         | Mauvais        |
 
-With a distribution mean ≈ 5.7 most cities land in amber/lime — intentionally few greens.
+Distribution mean ≈ 5.42 (down from 5.81 with tightened algo). Penalties now:
+- `worstPenalty = max(0, 4.5 − worst_axis) × 0.35` — fires when any axis < 4.5
+- `safetyPenalty = (4.5 − safety) × 0.25` when safety < 4.5
+- `standoutBonus = max(0, top3_mean − 7.5) × 0.35` — only truly exceptional top-3
+- `TARGET_STD = 1.7` for per-axis z-score spread
 
 ## Conventions
 

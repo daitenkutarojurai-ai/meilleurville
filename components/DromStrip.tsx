@@ -10,12 +10,12 @@ const DROM = [
 ] as const;
 
 function scoreColor(score: number): string {
-  if (score >= 8.0) return "#059669"; // emerald — excellent
-  if (score >= 7.0) return "#16A34A"; // green — good
-  if (score >= 6.0) return "#84CC16"; // lime — above avg
-  if (score >= 5.0) return "#F59E0B"; // amber — average
-  if (score >= 4.0) return "#F97316"; // orange — below avg
-  return "#EF4444";                   // red — poor
+  if (score >= 7.5) return "#059669"; // emerald — exceptionnel
+  if (score >= 7.0) return "#16A34A"; // green — excellent
+  if (score >= 6.0) return "#84CC16"; // lime — bon
+  if (score >= 5.0) return "#F59E0B"; // amber — moyen
+  if (score >= 4.0) return "#F97316"; // orange — en dessous
+  return "#EF4444";                   // red — mauvais
 }
 
 export function DromStrip() {

@@ -14,7 +14,7 @@ interface CityCardProps {
 }
 
 function gradientForScore(score: number) {
-  if (score >= 8.0) return "from-emerald-500 via-emerald-400 to-green-400";
+  if (score >= 7.5) return "from-emerald-500 via-emerald-400 to-green-400";
   if (score >= 7.0) return "from-green-500 via-lime-400 to-lime-300";
   if (score >= 6.0) return "from-lime-400 via-yellow-300 to-amber-300";
   if (score >= 5.0) return "from-amber-400 via-amber-300 to-yellow-200";
@@ -25,7 +25,7 @@ function gradientForScore(score: number) {
 export function CityCard({ city, rank, delta, className }: CityCardProps) {
   const score = city.scores.global;
   const scoreColor =
-    score >= 8.0 ? "text-emerald-600"
+    score >= 7.5 ? "text-emerald-600"
     : score >= 7.0 ? "text-green-600"
     : score >= 6.0 ? "text-lime-600"
     : score >= 5.0 ? "text-amber-600"

@@ -30,7 +30,7 @@ interface City {
 }
 
 const TARGET_MEAN = 5.7;
-const TARGET_STD = 1.5;
+const TARGET_STD = 1.7;
 const MIN = 2.2;
 const MAX = 9.0;
 
@@ -69,18 +69,19 @@ function computeGlobal(s: CityScore): number {
 
   const axes = [s.life, s.safety, s.cost, s.nature, s.transport, s.culture, s.schools, s.remoteWork];
 
-  // Worst-axis penalty: severely weak axes drag the score down.
+  // Worst-axis penalty: any axis below 4.5 drags the global down.
+  // Threshold raised from 3.5 → 4.5 so mediocre axes are punished earlier.
   const worst = Math.min(...axes);
-  const worstPenalty = Math.max(0, 3.5 - worst) * 0.25;
+  const worstPenalty = Math.max(0, 4.5 - worst) * 0.35;
 
   // Safety bite: real insecurity is a deal-breaker.
-  const safetyPenalty = s.safety < 4 ? (4 - s.safety) * 0.20 : 0;
+  const safetyPenalty = s.safety < 4.5 ? (4.5 - s.safety) * 0.25 : 0;
 
-  // Standout bonus: cities with multiple strong axes deserve credit.
-  // Average of top-3 axes minus 7 → if a city has 3 axes ≥7.5, it gains ~0.3.
+  // Standout bonus: only truly exceptional top-3 earn extra credit.
+  // Threshold raised 7.0 → 7.5 and multiplier cut 0.6 → 0.35 so it's rare.
   const top3 = [...axes].sort((a, b) => b - a).slice(0, 3);
   const top3Mean = top3.reduce((a, b) => a + b, 0) / 3;
-  const standoutBonus = Math.max(0, top3Mean - 7.0) * 0.6;
+  const standoutBonus = Math.max(0, top3Mean - 7.5) * 0.35;
 
   const raw = weighted - worstPenalty - safetyPenalty + standoutBonus;
   return Math.round(clamp(raw, GLOBAL_MIN, GLOBAL_MAX) * 10) / 10;

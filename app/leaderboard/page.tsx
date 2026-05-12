@@ -25,7 +25,7 @@ const MEDAL = ["🥇", "🥈", "🥉"];
 const sorted = [...CITIES_SEED].sort((a, b) => b.scores.global - a.scores.global);
 
 function scoreClass(s: number) {
-  if (s >= 8) return "text-emerald-600";
+  if (s >= 7.5) return "text-emerald-600";
   if (s >= 6) return "text-amber-400";
   return "text-red-500";
 }

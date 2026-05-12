@@ -36,7 +36,7 @@ export function formatSunshineDays(value: number | null | undefined): string {
 }
 
 export function scoreColor(score: number): string {
-  if (score >= 8.0) return "text-emerald-500";
+  if (score >= 7.5) return "text-emerald-500";
   if (score >= 7.0) return "text-green-500";
   if (score >= 6.0) return "text-lime-500";
   if (score >= 5.0) return "text-amber-400";
@@ -45,7 +45,7 @@ export function scoreColor(score: number): string {
 }
 
 export function scoreBg(score: number): string {
-  if (score >= 8.0) return "bg-emerald-500/12 border-emerald-500/35";
+  if (score >= 7.5) return "bg-emerald-500/12 border-emerald-500/35";
   if (score >= 7.0) return "bg-green-500/10 border-green-500/30";
   if (score >= 6.0) return "bg-lime-500/10 border-lime-500/30";
   if (score >= 5.0) return "bg-amber-400/10 border-amber-400/30";
