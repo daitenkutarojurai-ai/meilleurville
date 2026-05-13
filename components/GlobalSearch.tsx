@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { Search, X } from "lucide-react";
 
@@ -31,6 +31,14 @@ const TYPE_META: Record<Hit["type"], { label: string; emoji: string; color: stri
 export function GlobalSearch({ cities, guides, tags, glossary }: Props) {
   const [q, setQ] = useState("");
   const query = normalize(q.trim());
+
+  // Hydrate from ?q= so links like /recherche?q=lyon and the Google sitelinks
+  // SearchAction land users on a pre-filled result list.
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const initial = params.get("q");
+    if (initial) setQ(initial);
+  }, []);
 
   const allHits: Hit[] = useMemo(() => {
     return [

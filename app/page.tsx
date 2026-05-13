@@ -31,7 +31,7 @@ const websiteJsonLd = {
     "@type": "SearchAction",
     target: {
       "@type": "EntryPoint",
-      urlTemplate: `${BASE_URL}/villes?q={search_term_string}`,
+      urlTemplate: `${BASE_URL}/recherche?q={search_term_string}`,
     },
     "query-input": "required name=search_term_string",
   },
