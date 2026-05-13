@@ -3,6 +3,7 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { RANKING_META } from "@/lib/rankings";
 import { GUIDES } from "@/data/guides";
 import { SEO_PAIRS } from "@/lib/comparer-pairs";
+import { TAG_SLUGS } from "@/lib/guide-tags";
 
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://meilleurville.fr";
 
@@ -24,6 +25,7 @@ const SITEMAP_CHUNKS = [
   "classements",
   "regions",
   "departements",
+  "tags",
 ] as const;
 
 type Chunk = (typeof SITEMAP_CHUNKS)[number];
@@ -155,6 +157,18 @@ function regionsSection(): MetadataRoute.Sitemap {
   }));
 }
 
+function tagsSection(): MetadataRoute.Sitemap {
+  return [
+    { url: `${BASE_URL}/tags`, lastModified: latestGuideUpdate(), changeFrequency: "weekly", priority: 0.6 },
+    ...TAG_SLUGS.map((slug) => ({
+      url: `${BASE_URL}/tags/${slug}`,
+      lastModified: latestGuideUpdate(),
+      changeFrequency: "weekly" as const,
+      priority: 0.5,
+    })),
+  ];
+}
+
 function departementsSection(): MetadataRoute.Sitemap {
   const depts = [...new Set(CITIES_SEED.map((c) => c.department))];
   return depts.map((d) => ({
@@ -178,6 +192,7 @@ export default async function sitemap({ id }: { id: Promise<string> }): Promise<
     case "classements": return classementsSection();
     case "regions": return regionsSection();
     case "departements": return departementsSection();
+    case "tags": return tagsSection();
     default: return [];
   }
 }

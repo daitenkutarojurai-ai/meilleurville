@@ -9,6 +9,7 @@ import { GUIDES, GUIDE_CATEGORIES } from "@/data/guides";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { linkifyCities } from "@/lib/link-cities";
 import { suggestNextGuides } from "@/lib/guide-suggestions";
+import { slugifyTag, TAG_SLUGS } from "@/lib/guide-tags";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -187,13 +188,25 @@ export default async function GuidePage({ params }: Props) {
               ))}
             </div>
 
-            {/* Tags */}
+            {/* Tags — linked when the tag has a /tags/[slug] aggregate page */}
             <div className="flex flex-wrap gap-2 mt-10 pt-8 border-t border-[var(--border)]">
-              {guide.tags.map((tag) => (
-                <span key={tag} className="text-xs px-3 py-1 rounded-full bg-[var(--bg-elevated)] border border-[var(--border)] text-[var(--text-secondary)]">
-                  {tag}
-                </span>
-              ))}
+              {guide.tags.map((tag) => {
+                const tagSlug = slugifyTag(tag);
+                const hasPage = TAG_SLUGS.includes(tagSlug);
+                return hasPage ? (
+                  <Link
+                    key={tag}
+                    href={`/tags/${tagSlug}`}
+                    className="text-xs px-3 py-1 rounded-full bg-[var(--bg-elevated)] border border-[var(--border)] text-[var(--text-secondary)] hover:text-[var(--accent)] hover:border-[var(--accent)]/40 transition-colors"
+                  >
+                    {tag}
+                  </Link>
+                ) : (
+                  <span key={tag} className="text-xs px-3 py-1 rounded-full bg-[var(--bg-elevated)] border border-[var(--border)] text-[var(--text-secondary)]">
+                    {tag}
+                  </span>
+                );
+              })}
             </div>
 
             {/* Lire ensuite — auto-suggested by category + city + tag overlap */}
