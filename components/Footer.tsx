@@ -27,6 +27,7 @@ const LINKS = {
     { label: "Glossaire", href: "/glossaire" },
     { label: "Calendrier immobilier", href: "/calendrier-immobilier" },
     { label: "Tous les outils", href: "/outils" },
+    { label: "Recherche globale", href: "/recherche" },
     { label: "Flux RSS guides", href: "/feed.xml" },
     { label: "Mentions légales", href: "/mentions-legales" },
   ],
