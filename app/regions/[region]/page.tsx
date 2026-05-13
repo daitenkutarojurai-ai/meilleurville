@@ -144,6 +144,12 @@ export default async function RegionPage({ params }: Props) {
   const regionGuide = GUIDES.find((g) =>
     g.category === "region" && g.relatedCities.some((slug) => cities.some((c) => c.slug === slug))
   );
+  const regionCitySlugs = new Set(cities.map((c) => c.slug));
+  const regionGuides = GUIDES.filter((g) =>
+    g.relatedCities.some((s) => regionCitySlugs.has(s))
+  )
+    .sort((a, b) => new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime())
+    .slice(0, 9);
 
   const baseUrl = process.env.NEXT_PUBLIC_BASE_URL ?? "https://meilleurville.fr";
 
@@ -289,6 +295,35 @@ export default async function RegionPage({ params }: Props) {
                   </Link>
                 );
               })}
+            </div>
+          </section>
+        )}
+
+        {/* Guides relating to this region */}
+        {regionGuides.length > 0 && (
+          <section className="mb-10">
+            <div className="flex items-baseline justify-between mb-5">
+              <h2 className="text-lg font-bold text-[var(--text-primary)]">
+                {regionGuides.length} guides liés à {regionName}
+              </h2>
+              <Link href="/guides" className="text-xs text-[var(--accent)] hover:underline">
+                Tous les guides →
+              </Link>
+            </div>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+              {regionGuides.map((g) => (
+                <Link
+                  key={g.slug}
+                  href={`/guides/${g.slug}`}
+                  className="group rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-4 hover:border-[var(--accent)] transition-colors"
+                >
+                  <span className="text-2xl mb-2 block">{g.emoji}</span>
+                  <p className="text-sm font-semibold text-[var(--text-primary)] leading-snug group-hover:text-[var(--accent)] transition-colors line-clamp-3">
+                    {g.title}
+                  </p>
+                  <p className="text-xs text-[var(--text-tertiary)] mt-2">{g.readMinutes} min</p>
+                </Link>
+              ))}
             </div>
           </section>
         )}

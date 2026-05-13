@@ -61,7 +61,15 @@ export default async function RankingPage({ params }: Props) {
     "jeunes-actifs": ["lifestyle", "budget", "teletravail"],
   };
   const allowedCategories = guideCategoryMap[slug] ?? ["lifestyle"];
-  const relatedGuides = GUIDES.filter((g) => allowedCategories.includes(g.category)).slice(0, 3);
+  const topCitySlugs = new Set(ranked.slice(0, 10).map((r) => r.city.slug));
+  const relatedGuides = GUIDES.filter((g) => allowedCategories.includes(g.category))
+    .map((g) => {
+      const overlap = g.relatedCities.filter((s) => topCitySlugs.has(s)).length;
+      return { g, score: overlap * 2, date: new Date(g.updatedAt).getTime() };
+    })
+    .sort((a, b) => (b.score !== a.score ? b.score - a.score : b.date - a.date))
+    .slice(0, 6)
+    .map((x) => x.g);
 
   const topName = ranked[0]?.city.name ?? "—";
   const topScore = ranked[0]?.score ?? 0;
