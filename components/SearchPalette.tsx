@@ -3,16 +3,41 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import { Search, MapPin, BookOpen, Trophy, Globe2, X } from "lucide-react";
+import { Search, MapPin, BookOpen, Trophy, Globe2, Tag as TagIcon, BookText, X } from "lucide-react";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { GUIDES } from "@/data/guides";
 import { RANKING_META } from "@/lib/rankings";
 import { scoreColor, scoreHex } from "@/lib/utils";
+import { getAllTagsWithCounts } from "@/lib/guide-tags";
 
 type Entry =
   | { kind: "city"; slug: string; name: string; region: string; score: number }
   | { kind: "guide"; slug: string; title: string; emoji: string }
-  | { kind: "ranking"; slug: string; label: string };
+  | { kind: "ranking"; slug: string; label: string }
+  | { kind: "tag"; slug: string; label: string; count: number }
+  | { kind: "glossaire"; term: string; href: string };
+
+const GLOSSARY_ENTRIES: { term: string; href: string }[] = [
+  { term: "DPE", href: "/glossaire#section-0" },
+  { term: "LMNP", href: "/glossaire#section-1" },
+  { term: "LMP", href: "/glossaire#section-1" },
+  { term: "Taxe foncière", href: "/glossaire#section-0" },
+  { term: "Frais de notaire", href: "/glossaire#section-0" },
+  { term: "Encadrement des loyers", href: "/glossaire#section-0" },
+  { term: "ZFE", href: "/glossaire#section-2" },
+  { term: "PTZ", href: "/glossaire#section-2" },
+  { term: "Pinel", href: "/glossaire#section-1" },
+  { term: "Denormandie", href: "/glossaire#section-1" },
+  { term: "Fibre FTTH", href: "/glossaire#section-3" },
+  { term: "PLU", href: "/glossaire#section-2" },
+  { term: "Loi Carrez", href: "/glossaire#section-0" },
+  { term: "Loi Boutin", href: "/glossaire#section-0" },
+  { term: "TMI", href: "/glossaire#section-4" },
+  { term: "IFI", href: "/glossaire#section-4" },
+  { term: "Plus-value immobilière", href: "/glossaire#section-4" },
+  { term: "Quotient familial", href: "/glossaire#section-4" },
+  { term: "CFE", href: "/glossaire#section-4" },
+];
 
 function normalize(s: string): string {
   return s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
@@ -37,12 +62,26 @@ const INDEX: Entry[] = [
     slug,
     label: meta.headline,
   })),
+  ...getAllTagsWithCounts().map<Entry>((t) => ({
+    kind: "tag",
+    slug: t.slug,
+    label: t.label,
+    count: t.count,
+  })),
+  ...GLOSSARY_ENTRIES.map<Entry>((g) => ({
+    kind: "glossaire",
+    term: g.term,
+    href: g.href,
+  })),
 ];
 
 function score(entry: Entry, q: string): number {
-  const name = entry.kind === "city" ? entry.name
+  const name =
+    entry.kind === "city" ? entry.name
     : entry.kind === "guide" ? entry.title
-    : entry.label;
+    : entry.kind === "ranking" ? entry.label
+    : entry.kind === "tag" ? entry.label
+    : entry.term;
   const n = normalize(name);
   if (n === q) return 100;
   if (n.startsWith(q)) return 80;
@@ -55,19 +94,25 @@ function score(entry: Entry, q: string): number {
 function entryHref(e: Entry): string {
   if (e.kind === "city") return `/villes/${e.slug}`;
   if (e.kind === "guide") return `/guides/${e.slug}`;
-  return `/classements/${e.slug}`;
+  if (e.kind === "ranking") return `/classements/${e.slug}`;
+  if (e.kind === "tag") return `/tags/${e.slug}`;
+  return e.href;
 }
 
 function entryLabel(e: Entry): string {
   if (e.kind === "city") return e.name;
   if (e.kind === "guide") return e.title;
-  return e.label;
+  if (e.kind === "ranking") return e.label;
+  if (e.kind === "tag") return e.label;
+  return e.term;
 }
 
 function entrySublabel(e: Entry): string {
   if (e.kind === "city") return e.region;
   if (e.kind === "guide") return "Guide";
-  return "Classement";
+  if (e.kind === "ranking") return "Classement";
+  if (e.kind === "tag") return `Tag · ${e.count} guides`;
+  return "Glossaire";
 }
 
 function EntryIcon({ entry }: { entry: Entry }) {
@@ -89,6 +134,20 @@ function EntryIcon({ entry }: { entry: Entry }) {
       </span>
     );
   }
+  if (entry.kind === "tag") {
+    return (
+      <span className="flex h-7 w-7 flex-shrink-0 items-center justify-center rounded-md bg-emerald-500/10 text-emerald-500" aria-hidden>
+        <TagIcon className="h-3.5 w-3.5" />
+      </span>
+    );
+  }
+  if (entry.kind === "glossaire") {
+    return (
+      <span className="flex h-7 w-7 flex-shrink-0 items-center justify-center rounded-md bg-orange-500/10 text-orange-500" aria-hidden>
+        <BookText className="h-3.5 w-3.5" />
+      </span>
+    );
+  }
   return (
     <span className="flex h-7 w-7 flex-shrink-0 items-center justify-center rounded-md bg-[var(--accent)]/10 text-[var(--accent)]" aria-hidden>
       <Trophy className="h-3.5 w-3.5" />
@@ -99,6 +158,8 @@ function EntryIcon({ entry }: { entry: Entry }) {
 function KindIcon({ kind }: { kind: Entry["kind"] }) {
   if (kind === "city") return <MapPin className="h-3 w-3" aria-hidden />;
   if (kind === "guide") return <BookOpen className="h-3 w-3" aria-hidden />;
+  if (kind === "tag") return <TagIcon className="h-3 w-3" aria-hidden />;
+  if (kind === "glossaire") return <BookText className="h-3 w-3" aria-hidden />;
   return <Trophy className="h-3 w-3" aria-hidden />;
 }
 
@@ -257,7 +318,7 @@ export function SearchPalette() {
             const active = i === safeHighlight;
             return (
               <li
-                key={`${entry.kind}-${entry.slug}`}
+                key={`${entry.kind}-${entryHref(entry)}`}
                 id={`palette-opt-${i}`}
                 role="option"
                 aria-selected={active}
