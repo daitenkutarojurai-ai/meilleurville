@@ -25,8 +25,15 @@ function freshness(updatedAt: string): string | null {
   return dt.toLocaleDateString("fr-FR", { month: "short", year: "numeric" });
 }
 
+function isNew(publishedAt: string): boolean {
+  const dt = new Date(publishedAt);
+  if (Number.isNaN(dt.getTime())) return false;
+  return Date.now() - dt.getTime() < 30 * 86_400_000;
+}
+
 export function GuideCard({ guide, featured = false }: GuideCardProps) {
   const fresh = freshness(guide.updatedAt);
+  const isFresh = isNew(guide.publishedAt);
   return (
     <Link
       href={`/guides/${guide.slug}`}
@@ -39,6 +46,11 @@ export function GuideCard({ guide, featured = false }: GuideCardProps) {
         </div>
         <div className="flex-1 min-w-0">
           <div className="flex items-center gap-2 mb-1.5 flex-wrap">
+            {isFresh && (
+              <span className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-[var(--accent)]/15 text-[var(--accent)] border border-[var(--accent)]/30">
+                Nouveau
+              </span>
+            )}
             <span className="text-xs text-[var(--text-tertiary)] uppercase tracking-wide font-medium">
               {categoryLabel(guide.category)}
             </span>
