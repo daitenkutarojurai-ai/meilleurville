@@ -208,9 +208,9 @@ export default function GlossairePage() {
             Glossaire immobilier & relocation
           </h1>
           <p className="text-[var(--text-secondary)] leading-relaxed">
-            {TERM_COUNT} termes clés pour comprendre l'immobilier, la location, l'investissement
+            {TERM_COUNT} termes clés pour comprendre l&apos;immobilier, la location, l&apos;investissement
             locatif et le déménagement en France en 2026. Pas de jargon inutile, juste les
-            définitions qu'il faut connaître avant de signer.
+            définitions qu&apos;il faut connaître avant de signer.
           </p>
         </div>
       </section>
