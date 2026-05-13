@@ -6,6 +6,7 @@ import { Footer } from "@/components/Footer";
 import { Badge } from "@/components/ui/Badge";
 import { CityCard } from "@/components/CityCard";
 import { CITIES_SEED } from "@/data/cities-seed";
+import { GUIDES, GUIDE_CATEGORIES } from "@/data/guides";
 import type { City } from "@/lib/types";
 
 type Props = { params: Promise<{ dept: string }> };
@@ -88,6 +89,13 @@ export default async function DeptPage({ params }: Props) {
   const top3 = cities.slice(0, 3);
   const rest = cities.slice(3);
   const avgScore = cities.reduce((s, c) => s + c.scores.global, 0) / cities.length;
+
+  const deptCitySlugs = new Set(cities.map((c) => c.slug));
+  const deptGuides = GUIDES.filter((g) =>
+    g.relatedCities.some((s) => deptCitySlugs.has(s))
+  )
+    .sort((a, b) => new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime())
+    .slice(0, 6);
 
   const avgCriteria = {
     nature: cities.reduce((s, c) => s + c.scores.nature, 0) / cities.length,
@@ -234,6 +242,44 @@ export default async function DeptPage({ params }: Props) {
               {rest.map((city, i) => (
                 <CityCard key={city.slug} city={seedToCity(city)} rank={i + 4} />
               ))}
+            </div>
+          </section>
+        )}
+
+        {deptGuides.length > 0 && (
+          <section className="mb-10 pt-4">
+            <div className="flex items-baseline justify-between mb-5">
+              <h2 className="text-lg font-bold text-[var(--text-primary)]">
+                Guides liés au département
+              </h2>
+              <Link href="/guides" className="text-xs text-[var(--accent)] hover:underline">
+                Tous les guides →
+              </Link>
+            </div>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+              {deptGuides.map((g) => {
+                const cat = GUIDE_CATEGORIES.find((c) => c.id === g.category);
+                return (
+                  <Link
+                    key={g.slug}
+                    href={`/guides/${g.slug}`}
+                    className="group rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-4 hover:border-[var(--accent)] transition-colors"
+                  >
+                    <div className="flex items-center gap-2 mb-2">
+                      <span className="text-2xl">{g.emoji}</span>
+                      {cat && (
+                        <span className={`text-[10px] font-semibold uppercase tracking-wide ${cat.color}`}>
+                          {cat.label}
+                        </span>
+                      )}
+                    </div>
+                    <p className="text-sm font-semibold text-[var(--text-primary)] leading-snug group-hover:text-[var(--accent)] transition-colors line-clamp-3">
+                      {g.title}
+                    </p>
+                    <p className="text-xs text-[var(--text-tertiary)] mt-2">{g.readMinutes} min</p>
+                  </Link>
+                );
+              })}
             </div>
           </section>
         )}
