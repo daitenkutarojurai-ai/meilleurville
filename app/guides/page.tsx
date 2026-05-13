@@ -5,6 +5,7 @@ import { Footer } from "@/components/Footer";
 import { Badge } from "@/components/ui/Badge";
 import { GUIDES, GUIDE_CATEGORIES } from "@/data/guides";
 import { GuidesGrid } from "@/components/GuidesGrid";
+import { getAllTagsWithCounts } from "@/lib/guide-tags";
 
 export const metadata: Metadata = {
   title: "Guides — Bien choisir sa ville en France | MeilleurVille",
@@ -87,6 +88,32 @@ export default function GuidesPage() {
                 </div>
               );
             })}
+          </div>
+        </div>
+
+        {/* Popular tags */}
+        <div>
+          <div className="flex items-baseline justify-between mb-4">
+            <h2 className="text-base font-semibold text-[var(--text-primary)]">
+              Tags populaires
+            </h2>
+            <Link href="/tags" className="text-xs text-[var(--accent)] hover:underline">
+              Tous les tags →
+            </Link>
+          </div>
+          <div className="flex flex-wrap gap-2">
+            {getAllTagsWithCounts().slice(0, 24).map((t) => (
+              <Link
+                key={t.slug}
+                href={`/tags/${t.slug}`}
+                className="group inline-flex items-center gap-2 rounded-full border border-[var(--border)] bg-[var(--bg-surface)] px-3 py-1.5 text-sm hover:border-[var(--accent)] hover:bg-[var(--accent)]/5 transition-colors"
+              >
+                <span className="text-[var(--text-secondary)] group-hover:text-[var(--accent)] transition-colors">
+                  {t.label}
+                </span>
+                <span className="text-xs font-mono-data text-[var(--text-tertiary)]">{t.count}</span>
+              </Link>
+            ))}
           </div>
         </div>
 

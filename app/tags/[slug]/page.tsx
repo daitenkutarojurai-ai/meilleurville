@@ -5,7 +5,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Badge } from "@/components/ui/Badge";
 import { GUIDE_CATEGORIES } from "@/data/guides";
-import { TAG_SLUGS, getTagLabel, getGuidesForTag } from "@/lib/guide-tags";
+import { TAG_SLUGS, getTagLabel, getGuidesForTag, getRelatedTags } from "@/lib/guide-tags";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -31,6 +31,7 @@ export default async function TagPage({ params }: Props) {
   if (!label) notFound();
   const guides = getGuidesForTag(slug);
   if (guides.length === 0) notFound();
+  const related = getRelatedTags(slug, 10);
 
   const baseUrl = process.env.NEXT_PUBLIC_BASE_URL ?? "https://meilleurville.fr";
   const jsonLd = {
@@ -111,6 +112,28 @@ export default async function TagPage({ params }: Props) {
             );
           })}
         </div>
+
+        {related.length > 0 && (
+          <section className="mt-12 pt-8 border-t border-[var(--border)]">
+            <p className="text-xs uppercase tracking-widest text-[var(--text-tertiary)] font-semibold mb-4">
+              Tags liés
+            </p>
+            <div className="flex flex-wrap gap-2">
+              {related.map((r) => (
+                <Link
+                  key={r.slug}
+                  href={`/tags/${r.slug}`}
+                  className="group inline-flex items-center gap-2 rounded-full border border-[var(--border)] bg-[var(--bg-surface)] px-3 py-1.5 text-sm hover:border-[var(--accent)] hover:bg-[var(--accent)]/5 transition-colors"
+                >
+                  <span className="text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
+                    {r.label}
+                  </span>
+                  <span className="text-xs font-mono-data text-[var(--text-tertiary)]">{r.count}</span>
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
 
         <div className="mt-10 flex flex-wrap gap-3">
           <Link
