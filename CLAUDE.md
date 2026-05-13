@@ -160,7 +160,7 @@ npm run lint         # 25 errors remaining (all react/no-unescaped-entities, cos
 
 ## Content roadmap — guides (`data/guides.ts`)
 
-Current count: **265 guides**. Add via the pattern in this file — each guide needs `slug, title, metaTitle, metaDesc, category, emoji, readMinutes, publishedAt, updatedAt, intro, sections[], relatedCities[], relatedGuides[], tags[]`. All copy in **French**, direct voice, data-led. No silent fake figures.
+Current count: **275 guides**. Add via the pattern in this file — each guide needs `slug, title, metaTitle, metaDesc, category, emoji, readMinutes, publishedAt, updatedAt, intro, sections[], relatedCities[], relatedGuides[], tags[]`. All copy in **French**, direct voice, data-led. No silent fake figures.
 
 ### Série "Quitter X" 2026
 Track big cities — one guide per city, category `"comparaison"`.
@@ -314,6 +314,23 @@ Category `"famille"`.
 ### Next priorities (human-blocked)
 - [ ] **`NEXT_PUBLIC_BASE_URL`** set on Vercel to the production domain
 - [ ] **`app/cgu` + `app/confidentialite`** date: bump "Dernière mise à jour" after legal review
+
+## Roadmap v4 — post-265 guides (2026-05-13)
+
+### R4.1 — Extend "Vivre sans voiture" series (+5 cities)
+Toulouse, Grenoble, Rennes, Montpellier, Nice — all have strong tram/vélo networks and clear no-car ROI to communicate. Same 6-section pattern as the first batch.
+
+### R4.2 — Extend "Acheter à X" series (+5 cities)
+Bordeaux, Nantes, Strasbourg, Rennes, Montpellier — all in active price-discovery zone post-2024 dip. Same pattern: prix m² par quartier → budget brackets → quartiers en hausse → calcul honnête.
+
+### R4.3 — Add 10 more comparer pairs to `SEO_PAIRS`
+The `comparer/[pair]` route only builds pages for whitelisted slug pairs. Current list misses high-volume queries (Bordeaux vs Toulouse, Lyon vs Marseille, Rennes vs Nantes already there). Add 10 underserved pairs.
+
+### R4.4 — Reading-list at end of each guide
+Below relatedGuides, add a "Lire ensuite" auto-suggest based on category overlap + city overlap (not just hardcoded). Improves session duration and PageRank distribution.
+
+### R4.5 — Department-level fiscalité page (`/villes/[slug]/fiscalite`)
+Revisit R3.3 with **department-level** taxe foncière + taxe d'habitation résidence secondaire rates from DGFiP 2024–2025 (publicly available, real). Clearly label "estimation départementale, varie selon commune" — avoids fake per-city precision while delivering useful info.
 
 ## Roadmap v3 — post-250 guides (2026-05-13)
 

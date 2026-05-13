@@ -12120,6 +12120,496 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["télétravail mer", "côte", "fibre FTTH", "La Rochelle", "Brest", "Hossegor", "Quimper", "Bretagne"],
   },
+  {
+    slug: "vivre-sans-voiture-toulouse-guide-2026",
+    title: "Vivre sans voiture à Toulouse en 2026 — métro, vélo, Tisséo",
+    metaTitle: "Vivre sans voiture à Toulouse 2026 : Tisséo, VélôToulouse, Citiz — guide",
+    metaDesc:
+      "Toulouse 2026 : métro A/B, vélo, Tisséo, Citiz. Combien on économise sans voiture, dans quels quartiers, quels pièges éviter.",
+    category: "lifestyle",
+    emoji: "🚆",
+    readMinutes: 7,
+    publishedAt: "2026-05-13",
+    updatedAt: "2026-05-13",
+    intro:
+      "Toulouse a 2 lignes de métro (A, B), un tram, 8 lignes de bus express, VélôToulouse, Citiz autopartage et un climat doux qui favorise le vélo presque toute l'année. La future Ligne C (livraison 2028) va encore renforcer le no-car. Voici le vrai bilan 2026.",
+    sections: [
+      {
+        heading: "Budget mobilité no-car à Toulouse",
+        body: "Abonnement Tisséo annuel 2026 : ~530 €/an (Pastel mensuelle), remboursement employeur 50 % = ~22 €/mois. VélôToulouse annuel : ~25 €/an. Citiz Toulouse : ~200 €/an usage occasionnel. TER Occitanie + Avantage : ~400 €/an. Total no-car toulousain : ~600–800 €/an. Coût voiture Toulouse : ~4 300 €/an. Économie nette : ~3 500 €/an.",
+      },
+      {
+        heading: "Quartiers no-car friendly",
+        body: "Top : Capitole, Carmes, Saint-Étienne, Saint-Cyprien, Jean-Jaurès, Compans-Cafarelli. Métro <300 m, commerces denses, vélo praticable toute l'année. Bons : Côte Pavée (métro A), Saint-Aubin (vivant, bars), Minimes (M2), Rangueil (M2 universitaire). Plus difficiles : Lardenne, Pouvourville, Saint-Simon (banlieue pavillonnaire, transport bus moins fréquent). Banlieue : Blagnac (tram T1), Balma-Gramont (M2 terminus) praticables.",
+      },
+      {
+        heading: "Problèmes opérationnels",
+        body: "(1) Chaleur estivale — ~35 jours >30 °C, vélo dur l'été à 14h, métro climatisé OK. (2) Courses lourdes — Carrefour, Auchan, Leclerc livrent ; drives accessibles. (3) Bricolage — Castorama, Leroy Merlin desservis Tisséo ou Citiz 2h. (4) Enfants — école pied/vélo 80 % cas, activités sport souvent accessibles métro. (5) Sortie Pyrénées (Saint-Lary, Peyragudes) — TER + bus station saisonnier mais difficile en intersaison, Citiz week-end recommandé.",
+      },
+      {
+        heading: "Week-ends et vacances",
+        body: "TGV Paris 4h15, Bordeaux 2h10, Marseille 4h20 (long), Barcelone 3h40 (TGV direct). TER vers Carcassonne (40 min), Albi (1h), Auch (1h25), Tarbes (1h45). Avantage + TER : ~400 €/an. Mer méditerranéenne accessible via TER Narbonne (1h20). Total mobilité hors quotidien : ~1 000–1 500 €/an.",
+      },
+      {
+        heading: "Pièges classiques",
+        body: "(1) Chaleur estivale — vélo praticable jusqu'à 30 °C, au-delà devient pénible. (2) Familles activités banlieue (rugby Blagnac, équitation Lévignac) — Citiz week-end utile mais coûteux régulier. (3) Toulouse n'a que 2 lignes de métro — certaines zones sud-est (Rangueil-Médipôle) sont desservies mais distances finales à pied. (4) Pluviométrie modérée (~670 mm/an) mais épisodes cévenols ponctuels créent inondations soudaines vélo dur.",
+      },
+      {
+        heading: "Pour qui ça marche",
+        body: "Excellent : centre + corridor M1/M2. Bon : couples actifs jeunes parents 1–2 enfants. Moins bon : familles activités banlieue intensives, métiers mobiles régionaux. La future Ligne C (livraison 2028) va transformer Cartoucherie, Saint-Cyprien sud, La Vache et rendre encore plus accessible le no-car familial. Acheter avant l'ouverture peut être stratégique.",
+      },
+    ],
+    relatedCities: ["toulouse", "albi", "montauban", "auch", "tarbes"],
+    relatedGuides: [
+      "quitter-toulouse-guide-2026",
+      "acheter-a-toulouse-quel-quartier-budget-2026",
+      "meilleures-villes-cyclistes-france-2026",
+      "marseille-vs-toulouse-comparatif-2025",
+      "teletravailler-depuis-occitanie-guide-2026",
+    ],
+    tags: ["vivre sans voiture", "Toulouse", "Tisséo", "VélôToulouse", "métro", "Citiz", "mobilité"],
+  },
+  {
+    slug: "vivre-sans-voiture-grenoble-guide-2026",
+    title: "Vivre sans voiture à Grenoble en 2026 — tram, vélo, montagne",
+    metaTitle: "Vivre sans voiture à Grenoble 2026 : TAG, Métrovélo, Citiz — guide",
+    metaDesc:
+      "Grenoble est la 2e ville française pour la part vélo. Tram, Métrovélo, Citiz, TER Alpes — combien on économise et où ça marche vraiment.",
+    category: "lifestyle",
+    emoji: "🏔️",
+    readMinutes: 7,
+    publishedAt: "2026-05-13",
+    updatedAt: "2026-05-13",
+    intro:
+      "Grenoble est la 2e ville française pour la part modale vélo (~12 %), avec 5 lignes de tram, un réseau cyclable dense et plat (~480 km), et un climat compatible vélo printemps-automne. La ZFE-m métropolitaine renforce l'avantage no-car. Voici le bilan 2026.",
+    sections: [
+      {
+        heading: "Budget mobilité no-car à Grenoble",
+        body: "Abonnement TAG annuel 2026 : ~450 €/an, remboursement employeur 50 %. Métrovélo (vélo en libre-service ou longue durée) : ~38 €/an V-Plus ou ~30 €/mois pour vélo personnel longue durée. Citiz Grenoble : ~250 €/an. TER + Avantage : ~400 €/an. Total : ~600–800 €/an. Coût voiture Grenoble : ~4 400 €/an (parking + entretien hivernal). Économie : ~3 600 €/an.",
+      },
+      {
+        heading: "Quartiers no-car friendly",
+        body: "Top : Hyper-centre (Notre-Dame, Victor-Hugo, Verdun), Île Verte, Berriat-Saint-Bruno (gentrification cool), Championnet. Densité, tram <300 m, vélo praticable. Bons : Eaux-Claires (étudiant), Mistral (sud, tram E), Capuche (sud, tram A/E), Bouchayer-Viallet (campus tertiaire). Plus difficiles : La Bastille (dénivelé, téléphérique pour s'y rendre), Vigny-Musset (correct mais distances), Mistral sud (M2 terminus). Banlieue : Saint-Martin-d'Hères (tram universités), Échirolles (tram), Meylan (correct), Fontaine (tram).",
+      },
+      {
+        heading: "Problèmes opérationnels",
+        body: "(1) Inversion thermique hivernale — pollution pics fréquents décembre-janvier (jusqu'à 10 jours/an), vélo déconseillé sur ces journées, tram intérieur OK. (2) Courses lourdes — Casino, Carrefour, Auchan livrent. (3) Ski — c'est l'argument N°1 contre le no-car à Grenoble. Bus stations alpines (Lans, Les 7 Laux, Chamrousse) hivernaux, mais lourd avec matériel. Location week-end Citiz ou 4×4 ponctuel souvent plus simple. (4) Étalement urbain Y grenoblois — Grenoble + Voiron + Vif crée des distances que le no-car ne couvre pas hors voie ferrée.",
+      },
+      {
+        heading: "Week-ends et vacances",
+        body: "TGV Paris 3h, Lyon 1h20, Marseille 3h45. TER vers Chambéry (1h), Annecy (2h), Valence (1h15). Bus skis stations Vercors/Belledonne saisonniers. Avantage + TER : ~400 €/an. Total mobilité hors quotidien : ~1 100–1 600 €/an.",
+      },
+      {
+        heading: "Pièges classiques",
+        body: "(1) Ski intensif sans voiture — devient pénible à plus de 2× par hiver, location week-end coûteuse. (2) Familles à activités banlieue (foot Échirolles, équitation Crolles) — limites du no-car. (3) Pics pollution hiver — vélo devient santé-risquée, à anticiper. (4) Trajets Y grenoblois (Saint-Martin-d'Hères, Domène, Crolles) — tram E couvre une partie mais pas tout.",
+      },
+      {
+        heading: "Pour qui ça marche",
+        body: "Excellent : centre + corridor tram A/B/C/D/E. Bon : couples actifs, étudiants, télétravailleurs. Moins bon : skieurs intensifs, familles banlieue Y grenoblois élargie. Grenoble convertit massivement à vélo + tram — la culture est très installée, beaucoup d'arrivants abandonnent leur voiture en 2 ans.",
+      },
+    ],
+    relatedCities: ["grenoble", "chambery", "annecy", "valence", "lyon"],
+    relatedGuides: [
+      "quitter-grenoble-guide-2026",
+      "meilleures-villes-cyclistes-france-2026",
+      "meilleures-villes-randonnee-trail-france-2026",
+      "teletravailler-depuis-auvergne-guide-2026",
+      "ou-vivre-france-meteo-qualite-air-2026",
+    ],
+    tags: ["vivre sans voiture", "Grenoble", "TAG", "Métrovélo", "vélo", "tram", "ZFE", "Isère"],
+  },
+  {
+    slug: "vivre-sans-voiture-rennes-guide-2026",
+    title: "Vivre sans voiture à Rennes en 2026 — métro, vélo, STAR",
+    metaTitle: "Vivre sans voiture à Rennes 2026 : STAR, LE vélo STAR, métro a/b — guide",
+    metaDesc:
+      "Rennes a 2 lignes de métro, LE vélo STAR, Citiz Ouest et un climat doux. Combien on économise sans voiture, dans quels quartiers ça marche.",
+    category: "lifestyle",
+    emoji: "🚇",
+    readMinutes: 7,
+    publishedAt: "2026-05-13",
+    updatedAt: "2026-05-13",
+    intro:
+      "Rennes est l'une des villes françaises les mieux dotées pour son nombre d'habitants : 2 lignes de métro entièrement automatiques (a, b), bus STAR, LE vélo STAR en libre-service, Citiz Ouest, TER Bretagne dense. Climat doux et tissu urbain compact favorisent le no-car. Voici le bilan 2026.",
+    sections: [
+      {
+        heading: "Budget mobilité no-car à Rennes",
+        body: "Abonnement STAR annuel 2026 : ~370 €/an (le moins cher des grandes villes), remboursement employeur 50 %. LE vélo STAR annuel : ~30 €/an. Citiz Ouest : ~200 €/an. TER + Avantage : ~400 €/an. Total : ~550–700 €/an. Coût voiture Rennes : ~4 100 €/an. Économie : ~3 500 €/an. Rennes est probablement la grande ville française avec le meilleur ratio mobilité/coût.",
+      },
+      {
+        heading: "Quartiers no-car friendly",
+        body: "Top : Centre (Saint-Anne, Sainte-Croix, Place des Lices), Bourg-L'Évêque, Cleunay, Thabor-Saint-Hélier, Beaulieu (universitaire). Métro <300 m, commerces denses, vélo praticable. Bons : Jeanne-d'Arc, Maurepas-Bellangerais, Villejean-Beauregard (métro b). Plus difficiles : Sud-Gare-Magnolia (M1 terminus distance), Patton, Cleunay ouest. Banlieue : Cesson-Sévigné (métro b prolongé), Saint-Jacques-de-la-Lande (correct), Chantepie (limite).",
+      },
+      {
+        heading: "Problèmes opérationnels",
+        body: "(1) Pluviométrie ~700 mm, ~135 jours pluie/an — vélo praticable avec équipement. (2) Courses lourdes — Carrefour, Leclerc, Lidl livrent, drives accessibles. (3) Enfants — école à pied/vélo 88 % cas. (4) Sortie Bretagne (Saint-Malo, Vannes, presqu'île Crozon) — TER excellent vers Saint-Malo (50 min), Vannes (1h), Brest (2h), Quimper (2h30). Location week-end côté presqu'île moins desservi. (5) Côte basse-rennes (golfe Morbihan) — voiture ou train+bus tient.",
+      },
+      {
+        heading: "Week-ends et vacances",
+        body: "TGV Paris 1h25 (excellent), Bordeaux 4h, Nantes 1h15. TER Saint-Malo, Brest, Vannes, Lorient, Quimper toutes <2h30. Avantage SNCF + TER : ~400 €/an. Bretagne entière accessible en train. Total mobilité hors quotidien : ~1 100–1 500 €/an. Probablement la meilleure ville française pour explorer toute une région en train.",
+      },
+      {
+        heading: "Pièges classiques",
+        body: "(1) Climat humide — équipement vélo qualité indispensable. (2) Activités banlieue (équitation, voile Saint-Cast, randonnée Brocéliande) — TER + bus saisonnier insuffisant en intersaison. (3) Familles 3+ enfants — comme partout, logistique sport/musique/médecin devient lourde. (4) Stade Rennais (Roazhon Park) — tram + métro saturé soirs match.",
+      },
+      {
+        heading: "Pour qui ça marche",
+        body: "Très bon pour : tous profils centre + petite couronne métro. Excellent rapport coût mobilité : Rennes a le tarif transport annuel le plus bas des grandes villes françaises. Limite : skieurs (Massif Central à 4h, Pyrénées à 8h) — éviter d'y vivre si ski hebdomadaire. Rennes est devenue ville-laboratoire mobilité — taux d'usage transports en commun ~22 % (hausse continue).",
+      },
+    ],
+    relatedCities: ["rennes", "saint-malo", "vannes", "brest", "nantes"],
+    relatedGuides: [
+      "quitter-rennes-guide-2026",
+      "teletravailler-depuis-bretagne-guide-2026",
+      "nantes-vs-rennes-comparatif-2025",
+      "meilleures-villes-cyclistes-france-2026",
+      "vivre-en-bretagne-interieure-guide-2026",
+    ],
+    tags: ["vivre sans voiture", "Rennes", "STAR", "métro Rennes", "vélo", "Bretagne", "mobilité"],
+  },
+  {
+    slug: "vivre-sans-voiture-montpellier-guide-2026",
+    title: "Vivre sans voiture à Montpellier en 2026 — tram, vélo, TaM",
+    metaTitle: "Vivre sans voiture à Montpellier 2026 : TaM, Vélomagg, tram gratuit — guide",
+    metaDesc:
+      "Montpellier 2026 : 4 lignes de tram (gratuit pour résidents), Vélomagg, climat ensoleillé. Combien on économise sans voiture, quartiers et écueils.",
+    category: "lifestyle",
+    emoji: "☀️",
+    readMinutes: 7,
+    publishedAt: "2026-05-13",
+    updatedAt: "2026-05-13",
+    intro:
+      "Montpellier a fait un choix radical en 2023–2024 : tram et bus 100 % gratuits pour les résidents de la métropole. Combinée à un climat ultra-ensoleillé (~2 580 h/an), un tissu urbain compact, et un vélo facile, la ville est devenue ultra no-car-friendly. Voici le bilan 2026.",
+    sections: [
+      {
+        heading: "Budget mobilité no-car à Montpellier",
+        body: "TaM 2026 : **gratuit** pour les résidents de la métropole (carte gratuite sur justificatif). Vélomagg longue durée : ~30 €/an. Citiz Montpellier : ~200 €/an. TER + Avantage : ~400 €/an. Total no-car montpelliérain : ~300–600 €/an — record national de basse mobilité. Coût voiture Montpellier : ~4 200 €/an. Économie : ~3 800 €/an.",
+      },
+      {
+        heading: "Quartiers no-car friendly",
+        body: "Top : Centre (Comédie, Préfecture, Saint-Roch), Antigone, Beaux-Arts, Aiguelongue, Aubes. Tram <300 m, commerces denses, vélo praticable toute l'année (sauf canicule). Bons : Cévennes-Saint-Martin, Port-Marianne (tram L1), Estanove, Mosson (tram L1). Plus difficiles : Hauts-de-Massane (correct mais distances), Près d'Arènes, Près-de-Boude. Banlieue : Castelnau-le-Lez (tram L2), Lattes (tram L3), Pérols (tram L3). Le tram L4 (livraison 2026) renforce encore le no-car.",
+      },
+      {
+        heading: "Problèmes opérationnels",
+        body: "(1) Canicule estivale ~45 jours >30 °C — vélo dur en milieu de journée, tram climatisé sauve. (2) Courses lourdes — Carrefour, Auchan, Lidl livrent, drives accessibles tram. (3) Plage (Palavas, Carnon, La Grande-Motte) — bus + tram desservent toute l'année, vélo possible Carnon (~10 km piste cyclable). (4) Camargue, Cévennes intensifs — voiture obligatoire, Citiz/location week-end. (5) Vélos saturés tram heure de pointe — règlement vélo plus restrictif certaines heures.",
+      },
+      {
+        heading: "Week-ends et vacances",
+        body: "TGV Paris 3h15, Lyon 1h45, Marseille 1h45, Barcelone 3h. TER Nîmes (30 min), Sète (25 min), Béziers (45 min), Carcassonne (1h25). Avantage + TER : ~400 €/an. Aéroport Montpellier-Méditerranée vols vers Europe directs (Ryanair, Volotea). Total mobilité hors quotidien : ~900–1 400 €/an. Rapport coût/ouverture exceptionnel grâce au tram gratuit.",
+      },
+      {
+        heading: "Pièges classiques",
+        body: "(1) Canicule estivale — vélo praticable seulement matin/soir 4 mois/an. (2) Cévennes / arrière-pays (Saint-Guilhem, Pic Saint-Loup) — voiture quasi obligatoire pour ces sorties. (3) Familles activités banlieue lointaine (Cévennes scolaires, voile Méditerranée) — limites du no-car. (4) Tram saturé heure de pointe — certaines lignes vélo interdit 7h-9h.",
+      },
+      {
+        heading: "Pour qui ça marche",
+        body: "Excellent : tous profils centre + petite couronne tram. Bon pour : couples actifs, jeunes parents, étudiants, retraités urbains. Moins bon : amateurs Cévennes / Camargue intensifs. Montpellier est probablement la grande ville française avec le meilleur rapport coût mobilité grâce à la gratuité du tram — modèle unique en France et Europe.",
+      },
+    ],
+    relatedCities: ["montpellier", "nimes", "beziers", "narbonne", "sete"],
+    relatedGuides: [
+      "quitter-montpellier-guide-2026",
+      "perpignan-vs-montpellier-comparatif-2026",
+      "nice-vs-montpellier-comparatif-2026",
+      "meilleures-villes-cyclistes-france-2026",
+      "teletravailler-depuis-occitanie-guide-2026",
+    ],
+    tags: ["vivre sans voiture", "Montpellier", "TaM", "tram gratuit", "Vélomagg", "Hérault", "mobilité"],
+  },
+  {
+    slug: "vivre-sans-voiture-nice-guide-2026",
+    title: "Vivre sans voiture à Nice en 2026 — tram, vélo, climat exceptionnel",
+    metaTitle: "Vivre sans voiture à Nice 2026 : Lignes d'Azur, Vélo Bleu, tram T1/T2/T3 — guide",
+    metaDesc:
+      "Nice 2026 : 3 lignes de tram, climat le plus doux de France, vélo praticable. Combien on économise sans voiture, dans quels quartiers ça tient.",
+    category: "lifestyle",
+    emoji: "🌴",
+    readMinutes: 7,
+    publishedAt: "2026-05-13",
+    updatedAt: "2026-05-13",
+    intro:
+      "Nice est l'une des grandes villes françaises où le climat permet le vélo toute l'année (~2 700 h soleil, ~63 jours pluie). Combinée à 3 lignes de tram, Vélo Bleu en libre-service, et un tissu urbain linéaire le long de la Promenade, la ville est très no-car compatible. Voici le bilan 2026.",
+    sections: [
+      {
+        heading: "Budget mobilité no-car à Nice",
+        body: "Abonnement Lignes d'Azur annuel 2026 : ~340 €/an (Pass Mensuel Annuel), remboursement employeur 50 %. Vélo Bleu annuel : ~30 €/an. Citiz Nice : ~250 €/an. TER PACA + Avantage : ~400 €/an. Total no-car niçois : ~500–700 €/an. Coût voiture Nice : ~4 700 €/an (parking centre cher, ~140 €/mois). Économie : ~4 000 €/an.",
+      },
+      {
+        heading: "Quartiers no-car friendly",
+        body: "Top : Vieux-Nice, Carré d'Or, Jean-Médecin, Libération, Riquier, Port. Tram T1 dessert la colonne vertébrale Promenade Carras-Vieux-Nice. Bons : Cimiez (T1 puis montée), Magnan (T2 nouveau), Las Planas (T1 nord), Nice Nord centre. Plus difficiles : Saint-Pancrace, Cap-de-Croix (collines, bus limités), Saint-Augustin sud-ouest (T2 mais distances). Banlieue : Cagnes-sur-Mer (TER), Antibes (TER) accessibles. Monaco accessible TER Nice-Monaco 25 min.",
+      },
+      {
+        heading: "Problèmes opérationnels",
+        body: "(1) Canicule estivale ~40 jours >30 °C — vélo dur l'après-midi, tram climatisé sauve. (2) Courses lourdes — Casino, Monoprix, Carrefour livrent. (3) Plages — accessible vélo Promenade ou tram T1 (Riquier, Port, Carras desservent toute la côte). (4) Arrière-pays (Vésubie, Roya, Tinée) — voiture obligatoire, Citiz week-end. (5) Aéroport Nice — tram T2 direct depuis 2018, énorme amélioration.",
+      },
+      {
+        heading: "Week-ends et vacances",
+        body: "TGV Paris 5h45 (long), Marseille 2h30, Lyon 4h30, Barcelone 8h (long). TER Côte d'Azur excellent : Monaco 25 min, Menton 35 min, Cannes 30 min, Antibes 20 min, Vintimille 50 min. Aéroport Nice : 2e aéroport français en passagers internationaux. Avantage + TER : ~350 €/an. Total mobilité hors quotidien : ~1 000–1 500 €/an.",
+      },
+      {
+        heading: "Pièges classiques",
+        body: "(1) Collines niçoises (Cimiez, Mont-Boron) — vélo praticable mais dénivelé important, scooter électrique alternative populaire. (2) Activités arrière-pays — randonnée Mercantour, ski Isola/Auron — voiture quasi obligatoire. (3) Tram T1 saturé l'été (touristes) — alterner Vélo Bleu. (4) Stationnement Vélo Bleu rare juillet-août en zones touristiques.",
+      },
+      {
+        heading: "Pour qui ça marche",
+        body: "Excellent : centre + corridor tram T1/T2/T3, retraités urbains, télétravailleurs, célibataires/couples actifs. Moins bon : amateurs Mercantour/ski Mercantour intensifs, familles avec collines (Cimiez haut, Saint-Pancrace). Nice convertit moins vite que Strasbourg/Bordeaux mais le climat aide énormément — pratique du vélo en hausse continue ~+8 %/an depuis 2020.",
+      },
+    ],
+    relatedCities: ["nice", "cannes", "antibes", "menton", "cagnes-sur-mer"],
+    relatedGuides: [
+      "quitter-nice-guide-2026",
+      "nice-vs-montpellier-comparatif-2026",
+      "meilleures-villes-cyclistes-france-2026",
+      "teletravailler-depuis-provence-guide-2026",
+      "meilleures-villes-seniors-actifs-france-2026",
+    ],
+    tags: ["vivre sans voiture", "Nice", "Lignes d'Azur", "Vélo Bleu", "tram Nice", "Côte d'Azur", "mobilité"],
+  },
+  {
+    slug: "acheter-a-bordeaux-quel-quartier-budget-2026",
+    title: "Acheter à Bordeaux en 2026 — quel quartier pour quel budget ?",
+    metaTitle: "Acheter à Bordeaux 2026 : Chartrons, Saint-Pierre, Caudéran, prix m² — guide",
+    metaDesc:
+      "Bordeaux 2026 : prix au m² par quartier après la correction 2024-2025, T2/T3/T4 budgets, quartiers en hausse, conseils primo-accédant.",
+    category: "budget",
+    emoji: "🍷",
+    readMinutes: 8,
+    publishedAt: "2026-05-13",
+    updatedAt: "2026-05-13",
+    intro:
+      "Bordeaux a vu une correction de prix marquée en 2024-2025 (~-9 % vs pic 2022) après une décennie de hausse continue. La fenêtre 2026 ouvre des opportunités primo-accédants, surtout dans la rive droite et les quartiers en gentrification. Voici la cartographie complète.",
+    sections: [
+      {
+        heading: "Les prix au m² par quartier (2026)",
+        body: "Prime (≥5 200 €/m²) : Saint-Pierre (~5 500), Chartrons (~5 300), Saint-Michel (~5 200), Pey-Berland centre. Haut (4 500–5 200) : Caudéran (résidentiel familial), Quinconces, Tourny, Saint-Augustin centre. Moyen (3 800–4 500) : Belcier-Euratlantique (en transformation), Capucins, Saint-Genès, Nansouty, Saint-Augustin nord. Accessibles (3 200–3 800) : Bordeaux Bastide (rive droite), Caudéran périphérie, Saint-Jean, Bordeaux Lac. Plus accessibles (2 800–3 200) : Cenon, Floirac (rive droite proche), Lormont. Amplitude 1 à 2 — moins extrême que Marseille.",
+      },
+      {
+        heading: "Budget 200–300 k€ : où acheter ?",
+        body: "T3 ~65 m² possible Bordeaux Bastide (rive droite, tram A 10 min centre), Saint-Augustin nord, Caudéran périphérie. T2 ~45 m² Saint-Pierre, Chartrons. Banlieue accessible : Cenon (tram A), Floirac (tram A), Talence centre (tram B). Bastide est la meilleure affaire primo-accédant : tram A direct Bordeaux centre 10 min, prix 30 % inférieurs rive gauche, requalification urbaine (Quai des Queyries, Darwin écosystème, Grand Parc). Limites : éviter Bordeaux Saint-Jean (sécurité ressentie variable selon micro-quartier).",
+      },
+      {
+        heading: "Budget 300–500 k€ : zone classe moyenne+",
+        body: "T3 ~70 m² à T4 ~90 m² dans Chartrons (charme bordelais, marché Chartrons), Saint-Pierre (vivant, tourisme dosé), Capucins (marché matin, gentrification mature), Nansouty (résidentiel familial, écoles), Caudéran centre (familles, écoles publiques excellentes). Pour familles : Caudéran et Nansouty offrent les meilleurs réseaux scolaires publics + commerces. À ce budget viser tram <400 m (lignes A, B, C, D couvrent ~75 % ville).",
+      },
+      {
+        heading: "Budget 500 k€–1 M€ : familles établies",
+        body: "T4 ~95–110 m² ou maison dans Caudéran (résidentiel premium, maisons individuelles), Saint-Genès (proximité parc bordelais, écoles privées), Pey-Berland (centre, charme ancien), Chartrons haut. Maisons : Caudéran, Cauderan-Saint-Augustin, Saint-Augustin résidentiel — maisons avec jardin 100–130 m² possibles à 600–800 k€. Pour scolarité privée : proximité Saint-Joseph de Tivoli, Notre-Dame Bordeaux — prime ~10 %.",
+      },
+      {
+        heading: "Quartiers en hausse vs en stagnation",
+        body: "Hausse 2024–2026 : Bordeaux Bastide (transformation continue, tram A, Quai des Queyries vivant), Belcier-Euratlantique (nouveaux logements, gare Saint-Jean rénovée), Capucins (gentrification mature), Saint-Augustin nord. Modérée : Caudéran centre (déjà cher mais demande forte). Stagnation : Saint-Pierre (saturé prime, touristique), Chartrons (saturé prime, prix élevés Marie-Brizard). À éviter sans visite terrain : certains secteurs Bordeaux Lac (résidentiel mal connecté), Saint-Jean nord (variabilité forte).",
+      },
+      {
+        heading: "Le calcul honnête : acheter à Bordeaux en 2026",
+        body: "Avec la correction 2024-2025, Bordeaux redevient accessible aux primo-accédants couples ~7 000 €/mois cumulés (T3 famille ~370 k€ médiane). Bonus : TGV Paris 2h, climat doux, gastronomie. Risque : exposition économique aérospatial (Safran, Dassault) et vins — un cycle baissier fragiliserait la demande. Rendement locatif : ~4,5 % moyen, ~5,5 % proche universités. Conseils : (1) Privilégier tram <400 m, (2) Vérifier exposition (été ~30 jours >30 °C, climatisation devient stratégique), (3) Pour rive droite (Bastide, Floirac) — vérifier précisément quartier, valeurs très variables.",
+      },
+    ],
+    relatedCities: ["bordeaux", "libourne", "arcachon", "bayonne", "pau"],
+    relatedGuides: [
+      "quitter-bordeaux-guide-2026",
+      "vivre-sans-voiture-bordeaux-guide-2026",
+      "lyon-vs-bordeaux-comparatif-2025",
+      "nantes-vs-bordeaux-comparatif-2026",
+      "meilleures-villes-primo-accedants-france-2026",
+    ],
+    tags: ["acheter à Bordeaux", "Bordeaux", "immobilier", "Chartrons", "Caudéran", "Bastide", "primo-accédant"],
+  },
+  {
+    slug: "acheter-a-nantes-quel-quartier-budget-2026",
+    title: "Acheter à Nantes en 2026 — quel quartier pour quel budget ?",
+    metaTitle: "Acheter à Nantes 2026 : Île de Nantes, Decré, Madeleine, prix m² — guide",
+    metaDesc:
+      "Nantes 2026 : prix au m² par quartier, budget T2/T3/T4 réaliste, quartiers en hausse (Doulon, Bottière), conseils primo-accédant.",
+    category: "budget",
+    emoji: "⚓",
+    readMinutes: 8,
+    publishedAt: "2026-05-13",
+    updatedAt: "2026-05-13",
+    intro:
+      "Nantes a vu une hausse continue jusqu'en 2022 (+45 % sur 10 ans) puis une correction ~-6 % en 2024-2025. La métropole reste tendue (forte demande, foncier rare entre Erdre et Loire). Voici la cartographie 2026 par quartier et budget.",
+    sections: [
+      {
+        heading: "Les prix au m² par quartier (2026)",
+        body: "Prime (≥4 500 €/m²) : Centre Decré-Bouffay (~4 700), Hauts-Pavés-Saint-Félix (~4 600), Île Feydeau (~4 500). Haut (3 800–4 500) : Graslin-Place Royale, Madeleine-Champ-de-Mars, Procé, Doulon-Saint-Donatien. Moyen (3 200–3 800) : Île de Nantes nord, Beaulieu, Saint-Joseph-de-Porterie, Malakoff. Accessibles (2 700–3 200) : Île de Nantes sud, Bellevue, Doulon-Bottière, Saint-Jacques. Plus accessibles (2 300–2 700) : certaines parties Nantes Nord, Rezé centre, Saint-Herblain centre.",
+      },
+      {
+        heading: "Budget 200–300 k€",
+        body: "T3 ~65 m² possible Doulon-Bottière (gentrification en cours, tram 1 prolongement 2025), Bellevue (tram L1, requalification urbaine), Saint-Joseph-de-Porterie (résidentiel calme, tram L1), Malakoff (proximité Île de Nantes, tram). T2 ~45 m² centre. Banlieue : Rezé centre (tram L3 — la meilleure affaire métropole), Saint-Herblain centre (tram L1), Orvault Petit-Chantilly. Rezé centre est devenu très demandé — tram, qualité de vie, proximité Loire.",
+      },
+      {
+        heading: "Budget 300–500 k€ : zone classe moyenne+",
+        body: "T3 ~70 m² à T4 ~90 m² dans Hauts-Pavés-Saint-Félix (charme nantais), Procé (parc, écoles), Madeleine-Champ-de-Mars (proximité centre), Doulon-Saint-Donatien (résidentiel familial), Malakoff (Île de Nantes émergente). Pour familles : Hauts-Pavés et Procé offrent les meilleurs réseaux scolaires publics. Saint-Joseph-de-Porterie reste très bon compromis qualité/prix pour primo-accédant famille. À ce budget viser tram <400 m.",
+      },
+      {
+        heading: "Budget 500 k€–1 M€ : familles établies",
+        body: "T4 ~100 m² ou maison Decré-Bouffay (centre, charme bourgeois), Procé (résidentiel premium), Hauts-Pavés haut, Île Feydeau. Maisons : Saint-Donatien, Doulon-Saint-Donatien (~80–110 m² jardin), Procé (rare avec jardin). Pour scolarité privée : proximité Externat des Enfants Nantais, Notre-Dame de Toutes Aides — prime ~10 %. Banlieues alternatives : Sucé-sur-Erdre, Orvault, La Chapelle-sur-Erdre offrent maisons avec terrains.",
+      },
+      {
+        heading: "Quartiers en hausse vs en stagnation",
+        body: "Hausse 2024–2026 : Île de Nantes (transformation industrielle continue, CHU futur, université Halle Six), Doulon-Bottière (tram L1 prolongé, gentrification artisanale), Malakoff (proximité Île, requalification), Bellevue (requalification urbaine). Stagnation : Centre Decré-Bouffay (saturé prime), Procé (déjà cher). Investissement locatif : Île de Nantes nord, Bellevue offrent les meilleurs rendements (~5–6 %). Tram L1 prolongement vers Babinière 2025 va dynamiser nord-est.",
+      },
+      {
+        heading: "Le calcul honnête : acheter à Nantes en 2026",
+        body: "Nantes reste une métropole dynamique (numérique, biotech, agro, naval). T3 famille ~340 k€ médiane après correction. Bonus : Atlantique 1h, TGV Paris 2h, ville verte (~57 m² espace vert/hab). Risque : foncier rare, prix structurellement élevés. Rendement locatif : ~5 % moyen. Conseils : (1) Tram <400 m, (2) Vérifier copropriété charges (parc ancien centre parfois élevé), (3) Pour rive sud Loire (Rezé, Saint-Sébastien) — bon compromis qualité/prix, vérifier qualité tram. La transformation Île de Nantes va se poursuivre 10 ans — investir là à long terme reste pertinent.",
+      },
+    ],
+    relatedCities: ["nantes", "saint-nazaire", "rennes", "angers", "la-rochelle"],
+    relatedGuides: [
+      "quitter-nantes-guide-2026",
+      "vivre-sans-voiture-nantes-guide-2026",
+      "nantes-vs-rennes-comparatif-2025",
+      "nantes-vs-bordeaux-comparatif-2026",
+      "teletravailler-depuis-pays-de-la-loire-guide-2026",
+    ],
+    tags: ["acheter à Nantes", "Nantes", "immobilier", "Île de Nantes", "Hauts-Pavés", "Doulon", "primo-accédant"],
+  },
+  {
+    slug: "acheter-a-strasbourg-quel-quartier-budget-2026",
+    title: "Acheter à Strasbourg en 2026 — quel quartier pour quel budget ?",
+    metaTitle: "Acheter à Strasbourg 2026 : Krutenau, Neudorf, Robertsau, prix m² — guide",
+    metaDesc:
+      "Strasbourg 2026 : prix au m² par quartier, T2/T3/T4 budgets, quartiers en hausse (Neudorf, Kœnigshoffen), conseils achat.",
+    category: "budget",
+    emoji: "🏰",
+    readMinutes: 8,
+    publishedAt: "2026-05-13",
+    updatedAt: "2026-05-13",
+    intro:
+      "Strasbourg combine charme alsacien, dynamisme européen (Conseil de l'Europe, Parlement), marché de l'emploi cadre solide et qualité de vie premium. Après une correction 2024 modérée (-3 %), 2026 ouvre des opportunités. Voici la cartographie par quartier.",
+    sections: [
+      {
+        heading: "Les prix au m² par quartier (2026)",
+        body: "Prime (≥4 200 €/m²) : Grande Île UNESCO (~4 500), Petite-France (~4 600 mais étroite offre), Neustadt (~4 300). Haut (3 600–4 200) : Krutenau, Esplanade, Tribunal, Orangerie-Conseil de l'Europe. Moyen (3 100–3 600) : Neudorf (gentrification mature), Robertsau centre, Kœnigshoffen centre, Neuhof centre, Cronenbourg. Accessibles (2 600–3 100) : Hautepierre, Meinau, Port-du-Rhin, Polygone. Plus accessibles (2 200–2 600) : Hautepierre périphérique, certaines parties Cronenbourg, Schiltigheim banlieue.",
+      },
+      {
+        heading: "Budget 200–300 k€",
+        body: "T3 ~65 m² possible Neudorf (proximité centre par tram, gentrification), Robertsau centre (tram E, qualité de vie), Kœnigshoffen (tram F, calme résidentiel), Cronenbourg (tram A/D). T2 ~45 m² Grande Île. Banlieue : Schiltigheim (tram, ~30 % moins cher que Strasbourg centre — la meilleure affaire), Bischheim (tram), Illkirch (tram). Schiltigheim est devenue très demandée — qualité de vie, tram, prix encore accessibles.",
+      },
+      {
+        heading: "Budget 300–500 k€ : zone classe moyenne+",
+        body: "T3 ~70 m² à T4 ~90 m² dans Krutenau (étudiant chic), Esplanade (proximité université, vert), Neustadt (Belle Époque, qualité de vie), Robertsau (résidentiel calme, qualité de vie reconnue), Tribunal (proximité institutions). Pour familles : Robertsau et Neustadt offrent les meilleurs réseaux scolaires publics. À ce budget viser tram <400 m (lignes A, B, C, D, E, F couvrent ~80 % ville).",
+      },
+      {
+        heading: "Budget 500 k€–1 M€ : familles établies",
+        body: "T4 ~100 m² ou maison Robertsau (premium résidentiel, vert), Orangerie-Conseil de l'Europe (institutions, jardin Orangerie), Neustadt (Belle Époque haut, parquet), Tribunal premium. Maisons : Robertsau, Cronenbourg périphérique (~80–110 m² avec jardin), Meinau (limites — vérifier précisément). Pour scolarité privée : proximité European School Strasbourg, Lycée Pontonniers sections internationales — prime ~10 %.",
+      },
+      {
+        heading: "Quartiers en hausse vs en stagnation",
+        body: "Hausse 2024–2026 : Neudorf (gentrification mature, tram L1), Kœnigshoffen (tram F nouveau, qualité de vie), Port-du-Rhin (transformation urbaine continue, tram D), Cronenbourg sud (proximité centre). Stagnation : Grande Île (saturé prime, touristique gênant), Petite-France (saturé, étroite offre). Investissement locatif : Krutenau (étudiants), Neudorf (jeunes actifs) offrent meilleurs rendements (~5 %). L'extension tram vers Kehl (Allemagne) renforce le caractère transfrontalier.",
+      },
+      {
+        heading: "Le calcul honnête : acheter à Strasbourg en 2026",
+        body: "Strasbourg reste l'une des grandes métropoles les plus équilibrées : prix modérés (T3 famille ~330 k€ médiane), marché cadre solide (institutions UE, recherche, pharma, biotech), qualité de vie reconnue. Bonus : TGV Paris 1h45, frontière allemande à pied/tram, vélo champion France. Risque : marché plus étroit Bordeaux/Nantes en termes opportunités carrière privée pure. Rendement locatif : ~5 % moyen. Conseils : (1) Tram <400 m, (2) Vérifier qualité isolation (climat continental — factures énergie significatives), (3) Schiltigheim banlieue offre meilleur rapport qualité-prix pour primo-accédant.",
+      },
+    ],
+    relatedCities: ["strasbourg", "haguenau", "colmar", "mulhouse"],
+    relatedGuides: [
+      "quitter-strasbourg-guide-2026",
+      "vivre-sans-voiture-strasbourg-guide-2026",
+      "vivre-en-alsace-guide-2026",
+      "teletravailler-depuis-grand-est-guide-2026",
+      "meilleures-villes-primo-accedants-france-2026",
+    ],
+    tags: ["acheter à Strasbourg", "Strasbourg", "immobilier", "Krutenau", "Neudorf", "Robertsau", "Alsace", "primo-accédant"],
+  },
+  {
+    slug: "acheter-a-rennes-quel-quartier-budget-2026",
+    title: "Acheter à Rennes en 2026 — quel quartier pour quel budget ?",
+    metaTitle: "Acheter à Rennes 2026 : Centre, Thabor, Beaulieu, Cleunay, prix m² — guide",
+    metaDesc:
+      "Rennes 2026 : prix au m² par quartier, budget T2/T3/T4, quartiers en hausse (Maurepas, Cleunay), conseils achat primo-accédant.",
+    category: "budget",
+    emoji: "🐉",
+    readMinutes: 8,
+    publishedAt: "2026-05-13",
+    updatedAt: "2026-05-13",
+    intro:
+      "Rennes a connu une hausse continue jusqu'en 2022 (+50 % sur 10 ans) puis une correction modérée ~-5 % en 2024–2025. La capitale bretonne reste très demandée (étudiants, tech, TGV Paris 1h25). Voici la cartographie par quartier 2026.",
+    sections: [
+      {
+        heading: "Les prix au m² par quartier (2026)",
+        body: "Prime (≥4 200 €/m²) : Thabor-Saint-Hélier (~4 500), Centre Sainte-Anne-Saint-Sauveur (~4 300), Bourg-L'Évêque (~4 200). Haut (3 600–4 200) : Jeanne-d'Arc, Sud-Gare-Magnolia, Beaulieu (universitaire), Cleunay-Arsenal-Redon, Plaisance. Moyen (3 100–3 600) : Maurepas-Bellangerais, Patton, Villejean-Beauregard, Bréquigny. Accessibles (2 600–3 100) : Le Blosne, Cleunay nord, certaines parties Maurepas. Plus accessibles (2 200–2 600) : Sud-Gare sud, parties Villejean.",
+      },
+      {
+        heading: "Budget 200–300 k€",
+        body: "T3 ~65 m² possible Maurepas-Bellangerais (métro b, gentrification en cours), Villejean-Beauregard (métro b, université), Patton (proximité Sainte-Anne, métro a), Cleunay nord (tram). T2 ~45 m² centre. Banlieue : Saint-Jacques-de-la-Lande (résidentiel calme), Chantepie (proximité métro b extension), Bruz (commune dynamique). Maurepas reste l'option qualité/prix pour primo-accédant — métro b prolongé 2022, requalification urbaine continue.",
+      },
+      {
+        heading: "Budget 300–500 k€ : zone classe moyenne+",
+        body: "T3 ~70 m² à T4 ~90 m² dans Thabor-Saint-Hélier (charme bourgeois, parc Thabor), Jeanne-d'Arc (résidentiel proche centre), Bourg-L'Évêque (proximité métro a, qualité de vie), Beaulieu (universitaire huppé), Cleunay-Arsenal (calme, tram). Pour familles : Thabor et Bourg-L'Évêque offrent meilleurs réseaux scolaires publics. À ce budget viser métro <400 m (lignes a, b).",
+      },
+      {
+        heading: "Budget 500 k€–1 M€ : familles établies",
+        body: "T4 ~100 m² ou maison Thabor (résidentiel premium, parc), Sainte-Anne (centre, charme ancien), Beaulieu (universitaire, jardins), Bourg-L'Évêque haut. Maisons : Jeanne-d'Arc résidentiel, Patton, certaines parties Maurepas (~80–110 m² avec jardin 300–500 m²). Pour scolarité privée : proximité Saint-Vincent-Providence, Notre-Dame du Vieux-Cours — prime ~10 %.",
+      },
+      {
+        heading: "Quartiers en hausse vs en stagnation",
+        body: "Hausse 2024–2026 : Maurepas-Bellangerais (métro b prolongé, requalification continue), Cleunay-Arsenal-Redon (tram + nouveaux logements), Beaulieu (proximité université, dynamisme étudiant), Bréquigny sud (métro b prolongé). Stagnation : Thabor (saturé prime), Centre Sainte-Anne (saturé). Investissement locatif : Villejean (étudiants ~6 %), Maurepas (~5,5 %), Beaulieu (~5 %). Le métro b prolongement vers Chantepie (livraison 2025) va dynamiser le sud-est.",
+      },
+      {
+        heading: "Le calcul honnête : acheter à Rennes en 2026",
+        body: "Rennes reste l'une des métropoles françaises les plus équilibrées : marché cadre dynamique (numérique, biotech, télécom), prix modérés (T3 famille ~310 k€ médiane), TGV Paris 1h25 excellent. Bonus : qualité de vie classée régulièrement top France, mobilité no-car premier de classe. Risque : marché du travail moins large que Nantes/Bordeaux hors numérique/recherche. Rendement locatif : ~5 % moyen, ~6 % proche universités. Conseils : (1) Métro <400 m fortement valorisant, (2) Climat humide — vérifier isolation et ventilation, (3) Pour primo-accédant : Maurepas et Cleunay nord offrent meilleur potentiel de plus-value 5-10 ans.",
+      },
+    ],
+    relatedCities: ["rennes", "saint-malo", "vannes", "nantes", "brest"],
+    relatedGuides: [
+      "quitter-rennes-guide-2026",
+      "vivre-sans-voiture-rennes-guide-2026",
+      "nantes-vs-rennes-comparatif-2025",
+      "teletravailler-depuis-bretagne-guide-2026",
+      "meilleures-villes-primo-accedants-france-2026",
+    ],
+    tags: ["acheter à Rennes", "Rennes", "immobilier", "Thabor", "Maurepas", "Cleunay", "Bretagne", "primo-accédant"],
+  },
+  {
+    slug: "acheter-a-montpellier-quel-quartier-budget-2026",
+    title: "Acheter à Montpellier en 2026 — quel quartier pour quel budget ?",
+    metaTitle: "Acheter à Montpellier 2026 : Antigone, Beaux-Arts, Comédie, prix m² — guide",
+    metaDesc:
+      "Montpellier 2026 : prix au m² par quartier, T2/T3/T4 budget, quartiers en hausse (Port-Marianne, Cévennes), conseils primo-accédant et investisseur.",
+    category: "budget",
+    emoji: "☀️",
+    readMinutes: 8,
+    publishedAt: "2026-05-13",
+    updatedAt: "2026-05-13",
+    intro:
+      "Montpellier a vu une hausse continue jusqu'en 2023 (+38 % sur 10 ans) portée par démographie (la ville la plus dynamique de France) et tech. Correction modérée 2024-2025 (-4 %). Voici la cartographie par quartier 2026.",
+    sections: [
+      {
+        heading: "Les prix au m² par quartier (2026)",
+        body: "Prime (≥4 500 €/m²) : Comédie-Préfecture (~4 700), Antigone (~4 600), Écusson centre historique (~4 500). Haut (3 800–4 500) : Beaux-Arts-Aubes, Saint-Roch, Cité Mion, Boutonnet, Aiguelongue. Moyen (3 200–3 800) : Cévennes-Saint-Martin, Port-Marianne (tram L3), Estanove, Hôpitaux-Facultés, Croix-d'Argent. Accessibles (2 700–3 200) : Mosson (tram L1), Près-de-Boude, Près d'Arènes. Plus accessibles (2 300–2 700) : Hauts-de-Massane, certaines parties Mosson, La Paillade.",
+      },
+      {
+        heading: "Budget 200–300 k€",
+        body: "T3 ~65 m² possible Cévennes-Saint-Martin (tram, requalification urbaine), Estanove (résidentiel, tram L1), Port-Marianne sud (nouveaux logements, tram L3), Hôpitaux-Facultés (proximité CHU). T2 ~45 m² centre. Banlieue : Castelnau-le-Lez (tram L2 — meilleure affaire), Lattes (tram L3), Pérols (tram L3). Castelnau-le-Lez est très demandée : qualité de vie, tram, prix 25 % inférieurs centre Montpellier.",
+      },
+      {
+        heading: "Budget 300–500 k€ : zone classe moyenne+",
+        body: "T3 ~70 m² à T4 ~90 m² dans Beaux-Arts-Aubes (charme bourgeois, marché Beaux-Arts), Boutonnet (résidentiel familial, qualité de vie), Antigone (architecture Bofill, vivant), Aiguelongue (calme, écoles). Pour familles : Boutonnet, Aiguelongue, Beaux-Arts offrent meilleurs réseaux scolaires publics. À ce budget viser tram <400 m (lignes L1, L2, L3, L4 couvrent ~80 % ville).",
+      },
+      {
+        heading: "Budget 500 k€–1 M€ : familles établies",
+        body: "T4 ~100 m² ou maison Aiguelongue (premium résidentiel, jardins), Boutonnet (haut, calme), Antigone premium, Beaux-Arts. Maisons : Aiguelongue, Cité Mion, certaines parties Hôpitaux-Facultés (~80–110 m² avec jardin). Pour scolarité privée : proximité IBSAix (international, Aix-en-Provence partner), International School of Montpellier — prime ~10 %.",
+      },
+      {
+        heading: "Quartiers en hausse vs en stagnation",
+        body: "Hausse 2024–2026 : Port-Marianne (transformation urbaine continue, tram L3, nouveau quartier numérique), Cévennes-Saint-Martin (tram, requalification mature), Estanove (tram L1, calme résidentiel), Hôpitaux-Facultés (proximité CHU, étudiants). Stagnation : Comédie-Préfecture (saturé prime, touristique gênant), Écusson centre (étroite offre, parquet ancien). Investissement locatif : Hôpitaux-Facultés (étudiants ~6 %), Cévennes (~5,5 %), Port-Marianne (~5 %). La nouvelle ligne tram L4 (livraison 2026) renforce dynamisme nord.",
+      },
+      {
+        heading: "Le calcul honnête : acheter à Montpellier en 2026",
+        body: "Montpellier est la ville française la plus dynamique démographiquement (+0,9 %/an depuis 10 ans). T3 famille ~370 k€ médiane. Bonus : climat ensoleillé, mer 15 min, université active. Risque : exposition jeunesse étudiante massive (~80 000 étudiants) — marché locatif tendu, achat T2/T3 pour louer reste rentable. Rendement locatif : ~5,5 % moyen, ~6,5 % proche facultés. Conseils : (1) Tram <400 m (gratuit donc prime accentuée), (2) Climatisation incontournable (45 jours/an >30 °C), (3) Vérifier qualité construction nouvelle (boom immobilier années 2010-2020 a généré du mauvais bâti rapide — DPE et copropriété à vérifier).",
+      },
+    ],
+    relatedCities: ["montpellier", "nimes", "beziers", "narbonne", "sete"],
+    relatedGuides: [
+      "quitter-montpellier-guide-2026",
+      "vivre-sans-voiture-montpellier-guide-2026",
+      "perpignan-vs-montpellier-comparatif-2026",
+      "nice-vs-montpellier-comparatif-2026",
+      "meilleures-villes-entrepreneurs-startups-france-2026",
+    ],
+    tags: ["acheter à Montpellier", "Montpellier", "immobilier", "Antigone", "Port-Marianne", "Boutonnet", "Hérault", "primo-accédant"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
