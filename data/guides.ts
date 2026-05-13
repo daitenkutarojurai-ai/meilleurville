@@ -11618,6 +11618,251 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["vivre sans voiture", "Nantes", "TAN", "Bicloo", "Navibus", "tram", "mobilité", "écologie"],
   },
+  {
+    slug: "acheter-a-paris-quel-quartier-budget-2026",
+    title: "Acheter à Paris en 2026 — quel arrondissement pour quel budget ?",
+    metaTitle: "Acheter à Paris 2026 : quartier, budget, T2 T3 T4 — guide honnête",
+    metaDesc:
+      "Prix au m² par arrondissement, vrais budgets pour acheter T2/T3/T4 à Paris en 2026, arrondissements en hausse, en stagnation. Conseils primo-accédant.",
+    category: "budget",
+    emoji: "🏛️",
+    readMinutes: 8,
+    publishedAt: "2026-05-13",
+    updatedAt: "2026-05-13",
+    intro:
+      "Paris reste l'un des marchés immobiliers les plus chers d'Europe, mais 2024–2026 a vu une baisse de ~7 % qui ouvre une fenêtre. Comprendre quel arrondissement correspond à quel budget, où acheter ne reviendra plus, et où la décote est temporaire est crucial. Voici la grille de lecture 2026 par budget réaliste.",
+    sections: [
+      {
+        heading: "Les prix au m² par arrondissement (2026)",
+        body: "Ultra-prime (≥13 000 €/m²) : 6e (~14 200), 7e (~13 800), 4e (~13 400), 1er (~12 900). Très haut (10 000–12 000) : 5e, 8e, 16e nord (Trocadéro/Passy), 3e, 2e. Haut (8 500–10 000) : 9e, 10e (Saint-Martin), 11e nord (République), 14e (Montparnasse, Plaisance), 15e, 17e Batignolles. Moyen (7 500–8 500) : 11e sud, 12e (Bercy, Nation), 18e (Montmartre hors collines premium), 20e (Belleville, Père-Lachaise). Plus accessibles (6 500–7 500) : 13e, 19e, 20e nord-est. Le marché parisien a une amplitude de 1 à 2,2 selon arrondissement — la position de quartier est plus déterminante que les m².",
+      },
+      {
+        heading: "Budget 400–500 k€ : quel logement, où ?",
+        body: "À ce niveau, le marché parisien intra-muros offre essentiellement T2/petit T3 dans les arrondissements 13e, 19e, 20e, parfois 18e nord. T2 ~45 m² typique. Pour T3 ~60 m² : seulement 19e Place des Fêtes / 20e Pyrénées / 13e Olympiades-Tolbiac. Alternative grande couronne : T3 ~65 m² à Vincennes, Montreuil, Pantin (le triangle est-parisien), Bois-Colombes, Levallois (ouest). Ces communes ont vu une hausse +15 % sur 5 ans, parfois plus chères que Paris 19e. À ce budget, viser RER A/E/M9-M11 desserte directe Paris-centre.",
+      },
+      {
+        heading: "Budget 500–800 k€ : la zone «classes moyennes supérieures»",
+        body: "T3 ~65–75 m² possible dans la plupart des arrondissements moyens (10e, 11e sud, 12e, 14e, 15e, 17e nord, 18e centre, 20e centre). T4 ~80–95 m² dans 13e, 19e, 20e. Pour familles cherchant école publique de qualité : 11e (école Voltaire, école Auguste Blanqui), 12e (école Daumesnil), 14e (école Boulard) sont les valeurs sûres. Le 18e centre (Lamarck, Jules Joffrin) a un excellent rapport qualité-prix mais variations fortes selon micro-quartier — vérifier sur place. À ce budget, viser le métro à <300 m et le commerce de bouche dans le quartier.",
+      },
+      {
+        heading: "Budget 800 k€–1,5 M€ : familles établies",
+        body: "T4 ~95–110 m² dans les arrondissements premium (6e, 5e, 7e, 16e, 17e Batignolles) ou T5 ~120 m² dans 14e Plaisance, 15e Convention, 17e Ternes, 18e Lamarck, 11e Voltaire. À ce niveau, le facteur école privée prend du poids — proximité Stanislas (6e), École Alsacienne (6e), Sainte-Marie (16e), Saint-Louis-de-Gonzague Franklin (16e), Lycée Henri-IV (5e). Acheter à proximité ces zones génère une prime de ~10–15 % qui revient à la revente. Limites : pour ce budget on commence à avoir intérêt à comparer aux Hauts-de-Seine (Neuilly, Levallois ouest) qui offrent T4 plus grands avec parc.",
+      },
+      {
+        heading: "Arrondissements en hausse vs en stagnation",
+        body: "En hausse 2024–2026 : 18e centre (Lamarck-Caulaincourt — gentrification soutenue), 20e centre (Gambetta, Pyrénées — métro M11 prolongé), 13e sud (Olympiades, Bibliothèque — Tolbiac dynamique, BNF rayonnante), 12e nord (Aligre, République — la rotation Bastille pousse vers le 12e). En stagnation ou légère baisse : 8e (saturé, demande haut de gamme molle), 16e sud (Auteuil-Boulogne — image «dépassée»), 4e Saint-Paul (prime éroded par bobo fatigue). Les meilleurs gains à 5 ans concernent les arrondissements moyens en cours de gentrification (10e, 11e, 18e, 20e), pas le prime déjà tendu.",
+      },
+      {
+        heading: "Le calcul honnête : acheter à Paris en 2026 ?",
+        body: "Avec des taux à 3,5–4 % en mai 2026, la capacité d'emprunt a baissé de ~25 % vs 2021. Pour devenir propriétaire d'un T3 à 650 k€, il faut soit ~150 k€ d'apport + 35 % d'effort taux + 25 ans, soit deux gros salaires (>5 500 € net/mois cumulés). Beaucoup de couples primo-accédants 30–35 ans Paris ne peuvent plus suivre — d'où la migration Vincennes, Montreuil, Pantin, Saint-Ouen. Acheter à Paris fait sens si : (1) on y vit déjà et on est sûr de rester 8+ ans, (2) on a un apport ≥20 %, (3) on accepte un T2/petit T3 si revenu modéré. Acheter pour louer reste rentable dans les 19e/20e mais rendement faible (~3,5 %).",
+      },
+    ],
+    relatedCities: ["paris", "vincennes", "boulogne-billancourt", "levallois-perret", "nanterre"],
+    relatedGuides: [
+      "quitter-paris-guide-2025",
+      "vivre-sans-voiture-paris-guide-2026",
+      "meilleures-villes-primo-accedants-france-2026",
+      "teletravailler-grande-couronne-ile-de-france-2026",
+      "investissement-locatif-moins-100000-euros-france-2026",
+    ],
+    tags: ["acheter à Paris", "Paris", "immobilier", "primo-accédant", "arrondissement", "T2 T3", "Île-de-France"],
+  },
+  {
+    slug: "acheter-a-lyon-quel-quartier-budget-2026",
+    title: "Acheter à Lyon en 2026 — quel arrondissement pour quel budget ?",
+    metaTitle: "Acheter à Lyon 2026 : Croix-Rousse, Confluence, 7e, budget, prix m² — guide",
+    metaDesc:
+      "Lyon en 2026 : prix au m² par arrondissement, vrais budgets T2/T3/T4, quartiers en hausse, conseils primo-accédant et investisseur.",
+    category: "budget",
+    emoji: "🏘️",
+    readMinutes: 8,
+    publishedAt: "2026-05-13",
+    updatedAt: "2026-05-13",
+    intro:
+      "Lyon est devenue la 2e métropole française la plus chère après Paris, avec des prix multipliés par ~2,2 en 15 ans. La baisse 2024–2026 (~5 %) ouvre une fenêtre mais le marché reste tendu. Voici quel arrondissement choisir selon votre budget, où acheter en 2026, et où la prime est encore raisonnable.",
+    sections: [
+      {
+        heading: "Les prix au m² par arrondissement (2026)",
+        body: "Prime (≥6 000 €/m²) : 6e (Foch, Bellecour Est ~6 800), 2e (Presqu'île sud, Cordeliers ~6 500), 1er (Pentes Croix-Rousse haut ~6 200). Haut (5 000–6 000) : 7e (Guillotière, Jean-Macé), 3e (Part-Dieu, Préfecture), 5e (Vieux-Lyon, Saint-Just). Moyen (4 000–5 000) : 4e (Croix-Rousse plateau), 8e (Monplaisir), 6e ouest (Brotteaux secondaire). Accessibles (3 000–4 000) : 9e (Vaise, Gorge de Loup), 7e sud (Gerland, Vivier-Merle), 8e Bachut. Amplitude de 1 à 2,3 selon arrondissement — Presqu'île prime vs 9e périphérique.",
+      },
+      {
+        heading: "Budget 250–350 k€ : où acheter ?",
+        body: "À ce niveau, T2 ~45 m² possible dans 7e Gerland, 8e Bachut/Monplaisir, 9e Vaise, et 3e Part-Dieu Est. T3 ~60 m² seulement dans 9e et 8e périphérie. Banlieue proche : Villeurbanne (T3 ~65 m² ~290 k€), Caluire centre, Sainte-Foy-lès-Lyon (résidentiel). Villeurbanne reste la meilleure affaire pour primo-accédant — tram T1/T4, prix 25 % inférieurs à Lyon 3e, requalification urbaine (Carré de Soie). Limites : éviter Lyon 9e Vaise sud zone industrielle, certains secteurs 8e Mermoz sensibles.",
+      },
+      {
+        heading: "Budget 350–600 k€ : la zone classe moyenne+",
+        body: "T3 ~60–75 m² possible dans la plupart des arrondissements (sauf 6e/2e prime). T4 ~85 m² dans 7e Jean-Macé, 8e Monplaisir, 3e Part-Dieu, 1er Pentes basses. Pour familles : 6e Brotteaux (école Lacassagne réputée), 3e Préfecture (écoles bien notées), 8e Monplaisir (Charial), 7e Jean-Macé (Doisneau). Le 4e Croix-Rousse offre un excellent compromis qualité de vie/écoles publiques/budget. À ce niveau viser tram/métro <400 m, marché de bouche dans le quartier.",
+      },
+      {
+        heading: "Budget 600 k€–1 M€ : familles établies",
+        body: "T4 ~95–110 m² possibles dans 6e Brotteaux/Parc, 2e Bellecour, 1er Pentes haut, 5e Vieux-Lyon supérieur. Ou T5 ~120 m² dans 4e Croix-Rousse plateau, 7e Jean-Macé/Garibaldi. À ce budget, l'arbitrage privé/public scolaire compte — proximité Cité Scolaire Internationale Lyon (Gerland), Lycée du Parc (6e), Externat Sainte-Marie (5e). Acheter dans les bassins de recrutement génère une prime durable. Banlieues alternatives à comparer : Caluire centre, Écully (CES, EMlyon), Sainte-Foy-lès-Lyon (résidentiel calme).",
+      },
+      {
+        heading: "Arrondissements en hausse vs en stagnation",
+        body: "En hausse 2024–2026 : 3e Part-Dieu (tour Incity, transformation urbaine), 7e Gerland (biopole, Cité Internationale), 9e Vaise (requalification Industrie Confluence), 4e Croix-Rousse plateau (gentrification mature). Stagnation : 6e Foch (saturé prime), 2e Cordeliers (très cher avec animation touristique gênante), 5e Vieux-Lyon haut (cher, étroit, mal exposé). Confluence (2e sud) : valeur boostée par Musée + nouveaux logements mais prix déjà élevés.",
+      },
+      {
+        heading: "Le calcul honnête : acheter à Lyon en 2026",
+        body: "Capacité d'emprunt 2026 limitée par taux à ~3,5 %. T3 à 480 k€ exige ~100 k€ d'apport + couple à ~6 000 € net/mois. Lyon reste rentable à long terme mais 2024–2027 sera plombé par taux et nouvelle taxe foncière en hausse ~+10 % d'ici 2027. Acheter Lyon fait sens si : on reste 8+ ans, on accepte petits volumes (la moyenne lyonnaise est ~60 m² par logement vs 75 m² à Toulouse), on a un apport solide. Pour investir : Villeurbanne et 9e Vaise offrent les meilleurs rendements (~4,5–5 %).",
+      },
+    ],
+    relatedCities: ["lyon", "villeurbanne", "saint-etienne", "grenoble", "annecy"],
+    relatedGuides: [
+      "quitter-lyon-guide-2026",
+      "vivre-sans-voiture-lyon-guide-2026",
+      "lyon-vs-bordeaux-comparatif-2025",
+      "dijon-vs-lyon-comparatif-2026",
+      "meilleures-villes-primo-accedants-france-2026",
+    ],
+    tags: ["acheter à Lyon", "Lyon", "immobilier", "Croix-Rousse", "Confluence", "Villeurbanne", "primo-accédant"],
+  },
+  {
+    slug: "acheter-a-marseille-quel-quartier-budget-2026",
+    title: "Acheter à Marseille en 2026 — quel arrondissement pour quel budget ?",
+    metaTitle: "Acheter à Marseille 2026 : 6e 7e 8e 13e, prix m², quartiers — guide",
+    metaDesc:
+      "Marseille en 2026 : amplitude énorme de prix entre arrondissements (3 000 à 6 500 €/m²). Quel quartier pour quel budget, où acheter, où éviter — guide honnête.",
+    category: "budget",
+    emoji: "🌊",
+    readMinutes: 8,
+    publishedAt: "2026-05-13",
+    updatedAt: "2026-05-13",
+    intro:
+      "Marseille a l'amplitude de prix la plus extrême des grandes villes françaises : du simple au double selon arrondissement (3 000 à 6 500 €/m²). Acheter à Marseille demande une lecture précise des micro-quartiers — une rue peut faire varier le prix de 30 %. Voici la cartographie 2026.",
+    sections: [
+      {
+        heading: "Les prix au m² par arrondissement (2026)",
+        body: "Prime (≥5 500 €/m²) : 7e Vauban-Endoume-Bompard (~6 300), 8e Bord de mer Prado-Plage (~6 500), 9e Sainte-Marguerite-Mazargues (~5 700). Haut (4 500–5 500) : 6e Castellane-Lodi-Vauban, 1er Centre Préfecture, 4e Camas-Saint-Charles, 5e Baille-Conception. Moyen (3 500–4 500) : 2e Joliette-Euroméditerranée (nouvelles constructions), 12e Saint-Barnabé-Saint-Julien, 11e La Pomme. Plus accessibles (3 000–3 500) : 13e Saint-Mitre-Malpassé (mais variable), 14e Saint-Joseph, 15e Saint-Antoine. Très bas (<3 000) : 3e Belle-de-Mai-Saint-Mauront, certaines parties du 14e/15e/16e — attention sécurité ressentie variable.",
+      },
+      {
+        heading: "Budget 200–300 k€ : où acheter ?",
+        body: "À ce niveau, T3 ~65 m² possible dans 4e Camas (charme ancien), 5e Baille, 6e Lodi (limites), 12e Saint-Julien (résidentiel calme). T2 ~45 m² dans 1er, 6e prime. À éviter pour un primo-accédant sans connaissance terrain : 3e nord, certains secteurs 13e/14e/15e (sécurité ressentie variable, valeur de revente incertaine). Pour la côte sans casser tirelire : Pointe-Rouge (8e), Madrague (7e Sud) — prix ~4 500–5 500 €/m², T2 environ 250 k€.",
+      },
+      {
+        heading: "Budget 300–500 k€ : les quartiers résidentiels",
+        body: "T3 ~70 m² à T4 ~90 m² dans 7e Endoume-Roucas (mer en bas, marché de bouche), 6e Castellane (animé, métro M2), 8e Périer-Vauban (résidentiel, scolarité), 12e Saint-Barnabé (calme, écoles publiques), 4e Saint-Pierre (vivant). Pour familles avec enfants : 7e Vauban, 8e Périer, 6e Vauban offrent les meilleures écoles publiques. À ce budget viser ascenseur (immeubles haussmanniens marseillais souvent 4–6 étages sans), proximité métro/tram.",
+      },
+      {
+        heading: "Budget 500 k€–1 M€ : familles établies bord de mer",
+        body: "T4 ~95–110 m² ou maison ~110 m² dans 7e Roucas-Blanc/Endoume haut (vue mer, calme), 8e Périer/Prado (bord mer, écoles privées proches — IPSA, Lycée Saint-Joseph Périer), 9e Mazargues-Vieille-Chapelle (résidentiel maisons). Maisons : 12e Saint-Barnabé/Saint-Julien (jardin, calme), 11e La Pomme/Saint-Loup. Prado-Plage et Roucas-Blanc sont les quartiers premium par excellence, valeur stable à long terme. Privilégier double exposition et garage (rare à Marseille).",
+      },
+      {
+        heading: "Quartiers en hausse vs à éviter",
+        body: "En hausse forte 2024–2026 : Joliette/Euroméditerranée (2e — programme immobilier neuf, métro M2), Endoume (7e — gentrification), Camas (4e — proximité Plaine vivante). En stagnation : Saint-Charles (1er — image dégradée), Vauban 6e haut (saturé prime). À éviter pour primo-accédant : Belle-de-Mai (3e, sauf si l'on connaît terrain), Saint-Mauront (3e), Le Merlan (14e), certaines parties 15e/16e nord — la prime de prix bas reflète un risque sécurité et de revente. Marseille a des micro-quartiers excellents à 100 m de quartiers difficiles — vérifier précisément la rue exacte.",
+      },
+      {
+        heading: "Le calcul honnête : acheter à Marseille en 2026",
+        body: "Marseille reste l'une des grandes villes françaises où on peut encore acheter T3 famille à moins de 350 k€ dans un bon quartier — atout majeur. Risque : la sécurité ressentie et la valeur de revente sont très liées au micro-quartier, plus qu'ailleurs. Conseils : (1) Visiter à 22h un soir d'hiver (test sécurité subjective), (2) Vérifier la copropriété (charges parfois très élevées sur ancien), (3) Acheter de préférence dans rue commerçante vivante (école/boulangerie/marché à <200 m). Rendement locatif : ~5 % moyen, jusqu'à 6,5 % en 6e/4e — l'un des meilleurs rendements grandes villes françaises.",
+      },
+    ],
+    relatedCities: ["marseille", "aix-en-provence", "aubagne", "cassis", "toulon"],
+    relatedGuides: [
+      "quitter-marseille-guide-2026",
+      "aix-en-provence-vs-marseille-comparatif-2026",
+      "toulon-vs-marseille-comparatif-2026",
+      "marseille-vs-toulouse-comparatif-2025",
+      "meilleures-villes-primo-accedants-france-2026",
+    ],
+    tags: ["acheter à Marseille", "Marseille", "immobilier", "Prado", "Roucas-Blanc", "Endoume", "primo-accédant", "Bouches-du-Rhône"],
+  },
+  {
+    slug: "acheter-a-toulouse-quel-quartier-budget-2026",
+    title: "Acheter à Toulouse en 2026 — quel quartier pour quel budget ?",
+    metaTitle: "Acheter à Toulouse 2026 : Saint-Cyprien, Carmes, Côte Pavée, prix m² — guide",
+    metaDesc:
+      "Toulouse en 2026 : prix au m² par quartier, budget T2/T3/T4, quartiers en hausse (Compans, Bonnefoy), où acheter ne reviendra plus en arrière.",
+    category: "budget",
+    emoji: "🟣",
+    readMinutes: 8,
+    publishedAt: "2026-05-13",
+    updatedAt: "2026-05-13",
+    intro:
+      "Toulouse a vu ses prix monter de +35 % sur 10 ans, portée par l'aéronautique et l'attractivité étudiante. La baisse 2024–2026 (~4 %) offre une fenêtre, mais la demande sous-jacente reste forte. Voici quel quartier choisir pour 2026 selon votre budget.",
+    sections: [
+      {
+        heading: "Les prix au m² par quartier (2026)",
+        body: "Prime (≥4 500 €/m²) : Carmes-Esquirol (~4 800), Capitole-Wilson (~4 700), Saint-Étienne (~4 500). Haut (3 800–4 500) : Côte Pavée, Saint-Cyprien centre, Jean Jaurès, Compans-Cafarelli, Arnaud-Bernard. Moyen (3 200–3 800) : Saint-Aubin, Bonnefoy, Minimes, Roseraie. Accessibles (2 700–3 200) : Saint-Michel, Patte d'Oie, Rangueil (étudiant), Lardenne. Plus accessibles (2 200–2 700) : Bagatelle, Empalot, Mirail (variable selon sécurité ressentie). Amplitude 1 à 2,2 — moins extrême qu'à Marseille mais marquée.",
+      },
+      {
+        heading: "Budget 200–300 k€",
+        body: "T3 ~65 m² possible dans Saint-Aubin, Bonnefoy (gentrification en cours, micro-quartier vivant), Minimes, Roseraie centre. T2 ~45 m² dans Carmes/Capitole prime. Banlieue accessible : Blagnac (centre, RER), Colomiers (proximité aéronautique), Balma. À éviter sans visite terrain : Empalot, Bagatelle, certaines parties Mirail — prix bas mais valeur de revente incertaine. Compromis intéressant : Rangueil-Université (T2 ~38 m² ~180 k€, marché locatif étudiant solide).",
+      },
+      {
+        heading: "Budget 300–500 k€ : zone classe moyenne+",
+        body: "T3 ~70 m² à T4 ~95 m² dans Saint-Cyprien (rive gauche vivante, marché Patte d'Oie), Compans-Cafarelli (proximité Université, cadre vert), Côte Pavée (résidentiel haut Toulouse, écoles publiques excellentes), Minimes-Barrière de Paris (gentrification, métro B). Pour familles : Côte Pavée et Saint-Cyprien centre offrent les meilleurs réseaux d'écoles publiques + commerces de bouche. À ce budget viser métro à <400 m (lignes A et B couvrent ~75 % du centre).",
+      },
+      {
+        heading: "Budget 500 k€–1 M€ : familles établies",
+        body: "T4 ~100–120 m² ou maison ~110 m² dans Côte Pavée (résidentiel premium, jardins de ville), Carmes (centre historique, charme ancien), Saint-Étienne (jardin Royal proche), Capitole intra (rare maisons individuelles, prime forte). Maisons : Lardenne, Pouvourville (proximité Sicoval), Saint-Simon. Pour scolarité privée premium : Stanislas Toulouse, Saint-Joseph, ICAM — proximité génère prime ~10 %. Toulouse offre encore des maisons individuelles avec jardin sous 800 k€ — atout rare comparé à Paris/Lyon.",
+      },
+      {
+        heading: "Quartiers en hausse vs en stagnation",
+        body: "Hausse forte 2024–2026 : Compans-Cafarelli (métro B, jardin Compans, gentrification mature), Bonnefoy (proximité Matabiau gare, transformation urbaine TESO-Toulouse Euro Sud-Ouest), Saint-Aubin (place Saint-Aubin vivante, bars). Modérée : Côte Pavée (déjà cher mais demande forte). Stagnation : Carmes haut (saturé prime, copropriétés vieillissantes), Capitole (touristique gênant). Le projet Toulouse Métro Ligne C (livraison 2028) va dynamiser Cartoucherie, Saint-Cyprien sud, La Vache — fenêtre 2025–2026 pour acheter avant la prime de transport.",
+      },
+      {
+        heading: "Le calcul honnête : acheter à Toulouse en 2026",
+        body: "Toulouse reste l'une des grandes métropoles les plus accessibles aux primo-accédants (T3 famille ~330 k€ médiane) avec un marché du travail dynamique (Airbus, Thales, CNES, spatial). Risque : exposition Airbus — un cycle de baisse aéronautique fragiliserait la demande. Rendement locatif : ~5 % moyen, ~5,5 % proche universités. Pour acheter : (1) Privilégier métro <400 m (lignes A, B, futures C), (2) Éviter rez-de-chaussée (cambriolages fréquents centre), (3) Vérifier exposition (chaleur estivale ~35 jours >30°C — climatisation devient stratégique).",
+      },
+    ],
+    relatedCities: ["toulouse", "albi", "montauban", "auch", "tarbes"],
+    relatedGuides: [
+      "quitter-toulouse-guide-2026",
+      "marseille-vs-toulouse-comparatif-2025",
+      "meilleures-villes-primo-accedants-france-2026",
+      "meilleures-villes-entrepreneurs-startups-france-2026",
+      "teletravailler-depuis-occitanie-guide-2026",
+    ],
+    tags: ["acheter à Toulouse", "Toulouse", "immobilier", "Côte Pavée", "Saint-Cyprien", "Compans", "primo-accédant", "Haute-Garonne"],
+  },
+  {
+    slug: "acheter-a-lille-quel-quartier-budget-2026",
+    title: "Acheter à Lille en 2026 — quel quartier pour quel budget ?",
+    metaTitle: "Acheter à Lille 2026 : Vieux-Lille, Wazemmes, Vauban, prix m² — guide",
+    metaDesc:
+      "Lille en 2026 : prix au m² par quartier, budget T2/T3/T4, quartiers en hausse (Fives, Moulins), conseils primo-accédant et investisseur locatif.",
+    category: "budget",
+    emoji: "🐉",
+    readMinutes: 8,
+    publishedAt: "2026-05-13",
+    updatedAt: "2026-05-13",
+    intro:
+      "Lille est l'une des grandes métropoles françaises les plus accessibles avec un marché immobilier dynamique tiré par l'Eurostar, la TGV Paris (1h05), l'université et la requalification urbaine continue. Voici quel quartier choisir en 2026 selon votre budget.",
+    sections: [
+      {
+        heading: "Les prix au m² par quartier (2026)",
+        body: "Prime (≥4 500 €/m²) : Vieux-Lille (~4 800), Solférino (~4 600), République-Beaux-Arts (~4 500). Haut (3 800–4 500) : Vauban-Esquermes (étudiant huppé), Saint-Maurice Pellevoisin, Hellemmes-Lille (résidentiel), centre Wazemmes haut. Moyen (3 200–3 800) : Wazemmes (gentrification mature), Moulins, Fives-Hellemmes, Bois-Blancs (rénové). Accessibles (2 700–3 200) : Saint-Maurice nord, Lille-Sud, La Madeleine centre. Plus accessibles (2 200–2 700) : Lomme, Mons-en-Barœul, certaines parties Roubaix/Tourcoing (variable selon micro-quartier).",
+      },
+      {
+        heading: "Budget 150–250 k€ : où acheter ?",
+        body: "À ce niveau, T3 ~65 m² possible dans Wazemmes (excellente affaire si on aime l'animation marché), Moulins (résidentiel calme, métro M2), Fives (gentrification en cours, prix encore bas). T2 ~45 m² dans Vauban étudiant, Saint-Maurice nord. Hors Lille : T3 ~70 m² à La Madeleine (très bien desservie), Mons-en-Barœul (métro M2), Lambersart (résidentiel). Roubaix-Centre et Tourcoing-Centre offrent T3 ~60 m² ~140 k€ — rentabilité locative excellente mais valeur revente plus aléatoire.",
+      },
+      {
+        heading: "Budget 250–400 k€ : zone classe moyenne+",
+        body: "T3 ~70 m² à T4 ~90 m² dans Wazemmes (animation, marché trois fois par semaine), Vauban-Esquermes (étudiant huppé, proximité universités), Saint-Maurice Pellevoisin (résidentiel familial, écoles publiques excellentes), République-Beaux-Arts (centre, métro M1). Pour familles : Saint-Maurice Pellevoisin et République offrent les meilleures écoles publiques. Hellemmes (commune intégrée à Lille) : excellent rapport qualité-prix, maisons individuelles dès 350 k€.",
+      },
+      {
+        heading: "Budget 400–700 k€ : familles établies",
+        body: "T4 ~100 m² ou maison Vieux-Lille (charme flamand, parquet, briques) — la prime Vieux-Lille reste solide à long terme. Maisons : Hellemmes-Lille (~80–110 m², jardin), Saint-Maurice (maisons bourgeoises), Lambersart (résidentiel calme). Pour scolarité privée : proximité Lycée Catholique de Cambrai, ESPOL Lille, Saint-Paul Lille — prime ~5–10 %. Croix (~150 k€ plus que Lambersart) : commune chic de la métropole, faite pour résidence familiale aisée.",
+      },
+      {
+        heading: "Quartiers en hausse vs en stagnation",
+        body: "Hausse 2024–2026 : Fives (M1 métro, gentrification artisanale, friches reconverties — la nouvelle adresse des trentenaires lillois), Moulins (cadre vert Citadelle, prix encore raisonnables), Bois-Blancs (île reconnectée, requalification urbaine), Saint-Maurice nord (gentrification mature). Stagnation : Vieux-Lille (saturé prime), Solférino (saturé). Investissement locatif : Wazemmes et Vauban-Esquermes restent les zones reines (rendement ~5,5–6 %, demande étudiante forte 110 000 étudiants à Lille).",
+      },
+      {
+        heading: "Le calcul honnête : acheter à Lille en 2026",
+        body: "Lille reste l'une des meilleures grandes métropoles françaises pour primo-accédant — T3 famille ~280 k€ médiane, capacité d'achat correcte sur couples revenus moyens. Bonus : Eurostar Londres-Bruxelles direct, TGV Paris 1h05, dynamisme universitaire. Risque : la requalification de certains quartiers (Fives, Moulins) est en cours mais inégale rue par rue — vérifier précisément. Conseils : (1) Privilégier métro <400 m (M1 et M2 desservent ~70 % de la ville), (2) Éviter rez-de-chaussée Vieux-Lille (humidité fréquente), (3) Vérifier l'isolation (climat continental humide, factures chauffage importantes).",
+      },
+    ],
+    relatedCities: ["lille", "arras", "douai", "valenciennes", "dunkerque"],
+    relatedGuides: [
+      "quitter-lille-guide-2026",
+      "vivre-en-hauts-de-france-guide-2026",
+      "teletravailler-depuis-hauts-de-france-guide-2026",
+      "meilleures-villes-primo-accedants-france-2026",
+      "investissement-locatif-moins-100000-euros-france-2026",
+    ],
+    tags: ["acheter à Lille", "Lille", "immobilier", "Vieux-Lille", "Wazemmes", "Fives", "primo-accédant", "Nord"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
