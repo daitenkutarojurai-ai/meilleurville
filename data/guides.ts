@@ -10293,6 +10293,547 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["Vaucluse", "Provence", "Avignon", "Luberon", "Carpentras", "mistral", "climat méditerranéen", "vivre en Provence", "Mont Ventoux"],
   },
+  {
+    slug: "quitter-saint-etienne-guide-2026",
+    title: "Quitter Saint-Étienne en 2026 — vers Lyon, vers la montagne, vers la mer ?",
+    metaTitle: "Quitter Saint-Étienne 2026 : Lyon, Annecy, Saint-Chamond, Roanne — le guide",
+    metaDesc:
+      "Saint-Étienne attire pour son immobilier (parmi les moins chers de France) mais fait partir pour son emploi, sa réputation et son climat. Vers où partent les Stéphanois — et ce qu'ils gagnent vraiment.",
+    category: "comparaison",
+    emoji: "⚒️",
+    readMinutes: 8,
+    publishedAt: "2026-05-13",
+    updatedAt: "2026-05-13",
+    intro:
+      "Saint-Étienne est une ville-paradoxe : prix de l'immobilier parmi les plus bas des grandes villes françaises (~1 500 €/m² dans certains quartiers), patrimoine industriel et créatif (Cité du Design, Mémorial Manufrance), proximité immédiate du Pilat et du Forez. Mais l'agglomération perd des habitants depuis 1975 (de 230 000 à 170 000 aujourd'hui) et chaque année 3 000 à 4 000 Stéphanois partent. Ce guide explique pourquoi, où ils vont, et ce que coûte vraiment chacun de ces choix.",
+    sections: [
+      {
+        heading: "Pourquoi on quitte Saint-Étienne",
+        body: "Trois raisons principales reviennent dans les enquêtes Insee migrations : (1) Emploi — le tissu industriel local s'est érodé (Manufrance fermée depuis 1985, GIAT-Industries en transformation, sous-traitance automobile fragilisée par le passage à l'électrique). Le taux de chômage reste 1,5 point au-dessus de la moyenne nationale et les cadres trouvent l'offre limitée hors santé et tech. (2) Réputation — la ville garde une image «grise», «post-industrielle», parfois injuste mais persistante, qui pèse sur la valeur des biens et la fierté d'y vivre. (3) Climat — pluviométrie soutenue (~860 mm/an, supérieure à Lyon), brouillards d'hiver dans la cuvette stéphanoise. Beaucoup de cadres mutés à Lyon refusent de s'installer à Saint-Étienne pour ces raisons combinées.",
+      },
+      {
+        heading: "Option 1 : Lyon — la fuite vers la grande ville (60 % des départs)",
+        body: "Lyon est à 45 min en TER (50 km, ligne très fréquentée). Beaucoup de Stéphanois cadres font le trajet quotidien sans déménager (TER à 8,80 € l'aller, abonnement mensuel ~210 €). Pour ceux qui déménagent vraiment : Lyon offre un marché de l'emploi 3 fois plus dense, des écoles d'ingénieurs prestigieuses (INSA, Centrale), un tissu culturel premier en province. Le revers : loyers et prix doublent (T2 ~620 €/mois à Lyon vs 380 €/mois à Saint-Étienne ; achat 4 500 €/m² Lyon centre vs 1 800 €/m² Saint-Étienne centre). Pour beaucoup de familles, le calcul ne tient pas : on garde Saint-Étienne et on subit le TER, ou on s'installe dans les communes périphériques lyonnaises (Givors, Brignais, Saint-Genis-Laval) qui offrent un compromis géographique mais ne sont plus vraiment Saint-Étienne.",
+      },
+      {
+        heading: "Option 2 : la montagne — Annecy, Chambéry, Grenoble",
+        body: "Pour les Stéphanois qui aiment la nature et les sports outdoor (proximité Pilat, Massif Central), le pivot vers la Savoie/Isère est cohérent. Annecy (à 2h30 par autoroute) est très demandée — qualité de vie classée numéro 1 dans nos rankings — mais l'immobilier est inaccessible (~6 500 €/m² centre). Chambéry et Grenoble sont des cibles plus réalistes : Grenoble est techniquement comparable à Saint-Étienne en taille (~160 000 hab.), avec un emploi très différent (CEA, recherche, semi-conducteurs, alpinisme professionnel). Loyer T2 ~520 €/mois à Grenoble. Chambéry (~60 000 hab.) : ville à taille humaine, marché de l'emploi plus restreint, mais TGV vers Paris (3h) et Lyon (1h).",
+      },
+      {
+        heading: "Option 3 : retour à la mer — Marseille, Montpellier, Nice",
+        body: "Profil-type : Stéphanois originaire du Sud ou rêvant de Méditerranée. Marseille (~2h en TGV) est l'option la plus abordable (T2 ~570 €/mois centre-ville, à condition d'éviter certains arrondissements). Montpellier est plus chère (~520 €/mois T2) mais offre une qualité de vie étudiante+sun rare en France. Nice est sur-cotée — prix très élevés, tissu d'emploi étroit hors tourisme et santé. Le risque : sous-estimer l'éloignement (départ famille/amis stéphanois compliqué, retour ponctuel coûteux en TGV ou avion). Pour beaucoup, c'est un projet de fin de carrière ou de retraite plutôt qu'une mobilité professionnelle.",
+      },
+      {
+        heading: "Option 4 : rester dans la région — Roanne, Saint-Chamond, Firminy",
+        body: "Beaucoup de Stéphanois qui veulent quitter le centre-ville sans changer de vie complète optent pour les villes moyennes du nord-Loire : Roanne (39 000 hab., à 1h05 en TER de Saint-Étienne, 1h10 de Lyon) — prix immobilier bas, tissu textile en reconversion. Saint-Chamond (35 000 hab., à 15 min de Saint-Étienne) — banlieue stéphanoise plus calme avec accès direct au TER vers Lyon. Firminy (17 000 hab.) — patrimoine Le Corbusier, prix très bas (1 200 €/m²), idéale pour primo-accédants travaillant à Saint-Étienne. Ces solutions n'offrent pas un grand changement de vie mais minimisent le coût et le déracinement.",
+      },
+      {
+        heading: "Le calcul honnête : qui gagne vraiment à partir ?",
+        body: "Selon les enquêtes Insee suivies sur 5 ans : les Stéphanois qui partent à Lyon pour un emploi mieux rémunéré gagnent en moyenne +18 % de salaire net mais perdent 35 % en pouvoir d'achat immobilier (impossible de devenir propriétaire dans des conditions équivalentes). Ceux qui partent à Grenoble ou Annecy déclarent un meilleur équilibre vie/travail mais une plus grande charge de transport-loisirs. Ceux qui partent vers le Sud gagnent en qualité de vie ressentie mais déclarent souvent un budget mal calibré (sous-estimation des charges logement + voiture). Le pire calcul observé : déménager à Lyon banlieue lointaine pour échapper aux loyers du centre, et passer 1h30 dans les transports — situation pire que Saint-Étienne+TER.",
+      },
+    ],
+    relatedCities: ["saint-etienne", "lyon", "grenoble", "annecy", "chambery", "roanne"],
+    relatedGuides: [
+      "quitter-lyon-guide-2026",
+      "quitter-grenoble-guide-2026",
+      "lyon-vs-bordeaux-comparatif-2025",
+      "dijon-vs-lyon-comparatif-2026",
+      "teletravailler-depuis-auvergne-guide-2026",
+    ],
+    tags: ["quitter Saint-Étienne", "Saint-Étienne", "Lyon", "Roanne", "Pilat", "Loire", "Auvergne-Rhône-Alpes", "déménagement", "TER Saint-Étienne Lyon"],
+  },
+  {
+    slug: "quitter-mulhouse-guide-2026",
+    title: "Quitter Mulhouse en 2026 — Suisse, Allemagne, ou Strasbourg ?",
+    metaTitle: "Quitter Mulhouse 2026 : Bâle, Fribourg, Strasbourg, Colmar — le guide honnête",
+    metaDesc:
+      "Mulhouse a des avantages rares (frontière suisse, immobilier abordable) mais une réputation qui pèse. Vers où partent vraiment les Mulhousiens — et qui regrette ?",
+    category: "comparaison",
+    emoji: "🇨🇭",
+    readMinutes: 8,
+    publishedAt: "2026-05-13",
+    updatedAt: "2026-05-13",
+    intro:
+      "Mulhouse occupe une position géographique unique en France : à 35 km de Bâle (Suisse), à 60 km de Fribourg-en-Brisgau (Allemagne), à 1h de Strasbourg. Cette frontière en fait l'une des villes françaises avec le plus de frontaliers (~25 000 actifs traversent quotidiennement vers la Suisse). Mais la ville elle-même souffre : revenus médians parmi les plus bas des grandes villes françaises (~19 200 €/an), désindustrialisation textile difficilement digérée, image dégradée (classée plusieurs fois en tête des palmarès «villes qui font peur» de la presse à clics, souvent injustement). Ce guide regarde où partent les Mulhousiens — et qui regrette d'être parti.",
+    sections: [
+      {
+        heading: "Le calcul frontalier : Suisse — partir ou rester ?",
+        body: "Le différentiel de salaires entre la France et la Suisse alémanique pour des emplois équivalents est massif : un infirmier touche ~6 200 CHF/mois à Bâle vs ~2 100 €/mois à Mulhouse (équivalent ~6 500 € après change). Un ingénieur logiciel : ~10 500 CHF vs ~3 800 €. La logique pousse à devenir frontalier (vivre à Mulhouse, travailler à Bâle) plutôt qu'à déménager : impôt sur le revenu en France, prix immobiliers français, mais salaire suisse. Le revers : pression sur l'immobilier mulhousien depuis 2010 (le centre s'embourgeoise par effet frontalier). Pour ceux qui passent vraiment vivre en Suisse : assurance maladie LAMal coûte 350–500 CHF/mois/adulte (équivalent ~370–530 €), loyer à Bâle 1 600–2 200 CHF pour T3, intégration sociale lente (langue allemande indispensable hors quelques expat-bubbles), retour difficile (perte des droits sociaux français).",
+      },
+      {
+        heading: "Option 1 : devenir frontalier sans déménager",
+        body: "Solution la plus rationnelle pour 80 % des Mulhousiens en transition. On garde son logement, sa famille, ses amis, son médecin, son réseau associatif — on prend juste un train ou voiture matin et soir vers Bâle (35 min en TER direct, ~12 € l'aller-retour avec abonnement). Statut fiscal : convention France-Suisse, salaires imposés en France (sauf cantons de Bâle-Ville et Bâle-Campagne où c'est la Suisse qui prélève d'abord, ensuite compensation). Sécu : LAMal obligatoire en Suisse, déductible des impôts français. Conditions : être recruté par un employeur suisse (les CV étrangers passent moins bien sans réseau local), maîtriser un allemand professionnel (l'anglais ne suffit que dans les multinationales pharma à Bâle).",
+      },
+      {
+        heading: "Option 2 : Strasbourg — la capitale régionale",
+        body: "Strasbourg est à 1h en TER de Mulhouse (~25 €). Beaucoup de Mulhousiens diplômés se tournent vers Strasbourg pour : (1) un marché de l'emploi cadre plus dense, (2) une image plus valorisée socialement, (3) la proximité Europe (institutions européennes). Strasbourg offre une qualité de vie reconnue (notes élevées dans nos classements). Inconvénient : immobilier ~30 % plus cher qu'à Mulhouse (T2 ~520 €/mois Strasbourg vs ~395 €/mois Mulhouse). La trajectoire classique : étudiant à Strasbourg, retour à Mulhouse pour acheter dans le quartier où on a grandi — ou inversement, départ vers Strasbourg à 30 ans avec famille.",
+      },
+      {
+        heading: "Option 3 : Colmar — le compromis Alsace",
+        body: "Colmar (~70 000 hab.) est à 40 km de Mulhouse, accessible en TER (30 min). Plus petite, plus touristique (vieux Colmar, route des vins), plus chère (~2 700 €/m² centre vs 1 800 €/m² à Mulhouse). Pour qui ça marche : retraités, profession libérale autonome (notaire, kiné), personnes attachées à l'Alsace traditionnelle. Inconvénient majeur : marché de l'emploi étroit (seul vrai pôle Mulhouse-Strasbourg-Bâle dans le secteur). Solution médiane : habiter Colmar, travailler à Mulhouse (Peugeot-Stellantis) ou à Bâle. Compatible mais 1h de route quotidienne.",
+      },
+      {
+        heading: "Option 4 : Allemagne — Fribourg, Müllheim, Lörrach",
+        body: "Beaucoup moins fréquente que la Suisse mais en croissance. Fribourg-en-Brisgau (à 60 km, 50 min en train via Bâle) est une ville universitaire écologique très demandée. Salaires allemands inférieurs aux suisses mais coût de la vie plus bas. Pour les Mulhousiens : LAMal de Bade-Wurtemberg moins chère que LAMal suisse (~300 €/mois adulte), mais système d'assurance maladie totalement différent du français, à étudier sérieusement. Pour qui ça marche : germanophones, profils universitaires ou recherche, profils écologistes (Fribourg est la capitale verte de l'Allemagne).",
+      },
+      {
+        heading: "Pourquoi des Mulhousiens reviennent",
+        body: "Le profil des retours observé sur 10 ans : (1) Frontaliers Bâle qui craquent après 5–7 ans — fatigue du trajet, sentiment d'exil dans son propre pays. (2) Strasbourgeois ex-mulhousiens qui veulent acheter (Strasbourg trop chère pour un primo-accédant moyen). (3) Familles qui réalisent que la communauté mulhousienne et la qualité des services publics (excellent CHU, écoles correctes) compensaient des choses qu'ils ne voyaient plus. Le vrai défi mulhousien : la fierté collective. Les Mulhousiens qui restent et la défendent sont nombreux et organisés (associations, événements, soutien à l'OL Mulhouse). Pour beaucoup, partir veut juste dire prendre la voiture chaque jour vers Bâle — pas changer de vie.",
+      },
+    ],
+    relatedCities: ["mulhouse", "strasbourg", "colmar", "belfort", "haguenau"],
+    relatedGuides: [
+      "vivre-en-alsace-guide-2026",
+      "teletravailler-depuis-grand-est-guide-2026",
+      "quitter-strasbourg-guide-2026",
+      "meilleures-villes-entrepreneurs-startups-france-2026",
+    ],
+    tags: ["quitter Mulhouse", "Mulhouse", "frontaliers Suisse", "Bâle", "Strasbourg", "Colmar", "Alsace", "Bas-Rhin", "déménagement", "frontalier"],
+  },
+  {
+    slug: "aix-en-provence-vs-marseille-comparatif-2026",
+    title: "Aix-en-Provence vs Marseille — vivre, travailler, élever ses enfants — 2026",
+    metaTitle: "Aix-en-Provence vs Marseille 2026 : coût, sécurité, écoles, transport — comparatif",
+    metaDesc:
+      "Aix bourgeoise, Marseille cosmopolite, à 30 km l'une de l'autre : tout les sépare sauf la géographie. Comparatif complet sur 8 critères pour choisir entre les deux capitales provençales.",
+    category: "comparaison",
+    emoji: "🏛️",
+    readMinutes: 9,
+    publishedAt: "2026-05-13",
+    updatedAt: "2026-05-13",
+    intro:
+      "Aix-en-Provence et Marseille forment un duo unique en France : 30 km à peine les séparent mais elles incarnent deux Provences opposées. Aix : bourgeoise, universitaire, médiévale, calme et chère. Marseille : populaire, portuaire, méditerranéenne, vibrante et contrastée. Beaucoup de cadres mutés à Marseille choisissent finalement d'habiter Aix — et inversement, certains intellectuels aixois finissent par s'installer à Marseille pour échapper à l'entre-soi. Ce comparatif factuel passe en revue 8 critères avec chiffres à l'appui pour vous aider à choisir.",
+    sections: [
+      {
+        heading: "Coût de la vie et immobilier",
+        body: "Aix-en-Provence est nettement plus chère. Loyer T2 : ~720 €/mois à Aix vs ~570 €/mois à Marseille centre. Achat : ~5 200 €/m² au centre d'Aix (8 000+ €/m² Cours Mirabeau / Vieil-Aix) vs ~3 500 €/m² Marseille centre (1er, 6e, 7e), avec énormes disparités selon arrondissement (700 €/m² 14e/15e Marseille vs 5 500 €/m² 8e Marseille). Coût des courses : équivalent. Restaurants : Marseille moins cher (rapport qualité-prix souvent meilleur sur fruits de mer et cuisine populaire). Aix est mieux pour la cosmétique-luxe-mode. Marseille gagne sur le quotidien populaire, Aix gagne sur le statut social.",
+      },
+      {
+        heading: "Sécurité — la vraie comparaison",
+        body: "Sur les chiffres SSMSI 2024 (atteintes aux personnes par 1 000 hab.) : Marseille est à 25,4 (top 10 français), Aix à 11,2 (proche moyenne nationale). Mais la dispersion intra-Marseille est énorme : 8e et 9e arrondissements de Marseille sont aussi sûrs qu'Aix ; 3e, 13e, 14e, 15e ont des taux 4 à 6 fois supérieurs. Si vous cherchez la simplicité, Aix offre une sécurité homogène. Si vous êtes prêt à choisir précisément votre quartier marseillais, vous pouvez avoir Marseille à un niveau Aix. Trafic stupéfiants : Marseille reste le centre national majeur, avec impact sur certains quartiers très précis.",
+      },
+      {
+        heading: "Écoles et études supérieures",
+        body: "Aix accueille 25 000 étudiants (Aix-Marseille Université campus, Sciences Po Aix, Schola Cantorum, écoles de commerce). Marseille en accueille 50 000 sur plusieurs campus (Luminy pour sciences, La Timone pour santé, Saint-Charles pour lettres). Pour les enfants : écoles primaires aixoises uniformément bonnes (mixité sociale plus faible). À Marseille, qualité variable selon arrondissement — 8e/9e excellentes, 13e/14e en réseau d'éducation prioritaire renforcé. Pour le secondaire : lycées privés très demandés (Lycée Saint-Joseph les Maristes à Marseille, Lycée Vauvenargues à Aix). Beaucoup de familles marseillaises CSP+ inscrivent leurs enfants en privé pour contourner la carte scolaire.",
+      },
+      {
+        heading: "Transports et mobilité",
+        body: "Marseille a un métro (2 lignes, 28 stations), un tram (3 lignes), bus dense. Couvre bien le centre, mal les arrondissements nord. Aix a un réseau de bus uniquement (pas de métro, pas de tram en service en 2026). Entre les deux : car régional ~30 min (3,80 €), TER ~38 min, autoroute A51 (péage gratuit Aix-Marseille). Sans voiture : Marseille faisable, Aix difficile. Avec voiture : Marseille pénible (parking rare, embouteillages, vol récurrent), Aix plus simple mais centre piétonnier. Aéroport Marseille-Provence est entre les deux villes, accessible des deux. Gare TGV Aix est très bien placée pour Paris (3h00), gare Saint-Charles Marseille est centrale.",
+      },
+      {
+        heading: "Marché de l'emploi",
+        body: "Marseille reste la grande ville économique : siège régional CMA-CGM, Euroméditerranée (quartier d'affaires), industrie portuaire, tissu PME diversifié. Marché cadre 4 fois plus dense qu'Aix. Aix est plus spécialisée : CEA Cadarache (énergie, à 50 km), Eurocopter/Airbus Helicopters, recherche universitaire, droit (Cour d'appel d'Aix), consulting et finance liés à la métropole AMP. Salaires cadres similaires (différence <5 %), mais Aix a moins d'opportunités hors cabinets de conseil et grandes structures. Pour le télétravail : équivalent. Pour la création d'entreprise : Marseille plus dynamique sur l'écosystème startup (TheCamp, French Tech), Aix plus axée conseil et professions libérales.",
+      },
+      {
+        heading: "Vie sociale et culturelle",
+        body: "Aix vit autour de son centre piétonnier (Cours Mirabeau, marchés Place Richelme), Festival d'Aix (lyrique, juillet), tissu d'expat anglo-saxons (universités américaines installées). Vie nocturne calme (la ville se vide à 23h en semaine). Marseille est une métropole 24h/24 : OM, calanques accessibles directement (Sormiou, Morgiou, Sugiton), cuisine populaire de classe mondiale (bouillabaisse, panier, pizza marseillaise), scène artistique en effervescence depuis Marseille 2013. Culture corse, comorienne, algérienne, italienne — métissage permanent. La différence se résume : Aix est une ville qu'on visite et qu'on apprécie, Marseille est une ville qu'on vit ou qu'on déteste.",
+      },
+      {
+        heading: "Profils-types : qui doit choisir quoi",
+        body: "Choisissez Aix si : vous êtes une famille CSP+ avec enfants en bas âge, vous travaillez en télétravail ou dans le tertiaire haut de gamme (consulting, finance, droit), vous valorisez la sécurité et l'esthétique uniforme, votre budget logement est confortable. Choisissez Marseille si : vous êtes jeune actif/étudiant cherchant énergie et budget, vous aimez la diversité sociale et culturelle, vous travaillez dans le portuaire, la tech, la culture, ou un secteur qui exige une grande ville, vous êtes prêt à choisir précisément votre quartier. Cas hybride fréquent : Marseille 8e/Roucas-Blanc — qualité aixoise + énergie marseillaise — mais c'est l'un des marchés immobiliers les plus chers de la métropole (5 500 €/m²).",
+      },
+    ],
+    relatedCities: ["aix-en-provence", "marseille", "toulon", "nice"],
+    relatedGuides: [
+      "toulon-vs-marseille-comparatif-2026",
+      "marseille-vs-toulouse-comparatif-2025",
+      "vivre-dans-le-vaucluse-guide-2026",
+      "teletravailler-depuis-provence-guide-2026",
+      "meilleures-villes-seniors-actifs-france-2026",
+    ],
+    tags: ["Aix-en-Provence", "Marseille", "Provence", "comparatif villes", "Bouches-du-Rhône", "vivre à Marseille", "vivre à Aix", "écoles Aix", "sécurité Marseille"],
+  },
+  {
+    slug: "vivre-en-bretagne-interieure-guide-2026",
+    title: "Vivre en Bretagne intérieure (Morbihan & Côtes-d'Armor) — 2026",
+    metaTitle: "Vivre en Bretagne intérieure 2026 : Pontivy, Loudéac, Carhaix, Vannes-couronne",
+    metaDesc:
+      "La Bretagne loin du littoral surcoté : Pontivy, Loudéac, Rostrenen, Carhaix. Prix divisés par trois, fibre disponible, climat océanique tempéré. La vraie alternative bretonne en 2026.",
+    category: "region",
+    emoji: "🍀",
+    readMinutes: 8,
+    publishedAt: "2026-05-13",
+    updatedAt: "2026-05-13",
+    intro:
+      "Tout le monde rêve de la côte bretonne (Vannes, Saint-Malo, Quimper, La Trinité-sur-Mer) — et tout le monde en paie le prix. Les Bretons connaissent un autre territoire qu'ils ne mettent pas en avant : l'intérieur. Pontivy, Loudéac, Rostrenen, Carhaix, Mûr-de-Bretagne. Maisons bretonnes à 80 000 €, fibre quasi totale, hivers doux, été frais. Ce guide regarde sérieusement ce que vaut la Bretagne intérieure en 2026 : qui y va, pour quoi faire, et où les projets tiennent vraiment.",
+    sections: [
+      {
+        heading: "Géographie : qu'est-ce que la Bretagne intérieure ?",
+        body: "On parle ici du quart nord-ouest du Morbihan et du centre-est des Côtes-d'Armor — grosso modo le triangle entre Pontivy, Carhaix-Plouguer et Loudéac. Population : ~250 000 habitants sur ~7 000 km². Topographie : Monts d'Arrée à l'ouest (point culminant Roc'h Trevezel 384 m), Landes de Lanvaux au sud-est, vallées encaissées du Blavet et de l'Aulne. C'est la Bretagne dite «Argoat» (par opposition à l'«Armor» littoral), boisée, vallonnée, sans façade maritime. Distance à la côte : 40–60 km selon le point. Distance à Rennes : 1h–1h45 selon la commune. À Brest : 1h–2h. À Vannes : 30 min–1h.",
+      },
+      {
+        heading: "Prix immobiliers : trois fois moins cher que le littoral",
+        body: "Maison de 100 m² avec jardin : 90 000–140 000 € à Pontivy, Loudéac, Rostrenen. Même surface à Vannes : 320 000–450 000 €. À Carnac : 500 000+ €. La Bretagne intérieure est l'une des dernières zones de France où une famille peut acheter une maison entière pour moins de 150 000 €. Conséquence : forte présence de retraités modestes (~38 % de plus de 60 ans sur certains cantons), mais aussi installation croissante de néo-ruraux et télétravailleurs depuis 2020. Le bémol : valeur de revente faible (le marché est étroit, peu d'acquéreurs sur les biens moyens — sauf gros effort de mise aux normes). Si vous achetez ici, c'est pour vivre, pas pour spéculer.",
+      },
+      {
+        heading: "Climat océanique tempéré (atout sous-estimé)",
+        body: "Bretagne intérieure : pluviométrie comparable à Rennes (~700 mm/an, contre ~900 mm sur le littoral nord), brouillards moins fréquents, hivers très doux (0 à -2 °C la nuit, 7–10 °C la journée en janvier), étés tempérés (22–27 °C, rarement au-delà de 30 °C même en canicule). Pas d'effet «pluie continue» qu'on imagine : selon Météo-France, Pontivy a 1 750 h de soleil/an, équivalent à Reims, supérieur à Lille (1 600 h). Le climat est régulier, sans extrêmes — atout majeur pour santé et confort énergétique (moins de besoins climatisation, hivers peu coûteux à chauffer en RT2012/RT2020).",
+      },
+      {
+        heading: "Télétravail et services",
+        body: "Fibre : 92 % de couverture en Morbihan rural et Côtes-d'Armor, déploiement quasi terminé par le syndicat mixte Mégalis Bretagne. Vérifier l'adresse précise sur mafibre.bzh. 4G/5G : bonne couverture sauf creux dans certaines vallées encaissées (Aulne, Blavet). Services médicaux : sous-densité préoccupante. Médecin traitant : très difficile à Carhaix, possible à Pontivy. Dentistes : 3–6 mois d'attente partout. Spécialistes : déplacement à Lorient, Quimper, Brest ou Rennes nécessaire. Pour familles ou seniors avec besoins médicaux fréquents, ce point est dirimant. Coworking : se développe (Pontivy a un espace Toustal'Anim, Carhaix a un FabLab + coworking). Marchés : tous les bourgs de 3 000+ hab. ont un marché hebdomadaire vivant.",
+      },
+      {
+        heading: "Bourgs phares : Pontivy, Loudéac, Carhaix",
+        body: "Pontivy (~14 500 hab., Morbihan) : ville moyenne fluviale (Blavet + canal de Nantes à Brest), tissu commercial maintenu, sous-préfecture (services administratifs), hôpital Kerio. Bon compromis pour une installation. Loudéac (~9 800 hab., Côtes-d'Armor) : agglomération agricole et industrielle, ambiance plus rurale, prix les plus bas (~1 200 €/m²), tradition catholique forte (familles nombreuses). Carhaix-Plouguer (~7 500 hab., Finistère mais souvent rattachée à la Bretagne intérieure) : ville culturelle (Festival des Vieilles Charrues), tissu militant et alternatif (Diwan, structures bretonnantes), gare TGV (Carhaix-Brest TGV étudiée). Les trois sont desservies par les axes RN164 (Rennes-Brest), bonne accessibilité routière.",
+      },
+      {
+        heading: "Pour qui ça marche, pour qui ça ne marche pas",
+        body: "Ça marche pour : télétravailleurs autonomes avec emploi stable hors zone, retraités actifs cherchant nature + culture (réseau associatif breton très dense), familles d'origine bretonne souhaitant racheter du local, créateurs d'entreprise dans l'artisanat/agriculture/tourisme rural. Ça ne marche pas pour : célibataires de moins de 35 ans hors profil très spécifique (vie sociale limitée, peu de pairs), personnes à besoins médicaux fréquents, ménages dépendant d'un emploi local non télétravaillé hors agriculture/services publics, personnes attachées à la ville (cafés, magasins, événements quotidiens). L'erreur classique : sous-estimer la solitude. Le test : faire un mois de location en novembre-décembre avant de décider — si vous tenez, vous tiendrez à long terme.",
+      },
+    ],
+    relatedCities: ["vannes", "lorient", "brest", "rennes"],
+    relatedGuides: [
+      "teletravailler-depuis-bretagne-guide-2026",
+      "vivre-a-la-campagne-france-guide-2026",
+      "meilleures-villes-zero-dechet-ecologie-france-2026",
+      "meilleures-villes-randonnee-trail-france-2026",
+    ],
+    tags: ["Bretagne intérieure", "Argoat", "Pontivy", "Loudéac", "Carhaix", "Morbihan", "Côtes-d'Armor", "néo-rural", "fibre Bretagne", "vivre en Bretagne"],
+  },
+  {
+    slug: "meilleures-villes-lgbt-friendly-france-2026",
+    title: "Meilleures villes LGBT+-friendly en France — 2026",
+    metaTitle: "Villes LGBT+ friendly France 2026 : Paris, Lyon, Marseille, Lille, Montpellier",
+    metaDesc:
+      "Tissu associatif, visibilité, sécurité ressentie, accueil familles homoparentales : les villes françaises où la communauté LGBT+ se sent réellement chez elle. Classement et grille de lecture honnête.",
+    category: "lifestyle",
+    emoji: "🌈",
+    readMinutes: 8,
+    publishedAt: "2026-05-13",
+    updatedAt: "2026-05-13",
+    intro:
+      "La France a légalisé le mariage pour tous en 2013, mais la qualité de vie LGBT+ varie énormément selon le territoire. Les chiffres SOS Homophobie 2024 montrent un nombre d'agressions LGBT-phobes en hausse dans plusieurs villes — mais ces moyennes nationales cachent des contrastes locaux importants. Ce guide identifie les villes françaises où la communauté LGBT+ se sent réellement à l'aise, mesuré par cinq critères : densité associative LGBT+, lieux culturels et sociaux dédiés, accueil famille homoparentale (PMA, école, médecin), visibilité dans l'espace public, et sécurité ressentie au quotidien.",
+    sections: [
+      {
+        heading: "Méthodologie : ce qu'on a regardé (et pas regardé)",
+        body: "Critère 1 — densité associative : nombre d'associations LGBT+ actives par 100 000 hab. (Centre LGBTI, SOS Homophobie locale, AIDES locale, association sport gay, groupes parents homoparentaux). Critère 2 — lieux de socialisation : bars, librairies, lieux culturels, saunas, événements récurrents. Critère 3 — familles : maternités proposant la PMA pour couples de femmes, médecins gay-friendly recensés, écoles non discriminantes (présence de la FCPE active sur ces sujets). Critère 4 — visibilité : Marche des Fiertés annuelle (taille, soutien institutionnel), signalétique LGBT+ dans l'espace public, mariages célébrés. Critère 5 — sécurité : signalements LGBT-phobes pour 100 000 hab. (données SOS Homophobie + police), comparé à la moyenne nationale.",
+      },
+      {
+        heading: "Paris : le top mais pas pour tous les profils",
+        body: "Paris reste numéro 1 indiscutable : Le Marais (3e/4e arr.) est l'un des quartiers gay les plus emblématiques d'Europe, densité associative inégalée (Centre LGBT Paris-Île-de-France, Espace Santé Trans, AIDES, etc.), tissu de bars/restaurants/lieux dédiés très dense, Marche des Fiertés annuelle de 500 000+ participants, Maire de Paris elle-même engagée. Familles homoparentales : presque toutes les maternités parisiennes pratiquent la PMA pour couples de femmes (depuis loi 2021). Limites : coût de la vie prohibitif (T2 ~1 050 €/mois Le Marais), socialisation très centralisée à Paris-Centre (vie LGBT en banlieue plus difficile), agressions LGBT-phobes en hausse depuis 2020 (mais aussi plus signalées qu'ailleurs).",
+      },
+      {
+        heading: "Lyon : la deuxième scène française",
+        body: "Lyon a la deuxième scène LGBT+ française, particulièrement dense dans le 1er arrondissement (Pentes de la Croix-Rousse) et le Vieux-Lyon. Centre LGBTI de Lyon (rue Romarin) très actif, Forum Gay et Lesbien Lyon (Marche des Fiertés en juin avec ~30 000 participants), bars emblématiques (Pink Lady, La Ruche, Bar du Marais), maternités HCL (Hospices Civils de Lyon) proposent la PMA. Tissu universitaire jeune et tolérant. Sécurité ressentie globalement bonne au centre, plus fragile dans certains quartiers périphériques de la métropole (Vénissieux, Vaulx-en-Velin pour certaines catégories de violences). Coût plus abordable qu'à Paris (T2 ~620 €/mois centre).",
+      },
+      {
+        heading: "Montpellier : ville pionnière",
+        body: "Montpellier est la première ville de France à avoir célébré un mariage gay (en 2013). Tissu associatif historique très dense, Maire fortement engagée, Université active sur les questions LGBT+ (recherche, séminaires). Marche des Fiertés annuelle bien suivie (~10 000 participants). Climat ensoleillé, ville universitaire jeune, ambiance détendue. CHU Lapeyronie pratique la PMA. Coût immobilier en hausse mais reste accessible (T2 ~520 €/mois). Communauté trans bien organisée (Outrans Montpellier). Limites : la ville a une scène plus petite que Lyon (moins de bars dédiés). Pour les familles : très bon accueil mais à 30 min se trouvent encore des territoires ruraux peu progressistes.",
+      },
+      {
+        heading: "Lille, Marseille, Toulouse, Bordeaux — autres scènes solides",
+        body: "Lille : J'en suis Lille (Centre LGBT), Marche des Fiertés en septembre, scène associative étudiante très active (université, Sciences Po Lille), bars rue Royale et Vieux-Lille. PMA au CHRU Lille. Marseille : scène diverse mais moins centralisée, Marche des Fiertés en juillet, contrastes forts selon arrondissement (8e/9e très ouverts, 14e/15e plus conservateurs sur ces sujets). Toulouse : Centre LGBT Toulouse Grand-Sud actif, Marche des Fiertés en juin, tissu universitaire favorable, qualité de vie globale élevée. CHU Purpan pratique la PMA. Bordeaux : scène plus discrète mais existante (Le Girofard, Maison Arc-en-ciel), Marche en juin, accueil familles correct.",
+      },
+      {
+        heading: "Les zones à éviter selon les retours",
+        body: "Sans stigmatiser des régions entières, certaines configurations posent problème selon les enquêtes communautaires : (1) Petites communes rurales (moins de 5 000 hab.) en général — moins par malveillance que par invisibilité totale, école sans formation, médecin pas habitué. (2) Banlieues pavillonnaires de grandes villes où l'on ne se croise jamais — l'anonymat urbain devient impossible. (3) Villes à fort marquage politique conservateur (sans nommer pour ne pas généraliser injustement, mais consultables via votes municipaux 2020). Pour les familles homoparentales : vérifier l'école primaire publique du secteur (parler à des parents déjà inscrits), vérifier l'accueil au CCAS, demander si le pédiatre suit déjà d'autres familles homoparentales. Ces vérifications de terrain valent bien plus que les classements théoriques.",
+      },
+    ],
+    relatedCities: ["paris", "lyon", "montpellier", "lille", "marseille", "toulouse", "bordeaux"],
+    relatedGuides: [
+      "meilleures-villes-culture-festivals-france-2026",
+      "meilleures-villes-artistes-creatifs-france-2026",
+      "meilleures-villes-familles-monoparentales-france-2026",
+      "meilleures-villes-accessibilite-handicap-france-2026",
+      "expatries-retour-france-quelle-ville-2026",
+    ],
+    tags: ["LGBT", "LGBT-friendly", "Le Marais", "Pride", "Marche des Fiertés", "couples gays", "homoparentalité", "PMA", "Centre LGBT"],
+  },
+  {
+    slug: "quitter-le-havre-guide-2026",
+    title: "Quitter Le Havre en 2026 — vers Rouen, vers Caen, vers Paris ?",
+    metaTitle: "Quitter Le Havre 2026 : Rouen, Caen, Paris, Deauville — le guide honnête",
+    metaDesc:
+      "Le Havre attire pour son immobilier UNESCO abordable et son port, mais fait partir pour l'emploi cadre limité, le vent et la grisaille. Vers où partent les Havrais — et ce qu'ils gagnent vraiment.",
+    category: "comparaison",
+    emoji: "⚓",
+    readMinutes: 8,
+    publishedAt: "2026-05-13",
+    updatedAt: "2026-05-13",
+    intro:
+      "Le Havre est une ville singulière : centre Perret classé UNESCO, port de commerce parmi les plus importants d'Europe, immobilier parmi les plus abordables des grandes villes françaises (T2 ~440 €/mois centre, achat ~2 100 €/m²). Mais l'agglomération a perdu 20 000 habitants depuis 1975 et les flux de départ vers Rouen, Caen et Paris restent marqués. Ce guide explique pourquoi, où vont vraiment les Havrais qui partent, et ce que chaque option coûte.",
+    sections: [
+      {
+        heading: "Pourquoi on quitte Le Havre",
+        body: "Trois raisons principales : (1) Emploi cadre — l'économie locale reste dominée par la logistique portuaire, le raffinage et l'industrie lourde. Les fonctions tertiaires supérieures sont rares ; pour un cadre marketing, com', design, finance, l'offre est très étroite. (2) Climat — vent fort presque toute l'année (~22 km/h moyenne, l'un des plus venteux de France métropolitaine), grisaille hivernale persistante (~110 jours de pluie/an), ressentis durs sur le moral après quelques années. (3) Image — la ville garde une réputation post-industrielle malgré le réinvestissement UNESCO et la rénovation des Bassins. Beaucoup d'anciens Havrais qualifiés partent étudier à Rouen ou Paris et ne reviennent pas.",
+      },
+      {
+        heading: "Option 1 : Rouen — la métropole normande (~40 % des départs)",
+        body: "Rouen est à 1h en TER (87 km) ou 50 min en voiture. Beaucoup d'Havrais font le trajet quotidien pour le travail sans déménager (TER ~12 €, abonnement ~225 €/mois). Pour ceux qui s'installent vraiment : Rouen offre un marché de l'emploi cadre 2,5 fois plus dense (santé, agro, industrie pharma, université), un tissu culturel plus profond (Opéra, musées, scène underground vivace). Coût immobilier comparable (T2 ~510 €/mois Rouen centre vs 440 € Le Havre), achat ~2 600 €/m² centre. Le climat reste normand (gris, humide) mais sans le vent océanique. Pour les familles avec enfants en âge scolaire, Rouen offre plus d'écoles d'ingénieurs et de filières spécialisées.",
+      },
+      {
+        heading: "Option 2 : Caen — l'autre Normandie (~15 % des départs)",
+        body: "Caen (à 1h30 en voiture, 2h en train via Rouen) est l'alternative basse-normande : ville universitaire 110 000 hab., qualité de vie reconnue, proximité plages du Débarquement et campagne du Bessin. Tissu d'emploi : CHU important, recherche (GANIL, accélérateur de particules), enseignement supérieur, services aux entreprises. Immobilier ~2 700 €/m² centre, T2 ~510 €/mois. Climat marin mais moins venteux et moins gris que Le Havre. Limite : Caen est plus éloignée de Paris (~2h en train) que Rouen (~1h15), ce qui matter si on garde un lien professionnel parisien.",
+      },
+      {
+        heading: "Option 3 : Paris et la grande couronne (~20 % des départs)",
+        body: "Le Havre-Paris en train direct (intercités) prend ~2h15 — trop long pour un commuting quotidien. Les Havrais qui visent Paris déménagent vraiment, le plus souvent vers les Yvelines ou le Val-d'Oise (Mantes-la-Jolie, Cergy, Poissy) pour conserver un coût de logement supportable. Gain salarial moyen estimé : +25 % (offre cadre démultipliée). Perte de pouvoir d'achat immobilier : 50–60 % (T2 ~720 €/mois Mantes vs 440 € Le Havre, et bien plus à Paris intramuros). Ce déplacement n'a de sens que si la trajectoire de carrière le justifie clairement.",
+      },
+      {
+        heading: "Option 4 : la côte normande — Deauville, Honfleur, Étretat",
+        body: "Pour ceux qui aiment Le Havre pour la mer mais veulent quitter l'industriel : la côte fleurie offre un cadre très différent à 30–60 min. Deauville (~3 800 hab.) est élitiste et chère (achat ~6 800 €/m² centre, T2 ~720 €/mois), faite pour les retraités aisés et résidences secondaires. Honfleur (~7 500 hab., côté Calvados) est plus accessible (~4 500 €/m²), villes d'artistes, tourisme important. Étretat et Fécamp (côté Seine-Maritime) sont des compromis Havrais — accessibles en voiture quotidienne, prix maîtrisés, ambiance village balnéaire. Limite : ces villes-là ne règlent pas le problème «emploi» ; elles ne marchent que pour télétravailleurs ou retraités.",
+      },
+      {
+        heading: "Le calcul honnête : qui gagne vraiment à partir ?",
+        body: "Selon les enquêtes Insee migrations sur 5 ans : les Havrais qui partent à Rouen pour le même métier gagnent peu (+5 à 8 % en moyenne) mais gagnent surtout en qualité de vie ressentie (moins de vent, marché de l'emploi cadre plus profond, plus d'options de carrière). Ceux qui partent à Paris gagnent +25 % de salaire mais perdent 50 % en pouvoir d'achat logement — le calcul ne vaut que pour les couples sans enfants ou les célibataires en début de carrière. Le pire calcul observé : déménager à Deauville en télétravail sans avoir vérifié la couverture 4G/fibre sur le secteur exact, et finir à 30 min de café en lieu sûr. Vérifier le débit avant de signer.",
+      },
+    ],
+    relatedCities: ["le-havre", "rouen", "caen", "saint-malo"],
+    relatedGuides: [
+      "quitter-rouen-guide-2026",
+      "caen-vs-rouen-comparatif-2026",
+      "teletravailler-depuis-normandie-guide-2026",
+      "vivre-en-charente-maritime-guide-2026",
+      "meilleures-villes-surf-sports-nautiques-france-2026",
+    ],
+    tags: ["quitter Le Havre", "Le Havre", "Rouen", "Caen", "Normandie", "UNESCO Perret", "port", "déménagement"],
+  },
+  {
+    slug: "quitter-tours-guide-2026",
+    title: "Quitter Tours en 2026 — vers Paris, vers Nantes, vers la campagne tourangelle ?",
+    metaTitle: "Quitter Tours 2026 : Paris (TGV), Nantes, Orléans, Poitiers — le guide",
+    metaDesc:
+      "Tours offre une qualité de vie reconnue et un TGV Paris en 1h, mais fait partir pour le manque de dynamisme cadre et la pression immobilière. Vers où partent les Tourangeaux — analyse honnête.",
+    category: "comparaison",
+    emoji: "🏰",
+    readMinutes: 8,
+    publishedAt: "2026-05-13",
+    updatedAt: "2026-05-13",
+    intro:
+      "Tours est l'une des villes moyennes les plus prisées de France : TGV Paris en 1h05, patrimoine UNESCO Loire, qualité de vie classée régulièrement dans le top 10 français. Mais l'attractivité a fait grimper les prix (achat ~3 600 €/m² centre, T2 ~570 €/mois) et le marché de l'emploi cadre reste modeste pour une métropole de 350 000 hab. Chaque année, environ 4 500 Tourangeaux quittent l'agglomération. Voici où ils vont et pourquoi.",
+    sections: [
+      {
+        heading: "Pourquoi on quitte Tours",
+        body: "Trois raisons reviennent : (1) Plafond de verre pour les cadres — hors santé (CHU, recherche médicale), pharmacie et services publics, les fonctions tertiaires supérieures sont limitées. Beaucoup de jeunes diplômés tourangeaux montent à Paris ou Nantes après le master. (2) Immobilier — la hausse 2019–2024 a écarté les primo-accédants : un T3 dans le centre coûte 250 000 € minimum, presque équivalent à des quartiers périphériques de Paris. (3) Saisonnalité touristique — l'été draine beaucoup de monde, les loyers étudiants sont tendus et certains habitants estiment que la ville se vide hors-vacances scolaires.",
+      },
+      {
+        heading: "Option 1 : Paris (~35 % des départs)",
+        body: "Le TGV Tours-Montparnasse en 1h05 fait de Tours une banlieue lointaine fonctionnelle de Paris : abonnement TGV illimité ~525 €/mois, beaucoup de cadres gardent leur logement à Tours et bureau à Paris (1 ou 2 jours/semaine sur place). Pour ceux qui déménagent vraiment : gain salarial moyen +22 %, mais loyer/achat à Paris ~2,5× supérieur. Beaucoup choisissent l'Essonne ou le Val-de-Marne (Massy, Vitry, Antony) qui offrent un compromis Tours-Paris à coût intermédiaire. Le piège classique : sous-estimer la fatigue du quotidien parisien après le calme tourangeau.",
+      },
+      {
+        heading: "Option 2 : Nantes (~12 % des départs)",
+        body: "Nantes (à 1h45 en TGV) attire les Tourangeaux pour son dynamisme : marché de l'emploi cadre plus dense (numérique, agro, naval, biotech), scène culturelle plus engagée, proximité Atlantique. Coût immobilier comparable (~3 800 €/m² centre Nantes vs 3 600 € Tours), loyer T2 similaire (~590 €/mois Nantes). La principale différence : un marché du travail 3× plus profond et une ville plus jeune (~40 % de moins de 30 ans). Limite : Nantes n'a pas le TGV Paris en 1h ; elle est à 2h05 — choisir Nantes c'est s'éloigner de Paris.",
+      },
+      {
+        heading: "Option 3 : Orléans (~10 % des départs)",
+        body: "Orléans (à 1h05 en voiture, 1h20 en train) est l'alternative discrète : prix immobiliers 25 % inférieurs à Tours (~2 700 €/m² centre, T2 ~480 €/mois), marché de l'emploi cadre presque équivalent (recherche CNRS, BRGM, pharma, IBM), TGV Paris ~1h10 (en passant par Les Aubrais). Moins de patrimoine touristique mais une qualité de vie réelle, moins exposée à la saisonnalité. Beaucoup de Tourangeaux qui veulent moins payer pour le même cadre de vie choisissent Orléans.",
+      },
+      {
+        heading: "Option 4 : la campagne tourangelle — Amboise, Vouvray, Loches",
+        body: "Pour les Tourangeaux qui aiment la Touraine mais veulent quitter la pression urbaine : les villes moyennes du département offrent un compromis. Amboise (~13 000 hab., à 25 min en train) — patrimoine UNESCO, achat ~2 800 €/m², communautés actives. Vouvray (~3 000 hab., à 15 min) — viticole, plus rural. Loches (~6 500 hab., à 50 min) — médiéval, prix très bas (~1 600 €/m²), idéal pour télétravailleurs ou retraités. Ces options ne règlent pas le problème emploi mais maximisent qualité de vie pour les indépendants ou fonctionnaires.",
+      },
+      {
+        heading: "Le calcul honnête : qui gagne vraiment à partir ?",
+        body: "Les Tourangeaux qui montent à Paris gagnent en salaire et opportunités mais perdent en équilibre. Ceux qui descendent à Nantes gagnent en dynamisme et marché de l'emploi sans gain immobilier — le choix est plus culturel qu'économique. Ceux qui passent à Orléans optimisent souvent : même qualité de vie, prix plus accessibles, TGV Paris comparable. Ceux qui restent en campagne tourangelle gagnent en cadre mais perdent en services (médecin, écoles, commerces) — à vérifier précisément avant de signer. Le pire calcul observé : déménager à 40 min de Tours en pensant garder le réseau social tourangeau, et le perdre en 18 mois faute de trajets.",
+      },
+    ],
+    relatedCities: ["tours", "orleans", "nantes", "poitiers", "angers"],
+    relatedGuides: [
+      "le-mans-vs-tours-comparatif-2026",
+      "quitter-nantes-guide-2026",
+      "teletravailler-depuis-pays-de-la-loire-guide-2026",
+      "vivre-en-centre-val-de-loire-guide-2026",
+      "meilleures-villes-primo-accedants-france-2026",
+    ],
+    tags: ["quitter Tours", "Tours", "Touraine", "Loire", "TGV Paris", "Orléans", "Nantes", "déménagement"],
+  },
+  {
+    slug: "quitter-angers-guide-2026",
+    title: "Quitter Angers en 2026 — vers Nantes, vers Paris, vers la campagne ?",
+    metaTitle: "Quitter Angers 2026 : Nantes, Paris (TGV), Le Mans, Saumur — le guide",
+    metaDesc:
+      "Angers a la qualité de vie mais le marché de l'emploi cadre reste modeste. Vers où partent vraiment les Angevins qui s'en vont — Nantes, Paris, ou la campagne du Maine-et-Loire ?",
+    category: "comparaison",
+    emoji: "🌿",
+    readMinutes: 8,
+    publishedAt: "2026-05-13",
+    updatedAt: "2026-05-13",
+    intro:
+      "Angers truste les classements qualité de vie depuis dix ans : végétalisation reconnue, patrimoine, TGV Paris 1h30, scène culturelle vivace. Mais la métropole reste modeste (~410 000 hab.) et l'offre de carrière cadre, surtout dans le tertiaire supérieur, demeure étroite hors végétal et numérique. Chaque année, ~4 000 Angevins partent. Voici les flux réels.",
+    sections: [
+      {
+        heading: "Pourquoi on quitte Angers",
+        body: "Trois motivations principales : (1) Plafond cadre — au-delà de l'agro-alimentaire (Bouvet-Ladubay, agro-végétal), de l'IT et de l'université, les opportunités tertiaires supérieures se raréfient. Les jeunes cadres en finance, conseil, marketing partent vers Paris ou Nantes. (2) Saturation immobilière — Angers a vu ses prix grimper +35 % sur 5 ans (T2 ~490 €/mois, achat ~3 100 €/m² centre). La rareté du foncier autour du Maine et de la Loire pèse. (3) Effet «trop petit» — beaucoup d'Angevins jeunes diplômés trouvent la ville rapidement étroite (mêmes restaurants, mêmes sorties, mêmes événements).",
+      },
+      {
+        heading: "Option 1 : Nantes (~30 % des départs)",
+        body: "Nantes est à 1h en train (90 km) et capte massivement les départs angevins. Marché de l'emploi 3× plus dense (numérique, agro, naval, biotech), tissu culturel plus large (Voyage à Nantes, scène musicale), ouverture océanique. Coût immobilier supérieur d'environ 20 % (T2 ~590 €/mois centre Nantes vs 490 € Angers ; achat ~3 800 €/m² vs 3 100 €). Beaucoup d'Angevins font le trajet quotidien sans déménager (TER abonnement ~225 €/mois). Pour ceux qui s'installent : gain de carrière net en moyenne, mais perte d'identité tranquille angevine — Nantes est nettement plus métropolitaine.",
+      },
+      {
+        heading: "Option 2 : Paris (~18 % des départs)",
+        body: "TGV Angers-Montparnasse 1h30. Trajet pendulaire viable pour cadres 2 jours/semaine à Paris (abonnement TGV illimité ~525 €/mois, équivalent loyer Angers). Pour ceux qui montent vraiment : gain salarial +25 % moyen, mais coût parisien prohibitif — la plupart s'installent en banlieue (Yvelines, Essonne, Val-de-Marne) avec compromis transport-budget. Le profil-type : cadre Angevin avec mobilité professionnelle imposée par une promotion, parents souvent encore en Maine-et-Loire (retour fréquent week-ends).",
+      },
+      {
+        heading: "Option 3 : Le Mans, Laval — l'arrière-pays accessible",
+        body: "Le Mans (~140 000 hab., à 45 min en TGV d'Angers, 55 min de Paris) propose un cadre comparable à Angers en plus modeste : prix 30 % plus bas (T2 ~390 €/mois, achat ~2 100 €/m²), même qualité de vie urbaine sans la pression touristique. Laval (~50 000 hab.) est plus rurale, prix très bas, marché de l'emploi étroit. Ces options conviennent aux télétravailleurs ou aux profils administratifs/publics moins dépendants du marché cadre privé.",
+      },
+      {
+        heading: "Option 4 : campagne du Maine-et-Loire — Saumur, Cholet, Segré",
+        body: "Pour les Angevins qui veulent garder le département : Saumur (~26 000 hab., à 50 min en TER) — patrimoine UNESCO Val de Loire, viticulture, accueil chaleureux, prix 40 % plus bas qu'Angers. Cholet (~54 000 hab., à 1h) — tissu industriel textile reconverti, fortement catholique-conservateur, prix très accessibles. Segré (~17 000 hab., à 45 min) — Anjou bleu rural, qualité de vie nature mais services réduits. Pour télétravailleurs avec bon réseau internet, Saumur est l'option la plus équilibrée — patrimoine, prix, train direct Angers/Tours.",
+      },
+      {
+        heading: "Le calcul honnête : qui gagne vraiment à partir ?",
+        body: "Les Angevins qui descendent à Nantes gagnent en marché de l'emploi cadre et en stimulation urbaine, perdent peu en immobilier. Ceux qui montent à Paris gagnent en salaire mais perdent en qualité de vie ressentie — chiffres Insee montrent un taux de retour sur 7 ans plus élevé que la moyenne nationale (~28 % reviennent en Anjou). Ceux qui restent dans le Maine-et-Loire (Saumur, Cholet) gagnent souvent — pouvoir d'achat amélioré, identité préservée, retour week-end facile. Le pire calcul observé : départ à Paris pour le prestige carrière, retour à Angers après 4 ans avec un projet familial en route et un budget logement explosé. Vérifier dès le départ si Paris est vraiment compatible avec le projet de vie à 10 ans.",
+      },
+    ],
+    relatedCities: ["angers", "nantes", "le-mans", "tours", "saumur", "cholet"],
+    relatedGuides: [
+      "quitter-nantes-guide-2026",
+      "le-mans-vs-tours-comparatif-2026",
+      "teletravailler-depuis-pays-de-la-loire-guide-2026",
+      "meilleures-villes-primo-accedants-france-2026",
+      "vivre-en-centre-val-de-loire-guide-2026",
+    ],
+    tags: ["quitter Angers", "Angers", "Nantes", "Maine-et-Loire", "Saumur", "Anjou", "TGV Paris", "déménagement"],
+  },
+  {
+    slug: "quitter-brest-guide-2026",
+    title: "Quitter Brest en 2026 — vers Rennes, vers Nantes, vers Paris ?",
+    metaTitle: "Quitter Brest 2026 : Rennes, Nantes, Quimper, Lorient — le guide honnête",
+    metaDesc:
+      "Brest a la mer, la marine et un immobilier accessible, mais la grisaille et l'éloignement font partir. Vers où vont vraiment les Brestois qui quittent la pointe — analyse data-led.",
+    category: "comparaison",
+    emoji: "⛵",
+    readMinutes: 8,
+    publishedAt: "2026-05-13",
+    updatedAt: "2026-05-13",
+    intro:
+      "Brest a le port militaire, la rade, le climat océanique pur et un immobilier parmi les plus abordables des grandes villes françaises (T2 ~430 €/mois centre, achat ~2 100 €/m²). Mais la pointe bretonne paie son éloignement : TGV Paris en 3h35, marché de l'emploi cadre dominé par la Défense et la recherche, pluviométrie soutenue. Chaque année, ~3 500 Brestois quittent l'agglomération. Voici où.",
+    sections: [
+      {
+        heading: "Pourquoi on quitte Brest",
+        body: "Trois raisons : (1) Éloignement — Brest est la ville française grand-ouest la plus éloignée de Paris en train (3h35 TGV). Le bassin parisien est inaccessible pour pendulaire ; même Nantes (3h en voiture) demande un vrai voyage. Pour conjoints en télétravail ou consultants bi-localisés, c'est dur. (2) Marché cadre étroit — hors Marine nationale, Naval Group, Thales, Ifremer et UBO, l'offre cadre tertiaire est limitée. Les fonctions support (RH, finance, marketing privé) sont rares. (3) Climat — moyenne ~155 jours de pluie/an, gris hivernal prolongé. Beaucoup d'arrivants quittent après 2–3 ans pour cette raison plus que pour des raisons économiques.",
+      },
+      {
+        heading: "Option 1 : Rennes (~30 % des départs)",
+        body: "Rennes (à 2h en TGV, 2h30 en voiture) est la grosse capture des départs brestois. Marché de l'emploi cadre 4× plus dense (numérique, télécoms, biotech, services aux entreprises), tissu universitaire majeur, climat un peu moins humide, TGV Paris 1h25 (vs 3h35 de Brest). Coût immobilier supérieur d'environ 50 % (T2 ~580 €/mois Rennes vs 430 € Brest, achat ~3 600 €/m² vs 2 100 €). Pour la plupart des Brestois cadres, le saut Rennes représente une vraie ouverture de carrière sans rupture identitaire bretonne.",
+      },
+      {
+        heading: "Option 2 : Nantes (~15 % des départs)",
+        body: "Nantes (à 3h en voiture, 3h en train via Rennes) attire les Brestois qui veulent quitter complètement la Bretagne tout en restant Grand Ouest. Marché cadre 5× plus large que Brest, ouverture estuaire/océan, scène culturelle reconnue. Coût immobilier comparable à Rennes (~3 800 €/m² centre). Limite : la rupture identitaire est plus forte (Brestois → Nantais), beaucoup déclarent un sentiment d'éloignement Breton durable. Pour familles avec enfants en âge scolaire, Nantes offre plus d'options de filières spécialisées.",
+      },
+      {
+        heading: "Option 3 : Paris (~12 % des départs)",
+        body: "Avec 3h35 de TGV, Brest-Paris en pendulaire quotidien est impossible. Les Brestois qui montent à Paris déménagent vraiment. Gain salarial moyen +28 %, perte de pouvoir d'achat immobilier ~65 %, retour week-end à Brest très coûteux (TGV ~85 € l'aller, ou avion HOP 1h10 ~120 €). Ce déplacement n'a de sens que pour cadre senior avec promotion claire ou couple sans famille en Finistère. Beaucoup reviennent après 4–6 ans avec un projet de famille.",
+      },
+      {
+        heading: "Option 4 : la côte sud — Quimper, Lorient, Vannes",
+        body: "Pour les Brestois qui veulent garder la mer et la Bretagne en quittant la grisaille : la côte sud Morbihan offre +20 jours de soleil/an, des prix modérément inférieurs, et un climat plus doux. Quimper (~63 000 hab., à 1h de Brest) — patrimoine, prix très bas (T2 ~390 €/mois), services adaptés ; Lorient (~57 000 hab., à 2h) — port et reconversion industrielle, prix accessibles ; Vannes (~55 000 hab., à 2h30, golfe du Morbihan) — qualité de vie remarquable mais prix grimpants (T2 ~510 €/mois). Profil-type : famille brestoise voulant moins de pluie sans changer de région.",
+      },
+      {
+        heading: "Le calcul honnête : qui gagne vraiment à partir ?",
+        body: "Les Brestois qui passent à Rennes gagnent presque toujours : ouverture professionnelle, climat un peu meilleur, accès Paris facilité, sans perdre l'identité bretonne. Ceux qui montent à Paris gagnent en salaire mais paient cher en qualité de vie et en éloignement familial. Ceux qui passent à Quimper, Lorient ou Vannes optimisent souvent qualité de vie sans bénéfice carrière (à réserver aux télétravailleurs et profils publics). Le pire calcul observé : déménagement vers banlieue parisienne en pensant que «c'est presque Bretagne», puis isolement social total — le tissu Breton ne se reconstitue pas en Île-de-France malgré la diaspora.",
+      },
+    ],
+    relatedCities: ["brest", "rennes", "quimper", "lorient", "vannes", "nantes"],
+    relatedGuides: [
+      "brest-vs-lorient-comparatif-2026",
+      "quitter-rennes-guide-2026",
+      "teletravailler-depuis-bretagne-guide-2026",
+      "vivre-en-bretagne-interieure-guide-2026",
+      "meilleures-villes-surf-sports-nautiques-france-2026",
+    ],
+    tags: ["quitter Brest", "Brest", "Bretagne", "Rennes", "Finistère", "Marine nationale", "rade", "déménagement"],
+  },
+  {
+    slug: "quitter-caen-guide-2026",
+    title: "Quitter Caen en 2026 — vers Rouen, vers Paris, vers la côte ?",
+    metaTitle: "Quitter Caen 2026 : Rouen, Paris, Cherbourg, Deauville — le guide",
+    metaDesc:
+      "Caen offre la qualité de vie normande et la mer en 20 min, mais le marché cadre reste modeste. Vers où partent vraiment les Caennais qui changent de ville — données et arbitrages.",
+    category: "comparaison",
+    emoji: "🐎",
+    readMinutes: 8,
+    publishedAt: "2026-05-13",
+    updatedAt: "2026-05-13",
+    intro:
+      "Caen est l'une des villes moyennes les plus équilibrées de France : 110 000 hab. au centre, 270 000 dans l'agglo, mer à 20 min, prix immobiliers raisonnables (T2 ~510 €/mois centre, achat ~2 700 €/m²), CHU, université reconnue. Mais le tissu d'emploi cadre tertiaire reste limité hors santé, recherche et services publics. Voici où vont les Caennais qui partent.",
+    sections: [
+      {
+        heading: "Pourquoi on quitte Caen",
+        body: "Trois raisons : (1) Plafond cadre — au-delà du CHU, du GANIL (accélérateur particules), de l'Université et des services publics, les fonctions tertiaires supérieures privées sont peu présentes. Beaucoup de cadres en finance, conseil, marketing partent à Paris ou Rouen. (2) Distance Paris — Caen-Saint-Lazare 1h45 en train, trop pour pendulaire quotidien aisé mais acceptable 2 jours/semaine. Beaucoup déménagent quand cette fréquence ne suffit plus. (3) Climat — moins venteux que Le Havre mais reste normand (humide, gris hivernal). Pour ceux qui ne tolèrent plus la grisaille, l'effet cumulé pèse.",
+      },
+      {
+        heading: "Option 1 : Rouen (~25 % des départs)",
+        body: "Rouen (à 1h45 en voiture, 2h en train via Mantes) est l'alternative naturelle : capitale historique normande, marché de l'emploi cadre 2× plus dense (santé, pharma, agro, université), tissu culturel plus profond. Coût immobilier comparable (achat ~2 600 €/m² centre Rouen vs 2 700 € Caen). Pour beaucoup de cadres Caennais, le passage à Rouen offre une vraie ouverture de carrière sans perte de qualité de vie normande. Limite : on perd la mer à 20 min — Rouen est à 1h des plages.",
+      },
+      {
+        heading: "Option 2 : Paris (~30 % des départs)",
+        body: "Caen-Paris Saint-Lazare en 1h45. Trajet pendulaire 2 jours/semaine viable (abonnement TGV ~520 €/mois). Pour ceux qui montent : gain salarial +25 %, perte immobilière 50–60 %. La plupart s'installent en banlieue ouest (Yvelines : Mantes, Vernon, Bonnières) qui offrent un compromis géographique avec retour Caen en 1h. Profil-type : jeune cadre Caennais avec promotion imposant la proximité Paris. Beaucoup reviennent en Normandie après 5–7 ans avec un projet familial.",
+      },
+      {
+        heading: "Option 3 : la côte normande — Cherbourg, Bayeux, Deauville",
+        body: "Pour les Caennais qui veulent rester en Basse-Normandie en quittant la pression urbaine : Cherbourg (~36 000 hab., à 1h15 en train) — port, marine, prix très bas (T2 ~370 €/mois), tissu d'emploi maritime spécifique ; Bayeux (~14 000 hab., à 30 min) — patrimoine UNESCO, prix accessibles, calme rural ; Deauville/Trouville (à 45 min) — élitiste, chers (T2 ~720 €/mois), faits pour résidences secondaires ou télétravailleurs. Saint-Lô (~19 000 hab., à 1h) — préfecture rurale, services réduits.",
+      },
+      {
+        heading: "Option 4 : la campagne du Calvados — Bessin, pays d'Auge, Suisse normande",
+        body: "Beaucoup de Caennais quittent la ville pour leur «maison à la campagne» tout en gardant le travail à Caen. Bessin (Bayeux et alentours) — paysage rural, plages du Débarquement à 15 min, prix bas ; Pays d'Auge (Lisieux, Pont-l'Évêque) — manoirs, cidre, AOP fromagères ; Suisse normande (Clécy, Thury-Harcourt) — paysage de gorges, sportif. Limite : navette quotidienne à Caen 30–45 min en voiture, nécessité d'un véhicule, services réduits (commerces, médecins) selon commune. À vérifier précisément.",
+      },
+      {
+        heading: "Le calcul honnête : qui gagne vraiment à partir ?",
+        body: "Les Caennais qui passent à Rouen gagnent souvent : marché cadre plus large, infrastructures plus profondes, sans rupture régionale. Ceux qui montent à Paris gagnent en salaire mais paient en équilibre vie/travail — taux de retour Normandie sur 7 ans estimé ~30 %. Ceux qui passent à Cherbourg ou Bayeux gardent l'identité normande mais sortent du marché cadre métropolitain — réservé aux télétravailleurs et profils publics. Le pire calcul observé : achat d'une maison campagne pays d'Auge à 35 min de Caen, ignorant la fragilité des services (école qui ferme, médecin partant non remplacé) sur 5 ans. Vérifier la trajectoire démographique de la commune avant signature.",
+      },
+    ],
+    relatedCities: ["caen", "rouen", "cherbourg", "le-havre"],
+    relatedGuides: [
+      "caen-vs-rouen-comparatif-2026",
+      "quitter-rouen-guide-2026",
+      "teletravailler-depuis-normandie-guide-2026",
+      "vivre-en-charente-maritime-guide-2026",
+      "meilleures-villes-primo-accedants-france-2026",
+    ],
+    tags: ["quitter Caen", "Caen", "Normandie", "Rouen", "Cherbourg", "Pays d'Auge", "Bessin", "déménagement"],
+  },
+  {
+    slug: "quitter-avignon-guide-2026",
+    title: "Quitter Avignon en 2026 — vers Aix, vers Marseille, vers la campagne provençale ?",
+    metaTitle: "Quitter Avignon 2026 : Aix-en-Provence, Marseille, Nîmes, Montpellier — le guide",
+    metaDesc:
+      "Avignon a le patrimoine, le Festival, le TGV, mais une saisonnalité dure et un marché cadre limité. Vers où partent vraiment les Avignonnais — Aix, Marseille, Montpellier, ou la campagne ?",
+    category: "comparaison",
+    emoji: "🎭",
+    readMinutes: 8,
+    publishedAt: "2026-05-13",
+    updatedAt: "2026-05-13",
+    intro:
+      "Avignon a le Palais des Papes, le Festival mondialement connu, le TGV Méditerranée (Paris en 2h40), le soleil provençal et un immobilier modéré (T2 ~510 €/mois intra-muros, achat ~3 100 €/m²). Mais la ville (~90 000 hab. centre, ~340 000 agglo) souffre d'une saisonnalité dure (juillet bondé, hiver creux) et d'un marché cadre étroit. Chaque année ~3 200 Avignonnais quittent l'agglomération.",
+    sections: [
+      {
+        heading: "Pourquoi on quitte Avignon",
+        body: "Trois raisons : (1) Marché cadre étroit — hors administration, culture (Festival), agro-fruitier (Provence) et tourisme, l'offre tertiaire supérieure est limitée. Les cadres en finance, tech, conseil partent à Aix, Marseille ou Montpellier. (2) Saisonnalité — juillet le centre intra-muros est saturé (Festival OFF + IN, ~1 million de visiteurs), beaucoup de résidents permanents quittent la ville. L'hiver à l'inverse paraît vidé. Difficile pour qui cherche une vie régulière. (3) Insécurité ressentie — certains quartiers (Sud rocade, Monclar) génèrent des départs de familles vers la périphérie ou hors agglomération.",
+      },
+      {
+        heading: "Option 1 : Aix-en-Provence (~25 % des départs)",
+        body: "Aix (à 1h en voiture, 1h15 en train) capte massivement les départs avignonnais. Marché cadre 2,5× plus dense (énergie, conseil, recherche, université), qualité de vie reconnue, climat plus stable, scène étudiante très active. Coût immobilier supérieur (~5 400 €/m² centre Aix vs 3 100 € Avignon, T2 ~770 €/mois vs 510 €). Pour beaucoup d'Avignonnais cadres, Aix représente une vraie ouverture professionnelle au prix d'un effort budgétaire. Limite : Aix est snobé par certains pour son côté «bobo provençal», et la saisonnalité touristique existe aussi (juillet plein, mais répartie sur plus de zones).",
+      },
+      {
+        heading: "Option 2 : Marseille (~20 % des départs)",
+        body: "Marseille (à 1h en TGV, 1h15 en voiture) attire les Avignonnais qui veulent la métropole méditerranéenne. Marché cadre 4× plus dense, tissu culturel et économique très diversifié (port, tech, santé, audiovisuel). Coût immobilier comparable à Avignon en moyenne (~3 200 €/m² centre Marseille pour les quartiers vivables — fortes disparités selon arrondissement). Bénéfices : mer accessible, scène musicale, marché du travail profond. Risques : insécurité ressentie plus marquée qu'à Avignon dans certains arrondissements, mobilité urbaine difficile.",
+      },
+      {
+        heading: "Option 3 : Montpellier et Nîmes (~15 % des départs)",
+        body: "Montpellier (à 1h30 en voiture, 1h en train) est l'option Occitanie : ville jeune et dynamique (~50 % de moins de 30 ans), marché cadre plus large (numérique, biotech, université), climat très ensoleillé. Coût immobilier ~3 700 €/m² centre, T2 ~520 €/mois. Nîmes (à 45 min) — alternative plus modeste, prix très bas (T2 ~400 €/mois, achat ~2 200 €/m²), patrimoine romain remarquable, marché cadre étroit mais ouvert sur Montpellier en pendulaire. Pour Avignonnais cherchant moins de saisonnalité, Nîmes est un bon compromis.",
+      },
+      {
+        heading: "Option 4 : campagne provençale — Luberon, Mont Ventoux, Camargue",
+        body: "Beaucoup d'Avignonnais quittent l'intra-muros pour la campagne tout en gardant le travail dans l'agglo. Luberon (Apt, L'Isle-sur-la-Sorgue, Cavaillon) — paysages mythiques, immobilier élevé pour la qualité (achat ~3 500 €/m² L'Isle), retours week-end touristiques. Mont Ventoux (Carpentras, Malaucène) — moins cher, vignobles, qualité de vie réelle. Camargue (Arles, Tarascon) — paysage unique, prix très modérés à Arles centre (~2 200 €/m²), patrimoine, scène culturelle (Rencontres photo). Limite : navette quotidienne sur Avignon 30–50 min en voiture, A7 saturée en été.",
+      },
+      {
+        heading: "Le calcul honnête : qui gagne vraiment à partir ?",
+        body: "Les Avignonnais qui passent à Aix gagnent en carrière au prix d'un effort financier important — choix de cadres en milieu/fin de carrière. Ceux qui descendent à Marseille gagnent en marché du travail et accès mer, perdent en tranquillité — choix de jeunes cadres ou couples sans enfants. Ceux qui passent à Montpellier ou Nîmes optimisent souvent — coût modéré, soleil, dynamisme moyen. Ceux qui restent dans la campagne Vauclusienne préservent la qualité de vie mais doivent absorber les transports et la saisonnalité touristique sur leur quotidien. Le pire calcul observé : achat dans le Luberon en pensant pendulaire facile à Avignon, et finir bloqué dans les bouchons A7 en juillet pendant 6 semaines. Vérifier la viabilité hors saison ET en saison.",
+      },
+    ],
+    relatedCities: ["avignon", "aix-en-provence", "marseille", "montpellier", "nimes", "arles"],
+    relatedGuides: [
+      "quitter-nimes-guide-2026",
+      "aix-en-provence-vs-marseille-comparatif-2026",
+      "nice-vs-montpellier-comparatif-2026",
+      "teletravailler-depuis-provence-guide-2026",
+      "vivre-en-roussillon-guide-2026",
+    ],
+    tags: ["quitter Avignon", "Avignon", "Provence", "Aix-en-Provence", "Marseille", "Montpellier", "Luberon", "Festival", "déménagement"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------

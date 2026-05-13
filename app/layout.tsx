@@ -20,7 +20,14 @@ const SITE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://meilleurville.fr";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  alternates: { canonical: "/" },
+  alternates: {
+    canonical: "/",
+    languages: {
+      fr: SITE_URL,
+      "fr-FR": SITE_URL,
+      "x-default": SITE_URL,
+    },
+  },
   title: {
     default: "MeilleurVille — Trouvez la ville qui vous ressemble",
     template: "%s | MeilleurVille",
@@ -67,6 +74,35 @@ export const metadata: Metadata = {
   },
 };
 
+const organizationJsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": `${SITE_URL}#organization`,
+      name: "MeilleurVille",
+      url: SITE_URL,
+      logo: `${SITE_URL}/icon-512.png`,
+      sameAs: [],
+      description:
+        "MeilleurVille — la référence indépendante pour choisir où vivre en France. Classements de villes, avis d'habitants, quiz de matching basés sur des données publiques (Insee, SSMSI, observatoires des loyers).",
+    },
+    {
+      "@type": "WebSite",
+      "@id": `${SITE_URL}#website`,
+      url: SITE_URL,
+      name: "MeilleurVille",
+      inLanguage: "fr-FR",
+      publisher: { "@id": `${SITE_URL}#organization` },
+      potentialAction: {
+        "@type": "SearchAction",
+        target: { "@type": "EntryPoint", urlTemplate: `${SITE_URL}/villes?q={search_term_string}` },
+        "query-input": "required name=search_term_string",
+      },
+    },
+  ],
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -77,6 +113,7 @@ export default function RootLayout({
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }} />
       </head>
       <body className="min-h-full flex flex-col antialiased">
         <a
