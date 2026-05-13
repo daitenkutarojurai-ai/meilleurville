@@ -311,8 +311,32 @@ Category `"famille"`.
 - [x] Comparer pairs: `["le-mans", "tours"]` added to `SEO_PAIRS` (perpignan/montpellier + metz/nancy were already present)
 - [x] PWA icons: `public/icon-192.png` and `public/icon-512.png` generated from `app/icon.svg` via rsvg-convert
 
-### Next priorities
+### Next priorities (human-blocked)
 - [ ] **`NEXT_PUBLIC_BASE_URL`** set on Vercel to the production domain
-- [ ] **New guides** — all current series complete; next batch needed to reach 250+
 - [ ] **`app/cgu` + `app/confidentialite`** date: bump "Dernière mise à jour" after legal review
-- [ ] **Sell-through log**: POST `{date, sales}` → lightweight regression to compare forecast vs actuals
+
+## Roadmap v3 — post-250 guides (2026-05-13)
+
+Now that guide count target is met and lint/build/TS are clean, next-leverage moves are SEO depth, in-page UX, and content niche expansion.
+
+### R3.1 — FAQ JSON-LD on guide pages
+Each guide has 6 `sections[]` with `heading` + `body`. Emit a second `<script type="application/ld+json">` with `@type: "FAQPage"` deriving Q&A from those sections. High AI-search payoff (Perplexity, Google AI Overviews citation surface), low risk. File: `app/guides/[slug]/page.tsx`.
+
+### R3.2 — Internal city auto-linking inside guide bodies
+Guide `sections[].body` mentions city names in plain text. Render a client-safe component that wraps known city names with `<Link href="/villes/${slug}">`. Boost internal PageRank flow, improve discovery. File: new `components/CityLinker.tsx` + integration in guide page.
+
+### R3.3 — New city sub-page: `/villes/[slug]/fiscalite`
+Pattern matches existing `climat/`, `quartiers/`, `ecoles/`, `transports/`. Compute from existing seed (no new dataset). Show approximate taxe foncière, taxe d'habitation résidence secondaire (only relevant where applicable), DMTO. Cross-link from CityProfile rail. Add to sitemap.
+
+### R3.4 — RSS feed `/feed.xml`
+Surface the 250 guides as a chronological RSS feed for syndication and AI discovery (Perplexity, AI search crawlers preserve RSS as a signal). Source: `GUIDES` sorted by `updatedAt desc`. Standard RSS 2.0 + Atom alternate.
+
+### R3.5 — Guides batch v3 (+15 niche angles)
+Beyond "Quitter X", target high-search-intent niches not yet covered:
+- "Vivre sans voiture en [grande ville]" (5 guides)
+- "Acheter à [ville] en 2026 — quel quartier et quel budget" (5 guides)
+- "Météo, climat et qualité de l'air — où vivre en France 2026"
+- "Villes où l'on peut élever une famille bilingue (FR/EN, FR/ES, FR/DE)"
+- "Villes universitaires avec coût de vie raisonnable"
+- "Villes étapes pour expatriés revenant en France"
+- "Villes-côtières en télétravail : qualité connexion + cadre"

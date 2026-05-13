@@ -27,6 +27,9 @@ export const metadata: Metadata = {
       "fr-FR": SITE_URL,
       "x-default": SITE_URL,
     },
+    types: {
+      "application/rss+xml": `${SITE_URL}/feed.xml`,
+    },
   },
   title: {
     default: "MeilleurVille — Trouvez la ville qui vous ressemble",

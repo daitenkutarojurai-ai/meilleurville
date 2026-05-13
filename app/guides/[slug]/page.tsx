@@ -76,9 +76,20 @@ export default async function GuidePage({ params }: Props) {
     },
   };
 
+  const faqJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: guide.sections.map((s) => ({
+      "@type": "Question",
+      name: s.heading,
+      acceptedAnswer: { "@type": "Answer", text: s.body },
+    })),
+  };
+
   return (
     <main id="main-content" className="min-h-screen">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Navbar />
 
       {/* Article header */}
