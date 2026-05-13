@@ -12610,6 +12610,291 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["acheter à Montpellier", "Montpellier", "immobilier", "Antigone", "Port-Marianne", "Boutonnet", "Hérault", "primo-accédant"],
   },
+  {
+    slug: "vivre-au-vert-pres-de-paris-1h-2026",
+    title: "Vivre au vert près de Paris en 2026 — top villes à 1h maximum",
+    metaTitle: "Vivre au vert près de Paris 2026 : Fontainebleau, Provins, Senlis, Chartres — guide",
+    metaDesc:
+      "Quitter Paris pour le vert sans renoncer au travail parisien : Fontainebleau, Provins, Senlis, Chartres, Mantes — comparaison train/budget/cadre.",
+    category: "lifestyle",
+    emoji: "🌿",
+    readMinutes: 7,
+    publishedAt: "2026-05-13",
+    updatedAt: "2026-05-13",
+    intro:
+      "Les Parisiens voulant quitter la ville sans rompre avec leur travail parisien ont des options réelles à <1h en transilien ou TER. Voici les villes-étapes 2026, comparées sur transport, budget immobilier, qualité de vie et services.",
+    sections: [
+      {
+        heading: "Critères : qu'est-ce qu'une bonne ville verte près de Paris ?",
+        body: "Quatre critères : (1) Transport — train direct Paris ≤1h, fréquences ≥20/jour, abonnement employeur-remboursable. (2) Budget immobilier — au moins 40 % moins cher que Paris intra-muros pour un T3 famille. (3) Cadre vert — accès direct forêt, rivière, ou massif. (4) Services — médecin généraliste à <15 min, école primaire publique correcte, commerces de bouche dans le bourg. Une ville-étape sans services devient invivable en télétravail intégral.",
+      },
+      {
+        heading: "Fontainebleau (77) : la valeur sûre",
+        body: "Train direct Paris-Gare de Lyon 40 min (Transilien R). Forêt de Fontainebleau ~280 km² aux portes de la ville (escalade, randonnée, vélo). Patrimoine impérial (château UNESCO). Budget : T3 famille ~3 200 €/m² centre (vs 8 500 €/m² Paris moyen) — soit 290 k€ pour 90 m². Population ~14 000, services complets (hôpital, écoles, lycée internat), marché du samedi. Limite : ville assez bourgeoise et figée, peu de mixité sociale.",
+      },
+      {
+        heading: "Provins (77) : médiéval et abordable",
+        body: "Train direct Paris-Est 1h25 (un peu plus de 1h, mais éligible Navigo zones 1-5). Patrimoine UNESCO (cité médiévale), remparts, marché Renaissance. Budget : T3 famille ~1 900 €/m² centre — exceptionnel à 1h de Paris (170 k€ pour 90 m²). Population ~12 000, services correctes mais médecins limités. Limite : 1h25 train rend pendulaire quotidien tendu, idéal télétravailleurs 2 jours/semaine.",
+      },
+      {
+        heading: "Senlis (60) : la Picardie chic",
+        body: "Train Paris-Gard du Nord 35 min (Chantilly + correspondance 8 min), ou direct Paris-Nord-Chantilly + bus 20 min. Patrimoine médiéval/Renaissance, forêt d'Halatte, proximité Chantilly (cheval, parcs). Budget : T3 famille ~3 500 €/m² centre (315 k€/90 m²). Population ~16 000, services complets, écoles publiques de bon niveau. Limite : commune réputée bourgeoise/conservatrice, peu de mixité.",
+      },
+      {
+        heading: "Chartres (28) : la cathédrale et la Beauce",
+        body: "Train direct Paris-Montparnasse 55 min (TER, fréquent). Cathédrale UNESCO, vieille ville, jardins de l'Évêché. Budget : T3 famille ~2 200 €/m² centre — très accessible (200 k€/90 m²). Population ~40 000, services complets (hôpital, lycées, université de l'Antenne), commerces vivants. Limite : nature limitée (Beauce plate, peu de forêts), il faut aimer le patrimoine plus que la rando.",
+      },
+      {
+        heading: "Mantes-la-Jolie (78) : la plus accessible budget",
+        body: "Train direct Paris-Saint-Lazare 45 min (Transilien J), ou Paris-Montparnasse 35 min (TER), fréquences excellentes. Boucle de la Seine, base de loisirs, forêt de Rosny. Budget : T3 famille ~2 400 €/m² centre — accessible (215 k€/90 m²). Population ~45 000, services complets, mais image «banlieue lointaine» pèse sur la perception. Limite : sécurité ressentie variable selon quartier, vérifier précisément.",
+      },
+      {
+        heading: "Compiègne (60) : le compromis",
+        body: "Train direct Paris-Nord 50 min (Transilien K + correspondance) ou 1h en direct intercités. Forêt de Compiègne (~140 km²), château impérial, vieille ville. Budget : T3 famille ~2 700 €/m² centre (245 k€/90 m²). Population ~40 000, services complets (université UTC, hôpital, lycée), commerces vivants. Limite : trafic A1 saturé week-end, certaines parties de la ville plus dégradées.",
+      },
+      {
+        heading: "Le calcul honnête : qui doit choisir quoi",
+        body: "Pour cadres parisiens travaillant 4-5 jours/semaine au bureau : viser train direct ≤45 min (Fontainebleau, Mantes, Chartres). Pour télétravailleurs 2-3 j/semaine bureau : tous OK (Provins, Senlis, Compiègne). Pour budget serré : Provins, Mantes, Chartres — divisent par 3 le budget immobilier vs Paris. Pour le vert pur : Fontainebleau (forêt), Compiègne (forêt). Pour le patrimoine : Provins, Senlis, Chartres, Fontainebleau. Conseils : (1) Tester 6 mois en location avant achat, (2) Vérifier fibre à l'adresse exacte (variabilité forte hors centre-ville), (3) Calculer coût réel transport sur 5 ans (Navigo + voiture pour les dernières minutes) — souvent ~7 000 €/an cumulé.",
+      },
+    ],
+    relatedCities: ["paris", "fontainebleau", "provins", "chartres", "compiegne"],
+    relatedGuides: [
+      "quitter-paris-guide-2025",
+      "teletravailler-grande-couronne-ile-de-france-2026",
+      "meilleures-villes-primo-accedants-france-2026",
+      "vivre-en-centre-val-de-loire-guide-2026",
+      "acheter-a-paris-quel-quartier-budget-2026",
+    ],
+    tags: ["vivre au vert", "Paris", "banlieue lointaine", "Fontainebleau", "Provins", "Senlis", "Chartres", "télétravail"],
+  },
+  {
+    slug: "vivre-au-vert-pres-de-lyon-1h-2026",
+    title: "Vivre au vert près de Lyon en 2026 — top villes à 1h maximum",
+    metaTitle: "Vivre au vert près de Lyon 2026 : Beaujolais, Vienne, Pérouges, Bourgoin — guide",
+    metaDesc:
+      "Quitter Lyon pour le vert sans rompre le travail : Beaujolais, Vienne, Bourgoin-Jallieu, Pérouges. Comparaison train/budget/cadre.",
+    category: "lifestyle",
+    emoji: "🍇",
+    readMinutes: 7,
+    publishedAt: "2026-05-13",
+    updatedAt: "2026-05-13",
+    intro:
+      "Lyon offre de très belles options vertes à <1h grâce au réseau TER dense (Auvergne-Rhône-Alpes est la 2e région SNCF). Beaujolais, Vienne, Bourgoin, Pérouges, Crémieu — voici les villes-étapes 2026 comparées.",
+    sections: [
+      {
+        heading: "Critères et méthodologie",
+        body: "Mêmes critères que pour Paris : train direct Lyon ≤1h, prix immobilier ≥30 % inférieur à Lyon centre, accès direct vert (rivière, montagne, vignoble), services complets dans le bourg. Pour Lyon, on a en plus la chance de zones très vertes (Beaujolais, Monts d'Or, Pilat) à proximité immédiate.",
+      },
+      {
+        heading: "Villefranche-sur-Saône (69) : porte du Beaujolais",
+        body: "TER direct Lyon-Part-Dieu 25 min, fréquences excellentes (~30/jour). Capitale beaujolaise, marché vivant, accès direct vignobles. Budget : T3 famille ~2 600 €/m² centre (235 k€/90 m²) — moitié prix Lyon centre. Population ~37 000, services complets (hôpital, lycées, commerces), tissu industriel dynamique. Limite : moins de patrimoine que d'autres villes, plus utilitaire.",
+      },
+      {
+        heading: "Vienne (38) : romaine et compacte",
+        body: "TER direct Lyon-Part-Dieu 20 min, fréquences excellentes. Patrimoine gallo-romain (théâtre, temple d'Auguste), Rhône, festival Jazz à Vienne réputé. Budget : T3 famille ~2 400 €/m² centre (215 k€/90 m²). Population ~29 000, services complets, écoles publiques correctes. Cadre exceptionnel (Rhône + collines + Pilat à 20 min). Limite : étalement urbain et certaines parties moins charmantes.",
+      },
+      {
+        heading: "Bourgoin-Jallieu (38) : Isère active",
+        body: "TER direct Lyon-Part-Dieu 30 min, fréquences correctes. Ville dynamique de l'Isère, accès direct Massif de la Chartreuse à 30 min. Budget : T3 famille ~2 400 €/m² centre (215 k€/90 m²). Population ~28 000, services complets (hôpital, lycées, tissu industriel solide). Limite : ville plus utilitaire que touristique, charme limité au centre.",
+      },
+      {
+        heading: "Pérouges (01) : cité médiévale",
+        body: "Pas de gare directe — voiture 35 min Lyon ou TER Meximieux-Pérouges 30 min + 15 min vélo/voiture. Cité médiévale UNESCO, pittoresque, calme. Budget : maisons anciennes 2 000-2 800 €/m². Population <2 000 dans l'intra-muros, services réduits (Meximieux à 5 min pour commerces). Pour télétravailleurs charme/calme/budget. Limite : services médicaux à Meximieux ou Lyon, scolarité publique à Meximieux.",
+      },
+      {
+        heading: "Crémieu (38) : à mi-chemin",
+        body: "Pas de TER direct (Bourgoin ou Crémieu par bus). Cité médiévale, halles XIV° siècle, marché. Budget : T3 famille ~2 100 €/m² centre (190 k€/90 m²) — excellent. Population ~3 500, services correctes (collège, médecins, commerces de bouche). Cadre vert (Isle Crémieu, plateau viticole, étang). Limite : transport public faible, voiture nécessaire pour Lyon quotidien.",
+      },
+      {
+        heading: "Tarare (69) : Beaujolais nord",
+        body: "TER direct Lyon-Part-Dieu 35 min, fréquences moyennes (~15/jour). Histoire textile, marché vivant, accès direct Monts du Beaujolais. Budget : T3 famille ~1 700 €/m² centre (155 k€/90 m²) — très accessible. Population ~11 000, services correctes mais limités (lycée, hôpital limité). Limite : marché de l'emploi local étroit, dépendance Lyon.",
+      },
+      {
+        heading: "Le calcul honnête : qui doit choisir quoi",
+        body: "Pour pendulaires Lyon quotidien : Vienne, Villefranche, Bourgoin (≤30 min TER fréquent). Pour télétravailleurs 2-3 j/semaine : tous OK, Pérouges et Crémieu pour le charme. Pour budget serré : Crémieu, Tarare — divisent par 3 le coût Lyon centre. Pour amateurs vignoble : Villefranche (Beaujolais sud), Tarare (Beaujolais nord). Pour Rhône et patrimoine : Vienne. Conseils : (1) Vérifier précisément la fibre, (2) Calculer le coût voiture+TER cumulé sur 5 ans, (3) Pour familles : vérifier collège+lycée publics du secteur (variabilité forte hors gros bourgs).",
+      },
+    ],
+    relatedCities: ["lyon", "villefranche-sur-saone", "vienne", "bourgoin-jallieu"],
+    relatedGuides: [
+      "quitter-lyon-guide-2026",
+      "teletravailler-depuis-bourgogne-guide-2026",
+      "meilleures-villes-cyclistes-france-2026",
+      "vivre-sans-voiture-lyon-guide-2026",
+      "lyon-vs-bordeaux-comparatif-2025",
+    ],
+    tags: ["vivre au vert", "Lyon", "Beaujolais", "Villefranche", "Vienne", "Bourgoin", "Pérouges", "télétravail"],
+  },
+  {
+    slug: "vivre-au-vert-pres-de-bordeaux-1h-2026",
+    title: "Vivre au vert près de Bordeaux en 2026 — top villes à 1h maximum",
+    metaTitle: "Vivre au vert près de Bordeaux 2026 : Saint-Émilion, Arcachon, Libourne, Bergerac — guide",
+    metaDesc:
+      "Quitter Bordeaux pour le vert : Saint-Émilion, Libourne, Arcachon, Bergerac, Sainte-Foy-la-Grande. Comparaison train/budget/cadre.",
+    category: "lifestyle",
+    emoji: "🍷",
+    readMinutes: 7,
+    publishedAt: "2026-05-13",
+    updatedAt: "2026-05-13",
+    intro:
+      "Bordeaux offre des options vertes uniques grâce à son hinterland viticole et atlantique. Vignobles Saint-Émilion, bassin d'Arcachon, vallée de la Dordogne — voici les villes-étapes 2026 à ≤1h.",
+    sections: [
+      {
+        heading: "Critères",
+        body: "Train direct Bordeaux ≤1h, prix immobilier ≥30 % inférieur à Bordeaux centre, accès direct vignoble/océan/rivière, services complets. La région offre des cadres très différents : Saint-Émilion (viticole pittoresque), Arcachon (océan), Libourne (vallée), Bergerac (Dordogne).",
+      },
+      {
+        heading: "Libourne (33) : porte des vignobles",
+        body: "TER direct Bordeaux-Saint-Jean 25 min, fréquences excellentes (~25/jour). Capitale du libournais (Pomerol, Saint-Émilion à proximité), Dordogne et Isle, vieille ville bastide. Budget : T3 famille ~2 800 €/m² centre (250 k€/90 m²) — moitié prix Bordeaux centre. Population ~25 000, services complets (hôpital, lycées, commerces), cadre vert vignoble. Limite : ville plus utilitaire que touristique, certaines parties usées.",
+      },
+      {
+        heading: "Arcachon (33) : océan et bassin",
+        body: "TER direct Bordeaux-Saint-Jean 50 min, fréquences correctes. Bassin d'Arcachon, ostréiculture, dune du Pilat à 10 km. Budget : T3 famille ~5 800 €/m² centre — élevé (525 k€/90 m²), car ville très demandée. Population ~10 500, services complets, tourisme massif l'été. Limite : prix immobilier élevé, saisonnalité touristique forte (population × 3 en été). Pour budget serré, viser Audenge ou La Teste-de-Buch (banlieue Arcachon).",
+      },
+      {
+        heading: "Saint-Émilion et alentours (33) : viticole UNESCO",
+        body: "Pas de gare directe, voiture 40 min Bordeaux ou TER Saint-Émilion (~7/jour, ligne Libourne) 50 min. Cité médiévale UNESCO, vignobles classés. Budget : T3 famille ~3 200 €/m² centre (290 k€/90 m²) — accessible pour le charme. Population <2 000, services réduits (Libourne 12 min voiture). Pour télétravailleurs charme/vignoble. Limite : tourisme massif l'été, services médicaux à Libourne.",
+      },
+      {
+        heading: "Bergerac (24) : Dordogne accessible",
+        body: "TER direct Bordeaux-Saint-Jean 1h05 (limite 1h, mais fréquent), ou voiture 1h15. Capitale du périgord pourpre, Dordogne, vignobles bergeracois. Budget : T3 famille ~1 900 €/m² centre (170 k€/90 m²) — très accessible. Population ~26 000, services complets (hôpital, lycées, aéroport Ryanair vers UK), cadre Dordogne exceptionnel. Limite : marché de l'emploi local étroit, télétravail recommandé.",
+      },
+      {
+        heading: "Sainte-Foy-la-Grande (33) : confluence",
+        body: "TER direct Bordeaux-Saint-Jean 55 min, fréquences moyennes. Bastide sur la Dordogne, marché historique. Budget : T3 famille ~1 500 €/m² centre (135 k€/90 m²) — exceptionnel. Population ~2 500, services correctes (collège, médecins, commerces), cadre vallée. Limite : services réduits, voiture indispensable hors bourg.",
+      },
+      {
+        heading: "Cadillac (33) : sud bordelais",
+        body: "Pas de TER, voiture 35 min Bordeaux. Bastide du XIIIe siècle, vignoble Loupiac/Sainte-Croix-du-Mont, Garonne. Budget : T3 famille ~1 800 €/m² centre (160 k€/90 m²). Population ~3 000, services correctes (collège, médecins), cadre viticole. Limite : transport public faible, voiture indispensable.",
+      },
+      {
+        heading: "Le calcul honnête",
+        body: "Pour pendulaires Bordeaux quotidien : Libourne et Arcachon (TER direct ≤50 min). Pour télétravailleurs : tous OK, Saint-Émilion et Sainte-Foy pour le charme rural. Pour budget serré : Sainte-Foy, Cadillac, Bergerac — divisent par 3-4 le coût Bordeaux centre. Pour océan : Arcachon (cher) ou Audenge/La Teste (moins cher). Pour vignoble : Libourne, Saint-Émilion, Bergerac. Conseils : (1) Vérifier la fibre, (2) Pour Bergerac, l'aéroport est un atout (UK direct), (3) Arcachon est saturé l'été — vivre à l'année dans certains quartiers devient pénible juillet-août.",
+      },
+    ],
+    relatedCities: ["bordeaux", "libourne", "arcachon", "bergerac", "saintes"],
+    relatedGuides: [
+      "quitter-bordeaux-guide-2026",
+      "acheter-a-bordeaux-quel-quartier-budget-2026",
+      "vivre-en-perigord-dordogne-guide-2026",
+      "teletravailler-depuis-nouvelle-aquitaine-guide-2026",
+      "meilleures-villes-surf-sports-nautiques-france-2026",
+    ],
+    tags: ["vivre au vert", "Bordeaux", "Saint-Émilion", "Libourne", "Arcachon", "Bergerac", "Dordogne", "télétravail"],
+  },
+  {
+    slug: "vivre-au-vert-pres-de-marseille-1h-2026",
+    title: "Vivre au vert près de Marseille en 2026 — top villes à 1h maximum",
+    metaTitle: "Vivre au vert près de Marseille 2026 : Cassis, Aubagne, Aix, Calanques — guide",
+    metaDesc:
+      "Quitter Marseille pour le vert : Cassis, Aubagne, Salon, Aix, La Ciotat. Comparaison transport/budget/cadre — guide honnête 2026.",
+    category: "lifestyle",
+    emoji: "🌊",
+    readMinutes: 7,
+    publishedAt: "2026-05-13",
+    updatedAt: "2026-05-13",
+    intro:
+      "Marseille offre des cadres très différents à <1h : Calanques, Sainte-Baume, Aix-en-Provence, Camargue. Voici les villes-étapes 2026 pour quitter Marseille sans rompre avec le travail ou la mer.",
+    sections: [
+      {
+        heading: "Critères",
+        body: "Train direct Marseille ≤1h ou voiture ≤45 min, prix immobilier accessible (sachant que la région Sud est tendue), accès direct calanques/Sainte-Baume/Camargue/Aix, services complets dans le bourg. Limite spécifique au sud : la canicule estivale rend la question fraîcheur primordiale.",
+      },
+      {
+        heading: "Cassis (13) : Calanques",
+        body: "TER direct Marseille-Saint-Charles 25 min, fréquences correctes (~15/jour). Calanques de Cassis (Port-Miou, En-Vau), plages, port pittoresque. Budget : T3 famille ~6 800 €/m² centre — très cher (615 k€/90 m²), car ville touristique premium. Population ~7 000, services complets, ambiance haut de gamme. Limite : saturé l'été (population × 4), prix immobilier inaccessible à beaucoup. Pour télétravailleurs aisés ou retraités.",
+      },
+      {
+        heading: "Aubagne (13) : porte de la Sainte-Baume",
+        body: "TER direct Marseille-Saint-Charles 15 min, fréquences excellentes (~30/jour). Ville natale de Pagnol, accès direct Sainte-Baume, Garlaban, calanques. Budget : T3 famille ~3 200 €/m² centre (290 k€/90 m²) — accessible. Population ~47 000, services complets, marché vivant, transport TER excellent. Limite : étalement urbain et certaines parties moins charmantes, mais centre historique pittoresque.",
+      },
+      {
+        heading: "La Ciotat (13) : alternative Cassis",
+        body: "TER direct Marseille-Saint-Charles 40 min, fréquences correctes. Plage urbaine, chantiers navals reconvertis, port pittoresque, calanques de Figuerolles. Budget : T3 famille ~4 200 €/m² centre (380 k€/90 m²) — accessible vs Cassis. Population ~36 000, services complets, dynamique urbaine en hausse. Limite : juillet-août très fréquenté mais moins saturé que Cassis.",
+      },
+      {
+        heading: "Aix-en-Provence (13) : la prime cousine",
+        body: "TER direct Marseille-Saint-Charles 30 min, fréquences excellentes (~40/jour). Ville thermale UNESCO, université, scène culturelle (Festival d'Art lyrique). Budget : T3 famille ~5 400 €/m² centre (485 k€/90 m²) — cher mais moins que Cassis. Population ~145 000, services complets, qualité de vie premium. Limite : prix immobilier élevé, ambiance plus «bobo» que Marseille.",
+      },
+      {
+        heading: "Salon-de-Provence (13) : Crau et Alpilles",
+        body: "TER direct Marseille-Saint-Charles 50 min, fréquences correctes. Patrimoine (Nostradamus, château de l'Empéri), Crau, accès Alpilles à 20 min. Budget : T3 famille ~2 800 €/m² centre (250 k€/90 m²) — accessible. Population ~46 000, services complets, marché vivant. Limite : sommée par l'A7 (bruit), été chaud.",
+      },
+      {
+        heading: "Martigues (13) : Venise provençale",
+        body: "TER direct Marseille-Saint-Charles 30 min, fréquences correctes. Canaux pittoresques, étang de Berre, Calanques de Sausset. Budget : T3 famille ~2 600 €/m² centre (235 k€/90 m²) — accessible. Population ~50 000, services complets, tissu industriel (Total) dynamique. Limite : pollution industrielle étang de Berre (à anticiper), certaines parties moins charmantes.",
+      },
+      {
+        heading: "Le calcul honnête",
+        body: "Pour pendulaires Marseille quotidien : Aubagne, Aix, Martigues (TER ≤30 min fréquent). Pour télétravailleurs aisés : Cassis (mer), La Ciotat (alternative). Pour budget serré : Salon, Aubagne, Martigues — divisent par 2 vs Cassis. Pour aimer Sainte-Baume : Aubagne. Pour aimer Calanques : Cassis (cher) ou Aubagne+vélo. Pour mer accessible : La Ciotat. Conseils : (1) Canicule estivale (45 jours/an >30 °C) — climatisation devient stratégique, (2) Vérifier précisément la fibre, (3) Saisonnalité touristique forte sur Cassis/Sainte-Baume — vivre à l'année y devient pénible si on n'apprécie pas l'affluence.",
+      },
+    ],
+    relatedCities: ["marseille", "aix-en-provence", "cassis", "aubagne", "la-ciotat"],
+    relatedGuides: [
+      "quitter-marseille-guide-2026",
+      "acheter-a-marseille-quel-quartier-budget-2026",
+      "aix-en-provence-vs-marseille-comparatif-2026",
+      "teletravailler-depuis-provence-guide-2026",
+      "meilleures-villes-randonnee-trail-france-2026",
+    ],
+    tags: ["vivre au vert", "Marseille", "Cassis", "Aubagne", "Aix-en-Provence", "Provence", "Calanques", "télétravail"],
+  },
+  {
+    slug: "vivre-au-vert-pres-de-toulouse-1h-2026",
+    title: "Vivre au vert près de Toulouse en 2026 — top villes à 1h maximum",
+    metaTitle: "Vivre au vert près de Toulouse 2026 : Albi, Montauban, Auch, Saint-Lys — guide",
+    metaDesc:
+      "Quitter Toulouse pour le vert : Albi, Montauban, Auch, Castelnaudary, Foix. Comparaison train/budget/cadre — guide 2026.",
+    category: "lifestyle",
+    emoji: "🌾",
+    readMinutes: 7,
+    publishedAt: "2026-05-13",
+    updatedAt: "2026-05-13",
+    intro:
+      "Toulouse offre un hinterland varié à <1h : Albi (Tarn), Montauban (Tarn-et-Garonne), Auch (Gers), Foix (Ariège), Castelnaudary (Aude). Voici les villes-étapes 2026 pour quitter Toulouse sans rompre le travail.",
+    sections: [
+      {
+        heading: "Critères",
+        body: "Train direct ≤1h ou voiture ≤1h, prix immobilier ≥30 % inférieur à Toulouse centre, accès direct Pyrénées/Tarn/Gers/Lauragais, services complets. Toulouse a la chance d'avoir des villes patrimoniales accessibles (Albi UNESCO, Foix médiévale).",
+      },
+      {
+        heading: "Albi (81) : la brique et l'épiscopal",
+        body: "TER direct Toulouse-Matabiau 1h, fréquences correctes (~20/jour). Cité épiscopale UNESCO, cathédrale Sainte-Cécile, musée Toulouse-Lautrec. Budget : T3 famille ~2 200 €/m² centre (200 k€/90 m²) — accessible. Population ~50 000, services complets (CHU, lycées, université Champollion). Cadre vert (Tarn, vallée). Limite : ville plus petite, scène culturelle plus modeste qu'à Toulouse.",
+      },
+      {
+        heading: "Montauban (82) : Ingres et la Garonne",
+        body: "TER direct Toulouse-Matabiau 25 min, fréquences excellentes (~30/jour). Place Royale, musée Ingres, Tarn et Garonne. Budget : T3 famille ~2 100 €/m² centre (190 k€/90 m²) — accessible. Population ~62 000, services complets, marché vivant. Cadre vert (vallée). Limite : ville plus utilitaire que touristique, certaines parties moins charmantes.",
+      },
+      {
+        heading: "Auch (32) : Gascogne et armagnac",
+        body: "TER direct Toulouse-Matabiau 1h30 (limite), ou voiture 1h. Capitale gasconne, cathédrale Sainte-Marie, escalier monumental d'Étigny. Budget : T3 famille ~1 600 €/m² centre (145 k€/90 m²) — très accessible. Population ~22 000, services complets, qualité de vie reconnue. Limite : TER trop long pour pendulaire quotidien, voiture obligatoire.",
+      },
+      {
+        heading: "Foix (09) : porte des Pyrénées",
+        body: "TER direct Toulouse-Matabiau 1h05, fréquences correctes (~15/jour). Château médiéval, Ariège, accès direct Pyrénées (Mont-Fourcat, plateau de Beille). Budget : T3 famille ~1 600 €/m² centre (145 k€/90 m²) — exceptionnel. Population ~10 000, services correctes (hôpital limité). Limite : services réduits, marché de l'emploi local étroit, télétravail recommandé.",
+      },
+      {
+        heading: "Castelnaudary (11) : Lauragais et cassoulet",
+        body: "TER direct Toulouse-Matabiau 55 min, fréquences correctes. Capitale du Lauragais, canal du Midi UNESCO, gastronomie. Budget : T3 famille ~1 700 €/m² centre (155 k€/90 m²) — accessible. Population ~12 000, services correctes (lycée, médecins), cadre rural canal du Midi. Limite : marché de l'emploi local étroit.",
+      },
+      {
+        heading: "Pamiers (09) : Ariège accessible",
+        body: "TER direct Toulouse-Matabiau 45 min, fréquences correctes. Capitale ariégeoise économique, Ariège. Budget : T3 famille ~1 700 €/m² centre (155 k€/90 m²) — accessible. Population ~16 000, services correctes (hôpital, lycées), accès Pyrénées 30 min. Limite : ville plus utilitaire que touristique.",
+      },
+      {
+        heading: "Le calcul honnête",
+        body: "Pour pendulaires Toulouse quotidien : Montauban, Castelnaudary, Pamiers, Albi (TER ≤1h fréquent). Pour télétravailleurs : tous OK, Foix et Auch pour le calme rural. Pour budget serré : Foix, Auch, Castelnaudary, Pamiers — divisent par 3-4 le coût Toulouse centre. Pour patrimoine : Albi, Auch. Pour Pyrénées : Foix, Pamiers. Pour Tarn vallée : Montauban, Albi. Conseils : (1) Été chaud (35 jours >30 °C en Lauragais) — climatisation recommandée, (2) Vérifier précisément la fibre, (3) Pour familles : vérifier collège/lycée publics (variabilité forte).",
+      },
+    ],
+    relatedCities: ["toulouse", "albi", "montauban", "auch", "foix"],
+    relatedGuides: [
+      "quitter-toulouse-guide-2026",
+      "acheter-a-toulouse-quel-quartier-budget-2026",
+      "marseille-vs-toulouse-comparatif-2025",
+      "vivre-en-ariege-guide-2026",
+      "teletravailler-depuis-occitanie-guide-2026",
+    ],
+    tags: ["vivre au vert", "Toulouse", "Albi", "Montauban", "Auch", "Foix", "Lauragais", "télétravail"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
