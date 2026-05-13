@@ -7,6 +7,7 @@ import { GuideCard } from "@/components/GuideCard";
 import { CommentSection } from "@/components/CommentSection";
 import { GUIDES, GUIDE_CATEGORIES } from "@/data/guides";
 import { CITIES_SEED } from "@/data/cities-seed";
+import { linkifyCities } from "@/lib/link-cities";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -169,7 +170,7 @@ export default async function GuidePage({ params }: Props) {
                     {section.heading}
                   </h2>
                   <p className="text-[var(--text-secondary)] leading-relaxed text-base">
-                    {section.body}
+                    {linkifyCities(section.body, { excludeSlug: guide.relatedCities[0] })}
                   </p>
                 </section>
               ))}
