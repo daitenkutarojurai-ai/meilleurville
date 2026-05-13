@@ -8,6 +8,7 @@ import { CommentSection } from "@/components/CommentSection";
 import { GUIDES, GUIDE_CATEGORIES } from "@/data/guides";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { linkifyCities } from "@/lib/link-cities";
+import { suggestNextGuides } from "@/lib/guide-suggestions";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -40,6 +41,7 @@ export default async function GuidePage({ params }: Props) {
   if (!guide) notFound();
 
   const relatedGuides = GUIDES.filter((g) => guide.relatedGuides.includes(g.slug));
+  const nextGuides = suggestNextGuides(guide, 3);
   const relatedCities = CITIES_SEED.filter((c) => guide.relatedCities.includes(c.slug));
   const catMeta = GUIDE_CATEGORIES.find((c) => c.id === guide.category);
 
@@ -184,6 +186,42 @@ export default async function GuidePage({ params }: Props) {
                 </span>
               ))}
             </div>
+
+            {/* Lire ensuite — auto-suggested by category + city + tag overlap */}
+            {nextGuides.length > 0 && (
+              <div className="mt-10">
+                <p className="text-xs uppercase tracking-widest text-[var(--text-tertiary)] font-semibold mb-4">
+                  Lire ensuite
+                </p>
+                <div className="grid sm:grid-cols-3 gap-4">
+                  {nextGuides.map((g) => {
+                    const cat = GUIDE_CATEGORIES.find((c) => c.id === g.category);
+                    return (
+                      <Link
+                        key={g.slug}
+                        href={`/guides/${g.slug}`}
+                        className="group rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-4 hover:border-[var(--accent)] transition-colors"
+                      >
+                        <div className="flex items-center gap-2 mb-2">
+                          <span className="text-2xl">{g.emoji}</span>
+                          {cat && (
+                            <span className={`text-[10px] font-semibold uppercase tracking-wide ${cat.color}`}>
+                              {cat.label}
+                            </span>
+                          )}
+                        </div>
+                        <p className="text-sm font-semibold text-[var(--text-primary)] leading-snug group-hover:text-[var(--accent)] transition-colors">
+                          {g.title}
+                        </p>
+                        <p className="text-xs text-[var(--text-tertiary)] mt-2">
+                          {g.readMinutes} min
+                        </p>
+                      </Link>
+                    );
+                  })}
+                </div>
+              </div>
+            )}
 
             {/* CTA after article */}
             <div className="mt-10 rounded-2xl border border-[var(--accent)]/20 bg-[var(--accent)]/5 p-6">
