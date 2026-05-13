@@ -3,6 +3,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Badge } from "@/components/ui/Badge";
 import { GlobalSearch } from "@/components/GlobalSearch";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { GUIDES } from "@/data/guides";
 import { getAllTagsWithCounts } from "@/lib/guide-tags";
@@ -61,6 +62,12 @@ export default function RecherchePage() {
 
       <section className="bg-[var(--bg-surface)] border-b border-[var(--border)] py-14">
         <div className="mx-auto max-w-3xl px-4 sm:px-6">
+          <Breadcrumbs
+            items={[
+              { label: "Accueil", href: "/" },
+              { label: "Recherche" },
+            ]}
+          />
           <Badge variant="accent" className="mb-3">Recherche</Badge>
           <h1 className="text-3xl font-bold text-[var(--text-primary)] mb-3">
             Recherche globale

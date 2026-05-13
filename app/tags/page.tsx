@@ -4,6 +4,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Badge } from "@/components/ui/Badge";
 import { getAllTagsWithCounts } from "@/lib/guide-tags";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Tous les tags — Index thématique des guides | MeilleurVille",
@@ -21,6 +22,13 @@ export default function TagsIndexPage() {
 
       <section className="bg-[var(--bg-surface)] border-b border-[var(--border)] py-14">
         <div className="mx-auto max-w-4xl px-4 sm:px-6">
+          <Breadcrumbs
+            items={[
+              { label: "Accueil", href: "/" },
+              { label: "Guides", href: "/guides" },
+              { label: "Tags" },
+            ]}
+          />
           <Badge variant="accent" className="mb-3">Index</Badge>
           <h1 className="text-3xl font-bold text-[var(--text-primary)] mb-3">Tous les tags</h1>
           <p className="text-[var(--text-secondary)]">

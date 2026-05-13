@@ -4,6 +4,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Badge } from "@/components/ui/Badge";
 import { StaticPageCrossLink } from "@/components/StaticPageCrossLink";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Outils — Quiz, simulateur, glossaire, calendrier | MeilleurVille",
@@ -121,6 +122,12 @@ export default function OutilsPage() {
 
       <section className="bg-[var(--bg-surface)] border-b border-[var(--border)] py-14">
         <div className="mx-auto max-w-4xl px-4 sm:px-6">
+          <Breadcrumbs
+            items={[
+              { label: "Accueil", href: "/" },
+              { label: "Outils" },
+            ]}
+          />
           <Badge variant="accent" className="mb-3">Outils</Badge>
           <h1 className="text-3xl font-bold text-[var(--text-primary)] mb-3">
             {TOOLS.length} outils pour choisir où vivre
