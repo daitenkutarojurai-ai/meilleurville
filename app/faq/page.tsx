@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Badge } from "@/components/ui/Badge";
+import { StaticPageCrossLink } from "@/components/StaticPageCrossLink";
 
 export const metadata: Metadata = {
   title: "FAQ — Questions fréquentes | MeilleurVille",
@@ -206,6 +207,7 @@ export default function FaqPage() {
         </div>
       </div>
 
+      <StaticPageCrossLink exclude="/faq" />
       <Footer />
     </main>
   );

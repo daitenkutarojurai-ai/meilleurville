@@ -5,6 +5,7 @@ import { AmbientBackground } from "@/components/AmbientBackground";
 import { Card } from "@/components/ui/Card";
 import { CheckCircle, Database, Bot, Shield, AlertTriangle } from "lucide-react";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { StaticPageCrossLink } from "@/components/StaticPageCrossLink";
 
 export const metadata: Metadata = {
   title: "Méthodologie — Comment sont calculés les scores ? | MeilleurVille",
@@ -249,6 +250,7 @@ télétravail × 0.08
         </section>
       </div>
 
+      <StaticPageCrossLink exclude="/methode" />
       <Footer />
     </main>
   );

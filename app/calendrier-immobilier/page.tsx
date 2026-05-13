@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Badge } from "@/components/ui/Badge";
+import { StaticPageCrossLink } from "@/components/StaticPageCrossLink";
 
 export const metadata: Metadata = {
   title: "Calendrier immobilier 2026 — quand acheter, vendre, déménager ?",
@@ -232,6 +233,7 @@ export default function CalendrierPage() {
         </div>
       </div>
 
+      <StaticPageCrossLink exclude="/calendrier-immobilier" />
       <Footer />
     </main>
   );

@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Badge } from "@/components/ui/Badge";
+import { StaticPageCrossLink } from "@/components/StaticPageCrossLink";
 
 export const metadata: Metadata = {
   title: "Glossaire immobilier & relocation — MeilleurVille",
@@ -254,6 +255,7 @@ export default function GlossairePage() {
         ))}
       </div>
 
+      <StaticPageCrossLink exclude="/glossaire" />
       <Footer />
     </main>
   );
