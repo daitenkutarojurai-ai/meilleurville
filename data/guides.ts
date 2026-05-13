@@ -12895,6 +12895,251 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["vivre au vert", "Toulouse", "Albi", "Montauban", "Auch", "Foix", "Lauragais", "télétravail"],
   },
+  {
+    slug: "investir-locatif-bordeaux-2026",
+    title: "Investir en locatif à Bordeaux en 2026 — rendement, quartiers, pièges",
+    metaTitle: "Investir locatif Bordeaux 2026 : rendement T2 T3, Bastide, Capucins — guide",
+    metaDesc:
+      "Investir dans l'immobilier locatif à Bordeaux en 2026 : rendement brut/net par quartier, fiscalité réelle, quartiers à viser (Bastide, Capucins, Saint-Augustin).",
+    category: "budget",
+    emoji: "🏘️",
+    readMinutes: 8,
+    publishedAt: "2026-05-13",
+    updatedAt: "2026-05-13",
+    intro:
+      "Après la correction 2024-2025 (~-9 % vs pic 2022), Bordeaux redevient attractive pour l'investissement locatif. Rendement brut moyen ~4,5 %, jusqu'à ~6 % proche universités. Voici la lecture honnête 2026 : quartiers à viser, fiscalité, pièges et calcul net après IR/PS/taxe foncière.",
+    sections: [
+      {
+        heading: "Le marché bordelais en 2026",
+        body: "Volumes : ~6 200 transactions/an dans l'intra-muros (en baisse vs 2021 mais demande structurelle solide). Prix médian T2 ~160 k€, T3 ~240 k€, T4 ~340 k€. Loyer médian T2 ~720 €/mois, T3 ~990 €/mois (Olap, Clameur). Rendement brut médian intra-muros ~4,5 %, avec amplitude de 3,8 % (Saint-Pierre prime) à 5,8 % (Saint-Michel, Bastide nord). La pression locative reste forte (université 60 000 étudiants, jeunes actifs aéronautique/numérique).",
+      },
+      {
+        heading: "Top quartiers pour rendement",
+        body: "(1) Saint-Michel — quartier vivant, jeune, marché des Capucins. T2 ~140 k€, loyer ~720 €, brut ~6,1 %. Demande locative forte (étudiants + jeunes actifs). Risque : copropriétés anciennes parfois dégradées, vérifier précisément. (2) Bastide nord (rive droite) — tram A direct centre, gentrification continue. T2 ~135 k€, loyer ~640 €, brut ~5,7 %. Plus-value 5-10 ans attendue. (3) Saint-Augustin nord — résidentiel familial, écoles. T3 ~210 k€, loyer ~870 €, brut ~5 %. (4) Capucins — gentrification mature, marché matin. T2 ~155 k€, loyer ~750 €, brut ~5,8 %.",
+      },
+      {
+        heading: "Quartiers à éviter pour investissement",
+        body: "Saint-Pierre prime : rendement faible (~3,8 %), prix élevé, peu de marge. Chartrons saturé : déjà cher (T2 ~190 k€), rendement ~4,5 %, valeur stable mais peu de plus-value. Bordeaux Lac : marché immobilier moins liquide, secteurs résidentiels mal connectés tram. Saint-Jean nord : sécurité ressentie variable selon micro-quartier, valeur de revente incertaine sur 10 ans.",
+      },
+      {
+        heading: "Fiscalité 2026 : le calcul net réaliste",
+        body: "Régime LMNP (loueur meublé non pro) : amortissement permet de neutraliser fiscalement les premières années (~10-15 ans). LMP : seuil dépassement, statut différent. Régime micro-foncier (location nue, <15 k€) : abattement 30 %. Régime réel : déduit charges réelles. Pour T2 Bordeaux ~720 €/mois loyer (= 8 640 €/an), micro-BIC LMNP : abattement 50 % → base imposable 4 320 €. Avec TMI 30 % + PS 17,2 % : impôt ~2 040 €/an. Taxe foncière Bordeaux T2 ~750-950 €/an selon arrondissement. Charges copropriété non récupérables : ~400-700 €/an. Vacance moyenne : 2-3 semaines/an (~5 %). Rendement net réel : ~3,5-4,5 % selon régime fiscal.",
+      },
+      {
+        heading: "Pièges classiques",
+        body: "(1) Surestimer le loyer — vérifier à l'observatoire local OLAP, pas au flair. (2) Sous-estimer charges copropriété sur ancien Bordeaux (parquet, ascenseur, ravalement) — parfois 1 800 €/an. (3) Acheter en ZAN/zone tendue sans vérifier encadrement loyers (Bordeaux pourrait passer en encadrement). (4) Croire qu'on louera à des étudiants sans visite — la concurrence Studapart/Lokaviz est forte, le studio sans vue/balcon reste vide. (5) Oublier travaux énergétiques (DPE F/G interdits location dès 2025/28) — ravalement, isolation, double vitrage.",
+      },
+      {
+        heading: "Le calcul honnête : Bordeaux vs alternatives",
+        body: "Pour rendement brut maximal : Saint-Michel, Bastide nord, Capucins (~5,5-6 %). Pour plus-value 10 ans : Bastide (tram, requalification), Saint-Augustin nord (mutation urbaine). Pour sécurité du loyer : Caudéran, Chartrons (gentrification mature, locataires solides). Comparaison : Lille offre meilleurs rendements (~6 % moyen) mais plus-value plus faible. Lyon : rendement ~4,5 % mais plus-value historique forte. Toulouse : rendement ~5 % moyen, exposition aéronautique. Bordeaux reste un compromis solide rendement+plus-value pour 2026-2035.",
+      },
+    ],
+    relatedCities: ["bordeaux", "libourne", "arcachon", "bayonne", "pau"],
+    relatedGuides: [
+      "acheter-a-bordeaux-quel-quartier-budget-2026",
+      "investissement-locatif-moins-100000-euros-france-2026",
+      "quitter-bordeaux-guide-2026",
+      "vivre-sans-voiture-bordeaux-guide-2026",
+      "meilleures-villes-primo-accedants-france-2026",
+    ],
+    tags: ["investir Bordeaux", "Bordeaux", "investissement locatif", "LMNP", "rendement locatif", "Bastide", "immobilier"],
+  },
+  {
+    slug: "investir-locatif-lyon-2026",
+    title: "Investir en locatif à Lyon en 2026 — rendement, arrondissements, fiscalité",
+    metaTitle: "Investir locatif Lyon 2026 : rendement T2 T3, Villeurbanne, 7e Gerland — guide",
+    metaDesc:
+      "Investir locatif Lyon 2026 : rendement brut/net par arrondissement, fiscalité LMNP/réel, quartiers à viser (Villeurbanne, 7e Gerland, 9e Vaise).",
+    category: "budget",
+    emoji: "🏢",
+    readMinutes: 8,
+    publishedAt: "2026-05-13",
+    updatedAt: "2026-05-13",
+    intro:
+      "Lyon offre un marché locatif solide (étudiants, jeunes actifs, biotech) mais des prix d'achat élevés qui pèsent sur le rendement. Brut moyen ~4 %, jusqu'à ~5,5 % à Villeurbanne et 9e Vaise. Voici la lecture 2026.",
+    sections: [
+      {
+        heading: "Le marché lyonnais 2026",
+        body: "Volumes : ~7 500 transactions/an intra-muros. Prix médian T2 ~205 k€, T3 ~310 k€, T4 ~440 k€. Loyer médian T2 ~750 €, T3 ~990 €. Rendement brut médian ~4 %, amplitude de 3 % (6e prime) à 5,5 % (9e Vaise, Villeurbanne). Forte demande locative : 160 000 étudiants Lyon métropole + jeunes actifs tech/biotech. Encadrement loyers Lyon-Villeurbanne en vigueur depuis 2021 — à vérifier précisément pour chaque bien.",
+      },
+      {
+        heading: "Top quartiers pour rendement",
+        body: "(1) Villeurbanne — meilleure affaire métropole. T2 ~165 k€, loyer ~640 €, brut ~4,7 %. Demande locative forte (INSA, Université Lyon 1). Tram T1/T4, requalification Carré de Soie. (2) Lyon 9e Vaise — T2 ~175 k€, loyer ~720 €, brut ~4,9 %. Métro D direct centre, requalification Industrie Confluence. (3) Lyon 7e Gerland — T2 ~205 k€, loyer ~870 €, brut ~5,1 %. Biopole, ENS, Cité Internationale. (4) Lyon 8e Bachut/Monplaisir — T2 ~190 k€, loyer ~770 €, brut ~4,9 %.",
+      },
+      {
+        heading: "Quartiers à éviter pour investissement",
+        body: "Lyon 2e Cordeliers : rendement très faible (~3 %), saisonnalité touristique parfois problématique. Lyon 6e Foch : saturé prime, rendement ~3,2 %, peu de marge. Lyon 5e Vieux-Lyon haut : étroite offre, valeur stable mais rendement faible (~3,5 %). Caluire et Saint-Genis-Laval périphérie : marché locatif moins liquide.",
+      },
+      {
+        heading: "Encadrement loyers Lyon : ce qu'il faut savoir",
+        body: "Depuis 2021, Lyon et Villeurbanne sont en encadrement des loyers. Loyer de référence par m² et par typologie, modulé par année de construction, étage, etc. Plafond strict, dépassement seulement avec complément de loyer justifié (charme architectural exceptionnel, équipements premium). Vérifier sur référence-loyers.draaf.gouv.fr ou via les arrêtés métropole Lyon. Faute de respect : amende ~5 000 €, restitution rétroactive. Bien anticiper en simulation avant achat.",
+      },
+      {
+        heading: "Fiscalité réelle Lyon 2026",
+        body: "T2 Lyon loyer 750 €/mois (= 9 000 €/an). LMNP micro-BIC : abattement 50 % → base imposable 4 500 €. TMI 30 % + PS 17,2 % : impôt ~2 120 €/an. Taxe foncière Lyon T2 ~900-1 200 €/an selon arrondissement. Charges copropriété non récup. : ~500-900 €/an (ancien lyonnais souvent ascenseur + parquet). Vacance ~3-5 %. Rendement net réel : ~3-4 %. Régime réel souvent plus rentable si copropriété + intérêts emprunt importants (premières années).",
+      },
+      {
+        heading: "Le calcul honnête : Lyon vs alternatives",
+        body: "Lyon est sur-représenté en investisseurs depuis 10 ans, prix d'achat élevés écrasent le rendement. Pour rendement maximal : Villeurbanne, Lyon 9e, Lyon 7e Gerland. Plus-value historique excellente (+50 % sur 10 ans) mais cycle 2024-2028 plus modéré (baisse 2024, stabilisation 2025-2026). Comparaison : Saint-Étienne propose rendements 6-7 % bruts (T2 ~85 k€, loyer ~440 €) mais valeur revente moins solide. Pour profil prudent recherchant plus-value+capital : Lyon (3e Préfecture, 6e Brotteaux) reste solide à 15 ans.",
+      },
+    ],
+    relatedCities: ["lyon", "villeurbanne", "saint-etienne", "grenoble", "annecy"],
+    relatedGuides: [
+      "acheter-a-lyon-quel-quartier-budget-2026",
+      "investissement-locatif-moins-100000-euros-france-2026",
+      "quitter-lyon-guide-2026",
+      "vivre-sans-voiture-lyon-guide-2026",
+      "lyon-vs-bordeaux-comparatif-2025",
+    ],
+    tags: ["investir Lyon", "Lyon", "Villeurbanne", "investissement locatif", "LMNP", "encadrement loyers", "rendement"],
+  },
+  {
+    slug: "investir-locatif-toulouse-2026",
+    title: "Investir en locatif à Toulouse en 2026 — rendement, quartiers, fiscalité",
+    metaTitle: "Investir locatif Toulouse 2026 : Rangueil, Saint-Aubin, Bonnefoy — guide",
+    metaDesc:
+      "Investir locatif Toulouse 2026 : rendement brut/net par quartier, fiscalité LMNP, quartiers à viser (Rangueil, Saint-Aubin, Bonnefoy).",
+    category: "budget",
+    emoji: "🛒",
+    readMinutes: 8,
+    publishedAt: "2026-05-13",
+    updatedAt: "2026-05-13",
+    intro:
+      "Toulouse a un marché locatif puissant : 130 000 étudiants, écosystème aéronautique-spatial, hausse démographique continue. Rendement brut moyen ~5 %, jusqu'à ~6,5 % proche universités. Voici la lecture 2026.",
+    sections: [
+      {
+        heading: "Le marché toulousain 2026",
+        body: "Volumes : ~8 500 transactions/an intra-muros. Prix médian T2 ~155 k€, T3 ~230 k€, T4 ~320 k€. Loyer médian T2 ~640 €, T3 ~830 €. Rendement brut médian ~5 %, amplitude 4 % (Carmes prime) à 6,5 % (Rangueil étudiant). Demande locative très forte : 130 000 étudiants + 20 000 nouveaux habitants/an. Pas d'encadrement loyers à Toulouse (à date).",
+      },
+      {
+        heading: "Top quartiers pour rendement",
+        body: "(1) Rangueil-Université — T1/T2 étudiant. T1 ~95 k€, loyer ~480 €, brut ~6 %. T2 ~140 k€, loyer ~660 €, brut ~5,7 %. Locataires étudiants Université Paul-Sabatier. (2) Bonnefoy — gentrification en cours, proximité Matabiau gare. T2 ~150 k€, loyer ~680 €, brut ~5,4 %. (3) Saint-Aubin — vivant, bars, étudiants jeunes actifs. T2 ~155 k€, loyer ~700 €, brut ~5,4 %. (4) Compans-Cafarelli — métro B, proximité Capitole, gentrification mature. T2 ~170 k€, loyer ~750 €, brut ~5,3 %.",
+      },
+      {
+        heading: "Quartiers à éviter pour investissement",
+        body: "Carmes-Capitole prime : rendement faible (~4 %), prix élevés. Côte Pavée : résidentiel familial mais loyers limités (familles propriétaires, peu de locatif), rendement ~4,2 %. Empalot, Bagatelle, Mirail : prix très bas mais sécurité ressentie variable, valeur revente incertaine, locataires fragiles fiscalement.",
+      },
+      {
+        heading: "Fiscalité réelle Toulouse 2026",
+        body: "T2 Toulouse loyer 640 €/mois (= 7 680 €/an). LMNP micro-BIC : abattement 50 % → base 3 840 €. TMI 30 % + PS 17,2 % : impôt ~1 810 €/an. Taxe foncière Toulouse T2 ~750-950 €/an. Charges copropriété non récup. : ~450-700 €/an. Vacance ~3-5 %. Rendement net réel : ~3,5-4,5 %. À Rangueil ou Saint-Aubin, rendement net peut atteindre 5 % grâce à prix d'achat plus bas.",
+      },
+      {
+        heading: "Pièges classiques Toulouse",
+        body: "(1) Surchauffe écosystème Airbus — un cycle aéronautique baissier fragiliserait la demande locative cadre. (2) Demande étudiante saisonnière (sept-juin) — anticiper vacance été 1-2 mois sur certains quartiers étudiants. (3) Climatisation devient stratégique : 35 jours/an >30 °C, biens sans clim de moins en moins compétitifs. (4) Rangueil saturé en offre étudiante — privilégier biens proches métro B avec parking ou cuisine équipée pour différenciation.",
+      },
+      {
+        heading: "Le calcul honnête : Toulouse vs alternatives",
+        body: "Toulouse offre un bon compromis rendement+plus-value, avec exposition cyclique aéronautique. Pour rendement brut max : Rangueil, Bonnefoy, Saint-Aubin. Plus-value 10 ans : Bonnefoy (transformation Matabiau-TESO), Compans-Cafarelli (métro B). Comparaison : Bordeaux offre rendements similaires avec moins d'exposition cyclique mais prix plus élevés. Montpellier : rendements ~5,5 % moyen mais saisonnalité étudiante encore plus marquée.",
+      },
+    ],
+    relatedCities: ["toulouse", "albi", "montauban", "auch", "tarbes"],
+    relatedGuides: [
+      "acheter-a-toulouse-quel-quartier-budget-2026",
+      "investissement-locatif-moins-100000-euros-france-2026",
+      "quitter-toulouse-guide-2026",
+      "vivre-sans-voiture-toulouse-guide-2026",
+      "meilleures-villes-entrepreneurs-startups-france-2026",
+    ],
+    tags: ["investir Toulouse", "Toulouse", "Rangueil", "investissement locatif", "LMNP", "rendement", "aéronautique"],
+  },
+  {
+    slug: "investir-locatif-montpellier-2026",
+    title: "Investir en locatif à Montpellier en 2026 — rendement, quartiers, fiscalité",
+    metaTitle: "Investir locatif Montpellier 2026 : Hôpitaux-Facultés, Cévennes — guide",
+    metaDesc:
+      "Investir locatif Montpellier 2026 : rendement brut/net par quartier, fiscalité, quartiers à viser (Hôpitaux-Facultés, Cévennes, Antigone).",
+    category: "budget",
+    emoji: "🎓",
+    readMinutes: 8,
+    publishedAt: "2026-05-13",
+    updatedAt: "2026-05-13",
+    intro:
+      "Montpellier est la ville française la plus dynamique démographiquement (+0,9 %/an), avec 80 000 étudiants et un marché locatif tendu. Rendement brut moyen ~5,5 %, jusqu'à ~6,5 % proche facultés. Voici la lecture 2026.",
+    sections: [
+      {
+        heading: "Le marché montpelliérain 2026",
+        body: "Volumes : ~5 800 transactions/an intra-muros. Prix médian T2 ~170 k€, T3 ~250 k€, T4 ~340 k€. Loyer médian T2 ~700 €, T3 ~920 €. Rendement brut médian ~5,5 %, amplitude 4,2 % (Comédie prime) à 6,8 % (Hôpitaux-Facultés étudiant). Demande locative très forte : 80 000 étudiants + 7 000 nouveaux habitants/an. Pas d'encadrement loyers à Montpellier (à date).",
+      },
+      {
+        heading: "Top quartiers pour rendement",
+        body: "(1) Hôpitaux-Facultés — quartier étudiant par excellence (Université Montpellier, fac de médecine). T1 ~95 k€, loyer ~500 €, brut ~6,3 %. T2 ~150 k€, loyer ~700 €, brut ~5,6 %. (2) Cévennes-Saint-Martin — gentrification en cours, tram L1. T2 ~150 k€, loyer ~680 €, brut ~5,4 %. (3) Port-Marianne sud — neufs constructions, tram L3. T2 ~190 k€, loyer ~820 €, brut ~5,2 %. (4) Aiguelongue — résidentiel, écoles, locataires familles. T3 ~240 k€, loyer ~990 €, brut ~5 %.",
+      },
+      {
+        heading: "Quartiers à éviter pour investissement",
+        body: "Comédie-Préfecture prime : rendement faible (~4,2 %), peu de marge, saisonnalité touristique. Écusson centre : étroite offre, parquet ancien souvent dégradé. Mosson/La Paillade : prix bas mais sécurité ressentie variable, locataires souvent fragiles fiscalement, valeur revente incertaine.",
+      },
+      {
+        heading: "Fiscalité réelle Montpellier 2026",
+        body: "T2 Montpellier loyer 700 €/mois (= 8 400 €/an). LMNP micro-BIC : abattement 50 % → base 4 200 €. TMI 30 % + PS 17,2 % : impôt ~1 980 €/an. Taxe foncière Montpellier T2 ~800-1 050 €/an. Charges copropriété non récup. : ~450-750 €/an. Vacance ~3-4 % (marché tendu). Rendement net réel : ~4-5 %.",
+      },
+      {
+        heading: "Pièges classiques Montpellier",
+        body: "(1) Construction neuve années 2010-2020 parfois rapide et mal isolée — vérifier DPE et copropriété. (2) Climatisation incontournable (45 jours/an >30 °C) — biens sans clim de moins en moins louables. (3) Saisonnalité étudiante (sept-juin) — anticiper vacance été 1-2 mois selon quartier. (4) Port-Marianne neuf : copropriétés jeunes avec charges progressives — vérifier les budgets prévisionnels. (5) Hôpitaux-Facultés saturé en offre étudiante — différencier par cuisine équipée, mobilier qualité, balcon.",
+      },
+      {
+        heading: "Le calcul honnête : Montpellier vs alternatives",
+        body: "Montpellier offre l'un des meilleurs profils rendement+plus-value parmi les grandes villes françaises grâce à sa démographie. Risque : surchauffe immobilière 2010-2023 a tiré les prix vers le haut, certains biens neufs sont surévalués vs ancien. Pour rendement brut max : Hôpitaux-Facultés (étudiants), Cévennes (gentrification). Plus-value 10 ans : Port-Marianne (transformation continue), Cévennes (tram, requalification). Comparaison : Montpellier > Toulouse en démographie, < Bordeaux en marché cadre privé. Choix solide pour investisseur 10+ ans.",
+      },
+    ],
+    relatedCities: ["montpellier", "nimes", "beziers", "narbonne", "sete"],
+    relatedGuides: [
+      "acheter-a-montpellier-quel-quartier-budget-2026",
+      "investissement-locatif-moins-100000-euros-france-2026",
+      "quitter-montpellier-guide-2026",
+      "vivre-sans-voiture-montpellier-guide-2026",
+      "perpignan-vs-montpellier-comparatif-2026",
+    ],
+    tags: ["investir Montpellier", "Montpellier", "Hôpitaux-Facultés", "investissement locatif", "LMNP", "rendement", "étudiant"],
+  },
+  {
+    slug: "investir-locatif-rennes-2026",
+    title: "Investir en locatif à Rennes en 2026 — rendement, quartiers, fiscalité",
+    metaTitle: "Investir locatif Rennes 2026 : Villejean, Maurepas, Beaulieu — guide",
+    metaDesc:
+      "Investir locatif Rennes 2026 : rendement brut/net par quartier, fiscalité LMNP, quartiers à viser (Villejean, Maurepas, Beaulieu).",
+    category: "budget",
+    emoji: "📚",
+    readMinutes: 8,
+    publishedAt: "2026-05-13",
+    updatedAt: "2026-05-13",
+    intro:
+      "Rennes combine marché de l'emploi cadre dynamique (numérique, télécom) et population étudiante massive (~70 000 étudiants), offrant un marché locatif solide. Rendement brut moyen ~5 %, jusqu'à ~6 % proche universités. Voici la lecture 2026.",
+    sections: [
+      {
+        heading: "Le marché rennais 2026",
+        body: "Volumes : ~3 800 transactions/an intra-muros. Prix médian T2 ~155 k€, T3 ~230 k€, T4 ~320 k€. Loyer médian T2 ~610 €, T3 ~820 €. Rendement brut médian ~5 %, amplitude 4 % (Thabor prime) à 6,2 % (Villejean étudiant). Demande locative très forte : 70 000 étudiants + jeunes actifs tech. Pas d'encadrement loyers à Rennes (à date).",
+      },
+      {
+        heading: "Top quartiers pour rendement",
+        body: "(1) Villejean-Beauregard — quartier étudiant Université Rennes 1/2. T1 ~85 k€, loyer ~450 €, brut ~6,4 %. T2 ~130 k€, loyer ~580 €, brut ~5,4 %. Métro b direct centre. (2) Beaulieu — campus universitaire huppé. T2 ~150 k€, loyer ~620 €, brut ~5 %. Locataires étudiants supérieurs. (3) Maurepas-Bellangerais — gentrification, métro b. T2 ~135 k€, loyer ~590 €, brut ~5,2 %. (4) Cleunay-Arsenal — tram nouveau, requalification. T2 ~145 k€, loyer ~620 €, brut ~5,1 %.",
+      },
+      {
+        heading: "Quartiers à éviter pour investissement",
+        body: "Centre Sainte-Anne-Saint-Sauveur prime : rendement faible (~4 %), saisonnalité touristique. Thabor-Saint-Hélier : résidentiel familial premium, peu de locatif, rendement ~4,2 %. Bréquigny sud-ouest : marché locatif moins liquide.",
+      },
+      {
+        heading: "Fiscalité réelle Rennes 2026",
+        body: "T2 Rennes loyer 610 €/mois (= 7 320 €/an). LMNP micro-BIC : abattement 50 % → base 3 660 €. TMI 30 % + PS 17,2 % : impôt ~1 720 €/an. Taxe foncière Rennes T2 ~700-900 €/an. Charges copropriété non récup. : ~400-650 €/an. Vacance ~3-4 %. Rendement net réel : ~3,8-4,8 %.",
+      },
+      {
+        heading: "Pièges classiques Rennes",
+        body: "(1) Climat humide — vérifier isolation et ventilation (humidité fréquente parc ancien). (2) Saisonnalité étudiante — vacance été 1-2 mois sur certains studios Villejean. (3) Métro b prolongement vers Chantepie (2025) renforce sud-est — opportunité d'achat avant prime de transport. (4) Pas d'encadrement à date mais loi possible si pression locative continue — anticiper en simulation. (5) Marché numérique cyclique — diversification locataires recommandée (étudiants + jeunes actifs + familles).",
+      },
+      {
+        heading: "Le calcul honnête : Rennes vs alternatives",
+        body: "Rennes offre un profil rendement+plus-value équilibré : tissu d'emploi cadre solide (numérique, télécom, biotech), démographie soutenue, TGV Paris 1h25 attractif. Pour rendement brut max : Villejean, Maurepas. Plus-value 10 ans : Maurepas (gentrification métro b), Cleunay (tram, requalification). Comparaison : Rennes < Bordeaux en prix d'achat (donc meilleurs rendements), > Caen en dynamisme économique, = Nantes en marché cadre. Profil solide pour investisseur 8-15 ans.",
+      },
+    ],
+    relatedCities: ["rennes", "saint-malo", "vannes", "nantes", "brest"],
+    relatedGuides: [
+      "acheter-a-rennes-quel-quartier-budget-2026",
+      "investissement-locatif-moins-100000-euros-france-2026",
+      "quitter-rennes-guide-2026",
+      "vivre-sans-voiture-rennes-guide-2026",
+      "nantes-vs-rennes-comparatif-2025",
+    ],
+    tags: ["investir Rennes", "Rennes", "Villejean", "Maurepas", "investissement locatif", "LMNP", "rendement", "Bretagne"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
