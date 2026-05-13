@@ -12611,6 +12611,153 @@ export const GUIDES: Guide[] = [
     tags: ["acheter à Montpellier", "Montpellier", "immobilier", "Antigone", "Port-Marianne", "Boutonnet", "Hérault", "primo-accédant"],
   },
   {
+    slug: "climat-2040-sud-est-mediterraneen-france",
+    title: "Climat 2040 dans le Sud-Est méditerranéen — où vivre face à la canicule ?",
+    metaTitle: "Climat 2040 Sud-Est : Marseille, Montpellier, Nice, canicule, sécheresse — guide",
+    metaDesc:
+      "Le Sud-Est méditerranéen face à 2040 : canicules à 45°C, sécheresses, incendies, montée Méditerranée. Où vivre, où adapter, où partir. Analyse honnête.",
+    category: "lifestyle",
+    emoji: "🥵",
+    readMinutes: 8,
+    publishedAt: "2026-05-13",
+    updatedAt: "2026-05-13",
+    intro:
+      "Le Sud-Est méditerranéen est l'une des zones d'Europe où le réchauffement climatique se manifeste le plus vite : +2,5 °C déjà observés depuis 1900 (vs +1,4 °C moyenne France), trajectoire vers +4 à +5 °C d'ici 2100. Pour 2040, les projections Météo-France sont déjà très tangibles. Voici ce que ça change concrètement pour qui veut vivre là.",
+    sections: [
+      {
+        heading: "Ce qui change d'ici 2040 (projections Météo-France ARPEGE)",
+        body: "Vagues de chaleur : Marseille passera de ~12 jours/an >30 °C (moyenne 1981-2010) à ~50 jours/an d'ici 2040, dont 5-10 jours >35 °C. Avignon et Carcassonne : 60+ jours/an >30 °C. Nuits tropicales (>20 °C) : 30-50/an, jusqu'à 80 à Marseille. Sécheresse : précipitations en baisse de 15-25 % en été, restrictions d'eau permanentes l'été dans le Var, Bouches-du-Rhône, Vaucluse, PyO. Incendies : durée saison feux doublée (avril-octobre), surfaces brûlées +30 %.",
+      },
+      {
+        heading: "Villes les plus exposées",
+        body: "(1) Marseille — îlot de chaleur urbain dans certains quartiers (Belsunce, Saint-Charles ~+5 °C vs littoral). Eau garantie via Canal de Provence mais coûts en hausse. (2) Avignon, Carcassonne, Béziers — chaleurs extrêmes, intérieur des terres, peu de brise marine. (3) Nice, Cannes, Antibes — moins chaud que l'intérieur mais densité urbaine et montée du niveau de la mer (+15-25 cm d'ici 2050) affectent le front de mer. (4) Perpignan et Roussillon — sécheresse forte, restrictions eau, tramontane sèche aggrave.",
+      },
+      {
+        heading: "Villes mieux adaptées (relativement)",
+        body: "(1) Aix-en-Provence — altitude légère (~170 m), végétation, étalement urbain modéré. Plus tenable que Marseille en pic canicule. (2) Manosque, Sisteron, Digne — altitude (300-600 m), brise montagne, plus frais que la plaine. (3) Gap (~735 m) — climat encore continental tempéré, refuge classique pour Provençaux fuyant la canicule. (4) Carros, Vence, Saint-Paul-de-Vence — arrière-pays niçois en altitude, plus tempéré. Limite : ces zones ont une saisonnalité touristique forte et un foncier rare.",
+      },
+      {
+        heading: "Adaptations stratégiques pour acheter ici en 2026-2030",
+        body: "(1) Climatisation et isolation thermique non-négociables — un logement classe énergétique E/F/G dans le Sud-Est sera invivable estival d'ici 2035. Privilégier DPE A-C, climatisation réversible (pompe à chaleur). (2) Exposition critique — éviter façades sud-ouest sans débord/volets. Privilégier orientation est, ou sud avec véranda/loggia. (3) Espaces verts privés (jardin, terrasse arborée) — refroidissement naturel essentiel. Le rez-de-chaussée avec petit jardin vaut souvent mieux que dernier étage exposé. (4) Eau — vérifier alimentation (Canal de Provence, Verdon, etc.), restrictions historiques de la commune.",
+      },
+      {
+        heading: "Profils qui devraient envisager partir",
+        body: "(1) Personnes âgées avec maladies chroniques (insuffisance respiratoire, cardiaque) — la canicule devient mortelle progressivement. (2) Familles avec très jeunes enfants si logement non-clim. (3) Asthmatiques sévères — pics ozone et pollens en hausse. (4) Profils sans capacité d'investir dans l'adaptation (isolation, clim) à logement de location DPE médiocre. Alternatives Sud doux : façade Atlantique (Bayonne, La Rochelle), Bretagne (Quimper, Vannes), Auvergne (Clermont-Ferrand).",
+      },
+      {
+        heading: "Le calcul honnête : rester ou partir ?",
+        body: "Rester si : on accepte d'investir dans l'adaptation (climatisation, isolation, jardin/terrasse), on n'a pas de fragilité santé, et on apprécie d'autres atouts (mer, culture, gastronomie) suffisamment pour compenser. Partir si : achat sans budget adaptation, fragilité santé, ou famille avec très jeunes enfants. Penser long terme : un bien dans le Sud-Est sera de plus en plus valorisé par son adaptabilité plutôt que par sa proximité mer. Acheter en 2026 sans clim = revente compliquée d'ici 2035.",
+      },
+    ],
+    relatedCities: ["marseille", "aix-en-provence", "avignon", "montpellier", "nice"],
+    relatedGuides: [
+      "ou-vivre-france-meteo-qualite-air-2026",
+      "quitter-marseille-guide-2026",
+      "teletravailler-depuis-provence-guide-2026",
+      "meilleures-villes-zero-dechet-ecologie-france-2026",
+      "expatries-retour-france-quelle-ville-2026",
+    ],
+    tags: ["climat 2040", "canicule", "Sud-Est", "Méditerranée", "réchauffement", "adaptation climat", "DPE", "Marseille"],
+  },
+  {
+    slug: "climat-2040-facade-atlantique-france",
+    title: "Climat 2040 sur la façade Atlantique — montée des eaux, tempêtes, submersion ?",
+    metaTitle: "Climat 2040 Atlantique : Bordeaux, La Rochelle, Bretagne, submersion — guide",
+    metaDesc:
+      "La façade Atlantique face à 2040 : montée du niveau marin, tempêtes plus intenses, érosion côtière. Où vivre, où éviter, comment adapter. Analyse honnête.",
+    category: "lifestyle",
+    emoji: "🌊",
+    readMinutes: 8,
+    publishedAt: "2026-05-13",
+    updatedAt: "2026-05-13",
+    intro:
+      "La façade Atlantique française est exposée à trois menaces convergentes d'ici 2040 : montée du niveau marin (+15 à +25 cm projetés), tempêtes hivernales plus intenses (Xynthia 2010 deviendra fréquente), érosion côtière (jusqu'à 1-3 m/an dans certains secteurs). Pour ceux qui visent l'Atlantique pour son climat plus doux que la Méditerranée, voici les vrais arbitrages 2040.",
+    sections: [
+      {
+        heading: "Ce qui change d'ici 2040",
+        body: "Montée marine : +15 à +25 cm d'ici 2050, +30 à +60 cm d'ici 2100 (rapport GIEC + Cerema). Submersion marine : zones à risque (PPRL) s'étendent — Charente-Maritime, baie de Bourgneuf, Cotentin, Médoc. Érosion côtière : Aquitaine (Lacanau, Soulac, Capbreton) perd 0,5-3 m/an sur certains secteurs. Tempêtes : intensité accrue, fréquences cycloniques sub-tropicales. Pluviométrie : +5-10 % hiver, -10 % été (sécheresses estivales notables Charente-Maritime, Vendée, Pays de Loire).",
+      },
+      {
+        heading: "Zones à éviter pour 2040+",
+        body: "(1) Île de Ré, Île d'Oléron — fortement exposées, biens en zone submersible perdent valeur. PPRL durcit progressivement les constructibilités. (2) Baie de l'Aiguillon, Marennes-Oléron, Médoc — submersion historique 2010 (Xynthia) confirme vulnérabilité. (3) Front de mer Lacanau, Soulac, Capbreton, Hossegor — érosion massive, certaines constructions menacées d'effondrement (Le Signal, Soulac). (4) Cotentin (Manche, Calvados) — secteurs polders à risque submersion.",
+      },
+      {
+        heading: "Zones bien situées Atlantique",
+        body: "(1) Bordeaux centre — situé à 25 km de l'estuaire et 5-10 m d'altitude, très peu exposé. Excellente position 2040. (2) Nantes centre — protégée par estuaire, altitude variable mais centre élevé. (3) Rennes — intérieur Bretagne, aucune exposition mer directe. (4) Brest, Lorient, Vannes — protégées par rade ou estuaire, altitude correcte pour quartiers en hauteur. (5) Poitiers, Tours, Angers — intérieur, aucune exposition mais climat océanique. (6) La Rochelle centre intra-muros — protégée par anciennes fortifications, mais vérifier strictement le PPRL.",
+      },
+      {
+        heading: "Ce qui change pour le climat à terre (Atlantique douce)",
+        body: "Bonne nouvelle : la façade Atlantique reste tempérée d'ici 2040 contrairement au Sud-Est. Bordeaux : ~25 jours/an >30 °C en 2040 (vs ~10 aujourd'hui), donc loin des 50+ de Marseille. Nantes, Rennes, Brest : 5-15 jours/an >30 °C — climat encore très tenable. Précipitations en hausse hivernale = bon pour l'eau. Pluies brutales (épisodes méditerranéens élargis) — risque inondations terrestres dans certaines vallées Charente, Sèvre.",
+      },
+      {
+        heading: "Adaptations stratégiques achat 2026-2030",
+        body: "(1) Vérifier impérativement le PPRL (Plan de Prévention des Risques Littoraux) avant tout achat dans une commune côtière. Document public en mairie ou Géoportail. Une maison classée 'aléa fort submersion' perdra valeur d'ici 2040. (2) Altitude minimale recommandée : 5 m NGF dans un rayon de 1 km du trait de côte. (3) Distance recul trait de côte : minimum 100 m pour Aquitaine sableuse, 50 m pour falaises bretonnes/normandes. (4) Vérifier historique inondations communales (Géorisques.gouv.fr). (5) Privilégier centres anciens établis depuis 200+ ans (érosion déjà filtrée) plutôt que lotissements années 1970 sur dunes.",
+      },
+      {
+        heading: "Le calcul honnête : Atlantique 2040 reste un bon choix, à condition de bien choisir",
+        body: "Globalement, l'Atlantique reste l'une des meilleures façades climatiques française pour 2040. Climat doux, eau disponible, biodiversité préservée. Le risque clé : achat mal positionné côté trait de côte. Conseils synthèse : (1) Préférer centres bordelais/nantais/rennais et villes intérieures atlantique vs front de mer direct. (2) Si front de mer : Vannes, Brest centre, Quimper, Lorient (rades protégées) plutôt qu'Aquitaine sableuse. (3) Vérifier PPRL, altitude, recul côte. (4) Investir maintenant dans communes 2-5 km arrière-pays côtier souvent plus rentable et plus sûr.",
+      },
+    ],
+    relatedCities: ["bordeaux", "nantes", "la-rochelle", "rennes", "brest"],
+    relatedGuides: [
+      "ou-vivre-france-meteo-qualite-air-2026",
+      "vivre-en-charente-maritime-guide-2026",
+      "teletravailler-depuis-nouvelle-aquitaine-guide-2026",
+      "villes-cotieres-teletravail-connexion-cadre-2026",
+      "vivre-en-bretagne-interieure-guide-2026",
+    ],
+    tags: ["climat 2040", "Atlantique", "montée des eaux", "submersion", "érosion côtière", "PPRL", "réchauffement"],
+  },
+  {
+    slug: "climat-2040-ile-de-france-paris",
+    title: "Climat 2040 en Île-de-France — canicule urbaine, où vivre dans le Grand Paris ?",
+    metaTitle: "Climat 2040 Île-de-France : Paris, canicule, îlot chaleur urbain — guide",
+    metaDesc:
+      "L'Île-de-France face à 2040 : canicules à 42°C, nuits tropicales, îlot de chaleur urbain Paris. Où vivre, comment s'adapter, quels quartiers privilégier.",
+    category: "lifestyle",
+    emoji: "🌡️",
+    readMinutes: 8,
+    publishedAt: "2026-05-13",
+    updatedAt: "2026-05-13",
+    intro:
+      "L'Île-de-France connaîtra d'ici 2040 des étés méditerranéens : 30-40 jours/an >30 °C, 5-10 jours >35 °C, et un effet îlot de chaleur urbain qui peut ajouter +6 à +8 °C dans certains quartiers parisiens vs banlieue verte. Pour 12 millions d'habitants, l'enjeu d'adaptation est massif. Voici les vrais arbitrages 2040.",
+    sections: [
+      {
+        heading: "Ce qui change d'ici 2040",
+        body: "Vagues de chaleur Paris : ~10 jours/an >30 °C aujourd'hui → ~35 jours/an en 2040, dont 5-8 jours >35 °C. Nuits tropicales : 5-15/an, jusqu'à 25 dans le centre. Canicule 2003 (60 000 morts en Europe, 15 000 France) deviendra fréquente. Précipitations : variabilité accrue (orages plus violents, sécheresses estivales). Îlot de chaleur urbain (ICU) : centre Paris +5 à +8 °C vs banlieue boisée pendant canicule nocturne. Effet observé déjà — Marolles 1900, Paris-Centre +8 °C vs Forêt de Saint-Germain.",
+      },
+      {
+        heading: "Quartiers parisiens les plus vulnérables canicule",
+        body: "(1) 11e, 10e Est, 19e Est, 20e — densité maximale, peu d'arbres, peu d'eau. (2) Bercy, Tolbiac, Quai d'Ivry — proximité Seine mais béton omniprésent. (3) 17e Batignolles secteur ancien — densité forte. (4) 13e Olympiades — tours, manque d'arbres. Mortalité canicule 2003 fortement corrélée à densité+âge+absence ventilation. Les biens ancien parisien (HSP basses, fenêtres uniques) sont mal adaptés.",
+      },
+      {
+        heading: "Quartiers parisiens mieux adaptés",
+        body: "(1) 16e Auteuil, Muette — proximité Bois de Boulogne (refuge thermique de 5-7 °C en canicule). (2) 12e Bercy/Bois de Vincennes — accès direct grand bois. (3) 7e (Champ de Mars + Esplanade), 5e (Jardin des Plantes), 6e (Jardin du Luxembourg) — densité d'espaces verts. (4) 14e Parc Montsouris secteur, 19e Buttes-Chaumont. (5) 15e Front de Seine façade ouest. Effet 'parc' mesuré : -3 à -5 °C ressenti vs rue minérale.",
+      },
+      {
+        heading: "Banlieue : les zones les plus refraichissantes",
+        body: "(1) Forêts directes : Fontainebleau (77), Saint-Germain (78), Sénart (91), Rambouillet (78), Chantilly (60) — différentiel thermique -5 à -8 °C en canicule. (2) Bord Seine élargi : Conflans, Andrésy, Triel — vent fluvial + verdure. (3) Plateau de Saclay, Versailles — altitude légère + parcs. (4) Vallée de la Bièvre (Bièvres, Massy) — corridor frais. Limite : ces zones cumulent beaucoup d'arbres mais demandent voiture/transport important pour Paris.",
+      },
+      {
+        heading: "Adaptations stratégiques achat 2026-2030 en Île-de-France",
+        body: "(1) DPE et isolation — un bien G/F sera quasi-invendable d'ici 2035 en plus d'être étouffant. Privilégier DPE A-C. (2) Climatisation — non-négociable d'ici 2035 pour Paris intra-muros. Pompe à chaleur réversible idéale. (3) Exposition — sud direct sans protection (volets, store extérieur, store-banne) devient un défaut majeur. Privilégier orientations est ou nord-est pour chambres. (4) Espaces verts proximité — un balcon arboré + Bois à <500 m vaut plus qu'un grand T3 sans extérieur. (5) Eau — climatiseurs et arrosage urbain augmentent demande. Communes anticipent restrictions. Forer un puits jardin = atout.",
+      },
+      {
+        heading: "Le calcul honnête : qui doit envisager partir ?",
+        body: "Partir si : on a fragilité santé respiratoire/cardiaque ; on a très jeunes enfants ; on loue/possède dans Paris dense sans climatisation et sans budget adaptation. Adapter et rester si : on peut investir dans clim+isolation ; on aime Paris pour autres raisons ; on a accès facile à un Bois/parc majeur. Alternatives France climat tempéré : Rennes, Brest, Nantes, La Rochelle (Atlantique doux). Alternatives Île-de-France verte : Saint-Germain-en-Laye, Fontainebleau, Marly, Versailles élargi.",
+      },
+    ],
+    relatedCities: ["paris", "versailles", "vincennes", "fontainebleau", "boulogne-billancourt"],
+    relatedGuides: [
+      "ou-vivre-france-meteo-qualite-air-2026",
+      "quitter-paris-guide-2025",
+      "vivre-au-vert-pres-de-paris-1h-2026",
+      "teletravailler-grande-couronne-ile-de-france-2026",
+      "acheter-a-paris-quel-quartier-budget-2026",
+    ],
+    tags: ["climat 2040", "Île-de-France", "Paris", "canicule", "îlot chaleur urbain", "Bois", "réchauffement", "DPE"],
+  },
+  {
     slug: "vivre-au-vert-pres-de-paris-1h-2026",
     title: "Vivre au vert près de Paris en 2026 — top villes à 1h maximum",
     metaTitle: "Vivre au vert près de Paris 2026 : Fontainebleau, Provins, Senlis, Chartres — guide",
