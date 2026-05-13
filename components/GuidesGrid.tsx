@@ -1,6 +1,7 @@
 "use client";
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import Link from "next/link";
+import { Search, X } from "lucide-react";
 import { GuideCard } from "@/components/GuideCard";
 import { Badge } from "@/components/ui/Badge";
 import { cn } from "@/lib/utils";
@@ -11,18 +12,75 @@ interface Props {
   guides: Guide[];
 }
 
+// Lightweight string normalisation: lowercase + strip accents so "lycée"
+// matches "lycee" and "vélo" matches "velo". Avoids pulling in a fuzzy-search
+// library for a 285-item list.
+const normalize = (s: string) =>
+  s.toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, "");
+
 export function GuidesGrid({ guides }: Props) {
   const [activeCategory, setActiveCategory] = useState<string>("all");
+  const [query, setQuery] = useState("");
+  const q = normalize(query.trim());
 
+  // Search index built once per guides[] reference (effectively once at module
+  // load, given the list comes from a static import).
+  const searchIndex = useMemo(
+    () =>
+      guides.map((g) => ({
+        guide: g,
+        haystack: normalize(
+          [g.title, g.intro, g.tags?.join(" ") ?? "", g.slug, g.category].join(" ")
+        ),
+      })),
+    [guides]
+  );
+
+  const categoryMatches =
+    activeCategory === "all"
+      ? guides
+      : guides.filter((g) => g.category === activeCategory);
+
+  const searchMatches = q
+    ? searchIndex.filter((x) => x.haystack.includes(q)).map((x) => x.guide)
+    : null;
+
+  const intersect = searchMatches
+    ? categoryMatches.filter((g) => searchMatches.includes(g))
+    : categoryMatches;
+
+  // Featured slot only when nothing is being narrowed down.
+  const showFeatured = activeCategory === "all" && !q;
   const featured = guides[0];
-  const filtered = activeCategory === "all"
-    ? guides.slice(1)
-    : guides.filter((g) => g.category === activeCategory);
-
-  const showFeatured = activeCategory === "all";
+  const filtered = showFeatured ? intersect.slice(1) : intersect;
 
   return (
     <div className="space-y-10">
+      {/* Search input */}
+      <div className="relative">
+        <Search
+          className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-[var(--text-tertiary)] pointer-events-none"
+          aria-hidden
+        />
+        <input
+          type="search"
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          placeholder={`Rechercher dans ${guides.length} guides — ville, thème, mot-clé...`}
+          aria-label="Rechercher dans les guides"
+          className="w-full rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] pl-10 pr-10 py-2.5 text-sm text-[var(--text-primary)] placeholder:text-[var(--text-tertiary)] focus:outline-none focus:border-[var(--accent)] focus:ring-2 focus:ring-[var(--accent)]/20 transition-colors"
+        />
+        {query && (
+          <button
+            onClick={() => setQuery("")}
+            aria-label="Effacer la recherche"
+            className="absolute right-3 top-1/2 -translate-y-1/2 rounded-full p-1 text-[var(--text-tertiary)] hover:text-[var(--text-primary)] hover:bg-[var(--bg-elevated)] transition-colors"
+          >
+            <X className="w-4 h-4" />
+          </button>
+        )}
+      </div>
+
       {/* Category filter pills */}
       <div className="flex flex-wrap gap-2">
         <button
@@ -96,7 +154,9 @@ export function GuidesGrid({ guides }: Props) {
       {/* Grid */}
       <div>
         <h2 className="text-xs uppercase tracking-widest text-[var(--text-tertiary)] font-semibold mb-4">
-          {activeCategory === "all"
+          {q
+            ? `${intersect.length} résultat${intersect.length > 1 ? "s" : ""} pour « ${query} »`
+            : activeCategory === "all"
             ? `Tous les guides (${guides.length})`
             : `${GUIDE_CATEGORIES.find(c => c.id === activeCategory)?.label} — ${filtered.length} guide${filtered.length > 1 ? "s" : ""}`
           }
