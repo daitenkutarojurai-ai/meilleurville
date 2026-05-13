@@ -42,6 +42,15 @@ export default async function GuidePage({ params }: Props) {
 
   const relatedGuides = GUIDES.filter((g) => guide.relatedGuides.includes(g.slug));
   const nextGuides = suggestNextGuides(guide, 3);
+
+  // Prev/next siblings within the same category, ordered by publish date so
+  // navigation feels editorial rather than alphabetical.
+  const siblings = GUIDES.filter((g) => g.category === guide.category).sort(
+    (a, b) => new Date(a.publishedAt).getTime() - new Date(b.publishedAt).getTime()
+  );
+  const idx = siblings.findIndex((g) => g.slug === guide.slug);
+  const prevGuide = idx > 0 ? siblings[idx - 1] : null;
+  const nextSibling = idx >= 0 && idx < siblings.length - 1 ? siblings[idx + 1] : null;
   const relatedCities = CITIES_SEED.filter((c) => guide.relatedCities.includes(c.slug));
   const catMeta = GUIDE_CATEGORIES.find((c) => c.id === guide.category);
 
@@ -221,6 +230,42 @@ export default async function GuidePage({ params }: Props) {
                   })}
                 </div>
               </div>
+            )}
+
+            {/* Prev / next within category */}
+            {(prevGuide || nextSibling) && (
+              <nav aria-label="Navigation guides" className="mt-10 grid sm:grid-cols-2 gap-3">
+                {prevGuide ? (
+                  <Link
+                    href={`/guides/${prevGuide.slug}`}
+                    rel="prev"
+                    className="group rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-4 hover:border-[var(--accent)] transition-colors"
+                  >
+                    <p className="text-[10px] uppercase tracking-widest text-[var(--text-tertiary)] font-semibold mb-1">
+                      ← Guide précédent
+                    </p>
+                    <p className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors leading-snug">
+                      {prevGuide.emoji} {prevGuide.title}
+                    </p>
+                  </Link>
+                ) : (
+                  <div />
+                )}
+                {nextSibling && (
+                  <Link
+                    href={`/guides/${nextSibling.slug}`}
+                    rel="next"
+                    className="group rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-4 hover:border-[var(--accent)] transition-colors sm:text-right"
+                  >
+                    <p className="text-[10px] uppercase tracking-widest text-[var(--text-tertiary)] font-semibold mb-1">
+                      Guide suivant →
+                    </p>
+                    <p className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors leading-snug">
+                      {nextSibling.emoji} {nextSibling.title}
+                    </p>
+                  </Link>
+                )}
+              </nav>
             )}
 
             {/* CTA after article */}
