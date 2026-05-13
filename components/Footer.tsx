@@ -24,6 +24,7 @@ const LINKS = {
     { label: "Confidentialité", href: "/confidentialite" },
     { label: "CGU", href: "/cgu" },
     { label: "FAQ", href: "/faq" },
+    { label: "Glossaire", href: "/glossaire" },
     { label: "Mentions légales", href: "/mentions-legales" },
   ],
 };
