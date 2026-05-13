@@ -25,6 +25,7 @@ const LINKS = {
     { label: "CGU", href: "/cgu" },
     { label: "FAQ", href: "/faq" },
     { label: "Glossaire", href: "/glossaire" },
+    { label: "Calendrier immobilier", href: "/calendrier-immobilier" },
     { label: "Mentions légales", href: "/mentions-legales" },
   ],
 };

@@ -64,6 +64,7 @@ function staticSection(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/carte`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.7 },
     { url: `${BASE_URL}/faq`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.5 },
     { url: `${BASE_URL}/glossaire`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.5 },
+    { url: `${BASE_URL}/calendrier-immobilier`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.5 },
     { url: `${BASE_URL}/mentions-legales`, lastModified: LEGAL_UPDATED, changeFrequency: "yearly", priority: 0.3 },
     { url: `${BASE_URL}/confidentialite`, lastModified: LEGAL_UPDATED, changeFrequency: "yearly", priority: 0.3 },
     { url: `${BASE_URL}/cgu`, lastModified: LEGAL_UPDATED, changeFrequency: "yearly", priority: 0.3 },
