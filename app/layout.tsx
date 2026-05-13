@@ -99,7 +99,7 @@ const organizationJsonLd = {
       publisher: { "@id": `${SITE_URL}#organization` },
       potentialAction: {
         "@type": "SearchAction",
-        target: { "@type": "EntryPoint", urlTemplate: `${SITE_URL}/villes?q={search_term_string}` },
+        target: { "@type": "EntryPoint", urlTemplate: `${SITE_URL}/recherche?q={search_term_string}` },
         "query-input": "required name=search_term_string",
       },
     },
