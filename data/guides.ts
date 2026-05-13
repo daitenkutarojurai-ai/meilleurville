@@ -11373,6 +11373,251 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["quitter Le Mans", "Le Mans", "Sarthe", "TGV Paris", "Pays de la Loire", "24 Heures du Mans", "déménagement"],
   },
+  {
+    slug: "vivre-sans-voiture-paris-guide-2026",
+    title: "Vivre sans voiture à Paris en 2026 — vraiment possible ?",
+    metaTitle: "Vivre sans voiture à Paris 2026 : métro, vélo, Vélib, autopartage — guide",
+    metaDesc:
+      "Paris est la ville la plus compatible no-car de France. Le vrai chiffrage : transports, autopartage, livraisons, week-ends. Combien on économise vraiment.",
+    category: "lifestyle",
+    emoji: "🚇",
+    readMinutes: 7,
+    publishedAt: "2026-05-13",
+    updatedAt: "2026-05-13",
+    intro:
+      "Paris est la grande ville française la plus simple à vivre sans voiture : 14 lignes de métro, 5 RER, 8 tramways, ~200 km de pistes cyclables sécurisées, Vélib' à 47 €/an, autopartage Citiz/Free2Move présent partout. Mais «sans voiture» ne veut pas dire «sans coût mobilité». Voici le vrai chiffrage 2026 et les écueils.",
+    sections: [
+      {
+        heading: "Budget mobilité no-car à Paris : le vrai chiffrage",
+        body: "Navigo annuel 2026 : ~925 €/an (toutes zones), soit 77 €/mois pris en charge à 50 % par l'employeur (~38 € reste à charge). Vélib' annuel V-Plus : ~47 €/an. Autopartage occasionnel (Citiz, Free2Move) : ~10 trajets/an × 20 € = 200 €/an. SNCF Avantage Adulte : 49 €/an, économie réelle ~30 % sur week-ends province. Total mobilité annuelle no-car parisien : ~700–900 € après remboursement employeur. À comparer aux ~5 200 €/an coût total d'une voiture parisienne (assurance, carburant, parking, entretien, dépréciation). Économie nette : 4 000–4 500 €/an.",
+      },
+      {
+        heading: "Les quartiers les plus no-car friendly",
+        body: "Le top : 3e, 4e, 5e, 6e, 10e, 11e arrondissements — densité commerces/services à pied maximale, accès métro <300 m, scène piétonne (rue Mouffetard, Marais, canal Saint-Martin). Très bons : 1er, 2e, 9e, 12e, 14e, 18e (Montmartre limite à cause des dénivelés). Moins bons no-car : 13e sud (proche Porte de Choisy), 15e périphérie, 16e nord (densité commerces irrégulière), 19e Buttes-Chaumont (vélo dur en hiver). Petite couronne : Levallois, Boulogne-Billancourt, Vincennes, Saint-Mandé restent très praticables ; au-delà, le confort baisse.",
+      },
+      {
+        heading: "Les vrais problèmes opérationnels",
+        body: "(1) Courses lourdes — Carrefour, Auchan, Lidl proposent livraison à domicile (~7–10 €/courses, gratuit dès 80 € chez certains). Picard, Amazon Fresh, Monoprix Plus complètent. Le caddie 6 roues redevient un objet utile. (2) Bricolage / mobilier — Castorama et Leroy Merlin livrent ; Ikea Paris Madeleine pour les petits achats, livraison gros volume facturée ~40–80 €. (3) Enfants — école/crèche à pied = 95 % des familles parisiennes. Pour le sport (foot le samedi à Bois de Vincennes), Vélo + remorque ou métro suffisent. (4) Animaux — vétérinaire en taxi/Uber animal-friendly (~25 € le trajet) si pas de cabinet de quartier.",
+      },
+      {
+        heading: "Week-ends et vacances sans voiture",
+        body: "TGV vers province (Bordeaux 2h, Lyon 2h, Marseille 3h, Nantes 2h, Strasbourg 1h45) : couvre 80 % des destinations week-end. SNCF Connect + carte Avantage = budget annuel ~600–800 € pour 8 week-ends/an en couple. Autopartage Free2Move 24h–48h : ~80–130 €/jour, utile pour Normandie, Bourgogne, vallées. Location longue durée vacances été (Sixt, Hertz, Europcar) : 8 jours en août Côte d'Azur ~600 €. Total mobilité hors quotidien : ~1 500–2 200 €/an pour un couple sortant régulièrement. Reste profitable.",
+      },
+      {
+        heading: "Les pièges classiques",
+        body: "(1) Sous-estimer le confort psychologique de la voiture quand on a un bébé qui pleure la nuit — beaucoup reviennent à la voiture à l'arrivée du second enfant, par fatigue. (2) Pluie hivernale 4 mois/an — Vélib' devient pénible, parapluie + métro tiennent. (3) Domicile loin métro (>500 m) — Vélib' compense, mais les seniors ou les pluies refroidissent. (4) Famille en banlieue lointaine non desservie par RER — déplacements familiaux deviennent coûteux en taxi. (5) Métiers nécessitant des outils ou produits volumineux quotidiens (artisans, kinés mobiles) — sans voiture ne tient pas, à arbitrer professionnellement.",
+      },
+      {
+        heading: "Le calcul honnête : pour qui ça marche",
+        body: "Ça marche très bien pour : célibataires/couples actifs en intra-muros, télétravailleurs, parents jusqu'à 2 enfants en école parisienne, retraités urbains. Ça marche moins bien : familles avec 3+ enfants en activités banlieue, professionnels mobiles (commerciaux, artisans), personnes à mobilité réduite hors métro accessible (~10 % du métro est aux normes PMR). Avant de vendre la voiture, faire un test 6 mois en la laissant au garage — beaucoup constatent qu'ils s'en passent sans s'en apercevoir.",
+      },
+    ],
+    relatedCities: ["paris", "boulogne-billancourt", "vincennes", "levallois-perret", "nanterre"],
+    relatedGuides: [
+      "quitter-paris-guide-2025",
+      "meilleures-villes-cyclistes-france-2026",
+      "meilleures-villes-zero-dechet-ecologie-france-2026",
+      "teletravailler-grande-couronne-ile-de-france-2026",
+      "meilleures-villes-primo-accedants-france-2026",
+    ],
+    tags: ["vivre sans voiture", "Paris", "Navigo", "Vélib", "autopartage", "TGV", "mobilité", "écologie"],
+  },
+  {
+    slug: "vivre-sans-voiture-lyon-guide-2026",
+    title: "Vivre sans voiture à Lyon en 2026 — quartiers, transports, vrais coûts",
+    metaTitle: "Vivre sans voiture à Lyon 2026 : TCL, Vélo'v, autopartage Citiz — guide",
+    metaDesc:
+      "Lyon est la 2e ville française la plus compatible no-car. Métro, Vélo'v, Citiz, TER : ce que ça coûte vraiment et dans quels quartiers ça marche.",
+    category: "lifestyle",
+    emoji: "🚊",
+    readMinutes: 7,
+    publishedAt: "2026-05-13",
+    updatedAt: "2026-05-13",
+    intro:
+      "Lyon est la deuxième ville française la plus simple à vivre sans voiture : 4 lignes de métro, 7 lignes de tram, 2 funiculaires, Vélo'v (~5 000 vélos), réseau Citiz autopartage dense, TER vers toute la région. La ZFE-m métropolitaine renforce encore l'avantage no-car. Voici le vrai chiffrage 2026.",
+    sections: [
+      {
+        heading: "Budget mobilité no-car à Lyon",
+        body: "Abonnement TCL annuel 2026 : ~669 €/an (City Pass), remboursement employeur 50 % = ~28 €/mois reste à charge. Vélo'v annuel : ~38 €/an. Autopartage Citiz Lyon : adhésion + ~20 trajets occasionnels/an ~250 €. Carte Avantage Adulte SNCF + TER Rhône-Alpes : ~400 €/an pour week-ends province. Total no-car lyonnais : ~700–900 €/an après employeur. Coût total voiture à Lyon : ~4 800 €/an. Économie nette : ~4 000 €/an.",
+      },
+      {
+        heading: "Les quartiers les plus no-car friendly",
+        body: "Le top : Presqu'île (1er, 2e), Croix-Rousse pentes (1er), Vieux-Lyon (5e), Part-Dieu (3e), Guillotière (7e). Densité commerces et transports maximale, vélo praticable, marchés à pied. Bons : Monplaisir (8e), Brotteaux (6e), Confluence (2e sud). Moins bons : pentes Croix-Rousse hautes (montée dure à vélo en hiver), 9e Vaise/Gorge de Loup (correct mais distances plus longues), 8e Bachut (loin du métro). Banlieue : Villeurbanne très praticable, Caluire moins, Bron correct via tram T2.",
+      },
+      {
+        heading: "Les vrais problèmes opérationnels",
+        body: "(1) Courses lourdes — Carrefour, Auchan, Monoprix livrent ; Drive accessible à pied dans le centre. (2) Bricolage — Castorama Lyon Caluire et Leroy Merlin Saint-Genis-Laval livrent, sinon Citiz pour 2h le samedi matin. (3) Enfants — écoles à pied dans 80 % des cas, activités sportives accessibles via tram/métro. (4) Pollution pic hivernal Vallée du Rhône — vélo devient pénible ~10 jours/an, métro/tram compensent. (5) Sortie Beaujolais, Pilat, Monts d'Or — Citiz indispensable, location week-end fréquente.",
+      },
+      {
+        heading: "Week-ends et vacances",
+        body: "TGV vers Paris 2h, Marseille 1h45, Bordeaux 5h30 (long), Genève 1h45, Turin 4h. TER excellent vers Saint-Étienne (50 min), Grenoble (1h20), Annecy (2h), Chambéry (1h). Budget TER + Avantage : ~500 €/an pour 8 week-ends. Voiture location occasionnelle (montagne hiver, mer été) : ~500–800 €/an. Total mobilité hors quotidien : ~1 200–1 700 €/an.",
+      },
+      {
+        heading: "Pièges classiques",
+        body: "(1) Skier sans voiture — TER + navette stations possible (Lyon-Modane + bus, Lyon-Chambéry + bus, Lyon-Grenoble + bus) mais lourd avec matériel. Location 4×4 ponctuelle plus simple. (2) Enfants à activités banlieue (foot Décines OL Vallée, équitation Brindas) — devient pénible sans voiture. (3) Pollution pics Vallée du Rhône — Vélo'v devient pénible 5–10 jours/an, à anticiper. (4) Familles 3+ enfants — comme à Paris, les économies de voiture s'érodent avec la logistique.",
+      },
+      {
+        heading: "Pour qui ça marche",
+        body: "Excellent pour : actifs Presqu'île, télétravailleurs, étudiants, jeunes parents 1–2 enfants centre ville. Moins bon : familles activités multiples banlieue, métiers mobiles, weekend skieurs intensifs. Test recommandé : 6 mois sans voiture en gardant l'option Citiz avant de revendre.",
+      },
+    ],
+    relatedCities: ["lyon", "villeurbanne", "saint-etienne", "annecy", "grenoble"],
+    relatedGuides: [
+      "quitter-lyon-guide-2026",
+      "meilleures-villes-cyclistes-france-2026",
+      "lyon-vs-bordeaux-comparatif-2025",
+      "meilleures-villes-zero-dechet-ecologie-france-2026",
+      "dijon-vs-lyon-comparatif-2026",
+    ],
+    tags: ["vivre sans voiture", "Lyon", "TCL", "Vélo'v", "Citiz", "ZFE", "mobilité", "écologie"],
+  },
+  {
+    slug: "vivre-sans-voiture-strasbourg-guide-2026",
+    title: "Vivre sans voiture à Strasbourg en 2026 — la ville la plus vélo de France",
+    metaTitle: "Vivre sans voiture à Strasbourg 2026 : tram, vélo, Vélhop — guide",
+    metaDesc:
+      "Strasbourg a 600 km de pistes cyclables et 6 lignes de tram. C'est la ville française la plus vélo-compatible. Coûts, quartiers, écueils — guide 2026.",
+    category: "lifestyle",
+    emoji: "🚲",
+    readMinutes: 7,
+    publishedAt: "2026-05-13",
+    updatedAt: "2026-05-13",
+    intro:
+      "Strasbourg est la ville française avec la part modale vélo la plus élevée (~16 % des déplacements, premier rang national). 600 km de pistes cyclables sécurisées, 6 lignes de tram desservant la Ville-Neuve, La Robertsau, Kœnigshoffen, Esplanade, Vélhop en libre-service. La ZFE strasbourgeoise rend l'usage voiture quotidien progressivement contraint. Voici le vrai bilan 2026.",
+    sections: [
+      {
+        heading: "Budget mobilité no-car à Strasbourg",
+        body: "Abonnement CTS annuel 2026 : ~520 €/an (Pass'Mensuel), remboursement employeur 50 %. Vélhop longue durée 1 mois : ~30 €/mois, soit ~360 €/an si pris en continu — mais la plupart des Strasbourgeois ont leur propre vélo (achat ~600 € amorti sur 5 ans = 120 €/an). Citiz Strasbourg : ~250 €/an en usage occasionnel. Total no-car strasbourgeois : ~600–800 €/an. Coût voiture local : ~4 200 €/an. Économie : ~3 500 €/an.",
+      },
+      {
+        heading: "Quartiers no-car friendly",
+        body: "Top : Centre (Grande Île UNESCO), Krutenau, Neudorf, Esplanade, Tribunal. Petite-France piétonne. Densité commerces maximale, tram à 5 min, vélo praticable toute l'année (sauf grand froid hiver). Bons : Robertsau (tram E), Kœnigshoffen (tram F), Cronenbourg, Neuhof centre. Plus difficiles : Hautepierre périphérique (vélo + tram tient mais distance pèse), Wacken hors événements. Banlieue : Schiltigheim, Bischheim, Illkirch très praticables grâce au tram et aux pistes cyclables.",
+      },
+      {
+        heading: "Problèmes opérationnels",
+        body: "(1) Hiver — neige rare mais verglas occasionnel, vélo praticable avec pneus cloutés ou tram. (2) Courses lourdes — Carrefour, Cora, Lidl livrent, vélo cargo (Vélhop XL en libre-service) couvre. (3) Bricolage — Castorama Hautepierre accessible en tram + Vélhop XL retour. (4) Enfants — école à pied/vélo 90 % cas. (5) Sorties Alsace rurale (Route des Vins, Vosges) — TER Mulhouse/Colmar/Sélestat couvre 70 %, autopartage pour le reste.",
+      },
+      {
+        heading: "Week-ends et vacances",
+        body: "TGV Paris 1h45, Lyon 3h30, Marseille 5h, Francfort 2h, Bruxelles 4h. TER excellent vers Colmar (30 min), Mulhouse (50 min), Bâle (1h20), Sarrebruck (1h). Avantage SNCF + TER fluo Alsace : ~400 €/an. Allemagne proche (Kehl à pied/tram). Total mobilité hors quotidien : ~1 000–1 500 €/an.",
+      },
+      {
+        heading: "Pièges classiques",
+        body: "(1) Hiver Plaine d'Alsace — brouillard givrant fait reculer beaucoup de vélocyclistes occasionnels ~15 jours/an. (2) Familles habitant Bischwiller/Haguenau et travaillant Strasbourg — TER fonctionne mais navette parents-enfants compliquée sans voiture. (3) Ski Vosges (Champ du Feu, Lac Blanc, Schlucht) — bus ski station Strasbourg saisonnier seulement, location week-end nécessaire. (4) Cyclisme intensif quotidien — pluies et vent automnal cumulés peuvent décourager après 2–3 ans.",
+      },
+      {
+        heading: "Pour qui ça marche",
+        body: "Excellent pour : tous profils centre + petite couronne (Schiltigheim, Illkirch). Bon pour : couples actifs avec 1–2 enfants en école Strasbourg. Moins bon : familles activités étendues + Vosges intensives. Strasbourg détient le taux d'abandon volontaire de la voiture le plus élevé de France — la ville convertit ses arrivants.",
+      },
+    ],
+    relatedCities: ["strasbourg", "haguenau", "colmar", "mulhouse"],
+    relatedGuides: [
+      "quitter-strasbourg-guide-2026",
+      "meilleures-villes-cyclistes-france-2026",
+      "vivre-en-alsace-guide-2026",
+      "teletravailler-depuis-grand-est-guide-2026",
+      "meilleures-villes-zero-dechet-ecologie-france-2026",
+    ],
+    tags: ["vivre sans voiture", "Strasbourg", "vélo", "CTS", "Vélhop", "Alsace", "ZFE", "mobilité"],
+  },
+  {
+    slug: "vivre-sans-voiture-bordeaux-guide-2026",
+    title: "Vivre sans voiture à Bordeaux en 2026 — tram, vélo, Yego",
+    metaTitle: "Vivre sans voiture à Bordeaux 2026 : TBM, V³, Yego, Citiz — guide",
+    metaDesc:
+      "Bordeaux est devenue très compatible no-car grâce au tram et au vélo. Combien on économise, dans quels quartiers ça marche vraiment, et où ça coince.",
+    category: "lifestyle",
+    emoji: "🍷",
+    readMinutes: 7,
+    publishedAt: "2026-05-13",
+    updatedAt: "2026-05-13",
+    intro:
+      "Bordeaux est devenue une grande ville française très compatible no-car grâce au tram (4 lignes, 80 km), au vélo V³ (~250 stations), au scooter Yego, à Citiz, et au climat doux qui favorise le vélo toute l'année. La rive droite (Bastide) et la rive gauche centre sont très bien desservies. Voici le bilan 2026.",
+    sections: [
+      {
+        heading: "Budget mobilité no-car à Bordeaux",
+        body: "Abonnement TBM annuel 2026 : ~535 €/an, remboursement employeur 50 %. V³ annuel : ~38 €/an. Yego scooter occasionnel : ~150 €/an pour 30 trajets. Citiz Bordeaux : ~200 €/an. Total no-car bordelais : ~600–800 €/an. Coût voiture Bordeaux : ~4 600 €/an (parking centre cher, ~120 €/mois). Économie : ~3 700 €/an.",
+      },
+      {
+        heading: "Quartiers no-car friendly",
+        body: "Top : Centre historique (Saint-Pierre, Sainte-Croix), Chartrons, Saint-Michel, Capucins, Bastide (tram A), Caudéran centre (tram B). Densité, commerces, tram <5 min. Bons : Mériadeck, Belcier (Euratlantique), Grand Parc, Saint-Augustin. Plus difficiles : Caudéran périphérie (distances), Bouscat nord, Bègles centre (correct mais commerces dispersés). Banlieue : Talence centre, Pessac centre, Mérignac centre praticables ; au-delà, ça devient dépendant voiture.",
+      },
+      {
+        heading: "Problèmes opérationnels",
+        body: "(1) Courses lourdes — Carrefour, Auchan, Monoprix livrent, Drives nombreux. (2) Vins (région oblige) — caves de quartier livrent souvent gratuitement, Lillet, Vinatis en ligne. (3) Bricolage — Castorama Mérignac, Leroy Merlin Bègles : Citiz pour 2h. (4) Plage (Cap-Ferret, Lacanau, Arcachon) — bus saisonnier et TER vers Arcachon (50 min), mais le pic d'été en bus est tendu, autopartage week-end utile. (5) Bordeaux côte sud (Cap-Ferret) — voiture quasi obligatoire si on y va souvent.",
+      },
+      {
+        heading: "Week-ends et vacances",
+        body: "TGV Paris 2h, Toulouse 2h10, Marseille 6h, Nantes 3h45. TER Bayonne 2h, Pau 2h15, Périgueux 1h15. Carte Avantage Adulte + TER : ~500 €/an pour 8 week-ends. Location voiture week-end mer/montagne : ~500–700 €/an. Total mobilité hors quotidien : ~1 200–1 700 €/an.",
+      },
+      {
+        heading: "Pièges classiques",
+        body: "(1) Plages Médoc et Cap-Ferret — sans voiture, le rituel «plage du dimanche» devient compliqué. (2) Vignobles Saint-Émilion / Médoc — tour-opérateurs et navettes touristiques saisonniers seulement. (3) Hiver pluvieux Bordeaux (~140 jours pluie/an) — vélo praticable mais inconfortable, tram compense. (4) Familles activités sportives suburbaines (rugby, voile à Hourtin) — voiture parfois indispensable.",
+      },
+      {
+        heading: "Pour qui ça marche",
+        body: "Très bon pour : centre + petite couronne tram, étudiants, télétravailleurs, jeunes parents 1–2 enfants centre. Moins bon : familles activités plage/Médoc, métiers mobiles régionaux. Bordeaux a vu sa part modale voiture chuter de 56 % (2009) à 39 % (2024) — la transition no-car y est réelle.",
+      },
+    ],
+    relatedCities: ["bordeaux", "libourne", "arcachon", "bayonne", "pau"],
+    relatedGuides: [
+      "quitter-bordeaux-guide-2026",
+      "meilleures-villes-cyclistes-france-2026",
+      "lyon-vs-bordeaux-comparatif-2025",
+      "nantes-vs-bordeaux-comparatif-2026",
+      "meilleures-villes-zero-dechet-ecologie-france-2026",
+    ],
+    tags: ["vivre sans voiture", "Bordeaux", "TBM", "V³", "Yego", "tram", "mobilité", "écologie"],
+  },
+  {
+    slug: "vivre-sans-voiture-nantes-guide-2026",
+    title: "Vivre sans voiture à Nantes en 2026 — tram, Bicloo, navibus",
+    metaTitle: "Vivre sans voiture à Nantes 2026 : TAN, Bicloo, Navibus, Marguerite — guide",
+    metaDesc:
+      "Nantes a 3 lignes de tram historiques, le Navibus sur la Loire, Bicloo, Marguerite autopartage. Combien on économise, où ça marche, où ça coince.",
+    category: "lifestyle",
+    emoji: "🌳",
+    readMinutes: 7,
+    publishedAt: "2026-05-13",
+    updatedAt: "2026-05-13",
+    intro:
+      "Nantes est la ville qui a relancé le tram en France (1985, premier réseau moderne). Aujourd'hui : 3 lignes tram + Busway BHNS + Navibus Loire + Bicloo (~880 vélos) + Marguerite autopartage. Climat doux et compact urbain favorisent l'usage vélo et marche. Voici le bilan no-car 2026.",
+    sections: [
+      {
+        heading: "Budget mobilité no-car à Nantes",
+        body: "Abonnement TAN annuel 2026 : ~440 €/an (Libertan), remboursement employeur 50 %. Bicloo annuel : ~36 €/an. Marguerite occasionnel : ~200 €/an. TER Pays de la Loire + Avantage : ~400 €/an. Total : ~600–750 €/an. Coût voiture Nantes : ~4 300 €/an. Économie : ~3 500 €/an.",
+      },
+      {
+        heading: "Quartiers no-car friendly",
+        body: "Top : Centre (Bouffay, Graslin, Decré), Île de Nantes nord (tram + Navibus), Hauts-Pavés Saint-Félix, Madeleine. Bons : Doulon-Bottière (tram), Malakoff (tram + BHNS), Procé (bus + vélo). Plus difficiles : Beaulieu sud Île de Nantes (commerces dispersés), Bellevue (tram correct mais distances), Saint-Joseph-de-Porterie (correct mais loin centre). Banlieue : Rezé (tram L3) et Saint-Herblain (tram L1) praticables.",
+      },
+      {
+        heading: "Problèmes opérationnels",
+        body: "(1) Courses lourdes — Auchan Beaulieu, Carrefour Atlantis livrent. Drives accessibles via Bicloo. (2) Bricolage — Castorama Bouguenais, Leroy Merlin Saint-Sébastien — Marguerite 2h. (3) Enfants — écoles à pied/vélo 85 % cas. (4) Sorties La Baule, Pornic, Vendée plages — TER + bus saisonnier, mais l'été le confort baisse, location week-end recommandée. (5) Pluviométrie Nantes ~150 jours/an — vélo praticable mais grise.",
+      },
+      {
+        heading: "Week-ends et vacances",
+        body: "TGV Paris 2h, Bordeaux 3h45, Lyon 4h30, Rennes 1h15. TER La Baule 1h, Pornic 1h10, Saint-Nazaire 1h, Angers 40 min. Avantage + TER : ~400 €/an. Vendée et Bretagne sud accessibles. Total mobilité hors quotidien : ~1 100–1 500 €/an.",
+      },
+      {
+        heading: "Pièges classiques",
+        body: "(1) Plages Atlantique l'été — train + bus tient mais lourd avec famille. (2) Vendée intérieure (Puy du Fou, Marais) — voiture quasi obligatoire. (3) Pluie nantaise persistante — vélo praticable mais nécessite équipement (~150 € premier coup). (4) Familles activités étendues (équitation Sucé-sur-Erdre, voile L3) — sans voiture devient pénible.",
+      },
+      {
+        heading: "Pour qui ça marche",
+        body: "Très bon pour : centre + Île de Nantes + petite couronne tram. Bon pour : couples actifs, jeunes parents 1–2 enfants. Moins bon : familles activités Vendée/Atlantique intensives. Nantes affiche un taux de pratique vélo ~10 % (parmi les meilleurs nationaux), avec ambition de doubler d'ici 2030.",
+      },
+    ],
+    relatedCities: ["nantes", "saint-nazaire", "rennes", "angers", "la-rochelle"],
+    relatedGuides: [
+      "quitter-nantes-guide-2026",
+      "meilleures-villes-cyclistes-france-2026",
+      "nantes-vs-rennes-comparatif-2025",
+      "nantes-vs-bordeaux-comparatif-2026",
+      "meilleures-villes-zero-dechet-ecologie-france-2026",
+    ],
+    tags: ["vivre sans voiture", "Nantes", "TAN", "Bicloo", "Navibus", "tram", "mobilité", "écologie"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
