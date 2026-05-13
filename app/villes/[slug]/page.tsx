@@ -6,6 +6,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { CityProfile } from "./CityProfile";
 import { CityJsonLd } from "@/components/CityJsonLd";
+import { CityGuidesList } from "@/components/CityGuidesList";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -45,6 +46,7 @@ export default async function CityPage({ params }: Props) {
       <CityJsonLd city={city} />
       <Navbar />
       <CityProfile city={city} />
+      <CityGuidesList slug={city.slug} name={city.name} />
       <Footer />
     </main>
   );
