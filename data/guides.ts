@@ -11863,6 +11863,263 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["acheter à Lille", "Lille", "immobilier", "Vieux-Lille", "Wazemmes", "Fives", "primo-accédant", "Nord"],
   },
+  {
+    slug: "ou-vivre-france-meteo-qualite-air-2026",
+    title: "Météo, climat et qualité de l'air — où vivre en France en 2026 ?",
+    metaTitle: "Où vivre en France 2026 : climat, pluviométrie, soleil, qualité air — guide",
+    metaDesc:
+      "Soleil annuel, pluviométrie, vagues de chaleur, qualité de l'air : la cartographie honnête des villes françaises où le climat est tenable en 2026 et au-delà.",
+    category: "lifestyle",
+    emoji: "🌤️",
+    readMinutes: 8,
+    publishedAt: "2026-05-13",
+    updatedAt: "2026-05-13",
+    intro:
+      "Le climat français se transforme — vagues de chaleur plus fréquentes au sud, pluviométrie déstabilisée à l'ouest, pics de pollution en vallées. Choisir où vivre en 2026 demande de regarder 20 ans devant, pas en arrière. Voici la cartographie honnête des villes selon climat, qualité de l'air et tendance.",
+    sections: [
+      {
+        heading: "Soleil annuel : les chiffres réels",
+        body: "Top ensoleillé (≥2 700 h/an) : Marseille (~2 850 h), Toulon (~2 900 h), Nice (~2 700 h), Perpignan (~2 580 h), Montpellier (~2 580 h). Bon (~2 300–2 500 h) : Avignon, Aix, Toulouse, Bordeaux, Pau, Biarritz. Moyen (~1 900–2 200 h) : Lyon, Grenoble, Annecy, Dijon, Nantes, La Rochelle. Faible (<1 900 h) : Lille (~1 650 h), Strasbourg (~1 720 h), Rouen, Le Havre, Caen, Brest (~1 600 h). L'écart Marseille-Brest est de ~1 250 heures de soleil/an, soit ~3,5 h/jour de différence en hiver.",
+      },
+      {
+        heading: "Pluviométrie : qui est vraiment au sec ?",
+        body: "Top sec (<650 mm/an) : Marseille (~510 mm), Avignon (~600 mm), Perpignan (~570 mm), Nîmes (~620 mm). Modéré (650–800 mm) : Toulouse, Montpellier, Lyon, Bordeaux. Humide (800–1 000 mm) : Strasbourg, Nantes, Rennes, Pau. Très humide (>1 000 mm) : Brest, Cherbourg, Saint-Étienne (climat de cuvette), Biarritz, Bayonne. Surprise : Bordeaux est plus humide que Toulouse (~900 vs 670 mm). Le Sud-Est méditerranéen connaît des épisodes cévenols intenses — pluviométrie annuelle faible mais épisodes violents (Nîmes, Montpellier, Perpignan).",
+      },
+      {
+        heading: "Vagues de chaleur : qui chauffe en 2026 ?",
+        body: "Plus de 30 jours/an >30°C : Avignon, Carcassonne, Béziers, Toulouse, Montauban, Marseille. La trajectoire 2025–2040 : ces villes connaîtront ~50–60 jours/an >30°C d'ici 2040. Risque canicule (>35°C plusieurs jours d'affilée) : Lyon (cuvette Vallée du Rhône), Avignon, Aix, Montélimar, Avignon. Modéré : Bordeaux, Tours, Nantes, Strasbourg. Frais : Brest, Cherbourg, Caen, Saint-Brieuc, Lille. Investir dans le sud sans climatisation devient stratégiquement risqué — ajouter PAC réversible ou clim au calcul d'achat.",
+      },
+      {
+        heading: "Qualité de l'air : les villes saines vs polluées",
+        body: "Indice ATMO 2025 (moyenne annuelle) — Bon : Brest, Lorient, Quimper, La Rochelle, Bayonne, Biarritz, Saint-Brieuc (vent océanique disperse). Moyen-Bon : Bordeaux, Nantes, Rennes, Caen, Cherbourg. Moyen : Lyon, Grenoble, Annecy (cuvettes alpines, inversions thermiques hivernales fréquentes), Marseille (Mistral irrégulier, port). Plus dégradé : Vallée de l'Arve (Chamonix, Cluses), Vallée du Rhône (Lyon, Valence), Vallée du Gier (Saint-Étienne). Particules fines (PM2,5) : seuils OMS dépassés à Lyon, Grenoble, Marseille ~30 jours/an, à Brest ~3 jours/an.",
+      },
+      {
+        heading: "Pollens et allergies",
+        body: "Bulletin RNSA 2025 — Risque allergique majeur : Vallée du Rhône (cyprès, ambroisie), Sud-Est méditerranéen (cyprès), Sud-Ouest (graminées), Île-de-France (bouleaux, graminées). Risque modéré : Bretagne (graminées), Normandie (bouleaux). Plus faible : façade Atlantique sud (Landes, Pays basque — pollens dispersés vent océanique), côte Manche-Mer du Nord. L'ambroisie est en expansion forte : présente massivement dans Drôme/Rhône, en progression Bourgogne et Centre-Val de Loire.",
+      },
+      {
+        heading: "Le calcul honnête : où vivre selon votre profil climat",
+        body: "Asthmatiques / allergiques : prioriser façade Atlantique (Brest, Lorient, La Rochelle, Bayonne) ou Cotentin (Cherbourg). Éviter Vallée du Rhône, Île-de-France haut pollen. Sensibles canicule : éviter Sud-Est sans climatisation. Façade Atlantique reste tempérée à long terme. Sensibles soleil/dépression hivernale : éviter Brest, Lille, Strasbourg ; viser Montpellier, Toulon, Marseille, Aix. Compromis large : Bordeaux, Nantes, Tours, Angers — climat équilibré, qualité de l'air correcte, hausse canicule modérée d'ici 2040. Le climat est un critère à 20 ans, pas à 2 ans — anticiper la trajectoire 2040 plutôt que la moyenne actuelle.",
+      },
+    ],
+    relatedCities: ["marseille", "brest", "bordeaux", "lyon", "lille"],
+    relatedGuides: [
+      "meilleures-villes-randonnee-trail-france-2026",
+      "meilleures-villes-zero-dechet-ecologie-france-2026",
+      "meilleures-villes-cyclistes-france-2026",
+      "expatries-retour-france-quelle-ville-2026",
+      "vivre-en-corse-guide-2026",
+    ],
+    tags: ["climat France", "qualité air", "soleil", "canicule", "pollen", "météo", "écologie", "santé"],
+  },
+  {
+    slug: "villes-france-famille-bilingue-anglais-2026",
+    title: "Villes françaises pour élever une famille bilingue français-anglais en 2026",
+    metaTitle: "Famille bilingue FR/EN France 2026 : écoles, communauté, ressources — guide",
+    metaDesc:
+      "Où vivre en France pour élever des enfants bilingues français-anglais : écoles bilingues publiques et privées, communautés expat, ressources culturelles.",
+    category: "famille",
+    emoji: "🌐",
+    readMinutes: 7,
+    publishedAt: "2026-05-13",
+    updatedAt: "2026-05-13",
+    intro:
+      "Élever ses enfants bilingues français-anglais en France demande plus qu'un cours d'anglais par semaine : il faut un environnement où l'anglais est entendu, parlé et lu naturellement. Voici les villes françaises où cela tient vraiment, avec écoles, communautés et ressources.",
+    sections: [
+      {
+        heading: "Méthodologie : ce qu'on évalue",
+        body: "Trois critères : (1) Écoles bilingues — sections internationales publiques (gratuites), écoles internationales privées (anglophones ou bilingues), nombre de places effectives. (2) Communauté anglophone — densité expat anglais/américain/irlandais/australien, associations, médias locaux en anglais. (3) Ressources culturelles — librairies anglaises, cinémas VO, festivals, événements anglophones. La présence d'une seule de ces trois colonnes ne suffit pas — il faut les trois.",
+      },
+      {
+        heading: "Paris : premier choix indiscutable",
+        body: "Sections internationales publiques : Lycée International de Saint-Germain-en-Laye (gratuit, section britannique et américaine, sélectif), École Active Bilingue Jeannine Manuel (privée, ~6 800 €/an primaire), École Internationale Bilingue (privée), Mortimer English Club, Lycée Charles de Gaulle (Londres-Wembley parallèle). Communauté : 250 000+ anglophones en région parisienne. Ressources : Shakespeare and Company, WHSmith, cinémas VO (UGC Bercy, MK2 Bibliothèque), American Library Paris. Coût élevé global. Idéal 7e/16e/15e/17e (concentration scolaire anglophone).",
+      },
+      {
+        heading: "Lyon : alternative solide",
+        body: "Cité Scolaire Internationale Lyon (Gerland, publique, section britannique gratuite, sélection sur dossier), Mont-Saint-Vincent Bilingual School (privée), British School of Lyon. Communauté anglo-saxonne : 20 000+ expats (souvent liés Sanofi-Pasteur, Bayer, banque). Pubs et bars anglophones (Smoking Dog, Wallace Bar). Cinémas VO réguliers (Lumière, UGC). Coût immobilier plus tenable qu'à Paris. Limite : peu de librairies anglaises spécialisées.",
+      },
+      {
+        heading: "Strasbourg : européen et anglophone",
+        body: "European School Strasbourg (publique, gratuite pour fonctionnaires UE, section anglaise solide), Lycée Pontonniers section internationale anglaise. Communauté anglophone très internationale (UE, Conseil de l'Europe, ENA). Bookstore: Bookworm Strasbourg. Coût immobilier accessible. Atout particulier : enfants côtoient l'allemand en plus, exposition trilingue facile. Idéal pour familles européennes/internationales.",
+      },
+      {
+        heading: "Aix-Marseille et Toulouse : options émergentes",
+        body: "Aix-en-Provence : International Bilingual School of Provence (Luynes, privée), Marseille International School (privée). Communauté anglo : ~10 000 expats Aix-Marseille (industries portuaire, recherche, tech). Toulouse : International School of Toulouse (privée, ~7 500 €/an primaire), section internationale Lycée Saint-Sernin (publique, sélective). Communauté Airbus internationale très anglophone. Sortir en VO : possible mais moins dense qu'à Paris/Lyon.",
+      },
+      {
+        heading: "Autres villes à considérer",
+        body: "Nice : International School of Nice (privée), Centre International Valbonne (Sophia Antipolis). Communauté Côte d'Azur anglo très importante. Bordeaux : Bordeaux International School (privée). Communauté plus modeste mais dynamique. Sophia-Antipolis (technopole Côte d'Azur) : très anglophone par essence, immobilier élevé mais expériences scolaires bilingues solides. Les autres grandes villes (Nantes, Rennes, Lille) ont des sections internationales publiques mais une communauté anglophone plus dispersée.",
+      },
+      {
+        heading: "Le calcul honnête",
+        body: "Pour vrai bilinguisme (enfant parle anglais naturellement à 15 ans) : viser une école avec ≥30 % du temps en anglais ET un environnement quotidien anglophone (parents anglophones, voisinage, médias). Sections internationales publiques (Paris/Lyon/Strasbourg/Aix/Nice) sont l'option la plus rentable mais ultra-sélectives. Écoles privées internationales : ~7 000–18 000 €/an primaire — coût significatif. Les familles 100 % francophones devraient compléter par camps d'été UK/US (~2 500 €/2 semaines) et séjours linguistiques à 13–17 ans.",
+      },
+    ],
+    relatedCities: ["paris", "lyon", "strasbourg", "aix-en-provence", "toulouse"],
+    relatedGuides: [
+      "expatries-retour-france-quelle-ville-2026",
+      "familles-expatriees-retour-france-quelle-ville-2026",
+      "villes-france-ecoles-alternatives-montessori-2026",
+      "meilleures-villes-familles-monoparentales-france-2026",
+      "meilleures-villes-accessibilite-handicap-france-2026",
+    ],
+    tags: ["famille bilingue", "anglais", "écoles internationales", "expatriés", "sections internationales", "scolarité"],
+  },
+  {
+    slug: "villes-universitaires-cout-vie-raisonnable-france-2026",
+    title: "Villes universitaires françaises à coût de vie raisonnable — 2026",
+    metaTitle: "Villes universitaires France 2026 : Poitiers, Limoges, Le Mans, budget étudiant — guide",
+    metaDesc:
+      "Universités françaises où étudier coûte vraiment moins cher : Poitiers, Limoges, Le Mans, Pau, Rennes... Loyer, transport, courses comparés 2026.",
+    category: "budget",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-05-13",
+    updatedAt: "2026-05-13",
+    intro:
+      "Étudier à Paris coûte ~1 400 €/mois minimum, à Lyon ~1 100 €/mois, à Bordeaux ~1 050 €/mois. Pour les étudiants sans bourse ou avec bourse limitée, ces villes deviennent inaccessibles. Voici les universités françaises où le budget tient sous 850 €/mois en 2026 sans sacrifier la qualité.",
+    sections: [
+      {
+        heading: "Méthodologie : le budget étudiant 2026",
+        body: "Quatre postes : (1) Loyer studio/T1 ~20 m² CROUS ou parc privé. (2) Alimentation 230 €/mois moyenne nationale (RU 3,30 €/repas tickets U réduit). (3) Transport ~25–50 €/mois selon ville (abonnement étudiant). (4) Charges (énergie, internet, mutuelle) ~80 €/mois. Total cible : <850 €/mois logement compris. À ce niveau, le budget annuel ~10 000 € permet aux étudiants boursiers échelon 4+ et aux étudiants avec aide familiale modeste de tenir.",
+      },
+      {
+        heading: "Top universités à coût modéré",
+        body: "Poitiers (~26 000 étudiants, université pluridisciplinaire, ESCEM, faculté Droit reconnue) : loyer T1 ~370 €/mois CROUS ou ~440 € privé, transport étudiant ~110 €/an, budget total ~780 €/mois. Limoges (~14 000 étudiants, fac Droit, Sciences, ENSIL-ENSCI ingénieurs) : loyer T1 ~340 €/mois, budget ~760 €/mois. Le Mans (Université du Maine, ~10 000 étudiants) : loyer T1 ~360 €/mois, budget ~770 €/mois. Pau (UPPA, ~12 000 étudiants) : loyer ~390 €/mois, budget ~790 €/mois. Brest (UBO, ~25 000 étudiants) : loyer ~360 €/mois, budget ~780 €/mois.",
+      },
+      {
+        heading: "Compromis qualité-prix : grandes villes Sud-Ouest et Centre",
+        body: "Tours (Université de Tours ~31 000 étudiants, fac Médecine reconnue, IUT et écoles d'ingénieurs) : loyer ~440 €/mois, budget ~870 €/mois. Très bon compromis qualité ville-budget. Orléans (~20 000 étudiants) : loyer ~410 €/mois, budget ~830 €/mois. Clermont-Ferrand (~38 000 étudiants, Polytech, École de droit, Sciences-Po Clermont) : loyer ~410 €/mois, budget ~830 €/mois. Reims (URCA + Sciences Po campus + NEOMA) : loyer ~430 €/mois, budget ~850 €/mois — accès TGV Paris 45 min compense.",
+      },
+      {
+        heading: "Très accessibles : préfectures moyennes",
+        body: "Amiens (UPJV ~25 000 étudiants) : loyer ~370 €/mois, budget ~780 €/mois. Besançon (UFC ~21 000 étudiants, ENSMM ingénieurs) : loyer ~360 €/mois, budget ~770 €/mois. Dijon (uB ~31 000 étudiants, ESC Dijon, AgroSup) : loyer ~410 €/mois, budget ~840 €/mois. Caen (Unicaen ~30 000 étudiants, ENSICAEN, EM Normandie) : loyer ~410 €/mois, budget ~830 €/mois. Rouen (URN ~31 000 étudiants, NEOMA, ESIGELEC) : loyer ~440 €/mois, budget ~860 €/mois.",
+      },
+      {
+        heading: "Villes universitaires à éviter pour le budget",
+        body: "Paris : budget mensuel ~1 400 €/mois minimum (loyer studio ~900 €), inaccessible sans aide familiale forte. Lyon : ~1 100 €/mois (loyer ~700 €). Bordeaux : ~1 050 €/mois. Toulouse : ~970 €/mois (encore tenable). Montpellier : ~950 €/mois. Aix-en-Provence : ~1 000 €/mois (proche Marseille mais plus cher). Ces villes sont excellentes académiquement mais demandent un budget important. Pour étudier en grande métropole avec budget modeste, viser CROUS résidence universitaire (sélection sur critères sociaux, loyer ~250–350 €).",
+      },
+      {
+        heading: "Le calcul honnête : choisir pour la formation, optimiser pour le coût",
+        body: "Le critère premier reste la qualité de la formation et le débouché. Pour le droit : Paris II, Poitiers, Toulouse 1, Aix ; pour la médecine : reproductible partout (CHU obligatoire) ; pour ingénieur : suivre l'école choisie. Mais à choix de formation équivalent, viser ville universitaire ≤900 €/mois libère ~500 €/mois soit 6 000 €/an — un demi-projet Erasmus. Bourse CROUS échelon 4+ (~440 €/mois) couvre le loyer à Poitiers/Limoges/Brest ; à Paris elle est insuffisante.",
+      },
+    ],
+    relatedCities: ["poitiers", "limoges", "le-mans", "pau", "brest"],
+    relatedGuides: [
+      "survivre-etudiant-province-moins-700-euros-2026",
+      "meilleures-villes-colocation-jeunes-actifs-2026",
+      "quitter-paris-guide-2025",
+      "meilleures-villes-primo-accedants-france-2026",
+      "vivre-smic-quelle-ville-france-2026",
+    ],
+    tags: ["université", "étudiant", "budget étudiant", "Poitiers", "Limoges", "Le Mans", "CROUS", "bourse"],
+  },
+  {
+    slug: "villes-etape-expatries-retour-france-2026",
+    title: "Villes-étapes pour expatriés revenant en France en 2026",
+    metaTitle: "Retour expatrié France 2026 : villes-étape Bordeaux, Annecy, Aix, La Rochelle — guide",
+    metaDesc:
+      "Revenir en France après 10 ans à l'étranger : quelles villes facilitent la réintégration ? Communauté internationale, scolarité bilingue, marché emploi cadre.",
+    category: "lifestyle",
+    emoji: "✈️",
+    readMinutes: 7,
+    publishedAt: "2026-05-13",
+    updatedAt: "2026-05-13",
+    intro:
+      "Revenir en France après 5–15 ans à l'étranger crée un choc de réintégration spécifique : différences administratives, scolarité, marché du travail, codes sociaux. Certaines villes amortissent ce choc grâce à une forte présence expat, une scolarité internationale, et une ouverture culturelle. Voici les villes-étapes 2026.",
+    sections: [
+      {
+        heading: "Le profil «retour expat»",
+        body: "Quatre besoins typiques : (1) Scolarité bilingue ou internationale — souvent enfants nés à l'étranger ou scolarisés en anglais. (2) Marché de l'emploi cadre — fonctions internationales (export, finance, tech, conseil), profils CDI cadre senior. (3) Communauté internationale — ne pas être le seul retour expat, trouver pairs en même situation. (4) Coût de vie raisonnable — souvent perte de pouvoir d'achat vs Singapour, Dubaï, Londres. Une bonne ville-étape coche au moins 3 sur 4.",
+      },
+      {
+        heading: "Aix-en-Provence : la transition douce",
+        body: "Forte communauté expat (~12 000), IBSAix école internationale bilingue, marché de l'emploi cadre élargi sur Marseille-Aix (recherche, tech, énergie, conseil), TGV Paris 3h, aéroport Marseille-Provence international. Coût de vie élevé mais pouvoir d'achat de Singapour/Dubaï tient. Cadre méditerranéen et culture (Festival d'Art lyrique) facilitent la réintégration. Limite : prix immobilier (T3 famille ~550 k€ centre).",
+      },
+      {
+        heading: "Bordeaux : équilibre travail-famille",
+        body: "Communauté internationale ~15 000 expats (vins, aéronautique, tech), Bordeaux International School (privée bilingue), marché cadre profond (filière vin internationale, ENSAM Bordeaux). TGV Paris 2h, aéroport international moyen. Climat doux, culture, gastronomie facilitent la transition. Coût immobilier modéré (T3 famille ~380 k€ centre). Limite : moins de communauté anglophone hors filière vin que Lyon/Aix.",
+      },
+      {
+        heading: "Annecy : qualité de vie premium",
+        body: "Communauté expat aisée (banque privée Genève frontalière, tech, sport-outdoor), British School of Geneva accessible (40 min), école internationale Annecy (privée). Marché cadre étroit mais ouvert sur frontalier suisse (Genève ~50 min). Climat alpin, qualité de vie classée n°1 France. Limite : coût immobilier très élevé (T3 famille ~530 k€ centre), marché du travail privé local restreint hors industries tech/horlogerie locales.",
+      },
+      {
+        heading: "La Rochelle / île de Ré : profil retraite anticipée",
+        body: "Pour retours expat 50+ avec capital accumulé : La Rochelle reste accessible (T3 famille ~340 k€), forte communauté côtière internationale (voile, retraités anglo-saxons), aéroport La Rochelle vers UK/Irlande direct (Ryanair). Île de Ré : très cher (T3 ~700 k€) mais ambiance fortement anglophone (~30 % résidences secondaires britanniques avant Brexit). École moins développée bilingue qu'à Bordeaux. Idéal pour profils ne cherchant plus emploi cadre mais qualité de vie + communauté.",
+      },
+      {
+        heading: "Strasbourg : retour Europe institutionnel",
+        body: "Pour retours expats UE (Bruxelles, Luxembourg) ou fonctionnaires internationaux : Strasbourg propose European School Strasbourg gratuite (UE), section internationale anglais publique (Lycée Pontonniers), marché cadre institutions européennes + médico-pharma. Communauté très internationale (Conseil de l'Europe, Parlement européen, ENA). Coût immobilier accessible (T3 famille ~330 k€). Limite : pour expat non-UE ou hors institutions, communauté moins dense que Paris/Aix.",
+      },
+      {
+        heading: "Le calcul honnête : choisir la ville-étape",
+        body: "Pour expat avec famille et enfants en école internationale : Aix, Bordeaux, Strasbourg, Annecy. Pour expat sans enfants ou enfants déjà adultes : choix s'élargit à Lyon, Nantes, Montpellier. Pour expat retour pour retraite : La Rochelle, Bayonne, Montpellier, Aix. Éviter Paris pour la réintégration premier retour (choc coût de vie + rythme + bureaucratie) — beaucoup d'expats reviennent à Paris pour le job mais demandent à muter en province après 2–3 ans. Tester par séjour 3 mois (Airbnb longue durée) avant achat est l'option la plus prudente.",
+      },
+    ],
+    relatedCities: ["aix-en-provence", "bordeaux", "annecy", "la-rochelle", "strasbourg"],
+    relatedGuides: [
+      "expatries-retour-france-quelle-ville-2026",
+      "familles-expatriees-retour-france-quelle-ville-2026",
+      "villes-france-famille-bilingue-anglais-2026",
+      "villes-france-retraite-anticipee-fire-2026",
+      "meilleures-villes-seniors-actifs-france-2026",
+    ],
+    tags: ["retour expat", "expatriés France", "scolarité internationale", "réintégration", "Aix", "Bordeaux", "Annecy"],
+  },
+  {
+    slug: "villes-cotieres-teletravail-connexion-cadre-2026",
+    title: "Villes côtières françaises pour télétravail — connexion fibre et cadre 2026",
+    metaTitle: "Télétravail côte France 2026 : La Rochelle, Quimper, Hossegor, Cassis — guide",
+    metaDesc:
+      "Vivre à la mer en télétravail en 2026 : couverture fibre vérifiée, climat, services et cadre. La Rochelle, Brest, Hossegor, Cassis, Bayonne comparées.",
+    category: "teletravail",
+    emoji: "🏖️",
+    readMinutes: 7,
+    publishedAt: "2026-05-13",
+    updatedAt: "2026-05-13",
+    intro:
+      "Vivre à la mer en télétravail attire massivement depuis 2020. Mais «mer» ne signifie pas «fibre garantie» : la couverture varie fortement par commune, et certains villages côtiers ont une 4G saturée en saison. Voici les villes côtières françaises où le télétravail tient vraiment en 2026.",
+    sections: [
+      {
+        heading: "Critères : qu'est-ce qu'une ville côtière télétravail-compatible ?",
+        body: "(1) Fibre FTTH déployée ≥80 % du tissu urbain (carte ARCEP vérifiable par adresse). (2) 4G/5G stable hors saison ET en saison (un débit Airbnb-bondé d'août n'a rien à voir avec un débit télétravailleur permanent). (3) Espaces de coworking (utile pour rompre isolement, ~150–250 €/mois en province côtière). (4) Services médicaux, école, commerces pour vivre à l'année. (5) Logement disponible à l'année à prix tenable (les meublés saisonniers prennent souvent le parc).",
+      },
+      {
+        heading: "La Rochelle : référence atlantique",
+        body: "Fibre FTTH ~95 % couverture centre. Coworking : La Smalah, Hub17, plusieurs espaces. Services complets (CHU, écoles internationales secteur, marché bouche dense). Climat doux (~2 200 h soleil/an). Cadre exceptionnel (Vieux-Port, Île de Ré accessible). Prix immobilier élevé (T2 ~620 €/mois centre, achat ~4 200 €/m²) — choix de cadres aisés. Saison estivale dure (afflux touristique multiplie population) mais service public résiste.",
+      },
+      {
+        heading: "Brest : meilleure couverture / prix",
+        body: "Fibre FTTH ~98 % (Brest est un projet pilote France Très Haut Débit). Coworking : Le Faubourg, Hub Innov, Pony. Climat humide (~155 jours pluie/an) mais qualité air excellente (vent océanique). Prix immobilier très bas (T2 ~430 €/mois centre, achat ~2 100 €/m²) — le meilleur rapport qualité-prix télétravail mer en France. CHU, écoles, services complets. Limite : éloignement Paris (3h35 TGV), retours fréquents coûteux.",
+      },
+      {
+        heading: "Hossegor, Capbreton, Soustons (Landes)",
+        body: "Fibre FTTH déployée centres ~85 %, mais variable hors centre — vérifier précisément l'adresse sur carte ARCEP. 4G saturée juillet-août (×3 trafic). Coworking : The Spot Hossegor, Hossegor.com. Climat océanique doux, ~2 300 h soleil. Prix immobilier élevé (T2 ~620 €/mois Hossegor, achat ~5 200 €/m² centre — quasi Biarritz), location annuelle rare (parc capté par meublé saisonnier). Ambiance surf et tech. Idéal pour célibataires/jeunes couples ; familles trouvent moins d'écoles.",
+      },
+      {
+        heading: "Cassis, La Ciotat, Marseille 8e (Méditerranée)",
+        body: "Cassis : fibre déployée ~80 %, mais commune touristique à logement très rare et cher (T2 ~750 €/mois, achat ~6 800 €/m²). La Ciotat : alternative plus tenable (T2 ~520 €/mois, achat ~4 200 €/m²), fibre ~95 %, redynamisation urbaine. Marseille 8e/9e côtier : fibre ~98 %, prix variables selon micro-quartier, accès TGV Paris 3h. Climat méditerranéen, ~2 850 h soleil. Saturation routière été (calanques, Cassis) — vélo cargo recommandé.",
+      },
+      {
+        heading: "Quimper, Lorient, Vannes (Bretagne sud)",
+        body: "Quimper : fibre ~95 %, prix très bas (T2 ~390 €/mois, achat ~1 800 €/m²), climat plus doux que Brest, accès mer 15 min. Lorient : fibre ~93 %, redynamisation port, prix bas. Vannes : fibre ~92 %, qualité de vie premium (golfe du Morbihan), prix plus élevés (T2 ~510 €/mois). Tous trois ont coworking et tissu télétravail croissant. Pour familles, Vannes offre le meilleur compromis services/cadre.",
+      },
+      {
+        heading: "Le calcul honnête : choisir sa ville côtière télétravail",
+        body: "Vérifier d'abord la fibre à l'adresse exacte (carte ARCEP, comparateurs Ariase/DegroupTest). Une commune «couverte fibre» peut avoir 30 % d'adresses non-éligibles. Tester en location 3 mois avant d'acheter — la saisonnalité touristique change radicalement la vie quotidienne (commerces, médecin, école). Pour cadres parisiens télétravaillant 1–2 j/semaine au bureau : viser TGV <3h (La Rochelle, Bordeaux+côte, Brest limite, Quimper non). Pour télétravailleurs 100 % distants : choix s'élargit considérablement.",
+      },
+    ],
+    relatedCities: ["la-rochelle", "brest", "quimper", "vannes", "lorient"],
+    relatedGuides: [
+      "teletravailler-depuis-bretagne-guide-2026",
+      "teletravailler-depuis-nouvelle-aquitaine-guide-2026",
+      "teletravailler-depuis-provence-guide-2026",
+      "meilleures-villes-surf-sports-nautiques-france-2026",
+      "vivre-en-charente-maritime-guide-2026",
+    ],
+    tags: ["télétravail mer", "côte", "fibre FTTH", "La Rochelle", "Brest", "Hossegor", "Quimper", "Bretagne"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------

@@ -160,7 +160,7 @@ npm run lint         # 25 errors remaining (all react/no-unescaped-entities, cos
 
 ## Content roadmap — guides (`data/guides.ts`)
 
-Current count: **260 guides**. Add via the pattern in this file — each guide needs `slug, title, metaTitle, metaDesc, category, emoji, readMinutes, publishedAt, updatedAt, intro, sections[], relatedCities[], relatedGuides[], tags[]`. All copy in **French**, direct voice, data-led. No silent fake figures.
+Current count: **265 guides**. Add via the pattern in this file — each guide needs `slug, title, metaTitle, metaDesc, category, emoji, readMinutes, publishedAt, updatedAt, intro, sections[], relatedCities[], relatedGuides[], tags[]`. All copy in **French**, direct voice, data-led. No silent fake figures.
 
 ### Série "Quitter X" 2026
 Track big cities — one guide per city, category `"comparaison"`.
