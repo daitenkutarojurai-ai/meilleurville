@@ -311,6 +311,29 @@ export const RANKING_META = {
       "Évolution sur 5 ans (volatilité du marché)",
     ],
   },
+  "jeunes-actifs": {
+    slug: "jeunes-actifs",
+    label: "Jeunes actifs",
+    emoji: "🚀",
+    headline: "Meilleures villes françaises pour les jeunes actifs en 2026",
+    description:
+      "Classement des villes françaises où démarrer ou relancer une carrière en 2026 : densité de cadres, mobilité TGV, scène culturelle, communauté pro et coût de la vie compatible avec un premier salaire. Sources : Insee (taux de cadres et professions intermédiaires, démographie 25-39 ans), DARES (créations d'entreprises), ARCEP (fibre optique), Observatoires Locaux des Loyers.",
+    methodology:
+      "Score composite pondéré : Culture (×2.5 — réseau, rencontres, sortir), Transport (×2 — TGV, mobilité), Télétravail (×1.5 — fibre et coworkings), Qualité de vie (×1.5 — équilibre pro/perso), Coût (×1.5 — premier salaire). Les très petites villes sont défavorisées indirectement via la faible note culture/transport.",
+    weights: { culture: 2.5, transport: 2, remoteWork: 1.5, life: 1.5, cost: 1.5 },
+    color: "text-fuchsia-400",
+    borderColor: "border-fuchsia-400/20",
+    bgColor: "bg-fuchsia-400/5",
+    scoreKey: "culture" as const,
+    why: [
+      "Part des 25-39 ans et densité de cadres (Insee Recensement 2022, MAJ 2025)",
+      "Créations d'entreprises et dynamisme du marché de l'emploi (DARES 2024)",
+      "Couverture fibre optique > 90 % et nombre de coworkings (ARCEP, observatoires locaux)",
+      "Scène culturelle et vie nocturne : bars, salles, festivals, restaurants",
+      "Loyer T2 compatible avec un premier salaire cadre (Observatoires Locaux des Loyers)",
+      "Connexion TGV directe à au moins une métropole majeure (SNCF Connect 2026)",
+    ],
+  },
   ecologie: {
     slug: "ecologie",
     label: "Écologie & Air",
