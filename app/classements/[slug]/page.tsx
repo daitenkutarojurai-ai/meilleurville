@@ -59,6 +59,7 @@ export default async function RankingPage({ params }: Props) {
     climat: ["lifestyle", "region"],
     logement: ["budget", "lifestyle"],
     "jeunes-actifs": ["lifestyle", "budget", "teletravail"],
+    gastronomie: ["lifestyle", "region"],
   };
   const allowedCategories = guideCategoryMap[slug] ?? ["lifestyle"];
   const topCitySlugs = new Set(ranked.slice(0, 10).map((r) => r.city.slug));

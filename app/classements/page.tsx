@@ -11,6 +11,7 @@ import Link from "next/link";
 import {
   Laptop, Home, TreePine, GraduationCap, Palmtree, ArrowRight, Wallet,
   Sun, Shield, Music, Bike, Building2, Heart, Leaf, CloudSun, KeyRound, Rocket,
+  ChefHat,
 } from "lucide-react";
 import type { City } from "@/lib/types";
 
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Classements des meilleures villes françaises 2026",
     description:
-      "16 classements thématiques : télétravail, famille, budget, soleil, sécurité, culture, investissement, logement, jeunes actifs et plus.",
+      "17 classements thématiques : télétravail, famille, budget, soleil, sécurité, culture, gastronomie, investissement, logement, jeunes actifs et plus.",
     type: "website",
   },
   twitter: { card: "summary_large_image" },
@@ -64,6 +65,7 @@ const CATEGORIES = [
   { slug: "climat", label: "Climat de comfort", emoji: "🌤️", icon: CloudSun, gradient: "from-amber-400 to-yellow-500", color: "#F59E0B", desc: "Données réelles : ensoleillement, douceur d'été, clémence d'hiver", scoreKey: "nature" },
   { slug: "logement", label: "Logement abordable", emoji: "🔑", icon: KeyRound, gradient: "from-cyan-400 to-sky-500", color: "#06B6D4", desc: "Données DVF + Observatoires loyers : loyer T2, prix au m², coût de vie", scoreKey: "cost" },
   { slug: "jeunes-actifs", label: "Jeunes actifs", emoji: "🚀", icon: Rocket, gradient: "from-fuchsia-400 to-pink-500", color: "#D946EF", desc: "Cadres 25-39 ans, TGV, fibre, culture, premier salaire compatible", scoreKey: "culture" },
+  { slug: "gastronomie", label: "Gastronomie", emoji: "🍽️", icon: ChefHat, gradient: "from-amber-500 to-red-500", color: "#DC2626", desc: "Étoilés Michelin, Bib Gourmand, AOC, marchés couverts, terroir", scoreKey: "culture" },
 ] as const;
 
 export default function ClassementsPage() {

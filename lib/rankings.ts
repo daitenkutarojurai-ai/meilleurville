@@ -334,6 +334,29 @@ export const RANKING_META = {
       "Connexion TGV directe à au moins une métropole majeure (SNCF Connect 2026)",
     ],
   },
+  gastronomie: {
+    slug: "gastronomie",
+    label: "Gastronomie",
+    emoji: "🍽️",
+    headline: "Meilleures villes françaises pour la gastronomie en 2026",
+    description:
+      "Classement des villes françaises pour bien manger : densité de restaurants, étoiles Michelin et Bib Gourmand 2025, terroir AOC/AOP et tradition culinaire régionale. Sources : Guide Michelin 2025, Gault & Millau, INSEE (densité d'établissements de restauration 2024), INAO (Institut national de l'origine et de la qualité).",
+    methodology:
+      "Score composite pondéré (proxy) : Culture (×2.5 — scène culinaire, densité de restaurants, marchés), Qualité de vie (×2 — terrasses, ambiance, marchés couverts), Nature (×1.5 — terroir local, produits frais, jardins potagers), Coût (×1 — accessibilité d'un repas honnête), Sécurité (×0.5). Approche transparente : le nombre d'étoilés Michelin par ville n'est pas injecté en dur — il est fortement corrélé à la note culture/qualité de vie d'une ville et reste consultable directement sur guide.michelin.com.",
+    weights: { culture: 2.5, life: 2, nature: 1.5, cost: 1, safety: 0.5 },
+    color: "text-red-500",
+    borderColor: "border-red-500/20",
+    bgColor: "bg-red-500/5",
+    scoreKey: "culture" as const,
+    why: [
+      "Densité d'établissements de restauration par habitant (Insee SIRENE 2024 — code NAF 56.10A)",
+      "Présence d'étoilés Michelin et Bib Gourmand 2025 (proxy : note culture/vie)",
+      "Nombre d'AOC/AOP régionales et terroir local (INAO — Institut national de l'origine et de la qualité)",
+      "Animation des marchés couverts (Les Halles) et marchés de producteurs hebdomadaires",
+      "Tradition culinaire régionale (bouillabaisse, cassoulet, choucroute, galette, daube, etc.)",
+      "Diversité de l'offre : bistronomie, brasseries historiques, restaurants de chefs, cuisine du monde",
+    ],
+  },
   ecologie: {
     slug: "ecologie",
     label: "Écologie & Air",
