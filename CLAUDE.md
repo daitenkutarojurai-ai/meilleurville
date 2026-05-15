@@ -160,7 +160,7 @@ npm run lint         # 25 errors remaining (all react/no-unescaped-entities, cos
 
 ## Content roadmap — guides (`data/guides.ts`)
 
-Current count: **298 guides**. Add via the pattern in this file — each guide needs `slug, title, metaTitle, metaDesc, category, emoji, readMinutes, publishedAt, updatedAt, intro, sections[], relatedCities[], relatedGuides[], tags[]`. All copy in **French**, direct voice, data-led. No silent fake figures.
+Current count: **301 guides**. Add via the pattern in this file — each guide needs `slug, title, metaTitle, metaDesc, category, emoji, readMinutes, publishedAt, updatedAt, intro, sections[], relatedCities[], relatedGuides[], tags[]`. All copy in **French**, direct voice, data-led. No silent fake figures.
 
 ### Série "Climat 2040" 2026
 Category `"lifestyle"`. Macro-régionales, forward-looking, données Météo-France ARPEGE + Cerema + GIEC.
@@ -179,9 +179,11 @@ Category `"lifestyle"`. Macro-régionales, forward-looking, données Météo-Fra
 | Normandie / Côte / Cotentin | `climat-2040-normandie-cotentin-cote` | ✅ done |
 | Centre-Val de Loire / Loire | `climat-2040-centre-val-de-loire-vallee` | ✅ done |
 | Bourgogne-Franche-Comté / Jura | `climat-2040-bourgogne-franche-comte-jura` | ✅ done |
-| Outre-mer / DROM | _todo_ | ⏳ |
-| Corse | _todo_ | ⏳ |
-| Auvergne-Rhône-Alpes (Alpes / Savoie) | _todo_ | ⏳ |
+| Outre-mer / DROM | `climat-2040-outre-mer-drom-cyclones-mer` | ✅ done |
+| Corse | `climat-2040-corse-incendies-secheresse` | ✅ done |
+| Alpes / Savoie | `climat-2040-alpes-savoie-refuge-altitude` | ✅ done |
+
+**Série Climat 2040 : 12/12 macro-régions livrées.** Prochains angles climatiques possibles : qualité de l'air par bassin urbain, eau et nappes phréatiques par grande région, scoring climatique par ville.
 
 ### Série "Quitter X" 2026
 Track big cities — one guide per city, category `"comparaison"`.

@@ -13748,6 +13748,169 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["climat 2040", "Bourgogne", "Franche-Comté", "Jura", "Morvan", "frontaliers Suisse", "vignoble", "Dijon", "Besançon"],
   },
+  {
+    slug: "climat-2040-corse-incendies-secheresse",
+    title: "Climat 2040 en Corse — canicule, incendies, sécheresse, montée Méditerranée",
+    metaTitle: "Climat 2040 Corse : Ajaccio, Bastia, intérieur, incendies, sécheresse — guide",
+    metaDesc:
+      "La Corse face à 2040 : canicules méditerranéennes, incendies majeurs, sécheresse, montée des eaux côte. Où vivre, où adapter, où partir.",
+    category: "lifestyle",
+    emoji: "🔥",
+    readMinutes: 8,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "La Corse est en première ligne du réchauffement méditerranéen : +2,1 °C déjà observés depuis 1959, sécheresses chroniques, incendies de plus en plus violents (2017, 2021, 2022, 2023). Pour 2040, l'île insulaire cumule contraintes climatiques et fragilité d'approvisionnement. Voici l'analyse honnête, sans cliché 'île de beauté'.",
+    sections: [
+      {
+        heading: "Ce qui change d'ici 2040 (projections Météo-France ARPEGE)",
+        body: "Réchauffement : +2,5 à +3,5 °C à 2040 vs 1981-2010, l'un des plus forts taux nationaux. Ajaccio : ~45 jours/an >30 °C en 2040 (vs ~20 aujourd'hui), pointes 40-42 °C. Bastia : ~40 jours/an. Intérieur (Corte, Vico, Sartène) : 50+ jours/an avec effet vallée. Nuits tropicales (>20 °C) : 40-60/an sur le littoral. Sécheresse : précipitations en baisse de 20-30 % en été, ressource en eau critique. Incendies : durée saison feux doublée (mars-novembre), surfaces brûlées triplées en moyenne décennale. Montée marine : +15-25 cm d'ici 2050, exposition forte certaines plaines orientales (Ghisonaccia, Aléria). Vents : intensité tramontane et libeccio en hausse.",
+      },
+      {
+        heading: "Zones les plus exposées 2040",
+        body: "(1) Plaine orientale (Ghisonaccia, Aléria, Solenzara, Linguizzetta) — chaleur extrême, sécheresse, peuplement diffus, exposition incendies maquis. (2) Balagne (Calvi, L'Île-Rousse, Calenzana) — sécheresse marquée, incendies récurrents. (3) Cap Corse intérieur (Pino, Centuri intérieur) — éloignement secours incendie, dépendance eau. (4) Sartenais (Sartène, Propriano arrière-pays) — chaleur + sécheresse + maquis dense. (5) Cortenais et Niolu (Corte, Calacuccia) — chaleur de vallée, dépendance ressource hydrique. (6) Front de mer côte orientale : exposition submersion zones basses Aléria-Ghisonaccia.",
+      },
+      {
+        heading: "Zones relativement préservées",
+        body: "(1) Centres Ajaccio et Bastia — services structurants, hôpitaux, infrastructure incendie. Climat dur mais résilience institutionnelle. (2) Montagnes intérieures haute altitude (Vivario, Bocognano, Zonza) — fraîcheur estivale relative à 700-900 m, mais isolement réel. (3) Cap Corse littoral nord (Centuri, Macinaggio) — brise marine atténue chaleur, mais services limités. (4) Côte ouest abritée (Cargèse, Piana, Porto) — beauté patrimoniale mais saisonnalité touristique extrême et accès secours difficile. (5) Côte sud très protégée des incendies (Bonifacio centre) — bourg médiéval, infrastructure adaptée.",
+      },
+      {
+        heading: "Les vrais sujets 2040 : eau et incendies",
+        body: "(1) Eau : Corse a une ressource limitée (pas de grandes rivières en plaine), restrictions estivales déjà chroniques. Avec sécheresses 2040, certaines communes risquent ruptures d'approvisionnement (Cap Corse, Balagne intérieure). Puits privés peu fiables. (2) Incendies : maquis très inflammable, fréquence et intensité en explosion. Communes en zone rouge feu de forêt voient leurs assurances exploser ou refuser couverture. (3) Saturation touristique estivale : pic juillet-août insupportable côté chaleur + foule + circulation + déchets. Vivre Corse l'été = vivre fenêtres fermées clim ou monter en montagne. (4) Approvisionnement insulaire : dépendance import (alimentation, médicaments, matériaux) — fragilité tempêtes/grèves.",
+      },
+      {
+        heading: "Adaptations stratégiques achat 2026-2030",
+        body: "(1) Vérifier zone PPRIF (Plan de Prévention Risques Incendies de Forêt) avant tout achat — obligatoire dans 60+ communes corses. Une maison en zone rouge feu sera difficilement assurable d'ici 2030. (2) Débroussaillement obligatoire (OLD) à 50 m du bâti dans zones boisées — coût et entretien. (3) Climatisation indispensable, isolation thermique critique. DPE E-G inhabitable estival d'ici 2030. (4) Eau : vérifier réseau communal (vs puits) et historique de restrictions. (5) Côte : vérifier PPRL, altitude > 5 m NGF si proche mer, distance trait de côte. (6) Bâti pierre traditionnel (mazets, maisons d'alpage) : inertie thermique avantage mais isolation moderne souvent nécessaire.",
+      },
+      {
+        heading: "Profils pour qui ça marche",
+        body: "(1) Retraités acceptant saisonnalité (vivre Corse hors été, ou s'adapter strictement). (2) Profils insulaires natifs ou attachés culturellement, prêts aux contraintes. (3) Investisseurs locatifs saisonniers haut de gamme — la Corse reste attractive touristiquement mais avec risque saturation. (4) Télétravailleurs avec fibre solide + capacité d'investir dans clim/isolation + résilience aux contraintes insulaires (transport, services). Pour qui c'est dur : familles avec enfants en bas âge sans clim/jardin protégé, personnes âgées fragiles, profils dépendants services métropolitains rapides.",
+      },
+      {
+        heading: "Le calcul honnête : choix patrimonial plus que climatique",
+        body: "La Corse 2040 n'est plus un 'refuge méditerranéen doux' — c'est une île qui se rapproche d'un climat sub-aride avec contraintes croissantes (eau, incendies, chaleur extrême estivale). Le bon profil pour acheter : attachement culturel/familial, métropoles Ajaccio/Bastia, bâti adapté (clim, débroussaillement, eau réseau), capacité financière pour rénovation et entretien. Le mauvais profil : recherche d'un climat tempéré stable, dépendance services rapides, fragilité santé. Pour ceux qui visent uniquement le climat méridional doux : la côte basque, le Pays Basque intérieur, voire les Alpes-Maritimes en arrière-pays (Vence, Saint-Paul) offrent une alternative plus résiliente 2040.",
+      },
+    ],
+    relatedCities: ["ajaccio", "bastia", "corte", "porto-vecchio", "calvi"],
+    relatedGuides: [
+      "ou-vivre-france-meteo-qualite-air-2026",
+      "vivre-en-corse-guide-2026",
+      "climat-2040-sud-est-mediterraneen-france",
+      "expatries-retour-france-quelle-ville-2026",
+      "meilleures-villes-randonnee-trail-france-2026",
+    ],
+    tags: ["climat 2040", "Corse", "incendies", "sécheresse", "canicule", "PPRIF", "Ajaccio", "Bastia", "insulaire"],
+  },
+  {
+    slug: "climat-2040-alpes-savoie-refuge-altitude",
+    title: "Climat 2040 dans les Alpes et Savoie — refuge altitude, fin du ski moyenne montagne ?",
+    metaTitle: "Climat 2040 Alpes Savoie : Annecy, Chambéry, Grenoble, stations ski — guide",
+    metaDesc:
+      "Les Alpes et la Savoie face à 2040 : refuge climatique altitude, fin ski moyenne montagne, glaciers, vallées chaudes. Où vivre, où arbitrer.",
+    category: "lifestyle",
+    emoji: "🏔️",
+    readMinutes: 9,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "Les Alpes sont à la fois un refuge climatique potentiel (altitude) et une zone de transformation rapide (glaciers, enneigement, vallées chaudes). Pour 2040, l'arc alpin offre l'un des contrastes les plus forts du pays — entre vallées qui deviennent méditerranéennes et plateaux d'altitude qui restent tempérés. Voici l'analyse honnête, sans nostalgie ni catastrophisme.",
+    sections: [
+      {
+        heading: "Ce qui change d'ici 2040 (projections)",
+        body: "Réchauffement : +2,5 à +4 °C à 2040 vs 1981-2010 dans les Alpes — taux d'évolution parmi les plus forts d'Europe. Effet altitude marqué : à 1000 m, gain ~+2 °C ; à 2000 m, gain ~+3 °C ; à 3000 m, gain ~+4 °C. Vallées chaudes : Grenoble ~30 jours/an >30 °C en 2040 (vs ~12 aujourd'hui), Chambéry ~25 jours/an. Annecy ~22 jours/an. Vallée de l'Arve, Tarentaise basse, Maurienne : 25-35 jours/an. Enneigement : stations <1500 m perdent fiabilité (Megève bas, Les Carroz, Pralognan bas, La Norma), saison ski raccourcie de 30-40 jours. Stations 1800+ m maintiennent fiabilité (Val Thorens, Tignes, Val d'Isère, Avoriaz haute). Glaciers : retrait massif déjà en cours (Mer de Glace -200 m d'épaisseur depuis 1900, perte continue). Précipitations : redistribution — automnes plus intenses, étés plus secs.",
+      },
+      {
+        heading: "Métropoles et villes bien positionnées 2040",
+        body: "(1) Annecy — climat tempéré relatif grâce au lac (effet régulateur), services complets, qualité de vie élevée, mais foncier saturé (~5 500 €/m²). Excellent climat 2040 mais cher. (2) Chambéry — préfecture Savoie, climat continental modéré, université, foncier accessible (~3 500 €/m²), accès TGV. (3) Grenoble — métropole, climat de vallée plus chaud, mais services maximaux (université, CHU, recherche), foncier accessible. Quartiers en hauteur (Chartreuse pied, Vercors pied) > vallée centrale. (4) Aix-les-Bains — climat de lac (Bourget), tempéré, services thermalisme, foncier accessible. (5) Albertville, Saint-Jean-de-Maurienne — vallées dynamiques industrielles, foncier très accessible, climat de vallée.",
+      },
+      {
+        heading: "Vrai refuge climatique : plateaux et bourgs altitude",
+        body: "(1) Bauges (Le Châtelard, Lescheraines) — plateau 600-900 m, climat préservé, foncier raisonnable, proche Annecy/Chambéry. Refuge climatique exemplaire. (2) Vercors (Villard-de-Lans, Lans-en-Vercors, Autrans, Méaudre) — plateau 1000-1100 m, climat tempéré été, neige hiver, fibre, services suffisants. Excellent pari 2040. (3) Chartreuse (Saint-Pierre-de-Chartreuse, Le Sappey) — montagne 900-1200 m, climat préservé, proche Grenoble. (4) Briançonnais (Briançon, Vallouise) — altitude 1300+ m, climat préservé, bourgs structurants, mais ski en transition (Serre-Chevalier 1400-2800 m, mixte). (5) Beaufortain (Beaufort, Hauteluce) — vallée 700-1000 m, climat préservé, foncier en hausse mais accessible. (6) Tarentaise et Maurienne hautes (Bourg-Saint-Maurice, Saint-Michel-de-Maurienne) — vallée chaude mais accès stations altitude.",
+      },
+      {
+        heading: "Zones à arbitrer prudemment",
+        body: "(1) Stations ski moyenne montagne (1000-1500 m) — Megève bas, Combloux, Saint-Gervais bas, Pralognan, Aussois, La Norma, Notre-Dame-de-Bellecombe : enneigement en chute, modèle économique en transition, foncier sous pression baissière long-terme. (2) Vallée de l'Arve (Bonneville, Cluses, Sallanches) — pollution chronique hivernale (combustion + relief), réchauffement aggravant. (3) Vallée du Grésivaudan (Crolles, Le Touvet basse) — climat de vallée chaud, ozone été, mais accès Grenoble/Chambéry. (4) Côte Léman bas (Évian, Thonon) — climat doux mais saturation touristique et foncier élevé. (5) Plaines d'Embrun, Gap basse altitude — climat chaud sec, sécheresse en hausse.",
+      },
+      {
+        heading: "L'enjeu 2040 : économie ski en mutation",
+        body: "Les stations ski moyenne montagne (1000-1500 m) sont menacées économiquement : (1) Stations <1500 m : modèle 'tout neige' obsolète, transition forcée vers 4 saisons (VTT, randonnée, thermalisme). Réinvestissement public coûteux. (2) Stations 1500-1800 m : enneigement de plus en plus dépendant canons artificiels (eau, électricité, coûts). (3) Stations >1800 m : restent viables 2040+, mais concentration touristique accrue. Conséquence achat immobilier : (a) Acheter résidence secondaire moyenne montagne = pari risqué long-terme. (b) Acheter résidence principale dans bourg structurant >700 m avec services + accès stations altitude = bon pari. (c) Investir locatif saisonnier : viser stations 1800+ m ou alternative 4 saisons (Vercors, Chartreuse, Briançonnais).",
+      },
+      {
+        heading: "Adaptations stratégiques achat 2026-2030",
+        body: "(1) Pour métropoles vallées (Grenoble, Chambéry) : viser quartiers en hauteur (Chartreuse pied, Vercors pied, Bois Français, Le Touvet haut) plutôt que centre-ville chaud. DPE A-C, climatisation réversible. (2) Pour refuge altitude : Vercors, Chartreuse, Bauges, Beaufortain à 700-1200 m. Vérifier fibre (couverture inégale), accès route hivernale, services médicaux. (3) Pour station ski : préférer >1500 m, viser communauté communale avec stratégie 4 saisons. (4) Vérifier risque incendie/glissement terrain (PPRIF, PPRN), historique inondations torrents. (5) Bâti pierre + bois : inertie thermique avantage, mais isolation toiture obligatoire. (6) Eau : vérifier ressource communale (sources, nappes), historique restrictions.",
+      },
+      {
+        heading: "Le calcul honnête : altitude moyenne 700-1200 m = meilleur pari",
+        body: "Les Alpes 2040 offrent un éventail unique : grandes vallées chaudes nécessitant adaptation lourde (Grenoble, Chambéry), refuges altitude excellents (Vercors, Chartreuse, Bauges, Beaufortain, Briançonnais), stations ski en transition complexe. Le bon pari pour 2040 : (1) Métropole Annecy/Chambéry/Grenoble = qualité service + climat encore tenable avec adaptation. (2) Plateau ou bourg structurant 700-1200 m = refuge climatique fort, foncier raisonnable, fibre. (3) Éviter résidence secondaire ski <1800 m sans projet patrimonial clair. Sous-coté : Beaufortain, Bauges, et Briançonnais qui cumulent altitude, services, foncier accessible et beauté. Région globalement bien positionnée pour 2040, à condition d'arbitrer altitude vs vallée.",
+      },
+    ],
+    relatedCities: ["annecy", "chambery", "grenoble", "briancon", "albertville"],
+    relatedGuides: [
+      "ou-vivre-france-meteo-qualite-air-2026",
+      "annecy-vs-chambery-comparatif-2026",
+      "meilleures-villes-randonnee-trail-france-2026",
+      "climat-2040-vallee-du-rhone-axe-lyon-avignon",
+      "climat-2040-massif-central-montagne-refuge",
+    ],
+    tags: ["climat 2040", "Alpes", "Savoie", "Annecy", "Grenoble", "altitude", "ski", "glaciers", "refuge climatique"],
+  },
+  {
+    slug: "climat-2040-outre-mer-drom-cyclones-mer",
+    title: "Climat 2040 en Outre-mer — cyclones, montée des eaux, sécheresse dans les DROM",
+    metaTitle: "Climat 2040 DROM : Réunion, Martinique, Guadeloupe, Guyane, Mayotte — guide",
+    metaDesc:
+      "Les DROM face à 2040 : cyclones plus intenses, montée Atlantique/Caraïbes, sécheresse, biodiversité menacée. Où vivre, où arbitrer dans l'outre-mer.",
+    category: "lifestyle",
+    emoji: "🌴",
+    readMinutes: 9,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "Les DROM (Réunion, Martinique, Guadeloupe, Guyane, Mayotte) sont parmi les territoires français les plus exposés au dérèglement climatique : cyclones plus intenses, montée des eaux marines, sécheresses estivales, biodiversité menacée. Pour 2040, chaque île a son profil spécifique. Voici la lecture territoire par territoire, honnête et sans cliché tropical.",
+    sections: [
+      {
+        heading: "Ce qui change d'ici 2040 (projections GIEC + Météo-France)",
+        body: "Réchauffement : +1,5 à +2,5 °C selon DROM d'ici 2040. Cyclones : pas plus fréquents mais plus intenses — proportion de cyclones catégorie 4-5 en hausse (Irma 2017 Saint-Martin, Maria 2017 Caraïbes = avant-goût). Montée marine : +15-25 cm d'ici 2050, +30-60 cm d'ici 2100 — fortement impactant pour îles basses (Mayotte, certaines parties Guadeloupe). Sécheresse : déficits hydriques saison sèche en hausse 30-50 % Antilles. Biodiversité : récifs coralliens en blanchissement (50 %+ déjà touchés Caraïbes), forêts tropicales sous pression. Eau : tension structurelle Martinique, Guadeloupe, Mayotte. Énergie : dépendance import combustibles fossiles fragile.",
+      },
+      {
+        heading: "La Réunion : altitude protectrice, côte exposée",
+        body: "Île volcanique avec gradient altitudinal exceptionnel (du niveau mer au Piton des Neiges 3070 m). Avantage 2040 : refuge altitude possible (Plaine des Cafres ~1500 m, Cilaos ~1200 m, Plaine des Palmistes ~1000 m). Côte ouest sèche (Saint-Paul, Saint-Leu) : sécheresse aggravée. Côte est pluvieuse (Saint-Benoît, Sainte-Rose) : exposée cyclones et fortes précipitations. Saint-Denis et Saint-Pierre : métropoles littorales, exposition cyclones, montée marine modérée. Économie : tourisme + agriculture canne sous pression climatique. Pour acheter : viser hauteurs (Le Tampon, Saint-Pierre hauts, La Plaine-des-Palmistes, Hell-Bourg) plutôt que littoral direct.",
+      },
+      {
+        heading: "Martinique : ressource eau critique 2040",
+        body: "Île d'environ 1100 km², sans gradient altitudinal majeur (Montagne Pelée 1397 m mais peu de plateaux). Vulnérabilités 2040 : (1) Eau — Martinique connaît crises hydriques récurrentes (2020, 2022) liées à infrastructure vétuste + sécheresse. Projeté à empirer 2040. (2) Cyclones — exposition Atlantique-Caraïbes. (3) Pollution chlordécone — héritage agricole, contamination terres et eaux. (4) Sargasses — échouages massifs algues sur côtes (impact santé respiratoire, tourisme). Pour acheter : Fort-de-France et Schoelcher restent métropoles services, hauteurs Pelée (Morne-Rouge, Ajoupa-Bouillon) offrent fraîcheur relative, côte Caraïbe ouest plus protégée cyclones que côte Atlantique. Vérifier chlordécone (cartes IGN dispo).",
+      },
+      {
+        heading: "Guadeloupe : archipel à risque inégal",
+        body: "Archipel hétérogène : Basse-Terre (volcanique, Soufrière 1467 m), Grande-Terre (plate, calcaire), Marie-Galante, Les Saintes, La Désirade. Vulnérabilités 2040 : (1) Cyclones — exposition forte (Maria 2017, Hugo 1989). (2) Sécheresse Grande-Terre (île plate) + Marie-Galante : tension hydrique chronique. (3) Sargasses côte Atlantique. (4) Tremblements terre (zone sismique active). Pour acheter : Basse-Terre (hauteurs Pointe-Noire, Vieux-Habitants) offre relief protecteur, mais accès Pointe-à-Pitre (services) éloigné. Grande-Terre (Le Gosier, Sainte-Anne) : services + climat sec, mais cyclone + sécheresse cumulés. Marie-Galante, Saintes, Désirade : beauté mais services limités, vulnérabilité maximale.",
+      },
+      {
+        heading: "Guyane : forêt tropicale et sécurité",
+        body: "Département le plus vaste de France (~84 000 km²), 96 % forêt amazonienne. Population concentrée littoral (Cayenne, Kourou, Saint-Laurent). Climat équatorial : chaud humide toute l'année, deux saisons (sèche court, pluies long). Évolution 2040 : (1) Saison sèche intensifiée, risque incendies forêt en hausse. (2) Précipitations pluies plus violentes, inondations Maroni, Oyapock. (3) Montée marine côte basse — Cayenne, Sinnamary, certaines zones vulnérables. (4) Biodiversité : pression orpaillage illégal et déforestation continue. Pour acheter : Cayenne reste centre services, Kourou structuré (spatial), Saint-Laurent fragile sécurité. Profil très spécifique — pas un refuge climatique pour métropolitain hexagonal.",
+      },
+      {
+        heading: "Mayotte : île la plus exposée 2040",
+        body: "101e département (2011), île de 374 km², Grande-Terre + Petite-Terre. Cumule en 2040 : (1) Montée marine — zones basses Mamoudzou nord, Petite-Terre fortement exposées. Sismicité active 2018+. (2) Sécheresse — crise hydrique chronique (2017, 2023 ruptures eau potable). Ressource déjà critique. (3) Cyclones tropicaux — exposition canal Mozambique. (4) Croissance démographique rapide + pression migratoire (Comores) + précarité bâti. (5) Services publics sous tension. Vulnérabilité maximale en France métropolitaine + outre-mer. Pour acheter : profil ultra-spécifique (mahorais natif, fonction publique mutée, mission spécifique). Pas un choix climatique 2040 raisonnable pour métropolitain.",
+      },
+      {
+        heading: "Adaptations stratégiques achat DROM 2026-2030",
+        body: "(1) Vérifier PPR (Plans Prévention Risques) : cyclones, submersion marine, mouvements terrain, séismes. Document mairie. (2) Cibler altitude pour Réunion, Martinique, Basse-Terre : refuges climatiques relatifs. (3) Bâti anti-cyclonique obligatoire : toiture renforcée, volets cyclone, ancrages structurels. Vérifier conformité norme cyclone. (4) Eau : citerne récupération pluie pertinente partout (sécheresses chroniques), vérifier réseau communal. (5) Énergie : solaire massivement pertinent, autonomie partielle valorisable. (6) Sismicité Antilles + Mayotte : bâti aux normes parasismiques. (7) Chlordécone Martinique-Guadeloupe : cartes IGN, éviter terres contaminées pour potager. (8) Assurances : primes en forte hausse, certains assureurs refusent zones rouges.",
+      },
+      {
+        heading: "Le calcul honnête : DROM = choix de vie, pas refuge climatique",
+        body: "Les DROM 2040 ne sont pas des refuges climatiques pour métropolitains hexagonaux — ce sont des territoires complexes, beaux, riches culturellement, mais avec contraintes climatiques croissantes (cyclones, eau, montée marine) et fragilités économiques structurelles. Le bon profil pour acheter : attachement personnel/familial, projet professionnel solide (fonction publique, santé, éducation), capacité financière pour bâti adapté, résilience aux ruptures (eau, électricité, transport). Pour qui cherche climat doux et services métropolitains rapides : rester hexagonal. Pour qui s'engage avec lucidité : Réunion hauteurs > Martinique nord montagne > Basse-Terre Guadeloupe > Grande-Terre > Guyane Kourou. Mayotte : choix uniquement justifié par engagement personnel fort.",
+      },
+    ],
+    relatedCities: ["saint-denis-reunion", "fort-de-france", "pointe-a-pitre", "cayenne", "mamoudzou"],
+    relatedGuides: [
+      "ou-vivre-france-meteo-qualite-air-2026",
+      "vivre-en-outre-mer-guide-2026",
+      "expatries-retour-france-quelle-ville-2026",
+      "climat-2040-facade-atlantique-france",
+      "familles-expatriees-retour-france-quelle-ville-2026",
+    ],
+    tags: ["climat 2040", "Outre-mer", "DROM", "cyclones", "Réunion", "Martinique", "Guadeloupe", "Mayotte", "montée des eaux"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
