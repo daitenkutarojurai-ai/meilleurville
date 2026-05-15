@@ -420,8 +420,8 @@ Toulouse, Grenoble, Rennes, Montpellier, Nice — all have strong tram/vélo net
 ### R4.2 — Extend "Acheter à X" series (+5 cities)
 Bordeaux, Nantes, Strasbourg, Rennes, Montpellier — all in active price-discovery zone post-2024 dip. Same pattern: prix m² par quartier → budget brackets → quartiers en hausse → calcul honnête.
 
-### R4.3 — Add 10 more comparer pairs to `SEO_PAIRS`
-The `comparer/[pair]` route only builds pages for whitelisted slug pairs. Current list misses high-volume queries (Bordeaux vs Toulouse, Lyon vs Marseille, Rennes vs Nantes already there). Add 10 underserved pairs.
+### R4.3 — Add 10 more comparer pairs to `SEO_PAIRS` ✅
+**Shipped 2026-05-15.** Added 10 high-volume pairs: lyon-marseille, angers-le-mans, caen-le-havre, grenoble-chambery, clermont-limoges, poitiers-limoges, reims-strasbourg, lille-valenciennes, valence-lyon, thonon-annemasse.
 
 ### R4.4 — Reading-list at end of each guide
 Below relatedGuides, add a "Lire ensuite" auto-suggest based on category overlap + city overlap (not just hardcoded). Improves session duration and PageRank distribution.

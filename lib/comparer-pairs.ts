@@ -616,6 +616,17 @@ export const SEO_PAIRS: ReadonlyArray<readonly [string, string]> = [
   ["delle", "belfort"],
   ["riberac", "perigueux"],
   ["le-mans", "tours"],
+  // R4.3 — 10 high-volume pairs added 2026-05-15
+  ["lyon", "marseille"],
+  ["angers", "le-mans"],
+  ["caen", "le-havre"],
+  ["grenoble", "chambery"],
+  ["clermont-ferrand", "limoges"],
+  ["poitiers", "limoges"],
+  ["reims", "strasbourg"],
+  ["lille", "valenciennes"],
+  ["valence", "lyon"],
+  ["thonon-les-bains", "annemasse"],
 ] as const;
 
 const KNOWN_CITY_SLUGS = new Set(CITIES_SEED.map((c) => c.slug));
