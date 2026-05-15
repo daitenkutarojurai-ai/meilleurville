@@ -13589,6 +13589,165 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["climat 2040", "vallée du Rhône", "Lyon", "Valence", "Avignon", "canicule", "ozone", "mistral", "Drôme", "Ardèche"],
   },
+  {
+    slug: "climat-2040-normandie-cotentin-cote",
+    title: "Climat 2040 en Normandie — Cotentin, côte d'Albâtre, intérieur face au réchauffement",
+    metaTitle: "Climat 2040 Normandie : Caen, Rouen, Cherbourg, côte d'Albâtre — guide",
+    metaDesc:
+      "La Normandie face à 2040 : tempêtes Manche, montée des eaux, étés tempérés, intérieur préservé. Où vivre du Cotentin à la Seine, sans cliché.",
+    category: "lifestyle",
+    emoji: "🐄",
+    readMinutes: 8,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "La Normandie est souvent vue comme un refuge climatique nord-européen : pluies fiables, étés tempérés, verdure éternelle. Pour 2040, c'est partiellement vrai — l'intérieur reste un excellent pari, mais la côte (Cotentin, côte d'Albâtre, baie de Seine) entre dans une zone d'arbitrage sérieux entre tempêtes, érosion et montée des eaux. Voici la lecture honnête.",
+    sections: [
+      {
+        heading: "Ce qui change d'ici 2040 (projections)",
+        body: "Réchauffement : +1,5 à +2,5 °C à 2040 vs 1981-2010, parmi les plus modérés de France métropolitaine grâce à l'influence océanique. Caen, Rouen : ~12-15 jours/an >30 °C en 2040 (vs ~5 aujourd'hui), pointes 35 °C. Cherbourg : ~5 jours/an, climat océanique stricte. Le Havre : ~10 jours/an. Tempêtes hivernales : intensité accrue Manche, vents 130+ km/h plus fréquents. Montée marine : +15-25 cm 2050 — exposition forte certains secteurs Cotentin est, baie de Seine, côte d'Albâtre falaises (érosion). Pluviométrie : globalement stable, légère hausse hivernale, sécheresses estivales nouvelles dans le Bessin et Pays d'Auge.",
+      },
+      {
+        heading: "Métropoles et villes bien positionnées 2040",
+        body: "(1) Caen — métropole équilibrée, université, hôpital CHU, TGV-TER Paris 2h, climat océanique tempéré. Foncier accessible (~2 500 €/m²). (2) Rouen — métropole, services complets, TGV Paris 1h15, climat tempéré, foncier raisonnable. (3) Cherbourg — climat océanique frais, port militaire structurant, foncier très accessible (~1 800 €/m²) mais isolement transport. (4) Alençon — préfecture Orne, climat tempéré, foncier très bas, isolement modéré. (5) Saint-Lô — préfecture Manche reconstruite, foncier accessible, climat tempéré. (6) Bourgs intérieurs (Vire, Lisieux, Évreux, Dieppe centre) — climat tempéré, foncier varié selon attractivité.",
+      },
+      {
+        heading: "Côte normande : arbitrage sérieux",
+        body: "(1) Côte d'Albâtre (Étretat, Fécamp, Yport, Veules-les-Roses) — falaises calcaires en érosion documentée (recul jusqu'à 50 cm/an certains secteurs). Beauté patrimoniale réelle mais valeur foncière des biens en front de falaise menacée d'ici 2040-2050. (2) Côte fleurie (Deauville, Trouville, Houlgate, Cabourg) — front de mer attractif mais exposition submersion zones basses, érosion de plage. PPRL strict. (3) Cotentin côte est (Carentan, Saint-Vaast, Barfleur) — exposition montée des eaux + tempêtes Manche. (4) Cotentin pointe et côte ouest (Granville, Coutances, Avranches) — exposition modérée mais tempêtes fortes. (5) Le Havre — port industriel reconstruit, certaines zones basses (Saint-François) à examiner PPRL.",
+      },
+      {
+        heading: "Intérieur normand : excellent pari 2040",
+        body: "(1) Pays d'Auge (Lisieux, Pont-l'Évêque, Beaumont-en-Auge) — bocage, climat tempéré, beauté patrimoniale, accessibilité TGV via Lisieux. (2) Suisse normande (Clécy, Thury-Harcourt, Falaise) — vallée de l'Orne, collines, climat tempéré, refuge naturel proche Caen. (3) Bessin intérieur (Bayeux, Saint-Lô intérieur) — bocage, climat tempéré, foncier accessible. (4) Pays de Bray (Forges-les-Eaux, Gournay-en-Bray) — collines, bocage, climat doux, accès Paris via TER. (5) Perche normand (Mortagne, Bellême) — climat tempéré, foncier bas, télétravail-friendly. (6) Eure intérieur (Bernay, Verneuil) — bocage, accès Paris via TER, foncier accessible.",
+      },
+      {
+        heading: "Le sujet 2040 : tempêtes hivernales et inondations",
+        body: "Au-delà du réchauffement, le risque normand 2040 c'est l'intensification des tempêtes hivernales (sillage Xynthia + 'Ciaran' 2023). Conséquences : (1) Vents 130+ km/h plus fréquents — toitures et arbres à surveiller. (2) Inondations Seine, Risle, Orne, Vire en hausse — vérifier PPRI avant achat fond de vallée. (3) Falaises côte d'Albâtre : éboulements multipliés — éviter biens en surplomb ou pied de falaise. (4) Submersion polders Cotentin est et marais de Carentan : zones à examiner sérieusement. (5) Sécheresse estivale émergente : Bessin et Pays d'Auge ont connu déficits hydriques 2022-2023 — restrictions agricoles probables.",
+      },
+      {
+        heading: "Adaptations stratégiques achat 2026-2030",
+        body: "(1) Côte : vérifier PPRL et altitude (5 m NGF mini dans rayon 1 km côte), distance recul falaise (50 m mini), historique éboulements communaux (Géorisques). (2) Intérieur : vérifier PPRI vallées Seine, Orne, Vire, Risle. (3) Bâti pierre/colombages : isolation thermique souvent faible (DPE E-G), anticiper rénovation 30-60 k€. (4) Toiture : ardoise robuste + fixation renforcée (vents), vérifier état. (5) Chauffage : pompe à chaleur ou granulés bois plus pertinents qu'électrique direct vu hivers tempérés mais humides. (6) Fibre : couverture inégale en bocage profond — vérifier ARCEP commune par commune.",
+      },
+      {
+        heading: "Le calcul honnête : intérieur > côte (sauf bourgs élevés)",
+        body: "La Normandie 2040 est l'une des régions les mieux positionnées climatiquement de France métropolitaine, mais cette force se concentre sur l'intérieur. La côte (Albâtre falaises, Cotentin est, baie de Seine) entre dans une zone d'incertitude sérieuse — tempêtes, érosion, submersion. Pour qui cherche une terre stable, accessible et préservée : intérieur normand (Pays d'Auge, Suisse normande, Perche, Bessin intérieur, Pays de Bray) coche toutes les cases — climat tempéré, foncier abordable, accès Paris/Caen/Rouen, patrimoine, bocage. Pour la côte : viser bourgs en hauteur (Cherbourg ville haute, Granville Roc, Caen plutôt qu'Ouistreham) plutôt que front de mer direct.",
+      },
+    ],
+    relatedCities: ["caen", "rouen", "cherbourg", "le-havre", "alencon"],
+    relatedGuides: [
+      "ou-vivre-france-meteo-qualite-air-2026",
+      "vivre-en-normandie-interieure-guide-2025",
+      "teletravailler-depuis-normandie-guide-2026",
+      "caen-vs-rouen-comparatif-2026",
+      "climat-2040-facade-atlantique-france",
+    ],
+    tags: ["climat 2040", "Normandie", "Cotentin", "côte d'Albâtre", "tempêtes", "érosion", "réchauffement", "bocage"],
+  },
+  {
+    slug: "climat-2040-centre-val-de-loire-vallee",
+    title: "Climat 2040 en Centre-Val de Loire — vallée de la Loire, Beauce, Berry face au réchauffement",
+    metaTitle: "Climat 2040 Centre-Val de Loire : Tours, Orléans, Bourges, Loire — guide",
+    metaDesc:
+      "Le Centre-Val de Loire face à 2040 : climat continental, sécheresses Beauce, vignobles Loire, refuge intermédiaire entre Paris et Sud. Analyse honnête.",
+    category: "lifestyle",
+    emoji: "🏰",
+    readMinutes: 8,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "Le Centre-Val de Loire occupe une position singulière : à mi-chemin entre Paris et le Sud, avec un climat continental modéré qui se réchauffe vite, et un patrimoine fluvial (Loire) en transformation. Pour 2040, la région cumule atouts (foncier accessible, accès Paris-Sud, vignobles patrimoniaux) et fragilités (sécheresses Beauce, étiages Loire). Voici la lecture honnête.",
+    sections: [
+      {
+        heading: "Ce qui change d'ici 2040 (projections)",
+        body: "Réchauffement : +2 à +3 °C à 2040 vs 1981-2010, taux d'évolution proche bassin parisien. Tours : ~25 jours/an >30 °C en 2040 (vs ~10 aujourd'hui), pointes 37-39 °C. Orléans : ~22 jours/an. Bourges : ~25 jours/an. Châteauroux : ~25 jours/an. Sécheresse : c'est le sujet majeur — Beauce et Sologne en stress hydrique chronique, nappe phréatique de Beauce en baisse de 2-3 m depuis 2000. Loire et affluents : étiages estivaux sévères (Loire en 2022 et 2023 à des niveaux historiquement bas). Restrictions d'eau agricoles confirmées chaque été. Vignobles : Vouvray, Chinon, Sancerre, Pouilly-Fumé en transition climatique — dates vendanges avancées, cépages à adapter.",
+      },
+      {
+        heading: "Métropoles bien positionnées 2040",
+        body: "(1) Tours — métropole équilibrée, TGV Paris 1h, université, services complets, climat tempéré-continental, foncier accessible (~2 800 €/m²). Bonne position 2040. (2) Orléans — TGV/Intercités Paris 1h, université, foncier accessible, climat continental. (3) Bourges — préfecture Cher, climat continental, foncier très accessible (~1 500 €/m²), patrimoine préservé. (4) Blois — château Loire, climat tempéré, foncier raisonnable, TER Paris-Tours. (5) Chartres — climat océanique-continental, TGV Paris 50 min, foncier accessible, patrimoine fort. (6) Châteauroux — préfecture Indre, climat continental, foncier très bas, isolement modéré.",
+      },
+      {
+        heading: "Vallée de la Loire : pari patrimonial à arbitrer",
+        body: "Vivre 'au bord de Loire' garde un attrait fort, mais 2040 impose réflexion : (1) Étiages estivaux sévères transforment le paysage fluvial — Loire à des niveaux de barques échouées juin-septembre. (2) Inondations hivernales possibles si épisodes pluvieux intenses (vérifier PPRI). (3) Quartiers bas Tours (Saint-Cyr, La Riche), Orléans (Saint-Marceau bas), Saumur (bord Loire) : PPRI strict, valeur foncière sous pression. (4) Quartiers en hauteur ou en arrière-plan : Saint-Symphorien (Tours), Madeleine (Orléans), Saint-Hilaire (Saumur) — meilleur compromis vue/risque.",
+      },
+      {
+        heading: "Beauce et Sologne : sécheresse structurelle",
+        body: "(1) Beauce (Chartres-Étampes-Pithiviers-Orléans nord) — grande plaine céréalière, sécheresse chronique 2040, nappe phréatique en baisse, restrictions agricoles. Pas un refuge climatique. (2) Sologne (Romorantin, La Ferté-Saint-Aubin) — étangs en stress, forêts plus sèches, risque incendie en hausse. Beauté patrimoniale réelle mais résilience climatique faible. (3) Communes rurales Loiret/Loir-et-Cher/Cher : désertification médicale et scolaire avancée. À choisir seulement avec télétravail solide + autonomie.",
+      },
+      {
+        heading: "Berry et Sud Indre : oubli stratégique 2040",
+        body: "Le Berry (Bourges, Saint-Amand-Montrond, La Châtre, Argenton) cumule en 2026 : prix m² parmi les plus bas de France métropolitaine (~1 200-1 800 €), climat continental tempéré, ressource en eau correcte (Cher, Indre), patrimoine, accès Paris-Sud par autoroute A20. Pour 2040 : (1) Sécheresses estivales en hausse mais moindre que Beauce. (2) Désertification médicale (déserts médicaux confirmés). (3) Forêts (Châteauroux, La Brenne) en stress hydrique. (4) Profil refuge pour télétravailleur + budget serré + autonomie. Sous-coté pour le moment.",
+      },
+      {
+        heading: "Adaptations stratégiques achat 2026-2030",
+        body: "(1) Tours, Orléans, Chartres : viser DPE A-C, climatisation réversible, quartiers arborés ou hauteurs plutôt que centres denses. (2) Loire bord : vérifier PPRI strictement, altitude vs Loire, historique inondations communales. (3) Beauce/Sologne : éviter ou choisir en pleine conscience (sécheresse, désertification). (4) Berry/Indre : opportunité foncière réelle mais checker médecine, école, fibre. (5) Vignobles (Vouvray, Chinon, Sancerre) : transition viable mais ne pas surpayer un terroir en mutation rapide. (6) Toujours vérifier la fibre (ARCEP) — encore inégale en rural.",
+      },
+      {
+        heading: "Le calcul honnête : métropoles + Berry sous-coté",
+        body: "Le Centre-Val de Loire 2040 garde un atout majeur : c'est l'une des zones les plus accessibles de France (TGV/A10/A20/A71 vers Paris et Sud) avec des prix m² parmi les plus bas pour la qualité urbaine offerte. Tours et Orléans restent d'excellents paris 2040 pour qui veut métropole + Paris-proche + foncier raisonnable. Chartres et Blois patrimoniaux. Le sous-coté absolu : Bourges + Berry pour qui cherche budget serré + qualité de vie + Paris en 2h45. Le piège : la Beauce sèche et la Sologne en stress. La vraie stratégie : choisir la métropole ou le bourg structurant, éviter le rural sec sans télétravail + autonomie solide.",
+      },
+    ],
+    relatedCities: ["tours", "orleans", "bourges", "blois", "chartres"],
+    relatedGuides: [
+      "ou-vivre-france-meteo-qualite-air-2026",
+      "vivre-en-centre-val-de-loire-guide-2026",
+      "vivre-en-creuse-guide-2026",
+      "climat-2040-ile-de-france-paris",
+      "le-mans-vs-tours-comparatif-2026",
+    ],
+    tags: ["climat 2040", "Centre-Val de Loire", "Loire", "Beauce", "Sologne", "Berry", "Tours", "Orléans", "vignoble"],
+  },
+  {
+    slug: "climat-2040-bourgogne-franche-comte-jura",
+    title: "Climat 2040 en Bourgogne-Franche-Comté — Jura, Morvan, Saône face au réchauffement",
+    metaTitle: "Climat 2040 Bourgogne-Franche-Comté : Dijon, Besançon, Jura, Morvan — guide",
+    metaDesc:
+      "La Bourgogne-Franche-Comté face à 2040 : continentalité, refuge Jura/Morvan, vignobles en mutation, frontaliers Suisse. Analyse honnête.",
+    category: "lifestyle",
+    emoji: "🍇",
+    readMinutes: 8,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "La Bourgogne-Franche-Comté cumule trois géographies climatiques différentes : plaines viticoles continentales (Côte d'Or, Saône-et-Loire), refuge altitude (Morvan, Jura, plateau de Langres), et frontière suisse (frontaliers). Pour 2040, chaque zone a sa lecture spécifique — entre vignobles en mutation rapide et altitudes encore préservées. Voici l'analyse honnête.",
+    sections: [
+      {
+        heading: "Ce qui change d'ici 2040 (projections)",
+        body: "Réchauffement : +2 à +3 °C à 2040 vs 1981-2010, l'un des plus forts taux nationaux (effet continental). Dijon : ~25 jours/an >30 °C en 2040 (vs ~10 aujourd'hui), pointes 38 °C. Mâcon, Chalon-sur-Saône : 30+ jours/an, climat de plus en plus méridional. Besançon : ~20 jours/an. Belfort, Montbéliard : ~22 jours/an. Refuges altitude : Morvan (~600 m), Jura (~800-1000 m) — réchauffement modéré, fraîcheur estivale préservée. Sécheresse : déficits hydriques +30-40 % plaines, Saône en étiage chronique. Vignobles : Bourgogne en pleine transition — Pinot Noir stressé, dates vendanges avancées de 3 semaines vs 1980. Jura : neige raréfiée stations basses (<1000 m), saison ski raccourcie.",
+      },
+      {
+        heading: "Métropoles bien positionnées 2040",
+        body: "(1) Dijon — métropole de qualité, TGV Paris 1h35, université, services complets, climat continental qui chauffe (adaptation nécessaire). Foncier accessible (~2 700 €/m²). (2) Besançon — préfecture Doubs, climat continental modéré (effet Jura), université, qualité de vie élevée, foncier accessible. (3) Belfort, Montbéliard — pôle industriel Stellantis/Alstom, frontaliers Suisse possibles, climat tempéré-continental. (4) Mâcon, Chalon-sur-Saône — vallée de Saône, climat plus chaud, accès TGV, foncier accessible. (5) Auxerre — préfecture Yonne, climat continental, TER Paris, foncier très accessible (~1 600 €/m²).",
+      },
+      {
+        heading: "Jura et frontaliers : pari fort 2040",
+        body: "(1) Pontarlier (~840 m) — climat froid mais réchauffement, frontaliers Suisse vers Neuchâtel/Vallée de Joux, foncier accessible (~2 200 €/m²). Refuge altitude + emploi rémunérateur. (2) Morteau, Maîche, Villers-le-Lac — bourgs frontaliers, altitude 700-900 m, salaires suisses, foncier abordable. Très bonne combinaison 2040. (3) Saint-Claude, Champagnole — Jura intérieur, altitude, climat préservé, foncier très bas, mais éloignement frontière. (4) Lons-le-Saunier — préfecture Jura, climat plus tempéré, foncier accessible, services préfecture. (5) Plateau d'Orgelet, Plateau de Nozeroy — refuge altitude marqué, isolement réel, foncier dérisoire.",
+      },
+      {
+        heading: "Morvan et Châtillonnais : refuge oublié",
+        body: "Le Morvan (Saulieu, Château-Chinon, Avallon) et le Châtillonnais (Châtillon-sur-Seine, Recey-sur-Ource) cumulent en 2026 : foncier dérisoire (~1 000-1 500 €/m²), altitude amortisseuse (300-900 m), forêts résilientes, eau correcte, accès Paris-Lyon par A6/A38. Pour 2040 : (1) Climat très tempéré préservé (étés < 20 jours >30 °C). (2) Désertification réelle (médecine, école, services). (3) Profil refuge fort pour télétravailleur + autonomie + budget bas. (4) Risque incendie forêt Morvan en hausse mais limité vs Sud. Sous-coté massivement.",
+      },
+      {
+        heading: "Vignobles bourguignons : mutation climatique",
+        body: "Bourgogne viticole (Côte de Nuits, Côte de Beaune, Mâconnais, Chablis) est en pleine transition : (1) Pinot Noir, cépage emblématique, est stressé thermiquement — qualité variable selon parcelle/altitude/exposition. (2) Chardonnay s'adapte mieux mais avec acidité en baisse. (3) Cépages méridionaux testés (essais Syrah, Grenache) mais identité Bourgogne en question. (4) Foncier viticole reste cher (Beaune, Vosne-Romanée) — prime patrimoniale persistante mais valeur agricole sous pression. (5) Pour vivre dans le vignoble : Beaune, Nuits-Saint-Georges, Meursault attirent profils premium, mais saisonnalité touristique + foncier saturé.",
+      },
+      {
+        heading: "Adaptations stratégiques achat 2026-2030",
+        body: "(1) Dijon, Mâcon, Chalon : DPE A-C, climatisation réversible, quartiers arborés/hauteurs plutôt que centres denses. (2) Jura frontalier : pari fort mais checker accès frontière (douane, route, neige hiver) et fibre. (3) Morvan/Châtillonnais : opportunité réelle mais checker fibre (encore inégale), médecine, école. (4) Vignobles : ne pas surpayer un terroir en mutation rapide, préférer parcelles altitude/exposition nord/est. (5) Saône : vérifier PPRI plaines inondables. (6) Bâti pierre épaisse : DPE moyen mais inertie thermique = avantage canicule, bon point.",
+      },
+      {
+        heading: "Le calcul honnête : Jura frontalier + Morvan + Besançon",
+        body: "La Bourgogne-Franche-Comté 2040 offre trois paris distincts : (1) Jura frontalier (Pontarlier, Morteau, Maîche) — refuge climatique altitude + salaires suisses + foncier accessible = combinaison rare. (2) Morvan/Châtillonnais — refuge tranquille pour télétravailleur autonome, foncier dérisoire. (3) Besançon — métropole de qualité, foncier accessible, climat amorti par Jura proche. Le piège : plaines viticoles bourguignonnes (Côte d'Or basse, Mâconnais sec) qui basculent vers climat méridional + foncier déjà cher. Dijon reste un bon pari métropole pour qui adapte le bâti. Région globalement sous-cotée pour 2040 — surtout Jura et Morvan.",
+      },
+    ],
+    relatedCities: ["dijon", "besancon", "belfort", "pontarlier", "macon"],
+    relatedGuides: [
+      "ou-vivre-france-meteo-qualite-air-2026",
+      "vivre-en-bourgogne-franche-comte-guide-2025",
+      "teletravailler-depuis-bourgogne-guide-2026",
+      "dijon-vs-lyon-comparatif-2026",
+      "climat-2040-grand-est-alsace-lorraine",
+    ],
+    tags: ["climat 2040", "Bourgogne", "Franche-Comté", "Jura", "Morvan", "frontaliers Suisse", "vignoble", "Dijon", "Besançon"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------

@@ -160,7 +160,28 @@ npm run lint         # 25 errors remaining (all react/no-unescaped-entities, cos
 
 ## Content roadmap — guides (`data/guides.ts`)
 
-Current count: **288 guides**. Add via the pattern in this file — each guide needs `slug, title, metaTitle, metaDesc, category, emoji, readMinutes, publishedAt, updatedAt, intro, sections[], relatedCities[], relatedGuides[], tags[]`. All copy in **French**, direct voice, data-led. No silent fake figures.
+Current count: **298 guides**. Add via the pattern in this file — each guide needs `slug, title, metaTitle, metaDesc, category, emoji, readMinutes, publishedAt, updatedAt, intro, sections[], relatedCities[], relatedGuides[], tags[]`. All copy in **French**, direct voice, data-led. No silent fake figures.
+
+### Série "Climat 2040" 2026
+Category `"lifestyle"`. Macro-régionales, forward-looking, données Météo-France ARPEGE + Cerema + GIEC.
+
+| Macro-région | Slug | Status |
+|--------------|------|--------|
+| Sud-Est méditerranéen | `climat-2040-sud-est-mediterraneen-france` | ✅ done |
+| Façade Atlantique | `climat-2040-facade-atlantique-france` | ✅ done |
+| Île-de-France / Paris | `climat-2040-ile-de-france-paris` | ✅ done |
+| Massif Central / montagne | `climat-2040-massif-central-montagne-refuge` | ✅ done |
+| Bretagne | `climat-2040-bretagne-cote-interieure` | ✅ done |
+| Hauts-de-France / Nord | `climat-2040-nord-hauts-de-france` | ✅ done |
+| Grand Est | `climat-2040-grand-est-alsace-lorraine` | ✅ done |
+| Sud-Ouest / Pyrénées | `climat-2040-sud-ouest-pyrenees-bassin-aquitain` | ✅ done |
+| Vallée du Rhône | `climat-2040-vallee-du-rhone-axe-lyon-avignon` | ✅ done |
+| Normandie / Côte / Cotentin | `climat-2040-normandie-cotentin-cote` | ✅ done |
+| Centre-Val de Loire / Loire | `climat-2040-centre-val-de-loire-vallee` | ✅ done |
+| Bourgogne-Franche-Comté / Jura | `climat-2040-bourgogne-franche-comte-jura` | ✅ done |
+| Outre-mer / DROM | _todo_ | ⏳ |
+| Corse | _todo_ | ⏳ |
+| Auvergne-Rhône-Alpes (Alpes / Savoie) | _todo_ | ⏳ |
 
 ### Série "Quitter X" 2026
 Track big cities — one guide per city, category `"comparaison"`.
