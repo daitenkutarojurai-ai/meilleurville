@@ -14319,6 +14319,279 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["maison de campagne", "rural", "fibre", "rénovation", "DPE", "PPRI", "campagne vivable", "néo-ruraux", "2026"],
   },
+  {
+    slug: "acheter-avant-40-ans-strategie-france-2026",
+    title: "Acheter avant 40 ans en France 2026 — stratégie par profil",
+    metaTitle: "Acheter avant 40 ans France 2026 : stratégie par profil — guide",
+    metaDesc:
+      "Acheter sa résidence principale avant 40 ans en 2026 : 5 profils (cadre seul, couple dual-income, freelance, parent solo, expat retour), villes, financement, pièges.",
+    category: "budget",
+    emoji: "⏳",
+    readMinutes: 9,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "Acheter avant 40 ans permet d'amortir l'emprunt avant la retraite, de bénéficier des aides primo-accédants, et de se positionner sur le foncier alors que la situation professionnelle est encore mobile. Mais la stratégie diffère radicalement selon le profil. Voici la lecture 2026 par cas concret, sans recette universelle.",
+    sections: [
+      {
+        heading: "Pourquoi la fenêtre 30-40 ans est stratégique",
+        body: "(1) Banques prêtent jusqu'à 25 ans sans difficulté avant 40 ans (jusqu'à 65 ans en fin de prêt). Au-delà, durée se contracte. (2) PTZ accessible jusqu'à 35 ans pour primo-accédants, conditions ressources. (3) Mobilité professionnelle encore élevée — possibilité de bien choisir sa ville. (4) Constitution patrimoniale avant projet famille / chaufage retraite. (5) Loyers cumulés 30-40 ans = 100-200 k€ jamais récupérés en location, vs capital construit en achat. Le calcul honnête : acheter avant 40 ans est presque toujours plus rentable que rester locataire, sauf cas hypermobilité géographique professionnelle (changement de ville tous les 2-3 ans).",
+      },
+      {
+        heading: "Profil 1 — Cadre célibataire 30-35 ans",
+        body: "Salaire 3 500-5 500 €/mois, capacité d'emprunt 250-380 k€ + apport 30-50 k€. Stratégie : viser T2 ou T3 dans métropole secondaire avec potentiel revente/location à 10 ans si départ. Villes top : Lyon, Bordeaux, Toulouse, Nantes, Lille, Strasbourg, Montpellier. Sweet spot : T2 60 m² centre 220-300 k€ (Lyon Croix-Rousse, Bordeaux Chartrons, Toulouse Carmes). Évite : Paris intra-muros (capital insuffisant), résidence secondaire (mauvaise stratégie ce profil). Conseil : choisir ville où on peut envisager une décennie minimum, vs ville 'de passage'.",
+      },
+      {
+        heading: "Profil 2 — Couple dual-income 30-38 ans, sans enfant",
+        body: "Salaires cumulés 5 500-9 000 €/mois, capacité d'emprunt 400-650 k€ + apport 50-90 k€. Stratégie : peut viser T3-T4 dans métropole principale OU maison périurbaine. Villes top : Lyon, Bordeaux, Annecy, Toulouse, Bayonne, Strasbourg. Sweet spot : T3 75-90 m² centre (Lyon Brotteaux, Bordeaux Caudéran, Strasbourg Krutenau) ou maison 100-130 m² périurbain (couronne Nantes/Rennes/Toulouse). Anticipation enfants : éviter T2 limité, privilégier T3+ ou maison. Évite : achat trop urbain sans extension possible si famille s'agrandit. Conseil : commencer par louer 6-12 mois dans la ville cible avant achat — beaucoup de couples sous-estiment l'écart Paris/province.",
+      },
+      {
+        heading: "Profil 3 — Freelance / indépendant 30-40 ans",
+        body: "Revenus variables 3 000-7 000 €/mois selon mois, banques exigent 2-3 ans de bilans, capacité d'emprunt souvent réduite de 20-30 % vs salarié équivalent. Stratégie : maximiser apport (30-40 %+), cibler ville avec écosystème freelance pour activité long terme. Villes top : Nantes, Bordeaux, Toulouse, Lille, Rennes (cf. guide devenir freelance en province). Conseil financement : passer par courtier spécialisé indépendants (CAFPI, Vousfinancer). Stratégie bilan : 3 ans de bilans crois nécessaires avant offre, donc anticiper l'achat à 2-3 ans après lancement freelance. Évite : achat juste après lancement freelance sans historique, ville sans écosystème indépendant. Conseil clé : conserver 6 mois de trésorerie pro avant signature.",
+      },
+      {
+        heading: "Profil 4 — Parent solo 30-40 ans",
+        body: "Salaire unique 2 500-4 000 €/mois + APL/pension alimentaire, capacité d'emprunt 180-280 k€ + apport souvent limité (30-50 k€). Stratégie : viser ville avec services famille (école proche, pédiatre, espaces verts), foncier accessible, sécurité. Villes top : Rennes, Nantes, Angers, Tours, Reims, Strasbourg, Caen, Rouen. Sweet spot : T3 65-75 m² près école dans quartier sûr (240-300 k€). Évite : centres très urbains sans famille à proximité, communes isolées sans services. Conseil : prioriser proximité réseau familial/amical pour soutien quotidien, plus important que critère ville objectif. Aides : PTZ majoré famille monoparentale dans certaines zones, APL accession.",
+      },
+      {
+        heading: "Profil 5 — Expat retour 35-40 ans",
+        body: "Salaire élevé (souvent 5 000-12 000 €/mois si retour anglo-saxon ou Suisse), apport substantiel (souvent 100-200 k€), capacité d'emprunt forte mais profil bancaire complexe (historique français interrompu). Stratégie : viser ville accueillante expat + qualité de vie + accessibilité aéroport pour mobilité internationale future. Villes top : Lyon, Bordeaux, Toulouse, Aix-en-Provence, Strasbourg, Annecy (cf. guide expatriés retour). Sweet spot : maison ou grand appartement avec qualité de vie premium 400-700 k€. Évite : retour 'aux racines' bourg rural sans services si carrière internationale continue. Conseil : ouvrir compte bancaire français 6-12 mois avant retour pour constituer historique. Vérifier convention fiscale pays départ (CSG-CRDS sur revenus immobiliers, plus-value).",
+      },
+      {
+        heading: "Pièges classiques avant 40 ans",
+        body: "(1) **Acheter trop grand 'pour la famille future'** : T4 inutile pendant 5 ans, charges + entretien excessifs, foncier sur-payé. Acheter selon situation actuelle, revendre/agrandir au besoin. (2) **Acheter trop loin du travail** : 1h30 trajets quotidiens = qualité de vie effondrée. Maximum 45 min en réalité. (3) **Choisir ville par défaut** : 'mes parents sont là', 'mon conjoint a son boulot là' — sans choix actif, le bien acheté devient piège géographique à 10 ans. (4) **Sous-estimer charges** : taxe foncière + copro + assurance + entretien + énergie = 200-500 €/mois en plus du crédit. (5) **Acheter sans projet 5+ ans** : frais d'acquisition + revente avant 5 ans = perte sèche (notaire 7-8 % + commission 4-5 %). (6) **Surpayer le 'coup de cœur'** : marché 2024-2025 en baisse, négocier 5-12 % sous prix affichage est devenu standard.",
+      },
+      {
+        heading: "Le calcul honnête : acheter à 30-40 ans reste le meilleur pari",
+        body: "Sauf cas hypermobilité géographique professionnelle, acheter sa résidence principale entre 30 et 40 ans en France 2026 reste l'un des meilleurs paris patrimoniaux. La stratégie : choisir activement sa ville en cohérence avec son profil de vie 5-15 ans, ne pas surpayer le 'coup de cœur', anticiper la projection famille/carrière, et négocier ferme dans un marché en correction. La règle : si on hésite à acheter ou à louer, on continue à louer 6-12 mois et on observe le marché — pas de FOMO immobilier en 2026.",
+      },
+    ],
+    relatedCities: ["lyon", "bordeaux", "toulouse", "nantes", "rennes"],
+    relatedGuides: [
+      "meilleures-villes-primo-accedants-france-2026",
+      "acheter-moins-200000-euros-france-quelles-villes-2026",
+      "quitter-paris-30-ans-couple-sans-enfant-2026",
+      "devenir-freelance-en-province-quelles-villes-france-2026",
+      "expatries-retour-france-quelle-ville-2026",
+    ],
+    tags: ["acheter avant 40 ans", "primo-accédant", "PTZ", "stratégie", "couple", "freelance", "parent solo", "expat", "2026"],
+  },
+  {
+    slug: "investir-lmnp-par-ville-france-2026",
+    title: "Investir en LMNP par ville en 2026 — étudiant, cadre, saisonnier",
+    metaTitle: "LMNP par ville 2026 : étudiant, cadre, saisonnier — rendement réel",
+    metaDesc:
+      "Investir en LMNP en 2026 : étudiant vs cadre vs saisonnier, micro-BIC vs réel, rendement net après fiscalité, top villes par segment. Analyse honnête.",
+    category: "budget",
+    emoji: "📊",
+    readMinutes: 9,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "Le LMNP (Loueur Meublé Non Professionnel) reste le statut le plus rentable pour l'investissement locatif particulier en 2026 — abattement 50 % micro-BIC ou amortissement réel quasi-déductibilité totale. Mais le choix de la ville et du segment (étudiant, cadre, saisonnier) change tout le calcul. Voici l'analyse 2026 par segment, sans cliché 'LMNP toujours rentable'.",
+    sections: [
+      {
+        heading: "Rappel : micro-BIC vs régime réel",
+        body: "(1) **Micro-BIC** : abattement forfaitaire 50 % sur les recettes (ou 71 % pour meublé tourisme classé). Seuil : 77 700 €/an de recettes (15 000 € pour tourisme non classé depuis 2024). Simple, déclaration en 2 lignes. Bon pour rendements bruts modestes ou patrimoines simples. (2) **Régime réel** : déduction de toutes charges (intérêts emprunt, taxe foncière, copro, travaux, assurance, frais comptable) + amortissement du bien (3-4 %/an pendant ~25 ans) et du mobilier (10-20 %/an). Souvent annule l'imposition pendant 10-15 ans. Obligatoire pour optimisation. Coût : comptable LMNP 400-900 €/an. Économie fiscale : 2 000-5 000 €/an pour bien 200 k€ + loyer 800 €.",
+      },
+      {
+        heading: "LMNP étudiant — top villes 2026",
+        body: "Cibles : T1 ou T2 25-45 m² près universités/écoles, loyer 380-650 €/mois. Demande forte septembre-juin, vacance 1-2 mois été. (1) **Montpellier** — Hôpitaux-Facultés, ~80 000 étudiants, brut 5,5-6,5 %. T1 90-130 k€, loyer 480-580 €. (2) **Rennes** — Villejean, Beaulieu, ~70 000 étudiants, brut 5,5-6,5 %. T1 85-115 k€, loyer 460-550 €. (3) **Toulouse** — Rangueil, Jolimont, ~120 000 étudiants, brut 5-6 %. T1 100-140 k€, loyer 500-600 €. (4) **Lille** — Vauban, Lille 3, ~110 000 étudiants, brut 5,5-6 %. T1 100-130 k€, loyer 500-600 €. (5) **Bordeaux** — Talence, Pessac, brut 4,5-5,5 % (foncier cher). T1 130-170 k€, loyer 530-650 €. (6) **Strasbourg, Grenoble, Nantes** — segments similaires. Pièges : copro fragiles, turnover annuel, gestion plus active.",
+      },
+      {
+        heading: "LMNP cadre — top villes 2026",
+        body: "Cibles : T2-T3 45-70 m² centre, loyer 700-1 200 €/mois. Demande stable, vacance <3 %. (1) **Lyon, Bordeaux, Nantes** — métropoles à profil cadre, brut 4-5 % centre, 4,5-5,5 % périphérie tramway. T2 200-280 k€. (2) **Toulouse, Strasbourg** — brut 4,5-5,5 %, T2 180-250 k€. (3) **Lille** — brut 5-5,5 %, T2 160-220 k€ (meilleur rapport). (4) **Rennes, Montpellier** — brut 4,5-5,5 %, T2 160-220 k€. (5) **Métropoles secondaires** (Reims, Tours, Angers, Caen, Rouen) — brut 5,5-6,5 %, T2 130-180 k€. Très bon rapport rendement/risque. (6) **Petites villes préfecture** (Bourges, Châteauroux, Limoges) — brut 6-7 %, mais risque vacance + revente.",
+      },
+      {
+        heading: "LMNP saisonnier (Airbnb) — top villes 2026",
+        body: "Cibles : T2-T4 centre ville touristique, location nuitées 80-250 €/nuit. Encadrement strict 2024 : durée max 120 jours/an si résidence principale, déclaration mairie obligatoire dans 1 200+ communes, malus fiscal abattement 30 % depuis 2024. (1) **Paris** — encadrement le plus strict, 120 jours max résidence principale, marché saturé, ROI fragile. (2) **Lyon, Bordeaux, Marseille** — marchés solides mais encadrement renforcé, brut 6-9 % avant frais conciergerie. (3) **Côte d'Azur** (Nice, Cannes, Antibes) — brut 8-12 % été, saisonnalité forte, charges élevées. (4) **Côte basque** (Biarritz, Bayonne) — brut 7-10 %, saturation, encadrement local strict. (5) **Stations alpines** — Annecy, Chamonix, Chambéry — brut 8-12 % avec gestion locale. (6) **Patrimoine UNESCO** (Strasbourg, Lyon Vieille Ville, Bordeaux centre) — brut 7-10 % stable. Piège majeur : encadrement réglementaire en durcissement constant 2024-2026.",
+      },
+      {
+        heading: "Calcul rendement net réel — exemple T2 Lyon",
+        body: "Achat T2 55 m² Lyon Brotteaux : 280 000 € + 16 000 € frais notaire = 296 000 €. Loyer meublé : 1 050 €/mois (12 600 €/an). **Brut** : 12 600 / 296 000 = 4,3 %. Charges déductibles régime réel : taxe foncière 1 600, copro 1 200, assurance 350, comptable 500, intérêts emprunt (200 k€ sur 20 ans à 4 %) ~7 800 €/an. Amortissement bien (sur 250 k€ structure, 25 ans) 10 000 €/an + amortissement mobilier (15 k€/10 ans) 1 500 €/an. Total déductible : ~22 950 €/an. Loyer 12 600 — charges déductibles 22 950 = -10 350 € (déficit foncier reportable). Imposition : 0 € pendant 10-15 ans grâce à l'amortissement. **Net réel après fiscalité** : 12 600 - 1 600 - 1 200 - 350 - 500 = 8 950 € net cash-flow positif avant remboursement capital. Avec remboursement : neutre/positif selon apport.",
+      },
+      {
+        heading: "Pièges classiques LMNP 2026",
+        body: "(1) **Sur-rentabilité affichée par promoteurs** — 6-7 % bruts annoncés mais 3,5-4,5 % nets réels. Calculer net après TOUTES charges. (2) **Résidences services** (étudiantes, seniors, EHPAD) en LMNP géré : rendement garanti contractuel mais bail commercial avec risque révision loyer drastique (-30 % vu en 2020 sur certaines résidences). (3) **Plus-value à la revente** : régime LMNP imposition plus-value comme particulier (avec abattements durée détention), MAIS amortissement non récupéré pose problème en cas de revente avant 22 ans. (4) **Cession imposable** : passage LMNP → LMP automatique au-delà 23 000 € recettes ET >50 % revenus → fiscalité plus lourde. (5) **Encadrement loyers** dans 1 200+ communes — vérifier zonage avant achat. (6) **Évolution fiscale** : abattement micro-BIC 50 % menacé de baisse à 30 % dans certaines configurations 2024-2026.",
+      },
+      {
+        heading: "Le calcul honnête : LMNP cadre métropole secondaire = sweet spot",
+        body: "Meilleur rapport rendement/risque en 2026 : LMNP cadre dans métropole secondaire (Lille, Reims, Tours, Angers, Caen, Rouen, Nantes périphérie, Bordeaux périphérie). Brut 5-6,5 %, net après fiscalité 4-5,5 %, vacance modérée, gestion simple. À éviter : (1) Saisonnier Airbnb sans expertise locale (encadrement + charges + risque réglementaire). (2) Étudiant dans ville sans université forte (Limoges hors campus). (3) Centre Paris/Annecy/Bordeaux/Lyon (rendement trop faible, foncier surévalué). Le bon profil : investisseur 35-55 ans avec apport 30-50 k€ + capacité emprunt 150-250 k€, objectif patrimoine 15-25 ans. Régime réel obligatoire au-delà de 10 k€ recettes/an pour optimiser.",
+      },
+    ],
+    relatedCities: ["lille", "rennes", "montpellier", "toulouse", "nantes"],
+    relatedGuides: [
+      "investir-locatif-bordeaux-2026",
+      "investir-locatif-rennes-2026",
+      "investir-locatif-montpellier-2026",
+      "investissement-locatif-moins-100000-euros-france-2026",
+      "meilleures-villes-investissement-locatif-colocation-2025",
+    ],
+    tags: ["LMNP", "investissement locatif", "micro-BIC", "régime réel", "amortissement", "étudiant", "saisonnier", "2026"],
+  },
+  {
+    slug: "quitter-paris-avec-enfants-primaire-france-2026",
+    title: "Quitter Paris avec enfants en primaire en 2026 — quelles villes",
+    metaTitle: "Quitter Paris enfants primaire 2026 : meilleures villes — guide",
+    metaDesc:
+      "Quitter Paris avec enfants en école primaire (6-11 ans) en 2026 : critères école + pédiatres + activités, top villes, sectorisation, timing déménagement.",
+    category: "famille",
+    emoji: "🎒",
+    readMinutes: 9,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "Déménager avec des enfants en école primaire (CP-CM2, 6-11 ans) est la fenêtre idéale pour quitter Paris : l'enfant s'adapte rapidement, le réseau social se reconstruit en quelques mois, et l'école publique de province offre généralement plus d'attention par élève qu'en Paris dense. Voici la lecture 2026 par critère, sans le 'tout-province-est-mieux'.",
+    sections: [
+      {
+        heading: "Pourquoi 6-11 ans est la fenêtre idéale",
+        body: "(1) **Adaptation rapide** : un enfant de 7-10 ans s'intègre dans une nouvelle école en 3-4 mois (vs 1 an à 13-15 ans). (2) **Pas encore d'enjeu orientation** : pas de stress brevet/lycée/post-bac. (3) **École publique province souvent meilleure** : 22-25 élèves par classe en moyenne (vs 26-30 Paris), enseignants moins épuisés, espaces extérieurs. (4) **Mobilité géographique du foyer** : couple parental 35-45 ans, encore mobile professionnellement. (5) **Coût immobilier optimisé** : T4-T5 à 350-500 k€ en province vs 700-1 000 k€ à Paris pour équivalent. La fenêtre 6-11 ans est plus aisée que 12-15 ans (adolescent ancré socialement) ou 0-5 ans (couple souvent moins mobile pro).",
+      },
+      {
+        heading: "Top villes par profil familial",
+        body: "(1) **Familles cadres** : Nantes, Rennes, Bordeaux, Lyon banlieue ouest (Tassin, Écully), Toulouse périphérie verte (Tournefeuille, Plaisance), Strasbourg banlieue. Foncier 350-500 k€ pour T4 100-130 m² avec jardin. (2) **Familles télétravail intégral** : La Rochelle, Vannes, Annecy périphérie, Pau, Tours, Reims. T4 280-400 k€ avec jardin + qualité de vie élevée. (3) **Familles budget serré** : Limoges, Châteauroux, Mulhouse, Saint-Étienne, Brest. T4 maison 180-280 k€. (4) **Familles bilingues** : Strasbourg (FR/DE), Bayonne (FR/ES), Toulouse/Bordeaux (FR/EN). (5) **Familles avec enfant en difficulté scolaire** : viser ville moyenne avec dispositif ULIS dense, RASED actif (Caen, Angers, Tours, Bourges).",
+      },
+      {
+        heading: "Critères école — au-delà du classement",
+        body: "(1) **Effectif par classe** : 22-25 élèves est ideal, >28 inquiétant. (2) **Sectorisation** : vérifier carte scolaire commune avant achat. Une rue change d'école parfois. (3) **Stabilité équipe** : turnover enseignant < 25 %/an signe école saine. (4) **Activités péri-scolaires** : étude surveillée, garderie matin/soir, mercredi, vacances. Vital pour parents travaillant. (5) **Cantines** : qualité variable selon commune (bio/local vs industriel). (6) **Public vs privé** : public préférable en zone rurale (proximité), privé envisageable en métropole si volonté pédagogique spécifique. Coût privé 600-2 500 €/an selon contrat (sous-contrat = subventionné). (7) **École Montessori / Steiner / méthodes actives** : disponibles principalement en métropole/grosse ville moyenne.",
+      },
+      {
+        heading: "Critères santé et activités enfants",
+        body: "(1) **Pédiatres** : pénurie nationale, prendre RDV avant déménagement. Métropole > grosse ville moyenne > petite ville moyenne > rural. Vérifier doctolib avant emménagement. (2) **Orthophonistes, psychomotriciens, ergothérapeutes** : essentiels selon profil enfant, listes d'attente 6-18 mois en province (vs 12-24 mois à Paris). (3) **Médecin traitant** : déclaration ASAP, certaines villes (Limoges, Saint-Étienne) ont CMS publics accessibles. (4) **Activités sportives** : club judo, foot, gym, natation, tennis — toutes les villes >30 000 hab en disposent. (5) **Conservatoire/école musique** : présent dans toute préfecture, listes d'attente courtes en province (1-3 mois). (6) **Vacances apprenantes, colos** : Pass'Sport et aides CAF utilisables partout.",
+      },
+      {
+        heading: "Timing déménagement — l'été obligatoire",
+        body: "Déménagement enfants primaire = déménagement été, entre juin et fin août, idéalement juillet. Pourquoi : (1) Rentrée scolaire septembre = transition naturelle. (2) Enfant a l'été pour explorer nouveau quartier, faire connaissance avec voisins. (3) Inscription école avant 30 juin pour année scolaire suivante (variable selon commune). (4) Pédiatre, orthophoniste à activer en septembre. À éviter : déménagement en janvier/février (changement école milieu d'année traumatisant). Calendrier idéal : (1) Octobre-mars : choix ville, visites. (2) Avril : décision finale, offre achat ou bail location. (3) Mai : signature compromis ou bail. (4) Juin : démarches école (carte scolaire mairie, dossier inscription). (5) Juillet : emménagement. (6) Août : exploration quartier + activités. (7) Septembre : rentrée.",
+      },
+      {
+        heading: "Pièges classiques quitter Paris avec enfants",
+        body: "(1) **Sectorisation surprise** : maison achetée 'pour la bonne école', mais carte scolaire change → enfant scolarisé ailleurs. Vérifier mairie avant signature. (2) **Réseau social adulte** : couple parental s'isole en province, vie sociale enfants vs vide adulte. Anticiper : meetups parents, associations école, sports parents. (3) **Trajets boulot doublés** : déménagement périphérie pour 'jardin' → 1h trajet quotidien par parent. Calculer trajet réel avant décision. (4) **Activités enfants saturées** : conservatoire/club tennis avec liste d'attente longue dans petites villes. (5) **Sous-estimation coût de vie famille** : courses + voiture + activités = +500-800 €/mois vs Paris (où voiture absente, vie de quartier). (6) **Burn-out parental** : projet trop ambitieux (maison à rénover + nouveau job + 2 enfants à intégrer) = 6 mois épuisement. Simplifier la transition.",
+      },
+      {
+        heading: "Le calcul honnête : la province avec enfants primaire = excellente opportunité",
+        body: "Pour la majorité des familles parisiennes avec enfants 6-11 ans en 2026, quitter Paris est un choix gagnant : qualité de vie enfants meilleure (espace, nature, école moins dense), coût logement divisé par 2-3, accessibilité services préfecture suffisante. Le bon pari : (1) Métropole secondaire (Lyon, Bordeaux, Nantes, Toulouse, Rennes, Lille, Strasbourg) si emploi cadre nécessaire ou conjoint emploi local. (2) Ville moyenne préfecture (Tours, Reims, Angers, Caen, Rouen, Pau, La Rochelle) si télétravail + qualité de vie max. (3) Bourg <30 000 SI deux parents télétravail solide + activités enfants accessibles. Le mauvais pari : ville moyenne sans pédiatre + sans école Montessori + sans réseau familial — projet famille s'épuise en 2-3 ans. Recommandation : louer 6-12 mois avant achat, ne jamais déménager famille + acheter simultanément.",
+      },
+    ],
+    relatedCities: ["nantes", "rennes", "bordeaux", "tours", "strasbourg"],
+    relatedGuides: [
+      "quitter-paris-guide-2025",
+      "meilleure-ville-famille-france",
+      "meilleures-villes-familles-monoparentales-france-2026",
+      "elever-famille-bilingue-france-quelles-villes-2026",
+      "quitter-paris-30-ans-couple-sans-enfant-2026",
+    ],
+    tags: ["quitter Paris", "enfants", "primaire", "école", "famille", "sectorisation", "pédiatre", "2026"],
+  },
+  {
+    slug: "vivre-france-retraite-etrangere-fiscalite-2026",
+    title: "Vivre en France avec une retraite étrangère en 2026 — fiscalité et villes",
+    metaTitle: "Retraite étrangère France 2026 : fiscalité, villes, convention — guide",
+    metaDesc:
+      "Vivre en France avec une retraite étrangère (UK, US, Canada, Maghreb, Suisse) : convention fiscale, double pension, villes adaptées, services médicaux.",
+    category: "lifestyle",
+    emoji: "🌍",
+    readMinutes: 9,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "De plus en plus de retraités étrangers (Britanniques, Américains, Canadiens, Belges, Suisses, Maghrébins, expat français retours) choisissent la France pour leur retraite : climat, qualité de vie, système de santé, gastronomie. Mais la fiscalité bilatérale est complexe et le choix de la ville change tout. Voici l'analyse 2026.",
+    sections: [
+      {
+        heading: "Pourquoi la France pour retraite étrangère 2026",
+        body: "(1) **Système de santé universel** : couverture PUMa (Protection Universelle Maladie) accessible après 3 mois résidence stable. Mutuelle complémentaire 60-150 €/mois. (2) **Qualité de vie classée mondiale** : France #5 dans Numbeo Quality of Life Index 2025. (3) **Climat varié** : Méditerranée, océan, montagne, plaine, refuge climatique selon préférences. (4) **Gastronomie + culture** : densité exceptionnelle de musées, théâtres, restaurants, marchés. (5) **Coût de vie 2-3× inférieur** aux USA/UK/Suisse côtes. (6) **Connectivité européenne** : TGV, vols low-cost, frontières ouvertes Schengen. (7) **Communautés internationales** établies (Dordogne anglaise, Côte d'Azur britannique/russe, Provence US/UK).",
+      },
+      {
+        heading: "Convention fiscale bilatérale — règles clés",
+        body: "(1) **Résidence fiscale française** = >183 jours/an OU centre d'intérêts économiques en France. Devenir résident fiscal français à la retraite = imposition mondiale des revenus en France (avec crédit d'impôt pour impôts payés à l'étranger). (2) **Pensions publiques étrangères** (UK State Pension, US Social Security, Canada CPP) : imposition généralement État source (UK/US/Canada), exonérées France via crédit d'impôt. (3) **Pensions privées** : variable selon convention bilatérale. UK private pensions = imposition France. US 401k/IRA = imposition US source + France crédit. (4) **CSG-CRDS** : 9,1 % sur revenus passifs étrangers si affilié sécurité sociale française (PUMa). Évitable si reste affilié S1 form (UE/Suisse) ou via certains accords. (5) **Plus-value immobilière** étrangère lors revente : imposition source + France. (6) **Successions** : convention bilatérale en vigueur avec UK, US, Suisse, etc. Anticiper avec notaire international.",
+      },
+      {
+        heading: "Profil Britanniques — Dordogne, Provence intérieure",
+        body: "Communautés britanniques établies depuis 1980s. (1) **Dordogne** (Sarlat, Bergerac, Périgueux) — Quasi 30 000 Britanniques résidents. Climat doux, foncier accessible, écoles internationales, communauté solide. (2) **Lot-et-Garonne, Tarn-et-Garonne** — extension Dordogne. (3) **Charente, Charente-Maritime** — Cognac, Jonzac. (4) **Aquitaine intérieure** : Aiguillon, Marmande. (5) **Provence intérieure** : Lubéron, Gordes, Cucuron — communauté britannique premium. (6) **Côte d'Azur** : Cannes, Antibes, Menton — communauté britannique aisée. Brexit 2020 a complexifié : statut de séjour, droits sociaux. Anticiper avec avocat franco-britannique.",
+      },
+      {
+        heading: "Profil Américains/Canadiens — Provence, Côte d'Azur, Île-de-France",
+        body: "Communautés plus récentes mais en croissance forte 2020-2026 post-Covid. (1) **Provence** : Aix-en-Provence, Lourmarin, Goult. Communauté américaine premium (cinéma, finance, retraite haut de gamme). (2) **Côte d'Azur** : Nice, Saint-Paul-de-Vence, Mougins — communauté américaine et canadienne. (3) **Paris/Île-de-France** : majoritairement profils actifs, mais retraités américains présents dans Yvelines (Saint-Germain-en-Laye), Versailles. (4) **Loire Valley** (Tours, Amboise) — vignobles, châteaux, communauté US growing. (5) **Bordeaux** : récente communauté US wine-and-food. Spécificité fiscale US : Form 1040 toujours obligatoire (citizenship-based taxation), expert-comptable franco-américain quasi-obligatoire.",
+      },
+      {
+        heading: "Profil Maghrébins (Algérie, Maroc, Tunisie) — Marseille, Lyon, Paris banlieue",
+        body: "Retraite/vieillesse en France après carrière française pour Algériens, Marocains, Tunisiens. Souvent retour aux racines avec famille restée en France. (1) **Marseille** (Le Panier, Endoume, La Castellane) — communauté étendue, marchés, mosquées. (2) **Lyon** (Vénissieux, Saint-Fons) — communauté maghrébine importante. (3) **Paris banlieue** (93, 95, 92 sud) — réseaux familiaux denses. (4) **Lille, Roubaix** — communauté nord-africaine. (5) **Toulouse, Bordeaux** — communautés en croissance. Spécificité fiscale : pensions retraite française (RG, complémentaires) + éventuelle retraite algérienne/marocaine/tunisienne. Conventions bilatérales avec Algérie, Maroc, Tunisie permettent éviter double imposition pour pensions et revenus immobiliers.",
+      },
+      {
+        heading: "Profil Suisses/Belges — Frontières + Côte d'Azur",
+        body: "(1) **Suisses retraités en France** : communauté Côte d'Azur (Nice, Cannes, Cap-Ferrat), Provence (Mougins, Saint-Paul). Convention fiscale 1966 : pensions Suisse imposées en Suisse (taux modeste), pas en France. (2) **Belges retraités** : Côte d'Opale (Le Touquet, Hardelot), Côte d'Azur (Antibes, Cagnes), Périgord. Communauté belge ~150 000 en France. Convention bilatérale 1964 : pensions belges = imposition Belgique principalement. (3) **Luxembourgeois** : peu de retraités installés en France hors zones frontalières Thionville. (4) **Allemands retraités** : Provence intérieure, Côte d'Azur arrière-pays (Tourrettes, Fayence), Alsace. Communauté ~80 000. Convention fiscale : pensions publiques allemandes imposées Allemagne.",
+      },
+      {
+        heading: "Services médicaux pour retraités étrangers",
+        body: "(1) **PUMa** (Protection Universelle Maladie) : accès soins de base après 3 mois résidence stable. Couvre 70 % consultations + médicaments + hospitalisation. (2) **Mutuelle complémentaire** indispensable 60-150 €/mois selon âge. Offres expat : MGEN, AON Hewitt, Cigna International. (3) **Médecins anglophones** : densité forte sur Côte d'Azur (Nice, Cannes), Paris, Dordogne. Variable en Provence et Bordeaux. Quasi absent rural profond. (4) **Hôpitaux spécialisés** : densité métropolitaine importante (Lyon, Marseille, Bordeaux, Strasbourg, Nantes, Toulouse). Petite ville moyenne souvent suffisante. (5) **Maisons de retraite** (EHPAD) : 2 200-4 500 €/mois selon zone. Très variable Paris/Côte d'Azur vs province. (6) **Soins palliatifs et fin de vie** : système français généralement réputé bon, anticiper.",
+      },
+      {
+        heading: "Le calcul honnête : la France reste excellente pour retraite étrangère, à condition de bien choisir",
+        body: "France 2026 reste l'une des destinations européennes les plus attractives pour retraite étrangère : santé, climat, qualité de vie, communautés établies. Mais fiscalité complexe (convention bilatérale + CSG/CRDS + PUMa) et choix de ville déterminants. Le bon pari par profil : (1) Britannique → Dordogne/Provence intérieure (communauté + foncier). (2) Américain/Canadien → Provence/Côte d'Azur (premium) ou Loire (vignoble). (3) Maghrébin → Marseille/Lyon (réseau familial). (4) Suisse/Belge → Côte d'Azur (premium) ou frontière (proximité famille). Recommandation universelle : (1) Tester 6 mois en location avant achat. (2) Consulter expert fiscal franco-pays origine AVANT déménagement. (3) Anticiper démarches santé (PUMa + mutuelle) avant arrivée. (4) Ne pas choisir village isolé sans services médicaux si santé fragile.",
+      },
+    ],
+    relatedCities: ["nice", "aix-en-provence", "marseille", "bordeaux", "lyon"],
+    relatedGuides: [
+      "expatries-retour-france-quelle-ville-2026",
+      "familles-expatriees-retour-france-quelle-ville-2026",
+      "meilleures-villes-seniors-actifs-france-2026",
+      "vivre-en-perigord-dordogne-guide-2026",
+      "vivre-en-pays-basque-guide-2026",
+    ],
+    tags: ["retraite étrangère", "convention fiscale", "Britanniques", "Américains", "Maghreb", "PUMa", "expat retraite", "2026"],
+  },
+  {
+    slug: "residence-secondaire-france-pieges-fiscaux-2026",
+    title: "Résidence secondaire en France 2026 — pièges fiscaux et où c'est pertinent",
+    metaTitle: "Résidence secondaire France 2026 : pièges fiscaux, THRS, IFI — guide",
+    metaDesc:
+      "Acheter une résidence secondaire en France 2026 : THRS majoration jusqu'à +60 %, IFI, plus-value, location saisonnière encadrée. Villes pertinentes vs piégeuses.",
+    category: "budget",
+    emoji: "🏖️",
+    readMinutes: 9,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "Acheter une résidence secondaire séduit beaucoup : maison de vacances, lieu de retraite future, placement immobilier. Mais en 2026, l'environnement fiscal s'est durci : THRS majorée dans 1 200+ communes en zone tendue, IFI maintenu, encadrement location saisonnière renforcé. Voici la lecture honnête pour acheter une résidence secondaire sans piège fiscal.",
+    sections: [
+      {
+        heading: "État du marché résidence secondaire 2026",
+        body: "France compte ~3,5 millions de résidences secondaires (Insee 2024), soit 10 % du parc logement. Marché en correction depuis 2023 : prix -3 à -8 % vs 2022 dans les zones les plus chères (Côte d'Azur, Pays Basque, Bretagne sud). Demande encore solide mais sélective. Profils : retraités, familles aisées, expatriés français, investisseurs locatifs saisonniers. Tendance 2026 : montée des achats 'mixte' (résidence secondaire + télétravail occasionnel + location partielle), favorisée par fibre + RTT + travail hybride.",
+      },
+      {
+        heading: "THRS — Taxe d'habitation résidence secondaire",
+        body: "Supprimée pour résidence principale en 2023, MAINTENUE pour résidences secondaires. (1) **Taux standard** : calculé sur valeur locative cadastrale × taux communal — typique 800-2 500 €/an pour T3-T4 en province, 2 500-6 000 €/an en zone prisée. (2) **Majoration zone tendue** : depuis 2023, +5 % à +60 % selon décision communale dans 1 200+ communes classées (décret 2023-822). Listés sur service-public.fr. (3) Communes majorées les plus impactantes : Paris (+60 %), Annecy (+60 %), Bordeaux (+60 %), Lyon (+60 %), La Rochelle (+60 %), Saint-Malo (+50 %), Île de Ré (+60 %), Côte d'Azur (+40 à +60 %), Côte basque (+40 à +60 %). (4) **Stratégie évasion** : déclarer le bien comme résidence principale (impossible si maison principale ailleurs), ou louer 8+ mois/an (basculement en LMNP/Pinel). (5) **Exonération possible** : profession nécessitant le bien (médecin/militaire en mutation), invalidité grave, EHPAD.",
+      },
+      {
+        heading: "IFI — Impôt sur la fortune immobilière",
+        body: "Maintenu depuis 2018. Seuil : patrimoine immobilier net taxable >1 300 000 €. (1) Inclut : résidence principale (avec abattement 30 %), résidences secondaires, biens locatifs, parts SCPI/SCI. (2) Exclut : biens professionnels exploités, certains immeubles loués. (3) Calcul : déduction de l'emprunt en cours sur les biens immobiliers (= patrimoine net). (4) Barème progressif : 0,5 % de 800 k€ à 1,3 M€, jusqu'à 1,5 % au-delà de 10 M€. (5) Cas typique : couple cadre supérieur avec résidence principale Paris 1,2 M€ + résidence secondaire Bretagne 400 k€ = patrimoine immobilier net 1,5 M€ → IFI ~3 500 €/an. (6) **Stratégie évasion légale** : démembrement (usufruit/nue-propriété), SCI familiale, donation au profit enfants.",
+      },
+      {
+        heading: "Plus-value à la revente",
+        body: "Cession résidence principale = exonération totale. Cession résidence secondaire = imposition. (1) **Calcul** : prix de vente - prix d'achat - frais d'acquisition (notaire, droits) - travaux justifiés (factures TVA) - amélioration énergétique. (2) **Abattements pour durée détention** : (a) IR sur plus-value (19 %) : exonération totale après 22 ans. (b) Prélèvements sociaux (17,2 %) : exonération totale après 30 ans. (3) **Plus-value calculée** : exemple résidence achetée 250 k€ + 20 k€ frais notaire en 2010, revendue 400 k€ en 2026 = plus-value brute 130 k€. Détention 16 ans = abattement IR ~46 %, abattement PS ~16 %. Imposition IR : 130 × 0,54 × 19 % = 13 350 €. Imposition PS : 130 × 0,84 × 17,2 % = 18 770 €. Total : 32 120 € soit 25 % de la plus-value. (4) **Anticipation** : conserver factures travaux (TVA), garder un délai de détention 22+ ans si possible, considérer démembrement avant cession.",
+      },
+      {
+        heading: "Location saisonnière (Airbnb) — encadrement renforcé",
+        body: "(1) **Durée maximale 120 jours/an** si déclaré résidence principale (loi Le Meur 2024). (2) **Déclaration mairie obligatoire** dans 1 200+ communes (Paris, Nice, Cannes, Annecy, Bordeaux, Lyon, La Rochelle, etc.). Numéro déclaration affiché obligatoire. (3) **Sanctions** : 5 000-10 000 € amende par infraction. (4) **Quotas** dans certaines communes : Paris limite stricte, Nice quota réduit, Annecy renforcé 2025. (5) **Fiscalité revenus** : meublé tourisme non classé = abattement 30 % (au lieu de 50 %), seuil 15 000 €/an. Meublé tourisme classé = 71 % abattement. (6) **TVA** : si location avec services para-hôteliers (petit-déj, ménage, draps), TVA applicable. (7) **Charges copro** : certaines copro interdisent location saisonnière (vérifier règlement). Sanctions copro : 750 € par jour d'infraction.",
+      },
+      {
+        heading: "Villes où c'est pertinent vs piégeux 2026",
+        body: "**Pertinent** (rentabilité location + qualité usage + foncier raisonnable) : (1) Côte d'Émeraude hors Saint-Malo (Dinard, Cancale arrière). (2) Côte d'Albâtre (Étretat, Fécamp arrière-pays). (3) Côte landaise nord (Capbreton, Hossegor arrière). (4) Provence intérieure (Lubéron, Drôme provençale, Verdon). (5) Pyrénées (vallée d'Aspe, Ossau, Bigorre). (6) Massif Central (Cantal, Aubrac, Lozère). (7) Alsace vignoble (Riquewihr, Eguisheim, Kaysersberg). **Piégeux** (foncier sur-payé + THRS max + encadrement strict) : (1) Paris intra-muros. (2) Île de Ré. (3) Annecy (limite). (4) Côte d'Azur centre (Cannes, Nice). (5) Bayonne-Biarritz centre. (6) La Rochelle centre. (7) Saint-Malo intra-muros. (8) Chamonix, Megève station.",
+      },
+      {
+        heading: "Le calcul honnête : résidence secondaire = projet patrimonial 15+ ans",
+        body: "Acheter une résidence secondaire en France 2026 reste viable mais nécessite calcul lucide. Coût total réel = prix achat + frais notaire (~7-8 %) + travaux remise état + THRS (souvent 1 500-4 500 €/an) + IFI éventuel + entretien (~1-2 % prix achat/an) + assurance + énergie + déplacements. Sur 15 ans, ces coûts atteignent 30-40 % du prix d'achat. À comparer avec location saisonnière équivalente sur 15 ans (vacances 4-6 semaines/an). La résidence secondaire fait sens si : (1) Usage 8+ semaines/an effectif (sinon Airbnb plus rentable). (2) Vue projet long terme (retraite future, transmission familiale). (3) Capacité financière confortable (3-5 % patrimoine total). (4) Acceptation contraintes gestion à distance. Le mauvais profil : achat 'coup de cœur' sans plan d'usage clair, foncier sur-payé en zone tendue + THRS max + IFI déclenché. Recommandation : louer 3-4 ans dans la zone cible avant d'acheter résidence secondaire — le 'rêve' tient rarement face à la gestion réelle.",
+      },
+    ],
+    relatedCities: ["nice", "saint-malo", "biarritz", "annecy", "la-rochelle"],
+    relatedGuides: [
+      "acheter-en-vefa-france-2026-villes-pieges",
+      "investir-lmnp-par-ville-france-2026",
+      "acheter-maison-campagne-france-2026-vraiment-vivable",
+      "meilleures-villes-investissement-locatif-colocation-2025",
+      "vivre-france-retraite-etrangere-fiscalite-2026",
+    ],
+    tags: ["résidence secondaire", "THRS", "IFI", "plus-value", "Airbnb", "location saisonnière", "fiscalité", "zone tendue", "2026"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
