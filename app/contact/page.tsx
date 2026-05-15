@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
+import { Suspense } from "react";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { AmbientBackground } from "@/components/AmbientBackground";
@@ -35,7 +36,9 @@ export default function ContactPage() {
 
       <section className="relative pb-12">
         <div className="mx-auto max-w-3xl px-4 sm:px-6">
-          <ContactForm />
+          <Suspense fallback={<div className="h-96 rounded-3xl glass-strong border border-white/60 animate-pulse" />}>
+            <ContactForm />
+          </Suspense>
         </div>
       </section>
 

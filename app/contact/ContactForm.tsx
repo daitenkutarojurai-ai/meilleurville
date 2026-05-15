@@ -1,12 +1,14 @@
 "use client";
 
 import { useState } from "react";
+import { useSearchParams } from "next/navigation";
 import { Send, CheckCircle2, AlertCircle, Loader2 } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { MagneticButton } from "@/components/effects/MagneticButton";
 
 const TOPICS = [
   { id: "question", label: "Question générale", emoji: "👋" },
+  { id: "red-flag", label: "Signaler un point noir", emoji: "🚩" },
   { id: "erreur", label: "Signaler une erreur", emoji: "🐛" },
   { id: "ville", label: "Proposer une ville", emoji: "🏙️" },
   { id: "presse", label: "Presse / partenariat", emoji: "📰" },
@@ -16,8 +18,16 @@ const TOPICS = [
 
 type Topic = (typeof TOPICS)[number]["id"];
 
+function readInitialTopic(searchParams: URLSearchParams | null): Topic {
+  const raw = searchParams?.get("topic");
+  if (!raw) return "question";
+  const match = TOPICS.find((t) => t.id === raw);
+  return match ? match.id : "question";
+}
+
 export function ContactForm() {
-  const [topic, setTopic] = useState<Topic>("question");
+  const searchParams = useSearchParams();
+  const [topic, setTopic] = useState<Topic>(() => readInitialTopic(searchParams));
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [body, setBody] = useState("");

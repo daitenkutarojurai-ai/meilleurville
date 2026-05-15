@@ -8,6 +8,7 @@ import { CommentSection } from "@/components/CommentSection";
 import { AlertTriangle, Volume2, Droplets, Wind, Shield, Flame, Zap, ArrowRight } from "lucide-react";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_SEED } from "@/data/cities-seed";
+import { vigilanceSummary } from "@/lib/red-flags-summary";
 
 export const metadata: Metadata = {
   title: "Red Flag Radar — Signalements communautaires | MeilleurVille",
@@ -73,23 +74,20 @@ const FLAG_CATEGORIES = [
 ];
 
 
-// Surface a short list of major cities to bootstrap discovery of per-city fiches.
-const FEATURED_CITY_SLUGS = [
-  "marseille", "paris", "nice", "toulon", "perpignan", "lyon",
-  "bordeaux", "nantes", "rennes", "strasbourg", "grenoble", "lille",
-];
-
+// Featured fiches: highest-vigilance cities surface first — that's what users
+// land on /red-flags to read. Limited to top 18 to keep the section scannable.
 function featuredFiches() {
-  return FEATURED_CITY_SLUGS
-    .map((slug) => CITIES_SEED.find((c) => c.slug === slug))
-    .filter((c): c is NonNullable<typeof c> => Boolean(c))
+  return [...CITIES_SEED]
     .map((c) => ({
       slug: c.slug,
       name: c.name,
       department: c.department,
       safety: c.scores.safety,
       cost: c.scores.cost,
-    }));
+      vigilance: vigilanceSummary(c),
+    }))
+    .sort((a, b) => b.vigilance.score - a.vigilance.score)
+    .slice(0, 18);
 }
 
 export default function RedFlagsPage() {
@@ -118,12 +116,12 @@ export default function RedFlagsPage() {
       </section>
 
       <div className="mx-auto max-w-7xl px-4 sm:px-6 py-12 space-y-14">
-        {/* Honest stats */}
+        {/* Honest stats — derived from canonical sources, not hardcoded */}
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
           {[
-            { label: "Catégories surveillées", value: "6", color: "text-red-500" },
-            { label: "Sources publiques", value: "4", color: "text-[var(--text-primary)]" },
-            { label: "Villes couvertes", value: "340", color: "text-emerald-600" },
+            { label: "Catégories surveillées", value: FLAG_CATEGORIES.length.toString(), color: "text-red-500" },
+            { label: "Sources publiques", value: "5", color: "text-[var(--text-primary)]" }, // Géorisques, ATMO, SSMSI, BRGM, Insee
+            { label: "Villes couvertes", value: CITIES_SEED.length.toString(), color: "text-emerald-600" },
             { label: "Données ouvertes", value: "100%", color: "text-[var(--accent)]" },
           ].map(({ label, value, color }) => (
             <div key={label} className="rounded-2xl glass border border-white/50 p-5 text-center shadow-sm">
@@ -133,11 +131,70 @@ export default function RedFlagsPage() {
           ))}
         </div>
 
-        {/* Categories */}
+        {/* Per-city fiches — surfaced first: that's what users actually want when
+            landing on /red-flags. Sorted worst-first to highlight what to read. */}
         <div>
-          <h2 className="text-xl font-bold text-[var(--text-primary)] mb-6">
+          <div className="flex items-end justify-between gap-4 mb-6">
+            <div>
+              <h2 className="text-2xl font-bold text-[var(--text-primary)] mb-1">
+                Fiches red-flag par ville
+              </h2>
+              <p className="text-sm text-[var(--text-secondary)]">
+                Neuf catégories de risques croisées avec Géorisques, SSMSI, ATMO et BRGM. Une fiche
+                disponible pour chacune des {CITIES_SEED.length} villes — les plus exposées d&apos;abord.
+              </p>
+            </div>
+            <Link
+              href="/villes"
+              className="hidden sm:inline-flex items-center gap-1.5 text-sm font-medium text-[var(--accent)] hover:underline shrink-0"
+            >
+              Toutes les villes <ArrowRight className="h-4 w-4" />
+            </Link>
+          </div>
+          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {fiches.map((f) => (
+              <Link
+                key={f.slug}
+                href={`/red-flags/${f.slug}`}
+                className={`group rounded-2xl border ${f.vigilance.ring} hover:border-red-500/50 hover:shadow-md transition-all p-4 flex flex-col gap-2`}
+              >
+                <div className="flex items-center justify-between gap-2">
+                  <div className="min-w-0">
+                    <div className="text-sm font-bold text-[var(--text-primary)] group-hover:text-red-500 transition-colors truncate">
+                      {f.name}
+                    </div>
+                    <div className="text-[11px] text-[var(--text-tertiary)] mt-0.5 truncate">
+                      {f.department}
+                    </div>
+                  </div>
+                  <ArrowRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-red-500 flex-shrink-0 transition-colors" />
+                </div>
+                <div className="flex items-center justify-between gap-2 pt-2 border-t border-[var(--border)]/50">
+                  <span className={`text-xs font-semibold ${f.vigilance.tone}`}>
+                    {f.vigilance.label}
+                  </span>
+                  {f.vigilance.criticalCount > 0 && (
+                    <span className="text-[10px] font-mono text-[var(--text-tertiary)]">
+                      {f.vigilance.criticalCount} signal{f.vigilance.criticalCount > 1 ? "s" : ""} fort{f.vigilance.criticalCount > 1 ? "s" : ""}
+                    </span>
+                  )}
+                </div>
+              </Link>
+            ))}
+          </div>
+          <p className="text-xs text-[var(--text-tertiary)] mt-4">
+            Toutes les {CITIES_SEED.length} villes ont leur fiche : <code className="text-[var(--text-secondary)]">/red-flags/&lt;slug-de-la-ville&gt;</code>.
+          </p>
+        </div>
+
+        {/* Categories — secondary, explains the methodology behind the fiches */}
+        <div>
+          <h2 className="text-xl font-bold text-[var(--text-primary)] mb-2">
             Catégories de signalements
           </h2>
+          <p className="text-sm text-[var(--text-secondary)] mb-6">
+            Les six familles de red flags suivies sur chaque fiche ville.
+          </p>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {FLAG_CATEGORIES.map(({ id, label, icon: Icon, color, bg, examples }) => (
               <Card key={id} className={`border ${bg.split(" ")[1]}`}>
@@ -160,42 +217,6 @@ export default function RedFlagsPage() {
           </div>
         </div>
 
-        {/* Per-city fiches */}
-        <div>
-          <div className="flex items-end justify-between gap-4 mb-6">
-            <div>
-              <h2 className="text-xl font-bold text-[var(--text-primary)] mb-1">
-                Fiches red-flag par ville
-              </h2>
-              <p className="text-sm text-[var(--text-secondary)]">
-                Neuf catégories de risques croisées avec Géorisques, SSMSI, ATMO et BRGM. Une fiche disponible pour chaque ville du site.
-              </p>
-            </div>
-          </div>
-          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-            {fiches.map((f) => (
-              <Link
-                key={f.slug}
-                href={`/red-flags/${f.slug}`}
-                className="group rounded-2xl border border-[var(--border)] bg-[var(--bg-canvas)] hover:border-red-500/40 hover:bg-[var(--bg-elevated)] transition-all p-4 flex items-center justify-between gap-3"
-              >
-                <div className="min-w-0">
-                  <div className="text-sm font-bold text-[var(--text-primary)] group-hover:text-red-500 transition-colors truncate">
-                    {f.name}
-                  </div>
-                  <div className="text-[11px] text-[var(--text-tertiary)] mt-0.5 truncate">
-                    {f.department} · sécurité {f.safety.toFixed(1)} · coût {f.cost.toFixed(1)}
-                  </div>
-                </div>
-                <ArrowRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-red-500 flex-shrink-0 transition-colors" />
-              </Link>
-            ))}
-          </div>
-          <p className="text-xs text-[var(--text-tertiary)] mt-4">
-            Toutes les villes ont leur fiche : /red-flags/&lt;slug-de-la-ville&gt;.
-          </p>
-        </div>
-
         {/* Community stats */}
         <div>
           <h2 className="text-xl font-bold text-[var(--text-primary)] mb-6">
@@ -214,10 +235,13 @@ export default function RedFlagsPage() {
             Aidez des milliers de personnes à éviter une mauvaise surprise.
             Les signalements vérifiés par 3+ utilisateurs sont publiés.
           </p>
-          <button className="inline-flex items-center gap-2 rounded-xl bg-red-500/10 border border-red-500/30 text-red-500 px-6 py-3 font-semibold hover:bg-red-500/20 transition-colors">
+          <Link
+            href="/contact?topic=red-flag"
+            className="inline-flex items-center gap-2 rounded-xl bg-red-500/10 border border-red-500/30 text-red-500 px-6 py-3 font-semibold hover:bg-red-500/20 transition-colors"
+          >
             <AlertTriangle className="h-4 w-4" />
-            Signaler un problème
-          </button>
+            Signaler un point noir
+          </Link>
         </div>
 
         <div className="mt-16">
