@@ -4,6 +4,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Badge } from "@/components/ui/Badge";
 import { StaticPageCrossLink } from "@/components/StaticPageCrossLink";
+import { CITIES_COUNT, REGIONS_COUNT, DEPARTMENTS_COUNT } from "@/lib/site-stats";
 
 export const metadata: Metadata = {
   title: "FAQ — Questions fréquentes | MeilleurVille",
@@ -96,7 +97,7 @@ const FAQ_SECTIONS = [
     questions: [
       {
         q: "Comment trouver les villes par région ou département ?",
-        a: "Accédez à /regions pour parcourir les 13 régions françaises (+ la Corse) ou à /departements pour les 46 départements représentés. Chaque page liste les villes avec leurs scores et des indicateurs moyens par territoire.",
+        a: `Accédez à /regions pour parcourir les ${REGIONS_COUNT} régions françaises (métropole + DROM) ou à /departements pour les ${DEPARTMENTS_COUNT} départements représentés. Chaque page liste les villes avec leurs scores et des indicateurs moyens par territoire.`,
       },
       {
         q: "Qu'est-ce que la page 'Quartiers' d'une ville ?",
@@ -104,7 +105,7 @@ const FAQ_SECTIONS = [
       },
       {
         q: "Comment fonctionne la carte interactive ?",
-        a: "La carte interactive (/carte) affiche les 352 villes analysées avec un code couleur selon leur score (vert = excellent, ambre = bon, rouge = à améliorer). Vous pouvez filtrer l'affichage par critère (nature, transport, coût...) et cliquer sur chaque ville pour accéder à son profil. La taille du cercle est proportionnelle au score.",
+        a: `La carte interactive (/carte) affiche les ${CITIES_COUNT} villes analysées avec un code couleur selon leur score (vert = excellent, ambre = bon, rouge = à améliorer). Vous pouvez filtrer l'affichage par critère (nature, transport, coût...) et cliquer sur chaque ville pour accéder à son profil. La taille du cercle est proportionnelle au score.`,
       },
     ],
   },

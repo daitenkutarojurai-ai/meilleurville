@@ -8,11 +8,11 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { GUIDES, GUIDE_CATEGORIES } from "@/data/guides";
 import { RANKING_META } from "@/lib/rankings";
 import { getAllTagsWithCounts } from "@/lib/guide-tags";
+import { CITIES_COUNT, GUIDES_COUNT, TAGS_COUNT, RANKINGS_COUNT, REGIONS_COUNT } from "@/lib/site-stats";
 
 export const metadata: Metadata = {
   title: "Sommaire — Index complet du site | MeilleurVille",
-  description:
-    "Index alphabétique complet : 352 villes, 285 guides, 184 tags, 13 classements, 18 régions, départements et outils. Tout MeilleurVille en une page.",
+  description: `Index alphabétique complet : ${CITIES_COUNT} villes, ${GUIDES_COUNT} guides, ${TAGS_COUNT} tags, ${RANKINGS_COUNT} classements, ${REGIONS_COUNT} régions, départements et outils. Tout MeilleurVille en une page.`,
   alternates: { canonical: "/sommaire" },
 };
 

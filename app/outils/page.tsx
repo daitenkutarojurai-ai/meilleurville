@@ -5,6 +5,7 @@ import { Footer } from "@/components/Footer";
 import { Badge } from "@/components/ui/Badge";
 import { StaticPageCrossLink } from "@/components/StaticPageCrossLink";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { CITIES_COUNT, GUIDES_COUNT, GLOSSARY_TERMS_COUNT } from "@/lib/site-stats";
 
 export const metadata: Metadata = {
   title: "Outils — Quiz, simulateur, glossaire, calendrier | MeilleurVille",
@@ -27,7 +28,7 @@ const TOOLS: Tool[] = [
     emoji: "✨",
     title: "Quiz IA",
     desc:
-      "Répondez à 7 questions sur vos priorités (climat, budget, écoles, mobilité) — on classe les 352 villes selon votre profil personnel.",
+      `Répondez à 7 questions sur vos priorités (climat, budget, écoles, mobilité) — on classe les ${CITIES_COUNT} villes selon votre profil personnel.`,
     cta: "Faire le quiz",
   },
   {
@@ -59,7 +60,7 @@ const TOOLS: Tool[] = [
     emoji: "🏆",
     title: "Top 100 villes France",
     desc:
-      "Le classement global des 352 villes, triable et filtrable par région, taille, score thématique. La référence rapide.",
+      `Le classement global des ${CITIES_COUNT} villes, triable et filtrable par région, taille, score thématique. La référence rapide.`,
     cta: "Voir le classement",
   },
   {
@@ -75,7 +76,7 @@ const TOOLS: Tool[] = [
     emoji: "📑",
     title: "Glossaire immobilier",
     desc:
-      "31 termes clés (DPE, LMNP, ZFE, taxe foncière, fibre FTTH, encadrement loyers, Pinel...) expliqués clairement. À consulter avant tout achat.",
+      `${GLOSSARY_TERMS_COUNT} termes clés (DPE, LMNP, ZFE, taxe foncière, fibre FTTH, encadrement loyers, Pinel...) expliqués clairement. À consulter avant tout achat.`,
     cta: "Ouvrir le glossaire",
   },
   {
@@ -91,7 +92,7 @@ const TOOLS: Tool[] = [
     emoji: "📡",
     title: "Flux RSS des guides",
     desc:
-      "Suivez les 285 guides en RSS dans votre lecteur (Feedly, Inoreader, NetNewsWire). Mis à jour à chaque publication.",
+      `Suivez les ${GUIDES_COUNT} guides en RSS dans votre lecteur (Feedly, Inoreader, NetNewsWire). Mis à jour à chaque publication.`,
     cta: "S'abonner au flux",
   },
 ];

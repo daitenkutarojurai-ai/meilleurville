@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { CITIES_COUNT, GLOSSARY_TERMS_COUNT } from "@/lib/site-stats";
 
 type Item = { href: string; emoji: string; label: string; desc: string };
 
@@ -7,7 +8,7 @@ const ITEMS: Item[] = [
     href: "/glossaire",
     emoji: "📑",
     label: "Glossaire immobilier",
-    desc: "31 termes clés (DPE, LMNP, ZFE, taxe foncière...) expliqués clairement.",
+    desc: `${GLOSSARY_TERMS_COUNT} termes clés (DPE, LMNP, ZFE, taxe foncière...) expliqués clairement.`,
   },
   {
     href: "/calendrier-immobilier",
@@ -25,7 +26,7 @@ const ITEMS: Item[] = [
     href: "/methode",
     emoji: "🔬",
     label: "Méthodologie des scores",
-    desc: "Comment les 352 villes sont notées sur 8 axes.",
+    desc: `Comment les ${CITIES_COUNT} villes sont notées sur 8 axes.`,
   },
   {
     href: "/faq",

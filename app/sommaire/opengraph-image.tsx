@@ -1,10 +1,17 @@
 import { ImageResponse } from "next/og";
+import { CITIES_COUNT, GUIDES_COUNT, TAGS_COUNT, RANKINGS_COUNT, REGIONS_COUNT } from "@/lib/site-stats";
 
 export const alt = "Sommaire — Index complet MeilleurVille";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
-const STATS = ["352 villes", "285 guides", "184 tags", "13 classements", "18 régions"];
+const STATS = [
+  `${CITIES_COUNT} villes`,
+  `${GUIDES_COUNT} guides`,
+  `${TAGS_COUNT} tags`,
+  `${RANKINGS_COUNT} classements`,
+  `${REGIONS_COUNT} régions`,
+];
 
 export default function Image() {
   return new ImageResponse(

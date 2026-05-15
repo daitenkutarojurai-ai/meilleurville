@@ -62,7 +62,7 @@ export default function HomePage() {
       <ScrollReveal><FranceHeatmap /></ScrollReveal>
       <ScrollReveal><RankingPreview /></ScrollReveal>
       <ScrollReveal><FeaturedCities /></ScrollReveal>
-      <ScrollReveal><QuizTeaser /></ScrollReveal>
+      <ScrollReveal><QuizTeaser citiesCount={CITIES_SEED.length} /></ScrollReveal>
       <ScrollReveal><ProfileQuickAccess /></ScrollReveal>
       <ScrollReveal><GuidesTeaser /></ScrollReveal>
 

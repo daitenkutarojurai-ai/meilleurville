@@ -7,11 +7,11 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { GUIDES } from "@/data/guides";
 import { getAllTagsWithCounts } from "@/lib/guide-tags";
+import { CITIES_COUNT, GUIDES_COUNT, TAGS_COUNT, GLOSSARY_TERMS_COUNT } from "@/lib/site-stats";
 
 export const metadata: Metadata = {
   title: "Recherche globale — Villes, guides, tags, glossaire | MeilleurVille",
-  description:
-    "Cherchez dans toute la base MeilleurVille : 352 villes, 285 guides, 184 tags, 31 termes glossaire. Tout au même endroit.",
+  description: `Cherchez dans toute la base MeilleurVille : ${CITIES_COUNT} villes, ${GUIDES_COUNT} guides, ${TAGS_COUNT} tags, ${GLOSSARY_TERMS_COUNT} termes glossaire. Tout au même endroit.`,
   alternates: { canonical: "/recherche" },
 };
 

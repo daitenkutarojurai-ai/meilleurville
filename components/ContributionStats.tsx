@@ -21,7 +21,7 @@ export function ContributionStats() {
         <div className="grid grid-cols-2 gap-3">
           {[
             { value: `${totalCities}`, label: "Villes profilées" },
-            { value: "6", label: "Catégories de risques" },
+            { value: `${FLAG_TYPES.length}`, label: "Catégories de risques" },
             { value: "8", label: "Axes de notation" },
             { value: "100%", label: "Données ouvertes" },
           ].map(({ value, label }) => (
@@ -33,7 +33,7 @@ export function ContributionStats() {
         </div>
         <div className="mt-5">
           <Link
-            href="/red-flags#discussions"
+            href="/contact?topic=red-flag"
             className="block w-full text-center text-sm font-semibold text-white bg-red-500 hover:bg-red-600 transition-colors rounded-xl py-2.5"
           >
             Signaler un point noir →

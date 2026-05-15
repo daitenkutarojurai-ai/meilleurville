@@ -1,5 +1,6 @@
 import { ImageResponse } from "next/og";
 import { getAllTagsWithCounts } from "@/lib/guide-tags";
+import { GUIDES_COUNT, TAGS_COUNT } from "@/lib/site-stats";
 
 export const alt = "Tous les tags — MeilleurVille";
 export const size = { width: 1200, height: 630 };
@@ -32,8 +33,8 @@ export default function Image() {
 
         <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
           <div style={{ color: "#8b949e", fontSize: "16px", letterSpacing: "2px", textTransform: "uppercase" }}>Index</div>
-          <div style={{ color: "#f0f6fc", fontSize: "72px", fontWeight: 900, lineHeight: 1 }}>184 tags</div>
-          <div style={{ color: "#8b949e", fontSize: "17px" }}>Parcourez les 285 guides par thème</div>
+          <div style={{ color: "#f0f6fc", fontSize: "72px", fontWeight: 900, lineHeight: 1 }}>{`${TAGS_COUNT} tags`}</div>
+          <div style={{ color: "#8b949e", fontSize: "17px" }}>{`Parcourez les ${GUIDES_COUNT} guides par thème`}</div>
         </div>
 
         <div style={{ display: "flex", flexWrap: "wrap", gap: "10px" }}>

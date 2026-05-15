@@ -4,16 +4,15 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { AmbientBackground } from "@/components/AmbientBackground";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { CITIES_COUNT } from "@/lib/site-stats";
 
 export const metadata: Metadata = {
   title: "Quiz — Trouvez votre ville idéale en France | MeilleurVille",
-  description:
-    "Quiz de matching en 3 minutes : 6 questions pour trouver la ville française parfaite pour vous. Algorithme pondéré sur 352 villes.",
+  description: `Quiz de matching en 3 minutes : 6 questions pour trouver la ville française parfaite pour vous. Algorithme pondéré sur ${CITIES_COUNT} villes.`,
   alternates: { canonical: "/quiz" },
   openGraph: {
     title: "Quiz de matching — Trouvez votre ville idéale",
-    description:
-      "3 minutes · 6 questions · 352 villes analysées. Quel est votre profil géographique ?",
+    description: `3 minutes · 6 questions · ${CITIES_COUNT} villes analysées. Quel est votre profil géographique ?`,
     type: "website",
   },
   twitter: { card: "summary_large_image" },

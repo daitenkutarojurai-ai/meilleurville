@@ -14,6 +14,7 @@ import {
   ChefHat,
 } from "lucide-react";
 import type { City } from "@/lib/types";
+import { RANKINGS_COUNT } from "@/lib/site-stats";
 
 export const metadata: Metadata = {
   title: "Classements villes françaises 2026 — Télétravail, Famille, Budget, Culture",
@@ -21,8 +22,7 @@ export const metadata: Metadata = {
     "Classements des meilleures villes françaises par style de vie : télétravail, famille, retraite, étudiant, nature, budget, soleil, sécurité, culture, mobilité, investissement, logement abordable. Données 2026.",
   openGraph: {
     title: "Classements des meilleures villes françaises 2026",
-    description:
-      "17 classements thématiques : télétravail, famille, budget, soleil, sécurité, culture, gastronomie, investissement, logement, jeunes actifs et plus.",
+    description: `${RANKINGS_COUNT} classements thématiques : télétravail, famille, budget, soleil, sécurité, culture, gastronomie, investissement, logement, jeunes actifs et plus.`,
     type: "website",
   },
   twitter: { card: "summary_large_image" },

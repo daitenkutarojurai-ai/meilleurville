@@ -2,6 +2,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Users, MapPin, Star, Sparkles } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
+import { CITIES_COUNT, RANKINGS_COUNT } from "@/lib/site-stats";
 
 interface Stat {
   value: number;
@@ -12,10 +13,10 @@ interface Stat {
 }
 
 const STATS: Stat[] = [
-  { value: 340, suffix: "+",  label: "villes profilées", icon: MapPin, accent: "from-emerald-400 to-lime-400" },
-  { value: 12,  suffix: "",   label: "classements thématiques", icon: Star, accent: "from-amber-400 to-orange-400" },
-  { value: 8,   suffix: "",   label: "axes de notation", icon: Sparkles, accent: "from-pink-400 to-rose-400" },
-  { value: 100, suffix: "%",  label: "données ouvertes", icon: Users, accent: "from-sky-400 to-emerald-400" },
+  { value: CITIES_COUNT,    suffix: "",   label: "villes profilées", icon: MapPin, accent: "from-emerald-400 to-lime-400" },
+  { value: RANKINGS_COUNT,  suffix: "",   label: "classements thématiques", icon: Star, accent: "from-amber-400 to-orange-400" },
+  { value: 8,               suffix: "",   label: "axes de notation", icon: Sparkles, accent: "from-pink-400 to-rose-400" },
+  { value: 100,             suffix: "%",  label: "données ouvertes", icon: Users, accent: "from-sky-400 to-emerald-400" },
 ];
 
 function useCountUp(target: number, started: boolean) {

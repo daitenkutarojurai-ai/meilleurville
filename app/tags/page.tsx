@@ -5,6 +5,7 @@ import { Footer } from "@/components/Footer";
 import { Badge } from "@/components/ui/Badge";
 import { getAllTagsWithCounts } from "@/lib/guide-tags";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { GUIDES_COUNT } from "@/lib/site-stats";
 
 export const metadata: Metadata = {
   title: "Tous les tags — Index thématique des guides | MeilleurVille",
@@ -32,7 +33,7 @@ export default function TagsIndexPage() {
           <Badge variant="accent" className="mb-3">Index</Badge>
           <h1 className="text-3xl font-bold text-[var(--text-primary)] mb-3">Tous les tags</h1>
           <p className="text-[var(--text-secondary)]">
-            {tags.length} thèmes pour naviguer les 285 guides. Triés par fréquence.
+            {tags.length} thèmes pour naviguer les {GUIDES_COUNT} guides. Triés par fréquence.
           </p>
         </div>
       </section>

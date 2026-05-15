@@ -1,4 +1,5 @@
 import { ImageResponse } from "next/og";
+import { GLOSSARY_TERMS_COUNT } from "@/lib/site-stats";
 
 export const alt = "Glossaire immobilier & relocation — MeilleurVille";
 export const size = { width: 1200, height: 630 };
@@ -63,7 +64,7 @@ export default function Image() {
             Glossaire immobilier
           </div>
           <div style={{ color: "#8b949e", fontSize: "17px" }}>
-            31 termes clés pour acheter, louer, investir ou déménager en France
+            {`${GLOSSARY_TERMS_COUNT} termes clés pour acheter, louer, investir ou déménager en France`}
           </div>
         </div>
 
