@@ -28,10 +28,15 @@ const LAT_MIN = 41.2;
 const LAT_MAX = 51.4;
 const PAD = 22;
 const W = 700;
-const H = 720;
+// Metropolitan map fits in y[0, MAP_H]; the extra strip below (DROM_*) hosts
+// the overseas cartouches so they no longer overlap the Provence / Corsica
+// area, which is what y=534+ used to collide with.
+const MAP_H = 700;
+const DROM_STRIP_H = 70;
+const H = MAP_H + DROM_STRIP_H;
 
 const SCALE_X = (W - PAD * 2) / (LNG_MAX - LNG_MIN);
-const SCALE_Y = (H - PAD * 2) / (LAT_MAX - LAT_MIN);
+const SCALE_Y = (MAP_H - PAD * 2) / (LAT_MAX - LAT_MIN);
 
 function project(lng: number, lat: number): [number, number] {
   return [PAD + (lng - LNG_MIN) * SCALE_X, PAD + (LAT_MAX - lat) * SCALE_Y];
@@ -388,11 +393,22 @@ export function FranceHeatmap() {
                 filter="url(#borderGlow)"
               />
 
-              {/* DROM inset cartouches — overseas regions in bottom-left.
-                  CITIES_SEED outside the metropolitan bbox are filtered from
-                  the main dot layer (lng/lat bounds), so we surface them
-                  here as small framed labels colored by their top city. */}
+              {/* DROM inset cartouches — overseas regions on a dedicated strip
+                  BELOW the metropolitan map (y > MAP_H). CITIES_SEED outside
+                  the metropolitan bbox are filtered from the main dot layer
+                  (lng/lat bounds), so we surface them here as small framed
+                  labels colored by their top city. */}
               <g aria-label="Régions d'outre-mer">
+                {/* Faint separator between metro map and DROM strip */}
+                <line
+                  x1={PAD}
+                  x2={W - PAD}
+                  y1={MAP_H}
+                  y2={MAP_H}
+                  stroke="rgba(229,231,235,0.15)"
+                  strokeWidth={1}
+                  strokeDasharray="4 4"
+                />
                 {(() => {
                   const droms = [
                     { code: "GUA", name: "Guadeloupe", slug: "guadeloupe" },
@@ -403,9 +419,10 @@ export function FranceHeatmap() {
                   ];
                   const boxW = 56;
                   const boxH = 32;
-                  const gap = 4;
-                  const startX = 24;
-                  const startY = 540;
+                  const gap = 6;
+                  const totalW = droms.length * boxW + (droms.length - 1) * gap;
+                  const startX = Math.round((W - totalW) / 2);
+                  const startY = MAP_H + 22;
                   return droms.map((r, i) => {
                     const top = [...CITIES_SEED]
                       .filter((c) => c.region === r.name)
@@ -455,15 +472,16 @@ export function FranceHeatmap() {
                   });
                 })()}
                 <text
-                  x="24"
-                  y="534"
-                  fontSize="9"
+                  x={W / 2}
+                  y={MAP_H + 14}
+                  textAnchor="middle"
+                  fontSize="10"
                   fontWeight="600"
-                  fill="rgba(229,231,235,0.65)"
-                  letterSpacing="1"
+                  fill="rgba(229,231,235,0.7)"
+                  letterSpacing="1.5"
                   style={{ textTransform: "uppercase" }}
                 >
-                  Outre-mer (score top ville)
+                  Outre-mer · score de la meilleure ville
                 </text>
               </g>
 
