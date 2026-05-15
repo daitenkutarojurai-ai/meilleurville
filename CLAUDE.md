@@ -338,6 +338,68 @@ Category `"famille"`.
 - [ ] **`NEXT_PUBLIC_BASE_URL`** set on Vercel to the production domain
 - [ ] **`app/cgu` + `app/confidentialite`** date: bump "Dernière mise à jour" after legal review
 
+## Roadmap v5 — UX & data-truth audit (2026-05-15)
+
+UX issues + data accuracy. Higher leverage than more guides at this point — retention and trust depend on these.
+
+### R5.1 — City page layout (`/villes/[slug]`)
+**Problem:** Right-rail panel is dense (favoris, score breakdown, sub-page links, related cities, sources…), main column has shorter content, so when scrolling the rail keeps going while the centre column ends — leaves a large empty band in the middle. Bad reading experience.
+
+**Goal:** Rebalance the two-column reading axis.
+- Audit `app/villes/[slug]/CityProfile.tsx` for content split.
+- Move secondary rail blocks (related cities, sources, sub-page links) below the main column on desktop OR make rail `position: sticky` only for the score card and let the rest scroll inline.
+- Verify mobile: rail blocks should stack cleanly below the main column without duplication.
+
+### R5.2 — Carte de France: DROM box overlap
+**Problem:** On `/carte` (and probably `FranceHeatmap` on homepage), the inset cartouche for DROM (Outre-mer) overlaps the metropolitan map card.
+
+**Goal:** Reorganise so DROM inset is properly positioned, never overlapping. Likely fixes:
+- Inset positioned in the SE corner of the metropolitan card (Mayotte/Réunion in one row, Antilles+Guyane in another).
+- Add proper white padding/border around inset so it reads as a distinct box.
+- Or move DROM to a separate strip *below* the metropolitan map (`DromStrip` already exists in lib/utils — may just be a styling fix).
+- Files: `components/FranceHeatmap.tsx`, `app/carte/CarteClient.tsx`, possibly `DromStrip` usage.
+
+### R5.3 — Simulateur not actually responding to inputs
+**Problem:** First few results in the city simulator are always the same regardless of user inputs (budget, lifestyle, preferences). Looks like a dead feature — kills trust and reuse.
+
+**Goal:** Make the simulator's ranking honestly depend on the inputs.
+- Locate the simulator component (likely `app/page.tsx` "simulateur" section + a `CostCalculator` or `CitySimulator` component).
+- Audit how inputs feed into city scoring — they probably don't, or feed a constant.
+- Use existing `lib/niche-scores.ts` weights and re-rank `CITIES_SEED` per user inputs (budget → cost axis, télétravail → remoteWork, nature priority → nature axis, etc.).
+- Add a visible "Pourquoi cette ville ?" reason chip on each result tying back to the inputs.
+- Edge case: when user changes only one input, ranking should visibly shift.
+
+### R5.4 — Red Flags: working report button + city-first ordering
+**Problem A:** On `/red-flags`, "Signaler un point noir" button either doesn't navigate or loops to the same page.
+
+**Problem B:** Section ordering puts archetypal red-flag patterns first; user research says city-specific red-flag fiches are what users actually want to land on. Need to flip the order + polish those fiches.
+
+**Goals:**
+- Wire "Signaler un point noir" to `/contact?sujet=red-flag` (existing contact form) OR to a dedicated `/red-flags/signaler` page. Pick the simpler one.
+- Reorder `/red-flags` page: "Fiches red-flag par ville" block first (above the fold), archetypal patterns block second.
+- Polish the city fiches: real intro per city, 3-5 concrete red flags per city sourced from `lib/city-narrative.ts` "cons" array OR a new dedicated field, link to the city page.
+
+### R5.5 — Data-truth audit
+**Problem:** Numbers on the site (e.g. "340 villes couvertes") may not reflect actual data (currently 352 cities, 295+ guides). Some figures may be stale or invented.
+
+**Goal:** Audit every numeric claim displayed on the site and replace with derived-at-runtime values from the canonical data sources.
+- Don't change the surrounding copy/comments, only the numbers.
+- Audit targets:
+  - Homepage hero/stats strip ("X villes couvertes", "Y guides", "Z classements")
+  - `/villes` count, `/classements` count, `/guides` count
+  - `/sommaire` summary numbers
+  - Stats components: `StatsBar.tsx`, `TopFiveCities.tsx` headers, footer mentions
+  - OG images that hardcode counts
+- Replace hardcoded literals with `CITIES_SEED.length`, `GUIDES.length`, `RANKING_META.length` etc.
+- Verify counts that include sub-content (climat, ecoles, quartiers, transports per-city pages = `CITIES_SEED.length × N`).
+
+### R5 priority order (suggested)
+1. **R5.4** (Red Flags button is a broken-link bug — 5-min fix, immediately visible)
+2. **R5.5** (Data-truth audit — trust foundation, mostly find-and-replace)
+3. **R5.2** (Carte DROM overlap — visible bug, small fix)
+4. **R5.1** (City page layout — bigger refactor, real UX win)
+5. **R5.3** (Simulateur — needs scoring rework, biggest scope)
+
 ## Roadmap v4 — post-265 guides (2026-05-13)
 
 ### R4.1 — Extend "Vivre sans voiture" series (+5 cities)
