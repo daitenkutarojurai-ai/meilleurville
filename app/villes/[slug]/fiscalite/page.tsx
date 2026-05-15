@@ -6,6 +6,7 @@ import { Footer } from "@/components/Footer";
 import { AmbientBackground } from "@/components/AmbientBackground";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { fiscalityForCity, TIER_TONE } from "@/lib/fiscalite";
+import { deptToSlug } from "@/lib/dept-slug";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { Coins, AlertTriangle, Home as HomeIcon, FileText, Info } from "lucide-react";
 
@@ -248,10 +249,16 @@ export default async function FiscalitePage({ params }: Props) {
               ← Profil de {city.name}
             </Link>
             <Link
+              href={`/departements/${deptToSlug(city.department)}/fiscalite`}
+              className="rounded-xl border border-[var(--border)] bg-white/60 backdrop-blur px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] hover:bg-white transition-colors"
+            >
+              Hub fiscalité {city.department} →
+            </Link>
+            <Link
               href="/glossaire"
               className="rounded-xl border border-[var(--border)] bg-white/60 backdrop-blur px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] hover:bg-white transition-colors"
             >
-              Glossaire (DPE, LMNP, Pinel...) →
+              Glossaire →
             </Link>
             <Link
               href="/methode"

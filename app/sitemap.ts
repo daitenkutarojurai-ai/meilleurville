@@ -189,12 +189,20 @@ function redFlagsSection(): MetadataRoute.Sitemap {
 
 function departementsSection(): MetadataRoute.Sitemap {
   const depts = [...new Set(CITIES_SEED.map((c) => c.department))];
-  return depts.map((d) => ({
-    url: `${BASE_URL}/departements/${slugify(d)}`,
-    lastModified: CITY_DATA_UPDATED,
-    changeFrequency: "weekly",
-    priority: 0.65,
-  }));
+  return depts.flatMap((d) => [
+    {
+      url: `${BASE_URL}/departements/${slugify(d)}`,
+      lastModified: CITY_DATA_UPDATED,
+      changeFrequency: "weekly" as const,
+      priority: 0.65,
+    },
+    {
+      url: `${BASE_URL}/departements/${slugify(d)}/fiscalite`,
+      lastModified: CITY_DATA_UPDATED,
+      changeFrequency: "monthly" as const,
+      priority: 0.55,
+    },
+  ]);
 }
 
 // Next 16 passes `id` as Promise<string>. See:

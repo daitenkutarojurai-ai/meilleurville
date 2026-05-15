@@ -426,6 +426,9 @@ Bordeaux, Nantes, Strasbourg, Rennes, Montpellier — all in active price-discov
 ### R4.4 — Reading-list at end of each guide
 Below relatedGuides, add a "Lire ensuite" auto-suggest based on category overlap + city overlap (not just hardcoded). Improves session duration and PageRank distribution.
 
+### R6.1 — Department fiscalité hub (`/departements/[slug]/fiscalite`) ✅
+**Shipped 2026-05-15.** Mirror of the per-city fiscalité page at the department level. 46 hub pages generated, each lists every city in the department with a link to its detailed fiche. Cross-links from per-city fiche back to the hub. New `lib/dept-slug.ts` shared between dept index and the hub. Added to sitemap `departements` chunk. Refactored `app/departements/[dept]/page.tsx` to import the shared helpers (replaces a broken regex literal `[̀-ͯ]` with the proper `\\p{Diacritic}` pattern).
+
 ### R4.5 — Department-level fiscalité page (`/villes/[slug]/fiscalite`) ✅
 **Shipped 2026-05-15.** Combined with R3.3 (per-city sub-page). `lib/fiscalite.ts` exposes `fiscalityForCity({ department, region })` returning DGFiP-aligned tiered estimates (taxe foncière T3 ancien fourchette, THRS zone-tendue flag, DMTO standard). 352 `app/villes/[slug]/fiscalite/page.tsx` pages generated via `generateStaticParams`, added to sitemap `city-sub` chunk, surfaced in the CityProfile sub-pages strip (now 5 cards). Disclaimer "estimation départementale" appears before any number.
 

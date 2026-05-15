@@ -9,25 +9,12 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { GUIDES, GUIDE_CATEGORIES } from "@/data/guides";
 import type { City } from "@/lib/types";
 
+import { deptToSlug, slugToDept, getAllDepartments } from "@/lib/dept-slug";
+
 type Props = { params: Promise<{ dept: string }> };
 
-function deptToSlug(dept: string): string {
-  return dept
-    .toLowerCase()
-    .normalize("NFD")
-    .replace(/[̀-ͯ]/g, "")
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-|-$/g, "");
-}
-
-function slugToDept(slug: string): string | undefined {
-  const depts = [...new Set(CITIES_SEED.map((c) => c.department))];
-  return depts.find((d) => deptToSlug(d) === slug);
-}
-
 export function generateStaticParams() {
-  const depts = [...new Set(CITIES_SEED.map((c) => c.department))];
-  return depts.map((d) => ({ dept: deptToSlug(d) }));
+  return getAllDepartments().map((d) => ({ dept: deptToSlug(d) }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -222,6 +209,25 @@ export default async function DeptPage({ params }: Props) {
       </section>
 
       <div className="mx-auto max-w-5xl px-4 sm:px-6 py-12 space-y-10">
+        {/* Fiscalité teaser — surfaces the new /departements/[slug]/fiscalite hub */}
+        <Link
+          href={`/departements/${deptSlug}/fiscalite`}
+          className="group flex flex-wrap items-center gap-3 rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4"
+        >
+          <span className="text-2xl shrink-0">💰</span>
+          <div className="flex-1 min-w-0">
+            <p className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
+              Fiscalité du département {deptName}
+            </p>
+            <p className="text-xs text-[var(--text-secondary)] mt-0.5">
+              Taxe foncière, THRS, droits de mutation — estimation départementale 2026 + fiche par commune.
+            </p>
+          </div>
+          <span className="text-sm text-[var(--accent)] font-medium shrink-0">
+            Voir →
+          </span>
+        </Link>
+
         <section>
           <h2 className="text-lg font-bold text-[var(--text-primary)] mb-4">
             Top {Math.min(3, cities.length)} en {deptName}
