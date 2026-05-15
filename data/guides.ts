@@ -16691,6 +16691,307 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["SCI familiale", "transmission patrimoine", "démembrement", "donation parts", "IR vs IS", "succession", "conjoint survivant", "2026"],
   },
+  {
+    slug: "acheter-viager-france-2026-opportunites-risques",
+    title: "Acheter un viager en 2026 — opportunités, calcul, risques réels",
+    metaTitle: "Acheter viager 2026 : occupé vs libre, calcul rente, risques — guide",
+    metaDesc:
+      "Acheter un viager en France 2026 : viager occupé vs libre, calcul rente, espérance de vie, fiscalité, profils acheteurs, pièges éthiques.",
+    category: "budget",
+    emoji: "⏳",
+    readMinutes: 9,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "Le viager — acheter à une personne âgée avec rente jusqu'à son décès — séduit ~12 000 acheteurs/an en France 2026. Promesse : bien à prix décoté, étalement paiement, propriété future. Réalité : calcul actuariel risqué, dimension éthique, complexité juridique. Voici la lecture honnête, sans le 'viager = jackpot facile'.",
+    sections: [
+      {
+        heading: "Comment fonctionne le viager",
+        body: "(1) **Vendeur (le crédirentier)** : âgé 70-90+ ans typique, propriétaire. Vend son bien en échange de : (a) **Bouquet** : capital immédiat (10-40 % valeur du bien). (b) **Rente viagère** : versement mensuel jusqu'au décès. Indexée annuellement. (2) **Acheteur (le débirentier)** : profil 50-65 ans typique avec capital + revenus stables. Verse bouquet + rente. (3) **Calcul** : valeur bien × coefficient actuariel selon âge vendeur. Plus le vendeur est âgé, plus le décote est forte (rente courte espérance). (4) **Modèle 1 — Viager occupé** : vendeur reste habiter le bien jusqu'au décès. Décote 30-50 % vs valeur libre. Le plus fréquent (90 % cas). (5) **Modèle 2 — Viager libre** : vendeur quitte, acheteur peut louer ou occuper. Décote 10-25 %. Plus rare. (6) **Aléa** : durée de vie vendeur inconnue → calcul actuariel risqué. (7) **Marché 2026** : ~12 000 transactions/an, en croissance (vieillissement population + besoin liquidité retraités).",
+      },
+      {
+        heading: "Calcul d'une opération viager",
+        body: "Exemple : maison 350 k€ valeur libre. Vendeur 78 ans, espérance vie statistique 12 ans (Insee). (1) **Décote viager occupé** : 40 % vs valeur libre = 210 k€ 'valeur occupée'. (2) **Répartition bouquet/rente** : choix négociation. Classique : 30 % bouquet + 70 % rente. Soit : (a) **Bouquet** : 63 000 € immédiat. (b) **Rente capitalisée** : 147 000 €. (3) **Rente mensuelle** : 147 000 € / (12 ans × 12 mois) = ~1 020 €/mois. Indexée IRL. (4) **Coût acheteur si vendeur vit 12 ans** : 63 k€ + 147 k€ = 210 k€ pour bien valeur libre 350 k€ = -40 %. Excellent. (5) **Coût acheteur si vendeur vit 5 ans** : 63 k€ + 61 k€ = 124 k€ pour bien 350 k€ = -65 %. Jackpot. (6) **Coût acheteur si vendeur vit 20 ans** : 63 k€ + 245 k€ = 308 k€. Moins avantageux. (7) **Cas Jeanne Calment** (Arles) : viager signé 1965, vendeur 90 ans. Décédée 1997 à 122 ans. Acheteur (notaire) a payé bouquet + rente pendant 32 ans pour total ~190 % valeur libre du bien. Pari perdant historique.",
+      },
+      {
+        heading: "Profil acheteur viager 2026",
+        body: "(1) **Âge cible** : 50-65 ans. Au-delà, écart âge vendeur/acheteur insuffisant. En-dessous, projet trop long. (2) **Capital** : 50-150 k€ bouquet + capacité rente 800-2 000 €/mois sur 10-20 ans. (3) **Revenus stables** : salaire + pension confortable. Rente = engagement long terme indexée. (4) **Pas de besoin immédiat du bien** : achat investissement patrimoine + transmission anticipée, vs résidence principale immédiate. (5) **Tolérance émotionnelle** : 'attendre' implicitement décès vendeur. Acceptation éthique personnelle requise. (6) **Profil typique** : (a) Cadre 55-60 ans, patrimoine constitué, anticipation retraite. (b) Couple en pré-retraite avec capital après vente bien précédent. (c) Investisseur recherchant alternative à locatif classique. (d) Profil expat retour France avec capital. (7) **À éviter** : primo-accédant, profil 30-45 ans avec besoin résidence principale immédiate.",
+      },
+      {
+        heading: "Avantages et inconvénients",
+        body: "**Avantages** : (1) **Prix décoté** : 30-50 % vs valeur libre du bien. (2) **Étalement paiement** : pas de crédit bancaire majeur, rente progressive. (3) **Bouquet partiel** : capital initial limité (vs achat classique 100 % au compromis). (4) **Pas d'impôt revenu** sur rente versée (réduction d'impôt pour acheteur dans certains cas selon âge vendeur). (5) **Indexation prévisible** : rente revalorisée IRL annuellement. (6) **Patrimoine futur** : acquisition certaine à terme. **Inconvénients** : (1) **Aléa longévité** : vendeur peut vivre beaucoup plus longtemps que statistiques. (2) **Entretien gros œuvre** : à charge acheteur (toiture, murs porteurs, façade) même en viager occupé. (3) **Impossibilité utilisation** : viager occupé interdit louer/occuper jusqu'au décès vendeur. (4) **Indexation rente** : si inflation forte, rente devient lourde sur 20+ ans. (5) **Dimension éthique** : sentiment 'attendre la mort' du vendeur. (6) **Difficulté revente** : marché secondaire viager peu liquide.",
+      },
+      {
+        heading: "Fiscalité viager",
+        body: "(1) **Acheteur** : (a) **Bouquet** : pas d'impôt à l'achat. (b) **Rente** : versement non-déductible. (c) **Plus-value future** : à la cession du bien après décès vendeur, calculée sur le total payé (bouquet + rente cumulée actualisée). Imposition classique plus-value immobilière. (2) **Vendeur** : (a) **Bouquet** : exonération impôt si résidence principale (sinon plus-value classique). (b) **Rente viagère** : imposition partielle selon âge vendeur au moment signature. (c) **Abattement IR rente** : 30 % pour vendeur 50-59 ans, 50 % pour 60-69 ans, 60 % pour 70+ ans. (3) **IFI** : viager occupé non-comptabilisé patrimoine acheteur (jusqu'au décès vendeur). Viager libre comptabilisé. (4) **Droits de mutation** : DMTO calculés sur valeur libre du bien (pas sur valeur occupée), ce qui augmente frais. (5) **Aides fiscales acheteur** : aucune spécifique viager 2026.",
+      },
+      {
+        heading: "Conditions juridiques 2026",
+        body: "(1) **Acte authentique notarié** obligatoire. Notaire calcule rente selon barème actuariel + indexation. (2) **Clause résolutoire** : si acheteur ne paye plus la rente, contrat annulé rétroactivement. Vendeur récupère bien + conserve bouquet et rentes déjà versées. Protection vendeur. (3) **Privilège du vendeur** : inscription hypothécaire au profit du vendeur. (4) **Décès prématuré vendeur** dans les 20 jours suivant signature : nullité du contrat. (5) **Validité 'aléa réel'** : vendeur ne doit pas être en phase terminale connue. Maladie cachée = nullité (jurisprudence Cour de cassation). (6) **Procuration impossible** : signature personnelle obligatoire vendeur (vérification consentement). (7) **Indexation contractuelle** : IRL (Indice Référence Loyers, ~2-3 %/an) le plus courant. Indices spécifiques possibles.",
+      },
+      {
+        heading: "Pièges classiques viager",
+        body: "(1) **Sur-estimer espérance de vie vendeur** : Insee donne moyennes, vendeurs en bonne santé vivent beaucoup plus longtemps. Marge sécurité +5 ans recommandée dans calcul. (2) **Sous-estimer entretien** : gros œuvre à charge acheteur, peut atteindre 20-40 k€ en 10-15 ans (toiture, façade). (3) **Indexation IRL** : si inflation post-Covid maintenue à 3-4 %/an, rente +50 à +80 % en 15 ans. (4) **Cas mauvaise santé vendeur cachée** : famille vendeur peut contester contrat si fraude prouvée. Risque procès. (5) **Famille vendeur hostile** : enfants vendeur peuvent voir achat comme 'spoliation héritage'. Tensions au décès. (6) **Difficulté revente** : marché secondaire viager peu liquide, décote +20-30 % vs achat. Tenir le bien jusqu'à décès vendeur recommandé. (7) **Sous-estimer aléa** : 5 % vendeurs viagers vivent 30+ ans après signature. Si on tombe dans ce 5 %, perte sèche garantie. (8) **Engagement rente long terme** : 1 000-2 000 €/mois sur 15-25 ans = équivalent crédit immobilier classique mais sans propriété immédiate.",
+      },
+      {
+        heading: "Villes / régions favorables viager 2026",
+        body: "Marchés viager actifs : (1) **Côte d'Azur** (Nice, Cannes, Antibes, Menton) — communauté retraités, prix élevés, biens patrimoniaux. Marché viager #1 France. (2) **Provence intérieure** (Aix, Avignon, Lubéron, Saint-Rémy) — retraités fortunés, biens charme. (3) **Paris** — propriétaires âgés cherchant complément retraite. Viager dans appartement Paris très demandé. (4) **Bordeaux, Lyon, Toulouse** — métropoles avec démographie senior. (5) **Pays Basque** (Bayonne, Biarritz) — communauté retraités, biens patrimoniaux. (6) **Bretagne, Atlantique** — moins courant mais émergent. (7) **Conditions favorables** : ville avec démographie senior + prix immobilier élevé + faible démographique active = viager opportunités. (8) **À éviter** : zone démographique déclinante (Massif Central rural) où plus-value future incertaine.",
+      },
+      {
+        heading: "Le calcul honnête : niche pertinente pour profil 55-65 ans patient et capitalisé",
+        body: "Le viager en France 2026 reste pertinent pour : (1) **Profil 55-65 ans** avec capital + revenus stables + pas de besoin résidence principale immédiate. (2) **Vision patrimoniale 10-20 ans** : enrichissement progressif vs achat classique. (3) **Acceptation éthique** : 'attendre' implicitement décès vendeur, intégrer dans démarche. (4) **Étude actuariel rigoureux** : marge sécurité espérance vie vendeur +5 ans. **Cas favorable** : viager occupé vendeur 80-85 ans en bonne santé moyenne, bien valeur libre 300-500 k€, bouquet 60-100 k€ + rente 800-1 200 €/mois, projection 12-15 ans = excellent achat à -35 à -50 % du marché. **Cas défavorable** : vendeur 70 ans en forme exceptionnelle = 20-25 ans projection rente = peu avantageux. **Recommandation** : (1) Toujours faire calculer par notaire spécialisé viager + barème actuariel à jour. (2) Inspection médicale vendeur si possible (rare en pratique). (3) Garder réserve trésorerie 3-5 ans rente pour aléas. (4) Diversifier (pas tout investir dans 1 viager). **À éviter** : viager unique investissement, viager dans bien périphérique, calcul optimiste espérance vie.",
+      },
+    ],
+    relatedCities: ["nice", "aix-en-provence", "paris", "bordeaux", "biarritz"],
+    relatedGuides: [
+      "acheter-immobilier-apres-50-ans-strategie-france-2026",
+      "scpi-vs-locatif-direct-france-2026-quel-choix",
+      "residence-secondaire-france-pieges-fiscaux-2026",
+      "vivre-france-retraite-etrangere-fiscalite-2026",
+      "sci-familiale-france-2026-montage-transmission",
+    ],
+    tags: ["viager", "viager occupé", "rente viagère", "bouquet", "espérance de vie", "actuariel", "retraite", "patrimoine", "2026"],
+  },
+  {
+    slug: "vivre-dans-bourg-2000-habitants-france-2026",
+    title: "Vivre dans un bourg de 2 000 habitants en 2026 — services réels au seuil critique",
+    metaTitle: "Bourg 2 000 habitants 2026 : services réels, fibre, médecin — guide",
+    metaDesc:
+      "Vivre dans un bourg de 2 000 habitants en France 2026 : services réels au seuil critique, désertification, fibre, école, médecin, communes pionnières.",
+    category: "lifestyle",
+    emoji: "🏘️",
+    readMinutes: 9,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "2 000 habitants est un seuil démographique critique en France 2026 : suffisant pour services structurants (école, mairie, médecin, supermarché) mais en limite. Au-delà = autonomie. En-deçà = dépendance bourg voisin. Voici la lecture honnête de ce qu'on trouve vraiment dans un bourg 2 000 hab, où c'est viable et où c'est piégeux.",
+    sections: [
+      {
+        heading: "Le seuil 2 000 habitants — pourquoi c'est critique",
+        body: "(1) **Seuil INSEE** : 2 000 = limite entre commune rurale et bourg structurant. Statistiquement, services baissent fortement sous 2 000. (2) **Au seuil 2 000** : viable si : (a) École primaire active (50-150 élèves). (b) Médecin généraliste (au moins 1). (c) Supermarché ou supérette. (d) Boulangerie + 1-2 commerces. (e) Pharmacie. (f) Café/restaurant. (3) **Au-dessus 2 000** : services se densifient (collège, agence bancaire, médecins multiples). (4) **En-dessous 2 000** : commerces se contractent rapidement. À 1 500 hab : encore école + boulangerie souvent. À 800-1 200 hab : seul un dépôt de pain peut subsister. (5) **Évolution démographique** : 9 000 communes françaises 1 500-3 000 hab. Tendance 2010-2026 : -8 % services moyens (boulangeries, médecins, écoles). Bourgs pivots = enjeu national.",
+      },
+      {
+        heading: "Services attendus dans bourg 2 000 hab",
+        body: "(1) **École primaire** : présence quasi-systématique. Effectif 50-180 élèves toutes classes. Souvent regroupement pédagogique intercommunal (RPI) si commune voisine plus petite. (2) **Collège** : pas dans bourg 2 000 hab. À 8-25 km dans chef-lieu canton. Ramassage scolaire matin/soir. (3) **Médecin généraliste** : 60-80 % bourgs 2 000 hab en ont au moins 1. Difficulté croissante 2020+, médecin parfois temps partagé entre 2-3 bourgs. (4) **Pharmacie** : présente dans 70 % bourgs 2 000 hab. (5) **Boulangerie** : 1-2 typique. Indispensable. (6) **Supérette / petit supermarché** : 70 % bourgs en ont. Marques Coccinelle, Vival, Carrefour Contact, Spar, Casino Shop. (7) **Café/Bar** : 1-2 typique. (8) **Tabac/presse** : souvent combiné café/bar. (9) **Mairie + services administratifs** : pour démarches courantes (état civil, urbanisme). (10) **Bibliothèque/médiathèque** : 60 % bourgs. (11) **Salle des fêtes/sport** : pour vie associative. (12) **Banque** : agence ou ATM (distributeur) — souvent. (13) **Poste** : agence postale communale (APC) si moins de poste classique.",
+      },
+      {
+        heading: "Services AUTRES (>30 min route)",
+        body: "(1) **Hôpital** : à 30-60 min route typique. Urgences = trajet long. Important pour seniors. (2) **Collège** : 8-25 km, ramassage scolaire OK. (3) **Lycée** : 15-40 km. Plus contraignant. (4) **Spécialistes médicaux** : kiné parfois sur place, dentiste 1-2/bourg, orthophoniste rare, gynécologue/cardiologue/dermato 30-60 min route. (5) **Grandes surfaces hypermarché** : Carrefour, E.Leclerc 15-40 km. Voiture obligatoire. (6) **Activités culturelles métropolitaines** (musées, théâtres, concerts) : 30 min-2h route. (7) **Aéroport** : 30-90 min selon zone. (8) **TGV** : gare à 30-90 min route souvent. (9) **Université** : 45-120 min route. (10) **Magasins spécialisés** (électroménager, bricolage haut de gamme, vêtements) : 30-60 min.",
+      },
+      {
+        heading: "Profils pour qui ça marche",
+        body: "(1) **Famille télétravail solide** : fibre + emploi cadre distant + école primaire sur place. Critère obligatoire fibre. (2) **Retraité actif 60-75 ans** : autonomie véhicule + services médicaux sur place + climat doux. (3) **Couple télétravail + activité locale** (gîte, artisanat) : revenu mixte + ancrage local. (4) **Familles à projet 'simplicité de vie'** : choix conscient bourg vs métropole. Communauté engagée. (5) **Profils créatifs** : artisans, artistes, écrivains, chercheurs en télétravail — patrimoine + tranquillité. **Mauvais profil** : (1) Carrière nécessitant présentiel métropole quotidien. (2) Famille avec ado lycéen (lycée 15-40 km + sociabilité limitée). (3) Profil santé fragile (services médicaux limités). (4) Profil dépendant vie urbaine intense. (5) Couple non-aligné (l'un veut bourg, l'autre subit) — risque tension à 3-5 ans.",
+      },
+      {
+        heading: "Communes pionnières revitalisation 2026",
+        body: "Programmes 'Petites Villes de Demain' (222 communes labellisées) + 'Action Cœur de Ville' (245 villes) cofinancent revitalisation bourgs. (1) **Petits bourgs revitalisés** : (a) Saint-Affrique (Aveyron) — préfecture sud, projet revitalisation Cœur de Ville. (b) Souillac (Lot) — patrimoine + accessibilité + commerce dynamique. (c) Sancerre (Cher) — vignoble, tourisme, services maintenus. (d) Saint-Florent-le-Vieil (Maine-et-Loire) — Loire patrimoniale, services maintenus. (e) Quintin (Côtes-d'Armor) — Bretagne intérieure, patrimoine. (f) Saint-Sever (Landes) — Sud-Ouest accessible. (g) Crest (Drôme) — communauté alternative + services préfecture. (h) Lamastre (Ardèche) — refuge climatique 2040 + train touristique. (2) **Aides locales** : aide installation médecin, aide création commerce, aide rénovation bâti ancien (jusqu'à 50 % travaux dans certaines communes).",
+      },
+      {
+        heading: "À éviter — bourgs en déclin",
+        body: "(1) **Bourgs sous 1 500 hab sans dynamisme** : pertes services régulières, école menacée, médecin partant. Spirale négative. (2) **Bourgs miniers/industriels en reconversion** : Forbach-Centre, Hayange, Le Creusot — démographie en baisse 30+ ans. (3) **Bourgs traversés autoroute / rocade** : bruit + déclin commerces. (4) **Bourgs isolés vallées profondes** : services limités structurellement. (5) **Bourgs Champagne crayeuse / Beauce sèche** : agriculture intensive monotone, peu d'attrait résidentiel. (6) **Bourgs en zone fortement inondable** : Aisne sud, Picardie nord, certains bourgs Sud-Ouest. PPRI strict. (7) **Bourgs sans fibre 2026** : 5-10 % communes <3 000 hab. À éviter pour télétravail. **Indicateur** : démographie 2010-2020 — si baisse >10 %, signal d'alarme.",
+      },
+      {
+        heading: "Pièges classiques achat bourg 2 000 hab",
+        body: "(1) **Visite à un seul moment** : marché du dimanche animé masque réalité du mardi matin (commerces fermés). Tester multi-horaires. (2) **Sous-estimer désertification** : 2 médecins aujourd'hui, 0 dans 5 ans (départ retraite sans successeur). Demander âge médecins en place. (3) **École à effectif fragile** : 35 élèves toutes classes = risque fermeture si baisse encore. Discuter avec mairie. (4) **Promesse fibre 'd'ici 2027'** : retards fréquents. Vérifier ARCEP 'Ma Connexion Internet' + déploiement effectif. (5) **Vie sociale fermée** : certains bourgs avec familles établies depuis 200 ans = exclusion 'nouveaux venus'. Visiter le café local, discuter. (6) **Services 'à 25 km'** : 25 km en hiver pluvieux = 45 min pénibles. Tester réellement les trajets. (7) **Pas de centre vivant** : bourg avec rue principale morte sans café = déprimant. Vérifier vitalité. (8) **Patrimoine bâti dégradé** : maisons en pierre charmantes mais DPE F-G nécessitant 50-100 k€ rénovation. Calculer total. (9) **Imposition locale élevée** : certains bourgs ont taxe foncière élevée (besoin financer services). Vérifier avis local.",
+      },
+      {
+        heading: "Le calcul honnête : bourg 2 000 hab = sweet spot pour bon profil",
+        body: "Vivre dans un bourg 2 000 hab en 2026 = excellent choix pour profil aligné : (1) **Famille télétravail + 1-2 enfants primaire** avec fibre solide + désir authenticité rurale + budget modeste. (2) **Retraités actifs 60-75 ans** avec mobilité véhicule + services médicaux sur place + climat préservé. (3) **Couple créatif / artisan** avec activité locale + ancrage. (4) **Profil 'simplicité de vie' choisie** + acceptation contraintes services. **Sweet spot 2026** : bourg 2 000 hab labellisé 'Petites Villes de Demain' OU bourg avec démographie stable/croissante (+0,5 %/an) + fibre + médecin <40 ans + école primaire >70 élèves + climat 2040 préservé. Top : Saint-Affrique, Souillac, Crest, Quintin, Sancerre, Saint-Florent-le-Vieil. **À éviter** : bourg en déclin démographique (-10 % décennale), bourg vallée profonde isolée, bourg traversé autoroute, bourg sans fibre, bourg sans projet revitalisation. **Recommandation** : tester 6-12 mois en location avant achat. Réalité bourg en hiver pluvieux = vérité.",
+      },
+    ],
+    relatedCities: ["aurillac", "rodez", "le-puy-en-velay", "tulle", "mende"],
+    relatedGuides: [
+      "petites-villes-50000-habitants-tout-france-2026",
+      "vivre-en-zrr-aides-fiscales-zones-rurales-france-2026",
+      "acheter-maison-campagne-france-2026-vraiment-vivable",
+      "quitter-teletravail-pour-rural-france-2026-risques-opportunites",
+      "reprendre-commerce-avec-logement-france-2026",
+    ],
+    tags: ["bourg 2000 habitants", "rural structurant", "Petites Villes de Demain", "Action Cœur de Ville", "services rural", "fibre", "désertification", "2026"],
+  },
+  {
+    slug: "garantie-loyers-impayes-gli-visale-france-2026",
+    title: "GLI ou Visale en 2026 — quel choix entre assurance bailleur et caution État",
+    metaTitle: "GLI vs Visale 2026 : assurance loyers impayés ou caution État — guide",
+    metaDesc:
+      "GLI ou Visale en 2026 : comparaison assurance loyers impayés bailleur (2-3% loyers) vs caution État Visale gratuite. Conditions, sinistres, choix.",
+    category: "budget",
+    emoji: "🔐",
+    readMinutes: 9,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "Garantir un locataire en 2026 est devenu un sujet stratégique pour les bailleurs : impayés en hausse (3-5 % du parc selon zones), procédure d'expulsion longue (12-18 mois moyenne), coût recouvrement élevé. Deux outils principaux : GLI (assurance privée) et Visale (caution État gratuite). Voici la comparaison honnête.",
+    sections: [
+      {
+        heading: "GLI — Garantie Loyers Impayés",
+        body: "(1) **Principe** : assurance privée souscrite par le bailleur. Couvre les loyers + charges impayés + frais procédure recouvrement. (2) **Couverture typique** : (a) Loyers impayés jusqu'à 70 000-90 000 € par sinistre. (b) Frais procédure (huissier, avocat) jusqu'à 5-10 000 €. (c) Dégradations locatives 5-10 000 €. (d) Vacance locative entre 2 locataires (limitée). (3) **Coût** : 2-3,5 % du loyer annuel charges comprises. Soit 14-25 €/mois sur loyer 700 €/mois. (4) **Conditions locataire éligible** : (a) Taux d'effort <33-35 % (loyer/revenu). (b) CDI confirmé OU fonctionnaire OU étudiant boursier OU profession libérale avec bilan. (c) Garant simple ou caution solidaire dans certains cas. (d) Pas d'incident bancaire récent. (5) **Assureurs** : GMF, MAAF, Macif, Axa, Allianz. Comparer 3-4 offres. (6) **Engagement** : 1 an renouvelable, résiliation Hamon possible.",
+      },
+      {
+        heading: "Visale — caution État gratuite",
+        body: "(1) **Principe** : dispositif Action Logement (financé entreprises 1 % logement), caution gratuite. Couvre 36 mensualités impayées + dégradations 2 000 €. (2) **Coût** : **0 € pour bailleur ET locataire**. Subventionné. (3) **Qui peut bénéficier** (locataire) : (a) 18-30 ans (étudiants, alternants, jeunes actifs CDI/CDD). (b) Salariés <30 ans embauchés depuis <6 mois. (c) Salariés en mobilité professionnelle (mutation, changement employeur). (d) Locataires de logements 'parc privé' adapté à profil. (4) **Plafond loyer + charges** : 1 500 €/mois IDF, 1 300 €/mois autres régions. (5) **Pas de conditions garant** : Visale remplace caution familiale. (6) **Engagement bailleur** : aucun spécifique, juste signer dispositif via plateforme Action Logement. (7) **Procédure sinistre** : bailleur déclare impayé, Action Logement paye sous 30-60 jours. Recouvrement géré par Action Logement contre le locataire ensuite.",
+      },
+      {
+        heading: "GLI vs Visale — comparaison",
+        body: "Critère par critère : (1) **Coût** : GLI 2-3,5 %/an du loyer, Visale gratuite. AVANTAGE VISALE. (2) **Profils locataires éligibles** : Visale réservée certains profils (jeunes, mobilité). GLI accepte plus de profils stables (CDI, fonctionnaires). AVANTAGE GLI sur diversité. (3) **Couverture** : GLI jusqu'à 70-90 k€, Visale 36 mensualités (~25-50 k€ selon loyer). AVANTAGE GLI sur montants élevés. (4) **Délai indemnisation** : GLI 60-90 jours typique, Visale 30-60 jours. AVANTAGE VISALE sur réactivité. (5) **Plafond loyer** : GLI sans plafond, Visale 1 500 €/mois IDF / 1 300 € autres. AVANTAGE GLI sur loyers élevés. (6) **Dégradations couvertes** : GLI 5-10 k€, Visale 2 000 €. AVANTAGE GLI. (7) **Simplicité administrative** : Visale plateforme dédiée, GLI dossier assureur. ÉGALITÉ.",
+      },
+      {
+        heading: "Quand choisir GLI",
+        body: "(1) **Loyer >1 300-1 500 €/mois** : au-delà plafonds Visale, GLI obligatoire. (2) **Locataire >30 ans avec CDI** : profil GLI standard, pas éligible Visale. (3) **Loyer haut de gamme** (T4-T5 4-5 chambres famille cadre) : risque sinistre élevé, couverture 70-90 k€ utile. (4) **Locataire profession libérale ou indépendant** : GLI accepte avec bilans 2-3 ans, Visale non. (5) **Bien dans ville à fort risque impayé** (Roubaix, Saint-Étienne, Marseille certains quartiers) : GLI = sécurité même si coût 25 €/mois. (6) **Bailleur multi-biens** : économies d'échelle sur portefeuille GLI. (7) **Anticipation dégradations** : GLI couvre dégradations majeures (chaudière, sanitaires détériorés).",
+      },
+      {
+        heading: "Quand choisir Visale",
+        body: "(1) **Locataire 18-30 ans étudiant/alternant/jeune actif** : profil cible Visale, gratuit. (2) **Loyer <1 500 €/mois IDF ou <1 300 € autres régions** : éligible Visale. (3) **Locataire en mobilité pro** : salarié muté, changement employeur — Visale couvre ce profil. (4) **Étudiant boursier** : pas de garant familial possible souvent. Visale = solution. (5) **Bailleur petit propriétaire 1 bien** : économie 200-400 €/an si Visale possible. (6) **Logement 'parc social-like'** (location modérée jeune actif) : Visale promu par Action Logement. (7) **Refus de payer GLI** : éviter ces 2-3 % loyer = bonus rentabilité. Si profil locataire compatible Visale, no-brainer.",
+      },
+      {
+        heading: "Cumul caution familiale + GLI/Visale — possible ?",
+        body: "(1) **Loi Élan 2018** : interdiction de cumul caution personne physique + GLI privée pour le même locataire. Bailleur doit choisir. (2) **Exceptions** : (a) Étudiant ou apprenti : cumul autorisé. (b) Locataire ayant garant pour 1 mois caution. (c) Visale + caution familiale possible (Visale couvre risque, garant familial peut sécuriser dégradations supplémentaires). (3) **Pratique courante 2026** : si bailleur prend GLI = pas de garant personnel exigé du locataire. Si Visale = pas de garant requis. (4) **Avantage côté locataire** : Visale supprime besoin garant familial — appréciable pour jeunes sans famille en France. (5) **Risque double sécurité** : bailleur tenté d'exiger GLI + garant illégal. Faire respecter loi.",
+      },
+      {
+        heading: "Sinistres — procédure et délais réels",
+        body: "(1) **Premier impayé** : commandement payer + délai 2 mois locataire. (2) **Mois 2-3 sans paiement** : assignation tribunal pour résiliation bail. Audience 3-6 mois. (3) **Décision tribunal** : ordonnance expulsion + paiement arriérés. Locataire peut faire recours. (4) **Expulsion effective** : 6-12 mois supplémentaires après ordonnance (trêve hivernale, refus huissier). Total moyen 12-18 mois entre 1er impayé et libération bien. (5) **GLI sinistre** : couverture des loyers pendant procédure jusqu'à plafond. Recouvrement géré par assureur ensuite. (6) **Visale sinistre** : couverture 36 mensualités + 2 000 € dégradations. Action Logement gère recouvrement contre locataire. (7) **Dans tous les cas** : libération bien long. Bailleur doit anticiper trésorerie. (8) **Coût total impayé sans assurance** : 12-25 k€ moyens (12-15 mois loyers perdus + frais huissier 2-5 k€ + dégradations possibles).",
+      },
+      {
+        heading: "Alternatives 2026",
+        body: "(1) **Caution Crédit Logement / Crédit Mutuel** : caution bancaire à l'achat (vs locatif), 1-1,5 % du prêt en frais. Différent contexte. (2) **Dépôt de garantie** : 1-2 mois loyer typique. Couverture limitée vs sinistre majeur. (3) **Caution familiale** : garant personne physique, frequente. Risque transmission dette à famille en cas d'impayé. (4) **Foncia Confort'Loca** : produit Foncia pour bailleurs gérés par eux. Similaire GLI mais intégré gestion. (5) **Empruntis Garantie Loyer** : équivalent GLI à tarifs compétitifs. (6) **Garantme** : startup 2018, garant pour locataires (locataire paye), tickets refusés ailleurs. Frais 3-5 % loyer annuel à charge locataire. (7) **Solibail** : gestion locative sociale (parc PROPRIÉTAIRES privés mais locataires éligibles APL), loyer plafonné mais sécurité État.",
+      },
+      {
+        heading: "Le calcul honnête : Visale si profil compatible, GLI sinon",
+        body: "Pour le bailleur 2026 : (1) **Si locataire éligible Visale** (18-30 ans, loyer <1 500 € IDF / 1 300 € autres) : choisir Visale. Gratuit, couvre 36 mensualités. **Économie 250-400 €/an** vs GLI. (2) **Si locataire hors profil Visale** (cadre 35+ ans, profession libérale, loyer haut de gamme) : choisir GLI. 2-3 % du loyer = ~20-30 €/mois. Sécurité jusqu'à 70-90 k€. (3) **Si bien à très fort risque** (zones difficiles, locataire profil tendu) : GLI obligatoire avec couverture maximum. (4) **Si petit loyer + locataire CDI fonctionnaire stable** : GLI optionnelle, dépôt garantie + caution familiale peut suffire. **Stratégie recommandée 2026** : (a) Demander d'abord locataire de tenter Visale (gratuit pour les deux). (b) Si refusé, prendre GLI standard. (c) Comparer 3 offres GLI (MAAF, Macif, MGEN, GMF, BFM Assurances). (d) Refuser cumul illégal caution+GLI. (e) Anticiper procédure sinistre : conserver trésorerie 6 mois loyer en réserve.",
+      },
+    ],
+    relatedCities: ["lille", "rennes", "tours", "montpellier", "strasbourg"],
+    relatedGuides: [
+      "investir-lmnp-par-ville-france-2026",
+      "encadrement-loyers-france-2026-villes-investir-malgre-tout",
+      "diviser-grand-logement-louer-une-partie-france-2026",
+      "scpi-vs-locatif-direct-france-2026-quel-choix",
+      "meilleures-villes-investissement-locatif-colocation-2025",
+    ],
+    tags: ["GLI", "Visale", "garantie loyers impayés", "caution État", "Action Logement", "loi ELAN", "bailleur", "locataire", "2026"],
+  },
+  {
+    slug: "acheter-maison-pecheur-atlantique-france-2026",
+    title: "Acheter une maison de pêcheur sur l'Atlantique en 2026 — Bretagne, Vendée, Charente",
+    metaTitle: "Maison pêcheur Atlantique 2026 : ports, climat 2040, érosion — guide",
+    metaDesc:
+      "Acheter une maison de pêcheur sur l'Atlantique en 2026 : bâti vernaculaire, ports atlantiques, climat 2040, érosion, communautés, communes éligibles.",
+    category: "lifestyle",
+    emoji: "🐟",
+    readMinutes: 9,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "La maison de pêcheur sur l'Atlantique — étroite, en pierre, ardoise et bois bleu — fait partie du patrimoine côtier français. Concarneau, Saint-Malo, Île de Ré, Camaret, Saint-Vaast attirent toujours fortement. Mais 2026 = climat changeant, érosion documentée, foncier saturé sur certaines zones. Voici la lecture honnête pour qui considère ce projet.",
+    sections: [
+      {
+        heading: "La maison de pêcheur — bâti vernaculaire spécifique",
+        body: "(1) **Architecture typique** : (a) Façade étroite (3-5 m largeur), maison profonde. Adaptée parcelle exiguë port. (b) 2-3 étages avec petite façade. (c) Murs en pierre locale (granit Bretagne, calcaire Charente, schiste). (d) Toiture ardoise (Bretagne) ou tuile romaine (Vendée sud). (e) Volets bois souvent peints en bleu, vert, rouge. (f) Petit jardinet ou cour arrière, parfois donnant sur quai. (g) Surface habitable 60-110 m² typique. (2) **Construction** : 1750-1950 souvent. Bâti ancien isolation médiocre. DPE F-G fréquent. (3) **Localisation** : port de pêche actif ou ancien. Rues étroites, parking limité. (4) **Charme** : authenticité, vue port, proximité immédiate mer. Patrimoine fort. (5) **Marché 2026** : ~3 000 transactions/an, en hausse (recherche authenticité post-Covid).",
+      },
+      {
+        heading: "Bretagne — capitale maisons de pêcheur",
+        body: "(1) **Concarneau** : Ville Close + port pêche actif. Maisons de pêcheur 150-280 k€ rénovées, 80-180 k€ à rénover. Excellent rapport patrimoine/prix. (2) **Camaret-sur-Mer** : presqu'île de Crozon, port pittoresque. Maisons 120-220 k€. (3) **Le Conquet** : port atlantique nord, climat océanique pur. Maisons 130-230 k€. (4) **Audierne, Douarnenez** : ports pêche du Cap Sizun. Maisons 100-200 k€. (5) **Saint-Malo (intra-muros)** : rare, prix élevés (350-650 k€). Carène + Sablons accessibles 200-350 k€. (6) **Paimpol, Tréguier, Saint-Cast** : Côtes-d'Armor, prix accessibles 100-200 k€. (7) **Lorient port** : moins charme mais accessible 80-180 k€. (8) **Roscoff, Plougasnou** : Léon, prix accessibles 90-180 k€. (9) **Climat 2040** : Bretagne climat préservé, sécheresses estivales nouvelles. (10) **Érosion** : pointes finistériennes exposées, certaines digues à surveiller.",
+      },
+      {
+        heading: "Vendée et Charente-Maritime",
+        body: "(1) **Île de Ré** : maisons rétaises classiques (basse, volets verts, fleurs). Prix saturés (~9 000-15 000 €/m²). Foncier inaccessible primo. (2) **Île d'Oléron** : maisons saunières et de pêcheurs. Prix 350-650 k€ rénovées, 200-400 k€ à rénover. (3) **La Tranche-sur-Mer, La Faute-sur-Mer** : prix accessibles 180-320 k€ MAIS PPRL strict post-Xynthia 2010. (4) **Saint-Gilles-Croix-de-Vie, Pornic** : ports pittoresques, prix 250-450 k€. (5) **Royan** : station balnéaire, maisons accessibles 200-350 k€. (6) **La Rochelle (intra-muros)** : Vieux-Port, prix premium 450-750 k€ pour maison de pêcheur restaurée. (7) **Climat 2040** : façade tempérée préservée mais saisonnalité touristique extrême. (8) **Risque submersion** : zones basses Charente-Maritime, Vendée sud — PPRL strict.",
+      },
+      {
+        heading: "Normandie et Cotentin",
+        body: "(1) **Honfleur** : port hugolien, maisons 280-500 k€, saturé touristique. (2) **Étretat, Yport, Fécamp** : côte d'Albâtre, érosion documentée. Maisons en hauteur 200-400 k€. (3) **Saint-Vaast-la-Hougue** : port militaire historique Manche, maisons 180-320 k€. (4) **Granville, Saint-Pair-sur-Mer** : Manche sud, prix 200-380 k€. (5) **Le Tréport, Mers-les-Bains** : Picardie maritime, prix accessibles 150-260 k€. (6) **Cancale** : port d'huîtres, maisons 250-450 k€. (7) **Climat 2040** : Manche climat océanique tempéré préservé. (8) **Risque** : érosion falaises côte d'Albâtre (Étretat, Yport), submersion zones basses Cotentin est.",
+      },
+      {
+        heading: "Critères avant achat maison de pêcheur",
+        body: "(1) **PPRL** (Plan de Prévention Risques Littoraux) : OBLIGATOIRE vérification. Zones inconstructibles ou contraintes. Géorisques + mairie. (2) **Altitude cote NGF** : >5 m vs niveau crue référence = sécurité. <3 m = zone à risque. (3) **Recul du trait de côte** : >100 m pour falaises bretonnes/normandes, >150 m pour côte sableuse Aquitaine/Landes. (4) **DPE** : maisons de pêcheur souvent DPE E-G. Audit énergétique obligatoire si F-G à la revente future. Budget rénovation 30-80 k€. (5) **Stationnement** : rues étroites = parking souvent loin. Vérifier solution voiture. (6) **Activité du port** : port actif (pêche pro, plaisance) vs port fantôme. Le premier garde dynamisme. (7) **Saisonnalité** : commune 4 000 hab hiver vs 25 000 été = changement radical mode vie. Tester. (8) **Communauté** : pêcheurs natifs vs résidences secondaires majoritaires. Mélange vivant idéal.",
+      },
+      {
+        heading: "Coût rénovation maison de pêcheur",
+        body: "Pour maison 80-110 m² ancienne. (1) **Isolation thermique** : mur en pierre 60-80 cm = isolation par intérieur ou extérieur. 25-50 k€. (2) **Toiture ardoise** : remplacement périodique 30-50 ans. 15-30 k€. (3) **Menuiseries** : double vitrage anti-vent + volets bois renforcés. 12-20 k€. (4) **Plomberie + électricité** : aux normes, anti-corrosion sel marin. 15-25 k€. (5) **Chauffage** : pompe à chaleur air-eau ou granulés bois. 12-18 k€. (6) **Cuisine + salles de bain** : 18-35 k€. (7) **Façade et joints pierre** : remise en état après agression sel + humidité. 8-20 k€. (8) **TOTAL rénovation complète** : 80-150 k€ pour 90 m². (9) **Aides** : MaPrimeRénov' + Eco-PTZ + déficit foncier si location ensuite.",
+      },
+      {
+        heading: "Pièges classiques achat maison pêcheur",
+        body: "(1) **Humidité côtière** : sel + brouillard + pluies = humidité permanente. Murs en pierre absorbent. Ventilation efficace obligatoire (VMC simple flux ou double flux). (2) **Sel corrode tout** : peintures fragiles, métaux qui rouillent, électronique. Entretien constant 1-2 % valeur bien/an. (3) **PPRL évolutif** : carte révisée tous 5-10 ans, peut s'étendre. (4) **Stationnement absent ou loin** : 300-500 m du logement parfois. Quotidien lourd. (5) **Saisonnalité touristique massive** : juillet-août = bouchons, plages bondées, plus de places parking. Hiver = ville morte. (6) **Voisinage résidences secondaires** : 50-80 % résidences secondaires dans certaines communes = vie sociale absent hiver. (7) **Maison étroite, plafonds bas** : pas adapté à grandes tailles, claustrophobe pour certains. Visiter physiquement. (8) **Surcoût assurance habitation** : zone littorale = primes majorées 50-100 % vs intérieur. (9) **Évolution réglementaire** : ZAN 2050 + reculs trait côte = certaines zones reclassées non-constructibles.",
+      },
+      {
+        heading: "Pour qui ça marche, pour qui ça ne marche pas",
+        body: "Le bon profil : (1) **Couple/famille en quête authenticité maritime** : projet 10-25 ans, attaché à région bretonne/atlantique. (2) **Retraités actifs 60-75 ans** mobilité véhicule + santé bonne. (3) **Télétravailleurs solides** : fibre + climat océanique acceptable + service ports actifs. (4) **Artistes/créatifs** : lumière maritime, communauté culturelle (Concarneau, Camaret notamment). (5) **Profil expat anglo-saxon** : Bretagne côte sud particulièrement appréciée. **Mauvais profil** : (1) Famille avec adolescents (lycée souvent à 30+ min, sociabilité limitée hors saison). (2) Profil santé fragile (humidité aggrave certains troubles). (3) Profil dépendant vie urbaine intense. (4) Budget serré (rénovation coûteuse). (5) Profil en quête climat ensoleillé (Bretagne reste pluvieuse).",
+      },
+      {
+        heading: "Le calcul honnête : Bretagne sud = sweet spot 2026",
+        body: "Acheter une maison de pêcheur sur l'Atlantique en 2026 = projet patrimoniale 10-25 ans pour bon profil : (1) **Bretagne sud** (Concarneau, Camaret, Audierne, Paimpol) : sweet spot — climat préservé 2040, foncier accessible 100-220 k€, ports actifs, communauté authentique. **TOP CHOIX**. (2) **Cotentin** (Saint-Vaast, Granville, Cherbourg port) : prix accessibles 150-280 k€, climat tempéré, mais isolement géographique. (3) **Charente-Maritime hors îles** (Royan, Saint-Gilles-Croix-de-Vie, Sables-d'Olonne) : climat doux, prix 180-320 k€, mais PPRL à vérifier. (4) **Saint-Malo intra-muros** : patrimoine exceptionnel mais foncier 400-650 k€. (5) **Honfleur, Étretat** : patrimoine valorisé mais saturation touristique + érosion. **À éviter** : (a) Île de Ré, Île d'Oléron (foncier inaccessible + risque submersion). (b) Vendée sud Tranche/Faute (PPRL post-Xynthia strict). (c) Front de mer Côte d'Albâtre exposé érosion. **Recommandation** : tester en location hiver complet AVANT achat (climat dur, vie ralentie). Budget total achat + rénovation 200-350 k€ pour maison vraiment habitable.",
+      },
+    ],
+    relatedCities: ["concarneau", "saint-malo", "la-rochelle", "royan", "vannes"],
+    relatedGuides: [
+      "vivre-a-la-mer-toute-annee-france-2026-fantasme-realite",
+      "climat-2040-bretagne-cote-interieure",
+      "climat-2040-facade-atlantique-france",
+      "acheter-maison-a-renover-france-2026-vrai-cout",
+      "petites-villes-50000-habitants-tout-france-2026",
+    ],
+    tags: ["maison de pêcheur", "Bretagne", "Atlantique", "port", "PPRL", "rénovation côte", "patrimoine maritime", "2026"],
+  },
+  {
+    slug: "demembrement-croise-immobilier-france-2026",
+    title: "Démembrement croisé en couple en 2026 — protéger conjoint et optimiser succession",
+    metaTitle: "Démembrement croisé immobilier 2026 : protection conjoint — guide",
+    metaDesc:
+      "Démembrement croisé immobilier en France 2026 : usufruit/nue-propriété échangé en couple, mécanisme, fiscalité, ISF/IFI, protection conjoint.",
+    category: "budget",
+    emoji: "♻️",
+    readMinutes: 9,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "Le démembrement croisé est une technique patrimoniale méconnue mais puissante en 2026 : chacun des conjoints détient l'usufruit ET la nue-propriété de moitié d'un bien commun, échangés. Au décès d'un, l'autre conserve l'usufruit total sans droits succession. Mécanisme précieux pour protéger conjoint en union libre / PACS / mariage séparation des biens. Voici comment ça marche.",
+    sections: [
+      {
+        heading: "Le démembrement croisé — principe",
+        body: "(1) **Démembrement classique** : usufruit (droit jouissance) + nue-propriété (droit possession future) = pleine propriété. (2) **Démembrement croisé** : chacun des conjoints détient (a) l'usufruit de la moitié des parts du bien ET (b) la nue-propriété de l'autre moitié. (3) **Au décès d'un** : son usufruit s'éteint, l'autre conjoint récupère sa pleine propriété sans droits. (4) **Protection conjoint survivant** : conserve l'usage total du bien à vie, sans expulsion possible par enfants. (5) **Optimisation succession** : pas de droits de succession au premier décès (extinction usufruit en franchise). (6) **Applicable à** : (a) Tous régimes matrimoniaux (mariage, PACS, concubinage). (b) Couples sans enfant ou avec enfants. (c) Patrimoine immobilier commun ou en SCI. (7) **Méconnu** : technique utilisée surtout par notaires patrimoine, peu connue grand public.",
+      },
+      {
+        heading: "Mécanisme détaillé — exemple concret",
+        body: "Couple : Léa (45 ans) et Marc (48 ans). Achat maison 400 k€ en commun. Sans démembrement croisé : (1) **Au décès d'un** : 50 % du bien va aux héritiers réservataires (enfants si présents, parents/frères sinon). Le conjoint survivant en indivision avec eux — peut être expulsé si vente exigée. **Démembrement croisé** : (1) **À l'achat** : Léa détient (a) usufruit 50 % + (b) nue-propriété 50 % autre moitié. Marc détient (c) nue-propriété 50 % + (d) usufruit 50 % autre moitié. (2) **Au décès de Léa** : (a) son usufruit s'éteint, Marc récupère pleine propriété sur sa moitié (50 %). (b) Sa nue-propriété 50 % autre moitié va aux héritiers MAIS Marc en conserve l'usufruit à vie. (c) Marc a donc : 50 % pleine propriété + 50 % usufruit = usage total à vie. (3) **Au décès de Marc** : ses héritiers récupèrent pleine propriété sans droits supplémentaires.",
+      },
+      {
+        heading: "Avantages démembrement croisé",
+        body: "(1) **Protection conjoint survivant** : usage total à vie sans expulsion possible. Indispensable couples non-mariés (concubins, PACS séparation). (2) **Optimisation succession** : pas de droits succession au premier décès grâce à extinction usufruit. Pour couple sans testament, gain 20-40 % vs succession classique. (3) **Pas besoin de testament** : protection automatique inscrite à l'acte. Sans démarche annuelle. (4) **Continuité du logement** : pas de séparation forcée de la moitié au décès. (5) **Compatibility tous régimes** : applicable mariage communauté, séparation, PACS, concubinage. (6) **Plus-value à la cession** : calculée classique, abattement durée détention applicable.",
+      },
+      {
+        heading: "Inconvénients et limites",
+        body: "(1) **Inflexibilité** : démembrement irrévocable. Si séparation/divorce, complexité forte. (2) **Vente future** : nécessite accord usufruitier + nu-propriétaire. Pas vente libre. (3) **Frais de notaire** : démembrement à l'achat = frais notaire ~7-8 % du prix (pas d'économie vs achat classique). (4) **Comptabilité parts** : si en SCI, déclarations fiscales spécifiques. (5) **IFI** : démembrement classique = usufruitier paye IFI sur valeur pleine. Démembrement croisé = chacun paye sur 50 %, possiblement moins favorable. (6) **Donation aux enfants compliquée** : si projet transmission anticipée future, démembrement croisé doit être défait préalable. (7) **Coût conseil** : notaire patrimoine spécialisé requis, 1-2 k€ analyse personnalisée.",
+      },
+      {
+        heading: "Cas concret 1 — Couple concubinage sans enfant",
+        body: "Sophie 50 ans + Léo 55 ans en concubinage long terme. Achat appartement 350 k€ commune. Pas d'enfants. (1) **Sans démembrement croisé** : au décès de Léo, sa moitié 175 k€ va à ses héritiers (frère, sœur). Sophie en indivision avec eux. (2) **Avec démembrement croisé** : (a) À l'achat, chaque conjoint détient usufruit 50 % + nue-propriété 50 % autre moitié. (b) Au décès Léo, Sophie : 50 % pleine propriété + 50 % usufruit = usage total à vie. Famille Léo récupère nue-propriété mais pas l'usage. (c) Au décès Sophie, famille Léo récupère pleine propriété (Sophie peut tester nue-propriété 50 % en sa moitié à des bénéficiaires de son choix). (3) **Coût** : 1 500 € notaire patrimoine + 7-8 % frais classique acte. (4) **Bénéfice** : Sophie protégée 100 %, sans testament croisé compliqué. ROI patrimonial et émotionnel excellent.",
+      },
+      {
+        heading: "Cas concret 2 — Couple PACS avec enfants d'unions précédentes",
+        body: "Camille 42 ans (2 enfants ex-mariage) + Tom 45 ans (1 enfant ex-mariage). PACS. Achat maison 500 k€ commune. (1) **Sans démembrement croisé** : au décès de Camille, sa moitié 250 k€ va aux 2 enfants (héritiers réservataires). Tom en indivision avec eux — risque vente forcée + expulsion. (2) **Avec démembrement croisé** : (a) Achat avec démembrement croisé. (b) Au décès Camille, Tom : 50 % pleine propriété (sa moitié) + 50 % usufruit (moitié de Camille). Usage total maison à vie. (c) Enfants de Camille reçoivent nue-propriété 50 % (moitié Camille) — pas d'usage. (d) Au décès Tom, sa moitié va à son enfant à lui. Maison divisée 50/50 entre les enfants des deux. (e) Indivision possible mais après les deux décès. (3) **Protection** : maximale pour Tom du vivant. Enfants Camille respectés en transmission progressive. (4) **Coût** : 2 000 € notaire spécialisé. ROI très élevé.",
+      },
+      {
+        heading: "Démembrement croisé vs alternatives",
+        body: "(1) **Vs testament croisé** : testament peut désigner conjoint bénéficiaire mais ne supplante pas réserve héréditaire. Démembrement croisé contourne réserve via extinction usufruit. PLUS PUISSANT. (2) **Vs assurance-vie clause bénéficiaire** : assurance-vie hors succession (152 500 €/bénéficiaire exonérés). Excellent COMPLÉMENT au démembrement croisé. (3) **Vs SCI familiale** : SCI plus flexible (gouvernance, donation parts) mais comptabilité annuelle. Démembrement croisé plus simple, sans gestion. (4) **Vs donation entre époux** : applicable uniquement mariage. Démembrement croisé applicable tous statuts. (5) **Vs régime communauté universelle** : sécurité maximale (tout commun) mais inflexibilité totale. Démembrement croisé conserve options. (6) **Vs séparation simple + indivision** : laisse conjoint exposé au décès. Démembrement croisé corrige cette faille.",
+      },
+      {
+        heading: "Pièges classiques et mise en place",
+        body: "(1) **Notaire généraliste** : peu d'expertise sur démembrement croisé. Demander notaire spécialisé patrimoine (Notaires patrimoniaux GBL, KPMG Notaires). 1-2 k€ analyse personnalisée AVANT achat. (2) **Mauvais moment** : démembrement croisé à l'achat est optimal. Mise en place ultérieure = donation entre conjoints = droits succession + complexité. (3) **Couple non-stable** : si séparation risque dans <5 ans, démembrement croisé inadapté. (4) **Bien à louer** : revenus locatifs perçus par usufruitier, complexité fiscale. (5) **Crédit immobilier** : banques peu coutumières démembrement croisé à l'achat. Présenter au notaire pour rédaction acte conforme. (6) **Indexation usufruit** : si démembrement à l'achat, valorisation est figée (achat). Au décès, valeur peut avoir augmenté ou baissé. Anticiper. (7) **Implications IFI** : si patrimoine combiné >1,3 M€, calcul IFI différent. Demander simulation.",
+      },
+      {
+        heading: "Le calcul honnête : technique puissante pour couples non-mariés / recomposés",
+        body: "Le démembrement croisé en France 2026 = technique patrimoniale puissante pour : (1) **Couples en concubinage long terme** : protection conjoint sans mariage. ROI émotionnel et patrimonial maximal. (2) **Couples PACS séparation des biens** : protection conjoint sans contrainte mariage. (3) **Couples recomposés avec enfants d'unions précédentes** : évite indivision conflictuelle au décès. (4) **Couples sans enfant** : transmettre à conjoint puis à bénéficiaires choisis (frère, ami, association). (5) **Acquéreurs prévoyants** : sécurise patrimoine commun automatiquement. **À envisager** : tous couples achetant ensemble + au moins un des conjoints a des héritiers réservataires (enfants, parents) ou risque d'indivision compliquée au décès. **À éviter** : couples 25-35 ans encore en formation patrimoniale (inflexibilité), couples avec divorce/séparation probable, projet d'investissement locatif court terme (5-10 ans). **Recommandation** : consulter notaire patrimoine SPÉCIALISÉ AVANT achat (1-2 k€). Mise en place à l'achat = optimal. Couples qui découvrent démembrement croisé après 10 ans achat = trop tard, regret possible.",
+      },
+    ],
+    relatedCities: ["lyon", "bordeaux", "nantes", "toulouse", "strasbourg"],
+    relatedGuides: [
+      "acheter-en-couple-non-marie-pacs-sci-indivision-2026",
+      "sci-familiale-france-2026-montage-transmission",
+      "acheter-immobilier-apres-50-ans-strategie-france-2026",
+      "residence-secondaire-france-pieges-fiscaux-2026",
+      "vivre-france-retraite-etrangere-fiscalite-2026",
+    ],
+    tags: ["démembrement croisé", "usufruit", "nue-propriété", "protection conjoint", "concubinage", "PACS", "succession", "patrimoine", "2026"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
