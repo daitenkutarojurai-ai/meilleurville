@@ -13287,6 +13287,153 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["investir Rennes", "Rennes", "Villejean", "Maurepas", "investissement locatif", "LMNP", "rendement", "Bretagne"],
   },
+  {
+    slug: "climat-2040-massif-central-montagne-refuge",
+    title: "Climat 2040 dans le Massif Central et la montagne — refuge climatique ?",
+    metaTitle: "Climat 2040 Massif Central : Clermont, Aurillac, Le Puy, montagne refuge — guide",
+    metaDesc:
+      "Le Massif Central et la moyenne montagne face à 2040 : altitude, eau, fraîcheur estivale. Où vivre, quels villages, quels arbitrages honnêtes.",
+    category: "lifestyle",
+    emoji: "⛰️",
+    readMinutes: 8,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "Pendant que la Méditerranée chauffe et que le littoral recule, le Massif Central et la moyenne montagne (600-1200 m) deviennent un sujet sérieux : altitude qui amortit les canicules, ressource en eau encore correcte, foncier abordable. Mais le 'refuge climatique' a aussi ses limites — emploi, services, mobilité, neige. Voici la lecture 2040 sans romantisme.",
+    sections: [
+      {
+        heading: "Ce qui change d'ici 2040 (projections Météo-France)",
+        body: "Réchauffement : +2 à +3 °C à 2040 vs 1981-2010, mais effet altitude amortisseur. À 800 m d'altitude, une journée caniculaire vaut 4-5 °C de moins qu'en plaine voisine. Clermont-Ferrand (~400 m) : ~25 jours/an >30 °C en 2040 (vs ~10 aujourd'hui). Aurillac (~630 m) : ~15 jours/an. Le Puy-en-Velay (~630 m) : ~12 jours/an. Brioude, Saint-Flour : 10-15 jours. Neige : enneigement moyenne montagne en baisse — stations <1500 m perdent fiabilité (Massif des Monts du Cantal, Sancy, Aubrac), saison ski raccourcie. Sécheresse estivale : modérée mais en hausse — restrictions ponctuelles probables. Pluviométrie annuelle : stable à légèrement en baisse, mais épisodes orageux plus intenses (Cévennes).",
+      },
+      {
+        heading: "Villes et bourgs bien positionnés 2040",
+        body: "(1) Clermont-Ferrand (~400 m) — métropole avec services, université, hôpital CHU, accès TGV/aéroport. Climat continental, étés chauds mais nuits fraîches. Bonne ressource eau (Sancy). (2) Aurillac (~630 m) — préfecture du Cantal, climat doux montagnard, prix m² ~1 200 €, qualité de vie élevée mais isolement transport. (3) Le Puy-en-Velay (~630 m) — climat sec et lumineux, bassin protégé, foncier accessible. (4) Mende (~750 m, Lozère) — la plus haute préfecture de France, climat très tempéré l'été, mais services limités. (5) Brioude, Saint-Flour, Issoire — bourgs intermédiaires 400-900 m, équilibre prix/services. (6) Rodez (~570 m, Aveyron) — préfecture dynamique, climat océanique de montagne tempéré.",
+      },
+      {
+        heading: "Profils pour qui ça marche",
+        body: "(1) Télétravailleurs avec fibre — la fibre FTTH s'étend (couverture ~85 % au Massif Central, objectif 100 % 2025-2026). Vérifier la fibre commune par commune avant achat. (2) Retraités actifs cherchant fraîcheur estivale + nature accessible. (3) Familles avec enfants en âge primaire — écoles rurales fonctionnent encore, structures associatives correctes. (4) Profils résilients aux longues distances (1h30 supermarché, 2h hôpital pour très petits villages). (5) Acquéreurs avec budget < 250 k€ cherchant maison + jardin — c'est la zone française avec le meilleur rapport surface/prix.",
+      },
+      {
+        heading: "Pièges classiques du refuge climatique",
+        body: "(1) Isolation thermique faible dans le bâti rural — la plupart des fermes pierre/lauze ont DPE E/F/G. Budget rénovation 30-80 k€ souvent indispensable. Aides MaPrimeRénov' utiles mais à anticiper. (2) Mobilité : voiture indispensable hors préfectures. Distance pharmacie/médecin/épicerie peut atteindre 20-30 km dans le rural profond. (3) Vieillissement médical — déserts médicaux confirmés Cantal, Aveyron, Creuse, Lozère. Si santé fragile, viser une commune avec maison de santé pluridisciplinaire. (4) Services scolaires en contraction — collège/lycée souvent à 30+ km du village. (5) Isolement social — communes <500 habitants peuvent être saturées en cohésion, ou au contraire vides l'hiver.",
+      },
+      {
+        heading: "Stratégie d'achat 2026-2030",
+        body: "(1) Privilégier les bourgs structurants (préfecture, sous-préfecture, gros chef-lieu de canton) plutôt qu'un village 200 hab perdu : c'est là que les services restent. (2) Altitude cible 500-900 m : amortissement canicule + neige hivernale raisonnable. Au-dessus de 1000 m : hivers plus rudes, déneigement, accès. (3) Vérifier la fibre (carte ARCEP), la couverture mobile 4G, et le débit moyen ADSL en attendant. (4) Cibler un bien en DPE C-D ou anticiper rénovation (avec budget réel, pas estimation optimiste). (5) Surveiller le PLU communal — certaines communes limitent les divisions parcellaires ou imposent des couleurs/matériaux qui renchérissent.",
+      },
+      {
+        heading: "Le calcul honnête : refuge mais pas Eldorado",
+        body: "Le Massif Central est probablement la zone française la mieux positionnée climatiquement pour 2040 dans une logique 'altitude + eau + foncier abordable'. C'est un vrai refuge climatique. Mais ce n'est pas un Eldorado : services en contraction, mobilité dépendante voiture, isolement réel dans le rural profond. Le bon profil : télétravail solide, autonomie pratique, capacité de rénovation, goût de la nature. Le mauvais profil : besoin métropolitain quotidien, santé fragile, dépendance services, sociabilité urbaine. Pour qui c'est adapté, c'est une opportunité historique de prix + qualité de vie qui ne durera pas (effet de mode 'refuge climatique' commence à pousser les prix dans certaines communes-vitrines).",
+      },
+    ],
+    relatedCities: ["clermont-ferrand", "aurillac", "le-puy-en-velay", "mende", "rodez"],
+    relatedGuides: [
+      "ou-vivre-france-meteo-qualite-air-2026",
+      "vivre-en-auvergne-profonde-guide-2026",
+      "vivre-en-creuse-guide-2026",
+      "teletravailler-depuis-auvergne-guide-2026",
+      "meilleures-villes-randonnee-trail-france-2026",
+    ],
+    tags: ["climat 2040", "Massif Central", "montagne", "refuge climatique", "altitude", "Auvergne", "réchauffement", "télétravail rural"],
+  },
+  {
+    slug: "climat-2040-bretagne-cote-interieure",
+    title: "Climat 2040 en Bretagne — façade encore préservée ou en mutation ?",
+    metaTitle: "Climat 2040 Bretagne : Rennes, Brest, Quimper, Vannes — guide honnête",
+    metaDesc:
+      "La Bretagne face à 2040 : climat océanique, sécheresses estivales en hausse, tempêtes, montée des eaux côtière. Où vivre, où arbitrer.",
+    category: "lifestyle",
+    emoji: "🌧️",
+    readMinutes: 8,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "La Bretagne est régulièrement présentée comme la 'gagnante climatique' de la France : doux l'été, peu de canicules, pluie abondante. C'est en partie vrai pour 2040, mais en partie seulement. Le climat océanique se transforme aussi — sécheresses estivales plus dures, tempêtes plus intenses, érosion côtière sur certains secteurs. Voici la lecture sans cliché.",
+    sections: [
+      {
+        heading: "Ce qui change d'ici 2040 (projections)",
+        body: "Réchauffement : +1,5 à +2,5 °C à 2040 vs 1981-2010. Étés tempérés : Rennes ~15 jours/an >30 °C en 2040 (vs ~5 aujourd'hui), Brest ~5 jours/an, Quimper ~7 jours/an. Pas de canicules méditerranéennes. Sécheresse estivale : c'est le vrai changement — déficits hydriques estivaux de +30-50 %, restrictions d'eau plus fréquentes Bretagne intérieure (Morbihan, Ille-et-Vilaine sud). Précipitations annuelles : globalement stables mais redistribution — plus d'hiver, moins d'été. Tempêtes hivernales : intensité accrue, vents 130+ km/h plus fréquents côte nord. Montée marine : +15-25 cm 2050 — exposition modérée côte sud et nord, forte sur certaines pointes basses.",
+      },
+      {
+        heading: "Zones bien positionnées 2040",
+        body: "(1) Rennes — intérieur, aucune exposition mer, climat tempéré, tissu d'emploi cadre solide, TGV Paris 1h25. Excellente position 2040. (2) Vannes — rade protégée, climat très doux toute l'année, services complets, prix m² accessible vs façade atlantique. (3) Lorient — climat doux, port militaire/civil, rade protégée, foncier raisonnable. (4) Quimper — climat océanique frais, peu d'exposition tempête, qualité de vie élevée. (5) Saint-Brieuc — côte nord mais ville en hauteur, climat tempéré. (6) Brest — exposition vent forte mais climat frais l'été, services métropolitains. (7) Bourgs intérieurs Morbihan/Ille-et-Vilaine (Pontivy, Loudéac, Fougères, Vitré) — climat protégé, foncier très abordable.",
+      },
+      {
+        heading: "Zones à arbitrer prudemment",
+        body: "(1) Côte sauvage du Finistère (Pointe du Raz, Crozon) — exposition vent et tempête forte. Beauté brute mais bâti à vérifier (anti-tempête, étanchéité). (2) Côte d'Émeraude (Saint-Malo, Dinard, Cancale) — exposition montée des eaux à long terme, certaines zones basses PPRL. (3) Belle-Île, Houat, Hoëdic — îles attractives mais services limités, dépendance bateau, exposition tempête. (4) Bretagne intérieure très rurale (Centre-Bretagne, monts d'Arrée, Argoat profond) — climat OK mais désertification médicale et scolaire avancée. (5) Quartiers bas Brest (Recouvrance basse) ou Lorient — vérifier risque submersion locale.",
+      },
+      {
+        heading: "Le vrai sujet 2040 : la ressource en eau",
+        body: "C'est le point sous-estimé de la Bretagne 2040. Région agricole intensive, sols peu profonds, nappes phréatiques peu rechargées, pas de grands fleuves alpins ni de grands barrages. Étés 2022-2023 ont déjà imposé des restrictions strictes (interdiction arrosage, lavage voiture, remplissage piscine). À 2040, les restrictions estivales deviendront probablement chroniques de juin à septembre, surtout Morbihan intérieur et Ille-et-Vilaine sud. Conséquences : potager rendement variable, piscine privée à proscrire, lavage voiture/façade réglementé, jardin gourmand en eau à repenser (plantes méditerranéennes adaptables : lavande, romarin, gaura).",
+      },
+      {
+        heading: "Adaptations stratégiques achat 2026-2030",
+        body: "(1) Pour côte : vérifier PPRL (Plan de Prévention Risques Littoraux), altitude minimale 5 m NGF dans 1 km du trait de côte. (2) Pour intérieur : vérifier raccordement réseau eau communal (vs puits privé qui peut tarir). (3) Isolation toiture/façade contre tempêtes : couverture ardoise robuste, fixation renforcée, fenêtres double vitrage anti-vent. (4) Récupération eau pluie : cuve 5-10 m³ pour jardin/WC = ROI rapide d'ici 2030 vu hausse prix eau. (5) DPE C minimum recherché — hivers humides + maisons mal isolées = moisissures à terme. (6) Vérifier la fibre (couverture excellente sur métropoles, encore inégale en Centre-Bretagne).",
+      },
+      {
+        heading: "Le calcul honnête : Bretagne 2040, oui, mais lucide",
+        body: "La Bretagne reste l'un des meilleurs paris climatiques pour 2040 — climat tempéré, biodiversité riche, qualité de vie élevée, prix encore raisonnables vs Sud-Ouest. Mais c'est pas un climat 'stable comme on le croit' : sécheresses estivales nouvelles, tempêtes plus intenses, érosion ponctuelle. Le bon arbitrage : viser une ville métropolitaine (Rennes, Vannes, Quimper) ou un bourg intermédiaire intérieur plutôt qu'un front de mer ou un village très isolé. Et surtout : ne pas penser que la Bretagne est un climat immobile — il évolue, et le bâti doit suivre. Bonne nouvelle : avec un achat réfléchi, c'est l'une des zones les plus résilientes du pays.",
+      },
+    ],
+    relatedCities: ["rennes", "brest", "quimper", "vannes", "lorient"],
+    relatedGuides: [
+      "ou-vivre-france-meteo-qualite-air-2026",
+      "vivre-en-bretagne-interieure-guide-2026",
+      "teletravailler-depuis-bretagne-guide-2026",
+      "climat-2040-facade-atlantique-france",
+      "brest-vs-lorient-comparatif-2026",
+    ],
+    tags: ["climat 2040", "Bretagne", "océanique", "sécheresse", "tempêtes", "montée des eaux", "Rennes", "réchauffement"],
+  },
+  {
+    slug: "climat-2040-nord-hauts-de-france",
+    title: "Climat 2040 dans le Nord et les Hauts-de-France — réchauffement bienvenu ou inattendu ?",
+    metaTitle: "Climat 2040 Hauts-de-France : Lille, Amiens, Calais, côte Opale — guide",
+    metaDesc:
+      "Le Nord et les Hauts-de-France face à 2040 : étés plus chauds, hivers plus doux, montée des eaux côte d'Opale. Où vivre, où arbitrer.",
+    category: "lifestyle",
+    emoji: "🌫️",
+    readMinutes: 8,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "Les Hauts-de-France sont rarement cités dans les conversations climatiques 2040 — à tort. La région connaît un réchauffement rapide (+2 °C déjà observés), des étés qui ressemblent désormais aux étés parisiens des années 1990, et une côte d'Opale exposée à la montée des eaux. Pour ceux que les prix ont chassés du Sud, voici la lecture honnête.",
+    sections: [
+      {
+        heading: "Ce qui change d'ici 2040 (projections)",
+        body: "Réchauffement : +2 à +3 °C à 2040 vs 1981-2010, soit le plus fort taux d'évolution avec le Nord-Est. Lille : ~20 jours/an >30 °C en 2040 (vs ~5 aujourd'hui), avec quelques pointes 35-37 °C. Amiens : ~15 jours/an. Hiver : adoucissement net, gelées plus rares, neige devenue exceptionnelle en plaine. Pluviométrie : stable annuelle mais redistribution — automnes plus pluvieux (risque inondations Somme, Aa, Lys), étés plus secs. Tempêtes hivernales : intensité moyenne en hausse côte nord. Montée marine : exposition forte côte d'Opale, Dunkerque, baie de Somme — +15-25 cm 2050.",
+      },
+      {
+        heading: "Métropoles bien positionnées 2040",
+        body: "(1) Lille — métropole solide, services complets, TGV Paris 1h, Bruxelles 35 min, Londres 1h20. Aucune exposition mer directe. Étés plus chauds mais encore tenables avec bâti adapté. Prix m² accessible vs Île-de-France. (2) Amiens — préfecture Somme, université, TGV Paris 1h05, climat tempéré, foncier accessible. (3) Arras — bourg de qualité, TGV Paris 50 min, climat tempéré. (4) Valenciennes — réindustrialisation (Stellantis, Toyota), prix très bas, climat tempéré. (5) Saint-Quentin, Cambrai, Compiègne, Beauvais — bourgs intermédiaires, accessibles, climat tempéré océanique-continental.",
+      },
+      {
+        heading: "Zones côtières à arbitrer prudemment",
+        body: "(1) Dunkerque — exposition montée des eaux + zones basses polders. Ville reconvertie industriellement mais foncier littoral à examiner (PPRL). (2) Calais, Boulogne-sur-Mer — côte exposée, certaines zones falaise érodée (Cap Blanc-Nez, Cap Gris-Nez), tempêtes. (3) Berck, Le Touquet, Étaples — front de mer attractif mais exposition submersion sur biens en zone basse. (4) Baie de Somme (Saint-Valery, Le Crotoy) — zone humide vulnérable, érosion documentée. (5) Wissant, Audresselles — secteurs côte d'Opale érosion active.",
+      },
+      {
+        heading: "L'avantage caché des Hauts-de-France 2040",
+        body: "Eau : c'est l'un des grands oubliés. Région bien pourvue en nappes phréatiques (craie picarde, calcaire), pluviométrie suffisante, rivières correctes (Somme, Lys, Aa). Restrictions d'eau quasi inexistantes vs Bretagne ou Sud-Ouest. Sols agricoles riches (limons), résilience alimentaire locale. Énergie : éolien terrestre + offshore en forte croissance, mix énergétique futur favorable. Infrastructure : TGV, autoroutes, ports, aéroports — connectivité européenne difficile à battre. C'est probablement la région la plus sous-cotée en 2026 pour un horizon 2040.",
+      },
+      {
+        heading: "Adaptations stratégiques achat 2026-2030",
+        body: "(1) Pour métropoles intérieures : DPE C minimum (hiver plus doux mais été qui chauffe — isolation toiture critique). Climatisation réversible recommandée pour bâti récent. (2) Pour côte d'Opale : vérifier PPRL strictement, altitude > 5 m NGF, distance trait de côte > 50 m falaises / > 100 m sableux. (3) Anticipation transports : ligne Paris-Lille fortement utilisée, prix immobilier va continuer de gagner à proximité gares TGV (Arras, Amiens, Calais-Frethun). (4) Surveillance polders/Wateringues Nord : drainage de zones basses dépend de pompage électrique — vulnérabilité montée marine + pannes. (5) Réindustrialisation Dunkerque/Valenciennes/Béthune (gigafactories batteries) — relance économique probable, foncier en hausse modérée.",
+      },
+      {
+        heading: "Le calcul honnête : sous-coté pour 2040",
+        body: "Les Hauts-de-France cumulent en 2026 : prix bas (m² Lille ~3 200 €, Amiens ~2 200 €, Saint-Quentin ~1 200 €), connectivité européenne forte (TGV, Brexit côté français renforce position), ressource en eau, mix énergétique en mutation rapide. Le risque : un réchauffement net qui rend les étés moins agréables qu'auparavant, et une côte d'Opale exposée. Le bon profil : ceux qui cherchent métropole + prix + climat encore tempéré + Europe. Le mauvais profil : ceux qui idéalisent une côte intacte ou un climat de chambre froide. C'est probablement la région française avec le meilleur rapport qualité-prix pour qui anticipe 2040 lucidement.",
+      },
+    ],
+    relatedCities: ["lille", "amiens", "arras", "calais", "dunkerque"],
+    relatedGuides: [
+      "ou-vivre-france-meteo-qualite-air-2026",
+      "vivre-en-hauts-de-france-guide-2026",
+      "teletravailler-depuis-hauts-de-france-guide-2026",
+      "climat-2040-facade-atlantique-france",
+      "expatries-retour-france-quelle-ville-2026",
+    ],
+    tags: ["climat 2040", "Hauts-de-France", "Nord", "Lille", "côte d'Opale", "réchauffement", "réindustrialisation", "Europe"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
