@@ -1,11 +1,13 @@
 import { Metadata } from "next";
+import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Card } from "@/components/ui/Card";
 import { ContributionStats } from "@/components/ContributionStats";
 import { CommentSection } from "@/components/CommentSection";
-import { AlertTriangle, Volume2, Droplets, Wind, Shield, Flame, Zap } from "lucide-react";
+import { AlertTriangle, Volume2, Droplets, Wind, Shield, Flame, Zap, ArrowRight } from "lucide-react";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { CITIES_SEED } from "@/data/cities-seed";
 
 export const metadata: Metadata = {
   title: "Red Flag Radar — Signalements communautaires | MeilleurVille",
@@ -71,7 +73,27 @@ const FLAG_CATEGORIES = [
 ];
 
 
+// Surface a short list of major cities to bootstrap discovery of per-city fiches.
+const FEATURED_CITY_SLUGS = [
+  "marseille", "paris", "nice", "toulon", "perpignan", "lyon",
+  "bordeaux", "nantes", "rennes", "strasbourg", "grenoble", "lille",
+];
+
+function featuredFiches() {
+  return FEATURED_CITY_SLUGS
+    .map((slug) => CITIES_SEED.find((c) => c.slug === slug))
+    .filter((c): c is NonNullable<typeof c> => Boolean(c))
+    .map((c) => ({
+      slug: c.slug,
+      name: c.name,
+      department: c.department,
+      safety: c.scores.safety,
+      cost: c.scores.cost,
+    }));
+}
+
 export default function RedFlagsPage() {
+  const fiches = featuredFiches();
   return (
     <main id="main-content" className="min-h-screen">
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(redFlagsBreadcrumb)} />
@@ -136,6 +158,42 @@ export default function RedFlagsPage() {
               </Card>
             ))}
           </div>
+        </div>
+
+        {/* Per-city fiches */}
+        <div>
+          <div className="flex items-end justify-between gap-4 mb-6">
+            <div>
+              <h2 className="text-xl font-bold text-[var(--text-primary)] mb-1">
+                Fiches red-flag par ville
+              </h2>
+              <p className="text-sm text-[var(--text-secondary)]">
+                Neuf catégories de risques croisées avec Géorisques, SSMSI, ATMO et BRGM. Une fiche disponible pour chaque ville du site.
+              </p>
+            </div>
+          </div>
+          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {fiches.map((f) => (
+              <Link
+                key={f.slug}
+                href={`/red-flags/${f.slug}`}
+                className="group rounded-2xl border border-[var(--border)] bg-[var(--bg-canvas)] hover:border-red-500/40 hover:bg-[var(--bg-elevated)] transition-all p-4 flex items-center justify-between gap-3"
+              >
+                <div className="min-w-0">
+                  <div className="text-sm font-bold text-[var(--text-primary)] group-hover:text-red-500 transition-colors truncate">
+                    {f.name}
+                  </div>
+                  <div className="text-[11px] text-[var(--text-tertiary)] mt-0.5 truncate">
+                    {f.department} · sécurité {f.safety.toFixed(1)} · coût {f.cost.toFixed(1)}
+                  </div>
+                </div>
+                <ArrowRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-red-500 flex-shrink-0 transition-colors" />
+              </Link>
+            ))}
+          </div>
+          <p className="text-xs text-[var(--text-tertiary)] mt-4">
+            Toutes les villes ont leur fiche : /red-flags/&lt;slug-de-la-ville&gt;.
+          </p>
         </div>
 
         {/* Community stats */}
