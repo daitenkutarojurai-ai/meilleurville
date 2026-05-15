@@ -13434,6 +13434,161 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["climat 2040", "Hauts-de-France", "Nord", "Lille", "côte d'Opale", "réchauffement", "réindustrialisation", "Europe"],
   },
+  {
+    slug: "climat-2040-grand-est-alsace-lorraine",
+    title: "Climat 2040 dans le Grand Est — Alsace, Lorraine, Champagne face au réchauffement",
+    metaTitle: "Climat 2040 Grand Est : Strasbourg, Nancy, Metz, Reims — guide honnête",
+    metaDesc:
+      "Le Grand Est face à 2040 : continentalité accentuée, canicules estivales, sécheresses, vignobles en mutation. Où vivre, où arbitrer en Alsace, Lorraine, Champagne.",
+    category: "lifestyle",
+    emoji: "🍷",
+    readMinutes: 8,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "Le Grand Est cumule deux dynamiques : un climat continental qui se réchauffe plus vite que la moyenne nationale (+2,2 °C déjà observés en Alsace), et des étés qui basculent vers un profil méditerranéen modéré. Pour 2040, ça change la donne — pour les viticulteurs, pour les villes-îlot de chaleur, et pour ceux qui visent la région comme refuge nordique.",
+    sections: [
+      {
+        heading: "Ce qui change d'ici 2040 (projections)",
+        body: "Réchauffement : +2 à +3 °C à 2040 vs 1981-2010, l'un des plus forts taux d'évolution avec les Hauts-de-France. Strasbourg : ~25 jours/an >30 °C en 2040 (vs ~10 aujourd'hui), pointes 35-38 °C. Colmar (la ville la plus sèche de France hors Méditerranée) : 30+ jours/an, sécheresse marquée. Nancy, Metz : ~22 jours/an. Reims, Troyes : ~20 jours/an. Hiver : adoucissement net, gelées toujours présentes mais raccourcies, neige raréfiée en plaine. Sécheresse : déficits hydriques estivaux +30-40 %, restrictions d'eau Alsace-Lorraine en hausse. Tempêtes : vents plus intenses sur Vosges et plateau lorrain. Vignobles : Champagne et Alsace en pleine transition — cépages méridionaux testés, dates vendanges avancées de 3 semaines vs 1980.",
+      },
+      {
+        heading: "Métropoles bien positionnées 2040",
+        body: "(1) Strasbourg — métropole européenne, services complets, TGV Paris 1h45, climat continental réchauffé tenable avec bâti adapté. Risque îlot chaleur urbain quartiers denses (Krutenau, Neudorf). (2) Nancy — préfecture Meurthe-et-Moselle, université, TGV Paris 1h30, foncier accessible, parc Pépinière refroidisseur. (3) Metz — proche Luxembourg (frontaliers nombreux), TGV Paris 1h22, climat tempéré, foncier très accessible. (4) Reims — TGV Paris 45 min, climat continental modéré, tissu vignoble structurant. (5) Mulhouse — prix m² imbattable (~1 800 €), proche frontière Suisse/Allemagne, climat continental sec.",
+      },
+      {
+        heading: "Zones à arbitrer (vignobles + plateau)",
+        body: "(1) Vignoble alsacien (Riquewihr, Kaysersberg, Ribeauvillé) — beauté patrimoniale mais saisonnalité touristique extrême, foncier en hausse, climat sec qui durcit. Profil touristique > résidentiel. (2) Plateau lorrain et Argonne — climat rude continental, hivers encore froids, désertification médicale dans les bourgs <2 000 hab. (3) Vosges du Nord (Bitche, Wissembourg) — climat océanique-continental modéré, foncier abordable, mais isolement transport. (4) Champagne crayeuse (Reims-Châlons-Épernay) — vignobles haut de gamme, mais campagne très ouverte, peu d'arbres = inconfort estival.",
+      },
+      {
+        heading: "L'avantage caché : eau, vignoble, Europe",
+        body: "Eau : Grand Est globalement bien pourvu (Rhin, Moselle, Meuse, nappe phréatique d'Alsace = l'une des plus grandes d'Europe). Restrictions estivales en hausse mais moins critiques que Sud-Ouest. Énergie : nucléaire bien implanté (Fessenheim fermée mais Cattenom + Chooz couvrent largement), hydroélectricité Vosges, éolien plateau. Économie : frontaliers Luxembourg (40 000+ depuis Lorraine), Suisse (50 000+ depuis Alsace), Allemagne (frontière sociale active) — débouchés rémunérateurs durables. Vignobles en transition mais positionnés haut de gamme — adaptation viable.",
+      },
+      {
+        heading: "Adaptations stratégiques achat 2026-2030",
+        body: "(1) DPE C minimum dans tout achat — hivers encore frais (chauffage) + étés qui chauffent (isolation toiture) = double exigence. Bâti pierre/colombages Alsace souvent DPE D-F, anticiper rénovation. (2) Climatisation réversible (pompe à chaleur) devient nécessaire en plaine Alsace/Champagne d'ici 2030. (3) Pour vignoble : éviter achat spéculatif sans diversification — climat change vite, certains cépages obsolètes 2040. (4) Frontaliers : viser Thionville (Luxembourg), Saint-Louis (Bâle), Sarreguemines (Sarre) — emploi rémunérateur + foncier accessible. (5) Vérifier risque inondation (PPRI) zones Rhin, Moselle, Meuse — épisodes pluvieux plus intenses.",
+      },
+      {
+        heading: "Le calcul honnête : tempéré, accessible, européen",
+        body: "Le Grand Est 2040 reste l'une des régions françaises les plus équilibrées : prix m² parmi les plus bas pour des métropoles de cette qualité (Strasbourg, Nancy, Metz, Mulhouse), connectivité européenne unique (Luxembourg, Allemagne, Suisse, Belgique), eau correcte, mix énergétique stable. Le risque : un climat continental qui devient inconfortable l'été dans les villes-îlot et certaines plaines sèches. Le bon profil : ceux qui cherchent métropole + Europe + foncier abordable + climat encore tempéré globalement. Le mauvais profil : ceux qui idéalisent une fraîcheur estivale stable (le Grand Est était frais, il l'est moins). Région sous-cotée pour 2040, surtout côté Lorraine et Champagne.",
+      },
+    ],
+    relatedCities: ["strasbourg", "nancy", "metz", "reims", "mulhouse"],
+    relatedGuides: [
+      "ou-vivre-france-meteo-qualite-air-2026",
+      "vivre-en-alsace-guide-2026",
+      "vivre-en-lorraine-metz-nancy-thionville-2026",
+      "teletravailler-depuis-grand-est-guide-2026",
+      "metz-vs-nancy-comparatif-2026",
+    ],
+    tags: ["climat 2040", "Grand Est", "Alsace", "Lorraine", "Champagne", "vignoble", "réchauffement", "frontaliers"],
+  },
+  {
+    slug: "climat-2040-sud-ouest-pyrenees-bassin-aquitain",
+    title: "Climat 2040 dans le Sud-Ouest et les Pyrénées — bassin aquitain face à la canicule",
+    metaTitle: "Climat 2040 Sud-Ouest : Toulouse, Bordeaux, Bayonne, Pau, Pyrénées — guide",
+    metaDesc:
+      "Le Sud-Ouest face à 2040 : canicules toulousaines, sécheresse Aquitaine, Pyrénées comme refuge. Où vivre, où adapter, où monter en altitude.",
+    category: "lifestyle",
+    emoji: "🌞",
+    readMinutes: 9,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "Le Sud-Ouest est piégé entre deux dynamiques : un bassin aquitain qui chauffe vite (Toulouse rejoint le profil Méditerranée modérée), et des Pyrénées qui deviennent refuge climatique. Côte basque et Landes restent privilégiées mais avec sécheresses estivales et exposition océanique. Voici la lecture 2040 honnête pour cette région contrastée.",
+    sections: [
+      {
+        heading: "Ce qui change d'ici 2040 (projections)",
+        body: "Réchauffement : +2 à +3 °C à 2040 vs 1981-2010, fort sur l'intérieur (Toulouse, Albi, Tarbes), modéré sur la côte basque. Toulouse : ~40 jours/an >30 °C en 2040 (vs ~15 aujourd'hui), pointes 38-40 °C, nuits tropicales fréquentes. Bordeaux : ~30 jours/an, pointes 38 °C. Pau, Tarbes : ~25 jours/an mais effet foehn pyrénéen possible (pointes 40 °C). Bayonne, Biarritz : ~12-15 jours/an, océan amortit. Sécheresse Aquitaine : déficits hydriques +30-50 %, restrictions d'eau Gers, Lot-et-Garonne, Dordogne devenues chroniques l'été. Pyrénées : enneigement stations <1800 m fortement réduit (Hautacam, Gourette, Ax-les-Thermes), saison ski raccourcie. Vignobles : Bordeaux en transition rapide (cépages méridionaux, Merlot stressé).",
+      },
+      {
+        heading: "Côte basque et Landes : préservées (relativement)",
+        body: "(1) Bayonne, Biarritz, Anglet — l'agglo BAB conserve un climat océanique très doux : étés tempérés (océan), hivers doux. Foncier très tendu, prix m² 4 500-7 000 €. Pression touristique en hausse. (2) Dax, Mont-de-Marsan — intérieur landes, climat plus chaud (~25 jours >30 °C) mais foncier accessible, thermalisme structurant. (3) Côte landaise (Hossegor, Capbreton, Mimizan) — climat océanique mais érosion côtière documentée, surf attractif, saison touristique étirée. (4) Saint-Jean-de-Luz, Hendaye — climat doux, fort attrait retraite, mais saturé.",
+      },
+      {
+        heading: "Pyrénées : refuge climatique en construction",
+        body: "(1) Pau (~205 m, vue Pyrénées) — métropole de qualité, climat doux océanique-pyrénéen, foncier accessible, TGV Paris 4h30 mais aéroport. Excellent pari 2040. (2) Tarbes (~330 m) — proche Pyrénées, climat tempéré, foncier très accessible (~1 500 €/m²), services correctes. (3) Lourdes — climat tempéré, foncier abordable, mais saisonnalité religieuse. (4) Bagnères-de-Bigorre, Saint-Lary, Cauterets — bourgs montagne 600-1200 m, refuge climatique mais services limités, économie touristique. (5) Vallées Ariégeoises (Foix, Ax-les-Thermes, Saint-Girons) — climat tempéré montagne, prix bas, isolement réel. (6) Côté Pyrénées-Orientales : Prades, Vernet-les-Bains — refuge altitude proche Méditerranée chaude, profil singulier.",
+      },
+      {
+        heading: "Bassin aquitain et Toulousain : adaptations urgentes",
+        body: "Toulouse, Bordeaux, Agen, Albi, Montauban deviennent en 2040 des villes à climat semi-méditerranéen : étés longs et chauds, sécheresse, restrictions d'eau. Conséquences concrètes : (1) Climatisation devient indispensable pour résidence principale, énergivore en pic canicule. (2) DPE classe E-G inhabitable l'été d'ici 2030-2035 — anticiper rénovation ou éviter. (3) Espaces verts privés (jardin arboré) deviennent valeur foncière premium. (4) Quartiers Toulouse-Montaudran, Borderouge, Lardenne (résidentiel arboré) > quartiers Compans-Cafarelli ou Saint-Cyprien dense. (5) Quartiers Bordeaux Chartrons, Caudéran, Bouscat > Saint-Michel, Bastide centrale (îlot chaleur).",
+      },
+      {
+        heading: "Zones à éviter ou arbitrer prudemment",
+        body: "(1) Communes Lot-et-Garonne, Gers profond, Dordogne sèche : sécheresses chroniques, agriculture en mutation, services en contraction. Beauté patrimoniale réelle mais résilience climatique faible. (2) Front de mer landais sableux (Soulac, Lacanau) : érosion côtière confirmée, biens menacés. (3) Vignobles Bordeaux secs (Médoc bas, Entre-deux-Mers exposé) : valeur foncière à risque si vignes en crise climatique. (4) Plaines toulousaines exposées (Lauragais sud) : foehn et sécheresse cumulés. (5) Vallées intérieures Pyrénées exposées sud (Ariège basse) : effet foehn marqué.",
+      },
+      {
+        heading: "Adaptations stratégiques achat 2026-2030",
+        body: "(1) Toulouse / Bordeaux : viser DPE A-C, climatisation réversible, jardin/terrasse arborée, quartier résidentiel arboré plutôt qu'hyper-centre dense. (2) Pyrénées (Pau, Tarbes, vallées) : refuge en construction — anticiper hausse de prix d'ici 2030. Cibler bourgs structurants (préfecture, sous-préf) plutôt que village isolé. (3) Côte basque : valorisation continue, prix déjà élevés — viser communes périphériques (Boucau, Tarnos, Saint-Pierre-d'Irube) ou intérieur Pays Basque (Cambo, Hasparren, Saint-Palais). (4) Sud-Ouest profond (Gers, Lot, Tarn-et-Garonne) : attention à la sécheresse + désertification médicale. À privilégier seulement avec télétravail solide + DPE bon + accès eau garanti. (5) Vérifier zones inondables Garonne, Adour, Gave de Pau (PPRI).",
+      },
+      {
+        heading: "Le calcul honnête : Pyrénées > intérieur > côte basque saturée",
+        body: "Le grand gagnant 2040 du Sud-Ouest, c'est l'arc pyrénéen (Pau-Tarbes-vallées) : refuge climatique, foncier encore raisonnable, services correctes, accessibilité. Côte basque reste désirable mais saturée. Toulouse et Bordeaux restent vivables avec adaptation rigoureuse — mais leur prime climatique de 'douceur sud-ouest' disparaît. Intérieur profond (Gers, Lot, Périgord) : beauté préservée mais résilience climatique faible, à choisir en pleine conscience. Pour qui cherche un pari long-terme : Pau, Tarbes, vallées d'Aspe/Ossau/Aure cumulent climat + prix + qualité de vie sans le saturé touristique.",
+      },
+    ],
+    relatedCities: ["toulouse", "bordeaux", "pau", "bayonne", "tarbes"],
+    relatedGuides: [
+      "ou-vivre-france-meteo-qualite-air-2026",
+      "vivre-en-pays-basque-guide-2026",
+      "vivre-en-perigord-dordogne-guide-2026",
+      "teletravailler-depuis-nouvelle-aquitaine-guide-2026",
+      "pau-vs-bayonne-comparatif-2026",
+    ],
+    tags: ["climat 2040", "Sud-Ouest", "Pyrénées", "Toulouse", "Bordeaux", "côte basque", "canicule", "refuge montagne"],
+  },
+  {
+    slug: "climat-2040-vallee-du-rhone-axe-lyon-avignon",
+    title: "Climat 2040 dans la vallée du Rhône — axe Lyon-Valence-Avignon face à la canicule",
+    metaTitle: "Climat 2040 vallée du Rhône : Lyon, Valence, Avignon, mistral, canicule — guide",
+    metaDesc:
+      "La vallée du Rhône face à 2040 : couloir caniculaire, mistral, ozone, sécheresses, refuge altitude. Où vivre de Lyon à Avignon en 2040.",
+    category: "lifestyle",
+    emoji: "🌡️",
+    readMinutes: 9,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "La vallée du Rhône est un couloir géographique qui concentre canicule, mistral, ozone et trafic dense. À 2040, c'est l'axe le plus touché par la combinaison réchauffement + pollution + densité urbaine. Lyon, Valence, Montélimar, Orange, Avignon : chacune avec sa lecture spécifique. Voici l'analyse honnête pour ce couloir stratégique mais climatiquement piégé.",
+    sections: [
+      {
+        heading: "Ce qui change d'ici 2040 (projections)",
+        body: "Réchauffement : +2,5 à +3,5 °C à 2040 vs 1981-2010, parmi les plus forts taux nationaux. Lyon : ~30 jours/an >30 °C en 2040 (vs ~12 aujourd'hui), pointes 39-41 °C, nuits tropicales 15-25/an. Valence : ~40 jours/an, pointes 41 °C. Montélimar, Orange, Avignon : 50+ jours/an, profil méditerranéen continental. Mistral : intensité maintenue (vents 80-100 km/h), aggrave sécheresse mais nettoie l'air. Ozone : pics estivaux fréquents axe Lyon-Avignon, dépassements seuils OMS plus de 80 jours/an. Sécheresse : Drôme, Vaucluse, Ardèche — restrictions estivales chroniques. Pluviométrie : redistribuée — automnes plus violents (épisodes cévenols intensifiés), été sec.",
+      },
+      {
+        heading: "Lyon : métropole adaptable mais îlot de chaleur",
+        body: "Lyon 2040 : étés deviennent similaires à Marseille des années 2000. Sept-laux, Croix-Rousse, Confluence : quartiers où la chaleur stagne, îlot urbain marqué. Quartiers mieux positionnés : Tête d'Or (poumon vert), Brotteaux (arboré), Vaise (proche Saône, ventilé), Vieux-Lyon en partie basse (Saône fraîcheur). Quartiers à éviter pour résidence principale long-terme sans adaptation lourde : Part-Dieu (béton, peu d'ombre), Perrache nord (îlot fort). Banlieue ouest (Tassin, Écully, Sainte-Foy) : altitude légère (+150-200 m), arborée, mieux ventilée — bon refuge urbain. Banlieue est (Villeurbanne, Vénissieux) : dense, peu d'arbres, plus chaude.",
+      },
+      {
+        heading: "Valence, Montélimar, Orange, Avignon : chaleur méditerranéenne continentale",
+        body: "(1) Valence — TGV Paris 2h10, climat déjà chaud, mais services métropolitains, foncier accessible. Risque ozone fort. (2) Montélimar — climat très chaud, ville moyenne, foncier abordable, mais saturation routière A7. (3) Orange — climat méditerranéen continental, foncier accessible, exposition mistral et chaleur cumulés. (4) Avignon — climat méditerranéen sec, services, TGV Paris 2h40, mais saison touristique étouffante l'été. Toutes ces villes deviennent 2040 quasi-méditerranéennes : nécessitent même équipement (climatisation, isolation, ombrage) que Marseille.",
+      },
+      {
+        heading: "Refuges altitude : Drôme, Ardèche, Vercors, Diois",
+        body: "(1) Crest, Die, Saillans (Drôme) — vallée de la Drôme, altitude 200-400 m, climat plus tempéré, communauté alternative active, foncier raisonnable. (2) Aubenas, Largentière, Privas (Ardèche) — moyenne montagne 300-700 m, climat tenable, foncier accessible. (3) Vercors (Villard-de-Lans, Lans-en-Vercors) — altitude 1000+ m, refuge climatique fort, mais saisonnalité touristique. (4) Annonay, Tournon — coteaux rhodaniens nord, climat continental, services correctes. (5) Plateau ardéchois (Saint-Agrève, Coucouron) — altitude 1000+ m, isolement réel mais refuge climatique pour profils télétravail + autonomie. (6) Hauteurs lyonnaises (Monts du Lyonnais) : Saint-Symphorien, Brindas, Sainte-Foy-l'Argentière — 300-600 m, 30 min Lyon, refuge urbain de proximité.",
+      },
+      {
+        heading: "Ozone et qualité de l'air : le sujet 2040",
+        body: "C'est le point sous-estimé : la vallée du Rhône cumule trafic A7 + industries chimiques (couloir de la chimie Lyon sud) + ensoleillement qui transforme NOx en ozone. À 2040, dépassements ozone OMS dépasseront 80 jours/an de Lyon à Avignon. Conséquences : asthmatiques, BPCO, jeunes enfants, personnes âgées en risque sanitaire accru juin-septembre. Quartiers résidentiels à privilégier : ventilés, arborés, hauteur 100+ m vs vallée (altitude amortit ozone). Quartiers à éviter pour santé respiratoire : proximité A7, A6, couloir chimie (Saint-Fons, Pierre-Bénite, Feyzin).",
+      },
+      {
+        heading: "Adaptations stratégiques achat 2026-2030",
+        body: "(1) Lyon : viser hauteurs (Croix-Rousse haute, Tassin, Sainte-Foy, Caluire), arboré, DPE A-C, climatisation réversible. (2) Vallée du Rhône (Valence-Avignon) : même équipement que Sud méditerranéen — clim, isolation toiture, jardin arboré, exposition est ou nord. (3) Refuge altitude : Crest, Die, Aubenas, Annonay = positionnement long-terme intelligent. Vercors et plateau ardéchois = pari fort mais isolement à accepter. (4) Vérifier indices pollution annuels (ATMO AURA, ATMO Sud) — éviter communes en zones de dépassement chronique. (5) Côté énergie : éviter chauffage électrique cher si rénovation lourde — pompe à chaleur ou bois bûche/granulés.",
+      },
+      {
+        heading: "Le calcul honnête : couloir piégé, refuges latéraux",
+        body: "La vallée du Rhône 2040 est un couloir géographique fonctionnellement précieux (TGV, A7, services, économie) mais climatiquement piégé (canicule + ozone + sécheresse). Pour qui doit y être : Lyon hauteurs > Valence ouest > Avignon hors-centre, avec adaptation lourde (clim, isolation, jardin). Pour qui peut s'écarter de 30-50 km : Drôme provençale (Crest, Die), Ardèche moyenne (Aubenas), Vercors, Diois, Monts du Lyonnais offrent un refuge climatique latéral remarquable, à prix encore accessibles. La vraie stratégie 2040 dans cette région : ne pas habiter la vallée, mais rester connecté à elle via télétravail + voiture.",
+      },
+    ],
+    relatedCities: ["lyon", "valence", "avignon", "orange", "nimes"],
+    relatedGuides: [
+      "ou-vivre-france-meteo-qualite-air-2026",
+      "climat-2040-sud-est-mediterraneen-france",
+      "quitter-lyon-guide-2026",
+      "vivre-au-vert-pres-de-lyon-1h-2026",
+      "dijon-vs-lyon-comparatif-2026",
+    ],
+    tags: ["climat 2040", "vallée du Rhône", "Lyon", "Valence", "Avignon", "canicule", "ozone", "mistral", "Drôme", "Ardèche"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
