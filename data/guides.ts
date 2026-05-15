@@ -15479,6 +15479,303 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["habitat participatif", "coliving", "coopérative habitat", "ESS", "écoquartier", "Strasbourg", "communauté", "2026"],
   },
+  {
+    slug: "acheter-avec-un-seul-salaire-france-2026",
+    title: "Acheter avec un seul salaire en 2026 — quelles villes, quels biens, quelles aides",
+    metaTitle: "Acheter seul salaire 2026 : villes accessibles, PTZ majoré — guide",
+    metaDesc:
+      "Acheter sa résidence principale avec un seul salaire en 2026 : capacité d'emprunt mono-revenu, villes accessibles, PTZ, types de biens, pièges.",
+    category: "budget",
+    emoji: "👤",
+    readMinutes: 9,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "Acheter sa résidence principale avec un seul salaire — qu'on soit célibataire, parent solo ou couple avec un seul actif — devient un défi sérieux en 2026. Les conditions HCSF strictes (35 % taux d'effort), les prix immobiliers toujours élevés en métropole, et les taux 3,5-4 % limitent les options. Voici la lecture honnête, par tranche de salaire et par profil.",
+    sections: [
+      {
+        heading: "Capacité d'emprunt mono-revenu 2026",
+        body: "Avec taux 3,8 % moyen sur 25 ans en 2026 : (1) **Salaire 1 800 €/mois** (SMIC) : capacité emprunt ~130 000 € + apport 15 k€ = budget total ~145 k€. (2) **Salaire 2 200 €/mois** : capacité ~155 000 € + 20 k€ apport = 175 k€. (3) **Salaire 2 800 €/mois** : capacité ~195 000 € + 25 k€ = 220 k€. (4) **Salaire 3 500 €/mois** : capacité ~245 000 € + 35 k€ = 280 k€. (5) **Salaire 4 500 €/mois** : capacité ~315 000 € + 50 k€ = 365 k€. (6) **Salaire 6 000 €/mois** : capacité ~420 000 € + 70 k€ = 490 k€. **Critères HCSF stricts** : taux d'effort max 35 % (mensualité crédit + charges récurrentes / revenu net), durée max 25 ans. Les exceptions (20 % des prêts) permettent d'aller jusqu'à 27 ans ou taux d'effort 38 % pour primo-accédant — utile mono-revenu.",
+      },
+      {
+        heading: "Profil 1 — Célibataire jeune actif salaire 2 200-3 500 €",
+        body: "Budget total 175-280 k€. Cibler studio/T1 en métropole secondaire ou T2 en ville moyenne. (1) **Métropoles secondaires accessibles** : Saint-Étienne (T2 75-100 k€), Limoges (T2 90-130 k€), Mulhouse (T2 85-130 k€), Le Havre (T2 100-140 k€), Perpignan (T2 110-160 k€), Brest (T2 110-150 k€). (2) **Villes moyennes** : Châteauroux (T2 70-110 k€), Bourges (T2 85-130 k€), Charleville-Mézières (T2 70-110 k€), Vesoul, Auxerre. (3) **Banlieue métropole** si emploi métropole obligatoire : Aubervilliers, Saint-Denis, Bobigny (T2 180-260 k€), Vénissieux, Vaulx-en-Velin (T2 130-180 k€). (4) **À éviter** : centres métropoles tendues (Bordeaux centre, Lyon Croix-Rousse, Toulouse Carmes), Annecy, Bayonne. Foncier inaccessible avec ce profil.",
+      },
+      {
+        heading: "Profil 2 — Parent solo salaire 2 500-3 500 €",
+        body: "Budget total 200-280 k€, mais besoin T3 obligatoire (parent + 1-2 enfants). (1) **Villes accessibles** : Limoges (T3 110-160 k€), Saint-Étienne (T3 95-150 k€), Brest (T3 130-180 k€), Le Havre (T3 120-170 k€), Mulhouse (T3 100-150 k€). (2) **Bourgs structurants** : Châteauroux, Bourges, Vichy, Tarbes, Niort. T3 90-140 k€ avec parfois jardin. (3) **PTZ majoré famille monoparentale** : zonage favorable + bonification 5-10 %. (4) **APL accession** : si revenu modeste, aide directe à la mensualité (40-180 €/mois selon barème). (5) **Stratégie** : prioriser proximité école + sécurité quartier + transport public efficace. Un parent solo avec voiture en panne 1 semaine = catastrophe organisationnelle. (6) **Évite** : maison périurbaine isolée (trajets école + travail = épuisement), grande ville sans réseau familial proche.",
+      },
+      {
+        heading: "Profil 3 — Couple mono-revenu enfants",
+        body: "Couple avec 1 actif (autre conjoint au foyer, en formation, indépendant non comptabilisable). Salaire actif 3 500-5 500 €. Budget 280-440 k€. (1) **Métropoles secondaires** : Reims, Tours, Angers, Caen, Rouen, Pau, Bayonne périphérie, Strasbourg banlieue. T4 200-350 k€. (2) **Métropoles top** : Toulouse périphérie verte, Bordeaux périphérie, Nantes périphérie. T4 290-400 k€. (3) **Stratégie financement** : (a) **Lever apport via PEL ancien + Livret A maxé** = 50 k€ accessibles. (b) **PTZ Zone B/C** si éligible = 50-90 k€ à taux 0 %. (c) **Différer crédit 6-12 mois** pour boost apport. (d) **Prêt action logement** entreprise (cf. employeur — 10-40 k€ à taux préférentiel). (4) **Stress test** : prévoir scenario perte emploi 6 mois (assurance chômage 12 mois) + scenario décès assurance emprunteur. (5) **Risque maximum** : surendettement si perte emploi du conjoint actif.",
+      },
+      {
+        heading: "Profil 4 — Senior mono-revenu (retraité ou divorcé tardif)",
+        body: "Pension 1 800-3 500 €/mois OU salaire pré-retraite. Budget 130-250 k€ selon âge. (1) **Avantage** : apport souvent élevé (vente bien précédent, capital accumulé). 50-200 k€ apport possible. (2) **Inconvénient** : durée prêt limitée (75 ans fin de prêt), assurance emprunteur très chère (2-3 % du capital). (3) **Stratégie** : (a) **Prêt 10-12 ans max** + grosse apport (50 %+). (b) **Viager** : alternative pertinente si capital + revenus stables. (c) **Démembrement** : achat nu-propriété pour profit transmission, usufruit conservé par vendeur. (4) **Villes** : Pau, Aix-en-Provence, Reims, La Rochelle, Vannes — qualité de vie senior, foncier sweet spot. (5) **Critères bâti** : plain-pied ou ascenseur, proximité services à pied. (6) **Éviter** : achat éloigné famille proche (réseau social senior crucial).",
+      },
+      {
+        heading: "Aides spécifiques mono-revenu 2026",
+        body: "(1) **PTZ majoré** : barème ressources plus favorable pour parent solo, primo-accédant. Jusqu'à 50 % du prix achat en zone B2/C, 40 % zone A. Différé total 5-10 ans. (2) **APL accession** : aide mensuelle directe basée sur ressources et zonage. 40-180 €/mois selon barème. À demander avant signature compromis. (3) **Prêt Action Logement** : 1 % logement employeur (entreprises >10 salariés). 10-40 k€ à taux 1 %, sur 20 ans. (4) **Prêt familial** : donation parents/grands-parents 100 k€/donateur/15 ans exonérée. Levier patrimoine familial. (5) **Aide à l'accession** Régions/Départements : variable, vérifier sur ANIL.fr. (6) **Aide aux frais de notaire** : exonération partielle départements pour primo-accédants modestes en zones B2/C (50 % des départements participant 2026). (7) **Assurance emprunteur Lemoine 2022** : possibilité de changer à tout moment + droit oubli post-cancer 5 ans. Économies 5-15 k€ sur durée prêt.",
+      },
+      {
+        heading: "Pièges classiques mono-revenu",
+        body: "(1) **Surendettement** : capacité 35 % calculée sur revenu net, mais charges réelles (transport, garde enfants, alimentation, énergie) peuvent réduire le 'reste à vivre' à 600-900 €/mois. Test budget mensuel avant signature. (2) **Achat émotionnel ville coup de cœur** : sur-payer = piège long terme avec ce profil financier. Négocier ferme -5 à -10 %. (3) **DPE F/G** : facture énergie 200-400 €/mois supplémentaire = sape capacité budgétaire mensuelle. Privilégier DPE A-D. (4) **Trajets travail** : 1h30 quotidiens = burnout + coût voiture +200-400 €/mois. Maximum 45 min trajet en réalité. (5) **Aucune réserve travaux** : un dégât eau, chaudière HS = trésorerie zéro. Conserver 3-6 mois de mensualité en réserve. (6) **Assurance emprunteur surcotée** : si santé OK, négocier hors banque (Direct Assurance, MAAF Vie). Économie 30-50 % typique. (7) **Refuser caution / GLI** : si crédit avec caution Crédit Logement, pas d'hypothèque inscrite → frais notaire plus bas. (8) **Ne pas négocier les taux** : 2-4 banques en simultané, courtier gratuit pour le client (rémunéré par banque). Économie 0,2-0,4 % typique.",
+      },
+      {
+        heading: "Le calcul honnête : viable avec discipline et bonne ville",
+        body: "Acheter sa résidence principale avec un seul salaire en 2026 reste possible mais nécessite : (1) **Choix de ville** : viser ville moyenne ou métropole secondaire accessible (Saint-Étienne, Limoges, Le Havre, Brest, Châteauroux, Tarbes). Pas de métropole tendue. (2) **Apport solide** : minimum 15-20 % du prix achat. Construire sur 3-5 ans si nécessaire. (3) **Aides cumulées** : PTZ + APL accession + prêt Action Logement = boost réel pour mono-revenu. (4) **Stress test financier** : tenir scenario perte emploi 6-12 mois sans surendettement. (5) **DPE A-D obligatoire** : éviter passoire thermique (coût caché énorme). **Sweet spot mono-revenu 2026** : célibataire ou parent solo avec salaire 2 200-3 500 € → cibler T2-T3 à 100-180 k€ ville moyenne avec emploi local stable + capacité épargne 200-400 €/mois marge sécurité. Pour couple mono-revenu cadre + famille → métropole secondaire périphérie T4 à 280-380 k€. La discipline financière est plus importante que le timing parfait.",
+      },
+    ],
+    relatedCities: ["limoges", "saint-etienne", "brest", "tarbes", "bourges"],
+    relatedGuides: [
+      "acheter-moins-200000-euros-france-quelles-villes-2026",
+      "meilleures-villes-primo-accedants-france-2026",
+      "meilleures-villes-familles-monoparentales-france-2026",
+      "vivre-smic-quelle-ville-france-2026",
+      "acheter-avant-40-ans-strategie-france-2026",
+    ],
+    tags: ["mono-revenu", "seul salaire", "PTZ majoré", "APL accession", "parent solo", "achat seul", "2026"],
+  },
+  {
+    slug: "vivre-avec-moins-1500-euros-net-france-quelles-villes-2026",
+    title: "Vivre avec moins de 1 500 € net par mois en France 2026 — quelles villes",
+    metaTitle: "Vivre avec 1500€ net 2026 : villes accessibles, aides — guide",
+    metaDesc:
+      "Vivre avec moins de 1 500 € net/mois en France 2026 : étudiants, jeunes actifs, retraités modestes. Budget loyer max 500€, villes accessibles, aides CAF.",
+    category: "budget",
+    emoji: "💶",
+    readMinutes: 9,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "Vivre avec moins de 1 500 € net/mois concerne plus de 5 millions de Français en 2026 : étudiants, jeunes actifs au SMIC, parents solos, retraités modestes, travailleurs précaires. Le défi : trouver une ville où le logement ne dépasse pas 35-40 % du revenu (≤600 €) et où la vie reste possible. Voici la lecture honnête, par profil et par ville.",
+    sections: [
+      {
+        heading: "Le budget réel à 1 500 € net",
+        body: "Décomposition budget moyen 2026 avec 1 500 €/mois : (1) **Logement (loyer + charges)** : 500-650 € (33-43 %). (2) **Alimentation** : 200-300 €. (3) **Transport** (essence ou TC) : 50-150 €. (4) **Énergie** (électricité, gaz, eau) : 80-150 €. (5) **Téléphone + internet** : 30-60 €. (6) **Assurances (habitation, voiture)** : 40-80 €. (7) **Santé** (mutuelle complémentaire) : 30-100 €. (8) **Habillement, loisirs, divers** : 50-150 €. **Total essentiels** : 980-1 440 €. Reste pour épargne/imprévus : 60-520 €. Réalité : à 1 500 €, le reste-à-vivre est presque nul sauf à habiter dans une ville à <500 € loyer.",
+      },
+      {
+        heading: "Villes où le loyer T1 reste sous 500 €",
+        body: "Loyer médian T1/studio meublé 2026 (sources : SeLoger, Insee) : (1) **Saint-Étienne** : 320-430 €. Le moins cher de France parmi les métropoles. (2) **Limoges** : 330-440 €. (3) **Brest** : 350-460 €. (4) **Mulhouse** : 320-420 €. (5) **Le Havre** : 350-470 €. (6) **Châteauroux** : 280-380 €. (7) **Charleville-Mézières** : 280-390 €. (8) **Bourges** : 310-410 €. (9) **Saint-Quentin** : 280-380 €. (10) **Tarbes** : 320-430 €. (11) **Niort** : 340-460 €. (12) **Cahors** : 330-440 €. (13) **Perpignan** : 380-500 € (limite haute). (14) **Aurillac** : 290-390 €. (15) **Rodez** : 320-430 €. **À éviter** (loyer T1 >550 €) : Paris (1 000+), Lyon (700+), Bordeaux (650+), Annecy (700+), Bayonne (650+).",
+      },
+      {
+        heading: "Profil 1 — Étudiant 600-1 100 €/mois",
+        body: "Bourse CROUS + APL + petit job = 600-1 100 €/mois selon situation. (1) **CROUS** : chambre 200-350 €/mois OU studio 350-550 €. Listes d'attente longues (3-12 mois) mais excellente solution si obtenue. (2) **Colocation** : chambre 250-450 € selon ville. Rennes, Montpellier, Toulouse = colocation dense. (3) **Studio en ville accessible** : Limoges, Brest, Mulhouse, Le Havre, Saint-Étienne — 320-450 €. (4) **APL** : 150-220 €/mois pour étudiant sous loyer (calcul Crous, Caf). (5) **Aides spécifiques** : bourse CROUS (1 050-5 800 €/an échelons 0-7), prêt étudiant garanti État, aide spécifique annuelle 500 €. (6) **Travailler étudiant** : 10-15h/semaine = 400-600 €/mois supplémentaire en plus études. (7) **Stratégie** : viser ville universitaire avec coût vie bas (Limoges, Brest, Saint-Étienne) plutôt que métropole tendue.",
+      },
+      {
+        heading: "Profil 2 — Jeune actif au SMIC (1 300-1 450 €)",
+        body: "Salaire net SMIC 2026 : ~1 425 €/mois. (1) **Logement** : loyer max ~500 €. Studio/T1 dans ville accessible. (2) **Aides APL** : 80-150 €/mois selon zonage et loyer. (3) **Prime d'activité** : ~250 €/mois (si éligible, déclaration trimestrielle CAF). (4) **Pass mobilité** ou forfait TC partiel pris en charge par employeur (50 % en théorie, sous conditions). (5) **Aide MaPrimeRénov'/Eco-prêt** si propriétaire occupant. (6) **Villes** : Saint-Étienne, Limoges, Brest, Mulhouse, Le Havre, Châteauroux, Tarbes — vivable au SMIC avec discipline. (7) **À éviter** : Paris, Lyon, Bordeaux, Annecy, Côte d'Azur, Côte basque — incompatibles SMIC sans aide familiale. (8) **Reste à vivre réel** : 300-500 €/mois après essentiels — viable mais pas confortable.",
+      },
+      {
+        heading: "Profil 3 — Parent solo au SMIC + RSA",
+        body: "Salaire mi-temps + RSA majoré + APL + ASF (Allocation Soutien Familial) = 1 200-1 600 €/mois selon situation. (1) **Logement social** : à demander en priorité (DALO si nécessaire). Loyer 200-450 € selon nombre de pièces et ville. (2) **Aides cumulées** : APL + ASF (~120-180 €/mois) + RSA majoré (~600 €) + complément familial. (3) **Crèche** : tarif barème CAF (souvent <100 €/mois pour ressources modestes). (4) **Cantines** : tarif social barème mairie (1-3 €/repas). (5) **Mutuelle santé** : Complémentaire Santé Solidaire (CSS) — gratuite jusqu'à 1 000 €/mois revenu adulte + 600 €/enfant. (6) **Villes** : préférer ville avec logement social disponible + crèche/école proche + médecin (Limoges, Tours, Reims, Rouen, Le Havre, Mulhouse). (7) **Risque isolement** : prioriser proximité famille proche pour soutien quotidien.",
+      },
+      {
+        heading: "Profil 4 — Retraité modeste 1 000-1 500 €/mois",
+        body: "Pension de base + complémentaire. (1) **ASPA** (minimum vieillesse) : 1 020 €/mois personne seule, 1 583 € couple. Sous conditions ressources. (2) **APL** : 80-200 €/mois selon loyer et zonage. (3) **CSS** (Complémentaire Santé Solidaire) : gratuite si revenu <1 000 €/mois adulte. (4) **Aide aux personnes âgées** : APA (Allocation Personnalisée d'Autonomie) si perte d'autonomie GIR 1-4. 60-1 800 €/mois selon GIR et ressources. (5) **Tarif réduit transports** : SNCF carte Avantage Senior, abonnements TC seniors (Paris Navigo 50 %, Lyon TCL gratuit à partir 65 ans sous conditions). (6) **Villes** : préférer ville avec services médicaux, transports adaptés, communauté retraités active. Pau, Limoges, Tours, Reims, Caen, Rouen, Mulhouse, Saint-Étienne. (7) **Risque solitude** : viser proximité famille ou communauté seniors (associations, clubs, résidences seniors abordables).",
+      },
+      {
+        heading: "Aides cumulables 2026 — bilan optimisation",
+        body: "(1) **APL** : aide logement, jusqu'à 250 €/mois selon profil. (2) **Prime d'activité** : jusqu'à 320 €/mois salariés modestes. (3) **RSA** : ~600 € personne seule sans activité, dégressif avec revenu. (4) **CSS** : gratuite ou contribuée jusqu'à 1 € symbolique. (5) **CAF — allocations familiales** : selon composition foyer. (6) **Prime de Noël** : 152-450 € en décembre pour bénéficiaires RSA. (7) **Chèques énergie** : 48-277 €/an automatique selon ressources. (8) **Pass'sport** : 50 €/an enfant 6-18 ans. (9) **Aide vacances ANCV** : pour familles modestes. (10) **Aides communales** : Pass Eau, Pass culture, banque alimentaire, Restos du Cœur. **Cumul total possible 2026** : 300-600 €/mois selon profil. À demander activement — beaucoup de non-recours.",
+      },
+      {
+        heading: "Pièges classiques à 1 500 € net",
+        body: "(1) **Non-recours aux aides** : 30-40 % des bénéficiaires théoriques ne demandent pas. Vérifier mes-aides.gouv.fr ou caf.fr simulation. (2) **Loyer trop élevé** : >45 % du revenu = surendettement chronique. Toujours négocier loyer ou changer ville. (3) **Voiture en ville accessible** : 250-400 €/mois TCO. Éviter si pas indispensable (privilégier TC). (4) **Crédit consommation** : taux 8-20 %, piège classique pour boucler le mois. Éviter absolument, prioriser aide sociale. (5) **Abonnements multiples** : Netflix, Spotify, salle de sport, livraison repas. 100-200 €/mois cumulés. Couper l'inutile. (6) **DPE F/G** : facture chauffage 150-300 €/mois vs 50-80 € DPE C. Choisir logement bien isolé. (7) **Mutuelle santé** : sans CSS, mutuelle privée 50-120 €/mois. Toujours vérifier éligibilité CSS. (8) **Choisir mauvaise ville** : Paris/Lyon/Bordeaux centre = incompatible 1 500 € sans aide familiale. Ville moyenne accessible = bonne santé financière.",
+      },
+      {
+        heading: "Le calcul honnête : 1 500 € net = ville moyenne + aides + discipline",
+        body: "Vivre avec moins de 1 500 € net/mois en France 2026 reste viable dans : (1) **Ville moyenne accessible** (Limoges, Saint-Étienne, Brest, Le Havre, Mulhouse, Châteauroux, Tarbes, Bourges). (2) **Logement DPE A-D** avec loyer <500 €/mois (35 % du revenu max). (3) **Aides cumulées activement demandées** (APL + prime activité + CSS + autres). (4) **Mode de vie discipliné** : pas de voiture si évitable, peu d'abonnements, alimentation cuisinée, achats raisonnés. **Profils où c'est facile** : étudiant CROUS, retraité ASPA + petite pension, salarié SMIC ville moyenne avec emploi stable. **Profils où c'est difficile** : parent solo en métropole tendue, jeune actif Paris/Lyon, retraité 1 000-1 200 € en station balnéaire. **À éviter absolument** : ville à >600 € loyer T1, voiture obligatoire avec budget serré, crédit consommation, refus des aides par fierté. **Stratégie à 1 500 € net** : maximiser aides + minimiser charges fixes + choisir ville accessible = vie modeste mais digne.",
+      },
+    ],
+    relatedCities: ["limoges", "saint-etienne", "brest", "le-havre", "mulhouse"],
+    relatedGuides: [
+      "vivre-smic-quelle-ville-france-2026",
+      "vivre-retraite-1500-euros-mois-france-2026",
+      "survivre-etudiant-province-moins-700-euros-2026",
+      "acheter-moins-200000-euros-france-quelles-villes-2026",
+      "meilleures-villes-familles-monoparentales-france-2026",
+    ],
+    tags: ["budget serré", "1500 euros", "SMIC", "ASPA", "RSA", "APL", "aides sociales", "ville accessible", "2026"],
+  },
+  {
+    slug: "acheter-immobilier-a-plusieurs-amis-france-2026",
+    title: "Acheter de l'immobilier à plusieurs amis en 2026 — coloc' patrimoniale et SCI",
+    metaTitle: "Acheter à plusieurs amis 2026 : SCI, indivision, partage — guide",
+    metaDesc:
+      "Acheter à plusieurs amis en 2026 : indivision à 3-4, SCI, partage charges, gouvernance, sortie de l'aventure, pièges juridiques. Analyse honnête.",
+    category: "budget",
+    emoji: "🤝",
+    readMinutes: 9,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "Acheter un bien immobilier à 3-4 amis — concept appelé 'coloc' patrimoniale' — séduit de plus en plus de jeunes actifs en 2026. Mutualiser pour acheter plus grand, mieux situé, avec un coût par tête réduit. Mais le montage juridique est délicat, et la sortie de l'aventure (séparation, déménagement, conflit) doit être anticipée dès le départ. Voici l'analyse honnête.",
+    sections: [
+      {
+        heading: "Pourquoi acheter à plusieurs en 2026",
+        body: "(1) **Mutualisation budget** : 4 personnes × 60 k€ apport + 4 × 150 k€ capacité emprunt = 840 k€ — accès à des biens hors de portée individuelle. (2) **Mutualisation charges** : taxe foncière + copro + entretien + énergie divisés par 4. Économie 200-400 €/mois par personne vs location individuelle. (3) **Convivialité** : vie à plusieurs (amis, projets communs, partage), inspiration du modèle nord-européen (Berlin WG, Stockholm). (4) **Patrimoine** : chacun se constitue un patrimoine, vs colocation pure (loyer perdu). (5) **Réversibilité** : possibilité de revendre sa part à l'un des cohabitants ou à un nouvel entrant. (6) **Cible 2026** : 28-40 ans, célibataires/couples sans enfant, profils créatifs/freelances/cadres mobiles. Volumes : 4 000-7 000 transactions en France 2026 (vs 800 en 2019).",
+      },
+      {
+        heading: "Indivision à plusieurs — le plus simple, mais piégé",
+        body: "Achat à plusieurs en indivision (3-6 personnes selon limite bancaire). (1) **Statut** : chacun co-propriétaire selon quote-part déclarée à l'acte. (2) **Avantages** : simple à mettre en place, gratuit (acte notarial standard). (3) **Inconvénients majeurs** : (a) **Article 815 Code civil** : 'nul n'est tenu de rester en indivision'. Un cohabitant peut exiger la vente du bien à tout moment. (b) **Décisions à l'unanimité** : pour louer, gros travaux, revendre. (c) **Crédit solidaire** : tous solidaires sur la totalité — défaut d'un = obligation des autres. (d) **Succession complexe** : si décès d'un, sa part va aux héritiers. (e) **Sortie d'un** : rachat de part par les autres, ou vente totale. (4) **Convention d'indivision** chez notaire (1 000-2 000 €) : OBLIGATOIRE pour ce profil. Fixe règles décisions, droit de préemption, valorisation départ membre, durée (renouvelable 5 ans).",
+      },
+      {
+        heading: "SCI familiale ou amicale — structure plus robuste",
+        body: "Création d'une SCI dédiée au projet. (1) **Statut** : société civile détenant le bien. Chaque ami détient des parts SCI (proportionnelles à l'apport). (2) **Gouvernance définie statutairement** : gérant désigné, majorité 50 % ou 66 % selon décision (travaux, location, revente, modification statuts). (3) **Avantages** : (a) Évite article 815 (pas d'indivision). (b) Gouvernance flexible, anticipe conflits. (c) Cession de parts SCI possible sans vendre le bien (plus simple que vente immobilière). (d) Transmission facilitée (donation de parts à enfants, héritiers). (e) Démembrement parts possible (usufruit/nue-propriété). (4) **Inconvénients** : (a) Création 1 500-3 500 € (statuts + immatriculation + premières AG). (b) Comptabilité annuelle obligatoire (300-800 €/an expert-comptable). (c) Crédit moins facile : banques plus prudentes sur SCI, taux parfois +0,2-0,4 %. (d) PTZ inaccessible. (e) Régime fiscal IR ou IS — choix important.",
+      },
+      {
+        heading: "SCI — choix régime IR vs IS",
+        body: "(1) **SCI à l'IR (Impôt sur le Revenu, transparence fiscale)** : revenus locatifs imposés au niveau des associés, à leur tranche marginale (TMI). (a) Avantage : déduction des charges, amortissement non comptabilisé fiscalement. (b) Inconvénient : pas d'amortissement déductible. Imposition à TMI + 17,2 % PS = 30-47 % selon profil. (c) Adapté à : SCI familiale pour résidence principale ou patrimoine simple. (2) **SCI à l'IS (Impôt sur les Sociétés)** : SCI fiscalisée comme société, taux 15 % jusqu'à 42 500 € bénéfice, 25 % au-delà. (a) Avantage : amortissement du bien déductible (économie fiscale 20-30 ans). (b) Inconvénient : plus-value à la cession imposée au taux IS 25 % (sans abattement durée détention). (c) Adapté à : SCI investissement locatif long terme + projet de revente lointain. (3) **Choix par défaut** : SCI familiale entre amis pour résidence principale partagée = IR. SCI investissement locatif = IS si patrimoine long terme.",
+      },
+      {
+        heading: "Anticiper la sortie de l'aventure",
+        body: "Le sujet le plus important pour acheter à plusieurs — souvent omis au début. (1) **Pacte d'associés** (SCI) ou **convention d'indivision** : document écrit chez notaire, clarifie : (a) Comment un membre peut sortir (préavis 6-12 mois). (b) Comment sa part est évaluée (expert immobilier indépendant, formule prédéfinie). (c) Droit de préemption des autres membres (priorité de rachat à juste valeur). (d) Que se passe-t-il si désaccord (médiation, arbitrage, vente forcée). (e) Cas de force majeure (décès, divorce, mutation lointaine, perte emploi). (2) **Clause buy-out automatique** : un membre peut vendre ses parts aux autres à 90-95 % valeur expertise — protège membre voulant sortir. (3) **Clause anti-spéculation** (optionnelle) : limite plus-value du membre sortant à inflation + 2 %/an — protège esprit du projet. (4) **Réunions annuelles** : statuts imposent AG annuelle, décisions formalisées, comptes validés. (5) **Cas concret** : 4 amis achètent maison Bordeaux 500 k€ (125 k€ part chacun) en 2024. En 2027, l'un veut sortir (mutation Singapour). Expertise immobilière : 540 k€. Sa part : 135 k€. Les 3 autres rachètent à 130 k€ (95 %) chacun apportant 43,3 k€ supplémentaires.",
+      },
+      {
+        heading: "Profils pour qui ça marche",
+        body: "(1) **Amis adultes 28-40 ans très alignés** : valeurs, projet de vie, communication ouverte. Souvent issus du même milieu pro ou pédagogique. (2) **Profils stables professionnellement** : pas trop de mobilité géographique anticipée à 5 ans. (3) **Profils financièrement comparables** : écarts de revenu/patrimoine trop marqués → tensions. (4) **Familles élargies** : frères et sœurs, cousins, amis d'enfance — réseau de confiance solide. (5) **Couples sans enfant en projet de famille différé** : maison/appartement large permet de l'enfance partagée si projet famille. (6) **Profils créatifs/freelances** : maison avec ateliers/coworking + chambres privées = synergie pro + vie. **Profils où ça ne marche pas** : (a) Amis avec valeurs/style de vie divergents. (b) Profils mobiles géographiquement (mutation tous les 3-5 ans). (c) Couples avec enfants en bas âge (espace + temps incompatible). (d) Profils en conflit latent (le projet va exacerber).",
+      },
+      {
+        heading: "Villes adaptées à l'achat à plusieurs 2026",
+        body: "Critères : grands biens à diviser, communautés créatives/freelances, transports, patrimoine. (1) **Bordeaux** — échoppes en pierre, T6-T7 ou maisons 200-300 m², 500-800 k€, possibilité 4 chambres + espaces communs. (2) **Lyon** — maisons Croix-Rousse, lofts Confluence, anciennes usines réhabilitées. (3) **Marseille** — bastides, anciens hangars, prix accessibles. Maison 250 m² à 450-650 k€. (4) **Toulouse** — maisons toulousaines à étage, briques rose, charme. (5) **Lille** — maisons flamandes en brique, prix accessibles. (6) **Nantes** — grandes maisons île de Nantes, créativité, communauté freelances. (7) **Strasbourg** — bâti collectif structuré, scène ESS/coopérative habitat forte. (8) **Saint-Étienne, Limoges, Mulhouse** — opportunités prix bas pour projets ambitieux. Maison T6 à 200-300 k€ permet projet ambitieux à 4-6 amis. (9) **Bourgs ruraux** : longères, fermes — projets habitat partagé + télétravail.",
+      },
+      {
+        heading: "Pièges classiques",
+        body: "(1) **Ne pas formaliser la sortie** : conflit inévitable à 3-5 ans. Pacte associés OBLIGATOIRE. (2) **Mélanger amitié et finance** : un membre en difficulté financière = piège émotionnel pour le groupe. Définir clairement les obligations. (3) **Espaces communs sous-définis** : qui fait quoi (cuisine, ménage, jardin) ? Tableau de répartition tâches au début. (4) **Différences de mode de vie** : couche-tard vs lève-tôt, fêtard vs introverti. Espaces privés stricts + règles communes. (5) **Travaux à venir** : ravalement, toiture, plomberie. Définir budget réserve dès le début (1-2 % valeur bien/an). (6) **Aller au tribunal** : conflit dépassant médiation = procédure 2-5 ans, perte financière et amitiés. Tout faire pour éviter (clauses arbitrage). (7) **Désaccord sur location** : si un membre part 6 mois, la chambre se loue à un tiers ? Statuer dès le pacte. (8) **Banque difficile** : 35 % des banques refusent 4+ co-emprunteurs. Solliciter banques coopératives (Crédit Coopératif, Nef) ou via SCI.",
+      },
+      {
+        heading: "Le calcul honnête : super opportunité mais cadre juridique strict",
+        body: "Acheter de l'immobilier à plusieurs amis en 2026 reste une stratégie patrimoniale puissante pour le bon profil : mutualisation, vie communautaire, accès à des biens hors de portée individuelle. Conditions de succès : (1) **Cadre juridique** : SCI avec pacte d'associés OU indivision avec convention. Notaire spécialisé recommandé (2 000-4 000 € démarches). (2) **Amis alignés** : valeurs, projet vie 5-10 ans, communication. (3) **Anticipation sortie** : modalités claires dès l'achat, expertise indépendante, droit préemption. (4) **Stabilité géographique** : profils peu mobiles vs profils mobiles = clivage. (5) **Espace** : grand bien (T6+ ou maison 200+ m²) avec chambres privées + communs. **Sweet spot 2026** : 3-4 amis très alignés, projet 7-15 ans, ville accueillante créative (Bordeaux, Lyon, Lille, Nantes, Marseille), SCI + pacte associés, expertise indépendante annuelle. **À éviter** : 6+ membres (gouvernance complexe), profils mobiles, indivision sans convention, achat sans notaire spécialisé.",
+      },
+    ],
+    relatedCities: ["bordeaux", "lyon", "nantes", "lille", "marseille"],
+    relatedGuides: [
+      "habitat-participatif-coliving-france-2026",
+      "acheter-en-couple-non-marie-pacs-sci-indivision-2026",
+      "scpi-vs-locatif-direct-france-2026-quel-choix",
+      "investir-lmnp-par-ville-france-2026",
+      "quitter-paris-30-ans-couple-sans-enfant-2026",
+    ],
+    tags: ["acheter à plusieurs", "SCI", "indivision", "pacte associés", "coloc patrimoniale", "amis", "habitat partagé", "2026"],
+  },
+  {
+    slug: "mutation-professionnelle-vendre-acheter-vite-france-2026",
+    title: "Mutation professionnelle en 2026 — vendre et acheter vite sans piège",
+    metaTitle: "Mutation pro 2026 : vendre rapide, acheter vite, prêt relais — guide",
+    metaDesc:
+      "Mutation professionnelle en 2026 : prêt relais, location temporaire, indemnités employeur, timing 3-6 mois. Stratégies pour vendre vite et acheter vite.",
+    category: "comparaison",
+    emoji: "🚚",
+    readMinutes: 9,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "Une mutation professionnelle impose souvent un déménagement rapide — 2-6 mois entre annonce et prise de poste. Côté immobilier, c'est un défi : vendre rapidement sans bradage, acheter intelligemment dans une ville parfois inconnue, gérer le décalage entre deux ventes. Voici la lecture honnête 2026, sans le 'tout va bien se passer'.",
+    sections: [
+      {
+        heading: "Vraie échelle de temps mutation 2026",
+        body: "(1) **Annonce mutation** : J-90 à J-60 typique (3 mois avant prise de poste). Parfois J-30 si urgence. (2) **Découverte zone** : 1-2 visites week-end pour identifier quartier et marché. (3) **Mise en vente résidence actuelle** : 30-60 jours pour signer compromis, 60-120 jours pour acte définitif. (4) **Recherche bien nouvelle ville** : 30-90 jours visite + compromis. (5) **Crédit nouveau bien** : 45-75 jours montage banque + assurance. (6) **Déménagement** : J-15 à J+15 prise de poste. **Calendrier réaliste 2026** : 4-7 mois entre annonce et installation effective. Si moins, prêt relais + location temporaire devient quasi-obligatoire. Pour les couples avec enfants, ajouter contraintes rentrée scolaire (déménagement été obligatoire).",
+      },
+      {
+        heading: "Stratégie 1 — Vendre vite sans bradage",
+        body: "Pour vendre en 60-90 jours dans le marché correctif 2026 : (1) **Prix juste-bas** : viser -2 à -5 % vs prix moyen comparables (vendu en 30-60 jours) plutôt que prix optimiste -1 mois invendu. (2) **Photos pro** : 200-400 € investissement obligatoire en 2026. Annonces avec photos pro = +30 % d'appels. (3) **Home staging** : 500-1 500 € investissement, vendre 2-3 semaines plus vite. (4) **Multi-canal** : SeLoger + Le Bon Coin + Bien'ici + Logic-Immo + agence physique. Maximiser visibilité. (5) **Diagnostics complets** : tous obligatoires (DPE, ERP, gaz, électricité, amiante, plomb selon âge). Faire intervenir diagnostiqueur AVANT mise en vente — visites avec diagnostics rassurent acheteurs. (6) **Disponibilité visites** : flexibilité soir/week-end critique. Si en location temporaire ailleurs, donner clés à un proche/agent. (7) **Cesser de meubler** : enlever objets personnels, peintures neutres si possible — permet acheteur de se projeter.",
+      },
+      {
+        heading: "Stratégie 2 — Prêt relais — l'outil clé",
+        body: "Prêt relais = prêt court terme (1-2 ans, parfois 3) permettant d'acheter le nouveau bien AVANT d'avoir vendu l'ancien. (1) **Montant** : 50-70 % de la valeur estimée du bien à vendre. (2) **Durée** : 12-24 mois en moyenne, prolongeable. (3) **Taux 2026** : 3,8-4,5 % (similaire crédit classique mais court terme). (4) **Remboursement** : intérêts seuls mensuels OU intérêts capitalisés à la vente. (5) **Conditions** : (a) Estimation immobilière à fournir (300-500 € expert). (b) Bien à vendre déjà mis en vente (mandat signé). (c) Capacité endettement < 35 % incluant prêt relais et nouveau crédit. (6) **Avantage** : permet d'acheter sereinement sans pression vendre absolument vite. (7) **Risque** : si bien ne se vend pas en 18 mois, prolongation prêt + frais supplémentaires + stress. (8) **Coût total** : intérêts prêt relais ~3-5 k€ pour 200 k€ sur 12 mois. Comparé à perte 5-15 % sur bradage vente forcée, économie souvent positive.",
+      },
+      {
+        heading: "Stratégie 3 — Location temporaire dans nouvelle ville",
+        body: "Alternative au prêt relais : louer dans nouvelle ville 6-12 mois pendant qu'on vend l'ancien et qu'on cherche le nouveau bien. (1) **Avantages** : (a) Pas de pression achat, vraie connaissance du marché local et quartiers. (b) Pas de prêt relais (économie 3-5 k€). (c) Test de la nouvelle ville avant engagement long terme. (d) Vente ancien bien sans précipitation. (2) **Inconvénients** : (a) Loyer 6-12 mois = 7-15 k€ 'perdus' en location. (b) Déménagement double (ancien → location → nouveau). (c) Stress gestion à distance (visites ancien bien). (d) Souvent meublé court terme = 30-50 % plus cher que location classique. (3) **Recommandation** : préférer location 3-6 mois (court terme intelligente) sur location 12 mois (coût élevé). Idéal pour couples avec enfants en âge primaire (test école année scolaire). (4) **Bail mobilité** : 1-10 mois, idéal pour mutation. Locataire en mutation pro = profil éligible.",
+      },
+      {
+        heading: "Stratégie 4 — Pont financier via assurance-vie",
+        body: "Si on a une assurance-vie consistante (>50 k€), elle peut servir de pont. (1) **Avance sur contrat** : assureur prête à 4-6 % du capital placé, jusqu'à 60-80 % de la valeur. (2) **Délai** : 5-15 jours typique. (3) **Avantage** : pas de dépendance bancaire, taux fixe, durée flexible. Pas d'évaluation, pas de paperasse lourde. (4) **Limite** : nécessite capital suffisant (>50 k€ idéalement). (5) **Stratégie** : utiliser pour boucler frais notaire nouveau bien + apport supplémentaire, en attendant vente ancien. (6) **Cas concret** : couple avec 80 k€ assurance-vie, achat nouvelle ville à 350 k€. Apport requis 70 k€. Avance contrat 60 k€ + 10 k€ épargne courante = bouclage immédiat. Remboursement à la vente ancien bien (60 k€ + intérêts 2-3 k€).",
+      },
+      {
+        heading: "Aides employeur 2026 — à négocier",
+        body: "(1) **Indemnité de mutation** : 1-3 mois salaire selon convention collective. Inclut frais déménagement + premiers loyers. (2) **Prêt employeur** : Action Logement (1 % logement) — 10-40 k€ à taux 1 % pour primo-accédant ou locataire. (3) **Aide à la vente** : pour grandes mutations (Total, Airbus, ministères) — assistance commerciale immobilière, parfois rachat garanti par employeur à valeur expertise (rare mais existe). (4) **Logement temporaire** : appartement employeur 1-6 mois (cadres sup, mutations stratégiques). (5) **Frais de déménagement** : 100 % pris en charge typique (3 000-8 000 € selon distance et volume). (6) **Indemnité kilométrique** trajets entre annonce et déménagement. (7) **Conseils en mobilité** : services externes financés (Mobivia, Cushman & Wakefield) — recherche logement, accompagnement scolarité enfants. **À négocier** : pour mutations stratégiques, employeur prêt à payer plus pour faire venir le cadre. Ne pas hésiter à demander.",
+      },
+      {
+        heading: "Erreurs classiques mutation",
+        body: "(1) **Acheter avant de connaître la ville** : visite rapide = mauvais choix quartier souvent. Tester 3-6 mois en location avant achat. (2) **Vendre en panique** : prix bradé -10 à -15 % pour vendre vite, alors qu'un prêt relais (~3-5 k€) aurait permis de vendre normalement. (3) **Sous-estimer prêt relais** : non-vente bien initial = stress + coût + frais prolongation. Calculer pire scénario. (4) **Cumul deux crédits** : capacité endettement 35 % strict, mutation prêt relais + nouveau crédit peut dépasser. Simuler avant compromis. (5) **Conjoint suiveur sans plan B** : carrière conjoint sacrifiée = tension relationnelle, séparation possible. Anticiper la mobilité pro du conjoint. (6) **Famille avec enfants** : rupture milieu d'année scolaire = traumatisant. Toujours viser changement été. (7) **Frais cumulés** : frais notaire achat (7-8 %) + frais commission vente (4-5 %) + déménagement + location temporaire = 10-15 % du capital immobilier sur 2 ans. (8) **Pas anticiper Brexit/COVID-like** : crise externe peut bloquer marchés temporairement. Prêt relais avec marge sécurité.",
+      },
+      {
+        heading: "Le calcul honnête : prêt relais + location temporaire = mix gagnant 2026",
+        body: "Pour gérer une mutation pro immobilière en 2026 : (1) **Mutation 3-6 mois** : prêt relais + achat dans nouvelle ville après 2-3 visites approfondies. Risque modéré. (2) **Mutation 1-2 mois** : location temporaire 6 mois + vente ancien + achat ensuite. Sécurité maximale, coût location 5-10 k€. (3) **Mutation incertaine (CDD, période d'essai)** : location pure dans nouvelle ville, conserver ancien bien (location longue), décision achat après confirmation poste. **Recommandation par profil** : (a) **Cadre confirmé CDI** : prêt relais + achat rapide nouvelle ville. (b) **Cadre nouveau poste/CDD** : location 6-12 mois nouvelle ville + vente progressive ancien bien. (c) **Famille enfants 6-15 ans** : déménagement été obligatoire, location 6 mois minimum pour intégration école. (d) **Cadre senior 50+** : prêt relais possible mais durée limitée — préférer location temporaire si possible. **Mantra** : négocier maximum d'aides employeur, ne pas brader bien actuel, prendre le temps de connaître la nouvelle ville avant achat. Mutation = projet 12-18 mois, pas 3.",
+      },
+    ],
+    relatedCities: ["lyon", "bordeaux", "nantes", "toulouse", "strasbourg"],
+    relatedGuides: [
+      "demenager-sintegrer-province-sans-reseau-2026",
+      "quitter-paris-avec-enfants-primaire-france-2026",
+      "quitter-paris-30-ans-couple-sans-enfant-2026",
+      "acheter-avant-40-ans-strategie-france-2026",
+      "quand-acheter-immobilier-france-2026-timing-marche",
+    ],
+    tags: ["mutation professionnelle", "prêt relais", "vendre vite", "achat rapide", "déménagement", "location temporaire", "Action Logement", "2026"],
+  },
+  {
+    slug: "diviser-grand-logement-louer-une-partie-france-2026",
+    title: "Diviser un grand logement pour en louer une partie en 2026",
+    metaTitle: "Diviser logement louer 2026 : T5 → T3+T2, copro, fiscalité — guide",
+    metaDesc:
+      "Diviser un grand logement (maison T6, appartement T5) pour louer une partie en 2026 : autorisation copro, fiscalité, stratégie patrimoniale, villes adaptées.",
+    category: "budget",
+    emoji: "✂️",
+    readMinutes: 9,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "Diviser un grand logement (maison ou appartement) pour en louer une partie devient une stratégie patrimoniale efficace en 2026 : amortir son crédit, augmenter ses revenus, optimiser une grande surface sous-utilisée. Mais la réglementation s'est durcie (loi ALUR, encadrement loyers, copro). Voici la lecture honnête pour qui considère cette option.",
+    sections: [
+      {
+        heading: "Pourquoi diviser en 2026",
+        body: "(1) **Amortir le crédit** : louer une partie = remboursement crédit accéléré. Un T2 loué 700 €/mois peut absorber 8 400 €/an sur la mensualité. (2) **Rendement boostée** : maison T6 à 500 k€ louée intégralement = brut 5 %. Habitant T4 + T2 loué = on bénéficie du logement + 25 k€/an de revenus (lieu de TVA partielle). (3) **Optimisation patrimoniale** : grand bien dont les enfants sont partis peut être divisé sans déménager. Maintien lieu de vie + revenus. (4) **Évolutivité** : possibilité de réintégrer la partie louée plus tard (retour enfants, besoin espace). (5) **Marché locatif tendu** : demande forte pour T2-T3 dans toutes les métropoles, faible turnover. **Volumes 2026** : ~50 000 divisions annuelles, +25 % vs 2020 grâce à télétravail (besoin pièce supplémentaire pour location).",
+      },
+      {
+        heading: "Conditions pour diviser un logement",
+        body: "(1) **Bâti adapté** : entrée séparée OU pouvoir créer une entrée indépendante (palier commun, escalier). (2) **Surface minimale** par lot : 9 m² hors œuvre net (loi Carrez) pour habitation. (3) **Plomberie + électricité** : compteurs séparés (eau + électricité) — sinon répartition forfaitaire complexe. (4) **Cuisine et sanitaires** par lot indépendant. (5) **Réglementation locale** : (a) **Permis de construire** ou **déclaration préalable** si modification façade/structure. (b) **Avis municipalité** : certaines communes (Paris, Lyon, Bordeaux) ont durci l'autorisation de division depuis 2020. (c) **Plan Local d'Urbanisme** (PLU) : vérifier si division autorisée dans la zone. (6) **Loi ALUR 2014** : interdit divisions menant à logements <14 m² ou non conformes. (7) **Décence** : chaque lot doit respecter critères logement décent (chauffage, ventilation, électricité, ouverture extérieure).",
+      },
+      {
+        heading: "En copropriété — l'autorisation copro indispensable",
+        body: "Si le bien est en copropriété, la division nécessite : (1) **Vérification règlement de copropriété** : certaines coprop interdisent la division des lots (clause anti-division). 30 % des coprop parisiennes selon ARC. (2) **Si non interdit** : autorisation assemblée générale (AG) à la majorité absolue (article 25 loi 1965). Souvent contesté par voisins (peur de change locataires fréquents, dégradation immeuble). (3) **Coût démarches** : (a) Architecte pour plans division : 1 500-3 500 €. (b) Convocation AG extraordinaire : 200-500 €. (c) Acte modificatif copropriété chez notaire : 1 500-3 000 €. (d) Nouveaux tantièmes attribués (modification charges). (4) **Délai** : 3-9 mois entre projet et autorisation effective. (5) **Refus possible** : si AG refuse, recours TGI possible mais coûteux et incertain. (6) **Astuce** : présenter projet en amont (réunion informelle copropriétaires) — augmente chances d'approbation.",
+      },
+      {
+        heading: "En maison individuelle — plus simple mais pas anodin",
+        body: "Maison divisée en 2 logements (T4 propriétaire + T2 locataire) : (1) **Pas d'AG copro** — simplification majeure. (2) **Mais permis de construire** ou déclaration préalable selon modifications structurelles. (3) **Création entrée séparée** : souvent nécessite ouverture mur ou utilisation porte secondaire existante. (4) **Compteurs séparés** : EDF + eau — démarches 200-400 €. (5) **Possibilité créer 2e adresse postale** : démarches mairie + La Poste, sinon adresse principale + 'bis/ter'. (6) **Taxe foncière** : pas de division automatique. Vérifier avec service cadastre — possible majoration en lien avec activité locative. (7) **Travaux typiques** : 8 000-25 000 € pour diviser proprement (cloisonnage, plomberie supplémentaire, électricité). 30 000-60 000 € si transformation lourde.",
+      },
+      {
+        heading: "Fiscalité du logement divisé loué",
+        body: "(1) **Régime LMNP (Loueur Meublé Non Professionnel)** : si partie louée meublée, abattement micro-BIC 50 % ou régime réel avec amortissement. Le plus avantageux pour la majorité des cas. (2) **Régime locatif nu** : abattement micro-foncier 30 % ou régime réel. Moins avantageux que LMNP. (3) **Charges déductibles régime réel** : (a) Quote-part charges communes du logement (eau, électricité, chauffage, internet) selon surface louée. (b) Taxe foncière au prorata. (c) Travaux uniquement sur partie louée. (4) **Plus-value à la revente** : la partie occupée comme résidence principale = exonération. La partie louée = imposable selon durée détention. Calcul au prorata des surfaces. (5) **THRS / encadrement loyers** : applicable sur partie louée si commune en encadrement (Paris, Lyon, Bordeaux, etc.). Plafond loyer à vérifier. (6) **Taxe foncière** : reste unique sur le bien total, mais peut être recalculée par CDIF en cas de division formelle.",
+      },
+      {
+        heading: "Cas concret 1 — Couple senior maison familiale",
+        body: "Sophie & Marc, 58 ans, maison familiale T6 200 m² banlieue Lyon achetée 350 k€ en 2005, valeur 2026 : 550 k€. Enfants partis. Crédit soldé. Solution : division T4 (occupant) + T2 (locataire). (1) **Travaux** : 35 000 € (cloisonnage, plomberie, entrée séparée). (2) **Permis de construire** : obtenu sans difficulté. (3) **T2 loué meublé** : 850 €/mois × 12 = 10 200 €/an. (4) **Régime LMNP réel** : amortissement T2 = 240 k€ × 3 %/an = 7 200 €/an + charges déductibles 2 000 €/an = 9 200 €/an. Imposition résiduelle quasi-nulle. (5) **Cash-flow net** : 10 200 - charges = ~9 500 €/an = 790 €/mois supplémentaires. (6) **Valeur globale** : maison divisée vaut désormais 570 k€ (légère valorisation grâce aménagement). (7) **Bilan 10 ans** : 95 000 € cumulés en revenus locatifs nets, sans déménager.",
+      },
+      {
+        heading: "Cas concret 2 — Investisseur jeune actif",
+        body: "Léa, 35 ans, célibataire, achète maison T5 130 m² à Limoges centre 220 k€ + 16 k€ frais en 2026. (1) **Stratégie** : occuper T3 60 m² + louer T2 35 m² aux étudiants Université Limoges. (2) **Travaux division** : 18 000 €. Total investi 254 000 €. (3) **Crédit** : 200 000 € sur 22 ans à 3,9 % = 1 105 €/mois. (4) **T2 loué meublé** : 470 €/mois × 9 mois universitaires + 0 € 3 mois été = 4 230 €/an (vacance estivale). Possibilité louer Airbnb 3 mois été : +1 800 € net. Total : 6 030 €/an. (5) **Bilan** : remboursement crédit mensuel 1 105 - revenu locatif moyen 502 = 603 € net coût. Soit T3 60 m² coûte 603 €/mois à acheter vs 600-700 €/mois en location = neutre cash-flow + acquisition patrimoine. Excellent montage.",
+      },
+      {
+        heading: "Pièges classiques",
+        body: "(1) **Pas d'autorisation copro** : risque procès copropriété + obligation remettre en l'état + amende. (2) **Compteurs partagés** : conflit avec locataire sur répartition consommation. (3) **Locataire dans habitat partagé propriétaire** : promiscuité, conflit usage, gestion difficile. Préférer entrée totalement séparée. (4) **Travaux mal réalisés** : isolation sonore entre les deux logements insuffisante = plaintes locataire + difficile à revendre. (5) **Encadrement loyers** : depuis 2024-2025, attention zones tendues. Loyer plafond imposé. (6) **Locataire saisonnier** : si Airbnb, déclaration mairie obligatoire dans 1 200+ communes. Sanctions sinon. (7) **Sortie locataire** : préavis 3 mois minimum (1 an pour loyer vide). Anticiper si projet réintégrer partie. (8) **Plus-value compliquée à la revente** : calcul partie résidence principale / partie louée — expert-comptable nécessaire. (9) **Loi ALUR division** : depuis 2014, certaines communes (Paris) ont durci au-delà du minimum légal.",
+      },
+      {
+        heading: "Le calcul honnête : excellente stratégie pour grands logements sous-occupés",
+        body: "Diviser un grand logement pour en louer une partie en 2026 = stratégie patrimoniale gagnante dans 4 situations : (1) **Senior maison familiale sous-occupée** : amortir crédit ou complément retraite, sans déménager. ROI excellent. (2) **Jeune actif/couple achat grand bien** : faciliter accession en se finançant partiellement par location partielle. (3) **Investisseur** : achat grand bien à diviser dès le départ pour optimiser rendement total. (4) **Famille évolutive** : grande maison aujourd'hui, division future quand enfants partent. **Conditions de succès** : (1) Bâti adapté (entrée séparée possible). (2) Autorisation copro acquise (si copropriété). (3) Travaux qualitatifs (isolation sonore obligatoire). (4) Régime fiscal optimisé (LMNP réel). (5) Locataire bien choisi (bail solide, dépôt garantie). (6) Étude marché local (loyer plafonné encadrement, prix m² division). **Sweet spot 2026** : maison individuelle senior 200 m² ville moyenne (Limoges, Tours, Reims, Pau) — autorisation simple + travaux 20-40 k€ + locataire facile à trouver + revenu net 6-10 k€/an. À éviter : copropriété centre Paris/Lyon (autorisation rare), petites surfaces <80 m² total (pas de marge de division viable).",
+      },
+    ],
+    relatedCities: ["lyon", "bordeaux", "limoges", "tours", "reims"],
+    relatedGuides: [
+      "investir-lmnp-par-ville-france-2026",
+      "acheter-immobilier-apres-50-ans-strategie-france-2026",
+      "acheter-maison-a-renover-france-2026-vrai-cout",
+      "encadrement-loyers-france-2026-villes-investir-malgre-tout",
+      "meilleures-villes-investissement-locatif-colocation-2025",
+    ],
+    tags: ["diviser logement", "location partielle", "LMNP", "amortir crédit", "stratégie patrimoniale", "copro autorisation", "2026"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
