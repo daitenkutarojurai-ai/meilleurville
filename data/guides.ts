@@ -16992,6 +16992,323 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["démembrement croisé", "usufruit", "nue-propriété", "protection conjoint", "concubinage", "PACS", "succession", "patrimoine", "2026"],
   },
+  {
+    slug: "lmp-loueur-meuble-professionnel-france-2026",
+    title: "LMP en 2026 — passage du LMNP, conditions, fiscalité, avantages",
+    metaTitle: "LMP 2026 : passage LMNP, seuils, fiscalité — guide complet",
+    metaDesc:
+      "LMP (Loueur Meublé Professionnel) en 2026 : passage du LMNP, seuils, fiscalité, IFI, plus-value, avantages et pièges.",
+    category: "budget",
+    emoji: "🏨",
+    readMinutes: 9,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "Le LMP (Loueur Meublé Professionnel) est le 'grand frère' du LMNP, déclenché automatiquement au-delà de seuils précis. Beaucoup d'investisseurs locatifs ignorent qu'ils basculent en LMP — avec conséquences fiscales majeures (positives ET négatives). Voici la lecture honnête 2026.",
+    sections: [
+      {
+        heading: "LMP — qu'est-ce que c'est",
+        body: "(1) **Statut LMP** : Loueur en Meublé Professionnel. Activité locative en meublé considérée fiscalement comme professionnelle (vs LMNP = non-professionnelle, statut particulier). (2) **Bascule automatique** : pas d'option, fonction des conditions cumulées : (a) Recettes locatives meublées >23 000 €/an ET (b) >50 % du revenu global du foyer fiscal. (3) **Si une seule condition** : reste LMNP. (4) **Évolution loi PINEL 2024** : conditions durcies, vigilance accrue administration fiscale. (5) **Cas typique LMP** : retraité avec petites pensions louant 4-6 appartements meublés générant 35-45 k€/an. (6) **Cas LMNP malgré recettes >23 k€** : cadre salarié 80 k€/an + 30 k€ revenus locatifs meublés = LMNP (revenus locatifs <50 % salaire). (7) **Volumes 2026** : ~250 000 foyers LMP en France, en croissance (vieillissement + arbitrage actifs).",
+      },
+      {
+        heading: "Avantages fiscaux LMP vs LMNP",
+        body: "(1) **Imputation déficit sur revenu global** : sans limite (vs LMNP plafonné 10 700 €/an déficit foncier). Avantage majeur si gros travaux. (2) **Plus-value à la cession régime professionnel** : exonération si CA <90 k€ et >5 ans d'activité. Vs LMNP imposé en plus-value des particuliers (abattement 22 ans IR, 30 ans PS). LMP = potentielle exonération totale. (3) **Exonération IFI** : biens loués en LMP exclus de l'IFI (Impôt sur Fortune Immobilière). Pour patrimoines >1,3 M€, gain considérable. (4) **Cotisations sociales** : assujetti URSSAF (SSI ou général), couverture maladie, retraite, prévoyance. (5) **Statut social entrepreneur** : reconnu socialement (vs LMNP 'particulier'). (6) **Charges déductibles** : élargies (frais comptable, formation, déplacements professionnels). (7) **Crédit immobilier** : banques plus favorables (revenus pro reconnus).",
+      },
+      {
+        heading: "Inconvénients LMP",
+        body: "(1) **Cotisations sociales** : 17-25 % des bénéfices LMP. Vs 17,2 % PS LMNP. Coût supplémentaire significatif. (2) **Affiliation SSI** (Sécurité Sociale Indépendants) : démarches, paiement trimestriel, comptabilité plus stricte. (3) **Comptable spécialisé** : 1 200-2 500 €/an. (4) **Si CA >90 k€** : exonération plus-value cession devient plus complexe (calcul abattement durée détention proportionnel). (5) **Retraite ESPÉRÉE** : cotisations versées à SSI = future pension SSI (peu élevée vs régime salarié). (6) **Rupture de carrière salarié** : si salarié bascule LMP, perte avantages (chômage, complémentaire entreprise). (7) **Pas de retour facile au LMNP** : une fois LMP, basculement inverse nécessite réduction CA OU bascule en activité minoritaire. (8) **Sortie patrimoine global** : biens LMP intégrés à entreprise individuelle = plus difficile à transmettre.",
+      },
+      {
+        heading: "Quand le LMP est avantageux",
+        body: "(1) **Retraité actif** : pension modeste + revenus locatifs meublés représentant >50 % revenu total. LMP optimise via plus-value exonérée. (2) **Investisseur senior avec gros patrimoine immobilier (>1,5 M€)** : exonération IFI = économie 5-15 k€/an. (3) **Projet revente <8 ans** : LMP exonération plus-value vs LMNP imposition. Gain potentiel 50-100 k€ sur cession 400 k€. (4) **Profil patrimoine purement immobilier locatif** : LMP = statut adapté. (5) **Reconversion professionnelle** : cadre 55 ans démissionnant pour gérer 5 appartements meublés = LMP cohérent. (6) **Couple sans autre revenu** : LMP devient activité principale = optimisation globale. **À éviter** : (1) Cadre salarié 80 k€/an avec 1-2 appartements = LMNP suffit, LMP ferait perdre temps + cotisations. (2) Projet revente 15+ ans = LMNP avec abattement durée détention suffit. (3) Patrimoine immobilier <500 k€ = LMP excessif.",
+      },
+      {
+        heading: "Comment basculer LMNP → LMP",
+        body: "(1) **Vérification seuils** : revenus locatifs meublés > 23 000 € ET >50 % revenu global foyer fiscal. (2) **Bascule automatique** : pas de démarche immédiate, mais déclaration au moment de la déclaration fiscale annuelle (formulaire 2031 + 2033 LMP). (3) **Immatriculation entreprise** : SSI ou régime général selon situation. Demande Guichet Unique INPI. (4) **N° SIRET** : obligatoire après bascule. Démarches INPI/CFE. (5) **Cotisations sociales** : démarrage immédiat. Acomptes trimestriels (premier après bascule = approximatif, régularisation année suivante). (6) **Comptabilité** : régime réel obligatoire (pas de micro). Expert-comptable spécialisé LMP. (7) **Régime fiscal** : reste BIC (Bénéfices Industriels et Commerciaux), mais professionnel. (8) **Délais** : bascule effective au 1er janvier de l'année où conditions remplies. Possibilité régularisation rétroactive 3 ans.",
+      },
+      {
+        heading: "Cas concret 1 — Retraité 65 ans avec 5 studios meublés",
+        body: "Jean, 65 ans, retraité. Pension : 1 800 €/mois = 21 600 €/an. Possède 5 studios LMNP à Lille loués meublés 600 €/mois chacun = 36 000 €/an. (1) **Test seuil 1** : 36 000 € >23 000 € ✅. (2) **Test seuil 2** : 36 000 / (21 600 + 36 000) = 62,5 % >50 % ✅. (3) **Bascule LMP automatique**. (4) **Avantages** : (a) Plus-value exonérée à la cession si vente après 5 ans détention + CA <90 k€ (cas Jean). (b) Exonération IFI sur les 5 studios (~750 k€ patrimoine immobilier). Si IFI sinon ~3 750 €/an = économie. (c) Imputation déficits sans limite. (5) **Inconvénients** : (a) Cotisations sociales SSI ~3 000-5 000 €/an sur résultat LMP (après amortissements souvent faible). (b) Comptable spécialisé 1 800 €/an. (6) **Bilan** : avantages > inconvénients pour Jean. LMP optimal.",
+      },
+      {
+        heading: "Cas concret 2 — Cadre 45 ans avec 2 LMNP",
+        body: "Léa, 45 ans, cadre. Salaire 70 000 €/an. Possède 2 T2 LMNP à Tours et Reims loués meublés 800 €/mois = 19 200 €/an. (1) **Test seuil 1** : 19 200 € <23 000 € ❌. (2) **Bascule LMP impossible** (conditions non-réunies). (3) **Reste LMNP**. (4) **Stratégie future** : si Léa achète un 3e bien et atteint 28 k€ recettes, test seuil 2 : 28 / (70 + 28) = 28,5 % <50 %. (5) **Donc bascule LMP impossible tant que salaire élevé**. (6) **Conclusion** : Léa reste LMNP régime réel, optimal pour son profil. (7) **Stratégie patrimoine 65 ans+** : à la retraite, baisse revenus pension + multiplication biens locatifs = LMP devient atteignable. (8) **Recommandation** : Léa peut anticiper en accumulant biens locatifs maintenant, basculer LMP à la retraite, avec exonération plus-value à la cession.",
+      },
+      {
+        heading: "Plus-value cession LMP — règle critique",
+        body: "(1) **Conditions exonération totale** : (a) Activité >5 ans (b) Recettes <90 000 € HT (LMP). (2) **Si CA 90 000-126 000 €** : exonération partielle dégressive. (3) **Si CA >126 000 €** : régime réel plus-value professionnelle (taux 25 % capital + cotisations sociales). (4) **Calcul plus-value cession** : prix vente - prix achat (acquisition + frais). Pas d'abattement durée détention en LMP. (5) **Stratégie optimale** : maintenir activité LMP 5+ ans avec CA <90 k€ avant cession. (6) **Comparaison LMNP** : Léa vend bien 350 k€ acheté 200 k€ après 15 ans en LMNP. Plus-value 150 k€. Abattement IR 15/22 ans = 41 % = 9 100 € IR. Abattement PS 15/30 = 25 % = 19 350 € PS. Total 28 450 € (19 %). (7) **Si Léa était LMP** : plus-value cession potentiellement 0 € si CA <90 k€ et >5 ans activité. Économie 28 450 €. Gain majeur.",
+      },
+      {
+        heading: "Pièges classiques LMP 2026",
+        body: "(1) **Ignorer bascule** : conditions seuils franchies sans déclaration = redressement fiscal possible 3-6 ans rétroactif + pénalités. (2) **Mauvais calcul seuils** : confusion CA brut vs résultat. Seuil 23 000 € = recettes brutes (loyers encaissés), pas résultat fiscal. (3) **CA tout pile 90 000 €** : franchir le seuil = perdre exonération plus-value. Anticiper, parfois retarder une location quelques semaines. (4) **Comptable généraliste** : LMP nécessite spécialiste. Erreurs fréquentes en cabinet généraliste. (5) **Cotisations SSI** : surprise première année (acomptes basés sur estimation, régularisation année suivante peut être lourde). Provisionner. (6) **Retour LMNP impossible facilement** : une fois LMP, retour conditionné à réduction CA. Pas de basculement aller-retour annuel. (7) **Cession bien <5 ans LMP** : pas d'exonération, imposition plus-value pro 25 % + cotisations SSI. Lourd. (8) **Vente bien à enfant en LMP** : régime cession peut être différent (donation vs vente). Conseil notaire patrimoine.",
+      },
+      {
+        heading: "Le calcul honnête : LMP pertinent pour retraités et patrimoines >1 M€",
+        body: "Le LMP en 2026 = statut puissant pour profils spécifiques : (1) **Retraité actif** avec >50 % revenus locatifs meublés + patrimoine 5+ biens. Exonération plus-value + exonération IFI = ROI optimisation 50-150 k€ sur vie résiduelle. (2) **Patrimoine immobilier >1,5 M€** : exonération IFI seule justifie LMP (économie 5-15 k€/an). (3) **Reconversion entrepreneuriale 50-60 ans** : activité principale gestion locative meublée = LMP cohérent. (4) **Projet cession <8 ans** : exonération plus-value = gain potentiel énorme. **À éviter** : (1) Cadre salarié + 1-2 LMNP = inutile, reste LMNP. (2) Patrimoine <500 k€ = LMP excessif. (3) Profil non-orienté patrimoine immobilier (LMP = engagement entrepreneurial). **Recommandation** : (a) Test seuils avant tout achat supplémentaire locatif meublé. (b) Comptable spécialisé LMP (Fidroit, Cabinet patrimoine). (c) Anticiper bascule retraite = optimisation maximale. (d) Conserver biens 5+ ans avant cession = exonération plus-value.",
+      },
+    ],
+    relatedCities: ["lille", "tours", "reims", "rennes", "nantes"],
+    relatedGuides: [
+      "investir-lmnp-par-ville-france-2026",
+      "scpi-vs-locatif-direct-france-2026-quel-choix",
+      "sci-familiale-france-2026-montage-transmission",
+      "encadrement-loyers-france-2026-villes-investir-malgre-tout",
+      "diviser-grand-logement-louer-une-partie-france-2026",
+    ],
+    tags: ["LMP", "loueur meublé professionnel", "LMNP", "SSI", "plus-value cession", "IFI exonération", "fiscalité immobilière", "2026"],
+  },
+  {
+    slug: "vivre-proche-piste-cyclable-voie-verte-france-2026",
+    title: "Vivre proche d'une piste cyclable ou voie verte en 2026 — plus-value et qualité de vie",
+    metaTitle: "Vivre proche piste cyclable 2026 : EuroVelo, ViaRhôna — guide",
+    metaDesc:
+      "Vivre proche d'une piste cyclable ou voie verte en France 2026 : EuroVelo, ViaRhôna, plus-value immobilière, villes pionnières vélo.",
+    category: "lifestyle",
+    emoji: "🚲",
+    readMinutes: 9,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "Le maillage cyclable français progresse rapidement en 2026 : 25 000 km de pistes cyclables + voies vertes, dont 8 800 km EuroVelo. Vivre proche d'une infrastructure cyclable structure le quotidien (mobilité douce, loisirs) et apporte plus-value immobilière documentée (+5 à +15 % vs équivalent éloigné). Voici la lecture 2026 par grand axe et par profil.",
+    sections: [
+      {
+        heading: "Le maillage cyclable français 2026",
+        body: "(1) **Schéma national des véloroutes** : 25 000 km officiels d'ici 2030, ~22 000 km réalisés 2026. (2) **EuroVelo** : 17 itinéraires européens dont 9 passent en France. 8 800 km français. (3) **Voies vertes** : 7 500 km, anciennes voies ferrées ou chemins de halage reconvertis. Réservées modes doux. (4) **Pistes cyclables urbaines** : forte expansion 2020-2026 (effet COVID), 12 500 km créés en métropoles. (5) **Vélo électrique** : 32 % des ventes vélos en France 2026 (vs 5 % en 2018). Élargit usage (distances, dénivelé). (6) **Subventions** : 500-1 500 € selon zone pour achat VAE (vélo assistance électrique). (7) **Communes 'Villes Cyclables'** : label décerné par FUB (Fédération Usagers Bicyclette), 200+ communes labellisées. (8) **Bénéfice santé** : 30 min vélo/jour = -30 % mortalité globale (étude Cochrane). Argument poids dans choix résidentiel.",
+      },
+      {
+        heading: "EuroVelo — les grands axes en France",
+        body: "(1) **EuroVelo 1 — Vélodyssée** : côte atlantique, Roscoff à Hendaye. 1 200 km. Villes phares : Brest, Lorient, La Rochelle, Royan, Biarritz. Tronçons aboutis 2026 : 95 %. (2) **EuroVelo 3 — Scandibérique** : Norvège-Espagne via France centrale. Reims, Verdun, Dijon, Lyon. 1 700 km français. (3) **EuroVelo 6 — Atlantique-Mer Noire** : Saint-Brevin à Bâle. 1 300 km en France, suit la Loire + vignobles + canaux. Tours, Saumur, Orléans, Nevers, Châlon-sur-Saône. ABOUTIE 100 %. (4) **EuroVelo 8 — La Méditerranée** : Cadix-Athènes. Côte méditerranéenne française. Perpignan, Sète, Marseille, Nice, Menton. 850 km. (5) **EuroVelo 17 — ViaRhôna** : lac Léman à Méditerranée. 815 km. Genève, Lyon, Avignon, Sète. (6) **EuroVelo 4 — Vélomaritime** : Roscoff à Cherbourg-Octeville côte Manche. 1 500 km français. **Avantage habitant** : itinéraire continu + label international = plus-value immobilière + tourisme stable.",
+      },
+      {
+        heading: "Voies vertes notables",
+        body: "(1) **Voie Verte Nantes-Brest** : 365 km, longe canal historique. Nantes, Redon, Pontivy, Carhaix, Châteaulin, Brest. (2) **Voie Verte des Hautes-Bouchefort** (Loiret, Cher) : 75 km Vendôme-Sancerre, vignobles. (3) **Vélodyssée intérieur Sud-Ouest** : Bordeaux-Sare, vignobles + forêt landaise. (4) **Voie Verte Vélo Mille-Étangs** (Vosges du Sud) : 105 km, Haute-Saône, climat continental préservé. (5) **Vélo Francette** : Ouistreham à La Rochelle (atlantique-manche). 630 km. Normandie + Pays de Loire + Charentes. (6) **ViaFluvia** : 110 km le long du canal des Deux Mers (Sète à Bordeaux). (7) **Tour de Bourgogne à Vélo** : 800 km circuit complet. Beaune, Auxerre, Dijon, Châlon-sur-Saône. (8) **Vélo Vintage Bretagne** : pistes Émeraude + Côte Rose + Côte Granit. 1 200 km cumulés.",
+      },
+      {
+        heading: "Villes phares 'cyclables' 2026",
+        body: "Classement FUB 2025 (top 10 grandes villes >100 000 hab) : (1) **Strasbourg** : 600 km pistes intra-muros, pratique vélo 18 % déplacements. Standard européen. (2) **Grenoble** : 470 km pistes, 17 % vélo. Vallée alpine + relief = défi. (3) **Nantes** : 530 km, 13 % vélo. Plan vélo ambitieux. (4) **Bordeaux** : 220 km intra-muros + 1 200 km métropole. (5) **Lyon** : 1 000 km métropole, 8 % vélo. ViaRhôna passe en centre. (6) **Toulouse** : 280 km, 6 % vélo. En progression. (7) **Rennes** : 220 km, 8 %. Plan ambitieux. (8) **Paris** : 1 100 km annoncés 2026 (REV), 10 % vélo. Décollage post-COVID. (9) **Montpellier** : 200 km, 7 %. (10) **Lille** : 230 km, 6 %. **Villes moyennes** : Strasbourg, La Rochelle, Vannes, Annecy, Pau, Niort = top cyclables hors métropoles.",
+      },
+      {
+        heading: "Plus-value immobilière proximité piste",
+        body: "Études INSEE/Cerema 2024-2025 documentent : (1) **Bien à <500 m piste cyclable structurante** : +5 à +12 % valeur vs équivalent éloigné. (2) **Bien à <100 m voie verte** : +8 à +15 % valeur. (3) **Effet renforcé** : (a) En métropole tendue (Paris, Lyon, Bordeaux) : +12-18 %. (b) En ville cycliste reconnue (Strasbourg, Grenoble) : +10-15 %. (c) En commune rurale touristique (Loire, Provence) : +8-15 % + plus-value touristique (Airbnb). (4) **Effet inverse** : trop proche piste (cohue touristique été) = -3 à -5 % si centre touristique majeur. (5) **Valorisation à 10 ans** : effet cumulatif, sur-performance vs marché général 2-4 % annuel additionnel. (6) **Loyer également** : T2 proche piste = +5 à +10 % loyer mensuel par rapport à équivalent.",
+      },
+      {
+        heading: "Critères choisir bien proche piste",
+        body: "(1) **Distance idéale** : 100-500 m piste. À <50 m = bruit cycliste été (rassemblement Vélodyssée). >800 m = bénéfice limité. (2) **Type piste** : EuroVelo + voie verte > piste cyclable urbaine simple (l'EuroVelo a touristes en bonus). (3) **Tronçon continu** : viser bien sur tronçon abouti + connecté à autres pistes. Vérifier itinérairecyclistes.fr. (4) **Densité connexions** : ville avec maillage cyclable dense > ville avec 1 seule piste. (5) **Présence infrastructures** : parking vélo, location vélo, réparation = écosystème complet. (6) **Climat** : Bretagne + Atlantique = vélo 10-11 mois/an. Méditerranée = été chaud (vélo matin/soir uniquement). (7) **Topographie** : plat (Loire, Atlantique) = vélo facile. Montagne (Lyon, Grenoble) = vélo plus exigeant, VAE recommandé. (8) **Stationnement parking vélo sécurisé** : essentiel en métropole.",
+      },
+      {
+        heading: "Profils pour qui ça compte",
+        body: "(1) **Famille avec enfants 6-15 ans** : vélo école + loisirs = autonomie + santé. Critère majeur. (2) **Couple jeune actif urbain** : vélo trajet boulot, week-ends balade. Réduit dépendance voiture. (3) **Retraités actifs** : VAE (vélo électrique) maintenant accessible à tous âges. Sport doux + autonomie. (4) **Télétravailleur + activité physique** : sortie vélo midi = équilibre travail/sport. (5) **Profil écologique** : choix mode vie cohérent. (6) **Cyclotourisme amateur** : week-ends sportifs, étapes Vélodyssée/ViaRhôna. (7) **Investisseur locatif** : bien proche piste = location facile + plus-value. **Pas pertinent pour** : (1) Profil voiture exclusif. (2) Personne âgée sans vélo. (3) Habitant centre rural sans pistes locales.",
+      },
+      {
+        heading: "Pièges classiques",
+        body: "(1) **Piste 'annoncée'** : projet piste cyclable peut prendre 5-10 ans à se réaliser. Vérifier dossier urbanisme local. (2) **Tronçon discontinu** : piste qui s'arrête à un croisement = sécurité limitée. Préférer tronçon abouti. (3) **Surfréquentation été** : Vélodyssée en juillet-août = embouteillage. Si propriété bord-de-piste = cohue. (4) **Piste municipale vs EuroVelo** : ne pas confondre — une simple piste 'pour aller à la pharmacie' n'a pas même valeur qu'une EuroVelo. (5) **Topographie** : piste annoncée sur dépliant = ne signifie pas pratiquable en réalité (côte 8 % = pénible sans VAE). (6) **Saisonnalité Méditerranée** : été trop chaud pour vélo midi. Vélo limité octobre-avril. (7) **Sous-estimer entretien commune** : commune sans budget = piste mal entretenue, peu pratique. Vérifier état réel.",
+      },
+      {
+        heading: "Le calcul honnête : critère qualité de vie + plus-value documentée",
+        body: "Vivre proche d'une piste cyclable en France 2026 = double bénéfice : qualité de vie quotidienne + plus-value immobilière documentée. **Sweet spots 2026** : (1) **Strasbourg** : champion vélo, infrastructure exceptionnelle, plus-value confirmée. (2) **Loire EuroVelo 6** : Tours, Saumur, Orléans, Nevers, Châlon — tourisme + climat + qualité. (3) **Vélodyssée Atlantique** : Vannes, La Rochelle, Royan, Bayonne — climat doux + tourisme. (4) **ViaRhôna** : Lyon, Valence (attention canicule 2040), Avignon. (5) **Vélo Francette intérieur** : Saumur, Mayenne, Le Mans, Caen — moins touristique, calme. (6) **Communes cyclables petites/moyennes** : La Rochelle, Vannes, Niort, Pau, Grenoble, Annecy. **À privilégier** : bien à 200-500 m d'une EuroVelo ou voie verte structurante, dans ville/commune avec maillage cyclable dense (>3 pistes connectées) et climat compatible (climat océanique > climat continental sec). **Recommandation** : critère de plus en plus important. Plus-value 8-15 % documentée. À intégrer dès la recherche.",
+      },
+    ],
+    relatedCities: ["strasbourg", "tours", "la-rochelle", "vannes", "annecy"],
+    relatedGuides: [
+      "meilleures-villes-cyclistes-france-2026",
+      "vivre-sans-voiture-france-guide-2025",
+      "acheter-au-bord-fleuve-riviere-france-2026",
+      "vivre-mobilite-reduite-pmr-france-villes-accessibles-2026",
+      "meilleures-villes-randonnee-trail-france-2026",
+    ],
+    tags: ["piste cyclable", "voie verte", "EuroVelo", "Vélodyssée", "ViaRhôna", "plus-value vélo", "Strasbourg vélo", "2026"],
+  },
+  {
+    slug: "acheter-avec-pret-familial-france-2026",
+    title: "Acheter avec un prêt familial en 2026 — modalités, fiscalité, formalisation",
+    metaTitle: "Prêt familial achat immobilier 2026 : modalités, fiscalité — guide",
+    metaDesc:
+      "Acheter avec un prêt familial en France 2026 : modalités, fiscalité, formalisation notaire, intérêts, donation déguisée, alternatives.",
+    category: "budget",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 9,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "30 % des achats immobiliers en France 2026 sont aidés par un prêt familial — parents prêtant à enfants, grand-parents, oncle/tante. Souvent informel, mal documenté, parfois fiscalement piégeux. Voici la lecture honnête : comment formaliser, quelle fiscalité, quels avantages vs donation classique.",
+    sections: [
+      {
+        heading: "Prêt familial — état des lieux 2026",
+        body: "(1) **Réalité** : 30 % primo-accédants reçoivent prêt familial. Montant médian 30-80 k€. (2) **Forme typique 2026** : (a) Prêt parents → enfant pour boost apport. (b) Prêt parents → enfant pour rénovation. (c) Prêt grands-parents → petits-enfants pour mariage ou achat. (d) Prêt sans intérêt fréquent (97 % des cas), avec intérêts dans cas patrimoniaux. (3) **Statut juridique** : prêt entre particuliers, autorisé sans limite montant (vs donation max 100 k€/15 ans). (4) **Avantage vs donation** : prêt = remboursable, donation = définitive. Famille préfère parfois prêt pour 'éducation responsabilité' enfant. (5) **Risque** : informalité = piège fiscal + conflit familial possible. (6) **Volumes 2026** : ~60 milliards d'euros de prêts familiaux français cumulés. Critique pour primo-accession.",
+      },
+      {
+        heading: "Formaliser un prêt familial — obligations 2026",
+        body: "(1) **Déclaration administration fiscale** : obligatoire si montant >5 000 €. Formulaire 2062 dans 1 mois suivant prêt. Sanctions : 150 € amende + redressement possible. (2) **Acte sous seing privé** OU **acte notarié** : (a) Sous seing privé : papier libre, signé prêteur + emprunteur + 2 témoins idéalement. Suffit pour montants <50 k€. (b) Acte notarié : recommandé >50 k€. 200-500 € frais. Sécurité juridique maximale, opposable à tiers. (3) **Contenu minimum** : (a) Montant prêté. (b) Durée. (c) Modalités remboursement (mensualités ou échéance). (d) Taux d'intérêt (0 % possible). (e) Garanties éventuelles. (f) Cas de rupture (décès prêteur, défaut emprunteur). (4) **Reconnaissance dette** : alternative simplifiée si pas de remboursement programmé. Signée emprunteur, montant à rembourser un jour.",
+      },
+      {
+        heading: "Fiscalité prêt familial",
+        body: "(1) **Prêt sans intérêt** : pas d'imposition entre les parties. Côté prêteur, pas de revenu déclarable. Côté emprunteur, capital reçu non imposable. (2) **Prêt avec intérêts** : (a) Côté prêteur : intérêts perçus = revenus mobiliers, imposables (flat tax 30 % ou TMI + 17,2 % PS). (b) Côté emprunteur : intérêts versés pas déductibles (sauf si revenu locatif lié). (3) **Taux d'usure** : prêt familial ne suit pas taux d'usure banques. Taux libre négocié, mais 'taux légal' (3,5 % 2026) souvent retenu pour justifier non-libéralité. (4) **TES (Taux d'intérêt à effet économique)** : si taux <0,5 % du taux marché, fisc peut considérer 'avantage indirect' = donation déguisée taxable. (5) **Prêt sans intérêt vs avec** : choix selon objectif (donation déguisée vs vraie obligation remboursement). (6) **Donation des intérêts** : possible de pardonner intérêts annuels (dans limite abattement 31 865 € présents usage). (7) **ISF/IFI** : créance prêt familial = actif imposable IFI pour prêteur si patrimoine >1,3 M€.",
+      },
+      {
+        heading: "Distinction prêt vs donation déguisée",
+        body: "Risque #1 : administration considère prêt familial comme donation déguisée = imposition rétroactive. (1) **Critères donation déguisée** : (a) Absence formalisation. (b) Absence remboursement effectif. (c) Pas de durée précise. (d) Taux 0 % sans justification. (e) Différence intention prêteur/emprunteur. (2) **Sanctions** : (a) Imposition rétroactive (droits succession+pénalités) jusqu'à 3 ans rétroactif. (b) Si patrimoine prêteur >1,3 M€ : également IFI rétroactif. (3) **Cas typiques requalifiés** : (a) Prêt 100 k€ sans déclaration + aucun remboursement 5 ans = donation déguisée. (b) Prêt avec annulation 'oubli' à la mort prêteur. (4) **Protection** : (a) Formalisation écrite. (b) Déclaration 2062. (c) Remboursement effectif (virement bancaire mensuel ou annuel). (d) Cohérence durée/montant/profils. (5) **Cas limite acceptable** : prêt 200 k€ parents → enfant, remboursement 1 000 €/mois × 15 ans, déclaré, acte notarié. Solide.",
+      },
+      {
+        heading: "Cas concret 1 — Primo-accédant 30 ans + prêt parents",
+        body: "Léa, 30 ans, salaire 3 200 €/mois. Veut acheter T2 à Tours 200 k€. Apport 25 k€. Capacité emprunt banque 150 k€. Manque 25 k€ apport. Parents prêtent 40 k€ pour boost apport. (1) **Formalisation** : acte sous seing privé, durée 12 ans, remboursement 280 €/mois, 0 % intérêt. Déclaration 2062 administration fiscale. (2) **Effet bancaire** : Léa déclare son taux d'endettement à 35 % (crédit immo + prêt familial). Banque accepte généralement si reste sous 35 %. (3) **Apport total Léa** : 25 + 40 = 65 k€ (32 % du prix). Crédit bancaire 135 k€ sur 25 ans = 720 €/mois. Total mensuel : 720 + 280 = 1 000 €. Léa peut tenir avec salaire 3 200 €. (4) **Avantages parents** : aider sans donner. Patrimoine intact (prêt reste créance). Au décès parents, héritiers récupèrent solde dû. (5) **Avantages Léa** : pas d'épargne nouvelle nécessaire 5+ ans. Liberté financière. (6) **Bilan** : 200 € de plus de mensualité contre 5 ans d'épargne — choix valable.",
+      },
+      {
+        heading: "Cas concret 2 — Investisseur 35 ans + prêt oncle riche",
+        body: "Marc, 35 ans, cadre. Salaire 5 000 €/mois. Investissement locatif T2 à Lille 200 k€. Apport 40 k€. Oncle (patrimoine 3 M€) propose prêt 100 k€ à 3 % (compatible taux marché). (1) **Formalisation** : acte notarié obligatoire. Durée 10 ans, remboursement 1 000 €/mois (intérêts + capital). Déclaration 2062. (2) **Avantages Marc** : (a) Pas de prêt bancaire = pas de garantie hypothécaire ou caution. (b) Liberté gestion bien. (c) Pas d'intérêts perdus à banque. (3) **Avantages oncle** : (a) Revenus passifs intérêts 3 000 €/an (déclarables). (b) Aide neveu sans donner. (c) Patrimoine investi en créance. (4) **Oncle IFI** : ajout créance 100 k€ à patrimoine pour calcul IFI. (5) **Rentabilité Marc** : loyer 750 €/mois - charges 200 - remboursement oncle 1 000 = -450 €/mois. Trésorerie négative court terme. **MAIS** : capital remboursé = patrimoine constitué + déduction intérêts locatif. (6) **Bilan** : montage complexe mais légal et fiscalement propre.",
+      },
+      {
+        heading: "Cas concret 3 — Petits-enfants + grands-parents",
+        body: "Sophie & Lucas, 28-30 ans, ensemble PACS. Achat T3 à Strasbourg 300 k€. Apport 45 k€. Grands-parents (4 vivants) prêtent 100 k€ : 25 k€/grand-parent. (1) **Formalisation** : 4 actes sous seing privé séparés (ou 1 notarié groupé 350 €). Durée 15 ans, sans intérêt, remboursement 555 €/mois total (139 €/grand-parent). (2) **Avantages** : (a) Mobilise 4 sources familiales = montant significatif. (b) Apport total 145 k€ (48 % du prix). (c) Crédit bancaire réduit à 155 k€ = mensualité gérable. (3) **Risques** : (a) Au décès d'un grand-parent, sa part créance entre dans succession. (b) Conflit entre héritiers possible. (4) **Protection** : (a) Déclaration 2062 chacun. (b) Clause testamentaire grands-parents : 'remise dette à mes héritiers'. (c) Cohérence durée + remboursement progressif. (5) **Bilan** : montage familial intelligent mais nécessite anticipation succession.",
+      },
+      {
+        heading: "Avantages prêt familial vs alternatives",
+        body: "(1) **Vs donation directe** : prêt = remboursable. Capital prêteur préservé. Patrimoine famille intact. (2) **Vs crédit bancaire pur** : prêt familial gratuit (0 % intérêt) ou compétitif (3 %). Vs banque 4-4,5 % en 2026. Économie 15-25 k€ sur 200 k€ prêt 20 ans. (3) **Vs caution familiale** : prêt = apport effectif (boost dossier banque). Caution = engagement juridique sans cash. Préférer prêt si famille a cash disponible. (4) **Vs PEL/CEL** : prêt familial plus souple, plafond illimité. (5) **Vs SCI familiale achat groupé** : prêt familial = projet individuel enfant. SCI = co-propriété définitive. Choix dépend objectif. (6) **Vs assurance-vie** : prêt = transfert pendant vie prêteur. Assurance-vie = transfert au décès (152 500 €/bénéficiaire exonérés). Complémentaires.",
+      },
+      {
+        heading: "Pièges classiques prêt familial",
+        body: "(1) **Pas de formalisation** : oral entre proches = piège. Décès prêteur = héritiers peuvent réclamer. Conflit fraternel garanti. (2) **Pas de déclaration 2062** : amende + risque requalification donation. (3) **Pas de remboursement effectif** : virement bancaire mensuel CRUCIAL pour prouver effectivité prêt. Liquide refusé. (4) **Pas de durée précise** : 'on verra plus tard' = administration considère donation. (5) **Annulation tacite à la mort** : si prêt 'pardonné' à la mort prêteur, intégré succession comme donation rapportable. (6) **Conflit fraternel** : si parents prêtent 100 k€ à 1 enfant sans contrepartie autres, conflit héritage. Anticiper avec testament. (7) **Famille en difficulté** : si prêteur (parents) connaît difficulté financière 5 ans après prêt, créance reste à rembourser. Pas d'annulation possible. (8) **Patrimoine prêteur figé** : 100 k€ prêtés = 100 k€ non disponibles pour autres projets pendant durée. (9) **Banque méfiante** : si prêt familial trop gros, banque exige plan remboursement réaliste, refuse parfois prêt principal.",
+      },
+      {
+        heading: "Le calcul honnête : excellent outil bien formalisé, piège sinon",
+        body: "Le prêt familial en France 2026 = excellent outil pour : (1) **Primo-accédant boost apport** : 20-80 k€ accélère projet par 3-7 ans. (2) **Investisseur locatif** : alternative crédit bancaire avec famille fortunée. (3) **Famille fortunée souhaitant aider sans donner** : préserve patrimoine global. **Conditions de succès** : (1) **Formalisation écrite** : acte sous seing privé minimum, notarié si >50 k€. (2) **Déclaration 2062** : obligatoire, 1 mois après prêt. (3) **Remboursement effectif** : virement bancaire mensuel/annuel régulier, traçable. (4) **Durée réaliste** : 5-15 ans selon montant. (5) **Documentation** : conserver tous virements + acte. **À éviter** : (1) Prêt oral entre proches. (2) Prêt sans plan remboursement. (3) Prêt annulé tacitement à la mort. (4) Prêt à 1 enfant sans équilibre autres héritiers. (5) Prêt incohérent (taux 0 % très long sans justification = donation déguisée). **Recommandation** : consulter notaire patrimoine si montant >100 k€ ou famille complexe (300-500 €). Évite procès succession + redressement fiscal.",
+      },
+    ],
+    relatedCities: ["lyon", "bordeaux", "nantes", "tours", "strasbourg"],
+    relatedGuides: [
+      "acheter-avant-40-ans-strategie-france-2026",
+      "meilleures-villes-primo-accedants-france-2026",
+      "pel-cel-per-financer-achat-immobilier-france-2026",
+      "sci-familiale-france-2026-montage-transmission",
+      "acheter-en-couple-non-marie-pacs-sci-indivision-2026",
+    ],
+    tags: ["prêt familial", "apport primo-accédant", "formulaire 2062", "donation déguisée", "famille immobilier", "transmission", "2026"],
+  },
+  {
+    slug: "autoconstruction-kit-maison-france-2026",
+    title: "Autoconstruction et kit maison en France 2026 — économies, risques, démarches",
+    metaTitle: "Autoconstruction kit maison 2026 : économies, permis, assurances — guide",
+    metaDesc:
+      "Autoconstruction et kit maison en France 2026 : kits bois Allemagne/Pologne, container, paille, économies vs CCMI, permis, assurances décennale.",
+    category: "budget",
+    emoji: "🔧",
+    readMinutes: 9,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "L'autoconstruction et le kit maison séduisent 4 000-7 000 projets/an en France 2026 : économies 30-50 % vs constructeur CCMI, personnalisation maximale, projet de vie. Mais c'est exigeant : 1 500-3 000 h de travail, compétences techniques, démarches complexes, risques d'erreurs. Voici la lecture honnête pour qui envisage.",
+    sections: [
+      {
+        heading: "Autoconstruction — qu'est-ce que c'est exactement",
+        body: "(1) **Autoconstruction pure** : tout réalisé par le propriétaire (terrassement, maçonnerie, charpente, électricité, plomberie, finitions). Très exigeant. (2) **Autoconstruction partielle** : propriétaire fait certains corps de métier (finitions, isolation, peinture), entreprises pour autres (terrassement, charpente, électricité). Le plus courant 80 % cas. (3) **Kit maison** : éléments pré-fabriqués livrés sur site, propriétaire monte (avec amis/famille). Standardisation forte, moins de personnalisation. (4) **Maison container** : container maritime aménagé. Niche émergente. Prix accessible mais isolation à soigner. (5) **Maison paille** : isolation paille, technique ancienne réhabilitée. Excellent thermique. (6) **Construction bois** : ossature ou madrier, souvent kits Allemagne/Pologne/Canada. (7) **Hybride** : maître d'ouvrage + entreprises sous-contractées. Coordination propriétaire. (8) **Volumes 2026** : ~6 000 projets autoconstruction et 4 000 kits maison/an.",
+      },
+      {
+        heading: "Économies vs construction classique",
+        body: "Comparatif coût/m² 2026, maison 100 m² hors terrain : (1) **CCMI standard constructeur** : 1 800-2 200 €/m² = 180-220 k€. (2) **Maître d'œuvre + entreprises** : 2 200-2 800 €/m² = 220-280 k€. (3) **Autoconstruction partielle** (50 % travaux propriétaire) : 1 100-1 500 €/m² = 110-150 k€. **Économie 35-45 %**. (4) **Autoconstruction complète** : 800-1 200 €/m² = 80-120 k€. **Économie 50-60 %**. (5) **Kit maison bois (Allemagne, Pologne, Canada)** : 1 200-1 600 €/m² = 120-160 k€ tout compris (montage propriétaire + amis). (6) **Maison container** : 600-1 200 €/m² = 60-120 k€ pour 100 m². (7) **Maison paille** : 1 000-1 500 €/m² = 100-150 k€. (8) **Économie réelle** : -50 à -120 k€ vs CCMI standard. Mais : 1 500-3 000 h travail propriétaire (équivalent 1-2 ans temps plein partiel).",
+      },
+      {
+        heading: "Démarches et permis",
+        body: "(1) **Achat terrain constructible** : standard. PLU, certificat urbanisme, vérifications classiques. (2) **Permis de construire** : obligatoire >150 m² (architecte) ou >40 m² (déclaration préalable). (3) **Architecte obligatoire** : surface plancher >150 m². Coût 8-12 % du projet pour maîtrise œuvre. (4) **Plans dépôt mairie** : 8 dossiers complets PC, délai 2-4 mois traitement. (5) **DAACT (Déclaration Attestant l'Achèvement et la Conformité Travaux)** : à déposer en fin de chantier. (6) **Étude de sol G2** : obligatoire depuis 2020 (zones argileuses). 1 500-3 000 €. (7) **Étude thermique RE2020** : obligatoire neuf. 800-1 500 €. (8) **Raccordements** : eau, électricité, télécom, assainissement. 5 000-25 000 € selon distance. (9) **Conformité électrique** : Consuel obligatoire (200-300 €). (10) **Conformité gaz** : QualigazPro (150-250 €).",
+      },
+      {
+        heading: "Assurances obligatoires",
+        body: "(1) **Dommages-ouvrage** : assurance obligatoire pour autoconstruction. 4 500-9 000 € pour maison 100 m². CRITIQUE. (2) **Refus dommages-ouvrage fréquent** : assureurs refusent souvent autoconstruction pure (risque excessif). Quelques compagnies acceptent : MAAF, Generali, Allianz selon dossier. (3) **Sans dommages-ouvrage** : interdiction de vendre dans les 10 ans (loi 1978). Vente bloquée. (4) **Garantie décennale** : 10 ans sur gros œuvre. Couvre malfaçons. Propriétaire autoconstructeur ne peut pas signer décennale lui-même. (5) **Solution kit maison** : fournisseur kit certifie certains éléments (charpente, ossature) avec décennale partielle. (6) **Stratégie courante** : faire intervenir entreprises pour gros œuvre (couvert décennale) + autoconstruire finitions. Cumul DO + décennale entreprises. (7) **Assurance multi-risques habitation** : standard. 500-1 000 €/an pour autoconstruite.",
+      },
+      {
+        heading: "Compétences requises",
+        body: "(1) **Niveau débutant motivé** : peut faire 30-40 % des travaux (peinture, isolation, sols, jardinage). Économie modeste 15-25 %. (2) **Niveau intermédiaire** (bricoleur expérimenté) : 50-60 % travaux. Économie 30-40 %. (3) **Niveau professionnel** (ancien artisan, formation longue) : 80-100 % travaux. Économie 50 %+. (4) **Formations utiles** : (a) Stage 'autoconstruction' Twiza, EcoCentre, Castor en Réseau (200-800 €). (b) Ouvrages techniques (Brico Foule, Lierre). (c) Forums spécialisés (forum-construire.com). (5) **Compétences à maîtriser** : maçonnerie de base, charpente bois, plomberie pour eau chaude/froide, électricité basse tension, isolation, finitions. (6) **Aide réseau** : associations 'Castor en Réseau', 'Twiza' organisent chantiers entraide. (7) **Tutoriels YouTube** : utiles pour 80 % travaux courants. Pas suffisant pour techniques spéciales.",
+      },
+      {
+        heading: "Kit maison — bonnes adresses 2026",
+        body: "(1) **Honka (Finlande)** : kits madrier bois, qualité scandinave. 1 300-1 700 €/m². (2) **Polonais (Marlin Pologne, Pochodne)** : ossature bois économique. 1 100-1 400 €/m². (3) **Allemand (Hanse Haus, Schwörer)** : maisons préfabriquées qualité. 1 400-1 800 €/m². (4) **Canadien (Maisons Confortex)** : ossature bois nord-américaine. 1 300-1 600 €/m². (5) **Français bois (Maison Lartigue, Bonne Pioche)** : ossature locale. 1 500-1 900 €/m². (6) **Container (Eco-Box, Cubeco, Containerville)** : aménagement container maritime. 800-1 400 €/m². (7) **Paille (Twiza Bâti)** : kits maison paille + architecte. 1 200-1 600 €/m². (8) **Critères choix kit** : (a) Conformité RE2020 obligatoire. (b) Décennale partielle fournie. (c) Garantie achèvement. (d) Service après-vente local. (e) Livraison France assurée. (f) Aide installation incluse ou non. (9) **Visiter modèles** : tous fournisseurs ont showrooms. Visiter physiquement avant achat.",
+      },
+      {
+        heading: "Profils pour qui ça marche",
+        body: "(1) **Couple bricoleurs expérimentés** : couple 35-50 ans avec compétences techniques, capital, temps. Top profil. (2) **Reconversion professionnelle** : ancien artisan ou cadre démissionnant pour projet construction. Compétences + motivation. (3) **Famille avec retraités actifs** : aide grands-parents/parents capables = main d'œuvre supplémentaire. (4) **Couple télétravail + projet 2-3 ans** : 50 % autoconstruction + emploi flexible = combinaison gagnante. (5) **Profil écologique fort** : maison paille + récupération eau + autonomie énergétique = projet cohérent valeurs. (6) **Communauté Castor en Réseau** : projets collectifs avec entraide. **Mauvais profil** : (1) Couple sans aucune expérience technique. (2) Famille avec très jeunes enfants. (3) Profil pressé. (4) Sans aide externe possible. (5) Profil santé fragile.",
+      },
+      {
+        heading: "Pièges classiques autoconstruction",
+        body: "(1) **Sous-estimer durée** : 1 500-3 000 h moyennes. 18-36 mois projet. Sous-estimation = burn-out + projet abandonné. (2) **Sous-estimer budget** : 30-50 % de dépassement fréquent. Garder réserve 30 %. (3) **Pas de dommages-ouvrage** : interdiction revente 10 ans. Pénalisant si déménagement nécessaire. (4) **Échec relations couple** : 60 % couples autoconstructeurs vivent tension significative. Projet long stresse. (5) **Compétences insuffisantes** : malfaçons électriques/plomberie = problèmes sécurité long terme. Faire vérifier par pro. (6) **Approvisionnement matériaux** : ruptures stock fréquentes 2022+, livraisons retardées. Anticiper. (7) **Météo** : pluies/froid = chantier ralenti. Prévoir bâche, hangar. (8) **Saisonnalité** : commencer printemps optimal, terminer avant hiver. Plus de 2 hivers en chantier = problèmes. (9) **Voisinage** : chantier bruyant + boue = relations voisinage compliquées. (10) **Vol matériel** : sites isolés = vol outils/matériaux. Sécurité + assurance vol.",
+      },
+      {
+        heading: "Le calcul honnête : autoconstruction = projet de vie, pas opération économique seule",
+        body: "L'autoconstruction et le kit maison en France 2026 = projets exigeants pour profils alignés : (1) **Économie 30-50 %** vs CCMI réelle mais contre 1 500-3 000 h travail (équivalent 1-2 ans temps plein partiel). Rentabilité horaire = 30-50 €/h équivalent. Pas mirobolant. (2) **Vrai bénéfice** : personnalisation maximale + ancrage projet de vie + apprentissage technique + autonomie. Le 'pourquoi' compte autant que le 'combien'. **Bon profil** : (a) Couple 35-50 ans bricoleur + capital tampon + temps. (b) Reconversion professionnelle. (c) Profil écologique avec vision long terme 20-30 ans. (d) Famille avec aide réseau (parents, retraités). **À éviter** : (1) Tentation économie pure sans capacité technique. (2) Couple sans alignement projet (l'un veut, l'autre subit). (3) Profil pressé. (4) Projet sans dommages-ouvrage (bloque revente). (5) Sans réseau d'aide. **Sweet spot 2026** : autoconstruction partielle 50 % (gros œuvre entreprises, finitions propriétaire) + kit maison bois moyen-haut de gamme = équilibre risque/économie. Budget cible : 130-170 k€ pour 100 m² qualité.",
+      },
+    ],
+    relatedCities: ["rennes", "nantes", "limoges", "aurillac", "rodez"],
+    relatedGuides: [
+      "construire-sa-maison-france-2026-ou-comment-prix",
+      "acheter-grange-a-renover-france-2026",
+      "acheter-maison-a-renover-france-2026-vrai-cout",
+      "habitat-participatif-coliving-france-2026",
+      "quitter-teletravail-pour-rural-france-2026-risques-opportunites",
+    ],
+    tags: ["autoconstruction", "kit maison", "construction bois", "maison container", "maison paille", "dommages-ouvrage", "CCMI", "économies", "2026"],
+  },
+  {
+    slug: "scpi-dans-assurance-vie-france-2026",
+    title: "Les SCPI dans une assurance-vie en 2026 — mécanisme, fiscalité, rendement",
+    metaTitle: "SCPI assurance-vie 2026 : fiscalité avantageuse, rendement — guide",
+    metaDesc:
+      "SCPI dans assurance-vie en France 2026 : mécanisme, fiscalité avantageuse vs détention directe, rendement net, choix UC, top contrats, sortie 8 ans.",
+    category: "budget",
+    emoji: "📈",
+    readMinutes: 9,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "Détenir des parts de SCPI dans une assurance-vie en 2026 combine deux outils puissants : exposition immobilière + fiscalité avantageuse de l'assurance-vie. Méconnu (15 % des détenteurs SCPI utilisent cette enveloppe), c'est pourtant souvent l'optimum patrimonial pour patrimoines 50 k€-500 k€. Voici la lecture honnête.",
+    sections: [
+      {
+        heading: "Le mécanisme — SCPI en assurance-vie",
+        body: "(1) **Principe** : assurance-vie multi-supports (fonds euros + Unités de Compte). Une partie des UC = parts de SCPI logées dans le contrat. (2) **Vous ne détenez pas la SCPI directement** : c'est l'assureur. Vous détenez des UC (Unités de Compte) correspondant à la valeur des parts SCPI. (3) **Cotation** : valeur des UC SCPI suit la valeur des parts SCPI. Revente liquide via assurance-vie (1-30 jours selon contrat). (4) **Loyers redistribués** : reversés directement dans le contrat assurance-vie. Pas perçus en cash personnellement. (5) **Liste SCPI disponibles** : varie selon contrat. Contrats les mieux fournis : Linxea Avenir 2, Spirit 2, Boursorama Excellence, Yomoni Vie. 10-30 SCPI typique. (6) **Versement initial** : 5 000-30 000 € minimum selon contrat. Versements complémentaires possibles. (7) **Diversification possible** : SCPI bureaux + résidentielles + santé + commerces + européennes dans un seul contrat.",
+      },
+      {
+        heading: "Avantage 1 — Fiscalité revenus",
+        body: "(1) **Détention directe SCPI** : revenus imposés à TMI + 17,2 % PS. Total 30-47 % selon TMI. (2) **Assurance-vie SCPI** : revenus accumulés en franchise totale tant qu'aucun retrait. Croissance composée intégrale. (3) **Au moment du retrait** : (a) Si <8 ans contrat : flat tax 30 % sur gains uniquement (pas sur capital). (b) Si >8 ans contrat : (i) Abattement 4 600 € (célibataire) ou 9 200 € (couple)/an. (ii) Au-delà : 7,5 % IR + 17,2 % PS = 24,7 % sur gains. (4) **Différentiel** : TMI 41 % détention directe vs 24,7 % en assurance-vie >8 ans = économie 16 points sur gains. (5) **Cas concret** : SCPI Corum XL distribuant 5 %/an. 100 k€ placés. (a) Détention directe TMI 41 % : revenus 5 000 €/an, fiscalité 2 360 € = 4,7 % net. (b) Assurance-vie 8 ans : reportés cumulés 50 000 € sur 8 ans, retrait fiscalité 0 € (sous abattement annuel). Net cumulé +30 % vs détention directe.",
+      },
+      {
+        heading: "Avantage 2 — Transmission",
+        body: "(1) **Assurance-vie hors succession** : versement avant 70 ans = 152 500 € exonérés par bénéficiaire (clause bénéficiaire). (2) **Au-delà 152 500 €** : 20 % imposition jusqu'à 700 k€/bénéficiaire, 31,25 % au-delà. (3) **Versement après 70 ans** : abattement réduit 30 500 € total tous bénéficiaires confondus. (4) **Détention directe SCPI** : intégrée succession classique, droits successoraux normaux (15-45 % selon lien parenté). (5) **Économie transmission** : pour 300 k€ SCPI à 2 enfants (150 k€ chacun) : (a) Assurance-vie : 0 € droits (sous abattement 152 500 €). (b) Détention directe : ~15-25 % = 22-37 k€/enfant. Économie 44-74 k€. (6) **Clause bénéficiaire** : personnalisable (conjoint, enfants, tiers). Optimisation patrimoniale.",
+      },
+      {
+        heading: "Avantage 3 — Liquidité et gestion",
+        body: "(1) **Détention directe SCPI** : revente parts via société de gestion. Délai 5-30 jours en marché normal. Frais cession 0-2 %. Risque illiquidité en crise (2020 Covid, 2023 crise bureaux). (2) **Assurance-vie SCPI** : revente UC contre euros via contrat. Délai 1-15 jours typique. Frais 0 % la plupart contrats. (3) **Arbitrage facile** : vendre 30 % SCPI bureaux, racheter 30 % SCPI santé = gratuit dans assurance-vie. Vs ventes directes successives. (4) **Versements complémentaires** : 100-500 € possibles mensuels. Vs achat parts SCPI directes par tranches plus grandes (5-10 k€ minimum souvent). (5) **Diversification immédiate** : 10 SCPI dans un seul contrat = portfolio diversifié pour 30-50 k€. Vs directement = chaque SCPI 5-15 k€ minimum séparément. (6) **Gestion centralisée** : 1 relevé mensuel pour tout patrimoine vs N relevés SCPI directes.",
+      },
+      {
+        heading: "Inconvénients SCPI assurance-vie",
+        body: "(1) **Décote des loyers** : assureur garde 5-15 % des loyers reçus (rémunération gestion). Rendement SCPI assurance-vie souvent -0,3 à -0,8 % vs détention directe. (2) **Choix limité** : 10-30 SCPI dans un contrat, vs 200+ SCPI accessibles en direct. Marché moins large. (3) **Frais contrat** : 0,5-1 %/an sur encours assurance-vie. Vs frais SCPI directe : 8-12 % entrée + 8-12 % gestion sur loyers (incluses dans rendement annoncé). (4) **Frais entrée UC SCPI** : 2-4 % typique (vs 8-12 % détention directe). Avantage. (5) **Pas d'effet levier crédit** : impossible d'emprunter pour acheter SCPI en assurance-vie. Vs détention directe avec crédit = ROE boosté. (6) **Risque assureur** : faillite improbable mais théoriquement possible. FGAP garantit jusqu'à 70 k€/personne en cas faillite. (7) **Sortie 8 ans recommandée** : ouvrir contrat dès 30 ans pour maximiser bénéfice fiscal.",
+      },
+      {
+        heading: "Top contrats SCPI assurance-vie 2026",
+        body: "(1) **Linxea Avenir 2** : 30+ SCPI accessibles, frais 0 % entrée UC, frais 0,5 %/an. Excellente offre. (2) **Spirit 2 (Spirica)** : 20+ SCPI, frais compétitifs, choix premium. (3) **Boursorama Vie / Excellence** : sélection SCPI, frais bas, accessibilité. (4) **Yomoni Vie** : 15 SCPI, gestion pilotée, frais très bas. (5) **Mes Placements Liberté** : large choix, frais 0,6 %. (6) **Linxea Spirit 2** : SCPI européennes + Pays-Bas + Allemagne, sélection internationale. (7) **Critères choix contrat** : (a) Diversité SCPI proposées (>15 idéal). (b) Frais entrée UC ≤2 %. (c) Frais gestion ≤0,8 %/an. (d) Versement minimum accessible (≤5 000 €). (e) Plate-forme digitale ergonomique. (f) Service client réactif. (g) Stabilité assureur (CNP, Generali, Spirica = top).",
+      },
+      {
+        heading: "Choix SCPI dans assurance-vie 2026",
+        body: "(1) **SCPI françaises résidentielles** : Iroko Zen, Activimmo, Coeur de Régions. Rendement 4,5-5,5 %, locataires diversifiés. (2) **SCPI françaises bureaux** : Edissimmo, Selectinvest 1. Rendement 4-5 %. Attention crise 2023+ télétravail. (3) **SCPI françaises santé** : Pierval Santé, Primovie. Rendement 4,5-5,5 %. Vieillissement = thématique solide. (4) **SCPI européennes Allemagne** : Eurovalys, Corum XL. Rendement 5-6 %. Fiscalité avantageuse (convention France-Allemagne). (5) **SCPI européennes Pays-Bas** : Corum Origin. Rendement 5,5-6,5 %. (6) **SCPI commerce/logistique** : Activimmo, Pierre Capitale. Rendement 5-5,5 %. (7) **Diversification recommandée** : portfolio 5-8 SCPI réparties France 50 % + Allemagne 30 % + Pays-Bas 20 %. Différents secteurs. (8) **Éviter** : SCPI spéculatives, SCPI à frais excessifs (>12 %), SCPI petites (<200 M€ encours) volatiles.",
+      },
+      {
+        heading: "Cas concret — Investisseur 35 ans construit patrimoine 20 ans",
+        body: "Marc, 35 ans, salaire 4 500 €/mois. Veut construire patrimoine immobilier passif. (1) **Stratégie** : ouverture assurance-vie SCPI Linxea Avenir 2 avec 10 000 € initial + versements 250 €/mois sur 20 ans. (2) **Répartition** : 5 SCPI françaises 40 % + 3 SCPI européennes 40 % + 2 SCPI santé 20 %. (3) **Versements cumulés** : 10 000 + 250 × 12 × 20 = 70 000 € sur 20 ans. (4) **Rendement moyen pondéré** : 5 %/an net contrat. (5) **Capital après 20 ans** : 70 000 € versés + intérêts composés = ~135 000 €. (6) **Si Marc retire à 55 ans (contrat 20 ans)** : abattement 4 600 €/an + fiscalité 24,7 % sur excédent. Imposition cumulée ~3-5 k€. **Vs SCPI directe** : imposition annuelle TMI 30 % sur 4 600 € moyen = 1 380 €/an × 20 = 27 600 € imposition. **Différentiel** : 22-24 k€ d'économie fiscale grâce à assurance-vie. (7) **Marc retire** : peut racheter partiellement (capital + intérêts) ou en rente, ou laisser au profit héritiers. Flexibilité maximale.",
+      },
+      {
+        heading: "Pièges classiques",
+        body: "(1) **Frais d'entrée contrat assurance-vie** : 3-5 % typique. Préférer contrats à 0 % d'entrée (Linxea, Boursorama, Yomoni). (2) **Frais SCPI sur encours** : 0,5-1 %/an. Comparer entre contrats. (3) **Choisir SCPI bureaux** : crise post-télétravail 2023+ a fait chuter valeur. Préférer résidentielles ou santé. (4) **Versement après 70 ans** : abattement transmission réduit à 30 500 € total. Privilégier versements avant 70 ans. (5) **Mauvais bénéficiaire désigné** : clause bénéficiaire 'mes héritiers' = succession classique = perdre avantage. Désigner enfants/conjoint nommément. (6) **Pas attendre 8 ans** : retrait <8 ans = flat tax 30 % sur gains. Attendre 8 ans pour bénéficier abattement 4 600 €/an. (7) **Concentrer sur 1 SCPI** : diversification nécessaire. 5-8 SCPI minimum. (8) **Retrait massif** : si retrait 50 k€ sur contrat 100 k€, fiscalité importante. Préférer retraits annuels < abattement 4 600 €. (9) **Contrat assureur fragile** : préférer CNP, Generali, Spirica (>50 milliards d'encours) vs petits assureurs.",
+      },
+      {
+        heading: "Le calcul honnête : optimum patrimoines 50 k€-500 k€",
+        body: "SCPI dans assurance-vie en France 2026 = optimum patrimonial pour profils : (1) **Patrimoine 50 k€-500 k€** : économies fiscales significatives (15-25 % cumulées sur 8-20 ans). (2) **TMI ≥30 %** : différentiel fiscalité vs détention directe maximal. (3) **Horizon 8+ ans** : nécessaire pour bénéficier abattement annuel 4 600 €. (4) **Objectif transmission** : assurance-vie hors succession = optimisation 152 500 €/bénéficiaire. (5) **Profil 'passif'** : pas d'effet levier crédit mais simplicité maximale. **Quand préférer détention directe SCPI** : (1) Patrimoine >500 k€ + envie effet levier crédit. (2) Choix précis SCPI niches (pas dans contrats assurance-vie standard). (3) Optimisation déficit foncier (impossible en assurance-vie). (4) Patrimoine immobilier diversifié déjà constitué. **Recommandation 2026** : (a) **Profil 30-50 ans construction patrimoine** : SCPI en assurance-vie = top option. (b) **Profil 50-65 ans optimisation transmission** : SCPI assurance-vie + clause bénéficiaire optimisée. (c) **Profil 25-30 ans** : ouvrir assurance-vie tôt (date d'ouverture compte pour 8 ans), petits versements 100-200 €/mois. (d) **Profil patrimoine 1 M€+** : mix détention directe + assurance-vie + SCI. **Top contrats 2026** : Linxea Avenir 2, Spirit 2, Yomoni Vie.",
+      },
+    ],
+    relatedCities: ["lyon", "bordeaux", "nantes", "lille", "toulouse"],
+    relatedGuides: [
+      "scpi-vs-locatif-direct-france-2026-quel-choix",
+      "investir-lmnp-par-ville-france-2026",
+      "pel-cel-per-financer-achat-immobilier-france-2026",
+      "sci-familiale-france-2026-montage-transmission",
+      "acheter-immobilier-apres-50-ans-strategie-france-2026",
+    ],
+    tags: ["SCPI", "assurance-vie", "fiscalité immobilière", "unités de compte", "Linxea", "Spirica", "transmission patrimoine", "152500€", "2026"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
