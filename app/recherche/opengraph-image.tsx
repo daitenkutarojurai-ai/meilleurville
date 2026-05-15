@@ -24,7 +24,7 @@ export default function Image() {
             <div style={{ width: "32px", height: "32px", background: "#7c6af0", borderRadius: "8px", display: "flex", alignItems: "center", justifyContent: "center", color: "white", fontSize: "18px", fontWeight: 900 }}>M</div>
             <span style={{ color: "#7c6af0", fontSize: "20px", fontWeight: 700 }}>MeilleurVille</span>
           </div>
-          <div style={{ background: "#161b22", border: "1px solid #30363d", borderRadius: "8px", padding: "6px 14px", color: "#8b949e", fontSize: "14px" }}>meilleurville.fr/recherche</div>
+          <div style={{ background: "#161b22", border: "1px solid #30363d", borderRadius: "8px", padding: "6px 14px", color: "#8b949e", fontSize: "14px" }}>mavilleideale.fr/recherche</div>
         </div>
 
         <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>

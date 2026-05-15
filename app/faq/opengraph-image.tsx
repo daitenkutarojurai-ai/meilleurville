@@ -59,7 +59,7 @@ export default function Image() {
               fontSize: "14px",
             }}
           >
-            meilleurville.fr/faq
+            mavilleideale.fr/faq
           </div>
         </div>
 

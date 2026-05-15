@@ -79,7 +79,7 @@ export default async function Image({ params }: Props) {
               fontSize: "14px",
             }}
           >
-            meilleurville.fr
+            mavilleideale.fr
           </div>
         </div>
 

@@ -1,7 +1,7 @@
 import { GUIDES, GUIDE_CATEGORIES } from "@/data/guides";
 
 const SITE_URL =
-  process.env.NEXT_PUBLIC_BASE_URL ?? "https://meilleurville.fr";
+  process.env.NEXT_PUBLIC_BASE_URL ?? "https://mavilleideale.fr";
 
 function escapeXml(s: string): string {
   return s

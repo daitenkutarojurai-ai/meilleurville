@@ -6,7 +6,7 @@ interface Props {
   items: Crumb[];
 }
 
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://meilleurville.fr";
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://mavilleideale.fr";
 
 /**
  * Visible breadcrumb trail + embedded BreadcrumbList JSON-LD. Drop into any

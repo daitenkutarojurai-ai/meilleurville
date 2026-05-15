@@ -1,11 +1,14 @@
 import { MetadataRoute } from "next";
 
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://meilleurville.fr";
+const DEFAULT_LOCALE = (process.env.NEXT_PUBLIC_DEFAULT_LOCALE ?? "fr") as "fr" | "en";
+const FR_URL = process.env.NEXT_PUBLIC_BASE_URL_FR ?? "https://mavilleideale.fr";
+const EN_URL = process.env.NEXT_PUBLIC_BASE_URL_EN ?? "https://bestcitiesinfrance.com";
+const BASE_URL =
+  process.env.NEXT_PUBLIC_BASE_URL ?? (DEFAULT_LOCALE === "en" ? EN_URL : FR_URL);
 
-// Keep in sync with SITEMAP_CHUNKS in app/sitemap.ts.
-// The values here are the chunk indexes (0..N-1), one per generated
-// sitemap file: /sitemap/0.xml ... /sitemap/8.xml.
-const SITEMAP_INDEXES = [0, 1, 2, 3, 4, 5, 6, 7, 8];
+// Keep in sync with SITEMAP_CHUNKS in app/sitemap.ts (FR: 10 chunks, EN: 3).
+const CHUNK_COUNT = DEFAULT_LOCALE === "en" ? 3 : 10;
+const SITEMAP_INDEXES = Array.from({ length: CHUNK_COUNT }, (_, i) => i);
 
 export default function robots(): MetadataRoute.Robots {
   return {

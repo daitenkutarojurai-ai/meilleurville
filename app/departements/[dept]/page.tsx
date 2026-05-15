@@ -102,7 +102,7 @@ export default async function DeptPage({ params }: Props) {
     culture: "la vie culturelle",
   };
 
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL ?? "https://meilleurville.fr";
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL ?? "https://mavilleideale.fr";
   const jsonLd = {
     "@context": "https://schema.org",
     "@graph": [

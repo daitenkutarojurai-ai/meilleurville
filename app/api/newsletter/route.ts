@@ -16,7 +16,7 @@ export async function POST(req: NextRequest) {
 
     // In production: persist to DB + trigger Resend welcome email
     // const resend = new Resend(process.env.RESEND_API_KEY);
-    // await resend.emails.send({ from: "bonjour@meilleurville.fr", to: data.data.email, ... })
+    // await resend.emails.send({ from: "bonjour@mavilleideale.fr", to: data.data.email, ... })
 
     return NextResponse.json({ success: true });
   } catch {

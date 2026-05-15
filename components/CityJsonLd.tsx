@@ -10,7 +10,7 @@ function qualityLabel(score: number): string {
 }
 
 export function CityJsonLd({ city }: { city: CitySeed & { reviewCount?: number } }) {
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL ?? "https://meilleurville.fr";
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL ?? "https://mavilleideale.fr";
   const housing = getHousing(city.slug);
 
   const faqItems = [

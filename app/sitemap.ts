@@ -3,9 +3,18 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { RANKING_META } from "@/lib/rankings";
 import { GUIDES } from "@/data/guides";
 import { SEO_PAIRS } from "@/lib/comparer-pairs";
+import { SEO_TRIPLETS } from "@/lib/comparer-triplets";
 import { TAG_SLUGS } from "@/lib/guide-tags";
 
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://meilleurville.fr";
+// Locale-aware sitemap. Each Vercel project sets NEXT_PUBLIC_DEFAULT_LOCALE and
+// (optionally) NEXT_PUBLIC_BASE_URL — the FR project emits FR URLs at
+// mavilleideale.fr, the EN project emits EN URLs at bestcitiesinfrance.com.
+const DEFAULT_LOCALE = (process.env.NEXT_PUBLIC_DEFAULT_LOCALE ?? "fr") as "fr" | "en";
+const FR_URL = process.env.NEXT_PUBLIC_BASE_URL_FR ?? "https://mavilleideale.fr";
+const EN_URL = process.env.NEXT_PUBLIC_BASE_URL_EN ?? "https://bestcitiesinfrance.com";
+const BASE_URL =
+  process.env.NEXT_PUBLIC_BASE_URL ?? (DEFAULT_LOCALE === "en" ? EN_URL : FR_URL);
+const IS_EN = DEFAULT_LOCALE === "en";
 
 // Honest lastModified values per content family.
 // Bump these when the underlying source actually changes.
@@ -14,9 +23,10 @@ const RANKING_UPDATED = new Date("2026-05-12");
 const STATIC_UPDATED = new Date("2026-05-12");
 const LEGAL_UPDATED = new Date("2025-04-01"); // cgu/confidentialite/mentions-legales
 
-// Order MUST stay stable — the sitemap chunk URL is /sitemap/<index>.xml,
+// Order MUST stay stable per locale — the sitemap chunk URL is /sitemap/<index>.xml,
 // and that URL is what's listed in robots.txt + (eventually) Search Console.
-const SITEMAP_CHUNKS = [
+// EN chunk list is a strict subset (no guides, no per-city sub-pages yet).
+const SITEMAP_CHUNKS_FR = [
   "static",
   "guides",
   "cities",
@@ -29,7 +39,15 @@ const SITEMAP_CHUNKS = [
   "red-flags",
 ] as const;
 
-type Chunk = (typeof SITEMAP_CHUNKS)[number];
+const SITEMAP_CHUNKS_EN = [
+  "en-static",
+  "en-cities",
+  "en-rankings",
+] as const;
+
+const SITEMAP_CHUNKS = IS_EN ? SITEMAP_CHUNKS_EN : SITEMAP_CHUNKS_FR;
+
+type Chunk = (typeof SITEMAP_CHUNKS_FR)[number] | (typeof SITEMAP_CHUNKS_EN)[number];
 
 export async function generateSitemaps() {
   return SITEMAP_CHUNKS.map((_, id) => ({ id }));
@@ -139,12 +157,20 @@ function citySubSection(): MetadataRoute.Sitemap {
 }
 
 function comparerSection(): MetadataRoute.Sitemap {
-  return SEO_PAIRS.map(([a, b]) => ({
-    url: `${BASE_URL}/comparer/${a}-vs-${b}`,
-    lastModified: CITY_DATA_UPDATED,
-    changeFrequency: "monthly",
-    priority: 0.6,
-  }));
+  return [
+    ...SEO_PAIRS.map(([a, b]) => ({
+      url: `${BASE_URL}/comparer/${a}-vs-${b}`,
+      lastModified: CITY_DATA_UPDATED,
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
+    })),
+    ...SEO_TRIPLETS.map(([a, b, c]) => ({
+      url: `${BASE_URL}/comparer/${a}-vs-${b}-vs-${c}`,
+      lastModified: CITY_DATA_UPDATED,
+      changeFrequency: "monthly" as const,
+      priority: 0.55,
+    })),
+  ];
 }
 
 function classementsSection(): MetadataRoute.Sitemap {
@@ -205,6 +231,37 @@ function departementsSection(): MetadataRoute.Sitemap {
   ]);
 }
 
+// ----- EN sitemap sections -----
+// Mirrors the EN app/[locale]/ tree. Only routes that actually exist on the EN
+// build are emitted, so Google never sees a 404 from the sitemap.
+
+function enStaticSection(): MetadataRoute.Sitemap {
+  return [
+    { url: `${BASE_URL}/`, lastModified: STATIC_UPDATED, changeFrequency: "daily", priority: 1.0 },
+    { url: `${BASE_URL}/cities`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.8 },
+    { url: `${BASE_URL}/rankings`, lastModified: RANKING_UPDATED, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${BASE_URL}/quiz`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.8 },
+  ];
+}
+
+function enCitySection(): MetadataRoute.Sitemap {
+  return CITIES_SEED.map((city) => ({
+    url: `${BASE_URL}/cities/${city.slug}`,
+    lastModified: CITY_DATA_UPDATED,
+    changeFrequency: "weekly",
+    priority: 0.7,
+  }));
+}
+
+function enRankingsSection(): MetadataRoute.Sitemap {
+  return Object.keys(RANKING_META).map((slug) => ({
+    url: `${BASE_URL}/rankings/${slug}`,
+    lastModified: RANKING_UPDATED,
+    changeFrequency: "weekly",
+    priority: 0.8,
+  }));
+}
+
 // Next 16 passes `id` as Promise<string>. See:
 // node_modules/next/dist/docs/01-app/03-api-reference/04-functions/generate-sitemaps.md
 export default async function sitemap({ id }: { id: Promise<string> }): Promise<MetadataRoute.Sitemap> {
@@ -220,6 +277,9 @@ export default async function sitemap({ id }: { id: Promise<string> }): Promise<
     case "departements": return departementsSection();
     case "tags": return tagsSection();
     case "red-flags": return redFlagsSection();
+    case "en-static": return enStaticSection();
+    case "en-cities": return enCitySection();
+    case "en-rankings": return enRankingsSection();
     default: return [];
   }
 }

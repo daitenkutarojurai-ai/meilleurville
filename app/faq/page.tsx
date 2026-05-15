@@ -46,7 +46,7 @@ const FAQ_SECTIONS = [
       },
       {
         q: "Puis-je modifier ou supprimer mon avis ?",
-        a: "Oui. Connectez-vous à votre compte, accédez à votre tableau de bord, et vous pouvez modifier ou supprimer vos avis. Les avis supprimés sont retirés sous 24h. Si vous n'avez plus accès à votre compte, contactez hello@meilleurville.fr.",
+        a: "Oui. Connectez-vous à votre compte, accédez à votre tableau de bord, et vous pouvez modifier ou supprimer vos avis. Les avis supprimés sont retirés sous 24h. Si vous n'avez plus accès à votre compte, contactez hello@mavilleideale.fr.",
       },
       {
         q: "Qu'est-ce que le Red Flag Radar ?",

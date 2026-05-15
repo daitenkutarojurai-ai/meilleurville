@@ -7,9 +7,13 @@
 
 import { GUIDES } from "@/data/guides";
 
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://meilleurville.fr";
-// Must match the count of SITEMAP_CHUNKS in app/sitemap.ts
-const CHUNK_COUNT = 8;
+const DEFAULT_LOCALE = (process.env.NEXT_PUBLIC_DEFAULT_LOCALE ?? "fr") as "fr" | "en";
+const FR_URL = process.env.NEXT_PUBLIC_BASE_URL_FR ?? "https://mavilleideale.fr";
+const EN_URL = process.env.NEXT_PUBLIC_BASE_URL_EN ?? "https://bestcitiesinfrance.com";
+const BASE_URL =
+  process.env.NEXT_PUBLIC_BASE_URL ?? (DEFAULT_LOCALE === "en" ? EN_URL : FR_URL);
+// Must match the count of SITEMAP_CHUNKS in app/sitemap.ts (FR: 10, EN: 3)
+const CHUNK_COUNT = DEFAULT_LOCALE === "en" ? 3 : 10;
 
 function latestGuideUpdate(): string {
   const max = GUIDES.reduce((acc, g) => {

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 const SECTIONS = [
   {
     title: "1. Objet",
-    content: "Les présentes Conditions Générales d'Utilisation (CGU) régissent l'accès et l'utilisation du site MeilleurVille (meilleurville.fr), plateforme de comparaison des villes françaises par qualité de vie.",
+    content: "Les présentes Conditions Générales d'Utilisation (CGU) régissent l'accès et l'utilisation du site MeilleurVille (mavilleideale.fr), plateforme de comparaison des villes françaises par qualité de vie.",
   },
   {
     title: "2. Accès au service",

@@ -57,7 +57,7 @@ export default async function Image({ params }: Props) {
               fontSize: "14px",
             }}
           >
-            meilleurville.fr/tags/{slug}
+            mavilleideale.fr/tags/{slug}
           </div>
         </div>
 

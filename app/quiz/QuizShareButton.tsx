@@ -9,7 +9,7 @@ export function QuizShareButton({ results }: { results: MatchResult[] }) {
 
   const top = results[0];
   const shareText = `Mon match IA MeilleurVille : ${top?.city.name} (${Math.round(top?.score ?? 0)}% compatible) 🗺️\nTrouvez votre ville idéale →`;
-  const shareUrl = typeof window !== "undefined" ? window.location.origin + "/quiz" : "https://meilleurville.fr/quiz";
+  const shareUrl = typeof window !== "undefined" ? window.location.origin + "/quiz" : "https://mavilleideale.fr/quiz";
 
   async function copyLink() {
     await navigator.clipboard.writeText(shareUrl);

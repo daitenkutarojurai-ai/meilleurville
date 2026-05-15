@@ -64,7 +64,7 @@ export default function Image() {
               fontSize: "14px",
             }}
           >
-            meilleurville.fr/calendrier-immobilier
+            mavilleideale.fr/calendrier-immobilier
           </div>
         </div>
 

@@ -52,7 +52,7 @@ export default function Image() {
               fontSize: "14px",
             }}
           >
-            meilleurville.fr/glossaire
+            mavilleideale.fr/glossaire
           </div>
         </div>
 

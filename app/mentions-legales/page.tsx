@@ -25,7 +25,7 @@ export default function MentionsLegalesPage() {
               MeilleurVille SAS<br />
               En cours d&apos;immatriculation<br />
               France<br />
-              Email : hello@meilleurville.fr
+              Email : hello@mavilleideale.fr
             </p>
           </div>
 

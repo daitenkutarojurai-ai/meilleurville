@@ -12,14 +12,19 @@ import Link from "next/link";
 import { getHousing } from "@/data/housing";
 import { scoreColor, scoreHex } from "@/lib/utils";
 import React from "react";
+import { TripletView } from "./TripletView";
 
 type Props = { params: Promise<{ pair: string }> };
 
 // SEO_PAIRS is shared with app/sitemap.ts to avoid drift
 import { SEO_PAIRS } from "@/lib/comparer-pairs";
+import { SEO_TRIPLETS } from "@/lib/comparer-triplets";
 
 export function generateStaticParams() {
-  return SEO_PAIRS.map(([a, b]) => ({ pair: `${a}-vs-${b}` }));
+  return [
+    ...SEO_PAIRS.map(([a, b]) => ({ pair: `${a}-vs-${b}` })),
+    ...SEO_TRIPLETS.map(([a, b, c]) => ({ pair: `${a}-vs-${b}-vs-${c}` })),
+  ];
 }
 
 // Allow any city-vs-city pair beyond the curated SEO_PAIRS list to render on-demand.
@@ -28,7 +33,24 @@ export const dynamicParams = true;
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { pair } = await params;
-  const [slugA, slugB] = pair.split("-vs-");
+  const parts = pair.split("-vs-");
+
+  if (parts.length === 3) {
+    const cities = parts.map((s) => CITIES_SEED.find((c) => c.slug === s));
+    if (cities.some((c) => !c)) return {};
+    const [a, b, c] = cities as NonNullable<(typeof cities)[number]>[];
+    return {
+      title: `${a.name} vs ${b.name} vs ${c.name} — Comparaison 3 villes 2026`,
+      description: `Comparaison à 3 entre ${a.name} (${a.scores.global}/10), ${b.name} (${b.scores.global}/10) et ${c.name} (${c.scores.global}/10) : coût de vie, sécurité, transport, nature, écoles. Tableau côte à côte + radar.`,
+      alternates: { canonical: `/comparer/${pair}` },
+      openGraph: {
+        title: `${a.name} vs ${b.name} vs ${c.name} — Quelle ville choisir ?`,
+        description: `Comparatif complet sur 9 critères avec verdict par profil.`,
+      },
+    };
+  }
+
+  const [slugA, slugB] = parts;
   const a = CITIES_SEED.find((c) => c.slug === slugA);
   const b = CITIES_SEED.find((c) => c.slug === slugB);
   if (!a || !b) return {};
@@ -87,6 +109,21 @@ const PROFILES: Array<{ label: string; emoji: string; keys: ScoreKey[]; desc: st
 export default async function PairPage({ params }: Props) {
   const { pair } = await params;
   const parts = pair.split("-vs-");
+
+  // 3-city dispatch — same dynamic segment, different render.
+  if (parts.length === 3) {
+    const cities = parts.map((s) => CITIES_SEED.find((c) => c.slug === s));
+    if (cities.some((c) => !c)) notFound();
+    const tripletCities = cities as NonNullable<(typeof cities)[number]>[];
+    return (
+      <>
+        <Navbar />
+        <TripletView cities={tripletCities} slug={pair} />
+        <Footer />
+      </>
+    );
+  }
+
   if (parts.length !== 2) notFound();
 
   const [slugA, slugB] = parts;
@@ -116,9 +153,9 @@ export default async function PairPage({ params }: Props) {
               {
                 "@type": "BreadcrumbList",
                 itemListElement: [
-                  { "@type": "ListItem", position: 1, name: "MeilleurVille", item: process.env.NEXT_PUBLIC_BASE_URL ?? "https://meilleurville.fr" },
-                  { "@type": "ListItem", position: 2, name: "Comparer", item: `${process.env.NEXT_PUBLIC_BASE_URL ?? "https://meilleurville.fr"}/comparer` },
-                  { "@type": "ListItem", position: 3, name: `${seedA.name} vs ${seedB.name}`, item: `${process.env.NEXT_PUBLIC_BASE_URL ?? "https://meilleurville.fr"}/comparer/${pair}` },
+                  { "@type": "ListItem", position: 1, name: "MeilleurVille", item: process.env.NEXT_PUBLIC_BASE_URL ?? "https://mavilleideale.fr" },
+                  { "@type": "ListItem", position: 2, name: "Comparer", item: `${process.env.NEXT_PUBLIC_BASE_URL ?? "https://mavilleideale.fr"}/comparer` },
+                  { "@type": "ListItem", position: 3, name: `${seedA.name} vs ${seedB.name}`, item: `${process.env.NEXT_PUBLIC_BASE_URL ?? "https://mavilleideale.fr"}/comparer/${pair}` },
                 ],
               },
               {
@@ -128,7 +165,7 @@ export default async function PairPage({ params }: Props) {
                   "@type": "ListItem",
                   position: i + 1,
                   name: c.name,
-                  url: `${process.env.NEXT_PUBLIC_BASE_URL ?? "https://meilleurville.fr"}/villes/${c.slug}`,
+                  url: `${process.env.NEXT_PUBLIC_BASE_URL ?? "https://mavilleideale.fr"}/villes/${c.slug}`,
                 })),
               },
               {

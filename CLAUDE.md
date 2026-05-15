@@ -3,9 +3,15 @@
 French city ranking & relocation guide site. 352 cities, 210 guides, 13 ranking
 categories, 18 regions (13 metropolitan + 5 DROM). Copy is **French**.
 
+A parallel **English version** (bestcitiesinfrance.com) is being scaffolded from
+the same repo / same build. See [§ Bilingual setup](#bilingual-setup-bestcitiesinfrancecom)
+below. The FR domain remains unchanged.
+
 ## Stack
 
-- **Next.js 15** (App Router, Turbopack) + **TypeScript** (strict)
+- **Next.js 16.2.4** (App Router, Turbopack) + **TypeScript** (strict). Note:
+  Next 16 deprecates the `middleware` file convention in favour of `proxy.ts`
+  (renamed for clarity; same purpose). Use `proxy.ts` in this repo.
 - Tailwind v4 with custom CSS variables (`--accent`, `--bg-canvas`, etc.)
 - **lucide-react** for icons
 - Static-first: most pages SSG via `generateStaticParams`, JSON file stores for
@@ -460,3 +466,56 @@ Beyond "Quitter X", target high-search-intent niches not yet covered:
 - "Villes universitaires avec coût de vie raisonnable"
 - "Villes étapes pour expatriés revenant en France"
 - "Villes-côtières en télétravail : qualité connexion + cadre"
+
+---
+
+## Roadmap v6 — 15 features (2026-05-15)
+
+See `ROADMAP.md` for the full breakdown. Priority order (P0):
+1. F3 — Scores propriétaires (canicule, solitude, bruit, sécurité nocturne, etc.)
+2. F4 — Red Flag pages virales
+3. F12 — Comparaison 3 villes
+4. F9 — Comparateur de régions
+5. F1 — Hidden Costs Calculator
+6. F5 — RealityCheck
+
+P1: F2, F13, F14, F15, F6, F11 — P2: F7, F8, F10.
+
+## Bilingual setup (bestcitiesinfrance.com)
+
+Same repo, same build, two Vercel projects, two domains.
+
+- `mavilleideale.fr` (env: `NEXT_PUBLIC_DEFAULT_LOCALE=fr`, default) — unchanged.
+  All FR routes stay at their existing paths (no URL prefix).
+- `bestcitiesinfrance.com` (env: `NEXT_PUBLIC_DEFAULT_LOCALE=en`) — `proxy.ts`
+  rewrites bare URLs to `/en/*` internally, so the URL bar stays clean
+  (e.g. `bestcitiesinfrance.com/cities/lyon` → renders `app/[locale]/cities/[slug]/page.tsx`
+  with `locale = "en"`).
+
+### Key files
+
+- `proxy.ts` — Next 16 rewrite. Detects locale via `NEXT_PUBLIC_DEFAULT_LOCALE`,
+  rewrites unprefixed paths to `/en/*` on the EN project, 404s `/en/*` on the FR project.
+- `lib/i18n.ts` — minimal `t(key, locale)` accessor. **No external i18n lib.**
+- `locales/fr.ts`, `locales/en.ts` — flat key→string maps for UI copy.
+- `app/[locale]/` — parallel route tree for EN. Only `locale = "en"` is generated
+  (the FR pages live at root, not under `[locale]`).
+- `data/cities-seed.ts` — added optional `descriptionEn`, `seoTitleEn`,
+  `seoDescriptionEn` fields. Populated on the first 10 cities as a pattern;
+  extend to the remaining 342 via a side translation file when ready.
+- `app/sitemap.ts` — emits a FR or EN sitemap depending on
+  `NEXT_PUBLIC_DEFAULT_LOCALE` (each Vercel project gets its own).
+- `app/layout.tsx` — emits `hreflang fr / en / x-default` on every page.
+
+### Rules
+
+- **Never break FR routes.** Existing `app/villes/[slug]/page.tsx` etc. stay as-is.
+- **No new npm dependency.** The translation system is two flat TypeScript objects
+  + a typed accessor.
+- **Stay SSG.** EN pages use the same `generateStaticParams` pattern (352 cities at build).
+- **Cross-domain canonical.** FR canonical → `mavilleideale.fr/...`,
+  EN canonical → `bestcitiesinfrance.com/...`. `hreflang` cross-links the two.
+- **Adding EN content for a 11th city.** Add `descriptionEn`, `seoTitleEn`,
+  `seoDescriptionEn` to the seed record. No other change required — the EN
+  build picks it up automatically. Cities missing EN copy fall back to a
+  generic English template generated from city stats.

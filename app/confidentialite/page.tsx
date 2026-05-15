@@ -60,7 +60,7 @@ Vous pouvez demander la suppression de vos données à tout moment.`,
 • Droit à la portabilité : recevoir vos données dans un format structuré
 • Droit d'opposition : vous opposer au traitement pour certaines finalités
 
-Pour exercer ces droits, contactez : privacy@meilleurville.fr`,
+Pour exercer ces droits, contactez : privacy@mavilleideale.fr`,
   },
   {
     title: "6. Partage avec des tiers",
@@ -76,7 +76,7 @@ Aucune donnée n'est transmise à des courtiers de données ou à des fins publi
     title: "7. Contact",
     content: `Pour toute question relative à vos données personnelles :
 
-Email : privacy@meilleurville.fr
+Email : privacy@mavilleideale.fr
 Délai de réponse : 30 jours maximum (conformément au RGPD)
 
 Vous pouvez également introduire une réclamation auprès de la CNIL (cnil.fr).`,

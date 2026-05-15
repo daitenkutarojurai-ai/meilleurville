@@ -94,8 +94,8 @@ export async function addContactMessage(
 /** Best-effort Resend forward. Returns true if sent. */
 export async function maybeForwardEmail(m: ContactMessage): Promise<boolean> {
   const apiKey = process.env.RESEND_API_KEY;
-  const to = process.env.CONTACT_TO_EMAIL ?? "hello@meilleurville.fr";
-  const from = process.env.CONTACT_FROM_EMAIL ?? "bonjour@meilleurville.fr";
+  const to = process.env.CONTACT_TO_EMAIL ?? "hello@mavilleideale.fr";
+  const from = process.env.CONTACT_FROM_EMAIL ?? "bonjour@mavilleideale.fr";
   if (!apiKey) return false;
   try {
     const res = await fetch("https://api.resend.com/emails", {

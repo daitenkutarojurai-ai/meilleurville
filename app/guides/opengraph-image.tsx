@@ -53,7 +53,7 @@ export default function Image() {
               fontSize: "14px",
             }}
           >
-            meilleurville.fr/guides
+            mavilleideale.fr/guides
           </div>
         </div>
 

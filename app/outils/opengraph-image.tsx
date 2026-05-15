@@ -61,7 +61,7 @@ export default function Image() {
               fontSize: "14px",
             }}
           >
-            meilleurville.fr/outils
+            mavilleideale.fr/outils
           </div>
         </div>
 
