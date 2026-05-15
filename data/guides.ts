@@ -14885,6 +14885,299 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["maison vs appartement", "périurbain", "centre-ville", "famille", "couple", "TCO", "qualité de vie", "2026"],
   },
+  {
+    slug: "acheter-studio-paris-2026-premier-achat-investissement",
+    title: "Acheter un studio à Paris en 2026 — primo, investissement, encadrement loyers",
+    metaTitle: "Studio Paris 2026 : primo-achat ou investissement — guide honnête",
+    metaDesc:
+      "Acheter un studio à Paris en 2026 : arrondissements par budget, encadrement loyers Paris, rentabilité réelle, primo vs LMNP. Analyse honnête.",
+    category: "budget",
+    emoji: "🗼",
+    readMinutes: 9,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "Le studio parisien reste un mythe immobilier français : ticket d'entrée à Paris, premier achat à 30 ans, ou investissement locatif avec rendement supposé élevé. La réalité 2026 est plus nuancée — marché en correction depuis 2022 (-8 % moyen), encadrement loyers strict, rentabilité brute médiocre. Voici la lecture honnête, par profil et par arrondissement.",
+    sections: [
+      {
+        heading: "État du marché studio Paris 2026",
+        body: "Prix médian studio 20-30 m² par arrondissement (2026) : (1) **3e, 4e, 6e, 7e, 8e** (cœur central) : 12 000-14 500 €/m². Studio 25 m² = 300-360 k€. (2) **1er, 2e, 9e, 16e** : 11 000-13 000 €/m². Studio 25 m² = 275-325 k€. (3) **5e, 14e, 15e, 17e** : 10 000-12 000 €/m². Studio 25 m² = 250-300 k€. (4) **10e, 11e, 12e, 18e (côté Montmartre), 20e** : 9 000-11 000 €/m². Studio 25 m² = 225-275 k€. (5) **13e, 18e Nord, 19e** : 7 500-9 500 €/m². Studio 25 m² = 190-240 k€. Tendance : -3 à -8 % vs 2022, marché en correction lente. Volumes en baisse (-25 % vs 2022). Délai de vente moyen 90-120 jours.",
+      },
+      {
+        heading: "Profil 1 — Primo-accédant 25-35 ans pour résidence principale",
+        body: "Salaire 3 200-5 500 €/mois, capacité emprunt 220-350 k€ + apport 30-50 k€. Recommandation : viser 13e, 18e nord, 19e, 20e — studios 22-30 m² à 180-250 k€, accessibilité métro, dynamique de quartier. (1) **Quartiers sweet spot** : Tolbiac (13e), Belleville (20e), Stalingrad (19e), Marx-Dormoy (18e). Ambiance authentique parisienne, cafés, marchés, vie locale. (2) **Pièges** : 6e étage sans ascenseur (revente compliquée si lieux mal aménagés), studios <18 m² (revendre uniquement à étudiant), copro vétuste avec ravalement imminent (10-20 k€ d'appel de fonds). (3) **Charges** : 80-180 €/mois copro selon immeuble. (4) **Avantage primo Paris** : actif liquide, possible revente facile si déménagement (Paris reste très liquide), exonération plus-value à la revente résidence principale.",
+      },
+      {
+        heading: "Profil 2 — Investisseur locatif LMNP",
+        body: "Achat 230-300 k€ pour rentabilité brute 3,5-5 % à Paris : (1) **Encadrement loyers Paris** : décret 2019 renforcé 2024-2025. Loyer plafond = 'loyer médian de référence majoré' fixé par arrêté annuel (~26-33 €/m² pour studios meublés selon arrondissement et époque construction). Sanctions : remboursement aux locataires, amendes 5 000-10 000 €. (2) **Rentabilité brute réelle 2026** : studio 28 m² acheté 270 k€ + 19 k€ frais = 289 k€. Loyer meublé encadrement-conforme : 850-1 050 €/mois (28 × 30-37 €). Brut = 10 200-12 600 / 289 000 = **3,5-4,4 %**. (3) **Rentabilité nette après fiscalité** (LMNP régime réel, amortissement) : 2,5-3,5 %. (4) **Vs province métropole secondaire** (Lille, Reims, Tours) : brut 5,5-6,5 %, net 4-5 %. Paris locatif n'est pas un choix rendement, c'est un choix patrimoine + plus-value long terme.",
+      },
+      {
+        heading: "Profil 3 — Pied-à-terre / résidence secondaire Paris",
+        body: "Profil province ou étranger, achat 250-400 k€ pour studio/T2 utilisé 30-80 jours/an. (1) **Avantages** : capital qui s'apprécie (Paris reste valeur refuge globale), usage personnel + visite famille/amis. (2) **Inconvénients** : (a) **THRS majorée +60 %** depuis 2024 sur résidence secondaire Paris. (b) **IFI** déclenché si patrimoine >1,3 M€. (c) **Location saisonnière encadrée** : 120 jours max/an si résidence principale (impossible si résidence secondaire stricte), encadrement Airbnb strict. (d) **Charges fixes** : 150-300 €/mois copro même inutilisé. (3) **Sweet spot pied-à-terre** : 12e (Bastille, Daumesnil), 14e (Montparnasse), 18e Montmartre. Quartiers vivants hors saison, infrastructures touristiques accessibles. (4) **Profil cible** : retraité actif province, expat international, parent enfant étudiant Paris.",
+      },
+      {
+        heading: "Arrondissements à éviter pour acheter en 2026",
+        body: "(1) **1er, 4e** : prix maximaux, marché spéculatif, peu de potentiel plus-value, vie locale touristique. (2) **8e, 16e** : foncier ultra-cher (13-15 k€/m²), pas de dynamique jeune, profil très spécifique (haut bourgeois). (3) **18e Goutte-d'Or sud, 19e nord-est** : zones en transformation lente, sécurité ressentie variable, valeur revente incertaine. (4) **6e, 7e** : prix maximaux, marché ultra-tendu, rendement locatif quasi-nul. (5) **Quartiers en chantier majeur** (Bercy-Charenton développement, Saint-Lazare nord pendant travaux) : décote pendant 5-10 ans. (6) **Studios <18 m²** : revente uniquement à étudiant, marché restreint. À 2026, la 'loi Carrez' impose surface 9 m² mini pour location habitation — studios plus petits ne se louent qu'en chambre meublée saisonnière.",
+      },
+      {
+        heading: "Quartiers sous-cotés pour primo / investissement 2026",
+        body: "(1) **13e Tolbiac/Place d'Italie** : prix accessibles (~9 000 €/m²), métro 5/6/7, BNF, Université, dynamique étudiante. (2) **20e Père-Lachaise/Gambetta** : 8 500-10 500 €/m², métro 2/3, vie de quartier, BOBO-isation en cours. (3) **18e Montmartre nord (Lamarck, Jules-Joffrin)** : 9 500-11 500 €/m², charme village, métro 12. (4) **11e Charonne/Faidherbe** : 9 500-11 500 €/m², bars, restos, jeune. (5) **12e Bercy/Daumesnil** : 9 500-11 000 €/m², bois de Vincennes, métro 1/6. (6) **15e Convention/Vaugirard** : 9 000-10 500 €/m², résidentiel, services. (7) **Banlieue proche** (Montreuil, Pantin, Saint-Ouen, Bagnolet) : 6 500-8 500 €/m², métro Grand Paris 2024-2030, alternative crédible pour primo serré.",
+      },
+      {
+        heading: "Pièges classiques à Paris 2026",
+        body: "(1) **Copropriété dégradée** : Paris a 60+ ans de bâti — ravalement imminent (10-25 k€ d'appel de fonds), toiture, plomberie commune. Demander PV des 5 dernières AG + budget prévisionnel. (2) **DPE F/G** : 15 % du parc parisien classé F-G. Interdits à la location depuis 2025 (DPE G) ou 2028 (DPE F). Décote 15-25 %. (3) **Servitudes** : vue, ensoleillement, droit de passage. Vérifier acte. (4) **Étage** : sans ascenseur, au-dessus 4e étage = -10 à -15 % vs équivalent. (5) **Arrondissement vs micro-quartier** : 18e Lamarck très différent de 18e Goutte-d'Or. Visiter à pied jour/soir. (6) **Surface réelle** : Carrez vs effective (loi mansardes). (7) **Frais de notaire** : 7,5-8 % à Paris vs 7-7,5 % province. (8) **Émotionnel** : 'rêve Paris' = sur-paye fréquente. Négocier 5-10 % minimum 2026 (marché correctif).",
+      },
+      {
+        heading: "Le calcul honnête : studio Paris reste pertinent pour 2 profils",
+        body: "Studio Paris 2026 = bon achat pour : (1) **Primo-accédant 25-35 ans** souhaitant rester à Paris 7-15 ans, capable d'apport 30-50 k€, cibler 13e/18e/19e/20e ou banlieue très proche. Patrimoine se constitue, plus-value probable même si modeste à 10 ans (Paris reste valeur refuge globale). (2) **Pied-à-terre fortuné** acceptant THRS majorée et IFI éventuel — usage personnel justifie. Studio Paris **mauvais achat** pour : (1) Investisseur locatif rendement (rentabilité plafonnée par encadrement loyers, 3,5-4,5 % brut). Préférer Lille, Reims, Tours pour locatif. (2) Couple projetant enfant <5 ans (studio inadapté, déménagement obligatoire). (3) Budget <200 k€ (marché Paris très restreint à ce prix, banlieue meilleur choix). Sweet spot 2026 : primo 25-30 ans, salaire 4 000-5 000 €, apport 40-60 k€, ciblant 18e/19e/20e à 220-280 k€.",
+      },
+    ],
+    relatedCities: ["paris"],
+    relatedGuides: [
+      "acheter-avant-40-ans-strategie-france-2026",
+      "investir-lmnp-par-ville-france-2026",
+      "residence-secondaire-france-pieges-fiscaux-2026",
+      "quitter-paris-30-ans-couple-sans-enfant-2026",
+      "meilleures-villes-primo-accedants-france-2026",
+    ],
+    tags: ["studio Paris", "Paris", "primo-accédant", "investissement locatif", "encadrement loyers", "LMNP Paris", "2026"],
+  },
+  {
+    slug: "vivre-a-la-mer-toute-annee-france-2026-fantasme-realite",
+    title: "Vivre à la mer toute l'année en 2026 — fantasme vs réalité par côte",
+    metaTitle: "Vivre à la mer toute l'année 2026 : fantasme vs réalité — guide",
+    metaDesc:
+      "Vivre au bord de la mer toute l'année en France 2026 : fantasme été vs réalité hiver. Côtes vivables vs stations désertes, services, climat, communauté.",
+    category: "lifestyle",
+    emoji: "🌊",
+    readMinutes: 10,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "Vivre face à la mer reste le rêve immobilier #1 des Français. Mais le 'vivre à la mer toute l'année' ne ressemble pas à la photo de juillet : 8 mois hors saison avec vents, pluies, services réduits, communauté hibernante. Voici la lecture honnête côte par côte, des vraies villes où vivre à la mer en 2026 sans piège.",
+    sections: [
+      {
+        heading: "Le fantasme été vs la réalité hiver",
+        body: "Ce qu'on imagine : café face mer, plage à 5 min, ambiance détendue. Ce qu'on vit réellement de novembre à mars : (1) **Stations balnéaires touristiques** : 60-90 % des commerces fermés hors saison. Restaurants ouverts 2-3 vs 30 en été. Plage déserte, vent fort, embruns sur les vitres. (2) **Vie sociale réduite** : population hivernale parfois divisée par 3-5 (Le Touquet : 4 500 hiver vs 25 000 été). Communauté locale soudée mais difficile à intégrer pour 'nouveaux venus'. (3) **Services restreints** : médecin trouve difficilement, écoles avec petits effectifs (positif), commerces dépaysés (souvent un seul boulanger + un supermarché). (4) **Climat** : Bretagne/Normandie hiver = 6-15 jours/mois pluie, vents 70+ km/h fréquents. Méditerranée hiver = mistral pénible, ciel clair mais 6-12 °C. (5) **Bâti** : sel + vent + humidité = entretien constant (peinture façade tous 5-7 ans, ferronnerie, joints). Coût annuel entretien : 1 500-4 000 € pour maison côtière.",
+      },
+      {
+        heading: "Côte d'Azur — vivable mais saturé",
+        body: "Mer accessible toute l'année, climat tempéré (10-15 °C hiver), services métropolitains denses. **Vivables toute l'année** : (1) **Nice** — vraie métropole (~340 000 hab), pas saisonnière, services complets. T3 350-500 k€. (2) **Antibes-Juan-les-Pins** (~75 000 hab) — services bons, communauté internationale, port. (3) **Menton** (~28 000) — climat exceptionnel, frontière italienne. (4) **Cagnes-sur-Mer, Cannes** — vivables. **Saturé / saisonnier** : (5) **Saint-Tropez, Ramatuelle, Cap-Ferrat** — fantôme l'hiver, foncier inaccessible. (6) **Cannes centre-ville** — touristique mais résidentiel pied de colline tenable. Risques 2040 : canicule, saturation été, montée marine frontale. Foncier : très cher (5 500-12 000 €/m²).",
+      },
+      {
+        heading: "Côte basque — saturé, communauté forte",
+        body: "Climat océanique très doux (12-16 °C hiver), surf année, communauté basque tissée. (1) **Bayonne** (~50 000 hab) — vraie ville, services métropole, vivable toute l'année. (2) **Anglet** (~38 000) — résidentiel familial, plages, accessibilité. (3) **Biarritz** (~25 000) — touristique mais centre vivant hors saison, communauté solide. (4) **Saint-Jean-de-Luz** (~13 000) — port actif, vivable mais saturation estivale. (5) **Hendaye** (~16 000) — frontière espagnole, vivable. Foncier : très cher (5 500-8 500 €/m²). Climat 2040 : tempéré préservé. Communauté : forte appartenance basque, intégration possible mais demande engagement.",
+      },
+      {
+        heading: "Côte atlantique sud — sweet spot 2026",
+        body: "Climat océanique doux (8-14 °C hiver), saisonnalité modérée hors stations, foncier accessible vs Côte d'Azur/basque. (1) **La Rochelle** (~76 000) — métropole de référence pour vivre à la mer (vraie ville services, université, port). (2) **Royan** (~17 000) — climat très doux, services bons, vivable. (3) **Les Sables-d'Olonne** (~46 000) — port + tourisme + résidentiel. (4) **Saint-Gilles-Croix-de-Vie, Pornic** — communes accueillantes hors saison. (5) **Cap-Ferret, Pyla** — saisonniers, foncier inaccessible, à éviter pour vivre. (6) **Arcachon** (~12 000) — vivable mais saturation été extrême + foncier saturé. Risques 2040 : montée marine côte landaise, érosion. Foncier : 3 500-6 500 €/m² hors stations touristiques.",
+      },
+      {
+        heading: "Bretagne — la côte la plus 'vivable' 2026",
+        body: "Climat tempéré océanique (5-12 °C hiver), pluies fréquentes mais pas extrêmes, communauté ancrée. (1) **Vannes** (~54 000) — golfe du Morbihan, ville complète, services. (2) **Lorient** (~57 000) — port, services métropole. (3) **Quimper** (~63 000) — préfecture, vivable toute l'année. (4) **Saint-Malo** (~46 000) — port + tourisme + résidentiel, communauté forte. (5) **Brest** (~140 000) — vraie métropole, université, hôpital CHU. (6) **Concarneau** (~20 000) — port actif. (7) **Saint-Brieuc** (~46 000) — préfecture, services. Risques 2040 : sécheresses estivales nouvelles, érosion ponctuelle. Foncier : 2 500-4 500 €/m² hors stations.",
+      },
+      {
+        heading: "Normandie — climat doux, hiver gris mais services",
+        body: "Climat océanique frais (4-10 °C hiver), pluies fréquentes, communauté traditionnelle. (1) **Cherbourg** (~37 000) — port, services, climat océanique strict. (2) **Granville** (~13 000) — port pêche, vivable. (3) **Saint-Vaast-la-Hougue, Carteret** — petites communes vivables. (4) **Le Havre** (~170 000) — métropole port, services complets, vivable. (5) **Honfleur** (~7 000) — touristique mais charmant hors saison. (6) **Deauville-Trouville** — saisonniers ultra. (7) **Dieppe** (~28 000) — port + ville, vivable. (8) **Étretat, Fécamp** — communes patrimoine, charme + falaises. Risques 2040 : tempêtes, érosion falaises côte d'Albâtre, submersion certains polders. Foncier : 2 000-4 000 €/m².",
+      },
+      {
+        heading: "Mers du Nord — Pas-de-Calais, Picardie",
+        body: "Climat océanique frais et venteux (3-9 °C hiver), saisonnalité modérée car ville-port industrie. (1) **Calais** (~70 000) — port, hub Brexit, services. (2) **Boulogne-sur-Mer** (~40 000) — vraie ville, port, hôpital. (3) **Dunkerque** (~85 000) — métropole industrielle, services, vivable. (4) **Berck, Le Touquet, Hardelot** — stations balnéaires saisonnières, vivable hors saison si on aime calme. (5) **Saint-Valéry-sur-Somme, Le Crotoy** — baie de Somme, vivable mais services limités. Risques 2040 : montée marine, tempêtes intenses, polders sensibles. Foncier : 1 500-3 500 €/m² (Le Touquet 5 000+).",
+      },
+      {
+        heading: "Profils pour vivre à la mer toute l'année",
+        body: "Le bon profil : (1) Personnes ayant déjà testé la mer hors saison (location 6+ mois sur place). (2) Profils acceptant l'humidité, le vent, le bâti à entretenir. (3) Personnes auto-suffisantes socialement (couple stable, hobbies, télétravail). (4) Famille avec enfants en âge primaire (école petits effectifs, plage activité quotidienne possible). (5) Retraités actifs avec capacité d'investir dans le bâti (entretien, isolation). Le mauvais profil : (1) Profils dépendants vie urbaine intense (besoin sorties, restaurants, scène culturelle). (2) Profils santé fragile (humidité aggrave certains troubles respiratoires/articulaires). (3) Couple en quête de vie sociale animée. (4) Personnes avec ambition professionnelle locale (marchés du travail souvent limités sur côte hors métropoles). (5) Budget serré sans capacité entretien bâti.",
+      },
+      {
+        heading: "Le calcul honnête : vivre à la mer reste possible, sélection rigoureuse",
+        body: "Pour vivre à la mer toute l'année 2026 sans regret : (1) **Préférer vraie ville** (Nice, La Rochelle, Bayonne, Vannes, Brest, Le Havre, Calais) à station saisonnière (Le Touquet, Saint-Tropez, Cap-Ferret). (2) **Tester 6-12 mois en location** AVANT achat — incluant un hiver complet. (3) **Critères ville** : >30 000 habitants stables, hôpital ou maison de santé, école primaire active, supermarché, médecin. (4) **Bâti** : DPE C minimum (humidité côte aggrave isolation médiocre). (5) **Distance plage** : 5-15 min idéal. Vue mer directe = sur-paye + entretien lourd. (6) **Communauté** : viser commune avec mélange permanents/touristes (60/40 minimum) pour vie sociale toute l'année. **Sweet spot 2026** : La Rochelle, Bayonne, Vannes, Saint-Malo, Brest, Le Havre — vraies villes services + climat acceptable + foncier accessible. **À éviter** : stations touristiques <10 000 hab où on vit 8 mois face à une coquille vide.",
+      },
+    ],
+    relatedCities: ["la-rochelle", "saint-malo", "biarritz", "menton", "royan"],
+    relatedGuides: [
+      "villes-cotieres-teletravail-connexion-cadre-2026",
+      "climat-2040-facade-atlantique-france",
+      "climat-2040-bretagne-cote-interieure",
+      "partir-vivre-dans-le-sud-france-pieges-2026",
+      "meilleures-villes-seniors-actifs-france-2026",
+    ],
+    tags: ["vivre à la mer", "côte", "hors saison", "Bretagne", "Atlantique", "Méditerranée", "stations balnéaires", "2026"],
+  },
+  {
+    slug: "scpi-vs-locatif-direct-france-2026-quel-choix",
+    title: "SCPI vs locatif direct en 2026 — quel choix par profil d'investisseur",
+    metaTitle: "SCPI vs locatif direct 2026 : rendement, fiscalité, liquidité — guide",
+    metaDesc:
+      "SCPI ou locatif direct en 2026 : rendement net réel, fiscalité, liquidité, ticket d'entrée, profils investisseurs. Analyse honnête des deux options.",
+    category: "budget",
+    emoji: "📈",
+    readMinutes: 9,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "Investir dans l'immobilier en 2026 : deux grandes voies. Locatif direct (acheter un appartement, le louer) ou SCPI (acheter des parts d'une société qui détient un parc immobilier). Chacune a ses avantages, sa fiscalité, son profil d'investisseur. Voici la comparaison honnête, sans le 'SCPI = passif facile' ou 'locatif direct = rentable garanti'.",
+    sections: [
+      {
+        heading: "Locatif direct — ce qu'on achète vraiment",
+        body: "Un appartement physique loué à un locataire. (1) **Ticket d'entrée** : minimum ~100 000 € (T1 ou T2 ville moyenne), idéalement 150-300 k€. (2) **Apport** : 15-25 % typique, soit 25-75 k€. (3) **Crédit** : 75-200 k€ sur 15-25 ans. (4) **Rentabilité brute** 2026 : 3,5-7 % selon ville et segment. Meilleur : LMNP étudiant province (cf. guide LMNP). (5) **Rentabilité nette** après fiscalité, charges, vacance : 1,5-4,5 % selon optimisation. (6) **Engagement** : 15-25 ans crédit, 8-12 % du temps consacré (gestion locative, charges, travaux). (7) **Charges directes** : taxe foncière, copro, assurance PNO, comptable LMNP, travaux, vacance locative.",
+      },
+      {
+        heading: "SCPI — ce qu'on achète vraiment",
+        body: "Parts d'une société civile de placement immobilier détenant 30-150 immeubles (bureaux, commerces, logements). (1) **Ticket d'entrée** : 180-1 500 € la part, minimum souvent 5-20 parts (1 000-30 000 €). (2) **Frais d'entrée** : 8-12 % du capital investi (commission souscription). Récupérables en 8-10 ans. (3) **Rentabilité brute** 2026 : 3,5-5,5 % selon SCPI (DLDP — Distribution Loyer Distribué Potentiel). (4) **Rentabilité nette** après fiscalité IR (TMI) + PS (17,2 %) : 1,5-3,5 % pour SCPI françaises. SCPI européennes (Allemagne, Pays-Bas) bénéficient de conventions fiscales favorables — net 3-4,5 %. (5) **Engagement** : 8-15 ans minimum pour amortir frais d'entrée. (6) **Charges** : entièrement gérées par société de gestion (frais de gestion 8-12 % des loyers inclus dans rendement annoncé). (7) **Gestion temps** : quasi-nulle après souscription.",
+      },
+      {
+        heading: "Comparaison fiscale 2026",
+        body: "**Locatif direct** : (1) **Régime micro-BIC** (meublé) : abattement 50 % (ou 71 % meublé tourisme classé), seuil 77 700 €. (2) **Régime réel LMNP** : amortissement quasi-déductibilité totale, souvent imposition nulle 10-15 ans. (3) **Plus-value à la revente** : abattement durée détention, exonération IR 22 ans, PS 30 ans. (4) **CSG-CRDS** : 17,2 % sur revenus + plus-values (sauf BIC certains cas). (5) **Déficit foncier** : -10 700 €/an déductible des autres revenus (régime nu). **SCPI** : (1) **Imposition IR** : tranche marginale + 17,2 % PS sur revenus distribués. (2) **Pas d'amortissement** disponible. (3) **Plus-value** sur parts SCPI : abattement durée détention idem locatif direct. (4) **SCPI européennes** (Pays-Bas, Allemagne) : imposition selon convention bilatérale, souvent plus avantageuse que France pure. (5) **Pas de CSG-CRDS** sur certaines SCPI étrangères (avantage net).",
+      },
+      {
+        heading: "Liquidité — différence majeure",
+        body: "**Locatif direct** : (1) **Délai vente** : 60-180 jours en moyenne 2026 (vs 30-60 en 2020-2021). Marchés tendus : 30-60 jours. Marchés correctifs (Paris, Bordeaux centre) : 90-150 jours. (2) **Frais cession** : 4-6 % commission agence + 5-10 k€ frais notaire/diagnostics. (3) **Cession partielle impossible** (sauf SCI démembrée). **SCPI** : (1) **Liquidité conditionnée** au marché secondaire interne SCPI. Pour SCPI à capital variable (90 % du marché) : revente sous 5-30 jours en marché normal. (2) **Risque illiquidité** en cas de crise (2020 Covid, 2023 crise immobilier bureaux) : revente bloquée 6-18 mois. SCPI 'fonds spéculatif' particulièrement risquées. (3) **Cession partielle facile** : vendre 5 parts sur 50 sans contrainte. (4) **Frais cession** : 0-2 % selon SCPI.",
+      },
+      {
+        heading: "Risques 2026 — différents pour chacun",
+        body: "**Locatif direct** : (1) **Vacance locative** : 0-12 % selon ville et segment. (2) **Loyers impayés** : 1-3 % en moyenne, 5-10 % en zone tendue avec encadrement. Assurance GLI 2-3 % loyers. (3) **Travaux imprévus** : toiture, plomberie, ravalement = 5-25 k€ tous 10-15 ans. (4) **Évolution réglementaire** : encadrement loyers, interdictions DPE F/G, restrictions Airbnb. (5) **Localisation** : marché local en déclin = revente difficile. **SCPI** : (1) **Crise sectorielle** : SCPI bureaux ont chuté 2023-2024 (-15 à -25 % valeur des parts) suite télétravail. (2) **Société de gestion** : faillite ou conflit d'intérêt possible. Vérifier réputation, taille (>5 milliards €), historique. (3) **Effet levier limité** : crédit SCPI possible mais conditions plus strictes que locatif direct. (4) **Diversification interne** : SCPI à 30 immeubles vs SCPI à 150 — diversification 5× supérieure pour la 2e. (5) **Inflation** : SCPI bureaux ont sous-performé inflation 2022-2024, SCPI résidentielles ont mieux résisté.",
+      },
+      {
+        heading: "Profils investisseurs — qui choisit quoi",
+        body: "**Locatif direct adapté à** : (1) Investisseur 30-50 ans avec capacité emprunt (effet levier essentiel à la rentabilité réelle). (2) Profil acceptant 5-10 h/mois gestion + relation locataire. (3) Patrimoine 100-500 k€ — assez pour 1-2 biens. (4) Tolérance illiquidité moyen terme. (5) Stratégie patrimoniale long terme + transmission. **SCPI adapté à** : (1) Investisseur passif sans temps ni envie de gérer. (2) Petit patrimoine (10-50 k€) souhaitant accès immobilier sans gros emprunt. (3) Retraité cherchant complément revenus réguliers. (4) Diversification d'un portefeuille déjà constitué. (5) Profil 55+ recherchant liquidité partielle progressive. (6) Investisseur souhaitant exposition immobilier européen via SCPI étrangères.",
+      },
+      {
+        heading: "Stratégie hybride — ce que font les patrimoines avancés",
+        body: "Beaucoup d'investisseurs avancés combinent : (1) **1-3 biens locatifs directs** dans ville bien connue (gestion personnelle, optimisation LMNP). (2) **Portefeuille SCPI** diversifié géographiquement (France, Allemagne, Pays-Bas) pour le complément revenus passif. (3) **Assurance-vie ou PER** avec exposition immobilière (SCI assurance-vie, SCPI dans assurance-vie) pour transmission optimisée. (4) **PEA-PME** avec foncières cotées (Klepierre, Unibail, Gecina) pour exposition très liquide. Cette diversification : (a) couvre les risques sectoriels, (b) optimise la fiscalité par enveloppe, (c) permet une gestion équilibrée entre actif et passif. Patrimoine immobilier idéal 2026 pour profil aisé : 30 % locatif direct + 30 % SCPI + 20 % SCI assurance-vie + 20 % foncières cotées.",
+      },
+      {
+        heading: "Le calcul honnête : choix profil + temps + capital",
+        body: "Locatif direct = potentiel rendement plus élevé MAIS engagement long, illiquidité, gestion active obligatoire. SCPI = passif, diversification automatique, liquidité MAIS rendement plafonné par frais et fiscalité. Choix par profil : (1) **Jeune actif 30 ans, salaire correct** → locatif direct LMNP en province. (2) **Cadre 40-50 ans, patrimoine 200-500 k€** → mixte 60 % locatif + 40 % SCPI. (3) **Patrimoine confortable 500 k€+, peu de temps** → 30 % locatif famille + 70 % SCPI + foncières. (4) **Retraité actif** → SCPI pour revenus complémentaires + vendre locatif direct si gestion devient lourde. (5) **Débutant 25-30 ans, patrimoine <50 k€** → commencer par SCPI européennes (rendement net 3-4 %, ticket bas, apprentissage marché). Recommandation universelle : ne pas mettre >70 % de son patrimoine total dans l'immobilier (manque de diversification). Bourse + assurance-vie + livrets pour le reste.",
+      },
+    ],
+    relatedCities: ["lille", "rennes", "montpellier", "lyon", "bordeaux"],
+    relatedGuides: [
+      "investir-lmnp-par-ville-france-2026",
+      "investissement-locatif-moins-100000-euros-france-2026",
+      "investir-locatif-bordeaux-2026",
+      "investir-locatif-rennes-2026",
+      "meilleures-villes-investissement-locatif-colocation-2025",
+    ],
+    tags: ["SCPI", "locatif direct", "investissement immobilier", "rendement", "fiscalité immobilière", "diversification", "LMNP", "2026"],
+  },
+  {
+    slug: "demenager-sintegrer-province-sans-reseau-2026",
+    title: "Déménager en province sans connaître personne — comment s'intégrer en 2026",
+    metaTitle: "S'intégrer en province sans réseau 2026 : associations, sport, voisinage",
+    metaDesc:
+      "Déménager dans une nouvelle ville sans connaître personne : comment se faire des amis adultes, associations, sport, sociabilité. Villes accueillantes.",
+    category: "lifestyle",
+    emoji: "🤝",
+    readMinutes: 9,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "Le défi sous-estimé du déménagement adulte : reconstruire une vie sociale dans une ville où on ne connaît personne. À 35-45 ans, c'est plus difficile qu'à 20 ans (pas d'école, pas de fac, vie familiale plus centripète). Et pourtant, 1,5 million de Français déménagent chaque année. Voici le guide pratique 2026 pour réussir l'intégration, par leviers concrets.",
+    sections: [
+      {
+        heading: "Pourquoi c'est difficile à 35+",
+        body: "(1) **Pas de structure naturelle** : école/fac créaient des contacts permanents. À 35+ ans, plus de cadre obligatoire de socialisation. (2) **Vie familiale centripète** : couple + enfants = soirées maison, week-ends famille, peu de temps libre. (3) **Réseau local existant** : les gens de la ville ont déjà leurs amis depuis 10-30 ans, peu d'espace pour 'nouveaux venus'. (4) **Codes culturels** : chaque région a ses codes (Sud festif, Nord plus introverti, Bretagne identitaire, Île-de-France pressé). Maladresse possible. (5) **Statut social adulte** : on juge plus vite vs à 20 ans (politique, métier, parentalité). Effort 'first impression' plus haut. (6) **Vie pro hybride** : télétravail = moins de collègues sur place vs bureau. Conséquence : 60 % des transplantés mettent 12-24 mois à reconstituer un cercle social satisfaisant. La phase 0-6 mois est particulièrement isolante.",
+      },
+      {
+        heading: "Levier 1 — Associations locales",
+        body: "Le canal #1 pour rencontrer des adultes en province : (1) **Sport** : club tennis, judo, foot, rugby (selon région), running, cyclisme, escalade, yoga. Engagement régulier (1-2 fois/semaine) crée des liens. Saison sportive année scolaire — s'inscrire septembre-octobre idéal. (2) **Culture** : chorale, théâtre amateur, ciné-club, lecture, photographie. Communautés très fidèles, accueillantes nouveaux membres. (3) **Bénévolat** : Secours Populaire, Croix-Rouge, banque alimentaire, restos du cœur. Crée des liens forts via objectif commun. (4) **Loisirs spécifiques** : jardinage partagé, brassage bière, randonnée, échecs, jeux de société. (5) **Politique/citoyenneté** : conseil de quartier, association environnementale locale, parents d'élèves. Sources : (a) Mairie a une liste d'associations communales (gratuit). (b) helloasso.com (annuaire national). (c) Forum des associations (chaque commune, généralement septembre).",
+      },
+      {
+        heading: "Levier 2 — Quartier et voisinage immédiat",
+        body: "Sous-utilisé : (1) **Saluer ses voisins** activement, prendre l'initiative dans les 2 semaines après emménagement. (2) **Apporter un petit cadeau** lors présentation (vin, pâtisserie maison) — anachronique mais ça marche en province. (3) **Fête des voisins** (mai/juin annuel) — s'inscrire ou organiser. (4) **Boulangerie/café régulier** : devenir habitué d'un café — le serveur vous reconnaît à 2-3 semaines, présentations naturelles. (5) **Marchés** : provincial = lieu social. Aller régulièrement aux mêmes étals crée des micro-relations. (6) **Conseil de quartier** ou comité local : faible engagement, contacts adultes structurés. (7) **Sport de proximité** : courir/marcher dans son quartier le matin, croiser systématiquement les mêmes personnes. (8) **Voisinage parents** si famille : école = canal puissant (parents délégués, sorties scolaires, conseils).",
+      },
+      {
+        heading: "Levier 3 — Vie professionnelle locale",
+        body: "(1) **Co-working space** (cf. guide freelance en province) : 3+ coworkings dans la ville → rencontres pros + amis. Ticket journalier 15-25 €, mensuel 150-350 €. (2) **Meetups professionnels** : meetup.com référence ; tech, marketing, finance, créatif. 1 meetup/mois minimum recommandé première année. (3) **Salons et conférences locales** : French Tech, Foire-Expo, événements sectoriels. Networking professionnel ouvert. (4) **Afterworks** : si bureau, ne pas refuser systématiquement. Si télétravail, organiser ou rejoindre afterworks freelances/coworking. (5) **Mentorat** : être mentor (jeune entrepreneur) ou mentoré — réseau cadre. (6) **Linkedin local** : se présenter aux contacts pros locaux dès arrivée (message simple, café à proposer).",
+      },
+      {
+        heading: "Levier 4 — Activités enfants (si famille)",
+        body: "Les parents d'enfants en âge primaire 6-11 ans ont un réseau quasi-imposé : (1) **École** : représentant parents, sorties scolaires, kermesse, fête de fin d'année. Engagement minimal mais visible = contacts naturels. (2) **Activités enfants** : amenant aux mêmes horaires (judo, danse, foot), parents qui attendent ensemble — discussions naturelles. (3) **Anniversaires enfants** : invitation parents souvent, occasion de connaître. (4) **Vacances scolaires** : organisations CAF, centres aérés, sorties — lieux de rencontre parents. (5) **WhatsApp parents classe** : presque universel, intégrer rapidement. Évite l'isolement. Pour famille : la vie sociale via enfants se construit en 6-12 mois (vs 18-24 mois pour célibataires).",
+      },
+      {
+        heading: "Levier 5 — Applications et rencontres en ligne",
+        body: "Stigmatisées il y a 10 ans, normalisées depuis 2020 : (1) **Meetup** : événements thématiques locaux (randonnée, board games, philo, brunch). 5-20 personnes par event, ambiance détendue. (2) **Bumble BFF** : version amitié de l'app, fonctionne moyennement en province (densité utilisateurs faible <80 000 hab). (3) **TimeLeft** : app dîners groupes inconnus, lancée 2022, ~30 villes France 2026. Très efficace 25-45 ans. (4) **Facebook groupes** : 'Nouveaux à [ville]' ou 'Expat [ville]' actifs dans toutes les métropoles. (5) **Apero work / brunch groupes** : organisations régulières. (6) **Réseaux pros locaux** : Réseau Plato, BNI, JCE (Jeune Chambre Économique). Recommandation : combiner 1 app + 1 activité réelle régulière. Apps seules = échange superficiel ; activité réelle seule = lent. Combo accélère.",
+      },
+      {
+        heading: "Villes les plus accueillantes pour nouveaux venus 2026",
+        body: "Critères : forte densité associative, communautés diverses, jeunesse présente, ambiance ouverte. (1) **Nantes** — culture associative forte, dynamique jeune. (2) **Montpellier** — démographique #1 France, multiculturel, beaucoup de transplantés. (3) **Bordeaux** — afflux récents, communautés ouvertes. (4) **Toulouse** — Airbus = milieux internationaux. (5) **Strasbourg** — Europe = mélange culturel. (6) **Lyon** — métropole accueillante. (7) **Annecy** — communautés expatriées, mais foncier saturé. (8) **La Rochelle** — petite ville accueillante, beaucoup de néo-rochelais. (9) **Pau** — communauté internationale Total/Avia. (10) **Reims** — proximité Paris + dynamique récente. Villes plus difficiles : (1) Petits bourgs <10 000 hab très traditionnels. (2) Stations balnéaires saisonnières (population qui change). (3) Communes 'identitaires' où être natif compte beaucoup (certains coins Corse, Bretagne profonde, Sud profond).",
+      },
+      {
+        heading: "Pièges classiques et règles d'or",
+        body: "(1) **Sous-estimer le temps d'intégration** : 12-24 mois normaux. Patience essentielle. Premiers 6 mois = pires (isolement). (2) **Rester nostalgique** : 'À Paris c'était mieux...' tue les nouvelles relations. Régler le deuil. (3) **Comparer politiquement/culturellement** : la ville n'est pas une projection. Adopter sans juger. (4) **Trop solliciter** : flooder un nouveau ami de messages = effet repoussoir. Rythme local. (5) **Cercle uniquement transplantés** : facile mais limite l'intégration. Mélanger avec locaux. (6) **Refuser invitations** : la 1re sortie est cruciale. Toujours dire oui les 6 premiers mois. (7) **Pas de présence digitale locale** : suivre médias locaux, journalistes, événements. Connaître l'écosystème. (8) **Famille à distance** : visites fréquentes = rentrer à Paris/origine tous les week-ends = pas de temps pour s'intégrer. Limiter à 1 weekend/mois max premiers 6 mois.",
+      },
+      {
+        heading: "Le calcul honnête : s'intégrer prend 12-24 mois, et c'est normal",
+        body: "Déménager sans réseau = projet à 12-24 mois pour se sentir 'chez soi'. (1) **Mois 0-3** : phase logistique + isolement social. Normal. (2) **Mois 3-9** : premiers contacts via associations/voisinage. Quelques relations émergentes. (3) **Mois 9-18** : cercle élargi, premiers vraies amis. (4) **Mois 18-24** : intégration solide, communauté reconstituée. Le bon profil : extraverti modéré, capacité à dire oui, engagement régulier 1-2 activités, télétravail OK avec présentiel ponctuel. Le profil à risque : introverti pur sans coup de pouce activités, couple repli sur soi, pas d'enfants à école. Pour ce profil, choisir métropole secondaire (vs petite ville) car densité associative + meetups > densité petite ville. **Recommandation universelle** : avant déménagement, identifier 3-5 activités possibles dans la ville cible (sport, association, meetup, bénévolat) — c'est l'arme #1 contre l'isolement post-emménagement.",
+      },
+    ],
+    relatedCities: ["nantes", "montpellier", "toulouse", "strasbourg", "la-rochelle"],
+    relatedGuides: [
+      "quitter-paris-30-ans-couple-sans-enfant-2026",
+      "quitter-paris-avec-enfants-primaire-france-2026",
+      "expatries-retour-france-quelle-ville-2026",
+      "devenir-freelance-en-province-quelles-villes-france-2026",
+      "meilleures-villes-seniors-actifs-france-2026",
+    ],
+    tags: ["intégration", "déménagement", "sociabilité", "associations", "vie sociale", "transplantés", "amis adultes", "2026"],
+  },
+  {
+    slug: "encadrement-loyers-france-2026-villes-investir-malgre-tout",
+    title: "Encadrement des loyers en France 2026 — villes concernées et comment investir",
+    metaTitle: "Encadrement loyers France 2026 : villes concernées, comment investir",
+    metaDesc:
+      "Encadrement des loyers 2026 : 28 villes concernées, plafonds par zone, comment investir malgré l'encadrement, exceptions légales, alternatives.",
+    category: "budget",
+    emoji: "📋",
+    readMinutes: 9,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "L'encadrement des loyers s'étend en 2026 — 28 villes concernées (vs 5 en 2021), plafonds revus annuellement, sanctions renforcées. Pour les investisseurs locatifs, l'enjeu est de comprendre où le dispositif s'applique vraiment, comment fixer un loyer conforme, et quelles alternatives existent pour optimiser malgré l'encadrement.",
+    sections: [
+      {
+        heading: "Encadrement loyers — état des lieux 2026",
+        body: "Dispositif issu de la loi ELAN 2018, expérimenté 2019-2024, généralisé depuis 2024 dans zones tendues. **Villes concernées 2026** : (1) **Paris** (depuis 2019). (2) **Lille, Hellemmes, Lomme** (2020). (3) **Plaine Commune** (9 communes 93 — Aubervilliers, Saint-Denis, Saint-Ouen, etc., 2021). (4) **Lyon, Villeurbanne** (2021). (5) **Est Ensemble** (9 communes 93 est — Montreuil, Bagnolet, etc., 2021). (6) **Bordeaux** (2022). (7) **Montpellier** (2023). (8) **Annecy, Annecy-le-Vieux** (2023). (9) **Grenoble, Échirolles** (2023). (10) **Marseille** (depuis 2024 expérimentation). (11) **Toulouse** (depuis 2024). (12) **Aix-en-Provence** (en cours 2025-2026). Tendance : étendue progressive aux 50 plus grandes agglomérations en zone tendue d'ici 2028.",
+      },
+      {
+        heading: "Comment fonctionne l'encadrement",
+        body: "Pour chaque commune sous encadrement : (1) **Loyer médian de référence (LMR)** : montant médian observé pour un type de bien (T1/T2/T3+) dans un secteur, fixé par arrêté préfectoral annuel. (2) **Loyer de référence majoré** : LMR × 1,2 (maximum 20 % au-dessus). (3) **Loyer de référence minoré** : LMR × 0,7. (4) **Encadrement strict** : le loyer hors charges ne peut dépasser le loyer de référence majoré pour ce type de bien dans cette zone. (5) **Complément de loyer exceptionnel** possible si justifié par caractéristiques exceptionnelles du bien (vue exceptionnelle, terrasse 30 m², équipement haut de gamme). À mentionner dans le bail. (6) **Sanctions** : remboursement aux locataires du trop-perçu + amende 5 000-10 000 € (15 000 € personne morale). (7) **Variation annuelle** : loyer fixe pendant le bail, révision annuelle à l'IRL (Indice Référence Loyers) calculé Insee.",
+      },
+      {
+        heading: "Plafonds 2026 — exemples concrets par zone",
+        body: "Loyer majoré (loyer max applicable hors charges) pour T2 35 m² ancien meublé : (1) **Paris 1er-7e** : 40-46 €/m² → 1 400-1 610 €/mois. (2) **Paris 11e-12e** : 32-36 €/m² → 1 120-1 260 €. (3) **Paris 19e-20e** : 27-30 €/m² → 945-1 050 €. (4) **Lille centre** : 22-25 €/m² → 770-875 €. (5) **Bordeaux centre** : 21-24 €/m² → 735-840 €. (6) **Lyon 1er-2e** : 23-26 €/m² → 805-910 €. (7) **Lyon 7e-8e** : 19-22 €/m² → 665-770 €. (8) **Montpellier centre** : 18-21 €/m² → 630-735 €. (9) **Annecy** : 22-26 €/m² → 770-910 €. **Comparaison avec loyer marché libre 2018** (avant encadrement) : ces plafonds représentent souvent -10 à -25 % du loyer 'avant encadrement' dans les quartiers premium. Impact rentabilité : -0,5 à -1,5 % de rentabilité brute selon zone.",
+      },
+      {
+        heading: "Stratégies d'investissement légales malgré l'encadrement",
+        body: "(1) **Cibler des biens avec complément de loyer justifié** : terrasse 20+ m², vue exceptionnelle (Tour Eiffel, fleuve, parc), prestation haut de gamme (douche à l'italienne, parquet massif, double exposition). Permet de dépasser de 10-25 % le loyer majoré. (2) **Meublé haut de gamme bien classé** (meublé tourisme classé 4-5 étoiles si saisonnier hors encadrement) : abattement micro-BIC 71 % au lieu de 50 %, mais durée limitée 120 jours/an si résidence principale. (3) **Bail mobilité** (1-10 mois) : exempt d'encadrement strict. Pour profils étudiants, mutations, missions. Loyer libre. (4) **Location à des professionnels** (médecins, dentistes, avocats) : bail commercial possible, hors encadrement. (5) **Colocation** : loyer total / colocataire — chaque chambre louée séparément peut atteindre 95-110 €/m² selon ville → rentabilité boostée 1-2 % vs location simple. (6) **Investir hors encadrement** : Strasbourg, Nantes, Rennes, Reims, Tours, Caen, Brest — pas encadrés à date 2026. Rentabilité +0,5 à +1 % vs villes encadrées.",
+      },
+      {
+        heading: "Recours et contrôle locataire",
+        body: "(1) **Le locataire peut saisir la commission de conciliation** (gratuite) dans les 3 ans si soupçonne loyer supra-plafond. (2) **Si entente non trouvée** : Tribunal Judiciaire saisi, audience 3-6 mois. (3) **Sanctions effectives** : depuis 2023, Paris poursuit activement (1 200+ procédures 2024). Amendes moyennes 4 500 € + remboursement trop-perçu rétroactif 36 mois. (4) **Risque réputation locataires** : sites publics SeLoger / Le Bon Coin listent loyers exigés — locataires comparent. (5) **Assurance loyers impayés** : refuse parfois de couvrir si loyer supra-plafond avéré. (6) **Stratégie de protection** : (a) Toujours documenter le complément de loyer dans le bail. (b) Ne pas être agressif sur le loyer plafond — viser plafond moins 5-10 % pour marge sécurité. (c) Garder factures travaux/équipements justifiant le complément.",
+      },
+      {
+        heading: "Alternatives — villes sans encadrement à fort potentiel",
+        body: "Investir dans ville non-encadrée 2026 = plus de liberté + souvent meilleure rentabilité : (1) **Strasbourg** — brut 5-6 %, métropole européenne, marché stable, université. (2) **Nantes** — brut 4,5-5,5 %, French Tech, dynamique. (3) **Rennes** — brut 5-6 %, étudiants, marché bon. (4) **Reims** — brut 5,5-6,5 %, TGV Paris 45 min, marché en croissance. (5) **Tours** — brut 5,5-6,5 %, TGV Paris 1h, université. (6) **Caen** — brut 5,5-7 %, métropole secondaire. (7) **Brest** — brut 6-7 %, université, marché stable. (8) **Limoges** — brut 6-8 %, prix bas, mais démographie en baisse. (9) **Saint-Étienne** — brut 7-9 %, prix très bas, attention démographie. (10) **Mulhouse** — brut 6-8 %, frontière suisse, marché en redressement. Ces villes pourraient être encadrées à terme (étude HCFEA 2027 prévue) — investir avant encadrement = gains de loyer figés (les baux en cours ne sont pas rétroactivement encadrés).",
+      },
+      {
+        heading: "Pièges classiques 2026",
+        body: "(1) **Ignorer l'encadrement** : 35 % des annonces Paris exhibent loyers supra-plafond 2024. Sanctions probables. (2) **Sous-estimer impact rentabilité** : faire calcul avec loyer encadré, pas loyer 'libre marché' (-15 % typique). (3) **Surévaluer le complément de loyer** : sans justification réelle, contesté en commission. (4) **Choisir Paris pour rentabilité** : net post-encadrement <3 %, autres villes (Lille, Reims, Tours) offrent meilleur rapport. (5) **Achat 'parce que c'est Paris'** : valeur patrimoniale OK, rentabilité courante faible. Distinguer projet. (6) **Bail mobilité abusif** : si bail mobilité signé sans justifier mobilité (formation, mutation, mission), risque requalification en bail standard avec encadrement applicable rétroactivement. (7) **Communes en cours d'extension** : Aix-en-Provence, Toulouse — vérifier statut avant achat. Encadrement peut être déclenché 6-18 mois après signature.",
+      },
+      {
+        heading: "Le calcul honnête : adapter sa stratégie à la nouvelle réalité",
+        body: "L'encadrement des loyers est durable et s'étend. Pour investir intelligemment 2026 : (1) **Connaître les plafonds** avant tout achat dans ville encadrée. (2) **Cibler biens avec complément légitime** ou hors encadrement (bail mobilité, colocation, meublé tourisme classé). (3) **Diversifier géographiquement** : portefeuille avec 1 bien Paris + 1 bien province non-encadrée = équilibre patrimoine/rendement. (4) **Optimiser fiscalité** (LMNP régime réel quasi-systématique) pour compenser baisse loyers. (5) **Vision long terme** : Paris/Lyon/Bordeaux restent valeurs refuges malgré rendement faible — pari plus-value patrimoine. Province non-encadrée = pari rendement immédiat + plus-value secondaire. Sweet spot 2026 : 60 % investissement province non-encadrée (rendement) + 40 % métropole encadrée (patrimoine valeur refuge). À éviter : tout-Paris dans contexte encadrement strict + cycle baissier 2022-2025.",
+      },
+    ],
+    relatedCities: ["paris", "lille", "lyon", "bordeaux", "montpellier"],
+    relatedGuides: [
+      "investir-lmnp-par-ville-france-2026",
+      "acheter-studio-paris-2026-premier-achat-investissement",
+      "scpi-vs-locatif-direct-france-2026-quel-choix",
+      "investissement-locatif-moins-100000-euros-france-2026",
+      "meilleures-villes-investissement-locatif-colocation-2025",
+    ],
+    tags: ["encadrement loyers", "loi ELAN", "loyer plafond", "complément loyer", "bail mobilité", "Paris", "Lyon", "2026"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
