@@ -16,15 +16,22 @@ interface NavItem {
   matchPrefix?: string;
 }
 
-const NAV_LINKS: NavItem[] = [
+// Primary nav: always visible at lg+ — kept tight to avoid pill-row overflow.
+const NAV_PRIMARY: NavItem[] = [
   { label: "Classements", href: "/classements", emoji: "📊", matchPrefix: "/classements" },
   { label: "Comparer",    href: "/comparer",    emoji: "⚖️", matchPrefix: "/comparer" },
   { label: "Explorer",    href: "/villes",      emoji: "🌍", matchPrefix: "/villes" },
   { label: "Carte",       href: "/carte",       emoji: "🗺️", matchPrefix: "/carte" },
-  { label: "Simulateur",  href: "/#simulateur", emoji: "💸" },
   { label: "Guides",      href: "/guides",      emoji: "📖", matchPrefix: "/guides" },
+];
+
+// Secondary nav: shown only at xl+ on desktop + always in mobile menu.
+const NAV_SECONDARY: NavItem[] = [
+  { label: "Simulateur",  href: "/#simulateur", emoji: "💸" },
   { label: "Red Flags",   href: "/red-flags",   emoji: "🚩", matchPrefix: "/red-flags" },
 ];
+
+const NAV_ALL: NavItem[] = [...NAV_PRIMARY, ...NAV_SECONDARY];
 
 function isActive(item: NavItem, pathname: string): boolean {
   if (!item.matchPrefix) return false;
@@ -59,11 +66,11 @@ function SearchTrigger({ compact = false }: { compact?: boolean }) {
       type="button"
       onClick={openSearchPalette}
       aria-label="Ouvrir la recherche (Cmd+K)"
-      className="group hidden md:inline-flex items-center gap-2 rounded-full border border-[var(--border)] bg-white/60 backdrop-blur px-3 py-1.5 text-xs text-[var(--text-tertiary)] hover:border-[var(--accent)]/40 hover:bg-white hover:text-[var(--text-primary)] transition-all focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]"
+      className="group hidden xl:inline-flex items-center gap-2 rounded-full border border-[var(--border)] bg-white/60 backdrop-blur px-3 py-1.5 text-xs text-[var(--text-tertiary)] hover:border-[var(--accent)]/40 hover:bg-white hover:text-[var(--text-primary)] transition-all focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]"
     >
       <Search className="h-3.5 w-3.5" />
-      <span>Rechercher une ville, un guide…</span>
-      <kbd className="ml-2 inline-flex items-center gap-0.5 rounded border border-[var(--border)] bg-[var(--bg-elevated)] px-1.5 py-0.5 text-[10px] font-mono text-[var(--text-tertiary)] group-hover:text-[var(--text-secondary)]">
+      <span>Rechercher…</span>
+      <kbd className="ml-1 inline-flex items-center gap-0.5 rounded border border-[var(--border)] bg-[var(--bg-elevated)] px-1.5 py-0.5 text-[10px] font-mono text-[var(--text-tertiary)] group-hover:text-[var(--text-secondary)]">
         {isMac ? "⌘" : "Ctrl"}
         <span>K</span>
       </kbd>
@@ -110,9 +117,9 @@ export function Navbar() {
           </span>
         </Link>
 
-        {/* Desktop pill nav — same look as SectionNav, emoji + label */}
-        <div className="hidden lg:flex items-center gap-1 flex-1 justify-center min-w-0 overflow-x-auto scrollbar-none">
-          {NAV_LINKS.map((link) => {
+        {/* Desktop pill nav — fits at lg without scroll; xl reveals secondary */}
+        <div className="hidden lg:flex items-center gap-0.5 xl:gap-1 flex-1 justify-center min-w-0">
+          {NAV_PRIMARY.map((link) => {
             const active = isActive(link, pathname);
             return (
               <Link
@@ -120,7 +127,26 @@ export function Navbar() {
                 href={link.href}
                 aria-current={active ? "page" : undefined}
                 className={cn(
-                  "flex shrink-0 items-center gap-1.5 rounded-full px-3 py-1.5 text-xs font-medium whitespace-nowrap transition-all focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]",
+                  "flex shrink-0 items-center gap-1.5 rounded-full px-2.5 xl:px-3 py-1.5 text-xs font-medium whitespace-nowrap transition-all focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]",
+                  active
+                    ? "bg-[var(--accent)] text-white shadow-sm shadow-[var(--accent)]/40"
+                    : "text-[var(--text-secondary)] hover:bg-[var(--bg-elevated)] hover:text-[var(--text-primary)]"
+                )}
+              >
+                <span aria-hidden>{link.emoji}</span>
+                {link.label}
+              </Link>
+            );
+          })}
+          {NAV_SECONDARY.map((link) => {
+            const active = isActive(link, pathname);
+            return (
+              <Link
+                key={link.href}
+                href={link.href}
+                aria-current={active ? "page" : undefined}
+                className={cn(
+                  "hidden xl:flex shrink-0 items-center gap-1.5 rounded-full px-3 py-1.5 text-xs font-medium whitespace-nowrap transition-all focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]",
                   active
                     ? "bg-[var(--accent)] text-white shadow-sm shadow-[var(--accent)]/40"
                     : "text-[var(--text-secondary)] hover:bg-[var(--bg-elevated)] hover:text-[var(--text-primary)]"
@@ -133,21 +159,26 @@ export function Navbar() {
           })}
         </div>
 
-        {/* Desktop CTA — visible from md so favoris/quiz are always reachable on tablet */}
-        <div className="hidden md:flex items-center gap-2 flex-shrink-0">
+        {/* Desktop CTA — compact at md/lg, roomier at xl */}
+        <div className="hidden md:flex items-center gap-1 lg:gap-1.5 xl:gap-2 flex-shrink-0">
           <SearchTrigger />
+          {/* Compact search icon for md/lg where the full pill is hidden */}
+          <div className="xl:hidden">
+            <SearchTrigger compact />
+          </div>
           <Link
             href="/favoris"
-            className="inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-medium text-[var(--text-secondary)] hover:text-[var(--accent-pink)] hover:bg-[var(--bg-elevated)] transition-colors"
+            className="inline-flex items-center gap-1.5 rounded-full px-2.5 py-1.5 text-sm font-medium text-[var(--text-secondary)] hover:text-[var(--accent-pink)] hover:bg-[var(--bg-elevated)] transition-colors"
             aria-label="Mes favoris"
           >
             <Heart className="h-4 w-4" />
             <FavoriteCount />
           </Link>
           <Link href="/quiz">
-            <Button size="md" className="gap-2 rounded-full">
+            <Button size="md" className="gap-1.5 rounded-full px-3 lg:px-4">
               <Sparkles className="h-4 w-4" />
-              Quiz IA
+              <span className="hidden xl:inline">Quiz IA</span>
+              <span className="xl:hidden">Quiz</span>
             </Button>
           </Link>
         </div>
@@ -190,7 +221,7 @@ export function Navbar() {
       >
         <div className="border-t border-[var(--border)] bg-[var(--bg-surface)] px-4 py-4">
           <div className="flex flex-wrap gap-2 mb-3">
-            {NAV_LINKS.map((link) => {
+            {NAV_ALL.map((link) => {
               const active = isActive(link, pathname);
               return (
                 <Link
