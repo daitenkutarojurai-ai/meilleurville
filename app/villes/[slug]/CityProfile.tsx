@@ -509,70 +509,6 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                 <SimilarCities city={city} />
               </Card>
 
-              {/* Neighborhoods link */}
-              <a
-                href={`/villes/${city.slug}/quartiers`}
-                className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
-              >
-                <div>
-                  <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
-                    🏘️ Quartiers de {city.name}
-                  </div>
-                  <div className="text-xs text-[var(--text-tertiary)] mt-0.5">
-                  {neighborhoods.length > 0 ? `${neighborhoods.length} quartiers analysés` : "Sécurité, loyers, ambiance par quartier"}
-                </div>
-                </div>
-                <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors" />
-              </a>
-
-              {/* Climate link */}
-              <a
-                href={`/villes/${city.slug}/climat`}
-                className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
-              >
-                <div>
-                  <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
-                    ☀️ Climat de {city.name}
-                  </div>
-                  <div className="text-xs text-[var(--text-tertiary)] mt-0.5">
-                    {city.sunshinedays ? `${city.sunshinedays} h de soleil · ${city.avgTempJuly ?? "—"}/${city.avgTempJanuary ?? "—"} °C` : "Températures, ensoleillement, quand y aller"}
-                  </div>
-                </div>
-                <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors" />
-              </a>
-
-              {/* Transports link */}
-              <a
-                href={`/villes/${city.slug}/transports`}
-                className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
-              >
-                <div>
-                  <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
-                    🚊 Transports à {city.name}
-                  </div>
-                  <div className="text-xs text-[var(--text-tertiary)] mt-0.5">
-                    Métro, tram, TGV, vélo · score {city.scores.transport.toFixed(1)}/10
-                  </div>
-                </div>
-                <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors" />
-              </a>
-
-              {/* Écoles link */}
-              <a
-                href={`/villes/${city.slug}/ecoles`}
-                className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
-              >
-                <div>
-                  <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
-                    🎓 Écoles à {city.name}
-                  </div>
-                  <div className="text-xs text-[var(--text-tertiary)] mt-0.5">
-                    Université, CPGE, écoles · score {city.scores.schools.toFixed(1)}/10
-                  </div>
-                </div>
-                <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors" />
-              </a>
-
               {/* CTA — partager son expérience via la discussion */}
               <Card className="border-[var(--accent)]/20 bg-[var(--accent)]/5">
                 <div className="text-center">
@@ -591,6 +527,74 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                   </a>
                 </div>
               </Card>
+            </div>
+
+            {/* Sub-pages strip — full-width below the two columns. Was in the
+                right rail but inflated it past main column height, leaving an
+                empty middle band on scroll. Now displayed prominently for
+                discovery + better balance. */}
+            <div className="lg:col-span-3">
+              <h2 className="text-base font-semibold text-[var(--text-primary)] mb-3">
+                Explorer {city.name} en détail
+              </h2>
+              <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+                <a
+                  href={`/villes/${city.slug}/quartiers`}
+                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
+                >
+                  <div className="min-w-0">
+                    <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
+                      🏘️ Quartiers
+                    </div>
+                    <div className="text-xs text-[var(--text-tertiary)] mt-0.5 truncate">
+                      {neighborhoods.length > 0 ? `${neighborhoods.length} quartiers analysés` : "Sécurité, loyers, ambiance"}
+                    </div>
+                  </div>
+                  <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors shrink-0" />
+                </a>
+                <a
+                  href={`/villes/${city.slug}/climat`}
+                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
+                >
+                  <div className="min-w-0">
+                    <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
+                      ☀️ Climat
+                    </div>
+                    <div className="text-xs text-[var(--text-tertiary)] mt-0.5 truncate">
+                      {city.sunshinedays ? `${city.sunshinedays} h soleil · ${city.avgTempJuly ?? "—"}/${city.avgTempJanuary ?? "—"} °C` : "Températures, ensoleillement"}
+                    </div>
+                  </div>
+                  <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors shrink-0" />
+                </a>
+                <a
+                  href={`/villes/${city.slug}/transports`}
+                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
+                >
+                  <div className="min-w-0">
+                    <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
+                      🚊 Transports
+                    </div>
+                    <div className="text-xs text-[var(--text-tertiary)] mt-0.5 truncate">
+                      Métro, tram, TGV, vélo · {city.scores.transport.toFixed(1)}/10
+                    </div>
+                  </div>
+                  <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors shrink-0" />
+                </a>
+                <a
+                  href={`/villes/${city.slug}/ecoles`}
+                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
+                >
+                  <div className="min-w-0">
+                    <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
+                      🎓 Écoles
+                    </div>
+                    <div className="text-xs text-[var(--text-tertiary)] mt-0.5 truncate">
+                      Université, CPGE · {city.scores.schools.toFixed(1)}/10
+                    </div>
+                  </div>
+                  <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors shrink-0" />
+                </a>
+              </div>
             </div>
           </div>
         )}
