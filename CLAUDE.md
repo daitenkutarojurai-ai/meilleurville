@@ -426,8 +426,8 @@ The `comparer/[pair]` route only builds pages for whitelisted slug pairs. Curren
 ### R4.4 — Reading-list at end of each guide
 Below relatedGuides, add a "Lire ensuite" auto-suggest based on category overlap + city overlap (not just hardcoded). Improves session duration and PageRank distribution.
 
-### R4.5 — Department-level fiscalité page (`/villes/[slug]/fiscalite`)
-Revisit R3.3 with **department-level** taxe foncière + taxe d'habitation résidence secondaire rates from DGFiP 2024–2025 (publicly available, real). Clearly label "estimation départementale, varie selon commune" — avoids fake per-city precision while delivering useful info.
+### R4.5 — Department-level fiscalité page (`/villes/[slug]/fiscalite`) ✅
+**Shipped 2026-05-15.** Combined with R3.3 (per-city sub-page). `lib/fiscalite.ts` exposes `fiscalityForCity({ department, region })` returning DGFiP-aligned tiered estimates (taxe foncière T3 ancien fourchette, THRS zone-tendue flag, DMTO standard). 352 `app/villes/[slug]/fiscalite/page.tsx` pages generated via `generateStaticParams`, added to sitemap `city-sub` chunk, surfaced in the CityProfile sub-pages strip (now 5 cards). Disclaimer "estimation départementale" appears before any number.
 
 ## Roadmap v3 — post-250 guides (2026-05-13)
 

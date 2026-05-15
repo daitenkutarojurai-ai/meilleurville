@@ -537,7 +537,7 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
               <h2 className="text-base font-semibold text-[var(--text-primary)] mb-3">
                 Explorer {city.name} en détail
               </h2>
-              <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+              <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
                 <a
                   href={`/villes/${city.slug}/quartiers`}
                   className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
@@ -590,6 +590,20 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                     </div>
                     <div className="text-xs text-[var(--text-tertiary)] mt-0.5 truncate">
                       Université, CPGE · {city.scores.schools.toFixed(1)}/10
+                    </div>
+                  </div>
+                  <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors shrink-0" />
+                </a>
+                <a
+                  href={`/villes/${city.slug}/fiscalite`}
+                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
+                >
+                  <div className="min-w-0">
+                    <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
+                      💰 Fiscalité
+                    </div>
+                    <div className="text-xs text-[var(--text-tertiary)] mt-0.5 truncate">
+                      Taxe foncière, THRS, DMTO · {city.department}
                     </div>
                   </div>
                   <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors shrink-0" />
