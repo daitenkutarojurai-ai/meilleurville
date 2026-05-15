@@ -14062,6 +14062,263 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["petites villes", "<50 000 habitants", "TGV", "hôpital", "fibre", "qualité de vie", "préfecture", "télétravail rural"],
   },
+  {
+    slug: "acheter-moins-200000-euros-france-quelles-villes-2026",
+    title: "Acheter à moins de 200 000 € en 2026 — quelles villes (vraiment) accessibles",
+    metaTitle: "Acheter <200 000 € France 2026 : villes vraiment accessibles — guide",
+    metaDesc:
+      "Quelles villes françaises permettent d'acheter sa résidence principale à moins de 200 000 € en 2026 ? T3 ancien, neuf, types de villes, pièges à éviter.",
+    category: "budget",
+    emoji: "💸",
+    readMinutes: 9,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "200 000 € est le budget plafond pour un primo-accédant moyen avec apport classique (~10-15 %) et 35 % de taux d'effort sur un salaire ~3 200 €/mois. Beaucoup pensent que c'est insuffisant en 2026. La réalité : ~150 villes françaises permettent encore d'acheter un T3 ancien sous 200 k€, et l'écart se creuse. Voici la sélection honnête, par profil et par région.",
+    sections: [
+      {
+        heading: "Ce que 200 000 € permet vraiment en 2026",
+        body: "Avec 200 k€ = 200 k€ + ~14 k€ frais de notaire ancien = 214 k€ tout compris, on cible : (1) T3 ancien 60-75 m² dans une ville moyenne en province. (2) T2 ancien 45-55 m² dans une métropole secondaire (Brest, Limoges, Mulhouse, Saint-Étienne). (3) Maison 80-110 m² avec petit jardin dans un bourg rural ou périurbain (à 1h d'une métropole). (4) Studio 25-35 m² dans le centre des grandes métropoles (Paris exclu : 25 m² ~250 k€ minimum). Le neuf (VEFA) à 200 k€ : T2 en zone B ou C, T3 en zone C éloignée. Difficile à trouver en métropole.",
+      },
+      {
+        heading: "Métropoles secondaires sous 200 k€",
+        body: "(1) **Saint-Étienne** — prix médian T3 ~120-160 k€ centre. La ville la plus abordable de France parmi les métropoles >150 000 hab. Risque : démographie en baisse, certains quartiers en déprise. (2) **Limoges** — T3 ~130-180 k€, foncier accessible, université active, qualité de vie élevée. (3) **Mulhouse** — T3 ~120-170 k€, frontière Suisse à 30 min Bâle (opportunité frontalier). Réputation difficile mais marché en redressement. (4) **Brest** — T3 ~140-190 k€, université, hôpital, climat océanique frais (atout 2040). (5) **Le Havre** — T3 ~110-160 k€, port industriel, TGV Paris 2h, requalification UNESCO. (6) **Nîmes** — T3 ~150-200 k€, climat méditerranéen, patrimoine romain. (7) **Perpignan** — T3 ~120-180 k€, climat, mais marché difficile démographiquement.",
+      },
+      {
+        heading: "Villes moyennes : le grand sweet spot 200 k€",
+        body: "C'est le segment où 200 k€ permet vraiment de bien acheter en 2026. (1) **Bourges** (~62 000 hab) — T3 ~100-150 k€, services préfecture, TER Paris 2h. (2) **Châteauroux** — T3 ~80-130 k€, prix les plus bas pour préfecture services complets. (3) **Cahors** — T3 ~120-170 k€, patrimoine. (4) **Aurillac** — T3 ~90-140 k€, préfecture Cantal. (5) **Charleville-Mézières** — T3 ~80-130 k€, TGV Paris 1h30. (6) **Tarbes** — T3 ~100-150 k€, vue Pyrénées exceptionnelle. (7) **Saint-Dié-des-Vosges** — T3 ~80-130 k€, bourg structurant. (8) **Belfort** — T3 ~110-160 k€, frontière Suisse 30 min. (9) **Vesoul, Lons-le-Saunier, Mâcon, Auxerre** — T3 ~110-170 k€.",
+      },
+      {
+        heading: "Bourgs ruraux et maisons avec jardin",
+        body: "Pour 200 k€ on peut acheter une vraie maison avec jardin en 2026 dans : (1) **Creuse, Indre, Allier, Cher, Nièvre** — maisons 100-140 m² + jardin à 80-150 k€. Désertification médicale réelle à anticiper. (2) **Ardennes, Meuse, Haute-Marne** — mêmes prix, climat continental rude. (3) **Lozère, Aveyron rural, Cantal rural** — patrimoine, mais isolement. (4) **Bretagne intérieure** (Centre-Bretagne, monts d'Arrée) — maisons avec terrain 80-160 k€. Climat océanique tempéré. (5) **Périgord profond, Lot, Tarn-et-Garonne** — maisons en pierre 120-180 k€. (6) **Vosges, Jura** — 100-170 k€ avec terrain, climat continental, eau abondante. Avantage : on peut vraiment habiter en autonomie. Risque : services en contraction, fibre inégale.",
+      },
+      {
+        heading: "Stratégie d'achat 2026 avec 200 k€",
+        body: "(1) **Ciblez le DPE C minimum** — un bien classe E-G nécessite 20-50 k€ de rénovation, mangeant le budget. Aide MaPrimeRénov' utile mais à anticiper sur dossier. (2) **Privilégiez les bourgs structurants** (préfecture, sous-préfecture) plutôt que village isolé : services + revente plus faciles. (3) **Vérifiez la fibre** (ARCEP couverture commune) — sans fibre, le télétravail devient compliqué d'ici 2027. (4) **Calculez les charges réelles** : taxe foncière (vérifier avis du vendeur), charges copropriété, chauffage. Un T3 mal isolé peut coûter 250 €/mois rien qu'en chauffage électrique. (5) **PTZ disponible** sous conditions ressources en zones B2 et C — peut financer 20-40 % de l'achat sans intérêts. (6) **Anticipez la revente** : préférez ville/bourg avec dynamique démographique stable plutôt qu'en déclin.",
+      },
+      {
+        heading: "Le calcul honnête : 200 k€ reste viable, mais pas partout",
+        body: "À 2026, 200 k€ permet de bien acheter dans environ 150 villes françaises (sur ~5 500 communes >1 500 hab). Le seuil critique : viser une ville avec démographie stable/croissante + fibre + services préfecture + accessibilité métropole <1h30. Le piège : acheter dans une petite commune isolée parce que c'est moins cher, et se retrouver bloqué à la revente d'ici 8-15 ans avec une démographie qui décline. La règle d'or : ne pas dépasser 200 k€ pour la résidence principale, c'est très faisable ; mais ne pas descendre sous 80 k€ dans une commune <2 000 habitants sans projet patrimonial clair. Sweet spot 2026 : 130-180 k€ dans une ville moyenne préfecture (Bourges, Châteauroux, Cahors, Aurillac, Tarbes, Saint-Dié...). Région à éviter pour primo : tout le bassin parisien hors grande couronne lointaine, toute la côte atlantique sud, toute la Côte d'Azur, Annecy, Bordeaux centre.",
+      },
+    ],
+    relatedCities: ["limoges", "saint-etienne", "mulhouse", "brest", "bourges"],
+    relatedGuides: [
+      "meilleures-villes-primo-accedants-france-2026",
+      "investissement-locatif-moins-100000-euros-france-2026",
+      "petites-villes-50000-habitants-tout-france-2026",
+      "vivre-en-creuse-guide-2026",
+      "vivre-smic-quelle-ville-france-2026",
+    ],
+    tags: ["acheter <200 000 €", "primo-accédant", "PTZ", "résidence principale", "budget serré", "métropole secondaire", "2026"],
+  },
+  {
+    slug: "villes-frontalieres-suisse-allemagne-belgique-luxembourg-2026",
+    title: "Villes frontalières en France — Suisse, Allemagne, Belgique, Luxembourg en 2026",
+    metaTitle: "Frontaliers France 2026 : Suisse, Allemagne, Belgique, Luxembourg — guide",
+    metaDesc:
+      "Travailler en Suisse, Allemagne, Belgique, Luxembourg en vivant en France : quelles villes choisir, fiscalité, transports, marché logement.",
+    category: "comparaison",
+    emoji: "🛂",
+    readMinutes: 10,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "Travailler dans un pays voisin (Suisse, Allemagne, Belgique, Luxembourg) tout en vivant en France permet de cumuler salaires étrangers + coût de la vie + fiscalité française. Plus de 450 000 français le font en 2026. Voici la lecture par frontière, sans le cliché 'frontaliers = riches' — la réalité est nuancée selon le pays voisin.",
+    sections: [
+      {
+        heading: "Frontière Suisse — Genève, Vaud, Bâle",
+        body: "Le statut frontalier le plus rémunérateur : salaires suisses 2-2,5× supérieurs au français, coût de la vie en France 1,5-2× inférieur à la Suisse. Fiscalité : double accord, imposition Suisse uniquement (cantons Genève, Vaud, Neuchâtel) avec compensation rétrocédée à la France pour Berne, Bâle, Jura. Villes côté français : (1) **Annemasse, Gaillard, Ambilly, Étrembières** — 20 min Genève, ~50 000 frontaliers. Prix m² 4 000-6 000 €, T2 loyer 1 100-1 500 €/mois. (2) **Thonon-les-Bains, Évian** — bord lac Léman, ferry vers Lausanne possible. (3) **Saint-Louis (68)** — 5 min Bâle, prix abordables (~2 500-3 500 €/m²). (4) **Pontarlier, Morteau, Maîche** — vallée Neuchâteloise, salaires Vaudois. (5) **Pays de Gex (Ferney, Gex)** — proximité Genève + organisations internationales (CERN, OMS). Foncier saturé. Avantage : transports en commun denses (tramway transfrontalier Genève-Annemasse 2019). Risque : marché immobilier surchauffé, dépendance volatilité franc suisse.",
+      },
+      {
+        heading: "Frontière Allemande — Sarre, Bade-Wurtemberg",
+        body: "Salaires allemands ~1,3-1,5× supérieurs au français, coût de la vie comparable, fiscalité française (impôt en France pour frontaliers). Statut frontalier nécessite résidence française <30 km frontière ou <100 km avec retour journalier. Villes : (1) **Sarrebourg, Sarreguemines, Forbach** — Sarre allemande, métiers industriels, ~10 000 frontaliers. Foncier très accessible (~1 500-2 200 €/m²). (2) **Strasbourg** — bonus Kehl en face, frontaliers occasionnels, infrastructure exceptionnelle. (3) **Wissembourg, Lauterbourg** — Bade allemande, communes très calmes, prix bas. (4) **Saint-Louis, Huningue** — déjà Suisse-Bâle plus rémunérateur que Bade. (5) **Mulhouse, Colmar** — accès Fribourg-en-Brisgau, marché secondaire frontalier. Avantage : prix très accessibles, langue allemande native dans certaines communes (Alsace-Moselle). Limite : marché du travail allemand plus exigeant linguistiquement que suisse.",
+      },
+      {
+        heading: "Frontière Luxembourg — Lorraine",
+        body: "Statut frontalier le plus dynamique 2026 : ~110 000 frontaliers français vers Luxembourg, +5 % par an depuis 2020. Salaires luxembourgeois ~1,5-2× supérieurs au français pour les profils cadres. Fiscalité : impôt au Luxembourg (taux progressif), avec accord pour résidence française. Villes : (1) **Thionville** — capitale française des frontaliers Luxembourg. Foncier en hausse rapide (~2 500-3 800 €/m²), TER vers Luxembourg-Ville (35 min). (2) **Metz** — TGV-EST Luxembourg 50 min + voiture pratique. Foncier accessible (~2 200-3 200 €/m²). (3) **Longwy, Villerupt, Audun-le-Roman** — bourgs frontaliers, prix très bas (~1 200-2 000 €/m²), trajets directs Luxembourg. (4) **Saulnes, Mont-Saint-Martin** — communes vivant entièrement du frontalier. Avantage : pas de barrière linguistique (luxembourgeois français/allemand), salaires excellents. Risque : marché immobilier en surchauffe locale, dépendance économique mono-état.",
+      },
+      {
+        heading: "Frontière Belge — Nord, Ardennes",
+        body: "Salaires belges ~1× français, frontalier ne joue pas comme avec Suisse/Luxembourg. Avantage : marché du travail différent, opportunités spécifiques (notamment santé, IT, logistique). Fiscalité : impôt en Belgique avec accord France. Villes : (1) **Lille, Roubaix, Tourcoing** — métropole transfrontalière (Mouscron à 5 min, Courtrai 20 min). Marché du travail intégré. (2) **Charleville-Mézières, Sedan, Givet** — Ardennes belges accessibles, prix très bas. (3) **Maubeuge, Jeumont** — frontière Belgique du Nord, communes en désertification. (4) **Hirson, Fourmies** — frontière Belgique, prix très bas. Caractère du flux : moins économique (salaires comparables), plus culturel/familial. ~70 000 frontaliers vers Belgique en 2026.",
+      },
+      {
+        heading: "Frontière Italienne et Espagnole",
+        body: "(1) **Italie** — Salaires italiens ~0,7-0,9× français, frontalier ne joue pas dans ce sens (sauf Suisse italienne). **Menton, Roquebrune-Cap-Martin** : frontière italienne directe, mais beaucoup travaillent à Monaco (statut spécifique, salaires monégasques très élevés). **Modane, Bardonecchia** : frontière savoyarde, peu de flux économique. (2) **Espagne** — Salaires espagnols ~0,7-0,8× français, frontière surtout culturelle. **Hendaye, Saint-Jean-de-Luz, Cambo, Saint-Palais** : Pays Basque transfrontalier, communauté forte. **Perpignan, Le Boulou, Cerbère** : Catalogne, flux culturel + tourisme. Pas un statut frontalier rémunérateur classique sauf cadres internationaux Barcelone/Bilbao avec contrat français.",
+      },
+      {
+        heading: "Pièges classiques du frontalier",
+        body: "(1) **Surévaluation foncière** : marchés frontaliers (Annemasse, Thionville, Saint-Louis) ont surchauffé 2018-2024. Prix m² +60-100 % sur la décennie. (2) **Dépendance économique mono-employeur** : une vie organisée autour d'un job dans un pays étranger = risque si crise du pays voisin (Brexit a fait mal à Calais-Folkestone, hypothèses cantonales suisses). (3) **Fatigue trajets** : 1h30-2h/jour dans transports en commun ou bouchons. Compatibilité famille à anticiper. (4) **Fiscalité changeante** : conventions bilatérales peuvent évoluer (Suisse a renégocié 2020-2024). (5) **Couverture santé** : protection sociale du pays d'emploi par défaut, mutuelle française optionnelle complexe. (6) **Retraite** : double pension à coordonner, démarches lourdes. (7) **Devise** : Suisse en CHF, Luxembourg/Belgique/Allemagne en EUR — volatilité du CHF impacte le pouvoir d'achat des frontaliers Suisse.",
+      },
+      {
+        heading: "Le calcul honnête : choisir la bonne frontière pour soi",
+        body: "Frontière Suisse : meilleure rémunération mais marché immobilier surchauffé, dépendance volatilité CHF, trajets longs depuis villes les plus abordables. Frontière Luxembourg : excellent salaire cadre, marché immobilier en hausse mais encore accessible Thionville/Metz, langue francophone facile. Frontière Allemande : prix immobiliers les plus accessibles, salaires bons, mais barrière linguistique. Frontière Belgique : surtout pour métiers spécifiques (santé), flux moins économique. Frontière Italienne/Espagnole : pas rémunératrice sauf cas spéciaux (Monaco, cadres internationaux). Le bon pari 2026 : (1) Cadre/IT/finance → Luxembourg via Thionville/Metz. (2) Industriel ou santé → Suisse via Annemasse/Saint-Louis. (3) Tech ou industriel allemand → Sarre via Sarrebourg. (4) Profil santé → Belgique via Lille.",
+      },
+    ],
+    relatedCities: ["thionville", "metz", "annemasse", "thonon-les-bains", "lille"],
+    relatedGuides: [
+      "climat-2040-grand-est-alsace-lorraine",
+      "climat-2040-bourgogne-franche-comte-jura",
+      "vivre-en-lorraine-metz-nancy-thionville-2026",
+      "vivre-en-alsace-guide-2026",
+      "metz-vs-nancy-comparatif-2026",
+    ],
+    tags: ["frontaliers", "Suisse", "Luxembourg", "Allemagne", "Belgique", "Thionville", "Annemasse", "Saint-Louis", "salaire", "2026"],
+  },
+  {
+    slug: "devenir-freelance-en-province-quelles-villes-france-2026",
+    title: "Devenir freelance en province en 2026 — quelles villes pour réussir",
+    metaTitle: "Freelance en province 2026 : meilleures villes (fibre, coworkings, réseau)",
+    metaDesc:
+      "Quitter Paris/Lyon pour devenir freelance en province : quelles villes offrent fibre, coworkings, écosystème, clients locaux. Sélection 2026 honnête.",
+    category: "teletravail",
+    emoji: "💼",
+    readMinutes: 9,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "Devenir freelance en province implique 3 paris simultanés : (1) Trouver/conserver des clients à distance. (2) Maintenir un réseau professionnel actif. (3) Garder un cadre de vie qui justifie la province vs la métropole. Voici les villes françaises qui cochent ces 3 cases en 2026, sans le cliché 'tout le monde télétravaille depuis la mer'.",
+    sections: [
+      {
+        heading: "Les 3 facteurs critiques pour freelance",
+        body: "(1) **Connectivité** : fibre FTTH symétrique ≥1 Gbit/s (vital pour visio, transferts, cloud). Vérifier sur ARCEP 'Ma Connexion Internet'. (2) **Écosystème** : présence de coworkings ouverts, d'événements pro/networking réguliers (meetups tech, business club, salon), de profils similaires (freelances, startups, indépendants). (3) **Accessibilité métropole** : TGV ou aéroport pour rejoindre Paris/Lyon en 2-3h max — utile pour clients présentiels, conférences, prospection ponctuelle. Sans ces 3 facteurs, le freelance en province devient un isolement professionnel risqué à 1-2 ans.",
+      },
+      {
+        heading: "Top 10 villes freelance-friendly 2026",
+        body: "(1) **Nantes** — fibre quasi-totale, 50+ coworkings, écosystème Nantes Tech, TGV Paris 2h. (2) **Bordeaux** — French Tech active, scène freelance dense, TGV Paris 2h, climat. (3) **Lille** — 35 min Paris en TGV, coworkings nombreux (Euratechnologies), proximité Bruxelles. (4) **Toulouse** — French Tech Toulouse, écosystème Airbus + startup, fibre. (5) **Rennes** — French Tech Rennes Saint-Malo, université active, TGV Paris 1h25. (6) **Montpellier** — French Tech, climat, université, foncier accessible (sweet spot). (7) **Annecy** — qualité de vie exceptionnelle, fibre, coworkings, mais foncier saturé. (8) **Strasbourg** — écosystème européen + frontalier, IT/biotech. (9) **Grenoble** — biotech, IT, recherche, French Tech, écosystème universitaire fort. (10) **La Rochelle** — surprise 2026, écosystème freelance en croissance (climat + télétravail + petite ville accueillante).",
+      },
+      {
+        heading: "Sous-coté : petites métropoles avec écosystème solide",
+        body: "Villes moins évidentes mais excellentes pour freelance : (1) **Brest** — French Tech Brest+, IT télécom historique, fibre, foncier accessible. (2) **Angers** — French Tech, plant et tech, accessibilité TGV Paris 1h30. (3) **Reims** — TGV Paris 45 min, vignoble, coworkings, profil unique. (4) **Pau** — climat, French Tech, accessibilité avion Paris-Pau 1h. (5) **Limoges** — réindustrialisation, foncier très bas, fibre, communauté de freelances en construction. (6) **Tours** — TGV Paris 1h, qualité de vie, université, fibre. (7) **Dijon** — TGV Paris 1h35, université, foncier accessible. (8) **Besançon** — fibre, université, foncier très accessible, qualité de vie.",
+      },
+      {
+        heading: "Niches : freelance + nature/climat/communauté",
+        body: "(1) **Annecy, Chambéry, Grenoble** : freelance + montagne + ski week-ends. Foncier saturé Annecy. (2) **Biarritz, Bayonne, Saint-Jean-de-Luz** : freelance + surf + climat océanique doux. Foncier saturé côte. (3) **La Rochelle, Sables-d'Olonne, Pornic** : freelance + bord de mer accessible. Marché en croissance. (4) **Sète, Cassis, La Ciotat** : freelance + Méditerranée. Saisonnalité touristique pesante. (5) **Saint-Malo, Quimper, Vannes** : freelance + Bretagne + climat tempéré 2040. (6) **Aurillac, Mende, Le Puy** : freelance + montagne profonde + foncier dérisoire. Isolement réel mais refuge climatique.",
+      },
+      {
+        heading: "Pièges classiques du freelance en province",
+        body: "(1) **Isolement professionnel** : sans coworking ni meetups, on perd le pouls de son marché en 6-12 mois. Solution : viser une ville avec ≥3 coworkings et ≥1 meetup mensuel pro. (2) **Clients trop locaux** : se cantonner à des clients de proximité divise les revenus par 2-3 vs Paris. Solution : maintenir clients à distance (visio, livrables online). (3) **Fibre absente ou poussive** : 30 % des communes <10 000 hab n'ont pas encore la fibre stable en 2026. Vérifier impérativement avant emménagement. (4) **Surévaluation foncière** : Annecy, Bordeaux, Bayonne, Lyon — le freelance s'y installe nombreux, fait monter les prix. (5) **Isolement géographique** : si ville >3h de la métropole client, le présentiel ponctuel devient lourd. (6) **Pas d'événement pro** : viser ville avec calendrier de meetups/salons. (7) **Famille mal intégrée** : freelance + télétravail = présence à la maison renforcée, attention à l'équilibre conjugal et parental.",
+      },
+      {
+        heading: "Le calcul honnête : ville métropole secondaire + écosystème local",
+        body: "Le sweet spot 2026 pour freelance en province : ville 100 000-300 000 habitants avec French Tech ou écosystème équivalent, TGV <2h Paris, ≥3 coworkings, ≥1 meetup mensuel. Top 5 cumulatif : Nantes, Bordeaux, Toulouse, Lille, Rennes (par ordre arbitraire). Tier 2 : Angers, Brest, Montpellier, Strasbourg, Grenoble. Tier 3 spécialisé : Annecy (alpin), La Rochelle (côte), Reims (vignoble + Paris proche). À éviter pour freelance avec ambition : villes <50 000 sans coworking + sans accès TGV/aéro <2h. Le freelance en bourg <20 000 marche uniquement si on est déjà très établi (15+ ans d'expérience, clients fidélisés), avec autonomie financière permettant de ne pas prospecter activement.",
+      },
+    ],
+    relatedCities: ["nantes", "bordeaux", "toulouse", "lille", "rennes"],
+    relatedGuides: [
+      "meilleures-villes-freelances-independants-france-2026",
+      "meilleures-villes-entrepreneurs-startups-france-2026",
+      "villes-cotieres-teletravail-connexion-cadre-2026",
+      "teletravailler-depuis-bretagne-guide-2026",
+      "teletravailler-depuis-nouvelle-aquitaine-guide-2026",
+    ],
+    tags: ["freelance", "indépendant", "télétravail", "coworking", "fibre", "French Tech", "province", "écosystème", "2026"],
+  },
+  {
+    slug: "quitter-paris-30-ans-couple-sans-enfant-2026",
+    title: "Quitter Paris à 30 ans en couple sans enfant — où aller, comment, pour quoi",
+    metaTitle: "Quitter Paris 30 ans couple sans enfant 2026 : meilleures villes — guide",
+    metaDesc:
+      "Quitter Paris à 30 ans, en couple, sans enfant : quelles villes pour un duo dual-income, sans contrainte famille. Analyse honnête 2026.",
+    category: "comparaison",
+    emoji: "💑",
+    readMinutes: 9,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "Quitter Paris à 30 ans en couple sans enfant est un profil spécifique : dual-income élevé, pas de contrainte école, mobilité géographique encore facile, projection 5-10 ans avant éventuel projet famille. Les critères diffèrent radicalement du 'quitter Paris en famille avec 3 enfants'. Voici l'analyse 2026 dédiée à ce profil.",
+    sections: [
+      {
+        heading: "Ce qui change vs un départ en famille",
+        body: "Sans enfant : pas d'école à choisir, pas de quartier 'safe' à privilégier, pas de pédiatre à trouver. On peut privilégier centre-ville urbain, ambiance bars/restaurants, scène culturelle, foncier accessible. On peut accepter une petite ville si le couple a 2 salaires solides + clients à distance + envie de qualité de vie. Le risque : un déménagement subi par l'un des deux conjoints (carrière sacrifiée) — anticiper la mobilité pro AVANT le déménagement. Profil cible 2 freelances ou 2 télétravailleurs ou 1+1 (l'un télétravail, l'autre cherche localement).",
+      },
+      {
+        heading: "Les villes 'next-Paris' — métropoles dynamiques",
+        body: "(1) **Lyon** — la métropole secondaire la plus complète : transports, restos, scène culturelle, économie, TGV Paris 2h. Foncier accessible vs Paris (3 200-4 800 €/m² centre vs 11 000+ Paris). Idéal couple cadre. (2) **Marseille** — l'inverse de Lyon : ambiance, mer, climat, prix accessibles (2 700-4 200 €/m€ centre), mais plus chaotique. Convient à profil tolérant aux désordres urbains. (3) **Bordeaux** — qualité de vie élevée, scène gastronomique, climat, vignobles, TGV Paris 2h. Foncier saturé centre (~5 000-7 000 €/m²) mais hors centre accessible. (4) **Nantes** — équilibre travail/loisir, vie culturelle, TGV Paris 2h, fonction publique + tech + tertiaire. (5) **Toulouse** — économie aéronautique solide, climat, université active, scène culturelle.",
+      },
+      {
+        heading: "Villes 'sweet spot' — qualité de vie + foncier",
+        body: "Pour profil sans contrainte budget extrême, foncier élevé OK contre qualité de vie maximale : (1) **Annecy** — lac, montagne, qualité de vie classée #1 France. Foncier saturé (~5 500-7 500 €/m²). TGV Paris 3h40. Risque saturation touristique estivale. (2) **Aix-en-Provence** — culture, climat, université, foncier saturé mais ambiance unique. (3) **La Rochelle** — bord de mer accessible, TGV Paris 3h, scène culturelle. (4) **Strasbourg** — Europe, gastronomie, TGV Paris 1h45, foncier accessible (~3 500-5 000 €/m²). (5) **Montpellier** — climat, jeunesse, foncier sweet spot (~2 800-4 500 €/m²), démographie #1 France. (6) **Nice** — Méditerranée, climat, mais foncier élevé et marché spéculatif. (7) **Bayonne, Biarritz** — Pays Basque, surf, climat océanique, foncier saturé.",
+      },
+      {
+        heading: "Petites villes pour duo freelance / télétravail",
+        body: "Profil 2 télétravailleurs ou freelances solides, capacité à choisir sans contrainte employeur local : (1) **Saint-Malo, Vannes, Quimper** — Bretagne tempérée 2040, qualité de vie élevée, foncier accessible. (2) **Pau, Tarbes** — Pyrénées proche, foncier dérisoire (~1 500-2 500 €/m²), refuge climatique 2040. (3) **Annecy si budget** ou alternative : **Chambéry** — Alpes accessibles, foncier ~3 500 €/m². (4) **Colmar, Sélestat** — Alsace patrimoine, fibre, frontière allemande proche, foncier ~2 500-3 500 €/m². (5) **Aurillac, Mende, Rodez** — Massif Central refuge climatique, foncier dérisoire (~1 500 €/m²), services préfecture. (6) **La Rochelle, Sables-d'Olonne, Pornic** — côte atlantique, accessibilité TGV, foncier accessible (~3 500-5 000 €/m²).",
+      },
+      {
+        heading: "Mistake classique : choisir trop vite",
+        body: "Erreur fréquente du couple 30 ans : déménager dans une jolie ville sans préparation. Pièges : (1) **Test trop court** : 1 weekend ne suffit pas. Recommandation : louer 1-3 mois en mode 'résidence temporaire' avant achat — beaucoup de villes le proposent (Airbnb longue durée, agences). (2) **Suivre un conjoint sans plan B** : la carrière du conjoint suiveur doit être pensée. Si freelance ou télétravail : OK. Si emploi local nécessaire : tester le marché local avant. (3) **Sous-estimer l'écart culturel** : Paris vs Marseille = bouleversement total. Paris vs Lyon = transition. Paris vs Annecy = changement de rythme radical (rural-friendly). (4) **Sur-estimer son réseau** : amis et famille viendront moins souvent qu'imaginé. Anticiper la nouvelle vie sociale à reconstruire.",
+      },
+      {
+        heading: "Stratégie 5 ans : louer puis acheter, ou acheter direct ?",
+        body: "Profil 30 ans sans enfant en couple, deux scénarios : (1) **Acheter directement** : OK si projection 7+ ans, ville cible bien identifiée, budget confortable. Risque : si projet famille dans 2-3 ans, le bien peut ne plus convenir (T2 → T3+ besoin). (2) **Louer 1-2 ans puis acheter** : sécurise le choix de ville, permet d'identifier le bon quartier, teste vraiment la vie locale. Recommandation pour la majorité des couples 30 ans. Loyer + frais notaire évités peuvent financer un meilleur achat à 2-3 ans. Budget cible : viser maximum 35 % taux d'effort. Prévoir 80-100 k€ apport idéalement pour bien acheter sans contrainte.",
+      },
+      {
+        heading: "Le calcul honnête : profil-dépendant",
+        body: "Le couple 30 ans sans enfant à Paris dispose d'un avantage mobilité unique. À 35 ans avec enfant, le déménagement est 3× plus complexe. Donc : si l'envie de partir existe, c'est maintenant. Le bon profil 2026 : (1) Cadres dual-income télétravail-friendly → métropole secondaire dynamique (Lyon, Bordeaux, Nantes, Toulouse, Lille). (2) Freelances autonomes → ville qualité de vie (Annecy, Bayonne, La Rochelle, Strasbourg). (3) Profils tech/startups → French Tech ville (Nantes, Toulouse, Rennes, Grenoble). (4) Profils retour aux sources / proche famille → bourg origine + télétravail. La règle : ne pas se sentir obligé de fuir Paris, mais ne pas s'y accrocher non plus par défaut. Choisir activement vs subir.",
+      },
+    ],
+    relatedCities: ["lyon", "bordeaux", "nantes", "annecy", "strasbourg"],
+    relatedGuides: [
+      "quitter-paris-guide-2025",
+      "meilleures-villes-freelances-independants-france-2026",
+      "devenir-freelance-en-province-quelles-villes-france-2026",
+      "vivre-au-vert-pres-de-paris-1h-2026",
+      "expatries-retour-france-quelle-ville-2026",
+    ],
+    tags: ["quitter Paris", "couple", "30 ans", "sans enfant", "dual-income", "mobilité", "qualité de vie", "2026"],
+  },
+  {
+    slug: "acheter-maison-campagne-france-2026-vraiment-vivable",
+    title: "Acheter une maison de campagne en France 2026 — où c'est vraiment vivable",
+    metaTitle: "Maison de campagne 2026 : où c'est vivable en France (fibre, services, climat)",
+    metaDesc:
+      "Acheter une maison à la campagne en 2026 : où c'est vraiment vivable (fibre, hôpital, école), où ce n'est qu'un rêve. Analyse honnête par région.",
+    category: "lifestyle",
+    emoji: "🏡",
+    readMinutes: 9,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "Fantasme français récurrent depuis le Covid : acheter une maison à la campagne, jardin, calme. La réalité 2026 : la moitié des campagnes françaises ont la fibre, services médicaux et scolaires, l'autre moitié décline rapidement. Voici comment distinguer la campagne 'vivable' de la campagne 'pittoresque mais piégeuse'.",
+    sections: [
+      {
+        heading: "Les 5 critères de la campagne vivable 2026",
+        body: "(1) **Fibre FTTH** au minimum 300 Mbit/s téléchargement. Sans fibre, télétravail compliqué, services digitaux limités (carte ARCEP). (2) **Hôpital ou maison de santé** à <30 min en voiture. Sans cela, vieillissement et famille jeune compliqués. (3) **École primaire** dans le village ou commune voisine (<15 min). Sans cela, famille = ramassage scolaire 1h+/jour. (4) **Supermarché** ou drive à <20 min. Au-delà, alimentation devient projet quotidien. (5) **Bourg structurant** (préfecture, sous-préfecture, gros chef-lieu) à <40 min. Sans bourg de référence, isolement social et administratif fort. Les zones cumulant ces 5 facteurs sont environ 40 % des communes rurales françaises en 2026.",
+      },
+      {
+        heading: "Régions où la campagne est vraiment vivable",
+        body: "(1) **Île-de-France grande couronne** (Yvelines ouest, Essonne sud, Seine-et-Marne) — campagne avec services parisiens accessibles. Pas vraiment campagne profonde, mais qualité de vie + Paris. (2) **Centre-Val de Loire** (Tours-Orléans-Blois rural) — fibre rapide, climat tempéré, services préfectures denses, foncier accessible. (3) **Bretagne intérieure** (Centre-Bretagne hors îles) — fibre en couverture, climat tempéré 2040, qualité services correctes. (4) **Pays de Loire rural** — densité moyenne, services, climat océanique. (5) **Nouvelle-Aquitaine Charente, Vienne, Deux-Sèvres** — campagne traditionnelle avec services préfecture. (6) **Auvergne-Rhône-Alpes Drôme, Ardèche provençale** — refuge climatique + services. (7) **Alsace plaine** — fibre, services denses, foncier raisonnable.",
+      },
+      {
+        heading: "Régions où c'est plus complexe — mais possible",
+        body: "(1) **Massif Central profond** (Creuse, Lozère, Cantal rural) — fibre arrivante, services en contraction. Pari sur arrivée massive de néo-ruraux (effet d'attraction des prix bas). Bon pari à 5-10 ans, isolement réel court terme. (2) **Pyrénées profondes** (Ariège, Hautes-Pyrénées sud) — services limités mais paysages exceptionnels. Refuge climatique 2040 potentiel. (3) **Sud-Ouest profond** (Lot, Aveyron rural, Tarn rural) — patrimoine, climat, mais services médicaux en tension. (4) **Provence intérieure** (Drôme provençale, Verdon, Lure) — qualité paysage + climat, mais saturation touristique estivale + sécheresse aggravée 2040. (5) **Bretagne profonde** (Centre-Bretagne) — services correctes, climat tempéré, foncier accessible.",
+      },
+      {
+        heading: "Régions à éviter pour campagne vivable (sauf profil très spécifique)",
+        body: "(1) **Lorraine plateaux profonds** (Meuse, Haute-Marne, Vosges nord) — climat continental rude, démographie en chute, services en contraction critique. (2) **Champagne crayeuse** — paysage agricole monotone, peu d'attrait pour vivre. (3) **Picardie profonde** (Aisne sud, Somme intérieure) — démographie en baisse forte, services en tension. (4) **Sologne profonde, Berry profond** — beauté patrimoniale mais densité très faible, déserts médicaux confirmés. (5) **Camargue** — risques sanitaires (moustiques, humidité), isolement. (6) **Beauce** — paysage de grandes cultures sans charme rural traditionnel.",
+      },
+      {
+        heading: "Pièges classiques de l'achat campagne 2026",
+        body: "(1) **Rénovation explosive** : maison ancienne campagne souvent DPE F/G, isolation à refaire 40-100 k€. Toiture, charpente, électricité, plomberie peuvent vite cumuler. (2) **Eau et assainissement** : assainissement non-collectif (fosse septique) → mise aux normes obligatoire avant vente, peut coûter 8-15 k€. (3) **Inondations** : 30 % des biens 'campagne' sont en zone inondable. Vérifier PPRI sur Géorisques. (4) **Voisinage agricole** : pulvérisations, traitements, bruit machines à 5h du matin. Vérifier voisinage exact. (5) **Chasse** : période chasse 6 mois/an, environ 1 million de chasseurs en France. Vérifier ACCA (association communale de chasse agréée). (6) **Sectorisation scolaire** : école primaire à 10 km en pratique. (7) **Coût voiture x2** : un couple = 2 voitures obligatoires. Budget +800-1 200 €/mois en TCO (carburant + assurance + entretien + amortissement).",
+      },
+      {
+        heading: "Stratégie d'achat 2026 — Test puis achat",
+        body: "Pour quiconque hésite : (1) **Louer 6-12 mois en saison hivernale ET estivale** dans la commune cible. La campagne en juillet n'est pas la campagne en janvier. (2) **Vérifier les 5 critères** systématiquement avant offre : fibre (ARCEP), hôpital (15 min ou moins ?), école primaire active, supermarché ou drive, bourg structurant à <40 min. (3) **DPE C-D minimum** pour éviter la spirale rénovation. (4) **Diagnostic avant offre** : faire venir un artisan pour audit énergétique + structure, 400-800 € qui peuvent sauver 30 k€. (5) **Vérifier PPR** (inondation, mouvement terrain, retrait-gonflement argile). (6) **Budget rénovation = 30 % du prix d'achat minimum** en réserve, jamais en pari. (7) **Voisinage** : visiter à plusieurs heures du jour, parler aux 2-3 voisins immédiats si possible.",
+      },
+      {
+        heading: "Le calcul honnête : campagne vivable, mais sélective",
+        body: "Acheter une maison à la campagne en France 2026 reste viable, voire idéal pour le bon profil. Mais c'est devenu sélectif : 40 % des communes rurales cochent les 5 critères de vivabilité, 60 % posent des risques. Le bon profil : (1) Télétravailleur avec emploi stable + revenu solide. (2) Couple ou personne âgée 55+ encore mobile, sans contrainte famille jeune. (3) Famille avec adolescents acceptant ramassage scolaire et accès culture/sport métropolitain ponctuel. (4) Profil DIY pour rénovation, ou budget rénovation confortable. Le mauvais profil : (1) Couple avec très jeunes enfants en situation d'isolement médical/scolaire. (2) Personnes âgées 75+ avec besoins santé fréquents. (3) Profils dépendants service métropolitain quotidien (loisirs, vie sociale). (4) Profils sous-budgetés rénovation. Sweet spot 2026 : commune <2 000 hab à <20 min d'un bourg structurant >5 000 hab, fibre + DPE D minimum, PPRI vérifié, budget rénovation 20-40 k€ en réserve.",
+      },
+    ],
+    relatedCities: ["aurillac", "guingamp", "auxerre", "rodez", "le-puy-en-velay"],
+    relatedGuides: [
+      "petites-villes-50000-habitants-tout-france-2026",
+      "vivre-en-creuse-guide-2026",
+      "vivre-en-perigord-dordogne-guide-2026",
+      "vivre-en-auvergne-profonde-guide-2026",
+      "climat-2040-massif-central-montagne-refuge",
+    ],
+    tags: ["maison de campagne", "rural", "fibre", "rénovation", "DPE", "PPRI", "campagne vivable", "néo-ruraux", "2026"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
