@@ -5,6 +5,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { AmbientBackground } from "@/components/AmbientBackground";
 import { CITIES_SEED } from "@/data/cities-seed";
+import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -178,11 +179,19 @@ export default async function ClimatPage({ params }: Props) {
     "description": `Climat ${climate.label.toLowerCase()} à ${city.name}. ${climate.oneLiner}`,
   };
 
+  const breadcrumb = breadcrumbJsonLd([
+    { name: "Accueil", path: "/" },
+    { name: "Villes", path: "/villes" },
+    { name: city.name, path: `/villes/${slug}` },
+    { name: "Climat", path: `/villes/${slug}/climat` },
+  ]);
+
   return (
     <main id="main-content" className="min-h-screen relative">
       <AmbientBackground />
       <Navbar />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(breadcrumb)} />
 
       <section className="relative pt-20 pb-8">
         <div className="mx-auto max-w-5xl px-4 sm:px-6">

@@ -7,6 +7,7 @@ import { AmbientBackground } from "@/components/AmbientBackground";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { fiscalityForCity, TIER_TONE } from "@/lib/fiscalite";
 import { deptToSlug } from "@/lib/dept-slug";
+import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { Coins, AlertTriangle, Home as HomeIcon, FileText, Info } from "lucide-react";
 
@@ -43,7 +44,7 @@ export default async function FiscalitePage({ params }: Props) {
   const dmtoTotal = (f.dmtoDroitsPercent + 1.5).toFixed(1); // droits + notaire + frais
   const dmtoExample280k = Math.round(280_000 * (f.dmtoDroitsPercent + 1.5) / 100);
 
-  const jsonLd = {
+  const articleJsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: `Fiscalité immobilière à ${city.name} — Taxe foncière, THRS, DMTO 2026`,
@@ -52,9 +53,39 @@ export default async function FiscalitePage({ params }: Props) {
     isPartOf: { "@type": "WebSite", name: "MeilleurVille" },
   };
 
+  const breadcrumb = breadcrumbJsonLd([
+    { name: "Accueil", path: "/" },
+    { name: "Villes", path: "/villes" },
+    { name: city.name, path: `/villes/${slug}` },
+    { name: "Fiscalité", path: `/villes/${slug}/fiscalite` },
+  ]);
+
+  const faq = faqJsonLd([
+    {
+      q: `Quelle est la taxe foncière à ${city.name} ?`,
+      a: `Estimation départementale 2026 pour un T3 ancien à ${city.name} (${city.department}) : ${f.taxeFonciereT3}. La valeur exacte dépend du taux communal voté chaque année et de la base locative cadastrale du bien — vérifier sur le dernier avis de taxe foncière du vendeur. ${f.tierLabel}.`,
+    },
+    {
+      q: `${city.name} est-elle en zone tendue pour la THRS ?`,
+      a: f.zoneTendue
+        ? `${city.department} comporte des communes classées en zone tendue (décret n° 2023-822). Les communes concernées peuvent appliquer une majoration de THRS de +5 % à +60 % pour les résidences secondaires. Vérifier le statut exact de ${city.name} sur service-public.fr avant achat.`
+        : `${city.department} n'a pas de commune classée en zone tendue à date. La THRS sur résidence secondaire à ${city.name} est appliquée au taux standard, sans majoration.`,
+    },
+    {
+      q: `Combien coûtent les frais de notaire à ${city.name} ?`,
+      a: `Pour un achat dans l'ancien à ${city.name}, prévoir environ ${dmtoTotal} % du prix de vente en droits de mutation (DMTO) + frais de notaire. Sur un bien à 280 000 €, cela représente environ ${dmtoExample280k.toLocaleString("fr-FR")} €. Dans le neuf (VEFA), les frais sont réduits à ~2-3 %.`,
+    },
+    {
+      q: `Comment la taxe foncière est-elle calculée ?`,
+      a: `Taxe foncière annuelle = base locative cadastrale (valeur locative théorique brute / 2) × (taux communal + taux département) + frais de gestion 3 %. Le taux communal varie de 20 % à 60 % selon la commune ; le taux département est uniforme dans ${city.department}. Source : DGFiP, Code général des impôts.`,
+    },
+  ]);
+
   return (
     <main id="main-content" className="min-h-screen relative">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(articleJsonLd)} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(breadcrumb)} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(faq)} />
       <AmbientBackground />
       <Navbar />
 

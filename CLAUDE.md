@@ -426,6 +426,9 @@ Bordeaux, Nantes, Strasbourg, Rennes, Montpellier — all in active price-discov
 ### R4.4 — Reading-list at end of each guide
 Below relatedGuides, add a "Lire ensuite" auto-suggest based on category overlap + city overlap (not just hardcoded). Improves session duration and PageRank distribution.
 
+### R6.2 — JSON-LD broadening ✅
+**Shipped 2026-05-15.** New `faqJsonLd` helper in `lib/jsonld.ts`. FAQPage emitted on both fiscalité pages (per-city + dept hub), each with 4 Q&A derived from the actual page content. BreadcrumbList JSON-LD now on all city sub-pages (quartiers, climat, transports, ecoles, fiscalite) + dept fiscalité hub. AI search engines (Perplexity, AI Overviews) get explicit structured signals to cite.
+
 ### R6.1 — Department fiscalité hub (`/departements/[slug]/fiscalite`) ✅
 **Shipped 2026-05-15.** Mirror of the per-city fiscalité page at the department level. 46 hub pages generated, each lists every city in the department with a link to its detailed fiche. Cross-links from per-city fiche back to the hub. New `lib/dept-slug.ts` shared between dept index and the hub. Added to sitemap `departements` chunk. Refactored `app/departements/[dept]/page.tsx` to import the shared helpers (replaces a broken regex literal `[̀-ͯ]` with the proper `\\p{Diacritic}` pattern).
 

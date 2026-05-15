@@ -9,7 +9,7 @@ import { fiscalityForCity, TIER_TONE } from "@/lib/fiscalite";
 import { deptToSlug, slugToDept, getAllDepartments } from "@/lib/dept-slug";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { Coins, AlertTriangle, Home as HomeIcon, FileText, MapPin } from "lucide-react";
-import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 
 type Props = { params: Promise<{ dept: string }> };
 
@@ -59,9 +59,31 @@ export default async function DeptFiscalitePage({ params }: Props) {
     { name: "Fiscalité", path: `/departements/${deptSlug}/fiscalite` },
   ]);
 
+  const faq = faqJsonLd([
+    {
+      q: `Quelle est la taxe foncière moyenne dans le département ${dept} ?`,
+      a: `Estimation 2026 pour un T3 ancien dans le département ${dept} : ${f.taxeFonciereT3}. ${f.tierLabel}. La valeur exacte varie de ±30 % selon la commune et la base locative cadastrale du bien.`,
+    },
+    {
+      q: `Quels frais de notaire prévoir pour un achat dans ${dept} ?`,
+      a: `Pour un achat dans l'ancien : environ ${dmtoTotal} % du prix de vente (DMTO + frais de notaire). Sur un bien à 280 000 €, cela représente ~${dmtoExample280k.toLocaleString("fr-FR")} €. Le neuf (VEFA) bénéficie de droits réduits à ~2-3 %.`,
+    },
+    {
+      q: `Y a-t-il une zone tendue dans ${dept} ?`,
+      a: f.zoneTendue
+        ? `Oui, ${dept} comporte des communes classées en zone tendue (décret n° 2023-822). Les communes concernées peuvent appliquer une majoration de THRS jusqu'à +60 % pour les résidences secondaires.`
+        : `À date, ${dept} n'a pas de commune en zone tendue. La THRS résidence secondaire y est appliquée au taux standard.`,
+    },
+    {
+      q: `Combien de villes sont couvertes dans ${dept} ?`,
+      a: `${citiesInDept.length} ville${citiesInDept.length > 1 ? "s sont profilées" : " est profilée"} dans le département ${dept}, chacune avec sa fiche fiscalité dédiée accessible depuis cette page.`,
+    },
+  ]);
+
   return (
     <main id="main-content" className="min-h-screen relative">
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(breadcrumb)} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(faq)} />
       <AmbientBackground />
       <Navbar />
 

@@ -7,6 +7,7 @@ import { AmbientBackground } from "@/components/AmbientBackground";
 import { Card } from "@/components/ui/Card";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { getNeighborhoods } from "@/data/neighborhoods";
+import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -81,6 +82,13 @@ export default async function QuartiersPage({ params }: Props) {
     })),
   } : null;
 
+  const breadcrumb = breadcrumbJsonLd([
+    { name: "Accueil", path: "/" },
+    { name: "Villes", path: "/villes" },
+    { name: city.name, path: `/villes/${slug}` },
+    { name: "Quartiers", path: `/villes/${slug}/quartiers` },
+  ]);
+
   return (
     <main id="main-content" className="min-h-screen relative">
       <AmbientBackground />
@@ -88,6 +96,7 @@ export default async function QuartiersPage({ params }: Props) {
       {jsonLd && (
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       )}
+      <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(breadcrumb)} />
 
       <section className="relative pt-20 pb-10">
         <div className="mx-auto max-w-5xl px-4 sm:px-6">
