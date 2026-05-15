@@ -16382,6 +16382,315 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["DPE", "audit énergétique", "MaPrimeRénov", "passoire thermique", "interdiction location", "rénovation énergétique", "RT2020", "2026"],
   },
+  {
+    slug: "acheter-grange-a-renover-france-2026",
+    title: "Acheter une grange à rénover en France 2026 — permis, coûts, régions",
+    metaTitle: "Acheter grange à rénover 2026 : permis, transformation, coûts — guide",
+    metaDesc:
+      "Acheter une grange à rénover en France 2026 : permis transformation usage, ENS, coûts rénovation 80-200k€, villes/régions, néo-ruraux.",
+    category: "lifestyle",
+    emoji: "🏚️",
+    readMinutes: 9,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "Acheter une grange agricole pour la transformer en habitation reste un projet séduisant en 2026 — patrimoine rural, charme architectural, volume, prix accessible. Mais transformation de bâtiment non-habitation = procédure complexe (permis, urbanisme, normes) et budget rénovation lourd (80-200 k€). Voici la lecture honnête.",
+    sections: [
+      {
+        heading: "Pourquoi acheter une grange en 2026",
+        body: "(1) **Charme patrimonial** : poutres apparentes, volume cathédrale, pierres locales, fenêtres baies vitrées projet final. (2) **Prix d'achat accessible** : grange brute 40-150 k€ selon région (vs maison ancienne équivalente 150-300 k€). (3) **Personnalisation** : projet sur-mesure, choix architecte, plan adapté au mode de vie. (4) **Performance énergétique** : rénovation lourde = DPE A-B atteignable (RE2020-compatible). (5) **Plus-value à 10-15 ans** : maison rénovée 280-500 k€ pour investissement total 150-300 k€. (6) **Trend néo-rural** : communautés artistes/freelances/familles installées en grange rénovée (Aveyron, Périgord, Cévennes). (7) **Volumes 2026** : ~5 000-8 000 transformations grange/an en France. En croissance.",
+      },
+      {
+        heading: "Procédure — permis et urbanisme",
+        body: "(1) **Changement de destination** obligatoire : grange agricole → habitation. Demande au PLU (Plan Local d'Urbanisme) communal. (2) **PLU compatible** : tout dépend du zonage. Zones rurales (N, A) souvent restrictives. Zone urbaine (U) ou rurale habitable (UH) permettent transformation. (3) **Loi 2018 'urbanisme rural'** : facilite changement destination pour 'bâtiments présentant un intérêt patrimonial' identifiés au PLU. Bonne nouvelle pour granges patrimoniales. (4) **Permis de construire** : obligatoire si changement destination + travaux de transformation. Délai 2-4 mois. (5) **Architecte obligatoire** : pour surface habitable >150 m². Honoraires 8-12 % du coût travaux. (6) **DUC** (Déclaration d'Utilité Communale) : certaines communes encadrent transformations pour préserver caractère rural. (7) **Conseil DDT** (Direction Départementale des Territoires) : consultation préalable recommandée AVANT signature compromis. (8) **Recours voisins** : 2 mois après affichage permis. Risque si grange en hameau dense.",
+      },
+      {
+        heading: "Coût rénovation grange — détail",
+        body: "Pour transformation grange 200 m² en habitation T5 100-150 m² habitable + grenier/garage. (1) **Études préalables** : architecte plan 5-12 k€, étude sol 1-3 k€, étude thermique 0,5-1 k€. (2) **Gros œuvre** : reprise fondations si nécessaire (souvent), création planchers, escalier, ouvertures fenêtres/portes. 40-80 k€. (3) **Isolation** : par l'intérieur (sarking ou doublage) ou extérieur (ITE). 30-50 k€ pour 200 m². (4) **Toiture** : reprise charpente + couverture neuve (tuiles, ardoises). 20-50 k€. (5) **Menuiseries** : fenêtres double vitrage RE2020, portes extérieures, volets. 12-25 k€. (6) **Électricité complet** : 10-20 k€ aux normes. (7) **Plomberie + chauffage** : pompe à chaleur ou granulés, sanitaires complets. 18-30 k€. (8) **Cloisons intérieures + finitions** : peinture, sols, salles de bain, cuisine équipée. 25-50 k€. (9) **TOTAL** : 150-280 k€ pour grange 200 m² → habitation 100-150 m².",
+      },
+      {
+        heading: "Régions où acheter une grange — opportunités 2026",
+        body: "(1) **Périgord** (Dordogne, Lot, Lot-et-Garonne) — granges en pierre, communauté néo-rurale + expat britannique active. Prix 50-150 k€ grange brute. (2) **Aveyron, Cantal, Lozère** — Massif Central, granges en pierre locale, refuge climatique 2040. Prix 30-100 k€. (3) **Cévennes** (Gard, Lozère, Ardèche) — granges patrimoniales, terrasses, communauté alternative. Prix 60-160 k€. (4) **Vosges du Sud** — fermes alsaciennes en bois et pierre, climat continental modéré. (5) **Centre-Bretagne** — longères, granges agricoles, communautés en construction. Prix 40-120 k€. (6) **Aubrac, Margeride** — granges d'estive, isolement réel mais prix dérisoires (30-80 k€). (7) **Pays Basque intérieur** — fermes (etxe) en pierre/colombages, climat tempéré, communauté basque. Prix 80-200 k€ (plus tendu). (8) **Provence intérieure** (Drôme provençale, Lubéron arrière-pays) — mas, bergeries. Prix 150-350 k€ (surcoté).",
+      },
+      {
+        heading: "Pièges classiques achat grange",
+        body: "(1) **PLU restrictif** : certaines communes refusent systématiquement transformation grange en habitation (préservation caractère agricole). Vérifier AVANT compromis. Certificat d'urbanisme opérationnel (CUb) obligatoire. (2) **Bâti non-conforme normes** : grange ancienne sans fondations, plancher en terre, charpente fragile. Étude structure indispensable 1-3 k€. (3) **Sous-estimer budget** : 30-50 % de dépassement moyen sur transformation. Garder réserve 30 %. (4) **Délai 18-30 mois** : permis + chantier + livraison. Prévoir logement temporaire. (5) **Raccordements** : eau, électricité, télécom à plusieurs centaines mètres. 10-30 k€ supplémentaires. (6) **Assainissement non-collectif** : fosse septique aux normes 8-15 k€. (7) **Bâti agricole exempt impôts** : maisons soumis ensuite à taxe foncière dès passage en habitation. Vérifier valeur cadastrale projetée. (8) **Servitudes agricoles** : passage tracteurs, droit d'eau, droit de chasse. Vérifier acte. (9) **Aides limitées** : MaPrimeRénov' éligible si grange devient habitation, mais Eco-PTZ pas systématique.",
+      },
+      {
+        heading: "Profils pour qui ça marche",
+        body: "(1) **Famille néo-rurale 35-50 ans** : projet 10-20 ans, capital + capacité crédit, télétravail OU activité locale. Top profil. (2) **Architecte/professionnel bâti** : compétences techniques pour suivre chantier, gestion projet, économies main d'œuvre. (3) **Retraité actif** : capital disponible, temps pour suivre chantier, vision long terme (jusqu'à fin de vie). (4) **Investisseur 'engagé'** : projet immobilier 10-15 ans avec valorisation patrimoine ET projet vie (gîte, chambres d'hôtes secondairement). (5) **Couple télétravail solide** : fibre rurale + autonomie pro + budget capital tampon. **Pas adapté** : (1) Primo-accédant sous-capitalisé. (2) Couple avec très jeunes enfants pendant chantier. (3) Profil impatient. (4) Profil sans réseau artisans locaux. (5) Profil rural sans projet professionnel local + sans télétravail solide.",
+      },
+      {
+        heading: "Stratégie achat grange 2026 — étape par étape",
+        body: "(1) **Préparation 6-12 mois AVANT achat** : (a) Définir région cible + 3-5 communes prioritaires. (b) Visiter 6-10 granges. (c) Apport 30-50 % minimum requis. (d) Contacter banque pour pré-accord crédit. (2) **Choix bien** : (a) PLU favorable confirmé. (b) Fondations en bon état. (c) Charpente saine (charpentier inspection 200-400 €). (d) Raccordements possibles <500 m. (e) Pas en zone PPRI/PPRIF rouge. (3) **Compromis avec conditions suspensives** : (a) Certificat d'urbanisme (CUb) favorable. (b) Permis de construire obtenu. (c) Crédit accordé. (4) **Pendant les 4-6 mois** entre compromis et acte : permis de construire + études techniques + appel d'offres entreprises. (5) **Travaux** : 12-18 mois durée typique. Phasage strict, paiement échelonné. (6) **Réception** : architecte + propriétaire, levée réserves, attestation conformité. (7) **Aides post-livraison** : MaPrimeRénov' + crédit d'impôt énergétique selon prestations.",
+      },
+      {
+        heading: "Pas confondre — grange vs corps de ferme vs hangar agricole",
+        body: "(1) **Grange agricole pierre** : bâtiment patrimonial, transformation possible avec autorisation. Le plus prisé. (2) **Corps de ferme entier** : grange + habitation + dépendances. Achat global, transformation cohérente possible. (3) **Hangar agricole tôle** (post-1970) : moins patrimonial, transformation possible mais charme limité, autorisations parfois plus strictes (caractère 'industriel'). Coût rénovation similaire mais résultat moins valorisé. (4) **Étable / écurie** : transformation possible mais bâti souvent moins isolant que grange. (5) **Cellier / chai (Sud-Ouest)** : transformation possible, charme particulier vignoble. (6) **Mas (Provence)** : prix élevé, souvent déjà rénové ou en cours. Pas vraiment 'transformation grange'. **Top achat 2026** : grange en pierre <200 m² isolée ou en hameau de 2-5 maisons, climat préservé (Massif Central, Bretagne intérieure, Vosges).",
+      },
+      {
+        heading: "Le calcul honnête : projet patrimonial 10+ ans, pas opération courte",
+        body: "Acheter une grange à rénover en France 2026 = projet patrimonial long terme exigeant : (1) **Budget total** : 150-350 k€ tout compris (achat + rénovation + raccordements). (2) **Délai** : 18-30 mois entre offre et emménagement. (3) **Compétences/réseau** : architecte sérieux + entreprises locales + suivi propriétaire indispensables. (4) **Vision** : projet 10-25 ans minimum pour amortir frais + revente compliquée si bien isolé. **Bon profil** : famille néo-rurale stable, couple télétravail + activité, retraité actif avec capital. **Mauvais profil** : primo-accédant pressé, profil sans capacité crédit travaux, recherche court terme (<5 ans), absence réseau artisanal local. **Sweet spot 2026** : grange en pierre <250 m² en hameau de 3-10 maisons, Massif Central ou Périgord, transformation 150 m² habitable, budget total 200-280 k€, projet 15-20 ans. **À éviter** : grange isolée >2 km de tout (services inaccessibles), hangar tôle post-1970 (charme limité), région à PLU restrictif (Pays Basque côté côte), surpayé en Provence/Périgord vitrine.",
+      },
+    ],
+    relatedCities: ["aurillac", "rodez", "mende", "le-puy-en-velay", "tulle"],
+    relatedGuides: [
+      "acheter-maison-a-renover-france-2026-vrai-cout",
+      "construire-sa-maison-france-2026-ou-comment-prix",
+      "acheter-maison-campagne-france-2026-vraiment-vivable",
+      "quitter-teletravail-pour-rural-france-2026-risques-opportunites",
+      "habitat-participatif-coliving-france-2026",
+    ],
+    tags: ["grange", "rénovation", "changement destination", "PLU", "néo-rural", "patrimoine rural", "Périgord", "Massif Central", "2026"],
+  },
+  {
+    slug: "vivre-proche-autoroute-tgv-france-2026-realite-bruit",
+    title: "Vivre proche d'une autoroute ou ligne TGV en 2026 — bruit, pollution, accès",
+    metaTitle: "Vivre proche autoroute/TGV 2026 : bruit, pollution, distances — guide",
+    metaDesc:
+      "Vivre proche autoroute ou TGV en France 2026 : bruit infrastructures, pollution, commodité accès, distances minimales, villes accessibles.",
+    category: "lifestyle",
+    emoji: "🚄",
+    readMinutes: 9,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "Habiter proche d'une autoroute ou d'une ligne TGV cumule deux promesses contradictoires : commodité accès (Paris en 1h30, autoroute pour vacances) et nuisances réelles (bruit, pollution, vibration). Le marché immobilier en zone bruit infrastructure est important — 30 % des logements français sont concernés. Voici la lecture honnête 2026.",
+    sections: [
+      {
+        heading: "Réglementation bruit infrastructures 2026",
+        body: "(1) **Zones bruit autoroutes** : 250 m de chaque côté pour Type 1 (autoroute, voie rapide >100 km/h). 100 m Type 2 (voie urbaine principale). 30 m Type 3. (2) **Niveau bruit** : Lden (day-evening-night) seuil 68 dB pour autoroute, 73 dB TGV. Mesures officielles DDE (Direction Départementale Équipement). (3) **PPBE** (Plan Prévention Bruit Environnement) : depuis 2010, communes >100 000 hab obligées. Cartographie + plan d'action. (4) **Isolation acoustique** : pour bâti existant en zone bruit Type 1, propriétaire peut demander aides isolation acoustique (jusqu'à 50 % du coût). (5) **Bâti neuf** : RE2020 impose isolation phonique renforcée en zone bruit. Vérifier conformité. (6) **TGV** : zones bruit moins étendues que autoroute (passage rare, bruit ponctuel) mais pics 90+ dB lors passages. (7) **Avion** : aéroport intercontinental zone bruit jusqu'à 5-10 km autour. Réglementation spécifique (PEB = Plan d'Exposition au Bruit).",
+      },
+      {
+        heading: "Niveaux bruit réels — par distance et type",
+        body: "(1) **Autoroute 250 m** : Lden 55-60 dB, similaire à 'rue calme bourg'. Souvent acceptable. (2) **Autoroute 100 m** : Lden 60-65 dB, équivalent 'rue moyenne urbaine'. Nuisance présente mais habituable. (3) **Autoroute 50 m** : Lden 65-70 dB, équivalent 'rue passante'. Nuisance significative, isolation phonique fenêtres obligatoire. (4) **Autoroute <30 m** : Lden 70-75 dB, équivalent 'rue très passante'. Difficile à vivre, valeur immobilière -20 à -30 %. (5) **TGV 200 m** : pics ponctuels 60-70 dB lors passages (1-2 minutes), reste calme. Moyenne Lden 50-55 dB. Souvent acceptable. (6) **TGV 50 m** : pics 80-90 dB, perturbations fréquentes (50-200 passages/jour selon ligne). Difficile. (7) **Aéroport intercontinental couloir** : variabilité forte selon couloir et heure. Roissy-CDG : vols nuit limités mais existants. Orly : vols nuit interdits. (8) **Aéroport régional petit** : 10-30 vols/jour, nuisance modeste.",
+      },
+      {
+        heading: "Pollution infrastructure — réalité 2026",
+        body: "(1) **Autoroute** : émissions diesel + particules fines PM2.5. Pic concentration 0-200 m de l'autoroute. (2) **Impact santé** : études Inserm 2024 confirment lien proximité autoroute (<300 m) + maladies respiratoires + cancers ORL +15-25 %. Effet réel. (3) **TGV électrique** : aucune pollution atmosphérique (énergie électrique propre). Avantage majeur vs autoroute. (4) **Voiture électrique 2026** : 25 % parc auto français. Réduction progressive pollution autoroute. Mais véhicules thermiques restent 75 % en 2026. (5) **ZFE (Zone Faible Émissions)** : 11 villes françaises 2026 + extension. Limite voitures polluantes en centre = pas d'impact autoroute périphérique mais réduit accumulation pollution. (6) **Distance recommandée santé** : >300 m d'autoroute idéal, >100 m TGV. Familles avec enfants ou personnes âgées : >500 m autoroute recommandé.",
+      },
+      {
+        heading: "Quand le proximité TGV/autoroute reste pertinent",
+        body: "(1) **Profil mobilité élevée** : déplacements pro fréquents Paris/grandes métropoles. Gain temps significatif. (2) **Famille week-ends province** : accès rapide A6/A7 Sud, A10 Atlantique, A1 Nord. Précieux pour résidences secondaires ou famille éloignée. (3) **Cadres frontaliers** : autoroute = trajet quotidien Luxembourg, Suisse, Allemagne. (4) **Villes-gares TGV** : achat près gare = patrimoine valorisé, mais pas forcément 'sur la ligne'. (5) **Travailleurs mobile sociaux** : transporteurs, commerciaux itinérants, métiers tournants. (6) **Compromis acceptable** : 300-600 m gare TGV (proche mais hors zone bruit immédiate) = excellent compromis. (7) **Logement à fenêtres orientées opposé infrastructure** : façade nord d'un immeuble face autoroute Sud = nuisance acceptable. (8) **Insonorisation moderne** : double vitrage phonique + isolation toiture + ventilation acoustique = -20 à -30 dB acceptable bruit perçu.",
+      },
+      {
+        heading: "Quartiers gares TGV — opportunités 2026",
+        body: "(1) **Reims gare TGV centre** : Paris 45 min, ZAC Sernam en transformation, prix 3 000-4 200 €/m². Sweet spot. (2) **Le Mans gare** : Paris 50 min, services, prix 2 200-3 000 €/m². Excellent ratio. (3) **Tours gare** : Paris 1h, université, services. Prix 2 800-3 800 €/m². (4) **Lille gare** : Paris 1h, Bruxelles 35 min, métropole. Premium 3 500-5 000 €/m². (5) **Strasbourg gare** : Paris 1h45, prix 3 500-4 800 €/m². (6) **Aix-en-Provence TGV** : éloigné du centre, peu intéressant pour résidence principale. (7) **Avignon TGV** : éloigné centre. (8) **Nantes gare** : prix 3 800-5 200 €/m². (9) **Bordeaux gare** : zone Belcier en transformation, prix 4 000-5 500 €/m². **Stratégie** : viser logement à 300-800 m de la gare TGV (5-10 min à pied) — patrimoine + accès sans nuisance bruit infrastructure.",
+      },
+      {
+        heading: "Quartiers à éviter (bruit infrastructure)",
+        body: "(1) **Vallée de l'Arve** (Cluses, Sallanches, Magland) : autoroute A40 + circulation poids lourds + pollution alpine = piège. Décote 20-30 % vs équivalent. (2) **Communes le long A6** entre Paris et Dijon — Dordives, Ferrières, Sens nord : bruit + pollution. (3) **Communes RD/A7 Vallée du Rhône** : bruit cumulé + canicule 2040 + ozone. (4) **A1 entre Lille et Paris** : Senlis, Compiègne sud, Estrées-Saint-Denis — proximité immédiate impactante. (5) **A86 banlieue Parisienne** : Antony, Bagneux, Clichy, Saint-Denis en zone bruit. Décote significative. (6) **Lignes TGV-EST traversée campagne** : Champagne villages traversés par LGV. Bruit ponctuel. (7) **Couloir aérien CDG-Orly** : communes 93/77/91 sous trajectoires d'approche/décollage. Vérifier PEB et plan exposition bruit aéroport.",
+      },
+      {
+        heading: "Comment vérifier nuisance avant achat",
+        body: "(1) **Cartographies bruit** : bruitparif.fr (IDF), site préfecture (autres régions). Cartes Lden et Lnight (nuit). (2) **PPBE** : Plan Prévention Bruit communal, consultable mairie. Plan d'action sur zones bruit. (3) **Visiter à des horaires différents** : (a) Heures de pointe (8h, 18h). (b) Nuit (22h-2h). (c) Week-end. (d) Vacances scolaires (trafic différent). (4) **Mesures sonores professionnelles** : 200-500 € pour mesures sonomètres pendant 24-48h. Investissement utile pour gros achats. (5) **Demander voisins** : impressions habitants long terme. (6) **Météo** : vent qui pousse bruit vers le bien augmente impact. Vérifier direction dominante. (7) **Saisonnalité TGV** : trafic varie (été plus dense, dimanche soir pic). Confirmer avec habitants. (8) **Diagnostic ERP** mentionne classement bruit infrastructure (Type 1-4).",
+      },
+      {
+        heading: "Pièges classiques achat près infrastructure",
+        body: "(1) **Visite jour de chance** : visiter le bien un dimanche matin calme et constater nuisance le lundi matin. Vérifier multi-horaires obligatoire. (2) **Sous-estimer 5 ans plus tard** : autoroute peut être élargie, ligne TGV ajoutée, ZAC créée. Vérifier projets urbanisme. (3) **Acheter façade côté infrastructure** : nuisance directe. Préférer façade opposée. (4) **Isolation acoustique sous-estimée** : passer de 65 dB à 40 dB intérieur = double vitrage phonique TR40+ = 8-15 k€ rénovation. (5) **Pollution non-mesurée** : air ATMO mesure quotidienne (AtmoSud, Atmo IDF). Suivre indices long terme. (6) **Valeur revente** : bien en zone bruit revend -15 à -25 % vs équivalent zone calme. Anticiper. (7) **Confondre proximité gare et bruit ligne TGV** : 500 m gare TGV = patrimoine, 100 m ligne TGV = nuisance. (8) **Sous-estimer nuit** : tranquillité 80 % du temps gâchée par 10 passages TGV nocturnes (lignes nuit fret).",
+      },
+      {
+        heading: "Le calcul honnête : 300-800 m gare TGV = sweet spot, <100 m infrastructure = piège",
+        body: "Vivre proche d'une autoroute ou ligne TGV en 2026 = arbitrage commodité/nuisance précis : (1) **Gare TGV à 5-15 min pied** : excellent compromis. Patrimoine valorisé + accès rapide + pas en zone bruit immédiate. Top 2026. (2) **Autoroute >300 m** : nuisance modérée, acceptable avec isolation. Acceptable. (3) **TGV >200 m** : pics ponctuels mais reste vivable. Acceptable. (4) **Infrastructure <100 m** : nuisance forte, décote 15-30 % à la revente, qualité de vie compromise. À éviter sauf très bonne raison professionnelle. **Top villes gare TGV 2026** : Reims (45 min Paris), Le Mans (50 min), Tours (1h), Lille (1h Paris + 35 min Bruxelles), Strasbourg (1h45 Paris), Bordeaux Belcier (2h Paris). **À éviter** : vallée de l'Arve, A7 vallée Rhône sud, A86 banlieue parisienne dense, communes traversées LGV en milieu rural, couloirs aériens CDG-Orly. **Recommandation** : ne JAMAIS acheter en zone bruit infrastructure sans 2 visites multi-horaires (jour + soir + nuit) + consultation cartes Lden + diagnostic ERP.",
+      },
+    ],
+    relatedCities: ["reims", "tours", "le-mans", "lille", "strasbourg"],
+    relatedGuides: [
+      "vivre-ile-de-france-grande-couronne-2026",
+      "petites-villes-50000-habitants-tout-france-2026",
+      "acheter-au-bord-fleuve-riviere-france-2026",
+      "vivre-au-vert-pres-de-paris-1h-2026",
+      "securite-ressentie-vs-reelle-ville-france-2026",
+    ],
+    tags: ["bruit autoroute", "TGV", "PPBE", "isolation phonique", "pollution atmosphérique", "gare TGV", "Reims", "Le Mans", "2026"],
+  },
+  {
+    slug: "devenir-proprietaire-5-ans-strategie-france-2026",
+    title: "Devenir propriétaire en 5 ans en France 2026 — stratégie par tranche d'âge",
+    metaTitle: "Devenir propriétaire en 5 ans 2026 : plan année par année — guide",
+    metaDesc:
+      "Devenir propriétaire en 5 ans en France 2026 : plan année par année par tranche d'âge 25-45, construire apport, choisir ville, optimiser crédit.",
+    category: "budget",
+    emoji: "🎯",
+    readMinutes: 10,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "Devenir propriétaire en 5 ans est un objectif tangible pour la majorité des jeunes actifs en 2026 — à condition de planifier méthodiquement. Apport, ville, crédit, timing : chaque dimension doit être anticipée. Voici la stratégie année par année, par tranche d'âge, sans le 'tout va bien se passer'.",
+    sections: [
+      {
+        heading: "Objectif réaliste — calibrage 2026",
+        body: "(1) **5 ans = horizon suffisant** pour : (a) Construire apport 30-50 k€. (b) Stabiliser carrière (CDI + ancienneté). (c) Choisir ville cible en cohérence projet vie. (d) Optimiser crédit (taux, durée, banque). (2) **Objectif chiffré** : selon profil salaire, viser bien à 180-350 k€ tout compris. (3) **Apport cible** : 15-25 % du prix achat. Soit 30-90 k€ selon ville. (4) **Salaire cible** : 2 500-5 000 €/mois pour mensualité 35 % d'effort. (5) **CDI ou équivalent** : banques quasi-systématique CDI confirmé. Indépendants : 3 ans bilans + courtier spécialisé. (6) **Cible géographique** : ville moyenne accessible OU métropole secondaire OU couronne métropole tendue. Pas centre Paris/Lyon/Bordeaux sans capital exceptionnel.",
+      },
+      {
+        heading: "Année 1 — Diagnostic et bases",
+        body: "(1) **Audit financier complet** : reste-à-vivre actuel, charges fixes, capacité d'épargne effective. (2) **Calcul capacité emprunt théorique** via simulateur (Pretto, Empruntis, CAFPI) — donne fourchette achat. (3) **Définir ville cible** : (a) Cohérence carrière (présentiel ou télétravail). (b) Cohérence projet vie (famille, social, environnement). (c) Tests 3-5 visites week-end. (4) **Lever l'apport** : (a) **Livret A** + **LDDS** maxés rapidement (22 950 + 12 000 €). (b) **PEL** ouvert immédiatement (versement minimum 540 €/an pour validité). (c) **Discipline mensuelle** : 300-700 €/mois épargne automatique. (5) **Construire dossier crédit** : (a) Pas de découverts bancaires. (b) CDI confirmé (>6 mois). (c) Pas de crédit consommation. (d) Stabilité résidence locataire. (6) **Cible an 1** : 8-15 k€ épargne cumulée + capacité emprunt estimée.",
+      },
+      {
+        heading: "Année 2 — Stabilisation + apport renforcé",
+        body: "(1) **Continuer épargne automatique** : 300-700 €/mois sur Livret A jusqu'à plafond 22 950 €. (2) **Demander prêt action logement** auprès employeur si entreprise >10 salariés (10-40 k€ taux 1 %). (3) **Étudier marchés ville cible** : (a) Suivre prix m² (SeLoger, MeilleursAgents). (b) Quartiers en transformation. (c) Réseau transport prévu. (4) **Optimisation fiscale** : (a) Si TMI 30 %+, ouvrir PER (versement déductible IR). (b) Vérifier aides locales primo-accédant (commune, département). (5) **Évolution carrière** : ancienneté + augmentations + éventuelle promotion = capacité emprunt en hausse. (6) **Conjoint éventuel** : si projet couple, aligner stratégies épargne, ouvrir compte joint épargne. (7) **Cible an 2** : 20-30 k€ épargne cumulée. Bonne visibilité ville cible et prix marché.",
+      },
+      {
+        heading: "Année 3 — Crédit envisageable + assurance-vie",
+        body: "(1) **Ouverture assurance-vie** : pour épargne 5+ ans, fiscalité avantageuse après 8 ans. Versement 100-300 €/mois. Fonds euros 70 % + Unités Compte 30 % (diversification). (2) **Suivi marché immobilier** : alertes SeLoger, La Centrale, Le Bon Coin pour bien cible. Connaître prix au m² par quartier. (3) **Premier contact courtier crédit** : (a) CAFPI, Empruntis, Meilleurtaux gratuits pour le client. (b) Connaître marges banques + types prêts (PTZ, action logement, prêt classique). (4) **Visite réalistique 5-10 biens** dans ville cible : connaître typologies, prix, défauts courants. (5) **Diagnostic personnel** : projet famille à 3-5 ans ? Mobilité géographique pro probable ? Confirmer choix ville long terme. (6) **Cible an 3** : 30-45 k€ épargne. Capacité emprunt confirmée. Marché bien connu.",
+      },
+      {
+        heading: "Année 4 — Pré-sélection + financement",
+        body: "(1) **Pré-accord crédit** : auprès 2-3 banques + courtier. Capacité empruntée confirmée. Délai validité 6-12 mois. (2) **Premières offres** : éventuellement soumettre offres test pour biens vus, voir réaction marché. (3) **Définir critères stricts** : (a) Surface minimum. (b) DPE A-D obligatoire. (c) Quartier cible. (d) Budget plafond. (e) Travaux acceptables. (4) **Visiter intensivement** : 15-25 biens/mois dans ville cible. Refus rapide des biens non-cohérents. (5) **Réseau professionnel** : agent immobilier de confiance, notaire connu, courtier. (6) **Préparer signature** : (a) Pas de découvert. (b) Trésorerie 6 mois de mensualité réservée. (c) Assurance habitation pré-négociée. (7) **Cible an 4** : 40-60 k€ épargne. Bien identifié ou en cours d'identification.",
+      },
+      {
+        heading: "Année 5 — Achat",
+        body: "(1) **Offre formelle** : sur bien décrit, négociation -3 à -10 % vs prix affichage (marché correctif 2026). (2) **Compromis** : signé chez notaire, dépôt 5-10 % en séquestre. Conditions suspensives (financement, diagnostics). (3) **Crédit confirmé** : 45-75 jours montage banque. (4) **Diagnostics complets** : DPE, audit, ERP, plomb, amiante, gaz, électricité. (5) **Assurance emprunteur** : négocier hors banque (Direct Assurance, MAAF Vie) — économie 30-50 %. (6) **Signature acte définitif** : 60-90 jours après compromis. Paiement intégral + frais notaire. (7) **Cible an 5** : propriétaire effectif. Mensualité confortable (<35 % salaire), bien correspondant projet.",
+      },
+      {
+        heading: "Par tranche d'âge 25-45",
+        body: "(1) **25-30 ans** : objectif T1-T2 à 130-220 k€. Apport 25-45 k€. Capacité emprunt 130-180 k€. Idéal métropole secondaire ou ville moyenne. (2) **30-35 ans** : objectif T2-T3 à 180-300 k€. Apport 35-65 k€. Anticipation enfants possible (T3 ou maison). (3) **35-40 ans** : objectif T3-T4 à 250-450 k€ selon ville et profil. Apport 50-100 k€. Métropole secondaire ou couronne métropole tendue. (4) **40-45 ans** : objectif T4-T5 ou maison à 350-600 k€. Apport 80-150 k€. Durée crédit raccourcie 20-25 ans (vs 25 ans plus jeune). (5) **Plus de 45 ans** : prêt durée 15-20 ans, apport 30-50 % requis souvent. Voir cf. guide acheter à 50+ ans.",
+      },
+      {
+        heading: "Pièges classiques plan 5 ans",
+        body: "(1) **Pas de plan strict** : épargner 'comme on peut' = pas d'apport suffisant dans 5 ans. Discipline mensuelle obligatoire. (2) **Choisir ville en dernière minute** : pas de connaissance marché = surpayer ou mauvais quartier. Étudier marché 2-3 ans avant achat. (3) **Crédit consommation** : 1 crédit voiture peut bloquer capacité emprunt immobilier. Éviter. (4) **Découverts récurrents** : 3 derniers mois sans découvert au compromis = banques exigent. (5) **CDD ou intérim** : période d'essai non-validable. Stabilisation CDI mini 6 mois avant demande crédit. (6) **Pas tester ville** : 5 ans à projeter une ville sans y vivre 3 mois = mauvais choix. Tester via location courte. (7) **Surévaluer salaire futur** : prévoir augmentations modestes (2-3 %/an). Pas de promotion miracle anticipée. (8) **Ne pas anticiper imprévus** : maladie, perte emploi, séparation. Réserve 3-6 mois mensualité obligatoire. (9) **PTZ accessible mais oublié** : primo-accédant doit toujours simuler PTZ. 20-50 k€ taux 0 % = différence majeure.",
+      },
+      {
+        heading: "Le calcul honnête : 5 ans = horizon réaliste avec discipline",
+        body: "Devenir propriétaire en 5 ans en France 2026 est réaliste pour : (1) **CDI confirmé** salaire 2 500-5 000 €/mois sans charges familiales lourdes. (2) **Capacité épargne** 300-800 €/mois soutenue. (3) **Mobilité géographique** acceptée vers ville moyenne ou métropole secondaire. (4) **Discipline financière** : pas de découvert, pas de crédit consommation, vie sous moyens. **À éviter** : projet 5 ans pour acheter Paris centre / Lyon Croix-Rousse / Bordeaux Chartrons avec apport modeste — pas réaliste sans capital familial. **Sweet spot 2026** : (a) Cadre 28-32 ans, salaire 3 200 €, apport visé 50 k€, achat T2-T3 à 220-280 k€ dans Lille, Reims, Tours, Strasbourg, Nantes, Bordeaux périphérie, Lyon périphérie. (b) Couple cadres 32-38 ans, salaires cumulés 6 500 €, apport visé 80 k€, achat T3-T4 à 350-450 k€ dans métropole sweet spot. **Recommandation finale** : démarrer plan dès aujourd'hui même sans achat immédiat. Le plus tôt, le mieux. À 25 ans avec discipline = propriétaire à 30. À 35 ans sans plan = propriétaire à 45.",
+      },
+    ],
+    relatedCities: ["lyon", "bordeaux", "nantes", "lille", "rennes"],
+    relatedGuides: [
+      "acheter-avant-40-ans-strategie-france-2026",
+      "meilleures-villes-primo-accedants-france-2026",
+      "pel-cel-per-financer-achat-immobilier-france-2026",
+      "acheter-avec-un-seul-salaire-france-2026",
+      "quand-acheter-immobilier-france-2026-timing-marche",
+    ],
+    tags: ["devenir propriétaire", "plan 5 ans", "apport", "épargne mensuelle", "primo-accédant", "stratégie", "tranche d'âge", "2026"],
+  },
+  {
+    slug: "vivre-mobilite-reduite-pmr-france-villes-accessibles-2026",
+    title: "Vivre avec mobilité réduite en France 2026 — quelles villes accessibles",
+    metaTitle: "Mobilité réduite 2026 : villes accessibles, métros PMR — guide",
+    metaDesc:
+      "Vivre avec mobilité réduite (PMR/seniors) en France 2026 : métros accessibles, voirie, services médicaux, plain-pied, communes pionnières.",
+    category: "famille",
+    emoji: "♿",
+    readMinutes: 9,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "Pour une personne à mobilité réduite (PMR) — handicap moteur, senior en perte d'autonomie, famille avec poussette — le choix de la ville est crucial. Loi Handicap 2005 + Adap 2015 ont progressé mais l'accessibilité reste inégale. Voici les villes les plus accessibles 2026 et les critères pour choisir.",
+    sections: [
+      {
+        heading: "Loi accessibilité — état des lieux 2026",
+        body: "(1) **Loi 2005** : tous établissements recevant du public (ERP) doivent être accessibles aux PMR. (2) **Loi 2015 Adap** : agendas accessibilité pour mise en conformité (~70 % réalisée en 2026). (3) **Voirie** : trottoirs >1,40 m, bordures abaissées passages piétons, feux sonores carrefours. Conformité 65-90 % selon ville. (4) **Transports** : RATP/Métros parisiens 90 % accessibles (Ligne 14 totalement, autres lignes partielles). Bus 100 % accessibles. Tramway 100 %. SNCF gares 70-95 % (selon importance). (5) **Logements** : Loi ELAN 2018 réduit obligations accessibilité dans neufs (20 % seulement obligatoires PMR vs 100 % avant). Recul critiqué. (6) **Aides** : MDPH (Maison Départementale Personnes Handicapées) gère prestations, allocations, aides aménagement.",
+      },
+      {
+        heading: "Top villes accessibles 2026",
+        body: "(1) **Grenoble** — métropole laboratoire PMR depuis 1980s. Tramway 100 % accessible, voirie excellente, ascenseurs publics, services adaptés. Régulièrement classée #1 France. (2) **Strasbourg** — tramway 100 %, voirie ITER, vélo adapté disponible, communauté handicap active. (3) **Nantes** — métropole engagée handicap, transports 95 % accessibles, services médicaux. (4) **Lyon** — métro partiel (M1, M2, M4 accessibles, M3 partielle), tramway 100 %. (5) **Bordeaux** — tramway 100 %, voirie centrale excellente. (6) **Toulouse** — métro 100 %, tramway, services. (7) **Rennes** — métro accessible, voirie correcte. (8) **Lille** — métro 100 % accessible. (9) **Paris** — paradoxalement mitigé : métro ancien souvent inaccessible (5 % stations), mais bus 100 %, RER partiel. (10) **Caen, Reims, Mulhouse** — tramway 100 %, taille humaine.",
+      },
+      {
+        heading: "Critères ville accessible 2026",
+        body: "(1) **Transports en commun** : tramway > métro > bus (en ordre d'accessibilité moyenne). Vérifier ligne par ligne. (2) **Voirie centrale** : trottoirs larges (1,40 m mini), bordures abaissées, traversées sonores. (3) **Commerces accessibles** : rampe d'accès, portes automatiques, comptoir bas. Loi 2015 progressivement appliquée. (4) **Services médicaux** : hôpital + spécialistes (rééducation, neurologie, gériatrie) à <30 min. (5) **Loisirs** : médiathèque, musées, théâtres avec accès PMR. Stade nautique avec leve-personne. (6) **Plain-pied** : pour résidence privée, plain-pied ou ascenseur jusqu'à entrée logement. (7) **Communauté handicap** : associations actives, kiné/ergo locaux, groupes de parole. (8) **Voiture/parking** : places GIC/GIG fréquentes, accès garages adaptés. (9) **Salaires médicaux abordables** : auxiliaire vie + infirmier à domicile + aides ménagères disponibles.",
+      },
+      {
+        heading: "Logement adapté — critères",
+        body: "(1) **Plain-pied ou ascenseur** : obligatoire pour PMR autonome. Pas de marches à l'entrée. (2) **Largeur portes** : 90 cm minimum (vs 75 cm standard). Permet fauteuil roulant. (3) **Salle de bain accessible** : douche à l'italienne (pas de marche), barres d'appui, espace fauteuil rouluant 150 cm diamètre. (4) **Cuisine accessible** : plan de travail hauteur 80 cm (vs 90 standard), placards bas, four en hauteur. (5) **Espace circulation** : couloirs 90 cm, espaces 150 cm dans pièces principales. (6) **Détecteurs visuels** : pour personnes sourdes, doublage visuel sonneries et alarmes. (7) **Domotique** : volets, éclairages, températures par télécommande. Investissement 3-15 k€ utile. (8) **Adaptation post-achat** : MDPH peut financer jusqu'à 10 k€ adaptations (rampes, barres, douche italienne) selon ressources. ANAH (Agence Nationale Habitat) jusqu'à 50 % travaux pour propriétaires modestes.",
+      },
+      {
+        heading: "Services médicaux et aide à domicile",
+        body: "(1) **APA** (Allocation Personnalisée Autonomie) : pour 60+ ans GIR 1-4. 60-1 800 €/mois selon GIR et ressources. (2) **PCH** (Prestation Compensation Handicap) : pour adultes handicapés <60 ans. Aide humaine, technique, transport. Variable selon situation. (3) **Auxiliaire de vie** : 18-25 €/heure. APA/PCH paye 80-100 %. (4) **Infirmière à domicile** : remboursé sécurité sociale + mutuelle. Soins quotidiens. (5) **SSIAD** (Service Soins Infirmiers À Domicile) : pour seniors GIR 1-3. Gratuit pour bénéficiaires. (6) **Téléassistance** : bouton d'urgence + assistance. 25-50 €/mois. (7) **Portage de repas** : 8-15 €/repas. Service mairie ou CCAS. (8) **Aide ménagère** : 18-22 €/heure. Aide selon ressources. (9) **MDPH** : guichet unique pour évaluation droits + cartes (CMI Invalidité, CMI Mobilité Inclusion, CMI Stationnement).",
+      },
+      {
+        heading: "Villes avec services spécialisés",
+        body: "(1) **Lyon Hôpital Henry-Gabrielle** : centre national paraplégie. Soins spécialisés + filière médecine physique réadaptation. (2) **Strasbourg Hôpital IGR** : neuro-rééducation. (3) **Garches Hôpital Raymond-Poincaré** (banlieue Paris) : centre référence handicap moteur. (4) **Berck-sur-Mer (Pas-de-Calais)** : Hôpital maritime, rééducation, paraplégie. Ville entièrement adaptée à l'accueil PMR (héritage centre soins). (5) **Brest CHU** : neuroréhabilitation. (6) **Grenoble CHU + maisons de retraite** : densité haute. (7) **Toulouse** : Hôpital Larrey rééducation. (8) **Aix-en-Provence** : grand centre gériatrie + services seniors. (9) **Marseille** : pôle médico-social important. (10) **Communes pionnières adaptation** : Cournon-d'Auvergne, Lorient, Brest, Lille — labels 'ville accessible'.",
+      },
+      {
+        heading: "Pour seniors en perte d'autonomie",
+        body: "(1) **GIR 1-2** (perte autonomie totale ou très lourde) : EHPAD probable + adaptation domicile lourde. APA maximale. (2) **GIR 3-4** (perte autonomie modérée) : maintien domicile possible avec aides cumulées. (3) **GIR 5-6** (faible perte autonomie) : autonomie totale possible avec adaptation logement légère. (4) **Résidences services seniors** : 1 800-3 500 €/mois selon prestations. Loger autonome + services collectifs (restauration, animations, sécurité). (5) **Résidences autonomie** (anciennement foyers logements) : tarifs sociaux, 600-1 500 €/mois selon ressources. (6) **EHPAD** : 2 200-4 500 €/mois selon zone. Aides ASH (Aide Sociale Hébergement) si ressources insuffisantes. (7) **Choix ville** : Pau, Tours, Reims, Bayonne, Mulhouse, Limoges — sweet spot résidences seniors + services médicaux + climat doux.",
+      },
+      {
+        heading: "Pièges classiques",
+        body: "(1) **Sous-estimer ascenseur** : T3 4e étage sans ascenseur = inhabitable PMR. Vérifier ascenseur capacité fauteuil (1,10 × 1,40 m mini). (2) **Salle de bain non-adaptable** : si pas d'espace 150 cm dans SdB, adaptation impossible. Vérifier dimensions. (3) **Marche d'accès entrée** : 1 marche = barrière. Vérifier accès depuis trottoir au logement. (4) **Transports non-accessibles** : déménager dans ville sans tramway = autonomie réduite. (5) **Services médicaux trop loins** : >30 min hôpital = urgence problématique. (6) **Communauté absente** : ville sans communauté handicap = isolement social progressif. (7) **Aides MDPH lentes** : 6-12 mois délai instruction dossier. Anticiper. (8) **Logement neuf post-ELAN 2018** : 20 % obligatoires PMR seulement. Vérifier cas par cas. (9) **Confondre PMR et senior** : senior en bonne santé n'a pas mêmes besoins que personne handicapée moteur — adapter critères.",
+      },
+      {
+        heading: "Le calcul honnête : Grenoble + Strasbourg + Nantes en tête",
+        body: "Vivre avec mobilité réduite en France 2026 = projet structuré nécessitant : (1) **Ville accessible** : Grenoble, Strasbourg, Nantes, Lyon, Bordeaux, Toulouse, Rennes, Lille = top 8 transports + services. (2) **Logement adapté** : plain-pied ou ascenseur, salle de bain PMR, espaces circulation. Adaptation post-achat possible (10-30 k€ avec aides). (3) **Services médicaux** : hôpital + spécialistes <30 min, kiné + ergothérapeute + auxiliaire vie disponibles. (4) **Aides activées** : APA, PCH, MDPH, ANAH, mutuelle adaptée. **Sweet spot par profil** : (a) **Adulte handicap moteur** : Grenoble, Strasbourg, Nantes — meilleures transports + communauté. (b) **Senior 70-85 ans autonome** : Pau, Tours, Bayonne, Reims, Mulhouse — climat + services + résidences. (c) **Senior 85+ perte autonomie** : EHPAD ou maintien domicile avec auxiliaire vie. Ville avec services médicaux denses. (d) **Famille avec enfant handicap moteur** : Grenoble, Strasbourg pour services + scolarisation adaptée (ULIS, IEM). **À éviter** : centres historiques pavés (Saint-Émilion, Sarlat, Mont-Saint-Michel), villages perchés, communes <5 000 hab sans services médicaux, immeubles sans ascenseur.",
+      },
+    ],
+    relatedCities: ["grenoble", "strasbourg", "nantes", "lyon", "bordeaux"],
+    relatedGuides: [
+      "meilleures-villes-accessibilite-handicap-france-2026",
+      "meilleures-villes-seniors-actifs-france-2026",
+      "vivre-retraite-1500-euros-mois-france-2026",
+      "acheter-immobilier-apres-50-ans-strategie-france-2026",
+      "vivre-france-retraite-etrangere-fiscalite-2026",
+    ],
+    tags: ["mobilité réduite", "PMR", "accessibilité", "handicap", "senior", "MDPH", "APA", "tramway accessible", "2026"],
+  },
+  {
+    slug: "sci-familiale-france-2026-montage-transmission",
+    title: "SCI familiale en France 2026 — montage, transmission, fiscalité réelle",
+    metaTitle: "SCI familiale 2026 : montage, IR vs IS, démembrement — guide",
+    metaDesc:
+      "SCI familiale en France 2026 : création, IR vs IS, démembrement, donation parts, conjoint survivant, frais réels, alternatives.",
+    category: "budget",
+    emoji: "👨‍👩‍👧",
+    readMinutes: 10,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "La SCI familiale (Société Civile Immobilière) est un outil patrimonial classique pour gérer et transmettre des biens immobiliers en famille. Mais en 2026, elle est souvent sur-vendue par les notaires/conseillers en gestion patrimoine. Voici la lecture honnête : quand SCI fait vraiment sens, comment l'optimiser, quelles alternatives.",
+    sections: [
+      {
+        heading: "Qu'est-ce qu'une SCI familiale",
+        body: "(1) **Société civile** détenant un ou plusieurs biens immobiliers. (2) **Associés** : membres de la famille (parents, enfants, conjoints). Minimum 2 associés. (3) **Capital** : peut être très bas (1 €) ou en correspondance avec valeur biens. (4) **Gérance** : 1 ou plusieurs associés désignés statutairement. (5) **Statuts** : règles gouvernance (majorité décision, droit de vote, droit cession parts) personnalisables. (6) **Comptabilité** : tenue annuelle obligatoire, déclaration fiscale 2072. (7) **Régime fiscal** : transparent (IR) par défaut OU option pour IS. (8) **Usage en 2026** : 600 000+ SCI familiales actives en France. Beaucoup pour résidence locative + transmission anticipée.",
+      },
+      {
+        heading: "Avantages SCI familiale",
+        body: "(1) **Évite indivision** : article 815 Code civil ('nul n'est tenu de rester en indivision') ne s'applique pas. Gouvernance prévisible. (2) **Transmission anticipée** : donation parts SCI aux enfants progressive (100 k€/enfant tous les 15 ans exonérée). Diminue droits succession. (3) **Démembrement parts** : usufruit (parents) + nue-propriété (enfants). Valeur usufruit selon âge donateur (50 % à 51-60 ans, 40 % à 61-70 ans, 30 % à 71-80 ans). Transmettre nue-propriété = transmettre 50-70 % valeur fiscalement. (4) **Protection conjoint survivant** : statuts peuvent prévoir usufruit conjoint au décès → maintient logement. (5) **Cession parts simple** : vendre 10 parts SCI = transaction notariale sans vendre bien. Plus fluide. (6) **Plusieurs biens dans une SCI** : gestion centralisée + transmission groupée. (7) **Souplesse statutaire** : règles personnalisables (vote, distribution, retrait).",
+      },
+      {
+        heading: "Inconvénients et coûts SCI familiale",
+        body: "(1) **Création** : 1 500-3 500 € (statuts + immatriculation + premières AG). Coût notaire majoritaire. (2) **Comptabilité annuelle** : 500-1 200 € expert-comptable. Optionnel mais recommandé. (3) **Déclaration fiscale annuelle** : 2072 obligatoire + IR ou IS selon option. (4) **AG annuelle** : convocation + procès-verbal obligatoires. Frais minimes mais formalisme. (5) **Crédit immobilier plus difficile** : banques exigent garanties supplémentaires, cautionnement personnel associés. Parfois taux +0,2-0,4 %. (6) **PTZ inaccessible** : pas pour SCI. Primo-accédant doit acheter en direct. (7) **Plus-value à la cession** : selon régime IR ou IS, traitement différent. IS = plus-value à 25 % sans abattement durée détention. (8) **Risques juridiques** : conflits associés (10-15 % SCI familiales connaissent procès interne).",
+      },
+      {
+        heading: "SCI à l'IR vs IS — décision critique",
+        body: "(1) **IR (transparence fiscale)** : revenus locatifs imposés au niveau associés à TMI + 17,2 % PS. (a) Avantages : déduction charges, déficit foncier imputable revenu global jusqu'à 10 700 €/an, plus-value à la cession avec abattement durée détention. (b) Inconvénients : pas d'amortissement, imposition forte TMI 30-45 %. (c) Adapté : résidence principale, location nue petit patrimoine, transmission. (2) **IS (Impôt sur Sociétés)** : SCI fiscalisée comme société, taux 15 % jusqu'à 42 500 € bénéfice, 25 % au-delà. (a) Avantages : amortissement du bien déductible (économie fiscale 20-30 ans), réinvestissement bénéfices. (b) Inconvénients : plus-value 25 % sans abattement durée détention (perte massive si vente long terme), dividendes imposés à flat tax 30 % au sortir. (c) Adapté : investissement locatif intensif, plusieurs biens, projet 20-30 ans sans cession. (3) **Choix par défaut famille** : IR pour patrimoine simple + transmission. IS pour investissement locatif large.",
+      },
+      {
+        heading: "Cas concret 1 — Couple parents avec 2 enfants",
+        body: "Couple 55-60 ans, résidence principale Lyon valeur 600 k€. 2 enfants 25 + 28 ans. (1) **Création SCI familiale** : 4 associés (parents + 2 enfants), capital 1 000 €. Coût création 2 500 €. (2) **Apport bien à la SCI** : valeur 600 k€, parents conservent usufruit, enfants en nue-propriété. (3) **Valeur usufruit** (parents 55-60 ans) : 50 %. Parents conservent 300 k€ en usufruit. Enfants reçoivent 300 k€ en nue-propriété (150 k€ chacun). (4) **Donation initiale** : 150 k€/enfant × 2 = 300 k€. Abattement 100 k€/enfant/15 ans utilisé partiellement. Reste 50 k€/enfant taxable = 5 k€ droits/enfant. (5) **Avantage** : parents continuent à habiter (usufruit). Au décès parents, enfants récupèrent pleine propriété SANS droits supplémentaires (transmission usufruit en franchise depuis 2006). (6) **Économie totale** : ~120 k€ de droits succession évités sur 600 k€ patrimoine. (7) **Coût montage** : 2 500 € création + 10 k€ droits = 12,5 k€. ROI excellent.",
+      },
+      {
+        heading: "Cas concret 2 — Investissement locatif 3 biens",
+        body: "Cadre 45 ans, patrimoine locatif : 3 appartements à Bordeaux, Toulouse, Nantes, total 750 k€. Revenus locatifs 36 k€/an. TMI 41 %. (1) **Création SCI à l'IS** : 1 associé majoritaire (45 ans), conjoint minoritaire. Coût 2 800 €. (2) **Apport 3 biens à la SCI** : transfert propriété, frais notaire +droits ~32 k€. (3) **Amortissement biens** (sur 25 ans) : 30 k€/an déduits du résultat fiscal. (4) **Résultat fiscal SCI** : 36 k€ revenus - 20 k€ charges - 30 k€ amortissement = -14 k€ (déficit). Pas d'impôt IS. (5) **Pas de dividende distribué** : aucune imposition personnelle. (6) **Plus-value future** : à 65 ans, vente 1 bien à 350 k€ (acquis 250 k€). PV brute 100 k€. IS 25 % = 25 k€. Sans abattement durée détention. Vs si en direct IR : abattement durée détention 15 ans → IR 7 k€ + PS 14 k€ = 21 k€. **Comparaison** : SCI IS perd 4 k€ sur la PV mais a économisé 200 k€ IR sur 20 ans pendant la phase locative. (7) **Bilan** : ROI positif si engagement long terme.",
+      },
+      {
+        heading: "Cas concret 3 — Conjoint survivant protection",
+        body: "Couple marié séparation des biens. Maison 450 k€ achetée à 50/50. 2 enfants majeurs. (1) **Sans SCI** : au décès d'un conjoint, sa part 225 k€ va aux héritiers réservataires (enfants). Conjoint survivant en indivision avec enfants — peut être expulsé si enfants exigent vente. (2) **Avec SCI familiale** : 4 associés (parents + 2 enfants), parents 80 %, enfants 20 % chacun. Statuts prévoient usufruit total au conjoint survivant. (3) **Au décès** : conjoint survivant conserve usufruit total (utilisation maison à vie). Enfants en nue-propriété sans accès jusqu'au décès survivant. (4) **Protection efficace** : impossible expulser conjoint survivant. (5) **Au décès survivant** : enfants récupèrent pleine propriété sans droits. (6) **Coût** : création 2 500 € + comptabilité 600 €/an × 20 ans = 14 500 €. (7) **Bénéfice** : sécurité psychologique conjoint + transmission optimisée. ROI émotionnel + patrimoine.",
+      },
+      {
+        heading: "Alternatives à la SCI familiale",
+        body: "(1) **Donation simple** : 100 k€/enfant tous 15 ans exonérée. Couple 200 k€/enfant. À 50 ans + 65 ans = 2 donations = 400 k€/enfant transmis. Suffit pour patrimoines modestes. (2) **Démembrement direct** (sans SCI) : donation nue-propriété aux enfants. Coût notarié 3-8 k€. Moins flexible que SCI mais moins de gestion. (3) **Assurance-vie** : 152 500 €/bénéficiaire exonérés si versements <70 ans. Idéal complément liquide. (4) **Donation-partage** : fige valeur transmise, évite conflits, formalisation. Coût 1-3 k€. (5) **Testament authentique** : pour répartition spécifique, conjoint survivant. Coût 250-500 €. (6) **PEA / Assurance-vie / PER** : optimisation financière en parallèle SCI immobilière. **Quand préférer alternative** : patrimoine immobilier <500 k€ + 1 seul enfant + pas de projet investissement locatif = SCI souvent excessive.",
+      },
+      {
+        heading: "Pièges classiques SCI familiale",
+        body: "(1) **SCI au défilé** : conseiller patrimoine pousse SCI pour clientèle modeste où c'est sur-dimensionné. Vérifier réel besoin. (2) **Mauvais choix IR/IS** : irréversible (option IS définitive). Étudier sérieusement avant choix. (3) **Comptabilité négligée** : non-tenue AG/comptes peut entraîner requalification fiscale. (4) **Plus-value IS surprise** : si vente bien après 15 ans, IS 25 % sans abattement = perte massive. (5) **Cautionnement bancaire** : crédit SCI nécessite caution personnelle associés — pas d'évasion responsabilité. (6) **Conflit familial** : 10-15 % SCI familiales finissent en justice (succession, divorce, mésentente). Statuts solides + médiation prévue. (7) **Démembrement irréversible** : usufruit donné = définitif. Si parents veulent vendre 10 ans plus tard, accord enfants requis. (8) **Frais cumulés** : création 2 500 € + comptable 600 €/an × 30 ans = 20 500 €. Coût total non-négligeable pour petits patrimoines.",
+      },
+      {
+        heading: "Le calcul honnête : SCI pertinent pour patrimoine >500 k€ ou famille recomposée",
+        body: "La SCI familiale en 2026 fait sens pour : (1) **Patrimoine immobilier >500 k€** : économies fiscales transmission justifient frais. (2) **Famille recomposée** : enfants de différentes unions → SCI évite tensions et bloque rachats forcés. (3) **Investissement locatif multiple** : 3+ biens + projet 20+ ans = SCI IS avec amortissement = optimisation puissante. (4) **Couple 50-65 ans préparant retraite + transmission** : démembrement parts + protection conjoint survivant. (5) **Patrimoine destiné enfants <30 ans** : donation progressive parts pour les habituer à la gestion. **À éviter** : (1) Patrimoine <300 k€ + 1 enfant = donation simple suffit. (2) Achat résidence principale jeune couple = pas besoin SCI. (3) Couple sans enfant = pas d'enjeu transmission familiale. (4) Profil simple sans projet 20+ ans. **Recommandation finale** : consulter notaire spécialisé patrimoine AVANT création SCI. 200-400 € de conseil peuvent éviter 20 k€ d'erreurs. Beaucoup de SCI familiales créées en 2020-2024 sont sur-dimensionnées vs réel besoin.",
+      },
+    ],
+    relatedCities: ["lyon", "bordeaux", "nantes", "toulouse", "paris"],
+    relatedGuides: [
+      "acheter-en-couple-non-marie-pacs-sci-indivision-2026",
+      "acheter-immobilier-apres-50-ans-strategie-france-2026",
+      "investir-lmnp-par-ville-france-2026",
+      "scpi-vs-locatif-direct-france-2026-quel-choix",
+      "residence-secondaire-france-pieges-fiscaux-2026",
+    ],
+    tags: ["SCI familiale", "transmission patrimoine", "démembrement", "donation parts", "IR vs IS", "succession", "conjoint survivant", "2026"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
