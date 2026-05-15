@@ -16077,6 +16077,311 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["télétravail rural", "reconversion", "néo-paysan", "burnout urbain", "indépendant rural", "qualité de vie", "communauté", "2026"],
   },
+  {
+    slug: "acheter-au-bord-fleuve-riviere-france-2026",
+    title: "Acheter au bord d'un fleuve ou rivière en France 2026 — Rhône, Loire, Garonne, Seine, Dordogne",
+    metaTitle: "Acheter au bord fleuve 2026 : Loire, Rhône, Garonne, Seine — guide",
+    metaDesc:
+      "Acheter au bord d'un fleuve en France 2026 : Rhône, Loire, Garonne, Seine, Dordogne. Risque inondation PPRI, valeur patrimoniale, climat 2040, pièges.",
+    category: "lifestyle",
+    emoji: "🏞️",
+    readMinutes: 9,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "Acheter au bord d'un fleuve ou d'une rivière reste un fantasme immobilier fort en France : vue, lumière, sérénité, patrimoine. Mais 2026 cumule réalités complexes : PPRI strict, climat 2040 qui amplifie crues et étiages, valeurs en correction sur certaines zones. Voici la lecture honnête fleuve par fleuve.",
+    sections: [
+      {
+        heading: "Pourquoi le bord de fleuve attire (et continue d'attirer)",
+        body: "(1) **Esthétique** : lumière, reflets, faune (hérons, libellules), promenades. Critère #2 de qualité de vie après mer (sondage Insee 2024). (2) **Patrimoine** : maisons de mariniers, anciens moulins, manoirs avec vue, charme immédiat. (3) **Microclimat** : inertie thermique de l'eau atténue canicule de 2-3 °C en été (refuge climatique 2040 dans certaines vallées). (4) **Vie urbaine intégrée** : quais aménagés en métropoles (Lyon Confluence, Bordeaux Chartrons, Strasbourg Petite France) deviennent quartiers premium. (5) **Mobilité douce** : pistes cyclables fluviales (ViaRhôna, EuroVelo 6 Loire), bateaux loisir. (6) **Patrimoine historique** : châteaux Loire, vignobles Rhône, Périgord Dordogne — désir culturel. **Mais** : 2 millions de logements français sont en zone potentiellement inondable. Le bord de fleuve = ravissement et risque indissociables.",
+      },
+      {
+        heading: "Rhône — vallée à climat 2040 difficile",
+        body: "Le Rhône (812 km) traverse Lyon, Vienne, Valence, Avignon, Arles. (1) **Lyon Confluence/Vaise** : quais aménagés, prix premium (5 500-8 000 €/m²). Inondations contrôlées par barrages (Vieux-Lyon protégé). Climat continental qui se réchauffe. (2) **Vienne** : préfecture Isère, prix accessibles (2 500-3 800 €/m²), patrimoine romain, climat continental. (3) **Valence** : préfecture Drôme, TGV Paris 2h10, climat chaud (sera 40 jours/an >30°C en 2040). (4) **Avignon** : palais des Papes, festival, climat méditerranéen sec, PPRI strict (zones bord Rhône inondables). (5) **Arles** : ville romaine, climat très chaud 2040, PPRI strict (zone alluvionnaire Camargue). (6) **PPRI Rhône** : crue centennale référence 1856 (cote 9,9 m Lyon Bellecour). Zones rouges et oranges précises sur Géorisques. (7) **Climat 2040** : étés caniculaires, étiages estivaux sévères (Rhône à des niveaux historiquement bas 2022). Vallée du Rhône = couloir piégé thermiquement.",
+      },
+      {
+        heading: "Loire — fleuve patrimonial mais sec en été 2040",
+        body: "La Loire (1 012 km, plus long fleuve France). (1) **Tours, Saumur, Amboise, Blois, Orléans** — vallée patrimoniale UNESCO, vignobles, châteaux. Tours = sweet spot (TGV Paris 1h, services). Prix accessibles (2 200-3 500 €/m²). (2) **Saint-Nazaire, Nantes** — estuaire, port, climat océanique tempéré. Nantes Île-de-Nantes prix 4 000-5 500 €/m². (3) **Roanne, Nevers, La Charité-sur-Loire** — Loire moyenne, prix très accessibles (1 500-2 200 €/m²), démographie en baisse. (4) **PPRI Loire** : crue référence janvier 1856 ('Saint-Cécile'). Vals (anciennes plaines alluviales endiguées) en risque structurel. Tours-La Riche, Orléans-Saint-Marceau bas en zones rouges. (5) **Climat 2040** : étiages estivaux records, Loire à des niveaux de barques échouées juin-septembre. Pluies hivernales en hausse, crues plus brutales. (6) **Vignobles** : Chinon, Vouvray, Sancerre en transition climatique (Sauvignon, Chenin se déplacent vers nord).",
+      },
+      {
+        heading: "Garonne et affluents Sud-Ouest",
+        body: "Garonne (575 km) + Lot + Dordogne + Tarn. (1) **Bordeaux** : Quais Garonne aménagés, prix premium centre Chartrons (4 800-6 500 €/m²). PPRI strict sur certains secteurs (Bastide basse). (2) **Toulouse** : Garonne traversant centre, prix m² 3 500-5 000 € centre. Estivales très chaudes 2040 (40 jours/an >30°C). (3) **Agen, Marmande** : préfecture Lot-et-Garonne, prix très accessibles (1 800-2 800 €/m²). Sécheresses 2040 fortes. (4) **Cahors, Figeac** : Lot, patrimoine, prix accessibles (1 500-2 400 €/m²). Climat chaud. (5) **Bergerac, Sarlat, Périgueux** : Dordogne, communauté expat britannique, prix accessibles (1 800-2 800 €/m²). Climat doux. (6) **Albi, Castres** : Tarn, prix accessibles (2 000-2 800 €/m²). (7) **PPRI Sud-Ouest** : zones strictement réglementées, vérifier impérativement Géorisques avant achat.",
+      },
+      {
+        heading: "Seine — IDF, Normandie, climat tenable",
+        body: "La Seine (777 km) traverse Paris, Rouen, Le Havre. (1) **Paris bord Seine** : ultra-premium (12 000-16 000 €/m² Île Saint-Louis, quai Voltaire). Inondations contrôlées par 4 barrages (Marne, Aube, Seine, Yonne) mais zone PPRI résiduelle (quartiers bas 12e, 13e, 15e bord-Seine). (2) **Banlieue Seine** : Boulogne, Issy, Neuilly = ultra-premium. Saint-Cloud, Suresnes accessibles (8 000-12 000 €/m²). (3) **Rouen** : métropole, TGV Paris 1h15, prix m² 2 500-4 000 €. Quartiers bord Seine premium (Rive Gauche en transformation). (4) **Le Havre** : embouchure, prix accessibles (1 600-2 500 €/m²), centre UNESCO, climat océanique frais. (5) **PPRI Seine** : crue référence 1910 ('Crue du Siècle'). Île Saint-Louis et bas-Paris (Bercy, Pont-Neuf) en zone risque. Plan crue 1910+ activé tous 100 ans environ. (6) **Climat 2040** : Seine = climat tempéré préservé. Étiages estivaux moindres que Loire/Rhône. Refuge climatique relatif.",
+      },
+      {
+        heading: "Petits fleuves & rivières — opportunités locales",
+        body: "(1) **Cher, Indre, Vienne, Creuse** : affluents Loire, climat tempéré, foncier accessible. Châteaubriant, Châteauroux, Bourges, Tulle bénéficient de cours d'eau secondaires. (2) **Vézère** : Dordogne préhistoire (Les Eyzies, Montignac), patrimoine UNESCO, climat doux. Foncier 1 800-2 800 €/m². (3) **Allier** : Auvergne, vallée alluviale préservée, Vichy thermalisme, Moulins préfecture. Prix accessibles. (4) **Ardèche, Ardèche affluents** : gorges, climat méridional intérieur, refuge altitude. (5) **Aveyron, Tarn affluents** : Sud-Ouest profond, patrimoine. (6) **Vilaine, Aulne (Bretagne intérieure)** : climat océanique tempéré, foncier dérisoire. (7) **Doubs, Ognon (Franche-Comté)** : Jura, prix bas, climat continental modéré. **Sweet spot** : petite rivière dans bourg structurant 5 000-30 000 hab, hors PPRI rouge, climat préservé 2040.",
+      },
+      {
+        heading: "Vérifications obligatoires avant achat bord fleuve",
+        body: "(1) **PPRI** (Plan de Prévention Risques Inondation) : document opposable, consultable mairie ou geoportail-urbanisme.gouv.fr. Zone rouge = inconstructible ou constructions très contraintes. Zone orange = constructible avec règles. Zone bleue = constructible avec sur-élévation rez-de-chaussée. (2) **Géorisques** : portail gouvernement avec carte interactive risques. Synthèse impeccable pour tout terrain ou bien. (3) **Plan TRI** (Territoire à Risque Inondation) : 122 TRI en France 2026 désignés par État, zones avec >10 000 habitants en zone inondable. Strictement réglementés. (4) **Cote NGF** : altitude du bien vs niveau crue référence. Sur-élévation 30-100 cm vs cote inondation = sécurité. (5) **Historique communal** : demander à la mairie le dossier 'commune' inondation. Combien d'épisodes 50 ans ? Dernière crue ? (6) **Assurance habitation** : franchise spécifique inondation (1 520 € depuis 2024, indexée). Coût assurance majoré en zone inondable. (7) **Diagnostic ERP** (État Risques et Pollutions) obligatoire à la vente — mentionne PPRI.",
+      },
+      {
+        heading: "Pièges classiques achat bord fleuve",
+        body: "(1) **Cave et rez-de-chaussée en zone PPRI** : sinistre quasi-garanti à 10-20 ans. Préférer 1er étage minimum. (2) **Assurance refusée** : compagnies refusent parfois zones rouges PPRI ou exigent franchises 5-10 k€. Vérifier devis AVANT compromis. (3) **PPRI évolutif** : carte révisée tous 5-10 ans, peut s'étendre. Ce qui est constructible aujourd'hui peut être restreint demain. (4) **Bâti ancien sans normes inondation** : maisons 19e siècle bord fleuve souvent vulnérables (matériaux humides, électricité au sol). Coût mise aux normes 30-80 k€. (5) **Climat 2040 amplifie** : crues plus violentes (épisodes cévenols élargis), étiages plus sévères. Risque structurel en hausse. (6) **Plus-value à la revente** : marché bord fleuve devient sélectif. Bien en zone rouge perd 15-30 % valeur d'ici 2035. (7) **Effet psychologique** : vivre avec inquiétude crue saisonnière = stress chronique. À évaluer émotionnellement. (8) **Frais de défense** : digues municipales financées localement → taxe foncière majorée certaines communes (Sud-Ouest, Loire moyenne).",
+      },
+      {
+        heading: "Le calcul honnête : bord de fleuve OK avec PPRI vérifié et altitude sécurisée",
+        body: "Acheter au bord d'un fleuve en France 2026 reste pertinent dans 3 cas : (1) **Métropole avec quais aménagés** (Lyon, Bordeaux, Strasbourg, Nantes, Paris) — patrimoine + valorisation continue, à condition d'éviter rez-de-chaussée zones rouges PPRI. (2) **Bourg structurant avec petite rivière** (Saumur, Tours, Cahors, Sarlat, Bergerac) — charme + prix accessible + climat 2040 acceptable. Top option pour télétravail. (3) **Maison de caractère altitude sécurisée** (>1 m vs cote crue) avec PPRI vérifié — patrimoine + sécurité. À éviter : (1) Rez-de-chaussée bord fleuve en zone PPRI rouge/orange. (2) Vallée du Rhône Sud (Avignon, Arles) — climat 2040 trop dur. (3) Loire moyenne (Roanne, Nevers) — démographie en baisse + étiages sévères = valeur en risque. (4) Petits affluents rural profond sans services. **Sweet spot 2026** : Tours quartier Cathédrale, Bordeaux Chartrons hauteurs, Saumur centre, Strasbourg Petite France, Bergerac centre — bord fleuve patrimonial sans piège PPRI majeur.",
+      },
+    ],
+    relatedCities: ["tours", "lyon", "bordeaux", "saumur", "bergerac"],
+    relatedGuides: [
+      "climat-2040-centre-val-de-loire-vallee",
+      "climat-2040-vallee-du-rhone-axe-lyon-avignon",
+      "climat-2040-facade-atlantique-france",
+      "vivre-a-la-mer-toute-annee-france-2026-fantasme-realite",
+      "acheter-maison-campagne-france-2026-vraiment-vivable",
+    ],
+    tags: ["bord fleuve", "Loire", "Rhône", "Garonne", "Seine", "Dordogne", "PPRI", "inondation", "patrimoine", "2026"],
+  },
+  {
+    slug: "vivre-ile-de-france-grande-couronne-2026",
+    title: "Vivre en Île-de-France grande couronne en 2026 — Yvelines, Essonne, Val-d'Oise, Seine-et-Marne",
+    metaTitle: "Grande couronne IDF 2026 : Yvelines, Essonne, Val-d'Oise — guide",
+    metaDesc:
+      "Vivre en Île-de-France grande couronne 2026 : Yvelines, Essonne, Val-d'Oise, Seine-et-Marne. RER, Grand Paris Express, foncier vs Paris, qualité de vie.",
+    category: "comparaison",
+    emoji: "🚊",
+    readMinutes: 10,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "La grande couronne d'Île-de-France (77, 78, 91, 95) cumule 5 millions d'habitants en 2026 — la moitié des Franciliens. Pour qui veut quitter Paris sans quitter l'IDF, c'est l'option par défaut : foncier 30-60 % moins cher que Paris, RER + Grand Paris Express, qualité de vie verte. Mais c'est un compromis fait de réalités précises. Voici l'analyse 2026 par département.",
+    sections: [
+      {
+        heading: "Les 4 départements — vues d'ensemble",
+        body: "(1) **Yvelines (78)** : 1,4 million hab. Ouest IDF, châteaux (Versailles, Rambouillet), forêts (Marly, Saint-Germain, Rambouillet), Vallée de Chevreuse, Vallée de Seine. Prix m² médian : 4 200 €. Riche, conservateur, vert. (2) **Essonne (91)** : 1,3 million hab. Sud IDF, Plateau de Saclay (tech-recherche), Vallée Chevreuse, Val d'Yerres, Évry. Prix m² médian : 3 800 €. Hétérogène, dynamique tech. (3) **Val-d'Oise (95)** : 1,25 million hab. Nord-Ouest IDF, Vallée Oise, Vexin français. Prix m² médian : 3 600 €. Plus populaire, accès aéroport. (4) **Seine-et-Marne (77)** : 1,4 million hab. Est IDF, plus rurale (60 % surface), Disneyland, Fontainebleau. Prix m² médian : 3 300 €. Plus populaire/agricole.",
+      },
+      {
+        heading: "Yvelines — bourgeoisie verte ouest",
+        body: "(1) **Versailles, Le Chesnay, Saint-Germain-en-Laye** : trio premium, château, forêts. T3 80 m² 480-650 k€. Services exceptionnels. (2) **Saint-Cloud, Sèvres, Marnes-la-Coquette** : 1ère couronne ouest premium. T3 600-850 k€. (3) **Vélizy, Viroflay, Chaville** : 1ère couronne, RER C, T3 380-520 k€. (4) **Vallée de Chevreuse** (Bures-sur-Yvette, Gif, Orsay) : Université Paris-Saclay, RER B, climat préservé, T3 320-450 k€. (5) **Rambouillet, Maintenon** : grande couronne ouest, gare TER Paris 45 min, T3 220-320 k€. (6) **Mantes-la-Jolie, Limay** : nord-ouest, prix accessibles (T3 150-220 k€) mais réputation difficile. (7) **Houdan, Septeuil** : limite Eure, ruralisé, T3 180-260 k€. Quartiers les plus chers de Yvelines : Versailles centre, Le Chesnay résidentiel, Saint-Germain centre. Quartiers à éviter : zones nord-est en transformation lente.",
+      },
+      {
+        heading: "Essonne — Plateau de Saclay + sud rural",
+        body: "(1) **Massy, Palaiseau, Orsay, Bures-sur-Yvette** : Plateau de Saclay, École Polytechnique, HEC, Paris-Saclay. Tech-recherche en explosion. T3 320-450 k€, prix en hausse rapide. (2) **Évry-Courcouronnes** : sous-préfecture, RER D, T3 220-300 k€. Économie tertiaire mixte. (3) **Antony, Bourg-la-Reine, Sceaux** : limite Hauts-de-Seine sud, premium. T3 420-580 k€. (4) **Arpajon, Étampes** : sud Essonne rural, prix accessibles (T3 200-280 k€), TER Paris 1h. (5) **Milly-la-Forêt, La Ferté-Alais** : sud profond, Beauce limite, T3 180-260 k€, ruralisé. (6) **Corbeil-Essonnes** : populaire, prix bas (T3 170-240 k€) mais réputation difficile. **Sweet spot 2026** : Plateau Saclay pour cadres tech, Étampes/Arpajon pour télétravail + foncier accessible.",
+      },
+      {
+        heading: "Val-d'Oise — accès aéroport + Vexin rural",
+        body: "(1) **Cergy-Pontoise** : agglomération 200 000 hab, université, RER A, T3 240-330 k€. (2) **Argenteuil, Sannois, Ermont** : 1ère couronne nord, transports denses, T3 250-360 k€. (3) **Eaubonne, Enghien-les-Bains** : sud Val-d'Oise, premium, lac. T3 380-520 k€. (4) **Pontoise centre** : sous-préfecture, patrimoine, RER A, T3 230-310 k€. (5) **L'Isle-Adam, Beauchamp** : nord-ouest, Oise, T3 250-340 k€. (6) **Vexin français** (Magny-en-Vexin, Marines, Vigny) : ruralisé, prix accessibles (T3 200-280 k€), climat préservé. (7) **Sarcelles, Garges-lès-Gonesse, Goussainville** : nord-est, prix très bas (T3 160-240 k€) mais réputation difficile. (8) **Roissy, Le Mesnil-Amelot** : proche aéroport CDG, T3 220-300 k€. **Sweet spot 2026** : Pontoise centre + Vexin français pour cadres-télétravailleurs + qualité de vie.",
+      },
+      {
+        heading: "Seine-et-Marne — la plus rurale et accessible",
+        body: "(1) **Marne-la-Vallée** (Bussy-Saint-Georges, Chessy, Serris) : Eurodisney, RER A, T3 280-380 k€. Cité du futur. (2) **Meaux** : sous-préfecture, RER E + TER, T3 200-280 k€. (3) **Melun** : préfecture, TER Paris 30 min, T3 220-310 k€. (4) **Fontainebleau, Avon** : forêt, château, T3 380-520 k€, premium. (5) **Provins** : patrimoine UNESCO, TER Paris 1h20, T3 180-260 k€, charme. (6) **Coulommiers, Rebais, La Ferté-sous-Jouarre** : Brie rurale, T3 180-260 k€. (7) **Champagne picarde sud (Esbly, Crécy-la-Chapelle)** : T3 250-340 k€. (8) **Provinois et Briard rural** (Donnemarie, Bray-sur-Seine) : prix très accessibles (T3 150-220 k€), TER lent Paris 1h30. **Sweet spot 2026** : Fontainebleau pour qualité vie + Paris en 40 min, Meaux pour services + RER E, Provins pour patrimoine + télétravail rural intégré.",
+      },
+      {
+        heading: "Grand Paris Express — révolution 2026-2030",
+        body: "Le réseau Grand Paris Express ajoute 200 km de métro automatique d'ici 2030. Impact grande couronne : (1) **Ligne 14 prolongée vers Orly** (déjà opérationnelle 2024) — Val-de-Marne sud + Essonne nord transformés. (2) **Ligne 15 sud** (2025-2026) — Vitry, Champigny, Issy. Connecte 1ère couronne. (3) **Ligne 15 est et ouest** (2027-2030) — anneau métropolitain complet. Cergy, Versailles, Saint-Denis directement reliés. (4) **Ligne 16** (2027-2028) — Saint-Denis Pleyel à Noisy-Champs. (5) **Ligne 17** (2028-2030) — Saint-Denis Pleyel à aéroport CDG. (6) **Ligne 18** (2027) — Plateau de Saclay à Massy + Versailles. **Impact prix immobilier** : zones proches futures stations +15-25 % d'ici 2030 (effet anticipation). Communes gagnantes : Châtillon, Cachan, Champigny, Argenteuil, Houilles, Cergy. À surveiller pour primo-accédant.",
+      },
+      {
+        heading: "Pourquoi grande couronne plutôt que province",
+        body: "Profils où IDF grande couronne fait sens vs province : (1) **Emploi Paris obligatoire** : présentiel 3-5 jours/semaine = trajet quotidien essentiel. (2) **Salaire élevé maintenu** : IDF paie +20-40 % vs province métropole pour même poste cadre. (3) **Famille avec enfants en âge primaire-collège** : IDF offre densité écoles + activités + structures sociales que ville moyenne province n'a pas. (4) **Profil culturel parisien** : besoin accès Paris fréquent (musées, théâtres, expos, restaurants). (5) **Réseau familial/amical Paris** : couper avec famille = difficile selon situation. (6) **Carrière sectorielle** : finance, médias, conseil, luxe — concentrés Paris. **Profils où province bat IDF couronne** : (a) Télétravail intégral cadre tech. (b) Famille sans attachement Paris fort. (c) Budget serré (Province achète 2× plus pour même prix). (d) Recherche qualité de vie urbaine modérée + nature accessible.",
+      },
+      {
+        heading: "Pièges classiques grande couronne",
+        body: "(1) **Trajets domicile-travail** : RER A/B/C/D/E saturés en heures de pointe. 1h-1h30 trajet quotidien est la norme. Compatibilité famille à anticiper. (2) **Prix encore élevés** : T3 80 m² Yvelines 350-500 k€ — équivalent à T3 confortable métropole province à 250-300 k€. Économie vs Paris (-30 à -50 %), mais pas la transition économique escomptée. (3) **Surcharge fiscale IDF** : taxe foncière IDF 25-35 % plus chère que moyenne nationale équivalente. (4) **Mauvaise réputation certaines villes** : Sarcelles, Argenteuil, Trappes, Mantes-la-Jolie certains quartiers en difficulté. Vérifier sécurité réelle (cf. SSMSI). (5) **Effet 'commuter town'** : zones-dortoirs sans vie locale animée, vide le week-end. Privilégier ville avec centre actif. (6) **Climat IDF 2040** : +20-25 jours/an >30 °C en 2040 vs ~5 actuellement. Adaptation bâti nécessaire.",
+      },
+      {
+        heading: "Le calcul honnête : grande couronne reste un excellent compromis 2026",
+        body: "L'Île-de-France grande couronne en 2026 est un excellent compromis pour : (1) Cadres avec emploi Paris partiel + qualité de vie. (2) Familles avec enfants 6-15 ans préférant accès Paris fréquent. (3) Profils sectoriels (finance, conseil, médias) à Paris. **Top par profil** : (a) **Cadre tech/recherche** : Plateau Saclay (Massy, Orsay, Bures) — top emploi + dynamisme. (b) **Famille premium qualité de vie** : Yvelines ouest (Versailles, Saint-Germain, Vallée de Chevreuse). (c) **Budget serré + télétravail** : Seine-et-Marne (Provins, Coulommiers, Meaux). (d) **Recherche vert + culture** : Vexin français (Val-d'Oise) ou Vallée Chevreuse (Yvelines). (e) **Vie urbaine accessible Paris** : Cergy (Val-d'Oise) ou Massy (Essonne). **À éviter** : zones difficiles (Sarcelles, Trappes nord, Mantes-la-Jolie certains quartiers, Corbeil-Essonnes), commune-dortoir sans centre actif, achat près station future Grand Paris Express SANS connaître date d'ouverture précise (retards fréquents).",
+      },
+    ],
+    relatedCities: ["versailles", "saint-germain-en-laye", "fontainebleau", "cergy", "massy"],
+    relatedGuides: [
+      "quitter-paris-30-ans-couple-sans-enfant-2026",
+      "quitter-paris-avec-enfants-primaire-france-2026",
+      "vivre-au-vert-pres-de-paris-1h-2026",
+      "teletravailler-grande-couronne-ile-de-france-2026",
+      "climat-2040-ile-de-france-paris",
+    ],
+    tags: ["Île-de-France", "grande couronne", "Yvelines", "Essonne", "Val-d'Oise", "Seine-et-Marne", "RER", "Grand Paris Express", "2026"],
+  },
+  {
+    slug: "acheter-france-non-resident-etranger-2026",
+    title: "Acheter en France comme non-résident étranger en 2026 — démarches, fiscalité, villes",
+    metaTitle: "Acheter France non-résident 2026 : démarches, banques, fiscalité — guide",
+    metaDesc:
+      "Acheter en France comme non-résident étranger en 2026 : démarches, financement banques françaises, fiscalité, conventions bilatérales, villes attractives.",
+    category: "comparaison",
+    emoji: "🌐",
+    readMinutes: 10,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "La France accueille 220 000+ achats immobiliers de non-résidents étrangers par an en 2026 — Britanniques, Belges, Allemands, Suisses, Américains, Néerlandais en tête. Si la France facilite l'accès au marché immobilier pour les étrangers, les démarches, le financement et la fiscalité ont leurs spécificités. Voici la lecture honnête 2026.",
+    sections: [
+      {
+        heading: "Liberté d'achat étranger en France",
+        body: "(1) **Principe** : aucune restriction nationalité pour acheter en France (résidence principale ou secondaire ou investissement locatif). UE, Suisse, USA, UK, Canada, Maghreb, Asie — tous traités égaux. (2) **Pas de visa requis** pour l'acte d'achat lui-même (visite, signature). (3) **Mais résidence** : posséder un bien ne donne PAS droit automatique au séjour. Visiteur 90 jours/180 jours (UE) ou visa long-séjour spécifique (hors UE) requis pour habiter. (4) **Notaire français obligatoire** : seul officier habilité à enregistrer la transaction. (5) **Pouvoir notarié** : possible de signer à distance via procuration notariée (chez notaire étranger + apostille). (6) **Compte bancaire français** : pas obligatoire mais fortement recommandé pour faciliter financement, paiement notaire, impôts foncier, charges copro.",
+      },
+      {
+        heading: "Financement non-résident — banques françaises 2026",
+        body: "(1) **Acceptation** : ~50 % des banques françaises accordent crédit non-résident sous conditions. Top : BNP Paribas (Wealth Management), Société Générale (Private Banking), HSBC France, Crédit Agricole International. (2) **Quotité financement** : 50-75 % du prix (vs 80-100 % résident français). Apport 25-50 % minimum. (3) **Durée prêt** : 10-20 ans (vs 25 ans résident), terminaison à 70-75 ans. (4) **Taux 2026** : 4-5,5 % pour non-résident (vs 3,5-4,2 % résident). Surprime 0,5-1 %. (5) **Assurance emprunteur** : exigée, primes plus élevées qu'en France (1,5-3 % du capital). (6) **Documents requis** : bilans 2-3 ans, déclarations fiscales pays origine, relevés bancaires 6 mois, contrat travail + bulletins salaire. Traduction assermentée en français. (7) **Profils privilégiés** : résidents UK, Belges, Allemands, Suisses (proximité, conventions). Plus difficile : Africains hors-UE, certains Asiatiques. (8) **Alternative** : financement via banque pays d'origine (HSBC UK pour Britanniques, Bank of America pour Américains) avec hypothèque sur le bien français — possible mais complexe.",
+      },
+      {
+        heading: "Démarches achat — chronologie",
+        body: "(1) **Recherche bien** : visiter sur place, choisir agence sérieuse (cf. réputation), définir budget en EUR (gérer risque change). (2) **Offre d'achat** : à la française, écrite, sous conditions suspensives (financement, diagnostics). (3) **Compromis de vente** : signature au notaire, dépôt 5-10 % du prix (séquestre notaire). Délai rétractation 10 jours. (4) **Délai 60-90 jours** : entre compromis et acte définitif. Période pour finaliser financement, diagnostics, urbanisme. (5) **Acte authentique** : signature au notaire en France OU procuration notariée (notaire étranger + apostille). Paiement intégral + frais notaire à cette date. (6) **Frais d'acquisition** : (a) Frais de notaire ~7-8 % dans l'ancien, 2-3 % dans le neuf. (b) Commission agence 4-6 % (côté vendeur souvent). (c) Frais bancaires 1-2 % (dossier, garantie). (7) **Délai total** : 3-5 mois entre offre et acte définitif.",
+      },
+      {
+        heading: "Fiscalité non-résident propriétaire",
+        body: "(1) **Taxe foncière** : annuelle, payée par propriétaire. 600-2 500 €/an typique selon ville/bien. (2) **THRS** (Taxe d'Habitation Résidence Secondaire) : maintenue depuis 2023 pour résidences secondaires. Majoration jusqu'à +60 % en zone tendue. 800-3 500 €/an typique. (3) **Revenus locatifs** : si location, imposition source France (TMI minimum 20 % non-résident) + convention bilatérale pour éviter double imposition. (4) **IFI** (Impôt sur Fortune Immobilière) : seuil 1,3 M€ patrimoine immobilier en France. Applicable non-résident pour biens situés en France. Taux 0,5-1,5 %. (5) **Plus-value à la revente** : imposition source France (19 % IR + 17,2 % PS = 36,2 %). Abattements durée détention : exo IR 22 ans, exo PS 30 ans. (6) **Conventions bilatérales** : France a signé avec 100+ pays. Évite double imposition typiquement par crédit d'impôt pays résidence. (7) **CSG/CRDS** : 9,7 % sur revenus passifs et plus-values, non récupérable même via convention bilatérale (sauf cas UE/Suisse avec attestation S1).",
+      },
+      {
+        heading: "Profil 1 — Britannique post-Brexit",
+        body: "Communauté ~150 000 propriétaires britanniques en France 2026. (1) **Brexit impact** : depuis 2021, statut non-UE. 90/180 jours visite sans visa. Visa long séjour pour résider. (2) **Achat** : aucune restriction, mais financement légèrement plus complexe (banques préfèrent UE). (3) **Communautés établies** : Dordogne (~30 000), Charente (15 000), Lot, Lot-et-Garonne, Vendée, Côte d'Azur (Antibes-Cannes), Provence Lubéron. (4) **Conventions fiscales** : 1968 + amendements 2008. Pensions UK imposées au UK uniquement (pas en France pour Britanniques résidents fiscaux UK). (5) **Cas typique** : retraité britannique 65-75 ans achète maison rurale 250-400 k€ en Dordogne, conservée résidence secondaire (vit UK 6 mois + France 6 mois). THRS payée annuellement. (6) **Tendance** : post-Brexit, achats stables mais croissance ralentie. Nouveau profil 'workation' (télétravail UK + France saisonnier) émergent.",
+      },
+      {
+        heading: "Profil 2 — Américain/Canadien",
+        body: "Communautés américaine (~20 000) et canadienne (~15 000) propriétaires en France 2026. (1) **Citoyenneté fiscale US (citizenship-based taxation)** : Américains obligés de déclarer revenus mondiaux au IRS, même résidant France. Form 1040 + Form 8938 + FBAR. Expert-comptable franco-américain quasi-obligatoire. (2) **FATCA** : banques françaises déclarent comptes des citoyens américains à l'IRS depuis 2014. Certaines banques refusent ouvrir compte à des US persons par crainte des sanctions. (3) **Achat France facilité** : taux change EUR/USD 2026 favorable Américain (USD fort), pouvoir d'achat important. (4) **Régions cibles** : Paris (10e, 11e, 18e), Provence (Lourmarin, Goult), Côte d'Azur (Antibes, Mougins), Loire Valley (Tours, Amboise), Bordeaux (vignobles). (5) **Convention fiscale** : 1994 + amendements. Évite double imposition mais pas CSG/CRDS. (6) **Visa long séjour** : VLS-TS visiteur si retraité ou avec source revenus stables. Carte de séjour ensuite.",
+      },
+      {
+        heading: "Profil 3 — Belge / Néerlandais / Allemand / Suisse",
+        body: "Communautés européennes proximité forte. (1) **Belges** : ~125 000 propriétaires en France. Côte d'Opale (Le Touquet), Côte d'Azur (Cap-Ferrat), Périgord, Provence intérieure. Convention fiscale 1964 stable. (2) **Néerlandais** : ~50 000 propriétaires. Périgord, Lot, Var, Côte d'Azur. Communauté retraitée historique. (3) **Allemands** : ~80 000. Côte d'Azur (Tourrettes, Fayence), Provence Lubéron, Alsace. Convention fiscale 1959. (4) **Suisses** : ~45 000. Côte d'Azur premium (Nice, Cap-Ferrat, Mougins), Provence, Annecy frontière. Convention fiscale 1966 stable. (5) **Avantages européens** : libre circulation, financement plus facile, banques françaises accueillantes, conventions fiscales claires. (6) **Statut résident vs non-résident** : Belges et Néerlandais souvent retraités résidents fiscaux français (avantageux). Suisses et Allemands plus souvent maintenus résidents fiscaux d'origine.",
+      },
+      {
+        heading: "Pièges classiques achat non-résident",
+        body: "(1) **Sous-estimation frais cumulés** : prix annoncé + 7-8 % notaire + commission agent (souvent vendeur) + traduction + procuration + voyages = +12-15 % du prix achat. (2) **Risque change** : achat en EUR, financement en GBP/USD = volatilité. Couvrir le risque ou financer en EUR. (3) **Méconnaissance marché français** : surpayé fréquemment par étrangers (jusqu'à +20 % vs prix marché réel). Faire évaluation indépendante. (4) **DPE F/G** : interdit location depuis 2025 (DPE G). Acheter passoire thermique = bloque possibilité location future. (5) **Charges copro élevées** : 200-500 €/mois typique métropole, parfois jusqu'à 800 € (immeubles premium ou avec service). Sous-estimées par étranger. (6) **THRS méconnu** : 800-3 500 €/an supplémentaires en résidence secondaire — souvent surprise. (7) **Gestion locative à distance** : difficile sans agence locale spécialisée (10-15 % loyers de commission). (8) **Successions complexes** : règles différentes pays origine vs France. Anticiper avec notaire bilatéral. (9) **Pas de double déclaration fiscale** : risque amendes IRS américaine, ISC britannique.",
+      },
+      {
+        heading: "Le calcul honnête : France reste attractive 2026 mais demande préparation",
+        body: "Acheter en France comme non-résident étranger en 2026 reste pertinent pour : (1) **Retraité européen** acceptant 6 mois/an France + 6 mois pays origine. Top profil. (2) **Investisseur fortuné** (>500 k€ capital) cherchant patrimoine refuge + qualité de vie. (3) **Profil culturel** (artiste, écrivain, retraité actif) attiré par France. **Recommandations** : (1) **Acheter en EUR avec apport 30-50 %** plutôt que crédit complexe non-résident. (2) **Notaire spécialisé international** (Versailles, Paris 7e, Bordeaux, Nice — bureaux dédiés). 1-2 k€ de plus mais sécurise. (3) **Expert-comptable franco-pays origine** AVANT achat. Anticipe fiscalité, déclarations, conventions. (4) **Tester 6-12 mois en location** dans région cible avant achat. (5) **Anticiper retraite/succession** : statut résident fiscal France peut être avantageux long terme (CSG 9,7 % vs taux IR pays origine). **À éviter** : achat coup de cœur sans étude fiscale, surpayé 20 %+ par méconnaissance marché, copropriété avec charges élevées non-anticipées, ville sans communauté internationale (isolation).",
+      },
+    ],
+    relatedCities: ["paris", "nice", "bordeaux", "aix-en-provence", "annecy"],
+    relatedGuides: [
+      "vivre-france-retraite-etrangere-fiscalite-2026",
+      "expatries-retour-france-quelle-ville-2026",
+      "familles-expatriees-retour-france-quelle-ville-2026",
+      "residence-secondaire-france-pieges-fiscaux-2026",
+      "vivre-en-perigord-dordogne-guide-2026",
+    ],
+    tags: ["non-résident", "achat étranger", "Britannique", "Américain", "Belge", "Suisse", "Allemand", "convention fiscale", "FATCA", "2026"],
+  },
+  {
+    slug: "securite-ressentie-vs-reelle-ville-france-2026",
+    title: "Sécurité ressentie vs réelle par ville en 2026 — décrypter les vrais signaux",
+    metaTitle: "Sécurité ville France 2026 : SSMSI vs perception, comment vérifier — guide",
+    metaDesc:
+      "Sécurité ressentie vs réelle dans les villes françaises 2026 : décrypter SSMSI, quartiers vraiment à risque, perception médiatique vs faits.",
+    category: "lifestyle",
+    emoji: "🛡️",
+    readMinutes: 9,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "La sécurité est le critère #2 après le coût dans le choix d'une ville en France 2026 (étude IFOP/Ipsos). Mais la perception médiatique et la réalité statistique divergent fortement. Cette ville réputée 'dangereuse' l'est-elle vraiment ? Cette autre 'sûre' l'est-elle hors centre ? Voici la lecture honnête, données SSMSI 2024-2025 à l'appui.",
+    sections: [
+      {
+        heading: "SSMSI — la source officielle 2026",
+        body: "SSMSI = Service Statistique Ministériel de la Sécurité Intérieure. Publie chaque année les chiffres de la délinquance par commune. (1) **Catégories suivies** : (a) Atteintes aux personnes (violences physiques, sexuelles, vols avec violence). (b) Atteintes aux biens (cambriolages, vols de véhicules, dégradations). (c) Trafic stupéfiants. (d) Incendies criminels. (e) Délits routiers (alcool, vitesse). (2) **Indicateurs clés par 1 000 habitants** : (a) Cambriolages : moyenne nationale 6,2/1 000. <4 = bon, >10 = mauvais. (b) Vols violents : 2,8/1 000 nationale. <2 = bon. (c) Atteintes aux personnes : 8/1 000 nationale. <6 = bon. (3) **Données accessibles** : data.gouv.fr publie chiffres communaux annuels. (4) **Limites** : (a) Indicateurs basés sur plaintes déposées (sous-estimation systématique pour certains délits). (b) Variations annuelles parfois aléatoires (1 incident majeur fausse statistique d'une commune <5 000 hab). (c) Ne capture pas 'sentiment d'insécurité' (perception subjective).",
+      },
+      {
+        heading: "Les villes les plus 'mal-réputées' — décryptage",
+        body: "Villes souvent citées dans médias comme 'difficiles', vérification SSMSI 2024 : (1) **Marseille** : atteintes personnes 11/1 000 (+38 % vs moyenne nationale), trafic stups extrême. RÉPUTATION VÉRIFIÉE pour zones spécifiques (Nord, Saint-Louis, La Castellane). Mais : centre Vieux-Port, Le Panier, Endoume = 7-9/1 000 = niveau moyen métropoles. (2) **Saint-Étienne** : cambriolages 7,8/1 000 = légèrement au-dessus moyenne. RÉPUTATION SURÉVALUÉE. Centre OK, quartiers nord (Cotonne, Tarentaize) plus durs. (3) **Roubaix** : atteintes personnes 9,5/1 000. Communauté pauvre, services dégradés, mais pas zone de violence extrême. RÉPUTATION EXCESSIVE. (4) **Sarcelles, Garges-lès-Gonesse** : atteintes 12-14/1 000, situation difficile confirmée. (5) **Mulhouse** : 8/1 000, niveau moyen, RÉPUTATION SURÉVALUÉE. (6) **Lille** : 7,5/1 000 globale, centre Vieux-Lille = 5/1 000 (excellent), Wazemmes = 8/1 000, Lille Sud = 12/1 000. Hétérogénéité forte intra-ville.",
+      },
+      {
+        heading: "Les villes 'sûres' — décryptage",
+        body: "Villes souvent réputées sûres, vérification : (1) **Annecy** : atteintes 5/1 000, cambriolages 4/1 000. SÉCURITÉ CONFIRMÉE. (2) **Bayonne** : 5,5/1 000. CONFIRMÉE. (3) **La Rochelle** : 5/1 000. CONFIRMÉE. (4) **Tours** : 7/1 000 globale, mais quartiers Sanitas, Rives du Cher = 9-11/1 000. Réputation 'tranquille' À NUANCER. (5) **Caen** : 6,5/1 000. CONFIRMÉE. (6) **Rennes** : 7/1 000 globale, étudiants centre OK, Maurepas et Le Blosne = 9-10/1 000. (7) **Strasbourg** : 7,5/1 000 globale, centre 5-6/1 000, Neuhof + Hautepierre = 11-13/1 000. (8) **Pau** : 5,5/1 000. CONFIRMÉE. (9) **Vannes, Quimper, Saint-Malo** : 4-5,5/1 000. **Excellente sécurité**. (10) **Aurillac, Rodez, Mende** : 3-4,5/1 000. **Très bonne sécurité**.",
+      },
+      {
+        heading: "Hétérogénéité intra-ville — le vrai sujet",
+        body: "Aucune ville n'est uniformément 'sûre' ou 'dangereuse'. Variation intra-ville majeure : (1) **Toulouse** : Carmes, Saint-Aubin = 5/1 000. Mirail, Reynerie = 12-14/1 000. (2) **Lyon** : Croix-Rousse, Brotteaux = 6/1 000. La Duchère, Vénissieux = 11-12/1 000. (3) **Bordeaux** : Chartrons, Caudéran = 5/1 000. Bacalan, Bastide = 9/1 000. (4) **Nice** : Cimiez, Carras = 6/1 000. Nice Nord, L'Ariane = 10-12/1 000. (5) **Paris** : 1er, 4e, 6e, 7e, 8e = 5-7/1 000. 18e Nord, 19e Nord, 20e = 9-11/1 000. **Mais** : 18e Montmartre, 20e Père-Lachaise = niveaux quartiers parisiens corrects. Précision quartier > précision ville pour évaluation sécurité.",
+      },
+      {
+        heading: "Comment vérifier la sécurité d'un quartier précis",
+        body: "(1) **data.gouv.fr SSMSI** : données communales (pas quartier). Bon premier filtre. (2) **Visiter à plusieurs heures** : 22h-minuit, dimanche après-midi, mercredi soir. Sensation 'rue vivante vs déserte'. (3) **Demander aux commerçants** : boulangerie, café — niveau d'inquiétude. (4) **Géoportail urbanisme** : indique zones de difficulté (NPNRU, Zones Urbaines Sensibles). (5) **Forums locaux** : Reddit r/[ville], Facebook 'Vivre à [ville]', forums quartier. Témoignages habitants (subjectifs mais utiles cumulés). (6) **Police nationale** : appeler commissariat local — agents informés statistiques de quartier. (7) **Indicateurs visuels** : tags fréquents, vitrines fermées, voitures vandalisées, présence dealers visible, jardins négligés. (8) **Sites d'avis** : EnQuartier.com, Quartiers-Sécurité.fr (méthodologie variable, prendre avec prudence). (9) **Comparaisons longues** : si tendance baissière sur 5 ans = quartier s'améliore (gentrification, investissements).",
+      },
+      {
+        heading: "Sécurité ressentie vs réelle — les écarts",
+        body: "Écarts perception/réalité documentés (sondages Insee 2024) : (1) **Marseille** : 80 % perçoivent ville comme dangereuse, 28 % expérience directe incident. (2) **Saint-Étienne, Roubaix** : 60 % perception négative, 18-22 % expérience directe. (3) **Quartiers populaires métropoles** (banlieue Paris/Lyon) : perception nettement inférieure à expérience réelle (qui est généralement OK pour habitants du quartier). (4) **Ville moyenne tranquille** (Caen, Pau, La Rochelle) : 8-12 % perception incidents, 4-6 % expérience réelle. (5) **Stations balnéaires** (Côte d'Azur, Bayonne, La Rochelle) : été = inquiétude (vol opportuniste), hiver = calme. Saisonnier. (6) **Effet médias** : couverture sensationnaliste amplifie perception, surtout pour Marseille, banlieue Paris, certaines villes ouvrières. Donnée réelle peut différer de 30-50 % de la perception.",
+      },
+      {
+        heading: "Profils différents, sensibilités différentes",
+        body: "(1) **Femme seule** : sécurité = critère majeur. Quartier visible le soir, transports publics fréquents, présence commerciale. Top villes : Vannes, Annecy, La Rochelle, Caen. (2) **Famille avec enfants** : sécurité quartier + école + parcs. Top villes : Tours quartier nord, Rennes Centre, Bordeaux Chartrons, Lyon Tassin. (3) **Senior** : sentiment sécurité = critère prioritaire. Communauté retraités active rassure. Top villes : Pau, Vannes, Annecy, Aix-en-Provence Cours Mirabeau. (4) **Étudiant / Jeune actif** : tolérance plus forte aux 'incidents mineurs'. Quartier vivant, bars, mixité sociale. Top villes : Toulouse Saint-Aubin, Lyon Croix-Rousse, Montpellier Écusson. (5) **Cadre cosmopolite** : recherche centre urbain dynamique + sécurité acceptable. Compromis. Top villes : Bordeaux Chartrons, Strasbourg Krutenau, Lyon Brotteaux.",
+      },
+      {
+        heading: "Pièges classiques sur la sécurité",
+        body: "(1) **Confiance médias** : information sensationnaliste sur Marseille/Roubaix etc. masque hétérogénéité. (2) **Stigmatisation banlieue parisienne** : Aubervilliers et Saint-Denis ont quartiers calmes (autour Stade de France, La Plaine). (3) **Ignorer hétérogénéité ville** : choisir Strasbourg pour 'sécurité moyenne' sans savoir qu'on tombe à Neuhof = piège. Précision quartier obligatoire. (4) **Surévaluer 'petites villes calmes'** : Châteauroux, Limoges, Bourges sont calmes statistiquement, mais aussi en déclin économique = isolement et solitude possible. La sécurité parfaite peut signifier vide social. (5) **Acheter sur réputation** : prix premium quartier 'sûr' peut être surévalué — comparer données réelles. (6) **Ne pas tester réellement** : visite 11h du matin un mercredi ne dit RIEN. Tester 22h-2h vendredi/samedi pour évaluer vraiment. (7) **Sous-estimer évolution** : quartier dynamique peut se dégrader en 5 ans (Vénissieux post-2000) ou s'améliorer (Bordeaux Bacalan, Saint-Denis La Plaine).",
+      },
+      {
+        heading: "Le calcul honnête : précision quartier > réputation ville",
+        body: "La sécurité d'une ville en 2026 se mesure par quartier, pas par moyenne communale : (1) **Marseille Le Panier, Endoume, Vauban** : sûreté acceptable malgré réputation ville. (2) **Lyon Croix-Rousse, Brotteaux** : excellent malgré quartiers difficiles ailleurs Lyon. (3) **Toulouse Saint-Aubin, Carmes** : très bon malgré Le Mirail. (4) **Strasbourg centre, Krutenau** : excellent malgré Neuhof. (5) **Paris 6e, 7e, 16e** : très sûr. 18e Nord = à éviter, mais Montmartre central = OK. **Recommandation universelle** : (1) Consulter SSMSI data.gouv pour vue ville. (2) Visiter quartier cible à 3 horaires différents (matin, fin journée, nuit). (3) Demander commerçants. (4) Tester forums locaux. (5) Ne JAMAIS acheter sans visiter un soir/nuit. **Sweet spot 2026** : ville moyenne préfecture <100 000 hab + quartier centre = sécurité quasi-systématique excellente. Métropole = précision quartier obligatoire mais excellents quartiers existent partout (Lyon Tassin, Toulouse Carmes, Bordeaux Chartrons, Strasbourg Petite France).",
+      },
+    ],
+    relatedCities: ["annecy", "vannes", "la-rochelle", "pau", "caen"],
+    relatedGuides: [
+      "meilleures-villes-familles-monoparentales-france-2026",
+      "quitter-paris-avec-enfants-primaire-france-2026",
+      "demenager-sintegrer-province-sans-reseau-2026",
+      "petites-villes-50000-habitants-tout-france-2026",
+      "vivre-au-vert-pres-de-paris-1h-2026",
+    ],
+    tags: ["sécurité ressentie", "SSMSI", "criminalité par ville", "quartier sûr", "perception", "données ouvertes", "2026"],
+  },
+  {
+    slug: "bilan-energetique-avant-achat-france-2026",
+    title: "Bilan énergétique avant achat en 2026 — DPE, audit, étiquette CO2, interdictions",
+    metaTitle: "DPE achat immobilier 2026 : audit, étiquette CO2, interdictions — guide",
+    metaDesc:
+      "Bilan énergétique avant achat immobilier 2026 : DPE, audit énergétique obligatoire, étiquette CO2, interdictions location 2025-2034, coût rénovation.",
+    category: "budget",
+    emoji: "📋",
+    readMinutes: 9,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "Le DPE (Diagnostic de Performance Énergétique) est devenu LE critère décisif d'un achat immobilier en France 2026. Interdictions de location progressives, surcoût rénovation parfois >50 k€, valeur de revente -20 à -30 % pour passoires thermiques. Voici la lecture honnête des diagnostics obligatoires, calculs de coût et stratégies d'optimisation.",
+    sections: [
+      {
+        heading: "DPE — le diagnostic central 2026",
+        body: "(1) **Principe** : Diagnostic de Performance Énergétique, obligatoire à la vente et à la location depuis 2006, réformé 2021. (2) **Classement** : A (très performant, <70 kWh/m²/an) → G (passoire thermique, >420 kWh). (3) **Validité** : 10 ans depuis nouvelle méthode 2021. (4) **Critères** : consommation énergie primaire (chauffage + ECS + climatisation + éclairage + auxiliaires) + émissions CO2 (étiquette climat). (5) **Coût diagnostic** : 100-200 € par bien (charge vendeur). (6) **DPE opposable** : depuis juillet 2021, le DPE engage la responsabilité du diagnostiqueur et du vendeur. Erreur ou fraude = recours possible 1 an. (7) **DPE collectif** : depuis 2024, obligatoire pour copropriétés de 50+ lots (impact valeur globale).",
+      },
+      {
+        heading: "Interdictions de location progressives",
+        body: "Calendrier strict 2025-2034 : (1) **DPE G** (>420 kWh/m²/an) : INTERDIT à la location depuis 1er janvier 2025. (2) **DPE F** (330-420 kWh/m²/an) : interdit à la location depuis 1er janvier 2028. (3) **DPE E** (250-330 kWh/m²/an) : interdit à la location depuis 1er janvier 2034. (4) **Exceptions** : (a) Travaux 'lourds rendant le logement décent' non économiquement viables peuvent permettre dérogation. (b) Bâtiments à charge patrimoniale (Monuments Historiques) exemptés. (5) **Impact marché 2026** : (a) ~600 000 logements DPE G concernés. (b) Décote 20-35 % à la vente. (c) Vente forcée fréquente avant interdiction. (d) Opportunités achat avec marge. (6) **DPE et occupant propriétaire** : pas d'interdiction pour résidence principale (continuer à habiter possible). Mais interdiction à la location si on quitte ensuite.",
+      },
+      {
+        heading: "Audit énergétique — diagnostic complémentaire",
+        body: "(1) **Obligation depuis avril 2023** pour vente de logement DPE F ou G en France métropolitaine. (2) **Distinct du DPE** : analyse approfondie + plan de travaux chiffré pour passer en DPE C-D voire B. (3) **Validité** : 5 ans. (4) **Coût** : 700-1 200 € (chargé vendeur). (5) **Contenu** : (a) Évaluation thermique complète (sondage parois). (b) 2 scénarios de rénovation (un atteignant DPE B, un atteignant DPE D minimum). (c) Coût estimé travaux. (d) Économies énergie projetées. (e) Aides MaPrimeRénov' applicables. (6) **Utilité acheteur** : (a) Connaître coût rénovation AVANT achat. (b) Négocier prix (-15 à -30 % typique pour DPE F-G). (c) Planifier travaux financièrement (Eco-PTZ, MaPrimeRénov'). (7) **DPE prochain** : depuis 2024, le diagnostiqueur doit indiquer 'gestes prioritaires' même pour DPE C-D, anticipant interdiction E en 2034.",
+      },
+      {
+        heading: "Décrypter le DPE 2026",
+        body: "(1) **Étiquette énergie** (A-G) : consommation énergie primaire kWh/m²/an. C = 90-150 kWh = bonne. (2) **Étiquette climat** (A-G) : émissions CO2 kg/m²/an. Faible importance pour particulier mais critique pour interdiction (DPE incompatible si CO2 et énergie divergent). (3) **Consommation totale annuelle** : en kWh + €. (4) **Coûts annuels** estimés : chauffage + ECS + auxiliaires. À compléter par climatisation Sud. (5) **Points forts/faibles** : pertes par toiture (20-30 %), murs (15-25 %), plancher (5-10 %), ventilation (15-20 %), équipements (chauffage type). (6) **Recommandations** : 5-10 gestes prioritaires chiffrés. (7) **Méthode 2021 vs 2025** : DPE réformés depuis 2021 plus stricts, plus de 'DPE vierges' depuis 2024. Vérifier date d'émission.",
+      },
+      {
+        heading: "Coûts rénovation par étiquette",
+        body: "Estimations 2026, T3 100 m² ancien hors IDF : (1) **De DPE G à E** (3 sauts) : isolation toiture + remplacement chaudière fioul → pompe à chaleur. Coût : 25-50 k€. Délai gain : 12-18 mois après travaux. (2) **De DPE F à C** (3 sauts) : ITE/ITI + fenêtres double vitrage + PAC + ventilation. Coût : 45-80 k€. (3) **De DPE E à B** (3 sauts) : isolation complète + équipements RT2020. Coût : 60-100 k€. (4) **De DPE D à B** (2 sauts) : isolation cibles + équipements modernes. Coût : 35-60 k€. (5) **De DPE C à A** : ITE complète + équipements top de gamme + ventilation double flux + énergie renouvelable. Coût : 50-90 k€. **Aides MaPrimeRénov'** réduisent typique 25-50 % de la facture selon revenus.",
+      },
+      {
+        heading: "Stratégie achat — viser DPE C-D et mieux",
+        body: "Stratégie 2026 : (1) **DPE A-B** : achat premium, prix +5-10 % vs moyenne. Sécurité juridique long terme, faible facture énergie. Pour acheteur risk-averse. (2) **DPE C-D** : sweet spot. Prix moyenne marché, conformité 2034. Acceptable sans gros travaux. Idéal primo-accédant. (3) **DPE E** : prix -5 à -10 %, mais obligation rénovation d'ici 2034. Acceptable si projet de revente avant ou volonté rénovation. (4) **DPE F** : prix -15 à -20 %. Audit énergétique obligatoire fournit le chiffrage. Rénovation 45-80 k€. À envisager pour rénovateur engagé. (5) **DPE G** : prix -20 à -35 %. Interdit location depuis 2025. Vente forcée fréquente. Opportunité majeure pour acheteur capable de rénover. ROI excellent si bien situé + capacité travaux. (6) **Recommandation universelle** : ne JAMAIS acheter sans DPE valide (<10 ans). Si DPE F-G, exiger audit énergétique avant compromis.",
+      },
+      {
+        heading: "Diagnostics complémentaires obligatoires",
+        body: "(1) **ERP** (État Risques et Pollutions) : risques naturels (inondation, séisme), miniers, technologiques, pollution sols. Obligatoire toutes ventes. Validité 6 mois. (2) **Plomb (CREP)** : pour biens construits avant 1949. Validité illimitée si négatif, 1 an si positif. Coût 100-200 €. (3) **Amiante** : pour biens construits avant juillet 1997. Validité illimitée si négatif, 3 ans si positif et faible. Coût 100-200 €. (4) **Termites** : zones à risque (~40 départements concernés). Validité 6 mois. Coût 100-150 €. (5) **Gaz** (sécurité installation) : pour installations >15 ans. Validité 3 ans. Coût 100-150 €. (6) **Électricité** : pour installations >15 ans. Validité 3 ans. Coût 110-160 €. (7) **Surface Carrez** (copropriété) : surface privative loi 1996. Coût 100-150 €. (8) **Mérule** : zones humides Bretagne, Charente, Aquitaine. Validité 6 mois si positif. (9) **Radon** : depuis 2018, communes à risque (Bretagne, Massif Central). Information vendeur.",
+      },
+      {
+        heading: "Pièges classiques DPE et diagnostics",
+        body: "(1) **DPE 'arrangé'** : certains diagnostiqueurs sous-estiment volontairement. Demander noms 3 diagnostiqueurs alternatifs pour comparer. (2) **DPE 'mythique' < 2021** : ancienne méthode souvent fausse (surévaluait performance). Tous DPE > 2018 < 2021 invalides depuis 2024 — exiger DPE récent. (3) **Ignorer audit énergétique** : achat DPE F sans connaître coût rénovation = piège budget. (4) **Sous-estimer travaux** : 30-50 % de dépassement moyen sur rénovation énergétique. Garder réserve. (5) **Aides MaPrimeRénov'** : non rétroactives. Toujours demander aide AVANT engager travaux. (6) **Étiquette climat** ignorée : un DPE C peut être incompatible 2034 si étiquette climat E (DPE est pris au moins favorable des deux étiquettes). (7) **Bâtiment classé** : Monuments Historiques exemptés, mais autres bâtiments anciens non. Restauration patrimoine + DPE = casse-tête. (8) **Achat sans DPE** : depuis 2021, sanctions lourdes pour vendeur (annulation possible vente).",
+      },
+      {
+        heading: "Le calcul honnête : DPE = critère central 2026",
+        body: "Le DPE est devenu le critère décisif de l'achat immobilier en France 2026 : (1) Interdictions de location 2025-2034 transforment marché. (2) Décote 20-35 % sur passoires thermiques = opportunités pour rénovateurs. (3) Aides MaPrimeRénov' + Eco-PTZ rendent rénovation accessible. (4) Étiquette CO2 émergente importante climat 2040. **Stratégies par profil** : (1) **Primo-accédant** : viser DPE C-D, éviter rénovation complexe. (2) **Investisseur locatif** : DPE C minimum, DPE F-G inutilisable depuis 2025-2028. (3) **Rénovateur engagé** : DPE F-G + audit énergétique + MaPrimeRénov' = bonne opération si capacité travaux et capital tampon. (4) **Vendeur** : si bien DPE F-G, anticipation rénovation OU acceptation décote 20-30 %. **À éviter** : (1) Acheter sans DPE récent (<5 ans). (2) Ignorer audit énergétique sur DPE F-G. (3) Sous-estimer coût rénovation (toujours +30 %). (4) Ne pas anticiper interdictions location 2028 (DPE F) et 2034 (DPE E). **Sweet spot 2026** : achat DPE D avec 'gestes prioritaires' légers ou DPE F avec audit + budget travaux maîtrisé.",
+      },
+    ],
+    relatedCities: ["lyon", "bordeaux", "nantes", "limoges", "saint-etienne"],
+    relatedGuides: [
+      "acheter-maison-a-renover-france-2026-vrai-cout",
+      "construire-sa-maison-france-2026-ou-comment-prix",
+      "encadrement-loyers-france-2026-villes-investir-malgre-tout",
+      "investir-lmnp-par-ville-france-2026",
+      "pinel-denormandie-2026-fin-dispositif-alternatives",
+    ],
+    tags: ["DPE", "audit énergétique", "MaPrimeRénov", "passoire thermique", "interdiction location", "rénovation énergétique", "RT2020", "2026"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
