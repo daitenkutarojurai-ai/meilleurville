@@ -14592,6 +14592,299 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["résidence secondaire", "THRS", "IFI", "plus-value", "Airbnb", "location saisonnière", "fiscalité", "zone tendue", "2026"],
   },
+  {
+    slug: "construire-sa-maison-france-2026-ou-comment-prix",
+    title: "Construire sa maison en France 2026 — où, comment, prix réels",
+    metaTitle: "Construire sa maison France 2026 : où, comment, prix au m² — guide",
+    metaDesc:
+      "Construire sa maison en France 2026 : terrain + permis + constructeur, prix au m² par région, RE2020, pièges sol/raccordements/délais. Analyse honnête.",
+    category: "budget",
+    emoji: "🏗️",
+    readMinutes: 10,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "Construire sa maison reste un projet à fort potentiel patrimonial — sur-mesure, performance énergétique RE2020 native, montée en valeur si bien situé. Mais 2026 cumule plusieurs frictions : raréfaction du foncier constructible (ZAN 2050), coût construction +18 % depuis 2021, délais permis allongés. Voici la lecture honnête, sans le cliché 'construire = moins cher que acheter'.",
+    sections: [
+      {
+        heading: "Le vrai coût total 2026 : terrain + construction + extras",
+        body: "Pour une maison 100 m² RE2020 type T4 avec garage : (1) **Terrain viabilisé** : 60 000-180 000 € selon région (60-120 k€ rural, 120-180 k€ péri-urbain métropole secondaire, 180-300 k€+ couronne Paris/Lyon/Bordeaux). (2) **Construction** : 1 800-2 800 €/m² hors taxes selon prestation. 1 800-2 100 €/m² constructeur CCMI (Contrat Construction Maison Individuelle), 2 200-2 800 €/m² maître œuvre + entreprises séparées. Soit 180-280 k€ pour 100 m². (3) **Frais annexes** : géomètre, étude de sol G2 obligatoire (1 500-3 000 €), permis (souvent gratuit), assurance dommages-ouvrage obligatoire (2 500-4 500 €). (4) **Raccordements** : eau, électricité, télécom, assainissement : 5 000-25 000 € selon distance. (5) **Aménagement extérieur** : clôture, allée, terrasse, végétalisation : 8 000-25 000 €. **TOTAL** typique 100 m² : 280 000-450 000 € tout compris.",
+      },
+      {
+        heading: "Prix au m² par région — vraiment",
+        body: "Construction hors terrain (2026, CCMI standard incluant RE2020) : (1) **Bretagne, Pays de Loire** : 1 800-2 100 €/m² — coûts maîtrisés, savoir-faire local solide. (2) **Normandie, Centre-Val de Loire** : 1 850-2 200 €/m². (3) **Hauts-de-France, Grand Est** : 1 850-2 100 €/m² — économies d'échelle, fournisseurs proches. (4) **Bourgogne, Auvergne-Rhône-Alpes plaine** : 2 000-2 350 €/m². (5) **Nouvelle-Aquitaine** : 2 000-2 400 €/m² — légère surchauffe côte. (6) **Occitanie, PACA hors littoral** : 2 100-2 500 €/m². (7) **PACA littoral, Île-de-France** : 2 400-2 900 €/m² — tension main d'œuvre. (8) **Stations alpines** : 2 800-3 800 €/m² — neige, accès difficile, normes parasismiques renforcées. (9) **Outre-mer** : 2 500-4 000 €/m² selon DROM — normes anticycloniques, matériaux importés.",
+      },
+      {
+        heading: "Trouver un terrain constructible 2026 — l'enjeu majeur",
+        body: "Loi ZAN (Zéro Artificialisation Nette) 2023 réduit drastiquement les nouveaux terrains constructibles d'ici 2050. Conséquences 2026 : (1) Terrains rares en zone tendue (couronne Paris, Lyon, Toulouse, Bordeaux, Nantes, Annecy). Prix +20-40 % en 5 ans. (2) Lotissements en cours de bouclage. Vérifier validité PLU et permis d'aménager. (3) **Sources terrain** : agences immobilières spécialisées, sites SeLoger / Le Bon Coin / Logic-Immo, plateforme Vendre-mon-terrain, géomètres locaux. (4) **Vérifications obligatoires AVANT compromis** : (a) Certificat d'urbanisme opérationnel (CU type 'b') auprès de la mairie — confirme constructibilité actuelle. (b) Plan Local d'Urbanisme (PLU) communal — zonage, COS, emprise. (c) Servitudes (réseaux, droits de passage). (d) Étude de sol G1/G2 — obligatoire depuis 2020 en zones argileuses. (e) Risques (Géorisques : inondation, retrait-gonflement argile, mouvement terrain, sismique).",
+      },
+      {
+        heading: "Choix du constructeur — CCMI vs maître œuvre",
+        body: "(1) **CCMI (Contrat de Construction Maison Individuelle)** : sécurisant, loi de 1990. Constructeur unique, prix ferme + délai contractuel, garantie livraison à prix et délai convenu (GLPDC), garantie décennale, dommages-ouvrage obligatoire. Coût : 1 800-2 200 €/m². Standardisation des plans (moins de personnalisation). Top constructeurs nationaux : Maisons France Confort, Demeures Caladoises, Maisons Castor, Hexa Concept, Géoxia. (2) **Maître d'œuvre + entreprises séparées** : plus de personnalisation, coordination via architecte ou maître d'œuvre. Prix : 2 200-2 800 €/m². Délais maîtrisables MAIS risque coordination, faillite d'une entreprise (assurance bilatérale obligatoire). Recommandation 2026 : CCMI pour primo-construction <130 m², maître d'œuvre + archi pour >150 m² personnalisé ou terrain complexe. (3) **Auto-construction** : 30-40 % d'économies sur main d'œuvre, mais 2-3 ans de travail intense + assurances limitées + revente compliquée.",
+      },
+      {
+        heading: "RE2020 — la nouvelle norme obligatoire 2022+",
+        body: "Toute construction neuve depuis 2022 doit respecter la RE2020 (Réglementation Environnementale 2020), succédant à la RT2012. (1) **Performance énergétique** : besoin en chauffage <12 kWh/m²/an (vs 30 kWh RT2012). Maison passive obligatoire de fait. (2) **Empreinte carbone** : limite carbone matériaux + exploitation, favorise bois, terre cuite, matériaux biosourcés. (3) **Confort d'été** : limite degrés-heures inconfort >28 °C — critique en climat méditerranéen ou continental chaud. (4) **Coût additionnel RE2020 vs RT2012** : +5 à +12 % du coût construction. (5) **Conséquences positives** : facture chauffage 100-200 €/an au lieu de 1 200-2 000 €/an en ancien classe D-E. DPE A garanti. Avantage revente à 10-15 ans. (6) **Pièges** : confort d'été dans le Sud nécessite vraies dispositions (orientation, débords toiture, ventilation traversante) au-delà du minimum réglementaire.",
+      },
+      {
+        heading: "Délais et timing 2026",
+        body: "Délais types : (1) Recherche terrain : 3-12 mois. (2) Compromis + déblocage prêt + permis de construire : 4-7 mois (permis : 2 mois zone calme, jusqu'à 5 mois avec recours possible). (3) Préparation chantier (sondages sol, viabilisation) : 1-3 mois. (4) Construction : 10-14 mois pour 100 m² CCMI standard, 14-20 mois pour maître d'œuvre personnalisé. (5) Pénalités retard : variable, vérifier contrat (typique 1/3000e du prix par jour ouvré, plafond 5 %). **Total moyen 2026** : 18-30 mois entre 'achat terrain' et 'emménagement'. Anticiper logement de transition (location longue) durant la construction. **Pièges délais 2026** : (a) Disponibilité matériaux (acier, bois, certains isolants en tension post-Covid). (b) Charpentiers/maçons surchargés en zones tendues. (c) Recours voisins permis (extension délai 2-4 mois fréquente).",
+      },
+      {
+        heading: "Pièges classiques de la construction 2026",
+        body: "(1) **Étude de sol G2 omise** ou bâclée → fissures graves d'ici 3-7 ans en zones argileuses (60 % du territoire France). Coût correctif : 30-150 k€. (2) **Raccordements sous-estimés** : terrain éloigné des réseaux → 15-40 k€ de viabilisation imprévue. Demander devis ENEDIS/eau/télécom AVANT compromis terrain. (3) **Sol non-constructible découvert tardivement** : carrière souterraine, marnière, ancien étang. Vérifier BRGM + études géotechniques. (4) **Constructeur défaillant** : 60+ faillites de constructeurs 2023-2024. Vérifier garantie livraison à prix convenu (GLPDC) souscrite auprès assureur reconnu. (5) **Permis de construire refusé / contesté voisin** : recours 4-8 mois, parfois invalidant le permis. Vérifier le voisinage immédiat avant compromis. (6) **Hausse coûts construction durant chantier** : CCMI protège (prix ferme), maître d'œuvre + entreprises = risque +5-15 % surcoût. (7) **Énergie + confort d'été dans le Sud** : RE2020 mini insuffisante, prévoir orientation + masques solaires + ventilation naturelle traversante.",
+      },
+      {
+        heading: "Régions où construire fait sens 2026",
+        body: "(1) **Bretagne intérieure, Pays de Loire rural** : terrains accessibles (40-100 k€), construction maîtrisée (1 800-2 100 €/m²), climat tempéré 2040, fibre. Excellent rapport. (2) **Centre-Val de Loire** : terrains 50-120 k€, construction 1 850-2 200 €/m², fibre rapide. (3) **Nouvelle-Aquitaine intérieure** (Charente, Vienne, Deux-Sèvres) : terrains 40-100 k€, climat doux, services. (4) **Hauts-de-France** : terrains 50-150 k€, construction très accessible, réindustrialisation en cours. (5) **Lorraine, Champagne** : terrains 30-80 k€, construction accessible, frontalier potentiel. (6) **Massif Central, Auvergne profonde** : terrains 20-80 k€, construction 1 950-2 200 €/m², refuge climatique 2040. **À éviter pour construction neuve 2026** : couronnes très proches métropoles tendues (Lyon proche, Annecy, Bordeaux centre, Paris grande couronne) où le foncier est saturé et les délais permis longs.",
+      },
+      {
+        heading: "Le calcul honnête : construire vs acheter ancien",
+        body: "**Construire** = avantages : performance énergétique RE2020 native (DPE A), sur-mesure, garanties constructeur 10 ans, valeur future excellente, économie chauffage 1 500-2 000 €/an vs ancien classe D-E. **Construire** = inconvénients : délai 18-30 mois, gestion complexe, coût total souvent équivalent voire supérieur à ancien rénové (selon emplacement). **Acheter ancien à rénover** = avantages : emplacement déjà mature (réseaux, services, voisinage), prix initial inférieur, aides MaPrimeRénov' (10-30 k€ remboursement). **Acheter ancien à rénover** = inconvénients : DPE F/G obligation rénovation 2025-2034, coûts rénovation souvent sous-estimés, pas de garantie 10 ans. **Sweet spot 2026** : construire si terrain trouvé <100 k€ + ville moyenne avec services + projet 15-25 ans. Acheter ancien si métropole secondaire ou ville moyenne avec patrimoine + budget rénovation 30-50 k€ réservé. À 100 m², coût total construction 280-450 k€ vs ancien rénové 200-380 k€ — la construction nécessite +20 % budget mais offre DPE A et 10 ans garantie.",
+      },
+    ],
+    relatedCities: ["rennes", "nantes", "tours", "limoges", "aurillac"],
+    relatedGuides: [
+      "acheter-en-vefa-france-2026-villes-pieges",
+      "acheter-maison-campagne-france-2026-vraiment-vivable",
+      "acheter-moins-200000-euros-france-quelles-villes-2026",
+      "petites-villes-50000-habitants-tout-france-2026",
+      "meilleures-villes-primo-accedants-france-2026",
+    ],
+    tags: ["construction", "maison individuelle", "CCMI", "RE2020", "terrain", "permis de construire", "ZAN", "2026"],
+  },
+  {
+    slug: "partir-vivre-dans-le-sud-france-pieges-2026",
+    title: "Partir vivre dans le Sud en 2026 — pièges et alternatives lucides",
+    metaTitle: "Partir vivre dans le Sud 2026 : pièges (canicule, eau, prix) — guide",
+    metaDesc:
+      "Partir vivre dans le Sud de la France en 2026 : fantasme vs réalité (canicule, sécheresse, foncier surévalué). Pièges, villes à éviter, alternatives.",
+    category: "comparaison",
+    emoji: "🌞",
+    readMinutes: 9,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "Le 'partir vivre dans le Sud' reste le fantasme #1 des Français en quête de qualité de vie. Mer, soleil, climat doux, ambiance méridionale. Mais 2026 cumule plusieurs réalités qui rendent ce projet plus complexe qu'il y a 10 ans : canicule en intensification, sécheresses chroniques, foncier surévalué, saturation touristique. Voici la lecture honnête.",
+    sections: [
+      {
+        heading: "Le fantasme Sud — d'où il vient et pourquoi il persiste",
+        body: "Le récit collectif du 'Sud comme paradis' s'est construit dans les années 1960-1990, sur un climat plus doux qu'aujourd'hui (moyennes estivales ~24 °C, canicules ponctuelles), un foncier accessible (m² Marseille 1995 : 1 200 €/m² en euros constants 2026), et une saturation touristique limitée. En 2026, ces 3 bases ont changé : climat +2,5 °C depuis 1900 sur l'arc méditerranéen, foncier multiplié par 4-6×, saturation estivale extrême. Le 'Sud doux' des grands-parents n'est plus le Sud réel 2026.",
+      },
+      {
+        heading: "Réalité 1 — Canicule en intensification rapide",
+        body: "Projections Météo-France ARPEGE à 2040 : Marseille passera de ~12 jours/an >30 °C (moyenne 1981-2010) à ~50 jours/an. Avignon, Carcassonne : 60+ jours/an >30 °C. Nuits tropicales (>20 °C) : 30-80/an selon ville. Conséquences concrètes : (1) Climatisation devient obligatoire en résidence principale (consommation +800-1 500 kWh/an). (2) Sommeil dégradé sans clim de juin à septembre. (3) Bâti non-adapté (DPE E-F-G) devient inhabitable estival d'ici 2030-2035. (4) Activités extérieures décalées (matin tôt, soir tard, sieste obligée). (5) Risque sanitaire pour personnes âgées, enfants, asthmatiques. (6) Coût énergie clim 300-700 €/an en pic. Le 'Sud doux' devient progressivement le 'Sud chaud à brûlant'.",
+      },
+      {
+        heading: "Réalité 2 — Sécheresse et ressource en eau",
+        body: "Précipitations en baisse 15-25 % en été sur l'arc méditerranéen depuis 1990. Restrictions d'eau devenues chroniques : (1) Été 2022 : 99 % du territoire en alerte sécheresse, restrictions sévères dans Var, Bouches-du-Rhône, Vaucluse, PyO. (2) Été 2023 : record de communes en rupture d'eau potable (Aude, PyO). (3) Été 2025 (projection scenario tendanciel) : restrictions estivales structurelles. Conséquences : (1) Jardin = saison morte juillet-août (interdiction arrosage). (2) Piscine privée à proscrire (interdiction de remplissage). (3) Lavage voiture/façade interdit. (4) Agriculture locale en difficulté (vignobles, fruits, légumes — répercussion prix locaux). (5) Coût eau en hausse continue (+30-50 % d'ici 2030 projeté).",
+      },
+      {
+        heading: "Réalité 3 — Foncier surévalué et saturé",
+        body: "Prix m² 2026 dans le Sud : (1) **Côte d'Azur centre** (Nice, Cannes, Antibes) : 5 500-12 000 €/m². (2) **Côte basque** (Biarritz, Saint-Jean-de-Luz) : 7 000-12 000 €/m². (3) **Aix-en-Provence** : 5 500-8 000 €/m². (4) **Marseille centre/ouest** : 3 500-6 500 €/m². (5) **Montpellier, Toulouse, Bordeaux** centre : 4 000-6 000 €/m². (6) **Provence intérieure** (Avignon, Aix campagne, Lubéron) : 3 500-6 500 €/m². (7) **Stations alpines Sud** (Briançon, Gap) : 2 800-4 500 €/m². Pour comparaison : Lille centre 3 500-5 000 €/m², Strasbourg 3 500-5 200 €/m². Le 'Sud' n'est plus l'option économique qu'il était. Une famille qui visait T4 Marseille à 280 k€ en 2010 paie aujourd'hui 450-550 k€ pour équivalent.",
+      },
+      {
+        heading: "Réalité 4 — Saturation touristique et concentration estivale",
+        body: "Été (juillet-août) sur littoral méditerranéen + Côte basque : (1) Population doublée à triplée selon commune. (2) Circulation impossible (A8 PACA, A63 côte basque, péages saturés). (3) Plages bondées, accès parfois interdit (Calanques Marseille : quotas 2022+). (4) Restaurants saturés, services tendus. (5) Hausse temporaire des prix (essence, alimentation, services). (6) Marché immobilier dynamisé par résidences secondaires (forte THRS majorée + ratio résidences secondaires >40 % dans certaines communes). (7) Vivre dans le Sud = vivre 5 mois 'normaux' + 2 mois 'sous siège touristique' + 5 mois retour calme.",
+      },
+      {
+        heading: "Villes à éviter pour relocation 2026",
+        body: "(1) **Île de Ré, Île d'Oléron** — foncier inabordable, THRS max, érosion littorale. (2) **Saint-Tropez, Ramatuelle** — foncier inaccessible (>15 000 €/m²), saisonnalité extrême. (3) **Cassis, Saint-Cyr-sur-Mer** — saturé tourisme + foncier saturé. (4) **Côte d'Azur centre saturé** (Cap-Ferrat, Cap d'Antibes) — réservé profils ultra-fortunés. (5) **Lubéron-vitrine** (Gordes, Roussillon, Bonnieux) — Instagram-style mais saturé + climat dur 2040. (6) **Front de mer Camargue** — moustiques, humidité, isolement. (7) **Plages landaises front direct** (Lacanau, Soulac) — érosion documentée, biens menacés.",
+      },
+      {
+        heading: "Alternatives lucides — Sud moins exposé",
+        body: "Pour qui cherche le climat doux et la qualité méridionale sans les pièges 2026 : (1) **Arrière-pays niçois** (Vence, Saint-Paul-de-Vence, Tourrettes) — altitude légère, climat amorti, foncier sweet spot (~3 500-5 500 €/m²). (2) **Drôme provençale** (Crest, Die, Saillans) — climat préservé, communauté alternative, prix accessibles. (3) **Ardèche provençale** (Aubenas, Vallon-Pont-d'Arc) — refuge altitude + climat. (4) **Sud Lozère** (Mende, Florac, Saint-Chély) — altitude + fraîcheur estivale + foncier dérisoire. (5) **Cévennes** (Anduze, Saint-Jean-du-Gard) — climat moins extrême, beauté, foncier abordable. (6) **Aveyron sud** (Millau, Saint-Affrique) — préfecture services + refuge altitude. (7) **Hautes-Pyrénées** (Pau, Tarbes, Lourdes) — climat océanique-pyrénéen tempéré, foncier sweet spot. (8) **Pays Basque intérieur** (Cambo, Hasparren, Saint-Palais) — culture méridionale + climat tempéré océan. (9) **Côte d'Argent** (Royan, Saint-Palais-sur-Mer) — climat océanique doux, moins saturé que Côte d'Azur.",
+      },
+      {
+        heading: "Si on choisit malgré tout le Sud méditerranéen — la liste de contrôle",
+        body: "(1) **Climatisation** obligatoire dans projet d'achat (existante ou installation). Pompe à chaleur réversible plus performante que clim split. (2) **Isolation toiture impeccable** — surchauffe sous toiture en été. DPE A-C uniquement. (3) **Orientation** : éviter exposition sud-ouest sans débord toit/volets. Privilégier orientation est ou sud avec véranda/loggia. (4) **Espaces verts privés** : jardin arboré devient valeur refuge. Terrasse couverte/pergola indispensable. (5) **Eau** : vérifier source alimentation (Canal de Provence stable, source locale plus fragile). (6) **Risque incendie** : zones PPRIF (Plan Prévention Risques Incendies Forêt), Côte d'Azur arrière-pays exposé. (7) **Distance services** : maison isolée sur colline = pari risqué d'ici 10-15 ans (services médicaux dégradés en zone rurale + canicule + isolement). (8) **Population stable hors saison** : éviter villages 90 % résidences secondaires (vie sociale réduite hiver).",
+      },
+      {
+        heading: "Le calcul honnête : Sud reste possible, mais sélectif",
+        body: "Partir vivre dans le Sud en 2026 reste un projet viable si on accepte 4 réalités : (1) Climat en mutation rapide vers chaud-aride, adaptation lourde obligatoire. (2) Foncier 1,5-3× supérieur aux régions équivalentes du Nord/Ouest. (3) Saturation touristique 2 mois/an. (4) Communauté méridionale réelle (ambiance, gastronomie, ensoleillement, mer/montagne). Le bon profil 2026 : retraité actif avec budget confortable, télétravailleur autonome avec bâti adapté, profil culturel fort attaché à l'identité méridionale. Le mauvais profil : famille jeune cherchant 'climat doux pour les enfants' (pas si doux), primo-accédant cherchant foncier accessible (pas accessible), profil santé fragile (canicule dangereuse). Recommandation : tester 6 mois en location pendant l'été ET pendant l'hiver avant tout achat. Considérer alternatives 'Sud moins exposé' (arrière-pays, vallées internes, Pyrénées, Pays Basque, Atlantique sud) qui offrent 80 % du bénéfice à 40 % du coût et avec moins de risques climatiques 2040.",
+      },
+    ],
+    relatedCities: ["marseille", "nice", "aix-en-provence", "perpignan", "biarritz"],
+    relatedGuides: [
+      "climat-2040-sud-est-mediterraneen-france",
+      "climat-2040-sud-ouest-pyrenees-bassin-aquitain",
+      "vivre-en-pays-basque-guide-2026",
+      "quitter-marseille-guide-2026",
+      "expatries-retour-france-quelle-ville-2026",
+    ],
+    tags: ["partir vivre Sud", "Méditerranée", "canicule", "sécheresse", "foncier", "saturation touristique", "alternatives", "2026"],
+  },
+  {
+    slug: "acheter-en-couple-non-marie-pacs-sci-indivision-2026",
+    title: "Acheter en couple non marié — PACS, indivision, SCI en 2026",
+    metaTitle: "Acheter en couple non marié 2026 : PACS, indivision, SCI — guide",
+    metaDesc:
+      "Acheter à deux non mariés en 2026 : indivision vs PACS vs SCI, droits succession, séparation, fiscalité, frais. Conseils notaire pour décider.",
+    category: "budget",
+    emoji: "💍",
+    readMinutes: 9,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "65 % des couples qui achètent leur résidence principale en 2026 ne sont pas mariés (Insee 2024). Concubinage, PACS, indivision, SCI : 4 structures juridiques différentes avec des conséquences majeures sur la succession, la séparation et la fiscalité. Voici l'analyse honnête de chaque option, sans cliché 'le mariage protège mieux'.",
+    sections: [
+      {
+        heading: "Les 4 statuts possibles — vue d'ensemble",
+        body: "(1) **Concubinage simple** + indivision : couple non marié, non pacsé. L'achat est en indivision (50/50 ou autre quote-part). Aucune protection particulière du conjoint en cas de décès. (2) **PACS** + indivision : pacs avec régime séparation des biens (par défaut) ou indivision pour les biens acquis pendant le pacs (option). Protection partielle au décès via testament. (3) **PACS** + SCI familiale : créer une SCI à 2 associés, la SCI achète le bien, chacun détient des parts. (4) **Mariage** + régime communauté : régime par défaut, bien acquis pendant mariage = commun, protection automatique au décès et séparation. (5) **Mariage** + séparation des biens : chacun reste propriétaire de ses biens, achat en indivision si à 2.",
+      },
+      {
+        heading: "Indivision — la solution la plus simple, mais piégée",
+        body: "Mode par défaut quand 2 personnes achètent ensemble. Notaire mentionne les quotes-parts dans l'acte (50/50 si apport égal, sinon proportionnel). (1) **Avantages** : simple, gratuit (juste l'acte de propriété standard), flexible. (2) **Inconvénients majeurs** : (a) **Indivision = précaire** : 'nul n'est tenu de rester dans l'indivision' (article 815 Code civil). Un conjoint peut exiger la vente à tout moment. (b) **Décisions à l'unanimité** : travaux, location, revente nécessitent l'accord des deux. (c) **Décès** : la part du défunt va aux héritiers (parents/enfants), pas au concubin survivant. Le concubin peut se retrouver en indivision avec les parents/enfants du défunt — situation explosive. (d) **Séparation** : si un veut vendre et l'autre non, le juge tranche → vente forcée. (e) **Crédit** : les deux solidaires sur la totalité (pas selon quote-part). (3) **Convention d'indivision** : possible chez notaire, fixe les règles à 5 ans renouvelable (gérance, vote majorité, droit de préemption). Coût : 800-1 500 €. Recommandé.",
+      },
+      {
+        heading: "PACS — la protection a minima du conjoint",
+        body: "Pacte Civil de Solidarité, créé en 1999, signé en mairie ou chez notaire. (1) **Régime par défaut** : séparation des patrimoines. Achat à 2 = indivision avec quote-part. (2) **Régime option d'indivision** : tout bien acquis pendant le PACS appartient à 50/50, sauf bien financé avant le pacs ou par donation/succession. (3) **Succession** : le partenaire de PACS est exonéré de droits de succession (depuis 2007) MAIS ne reçoit la part automatiquement QUE si testament rédigé. Sans testament, la part du défunt va aux héritiers réservataires. **CRITIQUE** : rédiger testament chez notaire (~150-300 €) qui désigne le partenaire bénéficiaire. (4) **Séparation** : dissolution du PACS simple (sur déclaration commune ou unilatérale). Bien en indivision = partage selon quote-part initiale, ou rachat de part par un. (5) **Fiscalité** : imposition commune (déclaration conjointe) possible dès l'année du PACS — souvent avantageux. (6) **Coût** : signature pacs gratuite mairie (50 € notaire), testament 150-300 €.",
+      },
+      {
+        heading: "SCI familiale — protection maximale mais complexe",
+        body: "Société Civile Immobilière constituée par le couple. La SCI achète le bien, les conjoints détiennent les parts. (1) **Avantages** : (a) **Évite l'indivision** — gouvernance définie statutairement (gérant unique, majorité, etc.). (b) **Transmission souple** : donation progressive de parts SCI aux enfants ou conjoint, abattements fiscaux récurrents (100 k€ tous les 15 ans/enfant). (c) **Protection conjoint survivant** : démembrement possible (usufruit/nue-propriété sur parts), conjoint conserve l'usage. (d) **Séparation** : rachat de parts entre associés, sans vente forcée du bien. (2) **Inconvénients** : (a) **Création** : 800-2 500 € (statuts notaire + immatriculation). (b) **Gestion** : comptabilité annuelle, assemblée générale annuelle, déclaration fiscale 2072 (impôt sur les revenus ou IS option). (c) **Crédit moins facile** : banques plus prudentes sur SCI, taux parfois +0,2-0,4 %. (d) **PTZ inaccessible** via SCI. (e) **Fiscalité plus complexe** (IR/IS, plus-value). (3) **Recommandation** : SCI pertinent si patrimoine immobilier multiple, transmission anticipée enfants, projet familial 20+ ans. Pas pertinent pour primo-accédant résidence principale unique.",
+      },
+      {
+        heading: "Cas concret 1 — Couple jeune, premier achat T2 à 250 k€",
+        body: "Léa (29 ans, salaire 2 800 €) + Tom (31 ans, salaire 3 500 €) achètent un T2 à 250 k€ avec 30 k€ apport (15 k€ chacun). Recommandation : (1) Se pacser AVANT signature (avantage fiscal couple + protection légale). (2) Indivision 50/50 (apports égaux, partage simple). (3) Rédiger testament croisé chez notaire (chaque partenaire désigne l'autre bénéficiaire en cas de décès). (4) Convention d'indivision facultative (utile si désaccord prévisible). (5) Garder factures travaux/apports différenciés pour la cession. Coût total démarches : ~400-600 € (PACS + testaments). Protection : modulée (PACS + testament suffit pour résidence principale simple). Évolution future : si enfants, possibilité passage SCI familiale ou mariage.",
+      },
+      {
+        heading: "Cas concret 2 — Couple avec écart d'apport important",
+        body: "Sophie (35 ans) apporte 80 000 € sur un T3 acheté 350 000 €. Marc (37 ans) apporte 20 000 €. Crédit 250 000 € restants à 2. Recommandation : (1) Quote-part proportionnelle à l'apport (Sophie 32 %, Marc 8 %, financement crédit 60 % à 50/50). (2) Acte notarié avec quote-part détaillée. (3) Si pacsés : option indivision = mélange tout = lèse Sophie en cas de séparation. Préférer régime séparation des biens. (4) Convention d'indivision : préciser modalités revente, droit de préemption. (5) Assurance emprunteur ajustée à la quote-part de chacun. (6) En cas de séparation : Sophie récupère son apport + 32 % de la plus-value, Marc 8 % + 8 % de la plus-value, reste 60 % réparti selon remboursement crédit. Anticipation cruciale : sans convention, le juge peut considérer 50/50 quote-part même avec apports inégaux.",
+      },
+      {
+        heading: "Cas concret 3 — Couple avec enfants d'unions précédentes",
+        body: "Camille (42 ans, 2 enfants d'un précédent mariage) + Léo (39 ans, 1 enfant) achètent maison 400 000 €. Risque succession majeur : si Léo décède, sa part va à son enfant (héritier réservataire) qui peut exiger vente pour récupérer sa part. Camille pourrait se retrouver expulsée. Recommandation : (1) SCI familiale OU (2) Mariage + régime séparation des biens + testament croisé. (3) Assurance-vie croisée (pas dans la succession) — Camille bénéficiaire de l'assurance-vie de Léo et inversement, contourne les héritiers. (4) Si SCI : démembrement parts au décès — enfants nu-propriétaires, conjoint survivant usufruitier. (5) Donation entre époux uniquement possible si mariés. Coût démarches : 1 500-3 000 € (SCI + testaments + assurances-vie). Protection : maximale. C'est le seul cas où SCI fait clairement sens pour résidence principale.",
+      },
+      {
+        heading: "Pièges classiques et conseils notaire",
+        body: "(1) **Ne pas anticiper le décès** : 35 % des couples non mariés n'ont pas de testament rédigé → conjoint exposé en cas de décès. (2) **Indivision sans convention** : conflits prévisibles à 5-10 ans (travaux, location, revente). (3) **Apport non documenté** : sans preuve d'apport (virement nominatif, donation parents documentée), la justice considère 50/50 même si apport inégal. (4) **Crédit solidaire** : si un conjoint cesse de payer (perte emploi, séparation), l'autre est solidaire de la totalité (pas selon quote-part). (5) **Assurance emprunteur** : adapter quote-part de couverture à quote-part de propriété ET capacité financière. (6) **SCI pour résidence principale** : souvent excessive (complexité + coût) pour premier achat simple. (7) **PACS non rédigé via notaire** : pacs mairie suffit pour les avantages fiscaux, mais notaire recommandé si patrimoine. Conseil universel : consulter notaire 1-2h AVANT achat (100-200 €), c'est l'investissement le plus rentable de la démarche.",
+      },
+      {
+        heading: "Le calcul honnête : PACS + indivision + testament = bon défaut",
+        body: "Pour 80 % des couples non mariés achetant leur première résidence principale en 2026 : (1) Se pacser pour protection fiscale et légale a minima. (2) Indivision avec quote-part documentée selon apport réel. (3) Testament croisé chez notaire (essentiel — sans cela, le PACS ne protège que partiellement). (4) Convention d'indivision si situation complexe. Coût total : 400-800 € de démarches notaire. Cette configuration couvre 80-90 % des risques courants. SCI uniquement pertinente pour : patrimoine multiple, enfants d'unions précédentes, transmission familiale anticipée. Mariage avec communauté reste la protection maximale automatique mais avec contraintes administratives lourdes (séparation = divorce procédural). Le bon réflexe 2026 : ne pas acheter à 2 sans avoir rencontré un notaire avant signature compromis. Les conséquences à 10-20 ans sur la succession ou séparation dépassent largement les économies à court terme.",
+      },
+    ],
+    relatedCities: ["lyon", "bordeaux", "nantes", "toulouse", "rennes"],
+    relatedGuides: [
+      "acheter-avant-40-ans-strategie-france-2026",
+      "meilleures-villes-primo-accedants-france-2026",
+      "acheter-moins-200000-euros-france-quelles-villes-2026",
+      "residence-secondaire-france-pieges-fiscaux-2026",
+      "investir-lmnp-par-ville-france-2026",
+    ],
+    tags: ["couple non marié", "PACS", "indivision", "SCI", "succession", "notaire", "achat à deux", "2026"],
+  },
+  {
+    slug: "acheter-maison-a-renover-france-2026-vrai-cout",
+    title: "Acheter une maison à rénover en 2026 — le vrai coût total",
+    metaTitle: "Maison à rénover 2026 : vrai coût (DPE, MaPrimeRénov', travaux) — guide",
+    metaDesc:
+      "Acheter une maison à rénover en 2026 : coût rénovation par type travaux, MaPrimeRénov', DPE F/G obligation, ratio achat+rénovation vs neuf.",
+    category: "budget",
+    emoji: "🔨",
+    readMinutes: 9,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "Acheter une maison à rénover est souvent présenté comme la 'bonne affaire' du marché 2026 : prix d'achat -30 à -50 % vs équivalent rénové, possibilité d'aides MaPrimeRénov' jusqu'à 30 k€ remboursés, valorisation post-travaux. Mais le calcul réel est plus complexe que la promesse. Voici la lecture honnête, sans le cliché 'rénover c'est toujours rentable'.",
+    sections: [
+      {
+        heading: "Pourquoi le marché 'maison à rénover' explose en 2026",
+        body: "(1) **Interdiction DPE G** depuis 2025, DPE F en 2028, DPE E en 2034 : 5 millions de logements concernés, vente forcée souvent à prix décoté 20-40 %. (2) **Stocks invendus** : DPE F/G difficile à vendre, propriétaires acceptent négociation forte (-15 à -25 % vs prix initial). (3) **Aides MaPrimeRénov'** : 5 000-30 000 € selon revenus et travaux. (4) **PTZ accessible** pour primo-accédant avec engagement de rénovation. (5) **TVA réduite 5,5 %** sur travaux énergétiques. (6) **Eco-PTZ** : prêt à taux 0 jusqu'à 50 000 € pour rénovation énergétique. (7) **Effet Covid persistant** : recherche maison vs appartement, attention au DPE intégrée dans 70 % des décisions d'achat (vs 30 % en 2019).",
+      },
+      {
+        heading: "Coût rénovation par type de travaux — réalité 2026",
+        body: "Estimations 2026, T3-T4 maison 100 m² ancien, hors zone IDF (coûts +20 % en IDF) : (1) **Isolation combles** : 4 000-8 000 € (essentiel, ROI <5 ans). (2) **Isolation façade par l'extérieur (ITE)** : 18 000-35 000 €. (3) **Isolation façade par l'intérieur (ITI)** : 6 000-15 000 € (perte 5-8 % surface habitable). (4) **Pompe à chaleur air-eau (remplace chaudière fioul/gaz)** : 12 000-18 000 € + dépose ancienne 1 500-3 000 €. (5) **Chaudière à granulés** : 18 000-25 000 €. (6) **Toiture neuve (charpente + couverture)** : 18 000-40 000 € selon surface. (7) **Fenêtres double vitrage (10 fenêtres)** : 7 000-15 000 €. (8) **Plomberie + chauffage complet** : 12 000-25 000 €. (9) **Électricité aux normes** : 8 000-18 000 €. (10) **Cuisine équipée** : 6 000-25 000 €. (11) **Salle de bain (1 unité)** : 5 000-15 000 €. (12) **Sols (parquet, carrelage)** : 30-100 €/m² posé. **Rénovation complète passage DPE F → A** : 60 000-150 000 € pour 100 m², selon état initial.",
+      },
+      {
+        heading: "MaPrimeRénov' 2026 — vraie aide ou poudre aux yeux",
+        body: "Programme réformé 2024, à nouveau en 2026 : (1) **Forfait par geste** ou **parcours accompagné** (rénovation globale). Parcours accompagné : 30-90 % du coût pris en charge selon revenus. Plafond aide : 70 000 € pour rénovation globale BBC (Bâtiment Basse Consommation). (2) **Conditions ressources** : barèmes 'bleu' (très modestes), 'jaune' (modestes), 'violet' (intermédiaires), 'rose' (aisés). 4 bornes selon composition foyer. (3) **Délai versement** : 6-18 mois après facture, parfois plus. Trésorerie à anticiper. (4) **MAR (Mon Accompagnateur Rénov')** obligatoire pour parcours accompagné — choix d'un MAR agréé, coût 800-2 500 € (partiellement remboursé). (5) **TVA 5,5 %** appliquée automatiquement sur les travaux RGE éligibles, économie ~15 % sur facture HT vs TVA normale. (6) **Exemple revenus moyens couple 70 k€/an, T3 100 m²** : isolation combles 6 000 € → aide 1 800 €. Pompe à chaleur 15 000 € → aide 4 000 €. Rénovation globale 80 000 € → aide 24 000 €. Net à charge : 51 000 €.",
+      },
+      {
+        heading: "Pièges classiques rénovation maison 2026",
+        body: "(1) **Sous-estimation budget travaux** : 30-40 % de dépassement moyen sur les chantiers de rénovation lourde. Garder réserve 30 %. (2) **Pathologies cachées** : humidité, termites, mérule (champignon ravageur du bois), amiante (avant 1997), plomb (peinture avant 1949), radon (Bretagne, Massif Central). Diagnostics obligatoires mais inspection complémentaire architecte conseillée (500-1 200 €). (3) **Délai 12-18 mois** sous-estimé : entre achat, déménagement temporaire ou cohabitation chantier, fin travaux. (4) **Coordination entreprises** : si pas de maître d'œuvre, le couple devient coordinateur — temps +++. Maître d'œuvre 8-12 % du montant travaux. (5) **Aides MaPrimeRénov'** : non rétroactives sur travaux engagés sans validation préalable. Toujours demander aide AVANT devis. (6) **Eco-conditionnalité** : artisan RGE (Reconnu Garant de l'Environnement) obligatoire pour aides → vérifier liste qualibat.com. (7) **Diagnostic structurel** : maison ancienne en pierre = fondations parfois fragiles. Étude structure 800-2 500 € recommandée avant offre.",
+      },
+      {
+        heading: "Calcul exemple — Maison F2 60 m² achetée 120 k€ à Limoges",
+        body: "Achat : 120 000 € + 9 000 € frais notaire = 129 000 €. DPE F (250 kWh/m²/an). Travaux nécessaires pour passage DPE A : (a) Isolation combles 5 000 €, ITE 22 000 €, fenêtres double vitrage 8 000 €, pompe à chaleur 14 000 €, électricité aux normes 6 000 €, cuisine + SdB neuves 18 000 €. **Total travaux** : 73 000 €. Aides MaPrimeRénov' parcours accompagné couple revenus moyens : ~22 000 € + Eco-PTZ 30 000 € sur 15 ans. **Coût net à charge** : 73 000 - 22 000 = 51 000 €. **Total opération** : 129 000 + 51 000 = 180 000 €. **Valeur revente estimée post-rénovation** : 210-240 000 € (DPE A, prestation équivalente neuf). **Plus-value latente** : 30-60 k€ avant fiscalité. **Vs construction neuve équivalente** : 280-320 k€ (terrain + construction). **Gain rénovation vs construction** : 100-140 k€ sur 60 m². Conclusion : rénovation rentable pour ce cas mais nécessite 51 k€ de trésorerie/crédit + 12-18 mois projet + tolérance gestion chantier.",
+      },
+      {
+        heading: "Régions où rénover fait sens 2026",
+        body: "(1) **Massif Central** (Cantal, Creuse, Aveyron) : maisons en pierre 80-160 k€, beauté architecturale, rénovation 60-100 k€, total 150-260 k€. Sweet spot. (2) **Bretagne intérieure** : longères 100-200 k€, climat tempéré, rénovation 70-120 k€. Total 170-320 k€. (3) **Nouvelle-Aquitaine intérieure** (Périgord, Lot, Charente) : maisons en pierre, services préfectures, rénovation 60-110 k€. (4) **Hauts-de-France** (Pas-de-Calais, Aisne) : maisons briques 80-150 k€, rénovation 60-100 k€. Excellent rapport. (5) **Centre-Val de Loire** (Berry, Sologne) : prix bas, rénovation moyenne. (6) **Bourgogne ruralle** : longères 100-180 k€, rénovation 70-110 k€. **À éviter** : régions ultra-tendues (couronnes Paris/Lyon/Bordeaux/Nantes) où l'addition achat + rénovation rejoint le neuf sans avantages. **Risque rénovation Sud** : DPE A difficile à atteindre en climat caniculaire avec bâti ancien, confort d'été problématique.",
+      },
+      {
+        heading: "Le calcul honnête : rénover si trésorerie + tolérance projet",
+        body: "Acheter une maison à rénover en 2026 fait sens dans 3 conditions cumulées : (1) **Trésorerie ou crédit travaux** : disposer de 50-100 k€ supplémentaires AU-DELÀ du prix d'achat (ou Eco-PTZ + apport). (2) **Tolérance gestion chantier** : 12-24 mois projet, coordination entreprises, dépassements probables. (3) **Vision long terme** : 8-15 ans minimum pour amortir le projet (frais notaire + travaux + énergie économisée). Le bon profil : couple cadre/freelance avec apport solide, parents à proximité (aide logistique pendant travaux), bon réseau artisans local, capacité psychologique à 'vivre dans le chantier' 6-12 mois. Le mauvais profil : primo-accédant trésorerie limitée (l'addition est lourde), couple avec très jeunes enfants (qualité de vie dégradée pendant travaux), profil pressé (timing imposé par contrat travail). Recommandation : ne JAMAIS acheter sans étude structure + diagnostic complet + devis 3 entreprises sur les gros postes. La rénovation 'feeling' explose les budgets.",
+      },
+    ],
+    relatedCities: ["limoges", "saint-etienne", "aurillac", "rodez", "auxerre"],
+    relatedGuides: [
+      "acheter-moins-200000-euros-france-quelles-villes-2026",
+      "acheter-maison-campagne-france-2026-vraiment-vivable",
+      "construire-sa-maison-france-2026-ou-comment-prix",
+      "acheter-en-vefa-france-2026-villes-pieges",
+      "petites-villes-50000-habitants-tout-france-2026",
+    ],
+    tags: ["rénovation", "DPE", "MaPrimeRénov'", "Eco-PTZ", "passoire thermique", "rénovation énergétique", "RGE", "2026"],
+  },
+  {
+    slug: "maison-vs-appartement-quel-choix-france-2026",
+    title: "Maison ou appartement en 2026 — quel choix par profil et par ville",
+    metaTitle: "Maison vs appartement 2026 : quel choix par profil et ville — guide",
+    metaDesc:
+      "Maison ou appartement en France 2026 : par profil (célibataire, couple, famille) et par ville (métropole, ville moyenne, bourg). Coûts comparés, qualité de vie.",
+    category: "comparaison",
+    emoji: "🏘️",
+    readMinutes: 9,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "Maison ou appartement : choix structurant qui dépend du profil, de la ville, et de l'horizon. La pandémie Covid a poussé 60 % des Français à reconsidérer leur logement (recherche jardin, espace extérieur, télétravail). Mais la maison n'est pas toujours la bonne réponse — surtout en métropole. Voici la lecture 2026 par profil et par contexte.",
+    sections: [
+      {
+        heading: "Les vraies différences de coût (au-delà du prix d'achat)",
+        body: "Comparaison T3 75 m² appartement vs maison 100 m² avec jardin sur 20 ans : (1) **Prix d'achat** : appartement 200-300 k€ en métropole, maison équivalente 280-450 k€ (péri-urbain). (2) **Charges copro** appartement : 100-300 €/mois × 240 mois = 24 000-72 000 €. Maison : 0 € copro mais 1 000-3 000 €/an entretien (toiture, façade, jardin) × 20 ans = 20 000-60 000 €. (3) **Énergie** : appartement DPE C-D = 600-1 200 €/an chauffage. Maison équivalente non isolée DPE D-E = 1 800-3 500 €/an. Économie appartement : 1 200-2 300 €/an × 20 ans = 24-46 k€. (4) **Taxe foncière** : appartement souvent 600-1 500 €/an, maison 800-2 200 €/an. (5) **Voiture(s)** : appartement centre = 1 voiture ou 0. Maison péri-urbaine = 2 voitures obligatoires. TCO voiture 4 000-7 000 €/an × 20 ans × 2 = 160-280 k€ supplémentaires pour la maison. (6) **Conclusion** : sur 20 ans, le coût total appartement métropole vs maison péri-urbaine équivalente diffère souvent de 100-200 k€ — souvent en faveur de l'appartement contrairement à l'intuition.",
+      },
+      {
+        heading: "Profil 1 — Célibataire ou couple 25-35 ans sans enfant",
+        body: "Le meilleur choix : appartement T2-T3 centre ou proche centre de métropole. (1) **Avantages** : qualité de vie centre, accès transports/restaurants/culture, voiture optionnelle, charges fixes prévisibles. (2) **Maison déconseillée** : isolement social péri-urbain pour ce profil, voiture obligatoire, jardin moins utilisé, entretien chronophage. (3) **Exceptions** : couple 28-32 ans projetant 2 enfants dans 3-5 ans → peut faire sens d'anticiper en achetant petite maison péri-urbaine. (4) **Villes** : Lyon Croix-Rousse/Vaise, Bordeaux Chartrons/Caudéran, Toulouse Saint-Aubin/Carmes, Nantes Île de Nantes/Madeleine, Strasbourg Krutenau/Neudorf, Lille Vieux-Lille/Wazemmes.",
+      },
+      {
+        heading: "Profil 2 — Famille avec enfants en bas âge (0-6 ans)",
+        body: "Le choix dépend critique : (1) **Maison périurbaine** : jardin pour les enfants, espace, calme. Coûts cachés : 2 voitures, trajets école/crèche, isolement social parents (pas de voisinage actif), entretien jardin/maison. (2) **Appartement métropole** : services à pied (crèche, école, médecin, parcs), réseau social actif, mobilité douce, mais espace réduit (T4 80 m² souvent obligatoire). (3) **Recommandation 2026** : appartement métropole jusqu'à 4 ans de l'enfant, transition maison péri-urbaine si besoin réel d'espace + jardin. La maison à 0-3 ans est sur-évaluée : les enfants utilisent peu le jardin, mais les parents se retrouvent isolés. (4) **Villes pertinentes** pour T4 appartement avec jardin de copro/parc public : Nantes, Rennes, Strasbourg, Bordeaux Caudéran, Toulouse Tournefeuille, Lyon Tassin.",
+      },
+      {
+        heading: "Profil 3 — Famille avec enfants 6-15 ans",
+        body: "Maison souvent plus pertinente à cet âge : (1) **Avantages maison** : chambre par enfant possible (T5+), jardin utilisé activement, autonomie enfants (vélo, jeux extérieurs), garage vélo/sport. (2) **Inconvénients maison** : trajet école/collège, transport ado, vie sociale parents si éloigné centre. (3) **Sweet spot** : maison T4-T5 à <15 min centre métropole en vélo ou TC. Couronne immédiate Bordeaux, Lyon, Toulouse, Nantes, Strasbourg, Lille. (4) **Villes moyennes** : la maison fait quasiment toujours sens (couronnes Tours, Reims, Caen, Angers, Pau). (5) **Bourgs ruraux** : maison + activités à <30 min véhicule. À cet âge, sociabilité enfants se construit aussi via voisinage immédiat — choisir lotissement actif vs hameau isolé. (6) **Évolution** : à l'adolescence (15+), retour appartement métropole parfois pertinent pour lycée + autonomie ado.",
+      },
+      {
+        heading: "Profil 4 — Couple 50-65 ans, enfants partis",
+        body: "Phase 'downsize' fréquente : passage maison familiale → appartement plus petit. (1) **Avantages appartement** : moins d'entretien, retour centre-ville/services, libération capital pour autres projets (voyages, aide enfants, résidence secondaire). (2) **Avantages maison** : continuité, espace enfants/petits-enfants en visite, jardin source d'activité, libération psychologique différée. (3) **Recommandation 2026** : downsize en métropole secondaire ou ville moyenne, conserver maison principale si patrimoine local fort, ou vendre + acheter appartement de qualité + résidence secondaire familiale. (4) **Villes** : Strasbourg, Reims, Annecy, Aix-en-Provence, Bordeaux Chartrons, Lyon Brotteaux/Tête d'Or pour appartement haut de gamme retraite. (5) **Critère santé** : viser proximité services médicaux (hôpital, médecin, pharmacie à pied).",
+      },
+      {
+        heading: "Par contexte ville — la règle pratique",
+        body: "(1) **Métropole >500 000 hab** (Paris, Lyon, Marseille, Lille, Toulouse, Bordeaux, Nantes, Strasbourg) : appartement priorité, sauf famille 6-15 ans + budget pour maison couronne <15 min. (2) **Métropole secondaire 200-500 k** (Rennes, Montpellier, Reims, Tours, Aix, Toulon, Grenoble) : appartement centre ou maison périphérie selon profil. Choix réellement ouvert. (3) **Ville moyenne 50-200 k** (Caen, Angers, Le Mans, Limoges, Pau, Tarbes) : maison plus souvent rentable (foncier accessible, services à pied, voiture déjà nécessaire). (4) **Petite ville <50 k** (Bourges, Châteauroux, Aurillac, Rodez) : maison quasi-systématiquement meilleur choix. (5) **Bourg rural <10 k** : maison uniquement. (6) **Couronne métropole tendue** (Yvelines ouest, Mâcon, banlieue Nantes ouest, couronne Bordeaux) : maison fait sens si TER/RER accessible <30 min centre.",
+      },
+      {
+        heading: "Cas qui contredisent la règle",
+        body: "(1) **Appartement avec terrasse 50 m² ou jardin de copro** : excellent compromis qualité de vie + centre. Présent dans constructions années 1950-1970 nombreuses, immobilier neuf moderne (loft, rooftop, jardin partagé). (2) **Maison de ville centre métropole** : Bordeaux échoppe, Lyon maison Croix-Rousse, Toulouse maison toulousaine, Lille maison flamande → meilleur des deux mondes (centre + jardinet + caractère). Prix premium 15-30 %. (3) **Duplex/triplex** : appartement haut, 100-150 m² sur 2-3 niveaux, terrasse. Couvre une partie des besoins maison sans inconvénients périurbain. (4) **Appartement en résidence avec piscine/parc** : Côte d'Azur, Provence — accès loisirs sans charges entretien jardin individuel. (5) **Co-living/colocation luxe** : 35-45 ans, espace partagé qualité, retour ville. Niche émergente 2026.",
+      },
+      {
+        heading: "Le calcul honnête : appartement sous-estimé, maison sur-fantasmée",
+        body: "L'imaginaire collectif valorise excessivement la maison vs l'appartement. La réalité 2026 : (1) L'appartement bien situé en métropole rivalise voire dépasse la maison périurbaine sur 20 ans (TCO + qualité de vie). (2) La maison périurbaine bénéficie d'un 'effet jardin' surévalué — la majorité des familles l'utilisent peu (10-30 jours/an actifs). (3) Les coûts cachés maison (2 voitures, entretien, isolement, trajets) compensent souvent le 'rêve maison'. (4) L'appartement avec extérieur (balcon, loggia, jardinet) couvre 70 % des besoins maison sans inconvénients. **Sweet spot par profil** : célibataire/couple sans enfant → appartement centre métropole. Famille 6-15 ans → maison couronne immédiate métropole. Senior 60+ → retour appartement métropole secondaire. **Vraie question 2026** : pas 'maison vs appartement' mais 'centre vs périphérie' — c'est l'arbitrage qui structure tout, indépendamment du type de bien.",
+      },
+    ],
+    relatedCities: ["lyon", "bordeaux", "nantes", "toulouse", "rennes"],
+    relatedGuides: [
+      "acheter-avant-40-ans-strategie-france-2026",
+      "quitter-paris-30-ans-couple-sans-enfant-2026",
+      "quitter-paris-avec-enfants-primaire-france-2026",
+      "acheter-moins-200000-euros-france-quelles-villes-2026",
+      "vivre-au-vert-pres-de-paris-1h-2026",
+    ],
+    tags: ["maison vs appartement", "périurbain", "centre-ville", "famille", "couple", "TCO", "qualité de vie", "2026"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
