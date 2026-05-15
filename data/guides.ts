@@ -15776,6 +15776,307 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["diviser logement", "location partielle", "LMNP", "amortir crédit", "stratégie patrimoniale", "copro autorisation", "2026"],
   },
+  {
+    slug: "acheter-immobilier-outre-mer-drom-france-2026",
+    title: "Acheter de l'immobilier en Outre-mer (DROM) en 2026 — Réunion, Antilles, Guyane",
+    metaTitle: "Immobilier DROM 2026 : Réunion, Antilles, Guyane, Mayotte — guide",
+    metaDesc:
+      "Acheter en outre-mer DROM 2026 : Réunion, Martinique, Guadeloupe, Guyane, Mayotte. Fiscalité, dispositif Girardin, risques cycloniques, marchés.",
+    category: "budget",
+    emoji: "🌴",
+    readMinutes: 9,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "Acheter de l'immobilier dans un département d'outre-mer (DROM) — Réunion, Martinique, Guadeloupe, Guyane, Mayotte — combine fiscalité incitative (Girardin, DROM-spécifique), prix souvent inférieurs à l'hexagone et risques spécifiques (cyclones, montée marine, isolement). Voici la lecture honnête 2026 par territoire, sans le cliché 'paradis fiscal facile'.",
+    sections: [
+      {
+        heading: "Pourquoi acheter en DROM 2026",
+        body: "(1) **DMTO réduits** : 4,50 % au lieu de 5,80 % hexagonale = économie 1,3 % du prix achat (4 000-15 000 € sur bien moyen). (2) **Dispositif Girardin Immobilier** (jusqu'à 2026 sous certaines conditions) : réduction d'impôt 18-26 % du prix achat pour résidence principale neuve. (3) **TVA réduite** : 8,5 % au lieu de 20 % sur certains biens immobiliers. (4) **Marché spécifique** : prix souvent 30-50 % inférieurs à hexagone (sauf zones tendues Réunion ouest, Saint-Martin). (5) **Patrimoine et qualité de vie** : climat, mer, biodiversité, qualité de vie unique. (6) **Communauté française** : services, langue, monnaie EUR, système juridique français. (7) **Réformes 2024-2026** : Girardin réformé, conditions plus strictes, certains dispositifs en extinction.",
+      },
+      {
+        heading: "La Réunion — le marché DROM le plus dynamique",
+        body: "Population ~850 000, marché immobilier le plus actif des DROM. (1) **Saint-Denis** (chef-lieu, 150 000 hab) — centre-ville T3 220-320 k€, périphérie T3 180-260 k€, maison T5 400-650 k€. Services capitales. (2) **Saint-Paul / Saint-Gilles-les-Bains** — côte ouest balnéaire saturée, T3 280-400 k€, maison 500-900 k€. Le marché premium. (3) **Le Tampon / Plaine des Cafres** (~1 500 m altitude) — refuge climatique, T3 150-220 k€, maison 250-400 k€. Sweet spot 2026. (4) **Saint-Pierre, Saint-Joseph** — sud côtier moins saturé, T3 200-300 k€. (5) **Cilaos, Hell-Bourg** (cirques montagne) — patrimoine, T3 130-200 k€, isolement. (6) **Risques** : cyclones (saison janvier-mars), volcan Piton de la Fournaise (zones rouge interdites), sécheresse côte ouest. (7) **Avantages** : services métropole modernes, université, fibre, aéroport international.",
+      },
+      {
+        heading: "Martinique — marché tendu mais fiscalité attractive",
+        body: "Population ~360 000. (1) **Fort-de-France** (chef-lieu, ~80 000 hab) — centre T3 220-300 k€, maison 380-550 k€. Services complets mais centre-ville en déclin. (2) **Schoelcher, Le Lamentin** — banlieues résidentielles, T3 200-280 k€. (3) **Trois-Îlets, Saint-Anne** — côte Caraïbe sud, balnéaire, T3 240-340 k€, maison 400-650 k€. (4) **Saint-Pierre, Le Carbet** — côte Caraïbe nord, patrimoine volcan Pelée. T3 180-250 k€. (5) **Le Marin, Le Robert** — Atlantique, plus venté, moins touristique. T3 170-240 k€. (6) **Morne-Rouge** — altitude refuge climatique, T3 150-220 k€. (7) **Risques** : cyclones, chlordécone (contamination terres agricoles 1970-1993, certaines zones), sargasses (algues côte Atlantique), volcan actif Pelée. (8) **Marché** : prix stable, faible offre, demande locale + retraités hexagonaux.",
+      },
+      {
+        heading: "Guadeloupe — archipel avec hétérogénéité forte",
+        body: "Population ~390 000. (1) **Pointe-à-Pitre** (~15 000 mais agglo 200 000) — centre déclin, T3 150-220 k€. (2) **Les Abymes, Le Gosier, Sainte-Anne** — agglomération principale + côte Caraïbe touristique. T3 220-320 k€, maison 380-650 k€. (3) **Basse-Terre** (ville préfecture mais déclin) — T3 120-180 k€, attractif pour patrimoine. (4) **Sainte-Rose, Trois-Rivières** — Basse-Terre rurale, prix accessibles. (5) **Saint-François** — côte ouest Grande-Terre touristique, golfs, T3 280-400 k€. (6) **Marie-Galante, Les Saintes, La Désirade** — îles dépendantes, prix accessibles mais isolement majeur. (7) **Risques** : cyclones (saison juin-novembre), volcan Soufrière actif Basse-Terre, sargasses Atlantique, séismes (zone 5 sismicité maximale). (8) **Marché** : segmentation forte Grande-Terre tertiaire vs Basse-Terre rurale.",
+      },
+      {
+        heading: "Guyane — marché atypique très spécifique",
+        body: "Population ~290 000 (en croissance démographique forte 2 %/an). (1) **Cayenne** (chef-lieu, ~60 000) — centre T3 180-260 k€, maison 350-550 k€. Hôpital, université, services. (2) **Kourou** (~25 000) — ville Centre Spatial, profils ingénieurs CNES, T3 200-280 k€. (3) **Saint-Laurent-du-Maroni** (~50 000) — frontière Surinam, sécurité dégradée, T3 100-180 k€. (4) **Matoury, Rémire-Montjoly** — banlieues Cayenne, résidentiel, T3 220-320 k€. (5) **Apatou, Iracoubo, Saint-Georges-de-l'Oyapock** — bourgs amazoniens isolés, prix très bas mais services minimaux. (6) **Risques** : climat équatorial très humide, paludisme/dengue selon zone, insécurité ponctuelle, isolement géographique (vols domestiques chers). (7) **Marché** : profils très spécifiques (fonctionnaires, militaires spatiaux, créoles natifs). Investissement locatif risqué (turnover, dégradation).",
+      },
+      {
+        heading: "Mayotte — département le plus fragile",
+        body: "Population ~290 000 (en explosion démographique 4 %/an, dont migrations Comores). (1) **Mamoudzou** (chef-lieu, ~70 000) — centre T3 180-260 k€, maison 300-500 k€. Services préfecture mais tension. (2) **Petite-Terre (Pamandzi, Dzaoudzi)** — proche aéroport, plus sécurisée. T3 220-320 k€. (3) **Sada, Bouéni, Mtsamboro** — bourgs Grande-Terre, prix accessibles 120-180 k€, mais isolement et tensions. (4) **Cyclone Chido décembre 2024** : ravage majeur, reconstruction en cours 2026. Marché immobilier dévasté, opportunités mais risques sanitaires/sécuritaires. (5) **Risques** : cyclones, sismicité (essaim Mayotte 2018+ continue), sécheresse chronique (pénuries eau), insécurité forte, services publics sous tension. (6) **Marché** : très spécifique. Profils mahorais natifs, fonctionnaires mutés, mission spécifique. **NON recommandé** pour investissement métropolitain.",
+      },
+      {
+        heading: "Dispositif Girardin Immobilier 2026 — état des lieux",
+        body: "(1) **Girardin Immobilier social (logement social)** : prolongé jusqu'à 2026, réduction d'impôt 32 % du capital investi sur 5 ans. Profil cible : investisseur TMI 30 %+. (2) **Girardin Immobilier locatif libre** : éteint depuis 2017. (3) **Conditions Girardin 2026** : (a) Investissement minimum 80 % capital dans neuf locatif libre/social. (b) Engagement location 5-9 ans. (c) Plafonds loyers et ressources locataires. (d) Plafond global niches fiscales 18 000 €/an. (4) **Cas concret** : investisseur TMI 41 % achète logement social DROM 200 k€. Réduction Girardin 64 k€ étalée 5 ans = 12 800 €/an. Bénéfice net si TMI maintenu. (5) **Risque principal** : non-respect engagement location 5 ans = remboursement intégral réduction + pénalités. (6) **Tendance 2026** : extinction progressive des dispositifs Girardin, recentrage sur logement social. À anticiper dans projet 2027-2030.",
+      },
+      {
+        heading: "Pièges classiques achat DROM",
+        body: "(1) **Cyclone et catastrophe naturelle** : assurance multirisque obligatoire mais primes 2-3× plus chères qu'hexagone. Certaines compagnies refusent zones rouges. (2) **Bâti non parasismique** : Antilles + Mayotte zone 5 sismique. Vérifier conformité parasismique (Eurocode 8 depuis 2011). (3) **Chlordécone Martinique-Guadeloupe** : contamination historique terres et eaux. Cartographie IGN obligatoire. Éviter terres contaminées pour potager. (4) **Foncier indivis** : 50-70 % du foncier DROM est en indivision familiale (succession non-réglée sur plusieurs générations). Acheter à un indivisaire = risque procès si autres co-indivisaires émergent. (5) **Eau** : Réunion ouest, Mayotte chroniquement en pénurie eau. Vérifier accès réseau communal vs forage privé. (6) **Coût construction** : matériaux importés = +30-40 % vs hexagone. Construction 2 800-3 800 €/m² standard. (7) **Profil locataire** : marché local étroit, vacance possible 3-6 mois. Préférer biens loués année lors achat. (8) **Plus-value à la revente** : marché restreint hors hexagonaux, liquidité variable.",
+      },
+      {
+        heading: "Le calcul honnête : DROM = projet de vie, pas simple investissement",
+        body: "Acheter de l'immobilier en DROM en 2026 = projet sérieux nécessitant : (1) **Attache personnelle au territoire** (origine familiale, mutation, projet de vie). DROM ne sont pas un simple Eldorado fiscal. (2) **Capital substantiel** : prix accessibles vs hexagone mais frais cumulés (assurance cyclone, construction parasismique, voyage installation) augmentent le ticket. (3) **Acceptation risques** : cyclones, sismicité, chlordécone, isolement géographique. (4) **Tolérance gestion à distance** si non-résident sur place. (5) **Horizon long terme** : 10-25 ans minimum pour amortir frais et complexité. **Top par DROM** : (1) **La Réunion** : meilleur rapport qualité-vie/prix, services métropolitains. Top achat 2026. (2) **Martinique** : 2e choix, climat, services, communauté française stable. (3) **Guadeloupe** : 3e choix, hétérogénéité Grande-Terre vs Basse-Terre. (4) **Guyane** : niche très spécifique (profil ingénieur Centre Spatial, fonctionnaire). (5) **Mayotte** : NON recommandé sauf engagement personnel fort. **À éviter** pour métropolitain sans attache : Mayotte, Saint-Laurent-du-Maroni, îles dépendantes (Marie-Galante, Saintes, Désirade).",
+      },
+    ],
+    relatedCities: ["saint-denis-reunion", "fort-de-france", "pointe-a-pitre", "cayenne", "mamoudzou"],
+    relatedGuides: [
+      "climat-2040-outre-mer-drom-cyclones-mer",
+      "vivre-en-outre-mer-guide-2026",
+      "vivre-france-retraite-etrangere-fiscalite-2026",
+      "investir-lmnp-par-ville-france-2026",
+      "scpi-vs-locatif-direct-france-2026-quel-choix",
+    ],
+    tags: ["DROM", "outre-mer", "Réunion", "Martinique", "Guadeloupe", "Girardin", "cyclone", "TVA réduite", "DMTO réduit", "2026"],
+  },
+  {
+    slug: "vivre-en-montagne-toute-annee-france-2026",
+    title: "Vivre en montagne toute l'année en 2026 — stations, villages, vraies villes",
+    metaTitle: "Vivre en montagne toute l'année 2026 : stations, villages, services — guide",
+    metaDesc:
+      "Vivre en montagne en France 2026 toute l'année : stations vs villages, services hiver, fibre, écoles, économie 4 saisons, climat 2040.",
+    category: "lifestyle",
+    emoji: "🏔️",
+    readMinutes: 9,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "Vivre en montagne toute l'année séduit beaucoup en 2026 — refuge climatique, qualité de vie, espace, prix souvent accessibles. Mais le 'rêve montagne' diffère selon qu'on choisit une station ski, un village montagne ou une vraie ville d'altitude. Voici l'analyse honnête, sans le cliché 'vivre en montagne = paradis bucolique'.",
+    sections: [
+      {
+        heading: "Trois modèles de 'vie en montagne'",
+        body: "(1) **Station de ski** (Méribel, Val Thorens, Chamonix, Avoriaz) : altitude 1 500-2 100 m, économie 100 % ski. Saison décembre-avril + été modéré. Services concentrés sur saisons touristiques, vide hors-saison. Foncier élevé, vie permanente difficile. (2) **Village montagne** (Aussois, Sainte-Foy-Tarentaise, La Plagne village, Vénosc) : altitude 800-1 500 m, communauté locale + tourisme saisonnier. Services modestes mais permanents. (3) **Vraie ville d'altitude** (Chambéry, Annecy, Grenoble, Briançon, Gap, Megève bas) : altitude 200-1 400 m, vraie économie multisectorielle, services métropolitains, qualité de vie urbaine + accès montagne. Chacun a son profil acheteur très différent.",
+      },
+      {
+        heading: "Vivre dans une station — réalité 2026",
+        body: "(1) **Population permanente** : 200-2 000 hab souvent (vs 5 000-20 000 saisonniers). Vie sociale très réduite hiver tardif et printemps/automne. (2) **Services** : pharmacie 1, école primaire petits effectifs (15-40 élèves toute classes), pas de médecin (déplacement vallée). Boulangerie ouverte selon saison. (3) **Logement** : T3 200-450 k€ selon station, charges copro 1 200-2 800 €/an (entretien hivernal lourd). (4) **Travail local** : 80 % saisonnier ski (déc-avril) + 20 % été (juin-août). Hors saison = peu d'emploi. Profil idéal : télétravail solide. (5) **Climat 2040** : stations <1 500 m perdent l'enneigement fiable. Stations 1 800+ m maintiennent mais réinvestissements canons artificiels. (6) **Pour qui ça marche** : télétravailleur ski-passionné, célibataire/couple sans enfant en âge collège (collège à 15-30 km), profil aimant solitude et nature.",
+      },
+      {
+        heading: "Vivre dans un village montagne — sweet spot 2026",
+        body: "Compromis idéal pour beaucoup. (1) **Aussois (Savoie), Sainte-Foy-Tarentaise, Pralognan, Vallorcine** — Alpes 800-1 300 m. Communauté locale 500-2 000 hab, école, mairie, commerces. (2) **Saint-Lary, Bagnères-de-Bigorre, Cauterets** — Pyrénées 700-1 200 m. (3) **Mont-Dore, La Bourboule, Murol** — Massif Central 800-1 100 m. (4) **Saint-Sauveur-sur-Tinée, Auron, Isola Village** — Mercantour 1 000-1 500 m. (5) **Caractéristiques** : (a) Services préfecture à 1-2h voiture (Albertville, Tarbes, Clermont-Ferrand, Nice). (b) Fibre disponible 80 % communes. (c) École primaire 25-100 élèves. (d) Vie permanente possible, gens stables. (6) **Climat 2040** : refuge climatique modéré, étés tenables, hiver authentique. (7) **Pour qui ça marche** : famille télétravail, retraités actifs, profils néo-paysans, couples 30-50 ans.",
+      },
+      {
+        heading: "Vivre dans une vraie ville d'altitude",
+        body: "La meilleure option services + montagne. (1) **Chambéry** (270 m, ~60 000) — préfecture Savoie, université, services complets, accès Alpes proches. (2) **Annecy** (450 m, ~130 000) — lac + montagne, foncier saturé mais qualité exceptionnelle. (3) **Grenoble** (215 m, ~160 000) — métropole + 3 massifs (Vercors, Belledonne, Chartreuse), recherche, université. (4) **Briançon** (1 326 m, ~12 000) — la plus haute ville d'Europe, climat alpin pur, services lycée + hôpital. (5) **Gap** (735 m, ~38 000) — préfecture Hautes-Alpes, services, prix accessibles. (6) **Pau** (200 m, ~78 000) — pas haute altitude mais vue Pyrénées et accès montagne 30 min. (7) **Aurillac** (630 m, ~26 000) — Massif Central, préfecture Cantal. (8) **Le Puy-en-Velay** (~630 m, ~18 000) — préfecture Haute-Loire, patrimoine. (9) **Avantages** : services préfecture + montagne accessible. (10) **Pour qui** : familles, profils urbains qui veulent montagne sans isolement.",
+      },
+      {
+        heading: "Critères pratiques pour vivre en montagne",
+        body: "(1) **Fibre FTTH** : essentielle 2026 pour télétravail. Couverture stations 70-90 %, villages 60-85 %, vraies villes 95 %+. Vérifier ARCEP avant achat. (2) **Accès route hivernale** : col fermé en hiver = isolement 4-5 mois. Vérifier statut route (départementale prioritaire vs secondaire). (3) **Hôpital** : services urgences à <45 min crucial. Vraies villes OK, villages à vérifier, stations souvent à 1h-1h30. (4) **École** : primaire généralement OK partout. Collège dans bourg structurant <30 min idéal. Lycée souvent en vraie ville. (5) **Chauffage** : altitude = saison chauffage 8-9 mois. Privilégier pompe à chaleur géothermique, granulés, bois bûche. Vérifier facture moyenne avant achat. (6) **Coût voiture** : 2 voitures + 4×4 ou crampons hiver souvent obligatoire. TCO 6 000-10 000 €/an. (7) **Communauté** : choisir commune avec mélange permanents/saisonniers (60/40 minimum) pour vie hors saison.",
+      },
+      {
+        heading: "Climat 2040 — refuge ou piège",
+        body: "Les montagnes françaises offrent une protection climatique réelle vs basses altitudes : (1) **Étés tenables** : à 1 000 m d'altitude, gain ~4-5 °C sur canicule. Massif Central 800-1 200 m = 5-15 jours/an >30 °C en 2040 vs 30-40 jours en plaine. (2) **Eau disponible** : sources, neige fondue, nappes. Pas de pénurie comme Méditerranée. (3) **Forêt résiliente** : mais risque incendie en hausse, attention zones boisées sèches (Provence intérieure, Sud Massif Central). (4) **Pas de canicule majeure** : altitude protectrice. Briançon 2040 : 5-10 jours/an >30 °C. (5) **Précipitations** : maintenues, légère hausse hiver, baisse été. (6) **Neige** : raréfiée stations <1 500 m. Stations 1 800+ m maintiennent. Vivre en montagne = bénéficier refuge mais accepter transformation économie ski.",
+      },
+      {
+        heading: "Profils pour vivre en montagne",
+        body: "Le bon profil : (1) Télétravailleur cadre/freelance autonome avec emploi solide (60-80 % temps domicile, déplacements ponctuels). (2) Famille avec enfants jeunes (école primaire), parents 30-45 ans, projet 8-15 ans. (3) Retraités actifs 55-70 ans en bonne santé, mobilité véhicule. (4) Profils néo-paysans, créatifs, ayant projet local (gîte, ferme, artisanat). (5) Profil sportif/montagnard authentique (alpinisme, ski-alpinisme, ski touring) intégrant la montagne dans son quotidien. **Mauvais profil** : (1) Carrière nécessitant présentiel quotidien métropole. (2) Famille avec adolescents (lycée, sortie, vie sociale = trajets épuisants). (3) Profils santé fragile (services médicaux limités). (4) Couples avec enfants en bas âge et zéro réseau familial proche. (5) Profils dépendants vie urbaine intense.",
+      },
+      {
+        heading: "Pièges classiques montagne 2026",
+        body: "(1) **Acheter en station <1 500 m** : transition forcée modèle économique ski d'ici 2030. Valeur revente menacée. (2) **Sous-estimer saison hivernale** : chauffage, déneigement, accès difficile, courses lointaines = -20 % qualité de vie hivernale. (3) **Isolement social** : village 500 hab en hiver = solitude. Tester en hiver avant achat. (4) **Travaux d'isolation** : maison ancienne montagne souvent DPE E-G, isolation hivernale critique. Budget rénovation 25-60 k€. (5) **Foncier surchauffé Annecy/Chamonix** : prix m² inaccessibles primo. Préférer alternatives proches (Faverges, Sallanches, Cluses). (6) **Activité estivale** : été montagne moins développé que hiver (tourisme + emplois). Vivre en montagne = vivre toute l'année avec saisons inégales. (7) **Adolescent en quête vie sociale** : ado en village montagne = isolement total = projet familial à risque.",
+      },
+      {
+        heading: "Le calcul honnête : sweet spot = vraie ville montagne ou village 800-1 200 m",
+        body: "Vivre en montagne en France 2026 reste un excellent choix pour le bon profil, mais nécessite distinguer 3 stratégies : (1) **Vraie ville montagne** (Chambéry, Briançon, Gap, Aurillac, Le Puy) — services complets + accès montagne + foncier sweet spot. Top choix familles + retraités actifs. (2) **Village montagne 800-1 200 m** (Aussois, Saint-Lary, Mont-Dore, vallées intérieures) — communauté + nature + foncier accessible. Top télétravailleurs + créatifs. (3) **Station ski** — uniquement pour profil ski-passionné + télétravail solide + acceptation isolement. À éviter sauf engagement fort. **Climat 2040** : montagne reste l'un des meilleurs paris français — étés tenables, eau disponible, biodiversité préservée. **À éviter** : station <1 500 m (modèle économique en transition), village isolé sans services <500 hab (déclin probable), Annecy/Chamonix saturé (foncier inaccessible). **Sweet spot 2026** : Chambéry, Briançon, Gap, Aurillac pour métropole secondaire montagne ; Vercors, Bauges, Beaufortain, Briançonnais 800-1 200 m pour village structurant.",
+      },
+    ],
+    relatedCities: ["chambery", "annecy", "grenoble", "briancon", "gap"],
+    relatedGuides: [
+      "climat-2040-alpes-savoie-refuge-altitude",
+      "climat-2040-massif-central-montagne-refuge",
+      "meilleures-villes-randonnee-trail-france-2026",
+      "annecy-vs-chambery-comparatif-2026",
+      "petites-villes-50000-habitants-tout-france-2026",
+    ],
+    tags: ["vivre en montagne", "Alpes", "Pyrénées", "Massif Central", "station ski", "village montagne", "refuge climatique", "2026"],
+  },
+  {
+    slug: "reprendre-commerce-avec-logement-france-2026",
+    title: "Reprendre un commerce avec logement en 2026 — boulangerie, café, gîte, épicerie",
+    metaTitle: "Reprendre commerce + logement 2026 : boulangerie, café, épicerie — guide",
+    metaDesc:
+      "Reprendre un commerce avec logement intégré en 2026 : boulangerie, café, gîte, épicerie. Financement BPI, villes en désertification, opportunités, pièges.",
+    category: "budget",
+    emoji: "🥖",
+    readMinutes: 9,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "Reprendre un commerce de proximité avec le logement intégré (boulangerie, café, épicerie, gîte) est une formule séduisante en 2026 : double activité économique + résidence, prix d'acquisition souvent accessible, opportunités dans communes en désertification. Mais le métier est exigeant et le risque économique réel. Voici l'analyse honnête.",
+    sections: [
+      {
+        heading: "Pourquoi reprendre commerce + logement en 2026",
+        body: "(1) **Désertification rurale** : 12 000 communes françaises sans dernier commerce 2026 (vs 6 000 en 2010). Opportunités d'achat de fonds + bien immobilier à prix accessibles. (2) **Aides au commerce rural** : (a) BPI France 'Cap Création' 20-50 k€. (b) Région : aides spécifiques (Centre-Val de Loire, Bourgogne-Franche-Comté, Auvergne actives). (c) Département + commune : prêts taux préférentiels, subventions équipement. (3) **Double levier patrimoine + revenus** : acquisition lieu de vie + outil de travail. (4) **Reconversion professionnelle** : profil cadre fatigué métropole, projet 'authentique' avec rythme local. (5) **Marchés en tension** : derniers commerces communes 500-3 000 hab = clientèle captive locale + résidents secondaires + touristes. (6) **Volumes 2026** : ~8 000 reprises commerces ruraux/an, +30 % vs 2018.",
+      },
+      {
+        heading: "Boulangerie + logement — le grand classique",
+        body: "Le commerce le plus repris en milieu rural. (1) **Marché** : France ~32 000 boulangeries, dont 65 % en communes <10 000 hab. Demande stable, dernière boulangerie = monopole local. (2) **Prix typique** : fonds commerce 40-180 k€ + immobilier 80-200 k€ = total 120-380 k€. (3) **Chiffre d'affaires moyen** : 200-500 k€/an selon zone. Marge brute 60-65 %, marge nette 8-12 %. Salaire net boulanger 1 800-3 200 €/mois (5 j/semaine + dimanche matin). (4) **Investissements lourds** : four à pain 30-80 k€ (souvent neuf à acquérir), pétrins, chambres de pousse. Crédit-bail possible. (5) **Compétences requises** : CAP boulanger OU formation accélérée (École Boulangerie de Paris, 6 mois) OU embaucher boulanger. (6) **Aides spécifiques** : Confédération Boulangerie Pâtisserie + chambre métiers + BPI 'Cap Création' boulangerie. (7) **Charge mentale** : levée 4-5h du matin, dimanche matin actif, congés 4 semaines/an. Vie pro intense.",
+      },
+      {
+        heading: "Café/bar/restaurant + logement",
+        body: "Forte densité offre, attention saturation. (1) **Marché** : France ~38 000 bars-restos, dont 45 % en communes <20 000 hab. (2) **Prix typique** : fonds 30-200 k€ + immobilier 100-280 k€ = total 130-480 k€. (3) **Chiffre d'affaires** : 80-450 k€/an selon zone et type. Marge brute 65-75 %, marge nette 3-10 %. (4) **Salaire net dirigeant** : 1 500-3 500 €/mois selon CA. Souvent moins que boulangerie pour effort similaire. (5) **Risques élevés** : saisonnalité (touristique = forte été, faible hiver), licence IV obligatoire (15-60 k€ supplémentaires), réglementation hygiène stricte. (6) **Reprise vs création** : reprise existante = clientèle constituée. Création = risque échec 3 premières années (40 % faillites). (7) **Métiers exigeants** : 60-80h/semaine, horaires soirée et week-end, gestion équipe (1-5 salariés typique).",
+      },
+      {
+        heading: "Épicerie / multi-services + logement",
+        body: "Tendance forte 'épicerie multiservices' relance commerce rural. (1) **Marché** : ~16 000 épiceries en France 2026, dont 70 % en milieu rural. Renaissance via réseaux 'Epi Service', 'Le Local', 'Halles Mayol'. (2) **Prix** : fonds 20-80 k€ + immobilier 80-200 k€ = total 100-280 k€. Le plus accessible des commerces. (3) **Concept moderne** : épicerie + boulangerie partielle (pain dépôt) + point relais colis + presse + journaux + parfois café/snack. Revenus diversifiés. (4) **Chiffre d'affaires** : 90-280 k€/an. Marge brute 18-25 %, marge nette 5-10 %. (5) **Salaire** : 1 600-2 800 €/mois selon CA et nombre activités. (6) **Investissement modéré** : chambre froide, étagères, caisse — 15-40 k€. (7) **Compétences** : pas de formation spécifique requise. Gestion polyvalente, sens commercial. (8) **Aides** : programme 1 000 cafés, Petites Villes de Demain, BPI Cap Création. Idéal pour reconversion 'simple' commerce.",
+      },
+      {
+        heading: "Gîte / chambre d'hôtes + logement",
+        body: "Modèle accueil touristique. (1) **Marché** : ~80 000 gîtes/chambres d'hôtes France 2026. Demande forte tourisme intérieur post-Covid. (2) **Prix** : immobilier 200-600 k€ pour propriété 2-5 chambres à louer + logement propriétaire. (3) **Revenus** : 12 000-60 000 €/an selon zone, capacité, saisonnalité. Saisonnier (mai-octobre dominant) ou année. (4) **Statut** : LMNP (Loueur Meublé Non Professionnel) si moins seuils CA (77 700 €/an meublé tourisme classé). Au-delà = LMP, fiscalité plus lourde. (5) **Compétences** : aucune formation requise, mais hospitalité, anglais utile, marketing digital (Airbnb, Booking, sites dédiés). (6) **Aides** : Gîtes de France label = subventions région possibles. Atout SEO. (7) **Rentabilité** : excellente si bonne localisation (Provence, Périgord, Bretagne sud, Alpes) + qualité prestation. Médiocre en zone touristique faible. (8) **Charge** : 6-8 mois travail intense, hiver calme. Compatible avec autre activité (télétravail, freelance) hors saison.",
+      },
+      {
+        heading: "Financement reprise commerce + immobilier",
+        body: "(1) **Crédit bancaire fonds** : 60-80 % financement, taux 4-6 % en 2026 (plus élevé que crédit immobilier). Durée 7-12 ans. (2) **Crédit immobilier classique** : 70-90 % financement, taux 3,5-4,5 % sur 15-25 ans. (3) **Apport personnel** : 25-40 % du total (commerce + bien) requis typique. (4) **Aides publiques cumulables** : (a) **BPI 'Cap Création'** : prêt 15-50 k€ taux 1-2 %, durée 5-7 ans. (b) **Région** : subventions 10-30 % d'investissement (Centre-Val de Loire, Bourgogne-FC, Auvergne actives). (c) **Département** : prêt taux 0 %, 5-20 k€. (d) **Commune** : exonération taxe foncière 5 ans + aide locale. (e) **ARCE Pôle Emploi** : pour chômeur créateur, capitalisation droits chômage (jusqu'à 45 % du reste à percevoir). (5) **Plan de financement type** : commerce 80 k€ + immobilier 180 k€ = 260 k€ total. Apport 65 k€ + crédit immo 130 k€ + crédit fonds 50 k€ + aides 15 k€.",
+      },
+      {
+        heading: "Villes/communes en désertification opportunité",
+        body: "Communes avec dernier commerce à reprendre + aides locales : (1) **Cantal, Creuse, Lozère, Aveyron rural** — communes 300-2 500 hab, dernière boulangerie/épicerie à reprendre. Prix accessibles (commerce + maison 80-180 k€). (2) **Ardèche/Drôme provençale rural** — communes patrimoniales, tourisme été, opportunités résidence + activité. (3) **Périgord/Lot/Tarn-et-Garonne** — rural touristique, prix sweet spot, climat doux. (4) **Bretagne intérieure** (Centre-Bretagne) — communes <3 000 hab, dernière boulangerie à reprendre, climat tempéré. (5) **Pays de Bray, Pays de Caux** Normandie — communes rurales en transition, opportunités. (6) **Haute-Loire, Allier rural** — Massif Central nord, prix très bas, refuge climatique. (7) **Argonne, Meuse rurale, Ardennes** — Lorraine rurale, prix dérisoires (50-120 k€ commerce + maison) MAIS faiblesse démographique forte.",
+      },
+      {
+        heading: "Pièges classiques",
+        body: "(1) **Sur-évaluer le CA repris** : vendeur exhibe meilleure année, vérifier 5 ans bilans + 3 ans déclarations TVA. Demander expertise-comptable indépendant 800-1 500 €. (2) **Compétences absentes** : reprendre boulangerie sans CAP = embaucher boulanger (salaire 2 200-2 800 €) = marge réduite. Anticiper. (3) **Logement + commerce mêlés** : juridique compliqué — souvent SCI distincte pour bien immobilier + société d'exploitation pour fonds. (4) **Charge mentale couple** : reprise = engagement 2 conjoints souvent. Conflit fréquent (rythme, vacances, salaires divergents). (5) **Saisonnalité touristique** : commerce saisonnier = 8 mois pour faire CA de l'année. Trésorerie hivernale critique. (6) **Bâtiments anciens** : commerce historique avec mises aux normes lourdes (accessibilité PMR, hygiène, énergie). Budget 30-80 k€. (7) **Suivi clients vendeur** : la moitié des clients suivent par habitude personnelle (relation vendeur), perdent à reprise. Anticiper baisse CA 15-25 % an 1. (8) **Loi Pinel 2014** baux commerciaux : durée 9 ans avec rupture triennale, encadrement loyer. Vérifier conditions exactes.",
+      },
+      {
+        heading: "Le calcul honnête : excellente reconversion pour profil engagé",
+        body: "Reprendre un commerce + logement en 2026 = projet de vie cohérent pour profil : (1) **Engagé** : 50-70h/semaine, pas de vacances 1-2 ans démarrage. (2) **Couple aligné** : 2 conjoints adhèrent au projet, répartition tâches claire. (3) **Capital** : apport 60-100 k€ minimum + capacité endettement supplémentaire 200-300 k€. (4) **Formation/compétences** : CAP métier OU embauche professionnel. (5) **Choix commune** : démographie stable/croissante, tourisme/clientèle existante. **Sweet spot 2026** : (a) **Épicerie multi-services + maison rurale Centre-Bretagne/Massif Central** — investissement 120-200 k€ total, rentabilité modeste mais cadre vie excellent. (b) **Boulangerie + maison ville moyenne 5 000-15 000 hab** (Cahors, Tulle, Vannes, Auxerre) — investissement 180-300 k€, salaire 2 500-3 500 €/mois après 2 ans. (c) **Gîte + maison Périgord/Provence** — investissement 250-450 k€, revenus saisonniers complétant autre activité. **À éviter** : café-restaurant zone saturée (saturation forte), reprise commerce en commune <500 hab en déclin démographique (clientèle insuffisante), reprise sans formation/expérience métier (faillite à 2 ans).",
+      },
+    ],
+    relatedCities: ["aurillac", "rodez", "le-puy-en-velay", "tulle", "auxerre"],
+    relatedGuides: [
+      "vivre-en-zrr-aides-fiscales-zones-rurales-france-2026",
+      "vivre-en-creuse-guide-2026",
+      "devenir-freelance-en-province-quelles-villes-france-2026",
+      "acheter-maison-campagne-france-2026-vraiment-vivable",
+      "petites-villes-50000-habitants-tout-france-2026",
+    ],
+    tags: ["reprendre commerce", "boulangerie", "café", "épicerie", "gîte", "désertification rurale", "BPI", "reconversion", "2026"],
+  },
+  {
+    slug: "pinel-denormandie-2026-fin-dispositif-alternatives",
+    title: "Pinel et Denormandie en 2026 — fin du Pinel, Denormandie reconduit, alternatives",
+    metaTitle: "Pinel fin 2024, Denormandie 2026 : alternatives investissement — guide",
+    metaDesc:
+      "Pinel terminé 2024, Denormandie reconduit 2025-2027 : conditions, fiscalité, villes éligibles. Alternatives : LLI, LMNP, déficit foncier. Analyse 2026.",
+    category: "budget",
+    emoji: "📊",
+    readMinutes: 9,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "Le dispositif Pinel — pilier de l'investissement locatif neuf depuis 2014 — s'est éteint le 31 décembre 2024. Le Denormandie (rénovation centre-villes anciens) est reconduit jusqu'à fin 2027. Les investisseurs locatifs 2026 doivent comprendre : ce qui survit, ce qui disparaît, les alternatives crédibles. Voici la lecture honnête.",
+    sections: [
+      {
+        heading: "Pinel — fin 31 décembre 2024",
+        body: "(1) **Bilan 2014-2024** : ~400 000 logements neufs construits via Pinel, 22 milliards € de réduction d'impôt cumulés. Critiqué pour : (a) Sur-construction zones excédentaires, (b) Logements souvent surévalués (+15-25 % vs marché ordinaire), (c) Rentabilité brute médiocre (3-4 %), (d) Plafonds loyers contraignants. (2) **Investissements Pinel encore actifs en 2026** : engagement 6/9/12 ans non encore achevé. Réduction d'impôt continue. (3) **Engagement plein** : si Pinel signé 2022 (engagement 12 ans), bénéfice jusqu'à 2034. (4) **Cession en cours d'engagement** : possible avec accord administratif, mais perte rétroactive avantages. (5) **Pinel+ (réservé zone tendue, RT2020)** également terminé fin 2024. (6) **Pas de successeur** : aucun nouveau dispositif similaire annoncé 2026. Gouvernement priorise rénovation existant.",
+      },
+      {
+        heading: "Denormandie — reconduit jusqu'au 31 décembre 2027",
+        body: "(1) **Principe** : réduction d'impôt 12 %, 18 %, 21 % du prix d'acquisition (engagement 6/9/12 ans) pour achat + rénovation logement ancien en centre-ville commune éligible. (2) **Conditions** : (a) Bien dans une des **245 communes éligibles** (réseau 'Action Cœur de Ville' + 222 communes 'Petites Villes de Demain'). (b) **Travaux rénovation** ≥ 25 % du prix d'acquisition. (c) Plafond global investissement 300 000 € + plafond 5 500 €/m². (d) Plafond loyers + ressources locataires (équivalent Pinel zone). (e) Engagement location nue 6/9/12 ans à plafond. (3) **Villes phares Denormandie 2026** : Limoges, Saint-Étienne, Châteauroux, Cahors, Tulle, Charleville-Mézières, Roubaix, Maubeuge, Brest centre, Le Havre centre, Brioude, Aurillac, Mende, Rodez. (4) **Cas concret** : achat 150 k€ + rénovation 50 k€ = 200 k€. Réduction 18 % (engagement 9 ans) = 36 k€ étalés 9 ans = 4 000 €/an d'IR. (5) **Avantage clé 2026** : seule grande niche fiscale immobilière neuve encore active.",
+      },
+      {
+        heading: "LLI — Logement Locatif Intermédiaire (2024+)",
+        body: "(1) **Principe** : dispositif fiscal pour acquisition logement neuf locatif zonage intermédiaire (entre social et libre). (2) **Avantages** : (a) **TVA réduite 10 %** au lieu de 20 % sur acquisition neuve. (b) **Exonération taxe foncière 20 ans** dans certaines communes. (c) Pas de réduction d'impôt directe (vs Pinel) mais avantages indirects similaires sur 20 ans. (3) **Conditions** : (a) Bien neuf zoné A/A bis/B1 (zones tendues). (b) Plafond loyer LLI (15-25 % sous loyer marché). (c) Plafond ressources locataires (classes moyennes). (d) Engagement location 15+ ans. (4) **Cible** : investisseurs institutionnels surtout (banques, assurances, foncières), particuliers en SCI peuvent y accéder via opérations promoteurs. (5) **Rentabilité brute** : 3,5-4,5 %. Avantage fiscal cumulé 20 ans = équivalent à 18-25 % d'économie sur le prix d'achat. (6) **Marché 2026** : 5 000-8 000 logements LLI livrés/an, en croissance.",
+      },
+      {
+        heading: "LMNP — toujours roi 2026",
+        body: "Pas un dispositif mais le statut le plus utilisé. (1) **Régime micro-BIC** : abattement 50 % sur recettes (71 % meublé tourisme classé jusqu'à fin 2024, ramené à 30 % depuis 2024 pour tourisme non classé). (2) **Régime réel** : amortissement (3-4 %/an) annule souvent imposition pendant 10-15 ans. (3) **Avantages 2026** : (a) Pas de plafond loyer ni de ressources locataires (sauf encadrement loyers communal). (b) Pas d'engagement durée minimum. (c) Choix du locataire. (d) Cession plus simple que dispositifs zonés. (4) **Rentabilité brute** : 4-6 % moyenne France, 5,5-7 % LMNP cadre province non-encadrée. (5) **Évolution 2024+** : abattement micro-BIC en baisse pour meublé tourisme, régime réel devient quasi-systématique au-delà 10 k€ recettes/an. (6) **Top villes LMNP 2026** : Lille, Reims, Tours, Strasbourg, Nantes, Rennes, Montpellier, Toulouse, Bordeaux périphérie, Lyon périphérie.",
+      },
+      {
+        heading: "Déficit foncier — niche fiscale alternative",
+        body: "(1) **Principe** : si charges déductibles > revenus fonciers (location nue), le déficit est imputable sur revenu global jusqu'à **10 700 €/an** + reportable 10 ans sur revenus fonciers. (2) **Conditions** : (a) Location nue (pas meublée). (b) Travaux à inclure : rénovation, amélioration énergétique, ravalement, toiture. (c) Pas de plafond d'investissement. (3) **Cas typique 2026** : achat appartement 150 k€ + travaux 60 k€. Travaux déductibles intégrale = -60 k€ revenus fonciers. Si revenus fonciers/locaux nuls, -10 700 €/an déduits revenu global sur 6 ans = économie 30-40 k€ IR (TMI 30 %). (4) **Cumul intéressant** : Denormandie + déficit foncier dans certains cas (travaux non-éligibles Denormandie déductibles en foncier). (5) **Risque** : si vente avant 3 ans, remise en cause partielle exonérations. (6) **Public** : investisseurs TMI 30-45 % avec travaux significatifs prévus.",
+      },
+      {
+        heading: "Stratégies investissement 2026 par profil",
+        body: "(1) **Investisseur primo-locatif 30-45 ans, capital 30-80 k€** : LMNP régime réel dans métropole secondaire province (Lille, Reims, Tours, Strasbourg, Nantes). Brut 5-6 %, net 4-5 %. Pas besoin de dispositif fiscal complexe. (2) **Cadre TMI 41 %+, capital 60-150 k€** : Denormandie reconduit + travaux rénovation centre-ville (Limoges, Saint-Étienne, Cahors). Réduction d'impôt 18-21 % + rendement locatif. (3) **Profil patrimonial 50+, capital 150-500 k€** : SCPI européennes (Allemagne, Pays-Bas) + LMNP en SCI familiale. Diversification + transmission. (4) **Profil 'travaux'** capable gestion projets : déficit foncier + Denormandie cumulés. Économies fiscales 40-80 k€ sur 5-7 ans. (5) **Profil ultra-passif** : SCPI françaises ou européennes via assurance-vie. Pas de gestion, rendement modeste mais clean. (6) **À éviter en 2026** : achats neufs zones B/C sans dispositif (rentabilité <3 %, surcoût +20 % vs ancien), achats émotionnels sans plan fiscal.",
+      },
+      {
+        heading: "Communes Denormandie phares 2026",
+        body: "Top 15 communes éligibles avec marché locatif solide : (1) **Limoges** — centre historique, prix m² 1 100-1 800 €, demande étudiants + cadres. (2) **Saint-Étienne** — quartier Carnot, Bellevue, prix m² 800-1 300 €. (3) **Le Havre** — centre Auguste Perret, prix m² 1 600-2 400 €. (4) **Tulle** — centre, prix m² 800-1 200 €. (5) **Châteauroux** — quartier La Margelle, prix m² 700-1 100 €. (6) **Cahors** — centre médiéval, prix m² 1 200-1 800 €. (7) **Roubaix** — centre + quartiers anciens, prix m² 900-1 500 €. (8) **Charleville-Mézières** — centre, prix m² 800-1 200 €. (9) **Brest** — centre Saint-Louis, prix m² 1 600-2 300 €. (10) **Mende** — centre, prix m² 900-1 400 €. (11) **Aurillac** — centre Saint-Géraud, prix m² 900-1 400 €. (12) **Niort** — centre, prix m² 1 400-2 000 €. (13) **Auxerre** — centre, prix m² 1 200-1 800 €. (14) **Vannes** — centre, prix m² 2 200-3 200 €. (15) **Bourges** — centre médiéval, prix m² 1 100-1 700 €.",
+      },
+      {
+        heading: "Pièges classiques",
+        body: "(1) **Acheter Denormandie sans connaître marché locatif local** : commune éligible Denormandie mais marché locatif faible = vacance + rendement déçu. Étudier marché AVANT achat. (2) **Sous-évaluer coût rénovation** : Denormandie exige travaux ≥ 25 % du prix achat. Dépassements fréquents (+30-50 %). (3) **Plafond loyer Denormandie strict** : 10 €/m² typique zones B/C, vs marché 12-14 €/m². Rendement attendu en baisse. (4) **Encadrement loyers communal** : certaines villes Denormandie (Limoges, Saint-Étienne) sont aussi encadrées ! Cumul de plafonds. Vérifier. (5) **LMNP réformes en cours** : abattement micro-BIC saisonnier non classé baissé à 30 %, possibles autres réformes 2026-2027. Préférer régime réel. (6) **Pinel en cours** : si engagement 12 ans, ne pas céder même si prix optimal — perte rétroactive. (7) **LLI marché secondaire** : peu liquide, cession compliquée avant 15 ans. (8) **Plus-value Denormandie** : pas d'avantage spécifique, abattement durée détention classique.",
+      },
+      {
+        heading: "Le calcul honnête : Denormandie + LMNP réel = duo gagnant 2026",
+        body: "L'environnement fiscal immobilier 2026 a beaucoup changé : Pinel mort, Denormandie comme dernière grande niche, LMNP toujours puissant, LLI émergent pour institutionnels. Recommandation par profil : (1) **Petit investisseur** : LMNP régime réel province non-encadrée (Lille, Reims, Tours, Brest). Simple, rentable. (2) **Cadre TMI élevé** : Denormandie + travaux rénovation centre commune éligible (Limoges, Châteauroux, Brest, Niort). Réduction IR + rendement. (3) **Patrimoine consolidé** : LMNP en SCI + déficit foncier sur biens à rénover + SCPI européennes pour diversification + foncières cotées pour liquidité. (4) **Investisseur passif** : SCPI européennes via assurance-vie. **À éviter** : (a) Achat neuf zones B/C sans dispositif (rentabilité catastrophique). (b) Pinel non engagé tardivement (terminé). (c) Achat émotionnel sans plan fiscal cohérent. **Sweet spot 2026** : Denormandie Limoges/Saint-Étienne/Le Havre avec rénovation maîtrisée = réduction IR 18-21 % + rendement brut 4-5 % + valorisation patrimoine.",
+      },
+    ],
+    relatedCities: ["limoges", "saint-etienne", "le-havre", "cahors", "tulle"],
+    relatedGuides: [
+      "investir-lmnp-par-ville-france-2026",
+      "scpi-vs-locatif-direct-france-2026-quel-choix",
+      "encadrement-loyers-france-2026-villes-investir-malgre-tout",
+      "acheter-maison-a-renover-france-2026-vrai-cout",
+      "investissement-locatif-moins-100000-euros-france-2026",
+    ],
+    tags: ["Pinel", "Denormandie", "LLI", "déficit foncier", "investissement locatif", "réduction d'impôt", "Action Cœur de Ville", "2026"],
+  },
+  {
+    slug: "quitter-teletravail-pour-rural-france-2026-risques-opportunites",
+    title: "Quitter le télétravail urbain pour le rural en 2026 — risques et opportunités",
+    metaTitle: "Quitter télétravail urbain pour rural 2026 : risques, reconversion — guide",
+    metaDesc:
+      "Quitter le télétravail urbain pour s'installer en rural en 2026 : risques perte revenu, reconversion, néo-paysans, communautés. Analyse honnête.",
+    category: "comparaison",
+    emoji: "🌱",
+    readMinutes: 9,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "Le télétravail urbain post-Covid a stabilisé un nouveau profil : cadre français installé à 1-2h de Paris/Lyon, télétravail 80-100 %. Mais 15-20 % de ces profils décident d'aller plus loin — quitter le télétravail intégral pour s'installer en vrai rural, parfois avec reconversion. Voici la lecture honnête des risques et opportunités 2026.",
+    sections: [
+      {
+        heading: "Les 3 trajectoires possibles",
+        body: "(1) **Télétravail rural intégral** : conserver emploi urbain à distance, vivre en commune <2 000 hab. Conserve revenu mais isole géographiquement. Réussi pour 65-75 % des cas selon enquête Insee/IFOP 2024. (2) **Reconversion totale** : quitter emploi salarié, devenir indépendant local (artisan, néo-paysan, gîte, commerce, coaching). Risque revenu mais autonomie. Réussi pour 40-55 % des cas (60 % survivent 5 ans, 40 % retournent au salariat). (3) **Activité mixte** : télétravail réduit (50-60 %) + activité locale complémentaire (formation, conseil, association). Équilibre risque/revenu. Top profil 2026.",
+      },
+      {
+        heading: "Profil 1 — Télétravail rural intégral",
+        body: "Conservation poste cadre + installation rurale. (1) **Conditions de succès** : (a) **Fibre FTTH** ≥1 Gbit/s à domicile. Vérifier ARCEP. (b) **Employeur tolérant** : politique télétravail confirmée par écrit, pas dépendante d'un manager. (c) **Compte-rendu présentiel** : 1-2 jours/mois sur site = OK. Au-delà = trajets épuisants. (d) **Profil autonome** : capable de bosser seul sans manager direct. (2) **Risques** : (a) **Changement employeur** : nouveau manager rappelle au bureau, déménagement contraint. (b) **Évolution carrière limitée** : promotion souvent liée à présentiel. (c) **Isolement professionnel** : pas de collègues directs, pas de meetups, perte du pouls marché. (d) **Politique entreprise** : recul télétravail confirmé certaines grandes entreprises 2024 (Amazon, Tesla). (3) **Succès cumulatif** : profil cadre 35-50 ans, autonomie professionnelle réelle, employeur tech/conseil/digital, communauté locale active.",
+      },
+      {
+        heading: "Profil 2 — Reconversion totale rural",
+        body: "Démissionner cadre urbain pour installation locale. (1) **Reconversions classiques** : (a) **Néo-paysan** : maraîcher bio, fromager, viticulteur, apiculteur. (b) **Artisan** : ébéniste, ferronnier, céramiste, restaurateur patrimoine. (c) **Commerce rural** : épicerie, café-bar, gîte, boulangerie. (d) **Services à la personne** : coach, formateur, accompagnateur tourisme, animation. (e) **Création digitale** : photographie, design, écriture (mais souvent activité 'cadre relocalisée' déguisée). (2) **Risques principaux** : (a) **Perte revenu 50-70 %** : salaire cadre 4 500 €/mois → revenu indépendant rural 1 500-2 500 €/mois moyenne (5 premières années). (b) **Investissement initial** : 30-150 k€ matériel + foncier agricole + formation. (c) **Compétences à acquérir** : 1-3 ans formation (CAP métier, BPREA agriculture). (d) **Couple aligné** : conjoint doit accepter baisse niveau vie. (e) **Réversibilité difficile** : retour cadre urbain à 50 ans après 5 ans rural = quasi-impossible (CV trou + déconnexion marché).",
+      },
+      {
+        heading: "Profil 3 — Activité mixte (le 'sweet spot' 2026)",
+        body: "Combinaison télétravail réduit + activité locale complémentaire. (1) **Exemples concrets** : (a) Consultant 60 % télétravail + 40 % temps consacré association/formation locale rémunérée. (b) Freelance digital 50 % + apiculteur amateur professionnalisé 50 %. (c) Salarié temps partiel 60 % + bénévolat / commerce de proximité partiel. (2) **Avantages** : (a) Conservation socle revenu cadre. (b) Diversification = sécurité. (c) Ancrage local progressif. (d) Test reconversion sans tout casser. (3) **Conditions** : (a) Employeur acceptant temps partiel ou télétravail flexible. (b) Activité locale complémentaire compatible avec emploi principal. (c) Couple aligné. (4) **Trajectoire typique** : (a) An 1-2 : télétravail 80 % + reconversion explorée 20 %. (b) An 3 : télétravail 60 % + activité locale 40 %. (c) An 5+ : possibilité de basculer totalement vers indépendant si succès local. (5) **Succès cumulatif** : profil 35-50 ans avec compétences cadre transférables, communauté locale accueillante, budget tampon 2-3 ans réserve.",
+      },
+      {
+        heading: "Régions/communes accueillantes pour ce projet",
+        body: "(1) **Ardèche/Drôme provençale** (Crest, Die, Aubenas, Privas) : forte communauté néo-rurale, marchés bio dynamiques, accueil ouvert aux 'reconversions'. Sweet spot. (2) **Périgord/Lot** (Sarlat, Cahors, Souillac, Figeac) : tourisme + artisanat + agriculture bio, climat doux, accueil expat. (3) **Cévennes/Lozère** : communautés alternatives historiques, foncier accessible, agriculture extensive. (4) **Bretagne intérieure** (Centre-Bretagne, monts d'Arrée) : néo-rural en croissance, climat tempéré, foncier accessible. (5) **Massif Central** (Cantal, Aveyron, Haute-Loire) : foncier dérisoire, refuge climatique, défi services. (6) **Pyrénées intérieures** (Ariège, vallées Bigorre, Béarn) : refuge climatique, communauté installée, alternatives. (7) **Vosges du Sud** (Hautes-Vosges, Plateau de Langres) : foncier accessible, climat continental. **À éviter** : grand rural agricole intensif (Beauce, Champagne crayeuse, plaines céréalières) sans charme ni communauté.",
+      },
+      {
+        heading: "Aides à l'installation rurale 2026",
+        body: "(1) **DJA** (Dotation Jeunes Agriculteurs) : 8 000-50 000 € selon zone et projet. Conditions : <40 ans + BPREA + projet agricole viable. (2) **Aide à l'installation médicale** : 50 000 € CPAM si médecin/profession santé en ZRR/FRR. (3) **BPI Cap Création** : 20-50 k€ taux 1-2 % création entreprise. (4) **France Active** : garanties prêts bancaires + accompagnement (jusqu'à 80 % crédit garantis). (5) **NACRE** Pôle Emploi : accompagnement création entreprise + prêt taux 0 %. (6) **ARCE** : capitalisation droits chômage en aide création (45 % du reste à percevoir). (7) **Région** : aides spécifiques création/reprise rural (Auvergne, Bretagne, Centre-Val de Loire, Bourgogne-FC particulièrement actives). (8) **Couveuses d'entreprises** : structures locales pour tester l'activité avant immatriculation officielle. (9) **MaPrimeRénov'** + Eco-PTZ pour rénovation logement rural acheté en parallèle.",
+      },
+      {
+        heading: "Pièges classiques quitter télétravail pour rural",
+        body: "(1) **Sous-estimer l'isolement social** : 6-12 mois nécessaires pour reconstituer un cercle. Couple s'épuise si conjoint pas aligné. (2) **Acheter maison à rénover trop ambitieuse** : 5 ans chantier perso = retard projet, épuisement. (3) **Activité reconversion sans business plan** : 'je vais faire des chambres d'hôtes', sans étude marché. 40 % échouent à 3 ans. (4) **Sous-capitalisation** : 1-2 ans de trésorerie minimum requis. Aller en rural avec 10 k€ d'épargne = retour forcé. (5) **Couple non-aligné** : si l'un veut rural et l'autre subit, séparation à 2-4 ans. Discussion préalable cruciale. (6) **Enfants en âge collège-lycée** : sociabilité ado en village = catastrophe. Préférer si enfants <10 ans ou >18 ans. (7) **Retour urbain difficile** : après 5 ans rural, CV cadre 'trou', recrutement délicat 45+ ans. Préparer pont retour avant. (8) **Communauté locale fermée** : certains villages avec hiérarchie sociale forte = exclusion des 'parisiens' nouveaux venus. Visiter plusieurs fois avant décision.",
+      },
+      {
+        heading: "Le calcul honnête : projet à 5-10 ans, pas une fuite",
+        body: "Quitter le télétravail urbain pour le rural en 2026 = projet sérieux à 5-10 ans, pas une fuite improvisée du burnout urbain. Profils où ça marche : (1) **Cadre 35-50 ans, télétravail rural intégral** : conserver emploi + qualité vie. Succès si fibre + employeur stable + autonomie pro. Top option à risque modéré. (2) **Couple/famille reconversion activité mixte** : télétravail réduit + activité locale complémentaire = équilibre. Top option 2026, à privilégier vs reconversion totale. (3) **Néo-paysan/artisan dédié** : reconversion totale, projet 10-15 ans, communauté locale alignée, capital initial. Risqué mais possible. **À éviter** : (a) Reconversion totale sans capital ni business plan ni formation = échec quasi-assuré à 3 ans. (b) Installation village très isolé sans communauté pré-établie. (c) Enfants en âge collège-lycée sans projet école établie. (d) Couple non-aligné ('un veut, l'autre suit'). **Recommandation universelle** : tester 6-12 mois en location dans la zone cible avant achat + démission. Beaucoup d'aspirants 'reconversion rurale' réalisent que le télétravail urbain à 1-2h de Paris suffit en fait à leur quête.",
+      },
+    ],
+    relatedCities: ["aurillac", "rodez", "mende", "le-puy-en-velay", "tulle"],
+    relatedGuides: [
+      "devenir-freelance-en-province-quelles-villes-france-2026",
+      "vivre-en-zrr-aides-fiscales-zones-rurales-france-2026",
+      "reprendre-commerce-avec-logement-france-2026",
+      "habitat-participatif-coliving-france-2026",
+      "acheter-maison-campagne-france-2026-vraiment-vivable",
+    ],
+    tags: ["télétravail rural", "reconversion", "néo-paysan", "burnout urbain", "indépendant rural", "qualité de vie", "communauté", "2026"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
