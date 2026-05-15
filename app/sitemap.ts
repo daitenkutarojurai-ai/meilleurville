@@ -26,6 +26,7 @@ const SITEMAP_CHUNKS = [
   "regions",
   "departements",
   "tags",
+  "red-flags",
 ] as const;
 
 type Chunk = (typeof SITEMAP_CHUNKS)[number];
@@ -171,6 +172,15 @@ function tagsSection(): MetadataRoute.Sitemap {
   ];
 }
 
+function redFlagsSection(): MetadataRoute.Sitemap {
+  return CITIES_SEED.map((city) => ({
+    url: `${BASE_URL}/red-flags/${city.slug}`,
+    lastModified: CITY_DATA_UPDATED,
+    changeFrequency: "monthly" as const,
+    priority: 0.55,
+  }));
+}
+
 function departementsSection(): MetadataRoute.Sitemap {
   const depts = [...new Set(CITIES_SEED.map((c) => c.department))];
   return depts.map((d) => ({
@@ -195,6 +205,7 @@ export default async function sitemap({ id }: { id: Promise<string> }): Promise<
     case "regions": return regionsSection();
     case "departements": return departementsSection();
     case "tags": return tagsSection();
+    case "red-flags": return redFlagsSection();
     default: return [];
   }
 }
