@@ -340,9 +340,13 @@ Category `"famille"`.
 
 ## Roadmap v5 — UX & data-truth audit (2026-05-15)
 
+**Status: shipped 2026-05-15.** All five items merged on `main`.
+
 UX issues + data accuracy. Higher leverage than more guides at this point — retention and trust depend on these.
 
-### R5.1 — City page layout (`/villes/[slug]`)
+### R5.1 — City page layout (`/villes/[slug]`) ✅
+**Shipped.** Moved the 4 sub-page link cards (Quartiers / Climat / Transports / Écoles) out of the right rail into a full-width 4-column strip below the two columns. Right rail went 11 → 7 items, height matches main column.
+
 **Problem:** Right-rail panel is dense (favoris, score breakdown, sub-page links, related cities, sources…), main column has shorter content, so when scrolling the rail keeps going while the centre column ends — leaves a large empty band in the middle. Bad reading experience.
 
 **Goal:** Rebalance the two-column reading axis.
@@ -350,7 +354,9 @@ UX issues + data accuracy. Higher leverage than more guides at this point — re
 - Move secondary rail blocks (related cities, sources, sub-page links) below the main column on desktop OR make rail `position: sticky` only for the score card and let the rest scroll inline.
 - Verify mobile: rail blocks should stack cleanly below the main column without duplication.
 
-### R5.2 — Carte de France: DROM box overlap
+### R5.2 — Carte de France: DROM box overlap ✅
+**Shipped.** Split `FranceHeatmap` SVG into metropolitan map (`y ∈ [0, MAP_H=700]`) + dedicated DROM strip below (`y ∈ [MAP_H, MAP_H+70]`) with a faint dashed separator. Cartouches no longer collide with Provence / Corse.
+
 **Problem:** On `/carte` (and probably `FranceHeatmap` on homepage), the inset cartouche for DROM (Outre-mer) overlaps the metropolitan map card.
 
 **Goal:** Reorganise so DROM inset is properly positioned, never overlapping. Likely fixes:
@@ -359,7 +365,9 @@ UX issues + data accuracy. Higher leverage than more guides at this point — re
 - Or move DROM to a separate strip *below* the metropolitan map (`DromStrip` already exists in lib/utils — may just be a styling fix).
 - Files: `components/FranceHeatmap.tsx`, `app/carte/CarteClient.tsx`, possibly `DromStrip` usage.
 
-### R5.3 — Simulateur not actually responding to inputs
+### R5.3 — Simulateur not actually responding to inputs ✅
+**Shipped.** `CostCalculator` ranking was driven by `rentSavings = parisRent - rent`, which preserved order regardless of input → top cities were always the same. Added a "Priorité" chip selector (Budget / Télétravail / Nature / Culture / Qualité de vie / Sécurité) that drives the actual ranking via the corresponding score axis. Each result shows a "Pourquoi" reason chip tied to the priority + a "Hors budget" badge when the rent T2 exceeds the user's affordability threshold (33 % salary or current Paris rent).
+
 **Problem:** First few results in the city simulator are always the same regardless of user inputs (budget, lifestyle, preferences). Looks like a dead feature — kills trust and reuse.
 
 **Goal:** Make the simulator's ranking honestly depend on the inputs.
@@ -369,7 +377,9 @@ UX issues + data accuracy. Higher leverage than more guides at this point — re
 - Add a visible "Pourquoi cette ville ?" reason chip on each result tying back to the inputs.
 - Edge case: when user changes only one input, ranking should visibly shift.
 
-### R5.4 — Red Flags: working report button + city-first ordering
+### R5.4 — Red Flags: working report button + city-first ordering ✅
+**Shipped.** "Signaler un point noir" button (previously a dead `<button>`) → `<Link href="/contact?topic=red-flag">`. ContactForm pre-selects the new "Signaler un point noir" topic via `?topic=` URL param (wrapped in Suspense). Per-city fiches section now appears FIRST on `/red-flags` (above the categories), sorted worst-vigilance-first, with vigilance level chips + critical-signal counts via the new `lib/red-flags-summary.ts`.
+
 **Problem A:** On `/red-flags`, "Signaler un point noir" button either doesn't navigate or loops to the same page.
 
 **Problem B:** Section ordering puts archetypal red-flag patterns first; user research says city-specific red-flag fiches are what users actually want to land on. Need to flip the order + polish those fiches.
@@ -379,7 +389,9 @@ UX issues + data accuracy. Higher leverage than more guides at this point — re
 - Reorder `/red-flags` page: "Fiches red-flag par ville" block first (above the fold), archetypal patterns block second.
 - Polish the city fiches: real intro per city, 3-5 concrete red flags per city sourced from `lib/city-narrative.ts` "cons" array OR a new dedicated field, link to the city page.
 
-### R5.5 — Data-truth audit
+### R5.5 — Data-truth audit ✅
+**Shipped.** New `lib/site-stats.ts` exposes derived counts (`CITIES_COUNT`, `GUIDES_COUNT`, `RANKINGS_COUNT`, `TAGS_COUNT`, `REGIONS_COUNT`, `DEPARTMENTS_COUNT`, `GLOSSARY_TERMS_COUNT`). Hardcoded numbers replaced across StatsBar, ContributionStats, /red-flags, /quiz, /sommaire, /recherche, /outils, /faq, /tags, /classements, and the matching OG images. Surrounding copy untouched per instruction.
+
 **Problem:** Numbers on the site (e.g. "340 villes couvertes") may not reflect actual data (currently 352 cities, 295+ guides). Some figures may be stale or invented.
 
 **Goal:** Audit every numeric claim displayed on the site and replace with derived-at-runtime values from the canonical data sources.
