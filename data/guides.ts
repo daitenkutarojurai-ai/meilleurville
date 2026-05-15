@@ -15178,6 +15178,307 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["encadrement loyers", "loi ELAN", "loyer plafond", "complément loyer", "bail mobilité", "Paris", "Lyon", "2026"],
   },
+  {
+    slug: "vivre-en-zrr-aides-fiscales-zones-rurales-france-2026",
+    title: "Vivre en ZRR en 2026 — aides fiscales, où c'est encore actif, qui peut en bénéficier",
+    metaTitle: "ZRR France 2026 : aides fiscales, exonérations, communes éligibles — guide",
+    metaDesc:
+      "ZRR (Zones de Revitalisation Rurale) en 2026 : exonérations IR/taxe foncière/cotisations, créateurs d'entreprise, communes éligibles France Ruralités Revitalisation.",
+    category: "budget",
+    emoji: "🌾",
+    readMinutes: 9,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "Le dispositif ZRR (Zones de Revitalisation Rurale) a été remplacé en 2024 par les FRR (France Ruralités Revitalisation) — moins de communes éligibles, mais avantages fiscaux maintenus. 2026 : 16 000+ communes en zone FRR cumulent exonérations IR partielles, exonération taxe foncière temporaire, abattement cotisations URSSAF pour créateurs d'entreprise. Voici la lecture honnête pour qui considère s'installer.",
+    sections: [
+      {
+        heading: "ZRR → FRR : ce qui a changé en 2024",
+        body: "(1) **ZRR ancienne** (2005-2023) : ~16 000 communes éligibles selon critères démographie + revenu fiscal. Dispositif jugé trop large et coûteux par la Cour des comptes. (2) **FRR France Ruralités Revitalisation** (depuis juillet 2024) : ~17 000 communes (légère extension finalement), critères révisés : (a) Communes en bassin de vie classé 'fragile' selon Insee. (b) Densité <100 hab/km². (c) Revenu fiscal médian <22 750 € (2024). (3) **Liste officielle** : décret n° 2024-722 du 5 juillet 2024 + carte interactive sur agriculture.gouv.fr. (4) **Renouvellement** : zonage révisé tous 5-7 ans. Prochain en 2030. (5) Communes phares classées FRR : grande partie Creuse, Cantal, Lozère, Aveyron rural, Indre, Cher, Haute-Marne, Meuse, Vosges, Hautes-Pyrénées, Aude rurale, Ariège.",
+      },
+      {
+        heading: "Avantage 1 — Exonération impôt sur le revenu (création d'entreprise)",
+        body: "Le plus puissant des avantages FRR. (1) **Création ou reprise d'entreprise** dans une commune classée FRR : exonération totale d'IR sur bénéfices pendant **5 ans**, puis dégressive 25/50/75 % les années 6-7-8 (extinction). (2) **Activités éligibles** : artisans, commerçants, professions libérales, agriculteurs. Activités principales doivent être exercées dans la zone FRR. (3) **Plafond bénéfices** : exonération limitée à 200 000 € sur 3 ans (règle de minimis européenne). (4) **Non cumulable** avec ACRE / JEI / autres exonérations zonales (vérifier optimum). (5) **Engagement** : maintien activité minimum 5 ans dans zone. (6) **Exemple concret** : freelance designer crée micro-entreprise à Aurillac (zone FRR). Bénéfice 35 000 €/an. Exonération IR années 1-5 : ~10 500 €/an × 5 = 52 500 € d'économie totale.",
+      },
+      {
+        heading: "Avantage 2 — Exonération taxe foncière nouvelle construction",
+        body: "(1) **Constructions neuves** ou reprises d'activité en ZRR/FRR : exonération de taxe foncière sur les propriétés bâties pendant **5 ans** (sur décision communale). (2) **Conditions** : (a) Local affecté à l'activité professionnelle exonérée d'IR. (b) Décision de la commune de mettre en place l'exonération (toutes les communes FRR ne l'activent pas — vérifier). (3) **Cumul** avec exonération IR possible. (4) **Effet** : économie 1 500-4 500 €/an pendant 5 ans selon valeur locative cadastrale. (5) **Démarches** : déclaration via formulaire 6660-SD au CDIF (Centre Départemental Impôts Foncier) dans les 90 jours suivant l'achèvement. (6) **Exemple** : maison professionnelle 120 m² à Mende, valeur cadastrale 4 200 €, taux communal 35 % + département 15 % = 50 %. Taxe foncière annuelle ~2 100 € exonérée pendant 5 ans = 10 500 €.",
+      },
+      {
+        heading: "Avantage 3 — Exonération cotisations URSSAF",
+        body: "(1) **Création d'entreprise en zone FRR** : exonération de cotisations patronales d'assurance maladie, maternité, invalidité, décès, vieillesse, allocations familiales pendant **12 mois** au taux plein, puis dégressive année 2 (à 60 %), année 3 (40 %), année 4 (20 %). (2) **Plafond rémunération exonérée** : 1,5 SMIC mensuel par salarié. (3) **Conditions** : (a) Embauche de moins de 50 salariés au moment de l'exonération. (b) Activité exercée dans la zone FRR. (c) Pas de licenciement économique dans les 12 mois précédant l'embauche. (4) **Effet concret** : entreprise embauchant 1 salarié à 2 200 €/mois en FRR : exonération ~9 000 €/an × 1ère année + dégressif. (5) Cumul possible avec ACRE pour créateur d'entreprise individuelle (exonération supplémentaire cotisations personnelles 12 mois).",
+      },
+      {
+        heading: "Avantage 4 — Autres aides ciblées zones FRR",
+        body: "(1) **Médecins traitants** s'installant en FRR : aide à l'installation 50 000 € (CPAM 'PTMG' Praticien Territorial Médecine Générale), exonération IR 8 ans, voiture de fonction, équipement cabinet. (2) **Profession libérale santé** : aides spécifiques par région (kiné, sage-femme, infirmier). (3) **Reprise d'exploitation agricole** : DJA (Dotation Jeunes Agriculteurs) bonifiée 20-40 %, prêts bonifiés. (4) **Réhabilitation logement** : 'Petites Villes de Demain' + 'France Ruralités' offrent aides MaPrimeRénov' bonifiées, prêts à 0 % travaux. (5) **Tiers-lieux et coworking** : subventions création/équipement jusqu'à 25 000 € via 'Nouveaux Lieux, Nouveaux Liens'. (6) **Aide à la mobilité** : 'Forfait Mobilité Durable' renforcé en zone FRR pour salariés (jusqu'à 800 €/an exonérés).",
+      },
+      {
+        heading: "Pour qui c'est vraiment intéressant",
+        body: "(1) **Créateurs d'entreprise** (freelance, artisan, commerçant) : économie totale 30-80 k€ sur 5-8 ans selon activité. C'est le profil #1 bénéficiaire. (2) **Médecins, kinés, infirmiers** : aides à l'installation cumulées 60-120 k€ + revenus solides en zone sous-dotée. (3) **Salariés télétravailleurs** : peu d'avantage direct (sauf si leur entreprise embauche en FRR), mais cadre de vie + foncier accessible. (4) **Retraités actifs** : pas d'avantage IR direct (retraite déjà imposée), mais cadre de vie + biens accessibles. (5) **Investisseurs locatifs** : peu d'avantage. Exonération taxe foncière concerne uniquement locaux professionnels, pas résidence locative. À éviter en motivation principale.",
+      },
+      {
+        heading: "Communes FRR particulièrement attractives 2026",
+        body: "(1) **Aurillac** (Cantal, ~26 000 hab) — préfecture FRR, services complets, lycée, hôpital. Combinaison rare 'ville structurante' + avantages FRR. (2) **Mende** (Lozère, ~11 000) — préfecture, plus haute préfecture France, services. (3) **Rodez** (Aveyron, ~24 000) — préfecture, pas en FRR strict mais zones rurales adjacentes éligibles. (4) **Tulle** (Corrèze, ~14 000) — préfecture, services solides. (5) **Saint-Flour, Brioude, Issoire** — Massif Central, FRR, bourgs structurants. (6) **Charleville-Mézières** (Ardennes, ~46 000) — services préfecture, FRR partiel. (7) **Gap** (Hautes-Alpes, ~38 000) — pas en FRR mais zones rurales adjacentes Briançonnais éligibles. (8) **Foix** (Ariège, ~9 000) — préfecture en zone fragile. (9) Villages structurants Creuse, Cantal, Lozère — FRR + foncier dérisoire.",
+      },
+      {
+        heading: "Pièges classiques",
+        body: "(1) **Confondre ZRR (ancienne) et FRR (nouvelle)** : certaines communes ZRR ont perdu le statut FRR en 2024. Vérifier liste actualisée. (2) **Activité non éligible** : SCI, holding, professions financières et certaines libérales (notaires, huissiers) exclues. (3) **Engagement 5 ans non respecté** : reprise activité hors zone = remboursement rétroactif des exonérations + pénalités. (4) **Non-déclaration** : exonérations non automatiques — formulaires CERFA spécifiques à remplir. (5) **Cumul avec autres exonérations** : ACRE / JEI / Zones Urbaines en Difficulté = non cumulables. Optimum à arbitrer. (6) **Démarches administratives lourdes** : 4-12 formulaires différents selon activité. Expert-comptable spécialisé recommandé (1 000-2 500 €/an). (7) **Imposition résiduelle** : exonération IR ne couvre PAS CSG/CRDS (9,7 %) ni TVA. Bénéfice net réel = exonération - charges sociales restantes.",
+      },
+      {
+        heading: "Le calcul honnête : FRR pertinent pour créateurs et professions de santé, marginal pour le reste",
+        body: "Les avantages FRR 2026 sont concentrés sur 2 profils : (1) **Créateurs d'entreprise** (artisan, freelance, commerçant) : économie 30-80 k€ sur 5-8 ans. C'est significatif et motive vraiment l'installation. (2) **Professions de santé** : aides cumulées 60-120 k€ + clientèle assurée en zone sous-dotée. Très puissant. Pour les autres profils (salariés, retraités, investisseurs locatifs), les avantages FRR sont marginaux et NE doivent PAS être la motivation principale. Le vrai intérêt de s'installer en zone FRR pour ces profils = foncier accessible (souvent 1 500-2 200 €/m²), nature, calme, qualité de vie. Mais ces avantages existent partout en zone rurale française, FRR ou non. **Recommandation** : si vous êtes créateur d'entreprise ou médecin/profession libérale santé envisageant le rural, FRR change vraiment la donne — étudier sérieusement. Si vous êtes télétravailleur ou retraité, viser zone FRR n'est pas un critère prioritaire vs autres facteurs (fibre, services, communauté).",
+      },
+    ],
+    relatedCities: ["aurillac", "mende", "rodez", "tulle", "le-puy-en-velay"],
+    relatedGuides: [
+      "vivre-en-creuse-guide-2026",
+      "vivre-en-auvergne-profonde-guide-2026",
+      "petites-villes-50000-habitants-tout-france-2026",
+      "devenir-freelance-en-province-quelles-villes-france-2026",
+      "acheter-maison-campagne-france-2026-vraiment-vivable",
+    ],
+    tags: ["ZRR", "FRR", "France Ruralités Revitalisation", "exonération IR", "rural", "créateur entreprise", "médecin rural", "2026"],
+  },
+  {
+    slug: "pel-cel-per-financer-achat-immobilier-france-2026",
+    title: "PEL, CEL, PER pour financer un achat immobilier en 2026",
+    metaTitle: "PEL CEL PER 2026 : financer achat immobilier — guide complet",
+    metaDesc:
+      "Utiliser PEL, CEL ou PER pour financer son achat immobilier en 2026 : taux, déblocage, fiscalité, prêt épargne logement, optimisation apport.",
+    category: "budget",
+    emoji: "💳",
+    readMinutes: 9,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "Trois enveloppes d'épargne françaises peuvent contribuer à un achat immobilier : PEL (Plan Épargne Logement), CEL (Compte Épargne Logement) et PER (Plan Épargne Retraite) débloqué pour résidence principale. Chacune a ses conditions, fiscalités et bénéfices. Voici le mode d'emploi 2026 pour optimiser son apport.",
+    sections: [
+      {
+        heading: "PEL — Plan Épargne Logement",
+        body: "(1) **Fonctionnement** : versement initial 225 € minimum, puis versement obligatoire 540 €/an minimum. Plafond 61 200 €. Durée minimum 4 ans, maximum 15 ans (versements limités à 10 ans). (2) **Taux 2026** : PEL ouvert depuis janvier 2024 = **2,25 %** brut (annoncé annuellement). PEL plus anciens conservent leur taux historique (jusqu'à 4 % avant 2003). (3) **Fiscalité 2026** : PEL ouvert depuis 2018 imposé dès la 1ère année (flat tax 30 % = 12,8 % IR + 17,2 % PS) sur les intérêts. PEL ouvert avant 2018 exonéré IR pendant 12 ans, imposé après. (4) **Prime d'État** (PEL avant 2018) : 1 525 € maximum si prêt épargne logement utilisé. (5) **Prêt épargne logement** : taux fixé à l'ouverture du PEL + 1,2 %. Pour PEL 2026 à 2,25 %, prêt à 3,45 %. Plafond prêt 92 000 €, durée 2-15 ans. (6) **Calcul réel 2026** : épargne 4 ans à 540 €/mois = 25 920 €. Intérêts bruts ~2 200 € sur 4 ans. Net après flat tax : ~1 540 €. Capital disponible : 27 460 €.",
+      },
+      {
+        heading: "CEL — Compte Épargne Logement",
+        body: "(1) **Fonctionnement** : versement initial 300 € minimum, pas de versement obligatoire récurrent. Plafond 15 300 €. Pas de durée minimum, fonds disponibles à tout moment. (2) **Taux 2026** : ~1,5 % brut (annoncé annuellement, lié au Livret A). (3) **Fiscalité** : flat tax 30 % systématique sur intérêts (depuis 2018). (4) **Prêt épargne logement** : moins puissant que PEL — plafond 23 000 €, taux fixé selon période d'épargne (~2,5-3 % en 2026). (5) **Utilisation principale** : complément au PEL pour boost d'apport modeste, ou apport rapide d'un primo-accédant débutant. (6) **Cumul PEL + CEL** : prêt total possible jusqu'à 92 000 € (plafond PEL), CEL augmente ce plafond marginalement.",
+      },
+      {
+        heading: "PER — Plan Épargne Retraite (cas d'usage immobilier)",
+        body: "(1) **Fonctionnement principal** : épargne retraite avec déduction fiscale des versements (gros avantage pour TMI 30 %+). (2) **Déblocage exceptionnel résidence principale** : autorisé pour acquisition résidence principale (loi Pacte 2019). (3) **Conditions déblocage** : (a) Résidence principale (pas secondaire ni locatif). (b) Premier achat OU achat post-séparation OU achat après perte logement. (c) Déblocage total ou partiel. (4) **Fiscalité au déblocage** : (a) Capital versé = imposé à TMI (versements ayant bénéficié de l'avantage fiscal). (b) Plus-values = flat tax 30 %. (c) **Calcul avantage net** : si TMI à l'épargne = 41 %, et TMI au déblocage = 30 %, gain fiscal réel 11 % du capital. (5) **Stratégie optimale** : verser au PER pendant années à TMI élevé (40-45 ans, salaire pic), débloquer au moment de l'achat résidence principale 5-10 ans plus tard. (6) **Plafond déduction** : 10 % du revenu pro net (max 35 194 € 2025, ~36 200 € attendu 2026).",
+      },
+      {
+        heading: "Cas concret 1 — Primo-accédant 32 ans avec PEL",
+        body: "Léo, 32 ans, salaire 3 200 €/mois. Ouvert PEL à 22 ans (2014, donc avant 2018). Versements 540 €/an pendant 10 ans = 5 400 €. Taux historique 2 %, intérêts cumulés ~1 000 €. Prime État 1 525 € (PEL ancien). Capital disponible 2026 : 7 925 €. Prêt épargne logement possible à taux 3 %, plafond 92 000 €. Achat T2 à 230 000 € : (a) **Apport** : PEL 7 925 € + économies 25 000 € = 32 925 € (14 %). (b) **Prêt** : 200 000 € sur 25 ans à 4 % = ~1 055 €/mois. OU mix : 92 000 € prêt épargne logement à 3 % + 108 000 € prêt bancaire à 4 % = ~580 + 570 = 1 150 €/mois (légèrement plus mais sécurité du PEL). (c) **Gain** : prime PEL 1 525 € + taux avantageux sur 92 k€.",
+      },
+      {
+        heading: "Cas concret 2 — Cadre 42 ans avec PER",
+        body: "Sophie, 42 ans, salaire 5 200 €/mois (TMI 30 %). Ouvert PER en 2020, versements 6 000 €/an. Capital 2026 : 38 000 € (versés) + 8 000 € (plus-values). Économie d'IR cumulée : 6 000 × 30 % × 6 ans = 10 800 €. **Achat résidence principale 2026** à 380 000 €. (a) Sophie débloque son PER intégralement : 46 000 €. Fiscalité au déblocage : 38 000 × TMI 30 % = 11 400 € + 8 000 × 30 % flat tax = 2 400 €. Total impôt : 13 800 €. (b) **Capital net à l'achat** : 46 000 - 13 800 = 32 200 €. (c) **Bilan net** : économie IR cumulée 10 800 € - impôt déblocage 13 800 = **-3 000 €**. Apparemment perdant ! MAIS le calcul change si Sophie a baissé sa TMI à 25 % (retraite ou changement situation) : impôt déblocage devient 9 500 € → bilan positif. **Leçon** : PER pour immobilier marche uniquement si TMI baisse entre épargne et déblocage. Sinon, neutre fiscalement (mais bonus liquidité).",
+      },
+      {
+        heading: "Comparaison enveloppes — quand choisir quoi",
+        body: "(1) **PEL** : meilleur pour primo-accédant 25-35 ans qui anticipe achat 4-8 ans plus tard. Prêt à taux préférentiel + prime État (si avant 2018) + discipline d'épargne. (2) **CEL** : marginal en 2026, taux trop bas (1,5 %). Utile seulement pour fonds courts si besoin de réserve liquide. (3) **PER** : avantage uniquement si baisse TMI entre épargne et déblocage. Profil cadre 40-50 ans préparant achat ou retraite. (4) **Livret A + LDDS** : 3 % en 2026, exonéré, plafond 22 950 € + 12 000 €. Souvent meilleure option qu'un CEL pour épargne courte. (5) **Assurance-vie** : plafond illimité, fiscalité avantageuse après 8 ans, accessible. Excellente option pour préparer apport 10+ ans avant achat. (6) **Sweet spot 2026 pour apport** : Livret A maxé (22 950 €) + LDDS maxé (12 000 €) + PEL ancien (si en cours) + assurance-vie sur 8+ ans.",
+      },
+      {
+        heading: "Optimisation 2026 — combiner les enveloppes",
+        body: "Pour un projet d'achat à 5-10 ans : (1) Livret A + LDDS maxés rapidement (épargne sans risque, liquide). (2) PEL ouvert pour discipline mensuelle + futurs avantages prêt. (3) Assurance-vie multi-supports (fonds euros + UC) pour le complément long terme. Évite PER sauf si TMI 41 %+ avec confiance baisse future. Pour un projet d'achat à 1-3 ans : (1) Livret A + LDDS prioritaires (liquidité). (2) PEL existant valorisé (si avant 2018, prime + taux). (3) Éviter ouvrir PER 2026 (impossible débloquer assez vite pour bénéficier de l'effet fiscal). Pour un investissement locatif : Aucune de ces enveloppes ne s'applique directement (PER uniquement résidence principale). Utiliser apport et crédit classique.",
+      },
+      {
+        heading: "Pièges classiques",
+        body: "(1) **PEL fermé prématurément** : <4 ans = perte prime d'État + intérêts recalculés taux Livret A. (2) **PEL ouvert après 2018 vu comme avantageux** : à 2,25 % brut imposé flat tax → net 1,58 %. Livret A à 3 % exonéré bat le PEL 2026. PEL 2026 utile uniquement pour le prêt préférentiel, pas pour l'épargne en soi. (3) **PER déblocage sans calcul fiscal** : si TMI stable, l'effet d'imposition au déblocage annule l'économie initiale. (4) **CEL ignoré** : presque sans intérêt en 2026 vs Livret A. (5) **Cumul PEL + CEL prêt** : compliqué, conditions strictes. Vérifier avec courtier. (6) **Prêt épargne logement plus cher que prêt bancaire** : si taux marché 3,5 % et PEL à 3,45 %, gain marginal. Comparer en simulation. (7) **Versement régulier oublié sur PEL** : >12 mois sans versement = clôture automatique → perte avantages.",
+      },
+      {
+        heading: "Le calcul honnête : PEL ancien + Livret A maxé reste le meilleur tandem",
+        body: "Pour préparer un apport immobilier en 2026 : (1) **Si vous avez un PEL ouvert avant 2018** : conserver précieusement, c'est un actif fiscal puissant (prime État + taux historique). (2) **Si vous ouvrez maintenant** : PEL 2026 marginal pour l'épargne (rendement net 1,58 %), pertinent uniquement si on planifie le prêt épargne logement (3,45 % fixé). (3) **PER pour immobilier** : à éviter sauf cas spécifique (TMI 41 %+ avec baisse confirmée vers 30 % au déblocage). (4) **Stratégie optimale 2026** : maximiser Livret A (22 950 €) + LDDS (12 000 €) + assurance-vie sur 8+ ans + PEL ancien (si déjà ouvert). Cible apport : 15-25 % du prix d'achat. Sur projet 250 k€ : viser 40-60 k€ apport. Cela permet de négocier de meilleurs taux + frais de notaire couverts par les fonds propres + crédit plus court.",
+      },
+    ],
+    relatedCities: ["lyon", "bordeaux", "nantes", "rennes", "toulouse"],
+    relatedGuides: [
+      "acheter-avant-40-ans-strategie-france-2026",
+      "acheter-moins-200000-euros-france-quelles-villes-2026",
+      "meilleures-villes-primo-accedants-france-2026",
+      "acheter-en-couple-non-marie-pacs-sci-indivision-2026",
+      "scpi-vs-locatif-direct-france-2026-quel-choix",
+    ],
+    tags: ["PEL", "CEL", "PER", "épargne logement", "apport", "financement immobilier", "primo-accédant", "fiscalité", "2026"],
+  },
+  {
+    slug: "acheter-immobilier-apres-50-ans-strategie-france-2026",
+    title: "Acheter de l'immobilier après 50 ans en 2026 — stratégie fin de carrière",
+    metaTitle: "Acheter immobilier 50 ans+ 2026 : prêt court, downsize, viager — guide",
+    metaDesc:
+      "Acheter de l'immobilier après 50 ans en 2026 : prêt court 10-15 ans, downsize, viager, démembrement transmission, fiscalité. Stratégies par profil.",
+    category: "budget",
+    emoji: "🎯",
+    readMinutes: 9,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "Acheter de l'immobilier après 50 ans n'est pas la même équation qu'à 30 ans : horizon emprunt plus court, retraite à anticiper, transmission aux enfants à préparer. Mais c'est aussi une fenêtre idéale pour optimiser le patrimoine — capital accumulé, salaire au pic, projection retraite claire. Voici les stratégies 2026 par profil 50-65 ans.",
+    sections: [
+      {
+        heading: "Pourquoi acheter à 50+ reste pertinent",
+        body: "(1) **Salaire au pic** : capacité d'endettement souvent maximale (35 % de 6 000-9 000 €/mois = 2 100-3 150 €/mois remboursement possible). (2) **Apport substantiel** : 15-20 ans de capital accumulé (assurance-vie, épargne, vente bien précédent) = 100-300 k€ disponibles. (3) **Horizon retraite clarifié** : projet logement futur connu (rester actif, downsize, rapprochement famille). (4) **Transmission anticipée** : possibilité d'optimiser succession via démembrement, donation avec réserve d'usufruit. (5) **Taux assurance emprunteur** : plus chers (1,5-2,5 % vs 0,5-0,9 % à 35 ans) mais durée plus courte = coût total raisonnable. (6) **Limite** : prêt généralement plafonné à 75 ans en fin de prêt (parfois 80 ans avec assurance renforcée). À 60 ans, durée prêt maximum ~15-20 ans.",
+      },
+      {
+        heading: "Profil 1 — Couple 50-55 ans, downsize en cours",
+        body: "Enfants quittent le foyer, maison 5 chambres devient inutile. Patrimoine immobilier 400-700 k€ valeur, crédit soldé ou presque. **Stratégie** : (1) **Vendre maison familiale** : exonération plus-value résidence principale. Capitaliser 400-700 k€. (2) **Acheter appartement adapté** centre métropole secondaire (Lyon Brotteaux, Bordeaux Chartrons, Strasbourg, Reims, Aix-en-Provence) : T3-T4 100-130 m² avec balcon/terrasse, 350-550 k€. (3) **Surplus** : 100-300 k€ disponible pour résidence secondaire OU placement (SCPI, assurance-vie) OU aide aux enfants (donation 100 k€/enfant exonérée tous 15 ans). (4) **Variantes** : (a) **2 appartements** : un en métropole pour vie principale + un petit à proximité enfants/famille. (b) **Métropole + campagne** : appartement urbain + maison campagne (sous conditions THRS). (5) **Pièges** : sous-estimer la transition (vendre puis acheter = transition stressante, prévoir location 3-6 mois ou pont via assurance-vie).",
+      },
+      {
+        heading: "Profil 2 — Senior actif 55-65 ans, achat résidence retraite",
+        body: "Capital 200-500 k€ disponible, salaire encore actif, projet retraite à 5-10 ans. **Stratégie** : (1) **Cibler ville retraite future** : qualité de vie + services médicaux + climat (Pau, Annecy, Aix-en-Provence, Reims, Strasbourg, Vannes, La Rochelle). (2) **Acheter MAINTENANT** : profite encore du salaire pour emprunter, sans attendre la retraite (pension moindre = emprunt restreint). (3) **Prêt 10-15 ans** : remboursement avant ou peu après retraite. Mensualité élevée mais durée courte = coût total raisonnable. (4) **Critères bâti retraite** : (a) Plain-pied ou ascenseur (anticipation mobilité réduite). (b) Petit jardin/balcon (entretien gérable). (c) Proximité services à pied (boulangerie, médecin, pharmacie, supermarché). (d) DPE A-C (charges chauffage maîtrisées). (5) **Variation** : maintenir maison principale familiale + acheter résidence retraite future = se louer mentalement le projet retraite. À condition de la louer entre-temps ou usage occasionnel.",
+      },
+      {
+        heading: "Profil 3 — Investisseur 50-60 ans, optimiser patrimoine",
+        body: "Patrimoine déjà constitué (1 M€+ immobilier + financier). Enfants adultes. Objectif : optimiser fiscalité, préparer transmission. **Stratégie** : (1) **SCI familiale** : créer SCI patrimoniale, transférer biens immobiliers, distribuer parts aux enfants progressivement (donation 100 k€/enfant tous 15 ans, exonérée). À 50 ans + 65 ans = 2 donations = 200 k€/enfant transmis sans droit. (2) **Démembrement** : donation nue-propriété aux enfants, conservation usufruit. À 55 ans, valeur usufruit 50 % (Code civil). Permet transmettre la moitié de la valeur fiscalement sans perdre l'usage. (3) **SCPI dans assurance-vie** : enveloppe assurance-vie + parts SCPI = optimisation transmission (152 500 €/bénéficiaire exonérés via clause bénéficiaire, distinct succession). (4) **PER pour optimisation IR** : versements déductibles dès 50-55 ans à TMI 41-45 %, déblocage à la retraite à TMI 30 % = gain net 11-15 % du capital. (5) **Pièges** : démembrement irréversible (penser à long terme), SCI familiale = comptabilité annuelle (frais 800-1 500 €/an).",
+      },
+      {
+        heading: "Profil 4 — Acheter en viager — pour qui ça marche",
+        body: "Niche très spécifique mais pertinente pour 50-65 ans. (1) **Principe** : acheter à une personne âgée (75+) qui reste dans le logement jusqu'à son décès. Prix décoté + rente viagère mensuelle. (2) **Acheteur typique 2026** : 50-65 ans avec capital + revenus stables. (3) **Avantage** : prix de marché ×60-75 %, étalement paiement, propriété future. (4) **Risque principal** : vendeur vit longtemps (au-delà des projections actuarielles). Calcul rente sur table de mortalité INSEE. (5) **Variantes** : (a) **Viager occupé** : vendeur reste, prix le plus décoté. (b) **Viager libre** : vendeur quitte, prix moins décoté, acheteur peut louer. (6) **Cas favorable** : viager occupé d'une personne de 80+ ans avec espérance de vie moyenne 8-10 ans = excellent calcul. (7) **Pièges** : (a) Vendeur en bonne santé, longévité. (b) Frais d'entretien gros œuvre à charge acheteur. (c) Rente indexée annuellement (souvent IRL ou Insee inflation). (d) Acceptation morale : 'attendre' implicitement la mort du vendeur — éthique personnelle à clarifier.",
+      },
+      {
+        heading: "Prêt et assurance emprunteur 50-65 ans",
+        body: "(1) **Durée prêt** : 50 ans → max 25 ans (fin 75 ans), 55 ans → 20 ans (75), 60 ans → 15 ans (75), 65 ans → 10 ans (75). Exceptions jusqu'à 80 ans avec assurance renforcée. (2) **Assurance emprunteur** : cotisation 0,9-2,5 % du capital emprunté/an selon âge et santé. 50 ans = ~1 %, 60 ans = ~1,8 %, 65 ans = ~2,5 %. (3) **Loi Lemoine 2022** : assurance renégociable à tout moment, droit à l'oubli pour anciens cancers (10 ans après guérison). Économies possibles 5-15 k€ sur durée du prêt. (4) **Questionnaire santé** : supprimé si prêt <200 k€ + remboursement avant 60 ans (loi Lemoine). Au-delà, questionnaire détaillé. (5) **Capacité endettement 35 %** : appliquée stricte, mais les revenus de la retraite anticipée peuvent être inclus (pensions futures). (6) **Stratégie 2026** : si possible, emprunter à 50-55 ans pour étaler sur 15-20 ans (mensualité confortable, finit à 70-75 ans). Si à 60+ ans, prêt 10-12 ans avec apport très élevé (50 %+).",
+      },
+      {
+        heading: "Transmission aux enfants — anticipation 2026",
+        body: "Acheter à 50+ ans = penser transmission. (1) **Donation simple** : 100 000 €/enfant exonérée tous 15 ans. Couple : 200 000 €/enfant tous 15 ans. (2) **Démembrement** : donation nue-propriété, conservation usufruit. Valeur usufruit selon âge donateur (50 % à 51-60 ans, 40 % à 61-70 ans, 30 % à 71-80 ans). (3) **SCI familiale** : enfants associés progressivement, gouvernance flexible. (4) **Assurance-vie** : 152 500 €/bénéficiaire exonérés si versements avant 70 ans. (5) **Donation-partage** : fige la valeur transmise (pas de réévaluation), évite conflits entre enfants. (6) **Stratégie complète** : (a) Acheter à 50-55 ans bien valeur 400 k€. (b) À 65 ans, donner nue-propriété aux 2 enfants (valeur 200 k€ chacun, abattement épuisé après 100 k€ → reste 100 k€ taxable, ~10 k€ droits par enfant). (c) Garder usufruit jusqu'au décès. (d) Au décès : enfants récupèrent pleine propriété sans droits supplémentaires.",
+      },
+      {
+        heading: "Le calcul honnête : acheter à 50+ ans reste très pertinent, à condition d'anticiper",
+        body: "Acheter de l'immobilier après 50 ans en 2026 = excellent levier patrimonial à condition d'anticiper : (1) **Horizon emprunt** : durée plus courte (10-20 ans) mais mensualités gérables grâce au salaire pic. (2) **Capital disponible** : apport 40-60 % du prix souvent possible, négociation taux excellente. (3) **Projet retraite** : choisir le bien en cohérence avec mode de vie futur (ville services, plain-pied, climat). (4) **Transmission** : penser SCI / démembrement / donation dès l'achat. **Sweet spot par profil** : (a) Couple 50-55 downsize → vendre + acheter appartement métropole secondaire qualité. (b) Senior actif 55-65 → acheter résidence retraite anticipée 10 ans avant pour profiter salaire. (c) Investisseur patrimoine 1 M€+ → optimiser via SCI + démembrement + assurance-vie. (d) Achat viager → niche pertinente si capital + vue éthique. **À éviter** : achat émotionnel sans cohérence retraite, emprunter à 65+ ans sur 15 ans (mensualité élevée + risque santé).",
+      },
+    ],
+    relatedCities: ["aix-en-provence", "annecy", "pau", "reims", "strasbourg"],
+    relatedGuides: [
+      "meilleures-villes-seniors-actifs-france-2026",
+      "vivre-retraite-1500-euros-mois-france-2026",
+      "vivre-france-retraite-etrangere-fiscalite-2026",
+      "acheter-en-couple-non-marie-pacs-sci-indivision-2026",
+      "scpi-vs-locatif-direct-france-2026-quel-choix",
+    ],
+    tags: ["acheter 50 ans+", "fin de carrière", "downsize", "viager", "démembrement", "SCI familiale", "transmission", "retraite", "2026"],
+  },
+  {
+    slug: "quand-acheter-immobilier-france-2026-timing-marche",
+    title: "Quand acheter de l'immobilier en France 2026 — timing du marché",
+    metaTitle: "Quand acheter immobilier 2026 : timing marché, taux, signaux — guide",
+    metaDesc:
+      "Quand acheter en France 2026 : cycle baissier 2022-2025, taux directeurs BCE, signaux retournement, attendre vs acheter maintenant, saisonnalité.",
+    category: "budget",
+    emoji: "📉",
+    readMinutes: 9,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "Faut-il acheter maintenant ou attendre ? Le marché immobilier français a connu une correction de -8 à -15 % entre 2022 et 2025 sur les zones tendues. Avec les taux qui redescendent depuis fin 2024, beaucoup hésitent. Voici l'analyse honnête du timing en 2026 — signaux marché, projection, et la vraie réponse (qui dépend du profil).",
+    sections: [
+      {
+        heading: "État du marché immobilier français 2026",
+        body: "Synthèse Notaires de France 2024-2025 et indicateurs Crédit Foncier 2026 : (1) **Prix médiaux France** : -8 à -12 % vs pic 2022. (2) **Volumes transactions** : 750 000 en 2024 (vs 1,2 million en 2021). Reprise progressive 2025-2026 (~850 000 attendu). (3) **Délais de vente** : 90-150 jours moyenne (vs 30-60 en 2021). (4) **Variations par zone** : Paris -10 %, Lyon -8 %, Bordeaux -12 %, Nantes -7 %, métropoles secondaires -5 à -8 %, ville moyenne -2 à -5 %, rural stable. (5) **Segment** : appartements anciens plus touchés que maisons individuelles. DPE F/G décotés -20 à -30 %. (6) **Taux crédit immobilier** : 3,4-4,2 % en 2026 (vs 4,5-5 % début 2024, vs 1,2 % en 2021). Redescente lente continue.",
+      },
+      {
+        heading: "Pourquoi le marché a chuté 2022-2025",
+        body: "(1) **Hausse rapide taux BCE** : 0,5 % en 2022 → 4,5 % en 2023. Crédit immobilier passe de 1,2 % à 4,5 % en 18 mois. Capacité emprunt -25 à -30 % pour même mensualité. (2) **Inflation post-Covid** : indice IRL +6 % en 2022-2023, érode pouvoir d'achat ménages. (3) **Anticipation correction** : acheteurs attendent baisse prix, vendeurs résistent → blocage. (4) **DPE F/G** : interdiction location depuis 2025 (DPE G), pénalité 20-30 % sur prix. (5) **Conditions emprunt durcies** : HCSF limite 35 % taux effort + 25 ans max. (6) **Conséquence** : ciseau 2022-2025 (prix élevés + crédit cher + capacité réduite) → effondrement transactions, début correction prix.",
+      },
+      {
+        heading: "Pourquoi un retournement en 2026",
+        body: "Signaux positifs cumulés en 2026 : (1) **Baisse taux BCE** : 4,5 % en 2023 → 3,5 % début 2025 → 3,0 % attendu fin 2026. Crédit immobilier suivra. (2) **Stabilisation prix** : -1 à -3 % attendu 2026 (vs -5 à -10 % 2023-2024). Plancher proche dans zones non-tendues. (3) **Reprise volumes** : transactions +15 % en 2025 vs 2024, tendance haussière confirmée. (4) **Stock invendus DPE F/G** : opportunités à -20-30 %, négociation forte. (5) **PTZ 2025-2026** : élargi en zones B2 et C, primo-accédants subventionnés. (6) **Inflation maîtrisée** : IRL +2 à +3 % en 2026, charges moins agressives. (7) **Mécanique psychologique** : acheteurs ayant attendu 2022-2024 reviennent sur le marché. Tendance suiveuse.",
+      },
+      {
+        heading: "Signaux pour identifier le bon moment d'acheter",
+        body: "(1) **Taux crédit < 3,5 %** : seuil psychologique français. À ce niveau, capacité d'emprunt redevient confortable. (2) **Délai de vente < 90 jours** : vendeurs moins négociables, marché tendu. (3) **Volumes en hausse 6+ mois consécutifs** : confirmation de reprise. (4) **Inflation < 3 %** : pouvoir d'achat préservé. (5) **Stocks invendus DPE F/G en baisse** : épuration du marché, opportunités plus rares. (6) **Indicateurs locaux** : tendance prix m² de votre commune cible (Notaires de France data, MeilleursAgents, SeLoger). (7) **Conseils notaire local** : notaires ont une vue très précise sur l'état du marché communal. (8) Mise en garde : ces signaux suivent le retournement, ne le précèdent pas. Acheter au plancher exact est quasi-impossible en pratique.",
+      },
+      {
+        heading: "Stratégie 2026 — par horizon",
+        body: "(1) **Achat dans les 6-12 mois** : MAINTENANT est probablement bon. (a) Prix encore -5 à -10 % du pic. (b) Négociation possible -3 à -8 % (marché correctif). (c) Taux 3,4-4 %, en baisse projetée. (d) Stocks DPE F/G nombreux = opportunités. Inconvénient : taux pas optimal, possible baisse 0,3-0,5 % en 18 mois. (2) **Achat dans les 12-24 mois** : ATTENDRE peut être pertinent. (a) Taux probablement 3-3,3 % en 2027. (b) Prix stabilisés ou très légère reprise. (c) Marché plus dynamique = moins de négociation possible. (d) Risque inverse : si taux remontent (crise géopolitique), opportunité manquée. (3) **Achat dans 3-5 ans** : continuer à épargner, mais surveiller. Risque inflation prix > taux gain = perte pouvoir d'achat. (4) **Achat dans 5+ ans** : timing peu pertinent, le marché aura traversé plusieurs cycles.",
+      },
+      {
+        heading: "Saisonnalité du marché immobilier",
+        body: "(1) **Janvier-février** : marché calme, peu de biens, négociation possible. Vendeurs moins pressés. (2) **Mars-juin** : haute saison ! 50 % des transactions annuelles. Plus de choix mais moins de négociation. Familles préparent rentrée scolaire. (3) **Juillet-août** : ralentissement, vacances. Quelques opportunités (vendeurs pressés avant rentrée). (4) **Septembre-novembre** : reprise modérée. Bonne période pour négocier sur biens invendus de l'été. (5) **Décembre** : marché quasi-mort. Excellentes opportunités sur biens longs en stock (vendeurs très motivés). (6) **Recommandation** : viser septembre-novembre OU janvier-février pour négocier au mieux. Mars-juin = choix maximum mais payer plus cher.",
+      },
+      {
+        heading: "Différences par profil acheteur",
+        body: "(1) **Primo-accédant** : moins de marge pour attendre. Achat dès que budget + ville cible disponibles. PTZ 2025-2026 = avantage timing. (2) **Investisseur locatif** : timing très important. Mieux acheter en marché correctif (négociation 5-10 % typique) qu'en marché haut. 2026 = bonne fenêtre. (3) **Famille déménagement** : timing contraint par changement vie pro / rentrée scolaire. Optimiser saison (septembre-novembre négociation) mais pas attendre indéfiniment. (4) **Senior achat retraite** : timing flexible mais à fenêtre 50-65 ans recommandée (capacité emprunt). 2026 OK. (5) **Spéculateur revente** : timing critique. Acheter au plus bas, revendre 5-10 ans plus tard au plus haut. 2026 plancher probable, achat à envisager. (6) **Acheteur émotionnel coup de cœur** : timing secondaire. Sur 15-20 ans détention, écart 2025-2026 vs 2027 négligeable.",
+      },
+      {
+        heading: "Pièges classiques du 'timing'",
+        body: "(1) **Paralysie par l'attente** : 'j'attends que ça baisse encore' → l'attente devient permanente. Marché peut remonter, opportunité manquée. (2) **Calcul théorique vs réalité** : économie 5 % sur prix vs surcoût 6 mois loyer + frais de vie. Souvent l'attente coûte autant qu'elle économise. (3) **Surconfiance dans signaux** : aucun indicateur ne prédit parfaitement le marché. 'Acheter au plancher' est un mythe. (4) **Suivre la foule** : si tout le monde achète, prix montent. Si tout le monde attend, opportunités. Le contrarian gagne souvent. (5) **Acheter dans la panique** : 2022 pic = 'derniers prix bas', certains ont acheté trop cher. Perte 10-15 % en 2 ans. Ne pas céder à FOMO. (6) **Sous-estimer coûts de transaction** : frais notaire 7-8 % + commission 4-5 %. Vendre dans <5 ans = perte sèche même avec hausse modérée. Ne pas acheter pour revendre rapidement.",
+      },
+      {
+        heading: "Le calcul honnête : 2026 est probablement une bonne année",
+        body: "Pour la majorité des acheteurs en 2026 : (1) Le marché est en bas de cycle, négociation possible. (2) Taux 3,4-4 % en baisse projetée — pas optimaux mais acceptables. (3) Stocks DPE F/G nombreux = opportunités de rénovation. (4) Tension acheteurs/vendeurs équilibrée — délai de réflexion possible. **Recommandation par profil** : (a) **Primo-accédant prêt** : acheter en 2026, profiter PTZ + correction prix. (b) **Famille déménagement nécessaire** : 2026, négocier ferme (-5 à -8 %). (c) **Investisseur locatif rendement** : 2026 plancher probable, viser hors-encadrement (Lille, Reims, Tours, Strasbourg). (d) **Acheteur sans urgence et flexible** : possible d'attendre 2027 pour meilleurs taux, mais marge limitée. (e) **Spéculateur revente 10+ ans** : 2026 entrée intelligente. **Mantra** : le meilleur moment d'acheter de l'immobilier était il y a 5 ans, le deuxième meilleur moment c'est maintenant. Inertie immobilière française = stratégie long terme bat presque toujours le timing court terme.",
+      },
+    ],
+    relatedCities: ["lyon", "bordeaux", "nantes", "toulouse", "rennes"],
+    relatedGuides: [
+      "acheter-avant-40-ans-strategie-france-2026",
+      "acheter-moins-200000-euros-france-quelles-villes-2026",
+      "meilleures-villes-primo-accedants-france-2026",
+      "scpi-vs-locatif-direct-france-2026-quel-choix",
+      "investir-lmnp-par-ville-france-2026",
+    ],
+    tags: ["timing marché", "quand acheter", "taux crédit immobilier", "BCE", "cycle immobilier", "saisonnalité", "2026"],
+  },
+  {
+    slug: "habitat-participatif-coliving-france-2026",
+    title: "Habitat participatif et coliving en France 2026 — modèles, villes, projets concrets",
+    metaTitle: "Habitat participatif coliving France 2026 : modèles, villes, juridique",
+    metaDesc:
+      "Habitat participatif et coliving en France 2026 : coopératives d'habitat, écoquartiers, coliving adultes, communes pionnières, juridique, coût comparé.",
+    category: "lifestyle",
+    emoji: "🏡",
+    readMinutes: 9,
+    publishedAt: "2026-05-15",
+    updatedAt: "2026-05-15",
+    intro:
+      "L'habitat collectif alternatif (habitat participatif, coliving, coopérative d'habitat) sort de la marge en 2026 — 280+ projets opérationnels, lois ELAN-ALUR 2014-2018 stabilisées, ESS (Économie Sociale et Solidaire) en croissance. Pour qui cherche logement + communauté + impact écologique, c'est une option crédible. Voici les modèles et les villes pionnières.",
+    sections: [
+      {
+        heading: "Les 3 modèles principaux",
+        body: "(1) **Habitat participatif au sens loi ALUR 2014** : groupe de ménages se forme, achète/loue collectivement un foncier ou un bâtiment, conçoit et finance ensemble le projet. Chacun a son logement privé + espaces communs (buanderie, cuisine, salle à manger, jardin, atelier). Statut juridique : Société d'Habitat Participatif (SHP) ou Coopérative d'Habitants. Engagement long terme (15-30 ans). (2) **Coliving** : modèle hybride entre colocation et résidence étudiante adulte. Chambre/studio privé + nombreux espaces partagés (cuisine, salon, coworking, gym). Géré par opérateur professionnel (Colonies, Doors, La Casa Coliving). Locations flexibles (mois à 12 mois). Cible 25-40 ans. (3) **Écoquartier participatif** : opération promoteur intégrant des principes participatifs (jardin partagé, lieu communautaire, conseil habitants). Moins engageant que vraie habitat participatif, mais déjà plus communautaire que copropriété classique.",
+      },
+      {
+        heading: "Habitat participatif — juridique et financement",
+        body: "(1) **Société d'Habitat Participatif (SHP)** : forme juridique introduite par loi ALUR 2014. Capital variable, gouvernance démocratique (1 ménage = 1 voix), répartition logements selon parts détenues. (2) **Coopérative d'Habitants** : variante, statuts plus stricts (interdiction spéculation, limitation valorisation patrimoniale). Modèle inspiré coopératives allemandes/suisses (Mietshäuser Syndikat). (3) **Financement** : (a) Apports membres 10-25 % du budget projet. (b) Prêt collectif via banque (Crédit Coopératif, Nef, La Banque Postale) — 15-25 ans. (c) Aides publiques : prêts à taux zéro PSLA, aides régionales écologiques, subventions communes pionnières. (4) **Durée projet** : 3-6 ans entre formation groupe et emménagement. Longue mais permet vraie conception collective. (5) **Coût** : globalement -10 à -20 % vs achat individuel équivalent grâce à mutualisation (terrain, services, espaces).",
+      },
+      {
+        heading: "Villes pionnières — projets opérationnels 2026",
+        body: "(1) **Strasbourg** — capitale française de l'habitat participatif. 25+ projets opérationnels. Cas emblématique : Eco-Logis (Cronenbourg), K'Hutte (Neudorf). Communauté forte, soutien municipal historique. (2) **Lyon** — 15+ projets : Le Village Vertical (Villeurbanne), Chamarel Les Barges (Vaulx-en-Velin), Pignacioles (Confluence). (3) **Grenoble** — Le Verger (Eybens), Le Bois du Château (Échirolles), 10+ projets actifs. (4) **Toulouse** — Abricoop, Chemin Faisant, 6-8 projets. (5) **Nantes** — Le Tournesol (Vertou), 4-5 projets, soutien municipal récent. (6) **Bordeaux, Rennes, Montpellier, Lille** — 3-6 projets chacun. (7) **Communes pionnières plus petites** : Notre-Dame-des-Landes (Loire-Atlantique), Saillans (Drôme), Le Sappey-en-Chartreuse (Isère), Plessé (Loire-Atlantique).",
+      },
+      {
+        heading: "Coliving — opérateurs et villes 2026",
+        body: "(1) **Colonies** (opérateur français) — 30+ résidences (Paris, Lyon, Bordeaux, Marseille, Lille, Toulouse). Cible jeunes actifs 25-40 ans. Chambres meublées avec SDB privée, espaces communs design. Loyer 700-1 600 €/mois charges incluses. (2) **Doors Coliving** — Paris + métropoles. Concept design haut de gamme. (3) **La Casa Coliving** — Paris + 5 villes. (4) **Colonies Slow** — version rurale (Yvelines, Bretagne) — coliving + nature. (5) **Coopérative Hifumi** (Lyon, Paris) — modèle non-lucratif. (6) **Coliving étudiant** : Twenty Campus, Suitétudes, ECLA (étudiant). (7) **Senior coliving** : modèle émergent — La Compagnie des Lieux, Cocon3S (Aix-en-Provence, Lyon, Bordeaux). Cible 60-75 ans actifs.",
+      },
+      {
+        heading: "Profils pour habitat participatif",
+        body: "(1) **Profil socio-écologique** : engagement valeurs ESS, écologie, anti-spéculation. Acceptation gouvernance collective. (2) **Famille en quête de communauté** : enfants élevés en collectif, parents avec entraide quotidienne. (3) **Senior actif** : maintien communauté autonome (vs EHPAD), partage espaces, services mutualisés. (4) **Jeune actif/couple urbain** : alternative à colocation classique, projet long terme. (5) **Profil rural néo-paysan** : combinaison habitat + terre cultivable + autonomie. **Pas adapté pour** : profil individualiste cherchant indépendance maximale, profil pressé (3-6 ans projet), profil non-démocratique (besoin contrôle total), profil court-termiste (engagement 15+ ans).",
+      },
+      {
+        heading: "Profils pour coliving",
+        body: "(1) **Jeune actif 25-35 ans** mobile professionnellement, célibataire ou couple. Flexibilité bail mensuel + communauté instantanée. (2) **Expatrié en France** : arrivée sans réseau, coliving = intégration accélérée. (3) **Transition de vie** : séparation, déménagement, période d'incertitude. Coliving = sas social. (4) **Freelance/digital nomad** : flexibilité géographique, espace coworking inclus. (5) **Étudiant alternatif** post-licence : confort + service + flexibilité vs CROUS classique. **Pas adapté pour** : profil quête patrimoniale (locatif pur), famille avec enfants en bas âge (modèle pas conçu pour), profil très introverti.",
+      },
+      {
+        heading: "Coût comparé — habitat participatif vs classique",
+        body: "Exemple T3 70 m² Strasbourg 2026 : (1) **Achat classique** : 280-330 k€ + 20 k€ frais + 18 k€ ameublement = 320-370 k€. (2) **Habitat participatif** : 230-280 k€ part SHP (mutualisation terrain + structures + espaces communs) + 10 k€ frais SHP + ameublement standard 12 k€ = 250-300 k€. **Économie : -15 % à -20 %**. Mais : (a) Durée projet 3-6 ans (logement classique 3-6 mois). (b) Engagement gouvernance 5-15 h/mois. (c) Valeur revente limitée par statuts (anti-spéculation dans coopérative pure). Pour coliving Lyon : (3) **Coliving Colonies** : 950 €/mois charges incluses (24 m² chambre + 80 m² communs). (4) **T1 25 m² Lyon centre location** : 750 €/mois + 80 € charges + 30 € internet + 35 € ménage occasionnel = 895 €. **Différence faible** mais coliving inclut communauté + flexibilité bail + services + design.",
+      },
+      {
+        heading: "Pièges classiques",
+        body: "(1) **Habitat participatif — conflit gouvernance** : 5-10 % des projets échouent ou explosent (conflits interpersonnels, désaccord financier). Vérifier la solidité du groupe avant engagement. (2) **Délai projet** : 3-6 ans annoncés, parfois 8 ans (retards permis, faillites prestataires). (3) **Valeur revente** : statuts coopératifs limitent valorisation. Si revente nécessaire, peu de marge de gain. (4) **Coliving — turnover** : voisins changent souvent (bail flexible), pas de communauté stable. (5) **Coliving cher long terme** : tarif mensuel = T1 location classique, pas avantage prix sur 5+ ans. Adapté au court-moyen terme. (6) **Coliving — taille communauté** : 80+ personnes = anonymat. Préférer résidences 20-40 personnes. (7) **Espaces communs sous-utilisés** : promesse marketing du coworking/gym/yoga, réalité parfois 'salle vide'.",
+      },
+      {
+        heading: "Le calcul honnête : niche en croissance pour profils alignés",
+        body: "Habitat participatif et coliving 2026 restent des niches (~3 % du marché logement français) mais en forte croissance (+15-20 %/an). Pour qui ces options font sens : (1) **Habitat participatif** : valeurs ESS-écologie forte + horizon 15+ ans + acceptation gouvernance démocratique. Strasbourg, Lyon, Grenoble = capitales. Économies 15-20 % vs achat classique. (2) **Coliving** : jeune actif 25-40 ans mobile, célibataire ou couple sans enfant, recherche communauté + flexibilité. Paris, Lyon, Bordeaux, Lille, Marseille = offre forte. Prix équivalent T1 classique mais service + communauté incluse. (3) **Pas pertinent** pour profil patrimoine pur, famille traditionnelle longue durée, profil individualiste. **Tendance 2026-2030** : émergence du coliving senior (cocon3S, Compagnie des Lieux) — alternative crédible à EHPAD pour 60-75 ans actifs. Marché à fort potentiel d'ici 2030.",
+      },
+    ],
+    relatedCities: ["strasbourg", "lyon", "grenoble", "toulouse", "nantes"],
+    relatedGuides: [
+      "demenager-sintegrer-province-sans-reseau-2026",
+      "meilleures-villes-zero-dechet-ecologie-france-2026",
+      "quitter-paris-30-ans-couple-sans-enfant-2026",
+      "meilleures-villes-seniors-actifs-france-2026",
+      "devenir-freelance-en-province-quelles-villes-france-2026",
+    ],
+    tags: ["habitat participatif", "coliving", "coopérative habitat", "ESS", "écoquartier", "Strasbourg", "communauté", "2026"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
