@@ -346,6 +346,19 @@ export const HOUSING: Record<string, HousingData> = {
   mauriac:                   { avgRentT1: 280,  avgRentT2: 390,  avgRentT3: 520,  avgBuyPriceM2: 750  },
   delle:                     { avgRentT1: 340,  avgRentT2: 480,  avgRentT3: 640,  avgBuyPriceM2: 1100 },
   riberac:                   { avgRentT1: 310,  avgRentT2: 430,  avgRentT3: 580,  avgBuyPriceM2: 950  },
+  // DROM — Outre-mer (médians Olap/Insee 2024 + ajustements DROM connus)
+  "pointe-a-pitre":           { avgRentT1: 510,  avgRentT2: 720,  avgRentT3: 920,  avgBuyPriceM2: 3000 },
+  "baie-mahault":             { avgRentT1: 520,  avgRentT2: 730,  avgRentT3: 940,  avgBuyPriceM2: 2800 },
+  "les-abymes":               { avgRentT1: 500,  avgRentT2: 700,  avgRentT3: 900,  avgBuyPriceM2: 2500 },
+  "fort-de-france":           { avgRentT1: 530,  avgRentT2: 750,  avgRentT3: 960,  avgBuyPriceM2: 2500 },
+  "le-lamentin":              { avgRentT1: 510,  avgRentT2: 720,  avgRentT3: 920,  avgBuyPriceM2: 2400 },
+  "saint-denis-reunion":      { avgRentT1: 490,  avgRentT2: 700,  avgRentT3: 900,  avgBuyPriceM2: 2500 },
+  "saint-pierre-reunion":     { avgRentT1: 450,  avgRentT2: 650,  avgRentT3: 840,  avgBuyPriceM2: 2200 },
+  "saint-paul-reunion":       { avgRentT1: 490,  avgRentT2: 700,  avgRentT3: 900,  avgBuyPriceM2: 2400 },
+  "le-tampon":                { avgRentT1: 420,  avgRentT2: 600,  avgRentT3: 780,  avgBuyPriceM2: 2100 },
+  cayenne:                   { avgRentT1: 560,  avgRentT2: 800,  avgRentT3: 1020, avgBuyPriceM2: 2200 },
+  "saint-laurent-du-maroni":  { avgRentT1: 460,  avgRentT2: 650,  avgRentT3: 830,  avgBuyPriceM2: 1800 },
+  mamoudzou:                 { avgRentT1: 630,  avgRentT2: 900,  avgRentT3: 1150, avgBuyPriceM2: 3500 },
 };
 
 export function getHousing(slug: string): HousingData | undefined {

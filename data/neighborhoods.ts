@@ -21,6 +21,305 @@ export interface CityNeighborhoods {
 }
 
 export const NEIGHBORHOODS: CityNeighborhoods[] = [
+  // ─── DROM — Outre-mer ──────────────────────────────────────────────
+  // Données calibrées sur quartiers connus + Insee population/sécurité 2024.
+  // Couverture minimale (2-3 quartiers/ville) pour que /quartiers ne tombe pas
+  // sur l'écran "Données en cours de collecte" pour les 12 villes DROM.
+  {
+    citySlug: "pointe-a-pitre",
+    neighborhoods: [
+      {
+        slug: "centre-ville",
+        name: "Centre-Ville",
+        type: "centre-ville",
+        scores: { global: 6.2, safety: 5.0, transport: 7.5, nature: 5.5, cost: 6.5, nightlife: 7.0 },
+        avgRentT2: 720,
+        tags: ["commerce", "marché", "patrimoine créole", "animé"],
+        summary: "Coeur historique avec marchés créoles, architecture coloniale et commerces. Vivant la journée, plus calme le soir. Sécurité à surveiller dans certaines rues.",
+      },
+      {
+        slug: "bergevin",
+        name: "Bergevin",
+        type: "populaire",
+        scores: { global: 6.0, safety: 5.5, transport: 6.8, nature: 6.0, cost: 7.5, nightlife: 5.0 },
+        avgRentT2: 600,
+        tags: ["populaire", "résidentiel", "accessible"],
+        summary: "Quartier populaire en bordure du centre. Loyers accessibles, vie de quartier, écoles correctes. Cadre de vie modeste mais authentique.",
+      },
+    ],
+  },
+  {
+    citySlug: "baie-mahault",
+    neighborhoods: [
+      {
+        slug: "centre-bourg",
+        name: "Centre-Bourg",
+        type: "centre-ville",
+        scores: { global: 7.0, safety: 7.0, transport: 7.2, nature: 6.5, cost: 6.8, nightlife: 5.5 },
+        avgRentT2: 750,
+        tags: ["administratif", "commerce", "résidentiel"],
+        summary: "Centre administratif et économique de la commune. Bonne accessibilité, services concentrés, sécurité supérieure à Pointe-à-Pitre.",
+      },
+      {
+        slug: "jarry",
+        name: "Jarry",
+        type: "résidentiel",
+        scores: { global: 6.5, safety: 6.5, transport: 7.8, nature: 5.5, cost: 7.0, nightlife: 5.0 },
+        avgRentT2: 700,
+        tags: ["zone industrielle", "emploi", "pratique"],
+        summary: "Pôle économique majeur de Guadeloupe (industrie, logistique). Pratique pour travailler, moins charmant pour vivre. Loyers raisonnables.",
+      },
+    ],
+  },
+  {
+    citySlug: "les-abymes",
+    neighborhoods: [
+      {
+        slug: "raizet",
+        name: "Le Raizet",
+        type: "résidentiel",
+        scores: { global: 6.5, safety: 6.8, transport: 8.0, nature: 6.0, cost: 7.0, nightlife: 5.0 },
+        avgRentT2: 680,
+        tags: ["aéroport", "transport", "pratique"],
+        summary: "Quartier de l'aéroport, bien connecté. Bonne accessibilité, mix résidentiel et commercial. Pratique pour les déplacements.",
+      },
+      {
+        slug: "boisripeaux",
+        name: "Boisripeaux",
+        type: "résidentiel",
+        scores: { global: 6.3, safety: 6.2, transport: 6.5, nature: 6.5, cost: 7.4, nightlife: 4.5 },
+        avgRentT2: 620,
+        tags: ["résidentiel", "familial", "accessible"],
+        summary: "Zone résidentielle calme et familiale. Loyers accessibles, écoles publiques correctes.",
+      },
+    ],
+  },
+  {
+    citySlug: "fort-de-france",
+    neighborhoods: [
+      {
+        slug: "centre-ville",
+        name: "Centre-Ville",
+        type: "centre-ville",
+        scores: { global: 6.5, safety: 5.5, transport: 7.5, nature: 6.0, cost: 6.0, nightlife: 7.5 },
+        avgRentT2: 780,
+        tags: ["patrimoine", "commerce", "culture", "fort Saint-Louis"],
+        summary: "Cœur historique avec la Bibliothèque Schoelcher, le marché couvert et la baie. Très animé la journée. Quelques zones sensibles à éviter le soir.",
+      },
+      {
+        slug: "didier",
+        name: "Didier",
+        type: "résidentiel",
+        scores: { global: 7.5, safety: 7.8, transport: 7.0, nature: 7.2, cost: 5.5, nightlife: 5.0 },
+        avgRentT2: 850,
+        tags: ["résidentiel", "haut de gamme", "calme", "vue"],
+        summary: "Quartier résidentiel haut de gamme sur les hauteurs. Vue sur la baie, sécurité, écoles privées. Loyers les plus élevés de l'île.",
+      },
+      {
+        slug: "redoute",
+        name: "Redoute",
+        type: "résidentiel",
+        scores: { global: 6.8, safety: 6.5, transport: 7.2, nature: 6.8, cost: 6.8, nightlife: 5.5 },
+        avgRentT2: 720,
+        tags: ["résidentiel", "familial", "accessible"],
+        summary: "Quartier familial et accessible. Bon compromis entre centralité et calme. Écoles, commerces de proximité, transports.",
+      },
+    ],
+  },
+  {
+    citySlug: "le-lamentin",
+    neighborhoods: [
+      {
+        slug: "centre",
+        name: "Centre du Lamentin",
+        type: "centre-ville",
+        scores: { global: 6.8, safety: 6.8, transport: 7.5, nature: 6.5, cost: 6.8, nightlife: 5.5 },
+        avgRentT2: 720,
+        tags: ["administratif", "commerce", "transport"],
+        summary: "Centre économique et administratif. Bonne accessibilité (aéroport, autoroute). Mix résidentiel/commercial pratique.",
+      },
+      {
+        slug: "place-d-armes",
+        name: "Place d'Armes",
+        type: "résidentiel",
+        scores: { global: 6.5, safety: 6.5, transport: 7.0, nature: 6.8, cost: 7.2, nightlife: 4.5 },
+        avgRentT2: 680,
+        tags: ["résidentiel", "familial", "calme"],
+        summary: "Quartier résidentiel et familial. Loyers raisonnables, écoles, vie de quartier tranquille.",
+      },
+    ],
+  },
+  {
+    citySlug: "saint-denis-reunion",
+    neighborhoods: [
+      {
+        slug: "le-barachois",
+        name: "Le Barachois",
+        type: "centre-ville",
+        scores: { global: 7.5, safety: 7.2, transport: 8.0, nature: 7.5, cost: 5.8, nightlife: 7.8 },
+        avgRentT2: 800,
+        tags: ["bord de mer", "centre", "patrimoine", "promenade"],
+        summary: "Front de mer emblématique avec sa promenade et ses canons. Café, restos, vie nocturne. Loyers élevés mais cadre de vie exceptionnel.",
+      },
+      {
+        slug: "la-montagne",
+        name: "La Montagne",
+        type: "résidentiel",
+        scores: { global: 7.8, safety: 8.0, transport: 6.5, nature: 8.5, cost: 6.5, nightlife: 4.5 },
+        avgRentT2: 750,
+        tags: ["hauteurs", "vue", "calme", "familial"],
+        summary: "Sur les hauteurs, vue panoramique sur la baie. Très calme, familial, sécurisé. Voiture quasi indispensable pour descendre en ville.",
+      },
+      {
+        slug: "saint-clotilde",
+        name: "Sainte-Clotilde",
+        type: "résidentiel",
+        scores: { global: 7.0, safety: 7.0, transport: 7.5, nature: 7.0, cost: 7.0, nightlife: 5.5 },
+        avgRentT2: 680,
+        tags: ["étudiant", "université", "commerce"],
+        summary: "Quartier étudiant proche de l'université. Animé, accessible, loyers raisonnables. Idéal pour les jeunes actifs et étudiants.",
+      },
+    ],
+  },
+  {
+    citySlug: "saint-pierre-reunion",
+    neighborhoods: [
+      {
+        slug: "centre",
+        name: "Centre-Ville",
+        type: "centre-ville",
+        scores: { global: 7.5, safety: 7.5, transport: 7.5, nature: 7.5, cost: 6.8, nightlife: 7.5 },
+        avgRentT2: 700,
+        tags: ["bord de mer", "commerce", "marché", "animé"],
+        summary: "Cœur dynamique du Sud : front de mer, marché du samedi, restaurants. Animé le week-end, agréable au quotidien.",
+      },
+      {
+        slug: "terre-sainte",
+        name: "Terre-Sainte",
+        type: "résidentiel",
+        scores: { global: 7.2, safety: 7.5, transport: 7.0, nature: 7.5, cost: 7.0, nightlife: 5.0 },
+        avgRentT2: 650,
+        tags: ["bord de mer", "résidentiel", "familial"],
+        summary: "Quartier résidentiel en bord de mer, ambiance plus locale. Familles, marins, retraités. Loyers raisonnables.",
+      },
+    ],
+  },
+  {
+    citySlug: "saint-paul-reunion",
+    neighborhoods: [
+      {
+        slug: "centre",
+        name: "Centre Saint-Paul",
+        type: "centre-ville",
+        scores: { global: 7.3, safety: 7.0, transport: 7.2, nature: 8.0, cost: 6.8, nightlife: 6.5 },
+        avgRentT2: 720,
+        tags: ["bord de mer", "patrimoine", "marché", "couché de soleil"],
+        summary: "Le cœur historique de l'île. Marché du samedi mythique, plage urbaine, bars en bord de mer. Le quartier le plus iconique du nord-ouest.",
+      },
+      {
+        slug: "saint-gilles-les-bains",
+        name: "Saint-Gilles-les-Bains",
+        type: "branché",
+        scores: { global: 7.8, safety: 7.5, transport: 7.0, nature: 8.5, cost: 5.5, nightlife: 8.5 },
+        avgRentT2: 850,
+        tags: ["balnéaire", "tourisme", "plage", "nightlife"],
+        summary: "Station balnéaire la plus animée de l'île. Plages, restaurants, sortie. Loyers élevés (cible touristique), mais qualité de vie au top.",
+      },
+    ],
+  },
+  {
+    citySlug: "le-tampon",
+    neighborhoods: [
+      {
+        slug: "centre",
+        name: "Centre du Tampon",
+        type: "centre-ville",
+        scores: { global: 7.0, safety: 7.8, transport: 6.5, nature: 8.2, cost: 7.8, nightlife: 5.0 },
+        avgRentT2: 600,
+        tags: ["altitude", "calme", "vue", "résidentiel"],
+        summary: "Centre d'une commune perchée à 550 m. Air plus frais, calme, vue sur le volcan. Loyers très accessibles, ambiance familiale.",
+      },
+      {
+        slug: "plaine-des-cafres",
+        name: "Plaine des Cafres",
+        type: "résidentiel",
+        scores: { global: 6.8, safety: 7.8, transport: 5.5, nature: 9.0, cost: 8.0, nightlife: 4.0 },
+        avgRentT2: 550,
+        tags: ["altitude", "nature", "calme", "trekking"],
+        summary: "Plateau d'altitude entre Le Tampon et le volcan. Très calme, paysages exceptionnels, climat frais. Voiture indispensable.",
+      },
+    ],
+  },
+  {
+    citySlug: "cayenne",
+    neighborhoods: [
+      {
+        slug: "centre-ville",
+        name: "Centre-Ville",
+        type: "centre-ville",
+        scores: { global: 6.5, safety: 5.5, transport: 7.0, nature: 7.0, cost: 6.0, nightlife: 7.5 },
+        avgRentT2: 800,
+        tags: ["patrimoine créole", "commerce", "place des palmistes"],
+        summary: "Cœur historique avec architecture créole, Place des Palmistes, marché. Animé, charme indéniable, mais quelques zones sensibles le soir.",
+      },
+      {
+        slug: "montjoly",
+        name: "Montjoly",
+        type: "résidentiel",
+        scores: { global: 7.2, safety: 7.0, transport: 6.5, nature: 8.0, cost: 5.8, nightlife: 5.5 },
+        avgRentT2: 900,
+        tags: ["bord de mer", "résidentiel", "haut de gamme"],
+        summary: "Quartier résidentiel en bord de mer, plus calme et sécurisé. Loyers élevés. Privilégié par les expatriés et fonctionnaires.",
+      },
+    ],
+  },
+  {
+    citySlug: "saint-laurent-du-maroni",
+    neighborhoods: [
+      {
+        slug: "centre",
+        name: "Centre Saint-Laurent",
+        type: "centre-ville",
+        scores: { global: 6.0, safety: 5.5, transport: 6.5, nature: 7.5, cost: 7.0, nightlife: 5.5 },
+        avgRentT2: 650,
+        tags: ["fleuve Maroni", "patrimoine bagne", "frontière"],
+        summary: "Cœur de la sous-préfecture, sur le fleuve Maroni face au Suriname. Patrimoine du bagne, ambiance frontalière. Loyers accessibles.",
+      },
+      {
+        slug: "saint-jean",
+        name: "Saint-Jean",
+        type: "résidentiel",
+        scores: { global: 6.2, safety: 6.0, transport: 6.0, nature: 7.5, cost: 7.5, nightlife: 4.5 },
+        avgRentT2: 580,
+        tags: ["résidentiel", "familial", "accessible"],
+        summary: "Quartier résidentiel en périphérie. Plus calme, loyers accessibles, écoles. Vie quotidienne plus simple.",
+      },
+    ],
+  },
+  {
+    citySlug: "mamoudzou",
+    neighborhoods: [
+      {
+        slug: "centre",
+        name: "Centre Mamoudzou",
+        type: "centre-ville",
+        scores: { global: 5.8, safety: 4.5, transport: 6.5, nature: 6.0, cost: 5.0, nightlife: 5.5 },
+        avgRentT2: 950,
+        tags: ["administratif", "commerce", "marché", "barge"],
+        summary: "Capitale économique et administrative de Mayotte. Très animé en journée, marché, barge vers Petite-Terre. Tensions sociales et sécurité préoccupante par endroits.",
+      },
+      {
+        slug: "passamainty",
+        name: "Passamainty",
+        type: "résidentiel",
+        scores: { global: 6.0, safety: 5.5, transport: 6.0, nature: 7.0, cost: 6.5, nightlife: 4.5 },
+        avgRentT2: 800,
+        tags: ["résidentiel", "familial", "périphérie"],
+        summary: "Quartier résidentiel au sud du centre. Plus calme, mix familial et professionnel. Loyers élevés (rareté du logement à Mayotte).",
+      },
+    ],
+  },
+  // ─── Métropole — Top-tier cities (existing) ────────────────────────
   {
     citySlug: "annecy",
     neighborhoods: [

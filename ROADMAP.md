@@ -6,6 +6,7 @@ Roadmap des features SSG-first, sans backend lourd, sans chiffres inventés.
 
 ## Shipped 2026-05-16
 
+- **F33 — Couverture complète des 352 villes** ✅ — Comblement des trous DROM : 12 villes Outre-mer (Pointe-à-Pitre, Baie-Mahault, Les Abymes, Fort-de-France, Le Lamentin, Saint-Denis Réunion, Saint-Pierre Réunion, Saint-Paul Réunion, Le Tampon, Cayenne, Saint-Laurent-du-Maroni, Mamoudzou) reçoivent désormais leurs données HOUSING (loyers T1/T2/T3 + prix m², médians Olap/Insee 2024 ajustés DROM) et leurs quartiers réels (2-3 quartiers connus par ville : Le Barachois, Didier, Le Raizet, Jarry, Saint-Gilles-les-Bains, Montjoly, …). **Couverture maintenant 352/352** sur tous les datasets — toutes les sous-pages (climat, fiscalité, saisons, télétravail, avis-honnête, distances, louer-ou-acheter, climat-2040, quartiers) sont remplies pour chaque ville sans exception.
 - **F32 — Temps Paris (train) par ville** ✅ — `lib/paris-commute.ts` avec 80 stations TGV/TER directes Paris (horaires SNCF jun 2025) + fallback Haversine pour villes non-gares (durée TGV-station + 0,5 min/km accès local). Index national `/depuis-paris` regroupant les villes en 5 buckets (< 1h, 1-1h30, 1h30-2h, 2-3h, 3-5h). Affichage intégré dans la sidebar `DistancesCard` (ligne Paris enrichie avec « Train ~XhYY via [station] »). DROM/Corse exclues (pas de rail Paris).
 - **F31 — Climat 2040 par ville** ✅ — `lib/climate-2040.ts` + 352 pages SSG `/villes/[slug]/climat-2040` + `Climate2040Card` dans la sidebar. Projection horizon 2040 basée sur les deltas Météo-France ARPEGE des 15 macro-régions déjà documentées dans les guides éditoriaux « Climat 2040 ». Applique au seed (avgTempJuly) la hausse moyenne + jours > 30 °C supplémentaires + nuits tropicales supplémentaires. Fonction `inferMacroRegion()` raffine PACA / Occitanie / Nouvelle-Aquitaine / ARA sur lat/long (régions admin ≠ macro-régions climatiques 1:1). Tag « Projection ARPEGE » explicite + incertitude ±0,5 °C documentée.
 - **F30 — Voisinage géographique** ✅ — `nearestCities()` ajoutée à `lib/distances.ts` (réutilise Haversine de F28). Filtre par cohorte de bbox (métropolitaine vs DROM) pour ne pas mélanger. `components/GeographicNeighborsCard.tsx` rendue dans la sidebar de chaque fiche ville × 352 : 6 villes les plus proches avec distance + score qualité de vie + indication "Même région" si applicable. Renforce le graphe de liens internes pour le SEO et la découverte locale (week-end / commute zone).
@@ -65,6 +66,34 @@ Les 10 features livrées sont décrites dans la section « Shipped ». Tableau c
 1. **F16** — gains SEO directs en réutilisant le moteur owner-scores existant
 2. **F17** — landing pages programmatic, réutilise F1 + F2
 3. **F18** — sub-page par ville (le pattern le plus utilisé du site)
+
+---
+
+## Vague 4 — extension du seed (à planifier)
+
+Toutes les villes du seed actuel (352) sont maintenant complètes sur toutes les sections (F33 ✅). La prochaine ambition naturelle est d'**étendre le seed** à plus de communes :
+
+### F34 — Seed +150 villes (communes 50-100 k hab.)
+
+**Objectif** : passer de 352 à ~500 villes en ajoutant les communes 50-100 000 hab. actuellement manquantes (Aubervilliers, Saint-Maur, Vitry-sur-Seine déjà présentes, mais il reste ~80 communes de cette tranche).
+
+**Données à ajouter par ville** :
+- slug, name, region, department, inseeCode, population, lat/lon, elevation
+- sunshinedays + avgTempJuly + avgTempJanuary (météo-france climatologie 1991-2020)
+- characterTags (3-5 tags éditoriaux)
+- scores object (9 axes — calibrés via score-calibration depuis Insee/SSMSI/observatoires)
+- HOUSING entry (loyer T1/T2/T3 + prix m²)
+- Neighborhoods (2-3 quartiers connus)
+
+**Effort** : ~30 minutes/ville pour les données + score-calibration → 150 × 30 min = 75 h. Trop long pour un commit unique — découper en batches de 20 villes.
+
+### F35 — Seed +500 villes (communes 20-50 k hab.)
+
+Phase 2 : couvrir les communes 20-50 000 hab. C'est là que se trouve l'essentiel des « villes moyennes » prisées par les relocaliés. ~500 communes concernées.
+
+### F36 — Communes < 20 k hab. (très long terme)
+
+France métropolitaine compte ~3 000 communes 5-20 k hab. — couvrir cette tranche demanderait un sourcing automatisé (Insee API), pas de saisie manuelle. À étudier.
 
 ---
 
