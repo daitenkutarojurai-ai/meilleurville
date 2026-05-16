@@ -6,8 +6,9 @@ const EN_URL = process.env.NEXT_PUBLIC_BASE_URL_EN ?? "https://bestcitiesinfranc
 const BASE_URL =
   process.env.NEXT_PUBLIC_BASE_URL ?? (DEFAULT_LOCALE === "en" ? EN_URL : FR_URL);
 
-// Keep in sync with SITEMAP_CHUNKS in app/sitemap.ts (FR: 10 chunks, EN: 3).
-const CHUNK_COUNT = DEFAULT_LOCALE === "en" ? 3 : 10;
+// Keep in sync with SITEMAP_CHUNKS in app/sitemap.ts (FR: 13 chunks incl.
+// comparer-regions + calculator + gentrification; EN: 3).
+const CHUNK_COUNT = DEFAULT_LOCALE === "en" ? 3 : 13;
 const SITEMAP_INDEXES = Array.from({ length: CHUNK_COUNT }, (_, i) => i);
 
 export default function robots(): MetadataRoute.Robots {

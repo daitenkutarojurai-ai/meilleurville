@@ -53,6 +53,23 @@ const PRINCIPLES = [
   },
 ];
 
+// F3 — Profils propriétaires : 10 scores additionnels par ville, exposés sur
+// chaque fiche /villes/[slug]. v0 = dérivé du seed actuel. Le tag par score
+// (Proxy v0 / Estimation régionale / Source réelle) reflète l'état réel de
+// la donnée.
+const OWNER_SCORES = [
+  { key: "score_canicule", label: "Résistance canicule", source: "Météo-France (avg juillet 1991-2020, à compléter par ARPEGE 2040)" },
+  { key: "score_solitude", label: "Lien social", source: "Insee — % ménages 1 personne par département (2020)" },
+  { key: "score_bruit", label: "Calme sonore", source: "Proxy population + densité IDF (à enrichir Bruitparif + CBS Cerema)" },
+  { key: "score_securite_nocturne", label: "Sécurité nocturne", source: "Dérivé SSMSI (atteintes aux personnes)" },
+  { key: "score_sans_voiture", label: "Vie sans voiture", source: "GTFS multimodal + OpenStreetMap réseau cyclable" },
+  { key: "score_teletravail", label: "Télétravail", source: "ARCEP — couverture FTTH (T4 2024 estimé)" },
+  { key: "score_qualite_air", label: "Qualité air", source: "ATMO France — PM2.5 moyen annuel 2023" },
+  { key: "score_securite_femme_seule", label: "Sécurité femme seule", source: "SSMSI (pondéré sécurité + densité transport)" },
+  { key: "score_jeune_actif", label: "Jeune actif", source: "Composite culture + remote-work + coût + bonus métropole" },
+  { key: "score_famille", label: "Famille", source: "Composite écoles + sécurité + nature, pénalité coût élevé" },
+];
+
 const LIMITS = [
   "Cette V1 publique fonctionne sur un dataset statique. Les classements ne sont pas (encore) recalculés automatiquement à chaque nouvelle donnée publiée.",
   "Les ~220 villes hors calibration manuelle reçoivent un ajustement par département (basé sur la moyenne SSMSI / Clameur). Elles peuvent dévier de la réalité hyper-locale d'un quartier.",
@@ -210,6 +227,50 @@ télétravail × 0.08
               </tbody>
             </table>
           </div>
+        </section>
+
+        {/* Owner scores — F3 */}
+        <section>
+          <h2 className="text-2xl font-bold text-[var(--text-primary)] mb-3">
+            Profils propriétaires (10 scores complémentaires)
+          </h2>
+          <p className="text-[var(--text-secondary)] mb-6">
+            En plus des 8 axes officiels, chaque fiche ville expose 10 scores
+            propriétaires sur des dimensions concrètes — visibles dans le bloc
+            « Profils propriétaires » de la page ville. Chaque score affiche son
+            origine&nbsp;: <strong>Source réelle</strong>, <strong>Proxy v0</strong> (dérivé
+            du seed actuel), ou <strong>Estimation régionale</strong> (médiane utilisée
+            quand la donnée commune manque). Aucune donnée silencieusement fabriquée.
+          </p>
+          <Card>
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="border-b border-[var(--border)]">
+                  <th className="text-left py-2 font-semibold text-[var(--text-primary)]">Score</th>
+                  <th className="text-left py-2 font-semibold text-[var(--text-primary)]">Source visée</th>
+                </tr>
+              </thead>
+              <tbody>
+                {OWNER_SCORES.map((s) => (
+                  <tr key={s.key} className="border-b border-[var(--border)]/40">
+                    <td className="py-2 pr-3">
+                      <span className="font-medium text-[var(--text-primary)]">{s.label}</span>
+                      <span className="ml-2 text-[10px] uppercase tracking-wider text-[var(--text-tertiary)]">
+                        {s.key}
+                      </span>
+                    </td>
+                    <td className="py-2 text-xs text-[var(--text-secondary)]">{s.source}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+            <p className="mt-4 text-xs text-[var(--text-tertiary)]">
+              v0 : les feeds réels (Météo-France ARPEGE, Insee, Bruitparif, SSMSI VFFS,
+              ATMO, ARCEP, DEPP, CAF, SIRENE) seront branchés itération par itération.
+              Quand une source réelle remplace un proxy, le tag passe automatiquement
+              à « Source réelle ».
+            </p>
+          </Card>
         </section>
 
         {/* Limits — explicit */}

@@ -27,6 +27,12 @@ export interface City {
   sunshinedays: number | null;
   avgTempJuly: number | null;
   avgTempJanuary: number | null;
+  // EN copy is optional — only the first 10 seed records carry it; the rest
+  // fall back to a generic English template generated from city stats in
+  // lib/i18n.ts (getCityTitle / getCityDescription).
+  descriptionEn?: string;
+  seoTitleEn?: string;
+  seoDescriptionEn?: string;
 }
 
 export interface Review {

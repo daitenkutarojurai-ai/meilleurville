@@ -9,6 +9,7 @@ import { AlertTriangle, Volume2, Droplets, Wind, Shield, Flame, Zap, ArrowRight 
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { vigilanceSummary } from "@/lib/red-flags-summary";
+import { RED_FLAG_THEMES } from "@/lib/red-flag-themes";
 
 export const metadata: Metadata = {
   title: "Red Flag Radar — Signalements communautaires | MeilleurVille",
@@ -129,6 +130,41 @@ export default function RedFlagsPage() {
               <div className="text-xs text-[var(--text-secondary)]">{label}</div>
             </div>
           ))}
+        </div>
+
+        {/* F4 — Thematic red-flag pages (data-driven rankings) */}
+        <div>
+          <div className="mb-6">
+            <h2 className="text-2xl font-bold text-[var(--text-primary)] mb-1">
+              Red Flags thématiques
+            </h2>
+            <p className="text-sm text-[var(--text-secondary)]">
+              Trois angles de lecture data-driven : villes regrets d&apos;achat, villes où vivre sans voiture
+              est difficile, villes belles mais invivables l&apos;été.
+            </p>
+          </div>
+          <div className="grid gap-3 sm:grid-cols-3">
+            {RED_FLAG_THEMES.map((t) => (
+              <Link
+                key={t.slug}
+                href={`/red-flags/${t.slug}`}
+                className="group rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-red-500/50 hover:shadow-md transition-all p-4 flex flex-col gap-2"
+              >
+                <div className="flex items-center gap-3">
+                  <span className="text-3xl" aria-hidden>
+                    {t.emoji}
+                  </span>
+                  <span className="text-sm font-bold text-[var(--text-primary)] group-hover:text-red-500 transition-colors">
+                    {t.title}
+                  </span>
+                </div>
+                <p className="text-xs text-[var(--text-secondary)]">
+                  {t.intro.slice(0, 110)}…
+                </p>
+                <span className="text-[11px] text-[var(--accent)] mt-auto">Voir le classement →</span>
+              </Link>
+            ))}
+          </div>
         </div>
 
         {/* Per-city fiches — surfaced first: that's what users actually want when

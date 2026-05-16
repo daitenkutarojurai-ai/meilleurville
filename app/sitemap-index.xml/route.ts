@@ -12,8 +12,8 @@ const FR_URL = process.env.NEXT_PUBLIC_BASE_URL_FR ?? "https://mavilleideale.fr"
 const EN_URL = process.env.NEXT_PUBLIC_BASE_URL_EN ?? "https://bestcitiesinfrance.com";
 const BASE_URL =
   process.env.NEXT_PUBLIC_BASE_URL ?? (DEFAULT_LOCALE === "en" ? EN_URL : FR_URL);
-// Must match the count of SITEMAP_CHUNKS in app/sitemap.ts (FR: 10, EN: 3)
-const CHUNK_COUNT = DEFAULT_LOCALE === "en" ? 3 : 10;
+// Must match the count of SITEMAP_CHUNKS in app/sitemap.ts (FR: 13, EN: 3)
+const CHUNK_COUNT = DEFAULT_LOCALE === "en" ? 3 : 13;
 
 function latestGuideUpdate(): string {
   const max = GUIDES.reduce((acc, g) => {

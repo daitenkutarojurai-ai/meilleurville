@@ -1,6 +1,12 @@
 // Top French cities seed — raw values, then post-processed by lib/score-calibration
 // (editorial overrides) and lib/score-distribution (z-score rescaling).
 // Anchors: Insee, Ministère de l'Intérieur (SSMSI), observatoires loyers.
+//
+// EN fields (descriptionEn, seoTitleEn, seoDescriptionEn) are optional. The first
+// 10 records below are translated as a pattern; for the remaining 342 cities, the
+// EN site falls back to a generic English template generated from city stats (see
+// lib/i18n.ts:getCityTitle / getCityDescription). Extending EN coverage means
+// adding the same three fields to a seed record — no other change required.
 import { calibrateScores } from "@/lib/score-calibration";
 import { normalizeDistribution } from "@/lib/score-distribution";
 
@@ -19,6 +25,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.1,
     avgTempJanuary: 2.3,
     characterTags: ["nature", "tourisme", "familial", "verdoyant", "premium"],
+    descriptionEn:
+      "Annecy sits on the northern tip of its namesake lake, ringed by pre-Alpine peaks. It is one of the most expensive small cities in France — rents and home prices have run far ahead of regional wages — but residents tolerate it for the quality of the water, the year-round outdoor access, and the very low crime rate. Best fit for families and remote workers who can absorb the housing premium.",
+    seoTitleEn: "Annecy — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Annecy (Haute-Savoie, Auvergne-Rhône-Alpes): quality-of-life score 8.6/10. Outdoor lifestyle, very low crime, premium housing market. Resident reviews and detailed local data.",
     scores: {
       global: 8.6,
       life: 8.9,
@@ -45,6 +56,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.4,
     avgTempJanuary: 5.4,
     characterTags: ["dynamique", "étudiant", "culturel", "vélo", "métropole"],
+    descriptionEn:
+      "Nantes is the largest city of western France, an hour from the Atlantic by car. It carries a young, post-industrial creative scene (Quartier de la Création, Machines de l'Île), a dense tram and bike network, and a milder, wetter climate than the southern metros. Strong fit for remote workers and families who want a metropolitan culture without southern-French heat.",
+    seoTitleEn: "Nantes — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Nantes (Loire-Atlantique, Pays de la Loire): quality-of-life score 8.3/10. Creative scene, strong bike network, mild Atlantic climate. Resident reviews and detailed local data.",
     scores: {
       global: 8.3,
       life: 8.4,
@@ -71,6 +87,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.2,
     avgTempJanuary: 4.8,
     characterTags: ["étudiant", "dynamique", "breton", "tech", "vélo"],
+    descriptionEn:
+      "Rennes anchors the Brittany region — a compact student and tech city of around 220,000 inhabitants, well connected to Paris (1h25 by TGV). Cost of living stays below the national big-city average; the tram + bike network is unusually dense for its size. Weather is wet rather than cold. Strong fit for early-career professionals, students, and remote workers leaving Paris.",
+    seoTitleEn: "Rennes — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Rennes (Ille-et-Vilaine, Brittany): quality-of-life score 8.2/10. Compact, affordable, well-connected to Paris. Resident reviews and detailed local data.",
     scores: {
       global: 8.2,
       life: 8.3,
@@ -97,6 +118,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 23.0,
     avgTempJanuary: 6.9,
     characterTags: ["gastronomie", "vin", "bobo", "premium", "dynamique"],
+    descriptionEn:
+      "Bordeaux turned around in the 2000s: the historical centre was renovated, the tram extended, and TGV cut Paris to two hours. The city now mixes wine heritage with creative industries. Housing prices doubled in fifteen years and have since cooled but stay high. Summers are getting hot. Best fit for couples and remote workers prioritising food, climate, and an international airport.",
+    seoTitleEn: "Bordeaux — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Bordeaux (Gironde, Nouvelle-Aquitaine): quality-of-life score 8.1/10. Renovated centre, fast TGV to Paris, premium housing, hot summers. Resident reviews and local data.",
     scores: {
       global: 8.1,
       life: 8.3,
@@ -123,6 +149,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 27.0,
     avgTempJanuary: 7.7,
     characterTags: ["soleil", "étudiant", "méditerranéen", "dynamique", "sport"],
+    descriptionEn:
+      "Montpellier is the southern student capital — almost 80,000 students for under 300,000 residents — with Mediterranean weather, the beach 10 km away, and a fast-growing tech-and-health sector. The downside is real: petty crime and tensions in certain neighbourhoods are documented in SSMSI data. Best fit for students, single professionals, and remote workers comfortable with city density.",
+    seoTitleEn: "Montpellier — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Montpellier (Hérault, Occitanie): quality-of-life score 7.9/10. Mediterranean climate, large student population, sea 10 km away. Honest data on safety and housing.",
     scores: {
       global: 7.9,
       life: 8.0,
@@ -149,6 +180,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.0,
     avgTempJanuary: 2.6,
     characterTags: ["européen", "culturel", "vélo", "gastronomie", "historique"],
+    descriptionEn:
+      "Strasbourg sits on the Rhine, doubles as a seat of the European Parliament, and has the densest cycling network in France. Cultural offering punches well above its population size. Winters are properly cold by French standards. Strong fit for families, public-sector / EU professionals, and anyone who values cycling-first urban planning.",
+    seoTitleEn: "Strasbourg — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Strasbourg (Bas-Rhin, Grand Est): quality-of-life score 8.0/10. European institutions, densest cycling network in France, cold winters. Detailed resident reviews.",
     scores: {
       global: 8.0,
       life: 8.1,
@@ -175,6 +211,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 24.6,
     avgTempJanuary: 6.3,
     characterTags: ["aéronautique", "étudiant", "rugby", "soleil", "dynamique"],
+    descriptionEn:
+      "Toulouse is the fourth-largest French city, anchored by the Airbus headquarters and a deep aerospace ecosystem. The historical brick centre, southern climate, and ongoing tram extension make it attractive — but rapid growth has put real pressure on housing and traffic. Best fit for engineering and tech workers, students, and households who want southern weather without Mediterranean prices.",
+    seoTitleEn: "Toulouse — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Toulouse (Haute-Garonne, Occitanie): quality-of-life score 7.8/10. Airbus / aerospace hub, historical brick centre, growing housing pressure. Detailed local data.",
     scores: {
       global: 7.8,
       life: 7.9,
@@ -201,6 +242,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 23.8,
     avgTempJanuary: 2.8,
     characterTags: ["montagne", "tech", "nature", "universitaire", "sport"],
+    descriptionEn:
+      "Grenoble is wedged between three Alpine ranges — outdoor sports are not a marketing pitch, they are five minutes from any front door. A long-standing university and a dense semiconductor / nanotech cluster make it France's most research-intensive mid-size city. Air quality issues are real in winter inversion. Strong fit for STEM workers and outdoor-active households.",
+    seoTitleEn: "Grenoble — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Grenoble (Isère, Auvergne-Rhône-Alpes): quality-of-life score 7.7/10. Alpine access, dense research and semiconductor cluster, winter air-quality concerns. Detailed local data.",
     scores: {
       global: 7.7,
       life: 7.6,
@@ -227,6 +273,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 26.5,
     avgTempJanuary: 10.5,
     characterTags: ["méditerranéen", "soleil", "mer", "tourisme", "international"],
+    descriptionEn:
+      "Nice is the most international French city on the Mediterranean — large English-speaking community, airport with intercontinental connections, mild winters and hot, dry summers. Housing is expensive, tourism saturates the seafront in peak season, and public-transport coverage outside the centre is uneven. Best fit for international remote workers and retirees who prioritise climate and air access.",
+    seoTitleEn: "Nice — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Nice (Alpes-Maritimes, Provence-Alpes-Côte d'Azur): quality-of-life score 7.8/10. International airport, mild winters, expensive housing, tourist-heavy seafront. Detailed local data.",
     scores: {
       global: 7.8,
       life: 8.0,
@@ -253,6 +304,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 23.7,
     avgTempJanuary: 4.2,
     characterTags: ["gastronomie", "culturel", "métropole", "historique", "dynamique"],
+    descriptionEn:
+      "Lyon is the second metropolitan area of France, two hours from Paris and the Alps alike. Deep gastronomic tradition, strong banking and pharma employers, and a four-line metro give it metropolitan amenities without the size of Paris. Summers are increasingly hot in the Rhône valley. Strong fit for senior professionals, families, and households who want a true big-city offer outside Paris.",
+    seoTitleEn: "Lyon — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Lyon (Métropole de Lyon, Auvergne-Rhône-Alpes): quality-of-life score 8.0/10. Second French metro, gastronomic capital, four-line metro, two hours from Paris and the Alps.",
     scores: {
       global: 8.0,
       life: 8.1,

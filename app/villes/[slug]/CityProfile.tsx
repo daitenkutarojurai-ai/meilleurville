@@ -11,6 +11,7 @@ import { GrainOverlay } from "@/components/effects/GrainOverlay";
 import { AISummaryCard } from "@/components/AISummaryCard";
 import { UserVsOfficialScore } from "@/components/UserVsOfficialScore";
 import { SimilarCities } from "@/components/SimilarCities";
+import { OwnerScoresCard } from "@/components/OwnerScoresCard";
 import { getNeighborhoods } from "@/data/neighborhoods";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { getHousing } from "@/data/housing";
@@ -353,6 +354,9 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                   </div>
                 </div>
               </Card>
+
+              {/* F3 — Profils propriétaires (10 scores avec source) */}
+              <OwnerScoresCard city={city} />
 
               {/* Life Stage Lens */}
               <Card>

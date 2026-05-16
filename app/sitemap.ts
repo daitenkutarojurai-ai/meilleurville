@@ -4,6 +4,7 @@ import { RANKING_META } from "@/lib/rankings";
 import { GUIDES } from "@/data/guides";
 import { SEO_PAIRS } from "@/lib/comparer-pairs";
 import { SEO_TRIPLETS } from "@/lib/comparer-triplets";
+import { METRO_REGIONS, regionToSlug } from "@/lib/regions";
 import { TAG_SLUGS } from "@/lib/guide-tags";
 
 // Locale-aware sitemap. Each Vercel project sets NEXT_PUBLIC_DEFAULT_LOCALE and
@@ -32,11 +33,14 @@ const SITEMAP_CHUNKS_FR = [
   "cities",
   "city-sub",
   "comparer",
+  "comparer-regions",
   "classements",
   "regions",
   "departements",
   "tags",
   "red-flags",
+  "calculator",
+  "gentrification",
 ] as const;
 
 const SITEMAP_CHUNKS_EN = [
@@ -70,6 +74,42 @@ function staticSection(): MetadataRoute.Sitemap {
   return [
     { url: BASE_URL, lastModified: STATIC_UPDATED, changeFrequency: "daily", priority: 1.0 },
     { url: `${BASE_URL}/quiz`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${BASE_URL}/quiz-compatibilite`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.85 },
+    { url: `${BASE_URL}/expat-retour`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE_URL}/expat-retour/quiz`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE_URL}/expat-retour/depuis-suisse`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE_URL}/expat-retour/depuis-luxembourg`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE_URL}/expat-retour/depuis-belgique`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE_URL}/expat-retour/depuis-royaume-uni`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE_URL}/expat-retour/depuis-canada`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE_URL}/widget`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.5 },
+    { url: `${BASE_URL}/vivre-avec`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE_URL}/vivre-avec/1500-euros`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.65 },
+    { url: `${BASE_URL}/vivre-avec/2000-euros`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.65 },
+    { url: `${BASE_URL}/vivre-avec/2500-euros`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.65 },
+    { url: `${BASE_URL}/vivre-avec/3000-euros`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.65 },
+    { url: `${BASE_URL}/vivre-avec/4000-euros`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.65 },
+    { url: `${BASE_URL}/vivre-avec/5000-euros`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.65 },
+    { url: `${BASE_URL}/pour-qui`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.75 },
+    { url: `${BASE_URL}/pour-qui/familles-avec-enfants`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE_URL}/pour-qui/jeunes-actifs`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE_URL}/pour-qui/retraites`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE_URL}/pour-qui/freelances`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE_URL}/pour-qui/teletravailleurs`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE_URL}/pour-qui/etudiants`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE_URL}/pour-qui/sans-voiture`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE_URL}/pour-qui/premium`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE_URL}/pour-qui/solo-femme`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE_URL}/pour-qui/expat-retour`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE_URL}/salaire-equivalent`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.75 },
+    { url: `${BASE_URL}/macro-region`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE_URL}/macro-region/cote-atlantique`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.65 },
+    { url: `${BASE_URL}/macro-region/arc-mediterraneen`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.65 },
+    { url: `${BASE_URL}/macro-region/arc-alpin`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.65 },
+    { url: `${BASE_URL}/macro-region/sud-ouest-gascon`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.65 },
+    { url: `${BASE_URL}/macro-region/vallee-du-rhone`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.65 },
+    { url: `${BASE_URL}/macro-region/ile-de-france-elargie`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.65 },
+    { url: `${BASE_URL}/simulateur-achat`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.75 },
     { url: `${BASE_URL}/villes`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.8 },
     { url: `${BASE_URL}/classements`, lastModified: RANKING_UPDATED, changeFrequency: "weekly", priority: 0.9 },
     { url: `${BASE_URL}/comparer`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
@@ -153,6 +193,18 @@ function citySubSection(): MetadataRoute.Sitemap {
       changeFrequency: "monthly" as const,
       priority: 0.6,
     },
+    {
+      url: `${BASE_URL}/villes/${city.slug}/saisons`,
+      lastModified: CITY_DATA_UPDATED,
+      changeFrequency: "monthly" as const,
+      priority: 0.55,
+    },
+    {
+      url: `${BASE_URL}/villes/${city.slug}/teletravail`,
+      lastModified: CITY_DATA_UPDATED,
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
+    },
   ]);
 }
 
@@ -173,13 +225,60 @@ function comparerSection(): MetadataRoute.Sitemap {
   ];
 }
 
+function comparerRegionsSection(): MetadataRoute.Sitemap {
+  const entries: MetadataRoute.Sitemap = [
+    {
+      url: `${BASE_URL}/comparer-regions`,
+      lastModified: CITY_DATA_UPDATED,
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
+    },
+  ];
+  for (let i = 0; i < METRO_REGIONS.length; i++) {
+    for (let j = i + 1; j < METRO_REGIONS.length; j++) {
+      entries.push({
+        url: `${BASE_URL}/comparer-regions/${regionToSlug(METRO_REGIONS[i])}-vs-${regionToSlug(METRO_REGIONS[j])}`,
+        lastModified: CITY_DATA_UPDATED,
+        changeFrequency: "monthly" as const,
+        priority: 0.55,
+      });
+    }
+  }
+  return entries;
+}
+
 function classementsSection(): MetadataRoute.Sitemap {
-  return Object.keys(RANKING_META).map((slug) => ({
-    url: `${BASE_URL}/classements/${slug}`,
-    lastModified: RANKING_UPDATED,
-    changeFrequency: "weekly",
-    priority: 0.8,
-  }));
+  // Owner-score rankings (F16) — listed inline to avoid drift with
+  // lib/owner-rankings.ts (importing it would create a circular ref with
+  // CITIES_SEED at sitemap build time).
+  const ownerSlugs = [
+    "canicule-resistance",
+    "calme-sonore",
+    "lien-social",
+    "securite-nocturne",
+    "sans-voiture",
+    "teletravail-proprietaire",
+    "qualite-air",
+    "securite-femme-seule",
+    "jeune-actif",
+    "famille-proprietaire",
+    "meilleur-rapport-qualite-prix",
+    "villes-sous-cotees",
+  ];
+  return [
+    ...Object.keys(RANKING_META).map((slug) => ({
+      url: `${BASE_URL}/classements/${slug}`,
+      lastModified: RANKING_UPDATED,
+      changeFrequency: "weekly" as const,
+      priority: 0.8,
+    })),
+    ...ownerSlugs.map((slug) => ({
+      url: `${BASE_URL}/classements/${slug}`,
+      lastModified: RANKING_UPDATED,
+      changeFrequency: "weekly" as const,
+      priority: 0.75,
+    })),
+  ];
 }
 
 function regionsSection(): MetadataRoute.Sitemap {
@@ -205,12 +304,60 @@ function tagsSection(): MetadataRoute.Sitemap {
 }
 
 function redFlagsSection(): MetadataRoute.Sitemap {
-  return CITIES_SEED.map((city) => ({
+  const cityFiches = CITIES_SEED.map((city) => ({
     url: `${BASE_URL}/red-flags/${city.slug}`,
     lastModified: CITY_DATA_UPDATED,
     changeFrequency: "monthly" as const,
     priority: 0.55,
   }));
+  // F4 — Thematic red-flag pages
+  const themes = ["villes-regrets-achat", "villes-sans-voiture-difficile", "villes-belles-invivables-ete"].map((slug) => ({
+    url: `${BASE_URL}/red-flags/${slug}`,
+    lastModified: CITY_DATA_UPDATED,
+    changeFrequency: "weekly" as const,
+    priority: 0.7,
+  }));
+  return [...themes, ...cityFiches];
+}
+
+function gentrificationSection(): MetadataRoute.Sitemap {
+  return [
+    {
+      url: `${BASE_URL}/gentrification`,
+      lastModified: CITY_DATA_UPDATED,
+      changeFrequency: "weekly" as const,
+      priority: 0.8,
+    },
+    {
+      url: `${BASE_URL}/gentrification/carte`,
+      lastModified: CITY_DATA_UPDATED,
+      changeFrequency: "weekly" as const,
+      priority: 0.7,
+    },
+    ...CITIES_SEED.map((city) => ({
+      url: `${BASE_URL}/gentrification/${city.slug}`,
+      lastModified: CITY_DATA_UPDATED,
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
+    })),
+  ];
+}
+
+function calculatorSection(): MetadataRoute.Sitemap {
+  return [
+    {
+      url: `${BASE_URL}/calculateur-cout-reel`,
+      lastModified: CITY_DATA_UPDATED,
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    },
+    ...CITIES_SEED.map((city) => ({
+      url: `${BASE_URL}/calculateur-cout-reel/${city.slug}`,
+      lastModified: CITY_DATA_UPDATED,
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
+    })),
+  ];
 }
 
 function departementsSection(): MetadataRoute.Sitemap {
@@ -272,11 +419,14 @@ export default async function sitemap({ id }: { id: Promise<string> }): Promise<
     case "cities": return citySection();
     case "city-sub": return citySubSection();
     case "comparer": return comparerSection();
+    case "comparer-regions": return comparerRegionsSection();
     case "classements": return classementsSection();
     case "regions": return regionsSection();
     case "departements": return departementsSection();
     case "tags": return tagsSection();
     case "red-flags": return redFlagsSection();
+    case "calculator": return calculatorSection();
+    case "gentrification": return gentrificationSection();
     case "en-static": return enStaticSection();
     case "en-cities": return enCitySection();
     case "en-rankings": return enRankingsSection();
