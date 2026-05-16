@@ -66,6 +66,7 @@ const CATEGORIES = [
   { slug: "logement", label: "Logement abordable", emoji: "🔑", icon: KeyRound, gradient: "from-cyan-400 to-sky-500", color: "#06B6D4", desc: "Données DVF + Observatoires loyers : loyer T2, prix au m², coût de vie", scoreKey: "cost" },
   { slug: "jeunes-actifs", label: "Jeunes actifs", emoji: "🚀", icon: Rocket, gradient: "from-fuchsia-400 to-pink-500", color: "#D946EF", desc: "Cadres 25-39 ans, TGV, fibre, culture, premier salaire compatible", scoreKey: "culture" },
   { slug: "gastronomie", label: "Gastronomie", emoji: "🍽️", icon: ChefHat, gradient: "from-amber-500 to-red-500", color: "#DC2626", desc: "Étoilés Michelin, Bib Gourmand, AOC, marchés couverts, terroir", scoreKey: "culture" },
+  { slug: "cyclistes", label: "Vélo & cyclistes", emoji: "🚴", icon: Bike, gradient: "from-indigo-400 to-blue-500", color: "#6366F1", desc: "Note FUB, pistes cyclables sécurisées, continuité, intermodalité train+vélo", scoreKey: "transport" },
 ] as const;
 
 export default function ClassementsPage() {

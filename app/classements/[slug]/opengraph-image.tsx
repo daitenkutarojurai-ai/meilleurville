@@ -35,6 +35,7 @@ export default async function Image({ params }: Props) {
     securite: "#818cf8",
     culture: "#f472b6",
     mobilite: "#22d3ee",
+    cyclistes: "#818cf8",
   };
   const accent = accentColors[slug] ?? "#7c6af0";
 
