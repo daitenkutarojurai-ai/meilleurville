@@ -5,6 +5,7 @@ import {
   approxDriveTimeMin,
   formatDistance,
 } from "@/lib/distances";
+import { parisCommute } from "@/lib/paris-commute";
 import type { CitySeed } from "@/data/cities-seed";
 
 interface Props {
@@ -37,14 +38,18 @@ export function DistancesCard({ city }: Props) {
   // Special-case Paris itself
   const parisLabel =
     d.paris != null && d.paris < 5 ? "Vous y êtes" : d.paris != null ? formatDistance(d.paris) : null;
+  const trainToParis = parisCommute(city);
+  const isParis = d.paris != null && d.paris < 5;
 
   const rows: Row[] = [
     {
       icon: Train,
       label: "Paris",
       value: parisLabel,
-      detail: d.paris != null && d.paris >= 5 ? "À vol d'oiseau" : undefined,
-      hint: d.paris != null && d.paris >= 50 ? timeBadge(d.paris) : undefined,
+      detail: !isParis && trainToParis.source !== "unavailable"
+        ? `Train ~${trainToParis.display}${trainToParis.source === "via-nearby-station" && trainToParis.viaStation ? ` via ${trainToParis.viaStation}` : ""}`
+        : d.paris != null && d.paris >= 5 ? "À vol d'oiseau" : undefined,
+      hint: !isParis && d.paris != null && d.paris >= 50 ? timeBadge(d.paris) : undefined,
     },
     {
       icon: MapPin,
