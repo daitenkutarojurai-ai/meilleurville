@@ -335,6 +335,7 @@ export function VillesSearch() {
               <select
                 value={region}
                 onChange={(e) => { setRegion(e.target.value); setDept(""); }}
+                aria-label="Filtrer par région"
                 className="w-full rounded-xl border border-[var(--border)] bg-[var(--bg-canvas)] px-3 py-2 text-sm text-[var(--text-primary)] outline-none focus:border-[var(--accent)]/50 transition-colors cursor-pointer"
               >
                 <option value="">Toutes les régions</option>
@@ -349,6 +350,7 @@ export function VillesSearch() {
               <select
                 value={dept}
                 onChange={(e) => { setDept(e.target.value); setRegion(""); }}
+                aria-label="Filtrer par département"
                 className="w-full rounded-xl border border-[var(--border)] bg-[var(--bg-canvas)] px-3 py-2 text-sm text-[var(--text-primary)] outline-none focus:border-[var(--accent)]/50 transition-colors cursor-pointer"
               >
                 <option value="">Tous les départements</option>

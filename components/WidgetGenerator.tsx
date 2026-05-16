@@ -90,7 +90,7 @@ export function WidgetGenerator({ cities }: { cities: CityLite[] }) {
         <select
           value={city}
           onChange={(e) => setCity(e.target.value)}
-          className="w-full rounded-lg border border-[var(--border)] bg-[var(--bg-surface)] px-3 py-2 text-sm text-[var(--text-primary)]"
+          className="w-full rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] px-3 py-2 text-sm text-[var(--text-primary)]"
         >
           {cities.map((c) => (
             <option key={c.slug} value={c.slug}>
@@ -106,7 +106,7 @@ export function WidgetGenerator({ cities }: { cities: CityLite[] }) {
             <select
               value={city2}
               onChange={(e) => setCity2(e.target.value)}
-              className="w-full rounded-lg border border-[var(--border)] bg-[var(--bg-surface)] px-3 py-2 text-sm text-[var(--text-primary)]"
+              className="w-full rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] px-3 py-2 text-sm text-[var(--text-primary)]"
             >
               {cities.map((c) => (
                 <option key={c.slug} value={c.slug}>

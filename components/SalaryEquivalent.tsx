@@ -93,7 +93,7 @@ export function SalaryEquivalent({ cities }: { cities: CityLite[] }) {
             <select
               value={sourceSlug}
               onChange={(e) => setSourceSlug(e.target.value)}
-              className="w-full rounded-lg border border-[var(--border)] bg-[var(--bg-surface)] px-3 py-2 text-sm text-[var(--text-primary)]"
+              className="w-full rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] px-3 py-2 text-sm text-[var(--text-primary)]"
             >
               {cities.map((c) => (
                 <option key={c.slug} value={c.slug}>
@@ -114,7 +114,7 @@ export function SalaryEquivalent({ cities }: { cities: CityLite[] }) {
               step={100}
               value={salary}
               onChange={(e) => setSalary(Math.max(0, Number(e.target.value)))}
-              className="w-full rounded-lg border border-[var(--border)] bg-[var(--bg-surface)] px-3 py-2 text-sm text-right font-mono-data font-bold text-[var(--text-primary)]"
+              className="w-full rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] px-3 py-2 text-sm text-right font-mono-data font-bold text-[var(--text-primary)]"
             />
           </div>
 
@@ -125,7 +125,7 @@ export function SalaryEquivalent({ cities }: { cities: CityLite[] }) {
             <select
               value={targetSlug}
               onChange={(e) => setTargetSlug(e.target.value)}
-              className="w-full rounded-lg border border-[var(--border)] bg-[var(--bg-surface)] px-3 py-2 text-sm text-[var(--text-primary)]"
+              className="w-full rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] px-3 py-2 text-sm text-[var(--text-primary)]"
             >
               {cities.map((c) => (
                 <option key={c.slug} value={c.slug}>

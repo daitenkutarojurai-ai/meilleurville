@@ -57,6 +57,7 @@ export function LeaderboardTable() {
         <select
           value={region}
           onChange={(e) => setRegion(e.target.value)}
+          aria-label="Filtrer par région"
           className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] px-4 py-2 text-sm text-[var(--text-primary)] focus:border-[var(--accent)]/50 focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--accent)]/40 transition-colors cursor-pointer"
         >
           {REGIONS.map((r) => (
@@ -66,6 +67,7 @@ export function LeaderboardTable() {
         <select
           value={sortKey}
           onChange={(e) => setSortKey(e.target.value as SortKey)}
+          aria-label="Trier le classement"
           className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] px-4 py-2 text-sm text-[var(--text-primary)] focus:border-[var(--accent)]/50 focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--accent)]/40 transition-colors cursor-pointer"
         >
           <option value="global">Trier : Score global</option>
