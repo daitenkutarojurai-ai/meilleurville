@@ -31,10 +31,11 @@ export function CityCard({ city, rank, delta, className }: CityCardProps) {
     <Link
       href={`/villes/${city.slug}`}
       aria-label={`${city.name} — score ${formatScore(score)} sur 10 (${tier})`}
+      className="block h-full"
     >
       <div
         className={cn(
-          "group relative overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] transition-all duration-200 hover:border-[var(--accent)]/40 hover:shadow-xl hover:shadow-[var(--accent)]/10 hover:-translate-y-0.5 cursor-pointer shine",
+          "group relative h-full overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] transition-all duration-200 hover:border-[var(--accent)]/40 hover:shadow-xl hover:shadow-[var(--accent)]/10 hover:-translate-y-0.5 cursor-pointer shine",
           className
         )}
       >

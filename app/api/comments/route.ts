@@ -39,6 +39,10 @@ const PostSchema = z.object({
     .regex(EMAIL_RE, "Email invalide"),
   body: z.string().min(8, "Trop court (8 caractères mini)").max(2000),
   rating: z.number().int().min(1).max(5).optional(),
+  // T3 — optional multi-category ratings (8 axes, 1-5 each)
+  categoryRatings: z
+    .record(z.string().max(40), z.number().int().min(1).max(5))
+    .optional(),
   // Anti-bot: honeypot must be empty, formStartedAt must be at least ~2s in the past
   website: z.string().max(0).optional(),
   formStartedAt: z.number().int().optional(),
@@ -128,11 +132,24 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: check.reason ?? "Contenu refusé" }, { status: 422 });
   }
 
+  // T3 — sanitise categoryRatings: drop unknown keys + out-of-range values.
+  let categoryRatings: Record<string, number> | undefined;
+  if (parsed.data.categoryRatings) {
+    const sanitised: Record<string, number> = {};
+    for (const [k, v] of Object.entries(parsed.data.categoryRatings)) {
+      if (typeof v === "number" && v >= 1 && v <= 5 && /^[a-z0-9-]+$/i.test(k) && k.length <= 40) {
+        sanitised[k] = Math.round(v);
+      }
+    }
+    if (Object.keys(sanitised).length > 0) categoryRatings = sanitised;
+  }
+
   const comment = await addComment({
     topic: parsed.data.topic,
     author: authorClean,
     body: parsed.data.body.trim(),
     rating: parsed.data.rating,
+    categoryRatings,
   });
   return NextResponse.json({ ok: true, comment }, { status: 201 });
 }

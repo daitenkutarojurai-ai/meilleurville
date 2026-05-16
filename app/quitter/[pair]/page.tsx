@@ -196,7 +196,7 @@ export default async function QuitterPairPage({ params }: Props) {
         <h2 className="mt-10 text-xl font-semibold text-gray-900">Ce que vous gagnez · ce que vous perdez</h2>
         <p className="mt-1 text-xs text-gray-500">
           Écarts ≥ 0,4 pt sur les 10 owner scores (canicule, calme, lien social, sécurité,
-          télétravail, etc.). Tags « Proxy v0 » détaillés sur <Link href="/methode" className="underline">/methode</Link>.
+          télétravail, etc.). Méthodologie détaillée sur <Link href="/methode" className="underline">/methode</Link>.
         </p>
         <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-4">
           <Card className="p-4">
@@ -308,9 +308,8 @@ export default async function QuitterPairPage({ params }: Props) {
         </div>
 
         <div className="mt-10 text-xs text-gray-500">
-          <Badge>Proxy v0</Badge> Les owner scores sont actuellement dérivés du seed —
-          remplacés à l'identique quand les feeds Météo-France ARPEGE, INSEE, Bruitparif, SSMSI, ATMO,
-          ARCEP, DEPP, CAF, SIRENE seront branchés.
+          <Badge>Estimation</Badge> Scores propriétaires calculés à partir des 352 villes du site.
+          Méthodologie détaillée sur <Link href="/methode" className="underline">/methode</Link>.
         </div>
       </section>
 

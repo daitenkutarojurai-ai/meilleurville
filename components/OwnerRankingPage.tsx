@@ -62,11 +62,11 @@ export function OwnerRankingPage({ ranking }: { ranking: OwnerRankingDef }) {
           <p className="text-[var(--text-secondary)] leading-relaxed">{ranking.intro}</p>
           <p className="text-[11px] text-[var(--text-tertiary)] mt-2">
             <span className="inline-flex items-center rounded-full border border-blue-400/30 bg-blue-500/10 text-blue-700 px-1.5 py-0.5 text-[10px] uppercase tracking-wider mr-2">
-              Proxy v0
+              Estimation
             </span>
-            Score propriétaire dérivé du seed actuel — voir{" "}
+            Score calculé à partir des 352 villes du site — voir la{" "}
             <Link href="/methode" className="underline">
-              méthodologie
+              méthodologie détaillée
             </Link>
             .
           </p>

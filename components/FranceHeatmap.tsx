@@ -183,7 +183,7 @@ export function FranceHeatmap() {
         </div>
 
         {/* Filter chips */}
-        <div className="flex flex-wrap items-center justify-center gap-2 mb-8">
+        <div className="flex flex-wrap items-center justify-center gap-2 mb-4">
           {[
             { id: "all" as const, label: "Toutes", emoji: "🌍" },
             { id: "top" as const, label: "Top villes (7+)", emoji: "🏆" },
@@ -207,6 +207,28 @@ export function FranceHeatmap() {
               </button>
             );
           })}
+        </div>
+
+        {/* Legend — score color scale */}
+        <div className="mb-8 flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-[11px] text-[var(--text-tertiary)]">
+          <span className="font-semibold uppercase tracking-wider text-[var(--text-secondary)]">Score qualité de vie</span>
+          {[
+            { color: "#10B981", label: "≥ 7,5 Exceptionnel" },
+            { color: "#22C55E", label: "≥ 7,0 Excellent" },
+            { color: "#84CC16", label: "≥ 6,0 Bon" },
+            { color: "#F59E0B", label: "≥ 5,0 Moyen" },
+            { color: "#F97316", label: "≥ 4,0 En dessous" },
+            { color: "#EF4444", label: "< 4,0 Mauvais" },
+          ].map((tier) => (
+            <span key={tier.label} className="inline-flex items-center gap-1.5">
+              <span
+                aria-hidden
+                className="inline-block h-2.5 w-2.5 rounded-full shadow-sm"
+                style={{ background: tier.color }}
+              />
+              {tier.label}
+            </span>
+          ))}
         </div>
 
         {/* Map + side panel */}

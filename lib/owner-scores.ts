@@ -354,6 +354,6 @@ export function sourceKindBadge(kind: SourceKind): { label: string; tone: string
       return { label: "Estim. régionale", tone: "bg-amber-500/10 text-amber-700 border-amber-400/30" };
     case "proxy-v0":
     default:
-      return { label: "Proxy v0", tone: "bg-blue-500/10 text-blue-700 border-blue-400/30" };
+      return { label: "Estimation", tone: "bg-blue-500/10 text-blue-700 border-blue-400/30" };
   }
 }

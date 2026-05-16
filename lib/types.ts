@@ -57,6 +57,13 @@ export interface QuizAnswers {
   workStyle: "presentiel" | "hybride" | "remote" | "independant";
   climate?: "soleil" | "tempere" | "ocean" | "montagne";
   currentCityMiss?: string;
+  // Mobility block (T1 — added 2026-05-16). All optional so existing payloads
+  // keep working. Influence the transport / remoteWork score weights.
+  mobilityMode?: "voiture" | "transit" | "velo" | "marche" | "mixte";
+  transitImportance?: "indispensable" | "important" | "secondaire" | "indifferent";
+  bikeImportance?: "indispensable" | "important" | "secondaire" | "indifferent";
+  parkingNeed?: "facile" | "moyen" | "indifferent";
+  commuteMaxMin?: number;
 }
 
 export interface MatchResult {

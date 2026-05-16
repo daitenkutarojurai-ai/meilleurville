@@ -168,15 +168,15 @@ export function RedFlagThemePage({ theme }: { theme: RedFlagTheme }) {
           <h3 className="text-lg font-bold text-[var(--text-primary)] mb-4">
             Autres red flags thématiques
           </h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 auto-rows-fr">
             {otherThemes.map((t) => (
-              <Link key={t.slug} href={`/red-flags/${t.slug}`} className="block">
-                <Card className="hover:border-[var(--accent)]/40 cursor-pointer transition-colors">
-                  <div className="flex items-start gap-3">
-                    <span className="text-2xl" aria-hidden>
+              <Link key={t.slug} href={`/red-flags/${t.slug}`} className="block h-full">
+                <Card className="h-full hover:border-[var(--accent)]/40 cursor-pointer transition-colors">
+                  <div className="flex items-start gap-3 h-full">
+                    <span className="text-2xl flex-shrink-0" aria-hidden>
                       {t.emoji}
                     </span>
-                    <div>
+                    <div className="flex flex-col h-full">
                       <p className="font-semibold text-[var(--text-primary)]">{t.title}</p>
                       <p className="text-xs text-[var(--text-secondary)] mt-1">
                         {t.intro.slice(0, 110)}…

@@ -143,12 +143,12 @@ export default function RedFlagsPage() {
               est difficile, villes belles mais invivables l&apos;été.
             </p>
           </div>
-          <div className="grid gap-3 sm:grid-cols-3">
+          <div className="grid gap-3 sm:grid-cols-3 auto-rows-fr">
             {RED_FLAG_THEMES.map((t) => (
               <Link
                 key={t.slug}
                 href={`/red-flags/${t.slug}`}
-                className="group rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-red-500/50 hover:shadow-md transition-all p-4 flex flex-col gap-2"
+                className="group h-full rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-red-500/50 hover:shadow-md transition-all p-4 flex flex-col gap-2"
               >
                 <div className="flex items-center gap-3">
                   <span className="text-3xl" aria-hidden>

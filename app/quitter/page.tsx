@@ -50,8 +50,7 @@ export default function QuitterIndexPage() {
 
         <div className="mt-6 flex flex-wrap gap-2 text-xs">
           <Badge>{QUITTER_PAIRS.length} paires</Badge>
-          <Badge>Proxy v0</Badge>
-          <Badge>SSG</Badge>
+          <Badge>Données calibrées sur 352 villes</Badge>
         </div>
 
         {[...grouped.entries()].map(([originName, pairs]) => (

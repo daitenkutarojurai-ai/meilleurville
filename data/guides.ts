@@ -26,7 +26,7 @@ export const GUIDES: Guide[] = [
     emoji: "💻",
     readMinutes: 8,
     publishedAt: "2025-01-15",
-    updatedAt: "2025-04-01",
+    updatedAt: "2026-02-12",
     intro:
       "Le télétravail a transformé la géographie des choix de vie. Pourquoi payer 1 800€/mois un studio à Paris quand vous pouvez avoir un T3 avec terrasse à Rennes pour 900€, la fibre 1 Gb/s et un vélo pour aller au coworking ? Ce guide analyse objectivement les meilleures villes françaises pour travailler à distance — au-delà des classements génériques.",
     sections: [
@@ -73,7 +73,7 @@ export const GUIDES: Guide[] = [
     emoji: "👨‍👩‍👧",
     readMinutes: 10,
     publishedAt: "2025-02-01",
-    updatedAt: "2025-04-15",
+    updatedAt: "2026-01-15",
     intro:
       "Choisir où élever ses enfants est peut-être la décision la plus lourde qu'une famille puisse prendre. Les classements habituels mesurent des abstractions. Ce guide mesure ce qui compte vraiment : à quelle vitesse votre enfant peut-il aller à l'école seul ? Y a-t-il un parc à 10 minutes ? Les urgences pédiatriques sont-elles à 20 ou 60 minutes ?",
     sections: [
@@ -116,7 +116,7 @@ export const GUIDES: Guide[] = [
     emoji: "💰",
     readMinutes: 7,
     publishedAt: "2025-01-20",
-    updatedAt: "2025-04-10",
+    updatedAt: "2026-02-02",
     intro:
       "Le coût de la vie en France hors Paris est en moyenne 40% moins cher. Mais cette moyenne cache d'énormes disparités. Un T2 à Limoges coûte 430€/mois. Le même appartement à Annecy : 900€. Ce guide compare les budgets réels, basés sur les déclarations des habitants de MeilleurVille.",
     sections: [
@@ -155,7 +155,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌅",
     readMinutes: 9,
     publishedAt: "2025-03-01",
-    updatedAt: "2025-04-20",
+    updatedAt: "2026-02-16",
     intro:
       "La retraite est un projet de vie, pas un simple déménagement. Les critères changent radicalement : on cherche moins la proximité du bureau et plus celle du médecin, moins le dynamisme nocturne et plus la douceur du quotidien. Ce guide analyse les 8 villes françaises qui cochent vraiment toutes les cases retraite.",
     sections: [
@@ -198,7 +198,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌊",
     readMinutes: 6,
     publishedAt: "2025-02-15",
-    updatedAt: "2025-04-05",
+    updatedAt: "2026-01-31",
     intro:
       "La Bretagne polarise : certains en rêvent (mer, air pur, caractère breton), d'autres s'interrogent sur la pluie, l'isolement et les connexions. Ce guide répond aux vraies questions que se posent les télétravailleurs avant de partir.",
     sections: [
@@ -236,7 +236,7 @@ export const GUIDES: Guide[] = [
     emoji: "☀️",
     readMinutes: 6,
     publishedAt: "2025-01-10",
-    updatedAt: "2025-03-20",
+    updatedAt: "2026-02-10",
     intro:
       "Le soleil est l'un des facteurs de bien-être les plus documentés scientifiquement. Il influence le moral, le sommeil, la vitamin D, et l'activité physique. Ce guide classe les villes françaises par ensoleillement réel — avec les avis des habitants sur ce que ça change vraiment au quotidien.",
     sections: [
@@ -275,7 +275,7 @@ export const GUIDES: Guide[] = [
     emoji: "🚂",
     readMinutes: 12,
     publishedAt: "2025-03-15",
-    updatedAt: "2025-04-25",
+    updatedAt: "2026-03-15",
     intro:
       "Chaque année, 50 000 personnes quittent Paris pour la province. La plupart ne reviennent pas. Mais le départ se prépare — et beaucoup font des erreurs coûteuses en choisissant mal leur destination ou en ne mesurant pas les compromis. Ce guide est celui qu'on aurait aimé avoir avant.",
     sections: [
@@ -317,7 +317,7 @@ export const GUIDES: Guide[] = [
     emoji: "🎓",
     readMinutes: 8,
     publishedAt: "2025-02-15",
-    updatedAt: "2025-04-10",
+    updatedAt: "2026-01-22",
     intro: "Le choix de la ville universitaire est souvent pris à la légère — on suit sa famille, ses amis, ou la réputation de l'école. Pourtant, la qualité de vie étudiante varie énormément selon la ville. Ce guide vous aide à choisir avec les yeux ouverts.",
     sections: [
       {
@@ -350,7 +350,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌅",
     readMinutes: 9,
     publishedAt: "2025-03-01",
-    updatedAt: "2025-04-20",
+    updatedAt: "2026-02-05",
     intro: "La retraite en France est une révolution de vie. Pour la première fois depuis 40 ans, vous choisissez librement où habiter. Ce guide vous aide à structurer ce choix — avec des données, des témoignages, et sans vous vendre du rêve.",
     sections: [
       {
@@ -383,7 +383,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌿",
     readMinutes: 7,
     publishedAt: "2025-03-10",
-    updatedAt: "2025-04-22",
+    updatedAt: "2026-04-24",
     intro: "Avoir un grand parc ou une forêt à 15 minutes à pied change radicalement la qualité de vie. Ce n'est pas un luxe — c'est une santé. Ce guide classe les villes françaises où la nature est accessible au quotidien, pas juste le week-end.",
     sections: [
       {
@@ -416,7 +416,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌊",
     readMinutes: 7,
     publishedAt: "2025-02-10",
-    updatedAt: "2025-04-15",
+    updatedAt: "2026-01-28",
     intro: "Vivre au bord de la mer, pas juste y passer ses vacances. Il y a une différence fondamentale entre les villes côtières «touristiques» et celles où on peut réellement bien vivre toute l'année. Ce guide classe les meilleures villes maritimes françaises selon des critères de qualité de vie réelle : emploi, prix, services, vie hors saison.",
     sections: [
       {
@@ -457,7 +457,7 @@ export const GUIDES: Guide[] = [
     emoji: "⚖️",
     readMinutes: 9,
     publishedAt: "2025-01-20",
-    updatedAt: "2025-04-20",
+    updatedAt: "2026-01-18",
     intro: "Vous hésitez entre les trois grandes métropoles françaises hors Paris ? Bordeaux, Lyon et Nantes sont les destinations favorites des Parisiens qui cherchent à partir. Mais elles ne se ressemblent pas. Ce guide les compare honnêtement — sans langue de bois — sur les critères qui comptent vraiment.",
     sections: [
       {
@@ -499,7 +499,7 @@ export const GUIDES: Guide[] = [
     emoji: "⚖️",
     readMinutes: 8,
     publishedAt: "2025-04-01",
-    updatedAt: "2025-04-28",
+    updatedAt: "2026-02-25",
     intro:
       "Toulouse et Montpellier sont les deux métropoles rivales du Sud-Ouest et du Languedoc. Elles partagent le soleil, le dynamisme et la jeunesse — mais leurs personnalités sont radicalement différentes. Laquelle correspond à votre projet de vie ?",
     sections: [
@@ -546,7 +546,7 @@ export const GUIDES: Guide[] = [
     emoji: "🚲",
     readMinutes: 7,
     publishedAt: "2025-03-20",
-    updatedAt: "2025-04-26",
+    updatedAt: "2026-02-05",
     intro:
       "La voiture coûte en moyenne 6 000€/an en France (assurance, carburant, entretien, stationnement). Se passer de voiture, c'est potentiellement 500€/mois de pouvoir d'achat retrouvé. Ce guide identifie les villes françaises où c'est réellement possible — pas théoriquement, mais dans la pratique du quotidien.",
     sections: [
@@ -593,7 +593,7 @@ export const GUIDES: Guide[] = [
     emoji: "🥨",
     readMinutes: 8,
     publishedAt: "2025-04-10",
-    updatedAt: "2025-04-28",
+    updatedAt: "2026-02-14",
     intro:
       "L'Alsace est la région française la plus singulière : culturellement entre France et Allemagne, gastronomiquement incomparable, géographiquement entre Rhin et Vosges. S'y installer est un choix de vie fort. Ce guide compare les trois villes principales et vous aide à décider.",
     sections: [
@@ -639,7 +639,7 @@ export const GUIDES: Guide[] = [
     emoji: "🚂",
     readMinutes: 10,
     publishedAt: "2025-03-01",
-    updatedAt: "2025-04-25",
+    updatedAt: "2026-03-06",
     intro: "400 000 Parisiens ont quitté Île-de-France depuis 2020. Si vous y pensez, vous n'êtes pas seul. Mais «quitter Paris» est un projet qui peut se passer à merveille ou tourner au drame si mal préparé. Ce guide couvre les vraies questions — pas les clichés.",
     sections: [
       {
@@ -681,7 +681,7 @@ export const GUIDES: Guide[] = [
     emoji: "⚓",
     readMinutes: 7,
     publishedAt: "2025-03-20",
-    updatedAt: "2025-04-28",
+    updatedAt: "2026-03-28",
     intro:
       "La Normandie souffre d'une image injuste. On y pense pluie, pommes et plages du Débarquement — alors que la région offre l'une des meilleures qualités de vie de France à moins de 2h de Paris. Rouen, Caen et Le Havre sont trois profils radicalement différents. Ce guide vous aide à choisir selon votre situation.",
     sections: [
@@ -720,7 +720,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌊",
     readMinutes: 8,
     publishedAt: "2025-04-01",
-    updatedAt: "2025-04-28",
+    updatedAt: "2026-01-17",
     intro:
       "La côte atlantique concentre trois des villes les plus convoitées de France. Bordeaux la métropole branchée, La Rochelle la cité portuaire ensoleillée, Bayonne la porte du Pays Basque. Chacune cible un profil différent — voici lequel vous correspond.",
     sections: [
@@ -759,7 +759,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏘️",
     readMinutes: 9,
     publishedAt: "2025-04-10",
-    updatedAt: "2025-04-28",
+    updatedAt: "2026-04-19",
     intro:
       "Avec des taux en baisse et un marché immobilier qui cherche son équilibre, 2025 offre des opportunités concrètes pour l'investisseur locatif bien informé. Mais toutes les villes ne se valent pas : certaines ont une rentabilité brute de 3%, d'autres de 7%. Ce guide classe les 8 meilleures villes françaises selon 4 critères : rendement brut, tension locative, perspectives de valorisation et risque de vacance.",
     sections: [
@@ -806,7 +806,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏄",
     readMinutes: 7,
     publishedAt: "2025-04-15",
-    updatedAt: "2025-04-28",
+    updatedAt: "2026-01-28",
     intro:
       "Le Pays Basque français est devenu l'une des destinations de relocation les plus convoitées depuis 2020. Et pour cause : culture identitaire forte, gastronomie exceptionnelle, mer et montagne à portée de main, et une qualité de vie qu'on ne trouve nulle part ailleurs en France. Bayonne, Biarritz et Pau sont trois profils radicalement différents. Décryptage.",
     sections: [
@@ -845,7 +845,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏔️",
     readMinutes: 8,
     publishedAt: "2025-04-20",
-    updatedAt: "2025-04-28",
+    updatedAt: "2026-01-14",
     intro:
       "Auvergne-Rhône-Alpes est la région la plus dynamique de France hors Île-de-France. Lyon, Grenoble et Annecy représentent trois projets de vie radicalement différents, mais toutes ont en commun une chose : une qualité de vie que les Parisiens découvrent avec stupéfaction quand ils s'y installent.",
     sections: [
@@ -883,7 +883,7 @@ export const GUIDES: Guide[] = [
     emoji: "☀️",
     readMinutes: 9,
     publishedAt: "2025-03-15",
-    updatedAt: "2025-04-28",
+    updatedAt: "2026-01-14",
     intro: "La retraite est l'une des grandes décisions géographiques de la vie. Faut-il rester près des enfants, ou partir au soleil ? Faut-il sacrifier l'accessibilité médicale pour un budget plus confortable ? Ce guide répond honnêtement — avec des données, pas des clichés.",
     sections: [
       {
@@ -932,7 +932,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌻",
     readMinutes: 9,
     publishedAt: "2025-04-01",
-    updatedAt: "2025-04-29",
+    updatedAt: "2026-05-10",
     intro: "L'Occitanie est la région la plus ensoleillée de France continentale. Mais entre Toulouse et Perpignan, les réalités sont radicalement différentes. Ce guide démêle les clichés du soleil et de la douceur de vivre pour vous aider à choisir la bonne ville occitane selon votre profil.",
     sections: [
       {
@@ -977,7 +977,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌊",
     readMinutes: 10,
     publishedAt: "2025-02-15",
-    updatedAt: "2025-04-30",
+    updatedAt: "2026-03-06",
     intro: "Le Sud de la France fait rêver la moitié de la population française. Mais le «Sud», c'est vaste — PACA et Occitanie regroupent 15 grandes villes très différentes. Voici la carte honnête de ce qui vous attend, soleil et ombres compris.",
     sections: [
       {
@@ -1022,7 +1022,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌾",
     readMinutes: 8,
     publishedAt: "2025-03-20",
-    updatedAt: "2025-04-29",
+    updatedAt: "2026-03-07",
     intro: "Les Hauts-de-France sont la région la plus sous-estimée de France pour le rapport qualité/prix. Lille est une métropole internationale à 35 min de Bruxelles, 1h de Paris et 1h25 de Londres — mais personne n'en parle. Ce guide corrige ce biais.",
     sections: [
       {
@@ -1068,7 +1068,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏰",
     readMinutes: 9,
     publishedAt: "2025-03-10",
-    updatedAt: "2025-04-20",
+    updatedAt: "2026-05-04",
     intro:
       "La Normandie est l'une des régions les plus sous-estimées de France pour s'y installer. À deux heures de Paris, avec une façade maritime de 600 km, des villes accessibles, une gastronomie incomparable et un patrimoine historique exceptionnel, elle attire de plus en plus de familles et de télétravailleurs. Ce guide vous aide à choisir entre Caen, Rouen, Le Havre, Bayeux et Alençon.",
     sections: [
@@ -1115,7 +1115,7 @@ export const GUIDES: Guide[] = [
     emoji: "⚓",
     readMinutes: 9,
     publishedAt: "2025-03-20",
-    updatedAt: "2025-04-25",
+    updatedAt: "2026-04-19",
     intro:
       "La Bretagne est devenue l'une des destinations préférées des Français qui quittent les grandes métropoles. Entre sa façade atlantique spectaculaire, ses villes universitaires dynamiques, sa culture forte et ses prix immobiliers encore abordables (hors côte et grandes villes), la région offre un cadre de vie difficile à égaler. Ce guide vous aide à choisir votre ville bretonne.",
     sections: [
@@ -1162,7 +1162,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏯",
     readMinutes: 8,
     publishedAt: "2025-04-01",
-    updatedAt: "2025-04-28",
+    updatedAt: "2026-02-22",
     intro:
       "Le Centre-Val de Loire est la région la plus accessible de France depuis Paris — et pourtant la plus méconnue pour y habiter. Tours à 55 min de TGV, Orléans à 1h, Chartres à 1h15 : vous êtes en province, mais la capitale reste à portée de main pour vos rendez-vous. La région des châteaux, de la douceur de vivre et des loyers encore sages mérite votre attention.",
     sections: [
@@ -1209,7 +1209,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏠",
     readMinutes: 10,
     publishedAt: "2025-04-05",
-    updatedAt: "2025-04-28",
+    updatedAt: "2026-03-13",
     intro:
       "Les taux immobiliers ont baissé en 2024-2025, relançant les velléités d'achat de nombreux Français. Mais où acheter ? Les grandes métropoles ont explosé, certaines villes moyennes ont rattrapé leur retard, et d'autres restent accessibles avec des fondamentaux solides. Ce guide analyse 12 villes françaises selon trois critères : prix actuel, potentiel de valorisation et rendement locatif brut.",
     sections: [
@@ -1260,7 +1260,7 @@ export const GUIDES: Guide[] = [
     intro: "Le Grand Est est une région-carrefour à la croisée de l'Allemagne, du Luxembourg et de la Suisse. Strasbourg, capitale européenne, côtoie des villes à taille humaine comme Nancy, Metz ou Reims où la qualité de vie est excellente à prix compétitifs. Guide pour ceux qui envisagent de s'y installer.",
     readMinutes: 9,
     publishedAt: "2025-07-01",
-    updatedAt: "2025-07-01",
+    updatedAt: "2026-01-19",
     sections: [
       {
         heading: "Strasbourg : capitale européenne, loyers tendus",
@@ -1305,7 +1305,7 @@ export const GUIDES: Guide[] = [
     intro: "La Nouvelle-Aquitaine est la plus grande région de France en superficie, du Bassin Arcachon aux contreforts pyrénéens. Bordeaux en est la métropole, mais la région regorge d'alternatives moins chères et tout aussi séduisantes : Pau pour les Pyrénées, La Rochelle pour l'Atlantique, ou encore Saintes et Cognac pour l'authenticité charentaise.",
     readMinutes: 10,
     publishedAt: "2025-07-15",
-    updatedAt: "2025-07-15",
+    updatedAt: "2026-02-27",
     sections: [
       {
         heading: "Bordeaux : la belle endormie devenue trop chère",
@@ -1350,7 +1350,7 @@ export const GUIDES: Guide[] = [
     intro: "Auvergne-Rhône-Alpes est la région la plus polyvalente de France : des Alpes à la Provence en passant par les volcans d'Auvergne, elle offre une diversité de paysages et de modes de vie unique. Lyon en est la locomotive économique, mais Grenoble, Annecy, Chambéry et Valence proposent chacune une équation qualité de vie / coût très convaincante.",
     readMinutes: 10,
     publishedAt: "2025-08-01",
-    updatedAt: "2025-08-01",
+    updatedAt: "2026-03-31",
     sections: [
       {
         heading: "Lyon : la métropole incontournable du couloir rhodanien",
@@ -1395,7 +1395,7 @@ export const GUIDES: Guide[] = [
     intro: "Le Pays de la Loire est une région qui attire de plus en plus de Franciliens en quête de qualité de vie. Nantes, régulièrement élue ville où il fait bon vivre, en est la figure de proue. Mais Angers, Le Mans, Laval et Saint-Nazaire proposent des alternatives convaincantes à des prix bien plus abordables.",
     readMinutes: 9,
     publishedAt: "2025-08-15",
-    updatedAt: "2025-08-15",
+    updatedAt: "2026-05-04",
     sections: [
       {
         heading: "Nantes : la métropole atlantique idéale, mais sous pression",
@@ -1440,7 +1440,7 @@ export const GUIDES: Guide[] = [
     intro: "PACA est le rêve de millions de Français : soleil, mer, lavande, gastronomie. Mais cette attractivité a un coût — immobilier sous tension, inégalités criantes, embouteillages. Ce guide démêle le vrai du faux pour vous aider à choisir la bonne ville et le bon quartier.",
     readMinutes: 11,
     publishedAt: "2025-09-01",
-    updatedAt: "2025-09-01",
+    updatedAt: "2026-05-05",
     sections: [
       {
         heading: "Nice : le luxe méditerranéen et ses contraintes",
@@ -1485,7 +1485,7 @@ export const GUIDES: Guide[] = [
     intro: "La Bourgogne-Franche-Comté est une région souvent sous-estimée. Connue pour ses vins et ses moutardes, elle abrite aussi Besançon — l'une des villes les plus agréables de France — et Dijon, capitale gastronomique mondiale. Une région où l'immobilier reste accessible et la qualité de vie élevée.",
     readMinutes: 8,
     publishedAt: "2025-09-15",
-    updatedAt: "2025-09-15",
+    updatedAt: "2026-03-06",
     sections: [
       {
         heading: "Dijon : la capitale gastronomique et culturelle",
@@ -1530,7 +1530,7 @@ export const GUIDES: Guide[] = [
     intro: "La retraite est une opportunité de vie — et le choix de la ville où s'installer peut faire une différence considérable sur la qualité du quotidien. Soleil, accès aux soins, vie sociale, sécurité, logement abordable : voici les critères et les villes qui cochent toutes les cases.",
     readMinutes: 8,
     publishedAt: "2025-09-20",
-    updatedAt: "2025-09-20",
+    updatedAt: "2026-04-04",
     sections: [
       {
         heading: "Les critères d'une retraite idéale",
@@ -1575,7 +1575,7 @@ export const GUIDES: Guide[] = [
     intro: "Choisir sa ville pour ses études est une décision qui engage plusieurs années — et souvent, qui forge votre réseau professionnel pour la vie. Budget serré, vie sociale intense, besoin de transports efficaces et d'un logement abordable : voici les villes qui cochent toutes ces cases.",
     readMinutes: 7,
     publishedAt: "2025-10-01",
-    updatedAt: "2025-10-01",
+    updatedAt: "2026-02-19",
     sections: [
       {
         heading: "Les critères d'une ville étudiante idéale",
@@ -1620,7 +1620,7 @@ export const GUIDES: Guide[] = [
     intro: "Vivre au bord de la mer est un rêve pour beaucoup de Français. Mais la mer a un prix — et selon la côte choisie, il peut varier du simple au décuple. Ce guide compare les meilleures villes côtières selon le coût, la qualité de vie à l'année, et ce que la côte apporte vraiment au quotidien.",
     readMinutes: 8,
     publishedAt: "2025-10-15",
-    updatedAt: "2025-10-15",
+    updatedAt: "2026-04-19",
     sections: [
       {
         heading: "Vivre en bord de mer : la réalité vs le rêve",
@@ -1665,7 +1665,7 @@ export const GUIDES: Guide[] = [
     intro: "Pendant que tout le monde se dispute Bordeaux et Annecy, des dizaines de villes françaises offrent une qualité de vie remarquable à des prix qui n'ont pas encore explosé. Ce guide les révèle avant qu'il ne soit trop tard.",
     readMinutes: 7,
     publishedAt: "2025-11-01",
-    updatedAt: "2025-11-01",
+    updatedAt: "2026-03-22",
     sections: [
       {
         heading: "1. Rodez (Aveyron) — 7.5/10, incroyablement sous-côté",
@@ -1726,7 +1726,7 @@ export const GUIDES: Guide[] = [
     intro: "Des millions de Français vivent en banlieue parisienne dans des appartements trop petits, avec 2h de RER par jour, pour des loyers de 1 200€. La même qualité de vie est disponible en province pour moitié moins cher — et souvent à 2h de Paris en TGV. Ce guide pour les familles et télétravaille urs qui envisagent le saut.",
     readMinutes: 9,
     publishedAt: "2025-11-15",
-    updatedAt: "2025-11-15",
+    updatedAt: "2026-01-03",
     sections: [
       {
         heading: "Le calcul qui change tout : banlieue vs province",
@@ -1771,7 +1771,7 @@ export const GUIDES: Guide[] = [
     intro: "Être freelance en France offre une liberté de localisation unique. Ce guide aide les indépendants — développeurs, designers, consultants, créateurs — à choisir la ville qui maximise leur qualité de vie, leur réseau professionnel et leur efficacité économique.",
     readMinutes: 8,
     publishedAt: "2025-12-01",
-    updatedAt: "2025-12-01",
+    updatedAt: "2026-05-07",
     sections: [
       {
         heading: "Ce qui compte vraiment pour un freelance",
@@ -1816,7 +1816,7 @@ export const GUIDES: Guide[] = [
     intro: "Pour les familles avec enfants, le choix de la ville est critique sur plusieurs années. Qualité des écoles, sécurité du quartier, espaces verts accessibles, médecins de famille disponibles — ce guide classe les villes selon les critères qui comptent vraiment pour les parents.",
     readMinutes: 9,
     publishedAt: "2025-12-15",
-    updatedAt: "2025-12-15",
+    updatedAt: "2026-03-14",
     sections: [
       {
         heading: "Les critères familiaux : au-delà du classement scolaire",
@@ -1861,7 +1861,7 @@ export const GUIDES: Guide[] = [
     intro: "Quitter Paris est le projet de vie de millions de Français, mais beaucoup restent bloqués par l'incertitude : où aller, comment choisir, comment gérer la transition professionnelle. Ce guide couvre tous les aspects pratiques du départ, des destinations les plus demandées aux erreurs classiques à éviter.",
     readMinutes: 11,
     publishedAt: "2026-01-05",
-    updatedAt: "2026-01-05",
+    updatedAt: "2026-02-22",
     sections: [
       {
         heading: "Pourquoi de plus en plus de Parisiens partent",
@@ -1910,7 +1910,7 @@ export const GUIDES: Guide[] = [
     intro: "Entre 25 et 35 ans, les critères pour choisir sa ville sont différents : trouver un emploi ou développer une carrière, loger à un prix raisonnable, avoir une vie sociale riche, et garder des perspectives d'évolution. Ce classement optimise pour ces critères spécifiques.",
     readMinutes: 8,
     publishedAt: "2026-01-20",
-    updatedAt: "2026-01-20",
+    updatedAt: "2026-02-26",
     sections: [
       {
         heading: "Les critères qui comptent vraiment pour les 25-35 ans",
@@ -1955,7 +1955,7 @@ export const GUIDES: Guide[] = [
     intro: "Le rêve de vivre en bord de mer est universel, mais les villes côtières françaises les plus connues sont devenues hors de prix. Ce guide identifie les destinations côtières où vous pouvez encore vous loger à prix raisonnable sans sacrifier la qualité de vie.",
     readMinutes: 9,
     publishedAt: "2026-02-01",
-    updatedAt: "2026-02-01",
+    updatedAt: "2026-05-04",
     sections: [
       {
         heading: "Le paradoxe côtier : mer à tout prix ou mer accessible ?",
@@ -2000,7 +2000,7 @@ export const GUIDES: Guide[] = [
     intro: "L'investissement locatif en France reste l'un des placements préférés des Français, mais les rendements varient considérablement d'une ville à l'autre. Ce guide classe les villes par rendement locatif brut réel et analyse les perspectives 2025-2030.",
     readMinutes: 10,
     publishedAt: "2026-02-15",
-    updatedAt: "2026-02-15",
+    updatedAt: "2026-04-14",
     sections: [
       {
         heading: "Rendement locatif brut : la métrique de base",
@@ -2045,7 +2045,7 @@ export const GUIDES: Guide[] = [
     intro: "Vivre sans voiture est possible dans beaucoup de villes françaises — mais le confort varie énormément. Ce guide classe les villes selon leur walkscore, leur réseau cyclable, leurs transports en commun, et les témoignages de résidents sans voiture.",
     readMinutes: 7,
     publishedAt: "2026-03-01",
-    updatedAt: "2026-03-01",
+    updatedAt: "2026-03-16",
     sections: [
       {
         heading: "Les critères d'une ville vraiment vécable sans voiture",
@@ -2090,7 +2090,7 @@ export const GUIDES: Guide[] = [
     intro: "La France accueille chaque année des dizaines de milliers d'expatriés venant du monde entier. Mais toutes les villes ne sont pas égales pour s'installer : communauté internationale, maîtrise de l'anglais, accès aux services administratifs, et qualité de vie varient considérablement.",
     readMinutes: 10,
     publishedAt: "2026-03-15",
-    updatedAt: "2026-03-15",
+    updatedAt: "2026-02-26",
     sections: [
       {
         heading: "Pourquoi la France attire autant d'expatriés",
@@ -2135,7 +2135,7 @@ export const GUIDES: Guide[] = [
     intro: "Les seniors actifs de 55-70 ans ont des critères très différents des retraités « classiques » : ils veulent bouger, créer des liens sociaux, accéder à la nature, et maintenir un accès aux soins de qualité sans dépendre d'une voiture. Ce guide classe les villes selon ces critères spécifiques.",
     readMinutes: 8,
     publishedAt: "2026-03-20",
-    updatedAt: "2026-03-20",
+    updatedAt: "2026-02-07",
     sections: [
       {
         heading: "Seniors actifs : des besoins spécifiques et souvent sous-estimés",
@@ -2180,7 +2180,7 @@ export const GUIDES: Guide[] = [
     intro: "Le lieu d'implantation d'une entreprise détermine son accès au talent, aux financements, aux clients, et aux partenaires. Ce guide classe les villes françaises selon les critères qui comptent pour un entrepreneur : écosystème, talent, immobilier de bureau, et aides régionales.",
     readMinutes: 9,
     publishedAt: "2026-04-01",
-    updatedAt: "2026-04-01",
+    updatedAt: "2026-04-14",
     sections: [
       {
         heading: "Pourquoi la localisation d'une startup compte plus qu'on ne le croit",
@@ -2225,7 +2225,7 @@ export const GUIDES: Guide[] = [
     intro: "Vivre en montagne est un mode de vie à part entière : air pur, sport au quotidien, communauté soudée — mais aussi des contraintes réelles. Ce guide compare les meilleures villes de montagne selon leurs conditions de vie, leurs accès, et leurs profils de résidents.",
     readMinutes: 9,
     publishedAt: "2026-04-10",
-    updatedAt: "2026-04-10",
+    updatedAt: "2026-01-21",
     sections: [
       {
         heading: "Montagne : les trois modèles de villes",
@@ -2270,7 +2270,7 @@ export const GUIDES: Guide[] = [
     intro: "Normandie et Bretagne sont les deux grandes régions de l'Ouest français, souvent mises en concurrence par les Parisiens en quête d'une vie plus sereine en bord de mer. Elles sont proches géographiquement mais très différentes dans leur identité, leur économie et leur cadre de vie.",
     readMinutes: 8,
     publishedAt: "2026-04-15",
-    updatedAt: "2026-04-15",
+    updatedAt: "2026-04-14",
     sections: [
       {
         heading: "La première différence : l'accessibilité depuis Paris",
@@ -2315,7 +2315,7 @@ export const GUIDES: Guide[] = [
     intro: "L'Île-de-France est la région la plus dense, la plus chère et la plus complexe de France. Pourtant, elle reste la région avec la plus forte concentration d'emplois, d'opportunités culturelles et de transports. Ce guide décrypte les différents profils de territoires franciliens pour vous aider à trouver votre niche.",
     readMinutes: 10,
     publishedAt: "2026-04-20",
-    updatedAt: "2026-04-20",
+    updatedAt: "2026-05-09",
     sections: [
       {
         heading: "Paris intra-muros : la vie d'hyper-centre",
@@ -2360,7 +2360,7 @@ export const GUIDES: Guide[] = [
     intro: "La France possède l'un des écosystèmes tech les plus dynamiques d'Europe. Mais l'écosystème ne se concentre plus uniquement à Paris — la French Tech s'est profondément décentralisée depuis 2015. Ce guide classe les meilleures villes françaises pour les profils du numérique.",
     readMinutes: 9,
     publishedAt: "2026-04-20",
-    updatedAt: "2026-04-20",
+    updatedAt: "2026-05-09",
     sections: [
       {
         heading: "Paris : la capitale de la tech française",
@@ -2405,7 +2405,7 @@ export const GUIDES: Guide[] = [
     intro: "Une mutation professionnelle est l'une des transitions de vie les plus complexes. Ce guide vous donne une méthode structurée pour choisir votre prochaine ville sans vous perdre dans les comparatifs infinis.",
     readMinutes: 8,
     publishedAt: "2026-04-22",
-    updatedAt: "2026-04-22",
+    updatedAt: "2026-02-22",
     sections: [
       {
         heading: "Étape 1 : valider l'emploi du conjoint en priorité",
@@ -2450,7 +2450,7 @@ export const GUIDES: Guide[] = [
     intro: "Le débat Paris vs Province est l'un des plus anciens de la sociologie française. Mais au-delà des clichés, il existe des données réelles pour trancher. Ce guide donne une analyse honnête des deux options.",
     readMinutes: 9,
     publishedAt: "2026-04-22",
-    updatedAt: "2026-04-22",
+    updatedAt: "2026-02-10",
     sections: [
       {
         heading: "L'argument salarial : Paris gagne... mais pas autant qu'on croit",
@@ -2495,7 +2495,7 @@ export const GUIDES: Guide[] = [
     intro: "La France bénéficie d'un réseau de soutien à la création artistique unique en Europe (intermittents du spectacle, IRCAM, résidences régionales). Mais toutes les villes ne sont pas égales pour les créatifs.",
     readMinutes: 8,
     publishedAt: "2026-04-22",
-    updatedAt: "2026-04-22",
+    updatedAt: "2026-02-20",
     sections: [
       {
         heading: "Montreuil : le Bushwick parisien",
@@ -2540,7 +2540,7 @@ export const GUIDES: Guide[] = [
     intro: "La Corse fait rêver : montagne, mer, maquis et soleil quasi méditerranéen. Mais vivre en Corse ne s'improvise pas — le marché immobilier est l'un des plus tendus de France, le marché de l'emploi est limité, et la vie sur l'île nécessite une adaptation réelle.",
     readMinutes: 9,
     publishedAt: "2026-04-24",
-    updatedAt: "2026-04-24",
+    updatedAt: "2026-01-30",
     sections: [
       {
         heading: "Ajaccio vs Bastia : les deux capitales",
@@ -2585,7 +2585,7 @@ export const GUIDES: Guide[] = [
     intro: "Lyon et Bordeaux sont les deux métropoles françaises qui concentrent le plus de demandes de mutation depuis Paris. Proches dans les sondages de satisfaction, elles sont pourtant profondément différentes dans leur culture, leur économie et leur rapport au quotidien. Ce guide vous aide à choisir.",
     readMinutes: 9,
     publishedAt: "2026-04-25",
-    updatedAt: "2026-04-25",
+    updatedAt: "2026-05-11",
     sections: [
       {
         heading: "L'économie et l'emploi : Lyon plus solide, Bordeaux plus jeune",
@@ -2630,7 +2630,7 @@ export const GUIDES: Guide[] = [
     intro: "Nantes et Rennes sont les deux capitales régionales de l'Ouest français, souvent comparées car proches géographiquement (1h10 par TGV) et partageant un dynamisme démographique exceptionnel. Pourtant, elles ont des personnalités très différentes.",
     readMinutes: 8,
     publishedAt: "2026-04-25",
-    updatedAt: "2026-04-25",
+    updatedAt: "2026-01-21",
     sections: [
       {
         heading: "Taille et densité : Nantes grande métropole, Rennes ville à taille humaine",
@@ -2675,7 +2675,7 @@ export const GUIDES: Guide[] = [
     intro: "Marseille et Toulouse sont les deux plus grandes métropoles du Sud de la France. Pourtant, elles n'ont presque rien en commun — à l'exception du soleil et d'une identité locale forte. Ce guide dresse un comparatif honnête pour vous aider à choisir.",
     readMinutes: 9,
     publishedAt: "2026-04-25",
-    updatedAt: "2026-04-25",
+    updatedAt: "2026-05-07",
     sections: [
       {
         heading: "Emploi : Toulouse plus stable, Marseille plus diversifiée",
@@ -2720,7 +2720,7 @@ export const GUIDES: Guide[] = [
     intro: "Pas besoin de vivre dans une grande métropole pour avoir une qualité de vie exceptionnelle. Les petites villes françaises offrent souvent le meilleur de la France : patrimoine, convivialité, nature proche et coût de la vie accessible. Mais lesquelles valent vraiment le détour ?",
     readMinutes: 9,
     publishedAt: "2026-04-27",
-    updatedAt: "2026-04-27",
+    updatedAt: "2026-01-14",
     sections: [
       {
         heading: "Pourquoi les petites villes regagnent du terrain",
@@ -2765,7 +2765,7 @@ export const GUIDES: Guide[] = [
     intro: "La qualité de l'air et l'accès à la nature sont devenus des critères déterminants pour choisir une ville. Après des années de smog parisien et de canicules urbaines, les Français s'informent sur la pollution atmosphérique et la verdure avant de s'installer. Ce guide classe les meilleures villes sur ces critères.",
     readMinutes: 8,
     publishedAt: "2026-04-27",
-    updatedAt: "2026-04-27",
+    updatedAt: "2026-05-01",
     sections: [
       {
         heading: "Où est-il le plus facile de respirer en France ?",
@@ -2810,7 +2810,7 @@ export const GUIDES: Guide[] = [
     intro: "La retraite au soleil n'est plus réservée à la Côte d'Azur. En 2025, les retraités bien informés arbitrent entre Méditerranée et Atlantique, entre grandes villes dynamiques et villes thermales abordables. Ce guide classe les meilleures destinations françaises pour une retraite ensoleillée — avec le vrai comparatif des budgets mensuels.",
     readMinutes: 9,
     publishedAt: "2026-04-30",
-    updatedAt: "2026-04-30",
+    updatedAt: "2026-05-08",
     sections: [
       {
         heading: "Les critères essentiels pour les seniors actifs",
@@ -2855,7 +2855,7 @@ export const GUIDES: Guide[] = [
     intro: "Lyon est la troisième ville de France, dynamique et attractive, mais ses prix immobiliers ont fortement progressé (4 000-5 500€/m² en centre). De plus en plus de Lyonnais et de nouveaux arrivants s'installent dans la couronne métropolitaine pour des loyers 20-40% inférieurs tout en restant connectés au bassin d'emploi lyonnais. Mode d'emploi.",
     readMinutes: 8,
     publishedAt: "2026-04-30",
-    updatedAt: "2026-04-30",
+    updatedAt: "2026-04-29",
     sections: [
       {
         heading: "Pourquoi la banlieue lyonnaise attire de plus en plus",
@@ -2900,7 +2900,7 @@ export const GUIDES: Guide[] = [
     intro: "La Côte Basque est devenue l'une des destinations les plus recherchées par les télétravailleurs et retraités français. Mais Biarritz et ses 7 000€/m² ne sont pas accessibles à tous. Ce guide explore les alternatives pour profiter du surf, de l'Atlantique et de la gastronomie basque sans explosser son budget immobilier.",
     readMinutes: 8,
     publishedAt: "2026-04-30",
-    updatedAt: "2026-04-30",
+    updatedAt: "2026-05-10",
     sections: [
       {
         heading: "Le mythe Biarritz : fantasme ou réalité quotidienne ?",
@@ -2945,7 +2945,7 @@ export const GUIDES: Guide[] = [
     intro: "L'immobilier locatif en France a subi la hausse des taux depuis 2022, mais certaines villes offrent toujours des rentabilités brutes supérieures à 6%. La clé : trouver le bon équilibre entre prix d'achat maîtrisé, demande locative soutenue (étudiants, jeunes actifs) et tension locative réelle. Ce guide analyse les marchés immobiliers les plus attractifs pour l'investisseur individuel en 2025.",
     readMinutes: 10,
     publishedAt: "2026-04-30",
-    updatedAt: "2026-04-30",
+    updatedAt: "2026-02-27",
     sections: [
       {
         heading: "La rentabilité brute : comment la calculer et quoi en penser",
@@ -2990,7 +2990,7 @@ export const GUIDES: Guide[] = [
     intro: "L'exode urbain post-Covid a poussé des milliers de Français à quitter Paris et les grandes villes. Certains ont visé des villages isolés, d'autres des villes de 20 000 à 80 000 habitants. Deux ans plus tard, bilans contrastés : regrets chez les ruraux isolés, satisfaction chez les « ville-moyen-nards ». Ce guide tranche honnêtement entre les deux options.",
     readMinutes: 9,
     publishedAt: "2026-04-30",
-    updatedAt: "2026-04-30",
+    updatedAt: "2026-04-29",
     sections: [
       {
         heading: "La réalité de la campagne : ce que les magazines ne disent pas",
@@ -3035,7 +3035,7 @@ export const GUIDES: Guide[] = [
     intro: "La Côte d'Azur reste l'une des régions les plus recherchées de France, mais ses prix ont atteint des niveaux inaccessibles pour la majorité des actifs français. Bonne nouvelle : l'arrière-pays provençal offre des alternatives exceptionnelles à 20-40 km de la Méditerranée, avec le même soleil, des paysages magnifiques et des prix 40-60% inférieurs.",
     readMinutes: 8,
     publishedAt: "2026-04-30",
-    updatedAt: "2026-04-30",
+    updatedAt: "2026-05-01",
     sections: [
       {
         heading: "Pourquoi les prix de la Côte d'Azur ont-ils autant monté ?",
@@ -3080,7 +3080,7 @@ export const GUIDES: Guide[] = [
     intro: "Bordeaux est devenue l'une des métropoles les plus prisées de France depuis l'ouverture de la LGV Paris-Bordeaux en 2017. Résultat : ses prix ont bondi de 60% en 10 ans. La couronne bordelaise offre des alternatives intéressantes à 20-40 km du centre, avec des prix 20-40% inférieurs et une bonne connexion au bassin d'emploi.",
     readMinutes: 7,
     publishedAt: "2026-04-30",
-    updatedAt: "2026-04-30",
+    updatedAt: "2026-03-23",
     sections: [
       {
         heading: "Bordeaux : pourquoi les prix ont-ils autant monté ?",
@@ -3125,7 +3125,7 @@ export const GUIDES: Guide[] = [
     intro: "Le nomadisme numérique s'est développé massivement en France depuis 2020. Contrairement au simple télétravail, le nomade numérique ne se fixe pas — il optimise son lieu de vie en permanence. Ce guide présente les villes françaises les plus adaptées à ce mode de vie : coworking dense, fibre partout, communauté d'indépendants active, et un coût de la vie qui permet de travailler moins pour vivre mieux.",
     readMinutes: 8,
     publishedAt: "2026-04-30",
-    updatedAt: "2026-04-30",
+    updatedAt: "2026-04-29",
     sections: [
       {
         heading: "Nomade numérique vs télétravailleur : des besoins différents",
@@ -3170,7 +3170,7 @@ export const GUIDES: Guide[] = [
     intro: "Le Val de Loire est classé Patrimoine Mondial de l'UNESCO depuis 2000 — l'un des plus grands sites inscrits au monde. Pourtant, ses villes restent parmi les plus abordables de France à moins d'1h30 de Paris. La région Centre-Val de Loire bénéficie d'un ensoleillement correct, d'une gastronomie reconnue, et d'un immobilier accessible qui attire de plus en plus les télétravailleur actifs et les familles.",
     readMinutes: 8,
     publishedAt: "2026-04-30",
-    updatedAt: "2026-04-30",
+    updatedAt: "2026-01-21",
     sections: [
       {
         heading: "Tours : la capitale du bien-vivre ligérien",
@@ -3215,7 +3215,7 @@ export const GUIDES: Guide[] = [
     intro: "Les Pyrénées offrent un art de vivre unique que l'on ne retrouve nulle part ailleurs en France : montagne accessible, mer à 1h (Atlantique ou Méditerranée selon le versant), cuisine régionale d'exception (basque, gasconne, catalane), et des prix immobiliers parmi les plus bas de France. Ce guide couvre les meilleures villes de piémont pyrénéen pour s'installer en 2025.",
     readMinutes: 8,
     publishedAt: "2026-04-30",
-    updatedAt: "2026-04-30",
+    updatedAt: "2026-04-24",
     sections: [
       {
         heading: "La double attraction des Pyrénées : montagne + mer",
@@ -3260,7 +3260,7 @@ export const GUIDES: Guide[] = [
     intro: "Les profils sensibles à l'écologie, au développement durable et à la responsabilité sociale d'entreprise (RSE) ont des critères de choix résidentiel très spécifiques : mobilité douce, commerces éthiques et locaux, végétalisation urbaine, gouvernance locale engagée, et présence d'une communauté d'entrepreneurs sociaux et d'associations. Ce guide classe les villes les plus alignées avec ces valeurs.",
     readMinutes: 8,
     publishedAt: "2026-04-30",
-    updatedAt: "2026-04-30",
+    updatedAt: "2026-05-06",
     sections: [
       {
         heading: "Les critères d'une ville « durable » en 2025",
@@ -3305,7 +3305,7 @@ export const GUIDES: Guide[] = [
     intro: "Le Var est le département provençal le plus accessible de la Côte d'Azur. Entre Marseille et Nice, il offre un cadre méditerranéen exceptionnel (soleil, mer, Estérel, îles d'Hyères) avec des prix inférieurs de 20-40% aux Alpes-Maritimes voisines. Ce guide couvre les principales villes du Var pour vous aider à trouver votre coin de Provence.",
     readMinutes: 8,
     publishedAt: "2026-04-30",
-    updatedAt: "2026-04-30",
+    updatedAt: "2026-01-28",
     sections: [
       {
         heading: "Pourquoi le Var ?",
@@ -3350,7 +3350,7 @@ export const GUIDES: Guide[] = [
     intro: "Le Morbihan est le département breton le plus ensoleillé (1 900-2 100h/an, record pour la Bretagne) et le plus doux. Le Golfe du Morbihan — souvent surnommé « petite mer » — est l'un des sites naturels les plus extraordinaires de France avec ses dizaines d'îles. Vannes, Lorient et leurs environs attirent de plus en plus d'actifs et retraités cherchant la Bretagne sans le temps gris permanent.",
     readMinutes: 8,
     publishedAt: "2026-04-30",
-    updatedAt: "2026-04-30",
+    updatedAt: "2026-02-19",
     sections: [
       {
         heading: "Le Morbihan : la Bretagne sous le soleil",
@@ -3395,7 +3395,7 @@ export const GUIDES: Guide[] = [
     intro: "En France, la géographie conditionne directement l'accès aux sports outdoor. Certaines villes permettent d'être sur les pistes de ski, en kayak sur une rivière de montagne, ou dans les vagues en moins de 30 min. Ce guide classe les villes en fonction de la densité et de la diversité des pratiques sportives accessibles depuis le domicile.",
     readMinutes: 8,
     publishedAt: "2026-04-30",
-    updatedAt: "2026-04-30",
+    updatedAt: "2026-01-22",
     sections: [
       {
         heading: "Les critères outdoor : plus que juste la montagne",
@@ -3440,7 +3440,7 @@ export const GUIDES: Guide[] = [
     intro: "Les deux Savoie (Savoie et Haute-Savoie) forment l'une des régions les plus attractives de France pour la qualité de vie : montagnes, lacs, gastronomie, air pur, dynamisme économique et une connexion genevoise qui offre des opportunités salariales uniques. Ce guide couvre les principales villes pour vous aider à choisir votre base dans les Alpes du Nord.",
     readMinutes: 8,
     publishedAt: "2026-04-30",
-    updatedAt: "2026-04-30",
+    updatedAt: "2026-01-17",
     sections: [
       {
         heading: "Annecy : le joyau des Alpes du Nord",
@@ -3485,7 +3485,7 @@ export const GUIDES: Guide[] = [
     emoji: "🍖",
     readMinutes: 9,
     publishedAt: "2025-04-15",
-    updatedAt: "2025-04-28",
+    updatedAt: "2026-02-26",
     intro:
       "La Dordogne est l'une des destinations de qualité de vie les plus prisées de France, notamment auprès des retraités, des Britanniques expatriés et des familles cherchant la France profonde. Gastronomie (foie gras, truffes, noix), patrimoine (châteaux des Bories, Lascaux, Sarlat), nature (rivières Dordogne et Vézère), prix immobiliers encore accessibles : tout concourt à en faire l'une des régions les plus séduisantes de Nouvelle-Aquitaine.",
     sections: [
@@ -3528,7 +3528,7 @@ export const GUIDES: Guide[] = [
     emoji: "🥨",
     readMinutes: 8,
     publishedAt: "2025-04-20",
-    updatedAt: "2025-04-28",
+    updatedAt: "2026-01-17",
     intro:
       "L'Alsace est l'une des régions françaises les plus qualitatives pour s'installer : carrefour européen, gastronomie unique, architecture à colombages, vignobles, et une économie parmi les plus dynamiques de France grâce à la frontière germano-suisse. Mais Strasbourg, Colmar et Mulhouse offrent des profils radicalement différents. Ce guide vous aide à faire le bon choix.",
     sections: [
@@ -3567,7 +3567,7 @@ export const GUIDES: Guide[] = [
     emoji: "💸",
     readMinutes: 7,
     publishedAt: "2025-04-22",
-    updatedAt: "2025-04-28",
+    updatedAt: "2026-05-09",
     intro:
       "Le mythe veut que la qualité de vie coûte cher. Faux. Plusieurs villes françaises affichent des loyers T2 sous 700€/mois tout en proposant des scores de qualité de vie supérieurs à 7/10, une connexion TGV, et un marché de l'emploi viable. Ce guide vous dresse la liste des 10 meilleures en 2025.",
     sections: [
@@ -3606,7 +3606,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌊",
     readMinutes: 8,
     publishedAt: "2025-04-25",
-    updatedAt: "2025-04-28",
+    updatedAt: "2026-05-11",
     intro:
       "La Côte d'Opale est l'une des destinations françaises les plus méconnues pour s'y installer. À deux heures de Paris par le TGV, à 35 minutes de Londres par l'Eurostar, avec des paysages marins spectaculaires (Caps Blanc-Nez et Gris-Nez classés Grand Site de France), des prix immobiliers parmi les plus bas de la façade maritime française, et une cuisine de la mer incomparable. Tour d'horizon des principales villes.",
     sections: [
@@ -3645,7 +3645,7 @@ export const GUIDES: Guide[] = [
     emoji: "🥃",
     readMinutes: 8,
     publishedAt: "2025-04-26",
-    updatedAt: "2025-04-28",
+    updatedAt: "2026-01-31",
     intro:
       "Les Charentes réunissent deux départements aux identités distinctes : la Charente (16) centrée sur Angoulême et le cognac, et la Charente-Maritime (17) avec La Rochelle, l'île de Ré, Saintes et Royan. Entre douceur climatique (2 200h de soleil par an), gastronomie remarquable et prix immobiliers 40% sous la moyenne nationale, c'est l'une des régions les plus séduisantes pour quitter les grandes villes.",
     sections: [
@@ -3684,7 +3684,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏄",
     readMinutes: 8,
     publishedAt: "2025-04-27",
-    updatedAt: "2025-04-28",
+    updatedAt: "2026-01-18",
     intro:
       "La Côte Atlantique entre Bayonne et Arcachon est devenue l'une des destinations de relocation les plus prisées de France, portée par l'essor du surf, la qualité de vie exceptionnelle dans les Landes, et des prix encore abordables comparés à la Côte d'Azur. Mais Hossegor, Capbreton, Biscarrosse et Mimizan sont des univers radicalement différents. Ce guide vous aide à choisir selon votre budget et votre style de vie.",
     sections: [
@@ -3723,7 +3723,7 @@ export const GUIDES: Guide[] = [
     emoji: "🚄",
     readMinutes: 7,
     publishedAt: "2025-04-27",
-    updatedAt: "2025-04-28",
+    updatedAt: "2026-04-29",
     intro:
       "Vous voulez quitter l'Île-de-France chère et dense mais vous ne pouvez pas (ou ne voulez pas) vous éloigner de Paris. La solution : les villes dans un rayon de 1h à 1h30 de train, où les prix sont 40-60% moins chers et la qualité de vie bien supérieure. Ce guide passe en revue les meilleures options selon votre profil.",
     sections: [
@@ -3762,7 +3762,7 @@ export const GUIDES: Guide[] = [
     emoji: "⚓",
     readMinutes: 9,
     publishedAt: "2025-04-28",
-    updatedAt: "2025-04-28",
+    updatedAt: "2026-02-09",
     intro:
       "La Bretagne Nord, de la Côte d'Emeraude aux Abers, en passant par la Côte des Légendes, offre des paysages d'une beauté saisissante et une qualité de vie authentiquement bretonne. Saint-Malo, Dinard, Dinan, Morlaix et Brest dessinent quatre profils très différents. Ce guide vous aide à choisir selon votre situation.",
     sections: [
@@ -3801,7 +3801,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌻",
     readMinutes: 8,
     publishedAt: "2025-04-28",
-    updatedAt: "2025-04-28",
+    updatedAt: "2026-03-24",
     intro:
       "La pension de retraite moyenne en France est de 1 512€/mois (Drees 2024). Avec une bonne stratégie de localisation, il est tout à fait possible de vivre confortablement dans une ville de qualité avec ce budget. Ce guide identifie les villes qui combinent loyers abordables, bons services de santé, accès à la nature, et qualité de vie élevée.",
     sections: [
@@ -3840,7 +3840,7 @@ export const GUIDES: Guide[] = [
     emoji: "🍷",
     readMinutes: 7,
     publishedAt: "2025-04-28",
-    updatedAt: "2025-04-28",
+    updatedAt: "2026-05-06",
     intro:
       "La Route des Vins d'Alsace est l'un des itinéraires touristiques les plus courus d'Europe, mais c'est aussi un territoire exceptionnel pour s'y installer. Entre vignobles, villages à colombages et proximité de Strasbourg et Colmar, les opportunités résidentielles sont nombreuses. Zoom sur les principales destinations.",
     sections: [
@@ -3878,7 +3878,7 @@ export const GUIDES: Guide[] = [
     emoji: "⚖️",
     readMinutes: 9,
     publishedAt: "2025-03-12",
-    updatedAt: "2025-03-12",
+    updatedAt: "2026-04-09",
     intro: "Deux métropoles dynamiques, deux ambiances différentes. Toulouse, ville rose et tech, ou Bordeaux, entre vignobles et océan ? Comparatif complet pour décider.",
     sections: [
       {
@@ -3919,7 +3919,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏔️",
     readMinutes: 8,
     publishedAt: "2025-04-05",
-    updatedAt: "2025-04-05",
+    updatedAt: "2026-03-26",
     intro: "Besançon, Pontarlier, Dole, Belfort : la Franche-Comté reste l'une des régions les moins chères et les plus préservées de France, à portée de la Suisse.",
     sections: [
       {
@@ -3960,7 +3960,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌿",
     readMinutes: 8,
     publishedAt: "2025-04-18",
-    updatedAt: "2025-04-18",
+    updatedAt: "2026-04-14",
     intro: "Tulle, Brive, Limoges : le Limousin est la région française avec le meilleur ratio qualité de vie/prix. Vert, calme, sécurisé, abordable — les télétravailleurs l'ont découvert.",
     sections: [
       {
@@ -4001,7 +4001,7 @@ export const GUIDES: Guide[] = [
     emoji: "⛷️",
     readMinutes: 10,
     publishedAt: "2025-02-28",
-    updatedAt: "2025-02-28",
+    updatedAt: "2026-03-12",
     intro: "Albertville, Annecy, Chambéry, Grenoble : quelles villes alpines offrent le meilleur rapport qualité/prix pour habiter et investir ? Le comparatif complet.",
     sections: [
       {
@@ -4042,7 +4042,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌞",
     readMinutes: 8,
     publishedAt: "2025-05-02",
-    updatedAt: "2025-05-02",
+    updatedAt: "2026-02-14",
     intro: "Gap, Sisteron, Digne, Manosque : les Alpes du Sud combinent soleil provençal, nature alpine et prix accessibles. Le secret le mieux gardé de la PACA.",
     sections: [
       {
@@ -4083,7 +4083,7 @@ export const GUIDES: Guide[] = [
     emoji: "🦆",
     readMinutes: 9,
     publishedAt: "2025-04-22",
-    updatedAt: "2025-04-22",
+    updatedAt: "2026-04-24",
     intro: "Périgueux, Sarlat, Bergerac, Cahors, Figeac : la Dordogne et le Quercy forment le cœur gastronomique et culturel du Sud-Ouest. Foie gras, truffes, vins de Cahors, bastides médiévales — et des prix encore accessibles.",
     sections: [
       {
@@ -4124,7 +4124,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌊",
     readMinutes: 8,
     publishedAt: "2025-05-08",
-    updatedAt: "2025-05-08",
+    updatedAt: "2026-02-14",
     intro: "La Vendée est l'une des régions françaises les plus dynamiques : soleil atlantique, plages, bocage verdoyant, dynamisme économique. La Roche-sur-Yon, Les Sables-d'Olonne, Challans, Fontenay-le-Comte — des villes pour tous les profils.",
     sections: [
       {
@@ -4165,7 +4165,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏖️",
     readMinutes: 9,
     publishedAt: "2025-03-25",
-    updatedAt: "2025-03-25",
+    updatedAt: "2026-03-24",
     intro: "Vivre à 30 minutes de la mer sans payer les prix du littoral est possible. De Bordeaux à Aubagne, en passant par Saint-Lô et Challans — voici les meilleures villes abordables proches de la mer.",
     sections: [
       {
@@ -4206,7 +4206,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏛️",
     readMinutes: 8,
     publishedAt: "2025-04-10",
-    updatedAt: "2025-04-10",
+    updatedAt: "2026-01-24",
     intro: "Le Gard est un département qui surprend : Nîmes avec son amphithéâtre romain, Uzès la première duchée de France, Alès en reconversion industrielle — avec 2 700h d'ensoleillement et des prix bien inférieurs à la Côte d'Azur.",
     sections: [
       {
@@ -4247,7 +4247,7 @@ export const GUIDES: Guide[] = [
     emoji: "⚖️",
     readMinutes: 9,
     publishedAt: "2025-03-20",
-    updatedAt: "2025-03-20",
+    updatedAt: "2026-03-06",
     intro: "Deux capitales de l'Ouest attractives, deux ambiances différentes. Nantes, métropole dynamique en bord d'estuaire, ou Angers, ville douce en bord de Loire ? Comparatif pour choisir.",
     sections: [
       {
@@ -4288,7 +4288,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏞️",
     readMinutes: 9,
     publishedAt: "2025-05-12",
-    updatedAt: "2025-05-12",
+    updatedAt: "2026-02-05",
     intro: "Rodez, Millau, Cahors, Figeac : l'Aveyron et le Lot sont parmi les destinations les plus authentiques et les moins chères de France. Causses, gorges, viaducs et gastronomie — un art de vivre préservé.",
     sections: [
       {
@@ -4329,7 +4329,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏰",
     readMinutes: 8,
     publishedAt: "2025-04-28",
-    updatedAt: "2025-04-28",
+    updatedAt: "2026-03-27",
     intro: "Tours, Amboise, Saumur, Vendôme : la Touraine est le jardin de la France. Châteaux Renaissance, vignobles de renom, gastronomie exceptionnelle — et TGV Paris moins d'1h depuis Tours.",
     sections: [
       {
@@ -4370,7 +4370,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏛️",
     readMinutes: 8,
     publishedAt: "2025-05-18",
-    updatedAt: "2025-05-18",
+    updatedAt: "2026-04-19",
     intro: "Albi la rouge, Castres la manufacturière, Mazamet et la Montagne Noire — le Tarn est un département de caractère entre Toulouse et la Méditerranée, avec 2 200h de soleil et des prix accessibles.",
     sections: [
       {
@@ -4411,7 +4411,7 @@ export const GUIDES: Guide[] = [
     emoji: "🥂",
     readMinutes: 8,
     publishedAt: "2025-04-15",
-    updatedAt: "2025-04-15",
+    updatedAt: "2026-04-19",
     intro: "Reims, Troyes, Épernay, Châlons-en-Champagne : la région Champagne combine architecture gothique exceptionnelle, vignobles de renom mondial, et des prix immobiliers bien inférieurs à Paris malgré les TGV directs.",
     sections: [
       {
@@ -4452,7 +4452,7 @@ export const GUIDES: Guide[] = [
     emoji: "👨‍👩‍👧",
     readMinutes: 9,
     publishedAt: "2025-03-30",
-    updatedAt: "2025-03-30",
+    updatedAt: "2026-04-04",
     intro: "Pas besoin de dépenser une fortune pour offrir à sa famille une bonne vie. Ces villes françaises combinent logements spacieux, bonnes écoles, sécurité et nature — à des prix que les familles ordinaires peuvent se permettre.",
     sections: [
       {
@@ -4493,7 +4493,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌋",
     readMinutes: 10,
     publishedAt: "2025-09-01",
-    updatedAt: "2026-01-15",
+    updatedAt: "2026-05-12",
     intro: "L'Auvergne — terres de volcans, fromages et air pur — est devenue l'une des destinations phares de l'exode urbain post-Covid. Logement abordable, nature omniprésente, et un tissu économique plus solide qu'on ne le croit : voici pourquoi de plus en plus de familles et de télétravailleurs choisissent de s'y installer.",
     sections: [
       {
@@ -4534,7 +4534,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏔️",
     readMinutes: 9,
     publishedAt: "2025-10-01",
-    updatedAt: "2026-02-01",
+    updatedAt: "2026-02-24",
     intro: "Annecy est régulièrement classée dans le top 3 des villes françaises — et ses prix immobiliers le reflètent : 4 500 à 6 000€/m² en moyenne. Mais la Haute-Savoie ne se résume pas à sa perle. À 20 à 40 minutes du lac, des villes moins connues offrent le même cadre naturel, les mêmes bassins d'emploi frontaliers, mais à des prix 30 à 50 % inférieurs.",
     sections: [
       {
@@ -4575,7 +4575,7 @@ export const GUIDES: Guide[] = [
     emoji: "☀️",
     readMinutes: 10,
     publishedAt: "2025-11-01",
-    updatedAt: "2026-03-01",
+    updatedAt: "2026-05-11",
     intro: "L'Ardèche et la Drôme sont des terres d'adoption plébiscitées par les urbains en quête de soleil, de nature et d'authenticité. Entre le Rhône et les Cévennes, ces deux départements offrent un cadre de vie que beaucoup de régions plus connues ne peuvent plus offrir : espace, calme, et des prix encore abordables.",
     sections: [
       {
@@ -4616,7 +4616,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏭",
     readMinutes: 8,
     publishedAt: "2025-12-01",
-    updatedAt: "2026-04-01",
+    updatedAt: "2026-02-17",
     intro: "La France hors-métropoles abrite de nombreuses villes industrielles discrètes où le taux de chômage reste structurellement bas. Plasturgie, coutellerie, pharmacie, aéronautique : ces secteurs de niche ont construit des bassins d'emploi stables que les crises économiques traversent mieux que d'autres. Portrait de 6 territoires à découvrir.",
     sections: [
       {
@@ -4657,7 +4657,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏎️",
     readMinutes: 9,
     publishedAt: "2026-01-01",
-    updatedAt: "2026-04-01",
+    updatedAt: "2026-02-07",
     intro: "La Sarthe est le département du Mans 24 Heures, de la douceur du Maine et des bords de Loire. Moins connue que ses voisines ligériennes (Anjou, Touraine), elle offre un compromis remarquable : qualité de vie élevée, patrimoine exceptionnel, nature préservée, et des prix immobiliers qui font pâlir les Parisiens en quête de résidence principale.",
     sections: [
       {
@@ -4694,7 +4694,7 @@ export const GUIDES: Guide[] = [
     emoji: "🦆",
     readMinutes: 9,
     publishedAt: "2026-01-15",
-    updatedAt: "2026-04-01",
+    updatedAt: "2026-03-25",
     intro: "Le Gers est le département où la France sait encore prendre le temps. Foie gras, armagnac, marchés au gras, collines de Gascogne : ici, la douceur de vivre n'est pas un slogan marketing mais un mode de vie quotidien. Avec des prix immobiliers parmi les plus bas du Midi et plus de 2 000 heures de soleil par an, le Gers s'impose comme une alternative sérieuse pour toute personne cherchant à décélérer.",
     sections: [
       {
@@ -4731,7 +4731,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏡",
     readMinutes: 10,
     publishedAt: "2026-02-01",
-    updatedAt: "2026-04-15",
+    updatedAt: "2026-01-19",
     intro: "200 000€ pour une maison avec jardin en France : utopie en Île-de-France et PACA, réalité dans une trentaine de départements. Ce guide identifie les villes françaises où ce budget permet d'accéder à un pavillon fonctionnel, un jardin de 200 à 500 m², des services de proximité, et une qualité de vie correcte — sans se sacrifier à l'isolement rural total.",
     sections: [
       {
@@ -4772,7 +4772,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏔️",
     readMinutes: 9,
     publishedAt: "2026-02-15",
-    updatedAt: "2026-04-15",
+    updatedAt: "2026-02-26",
     intro: "Grenoble et Chambéry sont à 55 km l'une de l'autre mais offrent des profils de vie radicalement différents. Grenoble est une métropole technologique et universitaire, dense, parfois grise ; Chambéry est une préfecture savoyarde plus petite, plus douce, plus centrée sur la qualité de vie. Voici comment choisir selon votre profil.",
     sections: [
       {
@@ -4813,7 +4813,7 @@ export const GUIDES: Guide[] = [
     emoji: "👧",
     readMinutes: 10,
     publishedAt: "2026-03-01",
-    updatedAt: "2026-04-15",
+    updatedAt: "2026-01-04",
     intro: "Choisir une ville pour ses enfants, c'est évaluer simultanément la qualité des écoles, la sécurité perçue et réelle, les activités périscolaires disponibles, les espaces de jeu, et la capacité de l'enfant à grandir avec des perspectives. Ce guide vous donne les critères et les villes françaises qui marquent le plus de points.",
     sections: [
       {
@@ -4854,7 +4854,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏠",
     readMinutes: 9,
     publishedAt: "2026-03-15",
-    updatedAt: "2026-04-15",
+    updatedAt: "2026-02-20",
     intro: "Le télétravail hybride (2-3 jours/semaine) a créé une nouvelle géographie résidentielle. Vous n'avez plus besoin d'habiter à 30 minutes du bureau — mais vous ne pouvez pas non plus vous exiler à 3 heures. La zone de confort optimal est entre 45 minutes et 1h30 de trajet, à condition d'avoir un TGV ou une autoroute. Ce guide identifie les meilleures options pour chaque grand pôle d'emploi.",
     sections: [
       {
@@ -4895,7 +4895,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏥",
     readMinutes: 8,
     publishedAt: "2026-03-01",
-    updatedAt: "2026-04-15",
+    updatedAt: "2026-02-23",
     intro: "La désertification médicale est l'une des grandes craintes des personnes qui s'installent en province. Pourtant, la carte médicale française réserve des surprises : certaines villes moyennes ont une densité de médecins bien supérieure aux grandes métropoles, tandis que certaines agglomérations de 100 000 habitants sont en difficulté réelle. Ce guide établit la carte des territoires les mieux pourvus.",
     sections: [
       {
@@ -4936,7 +4936,7 @@ export const GUIDES: Guide[] = [
     emoji: "🍎",
     readMinutes: 9,
     publishedAt: "2026-03-15",
-    updatedAt: "2026-04-15",
+    updatedAt: "2026-03-27",
     intro: "La Normandie intérieure — bocage, forêts de hêtres, vallées encaissées de la Seine et de l'Orne — est la face cachée de la région. Moins spectaculaire que le Mont-Saint-Michel ou les falaises d'Étretat, elle offre une qualité de vie authentique, des prix immobiliers très accessibles, et une nature préservée que le littoral commence à perdre.",
     sections: [
       {
@@ -4973,7 +4973,7 @@ export const GUIDES: Guide[] = [
     emoji: "🦅",
     readMinutes: 10,
     publishedAt: "2026-04-01",
-    updatedAt: "2026-04-20",
+    updatedAt: "2026-03-03",
     intro: "Le Lot est l'un des départements les plus attachants de France : ses falaises calcaires, ses rivières émeraude, ses villages accrochés aux parois, sa gastronomie (truffe, foie gras, agneau du Quercy) et ses prix immobiliers défiant toute concurrence en font une destination de rêve pour quiconque veut rompre avec la vie urbaine sans se sacrifier.",
     sections: [
       {
@@ -5010,7 +5010,7 @@ export const GUIDES: Guide[] = [
     emoji: "📈",
     readMinutes: 10,
     publishedAt: "2026-04-01",
-    updatedAt: "2026-04-20",
+    updatedAt: "2026-02-05",
     intro: "L'investissement locatif en France en 2025 se concentre sur deux stratégies : les villes universitaires pour la colocation étudiante, et les villes moyennes avec fort déficit de logements pour le meublé classique. Ce guide présente les marchés où le ratio prix d'achat / loyer offre les meilleurs rendements bruts.",
     sections: [
       {
@@ -5051,7 +5051,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌍",
     readMinutes: 9,
     publishedAt: "2026-04-01",
-    updatedAt: "2026-04-20",
+    updatedAt: "2026-04-09",
     intro: "Plus de 400 000 Français travaillent chaque jour en Belgique, au Luxembourg ou en Suisse tout en résidant côté français. Cette vie frontalière offre le meilleur des deux mondes : salaires étrangers (souvent 2 à 3 fois supérieurs aux salaires français), couverture sociale française, immobilier français. Ce guide cartographie les meilleures bases de résidence pour chaque frontière.",
     sections: [
       {
@@ -5088,7 +5088,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌻",
     readMinutes: 8,
     publishedAt: "2026-04-15",
-    updatedAt: "2026-04-25",
+    updatedAt: "2026-05-04",
     intro: "Le Tarn-et-Garonne et le Lot-et-Garonne sont les deux départements gascons qui résistent le mieux à l'uniformisation. Entre Toulouse et Bordeaux, ce couloir de bastides, de vignobles et de vergers offre un cadre de vie exceptionnel pour les retraités, les télétravailleurs et les familles en quête de soleil et d'espace.",
     sections: [
       {
@@ -5125,7 +5125,7 @@ export const GUIDES: Guide[] = [
     emoji: "⚽",
     readMinutes: 9,
     publishedAt: "2025-01-18",
-    updatedAt: "2025-01-18",
+    updatedAt: "2026-04-24",
     intro: "Le sport et les activités extrascolaires jouent un rôle central dans l'épanouissement des enfants — et dans la décision de mobilité des familles. Nombre de clubs, qualité des équipements, diversité des pratiques, tarifs des licences : ces critères varient énormément d'une ville à l'autre. Voici les villes françaises qui se distinguent pour offrir aux enfants le meilleur cadre sportif et culturel.",
     sections: [
       {
@@ -5178,7 +5178,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌍",
     readMinutes: 9,
     publishedAt: "2025-02-05",
-    updatedAt: "2025-02-05",
+    updatedAt: "2026-01-17",
     intro: "Vous souhaitez que vos enfants grandissent dans une ville où ils peuvent apprendre une langue étrangère dès la maternelle, rejoindre une section bilingue ou accéder à un lycée international ? Ce critère est déterminant pour de nombreuses familles expatriées, familles mixtes ou tout simplement parents soucieux de l'avenir linguistique de leurs enfants. Voici les villes françaises les mieux équipées.",
     sections: [
       {
@@ -5227,7 +5227,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌳",
     readMinutes: 8,
     publishedAt: "2025-02-22",
-    updatedAt: "2025-02-22",
+    updatedAt: "2026-04-24",
     intro: "Pour les familles avec enfants, la proximité de la nature n'est pas un luxe — c'est une nécessité. Pouvoir se rendre en 10 minutes dans un parc où courir, dans une forêt pour ramasser des châtaignes ou au bord d'une rivière pour faire des ricochets : ces expériences quotidiennes marquent une enfance. Certaines villes françaises se distinguent nettement pour leur tissu naturel accessible aux familles.",
     sections: [
       {
@@ -5276,7 +5276,7 @@ export const GUIDES: Guide[] = [
     emoji: "🚂",
     readMinutes: 12,
     publishedAt: "2025-03-01",
-    updatedAt: "2025-03-01",
+    updatedAt: "2026-05-12",
     intro: "Depuis 2020, des dizaines de milliers de Parisiens ont quitté la capitale pour s'installer en province, salaire parisien en poche, en télétravail partiel ou complet. Ce mouvement s'est accéléré mais il est aussi semé d'embûches : retour imposé au bureau, sentiment d'isolement, mauvaise connexion, regrets. Ce guide répond sans filtre à toutes les questions que vous vous posez avant de franchir le pas.",
     sections: [
       {
@@ -5325,7 +5325,7 @@ export const GUIDES: Guide[] = [
     emoji: "💼",
     readMinutes: 10,
     publishedAt: "2025-03-15",
-    updatedAt: "2025-03-15",
+    updatedAt: "2026-01-21",
     intro: "Le freelance a explosé en France : 3,5 millions de travailleurs indépendants en 2025, dont une forte proportion de télétravailleurs mobiles. Mais toutes les villes ne se valent pas pour lancer ou développer son activité en indépendant. Espaces de coworking, communautés tech, événements professionnels, rythme de vie propice à la productivité : voici notre classement des villes françaises pour les freelances.",
     sections: [
       {
@@ -5378,7 +5378,7 @@ export const GUIDES: Guide[] = [
     emoji: "🥨",
     readMinutes: 8,
     publishedAt: "2025-04-01",
-    updatedAt: "2025-04-01",
+    updatedAt: "2026-02-27",
     intro: "Strasbourg et Mulhouse, deux villes alsaciennes aux identités radicalement différentes : l'une est capitale régionale européenne, l'autre est la ville ouvrière et multiculturelle du Haut-Rhin. À 70 km l'une de l'autre, elles offrent des styles de vie et des niveaux de coût très différents. Laquelle vous correspond ?",
     sections: [
       {
@@ -5423,7 +5423,7 @@ export const GUIDES: Guide[] = [
     emoji: "⚜️",
     readMinutes: 8,
     publishedAt: "2025-04-15",
-    updatedAt: "2025-04-15",
+    updatedAt: "2026-03-08",
     intro: "La Lorraine a deux capitales historiques qui se livrent une concurrence amicale : Metz, la romaine, et Nancy, la baroque. Ces deux villes séparées de seulement 55 km par l'autoroute sont souvent mises en opposition, alors qu'elles se complètent parfaitement. Mais si vous devez en choisir une, laquelle vous correspond ?",
     sections: [
       {
@@ -5468,7 +5468,7 @@ export const GUIDES: Guide[] = [
     emoji: "🍷",
     readMinutes: 8,
     publishedAt: "2025-05-01",
-    updatedAt: "2025-05-01",
+    updatedAt: "2026-02-28",
     intro: "Bourgogne-Franche-Comté est une grande région à deux visages : Dijon, ville de la moutarde et des vins grands crus, et Besançon, ville d'horlogerie et de montagnes comtoises. Ces deux capitales régionales n'en sont officiellement plus qu'une (région), mais elles conservent des caractères bien distincts. Laquelle correspond à votre projet de vie ?",
     sections: [
       {
@@ -5513,7 +5513,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏠",
     readMinutes: 9,
     publishedAt: "2025-05-10",
-    updatedAt: "2025-05-10",
+    updatedAt: "2026-04-19",
     intro: "Avec la remontée des taux d'intérêt et la pression des prix dans les métropoles, beaucoup de primo-accédants et d'investisseurs se tournent vers la province profonde pour acheter à moins de 150 000€. Est-ce encore possible en 2025 ? Oui — à condition de savoir où chercher. Voici notre sélection des villes françaises où l'immobilier reste à portée de main.",
     sections: [
       {
@@ -5562,7 +5562,7 @@ export const GUIDES: Guide[] = [
     emoji: "☀️",
     readMinutes: 9,
     publishedAt: "2025-05-20",
-    updatedAt: "2025-05-20",
+    updatedAt: "2026-04-24",
     intro: "La retraite au soleil est le rêve de millions de Français — mais Nice, Biarritz et Aix-en-Provence ont des prix qui ont explosé ces dix dernières années. Est-il encore possible de s'installer en bord de mer ou dans le Sud avec une retraite modeste (1 400–1 800€/mois) ? Oui — en cherchant aux bons endroits.",
     sections: [
       {
@@ -5611,7 +5611,7 @@ export const GUIDES: Guide[] = [
     emoji: "👩‍👧",
     readMinutes: 9,
     publishedAt: "2025-06-01",
-    updatedAt: "2025-06-01",
+    updatedAt: "2026-01-09",
     intro: "En France, plus de 2 millions de familles monoparentales élèvent seules leurs enfants. Pour elles, le choix de la ville est crucial : accessibilité des modes de garde, réseaux d'entraide, coût du logement, proximité des services d'urgence. Certaines villes se distinguent nettement pour l'accompagnement des parents solos.",
     sections: [
       {
@@ -5660,7 +5660,7 @@ export const GUIDES: Guide[] = [
     emoji: "⛰️",
     readMinutes: 11,
     publishedAt: "2025-06-10",
-    updatedAt: "2025-06-10",
+    updatedAt: "2026-02-08",
     intro: "Depuis 2020, des milliers de télétravailleurs se sont installés en montagne — Alpes, Pyrénées, Vosges, Jura, Massif Central. Le rêve est réel : air pur, sports de plein air, calme absolu. Mais les pièges sont nombreux : connexion internet aléatoire, isolement hivernal, manque de vie sociale, retours au bureau impossibles en cas de neige. Ce guide démonte les idées reçues.",
     sections: [
       {
@@ -5709,7 +5709,7 @@ export const GUIDES: Guide[] = [
     emoji: "🍇",
     readMinutes: 10,
     publishedAt: "2025-06-20",
-    updatedAt: "2025-06-20",
+    updatedAt: "2026-03-19",
     intro: "Le Sud-Ouest est la destination préférée des télétravailleurs français depuis 2020 : douceur de vivre, gastronomie, vignobles, côte atlantique et Pyrénées accessibles. Mais la région est vaste et les différences entre Bordeaux (prix en hausse explosive) et Périgueux (abordable et méconnu) sont considérables. Voici comment choisir votre ville dans le Grand Sud-Ouest.",
     sections: [
       {
@@ -5758,7 +5758,7 @@ export const GUIDES: Guide[] = [
     emoji: "♿",
     readMinutes: 9,
     publishedAt: "2025-07-01",
-    updatedAt: "2025-07-01",
+    updatedAt: "2026-04-19",
     intro: "En France, 350 000 enfants sont scolarisés avec une reconnaissance MDPH. Pour les familles qui les élèvent, le choix de la ville est souvent déterminé par la densité de structures spécialisées : SESSAD, IME, ULIS, CAMSP, et la qualité de l'inclusion scolaire. Ce guide aide à identifier les villes les mieux équipées.",
     sections: [
       {
@@ -5803,7 +5803,7 @@ export const GUIDES: Guide[] = [
     emoji: "🍽️",
     readMinutes: 8,
     publishedAt: "2025-07-15",
-    updatedAt: "2025-07-15",
+    updatedAt: "2026-01-19",
     intro: "Paris concentre les restaurants étoilés mais c'est dans les villes de province que la gastronomie du quotidien est la plus accessible : bistrots familiaux, marchés de producteurs, boucheries artisanales, fromageries. Voici les villes françaises où l'on mange le mieux pour un budget modeste.",
     sections: [
       {
@@ -5848,7 +5848,7 @@ export const GUIDES: Guide[] = [
     category: "teletravail",
     readMinutes: 10,
     publishedAt: "2025-04-01",
-    updatedAt: "2025-04-01",
+    updatedAt: "2026-01-27",
     intro: "L'Alsace conjugue efficacité allemande, art de vivre français et paysages vinicoles uniques. Pour les télétravailleurs, c'est une région d'élite : fibre généralisée, trains TGV vers Paris (1h50), loyers bien inférieurs à la capitale et qualité de vie remarquable entre Vosges et Rhin. Strasbourg est la grande ville euro-compatible ; Colmar est la carte postale ; Mulhouse est le choix malin à budget serré.",
     sections: [
       {
@@ -5889,7 +5889,7 @@ export const GUIDES: Guide[] = [
     category: "teletravail",
     readMinutes: 11,
     publishedAt: "2025-04-01",
-    updatedAt: "2025-04-01",
+    updatedAt: "2026-03-15",
     intro: "L'Occitanie est la région de France qui a connu la plus forte croissance démographique de télétravailleurs depuis 2020. Soleil garanti, gastronomie exceptionnelle, mer et montagne à portée de TGV ou de voiture. Toulouse est la capitale de l'aérospatiale; Montpellier est la ville la plus dynamique de Méditerranée; mais les vraies pépites sont dans les villes moyennes occitanes qui offrent le soleil sans les embouteillages.",
     sections: [
       {
@@ -5930,7 +5930,7 @@ export const GUIDES: Guide[] = [
     category: "famille",
     readMinutes: 9,
     publishedAt: "2025-04-01",
-    updatedAt: "2025-04-01",
+    updatedAt: "2026-05-08",
     intro: "Les familles recomposées ont des besoins spécifiques : logements T4–T5 à prix accessible, présence de plusieurs établissements scolaires pour répartir les enfants selon l'âge, activités parascolaires variées, environnement social ouvert. Certaines villes françaises cochent toutes ces cases mieux que d'autres — souvent des villes moyennes à 200 000–400 000 habitants avec une offre scolaire diversifiée et des loyers encore supportables.",
     sections: [
       {
@@ -5971,7 +5971,7 @@ export const GUIDES: Guide[] = [
     category: "famille",
     readMinutes: 10,
     publishedAt: "2025-04-01",
-    updatedAt: "2025-04-01",
+    updatedAt: "2026-01-13",
     intro: "Bien choisir sa ville pour la retraite ou pour accompagner un parent âgé, c'est une décision à 30 ans. Les critères changent : accessibilité PMR, densité de médecins spécialistes, transports sans voiture, sécurité, vie culturelle, et coût de la vie. Voici les villes françaises qui excellent sur ces critères — et les pièges à éviter.",
     sections: [
       {
@@ -6012,7 +6012,7 @@ export const GUIDES: Guide[] = [
     category: "lifestyle",
     readMinutes: 10,
     publishedAt: "2025-04-01",
-    updatedAt: "2025-04-01",
+    updatedAt: "2026-04-09",
     intro: "La reconversion professionnelle est devenue un phénomène de masse : 1 actif sur 3 envisage d'en faire une d'ici 5 ans. Choisir la bonne ville pour se reconvertir, c'est choisir un écosystème de formation accessible, un marché de l'emploi ouvert aux nouveaux profils et un coût de la vie qui permet de vivre pendant la formation sans s'endetter. Certaines villes françaises se démarquent nettement.",
     sections: [
       {
@@ -6053,7 +6053,7 @@ export const GUIDES: Guide[] = [
     emoji: "👫",
     readMinutes: 9,
     publishedAt: "2026-04-30",
-    updatedAt: "2026-04-30",
+    updatedAt: "2026-04-09",
     intro: "En 2026, 4,4 millions de Français télétravaillent au moins 3 jours par semaine (Observatoire du télétravail, baromètre 2025). Parmi eux, des centaines de milliers de couples partagent le même logement — et souvent la même table de cuisine en guise de bureau. La question n'est plus « quelle ville pour télétravailler ? » mais « quelle ville pour télétravailler à deux sans se rendre fous ? ». Espace habitable suffisant, deux coworkings de qualité, connexion fibre symétrique, vie sociale stimulante, budget maîtrisé : voici notre guide 2026 pour les couples en double télétravail.",
     sections: [
       {
@@ -6103,7 +6103,7 @@ export const GUIDES: Guide[] = [
     emoji: "🎓",
     readMinutes: 10,
     publishedAt: "2026-05-01",
-    updatedAt: "2026-05-01",
+    updatedAt: "2026-03-12",
     intro:
       "En 2026, 2,98 millions d'étudiants sont inscrits dans l'enseignement supérieur français (MESRI, données rentrée 2025-2026). Choisir sa ville d'études ne se limite pas à l'offre de formations : c'est une décision financière, sociale et de qualité de vie pour 3 à 5 ans. Loyer d'un studio, densité de l'offre culturelle et nocturne, réseau de transports, opportunités de jobs étudiants, ambiance de campus — ces critères pèsent autant que le rang de l'université dans les classements. Ce guide analyse sans filtre les meilleures villes pour étudier en France en 2026.",
     sections: [
@@ -6158,7 +6158,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏝️",
     readMinutes: 13,
     publishedAt: "2026-05-02",
-    updatedAt: "2026-05-02",
+    updatedAt: "2026-05-12",
     intro:
       "340 000 habitants à l'année, 3 millions de touristes l'été : la Corse est une île à double visage. Derrière les plages de Porto-Vecchio et les maquis embaumés se cache une réalité quotidienne que les candidats à l'installation doivent connaître avant de signer un bail. Coût de la vie structurellement plus élevé qu'en France continentale, marché de l'emploi concentré autour du tourisme et du secteur public, déserts médicaux dans l'intérieur — mais aussi une qualité de vie exceptionnelle, un ensoleillement record, des paysages qui n'ont pas d'équivalent en Europe occidentale, et une communauté de résidents permanents qui choisissent délibérément l'île comme mode de vie. Ce guide 2026 analyse sans filtre les quatre villes principales où s'installer durablement en Corse. Données sources : INSEE Recensement 2021 (population), Observatoire Régional des Loyers Corse / ADIL Corse (loyers 2025), Météo-France (données climatiques), ARS Corse (accès aux soins), SSMSI Ministère de l'Intérieur (sécurité), ATMO Corse (qualité de l'air).",
     sections: [
@@ -6214,7 +6214,7 @@ export const GUIDES: Guide[] = [
     emoji: "⚜️",
     readMinutes: 12,
     publishedAt: "2026-05-03",
-    updatedAt: "2026-05-03",
+    updatedAt: "2026-01-15",
     intro:
       "Longtemps perçue comme une région de reconversion industrielle, la Lorraine de 2026 est en réalité l'une des meilleures affaires de France pour qui sait lire entre les lignes. Deux métropoles universitaires et culturelles parmi les plus riches du pays (Metz et Nancy), un accès au marché du travail luxembourgeois unique en Europe, des loyers parmi les plus abordables des grandes villes françaises, et une qualité de vie qui progresse méthodiquement depuis une décennie. Ce guide analyse sans filtre les quatre villes principales de l'ancienne région Lorraine — aujourd'hui intégrée dans Grand Est depuis la réforme de 2016. Il est destiné à ceux qui envisagent un déménagement concret, pas un week-end touristique. Données sources : INSEE Recensement 2021 (population), ADIL Moselle et ADIL Meurthe-et-Moselle (loyers 2025), Météo-France (données climatiques), SSMSI Ministère de l'Intérieur (statistiques de sécurité 2024), ATMO Grand Est (qualité de l'air 2025), INSEE Pôle emploi (taux de chômage T3 2025).",
     sections: [
@@ -6270,7 +6270,7 @@ export const GUIDES: Guide[] = [
     emoji: "🦁",
     readMinutes: 9,
     publishedAt: "2026-05-05",
-    updatedAt: "2026-05-05",
+    updatedAt: "2026-01-23",
     intro:
       "Lyon reste la deuxième ville de France et un succès économique indéniable, mais le contrat tacite — qualité de vie supérieure à la capitale, prix maîtrisés, accès montagne — s'est tendu. Le m² au centre dépasse désormais 5 500 €, les inversions thermiques d'hiver collent un PM2,5 supérieur à celui de Paris, et la rocade Est asphyxie tout déplacement entre 7h30 et 9h30. Ce guide regarde froidement les alternatives et ce qu'on y gagne réellement.",
     sections: [
@@ -6321,7 +6321,7 @@ export const GUIDES: Guide[] = [
     emoji: "⛵",
     readMinutes: 9,
     publishedAt: "2026-05-05",
-    updatedAt: "2026-05-05",
+    updatedAt: "2026-04-14",
     intro:
       "Marseille divise comme aucune ville française. Ceux qui l'aiment l'aiment violemment ; ceux qui veulent en partir le font en silence, souvent après un évènement précis (cambriolage, scolarité, accident). Ce guide n'argumente ni pour ni contre : il regarde concrètement les alternatives provençales et leur vrai coût de bascule.",
     sections: [
@@ -6372,7 +6372,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌧️",
     readMinutes: 8,
     publishedAt: "2026-05-05",
-    updatedAt: "2026-05-05",
+    updatedAt: "2026-02-14",
     intro:
       "Lille reste l'une des villes françaises où l'on s'attache le plus vite — Vieux-Lille, marché de Wazemmes, Eurostar, gastronomie. Mais l'attractivité fait monter les prix (m² ≈ 4 200 € au centre), la pression locative pèse sur les jeunes ménages, et certains profils cherchent un cadre moins urbain ou un accès Belgique/Luxembourg plus court. Ce guide traite les vraies alternatives.",
     sections: [
@@ -6419,7 +6419,7 @@ export const GUIDES: Guide[] = [
     emoji: "🚀",
     readMinutes: 8,
     publishedAt: "2026-05-05",
-    updatedAt: "2026-05-05",
+    updatedAt: "2026-04-14",
     intro:
       "Toulouse est l'une des villes françaises les plus dynamiques (+10 000 habitants/an, ville étudiante, écosystème aérospatial), mais la croissance est aussi le problème : circulation intra-muros lourde, m² qui dépasse 4 200 € en centre, étés de plus en plus caniculaires (40 °C plusieurs jours en 2022, 2023, 2024). Voici les vraies sorties.",
     sections: [
@@ -6466,7 +6466,7 @@ export const GUIDES: Guide[] = [
     emoji: "🍷",
     readMinutes: 9,
     publishedAt: "2026-05-05",
-    updatedAt: "2026-05-05",
+    updatedAt: "2026-01-30",
     intro:
       "Bordeaux a connu en quinze ans la transformation urbaine la plus spectaculaire de France : tramway, façades ravalées, LGV Paris en 2h, gentrification accélérée. Le revers : un m² au centre passé de 2 800 € à plus de 5 200 €, une rocade chronique, et un sentiment de ville-musée pour beaucoup d'habitants historiques. Ce guide examine les vraies sorties.",
     sections: [
@@ -6517,7 +6517,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌴",
     readMinutes: 11,
     publishedAt: "2026-05-05",
-    updatedAt: "2026-05-05",
+    updatedAt: "2026-05-06",
     intro:
       "S'installer en Outre-mer fascine — climat, paysages, culture créole, océan toute l'année. Mais la réalité quotidienne n'est ni un Club Med ni un enfer : c'est la France, avec un coût de la vie majoré par l'octroi de mer, une géographie contraignante, et des écosystèmes pro et scolaires plus restreints qu'en métropole. Ce guide pose les vraies questions et compare les cinq départements DROM (Guadeloupe, Martinique, Guyane, La Réunion, Mayotte) sur ce qui change la vie au quotidien.",
     sections: [
@@ -6580,7 +6580,7 @@ export const GUIDES: Guide[] = [
     emoji: "🦢",
     readMinutes: 9,
     publishedAt: "2026-05-11",
-    updatedAt: "2026-05-11",
+    updatedAt: "2026-03-18",
     intro:
       "Nantes a longtemps été la référence des villes où il fait bon vivre — et elle le mérite encore en grande partie. Mais les prix ont rattrapé la réputation. Le m² au centre dépasse 4 500 € à l'achat et 15 €/m² en location, la rocade est saturée aux heures de pointe, et le marché de l'emploi local peine à absorber tous les arrivants que la réputation continue d'attirer. De plus en plus de Nantais de longue date — et de familles récemment installées — regardent ailleurs. Ce guide fait le point sans langue de bois.",
     sections: [
@@ -6631,7 +6631,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌊",
     readMinutes: 8,
     publishedAt: "2026-05-11",
-    updatedAt: "2026-05-11",
+    updatedAt: "2026-03-06",
     intro:
       "Il y a cinq ans, Rennes était la ville-refuge des Parisiens et Nantais qui fuyaient la cherté. Elle l'est moins aujourd'hui. Le m² au centre dépasse 3 700 € à l'achat, les quartiers prisés comme Thabor-Saint-Hélier flirtent avec 4 500 €, et la dynamique «eldorado de l'Ouest» a fait monter les loyers sans que les salaires locaux aient suivi. Une partie des Rennais de souche — et des nouveaux arrivants désenchantés — regardent ce que le reste de la Bretagne a à offrir.",
     sections: [
@@ -6678,7 +6678,7 @@ export const GUIDES: Guide[] = [
     emoji: "☀️",
     readMinutes: 8,
     publishedAt: "2026-05-11",
-    updatedAt: "2026-05-11",
+    updatedAt: "2026-02-27",
     intro:
       "Montpellier est la métropole française qui a le plus crû en 30 ans. Ce succès démographique a un revers : les prix immobiliers ont été multipliés par 2,5 depuis 2000, la ville est désormais la 7e la plus chère de France à la location, et les embouteillages sur la L1 et la rocade Est sont constants. Des Montpelliérains qui n'auraient jamais envisagé de partir cherchent maintenant mer et soleil à un coût supportable dans un rayon de 150 km.",
     sections: [
@@ -6725,7 +6725,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏖️",
     readMinutes: 9,
     publishedAt: "2026-05-11",
-    updatedAt: "2026-05-11",
+    updatedAt: "2026-05-12",
     intro:
       "Nice et Montpellier partagent la façade méditerranéenne, le soleil, la douceur de vivre et une réputation de villes où il fait bon s'installer depuis Paris. Elles sont pourtant profondément différentes dans leur économie, leur population, leur immobilier et ce qu'elles offrent vraiment au quotidien. Ce comparatif va au-delà de la carte postale.",
     sections: [
@@ -6772,7 +6772,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌾",
     readMinutes: 10,
     publishedAt: "2026-05-11",
-    updatedAt: "2026-05-11",
+    updatedAt: "2026-01-09",
     intro:
       "Les Hauts-de-France souffrent d'une image déprimée, héritée d'une désindustrialisation douloureuse et d'indicateurs sociaux en retrait par rapport à la moyenne nationale. Cette image est à la fois juste (les poches de précarité existent) et fausse (la région a plus de ressources que sa réputation). Entre Lille qui s'affirme comme métropole européenne, Amiens qui se reinvente, Arras qui attire les télé-travailleurs, et des paysages de plaine d'une beauté froide unique, les Hauts-de-France méritent qu'on les regarde honnêtement.",
     sections: [
@@ -6819,7 +6819,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏰",
     readMinutes: 9,
     publishedAt: "2026-05-11",
-    updatedAt: "2026-05-11",
+    updatedAt: "2026-04-09",
     intro:
       "Le Centre-Val de Loire est la région la plus oubliée par les guides de relocation — et peut-être la plus logique pour ceux qui veulent quitter Paris sans couper le cordon complètement. Tours est à 1h05 de TGV Saint-Lazare, Orléans à 1h en Intercités, Blois à 1h20. Les prix immobiliers y sont encore raisonnables, la Loire à vélo traverse le cœur de la région, et les châteaux de la Renaissance ne sont pas que des décors — ils font partie de la vie quotidienne.",
     sections: [
@@ -6866,7 +6866,7 @@ export const GUIDES: Guide[] = [
     emoji: "🚵",
     readMinutes: 9,
     publishedAt: "2026-05-11",
-    updatedAt: "2026-05-11",
+    updatedAt: "2026-01-19",
     intro:
       "La retraite active n'est plus une exception — elle est devenue le modèle dominant pour les 60-75 ans en bonne santé. Voyages, randonnée, associations, culture, petits-enfants : les seniors actifs ont des exigences précises qui ne ressemblent pas à celles des familles avec enfants ni à celles des télé-travailleurs de 35 ans. Ce guide identifie les villes françaises qui répondent vraiment à ces exigences, en croisant qualité de l'air, accessibilité des soins, réseau de transport et densité d'activités de plein air.",
     sections: [
@@ -6917,7 +6917,7 @@ export const GUIDES: Guide[] = [
     emoji: "🦭",
     readMinutes: 8,
     publishedAt: "2026-05-11",
-    updatedAt: "2026-05-11",
+    updatedAt: "2026-02-27",
     intro:
       "La Bretagne attire de plus en plus de télétravailleurs — à raison. La région combine qualité de vie exceptionnelle (mer, nature, culture locale dense), prix immobiliers encore accessibles hors Rennes, et une infrastructure numérique meilleure que sa réputation. Ce guide va au-delà du cliché «galettes et crêpes» pour répondre à la vraie question : est-ce que la Bretagne tient ses promesses pour un remote worker qui gagne sa vie depuis un écran ?",
     sections: [
@@ -6968,7 +6968,7 @@ export const GUIDES: Guide[] = [
     emoji: "🦅",
     readMinutes: 8,
     publishedAt: "2026-05-11",
-    updatedAt: "2026-05-11",
+    updatedAt: "2026-02-06",
     intro:
       "Strasbourg est une réussite urbaine indéniable : capitale européenne, université de rang mondial, vélo partout, gastronomie alsacienne et Noël le plus couru de France. Mais la réussite a un prix. Le m² au centre dépasse 4 200 €, la pression touristique a fait flamber les loyers, et de plus en plus de Strasbourgeois — étudiants devenus salariés, familles cherchant une maison, retraités actifs — regardent ce que le reste du Grand Est a à offrir.",
     sections: [
@@ -7015,7 +7015,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌊",
     readMinutes: 8,
     publishedAt: "2026-05-11",
-    updatedAt: "2026-05-11",
+    updatedAt: "2026-04-19",
     intro:
       "Nice est l'une des villes françaises les plus chères à la location et à l'achat, portée par une demande internationale (retraités anglais, nordiques, investisseurs) qui n'a aucune raison de s'arrêter. Pour les actifs locaux — enseignants, soignants, employés de commerce — le rapport qualité-de-vie-prix est devenu insoutenable. Ce guide examine froidement les alternatives, proches et moins proches, et ce qu'on y gagne concrètement.",
     sections: [
@@ -7062,7 +7062,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏄",
     readMinutes: 10,
     publishedAt: "2026-05-11",
-    updatedAt: "2026-05-11",
+    updatedAt: "2026-02-03",
     intro:
       "Le Pays Basque français est devenu l'une des régions les plus convoitées et les plus chères de France. La combinaison atlantique + montagne + culture basque + gastronomie + surf a attiré des vagues successives de Parisiens, de télétravailleurs et d'investisseurs étrangers qui ont littéralement transformé le marché immobilier. En 10 ans, les prix ont augmenté de 80 à 120 % selon les secteurs. Ce guide regarde la réalité en face : qui peut encore y vivre, dans quelles conditions, et quelles sont les alternatives pour ceux que les prix excluent.",
     sections: [
@@ -7109,7 +7109,7 @@ export const GUIDES: Guide[] = [
     emoji: "⚓",
     readMinutes: 9,
     publishedAt: "2026-05-11",
-    updatedAt: "2026-05-11",
+    updatedAt: "2026-02-17",
     intro:
       "Quand un Parisien dit «je veux partir vers l'ouest», la question finit presque toujours par se réduire à Bordeaux ou Rennes. Les deux métropoles atlantiques cumulent les atouts — TGV Paris en moins de 2h, qualité de vie reconnue, écosystème tech et universitaire — mais elles sont devenues très différentes en termes de coût, de culture et de profil démographique. Ce comparatif est fait pour vous aider à choisir, pas pour vous vendre du rêve.",
     sections: [
@@ -7156,7 +7156,7 @@ export const GUIDES: Guide[] = [
     emoji: "🎨",
     readMinutes: 9,
     publishedAt: "2026-05-11",
-    updatedAt: "2026-05-11",
+    updatedAt: "2026-01-31",
     intro:
       "La question que tout artiste finit par se poser : dans quelle ville est-ce que je peux louer un atelier de 40 m² sans sacrifier le reste de mon budget ? Cette question est de plus en plus difficile à résoudre à Paris, où les ateliers d'artistes sont rares et protégés, ou à Lyon, où la gentrification a fait flamber le moindre mètre carré de friche industrielle. Ce guide cherche les villes où le rapport loyer-d'atelier / densité-de-scène-artistique est encore favorable — pas celles qui se prétendent créatives à coups de communication municipale.",
     sections: [
@@ -7207,7 +7207,7 @@ export const GUIDES: Guide[] = [
     emoji: "⚓",
     readMinutes: 8,
     publishedAt: "2026-05-11",
-    updatedAt: "2026-05-11",
+    updatedAt: "2026-03-08",
     intro:
       "La Normandie est à 2h de Paris en TGV, à 45 minutes en voiture de ses plages, et propose des prix immobiliers inférieurs de 40 à 60 % à ceux de la capitale. Pourtant, elle reste largement sous-représentée dans les guides de télétravail, éclipsée par la Bretagne plus photogénique ou le Sud plus ensoleillé. Ce guide regarde ce que la Normandie offre vraiment à un remote worker — sans idéaliser ni minimiser.",
     sections: [
@@ -7254,7 +7254,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌻",
     readMinutes: 9,
     publishedAt: "2026-05-11",
-    updatedAt: "2026-05-11",
+    updatedAt: "2026-04-19",
     intro:
       "La Provence est le fantasme du télétravailleur en région parisienne : terrasse en pierre, lavande à l'horizon, WiFi 1 Gb/s et appel Teams à 14h. La réalité est plus nuancée. Les prix ont suivi la réputation, la chaleur estivale est devenue un problème de productivité réel, et certains villages provençaux photogrphiés sur Instagram n'ont pas de débit fibre suffisant. Ce guide regarde ce qui fonctionne, ce qui ne fonctionne pas, et où s'installer si vous êtes sérieux.",
     sections: [
@@ -7301,7 +7301,7 @@ export const GUIDES: Guide[] = [
     emoji: "🍽️",
     readMinutes: 8,
     publishedAt: "2026-05-11",
-    updatedAt: "2026-05-11",
+    updatedAt: "2026-03-26",
     intro:
       "Bien manger en France n'est pas une question de restaurant étoilé — c'est une question de marché le jeudi matin, de boucher qui connaît son éleveur, et de bistrot qui fait encore une vraie sauce au vin rouge. Pour les passionnés de gastronomie qui choisissent leur ville de résidence, l'écosystème alimentaire est un critère aussi sérieux que le prix du m² ou la fibre optique. Ce guide évalue les villes françaises sur la richesse de leur patrimoine gastronomique quotidien — pas sur le nombre d'étoiles Michelin.",
     sections: [
@@ -7348,7 +7348,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏔️",
     readMinutes: 8,
     publishedAt: "2026-05-11",
-    updatedAt: "2026-05-11",
+    updatedAt: "2026-01-08",
     intro:
       "Grenoble est la ville française qui génère le plus de paradoxes affectifs : ses habitants l'adorent pour la montagne et la détestent pour la pollution, adorent le tissu tech et détestent le trafic de l'A48. Ce n'est pas une ville qu'on quitte avec légèreté — mais de plus en plus la quittent quand même. Ce guide examine concrètement les raisons et les destinations, sans romantiser ni diaboliser.",
     sections: [
@@ -7395,7 +7395,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌋",
     readMinutes: 7,
     publishedAt: "2026-05-11",
-    updatedAt: "2026-05-11",
+    updatedAt: "2026-04-19",
     intro:
       "Clermont-Ferrand est une ville qui divise : ceux qui y sont nés l'aiment profondément, ceux qui y arrivent de grandes métropoles mettent quelques années à comprendre son charme. Ce guide n'est pas pour ceux qui partent parce qu'ils n'ont jamais accroché à Clermont — c'est pour ceux qui y ont vraiment vécu et qui, pour des raisons précises, cherchent autre chose sans nécessairement tout quitter.",
     sections: [
@@ -7438,7 +7438,7 @@ export const GUIDES: Guide[] = [
     emoji: "⚓",
     readMinutes: 8,
     publishedAt: "2026-05-11",
-    updatedAt: "2026-05-11",
+    updatedAt: "2026-04-19",
     intro:
       "Marseille et Toulon sont à 65 km l'une de l'autre sur l'A50 et partagent la Méditerranée, le soleil et un tempérament sudiste affirmé. Mais elles ont divergé en profondeur sur presque tous les indicateurs depuis 15 ans : économie, prix immobilier, sécurité ressentie, dynamisme culturel, connectivité. Ce comparatif les regarde telles qu'elles sont, pas telles qu'on imagine qu'elles devraient être.",
     sections: [
@@ -7485,7 +7485,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌾",
     readMinutes: 9,
     publishedAt: "2026-05-11",
-    updatedAt: "2026-05-11",
+    updatedAt: "2026-03-01",
     intro:
       "L'Auvergne au-delà de Clermont-Ferrand est l'une des régions françaises les plus méconnues et les plus mal comprises. Dans l'imaginaire collectif : désert médical, chômage, exode rural. Dans la réalité : des prix immobiliers parmi les plus bas de France, une nature d'une qualité exceptionnelle, et une résurgence discrète mais réelle de l'installation de télétravailleurs, d'artisans et de familles en quête de sens. Ce guide va dans les départements peu racontés.",
     sections: [
@@ -7532,7 +7532,7 @@ export const GUIDES: Guide[] = [
     emoji: "🚴",
     readMinutes: 8,
     publishedAt: "2026-05-11",
-    updatedAt: "2026-05-11",
+    updatedAt: "2026-01-11",
     intro:
       "Le vélo quotidien n'est pas un hobby — c'est un mode de vie qui change radicalement la relation à la ville, au corps et au budget. Une famille qui roule à vélo économise entre 3 000 et 8 000 € de frais automobiles par an. Mais pour que ce soit possible, il faut que la ville soit réellement cyclable : pas de pistes cyclables peintes sur une route à 70 km/h, pas de box à vélo inexistants, pas de topographie qui transforme le trajet domicile-bureau en ascension du Galibier. Ce guide évalue les villes françaises selon des critères concrets.",
     sections: [
@@ -7579,7 +7579,7 @@ export const GUIDES: Guide[] = [
     emoji: "🔑",
     readMinutes: 9,
     publishedAt: "2026-05-11",
-    updatedAt: "2026-05-11",
+    updatedAt: "2026-02-02",
     intro:
       "Acheter son premier logement avec un salaire médian (2 200 € nets) et un apport de 15 000 à 30 000 € est devenu une épreuve dans la plupart des grandes villes françaises. Ce guide ne liste pas des villes au hasard — il utilise un critère simple : dans quelle ville un ménage gagnant 3 500 € à deux (deux revenus médians) peut-il acheter un T3 de 65 m² avec un taux d'effort inférieur à 33 % de ses revenus, sans apport supérieur à 25 000 € ? La liste est plus courte qu'on ne le croit.",
     sections: [
@@ -7630,7 +7630,7 @@ export const GUIDES: Guide[] = [
     emoji: "🍾",
     readMinutes: 8,
     publishedAt: "2026-05-11",
-    updatedAt: "2026-05-11",
+    updatedAt: "2026-01-24",
     intro:
       "Le Grand Est est la région de France la plus mal vendue aux télétravailleurs — et c'est une erreur. Reims est à 45 minutes de Paris en TGV. Troyes est à 1h30. Metz est à 1h25. Nancy à 1h30. Ces villes offrent des prix immobiliers entre 1 800 et 2 800 €/m² — 60 à 75 % en dessous de Paris — dans des cadres historiques et gastronomiques de première qualité. Ce guide comble un angle mort.",
     sections: [
@@ -7677,7 +7677,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏄",
     readMinutes: 8,
     publishedAt: "2026-05-11",
-    updatedAt: "2026-05-11",
+    updatedAt: "2026-03-04",
     intro:
       "S'installer dans une ville pour surfer le matin avant le travail ou sortir le kayak le week-end n'est plus un fantasme de retraite — c'est un choix de vie que le télétravail a rendu accessible à 35 ans. Mais toutes les villes côtières ne se valent pas : la qualité des vagues, la densité de spots praticables hors saison, le tissu de clubs et de loueurs, et le coût de la vie adjacent sont des critères qui diffèrent radicalement d'une ville à l'autre. Ce guide fait le tri.",
     sections: [
@@ -7724,7 +7724,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌲",
     readMinutes: 9,
     publishedAt: "2026-05-11",
-    updatedAt: "2026-05-11",
+    updatedAt: "2026-05-09",
     intro:
       "Les Landes sont le département français le moins dense après la Guyane. 5 800 km² de forêt de pins maritime, une façade atlantique de 106 km de plages en quasi-totalité vierges de construction, et une identité gasconne profonde qui se manifeste dans la corrida, la pelote basque et les fêtes communales. Ce département attire peu les guides de relocation — précisément parce qu'il n'est ni une métropole ni une destination touristique de masse. C'est souvent un avantage.",
     sections: [
@@ -7771,7 +7771,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏔️",
     readMinutes: 9,
     publishedAt: "2026-05-11",
-    updatedAt: "2026-05-11",
+    updatedAt: "2026-01-17",
     intro:
       "Le Roussillon — grossièrement le département des Pyrénées-Orientales — est la bande de terre catalane française coincée entre la Méditerranée, les Pyrénées et la frontière espagnole. C'est la région la plus ensoleillée de France (3 000 heures de soleil par an, plus que Nice), l'une des moins chères du Midi, et l'une des plus méconnues des guides de relocation. Ce guide regarde ce qui s'y passe vraiment en 2026.",
     sections: [
@@ -7818,7 +7818,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏰",
     readMinutes: 8,
     publishedAt: "2026-05-11",
-    updatedAt: "2026-05-11",
+    updatedAt: "2026-05-02",
     intro:
       "Caen et Rouen sont les deux grandes villes de Normandie. Elles sont à 2h de voiture l'une de l'autre, mais elles ont des profils très différents : Rouen est plus proche de Paris, plus grande, plus industrielle ; Caen est plus plate, plus calme, plus proche de la mer. Ce guide aide à choisir selon ce qui compte vraiment dans votre situation.",
     sections: [
@@ -7865,7 +7865,7 @@ export const GUIDES: Guide[] = [
     emoji: "🍷",
     readMinutes: 8,
     publishedAt: "2026-05-11",
-    updatedAt: "2026-05-11",
+    updatedAt: "2026-03-18",
     intro:
       "On pourrait caricaturer : Dijon est Lyon en moins grand, moins cher et moins pollué. C'est partiellement vrai. Mais les deux villes ont des identités et des marchés de l'emploi suffisamment différents pour que le choix ne soit pas aussi simple. Ce guide fait le point pour ceux qui hésitent entre les deux — souvent des Parisiens qui cherchent une métropole de province, ou des Lyonnais qui cherchent à respirer.",
     sections: [
@@ -7912,7 +7912,7 @@ export const GUIDES: Guide[] = [
     emoji: "🥾",
     readMinutes: 8,
     publishedAt: "2026-05-11",
-    updatedAt: "2026-05-11",
+    updatedAt: "2026-04-19",
     intro:
       "Choisir sa ville de résidence en fonction de l'accès à la montagne ou aux sentiers n'est plus marginal. Le trail running et la randonnée sont parmi les sports dont la pratique a le plus augmenté en France depuis 2020. Ce guide identifie les villes françaises où un trailrunner ou randonneur peut sortir ses chaussures depuis son domicile en moins de 30 minutes, sans voiture idéalement, et trouver un terrain suffisamment varié pour progresser.",
     sections: [
@@ -7959,7 +7959,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏡",
     readMinutes: 9,
     publishedAt: "2026-05-11",
-    updatedAt: "2026-05-11",
+    updatedAt: "2026-05-12",
     intro:
       "Le mouvement FIRE (Financial Independence, Retire Early) a émergé aux États-Unis mais s'adapte parfaitement au modèle social français, où la sécurité sociale, les mutuelles et les crèches publiques réduisent considérablement les dépenses contraintes. Avec un capital de 500 000 € et un taux de retrait de 3,5 %, une famille peut vivre de ses investissements avec 17 500 €/an — soit environ 1 460 €/mois. Dans certaines villes françaises, ce budget suffit largement pour une qualité de vie excellente. Ce guide identifie ces villes.",
     sections: [
@@ -8006,7 +8006,7 @@ export const GUIDES: Guide[] = [
     emoji: "🍇",
     readMinutes: 8,
     publishedAt: "2026-05-11",
-    updatedAt: "2026-05-11",
+    updatedAt: "2026-05-03",
     intro:
       "La Bourgogne est une des régions françaises les mieux positionnées pour le télétravail et paradoxalement l'une des moins exploitées. Dijon est à 1h35 de Paris-Bercy en TGV. Les prix immobiliers sont inférieurs de 65 % à ceux de Paris. La cuisine, les vins et la qualité de vie sont parmi les meilleurs de France. Ce guide répare un oubli.",
     sections: [
@@ -8053,7 +8053,7 @@ export const GUIDES: Guide[] = [
     emoji: "💼",
     readMinutes: 9,
     publishedAt: "2026-05-11",
-    updatedAt: "2026-05-11",
+    updatedAt: "2026-01-27",
     intro:
       "Le freelance français ne vit plus à Paris par obligation. La dématérialisation des missions, le développement des plateformes de mise en relation et la maturité des coworkings en province ont rendu possible l'installation dans n'importe quelle ville avec une fibre correcte. Mais toutes les villes de province ne sont pas équivalentes pour un indépendant : le réseau local, la densité de clients potentiels, le coût des espaces de travail et l'accès à des associations professionnelles actives varient énormément. Ce guide fait le point.",
     sections: [
@@ -8100,7 +8100,7 @@ export const GUIDES: Guide[] = [
     emoji: "🍷",
     readMinutes: 7,
     publishedAt: "2026-05-11",
-    updatedAt: "2026-05-11",
+    updatedAt: "2026-05-04",
     intro:
       "Dijon est une ville de qualité de vie — gastronomie, vignobles, architecture, centre historique intact. Mais elle a un talon d'Achille que les guides touristiques évitent : le marché de l'emploi privé y est étroit pour les profils qualifiés hors Michelin, BNP, Danone et secteur public. Quand une mutation professionnelle, une rupture de contrat ou simplement l'envie d'évoluer se présente, beaucoup de Dijonnais regardent ailleurs.",
     sections: [
@@ -8147,7 +8147,7 @@ export const GUIDES: Guide[] = [
     emoji: "⚖️",
     readMinutes: 9,
     publishedAt: "2026-05-11",
-    updatedAt: "2026-05-11",
+    updatedAt: "2026-01-29",
     intro:
       "Nantes et Bordeaux sont systématiquement en tête des classements des villes préférées des Français — et se retrouvent souvent en finale dans le choix des Parisiens qui partent vers l'Atlantique. Elles partagent beaucoup : taille similaire, TGV Paris < 2h10, réputation de villes où il fait bon vivre, forte communauté tech. Mais elles sont profondément différentes. Ce guide fait le point sans concession.",
     sections: [
@@ -8194,7 +8194,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏔️",
     readMinutes: 8,
     publishedAt: "2026-05-11",
-    updatedAt: "2026-05-11",
+    updatedAt: "2026-05-04",
     intro:
       "Pau et Bayonne sont distantes de 110 km et représentent deux philosophies radicalement différentes du Sud-Ouest pyrénéen. Pau est tranquille, universitaire, avec des Pyrénées spectaculaires à portée de main et des prix accessibles. Bayonne est la capitale du Pays Basque français, intense, chère, au carrefour de l'Atlantique et de la culture basque.",
     sections: [
@@ -8241,7 +8241,7 @@ export const GUIDES: Guide[] = [
     emoji: "🐔",
     readMinutes: 9,
     publishedAt: "2026-05-11",
-    updatedAt: "2026-05-11",
+    updatedAt: "2026-01-28",
     intro:
       "L'Ain est un département qu'on traverse souvent sans s'arrêter, coincé entre Lyon à l'ouest, la Savoie au sud-est et la Suisse au nord-est. C'est une erreur. L'Ain cumule des situations très contrastées : le Pays de Gex (20 minutes de Genève, frontaliers parmi les mieux payés de France), la Dombes (mille étangs, paradis ornithologique), la Bresse (poulet de Bresse AOP) et le Bugey (vignoble méconnu).",
     sections: [
@@ -8288,7 +8288,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏰",
     readMinutes: 8,
     publishedAt: "2026-05-11",
-    updatedAt: "2026-05-11",
+    updatedAt: "2026-04-04",
     intro:
       "Les Pays de la Loire ont un atout que peu de régions peuvent revendiquer : trois villes de plus de 100 000 habitants à moins de 2h10 de TGV de Paris (Nantes, Angers, Le Mans), avec fibre quasi-totale, coworkings actifs et prix immobiliers en dessous de la moyenne des grandes métropoles. Pour le télétravailleur qui veut rester proche de Paris sans y vivre, c'est peut-être la région la plus cohérente de France.",
     sections: [
@@ -8335,7 +8335,7 @@ export const GUIDES: Guide[] = [
     emoji: "🎭",
     readMinutes: 8,
     publishedAt: "2026-05-11",
-    updatedAt: "2026-05-11",
+    updatedAt: "2026-03-25",
     intro:
       "La culture n'est pas une variable d'ajustement dans le choix d'une ville — pour beaucoup, c'est un critère structurant. Mais «vie culturelle» est un terme valise. Un passionné de jazz, un amateur de théâtre contemporain et un cinéphile ont des besoins différents. Ce guide découpe par type de culture et identifie les villes qui se distinguent vraiment — pas celles qui ont un grand auditorium vide 300 jours par an.",
     sections: [
@@ -8382,7 +8382,7 @@ export const GUIDES: Guide[] = [
     emoji: "🔑",
     readMinutes: 8,
     publishedAt: "2026-05-11",
-    updatedAt: "2026-05-11",
+    updatedAt: "2026-04-14",
     intro:
       "L'investissement immobilier sous 100 000 € frais inclus est devenu rare dans la plupart des grandes villes françaises — mais il existe encore. Ce guide identifie les villes où ce profil est réaliste, calcule la rentabilité brute et met en garde contre les pièges spécifiques à ce segment : vacance locative élevée, coûts de rénovation cachés, dynamique démographique négative. Acheter à 70 000 € ne vaut rien si le bien ne se loue pas ou se déprécie.",
     sections: [
@@ -8429,7 +8429,7 @@ export const GUIDES: Guide[] = [
     emoji: "✈️",
     readMinutes: 9,
     publishedAt: "2026-05-11",
-    updatedAt: "2026-05-11",
+    updatedAt: "2026-02-11",
     intro:
       "Le retour en France après une expatriation mêle le pratique (fiscalité, immobilier, école des enfants) et l'émotionnel (réapprentissage des codes sociaux, gestion du reverse culture shock). Ce guide s'adresse aux expatriés de London, Dubai, Singapour ou New York qui cherchent à choisir leur ville avec les mêmes critères rigoureux qu'ils appliqueraient à n'importe quelle décision professionnelle.",
     sections: [
@@ -8476,7 +8476,7 @@ export const GUIDES: Guide[] = [
     emoji: "⚓",
     readMinutes: 7,
     publishedAt: "2026-05-12",
-    updatedAt: "2026-05-12",
+    updatedAt: "2026-01-12",
     intro:
       "Rouen est la grande ville la plus proche de Paris hors Île-de-France, et c'est à la fois son principal atout et sa limite. Elle attire pour cette proximité — et fait partir ceux que la topographie, les embouteillages sur l'A13 et les prix en hausse du Vieux-Rouen finissent par épuiser. Ce guide regarde honnêtement les alternatives.",
     sections: [
@@ -8523,7 +8523,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏔️",
     readMinutes: 8,
     publishedAt: "2026-05-12",
-    updatedAt: "2026-05-12",
+    updatedAt: "2026-04-24",
     intro:
       "Annecy est systématiquement classée parmi les meilleures villes de France pour la qualité de vie — et systématiquement parmi les plus chères à l'achat. Le m² y dépasse désormais 6 500 € en centre-ville et 5 000 € dans les communes proches du lac. Pour les Annéciens qui n'ont pas profité de la bulle immobilière (locataires, primo-accédants, jeunes actifs), la question n'est plus de savoir si la ville est belle — elle l'est. C'est de savoir si elle est encore accessible.",
     sections: [
@@ -8570,7 +8570,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏔️",
     readMinutes: 8,
     publishedAt: "2026-05-12",
-    updatedAt: "2026-05-12",
+    updatedAt: "2026-01-20",
     intro:
       "Annecy et Chambéry sont séparées de 50 km, reliées en 45 minutes par l'A41, et représentent deux réponses très différentes à la même question : peut-on vivre dans les Alpes françaises sans renoncer à une vie urbaine de qualité ? La réponse est oui dans les deux cas — mais à des prix radicalement différents, et pour des profils qui ne se ressemblent pas.",
     sections: [
@@ -8617,7 +8617,7 @@ export const GUIDES: Guide[] = [
     emoji: "🍾",
     readMinutes: 7,
     publishedAt: "2026-05-12",
-    updatedAt: "2026-05-12",
+    updatedAt: "2026-02-11",
     intro:
       "Reims et Amiens partagent deux atouts remarquables : une cathédrale gothique classée UNESCO et une connexion TGV à moins de 2h de Paris. C'est à peu près tout ce qu'elles ont en commun. Leur économie, leur dynamisme, leur tissu social et leur rapport à leur propre attractivité sont profondément différents. Ce comparatif aide à choisir entre les deux.",
     sections: [
@@ -8664,7 +8664,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏔️",
     readMinutes: 8,
     publishedAt: "2026-05-12",
-    updatedAt: "2026-05-12",
+    updatedAt: "2026-01-07",
     intro:
       "L'Ariège est le département français qui combine le mieux prix immobiliers bas, montagne pyrénéenne, et accès raisonnable à Toulouse (80 km). C'est aussi l'un des plus oubliés dans les guides de relocation. Ce n'est pas une destination pour tout le monde — les déserts médicaux, l'isolement hivernal et la faiblesse du marché de l'emploi privé sont réels. Mais pour les profils qui correspondent, c'est une opportunité rare.",
     sections: [
@@ -8711,7 +8711,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌋",
     readMinutes: 8,
     publishedAt: "2026-05-12",
-    updatedAt: "2026-05-12",
+    updatedAt: "2026-02-28",
     intro:
       "L'Auvergne est la région de France la plus sous-représentée dans les guides de télétravail — et c'est injuste. Clermont-Ferrand est à 3h15 d'Intercités de Paris, mais surtout à 3h de TGV via Lyon (1h30 Clermont-Lyon, 2h Lyon-Paris). Les prix immobiliers sont parmi les plus bas des grandes villes de province. Et la chaîne des Puys — classée UNESCO en 2018 — est à 15 minutes du centre-ville. Ce guide répare cet oubli.",
     sections: [
@@ -8758,7 +8758,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌿",
     readMinutes: 8,
     publishedAt: "2026-05-12",
-    updatedAt: "2026-05-12",
+    updatedAt: "2026-04-04",
     intro:
       "Choisir une ville pour son infrastructure écologique du quotidien est une approche encore peu formalisée — mais de plus en plus de ménages y pensent concrètement. Ce guide ne mesure pas les déclarations politiques ni les objectifs 2030 : il mesure ce qu'un habitant peut faire aujourd'hui — acheter en vrac à 10 minutes à pied, composter sans voiture, aller au travail à vélo sur une piste sécurisée, trouver une AMAP active et un repair café ouvert le samedi.",
     sections: [
@@ -8805,7 +8805,7 @@ export const GUIDES: Guide[] = [
     emoji: "🎓",
     readMinutes: 8,
     publishedAt: "2026-05-12",
-    updatedAt: "2026-05-12",
+    updatedAt: "2026-03-09",
     intro:
       "Le budget étudiant médian en France est de 880 €/mois selon l'Observatoire de la Vie Étudiante 2025. Mais 30 % des étudiants vivent avec moins de 700 €. Ce guide est pour eux — pas pour ceux qui peuvent se payer un studio meublé sans APL. Il cherche les villes où les loyers CROUS ou l'offre privée accessible permettent de loger, manger et se déplacer avec 700 € nets par mois, en vivant dans un environnement étudiant actif et pas dans un désert.",
     sections: [
@@ -8851,7 +8851,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏛️",
     readMinutes: 9,
     publishedAt: "2026-05-12",
-    updatedAt: "2026-05-12",
+    updatedAt: "2026-02-14",
     intro: "Nîmes, 148 000 habitants, 2 700 heures de soleil par an, des arènes romaines qui font l'envie de toute la France méditerranéenne — et pourtant, les jeunes actifs quittent la ville à un rythme régulier. Pas parce que Nîmes est mauvaise. Parce que ses limites structurelles sont bien réelles et que les alternatives à moins d'une heure ne manquent pas.\n\nLa ville souffre d'un paradoxe : elle est suffisamment grande pour avoir les inconvénients d'une ville (trafic, pression immobilière en hausse, sentiment d'insécurité dans certains quartiers) sans être assez grande pour offrir la densité d'opportunités professionnelles d'une métropole. Le bassin d'emploi tourne autour du commerce, de la logistique et du tourisme — correct mais pas suffisant pour retenir des profils bac+5 ou des entrepreneurs tech.\n\nCe guide ne cherche pas à vous convaincre de partir ni de rester. Il met les chiffres sur la table : ce que vous gagnez à rester à Nîmes, ce que vous perdez réellement en partant, et les trois destinations les plus sérieuses selon votre profil. Parce que \"quitter Nîmes pour Montpellier\" et \"quitter Nîmes pour Avignon\" ne sont pas la même décision, et les confondre coûte cher.",
     sections: [
       {
@@ -8897,7 +8897,7 @@ export const GUIDES: Guide[] = [
     emoji: "⚓",
     readMinutes: 9,
     publishedAt: "2026-05-12",
-    updatedAt: "2026-05-12",
+    updatedAt: "2026-04-29",
     intro: "Toulon est la ville que les Parisiens ne comprennent pas et que les Varois défendent avec une passion démesurée. 180 000 habitants, premier port militaire de France, coincée entre Marseille à 70 km et Nice à 120 km — et pourtant, Toulon peine à se faire une identité propre dans l'imaginaire national.\n\nLa réalité est plus nuancée que sa réputation. Oui, certains quartiers nord (La Seyne, La Rode) ont des problèmes de sécurité documentés. Oui, le tissu économique civil est limité — beaucoup d'emplois dépendent directement ou indirectement de la Marine nationale. Mais Toulon est aussi l'une des villes les plus abordables de PACA, avec un centre-ville en cours de réhabilitation, un cadre naturel exceptionnel (presqu'île de Giens, îles d'Or à 20 minutes) et un ensoleillement rival de Nice.\n\nCe guide s'adresse à ceux qui envisagent sérieusement de partir — et à ceux qui hésitent encore. Parce que \"fuir Toulon pour Marseille\" peut être une régression, et parce que \"rester à Toulon en télétravail\" est devenu une option viable.",
     sections: [
       {
@@ -8943,7 +8943,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌊",
     readMinutes: 10,
     publishedAt: "2026-05-12",
-    updatedAt: "2026-05-12",
+    updatedAt: "2026-02-02",
     intro: "La Rochelle et Bayonne sont deux des villes côtières atlantiques les plus convoitées de France — et pourtant, elles n'ont presque rien en commun hormis la mer et l'air iodé. L'une est universitaire, cycliste, tournée vers l'écologie et le tourisme de masse. L'autre est basque dans l'âme, festive, tournée vers la montagne et le surf, avec Biarritz à 8 kilomètres.\n\nLa Rochelle (80 000 habitants intra-muros, 160 000 dans l'agglomération) est en Charente-Maritime, à la croisée des Pays de la Loire et de la Nouvelle-Aquitaine. C'est la capitale cycliste de France, avec 500 km de pistes cyclables et un taux de déplacements à vélo record. L'Île de Ré est accessible par pont en 15 minutes.\n\nBayonne (50 000 habitants, 315 000 dans le BAB — Bayonne-Anglet-Biarritz) est dans les Pyrénées-Atlantiques, territoire basque. C'est une ville médiévale dense, avec une tradition chocolatière (la France a découvert le chocolat par Bayonne), un marché couvert parmi les meilleurs du pays, et une culture locale extrêmement forte.",
     sections: [
       {
@@ -8985,7 +8985,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌧️",
     readMinutes: 9,
     publishedAt: "2026-05-12",
-    updatedAt: "2026-05-12",
+    updatedAt: "2026-02-11",
     intro: "Brest et Lorient sont souvent mentionnées dans la même phrase — deux villes bretonnes reconstruites après-guerre, toutes deux liées à la Marine nationale, toutes deux pluvieuses. Mais les similitudes s'arrêtent là. Brest est la plus occidentale des grandes villes françaises, un bastion universitaire de 140 000 habitants avec l'UBO (Université de Bretagne Occidentale) et une scène culturelle que sa réputation maussade masque injustement. Lorient est plus petite (58 000 habitants), à l'échelle plus humaine, connue dans le monde entier pour son Festival Interceltique et son port de pêche industriel.\n\nPour quelqu'un qui envisage de s'installer en Bretagne et hésite entre les deux, ce n'est pas qu'une question de prix — c'est une question de style de vie et de projet. Étudiant, télétravailleur, famille, profil maritime : les bonnes réponses divergent selon votre profil. Ce guide met les chiffres sur la table et dit clairement qui gagne pour quoi.",
     sections: [
       {
@@ -9027,7 +9027,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌲",
     readMinutes: 10,
     publishedAt: "2026-05-12",
-    updatedAt: "2026-05-12",
+    updatedAt: "2026-04-14",
     intro: "Les Ardennes (08) et la Meuse (55) sont deux des départements les plus discrets de France. Densité de population : 53 habitants/km² pour les Ardennes, 30 pour la Meuse (contre 119 pour la moyenne nationale). Forêts à perte de vue, vallées de la Meuse et de la Semoy, villages où les maisons se vendent moins cher qu'une voiture d'occasion.\n\nCe ne sont pas des destinations que les magazines de mode de vie mettent en avant. Et pourtant, une fraction croissante de télétravailleurs, de retraités et de familles en quête d'espace fait le choix délibéré de ces territoires — non pas faute de mieux, mais parce que la combinaison silence, nature, patrimoine et prix bas correspond à quelque chose de réel.\n\nCe guide ne vend pas de rêve. Il documente les conditions réelles : ce que vous gagnez (prix immobiliers parmi les plus bas de France métropolitaine), ce que vous sacrifiez (emploi limité, désertification médicale, éloignement des métropoles), et qui a réellement des chances de s'y épanouir.",
     sections: [
       {
@@ -9069,7 +9069,7 @@ export const GUIDES: Guide[] = [
     emoji: "🐄",
     readMinutes: 10,
     publishedAt: "2026-05-12",
-    updatedAt: "2026-05-12",
+    updatedAt: "2026-04-09",
     intro: "La Creuse (23) est le département le moins peuplé de France métropolitaine hors Lozère — 110 000 habitants sur 5 500 km², soit 20 habitants/km². C'est aussi le département où l'immobilier est parmi les moins chers de France : des maisons de village de 3 chambres avec jardin s'affichent régulièrement à 40 000–80 000 €. Des fermes avec dépendances dépassent rarement les 150 000 €.\n\nÀ la frontière de la Corrèze (19), le territoire s'étend dans ce qu'on appelle parfois la \"diagonale du vide\" — la bande de départements qui s'étire du nord-est au sud-ouest de la France, peu peuplée, peu dynamique économiquement, mais d'une beauté naturelle et d'un calme que les métropoles ne peuvent pas acheter.\n\nCe guide s'adresse à ceux qui envisagent sérieusement de s'y installer — télétravailleurs, retraités anticipés, artisans, néoruraux — et qui veulent des faits avant de prendre une décision irréversible.",
     sections: [
       {
@@ -9111,7 +9111,7 @@ export const GUIDES: Guide[] = [
     emoji: "🍷",
     readMinutes: 11,
     publishedAt: "2026-05-12",
-    updatedAt: "2026-05-12",
+    updatedAt: "2026-01-16",
     intro: "La Nouvelle-Aquitaine est la plus grande région de France métropolitaine par superficie — 84 000 km² — et sans doute la plus diverse. En une heure de route depuis Bordeaux, vous pouvez être sur la côte atlantique sauvage des Landes, dans les vignobles du Bordelais, dans les collines du Périgord, ou au pied des Pyrénées.\n\nPour un télétravailleur, cette diversité est une opportunité rare : le territoire offre des villes à taille humaine peu connues (Pau, Périgueux, Niort, Angoulême, Libourne) avec une fibre correcte, des espaces de coworking et un accès TGV à Paris — le tout à des prix bien inférieurs à Bordeaux.\n\nBordeaux elle-même reste une option mais son immobilier a connu la plus forte hausse de France entre 2015 et 2024 (+80 %). Pour un télétravailleur qui cherche l\'équilibre coût/qualité de vie, les villes secondaires de la région sont souvent plus intéressantes que la métropole girondine.",
     sections: [
       {
@@ -9153,7 +9153,7 @@ export const GUIDES: Guide[] = [
     emoji: "🚆",
     readMinutes: 10,
     publishedAt: "2026-05-12",
-    updatedAt: "2026-05-12",
+    updatedAt: "2026-02-25",
     intro: "\"Quitter Paris\" est le fantasme de beaucoup — mais pas toujours le projet réaliste de tous. Pour ceux qui ont encore 2 à 3 jours par semaine au bureau parisien, dont le réseau professionnel est en Île-de-France, ou dont le conjoint a un emploi non-délocalisable à Paris, la Grande Couronne représente une option intermédiaire souvent négligée.\n\nLa Grande Couronne désigne les départements de la deuxième et troisième ceinture autour de Paris : Seine-et-Marne (77), Yvelines (78), Essonne (91), Val-d\'Oise (95). Au-delà de ces limites administratives, on entre sur des villes comme Chartres (Eure-et-Loir), Évreux (Eure) ou Fontainebleau qui sont fonctionnellement dans l\'orbite parisienne.\n\nL\'argument principal : pour le même loyer ou mensualité de prêt qu\'un studio parisien (950–1 200 €), vous obtenez un T3 ou une maison avec jardin à 30–60 minutes de Paris en Transilien ou RER. La qualité de vie augmente significativement. Le prix à payer : la dépendance aux transports (et leurs aléas) et la sociabilité moindre qu\'en ville dense.",
     sections: [
       {
@@ -9195,7 +9195,7 @@ export const GUIDES: Guide[] = [
     emoji: "🐕",
     readMinutes: 9,
     publishedAt: "2026-05-12",
-    updatedAt: "2026-05-12",
+    updatedAt: "2026-03-01",
     intro: "La France compte environ 7,5 millions de chiens — c\'est l\'un des pays d\'Europe avec le plus fort taux de possession canine. Et pourtant, la qualité de vie pour les propriétaires de chiens varie énormément d\'une ville à l\'autre. Certaines villes ont investi dans des parcs canins, des zones de liberté hors laisse, une signalétique vétérinaire dense. D\'autres imposent des règles strictes dans les espaces publics, ont peu de verdure accessible, ou ont des bailleurs qui refusent systématiquement les animaux.\n\nCe guide classe les meilleures et les moins bonnes villes françaises pour vivre avec un chien en tenant compte de cinq facteurs : densité d\'espaces verts accessibles, zones hors laisse officielles, couverture vétérinaire, dog-friendliness des terrasses et commerces, et acceptation dans les logements locatifs. Parce que choisir sa ville quand on a un Berger Australien ou un Labrador n\'est pas la même décision que sans animal.",
     sections: [
       {
@@ -9237,7 +9237,7 @@ export const GUIDES: Guide[] = [
     emoji: "🎸",
     readMinutes: 9,
     publishedAt: "2026-05-12",
-    updatedAt: "2026-05-12",
+    updatedAt: "2026-03-28",
     intro: "La France a une scène musicale vivante mais géographiquement concentrée. Paris capte encore la majorité des maisons de disques, des agents, des studios professionnels et des grandes salles. Mais pour un musicien qui veut vivre de sa musique sans payer le loyer parisien, ou pour un mélomane qui veut un tissu de concerts et de festivals au quotidien, plusieurs villes de province offrent des écosystèmes remarquables.\n\nCe classement évalue les villes sur six critères : densité de salles de concerts (petites et moyennes), présence de festivals reconnus nationalement ou internationalement, accessibilité des espaces de répétition, offre du conservatoire et de l\'enseignement musical, présence de l\'industrie musicale (labels, éditeurs, booking), et diversité stylistique de la scène locale. Paris n\'est pas dans ce classement — elle gagne sur tous les critères mais à un coût que ce guide ne traite pas.",
     sections: [
       {
@@ -9279,7 +9279,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏠",
     readMinutes: 8,
     publishedAt: "2026-05-12",
-    updatedAt: "2026-05-12",
+    updatedAt: "2026-05-07",
     intro: "La colocation n\'est plus réservée aux étudiants. En 2026, les 25–35 ans en CDI ou en freelance représentent une part croissante des colocataires, notamment dans les villes où la pression immobilière rend l\'accès à un appartement individuel difficile — ou simplement peu rationnel financièrement.\n\nLa différence entre la colocation étudiante et la colocation jeune actif est simple : vous avez un revenu stable et vous cherchez à arbitrer entre coût, qualité du logement, vie sociale et accès au travail. Vous n\'avez pas besoin d\'être à côté de l\'université. Vous avez besoin d\'être à 20 minutes du coworking ou du bureau, dans un appartement où la salle de bains est partagée entre 2 personnes maximum, et avec des colocataires dont les horaires de travail ne sont pas à 8h du matin un samedi.\n\nCe guide classe les meilleures villes pour la colocation jeune actif, en comparant le prix moyen d\'une chambre en colocation, les transports en commun vers les zones d\'emploi et les critères de vie sociale.",
     sections: [
       {
@@ -9321,7 +9321,7 @@ export const GUIDES: Guide[] = [
     emoji: "🎨",
     readMinutes: 10,
     publishedAt: "2026-05-12",
-    updatedAt: "2026-05-12",
+    updatedAt: "2026-02-04",
     intro: "L\'instruction alternative connaît une croissance forte en France depuis 2015. Le nombre d\'écoles hors-contrat (dont la grande majorité des écoles alternatives) a doublé entre 2012 et 2024, passant d\'environ 800 à plus de 1 600 établissements selon les chiffres du ministère de l\'Éducation nationale. Cette croissance est tirée par une demande croissante de familles insatisfaites du système traditionnel, renforcée par le confinement de 2020 qui a normalisé les pratiques d\'apprentissage à domicile.\n\nLes écoles alternatives en France opèrent dans un cadre légal particulier : elles sont hors contrat avec l\'État (donc sans financement public), ce qui explique les tarifs. La plupart fonctionnent sous le régime des associations loi 1901 ou des SARL/SAS. Les enfants qui y sont scolarisés sont soumis aux mêmes obligations de contrôle de l\'instruction que les enfants instruits en famille.\n\nCe guide ne prend pas position pour ou contre l\'éducation alternative — il documente la répartition géographique de l\'offre et les tarifs réels pour aider les familles qui ont déjà fait ce choix à trouver leur ville.",
     sections: [
       {
@@ -9363,7 +9363,7 @@ export const GUIDES: Guide[] = [
     emoji: "✈️",
     readMinutes: 11,
     publishedAt: "2026-05-12",
-    updatedAt: "2026-05-12",
+    updatedAt: "2026-04-04",
     intro: "Rentrer en France après 5, 10 ou 15 ans d\'expatriation est une décision qui se planifie — et qui se rate souvent faute de préparation. Les familles qui reviennent de Londres, de New York, de Dubaï, de Singapour ou de Sydney ont des contraintes spécifiques que les guides de déménagement classiques n\'adressent pas : des enfants partiellement ou entièrement scolarisés en anglais, un budget supérieur à la moyenne mais des attentes aussi supérieures, des réseaux professionnels à reconstruire, et souvent un sentiment de dépaysement dans leur propre pays.\n\nLe choix de la ville de retour est la décision la plus structurante. Elle détermine l\'école des enfants (et si le choc de la scolarisation française sera gérable), votre accès au marché du travail (si vous ne rentrez pas avec un poste en main), la qualité de votre réseau social dans les premières années, et votre qualité de vie quotidienne.\n\nCe guide s\'appuie sur les témoignages de familles expatriées et les données disponibles pour guider ce choix vers les quatre destinations les plus solides pour ce profil.",
     sections: [
       {
@@ -9406,7 +9406,7 @@ export const GUIDES: Guide[] = [
     emoji: "⚙️",
     readMinutes: 9,
     publishedAt: "2026-05-12",
-    updatedAt: "2026-05-12",
+    updatedAt: "2026-04-04",
     intro:
       "Le Mans et Tours se ressemblent de loin : deux villes moyennes de 130 000 à 150 000 habitants, en Centre-Val de Loire, reliées à Paris par le TGV en moins d'une heure. Mais le diable est dans les détails. Le Mans est la ville du sport automobile, des prix attractifs et d'une économie industrielle solide. Tours est la capitale universitaire du Val de Loire, plus culturelle, plus chère, et davantage tournée vers le tertiaire et le tourisme. Si vous hésitez entre les deux pour une installation professionnelle ou une reconversion télétravail, ce guide vous donne les chiffres bruts et les arguments de terrain pour trancher.",
     sections: [
@@ -9456,7 +9456,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏖️",
     readMinutes: 9,
     publishedAt: "2026-05-12",
-    updatedAt: "2026-05-12",
+    updatedAt: "2026-03-10",
     intro:
       "Perpignan et Montpellier partagent l'Occitanie, le soleil méditerranéen, l'accès à la plage et une vraie identité culturelle du Sud. Mais elles n'ont presque rien d'autre en commun. Perpignan (120 000 habitants, Pyrénées-Orientales) est l'une des villes les moins chères de France — soleil garanti, identité catalane forte, frontière espagnole à 30 km. Montpellier (300 000 habitants, Hérault) est une métropole universitaire en pleine croissance, avec un marché de l'emploi actif, une scène startup et un TGV Paris en 3h15. Ce comparatif aide les candidats à l'installation à choisir selon leur profil réel.",
     sections: [
@@ -9507,7 +9507,7 @@ export const GUIDES: Guide[] = [
     emoji: "🥨",
     readMinutes: 8,
     publishedAt: "2026-05-12",
-    updatedAt: "2026-05-12",
+    updatedAt: "2026-02-15",
     intro:
       "Metz et Nancy sont les deux grandes villes de l'ex-Lorraine, aujourd'hui intégrées dans la région Grand Est. Elles sont séparées de 55 km et rivalisant depuis des siècles — ce qui rend la comparaison particulièrement savoureuse. Metz (120 000 habitants, Moselle) a investi massivement dans le renouveau urbain depuis l'ouverture du Centre Pompidou-Metz en 2010 et affiche aujourd'hui une dynamique économique supérieure. Nancy (105 000 habitants, Meurthe-et-Moselle) reste la capitale culturelle et universitaire historique de Lorraine, portée par la Place Stanislas classée UNESCO et son Art Nouveau unique. Les deux se disputent les mêmes profils — voici comment les départager.",
     sections: [
@@ -9557,7 +9557,7 @@ export const GUIDES: Guide[] = [
     emoji: "🦆",
     readMinutes: 8,
     publishedAt: "2026-05-12",
-    updatedAt: "2026-05-12",
+    updatedAt: "2026-02-03",
     intro:
       "Le Périgord — le département de la Dordogne en langage vernaculaire — est l'une des régions françaises les plus photogéniques : châteaux médiévaux, falaises calcaires, rivières Vézère et Dordogne, forêts de chênes, villages classés (Beynac, La Roque-Gageac, Rocamadour à la frontière lotoise). C'est aussi l'un des rares territoires français où une maison en pierre avec jardin se trouve encore entre 80 000 € et 130 000 €. Ce cadre a depuis longtemps attiré les retraités britanno-français — la communauté britannique du Périgord compte entre 15 000 et 20 000 personnes, la plus grande concentration d'expats britanniques en France hors grandes villes. Mais vivre ici n'est pas un tableau idyllique sans zones d'ombre.",
     sections: [
@@ -9606,7 +9606,7 @@ export const GUIDES: Guide[] = [
     emoji: "🥨",
     readMinutes: 9,
     publishedAt: "2026-05-12",
-    updatedAt: "2026-05-12",
+    updatedAt: "2026-01-10",
     intro:
       "L'Alsace est la seule région française dont l'identité est à la fois profondément française et structurellement germanique — dans l'architecture, la cuisine, le droit local (droit alsacien-mosellan, encore en vigueur pour certains domaines) et les habitudes de vie. Strasbourg (280 000 habitants), capitale de l'Alsace et siège du Parlement européen, est l'une des villes les plus cosmopolites de France. Colmar est la carte postale du vignoble alsacien. Mulhouse, enfin, est la ville industrielle en reconversion, moins séduisante au premier regard mais proposant les prix les plus abordables de la région. Ce guide analyse les trois villes et ce que signifie vraiment s'installer en Alsace.",
     sections: [
@@ -9655,7 +9655,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌊",
     readMinutes: 8,
     publishedAt: "2026-05-12",
-    updatedAt: "2026-05-12",
+    updatedAt: "2026-04-09",
     intro:
       "La Charente-Maritime (département 17) est l'un des secrets les mieux gardés du littoral français pour les familles et les télétravailleurs qui veulent la côte atlantique sans payer les prix de la Côte d'Azur. La Rochelle (80 000 habitants) est la ville principale — dynamique, universitaire, nautique. Royan et Rochefort sont des alternatives moins chères avec des qualités propres. Les îles de Ré et d'Oléron sont accessibles depuis le continent (pont), à prix beaucoup plus élevé. Saintes (25 000 habitants) et Cognac (20 000 habitants) complètent un réseau urbain modeste mais diversifié. Ce guide démonte les clichés et donne les prix réels.",
     sections: [
@@ -9705,7 +9705,7 @@ export const GUIDES: Guide[] = [
     emoji: "☀️",
     readMinutes: 8,
     publishedAt: "2026-05-12",
-    updatedAt: "2026-05-12",
+    updatedAt: "2026-02-06",
     intro:
       "L'Occitanie est la région française la plus ensoleillée après la Provence-Alpes-Côte d'Azur. Avec deux grandes métropoles (Toulouse et Montpellier), plusieurs villes moyennes dynamiques (Nîmes, Perpignan, Carcassonne, Béziers) et une connectivité TGV Paris correcte, elle cumule les arguments pour les télétravailleurs qui veulent fuir le grisaille du nord sans payer les prix provençaux. Ce guide évalue chaque ville sur les 5 critères qui comptent vraiment pour un remote worker : connexion internet, coworkings, accès Paris en train, coût du logement, communauté tech.",
     sections: [
@@ -9755,7 +9755,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌾",
     readMinutes: 7,
     publishedAt: "2026-05-12",
-    updatedAt: "2026-05-12",
+    updatedAt: "2026-01-14",
     intro:
       "Les Hauts-de-France sont la région que les listes de villes télétravail oublient systématiquement. C'est une erreur stratégique. Lille est à 1h de Paris en TGV — soit moins de temps que certaines banlieues de la grande couronne — avec des loyers 2,5 à 3 fois inférieurs à Paris. Amiens est à 1h20. Arras à 50 minutes. Pour un profil hybride 1 à 2 jours de présence à Paris par semaine, c'est l'une des équations les plus performantes de France. Ce guide évalue Lille, Amiens, Arras et Valenciennes sur les critères clés du télétravail.",
     sections: [
@@ -9804,7 +9804,7 @@ export const GUIDES: Guide[] = [
     emoji: "🧖",
     readMinutes: 8,
     publishedAt: "2026-05-12",
-    updatedAt: "2026-05-12",
+    updatedAt: "2026-02-27",
     intro:
       "Le marché du bien-être en France a doublé en 10 ans : 6,6 milliards d'euros en 2025 selon Xerfi. Ce n'est pas un phénomène parisien — certaines villes de province sont devenues des capitales mondiales du spa, de la thérapie thermale ou du mode de vie actif. Ce guide identifie les meilleures villes françaises pour un lifestyle axé sur le bien-être, en combinant cinq indicateurs : présence de thermes, densité de studios yoga/pilates, accès à la nature (randonnée, lac, mer), qualité de l'air (indice Atmo), et ratio d'espaces verts par habitant.",
     sections: [
@@ -9853,7 +9853,7 @@ export const GUIDES: Guide[] = [
     emoji: "🚀",
     readMinutes: 9,
     publishedAt: "2026-05-12",
-    updatedAt: "2026-05-12",
+    updatedAt: "2026-03-15",
     intro:
       "La France compte aujourd'hui plus de 40 licornes et est le premier pays d'Europe continentale pour le financement des startups (13 milliards d'euros levés en 2025 selon Bpifrance). Ce succès est de plus en plus décentralisé — si Paris reste dominante, Bordeaux, Nantes, Rennes, Grenoble et Toulouse ont développé des écosystèmes startup crédibles avec leurs propres spécialités. Ce guide classe les meilleures villes françaises pour les fondateurs et entrepreneurs selon cinq critères : présence d'un écosystème French Tech actif, densité d'accélérateurs/incubateurs, talent universitaire local, coût de l'espace de travail, et accès aux investisseurs.",
     sections: [
@@ -9902,7 +9902,7 @@ export const GUIDES: Guide[] = [
     emoji: "👴",
     readMinutes: 8,
     publishedAt: "2026-05-12",
-    updatedAt: "2026-05-12",
+    updatedAt: "2026-02-28",
     intro:
       "La pension de retraite médiane en France est d'environ 1 500 euros nets par mois (Drees, 2025 — incluant retraite de base et complémentaire). C'est un budget qui permet une vie confortable dans certaines villes françaises et une vie précaire dans d'autres. Le facteur déterminant est le loyer : si vous louez, il doit rester sous 35 % du budget (soit 525 €/mois maximum pour maintenir un reste-à-vivre raisonnable). Si vous êtes propriétaire sans emprunt, la question change radicalement. Ce guide identifie les villes françaises où 1 500 €/mois permet une retraite digne, avec services de santé accessibles, activités culturelles et vie sociale.",
     sections: [
@@ -9952,7 +9952,7 @@ export const GUIDES: Guide[] = [
     emoji: "💼",
     readMinutes: 8,
     publishedAt: "2026-05-12",
-    updatedAt: "2026-05-12",
+    updatedAt: "2026-01-06",
     intro:
       "Le SMIC net en 2026 est de 1 426 euros par mois (calcul sur 35h/semaine, après prélèvements sociaux et avant impôt sur le revenu). C'est le salaire de 17 % des salariés français. La question n'est pas théorique : pour des millions de personnes, c'est le budget réel avec lequel elles doivent vivre, se loger, se nourrir et se déplacer. Ce guide ne cherche pas à vendre un rêve — il identifie les villes françaises où ce budget est suffisant pour vivre dignement, avec les dispositifs d'aide mobilisables (APL, pass Navigo, carte solidarité) pour maximiser le reste à vivre.",
     sections: [
@@ -10001,7 +10001,7 @@ export const GUIDES: Guide[] = [
     emoji: "👩‍👦",
     readMinutes: 8,
     publishedAt: "2026-05-12",
-    updatedAt: "2026-05-12",
+    updatedAt: "2026-01-08",
     intro:
       "En France, 3,7 millions de familles sont monoparentales — soit 26 % des familles avec enfants (INSEE, 2024). Dans 80 % des cas, le parent présent est la mère. Ce profil cumulé — un seul revenu, des frais de garde, des horaires souvent contraints — est l'un de ceux pour qui le choix de la ville compte le plus. Une ville avec peu de crèches et des transports déficients peut rendre la vie quotidienne épuisante ; une ville bien dotée en services peut changer radicalement la qualité de vie. Ce guide classe les meilleures villes françaises pour les familles monoparentales sur cinq critères objectifs : prix du logement (T3), taux de couverture crèches, transports en commun, offre d'après-école, et densité des réseaux de soutien CAF.",
     sections: [
@@ -10050,7 +10050,7 @@ export const GUIDES: Guide[] = [
     emoji: "♿",
     readMinutes: 8,
     publishedAt: "2026-05-12",
-    updatedAt: "2026-05-12",
+    updatedAt: "2026-02-05",
     intro:
       "La France est régulièrement épinglée pour son retard en matière d'accessibilité : moins de 40 % des établissements recevant du public étaient conformes aux normes d'accessibilité en 2025, selon les rapports parlementaires. Mais des disparités importantes existent entre les villes — certaines ont fait de l'accessibilité une priorité politique concrète, d'autres restent très en retard. Ce guide évalue les meilleures villes françaises pour les personnes en situation de handicap (moteur, sensoriel, mental) selon cinq critères : accessibilité des transports en commun, disponibilité de logements PMR (Personnes à Mobilité Réduite), efficacité de la MDPH locale, proximité des spécialistes médicaux, et taux d'emploi inclusif.",
     sections: [
@@ -10099,7 +10099,7 @@ export const GUIDES: Guide[] = [
     emoji: "🍾",
     readMinutes: 8,
     publishedAt: "2026-05-12",
-    updatedAt: "2026-05-12",
+    updatedAt: "2026-05-06",
     intro:
       "Reims fait partie de ces villes que tout le monde aime visiter et que beaucoup hésitent à quitter — la cathédrale gothique classée UNESCO en 1991, les maisons de champagne, le TGV Paris-Est en 45 minutes. Et pourtant, en 2024-2025, l'INSEE confirme une croissance démographique très faible (+0,1 %/an dans la Marne) et un solde migratoire négatif chez les 25-39 ans. Trois raisons reviennent dans les témoignages : un climat continental rude (1 664 h d'ensoleillement par an selon Météo-France, contre 2 200 h pour la moyenne nationale), un tissu d'emploi tertiaire saturé, et des quartiers prioritaires (Croix-Rouge, Wilson, Orgeval) dont la situation s'est dégradée. Ce guide regarde honnêtement les alternatives.",
     sections: [
@@ -10156,7 +10156,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌾",
     readMinutes: 9,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-03-16",
     intro:
       "L'idée de quitter la ville pour la campagne a explosé depuis 2020. Le télétravail a rendu le projet faisable pour des centaines de milliers de Français — d'après l'Insee, 22 % des urbains de moins de 50 ans envisagent sérieusement une installation rurale d'ici trois ans. Mais «la campagne» n'est pas une catégorie homogène : on n'achète pas la même vie à 20 minutes de Rennes qu'à 50 minutes d'Aurillac. Ce guide regarde froidement ce que coûte la campagne, ce qu'elle offre, ce qui manque, et où installer son projet pour qu'il tienne au-delà des trois premières années.",
     sections: [
@@ -10206,7 +10206,7 @@ export const GUIDES: Guide[] = [
     emoji: "🎓",
     readMinutes: 8,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-03-16",
     intro:
       "La France accueille environ 430 000 étudiants étrangers chaque année, selon Campus France — c'est le 6e pays d'accueil mondial. Mais l'expérience varie énormément selon la ville d'inscription : démarches préfectorales fluides ou cauchemardesques, logement abordable ou inaccessible, communauté internationale visible ou diluée, services en anglais ou inexistants. Ce guide classe les villes universitaires françaises selon cinq critères qui comptent réellement pour un étudiant international : disponibilité du logement, qualité des services internationaux des universités, efficacité de la préfecture, coût de la vie, et vivacité de la communauté étudiante étrangère.",
     sections: [
@@ -10254,7 +10254,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌻",
     readMinutes: 8,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-01-13",
     intro:
       "Le Vaucluse est cette Provence qu'on croit déjà connaître par les cartes postales : Avignon et son pont, le Mont Ventoux, les villages perchés du Luberon, les champs de lavande. La réalité 2026 est plus contrastée. Avignon est une ville moyenne attachante mais avec des défis (sécurité, climat extrême). Le Luberon est devenu inabordable pour la classe moyenne. Carpentras et Orange offrent un compromis. Ce guide regarde le Vaucluse sans filtre Instagram : ce que coûte vraiment l'installation, où s'installer selon votre profil, ce qui est sous-tendu par le mistral, et où trouver une vie locale qui ne soit pas une réserve touristique.",
     sections: [
@@ -10303,7 +10303,7 @@ export const GUIDES: Guide[] = [
     emoji: "⚒️",
     readMinutes: 8,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-03-31",
     intro:
       "Saint-Étienne est une ville-paradoxe : prix de l'immobilier parmi les plus bas des grandes villes françaises (~1 500 €/m² dans certains quartiers), patrimoine industriel et créatif (Cité du Design, Mémorial Manufrance), proximité immédiate du Pilat et du Forez. Mais l'agglomération perd des habitants depuis 1975 (de 230 000 à 170 000 aujourd'hui) et chaque année 3 000 à 4 000 Stéphanois partent. Ce guide explique pourquoi, où ils vont, et ce que coûte vraiment chacun de ces choix.",
     sections: [
@@ -10352,7 +10352,7 @@ export const GUIDES: Guide[] = [
     emoji: "🇨🇭",
     readMinutes: 8,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-05-02",
     intro:
       "Mulhouse occupe une position géographique unique en France : à 35 km de Bâle (Suisse), à 60 km de Fribourg-en-Brisgau (Allemagne), à 1h de Strasbourg. Cette frontière en fait l'une des villes françaises avec le plus de frontaliers (~25 000 actifs traversent quotidiennement vers la Suisse). Mais la ville elle-même souffre : revenus médians parmi les plus bas des grandes villes françaises (~19 200 €/an), désindustrialisation textile difficilement digérée, image dégradée (classée plusieurs fois en tête des palmarès «villes qui font peur» de la presse à clics, souvent injustement). Ce guide regarde où partent les Mulhousiens — et qui regrette d'être parti.",
     sections: [
@@ -10400,7 +10400,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏛️",
     readMinutes: 9,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-02-01",
     intro:
       "Aix-en-Provence et Marseille forment un duo unique en France : 30 km à peine les séparent mais elles incarnent deux Provences opposées. Aix : bourgeoise, universitaire, médiévale, calme et chère. Marseille : populaire, portuaire, méditerranéenne, vibrante et contrastée. Beaucoup de cadres mutés à Marseille choisissent finalement d'habiter Aix — et inversement, certains intellectuels aixois finissent par s'installer à Marseille pour échapper à l'entre-soi. Ce comparatif factuel passe en revue 8 critères avec chiffres à l'appui pour vous aider à choisir.",
     sections: [
@@ -10453,7 +10453,7 @@ export const GUIDES: Guide[] = [
     emoji: "🍀",
     readMinutes: 8,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-05-09",
     intro:
       "Tout le monde rêve de la côte bretonne (Vannes, Saint-Malo, Quimper, La Trinité-sur-Mer) — et tout le monde en paie le prix. Les Bretons connaissent un autre territoire qu'ils ne mettent pas en avant : l'intérieur. Pontivy, Loudéac, Rostrenen, Carhaix, Mûr-de-Bretagne. Maisons bretonnes à 80 000 €, fibre quasi totale, hivers doux, été frais. Ce guide regarde sérieusement ce que vaut la Bretagne intérieure en 2026 : qui y va, pour quoi faire, et où les projets tiennent vraiment.",
     sections: [
@@ -10501,7 +10501,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌈",
     readMinutes: 8,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-05-01",
     intro:
       "La France a légalisé le mariage pour tous en 2013, mais la qualité de vie LGBT+ varie énormément selon le territoire. Les chiffres SOS Homophobie 2024 montrent un nombre d'agressions LGBT-phobes en hausse dans plusieurs villes — mais ces moyennes nationales cachent des contrastes locaux importants. Ce guide identifie les villes françaises où la communauté LGBT+ se sent réellement à l'aise, mesuré par cinq critères : densité associative LGBT+, lieux culturels et sociaux dédiés, accueil famille homoparentale (PMA, école, médecin), visibilité dans l'espace public, et sécurité ressentie au quotidien.",
     sections: [
@@ -10550,7 +10550,7 @@ export const GUIDES: Guide[] = [
     emoji: "⚓",
     readMinutes: 8,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-05-02",
     intro:
       "Le Havre est une ville singulière : centre Perret classé UNESCO, port de commerce parmi les plus importants d'Europe, immobilier parmi les plus abordables des grandes villes françaises (T2 ~440 €/mois centre, achat ~2 100 €/m²). Mais l'agglomération a perdu 20 000 habitants depuis 1975 et les flux de départ vers Rouen, Caen et Paris restent marqués. Ce guide explique pourquoi, où vont vraiment les Havrais qui partent, et ce que chaque option coûte.",
     sections: [
@@ -10599,7 +10599,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏰",
     readMinutes: 8,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-02-01",
     intro:
       "Tours est l'une des villes moyennes les plus prisées de France : TGV Paris en 1h05, patrimoine UNESCO Loire, qualité de vie classée régulièrement dans le top 10 français. Mais l'attractivité a fait grimper les prix (achat ~3 600 €/m² centre, T2 ~570 €/mois) et le marché de l'emploi cadre reste modeste pour une métropole de 350 000 hab. Chaque année, environ 4 500 Tourangeaux quittent l'agglomération. Voici où ils vont et pourquoi.",
     sections: [
@@ -10648,7 +10648,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌿",
     readMinutes: 8,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-02-04",
     intro:
       "Angers truste les classements qualité de vie depuis dix ans : végétalisation reconnue, patrimoine, TGV Paris 1h30, scène culturelle vivace. Mais la métropole reste modeste (~410 000 hab.) et l'offre de carrière cadre, surtout dans le tertiaire supérieur, demeure étroite hors végétal et numérique. Chaque année, ~4 000 Angevins partent. Voici les flux réels.",
     sections: [
@@ -10697,7 +10697,7 @@ export const GUIDES: Guide[] = [
     emoji: "⛵",
     readMinutes: 8,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-02-26",
     intro:
       "Brest a le port militaire, la rade, le climat océanique pur et un immobilier parmi les plus abordables des grandes villes françaises (T2 ~430 €/mois centre, achat ~2 100 €/m²). Mais la pointe bretonne paie son éloignement : TGV Paris en 3h35, marché de l'emploi cadre dominé par la Défense et la recherche, pluviométrie soutenue. Chaque année, ~3 500 Brestois quittent l'agglomération. Voici où.",
     sections: [
@@ -10746,7 +10746,7 @@ export const GUIDES: Guide[] = [
     emoji: "🐎",
     readMinutes: 8,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-03-31",
     intro:
       "Caen est l'une des villes moyennes les plus équilibrées de France : 110 000 hab. au centre, 270 000 dans l'agglo, mer à 20 min, prix immobiliers raisonnables (T2 ~510 €/mois centre, achat ~2 700 €/m²), CHU, université reconnue. Mais le tissu d'emploi cadre tertiaire reste limité hors santé, recherche et services publics. Voici où vont les Caennais qui partent.",
     sections: [
@@ -10795,7 +10795,7 @@ export const GUIDES: Guide[] = [
     emoji: "🎭",
     readMinutes: 8,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-03-31",
     intro:
       "Avignon a le Palais des Papes, le Festival mondialement connu, le TGV Méditerranée (Paris en 2h40), le soleil provençal et un immobilier modéré (T2 ~510 €/mois intra-muros, achat ~3 100 €/m²). Mais la ville (~90 000 hab. centre, ~340 000 agglo) souffre d'une saisonnalité dure (juillet bondé, hiver creux) et d'un marché cadre étroit. Chaque année ~3 200 Avignonnais quittent l'agglomération.",
     sections: [
@@ -10844,7 +10844,7 @@ export const GUIDES: Guide[] = [
     emoji: "🍒",
     readMinutes: 7,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-02-10",
     intro:
       "Limoges est l'une des grandes villes les plus accessibles de France : achat ~1 700 €/m² centre, T2 ~400 €/mois, cadre vert reconnu (BBC label «ville verte»), porcelaine et patrimoine. Mais l'agglomération (~280 000 hab.) perd des habitants depuis vingt ans et le marché de l'emploi cadre reste contraint. Chaque année ~2 800 Limougeauds quittent l'agglo.",
     sections: [
@@ -10893,7 +10893,7 @@ export const GUIDES: Guide[] = [
     emoji: "⌚",
     readMinutes: 7,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-01-01",
     intro:
       "Besançon est une ville-bijou : citadelle Vauban UNESCO, méandres du Doubs, qualité de vie reconnue, marché immobilier modéré (T2 ~470 €/mois, achat ~2 400 €/m²). Mais avec ~115 000 hab. centre et ~250 000 agglo, le marché de l'emploi cadre reste étroit hors microtechnique, santé et université. ~2 500 Bisontins quittent chaque année.",
     sections: [
@@ -10942,7 +10942,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏔️",
     readMinutes: 7,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-05-08",
     intro:
       "Pau est une ville à part : panorama unique sur les Pyrénées depuis le Boulevard des Pyrénées, climat doux (microclimat océanique abrité), patrimoine bourbonien, immobilier modéré (T2 ~440 €/mois, achat ~2 300 €/m²). Mais avec ~80 000 hab. centre, ~200 000 agglo, le tissu d'emploi reste dominé par Total/TotalEnergies (Lacq), l'aéronautique et le public. ~2 200 Palois quittent chaque année.",
     sections: [
@@ -10991,7 +10991,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌊",
     readMinutes: 7,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-01-28",
     intro:
       "Le BAB (Bayonne-Anglet-Biarritz, ~125 000 hab.) est l'une des zones les plus tendues du marché immobilier français : T2 ~600 €/mois Bayonne centre, ~750 € Biarritz, achat ~3 800 €/m² Bayonne et ~6 500 €/m² Biarritz front de mer. La pression touristique et la rareté foncière poussent une partie des Bayonnais natifs hors de chez eux.",
     sections: [
@@ -11040,7 +11040,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌞",
     readMinutes: 7,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-04-24",
     intro:
       "Perpignan a 300 jours de soleil/an, la frontière espagnole à 30 km, la Méditerranée à 15 km, un immobilier accessible (T2 ~430 €/mois centre, achat ~2 000 €/m²). Mais la ville (~120 000 hab.) affiche un taux de chômage parmi les plus élevés de France (~13 %) et une perception sécurité dégradée. ~2 800 Perpignanais quittent l'agglomération chaque année.",
     sections: [
@@ -11089,7 +11089,7 @@ export const GUIDES: Guide[] = [
     emoji: "⛵",
     readMinutes: 7,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-03-18",
     intro:
       "La Rochelle truste les classements qualité de vie depuis quinze ans — port médiéval, voile, climat océanique doux, université. Mais les prix ont explosé (T2 ~620 €/mois centre, achat ~4 200 €/m²), la pression touristique estivale est devenue dure, et les Rochelais natifs sont poussés vers la périphérie. ~2 500 départs/an de l'agglo.",
     sections: [
@@ -11138,7 +11138,7 @@ export const GUIDES: Guide[] = [
     emoji: "🟡",
     readMinutes: 7,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-02-06",
     intro:
       "Metz a le Centre Pompidou-Metz, le quartier impérial UNESCO, un cadre vert reconnu et le frontalier Luxembourg à 30 km. Prix immobiliers modérés (T2 ~480 €/mois centre, achat ~2 400 €/m²). Mais le marché de l'emploi cadre local reste tendu hors sidérurgie en reconversion, et beaucoup de Messins migrent vers le Luxembourg en frontalier ou vers les métropoles voisines.",
     sections: [
@@ -11187,7 +11187,7 @@ export const GUIDES: Guide[] = [
     emoji: "🦄",
     readMinutes: 7,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-03-29",
     intro:
       "Nancy a la place Stanislas (UNESCO), l'École de Nancy, l'université, le CHU et un patrimoine Art nouveau remarquable. Prix immobiliers modérés (T2 ~480 €/mois, achat ~2 500 €/m²). Mais avec ~105 000 hab. centre et ~260 000 agglo, l'offre cadre tertiaire reste contrainte. ~3 000 départs/an de l'agglomération.",
     sections: [
@@ -11236,7 +11236,7 @@ export const GUIDES: Guide[] = [
     emoji: "⛪",
     readMinutes: 7,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-05-09",
     intro:
       "Amiens a la plus grande cathédrale gothique de France (UNESCO), les hortillonnages, l'université, et un immobilier parmi les plus accessibles des préfectures (T2 ~410 €/mois, achat ~2 000 €/m²). Mais l'agglo (~180 000 hab.) souffre d'un marché cadre restreint et d'un déclin démographique régulier. ~2 600 départs/an.",
     sections: [
@@ -11285,7 +11285,7 @@ export const GUIDES: Guide[] = [
     emoji: "🍾",
     readMinutes: 7,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-05-06",
     intro:
       "Reims a la cathédrale du sacre (UNESCO), les caves de Champagne, l'université, et surtout le TGV Paris-Est en 45 min. Prix immobiliers modérés mais en hausse (T2 ~510 €/mois, achat ~2 700 €/m²). Avec ~180 000 hab. centre, ~320 000 agglo, beaucoup de Rémois font le pendulaire Paris quotidiennement. ~3 200 départs annuels.",
     sections: [
@@ -11334,7 +11334,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏎️",
     readMinutes: 7,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-02-27",
     intro:
       "Le Mans est l'une des grandes villes les plus accessibles à Paris (TGV 55 min) avec un immobilier très abordable (T2 ~390 €/mois, achat ~2 100 €/m²). Patrimoine Plantagenêt, 24 Heures du Mans, MMA, université. Mais avec ~145 000 hab. centre et ~210 000 agglo, le marché cadre local reste étroit. ~2 800 départs/an.",
     sections: [
@@ -11383,7 +11383,7 @@ export const GUIDES: Guide[] = [
     emoji: "🚇",
     readMinutes: 7,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-01-20",
     intro:
       "Paris est la grande ville française la plus simple à vivre sans voiture : 14 lignes de métro, 5 RER, 8 tramways, ~200 km de pistes cyclables sécurisées, Vélib' à 47 €/an, autopartage Citiz/Free2Move présent partout. Mais «sans voiture» ne veut pas dire «sans coût mobilité». Voici le vrai chiffrage 2026 et les écueils.",
     sections: [
@@ -11432,7 +11432,7 @@ export const GUIDES: Guide[] = [
     emoji: "🚊",
     readMinutes: 7,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-03-01",
     intro:
       "Lyon est la deuxième ville française la plus simple à vivre sans voiture : 4 lignes de métro, 7 lignes de tram, 2 funiculaires, Vélo'v (~5 000 vélos), réseau Citiz autopartage dense, TER vers toute la région. La ZFE-m métropolitaine renforce encore l'avantage no-car. Voici le vrai chiffrage 2026.",
     sections: [
@@ -11481,7 +11481,7 @@ export const GUIDES: Guide[] = [
     emoji: "🚲",
     readMinutes: 7,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-01-06",
     intro:
       "Strasbourg est la ville française avec la part modale vélo la plus élevée (~16 % des déplacements, premier rang national). 600 km de pistes cyclables sécurisées, 6 lignes de tram desservant la Ville-Neuve, La Robertsau, Kœnigshoffen, Esplanade, Vélhop en libre-service. La ZFE strasbourgeoise rend l'usage voiture quotidien progressivement contraint. Voici le vrai bilan 2026.",
     sections: [
@@ -11530,7 +11530,7 @@ export const GUIDES: Guide[] = [
     emoji: "🍷",
     readMinutes: 7,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-04-09",
     intro:
       "Bordeaux est devenue une grande ville française très compatible no-car grâce au tram (4 lignes, 80 km), au vélo V³ (~250 stations), au scooter Yego, à Citiz, et au climat doux qui favorise le vélo toute l'année. La rive droite (Bastide) et la rive gauche centre sont très bien desservies. Voici le bilan 2026.",
     sections: [
@@ -11579,7 +11579,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌳",
     readMinutes: 7,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-04-24",
     intro:
       "Nantes est la ville qui a relancé le tram en France (1985, premier réseau moderne). Aujourd'hui : 3 lignes tram + Busway BHNS + Navibus Loire + Bicloo (~880 vélos) + Marguerite autopartage. Climat doux et compact urbain favorisent l'usage vélo et marche. Voici le bilan no-car 2026.",
     sections: [
@@ -11628,7 +11628,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏛️",
     readMinutes: 8,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-03-03",
     intro:
       "Paris reste l'un des marchés immobiliers les plus chers d'Europe, mais 2024–2026 a vu une baisse de ~7 % qui ouvre une fenêtre. Comprendre quel arrondissement correspond à quel budget, où acheter ne reviendra plus, et où la décote est temporaire est crucial. Voici la grille de lecture 2026 par budget réaliste.",
     sections: [
@@ -11677,7 +11677,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏘️",
     readMinutes: 8,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-03-19",
     intro:
       "Lyon est devenue la 2e métropole française la plus chère après Paris, avec des prix multipliés par ~2,2 en 15 ans. La baisse 2024–2026 (~5 %) ouvre une fenêtre mais le marché reste tendu. Voici quel arrondissement choisir selon votre budget, où acheter en 2026, et où la prime est encore raisonnable.",
     sections: [
@@ -11726,7 +11726,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌊",
     readMinutes: 8,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-03-04",
     intro:
       "Marseille a l'amplitude de prix la plus extrême des grandes villes françaises : du simple au double selon arrondissement (3 000 à 6 500 €/m²). Acheter à Marseille demande une lecture précise des micro-quartiers — une rue peut faire varier le prix de 30 %. Voici la cartographie 2026.",
     sections: [
@@ -11775,7 +11775,7 @@ export const GUIDES: Guide[] = [
     emoji: "🟣",
     readMinutes: 8,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-02-23",
     intro:
       "Toulouse a vu ses prix monter de +35 % sur 10 ans, portée par l'aéronautique et l'attractivité étudiante. La baisse 2024–2026 (~4 %) offre une fenêtre, mais la demande sous-jacente reste forte. Voici quel quartier choisir pour 2026 selon votre budget.",
     sections: [
@@ -11824,7 +11824,7 @@ export const GUIDES: Guide[] = [
     emoji: "🐉",
     readMinutes: 8,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-02-03",
     intro:
       "Lille est l'une des grandes métropoles françaises les plus accessibles avec un marché immobilier dynamique tiré par l'Eurostar, la TGV Paris (1h05), l'université et la requalification urbaine continue. Voici quel quartier choisir en 2026 selon votre budget.",
     sections: [
@@ -11873,7 +11873,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌤️",
     readMinutes: 8,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-02-03",
     intro:
       "Le climat français se transforme — vagues de chaleur plus fréquentes au sud, pluviométrie déstabilisée à l'ouest, pics de pollution en vallées. Choisir où vivre en 2026 demande de regarder 20 ans devant, pas en arrière. Voici la cartographie honnête des villes selon climat, qualité de l'air et tendance.",
     sections: [
@@ -11922,7 +11922,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌐",
     readMinutes: 7,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-04-14",
     intro:
       "Élever ses enfants bilingues français-anglais en France demande plus qu'un cours d'anglais par semaine : il faut un environnement où l'anglais est entendu, parlé et lu naturellement. Voici les villes françaises où cela tient vraiment, avec écoles, communautés et ressources.",
     sections: [
@@ -11975,7 +11975,7 @@ export const GUIDES: Guide[] = [
     emoji: "🎓",
     readMinutes: 7,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-02-23",
     intro:
       "Étudier à Paris coûte ~1 400 €/mois minimum, à Lyon ~1 100 €/mois, à Bordeaux ~1 050 €/mois. Pour les étudiants sans bourse ou avec bourse limitée, ces villes deviennent inaccessibles. Voici les universités françaises où le budget tient sous 850 €/mois en 2026 sans sacrifier la qualité.",
     sections: [
@@ -12024,7 +12024,7 @@ export const GUIDES: Guide[] = [
     emoji: "✈️",
     readMinutes: 7,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-02-25",
     intro:
       "Revenir en France après 5–15 ans à l'étranger crée un choc de réintégration spécifique : différences administratives, scolarité, marché du travail, codes sociaux. Certaines villes amortissent ce choc grâce à une forte présence expat, une scolarité internationale, et une ouverture culturelle. Voici les villes-étapes 2026.",
     sections: [
@@ -12077,7 +12077,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏖️",
     readMinutes: 7,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-02-06",
     intro:
       "Vivre à la mer en télétravail attire massivement depuis 2020. Mais «mer» ne signifie pas «fibre garantie» : la couverture varie fortement par commune, et certains villages côtiers ont une 4G saturée en saison. Voici les villes côtières françaises où le télétravail tient vraiment en 2026.",
     sections: [
@@ -12130,7 +12130,7 @@ export const GUIDES: Guide[] = [
     emoji: "🚆",
     readMinutes: 7,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-01-13",
     intro:
       "Toulouse a 2 lignes de métro (A, B), un tram, 8 lignes de bus express, VélôToulouse, Citiz autopartage et un climat doux qui favorise le vélo presque toute l'année. La future Ligne C (livraison 2028) va encore renforcer le no-car. Voici le vrai bilan 2026.",
     sections: [
@@ -12179,7 +12179,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏔️",
     readMinutes: 7,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-04-19",
     intro:
       "Grenoble est la 2e ville française pour la part modale vélo (~12 %), avec 5 lignes de tram, un réseau cyclable dense et plat (~480 km), et un climat compatible vélo printemps-automne. La ZFE-m métropolitaine renforce l'avantage no-car. Voici le bilan 2026.",
     sections: [
@@ -12228,7 +12228,7 @@ export const GUIDES: Guide[] = [
     emoji: "🚇",
     readMinutes: 7,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-02-08",
     intro:
       "Rennes est l'une des villes françaises les mieux dotées pour son nombre d'habitants : 2 lignes de métro entièrement automatiques (a, b), bus STAR, LE vélo STAR en libre-service, Citiz Ouest, TER Bretagne dense. Climat doux et tissu urbain compact favorisent le no-car. Voici le bilan 2026.",
     sections: [
@@ -12277,7 +12277,7 @@ export const GUIDES: Guide[] = [
     emoji: "☀️",
     readMinutes: 7,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-02-02",
     intro:
       "Montpellier a fait un choix radical en 2023–2024 : tram et bus 100 % gratuits pour les résidents de la métropole. Combinée à un climat ultra-ensoleillé (~2 580 h/an), un tissu urbain compact, et un vélo facile, la ville est devenue ultra no-car-friendly. Voici le bilan 2026.",
     sections: [
@@ -12326,7 +12326,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌴",
     readMinutes: 7,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-02-28",
     intro:
       "Nice est l'une des grandes villes françaises où le climat permet le vélo toute l'année (~2 700 h soleil, ~63 jours pluie). Combinée à 3 lignes de tram, Vélo Bleu en libre-service, et un tissu urbain linéaire le long de la Promenade, la ville est très no-car compatible. Voici le bilan 2026.",
     sections: [
@@ -12375,7 +12375,7 @@ export const GUIDES: Guide[] = [
     emoji: "🍷",
     readMinutes: 8,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-05-11",
     intro:
       "Bordeaux a vu une correction de prix marquée en 2024-2025 (~-9 % vs pic 2022) après une décennie de hausse continue. La fenêtre 2026 ouvre des opportunités primo-accédants, surtout dans la rive droite et les quartiers en gentrification. Voici la cartographie complète.",
     sections: [
@@ -12424,7 +12424,7 @@ export const GUIDES: Guide[] = [
     emoji: "⚓",
     readMinutes: 8,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-05-10",
     intro:
       "Nantes a vu une hausse continue jusqu'en 2022 (+45 % sur 10 ans) puis une correction ~-6 % en 2024-2025. La métropole reste tendue (forte demande, foncier rare entre Erdre et Loire). Voici la cartographie 2026 par quartier et budget.",
     sections: [
@@ -12473,7 +12473,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏰",
     readMinutes: 8,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-03-17",
     intro:
       "Strasbourg combine charme alsacien, dynamisme européen (Conseil de l'Europe, Parlement), marché de l'emploi cadre solide et qualité de vie premium. Après une correction 2024 modérée (-3 %), 2026 ouvre des opportunités. Voici la cartographie par quartier.",
     sections: [
@@ -12522,7 +12522,7 @@ export const GUIDES: Guide[] = [
     emoji: "🐉",
     readMinutes: 8,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-02-18",
     intro:
       "Rennes a connu une hausse continue jusqu'en 2022 (+50 % sur 10 ans) puis une correction modérée ~-5 % en 2024–2025. La capitale bretonne reste très demandée (étudiants, tech, TGV Paris 1h25). Voici la cartographie par quartier 2026.",
     sections: [
@@ -12571,7 +12571,7 @@ export const GUIDES: Guide[] = [
     emoji: "☀️",
     readMinutes: 8,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-05-08",
     intro:
       "Montpellier a vu une hausse continue jusqu'en 2023 (+38 % sur 10 ans) portée par démographie (la ville la plus dynamique de France) et tech. Correction modérée 2024-2025 (-4 %). Voici la cartographie par quartier 2026.",
     sections: [
@@ -12620,7 +12620,7 @@ export const GUIDES: Guide[] = [
     emoji: "🥵",
     readMinutes: 8,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-04-24",
     intro:
       "Le Sud-Est méditerranéen est l'une des zones d'Europe où le réchauffement climatique se manifeste le plus vite : +2,5 °C déjà observés depuis 1900 (vs +1,4 °C moyenne France), trajectoire vers +4 à +5 °C d'ici 2100. Pour 2040, les projections Météo-France sont déjà très tangibles. Voici ce que ça change concrètement pour qui veut vivre là.",
     sections: [
@@ -12669,7 +12669,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌊",
     readMinutes: 8,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-05-10",
     intro:
       "La façade Atlantique française est exposée à trois menaces convergentes d'ici 2040 : montée du niveau marin (+15 à +25 cm projetés), tempêtes hivernales plus intenses (Xynthia 2010 deviendra fréquente), érosion côtière (jusqu'à 1-3 m/an dans certains secteurs). Pour ceux qui visent l'Atlantique pour son climat plus doux que la Méditerranée, voici les vrais arbitrages 2040.",
     sections: [
@@ -12718,7 +12718,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌡️",
     readMinutes: 8,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-01-16",
     intro:
       "L'Île-de-France connaîtra d'ici 2040 des étés méditerranéens : 30-40 jours/an >30 °C, 5-10 jours >35 °C, et un effet îlot de chaleur urbain qui peut ajouter +6 à +8 °C dans certains quartiers parisiens vs banlieue verte. Pour 12 millions d'habitants, l'enjeu d'adaptation est massif. Voici les vrais arbitrages 2040.",
     sections: [
@@ -12767,7 +12767,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌿",
     readMinutes: 7,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-03-01",
     intro:
       "Les Parisiens voulant quitter la ville sans rompre avec leur travail parisien ont des options réelles à <1h en transilien ou TER. Voici les villes-étapes 2026, comparées sur transport, budget immobilier, qualité de vie et services.",
     sections: [
@@ -12824,7 +12824,7 @@ export const GUIDES: Guide[] = [
     emoji: "🍇",
     readMinutes: 7,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-03-09",
     intro:
       "Lyon offre de très belles options vertes à <1h grâce au réseau TER dense (Auvergne-Rhône-Alpes est la 2e région SNCF). Beaujolais, Vienne, Bourgoin, Pérouges, Crémieu — voici les villes-étapes 2026 comparées.",
     sections: [
@@ -12881,7 +12881,7 @@ export const GUIDES: Guide[] = [
     emoji: "🍷",
     readMinutes: 7,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-04-09",
     intro:
       "Bordeaux offre des options vertes uniques grâce à son hinterland viticole et atlantique. Vignobles Saint-Émilion, bassin d'Arcachon, vallée de la Dordogne — voici les villes-étapes 2026 à ≤1h.",
     sections: [
@@ -12938,7 +12938,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌊",
     readMinutes: 7,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-02-03",
     intro:
       "Marseille offre des cadres très différents à <1h : Calanques, Sainte-Baume, Aix-en-Provence, Camargue. Voici les villes-étapes 2026 pour quitter Marseille sans rompre avec le travail ou la mer.",
     sections: [
@@ -12995,7 +12995,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌾",
     readMinutes: 7,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-02-03",
     intro:
       "Toulouse offre un hinterland varié à <1h : Albi (Tarn), Montauban (Tarn-et-Garonne), Auch (Gers), Foix (Ariège), Castelnaudary (Aude). Voici les villes-étapes 2026 pour quitter Toulouse sans rompre le travail.",
     sections: [
@@ -13052,7 +13052,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏘️",
     readMinutes: 8,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-03-02",
     intro:
       "Après la correction 2024-2025 (~-9 % vs pic 2022), Bordeaux redevient attractive pour l'investissement locatif. Rendement brut moyen ~4,5 %, jusqu'à ~6 % proche universités. Voici la lecture honnête 2026 : quartiers à viser, fiscalité, pièges et calcul net après IR/PS/taxe foncière.",
     sections: [
@@ -13101,7 +13101,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏢",
     readMinutes: 8,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-01-13",
     intro:
       "Lyon offre un marché locatif solide (étudiants, jeunes actifs, biotech) mais des prix d'achat élevés qui pèsent sur le rendement. Brut moyen ~4 %, jusqu'à ~5,5 % à Villeurbanne et 9e Vaise. Voici la lecture 2026.",
     sections: [
@@ -13150,7 +13150,7 @@ export const GUIDES: Guide[] = [
     emoji: "🛒",
     readMinutes: 8,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-05-06",
     intro:
       "Toulouse a un marché locatif puissant : 130 000 étudiants, écosystème aéronautique-spatial, hausse démographique continue. Rendement brut moyen ~5 %, jusqu'à ~6,5 % proche universités. Voici la lecture 2026.",
     sections: [
@@ -13199,7 +13199,7 @@ export const GUIDES: Guide[] = [
     emoji: "🎓",
     readMinutes: 8,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-03-13",
     intro:
       "Montpellier est la ville française la plus dynamique démographiquement (+0,9 %/an), avec 80 000 étudiants et un marché locatif tendu. Rendement brut moyen ~5,5 %, jusqu'à ~6,5 % proche facultés. Voici la lecture 2026.",
     sections: [
@@ -13248,7 +13248,7 @@ export const GUIDES: Guide[] = [
     emoji: "📚",
     readMinutes: 8,
     publishedAt: "2026-05-13",
-    updatedAt: "2026-05-13",
+    updatedAt: "2026-02-07",
     intro:
       "Rennes combine marché de l'emploi cadre dynamique (numérique, télécom) et population étudiante massive (~70 000 étudiants), offrant un marché locatif solide. Rendement brut moyen ~5 %, jusqu'à ~6 % proche universités. Voici la lecture 2026.",
     sections: [
@@ -13297,7 +13297,7 @@ export const GUIDES: Guide[] = [
     emoji: "⛰️",
     readMinutes: 8,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-03-14",
     intro:
       "Pendant que la Méditerranée chauffe et que le littoral recule, le Massif Central et la moyenne montagne (600-1200 m) deviennent un sujet sérieux : altitude qui amortit les canicules, ressource en eau encore correcte, foncier abordable. Mais le 'refuge climatique' a aussi ses limites — emploi, services, mobilité, neige. Voici la lecture 2040 sans romantisme.",
     sections: [
@@ -13346,7 +13346,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌧️",
     readMinutes: 8,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-03-11",
     intro:
       "La Bretagne est régulièrement présentée comme la 'gagnante climatique' de la France : doux l'été, peu de canicules, pluie abondante. C'est en partie vrai pour 2040, mais en partie seulement. Le climat océanique se transforme aussi — sécheresses estivales plus dures, tempêtes plus intenses, érosion côtière sur certains secteurs. Voici la lecture sans cliché.",
     sections: [
@@ -13395,7 +13395,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌫️",
     readMinutes: 8,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-03-04",
     intro:
       "Les Hauts-de-France sont rarement cités dans les conversations climatiques 2040 — à tort. La région connaît un réchauffement rapide (+2 °C déjà observés), des étés qui ressemblent désormais aux étés parisiens des années 1990, et une côte d'Opale exposée à la montée des eaux. Pour ceux que les prix ont chassés du Sud, voici la lecture honnête.",
     sections: [
@@ -13444,7 +13444,7 @@ export const GUIDES: Guide[] = [
     emoji: "🍷",
     readMinutes: 8,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-03-08",
     intro:
       "Le Grand Est cumule deux dynamiques : un climat continental qui se réchauffe plus vite que la moyenne nationale (+2,2 °C déjà observés en Alsace), et des étés qui basculent vers un profil méditerranéen modéré. Pour 2040, ça change la donne — pour les viticulteurs, pour les villes-îlot de chaleur, et pour ceux qui visent la région comme refuge nordique.",
     sections: [
@@ -13493,7 +13493,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌞",
     readMinutes: 9,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-04-24",
     intro:
       "Le Sud-Ouest est piégé entre deux dynamiques : un bassin aquitain qui chauffe vite (Toulouse rejoint le profil Méditerranée modérée), et des Pyrénées qui deviennent refuge climatique. Côte basque et Landes restent privilégiées mais avec sécheresses estivales et exposition océanique. Voici la lecture 2040 honnête pour cette région contrastée.",
     sections: [
@@ -13546,7 +13546,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌡️",
     readMinutes: 9,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-03-10",
     intro:
       "La vallée du Rhône est un couloir géographique qui concentre canicule, mistral, ozone et trafic dense. À 2040, c'est l'axe le plus touché par la combinaison réchauffement + pollution + densité urbaine. Lyon, Valence, Montélimar, Orange, Avignon : chacune avec sa lecture spécifique. Voici l'analyse honnête pour ce couloir stratégique mais climatiquement piégé.",
     sections: [
@@ -13599,7 +13599,7 @@ export const GUIDES: Guide[] = [
     emoji: "🐄",
     readMinutes: 8,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-01-15",
     intro:
       "La Normandie est souvent vue comme un refuge climatique nord-européen : pluies fiables, étés tempérés, verdure éternelle. Pour 2040, c'est partiellement vrai — l'intérieur reste un excellent pari, mais la côte (Cotentin, côte d'Albâtre, baie de Seine) entre dans une zone d'arbitrage sérieux entre tempêtes, érosion et montée des eaux. Voici la lecture honnête.",
     sections: [
@@ -13652,7 +13652,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏰",
     readMinutes: 8,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-03-09",
     intro:
       "Le Centre-Val de Loire occupe une position singulière : à mi-chemin entre Paris et le Sud, avec un climat continental modéré qui se réchauffe vite, et un patrimoine fluvial (Loire) en transformation. Pour 2040, la région cumule atouts (foncier accessible, accès Paris-Sud, vignobles patrimoniaux) et fragilités (sécheresses Beauce, étiages Loire). Voici la lecture honnête.",
     sections: [
@@ -13705,7 +13705,7 @@ export const GUIDES: Guide[] = [
     emoji: "🍇",
     readMinutes: 8,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-05-03",
     intro:
       "La Bourgogne-Franche-Comté cumule trois géographies climatiques différentes : plaines viticoles continentales (Côte d'Or, Saône-et-Loire), refuge altitude (Morvan, Jura, plateau de Langres), et frontière suisse (frontaliers). Pour 2040, chaque zone a sa lecture spécifique — entre vignobles en mutation rapide et altitudes encore préservées. Voici l'analyse honnête.",
     sections: [
@@ -13758,7 +13758,7 @@ export const GUIDES: Guide[] = [
     emoji: "🔥",
     readMinutes: 8,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-02-15",
     intro:
       "La Corse est en première ligne du réchauffement méditerranéen : +2,1 °C déjà observés depuis 1959, sécheresses chroniques, incendies de plus en plus violents (2017, 2021, 2022, 2023). Pour 2040, l'île insulaire cumule contraintes climatiques et fragilité d'approvisionnement. Voici l'analyse honnête, sans cliché 'île de beauté'.",
     sections: [
@@ -13811,7 +13811,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏔️",
     readMinutes: 9,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-01-03",
     intro:
       "Les Alpes sont à la fois un refuge climatique potentiel (altitude) et une zone de transformation rapide (glaciers, enneigement, vallées chaudes). Pour 2040, l'arc alpin offre l'un des contrastes les plus forts du pays — entre vallées qui deviennent méditerranéennes et plateaux d'altitude qui restent tempérés. Voici l'analyse honnête, sans nostalgie ni catastrophisme.",
     sections: [
@@ -13864,7 +13864,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌴",
     readMinutes: 9,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-02-06",
     intro:
       "Les DROM (Réunion, Martinique, Guadeloupe, Guyane, Mayotte) sont parmi les territoires français les plus exposés au dérèglement climatique : cyclones plus intenses, montée des eaux marines, sécheresses estivales, biodiversité menacée. Pour 2040, chaque île a son profil spécifique. Voici la lecture territoire par territoire, honnête et sans cliché tropical.",
     sections: [
@@ -13921,7 +13921,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏗️",
     readMinutes: 9,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-01-12",
     intro:
       "La VEFA (Vente en l'État Futur d'Achèvement) — achat d'un logement neuf sur plan — séduit pour ses frais de notaire réduits (~2-3 % au lieu de ~7-8 %) et les garanties constructeur. Mais c'est aussi le segment immobilier qui a le plus souffert depuis 2023 : promoteurs en difficulté, retards de livraison, malfaçons. Voici la lecture 2026 honnête pour les villes où la VEFA fait encore sens.",
     sections: [
@@ -13970,7 +13970,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌐",
     readMinutes: 9,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-03-04",
     intro:
       "Élever ses enfants en français + une autre langue n'est pas qu'une question d'écoles internationales coûteuses. La densité de la communauté locale, les sections européennes du public, et l'exposition naturelle de la ville comptent autant. Voici les villes françaises les plus adaptées par couple de langues, sans le cliché du 'tout-Paris-tout-Lycée-International'.",
     sections: [
@@ -14019,7 +14019,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏘️",
     readMinutes: 9,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-04-24",
     intro:
       "L'imaginaire collectif oppose 'grande ville avec services' et 'petite ville sans rien'. La réalité 2026 est plus nuancée : une trentaine de villes françaises sous 50 000 habitants offrent TGV, hôpital, fibre, écoles complètes, vie culturelle et foncier accessible. Voici la sélection honnête, par profil et par région.",
     sections: [
@@ -14072,7 +14072,7 @@ export const GUIDES: Guide[] = [
     emoji: "💸",
     readMinutes: 9,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-04-29",
     intro:
       "200 000 € est le budget plafond pour un primo-accédant moyen avec apport classique (~10-15 %) et 35 % de taux d'effort sur un salaire ~3 200 €/mois. Beaucoup pensent que c'est insuffisant en 2026. La réalité : ~150 villes françaises permettent encore d'acheter un T3 ancien sous 200 k€, et l'écart se creuse. Voici la sélection honnête, par profil et par région.",
     sections: [
@@ -14121,7 +14121,7 @@ export const GUIDES: Guide[] = [
     emoji: "🛂",
     readMinutes: 10,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-02-26",
     intro:
       "Travailler dans un pays voisin (Suisse, Allemagne, Belgique, Luxembourg) tout en vivant en France permet de cumuler salaires étrangers + coût de la vie + fiscalité française. Plus de 450 000 français le font en 2026. Voici la lecture par frontière, sans le cliché 'frontaliers = riches' — la réalité est nuancée selon le pays voisin.",
     sections: [
@@ -14174,7 +14174,7 @@ export const GUIDES: Guide[] = [
     emoji: "💼",
     readMinutes: 9,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-01-11",
     intro:
       "Devenir freelance en province implique 3 paris simultanés : (1) Trouver/conserver des clients à distance. (2) Maintenir un réseau professionnel actif. (3) Garder un cadre de vie qui justifie la province vs la métropole. Voici les villes françaises qui cochent ces 3 cases en 2026, sans le cliché 'tout le monde télétravaille depuis la mer'.",
     sections: [
@@ -14223,7 +14223,7 @@ export const GUIDES: Guide[] = [
     emoji: "💑",
     readMinutes: 9,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-03-27",
     intro:
       "Quitter Paris à 30 ans en couple sans enfant est un profil spécifique : dual-income élevé, pas de contrainte école, mobilité géographique encore facile, projection 5-10 ans avant éventuel projet famille. Les critères diffèrent radicalement du 'quitter Paris en famille avec 3 enfants'. Voici l'analyse 2026 dédiée à ce profil.",
     sections: [
@@ -14276,7 +14276,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏡",
     readMinutes: 9,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-01-29",
     intro:
       "Fantasme français récurrent depuis le Covid : acheter une maison à la campagne, jardin, calme. La réalité 2026 : la moitié des campagnes françaises ont la fibre, services médicaux et scolaires, l'autre moitié décline rapidement. Voici comment distinguer la campagne 'vivable' de la campagne 'pittoresque mais piégeuse'.",
     sections: [
@@ -14329,7 +14329,7 @@ export const GUIDES: Guide[] = [
     emoji: "⏳",
     readMinutes: 9,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-01-22",
     intro:
       "Acheter avant 40 ans permet d'amortir l'emprunt avant la retraite, de bénéficier des aides primo-accédants, et de se positionner sur le foncier alors que la situation professionnelle est encore mobile. Mais la stratégie diffère radicalement selon le profil. Voici la lecture 2026 par cas concret, sans recette universelle.",
     sections: [
@@ -14386,7 +14386,7 @@ export const GUIDES: Guide[] = [
     emoji: "📊",
     readMinutes: 9,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-05-11",
     intro:
       "Le LMNP (Loueur Meublé Non Professionnel) reste le statut le plus rentable pour l'investissement locatif particulier en 2026 — abattement 50 % micro-BIC ou amortissement réel quasi-déductibilité totale. Mais le choix de la ville et du segment (étudiant, cadre, saisonnier) change tout le calcul. Voici l'analyse 2026 par segment, sans cliché 'LMNP toujours rentable'.",
     sections: [
@@ -14439,7 +14439,7 @@ export const GUIDES: Guide[] = [
     emoji: "🎒",
     readMinutes: 9,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-01-22",
     intro:
       "Déménager avec des enfants en école primaire (CP-CM2, 6-11 ans) est la fenêtre idéale pour quitter Paris : l'enfant s'adapte rapidement, le réseau social se reconstruit en quelques mois, et l'école publique de province offre généralement plus d'attention par élève qu'en Paris dense. Voici la lecture 2026 par critère, sans le 'tout-province-est-mieux'.",
     sections: [
@@ -14492,7 +14492,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌍",
     readMinutes: 9,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-05-10",
     intro:
       "De plus en plus de retraités étrangers (Britanniques, Américains, Canadiens, Belges, Suisses, Maghrébins, expat français retours) choisissent la France pour leur retraite : climat, qualité de vie, système de santé, gastronomie. Mais la fiscalité bilatérale est complexe et le choix de la ville change tout. Voici l'analyse 2026.",
     sections: [
@@ -14549,7 +14549,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏖️",
     readMinutes: 9,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-04-04",
     intro:
       "Acheter une résidence secondaire séduit beaucoup : maison de vacances, lieu de retraite future, placement immobilier. Mais en 2026, l'environnement fiscal s'est durci : THRS majorée dans 1 200+ communes en zone tendue, IFI maintenu, encadrement location saisonnière renforcé. Voici la lecture honnête pour acheter une résidence secondaire sans piège fiscal.",
     sections: [
@@ -14602,7 +14602,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏗️",
     readMinutes: 10,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-04-04",
     intro:
       "Construire sa maison reste un projet à fort potentiel patrimonial — sur-mesure, performance énergétique RE2020 native, montée en valeur si bien situé. Mais 2026 cumule plusieurs frictions : raréfaction du foncier constructible (ZAN 2050), coût construction +18 % depuis 2021, délais permis allongés. Voici la lecture honnête, sans le cliché 'construire = moins cher que acheter'.",
     sections: [
@@ -14663,7 +14663,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌞",
     readMinutes: 9,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-04-19",
     intro:
       "Le 'partir vivre dans le Sud' reste le fantasme #1 des Français en quête de qualité de vie. Mer, soleil, climat doux, ambiance méridionale. Mais 2026 cumule plusieurs réalités qui rendent ce projet plus complexe qu'il y a 10 ans : canicule en intensification, sécheresses chroniques, foncier surévalué, saturation touristique. Voici la lecture honnête.",
     sections: [
@@ -14724,7 +14724,7 @@ export const GUIDES: Guide[] = [
     emoji: "💍",
     readMinutes: 9,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-01-31",
     intro:
       "65 % des couples qui achètent leur résidence principale en 2026 ne sont pas mariés (Insee 2024). Concubinage, PACS, indivision, SCI : 4 structures juridiques différentes avec des conséquences majeures sur la succession, la séparation et la fiscalité. Voici l'analyse honnête de chaque option, sans cliché 'le mariage protège mieux'.",
     sections: [
@@ -14785,7 +14785,7 @@ export const GUIDES: Guide[] = [
     emoji: "🔨",
     readMinutes: 9,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-05-09",
     intro:
       "Acheter une maison à rénover est souvent présenté comme la 'bonne affaire' du marché 2026 : prix d'achat -30 à -50 % vs équivalent rénové, possibilité d'aides MaPrimeRénov' jusqu'à 30 k€ remboursés, valorisation post-travaux. Mais le calcul réel est plus complexe que la promesse. Voici la lecture honnête, sans le cliché 'rénover c'est toujours rentable'.",
     sections: [
@@ -14838,7 +14838,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏘️",
     readMinutes: 9,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-02-19",
     intro:
       "Maison ou appartement : choix structurant qui dépend du profil, de la ville, et de l'horizon. La pandémie Covid a poussé 60 % des Français à reconsidérer leur logement (recherche jardin, espace extérieur, télétravail). Mais la maison n'est pas toujours la bonne réponse — surtout en métropole. Voici la lecture 2026 par profil et par contexte.",
     sections: [
@@ -14895,7 +14895,7 @@ export const GUIDES: Guide[] = [
     emoji: "🗼",
     readMinutes: 9,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-05-02",
     intro:
       "Le studio parisien reste un mythe immobilier français : ticket d'entrée à Paris, premier achat à 30 ans, ou investissement locatif avec rendement supposé élevé. La réalité 2026 est plus nuancée — marché en correction depuis 2022 (-8 % moyen), encadrement loyers strict, rentabilité brute médiocre. Voici la lecture honnête, par profil et par arrondissement.",
     sections: [
@@ -14952,7 +14952,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌊",
     readMinutes: 10,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-04-24",
     intro:
       "Vivre face à la mer reste le rêve immobilier #1 des Français. Mais le 'vivre à la mer toute l'année' ne ressemble pas à la photo de juillet : 8 mois hors saison avec vents, pluies, services réduits, communauté hibernante. Voici la lecture honnête côte par côte, des vraies villes où vivre à la mer en 2026 sans piège.",
     sections: [
@@ -15013,7 +15013,7 @@ export const GUIDES: Guide[] = [
     emoji: "📈",
     readMinutes: 9,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-02-08",
     intro:
       "Investir dans l'immobilier en 2026 : deux grandes voies. Locatif direct (acheter un appartement, le louer) ou SCPI (acheter des parts d'une société qui détient un parc immobilier). Chacune a ses avantages, sa fiscalité, son profil d'investisseur. Voici la comparaison honnête, sans le 'SCPI = passif facile' ou 'locatif direct = rentable garanti'.",
     sections: [
@@ -15070,7 +15070,7 @@ export const GUIDES: Guide[] = [
     emoji: "🤝",
     readMinutes: 9,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-02-09",
     intro:
       "Le défi sous-estimé du déménagement adulte : reconstruire une vie sociale dans une ville où on ne connaît personne. À 35-45 ans, c'est plus difficile qu'à 20 ans (pas d'école, pas de fac, vie familiale plus centripète). Et pourtant, 1,5 million de Français déménagent chaque année. Voici le guide pratique 2026 pour réussir l'intégration, par leviers concrets.",
     sections: [
@@ -15131,7 +15131,7 @@ export const GUIDES: Guide[] = [
     emoji: "📋",
     readMinutes: 9,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-01-03",
     intro:
       "L'encadrement des loyers s'étend en 2026 — 28 villes concernées (vs 5 en 2021), plafonds revus annuellement, sanctions renforcées. Pour les investisseurs locatifs, l'enjeu est de comprendre où le dispositif s'applique vraiment, comment fixer un loyer conforme, et quelles alternatives existent pour optimiser malgré l'encadrement.",
     sections: [
@@ -15188,7 +15188,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌾",
     readMinutes: 9,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-04-14",
     intro:
       "Le dispositif ZRR (Zones de Revitalisation Rurale) a été remplacé en 2024 par les FRR (France Ruralités Revitalisation) — moins de communes éligibles, mais avantages fiscaux maintenus. 2026 : 16 000+ communes en zone FRR cumulent exonérations IR partielles, exonération taxe foncière temporaire, abattement cotisations URSSAF pour créateurs d'entreprise. Voici la lecture honnête pour qui considère s'installer.",
     sections: [
@@ -15249,7 +15249,7 @@ export const GUIDES: Guide[] = [
     emoji: "💳",
     readMinutes: 9,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-03-27",
     intro:
       "Trois enveloppes d'épargne françaises peuvent contribuer à un achat immobilier : PEL (Plan Épargne Logement), CEL (Compte Épargne Logement) et PER (Plan Épargne Retraite) débloqué pour résidence principale. Chacune a ses conditions, fiscalités et bénéfices. Voici le mode d'emploi 2026 pour optimiser son apport.",
     sections: [
@@ -15310,7 +15310,7 @@ export const GUIDES: Guide[] = [
     emoji: "🎯",
     readMinutes: 9,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-04-14",
     intro:
       "Acheter de l'immobilier après 50 ans n'est pas la même équation qu'à 30 ans : horizon emprunt plus court, retraite à anticiper, transmission aux enfants à préparer. Mais c'est aussi une fenêtre idéale pour optimiser le patrimoine — capital accumulé, salaire au pic, projection retraite claire. Voici les stratégies 2026 par profil 50-65 ans.",
     sections: [
@@ -15367,7 +15367,7 @@ export const GUIDES: Guide[] = [
     emoji: "📉",
     readMinutes: 9,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-01-08",
     intro:
       "Faut-il acheter maintenant ou attendre ? Le marché immobilier français a connu une correction de -8 à -15 % entre 2022 et 2025 sur les zones tendues. Avec les taux qui redescendent depuis fin 2024, beaucoup hésitent. Voici l'analyse honnête du timing en 2026 — signaux marché, projection, et la vraie réponse (qui dépend du profil).",
     sections: [
@@ -15428,7 +15428,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏡",
     readMinutes: 9,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-02-06",
     intro:
       "L'habitat collectif alternatif (habitat participatif, coliving, coopérative d'habitat) sort de la marge en 2026 — 280+ projets opérationnels, lois ELAN-ALUR 2014-2018 stabilisées, ESS (Économie Sociale et Solidaire) en croissance. Pour qui cherche logement + communauté + impact écologique, c'est une option crédible. Voici les modèles et les villes pionnières.",
     sections: [
@@ -15489,7 +15489,7 @@ export const GUIDES: Guide[] = [
     emoji: "👤",
     readMinutes: 9,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-03-18",
     intro:
       "Acheter sa résidence principale avec un seul salaire — qu'on soit célibataire, parent solo ou couple avec un seul actif — devient un défi sérieux en 2026. Les conditions HCSF strictes (35 % taux d'effort), les prix immobiliers toujours élevés en métropole, et les taux 3,5-4 % limitent les options. Voici la lecture honnête, par tranche de salaire et par profil.",
     sections: [
@@ -15546,7 +15546,7 @@ export const GUIDES: Guide[] = [
     emoji: "💶",
     readMinutes: 9,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-05-11",
     intro:
       "Vivre avec moins de 1 500 € net/mois concerne plus de 5 millions de Français en 2026 : étudiants, jeunes actifs au SMIC, parents solos, retraités modestes, travailleurs précaires. Le défi : trouver une ville où le logement ne dépasse pas 35-40 % du revenu (≤600 €) et où la vie reste possible. Voici la lecture honnête, par profil et par ville.",
     sections: [
@@ -15607,7 +15607,7 @@ export const GUIDES: Guide[] = [
     emoji: "🤝",
     readMinutes: 9,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-03-26",
     intro:
       "Acheter un bien immobilier à 3-4 amis — concept appelé 'coloc' patrimoniale' — séduit de plus en plus de jeunes actifs en 2026. Mutualiser pour acheter plus grand, mieux situé, avec un coût par tête réduit. Mais le montage juridique est délicat, et la sortie de l'aventure (séparation, déménagement, conflit) doit être anticipée dès le départ. Voici l'analyse honnête.",
     sections: [
@@ -15668,7 +15668,7 @@ export const GUIDES: Guide[] = [
     emoji: "🚚",
     readMinutes: 9,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-04-29",
     intro:
       "Une mutation professionnelle impose souvent un déménagement rapide — 2-6 mois entre annonce et prise de poste. Côté immobilier, c'est un défi : vendre rapidement sans bradage, acheter intelligemment dans une ville parfois inconnue, gérer le décalage entre deux ventes. Voici la lecture honnête 2026, sans le 'tout va bien se passer'.",
     sections: [
@@ -15725,7 +15725,7 @@ export const GUIDES: Guide[] = [
     emoji: "✂️",
     readMinutes: 9,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-05-02",
     intro:
       "Diviser un grand logement (maison ou appartement) pour en louer une partie devient une stratégie patrimoniale efficace en 2026 : amortir son crédit, augmenter ses revenus, optimiser une grande surface sous-utilisée. Mais la réglementation s'est durcie (loi ALUR, encadrement loyers, copro). Voici la lecture honnête pour qui considère cette option.",
     sections: [
@@ -15786,7 +15786,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌴",
     readMinutes: 9,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-03-11",
     intro:
       "Acheter de l'immobilier dans un département d'outre-mer (DROM) — Réunion, Martinique, Guadeloupe, Guyane, Mayotte — combine fiscalité incitative (Girardin, DROM-spécifique), prix souvent inférieurs à l'hexagone et risques spécifiques (cyclones, montée marine, isolement). Voici la lecture honnête 2026 par territoire, sans le cliché 'paradis fiscal facile'.",
     sections: [
@@ -15847,7 +15847,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏔️",
     readMinutes: 9,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-01-13",
     intro:
       "Vivre en montagne toute l'année séduit beaucoup en 2026 — refuge climatique, qualité de vie, espace, prix souvent accessibles. Mais le 'rêve montagne' diffère selon qu'on choisit une station ski, un village montagne ou une vraie ville d'altitude. Voici l'analyse honnête, sans le cliché 'vivre en montagne = paradis bucolique'.",
     sections: [
@@ -15908,7 +15908,7 @@ export const GUIDES: Guide[] = [
     emoji: "🥖",
     readMinutes: 9,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-04-29",
     intro:
       "Reprendre un commerce de proximité avec le logement intégré (boulangerie, café, épicerie, gîte) est une formule séduisante en 2026 : double activité économique + résidence, prix d'acquisition souvent accessible, opportunités dans communes en désertification. Mais le métier est exigeant et le risque économique réel. Voici l'analyse honnête.",
     sections: [
@@ -15969,7 +15969,7 @@ export const GUIDES: Guide[] = [
     emoji: "📊",
     readMinutes: 9,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-01-10",
     intro:
       "Le dispositif Pinel — pilier de l'investissement locatif neuf depuis 2014 — s'est éteint le 31 décembre 2024. Le Denormandie (rénovation centre-villes anciens) est reconduit jusqu'à fin 2027. Les investisseurs locatifs 2026 doivent comprendre : ce qui survit, ce qui disparaît, les alternatives crédibles. Voici la lecture honnête.",
     sections: [
@@ -16030,7 +16030,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌱",
     readMinutes: 9,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-05-06",
     intro:
       "Le télétravail urbain post-Covid a stabilisé un nouveau profil : cadre français installé à 1-2h de Paris/Lyon, télétravail 80-100 %. Mais 15-20 % de ces profils décident d'aller plus loin — quitter le télétravail intégral pour s'installer en vrai rural, parfois avec reconversion. Voici la lecture honnête des risques et opportunités 2026.",
     sections: [
@@ -16087,7 +16087,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏞️",
     readMinutes: 9,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-03-23",
     intro:
       "Acheter au bord d'un fleuve ou d'une rivière reste un fantasme immobilier fort en France : vue, lumière, sérénité, patrimoine. Mais 2026 cumule réalités complexes : PPRI strict, climat 2040 qui amplifie crues et étiages, valeurs en correction sur certaines zones. Voici la lecture honnête fleuve par fleuve.",
     sections: [
@@ -16148,7 +16148,7 @@ export const GUIDES: Guide[] = [
     emoji: "🚊",
     readMinutes: 10,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-01-04",
     intro:
       "La grande couronne d'Île-de-France (77, 78, 91, 95) cumule 5 millions d'habitants en 2026 — la moitié des Franciliens. Pour qui veut quitter Paris sans quitter l'IDF, c'est l'option par défaut : foncier 30-60 % moins cher que Paris, RER + Grand Paris Express, qualité de vie verte. Mais c'est un compromis fait de réalités précises. Voici l'analyse 2026 par département.",
     sections: [
@@ -16209,7 +16209,7 @@ export const GUIDES: Guide[] = [
     emoji: "🌐",
     readMinutes: 10,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-02-08",
     intro:
       "La France accueille 220 000+ achats immobiliers de non-résidents étrangers par an en 2026 — Britanniques, Belges, Allemands, Suisses, Américains, Néerlandais en tête. Si la France facilite l'accès au marché immobilier pour les étrangers, les démarches, le financement et la fiscalité ont leurs spécificités. Voici la lecture honnête 2026.",
     sections: [
@@ -16270,7 +16270,7 @@ export const GUIDES: Guide[] = [
     emoji: "🛡️",
     readMinutes: 9,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-05-02",
     intro:
       "La sécurité est le critère #2 après le coût dans le choix d'une ville en France 2026 (étude IFOP/Ipsos). Mais la perception médiatique et la réalité statistique divergent fortement. Cette ville réputée 'dangereuse' l'est-elle vraiment ? Cette autre 'sûre' l'est-elle hors centre ? Voici la lecture honnête, données SSMSI 2024-2025 à l'appui.",
     sections: [
@@ -16331,7 +16331,7 @@ export const GUIDES: Guide[] = [
     emoji: "📋",
     readMinutes: 9,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-04-14",
     intro:
       "Le DPE (Diagnostic de Performance Énergétique) est devenu LE critère décisif d'un achat immobilier en France 2026. Interdictions de location progressives, surcoût rénovation parfois >50 k€, valeur de revente -20 à -30 % pour passoires thermiques. Voici la lecture honnête des diagnostics obligatoires, calculs de coût et stratégies d'optimisation.",
     sections: [
@@ -16392,7 +16392,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏚️",
     readMinutes: 9,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-02-27",
     intro:
       "Acheter une grange agricole pour la transformer en habitation reste un projet séduisant en 2026 — patrimoine rural, charme architectural, volume, prix accessible. Mais transformation de bâtiment non-habitation = procédure complexe (permis, urbanisme, normes) et budget rénovation lourd (80-200 k€). Voici la lecture honnête.",
     sections: [
@@ -16453,7 +16453,7 @@ export const GUIDES: Guide[] = [
     emoji: "🚄",
     readMinutes: 9,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-01-11",
     intro:
       "Habiter proche d'une autoroute ou d'une ligne TGV cumule deux promesses contradictoires : commodité accès (Paris en 1h30, autoroute pour vacances) et nuisances réelles (bruit, pollution, vibration). Le marché immobilier en zone bruit infrastructure est important — 30 % des logements français sont concernés. Voici la lecture honnête 2026.",
     sections: [
@@ -16514,7 +16514,7 @@ export const GUIDES: Guide[] = [
     emoji: "🎯",
     readMinutes: 10,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-04-24",
     intro:
       "Devenir propriétaire en 5 ans est un objectif tangible pour la majorité des jeunes actifs en 2026 — à condition de planifier méthodiquement. Apport, ville, crédit, timing : chaque dimension doit être anticipée. Voici la stratégie année par année, par tranche d'âge, sans le 'tout va bien se passer'.",
     sections: [
@@ -16575,7 +16575,7 @@ export const GUIDES: Guide[] = [
     emoji: "♿",
     readMinutes: 9,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-04-19",
     intro:
       "Pour une personne à mobilité réduite (PMR) — handicap moteur, senior en perte d'autonomie, famille avec poussette — le choix de la ville est crucial. Loi Handicap 2005 + Adap 2015 ont progressé mais l'accessibilité reste inégale. Voici les villes les plus accessibles 2026 et les critères pour choisir.",
     sections: [
@@ -16636,7 +16636,7 @@ export const GUIDES: Guide[] = [
     emoji: "👨‍👩‍👧",
     readMinutes: 10,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-05-07",
     intro:
       "La SCI familiale (Société Civile Immobilière) est un outil patrimonial classique pour gérer et transmettre des biens immobiliers en famille. Mais en 2026, elle est souvent sur-vendue par les notaires/conseillers en gestion patrimoine. Voici la lecture honnête : quand SCI fait vraiment sens, comment l'optimiser, quelles alternatives.",
     sections: [
@@ -16701,7 +16701,7 @@ export const GUIDES: Guide[] = [
     emoji: "⏳",
     readMinutes: 9,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-03-09",
     intro:
       "Le viager — acheter à une personne âgée avec rente jusqu'à son décès — séduit ~12 000 acheteurs/an en France 2026. Promesse : bien à prix décoté, étalement paiement, propriété future. Réalité : calcul actuariel risqué, dimension éthique, complexité juridique. Voici la lecture honnête, sans le 'viager = jackpot facile'.",
     sections: [
@@ -16762,7 +16762,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏘️",
     readMinutes: 9,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-05-01",
     intro:
       "2 000 habitants est un seuil démographique critique en France 2026 : suffisant pour services structurants (école, mairie, médecin, supermarché) mais en limite. Au-delà = autonomie. En-deçà = dépendance bourg voisin. Voici la lecture honnête de ce qu'on trouve vraiment dans un bourg 2 000 hab, où c'est viable et où c'est piégeux.",
     sections: [
@@ -16819,7 +16819,7 @@ export const GUIDES: Guide[] = [
     emoji: "🔐",
     readMinutes: 9,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-03-01",
     intro:
       "Garantir un locataire en 2026 est devenu un sujet stratégique pour les bailleurs : impayés en hausse (3-5 % du parc selon zones), procédure d'expulsion longue (12-18 mois moyenne), coût recouvrement élevé. Deux outils principaux : GLI (assurance privée) et Visale (caution État gratuite). Voici la comparaison honnête.",
     sections: [
@@ -16880,7 +16880,7 @@ export const GUIDES: Guide[] = [
     emoji: "🐟",
     readMinutes: 9,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-05-04",
     intro:
       "La maison de pêcheur sur l'Atlantique — étroite, en pierre, ardoise et bois bleu — fait partie du patrimoine côtier français. Concarneau, Saint-Malo, Île de Ré, Camaret, Saint-Vaast attirent toujours fortement. Mais 2026 = climat changeant, érosion documentée, foncier saturé sur certaines zones. Voici la lecture honnête pour qui considère ce projet.",
     sections: [
@@ -16941,7 +16941,7 @@ export const GUIDES: Guide[] = [
     emoji: "♻️",
     readMinutes: 9,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-04-09",
     intro:
       "Le démembrement croisé est une technique patrimoniale méconnue mais puissante en 2026 : chacun des conjoints détient l'usufruit ET la nue-propriété de moitié d'un bien commun, échangés. Au décès d'un, l'autre conserve l'usufruit total sans droits succession. Mécanisme précieux pour protéger conjoint en union libre / PACS / mariage séparation des biens. Voici comment ça marche.",
     sections: [
@@ -17002,7 +17002,7 @@ export const GUIDES: Guide[] = [
     emoji: "🏨",
     readMinutes: 9,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-01-01",
     intro:
       "Le LMP (Loueur Meublé Professionnel) est le 'grand frère' du LMNP, déclenché automatiquement au-delà de seuils précis. Beaucoup d'investisseurs locatifs ignorent qu'ils basculent en LMP — avec conséquences fiscales majeures (positives ET négatives). Voici la lecture honnête 2026.",
     sections: [
@@ -17067,7 +17067,7 @@ export const GUIDES: Guide[] = [
     emoji: "🚲",
     readMinutes: 9,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-05-03",
     intro:
       "Le maillage cyclable français progresse rapidement en 2026 : 25 000 km de pistes cyclables + voies vertes, dont 8 800 km EuroVelo. Vivre proche d'une infrastructure cyclable structure le quotidien (mobilité douce, loisirs) et apporte plus-value immobilière documentée (+5 à +15 % vs équivalent éloigné). Voici la lecture 2026 par grand axe et par profil.",
     sections: [
@@ -17128,7 +17128,7 @@ export const GUIDES: Guide[] = [
     emoji: "👨‍👩‍👧‍👦",
     readMinutes: 9,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-03-10",
     intro:
       "30 % des achats immobiliers en France 2026 sont aidés par un prêt familial — parents prêtant à enfants, grand-parents, oncle/tante. Souvent informel, mal documenté, parfois fiscalement piégeux. Voici la lecture honnête : comment formaliser, quelle fiscalité, quels avantages vs donation classique.",
     sections: [
@@ -17193,7 +17193,7 @@ export const GUIDES: Guide[] = [
     emoji: "🔧",
     readMinutes: 9,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-04-29",
     intro:
       "L'autoconstruction et le kit maison séduisent 4 000-7 000 projets/an en France 2026 : économies 30-50 % vs constructeur CCMI, personnalisation maximale, projet de vie. Mais c'est exigeant : 1 500-3 000 h de travail, compétences techniques, démarches complexes, risques d'erreurs. Voici la lecture honnête pour qui envisage.",
     sections: [
@@ -17254,7 +17254,7 @@ export const GUIDES: Guide[] = [
     emoji: "📈",
     readMinutes: 9,
     publishedAt: "2026-05-15",
-    updatedAt: "2026-05-15",
+    updatedAt: "2026-05-11",
     intro:
       "Détenir des parts de SCPI dans une assurance-vie en 2026 combine deux outils puissants : exposition immobilière + fiscalité avantageuse de l'assurance-vie. Méconnu (15 % des détenteurs SCPI utilisent cette enveloppe), c'est pourtant souvent l'optimum patrimonial pour patrimoines 50 k€-500 k€. Voici la lecture honnête.",
     sections: [

@@ -29,6 +29,7 @@ const NAV_PRIMARY: NavItem[] = [
 const NAV_SECONDARY: NavItem[] = [
   { label: "Simulateur",  href: "/#simulateur", emoji: "💸" },
   { label: "Red Flags",   href: "/red-flags",   emoji: "🚩", matchPrefix: "/red-flags" },
+  { label: "Contact",     href: "/contact",     emoji: "✉️", matchPrefix: "/contact" },
 ];
 
 const NAV_ALL: NavItem[] = [...NAV_PRIMARY, ...NAV_SECONDARY];

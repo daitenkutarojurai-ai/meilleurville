@@ -81,11 +81,64 @@ const STEPS = [
       { value: "montagne", label: "❄️ Montagne", desc: "Neige en hiver, fraîcheur" },
     ],
   },
+  {
+    id: "mobilityMode",
+    question: "Vous vous déplacez surtout en...",
+    type: "single" as const,
+    options: [
+      { value: "voiture", label: "🚗 Voiture", desc: "Autonomie totale" },
+      { value: "transit", label: "🚆 Transports", desc: "Train, métro, tram, bus" },
+      { value: "velo", label: "🚴 Vélo", desc: "Pistes cyclables au quotidien" },
+      { value: "marche", label: "🚶 À pied", desc: "Tout à 15 min de chez moi" },
+    ],
+  },
+  {
+    id: "transitImportance",
+    question: "Transports en commun : à quel point c'est important ?",
+    type: "single" as const,
+    options: [
+      { value: "indispensable", label: "🟢 Indispensable", desc: "Réseau dense, fréquent, fiable" },
+      { value: "important", label: "🟡 Important", desc: "Présent et utilisable" },
+      { value: "secondaire", label: "🟠 Secondaire", desc: "Utile mais pas vital" },
+      { value: "indifferent", label: "⚪ Indifférent", desc: "J'ai la voiture" },
+    ],
+  },
+  {
+    id: "bikeImportance",
+    question: "Pistes cyclables sécurisées ?",
+    type: "single" as const,
+    options: [
+      { value: "indispensable", label: "🟢 Indispensable", desc: "Je veux pouvoir tout faire à vélo" },
+      { value: "important", label: "🟡 Important", desc: "Pratique sans être critique" },
+      { value: "secondaire", label: "🟠 Secondaire", desc: "Un plus si présent" },
+      { value: "indifferent", label: "⚪ Indifférent", desc: "Je ne pédale pas" },
+    ],
+  },
+  {
+    id: "parkingNeed",
+    question: "Trouver une place de parking, vous y tenez ?",
+    type: "single" as const,
+    options: [
+      { value: "facile", label: "🅿️ Facile", desc: "Je veux pouvoir me garer sans drame" },
+      { value: "moyen", label: "🚧 Acceptable", desc: "Un peu de patience OK" },
+      { value: "indifferent", label: "🚲 Sans voiture", desc: "Pas mon problème" },
+    ],
+  },
+  {
+    id: "commuteMaxMin",
+    question: "Trajet domicile-travail maximum (minutes) ?",
+    type: "slider" as const,
+    min: 5,
+    max: 60,
+    step: 5,
+    unit: "min",
+  },
 ];
 
 const INITIAL_ANSWERS: Partial<QuizAnswers> = {
   budget: 1200,
   priorities: [],
+  commuteMaxMin: 25,
 };
 
 // ─── Component ────────────────────────────────────────────────────────────────
@@ -385,30 +438,41 @@ export function QuizFlow() {
         </div>
       )}
 
-      {currentStep.type === "slider" && (
-        <div className="mb-8">
-          <div className="mb-4 text-center">
-            <span className="text-4xl font-bold font-mono-data text-[var(--accent)]">
-              {(answers as Record<string, number>)[currentStep.id] ?? 1200}€
-            </span>
-            <span className="text-[var(--text-secondary)] ml-2 text-lg">/mois</span>
+      {currentStep.type === "slider" && (() => {
+        const sliderStep = currentStep as { id: string; min: number; max: number; step: number; unit?: string };
+        const unit = sliderStep.unit ?? "€";
+        const defaultBudget = 1200;
+        const defaultCommute = 25;
+        const fallback = sliderStep.id === "commuteMaxMin" ? defaultCommute : defaultBudget;
+        const current = (answers as Record<string, number>)[sliderStep.id] ?? fallback;
+        const isMoney = unit === "€";
+        return (
+          <div className="mb-8">
+            <div className="mb-4 text-center">
+              <span className="text-4xl font-bold font-mono-data text-[var(--accent)]">
+                {current}{isMoney ? "€" : ""}
+              </span>
+              <span className="text-[var(--text-secondary)] ml-2 text-lg">
+                {isMoney ? "/mois" : ` ${unit}`}
+              </span>
+            </div>
+            <input
+              type="range"
+              min={sliderStep.min}
+              max={sliderStep.max}
+              step={sliderStep.step}
+              value={current}
+              onChange={(e) => handleSlider(sliderStep.id, Number(e.target.value))}
+              aria-label={currentStep.question}
+              className="w-full accent-[var(--accent)] cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)] rounded"
+            />
+            <div className="flex justify-between text-xs text-[var(--text-secondary)] mt-2">
+              <span>{sliderStep.min}{isMoney ? "€" : ` ${unit}`}</span>
+              <span>{sliderStep.max}{isMoney ? "€+" : ` ${unit}`}</span>
+            </div>
           </div>
-          <input
-            type="range"
-            min={(currentStep as { min: number }).min}
-            max={(currentStep as { max: number }).max}
-            step={(currentStep as { step: number }).step}
-            value={(answers as Record<string, number>)[currentStep.id] ?? 1200}
-            onChange={(e) => handleSlider(currentStep.id, Number(e.target.value))}
-            aria-label={currentStep.question}
-            className="w-full accent-[var(--accent)] cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)] rounded"
-          />
-          <div className="flex justify-between text-xs text-[var(--text-secondary)] mt-2">
-            <span>{(currentStep as { min: number }).min}€</span>
-            <span>{(currentStep as { max: number }).max}€+</span>
-          </div>
-        </div>
-      )}
+        );
+      })()}
 
       {/* Nav buttons */}
       <div className="flex items-center justify-between">

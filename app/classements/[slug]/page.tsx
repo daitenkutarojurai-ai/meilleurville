@@ -180,13 +180,14 @@ export default async function RankingPage({ params }: Props) {
             <h2 className="mb-4 text-lg font-semibold text-[var(--text-primary)]">
               Top 3
             </h2>
-            <div className="grid gap-4 sm:grid-cols-3">
+            <div className="grid gap-4 sm:grid-cols-3 auto-rows-fr">
               {top3.map((entry) => (
                 <CityCard
                   key={entry.city.slug}
                   city={entry.city}
                   rank={entry.rank}
                   delta={entry.delta}
+                  className="h-full"
                 />
               ))}
             </div>

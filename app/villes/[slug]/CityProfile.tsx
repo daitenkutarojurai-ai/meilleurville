@@ -12,6 +12,8 @@ import { AISummaryCard } from "@/components/AISummaryCard";
 import { UserVsOfficialScore } from "@/components/UserVsOfficialScore";
 import { SimilarCities } from "@/components/SimilarCities";
 import { OwnerScoresCard } from "@/components/OwnerScoresCard";
+import { UserScoresCard } from "@/components/UserScoresCard";
+import { CityReviewModal } from "@/components/CityReviewModal";
 import { getNeighborhoods } from "@/data/neighborhoods";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { getHousing } from "@/data/housing";
@@ -46,6 +48,10 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
   const housing = getHousing(city.slug);
   const [activeTab, setActiveTab] = useState("overview");
   const [openFaq, setOpenFaq] = useState<number | null>(null);
+  const [reviewOpen, setReviewOpen] = useState(false);
+  // Force a remount of UserScoresCard after a new review is posted so the
+  // aggregate refreshes (uses key bump rather than a context store).
+  const [reviewBumpKey, setReviewBumpKey] = useState(0);
 
   const stage = LIFE_STAGES.find((s) => s.id === activeStage)!;
   const narrative = buildCityNarrative(city, housing);
@@ -399,7 +405,7 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                 </div>
               </Card>
 
-              {/* Témoignages — pointer to real CommentSection at the bottom */}
+              {/* Témoignages — pointer to the now-adjacent CommentSection */}
               <Card>
                 <div className="flex items-center justify-between mb-3">
                   <h2 className="text-base font-semibold text-[var(--text-primary)]">
@@ -407,8 +413,8 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                   </h2>
                 </div>
                 <p className="text-sm text-[var(--text-secondary)] mb-3 leading-relaxed">
-                  Cette section affiche les vrais retours postés par la communauté.
-                  Les premiers témoignages apparaissent en bas de la page.
+                  Les retours de la communauté sont juste après les onglets — note globale + ressenti
+                  par catégorie. Lisez ou partagez en quelques secondes.
                 </p>
                 <a
                   href="#discussions"
@@ -421,6 +427,12 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
 
             {/* Sidebar */}
             <div className="space-y-4">
+              <UserScoresCard
+                key={reviewBumpKey}
+                citySlug={city.slug}
+                cityName={city.name}
+                onOpenReview={() => setReviewOpen(true)}
+              />
               <UserVsOfficialScore
                 topic={`city:${city.slug}`}
                 officialGlobal={city.scores.global}
@@ -521,14 +533,16 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                     Vous habitez {city.name} ?
                   </h3>
                   <p className="text-xs text-[var(--text-secondary)] mb-4">
-                    Partagez votre expérience dans la discussion ouverte plus bas — votre témoignage aide ceux qui cherchent où vivre.
+                    Notez {city.name} en 8 catégories et partagez votre ressenti — vos notes alimentent
+                    la note communauté affichée en haut de cette page.
                   </p>
-                  <a
-                    href="#discussions"
+                  <button
+                    type="button"
+                    onClick={() => setReviewOpen(true)}
                     className="inline-flex items-center justify-center gap-1.5 w-full rounded-xl bg-[var(--accent)] text-white text-sm font-semibold px-4 py-2 hover:bg-emerald-700 transition-colors"
                   >
-                    Aller à la discussion →
-                  </a>
+                    Noter cette ville →
+                  </button>
                 </div>
               </Card>
             </div>
@@ -695,6 +709,20 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
         )}
       </div>
 
+      {/* Discussions — moved up so the testimonial CTAs (#discussions anchor)
+          land somewhere meaningful instead of scrolling to the very bottom. */}
+      <section className="border-t border-[var(--border)] py-10">
+        <div id="discussions" className="mx-auto max-w-5xl px-4 sm:px-6 scroll-mt-24">
+          <CommentSection
+            topic={`city:${city.slug}`}
+            title={`Témoignages sur ${city.name}`}
+            showRating
+            subscribeContext={city.name}
+            emptyHint={`Vous avez vécu ou visité ${city.name} ? Racontez-nous : ce que vous avez aimé, ce qui vous a surpris, vos coups de cœur de quartier…`}
+          />
+        </div>
+      </section>
+
       {/* FAQ accordion */}
       <section className="border-t border-[var(--border)] bg-[var(--bg-surface)] py-10">
         <div className="mx-auto max-w-3xl px-4 sm:px-6">
@@ -775,17 +803,13 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
         </div>
       </div>
 
-      {/* Discussions */}
-      <div id="discussions" className="mx-auto max-w-5xl px-4 sm:px-6 pb-16 scroll-mt-24">
-        <CommentSection
-          topic={`city:${city.slug}`}
-          title={`Témoignages sur ${city.name}`}
-          showRating
-          subscribeContext={city.name}
-          emptyHint={`Vous avez vécu ou visité ${city.name} ? Racontez-nous : ce que vous avez aimé, ce qui vous a surpris, vos coups de cœur de quartier…`}
-        />
-      </div>
-
+      <CityReviewModal
+        citySlug={city.slug}
+        cityName={city.name}
+        open={reviewOpen}
+        onClose={() => setReviewOpen(false)}
+        onPosted={() => setReviewBumpKey((k) => k + 1)}
+      />
     </div>
   );
 }

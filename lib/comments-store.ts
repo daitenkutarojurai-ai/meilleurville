@@ -16,7 +16,11 @@ export interface Comment {
   topic: string;
   author: string;
   body: string;
-  rating?: number; // 1-5 optional
+  rating?: number; // 1-5 optional (overall)
+  // T3 — multi-category ratings (1-5 each). Keys are CATEGORY ids from
+  // lib/review-categories.ts. Used by /villes/[slug] UserScoresCard to
+  // compute crowd-sourced aggregate scores per category.
+  categoryRatings?: Record<string, number>;
   createdAt: string; // ISO
 }
 

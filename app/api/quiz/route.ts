@@ -97,6 +97,37 @@ function matchScore(answers: QuizAnswers, city: (typeof CITIES_SEED)[number]): {
     total += 10 * 1.5;
   }
 
+  // Mobility block (T1) — transit / bike / car needs translate to score weights.
+  if (answers.mobilityMode === "transit") {
+    weights.transport = (weights.transport ?? 1) + 2.0;
+  } else if (answers.mobilityMode === "velo" || answers.mobilityMode === "marche") {
+    weights.transport = (weights.transport ?? 1) + 1.5;
+    weights.nature = (weights.nature ?? 1) + 0.5;
+  } else if (answers.mobilityMode === "voiture") {
+    // Drivers value cost + parking ease — proxy via cost axis (lower density typically = easier parking).
+    weights.cost = (weights.cost ?? 1) + 0.5;
+  }
+  if (answers.transitImportance === "indispensable") {
+    weights.transport = (weights.transport ?? 1) + 2.0;
+  } else if (answers.transitImportance === "important") {
+    weights.transport = (weights.transport ?? 1) + 1.0;
+  }
+  if (answers.bikeImportance === "indispensable") {
+    // Bike-friendly cities tend to have strong transport + nature scores.
+    weights.transport = (weights.transport ?? 1) + 1.0;
+    weights.nature = (weights.nature ?? 1) + 0.5;
+  } else if (answers.bikeImportance === "important") {
+    weights.transport = (weights.transport ?? 1) + 0.5;
+  }
+  if (answers.parkingNeed === "facile") {
+    // Easier parking correlates with smaller population — boost cost axis as proxy.
+    weights.cost = (weights.cost ?? 1) + 0.5;
+  }
+  // commuteMaxMin: short commute preference → strong transport weight + city size penalty handled implicitly via score axis.
+  if (typeof answers.commuteMaxMin === "number" && answers.commuteMaxMin <= 20) {
+    weights.transport = (weights.transport ?? 1) + 1.0;
+  }
+
   // Budget affordability score
   const budgetScore = answers.budget >= 1500 ? 10 : answers.budget >= 1000 ? city.scores.cost : Math.max(0, city.scores.cost - (1000 - answers.budget) / 100);
 

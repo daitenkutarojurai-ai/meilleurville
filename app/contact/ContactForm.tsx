@@ -7,12 +7,12 @@ import { Button } from "@/components/ui/Button";
 import { MagneticButton } from "@/components/effects/MagneticButton";
 
 const TOPICS = [
-  { id: "question", label: "Question générale", emoji: "👋" },
-  { id: "red-flag", label: "Signaler un point noir", emoji: "🚩" },
-  { id: "erreur", label: "Signaler une erreur", emoji: "🐛" },
+  { id: "question", label: "Signalement général", emoji: "👋" },
+  { id: "red-flag", label: "Red flag à signaler", emoji: "🚩" },
+  { id: "erreur", label: "Bug technique", emoji: "🐛" },
+  { id: "suggestion", label: "Suggestion d'amélioration", emoji: "💡" },
   { id: "ville", label: "Proposer une ville", emoji: "🏙️" },
-  { id: "presse", label: "Presse / partenariat", emoji: "📰" },
-  { id: "suggestion", label: "Suggestion produit", emoji: "💡" },
+  { id: "presse", label: "Partenariat", emoji: "🤝" },
   { id: "autre", label: "Autre", emoji: "💌" },
 ] as const;
 
