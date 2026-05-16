@@ -14,6 +14,7 @@ import { SimilarCities } from "@/components/SimilarCities";
 import { OwnerScoresCard } from "@/components/OwnerScoresCard";
 import { UserScoresCard } from "@/components/UserScoresCard";
 import { CityReviewModal } from "@/components/CityReviewModal";
+import { HonestReviewCard } from "@/components/HonestReviewCard";
 import { getNeighborhoods } from "@/data/neighborhoods";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { getHousing } from "@/data/housing";
@@ -404,6 +405,9 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                   })}
                 </div>
               </Card>
+
+              {/* F27 — Honest Review (algorithmic synthesis) */}
+              <HonestReviewCard city={city} />
 
               {/* Témoignages — pointer to the now-adjacent CommentSection */}
               <Card>
