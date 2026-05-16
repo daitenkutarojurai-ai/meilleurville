@@ -51,8 +51,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 function CostRow({ label, origin, destination }: { label: string; origin: number | null; destination: number | null }) {
   const delta = origin != null && destination != null ? destination - origin : null;
   return (
-    <tr className="border-b border-gray-100">
-      <td className="px-3 py-2 text-sm text-gray-700">{label}</td>
+    <tr className="border-b border-[var(--border)]">
+      <td className="px-3 py-2 text-sm text-[var(--text-secondary)]">{label}</td>
       <td className="px-3 py-2 text-right text-sm tabular-nums">
         {origin != null ? `${origin} €` : "—"}
       </td>
@@ -61,7 +61,7 @@ function CostRow({ label, origin, destination }: { label: string; origin: number
       </td>
       <td className="px-3 py-2 text-right text-sm tabular-nums">
         {delta != null ? (
-          <span className={delta < 0 ? "text-emerald-700" : delta > 0 ? "text-red-700" : "text-gray-500"}>
+          <span className={delta < 0 ? "text-emerald-700" : delta > 0 ? "text-red-700" : "text-[var(--text-tertiary)]"}>
             {delta > 0 ? "+" : ""}
             {delta} €
           </span>
@@ -99,15 +99,15 @@ export default async function QuitterPairPage({ params }: Props) {
       <Navbar />
 
       <section className="mx-auto max-w-5xl px-4 py-10">
-        <nav className="text-xs text-gray-500 mb-3">
+        <nav className="text-xs text-[var(--text-tertiary)] mb-3">
           <Link href="/" className="hover:underline">Accueil</Link> ·{" "}
           <Link href="/quitter" className="hover:underline">Quitter une ville</Link>
         </nav>
 
-        <h1 className="text-3xl md:text-4xl font-bold tracking-tight text-gray-900">
+        <h1 className="text-3xl md:text-4xl font-bold tracking-tight text-[var(--text-primary)]">
           Quitter <span className="underline decoration-amber-300">{origin.name}</span> pour <span className="underline decoration-emerald-300">{destination.name}</span> ?
         </h1>
-        <p className="mt-3 text-base text-gray-600 max-w-3xl">
+        <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
           Comparatif factuel : ce que vous gagnez (ou perdez) chaque mois, sur la qualité de vie,
           et pour qui ce move a réellement du sens. Aucun chiffre inventé, tout est dérivé des
           données du site.
@@ -116,53 +116,53 @@ export default async function QuitterPairPage({ params }: Props) {
         {/* Bandeau résumé */}
         <div className="mt-6 grid grid-cols-1 md:grid-cols-3 gap-4">
           <Card className="p-4">
-            <div className="text-xs uppercase tracking-wide text-gray-500">Écart charges fixes</div>
+            <div className="text-xs uppercase tracking-wide text-[var(--text-tertiary)]">Écart charges fixes</div>
             <div className="mt-1 text-2xl font-bold tabular-nums">
               {monthlySavings != null ? (
                 <span className={monthlySavings > 0 ? "text-emerald-700" : "text-red-700"}>
                   {monthlySavings > 0 ? "−" : "+"}{Math.abs(Math.round(monthlySavings))} €/mois
                 </span>
               ) : (
-                <span className="text-gray-500">—</span>
+                <span className="text-[var(--text-tertiary)]">—</span>
               )}
             </div>
             {savingsAnnual != null && (
-              <div className="mt-1 text-xs text-gray-500">
+              <div className="mt-1 text-xs text-[var(--text-tertiary)]">
                 Soit {savingsAnnual > 0 ? "−" : "+"}{Math.abs(savingsAnnual).toLocaleString("fr-FR")} €/an
               </div>
             )}
           </Card>
 
           <Card className="p-4">
-            <div className="text-xs uppercase tracking-wide text-gray-500">Coût relatif</div>
+            <div className="text-xs uppercase tracking-wide text-[var(--text-tertiary)]">Coût relatif</div>
             <div className="mt-1 text-2xl font-bold tabular-nums">
               {costRatio != null ? `${Math.round(costRatio * 100)} %` : "—"}
             </div>
-            <div className="mt-1 text-xs text-gray-500">
+            <div className="mt-1 text-xs text-[var(--text-tertiary)]">
               du coût {origin.name}
             </div>
           </Card>
 
           <Card className="p-4">
-            <div className="text-xs uppercase tracking-wide text-gray-500">Δ qualité de vie</div>
-            <div className={`mt-1 text-2xl font-bold tabular-nums ${globalDelta > 0 ? "text-emerald-700" : globalDelta < 0 ? "text-red-700" : "text-gray-700"}`}>
+            <div className="text-xs uppercase tracking-wide text-[var(--text-tertiary)]">Δ qualité de vie</div>
+            <div className={`mt-1 text-2xl font-bold tabular-nums ${globalDelta > 0 ? "text-emerald-700" : globalDelta < 0 ? "text-red-700" : "text-[var(--text-secondary)]"}`}>
               {globalDelta > 0 ? "+" : ""}{globalDelta} pts
             </div>
-            <div className="mt-1 text-xs text-gray-500">
+            <div className="mt-1 text-xs text-[var(--text-tertiary)]">
               {destination.name} {destination.scores.global}/10 vs {origin.name} {origin.scores.global}/10
             </div>
           </Card>
         </div>
 
         {/* Tableau coût mensuel */}
-        <h2 className="mt-10 text-xl font-semibold text-gray-900">Charges fixes mensuelles</h2>
-        <p className="mt-1 text-xs text-gray-500">
+        <h2 className="mt-10 text-xl font-semibold text-[var(--text-primary)]">Charges fixes mensuelles</h2>
+        <p className="mt-1 text-xs text-[var(--text-tertiary)]">
           T2 médian, chauffage selon zone ADEME, voiture ou transit, taxe foncière mensualisée, TEOM.
           Médians honnêtes — votre situation peut varier. Source : observatoires loyers, ADEME, France Assureurs, DGFiP.
         </p>
         <Card className="mt-4 overflow-hidden">
           <table className="w-full text-sm">
-            <thead className="bg-gray-50 text-xs uppercase tracking-wide text-gray-500">
+            <thead className="bg-[var(--bg-surface)] text-xs uppercase tracking-wide text-[var(--text-tertiary)]">
               <tr>
                 <th className="px-3 py-2 text-left">Poste</th>
                 <th className="px-3 py-2 text-right">{origin.name}</th>
@@ -176,7 +176,7 @@ export default async function QuitterPairPage({ params }: Props) {
               <CostRow label="Mobilité (voiture ou transit)" origin={originBreakdown?.mobilityCost ?? null} destination={destinationBreakdown?.mobilityCost ?? null} />
               <CostRow label="Taxe foncière" origin={originBreakdown?.taxeFonciere ?? null} destination={destinationBreakdown?.taxeFonciere ?? null} />
               <CostRow label="TEOM (ordures)" origin={originBreakdown?.teom ?? null} destination={destinationBreakdown?.teom ?? null} />
-              <tr className="bg-gray-50 font-semibold">
+              <tr className="bg-[var(--bg-surface)] font-semibold">
                 <td className="px-3 py-2 text-sm">Total charges fixes</td>
                 <td className="px-3 py-2 text-right tabular-nums">{originBreakdown ? `${originBreakdown.totalFixed} €` : "—"}</td>
                 <td className="px-3 py-2 text-right tabular-nums">{destinationBreakdown ? `${destinationBreakdown.totalFixed} €` : "—"}</td>
@@ -193,8 +193,8 @@ export default async function QuitterPairPage({ params }: Props) {
         </Card>
 
         {/* Wins / Losses */}
-        <h2 className="mt-10 text-xl font-semibold text-gray-900">Ce que vous gagnez · ce que vous perdez</h2>
-        <p className="mt-1 text-xs text-gray-500">
+        <h2 className="mt-10 text-xl font-semibold text-[var(--text-primary)]">Ce que vous gagnez · ce que vous perdez</h2>
+        <p className="mt-1 text-xs text-[var(--text-tertiary)]">
           Écarts ≥ 0,4 pt sur les 10 owner scores (canicule, calme, lien social, sécurité,
           télétravail, etc.). Méthodologie détaillée sur <Link href="/methode" className="underline">/methode</Link>.
         </p>
@@ -206,7 +206,7 @@ export default async function QuitterPairPage({ params }: Props) {
             <ul className="mt-3 space-y-2">
               {ownerWins.map((s) => (
                 <li key={s.key} className="flex items-center justify-between text-sm">
-                  <span className="text-gray-800">{s.label}</span>
+                  <span className="text-[var(--text-primary)]">{s.label}</span>
                   <span className={`inline-block rounded-full px-2 py-0.5 text-xs font-semibold ${scoreColor(s.value).split(" ").slice(0, 2).join(" ")}`}>
                     {s.value.toFixed(1)}/10
                   </span>
@@ -221,7 +221,7 @@ export default async function QuitterPairPage({ params }: Props) {
             <ul className="mt-3 space-y-2">
               {ownerLosses.map((s) => (
                 <li key={s.key} className="flex items-center justify-between text-sm">
-                  <span className="text-gray-800">{s.label}</span>
+                  <span className="text-[var(--text-primary)]">{s.label}</span>
                   <span className={`inline-block rounded-full px-2 py-0.5 text-xs font-semibold ${scoreColor(s.value).split(" ").slice(0, 2).join(" ")}`}>
                     {s.value.toFixed(1)}/10
                   </span>
@@ -232,9 +232,9 @@ export default async function QuitterPairPage({ params }: Props) {
         </div>
 
         {/* Verdict */}
-        <h2 className="mt-10 text-xl font-semibold text-gray-900">Verdict — pour qui le move a du sens</h2>
+        <h2 className="mt-10 text-xl font-semibold text-[var(--text-primary)]">Verdict — pour qui le move a du sens</h2>
         <Card className="mt-3 p-5">
-          <ul className="space-y-2 text-sm text-gray-800">
+          <ul className="space-y-2 text-sm text-[var(--text-primary)]">
             {monthlySavings != null && monthlySavings > 150 && (
               <li>
                 ✅ <strong>Vous cherchez du reste-à-vivre.</strong> Vous récupérez{" "}
@@ -271,7 +271,7 @@ export default async function QuitterPairPage({ params }: Props) {
             )}
           </ul>
 
-          <div className="mt-4 text-xs text-gray-500">
+          <div className="mt-4 text-xs text-[var(--text-tertiary)]">
             Décision personnelle — chaque famille pondère ces critères différemment. Affinez avec{" "}
             <Link href="/quiz-compatibilite" className="underline">/quiz-compatibilite</Link> et{" "}
             <Link href={`/salaire-equivalent`} className="underline">/salaire-equivalent</Link>.
@@ -279,35 +279,35 @@ export default async function QuitterPairPage({ params }: Props) {
         </Card>
 
         {/* Cross-links */}
-        <h2 className="mt-10 text-xl font-semibold text-gray-900">Continuer l'analyse</h2>
+        <h2 className="mt-10 text-xl font-semibold text-[var(--text-primary)]">Continuer l'analyse</h2>
         <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
           <Link href={`/villes/${destination.slug}`} className="block">
             <Card className="p-4 hover:shadow-md transition">
-              <div className="text-xs uppercase text-gray-500">Fiche ville</div>
-              <div className="mt-1 text-sm font-semibold text-gray-900">{destination.name}</div>
+              <div className="text-xs uppercase text-[var(--text-tertiary)]">Fiche ville</div>
+              <div className="mt-1 text-sm font-semibold text-[var(--text-primary)]">{destination.name}</div>
             </Card>
           </Link>
           <Link href={`/calculateur-cout-reel/${destination.slug}`} className="block">
             <Card className="p-4 hover:shadow-md transition">
-              <div className="text-xs uppercase text-gray-500">Coût réel</div>
-              <div className="mt-1 text-sm font-semibold text-gray-900">Calculateur {destination.name}</div>
+              <div className="text-xs uppercase text-[var(--text-tertiary)]">Coût réel</div>
+              <div className="mt-1 text-sm font-semibold text-[var(--text-primary)]">Calculateur {destination.name}</div>
             </Card>
           </Link>
           <Link href={`/comparer/${origin.slug}-vs-${destination.slug}`} className="block">
             <Card className="p-4 hover:shadow-md transition">
-              <div className="text-xs uppercase text-gray-500">Comparatif</div>
-              <div className="mt-1 text-sm font-semibold text-gray-900">{origin.name} vs {destination.name}</div>
+              <div className="text-xs uppercase text-[var(--text-tertiary)]">Comparatif</div>
+              <div className="mt-1 text-sm font-semibold text-[var(--text-primary)]">{origin.name} vs {destination.name}</div>
             </Card>
           </Link>
           <Link href="/salaire-equivalent" className="block">
             <Card className="p-4 hover:shadow-md transition">
-              <div className="text-xs uppercase text-gray-500">Salaire équivalent</div>
-              <div className="mt-1 text-sm font-semibold text-gray-900">Reste-à-vivre inter-villes</div>
+              <div className="text-xs uppercase text-[var(--text-tertiary)]">Salaire équivalent</div>
+              <div className="mt-1 text-sm font-semibold text-[var(--text-primary)]">Reste-à-vivre inter-villes</div>
             </Card>
           </Link>
         </div>
 
-        <div className="mt-10 text-xs text-gray-500">
+        <div className="mt-10 text-xs text-[var(--text-tertiary)]">
           <Badge>Estimation</Badge> Scores propriétaires calculés à partir des 352 villes du site.
           Méthodologie détaillée sur <Link href="/methode" className="underline">/methode</Link>.
         </div>

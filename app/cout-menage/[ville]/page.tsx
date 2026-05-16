@@ -36,8 +36,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 function Row({ label, values, highlight = false }: { label: string; values: (number | null)[]; highlight?: boolean }) {
   return (
-    <tr className={`${highlight ? "bg-gray-50 font-semibold" : "border-b border-gray-100"}`}>
-      <td className="px-3 py-2 text-sm text-gray-800">{label}</td>
+    <tr className={`${highlight ? "bg-[var(--bg-surface)] font-semibold" : "border-b border-[var(--border)]"}`}>
+      <td className="px-3 py-2 text-sm text-[var(--text-primary)]">{label}</td>
       {values.map((v, i) => (
         <td key={i} className="px-3 py-2 text-right text-sm tabular-nums">
           {v != null ? `${v.toLocaleString("fr-FR")} €` : "—"}
@@ -74,15 +74,15 @@ export default async function CoutMenageCityPage({ params }: Props) {
       <Navbar />
 
       <section className="mx-auto max-w-5xl px-4 py-10">
-        <nav className="text-xs text-gray-500 mb-3">
+        <nav className="text-xs text-[var(--text-tertiary)] mb-3">
           <Link href="/" className="hover:underline">Accueil</Link> ·{" "}
           <Link href="/cout-menage" className="hover:underline">Coût ménage</Link>
         </nav>
 
-        <h1 className="text-3xl md:text-4xl font-bold tracking-tight text-gray-900">
+        <h1 className="text-3xl md:text-4xl font-bold tracking-tight text-[var(--text-primary)]">
           Coût de la vie à {city.name} par profil ménage
         </h1>
-        <p className="mt-3 text-base text-gray-600 max-w-3xl">
+        <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
           Charges fixes mensuelles à {city.name} pour 4 profils : solo, couple sans enfant,
           famille 2 enfants, retraité. Médians dérivés des observatoires loyers, ADEME (zone
           climatique), France Assureurs et DGFiP. Indicatif — votre situation peut varier.
@@ -104,12 +104,12 @@ export default async function CoutMenageCityPage({ params }: Props) {
             const isPriciest = b.total != null && b.total === priciest;
             return (
               <Card key={p.key} className="p-4">
-                <div className="text-xs uppercase tracking-wide text-gray-500">{p.surface}</div>
-                <div className="mt-1 text-sm font-semibold text-gray-900">{p.label}</div>
-                <div className="mt-1 text-xs text-gray-500">{p.tagline}</div>
+                <div className="text-xs uppercase tracking-wide text-[var(--text-tertiary)]">{p.surface}</div>
+                <div className="mt-1 text-sm font-semibold text-[var(--text-primary)]">{p.label}</div>
+                <div className="mt-1 text-xs text-[var(--text-tertiary)]">{p.tagline}</div>
                 <div className="mt-3 text-xl font-bold tabular-nums">
                   {b.total != null ? `${b.total.toLocaleString("fr-FR")} €` : "—"}
-                  <span className="text-xs font-normal text-gray-500">/mois</span>
+                  <span className="text-xs font-normal text-[var(--text-tertiary)]">/mois</span>
                 </div>
                 {isCheapest && totals.length > 1 && (
                   <div className="mt-1 text-xs text-emerald-700 font-semibold">Le moins cher</div>
@@ -123,11 +123,11 @@ export default async function CoutMenageCityPage({ params }: Props) {
         </div>
 
         {/* Detailed table */}
-        <h2 className="mt-10 text-xl font-semibold text-gray-900">Détail par poste</h2>
+        <h2 className="mt-10 text-xl font-semibold text-[var(--text-primary)]">Détail par poste</h2>
         <Card className="mt-3 overflow-hidden">
           <div className="overflow-x-auto">
             <table className="w-full text-sm min-w-[640px]">
-              <thead className="bg-gray-50 text-xs uppercase tracking-wide text-gray-500">
+              <thead className="bg-[var(--bg-surface)] text-xs uppercase tracking-wide text-[var(--text-tertiary)]">
                 <tr>
                   <th className="px-3 py-2 text-left">Poste</th>
                   {HOUSEHOLD_PROFILES.map((p) => (
@@ -148,7 +148,7 @@ export default async function CoutMenageCityPage({ params }: Props) {
           </div>
         </Card>
 
-        <p className="mt-3 text-xs text-gray-500">
+        <p className="mt-3 text-xs text-[var(--text-tertiary)]">
           Hypothèses : <strong>Solo</strong> = T1, transit prioritaire si dispo. <strong>Couple</strong>{" "}
           = T2, mode mobilité par défaut. <strong>Famille</strong> = T3, voiture (école run) + 150 €/mois
           surcoût scolaire indicatif (cantine, fournitures, péri). <strong>Retraité</strong> = T2, pas de
@@ -157,30 +157,30 @@ export default async function CoutMenageCityPage({ params }: Props) {
         </p>
 
         {/* Cross-links */}
-        <h2 className="mt-10 text-xl font-semibold text-gray-900">Aller plus loin</h2>
+        <h2 className="mt-10 text-xl font-semibold text-[var(--text-primary)]">Aller plus loin</h2>
         <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
           <Link href={`/villes/${city.slug}`} className="block">
             <Card className="p-4 hover:shadow-md transition">
-              <div className="text-xs uppercase text-gray-500">Fiche ville</div>
-              <div className="mt-1 text-sm font-semibold text-gray-900">{city.name}</div>
+              <div className="text-xs uppercase text-[var(--text-tertiary)]">Fiche ville</div>
+              <div className="mt-1 text-sm font-semibold text-[var(--text-primary)]">{city.name}</div>
             </Card>
           </Link>
           <Link href={`/calculateur-cout-reel/${city.slug}`} className="block">
             <Card className="p-4 hover:shadow-md transition">
-              <div className="text-xs uppercase text-gray-500">Calculateur interactif</div>
-              <div className="mt-1 text-sm font-semibold text-gray-900">Saisir mon salaire</div>
+              <div className="text-xs uppercase text-[var(--text-tertiary)]">Calculateur interactif</div>
+              <div className="mt-1 text-sm font-semibold text-[var(--text-primary)]">Saisir mon salaire</div>
             </Card>
           </Link>
           <Link href="/salaire-equivalent" className="block">
             <Card className="p-4 hover:shadow-md transition">
-              <div className="text-xs uppercase text-gray-500">Salaire équivalent</div>
-              <div className="mt-1 text-sm font-semibold text-gray-900">Reste-à-vivre inter-villes</div>
+              <div className="text-xs uppercase text-[var(--text-tertiary)]">Salaire équivalent</div>
+              <div className="mt-1 text-sm font-semibold text-[var(--text-primary)]">Reste-à-vivre inter-villes</div>
             </Card>
           </Link>
           <Link href={`/quitter/paris-pour-${city.slug}`} className="block">
             <Card className="p-4 hover:shadow-md transition">
-              <div className="text-xs uppercase text-gray-500">Quitter Paris</div>
-              <div className="mt-1 text-sm font-semibold text-gray-900">pour {city.name}</div>
+              <div className="text-xs uppercase text-[var(--text-tertiary)]">Quitter Paris</div>
+              <div className="mt-1 text-sm font-semibold text-[var(--text-primary)]">pour {city.name}</div>
             </Card>
           </Link>
         </div>

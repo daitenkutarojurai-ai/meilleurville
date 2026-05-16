@@ -73,7 +73,7 @@ export function UserScoresCard({ citySlug, cityName, onOpenReview }: UserScoresC
             <button
               type="button"
               onClick={onOpenReview}
-              className="inline-flex items-center gap-1 rounded-lg bg-[var(--accent)] text-white text-xs font-semibold px-3 py-1.5 hover:bg-emerald-700 transition-colors"
+              className="inline-flex items-center gap-1 rounded-full bg-[var(--accent)] text-white text-xs font-semibold px-3 py-1.5 hover:bg-emerald-700 transition-colors"
             >
               Donner mon avis →
             </button>
