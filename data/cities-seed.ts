@@ -9065,7 +9065,7 @@ const RAW_CITIES_SEED = [
     sunshinedays: 1700,
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
-    characterTags: ["banlieue parisienne","résidentiel","Seine","RER A/L"],
+    characterTags: ["banlieue parisienne","résidentiel","Seine","Transilien J"],
     scores: {
       global: 5.8,
       life: 6,
@@ -9143,7 +9143,7 @@ const RAW_CITIES_SEED = [
     sunshinedays: 1700,
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
-    characterTags: ["banlieue parisienne","résidentiel","RER C","pavillonnaire"],
+    characterTags: ["banlieue parisienne","résidentiel","Transilien H","pavillonnaire"],
     scores: {
       global: 5.8,
       life: 6,
@@ -9845,7 +9845,7 @@ const RAW_CITIES_SEED = [
     sunshinedays: 1700,
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
-    characterTags: ["banlieue parisienne","Saint-Quentin-en-Yvelines","RER C","ANRU"],
+    characterTags: ["banlieue parisienne","Saint-Quentin-en-Yvelines","Transilien N","ANRU"],
     scores: {
       global: 4.7,
       life: 4.5,
@@ -11509,7 +11509,7 @@ const RAW_CITIES_SEED = [
     sunshinedays: 1700,
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
-    characterTags: ["banlieue parisienne","RER N","Saint-Quentin proche","résidentiel"],
+    characterTags: ["banlieue parisienne","Transilien N","Saint-Quentin proche","résidentiel"],
     scores: {
       global: 6,
       life: 6.2,
@@ -11561,7 +11561,7 @@ const RAW_CITIES_SEED = [
     sunshinedays: 1700,
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
-    characterTags: ["banlieue parisienne","Seine","RER A","patrimoine batelier"],
+    characterTags: ["banlieue parisienne","Seine","Transilien J / RER A","patrimoine batelier"],
     scores: {
       global: 6.2,
       life: 6.5,
@@ -11587,7 +11587,7 @@ const RAW_CITIES_SEED = [
     sunshinedays: 1700,
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
-    characterTags: ["Saint-Quentin-en-Yvelines","ville nouvelle","RER C","tertiaire","résidentiel"],
+    characterTags: ["Saint-Quentin-en-Yvelines","ville nouvelle","Transilien N","tertiaire","résidentiel"],
     scores: {
       global: 6.7,
       life: 7,

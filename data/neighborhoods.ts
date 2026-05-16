@@ -5056,8 +5056,8 @@ export const NEIGHBORHOODS: CityNeighborhoods[] = [
         type: "centre-ville",
         scores: { global: 7.0, safety: 7.0, transport: 8.5, nature: 6.0, cost: 6.0, nightlife: 6.5 },
         avgRentT2: 990,
-        tags: ["RER-A", "Transilien", "commerces", "vie-de-quartier", "accessible", "dynamique"],
-        summary: "Le centre de Colombes, autour des gares du RER A et de la ligne Transilien, est bien desservi vers Paris La Défense et Paris Saint-Lazare. Commerces, marché hebdomadaire et animation de quartier correcte. Prix plus accessibles que les communes voisines (Courbevoie, Bois-Colombes) sans pour autant être les moins chers du secteur.",
+        tags: ["Transilien J", "Transilien L", "commerces", "vie-de-quartier", "accessible", "dynamique"],
+        summary: "Le centre de Colombes, autour des gares Transilien J et L, est bien desservi vers Paris Saint-Lazare et La Défense (via Le Stade). Commerces, marché hebdomadaire et animation de quartier correcte. Prix plus accessibles que les communes voisines (Courbevoie, Bois-Colombes) sans pour autant être les moins chers du secteur.",
       },
       {
         slug: "bois-colombes-nord",
@@ -5088,8 +5088,8 @@ export const NEIGHBORHOODS: CityNeighborhoods[] = [
         type: "centre-ville",
         scores: { global: 6.5, safety: 6.0, transport: 8.5, nature: 6.5, cost: 7.0, nightlife: 6.5 },
         avgRentT2: 900,
-        tags: ["RER-H", "Seine", "marché", "impressionnisme", "accessible", "commercial"],
-        summary: "Le centre d'Argenteuil est bien desservi par le RER H (Paris-Nord en 15 min) et le Transilien J. Monet a peint les bords de Seine d'Argenteuil au XIXe siècle — un patrimoine impressionniste que la ville met en valeur. Marché couvert, commerces et vie de quartier correcte. Prix encore accessibles pour la proximité de Paris.",
+        tags: ["Transilien J", "Seine", "marché", "impressionnisme", "accessible", "commercial"],
+        summary: "Le centre d'Argenteuil est desservi par le Transilien J (Paris-Saint-Lazare en 12 min) et le Transilien H via Val d'Argenteuil. Monet a peint les bords de Seine d'Argenteuil au XIXe siècle — un patrimoine impressionniste que la ville met en valeur. Marché couvert, commerces et vie de quartier correcte. Prix encore accessibles pour la proximité de Paris.",
       },
       {
         slug: "bords-de-seine-argenteuil",
@@ -11207,7 +11207,7 @@ export const NEIGHBORHOODS: CityNeighborhoods[] = [
         scores: { global: 6, safety: 6, transport: 7.5, nature: 6, cost: 5.5, nightlife: 5.5 },
         avgRentT2: 980,
         tags: ["commerce","gare","résidentiel"],
-        summary: "Centre commerçant autour de la gare. Bonne accessibilité Paris via Transilien L.",
+        summary: "Centre commerçant autour de la gare. Bonne accessibilité Paris-Saint-Lazare via Transilien J (env. 30 min).",
       },
       {
         slug: "coteaux",
@@ -13437,8 +13437,8 @@ export const NEIGHBORHOODS: CityNeighborhoods[] = [
         type: "centre-ville",
         scores: { global: 7, safety: 6.5, transport: 7.5, nature: 7, cost: 5.5, nightlife: 6 },
         avgRentT2: 1060,
-        tags: ["RER C","tertiaire","commerce"],
-        summary: "Centre de la ville nouvelle. RER C, sièges sociaux (Renault, Bouygues), commerces.",
+        tags: ["Transilien N","tertiaire","commerce"],
+        summary: "Centre de la ville nouvelle. Gare Saint-Quentin-en-Yvelines (Transilien N vers Paris-Montparnasse, 30 min), sièges sociaux (Renault, Bouygues), commerces.",
       },
       {
         slug: "etang-de-la-minière",

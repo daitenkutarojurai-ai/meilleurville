@@ -491,60 +491,6 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                 </Card>
               )}
 
-              {/* Thematic rankings */}
-              <Card>
-                <h3 className="text-sm font-semibold text-[var(--text-primary)] mb-3 flex items-center gap-2">
-                  <TrendingUp className="h-4 w-4 text-[var(--text-secondary)]" />
-                  Classements thématiques
-                </h3>
-                <div className="space-y-2">
-                  {(Object.keys(RANKING_META) as RankingSlug[]).map((slug) => {
-                    const meta = RANKING_META[slug];
-                    const ranked = getRankedCities(slug);
-                    const entry = ranked.find((e) => e.city.slug === city.slug);
-                    if (!entry) return null;
-                    return (
-                      <Link
-                        key={slug}
-                        href={`/classements/${slug}`}
-                        className="flex items-center justify-between hover:bg-[var(--bg-elevated)] rounded-lg px-2 py-1.5 -mx-2 transition-colors group"
-                      >
-                        <span className="text-xs text-[var(--text-secondary)] group-hover:text-[var(--text-primary)] transition-colors flex items-center gap-1.5">
-                          <span>{meta.emoji}</span>
-                          {meta.label}
-                        </span>
-                        <span className={`text-xs font-bold font-mono-data ${meta.color}`}>
-                          #{entry.rank}
-                        </span>
-                      </Link>
-                    );
-                  })}
-                </div>
-                <Link
-                  href="/classements"
-                  className="mt-3 block text-xs text-[var(--accent)] hover:underline"
-                >
-                  Voir tous les classements →
-                </Link>
-              </Card>
-
-              {/* F28 — Distances clés (haversine depuis lat/long du seed) */}
-              <DistancesCard city={city} />
-
-              {/* F29 — Louer ou acheter — ratio prix/loyer + verdict */}
-              <RentVsBuyCard citySlug={city.slug} />
-
-              {/* F30 — Voisinage géographique : 6 villes les plus proches */}
-              <GeographicNeighborsCard citySlug={city.slug} cityName={city.name} />
-
-              {/* F31 — Climat 2040 — projection ARPEGE macro-région */}
-              <Climate2040Card city={city} />
-
-              {/* Similar cities */}
-              <Card>
-                <SimilarCities city={city} />
-              </Card>
-
               {/* CTA — partager son expérience via la discussion */}
               <Card className="border-[var(--accent)]/20 bg-[var(--accent)]/5">
                 <div className="text-center">
@@ -565,6 +511,63 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                   </button>
                 </div>
               </Card>
+            </div>
+
+            {/* Données & analyse — full-width grid below the two columns.
+                Data-rich cards (distances, rent-vs-buy, voisinage, climat 2040,
+                classements thématiques, similar cities) used to live in the
+                right rail and stretched it past the main column height, leaving
+                an empty middle band on scroll. Now displayed as a balanced grid
+                so the page reads as one block on desktop and stacks cleanly
+                on mobile. */}
+            <div className="lg:col-span-3">
+              <h2 className="text-base font-semibold text-[var(--text-primary)] mb-3">
+                Données & analyse
+              </h2>
+              <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+                <DistancesCard city={city} />
+                <RentVsBuyCard citySlug={city.slug} />
+                <Climate2040Card city={city} />
+                <GeographicNeighborsCard citySlug={city.slug} cityName={city.name} />
+                <Card>
+                  <h3 className="text-sm font-semibold text-[var(--text-primary)] mb-3 flex items-center gap-2">
+                    <TrendingUp className="h-4 w-4 text-[var(--text-secondary)]" />
+                    Classements thématiques
+                  </h3>
+                  <div className="space-y-2">
+                    {(Object.keys(RANKING_META) as RankingSlug[]).map((slug) => {
+                      const meta = RANKING_META[slug];
+                      const ranked = getRankedCities(slug);
+                      const entry = ranked.find((e) => e.city.slug === city.slug);
+                      if (!entry) return null;
+                      return (
+                        <Link
+                          key={slug}
+                          href={`/classements/${slug}`}
+                          className="flex items-center justify-between hover:bg-[var(--bg-elevated)] rounded-lg px-2 py-1.5 -mx-2 transition-colors group"
+                        >
+                          <span className="text-xs text-[var(--text-secondary)] group-hover:text-[var(--text-primary)] transition-colors flex items-center gap-1.5">
+                            <span>{meta.emoji}</span>
+                            {meta.label}
+                          </span>
+                          <span className={`text-xs font-bold font-mono-data ${meta.color}`}>
+                            #{entry.rank}
+                          </span>
+                        </Link>
+                      );
+                    })}
+                  </div>
+                  <Link
+                    href="/classements"
+                    className="mt-3 block text-xs text-[var(--accent)] hover:underline"
+                  >
+                    Voir tous les classements →
+                  </Link>
+                </Card>
+                <Card>
+                  <SimilarCities city={city} />
+                </Card>
+              </div>
             </div>
 
             {/* Sub-pages strip — full-width below the two columns. Was in the
