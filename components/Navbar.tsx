@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
-import { Menu, X, MapPin, Sparkles, Heart, Search } from "lucide-react";
+import { Menu, X, MapPin, Sparkles, Heart, Search, Mail } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { cn } from "@/lib/utils";
 import { FavoriteCount } from "@/components/effects/FavoriteButton";
@@ -26,13 +26,20 @@ const NAV_PRIMARY: NavItem[] = [
 ];
 
 // Secondary nav: shown only at xl+ on desktop + always in mobile menu.
+// Kept to 2 items max so the xl+ row stays comfortable next to the search
+// pill + favoris + Quiz CTA on the right.
 const NAV_SECONDARY: NavItem[] = [
   { label: "Simulateur",  href: "/#simulateur", emoji: "💸" },
   { label: "Red Flags",   href: "/red-flags",   emoji: "🚩", matchPrefix: "/red-flags" },
-  { label: "Contact",     href: "/contact",     emoji: "✉️", matchPrefix: "/contact" },
 ];
 
-const NAV_ALL: NavItem[] = [...NAV_PRIMARY, ...NAV_SECONDARY];
+// Mobile-only nav items — visible in the mobile menu but never in the desktop
+// pill rows. Contact lives here to avoid overlap with the search pill at xl+.
+const NAV_MOBILE_ONLY: NavItem[] = [
+  { label: "Contact", href: "/contact", emoji: "✉️", matchPrefix: "/contact" },
+];
+
+const NAV_ALL: NavItem[] = [...NAV_PRIMARY, ...NAV_SECONDARY, ...NAV_MOBILE_ONLY];
 
 function isActive(item: NavItem, pathname: string): boolean {
   if (!item.matchPrefix) return false;
@@ -174,6 +181,13 @@ export function Navbar() {
           >
             <Heart className="h-4 w-4" />
             <FavoriteCount />
+          </Link>
+          <Link
+            href="/contact"
+            className="inline-flex items-center rounded-full p-2 text-[var(--text-secondary)] hover:text-[var(--accent)] hover:bg-[var(--bg-elevated)] transition-colors"
+            aria-label="Contact"
+          >
+            <Mail className="h-4 w-4" />
           </Link>
           <Link href="/quiz">
             <Button size="md" className="gap-1.5 rounded-full px-3 lg:px-4">
