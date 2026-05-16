@@ -379,6 +379,30 @@ export const RANKING_META = {
       "Engagement zéro artificialisation nette et végétalisation urbaine",
     ],
   },
+  cyclistes: {
+    slug: "cyclistes",
+    label: "Vélo & cyclistes",
+    emoji: "🚴",
+    headline: "Meilleures villes françaises pour les cyclistes en 2026",
+    description:
+      "Classement des villes françaises les plus cyclables : kilomètres d'aménagements vélo, sécurité réelle ressentie, continuité du réseau, stationnement sécurisé et politique vélo locale. Sources : FUB Baromètre des villes cyclables 2025, Plan Vélo et Marche 2023-2027 (Ministère de la Transition Écologique), Géovélo, Cerema (Observatoire national des mobilités actives).",
+    methodology:
+      "Score composite pondéré (proxy) : Transport (×3 — réseau cyclable, continuité, intermodalité train+vélo), Nature (×1.5 — voies vertes EuroVelo, ViaRhôna, Loire à vélo, cadre roulant), Sécurité (×1.5 — cohabitation vélo/voiture, accidentologie cyclistes), Qualité de vie (×1 — topographie, climat compatible à l'année). Approche transparente : la note FUB (climat ressenti A+ à G) n'est pas injectée individuellement — elle est très corrélée à la note transport + nature + sécurité d'une ville, et reste consultable sur barometre.parlons-velo.fr.",
+    weights: { transport: 3, nature: 1.5, safety: 1.5, life: 1 },
+    color: "text-indigo-500",
+    borderColor: "border-indigo-500/20",
+    bgColor: "bg-indigo-500/5",
+    scoreKey: "transport" as const,
+    why: [
+      "Note FUB Baromètre des villes cyclables 2025 (climat vélo A+ à G — fub.fr)",
+      "Kilomètres d'aménagements cyclables sécurisés (Cerema — Observatoire national des mobilités actives 2024)",
+      "Continuité du réseau et passage des intersections (proxy : score transport)",
+      "Stationnement vélo sécurisé en gare et en pied d'immeuble (SNCF Gares & Connexions, mairies)",
+      "Intermodalité train + vélo (TER, Intercités — places vélo embarquées)",
+      "Politique locale : Plan vélo communal, ZFE, écoles-rues, vélobus",
+      "Accidentologie cycliste (ONISR — Observatoire national de la sécurité routière)",
+    ],
+  },
 } as const;
 
 export type RankingSlug = keyof typeof RANKING_META;
