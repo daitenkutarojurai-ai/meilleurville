@@ -151,7 +151,7 @@ export default async function RegionPage({ params }: Props) {
     .sort((a, b) => new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime())
     .slice(0, 9);
 
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL ?? "https://mavilleideale.fr";
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL ?? "https://www.mavilleideale.fr";
 
   const jsonLd = {
     "@context": "https://schema.org",

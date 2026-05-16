@@ -153,7 +153,7 @@ export default async function ComparerRegionsPage({ params }: Props) {
 
   const intro = PRIORITY_INTROS[pair];
 
-  const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://mavilleideale.fr";
+  const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://www.mavilleideale.fr";
 
   const winsA = SCORE_ROWS.filter(({ key }) => statsA.scores[key] > statsB.scores[key]).length;
   const winsB = SCORE_ROWS.filter(({ key }) => statsB.scores[key] > statsA.scores[key]).length;

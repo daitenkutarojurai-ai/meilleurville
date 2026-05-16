@@ -22,7 +22,7 @@ const breadcrumb = breadcrumbJsonLd([
 
 export default function GentrificationIndex() {
   const top30 = rankGentrification(30);
-  const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://mavilleideale.fr";
+  const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://www.mavilleideale.fr";
 
   return (
     <main id="main-content" className="min-h-screen relative">

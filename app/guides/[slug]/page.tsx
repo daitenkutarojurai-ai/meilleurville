@@ -55,7 +55,7 @@ export default async function GuidePage({ params }: Props) {
   const relatedCities = CITIES_SEED.filter((c) => guide.relatedCities.includes(c.slug));
   const catMeta = GUIDE_CATEGORIES.find((c) => c.id === guide.category);
 
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL ?? "https://mavilleideale.fr";
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL ?? "https://www.mavilleideale.fr";
   const articleWordCount = guide.sections.reduce(
     (n, s) => n + (s.body?.match(/\S+/g)?.length ?? 0),
     (guide.intro?.match(/\S+/g)?.length ?? 0)

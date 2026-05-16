@@ -13,7 +13,7 @@ import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 
 export function OwnerRankingPage({ ranking }: { ranking: OwnerRankingDef }) {
   const top = rankByOwnerScore(ranking.scoreKey, 50);
-  const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://mavilleideale.fr";
+  const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://www.mavilleideale.fr";
   const breadcrumb = breadcrumbJsonLd([
     { name: "Accueil", path: "/" },
     { name: "Classements", path: "/classements" },

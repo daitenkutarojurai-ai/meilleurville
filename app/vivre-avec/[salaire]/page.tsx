@@ -51,7 +51,7 @@ export default async function VivreAvecPage({ params }: Props) {
     { name: `${salary} €/mois`, path: `/vivre-avec/${salaire}` },
   ]);
 
-  const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://mavilleideale.fr";
+  const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://www.mavilleideale.fr";
 
   return (
     <main id="main-content" className="min-h-screen">

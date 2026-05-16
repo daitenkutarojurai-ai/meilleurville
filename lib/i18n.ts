@@ -76,7 +76,7 @@ export function getCityBody(
 // canonical domain for the locale, but we expose both so the FR build can
 // still emit the EN hreflang link (and vice versa).
 export const ORIGIN_BY_LOCALE: Record<Locale, string> = {
-  fr: process.env.NEXT_PUBLIC_BASE_URL_FR ?? "https://mavilleideale.fr",
+  fr: process.env.NEXT_PUBLIC_BASE_URL_FR ?? "https://www.mavilleideale.fr",
   en: process.env.NEXT_PUBLIC_BASE_URL_EN ?? "https://bestcitiesinfrance.com",
 };
 

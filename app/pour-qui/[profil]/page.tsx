@@ -39,7 +39,7 @@ export default async function ProfilePage({ params }: Props) {
   const top = rankByProfile(profile, 20);
   const others = PROFILE_PAGES.filter((p) => p.slug !== profile.slug);
 
-  const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://mavilleideale.fr";
+  const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://www.mavilleideale.fr";
   const breadcrumb = breadcrumbJsonLd([
     { name: "Accueil", path: "/" },
     { name: "Pour qui", path: "/pour-qui" },

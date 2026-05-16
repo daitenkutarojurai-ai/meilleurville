@@ -68,7 +68,7 @@ export default async function CalculateurCoutReelCityPage({ params }: Props) {
     taxeFonciereAnnualMidpoint: taxeFonciereMidpoint,
   };
 
-  const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://mavilleideale.fr";
+  const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://www.mavilleideale.fr";
   const breadcrumb = breadcrumbJsonLd([
     { name: "Accueil", path: "/" },
     { name: "Calculateur coût réel", path: "/calculateur-cout-reel" },

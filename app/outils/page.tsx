@@ -109,7 +109,7 @@ export default function OutilsPage() {
       position: i + 1,
       name: t.title,
       description: t.desc,
-      url: `https://mavilleideale.fr${t.href}`,
+      url: `https://www.mavilleideale.fr${t.href}`,
     })),
   };
 

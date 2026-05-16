@@ -18,7 +18,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { scoreHex } from "@/lib/utils";
 
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://mavilleideale.fr";
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://www.mavilleideale.fr";
 
 type Format = "badge" | "criteres" | "compare";
 

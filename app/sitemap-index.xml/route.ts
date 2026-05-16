@@ -8,7 +8,7 @@
 import { GUIDES } from "@/data/guides";
 
 const DEFAULT_LOCALE = (process.env.NEXT_PUBLIC_DEFAULT_LOCALE ?? "fr") as "fr" | "en";
-const FR_URL = process.env.NEXT_PUBLIC_BASE_URL_FR ?? "https://mavilleideale.fr";
+const FR_URL = process.env.NEXT_PUBLIC_BASE_URL_FR ?? "https://www.mavilleideale.fr";
 const EN_URL = process.env.NEXT_PUBLIC_BASE_URL_EN ?? "https://bestcitiesinfrance.com";
 const BASE_URL =
   process.env.NEXT_PUBLIC_BASE_URL ?? (DEFAULT_LOCALE === "en" ? EN_URL : FR_URL);

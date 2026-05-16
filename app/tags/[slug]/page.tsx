@@ -33,7 +33,7 @@ export default async function TagPage({ params }: Props) {
   if (guides.length === 0) notFound();
   const related = getRelatedTags(slug, 10);
 
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL ?? "https://mavilleideale.fr";
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL ?? "https://www.mavilleideale.fr";
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",

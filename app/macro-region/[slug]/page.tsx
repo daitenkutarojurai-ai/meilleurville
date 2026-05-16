@@ -37,7 +37,7 @@ export default async function MacroRegionPage({ params }: Props) {
   if (!macro) notFound();
 
   const top = rankInMacroRegion(macro, 30);
-  const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://mavilleideale.fr";
+  const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://www.mavilleideale.fr";
   const breadcrumb = breadcrumbJsonLd([
     { name: "Accueil", path: "/" },
     { name: "Macro-régions", path: "/macro-region" },

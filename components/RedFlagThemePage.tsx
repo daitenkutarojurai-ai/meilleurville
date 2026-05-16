@@ -18,7 +18,7 @@ function severityColor(severity: number): string {
 }
 
 export function RedFlagThemePage({ theme }: { theme: RedFlagTheme }) {
-  const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://mavilleideale.fr";
+  const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://www.mavilleideale.fr";
   const rows = theme.rank();
   const breadcrumb = breadcrumbJsonLd([
     { name: "Accueil", path: "/" },

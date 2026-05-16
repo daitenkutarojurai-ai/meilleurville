@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 };
 
 export default function GuidesPage() {
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL ?? "https://mavilleideale.fr";
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL ?? "https://www.mavilleideale.fr";
   const collectionJsonLd = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",

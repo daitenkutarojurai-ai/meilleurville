@@ -18,7 +18,7 @@ const FORMATS: Array<{ id: Format; label: string; desc: string; w: number; h: nu
 const ORIGIN =
   typeof window !== "undefined"
     ? window.location.origin
-    : process.env.NEXT_PUBLIC_BASE_URL ?? "https://mavilleideale.fr";
+    : process.env.NEXT_PUBLIC_BASE_URL ?? "https://www.mavilleideale.fr";
 
 export function WidgetGenerator({ cities }: { cities: CityLite[] }) {
   const [format, setFormat] = useState<Format>("badge");

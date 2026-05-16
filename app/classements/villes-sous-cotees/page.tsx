@@ -66,7 +66,7 @@ export default function VillesSousCoteesPage() {
     .sort((a, b) => b.subScore - a.subScore)
     .slice(0, 30);
 
-  const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://mavilleideale.fr";
+  const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://www.mavilleideale.fr";
 
   return (
     <main id="main-content" className="min-h-screen relative">

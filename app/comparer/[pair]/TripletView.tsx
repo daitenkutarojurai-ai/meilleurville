@@ -73,7 +73,7 @@ function winnerSlug(cities: SeedCity[], key: ScoreKey): string | null {
 export function TripletView({ cities, slug }: { cities: SeedCity[]; slug: string }) {
   const [a, b, c] = cities;
   const cityCards = cities.map(seedToCity);
-  const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://mavilleideale.fr";
+  const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://www.mavilleideale.fr";
 
   // Overall winner = the city that wins the most criteria
   const winCounts = cities.map((city) => ({

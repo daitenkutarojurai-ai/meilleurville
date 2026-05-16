@@ -153,9 +153,9 @@ export default async function PairPage({ params }: Props) {
               {
                 "@type": "BreadcrumbList",
                 itemListElement: [
-                  { "@type": "ListItem", position: 1, name: "MeilleurVille", item: process.env.NEXT_PUBLIC_BASE_URL ?? "https://mavilleideale.fr" },
-                  { "@type": "ListItem", position: 2, name: "Comparer", item: `${process.env.NEXT_PUBLIC_BASE_URL ?? "https://mavilleideale.fr"}/comparer` },
-                  { "@type": "ListItem", position: 3, name: `${seedA.name} vs ${seedB.name}`, item: `${process.env.NEXT_PUBLIC_BASE_URL ?? "https://mavilleideale.fr"}/comparer/${pair}` },
+                  { "@type": "ListItem", position: 1, name: "MeilleurVille", item: process.env.NEXT_PUBLIC_BASE_URL ?? "https://www.mavilleideale.fr" },
+                  { "@type": "ListItem", position: 2, name: "Comparer", item: `${process.env.NEXT_PUBLIC_BASE_URL ?? "https://www.mavilleideale.fr"}/comparer` },
+                  { "@type": "ListItem", position: 3, name: `${seedA.name} vs ${seedB.name}`, item: `${process.env.NEXT_PUBLIC_BASE_URL ?? "https://www.mavilleideale.fr"}/comparer/${pair}` },
                 ],
               },
               {
@@ -165,7 +165,7 @@ export default async function PairPage({ params }: Props) {
                   "@type": "ListItem",
                   position: i + 1,
                   name: c.name,
-                  url: `${process.env.NEXT_PUBLIC_BASE_URL ?? "https://mavilleideale.fr"}/villes/${c.slug}`,
+                  url: `${process.env.NEXT_PUBLIC_BASE_URL ?? "https://www.mavilleideale.fr"}/villes/${c.slug}`,
                 })),
               },
               {

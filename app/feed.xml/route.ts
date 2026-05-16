@@ -1,6 +1,6 @@
 import { GUIDES } from "@/data/guides";
 
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://mavilleideale.fr";
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://www.mavilleideale.fr";
 
 const escapeXml = (s: string) =>
   s

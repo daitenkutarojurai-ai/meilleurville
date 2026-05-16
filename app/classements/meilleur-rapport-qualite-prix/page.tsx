@@ -49,7 +49,7 @@ export default function MeilleurRapportPage() {
     .sort((a, b) => b.value - a.value)
     .slice(0, 50);
 
-  const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://mavilleideale.fr";
+  const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://www.mavilleideale.fr";
 
   return (
     <main id="main-content" className="min-h-screen relative">

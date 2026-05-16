@@ -1,5 +1,5 @@
 export const SITE_URL =
-  process.env.NEXT_PUBLIC_BASE_URL ?? "https://mavilleideale.fr";
+  process.env.NEXT_PUBLIC_BASE_URL ?? "https://www.mavilleideale.fr";
 
 export function breadcrumbJsonLd(
   parts: Array<{ name: string; path: string }>
