@@ -474,12 +474,15 @@ Beyond "Quitter X", target high-search-intent niches not yet covered:
 See `ROADMAP.md` for the full breakdown. Priority order (P0):
 1. F3 — Scores propriétaires (canicule, solitude, bruit, sécurité nocturne, etc.)
 2. F4 — Red Flag pages virales
-3. F12 — Comparaison 3 villes
+3. F12 — Comparaison 3 villes ✅
 4. F9 — Comparateur de régions
 5. F1 — Hidden Costs Calculator
 6. F5 — RealityCheck
 
 P1: F2, F13, F14, F15, F6, F11 — P2: F7, F8, F10.
+
+### F12 — Comparaison 3 villes ✅
+**Shipped.** `/comparer/<a>-vs-<b>-vs-<c>` renders the same `[pair]` segment via length-based dispatch in `page.tsx`. New `lib/comparer-triplets.ts` lists 15 curated triplets (clusters régionaux : Big 3 métros, triangle alpin, côte PACA, Pays Basque, Grand Est, Nord, Atlantique…) and is integrity-checked at build like `SEO_PAIRS`. New `app/comparer/[pair]/TripletView.tsx` renders 3-column cards, per-axis winner bars, climate/loyer tableau, profile picks (Famille/Télétravail/Retraite/Étudiant) et liens pair-à-pair. JSON-LD : BreadcrumbList + ItemList + FAQPage à 4 Q/R. Routes pré-rendues et ajoutées au sitemap (priority 0.55).
 
 ## Bilingual setup (bestcitiesinfrance.com)
 
