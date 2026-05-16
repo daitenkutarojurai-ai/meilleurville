@@ -298,7 +298,7 @@ export function CommentSection({
               <button
                 type="button"
                 onClick={onSubscribe}
-                className="rounded-lg bg-[var(--accent)] text-white text-xs font-semibold px-3 py-1.5 hover:bg-emerald-700 transition-colors"
+                className="rounded-lg bg-[var(--accent)] text-white text-xs font-semibold px-3 py-1.5 hover:bg-[var(--accent-hover)] transition-colors"
               >
                 S&apos;abonner
               </button>

@@ -12,6 +12,7 @@
   --text-tertiary: #8C9BAB;      /* lighter gray for hints */
 
   --accent: #0D9488;             /* teal — clearly distinct from score greens */
+  --accent-hover: #0F766E;       /* darker teal for button hover */
   --accent-soft: #F0FDFA;        /* pale teal for soft accent backgrounds */
   --accent-warm: #F59E0B;        /* sunny amber */
   --accent-pink: #EC4899;        /* pop pink for playful highlights */

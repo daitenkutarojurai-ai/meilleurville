@@ -375,7 +375,7 @@ export default async function GuidePage({ params }: Props) {
               </p>
               <Link
                 href="/quiz"
-                className="block text-center text-xs font-semibold bg-[var(--accent)] text-white rounded-lg py-2 hover:opacity-90 transition-opacity"
+                className="block text-center text-xs font-semibold bg-[var(--accent)] text-white rounded-xl py-2 hover:bg-[var(--accent-hover)] transition-colors"
               >
                 Essai 7j gratuit →
               </Link>

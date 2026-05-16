@@ -303,7 +303,7 @@ télétravail × 0.08
             </p>
             <a
               href="/contact"
-              className="inline-flex items-center gap-1.5 rounded-xl bg-[var(--accent)] text-white px-5 py-2.5 text-sm font-semibold hover:bg-emerald-700 transition-colors"
+              className="inline-flex items-center gap-1.5 rounded-xl bg-[var(--accent)] text-white px-5 py-2.5 text-sm font-semibold hover:bg-[var(--accent-hover)] transition-colors"
             >
               Signaler une erreur →
             </a>

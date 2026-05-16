@@ -50,7 +50,7 @@ export function FavoritesGrid() {
         <div className="flex flex-wrap items-center justify-center gap-3">
           <Link
             href="/villes"
-            className="rounded-xl bg-[var(--accent)] text-white px-5 py-2.5 text-sm font-semibold hover:bg-emerald-700 transition-colors"
+            className="rounded-xl bg-[var(--accent)] text-white px-5 py-2.5 text-sm font-semibold hover:bg-[var(--accent-hover)] transition-colors"
           >
             Explorer les villes →
           </Link>

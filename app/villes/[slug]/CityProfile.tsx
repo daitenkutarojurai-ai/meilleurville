@@ -539,7 +539,7 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                   <button
                     type="button"
                     onClick={() => setReviewOpen(true)}
-                    className="inline-flex items-center justify-center gap-1.5 w-full rounded-xl bg-[var(--accent)] text-white text-sm font-semibold px-4 py-2 hover:bg-emerald-700 transition-colors"
+                    className="inline-flex items-center justify-center gap-1.5 w-full rounded-xl bg-[var(--accent)] text-white text-sm font-semibold px-4 py-2 hover:bg-[var(--accent-hover)] transition-colors"
                   >
                     Noter cette ville →
                   </button>
@@ -666,7 +666,7 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                 </p>
                 <a
                   href="#discussions"
-                  className="inline-flex items-center gap-1.5 rounded-xl bg-[var(--accent)] text-white px-5 py-2.5 text-sm font-semibold hover:bg-emerald-700 transition-colors"
+                  className="inline-flex items-center gap-1.5 rounded-xl bg-[var(--accent)] text-white px-5 py-2.5 text-sm font-semibold hover:bg-[var(--accent-hover)] transition-colors"
                 >
                   Aller aux témoignages →
                 </a>
