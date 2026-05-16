@@ -342,7 +342,7 @@ function redFlagsSection(): MetadataRoute.Sitemap {
     priority: 0.55,
   }));
   // F4 — Thematic red-flag pages
-  const themes = ["villes-regrets-achat", "villes-sans-voiture-difficile", "villes-belles-invivables-ete"].map((slug) => ({
+  const themes = ["villes-regrets-achat", "villes-sans-voiture-difficile", "villes-belles-invivables-ete", "villes-pollution-air-chronique"].map((slug) => ({
     url: `${BASE_URL}/red-flags/${slug}`,
     lastModified: CITY_DATA_UPDATED,
     changeFrequency: "weekly" as const,
