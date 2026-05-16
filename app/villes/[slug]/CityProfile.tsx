@@ -17,6 +17,7 @@ import { CityReviewModal } from "@/components/CityReviewModal";
 import { HonestReviewCard } from "@/components/HonestReviewCard";
 import { DistancesCard } from "@/components/DistancesCard";
 import { RentVsBuyCard } from "@/components/RentVsBuyCard";
+import { GeographicNeighborsCard } from "@/components/GeographicNeighborsCard";
 import { getNeighborhoods } from "@/data/neighborhoods";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { getHousing } from "@/data/housing";
@@ -531,6 +532,9 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
 
               {/* F29 — Louer ou acheter — ratio prix/loyer + verdict */}
               <RentVsBuyCard citySlug={city.slug} />
+
+              {/* F30 — Voisinage géographique : 6 villes les plus proches */}
+              <GeographicNeighborsCard citySlug={city.slug} cityName={city.name} />
 
               {/* Similar cities */}
               <Card>
