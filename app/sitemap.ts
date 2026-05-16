@@ -4,6 +4,7 @@ import { RANKING_META } from "@/lib/rankings";
 import { GUIDES } from "@/data/guides";
 import { SEO_PAIRS } from "@/lib/comparer-pairs";
 import { SEO_TRIPLETS } from "@/lib/comparer-triplets";
+import { QUITTER_PAIRS, pairToSlug } from "@/lib/quitter-pairs";
 import { METRO_REGIONS, regionToSlug } from "@/lib/regions";
 import { TAG_SLUGS } from "@/lib/guide-tags";
 
@@ -41,6 +42,7 @@ const SITEMAP_CHUNKS_FR = [
   "red-flags",
   "calculator",
   "gentrification",
+  "quitter",
 ] as const;
 
 const SITEMAP_CHUNKS_EN = [
@@ -110,6 +112,7 @@ function staticSection(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/macro-region/vallee-du-rhone`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.65 },
     { url: `${BASE_URL}/macro-region/ile-de-france-elargie`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.65 },
     { url: `${BASE_URL}/simulateur-achat`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.75 },
+    { url: `${BASE_URL}/quitter`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.75 },
     { url: `${BASE_URL}/villes`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.8 },
     { url: `${BASE_URL}/classements`, lastModified: RANKING_UPDATED, changeFrequency: "weekly", priority: 0.9 },
     { url: `${BASE_URL}/comparer`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
@@ -409,6 +412,15 @@ function enRankingsSection(): MetadataRoute.Sitemap {
   }));
 }
 
+function quitterSection(): MetadataRoute.Sitemap {
+  return QUITTER_PAIRS.map((p) => ({
+    url: `${BASE_URL}/quitter/${pairToSlug(p)}`,
+    lastModified: STATIC_UPDATED,
+    changeFrequency: "monthly",
+    priority: 0.65,
+  }));
+}
+
 // Next 16 passes `id` as Promise<string>. See:
 // node_modules/next/dist/docs/01-app/03-api-reference/04-functions/generate-sitemaps.md
 export default async function sitemap({ id }: { id: Promise<string> }): Promise<MetadataRoute.Sitemap> {
@@ -427,6 +439,7 @@ export default async function sitemap({ id }: { id: Promise<string> }): Promise<
     case "red-flags": return redFlagsSection();
     case "calculator": return calculatorSection();
     case "gentrification": return gentrificationSection();
+    case "quitter": return quitterSection();
     case "en-static": return enStaticSection();
     case "en-cities": return enCitySection();
     case "en-rankings": return enRankingsSection();

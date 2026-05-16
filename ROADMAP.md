@@ -1,8 +1,12 @@
-# MeilleurVille — Roadmap v6 (2026-05-15)
+# MeilleurVille — Roadmap v6 (2026-05-16)
 
 Roadmap des features SSG-first, sans backend lourd, sans chiffres inventés.
 
-**Statut** : 10 features livrées (F1, F2, F3, F4, F9, F10, F11, F12, F13, F15). 5 features dépendant d'accès externes (Reddit Pushshift, ElevenLabs, Cloudflare Worker, Géorisques WMS, contenu rédactionnel mensuel) ont été retirées en attente d'accès/budget : ex-F5 RealityCheck, ex-F6 Journal de déménagement, ex-F7 Alertes personnalisées, ex-F8 Ville du mois, ex-F14 Carte risques interactive. Une 2e vague (F16, F17, F18) prend le relais avec 3 nouvelles features SSG pure-code.
+**Statut** : vague 1 + vague 2 livrées (F1, F2, F3, F4, F9, F10, F11, F12, F13, F15, F16, F17, F18, F19, F20, F21, F22, F23, F24). Vague 3 démarrée avec F25. 5 features dépendant d'accès externes ont été retirées en attente d'accès/budget : ex-F5 RealityCheck, ex-F6 Journal de déménagement, ex-F7 Alertes personnalisées, ex-F8 Ville du mois, ex-F14 Carte risques interactive.
+
+## Shipped 2026-05-16
+
+- **F25 — Pages duo « Quitter X pour Y »** ✅ — 75 paires SSG sous `/quitter/[origine]-pour-[destination]` + index `/quitter/`. Chaque page : bandeau résumé (Δ charges fixes, coût relatif %, Δ qualité de vie), tableau coût mensuel côte à côte (loyer / chauffage / mobilité / taxe foncière / TEOM / total), wins/losses sur les 10 owner scores (seuil ±0,4 pt), verdict argumenté pour qui le move a du sens, cross-links calculateur / comparer / quiz / salaire-équivalent. `lib/quitter-pairs.ts` (validation build-time des slugs) + dynamic SSG. Sitemap chunk `quitter` (FR = 14 chunks). `dynamicParams: true` pour qu'une paire hors-liste résolve quand même. Zéro nouvelle dépendance externe — tout dérivé de CITIES_SEED + HOUSING + cost-living + owner-scores.
 
 ## Shipped 2026-05-15
 
