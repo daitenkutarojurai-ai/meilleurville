@@ -10,6 +10,11 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { scoreColor } from "@/lib/utils";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 
+// ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
+// revalidate=false → page built once at deploy, served from static edge cache.
+export const revalidate = false;
+export const dynamicParams = false;
+
 type Props = { params: Promise<{ pays: string }> };
 
 // URL format = /expat-retour/depuis-suisse. Next 16 only supports a fully

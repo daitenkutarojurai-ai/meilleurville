@@ -9,6 +9,11 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { seasonalStats, TOURISM_LOAD_BADGES, type SeasonStats } from "@/lib/seasons";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 
+// ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
+// revalidate=false → page built once at deploy, served from static edge cache.
+export const revalidate = false;
+export const dynamicParams = false;
+
 type Props = { params: Promise<{ slug: string }> };
 
 export function generateStaticParams() {

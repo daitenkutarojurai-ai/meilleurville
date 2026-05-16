@@ -9,6 +9,11 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { GUIDES } from "@/data/guides";
 import type { City } from "@/lib/types";
 
+// ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
+// revalidate=false → page built once at deploy, served from static edge cache.
+export const revalidate = false;
+export const dynamicParams = false;
+
 type Props = { params: Promise<{ region: string }> };
 
 const REGION_EMOJIS: Record<string, string> = {

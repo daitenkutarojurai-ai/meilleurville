@@ -14,6 +14,11 @@ import {
 } from "@/lib/i18n";
 import { scoreColor } from "@/lib/utils";
 
+// ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
+// revalidate=false → page built once at deploy, served from static edge cache.
+export const revalidate = false;
+export const dynamicParams = false;
+
 type Props = { params: Promise<{ locale: string; slug: string }> };
 
 const EN_BASE = ORIGIN_BY_LOCALE.en;

@@ -14,6 +14,10 @@ import {
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { scoreColor } from "@/lib/utils";
 
+// ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
+// revalidate=false → page built once at deploy, served from static edge cache.
+export const revalidate = false;
+
 type Props = { params: Promise<{ pair: string }> };
 
 export function generateStaticParams() {

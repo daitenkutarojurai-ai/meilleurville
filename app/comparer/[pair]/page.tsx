@@ -20,6 +20,10 @@ type Props = { params: Promise<{ pair: string }> };
 import { SEO_PAIRS } from "@/lib/comparer-pairs";
 import { SEO_TRIPLETS } from "@/lib/comparer-triplets";
 
+// ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
+// revalidate=false → page built once at deploy, served from static edge cache.
+export const revalidate = false;
+
 export function generateStaticParams() {
   return [
     ...SEO_PAIRS.map(([a, b]) => ({ pair: `${a}-vs-${b}` })),

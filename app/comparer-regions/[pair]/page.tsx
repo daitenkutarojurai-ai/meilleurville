@@ -17,6 +17,11 @@ import {
 } from "@/lib/regions";
 import { scoreColor, scoreHex } from "@/lib/utils";
 
+// ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
+// revalidate=false → page built once at deploy, served from static edge cache.
+export const revalidate = false;
+export const dynamicParams = false;
+
 type Props = { params: Promise<{ pair: string }> };
 
 const PRIORITY_PAIRS: ReadonlyArray<readonly [string, string]> = [

@@ -11,6 +11,11 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { Coins, AlertTriangle, Home as HomeIcon, FileText, MapPin } from "lucide-react";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 
+// ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
+// revalidate=false → page built once at deploy, served from static edge cache.
+export const revalidate = false;
+export const dynamicParams = false;
+
 type Props = { params: Promise<{ dept: string }> };
 
 export function generateStaticParams() {
