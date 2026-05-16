@@ -18,6 +18,7 @@ import { HonestReviewCard } from "@/components/HonestReviewCard";
 import { DistancesCard } from "@/components/DistancesCard";
 import { RentVsBuyCard } from "@/components/RentVsBuyCard";
 import { GeographicNeighborsCard } from "@/components/GeographicNeighborsCard";
+import { Climate2040Card } from "@/components/Climate2040Card";
 import { getNeighborhoods } from "@/data/neighborhoods";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { getHousing } from "@/data/housing";
@@ -535,6 +536,9 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
 
               {/* F30 — Voisinage géographique : 6 villes les plus proches */}
               <GeographicNeighborsCard citySlug={city.slug} cityName={city.name} />
+
+              {/* F31 — Climat 2040 — projection ARPEGE macro-région */}
+              <Climate2040Card city={city} />
 
               {/* Similar cities */}
               <Card>
