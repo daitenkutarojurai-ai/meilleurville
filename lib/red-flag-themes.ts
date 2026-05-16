@@ -1,9 +1,9 @@
 // F4 — Red Flag thématiques.
 //
-// 3 thèmes éditoriaux (regrets d'achat, sans voiture difficile, belles mais
-// invivables l'été). Chaque thème expose une fonction `rank()` qui retourne
-// les villes triées par "gravité" sur ce thème, avec un score 0-10 et une
-// raison citable.
+// 4 thèmes éditoriaux (regrets d'achat, sans voiture difficile, belles mais
+// invivables l'été, air irrespirable l'hiver). Chaque thème expose une
+// fonction `rank()` qui retourne les villes triées par "gravité" sur ce
+// thème, avec un score 0-10 et une raison citable.
 //
 // Toutes les valeurs viennent du seed actuel + lib/owner-scores. Aucun fetch.
 // Quand owner-scores passe en v1 (sources réelles), les classements ici se
@@ -128,6 +128,54 @@ function rankInvivablesEte(): RedFlagRow[] {
   return rows.sort((a, b) => b.severity - a.severity).slice(0, 12);
 }
 
+// --- THEME 4 — Air irrespirable l'hiver (pollution chronique) ---
+// Cible : villes où l'air est respiré en moyenne annuelle au-dessus du seuil
+// OMS (>10 µg/m³ PM2.5) ET où l'hiver concentre les pics — cuvettes alpines
+// soumises à l'inversion thermique, bassin parisien saturé NO₂, façades
+// industrialo-portuaires. Filtre : score_qualite_air ≤ 5/10.
+function rankPollutionAirChronique(): RedFlagRow[] {
+  const rows: RedFlagRow[] = [];
+  for (const city of CITIES_SEED) {
+    const owner = computeOwnerScores(city);
+    const air = owner.find((s) => s.key === "score_qualite_air")!.value;
+    if (air > 5) continue; // air correct, hors-cible
+
+    const dept = city.department ?? "";
+    const region = city.region ?? "";
+    const elev = city.elevation ?? 9999;
+    const pop = city.population ?? 0;
+
+    // Bonus de gravité — vraies zones documentées par les AASQA ATMO.
+    const inversionAlpine = ["Haute-Savoie", "Isère", "Savoie"].includes(dept) && elev < 700;
+    const idfDense = region === "Île-de-France" && pop > 50000;
+    const couloirRhone = ["Rhône", "Métropole de Lyon", "Drôme", "Vaucluse"].includes(dept) && pop > 80000;
+    const portIndustriel = ["Bouches-du-Rhône", "Seine-Maritime", "Loire-Atlantique"].includes(dept) && pop > 100000;
+
+    let bonus = 0;
+    let context = "";
+    if (inversionAlpine) {
+      bonus = 2.0;
+      context = " · cuvette alpine, inversion thermique hivernale";
+    } else if (idfDense) {
+      bonus = 1.4;
+      context = " · bassin parisien NO₂ trafic + alertes ozone";
+    } else if (couloirRhone) {
+      bonus = 1.2;
+      context = " · couloir rhodanien NO₂ + ozone estival";
+    } else if (portIndustriel) {
+      bonus = 1.0;
+      context = " · façade industrialo-portuaire (fret, raffinage)";
+    }
+
+    const severity = Math.min(10, (5 - air) * 1.9 + bonus);
+    if (severity < 1.5) continue; // filtre les cas marginaux
+
+    const reason = `Qualité air ${air.toFixed(1)}/10 (PM2.5 dépt > seuil OMS)${context}`;
+    rows.push({ city, severity: Math.round(severity * 10) / 10, reason });
+  }
+  return rows.sort((a, b) => b.severity - a.severity).slice(0, 12);
+}
+
 export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-regrets-achat",
@@ -173,6 +221,21 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     methodology:
       "Severity = 1,8 × écart au score canicule 5 + 1,5 si touristique. Source température : moyennes Météo-France 1991-2020 ; projection ARPEGE 2040 à venir.",
     rank: rankInvivablesEte,
+  },
+  {
+    slug: "villes-pollution-air-chronique",
+    title: "Villes à l'air irrespirable l'hiver",
+    metaTitle: "Pollution air chronique 2026 — Villes françaises au PM2.5 hivernal élevé",
+    metaDescription:
+      "Classement 2026 des villes françaises où l'air dépasse durablement le seuil OMS : cuvettes alpines (inversion thermique), bassin parisien NO₂, couloir rhodanien, façades portuaires. Source ATMO France PM2.5.",
+    emoji: "🌫️",
+    intro:
+      "L'agence immobilière vante la vue sur les Alpes ou les boulevards haussmanniens. Personne ne mentionne le brouillard épais de janvier-février quand l'inversion thermique piège les particules fines au fond de la vallée, ni les alertes NO₂ chroniques le long du périphérique parisien. La pollution chronique ne se voit pas sur la photo immobilière — mais elle se respire 365 jours par an.",
+    reality:
+      "On filtre les villes dont le score qualité d'air est ≤ 5/10 (PM2.5 départemental ≥ 11-13 µg/m³, soit > 2× le seuil OMS 2021 de 5 µg/m³). On ajoute un malus de gravité pour les zones documentées par les AASQA ATMO : cuvettes alpines (Vallée de l'Arve, Grenoble), bassin parisien (AirParif), couloir rhodanien (Atmo Auvergne-Rhône-Alpes), façades industrialo-portuaires (AtmoSud, Atmo Normandie).",
+    methodology:
+      "Severity = 1,9 × écart au score qualité air 5 + bonus zonal (cuvette alpine +2,0 / IDF dense +1,4 / couloir rhodanien +1,2 / port industriel +1,0). Source PM2.5 : moyennes annuelles départementales ATMO France 2023, croisées au seuil OMS révision 2021.",
+    rank: rankPollutionAirChronique,
   },
 ];
 
