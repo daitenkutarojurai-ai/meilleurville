@@ -230,6 +230,12 @@ function citySubSection(): MetadataRoute.Sitemap {
       changeFrequency: "monthly" as const,
       priority: 0.55,
     },
+    {
+      url: `${BASE_URL}/villes/${city.slug}/risques`,
+      lastModified: CITY_DATA_UPDATED,
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
+    },
   ]);
 }
 
