@@ -16,6 +16,7 @@ import { UserScoresCard } from "@/components/UserScoresCard";
 import { CityReviewModal } from "@/components/CityReviewModal";
 import { HonestReviewCard } from "@/components/HonestReviewCard";
 import { DistancesCard } from "@/components/DistancesCard";
+import { RentVsBuyCard } from "@/components/RentVsBuyCard";
 import { getNeighborhoods } from "@/data/neighborhoods";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { getHousing } from "@/data/housing";
@@ -527,6 +528,9 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
 
               {/* F28 — Distances clés (haversine depuis lat/long du seed) */}
               <DistancesCard city={city} />
+
+              {/* F29 — Louer ou acheter — ratio prix/loyer + verdict */}
+              <RentVsBuyCard citySlug={city.slug} />
 
               {/* Similar cities */}
               <Card>
