@@ -43,6 +43,7 @@ const SITEMAP_CHUNKS_FR = [
   "calculator",
   "gentrification",
   "quitter",
+  "cout-menage",
 ] as const;
 
 const SITEMAP_CHUNKS_EN = [
@@ -113,6 +114,7 @@ function staticSection(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/macro-region/ile-de-france-elargie`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.65 },
     { url: `${BASE_URL}/simulateur-achat`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.75 },
     { url: `${BASE_URL}/quitter`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.75 },
+    { url: `${BASE_URL}/cout-menage`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.75 },
     { url: `${BASE_URL}/villes`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.8 },
     { url: `${BASE_URL}/classements`, lastModified: RANKING_UPDATED, changeFrequency: "weekly", priority: 0.9 },
     { url: `${BASE_URL}/comparer`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
@@ -421,6 +423,15 @@ function quitterSection(): MetadataRoute.Sitemap {
   }));
 }
 
+function coutMenageSection(): MetadataRoute.Sitemap {
+  return CITIES_SEED.map((c) => ({
+    url: `${BASE_URL}/cout-menage/${c.slug}`,
+    lastModified: CITY_DATA_UPDATED,
+    changeFrequency: "monthly",
+    priority: 0.6,
+  }));
+}
+
 // Next 16 passes `id` as Promise<string>. See:
 // node_modules/next/dist/docs/01-app/03-api-reference/04-functions/generate-sitemaps.md
 export default async function sitemap({ id }: { id: Promise<string> }): Promise<MetadataRoute.Sitemap> {
@@ -440,6 +451,7 @@ export default async function sitemap({ id }: { id: Promise<string> }): Promise<
     case "calculator": return calculatorSection();
     case "gentrification": return gentrificationSection();
     case "quitter": return quitterSection();
+    case "cout-menage": return coutMenageSection();
     case "en-static": return enStaticSection();
     case "en-cities": return enCitySection();
     case "en-rankings": return enRankingsSection();
