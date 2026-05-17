@@ -204,6 +204,12 @@ export default async function SantePage({ params }: Props) {
             </Card>
           </Link>
         </div>
+
+        <div className="mt-8 text-sm">
+          <Link href="/sante" className="text-[var(--accent)] hover:underline">
+            → Classement national de l&apos;accès aux soins
+          </Link>
+        </div>
       </section>
 
       <Footer />
