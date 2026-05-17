@@ -280,7 +280,14 @@ export default function CadreDeViePage() {
         <h2 className="mt-12 text-xl font-semibold text-[var(--text-primary)]">
           Personnaliser le classement
         </h2>
-        <div className="mt-3 grid grid-cols-1 sm:grid-cols-3 gap-3">
+        <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+          <Link href="/cadre-de-vie/personnaliser" className="block">
+            <Card className="hover:shadow-md transition-shadow h-full border-[var(--accent)]/40">
+              <div className="text-2xl mb-1">✨</div>
+              <div className="text-sm font-semibold text-[var(--text-primary)]">Pondère toi-même</div>
+              <div className="text-xs text-[var(--text-tertiary)] mt-1">3 sliders env/santé/emploi — top 10 en direct</div>
+            </Card>
+          </Link>
           <Link href="/quiz-compatibilite" className="block">
             <Card className="hover:shadow-md transition-shadow h-full">
               <div className="text-2xl mb-1">🎯</div>
