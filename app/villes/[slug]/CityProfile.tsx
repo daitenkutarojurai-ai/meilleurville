@@ -24,6 +24,7 @@ import { WaterStressCard } from "@/components/WaterStressCard";
 import { AirQualityCard } from "@/components/AirQualityCard";
 import { NoiseCard } from "@/components/NoiseCard";
 import { HealthcareCard } from "@/components/HealthcareCard";
+import { EmploymentCard } from "@/components/EmploymentCard";
 import { getNeighborhoods } from "@/data/neighborhoods";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { getHousing } from "@/data/housing";
@@ -538,6 +539,7 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                 <AirQualityCard city={city} />
                 <NoiseCard city={city} />
                 <HealthcareCard city={city} />
+                <EmploymentCard city={city} />
                 <GeographicNeighborsCard citySlug={city.slug} cityName={city.name} />
                 <Card>
                   <h3 className="text-sm font-semibold text-[var(--text-primary)] mb-3 flex items-center gap-2">
@@ -767,6 +769,20 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                     </div>
                     <div className="text-xs text-[var(--text-tertiary)] mt-0.5 truncate">
                       Médecins · spécialistes · urgences
+                    </div>
+                  </div>
+                  <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors shrink-0" />
+                </a>
+                <a
+                  href={`/villes/${city.slug}/emploi`}
+                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
+                >
+                  <div className="min-w-0">
+                    <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
+                      💼 Marché du travail
+                    </div>
+                    <div className="text-xs text-[var(--text-tertiary)] mt-0.5 truncate">
+                      Chômage · dynamisme · salaires
                     </div>
                   </div>
                   <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors shrink-0" />
