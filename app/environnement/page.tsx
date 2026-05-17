@@ -10,6 +10,7 @@ import {
   ENV_LEVEL_LABEL,
   ENV_LEVEL_COLOR,
 } from "@/lib/environment-index";
+import { MACRO_REGIONS } from "@/lib/macro-regions";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 
 export const revalidate = false;
@@ -240,6 +241,26 @@ export default function EnvironmentHubPage() {
             sanitaire OMS (air et bruit en tête).
           </p>
         </Card>
+
+        {/* Macro-region breakdown */}
+        <h2 className="mt-12 text-xl font-semibold text-[var(--text-primary)]">
+          Par macro-région
+        </h2>
+        <p className="mt-2 text-sm text-[var(--text-secondary)]">
+          Le profil environnemental varie fortement entre la côte atlantique tempérée et
+          l&apos;arc méditerranéen chaud. Vue restreinte à chaque grande zone géographique.
+        </p>
+        <div className="mt-3 grid grid-cols-2 sm:grid-cols-3 gap-3">
+          {MACRO_REGIONS.map((m) => (
+            <Link key={m.slug} href={`/environnement/${m.slug}`} className="block">
+              <Card className="hover:shadow-md transition-shadow h-full">
+                <div className="text-2xl mb-1">{m.emoji}</div>
+                <div className="text-sm font-semibold text-[var(--text-primary)]">{m.label}</div>
+                <div className="text-xs text-[var(--text-tertiary)] mt-1">Top villes saines + plus exposées</div>
+              </Card>
+            </Link>
+          ))}
+        </div>
 
         {/* Cross-links */}
         <h2 className="mt-12 text-xl font-semibold text-[var(--text-primary)]">
