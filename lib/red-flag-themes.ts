@@ -15,6 +15,7 @@ import { computeOwnerScores } from "@/lib/owner-scores";
 import { computeNaturalRisks } from "@/lib/natural-risks";
 import { computeWaterStress } from "@/lib/water-stress";
 import { computeNoiseExposure } from "@/lib/noise-exposure";
+import { computeHealthcareAccess } from "@/lib/healthcare-access";
 
 type SeedCity = (typeof CITIES_SEED)[number];
 
@@ -280,6 +281,39 @@ function rankSecheresseEau(): RedFlagRow[] {
   return rows.sort((a, b) => b.severity - a.severity).slice(0, 12);
 }
 
+// --- THEME 8 — Désert médical ---
+// Cible : villes au composite F47 > 6,5/10. Bonus si MG = désert + urgences
+// = tendu (cumul vital). Filtre population > 10k pour pertinence dept.
+function rankDesertMedical(): RedFlagRow[] {
+  const rows: RedFlagRow[] = [];
+  for (const city of CITIES_SEED) {
+    if ((city.population ?? 0) < 10_000) continue;
+    const h = computeHealthcareAccess(city);
+    if (h.composite < 6.5) continue;
+
+    let bonus = 0;
+    if (h.generalistes.score >= 8.5 && h.urgences.score >= 6.5) bonus += 1.2;
+    if (h.specialistes.score >= 7) bonus += 0.5;
+    const severity = Math.min(10, h.composite + bonus);
+
+    const tops = [
+      { k: "généralistes", s: h.generalistes.score },
+      { k: "spécialistes", s: h.specialistes.score },
+      { k: "urgences", s: h.urgences.score },
+      { k: "pharmacies", s: h.pharmacies.score },
+    ]
+      .filter((x) => x.s >= 6)
+      .sort((a, b) => b.s - a.s)
+      .slice(0, 2)
+      .map((x) => `${x.k} ${x.s.toFixed(1)}/10`)
+      .join(" · ");
+
+    const reason = `Composite accès soins ${h.composite.toFixed(1)}/10${tops ? ` — ${tops}` : ""}`;
+    rows.push({ city, severity: Math.round(severity * 10) / 10, reason });
+  }
+  return rows.sort((a, b) => b.severity - a.severity).slice(0, 12);
+}
+
 export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-regrets-achat",
@@ -385,6 +419,21 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     methodology:
       "Severity = composite F41 + 1,0 si restrictions ≥ 8,5/10 + 0,8 si nappes très basses ET alimentation tendue. Sources : Propluvia (arrêtés sécheresse), BRGM (état des nappes), Météo-France (climat estival).",
     rank: rankSecheresseEau,
+  },
+  {
+    slug: "villes-desert-medical",
+    title: "Villes désert médical — accès aux soins critique",
+    metaTitle: "Désert médical 2026 — Villes françaises où trouver un médecin est devenu impossible",
+    metaDescription:
+      "Classement 2026 des villes françaises ≥ 10 000 hab. où l'accès aux soins est critique : MG non remplacés, spécialistes saturés, urgences éloignées. Composite F47, sources DREES / CNOM / ARS.",
+    emoji: "🩺",
+    intro:
+      "L'agence vante le calme, le prix au m² accessible, la maison de ville. Personne ne mentionne que le dernier médecin généraliste de la commune part en retraite en juin sans repreneur, que le cabinet de dermato le plus proche est à 1 h 30 de route avec un délai de 8 mois, ou que les urgences les plus proches sont à 45 min sans héliportage la nuit. Le désert médical ne se voit pas sur une photo immobilière — il se découvre en cherchant un médecin traitant à 22 h pour un enfant qui a 40 °C.",
+    reality:
+      "On classe les villes ≥ 10 000 hab. dont le composite F47 dépasse 6,5/10, avec un malus quand généralistes en désert avéré (DREES &lt; 80/100k + plus de 50 % MG &gt; 60 ans) ET urgences éloignées se cumulent — c'est-à-dire un vrai problème vital, pas un seul indicateur. Toutes les valeurs sont alignées sur les statistiques DREES 2023-2024 et le zonage ZIP/ZAC de l'ARS.",
+    methodology:
+      "Severity = composite F47 + 1,2 si MG = désert ET urgences ≥ 6,5/10 + 0,5 si spécialistes ≥ 7/10. Sources : DREES (densité médicale par département), Atlas démographique CNOM (vieillissement et remplacement), zonage ZIP/ZAC ARS, Conférence des Doyens (CHU).",
+    rank: rankDesertMedical,
   },
 ];
 

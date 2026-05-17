@@ -139,10 +139,11 @@ export default function RedFlagsPage() {
               Red Flags thématiques
             </h2>
             <p className="text-sm text-[var(--text-secondary)]">
-              Sept angles de lecture data-driven : villes regrets d&apos;achat, villes où vivre sans voiture
+              Huit angles de lecture data-driven : villes regrets d&apos;achat, villes où vivre sans voiture
               est difficile, villes belles mais invivables l&apos;été, villes à l&apos;air irrespirable l&apos;hiver,
               villes les plus exposées aux risques naturels (Géorisques), villes où le bruit est un cauchemar
-              quotidien, villes où l&apos;eau manquera l&apos;été (Propluvia / BRGM).
+              quotidien, villes où l&apos;eau manquera l&apos;été (Propluvia / BRGM), et villes en désert
+              médical avéré (DREES / CNOM / ARS).
             </p>
           </div>
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 auto-rows-fr">
