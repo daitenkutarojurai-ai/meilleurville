@@ -403,6 +403,30 @@ export const RANKING_META = {
       "Accidentologie cycliste (ONISR — Observatoire national de la sécurité routière)",
     ],
   },
+  "bord-de-mer": {
+    slug: "bord-de-mer",
+    label: "Bord de mer",
+    emoji: "🌊",
+    headline: "Meilleures villes côtières françaises où vivre en 2026",
+    description:
+      "Classement des villes françaises au bord de l'océan, de la Méditerranée, de la Manche ou de la mer du Nord — celles où l'on peut vivre à l'année sans devenir touriste de sa propre rue. Filtre par tag côtier puis composite nature + qualité de vie + sécurité, avec bonus ensoleillement et accès direct au littoral. Sources : SHOM (trait de côte 2024), Météo-France (ensoleillement 1991-2020), Insee Recensement 2022 (population résidente), SSMSI 2024 (sécurité), Observatoires Locaux des Loyers (coût).",
+    methodology:
+      "Filtre par caractère côtier (tags : mer, plage, balnéaire, océan, surf, station-balnéaire) — seules les villes sur ou à 5 km du littoral sont notées. Score composite : Nature (×3 — accès direct mer, voiles vertes littorales, biodiversité), Qualité de vie (×2,5 — promenade de mer, marchés, lumière), Sécurité (×1,5 — densité touristique pondérée), Culture (×1 — patrimoine maritime, festivals), Coût (×0,5 — pression touristique sur le logement). Bonus : +0,4 si > 2 400 h soleil/an, +0,3 si tag surf/station-balnéaire, +0,2 si population < 30 000 hab. (échelle village vs station). Les communes intérieures sont rangées en queue avec un score à 0.",
+    weights: { nature: 3, life: 2.5, safety: 1.5, culture: 1, cost: 0.5 },
+    color: "text-cyan-500",
+    borderColor: "border-cyan-500/20",
+    bgColor: "bg-cyan-500/5",
+    scoreKey: "nature" as const,
+    why: [
+      "Accès direct au trait de côte (SHOM Service hydrographique 2024)",
+      "Ensoleillement annuel et nombre de jours de baignade (Météo-France 1991-2020)",
+      "Marchés de produits frais et restauration de la pêche locale (DPMA — Direction des pêches)",
+      "Patrimoine maritime : remparts, forts Vauban, phares, quartiers de pêcheurs",
+      "Pression touristique en juillet-août (Insee — résidences secondaires, population estivale)",
+      "Loyer T2 à l'année (Observatoires Locaux des Loyers — hors marché de location saisonnière)",
+      "Connexion ferroviaire ou autoroutière (SNCF Connect, Bison Futé 2026)",
+    ],
+  },
 } as const;
 
 export type RankingSlug = keyof typeof RANKING_META;
@@ -430,6 +454,49 @@ function climateComfortScore(c: (typeof CITIES_SEED)[number]): number {
   // Composite — sunshine ×3, summer ×2, winter ×2.
   const raw = (sunScore * 3 + summerScore * 2 + winterScore * 2) / 7;
   return Math.max(0, Math.min(10, raw * 10));
+}
+
+// Tag-based filter for `bord-de-mer`. A city qualifies if it carries at least
+// one strong coastal marker; otherwise it scores 0 and is pushed to the bottom.
+// Trait de côte (SHOM 2024) couldn't be encoded as a geo-fence at the seed
+// level, so we read the editorial tags already curated in `data/cities-seed.ts`.
+const COASTAL_TAGS = new Set([
+  "mer",
+  "plage",
+  "plages",
+  "côte",
+  "côte-proche",
+  "balnéaire",
+  "station-balnéaire",
+  "océan",
+  "mer-proche",
+  "mer-sauvage",
+  "surf",
+  "sport nautique",
+  "patrimoine-maritime",
+  "mer-du-Nord",
+]);
+
+function coastalLivingScore(c: (typeof CITIES_SEED)[number]): number {
+  const tags = new Set(c.characterTags ?? []);
+  let isCoastal = false;
+  for (const t of tags) {
+    if (COASTAL_TAGS.has(t)) {
+      isCoastal = true;
+      break;
+    }
+  }
+  if (!isCoastal) return 0;
+
+  const s = c.scores;
+  // Composite weighted: nature×3 + life×2.5 + safety×1.5 + culture×1 + cost×0.5
+  // = total weight 8.5 → divide to bring back to 0..10 scale.
+  const base = (s.nature * 3 + s.life * 2.5 + s.safety * 1.5 + s.culture * 1 + s.cost * 0.5) / 8.5;
+  let bonus = 0;
+  if ((c.sunshinedays ?? 0) > 2400) bonus += 0.4;
+  if (tags.has("surf") || tags.has("station-balnéaire")) bonus += 0.3;
+  if ((c.population ?? 100000) < 30000) bonus += 0.2;
+  return Math.max(0, Math.min(10, base + bonus));
 }
 
 function housingAffordabilityScore(c: (typeof CITIES_SEED)[number]): number {
@@ -465,6 +532,9 @@ export function getRankedCities(
     if (slug === "logement") {
       return { city: c, score: housingAffordabilityScore(c) };
     }
+    if (slug === "bord-de-mer") {
+      return { city: c, score: coastalLivingScore(c) };
+    }
     let total = 0;
     let weighted = 0;
     for (const [key, w] of Object.entries(weights)) {
@@ -476,7 +546,9 @@ export function getRankedCities(
     return { city: c, score };
   });
 
-  return scored
+  const filtered = slug === "bord-de-mer" ? scored.filter((x) => x.score > 0) : scored;
+
+  return filtered
     .sort((a, b) => b.score - a.score)
     .map((item, i) => ({
       city: {
