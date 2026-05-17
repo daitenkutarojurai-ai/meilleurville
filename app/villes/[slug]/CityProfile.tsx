@@ -20,6 +20,7 @@ import { RentVsBuyCard } from "@/components/RentVsBuyCard";
 import { GeographicNeighborsCard } from "@/components/GeographicNeighborsCard";
 import { Climate2040Card } from "@/components/Climate2040Card";
 import { NaturalRisksCard } from "@/components/NaturalRisksCard";
+import { WaterStressCard } from "@/components/WaterStressCard";
 import { getNeighborhoods } from "@/data/neighborhoods";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { getHousing } from "@/data/housing";
@@ -530,6 +531,7 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                 <RentVsBuyCard citySlug={city.slug} />
                 <Climate2040Card city={city} />
                 <NaturalRisksCard city={city} />
+                <WaterStressCard city={city} />
                 <GeographicNeighborsCard citySlug={city.slug} cityName={city.name} />
                 <Card>
                   <h3 className="text-sm font-semibold text-[var(--text-primary)] mb-3 flex items-center gap-2">
@@ -703,6 +705,20 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                     </div>
                     <div className="text-xs text-[var(--text-tertiary)] mt-0.5 truncate">
                       Inondation · sismicité · argile · feux
+                    </div>
+                  </div>
+                  <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors shrink-0" />
+                </a>
+                <a
+                  href={`/villes/${city.slug}/eau`}
+                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
+                >
+                  <div className="min-w-0">
+                    <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
+                      💧 Stress hydrique
+                    </div>
+                    <div className="text-xs text-[var(--text-tertiary)] mt-0.5 truncate">
+                      Sécheresse · nappes · restrictions
                     </div>
                   </div>
                   <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors shrink-0" />

@@ -1,4 +1,4 @@
-# MeilleurVille — Roadmap v6 (2026-05-16)
+# MeilleurVille — Roadmap v6 (2026-05-17)
 
 Roadmap des features SSG-first, sans backend lourd, sans chiffres inventés.
 
@@ -6,6 +6,7 @@ Roadmap des features SSG-first, sans backend lourd, sans chiffres inventés.
 
 ## Shipped 2026-05-17
 
+- **F41 — Stress hydrique & sécheresse par ville** ✅ — 540 pages SSG `/villes/[slug]/eau` + `WaterStressCard` dans la grille « Données & analyse » + nouvelle entrée dans le strip de sous-pages (5 → 6 cartes). 4 facteurs évalués de manière déterministe : (1) restrictions sécheresse = fréquence des arrêtés alerte renforcée / crise par dept sur 2022-2024 (Propluvia), (2) nappes phréatiques = état moyen BRGM 2022-2025 (basse / normale / haute), (3) sécheresse climatique = avgTempJuly × sunshinedays normalisés, (4) alimentation eau potable = combinaison fragilité réseau DROM + saisonnalité touristique littoral/île + sols karstiques calcaires. Score composite 0-10 pondéré (restrictions 35 %, nappes 25 %, climat 20 %, réseau 20 %) + signature narrative + lien sortant direct vers Propluvia. `lib/water-stress.ts` + `components/WaterStressCard.tsx` + route SSG + sitemap chunk `city-sub` étendu. FAQ JSON-LD à 4 Q/R + breadcrumb. Zéro dépendance externe.
 - **F4 ext. — Red Flag #5 « Risques naturels cumulés »** ✅ — 5e thème data-driven sous `/red-flags/villes-risques-naturels`. Réutilise `computeNaturalRisks` (F40) pour ranker les 12 villes au composite le plus élevé, avec malus +1,2 quand au moins 2 des 4 aléas (inondation/argile/feu/sismique) dépassent 6/10. Affiche les deux dimensions dominantes par ligne (ex. « inondation 7.2/10 · argile 6.5/10 »). Sources : BRGM, BCSF/MTE décret 2010-1255, ONF/ECASC, Géorisques. Sitemap `red-flags` désormais piloté par `RED_FLAG_THEME_SLUGS` (source unique). Hub `/red-flags` met à jour le compte (5 angles) + grille xl à 5 colonnes.
 
 ## Shipped 2026-05-16
