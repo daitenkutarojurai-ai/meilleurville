@@ -6,6 +6,7 @@ Roadmap des features SSG-first, sans backend lourd, sans chiffres inventés.
 
 ## Shipped 2026-05-17
 
+- **Red Flags +3 (8 → 11 thèmes)** ✅ — Extension du cluster `/red-flags` avec 3 nouveaux thèmes SEO long-tail dérivés des composites récents. (1) `/red-flags/villes-chomage-eleve` — dérive F50, classe les villes ≥ 15 000 hab. au composite emploi > 6,5/10 avec malus +1,2 quand chômage ≥ 7,5/10 ET dynamisme ≥ 6,5/10 se cumulent (décrochage économique vrai, pas un seul indicateur). (2) `/red-flags/villes-cadre-de-vie-tendu` — dérive F52, classe les villes ≤ 4,5/10 au méga-index avec malus +1,2 quand ≥ 2 piliers sur 3 (env / santé / emploi) tombent sous 4/10. Severity inversée (5 − qol) × 2. (3) `/red-flags/villes-couts-explosifs` — calcule le ratio coût-ménage-famille (F26) sur salaire net médian dept (proxy depuis F50 salary.score : 2 500 € Paris-PC / 2 200 € métropoles dynamiques / 2 050 € moyenne / 1 900 € bas / 1 750 € très bas). Cible ratio ≥ 60 % ; severity rescalée sur [0,6 ; 1,0] → [5 ; 10]. Sitemap auto-pris en charge (déjà piloté par `RED_FLAG_THEME_SLUGS` depuis F4 ext.). Mise à jour des compteurs « 11 angles » dans le strip de `/cadre-de-vie`. Cible Q2 2026 atteinte (11/11).
 - **F57 phase 2 — Hub `/velo` + macro-régions (×7 SSG)** ✅ — Suite directe de la phase 1. Nouveau hub SEO national `/velo` agrégeant F57 : top 30 villes les plus cyclables + top 20 difficiles à vélo, tableau responsive 4 colonnes (réseau / relief / sécurité / climat), méthodologie complète, section « Par macro-région ». 6 pages SSG `/velo/[macroregion]` (côte-atlantique, arc-mediterraneen, arc-alpin, sud-ouest-gascon, vallee-du-rhone, ile-de-france-elargie) restreignant le classement aux villes ≥ 10 000 hab. de la zone : top 15 cyclables + top 10 difficiles + profil moyen 4 dimensions. Ranking helpers ajoutés à `lib/cycling-mobility.ts` (`topCyclable` / `topNonCyclable` + cache module-level). Cross-links circulaires entre macros + lien retour vers le hub. Sitemap +7 URLs (hub 0.85 + 6 macros 0.75). FAQ JSON-LD + breadcrumb sur chaque page. Cluster F57 désormais complet : sub-page ville × 540 + card sur la fiche + entry strip sous-pages + hub national + 6 macros, soit le pattern complet F40/F44/F46/F47/F49/F50/F51/F53/F54.
 - **F57 phase 1 — Mobilité douce / vélo par ville** ✅ — Premier cluster « non-traditionnel » du site : la cyclabilité quotidienne. 540 pages SSG `/villes/[slug]/velo` + `CyclingCard` dans la grille « Données & analyse » (10 → 11 cartes) + nouvelle entrée dans le strip de sous-pages (10 → 11 cartes). 4 dimensions évaluées de manière déterministe : (1) **Réseau** = ville régulièrement primée Baromètre FUB / Vélo & Territoires (Strasbourg, Grenoble, Rennes, Nantes, Bordeaux, La Rochelle, Chambéry, Annecy…) + bonus métropole + bonus EuroVelo (EV1 / EV3 / EV6 / EV8 / EV17), (2) **Topographie** = malus département vallonné (Massif Central, Alpes, Pyrénées, Vosges, Jura, Corse) + altitude > 500 m, bonus plaine (Beauce, Aquitaine, Loire, Nord-Picardie), (3) **Sécurité** = combine densité urbaine et niveau d'aménagement (compensation par les villes cyclables connues), (4) **Climat** = ensoleillement + température hivernale + malus côte atlantique venteuse / couloir rhodanien Mistral-Tramontane. **Convention** : 10 = excellent pour le vélo (différent du quartet env où 10 = pire). Composite 0-10 pondéré (réseau 35 %, topographie 25 %, sécurité 25 %, climat 15 %) + signature narrative + lien sortant FUB / Vélo & Territoires / Géovélo. `lib/cycling-mobility.ts` + `components/CyclingCard.tsx` + route SSG + sitemap chunk `city-sub` étendu (+540 URLs priority 0.65). FAQ JSON-LD à 4 Q/R + breadcrumb. Phase 2 (hub national `/velo` + macro-régions ×6) à venir.
 - **F56 — Badge Cadre de Vie sur fiche ville** ✅ — Nouveau `components/QolHeroBadge.tsx` (composant serveur, zéro JS) inséré dans le hero de chaque fiche ville `/villes/[slug]` (×540) juste sous le strip stats (soleil/juillet/janvier/altitude). Affiche le score F52 0-10 + level (exceptionnel → tendu) + 3 tuiles cliquables (env / santé / emploi) qui pointent vers la macro-région correspondante (ou le hub national en fallback). Boutons d'action : « Classement national » et « ✨ Pondérer » (vers F55). Nouveau helper `lib/macro-regions.ts:findMacroRegionForCity()` qui retrouve la macro-région F22 d'une ville via son département. Glass-card stylée alignée avec l'esthétique premium du hero. Zéro recompute supplémentaire — `computeQualityOfLife(city)` réutilise les fonctions F44/F47/F50 déjà appelées ailleurs.
@@ -122,13 +123,14 @@ Options classées par leverage estimé :
 
 Décision à prendre après ship F54-F56 — choisir selon trafic et demande utilisateur.
 
-### Red Flag SEO — extensions requises (non optionnelles)
-Les 8 Red Flags actuels couvrent env, santé, achat, mobilité. À étendre :
-- `villes-chomage-eleve` (dérivé F50) — combine chômage dept + faible dynamisme
-- `villes-cadre-de-vie-tendu` (dérivé F52) — synthèse tri-pilier
-- `villes-couts-explosifs` (extension F26) — coût ménage / salaire médian local
+### Red Flag SEO — extensions requises (non optionnelles) ✅
+**Shipped 2026-05-17.** Les 8 → 11 thèmes :
+- `villes-chomage-eleve` (dérivé F50) ✅ — chômage dept + faible dynamisme
+- `villes-cadre-de-vie-tendu` (dérivé F52) ✅ — synthèse tri-pilier
+- `villes-couts-explosifs` (extension F26) ✅ — coût ménage / salaire médian local
 
-Cible : passer de 8 → 11 thèmes Red Flag d'ici fin Q2 2026. Chaque thème = 1 page SSG SEO long-tail.
+Cible Q2 2026 atteinte (11/11). Chaque thème = 1 page SSG SEO long-tail
+via `RED_FLAG_THEMES`.
 
 ---
 

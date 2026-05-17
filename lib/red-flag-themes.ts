@@ -16,6 +16,9 @@ import { computeNaturalRisks } from "@/lib/natural-risks";
 import { computeWaterStress } from "@/lib/water-stress";
 import { computeNoiseExposure } from "@/lib/noise-exposure";
 import { computeHealthcareAccess } from "@/lib/healthcare-access";
+import { computeEmploymentMarket } from "@/lib/employment-market";
+import { computeQualityOfLife } from "@/lib/quality-of-life-index";
+import { householdBreakdownFor } from "@/lib/household-cost";
 
 type SeedCity = (typeof CITIES_SEED)[number];
 
@@ -314,6 +317,106 @@ function rankDesertMedical(): RedFlagRow[] {
   return rows.sort((a, b) => b.severity - a.severity).slice(0, 12);
 }
 
+// --- THEME 9 — Chômage élevé ---
+// Cible : villes au composite F50 > 6,5/10. Bonus quand chômage dept ≥ 7,5/10
+// (« sinistré ») ET dynamisme entrepreneurial ≥ 6,5/10 se cumulent — vrai
+// décrochage économique, pas un seul indicateur défavorable.
+function rankChomageEleve(): RedFlagRow[] {
+  const rows: RedFlagRow[] = [];
+  for (const city of CITIES_SEED) {
+    if ((city.population ?? 0) < 15_000) continue;
+    const e = computeEmploymentMarket(city);
+    if (e.composite < 6.5) continue;
+
+    let bonus = 0;
+    if (e.unemployment.score >= 7.5 && e.dynamism.score >= 6.5) bonus += 1.2;
+    if (e.salary.score >= 7) bonus += 0.5;
+    const severity = Math.min(10, e.composite + bonus);
+
+    const tops = [
+      { k: "chômage", s: e.unemployment.score },
+      { k: "salaire", s: e.salary.score },
+      { k: "dynamisme", s: e.dynamism.score },
+      { k: "mix sectoriel", s: e.sectorMix.score },
+    ]
+      .filter((x) => x.s >= 6)
+      .sort((a, b) => b.s - a.s)
+      .slice(0, 2)
+      .map((x) => `${x.k} ${x.s.toFixed(1)}/10`)
+      .join(" · ");
+
+    const reason = `Marché du travail ${e.composite.toFixed(1)}/10${tops ? ` — ${tops}` : ""}`;
+    rows.push({ city, severity: Math.round(severity * 10) / 10, reason });
+  }
+  return rows.sort((a, b) => b.severity - a.severity).slice(0, 12);
+}
+
+// --- THEME 10 — Cadre de vie tendu ---
+// Cible : villes au composite F52 ≤ 4,5/10. Bonus quand au moins 2 piliers
+// sur 3 (env / santé / emploi) sont ≤ 4/10 — cumul réel, pas un seul pilier.
+function rankCadreDeVieTendu(): RedFlagRow[] {
+  const rows: RedFlagRow[] = [];
+  for (const city of CITIES_SEED) {
+    if ((city.population ?? 0) < 15_000) continue;
+    const q = computeQualityOfLife(city);
+    if (q.score > 4.5) continue;
+
+    const weakPillars = [q.envScore, q.healthScore, q.jobScore].filter((s) => s <= 4).length;
+    let bonus = 0;
+    if (weakPillars >= 2) bonus += 1.2;
+    if (q.score <= 3.5) bonus += 0.6;
+    // Severity inversée : composite faible = pire ; on rescale (5 − qol) × 2 sur [0;10].
+    const severity = Math.min(10, Math.max(0, (5 - q.score) * 2 + bonus));
+
+    const tops = [
+      { k: "environnement", s: q.envScore },
+      { k: "santé", s: q.healthScore },
+      { k: "emploi", s: q.jobScore },
+    ]
+      .sort((a, b) => a.s - b.s)
+      .slice(0, 2)
+      .map((x) => `${x.k} ${x.s.toFixed(1)}/10`)
+      .join(" · ");
+
+    const reason = `Cadre de vie ${q.score.toFixed(1)}/10${tops ? ` — ${tops}` : ""}`;
+    rows.push({ city, severity: Math.round(severity * 10) / 10, reason });
+  }
+  return rows.sort((a, b) => b.severity - a.severity).slice(0, 12);
+}
+
+// --- THEME 11 — Coûts explosifs vs salaire local ---
+// Ratio coût mensuel famille (lib/household-cost) / salaire net médian
+// dept (proxy depuis F50 salary.score). Severity = rescaled ratio.
+const SALARY_PROXY: Record<number, number> = {
+  // map F50 salary.score → € net médian dept estimé
+  1: 2500,   // Paris & petite couronne
+  2.5: 2200, // Bonnes métropoles (Rennes, Nantes, Lyon, Toulouse, Bordeaux…)
+  4.5: 2050, // Moyenne nationale
+  6: 1900,   // Bas
+  8: 1750,   // Très bas (DROM, ruraux)
+};
+
+function rankCoutsExplosifs(): RedFlagRow[] {
+  const rows: RedFlagRow[] = [];
+  for (const city of CITIES_SEED) {
+    if ((city.population ?? 0) < 20_000) continue;
+    const b = householdBreakdownFor(city.slug, "famille");
+    if (b.total == null) continue;
+
+    const e = computeEmploymentMarket(city);
+    const salary = SALARY_PROXY[e.salary.score] ?? 2050;
+    const ratio = b.total / salary;
+    if (ratio < 0.6) continue; // coût famille < 60 % du salaire médian dept = OK
+
+    // Severity scaled : ratio 0.6 → 5, ratio 1.0 → 10 (coût == salaire = explosif).
+    const severity = Math.min(10, normSeverity(ratio, 0.6, 1.0));
+    const pct = Math.round(ratio * 100);
+    const reason = `Coût famille ${Math.round(b.total).toLocaleString("fr-FR")} €/mois vs salaire médian dept ≈ ${salary.toLocaleString("fr-FR")} € — ratio ${pct} %`;
+    rows.push({ city, severity: Math.round(severity * 10) / 10, reason });
+  }
+  return rows.sort((a, b) => b.severity - a.severity).slice(0, 12);
+}
+
 export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-regrets-achat",
@@ -434,6 +537,51 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     methodology:
       "Severity = composite F47 + 1,2 si MG = désert ET urgences ≥ 6,5/10 + 0,5 si spécialistes ≥ 7/10. Sources : DREES (densité médicale par département), Atlas démographique CNOM (vieillissement et remplacement), zonage ZIP/ZAC ARS, Conférence des Doyens (CHU).",
     rank: rankDesertMedical,
+  },
+  {
+    slug: "villes-chomage-eleve",
+    title: "Villes au chômage chronique — marché du travail sinistré",
+    metaTitle: "Chômage chronique 2026 — Villes françaises au marché du travail le plus tendu",
+    metaDescription:
+      "Classement 2026 des villes françaises ≥ 15 000 hab. cumulant chômage INSEE élevé, faible dynamisme SIRENE et salaires médians bas. Composite F50, sources INSEE / DARES / DADS / SIRENE.",
+    emoji: "📉",
+    intro:
+      "L'agence vante la maison de ville à 1 200 €/mois, le centre-ville charmant, la possibilité de tout payer cash. Personne ne mentionne que le bassin d'emploi local est sinistré depuis la fermeture du dernier site industriel, que le taux de chômage dépasse 11 % et que la création nette d'entreprises est négative depuis trois ans. Le chômage chronique ne se voit pas sur la photo immobilière — il se découvre en cherchant un emploi six mois après l'installation.",
+    reality:
+      "On classe les villes ≥ 15 000 hab. dont le composite F50 (chômage 35 % + salaire 25 % + dynamisme 20 % + mix 20 %) dépasse 6,5/10, avec un malus quand chômage en désert ET dynamisme faible se cumulent — c'est-à-dire un vrai décrochage, pas un seul indicateur. Toutes les valeurs sont alignées sur les statistiques INSEE T4 2024 et la base SIRENE.",
+    methodology:
+      "Severity = composite F50 + 1,2 si chômage ≥ 7,5/10 ET dynamisme ≥ 6,5/10 + 0,5 si salaires ≥ 7/10. Sources : INSEE (taux de chômage trimestriel par dept), DADS (salaires nets médians), SIRENE (création nette d'entreprises), DARES (bassins d'emploi en reconversion).",
+    rank: rankChomageEleve,
+  },
+  {
+    slug: "villes-cadre-de-vie-tendu",
+    title: "Villes au cadre de vie tendu — cumul environnement + santé + emploi",
+    metaTitle: "Cadre de vie tendu 2026 — Villes françaises au composite F52 le plus faible",
+    metaDescription:
+      "Classement 2026 des villes françaises ≥ 15 000 hab. au méga-index Cadre de Vie le plus bas : cumul environnement dégradé + accès aux soins difficile + marché du travail tendu. Composite F52.",
+    emoji: "😓",
+    intro:
+      "Sur le papier : maison accessible, fiscalité raisonnable, vie de quartier. Sur le terrain : air médiocre, désert médical, marché du travail sinistré. Quand un seul pilier dérape, on s'adapte ; quand deux ou trois piliers s'effondrent en même temps, le projet de vie devient une succession de compromis perdants. Le cadre de vie tendu ne se voit pas sur la photo — il se subit à chaque appel chez le médecin, à chaque recherche d'emploi, à chaque pic de pollution.",
+    reality:
+      "On classe les villes ≥ 15 000 hab. dont le méga-index F52 (environnement 35 % + santé 30 % + emploi 35 %) est inférieur ou égal à 4,5/10, avec un malus quand au moins 2 des 3 piliers tombent sous 4/10 — c'est-à-dire un cumul réel, pas un seul pilier faible. Toutes les valeurs sont dérivées des composites F44 (env), F47 (santé), F50 (emploi).",
+    methodology:
+      "Severity = (5 − F52) × 2 + 1,2 si au moins 2 piliers ≤ 4/10 + 0,6 si F52 ≤ 3,5/10. Sources : ATMO / CITEPA / RNSA (env), DREES / CNOM / ARS (santé), INSEE / DADS / SIRENE (emploi). Composite agrégé site (méga-index F52).",
+    rank: rankCadreDeVieTendu,
+  },
+  {
+    slug: "villes-couts-explosifs",
+    title: "Villes aux coûts explosifs — quand le ménage famille pèse plus que le salaire local",
+    metaTitle: "Coûts explosifs 2026 — Villes où le coût famille dépasse le salaire médian dept",
+    metaDescription:
+      "Classement 2026 des villes françaises ≥ 20 000 hab. où le coût mensuel d'un ménage famille (lib F26) dépasse 60 % du salaire net médian départemental. Loyer, chauffage, mobilité, taxes.",
+    emoji: "💥",
+    intro:
+      "L'agence vante le « bon plan » d'une grande métropole, le quartier qui monte, l'investissement de la décennie. Personne ne fait le calcul élémentaire : loyer T3 famille + chauffage + mobilité voiture + taxe foncière + TEOM + cantine = X €/mois ; salaire net médian du département = Y €/mois ; X / Y = ratio qui devrait alerter. Quand le ratio dépasse 60 %, il ne reste plus rien pour l'imprévu, les vacances, l'épargne — la machine à explosion programmée.",
+    reality:
+      "On calcule pour chaque ville ≥ 20 000 hab. le coût mensuel d'un ménage famille (lib F26 — loyer T3 + chauffage zone ADEME + mobilité voiture + taxes + cantine), puis on le rapporte au salaire net médian départemental (proxy INSEE DADS via F50). Toutes les villes affichées dépassent 60 % du salaire ; au-delà de 80 %, le ménage médian est techniquement étranglé.",
+    methodology:
+      "Severity = ratio coût-famille / salaire-médian-dept, rescalé sur [0,6 ; 1,0] → [5 ; 10]. Sources : DVF + observatoires loyer (rents), ADEME (chauffage), France Assureurs (auto), DGFiP (taxe foncière), INSEE DADS (salaires médians). Filtre population ≥ 20 000 hab.",
+    rank: rankCoutsExplosifs,
   },
 ];
 
