@@ -11,10 +11,11 @@ import Link from "next/link";
 import {
   Laptop, Home, TreePine, GraduationCap, Palmtree, ArrowRight, Wallet,
   Sun, Shield, Music, Bike, Building2, Heart, Leaf, CloudSun, KeyRound, Rocket,
-  ChefHat,
+  ChefHat, Waves,
 } from "lucide-react";
 import type { City } from "@/lib/types";
 import { RANKINGS_COUNT } from "@/lib/site-stats";
+import { getRankedCities, type RankingSlug } from "@/lib/rankings";
 
 export const metadata: Metadata = {
   title: "Classements villes françaises 2026 — Télétravail, Famille, Budget, Culture",
@@ -67,6 +68,7 @@ const CATEGORIES = [
   { slug: "jeunes-actifs", label: "Jeunes actifs", emoji: "🚀", icon: Rocket, gradient: "from-fuchsia-400 to-pink-500", color: "#D946EF", desc: "Cadres 25-39 ans, TGV, fibre, culture, premier salaire compatible", scoreKey: "culture" },
   { slug: "gastronomie", label: "Gastronomie", emoji: "🍽️", icon: ChefHat, gradient: "from-amber-500 to-red-500", color: "#DC2626", desc: "Étoilés Michelin, Bib Gourmand, AOC, marchés couverts, terroir", scoreKey: "culture" },
   { slug: "cyclistes", label: "Vélo & cyclistes", emoji: "🚴", icon: Bike, gradient: "from-indigo-400 to-blue-500", color: "#6366F1", desc: "Note FUB, pistes cyclables sécurisées, continuité, intermodalité train+vélo", scoreKey: "transport" },
+  { slug: "bord-de-mer", label: "Bord de mer", emoji: "🌊", icon: Waves, gradient: "from-cyan-400 to-sky-500", color: "#06B6D4", desc: "Villes côtières où vivre à l'année — trait de côte SHOM, ensoleillement, patrimoine maritime", scoreKey: "nature" },
 ] as const;
 
 export default function ClassementsPage() {
@@ -107,12 +109,20 @@ export default function ClassementsPage() {
       {/* Sections */}
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 pb-16 space-y-20">
         {CATEGORIES.map((cat) => {
-          const sorted = [...allCities].sort(
-            (a, b) =>
-              b.scores[cat.scoreKey as keyof typeof b.scores] -
-              a.scores[cat.scoreKey as keyof typeof a.scores]
-          );
-          const top3 = sorted.slice(0, 3);
+          // Custom-compute rankings (climat, logement, bord-de-mer) can't be
+          // previewed by raw axis sort — fall back to the canonical ranker
+          // so the homepage top-3 matches the detail page.
+          const usesCustomScorer =
+            cat.slug === "climat" || cat.slug === "logement" || cat.slug === "bord-de-mer";
+          const top3 = usesCustomScorer
+            ? getRankedCities(cat.slug as RankingSlug).slice(0, 3).map((r) => r.city)
+            : [...allCities]
+                .sort(
+                  (a, b) =>
+                    b.scores[cat.scoreKey as keyof typeof b.scores] -
+                    a.scores[cat.scoreKey as keyof typeof a.scores]
+                )
+                .slice(0, 3);
           const winner = top3[0];
 
           return (
