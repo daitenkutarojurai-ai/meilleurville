@@ -12,6 +12,7 @@
 import { CITIES_SEED } from "@/data/cities-seed";
 import { HOUSING } from "@/data/housing";
 import { computeOwnerScores } from "@/lib/owner-scores";
+import { computeNaturalRisks } from "@/lib/natural-risks";
 
 type SeedCity = (typeof CITIES_SEED)[number];
 
@@ -176,6 +177,41 @@ function rankPollutionAirChronique(): RedFlagRow[] {
   return rows.sort((a, b) => b.severity - a.severity).slice(0, 12);
 }
 
+// --- THEME 5 — Risques naturels cumulés ---
+// Cible : villes dont le score composite F40 (inondation 35 % + argile 25 %
+// + feu 20 % + sismicité 20 %) dépasse 5,5/10. On amplifie la severity quand
+// la ville cumule deux dimensions ≥ 6 (vrai cumul de risques, pas un seul
+// aléa). Les fortunes peu exposées sont écartées (filter <5,5).
+function rankRisquesNaturels(): RedFlagRow[] {
+  const rows: RedFlagRow[] = [];
+  for (const city of CITIES_SEED) {
+    const risks = computeNaturalRisks(city);
+    if (risks.composite < 5.5) continue;
+
+    const dims = [risks.flood, risks.seismic, risks.clay, risks.wildfire];
+    const cumulHigh = dims.filter((d) => d.score >= 6).length;
+    const cumulBonus = cumulHigh >= 2 ? 1.2 : 0;
+
+    const severity = Math.min(10, risks.composite + cumulBonus);
+
+    const tops = [
+      { k: "inondation", s: risks.flood.score },
+      { k: "argile", s: risks.clay.score },
+      { k: "feu de forêt", s: risks.wildfire.score },
+      { k: "sismique", s: risks.seismic.score },
+    ]
+      .filter((x) => x.s >= 5)
+      .sort((a, b) => b.s - a.s)
+      .slice(0, 2)
+      .map((x) => `${x.k} ${x.s.toFixed(1)}/10`)
+      .join(" · ");
+
+    const reason = `Composite ${risks.composite.toFixed(1)}/10${tops ? ` — ${tops}` : ""}`;
+    rows.push({ city, severity: Math.round(severity * 10) / 10, reason });
+  }
+  return rows.sort((a, b) => b.severity - a.severity).slice(0, 12);
+}
+
 export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-regrets-achat",
@@ -236,6 +272,21 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     methodology:
       "Severity = 1,9 × écart au score qualité air 5 + bonus zonal (cuvette alpine +2,0 / IDF dense +1,4 / couloir rhodanien +1,2 / port industriel +1,0). Source PM2.5 : moyennes annuelles départementales ATMO France 2023, croisées au seuil OMS révision 2021.",
     rank: rankPollutionAirChronique,
+  },
+  {
+    slug: "villes-risques-naturels",
+    title: "Villes les plus exposées aux risques naturels",
+    metaTitle: "Risques naturels 2026 — Villes françaises les plus exposées (inondation, argile, feu, séisme)",
+    metaDescription:
+      "Classement 2026 des villes françaises au composite F40 le plus élevé sur les 4 aléas : inondation, retrait-gonflement argile (BRGM), feu de forêt (ONF/ECASC), sismicité (zonage 2011). Données ouvertes Géorisques.",
+    emoji: "⚠️",
+    intro:
+      "L'annonce immobilière vante la vue sur le fleuve, la proximité du massif, le terrain en pente douce. Personne ne dit que la cave a déjà été inondée trois fois en quinze ans, que les fissures sur les murs sont l'argile qui gonfle l'été et se rétracte l'hiver, ou que le PPRif classe le quartier en aléa fort feu de forêt. Les risques naturels ne se voient pas sur la photo — ils se découvrent dans le rapport ERP signé en bas de l'acte.",
+    reality:
+      "On classe ici les villes dont le composite F40 (inondation 35 % + argile 25 % + feu 20 % + sismicité 20 %) dépasse 5,5/10, avec un malus quand au moins deux des quatre aléas dépassent 6/10 — c'est-à-dire un vrai cumul, pas un seul risque isolé. Toutes les valeurs sont alignées sur les zonages réglementaires : sismicité décret 2010-1255, aléa argile BRGM, massifs à risque feu ONF/ECASC, proxy inondation fleuve majeur + altitude < 50 m + littoral.",
+    methodology:
+      "Severity = composite F40 (0-10) + 1,2 si deux dimensions ou plus ≥ 6/10. Sources : BRGM (argile), BCSF/MTE décret 2010-1255 (sismicité), ONF + ECASC (feu de forêt), Géorisques (synthèse par commune INSEE). Vérifier le rapport ERP officiel avant tout achat.",
+    rank: rankRisquesNaturels,
   },
 ];
 

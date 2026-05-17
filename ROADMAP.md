@@ -4,6 +4,10 @@ Roadmap des features SSG-first, sans backend lourd, sans chiffres inventés.
 
 **Statut** : vague 1 + vague 2 livrées (F1, F2, F3, F4, F9, F10, F11, F12, F13, F15, F16, F17, F18, F19, F20, F21, F22, F23, F24). Vague 3 démarrée avec F25. 5 features dépendant d'accès externes ont été retirées en attente d'accès/budget : ex-F5 RealityCheck, ex-F6 Journal de déménagement, ex-F7 Alertes personnalisées, ex-F8 Ville du mois, ex-F14 Carte risques interactive.
 
+## Shipped 2026-05-17
+
+- **F4 ext. — Red Flag #5 « Risques naturels cumulés »** ✅ — 5e thème data-driven sous `/red-flags/villes-risques-naturels`. Réutilise `computeNaturalRisks` (F40) pour ranker les 12 villes au composite le plus élevé, avec malus +1,2 quand au moins 2 des 4 aléas (inondation/argile/feu/sismique) dépassent 6/10. Affiche les deux dimensions dominantes par ligne (ex. « inondation 7.2/10 · argile 6.5/10 »). Sources : BRGM, BCSF/MTE décret 2010-1255, ONF/ECASC, Géorisques. Sitemap `red-flags` désormais piloté par `RED_FLAG_THEME_SLUGS` (source unique). Hub `/red-flags` met à jour le compte (5 angles) + grille xl à 5 colonnes.
+
 ## Shipped 2026-05-16
 
 - **F40 — Risques naturels par ville** ✅ — 540 pages SSG `/villes/[slug]/risques` + `NaturalRisksCard` dans la grille « Données & analyse ». 4 dimensions évaluées de manière déterministe : (1) inondation = proxy fleuve (tags) × altitude basse × littoral, (2) sismicité = zonage réglementaire 2011 (zones 1 à 5 par dept), (3) retrait-gonflement argile = aléa BRGM (faible/moyen/fort par dept), (4) feux de forêt = classification ONF/ECASC (PACA, Corse, Languedoc, Aquitaine landes). Score composite 0-10 pondéré (inondation 35 %, argile 25 %, feu 20 %, sismicité 20 %) + signature narrative + lien sortant direct vers Géorisques (rapport ERP officiel par INSEE code). `lib/natural-risks.ts` + `components/NaturalRisksCard.tsx` + route SSG + sitemap chunk `city-sub` étendu. FAQ JSON-LD à 4 Q/R. Zéro dépendance externe.

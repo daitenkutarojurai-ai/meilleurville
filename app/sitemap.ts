@@ -7,6 +7,7 @@ import { SEO_TRIPLETS } from "@/lib/comparer-triplets";
 import { QUITTER_PAIRS, pairToSlug } from "@/lib/quitter-pairs";
 import { METRO_REGIONS, regionToSlug } from "@/lib/regions";
 import { TAG_SLUGS } from "@/lib/guide-tags";
+import { RED_FLAG_THEME_SLUGS } from "@/lib/red-flag-themes";
 
 // Locale-aware sitemap. Each Vercel project sets NEXT_PUBLIC_DEFAULT_LOCALE and
 // (optionally) NEXT_PUBLIC_BASE_URL — the FR project emits FR URLs at
@@ -342,7 +343,7 @@ function redFlagsSection(): MetadataRoute.Sitemap {
     priority: 0.55,
   }));
   // F4 — Thematic red-flag pages
-  const themes = ["villes-regrets-achat", "villes-sans-voiture-difficile", "villes-belles-invivables-ete", "villes-pollution-air-chronique"].map((slug) => ({
+  const themes = RED_FLAG_THEME_SLUGS.map((slug) => ({
     url: `${BASE_URL}/red-flags/${slug}`,
     lastModified: CITY_DATA_UPDATED,
     changeFrequency: "weekly" as const,
