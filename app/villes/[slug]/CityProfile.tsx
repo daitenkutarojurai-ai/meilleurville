@@ -25,6 +25,7 @@ import { AirQualityCard } from "@/components/AirQualityCard";
 import { NoiseCard } from "@/components/NoiseCard";
 import { HealthcareCard } from "@/components/HealthcareCard";
 import { EmploymentCard } from "@/components/EmploymentCard";
+import { QolHeroBadge } from "@/components/QolHeroBadge";
 import { getNeighborhoods } from "@/data/neighborhoods";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { getHousing } from "@/data/housing";
@@ -199,6 +200,9 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
               </div>
             )}
           </div>
+
+          {/* F56 — Cadre de Vie badge */}
+          <QolHeroBadge city={city} />
         </div>
       </section>
 

@@ -159,6 +159,16 @@ export function citiesInMacroRegion(macro: MacroRegionDef): CitySeed[] {
   return CITIES_SEED.filter((c) => c.department && deptSet.has(c.department));
 }
 
+/**
+ * F56 — find the macro-region a city belongs to (first match by department).
+ * Returns undefined for cities whose department is in none of the macros
+ * (e.g. some inland departments not listed in MACRO_REGIONS).
+ */
+export function findMacroRegionForCity(city: Pick<CitySeed, "department">): MacroRegionDef | undefined {
+  if (!city.department) return undefined;
+  return MACRO_REGIONS.find((m) => m.departments.includes(city.department));
+}
+
 export function rankInMacroRegion(macro: MacroRegionDef, limit = 30): CitySeed[] {
   return citiesInMacroRegion(macro)
     .sort((a, b) => b.scores.global - a.scores.global)
