@@ -74,6 +74,59 @@ Roadmap des features SSG-first, sans backend lourd, sans chiffres inventés.
 
 ---
 
+## Vague 5 — pistes naturelles post-méga-hub (REQUIS, non optionnel)
+
+Après F40-F53 (clusters env / santé / emploi + méga-hub Cadre de vie), ces 4 pistes
+sont **prioritaires P0** — l'extension du Red Flag SEO et l'ajout de contenu ne sont
+**plus considérés comme optionnels**. Chaque livrable doit suivre le playbook
+4-dimensions-composite-hub-redflag déjà rodé.
+
+| # | Feature | Prio | Cplx | SEO | Statut |
+|---|---------|------|------|-----|--------|
+| F54 | Macro-régions santé + emploi (×12 pages SSG) — mirror F46/F53 | **P0** | S | mid | À shipper |
+| F55 | Quiz « personnalise ton Cadre de Vie » — reweight env/santé/emploi + recompute top 10 perso | **P0** | M | mid | À shipper |
+| F56 | Badge Cadre de Vie sur fiche ville `/villes/[slug]` (hero du profil) — surface le méga-index sur la page la plus trafiquée | **P0** | S | high | À shipper |
+| F57 | Nouveau cluster — démographie & vieillissement OU mobilité douce (vélo) OU services publics OU sécurité-deep-dive. Choisir 1 selon analytics. | **P0** | L | high | À shipper |
+
+### F54 — Macro-régions santé + emploi
+- 6 pages `/sante/[macroregion]` + 6 pages `/emploi/[macroregion]` (×12 SSG)
+- Pattern identique à F46 (env) et F53 (Cadre de vie)
+- Réutilise `lib/macro-regions.ts` + caches existants
+- Pondération SEO : « meilleur accès médecins côte atlantique », « emploi Provence chômage », etc.
+
+### F55 — Quiz « personnalise ton Cadre de Vie »
+- Quiz court (3-5 questions) : importance env / santé / emploi sur 5
+- Recompute QoL pondéré selon poids utilisateur
+- Top 10 villes personnalisé + lien partageable
+- Réutilise `lib/quality-of-life-index.ts` avec pondération paramétrable
+- Différent du quiz F2 existant (qualitatif) : ici quantitatif par pilier
+
+### F56 — Badge Cadre de Vie sur fiche ville
+- Ajout `QolHeroBadge` dans `app/villes/[slug]/CityProfile.tsx`
+- Affichage : score 0-10 + level + breakdown 3 piliers
+- Lien vers `/cadre-de-vie` + vers les 3 hubs individuels
+- Surface l'index sur la page la plus trafiquée du site (×540)
+
+### F57 — Nouveau cluster (1 parmi 4)
+**Critère de choix** : SEO + différenciation + alignement avec les clusters existants.
+Options classées par leverage estimé :
+1. **Mobilité douce / vélo par ville** — pistes cyclables, scoring cyclabilité, Vélib/équivalents
+2. **Démographie & dynamisme** — % seniors, % jeunes actifs, trajectoire pop
+3. **Sécurité-deep-dive** — décomposition SSMSI (atteintes biens / personnes / nuit)
+4. **Services publics** — accès Poste, mairie, école, médiathèque
+
+Décision à prendre après ship F54-F56 — choisir selon trafic et demande utilisateur.
+
+### Red Flag SEO — extensions requises (non optionnelles)
+Les 8 Red Flags actuels couvrent env, santé, achat, mobilité. À étendre :
+- `villes-chomage-eleve` (dérivé F50) — combine chômage dept + faible dynamisme
+- `villes-cadre-de-vie-tendu` (dérivé F52) — synthèse tri-pilier
+- `villes-couts-explosifs` (extension F26) — coût ménage / salaire médian local
+
+Cible : passer de 8 → 11 thèmes Red Flag d'ici fin Q2 2026. Chaque thème = 1 page SSG SEO long-tail.
+
+---
+
 ## Vue d'ensemble — actif
 
 Les 10 features livrées sont décrites dans la section « Shipped ». Tableau ci-dessous : 3 features actives (vague 2) + retirées du périmètre.
