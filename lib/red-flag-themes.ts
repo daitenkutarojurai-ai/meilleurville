@@ -13,6 +13,8 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { HOUSING } from "@/data/housing";
 import { computeOwnerScores } from "@/lib/owner-scores";
 import { computeNaturalRisks } from "@/lib/natural-risks";
+import { computeWaterStress } from "@/lib/water-stress";
+import { computeNoiseExposure } from "@/lib/noise-exposure";
 
 type SeedCity = (typeof CITIES_SEED)[number];
 
@@ -212,6 +214,72 @@ function rankRisquesNaturels(): RedFlagRow[] {
   return rows.sort((a, b) => b.severity - a.severity).slice(0, 12);
 }
 
+// --- THEME 6 — Bruit cauchemar ---
+// Cible : villes au composite F43 > 5,5/10. Bonus si au moins 2 sources sur 4
+// dépassent 6/10 (cumul rare et invivable). Filtre population > 30k pour ne
+// pas remonter des cas marginaux.
+function rankBruitCauchemar(): RedFlagRow[] {
+  const rows: RedFlagRow[] = [];
+  for (const city of CITIES_SEED) {
+    if ((city.population ?? 0) < 30_000) continue;
+    const n = computeNoiseExposure(city);
+    if (n.composite < 5.5) continue;
+
+    const dims = [n.road, n.aircraft, n.rail, n.urbanNight];
+    const cumulHigh = dims.filter((d) => d.score >= 6).length;
+    const cumulBonus = cumulHigh >= 2 ? 1.2 : 0;
+    const severity = Math.min(10, n.composite + cumulBonus);
+
+    const tops = [
+      { k: "routier", s: n.road.score },
+      { k: "aérien", s: n.aircraft.score },
+      { k: "ferroviaire", s: n.rail.score },
+      { k: "nocturne", s: n.urbanNight.score },
+    ]
+      .filter((x) => x.s >= 5)
+      .sort((a, b) => b.s - a.s)
+      .slice(0, 2)
+      .map((x) => `${x.k} ${x.s.toFixed(1)}/10`)
+      .join(" · ");
+
+    const reason = `Composite bruit ${n.composite.toFixed(1)}/10${tops ? ` — ${tops}` : ""}`;
+    rows.push({ city, severity: Math.round(severity * 10) / 10, reason });
+  }
+  return rows.sort((a, b) => b.severity - a.severity).slice(0, 12);
+}
+
+// --- THEME 7 — Sécheresse & restrictions d'eau ---
+// Cible : villes au composite F41 > 6/10. Bonus si restrictions = fort
+// (arrêtés crise quasi-annuels) OU si nappes très basses ET supply tendu.
+function rankSecheresseEau(): RedFlagRow[] {
+  const rows: RedFlagRow[] = [];
+  for (const city of CITIES_SEED) {
+    const w = computeWaterStress(city);
+    if (w.composite < 6) continue;
+
+    let bonus = 0;
+    if (w.restrictions.score >= 8.5) bonus += 1.0;
+    if (w.aquifer.score >= 7.5 && w.supply.score >= 7) bonus += 0.8;
+    const severity = Math.min(10, w.composite + bonus);
+
+    const tops = [
+      { k: "restrictions", s: w.restrictions.score },
+      { k: "nappes", s: w.aquifer.score },
+      { k: "climat sec", s: w.climate.score },
+      { k: "eau potable", s: w.supply.score },
+    ]
+      .filter((x) => x.s >= 6)
+      .sort((a, b) => b.s - a.s)
+      .slice(0, 2)
+      .map((x) => `${x.k} ${x.s.toFixed(1)}/10`)
+      .join(" · ");
+
+    const reason = `Stress hydrique ${w.composite.toFixed(1)}/10${tops ? ` — ${tops}` : ""}`;
+    rows.push({ city, severity: Math.round(severity * 10) / 10, reason });
+  }
+  return rows.sort((a, b) => b.severity - a.severity).slice(0, 12);
+}
+
 export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-regrets-achat",
@@ -287,6 +355,36 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     methodology:
       "Severity = composite F40 (0-10) + 1,2 si deux dimensions ou plus ≥ 6/10. Sources : BRGM (argile), BCSF/MTE décret 2010-1255 (sismicité), ONF + ECASC (feu de forêt), Géorisques (synthèse par commune INSEE). Vérifier le rapport ERP officiel avant tout achat.",
     rank: rankRisquesNaturels,
+  },
+  {
+    slug: "villes-bruit-cauchemar",
+    title: "Villes où le bruit est un cauchemar quotidien",
+    metaTitle: "Bruit cauchemar 2026 — Villes françaises les plus exposées (routier, aérien, nocturne)",
+    metaDescription:
+      "Classement 2026 des villes françaises où le bruit cumule trafic routier saturé, survols aéroportuaires (PEB), LGV et vie nocturne. Données CBS / DGAC / Bruitparif. Composite F43.",
+    emoji: "🔊",
+    intro:
+      "L'agence vante le quartier calme, la rue résidentielle, l'orientation cour. Sur le terrain : périphérique à 200 m, A86 en fond sonore, A380 toutes les 90 secondes au-dessus de Goussainville, ou centre-ville étudiant où les terrasses ferment à 2 h. Le bruit ne s'écoute pas sur une photo immobilière — il s'endure 24 h sur 24.",
+    reality:
+      "On classe les villes ≥ 30 000 hab. dont le composite bruit F43 (routier 35 % + aérien 25 % + nocturne 25 % + ferroviaire 15 %) dépasse 5,5/10, avec malus quand au moins deux des quatre sources dépassent 6/10 — c'est-à-dire un vrai cumul d'expositions. L'OMS recommande Lden < 53 dB(A) jour et Lnight < 45 dB(A) nuit ; toutes les villes listées dépassent largement ce seuil sur une part importante du territoire communal.",
+    methodology:
+      "Severity = composite F43 + 1,2 si deux sources ou plus ≥ 6/10. Sources : Cartes de Bruit Stratégiques (directive 2002/49/CE), Plans d'Exposition au Bruit DGAC, Bruitparif (IDF). Filtre population ≥ 30 000 hab. pour la pertinence du score nocturne.",
+    rank: rankBruitCauchemar,
+  },
+  {
+    slug: "villes-sans-eau-ete",
+    title: "Villes où l'eau manquera l'été — sécheresse & restrictions",
+    metaTitle: "Sécheresse 2026 — Villes françaises au stress hydrique le plus élevé (Propluvia, BRGM)",
+    metaDescription:
+      "Classement 2026 des villes françaises où la sécheresse est devenue récurrente : arrêtés Propluvia crise quasi-annuels, nappes BRGM basses, alimentation eau potable sous tension. Composite F41.",
+    emoji: "💧",
+    intro:
+      "L'annonce vante le climat ensoleillé, la piscine, le jardin méditerranéen. Personne ne mentionne que l'arrosage est interdit cinq mois par an, que la piscine se vide à la mi-juillet, que la nappe locale est basse depuis trois ans et que la commune envisage des tours d'eau l'été prochain. La sécheresse ne se voit pas sur la photo en mai — elle se subit en août.",
+    reality:
+      "On classe les villes dont le composite F41 (restrictions 35 % + nappes 25 % + climat 20 % + alimentation 20 %) dépasse 6/10, avec un bonus de gravité quand les restrictions atteignent le niveau « crise quasi-annuel » (Propluvia) OU quand nappes très basses et réseau eau potable sous tension se cumulent. Toutes les valeurs sont alignées sur les bulletins officiels BRGM 2022-2025 et l'historique Propluvia 2022-2024.",
+    methodology:
+      "Severity = composite F41 + 1,0 si restrictions ≥ 8,5/10 + 0,8 si nappes très basses ET alimentation tendue. Sources : Propluvia (arrêtés sécheresse), BRGM (état des nappes), Météo-France (climat estival).",
+    rank: rankSecheresseEau,
   },
 ];
 
