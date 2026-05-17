@@ -18,10 +18,10 @@ interface NavItem {
 
 // Primary nav: always visible at lg+ — kept tight to avoid pill-row overflow.
 const NAV_PRIMARY: NavItem[] = [
+  { label: "Cadre de vie", href: "/cadre-de-vie", emoji: "🌿", matchPrefix: "/cadre-de-vie" },
   { label: "Classements", href: "/classements", emoji: "📊", matchPrefix: "/classements" },
   { label: "Comparer",    href: "/comparer",    emoji: "⚖️", matchPrefix: "/comparer" },
   { label: "Explorer",    href: "/villes",      emoji: "🌍", matchPrefix: "/villes" },
-  { label: "Carte",       href: "/carte",       emoji: "🗺️", matchPrefix: "/carte" },
   { label: "Guides",      href: "/guides",      emoji: "📖", matchPrefix: "/guides" },
 ];
 
@@ -29,13 +29,14 @@ const NAV_PRIMARY: NavItem[] = [
 // Kept to 2 items max so the xl+ row stays comfortable next to the search
 // pill + favoris + Quiz CTA on the right.
 const NAV_SECONDARY: NavItem[] = [
-  { label: "Simulateur",  href: "/#simulateur", emoji: "💸" },
+  { label: "Carte",       href: "/carte",       emoji: "🗺️", matchPrefix: "/carte" },
   { label: "Red Flags",   href: "/red-flags",   emoji: "🚩", matchPrefix: "/red-flags" },
 ];
 
 // Mobile-only nav items — visible in the mobile menu but never in the desktop
 // pill rows. Contact lives here to avoid overlap with the search pill at xl+.
 const NAV_MOBILE_ONLY: NavItem[] = [
+  { label: "Simulateur", href: "/#simulateur", emoji: "💸" },
   { label: "Contact", href: "/contact", emoji: "✉️", matchPrefix: "/contact" },
 ];
 
