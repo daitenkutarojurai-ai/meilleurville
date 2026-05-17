@@ -118,6 +118,7 @@ function staticSection(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/cout-menage`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.75 },
     { url: `${BASE_URL}/louer-ou-acheter`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.75 },
     { url: `${BASE_URL}/depuis-paris`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.75 },
+    { url: `${BASE_URL}/environnement`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.85 },
     { url: `${BASE_URL}/villes`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.8 },
     { url: `${BASE_URL}/classements`, lastModified: RANKING_UPDATED, changeFrequency: "weekly", priority: 0.9 },
     { url: `${BASE_URL}/comparer`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
