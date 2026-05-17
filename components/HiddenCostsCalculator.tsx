@@ -38,10 +38,13 @@ function diffBadge(value: number, ref: number): { label: string; tone: string } 
 const DEFAULT_SALARY = 2400;
 
 export function HiddenCostsCalculator({ input }: Props) {
-  const canChooseTransit = input.citySlug === "paris" || !!useMemo(
-    () => computeBreakdown(input).transitPass,
+  // useMemo must be called unconditionally to satisfy rules-of-hooks;
+  // the short-circuit form above triggered a conditional-hook lint error.
+  const hasTransitPass = useMemo(
+    () => !!computeBreakdown(input).transitPass,
     [input],
   );
+  const canChooseTransit = input.citySlug === "paris" || hasTransitPass;
   const initialMode: "car" | "transit" = canChooseTransit ? "transit" : "car";
   const [mode, setMode] = useState<"car" | "transit">(initialMode);
   const [salary, setSalary] = useState<number>(DEFAULT_SALARY);

@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { AmbientBackground } from "@/components/AmbientBackground";
@@ -301,12 +302,12 @@ télétravail × 0.08
               On corrige rapidement. Écrivez-nous via le formulaire de contact en précisant
               la ville, l&apos;axe concerné et la source qui contredit notre note.
             </p>
-            <a
+            <Link
               href="/contact"
               className="inline-flex items-center gap-1.5 rounded-xl bg-[var(--accent)] text-white px-5 py-2.5 text-sm font-semibold hover:bg-[var(--accent-hover)] transition-colors"
             >
               Signaler une erreur →
-            </a>
+            </Link>
           </div>
         </section>
       </div>

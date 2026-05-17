@@ -392,12 +392,12 @@ export default async function RankingPage({ params }: Props) {
             <p className="text-sm text-[var(--text-secondary)] mb-3">
               Vous souhaitez une analyse personnalisée ?
             </p>
-            <a
+            <Link
               href="/quiz"
               className={`inline-flex items-center gap-1.5 text-sm font-semibold ${meta.color} hover:underline`}
             >
               Lancer le quiz IA →
-            </a>
+            </Link>
           </Card>
         </div>
       </div>
