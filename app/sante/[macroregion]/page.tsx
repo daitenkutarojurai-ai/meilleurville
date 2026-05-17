@@ -12,10 +12,10 @@ import {
   citiesInMacroRegion,
 } from "@/lib/macro-regions";
 import {
-  computeQualityOfLife,
-  QOL_LEVEL_LABEL,
-  QOL_LEVEL_COLOR,
-} from "@/lib/quality-of-life-index";
+  computeHealthcareAccess,
+  HEALTH_LEVEL_LABEL,
+  HEALTH_LEVEL_COLOR,
+} from "@/lib/healthcare-access";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 
 export const revalidate = false;
@@ -32,19 +32,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const macro = getMacroRegion(macroregion);
   if (!macro) return {};
   return {
-    title: `Meilleur cadre de vie — ${macro.label} 2026`,
-    description: `Méga-index « Cadre de Vie » (environnement + santé + emploi) restreint aux villes de la macro-région ${macro.label}. Top villes pour vivre.`,
-    alternates: { canonical: `/cadre-de-vie/${macro.slug}` },
+    title: `Accès aux soins — ${macro.label} 2026`,
+    description: `Classement composite accès aux soins (médecins, spécialistes, urgences, pharmacies) restreint aux villes de la macro-région ${macro.label}. Meilleur accès vs. déserts médicaux.`,
+    alternates: { canonical: `/sante/${macro.slug}` },
     openGraph: {
-      title: `Cadre de vie — ${macro.label}`,
-      description: `Méga-index F52 par ville de la macro-région ${macro.label}.`,
+      title: `Accès aux soins — ${macro.label}`,
+      description: `Index composite F47 par ville de la macro-région ${macro.label}.`,
     },
   };
 }
 
 const MIN_POP = 10_000;
 
-export default async function MacroRegionQolPage({ params }: Props) {
+export default async function MacroRegionHealthcarePage({ params }: Props) {
   const { macroregion } = await params;
   const macro = getMacroRegion(macroregion);
   if (!macro) notFound();
@@ -56,44 +56,44 @@ export default async function MacroRegionQolPage({ params }: Props) {
       name: c.name,
       region: c.region,
       department: c.department,
-      qol: computeQualityOfLife(c),
+      access: computeHealthcareAccess(c),
     }));
 
-  const sortedBest = [...cities].sort((a, b) => b.qol.score - a.qol.score);
-  const topBest = sortedBest.slice(0, 15);
-  const worst = [...cities].sort((a, b) => a.qol.score - b.qol.score).slice(0, 10);
+  // Score faible = accès facile (composite 0-10, 10 = désert).
+  const best = [...cities].sort((a, b) => a.access.composite - b.access.composite).slice(0, 15);
+  const worst = [...cities].sort((a, b) => b.access.composite - a.access.composite).slice(0, 10);
 
-  // Profil moyen
   const n = cities.length || 1;
-  const avgQol = Math.round((cities.reduce((s, c) => s + c.qol.score, 0) / n) * 10) / 10;
-  const avgEnv = Math.round((cities.reduce((s, c) => s + c.qol.envScore, 0) / n) * 10) / 10;
-  const avgHealth = Math.round((cities.reduce((s, c) => s + c.qol.healthScore, 0) / n) * 10) / 10;
-  const avgJob = Math.round((cities.reduce((s, c) => s + c.qol.jobScore, 0) / n) * 10) / 10;
+  const avgComposite = Math.round((cities.reduce((s, c) => s + c.access.composite, 0) / n) * 10) / 10;
+  const avgMg = Math.round((cities.reduce((s, c) => s + c.access.generalistes.score, 0) / n) * 10) / 10;
+  const avgSpe = Math.round((cities.reduce((s, c) => s + c.access.specialistes.score, 0) / n) * 10) / 10;
+  const avgUrg = Math.round((cities.reduce((s, c) => s + c.access.urgences.score, 0) / n) * 10) / 10;
+  const avgPharma = Math.round((cities.reduce((s, c) => s + c.access.pharmacies.score, 0) / n) * 10) / 10;
 
   const breadcrumb = breadcrumbJsonLd([
     { name: "Accueil", path: "/" },
-    { name: "Cadre de vie", path: "/cadre-de-vie" },
-    { name: macro.label, path: `/cadre-de-vie/${macro.slug}` },
+    { name: "Accès aux soins", path: "/sante" },
+    { name: macro.label, path: `/sante/${macro.slug}` },
   ]);
 
   const faq = faqJsonLd([
     {
-      q: `Quelles sont les villes au meilleur cadre de vie en ${macro.label} ?`,
+      q: `Quelles villes ont le meilleur accès aux soins en ${macro.label} ?`,
       a:
-        topBest.length > 0
-          ? `Top 3 selon l'Index Cadre de Vie composite : ${topBest
+        best.length > 0
+          ? `Top 3 selon le composite F47 (10 = désert) : ${best
               .slice(0, 3)
-              .map((c) => `${c.name} (${c.qol.score}/10)`)
-              .join(", ")}.`
+              .map((c) => `${c.name} (${c.access.composite}/10)`)
+              .join(", ")}. Score faible = accès facile.`
           : `Aucune ville de plus de 10 000 habitants n'est référencée pour cette macro-région.`,
     },
     {
-      q: `Quel est le score moyen de cadre de vie sur ${macro.label} ?`,
-      a: `Score moyen ${avgQol}/10. Détail : environnement ${avgEnv}/10, santé ${avgHealth}/10, emploi ${avgJob}/10 (10 = bon sur les 3 dimensions).`,
+      q: `Quel est le niveau moyen d'accès aux soins en ${macro.label} ?`,
+      a: `Composite moyen ${avgComposite}/10 (10 = désert avéré). Détail moyenne par dimension : médecins généralistes ${avgMg}/10, spécialistes ${avgSpe}/10, urgences ${avgUrg}/10, pharmacies ${avgPharma}/10.`,
     },
     {
-      q: `Comment est calculé l'Index Cadre de Vie ?`,
-      a: `Composite agrégeant 3 sous-indices (F44 environnement, F47 santé, F50 emploi) pondérés env 35 % + santé 30 % + emploi 35 %. Score 0-10, 10 = cadre de vie exceptionnel.`,
+      q: `Comment ce classement est-il calculé ?`,
+      a: `Composite agrégeant 4 dimensions : médecins généralistes (35 %, densité DREES + override CHU/métropole), spécialistes (25 %), urgences/SAU (25 %, présence + malus montagne/île), pharmacies (15 %). Sources : DREES, CNOM, ARS.`,
     },
   ]);
 
@@ -106,54 +106,53 @@ export default async function MacroRegionQolPage({ params }: Props) {
       <section className="mx-auto max-w-5xl px-4 sm:px-6 py-10">
         <nav className="text-xs text-[var(--text-tertiary)] mb-3">
           <Link href="/" className="hover:underline">Accueil</Link> ·{" "}
-          <Link href="/cadre-de-vie" className="hover:underline">Cadre de vie</Link>
+          <Link href="/sante" className="hover:underline">Accès aux soins</Link>
         </nav>
 
         <h1 className="text-3xl md:text-4xl font-bold tracking-tight text-[var(--text-primary)]">
-          {macro.emoji} Cadre de vie — {macro.label}
+          {macro.emoji} Accès aux soins — {macro.label}
         </h1>
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
-          Méga-index Cadre de Vie restreint aux {cities.length} villes de la macro-région
-          {" "}{macro.label} référencées de plus de 10 000 habitants. Agrégat environnement +
-          santé + emploi en un score unique 0-10.
+          Index composite F47 restreint aux {cities.length} villes de la macro-région
+          {" "}{macro.label} référencées de plus de 10 000 habitants. Quatre dimensions :
+          médecins généralistes, spécialistes, urgences/SAU, pharmacies.
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
           <Badge>{cities.length} villes analysées</Badge>
-          <Badge>Score moyen : {avgQol}/10</Badge>
+          <Badge>Composite moyen : {avgComposite}/10</Badge>
         </div>
 
         {/* Macro-region aggregate */}
         <Card className="mt-6">
           <h2 className="text-sm uppercase tracking-wide text-[var(--text-tertiary)] font-semibold mb-3">
-            Profil moyen de la macro-région
+            Profil santé moyen de la macro-région
           </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             {[
-              { k: "Environnement", v: avgEnv, hint: "Air + bruit + eau + risques", href: `/environnement/${macro.slug}` },
-              { k: "Santé", v: avgHealth, hint: "MG + spé + urgences + pharma", href: `/sante/${macro.slug}` },
-              { k: "Emploi", v: avgJob, hint: "Chômage + salaire + dynamisme + mix", href: `/emploi/${macro.slug}` },
+              { k: "Généralistes", v: avgMg, hint: "Densité DREES + vieillissement" },
+              { k: "Spécialistes", v: avgSpe, hint: "CHU > agglo > moyenne > rural" },
+              { k: "Urgences", v: avgUrg, hint: "Présence SAU + malus accès" },
+              { k: "Pharmacies", v: avgPharma, hint: "Maillage population × urbain" },
             ].map((d) => (
-              <Link key={d.k} href={d.href} className="block">
-                <div className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all p-3">
-                  <div className="text-xs text-[var(--text-tertiary)]">{d.k}</div>
-                  <div className="text-xl font-bold tabular-nums text-[var(--text-primary)] mt-1">
-                    {d.v.toFixed(1)}
-                    <span className="text-xs font-normal text-[var(--text-tertiary)] ml-0.5">/10</span>
-                  </div>
-                  <div className="text-[11px] text-[var(--text-tertiary)] mt-1 leading-tight">{d.hint}</div>
+              <div key={d.k} className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-3">
+                <div className="text-xs text-[var(--text-tertiary)]">{d.k}</div>
+                <div className="text-xl font-bold tabular-nums text-[var(--text-primary)] mt-1">
+                  {d.v.toFixed(1)}
+                  <span className="text-xs font-normal text-[var(--text-tertiary)] ml-0.5">/10</span>
                 </div>
-              </Link>
+                <div className="text-[11px] text-[var(--text-tertiary)] mt-1 leading-tight">{d.hint}</div>
+              </div>
             ))}
           </div>
           <p className="text-[11px] text-[var(--text-tertiary)] mt-3">
-            Sous-scores : 10 = bon sur la dimension (déjà inversés depuis F44 / F47 / F50).
+            Sous-scores : 10 = accès maximalement difficile, 0 = très facile.
           </p>
         </Card>
 
-        {/* Top best */}
+        {/* Top best access */}
         <h2 className="mt-10 text-2xl font-semibold text-[var(--text-primary)]">
-          Top 15 — villes au meilleur cadre de vie en {macro.label}
+          Top 15 — villes au meilleur accès aux soins en {macro.label}
         </h2>
         <Card className="mt-4 overflow-hidden p-0">
           <div className="overflow-x-auto">
@@ -163,19 +162,19 @@ export default async function MacroRegionQolPage({ params }: Props) {
                   <th className="px-3 py-2 text-left">#</th>
                   <th className="px-3 py-2 text-left">Ville</th>
                   <th className="px-3 py-2 text-left">Département</th>
-                  <th className="px-3 py-2 text-right">Cadre de vie</th>
-                  <th className="px-3 py-2 text-right hidden sm:table-cell">Env.</th>
-                  <th className="px-3 py-2 text-right hidden sm:table-cell">Santé</th>
-                  <th className="px-3 py-2 text-right hidden md:table-cell">Emploi</th>
+                  <th className="px-3 py-2 text-right">Composite</th>
+                  <th className="px-3 py-2 text-right hidden sm:table-cell">MG</th>
+                  <th className="px-3 py-2 text-right hidden sm:table-cell">Spé.</th>
+                  <th className="px-3 py-2 text-right hidden md:table-cell">Urg.</th>
                 </tr>
               </thead>
               <tbody>
-                {topBest.map((c, i) => (
+                {best.map((c, i) => (
                   <tr key={c.slug} className="border-t border-[var(--border)]">
                     <td className="px-3 py-2 text-[var(--text-tertiary)] tabular-nums">{i + 1}</td>
                     <td className="px-3 py-2">
                       <Link
-                        href={`/villes/${c.slug}`}
+                        href={`/villes/${c.slug}/sante`}
                         className="font-semibold text-[var(--text-primary)] hover:text-[var(--accent)]"
                       >
                         {c.name}
@@ -183,16 +182,16 @@ export default async function MacroRegionQolPage({ params }: Props) {
                     </td>
                     <td className="px-3 py-2 text-[var(--text-tertiary)]">{c.department}</td>
                     <td className="px-3 py-2 text-right">
-                      <span className={`font-bold tabular-nums ${QOL_LEVEL_COLOR[c.qol.level]}`}>
-                        {c.qol.score.toFixed(1)}
+                      <span className={`font-bold tabular-nums ${HEALTH_LEVEL_COLOR[c.access.level]}`}>
+                        {c.access.composite.toFixed(1)}
                       </span>
                       <span className="text-[10px] uppercase tracking-wide text-[var(--text-tertiary)] ml-1">
-                        {QOL_LEVEL_LABEL[c.qol.level]}
+                        {HEALTH_LEVEL_LABEL[c.access.level]}
                       </span>
                     </td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{c.qol.envScore.toFixed(1)}</td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{c.qol.healthScore.toFixed(1)}</td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{c.qol.jobScore.toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{c.access.generalistes.score.toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{c.access.specialistes.score.toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{c.access.urgences.score.toFixed(1)}</td>
                   </tr>
                 ))}
               </tbody>
@@ -202,7 +201,7 @@ export default async function MacroRegionQolPage({ params }: Props) {
 
         {/* Worst */}
         <h2 className="mt-10 text-2xl font-semibold text-[var(--text-primary)]">
-          Top 10 — villes au cadre de vie le plus tendu en {macro.label}
+          Top 10 — villes en désert médical de {macro.label}
         </h2>
         <Card className="mt-4 overflow-hidden p-0">
           <div className="overflow-x-auto">
@@ -212,10 +211,10 @@ export default async function MacroRegionQolPage({ params }: Props) {
                   <th className="px-3 py-2 text-left">#</th>
                   <th className="px-3 py-2 text-left">Ville</th>
                   <th className="px-3 py-2 text-left">Département</th>
-                  <th className="px-3 py-2 text-right">Cadre de vie</th>
-                  <th className="px-3 py-2 text-right hidden sm:table-cell">Env.</th>
-                  <th className="px-3 py-2 text-right hidden sm:table-cell">Santé</th>
-                  <th className="px-3 py-2 text-right hidden md:table-cell">Emploi</th>
+                  <th className="px-3 py-2 text-right">Composite</th>
+                  <th className="px-3 py-2 text-right hidden sm:table-cell">MG</th>
+                  <th className="px-3 py-2 text-right hidden sm:table-cell">Spé.</th>
+                  <th className="px-3 py-2 text-right hidden md:table-cell">Urg.</th>
                 </tr>
               </thead>
               <tbody>
@@ -224,7 +223,7 @@ export default async function MacroRegionQolPage({ params }: Props) {
                     <td className="px-3 py-2 text-[var(--text-tertiary)] tabular-nums">{i + 1}</td>
                     <td className="px-3 py-2">
                       <Link
-                        href={`/villes/${c.slug}`}
+                        href={`/villes/${c.slug}/sante`}
                         className="font-semibold text-[var(--text-primary)] hover:text-[var(--accent)]"
                       >
                         {c.name}
@@ -233,13 +232,13 @@ export default async function MacroRegionQolPage({ params }: Props) {
                     <td className="px-3 py-2 text-[var(--text-tertiary)]">{c.department}</td>
                     <td className="px-3 py-2 text-right">
                       <span className="font-bold tabular-nums text-red-600">
-                        {c.qol.score.toFixed(1)}
+                        {c.access.composite.toFixed(1)}
                       </span>
                       <span className="text-[10px] uppercase tracking-wide text-[var(--text-tertiary)] ml-1">/10</span>
                     </td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{c.qol.envScore.toFixed(1)}</td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{c.qol.healthScore.toFixed(1)}</td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{c.qol.jobScore.toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{c.access.generalistes.score.toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{c.access.specialistes.score.toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{c.access.urgences.score.toFixed(1)}</td>
                   </tr>
                 ))}
               </tbody>
@@ -253,19 +252,19 @@ export default async function MacroRegionQolPage({ params }: Props) {
         </h2>
         <div className="mt-3 grid grid-cols-2 sm:grid-cols-3 gap-3">
           {MACRO_REGIONS.filter((m) => m.slug !== macro.slug).map((m) => (
-            <Link key={m.slug} href={`/cadre-de-vie/${m.slug}`} className="block">
+            <Link key={m.slug} href={`/sante/${m.slug}`} className="block">
               <Card className="hover:shadow-md transition-shadow h-full">
                 <div className="text-2xl mb-1">{m.emoji}</div>
                 <div className="text-sm font-semibold text-[var(--text-primary)]">{m.label}</div>
-                <div className="text-xs text-[var(--text-tertiary)] mt-1">Cadre de vie</div>
+                <div className="text-xs text-[var(--text-tertiary)] mt-1">Accès aux soins</div>
               </Card>
             </Link>
           ))}
         </div>
 
         <div className="mt-8 text-sm">
-          <Link href="/cadre-de-vie" className="text-[var(--accent)] hover:underline">
-            → Voir le classement national Cadre de Vie complet
+          <Link href="/sante" className="text-[var(--accent)] hover:underline">
+            → Voir le classement national accès aux soins complet
           </Link>
         </div>
       </section>

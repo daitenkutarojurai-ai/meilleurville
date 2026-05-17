@@ -10,6 +10,7 @@ import {
   HEALTH_LEVEL_LABEL,
   HEALTH_LEVEL_COLOR,
 } from "@/lib/healthcare-access";
+import { MACRO_REGIONS } from "@/lib/macro-regions";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 
 export const revalidate = false;
@@ -230,6 +231,26 @@ export default function HealthcareHubPage() {
             sur Ameli avant un déménagement définitif.
           </p>
         </Card>
+
+        {/* Macro-region breakdown */}
+        <h2 className="mt-12 text-xl font-semibold text-[var(--text-primary)]">
+          Par macro-région
+        </h2>
+        <p className="mt-2 text-sm text-[var(--text-secondary)]">
+          L&apos;accès aux soins varie fortement entre les métropoles bien dotées et les
+          départements ruraux en désert médical. Vue restreinte à chaque grande zone.
+        </p>
+        <div className="mt-3 grid grid-cols-2 sm:grid-cols-3 gap-3">
+          {MACRO_REGIONS.map((m) => (
+            <Link key={m.slug} href={`/sante/${m.slug}`} className="block">
+              <Card className="hover:shadow-md transition-shadow h-full">
+                <div className="text-2xl mb-1">{m.emoji}</div>
+                <div className="text-sm font-semibold text-[var(--text-primary)]">{m.label}</div>
+                <div className="text-xs text-[var(--text-tertiary)] mt-1">Meilleur accès + déserts médicaux</div>
+              </Card>
+            </Link>
+          ))}
+        </div>
 
         {/* Cross-links */}
         <h2 className="mt-12 text-xl font-semibold text-[var(--text-primary)]">

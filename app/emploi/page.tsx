@@ -10,6 +10,7 @@ import {
   JOB_LEVEL_LABEL,
   JOB_LEVEL_COLOR,
 } from "@/lib/employment-market";
+import { MACRO_REGIONS } from "@/lib/macro-regions";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 
 export const revalidate = false;
@@ -231,6 +232,26 @@ export default function EmploymentHubPage() {
             réel : France Travail, Apec, Hellowork.
           </p>
         </Card>
+
+        {/* Macro-region breakdown */}
+        <h2 className="mt-12 text-xl font-semibold text-[var(--text-primary)]">
+          Par macro-région
+        </h2>
+        <p className="mt-2 text-sm text-[var(--text-secondary)]">
+          Le marché de l&apos;emploi varie fortement entre les métropoles dynamiques et
+          les anciens bassins industriels. Vue restreinte à chaque grande zone géographique.
+        </p>
+        <div className="mt-3 grid grid-cols-2 sm:grid-cols-3 gap-3">
+          {MACRO_REGIONS.map((m) => (
+            <Link key={m.slug} href={`/emploi/${m.slug}`} className="block">
+              <Card className="hover:shadow-md transition-shadow h-full">
+                <div className="text-2xl mb-1">{m.emoji}</div>
+                <div className="text-sm font-semibold text-[var(--text-primary)]">{m.label}</div>
+                <div className="text-xs text-[var(--text-tertiary)] mt-1">Marché favorable + difficile</div>
+              </Card>
+            </Link>
+          ))}
+        </div>
 
         {/* Cross-links */}
         <h2 className="mt-12 text-xl font-semibold text-[var(--text-primary)]">
