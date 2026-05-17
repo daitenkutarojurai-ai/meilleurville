@@ -10,6 +10,7 @@ import {
   QOL_LEVEL_LABEL,
   QOL_LEVEL_COLOR,
 } from "@/lib/quality-of-life-index";
+import { MACRO_REGIONS } from "@/lib/macro-regions";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 
 export const revalidate = false;
@@ -253,6 +254,27 @@ export default function CadreDeViePage() {
             personnalisé selon votre profil.
           </p>
         </Card>
+
+        {/* Macro-region breakdown */}
+        <h2 className="mt-12 text-xl font-semibold text-[var(--text-primary)]">
+          Par macro-région
+        </h2>
+        <p className="mt-2 text-sm text-[var(--text-secondary)]">
+          Le profil cadre de vie varie fortement entre la côte atlantique tempérée
+          (équilibre env/emploi) et l&apos;arc méditerranéen (chômage haut compense les
+          atouts climatiques). Vue restreinte à chaque grande zone.
+        </p>
+        <div className="mt-3 grid grid-cols-2 sm:grid-cols-3 gap-3">
+          {MACRO_REGIONS.map((m) => (
+            <Link key={m.slug} href={`/cadre-de-vie/${m.slug}`} className="block">
+              <Card className="hover:shadow-md transition-shadow h-full">
+                <div className="text-2xl mb-1">{m.emoji}</div>
+                <div className="text-sm font-semibold text-[var(--text-primary)]">{m.label}</div>
+                <div className="text-xs text-[var(--text-tertiary)] mt-1">Cadre de vie régional</div>
+              </Card>
+            </Link>
+          ))}
+        </div>
 
         {/* Cross-links */}
         <h2 className="mt-12 text-xl font-semibold text-[var(--text-primary)]">
