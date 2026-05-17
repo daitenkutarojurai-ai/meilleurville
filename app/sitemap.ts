@@ -126,6 +126,7 @@ function staticSection(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/environnement/vallee-du-rhone`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/environnement/ile-de-france-elargie`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/sante`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.85 },
+    { url: `${BASE_URL}/emploi`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.85 },
     { url: `${BASE_URL}/villes`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.8 },
     { url: `${BASE_URL}/classements`, lastModified: RANKING_UPDATED, changeFrequency: "weekly", priority: 0.9 },
     { url: `${BASE_URL}/comparer`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },

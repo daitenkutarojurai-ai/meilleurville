@@ -206,6 +206,12 @@ export default async function EmploiPage({ params }: Props) {
             </Card>
           </Link>
         </div>
+
+        <div className="mt-8 text-sm">
+          <Link href="/emploi" className="text-[var(--accent)] hover:underline">
+            → Classement national des marchés du travail
+          </Link>
+        </div>
       </section>
 
       <Footer />
