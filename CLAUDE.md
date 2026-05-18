@@ -486,6 +486,75 @@ P1: F2, F13, F14, F15, F6, F11 — P2: F7, F8, F10.
 
 ---
 
+## F70 — Vacances en France (sous-section /vacances) ✅ Phases 1 + 2
+
+Nouvelle verticale du site dédiée au **vacancier** (vs. le relocant qui est la
+cible historique). Sous-domaine `/vacances` de `mavilleideale.fr`, monétisation
+via lien partenaire **Booking.com** (`NEXT_PUBLIC_BOOKING_AID` à définir
+côté Vercel pour activer le tracking).
+
+### Architecture engine
+
+- `lib/vacation-seasons.ts` — climat mensuel par ville (12 mois × 352 villes).
+  Interpolation sinusoïdale depuis `avgTempJuly` / `avgTempJanuary`, biais
+  régional pour précipitations et ensoleillement (méditerranéen / océanique /
+  oceanic-dry / semi-continental / continental / mountain / drom), affluence
+  touristique 1-5 dérivée des tags × mois. Précision ±1.5 °C. À enrichir
+  Phase 1.5 via normales Météo-France 1991-2020.
+- `lib/vacation-activities.ts` — 10 activités (`plage`, `montagne`, `ski`,
+  `citytrip`, `vignobles`, `surf`, `thermal`, `road-trip`, `gastro`,
+  `famille`). Chaque activité : détection fitness (0-10) par ville à partir
+  des tags + dept + élévation + scores, plus une fonction `seasonFit` qui
+  pondère par les signaux climatiques du mois cible.
+- `lib/vacation-fit.ts` — `vacationFit(city, opts)` composite avec mix
+  configurable selon les paramètres passés (activité, mois, profil, budget).
+  Cache module-level pour les classements (`topCitiesForMonth`,
+  `topCitiesForActivity`, `topCitiesForProfile`). Helpers : `bestMonthsFor`,
+  `BUDGET_TIER_LABEL`/`DESC`, `VACATION_PROFILES`.
+
+### Routes (387 nouvelles)
+
+| Route                                    | Pages | Notes                                            |
+|------------------------------------------|-------|--------------------------------------------------|
+| `/vacances`                              | 1     | Hub : top du mois courant + grilles mois/act/profil |
+| `/vacances/mois/<mois>`                  | 12    | Hook éditorial + warning par mois + top 10       |
+| `/vacances/activite/<activite>`          | 10    | Top 30 par activité avec filtre fitness ≥ 4      |
+| `/vacances/profil/<profil>`              | 5     | famille/couple/solo/amis/seniors                 |
+| `/vacances/region/<region>`              | 18    | 13 métro + 5 DROM. Activités phares par région.  |
+| `/vacances/<ville>`                      | 352   | Fiche vacance : calendrier 12 mois + quoi y faire|
+
+Toutes en SSG (`generateStaticParams` + `dynamicParams = false` sauf hub).
+JSON-LD : BreadcrumbList + ItemList partout, FAQPage sur les fiches ville.
+
+### UX / ton
+
+- **Ton éditorial honnête** : chaque mois a un *hook* (« Septembre est
+  mathématiquement le meilleur mois de l'année ») ET un *warning* (« évitez
+  les côtes en janvier »). Pas de listicle de magazine.
+- **Climat affiché** : temp, jours pluie, heures soleil/jour, affluence
+  qualitative (Calme / Modéré / Très fréquenté).
+- **Affiliation transparente** : `rel="sponsored noopener"`, mention
+  partenariat explicite. Pas de pop-up.
+- **Maillage interne** : chaque fiche ville classique gagne un tile
+  « 🌴 Vacances ici » dans son sub-pages strip.
+
+### Activation monétisation
+
+1. Créer compte Booking Partners (booking.com/affiliate-program)
+2. Mettre l'Affiliate ID dans Vercel : `NEXT_PUBLIC_BOOKING_AID=XXXXXXX`
+3. Sans cet env var, les liens fonctionnent toujours mais sans tracking.
+
+### Phases futures (non shipped)
+
+- **Phase 1.5** — Scrape normales mensuelles Météo-France pour remplacer
+  l'interpolation sinusoïdale.
+- **Phase 3** — Quiz interactif `/vacances/quiz` (5 questions → 3 destinations),
+  sticky widget Booking, email-capture « Plan vacances PDF ».
+- **Étendre l'affiliation** — camping (Yelloh/Capfun), train (Trainline),
+  Gîtes de France.
+
+---
+
 ## Roadmap v7 — UX polish + data-integrity sweep (2026-05-18)
 
 User-reported batch from a full walkthrough. Treated as **priority queue** —

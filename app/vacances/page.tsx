@@ -12,7 +12,11 @@ import {
   type MonthIndex,
 } from "@/lib/vacation-seasons";
 import { ACTIVITY_DEFS, ACTIVITIES } from "@/lib/vacation-activities";
-import { topCitiesForMonth } from "@/lib/vacation-fit";
+import {
+  topCitiesForMonth,
+  VACATION_PROFILES,
+  VACATION_PROFILE_DEFS,
+} from "@/lib/vacation-fit";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { MapPin, ChevronRight, Calendar, Sparkles } from "lucide-react";
 
@@ -159,32 +163,59 @@ export default function VacancesHub() {
         </div>
       </section>
 
-      {/* Par activité — placeholder Phase 2, surfaces existantes greyed */}
-      <section className="mx-auto max-w-5xl px-4 sm:px-6 pb-12">
+      {/* Par activité */}
+      <section className="mx-auto max-w-5xl px-4 sm:px-6 pb-10">
         <h2 className="text-xl font-bold text-[var(--text-primary)] mb-4">
           Par envie
         </h2>
         <p className="text-sm text-[var(--text-secondary)] mb-5 max-w-3xl">
-          Dix angles classiques — plage, montagne, ski, citytrip, vignobles, surf,
-          thermal, road-trip, gastro, famille. Les pages dédiées arrivent en Phase 2,
-          mais les filtres sont déjà actifs sur chaque page mois.
+          Dix angles classiques. Pour chaque activité, les destinations qui
+          coch ent vraiment la case — pas les listicles d&apos;agence.
         </p>
         <div className="grid gap-2.5 grid-cols-2 sm:grid-cols-3 lg:grid-cols-5">
           {ACTIVITIES.map((slug) => {
             const def = ACTIVITY_DEFS[slug];
             return (
-              <div
+              <Link
                 key={slug}
-                className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)]/50 px-3 py-2.5"
+                href={`/vacances/activite/${slug}`}
+                className="group rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] px-3 py-2.5 hover:border-[var(--accent)]/40 hover:shadow-md transition-all"
                 title={def.intro}
               >
                 <div className="flex items-center gap-1.5">
                   <span aria-hidden>{def.emoji}</span>
-                  <span className="text-xs font-medium text-[var(--text-secondary)]">
+                  <span className="text-xs font-medium text-[var(--text-secondary)] group-hover:text-[var(--text-primary)] transition-colors">
                     {def.label}
                   </span>
                 </div>
-              </div>
+              </Link>
+            );
+          })}
+        </div>
+      </section>
+
+      {/* Par profil */}
+      <section className="mx-auto max-w-5xl px-4 sm:px-6 pb-12">
+        <h2 className="text-xl font-bold text-[var(--text-primary)] mb-4">
+          Selon avec qui vous partez
+        </h2>
+        <div className="grid gap-2.5 grid-cols-2 sm:grid-cols-3 lg:grid-cols-5">
+          {VACATION_PROFILES.map((p) => {
+            const def = VACATION_PROFILE_DEFS[p];
+            return (
+              <Link
+                key={p}
+                href={`/vacances/profil/${p}`}
+                className="group rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] px-3 py-2.5 hover:border-[var(--accent)]/40 hover:shadow-md transition-all"
+                title={def.intro}
+              >
+                <div className="flex items-center gap-1.5">
+                  <span aria-hidden>{def.emoji}</span>
+                  <span className="text-xs font-medium text-[var(--text-secondary)] group-hover:text-[var(--text-primary)] transition-colors">
+                    {def.label}
+                  </span>
+                </div>
+              </Link>
             );
           })}
         </div>

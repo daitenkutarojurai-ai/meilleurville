@@ -20,6 +20,46 @@ import {
 
 export type VacationProfile = "famille" | "couple" | "solo" | "amis" | "seniors";
 
+export const VACATION_PROFILES: VacationProfile[] = ["famille", "couple", "solo", "amis", "seniors"];
+
+export const VACATION_PROFILE_DEFS: Record<VacationProfile, {
+  label: string;
+  emoji: string;
+  intro: string;
+  metaDesc: string;
+}> = {
+  famille: {
+    label: "Famille",
+    emoji: "👨‍👩‍👧",
+    intro: "Sécurité du quotidien, occupation des enfants, restos qui tiennent la route. Les destinations classées ici cumulent les trois, sans top-10 d'agence.",
+    metaDesc: "Vacances en famille en France 2026 : top destinations sécurisées, faciles avec enfants, budget maîtrisable. Plage, parcs, animations.",
+  },
+  couple: {
+    label: "Couple",
+    emoji: "💑",
+    intro: "Restaurants, scène culturelle, balades à deux. Les villes qui se prêtent au long week-end romantique sans tomber dans le cliché.",
+    metaDesc: "Vacances en couple en France 2026 : destinations romantiques, gastro, cadre culturel. Loin des pièges à touristes.",
+  },
+  solo: {
+    label: "Solo",
+    emoji: "🎒",
+    intro: "Sécurité (femme seule incluse), bonne offre de transports, vie culturelle pour ne pas s'ennuyer. Les villes où voyager seul·e est vraiment confortable.",
+    metaDesc: "Voyager seul·e en France 2026 : destinations adaptées, sécurisées, scène culturelle dense, accessibles en train.",
+  },
+  amis: {
+    label: "Entre amis",
+    emoji: "🍻",
+    intro: "Bars, restos, scène nocturne, budget partagé. Les destinations qui supportent une bande de 4-8 sans tuer le portefeuille.",
+    metaDesc: "Vacances entre amis en France 2026 : destinations avec scène festive, restos, budget maîtrisable. Côte, montagne, citytrip.",
+  },
+  seniors: {
+    label: "Seniors",
+    emoji: "🌿",
+    intro: "Climat doux, accessibilité, calme, soins de santé à proximité. Pas de marketing « senior » — juste les villes où l'on reste serein au quotidien.",
+    metaDesc: "Vacances seniors en France 2026 : destinations calmes, climat doux, accessibilité, infrastructures santé.",
+  },
+};
+
 export interface VacationFitOptions {
   month?: MonthIndex;
   activity?: ActivitySlug;
@@ -198,6 +238,27 @@ export function topCitiesForMonth(
       .map((c) => ({
         city: c,
         fit: vacationFit(c, { month, activity: opts.activity, profile: opts.profile }),
+      }))
+      .sort((a, b) => b.fit.score - a.fit.score);
+    rankCache.set(key, ranked);
+  }
+  return ranked.slice(0, limit);
+}
+
+export function topCitiesForProfile(
+  profile: VacationProfile,
+  opts: { limit?: number; minPop?: number } = {},
+): RankedVacationCity[] {
+  const limit = opts.limit ?? 30;
+  const minPop = opts.minPop ?? 8_000;
+  const key = cacheKey({ profile });
+  let ranked = rankCache.get(key);
+  if (!ranked) {
+    ranked = CITIES_SEED
+      .filter((c) => (c.population ?? 0) >= minPop)
+      .map((c) => ({
+        city: c,
+        fit: vacationFit(c, { profile }),
       }))
       .sort((a, b) => b.fit.score - a.fit.score);
     rankCache.set(key, ranked);

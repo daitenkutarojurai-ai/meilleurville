@@ -625,6 +625,18 @@ function vacancesSection(): MetadataRoute.Sitemap {
     "janvier", "février", "mars", "avril", "mai", "juin",
     "juillet", "août", "septembre", "octobre", "novembre", "décembre",
   ];
+  const ACTIVITY_SLUGS = [
+    "plage", "montagne", "ski", "citytrip", "vignobles",
+    "surf", "thermal", "road-trip", "gastro", "famille",
+  ];
+  const PROFILE_SLUGS = ["famille", "couple", "solo", "amis", "seniors"];
+  const REGION_SLUGS = [
+    "auvergne-rhone-alpes", "bourgogne-franche-comte", "bretagne",
+    "centre-val-de-loire", "corse", "grand-est", "hauts-de-france",
+    "ile-de-france", "normandie", "nouvelle-aquitaine", "occitanie",
+    "pays-de-la-loire", "provence-alpes-cote-d-azur",
+    "la-reunion", "martinique", "guadeloupe", "guyane", "mayotte",
+  ];
   return [
     {
       url: `${BASE_URL}/vacances`,
@@ -637,6 +649,30 @@ function vacancesSection(): MetadataRoute.Sitemap {
       lastModified: STATIC_UPDATED,
       changeFrequency: "weekly" as const,
       priority: 0.75,
+    })),
+    ...ACTIVITY_SLUGS.map((slug) => ({
+      url: `${BASE_URL}/vacances/activite/${slug}`,
+      lastModified: STATIC_UPDATED,
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    })),
+    ...PROFILE_SLUGS.map((slug) => ({
+      url: `${BASE_URL}/vacances/profil/${slug}`,
+      lastModified: STATIC_UPDATED,
+      changeFrequency: "monthly" as const,
+      priority: 0.65,
+    })),
+    ...REGION_SLUGS.map((slug) => ({
+      url: `${BASE_URL}/vacances/region/${slug}`,
+      lastModified: STATIC_UPDATED,
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    })),
+    ...CITIES_SEED.map((c) => ({
+      url: `${BASE_URL}/vacances/${c.slug}`,
+      lastModified: STATIC_UPDATED,
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
     })),
   ];
 }
