@@ -5,11 +5,11 @@ import { AmbientBackground } from "@/components/AmbientBackground";
 import { VillesSearch } from "@/components/VillesSearch";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { CITIES_COUNT } from "@/lib/site-stats";
 
 export const metadata: Metadata = {
   title: "Explorer toutes les villes françaises — Avis & Classements",
-  description:
-    "Découvrez les meilleures villes françaises : avis d'habitants, scores de qualité de vie, données locales. 352 communes analysées et comparées.",
+  description: `Découvrez les meilleures villes françaises : avis d'habitants, scores de qualité de vie, données locales. ${CITIES_COUNT} communes analysées et comparées.`,
   alternates: { canonical: "/villes" },
 };
 

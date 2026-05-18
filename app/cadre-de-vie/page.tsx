@@ -12,13 +12,13 @@ import {
 } from "@/lib/quality-of-life-index";
 import { MACRO_REGIONS } from "@/lib/macro-regions";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { CITIES_COUNT } from "@/lib/site-stats";
 
 export const revalidate = false;
 
 export const metadata: Metadata = {
   title: "Meilleur cadre de vie en France — index complet 2026",
-  description:
-    "Index Cadre de Vie agrégeant environnement (air, bruit, eau, risques), santé (accès aux soins), emploi (chômage, salaires, dynamisme) pour les 540 villes françaises. Top 30 villes au meilleur cadre de vie.",
+  description: `Index Cadre de Vie agrégeant environnement (air, bruit, eau, risques), santé (accès aux soins), emploi (chômage, salaires, dynamisme) pour les ${CITIES_COUNT} villes françaises. Top 30 villes au meilleur cadre de vie.`,
   alternates: { canonical: "/cadre-de-vie" },
   openGraph: {
     title: "Meilleur cadre de vie en France 2026",
@@ -83,7 +83,7 @@ export default function CadreDeViePage() {
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
           <Badge>Méga-index composite</Badge>
-          <Badge>3 piliers × 540 villes</Badge>
+          <Badge>3 piliers × {CITIES_COUNT} villes</Badge>
           <Badge>Pondération env 35 % · santé 30 % · emploi 35 %</Badge>
         </div>
 

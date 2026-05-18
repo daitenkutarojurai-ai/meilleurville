@@ -13,6 +13,7 @@ import {
 } from "@/lib/quitter-pairs";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { scoreColor } from "@/lib/utils";
+import { CITIES_COUNT } from "@/lib/site-stats";
 
 // ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
 // revalidate=false → page built once at deploy, served from static edge cache.
@@ -90,7 +91,6 @@ export default async function QuitterPairPage({ params }: Props) {
   // requiert (X − savings) — c'est-à-dire que tu peux baisser ton salaire net de `monthlySavings` €
   // sans perdre en pouvoir d'achat sur les charges fixes.
 
-  const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://www.mavilleideale.fr";
   const breadcrumb = breadcrumbJsonLd([
     { name: "Accueil", path: "/" },
     { name: "Quitter une ville", path: "/quitter" },
@@ -243,7 +243,7 @@ export default async function QuitterPairPage({ params }: Props) {
               <li>
                 ✅ <strong>Vous cherchez du reste-à-vivre.</strong> Vous récupérez{" "}
                 {Math.round(monthlySavings)} €/mois sur les charges fixes — équivalent à une augmentation
-                nette d'environ {Math.round(monthlySavings * 1.2)} € à {origin.name} (cotisations + IR).
+                nette d&apos;environ {Math.round(monthlySavings * 1.2)} € à {origin.name} (cotisations + IR).
               </li>
             )}
             {monthlySavings != null && monthlySavings < -150 && (
@@ -283,7 +283,7 @@ export default async function QuitterPairPage({ params }: Props) {
         </Card>
 
         {/* Cross-links */}
-        <h2 className="mt-10 text-xl font-semibold text-[var(--text-primary)]">Continuer l'analyse</h2>
+        <h2 className="mt-10 text-xl font-semibold text-[var(--text-primary)]">Continuer l&apos;analyse</h2>
         <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
           <Link href={`/villes/${destination.slug}`} className="block">
             <Card className="p-4 hover:shadow-md transition">
@@ -312,7 +312,7 @@ export default async function QuitterPairPage({ params }: Props) {
         </div>
 
         <div className="mt-10 text-xs text-[var(--text-tertiary)]">
-          <Badge>Estimation</Badge> Scores propriétaires calculés à partir des 352 villes du site.
+          <Badge>Estimation</Badge> Scores propriétaires calculés à partir des {CITIES_COUNT} villes du site.
           Méthodologie détaillée sur <Link href="/methode" className="underline">/methode</Link>.
         </div>
       </section>

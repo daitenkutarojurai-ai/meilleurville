@@ -4,13 +4,13 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { t, ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { CITIES_COUNT } from "@/lib/site-stats";
 
 const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const metadata: Metadata = {
   title: "Explore every French city — Reviews & 2026 rankings",
-  description:
-    "352 French cities profiled with calibrated quality-of-life scores (Insee + Ministry of Interior), resident reviews, and detailed local data. Filter and compare.",
+  description: `${CITIES_COUNT} French cities profiled with calibrated quality-of-life scores (Insee + Ministry of Interior), resident reviews, and detailed local data. Filter and compare.`,
   alternates: { canonical: `${EN_BASE}/cities` },
 };
 

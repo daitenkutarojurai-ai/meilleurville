@@ -65,7 +65,7 @@ export default async function HonestReviewPage({ params }: Props) {
         </h1>
         <p className="mt-3 text-base text-[var(--text-secondary)]">
           Synthèse algorithmique des forces et faiblesses de {city.name}, et des profils pour
-          qui cette ville est (ou n'est pas) faite. Aucun chiffre inventé — tout dérive des
+          qui cette ville est (ou n&apos;est pas) faite. Aucun chiffre inventé — tout dérive des
           données calibrées du site (8 axes seed + 10 owner scores + classement parmi les 10
           profils éditoriaux).
         </p>

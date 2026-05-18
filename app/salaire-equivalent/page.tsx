@@ -10,11 +10,11 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { HOUSING } from "@/data/housing";
 import { fiscalityForCity } from "@/lib/fiscalite";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { CITIES_COUNT } from "@/lib/site-stats";
 
 export const metadata: Metadata = {
   title: "Salaire équivalent entre villes 2026 — Calculateur reste à vivre",
-  description:
-    "Combien gagner dans une autre ville pour garder le même reste à vivre ? Calculateur interactif 352 villes françaises. Loyer, mobilité, taxes inclus.",
+  description: `Combien gagner dans une autre ville pour garder le même reste à vivre ? Calculateur interactif ${CITIES_COUNT} villes françaises. Loyer, mobilité, taxes inclus.`,
   alternates: { canonical: "/salaire-equivalent" },
 };
 
@@ -66,7 +66,7 @@ export default function SalaireEquivalentPage() {
           <p className="text-[var(--text-secondary)] text-base max-w-2xl mx-auto">
             Vous gagnez X € à Paris et vous voulez déménager à Lyon ? Combien faut-il négocier
             pour maintenir votre niveau de vie ? Ce calculateur fait la conversion sur loyer +
-            chauffage + mobilité + taxes pour 352 villes.
+            chauffage + mobilité + taxes pour {CITIES_COUNT} villes.
           </p>
         </div>
       </section>

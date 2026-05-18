@@ -8,6 +8,7 @@ import { Badge } from "@/components/ui/Badge";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { getHousing } from "@/data/housing";
 import { computeOwnerScores } from "@/lib/owner-scores";
+import { CITIES_COUNT } from "@/lib/site-stats";
 import { climateZoneFor, transitPassFor } from "@/lib/cost-living";
 import { scoreColor } from "@/lib/utils";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
@@ -29,7 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!city) return {};
   return {
     title: `Télétravailler à ${city.name} 2026 — Fibre, coworking, coût réel`,
-    description: `${city.name} pour le télétravail : couverture fibre département, score qualité de vie, coût télétravailleur mensuel, profil idéal. Données calibrées sur les 352 villes du site.`,
+    description: `${city.name} pour le télétravail : couverture fibre département, score qualité de vie, coût télétravailleur mensuel, profil idéal. Données calibrées sur les ${CITIES_COUNT} villes du site.`,
     alternates: { canonical: `/villes/${slug}/teletravail` },
     openGraph: {
       title: `Télétravailler à ${city.name} — Guide 2026`,

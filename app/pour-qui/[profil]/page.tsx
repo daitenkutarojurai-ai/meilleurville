@@ -12,6 +12,7 @@ import {
 } from "@/lib/profile-pages";
 import { scoreColor } from "@/lib/utils";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { CITIES_COUNT } from "@/lib/site-stats";
 
 // ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
 // revalidate=false → page built once at deploy, served from static edge cache.
@@ -134,7 +135,7 @@ export default async function ProfilePage({ params }: Props) {
         <Card>
           <h3 className="text-sm font-semibold text-[var(--text-primary)] mb-2">Pondération</h3>
           <p className="text-xs text-[var(--text-secondary)] leading-relaxed mb-3">
-            Score = moyenne pondérée des axes ci-dessous, sur les 352 villes du site.
+            Score = moyenne pondérée des axes ci-dessous, sur les {CITIES_COUNT} villes du site.
           </p>
           <ul className="flex flex-wrap gap-1.5">
             {Object.entries(profile.weights).map(([key, w]) => (

@@ -7,6 +7,7 @@ import { Footer } from "@/components/Footer";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
 import { CITIES_SEED } from "@/data/cities-seed";
+import { CITIES_COUNT } from "@/lib/site-stats";
 import { HOUSING } from "@/data/housing";
 import {
   METRO_REGIONS,
@@ -78,7 +79,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { a, b } = parsed;
   return {
     title: `${a} vs ${b} — Comparatif régions 2026 | MeilleurVille`,
-    description: `Comparaison complète entre ${a} et ${b} : coût de la vie, climat, immobilier, scores qualité de vie, meilleures villes. Données calibrées sur les 352 villes du site.`,
+    description: `Comparaison complète entre ${a} et ${b} : coût de la vie, climat, immobilier, scores qualité de vie, meilleures villes. Données calibrées sur les ${CITIES_COUNT} villes du site.`,
     alternates: { canonical: `/comparer-regions/${pair}` },
     openGraph: {
       title: `${a} vs ${b} — Quelle région choisir ?`,

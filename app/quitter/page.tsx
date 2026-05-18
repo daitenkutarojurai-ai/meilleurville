@@ -5,6 +5,7 @@ import { Footer } from "@/components/Footer";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
 import { QUITTER_PAIRS, buildQuitterPairData, pairToSlug } from "@/lib/quitter-pairs";
+import { CITIES_COUNT } from "@/lib/site-stats";
 
 export const metadata: Metadata = {
   title: "Quitter une ville pour une autre — Comparatifs honnêtes 2026",
@@ -43,14 +44,14 @@ export default function QuitterIndexPage() {
           Quitter une ville pour une autre
         </h1>
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
-          {QUITTER_PAIRS.length} comparatifs origine → destination. Chaque page chiffre l'écart de
+          {QUITTER_PAIRS.length} comparatifs origine → destination. Chaque page chiffre l&apos;écart de
           charges fixes (loyer, chauffage, mobilité, taxes), compare les 10 owner scores et tranche
-          pour qui le move a du sens. Données dérivées des 352 villes du site — aucun chiffre inventé.
+          pour qui le move a du sens. Données dérivées des {CITIES_COUNT} villes du site — aucun chiffre inventé.
         </p>
 
         <div className="mt-6 flex flex-wrap gap-2 text-xs">
           <Badge>{QUITTER_PAIRS.length} paires</Badge>
-          <Badge>Données calibrées sur 352 villes</Badge>
+          <Badge>Données calibrées sur {CITIES_COUNT} villes</Badge>
         </div>
 
         {[...grouped.entries()].map(([originName, pairs]) => (
@@ -89,7 +90,7 @@ export default function QuitterIndexPage() {
         ))}
 
         <div className="mt-12 text-xs text-[var(--text-tertiary)]">
-          Une paire vous intéresse mais n'est pas listée ? L'URL{" "}
+          Une paire vous intéresse mais n&apos;est pas listée ? L&apos;URL{" "}
           <code className="px-1 py-0.5 bg-[var(--bg-elevated)] rounded">/quitter/&lt;ville-a&gt;-pour-&lt;ville-b&gt;</code>{" "}
           fonctionne pour toute combinaison de deux villes du site.
         </div>

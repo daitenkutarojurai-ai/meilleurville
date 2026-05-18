@@ -13,7 +13,7 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { getHousing } from "@/data/housing";
 import { SEO_PAIRS } from "@/lib/comparer-pairs";
 import { SEO_TRIPLETS } from "@/lib/comparer-triplets";
-import { scoreColor, scoreHex } from "@/lib/utils";
+import { scoreColor } from "@/lib/utils";
 import type { City } from "@/lib/types";
 import { TripletRadar } from "./TripletRadar";
 

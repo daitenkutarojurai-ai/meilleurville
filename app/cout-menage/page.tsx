@@ -6,13 +6,14 @@ import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { HOUSEHOLD_PROFILES, householdBreakdownFor, type HouseholdProfile } from "@/lib/household-cost";
+import { CITIES_COUNT } from "@/lib/site-stats";
 
 export const metadata: Metadata = {
-  title: "Coût de la vie par profil ménage — Solo, couple, famille, retraité (352 villes)",
-  description: "Charges fixes mensuelles dans 352 villes françaises selon 4 profils : solo (T1), couple (T2), famille 2 enfants (T3), retraité. Médians DGFiP + ADEME. Indicatif.",
+  title: `Coût de la vie par profil ménage — Solo, couple, famille, retraité (${CITIES_COUNT} villes)`,
+  description: `Charges fixes mensuelles dans ${CITIES_COUNT} villes françaises selon 4 profils : solo (T1), couple (T2), famille 2 enfants (T3), retraité. Médians DGFiP + ADEME. Indicatif.`,
   alternates: { canonical: "/cout-menage" },
   openGraph: {
-    title: "Coût ménage — 4 profils, 352 villes",
+    title: `Coût ménage — 4 profils, ${CITIES_COUNT} villes`,
     description: "Combien coûte une ville par profil ménage. Médians honnêtes, zéro chiffre inventé.",
   },
 };
@@ -54,7 +55,7 @@ export default function CoutMenageIndexPage() {
           Coût de la vie par profil ménage
         </h1>
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
-          352 villes × 4 profils ménage. Chaque fiche ville liste les charges fixes mensuelles
+          {CITIES_COUNT} villes × 4 profils ménage. Chaque fiche ville liste les charges fixes mensuelles
           pour un·e solo (T1), un couple sans enfant (T2), une famille 2 enfants (T3), et un·e
           retraité·e (T2 sans trajet). Tout dérivé des observatoires loyers, ADEME, DGFiP — aucun
           chiffre inventé.
@@ -165,8 +166,8 @@ export default function CoutMenageIndexPage() {
         </Card>
 
         <div className="mt-10 text-xs text-[var(--text-tertiary)]">
-          L'URL <code className="px-1 py-0.5 bg-[var(--bg-elevated)] rounded">/cout-menage/&lt;slug-ville&gt;</code>{" "}
-          fonctionne pour les 352 villes du site.
+          L&apos;URL <code className="px-1 py-0.5 bg-[var(--bg-elevated)] rounded">/cout-menage/&lt;slug-ville&gt;</code>{" "}
+          fonctionne pour les {CITIES_COUNT} villes du site.
         </div>
       </section>
       <Footer />

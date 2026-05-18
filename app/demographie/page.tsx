@@ -12,6 +12,7 @@ import {
 } from "@/lib/demography";
 import { MACRO_REGIONS } from "@/lib/macro-regions";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { CITIES_COUNT } from "@/lib/site-stats";
 
 export const revalidate = false;
 
@@ -85,7 +86,7 @@ export default function DemographyHubPage() {
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
           <Badge>Synthèse pédagogique</Badge>
-          <Badge>4 dimensions · 540 villes</Badge>
+          <Badge>4 dimensions · {CITIES_COUNT} villes</Badge>
           <Badge>Pondération vieillis. 30 % · traj. 30 % · jeunes 25 % · renouv. 15 %</Badge>
         </div>
 

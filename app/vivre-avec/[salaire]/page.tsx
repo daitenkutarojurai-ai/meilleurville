@@ -11,7 +11,6 @@ import {
   slugForSalary,
   buildSalaryLanding,
 } from "@/lib/vivre-avec";
-import { scoreColor } from "@/lib/utils";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 
 // ISR Reads optimization: pure SSG (no Vercel Data Cache layer).

@@ -158,7 +158,7 @@ export default async function CoutMenageCityPage({ params }: Props) {
           = T2, mode mobilité par défaut. <strong>Famille</strong> = T3, voiture (école run) + 150 €/mois
           surcoût scolaire indicatif (cantine, fournitures, péri). <strong>Retraité</strong> = T2, pas de
           trajet domicile-travail (carburant retiré), chauffage +10 % (présence journée). Le poste alimentation
-          n'est pas inclus — il varie peu géographiquement et dépend du panier individuel.
+          n&apos;est pas inclus — il varie peu géographiquement et dépend du panier individuel.
         </p>
 
         {/* Cross-links */}

@@ -15,7 +15,7 @@
 // Tout dérivé de HOUSING (avgRentT3, avgBuyPriceM2). Zéro dépendance externe.
 
 import { HOUSING } from "@/data/housing";
-import { CITIES_SEED, type CitySeed } from "@/data/cities-seed";
+import { CITIES_SEED } from "@/data/cities-seed";
 
 // Surface de référence T3 ~ 65 m² (médiane Insee T3 France 2023).
 export const REF_SURFACE_M2 = 65;

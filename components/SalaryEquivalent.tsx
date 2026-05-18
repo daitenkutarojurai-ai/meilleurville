@@ -12,7 +12,6 @@
 
 import { useMemo, useState } from "react";
 import { Card } from "@/components/ui/Card";
-import { Badge } from "@/components/ui/Badge";
 import {
   computeBreakdown,
   type CostCalcInput,

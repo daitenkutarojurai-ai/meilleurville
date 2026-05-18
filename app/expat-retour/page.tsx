@@ -7,6 +7,7 @@ import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
 import { EXPAT_COUNTRIES } from "@/lib/expat-return";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { CITIES_COUNT } from "@/lib/site-stats";
 
 export const metadata: Metadata = {
   title: "Expat retour France 2026 — Guide pratique pour rentrer | MeilleurVille",
@@ -88,7 +89,7 @@ export default function ExpatRetourIndex() {
                 Pas sûr de la ville française adaptée ?
               </h3>
               <p className="text-sm text-[var(--text-secondary)]">
-                Le quiz expat (5 minutes) recoupe votre profil avec les 352 villes du site et
+                Le quiz expat (5 minutes) recoupe votre profil avec les {CITIES_COUNT} villes du site et
                 pondère selon le contexte de votre retour.
               </p>
             </div>

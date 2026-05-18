@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Instrument_Serif } from "next/font/google";
 import "./globals.css";
+import { CITIES_COUNT } from "@/lib/site-stats";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -32,7 +33,7 @@ const SITE_TITLE = IS_EN
   ? "BestCitiesInFrance — Find the French city that fits you"
   : "MeilleurVille — Trouvez la ville qui vous ressemble";
 const SITE_DESCRIPTION = IS_EN
-  ? "AI + lived experience + 352 cities of official data. Rankings, resident reviews, lifestyle-matching quiz — independent and unbiased."
+  ? `AI + lived experience + ${CITIES_COUNT} cities of official data. Rankings, resident reviews, lifestyle-matching quiz — independent and unbiased.`
   : "IA + vraies expériences + données locales. Classements, avis d'habitants, quiz de matching. La référence pour choisir où vivre en France.";
 
 export const metadata: Metadata = {

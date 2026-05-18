@@ -78,7 +78,7 @@ export function CostCalculator() {
       })
       .sort((a, b) => b.rank - a.rank)
       .slice(0, 8);
-  }, [parisRent, salary, priorityId, rentBudget, priority]);
+  }, [parisRent, salary, rentBudget, priority]);
 
   const overBudgetCount = cities.filter((c) => !c.affordable).length;
 

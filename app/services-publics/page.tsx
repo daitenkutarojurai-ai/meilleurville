@@ -12,6 +12,7 @@ import {
 } from "@/lib/public-services";
 import { MACRO_REGIONS } from "@/lib/macro-regions";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { CITIES_COUNT } from "@/lib/site-stats";
 
 export const revalidate = false;
 
@@ -86,7 +87,7 @@ export default function PublicServicesHubPage() {
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
           <Badge>Synthèse pédagogique</Badge>
-          <Badge>4 dimensions · 540 villes</Badge>
+          <Badge>4 dimensions · {CITIES_COUNT} villes</Badge>
           <Badge>Pondération écoles 35 % · mairie 25 % · Poste 25 % · médiath. 15 %</Badge>
         </div>
 

@@ -4,7 +4,6 @@
 // Réutilise lib/compatibility.ts (matching) et lib/cost-living.ts (breakdown
 // par ville) — zéro nouvelle donnée à fetcher.
 
-import { CITIES_SEED } from "@/data/cities-seed";
 import { HOUSING } from "@/data/housing";
 import { fiscalityForCity } from "@/lib/fiscalite";
 import { computeBreakdown, type CostCalcInput } from "@/lib/cost-living";

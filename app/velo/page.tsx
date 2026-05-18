@@ -12,6 +12,7 @@ import {
 } from "@/lib/cycling-mobility";
 import { MACRO_REGIONS } from "@/lib/macro-regions";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { CITIES_COUNT } from "@/lib/site-stats";
 
 export const revalidate = false;
 
@@ -85,7 +86,7 @@ export default function CyclingHubPage() {
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
           <Badge>Synthèse pédagogique</Badge>
-          <Badge>4 dimensions · 540 villes</Badge>
+          <Badge>4 dimensions · {CITIES_COUNT} villes</Badge>
           <Badge>Pondération réseau 35 % · topo 25 % · sécurité 25 % · climat 15 %</Badge>
         </div>
 

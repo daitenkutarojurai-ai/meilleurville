@@ -12,6 +12,7 @@ import {
 } from "@/lib/environment-index";
 import { MACRO_REGIONS } from "@/lib/macro-regions";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { CITIES_COUNT } from "@/lib/site-stats";
 
 export const revalidate = false;
 
@@ -86,7 +87,7 @@ export default function EnvironmentHubPage() {
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
           <Badge>Synthèse pédagogique</Badge>
-          <Badge>4 dimensions · 540 villes</Badge>
+          <Badge>4 dimensions · {CITIES_COUNT} villes</Badge>
           <Badge>Pondération air 30 % · bruit 25 % · eau 25 % · risques 20 %</Badge>
         </div>
 

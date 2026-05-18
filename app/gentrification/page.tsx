@@ -7,11 +7,11 @@ import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
 import { rankGentrification, TRAJECTORY_META } from "@/lib/gentrification";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { CITIES_COUNT } from "@/lib/site-stats";
 
 export const metadata: Metadata = {
   title: "Index de gentrification 2026 — Villes qui montent en France",
-  description:
-    "Classement des villes françaises où la gentrification accélère : prix immobilier, démographie 25-35 ans, ouvertures (cafés / coworking), télétravailleurs. 352 villes, score composite 0-100.",
+  description: `Classement des villes françaises où la gentrification accélère : prix immobilier, démographie 25-35 ans, ouvertures (cafés / coworking), télétravailleurs. ${CITIES_COUNT} villes, score composite 0-100.`,
   alternates: { canonical: "/gentrification" },
 };
 
@@ -57,7 +57,7 @@ export default function GentrificationIndex() {
           <p className="text-[var(--text-secondary)] text-base max-w-2xl mx-auto">
             Quatre signaux composites : niveau de prix vs qualité de vie (DVF proxy),
             démographie 25-35 ans, ouvertures cafés / coworking, hausse télétravailleurs.
-            Score 0-100 sur les 352 villes du site. Données et formules ouvertes.
+            Score 0-100 sur les {CITIES_COUNT} villes du site. Données et formules ouvertes.
           </p>
         </div>
       </section>

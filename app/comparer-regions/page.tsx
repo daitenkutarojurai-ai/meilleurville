@@ -8,9 +8,9 @@ import { Badge } from "@/components/ui/Badge";
 import {
   METRO_REGIONS,
   REGION_EMOJIS,
-  REGION_TAGLINES,
   regionToSlug,
 } from "@/lib/regions";
+import { CITIES_COUNT } from "@/lib/site-stats";
 
 export const metadata: Metadata = {
   title: "Comparer les régions françaises — 78 comparatifs 2026",
@@ -137,7 +137,7 @@ export default function ComparerRegionsIndex() {
             <Link href="/quiz" className="underline text-[var(--accent)]">
               quiz de matching
             </Link>{" "}
-            faire le tri sur les 352 villes du site.
+            faire le tri sur les {CITIES_COUNT} villes du site.
           </p>
         </Card>
       </section>

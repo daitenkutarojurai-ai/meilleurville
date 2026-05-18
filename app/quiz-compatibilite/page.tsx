@@ -6,11 +6,11 @@ import { AmbientBackground } from "@/components/AmbientBackground";
 import { Badge } from "@/components/ui/Badge";
 import { CompatibilityQuiz } from "@/components/CompatibilityQuiz";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { CITIES_COUNT } from "@/lib/site-stats";
 
 export const metadata: Metadata = {
   title: "Quiz compatibilité ville — 10 questions, 5 villes 2026 | MeilleurVille",
-  description:
-    "Quiz de compatibilité ville : 10 questions sur votre budget, climat, situation, mode de travail. Algorithme calibré sur 352 villes françaises. Top 5 avec score % et explication par critère.",
+  description: `Quiz de compatibilité ville : 10 questions sur votre budget, climat, situation, mode de travail. Algorithme calibré sur ${CITIES_COUNT} villes françaises. Top 5 avec score % et explication par critère.`,
   alternates: { canonical: "/quiz-compatibilite" },
 };
 
@@ -36,7 +36,7 @@ export default function QuizCompatibilitePage() {
           </h1>
           <p className="text-[var(--text-secondary)] text-base max-w-2xl mx-auto">
             10 questions sur votre vie réelle (budget, climat, voiture, situation, priorités).
-            Algorithme calibré sur les 352 villes du site. Résultat : Top 5 avec score % et
+            Algorithme calibré sur les {CITIES_COUNT} villes du site. Résultat : Top 5 avec score % et
             décomposition critère par critère.
           </p>
         </div>
