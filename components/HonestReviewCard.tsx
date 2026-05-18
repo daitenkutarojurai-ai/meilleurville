@@ -2,6 +2,7 @@ import Link from "next/link";
 import { ThumbsUp, ThumbsDown, CheckCircle2, XCircle, Sparkles } from "lucide-react";
 import { Card } from "@/components/ui/Card";
 import { buildHonestReview } from "@/lib/honest-reviews";
+import { CITIES_COUNT } from "@/lib/site-stats";
 import type { CitySeed } from "@/data/cities-seed";
 
 interface Props {
@@ -127,7 +128,7 @@ export function HonestReviewCard({ city, compact = false }: Props) {
                     <span aria-hidden>{f.profile.emoji}</span>
                     {f.profile.label}
                     <span className="text-[11px] text-[var(--text-tertiary)] ml-1">
-                      (#{f.rank} sur {city.population ? "352" : "352"})
+                      (#{f.rank} sur {CITIES_COUNT})
                     </span>
                   </Link>
                 </li>
@@ -147,19 +148,30 @@ export function HonestReviewCard({ city, compact = false }: Props) {
             </span>
           </div>
           {review.avoidIf.length > 0 ? (
-            <ul className="space-y-1.5">
-              {review.avoidIf.map((f) => (
-                <li key={f.profile.slug} className="text-sm">
-                  <span className="inline-flex items-center gap-1 text-[var(--text-primary)]">
-                    <span aria-hidden>{f.profile.emoji}</span>
-                    Vous êtes <strong className="font-semibold">{f.profile.label.toLowerCase()}</strong>
-                  </span>
-                  <span className="text-[11px] text-[var(--text-tertiary)] block ml-5">
-                    #{f.rank} sur 352 — d&apos;autres villes sont mieux placées
-                  </span>
-                </li>
-              ))}
-            </ul>
+            <>
+              {review.avoidIf.some((f) => f.soft) && (
+                <p className="text-[11px] text-[var(--text-tertiary)] mb-2 italic">
+                  Aucun profil rédhibitoire — voici simplement les deux pour lesquels {city.name} est <em>moins forte</em> :
+                </p>
+              )}
+              <ul className="space-y-1.5">
+                {review.avoidIf.map((f) => (
+                  <li key={f.profile.slug} className="text-sm">
+                    <span className="inline-flex items-center gap-1 text-[var(--text-primary)]">
+                      <span aria-hidden>{f.profile.emoji}</span>
+                      {f.soft ? (
+                        <>Moins adaptée si vous êtes <strong className="font-semibold">{f.profile.label.toLowerCase()}</strong></>
+                      ) : (
+                        <>Vous êtes <strong className="font-semibold">{f.profile.label.toLowerCase()}</strong></>
+                      )}
+                    </span>
+                    <span className="text-[11px] text-[var(--text-tertiary)] block ml-5">
+                      #{f.rank} sur {CITIES_COUNT} — {f.soft ? "d'autres villes collent mieux à ce profil" : "d'autres villes sont mieux placées"}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            </>
           ) : (
             <p className="text-xs text-[var(--text-tertiary)]">
               Aucun profil pour lequel cette ville est nettement disqualifiée.

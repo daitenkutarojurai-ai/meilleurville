@@ -28,6 +28,10 @@ export interface HonestReviewProfileFit {
   rank: number; // 1 = best of 352
   score: number;
   reason: string;
+  /** True when the fit is just "moins bon" plutôt que rédhibitoire — used to
+      soften the wording in the « À éviter si » block when the city has no
+      profile in the bottom 30 (donc rien de vraiment disqualifiant). */
+  soft?: boolean;
 }
 
 export interface HonestReview {
@@ -38,7 +42,10 @@ export interface HonestReview {
   weaknesses: HonestReviewBullet[];
   /** Up to 2 profiles where city ranks in top 30 */
   perfectFor: HonestReviewProfileFit[];
-  /** Up to 2 profiles where city ranks bottom 30 */
+  /** Up to 2 profiles où la ville ressort moins. Quand aucun profil n'est
+      dans le bottom 30 (rien de rédhibitoire), on remonte malgré tout les
+      deux moins bonnes correspondances — flaggées `soft: true` pour que la
+      UI les présente comme une nuance, pas une mise en garde. */
   avoidIf: HonestReviewProfileFit[];
   /** One-liner verdict */
   oneLine: string;
@@ -166,7 +173,21 @@ export function buildHonestReview(city: CitySeed): HonestReview {
   });
   const total = CITIES_SEED.length;
   const perfectFor = fits.filter((f) => f.rank <= 30).sort((a, b) => a.rank - b.rank).slice(0, 2);
-  const avoidIf = fits.filter((f) => f.rank >= total - 30).sort((a, b) => b.rank - a.rank).slice(0, 2);
+  let avoidIf: HonestReviewProfileFit[] = fits
+    .filter((f) => f.rank >= total - 30)
+    .sort((a, b) => b.rank - a.rank)
+    .slice(0, 2);
+  if (avoidIf.length === 0) {
+    // Aucun profil rédhibitoire — on remonte les 2 moins bonnes
+    // correspondances (rank au-dessous de la médiane) et on les flagge
+    // `soft` pour que la UI les présente comme un simple « moins fort
+    // pour ce profil » plutôt qu'une mise en garde.
+    avoidIf = fits
+      .filter((f) => f.rank > total / 2)
+      .sort((a, b) => b.rank - a.rank)
+      .slice(0, 2)
+      .map((f) => ({ ...f, soft: true }));
+  }
 
   const oneLine = buildOneLine(city, strengths, weaknesses);
 

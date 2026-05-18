@@ -67,11 +67,11 @@ export function Footer() {
           {/* Brand */}
           <div>
             <Link href="/" className="flex items-center gap-2 mb-4">
-              <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-[#22C55E] to-[#15803D] shadow-lg shadow-[#22C55E]/40">
+              <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-[var(--accent)] shadow-lg shadow-[var(--accent)]/40">
                 <MapPin className="h-4 w-4 text-white" />
               </div>
               <span className="font-bold text-white text-lg">
-                Meilleur<span className="text-[#84CC16]">Ville</span>
+                Meilleur<span className="text-[var(--accent)]">Ville</span>
               </span>
             </Link>
             <p className="text-sm text-[#A8C4A8] leading-relaxed">
