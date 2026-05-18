@@ -279,6 +279,66 @@ export function bottomSynthesisGlobal(limit = 20, minPopulation = 0): SynthesisR
     .slice(0, limit);
 }
 
+// ─── Aggregate at region level (F67) ──────────────────────────────────────
+
+export interface RegionAverageSynthesis {
+  /** Région agrégée */
+  region: string;
+  /** Nombre de villes du seed dans la région */
+  cityCount: number;
+  /** Score global moyen (moyenne des 8 axes moyens) — 0-10, 10 = excellent */
+  global: number;
+  /** Écart-type entre axes moyens (cohérence du profil régional) */
+  spread: number;
+  /** Niveau qualitatif sur le global moyen */
+  level: SynthesisLevel;
+  /** Score moyen par axe, indexé par key (orientation positive) */
+  byAxis: Record<SynthesisAxis["key"], number>;
+}
+
+const AXIS_KEYS: readonly SynthesisAxis["key"][] = [
+  "cadre-de-vie",
+  "environnement",
+  "sante",
+  "emploi",
+  "velo",
+  "securite",
+  "demographie",
+  "services-publics",
+];
+
+/**
+ * Profil moyen d'une région sur les 8 axes synthèse F61.
+ * Réutilise le cache `getSynthesisRankings()` — zéro recompute.
+ * Renvoie `null` si aucune ville du seed n'appartient à la région.
+ */
+export function computeRegionAverageSynthesis(region: string): RegionAverageSynthesis | null {
+  const rows = getSynthesisRankings().filter((r) => r.region === region);
+  if (rows.length === 0) return null;
+  const n = rows.length;
+  const byAxis: Record<string, number> = {};
+  for (const k of AXIS_KEYS) {
+    const sum = rows.reduce((acc, r) => {
+      const ax = r.synthesis.axes.find((a) => a.key === k);
+      return acc + (ax?.score ?? 0);
+    }, 0);
+    byAxis[k] = Math.round((sum / n) * 10) / 10;
+  }
+  const axisValues = AXIS_KEYS.map((k) => byAxis[k]);
+  const global = Math.round((axisValues.reduce((s, v) => s + v, 0) / axisValues.length) * 10) / 10;
+  const variance =
+    axisValues.reduce((acc, v) => acc + (v - global) ** 2, 0) / axisValues.length;
+  const spread = Math.round(Math.sqrt(variance) * 10) / 10;
+  return {
+    region,
+    cityCount: n,
+    global,
+    spread,
+    level: levelFromScore(global),
+    byAxis: byAxis as Record<SynthesisAxis["key"], number>,
+  };
+}
+
 // ─── Personalized weighting (F64) ─────────────────────────────────────────
 
 /** 8 axis weights on a 1-5 scale. Normalized internally to sum 100 %. */

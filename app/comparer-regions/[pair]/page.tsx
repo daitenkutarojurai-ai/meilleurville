@@ -247,6 +247,24 @@ export default async function ComparerRegionsPage({ params }: Props) {
           </Card>
         )}
 
+        {/* F67 — Synthèse régionale 8 axes teaser */}
+        <Link
+          href={`/comparer-regions/${pair}/synthese`}
+          className="group flex flex-wrap items-center gap-3 rounded-2xl border border-[var(--accent)]/30 bg-[var(--accent)]/5 hover:border-[var(--accent)] hover:shadow-md transition-all px-5 py-4"
+        >
+          <span className="text-2xl shrink-0">✨</span>
+          <div className="flex-1 min-w-0">
+            <p className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
+              Synthèse régionale 8 axes — {a} vs {b}
+            </p>
+            <p className="text-xs text-[var(--text-secondary)] mt-0.5">
+              Profil moyen agrégé sur env / santé / emploi / cadre / vélo / sécurité /
+              démo / services publics. Verdict axe par axe.
+            </p>
+          </div>
+          <span className="text-sm text-[var(--accent)] font-medium shrink-0">Voir →</span>
+        </Link>
+
         {overallWinner && (
           <div className="rounded-2xl border border-emerald-400/30 bg-emerald-500/5 p-6 text-center">
             <p className="text-sm text-[var(--text-secondary)] mb-1">Vue d&apos;ensemble — scores moyens</p>

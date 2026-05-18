@@ -399,11 +399,18 @@ function comparerRegionsSection(): MetadataRoute.Sitemap {
   ];
   for (let i = 0; i < METRO_REGIONS.length; i++) {
     for (let j = i + 1; j < METRO_REGIONS.length; j++) {
+      const slug = `${regionToSlug(METRO_REGIONS[i])}-vs-${regionToSlug(METRO_REGIONS[j])}`;
       entries.push({
-        url: `${BASE_URL}/comparer-regions/${regionToSlug(METRO_REGIONS[i])}-vs-${regionToSlug(METRO_REGIONS[j])}`,
+        url: `${BASE_URL}/comparer-regions/${slug}`,
         lastModified: CITY_DATA_UPDATED,
         changeFrequency: "monthly" as const,
         priority: 0.55,
+      });
+      entries.push({
+        url: `${BASE_URL}/comparer-regions/${slug}/synthese`,
+        lastModified: CITY_DATA_UPDATED,
+        changeFrequency: "monthly" as const,
+        priority: 0.6,
       });
     }
   }
