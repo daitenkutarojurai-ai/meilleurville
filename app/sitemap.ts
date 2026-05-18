@@ -45,6 +45,7 @@ const SITEMAP_CHUNKS_FR = [
   "gentrification",
   "quitter",
   "cout-menage",
+  "vacances",
 ] as const;
 
 const SITEMAP_CHUNKS_EN = [
@@ -619,6 +620,27 @@ function coutMenageSection(): MetadataRoute.Sitemap {
   }));
 }
 
+function vacancesSection(): MetadataRoute.Sitemap {
+  const MONTH_SLUGS = [
+    "janvier", "février", "mars", "avril", "mai", "juin",
+    "juillet", "août", "septembre", "octobre", "novembre", "décembre",
+  ];
+  return [
+    {
+      url: `${BASE_URL}/vacances`,
+      lastModified: STATIC_UPDATED,
+      changeFrequency: "weekly",
+      priority: 0.85,
+    },
+    ...MONTH_SLUGS.map((slug) => ({
+      url: `${BASE_URL}/vacances/mois/${slug}`,
+      lastModified: STATIC_UPDATED,
+      changeFrequency: "weekly" as const,
+      priority: 0.75,
+    })),
+  ];
+}
+
 // Next 16 passes `id` as Promise<string>. See:
 // node_modules/next/dist/docs/01-app/03-api-reference/04-functions/generate-sitemaps.md
 export default async function sitemap({ id }: { id: Promise<string> }): Promise<MetadataRoute.Sitemap> {
@@ -639,6 +661,7 @@ export default async function sitemap({ id }: { id: Promise<string> }): Promise<
     case "gentrification": return gentrificationSection();
     case "quitter": return quitterSection();
     case "cout-menage": return coutMenageSection();
+    case "vacances": return vacancesSection();
     case "en-static": return enStaticSection();
     case "en-cities": return enCitySection();
     case "en-rankings": return enRankingsSection();

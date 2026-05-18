@@ -11,6 +11,7 @@ const LINKS = {
     { label: "Leaderboard", href: "/leaderboard" },
     { label: "Comparer", href: "/comparer" },
     { label: "Red Flag Radar", href: "/red-flags" },
+    { label: "Vacances en France", href: "/vacances" },
   ],
   "Guides & IA": [
     { label: "Trouver ma ville", href: "/quiz" },

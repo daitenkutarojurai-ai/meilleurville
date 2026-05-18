@@ -37,6 +37,7 @@ const NAV_MOBILE_ONLY: NavItem[] = [
   { label: "Cadre de vie", href: "/cadre-de-vie", emoji: "🌿", matchPrefix: "/cadre-de-vie" },
   { label: "Carte",       href: "/carte",       emoji: "🗺️", matchPrefix: "/carte" },
   { label: "Red Flags",   href: "/red-flags",   emoji: "🚩", matchPrefix: "/red-flags" },
+  { label: "Vacances",    href: "/vacances",    emoji: "🌴", matchPrefix: "/vacances" },
   { label: "Simulateur", href: "/#simulateur", emoji: "💸" },
   { label: "Contact", href: "/contact", emoji: "✉️", matchPrefix: "/contact" },
 ];
