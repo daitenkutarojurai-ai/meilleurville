@@ -10,7 +10,7 @@ import { CITIES_COUNT } from "@/lib/site-stats";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 
 export const metadata: Metadata = {
-  title: "Carte gentrification France 2026 — Heatmap par région",
+  title: "Carte gentrification France 2026 · Heatmap par région",
   description: `Carte de la gentrification en France 2026 : score moyen par région, top villes en montée rapide, déjà en cours, ou potentiel à 5 ans. ${CITIES_COUNT} villes analysées.`,
   alternates: { canonical: "/gentrification/carte" },
 };

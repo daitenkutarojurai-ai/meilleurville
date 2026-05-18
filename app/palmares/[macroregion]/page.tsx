@@ -32,11 +32,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const macro = getMacroRegion(macroregion);
   if (!macro) return {};
   return {
-    title: `Palmarès — ${macro.label} 2026 | meilleur cadre de vie toutes dimensions`,
+    title: `Palmarès · ${macro.label} 2026 | meilleur cadre de vie toutes dimensions`,
     description: `Classement universel synthèse 8 axes (env, santé, emploi, cadre, vélo, sécurité, démo, services) restreint aux villes de la macro-région ${macro.label}. Top profils favorables vs. tendus.`,
     alternates: { canonical: `/palmares/${macro.slug}` },
     openGraph: {
-      title: `Palmarès — ${macro.label}`,
+      title: `Palmarès · ${macro.label}`,
       description: `Classement synthèse 8 axes par ville de la macro-région ${macro.label}.`,
     },
   };

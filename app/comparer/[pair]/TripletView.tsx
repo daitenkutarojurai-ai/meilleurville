@@ -103,7 +103,7 @@ export function TripletView({ cities, slug }: { cities: SeedCity[]; slug: string
               },
               {
                 "@type": "ItemList",
-                name: `${a.name} vs ${b.name} vs ${c.name} — Comparaison`,
+                name: `${a.name} vs ${b.name} vs ${c.name} · Comparaison`,
                 itemListElement: cities.map((city, i) => ({
                   "@type": "ListItem",
                   position: i + 1,

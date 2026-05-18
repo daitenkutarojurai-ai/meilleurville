@@ -8,12 +8,12 @@ import { LeaderboardTable } from "@/components/LeaderboardTable";
 import { CITIES_SEED } from "@/data/cities-seed";
 
 export const metadata: Metadata = {
-  title: "Leaderboard — Top villes France par qualité de vie | MeilleurVille",
+  title: "Leaderboard · Top villes France par qualité de vie | MeilleurVille",
   description:
     "Le classement global des meilleures villes françaises par qualité de vie, agrégé sur 9 critères : nature, transport, coût, sécurité, culture, écoles.",
   alternates: { canonical: "/leaderboard" },
   openGraph: {
-    title: "Leaderboard — Top villes France par qualité de vie",
+    title: "Leaderboard · Top villes France par qualité de vie",
     description: "Score global agrégé sur 9 critères de qualité de vie. Classement des meilleures villes françaises.",
     type: "website",
   },

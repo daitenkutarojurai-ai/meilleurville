@@ -18,7 +18,7 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Mon tableau de bord — MeilleurVille",
+  title: "Mon tableau de bord · MeilleurVille",
   description: "Gérez vos villes sauvegardées, avis, alertes et rapport IA personnalisé.",
 };
 

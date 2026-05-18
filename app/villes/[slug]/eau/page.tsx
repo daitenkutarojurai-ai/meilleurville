@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!city) return {};
   const s = computeWaterStress(city);
   return {
-    title: `Stress hydrique à ${city.name} — sécheresse, restrictions, nappes`,
+    title: `Stress hydrique à ${city.name} · sécheresse, restrictions, nappes`,
     description: `Synthèse du stress hydrique à ${city.name} (${city.department}) : restrictions sécheresse ${WATER_LEVEL_LABEL[s.restrictions.level].toLowerCase()}, nappes ${WATER_LEVEL_LABEL[s.aquifer.level].toLowerCase()}, climat ${WATER_LEVEL_LABEL[s.climate.level].toLowerCase()}, eau potable ${WATER_LEVEL_LABEL[s.supply.level].toLowerCase()}. Score ${s.composite}/10.`,
     alternates: { canonical: `/villes/${slug}/eau` },
     openGraph: {

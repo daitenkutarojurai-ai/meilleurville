@@ -11,6 +11,7 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
+import { MapPin, ChevronRight } from "lucide-react";
 import { Card } from "@/components/ui/Card";
 import {
   computeBreakdown,
@@ -217,14 +218,25 @@ export function HiddenCostsCalculator({ input }: Props) {
         valeurs sont médianes — votre situation réelle peut différer.
       </p>
 
-      <div className="text-center">
-        <Link
-          href={`/villes/${input.citySlug}`}
-          className="inline-flex items-center gap-1 text-sm text-[var(--accent)] underline hover:opacity-80"
-        >
-          Fiche complète de {input.cityName} →
-        </Link>
-      </div>
+      <Link
+        href={`/villes/${input.citySlug}`}
+        className="group block rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-4 hover:border-[var(--accent)]/40 hover:shadow-md transition-all mt-4"
+      >
+        <div className="flex items-start gap-3">
+          <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-[var(--accent)]/10 text-[var(--accent)]">
+            <MapPin className="h-5 w-5" />
+          </div>
+          <div className="min-w-0 flex-1">
+            <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
+              Voir la fiche complète de {input.cityName}
+            </div>
+            <div className="text-xs text-[var(--text-secondary)] mt-0.5">
+              Scores 8 axes · loyers · quartiers · climat · sécurité · marché du travail.
+            </div>
+          </div>
+          <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors shrink-0 mt-1" />
+        </div>
+      </Link>
     </div>
   );
 }

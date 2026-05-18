@@ -64,7 +64,7 @@ export function CityJsonLd({ city }: { city: CitySeed & { reviewCount?: number }
         "@type": "ItemPage",
         "@id": `${baseUrl}/villes/${city.slug}#webpage`,
         url: `${baseUrl}/villes/${city.slug}`,
-        name: `Avis sur ${city.name} — Qualité de vie ${city.scores.global}/10`,
+        name: `Avis sur ${city.name} · Qualité de vie ${city.scores.global}/10`,
         description: `Découvrez ${city.name} : scores de qualité de vie, avis d'habitants, quartiers et classements.`,
         aggregateRating: (city.reviewCount ?? 0) > 0
           ? {

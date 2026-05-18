@@ -34,11 +34,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const country = getExpatCountry(stripDepuisPrefix(pays));
   if (!country) return {};
   return {
-    title: `Rentrer en France depuis ${country.name} 2026 — Guide pratique | MeilleurVille`,
+    title: `Rentrer en France depuis ${country.name} 2026 · Guide pratique | MeilleurVille`,
     description: `Salaire net, loyer, fiscalité, santé, admin : ce qui change vraiment quand on rentre en France depuis ${country.name}. Avec villes recommandées (frontalières + métropoles).`,
     alternates: { canonical: `/expat-retour/${pays}` },
     openGraph: {
-      title: `Rentrer de ${country.name} en France — Guide 2026`,
+      title: `Rentrer de ${country.name} en France · Guide 2026`,
       description: country.intro.slice(0, 160),
     },
   };

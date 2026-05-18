@@ -39,11 +39,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const city = CITIES_SEED.find((c) => c.slug === ville);
   if (!city) return {};
   return {
-    title: `Coût réel mensuel à ${city.name} 2026 — Calculateur (loyer, voiture, taxes)`,
+    title: `Coût réel mensuel à ${city.name} 2026 · Calculateur (loyer, voiture, taxes)`,
     description: `Calcul honnête du coût de la vie à ${city.name} : loyer T2 médian, chauffage selon zone climatique, voiture ou transports, taxe foncière, TEOM. Comparatif vs Paris.`,
     alternates: { canonical: `/calculateur-cout-reel/${ville}` },
     openGraph: {
-      title: `Coût réel mensuel à ${city.name} — Calculateur 2026`,
+      title: `Coût réel mensuel à ${city.name} · Calculateur 2026`,
       description: `Toutes les charges fixes (loyer, énergie, mobilité, taxes) en une page. Saisissez votre salaire, voyez le reste à vivre.`,
     },
   };

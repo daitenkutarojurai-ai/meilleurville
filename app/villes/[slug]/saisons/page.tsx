@@ -25,11 +25,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const city = CITIES_SEED.find((c) => c.slug === slug);
   if (!city) return {};
   return {
-    title: `Vivre à ${city.name} selon la saison — Climat, tourisme, prix 2026`,
+    title: `Vivre à ${city.name} selon la saison · Climat, tourisme, prix 2026`,
     description: `Tout savoir sur les saisons à ${city.name} : températures par saison, ensoleillement, pression touristique. Quel mois est le meilleur pour s'installer ou visiter ?`,
     alternates: { canonical: `/villes/${slug}/saisons` },
     openGraph: {
-      title: `${city.name} — Vivre par saison`,
+      title: `${city.name} · Vivre par saison`,
       description: `Climat saison par saison, affluence touristique, signatures locales.`,
     },
   };

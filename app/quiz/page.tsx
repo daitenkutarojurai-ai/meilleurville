@@ -7,11 +7,11 @@ import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";
 
 export const metadata: Metadata = {
-  title: "Quiz — Trouvez votre ville idéale en France | MeilleurVille",
+  title: "Quiz · Trouvez votre ville idéale en France | MeilleurVille",
   description: `Quiz de matching en 3 minutes : 6 questions pour trouver la ville française parfaite pour vous. Algorithme pondéré sur ${CITIES_COUNT} villes.`,
   alternates: { canonical: "/quiz" },
   openGraph: {
-    title: "Quiz de matching — Trouvez votre ville idéale",
+    title: "Quiz de matching · Trouvez votre ville idéale",
     description: `3 minutes · 6 questions · ${CITIES_COUNT} villes analysées. Quel est votre profil géographique ?`,
     type: "website",
   },

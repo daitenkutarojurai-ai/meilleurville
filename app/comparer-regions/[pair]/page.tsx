@@ -78,11 +78,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!parsed) return {};
   const { a, b } = parsed;
   return {
-    title: `${a} vs ${b} — Comparatif régions 2026 | MeilleurVille`,
+    title: `${a} vs ${b} · Comparatif régions 2026 | MeilleurVille`,
     description: `Comparaison complète entre ${a} et ${b} : coût de la vie, climat, immobilier, scores qualité de vie, meilleures villes. Données calibrées sur les ${CITIES_COUNT} villes du site.`,
     alternates: { canonical: `/comparer-regions/${pair}` },
     openGraph: {
-      title: `${a} vs ${b} — Quelle région choisir ?`,
+      title: `${a} vs ${b} · Quelle région choisir ?`,
       description: `Comparatif côté coût, climat, immobilier, scores. Verdict par profil.`,
     },
   };

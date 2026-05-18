@@ -8,7 +8,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CITIES_COUNT, GUIDES_COUNT, GLOSSARY_TERMS_COUNT } from "@/lib/site-stats";
 
 export const metadata: Metadata = {
-  title: "Outils — Quiz, simulateur, glossaire, calendrier | MeilleurVille",
+  title: "Outils · Quiz, simulateur, glossaire, calendrier | MeilleurVille",
   description:
     "Tous les outils MeilleurVille pour choisir, comparer, simuler. Quiz IA, simulateur de pouvoir d'achat, glossaire immobilier, calendrier de saisonnalité, comparateur de villes.",
   alternates: { canonical: "/outils" },

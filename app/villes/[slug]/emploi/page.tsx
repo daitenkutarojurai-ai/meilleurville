@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!city) return {};
   const e = computeEmploymentMarket(city);
   return {
-    title: `Emploi & chômage à ${city.name} — marché du travail 2026`,
+    title: `Emploi & chômage à ${city.name} · marché du travail 2026`,
     description: `Synthèse du marché du travail à ${city.name} (${city.department}) : chômage ${JOB_LEVEL_LABEL[e.unemployment.level].toLowerCase()}, dynamisme ${JOB_LEVEL_LABEL[e.dynamism.level].toLowerCase()}, mix sectoriel ${JOB_LEVEL_LABEL[e.sectorMix.level].toLowerCase()}, salaires ${JOB_LEVEL_LABEL[e.salary.level].toLowerCase()}. Score ${(10 - e.composite).toFixed(1)}/10 (10 = marché dynamique).`,
     alternates: { canonical: `/villes/${slug}/emploi` },
     openGraph: {

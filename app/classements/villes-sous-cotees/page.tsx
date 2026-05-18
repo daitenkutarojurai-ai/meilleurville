@@ -11,7 +11,7 @@ import { scoreColor } from "@/lib/utils";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 
 export const metadata: Metadata = {
-  title: "Villes françaises sous-cotées 2026 — Petites villes à découvrir",
+  title: "Villes françaises sous-cotées 2026 · Petites villes à découvrir",
   description:
     "Top 30 villes françaises sous-cotées : < 80 000 habitants, qualité de vie ≥ 6/10, prix m² accessibles. Les pépites discrètes que personne ne mentionne.",
   alternates: { canonical: "/classements/villes-sous-cotees" },

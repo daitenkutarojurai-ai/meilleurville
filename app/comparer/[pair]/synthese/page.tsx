@@ -43,11 +43,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     if (cities.some((c) => !c)) return {};
     const [a, b, c] = cities as NonNullable<(typeof cities)[number]>[];
     return {
-      title: `${a.name} vs ${b.name} vs ${c.name} — synthèse 8 axes 3 villes 2026`,
+      title: `${a.name} vs ${b.name} vs ${c.name} · synthèse 8 axes 3 villes 2026`,
       description: `Comparatif à 3 entre ${a.name}, ${b.name} et ${c.name} sur les 8 dimensions data : environnement, santé, emploi, cadre de vie, vélo, sécurité, démographie, services publics. Verdict axe par axe.`,
       alternates: { canonical: `/comparer/${pair}/synthese` },
       openGraph: {
-        title: `${a.name} vs ${b.name} vs ${c.name} — synthèse 8 axes`,
+        title: `${a.name} vs ${b.name} vs ${c.name} · synthèse 8 axes`,
         description: `Les 8 dimensions data du site comparées entre 3 villes.`,
       },
     };
@@ -57,11 +57,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const cityB = CITIES_SEED.find((c) => c.slug === parts[1]);
   if (!cityA || !cityB) return {};
   return {
-    title: `${cityA.name} vs ${cityB.name} — synthèse 8 axes comparée 2026`,
+    title: `${cityA.name} vs ${cityB.name} · synthèse 8 axes comparée 2026`,
     description: `Comparatif ${cityA.name} vs ${cityB.name} sur les 8 dimensions data : environnement, santé, emploi, cadre de vie, vélo, sécurité, démographie, services publics. Verdict axe par axe.`,
     alternates: { canonical: `/comparer/${pair}/synthese` },
     openGraph: {
-      title: `${cityA.name} vs ${cityB.name} — synthèse 8 axes`,
+      title: `${cityA.name} vs ${cityB.name} · synthèse 8 axes`,
       description: `Les 8 dimensions data du site comparées côte à côte.`,
     },
   };

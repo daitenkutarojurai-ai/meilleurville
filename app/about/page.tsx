@@ -7,7 +7,7 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 
 export const metadata: Metadata = {
-  title: "À propos — MeilleurVille",
+  title: "À propos · MeilleurVille",
   description:
     "Découvrez la mission de MeilleurVille : aider chaque Français à trouver la ville faite pour lui, avec des données réelles et des avis honnêtes.",
   alternates: { canonical: "/about" },

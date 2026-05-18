@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!city) return {};
   const s = computePublicServices(city);
   return {
-    title: `Services publics à ${city.name} — écoles, Poste, mairie, médiathèque`,
+    title: `Services publics à ${city.name} · écoles, Poste, mairie, médiathèque`,
     description: `Accès aux services publics à ${city.name} (${city.department}) : écoles ${SERVICES_LEVEL_LABEL[s.schools.level].toLowerCase()}, La Poste ${SERVICES_LEVEL_LABEL[s.postOffice.level].toLowerCase()}, mairie ${SERVICES_LEVEL_LABEL[s.cityHall.level].toLowerCase()}, médiathèque ${SERVICES_LEVEL_LABEL[s.library.level].toLowerCase()}. Score ${(10 - s.composite).toFixed(1)}/10 (10 = maillage complet).`,
     alternates: { canonical: `/villes/${slug}/services-publics` },
     openGraph: {

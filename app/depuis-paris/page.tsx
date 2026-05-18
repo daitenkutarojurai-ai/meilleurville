@@ -8,11 +8,11 @@ import { parisCommuteAll } from "@/lib/paris-commute";
 import { scoreColor, formatScore } from "@/lib/utils";
 
 export const metadata: Metadata = {
-  title: "Les villes les plus accessibles depuis Paris en train — Classement 2026",
+  title: "Les villes les plus accessibles depuis Paris en train · Classement 2026",
   description: "Temps de trajet ferroviaire Paris ↔ chaque ville française. Top villes < 1 h, < 2 h, < 3 h depuis Paris-gares. Idéal télétravailleurs et week-end commuters.",
   alternates: { canonical: "/depuis-paris" },
   openGraph: {
-    title: "Depuis Paris en train — Classement 2026",
+    title: "Depuis Paris en train · Classement 2026",
     description: "Temps de trajet TGV/TER Paris ↔ chaque ville française. Estimation horaires SNCF + accès local.",
   },
 };

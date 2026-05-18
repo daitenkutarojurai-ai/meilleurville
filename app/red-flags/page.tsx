@@ -12,7 +12,7 @@ import { vigilanceSummary } from "@/lib/red-flags-summary";
 import { RED_FLAG_THEMES } from "@/lib/red-flag-themes";
 
 export const metadata: Metadata = {
-  title: "Red Flag Radar — Signalements communautaires | MeilleurVille",
+  title: "Red Flag Radar · Signalements communautaires | MeilleurVille",
   description:
     "Découvrez les alertes et signalements communautaires : bruit, inondation, pollution, insécurité. Ce que l'annonce immobilière ne vous dit jamais.",
   alternates: { canonical: "/red-flags" },

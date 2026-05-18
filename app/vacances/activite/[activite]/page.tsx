@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!ACTIVITIES.includes(activite as ActivitySlug)) return {};
   const def = ACTIVITY_DEFS[activite as ActivitySlug];
   return {
-    title: `Vacances ${def.label.toLowerCase()} en France 2026 — top destinations`,
+    title: `Vacances ${def.label.toLowerCase()} en France 2026 · top destinations`,
     description: def.metaDesc,
     alternates: { canonical: `/vacances/activite/${activite}` },
     openGraph: {

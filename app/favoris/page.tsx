@@ -5,7 +5,7 @@ import { AmbientBackground } from "@/components/AmbientBackground";
 import { FavoritesGrid } from "./FavoritesGrid";
 
 export const metadata: Metadata = {
-  title: "Mes villes favorites — MeilleurVille",
+  title: "Mes villes favorites · MeilleurVille",
   description: "Toutes les villes que vous avez sauvegardées sur MeilleurVille.",
   robots: { index: false, follow: true },
 };

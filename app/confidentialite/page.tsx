@@ -4,7 +4,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Politique de confidentialité — MeilleurVille",
+  title: "Politique de confidentialité · MeilleurVille",
   description: "Politique de confidentialité de MeilleurVille : données collectées, cookies, droits des utilisateurs.",
 };
 

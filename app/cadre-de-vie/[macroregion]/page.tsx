@@ -32,11 +32,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const macro = getMacroRegion(macroregion);
   if (!macro) return {};
   return {
-    title: `Meilleur cadre de vie — ${macro.label} 2026`,
+    title: `Meilleur cadre de vie · ${macro.label} 2026`,
     description: `Méga-index « Cadre de Vie » (environnement + santé + emploi) restreint aux villes de la macro-région ${macro.label}. Top villes pour vivre.`,
     alternates: { canonical: `/cadre-de-vie/${macro.slug}` },
     openGraph: {
-      title: `Cadre de vie — ${macro.label}`,
+      title: `Cadre de vie · ${macro.label}`,
       description: `Méga-index F52 par ville de la macro-région ${macro.label}.`,
     },
   };

@@ -25,11 +25,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const city = CITIES_SEED.find((c) => c.slug === slug);
   if (!city) return {};
   return {
-    title: `Avis honnête sur ${city.name} 2026 — Points forts, faiblesses, profils adaptés`,
+    title: `Avis honnête sur ${city.name} 2026 · Points forts, faiblesses, profils adaptés`,
     description: `Synthèse honnête sur ${city.name} : ce qui marche vraiment, ce qui cloche, pour qui c'est fait. Dérivée des 8 axes seed + 10 owner scores + classement parmi 10 profils.`,
     alternates: { canonical: `/villes/${slug}/avis-honnete` },
     openGraph: {
-      title: `Avis honnête sur ${city.name} — Points forts et faiblesses`,
+      title: `Avis honnête sur ${city.name} · Points forts et faiblesses`,
       description: `Coups de cœur, points de vigilance, profils qui s'y plaisent (ou pas). Synthèse zéro chiffre inventé.`,
     },
   };

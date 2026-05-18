@@ -32,11 +32,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const macro = getMacroRegion(macroregion);
   if (!macro) return {};
   return {
-    title: `Sécurité SSMSI — ${macro.label} 2026`,
+    title: `Sécurité SSMSI · ${macro.label} 2026`,
     description: `Classement composite sécurité SSMSI (biens, personnes, nuit, VFFS) restreint aux villes de la macro-région ${macro.label}. Plus calmes vs. plus tendues.`,
     alternates: { canonical: `/securite/${macro.slug}` },
     openGraph: {
-      title: `Sécurité SSMSI — ${macro.label}`,
+      title: `Sécurité SSMSI · ${macro.label}`,
       description: `Index composite F58 par ville de la macro-région ${macro.label}.`,
     },
   };

@@ -29,11 +29,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const city = CITIES_SEED.find((c) => c.slug === slug);
   if (!city) return {};
   return {
-    title: `Télétravailler à ${city.name} 2026 — Fibre, coworking, coût réel`,
+    title: `Télétravailler à ${city.name} 2026 · Fibre, coworking, coût réel`,
     description: `${city.name} pour le télétravail : couverture fibre département, score qualité de vie, coût télétravailleur mensuel, profil idéal. Données calibrées sur les ${CITIES_COUNT} villes du site.`,
     alternates: { canonical: `/villes/${slug}/teletravail` },
     openGraph: {
-      title: `Télétravailler à ${city.name} — Guide 2026`,
+      title: `Télétravailler à ${city.name} · Guide 2026`,
       description: `FTTH, coworking, coût mensuel, profil adapté.`,
     },
   };

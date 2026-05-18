@@ -44,7 +44,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const best = bestMonthsFor(city);
   const months = best.map((m) => formatMonthLabel(m).toLowerCase()).join(", ");
   return {
-    title: `Vacances à ${city.name} 2026 — quand y aller, quoi y faire`,
+    title: `Vacances à ${city.name} 2026 · quand y aller, quoi y faire`,
     description: `Quand partir à ${city.name} (${city.department}) : meilleurs mois ${months}. Climat, affluence, activités où la ville excelle. Score adéquation vacances + lien hôtels.`,
     alternates: { canonical: `/vacances/${city.slug}` },
     openGraph: {

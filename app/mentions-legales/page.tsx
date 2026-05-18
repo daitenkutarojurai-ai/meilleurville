@@ -4,7 +4,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Mentions légales — MeilleurVille",
+  title: "Mentions légales · MeilleurVille",
   description: "Mentions légales de MeilleurVille : éditeur, hébergeur, contact.",
 };
 

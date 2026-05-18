@@ -7,14 +7,14 @@ import { Card } from "@/components/ui/Card";
 import { CITIES_SEED } from "@/data/cities-seed";
 
 export const metadata: Metadata = {
-  title: "Données & Sources — MeilleurVille",
+  title: "Données & Sources · MeilleurVille",
   description:
     "Transparence totale sur les sources de données MeilleurVille : INSEE, Open Data, avis habitants. Tout est documenté et téléchargeable.",
 };
 
 const SOURCES = [
   {
-    name: "INSEE — Recensement",
+    name: "INSEE · Recensement",
     category: "Données démographiques",
     description: "Population, structure d'âge, catégories socio-professionnelles, taux de chômage.",
     update: "Annuel",
@@ -23,7 +23,7 @@ const SOURCES = [
     url: "https://www.insee.fr",
   },
   {
-    name: "data.gouv.fr — DVF",
+    name: "data.gouv.fr · DVF",
     category: "Immobilier",
     description: "Demandes de valeurs foncières : prix de vente des biens immobiliers par commune.",
     update: "Semestriel",
@@ -59,7 +59,7 @@ const SOURCES = [
     url: "https://open-meteo.com",
   },
   {
-    name: "Préfectures — État 4001",
+    name: "Préfectures · État 4001",
     category: "Sécurité",
     description: "Statistiques de criminalité par type d'acte et par commune (crimes et délits enregistrés).",
     update: "Annuel",
@@ -68,7 +68,7 @@ const SOURCES = [
     url: "https://data.gouv.fr",
   },
   {
-    name: "RPPS — Répertoire médecins",
+    name: "RPPS · Répertoire médecins",
     category: "Santé",
     description: "Densité de médecins généralistes et spécialistes par commune.",
     update: "Mensuel",

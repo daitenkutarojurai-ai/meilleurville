@@ -7,7 +7,7 @@ import { t, ORIGIN_BY_LOCALE } from "@/lib/i18n";
 const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const metadata: Metadata = {
-  title: "City-matching quiz — Which French city is right for you?",
+  title: "City-matching quiz · Which French city is right for you?",
   description:
     "Answer 10 questions about budget, climate, family, work style and lifestyle priorities. We surface 5 French cities that genuinely match — no fluff, no sponsored slots.",
   alternates: { canonical: `${EN_BASE}/quiz` },

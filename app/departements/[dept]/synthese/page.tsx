@@ -29,11 +29,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!dept) return {};
   const count = CITIES_SEED.filter((c) => c.department === dept).length;
   return {
-    title: `Synthèse 8 axes — ${dept} | palmarès des villes du département`,
+    title: `Synthèse 8 axes · ${dept} | palmarès des villes du département`,
     description: `Classement synthèse F61 des ${count} villes du département ${dept} sur les 8 dimensions data (environnement, santé, emploi, cadre de vie, vélo, sécurité, démographie, services publics). Convention 10 = excellent.`,
     alternates: { canonical: `/departements/${deptSlug}/synthese` },
     openGraph: {
-      title: `Synthèse — ${dept}`,
+      title: `Synthèse · ${dept}`,
       description: `Les villes du département ${dept} classées sur les 8 axes data du site.`,
     },
   };

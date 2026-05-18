@@ -8,7 +8,7 @@ import { CommentSection } from "@/components/CommentSection";
 import { ContactForm } from "./ContactForm";
 
 export const metadata: Metadata = {
-  title: "Contact — MeilleurVille",
+  title: "Contact · MeilleurVille",
   description:
     "Contactez l'équipe MeilleurVille : signaler une erreur, proposer une ville, partenariat presse ou data.",
 };

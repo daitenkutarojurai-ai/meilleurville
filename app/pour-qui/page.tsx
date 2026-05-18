@@ -9,7 +9,7 @@ import { PROFILE_PAGES } from "@/lib/profile-pages";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 
 export const metadata: Metadata = {
-  title: "Pour qui — Villes françaises adaptées à votre profil 2026",
+  title: "Pour qui · Villes françaises adaptées à votre profil 2026",
   description:
     "10 profils de vie, 10 top 20 villes adaptées : familles, jeunes actifs, retraités, freelances, télétravailleurs, étudiants, sans voiture, premium, femme seule, expat retour.",
   alternates: { canonical: "/pour-qui" },

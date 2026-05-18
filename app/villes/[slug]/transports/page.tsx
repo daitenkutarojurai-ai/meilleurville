@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     ? `${tags.join(" · ")} — score transports ${city.scores.transport.toFixed(1)}/10.`
     : `Score transports ${city.scores.transport.toFixed(1)}/10. Réseau urbain limité, mobilité majoritairement voiture/bus.`;
   return {
-    title: `Transports à ${city.name} — Métro, tram, TGV, vélo | MeilleurVille`,
+    title: `Transports à ${city.name} · Métro, tram, TGV, vélo | MeilleurVille`,
     description: `Réseau de transports à ${city.name} : ${summary} Sans-voiture, accessibilité, comparé à ${CITIES_SEED.length} villes.`,
     alternates: { canonical: `/villes/${slug}/transports` },
     openGraph: {

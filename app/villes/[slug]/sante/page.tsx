@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!city) return {};
   const h = computeHealthcareAccess(city);
   return {
-    title: `Désert médical à ${city.name} ? — accès aux soins 2026`,
+    title: `Désert médical à ${city.name} ? · accès aux soins 2026`,
     description: `Synthèse de l'accès aux soins à ${city.name} (${city.department}) : médecins ${HEALTH_LEVEL_LABEL[h.generalistes.level].toLowerCase()}, spécialistes ${HEALTH_LEVEL_LABEL[h.specialistes.level].toLowerCase()}, urgences ${HEALTH_LEVEL_LABEL[h.urgences.level].toLowerCase()}, pharmacies ${HEALTH_LEVEL_LABEL[h.pharmacies.level].toLowerCase()}. Score composite ${(10 - h.composite).toFixed(1)}/10 (10 = excellent accès).`,
     alternates: { canonical: `/villes/${slug}/sante` },
     openGraph: {

@@ -311,11 +311,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     ? `Drapeaux à vérifier : ${top.join(", ")}.`
     : "Aucun drapeau majeur, profil de risque globalement maîtrisé.";
   return {
-    title: `Red Flags ${city.name} — Risques connus & sources publiques 2026 | MeilleurVille`,
+    title: `Red Flags ${city.name} · Risques connus & sources publiques 2026 | MeilleurVille`,
     description: `Ce qu'on ne vous dit pas avant de signer à ${city.name} : sécurité, inondation, canicule, pollution, sismicité, coût. ${teaser} Sources : Géorisques, SSMSI, ATMO, BRGM.`,
     alternates: { canonical: `/red-flags/${slug}` },
     openGraph: {
-      title: `Red Flags ${city.name} — 2026`,
+      title: `Red Flags ${city.name} · 2026`,
       description: teaser,
       type: "article",
     },
@@ -357,11 +357,11 @@ export default async function CityRedFlagsPage({ params }: Props) {
   const itemListJsonLd = {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    name: `Drapeaux red-flag — ${city.name}`,
+    name: `Drapeaux red-flag · ${city.name}`,
     itemListElement: ordered.map((f, i) => ({
       "@type": "ListItem",
       position: i + 1,
-      name: `${f.label} — ${LEVEL_META[f.level].label}`,
+      name: `${f.label} · ${LEVEL_META[f.level].label}`,
     })),
   };
 

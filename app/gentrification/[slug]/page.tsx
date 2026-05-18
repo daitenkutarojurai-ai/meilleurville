@@ -28,11 +28,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const row = computeGentrification(city);
   const traj = TRAJECTORY_META[row.trajectory];
   return {
-    title: `Gentrification ${city.name} 2026 — ${traj.label} · Score ${row.score.toFixed(0)}/100`,
+    title: `Gentrification ${city.name} 2026 · ${traj.label} · Score ${row.score.toFixed(0)}/100`,
     description: `${city.name} : trajectoire ${traj.label.toLowerCase()} (score ${row.score.toFixed(1)}/100). Évolution prix immobilier, démographie 25-35 ans, ouvertures et télétravailleurs. Analyse complète.`,
     alternates: { canonical: `/gentrification/${slug}` },
     openGraph: {
-      title: `${city.name} — Gentrification ${traj.label}`,
+      title: `${city.name} · Gentrification ${traj.label}`,
       description: `Score composite ${row.score.toFixed(1)}/100 sur 4 signaux : prix, démographie, ouvertures, télétravail.`,
     },
   };

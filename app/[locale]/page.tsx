@@ -9,7 +9,7 @@ import { CITIES_COUNT } from "@/lib/site-stats";
 const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const metadata: Metadata = {
-  title: "BestCitiesInFrance — Find the French city that fits you",
+  title: "BestCitiesInFrance · Find the French city that fits you",
   description: `AI + lived experience + ${CITIES_COUNT} cities of official data. Rankings, resident reviews, lifestyle-matching quiz — independent and unbiased.`,
   alternates: {
     canonical: `${EN_BASE}/`,
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     siteName: "BestCitiesInFrance",
     url: `${EN_BASE}/`,
-    title: "BestCitiesInFrance — Find the French city that fits you",
+    title: "BestCitiesInFrance · Find the French city that fits you",
     description: `AI + lived experience + ${CITIES_COUNT} cities of official data. Rankings, resident reviews, lifestyle-matching quiz.`,
   },
 };

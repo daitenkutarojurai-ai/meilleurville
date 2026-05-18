@@ -9,7 +9,7 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 
 export const metadata: Metadata = {
-  title: "Widget MeilleurVille — Intégrer un badge ville 2026 (gratuit)",
+  title: "Widget MeilleurVille · Intégrer un badge ville 2026 (gratuit)",
   description:
     "Générez un widget gratuit < 10 KB à intégrer sur votre site (agence immo, blog, marketplace) : badge score ville, top 3 critères, comparatif 2 villes. Backlink dofollow inclus.",
   alternates: { canonical: "/widget" },

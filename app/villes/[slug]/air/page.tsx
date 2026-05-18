@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!city) return {};
   const a = computeAirQuality(city);
   return {
-    title: `Qualité de l'air à ${city.name} — NO2, particules, ozone, pollens`,
+    title: `Qualité de l'air à ${city.name} · NO2, particules, ozone, pollens`,
     description: `Synthèse de la qualité de l'air à ${city.name} (${city.department}) : NO2 ${AIR_LEVEL_LABEL[a.no2.level].toLowerCase()}, PM2.5 ${AIR_LEVEL_LABEL[a.pm25.level].toLowerCase()}, ozone ${AIR_LEVEL_LABEL[a.ozone.level].toLowerCase()}, pollens ${AIR_LEVEL_LABEL[a.pollen.level].toLowerCase()}. Score ${a.composite}/10.`,
     alternates: { canonical: `/villes/${slug}/air` },
     openGraph: {

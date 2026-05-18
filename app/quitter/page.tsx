@@ -8,7 +8,7 @@ import { QUITTER_PAIRS, buildQuitterPairData, pairToSlug } from "@/lib/quitter-p
 import { CITIES_COUNT } from "@/lib/site-stats";
 
 export const metadata: Metadata = {
-  title: "Quitter une ville pour une autre — Comparatifs honnêtes 2026",
+  title: "Quitter une ville pour une autre · Comparatifs honnêtes 2026",
   description: `Plus de ${QUITTER_PAIRS.length} comparatifs origine → destination : Paris → Lyon, Marseille → Aix, Lille → Lille, etc. Charges fixes, owner scores, verdict pour qui le move a du sens.`,
   alternates: { canonical: "/quitter" },
   openGraph: {

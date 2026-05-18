@@ -9,7 +9,7 @@ import { ExpatQuiz } from "@/components/ExpatQuiz";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 
 export const metadata: Metadata = {
-  title: "Quiz expat retour France — Quelle ville pour vous ? 2026",
+  title: "Quiz expat retour France · Quelle ville pour vous ? 2026",
   description:
     "Quiz adapté aux Français rentrant de Suisse, Luxembourg, Belgique, UK ou Canada. 5 questions sur votre profil expat → 5 villes françaises calibrées (frontalière ou métropole).",
   alternates: { canonical: "/expat-retour/quiz" },

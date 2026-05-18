@@ -17,12 +17,12 @@ import { CITIES_COUNT } from "@/lib/site-stats";
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: "Démographie en France — villes dynamiques vs. vieillissantes 2026",
+  title: "Démographie en France · villes dynamiques vs. vieillissantes 2026",
   description:
     "Classement national INSEE des villes françaises selon le profil démographique : vieillissement, attractivité jeunes actifs, trajectoire pop, renouvellement. Top 30 dynamiques vs. top 20 critiques.",
   alternates: { canonical: "/demographie" },
   openGraph: {
-    title: "Démographie en France — palmarès 2026",
+    title: "Démographie en France · palmarès 2026",
     description:
       "Top 30 villes au profil démographique le plus dynamique vs. top 20 en tension critique.",
   },

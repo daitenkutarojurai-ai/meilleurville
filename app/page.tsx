@@ -87,7 +87,7 @@ export default function HomePage() {
                     Bien vivre, sans se ruiner
                   </h2>
                   <p className="text-sm text-[var(--text-secondary)] mt-1">
-                    Des villes super chouettes, encore peu connues — et le loyer y est doux
+                    Des villes super chouettes, encore peu connues, et le loyer y est doux
                   </p>
                 </div>
                 <Link href="/classements/budget" className="hidden sm:flex items-center gap-1 text-sm font-medium text-[var(--accent)] hover:underline">
@@ -187,7 +187,7 @@ export default function HomePage() {
           <div className="text-center mb-8">
             <p className="text-sm font-semibold text-[var(--accent)] mb-2">💸 Simulateur express</p>
             <h2 className="text-2xl font-bold text-[var(--text-primary)] mb-2">Combien resterait-il sur le compte ?</h2>
-            <p className="text-[var(--text-secondary)]">Tapez votre loyer et votre salaire — on calcule l&apos;écart, ville par ville.</p>
+            <p className="text-[var(--text-secondary)]">Tapez votre loyer et votre salaire, on calcule l&apos;écart, ville par ville.</p>
           </div>
           <CostCalculator />
         </div>

@@ -265,7 +265,7 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
               <Card>
                 <div className="mb-5">
                   <h2 className="text-base font-semibold text-[var(--text-primary)] mb-2">
-                    En bref — {city.name}
+                    En bref · {city.name}
                   </h2>
                   <p className="text-sm text-[var(--text-secondary)] leading-relaxed">
                     {narrative.intro}
@@ -438,8 +438,8 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                   </h2>
                 </div>
                 <p className="text-sm text-[var(--text-secondary)] mb-3 leading-relaxed">
-                  Les retours de la communauté sont juste après les onglets — note globale + ressenti
-                  par catégorie. Lisez ou partagez en quelques secondes.
+                  Les retours de la communauté sont juste après les onglets : note globale et
+                  ressenti par catégorie. Lisez ou partagez en quelques secondes.
                 </p>
                 <a
                   href="#discussions"
@@ -516,7 +516,7 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                     Vous habitez {city.name} ?
                   </h3>
                   <p className="text-xs text-[var(--text-secondary)] mb-4">
-                    Notez {city.name} en 8 catégories et partagez votre ressenti — vos notes alimentent
+                    Notez {city.name} en 8 catégories et partagez votre ressenti : vos notes alimentent
                     la note communauté affichée en haut de cette page.
                   </p>
                   <button

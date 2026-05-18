@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!city) return {};
   const p = projectClimate2040(city);
   return {
-    title: `Climat 2040 à ${city.name} — Projection canicule et nuits tropicales`,
+    title: `Climat 2040 à ${city.name} · Projection canicule et nuits tropicales`,
     description: `Projection climatique 2040 pour ${city.name}${
       p.projectedJulyC ? ` : juillet ${p.projectedJulyC} °C (+${p.macroRegion.deltaJulyC} °C vs aujourd'hui), ${p.projectedDays30C} jours > 30 °C attendus.` : "."
     } Basé sur Météo-France ARPEGE.`,

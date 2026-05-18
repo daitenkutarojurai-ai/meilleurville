@@ -184,7 +184,7 @@ export function HeroSection() {
         <FadeBlurIn delay={1.05}>
           <p className="mb-10 mx-auto max-w-2xl text-lg sm:text-xl text-[var(--text-secondary)] leading-relaxed">
             Comparez les villes françaises pour de vrai. Avis d&apos;habitants,
-            coût de la vie, météo, nature, transports — tout au même endroit, sans
+            coût de la vie, météo, nature, transports : tout au même endroit, sans
             chichi.
           </p>
         </FadeBlurIn>
@@ -298,7 +298,7 @@ export function HeroSection() {
             <span className="hidden sm:inline">·</span>
             <span>Sources : Insee, Min. Intérieur, observatoires loyers</span>
             <span className="hidden sm:inline">·</span>
-            <span>Indépendant — sans pub</span>
+            <span>Indépendant, sans pub</span>
           </div>
         </FadeBlurIn>
       </div>

@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!VACATION_PROFILES.includes(profil as VacationProfile)) return {};
   const def = VACATION_PROFILE_DEFS[profil as VacationProfile];
   return {
-    title: `Vacances ${def.label.toLowerCase()} en France 2026 — destinations adaptées`,
+    title: `Vacances ${def.label.toLowerCase()} en France 2026 · destinations adaptées`,
     description: def.metaDesc,
     alternates: { canonical: `/vacances/profil/${profil}` },
     openGraph: {

@@ -43,11 +43,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!region) return {};
   const count = CITIES_SEED.filter((c) => c.region === region).length;
   return {
-    title: `Synthèse 8 axes — ${region} | palmarès régional`,
+    title: `Synthèse 8 axes · ${region} | palmarès régional`,
     description: `Classement synthèse F61 des ${count} villes de la région ${region} sur les 8 dimensions data (environnement, santé, emploi, cadre de vie, vélo, sécurité, démographie, services publics). Convention 10 = excellent.`,
     alternates: { canonical: `/regions/${regionSlug}/synthese` },
     openGraph: {
-      title: `Synthèse — ${region}`,
+      title: `Synthèse · ${region}`,
       description: `Les villes de ${region} classées sur les 8 axes data du site.`,
     },
   };

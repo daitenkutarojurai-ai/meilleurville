@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!city) return {};
   const c = computeCyclingMobility(city);
   return {
-    title: `Vivre à vélo à ${city.name} — réseau, relief, sécurité`,
+    title: `Vivre à vélo à ${city.name} · réseau, relief, sécurité`,
     description: `Synthèse de la cyclabilité à ${city.name} (${city.department}) : réseau ${CYCLING_LEVEL_LABEL[c.network.level].toLowerCase()}, relief ${CYCLING_LEVEL_LABEL[c.topography.level].toLowerCase()}, sécurité ${CYCLING_LEVEL_LABEL[c.safety.level].toLowerCase()}, climat ${CYCLING_LEVEL_LABEL[c.climate.level].toLowerCase()}. Score ${c.composite}/10.`,
     alternates: { canonical: `/villes/${slug}/velo` },
     openGraph: {

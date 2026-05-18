@@ -89,11 +89,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const cities = CITIES_SEED.filter((c) => c.region === region);
   const topCity = [...cities].sort((a, b) => b.scores.global - a.scores.global)[0];
   return {
-    title: `Meilleures villes ${region} 2026 — Qualité de vie & Classements`,
+    title: `Meilleures villes ${region} 2026 · Qualité de vie & Classements`,
     description: `Découvrez les ${cities.length} meilleures villes de ${region} : scores de qualité de vie, avis d'habitants, comparaisons. N°1 : ${topCity?.name} (${topCity?.scores.global}/10).`,
     alternates: { canonical: `/regions/${regionSlug}` },
     openGraph: {
-      title: `Villes de ${region} — MeilleurVille`,
+      title: `Villes de ${region} · MeilleurVille`,
       description: `${cities.length} villes analysées · Top : ${topCity?.name} ${topCity?.scores.global}/10`,
     },
   };

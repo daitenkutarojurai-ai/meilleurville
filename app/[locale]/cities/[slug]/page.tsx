@@ -53,7 +53,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: "website",
       locale: "en_US",
       url: `${EN_BASE}/cities/${slug}`,
-      title: `${city.name} — BestCitiesInFrance · ${city.scores.global.toFixed(1)}/10`,
+      title: `${city.name} · BestCitiesInFrance · ${city.scores.global.toFixed(1)}/10`,
       description,
     },
   };

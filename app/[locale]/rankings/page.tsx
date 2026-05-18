@@ -29,7 +29,7 @@ const RANKING_EN_LABELS: Record<string, { label: string; tagline: string }> = {
 };
 
 export const metadata: Metadata = {
-  title: "French city rankings — 13 themed leaderboards (2026)",
+  title: "French city rankings · 13 themed leaderboards (2026)",
   description:
     "Independent rankings of French cities across 13 themes (remote work, families, retirees, climate, etc.). Calibrated on official data — Insee, SSMSI, observatoires des loyers.",
   alternates: { canonical: `${EN_BASE}/rankings` },

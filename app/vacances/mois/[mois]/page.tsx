@@ -114,7 +114,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!idx) return {};
   const label = formatMonthLabel(idx);
   return {
-    title: `Où partir en France en ${label.toLowerCase()} 2026 — meilleures destinations`,
+    title: `Où partir en France en ${label.toLowerCase()} 2026 · meilleures destinations`,
     description: `Le top des destinations françaises en ${label.toLowerCase()} : climat, affluence, activités. ${CITIES_COUNT} villes classées par score d'adéquation au mois. ${MONTH_ANGLES[idx].hook.slice(0, 60)}…`,
     alternates: { canonical: `/vacances/mois/${mois}` },
     openGraph: {

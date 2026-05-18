@@ -10,7 +10,7 @@ import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";
 
 export const metadata: Metadata = {
-  title: "Expat retour France 2026 — Guide pratique pour rentrer | MeilleurVille",
+  title: "Expat retour France 2026 · Guide pratique pour rentrer | MeilleurVille",
   description:
     "Vous rentrez de Suisse, Luxembourg, Belgique, UK ou Canada en France ? Comparatif salaire / coût de la vie / fiscalité / admin par pays + quiz adapté + suggestions de villes.",
   alternates: { canonical: "/expat-retour" },

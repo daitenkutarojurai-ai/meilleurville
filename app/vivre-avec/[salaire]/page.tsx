@@ -29,11 +29,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const salary = parseSalaryFromSlug(salaire);
   if (!salary) return {};
   return {
-    title: `Vivre avec ${salary} €/mois en France 2026 — Top 10 villes adaptées`,
+    title: `Vivre avec ${salary} €/mois en France 2026 · Top 10 villes adaptées`,
     description: `Salaire net ${salary} €/mois : où vivre confortablement en France ? Top 10 villes compatibles avec budget logement ${Math.round(salary * 0.33)} €, calcul du reste à vivre + comparatif Paris.`,
     alternates: { canonical: `/vivre-avec/${salaire}` },
     openGraph: {
-      title: `Vivre avec ${salary} €/mois — Quelles villes ?`,
+      title: `Vivre avec ${salary} €/mois · Quelles villes ?`,
       description: `Top 10 villes compatibles + breakdown coût réel pour la #1.`,
     },
   };
@@ -66,7 +66,7 @@ export default async function VivreAvecPage({ params }: Props) {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "ItemList",
-            name: `Vivre avec ${salary} €/mois en France — Top 10 villes`,
+            name: `Vivre avec ${salary} €/mois en France · Top 10 villes`,
             itemListElement: landing.topMatches.slice(0, 10).map((m, i) => ({
               "@type": "ListItem",
               position: i + 1,

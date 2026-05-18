@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!label) return {};
   const guides = getGuidesForTag(slug);
   return {
-    title: `${label} — ${guides.length} guides MeilleurVille`,
+    title: `${label} · ${guides.length} guides MeilleurVille`,
     description: `Tous les guides MeilleurVille traitant de « ${label} » : ${guides.length} analyses honnêtes pour choisir où vivre en France.`,
     alternates: { canonical: `/tags/${slug}` },
   };
@@ -42,7 +42,7 @@ export default async function TagPage({ params }: Props) {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
-    name: `Guides ${label} — MeilleurVille`,
+    name: `Guides ${label} · MeilleurVille`,
     url: `${baseUrl}/tags/${slug}`,
     description: `${guides.length} guides MeilleurVille traitant de ${label}.`,
     inLanguage: "fr-FR",

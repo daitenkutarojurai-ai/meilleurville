@@ -9,7 +9,7 @@ import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { StaticPageCrossLink } from "@/components/StaticPageCrossLink";
 
 export const metadata: Metadata = {
-  title: "Méthodologie — Comment sont calculés les scores ? | MeilleurVille",
+  title: "Méthodologie · Comment sont calculés les scores ? | MeilleurVille",
   description:
     "Transparence totale : sources, formules, biais et limites. Aucune ville ne paie pour son classement.",
   alternates: { canonical: "/methode" },

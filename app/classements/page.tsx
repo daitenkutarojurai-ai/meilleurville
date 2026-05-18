@@ -18,7 +18,7 @@ import { RANKINGS_COUNT } from "@/lib/site-stats";
 import { getRankedCities, type RankingSlug } from "@/lib/rankings";
 
 export const metadata: Metadata = {
-  title: "Classements villes françaises 2026 — Télétravail, Famille, Budget, Culture",
+  title: "Classements villes françaises 2026 · Télétravail, Famille, Budget, Culture",
   description:
     "Classements des meilleures villes françaises par style de vie : télétravail, famille, retraite, étudiant, nature, budget, soleil, sécurité, culture, mobilité, investissement, logement abordable. Données 2026.",
   openGraph: {

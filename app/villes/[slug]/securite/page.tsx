@@ -30,11 +30,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!city) return {};
   const s = computeSafetyDeep(city);
   return {
-    title: `Sécurité à ${city.name} — détail SSMSI 2026`,
+    title: `Sécurité à ${city.name} · détail SSMSI 2026`,
     description: `Synthèse SSMSI de la sécurité à ${city.name} (${city.department}) : atteintes biens ${SAFETY_LEVEL_LABEL[s.property.level].toLowerCase()}, personnes ${SAFETY_LEVEL_LABEL[s.persons.level].toLowerCase()}, nuit ${SAFETY_LEVEL_LABEL[s.nocturnal.level].toLowerCase()}, VFFS ${SAFETY_LEVEL_LABEL[s.vffs.level].toLowerCase()}. Score ${s.composite}/10.`,
     alternates: { canonical: `/villes/${slug}/securite` },
     openGraph: {
-      title: `Sécurité à ${city.name} — détail SSMSI`,
+      title: `Sécurité à ${city.name} · détail SSMSI`,
       description: `Biens, personnes, nuit, VFFS — décomposition pédagogique.`,
     },
   };

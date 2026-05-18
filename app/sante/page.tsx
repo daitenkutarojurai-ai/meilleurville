@@ -17,12 +17,12 @@ import { CITIES_COUNT } from "@/lib/site-stats";
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: "Accès aux soins en France — meilleurs hôpitaux vs. déserts médicaux 2026",
+  title: "Accès aux soins en France · meilleurs hôpitaux vs. déserts médicaux 2026",
   description:
     "Classement national des villes françaises selon l'accès aux soins : médecins généralistes, spécialistes, urgences, pharmacies. Top 30 villes meilleur accès vs. top 20 désert médical. Sources DREES / CNOM / ARS.",
   alternates: { canonical: "/sante" },
   openGraph: {
-    title: "Accès aux soins en France — meilleurs vs. désert médical",
+    title: "Accès aux soins en France · meilleurs vs. désert médical",
     description:
       "Top 30 villes meilleur accès médecins + spécialistes + urgences vs. top 20 désert médical avéré.",
   },

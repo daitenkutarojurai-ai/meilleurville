@@ -9,11 +9,11 @@ import { HOUSEHOLD_PROFILES, householdBreakdownFor, type HouseholdProfile } from
 import { CITIES_COUNT } from "@/lib/site-stats";
 
 export const metadata: Metadata = {
-  title: `Coût de la vie par profil ménage — Solo, couple, famille, retraité (${CITIES_COUNT} villes)`,
+  title: `Coût de la vie par profil ménage · Solo, couple, famille, retraité (${CITIES_COUNT} villes)`,
   description: `Charges fixes mensuelles dans ${CITIES_COUNT} villes françaises selon 4 profils : solo (T1), couple (T2), famille 2 enfants (T3), retraité. Médians DGFiP + ADEME. Indicatif.`,
   alternates: { canonical: "/cout-menage" },
   openGraph: {
-    title: `Coût ménage — 4 profils, ${CITIES_COUNT} villes`,
+    title: `Coût ménage · 4 profils, ${CITIES_COUNT} villes`,
     description: "Combien coûte une ville par profil ménage. Médians honnêtes, zéro chiffre inventé.",
   },
 };

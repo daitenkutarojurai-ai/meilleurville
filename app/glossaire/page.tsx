@@ -6,7 +6,7 @@ import { StaticPageCrossLink } from "@/components/StaticPageCrossLink";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
-  title: "Glossaire immobilier & relocation — MeilleurVille",
+  title: "Glossaire immobilier & relocation · MeilleurVille",
   description:
     "Glossaire complet : DPE, LMNP, taxe foncière, ZFE, encadrement loyers, frais de notaire, fibre FTTH... Tous les termes utiles pour acheter, louer ou déménager en France.",
   alternates: { canonical: "/glossaire" },
@@ -17,7 +17,7 @@ type Section = { title: string; emoji: string; terms: Term[] };
 
 const SECTIONS: Section[] = [
   {
-    title: "Immobilier — achat et location",
+    title: "Immobilier · achat et location",
     emoji: "🏠",
     terms: [
       {
@@ -182,7 +182,7 @@ export default function GlossairePage() {
   const definedTermsJsonLd = {
     "@context": "https://schema.org",
     "@type": "DefinedTermSet",
-    name: "Glossaire immobilier et relocation — MeilleurVille",
+    name: "Glossaire immobilier et relocation · MeilleurVille",
     description:
       "Termes clés pour acheter, louer, investir ou déménager en France : DPE, LMNP, ZFE, taxe foncière, fibre FTTH, encadrement loyers et plus.",
     hasDefinedTerm: SECTIONS.flatMap((s) =>

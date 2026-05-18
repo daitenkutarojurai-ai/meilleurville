@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!city) return {};
   const ratioLabel = data ? `Ratio prix/loyer : ${data.rentToPriceRatio} (${VERDICT_META[data.verdict].label.toLowerCase()})` : "Comparatif détaillé";
   return {
-    title: `Louer ou acheter à ${city.name} 2026 — ${ratioLabel}`,
+    title: `Louer ou acheter à ${city.name} 2026 · ${ratioLabel}`,
     description: data
       ? `Faut-il louer ou acheter à ${city.name} ? Ratio prix/loyer ${data.rentToPriceRatio}, mensualité prêt T3 ${data.monthlyMortgage} €, payback apport ${data.paybackYears ? data.paybackYears + " ans" : "n/a"}. Données HOUSING + barèmes 2026.`
       : `Faut-il louer ou acheter à ${city.name} ? Données loyer / prix m² + simulation prêt 25 ans pour décider.`,

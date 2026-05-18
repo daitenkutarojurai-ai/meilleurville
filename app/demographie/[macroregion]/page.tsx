@@ -32,11 +32,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const macro = getMacroRegion(macroregion);
   if (!macro) return {};
   return {
-    title: `Démographie — ${macro.label} 2026`,
+    title: `Démographie · ${macro.label} 2026`,
     description: `Classement composite démographie (vieillissement, jeunes actifs, trajectoire, renouvellement) restreint aux villes de la macro-région ${macro.label}. Dynamiques vs. vieillissantes.`,
     alternates: { canonical: `/demographie/${macro.slug}` },
     openGraph: {
-      title: `Démographie — ${macro.label}`,
+      title: `Démographie · ${macro.label}`,
       description: `Index composite F59 par ville de la macro-région ${macro.label}.`,
     },
   };

@@ -28,11 +28,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!city) return {};
   const f = fiscalityForCity({ department: city.department, region: city.region });
   return {
-    title: `Fiscalité immobilière à ${city.name} — Taxe foncière, THRS, DMTO 2026 | MeilleurVille`,
+    title: `Fiscalité immobilière à ${city.name} · Taxe foncière, THRS, DMTO 2026 | MeilleurVille`,
     description: `Estimation départementale 2026 pour ${city.name} (${city.department}) : taxe foncière (${f.taxeFonciereT3}), THRS, droits de mutation. Données DGFiP.`,
     alternates: { canonical: `/villes/${slug}/fiscalite` },
     openGraph: {
-      title: `Fiscalité — ${city.name}`,
+      title: `Fiscalité · ${city.name}`,
       description: `${f.tierLabel} (département ${city.department}). Taxe foncière estimée ${f.taxeFonciereT3}.`,
     },
   };

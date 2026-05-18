@@ -7,7 +7,7 @@ import { StaticPageCrossLink } from "@/components/StaticPageCrossLink";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
-  title: "Calendrier immobilier 2026 — quand acheter, vendre, déménager ?",
+  title: "Calendrier immobilier 2026 · quand acheter, vendre, déménager ?",
   description:
     "Meilleurs mois pour acheter, vendre, louer ou déménager en France. Saisonnalité du marché immobilier, locations étudiantes, prix au m² mois par mois.",
   alternates: { canonical: "/calendrier-immobilier" },

@@ -17,12 +17,12 @@ import { CITIES_COUNT } from "@/lib/site-stats";
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: "Services publics en France — accès écoles, Poste, mairie, médiathèque 2026",
+  title: "Services publics en France · accès écoles, Poste, mairie, médiathèque 2026",
   description:
     "Classement national de l'accès aux services publics par ville française : écoles, La Poste & France Services, mairie, médiathèque. Top 30 mieux desservies vs. top 20 désertiques.",
   alternates: { canonical: "/services-publics" },
   openGraph: {
-    title: "Services publics en France — palmarès 2026",
+    title: "Services publics en France · palmarès 2026",
     description:
       "Top 30 villes au meilleur accès aux services publics vs. top 20 zones désertiques.",
   },

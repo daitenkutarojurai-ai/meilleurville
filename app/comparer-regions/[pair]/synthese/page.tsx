@@ -58,11 +58,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!parsed) return {};
   const { a, b } = parsed;
   return {
-    title: `${a} vs ${b} — synthèse 8 axes des régions 2026`,
+    title: `${a} vs ${b} · synthèse 8 axes des régions 2026`,
     description: `Comparatif régional ${a} vs ${b} sur les 8 dimensions data : environnement, santé, emploi, cadre de vie, vélo, sécurité, démographie, services publics. Profil moyen agrégé par région.`,
     alternates: { canonical: `/comparer-regions/${pair}/synthese` },
     openGraph: {
-      title: `${a} vs ${b} — synthèse régionale 8 axes`,
+      title: `${a} vs ${b} · synthèse régionale 8 axes`,
       description: `Les profils moyens des deux régions comparés axe par axe.`,
     },
   };

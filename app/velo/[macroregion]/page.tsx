@@ -32,11 +32,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const macro = getMacroRegion(macroregion);
   if (!macro) return {};
   return {
-    title: `Villes cyclables — ${macro.label} 2026`,
+    title: `Villes cyclables · ${macro.label} 2026`,
     description: `Classement composite cyclabilité (réseau, relief, sécurité, climat) restreint aux villes de la macro-région ${macro.label}. Plus cyclables vs. plus difficiles à vélo.`,
     alternates: { canonical: `/velo/${macro.slug}` },
     openGraph: {
-      title: `Villes cyclables — ${macro.label}`,
+      title: `Villes cyclables · ${macro.label}`,
       description: `Index composite F57 par ville de la macro-région ${macro.label}.`,
     },
   };

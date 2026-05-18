@@ -43,7 +43,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         : ` Surcoût ${Math.round(-monthlySavings)} €/mois sur les charges fixes.`
       : "";
   return {
-    title: `Quitter ${origin.name} pour ${destination.name} — Comparatif honnête 2026`,
+    title: `Quitter ${origin.name} pour ${destination.name} · Comparatif honnête 2026`,
     description: `Quitter ${origin.name} pour ${destination.name} : loyer, charges, owner scores, climat, verdict pour qui le move a du sens.${savingsLabel}`,
     alternates: { canonical: `/quitter/${pair}` },
     openGraph: {
