@@ -177,6 +177,24 @@ export function TripletView({ cities, slug }: { cities: SeedCity[]; slug: string
       </section>
 
       <div className="mx-auto max-w-5xl px-4 sm:px-6 py-12 space-y-10">
+        {/* F69 — Synthèse 8 axes triplet teaser */}
+        <Link
+          href={`/comparer/${slug}/synthese`}
+          className="group flex flex-wrap items-center gap-3 rounded-2xl border border-[var(--accent)]/30 bg-[var(--accent)]/5 hover:border-[var(--accent)] hover:shadow-md transition-all px-5 py-4"
+        >
+          <span className="text-2xl shrink-0">✨</span>
+          <div className="flex-1 min-w-0">
+            <p className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
+              Synthèse 8 axes — {a.name} vs {b.name} vs {c.name}
+            </p>
+            <p className="text-xs text-[var(--text-secondary)] mt-0.5">
+              Profil unifié sur env / santé / emploi / cadre / vélo / sécurité /
+              démo / services publics. Gagnant par axe (seuil ±0,3 pt).
+            </p>
+          </div>
+          <span className="text-sm text-[var(--accent)] font-medium shrink-0">Voir →</span>
+        </Link>
+
         {/* City cards */}
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
           {cityCards.map((cc) => (
