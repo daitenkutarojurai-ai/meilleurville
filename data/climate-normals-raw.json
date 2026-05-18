@@ -1,0 +1,594 @@
+{
+  "source": "Météo-France 1991-2020 (via Wikipedia)",
+  "generated": "2026-05-18",
+  "notes": [
+    "Reims: station retournée 'Chambrecy-CIVC' (51) à la place de Reims-Prunay. Même département, normales 1991-2020.",
+    "Rouen: station 'Rouen-Jardin' à la place de Rouen-Boos (même bassin urbain).",
+    "Ajaccio: station 'Ajaccio-Milelli_SAPC' à la place de Campo-dell'Oro (Wikipedia n'expose pas Campo-dell'Oro).",
+    "Bastia: station 'Oletta' (haute-Corse) à la place de Bastia-Poretta (Wikipedia n'expose pas Poretta dans l'article Bastia).",
+    "Marseille: lat/lon de Marignane (station) plutôt que centre-ville.",
+    "DROM: les heures d'ensoleillement sont parfois absentes des tableaux Wikipedia."
+  ],
+  "stations": [
+    {
+      "slug": "paris",
+      "name": "Paris (Paris-Montsouris)",
+      "lat": 48.8217,
+      "lon": 2.3378,
+      "months": [
+        { "tempAvg": 5.4, "tempMin": 3.2, "tempMax": 7.6, "precipMm": 47.6, "rainDays": 9.9, "sunHours": 59.0 },
+        { "tempAvg": 6.0, "tempMin": 3.3, "tempMax": 8.8, "precipMm": 41.8, "rainDays": 9.1, "sunHours": 83.7 },
+        { "tempAvg": 9.2, "tempMin": 5.6, "tempMax": 12.8, "precipMm": 45.2, "rainDays": 9.5, "sunHours": 134.9 },
+        { "tempAvg": 12.2, "tempMin": 7.9, "tempMax": 16.6, "precipMm": 45.8, "rainDays": 8.6, "sunHours": 177.3 },
+        { "tempAvg": 15.6, "tempMin": 11.1, "tempMax": 20.2, "precipMm": 69.0, "rainDays": 9.2, "sunHours": 201.0 },
+        { "tempAvg": 18.8, "tempMin": 14.2, "tempMax": 23.4, "precipMm": 51.3, "rainDays": 8.3, "sunHours": 203.5 },
+        { "tempAvg": 20.9, "tempMin": 16.2, "tempMax": 25.7, "precipMm": 59.4, "rainDays": 7.4, "sunHours": 222.4 },
+        { "tempAvg": 20.8, "tempMin": 16.0, "tempMax": 25.6, "precipMm": 58.0, "rainDays": 8.1, "sunHours": 215.3 },
+        { "tempAvg": 17.2, "tempMin": 13.0, "tempMax": 21.5, "precipMm": 44.7, "rainDays": 7.5, "sunHours": 174.7 },
+        { "tempAvg": 13.2, "tempMin": 9.9, "tempMax": 16.5, "precipMm": 55.2, "rainDays": 9.5, "sunHours": 118.6 },
+        { "tempAvg": 8.7, "tempMin": 6.2, "tempMax": 11.1, "precipMm": 54.3, "rainDays": 10.4, "sunHours": 69.8 },
+        { "tempAvg": 5.9, "tempMin": 3.8, "tempMax": 8.0, "precipMm": 62.0, "rainDays": 11.4, "sunHours": 56.9 }
+      ]
+    },
+    {
+      "slug": "lyon",
+      "name": "Lyon (Lyon-Bron)",
+      "lat": 45.7264,
+      "lon": 4.9447,
+      "months": [
+        { "tempAvg": 4.1, "tempMin": 1.1, "tempMax": 7.1, "precipMm": 49.8, "rainDays": 8.1, "sunHours": 71.1 },
+        { "tempAvg": 5.2, "tempMin": 1.4, "tempMax": 9.0, "precipMm": 41.6, "rainDays": 7.9, "sunHours": 102.4 },
+        { "tempAvg": 9.0, "tempMin": 4.2, "tempMax": 13.8, "precipMm": 49.4, "rainDays": 8.4, "sunHours": 173.7 },
+        { "tempAvg": 12.3, "tempMin": 7.2, "tempMax": 17.4, "precipMm": 68.9, "rainDays": 9.0, "sunHours": 197.7 },
+        { "tempAvg": 16.3, "tempMin": 11.2, "tempMax": 21.5, "precipMm": 80.9, "rainDays": 10.3, "sunHours": 223.8 },
+        { "tempAvg": 20.3, "tempMin": 15.0, "tempMax": 25.6, "precipMm": 74.1, "rainDays": 8.5, "sunHours": 256.5 },
+        { "tempAvg": 22.6, "tempMin": 17.0, "tempMax": 28.2, "precipMm": 67.4, "rainDays": 7.5, "sunHours": 288.1 },
+        { "tempAvg": 22.3, "tempMin": 16.6, "tempMax": 28.0, "precipMm": 65.5, "rainDays": 7.2, "sunHours": 263.1 },
+        { "tempAvg": 17.9, "tempMin": 12.8, "tempMax": 23.1, "precipMm": 82.5, "rainDays": 7.3, "sunHours": 204.1 },
+        { "tempAvg": 13.7, "tempMin": 9.6, "tempMax": 17.7, "precipMm": 99.8, "rainDays": 9.9, "sunHours": 131.4 },
+        { "tempAvg": 8.1, "tempMin": 4.9, "tempMax": 11.4, "precipMm": 87.2, "rainDays": 9.4, "sunHours": 78.9 },
+        { "tempAvg": 4.8, "tempMin": 2.0, "tempMax": 7.7, "precipMm": 53.7, "rainDays": 9.2, "sunHours": 58.7 }
+      ]
+    },
+    {
+      "slug": "marseille",
+      "name": "Marseille (Marseille-Marignane)",
+      "lat": 43.4371,
+      "lon": 5.2158,
+      "months": [
+        { "tempAvg": 7.7, "tempMin": 3.6, "tempMax": 11.8, "precipMm": 47.1, "rainDays": null, "sunHours": 147.9 },
+        { "tempAvg": 8.3, "tempMin": 3.7, "tempMax": 12.8, "precipMm": 29.8, "rainDays": null, "sunHours": 173.1 },
+        { "tempAvg": 11.4, "tempMin": 6.5, "tempMax": 16.4, "precipMm": 29.5, "rainDays": null, "sunHours": 234.7 },
+        { "tempAvg": 14.3, "tempMin": 9.4, "tempMax": 19.3, "precipMm": 51.6, "rainDays": null, "sunHours": 250.8 },
+        { "tempAvg": 18.4, "tempMin": 13.3, "tempMax": 23.5, "precipMm": 37.7, "rainDays": null, "sunHours": 298.6 },
+        { "tempAvg": 22.5, "tempMin": 17.2, "tempMax": 27.9, "precipMm": 27.9, "rainDays": null, "sunHours": 337.8 },
+        { "tempAvg": 25.2, "tempMin": 19.7, "tempMax": 30.7, "precipMm": 10.8, "rainDays": null, "sunHours": 372.2 },
+        { "tempAvg": 24.9, "tempMin": 19.4, "tempMax": 30.5, "precipMm": 25.8, "rainDays": null, "sunHours": 333.8 },
+        { "tempAvg": 20.9, "tempMin": 15.9, "tempMax": 25.9, "precipMm": 82.0, "rainDays": null, "sunHours": 263.7 },
+        { "tempAvg": 17.0, "tempMin": 12.6, "tempMax": 21.3, "precipMm": 73.3, "rainDays": null, "sunHours": 196.1 },
+        { "tempAvg": 11.7, "tempMin": 7.7, "tempMax": 15.7, "precipMm": 75.9, "rainDays": null, "sunHours": 150.8 },
+        { "tempAvg": 8.4, "tempMin": 4.4, "tempMax": 12.4, "precipMm": 40.9, "rainDays": null, "sunHours": 138.1 }
+      ]
+    },
+    {
+      "slug": "lille",
+      "name": "Lille (Lille-Lesquin)",
+      "lat": 50.5697,
+      "lon": 3.1058,
+      "months": [
+        { "tempAvg": 4.1, "tempMin": 1.7, "tempMax": 6.6, "precipMm": 58.2, "rainDays": null, "sunHours": 62.2 },
+        { "tempAvg": 4.7, "tempMin": 1.9, "tempMax": 7.5, "precipMm": 50.8, "rainDays": null, "sunHours": 73.6 },
+        { "tempAvg": 7.5, "tempMin": 3.8, "tempMax": 11.2, "precipMm": 52.1, "rainDays": null, "sunHours": 127.3 },
+        { "tempAvg": 10.5, "tempMin": 5.9, "tempMax": 15.0, "precipMm": 45.3, "rainDays": null, "sunHours": 175.9 },
+        { "tempAvg": 13.8, "tempMin": 9.3, "tempMax": 18.4, "precipMm": 61.6, "rainDays": null, "sunHours": 195.7 },
+        { "tempAvg": 16.7, "tempMin": 12.1, "tempMax": 21.3, "precipMm": 63.7, "rainDays": null, "sunHours": 201.5 },
+        { "tempAvg": 18.9, "tempMin": 14.2, "tempMax": 23.7, "precipMm": 67.8, "rainDays": null, "sunHours": 209.7 },
+        { "tempAvg": 18.8, "tempMin": 14.0, "tempMax": 23.7, "precipMm": 71.3, "rainDays": null, "sunHours": 196.8 },
+        { "tempAvg": 15.8, "tempMin": 11.4, "tempMax": 20.2, "precipMm": 56.8, "rainDays": null, "sunHours": 155.3 },
+        { "tempAvg": 11.9, "tempMin": 8.4, "tempMax": 15.4, "precipMm": 64.1, "rainDays": null, "sunHours": 115.3 },
+        { "tempAvg": 7.6, "tempMin": 4.9, "tempMax": 10.3, "precipMm": 75.0, "rainDays": null, "sunHours": 61.7 },
+        { "tempAvg": 4.7, "tempMin": 2.3, "tempMax": 7.0, "precipMm": 73.3, "rainDays": null, "sunHours": 52.5 }
+      ]
+    },
+    {
+      "slug": "toulouse",
+      "name": "Toulouse (Toulouse-Blagnac)",
+      "lat": 43.6291,
+      "lon": 1.3753,
+      "months": [
+        { "tempAvg": 6.3, "tempMin": 2.9, "tempMax": 9.7, "precipMm": 52.5, "rainDays": 9.2, "sunHours": 89.1 },
+        { "tempAvg": 7.1, "tempMin": 3.1, "tempMax": 11.2, "precipMm": 37.2, "rainDays": 7.8, "sunHours": 118.2 },
+        { "tempAvg": 10.3, "tempMin": 5.5, "tempMax": 15.0, "precipMm": 45.3, "rainDays": 8.2, "sunHours": 175.3 },
+        { "tempAvg": 12.7, "tempMin": 7.9, "tempMax": 17.6, "precipMm": 65.2, "rainDays": 9.3, "sunHours": 188.5 },
+        { "tempAvg": 16.4, "tempMin": 11.4, "tempMax": 21.4, "precipMm": 73.6, "rainDays": 9.9, "sunHours": 212.3 },
+        { "tempAvg": 20.3, "tempMin": 15.0, "tempMax": 25.7, "precipMm": 64.2, "rainDays": 7.1, "sunHours": 231.8 },
+        { "tempAvg": 22.6, "tempMin": 17.0, "tempMax": 28.2, "precipMm": 40.1, "rainDays": 5.7, "sunHours": 258.6 },
+        { "tempAvg": 22.8, "tempMin": 17.1, "tempMax": 28.5, "precipMm": 44.6, "rainDays": 5.9, "sunHours": 246.4 },
+        { "tempAvg": 19.3, "tempMin": 13.9, "tempMax": 24.8, "precipMm": 45.7, "rainDays": 6.6, "sunHours": 210.1 },
+        { "tempAvg": 15.3, "tempMin": 10.9, "tempMax": 19.7, "precipMm": 54.3, "rainDays": 7.5, "sunHours": 155.2 },
+        { "tempAvg": 9.9, "tempMin": 6.3, "tempMax": 13.5, "precipMm": 55.0, "rainDays": 10.0, "sunHours": 99.9 },
+        { "tempAvg": 7.0, "tempMin": 3.6, "tempMax": 10.4, "precipMm": 49.3, "rainDays": 8.7, "sunHours": 89.7 }
+      ]
+    },
+    {
+      "slug": "bordeaux",
+      "name": "Bordeaux (Bordeaux-Mérignac)",
+      "lat": 44.8306,
+      "lon": -0.6911,
+      "months": [
+        { "tempAvg": 7.1, "tempMin": 3.7, "tempMax": 10.5, "precipMm": 86.9, "rainDays": 12.2, "sunHours": 89.8 },
+        { "tempAvg": 7.8, "tempMin": 3.6, "tempMax": 12.0, "precipMm": 66.9, "rainDays": 10.1, "sunHours": 117.4 },
+        { "tempAvg": 10.7, "tempMin": 5.8, "tempMax": 15.5, "precipMm": 63.3, "rainDays": 10.7, "sunHours": 170.2 },
+        { "tempAvg": 13.0, "tempMin": 8.0, "tempMax": 18.0, "precipMm": 75.6, "rainDays": 11.2, "sunHours": 186.0 },
+        { "tempAvg": 16.6, "tempMin": 11.4, "tempMax": 21.7, "precipMm": 71.1, "rainDays": 10.0, "sunHours": 220.8 },
+        { "tempAvg": 19.8, "tempMin": 14.6, "tempMax": 25.0, "precipMm": 70.4, "rainDays": 8.3, "sunHours": 237.7 },
+        { "tempAvg": 21.7, "tempMin": 16.2, "tempMax": 27.1, "precipMm": 48.6, "rainDays": 7.1, "sunHours": 256.0 },
+        { "tempAvg": 21.9, "tempMin": 16.3, "tempMax": 27.6, "precipMm": 56.7, "rainDays": 7.0, "sunHours": 248.8 },
+        { "tempAvg": 18.8, "tempMin": 13.3, "tempMax": 24.2, "precipMm": 81.2, "rainDays": 9.3, "sunHours": 208.8 },
+        { "tempAvg": 15.2, "tempMin": 10.7, "tempMax": 19.6, "precipMm": 83.3, "rainDays": 10.7, "sunHours": 150.3 },
+        { "tempAvg": 10.4, "tempMin": 6.7, "tempMax": 14.1, "precipMm": 114.5, "rainDays": 13.3, "sunHours": 100.0 },
+        { "tempAvg": 7.7, "tempMin": 4.4, "tempMax": 11.0, "precipMm": 106.4, "rainDays": 12.7, "sunHours": 84.1 }
+      ]
+    },
+    {
+      "slug": "nantes",
+      "name": "Nantes (Nantes-Bouguenais)",
+      "lat": 47.1497,
+      "lon": -1.6086,
+      "months": [
+        { "tempAvg": 6.4, "tempMin": 3.4, "tempMax": 9.3, "precipMm": 87.9, "rainDays": null, "sunHours": 72.6 },
+        { "tempAvg": 6.7, "tempMin": 3.0, "tempMax": 10.5, "precipMm": 67.5, "rainDays": null, "sunHours": 102.3 },
+        { "tempAvg": 9.2, "tempMin": 4.9, "tempMax": 13.5, "precipMm": 58.4, "rainDays": null, "sunHours": 147.3 },
+        { "tempAvg": 11.4, "tempMin": 6.6, "tempMax": 16.2, "precipMm": 58.3, "rainDays": null, "sunHours": 182.7 },
+        { "tempAvg": 14.7, "tempMin": 9.8, "tempMax": 19.6, "precipMm": 61.0, "rainDays": null, "sunHours": 203.4 },
+        { "tempAvg": 17.8, "tempMin": 12.7, "tempMax": 23.0, "precipMm": 48.5, "rainDays": null, "sunHours": 213.1 },
+        { "tempAvg": 19.7, "tempMin": 14.3, "tempMax": 25.1, "precipMm": 44.2, "rainDays": null, "sunHours": 229.0 },
+        { "tempAvg": 19.8, "tempMin": 14.2, "tempMax": 25.4, "precipMm": 50.3, "rainDays": null, "sunHours": 232.6 },
+        { "tempAvg": 17.1, "tempMin": 11.8, "tempMax": 22.4, "precipMm": 59.5, "rainDays": null, "sunHours": 198.7 },
+        { "tempAvg": 13.5, "tempMin": 9.5, "tempMax": 17.6, "precipMm": 88.8, "rainDays": null, "sunHours": 122.7 },
+        { "tempAvg": 9.4, "tempMin": 5.9, "tempMax": 12.9, "precipMm": 94.1, "rainDays": null, "sunHours": 91.3 },
+        { "tempAvg": 6.7, "tempMin": 3.7, "tempMax": 9.8, "precipMm": 101.0, "rainDays": null, "sunHours": 77.6 }
+      ]
+    },
+    {
+      "slug": "strasbourg",
+      "name": "Strasbourg (Strasbourg-Entzheim)",
+      "lat": 48.5494,
+      "lon": 7.6403,
+      "months": [
+        { "tempAvg": 2.5, "tempMin": -0.2, "tempMax": 5.2, "precipMm": 35.4, "rainDays": null, "sunHours": 55.5 },
+        { "tempAvg": 3.6, "tempMin": 0.0, "tempMax": 7.3, "precipMm": 34.1, "rainDays": null, "sunHours": 85.8 },
+        { "tempAvg": 7.4, "tempMin": 2.6, "tempMax": 12.1, "precipMm": 38.6, "rainDays": null, "sunHours": 146.4 },
+        { "tempAvg": 11.3, "tempMin": 5.7, "tempMax": 17.0, "precipMm": 41.8, "rainDays": null, "sunHours": 186.9 },
+        { "tempAvg": 15.5, "tempMin": 10.1, "tempMax": 20.9, "precipMm": 77.2, "rainDays": null, "sunHours": 209.1 },
+        { "tempAvg": 18.9, "tempMin": 13.4, "tempMax": 24.4, "precipMm": 68.5, "rainDays": null, "sunHours": 226.4 },
+        { "tempAvg": 20.6, "tempMin": 14.9, "tempMax": 26.4, "precipMm": 71.9, "rainDays": 10.3, "sunHours": 239.7 },
+        { "tempAvg": 20.3, "tempMin": 14.5, "tempMax": 26.1, "precipMm": 61.3, "rainDays": null, "sunHours": 224.2 },
+        { "tempAvg": 16.1, "tempMin": 10.7, "tempMax": 21.6, "precipMm": 54.6, "rainDays": null, "sunHours": 173.5 },
+        { "tempAvg": 11.5, "tempMin": 7.2, "tempMax": 15.8, "precipMm": 59.5, "rainDays": null, "sunHours": 100.4 },
+        { "tempAvg": 6.3, "tempMin": 3.3, "tempMax": 9.4, "precipMm": 47.6, "rainDays": null, "sunHours": 55.2 },
+        { "tempAvg": 3.3, "tempMin": 0.8, "tempMax": 5.9, "precipMm": 45.2, "rainDays": null, "sunHours": 44.2 }
+      ]
+    },
+    {
+      "slug": "montpellier",
+      "name": "Montpellier (Montpellier-Fréjorgues)",
+      "lat": 43.5764,
+      "lon": 3.9631,
+      "months": [
+        { "tempAvg": 7.6, "tempMin": 3.3, "tempMax": 12.0, "precipMm": 56.2, "rainDays": 5.8, "sunHours": 145.6 },
+        { "tempAvg": 8.3, "tempMin": 3.5, "tempMax": 13.1, "precipMm": 39.2, "rainDays": 4.1, "sunHours": 170.1 },
+        { "tempAvg": 11.4, "tempMin": 6.4, "tempMax": 16.4, "precipMm": 41.5, "rainDays": 4.6, "sunHours": 218.8 },
+        { "tempAvg": 13.9, "tempMin": 9.2, "tempMax": 18.7, "precipMm": 55.8, "rainDays": 5.8, "sunHours": 228.6 },
+        { "tempAvg": 17.8, "tempMin": 12.9, "tempMax": 22.6, "precipMm": 44.0, "rainDays": 5.2, "sunHours": 271.4 },
+        { "tempAvg": 21.8, "tempMin": 16.7, "tempMax": 26.9, "precipMm": 32.9, "rainDays": 3.6, "sunHours": 315.7 },
+        { "tempAvg": 24.4, "tempMin": 19.3, "tempMax": 29.5, "precipMm": 17.1, "rainDays": 2.5, "sunHours": 344.8 },
+        { "tempAvg": 24.1, "tempMin": 19.0, "tempMax": 29.3, "precipMm": 35.9, "rainDays": 3.4, "sunHours": 305.1 },
+        { "tempAvg": 20.2, "tempMin": 15.2, "tempMax": 25.2, "precipMm": 86.7, "rainDays": 4.5, "sunHours": 246.6 },
+        { "tempAvg": 16.4, "tempMin": 12.2, "tempMax": 20.7, "precipMm": 94.7, "rainDays": 6.2, "sunHours": 175.5 },
+        { "tempAvg": 11.6, "tempMin": 7.4, "tempMax": 15.7, "precipMm": 78.1, "rainDays": 6.7, "sunHours": 145.7 },
+        { "tempAvg": 8.3, "tempMin": 4.1, "tempMax": 12.5, "precipMm": 57.1, "rainDays": 5.5, "sunHours": 137.4 }
+      ]
+    },
+    {
+      "slug": "nice",
+      "name": "Nice (Nice-Côte d'Azur)",
+      "lat": 43.6584,
+      "lon": 7.2153,
+      "months": [
+        { "tempAvg": 9.5, "tempMin": 5.8, "tempMax": 13.3, "precipMm": 73.5, "rainDays": 6.4, "sunHours": 156.7 },
+        { "tempAvg": 9.8, "tempMin": 6.1, "tempMax": 13.5, "precipMm": 53.6, "rainDays": null, "sunHours": 166.1 },
+        { "tempAvg": 11.8, "tempMin": 8.3, "tempMax": 15.4, "precipMm": 51.0, "rainDays": null, "sunHours": 218.0 },
+        { "tempAvg": 14.1, "tempMin": 10.8, "tempMax": 17.4, "precipMm": 68.8, "rainDays": null, "sunHours": 229.2 },
+        { "tempAvg": 17.7, "tempMin": 14.5, "tempMax": 21.0, "precipMm": 40.3, "rainDays": null, "sunHours": 270.9 },
+        { "tempAvg": 21.4, "tempMin": 18.1, "tempMax": 24.7, "precipMm": 35.7, "rainDays": null, "sunHours": 309.8 },
+        { "tempAvg": 24.1, "tempMin": 20.8, "tempMax": 27.5, "precipMm": 13.6, "rainDays": 1.9, "sunHours": 349.3 },
+        { "tempAvg": 24.5, "tempMin": 21.1, "tempMax": 27.9, "precipMm": 17.2, "rainDays": null, "sunHours": 323.2 },
+        { "tempAvg": 21.2, "tempMin": 17.7, "tempMax": 24.8, "precipMm": 81.0, "rainDays": null, "sunHours": 249.8 },
+        { "tempAvg": 17.5, "tempMin": 14.0, "tempMax": 21.0, "precipMm": 127.9, "rainDays": null, "sunHours": 191.1 },
+        { "tempAvg": 13.3, "tempMin": 9.7, "tempMax": 17.0, "precipMm": 138.4, "rainDays": null, "sunHours": 151.5 },
+        { "tempAvg": 10.3, "tempMin": 6.6, "tempMax": 14.1, "precipMm": 90.3, "rainDays": null, "sunHours": 145.2 }
+      ]
+    },
+    {
+      "slug": "rennes",
+      "name": "Rennes (Rennes-Saint-Jacques)",
+      "lat": 48.0686,
+      "lon": -1.7339,
+      "months": [
+        { "tempAvg": 6.2, "tempMin": 3.3, "tempMax": 9.2, "precipMm": 66.6, "rainDays": null, "sunHours": 68.3 },
+        { "tempAvg": 6.6, "tempMin": 2.9, "tempMax": 10.2, "precipMm": 51.6, "rainDays": null, "sunHours": 92.7 },
+        { "tempAvg": 8.8, "tempMin": 4.5, "tempMax": 13.2, "precipMm": 48.9, "rainDays": null, "sunHours": 134.1 },
+        { "tempAvg": 11.0, "tempMin": 6.0, "tempMax": 16.0, "precipMm": 51.2, "rainDays": null, "sunHours": 173.8 },
+        { "tempAvg": 14.3, "tempMin": 9.3, "tempMax": 19.3, "precipMm": 58.1, "rainDays": null, "sunHours": 202.1 },
+        { "tempAvg": 17.3, "tempMin": 12.1, "tempMax": 22.6, "precipMm": 50.9, "rainDays": null, "sunHours": 213.3 },
+        { "tempAvg": 19.2, "tempMin": 13.7, "tempMax": 24.8, "precipMm": 44.0, "rainDays": null, "sunHours": 220.2 },
+        { "tempAvg": 19.3, "tempMin": 13.8, "tempMax": 24.7, "precipMm": 43.5, "rainDays": null, "sunHours": 207.2 },
+        { "tempAvg": 16.6, "tempMin": 11.4, "tempMax": 21.9, "precipMm": 56.6, "rainDays": null, "sunHours": 180.7 },
+        { "tempAvg": 13.2, "tempMin": 9.3, "tempMax": 17.2, "precipMm": 73.1, "rainDays": null, "sunHours": 116.7 },
+        { "tempAvg": 9.2, "tempMin": 5.9, "tempMax": 12.5, "precipMm": 73.2, "rainDays": null, "sunHours": 83.5 },
+        { "tempAvg": 6.6, "tempMin": 3.6, "tempMax": 9.6, "precipMm": 73.3, "rainDays": null, "sunHours": 69.0 }
+      ]
+    },
+    {
+      "slug": "brest",
+      "name": "Brest (Brest-Guipavas)",
+      "lat": 48.4478,
+      "lon": -4.4181,
+      "months": [
+        { "tempAvg": 7.1, "tempMin": 4.6, "tempMax": 9.7, "precipMm": 142.6, "rainDays": 16.5, "sunHours": 61.2 },
+        { "tempAvg": 7.1, "tempMin": 4.3, "tempMax": 10.0, "precipMm": 118.7, "rainDays": null, "sunHours": 81.7 },
+        { "tempAvg": 8.6, "tempMin": 5.4, "tempMax": 11.9, "precipMm": 82.2, "rainDays": null, "sunHours": 122.2 },
+        { "tempAvg": 10.1, "tempMin": 6.3, "tempMax": 13.9, "precipMm": 91.8, "rainDays": null, "sunHours": 165.4 },
+        { "tempAvg": 12.8, "tempMin": 8.9, "tempMax": 16.8, "precipMm": 74.6, "rainDays": 7.8, "sunHours": 187.5 },
+        { "tempAvg": 15.3, "tempMin": 11.4, "tempMax": 19.1, "precipMm": 64.6, "rainDays": null, "sunHours": 183.9 },
+        { "tempAvg": 17.0, "tempMin": 13.1, "tempMax": 20.8, "precipMm": 70.7, "rainDays": null, "sunHours": 180.1 },
+        { "tempAvg": 17.1, "tempMin": 13.2, "tempMax": 20.9, "precipMm": 75.3, "rainDays": null, "sunHours": 171.8 },
+        { "tempAvg": 15.4, "tempMin": 11.5, "tempMax": 19.3, "precipMm": 78.6, "rainDays": null, "sunHours": 158.4 },
+        { "tempAvg": 12.8, "tempMin": 9.6, "tempMax": 16.0, "precipMm": 129.4, "rainDays": null, "sunHours": 109.0 },
+        { "tempAvg": 9.8, "tempMin": 7.0, "tempMax": 12.5, "precipMm": 146.7, "rainDays": null, "sunHours": 72.3 },
+        { "tempAvg": 7.7, "tempMin": 5.0, "tempMax": 10.3, "precipMm": 154.6, "rainDays": null, "sunHours": 61.2 }
+      ]
+    },
+    {
+      "slug": "clermont-ferrand",
+      "name": "Clermont-Ferrand (Clermont-Aulnat)",
+      "lat": 45.7867,
+      "lon": 3.1494,
+      "months": [
+        { "tempAvg": 4.3, "tempMin": 0.6, "tempMax": 8.0, "precipMm": 26.6, "rainDays": 8.5, "sunHours": 84.6 },
+        { "tempAvg": 5.1, "tempMin": 0.6, "tempMax": 9.5, "precipMm": 18.7, "rainDays": null, "sunHours": 109.6 },
+        { "tempAvg": 8.3, "tempMin": 3.0, "tempMax": 13.7, "precipMm": 26.1, "rainDays": null, "sunHours": 165.4 },
+        { "tempAvg": 10.9, "tempMin": 5.3, "tempMax": 16.6, "precipMm": 51.1, "rainDays": null, "sunHours": 179.1 },
+        { "tempAvg": 14.8, "tempMin": 9.1, "tempMax": 20.5, "precipMm": 66.5, "rainDays": null, "sunHours": 199.7 },
+        { "tempAvg": 18.4, "tempMin": 12.6, "tempMax": 24.2, "precipMm": 67.5, "rainDays": null, "sunHours": 225.2 },
+        { "tempAvg": 20.6, "tempMin": 14.5, "tempMax": 26.8, "precipMm": 63.3, "rainDays": 6.7, "sunHours": 255.6 },
+        { "tempAvg": 20.6, "tempMin": 14.4, "tempMax": 26.8, "precipMm": 62.0, "rainDays": null, "sunHours": 243.2 },
+        { "tempAvg": 16.7, "tempMin": 10.9, "tempMax": 22.5, "precipMm": 57.5, "rainDays": null, "sunHours": 191.4 },
+        { "tempAvg": 13.0, "tempMin": 8.3, "tempMax": 17.8, "precipMm": 48.8, "rainDays": null, "sunHours": 136.0 },
+        { "tempAvg": 7.9, "tempMin": 3.9, "tempMax": 12.0, "precipMm": 46.2, "rainDays": null, "sunHours": 90.3 },
+        { "tempAvg": 5.0, "tempMin": 1.4, "tempMax": 8.6, "precipMm": 29.1, "rainDays": null, "sunHours": 77.7 }
+      ]
+    },
+    {
+      "slug": "dijon",
+      "name": "Dijon (Dijon-Longvic)",
+      "lat": 47.2689,
+      "lon": 5.0878,
+      "months": [
+        { "tempAvg": 2.7, "tempMin": -0.2, "tempMax": 5.6, "precipMm": 56.8, "rainDays": 10.6, "sunHours": 60.8 },
+        { "tempAvg": 3.8, "tempMin": 0.0, "tempMax": 7.6, "precipMm": 42.9, "rainDays": 8.4, "sunHours": 95.1 },
+        { "tempAvg": 7.5, "tempMin": 2.6, "tempMax": 12.5, "precipMm": 48.2, "rainDays": 9.2, "sunHours": 159.8 },
+        { "tempAvg": 10.7, "tempMin": 5.2, "tempMax": 16.2, "precipMm": 57.5, "rainDays": 9.1, "sunHours": 193.7 },
+        { "tempAvg": 14.6, "tempMin": 9.2, "tempMax": 20.0, "precipMm": 76.1, "rainDays": 10.3, "sunHours": 215.5 },
+        { "tempAvg": 18.5, "tempMin": 12.8, "tempMax": 24.2, "precipMm": 65.8, "rainDays": 8.9, "sunHours": 240.3 },
+        { "tempAvg": 20.8, "tempMin": 14.9, "tempMax": 26.7, "precipMm": 64.9, "rainDays": 7.8, "sunHours": 256.9 },
+        { "tempAvg": 20.4, "tempMin": 14.6, "tempMax": 26.2, "precipMm": 62.0, "rainDays": 7.9, "sunHours": 239.7 },
+        { "tempAvg": 16.4, "tempMin": 11.0, "tempMax": 21.7, "precipMm": 56.4, "rainDays": 7.9, "sunHours": 190.9 },
+        { "tempAvg": 11.8, "tempMin": 7.6, "tempMax": 16.1, "precipMm": 73.6, "rainDays": 9.8, "sunHours": 118.0 },
+        { "tempAvg": 6.5, "tempMin": 3.3, "tempMax": 9.7, "precipMm": 77.6, "rainDays": 11.1, "sunHours": 66.5 },
+        { "tempAvg": 3.4, "tempMin": 0.7, "tempMax": 6.1, "precipMm": 61.6, "rainDays": 11.3, "sunHours": 52.9 }
+      ]
+    },
+    {
+      "slug": "grenoble",
+      "name": "Grenoble (Grenoble-Saint-Geoirs)",
+      "lat": 45.3631,
+      "lon": 5.3294,
+      "months": [
+        { "tempAvg": 2.8, "tempMin": -0.7, "tempMax": 6.3, "precipMm": 63.3, "rainDays": 8.9, "sunHours": 90.8 },
+        { "tempAvg": 3.8, "tempMin": -0.5, "tempMax": 8.0, "precipMm": 48.7, "rainDays": 7.6, "sunHours": 111.6 },
+        { "tempAvg": 7.4, "tempMin": 2.1, "tempMax": 12.6, "precipMm": 63.0, "rainDays": 9.0, "sunHours": 172.9 },
+        { "tempAvg": 10.4, "tempMin": 4.7, "tempMax": 16.2, "precipMm": 75.5, "rainDays": 9.1, "sunHours": 189.8 },
+        { "tempAvg": 14.5, "tempMin": 8.9, "tempMax": 20.2, "precipMm": 90.7, "rainDays": 10.1, "sunHours": 220.8 },
+        { "tempAvg": 18.4, "tempMin": 12.4, "tempMax": 24.4, "precipMm": 73.3, "rainDays": 8.5, "sunHours": 258.4 },
+        { "tempAvg": 20.6, "tempMin": 14.1, "tempMax": 27.1, "precipMm": 66.5, "rainDays": 7.1, "sunHours": 292.4 },
+        { "tempAvg": 20.5, "tempMin": 14.2, "tempMax": 26.9, "precipMm": 66.3, "rainDays": 7.2, "sunHours": 263.4 },
+        { "tempAvg": 16.4, "tempMin": 10.8, "tempMax": 22.0, "precipMm": 98.9, "rainDays": 7.5, "sunHours": 199.2 },
+        { "tempAvg": 12.3, "tempMin": 7.7, "tempMax": 17.0, "precipMm": 106.7, "rainDays": 9.8, "sunHours": 140.4 },
+        { "tempAvg": 6.9, "tempMin": 3.2, "tempMax": 10.7, "precipMm": 98.6, "rainDays": 10.0, "sunHours": 91.1 },
+        { "tempAvg": 3.5, "tempMin": 0.1, "tempMax": 6.9, "precipMm": 63.6, "rainDays": 9.8, "sunHours": 78.0 }
+      ]
+    },
+    {
+      "slug": "caen",
+      "name": "Caen (Caen-Carpiquet)",
+      "lat": 49.1797,
+      "lon": -0.4561,
+      "months": [
+        { "tempAvg": 5.6, "tempMin": 2.9, "tempMax": 8.3, "precipMm": 63.1, "rainDays": 11.3, "sunHours": 70.5 },
+        { "tempAvg": 5.9, "tempMin": 2.8, "tempMax": 9.1, "precipMm": 52.8, "rainDays": null, "sunHours": 90.2 },
+        { "tempAvg": 8.0, "tempMin": 4.2, "tempMax": 11.7, "precipMm": 49.7, "rainDays": null, "sunHours": 130.0 },
+        { "tempAvg": 10.0, "tempMin": 5.5, "tempMax": 14.4, "precipMm": 53.4, "rainDays": null, "sunHours": 179.1 },
+        { "tempAvg": 13.0, "tempMin": 8.5, "tempMax": 17.4, "precipMm": 59.4, "rainDays": null, "sunHours": 203.4 },
+        { "tempAvg": 15.9, "tempMin": 11.2, "tempMax": 20.5, "precipMm": 58.0, "rainDays": null, "sunHours": 212.6 },
+        { "tempAvg": 18.0, "tempMin": 13.1, "tempMax": 22.9, "precipMm": 51.1, "rainDays": 7.4, "sunHours": 218.5 },
+        { "tempAvg": 18.3, "tempMin": 13.3, "tempMax": 23.2, "precipMm": 59.6, "rainDays": null, "sunHours": 204.8 },
+        { "tempAvg": 15.8, "tempMin": 11.1, "tempMax": 20.4, "precipMm": 54.3, "rainDays": null, "sunHours": 170.9 },
+        { "tempAvg": 12.5, "tempMin": 8.8, "tempMax": 16.2, "precipMm": 78.9, "rainDays": null, "sunHours": 117.1 },
+        { "tempAvg": 8.7, "tempMin": 5.6, "tempMax": 11.8, "precipMm": 78.7, "rainDays": null, "sunHours": 81.9 },
+        { "tempAvg": 6.1, "tempMin": 3.3, "tempMax": 8.8, "precipMm": 81.3, "rainDays": null, "sunHours": 67.2 }
+      ]
+    },
+    {
+      "slug": "rouen",
+      "name": "Rouen (Rouen-Jardin)",
+      "lat": 49.4225,
+      "lon": 1.0772,
+      "months": [
+        { "tempAvg": 5.6, "tempMin": 2.7, "tempMax": 8.6, "precipMm": 76.1, "rainDays": null, "sunHours": null },
+        { "tempAvg": 6.2, "tempMin": 2.6, "tempMax": 9.9, "precipMm": 63.6, "rainDays": null, "sunHours": null },
+        { "tempAvg": 8.9, "tempMin": 4.4, "tempMax": 13.4, "precipMm": 58.0, "rainDays": null, "sunHours": null },
+        { "tempAvg": 11.6, "tempMin": 6.2, "tempMax": 17.1, "precipMm": 52.5, "rainDays": null, "sunHours": null },
+        { "tempAvg": 15.0, "tempMin": 9.5, "tempMax": 20.5, "precipMm": 66.5, "rainDays": null, "sunHours": null },
+        { "tempAvg": 18.2, "tempMin": 12.6, "tempMax": 23.9, "precipMm": 56.8, "rainDays": null, "sunHours": null },
+        { "tempAvg": 20.2, "tempMin": 14.5, "tempMax": 25.9, "precipMm": 62.0, "rainDays": null, "sunHours": null },
+        { "tempAvg": 20.0, "tempMin": 14.2, "tempMax": 25.9, "precipMm": 68.6, "rainDays": null, "sunHours": null },
+        { "tempAvg": 16.9, "tempMin": 11.5, "tempMax": 22.3, "precipMm": 57.8, "rainDays": null, "sunHours": null },
+        { "tempAvg": 13.2, "tempMin": 8.9, "tempMax": 17.4, "precipMm": 76.2, "rainDays": null, "sunHours": null },
+        { "tempAvg": 8.8, "tempMin": 5.5, "tempMax": 12.1, "precipMm": 76.2, "rainDays": null, "sunHours": null },
+        { "tempAvg": 6.0, "tempMin": 3.1, "tempMax": 8.9, "precipMm": 103.6, "rainDays": null, "sunHours": null }
+      ]
+    },
+    {
+      "slug": "reims",
+      "name": "Reims (Chambrecy-CIVC, station Marne)",
+      "lat": 49.1828,
+      "lon": 3.8242,
+      "months": [
+        { "tempAvg": 3.4, "tempMin": 0.4, "tempMax": 6.4, "precipMm": 67.3, "rainDays": 12.3, "sunHours": null },
+        { "tempAvg": 4.0, "tempMin": 0.2, "tempMax": 7.7, "precipMm": 54.7, "rainDays": 11.4, "sunHours": null },
+        { "tempAvg": 7.0, "tempMin": 1.8, "tempMax": 12.2, "precipMm": 54.3, "rainDays": 10.4, "sunHours": null },
+        { "tempAvg": 9.8, "tempMin": 3.4, "tempMax": 16.2, "precipMm": 47.5, "rainDays": 9.1, "sunHours": null },
+        { "tempAvg": 13.4, "tempMin": 7.0, "tempMax": 19.8, "precipMm": 61.3, "rainDays": 9.7, "sunHours": null },
+        { "tempAvg": 16.6, "tempMin": 10.0, "tempMax": 23.1, "precipMm": 57.8, "rainDays": 9.5, "sunHours": null },
+        { "tempAvg": 18.7, "tempMin": 12.0, "tempMax": 25.4, "precipMm": 67.9, "rainDays": 8.7, "sunHours": null },
+        { "tempAvg": 18.5, "tempMin": 11.9, "tempMax": 25.2, "precipMm": 64.2, "rainDays": 8.7, "sunHours": null },
+        { "tempAvg": 15.1, "tempMin": 9.1, "tempMax": 21.1, "precipMm": 53.3, "rainDays": 8.3, "sunHours": null },
+        { "tempAvg": 11.5, "tempMin": 7.0, "tempMax": 16.0, "precipMm": 61.2, "rainDays": 10.1, "sunHours": null },
+        { "tempAvg": 6.9, "tempMin": 3.5, "tempMax": 10.2, "precipMm": 63.2, "rainDays": 11.6, "sunHours": null },
+        { "tempAvg": 4.0, "tempMin": 1.2, "tempMax": 6.9, "precipMm": 81.3, "rainDays": 13.3, "sunHours": null }
+      ]
+    },
+    {
+      "slug": "tours",
+      "name": "Tours (Tours-Saint-Symphorien)",
+      "lat": 47.4322,
+      "lon": 0.7275,
+      "months": [
+        { "tempAvg": 5.1, "tempMin": 2.5, "tempMax": 7.7, "precipMm": 63.0, "rainDays": 11.0, "sunHours": 68.4 },
+        { "tempAvg": 5.6, "tempMin": 2.3, "tempMax": 9.0, "precipMm": 52.4, "rainDays": 9.8, "sunHours": 95.2 },
+        { "tempAvg": 8.6, "tempMin": 4.3, "tempMax": 12.9, "precipMm": 48.7, "rainDays": 9.3, "sunHours": 148.8 },
+        { "tempAvg": 11.0, "tempMin": 6.0, "tempMax": 16.0, "precipMm": 53.0, "rainDays": 8.9, "sunHours": 187.3 },
+        { "tempAvg": 14.5, "tempMin": 9.4, "tempMax": 19.6, "precipMm": 57.7, "rainDays": 9.0, "sunHours": 214.2 },
+        { "tempAvg": 18.0, "tempMin": 12.6, "tempMax": 23.4, "precipMm": 53.2, "rainDays": 7.6, "sunHours": 228.5 },
+        { "tempAvg": 20.2, "tempMin": 14.4, "tempMax": 25.9, "precipMm": 46.6, "rainDays": 6.7, "sunHours": 247.1 },
+        { "tempAvg": 20.2, "tempMin": 14.3, "tempMax": 26.0, "precipMm": 44.0, "rainDays": 6.6, "sunHours": 237.7 },
+        { "tempAvg": 16.8, "tempMin": 11.4, "tempMax": 22.1, "precipMm": 51.8, "rainDays": 7.5, "sunHours": 191.3 },
+        { "tempAvg": 13.0, "tempMin": 9.0, "tempMax": 17.0, "precipMm": 66.0, "rainDays": 9.8, "sunHours": 122.9 },
+        { "tempAvg": 8.3, "tempMin": 5.3, "tempMax": 11.4, "precipMm": 69.3, "rainDays": 11.4, "sunHours": 78.9 },
+        { "tempAvg": 5.5, "tempMin": 2.9, "tempMax": 8.1, "precipMm": 72.1, "rainDays": 11.5, "sunHours": 64.6 }
+      ]
+    },
+    {
+      "slug": "limoges",
+      "name": "Limoges (Limoges-Bellegarde)",
+      "lat": 45.8628,
+      "lon": 1.1764,
+      "months": [
+        { "tempAvg": 4.6, "tempMin": 1.9, "tempMax": 7.2, "precipMm": 90.6, "rainDays": 13.2, "sunHours": 79.6 },
+        { "tempAvg": 5.1, "tempMin": 1.7, "tempMax": 8.4, "precipMm": 75.0, "rainDays": 11.2, "sunHours": 104.1 },
+        { "tempAvg": 8.2, "tempMin": 4.3, "tempMax": 12.1, "precipMm": 77.8, "rainDays": 11.2, "sunHours": 157.6 },
+        { "tempAvg": 10.6, "tempMin": 6.4, "tempMax": 14.8, "precipMm": 87.7, "rainDays": 12.0, "sunHours": 173.0 },
+        { "tempAvg": 14.1, "tempMin": 9.8, "tempMax": 18.5, "precipMm": 92.6, "rainDays": 11.2, "sunHours": 205.6 },
+        { "tempAvg": 17.5, "tempMin": 13.0, "tempMax": 22.0, "precipMm": 80.0, "rainDays": 9.5, "sunHours": 224.4 },
+        { "tempAvg": 19.5, "tempMin": 14.7, "tempMax": 24.2, "precipMm": 62.5, "rainDays": 8.3, "sunHours": 243.5 },
+        { "tempAvg": 19.6, "tempMin": 14.8, "tempMax": 24.4, "precipMm": 71.6, "rainDays": 8.1, "sunHours": 236.8 },
+        { "tempAvg": 16.2, "tempMin": 11.9, "tempMax": 20.6, "precipMm": 74.9, "rainDays": 9.7, "sunHours": 198.0 },
+        { "tempAvg": 12.7, "tempMin": 9.2, "tempMax": 16.2, "precipMm": 94.2, "rainDays": 12.1, "sunHours": 135.0 },
+        { "tempAvg": 7.8, "tempMin": 5.0, "tempMax": 10.7, "precipMm": 106.1, "rainDays": 13.9, "sunHours": 85.6 },
+        { "tempAvg": 5.3, "tempMin": 2.6, "tempMax": 7.9, "precipMm": 105.0, "rainDays": 13.3, "sunHours": 78.9 }
+      ]
+    },
+    {
+      "slug": "bourges",
+      "name": "Bourges (Bourges-Avord)",
+      "lat": 47.0592,
+      "lon": 2.3597,
+      "months": [
+        { "tempAvg": 4.5, "tempMin": 1.6, "tempMax": 7.4, "precipMm": 58.0, "rainDays": 11.0, "sunHours": 65.5 },
+        { "tempAvg": 5.1, "tempMin": 1.4, "tempMax": 8.9, "precipMm": 51.0, "rainDays": 9.0, "sunHours": 93.5 },
+        { "tempAvg": 8.4, "tempMin": 3.7, "tempMax": 13.1, "precipMm": 52.8, "rainDays": 10.0, "sunHours": 155.9 },
+        { "tempAvg": 11.1, "tempMin": 5.8, "tempMax": 16.3, "precipMm": 62.0, "rainDays": 11.0, "sunHours": 185.6 },
+        { "tempAvg": 14.8, "tempMin": 9.5, "tempMax": 20.1, "precipMm": 75.9, "rainDays": 12.0, "sunHours": 215.6 },
+        { "tempAvg": 18.4, "tempMin": 13.0, "tempMax": 23.8, "precipMm": 58.4, "rainDays": 10.0, "sunHours": 227.4 },
+        { "tempAvg": 20.5, "tempMin": 14.8, "tempMax": 26.2, "precipMm": 63.5, "rainDays": 9.0, "sunHours": 248.6 },
+        { "tempAvg": 20.5, "tempMin": 14.7, "tempMax": 26.2, "precipMm": 53.5, "rainDays": 8.0, "sunHours": 239.8 },
+        { "tempAvg": 16.7, "tempMin": 11.3, "tempMax": 22.1, "precipMm": 56.7, "rainDays": 9.0, "sunHours": 194.0 },
+        { "tempAvg": 12.9, "tempMin": 8.5, "tempMax": 17.2, "precipMm": 74.2, "rainDays": 11.0, "sunHours": 127.0 },
+        { "tempAvg": 7.9, "tempMin": 4.6, "tempMax": 11.2, "precipMm": 69.3, "rainDays": 11.0, "sunHours": 76.6 },
+        { "tempAvg": 5.0, "tempMin": 2.2, "tempMax": 7.9, "precipMm": 67.4, "rainDays": 11.0, "sunHours": 59.5 }
+      ]
+    },
+    {
+      "slug": "ajaccio",
+      "name": "Ajaccio (Ajaccio-Milelli SAPC)",
+      "lat": 41.9381,
+      "lon": 8.7206,
+      "months": [
+        { "tempAvg": 9.4, "tempMin": 5.0, "tempMax": 13.9, "precipMm": 85.7, "rainDays": 9.2, "sunHours": null },
+        { "tempAvg": 9.4, "tempMin": 4.4, "tempMax": 14.5, "precipMm": 79.5, "rainDays": 9.2, "sunHours": null },
+        { "tempAvg": 11.5, "tempMin": 6.1, "tempMax": 16.9, "precipMm": 74.5, "rainDays": 7.5, "sunHours": null },
+        { "tempAvg": 14.8, "tempMin": 8.9, "tempMax": 20.7, "precipMm": 58.2, "rainDays": 7.2, "sunHours": null },
+        { "tempAvg": 17.9, "tempMin": 11.8, "tempMax": 24.1, "precipMm": 71.9, "rainDays": 5.9, "sunHours": null },
+        { "tempAvg": 22.0, "tempMin": 15.4, "tempMax": 28.6, "precipMm": 23.6, "rainDays": 2.8, "sunHours": null },
+        { "tempAvg": 24.9, "tempMin": 17.8, "tempMax": 32.1, "precipMm": 9.7, "rainDays": 0.8, "sunHours": null },
+        { "tempAvg": 24.7, "tempMin": 17.8, "tempMax": 31.6, "precipMm": 13.5, "rainDays": 1.4, "sunHours": null },
+        { "tempAvg": 21.6, "tempMin": 15.3, "tempMax": 27.9, "precipMm": 57.7, "rainDays": 4.8, "sunHours": null },
+        { "tempAvg": 18.2, "tempMin": 12.5, "tempMax": 23.9, "precipMm": 99.8, "rainDays": 7.7, "sunHours": null },
+        { "tempAvg": 13.8, "tempMin": 9.0, "tempMax": 18.5, "precipMm": 132.7, "rainDays": 9.8, "sunHours": null },
+        { "tempAvg": 10.4, "tempMin": 6.0, "tempMax": 14.8, "precipMm": 100.4, "rainDays": 10.1, "sunHours": null }
+      ]
+    },
+    {
+      "slug": "bastia",
+      "name": "Bastia (Oletta, Haute-Corse)",
+      "lat": 42.6322,
+      "lon": 9.3220,
+      "months": [
+        { "tempAvg": 8.8, "tempMin": 3.5, "tempMax": 14.1, "precipMm": 71.0, "rainDays": 6.9, "sunHours": null },
+        { "tempAvg": 8.7, "tempMin": 3.3, "tempMax": 14.1, "precipMm": 82.5, "rainDays": 7.3, "sunHours": null },
+        { "tempAvg": 10.7, "tempMin": 5.3, "tempMax": 16.2, "precipMm": 95.8, "rainDays": 8.5, "sunHours": null },
+        { "tempAvg": 13.7, "tempMin": 7.9, "tempMax": 19.6, "precipMm": 46.5, "rainDays": 6.2, "sunHours": null },
+        { "tempAvg": 17.1, "tempMin": 11.1, "tempMax": 23.0, "precipMm": 60.4, "rainDays": 6.3, "sunHours": null },
+        { "tempAvg": 21.0, "tempMin": 14.7, "tempMax": 27.4, "precipMm": 26.9, "rainDays": 3.1, "sunHours": null },
+        { "tempAvg": 24.0, "tempMin": 17.3, "tempMax": 30.6, "precipMm": 8.4, "rainDays": 1.4, "sunHours": null },
+        { "tempAvg": 23.8, "tempMin": 17.1, "tempMax": 30.6, "precipMm": 15.8, "rainDays": 1.5, "sunHours": null },
+        { "tempAvg": 20.8, "tempMin": 14.8, "tempMax": 26.9, "precipMm": 52.4, "rainDays": 4.3, "sunHours": null },
+        { "tempAvg": 17.3, "tempMin": 11.9, "tempMax": 22.7, "precipMm": 100.0, "rainDays": 6.1, "sunHours": null },
+        { "tempAvg": 13.2, "tempMin": 8.2, "tempMax": 18.2, "precipMm": 122.6, "rainDays": 8.9, "sunHours": null },
+        { "tempAvg": 9.8, "tempMin": 4.5, "tempMax": 15.2, "precipMm": 75.0, "rainDays": 6.8, "sunHours": null }
+      ]
+    },
+    {
+      "slug": "perpignan",
+      "name": "Perpignan (Perpignan-Rivesaltes)",
+      "lat": 42.7378,
+      "lon": 2.8728,
+      "months": [
+        { "tempAvg": 8.7, "tempMin": 4.8, "tempMax": 12.7, "precipMm": 60.1, "rainDays": null, "sunHours": 140.9 },
+        { "tempAvg": 9.2, "tempMin": 5.0, "tempMax": 13.4, "precipMm": 40.9, "rainDays": null, "sunHours": 163.6 },
+        { "tempAvg": 12.0, "tempMin": 7.6, "tempMax": 16.4, "precipMm": 51.6, "rainDays": null, "sunHours": 206.6 },
+        { "tempAvg": 14.2, "tempMin": 9.7, "tempMax": 18.7, "precipMm": 66.1, "rainDays": null, "sunHours": 219.8 },
+        { "tempAvg": 17.8, "tempMin": 13.3, "tempMax": 22.3, "precipMm": 45.6, "rainDays": null, "sunHours": 240.7 },
+        { "tempAvg": 22.0, "tempMin": 17.2, "tempMax": 26.8, "precipMm": 23.6, "rainDays": null, "sunHours": 267.6 },
+        { "tempAvg": 24.6, "tempMin": 19.7, "tempMax": 29.5, "precipMm": 15.1, "rainDays": null, "sunHours": 299.9 },
+        { "tempAvg": 24.5, "tempMin": 19.7, "tempMax": 29.4, "precipMm": 22.7, "rainDays": null, "sunHours": 272.9 },
+        { "tempAvg": 20.9, "tempMin": 16.1, "tempMax": 25.6, "precipMm": 43.0, "rainDays": null, "sunHours": 223.8 },
+        { "tempAvg": 17.0, "tempMin": 12.9, "tempMax": 21.2, "precipMm": 82.1, "rainDays": null, "sunHours": 175.1 },
+        { "tempAvg": 12.3, "tempMin": 8.4, "tempMax": 16.3, "precipMm": 72.6, "rainDays": null, "sunHours": 146.8 },
+        { "tempAvg": 9.3, "tempMin": 5.3, "tempMax": 13.3, "precipMm": 54.9, "rainDays": null, "sunHours": 131.0 }
+      ]
+    },
+    {
+      "slug": "fort-de-france",
+      "name": "Fort-de-France (Fort-de-France Desaix)",
+      "lat": 14.6175,
+      "lon": -61.0639,
+      "months": [
+        { "tempAvg": 25.0, "tempMin": 22.2, "tempMax": 27.7, "precipMm": 113.9, "rainDays": 18.6, "sunHours": null },
+        { "tempAvg": 24.9, "tempMin": 22.0, "tempMax": 27.9, "precipMm": 76.5, "rainDays": 14.1, "sunHours": null },
+        { "tempAvg": 25.4, "tempMin": 22.3, "tempMax": 28.5, "precipMm": 70.5, "rainDays": 12.2, "sunHours": null },
+        { "tempAvg": 26.2, "tempMin": 23.1, "tempMax": 29.3, "precipMm": 108.8, "rainDays": 12.6, "sunHours": null },
+        { "tempAvg": 26.8, "tempMin": 23.9, "tempMax": 29.8, "precipMm": 133.0, "rainDays": 13.2, "sunHours": null },
+        { "tempAvg": 27.0, "tempMin": 24.3, "tempMax": 29.6, "precipMm": 154.1, "rainDays": 17.0, "sunHours": null },
+        { "tempAvg": 26.9, "tempMin": 24.2, "tempMax": 29.7, "precipMm": 205.6, "rainDays": 20.6, "sunHours": null },
+        { "tempAvg": 27.3, "tempMin": 24.4, "tempMax": 30.2, "precipMm": 246.7, "rainDays": 19.2, "sunHours": null },
+        { "tempAvg": 27.5, "tempMin": 24.5, "tempMax": 30.5, "precipMm": 213.9, "rainDays": 17.2, "sunHours": null },
+        { "tempAvg": 27.2, "tempMin": 24.2, "tempMax": 30.2, "precipMm": 243.0, "rainDays": 18.0, "sunHours": null },
+        { "tempAvg": 26.4, "tempMin": 23.7, "tempMax": 29.2, "precipMm": 236.7, "rainDays": 19.2, "sunHours": null },
+        { "tempAvg": 25.6, "tempMin": 23.0, "tempMax": 28.2, "precipMm": 147.8, "rainDays": 18.1, "sunHours": null }
+      ]
+    },
+    {
+      "slug": "pointe-a-pitre",
+      "name": "Pointe-à-Pitre (Le Raizet)",
+      "lat": 16.2653,
+      "lon": -61.5318,
+      "months": [
+        { "tempAvg": 25.0, "tempMin": 20.9, "tempMax": 29.1, "precipMm": 89.3, "rainDays": 15.7, "sunHours": 200.9 },
+        { "tempAvg": 25.0, "tempMin": 20.9, "tempMax": 29.1, "precipMm": 58.2, "rainDays": 12.8, "sunHours": 190.7 },
+        { "tempAvg": 25.4, "tempMin": 21.1, "tempMax": 29.6, "precipMm": 72.3, "rainDays": 11.4, "sunHours": 214.0 },
+        { "tempAvg": 26.3, "tempMin": 22.4, "tempMax": 30.2, "precipMm": 98.9, "rainDays": 12.2, "sunHours": 209.0 },
+        { "tempAvg": 27.3, "tempMin": 23.7, "tempMax": 30.8, "precipMm": 122.5, "rainDays": 12.7, "sunHours": 215.1 },
+        { "tempAvg": 27.9, "tempMin": 24.5, "tempMax": 31.4, "precipMm": 105.2, "rainDays": 13.2, "sunHours": 209.5 },
+        { "tempAvg": 28.0, "tempMin": 24.5, "tempMax": 31.6, "precipMm": 134.6, "rainDays": 15.3, "sunHours": 213.8 },
+        { "tempAvg": 28.1, "tempMin": 24.3, "tempMax": 31.8, "precipMm": 162.8, "rainDays": 16.4, "sunHours": 223.2 },
+        { "tempAvg": 27.8, "tempMin": 24.0, "tempMax": 31.6, "precipMm": 198.3, "rainDays": 16.1, "sunHours": 199.3 },
+        { "tempAvg": 27.4, "tempMin": 23.5, "tempMax": 31.3, "precipMm": 202.7, "rainDays": 16.6, "sunHours": 197.7 },
+        { "tempAvg": 26.5, "tempMin": 22.6, "tempMax": 30.5, "precipMm": 186.4, "rainDays": 17.0, "sunHours": 182.5 },
+        { "tempAvg": 25.6, "tempMin": 21.6, "tempMax": 29.6, "precipMm": 126.6, "rainDays": 16.4, "sunHours": 192.1 }
+      ]
+    },
+    {
+      "slug": "saint-denis-reunion",
+      "name": "Saint-Denis (La Réunion - Gillot)",
+      "lat": -20.8919,
+      "lon": 55.5286,
+      "months": [
+        { "tempAvg": 26.9, "tempMin": 23.6, "tempMax": 30.2, "precipMm": 270.2, "rainDays": 13.8, "sunHours": 218.1 },
+        { "tempAvg": 27.0, "tempMin": 23.7, "tempMax": 30.3, "precipMm": 279.3, "rainDays": 13.5, "sunHours": 195.5 },
+        { "tempAvg": 26.6, "tempMin": 23.3, "tempMax": 30.0, "precipMm": 264.5, "rainDays": 13.5, "sunHours": 215.0 },
+        { "tempAvg": 25.8, "tempMin": 22.3, "tempMax": 29.2, "precipMm": 133.4, "rainDays": 10.9, "sunHours": 216.1 },
+        { "tempAvg": 24.2, "tempMin": 20.7, "tempMax": 27.6, "precipMm": 95.8, "rainDays": 9.6, "sunHours": 213.9 },
+        { "tempAvg": 22.6, "tempMin": 19.1, "tempMax": 26.2, "precipMm": 66.9, "rainDays": 7.5, "sunHours": 210.0 },
+        { "tempAvg": 21.8, "tempMin": 18.2, "tempMax": 25.4, "precipMm": 50.9, "rainDays": 8.5, "sunHours": 222.4 },
+        { "tempAvg": 21.9, "tempMin": 18.2, "tempMax": 25.5, "precipMm": 54.8, "rainDays": 8.8, "sunHours": 216.2 },
+        { "tempAvg": 22.4, "tempMin": 18.7, "tempMax": 26.0, "precipMm": 48.5, "rainDays": 7.5, "sunHours": 210.5 },
+        { "tempAvg": 23.5, "tempMin": 19.9, "tempMax": 27.0, "precipMm": 43.3, "rainDays": 6.9, "sunHours": 210.8 },
+        { "tempAvg": 24.7, "tempMin": 21.1, "tempMax": 28.3, "precipMm": 62.5, "rainDays": 6.1, "sunHours": 212.0 },
+        { "tempAvg": 26.1, "tempMin": 22.7, "tempMax": 29.5, "precipMm": 160.2, "rainDays": 10.2, "sunHours": 226.8 }
+      ]
+    },
+    {
+      "slug": "cayenne",
+      "name": "Cayenne (Cayenne-Matoury)",
+      "lat": 4.8194,
+      "lon": -52.3608,
+      "months": [
+        { "tempAvg": 26.4, "tempMin": 23.4, "tempMax": 29.3, "precipMm": 399.4, "rainDays": 22.8, "sunHours": 102.4 },
+        { "tempAvg": 26.4, "tempMin": 23.5, "tempMax": 29.3, "precipMm": 334.8, "rainDays": 20.5, "sunHours": 90.2 },
+        { "tempAvg": 26.7, "tempMin": 23.6, "tempMax": 29.7, "precipMm": 315.4, "rainDays": 20.4, "sunHours": 117.3 },
+        { "tempAvg": 26.9, "tempMin": 23.8, "tempMax": 30.0, "precipMm": 443.2, "rainDays": 22.1, "sunHours": 121.1 },
+        { "tempAvg": 26.8, "tempMin": 23.6, "tempMax": 30.1, "precipMm": 600.0, "rainDays": 26.6, "sunHours": 121.4 },
+        { "tempAvg": 26.8, "tempMin": 23.0, "tempMax": 30.5, "precipMm": 392.2, "rainDays": 25.2, "sunHours": 153.2 },
+        { "tempAvg": 26.8, "tempMin": 22.5, "tempMax": 31.1, "precipMm": 262.2, "rainDays": 21.2, "sunHours": 200.1 },
+        { "tempAvg": 27.2, "tempMin": 22.5, "tempMax": 31.8, "precipMm": 135.4, "rainDays": 14.0, "sunHours": 231.3 },
+        { "tempAvg": 27.4, "tempMin": 22.5, "tempMax": 32.4, "precipMm": 63.2, "rainDays": 6.4, "sunHours": 250.8 },
+        { "tempAvg": 27.5, "tempMin": 22.4, "tempMax": 32.5, "precipMm": 54.9, "rainDays": 6.4, "sunHours": 256.6 },
+        { "tempAvg": 27.2, "tempMin": 22.7, "tempMax": 31.7, "precipMm": 135.2, "rainDays": 12.4, "sunHours": 208.1 },
+        { "tempAvg": 26.7, "tempMin": 23.2, "tempMax": 30.3, "precipMm": 352.3, "rainDays": 21.5, "sunHours": 150.3 }
+      ]
+    },
+    {
+      "slug": "mamoudzou",
+      "name": "Mamoudzou (Vahibe SAPC, Mayotte)",
+      "lat": -12.7944,
+      "lon": 45.1669,
+      "months": [
+        { "tempAvg": 26.6, "tempMin": 23.6, "tempMax": 29.5, "precipMm": 377.1, "rainDays": 17.3, "sunHours": null },
+        { "tempAvg": 26.6, "tempMin": 23.6, "tempMax": 29.7, "precipMm": 347.7, "rainDays": 17.2, "sunHours": null },
+        { "tempAvg": 26.7, "tempMin": 23.4, "tempMax": 30.0, "precipMm": 316.4, "rainDays": 17.3, "sunHours": null },
+        { "tempAvg": 26.5, "tempMin": 22.8, "tempMax": 30.2, "precipMm": 127.7, "rainDays": 9.7, "sunHours": null },
+        { "tempAvg": 25.3, "tempMin": 21.6, "tempMax": 29.0, "precipMm": 52.9, "rainDays": 4.8, "sunHours": null },
+        { "tempAvg": 23.9, "tempMin": 20.2, "tempMax": 27.7, "precipMm": 29.3, "rainDays": 3.7, "sunHours": null },
+        { "tempAvg": 23.1, "tempMin": 19.2, "tempMax": 27.0, "precipMm": 14.6, "rainDays": 2.7, "sunHours": null },
+        { "tempAvg": 23.0, "tempMin": 18.7, "tempMax": 27.3, "precipMm": 29.7, "rainDays": 3.7, "sunHours": null },
+        { "tempAvg": 23.7, "tempMin": 19.4, "tempMax": 28.0, "precipMm": 30.0, "rainDays": 4.1, "sunHours": null },
+        { "tempAvg": 24.9, "tempMin": 20.9, "tempMax": 28.8, "precipMm": 63.4, "rainDays": 6.2, "sunHours": null },
+        { "tempAvg": 25.9, "tempMin": 22.3, "tempMax": 29.4, "precipMm": 118.5, "rainDays": 9.9, "sunHours": null },
+        { "tempAvg": 26.4, "tempMin": 23.0, "tempMax": 29.9, "precipMm": 265.1, "rainDays": 14.2, "sunHours": null }
+      ]
+    }
+  ]
+}

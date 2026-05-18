@@ -25,6 +25,7 @@ import {
   BUDGET_TIER_LABEL,
   BUDGET_TIER_DESC,
 } from "@/lib/vacation-fit";
+import { nearestStation, distanceToNearestKm } from "@/lib/climate-normals";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { MapPin, ChevronRight, Thermometer, CloudRain, Sun, Users, Calendar } from "lucide-react";
 
@@ -296,6 +297,23 @@ export default async function VilleVacancesPage({ params }: Props) {
             );
           })()}
         </div>
+        {/* Source climat — transparency on which station feeds the data */}
+        {(() => {
+          const station = nearestStation(city);
+          const dist = distanceToNearestKm(city);
+          if (!station || dist == null) return null;
+          return (
+            <p className="text-[11px] text-[var(--text-tertiary)] mt-3 leading-relaxed">
+              Données climat : normales <strong>Météo-France 1991-2020</strong> de la
+              station <strong>{station.name}</strong>
+              {dist > 0 && <> à environ {dist} km</>}
+              {dist > 80 && (
+                <span className="text-amber-700"> · station éloignée, valeurs indicatives</span>
+              )}
+              .
+            </p>
+          );
+        })()}
       </section>
 
       {/* Booking CTA full */}

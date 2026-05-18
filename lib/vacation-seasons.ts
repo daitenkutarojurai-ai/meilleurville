@@ -1,19 +1,23 @@
-// V1 — Climat mensuel par ville (signaux mois × ville pour le moteur vacances).
+// V1.5 — Climat mensuel par ville (signaux mois × ville pour le moteur vacances).
 //
-// **Approche v1 (déterministe, sans dépendance externe)** : on interpole les
-// 12 mois à partir des deux ancres du seed (avgTempJuly, avgTempJanuary)
-// via une sinusoïde. Précipitations et ensoleillement journalier sont
-// dérivés d'un biais régional (méditerranéen sec/ensoleillé,
-// océanique humide, montagnard, etc.). Affluence touristique = score 1-5
-// composé du caractère touristique (tags) × saison.
+// **Stratégie hybride** :
+//   1. Source primaire : **normales Météo-France 1991-2020** (29 stations
+//      de référence en métropole + DROM), chargées via
+//      `lib/climate-normals.ts`. Chaque ville snape à sa station la plus
+//      proche (haversine).
+//   2. Fallback : interpolation sinusoïdale à partir des deux ancres
+//      du seed (avgTempJuly, avgTempJanuary) + biais régional pour
+//      précipitations et ensoleillement, **uniquement** quand la
+//      station de référence n'expose pas la variable (rare — sunHours
+//      sur quelques stations DROM, rainDays partiels sur certaines
+//      stations métropolitaines).
 //
-// **TODO Phase 1.5** : enrichir depuis les normales climatiques 1991-2020
-// publiées par Météo-France (donneespubliques.meteofrance.fr — STATIONS
-// puis fiches PDF/CSV par poste). Ici on reste sur l'interpolation pour
-// shipper rapidement, en sachant qu'elle est correcte à ±1.5 °C pour la
-// majorité des villes (côte/montagne légèrement bruités).
+// L'affluence touristique reste calculée séparément (1-5) à partir des
+// characterTags et de la saison — c'est un signal qualitatif, pas un
+// signal climatique.
 
 import type { CitySeed } from "@/data/cities-seed";
+import { normalsForCityMonth } from "@/lib/climate-normals";
 
 export const MONTHS = [
   "janvier", "février", "mars", "avril", "mai", "juin",
@@ -189,15 +193,39 @@ function crowdednessForMonth(city: CitySeed, month: MonthIndex): 1 | 2 | 3 | 4 |
 
 export function monthSignal(city: CitySeed, month: MonthIndex): MonthSignal {
   const regime = climateRegime(city);
-  const tempAvg = tempAvgForMonth(city, month);
+  // Source primaire : station Météo-France la plus proche.
+  const normals = normalsForCityMonth(city, month);
+
+  // Température (priorité : station, sinon interpolation)
+  const interpolatedTemp = tempAvgForMonth(city, month);
   const amplitude = ((city.avgTempJuly ?? 22) - (city.avgTempJanuary ?? 4)) / 2;
+  const tempAvg = normals?.tempAvg ?? interpolatedTemp;
+  const tempMin =
+    normals?.tempMin ?? Math.round((tempAvg - Math.max(3, amplitude * 0.35)) * 10) / 10;
+  const tempMax =
+    normals?.tempMax ?? Math.round((tempAvg + Math.max(3, amplitude * 0.35)) * 10) / 10;
+
+  // Jours de pluie (priorité : station, sinon table régionale)
+  const rainDays =
+    normals?.rainDays != null
+      ? Math.round(normals.rainDays)
+      : RAIN_DAYS_BY_REGIME[regime][month - 1];
+
+  // Heures de soleil par jour (priorité : station mensuelles / jours-du-mois,
+  // sinon table régionale)
+  const daysInMonth = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31][month - 1];
+  const sunHoursPerDay =
+    normals?.sunHours != null
+      ? Math.round((normals.sunHours / daysInMonth) * 10) / 10
+      : SUN_HOURS_BY_REGIME[regime][month - 1];
+
   return {
     month,
-    tempAvg,
-    tempMin: Math.round((tempAvg - Math.max(3, amplitude * 0.35)) * 10) / 10,
-    tempMax: Math.round((tempAvg + Math.max(3, amplitude * 0.35)) * 10) / 10,
-    rainDays: RAIN_DAYS_BY_REGIME[regime][month - 1],
-    sunHoursPerDay: SUN_HOURS_BY_REGIME[regime][month - 1],
+    tempAvg: Math.round(tempAvg * 10) / 10,
+    tempMin,
+    tempMax,
+    rainDays,
+    sunHoursPerDay,
     crowded: crowdednessForMonth(city, month),
   };
 }
