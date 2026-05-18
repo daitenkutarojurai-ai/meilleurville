@@ -27,6 +27,7 @@ import { HealthcareCard } from "@/components/HealthcareCard";
 import { EmploymentCard } from "@/components/EmploymentCard";
 import { CyclingCard } from "@/components/CyclingCard";
 import { SafetyDeepCard } from "@/components/SafetyDeepCard";
+import { DemographyCard } from "@/components/DemographyCard";
 import { QolHeroBadge } from "@/components/QolHeroBadge";
 import { getNeighborhoods } from "@/data/neighborhoods";
 import { CITIES_SEED } from "@/data/cities-seed";
@@ -548,6 +549,7 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                 <EmploymentCard city={city} />
                 <CyclingCard city={city} />
                 <SafetyDeepCard city={city} />
+                <DemographyCard city={city} />
                 <GeographicNeighborsCard citySlug={city.slug} cityName={city.name} />
                 <Card>
                   <h3 className="text-sm font-semibold text-[var(--text-primary)] mb-3 flex items-center gap-2">
@@ -819,6 +821,20 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                     </div>
                     <div className="text-xs text-[var(--text-tertiary)] mt-0.5 truncate">
                       Biens · personnes · nuit · VFFS
+                    </div>
+                  </div>
+                  <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors shrink-0" />
+                </a>
+                <a
+                  href={`/villes/${city.slug}/demographie`}
+                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
+                >
+                  <div className="min-w-0">
+                    <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
+                      👥 Démographie
+                    </div>
+                    <div className="text-xs text-[var(--text-tertiary)] mt-0.5 truncate">
+                      Vieillis. · jeunes · trajectoire · renouv.
                     </div>
                   </div>
                   <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors shrink-0" />

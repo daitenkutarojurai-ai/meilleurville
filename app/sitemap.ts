@@ -161,6 +161,13 @@ function staticSection(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/securite/sud-ouest-gascon`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.75 },
     { url: `${BASE_URL}/securite/vallee-du-rhone`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.75 },
     { url: `${BASE_URL}/securite/ile-de-france-elargie`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.75 },
+    { url: `${BASE_URL}/demographie`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.85 },
+    { url: `${BASE_URL}/demographie/cote-atlantique`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.75 },
+    { url: `${BASE_URL}/demographie/arc-mediterraneen`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.75 },
+    { url: `${BASE_URL}/demographie/arc-alpin`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.75 },
+    { url: `${BASE_URL}/demographie/sud-ouest-gascon`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.75 },
+    { url: `${BASE_URL}/demographie/vallee-du-rhone`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.75 },
+    { url: `${BASE_URL}/demographie/ile-de-france-elargie`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.75 },
     { url: `${BASE_URL}/villes`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.8 },
     { url: `${BASE_URL}/classements`, lastModified: RANKING_UPDATED, changeFrequency: "weekly", priority: 0.9 },
     { url: `${BASE_URL}/comparer`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
@@ -321,6 +328,12 @@ function citySubSection(): MetadataRoute.Sitemap {
       lastModified: CITY_DATA_UPDATED,
       changeFrequency: "monthly" as const,
       priority: 0.7,
+    },
+    {
+      url: `${BASE_URL}/villes/${city.slug}/demographie`,
+      lastModified: CITY_DATA_UPDATED,
+      changeFrequency: "monthly" as const,
+      priority: 0.65,
     },
   ]);
 }
