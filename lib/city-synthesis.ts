@@ -13,6 +13,7 @@
 // orientés positif, gardés tels quels.
 
 import type { CitySeed } from "@/data/cities-seed";
+import { CITIES_SEED } from "@/data/cities-seed";
 import { computeEnvironmentIndex } from "@/lib/environment-index";
 import { computeHealthcareAccess } from "@/lib/healthcare-access";
 import { computeEmploymentMarket } from "@/lib/employment-market";
@@ -233,3 +234,47 @@ export const SYNTHESIS_LEVEL_BG: Record<SynthesisLevel, string> = {
   moyen: "bg-amber-50 border-amber-200",
   tendu: "bg-red-50 border-red-200",
 };
+
+// ─── Rankings ─────────────────────────────────────────────────────────────
+
+export interface SynthesisRanking {
+  slug: string;
+  name: string;
+  region: string;
+  department: string;
+  population: number;
+  synthesis: CitySynthesis;
+}
+
+let SYNTHESIS_RANKING_CACHE: SynthesisRanking[] | null = null;
+
+export function getSynthesisRankings(): SynthesisRanking[] {
+  if (SYNTHESIS_RANKING_CACHE) return SYNTHESIS_RANKING_CACHE;
+  SYNTHESIS_RANKING_CACHE = CITIES_SEED.map((c) => ({
+    slug: c.slug,
+    name: c.name,
+    region: c.region,
+    department: c.department,
+    population: c.population ?? 0,
+    synthesis: computeCitySynthesis(c),
+  }));
+  return SYNTHESIS_RANKING_CACHE;
+}
+
+/** Villes au profil global le plus favorable = global le plus haut. */
+export function topSynthesisGlobal(limit = 30, minPopulation = 0): SynthesisRanking[] {
+  return getSynthesisRankings()
+    .filter((r) => r.population >= minPopulation)
+    .slice()
+    .sort((a, b) => b.synthesis.global - a.synthesis.global)
+    .slice(0, limit);
+}
+
+/** Villes au profil global le plus tendu = global le plus bas. */
+export function bottomSynthesisGlobal(limit = 20, minPopulation = 0): SynthesisRanking[] {
+  return getSynthesisRankings()
+    .filter((r) => r.population >= minPopulation)
+    .slice()
+    .sort((a, b) => a.synthesis.global - b.synthesis.global)
+    .slice(0, limit);
+}

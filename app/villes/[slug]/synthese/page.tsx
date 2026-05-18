@@ -272,6 +272,12 @@ export default async function SynthesePage({ params }: Props) {
             </Card>
           </Link>
         </div>
+
+        <div className="mt-8 text-sm">
+          <Link href="/palmares" className="text-[var(--accent)] hover:underline">
+            → Voir le palmarès national (classement universel 8 axes)
+          </Link>
+        </div>
       </section>
 
       <Footer />
