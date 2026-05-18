@@ -484,6 +484,208 @@ P1: F2, F13, F14, F15, F6, F11 — P2: F7, F8, F10.
 ### F12 — Comparaison 3 villes ✅
 **Shipped.** `/comparer/<a>-vs-<b>-vs-<c>` renders the same `[pair]` segment via length-based dispatch in `page.tsx`. New `lib/comparer-triplets.ts` lists 15 curated triplets (clusters régionaux : Big 3 métros, triangle alpin, côte PACA, Pays Basque, Grand Est, Nord, Atlantique…) and is integrity-checked at build like `SEO_PAIRS`. New `app/comparer/[pair]/TripletView.tsx` renders 3-column cards, per-axis winner bars, climate/loyer tableau, profile picks (Famille/Télétravail/Retraite/Étudiant) et liens pair-à-pair. JSON-LD : BreadcrumbList + ItemList + FAQPage à 4 Q/R. Routes pré-rendues et ajoutées au sitemap (priority 0.55).
 
+---
+
+## Roadmap v7 — UX polish + data-integrity sweep (2026-05-18)
+
+User-reported batch from a full walkthrough. Treated as **priority queue** —
+all items listed are unshipped. Group together where they share a touchpoint.
+
+### R7.1 — Top navigation audit + restructure (P0)
+**Problem:** Top bar currently shows Explorer / Classements / Comparer /
+Guides on desktop. User reports Red Flags and Carte are missing while Cadre
+de vie is over-prioritised.
+
+**Goal:**
+- **Before changing anything**, dump the full sitemap of accessible hubs
+  (Footer + SectionNav + `/sommaire`) and audit which are reachable in ≤ 1
+  click from the top bar. Output: a one-pager listing "Top bar (4 slots) vs.
+  rest of site" so no important section gets dropped silently.
+- Replace one of the 4 primary slots with **Red Flags** AND surface **Carte**
+  (either as a 5th slot if it fits, or as a prominent search-pill neighbour).
+- Remove **Cadre de vie** from the top bar (move to Footer + a card on home).
+- Final cut: ≤ 5 primary entries, no overflow at lg, no "important" hub more
+  than 1 click away. Test against `/sommaire` page list.
+
+Files: `components/Navbar.tsx`, `components/Footer.tsx`, `components/SectionNav.tsx`.
+
+### R7.2 — Remove "Méthodologie" subsection from /cadre-de-vie (P1)
+Subsection feels like a duplicate of `/methode` global page. Delete the
+methodology block on `/cadre-de-vie` (or trim to a one-line link to
+`/methode`). Same audit for `/cadre-de-vie/[macroregion]` if present.
+
+Files: `app/cadre-de-vie/page.tsx`, possibly `app/cadre-de-vie/[macroregion]/page.tsx`.
+
+### R7.3 — Score-vs-analysis alignment audit (P0)
+**Problem:** Services Publics shows scores in reverse order; Marché du
+Travail score doesn't match its written analysis; Démographie &
+Vieillissement same issue.
+
+These cards likely use the same antipattern as F47 (healthcare): internal
+scale "10 = pire" while display reads as "10 = bon", or `level` literal
+hardcoded instead of derived from score (cf. R5 fix for `public-services.ts`
+schoolsRisk).
+
+**Goal:** systematic sweep of EVERY display of a numeric score on the site:
+- `components/HealthcareCard.tsx` (done) — confirm green-tier numbers also
+  cross-tier-correct.
+- `components/PublicServicesCard.tsx`, `app/villes/[slug]/services-publics/page.tsx`
+- `components/EmploymentCard.tsx`, `app/villes/[slug]/emploi/page.tsx`
+- `components/DemographyCard.tsx`, `app/villes/[slug]/demographie/page.tsx`
+- All `lib/*-risk.ts` / `lib/*-score.ts` files: confirm one consistent
+  convention ("10 = bon" everywhere) and that `level` is derived from
+  `levelFromScore(score)` not a literal.
+
+Output: a "score convention" comment block at the top of each lib file +
+flip displays so the score number, the label colour, and the prose analysis
+all tell the same story.
+
+### R7.4 — Ensoleillement: hours → days everywhere (P1)
+**Problem:** Some surfaces show "1 800 h de soleil" and others "X jours".
+User wants days everywhere (more intuitive for non-specialists).
+
+**Goal:** find every surface displaying `city.sunshinedays` (hours) and
+convert to days via `lib/utils.ts:sunshineDays`. Keep hours as a small
+secondary inside parentheses where space allows (already the pattern in
+the homepage hero); on cards and lists, days only.
+
+Files to grep: `sunshinedays`, `sunshineHours`, `sunshineDays`. Cover at
+least: city profile hero, climate sub-page, /classements/soleil, OG images.
+
+### R7.5 — Broken DGFiP link (P0, 5-min)
+Link "Consulter les barèmes DGFiP officiels." in fiscalité pages 404s.
+Replace with a working DGFiP page (e.g.
+`https://www.impots.gouv.fr/particulier/les-impots-locaux` or the dedicated
+taxe foncière page) and run a one-shot link-checker on the rest of the site
+while we're at it.
+
+Files: `app/villes/[slug]/fiscalite/page.tsx`, `app/departements/[dept]/fiscalite/page.tsx`,
+possibly `lib/fiscalite.ts`.
+
+### R7.6 — Louer ou Acheter: self-explanatory scores (P1)
+**Problem:** `/villes/[slug]/louer-ou-acheter` shows raw numbers without
+context — users don't know what "score 6.2" means.
+
+**Goal:** every score on the page must have a one-line legend ("plus le
+score est élevé, plus l'achat est avantageux" or similar) OR be replaced by
+a labelled verdict chip ("acheter rentable dès 7 ans", "louer reste plus
+malin"). No naked numbers.
+
+Files: `app/villes/[slug]/louer-ou-acheter/page.tsx`, `components/RentVsBuyCard.tsx`,
+`lib/rent-vs-buy.ts`.
+
+### R7.7 — Score → colour audit (P0)
+**Problem:** On `/classements/retraite` (and likely others), scores 8.0
+display orange — violates the 6-tier scale defined in CLAUDE.md (8.0 should
+be green).
+
+**Goal:** site-wide audit of every place a score colour is applied. The
+canonical helper is `lib/utils.ts:scoreColor`. Find:
+- All call sites of `scoreColor` and verify they pass the right value
+  (some pages may pass `10 - score` or a rank instead of the score).
+- Any hand-rolled `if score >= …` ladders that don't match the 6 tiers.
+- OG images that bake in colours — ensure they use the same threshold table.
+
+Output: a single ranking-page screenshot where every numeric pill matches
+its background tier; same on city profile, classements, leaderboard, niche
+cards.
+
+### R7.8 — Editorial rewrite of ALL guides (P1, big)
+**Problem:** Guides currently read like raw notes — bullet points, naked
+numbers, no flow. User wants editorial tutorials: full sentences, light
+friendly tone, occasional dry humour. Feel like a magazine article, not a
+spreadsheet.
+
+**Goal:** rewrite `data/guides.ts` entry by entry. Keep the data points but
+fold them into prose. Add an intro paragraph that hooks. Use the "sans
+bullshit" voice from CLAUDE.md but more warmth. ~360 guides → likely
+multi-PR effort, batched by series (Climat 2040 → Quitter X → Comparaisons
+→ etc.).
+
+Worth doing in **parallel agents** (e.g. one batch per series). Each PR
+should keep the metadata fields untouched, only `intro` and `sections[].body`
+edited.
+
+### R7.9 — Polish "Cette ville selon votre profil" + AvoidIf wording (P2)
+- The component title is now French (renamed in earlier turn) — but verify
+  no other "Life Stage Lens" string remains anywhere (search the repo, OG
+  images, sitemap labels).
+- "Pas dans le top 30 d'un profil spécifique — choix généraliste" should
+  never appear empty. Fall back to softer alternative copy (similar
+  treatment to the "À éviter si" soft-fallback we shipped).
+- Strip the em-dash `—` from this string + audit globally.
+
+### R7.10 — Em-dash purge (P2)
+Em-dashes (`—`) feel AI-generated when over-used. Replace with: comma,
+period, colon, parentheses, or " - " depending on context. Don't blanket
+sed — manually review per-file with judgement. Cap at: roughly 1 em-dash
+per 200 words of body copy, and never two em-dashes in the same sentence.
+
+Targets in priority: card titles + body copy + meta descriptions. Lower
+priority: code comments, CLAUDE.md (these readers expect technical density).
+
+### R7.11 — Comment section everywhere relevant (P1)
+**Problem:** Comment section currently only on city profile. Users want it
+on sub-pages too (climat, transports, fiscalité, etc.), OR — fallback — an
+anchor link "Discuter de {city} →" pointing to the city profile's
+`#discussions` anchor.
+
+**Goal:** decide policy:
+- Option A: actually embed `CommentSection` on every sub-page with its own
+  topic (`city:{slug}:climat`, etc.) — more granular community feedback.
+- Option B: just add a stickier "Discuter →" CTA at the bottom of each
+  sub-page that scrolls to the parent profile's `#discussions`.
+
+**Recommend Option B** to start (no fragmentation of conversations). Files:
+the 21 sub-pages under `app/villes/[slug]/*`.
+
+### R7.12 — "Aller plus loin" — add icons to each box (P2)
+Currently 4 cards (Air, Bruit, Écoles, Quartiers) without iconography in
+`/villes/[slug]/sante` and similar. Add a lucide icon per card matching the
+sub-page strip on the main profile (already iconified via emoji).
+
+Files: every sub-page's "Aller plus loin" block — `app/villes/[slug]/*/page.tsx`.
+
+### R7.13 — Calculateur cout-reel: CTA card upgrade (P2)
+**Problem:** `/calculateur-cout-reel/[ville]` ends with a flat text link
+"Fiche complète de Rodez →". Redesign as a styled card with icon, city
+name, score badge, and a clear "Voir la fiche complète →" button. Apply
+the same pattern on all per-city calculator/tool pages: `/cout-menage/[ville]`,
+`/quiz-compatibilite/[ville]` if exists.
+
+Files: `app/calculateur-cout-reel/[ville]/page.tsx`, `app/cout-menage/[ville]/page.tsx`,
+any other per-city sub-tool.
+
+### R7.14 — /villes filters: visual lift (P2)
+Add icons to the filter chips on `/villes` (region picker, score sort,
+character-tag chips), matching the visual style of `/classements`. Lucide
+icons for filter types, emoji for character tags where they exist in the
+ranking pages.
+
+Files: `app/villes/page.tsx`, `components/CitiesFilter.tsx` (or similar).
+
+### R7.15 — Red Flags Thématiques: strip Fxx refs (P0, 5-min)
+The /red-flags theme cards still expose internal feature codes (F50, F52,
+F26 etc.). Remove these from user-facing copy. They're an internal feature
+tracker, not consumer wording.
+
+Files: `app/red-flags/page.tsx`, `app/red-flags/[slug]/page.tsx`,
+`lib/red-flag-themes.ts`.
+
+### R7 — Suggested execution order
+
+1. **R7.15** (5-min, removes embarrassing internal codes)
+2. **R7.5** (broken link, 5-min)
+3. **R7.3** (score-vs-analysis — trust foundation, sweeps multiple cards)
+4. **R7.7** (score colours — trust foundation, mostly find-and-replace)
+5. **R7.1** (top nav — small but high visibility)
+6. **R7.4** (sunshine hours → days)
+7. **R7.6** (louer ou acheter clarity)
+8. **R7.9 + R7.10** (em-dash purge + ghost copy)
+9. **R7.2** (drop Méthodologie subsection)
+10. **R7.11 → R7.14** (UI polish layer)
+11. **R7.8** (guide rewrite — biggest scope, parallelisable)
+
 ## Bilingual setup (bestcitiesinfrance.com)
 
 Same repo, same build, two Vercel projects, two domains.
