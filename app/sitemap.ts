@@ -169,6 +169,7 @@ function staticSection(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/demographie/vallee-du-rhone`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.75 },
     { url: `${BASE_URL}/demographie/ile-de-france-elargie`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.75 },
     { url: `${BASE_URL}/palmares`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${BASE_URL}/palmares/personnaliser`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE_URL}/palmares/cote-atlantique`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.75 },
     { url: `${BASE_URL}/palmares/arc-mediterraneen`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.75 },
     { url: `${BASE_URL}/palmares/arc-alpin`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.75 },

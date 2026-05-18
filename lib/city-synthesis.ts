@@ -278,3 +278,105 @@ export function bottomSynthesisGlobal(limit = 20, minPopulation = 0): SynthesisR
     .sort((a, b) => a.synthesis.global - b.synthesis.global)
     .slice(0, limit);
 }
+
+// ─── Personalized weighting (F64) ─────────────────────────────────────────
+
+/** 8 axis weights on a 1-5 scale. Normalized internally to sum 100 %. */
+export interface SynthesisWeights {
+  env: number;
+  health: number;
+  job: number;
+  qol: number;
+  cycling: number;
+  safety: number;
+  demo: number;
+  services: number;
+}
+
+export const DEFAULT_SYNTHESIS_WEIGHTS: SynthesisWeights = {
+  env: 3,
+  health: 3,
+  job: 3,
+  qol: 3,
+  cycling: 3,
+  safety: 3,
+  demo: 3,
+  services: 3,
+};
+
+export interface PersonalSynthesisRow {
+  slug: string;
+  name: string;
+  region: string;
+  department: string;
+  population: number;
+  /** Composite recalculé selon les poids utilisateur, 0-10 (10 = excellent) */
+  personalGlobal: number;
+  /** Niveau qualitatif basé sur personalGlobal */
+  level: SynthesisLevel;
+  /** Les 8 axes individuels (réutilisés tels quels) */
+  axes: SynthesisAxis[];
+}
+
+/**
+ * Recompute le palmarès en pondérant chaque axe selon les préférences
+ * utilisateur. Pas de recompute des sous-scores — on réutilise le cache
+ * `getSynthesisRankings()` (les 8 scores par ville sont déjà déterminés).
+ * Renormalisation : Σ weights → 1.0.
+ */
+export function personalSynthesisRanking(
+  weights: SynthesisWeights,
+  limit = 10,
+  minPopulation = 0,
+): PersonalSynthesisRow[] {
+  const total =
+    weights.env +
+    weights.health +
+    weights.job +
+    weights.qol +
+    weights.cycling +
+    weights.safety +
+    weights.demo +
+    weights.services;
+  // Avoid division by zero ; fall back to equal weights.
+  const safeTotal = total > 0 ? total : 8;
+  const wEnv = weights.env / safeTotal;
+  const wHealth = weights.health / safeTotal;
+  const wJob = weights.job / safeTotal;
+  const wQol = weights.qol / safeTotal;
+  const wCycling = weights.cycling / safeTotal;
+  const wSafety = weights.safety / safeTotal;
+  const wDemo = weights.demo / safeTotal;
+  const wServices = weights.services / safeTotal;
+
+  return getSynthesisRankings()
+    .filter((r) => r.population >= minPopulation)
+    .map((r) => {
+      // Pull the axis scores by key from the synthesis output.
+      const byKey: Record<string, number> = {};
+      for (const a of r.synthesis.axes) byKey[a.key] = a.score;
+      const personalGlobal =
+        Math.round(
+          ((byKey["environnement"] ?? 0) * wEnv +
+            (byKey["sante"] ?? 0) * wHealth +
+            (byKey["emploi"] ?? 0) * wJob +
+            (byKey["cadre-de-vie"] ?? 0) * wQol +
+            (byKey["velo"] ?? 0) * wCycling +
+            (byKey["securite"] ?? 0) * wSafety +
+            (byKey["demographie"] ?? 0) * wDemo +
+            (byKey["services-publics"] ?? 0) * wServices) * 10,
+        ) / 10;
+      return {
+        slug: r.slug,
+        name: r.name,
+        region: r.region,
+        department: r.department,
+        population: r.population,
+        personalGlobal,
+        level: levelFromScore(personalGlobal),
+        axes: r.synthesis.axes,
+      };
+    })
+    .sort((a, b) => b.personalGlobal - a.personalGlobal)
+    .slice(0, limit);
+}

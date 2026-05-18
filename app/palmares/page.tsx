@@ -90,6 +90,24 @@ export default function PalmaresHubPage() {
           <Badge>Moyenne arithmétique normalisée</Badge>
         </div>
 
+        {/* F64 — Quiz personnalisé cross-link */}
+        <Link
+          href="/palmares/personnaliser"
+          className="mt-6 block rounded-2xl border border-[var(--accent)]/30 bg-[var(--accent)]/5 hover:border-[var(--accent)] hover:shadow-md transition-all p-5 group"
+        >
+          <div className="flex items-center justify-between gap-3">
+            <div className="min-w-0">
+              <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
+                ✨ Personnalise ton palmarès — pondère les 8 axes
+              </div>
+              <div className="text-xs text-[var(--text-tertiary)] mt-1">
+                8 sliders 1-5 · recompute en direct · top 10 perso · lien partageable
+              </div>
+            </div>
+            <span className="shrink-0 text-[var(--accent)] text-sm font-semibold">→</span>
+          </div>
+        </Link>
+
         {/* Top 30 */}
         <h2 className="mt-10 text-2xl font-semibold text-[var(--text-primary)]">
           Top 30 — profils globaux les plus favorables
