@@ -9,6 +9,7 @@ import {
   type OwnerRankingDef,
 } from "@/lib/owner-rankings";
 import { ownerScoreColor } from "@/lib/owner-scores";
+import { CITIES_COUNT } from "@/lib/site-stats";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 
 export function OwnerRankingPage({ ranking }: { ranking: OwnerRankingDef }) {
@@ -64,7 +65,7 @@ export function OwnerRankingPage({ ranking }: { ranking: OwnerRankingDef }) {
             <span className="inline-flex items-center rounded-full border border-blue-400/30 bg-blue-500/10 text-blue-700 px-1.5 py-0.5 text-[10px] uppercase tracking-wider mr-2">
               Estimation
             </span>
-            Score calculé à partir des 352 villes du site — voir la{" "}
+            Score calculé à partir des {CITIES_COUNT} villes du site — voir la{" "}
             <Link href="/methode" className="underline">
               méthodologie détaillée
             </Link>

@@ -383,11 +383,14 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
               {/* F3 — Profils propriétaires (10 scores avec source) */}
               <OwnerScoresCard city={city} />
 
-              {/* Life Stage Lens */}
+              {/* Vue selon profil de vie (ex Life Stage Lens) */}
               <Card>
-                <h2 className="text-base font-semibold text-[var(--text-primary)] mb-4">
-                  Life Stage Lens
+                <h2 className="text-base font-semibold text-[var(--text-primary)] mb-1">
+                  Cette ville selon votre profil
                 </h2>
+                <p className="text-xs text-[var(--text-tertiary)] mb-4">
+                  Choisissez un profil de vie : on n&apos;affiche que les 4 axes qui pèsent vraiment pour cette étape.
+                </p>
                 <div className="flex flex-wrap gap-2 mb-6">
                   {LIFE_STAGES.map((ls) => {
                     const Icon = ls.icon;
@@ -558,7 +561,7 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                     <TrendingUp className="h-4 w-4 text-[var(--text-secondary)]" />
                     Classements thématiques
                   </h3>
-                  <div className="space-y-2">
+                  <div className="grid grid-cols-2 gap-x-2 gap-y-1">
                     {(Object.keys(RANKING_META) as RankingSlug[]).map((slug) => {
                       const meta = RANKING_META[slug];
                       const ranked = getRankedCities(slug);
@@ -568,13 +571,13 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                         <Link
                           key={slug}
                           href={`/classements/${slug}`}
-                          className="flex items-center justify-between hover:bg-[var(--bg-elevated)] rounded-lg px-2 py-1.5 -mx-2 transition-colors group"
+                          className="flex items-center justify-between gap-2 hover:bg-[var(--bg-elevated)] rounded-md px-1.5 py-1 -mx-1.5 transition-colors group min-w-0"
                         >
-                          <span className="text-xs text-[var(--text-secondary)] group-hover:text-[var(--text-primary)] transition-colors flex items-center gap-1.5">
-                            <span>{meta.emoji}</span>
-                            {meta.label}
+                          <span className="text-[11px] text-[var(--text-secondary)] group-hover:text-[var(--text-primary)] transition-colors flex items-center gap-1 min-w-0">
+                            <span aria-hidden>{meta.emoji}</span>
+                            <span className="truncate">{meta.label}</span>
                           </span>
-                          <span className={`text-xs font-bold font-mono-data ${meta.color}`}>
+                          <span className={`text-[11px] font-bold font-mono-data shrink-0 ${meta.color}`}>
                             #{entry.rank}
                           </span>
                         </Link>
@@ -851,6 +854,48 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                     </div>
                     <div className="text-xs text-[var(--text-tertiary)] mt-0.5 truncate">
                       Écoles · médiath. · Poste · mairie
+                    </div>
+                  </div>
+                  <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors shrink-0" />
+                </a>
+                <a
+                  href={`/villes/${city.slug}/avis-honnete`}
+                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
+                >
+                  <div className="min-w-0">
+                    <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
+                      🧭 Avis honnête
+                    </div>
+                    <div className="text-xs text-[var(--text-tertiary)] mt-0.5 truncate">
+                      Synthèse algorithmique — pour qui, contre qui
+                    </div>
+                  </div>
+                  <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors shrink-0" />
+                </a>
+                <a
+                  href={`/villes/${city.slug}/louer-ou-acheter`}
+                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
+                >
+                  <div className="min-w-0">
+                    <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
+                      🔑 Louer ou acheter
+                    </div>
+                    <div className="text-xs text-[var(--text-tertiary)] mt-0.5 truncate">
+                      Seuil de rentabilité, mensualités, scénarios
+                    </div>
+                  </div>
+                  <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors shrink-0" />
+                </a>
+                <a
+                  href={`/villes/${city.slug}/climat-2040`}
+                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
+                >
+                  <div className="min-w-0">
+                    <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
+                      🌡️ Climat 2040
+                    </div>
+                    <div className="text-xs text-[var(--text-tertiary)] mt-0.5 truncate">
+                      Projections ARPEGE — canicule, sécheresse, été
                     </div>
                   </div>
                   <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors shrink-0" />

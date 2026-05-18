@@ -441,6 +441,7 @@ function classementsSection(): MetadataRoute.Sitemap {
     "famille-proprietaire",
     "meilleur-rapport-qualite-prix",
     "villes-sous-cotees",
+    "villes-moins-cheres",
   ];
   return [
     ...Object.keys(RANKING_META).map((slug) => ({

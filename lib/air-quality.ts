@@ -256,8 +256,11 @@ const AMBROSIA_DEPTS = new Set([
 
 const GRASSES_OPEN_DEPTS = new Set([
   "Eure-et-Loir", "Loiret", "Loir-et-Cher", "Yonne", "Aube", "Marne",
-  "Aisne", "Oise", "Somme", "Seine-et-Marne", "Indre", "Cher", "Beauce",
+  "Aisne", "Oise", "Somme", "Seine-et-Marne", "Indre", "Cher",
   "Charente", "Charente-Maritime", "Vienne", "Deux-Sèvres", "Gers",
+  // Bouleau — façade Nord-Ouest documentée par le RNSA (forêts feuillus)
+  "Finistère", "Côtes-d'Armor", "Morbihan", "Ille-et-Vilaine",
+  "Calvados", "Manche", "Orne", "Seine-Maritime", "Eure",
 ]);
 
 function pollenRisk(city: CitySeed): AirDimension {

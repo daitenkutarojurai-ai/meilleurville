@@ -117,14 +117,12 @@ const OVERRIDES: Record<string, Partial9> = {
 
   // === Additional Mediterranean / PACA ====================================
   hyeres:          { safety: 6.4, cost: 5.6, transport: 5.6, nature: 8.6, culture: 6.6, schools: 6.4, remoteWork: 6.6, life: 7.2 },
-  toulon_dpt:      { safety: 5.4, cost: 6.6, transport: 6.0, nature: 8.4, culture: 6.8, schools: 6.0, remoteWork: 6.4, life: 6.6 },
   draguignan:      { safety: 6.0, cost: 7.0, transport: 5.4, nature: 7.8, culture: 6.4, schools: 6.4, remoteWork: 6.2, life: 6.8 },
   martigues:       { safety: 5.6, cost: 7.2, transport: 6.0, nature: 7.6, culture: 6.4, schools: 6.2, remoteWork: 6.4, life: 6.6 },
   salon_de_provence:{safety: 6.0, cost: 6.6, transport: 5.8, nature: 7.4, culture: 7.0, schools: 6.4, remoteWork: 6.4, life: 6.8 },
   manosque:        { safety: 6.6, cost: 7.0, transport: 5.4, nature: 8.2, culture: 6.4, schools: 6.4, remoteWork: 6.4, life: 7.0 },
   carcassonne:     { safety: 5.8, cost: 7.4, transport: 5.6, nature: 7.4, culture: 7.6, schools: 6.4, remoteWork: 6.4, life: 6.8 },
   narbonne:        { safety: 5.4, cost: 7.0, transport: 5.6, nature: 7.6, culture: 6.8, schools: 6.0, remoteWork: 6.4, life: 6.6 },
-  alès:            { safety: 5.4, cost: 7.6, transport: 5.4, nature: 7.6, culture: 6.6, schools: 6.0, remoteWork: 6.2, life: 6.6 },
   ales:            { safety: 5.4, cost: 7.6, transport: 5.4, nature: 7.6, culture: 6.6, schools: 6.0, remoteWork: 6.2, life: 6.6 },
 
   // === Atlantic / South-West ==============================================
@@ -152,7 +150,6 @@ const OVERRIDES: Record<string, Partial9> = {
   trouville:       { safety: 7.2, cost: 4.6, transport: 5.4, nature: 8.6, culture: 7.2, schools: 6.4, remoteWork: 6.4, life: 7.2 },
 
   // === Mountain & Alps ====================================================
-  grenoble_alps_nearby_chambery_done: { safety: 7.6, cost: 6.0, transport: 6.4, nature: 9.2, culture: 6.8, schools: 7.4, remoteWork: 7.0, life: 7.6 },
   aix_les_bains:   { safety: 7.4, cost: 5.0, transport: 5.6, nature: 9.0, culture: 6.6, schools: 6.8, remoteWork: 6.8, life: 7.4 },
   evian_les_bains: { safety: 7.4, cost: 4.4, transport: 5.0, nature: 9.2, culture: 6.4, schools: 6.4, remoteWork: 6.6, life: 7.4 },
   cluses:          { safety: 7.0, cost: 6.0, transport: 5.4, nature: 9.0, culture: 6.0, schools: 6.4, remoteWork: 6.4, life: 7.0 },

@@ -5,6 +5,7 @@ import { Search, Sparkles, ArrowRight, MapPin, Star } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { useRouter } from "next/navigation";
 import { CITIES_SEED } from "@/data/cities-seed";
+import { CITIES_COUNT, RANKINGS_COUNT } from "@/lib/site-stats";
 import { WordsReveal, FadeBlurIn } from "@/components/effects/WordsReveal";
 import { MagneticButton } from "@/components/effects/MagneticButton";
 import { GrainOverlay } from "@/components/effects/GrainOverlay";
@@ -163,7 +164,7 @@ export function HeroSection() {
               <span className="relative inline-flex h-2 w-2 rounded-full bg-[var(--accent)]" />
             </span>
             <span className="font-medium text-[var(--text-secondary)]">
-              {`${CITIES_SEED.length} villes · 8 axes de notation · 12 classements`}
+              {`${CITIES_COUNT} villes · 8 axes de notation · ${RANKINGS_COUNT} classements`}
             </span>
           </div>
         </FadeBlurIn>
@@ -248,16 +249,22 @@ export function HeroSection() {
         <FadeBlurIn delay={1.35}>
           <div className="flex flex-wrap items-center justify-center gap-2 mb-12">
             <span className="text-xs font-medium text-[var(--text-secondary)]">✨ On en parle :</span>
-            {TRENDING.map((city) => (
-              <Link
-                key={city}
-                href={`/villes/${city.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/\s+/g, "-")}`}
-                className="flex items-center gap-1 rounded-full glass px-3 py-1 text-xs text-[var(--text-secondary)] transition-all hover:text-[var(--accent)] hover:shadow-md hover:-translate-y-0.5"
-              >
-                <MapPin className="h-2.5 w-2.5" />
-                {city}
-              </Link>
-            ))}
+            {TRENDING.map((city) => {
+              // Résolution directe via le seed plutôt qu'une dérivation
+              // naïve (qui casse pour les noms accentués ou composés).
+              const match = CITIES_SEED.find((c) => c.name === city);
+              if (!match) return null;
+              return (
+                <Link
+                  key={city}
+                  href={`/villes/${match.slug}`}
+                  className="flex items-center gap-1 rounded-full glass px-3 py-1 text-xs text-[var(--text-secondary)] transition-all hover:text-[var(--accent)] hover:shadow-md hover:-translate-y-0.5"
+                >
+                  <MapPin className="h-2.5 w-2.5" />
+                  {city}
+                </Link>
+              );
+            })}
           </div>
         </FadeBlurIn>
 

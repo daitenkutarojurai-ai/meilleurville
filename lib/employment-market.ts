@@ -76,7 +76,7 @@ const UNEMP_VERY_HIGH = new Set([
 
 const UNEMP_HIGH = new Set([
   "Haute-Garonne", "Bouches-du-Rhône", "Var", "Vaucluse", "Drôme", "Ardèche",
-  "Lozère", "Ariège", "Tarn", "Charente-Maritime", "Eure", "Somme", "Oise",
+  "Ariège", "Tarn", "Charente-Maritime", "Eure", "Somme", "Oise",
   "Indre", "Cher", "Allier", "Nièvre", "Yonne", "Aube", "Nord",
   "Alpes-Maritimes", "Corse-du-Sud", "Haute-Corse",
 ]);
@@ -84,8 +84,8 @@ const UNEMP_HIGH = new Set([
 const UNEMP_LOW = new Set([
   "Pyrénées-Atlantiques", "Haute-Savoie", "Savoie", "Doubs", "Bas-Rhin",
   "Maine-et-Loire", "Loire-Atlantique", "Ille-et-Vilaine", "Finistère",
-  "Côtes-d'Armor", "Vendée", "Mayenne", "Manche", "Calvados", "Cantal",
-  "Aveyron", "Ain", "Jura", "Haut-Rhin", "Loire", "Rhône",
+  "Côtes-d'Armor", "Vendée", "Manche", "Calvados",
+  "Ain", "Jura", "Haut-Rhin", "Loire", "Rhône",
   "Métropole de Lyon",
 ]);
 
@@ -278,6 +278,10 @@ const SALARY_LOW_DEPTS = new Set([
   "Aisne", "Ardennes", "Vosges", "Haute-Saône", "Yonne", "Aube",
   "Pas-de-Calais", "Somme", "Manche", "Mayenne", "Orne", "Sarthe",
   "Loiret", "Ariège", "Hautes-Pyrénées", "Lot", "Tarn-et-Garonne",
+  // Seine-Saint-Denis : médian net ~1 950 €/mois (INSEE DADS 2023) — le
+  // plus bas d'Île-de-France. Classer en "élevé" comme le reste de la
+  // grande couronne était une erreur.
+  "Seine-Saint-Denis",
 ]);
 
 const SALARY_GOOD_DEPTS = new Set([
@@ -288,7 +292,7 @@ const SALARY_GOOD_DEPTS = new Set([
 
 const SALARY_HIGH_DEPTS = new Set([
   "Paris", "Hauts-de-Seine", "Yvelines", "Val-de-Marne",
-  "Val-d'Oise", "Essonne", "Seine-et-Marne", "Seine-Saint-Denis",
+  "Val-d'Oise", "Essonne", "Seine-et-Marne",
 ]);
 
 function salaryRisk(city: CitySeed): JobDimension {

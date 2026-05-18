@@ -18,7 +18,11 @@ import {
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 
 export const revalidate = false;
-export const dynamicParams = false;
+// Aligné sur le parent /comparer/[pair] qui accepte les paires ad-hoc.
+// Sans ça, la CTA « ✨ Synthèse 8 axes » 404 sur toute paire non curée
+// (SEO_PAIRS / SEO_TRIPLETS), notamment la barre « Comparer cette ville
+// avec » du profil de ville qui produit des paires triées par slug.
+export const dynamicParams = true;
 
 type Props = { params: Promise<{ pair: string }> };
 

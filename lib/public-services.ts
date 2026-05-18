@@ -87,18 +87,20 @@ function schoolsRisk(city: CitySeed): ServicesDimension {
   // Très grande ville / métropole étudiante : tout est présent
   if (isMetro || isStudent || pop > 80_000) {
     const crecheMalus = CRECHE_TENSE_DEPTS.has(d) ? 1.5 : 0;
+    const score = Math.min(10, 2 + crecheMalus);
     return {
-      score: Math.min(10, 2 + crecheMalus),
-      level: crecheMalus > 1 ? "correct" : "excellent",
+      score,
+      level: levelFromScore(score),
       reason: `Tous les niveaux scolaires présents (écoles, collèges, lycées). ${crecheMalus > 1 ? "Places de crèche tendues — délais d'attente fréquents en dept dense." : "Maillage périscolaire complet."}`,
     };
   }
   // Ville moyenne (15-80k) : lycée + collège présents
   if (pop > 15_000) {
     const crecheMalus = CRECHE_TENSE_DEPTS.has(d) ? 1 : (CRECHE_OK_DEPTS.has(d) ? -0.5 : 0);
+    const score = Math.max(1, Math.min(10, 3 + crecheMalus));
     return {
-      score: Math.max(1, Math.min(10, 3 + crecheMalus)),
-      level: "correct",
+      score,
+      level: levelFromScore(score),
       reason: `Écoles, collège et lycée présents. ${crecheMalus > 0 ? "Tension sur les places de crèche." : "Périscolaire bien dimensionné."}`,
     };
   }

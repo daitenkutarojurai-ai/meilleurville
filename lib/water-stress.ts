@@ -100,7 +100,11 @@ const REST_LOW = new Set([
   "Yvelines", "Essonne", "Paris", "Seine-Saint-Denis", "Marne", "Meuse",
   "Moselle", "Meurthe-et-Moselle", "Ardennes", "Aube", "Haute-Marne",
   "Haute-Saône", "Territoire de Belfort", "Savoie", "Haute-Savoie",
-  "Creuse", "Cantal", "Mayotte", "Guyane",
+  "Creuse", "Cantal",
+  // DROM humides — La Réunion (climat tropical humide), Guyane et Mayotte
+  // ne devraient pas être en stress de restrictions (les vraies tensions
+  // y sont sur le réseau d'AEP, traitées via SUPPLY_FRAGILE_DEPTS).
+  "Mayotte", "Guyane", "Réunion", "La Réunion",
 ]);
 
 function restrictionsRisk(city: CitySeed): WaterDimension {
@@ -224,10 +228,14 @@ function climateRisk(city: CitySeed): WaterDimension {
 // (c) DROM avec réseaux fragiles (Guadeloupe, Mayotte tensions chroniques),
 // (d) communes très petites ou en altitude moyenne (massifs).
 
+// Karst à faible capacité de rétention estivale — focalisé sur le pourtour
+// méditerranéen / Causses / Lot-Dordogne. Doubs et Jura étaient à tort
+// dans cette liste : leur karst est riche en eau (Loue, Doubs, sources
+// jurassiennes) — pas de pénurie estivale documentée.
 const KARST_DEPTS = new Set([
   "Vaucluse", "Bouches-du-Rhône", "Var", "Alpes-de-Haute-Provence", "Hérault",
   "Gard", "Ardèche", "Lozère", "Aveyron", "Lot", "Dordogne", "Charente",
-  "Pyrénées-Atlantiques", "Hautes-Pyrénées", "Doubs", "Jura",
+  "Pyrénées-Atlantiques", "Hautes-Pyrénées",
   "Corse-du-Sud", "Haute-Corse",
 ]);
 

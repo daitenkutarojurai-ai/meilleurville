@@ -35,18 +35,44 @@ function caniculeSeverity(c: City): number {
   return 0;
 }
 
+// Départements méditerranéens (façade + arrière-pays exposés crues
+// cévenoles / méditerranéennes). On exige l'appartenance département +
+// elevation basse plutôt qu'un simple bbox lat/lng — sinon Avignon /
+// Carcassonne / Aix-en-Provence inland étaient flaggées flood 3 sans
+// rivière proche.
+const MEDITERRANEAN_DEPTS = new Set([
+  "Pyrénées-Orientales", "Aude", "Hérault", "Gard", "Bouches-du-Rhône",
+  "Var", "Alpes-Maritimes", "Corse-du-Sud", "Haute-Corse",
+]);
+
+// Départements documentés à fort PPRI rivières (Géorisques 2023).
+const RIVER_FLOOD_DEPTS = new Set([
+  "Seine-Maritime", "Eure", "Calvados", "Pas-de-Calais", "Somme",
+  "Oise", "Aisne", "Marne", "Aube", "Yonne", "Loiret", "Loir-et-Cher",
+  "Indre-et-Loire", "Maine-et-Loire", "Loire-Atlantique",
+  "Saône-et-Loire", "Côte-d'Or", "Doubs", "Jura",
+  "Rhône", "Métropole de Lyon", "Isère", "Drôme", "Ardèche", "Vaucluse",
+  "Haute-Garonne", "Tarn-et-Garonne", "Lot-et-Garonne", "Gironde",
+  "Paris", "Hauts-de-Seine", "Val-de-Marne", "Seine-Saint-Denis",
+  "Essonne", "Val-d'Oise", "Yvelines", "Seine-et-Marne",
+]);
+
 function inondationSeverity(c: City): number {
   const el = c.elevation ?? null;
   const lng = c.longitude ?? null;
   const lat = c.latitude ?? null;
+  const dept = c.department ?? "";
   const dromCoast = ["Martinique", "Guadeloupe", "La Réunion", "Mayotte", "Guyane"].includes(c.region ?? "");
-  const mediterranean = lat != null && lat < 44 && lng != null && lng > 2;
+  const isMediterranean = MEDITERRANEAN_DEPTS.has(dept);
   const atlantic = lng != null && lng < -1 && lat != null && lat < 49;
   const channel = lat != null && lat > 49 && lng != null && lng < 3;
-  const coastalLow = el != null && el < 20 && (atlantic || channel || mediterranean || dromCoast);
-  const riverLow = el != null && el < 35;
-  if (mediterranean && el != null && el < 50) return 3;
+  // Côtière "physique" : faible altitude ET dans une zone côtière connue
+  // (façade, DROM, dept méditerranéen).
+  const coastalLow = el != null && el < 20 && (atlantic || channel || isMediterranean || dromCoast);
+  // Rivière : faible altitude ET département à PPRI rivières documentés.
+  const riverLow = el != null && el < 35 && RIVER_FLOOD_DEPTS.has(dept);
   if (dromCoast) return 3;
+  if (isMediterranean && el != null && el < 20) return 3; // crues éclair + submersion
   if (coastalLow) return 2;
   if (riverLow) return 1;
   return 0;

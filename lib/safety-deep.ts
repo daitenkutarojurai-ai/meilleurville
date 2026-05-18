@@ -52,39 +52,24 @@ function levelFromScore(s: number): SafetyLevel {
 // ─── Atteintes aux biens (cambriolages + vols véhicules + vols sans
 //      violence) — SSMSI taux pour 1 000 hab. ────────────────────────────
 //
-// Métropoles touristiques et centres tendus en tête (Paris, PACA, IDF
-// proche couronne) ; rural en queue.
-
-const PROPERTY_HIGH_DEPTS = new Set([
-  "Paris", "Bouches-du-Rhône", "Alpes-Maritimes", "Var",
-  "Hauts-de-Seine", "Seine-Saint-Denis", "Val-de-Marne", "Val-d'Oise",
-  "Seine-et-Marne", "Essonne", "Yvelines",
-  "Rhône", "Métropole de Lyon",
-  "Nord", "Pas-de-Calais",
-  "Gironde", "Haute-Garonne", "Hérault",
-]);
-
-const PROPERTY_VERY_LOW_DEPTS = new Set([
-  "Creuse", "Lozère", "Cantal", "Aveyron", "Indre", "Hautes-Pyrénées",
-  "Ariège", "Lot", "Corrèze", "Meuse", "Haute-Marne", "Mayenne",
-  "Manche", "Orne", "Vendée", "Deux-Sèvres", "Vienne",
-]);
+// Le seed safety (post-`score-calibration.ts`) intègre déjà DEPT_SAFETY_BIAS
+// pour les villes sans override. Pour éviter le double-comptage, on ne
+// ré-applique PAS un malus/bonus par département ici — on enrichit
+// uniquement avec des signaux **propres à la commune** (taille, métropole,
+// caractère touristique). Les anciens sets PROPERTY_HIGH/VERY_LOW_DEPTS ont
+// donc été retirés.
 
 function propertyRisk(city: CitySeed): SafetyDimension {
   const pop = city.population ?? 0;
   const tags = (city.characterTags ?? []).join(" ").toLowerCase();
   const isMetro = /métropole/.test(tags);
   const isTouristic = /tourisme|touristique|côte|plage|station/.test(tags);
-  const isParis = city.department === "Paris";
   const safetySeed = city.scores?.safety ?? 5;
 
-  // Convert seed safety (10 = safe) to "10 = pire" baseline:
+  // Le seed (10 = safe) reflète déjà le département. On le convertit en
+  // "10 = pire" puis on ajoute uniquement des modulateurs city-level.
   let base = 10 - safetySeed;
 
-  // Adjustments
-  if (isParis) base += 1.5;
-  if (PROPERTY_HIGH_DEPTS.has(city.department)) base += 1.0;
-  if (PROPERTY_VERY_LOW_DEPTS.has(city.department)) base -= 1.2;
   if (isMetro && pop > 150_000) base += 0.7;
   if (isTouristic && pop > 30_000) base += 0.6;
 
@@ -110,23 +95,20 @@ function propertyRisk(city: CitySeed): SafetyDimension {
 // en reconversion. Les bourgs ruraux et villes universitaires de province
 // sont sous la moyenne.
 
-const PERSONS_HIGH_DEPTS = new Set([
-  "Seine-Saint-Denis", "Val-d'Oise", "Val-de-Marne", "Paris",
-  "Bouches-du-Rhône", "Nord", "Pas-de-Calais",
-  "Aisne", "Somme", "Oise", "Ardennes",
-  // DROM (statistiquement plus exposés)
-  "Guyane", "Mayotte", "Réunion", "La Réunion", "Guadeloupe", "Martinique",
-]);
+// Cf. propertyRisk : pas de malus par département pour éviter le
+// double-comptage avec DEPT_SAFETY_BIAS (score-calibration.ts). Les DROM
+// restent traités directement via city.department dans la fonction.
 
 function personsRisk(city: CitySeed): SafetyDimension {
   const pop = city.population ?? 0;
   const tags = (city.characterTags ?? []).join(" ").toLowerCase();
   const isMetro = /métropole/.test(tags);
   const isOuvrier = /ouvrier|industriel|reconversion/.test(tags);
+  const isDrom = /Guyane|Mayotte|Réunion|Guadeloupe|Martinique/.test(city.department);
   const safetySeed = city.scores?.safety ?? 5;
 
   let base = 10 - safetySeed - 0.5; // moyenne nationale plus basse que biens
-  if (PERSONS_HIGH_DEPTS.has(city.department)) base += 1.2;
+  if (isDrom) base += 1.2; // sur-représentation atteintes aux personnes SSMSI DROM
   if (isOuvrier) base += 0.8;
   if (isMetro && pop > 200_000) base += 0.5;
   if (pop < 20_000 && !isMetro) base -= 0.8;

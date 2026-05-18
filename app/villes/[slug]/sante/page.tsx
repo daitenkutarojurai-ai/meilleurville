@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const h = computeHealthcareAccess(city);
   return {
     title: `Désert médical à ${city.name} ? — accès aux soins 2026`,
-    description: `Synthèse de l'accès aux soins à ${city.name} (${city.department}) : médecins ${HEALTH_LEVEL_LABEL[h.generalistes.level].toLowerCase()}, spécialistes ${HEALTH_LEVEL_LABEL[h.specialistes.level].toLowerCase()}, urgences ${HEALTH_LEVEL_LABEL[h.urgences.level].toLowerCase()}, pharmacies ${HEALTH_LEVEL_LABEL[h.pharmacies.level].toLowerCase()}. Score composite ${h.composite}/10.`,
+    description: `Synthèse de l'accès aux soins à ${city.name} (${city.department}) : médecins ${HEALTH_LEVEL_LABEL[h.generalistes.level].toLowerCase()}, spécialistes ${HEALTH_LEVEL_LABEL[h.specialistes.level].toLowerCase()}, urgences ${HEALTH_LEVEL_LABEL[h.urgences.level].toLowerCase()}, pharmacies ${HEALTH_LEVEL_LABEL[h.pharmacies.level].toLowerCase()}. Score composite ${(10 - h.composite).toFixed(1)}/10 (10 = excellent accès).`,
     alternates: { canonical: `/villes/${slug}/sante` },
     openGraph: {
       title: `Accès aux soins à ${city.name}`,
@@ -51,7 +51,7 @@ function HealthBlock({ dim, label }: { dim: HealthDimension; label: string }) {
       </div>
       <div className="flex items-baseline gap-2 mb-2">
         <div className="text-2xl font-bold tabular-nums text-[var(--text-primary)]">
-          {dim.score.toFixed(1)}
+          {(10 - dim.score).toFixed(1)}
           <span className="text-sm font-normal text-[var(--text-tertiary)] ml-0.5">/10</span>
         </div>
       </div>
@@ -76,7 +76,7 @@ export default async function SantePage({ params }: Props) {
   const faq = faqJsonLd([
     {
       q: `Est-ce que ${city.name} est un désert médical ?`,
-      a: `${city.name} (${city.department}) présente un score d'accès aux soins composite ${HEALTH_LEVEL_LABEL[h.level].toLowerCase()} (${h.composite}/10). Détail : médecins généralistes ${h.generalistes.score}/10, spécialistes ${h.specialistes.score}/10, urgences ${h.urgences.score}/10, pharmacies ${h.pharmacies.score}/10.`,
+      a: `${city.name} (${city.department}) présente un score d'accès aux soins composite ${HEALTH_LEVEL_LABEL[h.level].toLowerCase()} (${(10 - h.composite).toFixed(1)}/10, 10 = excellent accès). Détail : médecins généralistes ${(10 - h.generalistes.score).toFixed(1)}/10, spécialistes ${(10 - h.specialistes.score).toFixed(1)}/10, urgences ${(10 - h.urgences.score).toFixed(1)}/10, pharmacies ${(10 - h.pharmacies.score).toFixed(1)}/10.`,
     },
     {
       q: `Comment trouver un médecin traitant à ${city.name} ?`,
@@ -129,9 +129,10 @@ export default async function SantePage({ params }: Props) {
             </span>
           </div>
           <div className="text-4xl font-bold tabular-nums text-[var(--text-primary)] mb-3">
-            {h.composite.toFixed(1)}
+            {(10 - h.composite).toFixed(1)}
             <span className="text-lg font-normal text-[var(--text-tertiary)] ml-1">/10</span>
           </div>
+          <p className="text-xs text-[var(--text-tertiary)] mb-2">10 = excellent accès aux soins · 0 = désert médical avéré.</p>
           <p className="text-sm text-[var(--text-primary)] leading-relaxed">{h.signature}</p>
         </Card>
 

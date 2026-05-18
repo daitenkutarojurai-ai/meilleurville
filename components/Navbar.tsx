@@ -16,26 +16,27 @@ interface NavItem {
   matchPrefix?: string;
 }
 
-// Primary nav: always visible at lg+ — kept tight to avoid pill-row overflow.
+// Primary nav: always visible at lg+. Reduced to 4 essentials to keep the
+// desktop top-bar comfortable — secondary entries (Carte, Red Flags, Cadre
+// de vie) restent accessibles depuis le menu mobile / la home.
 const NAV_PRIMARY: NavItem[] = [
-  { label: "Cadre de vie", href: "/cadre-de-vie", emoji: "🌿", matchPrefix: "/cadre-de-vie" },
+  { label: "Explorer",    href: "/villes",      emoji: "🌍", matchPrefix: "/villes" },
   { label: "Classements", href: "/classements", emoji: "📊", matchPrefix: "/classements" },
   { label: "Comparer",    href: "/comparer",    emoji: "⚖️", matchPrefix: "/comparer" },
-  { label: "Explorer",    href: "/villes",      emoji: "🌍", matchPrefix: "/villes" },
   { label: "Guides",      href: "/guides",      emoji: "📖", matchPrefix: "/guides" },
 ];
 
-// Secondary nav: shown only at xl+ on desktop + always in mobile menu.
-// Kept to 2 items max so the xl+ row stays comfortable next to the search
-// pill + favoris + Quiz CTA on the right.
-const NAV_SECONDARY: NavItem[] = [
-  { label: "Carte",       href: "/carte",       emoji: "🗺️", matchPrefix: "/carte" },
-  { label: "Red Flags",   href: "/red-flags",   emoji: "🚩", matchPrefix: "/red-flags" },
-];
+// Secondary nav: kept off the desktop top-bar (mobile menu only) — they
+// were too many to fit comfortably next to the search + Quiz CTA. The
+// homepage SectionNav and footer continue to expose them.
+const NAV_SECONDARY: NavItem[] = [];
 
 // Mobile-only nav items — visible in the mobile menu but never in the desktop
-// pill rows. Contact lives here to avoid overlap with the search pill at xl+.
+// pill rows.
 const NAV_MOBILE_ONLY: NavItem[] = [
+  { label: "Cadre de vie", href: "/cadre-de-vie", emoji: "🌿", matchPrefix: "/cadre-de-vie" },
+  { label: "Carte",       href: "/carte",       emoji: "🗺️", matchPrefix: "/carte" },
+  { label: "Red Flags",   href: "/red-flags",   emoji: "🚩", matchPrefix: "/red-flags" },
   { label: "Simulateur", href: "/#simulateur", emoji: "💸" },
   { label: "Contact", href: "/contact", emoji: "✉️", matchPrefix: "/contact" },
 ];

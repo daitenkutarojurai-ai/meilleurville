@@ -240,7 +240,9 @@ function urbanNightNoise(city: CitySeed): NoiseDimension {
   const pop = city.population ?? 0;
   const tags = (city.characterTags ?? []).join(" ").toLowerCase();
   const isStudent = /étudiant|universitaire|jeune/.test(tags);
-  const isFestive = /festif|fête|vie nocturne|culturel|bohème/.test(tags);
+  // Vie nocturne / culture sortie : élargi pour matcher les tags réellement
+  // présents dans le seed (culture/culturel/bière/bar/festival).
+  const isFestive = /festif|fête|vie nocturne|culture|culturel|bohème|bière|festival/.test(tags);
   const isTouristic = /tourist|station|balnéaire|haut-lieu/.test(tags);
   const isMetro = /métropole/.test(tags) || pop > 200_000;
 

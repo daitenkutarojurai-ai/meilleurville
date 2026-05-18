@@ -231,21 +231,33 @@ function wildfireRisk(city: CitySeed): RiskDimension {
 // Pas de Géorisques en ligne ; on infère à partir de characterTags du seed :
 // présence d'un fleuve/rivière majeure + elevation basse.
 
-const RIVER_TAGS = [
+const RIVER_TAGS = new Set([
   "Seine", "Rhône", "Loire", "Garonne", "Marne", "Saône", "Adour", "Charente",
   "Dordogne", "Lot", "Tarn", "Aude", "Allier", "Cher", "Doubs", "Yonne",
   "Oise", "Aisne", "Somme", "Meuse", "Moselle", "Sambre", "Ill", "Var",
   "Drac", "Arve", "Hérault", "Isère", "Ardèche", "Durance", "Ariège", "Orne",
   "Eure", "Vienne", "Creuse",
-];
+]);
 
-const COASTAL_LAT_LON_TAGS = ["mer", "plage", "Atlantique", "Méditerranée", "Manche", "lagon", "côte", "littoral", "estuaire", "bord de mer", "îles", "presqu'île"];
+// Match exact-word against each tag, not substring on the joined string —
+// sinon "Var" matche "Vars", "Cher" matche "Cherbourg", "Aude" matche
+// "Audenge", "Lot" matche "Lot-et-Garonne", etc.
+function tagsMatchAny(tags: string[], terms: Set<string>): boolean {
+  for (const tag of tags) {
+    for (const word of tag.split(/[\s,/'-]+/)) {
+      if (terms.has(word)) return true;
+    }
+  }
+  return false;
+}
+
+const COASTAL_LAT_LON_TAGS = ["mer", "plage", "atlantique", "méditerranée", "manche", "lagon", "côte", "littoral", "estuaire", "bord de mer", "îles", "presqu'île"];
 
 function floodRisk(city: CitySeed): RiskDimension {
-  const tags = (city.characterTags ?? []).join(" ");
-  const lc = tags.toLowerCase();
-  const hasRiver = RIVER_TAGS.some((r) => tags.includes(r));
-  const coastal = COASTAL_LAT_LON_TAGS.some((t) => lc.includes(t.toLowerCase()));
+  const tags = city.characterTags ?? [];
+  const lc = tags.join(" ").toLowerCase();
+  const hasRiver = tagsMatchAny(tags, RIVER_TAGS);
+  const coastal = COASTAL_LAT_LON_TAGS.some((t) => lc.includes(t));
   const low = (city.elevation ?? 100) < 30;
   const veryLow = (city.elevation ?? 100) < 10;
 

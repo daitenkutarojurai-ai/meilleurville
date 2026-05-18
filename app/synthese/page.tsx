@@ -20,14 +20,14 @@ import {
   SYNTHESIS_LEVEL_LABEL,
   SYNTHESIS_LEVEL_COLOR,
 } from "@/lib/city-synthesis";
-import { CITIES_COUNT } from "@/lib/site-stats";
+import { CITIES_COUNT, DEPARTMENTS_COUNT, REGIONS_COUNT } from "@/lib/site-stats";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 
 export const revalidate = false;
 
 export const metadata: Metadata = {
   title: "Synthèse 8 axes — palmarès, comparatifs, profils régionaux | MeilleurVille",
-  description: `Système synthèse F61 : 8 axes data (env / santé / emploi / cadre / vélo / sécurité / démo / services publics) unifiés sur ${CITIES_COUNT} villes, 102 départements, 18 régions, 6 macro-régions, palmarès national. Comparer 2 villes ou 2 régions, palmarès personnalisé.`,
+  description: `Système synthèse F61 : 8 axes data (env / santé / emploi / cadre / vélo / sécurité / démo / services publics) unifiés sur ${CITIES_COUNT} villes, ${DEPARTMENTS_COUNT} départements, ${REGIONS_COUNT} régions, 6 macro-régions, palmarès national. Comparer 2 villes ou 2 régions, palmarès personnalisé.`,
   alternates: { canonical: "/synthese" },
   openGraph: {
     title: "Synthèse 8 axes — MeilleurVille",

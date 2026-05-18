@@ -141,9 +141,9 @@ function networkScore(city: CitySeed): CyclingDimension {
 
 const HILLY_DEPTS = new Set([
   "Cantal", "Haute-Loire", "Lozère", "Ariège", "Hautes-Pyrénées",
-  "Pyrénées-Atlantiques", "Hautes-Alpes", "Alpes-de-Haute-Provence",
-  "Haute-Savoie", "Savoie", "Doubs", "Jura", "Vosges", "Hautes-Vosges",
-  "Corrèze", "Creuse", "Aveyron", "Lot", "Tarn", "Cévennes",
+  "Hautes-Alpes", "Alpes-de-Haute-Provence",
+  "Haute-Savoie", "Savoie", "Doubs", "Jura", "Vosges",
+  "Corrèze", "Creuse", "Aveyron", "Lot", "Tarn",
   "Alpes-Maritimes", "Corse-du-Sud", "Haute-Corse", "Territoire de Belfort",
 ]);
 
