@@ -193,6 +193,7 @@ function staticSection(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/about`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.5 },
     { url: `${BASE_URL}/contact`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.4 },
     { url: `${BASE_URL}/donnees`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.6 },
+    { url: `${BASE_URL}/synthese`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.85 },
     { url: `${BASE_URL}/regions`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.7 },
     { url: `${BASE_URL}/departements`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.7 },
     { url: `${BASE_URL}/carte`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.7 },

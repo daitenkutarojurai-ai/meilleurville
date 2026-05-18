@@ -14,6 +14,7 @@ const LINKS = {
   ],
   "Guides & IA": [
     { label: "Trouver ma ville", href: "/quiz" },
+    { label: "Synthèse 8 axes", href: "/synthese" },
     { label: "Guides pratiques", href: "/guides" },
     { label: "Méthodologie", href: "/methode" },
     { label: "Données & Sources", href: "/donnees" },
