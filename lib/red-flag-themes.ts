@@ -19,6 +19,10 @@ import { computeHealthcareAccess } from "@/lib/healthcare-access";
 import { computeEmploymentMarket } from "@/lib/employment-market";
 import { computeQualityOfLife } from "@/lib/quality-of-life-index";
 import { householdBreakdownFor } from "@/lib/household-cost";
+import { computeCyclingMobility } from "@/lib/cycling-mobility";
+import { computeSafetyDeep } from "@/lib/safety-deep";
+import { computeDemography } from "@/lib/demography";
+import { computePublicServices } from "@/lib/public-services";
 
 type SeedCity = (typeof CITIES_SEED)[number];
 
@@ -417,6 +421,145 @@ function rankCoutsExplosifs(): RedFlagRow[] {
   return rows.sort((a, b) => b.severity - a.severity).slice(0, 12);
 }
 
+// --- THEME 12 — Désert de services publics ---
+// Cible : F60 composite ≥ 6,5 (déficit max). Bonus quand écoles ET Poste
+// sont tous deux ≥ 6,5 (vrai double déficit, pas un seul axe).
+function rankDesertServicesPublics(): RedFlagRow[] {
+  const rows: RedFlagRow[] = [];
+  for (const city of CITIES_SEED) {
+    if ((city.population ?? 0) < 10_000) continue;
+    const s = computePublicServices(city);
+    if (s.composite < 6.5) continue;
+
+    let bonus = 0;
+    if (s.schools.score >= 6.5 && s.postOffice.score >= 6.5) bonus += 1.2;
+    if (s.cityHall.score >= 6.5) bonus += 0.4;
+    const severity = Math.min(10, s.composite + bonus);
+
+    const tops = [
+      { k: "écoles", s: s.schools.score },
+      { k: "Poste", s: s.postOffice.score },
+      { k: "mairie", s: s.cityHall.score },
+      { k: "médiath.", s: s.library.score },
+    ]
+      .filter((x) => x.s >= 5.5)
+      .sort((a, b) => b.s - a.s)
+      .slice(0, 2)
+      .map((x) => `${x.k} ${x.s.toFixed(1)}/10`)
+      .join(" · ");
+
+    const reason = `Services publics ${s.composite.toFixed(1)}/10${tops ? ` — ${tops}` : ""}`;
+    rows.push({ city, severity: Math.round(severity * 10) / 10, reason });
+  }
+  return rows.sort((a, b) => b.severity - a.severity).slice(0, 12);
+}
+
+// --- THEME 13 — Anti-vélo ---
+// F57 cyclabilité : 10 = excellent (convention inverse !). Red flag = composite ≤ 4,5.
+// Severity inversée (5 − cycling) × 2 sur [0;10]. Bonus quand réseau ET topographie
+// sont tous deux faibles (combo bloquant : pas de pistes ET ça grimpe).
+function rankAntiVelo(): RedFlagRow[] {
+  const rows: RedFlagRow[] = [];
+  for (const city of CITIES_SEED) {
+    if ((city.population ?? 0) < 15_000) continue;
+    const c = computeCyclingMobility(city);
+    if (c.composite > 4.5) continue;
+
+    let bonus = 0;
+    if (c.network.score <= 4 && c.topography.score <= 4) bonus += 1.2;
+    if (c.safety.score <= 4) bonus += 0.4;
+    // Severity inversée : composite faible = pire ; rescale (5 − cycling) × 2.
+    const severity = Math.min(10, Math.max(0, (5 - c.composite) * 2 + bonus));
+
+    // Cycling : score haut = bon. Pour le red flag on remonte les axes les plus faibles.
+    const tops = [
+      { k: "réseau", s: c.network.score },
+      { k: "topographie", s: c.topography.score },
+      { k: "sécurité", s: c.safety.score },
+      { k: "climat", s: c.climate.score },
+    ]
+      .sort((a, b) => a.s - b.s)
+      .slice(0, 2)
+      .map((x) => `${x.k} ${x.s.toFixed(1)}/10`)
+      .join(" · ");
+
+    const reason = `Cyclabilité ${c.composite.toFixed(1)}/10${tops ? ` — ${tops}` : ""}`;
+    rows.push({ city, severity: Math.round(severity * 10) / 10, reason });
+  }
+  return rows.sort((a, b) => b.severity - a.severity).slice(0, 12);
+}
+
+// --- THEME 14 — Vieillissement critique ---
+// Cible : F59 composite ≥ 7 (vieillissement marqué + décroissance).
+// Bonus quand ageing ET trajectory sont tous deux ≥ 7 (cumul réel :
+// pyramide haute + solde négatif = dynamique d'extinction lente).
+function rankVieillissementCritique(): RedFlagRow[] {
+  const rows: RedFlagRow[] = [];
+  for (const city of CITIES_SEED) {
+    if ((city.population ?? 0) < 10_000) continue;
+    const d = computeDemography(city);
+    if (d.composite < 7) continue;
+
+    let bonus = 0;
+    if (d.ageing.score >= 7 && d.trajectory.score >= 7) bonus += 1.2;
+    if (d.youngActives.score >= 7) bonus += 0.4;
+    const severity = Math.min(10, d.composite + bonus);
+
+    const tops = [
+      { k: "vieillis.", s: d.ageing.score },
+      { k: "trajectoire", s: d.trajectory.score },
+      { k: "jeunes actifs", s: d.youngActives.score },
+      { k: "natalité", s: d.renewal.score },
+    ]
+      .filter((x) => x.s >= 6)
+      .sort((a, b) => b.s - a.s)
+      .slice(0, 2)
+      .map((x) => `${x.k} ${x.s.toFixed(1)}/10`)
+      .join(" · ");
+
+    const reason = `Démographie ${d.composite.toFixed(1)}/10${tops ? ` — ${tops}` : ""}`;
+    rows.push({ city, severity: Math.round(severity * 10) / 10, reason });
+  }
+  return rows.sort((a, b) => b.severity - a.severity).slice(0, 12);
+}
+
+// --- THEME 15 — Nuit tendue ---
+// F58 nocturnal ≥ 6,5 (rixes / agressions nocturnes). Bonus quand persons ≥ 6
+// (atteintes aux personnes corroborent), bonus si touristique/festif (saturation
+// nocturne). Indicateur dédié pour étudiants / sortie nocturne / femmes seules.
+function rankNuitTendue(): RedFlagRow[] {
+  const rows: RedFlagRow[] = [];
+  for (const city of CITIES_SEED) {
+    if ((city.population ?? 0) < 15_000) continue;
+    const s = computeSafetyDeep(city);
+    if (s.nocturnal.score < 6.5) continue;
+
+    const tags = (city.characterTags ?? []).join(" ").toLowerCase();
+    const isFestif = /festif|étudiant|touristique|nocturne/.test(tags);
+
+    let bonus = 0;
+    if (s.persons.score >= 6) bonus += 0.8;
+    if (isFestif) bonus += 0.6;
+    // Severity = nocturnal direct (déjà 0-10, 10 = pire) + bonus.
+    const severity = Math.min(10, s.nocturnal.score + bonus);
+
+    const tops = [
+      { k: "nocturne", s: s.nocturnal.score },
+      { k: "personnes", s: s.persons.score },
+      { k: "biens", s: s.property.score },
+    ]
+      .filter((x) => x.s >= 5.5)
+      .sort((a, b) => b.s - a.s)
+      .slice(0, 2)
+      .map((x) => `${x.k} ${x.s.toFixed(1)}/10`)
+      .join(" · ");
+
+    const reason = `Sécurité nocturne ${s.nocturnal.score.toFixed(1)}/10${tops ? ` — ${tops}` : ""}${isFestif ? " · centre festif" : ""}`;
+    rows.push({ city, severity: Math.round(severity * 10) / 10, reason });
+  }
+  return rows.sort((a, b) => b.severity - a.severity).slice(0, 12);
+}
+
 export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-regrets-achat",
@@ -582,6 +725,66 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     methodology:
       "Severity = ratio coût-famille / salaire-médian-dept, rescalé sur [0,6 ; 1,0] → [5 ; 10]. Sources : DVF + observatoires loyer (rents), ADEME (chauffage), France Assureurs (auto), DGFiP (taxe foncière), INSEE DADS (salaires médians). Filtre population ≥ 20 000 hab.",
     rank: rankCoutsExplosifs,
+  },
+  {
+    slug: "villes-desert-services-publics",
+    title: "Villes en désert de services publics — la double peine du rural et des DROM tendus",
+    metaTitle: "Désert services publics 2026 — Villes françaises au maillage rompu",
+    metaDescription:
+      "Classement 2026 des villes ≥ 10 000 hab. au composite services publics ≥ 6,5/10 : écoles, La Poste & France Services, mairie, médiathèque. Sources DEPP / CAF / La Poste / ANCT.",
+    emoji: "🏛️",
+    intro:
+      "La carte vitale change d'adresse, la Poste a fermé, le collège du chef-lieu est à 15 km, la mairie ouvre 2 demi-journées par semaine. Aucun de ces signaux ne se voit sur une plaquette immobilière, mais cumulés ils définissent ce que vivre dans un « désert de services » veut dire au quotidien — démarches reportées, école par car, file d'attente à Pôle Emploi à 30 min de route.",
+    reality:
+      "On classe les villes ≥ 10 000 hab. dont le composite F60 dépasse 6,5/10 (10 = pire). Bonus +1,2 quand écoles ET La Poste sont tous deux en désert (≥ 6,5/10) — cumul réel, pas un seul axe. Les DROM tendus (Mayotte, Guyane) et l'arrière-pays rural Centre/Est (Creuse, Cantal, Lozère, Nièvre, Allier) dominent.",
+    methodology:
+      "Severity = composite F60 + 1,2 si écoles ET Poste ≥ 6,5 + 0,4 si mairie ≥ 6,5. Pondération composite : écoles 35 % · mairie 25 % · Poste 25 % · médiathèque 15 %. Sources : DEPP (annuaire), CAF (crèche), La Poste (bureaux + APC + RPC), ANCT (Maisons France Services, ~2 800 en 2024), BNF (lecture publique).",
+    rank: rankDesertServicesPublics,
+  },
+  {
+    slug: "villes-anti-velo",
+    title: "Villes où le vélo au quotidien reste hors de portée",
+    metaTitle: "Villes anti-vélo 2026 — Où le vélo quotidien reste hors d'atteinte",
+    metaDescription:
+      "Classement 2026 des villes ≥ 15 000 hab. au composite cyclabilité ≤ 4,5/10 : faible réseau, relief, dangerosité, climat hostile. Sources Baromètre FUB + EuroVelo + Vélo & Territoires.",
+    emoji: "🚲",
+    intro:
+      "Toutes les mairies promettent leur plan vélo. Dans les faits, certaines villes restent structurellement hostiles : pas de pistes continues, relief de massif central qui décourage le quotidien, périphérique saturé d'usagers, climat venté ou pluvieux 200 jours par an. Le vélo y est un sport de week-end, pas un mode de déplacement utilitaire.",
+    reality:
+      "On classe les villes ≥ 15 000 hab. dont le composite F57 (réseau + topographie + sécurité + climat) tombe ≤ 4,5/10. La convention F57 est inversée vs les autres clusters : 10 = excellent. Bonus +1,2 quand le réseau ET la topographie sont tous deux ≤ 4 (combo bloquant : pas de pistes ET ça grimpe).",
+    methodology:
+      "Severity = (5 − composite F57) × 2 + bonus combo. Pondération composite : réseau 35 % · topographie 25 % · sécurité 25 % · climat 15 %. Sources : Baromètre FUB (Fédération des Usagers de la Bicyclette), Vélo & Territoires (réseau structurant), EuroVelo, données altitude & climat seed.",
+    rank: rankAntiVelo,
+  },
+  {
+    slug: "villes-vieillissement-critique",
+    title: "Villes en vieillissement critique — pyramide étroite à la base et solde négatif",
+    metaTitle: "Vieillissement critique 2026 — Villes françaises en décroissance démographique",
+    metaDescription:
+      "Classement 2026 des villes ≥ 10 000 hab. au composite démographique ≥ 7/10 : seniors 60+, déficit jeunes actifs, solde naturel + migratoire négatif. Source INSEE RP + Bilan démographique.",
+    emoji: "🕰️",
+    intro:
+      "La maison à 80 k€ est tentante, le notaire confirme « un beau patrimoine », l'agent immobilier parle d'investissement. Personne ne mentionne le contexte : la commune perd 1 % de sa population par an depuis 30 ans, la médiane d'âge dépasse 50, l'école ferme une classe tous les 3 ans, et la pharmacie cherche un repreneur qui ne vient jamais. Démographie négative = services qui se rétractent = patrimoine qui se dévalorise.",
+    reality:
+      "On classe les villes ≥ 10 000 hab. dont le composite F59 dépasse 7/10. Bonus +1,2 quand le vieillissement ET la trajectoire sont tous deux ≥ 7 — pyramide haute (seniors > 35 %) ET solde démographique négatif structurel cumulés. Limousin entier, Creuse, Cantal, Nièvre, Indre, bassins industriels Nord en reconversion dominent.",
+    methodology:
+      "Severity = composite F59 + 1,2 si ageing ET trajectory ≥ 7 + 0,4 si jeunes actifs ≥ 7. Pondération composite : vieillissement 30 % · trajectoire 30 % · jeunes actifs 25 % · renouvellement 15 %. Sources : INSEE Recensement de Population, Bilan démographique annuel, projection OMPHALE 2070 par zone d'emploi.",
+    rank: rankVieillissementCritique,
+  },
+  {
+    slug: "villes-nuit-tendue",
+    title: "Villes à la sécurité nocturne tendue — centres festifs sous pression",
+    metaTitle: "Sécurité nocturne tendue 2026 — Villes françaises festives sous pression SSMSI",
+    metaDescription:
+      "Classement 2026 des villes ≥ 15 000 hab. dont le sous-score sécurité nocturne F58 dépasse 6,5/10 : rixes, agressions nocturnes concentrées sur les centres festifs / étudiants / touristiques. Source SSMSI.",
+    emoji: "🌙",
+    intro:
+      "La sécurité globale dit « moyenne », mais le ressenti nocturne dans certaines hyper-centres festifs, étudiants ou touristiques est tout autre : rixes en sortie de boîte, agressions sur le retour de soirée, signalements concentrés sur 4 rues du centre. Indicateur particulièrement pertinent pour étudiantes, jeunes actifs, femmes seules en sortie nocturne.",
+    reality:
+      "On isole le sous-score « sécurité nocturne » du cluster F58 (rixes / agressions nocturnes SSMSI) et on classe les villes ≥ 15 000 hab. dont ce sous-score dépasse 6,5/10. Bonus +0,8 quand les atteintes aux personnes corroborent (persons ≥ 6), bonus +0,6 quand la ville est explicitement taguée festive / étudiante / touristique.",
+    methodology:
+      "Severity = sous-score nocturnal F58 + bonus combos. Pondération F58 : biens 35 % · personnes 30 % · nuit 20 % · VFFS 15 %. Sources : SSMSI (Service statistique ministériel de la sécurité intérieure), atteintes nocturnes / rixes ; interstats.fr. Caveat : un taux élevé peut refléter à la fois une réalité plus tendue ET un meilleur signalement.",
+    rank: rankNuitTendue,
   },
 ];
 

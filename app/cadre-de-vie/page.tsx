@@ -306,7 +306,7 @@ export default function CadreDeViePage() {
             <Card className="hover:shadow-md transition-shadow h-full">
               <div className="text-2xl mb-1">🚩</div>
               <div className="text-sm font-semibold text-[var(--text-primary)]">Red Flags</div>
-              <div className="text-xs text-[var(--text-tertiary)] mt-1">11 angles « ne pas y aller »</div>
+              <div className="text-xs text-[var(--text-tertiary)] mt-1">15 angles « ne pas y aller »</div>
             </Card>
           </Link>
         </div>
