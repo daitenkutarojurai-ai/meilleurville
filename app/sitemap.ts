@@ -644,6 +644,12 @@ function vacancesSection(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 0.85,
     },
+    {
+      url: `${BASE_URL}/vacances/quiz`,
+      lastModified: STATIC_UPDATED,
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
     ...MONTH_SLUGS.map((slug) => ({
       url: `${BASE_URL}/vacances/mois/${slug}`,
       lastModified: STATIC_UPDATED,

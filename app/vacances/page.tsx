@@ -79,6 +79,15 @@ export default function VacancesHub() {
             <Badge>Affluence par mois</Badge>
             <Badge>Sans paywall, sans bullshit</Badge>
           </div>
+          <div className="mt-6">
+            <Link
+              href="/vacances/quiz"
+              className="inline-flex items-center gap-2 rounded-full bg-[var(--accent)] text-white text-sm font-semibold px-5 py-2.5 hover:bg-[var(--accent-hover)] transition-colors shadow-sm shadow-[var(--accent)]/30"
+            >
+              <Sparkles className="h-4 w-4" />
+              Lancer le quiz · 5 questions, 3 destinations
+            </Link>
+          </div>
         </div>
       </section>
 
