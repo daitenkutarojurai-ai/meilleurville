@@ -6,6 +6,7 @@ import { Footer } from "@/components/Footer";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
 import { BookingCTA } from "@/components/BookingCTA";
+import { StickyBookingBar } from "@/components/StickyBookingBar";
 import { CITIES_SEED } from "@/data/cities-seed";
 import {
   MONTHS_SHORT,
@@ -340,6 +341,7 @@ export default async function VilleVacancesPage({ params }: Props) {
       </section>
 
       <Footer />
+      <StickyBookingBar cityName={city.name} />
     </main>
   );
 }
