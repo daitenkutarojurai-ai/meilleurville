@@ -855,6 +855,20 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                   </div>
                   <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors shrink-0" />
                 </a>
+                <a
+                  href={`/villes/${city.slug}/synthese`}
+                  className="flex items-center justify-between rounded-xl border border-[var(--accent)]/30 bg-[var(--accent)]/5 hover:border-[var(--accent)] hover:shadow-md transition-all px-5 py-4 group sm:col-span-2 lg:col-span-1"
+                >
+                  <div className="min-w-0">
+                    <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
+                      ✨ Synthèse 8 axes
+                    </div>
+                    <div className="text-xs text-[var(--text-tertiary)] mt-0.5 truncate">
+                      Tous les composites en un écran
+                    </div>
+                  </div>
+                  <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors shrink-0" />
+                </a>
               </div>
             </div>
           </div>
