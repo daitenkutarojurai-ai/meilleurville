@@ -446,12 +446,20 @@ function classementsSection(): MetadataRoute.Sitemap {
 
 function regionsSection(): MetadataRoute.Sitemap {
   const regions = [...new Set(CITIES_SEED.map((c) => c.region))];
-  return regions.map((r) => ({
-    url: `${BASE_URL}/regions/${slugify(r)}`,
-    lastModified: CITY_DATA_UPDATED,
-    changeFrequency: "weekly",
-    priority: 0.7,
-  }));
+  return regions.flatMap((r) => [
+    {
+      url: `${BASE_URL}/regions/${slugify(r)}`,
+      lastModified: CITY_DATA_UPDATED,
+      changeFrequency: "weekly" as const,
+      priority: 0.7,
+    },
+    {
+      url: `${BASE_URL}/regions/${slugify(r)}/synthese`,
+      lastModified: CITY_DATA_UPDATED,
+      changeFrequency: "monthly" as const,
+      priority: 0.72,
+    },
+  ]);
 }
 
 function tagsSection(): MetadataRoute.Sitemap {

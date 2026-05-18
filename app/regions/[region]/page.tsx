@@ -253,6 +253,24 @@ export default async function RegionPage({ params }: Props) {
       </section>
 
       <div className="mx-auto max-w-5xl px-4 sm:px-6 py-12 space-y-10">
+        {/* F66 — Synthèse région teaser */}
+        <Link
+          href={`/regions/${regionSlug}/synthese`}
+          className="group flex flex-wrap items-center gap-3 rounded-2xl border border-[var(--accent)]/30 bg-[var(--accent)]/5 hover:border-[var(--accent)] hover:shadow-md transition-all px-5 py-4"
+        >
+          <span className="text-2xl shrink-0">✨</span>
+          <div className="flex-1 min-w-0">
+            <p className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
+              Synthèse 8 axes — villes de {regionName}
+            </p>
+            <p className="text-xs text-[var(--text-secondary)] mt-0.5">
+              Palmarès régional sur env / santé / emploi / cadre / vélo / sécurité / démo /
+              services publics + profil moyen de la région.
+            </p>
+          </div>
+          <span className="text-sm text-[var(--accent)] font-medium shrink-0">Voir →</span>
+        </Link>
+
         {/* Top 3 */}
         <section>
           <h2 className="text-lg font-bold text-[var(--text-primary)] mb-4">Top 3 en {regionName}</h2>
