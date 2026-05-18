@@ -259,6 +259,25 @@ export default async function PairPage({ params }: Props) {
           </div>
         )}
 
+        {/* F63 cross-link: synthèse 8 axes */}
+        <Link
+          href={`/comparer/${pair}/synthese`}
+          className="block rounded-2xl border border-[var(--accent)]/30 bg-[var(--accent)]/5 hover:border-[var(--accent)] hover:shadow-md transition-all p-5 group"
+        >
+          <div className="flex items-center justify-between gap-3">
+            <div className="min-w-0">
+              <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
+                ✨ Synthèse 8 axes — {seedA.name} vs {seedB.name}
+              </div>
+              <div className="text-xs text-[var(--text-tertiary)] mt-1">
+                Comparaison sur env / santé / emploi / cadre / vélo / sécurité / démo / services
+                publics, écart significatif ±0,3 pt par axe.
+              </div>
+            </div>
+            <span className="shrink-0 text-[var(--accent)] text-sm font-semibold">→</span>
+          </div>
+        </Link>
+
         {/* Head-to-head table */}
         <Card>
           <h2 className="text-base font-semibold text-[var(--text-primary)] mb-6">

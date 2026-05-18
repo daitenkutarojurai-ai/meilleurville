@@ -372,6 +372,12 @@ function comparerSection(): MetadataRoute.Sitemap {
       changeFrequency: "monthly" as const,
       priority: 0.6,
     })),
+    ...SEO_PAIRS.map(([a, b]) => ({
+      url: `${BASE_URL}/comparer/${a}-vs-${b}/synthese`,
+      lastModified: CITY_DATA_UPDATED,
+      changeFrequency: "monthly" as const,
+      priority: 0.65,
+    })),
     ...SEO_TRIPLETS.map(([a, b, c]) => ({
       url: `${BASE_URL}/comparer/${a}-vs-${b}-vs-${c}`,
       lastModified: CITY_DATA_UPDATED,
