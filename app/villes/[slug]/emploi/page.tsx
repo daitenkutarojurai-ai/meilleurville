@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
+import { DiscussionCTA } from "@/components/DiscussionCTA";
 import { Footer } from "@/components/Footer";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
@@ -184,25 +185,25 @@ export default async function EmploiPage({ params }: Props) {
         <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-3">
           <Link href={`/villes/${city.slug}/sante`} className="block">
             <Card className="hover:shadow-md transition-shadow h-full">
-              <div className="text-sm font-semibold text-[var(--text-primary)]">Accès aux soins</div>
+              <div className="text-sm font-semibold text-[var(--text-primary)] flex items-center gap-2"><span aria-hidden>🩺</span><span>Accès aux soins</span></div>
               <div className="text-xs text-[var(--text-tertiary)] mt-1">MG, spécialistes, urgences</div>
             </Card>
           </Link>
           <Link href={`/calculateur-cout-reel/${city.slug}`} className="block">
             <Card className="hover:shadow-md transition-shadow h-full">
-              <div className="text-sm font-semibold text-[var(--text-primary)]">Coût réel mensuel</div>
+              <div className="text-sm font-semibold text-[var(--text-primary)] flex items-center gap-2"><span aria-hidden>🧮</span><span>Coût réel mensuel</span></div>
               <div className="text-xs text-[var(--text-tertiary)] mt-1">Loyer, mobilité, taxes, reste-à-vivre</div>
             </Card>
           </Link>
           <Link href={`/villes/${city.slug}/teletravail`} className="block">
             <Card className="hover:shadow-md transition-shadow h-full">
-              <div className="text-sm font-semibold text-[var(--text-primary)]">Télétravail</div>
+              <div className="text-sm font-semibold text-[var(--text-primary)] flex items-center gap-2"><span aria-hidden>💻</span><span>Télétravail</span></div>
               <div className="text-xs text-[var(--text-tertiary)] mt-1">Score remote, FTTH, coworking</div>
             </Card>
           </Link>
           <Link href={`/villes/${city.slug}/louer-ou-acheter`} className="block">
             <Card className="hover:shadow-md transition-shadow h-full">
-              <div className="text-sm font-semibold text-[var(--text-primary)]">Louer ou acheter ?</div>
+              <div className="text-sm font-semibold text-[var(--text-primary)] flex items-center gap-2"><span aria-hidden>🔑</span><span>Louer ou acheter ?</span></div>
               <div className="text-xs text-[var(--text-tertiary)] mt-1">Ratio prix/loyer, payback</div>
             </Card>
           </Link>
@@ -213,6 +214,10 @@ export default async function EmploiPage({ params }: Props) {
             → Classement national des marchés du travail
           </Link>
         </div>
+      </section>
+
+      <section className="mx-auto max-w-3xl px-4 sm:px-6 pb-8">
+        <DiscussionCTA citySlug={city.slug} cityName={city.name} />
       </section>
 
       <Footer />

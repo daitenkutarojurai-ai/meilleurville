@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
+import { DiscussionCTA } from "@/components/DiscussionCTA";
 import { Footer } from "@/components/Footer";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
@@ -191,25 +192,25 @@ export default async function BruitPage({ params }: Props) {
         <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-3">
           <Link href={`/villes/${city.slug}/air`} className="block">
             <Card className="hover:shadow-md transition-shadow h-full">
-              <div className="text-sm font-semibold text-[var(--text-primary)]">Qualité de l&apos;air</div>
+              <div className="text-sm font-semibold text-[var(--text-primary)] flex items-center gap-2"><span aria-hidden>🌬️</span><span>Qualité de l&apos;air</span></div>
               <div className="text-xs text-[var(--text-tertiary)] mt-1">NO2, particules, ozone, pollens</div>
             </Card>
           </Link>
           <Link href={`/villes/${city.slug}/risques`} className="block">
             <Card className="hover:shadow-md transition-shadow h-full">
-              <div className="text-sm font-semibold text-[var(--text-primary)]">Risques naturels</div>
+              <div className="text-sm font-semibold text-[var(--text-primary)] flex items-center gap-2"><span aria-hidden>⚠️</span><span>Risques naturels</span></div>
               <div className="text-xs text-[var(--text-tertiary)] mt-1">Inondation, argile, feux, sismicité</div>
             </Card>
           </Link>
           <Link href={`/villes/${city.slug}/eau`} className="block">
             <Card className="hover:shadow-md transition-shadow h-full">
-              <div className="text-sm font-semibold text-[var(--text-primary)]">Stress hydrique</div>
+              <div className="text-sm font-semibold text-[var(--text-primary)] flex items-center gap-2"><span aria-hidden>💧</span><span>Stress hydrique</span></div>
               <div className="text-xs text-[var(--text-tertiary)] mt-1">Sécheresse, nappes, restrictions</div>
             </Card>
           </Link>
           <Link href={`/villes/${city.slug}/transports`} className="block">
             <Card className="hover:shadow-md transition-shadow h-full">
-              <div className="text-sm font-semibold text-[var(--text-primary)]">Transports</div>
+              <div className="text-sm font-semibold text-[var(--text-primary)] flex items-center gap-2"><span aria-hidden>🚊</span><span>Transports</span></div>
               <div className="text-xs text-[var(--text-tertiary)] mt-1">Trafic, vélo, transports en commun</div>
             </Card>
           </Link>
@@ -220,6 +221,10 @@ export default async function BruitPage({ params }: Props) {
             → Classement national des villes les plus saines
           </Link>
         </div>
+      </section>
+
+      <section className="mx-auto max-w-3xl px-4 sm:px-6 pb-8">
+        <DiscussionCTA citySlug={city.slug} cityName={city.name} />
       </section>
 
       <Footer />

@@ -249,7 +249,7 @@ export default async function SynthesePage({ params }: Props) {
         <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-3">
           <Link href={`/villes/${city.slug}/avis-honnete`} className="block">
             <Card className="hover:shadow-md transition-shadow h-full">
-              <div className="text-sm font-semibold text-[var(--text-primary)]">Avis honnête</div>
+              <div className="text-sm font-semibold text-[var(--text-primary)] flex items-center gap-2"><span aria-hidden>🧭</span><span>Avis honnête</span></div>
               <div className="text-xs text-[var(--text-tertiary)] mt-1">Verdict éditorial profil par profil</div>
             </Card>
           </Link>

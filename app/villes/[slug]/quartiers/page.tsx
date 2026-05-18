@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
+import { DiscussionCTA } from "@/components/DiscussionCTA";
 import { Footer } from "@/components/Footer";
 import { AmbientBackground } from "@/components/AmbientBackground";
 import { Card } from "@/components/ui/Card";
@@ -280,6 +281,10 @@ export default async function QuartiersPage({ params }: Props) {
           </Link>
         </div>
       </div>
+
+      <section className="mx-auto max-w-3xl px-4 sm:px-6 pb-8">
+        <DiscussionCTA citySlug={city.slug} cityName={city.name} />
+      </section>
 
       <Footer />
     </main>

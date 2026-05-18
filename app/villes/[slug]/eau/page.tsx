@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
+import { DiscussionCTA } from "@/components/DiscussionCTA";
 import { Footer } from "@/components/Footer";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
@@ -190,25 +191,25 @@ export default async function EauPage({ params }: Props) {
         <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-3">
           <Link href={`/villes/${city.slug}/risques`} className="block">
             <Card className="hover:shadow-md transition-shadow h-full">
-              <div className="text-sm font-semibold text-[var(--text-primary)]">Risques naturels</div>
+              <div className="text-sm font-semibold text-[var(--text-primary)] flex items-center gap-2"><span aria-hidden>⚠️</span><span>Risques naturels</span></div>
               <div className="text-xs text-[var(--text-tertiary)] mt-1">Inondation, argile, feux, sismicité</div>
             </Card>
           </Link>
           <Link href={`/villes/${city.slug}/climat-2040`} className="block">
             <Card className="hover:shadow-md transition-shadow h-full">
-              <div className="text-sm font-semibold text-[var(--text-primary)]">Climat 2040</div>
+              <div className="text-sm font-semibold text-[var(--text-primary)] flex items-center gap-2"><span aria-hidden>🌡️</span><span>Climat 2040</span></div>
               <div className="text-xs text-[var(--text-tertiary)] mt-1">Canicule, nuits tropicales</div>
             </Card>
           </Link>
           <Link href={`/villes/${city.slug}/climat`} className="block">
             <Card className="hover:shadow-md transition-shadow h-full">
-              <div className="text-sm font-semibold text-[var(--text-primary)]">Climat actuel</div>
+              <div className="text-sm font-semibold text-[var(--text-primary)] flex items-center gap-2"><span aria-hidden>☀️</span><span>Climat actuel</span></div>
               <div className="text-xs text-[var(--text-tertiary)] mt-1">Températures, ensoleillement</div>
             </Card>
           </Link>
           <Link href={`/villes/${city.slug}/saisons`} className="block">
             <Card className="hover:shadow-md transition-shadow h-full">
-              <div className="text-sm font-semibold text-[var(--text-primary)]">Saisons</div>
+              <div className="text-sm font-semibold text-[var(--text-primary)] flex items-center gap-2"><span aria-hidden>🌸</span><span>Saisons</span></div>
               <div className="text-xs text-[var(--text-tertiary)] mt-1">4 saisons, affluence touristique</div>
             </Card>
           </Link>
@@ -219,6 +220,10 @@ export default async function EauPage({ params }: Props) {
             → Classement national des villes les plus saines
           </Link>
         </div>
+      </section>
+
+      <section className="mx-auto max-w-3xl px-4 sm:px-6 pb-8">
+        <DiscussionCTA citySlug={city.slug} cityName={city.name} />
       </section>
 
       <Footer />

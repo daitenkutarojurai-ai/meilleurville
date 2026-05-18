@@ -29,24 +29,35 @@ function seedToCity(s: (typeof CITIES_SEED)[number]): City {
 }
 
 const SORT_OPTIONS = [
-  { id: "global", label: "Score global" },
-  { id: "remoteWork", label: "Télétravail" },
-  { id: "nature", label: "Nature" },
-  { id: "cost", label: "Coût de vie" },
-  { id: "safety", label: "Sécurité" },
-  { id: "schools", label: "Écoles" },
-  { id: "culture", label: "Culture" },
-  { id: "niche:expat", label: "Expat-friendly" },
-  { id: "niche:remote", label: "Remote workers" },
-  { id: "niche:petFriendly", label: "Pet-friendly" },
-  { id: "niche:retirement", label: "Retraite" },
-  { id: "niche:studentLife", label: "Vie étudiante" },
+  { id: "global", label: "Score global", emoji: "⭐" },
+  { id: "remoteWork", label: "Télétravail", emoji: "💻" },
+  { id: "nature", label: "Nature", emoji: "🌲" },
+  { id: "cost", label: "Coût de vie", emoji: "💸" },
+  { id: "safety", label: "Sécurité", emoji: "🛡️" },
+  { id: "schools", label: "Écoles", emoji: "🎓" },
+  { id: "culture", label: "Culture", emoji: "🎭" },
+  { id: "niche:expat", label: "Expat-friendly", emoji: "🌍" },
+  { id: "niche:remote", label: "Remote workers", emoji: "💻" },
+  { id: "niche:petFriendly", label: "Pet-friendly", emoji: "🐶" },
+  { id: "niche:retirement", label: "Retraite", emoji: "🌿" },
+  { id: "niche:studentLife", label: "Vie étudiante", emoji: "🎒" },
 ];
 
 const REGIONS = [...new Set(CITIES_SEED.map((c) => c.region))].sort();
 const DEPARTMENTS = [...new Set(CITIES_SEED.map((c) => c.department))].sort();
 
-const POPULAR_TAGS = ["mer", "montagne", "étudiant", "familial", "vélo", "nature", "dynamique", "abordable", "soleil", "culturel"];
+const POPULAR_TAGS: Array<{ tag: string; emoji: string }> = [
+  { tag: "mer", emoji: "🌊" },
+  { tag: "montagne", emoji: "⛰️" },
+  { tag: "étudiant", emoji: "🎓" },
+  { tag: "familial", emoji: "👨‍👩‍👧" },
+  { tag: "vélo", emoji: "🚲" },
+  { tag: "nature", emoji: "🌳" },
+  { tag: "dynamique", emoji: "⚡" },
+  { tag: "abordable", emoji: "💰" },
+  { tag: "soleil", emoji: "☀️" },
+  { tag: "culturel", emoji: "🎨" },
+];
 
 const NICHE_OPTIONS = [
   { id: "expat", label: "🌍 Expat-friendly", desc: "Anglais parlé, communauté internationale" },
@@ -220,12 +231,13 @@ export function VillesSearch() {
                   key={opt.id}
                   onClick={() => setSortBy(opt.id)}
                   className={cn(
-                    "rounded-xl border px-3 py-1.5 text-xs font-medium transition-colors cursor-pointer",
+                    "flex items-center gap-1.5 rounded-xl border px-3 py-1.5 text-xs font-medium transition-colors cursor-pointer",
                     sortBy === opt.id
                       ? "border-[var(--accent)] bg-[var(--accent)]/10 text-[var(--accent)]"
                       : "border-[var(--border)] text-[var(--text-secondary)] hover:border-[var(--accent)]/40"
                   )}
                 >
+                  <span aria-hidden>{opt.emoji}</span>
                   {opt.label}
                 </button>
               ))}
@@ -246,17 +258,18 @@ export function VillesSearch() {
               >
                 Toutes
               </button>
-              {POPULAR_TAGS.map((t) => (
+              {POPULAR_TAGS.map(({ tag: t, emoji }) => (
                 <button
                   key={t}
                   onClick={() => setTag(tag === t ? "" : t)}
                   className={cn(
-                    "rounded-xl border px-3 py-1.5 text-xs font-medium transition-colors cursor-pointer capitalize",
+                    "flex items-center gap-1.5 rounded-xl border px-3 py-1.5 text-xs font-medium transition-colors cursor-pointer capitalize",
                     tag === t
                       ? "border-[var(--accent)] bg-[var(--accent)]/10 text-[var(--accent)]"
                       : "border-[var(--border)] text-[var(--text-secondary)] hover:border-[var(--accent)]/40"
                   )}
                 >
+                  <span aria-hidden>{emoji}</span>
                   {t}
                 </button>
               ))}

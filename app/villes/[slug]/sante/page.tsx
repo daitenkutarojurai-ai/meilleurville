@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
+import { DiscussionCTA } from "@/components/DiscussionCTA";
 import { Footer } from "@/components/Footer";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
@@ -182,25 +183,25 @@ export default async function SantePage({ params }: Props) {
         <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-3">
           <Link href={`/villes/${city.slug}/air`} className="block">
             <Card className="hover:shadow-md transition-shadow h-full">
-              <div className="text-sm font-semibold text-[var(--text-primary)]">Qualité de l&apos;air</div>
+              <div className="text-sm font-semibold text-[var(--text-primary)] flex items-center gap-2"><span aria-hidden>🌬️</span><span>Qualité de l&apos;air</span></div>
               <div className="text-xs text-[var(--text-tertiary)] mt-1">NO2, particules, ozone, pollens</div>
             </Card>
           </Link>
           <Link href={`/villes/${city.slug}/bruit`} className="block">
             <Card className="hover:shadow-md transition-shadow h-full">
-              <div className="text-sm font-semibold text-[var(--text-primary)]">Bruit</div>
+              <div className="text-sm font-semibold text-[var(--text-primary)] flex items-center gap-2"><span aria-hidden>🔊</span><span>Bruit</span></div>
               <div className="text-xs text-[var(--text-tertiary)] mt-1">Routier, aérien, ferré, nocturne</div>
             </Card>
           </Link>
           <Link href={`/villes/${city.slug}/ecoles`} className="block">
             <Card className="hover:shadow-md transition-shadow h-full">
-              <div className="text-sm font-semibold text-[var(--text-primary)]">Écoles</div>
+              <div className="text-sm font-semibold text-[var(--text-primary)] flex items-center gap-2"><span aria-hidden>🎓</span><span>Écoles</span></div>
               <div className="text-xs text-[var(--text-tertiary)] mt-1">Maternelles, primaires, collèges, lycées</div>
             </Card>
           </Link>
           <Link href={`/villes/${city.slug}/quartiers`} className="block">
             <Card className="hover:shadow-md transition-shadow h-full">
-              <div className="text-sm font-semibold text-[var(--text-primary)]">Quartiers</div>
+              <div className="text-sm font-semibold text-[var(--text-primary)] flex items-center gap-2"><span aria-hidden>🏘️</span><span>Quartiers</span></div>
               <div className="text-xs text-[var(--text-tertiary)] mt-1">Sécurité, ambiance, loyers</div>
             </Card>
           </Link>
@@ -211,6 +212,10 @@ export default async function SantePage({ params }: Props) {
             → Classement national de l&apos;accès aux soins
           </Link>
         </div>
+      </section>
+
+      <section className="mx-auto max-w-3xl px-4 sm:px-6 pb-8">
+        <DiscussionCTA citySlug={city.slug} cityName={city.name} />
       </section>
 
       <Footer />

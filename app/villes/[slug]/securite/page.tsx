@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
+import { DiscussionCTA } from "@/components/DiscussionCTA";
 import { Footer } from "@/components/Footer";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
@@ -191,25 +192,25 @@ export default async function SecuritePage({ params }: Props) {
         <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-3">
           <Link href={`/villes/${city.slug}/quartiers`} className="block">
             <Card className="hover:shadow-md transition-shadow h-full">
-              <div className="text-sm font-semibold text-[var(--text-primary)]">Quartiers</div>
+              <div className="text-sm font-semibold text-[var(--text-primary)] flex items-center gap-2"><span aria-hidden>🏘️</span><span>Quartiers</span></div>
               <div className="text-xs text-[var(--text-tertiary)] mt-1">Détail par zone & ambiance</div>
             </Card>
           </Link>
           <Link href={`/villes/${city.slug}/avis-honnete`} className="block">
             <Card className="hover:shadow-md transition-shadow h-full">
-              <div className="text-sm font-semibold text-[var(--text-primary)]">Avis honnête</div>
+              <div className="text-sm font-semibold text-[var(--text-primary)] flex items-center gap-2"><span aria-hidden>🧭</span><span>Avis honnête</span></div>
               <div className="text-xs text-[var(--text-tertiary)] mt-1">Coups de cœur + vigilances</div>
             </Card>
           </Link>
           <Link href={`/villes/${city.slug}/sante`} className="block">
             <Card className="hover:shadow-md transition-shadow h-full">
-              <div className="text-sm font-semibold text-[var(--text-primary)]">Accès aux soins</div>
+              <div className="text-sm font-semibold text-[var(--text-primary)] flex items-center gap-2"><span aria-hidden>🩺</span><span>Accès aux soins</span></div>
               <div className="text-xs text-[var(--text-tertiary)] mt-1">Médecins, urgences, déserts</div>
             </Card>
           </Link>
           <Link href={`/villes/${city.slug}/emploi`} className="block">
             <Card className="hover:shadow-md transition-shadow h-full">
-              <div className="text-sm font-semibold text-[var(--text-primary)]">Marché du travail</div>
+              <div className="text-sm font-semibold text-[var(--text-primary)] flex items-center gap-2"><span aria-hidden>💼</span><span>Marché du travail</span></div>
               <div className="text-xs text-[var(--text-tertiary)] mt-1">Chômage, salaires, dynamisme</div>
             </Card>
           </Link>
@@ -220,6 +221,10 @@ export default async function SecuritePage({ params }: Props) {
             → Classement national sécurité SSMSI
           </Link>
         </div>
+      </section>
+
+      <section className="mx-auto max-w-3xl px-4 sm:px-6 pb-8">
+        <DiscussionCTA citySlug={city.slug} cityName={city.name} />
       </section>
 
       <Footer />
