@@ -106,12 +106,19 @@ export default async function LouerOuAcheterPage({ params }: Props) {
                   <p className="text-3xl font-bold font-mono-data tabular-nums text-[var(--text-primary)]">
                     {data.rentToPriceRatio}
                   </p>
-                  <p className="text-[10px] text-[var(--text-tertiary)]">années de loyer</p>
+                  <p className="text-[10px] text-[var(--text-tertiary)]">années de loyer<br />pour rembourser l&apos;achat</p>
                 </div>
               </div>
               <p className="text-sm text-[var(--text-secondary)] leading-relaxed">
                 {VERDICT_META[data.verdict].advice}
               </p>
+              {/* Légende du ratio — sinon le « 18 » est lu sans contexte. */}
+              <div className="mt-3 rounded-lg border border-[var(--border)] bg-[var(--bg-elevated)]/40 p-3 text-[11px] text-[var(--text-secondary)] leading-relaxed">
+                <strong className="text-[var(--text-primary)]">Comment lire ce ratio :</strong> il indique combien d&apos;années de loyer
+                il faudrait pour égaler le prix d&apos;achat. <strong>&lt; 15 ans : achat très favorable</strong>,
+                15-20 : équilibre standard, 20-25 : louer reste souvent plus malin,
+                <strong> &gt; 25 ans : marché tendu où l&apos;achat est rarement gagnant</strong>.
+              </div>
             </Card>
 
             {/* Données brutes */}

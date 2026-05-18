@@ -223,38 +223,6 @@ export default function CadreDeViePage() {
           </div>
         </Card>
 
-        {/* Methodology */}
-        <h2 className="mt-12 text-xl font-semibold text-[var(--text-primary)]">Méthodologie</h2>
-        <Card className="mt-3">
-          <p className="text-sm text-[var(--text-secondary)] leading-relaxed">
-            L&apos;Index Cadre de Vie est un méga-composite qui combine trois sous-indices
-            déterministes en un score unique 0-10 :
-          </p>
-          <ul className="mt-3 space-y-2 text-sm text-[var(--text-secondary)] leading-relaxed">
-            <li>
-              <strong className="text-[var(--text-primary)]">Environnement (35 %)</strong> —
-              santé environnementale F44 : air (PM2.5 + NO2 + ozone + pollens, 30 %), bruit
-              (CBS / PEB / Bruitparif, 25 %), stress hydrique (Propluvia / BRGM, 25 %),
-              risques naturels (Géorisques / BRGM, 20 %).
-            </li>
-            <li>
-              <strong className="text-[var(--text-primary)]">Santé (30 %)</strong> —
-              accès aux soins F47 : médecins généralistes (35 %), spécialistes (25 %),
-              urgences / SAU (25 %), pharmacies (15 %). Sources DREES / CNOM / ARS.
-            </li>
-            <li>
-              <strong className="text-[var(--text-primary)]">Emploi (35 %)</strong> —
-              marché du travail F50 : chômage INSEE T4 2024 (35 %), salaire DADS (25 %),
-              dynamisme SIRENE (20 %), mix sectoriel (20 %).
-            </li>
-          </ul>
-          <p className="text-xs text-[var(--text-tertiary)] mt-4">
-            Pondération choisie pour un public général. Un retraité ou un télétravailleur
-            pondèrera différemment : utiliser le quiz de compatibilité pour un classement
-            personnalisé selon votre profil.
-          </p>
-        </Card>
-
         {/* Macro-region breakdown */}
         <h2 className="mt-12 text-xl font-semibold text-[var(--text-primary)]">
           Par macro-région

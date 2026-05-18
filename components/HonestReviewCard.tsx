@@ -118,25 +118,32 @@ export function HonestReviewCard({ city, compact = false }: Props) {
             </span>
           </div>
           {review.perfectFor.length > 0 ? (
-            <ul className="space-y-1.5">
-              {review.perfectFor.map((f) => (
-                <li key={f.profile.slug} className="text-sm">
-                  <Link
-                    href={`/pour-qui/${f.profile.slug}`}
-                    className="inline-flex items-center gap-1 text-[var(--text-primary)] hover:text-[var(--accent)] transition-colors"
-                  >
-                    <span aria-hidden>{f.profile.emoji}</span>
-                    {f.profile.label}
-                    <span className="text-[11px] text-[var(--text-tertiary)] ml-1">
-                      (#{f.rank} sur {CITIES_COUNT})
-                    </span>
-                  </Link>
-                </li>
-              ))}
-            </ul>
+            <>
+              {review.perfectFor.some((f) => f.soft) && (
+                <p className="text-[11px] text-[var(--text-tertiary)] mb-2 italic">
+                  Pas dans le top 30 d&apos;un profil spécifique, mais voici les deux pour lesquels {city.name} reste <em>plutôt adaptée</em> :
+                </p>
+              )}
+              <ul className="space-y-1.5">
+                {review.perfectFor.map((f) => (
+                  <li key={f.profile.slug} className="text-sm">
+                    <Link
+                      href={`/pour-qui/${f.profile.slug}`}
+                      className="inline-flex items-center gap-1 text-[var(--text-primary)] hover:text-[var(--accent)] transition-colors"
+                    >
+                      <span aria-hidden>{f.profile.emoji}</span>
+                      {f.profile.label}
+                      <span className="text-[11px] text-[var(--text-tertiary)] ml-1">
+                        (#{f.rank} sur {CITIES_COUNT})
+                      </span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </>
           ) : (
             <p className="text-xs text-[var(--text-tertiary)]">
-              Pas dans le top 30 d&apos;un profil spécifique — choix généraliste.
+              Aucun profil ne ressort sur cette ville. Vous pouvez la considérer comme un choix généraliste sans signature forte.
             </p>
           )}
         </div>

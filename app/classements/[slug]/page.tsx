@@ -11,6 +11,7 @@ import { Card } from "@/components/ui/Card";
 import { CheckCircle, TrendingUp, TrendingDown, Minus, Info } from "lucide-react";
 import { HOUSING } from "@/data/housing";
 import { GUIDES } from "@/data/guides";
+import { scoreColor } from "@/lib/utils";
 
 // ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
 // revalidate=false → page built once at deploy, served from static edge cache.
@@ -254,13 +255,13 @@ export default async function RankingPage({ params }: Props) {
                       </td>
                       <td className="px-4 py-3 text-right">
                         <span
-                          className={`font-bold font-mono-data ${meta.color}`}
+                          className={`font-bold font-mono-data ${scoreColor(entry.score)}`}
                         >
                           {entry.score.toFixed(1)}
                         </span>
                       </td>
                       <td className="hidden sm:table-cell px-4 py-3 text-right">
-                        <span className="text-xs font-mono-data text-[var(--text-secondary)]">
+                        <span className={`text-xs font-mono-data ${scoreColor(entry.city.scores.global)}`}>
                           {entry.city.scores.global.toFixed(1)}
                         </span>
                       </td>

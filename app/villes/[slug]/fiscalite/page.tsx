@@ -267,7 +267,7 @@ export default async function FiscalitePage({ params }: Props) {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="mt-1 inline-block h-1.5 w-1.5 rounded-full bg-[var(--accent)] shrink-0" />
-                  <span>Consulter <a href="https://www.impots.gouv.fr/portail/files/media/3_Documentation/depliants/part_taxe_fonciere_2024.pdf" target="_blank" rel="noopener" className="text-[var(--accent)] hover:underline">les barèmes DGFiP officiels</a>.</span>
+                  <span>Consulter <a href="https://www.impots.gouv.fr/particulier/taxe-fonciere" target="_blank" rel="noopener" className="text-[var(--accent)] hover:underline">la page taxe foncière sur impots.gouv.fr</a>.</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="mt-1 inline-block h-1.5 w-1.5 rounded-full bg-[var(--accent)] shrink-0" />

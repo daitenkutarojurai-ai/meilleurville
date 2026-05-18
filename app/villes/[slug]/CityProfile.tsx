@@ -629,7 +629,7 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                       ☀️ Climat
                     </div>
                     <div className="text-xs text-[var(--text-tertiary)] mt-0.5 truncate">
-                      {city.sunshinedays ? `${city.sunshinedays} h soleil · ${city.avgTempJuly ?? "—"}/${city.avgTempJanuary ?? "—"} °C` : "Températures, ensoleillement"}
+                      {city.sunshinedays ? `${sunshineDays(city.sunshinedays)} j soleil · ${city.avgTempJuly ?? "—"}/${city.avgTempJanuary ?? "—"} °C` : "Températures, ensoleillement"}
                     </div>
                   </div>
                   <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors shrink-0" />

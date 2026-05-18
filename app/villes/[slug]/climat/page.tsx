@@ -6,6 +6,7 @@ import { Footer } from "@/components/Footer";
 import { AmbientBackground } from "@/components/AmbientBackground";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { sunshineDays } from "@/lib/utils";
 
 // ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
 // revalidate=false → page built once at deploy, served from static edge cache.
@@ -136,11 +137,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const climate = classifyClimate(city);
   return {
     title: `Climat de ${city.name} — ${climate.label}, températures, ensoleillement | MeilleurVille`,
-    description: `Climat ${climate.label.toLowerCase()} à ${city.name} : ${city.avgTempJuly ?? "–"} °C en juillet, ${city.avgTempJanuary ?? "–"} °C en janvier, ${city.sunshinedays ?? "–"} h de soleil par an. Quand y aller, à quoi s'attendre.`,
+    description: `Climat ${climate.label.toLowerCase()} à ${city.name} : ${city.avgTempJuly ?? "–"} °C en juillet, ${city.avgTempJanuary ?? "–"} °C en janvier, ${sunshineDays(city.sunshinedays) ?? "–"} jours de soleil par an. Quand y aller, à quoi s'attendre.`,
     alternates: { canonical: `/villes/${slug}/climat` },
     openGraph: {
       title: `Climat de ${city.name} — ${climate.label}`,
-      description: `${city.sunshinedays ?? "–"} h de soleil · ${city.avgTempJuly ?? "–"}/${city.avgTempJanuary ?? "–"} °C juillet/janvier`,
+      description: `${sunshineDays(city.sunshinedays) ?? "–"} j de soleil · ${city.avgTempJuly ?? "–"}/${city.avgTempJanuary ?? "–"} °C juillet/janvier`,
     },
   };
 }
@@ -227,10 +228,10 @@ export default async function ClimatPage({ params }: Props) {
             <div className="rounded-2xl glass border border-white/50 p-4 shadow-sm">
               <div className="text-xs text-[var(--text-tertiary)] mb-1">☀️ Ensoleillement</div>
               <div className="text-2xl font-black font-mono-data text-[var(--text-primary)]">
-                {city.sunshinedays ?? "—"}
-                <span className="text-sm font-normal text-[var(--text-tertiary)] ml-1">h/an</span>
+                {sunshineDays(city.sunshinedays) ?? "—"}
+                <span className="text-sm font-normal text-[var(--text-tertiary)] ml-1">j/an</span>
               </div>
-              <div className="text-[11px] mt-1"><Diff value={city.sunshinedays} baseline={NATIONAL_AVG.sun} suffix=" h" /></div>
+              <div className="text-[11px] mt-1"><Diff value={sunshineDays(city.sunshinedays)} baseline={sunshineDays(NATIONAL_AVG.sun) ?? 0} suffix=" j" /></div>
             </div>
             <div className="rounded-2xl glass border border-white/50 p-4 shadow-sm">
               <div className="text-xs text-[var(--text-tertiary)] mb-1">🌡️ Été (juillet)</div>
@@ -316,7 +317,7 @@ export default async function ClimatPage({ params }: Props) {
                   {c.name}
                 </div>
                 <div className="text-[11px] text-[var(--text-tertiary)] mt-0.5 truncate">
-                  {c.sunshinedays ?? "—"} h · {c.avgTempJuly ?? "—"}/{c.avgTempJanuary ?? "—"} °C
+                  {sunshineDays(c.sunshinedays) ?? "—"} j · {c.avgTempJuly ?? "—"}/{c.avgTempJanuary ?? "—"} °C
                 </div>
               </Link>
             ))}

@@ -172,7 +172,20 @@ export function buildHonestReview(city: CitySeed): HonestReview {
     return { profile: p, rank: r.rank, score: r.score, reason: r.reason };
   });
   const total = CITIES_SEED.length;
-  const perfectFor = fits.filter((f) => f.rank <= 30).sort((a, b) => a.rank - b.rank).slice(0, 2);
+  let perfectFor: HonestReviewProfileFit[] = fits
+    .filter((f) => f.rank <= 30)
+    .sort((a, b) => a.rank - b.rank)
+    .slice(0, 2);
+  if (perfectFor.length === 0) {
+    // Aucun top-30 — on remonte les 2 meilleures correspondances (rank
+    // au-dessus de la médiane) en `soft` pour que la UI les présente
+    // comme « plutôt adaptée à ce profil » plutôt qu'un vrai pick.
+    perfectFor = fits
+      .filter((f) => f.rank <= total / 2)
+      .sort((a, b) => a.rank - b.rank)
+      .slice(0, 2)
+      .map((f) => ({ ...f, soft: true }));
+  }
   let avoidIf: HonestReviewProfileFit[] = fits
     .filter((f) => f.rank >= total - 30)
     .sort((a, b) => b.rank - a.rank)

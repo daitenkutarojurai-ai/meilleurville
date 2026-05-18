@@ -188,7 +188,7 @@ function rankPollutionAirChronique(): RedFlagRow[] {
 }
 
 // --- THEME 5 — Risques naturels cumulés ---
-// Cible : villes dont le score composite F40 (inondation 35 % + argile 25 %
+// Cible : villes dont le score composite (inondation 35 % + argile 25 %
 // + feu 20 % + sismicité 20 %) dépasse 5,5/10. On amplifie la severity quand
 // la ville cumule deux dimensions ≥ 6 (vrai cumul de risques, pas un seul
 // aléa). Les fortunes peu exposées sont écartées (filter <5,5).
@@ -223,7 +223,7 @@ function rankRisquesNaturels(): RedFlagRow[] {
 }
 
 // --- THEME 6 — Bruit cauchemar ---
-// Cible : villes au composite F43 > 5,5/10. Bonus si au moins 2 sources sur 4
+// Cible : villes au composite > 5,5/10. Bonus si au moins 2 sources sur 4
 // dépassent 6/10 (cumul rare et invivable). Filtre population > 30k pour ne
 // pas remonter des cas marginaux.
 function rankBruitCauchemar(): RedFlagRow[] {
@@ -257,7 +257,7 @@ function rankBruitCauchemar(): RedFlagRow[] {
 }
 
 // --- THEME 7 — Sécheresse & restrictions d'eau ---
-// Cible : villes au composite F41 > 6/10. Bonus si restrictions = fort
+// Cible : villes au composite > 6/10. Bonus si restrictions = fort
 // (arrêtés crise quasi-annuels) OU si nappes très basses ET supply tendu.
 function rankSecheresseEau(): RedFlagRow[] {
   const rows: RedFlagRow[] = [];
@@ -289,7 +289,7 @@ function rankSecheresseEau(): RedFlagRow[] {
 }
 
 // --- THEME 8 — Désert médical ---
-// Cible : villes au composite F47 > 6,5/10. Bonus si MG = désert + urgences
+// Cible : villes au composite > 6,5/10. Bonus si MG = désert + urgences
 // = tendu (cumul vital). Filtre population > 10k pour pertinence dept.
 function rankDesertMedical(): RedFlagRow[] {
   const rows: RedFlagRow[] = [];
@@ -322,7 +322,7 @@ function rankDesertMedical(): RedFlagRow[] {
 }
 
 // --- THEME 9 — Chômage élevé ---
-// Cible : villes au composite F50 > 6,5/10. Bonus quand chômage dept ≥ 7,5/10
+// Cible : villes au composite > 6,5/10. Bonus quand chômage dept ≥ 7,5/10
 // (« sinistré ») ET dynamisme entrepreneurial ≥ 6,5/10 se cumulent — vrai
 // décrochage économique, pas un seul indicateur défavorable.
 function rankChomageEleve(): RedFlagRow[] {
@@ -356,7 +356,7 @@ function rankChomageEleve(): RedFlagRow[] {
 }
 
 // --- THEME 10 — Cadre de vie tendu ---
-// Cible : villes au composite F52 ≤ 4,5/10. Bonus quand au moins 2 piliers
+// Cible : villes au composite ≤ 4,5/10. Bonus quand au moins 2 piliers
 // sur 3 (env / santé / emploi) sont ≤ 4/10 — cumul réel, pas un seul pilier.
 function rankCadreDeVieTendu(): RedFlagRow[] {
   const rows: RedFlagRow[] = [];
@@ -390,9 +390,9 @@ function rankCadreDeVieTendu(): RedFlagRow[] {
 
 // --- THEME 11 — Coûts explosifs vs salaire local ---
 // Ratio coût mensuel famille (lib/household-cost) / salaire net médian
-// dept (proxy depuis F50 salary.score). Severity = rescaled ratio.
+// dept (proxy depuis salary.score). Severity = rescaled ratio.
 const SALARY_PROXY: Record<number, number> = {
-  // map F50 salary.score → € net médian dept estimé
+  // map salary.score → € net médian dept estimé
   1: 2500,   // Paris & petite couronne
   2.5: 2200, // Bonnes métropoles (Rennes, Nantes, Lyon, Toulouse, Bordeaux…)
   4.5: 2050, // Moyenne nationale
@@ -422,7 +422,7 @@ function rankCoutsExplosifs(): RedFlagRow[] {
 }
 
 // --- THEME 12 — Désert de services publics ---
-// Cible : F60 composite ≥ 6,5 (déficit max). Bonus quand écoles ET Poste
+// Cible : composite ≥ 6,5 (déficit max). Bonus quand écoles ET Poste
 // sont tous deux ≥ 6,5 (vrai double déficit, pas un seul axe).
 function rankDesertServicesPublics(): RedFlagRow[] {
   const rows: RedFlagRow[] = [];
@@ -455,7 +455,7 @@ function rankDesertServicesPublics(): RedFlagRow[] {
 }
 
 // --- THEME 13 — Anti-vélo ---
-// F57 cyclabilité : 10 = excellent (convention inverse !). Red flag = composite ≤ 4,5.
+// cyclabilité : 10 = excellent (convention inverse !). Red flag = composite ≤ 4,5.
 // Severity inversée (5 − cycling) × 2 sur [0;10]. Bonus quand réseau ET topographie
 // sont tous deux faibles (combo bloquant : pas de pistes ET ça grimpe).
 function rankAntiVelo(): RedFlagRow[] {
@@ -490,7 +490,7 @@ function rankAntiVelo(): RedFlagRow[] {
 }
 
 // --- THEME 14 — Vieillissement critique ---
-// Cible : F59 composite ≥ 7 (vieillissement marqué + décroissance).
+// Cible : composite ≥ 7 (vieillissement marqué + décroissance).
 // Bonus quand ageing ET trajectory sont tous deux ≥ 7 (cumul réel :
 // pyramide haute + solde négatif = dynamique d'extinction lente).
 function rankVieillissementCritique(): RedFlagRow[] {
@@ -524,7 +524,7 @@ function rankVieillissementCritique(): RedFlagRow[] {
 }
 
 // --- THEME 15 — Nuit tendue ---
-// F58 nocturnal ≥ 6,5 (rixes / agressions nocturnes). Bonus quand persons ≥ 6
+// nocturnal ≥ 6,5 (rixes / agressions nocturnes). Bonus quand persons ≥ 6
 // (atteintes aux personnes corroborent), bonus si touristique/festif (saturation
 // nocturne). Indicateur dédié pour étudiants / sortie nocturne / femmes seules.
 function rankNuitTendue(): RedFlagRow[] {
@@ -626,14 +626,14 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     title: "Villes les plus exposées aux risques naturels",
     metaTitle: "Risques naturels 2026 — Villes françaises les plus exposées (inondation, argile, feu, séisme)",
     metaDescription:
-      "Classement 2026 des villes françaises au composite F40 le plus élevé sur les 4 aléas : inondation, retrait-gonflement argile (BRGM), feu de forêt (ONF/ECASC), sismicité (zonage 2011). Données ouvertes Géorisques.",
+      "Classement 2026 des villes françaises au composite le plus élevé sur les 4 aléas : inondation, retrait-gonflement argile (BRGM), feu de forêt (ONF/ECASC), sismicité (zonage 2011). Données ouvertes Géorisques.",
     emoji: "⚠️",
     intro:
       "L'annonce immobilière vante la vue sur le fleuve, la proximité du massif, le terrain en pente douce. Personne ne dit que la cave a déjà été inondée trois fois en quinze ans, que les fissures sur les murs sont l'argile qui gonfle l'été et se rétracte l'hiver, ou que le PPRif classe le quartier en aléa fort feu de forêt. Les risques naturels ne se voient pas sur la photo — ils se découvrent dans le rapport ERP signé en bas de l'acte.",
     reality:
-      "On classe ici les villes dont le composite F40 (inondation 35 % + argile 25 % + feu 20 % + sismicité 20 %) dépasse 5,5/10, avec un malus quand au moins deux des quatre aléas dépassent 6/10 — c'est-à-dire un vrai cumul, pas un seul risque isolé. Toutes les valeurs sont alignées sur les zonages réglementaires : sismicité décret 2010-1255, aléa argile BRGM, massifs à risque feu ONF/ECASC, proxy inondation fleuve majeur + altitude < 50 m + littoral.",
+      "On classe ici les villes dont le composite (inondation 35 % + argile 25 % + feu 20 % + sismicité 20 %) dépasse 5,5/10, avec un malus quand au moins deux des quatre aléas dépassent 6/10 — c'est-à-dire un vrai cumul, pas un seul risque isolé. Toutes les valeurs sont alignées sur les zonages réglementaires : sismicité décret 2010-1255, aléa argile BRGM, massifs à risque feu ONF/ECASC, proxy inondation fleuve majeur + altitude < 50 m + littoral.",
     methodology:
-      "Severity = composite F40 (0-10) + 1,2 si deux dimensions ou plus ≥ 6/10. Sources : BRGM (argile), BCSF/MTE décret 2010-1255 (sismicité), ONF + ECASC (feu de forêt), Géorisques (synthèse par commune INSEE). Vérifier le rapport ERP officiel avant tout achat.",
+      "Severity = composite (0-10) + 1,2 si deux dimensions ou plus ≥ 6/10. Sources : BRGM (argile), BCSF/MTE décret 2010-1255 (sismicité), ONF + ECASC (feu de forêt), Géorisques (synthèse par commune INSEE). Vérifier le rapport ERP officiel avant tout achat.",
     rank: rankRisquesNaturels,
   },
   {
@@ -641,14 +641,14 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     title: "Villes où le bruit est un cauchemar quotidien",
     metaTitle: "Bruit cauchemar 2026 — Villes françaises les plus exposées (routier, aérien, nocturne)",
     metaDescription:
-      "Classement 2026 des villes françaises où le bruit cumule trafic routier saturé, survols aéroportuaires (PEB), LGV et vie nocturne. Données CBS / DGAC / Bruitparif. Composite F43.",
+      "Classement 2026 des villes françaises où le bruit cumule trafic routier saturé, survols aéroportuaires (PEB), LGV et vie nocturne. Données CBS / DGAC / Bruitparif. Composite agrégé.",
     emoji: "🔊",
     intro:
       "L'agence vante le quartier calme, la rue résidentielle, l'orientation cour. Sur le terrain : périphérique à 200 m, A86 en fond sonore, A380 toutes les 90 secondes au-dessus de Goussainville, ou centre-ville étudiant où les terrasses ferment à 2 h. Le bruit ne s'écoute pas sur une photo immobilière — il s'endure 24 h sur 24.",
     reality:
-      "On classe les villes ≥ 30 000 hab. dont le composite bruit F43 (routier 35 % + aérien 25 % + nocturne 25 % + ferroviaire 15 %) dépasse 5,5/10, avec malus quand au moins deux des quatre sources dépassent 6/10 — c'est-à-dire un vrai cumul d'expositions. L'OMS recommande Lden < 53 dB(A) jour et Lnight < 45 dB(A) nuit ; toutes les villes listées dépassent largement ce seuil sur une part importante du territoire communal.",
+      "On classe les villes ≥ 30 000 hab. dont le composite bruit (routier 35 % + aérien 25 % + nocturne 25 % + ferroviaire 15 %) dépasse 5,5/10, avec malus quand au moins deux des quatre sources dépassent 6/10 — c'est-à-dire un vrai cumul d'expositions. L'OMS recommande Lden < 53 dB(A) jour et Lnight < 45 dB(A) nuit ; toutes les villes listées dépassent largement ce seuil sur une part importante du territoire communal.",
     methodology:
-      "Severity = composite F43 + 1,2 si deux sources ou plus ≥ 6/10. Sources : Cartes de Bruit Stratégiques (directive 2002/49/CE), Plans d'Exposition au Bruit DGAC, Bruitparif (IDF). Filtre population ≥ 30 000 hab. pour la pertinence du score nocturne.",
+      "Severity = composite + 1,2 si deux sources ou plus ≥ 6/10. Sources : Cartes de Bruit Stratégiques (directive 2002/49/CE), Plans d'Exposition au Bruit DGAC, Bruitparif (IDF). Filtre population ≥ 30 000 hab. pour la pertinence du score nocturne.",
     rank: rankBruitCauchemar,
   },
   {
@@ -656,14 +656,14 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     title: "Villes où l'eau manquera l'été — sécheresse & restrictions",
     metaTitle: "Sécheresse 2026 — Villes françaises au stress hydrique le plus élevé (Propluvia, BRGM)",
     metaDescription:
-      "Classement 2026 des villes françaises où la sécheresse est devenue récurrente : arrêtés Propluvia crise quasi-annuels, nappes BRGM basses, alimentation eau potable sous tension. Composite F41.",
+      "Classement 2026 des villes françaises où la sécheresse est devenue récurrente : arrêtés Propluvia crise quasi-annuels, nappes BRGM basses, alimentation eau potable sous tension. Composite agrégé.",
     emoji: "💧",
     intro:
       "L'annonce vante le climat ensoleillé, la piscine, le jardin méditerranéen. Personne ne mentionne que l'arrosage est interdit cinq mois par an, que la piscine se vide à la mi-juillet, que la nappe locale est basse depuis trois ans et que la commune envisage des tours d'eau l'été prochain. La sécheresse ne se voit pas sur la photo en mai — elle se subit en août.",
     reality:
-      "On classe les villes dont le composite F41 (restrictions 35 % + nappes 25 % + climat 20 % + alimentation 20 %) dépasse 6/10, avec un bonus de gravité quand les restrictions atteignent le niveau « crise quasi-annuel » (Propluvia) OU quand nappes très basses et réseau eau potable sous tension se cumulent. Toutes les valeurs sont alignées sur les bulletins officiels BRGM 2022-2025 et l'historique Propluvia 2022-2024.",
+      "On classe les villes dont le composite (restrictions 35 % + nappes 25 % + climat 20 % + alimentation 20 %) dépasse 6/10, avec un bonus de gravité quand les restrictions atteignent le niveau « crise quasi-annuel » (Propluvia) OU quand nappes très basses et réseau eau potable sous tension se cumulent. Toutes les valeurs sont alignées sur les bulletins officiels BRGM 2022-2025 et l'historique Propluvia 2022-2024.",
     methodology:
-      "Severity = composite F41 + 1,0 si restrictions ≥ 8,5/10 + 0,8 si nappes très basses ET alimentation tendue. Sources : Propluvia (arrêtés sécheresse), BRGM (état des nappes), Météo-France (climat estival).",
+      "Severity = composite + 1,0 si restrictions ≥ 8,5/10 + 0,8 si nappes très basses ET alimentation tendue. Sources : Propluvia (arrêtés sécheresse), BRGM (état des nappes), Météo-France (climat estival).",
     rank: rankSecheresseEau,
   },
   {
@@ -671,14 +671,14 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     title: "Villes désert médical — accès aux soins critique",
     metaTitle: "Désert médical 2026 — Villes françaises où trouver un médecin est devenu impossible",
     metaDescription:
-      "Classement 2026 des villes françaises ≥ 10 000 hab. où l'accès aux soins est critique : MG non remplacés, spécialistes saturés, urgences éloignées. Composite F47, sources DREES / CNOM / ARS.",
+      "Classement 2026 des villes françaises ≥ 10 000 hab. où l'accès aux soins est critique : MG non remplacés, spécialistes saturés, urgences éloignées. Composite, sources DREES / CNOM / ARS.",
     emoji: "🩺",
     intro:
       "L'agence vante le calme, le prix au m² accessible, la maison de ville. Personne ne mentionne que le dernier médecin généraliste de la commune part en retraite en juin sans repreneur, que le cabinet de dermato le plus proche est à 1 h 30 de route avec un délai de 8 mois, ou que les urgences les plus proches sont à 45 min sans héliportage la nuit. Le désert médical ne se voit pas sur une photo immobilière — il se découvre en cherchant un médecin traitant à 22 h pour un enfant qui a 40 °C.",
     reality:
-      "On classe les villes ≥ 10 000 hab. dont le composite F47 dépasse 6,5/10, avec un malus quand généralistes en désert avéré (DREES &lt; 80/100k + plus de 50 % MG &gt; 60 ans) ET urgences éloignées se cumulent — c'est-à-dire un vrai problème vital, pas un seul indicateur. Toutes les valeurs sont alignées sur les statistiques DREES 2023-2024 et le zonage ZIP/ZAC de l'ARS.",
+      "On classe les villes ≥ 10 000 hab. dont le composite dépasse 6,5/10, avec un malus quand généralistes en désert avéré (DREES &lt; 80/100k + plus de 50 % MG &gt; 60 ans) ET urgences éloignées se cumulent — c'est-à-dire un vrai problème vital, pas un seul indicateur. Toutes les valeurs sont alignées sur les statistiques DREES 2023-2024 et le zonage ZIP/ZAC de l'ARS.",
     methodology:
-      "Severity = composite F47 + 1,2 si MG = désert ET urgences ≥ 6,5/10 + 0,5 si spécialistes ≥ 7/10. Sources : DREES (densité médicale par département), Atlas démographique CNOM (vieillissement et remplacement), zonage ZIP/ZAC ARS, Conférence des Doyens (CHU).",
+      "Severity = composite + 1,2 si MG = désert ET urgences ≥ 6,5/10 + 0,5 si spécialistes ≥ 7/10. Sources : DREES (densité médicale par département), Atlas démographique CNOM (vieillissement et remplacement), zonage ZIP/ZAC ARS, Conférence des Doyens (CHU).",
     rank: rankDesertMedical,
   },
   {
@@ -686,29 +686,29 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     title: "Villes au chômage chronique — marché du travail sinistré",
     metaTitle: "Chômage chronique 2026 — Villes françaises au marché du travail le plus tendu",
     metaDescription:
-      "Classement 2026 des villes françaises ≥ 15 000 hab. cumulant chômage INSEE élevé, faible dynamisme SIRENE et salaires médians bas. Composite F50, sources INSEE / DARES / DADS / SIRENE.",
+      "Classement 2026 des villes françaises ≥ 15 000 hab. cumulant chômage INSEE élevé, faible dynamisme SIRENE et salaires médians bas. Composite, sources INSEE / DARES / DADS / SIRENE.",
     emoji: "📉",
     intro:
       "L'agence vante la maison de ville à 1 200 €/mois, le centre-ville charmant, la possibilité de tout payer cash. Personne ne mentionne que le bassin d'emploi local est sinistré depuis la fermeture du dernier site industriel, que le taux de chômage dépasse 11 % et que la création nette d'entreprises est négative depuis trois ans. Le chômage chronique ne se voit pas sur la photo immobilière — il se découvre en cherchant un emploi six mois après l'installation.",
     reality:
-      "On classe les villes ≥ 15 000 hab. dont le composite F50 (chômage 35 % + salaire 25 % + dynamisme 20 % + mix 20 %) dépasse 6,5/10, avec un malus quand chômage en désert ET dynamisme faible se cumulent — c'est-à-dire un vrai décrochage, pas un seul indicateur. Toutes les valeurs sont alignées sur les statistiques INSEE T4 2024 et la base SIRENE.",
+      "On classe les villes ≥ 15 000 hab. dont le composite (chômage 35 % + salaire 25 % + dynamisme 20 % + mix 20 %) dépasse 6,5/10, avec un malus quand chômage en désert ET dynamisme faible se cumulent — c'est-à-dire un vrai décrochage, pas un seul indicateur. Toutes les valeurs sont alignées sur les statistiques INSEE T4 2024 et la base SIRENE.",
     methodology:
-      "Severity = composite F50 + 1,2 si chômage ≥ 7,5/10 ET dynamisme ≥ 6,5/10 + 0,5 si salaires ≥ 7/10. Sources : INSEE (taux de chômage trimestriel par dept), DADS (salaires nets médians), SIRENE (création nette d'entreprises), DARES (bassins d'emploi en reconversion).",
+      "Severity = composite + 1,2 si chômage ≥ 7,5/10 ET dynamisme ≥ 6,5/10 + 0,5 si salaires ≥ 7/10. Sources : INSEE (taux de chômage trimestriel par dept), DADS (salaires nets médians), SIRENE (création nette d'entreprises), DARES (bassins d'emploi en reconversion).",
     rank: rankChomageEleve,
   },
   {
     slug: "villes-cadre-de-vie-tendu",
     title: "Villes au cadre de vie tendu — cumul environnement + santé + emploi",
-    metaTitle: "Cadre de vie tendu 2026 — Villes françaises au composite F52 le plus faible",
+    metaTitle: "Cadre de vie tendu 2026 — Villes françaises au composite le plus faible",
     metaDescription:
-      "Classement 2026 des villes françaises ≥ 15 000 hab. au méga-index Cadre de Vie le plus bas : cumul environnement dégradé + accès aux soins difficile + marché du travail tendu. Composite F52.",
+      "Classement 2026 des villes françaises ≥ 15 000 hab. au méga-index Cadre de Vie le plus bas : cumul environnement dégradé + accès aux soins difficile + marché du travail tendu. Composite agrégé.",
     emoji: "😓",
     intro:
       "Sur le papier : maison accessible, fiscalité raisonnable, vie de quartier. Sur le terrain : air médiocre, désert médical, marché du travail sinistré. Quand un seul pilier dérape, on s'adapte ; quand deux ou trois piliers s'effondrent en même temps, le projet de vie devient une succession de compromis perdants. Le cadre de vie tendu ne se voit pas sur la photo — il se subit à chaque appel chez le médecin, à chaque recherche d'emploi, à chaque pic de pollution.",
     reality:
-      "On classe les villes ≥ 15 000 hab. dont le méga-index F52 (environnement 35 % + santé 30 % + emploi 35 %) est inférieur ou égal à 4,5/10, avec un malus quand au moins 2 des 3 piliers tombent sous 4/10 — c'est-à-dire un cumul réel, pas un seul pilier faible. Toutes les valeurs sont dérivées des composites F44 (env), F47 (santé), F50 (emploi).",
+      "On classe les villes ≥ 15 000 hab. dont le méga-index (environnement 35 % + santé 30 % + emploi 35 %) est inférieur ou égal à 4,5/10, avec un malus quand au moins 2 des 3 piliers tombent sous 4/10 — c'est-à-dire un cumul réel, pas un seul pilier faible. Toutes les valeurs sont dérivées des composites (env), (santé), (emploi).",
     methodology:
-      "Severity = (5 − F52) × 2 + 1,2 si au moins 2 piliers ≤ 4/10 + 0,6 si F52 ≤ 3,5/10. Sources : ATMO / CITEPA / RNSA (env), DREES / CNOM / ARS (santé), INSEE / DADS / SIRENE (emploi). Composite agrégé site (méga-index F52).",
+      "Severity = (5 −) × 2 + 1,2 si au moins 2 piliers ≤ 4/10 + 0,6 si ≤ 3,5/10. Sources : ATMO / CITEPA / RNSA (env), DREES / CNOM / ARS (santé), INSEE / DADS / SIRENE (emploi). Composite agrégé site (méga-index).",
     rank: rankCadreDeVieTendu,
   },
   {
@@ -716,12 +716,12 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     title: "Villes aux coûts explosifs — quand le ménage famille pèse plus que le salaire local",
     metaTitle: "Coûts explosifs 2026 — Villes où le coût famille dépasse le salaire médian dept",
     metaDescription:
-      "Classement 2026 des villes françaises ≥ 20 000 hab. où le coût mensuel d'un ménage famille (lib F26) dépasse 60 % du salaire net médian départemental. Loyer, chauffage, mobilité, taxes.",
+      "Classement 2026 des villes françaises ≥ 20 000 hab. où le coût mensuel d'un ménage famille (lib) dépasse 60 % du salaire net médian départemental. Loyer, chauffage, mobilité, taxes.",
     emoji: "💥",
     intro:
       "L'agence vante le « bon plan » d'une grande métropole, le quartier qui monte, l'investissement de la décennie. Personne ne fait le calcul élémentaire : loyer T3 famille + chauffage + mobilité voiture + taxe foncière + TEOM + cantine = X €/mois ; salaire net médian du département = Y €/mois ; X / Y = ratio qui devrait alerter. Quand le ratio dépasse 60 %, il ne reste plus rien pour l'imprévu, les vacances, l'épargne — la machine à explosion programmée.",
     reality:
-      "On calcule pour chaque ville ≥ 20 000 hab. le coût mensuel d'un ménage famille (lib F26 — loyer T3 + chauffage zone ADEME + mobilité voiture + taxes + cantine), puis on le rapporte au salaire net médian départemental (proxy INSEE DADS via F50). Toutes les villes affichées dépassent 60 % du salaire ; au-delà de 80 %, le ménage médian est techniquement étranglé.",
+      "On calcule pour chaque ville ≥ 20 000 hab. le coût mensuel d'un ménage famille (loyer T3 + chauffage zone ADEME + mobilité voiture + taxes + cantine), puis on le rapporte au salaire net médian départemental (proxy INSEE DADS). Toutes les villes affichées dépassent 60 % du salaire ; au-delà de 80 %, le ménage médian est techniquement étranglé.",
     methodology:
       "Severity = ratio coût-famille / salaire-médian-dept, rescalé sur [0,6 ; 1,0] → [5 ; 10]. Sources : DVF + observatoires loyer (rents), ADEME (chauffage), France Assureurs (auto), DGFiP (taxe foncière), INSEE DADS (salaires médians). Filtre population ≥ 20 000 hab.",
     rank: rankCoutsExplosifs,
@@ -736,9 +736,9 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     intro:
       "La carte vitale change d'adresse, la Poste a fermé, le collège du chef-lieu est à 15 km, la mairie ouvre 2 demi-journées par semaine. Aucun de ces signaux ne se voit sur une plaquette immobilière, mais cumulés ils définissent ce que vivre dans un « désert de services » veut dire au quotidien — démarches reportées, école par car, file d'attente à Pôle Emploi à 30 min de route.",
     reality:
-      "On classe les villes ≥ 10 000 hab. dont le composite F60 dépasse 6,5/10 (10 = pire). Bonus +1,2 quand écoles ET La Poste sont tous deux en désert (≥ 6,5/10) — cumul réel, pas un seul axe. Les DROM tendus (Mayotte, Guyane) et l'arrière-pays rural Centre/Est (Creuse, Cantal, Lozère, Nièvre, Allier) dominent.",
+      "On classe les villes ≥ 10 000 hab. dont le composite dépasse 6,5/10 (10 = pire). Bonus +1,2 quand écoles ET La Poste sont tous deux en désert (≥ 6,5/10) — cumul réel, pas un seul axe. Les DROM tendus (Mayotte, Guyane) et l'arrière-pays rural Centre/Est (Creuse, Cantal, Lozère, Nièvre, Allier) dominent.",
     methodology:
-      "Severity = composite F60 + 1,2 si écoles ET Poste ≥ 6,5 + 0,4 si mairie ≥ 6,5. Pondération composite : écoles 35 % · mairie 25 % · Poste 25 % · médiathèque 15 %. Sources : DEPP (annuaire), CAF (crèche), La Poste (bureaux + APC + RPC), ANCT (Maisons France Services, ~2 800 en 2024), BNF (lecture publique).",
+      "Severity = composite + 1,2 si écoles ET Poste ≥ 6,5 + 0,4 si mairie ≥ 6,5. Pondération composite : écoles 35 % · mairie 25 % · Poste 25 % · médiathèque 15 %. Sources : DEPP (annuaire), CAF (crèche), La Poste (bureaux + APC + RPC), ANCT (Maisons France Services, ~2 800 en 2024), BNF (lecture publique).",
     rank: rankDesertServicesPublics,
   },
   {
@@ -751,9 +751,9 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     intro:
       "Toutes les mairies promettent leur plan vélo. Dans les faits, certaines villes restent structurellement hostiles : pas de pistes continues, relief de massif central qui décourage le quotidien, périphérique saturé d'usagers, climat venté ou pluvieux 200 jours par an. Le vélo y est un sport de week-end, pas un mode de déplacement utilitaire.",
     reality:
-      "On classe les villes ≥ 15 000 hab. dont le composite F57 (réseau + topographie + sécurité + climat) tombe ≤ 4,5/10. La convention F57 est inversée vs les autres clusters : 10 = excellent. Bonus +1,2 quand le réseau ET la topographie sont tous deux ≤ 4 (combo bloquant : pas de pistes ET ça grimpe).",
+      "On classe les villes ≥ 15 000 hab. dont le composite (réseau + topographie + sécurité + climat) tombe ≤ 4,5/10. La convention est inversée vs les autres clusters : 10 = excellent. Bonus +1,2 quand le réseau ET la topographie sont tous deux ≤ 4 (combo bloquant : pas de pistes ET ça grimpe).",
     methodology:
-      "Severity = (5 − composite F57) × 2 + bonus combo. Pondération composite : réseau 35 % · topographie 25 % · sécurité 25 % · climat 15 %. Sources : Baromètre FUB (Fédération des Usagers de la Bicyclette), Vélo & Territoires (réseau structurant), EuroVelo, données altitude & climat seed.",
+      "Severity = (5 − composite) × 2 + bonus combo. Pondération composite : réseau 35 % · topographie 25 % · sécurité 25 % · climat 15 %. Sources : Baromètre FUB (Fédération des Usagers de la Bicyclette), Vélo & Territoires (réseau structurant), EuroVelo, données altitude & climat seed.",
     rank: rankAntiVelo,
   },
   {
@@ -766,9 +766,9 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     intro:
       "La maison à 80 k€ est tentante, le notaire confirme « un beau patrimoine », l'agent immobilier parle d'investissement. Personne ne mentionne le contexte : la commune perd 1 % de sa population par an depuis 30 ans, la médiane d'âge dépasse 50, l'école ferme une classe tous les 3 ans, et la pharmacie cherche un repreneur qui ne vient jamais. Démographie négative = services qui se rétractent = patrimoine qui se dévalorise.",
     reality:
-      "On classe les villes ≥ 10 000 hab. dont le composite F59 dépasse 7/10. Bonus +1,2 quand le vieillissement ET la trajectoire sont tous deux ≥ 7 — pyramide haute (seniors > 35 %) ET solde démographique négatif structurel cumulés. Limousin entier, Creuse, Cantal, Nièvre, Indre, bassins industriels Nord en reconversion dominent.",
+      "On classe les villes ≥ 10 000 hab. dont le composite dépasse 7/10. Bonus +1,2 quand le vieillissement ET la trajectoire sont tous deux ≥ 7 — pyramide haute (seniors > 35 %) ET solde démographique négatif structurel cumulés. Limousin entier, Creuse, Cantal, Nièvre, Indre, bassins industriels Nord en reconversion dominent.",
     methodology:
-      "Severity = composite F59 + 1,2 si ageing ET trajectory ≥ 7 + 0,4 si jeunes actifs ≥ 7. Pondération composite : vieillissement 30 % · trajectoire 30 % · jeunes actifs 25 % · renouvellement 15 %. Sources : INSEE Recensement de Population, Bilan démographique annuel, projection OMPHALE 2070 par zone d'emploi.",
+      "Severity = composite + 1,2 si ageing ET trajectory ≥ 7 + 0,4 si jeunes actifs ≥ 7. Pondération composite : vieillissement 30 % · trajectoire 30 % · jeunes actifs 25 % · renouvellement 15 %. Sources : INSEE Recensement de Population, Bilan démographique annuel, projection OMPHALE 2070 par zone d'emploi.",
     rank: rankVieillissementCritique,
   },
   {
@@ -776,14 +776,14 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     title: "Villes à la sécurité nocturne tendue — centres festifs sous pression",
     metaTitle: "Sécurité nocturne tendue 2026 — Villes françaises festives sous pression SSMSI",
     metaDescription:
-      "Classement 2026 des villes ≥ 15 000 hab. dont le sous-score sécurité nocturne F58 dépasse 6,5/10 : rixes, agressions nocturnes concentrées sur les centres festifs / étudiants / touristiques. Source SSMSI.",
+      "Classement 2026 des villes ≥ 15 000 hab. dont le sous-score sécurité nocturne dépasse 6,5/10 : rixes, agressions nocturnes concentrées sur les centres festifs / étudiants / touristiques. Source SSMSI.",
     emoji: "🌙",
     intro:
       "La sécurité globale dit « moyenne », mais le ressenti nocturne dans certaines hyper-centres festifs, étudiants ou touristiques est tout autre : rixes en sortie de boîte, agressions sur le retour de soirée, signalements concentrés sur 4 rues du centre. Indicateur particulièrement pertinent pour étudiantes, jeunes actifs, femmes seules en sortie nocturne.",
     reality:
-      "On isole le sous-score « sécurité nocturne » du cluster F58 (rixes / agressions nocturnes SSMSI) et on classe les villes ≥ 15 000 hab. dont ce sous-score dépasse 6,5/10. Bonus +0,8 quand les atteintes aux personnes corroborent (persons ≥ 6), bonus +0,6 quand la ville est explicitement taguée festive / étudiante / touristique.",
+      "On isole le sous-score « sécurité nocturne » du cluster (rixes / agressions nocturnes SSMSI) et on classe les villes ≥ 15 000 hab. dont ce sous-score dépasse 6,5/10. Bonus +0,8 quand les atteintes aux personnes corroborent (persons ≥ 6), bonus +0,6 quand la ville est explicitement taguée festive / étudiante / touristique.",
     methodology:
-      "Severity = sous-score nocturnal F58 + bonus combos. Pondération F58 : biens 35 % · personnes 30 % · nuit 20 % · VFFS 15 %. Sources : SSMSI (Service statistique ministériel de la sécurité intérieure), atteintes nocturnes / rixes ; interstats.fr. Caveat : un taux élevé peut refléter à la fois une réalité plus tendue ET un meilleur signalement.",
+      "Severity = sous-score nocturnal + bonus combos. Pondération : biens 35 % · personnes 30 % · nuit 20 % · VFFS 15 %. Sources : SSMSI (Service statistique ministériel de la sécurité intérieure), atteintes nocturnes / rixes ; interstats.fr. Caveat : un taux élevé peut refléter à la fois une réalité plus tendue ET un meilleur signalement.",
     rank: rankNuitTendue,
   },
 ];

@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const s = computePublicServices(city);
   return {
     title: `Services publics à ${city.name} — écoles, Poste, mairie, médiathèque`,
-    description: `Accès aux services publics à ${city.name} (${city.department}) : écoles ${SERVICES_LEVEL_LABEL[s.schools.level].toLowerCase()}, La Poste ${SERVICES_LEVEL_LABEL[s.postOffice.level].toLowerCase()}, mairie ${SERVICES_LEVEL_LABEL[s.cityHall.level].toLowerCase()}, médiathèque ${SERVICES_LEVEL_LABEL[s.library.level].toLowerCase()}. Score ${s.composite}/10.`,
+    description: `Accès aux services publics à ${city.name} (${city.department}) : écoles ${SERVICES_LEVEL_LABEL[s.schools.level].toLowerCase()}, La Poste ${SERVICES_LEVEL_LABEL[s.postOffice.level].toLowerCase()}, mairie ${SERVICES_LEVEL_LABEL[s.cityHall.level].toLowerCase()}, médiathèque ${SERVICES_LEVEL_LABEL[s.library.level].toLowerCase()}. Score ${(10 - s.composite).toFixed(1)}/10 (10 = maillage complet).`,
     alternates: { canonical: `/villes/${slug}/services-publics` },
     openGraph: {
       title: `Services publics à ${city.name}`,
@@ -51,7 +51,7 @@ function ServicesBlock({ dim, label }: { dim: ServicesDimension; label: string }
       </div>
       <div className="flex items-baseline gap-2 mb-2">
         <div className="text-2xl font-bold tabular-nums text-[var(--text-primary)]">
-          {dim.score.toFixed(1)}
+          {(10 - dim.score).toFixed(1)}
           <span className="text-sm font-normal text-[var(--text-tertiary)] ml-0.5">/10</span>
         </div>
       </div>
@@ -76,7 +76,7 @@ export default async function ServicesPubliquesPage({ params }: Props) {
   const faq = faqJsonLd([
     {
       q: `Quels services publics sont disponibles à ${city.name} ?`,
-      a: `${city.name} (${city.department}) totalise un composite services publics ${s.composite}/10 (10 = déficit max). Détail : écoles & petite enfance ${s.schools.score}/10, médiathèque ${s.library.score}/10, La Poste & France Services ${s.postOffice.score}/10, mairie & démarches ${s.cityHall.score}/10. ${s.signature}`,
+      a: `${city.name} (${city.department}) totalise un composite services publics ${(10 - s.composite).toFixed(1)}/10 (10 = maillage complet). Détail : écoles & petite enfance ${(10 - s.schools.score).toFixed(1)}/10, médiathèque ${(10 - s.library.score).toFixed(1)}/10, La Poste & France Services ${(10 - s.postOffice.score).toFixed(1)}/10, mairie & démarches ${(10 - s.cityHall.score).toFixed(1)}/10. ${s.signature}`,
     },
     {
       q: `Y a-t-il une Maison France Services à ${city.name} ?`,
@@ -136,9 +136,10 @@ export default async function ServicesPubliquesPage({ params }: Props) {
             </span>
           </div>
           <div className="text-4xl font-bold tabular-nums text-[var(--text-primary)] mb-3">
-            {s.composite.toFixed(1)}
+            {(10 - s.composite).toFixed(1)}
             <span className="text-lg font-normal text-[var(--text-tertiary)] ml-1">/10</span>
           </div>
+          <p className="text-xs text-[var(--text-tertiary)] mb-2">10 = maillage de services complet · 0 = désert de services.</p>
           <p className="text-sm text-[var(--text-primary)] leading-relaxed">{s.signature}</p>
         </Card>
 

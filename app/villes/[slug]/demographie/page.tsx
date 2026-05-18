@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const d = computeDemography(city);
   return {
     title: `Démographie de ${city.name} — vieillissement, jeunes actifs, trajectoire`,
-    description: `Profil démographique de ${city.name} (${city.department}) : vieillissement ${DEMO_LEVEL_LABEL[d.ageing.level].toLowerCase()}, jeunes actifs ${DEMO_LEVEL_LABEL[d.youngActives.level].toLowerCase()}, trajectoire ${DEMO_LEVEL_LABEL[d.trajectory.level].toLowerCase()}. Score ${d.composite}/10.`,
+    description: `Profil démographique de ${city.name} (${city.department}) : vieillissement ${DEMO_LEVEL_LABEL[d.ageing.level].toLowerCase()}, jeunes actifs ${DEMO_LEVEL_LABEL[d.youngActives.level].toLowerCase()}, trajectoire ${DEMO_LEVEL_LABEL[d.trajectory.level].toLowerCase()}. Score ${(10 - d.composite).toFixed(1)}/10 (10 = démographie dynamique).`,
     alternates: { canonical: `/villes/${slug}/demographie` },
     openGraph: {
       title: `Démographie de ${city.name}`,
@@ -51,7 +51,7 @@ function DemoBlock({ dim, label }: { dim: DemoDimension; label: string }) {
       </div>
       <div className="flex items-baseline gap-2 mb-2">
         <div className="text-2xl font-bold tabular-nums text-[var(--text-primary)]">
-          {dim.score.toFixed(1)}
+          {(10 - dim.score).toFixed(1)}
           <span className="text-sm font-normal text-[var(--text-tertiary)] ml-0.5">/10</span>
         </div>
       </div>
@@ -76,7 +76,7 @@ export default async function DemographiePage({ params }: Props) {
   const faq = faqJsonLd([
     {
       q: `Quel est le profil démographique de ${city.name} ?`,
-      a: `${city.name} (${city.department}) affiche un composite démographique ${d.composite}/10 (10 = tension max). Détail : vieillissement ${d.ageing.score}/10, jeunes actifs ${d.youngActives.score}/10, trajectoire ${d.trajectory.score}/10, renouvellement ${d.renewal.score}/10. ${d.signature}`,
+      a: `${city.name} (${city.department}) affiche un composite démographique ${(10 - d.composite).toFixed(1)}/10 (10 = démographie dynamique). Détail : vieillissement ${(10 - d.ageing.score).toFixed(1)}/10, jeunes actifs ${(10 - d.youngActives.score).toFixed(1)}/10, trajectoire ${(10 - d.trajectory.score).toFixed(1)}/10, renouvellement ${(10 - d.renewal.score).toFixed(1)}/10. ${d.signature}`,
     },
     {
       q: `Où voir les chiffres INSEE pour ${city.name} ?`,
@@ -137,9 +137,10 @@ export default async function DemographiePage({ params }: Props) {
             </span>
           </div>
           <div className="text-4xl font-bold tabular-nums text-[var(--text-primary)] mb-3">
-            {d.composite.toFixed(1)}
+            {(10 - d.composite).toFixed(1)}
             <span className="text-lg font-normal text-[var(--text-tertiary)] ml-1">/10</span>
           </div>
+          <p className="text-xs text-[var(--text-tertiary)] mb-2">10 = démographie dynamique · 0 = décroissance critique.</p>
           <p className="text-sm text-[var(--text-primary)] leading-relaxed">{d.signature}</p>
         </Card>
 

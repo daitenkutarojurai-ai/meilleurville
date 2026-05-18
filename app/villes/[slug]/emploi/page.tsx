@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const e = computeEmploymentMarket(city);
   return {
     title: `Emploi & chômage à ${city.name} — marché du travail 2026`,
-    description: `Synthèse du marché du travail à ${city.name} (${city.department}) : chômage ${JOB_LEVEL_LABEL[e.unemployment.level].toLowerCase()}, dynamisme ${JOB_LEVEL_LABEL[e.dynamism.level].toLowerCase()}, mix sectoriel ${JOB_LEVEL_LABEL[e.sectorMix.level].toLowerCase()}, salaires ${JOB_LEVEL_LABEL[e.salary.level].toLowerCase()}. Score ${e.composite}/10.`,
+    description: `Synthèse du marché du travail à ${city.name} (${city.department}) : chômage ${JOB_LEVEL_LABEL[e.unemployment.level].toLowerCase()}, dynamisme ${JOB_LEVEL_LABEL[e.dynamism.level].toLowerCase()}, mix sectoriel ${JOB_LEVEL_LABEL[e.sectorMix.level].toLowerCase()}, salaires ${JOB_LEVEL_LABEL[e.salary.level].toLowerCase()}. Score ${(10 - e.composite).toFixed(1)}/10 (10 = marché dynamique).`,
     alternates: { canonical: `/villes/${slug}/emploi` },
     openGraph: {
       title: `Emploi à ${city.name}`,
@@ -51,7 +51,7 @@ function JobBlock({ dim, label }: { dim: JobDimension; label: string }) {
       </div>
       <div className="flex items-baseline gap-2 mb-2">
         <div className="text-2xl font-bold tabular-nums text-[var(--text-primary)]">
-          {dim.score.toFixed(1)}
+          {(10 - dim.score).toFixed(1)}
           <span className="text-sm font-normal text-[var(--text-tertiary)] ml-0.5">/10</span>
         </div>
       </div>
@@ -80,7 +80,7 @@ export default async function EmploiPage({ params }: Props) {
     },
     {
       q: `Est-il facile de trouver un emploi à ${city.name} ?`,
-      a: `${city.name} (${city.department}) présente un composite marché du travail ${JOB_LEVEL_LABEL[e.level].toLowerCase()} (${e.composite}/10). Détail : chômage ${e.unemployment.score}/10, dynamisme ${e.dynamism.score}/10, mix sectoriel ${e.sectorMix.score}/10, salaires ${e.salary.score}/10.`,
+      a: `${city.name} (${city.department}) présente un composite marché du travail ${JOB_LEVEL_LABEL[e.level].toLowerCase()} (${(10 - e.composite).toFixed(1)}/10, 10 = dynamique). Détail : chômage ${(10 - e.unemployment.score).toFixed(1)}/10, dynamisme ${(10 - e.dynamism.score).toFixed(1)}/10, mix sectoriel ${(10 - e.sectorMix.score).toFixed(1)}/10, salaires ${(10 - e.salary.score).toFixed(1)}/10.`,
     },
     {
       q: `Quels secteurs recrutent à ${city.name} ?`,
@@ -129,9 +129,10 @@ export default async function EmploiPage({ params }: Props) {
             </span>
           </div>
           <div className="text-4xl font-bold tabular-nums text-[var(--text-primary)] mb-3">
-            {e.composite.toFixed(1)}
+            {(10 - e.composite).toFixed(1)}
             <span className="text-lg font-normal text-[var(--text-tertiary)] ml-1">/10</span>
           </div>
+          <p className="text-xs text-[var(--text-tertiary)] mb-2">10 = marché du travail dynamique · 0 = marché très tendu.</p>
           <p className="text-sm text-[var(--text-primary)] leading-relaxed">{e.signature}</p>
         </Card>
 

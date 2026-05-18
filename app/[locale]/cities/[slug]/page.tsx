@@ -12,7 +12,7 @@ import {
   getCityBody,
   ORIGIN_BY_LOCALE,
 } from "@/lib/i18n";
-import { scoreColor } from "@/lib/utils";
+import { scoreColor, sunshineDays } from "@/lib/utils";
 
 // ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
 // revalidate=false → page built once at deploy, served from static edge cache.
@@ -156,7 +156,7 @@ export default async function EnCityPage({ params }: Props) {
                 {t("city.sunshine", "en")}
               </p>
               <p className="font-mono-data font-bold text-lg text-[var(--text-primary)]">
-                {city.sunshinedays}
+                {sunshineDays(city.sunshinedays)}
               </p>
             </div>
           )}

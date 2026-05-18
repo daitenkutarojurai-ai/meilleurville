@@ -31,9 +31,11 @@ export function EmploymentCard({ city }: Props) {
           <ArrowRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors" />
         </div>
 
+        {/* Échelle « 10 = bon » (le moteur interne note 10 = marché tendu ;
+            on inverse pour l'affichage, cohérent avec le reste du site). */}
         <div className="flex items-baseline gap-2 mb-3">
           <span className="text-2xl font-bold tabular-nums text-[var(--text-primary)]">
-            {e.composite.toFixed(1)}
+            {(10 - e.composite).toFixed(1)}
             <span className="text-sm font-normal text-[var(--text-tertiary)] ml-0.5">/10</span>
           </span>
           <span className={`text-xs font-bold uppercase ${JOB_LEVEL_COLOR[e.level]}`}>
@@ -46,14 +48,14 @@ export function EmploymentCard({ city }: Props) {
             <div key={label} className="flex items-center justify-between rounded-lg bg-[var(--bg-surface)] px-2 py-1">
               <span className="text-[var(--text-secondary)]">{label}</span>
               <span className={`font-bold tabular-nums ${JOB_LEVEL_COLOR[dim.level]}`}>
-                {dim.score.toFixed(1)}
+                {(10 - dim.score).toFixed(1)}
               </span>
             </div>
           ))}
         </div>
 
         <p className="text-[11px] text-[var(--text-tertiary)] leading-tight mt-3">
-          INSEE · DARES · SIRENE — offres réelles sur francetravail.fr.
+          10 = marché du travail dynamique · INSEE · DARES · SIRENE.
         </p>
       </Link>
     </Card>

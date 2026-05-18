@@ -16,9 +16,10 @@ interface NavItem {
   matchPrefix?: string;
 }
 
-// Primary nav: always visible at lg+. Reduced to 4 essentials to keep the
-// desktop top-bar comfortable — secondary entries (Carte, Red Flags, Cadre
-// de vie) restent accessibles depuis le menu mobile / la home.
+// Primary nav: always visible at lg+. 4 essentiels qui couvrent la majorité
+// du site. Cadre de vie a été sorti de la barre (le hub est trop niche
+// pour mériter un slot primaire) ; Red Flags + Carte remontent en
+// secondaire visible dès xl.
 const NAV_PRIMARY: NavItem[] = [
   { label: "Explorer",    href: "/villes",      emoji: "🌍", matchPrefix: "/villes" },
   { label: "Classements", href: "/classements", emoji: "📊", matchPrefix: "/classements" },
@@ -26,18 +27,18 @@ const NAV_PRIMARY: NavItem[] = [
   { label: "Guides",      href: "/guides",      emoji: "📖", matchPrefix: "/guides" },
 ];
 
-// Secondary nav: kept off the desktop top-bar (mobile menu only) — they
-// were too many to fit comfortably next to the search + Quiz CTA. The
-// homepage SectionNav and footer continue to expose them.
-const NAV_SECONDARY: NavItem[] = [];
+// Secondary nav: visible à partir de xl pour les hubs à forte intention
+// utilisateur que le menu hamburger seul cache trop bas.
+const NAV_SECONDARY: NavItem[] = [
+  { label: "Carte",     href: "/carte",     emoji: "🗺️", matchPrefix: "/carte" },
+  { label: "Red Flags", href: "/red-flags", emoji: "🚩", matchPrefix: "/red-flags" },
+  { label: "Vacances",  href: "/vacances",  emoji: "🌴", matchPrefix: "/vacances" },
+];
 
 // Mobile-only nav items — visible in the mobile menu but never in the desktop
-// pill rows.
+// pill rows. Cadre de vie reste accessible ici + via footer + SectionNav.
 const NAV_MOBILE_ONLY: NavItem[] = [
   { label: "Cadre de vie", href: "/cadre-de-vie", emoji: "🌿", matchPrefix: "/cadre-de-vie" },
-  { label: "Carte",       href: "/carte",       emoji: "🗺️", matchPrefix: "/carte" },
-  { label: "Red Flags",   href: "/red-flags",   emoji: "🚩", matchPrefix: "/red-flags" },
-  { label: "Vacances",    href: "/vacances",    emoji: "🌴", matchPrefix: "/vacances" },
   { label: "Simulateur", href: "/#simulateur", emoji: "💸" },
   { label: "Contact", href: "/contact", emoji: "✉️", matchPrefix: "/contact" },
 ];
