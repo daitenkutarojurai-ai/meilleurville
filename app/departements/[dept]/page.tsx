@@ -233,6 +233,26 @@ export default async function DeptPage({ params }: Props) {
           </span>
         </Link>
 
+        {/* F65 — Synthèse département teaser */}
+        <Link
+          href={`/departements/${deptSlug}/synthese`}
+          className="group flex flex-wrap items-center gap-3 rounded-2xl border border-[var(--accent)]/30 bg-[var(--accent)]/5 hover:border-[var(--accent)] hover:shadow-md transition-all px-5 py-4"
+        >
+          <span className="text-2xl shrink-0">✨</span>
+          <div className="flex-1 min-w-0">
+            <p className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
+              Synthèse 8 axes — villes du {deptName}
+            </p>
+            <p className="text-xs text-[var(--text-secondary)] mt-0.5">
+              Palmarès local sur env / santé / emploi / cadre / vélo / sécurité / démo / services
+              publics + profil moyen du département.
+            </p>
+          </div>
+          <span className="text-sm text-[var(--accent)] font-medium shrink-0">
+            Voir →
+          </span>
+        </Link>
+
         <section>
           <h2 className="text-lg font-bold text-[var(--text-primary)] mb-4">
             Top {Math.min(3, cities.length)} en {deptName}

@@ -538,6 +538,12 @@ function departementsSection(): MetadataRoute.Sitemap {
       changeFrequency: "monthly" as const,
       priority: 0.55,
     },
+    {
+      url: `${BASE_URL}/departements/${slugify(d)}/synthese`,
+      lastModified: CITY_DATA_UPDATED,
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    },
   ]);
 }
 
