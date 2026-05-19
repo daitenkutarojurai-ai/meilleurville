@@ -145,6 +145,7 @@ export default function RootLayout({
   return (
     <html lang={HTML_LANG} className={`${inter.variable} ${instrumentSerif.variable} h-full`}>
       <head>
+        <meta name="279e205393cab8e" content="5195ad0cc468d3135378b3a98089404f" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }} />
