@@ -157,27 +157,27 @@ export const GUIDES: Guide[] = [
     publishedAt: "2025-03-01",
     updatedAt: "2026-02-16",
     intro:
-      "La retraite est un projet de vie, pas un simple déménagement. Les critères changent radicalement : on cherche moins la proximité du bureau et plus celle du médecin, moins le dynamisme nocturne et plus la douceur du quotidien. Ce guide analyse les 8 villes françaises qui cochent vraiment toutes les cases retraite.",
+      "La retraite, c'est moins un déménagement qu'un changement de critères. On regarde moins la station de métro la plus proche, beaucoup plus le médecin traitant. Moins le bar à vins, plus le marché. Ce guide passe en revue les 8 villes qui cochent honnêtement les cases d'une retraite réussie en France.",
     sections: [
       {
         heading: "Aix-en-Provence : le soleil provençal sans la folie marseillaise",
-        body: "Score retraite MeilleurVille : 8.4/10. 300 jours de soleil par an, marchés au pied de chez soi, une vie culturelle intense (Festival de musique d'Aix), des restaurants gastronomiques et un accès à la mer en 30 min. Le CHU de Marseille (15 min) est l'un des meilleurs de France. Seul frein réel : le prix de l'immobilier, parmi les plus élevés de France hors Paris.",
+        body: "Score retraite MeilleurVille de 8,4/10. Aix, c'est 300 jours de soleil par an, des marchés au pied de chez soi, une vraie densité culturelle avec le Festival de musique en tête, des restaurants gastronomiques et la mer à une demi-heure. Le CHU de Marseille, à 15 minutes, reste l'un des meilleurs de France. Le seul vrai frein, c'est l'immobilier : on est sur les prix les plus élevés du pays hors Paris.",
       },
       {
         heading: "La Rochelle : la grande surprise",
-        body: "Score retraite : 8.0/10. La Rochelle fait l'unanimité chez les retraités qui y ont sauté le pas. Le port, l'île de Ré, le vélo partout, les marchés le samedi matin. La vie associative y est dense. Et le coût de la vie reste raisonnable pour la côte Atlantique. Les services médicaux sont corrects — l'hôpital est bien équipé même si certaines spécialités font défaut.",
+        body: "Score retraite de 8,0/10, et un consensus assez rare chez les retraités qui ont franchi le pas. Le port, l'île de Ré à portée de vélo, les marchés du samedi matin, une vie associative dense, et un coût de la vie qui reste raisonnable pour la côte Atlantique. Les services médicaux tiennent la route : l'hôpital est bien équipé même si certaines spécialités pointues font défaut.",
       },
       {
         heading: "Biarritz / Pays Basque : pour ceux qui veulent tout",
-        body: "Score retraite : 7.8/10. Le Pays Basque est le territoire qui monte le plus vite dans les recherches retraite. La gastronomie, la culture basque forte, l'océan, les montagnes à 1h — et une douceur climatique remarquable (9.5°C en janvier). Le problème est connu : les prix ont explosé. L'immobilier à Biarritz est désormais inaccessible pour une retraite modeste.",
+        body: "Score retraite de 7,8/10. Le Pays Basque est le territoire qui monte le plus vite dans les recherches retraite, et on comprend pourquoi : gastronomie, culture basque assumée, océan, montagne à une heure, et une douceur climatique remarquable avec 9,5 °C en janvier. Le problème est connu de tout le monde : les prix ont explosé. L'immobilier à Biarritz est devenu inaccessible pour une retraite modeste.",
       },
       {
         heading: "La santé : le critère décisif souvent oublié",
-        body: "Un tiers des retraités citent l'accès aux soins comme critère n°1 après 70 ans. Or les déserts médicaux touchent de nombreuses zones pourtant attrayantes. La règle pratique : vérifiez la présence d'un cardiologue, d'un ophtalmologue et d'une clinique avec urgences dans un rayon de 20 minutes. MeilleurVille intègre la densité médicale RPPS dans les scores de ses profils de villes.",
+        body: "Un tiers des retraités citent l'accès aux soins comme critère numéro un après 70 ans. Le souci, c'est que les déserts médicaux touchent beaucoup de zones par ailleurs séduisantes. La règle pratique tient en une phrase : vérifier la présence d'un cardiologue, d'un ophtalmologue et d'une clinique avec urgences dans un rayon de 20 minutes. MeilleurVille intègre la densité médicale RPPS dans les scores des profils de villes, ça évite la mauvaise surprise.",
       },
       {
         heading: "Les villes abordables qui méritent votre attention",
-        body: "Si votre retraite est de 1 500€/mois, concentrez-vous sur : Tours (patrimoine UNESCO, services médicaux excellents, loyer T2 620€), Limoges (nature, calme, loyer T2 480€), Pau (Pyrénées, 8.0/10 nature, loyer T2 650€). Ces villes offrent une vraie qualité de vie retraite sans les prix qui ont rendu les côtes inaccessibles.",
+        body: "Si la pension tourne autour de 1 500 €/mois, mieux vaut regarder ailleurs que les côtes saturées. Tours offre un patrimoine UNESCO, des services médicaux solides et un T2 à 620 €. Limoges joue la carte nature et calme avec un T2 à 480 €. Pau combine 8,0/10 en nature, les Pyrénées en visu et un T2 à 650 €. Trois villes qui offrent une vraie qualité de retraite sans les tarifs qui ont rendu le littoral inaccessible.",
       },
     ],
     relatedCities: ["aix-en-provence", "la-rochelle", "biarritz", "tours", "pau"],
@@ -351,23 +351,23 @@ export const GUIDES: Guide[] = [
     readMinutes: 9,
     publishedAt: "2025-03-01",
     updatedAt: "2026-02-05",
-    intro: "La retraite en France est une révolution de vie. Pour la première fois depuis 40 ans, vous choisissez librement où habiter. Ce guide vous aide à structurer ce choix — avec des données, des témoignages, et sans vous vendre du rêve.",
+    intro: "Prendre sa retraite en France, c'est une vraie bascule. Pour la première fois depuis 40 ans, on choisit librement où habiter, sans contrainte de poste ou de scolarité. Voici comment structurer ce choix avec des chiffres, des témoignages et sans vendre du rêve.",
     sections: [
       {
         heading: "La densité médicale : le critère le plus important que personne ne mesure",
-        body: "La qualité de vie à la retraite dépend massivement de l'accès aux soins. Une belle ville sans rhumatologue ou cardiologue à moins de 30 km devient un piège à 75 ans. La France connaît de fortes inégalités de densité médicale. Les meilleures villes pour la santé retraite : Bordeaux (CHU + densité libérale), Grenoble (CHU + spécialistes), Montpellier (école de médecine + hôpitaux reconnus). À éviter sans screening médical préalable : les zones rurales profondes, même belles.",
+        body: "La qualité de la retraite tient en grande partie à l'accès aux soins. Une belle ville sans rhumatologue ni cardiologue à moins de 30 km devient un piège à 75 ans. La France connaît de fortes inégalités de densité médicale, et le sujet est rarement abordé avant le déménagement. Trois villes tiennent particulièrement la route côté santé : Bordeaux pour son CHU et sa densité libérale, Grenoble pour son CHU et ses spécialistes, Montpellier pour son école de médecine et ses hôpitaux reconnus. À éviter sans bilan médical préalable : les zones rurales profondes, même les plus séduisantes sur la photo.",
       },
       {
         heading: "La Rochelle : la coqueluche des retraités actifs",
-        body: "Score retraite MeilleurVille : 8.4/10. La Rochelle cumule tout ce que cherchent les retraités actifs : mer, vélo, culture, et une taille humaine (80 000 hab.) qui permet une vraie vie sociale. Le CHU est à Poitiers (1h), ce qui nécessite une organisation pour les soins spécialisés. L'immobilier reste abordable par rapport à la Côte d'Azur. Le réseau cyclable est exceptionnel — idéal pour garder une activité physique sans voiture.",
+        body: "Score retraite MeilleurVille de 8,4/10. La Rochelle cumule tout ce que cherchent les retraités actifs : mer, vélo, culture et une taille humaine, 80 000 habitants, qui permet une vraie vie sociale. Le CHU se trouve à Poitiers, à une heure, ce qui demande de s'organiser pour les soins spécialisés. L'immobilier reste abordable comparé à la Côte d'Azur, et le réseau cyclable est exceptionnel pour garder une activité physique sans dépendre de la voiture.",
       },
       {
         heading: "Annecy : le luxe du cadre naturel",
-        body: "La retraite à Annecy est un luxe — au sens littéral. Les prix au m² ont dépassé 5 000€ en centre-ville. Mais pour ceux qui peuvent se l'offrir, c'est peut-être la meilleure retraite de France : le lac est là, les montagnes sont là, les hôpitaux sont de qualité (CHU de Grenoble à 40 min), et l'air est pur. Le bémol : la ville est touristique, l'hiver peut sembler long pour qui n'est pas montagnard.",
+        body: "La retraite à Annecy, c'est un luxe au sens littéral du terme. Les prix au m² ont dépassé 5 000 € en centre-ville. Pour ceux qui peuvent se l'offrir, c'est sans doute la plus belle retraite de France : le lac, les Alpes, des hôpitaux de qualité avec le CHU de Grenoble à 40 minutes, et un air pur. Le bémol, c'est le tourisme dense et un hiver qui peut sembler long pour qui n'est pas montagnard dans l'âme.",
       },
       {
         heading: "Le calcul de la retraite en province",
-        body: "Une pension de 2 000€/mois (pension moyenne d'un cadre) suffit pour vivre très confortablement dans la plupart des villes de ce guide. À Paris, c'est un budget serré. À Pau, c'est une vie confortable avec épargne. À Annecy, c'est possible en locataire ou propriétaire depuis longtemps. Le vrai calcul : pouvez-vous vendre votre bien parisien ou francilien pour acheter cash à la retraite et conserver votre pension ? Si oui, beaucoup de portes s'ouvrent.",
+        body: "Une pension de 2 000 €/mois, soit la moyenne d'un cadre, permet de vivre très confortablement dans la plupart des villes de ce guide. À Paris, le même budget devient serré. À Pau, c'est une vie confortable avec épargne. À Annecy, c'est jouable en locataire ou en propriétaire installé depuis longtemps. Le vrai calcul à faire avant tout : peut-on vendre son bien parisien ou francilien pour acheter cash à la retraite et préserver intacte la pension ? Si oui, beaucoup de portes s'ouvrent d'un coup.",
       },
     ],
     relatedCities: ["la-rochelle", "annecy", "bordeaux", "pau", "montpellier"],
@@ -501,31 +501,31 @@ export const GUIDES: Guide[] = [
     publishedAt: "2025-04-01",
     updatedAt: "2026-02-25",
     intro:
-      "Toulouse et Montpellier sont les deux métropoles rivales du Sud-Ouest et du Languedoc. Elles partagent le soleil, le dynamisme et la jeunesse — mais leurs personnalités sont radicalement différentes. Laquelle correspond à votre projet de vie ?",
+      "Toulouse et Montpellier sont les deux métropoles rivales du Sud-Ouest et du Languedoc. Elles partagent le soleil, le dynamisme et la jeunesse, mais leurs personnalités sont radicalement différentes. Reste à savoir laquelle colle à votre projet de vie.",
     sections: [
       {
         heading: "Le verdict en une phrase",
-        body: "Toulouse est pour les ingénieurs, les familles et ceux qui veulent une grande ville avec un marché de l'emploi solide. Montpellier est pour les étudiants, les amateurs de méditerranée, et ceux qui veulent une ville plus petite mais très dynamique. Aucune n'est objectivement meilleure — tout dépend de votre profil.",
+        body: "Toulouse, c'est pour les ingénieurs, les familles et tous ceux qui veulent une grande ville avec un marché de l'emploi solide. Montpellier, c'est pour les étudiants, les amoureux de Méditerranée et ceux qui préfèrent une ville plus petite mais très dynamique. Aucune n'est objectivement meilleure que l'autre, tout dépend du profil.",
       },
       {
         heading: "L'emploi : l'avantage Toulouse",
-        body: "Toulouse est la capitale européenne de l'aéronautique (Airbus, Safran, Thales). Le bassin d'emploi pour les ingénieurs, techniciens et profils tech est sans égal en province française. La French Tech Toulouse est en plein essor. Montpellier mise sur la santé (CHU, Sanofi), le numérique (IBM, Dell) et la recherche universitaire — solid mais plus étroit. Pour un CDI stable en grande entreprise, Toulouse gagne.",
+        body: "Toulouse est la capitale européenne de l'aéronautique avec Airbus, Safran et Thales. Le bassin d'emploi pour les ingénieurs, les techniciens et la tech n'a pas d'équivalent en province. La French Tech Toulouse est en plein essor. Montpellier joue sur d'autres tableaux : la santé avec le CHU et Sanofi, le numérique avec IBM et Dell, plus la recherche universitaire. C'est solide mais le marché est plus étroit. Pour un CDI stable dans un grand groupe, Toulouse gagne nettement.",
       },
       {
         heading: "Le coût de la vie : avantage Montpellier",
-        body: "Loyer médian T2 : Toulouse 820€, Montpellier 820€ également — quasi identique. Mais l'immobilier à l'achat est légèrement plus accessible à Montpellier (3 200€/m² vs 3 500€/m² à Toulouse). Les restaurants et loisirs sont comparables. L'avantage Montpellier : la mer est à 15 km, ce qui remplace des vacances coûteuses. L'inconvénient : les embouteillages sont pires par rapport à la taille de la ville.",
+        body: "Le loyer médian d'un T2 tourne autour de 820 € dans les deux villes, quasiment identique. L'immobilier à l'achat est légèrement plus accessible à Montpellier, à 3 200 €/m² contre 3 500 €/m² à Toulouse. Restaurants et loisirs sont comparables. L'atout Montpellier, c'est la mer à 15 km, ce qui remplace pas mal de vacances coûteuses. L'inconvénient, c'est des embouteillages plus pénibles que la taille de la ville ne le laisserait penser.",
       },
       {
         heading: "Le soleil et le cadre de vie",
-        body: "Montpellier : 2 740 heures de soleil/an, la mer à 15 min, une architecture de charme avec l'Écusson médiéval. Toulouse : 2 010 heures de soleil/an, la Garonne, les Pyrénées à 1h30. Sur le soleil pur, Montpellier écrase. Mais Toulouse est une ville plus chaleureuse (au sens humain), la culture rugby crée une cohésion sociale unique, et les Toulousains ont la réputation d'être parmi les plus accueillants de France.",
+        body: "Montpellier offre 2 740 heures de soleil par an, la mer à un quart d'heure, et une architecture de charme avec l'Écusson médiéval. Toulouse plafonne à 2 010 heures de soleil, mais propose la Garonne et les Pyrénées à 1h30. Sur le soleil pur, Montpellier écrase. Sauf que Toulouse est nettement plus chaleureuse au sens humain : la culture rugby crée une cohésion sociale assez unique, et les Toulousains ont la réputation d'être parmi les plus accueillants du pays.",
       },
       {
         heading: "Pour les familles",
-        body: "Toulouse est généralement préférée pour les familles : réseau scolaire plus dense, quartiers résidentiels avec maisons et jardins plus accessibles, moins de trafic stressant qu'à Montpellier. Les familles Montpelliéraines citent régulièrement les embouteillages et le manque de logement familiaux à prix raisonnables en inconvénient majeur. Mais la proximité de la mer et le cadre languedocien compensent pour beaucoup.",
+        body: "Toulouse l'emporte généralement pour les familles : réseau scolaire plus dense, quartiers résidentiels avec maisons et jardins plus accessibles, et un trafic moins éprouvant qu'à Montpellier. Les familles montpelliéraines citent d'ailleurs régulièrement les embouteillages et le manque de logements familiaux à prix raisonnables comme leur principal regret. Mais la proximité de la mer et le cadre languedocien compensent pour beaucoup.",
       },
       {
         heading: "Notre verdict",
-        body: "Ingénieur ou technicien cherchant un emploi stable : Toulouse. Étudiant, remote worker ou amateur de Méditerranée : Montpellier. Famille cherchant une grande ville sud : Toulouse pour la stabilité, Montpellier pour le cadre. Retraité voulant le soleil : Montpellier si la mer est prioritaire, Toulouse si vous aimez les grandes villes animées.",
+        body: "Pour un ingénieur ou un technicien qui cherche un emploi stable : Toulouse. Pour un étudiant, un télétravailleur ou un amateur de Méditerranée : Montpellier. Pour une famille qui veut une grande ville du Sud : Toulouse pour la stabilité, Montpellier pour le cadre. Et pour un retraité en quête de soleil : Montpellier si la mer prime, Toulouse si l'on préfère les grandes villes animées.",
       },
     ],
     relatedCities: ["toulouse", "montpellier", "bordeaux", "nimes", "perpignan"],
@@ -683,27 +683,27 @@ export const GUIDES: Guide[] = [
     publishedAt: "2025-03-20",
     updatedAt: "2026-03-28",
     intro:
-      "La Normandie souffre d'une image injuste. On y pense pluie, pommes et plages du Débarquement — alors que la région offre l'une des meilleures qualités de vie de France à moins de 2h de Paris. Rouen, Caen et Le Havre sont trois profils radicalement différents. Ce guide vous aide à choisir selon votre situation.",
+      "La Normandie souffre d'une image injuste. On y projette pluie, pommes et plages du Débarquement, alors que la région offre l'une des meilleures qualités de vie de France à moins de deux heures de Paris. Rouen, Caen et Le Havre dessinent trois profils radicalement différents. Voici comment choisir selon votre situation.",
     sections: [
       {
         heading: "Rouen : la métropole qui ressemble à Paris mais coûte deux fois moins cher",
-        body: "Score qualité de vie MeilleurVille : 7.0/10. Rouen est la grande surprise de la Normandie. Métropole de 500 000 habitants, elle concentre tous les atouts d'une vraie ville : scène culturelle dense (le 106, l'opéra, les musées), université active, tissu commercial complet. Le TGV la place à 1h10 de Paris Saint-Lazare — parfait pour les hybrides. Loyer T2 médian : 680€. Le bémol ? La pollution atmosphérique, amplifiée par la vallée de la Seine et les industries pétrochimiques.",
+        body: "Score qualité de vie MeilleurVille de 7,0/10. Rouen est la grande surprise de la Normandie. Métropole de 500 000 habitants, elle concentre tous les attributs d'une vraie ville : scène culturelle dense avec le 106, l'opéra et les musées, université active, tissu commercial complet. Le TGV la place à 1h10 de Paris Saint-Lazare, parfait pour les hybrides. Loyer T2 médian à 680 €. Le bémol, c'est la pollution atmosphérique, amplifiée par la vallée de la Seine et les industries pétrochimiques.",
       },
       {
-        heading: "Caen : la ville la plus «vivable» de Normandie",
-        body: "Score qualité de vie : 7.0/10. Caen est la ville des familles et des étudiants. Son université accueille 30 000 étudiants, ce qui maintient une ambiance jeune et une vie nocturne décente. Les espaces verts sont nombreux, les quartiers résidentiels calmes et le prix de l'immobilier parmi les plus accessibles de France (T2 médian : 650€). Paris est à 2h en train — trop loin pour le quotidien hybride, mais parfait pour une vie décorrélée de la capitale.",
+        heading: "Caen : la ville la plus « vivable » de Normandie",
+        body: "Score qualité de vie de 7,0/10. Caen est la ville des familles et des étudiants. Son université accueille 30 000 étudiants, ce qui maintient une ambiance jeune et une vie nocturne décente. Les espaces verts sont nombreux, les quartiers résidentiels calmes, et le prix de l'immobilier parmi les plus accessibles de France avec un T2 médian à 650 €. Paris est à deux heures en train, trop loin pour un quotidien hybride mais parfait pour une vie décorrélée de la capitale.",
       },
       {
         heading: "Le Havre : la ville patrimoniale méconnue",
-        body: "Score qualité de vie : 6.8/10. Le Havre est la ville surprenante de ce trio. Classé au Patrimoine mondial UNESCO pour son architecture d'après-guerre signée Auguste Perret, il connaît une renaissance culturelle portée par l'ESAM et la scène artistique. Son port en fait un hub économique solide avec des emplois stables dans la logistique et l'industrie. Loyer T2 médian : 580€ — un des plus bas de la région. L'accès à la mer est immédiat : les plages d'Étretat sont à 30 min.",
+        body: "Score qualité de vie de 6,8/10. Le Havre est la vraie surprise du trio. Classé au Patrimoine mondial UNESCO pour son architecture d'après-guerre signée Auguste Perret, il connaît une renaissance culturelle portée par l'ESAM et une scène artistique active. Son port en fait un hub économique solide avec des emplois stables dans la logistique et l'industrie. Le T2 médian à 580 € est l'un des plus bas de la région, et l'accès à la mer est immédiat : les plages d'Étretat sont à 30 minutes.",
       },
       {
         heading: "Le facteur décisif : le TGV",
-        body: "Si vous êtes en mode hybride Paris, la distance en train est cruciale. Rouen (1h10) est la seule option réaliste pour des allers-retours fréquents. Caen (2h) et Le Havre (2h10) sont mieux adaptés à des vies entièrement délocalisées. La ligne ferroviaire Paris-Rouen est dense (un train toutes les 30 min aux heures de pointe) et régulière — un avantage concret par rapport à d'autres régions.",
+        body: "En mode hybride parisien, la distance en train est cruciale. Rouen, à 1h10, reste la seule option réaliste pour des allers-retours fréquents. Caen à 2h et Le Havre à 2h10 sont mieux adaptés à des vies entièrement décorrélées de la capitale. La ligne ferroviaire Paris-Rouen est dense, avec un train toutes les 30 minutes aux heures de pointe, et régulière, un avantage concret par rapport à d'autres régions.",
       },
       {
         heading: "Notre verdict selon votre profil",
-        body: "Hybride Paris 2-3j/semaine : Rouen sans hésitation. Remote total ou salarié local : Caen pour les familles, Le Havre pour les budgets serrés ou les profils maritime/industriel. Investissement locatif : Le Havre offre les meilleures rentabilités brutes (5 à 7%). Le Havre est aussi la ville qui monte le plus vite — bonne nouvelle pour les primo-investisseurs.",
+        body: "Pour un hybride Paris 2 à 3 jours par semaine : Rouen sans hésitation. Pour un remote total ou un salarié local : Caen pour les familles, Le Havre pour les budgets serrés ou les profils maritime et industriel. Côté investissement locatif, Le Havre offre les meilleures rentabilités brutes, entre 5 et 7 %. C'est aussi la ville qui monte le plus vite, une bonne nouvelle pour les primo-investisseurs.",
       },
     ],
     relatedCities: ["rouen", "caen", "le-havre"],
@@ -847,27 +847,27 @@ export const GUIDES: Guide[] = [
     publishedAt: "2025-04-20",
     updatedAt: "2026-01-14",
     intro:
-      "Auvergne-Rhône-Alpes est la région la plus dynamique de France hors Île-de-France. Lyon, Grenoble et Annecy représentent trois projets de vie radicalement différents, mais toutes ont en commun une chose : une qualité de vie que les Parisiens découvrent avec stupéfaction quand ils s'y installent.",
+      "Auvergne-Rhône-Alpes est la région la plus dynamique de France hors Île-de-France. Lyon, Grenoble et Annecy y incarnent trois projets de vie radicalement différents, avec un point commun : une qualité de vie que les Parisiens découvrent souvent avec une certaine stupéfaction quand ils s'installent.",
     sections: [
       {
         heading: "Lyon : le meilleur de la France en un seul endroit",
-        body: "Score MeilleurVille : 8.5/10. Lyon est régulièrement citée comme la meilleure ville française pour s'installer. Pourquoi ? Parce qu'elle réunit tout sans compromis : une métropole de 2 millions d'habitants avec tous les services, une gastronomie mondiale, un réseau de transport dense (métro, tramway, vélo), une scène culturelle et festive active, et une connexion TGV à Paris en 2h. Le loyer médian T2 est de 900€ — cher, mais justifié par l'offre. Son unique défaut : la pollution de l'air (agglomération encaissée dans une vallée).",
+        body: "Score MeilleurVille de 8,5/10. Lyon est régulièrement citée comme la meilleure ville française pour s'installer. La raison tient en une phrase : elle réunit à peu près tout sans compromis sérieux. Une métropole de 2 millions d'habitants avec tous les services, une gastronomie mondiale, un réseau dense de métro, tramway et vélo, une scène culturelle et festive active, et une connexion TGV à Paris en 2h. Le loyer T2 médian tourne autour de 900 €, cher mais justifié par l'offre. Le seul vrai défaut, c'est la pollution de l'air d'une agglomération encaissée dans sa vallée.",
       },
       {
         heading: "Grenoble : la technopole coincée entre deux massifs",
-        body: "Score MeilleurVille : 8.0/10. Grenoble est la ville des ingénieurs et des skieurs. La concentration de talents tech et scientifiques (CEA, CNRS, STMicroelectronics) y est unique en France hors Paris. Son réseau de transport est excellent pour sa taille, et les pistes de ski sont à 45 min de voiture. Le loyer T2 médian est de 750€ — 20% moins cher que Lyon pour une qualité de vie comparable. Le revers de la médaille : la pollution hivernale (inversions thermiques) et un taux de pauvreté plus élevé que dans d'autres grandes villes.",
+        body: "Score MeilleurVille de 8,0/10. Grenoble est la ville des ingénieurs et des skieurs. La concentration de talents tech et scientifiques avec le CEA, le CNRS et STMicroelectronics n'a pas d'équivalent en France hors Paris. Son réseau de transport est excellent pour sa taille, et les pistes de ski sont à 45 minutes en voiture. Le T2 médian à 750 € est 20 % moins cher que Lyon pour une qualité de vie comparable. Le revers, c'est la pollution hivernale liée aux inversions thermiques, et un taux de pauvreté plus élevé que dans d'autres grandes villes.",
       },
       {
         heading: "Annecy : la nature sublimée, mais au prix fort",
-        body: "Score MeilleurVille : 8.6/10. Annecy est la ville au score le plus élevé de France sur MeilleurVille — et ce n'est pas un hasard. Son lac classé le plus pur d'Europe, ses paysages alpins, sa sécurité exceptionnelle et sa qualité d'air en font un rêve de vivre. Mais ce rêve a un prix : loyer T2 médian à 1 050€, prix à l'achat à 5 500€/m². La ville a aussi ses limites : peu de grandes entreprises locales, réseau de transport moins dense que Lyon ou Grenoble, et tourisme intense en été.",
+        body: "Score MeilleurVille de 8,6/10. Annecy est la ville au score le plus élevé de France sur MeilleurVille, et ce n'est pas un hasard. Lac classé le plus pur d'Europe, paysages alpins, sécurité exceptionnelle, qualité d'air remarquable, le rêve est intact. Sauf qu'il a un prix : T2 médian à 1 050 €, prix à l'achat à 5 500 €/m². La ville a aussi ses limites : peu de grandes entreprises locales, réseau de transport moins dense que Lyon ou Grenoble, et un tourisme intense en été qui peut fatiguer.",
       },
       {
         heading: "Le tableau comparatif en 5 dimensions",
-        body: "Budget (T2) : Grenoble 750€ < Lyon 900€ < Annecy 1 050€. Emploi local : Lyon >>> Grenoble tech > Annecy limité. Nature : Annecy 9.8/10 > Grenoble 8.5/10 > Lyon 7.2/10. Transport Paris TGV : Lyon 2h < Grenoble 3h < Annecy 3h30. Sécurité : Annecy 8.7/10 > Lyon 7.2/10 > Grenoble 6.5/10.",
+        body: "Sur le budget, Grenoble passe en tête à 750 € le T2, devant Lyon à 900 € et Annecy à 1 050 €. Sur l'emploi local, Lyon domine largement, Grenoble suit pour les profils tech, Annecy reste limitée. Côté nature, Annecy s'envole à 9,8/10, Grenoble suit à 8,5/10, Lyon ferme à 7,2/10. Sur le TGV Paris, Lyon mène à 2h, Grenoble suit à 3h, Annecy à 3h30. Sur la sécurité enfin, Annecy domine à 8,7/10, devant Lyon à 7,2/10 et Grenoble à 6,5/10.",
       },
       {
         heading: "Notre recommandation selon votre profil",
-        body: "Salarié en hybrid Paris ou cherchant une vraie métropole : Lyon sans hésitation. Ingénieur tech / chercheur / amoureux de ski : Grenoble pour le profil parfait. Famille aisée, retraité actif, télétravailleur haut revenu qui veut la nature absolue : Annecy pour l'ultime qualité de vie. Si le budget est la contrainte principale, Chambéry (entre Grenoble et Annecy, 600€/T2) est une alternative souvent oubliée.",
+        body: "Pour un salarié en hybride parisien ou pour qui cherche une vraie métropole, Lyon s'impose. Pour un ingénieur, un chercheur, un amoureux de ski, Grenoble coche toutes les cases. Pour une famille aisée, un retraité actif ou un télétravailleur à haut revenu qui veut la nature absolue, Annecy reste l'ultime qualité de vie. Et si le budget est la contrainte principale, Chambéry, entre Grenoble et Annecy à 600 € le T2, est l'alternative souvent oubliée.",
       },
     ],
     relatedCities: ["lyon", "grenoble", "annecy", "chambery"],
@@ -1023,31 +1023,31 @@ export const GUIDES: Guide[] = [
     readMinutes: 8,
     publishedAt: "2025-03-20",
     updatedAt: "2026-03-07",
-    intro: "Les Hauts-de-France sont la région la plus sous-estimée de France pour le rapport qualité/prix. Lille est une métropole internationale à 35 min de Bruxelles, 1h de Paris et 1h25 de Londres — mais personne n'en parle. Ce guide corrige ce biais.",
+    intro: "Les Hauts-de-France, c'est la région la plus sous-estimée du pays sur le rapport qualité/prix. Lille est une métropole internationale à 35 minutes de Bruxelles, 1h de Paris et 1h25 de Londres, et pourtant personne n'en parle dans les conversations de relocation. Voici de quoi corriger le biais.",
     sections: [
       {
         heading: "Lille : la métropole européenne que vous avez ignorée",
-        body: "Score MeilleurVille : 8.0/10. Lille est la 4e métropole de France par les flux économiques, devant Bordeaux. Son réseau Eurostar (Paris en 1h, Londres en 1h25, Bruxelles en 35 min) en fait un hub européen unique. Le T2 médian est de 700€ — 30% moins cher que Lyon pour une offre culturelle comparable (la Braderie de Lille, l'Euralille, la scène techno). La ville attire de plus en plus de cadres et start-ups qui veulent l'accessibilité sans les loyers parisiens.",
+        body: "Score MeilleurVille de 8,0/10. Lille est la 4e métropole de France en flux économiques, devant Bordeaux. Son réseau Eurostar avec Paris en 1h, Londres en 1h25 et Bruxelles en 35 minutes en fait un hub européen unique. Le T2 médian à 700 € est 30 % moins cher que Lyon pour une offre culturelle comparable, entre la Braderie, Euralille et la scène techno. La ville attire de plus en plus de cadres et de start-ups qui veulent l'accessibilité sans les loyers parisiens.",
       },
       {
         heading: "Arras : le bijou flamand méconnu",
-        body: "Score MeilleurVille : 6.6/10. Arras est l'une des plus belles petites villes de France avec ses arcades baroques flamandes classées UNESCO. À 50 min de Paris en TGV, 30 min de Lille et 20 min de la mer (Baie de Somme), la ville offre une qualité de vie réelle pour un T2 médian de 540€. C'est le choix idéal pour les télétravailleurs parisiens qui veulent espace, budget et beauté architecturale sans sacrifier l'accessibilité.",
+        body: "Score MeilleurVille de 6,6/10. Arras est l'une des plus belles petites villes de France avec ses arcades baroques flamandes classées UNESCO. À 50 minutes de Paris en TGV, 30 minutes de Lille et 20 minutes de la Baie de Somme, la ville offre une vraie qualité de vie pour un T2 médian de 540 €. C'est le choix évident pour les télétravailleurs parisiens qui veulent espace, budget et beauté architecturale sans sacrifier l'accessibilité.",
       },
       {
         heading: "Amiens : la cathédrale et le reste",
-        body: "Score MeilleurVille : 6.2/10. Amiens a la plus grande cathédrale gothique de France (plus haute voûte du monde) et l'une des universités les plus dynamiques du nord. Le T2 médian est à 570€, avec un parc des Hortillonnages unique en Europe (jardins flottants). La ville est à 1h20 de Paris Saint-Lazare, ce qui attire les ménages qui recherchent l'espace à prix raisonnable.",
+        body: "Score MeilleurVille de 6,2/10. Amiens possède la plus grande cathédrale gothique de France avec la plus haute voûte du monde, et l'une des universités les plus dynamiques du nord. Le T2 médian est à 570 €, et le parc des Hortillonnages, jardins flottants uniques en Europe, ajoute une touche difficile à reproduire ailleurs. La ville est à 1h20 de Paris Saint-Lazare, ce qui attire les ménages en quête d'espace à prix raisonnable.",
       },
       {
         heading: "Dunkerque et Boulogne : les villes maritimes",
-        body: "Dunkerque (6.0/10) fait sa mue post-industrielle et attire des projets industriels majeurs (batteries électriques, chimie verte). C'est l'une des rares villes de France où le tissu économique local crée des emplois industriels bien rémunérés. Boulogne-sur-Mer (6.1/10) est le 1er port de pêche de France — moins urbanisée mais avec une authenticité maritime et des loyers parmi les plus abordables du pays (T2 médian 450€).",
+        body: "Dunkerque, à 6,0/10, fait sa mue post-industrielle et attire des projets industriels majeurs : batteries électriques, chimie verte. C'est l'une des rares villes de France où le tissu économique local génère encore des emplois industriels bien rémunérés. Boulogne-sur-Mer, à 6,1/10, est le premier port de pêche du pays : moins urbanisée mais avec une authenticité maritime et des loyers parmi les plus abordables, le T2 médian tombant à 450 €.",
       },
       {
         heading: "Le climat : ni si terrible, ni si parfait",
-        body: "Les Hauts-de-France ont une mauvaise réputation climatique souvent exagérée. Il y fait effectivement plus gris qu'en Occitanie (1 650h de soleil/an contre 2 800h à Perpignan), mais les hivers sont doux (Lille : 4°C en janvier, jamais vraiment froid) et les étés agréables (20°C en juillet, sans canicule). La pluie est répartie toute l'année — pas concentrée comme en Bretagne. L'air marin entretient une végétation luxuriante que vous n'imaginez pas depuis le Sud.",
+        body: "Les Hauts-de-France ont une mauvaise réputation climatique souvent exagérée. Il y fait effectivement plus gris qu'en Occitanie, avec 1 650 heures de soleil par an contre 2 800 à Perpignan, mais les hivers sont doux (4 °C en janvier à Lille, jamais vraiment froid) et les étés agréables avec 20 °C en juillet sans canicule. La pluie est répartie toute l'année, pas concentrée comme en Bretagne. L'air marin entretient une végétation luxuriante qu'on n'imagine pas depuis le Sud.",
       },
       {
         heading: "Pourquoi ça ne va que s'améliorer",
-        body: "Les Hauts-de-France ont vu leur image se transformer depuis 2015. Lille attire des sièges sociaux, le Canal Seine-Nord Europe (ouverture 2030) va transformer la logistique régionale, et l'industrie verte (Nord-Pas-de-Calais est devenu «Gigafactory Valley») crée des emplois tech dans une région traditionnellement industrielle. Pour les profils ingénierie, logistique et industrie, c'est l'une des régions françaises avec le meilleur rapport salaire/coût de la vie.",
+        body: "Les Hauts-de-France ont vu leur image se transformer depuis 2015. Lille attire des sièges sociaux, le Canal Seine-Nord Europe, attendu pour 2030, va transformer la logistique régionale, et l'industrie verte (la Gigafactory Valley du Nord-Pas-de-Calais) crée des emplois tech dans une région historiquement industrielle. Pour les profils ingénierie, logistique et industrie, c'est l'une des régions françaises avec le meilleur rapport salaire / coût de la vie.",
       },
     ],
     relatedCities: ["lille", "arras", "amiens", "dunkerque", "boulogne-sur-mer"],
@@ -1211,35 +1211,35 @@ export const GUIDES: Guide[] = [
     publishedAt: "2025-04-05",
     updatedAt: "2026-03-13",
     intro:
-      "Les taux immobiliers ont baissé en 2024-2025, relançant les velléités d'achat de nombreux Français. Mais où acheter ? Les grandes métropoles ont explosé, certaines villes moyennes ont rattrapé leur retard, et d'autres restent accessibles avec des fondamentaux solides. Ce guide analyse 12 villes françaises selon trois critères : prix actuel, potentiel de valorisation et rendement locatif brut.",
+      "Les taux immobiliers ont baissé en 2024-2025, et beaucoup de Français reviennent à l'idée d'acheter. Reste la vraie question : où ? Les grandes métropoles ont explosé, certaines villes moyennes ont rattrapé leur retard, et d'autres restent accessibles avec des fondamentaux solides. Voici une analyse de 12 villes selon trois critères : prix actuel, potentiel de valorisation et rendement locatif brut.",
     sections: [
       {
         heading: "Les critères qui comptent vraiment",
-        body: "Avant de parler de villes, rappelons les indicateurs clés : (1) le prix au m² — ce que vous payez aujourd'hui ; (2) le rendement locatif brut — loyer annuel / prix d'achat, en pourcentage ; (3) la tension locative — le ratio entre offre et demande, qui indique si vous trouverez facilement des locataires ; (4) le dynamisme démographique — une ville qui perd des habitants verra ses prix stagner ou baisser. Un bon investissement immobilier nécessite de croiser ces 4 facteurs, pas d'en optimiser un seul.",
+        body: "Avant de parler de villes, posons les indicateurs clés. D'abord le prix au m², soit ce qu'on paie aujourd'hui. Ensuite le rendement locatif brut, le loyer annuel divisé par le prix d'achat, exprimé en pourcentage. Puis la tension locative, qui mesure le ratio offre/demande et donc la facilité à trouver des locataires. Enfin le dynamisme démographique : une ville qui perd des habitants verra ses prix stagner ou baisser. Un bon investissement immobilier croise ces quatre facteurs, il n'en optimise pas un seul.",
       },
       {
         heading: "Rennes : croissance soutenue, tension locative forte",
-        body: "Prix médian : 3 200€/m² (appartement), rendement brut T2 : 5,2%, tension locative : très forte (taux de vacance <2%). Rennes est la ville française où le ratio qualité de vie / dynamisme économique / prix reste le plus favorable en 2025. La population augmente de 1,5% par an, l'université génère une demande locative soutenue, et les projets urbains (Eurorennes, ligne b du métro) soutiennent les valeurs. Risque principal : les prix ont déjà beaucoup monté.",
+        body: "Prix médian à 3 200 €/m² en appartement, rendement brut T2 à 5,2 %, tension locative très forte avec un taux de vacance inférieur à 2 %. Rennes est la ville française où le ratio qualité de vie / dynamisme économique / prix reste le plus favorable en 2025. La population augmente de 1,5 % par an, l'université nourrit une demande locative soutenue, et les projets urbains (Eurorennes, ligne b du métro) soutiennent les valeurs. Le risque principal, c'est que les prix ont déjà beaucoup monté.",
       },
       {
         heading: "Le Mans : le bon élève discret",
-        body: "Prix médian : 1 650€/m², rendement brut T2 : 7,8%. Le Mans est sous-estimée. À 50 min de Paris en TGV, avec une université de 20 000 étudiants et un tissu industriel solide (automobile, aéronautique), elle offre des rendements locatifs parmi les meilleurs de France pour une ville de cette taille. La demande locative étudiante est structurelle. C'est le choix de nombreux investisseurs parisiens qui veulent du rendement sans prendre trop de risque.",
+        body: "Prix médian à 1 650 €/m², rendement brut T2 à 7,8 %. Le Mans est sous-estimée. À 50 minutes de Paris en TGV, avec une université de 20 000 étudiants et un tissu industriel solide entre automobile et aéronautique, elle offre des rendements locatifs parmi les meilleurs de France pour une ville de cette taille. La demande locative étudiante est structurelle. C'est le choix de beaucoup d'investisseurs parisiens qui veulent du rendement sans grand risque.",
       },
       {
         heading: "Angers : entre Tours et Nantes, le bon compromis",
-        body: "Prix médian : 2 600€/m², rendement brut T2 : 5,8%. Angers cumule population étudiante importante (40 000 étudiants pour 150 000 habitants), dynamisme économique (bioéconomie, agriculture tech) et connexions TGV vers Paris (1h35) et Nantes (35 min). Ses prix ont moins monté que Nantes ou Rennes, laissant encore de la marge. La ville est régulièrement classée dans le top 5 des villes françaises pour la qualité de vie.",
+        body: "Prix médian à 2 600 €/m², rendement brut T2 à 5,8 %. Angers cumule une population étudiante importante (40 000 étudiants pour 150 000 habitants), un dynamisme économique réel dans la bioéconomie et l'agritech, et des connexions TGV vers Paris en 1h35 et Nantes en 35 minutes. Ses prix ont moins monté que Nantes ou Rennes, laissant encore de la marge. La ville est régulièrement classée dans le top 5 français pour la qualité de vie.",
       },
       {
         heading: "Metz et Nancy : le potentiel lorrain inexploité",
-        body: "Metz (1 900€/m², rendement 6,8%) et Nancy (1 800€/m², rendement 7,2%) sont les deux villes lorraines qui méritent l'attention des investisseurs. Elles bénéficient de la dynamique frontalière avec le Luxembourg (salaires luxembourgeois, loyers français), de deux universités solides, et d'une connexion TGV Paris-Metz en 1h25. La région a longtemps souffert d'une image industrielle négative, mais la reconversion est en cours.",
+        body: "Metz est à 1 900 €/m² pour 6,8 % de rendement, Nancy à 1 800 €/m² pour 7,2 %. Les deux villes lorraines méritent l'attention des investisseurs. Elles bénéficient de la dynamique frontalière luxembourgeoise (salaires luxembourgeois, loyers français), de deux universités solides et d'une connexion TGV Paris-Metz en 1h25. La région a longtemps souffert d'une image industrielle négative, mais la reconversion est bien engagée.",
       },
       {
         heading: "Alençon et Laval : l'investissement contre-intuitif",
-        body: "Pour les investisseurs purs (rendement > qualité de vie personnelle), des villes comme Alençon (1 400€/m², rendement 8,5%) ou Laval (1 500€/m², rendement 8,2%) offrent des rendements exceptionnels. Elles ont des populations stables, peu de construction neuve (limitant la concurrence), et une demande locative locale solide. Le risque : la valorisation du capital sera limitée, et la gestion à distance nécessite un bon gestionnaire.",
+        body: "Pour l'investisseur pur, qui cherche le rendement avant la qualité de vie personnelle, des villes comme Alençon (1 400 €/m², 8,5 %) ou Laval (1 500 €/m², 8,2 %) offrent des rendements exceptionnels. Population stable, peu de construction neuve qui limite la concurrence, et une demande locative locale solide. Le risque, c'est que la valorisation du capital sera limitée, et la gestion à distance demande un bon gestionnaire sur place.",
       },
       {
         heading: "Les pièges à éviter",
-        body: "Fuyez les villes en déclin démographique avancé (certaines villes du bassin minier, du textile, de la sidérurgie) où les prix bas cachent une demande inexistante. Méfiez-vous des «nouvelles métropoles» dont les prix ont déjà intégré tout l'optimisme (Bordeaux : 4 500€/m² — le rendement est structurellement faible). Et attention aux villes touristiques où la restriction des locations saisonnières (loi anti-Airbnb) change radicalement l'équation économique.",
+        body: "On fuit les villes en déclin démographique avancé, notamment certains bassins miniers, textiles ou sidérurgiques où les prix bas cachent une demande inexistante. On se méfie des « nouvelles métropoles » dont les prix ont déjà intégré tout l'optimisme : Bordeaux à 4 500 €/m² affiche un rendement structurellement faible. Et on garde un œil sur les villes touristiques où la restriction des locations saisonnières (loi anti-Airbnb) change radicalement l'équation économique.",
       },
     ],
     relatedCities: ["rennes", "le-mans", "angers", "metz", "nancy", "alencon", "laval"],
@@ -1392,34 +1392,34 @@ export const GUIDES: Guide[] = [
     category: "region",
     metaTitle: "Vivre en Pays de la Loire : Nantes, Angers, Le Mans, Cholet — Guide 2025 | MeilleurVille",
     metaDesc: "Guide complet pour s'installer en Pays de la Loire : Nantes, Angers, Le Mans, Saint-Nazaire, Laval, Cholet. Emploi, logement, qualité de vie entre Atlantique et vallée de la Loire.",
-    intro: "Le Pays de la Loire est une région qui attire de plus en plus de Franciliens en quête de qualité de vie. Nantes, régulièrement élue ville où il fait bon vivre, en est la figure de proue. Mais Angers, Le Mans, Laval et Saint-Nazaire proposent des alternatives convaincantes à des prix bien plus abordables.",
+    intro: "Le Pays de la Loire attire de plus en plus de Franciliens en quête de qualité de vie. Nantes, régulièrement élue ville où il fait bon vivre, en est la figure de proue. Mais Angers, Le Mans, Laval et Saint-Nazaire proposent des alternatives convaincantes à des prix nettement plus doux.",
     readMinutes: 9,
     publishedAt: "2025-08-15",
     updatedAt: "2026-05-04",
     sections: [
       {
         heading: "Nantes : la métropole atlantique idéale, mais sous pression",
-        body: "Nantes est depuis des années dans le top 5 des villes françaises préférées. Sa dynamique culturelle (les Machines de l'Île, la Folle Journée), son tissu économique (aéronautique avec Airbus, numérique, agroalimentaire) et sa connectivité (2h Paris en TGV) en font une destination très prisée. La contre-partie : les loyers ont fortement augmenté (T2 : 750–900€) et le marché immobilier est très tendu. Les quartiers périphériques (Saint-Herblain, Rezé, Carquefou) permettent de décompresser légèrement.",
+        body: "Nantes traîne depuis des années dans le top 5 des villes françaises préférées. Sa dynamique culturelle avec les Machines de l'Île et la Folle Journée, son tissu économique entre aéronautique Airbus, numérique et agroalimentaire, et sa connectivité TGV Paris en 2h, expliquent l'attractivité. La contrepartie, ce sont des loyers qui ont fortement augmenté (T2 entre 750 et 900 €) et un marché immobilier très tendu. Les quartiers périphériques comme Saint-Herblain, Rezé ou Carquefou permettent de décompresser un peu.",
       },
       {
         heading: "Angers : le meilleur rapport qualité/prix de la région",
-        body: "Angers est souvent citée comme l'alternative idéale à Nantes. À 40 minutes en TGV de Paris et 1h de Nantes, elle offre une qualité de vie excellente à des prix nettement inférieurs (T2 : 600€). La ville du roi René abrite un château médiéval magnifique, une scène culturelle dynamique, une importante population étudiante (40 000 étudiants) et une économie diversifiée (santé, numérique, végétal). Le secteur du végétal fait d'Angers une ville pionnière dans l'agriculture du futur.",
+        body: "Angers est régulièrement citée comme l'alternative idéale à Nantes. À 40 minutes de Paris en TGV et 1h de Nantes, elle offre une qualité de vie excellente à des prix nettement inférieurs, avec un T2 à 600 €. La ville du roi René abrite un château médiéval magnifique, une scène culturelle dynamique, 40 000 étudiants et une économie diversifiée entre santé, numérique et végétal. Le pôle végétal en fait d'ailleurs une ville pionnière dans l'agriculture du futur.",
       },
       {
         heading: "Le Mans : la ville qui a su se réinventer",
-        body: "Au-delà de la course mythique des 24 Heures, Le Mans est une ville qui a considérablement évolué. La cité Plantagenêt (quartier médiéval exceptionnel), les tramways, le nouveau centre commercial et la zone d'activités se sont combinés pour attirer de nouveaux habitants. Loyers très accessibles (T2 : 520€), bonne desserte ferroviaire (55 min de Paris), et un marché immobilier parmi les moins chers des villes de cette taille.",
+        body: "Au-delà des 24 Heures, Le Mans a considérablement évolué. La cité Plantagenêt avec son quartier médiéval exceptionnel, le tramway, le nouveau centre commercial et la zone d'activités se sont combinés pour attirer de nouveaux habitants. Loyers très accessibles (T2 à 520 €), bonne desserte ferroviaire avec Paris en 55 minutes, et un marché immobilier parmi les moins chers pour une ville de cette taille.",
       },
       {
         heading: "Saint-Nazaire et le littoral",
-        body: "Saint-Nazaire est une ville ouvrière qui se réinvente : les chantiers navals (Naval Group, STX/Chantiers de l'Atlantique) restent le cœur économique, mais la ville développe un port de plaisance, des espaces culturels (Base sous-marine reconvertie) et un littoral accessible. Les plages de La Baule sont à 15 minutes. Pour ceux qui veulent l'Atlantique sans les prix bretons, c'est une option sérieuse.",
+        body: "Saint-Nazaire est une ville ouvrière qui se réinvente. Les chantiers navals (Naval Group, Chantiers de l'Atlantique) restent le cœur économique, mais la ville développe un port de plaisance, des espaces culturels (la base sous-marine reconvertie) et un littoral accessible. Les plages de La Baule sont à 15 minutes. Pour qui veut l'Atlantique sans les tarifs bretons, c'est une option vraiment sérieuse.",
       },
       {
         heading: "Laval et Cholet : les alternatives oubliées",
-        body: "Laval (Mayenne) souffre d'une image de ville de transit mais mérite attention : centre-ville rénové, activité économique liée à l'agroalimentaire (Lactalis y est né), et loyers très compétitifs (T2 : 490€). Cholet, dans le Maine-et-Loire, est une ville industrielle dynamique connue pour son basket (les Choletais en Pro A) et sa population très sportive. Bien connectée à Nantes et Angers, elle offre un bon équilibre qualité de vie / prix.",
+        body: "Laval, en Mayenne, souffre d'une image de ville de transit mais mérite l'attention : centre-ville rénové, activité économique tirée par l'agroalimentaire (Lactalis y est né), et loyers très compétitifs avec un T2 à 490 €. Cholet, dans le Maine-et-Loire, est une ville industrielle dynamique connue pour son basket en Pro A et sa population très sportive. Bien connectée à Nantes et Angers, elle offre un bon équilibre qualité de vie / prix.",
       },
       {
         heading: "Travailler en Pays de la Loire",
-        body: "L'économie ligérienne est diversifiée et solide : aéronautique (Airbus, Safran à Nantes/Saint-Nazaire), agroalimentaire (Lactalis, Maine Foods), numérique (cluster Digital Loire Valley), santé et pharma (Sartorius Stedim, Boiron). Nantes est la locomotive mais la région entière profite d'un tissu de PME-PMI dynamique. Pour les télétravailleurs, toute la Loire entre Nantes et Angers est excellente — cadre de vie, fibre, et Paris accessible.",
+        body: "L'économie ligérienne est diversifiée et solide : aéronautique avec Airbus et Safran à Nantes / Saint-Nazaire, agroalimentaire avec Lactalis et Maine Foods, numérique avec le cluster Digital Loire Valley, santé et pharma avec Sartorius Stedim et Boiron. Nantes est la locomotive mais toute la région profite d'un tissu PME-PMI vif. Pour les télétravailleurs, l'axe Nantes-Angers est particulièrement attractif : cadre, fibre, Paris à portée.",
       },
     ],
     relatedCities: ["nantes", "angers", "le-mans", "laval", "saint-nazaire", "cholet"],
@@ -1572,34 +1572,34 @@ export const GUIDES: Guide[] = [
     category: "lifestyle",
     metaTitle: "Meilleures villes étudiantes France 2025 — Logement, Vie, Emploi | MeilleurVille",
     metaDesc: "Quelles villes choisir pour ses études en France ? Notre classement 2025 des meilleures villes étudiantes selon le logement, la vie nocturne, les universités, le coût de la vie et les débouchés.",
-    intro: "Choisir sa ville pour ses études est une décision qui engage plusieurs années — et souvent, qui forge votre réseau professionnel pour la vie. Budget serré, vie sociale intense, besoin de transports efficaces et d'un logement abordable : voici les villes qui cochent toutes ces cases.",
+    intro: "Choisir sa ville d'études, c'est s'engager pour plusieurs années, et souvent forger son réseau professionnel pour la vie. Budget serré, vie sociale intense, transports efficaces et logement abordable : voici les villes qui cochent vraiment ces cases.",
     readMinutes: 7,
     publishedAt: "2025-10-01",
     updatedAt: "2026-02-19",
     sections: [
       {
         heading: "Les critères d'une ville étudiante idéale",
-        body: "Un étudiant n'optimise pas les mêmes critères qu'un actif ou un retraité. Les loyers bas et la colocation facile sont prioritaires (T1/coloc < 450€). La vie nocturne et culturelle contribue directement au bien-être. La qualité et la diversité des établissements (universités, grandes écoles, IUT) déterminent les débouchés. Et surtout : la mobilité sans voiture doit être possible — tramway, vélo en libre-service, bus nocturne.",
+        body: "Un étudiant n'optimise pas les mêmes variables qu'un actif ou un retraité. Loyers bas et colocation facile passent en priorité, avec un T1 ou une chambre en coloc sous les 450 €. La vie nocturne et culturelle contribue directement au bien-être. La qualité et la diversité des établissements (universités, grandes écoles, IUT) conditionnent les débouchés. Et surtout, il faut pouvoir se déplacer sans voiture : tramway, vélo en libre-service, bus nocturne, le tout opérationnel.",
       },
       {
         heading: "Le Top 3 confirmé : Rennes, Montpellier, Toulouse",
-        body: "Rennes est régulièrement en tête des palmarès étudiants : 2ème ville la plus étudiante de France en proportion (60 000 étudiants pour 220 000 hab.), loyers modérés, campus très actif, vie bretonne authentique. Montpellier est la surprise permanente des palmarès : soleil, plage à 15 min, forte présence étudiante (90 000 étudiants) et loyers plus abordables que Nice ou Marseille. Toulouse est la 'ville rose' avec l'INSA, l'ISAE-SUPAERO, l'ENVT — une concentration de grandes écoles unique en France.",
+        body: "Rennes truste régulièrement la tête des palmarès étudiants : deuxième ville la plus étudiante de France en proportion avec 60 000 étudiants pour 220 000 habitants, loyers modérés, campus très actif, vie bretonne authentique. Montpellier reste la surprise permanente des classements : soleil, plage à 15 minutes, 90 000 étudiants et des loyers plus doux que Nice ou Marseille. Toulouse, c'est la « ville rose » avec INSA, ISAE-SUPAERO, ENVT, soit une concentration de grandes écoles unique en France.",
       },
       {
         heading: "Les bonnes surprises : Grenoble, Dijon, Poitiers",
-        body: "Grenoble est le paradis des ingénieurs et chercheurs : UGA, Grenoble INP, ENSIMAG, CEA à deux pas. L'économie technologique garantit des stages et des emplois. En revanche, le coût des loyers est plus élevé qu'on ne l'imagine (T1 : 450–600€). Dijon est méconnue des étudiants parisiens mais a tout : loyers très bas, université active, vie culturelle dense, gastronomie bourguignonne. Poitiers coche toutes les cases du budget : loyers plancher, ville jeune, et une accessibilité Paris-Nantes-Bordeaux.",
+        body: "Grenoble est le paradis des ingénieurs et chercheurs : UGA, Grenoble INP, ENSIMAG, CEA à deux pas. L'économie technologique garantit stages et emplois. En revanche, les loyers sont plus salés qu'on ne l'imagine, le T1 oscillant entre 450 et 600 €. Dijon est sous-estimée par les étudiants parisiens mais coche les cases : loyers très bas, université active, vie culturelle dense, gastronomie bourguignonne. Poitiers tient le budget plancher avec une ville jeune et une accessibilité Paris-Nantes-Bordeaux pratique.",
       },
       {
         heading: "Paris et les grandes villes : attention au budget",
-        body: "Paris concentre les meilleures grandes écoles et universités — mais à quel prix. Un T1 coûte 900–1200€ sans les charges. La solution pour Paris sans les prix : s'installer à Versailles, Saint-Denis, Aubervilliers ou Ivry où les loyers baissent de 30–50% avec le même accès au réseau métro/RER. Bordeaux, Lyon et Nantes ont subi la même pression : les loyers d'un étudiant dépassent souvent le budget CROUS+APL.",
+        body: "Paris concentre les meilleures grandes écoles et universités, mais au prix fort. Un T1 y vaut 900 à 1 200 € hors charges. L'astuce pour rester dans la capitale sans le tarif, c'est de viser Versailles, Saint-Denis, Aubervilliers ou Ivry, où les loyers chutent de 30 à 50 % pour le même accès au RER et au métro. Bordeaux, Lyon et Nantes ont subi la même pression : un loyer étudiant y dépasse souvent le budget CROUS + APL combinés.",
       },
       {
         heading: "Les villes sous-estimées : Reims, Le Mans, Besançon",
-        body: "Reims est à 45 min de Paris en TGV — parfait pour décrocher des stages et des emplois en Île-de-France tout en vivant à un coût parisien divisé par deux. L'URCA (Université de Reims) est solide en droit, médecine, et sciences. Le Mans a des loyers plancher (T1 : 380€), un campus actif et une desserte ferroviaire idéale. Besançon offre une qualité de vie universitaire remarquable : campus verdoyant, Doubs, citadelle — et les horlogers suisses qui recrutent à 40 km.",
+        body: "Reims est à 45 minutes de Paris en TGV, parfait pour décrocher stages et premiers postes en Île-de-France tout en vivant à coût parisien divisé par deux. L'URCA tient solidement la route en droit, médecine et sciences. Le Mans aligne des loyers plancher (T1 à 380 €), un campus actif et une desserte ferroviaire idéale. Besançon, enfin, offre une qualité de vie universitaire remarquable entre campus verdoyant, Doubs et citadelle, avec les horlogers suisses qui recrutent à 40 km.",
       },
       {
         heading: "Ce que vous ne saviez peut-être pas",
-        body: "Les APL peuvent couvrir jusqu'à 250€/mois selon vos revenus parentaux et la ville. Un T1 à Grenoble à 550€ peut revenir à 300€ net APL inclus. La colocation est beaucoup plus développée dans les villes avec forte proportion étudiante (Rennes, Montpellier) — les prix par chambre peuvent descendre à 250–350€. Et n'oubliez pas les résidences CROUS : 300–400€/mois en chambre simple, 500–600€ en studio — la file d'attente en vaut largement la peine.",
+        body: "Les APL peuvent couvrir jusqu'à 250 € par mois selon les revenus parentaux et la ville. Un T1 à Grenoble à 550 € peut tomber à 300 € net APL incluse. La colocation est beaucoup plus développée dans les villes à forte proportion étudiante comme Rennes ou Montpellier, où le prix par chambre peut descendre à 250-350 €. Et on n'oublie pas les résidences CROUS : 300 à 400 € en chambre simple, 500 à 600 € en studio. La file d'attente en vaut très largement la peine.",
       },
     ],
     relatedCities: ["rennes", "montpellier", "toulouse", "grenoble", "dijon", "poitiers", "reims", "besancon"],
@@ -1768,34 +1768,34 @@ export const GUIDES: Guide[] = [
     category: "teletravail",
     metaTitle: "Meilleures villes françaises pour freelances et indépendants 2025 | MeilleurVille",
     metaDesc: "Où s'installer en France quand on est freelance ? Guide 2025 des meilleures villes pour les travailleurs indépendants : coworking, communauté, coût de la vie, fiscalité, connexion.",
-    intro: "Être freelance en France offre une liberté de localisation unique. Ce guide aide les indépendants — développeurs, designers, consultants, créateurs — à choisir la ville qui maximise leur qualité de vie, leur réseau professionnel et leur efficacité économique.",
+    intro: "Le freelancing en France offre une liberté de localisation assez unique. Ce guide aide les indépendants, développeurs, designers, consultants ou créateurs, à choisir la ville qui maximise vraiment la qualité de vie, le réseau professionnel et l'efficacité économique.",
     readMinutes: 8,
     publishedAt: "2025-12-01",
     updatedAt: "2026-05-07",
     sections: [
       {
         heading: "Ce qui compte vraiment pour un freelance",
-        body: "Un freelance n'optimise pas les mêmes variables qu'un salarié. La qualité de l'infrastructure numérique (fibre FTTH, 4G/5G stable) est non négociable. La densité d'espaces de coworking — et leur qualité — conditionne la vie sociale et professionnelle hors domicile. Le coût de la vie détermine directement le chiffre d'affaires minimal pour vivre bien. Et le réseau local : dans certaines villes, la communauté freelance/startup est suffisamment dense pour générer des opportunités clients.",
+        body: "Un freelance n'optimise pas les mêmes variables qu'un salarié. La qualité de l'infrastructure numérique (fibre FTTH, 4G/5G stable) est non négociable. La densité et la qualité des espaces de coworking conditionnent la vie sociale et professionnelle hors domicile. Le coût de la vie détermine directement le chiffre d'affaires minimal pour bien vivre. Et le réseau local : dans certaines villes, la communauté freelance / startup est suffisamment dense pour générer ses propres opportunités clients.",
       },
       {
         heading: "Le Top 5 freelance 2025 : Rennes, Nantes, Bordeaux, Toulouse, Montpellier",
-        body: "Ces cinq villes cumulent les meilleures conditions : coworking dense (Station F Régions, lieux tiers, tiers-lieux de l'État), commUniautés tech actives, loyers encore inférieurs à Paris, TGV pour Paris en cas de besoin. Rennes est particulièrement remarquable : tech Hub, Silicon Vallée de l'Ouest, coûts maîtrisés. Montpellier a la densité startup la plus haute par habitant hors Île-de-France.",
+        body: "Ces cinq villes cumulent les meilleures conditions : coworking dense, communautés tech actives, loyers encore inférieurs à Paris, TGV vers la capitale en cas de besoin. Rennes est particulièrement remarquable, vrai tech hub et Silicon Valley de l'Ouest avec des coûts maîtrisés. Montpellier affiche la densité startup la plus élevée par habitant hors Île-de-France, ce qui se traduit en opportunités concrètes.",
       },
       {
         heading: "Grenoble et Lyon : pour les tech freelances",
-        body: "Grenoble est l'un des rares endroits en France où un développeur freelance peut facturer des taux parisiens (car les entreprises tech paient aux standards Silicon Valley). Le bassin d'emploi est extraordinairement dense en ingénieurs et startups deeptech. Lyon offre une profondeur de marché plus grande : e-commerce, fintech, santé numérique, avec une scène freelance mature.",
+        body: "Grenoble est l'un des rares endroits en France où un développeur freelance peut facturer des taux parisiens, parce que les entreprises tech locales paient aux standards mondiaux. Le bassin d'emploi est exceptionnellement dense en ingénieurs et startups deeptech. Lyon offre une profondeur de marché supérieure entre e-commerce, fintech et santé numérique, avec une scène freelance déjà mature.",
       },
       {
-        heading: "Les villes 'qualité de vie maximale' pour freelances établis",
-        body: "Une fois un portefeuille clients stable (principalement remote), la priorité bascule vers la qualité de vie. Les villes qui émergent alors : Annecy (nature + qualité vie + accès Lyon), Bayonne/Biarritz (surf + communauté créative + Espagne à portée), Aix-en-Provence (soleil + gastronomie + accès Marseille), La Rochelle (mer + vélo + dynamisme). Ces villes ont toutes des espaces de coworking corrects mais des communautés freelance plus limitées — compensé par la qualité de vie exceptionnelle.",
+        heading: "Les villes « qualité de vie maximale » pour freelances établis",
+        body: "Une fois le portefeuille clients stable, principalement en remote, la priorité bascule sur la qualité de vie. Émergent alors Annecy (nature, qualité de vie, accès Lyon), Bayonne / Biarritz (surf, communauté créative, Espagne à portée), Aix-en-Provence (soleil, gastronomie, accès Marseille) et La Rochelle (mer, vélo, dynamisme). Ces villes ont toutes des espaces de coworking corrects, mais des communautés freelance plus limitées, compensées par une qualité de vie exceptionnelle.",
       },
       {
         heading: "Les villes émergentes pour freelances : Metz, Dijon, Clermont",
-        body: "Une tendance de fond : des freelances s'installent dans des villes de taille intermédiaire avec une infrastructure coworking qui s'améliore rapidement. Metz a Brilliant Factory (General Electric), une scène startup qui décolle. Dijon a un tissu de coworking dense (iXblue, Digital Bourgogne). Clermont-Ferrand bénéficie de l'effet Michelin/Limagrain — ingénieurs et consultants bien rémunérés. Loyers bas, qualité de vie, communauté qui grandit.",
+        body: "Tendance de fond, les freelances s'installent dans des villes de taille intermédiaire avec une infrastructure coworking en nette progression. Metz a sa Brilliant Factory General Electric et une scène startup qui décolle. Dijon dispose d'un tissu coworking dense entre iXblue et Digital Bourgogne. Clermont-Ferrand bénéficie de l'effet Michelin / Limagrain avec ingénieurs et consultants bien rémunérés. Loyers bas, qualité de vie réelle, communauté en croissance.",
       },
       {
         heading: "Les erreurs à éviter",
-        body: "1) S'isoler dans une petite ville sans communauté professionnelle locale — la visio ne remplace pas le réseau en face à face. 2) Choisir une ville uniquement pour les prix sans vérifier la qualité du coworking. 3) Sous-estimer l'impact de la météo sur la productivité — les villes grises déprimantes en hiver (Épinal, Brest en novembre) peuvent impacter votre énergie. 4) Négliger l'accès à Paris — même en full remote, vous aurez besoin de monter en réunion 4-5 fois par an. L'accessibilité TGV compte.",
+        body: "Première erreur, s'isoler dans une petite ville sans communauté pro locale : la visio ne remplace pas un café en face à face. Deuxième, choisir une ville uniquement sur les prix sans vérifier la qualité réelle du coworking. Troisième, sous-estimer l'impact météo sur la productivité, les villes grises et déprimantes en hiver (Épinal, Brest en novembre) entament durablement l'énergie. Quatrième, négliger l'accès à Paris : même en full remote, on monte en réunion 4 à 5 fois par an, donc le TGV compte vraiment.",
       },
     ],
     relatedCities: ["rennes", "nantes", "bordeaux", "toulouse", "montpellier", "grenoble", "lyon", "annecy"],
@@ -1997,34 +1997,34 @@ export const GUIDES: Guide[] = [
     category: "budget",
     metaTitle: "Investissement immobilier France 2025 — Meilleures villes | MeilleurVille",
     metaDesc: "Où investir dans l'immobilier locatif en France en 2025 ? Classement des villes avec le meilleur rendement locatif brut, tension locative, et perspectives de plus-value. Données réelles par ville.",
-    intro: "L'investissement locatif en France reste l'un des placements préférés des Français, mais les rendements varient considérablement d'une ville à l'autre. Ce guide classe les villes par rendement locatif brut réel et analyse les perspectives 2025-2030.",
+    intro: "L'investissement locatif reste l'un des placements préférés des Français, mais les rendements varient énormément d'une ville à l'autre. Ce guide classe les villes par rendement locatif brut réel et regarde sérieusement les perspectives 2025-2030.",
     readMinutes: 10,
     publishedAt: "2026-02-15",
     updatedAt: "2026-04-14",
     sections: [
       {
         heading: "Rendement locatif brut : la métrique de base",
-        body: "Le rendement locatif brut = (loyer annuel / prix d'achat) × 100. C'est le point de départ mais pas le seul critère. Un rendement brut de 7% peut cacher une vacance locative de 15% dans une ville en déclin. Les villes avec les meilleurs rendements bruts sont souvent celles où les prix sont les plus bas : Lens (7-9%), Limoges (6-8%), Montluçon (8-10%), Châlons-en-Champagne (6-7%). Mais le risque de vacance et de dégradation est plus élevé. À l'inverse, Lyon (3-4%) ou Bordeaux (3-4%) offrent une sécurité locative maximale mais un rendement modeste.",
+        body: "Le rendement locatif brut, c'est le loyer annuel divisé par le prix d'achat, multiplié par 100. Point de départ utile, mais pas critère unique. Un rendement brut de 7 % peut cacher une vacance locative de 15 % dans une ville en déclin. Les villes aux meilleurs rendements bruts sont souvent celles aux prix les plus bas : Lens entre 7 et 9 %, Limoges 6 à 8 %, Montluçon 8 à 10 %, Châlons-en-Champagne 6 à 7 %. Mais le risque de vacance et de dégradation est plus élevé. À l'inverse, Lyon et Bordeaux affichent 3 à 4 % de rendement, modeste, mais avec une sécurité locative maximale.",
       },
       {
         heading: "Le triangle d'or : rendement + tension + dynamisme",
-        body: "Les villes les plus intéressantes pour l'investissement 2025 combinent trois facteurs : rendement brut correct (5-7%), tension locative élevée (peu de vacance), et dynamisme économique ou démographique (pas de ville en déclin). Ce triangle d'or pointe vers : Toulouse (5-6%, marché étudiant/aéro), Montpellier (5-6%, croissance démographique), Rennes (5-7%, French Tech dynamique), Nantes (4-5%, métropole solide). Ces villes offrent la meilleure combinaison risque/rendement.",
+        body: "Les villes les plus intéressantes pour l'investissement 2025 combinent trois facteurs : rendement brut correct (5 à 7 %), tension locative élevée et donc peu de vacance, et dynamisme économique ou démographique (pas de ville qui décroche). Ce triangle d'or pointe vers Toulouse (5 à 6 %, marché étudiant et aéro), Montpellier (5 à 6 %, croissance démographique), Rennes (5 à 7 %, French Tech dynamique) et Nantes (4 à 5 %, métropole solide). Ces villes offrent la meilleure combinaison risque/rendement disponible.",
       },
       {
         heading: "Les champions cachés : villes moyennes à fort potentiel",
-        body: "Les villes de taille intermédiaire sont souvent sous-radar mais offrent d'excellentes opportunités en 2025 : Mulhouse (7-8% de rendement, pression des frontaliers suisses sur le marché locatif), Dijon (5-6%, marché étudiant robuste, prix encore raisonnables), Saint-Étienne (7-9% mais risque de vacance, choisir les quartiers proches universités), Le Mans (5-7%, ville étudiante méconnue avec une bonne tension locative). Ces marchés demandent plus de sélectivité dans le choix du quartier.",
+        body: "Les villes de taille intermédiaire sont souvent sous-radar et offrent pourtant d'excellentes opportunités en 2025. Mulhouse tape 7 à 8 % grâce à la pression des frontaliers suisses sur le marché locatif. Dijon tient 5 à 6 % avec un marché étudiant robuste et des prix encore raisonnables. Saint-Étienne offre 7 à 9 % mais avec un vrai risque de vacance, donc on cible les quartiers proches des universités. Le Mans est sur 5 à 7 %, ville étudiante méconnue avec une bonne tension locative. Tous ces marchés demandent un vrai travail de sélection du quartier.",
       },
       {
         heading: "Les pièges à éviter : villes en déclin démographique",
-        body: "Certaines villes ont des rendements bruts attractifs sur le papier mais des fondamentaux économiques inquiétants : Charleville-Mézières, Forbach, Montluçon, ou certaines villes du bassin minier. Le rendement brut de 9% ne vaut rien si vous avez 3 mois de vacance par an et une rotation de locataires qui dégradent le bien. Règle d'or : ne jamais investir dans une ville dont la population décline depuis plus de 10 ans sans un moteur de revitalisation visible (université, usine Toyota, musée d'envergure).",
+        body: "Certaines villes ont des rendements bruts attractifs sur le papier mais des fondamentaux économiques inquiétants : Charleville-Mézières, Forbach, Montluçon, et plusieurs villes du bassin minier. Un rendement brut de 9 % ne vaut rien avec trois mois de vacance par an et une rotation de locataires qui dégrade le bien. Règle d'or : ne jamais investir dans une ville en déclin démographique depuis plus de 10 ans sans moteur de revitalisation visible (université, usine majeure, équipement culturel d'envergure).",
       },
       {
         heading: "Location meublée vs vide : la fiscalité qui change tout",
-        body: "En 2025, le statut LMNP (Loueur Meublé Non Professionnel) reste l'une des niches fiscales les plus efficaces pour un investissement immobilier. Pour les studios et T2 en zone étudiante (Toulouse, Montpellier, Rennes, Bordeaux), la location meublée permet d'amortir le bien sur 20-25 ans et d'effacer fiscalement les revenus locatifs pendant cette période. Le régime réel nécessite un comptable mais l'économie d'impôt peut dépasser 2 000-4 000€/an pour un bien à 180 000€. Obligatoire pour tout investisseur qui paie des impôts.",
+        body: "En 2025, le statut LMNP (Loueur Meublé Non Professionnel) reste l'une des niches fiscales les plus efficaces de l'immobilier français. Pour un studio ou un T2 en zone étudiante (Toulouse, Montpellier, Rennes, Bordeaux), la location meublée permet d'amortir le bien sur 20 à 25 ans et d'effacer fiscalement les revenus locatifs pendant cette période. Le régime réel impose un comptable, mais l'économie d'impôt dépasse souvent 2 000 à 4 000 € par an pour un bien à 180 000 €. Pour tout investisseur qui paie des impôts, c'est non négociable.",
       },
       {
-        heading: "Stratégie 2025 : où mettre 100 000€ à investir ?",
-        body: "Pour 100 000€ d'apport (soit environ 200 000€ de bien avec crédit), voici les stratégies 2025 : Option 1 — Studio en zone étudiante (Toulouse, Montpellier, Rennes) : rendement 5-6%, vacance quasi-nulle, LMNP. Option 2 — T2 en ville dynamique hors-top10 (Dijon, Nantes-périphérie, Mulhouse centre) : rendement 6-7%, marché de locataires familles/actifs plus stable. Option 3 — T3 en reconversion (Lens quartier Louvre, Saint-Étienne Fauriel) : rendement 7-9% avec risque, nécessite connaissance locale. Éviter les résidences de tourisme et les parkings seuls qui ne bénéficient pas de l'amortissement LMNP.",
+        heading: "Stratégie 2025 : où mettre 100 000 € à investir ?",
+        body: "Pour 100 000 € d'apport, soit environ 200 000 € de bien avec crédit, voici trois stratégies 2025. Première option, un studio en zone étudiante à Toulouse, Montpellier ou Rennes : rendement 5 à 6 %, vacance quasi nulle, LMNP. Deuxième option, un T2 dans une ville dynamique hors top 10 (Dijon, périphérie nantaise, centre de Mulhouse) : 6 à 7 % de rendement, locataires familles ou actifs plus stables. Troisième option, un T3 en reconversion (Lens secteur Louvre, Saint-Étienne Fauriel) : 7 à 9 % avec risque assumé et besoin de connaissance locale. On évite les résidences de tourisme et les parkings seuls, qui ne bénéficient pas de l'amortissement LMNP.",
       },
     ],
     relatedCities: ["toulouse", "montpellier", "rennes", "nantes", "bordeaux", "dijon", "mulhouse", "lyon", "lens", "strasbourg"],
@@ -2177,34 +2177,34 @@ export const GUIDES: Guide[] = [
     category: "teletravail",
     metaTitle: "Meilleures villes pour créer une entreprise en France 2025 | MeilleurVille",
     metaDesc: "Quelle ville française choisir pour créer une startup, une TPE ou une PME en 2025 ? Classement des meilleures villes : écosystème entrepreneurial, aides régionales, coût des bureaux, réseau d'investisseurs.",
-    intro: "Le lieu d'implantation d'une entreprise détermine son accès au talent, aux financements, aux clients, et aux partenaires. Ce guide classe les villes françaises selon les critères qui comptent pour un entrepreneur : écosystème, talent, immobilier de bureau, et aides régionales.",
+    intro: "Le lieu d'implantation d'une entreprise détermine son accès au talent, aux financements, aux clients et aux partenaires. Ce guide classe les villes françaises selon les critères qui comptent vraiment pour un entrepreneur : écosystème, talent, immobilier de bureau et aides régionales.",
     readMinutes: 9,
     publishedAt: "2026-04-01",
     updatedAt: "2026-04-14",
     sections: [
       {
         heading: "Pourquoi la localisation d'une startup compte plus qu'on ne le croit",
-        body: "Un fondateur dans une ville sans écosystème startup est un fondateur seul. L'écosystème, ce n'est pas juste les espaces de coworking — c'est la densité de mentors disponibles, la présence de fonds régionaux actifs (BPI régionale, fonds régionaux), le réseau d'entreprises potentiellement clientes, et la capacité à recruter des profils techniques de qualité. Ces facteurs varient de 1 à 10 selon la ville, et peuvent faire la différence entre une levée de fonds en 6 mois et une en 3 ans.",
+        body: "Un fondateur dans une ville sans écosystème startup est un fondateur seul. L'écosystème ne se résume pas aux espaces de coworking : c'est la densité des mentors disponibles, la présence de fonds régionaux actifs (BPI régionale, fonds locaux), le réseau d'entreprises potentiellement clientes et la capacité à recruter des profils techniques de qualité. Ces facteurs varient de 1 à 10 selon la ville et peuvent décider d'une levée bouclée en 6 mois ou laissée en jachère pendant 3 ans.",
       },
       {
         heading: "Le Top 5 startup : Paris, Lyon, Bordeaux, Nantes, Toulouse",
-        body: "Paris reste imbattable pour les startups Tech scale-up (accès aux investisseurs Tier 1, talent international, clients grands comptes) — mais le coût est prohibitif pour une early-stage. Lyon est la deuxième ville de France par l'écosystème : French Tech Lyon forte, CCI dynamique, fonds régionaux actifs, et un coût d'exploitation 40% inférieur à Paris. Bordeaux a connu une explosion entrepreneuriale depuis 2015 (Station F de la Gironde à Darwin). Nantes a un écosystème startup solide sur le numérique et les industries créatives. Toulouse est le choix des deeptech, avec l'accès à l'écosystème aéronautique et spatial.",
+        body: "Paris reste imbattable pour les scale-up tech : investisseurs Tier 1, talent international, grands comptes accessibles. Le coût est en revanche prohibitif pour de l'early-stage. Lyon arrive en deuxième position par l'écosystème, avec une French Tech Lyon forte, une CCI dynamique, des fonds régionaux actifs et un coût d'exploitation 40 % inférieur à Paris. Bordeaux a connu une explosion entrepreneuriale depuis 2015 autour de Darwin et de la Station F girondine. Nantes tient un écosystème startup solide sur le numérique et les industries créatives. Toulouse, enfin, est le choix des deeptech grâce à l'accès direct à l'aéronautique et au spatial.",
       },
       {
         heading: "Les villes émergentes pour les entrepreneurs",
-        body: "Rennes est en forte progression : Rennes Métropole a investi massivement dans son écosystème (Territoire Smart), et la ville attire des profils tech de qualité à des coûts bien inférieurs à Paris. Grenoble est la référence pour les deeptech et l'énergie propre (CEA, Minatec, Schneider Electric, ST Microelectronics). Montpellier monte en puissance sur la biotech et l'AgriTech. Metz et Nancy bénéficient des flux frontaliers et d'un coût d'exploitation ultra-compétitif. Strasbourg est le choix des startups européennes qui veulent une adresse européenne avec accès aux institutions.",
+        body: "Rennes est en forte progression : Rennes Métropole a investi massivement dans son écosystème via Territoire Smart, et la ville attire des profils tech de qualité à des coûts bien inférieurs à Paris. Grenoble reste la référence pour les deeptech et l'énergie propre, avec le CEA, Minatec, Schneider Electric et STMicroelectronics dans le rétroviseur. Montpellier monte en puissance sur la biotech et l'AgriTech. Metz et Nancy profitent des flux frontaliers et d'un coût d'exploitation ultra-compétitif. Strasbourg, enfin, séduit les startups qui veulent une adresse européenne et l'accès aux institutions.",
       },
       {
         heading: "TPE et commerce : les villes où le marché local fonctionne",
-        body: "Pour une TPE non-tech (restaurant, artisanat, services), les critères sont différents : pouvoir d'achat local, loyer commercial, concurrence, et dynamisme du tissu commerçant. Les meilleures villes pour ouvrir un commerce : Bordeaux (pouvoir d'achat élevé, tourisme, dynamisme), Rennes (population active jeune, consommation locale forte), Strasbourg (tourisme européen intense + résidents premium). À éviter : centres-villes en déclin (certaines villes du bassin minier), villes à forte saisonnalité qui creusent l'activité hors-saison.",
+        body: "Pour une TPE non-tech (restaurant, artisanat, services), les critères changent. On regarde le pouvoir d'achat local, le loyer commercial, la concurrence et le dynamisme du tissu commerçant. Bordeaux combine pouvoir d'achat élevé, tourisme et dynamisme. Rennes mise sur une population active jeune et une consommation locale forte. Strasbourg cumule tourisme européen intense et résidents premium. On évite les centres-villes en déclin (plusieurs villes du bassin minier) et les villes à forte saisonnalité qui creusent l'activité hors saison.",
       },
       {
         heading: "Aides régionales et dispositifs locaux : ce que vous ne savez pas",
-        body: "La France dispose d'un réseau d'aides à la création d'entreprise souvent méconnu des créateurs : les CCI (Chambres de Commerce et d'Industrie) proposent des accompagnements gratuits dans toutes les villes, les Conseils Régionaux ont des prêts d'honneur 0% et des dispositifs d'amorçage (montants de 15 000 à 100 000€ selon la région), et certaines métropoles (Bordeaux, Nantes, Lyon) ont des concours de startup avec des prix en numéraire. Le dispositif ARCE (conversion chômage en capital) est accessible pour tous les demandeurs d'emploi qui créent leur entreprise.",
+        body: "La France dispose d'un réseau d'aides à la création d'entreprise souvent méconnu. Les CCI proposent des accompagnements gratuits dans toutes les villes. Les Conseils Régionaux ont des prêts d'honneur à 0 % et des dispositifs d'amorçage de 15 000 à 100 000 € selon la région. Certaines métropoles comme Bordeaux, Nantes ou Lyon organisent des concours startup avec des prix en numéraire significatifs. Le dispositif ARCE de conversion chômage en capital est accessible à tout demandeur d'emploi qui crée son entreprise, et change vraiment l'équation de trésorerie initiale.",
       },
       {
         heading: "Immobilier de bureau en 2025 : les villes où s'installer sans se ruiner",
-        body: "Le coût des bureaux varie de 1 à 8 entre Paris et une ville de taille moyenne. En 2025 : Paris intra-muros : 400-700€/m2/an. Lyon Part-Dieu : 200-350€/m2/an. Bordeaux Euratlantique : 180-280€/m2/an. Toulouse : 150-250€/m2/an. Nantes/Rennes : 130-220€/m2/an. Strasbourg : 120-200€/m2/an. Montbéliard, Metz, Nancy : 80-130€/m2/an. Pour une startup de 5 personnes qui loue 50m2, l'économie entre Paris et Metz peut dépasser 15 000€/an. La décision d'implantation peut financer plusieurs recrutements.",
+        body: "Le coût des bureaux varie de 1 à 8 entre Paris et une ville moyenne. En 2025, Paris intra-muros tape 400 à 700 €/m²/an. Lyon Part-Dieu se situe entre 200 et 350 €. Bordeaux Euratlantique entre 180 et 280 €. Toulouse, 150 à 250 €. Nantes et Rennes, 130 à 220 €. Strasbourg, 120 à 200 €. Montbéliard, Metz et Nancy descendent à 80-130 €. Pour une startup de 5 personnes sur 50 m², l'économie entre Paris et Metz dépasse 15 000 € par an. La décision d'implantation peut financer plusieurs recrutements.",
       },
     ],
     relatedCities: ["paris", "lyon", "bordeaux", "nantes", "toulouse", "rennes", "grenoble", "strasbourg", "montpellier", "metz"],
@@ -2402,34 +2402,34 @@ export const GUIDES: Guide[] = [
     category: "lifestyle",
     metaTitle: "Mutation pro : comment choisir sa ville en France 2025 — guide décision | MeilleurVille",
     metaDesc: "Mutation professionnelle en France : nos critères pour choisir votre prochaine ville — emploi du conjoint, écoles, logement, transport, qualité de vie. Grille de décision complète.",
-    intro: "Une mutation professionnelle est l'une des transitions de vie les plus complexes. Ce guide vous donne une méthode structurée pour choisir votre prochaine ville sans vous perdre dans les comparatifs infinis.",
+    intro: "Une mutation professionnelle, c'est l'une des transitions de vie les plus complexes. Voici une méthode structurée pour choisir sa prochaine ville sans se perdre dans les comparatifs infinis.",
     readMinutes: 8,
     publishedAt: "2026-04-22",
     updatedAt: "2026-02-22",
     sections: [
       {
         heading: "Étape 1 : valider l'emploi du conjoint en priorité",
-        body: "La principale cause d'échec des mutations est l'emploi du conjoint. Avant de chercher un logement, validez : le conjoint a-t-il une opportunité d'emploi dans la ville cible, ou peut-il travailler en remote ? Les villes avec un tissu économique diversifié (Lyon, Nantes, Bordeaux, Toulouse, Rennes) minimisent le risque. Les villes mono-industrielles exposent davantage au risque si l'industrie en question n'est pas celle du conjoint.",
+        body: "La principale cause d'échec des mutations, c'est l'emploi du conjoint. Avant même de chercher un logement, on valide une chose : le conjoint a-t-il une vraie opportunité dans la ville cible, ou peut-il continuer en remote ? Les villes au tissu économique diversifié (Lyon, Nantes, Bordeaux, Toulouse, Rennes) minimisent le risque. Les villes mono-industrielles exposent davantage si l'industrie en question n'est pas celle du conjoint.",
       },
       {
         heading: "Étape 2 : les écoles (si vous avez des enfants)",
-        body: "Le réseau scolaire public français est généralement de qualité uniforme, mais la réalité des établissements varie selon les quartiers. Outils : le classement des lycées dans Parcoursup, les taux de réussite au brevet et les avis de parents sur les forums locaux. Renseignez-vous sur le secteur scolaire avant de signer un bail — un arrondissement ou une commune peut tout changer.",
+        body: "Le réseau scolaire public est globalement de qualité uniforme, mais la réalité des établissements varie selon les quartiers. Les outils à mobiliser : le classement des lycées via Parcoursup, les taux de réussite au brevet, les avis de parents sur les forums locaux. On se renseigne sur le secteur scolaire avant de signer un bail, un arrondissement ou une commune peut tout changer.",
       },
       {
-        heading: "Étape 3 : budget logement — achat ou location ?",
-        body: "En cas de mutation potentiellement temporaire (2-3 ans), louer est presque toujours plus prudent — les frais de notaire (~7-8%) et l'incertitude sur l'évolution des prix rendent l'achat risqué. Si la mutation est durable (5 ans+), l'achat peut être rationnel. Villes où l'achat reste accessible : Limoges, Rouen, Reims, Nancy, Clermont-Ferrand, Saint-Étienne.",
+        heading: "Étape 3 : budget logement, achat ou location ?",
+        body: "En cas de mutation potentiellement temporaire (2 ou 3 ans), louer reste presque toujours plus prudent. Les frais de notaire à 7-8 % et l'incertitude sur l'évolution des prix rendent l'achat risqué. Pour une mutation durable (5 ans et plus), l'achat redevient rationnel. Les villes où l'achat reste accessible : Limoges, Rouen, Reims, Nancy, Clermont-Ferrand, Saint-Étienne.",
       },
       {
         heading: "Étape 4 : les transports et la mobilité du quotidien",
-        body: "Évaluez votre trajet domicile-travail avant de choisir un quartier. Dans une ville inconnue, les habitués sous-estiment souvent les temps réels. Préférez un quartier bien desservi en transport, même un peu moins beau, à un quartier pittoresque accessible uniquement en voiture. Utilisez Google Maps en mode commute avec les heures de pointe pour des estimations réalistes.",
+        body: "On évalue son trajet domicile-travail avant de choisir un quartier. Dans une ville inconnue, les habitués sous-estiment systématiquement les temps réels. On préfère un quartier bien desservi en transports, même moins charmant, à un quartier pittoresque accessible uniquement en voiture. Google Maps en mode trajet avec horaires de pointe donne des estimations bien plus réalistes que les annonces immobilières.",
       },
       {
         heading: "Étape 5 : visiter avant de décider",
-        body: "Résistez à la tentation de tout régler à distance. Une visite de 2-3 jours dans la ville cible est indispensable. Ce que vous ne trouverez pas en ligne : l'ambiance du quartier, le bruit, la qualité des commerces de proximité. Visitez un jour de semaine et un weekend — les villes changent beaucoup. L'impression personnelle après une vraie visite est souvent le meilleur prédicteur de satisfaction.",
+        body: "Résister à la tentation de tout régler à distance. Une visite de 2 à 3 jours dans la ville cible est indispensable. Ce qu'on ne trouve pas en ligne : l'ambiance du quartier, le bruit, la qualité réelle des commerces de proximité. On visite un jour de semaine et un week-end, les villes changent du tout au tout. L'impression personnelle après une vraie visite reste le meilleur prédicteur de satisfaction.",
       },
       {
         heading: "Les villes les plus accueillantes pour les mutations",
-        body: "Certaines villes ont une culture d'accueil des arrivants plus marquée. Toulouse (aéronautique), Grenoble (R&D), Rennes, Lyon et Bordeaux ont des réseaux d'expatriés internes et des associations d'intégration actives. Angers, Nantes et Montpellier sont connues pour leur facilité d'intégration. L'Île-de-France, paradoxalement, est souvent la plus difficile à intégrer malgré sa taille — les réseaux sont souvent fermés.",
+        body: "Certaines villes ont une culture d'accueil des arrivants nettement plus marquée. Toulouse via l'aéronautique, Grenoble via la R&D, Rennes, Lyon et Bordeaux disposent de réseaux d'expatriés internes et d'associations d'intégration actives. Angers, Nantes et Montpellier sont réputées pour leur facilité d'intégration. L'Île-de-France, paradoxalement, est souvent la plus difficile à intégrer malgré sa taille : les réseaux y sont plus fermés qu'ailleurs.",
       },
     ],
     relatedCities: ["lyon", "nantes", "bordeaux", "toulouse", "rennes", "grenoble", "paris", "strasbourg"],
@@ -2717,34 +2717,34 @@ export const GUIDES: Guide[] = [
     category: "lifestyle",
     metaTitle: "Petites villes France — qualité de vie, charme et accessibilité 2025 | MeilleurVille",
     metaDesc: "Les meilleures petites villes françaises (moins de 50 000 habitants) pour vivre bien : Bayeux, Sarlat, Figeac, Millau, Saint-Malo, Dole… Qualité de vie, coûts, emploi.",
-    intro: "Pas besoin de vivre dans une grande métropole pour avoir une qualité de vie exceptionnelle. Les petites villes françaises offrent souvent le meilleur de la France : patrimoine, convivialité, nature proche et coût de la vie accessible. Mais lesquelles valent vraiment le détour ?",
+    intro: "Pas besoin d'une grande métropole pour avoir une qualité de vie exceptionnelle. Les petites villes françaises offrent souvent ce que le pays a de meilleur : patrimoine, convivialité, nature proche, coût de la vie accessible. Reste à savoir lesquelles valent vraiment le détour.",
     readMinutes: 9,
     publishedAt: "2026-04-27",
     updatedAt: "2026-01-14",
     sections: [
       {
         heading: "Pourquoi les petites villes regagnent du terrain",
-        body: "La crise du Covid-19 a accéléré une tendance de fond : les Français redécouvrent les petites villes. Plusieurs facteurs convergent — le développement du télétravail (qui annule l'avantage de proximité des grandes villes), la hausse des prix immobiliers dans les métropoles (qui rend les arbitrages plus favorables), et une quête de sens et de convivialité. Les petites villes avec une connexion TGV ou RER restent les plus recherchées (Bayeux, Figeac, Sarlat), mais les bourgs bien connectés en voiture gagnent aussi.",
+        body: "La crise du Covid-19 a accéléré une tendance de fond : les Français redécouvrent les petites villes. Plusieurs facteurs convergent. Le télétravail annule l'avantage de proximité des grandes villes, la hausse des prix immobiliers dans les métropoles rend les arbitrages plus favorables, et une vraie quête de sens et de convivialité fait le reste. Les petites villes avec une connexion TGV ou RER restent les plus recherchées (Bayeux, Figeac, Sarlat), mais les bourgs bien connectés en voiture gagnent aussi.",
       },
       {
         heading: "Les meilleures petites villes pour les télétravailleurs",
-        body: "Pour les full remote, les petites villes combinent le meilleur des deux mondes. Figeac (Lot, 11 000 hab.) est souvent citée : patrimoine médiéval, accès aux Gorges du Lot, espaces de coworking actifs, qualité de vie exceptionnelle et prix immobiliers ridiculement bas (900-1 200€/m²). Sarlat-la-Canéda (Dordogne) offre un cadre patrimonial unique mais les connexions internet étaient historiquement limitées (désormais améliorées). Millau (Aveyron) est surprenante : petite ville dynamique avec le Viaduc iconique, accès aux Gorges et vallée verdoyante.",
+        body: "Pour les full remote, les petites villes combinent vraiment le meilleur des deux mondes. Figeac (Lot, 11 000 habitants) est régulièrement citée : patrimoine médiéval, accès aux Gorges du Lot, espaces de coworking actifs, qualité de vie exceptionnelle et prix immobiliers ridiculement bas, entre 900 et 1 200 €/m². Sarlat-la-Canéda offre un cadre patrimonial unique avec des connexions internet désormais correctes après des années compliquées. Millau, dans l'Aveyron, surprend : petite ville dynamique avec son viaduc iconique, accès aux Gorges et vallée verdoyante.",
       },
       {
         heading: "Les pépites du bord de mer",
-        body: "Les petites villes côtières françaises concentrent souvent une qualité de vie incomparable : Bayeux (Normandie) est à 15 min des plages du Débarquement avec un centre médiéval préservé. Honfleur (Calvados) est pittoresque mais très touristique et chère en été. Concarneau (Bretagne, 20 000 hab.) mêle ville close médiévale et port de pêche actif à prix accessibles. Sur l'Atlantique, Arcachon est prisée mais chère ; préférez Royan ou Les Sables-d'Olonne pour la vie à l'année.",
+        body: "Les petites villes côtières concentrent souvent une qualité de vie incomparable. Bayeux est à 15 minutes des plages du Débarquement avec un centre médiéval préservé. Honfleur reste pittoresque mais très touristique et cher en été. Concarneau, avec ses 20 000 habitants, mêle ville close médiévale et port de pêche actif à prix accessibles. Sur l'Atlantique, Arcachon est prisée mais chère, on lui préfère Royan ou Les Sables-d'Olonne pour la vie à l'année.",
       },
       {
         heading: "Les petites villes patrimoniales du Centre",
-        body: "Le Centre-Val de Loire regorge de petites villes patrimoniales à prix accessibles. Chinon (Indre-et-Loire) : château royal, vignobles et rivière Vienne à 40 min de Tours. Loches est encore plus confidentielle — forteresse médiévale intacte, marché vivant et prix au m² sous les 1 200€. Amboise a l'avantage d'être sur l'axe TGV et de concentrer le tourisme (château + Clos Lucé de Léonard de Vinci) ce qui anime les commerces à l'année.",
+        body: "Le Centre-Val de Loire regorge de petites villes patrimoniales à prix accessibles. Chinon en Indre-et-Loire propose château royal, vignobles et Vienne à 40 minutes de Tours. Loches est encore plus confidentielle : forteresse médiévale intacte, marché vivant et prix au m² sous 1 200 €. Amboise a l'avantage d'être sur l'axe TGV et de concentrer le tourisme avec son château et le Clos Lucé, ce qui anime les commerces à l'année.",
       },
       {
         heading: "Les contraintes des petites villes",
-        body: "Les petites villes ont des limites réelles : services médicaux spécialisés parfois distants (les déserts médicaux ruraux sont une réalité), offre culturelle plus limitée (cinéma oui, opéra non), marché de l'emploi restreint si vous n'êtes pas full remote, et une vie sociale plus contraignante (tout le monde se connaît — c'est un avantage ou un inconvénient selon votre caractère). Les meilleures petites villes compensent en partie ces défauts par une proximité de villes plus grandes (Figeac est à 40 min de Cahors).",
+        body: "Les petites villes ont des limites réelles. Services médicaux spécialisés parfois distants (les déserts médicaux ruraux sont une réalité), offre culturelle plus limitée (cinéma oui, opéra non), marché de l'emploi restreint hors full remote, et vie sociale plus contraignante puisque tout le monde se connaît, ce qui est un avantage ou un inconvénient selon le tempérament. Les meilleures petites villes compensent en partie par la proximité d'une ville plus grande : Figeac est à 40 minutes de Cahors.",
       },
       {
         heading: "Notre sélection : les 5 meilleures petites villes pour s'installer",
-        body: "Figeac (46) : télétravail + patrimoine + immobilier accessible. Bayeux (14) : bord de mer Normandie + histoire + accès Caen. Sarlat (24) : Périgord Noir + tourisme + douceur de vivre. Millau (12) : paysages spectaculaires + dynamisme économique. Dole (39) : Jura + canal + Pasteur + proximité Dijon/Besançon. Chaque ville a des inconvénients (Sarlat est saturée l'été, Millau est isolée) mais toutes méritent une visite exploratoire sérieuse.",
+        body: "Figeac (46) coche télétravail, patrimoine et immobilier accessible. Bayeux (14) combine bord de mer normand, histoire et accès Caen. Sarlat (24) joue le Périgord Noir, le tourisme et la douceur de vivre. Millau (12) offre paysages spectaculaires et dynamisme économique. Dole (39) propose Jura, canal, héritage Pasteur et proximité Dijon-Besançon. Chacune a ses inconvénients (Sarlat sature l'été, Millau reste isolée), mais toutes méritent vraiment une visite exploratoire.",
       },
     ],
     relatedCities: ["figeac", "bayeux", "millau", "dole", "rodez", "cahors"],
@@ -2897,34 +2897,34 @@ export const GUIDES: Guide[] = [
     category: "region",
     metaTitle: "Vivre Côte Basque et Landes 2025 — guide complet | MeilleurVille",
     metaDesc: "Biarritz, Bayonne, Anglet, Dax, Hossegor… Comment s'installer sur la Côte Basque et dans les Landes en 2025 ? Prix, qualité de vie, transports et alternatives abordables.",
-    intro: "La Côte Basque est devenue l'une des destinations les plus recherchées par les télétravailleurs et retraités français. Mais Biarritz et ses 7 000€/m² ne sont pas accessibles à tous. Ce guide explore les alternatives pour profiter du surf, de l'Atlantique et de la gastronomie basque sans explosser son budget immobilier.",
+    intro: "La Côte Basque est devenue l'une des destinations les plus recherchées par les télétravailleurs et retraités français. Mais Biarritz et ses 7 000 €/m² ne sont plus accessibles à tout le monde. Voici les alternatives pour profiter du surf, de l'Atlantique et de la gastronomie basque sans laisser son budget immobilier en miettes.",
     readMinutes: 8,
     publishedAt: "2026-04-30",
     updatedAt: "2026-05-10",
     sections: [
       {
         heading: "Le mythe Biarritz : fantasme ou réalité quotidienne ?",
-        body: "Biarritz (25 000 hab permanents, +30 000 l'été) cristallise les désirs de vie balnéaire : surf, Grande Plage, villas Belle Époque, Rocher de la Vierge. Mais ses prix ont explosé post-Covid : 6 500-8 000€/m² en appartement, 1 500€/mois pour un T3. L'attractivité médiatique (Biarritz est devenu un symbole de l'exode urbain bobo) a créé une pression immobilière intense. La réalité quotidienne : circulation dense l'été, services surchargés, locaux déplacés vers les périphéries.",
+        body: "Biarritz cristallise les fantasmes de vie balnéaire avec ses 25 000 habitants permanents (et 30 000 supplémentaires l'été) : surf, Grande Plage, villas Belle Époque, Rocher de la Vierge. Sauf que les prix ont explosé post-Covid, entre 6 500 et 8 000 €/m² en appartement, 1 500 €/mois pour un T3. L'attractivité médiatique, Biarritz étant devenue un symbole de l'exode urbain bobo, a créé une pression intense. La réalité quotidienne est moins glamour : circulation dense l'été, services surchargés, locaux poussés vers les périphéries.",
       },
       {
         heading: "Bayonne : la vraie capitale basque, plus abordable",
-        body: "Bayonne (52 000 hab) est souvent sous-estimée par rapport à Biarritz. Pourtant la ville offre une richesse culturelle supérieure : remparts Vauban, cathédrale gothique, musée Basque de référence, chocolatiers historiques, fêtes de Bayonne (500 000 personnes en juillet). Les prix : 4 200-5 500€/m², soit 25-35% moins chers que Biarritz. TGV direct vers Bordeaux (1h15) et Paris (3h30). Bayonne attire de plus en plus comme base quotidienne, avec Biarritz à 10 min de TER.",
+        body: "Bayonne et ses 52 000 habitants sont souvent sous-estimés par rapport à Biarritz. La ville offre pourtant une richesse culturelle supérieure : remparts Vauban, cathédrale gothique, musée Basque de référence, chocolatiers historiques, et les fêtes de Bayonne qui rassemblent 500 000 personnes en juillet. Côté prix, 4 200 à 5 500 €/m², soit 25 à 35 % moins cher que Biarritz. TGV direct vers Bordeaux en 1h15 et Paris en 3h30. Bayonne séduit de plus en plus comme base quotidienne, avec Biarritz à 10 minutes de TER.",
       },
       {
         heading: "Anglet : le compromis surf + famille",
-        body: "Anglet (37 000 hab) est la commune entre Bayonne et Biarritz, avec 4,5 km de plages de surf. Moins clinquante mais très appréciée des familles : nombreuses écoles, forêt de pignada, lacs de Chiberta. Prix 3 800-5 000€/m², légèrement en dessous de Biarritz. Accès direct à Bayonne et Biarritz en bus TXIK TXAK (réseau Pays Basque). Anglet est souvent le choix rationnel des personnes qui veulent l'ambiance Côte Basque sans le prix de Biarritz.",
+        body: "Anglet et ses 37 000 habitants se trouvent entre Bayonne et Biarritz, avec 4,5 km de plages de surf. Moins clinquant mais très apprécié des familles : nombreuses écoles, forêt de Pignada, lacs de Chiberta. Prix entre 3 800 et 5 000 €/m², légèrement sous Biarritz. Accès direct à Bayonne et Biarritz via le bus TXIK TXAK. Souvent le choix rationnel de ceux qui veulent l'ambiance Côte Basque sans le tarif Biarritz.",
       },
       {
         heading: "Hossegor, Capbreton et les Landes : le surf moins cher",
-        body: "Pour les amateurs de surf avec un budget plus serré, les Landes offrent de belles alternatives. Hossegor (6 000 hab permanents) est le spot surf mondial le plus réputé de France, mais ses prix ont suivi l'engouement (5 000-6 500€/m²). Capbreton voisin (9 500 hab) est légèrement plus accessible (3 800-4 800€/m²). Plus au nord, Mimizan et Biscarrosse offrent des plages de surf à moins de 2 000€/m² pour les maisons et moins de 3 000€/m² pour les appartements.",
+        body: "Pour les amateurs de surf avec un budget serré, les Landes offrent de belles alternatives. Hossegor et ses 6 000 habitants permanents reste le spot surf mondial le plus réputé de France, mais les prix ont suivi l'engouement entre 5 000 et 6 500 €/m². Capbreton voisin et ses 9 500 habitants restent légèrement plus accessibles à 3 800-4 800 €/m². Plus au nord, Mimizan et Biscarrosse proposent des plages de surf à moins de 2 000 €/m² pour les maisons et moins de 3 000 €/m² pour les appartements.",
       },
       {
         heading: "Dax et Mont-de-Marsan : vivre dans les Landes sans la mer mais avec un budget",
-        body: "Dax (20 000 hab) et Mont-de-Marsan (30 000 hab) sont les deux principales villes des Landes, à 50-80 km de la côte. Dax est connue pour ses thermes (rhumatologie, station thermale de référence française) et son ambiance tauromachique (feria d'août). Mont-de-Marsan est une ville administrative tranquille avec une scène musicale métal étonnante (Hellfest région) et des prix immobiliers parmi les plus bas du Sud-Ouest (1 800-2 200€/m²). Ces villes permettent de profiter des Landes et d'un mode de vie sudiste à prix très raisonnable.",
+        body: "Dax et Mont-de-Marsan sont les deux principales villes des Landes, à 50-80 km de la côte. Dax est connue pour ses thermes (rhumatologie, station de référence française) et son ambiance tauromachique avec la feria d'août. Mont-de-Marsan est une ville administrative tranquille avec une scène musicale métal étonnante et des prix immobiliers parmi les plus bas du Sud-Ouest, entre 1 800 et 2 200 €/m². Deux villes qui permettent de profiter des Landes et d'un mode de vie sudiste à coût très raisonnable.",
       },
       {
         heading: "Budget mensuel comparé Côte Basque vs reste France",
-        body: "Un couple sans enfants vivant à Biarritz (appartement T2 meublé) peut s'attendre à dépenser : loyer 1 200€ + charges 150€ + alimentation 600€ + transports 200€ = environ 2 150€/mois de budget courant. Le même niveau de vie à Bayonne : ~1 800€/mois. À Anglet : ~1 950€. À Dax : ~1 400€. L'écart annuel Biarritz vs Dax représente ~9 000€ — soit l'équivalent d'un vol Paris-Tokyo retour par mois. Ce calcul pousse de nombreuses personnes à arbitrer vers les villes de l'arrière-pays.",
+        body: "Un couple sans enfants en T2 meublé à Biarritz tape facilement 2 150 € de budget courant mensuel : 1 200 € de loyer, 150 € de charges, 600 € d'alimentation, 200 € de transports. Le même niveau de vie tombe à 1 800 € à Bayonne, 1 950 € à Anglet, 1 400 € à Dax. L'écart annuel Biarritz vs Dax atteint donc 9 000 €, l'équivalent d'un vol Paris-Tokyo retour par mois. Ce calcul est précisément ce qui pousse beaucoup de monde à arbitrer vers l'arrière-pays.",
       },
     ],
     relatedCities: ["biarritz", "bayonne", "dax", "mont-de-marsan", "la-rochelle", "bordeaux"],
@@ -3077,34 +3077,34 @@ export const GUIDES: Guide[] = [
     category: "region",
     metaTitle: "Vivre autour de Bordeaux 2025 — alternatives abordables | MeilleurVille",
     metaDesc: "Mérignac, Talence, Pessac, Libourne, Arcachon… Quelles communes autour de Bordeaux offrent le meilleur rapport qualité-prix ? Guide complet 2025.",
-    intro: "Bordeaux est devenue l'une des métropoles les plus prisées de France depuis l'ouverture de la LGV Paris-Bordeaux en 2017. Résultat : ses prix ont bondi de 60% en 10 ans. La couronne bordelaise offre des alternatives intéressantes à 20-40 km du centre, avec des prix 20-40% inférieurs et une bonne connexion au bassin d'emploi.",
+    intro: "Bordeaux est devenue l'une des métropoles les plus prisées de France depuis l'ouverture de la LGV en 2017. Résultat brut, ses prix ont bondi de 60 % en 10 ans. La couronne bordelaise propose heureusement des alternatives intéressantes à 20-40 km du centre, avec des tarifs 20 à 40 % inférieurs et une bonne connexion au bassin d'emploi.",
     readMinutes: 7,
     publishedAt: "2026-04-30",
     updatedAt: "2026-03-23",
     sections: [
       {
         heading: "Bordeaux : pourquoi les prix ont-ils autant monté ?",
-        body: "Bordeaux est passée de 2 500€/m² en 2015 à 4 000-4 500€/m² en 2025, après un pic à 5 000€/m² en 2022 suivi d'une légère correction. La LGV vers Paris (2h04) a généré un afflux de « néo-Bordelais » parisiens qui ont télétravaillé depuis Bordeaux tout en gardant leur emploi francilien. La métropole de Bordeaux (28 communes, 800 000 hab) offre heureusement des alternatives bien desservies par le tramway et les lignes de bus.",
+        body: "Bordeaux est passée de 2 500 €/m² en 2015 à 4 000-4 500 €/m² en 2025, après un pic à 5 000 €/m² en 2022 suivi d'une légère correction. La LGV Paris en 2h04 a généré un afflux de « néo-Bordelais » qui ont télétravaillé depuis Bordeaux tout en gardant leur emploi francilien. La métropole de Bordeaux, avec ses 28 communes et 800 000 habitants, offre heureusement des alternatives bien desservies par le tramway et les lignes de bus.",
       },
       {
         heading: "Mérignac : la première couronne accessible",
-        body: "Mérignac (70 000 hab) est la deuxième ville de la Gironde, attenante à Bordeaux, avec l'aéroport international. Tramway A direct vers Bordeaux-Pey-Berland en 20 min. Prix : 3 100-3 600€/m², soit 15-25% de moins que Bordeaux. Quartier intéressant : Mérignac-Arlac (résidentiel, calme, parc), Chemin Long (étudiant, animé). Mérignac attire beaucoup de familles et actifs du secteur aéronautique (Airbus, Thales).",
+        body: "Mérignac et ses 70 000 habitants forment la deuxième ville de Gironde, attenante à Bordeaux, avec l'aéroport international. Le tramway A relie Bordeaux-Pey-Berland en 20 minutes. Prix entre 3 100 et 3 600 €/m², soit 15 à 25 % de moins que Bordeaux. Côté quartiers, Mérignac-Arlac est résidentiel et calme avec son parc, Chemin Long est plus étudiant et animé. La ville attire surtout les familles et les actifs de l'aéronautique chez Airbus ou Thales.",
       },
       {
         heading: "Talence et Pessac : le choix universitaire",
-        body: "Talence et Pessac sont les deux communes universitaires adossées à Bordeaux-Sud, avec le campus de l'Université de Bordeaux (56 000 étudiants). Tramway B vers Bordeaux-Victoire en 10 min. Prix : 3 000-3 500€/m², T2 loué à 750-850€/mois. Ambiance universitaire vivante toute l'année, bars, restos, associations. Idéal pour les actifs, les jeunes familles et les investisseurs locatifs cherchant une bonne rentabilité (6-7% brut avec studios/T1).",
+        body: "Talence et Pessac sont les deux communes universitaires adossées au sud de Bordeaux, avec le campus de l'Université de Bordeaux et ses 56 000 étudiants. Tramway B vers Bordeaux-Victoire en 10 minutes. Prix entre 3 000 et 3 500 €/m², T2 loué entre 750 et 850 €/mois. Ambiance universitaire vivante toute l'année avec bars, restos et associations. Idéal pour les actifs, les jeunes familles et les investisseurs locatifs qui visent une rentabilité brute de 6 à 7 % en studio ou T1.",
       },
       {
         heading: "Libourne : le hub Bordeaux-Périgord",
-        body: "Libourne (24 000 hab) est à 35 km de Bordeaux, accessible en TER en 25 min. Ville médiévale sur la Dordogne et l'Isle, avec un beau centre historique (bastide anglaise du XIIIe siècle) et les vignobles de Saint-Émilion à 8 km. Prix : 2 200-2 700€/m², T2 loué à 620-700€/mois. Pour les actifs en télétravail 3-4j/semaine, Libourne offre un cadre de vie médiéval exceptionnel à prix beaucoup plus raisonnable que Bordeaux.",
+        body: "Libourne et ses 24 000 habitants se situent à 35 km de Bordeaux, accessibles en TER en 25 minutes. Ville médiévale sur la Dordogne et l'Isle, avec une belle bastide anglaise du XIIIe siècle et les vignobles de Saint-Émilion à 8 km. Prix entre 2 200 et 2 700 €/m², T2 loué entre 620 et 700 €/mois. Pour les actifs en télétravail 3 à 4 jours par semaine, Libourne offre un cadre médiéval exceptionnel à un prix nettement plus raisonnable que Bordeaux.",
       },
       {
         heading: "La Teste-de-Buch et le Bassin d'Arcachon",
-        body: "Le Bassin d'Arcachon à 60 km de Bordeaux (45 min par autoroute) a connu une explosion de prix post-Covid, mais des communes comme La Teste-de-Buch ou Gujan-Mestras restent plus accessibles qu'Arcachon-ville. La Teste : 3 500-4 500€/m², T2 loué à 900-1 000€/mois. Arcachon ville : 5 000-7 000€/m². Pour un télétravailleur qui peut se permettre le bassin : cadre exceptionnel (dune, pinède, huîtres). La navette ferroviaire vers Bordeaux (50 min) permet de maintenir un accès à la métropole.",
+        body: "Le Bassin d'Arcachon, à 60 km de Bordeaux et 45 minutes en autoroute, a explosé en prix post-Covid, mais des communes comme La Teste-de-Buch ou Gujan-Mestras restent plus accessibles qu'Arcachon-ville. La Teste affiche 3 500-4 500 €/m² et un T2 loué entre 900 et 1 000 €/mois, là où Arcachon-ville culmine à 5 000-7 000 €/m². Pour un télétravailleur qui peut se permettre le bassin, le cadre est exceptionnel entre dune, pinède et huîtres. La navette ferroviaire vers Bordeaux en 50 minutes maintient l'accès à la métropole.",
       },
       {
         heading: "Les villes péri-bordelaises sous le radar",
-        body: "D'autres communes offrent un bon rapport qualité-prix autour de Bordeaux : Bruges (au nord, résidentiel, 3 100€/m², calme absolu), Bègles (au sud, jeune, branché, 3 200€/m², tramway direct), Floirac (rive droite, en pleine transformation, 2 500€/m², potentiel de plus-value), Cenon-Lormont (rive droite populaire, tramway, 2 200€/m², en gentrification progressive). Ces communes offrent des prix 30-45% inférieurs à Bordeaux intra-muros avec un accès tramway de moins de 20 min au centre.",
+        body: "D'autres communes offrent un bon rapport qualité-prix autour de Bordeaux. Bruges au nord est résidentiel et très calme à 3 100 €/m². Bègles au sud est jeune et branchée à 3 200 €/m² avec un tramway direct. Floirac, rive droite, est en pleine transformation à 2 500 €/m² avec un beau potentiel de plus-value. Cenon-Lormont, plus populaire mais bien desservie par le tramway, tourne autour de 2 200 €/m² avec une gentrification progressive. Toutes ces communes offrent 30 à 45 % de moins que Bordeaux intra-muros avec un accès tramway de moins de 20 minutes au centre.",
       },
     ],
     relatedCities: ["bordeaux", "libourne", "arcachon", "la-rochelle", "bayonne", "biarritz"],
@@ -3257,34 +3257,34 @@ export const GUIDES: Guide[] = [
     category: "lifestyle",
     metaTitle: "Villes France RSE développement durable 2025 — classement | MeilleurVille",
     metaDesc: "Quelles villes françaises sont les plus engagées pour le développement durable en 2025 ? Grenoble, Nantes, Rennes, Strasbourg… Notre classement pour les profils RSE et éco-responsables.",
-    intro: "Les profils sensibles à l'écologie, au développement durable et à la responsabilité sociale d'entreprise (RSE) ont des critères de choix résidentiel très spécifiques : mobilité douce, commerces éthiques et locaux, végétalisation urbaine, gouvernance locale engagée, et présence d'une communauté d'entrepreneurs sociaux et d'associations. Ce guide classe les villes les plus alignées avec ces valeurs.",
+    intro: "Les profils sensibles à l'écologie, au développement durable et à la RSE ont des critères résidentiels très spécifiques : mobilité douce, commerces éthiques et locaux, végétalisation urbaine, gouvernance engagée, communauté d'entrepreneurs sociaux et d'associations. Voici les villes les plus alignées avec ces valeurs.",
     readMinutes: 8,
     publishedAt: "2026-04-30",
     updatedAt: "2026-05-06",
     sections: [
       {
         heading: "Les critères d'une ville « durable » en 2025",
-        body: "Une ville durable pour un habitant (pas seulement pour un classement) se définit par : des transports en commun ou pistes cyclables qui permettent de se passer de voiture, des marchés paysans, épiceries en vrac et circuits courts accessibles, une végétalisation urbaine significative (parcs, jardins partagés), une politique locale engagée (PCAET, Plan Vélo, neutralité carbone), et une communauté active d'associations, coopératives et entreprises à mission. Ces éléments sont vérifiables — ce ne sont pas que des slogans de communication.",
+        body: "Une ville durable pour un habitant, pas juste pour un classement, se définit par plusieurs éléments concrets. Des transports en commun ou des pistes cyclables qui permettent vraiment de se passer de voiture. Des marchés paysans, épiceries en vrac et circuits courts accessibles à pied. Une végétalisation urbaine significative avec parcs et jardins partagés. Une politique locale engagée (PCAET, Plan Vélo, neutralité carbone). Et une communauté active d'associations, coopératives et entreprises à mission. Ces éléments se vérifient sur le terrain, ce ne sont pas que des slogans de comm.",
       },
       {
         heading: "Grenoble : la pionnière et son écosystème",
-        body: "Grenoble est régulièrement classée première ville française pour son engagement écologique concret : 1er plan vélo métropolitain de France (300 km de pistes), candidature ZFE (Zone à Faibles Émissions) avancée, programme de végétalisation urbaine, nombreuses épiceries en vrac et coopératives alimentaires, université avec labo RSE actif, forte densité d'associations environnementales. La ville a des défauts (pollution hivernale par inversion thermique) mais aucune autre ville française n'a autant institutionnalisé l'approche durable depuis aussi longtemps.",
+        body: "Grenoble est régulièrement classée première ville française pour son engagement écologique concret. Premier plan vélo métropolitain de France avec 300 km de pistes, ZFE avancée, programme de végétalisation urbaine, nombreuses épiceries en vrac et coopératives alimentaires, université avec labo RSE actif, forte densité d'associations environnementales. La ville a ses défauts (pollution hivernale par inversion thermique), mais aucune autre n'a autant institutionnalisé l'approche durable depuis aussi longtemps.",
       },
       {
         heading: "Nantes et Rennes : les métropoles à mission",
-        body: "Nantes s'est distinguée par son plan de végétalisation urbain (Nantes en Commun), son réseau de jardins partagés (160+), son marché de la Beaujoire bio et local, et sa scène de startups à mission (B-Corp, entreprises sociales). Rennes a investi massivement dans le vélo (réseau Star Express), les circuits courts et la commande publique locale. Les deux villes ont des labos d'innovation sociale actifs et une scène RSE corporative dense (grandes entreprises agroalimentaires bretonnes en transition).",
+        body: "Nantes se distingue par son plan de végétalisation urbain Nantes en Commun, son réseau de plus de 160 jardins partagés, son marché de la Beaujoire bio et local, et sa scène de startups à mission (B-Corp, entreprises sociales). Rennes a investi massivement dans le vélo via Star Express, les circuits courts et la commande publique locale. Les deux villes ont des labos d'innovation sociale actifs et une scène RSE corporative dense, portée par les grandes entreprises agroalimentaires bretonnes en transition.",
       },
       {
         heading: "Strasbourg et Bordeaux : l'engagement par les mobilités",
-        body: "Strasbourg est la capitale française du vélo : 650 km de pistes cyclables pour 280 000 habitants, soit un réseau plus dense que toute autre ville française. 15% des déplacements se font à vélo (record national). Son marché de Noël bio et artisanal, ses fermes urbaines en périphérie (Terreau Libre), et ses associations éco-citoyennes très actives complètent ce tableau. Bordeaux : programme REV (Réseau Express Vélo), Fort du Hâ transformé en jardin partagé, marché des Capucins bio, nombreuses AMAP et coopératives alimentaires.",
+        body: "Strasbourg est la capitale française du vélo : 650 km de pistes cyclables pour 280 000 habitants, soit un réseau plus dense que toute autre ville française. 15 % des déplacements se font à vélo, record national. Son marché de Noël bio et artisanal, ses fermes urbaines en périphérie comme Terreau Libre et ses associations éco-citoyennes très actives complètent le tableau. Bordeaux suit avec son Réseau Express Vélo, le Fort du Hâ transformé en jardin partagé, le marché des Capucins bio, et un tissu dense d'AMAP et de coopératives alimentaires.",
       },
       {
         heading: "Les villes surprises : Lons-le-Saunier, Valence, Montpellier",
-        body: "Des villes moins connues surprennent par leur engagement. Lons-le-Saunier (Jura) : ville pionnière du « zéro déchet » municipal (moins de 200kg/habitant/an). Valence (Drôme) : transition agro-écologique intense, réseau d'AMAP dense, Ferme Urbaine de Valence active. Montpellier : plan arbres ambitieux (10 000 arbres en 5 ans), vélos électriques subventionnés, marché du Lez bio quotidien. Ces villes prouvent qu'il ne faut pas être grande pour être durable.",
+        body: "Des villes moins connues surprennent par leur engagement. Lons-le-Saunier, dans le Jura, est pionnière du « zéro déchet » municipal avec moins de 200 kg par habitant et par an. Valence, dans la Drôme, mène une transition agro-écologique intense avec un réseau d'AMAP dense et une ferme urbaine active. Montpellier déploie un plan arbres ambitieux (10 000 arbres en 5 ans), subventionne les vélos électriques et tient un marché du Lez bio quotidien. La preuve qu'il ne faut pas être grande pour être durable.",
       },
       {
         heading: "Comment évaluer concrètement une ville avant de s'y installer",
-        body: "Critères concrets à vérifier : 1. Score réseau vélo (Strava Global Heatmap ou baromètre FUB) ; 2. Nombre d'AMAP (Association pour le Maintien de l'Agriculture Paysanne) dans un rayon de 10 km ; 3. Label « Territoire Engagé Transition Écologique » (marque ADEME) ; 4. Présence d'un repair café ou recyclerie active ; 5. Score air (Indice ATMO) ; 6. Présence de jardins partagés (base Open Data Jardins). Ces indicateurs sont tous publics et permettent une comparaison objective entre villes au-delà des communications municipales.",
+        body: "Quelques indicateurs concrets à vérifier avant de signer. Le score du réseau vélo via le baromètre FUB ou la Strava Global Heatmap. Le nombre d'AMAP dans un rayon de 10 km. Le label « Territoire Engagé Transition Écologique » de l'ADEME. La présence d'un repair café ou d'une recyclerie active. L'Indice ATMO local pour la qualité de l'air. Et la présence de jardins partagés via la base Open Data. Ces indicateurs sont tous publics et permettent une comparaison objective bien au-delà des communications municipales.",
       },
     ],
     relatedCities: ["grenoble", "nantes", "rennes", "strasbourg", "bordeaux", "montpellier"],
@@ -3437,34 +3437,34 @@ export const GUIDES: Guide[] = [
     category: "region",
     metaTitle: "Vivre Savoie et Haute-Savoie 2025 — guide complet | MeilleurVille",
     metaDesc: "Annecy, Chambéry, Aix-les-Bains, Thonon, Annemasse… Notre guide complet pour s'installer en Savoie et Haute-Savoie en 2025 : prix, qualité de vie, ski et transports.",
-    intro: "Les deux Savoie (Savoie et Haute-Savoie) forment l'une des régions les plus attractives de France pour la qualité de vie : montagnes, lacs, gastronomie, air pur, dynamisme économique et une connexion genevoise qui offre des opportunités salariales uniques. Ce guide couvre les principales villes pour vous aider à choisir votre base dans les Alpes du Nord.",
+    intro: "Les deux Savoie forment l'une des régions les plus attractives de France pour la qualité de vie : montagnes, lacs, gastronomie, air pur, dynamisme économique et une connexion genevoise qui offre des opportunités salariales uniques. Voici les principales villes pour choisir sa base dans les Alpes du Nord.",
     readMinutes: 8,
     publishedAt: "2026-04-30",
     updatedAt: "2026-01-17",
     sections: [
       {
         heading: "Annecy : le joyau des Alpes du Nord",
-        body: "Annecy (125 000 hab) est systématiquement classée première ou deuxième ville de France pour la qualité de vie. Le lac d'Annecy (2e lac le plus propre d'Europe selon l'OMS), les canaux du Vieux-Annecy, le château médiéval et les montagnes environnantes constituent un cadre unique en Europe. Contrepartie : prix immobiliers parmi les plus élevés hors IDF et Côte d'Azur (4 500-6 000€/m²). Économie solide : haute technologie (Dexxon, Hydronef), tourisme, gastronomie.",
+        body: "Annecy et ses 125 000 habitants sont systématiquement classés première ou deuxième ville de France pour la qualité de vie. Le lac, deuxième le plus propre d'Europe selon l'OMS, les canaux du Vieux-Annecy, le château médiéval et les montagnes environnantes constituent un cadre unique sur le continent. Contrepartie attendue : des prix immobiliers parmi les plus élevés hors IDF et Côte d'Azur, entre 4 500 et 6 000 €/m². Économie solide entre haute technologie (Dexxon, Hydronef), tourisme et gastronomie.",
       },
       {
         heading: "Chambéry : l'alternative abordable",
-        body: "Chambéry (60 000 hab) est la capitale historique de la Savoie — moins connue qu'Annecy mais très appréciée de ceux qui cherchent la qualité de vie savoyarde à prix plus accessibles. Prix : 2 800-3 500€/m², soit 35-40% de moins qu'Annecy. Montagnes accessibles (Chartreuse à 20 min, Bauges à 15 min, Belledonne à 30 min), lac du Bourget à 12 km (plus grand lac naturel de France), TGV Paris-Chambéry 3h. Université Savoie Mont Blanc, vie culturelle active.",
+        body: "Chambéry et ses 60 000 habitants forment la capitale historique de la Savoie, moins connue qu'Annecy mais très appréciée par ceux qui cherchent la qualité de vie savoyarde à prix plus doux. Prix entre 2 800 et 3 500 €/m², soit 35 à 40 % de moins qu'Annecy. Montagnes accessibles (Chartreuse à 20 min, Bauges à 15, Belledonne à 30), lac du Bourget (plus grand lac naturel de France) à 12 km, TGV Paris en 3h. Université Savoie Mont Blanc et vie culturelle active.",
       },
       {
-        heading: "Aix-les-Bains : thermes et Lac du Bourget",
-        body: "Aix-les-Bains (28 000 hab) bénéficie d'un site exceptionnel sur les rives du lac du Bourget. Ville thermale réputée (rhumatologie), infrastructure médicale et hôtelière de qualité, belle architecture Art Déco des années folles. Prix : 3 000-3 600€/m². Très prisée des retraités actifs pour son cadre, ses thermes remboursés, et son accès facile à Chambéry (15 min) et Annecy (45 min). Idéale pour les familles cherchant l'équilibre nature/services.",
+        heading: "Aix-les-Bains : thermes et lac du Bourget",
+        body: "Aix-les-Bains et ses 28 000 habitants profitent d'un site exceptionnel au bord du lac du Bourget. Ville thermale réputée en rhumatologie, infrastructure médicale et hôtelière de qualité, belle architecture Art déco des années folles. Prix entre 3 000 et 3 600 €/m². Très prisée des retraités actifs pour son cadre, ses thermes remboursés et son accès facile à Chambéry en 15 minutes et Annecy en 45. Idéal pour les familles qui cherchent l'équilibre nature et services.",
       },
       {
         heading: "Thonon-les-Bains et la Haute-Savoie lac Léman",
-        body: "Thonon-les-Bains (35 000 hab) est sur les rives du lac Léman, à 15 min de Genève. La vocation transfrontalière est forte : de nombreux Genevois frontaliers habitent Thonon pour des salaires suisses et des prix français. L'immobilier y est donc sous forte pression : 3 500-4 500€/m². Annemasse (35 000 hab), attenante à Genève, est encore plus directement impactée par l'économie genevoise (4 500-5 500€/m²). Ces villes sont très intéressantes pour les actifs travaillant en Suisse.",
+        body: "Thonon-les-Bains et ses 35 000 habitants longent les rives du lac Léman à 15 minutes de Genève. La vocation transfrontalière est forte : de nombreux frontaliers genevois habitent Thonon pour des salaires suisses et des prix français. L'immobilier y est sous forte pression, entre 3 500 et 4 500 €/m². Annemasse, attenante à Genève, est encore plus directement impactée par l'économie genevoise, entre 4 500 et 5 500 €/m². Deux villes très intéressantes pour les actifs employés en Suisse.",
       },
       {
         heading: "L'économie transfrontalière : la variable genevoise",
-        body: "Plus de 85 000 travailleurs frontaliers français traversent quotidiennement la frontière franco-suisse pour travailler à Genève. Salaires moyens +60% par rapport aux équivalents français, avantages sociaux complets, CHF stable. En contrepartie : embouteillages aux postes frontières, vie sociale parfois difficile (collègues suisses restent côté suisse), et pression immobilière qui a fait tripler les prix dans les communes frontalières. Pour un travailleur qualifié, l'équation reste très avantageuse.",
+        body: "Plus de 85 000 frontaliers français traversent chaque jour la frontière pour travailler à Genève. Salaires moyens supérieurs de 60 % aux équivalents français, avantages sociaux complets, CHF stable. En face : embouteillages aux postes frontières, vie sociale parfois difficile (les collègues suisses restent souvent côté suisse), et une pression immobilière qui a triplé les prix dans les communes frontalières. Pour un profil qualifié, l'équation reste très avantageuse.",
       },
       {
         heading: "Budget et conclusions : quelle Savoie pour vous ?",
-        body: "Pour un couple d'actifs avec budget moyen : Chambéry offre le meilleur rapport qualité-prix (montagne, lac, TGV, universités). Pour un retraité actif : Aix-les-Bains (thermes, lac, prix modéré, services). Pour un travailleur genevois : Thonon ou Annemasse. Pour qui veut le summum et peut se le permettre : Annecy. Pour les amateurs de sport d'hiver pur sans surpayer : vallée de Tarentaise (Moutiers, Moûtiers) ou Savoie profonde (Albertville, Bourg-Saint-Maurice) — mais marché de l'emploi local limité sans Genève ou Lyon.",
+        body: "Pour un couple d'actifs au budget moyen, Chambéry offre le meilleur rapport qualité-prix avec montagne, lac, TGV et universités. Pour un retraité actif, Aix-les-Bains coche thermes, lac, prix modéré et services. Pour un travailleur genevois, Thonon ou Annemasse. Pour qui veut le summum et peut se le permettre, Annecy. Pour les amateurs de sport d'hiver pur sans surpayer, la vallée de Tarentaise (Moûtiers) ou la Savoie profonde (Albertville, Bourg-Saint-Maurice), à condition d'accepter un marché de l'emploi local limité hors Genève ou Lyon.",
       },
     ],
     relatedCities: ["annecy", "chambery", "aix-les-bains", "thonon-les-bains", "annemasse", "grenoble"],
@@ -3576,12 +3576,12 @@ export const GUIDES: Guide[] = [
         body: "Les causes du maintien de loyers bas sont multiples : tissu économique diversifié mais non en tension, population stable ou en légère baisse, offre locative abondante (patrimoine HLM + investisseurs privés faiblement rentabilisés), et éloignement des grands bassins d'emploi. Ces villes ne sont pas moins désirables — elles sont moins connues. C'est précisément leur avantage pour les télétravailleurs, les retraités, et les jeunes ménages en début de vie active.",
       },
       {
-        heading: "Top 5 : les villes à moins de 600€ le T2 avec qualité de vie > 7/10",
-        body: "1. Morlaix (Finistère) : T2 530€, score 7.1/10. Bretagne authentique, viaduc, marché animé, mer à 15 km. 2. Nevers (Nièvre) : T2 490€, score 6.8/10. Bords de Loire, circuit automobile, calme absolu, 2h Paris. 3. Limoges (Haute-Vienne) : T2 530€, score 7.0/10. Grande ville complète, université, porcelaine, accessible. 4. Châteauroux (Indre) : T2 450€, score 6.5/10. Centre géographique de la France, calme. 5. Aurillac (Cantal) : T2 430€, score 6.8/10. Massif Central, nature exceptionnelle, qualité de vie rurale.",
+        heading: "Top 5 : les villes à moins de 600 € le T2 avec qualité de vie supérieure à 7/10",
+        body: "Morlaix dans le Finistère affiche un T2 à 530 € pour un score de 7,1/10, avec une Bretagne authentique, son viaduc, un marché animé et la mer à 15 km. Nevers, dans la Nièvre, propose un T2 à 490 € (score 6,8/10) avec les bords de Loire, le circuit automobile, un calme absolu et Paris à 2h. Limoges, en Haute-Vienne, monte à 530 € pour 7,0/10 : grande ville complète, université, porcelaine, parfaite accessibilité. Châteauroux dans l'Indre tombe à 450 € pour 6,5/10 : centre géographique de la France, très calme. Aurillac dans le Cantal ferme la marche à 430 € pour 6,8/10, avec un Massif Central et une nature exceptionnelle.",
       },
       {
-        heading: "Top 6-10 : entre 600 et 700€ avec bons scores qualité de vie",
-        body: "6. Roanne (Loire) : T2 600€, score 7.0/10. Entre Lyon et Clermont, gastronomie, calme. 7. Angoulême (Charente) : T2 570€, score 7.1/10. Festival BD, patrimoine, qualité de vie douce-amère. 8. Metz (Moselle) : T2 680€, score 7.8/10. Exceptionnel rapport qualité-prix pour une métropole culturelle avec le Centre Pompidou-Metz. 9. Le Mans (Sarthe) : T2 620€, score 7.0/10. Grande ville avec circuit F1, 55 min Paris TGV. 10. Albi (Tarn) : T2 640€, score 7.5/10. UNESCO, Lautrec, Occitanie accessible.",
+        heading: "Top 6 à 10 : entre 600 et 700 € avec bons scores qualité de vie",
+        body: "Roanne, dans la Loire, propose un T2 à 600 € pour 7,0/10, entre Lyon et Clermont, gastronomie et calme. Angoulême, en Charente, monte à 570 € pour 7,1/10 avec son festival BD et son patrimoine. Metz, en Moselle, atteint 680 € pour 7,8/10, rapport qualité-prix exceptionnel pour une métropole culturelle avec le Centre Pompidou-Metz. Le Mans, dans la Sarthe, est à 620 € pour 7,0/10, grande ville avec circuit F1 et Paris à 55 minutes en TGV. Albi, dans le Tarn, ferme à 640 € pour 7,5/10, classé UNESCO, terre de Lautrec et porte de l'Occitanie.",
       },
       {
         heading: "Les pièges à éviter avec les villes à loyers bas",
@@ -3608,23 +3608,23 @@ export const GUIDES: Guide[] = [
     publishedAt: "2025-04-25",
     updatedAt: "2026-05-11",
     intro:
-      "La Côte d'Opale est l'une des destinations françaises les plus méconnues pour s'y installer. À deux heures de Paris par le TGV, à 35 minutes de Londres par l'Eurostar, avec des paysages marins spectaculaires (Caps Blanc-Nez et Gris-Nez classés Grand Site de France), des prix immobiliers parmi les plus bas de la façade maritime française, et une cuisine de la mer incomparable. Tour d'horizon des principales villes.",
+      "La Côte d'Opale est l'une des destinations françaises les plus méconnues pour s'y installer. Deux heures de Paris par le TGV, 35 minutes de Londres par l'Eurostar, des paysages marins spectaculaires aux Caps Blanc-Nez et Gris-Nez classés Grand Site de France, des prix immobiliers parmi les plus bas de la façade maritime française, et une cuisine de la mer incomparable. Tour d'horizon des principales villes.",
     sections: [
       {
         heading: "Boulogne-sur-Mer : la première ville halieutique de France",
-        body: "Boulogne-sur-Mer (55 000 habitants, score MeilleurVille : 6.8/10) est la capitale de la pêche française. Port de pêche, port transmanche, centre historique médiéval sur la haute-ville, Nausicaá (plus grand aquarium d'Europe). Économie diversifiée : pêche, agroalimentaire, tourisme. Loyer T2 : 560€, achat : 1 500-2 200€/m². Liaison directe avec Lille (1h TER) et Paris (2h30 TER). Idéale pour les familles cherchant la mer à prix accessible.",
+        body: "Boulogne-sur-Mer et ses 55 000 habitants (score MeilleurVille 6,8/10) restent la capitale de la pêche française. Port de pêche, port transmanche, centre historique médiéval sur la haute-ville et Nausicaá, le plus grand aquarium d'Europe. Économie diversifiée entre pêche, agroalimentaire et tourisme. Loyer T2 à 560 €, prix d'achat entre 1 500 et 2 200 €/m². Liaison directe avec Lille en 1h de TER et Paris en 2h30. Idéal pour les familles qui cherchent la mer à prix accessible.",
       },
       {
         heading: "Calais : le carrefour européen en pleine transformation",
-        body: "Calais (75 000 habitants, score MeilleurVille : 6.5/10) souffre d'une image négative liée à la crise migratoire, mais la ville se transforme. Loyers parmi les plus bas de la côte (T2 : 500€), liaison Eurostar Londres en 35 min (accès gare Fréthun), zone industrielle dynamique (logistique, chimie). Prix d'achat : 1 200-1 800€/m². La ville s'est engagée dans une rénovation urbaine ambitieuse. Pour les travailleurs transfrontaliers franco-britanniques ou les budgets ultra-serrés.",
+        body: "Calais et ses 75 000 habitants (score 6,5/10) souffrent d'une image négative liée à la crise migratoire, mais la ville se transforme. Loyers parmi les plus bas de la côte (T2 à 500 €), liaison Eurostar Londres en 35 minutes depuis la gare de Fréthun, zone industrielle dynamique entre logistique et chimie. Prix d'achat entre 1 200 et 1 800 €/m². La ville s'est engagée dans une rénovation urbaine ambitieuse. Pour les transfrontaliers franco-britanniques ou les budgets ultra-serrés.",
       },
       {
         heading: "Le Touquet-Paris-Plage : la station de luxe accessible",
-        body: "Le Touquet (5 000 habitants en basse saison) est l'exception : station balnéaire huppée créée au XIXe siècle par des Anglais, avec ses villas dans les pins, son casino, et sa réputation de week-end parisien par excellence. Aéroport avec liaisons UK. Immobilier cher en bord de mer (3 500-6 000€/m²), mais les quartiers résidentiels restent abordables (2 000-3 000€/m²). Pour les télétravailleurs aisés cherchant la Côte d'Opale haut de gamme.",
+        body: "Le Touquet est l'exception du trio : station balnéaire huppée créée au XIXe siècle par des Anglais, avec ses villas dans les pins, son casino et sa réputation de week-end parisien par excellence. Aéroport avec liaisons UK. Immobilier cher en bord de mer entre 3 500 et 6 000 €/m², mais les quartiers résidentiels restent abordables entre 2 000 et 3 000 €/m². Pour les télétravailleurs aisés qui cherchent la Côte d'Opale haut de gamme.",
       },
       {
         heading: "Conclusion : pourquoi la Côte d'Opale mérite plus d'attention",
-        body: "La Côte d'Opale souffre d'un déficit d'image injuste. Ses atouts réels : le littoral le plus spectaculaire du nord de la France, des prix immobiliers 50-70% inférieurs à Normandie ou Bretagne, une connexion directe aux marchés anglais et belge, et une gastronomie marine authentique. Sa faiblesse : un tissu économique fragile dans certaines zones, et un hiver long et venteux. Pour les télétravailleurs qui veulent la mer à prix bas et une connexion européenne directe, c'est imbattable.",
+        body: "La Côte d'Opale souffre d'un déficit d'image injuste. Ses atouts sont pourtant réels : le littoral le plus spectaculaire du nord de la France, des prix immobiliers 50 à 70 % inférieurs à la Normandie ou la Bretagne, une connexion directe aux marchés anglais et belge, et une gastronomie marine authentique. La faiblesse, c'est un tissu économique fragile dans certaines zones et un hiver long et venteux. Pour qui veut la mer à prix bas avec une connexion européenne directe, c'est imbattable.",
       },
     ],
     relatedCities: ["boulogne-sur-mer", "calais", "dunkerque", "arras", "lille"],
@@ -3764,23 +3764,23 @@ export const GUIDES: Guide[] = [
     publishedAt: "2025-04-28",
     updatedAt: "2026-02-09",
     intro:
-      "La Bretagne Nord, de la Côte d'Emeraude aux Abers, en passant par la Côte des Légendes, offre des paysages d'une beauté saisissante et une qualité de vie authentiquement bretonne. Saint-Malo, Dinard, Dinan, Morlaix et Brest dessinent quatre profils très différents. Ce guide vous aide à choisir selon votre situation.",
+      "La Bretagne Nord, de la Côte d'Émeraude aux Abers en passant par la Côte des Légendes, offre des paysages d'une beauté saisissante et une qualité de vie franchement bretonne. Saint-Malo, Dinard, Dinan, Morlaix et Brest dessinent quatre profils très différents. Voici comment choisir selon sa situation.",
     sections: [
       {
         heading: "Saint-Malo : la cité corsaire pour les amoureux de la mer",
-        body: "Saint-Malo (score MeilleurVille : 8.0/10) est l'une des villes les plus emblématiques de Bretagne. La cité intra-muros, reconstruite après 1944, domine une rade magnifique. Tourisme de masse en été (2M visiteurs/an), mais en hiver la ville retrouve son caractère. Loyer T2 : 730€, achat : 3 000-4 500€/m². TGV via Rennes (2h45 Paris). Idéale pour les amateurs de histoire maritime, de Grand Large et d'authenticité bretonne.",
+        body: "Saint-Malo (score MeilleurVille 8,0/10) reste l'une des villes les plus emblématiques de Bretagne. La cité intra-muros, reconstruite après 1944, domine une rade magnifique. Tourisme de masse en été avec 2 millions de visiteurs par an, mais en hiver la ville retrouve son caractère. Loyer T2 à 730 €, achat entre 3 000 et 4 500 €/m². TGV via Rennes en 2h45 jusqu'à Paris. Idéal pour les amateurs d'histoire maritime, de grand large et d'authenticité bretonne.",
       },
       {
         heading: "Dinard : la rivale de Saint-Malo, Belle Époque et résidentielle",
-        body: "Dinard (score MeilleurVille : 7.8/10) est juste en face de Saint-Malo, de l'autre côté de la Rance. Station balnéaire créée par les Britanniques au XIXe siècle, avec ses villas Belle Époque et son festival du film britannique. Plus calme et résidentielle que Saint-Malo. Achat : 2 800-4 500€/m². Idéale pour les retraités aisés et les familles cherchant la Bretagne chic.",
+        body: "Dinard (score 7,8/10) est juste en face de Saint-Malo, de l'autre côté de la Rance. Station balnéaire créée par les Britanniques au XIXe siècle, avec ses villas Belle Époque et son festival du film britannique. Plus calme et résidentielle que sa voisine. Achat entre 2 800 et 4 500 €/m². Idéale pour les retraités aisés et les familles qui visent la Bretagne chic.",
       },
       {
         heading: "Morlaix : l'authenticité bretonne à prix doux",
-        body: "Morlaix (score MeilleurVille : 7.1/10) est la grande surprise de ce guide. Marché couvert animé, viaduc ferroviaire mythique, maisons à lanterne du XVe siècle — Morlaix est une vraie ville bretonne hors des sentiers touristiques. Loyer T2 : 530€, achat : 1 400-1 900€/m². TER vers Brest (35 min) et Paris via Rennes (3h30). La meilleure option budget de Bretagne Nord.",
+        body: "Morlaix (score 7,1/10) est la grande surprise de ce guide. Marché couvert animé, viaduc ferroviaire mythique, maisons à lanterne du XVe siècle : c'est une vraie ville bretonne hors des sentiers touristiques. Loyer T2 à 530 €, achat entre 1 400 et 1 900 €/m². TER vers Brest en 35 minutes et Paris via Rennes en 3h30. La meilleure option budget de Bretagne Nord.",
       },
       {
         heading: "Brest : la métropole bretonne dynamique et étudiante",
-        body: "Brest (score MeilleurVille : 7.2/10) est la grande métropole de Bretagne Ouest. Port militaire, université, Centre Océanographique, téléphérique urbain et tramway exemplaire. Longtemps sous-estimée, Brest se réinvente depuis 15 ans avec des investissements culturels importants. Loyer T2 : 620€, achat : 1 800-2 400€/m². Idéale pour les jeunes actifs, les familles et les télétravailleurs cherchant une vraie métropole bretonne à prix modéré.",
+        body: "Brest (score 7,2/10) est la grande métropole de Bretagne Ouest. Port militaire, université, Centre océanographique, téléphérique urbain et tramway exemplaire. Longtemps sous-estimée, Brest se réinvente depuis 15 ans avec des investissements culturels importants. Loyer T2 à 620 €, achat entre 1 800 et 2 400 €/m². Idéale pour les jeunes actifs, les familles et les télétravailleurs en quête d'une vraie métropole bretonne à prix modéré.",
       },
     ],
     relatedCities: ["saint-malo", "dinard", "morlaix", "brest", "dinan"],
@@ -3961,27 +3961,27 @@ export const GUIDES: Guide[] = [
     readMinutes: 8,
     publishedAt: "2025-04-18",
     updatedAt: "2026-04-14",
-    intro: "Tulle, Brive, Limoges : le Limousin est la région française avec le meilleur ratio qualité de vie/prix. Vert, calme, sécurisé, abordable — les télétravailleurs l'ont découvert.",
+    intro: "Tulle, Brive, Limoges : le Limousin tient le meilleur ratio qualité de vie / prix du pays. Vert, calme, sécurisé, abordable. Les télétravailleurs l'ont compris avant tout le monde.",
     sections: [
       {
         heading: "Le Limousin, eldorado des télétravailleurs",
-        body: "Depuis 2020, la Corrèze et la Haute-Vienne connaissent un afflux de télétravailleurs parisiens et lyonnais attirés par des prix immobiliers parmi les plus bas de France (800-1 600€/m²) et une qualité environnementale exceptionnelle. Forêts, rivières, lacs, air pur, zéro pollution — et internet fibre déployé à 95% du territoire. Les maisons de caractère avec jardin se trouvent pour 80 000-150 000€.",
+        body: "Depuis 2020, la Corrèze et la Haute-Vienne connaissent un afflux de télétravailleurs parisiens et lyonnais attirés par des prix immobiliers parmi les plus bas de France, entre 800 et 1 600 €/m², et par une qualité environnementale exceptionnelle. Forêts, rivières, lacs, air pur, zéro pollution, et une fibre déployée à 95 % du territoire. Les maisons de caractère avec jardin se trouvent pour 80 000 à 150 000 €.",
       },
       {
         heading: "Brive-la-Gaillarde : la porte d'entrée la plus accessible",
-        body: "Brive (46 000 hab.) est la ville la plus dynamique du Limousin avec un pôle TGV (Paris en 3h30, Bordeaux en 1h), un aéroport, des zones d'activités et une vie culturelle active. Centre-ville animé, marché du samedi légendaire, rugby en Top 14. Prix au m² : 1 400-2 200€. Loyers T2 : 480-650€. Pour les actifs qui veulent la 'vraie vie de province' sans sacrifier les services d'une ville moyenne bien équipée.",
+        body: "Brive et ses 46 000 habitants forment la ville la plus dynamique du Limousin avec un pôle TGV (Paris en 3h30, Bordeaux en 1h), un aéroport, des zones d'activités et une vie culturelle active. Centre-ville animé, marché du samedi légendaire, rugby en Top 14. Prix au m² entre 1 400 et 2 200 €. Loyers T2 entre 480 et 650 €. Pour les actifs qui veulent la « vraie vie de province » sans sacrifier les services d'une ville moyenne bien équipée.",
       },
       {
         heading: "Tulle : la capitale de l'accordéon et des cascades",
-        body: "Tulle (15 000 hab.) est la préfecture de la Corrèze, dans un site géographique saisissant — une vallée encaissée bordée de maisons à encorbellement. Festival accordéon mondialement connu, cathédrale gothique, accès aux gorges de la Truyère et du Dordogne. Prix immobiliers plancher : 800-1 500€/m². Loyers T2 : 400-550€. Pour les retraités et les artistes qui cherchent l'authenticité corrézienne la plus brute.",
+        body: "Tulle et ses 15 000 habitants forment la préfecture de la Corrèze, dans un site géographique saisissant : une vallée encaissée bordée de maisons à encorbellement. Festival accordéon mondialement connu, cathédrale gothique, accès aux gorges de la Truyère et de la Dordogne. Prix immobiliers plancher entre 800 et 1 500 €/m². Loyers T2 entre 400 et 550 €. Pour les retraités et artistes qui cherchent l'authenticité corrézienne la plus brute.",
       },
       {
         heading: "Limoges : réhabilitation d'une capitale porcelainière",
-        body: "Limoges (130 000 hab.) souffre d'une image désuète mais s'est considérablement améliorée : tramway moderne, centre-ville rénové, gastronomie reconnue, musée des Beaux-Arts exceptionnel. TGV Paris en 2h10. Prix au m² très bas : 1 400-2 200€. Grande ville avec toutes les commodités à prix de petite ville. Pour les familles qui veulent les services d'une grande ville avec les prix d'une ville moyenne.",
+        body: "Limoges et ses 130 000 habitants souffrent d'une image un peu désuète, mais la ville s'est considérablement améliorée : tramway moderne, centre-ville rénové, gastronomie reconnue, musée des Beaux-Arts exceptionnel. TGV Paris en 2h10. Prix au m² très bas, entre 1 400 et 2 200 €. Grande ville avec toutes les commodités à prix de petite ville. Pour les familles qui veulent les services d'une grande ville avec les prix d'une ville moyenne.",
       },
       {
         heading: "Maisons de caractère : le marché qu'il faut saisir",
-        body: "Le Limousin offre les meilleurs prix de France pour les maisons de caractère en pierre. Une ferme rénovée avec 3 ha de terrain coûte 180 000-280 000€ là où le même bien vaudrait 800 000€ en Dordogne ou 1,2M€ en Provence. La fibre est déployée, les artisans locaux sont compétents et moins chers qu'ailleurs. Le marché reste accessible en 2025, mais les flux de télétravailleurs font monter les prix (+ 15% depuis 2020). À ne pas trop attendre.",
+        body: "Le Limousin offre les meilleurs prix de France pour les maisons de caractère en pierre. Une ferme rénovée avec 3 hectares de terrain coûte entre 180 000 et 280 000 €, là où le même bien vaudrait 800 000 € en Dordogne ou 1,2 million d'euros en Provence. La fibre est déployée, les artisans locaux sont compétents et moins chers qu'ailleurs. Le marché reste accessible en 2025, mais les flux de télétravailleurs font grimper les prix de 15 % depuis 2020. Ne pas trop attendre.",
       },
     ],
     relatedCities: ["limoges", "brive-la-gaillarde", "tulle"],
@@ -5011,27 +5011,27 @@ export const GUIDES: Guide[] = [
     readMinutes: 10,
     publishedAt: "2026-04-01",
     updatedAt: "2026-02-05",
-    intro: "L'investissement locatif en France en 2025 se concentre sur deux stratégies : les villes universitaires pour la colocation étudiante, et les villes moyennes avec fort déficit de logements pour le meublé classique. Ce guide présente les marchés où le ratio prix d'achat / loyer offre les meilleurs rendements bruts.",
+    intro: "L'investissement locatif en France en 2025 se joue sur deux stratégies. Les villes universitaires pour la colocation étudiante, et les villes moyennes avec fort déficit de logements pour le meublé classique. Voici les marchés où le ratio prix d'achat / loyer offre les meilleurs rendements bruts.",
     sections: [
       {
         heading: "Les rendements bruts : ce que les chiffres disent vraiment",
-        body: "Un rendement brut de 7 % sur un T3 à 150 000€ signifie 10 500€ de loyers annuels, soit 875€/mois. C'est atteignable dans des villes comme Saint-Étienne (7-9 % brut), Limoges (6-8 %), Mulhouse (7-9 %), Roubaix (7-9 %), Châteauroux (7-9 %). La contrepartie : vacances locatives plus élevées que dans les marchés tendus. Le rendement net (après charges, taxe foncière, gestion) est généralement 3 à 4 points en dessous.",
+        body: "Un rendement brut de 7 % sur un T3 à 150 000 € signifie 10 500 € de loyers annuels, soit 875 €/mois. C'est atteignable à Saint-Étienne (7 à 9 % brut), Limoges (6 à 8 %), Mulhouse (7 à 9 %), Roubaix (7 à 9 %) ou Châteauroux (7 à 9 %). La contrepartie, c'est une vacance locative plus élevée que dans les marchés tendus. Le rendement net, après charges, taxe foncière et gestion, est généralement 3 à 4 points en dessous.",
       },
       {
         heading: "La colocation étudiante : villes universitaires à bon rapport",
-        body: "Les villes universitaires avec un ratio logements/étudiants tendu offrent d'excellents rendements en colocation : Tours (8 000 étudiants pour un marché locatif sous tension), Poitiers (28 000 étudiants, prix immobilier encore raisonnable), Limoges (13 000 étudiants, prix très bas), Reims (30 000 étudiants, marché porteur). La clé : acheter à moins de 10 min à pied des campus, dans des appartements faciles à diviser (T4-T5).",
+        body: "Les villes universitaires avec un ratio logements / étudiants tendu offrent d'excellents rendements en colocation. Tours, avec ses 8 000 étudiants sur un marché locatif sous tension. Poitiers, 28 000 étudiants et un immobilier encore raisonnable. Limoges, 13 000 étudiants et des prix très bas. Reims, 30 000 étudiants et un marché porteur. La clé, c'est d'acheter à moins de 10 minutes à pied des campus, dans des appartements faciles à diviser (T4-T5).",
       },
       {
         heading: "La location meublée touristique : où ça marche encore",
-        body: "La location courte durée (type Airbnb) est en recul dans les grandes villes (Paris, Lyon, Bordeaux ont durci les règles). Mais elle reste très rentable dans des villes moyennes touristiques : Colmar, Annecy, Sarlat, Bayeux, Honfleur, Carcassonne, Avignon. Taux d'occupation estival : 80-95 %. Règle d'or : achetez un appartement de caractère en centre-ville historique, pas un appartement récent en périphérie.",
+        body: "La location courte durée type Airbnb recule dans les grandes villes (Paris, Lyon, Bordeaux ont durci les règles). Mais elle reste très rentable dans certaines villes moyennes touristiques : Colmar, Annecy, Sarlat, Bayeux, Honfleur, Carcassonne, Avignon. Taux d'occupation estival entre 80 et 95 %. Règle d'or : on achète un appartement de caractère en centre-ville historique, pas un récent en périphérie.",
       },
       {
         heading: "Les villes à éviter et les red flags",
-        body: "Méfiez-vous des taux de vacance locative supérieurs à 15 % (signe d'un marché peu liquide), des villes en décroissance démographique sans projet de renouveau (certains bassins miniers du Nord-Pas-de-Calais), et des copropriétés avec des charges élevées sans réserves de travaux. Sur SeLoger, filtrez les annonces avec 'bien vendu' pour voir le délai moyen de commercialisation.",
+        body: "On se méfie des taux de vacance locative supérieurs à 15 %, signe d'un marché peu liquide, des villes en décroissance démographique sans projet de renouveau (certains bassins miniers du Nord-Pas-de-Calais), et des copropriétés avec des charges élevées et zéro réserve de travaux. Sur SeLoger, filtrer les annonces marquées « bien vendu » donne une idée du délai moyen de commercialisation local.",
       },
       {
         heading: "Nos 3 coups de cœur investissement 2025",
-        body: "1. Limoges : université de 14 000 étudiants, CHU, prix plancher (1 200-1 800€/m²), rendements bruts de 7-9 %. 2. Tours : 35 000 étudiants, TGV Paris en 55 min, marché locatif tendu, rendements 5-7 %. 3. Villefranche-sur-Saône : bassin d'emploi dynamique, demande locative de travailleurs du Beaujolais lyonnais, prix 30 % sous Lyon, rendements 5-6 %.",
+        body: "Limoges arrive en tête avec son université de 14 000 étudiants, son CHU, des prix plancher entre 1 200 et 1 800 €/m² et des rendements bruts de 7 à 9 %. Tours suit avec 35 000 étudiants, le TGV Paris en 55 minutes, un marché locatif tendu et des rendements de 5 à 7 %. Villefranche-sur-Saône ferme le podium grâce à un bassin d'emploi dynamique, une demande locative tirée par les travailleurs du Beaujolais lyonnais, des prix 30 % sous Lyon et des rendements de 5 à 6 %.",
       },
     ],
     relatedCities: ["limoges", "tours", "villefranche-sur-saone", "reims", "poitiers"],
@@ -11483,31 +11483,31 @@ export const GUIDES: Guide[] = [
     publishedAt: "2026-05-13",
     updatedAt: "2026-01-06",
     intro:
-      "Strasbourg est la ville française avec la part modale vélo la plus élevée (~16 % des déplacements, premier rang national). 600 km de pistes cyclables sécurisées, 6 lignes de tram desservant la Ville-Neuve, La Robertsau, Kœnigshoffen, Esplanade, Vélhop en libre-service. La ZFE strasbourgeoise rend l'usage voiture quotidien progressivement contraint. Voici le vrai bilan 2026.",
+      "Strasbourg est la ville française avec la part modale vélo la plus élevée, environ 16 % des déplacements, soit le premier rang national. 600 km de pistes cyclables sécurisées, 6 lignes de tram qui desservent la Ville-Neuve, la Robertsau, Kœnigshoffen, l'Esplanade, plus le Vélhop en libre-service. La ZFE strasbourgeoise contraint progressivement l'usage voiture du quotidien. Voici le vrai bilan 2026.",
     sections: [
       {
         heading: "Budget mobilité no-car à Strasbourg",
-        body: "Abonnement CTS annuel 2026 : ~520 €/an (Pass'Mensuel), remboursement employeur 50 %. Vélhop longue durée 1 mois : ~30 €/mois, soit ~360 €/an si pris en continu — mais la plupart des Strasbourgeois ont leur propre vélo (achat ~600 € amorti sur 5 ans = 120 €/an). Citiz Strasbourg : ~250 €/an en usage occasionnel. Total no-car strasbourgeois : ~600–800 €/an. Coût voiture local : ~4 200 €/an. Économie : ~3 500 €/an.",
+        body: "Abonnement CTS annuel 2026 autour de 520 € avec un remboursement employeur de 50 %. Vélhop longue durée à 30 €/mois, soit 360 €/an en continu, mais la plupart des Strasbourgeois ont leur propre vélo (achat 600 €, amorti sur 5 ans, soit 120 €/an). Citiz Strasbourg en usage occasionnel ressort à 250 €/an. Total no-car strasbourgeois entre 600 et 800 €/an, contre 4 200 €/an pour une voiture locale. Économie nette autour de 3 500 €/an.",
       },
       {
         heading: "Quartiers no-car friendly",
-        body: "Top : Centre (Grande Île UNESCO), Krutenau, Neudorf, Esplanade, Tribunal. Petite-France piétonne. Densité commerces maximale, tram à 5 min, vélo praticable toute l'année (sauf grand froid hiver). Bons : Robertsau (tram E), Kœnigshoffen (tram F), Cronenbourg, Neuhof centre. Plus difficiles : Hautepierre périphérique (vélo + tram tient mais distance pèse), Wacken hors événements. Banlieue : Schiltigheim, Bischheim, Illkirch très praticables grâce au tram et aux pistes cyclables.",
+        body: "En tête : Centre (Grande Île UNESCO), Krutenau, Neudorf, Esplanade, Tribunal, avec la Petite-France piétonne. Densité commerciale maximale, tram à 5 minutes, vélo praticable toute l'année hors grand froid hivernal. Bons quartiers : Robertsau via le tram E, Kœnigshoffen sur le F, Cronenbourg, Neuhof centre. Plus difficiles : Hautepierre périphérique (vélo + tram tiennent mais la distance pèse), Wacken hors événements. La banlieue Schiltigheim, Bischheim et Illkirch reste très praticable grâce au tram et aux pistes.",
       },
       {
         heading: "Problèmes opérationnels",
-        body: "(1) Hiver — neige rare mais verglas occasionnel, vélo praticable avec pneus cloutés ou tram. (2) Courses lourdes — Carrefour, Cora, Lidl livrent, vélo cargo (Vélhop XL en libre-service) couvre. (3) Bricolage — Castorama Hautepierre accessible en tram + Vélhop XL retour. (4) Enfants — école à pied/vélo 90 % cas. (5) Sorties Alsace rurale (Route des Vins, Vosges) — TER Mulhouse/Colmar/Sélestat couvre 70 %, autopartage pour le reste.",
+        body: "Côté hiver, la neige est rare mais le verglas occasionnel : vélo praticable avec pneus cloutés ou bascule sur le tram. Pour les courses lourdes, Carrefour, Cora et Lidl livrent, et le vélo cargo Vélhop XL en libre-service couvre le reste. Bricolage chez Castorama Hautepierre, accessible en tram avec un retour Vélhop XL. Pour les enfants, école à pied ou à vélo dans 90 % des cas. Pour les sorties Alsace rurale (Route des Vins, Vosges), le TER Mulhouse / Colmar / Sélestat couvre 70 % des besoins, l'autopartage prend le relais sur le reste.",
       },
       {
         heading: "Week-ends et vacances",
-        body: "TGV Paris 1h45, Lyon 3h30, Marseille 5h, Francfort 2h, Bruxelles 4h. TER excellent vers Colmar (30 min), Mulhouse (50 min), Bâle (1h20), Sarrebruck (1h). Avantage SNCF + TER fluo Alsace : ~400 €/an. Allemagne proche (Kehl à pied/tram). Total mobilité hors quotidien : ~1 000–1 500 €/an.",
+        body: "TGV Paris 1h45, Lyon 3h30, Marseille 5h, Francfort 2h, Bruxelles 4h. TER excellent vers Colmar en 30 minutes, Mulhouse 50, Bâle 1h20, Sarrebruck 1h. Carte Avantage SNCF + TER fluo Alsace à environ 400 €/an. L'Allemagne est à portée immédiate (Kehl à pied ou en tram). Total mobilité hors quotidien entre 1 000 et 1 500 €/an.",
       },
       {
         heading: "Pièges classiques",
-        body: "(1) Hiver Plaine d'Alsace — brouillard givrant fait reculer beaucoup de vélocyclistes occasionnels ~15 jours/an. (2) Familles habitant Bischwiller/Haguenau et travaillant Strasbourg — TER fonctionne mais navette parents-enfants compliquée sans voiture. (3) Ski Vosges (Champ du Feu, Lac Blanc, Schlucht) — bus ski station Strasbourg saisonnier seulement, location week-end nécessaire. (4) Cyclisme intensif quotidien — pluies et vent automnal cumulés peuvent décourager après 2–3 ans.",
+        body: "Premier piège, l'hiver en Plaine d'Alsace : le brouillard givrant fait reculer beaucoup de cyclistes occasionnels une quinzaine de jours par an. Deuxième, les familles installées à Bischwiller ou Haguenau qui travaillent à Strasbourg : le TER fonctionne mais la navette parents-enfants devient compliquée sans voiture. Troisième, le ski Vosges (Champ du Feu, Lac Blanc, Schlucht) : le bus ski-station n'est que saisonnier, prévoir une location week-end. Quatrième, le cyclisme intensif au quotidien : pluies et vent automnal cumulés peuvent décourager après 2 ou 3 ans.",
       },
       {
         heading: "Pour qui ça marche",
-        body: "Excellent pour : tous profils centre + petite couronne (Schiltigheim, Illkirch). Bon pour : couples actifs avec 1–2 enfants en école Strasbourg. Moins bon : familles activités étendues + Vosges intensives. Strasbourg détient le taux d'abandon volontaire de la voiture le plus élevé de France — la ville convertit ses arrivants.",
+        body: "Excellent pour tous les profils en centre et petite couronne (Schiltigheim, Illkirch). Bon pour les couples actifs avec un ou deux enfants en école strasbourgeoise. Moins bon pour les familles aux activités étendues du côté Vosges intensives. Strasbourg détient le taux d'abandon volontaire de la voiture le plus élevé de France : la ville convertit ses arrivants en quelques mois.",
       },
     ],
     relatedCities: ["strasbourg", "haguenau", "colmar", "mulhouse"],
@@ -11679,7 +11679,7 @@ export const GUIDES: Guide[] = [
     publishedAt: "2026-05-13",
     updatedAt: "2026-03-19",
     intro:
-      "Lyon est devenue la 2e métropole française la plus chère après Paris, avec des prix multipliés par ~2,2 en 15 ans. La baisse 2024–2026 (~5 %) ouvre une fenêtre mais le marché reste tendu. Voici quel arrondissement choisir selon votre budget, où acheter en 2026, et où la prime est encore raisonnable.",
+      "Lyon est devenue la deuxième métropole française la plus chère après Paris, avec des prix multipliés par environ 2,2 en 15 ans. La baisse 2024-2026 de l'ordre de 5 % ouvre une fenêtre, mais le marché reste tendu. Voici quel arrondissement choisir selon son budget, où acheter en 2026, et où la prime reste raisonnable.",
     sections: [
       {
         heading: "Les prix au m² par arrondissement (2026)",
@@ -13923,31 +13923,31 @@ export const GUIDES: Guide[] = [
     publishedAt: "2026-05-15",
     updatedAt: "2026-01-12",
     intro:
-      "La VEFA (Vente en l'État Futur d'Achèvement) — achat d'un logement neuf sur plan — séduit pour ses frais de notaire réduits (~2-3 % au lieu de ~7-8 %) et les garanties constructeur. Mais c'est aussi le segment immobilier qui a le plus souffert depuis 2023 : promoteurs en difficulté, retards de livraison, malfaçons. Voici la lecture 2026 honnête pour les villes où la VEFA fait encore sens.",
+      "La VEFA, vente en l'état futur d'achèvement, c'est l'achat d'un logement neuf sur plan. Elle séduit pour ses frais de notaire réduits (2 à 3 % contre 7 à 8 % dans l'ancien) et les garanties constructeur. Mais c'est aussi le segment qui a le plus souffert depuis 2023 : promoteurs en difficulté, retards de livraison, malfaçons. Voici la lecture 2026 honnête, et les villes où la VEFA fait encore sens.",
     sections: [
       {
         heading: "Le vrai état du marché VEFA 2026",
-        body: "Les ventes en VEFA ont chuté de -45 % entre 2022 et 2024 (source FPI, Fédération des Promoteurs Immobiliers). Conséquences : (1) Promoteurs fragilisés, plusieurs faillites notables (Akerys, Pichet en restructuration). (2) Stocks invendus dans certaines zones — opportunité de négocier 5-15 % de remise. (3) Programmes en cours plus prudents, livraisons rallongées. (4) Aides relancées : PTZ étendu en 2025 dans le neuf, prêt à 0 % pour primo-accédants élargi. À 2026, la VEFA reste pertinente mais nécessite plus de prudence qu'avant.",
+        body: "Les ventes en VEFA ont chuté de 45 % entre 2022 et 2024 selon la FPI. Les conséquences sont nettes. Les promoteurs sont fragilisés, avec plusieurs faillites notables (Akerys, Pichet en restructuration). Des stocks invendus s'accumulent dans certaines zones, et permettent désormais de négocier entre 5 et 15 % de remise. Les programmes en cours sont plus prudents et les livraisons rallongées. Côté aides, le PTZ est étendu en 2025 dans le neuf, le prêt à taux zéro pour primo-accédants est élargi. En 2026, la VEFA reste pertinente mais demande nettement plus de prudence qu'avant.",
       },
       {
         heading: "Avantages réels de la VEFA",
-        body: "(1) DMTO réduits à ~2-3 % vs ~7-8 % dans l'ancien — économie de 12-18 k€ sur un bien à 300 k€. (2) Performance énergétique RT2020/RE2020 : DPE A-B systématique, charges chauffage divisées par 3-4 vs ancien classe E-F. (3) Garanties constructeur : parfait achèvement (1 an), bon fonctionnement (2 ans), décennale (10 ans). (4) PTZ disponible (sous conditions ressources et zonage), prêt action logement, prêt à taux zéro. (5) TVA réduite à 5,5 % en zone ANRU (rénovation urbaine). (6) Choix des finitions souvent possible si réservation early.",
+        body: "Les DMTO réduits à 2-3 % au lieu de 7-8 % génèrent une économie de 12 à 18 k€ sur un bien à 300 k€. La performance énergétique RT2020 / RE2020 garantit un DPE A ou B, et des charges de chauffage divisées par 3 ou 4 face à un ancien classé E ou F. Les garanties constructeur jouent à plein : parfait achèvement sur un an, bon fonctionnement sur deux, décennale sur dix. Le PTZ est disponible sous conditions, le prêt action logement aussi. La TVA tombe à 5,5 % en zone ANRU. Et la réservation anticipée permet souvent de choisir ses finitions.",
       },
       {
         heading: "Pièges classiques de la VEFA 2026",
-        body: "(1) Retards de livraison : 6-18 mois en moyenne 2024-2025. Vérifier la clause pénalité de retard du contrat (typiquement 1/3000e du prix par jour, plafond 5 %). (2) Malfaçons : taux de réserves à la livraison >80 % des programmes — exiger expert indépendant pour la pré-livraison (350-600 €, qui se rentabilise vite). (3) Copropriétés jeunes : charges souvent sous-estimées les 3-5 premières années (1,5-2,5 €/m²/mois prévues vs réalité 3-4 €). Demander le budget prévisionnel détaillé. (4) Surévaluation : prix m² VEFA souvent 15-25 % au-dessus de l'ancien comparable. La 'prime au neuf' est en train de s'éroder en 2026. (5) Faillite promoteur : protection garantie financière d'achèvement (GFA) obligatoire — vérifier qu'elle est bien souscrite et auprès de qui.",
+        body: "Premier piège, les retards de livraison de 6 à 18 mois en moyenne 2024-2025 : on vérifie la clause de pénalité de retard, typiquement 1/3000e du prix par jour, plafond 5 %. Deuxième, les malfaçons, avec plus de 80 % des programmes livrés avec réserves : on exige un expert indépendant à la pré-livraison (350 à 600 €, vite rentabilisé). Troisième, les copropriétés jeunes aux charges sous-estimées les 3 à 5 premières années (1,5 à 2,5 €/m²/mois prévus contre 3 à 4 € réels) : on demande le budget prévisionnel détaillé. Quatrième, la surévaluation : le prix au m² VEFA reste souvent 15 à 25 % au-dessus de l'ancien comparable, et cette « prime au neuf » s'érode en 2026. Cinquième, la faillite du promoteur : la garantie financière d'achèvement est obligatoire, on vérifie qu'elle est bien souscrite et auprès de qui.",
       },
       {
         heading: "Villes où la VEFA fait sens en 2026",
-        body: "(1) **Métropoles avec marché tendu mais ancien rare** : Bordeaux périphérie (Floirac, Cenon), Toulouse Cartoucherie/Compans, Montpellier Port-Marianne, Nantes Île de Nantes — l'ancien est saturé, le neuf bien situé garde de la valeur. (2) **Villes en réindustrialisation** : Dunkerque, Valenciennes, Belfort — programmes neufs proches gigafactories/usines à valeur sécurisée long terme. (3) **Stations en saturation** : Annecy, Saint-Malo, La Rochelle — l'ancien est inaccessible, le neuf permet d'entrer sur ces marchés. (4) **Quartiers en transformation** : Rouen Rive Gauche, Reims Sernam, Lille Saint-Sauveur — VEFA early-bird en zone d'aménagement concertée (ZAC). Éviter en : villes moyennes en stagnation démographique (revente future incertaine), petits programmes <30 lots (gestion copropriété fragile).",
+        body: "Les métropoles à marché tendu et ancien rare tiennent la corde : Bordeaux périphérie (Floirac, Cenon), Toulouse Cartoucherie / Compans, Montpellier Port-Marianne, Nantes Île de Nantes. L'ancien y est saturé, le neuf bien situé garde sa valeur. Les villes en réindustrialisation comme Dunkerque, Valenciennes ou Belfort offrent des programmes proches des gigafactories à valeur sécurisée long terme. Les stations en saturation type Annecy, Saint-Malo ou La Rochelle voient l'ancien devenir inaccessible, et le neuf permet d'entrer sur ces marchés. Enfin, les quartiers en transformation (Rouen Rive Gauche, Reims Sernam, Lille Saint-Sauveur) offrent du VEFA early-bird en zone d'aménagement concertée. À éviter : villes moyennes en stagnation démographique avec revente incertaine, et petits programmes de moins de 30 lots où la gestion de copropriété reste fragile.",
       },
       {
         heading: "Comment se protéger pendant l'achat",
-        body: "(1) Vérifier la solidité financière du promoteur (chiffre d'affaires, dépôt légal, programmes livrés sur 5 ans). (2) Exiger la GFA (Garantie Financière d'Achèvement) souscrite par établissement bancaire/assureur reconnu. (3) Lire le règlement de copropriété AVANT signature — clauses inhabituelles à débusquer. (4) Calculer le coût total réel : prix + DMTO + frais bancaires + assurances + intérêts intercalaires durant la construction. (5) Visiter d'autres programmes du même promoteur déjà livrés — état des finitions, niveau de réclamations. (6) Faire intervenir un expert indépendant à la pré-livraison (340-600 €) — gain énorme pour faire valoir les réserves. (7) Refuser tout 'avoir' du promoteur en compensation des malfaçons — exiger réparation effective.",
+        body: "On vérifie la solidité financière du promoteur en regardant le chiffre d'affaires, le dépôt légal et les programmes livrés sur 5 ans. On exige une GFA souscrite par un établissement bancaire ou un assureur reconnu. On lit le règlement de copropriété avant signature, à la traque des clauses inhabituelles. On calcule le coût total réel en intégrant prix, DMTO, frais bancaires, assurances et intérêts intercalaires durant la construction. On visite d'autres programmes du même promoteur déjà livrés pour juger les finitions et le niveau de réclamations. On fait intervenir un expert indépendant à la pré-livraison (340 à 600 €), un investissement énorme en termes de réserves obtenues. Et on refuse tout « avoir » du promoteur en compensation des malfaçons : on exige réparation effective.",
       },
       {
         heading: "Le calcul honnête : VEFA reste viable mais sélective",
-        body: "La VEFA en 2026 n'est plus le pari automatique qu'elle était en 2019-2021. Avec les fragilités du secteur et les surévaluations résiduelles, il faut sélectionner sévèrement. Bon profil : primo-accédant éligible PTZ, achat en métropole tendue avec ancien rare, projet long terme (10+ ans), capacité à attendre 18-24 mois de construction. Mauvais profil : investisseur cherchant rentabilité immédiate (rendement brut VEFA souvent <4 %), profil pressé, achat dans une ville à démographie stagnante. La VEFA fonctionne mieux pour résidence principale long terme que pour locatif court terme. À 2026, mieux acheter ancien à rénover avec MaPrimeRénov' que VEFA dans une ville moyenne — sauf si la VEFA permet d'entrer dans une métropole autrement inaccessible.",
+        body: "La VEFA en 2026 n'est plus le pari automatique qu'elle était en 2019-2021. Avec les fragilités du secteur et les surévaluations résiduelles, la sélection doit être sévère. Bon profil : primo-accédant éligible PTZ, achat en métropole tendue avec ancien rare, projet long terme à 10 ans et plus, capacité d'attendre 18 à 24 mois de construction. Mauvais profil : investisseur en quête de rentabilité immédiate (rendement brut VEFA souvent inférieur à 4 %), acheteur pressé, achat dans une ville à démographie stagnante. La VEFA fonctionne mieux pour une résidence principale long terme que pour du locatif court terme. En 2026, mieux vaut souvent acheter ancien à rénover avec MaPrimeRénov' que VEFA dans une ville moyenne, sauf si la VEFA permet justement d'entrer dans une métropole autrement inaccessible.",
       },
     ],
     relatedCities: ["bordeaux", "toulouse", "montpellier", "nantes", "annecy"],
