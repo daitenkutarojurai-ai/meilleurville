@@ -788,3 +788,98 @@ Same repo, same build, two Vercel projects, two domains.
   `seoDescriptionEn` to the seed record. No other change required — the EN
   build picks it up automatically. Cities missing EN copy fall back to a
   generic English template generated from city stats.
+
+### EN routes shipped (2026-05-19)
+
+Done in this sweep. Logo + nav now locale-aware; the EN build covers:
+
+| Route | File | Notes |
+|-------|------|-------|
+| `/` | `app/[locale]/page.tsx` | Top cities + CTAs |
+| `/cities` | `app/[locale]/cities/page.tsx` | Index |
+| `/cities/[slug]` | `app/[locale]/cities/[slug]/page.tsx` | 352 cities |
+| `/cities/[slug]/climate` | new | 352 pages, sun + temps + climate type |
+| `/cities/[slug]/transport` | new | 352 pages, transport-score verdict |
+| `/cities/[slug]/schools` | new | 352 pages, FR school-system primer |
+| `/cities/[slug]/cost-of-living` | new | 352 pages, rent + buy + budget |
+| `/rankings` | existing | 19 categories index |
+| `/rankings/[slug]` | new | 19 detail pages, top 30 cities + methodology |
+| `/regions` | new | All 18 regions, sorted by avg score |
+| `/regions/[region]` | new | Per-region listing + native EN tagline |
+| `/departments` | new | All depts |
+| `/departments/[dept]` | new | Per-department city list |
+| `/quiz` | existing | Lifestyle matcher |
+| `/about` | new | Independent, what we do/don't do |
+| `/contact` | new | Email-based contact cards |
+| `/faq` | new | 9 Q/A + JSON-LD `FAQPage` |
+| `/methodology` | new | 8-axis pipeline explainer |
+| `/legal-notice` | existing | Required |
+| `/privacy-policy` | existing | Required |
+
+Sitemap chunks for EN: `en-static`, `en-cities`, `en-rankings`, `en-regions`,
+`en-departments`, `en-city-sub` (4 sub-pages × 352 cities = 1 408 URLs).
+
+### EN translation roadmap (post-2026-05-19)
+
+What's *not* shipped yet, in rough priority. Treat as a phased plan.
+
+**Phase 1 — content depth on shipped pages**
+
+- [ ] Translate the body / descriptionEn / seoTitleEn for the remaining
+      ~342 cities (only 10 are populated). Generate via a one-shot data
+      script that takes the FR `description` and produces a native-EN
+      rewrite, then human-review the top-50-by-traffic.
+- [ ] Per-region taglines (`REGION_EN_DESCRIPTIONS` in
+      `app/[locale]/regions/[region]/page.tsx`) — already covers all 18
+      regions; keep in sync when FR taglines change.
+- [ ] Per-ranking detail (`RANKING_EN` in
+      `app/[locale]/rankings/[slug]/page.tsx`) — already covers 19; refresh
+      copy as the FR `description`/`methodology` evolves.
+
+**Phase 2 — high-value missing routes**
+
+- [ ] `/guides` + `/guides/[slug]` (EN). 360+ FR guides exist — translating
+      all bodies is a multi-week effort. Suggested batched approach:
+      start with a curated EN-relevant subset (~30 guides: "Quitter X" =
+      "Leaving X", "Climat 2040", relocation-from-abroad). Skip per-city
+      niche guides for now.
+- [ ] `/compare/[pair]` (EN equivalent of `/comparer/[pair]`). 17 priority
+      pairs exist; reuse `SEO_PAIRS` and translate the comparator UI strings.
+- [ ] `/compare-regions` (EN equivalent of `/comparer-regions`).
+- [ ] `/map` (EN equivalent of `/carte`).
+
+**Phase 3 — secondary surfaces**
+
+- [ ] City sub-pages: `/cities/[slug]/healthcare`, `/safety`,
+      `/neighbourhoods`, `/employment`, `/air-quality`, `/noise`,
+      `/risks`, `/seasons`, `/water`, `/remote-work`, `/honest-review`,
+      `/own-vs-rent`. The FR site has 24 sub-pages per city; only 4 are
+      mirrored in EN today. Pick the next 4 by intent: healthcare, safety,
+      neighbourhoods, own-vs-rent.
+- [ ] `/red-flags` and `/red-flags/[theme]` (EN).
+- [ ] `/leaderboard` (EN).
+- [ ] `/vacations` (EN port of `/vacances`, ~387 pages).
+- [ ] `/quiz/compatibility` (EN port of `/quiz-compatibilite`).
+- [ ] `/calculator/real-cost` (EN port of `/calculateur-cout-reel`).
+- [ ] `/household-cost` (EN port of `/cout-menage`).
+- [ ] `/simulator/purchase` (EN port of `/simulateur-achat`).
+
+**Phase 4 — long tail**
+
+- [ ] All 360+ guides translated.
+- [ ] All 24 city sub-pages per city.
+- [ ] Per-city OG images regenerated with EN copy.
+- [ ] EN-specific RSS feed at `/feed.xml` on the EN domain.
+
+### Conventions for adding an EN route
+
+1. Create `app/[locale]/<route>/page.tsx`. Generate `static params` with
+   `{ locale: "en", ... }` only — the FR project never builds this tree.
+2. Add a `metadata.alternates.canonical` pointing at
+   `${ORIGIN_BY_LOCALE.en}/<route>`.
+3. If the FR equivalent uses a different top-level slug (e.g. `villes`
+   vs `cities`), do nothing. If they share the slug (e.g. `regions`),
+   make sure the slug is **not** in `FR_ONLY_SEGMENTS` in `proxy.ts`.
+4. Add the new URL(s) to a `SITEMAP_CHUNKS_EN` chunk in `app/sitemap.ts`.
+5. Keep English native, not translated-from-French. The voice is direct,
+   slightly dry, factual. No "discover the charming…".

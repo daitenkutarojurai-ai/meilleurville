@@ -19,6 +19,10 @@ const DEFAULT_LOCALE = (process.env.NEXT_PUBLIC_DEFAULT_LOCALE ?? "fr") as
 
 // FR-only top-level segments. On the EN domain these 404 — we don't want
 // /villes/lyon served from bestcitiesinfrance.com (would dupe /cities/lyon).
+//
+// Note: top-level segments shared across locales (e.g. /regions which uses the
+// same slug on both languages) must NOT appear here — they fall through to the
+// /en/<path> rewrite below on the EN domain.
 const FR_ONLY_SEGMENTS = new Set([
   "villes",
   "classements",
@@ -27,7 +31,6 @@ const FR_ONLY_SEGMENTS = new Set([
   "guides",
   "quartiers",
   "departements",
-  "regions",
   "red-flags",
   "carte",
   "carte-risques",

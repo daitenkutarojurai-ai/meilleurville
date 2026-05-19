@@ -7,6 +7,9 @@ import { Button } from "@/components/ui/Button";
 import { cn } from "@/lib/utils";
 import { FavoriteCount } from "@/components/effects/FavoriteButton";
 import { SearchPalette } from "@/components/SearchPalette";
+import { DEFAULT_LOCALE } from "@/lib/i18n";
+
+const IS_EN = DEFAULT_LOCALE === "en";
 
 interface NavItem {
   label: string;
@@ -16,33 +19,38 @@ interface NavItem {
   matchPrefix?: string;
 }
 
-// Primary nav: always visible at lg+. 4 essentiels qui couvrent la majorité
-// du site. Cadre de vie a été sorti de la barre (le hub est trop niche
-// pour mériter un slot primaire) ; Red Flags + Carte remontent en
-// secondaire visible dès xl.
-const NAV_PRIMARY: NavItem[] = [
+// FR nav: 4 primary (always visible lg+) + secondary at xl + mobile-only extras.
+// Cadre de vie a été sorti de la barre (trop niche pour un slot primaire) ;
+// Red Flags + Carte remontent en secondaire visible dès xl.
+const NAV_PRIMARY_FR: NavItem[] = [
   { label: "Explorer",    href: "/villes",      emoji: "🌍", matchPrefix: "/villes" },
   { label: "Classements", href: "/classements", emoji: "📊", matchPrefix: "/classements" },
   { label: "Comparer",    href: "/comparer",    emoji: "⚖️", matchPrefix: "/comparer" },
   { label: "Guides",      href: "/guides",      emoji: "📖", matchPrefix: "/guides" },
 ];
-
-// Secondary nav: visible à partir de xl pour les hubs à forte intention
-// utilisateur que le menu hamburger seul cache trop bas.
-const NAV_SECONDARY: NavItem[] = [
+const NAV_SECONDARY_FR: NavItem[] = [
   { label: "Carte",     href: "/carte",     emoji: "🗺️", matchPrefix: "/carte" },
   { label: "Red Flags", href: "/red-flags", emoji: "🚩", matchPrefix: "/red-flags" },
   { label: "Vacances",  href: "/vacances",  emoji: "🌴", matchPrefix: "/vacances" },
 ];
-
-// Mobile-only nav items — visible in the mobile menu but never in the desktop
-// pill rows. Cadre de vie reste accessible ici + via footer + SectionNav.
-const NAV_MOBILE_ONLY: NavItem[] = [
+const NAV_MOBILE_ONLY_FR: NavItem[] = [
   { label: "Cadre de vie", href: "/cadre-de-vie", emoji: "🌿", matchPrefix: "/cadre-de-vie" },
   { label: "Simulateur", href: "/#simulateur", emoji: "💸" },
   { label: "Contact", href: "/contact", emoji: "✉️", matchPrefix: "/contact" },
 ];
 
+// EN nav: only routes that actually exist on bestcitiesinfrance.com today.
+const NAV_PRIMARY_EN: NavItem[] = [
+  { label: "Cities",   href: "/cities",   emoji: "🌍", matchPrefix: "/cities" },
+  { label: "Rankings", href: "/rankings", emoji: "📊", matchPrefix: "/rankings" },
+  { label: "Quiz",     href: "/quiz",     emoji: "✨", matchPrefix: "/quiz" },
+];
+const NAV_SECONDARY_EN: NavItem[] = [];
+const NAV_MOBILE_ONLY_EN: NavItem[] = [];
+
+const NAV_PRIMARY = IS_EN ? NAV_PRIMARY_EN : NAV_PRIMARY_FR;
+const NAV_SECONDARY = IS_EN ? NAV_SECONDARY_EN : NAV_SECONDARY_FR;
+const NAV_MOBILE_ONLY = IS_EN ? NAV_MOBILE_ONLY_EN : NAV_MOBILE_ONLY_FR;
 const NAV_ALL: NavItem[] = [...NAV_PRIMARY, ...NAV_SECONDARY, ...NAV_MOBILE_ONLY];
 
 function isActive(item: NavItem, pathname: string): boolean {
@@ -66,7 +74,7 @@ function SearchTrigger({ compact = false }: { compact?: boolean }) {
       <button
         type="button"
         onClick={openSearchPalette}
-        aria-label="Ouvrir la recherche (Cmd+K)"
+        aria-label={IS_EN ? "Open search (Cmd+K)" : "Ouvrir la recherche (Cmd+K)"}
         className="rounded-full p-2 text-[var(--text-secondary)] hover:bg-[var(--bg-elevated)] hover:text-[var(--text-primary)] transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]"
       >
         <Search className="h-4 w-4" />
@@ -77,11 +85,11 @@ function SearchTrigger({ compact = false }: { compact?: boolean }) {
     <button
       type="button"
       onClick={openSearchPalette}
-      aria-label="Ouvrir la recherche (Cmd+K)"
+      aria-label={IS_EN ? "Open search (Cmd+K)" : "Ouvrir la recherche (Cmd+K)"}
       className="group hidden xl:inline-flex items-center gap-2 rounded-full border border-[var(--border)] bg-white/60 backdrop-blur px-3 py-1.5 text-xs text-[var(--text-tertiary)] hover:border-[var(--accent)]/40 hover:bg-white hover:text-[var(--text-primary)] transition-all focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]"
     >
       <Search className="h-3.5 w-3.5" />
-      <span>Rechercher…</span>
+      <span>{IS_EN ? "Search…" : "Rechercher…"}</span>
       <kbd className="ml-1 inline-flex items-center gap-0.5 rounded border border-[var(--border)] bg-[var(--bg-elevated)] px-1.5 py-0.5 text-[10px] font-mono text-[var(--text-tertiary)] group-hover:text-[var(--text-secondary)]">
         {isMac ? "⌘" : "Ctrl"}
         <span>K</span>
@@ -125,7 +133,11 @@ export function Navbar() {
             <MapPin className="h-4 w-4 text-white" />
           </div>
           <span className="text-lg font-bold tracking-tight text-[var(--text-primary)]">
-            Meilleur<span className="text-[var(--accent)]">Ville</span>
+            {IS_EN ? (
+              <>Best<span className="text-[var(--accent)]">CitiesInFrance</span></>
+            ) : (
+              <>Meilleur<span className="text-[var(--accent)]">Ville</span></>
+            )}
           </span>
         </Link>
 
@@ -178,25 +190,29 @@ export function Navbar() {
           <div className="xl:hidden">
             <SearchTrigger compact />
           </div>
-          <Link
-            href="/favoris"
-            className="inline-flex items-center gap-1.5 rounded-full px-2.5 py-1.5 text-sm font-medium text-[var(--text-secondary)] hover:text-[var(--accent-pink)] hover:bg-[var(--bg-elevated)] transition-colors"
-            aria-label="Mes favoris"
-          >
-            <Heart className="h-4 w-4" />
-            <FavoriteCount />
-          </Link>
-          <Link
-            href="/contact"
-            className="inline-flex items-center rounded-full p-2 text-[var(--text-secondary)] hover:text-[var(--accent)] hover:bg-[var(--bg-elevated)] transition-colors"
-            aria-label="Contact"
-          >
-            <Mail className="h-4 w-4" />
-          </Link>
+          {!IS_EN && (
+            <Link
+              href="/favoris"
+              className="inline-flex items-center gap-1.5 rounded-full px-2.5 py-1.5 text-sm font-medium text-[var(--text-secondary)] hover:text-[var(--accent-pink)] hover:bg-[var(--bg-elevated)] transition-colors"
+              aria-label="Mes favoris"
+            >
+              <Heart className="h-4 w-4" />
+              <FavoriteCount />
+            </Link>
+          )}
+          {!IS_EN && (
+            <Link
+              href="/contact"
+              className="inline-flex items-center rounded-full p-2 text-[var(--text-secondary)] hover:text-[var(--accent)] hover:bg-[var(--bg-elevated)] transition-colors"
+              aria-label="Contact"
+            >
+              <Mail className="h-4 w-4" />
+            </Link>
+          )}
           <Link href="/quiz">
             <Button size="md" className="gap-1.5 rounded-full px-3 lg:px-4">
               <Sparkles className="h-4 w-4" />
-              <span className="hidden xl:inline">Quiz IA</span>
+              <span className="hidden xl:inline">{IS_EN ? "AI Quiz" : "Quiz IA"}</span>
               <span className="xl:hidden">Quiz</span>
             </Button>
           </Link>
@@ -211,7 +227,7 @@ export function Navbar() {
         <button
           className="lg:hidden rounded-full p-2 text-[var(--text-secondary)] hover:bg-[var(--bg-elevated)] hover:text-[var(--text-primary)] transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]"
           onClick={() => setOpen(!open)}
-          aria-label={open ? "Fermer le menu" : "Ouvrir le menu"}
+          aria-label={open ? (IS_EN ? "Close menu" : "Fermer le menu") : (IS_EN ? "Open menu" : "Ouvrir le menu")}
           aria-expanded={open}
           aria-controls="mobile-menu"
         >
@@ -224,7 +240,7 @@ export function Navbar() {
         <button
           type="button"
           onClick={() => setOpen(false)}
-          aria-label="Fermer le menu"
+          aria-label={IS_EN ? "Close menu" : "Fermer le menu"}
           tabIndex={-1}
           className="lg:hidden fixed inset-x-0 top-14 bottom-0 -z-10 bg-black/30 backdrop-blur-[2px]"
         />
@@ -265,7 +281,7 @@ export function Navbar() {
             <Link href="/quiz" onClick={() => setOpen(false)}>
               <Button size="md" className="w-full gap-2 rounded-full">
                 <Sparkles className="h-4 w-4" />
-                Quiz IA — Trouvez ma ville
+                {IS_EN ? "AI Quiz — Find my city" : "Quiz IA — Trouvez ma ville"}
               </Button>
             </Link>
           </div>

@@ -24,7 +24,7 @@ const IS_EN = DEFAULT_LOCALE === "en";
 const CITY_DATA_UPDATED = new Date("2026-05-12"); // last seed + score calibration
 const RANKING_UPDATED = new Date("2026-05-12");
 const STATIC_UPDATED = new Date("2026-05-12");
-const LEGAL_UPDATED = new Date("2025-04-01"); // cgu/confidentialite/mentions-legales
+const LEGAL_UPDATED = new Date("2026-05-19"); // cgu/confidentialite/mentions-legales
 
 // Order MUST stay stable per locale — the sitemap chunk URL is /sitemap/<index>.xml,
 // and that URL is what's listed in robots.txt + (eventually) Search Console.
@@ -52,6 +52,9 @@ const SITEMAP_CHUNKS_EN = [
   "en-static",
   "en-cities",
   "en-rankings",
+  "en-regions",
+  "en-departments",
+  "en-city-sub",
 ] as const;
 
 const SITEMAP_CHUNKS = IS_EN ? SITEMAP_CHUNKS_EN : SITEMAP_CHUNKS_FR;
@@ -580,7 +583,15 @@ function enStaticSection(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/`, lastModified: STATIC_UPDATED, changeFrequency: "daily", priority: 1.0 },
     { url: `${BASE_URL}/cities`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.8 },
     { url: `${BASE_URL}/rankings`, lastModified: RANKING_UPDATED, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${BASE_URL}/regions`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.75 },
+    { url: `${BASE_URL}/departments`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.65 },
     { url: `${BASE_URL}/quiz`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${BASE_URL}/about`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.5 },
+    { url: `${BASE_URL}/contact`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.4 },
+    { url: `${BASE_URL}/faq`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.55 },
+    { url: `${BASE_URL}/methodology`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.55 },
+    { url: `${BASE_URL}/legal-notice`, lastModified: LEGAL_UPDATED, changeFrequency: "yearly", priority: 0.3 },
+    { url: `${BASE_URL}/privacy-policy`, lastModified: LEGAL_UPDATED, changeFrequency: "yearly", priority: 0.3 },
   ];
 }
 
@@ -600,6 +611,38 @@ function enRankingsSection(): MetadataRoute.Sitemap {
     changeFrequency: "weekly",
     priority: 0.8,
   }));
+}
+
+function enRegionsSection(): MetadataRoute.Sitemap {
+  const regions = [...new Set(CITIES_SEED.map((c) => c.region).filter(Boolean) as string[])];
+  return regions.map((r) => ({
+    url: `${BASE_URL}/regions/${slugify(r)}`,
+    lastModified: CITY_DATA_UPDATED,
+    changeFrequency: "weekly" as const,
+    priority: 0.7,
+  }));
+}
+
+function enDepartmentsSection(): MetadataRoute.Sitemap {
+  const depts = [...new Set(CITIES_SEED.map((c) => c.department).filter(Boolean) as string[])];
+  return depts.map((d) => ({
+    url: `${BASE_URL}/departments/${slugify(d)}`,
+    lastModified: CITY_DATA_UPDATED,
+    changeFrequency: "weekly" as const,
+    priority: 0.6,
+  }));
+}
+
+function enCitySubSection(): MetadataRoute.Sitemap {
+  const subs = ["climate", "transport", "schools", "cost-of-living"] as const;
+  return CITIES_SEED.flatMap((c) =>
+    subs.map((sub) => ({
+      url: `${BASE_URL}/cities/${c.slug}/${sub}`,
+      lastModified: CITY_DATA_UPDATED,
+      changeFrequency: "monthly" as const,
+      priority: 0.55,
+    }))
+  );
 }
 
 function quitterSection(): MetadataRoute.Sitemap {
@@ -707,6 +750,9 @@ export default async function sitemap({ id }: { id: Promise<string> }): Promise<
     case "en-static": return enStaticSection();
     case "en-cities": return enCitySection();
     case "en-rankings": return enRankingsSection();
+    case "en-regions": return enRegionsSection();
+    case "en-departments": return enDepartmentsSection();
+    case "en-city-sub": return enCitySubSection();
     default: return [];
   }
 }
