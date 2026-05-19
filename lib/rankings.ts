@@ -403,6 +403,31 @@ export const RANKING_META = {
       "Accidentologie cycliste (ONISR — Observatoire national de la sécurité routière)",
     ],
   },
+  montagne: {
+    slug: "montagne",
+    label: "Montagne & altitude",
+    emoji: "⛰️",
+    headline: "Meilleures villes de montagne où vivre en France en 2026",
+    description:
+      "Classement des villes françaises de montagne où vivre à l'année : Alpes, Pyrénées, Massif central, Jura, Vosges. Accès direct au massif, qualité de l'air en altitude, refuge climatique face aux canicules de plaine, services à l'année (médecin, école, supermarché). Sources : IGN BD ALTI 2024 (altitudes communales), ATMO France (qualité de l'air en montagne 2024), Météo-France (normales 1991-2020 des stations d'altitude), Domaines Skiables de France, Cerema (Observatoire des stations).",
+    methodology:
+      "Filtre par caractère montagnard : altitude communale ≥ 400 m (IGN BD ALTI) ou tag massif explicite (Alpes, Pyrénées, Massif central, Jura, Vosges, Savoie, altitude, ski, refuge). Seules les villes inscrites dans un massif sont notées ; les communes de plaine reçoivent un score à 0 et sont rangées en queue. Score composite : Nature (×3 — accès direct au massif, sentiers GR, biodiversité), Qualité de vie (×2 — air pur, refuge canicule, lumière), Sécurité (×1,5 — densité touristique, services à l'année), Coût (×1 — accessibilité du logement hors station chic), Transport (×0,5 — connexion vallée + TGV/TER le plus proche). Bonus : +0,5 si altitude ≥ 800 m, +0,3 si altitude ≥ 500 m, +0,3 si tag « ski » (accès direct aux remontées), +0,2 si janvier entre -2 °C et 5 °C (refuge thermique sans hiver extrême).",
+    weights: { nature: 3, life: 2, safety: 1.5, cost: 1, transport: 0.5 },
+    color: "text-slate-500",
+    borderColor: "border-slate-500/20",
+    bgColor: "bg-slate-500/5",
+    scoreKey: "nature" as const,
+    why: [
+      "Altitude communale ≥ 400 m ou tag massif explicite (IGN BD ALTI 2024)",
+      "Accès direct à un massif : Alpes, Pyrénées, Massif central, Jura, Vosges",
+      "Air d'altitude et faible pollution chronique (ATMO France 2024 — PM2.5 < 10 µg/m³)",
+      "Refuge climatique face aux canicules de plaine (Météo-France ARPEGE 1991-2020)",
+      "Présence de stations de ski à moins de 30 min (Domaines Skiables de France)",
+      "Sentiers de Grande Randonnée (GR) et activités plein air à l'année",
+      "Services à l'année : médecin, école, supermarché — pour distinguer station-dortoir et ville-vallée",
+      "Connexion vallée : TER, autoroute, TGV le plus proche (SNCF Connect, Bison Futé 2026)",
+    ],
+  },
   "bord-de-mer": {
     slug: "bord-de-mer",
     label: "Bord de mer",
@@ -477,6 +502,58 @@ const COASTAL_TAGS = new Set([
   "mer-du-Nord",
 ]);
 
+// Tag-based + altitude filter for `montagne`. A city qualifies if it sits in
+// (or right at the foot of) a French massif. Elevation comes from IGN BD ALTI
+// 2024 (commune chef-lieu), tags from the editorial seed. A 400 m threshold
+// captures vallée-villes (Annecy 447, Chambéry 270 with explicit tag, Pau 207
+// with tag, etc.) without scooping up the Massif Armoricain plateaux that are
+// flat-rolling hills, not real montagne.
+const MOUNTAIN_TAG_KEYWORDS = [
+  "montagne",
+  "alpin",
+  "alpes",
+  "pyrénées",
+  "ski",
+  "altitude",
+  "massif central",
+  "jura",
+  "vosges",
+  "savoie",
+  "refuge",
+  "pré-alpes",
+];
+
+function isMountainCity(c: (typeof CITIES_SEED)[number]): boolean {
+  const elev = c.elevation ?? 0;
+  if (elev >= 400) return true;
+  const tags = (c.characterTags ?? []).map((t) => t.toLowerCase());
+  return tags.some((t) =>
+    MOUNTAIN_TAG_KEYWORDS.some((k) => t.includes(k))
+  );
+}
+
+function mountainLivingScore(c: (typeof CITIES_SEED)[number]): number {
+  if (!isMountainCity(c)) return 0;
+  const s = c.scores;
+  // Composite weighted: nature×3 + life×2 + safety×1.5 + cost×1 + transport×0.5
+  // = total weight 8 → divide to bring back to 0..10 scale.
+  const base =
+    (s.nature * 3 + s.life * 2 + s.safety * 1.5 + s.cost * 1 + s.transport * 0.5) / 8;
+
+  let bonus = 0;
+  const elev = c.elevation ?? 0;
+  if (elev >= 800) bonus += 0.5;
+  else if (elev >= 500) bonus += 0.3;
+
+  const tags = (c.characterTags ?? []).map((t) => t.toLowerCase());
+  if (tags.some((t) => t.includes("ski"))) bonus += 0.3;
+
+  const tj = c.avgTempJanuary ?? 5;
+  if (tj >= -2 && tj <= 5) bonus += 0.2;
+
+  return Math.max(0, Math.min(10, base + bonus));
+}
+
 function coastalLivingScore(c: (typeof CITIES_SEED)[number]): number {
   const tags = new Set(c.characterTags ?? []);
   let isCoastal = false;
@@ -535,6 +612,9 @@ export function getRankedCities(
     if (slug === "bord-de-mer") {
       return { city: c, score: coastalLivingScore(c) };
     }
+    if (slug === "montagne") {
+      return { city: c, score: mountainLivingScore(c) };
+    }
     let total = 0;
     let weighted = 0;
     for (const [key, w] of Object.entries(weights)) {
@@ -546,7 +626,10 @@ export function getRankedCities(
     return { city: c, score };
   });
 
-  const filtered = slug === "bord-de-mer" ? scored.filter((x) => x.score > 0) : scored;
+  const filtered =
+    slug === "bord-de-mer" || slug === "montagne"
+      ? scored.filter((x) => x.score > 0)
+      : scored;
 
   return filtered
     .sort((a, b) => b.score - a.score)

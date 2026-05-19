@@ -11,7 +11,7 @@ import Link from "next/link";
 import {
   Laptop, Home, TreePine, GraduationCap, Palmtree, ArrowRight, Wallet,
   Sun, Shield, Music, Bike, Building2, Heart, Leaf, CloudSun, KeyRound, Rocket,
-  ChefHat, Waves,
+  ChefHat, Waves, Mountain,
 } from "lucide-react";
 import type { City } from "@/lib/types";
 import { RANKINGS_COUNT } from "@/lib/site-stats";
@@ -69,6 +69,7 @@ const CATEGORIES = [
   { slug: "gastronomie", label: "Gastronomie", emoji: "🍽️", icon: ChefHat, gradient: "from-amber-500 to-red-500", color: "#DC2626", desc: "Étoilés Michelin, Bib Gourmand, AOC, marchés couverts, terroir", scoreKey: "culture" },
   { slug: "cyclistes", label: "Vélo & cyclistes", emoji: "🚴", icon: Bike, gradient: "from-indigo-400 to-blue-500", color: "#6366F1", desc: "Note FUB, pistes cyclables sécurisées, continuité, intermodalité train+vélo", scoreKey: "transport" },
   { slug: "bord-de-mer", label: "Bord de mer", emoji: "🌊", icon: Waves, gradient: "from-cyan-400 to-sky-500", color: "#06B6D4", desc: "Villes côtières où vivre à l'année — trait de côte SHOM, ensoleillement, patrimoine maritime", scoreKey: "nature" },
+  { slug: "montagne", label: "Montagne & altitude", emoji: "⛰️", icon: Mountain, gradient: "from-slate-400 to-stone-500", color: "#64748B", desc: "Villes de montagne où vivre à l'année — altitude IGN, refuge canicule, accès massif et ski", scoreKey: "nature" },
 ] as const;
 
 export default function ClassementsPage() {
@@ -113,7 +114,10 @@ export default function ClassementsPage() {
           // previewed by raw axis sort — fall back to the canonical ranker
           // so the homepage top-3 matches the detail page.
           const usesCustomScorer =
-            cat.slug === "climat" || cat.slug === "logement" || cat.slug === "bord-de-mer";
+            cat.slug === "climat" ||
+            cat.slug === "logement" ||
+            cat.slug === "bord-de-mer" ||
+            cat.slug === "montagne";
           const top3 = usesCustomScorer
             ? getRankedCities(cat.slug as RankingSlug).slice(0, 3).map((r) => r.city)
             : [...allCities]
