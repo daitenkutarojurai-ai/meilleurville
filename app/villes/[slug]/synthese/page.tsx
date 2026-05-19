@@ -156,14 +156,9 @@ export default async function SynthesePage({ params }: Props) {
             >
               <div className="flex items-center justify-between mb-2 gap-3">
                 <div className="min-w-0">
-                  <div className="flex items-baseline gap-2">
-                    <span className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
-                      {a.label}
-                    </span>
-                    <span className="text-[10px] uppercase tracking-wide text-[var(--text-tertiary)] font-mono">
-                      {a.tag}
-                    </span>
-                  </div>
+                  <span className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
+                    {a.label}
+                  </span>
                   <div className="text-xs text-[var(--text-tertiary)] mt-0.5">{a.hint}</div>
                 </div>
                 <div className="shrink-0 text-right">

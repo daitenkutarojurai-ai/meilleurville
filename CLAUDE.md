@@ -733,13 +733,8 @@ ranking pages.
 
 Files: `app/villes/page.tsx`, `components/CitiesFilter.tsx` (or similar).
 
-### R7.15 — Red Flags Thématiques: strip Fxx refs (P0, 5-min)
-The /red-flags theme cards still expose internal feature codes (F50, F52,
-F26 etc.). Remove these from user-facing copy. They're an internal feature
-tracker, not consumer wording.
-
-Files: `app/red-flags/page.tsx`, `app/red-flags/[slug]/page.tsx`,
-`lib/red-flag-themes.ts`.
+### R7.15 — Red Flags Thématiques: strip Fxx refs (P0, 5-min) ✅
+**Shipped.** Codes Fxx retirés des surfaces user-facing : badge `tag` supprimé du rendu synthèse, FAQ JSON-LD comparer/synthèse réécrite sans F44/F47/F50/F52/F57/F58/F59/F60/F61, champ `tag` retiré de `SynthesisAxis` (source unique du leak).
 
 ### R7 — Suggested execution order
 

@@ -100,7 +100,7 @@ export default async function PairSynthesePage({ params }: Props) {
   const rows = synB.axes.map((b) => {
     const a = axesA.get(b.key)!;
     const delta = Math.round((a.score - b.score) * 10) / 10;
-    return { key: b.key, label: b.label, hint: b.hint, tag: b.tag, a, b, delta };
+    return { key: b.key, label: b.label, hint: b.hint, a, b, delta };
   });
   const winsA = rows.filter((r) => r.delta >= 0.3).length;
   const winsB = rows.filter((r) => r.delta <= -0.3).length;
@@ -122,7 +122,7 @@ export default async function PairSynthesePage({ params }: Props) {
   const faq = faqJsonLd([
     {
       q: `Quelle ville l'emporte sur la synthèse globale, ${cityA.name} ou ${cityB.name} ?`,
-      a: `Score global synthèse F61 (moyenne des 8 axes normalisés, 10 = excellent) : ${cityA.name} ${synA.global}/10 vs ${cityB.name} ${synB.global}/10. ${verdict}`,
+      a: `Score global de synthèse (moyenne des 8 axes normalisés, 10 = excellent) : ${cityA.name} ${synA.global}/10 vs ${cityB.name} ${synB.global}/10. ${verdict}`,
     },
     {
       q: `Sur quels axes ${cityA.name} dépasse-t-elle ${cityB.name} ?`,
@@ -146,7 +146,7 @@ export default async function PairSynthesePage({ params }: Props) {
     },
     {
       q: `Comment est calculée la synthèse 8 axes ?`,
-      a: `Moyenne arithmétique des 8 composites des clusters data du site (F44 environnement, F47 santé, F50 emploi, F52 cadre de vie, F57 vélo, F58 sécurité, F59 démographie, F60 services publics) normalisés vers une convention « 10 = excellent ». Calcul déterministe et reproductible.`,
+      a: `Moyenne arithmétique des 8 composites des clusters data du site (environnement, santé, emploi, cadre de vie, vélo, sécurité, démographie, services publics) normalisés vers une convention « 10 = excellent ». Calcul déterministe et reproductible.`,
     },
   ]);
 

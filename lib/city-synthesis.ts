@@ -38,8 +38,6 @@ export interface SynthesisAxis {
   level: SynthesisLevel;
   /** URL du sub-page cluster correspondant */
   href: string;
-  /** Tag pédagogique pour situer le sous-axe */
-  tag: string;
 }
 
 export interface CitySynthesis {
@@ -88,8 +86,7 @@ export function computeCitySynthesis(city: CitySeed): CitySynthesis {
       hint: "Méga-index env + santé + emploi",
       score: qol.score,
       level: levelFromScore(qol.score),
-      href: `/villes/${city.slug}`, // hero badge F56 déjà sur la fiche, on renvoie là
-      tag: "F52",
+      href: `/villes/${city.slug}`,
     },
     {
       key: "environnement",
@@ -98,7 +95,6 @@ export function computeCitySynthesis(city: CitySeed): CitySynthesis {
       score: Math.round(env.healthScore * 10) / 10,
       level: levelFromScore(env.healthScore),
       href: `/villes/${city.slug}/air`,
-      tag: "F44",
     },
     {
       key: "sante",
@@ -107,7 +103,6 @@ export function computeCitySynthesis(city: CitySeed): CitySynthesis {
       score: Math.round((10 - health.composite) * 10) / 10,
       level: levelFromScore(10 - health.composite),
       href: `/villes/${city.slug}/sante`,
-      tag: "F47",
     },
     {
       key: "emploi",
@@ -116,7 +111,6 @@ export function computeCitySynthesis(city: CitySeed): CitySynthesis {
       score: Math.round((10 - job.composite) * 10) / 10,
       level: levelFromScore(10 - job.composite),
       href: `/villes/${city.slug}/emploi`,
-      tag: "F50",
     },
     {
       key: "velo",
@@ -125,7 +119,6 @@ export function computeCitySynthesis(city: CitySeed): CitySynthesis {
       score: cycling.composite,
       level: levelFromScore(cycling.composite),
       href: `/villes/${city.slug}/velo`,
-      tag: "F57",
     },
     {
       key: "securite",
@@ -134,7 +127,6 @@ export function computeCitySynthesis(city: CitySeed): CitySynthesis {
       score: Math.round((10 - safety.composite) * 10) / 10,
       level: levelFromScore(10 - safety.composite),
       href: `/villes/${city.slug}/securite`,
-      tag: "F58",
     },
     {
       key: "demographie",
@@ -143,7 +135,6 @@ export function computeCitySynthesis(city: CitySeed): CitySynthesis {
       score: Math.round((10 - demo.composite) * 10) / 10,
       level: levelFromScore(10 - demo.composite),
       href: `/villes/${city.slug}/demographie`,
-      tag: "F59",
     },
     {
       key: "services-publics",
@@ -152,7 +143,6 @@ export function computeCitySynthesis(city: CitySeed): CitySynthesis {
       score: Math.round((10 - services.composite) * 10) / 10,
       level: levelFromScore(10 - services.composite),
       href: `/villes/${city.slug}/services-publics`,
-      tag: "F60",
     },
   ];
 
