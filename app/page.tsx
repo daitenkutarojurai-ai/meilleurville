@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
 import { HeroSection } from "@/components/HeroSection";
@@ -45,6 +46,12 @@ const organizationJsonLd = {
   logo: `${BASE_URL}/icon.png`,
   sameAs: [],
   description: "Plateforme de comparaison et classement des villes françaises par qualité de vie.",
+};
+
+export const metadata: Metadata = {
+  other: {
+    "279e205393cab8e": "5195ad0cc468d3135378b3a98089404f",
+  },
 };
 
 export default function HomePage() {
