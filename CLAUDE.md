@@ -630,7 +630,17 @@ Output: a "score convention" comment block at the top of each lib file +
 flip displays so the score number, the label colour, and the prose analysis
 all tell the same story.
 
-### R7.4 — Ensoleillement: hours → days everywhere (P1)
+### R7.4 — Ensoleillement: hours → days everywhere (P1) ✅
+**Shipped.** Most surfaces already converted hours → jours via
+`lib/utils:sunshineDays`; flipped the stragglers that still printed raw
+hours: the climat ranking sentence + Mediterranean one-liner, the
+comparer-regions climate table + FAQ, `city-narrative` climateLine
+strings, the `water-stress` / `air-quality` engine reason strings, the
+`rankings` methodology figures, the méditerranéen macro-region blurb and
+the city-summary API text. Per-day sunshine (saisons, vacances) stays in
+h/jour — a distinct metric. Days-primary-with-hours-in-parens kept on the
+city profile + OG cards.
+
 **Problem:** Some surfaces show "1 800 h de soleil" and others "X jours".
 User wants days everywhere (more intuitive for non-specialists).
 
