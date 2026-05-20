@@ -7,16 +7,17 @@
  * strictly separate — an English reader must never receive the French
  * "lettre du dimanche", and vice versa.
  *
- * If RESEND_API_KEY is set, each NEW subscriber is also:
- *   - pushed to the matching Resend Audience (RESEND_AUDIENCE_ID_FR / _EN),
- *     so broadcasts can be sent per language straight from the Resend dashboard;
+ * If BREVO_API_KEY is set, each NEW subscriber is also:
+ *   - added to the matching Brevo list (BREVO_LIST_ID_FR / _EN), so campaigns
+ *     can be sent per language straight from the Brevo dashboard;
  *   - sent a locale-appropriate welcome email.
- * Both Resend calls are best-effort: the JSON store is the source of truth and
- * a missing key / audience id simply skips them (no error surfaced to the user).
+ * Both Brevo calls are best-effort: the JSON store is the local source of
+ * truth and a missing key / list id simply skips them (no error to the user).
  */
 import { promises as fs } from "fs";
 import path from "path";
 import { randomUUID } from "crypto";
+import { sendBrevoEmail, addBrevoContact, type BrevoSender } from "@/lib/brevo";
 
 export type NewsletterLocale = "fr" | "en";
 
@@ -115,36 +116,37 @@ export async function addSubscriber(input: {
   return { subscriber, alreadySubscribed: false };
 }
 
-const AUDIENCE_BY_LOCALE: Record<NewsletterLocale, string | undefined> = {
-  fr: process.env.RESEND_AUDIENCE_ID_FR,
-  en: process.env.RESEND_AUDIENCE_ID_EN,
-};
-
-/** Best-effort: add the contact to the locale's Resend Audience. */
-export async function maybeSyncAudience(sub: Subscriber): Promise<boolean> {
-  const apiKey = process.env.RESEND_API_KEY;
-  const audienceId = AUDIENCE_BY_LOCALE[sub.locale];
-  if (!apiKey || !audienceId) return false;
-  try {
-    const res = await fetch(`https://api.resend.com/audiences/${audienceId}/contacts`, {
-      method: "POST",
-      headers: {
-        Authorization: `Bearer ${apiKey}`,
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ email: sub.email, unsubscribed: false }),
-    });
-    return res.ok;
-  } catch {
-    return false;
-  }
+// Brevo list ids — one list per locale, set as env vars (numeric values).
+function numericEnv(name: string): number | undefined {
+  const raw = process.env[name];
+  if (!raw) return undefined;
+  const n = Number(raw);
+  return Number.isFinite(n) ? n : undefined;
 }
 
-// Sending domains. Both must be verified in Resend (the user has authenticated
-// mavilleideale.fr and bestcitiesinfrance.com). Overridable per environment.
-const FROM_BY_LOCALE: Record<NewsletterLocale, string> = {
-  fr: process.env.NEWSLETTER_FROM_EMAIL_FR ?? "lettre@mavilleideale.fr",
-  en: process.env.NEWSLETTER_FROM_EMAIL_EN ?? "newsletter@bestcitiesinfrance.com",
+const LIST_ID_BY_LOCALE: Record<NewsletterLocale, number | undefined> = {
+  fr: numericEnv("BREVO_LIST_ID_FR"),
+  en: numericEnv("BREVO_LIST_ID_EN"),
+};
+
+/** Best-effort: add the subscriber to the locale's Brevo list. */
+export async function maybeSyncList(sub: Subscriber): Promise<boolean> {
+  const listId = LIST_ID_BY_LOCALE[sub.locale];
+  if (listId === undefined) return false;
+  return addBrevoContact({ email: sub.email, listId });
+}
+
+// Sending identities. The domains must be authenticated in Brevo (the user has
+// authenticated mavilleideale.fr and bestcitiesinfrance.com). Overridable.
+const SENDER_BY_LOCALE: Record<NewsletterLocale, BrevoSender> = {
+  fr: {
+    email: process.env.NEWSLETTER_FROM_EMAIL_FR ?? "lettre@mavilleideale.fr",
+    name: "MeilleurVille",
+  },
+  en: {
+    email: process.env.NEWSLETTER_FROM_EMAIL_EN ?? "newsletter@bestcitiesinfrance.com",
+    name: "BestCitiesInFrance",
+  },
 };
 
 const WELCOME: Record<NewsletterLocale, { subject: string; text: string }> = {
@@ -176,27 +178,13 @@ const WELCOME: Record<NewsletterLocale, { subject: string; text: string }> = {
   },
 };
 
-/** Best-effort: send the locale-appropriate welcome email. */
+/** Best-effort: send the locale-appropriate welcome email via Brevo. */
 export async function maybeSendWelcome(sub: Subscriber): Promise<boolean> {
-  const apiKey = process.env.RESEND_API_KEY;
-  if (!apiKey) return false;
   const copy = WELCOME[sub.locale];
-  try {
-    const res = await fetch("https://api.resend.com/emails", {
-      method: "POST",
-      headers: {
-        Authorization: `Bearer ${apiKey}`,
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        from: FROM_BY_LOCALE[sub.locale],
-        to: sub.email,
-        subject: copy.subject,
-        text: copy.text,
-      }),
-    });
-    return res.ok;
-  } catch {
-    return false;
-  }
+  return sendBrevoEmail({
+    sender: SENDER_BY_LOCALE[sub.locale],
+    to: sub.email,
+    subject: copy.subject,
+    text: copy.text,
+  });
 }

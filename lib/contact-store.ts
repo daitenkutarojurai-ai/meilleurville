@@ -1,10 +1,11 @@
 /**
  * Contact-message store. File-backed with the same fallback chain as comments-store.
- * If RESEND_API_KEY is set in the environment, also forwards via email.
+ * If BREVO_API_KEY is set in the environment, also forwards via email.
  */
 import { promises as fs } from "fs";
 import path from "path";
 import { randomUUID } from "crypto";
+import { sendBrevoEmail } from "@/lib/brevo";
 
 export interface ContactMessage {
   id: string;
@@ -94,44 +95,35 @@ export async function addContactMessage(
 }
 
 /**
- * Best-effort Resend forward. Returns true if sent.
+ * Best-effort Brevo forward. Returns true if sent.
  *
  * Every contact message — FR or EN — is delivered to a single inbox
- * (CONTACT_TO_EMAIL). Only the `from` address and the subject brand change
- * with the locale, so a reply lands on the right domain. The `from` domains
- * must be verified in Resend (mavilleideale.fr / bestcitiesinfrance.com).
+ * (CONTACT_TO_EMAIL). Only the sender address and the subject brand change
+ * with the locale, so a reply lands on the right domain. The sender domains
+ * must be authenticated in Brevo (mavilleideale.fr / bestcitiesinfrance.com).
  */
 export async function maybeForwardEmail(m: ContactMessage): Promise<boolean> {
-  const apiKey = process.env.RESEND_API_KEY;
-  if (!apiKey) return false;
-
   const to = process.env.CONTACT_TO_EMAIL ?? "daitenkutarojurai@gmail.com";
   const locale = m.locale ?? "fr";
-  const from =
+  const sender =
     locale === "en"
-      ? process.env.CONTACT_FROM_EMAIL_EN ?? "hello@bestcitiesinfrance.com"
-      : process.env.CONTACT_FROM_EMAIL_FR ??
-        process.env.CONTACT_FROM_EMAIL ??
-        "bonjour@mavilleideale.fr";
-  const brand = locale === "en" ? "BestCitiesInFrance" : "MeilleurVille";
+      ? {
+          email: process.env.CONTACT_FROM_EMAIL_EN ?? "hello@bestcitiesinfrance.com",
+          name: "BestCitiesInFrance",
+        }
+      : {
+          email:
+            process.env.CONTACT_FROM_EMAIL_FR ??
+            process.env.CONTACT_FROM_EMAIL ??
+            "bonjour@mavilleideale.fr",
+          name: "MeilleurVille",
+        };
 
-  try {
-    const res = await fetch("https://api.resend.com/emails", {
-      method: "POST",
-      headers: {
-        Authorization: `Bearer ${apiKey}`,
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        from,
-        to,
-        reply_to: m.email,
-        subject: `[${brand}] ${m.topic} — ${m.name}`,
-        text: `${m.body}\n\n— ${m.name} <${m.email}>`,
-      }),
-    });
-    return res.ok;
-  } catch {
-    return false;
-  }
+  return sendBrevoEmail({
+    sender,
+    to,
+    replyTo: m.email,
+    subject: `[${sender.name}] ${m.topic} — ${m.name}`,
+    text: `${m.body}\n\n— ${m.name} <${m.email}>`,
+  });
 }

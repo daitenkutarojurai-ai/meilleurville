@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
 import {
   addSubscriber,
-  maybeSyncAudience,
+  maybeSyncList,
   maybeSendWelcome,
 } from "@/lib/newsletter-store";
 import { rateLimit, getClientIp } from "@/lib/rate-limit";
@@ -53,7 +53,7 @@ export async function POST(req: NextRequest) {
 
   // Only sync/welcome on a genuinely new signup — no duplicate welcome emails.
   if (!alreadySubscribed) {
-    await maybeSyncAudience(subscriber);
+    await maybeSyncList(subscriber);
     await maybeSendWelcome(subscriber);
   }
 
