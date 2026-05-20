@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Instrument_Serif } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import { CITIES_COUNT } from "@/lib/site-stats";
 
@@ -159,6 +160,7 @@ export default function RootLayout({
           {IS_EN ? "Skip to content" : "Aller au contenu"}
         </a>
         {children}
+        <Analytics />
       </body>
     </html>
   );
