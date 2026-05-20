@@ -585,7 +585,20 @@ methodology block on `/cadre-de-vie` (or trim to a one-line link to
 
 Files: `app/cadre-de-vie/page.tsx`, possibly `app/cadre-de-vie/[macroregion]/page.tsx`.
 
-### R7.3 — Score-vs-analysis alignment audit (P0)
+### R7.3 — Score-vs-analysis alignment audit (P0) ✅
+**Shipped.** Services publics, marché du travail, démographie and accès
+aux soins use an internal engine convention where `10 = pire`. The
+city-profile cards and per-city sub-pages already invert this for display
+(`10 = bon`), but the national hub pages and `[macroregion]` pages showed
+the raw score — so the same city read e.g. 7.5 on its profile and 2.5 on
+the ranking. Flipped every displayed composite + sub-score on the 8
+hub/macro-region pages (`app/{services-publics,emploi,demographie,sante}`)
+to `(10 - score)`, with reading notes + FAQ JSON-LD copy updated to
+`10 = bon` wording. Sort logic, level colours and the engine libs are
+unchanged (still `10 = pire` internally — see the `**Convention**` block
+at the top of each `lib/*.ts`). Sécurité is self-consistent (`10 = pire`
+on card, sub-page and hub alike) so it was left as-is.
+
 **Problem:** Services Publics shows scores in reverse order; Marché du
 Travail score doesn't match its written analysis; Démographie &
 Vieillissement same issue.
@@ -621,15 +634,15 @@ the homepage hero); on cards and lists, days only.
 Files to grep: `sunshinedays`, `sunshineHours`, `sunshineDays`. Cover at
 least: city profile hero, climate sub-page, /classements/soleil, OG images.
 
-### R7.5 — Broken DGFiP link (P0, 5-min)
-Link "Consulter les barèmes DGFiP officiels." in fiscalité pages 404s.
-Replace with a working DGFiP page (e.g.
-`https://www.impots.gouv.fr/particulier/les-impots-locaux` or the dedicated
-taxe foncière page) and run a one-shot link-checker on the rest of the site
-while we're at it.
-
-Files: `app/villes/[slug]/fiscalite/page.tsx`, `app/departements/[dept]/fiscalite/page.tsx`,
-possibly `lib/fiscalite.ts`.
+### R7.5 — Broken DGFiP link (P0, 5-min) ✅
+**Shipped.** The fiscalité taxe-foncière link pointed at
+`impots.gouv.fr/particulier/taxe-fonciere` (404) → now
+`service-public.gouv.fr` F59 (taxe foncière TFPB). The THRS link F42117
+(404) → F42 (taxe d'habitation résidence secondaire). The site-wide link
+sweep also caught `expat-retour` + `lib/expat-return.ts` using F33899
+(reassigned to an unrelated page) → R43251 (radiation du registre) for the
+consular step and F32824 (assurance maladie au retour) for the sécu steps.
+All service-public links moved to the current `.gouv.fr` host.
 
 ### R7.6 — Louer ou Acheter: self-explanatory scores (P1)
 **Problem:** `/villes/[slug]/louer-ou-acheter` shows raw numbers without
@@ -643,7 +656,19 @@ malin"). No naked numbers.
 Files: `app/villes/[slug]/louer-ou-acheter/page.tsx`, `components/RentVsBuyCard.tsx`,
 `lib/rent-vs-buy.ts`.
 
-### R7.7 — Score → colour audit (P0)
+### R7.7 — Score → colour audit (P0) ✅
+**Shipped.** Root cause: the ≥7.5 tier. CLAUDE.md documents it as Emerald
+and every `opengraph-image.tsx` already painted it emerald (`#10B981`),
+but the on-page `SCORE_TIERS` table in `lib/utils.ts` plus several
+hand-rolled ladders used purple (`#A855F7`) — an off-gradient hue on a
+red→green scale, so a #1 city scoring 8.0 read as purple, not green.
+Standardised the top tier to emerald everywhere: `lib/utils.ts`
+(propagates to `scoreColor`/`scoreBg`/`scoreHex`, hence FranceHeatmap
+dots, CarteClient, DromStrip, ScoreBar consumers), the hand-rolled ladders
+(CityCard gradient, ScoreBar, CityProfile niche tiles, `quartiers/page.tsx`),
+the FranceHeatmap legends, and the `/villes` "≥ 7.5" stat. Thresholds
+(7.5/7/6/5/4) were already correct everywhere; only the top-tier hue drifted.
+
 **Problem:** On `/classements/retraite` (and likely others), scores 8.0
 display orange — violates the 6-tier scale defined in CLAUDE.md (8.0 should
 be green).
