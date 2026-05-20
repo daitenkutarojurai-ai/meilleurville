@@ -641,7 +641,10 @@ function enDepartmentsSection(): MetadataRoute.Sitemap {
 }
 
 function enCitySubSection(): MetadataRoute.Sitemap {
-  const subs = ["climate", "transport", "schools", "cost-of-living", "healthcare", "safety"] as const;
+  const subs = [
+    "climate", "transport", "schools", "cost-of-living", "healthcare",
+    "safety", "air-quality", "employment", "natural-risks",
+  ] as const;
   return CITIES_SEED.flatMap((c) =>
     subs.map((sub) => ({
       url: `${BASE_URL}/cities/${c.slug}/${sub}`,

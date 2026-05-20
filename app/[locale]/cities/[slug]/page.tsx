@@ -184,6 +184,9 @@ export default async function EnCityPage({ params }: Props) {
               { href: "cost-of-living", emoji: "💶", label: "Cost of living" },
               { href: "healthcare", emoji: "🏥", label: "Healthcare" },
               { href: "safety", emoji: "🛡️", label: "Safety" },
+              { href: "air-quality", emoji: "🌬️", label: "Air quality" },
+              { href: "employment", emoji: "💼", label: "Job market" },
+              { href: "natural-risks", emoji: "🌊", label: "Natural risks" },
             ].map((s) => (
               <Link
                 key={s.href}
