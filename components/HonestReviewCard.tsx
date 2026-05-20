@@ -13,7 +13,7 @@ interface Props {
 }
 
 function ratingBadge(score: number): { label: string; tone: string } {
-  if (score >= 7.5) return { label: score.toFixed(1), tone: "bg-emerald-500/15 text-emerald-700 border-emerald-400/30" };
+  if (score >= 7.5) return { label: score.toFixed(1), tone: "bg-purple-500/15 text-purple-700 border-purple-400/30" };
   if (score >= 6.0) return { label: score.toFixed(1), tone: "bg-lime-500/15 text-lime-700 border-lime-400/30" };
   if (score >= 4.5) return { label: score.toFixed(1), tone: "bg-amber-500/15 text-amber-700 border-amber-400/30" };
   return { label: score.toFixed(1), tone: "bg-red-500/15 text-red-700 border-red-400/30" };
