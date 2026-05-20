@@ -114,7 +114,7 @@ export default function ExpatRetourIndex() {
                 <strong className="text-[var(--text-primary)]">Radiation du registre consulaire</strong>{" "}
                 — avant le départ, signaler la fin de résidence à l&apos;étranger via{" "}
                 <a
-                  href="https://www.service-public.fr/particuliers/vosdroits/F33899"
+                  href="https://www.service-public.gouv.fr/particuliers/vosdroits/R43251"
                   className="underline"
                   rel="noopener noreferrer"
                   target="_blank"

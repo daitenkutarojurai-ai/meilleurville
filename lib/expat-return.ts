@@ -47,7 +47,7 @@ export const EXPAT_COUNTRIES: ExpatCountryProfile[] = [
       { topic: "Garde d'enfants", had: "1 800-3 000 CHF/mois crèche", willHave: "0-450 €/mois après CAF/CMG" },
     ],
     adminPriorities: [
-      { step: "Déclarer le retour au consulat & radier", detail: "Avant le départ : se radier du registre des Français à l'étranger, demander attestation de radiation.", officialUrl: "https://www.service-public.fr/particuliers/vosdroits/F33899" },
+      { step: "Déclarer le retour au consulat & radier", detail: "Avant le départ : se radier du registre des Français à l'étranger, demander attestation de radiation.", officialUrl: "https://www.service-public.gouv.fr/particuliers/vosdroits/R43251" },
       { step: "Sécurité sociale", detail: "Transférer le formulaire S1 si vous restez frontalier, sinon ouvrir un dossier CPAM à l'arrivée (Inscription + 3 mois d'attestation d'emploi suisse)." },
       { step: "Fiscalité", detail: "Déclaration revenus rentrée fractionnée année du retour. Maintenir compte bancaire suisse une année (CFE + 3169 Bis si revenus suisses résiduels)." },
       { step: "Permis de conduire", detail: "Permis suisse échangeable contre permis français dans les 12 mois suivant le retour, sinon il faut le repasser." },
@@ -78,7 +78,7 @@ export const EXPAT_COUNTRIES: ExpatCountryProfile[] = [
     ],
     adminPriorities: [
       { step: "Maintien ou bascule frontalier", detail: "Si vous gardez l'emploi LU : statut frontalier OK tant que ≥ 75 % du revenu vient du LU et que le pays de résidence change (déclaration des deux côtés)." },
-      { step: "Sécurité sociale", detail: "Maintien CNS LU si frontalier + ouverture S1 vers CPAM pour la couverture FR.", officialUrl: "https://www.service-public.fr/particuliers/vosdroits/F33899" },
+      { step: "Sécurité sociale", detail: "Maintien CNS LU si frontalier + ouverture S1 vers CPAM pour la couverture FR.", officialUrl: "https://www.service-public.gouv.fr/particuliers/vosdroits/F32824" },
       { step: "Fiscalité revenu", detail: "Convention LU-FR : imposition au LU, déclaration informative en FR + correction CSG sur revenus non salariés." },
       { step: "Permis", detail: "Permis luxembourgeois reconnu de droit en France — pas d'échange." },
       { step: "Banque", detail: "Garder compte LU une année (allocations familiales rétroactives, primes de fin d'année). RIB FR à ouvrir avant rentrée scolaire." },
@@ -106,7 +106,7 @@ export const EXPAT_COUNTRIES: ExpatCountryProfile[] = [
       { topic: "Fiscalité revenu", had: "~30-35 % effectif", willHave: "~25-32 % effectif" },
     ],
     adminPriorities: [
-      { step: "Sécurité sociale", detail: "Demander le formulaire S1 pour transférer la couverture maladie. Compter 3-6 semaines pour activation côté français.", officialUrl: "https://www.service-public.fr/particuliers/vosdroits/F33899" },
+      { step: "Sécurité sociale", detail: "Demander le formulaire S1 pour transférer la couverture maladie. Compter 3-6 semaines pour activation côté français.", officialUrl: "https://www.service-public.gouv.fr/particuliers/vosdroits/F32824" },
       { step: "Fiscalité revenu", detail: "Déclaration partagée année du retour : revenus belges déclarés en Belgique, revenus français à compter du jour J en France." },
       { step: "Permis", detail: "Permis belge reconnu de droit en France — pas d'échange." },
       { step: "Allocations familiales", detail: "Demander attestation des montants reçus en Belgique + dossier CAF FR dès l'installation (rétroactif 3 mois)." },
@@ -136,7 +136,7 @@ export const EXPAT_COUNTRIES: ExpatCountryProfile[] = [
     ],
     adminPriorities: [
       { step: "Brexit & permis de séjour", detail: "Si vous résidiez avant le 31/12/2020 : Settled Status à conserver. Si après : visa de travail UK à gérer côté employeur britannique avant le retour FR." },
-      { step: "Sécurité sociale", detail: "Demander le S1 NHS → CPAM (formulaire d'inscription rapide).", officialUrl: "https://www.service-public.fr/particuliers/vosdroits/F33899" },
+      { step: "Sécurité sociale", detail: "Demander le S1 NHS → CPAM (formulaire d'inscription rapide).", officialUrl: "https://www.service-public.gouv.fr/particuliers/vosdroits/F32824" },
       { step: "Fiscalité revenu", detail: "Convention UK-FR (1968) : éviter la double imposition. P85 (formulaire HMRC sortie) + déclaration FR année du retour." },
       { step: "Permis de conduire", detail: "Échange du permis UK contre permis FR dans les 12 mois (gratuit). Au-delà, repasser le code + conduite." },
       { step: "Compte bancaire", detail: "Garder le compte UK 12 mois (HMRC remboursements potentiels). Ouvrir compte FR dès le retour pour CAF + salaires." },
@@ -165,7 +165,7 @@ export const EXPAT_COUNTRIES: ExpatCountryProfile[] = [
     ],
     adminPriorities: [
       { step: "Statut de résidence", detail: "Conserver permis de résidence canadien si retour temporaire (résidence permanente perdue après 3 ans absence cumulée sur 5)." },
-      { step: "Sécurité sociale", detail: "Inscription CPAM dès l'arrivée — apporter attestation départ RAMQ + 1 fiche de paie canadienne récente.", officialUrl: "https://www.service-public.fr/particuliers/vosdroits/F33899" },
+      { step: "Sécurité sociale", detail: "Inscription CPAM dès l'arrivée — apporter attestation départ RAMQ + 1 fiche de paie canadienne récente.", officialUrl: "https://www.service-public.gouv.fr/particuliers/vosdroits/F32824" },
       { step: "Fiscalité revenu", detail: "Convention FR-CA (1976) : résidence fiscale française à compter du jour J. Déclaration FR + final return canadien (T1 départ)." },
       { step: "Permis", detail: "Permis canadien (ON / QC / BC) échangeable en FR dans les 12 mois — démarche en ligne ANTS." },
       { step: "Retraite", detail: "RRQ / RPC à demander à 60 ans avec un dossier rétroactif ; transfert REER vers PEA non possible (déclarer le REER comme revenu de capital)." },

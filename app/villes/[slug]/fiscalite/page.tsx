@@ -223,7 +223,7 @@ export default async function FiscalitePage({ params }: Props) {
                   : `${city.department} n'a pas de commune classée en zone tendue à date — la THRS est appliquée au taux standard.`}
               </p>
               <p className="text-xs text-[var(--text-tertiary)]">
-                Vérifier le statut zone tendue de la commune exacte sur <a href="https://www.service-public.fr/particuliers/vosdroits/F42117" target="_blank" rel="noopener" className="text-[var(--accent)] hover:underline">service-public.fr</a> avant achat d&apos;une résidence secondaire.
+                Vérifier le statut zone tendue de la commune exacte sur <a href="https://www.service-public.gouv.fr/particuliers/vosdroits/F42" target="_blank" rel="noopener" className="text-[var(--accent)] hover:underline">service-public.fr</a> avant achat d&apos;une résidence secondaire.
               </p>
             </div>
 
@@ -268,7 +268,7 @@ export default async function FiscalitePage({ params }: Props) {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="mt-1 inline-block h-1.5 w-1.5 rounded-full bg-[var(--accent)] shrink-0" />
-                  <span>Consulter <a href="https://www.impots.gouv.fr/particulier/taxe-fonciere" target="_blank" rel="noopener" className="text-[var(--accent)] hover:underline">la page taxe foncière sur impots.gouv.fr</a>.</span>
+                  <span>Consulter <a href="https://www.service-public.gouv.fr/particuliers/vosdroits/F59" target="_blank" rel="noopener" className="text-[var(--accent)] hover:underline">la fiche taxe foncière sur service-public.fr</a>.</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="mt-1 inline-block h-1.5 w-1.5 rounded-full bg-[var(--accent)] shrink-0" />
