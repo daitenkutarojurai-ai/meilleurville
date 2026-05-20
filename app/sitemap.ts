@@ -583,6 +583,7 @@ function enStaticSection(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/`, lastModified: STATIC_UPDATED, changeFrequency: "daily", priority: 1.0 },
     { url: `${BASE_URL}/cities`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.8 },
     { url: `${BASE_URL}/rankings`, lastModified: RANKING_UPDATED, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${BASE_URL}/leaderboard`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.7 },
     { url: `${BASE_URL}/regions`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.75 },
     { url: `${BASE_URL}/departments`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.65 },
     { url: `${BASE_URL}/quiz`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.8 },

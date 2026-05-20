@@ -85,6 +85,14 @@ export default function EnHomePage() {
             </li>
           ))}
         </ul>
+        <div className="mt-6">
+          <Link
+            href="/leaderboard"
+            className="inline-flex items-center gap-1.5 text-sm font-semibold text-[var(--accent)] hover:underline"
+          >
+            See the full leaderboard — all {CITIES_COUNT} cities ranked →
+          </Link>
+        </div>
       </section>
 
       <Footer />

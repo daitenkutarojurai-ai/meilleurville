@@ -51,7 +51,6 @@ const FR_ONLY_SEGMENTS = new Set([
   "tags",
   "glossaire",
   "donnees",
-  "leaderboard",
   "mentions-legales",
   "confidentialite",
   "cgu",

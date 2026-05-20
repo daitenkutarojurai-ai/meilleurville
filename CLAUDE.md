@@ -857,7 +857,7 @@ What's *not* shipped yet, in rough priority. Treat as a phased plan.
       mirrored in EN today. Pick the next 4 by intent: healthcare, safety,
       neighbourhoods, own-vs-rent.
 - [ ] `/red-flags` and `/red-flags/[theme]` (EN).
-- [ ] `/leaderboard` (EN).
+- [x] `/leaderboard` (EN). Shipped: static global ranking, 352 cities, podium + table.
 - [ ] `/vacations` (EN port of `/vacances`, ~387 pages).
 - [ ] `/quiz/compatibility` (EN port of `/quiz-compatibilite`).
 - [ ] `/calculator/real-cost` (EN port of `/calculateur-cout-reel`).
