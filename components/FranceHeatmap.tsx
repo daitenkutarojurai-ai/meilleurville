@@ -658,7 +658,7 @@ export function FranceHeatmap() {
                 { c: "#F59E0B", l: "5.0–6.0" },
                 { c: "#84CC16", l: "6.0–7.0" },
                 { c: "#16A34A", l: "7.0–7.5" },
-                { c: "#A855F7", l: "≥ 7.5 ✦" },
+                { c: "#10B981", l: "≥ 7.5 ✦" },
               ].map((s) => (
                 <span key={s.l} className="flex items-center gap-1.5">
                   <span className="h-2.5 w-2.5 rounded-full" style={{ background: s.c, boxShadow: `0 0 10px ${s.c}` }} />
@@ -747,7 +747,7 @@ export function FranceHeatmap() {
                 Les gros points = grandes villes. Les petits = pépites de campagne.
               </p>
               <ul className="relative mt-2 grid grid-cols-2 gap-x-3 gap-y-1 text-[11px] text-[var(--text-secondary)]">
-                <li className="flex items-center gap-1.5"><span className="h-2 w-2 rounded-full" style={{ background: "#A855F7" }} aria-hidden /> Violet · exceptionnel</li>
+                <li className="flex items-center gap-1.5"><span className="h-2 w-2 rounded-full" style={{ background: "#10B981" }} aria-hidden /> Émeraude · exceptionnel</li>
                 <li className="flex items-center gap-1.5"><span className="h-2 w-2 rounded-full" style={{ background: "#16A34A" }} aria-hidden /> Vert · excellent</li>
                 <li className="flex items-center gap-1.5"><span className="h-2 w-2 rounded-full" style={{ background: "#84CC16" }} aria-hidden /> Lime · bon</li>
                 <li className="flex items-center gap-1.5"><span className="h-2 w-2 rounded-full" style={{ background: "#F59E0B" }} aria-hidden /> Ambre · moyen</li>

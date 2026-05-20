@@ -14,7 +14,7 @@ interface CityCardProps {
 }
 
 function gradientForScore(score: number) {
-  if (score >= 7.5) return "from-purple-500 via-violet-400 to-purple-300";
+  if (score >= 7.5) return "from-emerald-500 via-emerald-400 to-emerald-300";
   if (score >= 7.0) return "from-green-500 via-lime-400 to-lime-300";
   if (score >= 6.0) return "from-lime-400 via-yellow-300 to-amber-300";
   if (score >= 5.0) return "from-amber-400 via-amber-300 to-yellow-200";

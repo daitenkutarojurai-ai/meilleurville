@@ -41,7 +41,7 @@ export function formatSunshineDays(value: number | null | undefined): string {
  * route through this function so a change here applies everywhere.
  */
 export const SCORE_TIERS = [
-  { min: 7.5, text: "text-purple-500", hex: "#A855F7", bg: "bg-purple-500/15 border-purple-500/40", label: "exceptionnel" },
+  { min: 7.5, text: "text-emerald-500", hex: "#10B981", bg: "bg-emerald-500/15 border-emerald-500/40", label: "exceptionnel" },
   { min: 7.0, text: "text-green-500",  hex: "#16A34A", bg: "bg-green-500/10 border-green-500/30",   label: "excellent" },
   { min: 6.0, text: "text-lime-500",   hex: "#84CC16", bg: "bg-lime-500/10 border-lime-500/30",     label: "bon" },
   { min: 5.0, text: "text-amber-400",  hex: "#F59E0B", bg: "bg-amber-400/10 border-amber-400/30",   label: "moyen" },

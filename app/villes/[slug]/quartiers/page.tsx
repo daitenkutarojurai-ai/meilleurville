@@ -51,7 +51,7 @@ const TYPE_COLORS: Record<string, string> = {
 };
 
 function scoreColor(s: number) {
-  if (s >= 7.5) return "text-purple-500";
+  if (s >= 7.5) return "text-emerald-500";
   if (s >= 7.0) return "text-green-500";
   if (s >= 6.0) return "text-lime-500";
   if (s >= 5.0) return "text-amber-400";
