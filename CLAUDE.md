@@ -560,7 +560,15 @@ JSON-LD : BreadcrumbList + ItemList partout, FAQPage sur les fiches ville.
 User-reported batch from a full walkthrough. Treated as **priority queue** —
 all items listed are unshipped. Group together where they share a touchpoint.
 
-### R7.1 — Top navigation audit + restructure (P0)
+### R7.1 — Top navigation audit + restructure (P0) ✅
+**Shipped.** Red Flags promoted to a 5th primary pill (visible `lg+`);
+Carte became a dedicated map icon next to the search pill (reachable at
+every desktop breakpoint instead of buried at `xl`, still in the burger
+menu on mobile). Cadre de vie left the bar entirely — now in the Footer
+Explorer column + a full-width capstone card on the homepage
+(`ProfileQuickAccess`). FR bar holds 5 primary entries + 1 `xl` secondary
+(Vacances), no `lg` overflow. EN nav untouched.
+
 **Problem:** Top bar currently shows Explorer / Classements / Comparer /
 Guides on desktop. User reports Red Flags and Carte are missing while Cadre
 de vie is over-prioritised.
