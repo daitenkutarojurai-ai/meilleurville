@@ -32,7 +32,7 @@ export function FeaturedCities() {
     .map(seedToCity);
 
   return (
-    <section id="explorer" className="py-20">
+    <section id="explorer" className="py-12 sm:py-20">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <div className="mb-10 flex items-end justify-between">
           <div>

@@ -114,7 +114,7 @@ export function HeroSection() {
     <section
       id="hero"
       ref={heroRef}
-      className="relative overflow-hidden pt-24 pb-32 sm:pt-28"
+      className="relative overflow-hidden pt-24 pb-16 sm:pt-28 sm:pb-32"
     >
       {/* Aurora wash above the global ambient — adds extra colour to the hero only */}
       <div className="pointer-events-none absolute inset-0 -z-[1]" aria-hidden>

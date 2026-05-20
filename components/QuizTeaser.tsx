@@ -24,7 +24,7 @@ export function QuizTeaser({ citiesCount }: { citiesCount: number }) {
   const matched = DEMO_OPTIONS.find((o) => o.id === picked)?.match ?? null;
 
   return (
-    <section id="quiz" className="py-20">
+    <section id="quiz" className="py-12 sm:py-20">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <TiltCard max={4} scale={1.005} glare={false}>
           <div className="relative overflow-hidden rounded-3xl border border-white/60 glass-strong p-8 sm:p-12 lg:p-14 shadow-2xl shadow-[var(--accent)]/10">

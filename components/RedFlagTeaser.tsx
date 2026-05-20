@@ -10,7 +10,7 @@ const FLAG_TYPES = [
 
 export function RedFlagTeaser() {
   return (
-    <section className="relative py-20 bg-[var(--bg-surface)] overflow-hidden">
+    <section className="relative py-12 sm:py-20 bg-[var(--bg-surface)] overflow-hidden">
       <div className="pointer-events-none absolute inset-0" aria-hidden>
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_50%_40%_at_70%_30%,rgba(239,68,68,0.06),transparent_70%)]" />
       </div>

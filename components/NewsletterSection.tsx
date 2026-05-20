@@ -76,7 +76,7 @@ export function NewsletterSection({ locale = "fr" }: { locale?: Locale }) {
   }
 
   return (
-    <section className="relative py-20 border-t border-[var(--border)]">
+    <section className="relative py-12 sm:py-20 border-t border-[var(--border)]">
       <div className="mx-auto max-w-4xl px-4 sm:px-6">
         <div className="relative overflow-hidden rounded-[2rem] border border-white/60 glass-strong p-10 sm:p-14 shadow-2xl shadow-[var(--accent)]/15">
           {/* Aurora */}

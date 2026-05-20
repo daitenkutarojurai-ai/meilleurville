@@ -59,7 +59,7 @@ function getTopCity(scoreKey: (typeof PROFILES)[number]["scoreKey"]) {
 
 export function ProfileQuickAccess() {
   return (
-    <section className="relative py-14 border-t border-[var(--border)]">
+    <section className="relative py-12 sm:py-14 border-t border-[var(--border)]">
       <div className="pointer-events-none absolute inset-0" aria-hidden>
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_50%_40%_at_30%_50%,rgba(34,197,94,0.06),transparent_70%)]" />
       </div>
