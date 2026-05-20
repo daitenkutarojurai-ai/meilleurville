@@ -36,9 +36,11 @@
 
 html {
   scroll-behavior: smooth;
-  /* Mobile browsers don't reliably honour overflow-x on <body> alone — set it
-     on <html> too so no decorative element can make the page scroll sideways. */
-  overflow-x: hidden;
+  /* Clip sideways overflow without creating a scroll container.
+     `overflow-x: hidden` here would make <html> a scroll container and
+     break `position: sticky` on the navbar (it scrolls away on mobile);
+     `overflow-x: clip` clips the same overflow but keeps sticky working. */
+  overflow-x: clip;
 }
 
 body {
@@ -48,7 +50,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 .font-display {
