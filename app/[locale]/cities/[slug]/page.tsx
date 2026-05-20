@@ -172,10 +172,35 @@ export default async function EnCityPage({ params }: Props) {
           )}
         </section>
 
+        <section className="mb-10">
+          <h2 className="text-lg font-semibold text-[var(--text-primary)] mb-3">
+            Explore {city.name} in depth
+          </h2>
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+            {[
+              { href: "climate", emoji: "🌡️", label: "Climate" },
+              { href: "transport", emoji: "🚉", label: "Transport" },
+              { href: "schools", emoji: "🎓", label: "Schools" },
+              { href: "cost-of-living", emoji: "💶", label: "Cost of living" },
+              { href: "healthcare", emoji: "🏥", label: "Healthcare" },
+              { href: "safety", emoji: "🛡️", label: "Safety" },
+            ].map((s) => (
+              <Link
+                key={s.href}
+                href={`/cities/${city.slug}/${s.href}`}
+                className="flex items-center gap-2 rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-3 text-sm font-medium text-[var(--text-primary)] transition-all hover:border-[var(--accent)]/40 hover:shadow-md"
+              >
+                <span aria-hidden className="text-xl">{s.emoji}</span>
+                {s.label}
+              </Link>
+            ))}
+          </div>
+        </section>
+
         <section className="text-sm text-[var(--text-secondary)]">
           <p>
-            Looking for the French-language version with neighbourhoods, schools, and
-            climate sub-pages? <a className="underline" href={`${FR_BASE}/villes/${city.slug}`}>{city.name} on mavilleideale.fr</a>.
+            Prefer the French-language original?{" "}
+            <a className="underline" href={`${FR_BASE}/villes/${city.slug}`}>{city.name} on mavilleideale.fr</a>.
           </p>
         </section>
       </article>
