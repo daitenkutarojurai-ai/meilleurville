@@ -2,11 +2,12 @@
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
-import { Menu, X, MapPin, Sparkles, Heart, Search, Mail } from "lucide-react";
+import { Menu, X, Sparkles, Heart, Search, Mail } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { cn } from "@/lib/utils";
 import { FavoriteCount } from "@/components/effects/FavoriteButton";
 import { SearchPalette } from "@/components/SearchPalette";
+import { BrandMark } from "@/components/BrandMark";
 import { DEFAULT_LOCALE } from "@/lib/i18n";
 
 const IS_EN = DEFAULT_LOCALE === "en";
@@ -138,9 +139,7 @@ export function Navbar() {
       >
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 group flex-shrink-0">
-          <div className="flex h-8 w-8 items-center justify-center rounded-xl bg-[var(--accent)] shadow-lg shadow-[var(--accent)]/30 group-hover:shadow-[var(--accent)]/50 transition-shadow">
-            <MapPin className="h-4 w-4 text-white" />
-          </div>
+          <BrandMark className="h-8 w-8 rounded-[22%] shadow-lg shadow-[var(--accent)]/30 group-hover:shadow-[var(--accent)]/50 transition-shadow" />
           <span className="text-lg font-bold tracking-tight text-[var(--text-primary)]">
             {IS_EN ? (
               <>Best<span className="text-[var(--accent)]">CitiesInFrance</span></>

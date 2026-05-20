@@ -1,7 +1,9 @@
 import Link from "next/link";
-import { MapPin, Heart } from "lucide-react";
+import { Heart } from "lucide-react";
+import { DEFAULT_LOCALE } from "@/lib/i18n";
+import { BrandMark } from "@/components/BrandMark";
 
-const LINKS = {
+const LINKS_FR = {
   Explorer: [
     { label: "Toutes les villes", href: "/villes" },
     { label: "Par région", href: "/regions" },
@@ -23,8 +25,6 @@ const LINKS = {
   "À propos": [
     { label: "Notre mission", href: "/about" },
     { label: "Contact", href: "/contact" },
-    { label: "Confidentialité", href: "/confidentialite" },
-    { label: "CGU", href: "/cgu" },
     { label: "FAQ", href: "/faq" },
     { label: "Glossaire", href: "/glossaire" },
     { label: "Calendrier immobilier", href: "/calendrier-immobilier" },
@@ -32,9 +32,61 @@ const LINKS = {
     { label: "Recherche globale", href: "/recherche" },
     { label: "Sommaire", href: "/sommaire" },
     { label: "Flux RSS guides", href: "/feed.xml" },
+  ],
+  Légal: [
     { label: "Mentions légales", href: "/mentions-legales" },
+    { label: "Politique de confidentialité", href: "/confidentialite" },
+    { label: "CGU", href: "/cgu" },
+    { label: "Liens partenaires", href: "/mentions-legales#affiliation" },
   ],
 };
+
+const LINKS_EN = {
+  Explore: [
+    { label: "All cities", href: "/cities" },
+    { label: "Rankings", href: "/rankings" },
+    { label: "Quiz", href: "/quiz" },
+  ],
+  About: [
+    { label: "Home", href: "/" },
+    { label: "Contact", href: "mailto:hello@mavilleideale.fr" },
+  ],
+  Legal: [
+    { label: "Legal notice", href: "/legal-notice" },
+    { label: "Privacy policy", href: "/privacy-policy" },
+    { label: "Affiliate disclosure", href: "/legal-notice#affiliate-disclosure" },
+  ],
+};
+
+const LINKS = DEFAULT_LOCALE === "en" ? LINKS_EN : LINKS_FR;
+const TAGLINE =
+  DEFAULT_LOCALE === "en"
+    ? "Helping you find the right French city. Real data, resident reviews, no fluff."
+    : "On vous aide à trouver votre coin idéal en France 🌿 Données vraies, avis d'habitants, zéro bullshit.";
+const PUBLISHER_LINE =
+  DEFAULT_LOCALE === "en"
+    ? "Edited by Thomas Fendrich · hello@mavilleideale.fr"
+    : "Édité par Thomas Fendrich · hello@mavilleideale.fr";
+const COPY_LINE =
+  DEFAULT_LOCALE === "en"
+    ? "© 2026 BestCitiesInFrance · Made with"
+    : "© 2026 MeilleurVille · Fait avec";
+const COPY_SUFFIX =
+  DEFAULT_LOCALE === "en" ? "in France" : "en France";
+const SIGNAL_LINE =
+  DEFAULT_LOCALE === "en"
+    ? "Open Data · Resident reviews · Independent"
+    : "Open Data · Avis d'habitants · Indépendant";
+const BRAND_DISPLAY =
+  DEFAULT_LOCALE === "en" ? (
+    <>
+      Best<span className="text-[var(--accent)]">CitiesInFrance</span>
+    </>
+  ) : (
+    <>
+      Meilleur<span className="text-[var(--accent)]">Ville</span>
+    </>
+  );
 
 export function Footer() {
   return (
@@ -60,7 +112,7 @@ export function Footer() {
         {/* Big wordmark */}
         <div className="mb-12 text-center">
           <div className="text-[20vw] sm:text-[14rem] font-display italic leading-none gradient-text-anim opacity-25 select-none pointer-events-none">
-            meilleurville
+            {DEFAULT_LOCALE === "en" ? "bestcitiesinfrance" : "meilleurville"}
           </div>
         </div>
 
@@ -68,16 +120,16 @@ export function Footer() {
           {/* Brand */}
           <div>
             <Link href="/" className="flex items-center gap-2 mb-4">
-              <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-[var(--accent)] shadow-lg shadow-[var(--accent)]/40">
-                <MapPin className="h-4 w-4 text-white" />
-              </div>
+              <BrandMark className="h-9 w-9 rounded-[22%] shadow-lg shadow-[var(--accent)]/40" />
               <span className="font-bold text-white text-lg">
-                Meilleur<span className="text-[var(--accent)]">Ville</span>
+                {BRAND_DISPLAY}
               </span>
             </Link>
             <p className="text-sm text-[#A8C4A8] leading-relaxed">
-              On vous aide à trouver votre coin idéal en France 🌿 Données vraies,
-              avis d&apos;habitants, zéro bullshit.
+              {TAGLINE}
+            </p>
+            <p className="mt-4 text-xs text-[#A8C4A8]/80 leading-relaxed">
+              {PUBLISHER_LINE}
             </p>
           </div>
 
@@ -106,12 +158,13 @@ export function Footer() {
 
         <div className="border-t border-white/10 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-[#A8C4A8]">
-            © 2026 MeilleurVille · Fait avec{" "}
-            <Heart className="inline h-3 w-3 fill-[#EC4899] text-[#EC4899]" /> en France
+            {COPY_LINE}{" "}
+            <Heart className="inline h-3 w-3 fill-[#EC4899] text-[#EC4899]" />{" "}
+            {COPY_SUFFIX}
           </p>
           <p className="text-xs text-[#A8C4A8] flex items-center gap-2">
             <span className="inline-block h-2 w-2 rounded-full bg-[#22C55E] animate-pulse" />
-            Open Data · Avis d&apos;habitants · Indépendant
+            {SIGNAL_LINE}
           </p>
         </div>
       </div>
