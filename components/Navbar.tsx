@@ -178,12 +178,6 @@ export function Navbar() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  // Close menus on navigation.
-  useEffect(() => {
-    setOpen(false);
-    setMoreOpen(false);
-  }, [pathname]);
-
   // Lock body scroll while the drawer is open.
   useEffect(() => {
     if (!open) return;
@@ -300,6 +294,7 @@ export function Navbar() {
                         <Link
                           key={link.href}
                           href={link.href}
+                          onClick={() => setMoreOpen(false)}
                           aria-current={active ? "page" : undefined}
                           className={cn(
                             "flex items-center gap-2.5 rounded-xl px-3 py-2 text-sm font-medium transition-colors",
@@ -315,6 +310,7 @@ export function Navbar() {
                     })}
                     <Link
                       href="/favoris"
+                      onClick={() => setMoreOpen(false)}
                       className="flex items-center gap-2.5 rounded-xl px-3 py-2 text-sm font-medium text-[var(--text-secondary)] hover:bg-[var(--bg-elevated)] hover:text-[var(--accent-pink)] transition-colors"
                     >
                       <Heart className="h-4 w-4" />
