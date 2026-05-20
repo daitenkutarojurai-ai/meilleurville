@@ -7,7 +7,7 @@ export const contentType = "image/png";
 type Props = { params: Promise<{ pair: string }> };
 
 function scoreColor(score: number): string {
-  if (score >= 7.5) return "#A855F7";
+  if (score >= 7.5) return "#10B981";
   if (score >= 7.0) return "#16A34A";
   if (score >= 6.0) return "#84CC16";
   if (score >= 5.0) return "#F59E0B";
@@ -52,7 +52,7 @@ export default async function Image({ params }: Props) {
       >
         {/* Branding */}
         <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
-          <div style={{ color: "#7c6af0", fontSize: "18px", fontWeight: 700 }}>MeilleurVille</div>
+          <div style={{ color: "#0D9488", fontSize: "18px", fontWeight: 700 }}>MeilleurVille</div>
           <div style={{ color: "#30363d", fontSize: "18px" }}>·</div>
           <div style={{ color: "#8b949e", fontSize: "14px" }}>Comparaison qualité de vie 2026</div>
         </div>

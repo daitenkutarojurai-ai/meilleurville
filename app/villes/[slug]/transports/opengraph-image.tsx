@@ -8,7 +8,7 @@ export const contentType = "image/png";
 type Props = { params: Promise<{ slug: string }> };
 
 function scoreColor(score: number): string {
-  if (score >= 7.5) return "#A855F7";
+  if (score >= 7.5) return "#10B981";
   if (score >= 7.0) return "#16A34A";
   if (score >= 6.0) return "#84CC16";
   if (score >= 5.0) return "#F59E0B";
@@ -40,8 +40,8 @@ export default async function Image({ params }: Props) {
       >
         <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
           <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
-            <div style={{ width: 32, height: 32, background: "#7c6af0", borderRadius: 8, display: "flex", alignItems: "center", justifyContent: "center", color: "white", fontSize: 18, fontWeight: 900 }}>M</div>
-            <span style={{ color: "#7c6af0", fontSize: 20, fontWeight: 700 }}>MeilleurVille</span>
+            <svg width="32" height="32" viewBox="0 0 32 32"><rect width="32" height="32" rx="7" fill="#0D9488" /><path d="M16 4C11.13 4 7 8.13 7 13c0 8 9 15 9 15s9-7 9-15c0-4.87-4.13-9-9-9z" fill="white" /><circle cx="16" cy="13" r="3.5" fill="#0D9488" /></svg>
+            <span style={{ color: "#0D9488", fontSize: 20, fontWeight: 700 }}>MeilleurVille</span>
           </div>
           <div style={{ background: "rgba(255,255,255,0.05)", border: "1px solid #30363d", borderRadius: 8, padding: "6px 14px", color: "#8b949e", fontSize: 14 }}>
             Transports & mobilité

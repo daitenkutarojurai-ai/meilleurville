@@ -7,7 +7,7 @@ export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
 function scoreColor(score: number): string {
-  if (score >= 7.5) return "#A855F7";
+  if (score >= 7.5) return "#10B981";
   if (score >= 7.0) return "#16A34A";
   if (score >= 6.0) return "#84CC16";
   if (score >= 5.0) return "#F59E0B";
@@ -37,33 +37,18 @@ export default function Image() {
         {/* Top: branding */}
         <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
           <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
-            <div
-              style={{
-                width: "44px",
-                height: "44px",
-                background: "#7c6af0",
-                borderRadius: "12px",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                color: "white",
-                fontSize: "24px",
-                fontWeight: 900,
-              }}
-            >
-              M
-            </div>
+            <svg width="44" height="44" viewBox="0 0 32 32"><rect width="32" height="32" rx="7" fill="#0D9488" /><path d="M16 4C11.13 4 7 8.13 7 13c0 8 9 15 9 15s9-7 9-15c0-4.87-4.13-9-9-9z" fill="white" /><circle cx="16" cy="13" r="3.5" fill="#0D9488" /></svg>
             <span style={{ color: "#f0f6fc", fontSize: "26px", fontWeight: 800 }}>
               MeilleurVille
             </span>
           </div>
           <div
             style={{
-              background: "#7c6af022",
-              border: "1px solid #7c6af044",
+              background: "#0D948822",
+              border: "1px solid #0D948844",
               borderRadius: "20px",
               padding: "6px 16px",
-              color: "#a78bfa",
+              color: "#2DD4BF",
               fontSize: "14px",
               fontWeight: 600,
             }}
@@ -82,7 +67,7 @@ export default function Image() {
           </div>
           <div
             style={{
-              color: "#7c6af0",
+              color: "#0D9488",
               fontSize: "68px",
               fontWeight: 900,
               lineHeight: 1.05,
@@ -124,8 +109,8 @@ export default function Image() {
           <div
             style={{
               flex: 1,
-              background: "#7c6af011",
-              border: "1px solid #7c6af033",
+              background: "#0D948811",
+              border: "1px solid #0D948833",
               borderRadius: "12px",
               padding: "14px 16px",
               display: "flex",
@@ -135,11 +120,11 @@ export default function Image() {
               justifyContent: "center",
             }}
           >
-            <span style={{ color: "#7c6af0", fontSize: "22px", fontWeight: 900 }}>✨</span>
-            <span style={{ color: "#a78bfa", fontSize: "12px", fontWeight: 600, textAlign: "center" }}>
+            <span style={{ color: "#0D9488", fontSize: "22px", fontWeight: 900 }}>✨</span>
+            <span style={{ color: "#2DD4BF", fontSize: "12px", fontWeight: 600, textAlign: "center" }}>
               Quiz de
             </span>
-            <span style={{ color: "#a78bfa", fontSize: "12px", fontWeight: 600, textAlign: "center" }}>
+            <span style={{ color: "#2DD4BF", fontSize: "12px", fontWeight: 600, textAlign: "center" }}>
               matching
             </span>
           </div>
