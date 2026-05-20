@@ -11,7 +11,7 @@ import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 export const metadata: Metadata = {
   title: "Pour qui · Villes françaises adaptées à votre profil 2026",
   description:
-    "10 profils de vie, 10 top 20 villes adaptées : familles, jeunes actifs, retraités, freelances, télétravailleurs, étudiants, sans voiture, premium, femme seule, expat retour.",
+    "11 profils de vie, 11 classements top 20 calibrés sur les axes qui comptent : familles, couples, jeunes actifs, retraités, freelances, étudiants, et plus.",
   alternates: { canonical: "/pour-qui" },
 };
 
@@ -36,7 +36,7 @@ export default function PourQuiIndex() {
             Pour qui est faite chaque ville ?
           </h1>
           <p className="text-[var(--text-secondary)] text-base max-w-2xl mx-auto">
-            10 profils de vie, 10 classements top 20 calibrés sur les axes qui comptent pour
+            11 profils de vie, 11 classements top 20 calibrés sur les axes qui comptent pour
             chacun. Plus précis qu&apos;un score global générique.
           </p>
         </div>

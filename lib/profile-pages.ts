@@ -177,6 +177,19 @@ export const PROFILE_PAGES: ProfileDef[] = [
       `Sécurité ${c.scores.safety.toFixed(1)} · transport ${c.scores.transport.toFixed(1)}`,
   },
   {
+    slug: "couple-sans-enfant",
+    emoji: "👫",
+    label: "Couple sans enfant",
+    metaTitle: "Meilleures villes couple sans enfant 2026 — Top 20",
+    metaDescription:
+      "Top 20 villes françaises pour couples sans enfant : culture, restaurants, sorties, week-ends nature, transport. Score composite calibré 2026.",
+    intro:
+      "Couple sans enfant : les écoles ne pèsent rien dans l'arbitrage, et avec deux salaires le coût du logement passe au second plan. Ce qui compte vraiment, c'est une scène culturelle vivante, des restaurants et des sorties qui ne ferment pas à 22 h, une nature accessible pour les week-ends à deux, et des transports qui suivent. Ces 20 villes maximisent exactement ce mélange.",
+    weights: { culture: 2.5, life: 2.0, jeuneActif: 1.5, nature: 1.5, transport: 1.5, remoteWork: 1.0 },
+    reasonHint: (c) =>
+      `Culture ${c.scores.culture.toFixed(1)} · qualité de vie ${c.scores.life.toFixed(1)} · nature ${c.scores.nature.toFixed(1)}`,
+  },
+  {
     slug: "expat-retour",
     emoji: "✈️",
     label: "Retour d'expatriation",
