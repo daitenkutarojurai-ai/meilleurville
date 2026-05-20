@@ -187,6 +187,11 @@ export default async function EnCityPage({ params }: Props) {
               { href: "air-quality", emoji: "🌬️", label: "Air quality" },
               { href: "employment", emoji: "💼", label: "Job market" },
               { href: "natural-risks", emoji: "🌊", label: "Natural risks" },
+              { href: "noise", emoji: "🔇", label: "Noise" },
+              { href: "water", emoji: "💧", label: "Water stress" },
+              { href: "demographics", emoji: "👥", label: "Demographics" },
+              { href: "public-services", emoji: "🏛️", label: "Public services" },
+              { href: "cycling", emoji: "🚲", label: "Cycling" },
             ].map((s) => (
               <Link
                 key={s.href}
