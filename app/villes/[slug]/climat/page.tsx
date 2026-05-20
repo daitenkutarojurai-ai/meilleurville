@@ -58,7 +58,7 @@ function classifyClimate(c: City): ClimateType {
   // Mediterranean — south of 44° lat AND east of 2° lng (covers PACA, Occitanie côte, Corse)
   if (latitude && latitude < 44 && longitude && longitude > 2) {
     return { id: "mediterranean", label: "Méditerranéen", emoji: "🌞",
-      oneLiner: "Étés chauds et secs, hivers doux, ensoleillement généreux (2 600–2 900 h/an), épisodes de mistral ou tramontane selon les zones." };
+      oneLiner: "Étés chauds et secs, hivers doux, ensoleillement généreux (270–305 j/an), épisodes de mistral ou tramontane selon les zones." };
   }
 
   // Oceanic — Brittany / Normandy / west of -1° lng
@@ -290,7 +290,7 @@ export default async function ClimatPage({ params }: Props) {
                 </div>
               </div>
               <p className="text-sm text-[var(--text-secondary)] mt-2">
-                {city.name} se classe {sunRank.rank}<sup>e</sup> sur {sunRank.total} villes pour les heures d&apos;ensoleillement annuel —
+                {city.name} se classe {sunRank.rank}<sup>e</sup> sur {sunRank.total} villes pour les jours d&apos;ensoleillement annuel —
                 {sunRank.rank <= 30 ? " parmi les plus ensoleillées de France." :
                  sunRank.rank <= 100 ? " au-dessus de la moyenne nationale." :
                  sunRank.rank >= sunRank.total - 30 ? " parmi les villes les moins ensoleillées." :

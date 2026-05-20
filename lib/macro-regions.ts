@@ -49,7 +49,7 @@ export const MACRO_REGIONS: MacroRegionDef[] = [
     metaTitle: "Meilleures villes arc méditerranéen 2026 — Occitanie, PACA, Corse",
     metaDescription: "Top villes de l'arc méditerranéen français : Perpignan, Montpellier, Marseille, Nice. Climat chaud, mer omniprésente, prix élevés sur la côte d'Azur.",
     intro:
-      "L'arc méditerranéen, de Perpignan à Menton plus la Corse. 2 800+ h de soleil/an, étés franchement chauds (40 °C de plus en plus fréquents), mer Méditerranée à portée. Prix premium sur la côte d'Azur, plus accessibles côté Occitanie. Tourisme massif en juillet-août : à arbitrer dans le projet de vie.",
+      "L'arc méditerranéen, de Perpignan à Menton plus la Corse. 295+ j de soleil/an, étés franchement chauds (40 °C de plus en plus fréquents), mer Méditerranée à portée. Prix premium sur la côte d'Azur, plus accessibles côté Occitanie. Tourisme massif en juillet-août : à arbitrer dans le projet de vie.",
     departments: [
       "Pyrénées-Orientales",
       "Aude",

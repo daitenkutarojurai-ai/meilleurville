@@ -210,13 +210,13 @@ function climateRisk(city: CitySeed): WaterDimension {
   const level = levelFromScore(score);
   let reason: string;
   if (level === "fort") {
-    reason = `Été très chaud (${tj.toFixed(1)} °C en juillet) et très ensoleillé (${sun} h/an). Évaporation et déficit hydrique élevés.`;
+    reason = `Été très chaud (${tj.toFixed(1)} °C en juillet) et très ensoleillé (${Math.round(sun / 9.5)} j/an). Évaporation et déficit hydrique élevés.`;
   } else if (level === "eleve") {
-    reason = `Été chaud (${tj.toFixed(1)} °C en juillet, ${sun} h de soleil/an). Stress estival marqué sur la végétation et les jardins.`;
+    reason = `Été chaud (${tj.toFixed(1)} °C en juillet, ${Math.round(sun / 9.5)} j de soleil/an). Stress estival marqué sur la végétation et les jardins.`;
   } else if (level === "modere") {
-    reason = `Été tempéré (${tj.toFixed(1)} °C en juillet, ${sun} h de soleil/an). Stress hydrique limité hors épisodes exceptionnels.`;
+    reason = `Été tempéré (${tj.toFixed(1)} °C en juillet, ${Math.round(sun / 9.5)} j de soleil/an). Stress hydrique limité hors épisodes exceptionnels.`;
   } else {
-    reason = `Été doux (${tj.toFixed(1)} °C en juillet, ${sun} h de soleil/an). Climat océanique ou montagnard humide, peu propice au déficit prolongé.`;
+    reason = `Été doux (${tj.toFixed(1)} °C en juillet, ${Math.round(sun / 9.5)} j de soleil/an). Climat océanique ou montagnard humide, peu propice au déficit prolongé.`;
   }
   return { score, level, reason };
 }

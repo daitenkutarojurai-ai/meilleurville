@@ -275,7 +275,7 @@ export const RANKING_META = {
     description:
       "Classement basé sur les données réelles d'ensoleillement et de température : ensoleillement annuel, douceur estivale (sans canicule), clémence hivernale (sans gel marqué). Les villes au climat le plus équilibré arrivent en tête.",
     methodology:
-      "Score climatique composite : ensoleillement (×3, plafonné à 3 000 h/an), douceur d'été (×2, idéal ≈ 23 °C en juillet), clémence d'hiver (×2, idéal ≈ 8 °C en janvier). Calcul à partir des données seed (Météo-France / Open-Meteo agrégées).",
+      "Score climatique composite : ensoleillement (×3, plafonné à ~315 j/an), douceur d'été (×2, idéal ≈ 23 °C en juillet), clémence d'hiver (×2, idéal ≈ 8 °C en janvier). Calcul à partir des données seed (Météo-France / Open-Meteo agrégées).",
     weights: { nature: 0, life: 0 }, // ignored — climat uses a custom scorer
     color: "text-amber-400",
     borderColor: "border-amber-400/20",
@@ -411,7 +411,7 @@ export const RANKING_META = {
     description:
       "Classement des villes françaises au bord de l'océan, de la Méditerranée, de la Manche ou de la mer du Nord — celles où l'on peut vivre à l'année sans devenir touriste de sa propre rue. Filtre par tag côtier puis composite nature + qualité de vie + sécurité, avec bonus ensoleillement et accès direct au littoral. Sources : SHOM (trait de côte 2024), Météo-France (ensoleillement 1991-2020), Insee Recensement 2022 (population résidente), SSMSI 2024 (sécurité), Observatoires Locaux des Loyers (coût).",
     methodology:
-      "Filtre par caractère côtier (tags : mer, plage, balnéaire, océan, surf, station-balnéaire) — seules les villes sur ou à 5 km du littoral sont notées. Score composite : Nature (×3 — accès direct mer, voiles vertes littorales, biodiversité), Qualité de vie (×2,5 — promenade de mer, marchés, lumière), Sécurité (×1,5 — densité touristique pondérée), Culture (×1 — patrimoine maritime, festivals), Coût (×0,5 — pression touristique sur le logement). Bonus : +0,4 si > 2 400 h soleil/an, +0,3 si tag surf/station-balnéaire, +0,2 si population < 30 000 hab. (échelle village vs station). Les communes intérieures sont rangées en queue avec un score à 0.",
+      "Filtre par caractère côtier (tags : mer, plage, balnéaire, océan, surf, station-balnéaire) — seules les villes sur ou à 5 km du littoral sont notées. Score composite : Nature (×3 — accès direct mer, voiles vertes littorales, biodiversité), Qualité de vie (×2,5 — promenade de mer, marchés, lumière), Sécurité (×1,5 — densité touristique pondérée), Culture (×1 — patrimoine maritime, festivals), Coût (×0,5 — pression touristique sur le logement). Bonus : +0,4 si > 250 j soleil/an, +0,3 si tag surf/station-balnéaire, +0,2 si population < 30 000 hab. (échelle village vs station). Les communes intérieures sont rangées en queue avec un score à 0.",
     weights: { nature: 3, life: 2.5, safety: 1.5, culture: 1, cost: 0.5 },
     color: "text-cyan-500",
     borderColor: "border-cyan-500/20",

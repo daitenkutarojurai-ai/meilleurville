@@ -213,7 +213,7 @@ function ozoneRisk(city: CitySeed): AirDimension {
     return {
       score: 5.5,
       level: "eleve",
-      reason: `Été chaud (${tj.toFixed(1)} °C) et ensoleillé (${sun} h/an) — pics d'ozone ponctuels lors des canicules.`,
+      reason: `Été chaud (${tj.toFixed(1)} °C) et ensoleillé (${Math.round(sun / 9.5)} j/an) — pics d'ozone ponctuels lors des canicules.`,
     };
   }
   if (sun >= 1900) {

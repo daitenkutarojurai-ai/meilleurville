@@ -89,9 +89,9 @@ function pickAxisLine(score: number, key: ScoreKey, mode: "pro" | "con"): string
 function climateLine(city: CitySeed): string | null {
   const sun = city.sunshinedays;
   const tj = city.avgTempJuly;
-  if (sun && sun >= 2500) return "Ensoleillement exceptionnel (plus de 2 500 h/an)";
-  if (sun && sun >= 2200) return "Très ensoleillée (autour de 2 200 h/an)";
-  if (sun && sun < 1700) return "Climat plutôt gris en hiver (moins de 1 700 h de soleil/an)";
+  if (sun && sun >= 2500) return "Ensoleillement exceptionnel (plus de 260 j/an)";
+  if (sun && sun >= 2200) return "Très ensoleillée (autour de 230 j/an)";
+  if (sun && sun < 1700) return "Climat plutôt gris en hiver (moins de 180 j de soleil/an)";
   if (tj && tj >= 27) return "Étés très chauds, à anticiper en pleine canicule";
   return null;
 }

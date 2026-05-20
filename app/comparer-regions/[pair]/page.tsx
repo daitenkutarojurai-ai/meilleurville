@@ -16,7 +16,7 @@ import {
   regionToSlug,
   slugToRegion,
 } from "@/lib/regions";
-import { scoreColor, scoreHex } from "@/lib/utils";
+import { scoreColor, scoreHex, sunshineDays } from "@/lib/utils";
 
 // ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
 // revalidate=false → page built once at deploy, served from static edge cache.
@@ -199,7 +199,7 @@ export default async function ComparerRegionsPage({ params }: Props) {
                     name: `${a} ou ${b} : laquelle a le meilleur climat ?`,
                     acceptedAnswer: {
                       "@type": "Answer",
-                      text: `Ensoleillement moyen — ${a} : ${statsA.sunshineAvg ? Math.round(statsA.sunshineAvg) : "—"} h/an, ${b} : ${statsB.sunshineAvg ? Math.round(statsB.sunshineAvg) : "—"} h/an.`,
+                      text: `Ensoleillement moyen — ${a} : ${sunshineDays(statsA.sunshineAvg) ?? "—"} j/an, ${b} : ${sunshineDays(statsB.sunshineAvg) ?? "—"} j/an.`,
                     },
                   },
                   {
@@ -331,7 +331,7 @@ export default async function ComparerRegionsPage({ params }: Props) {
             <div className="font-semibold text-blue-600">{a}</div>
             <div className="font-semibold text-violet-400">{b}</div>
             {[
-              { label: "Soleil / an", a: statsA.sunshineAvg, b: statsB.sunshineAvg, unit: " h" },
+              { label: "Soleil / an", a: sunshineDays(statsA.sunshineAvg), b: sunshineDays(statsB.sunshineAvg), unit: " j" },
               { label: "Juillet moyen", a: statsA.julyAvg, b: statsB.julyAvg, unit: " °C" },
               { label: "Janvier moyen", a: statsA.janAvg, b: statsB.janAvg, unit: " °C" },
             ].map((row) => (
