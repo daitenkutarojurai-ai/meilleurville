@@ -100,6 +100,23 @@ export function ProfileQuickAccess() {
             );
           })}
         </div>
+        {/* Cadre de vie — the cross-cutting mega-index, no longer in the top
+            bar (R7.1). Surfaced here as a full-width capstone card. */}
+        <Link
+          href="/cadre-de-vie"
+          className="group mt-6 flex items-center gap-3 rounded-2xl glass border border-white/50 hover:border-[var(--accent)]/40 hover:shadow-lg hover:-translate-y-0.5 transition-all p-4"
+        >
+          <div className="text-2xl shrink-0">🌿</div>
+          <div className="flex-1 min-w-0">
+            <div className="text-sm font-bold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
+              Cadre de vie — le méga-index
+            </div>
+            <div className="text-[11px] text-[var(--text-tertiary)]">
+              Environnement, santé, services publics et emploi agrégés, ville par ville
+            </div>
+          </div>
+          <span className="text-[var(--accent)] font-medium shrink-0">→</span>
+        </Link>
         <div className="text-center mt-6">
           <Link
             href="/classements"

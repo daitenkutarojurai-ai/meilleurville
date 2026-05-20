@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
-import { Menu, X, Sparkles, Heart, Search, Mail } from "lucide-react";
+import { Menu, X, Sparkles, Heart, Search, Mail, Map } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { cn } from "@/lib/utils";
 import { FavoriteCount } from "@/components/effects/FavoriteButton";
@@ -20,21 +20,27 @@ interface NavItem {
   matchPrefix?: string;
 }
 
-// FR nav: 4 primary (always visible lg+) + secondary at xl + mobile-only extras.
-// Cadre de vie a été sorti de la barre (trop niche pour un slot primaire) ;
-// Red Flags + Carte remontent en secondaire visible dès xl.
+// FR nav: 5 primary text pills (always visible lg+) + 1 secondary at xl
+// + mobile-only extras. Red Flags sits in the primary row (R7.1 — users
+// land on it directly); Carte is a dedicated icon next to the search pill
+// (see CARTE_FR below). Cadre de vie left the bar (too niche for a slot)
+// and lives in the Footer + a homepage card.
 const NAV_PRIMARY_FR: NavItem[] = [
   { label: "Explorer",    href: "/villes",      emoji: "🌍", matchPrefix: "/villes" },
   { label: "Classements", href: "/classements", emoji: "📊", matchPrefix: "/classements" },
   { label: "Comparer",    href: "/comparer",    emoji: "⚖️", matchPrefix: "/comparer" },
   { label: "Guides",      href: "/guides",      emoji: "📖", matchPrefix: "/guides" },
+  { label: "Red Flags",   href: "/red-flags",   emoji: "🚩", matchPrefix: "/red-flags" },
 ];
 const NAV_SECONDARY_FR: NavItem[] = [
-  { label: "Carte",     href: "/carte",     emoji: "🗺️", matchPrefix: "/carte" },
-  { label: "Red Flags", href: "/red-flags", emoji: "🚩", matchPrefix: "/red-flags" },
   { label: "Vacances",  href: "/vacances",  emoji: "🌴", matchPrefix: "/vacances" },
 ];
+// Carte — surfaced as an icon button beside the search pill (reachable at
+// every desktop breakpoint, not buried at xl). Also in NAV_MOBILE_ONLY so
+// the burger menu carries it on phones/tablets.
+const CARTE_FR: NavItem = { label: "Carte", href: "/carte", emoji: "🗺️", matchPrefix: "/carte" };
 const NAV_MOBILE_ONLY_FR: NavItem[] = [
+  CARTE_FR,
   { label: "Cadre de vie", href: "/cadre-de-vie", emoji: "🌿", matchPrefix: "/cadre-de-vie" },
   { label: "Simulateur", href: "/#simulateur", emoji: "💸" },
   { label: "Contact", href: "/contact", emoji: "✉️", matchPrefix: "/contact" },
@@ -198,6 +204,21 @@ export function Navbar() {
           <div className="xl:hidden">
             <SearchTrigger compact />
           </div>
+          {!IS_EN && (
+            <Link
+              href={CARTE_FR.href}
+              aria-label="Carte interactive"
+              aria-current={isActive(CARTE_FR, pathname) ? "page" : undefined}
+              className={cn(
+                "inline-flex items-center rounded-full p-2 transition-colors",
+                isActive(CARTE_FR, pathname)
+                  ? "bg-[var(--accent)] text-white"
+                  : "text-[var(--text-secondary)] hover:text-[var(--accent)] hover:bg-[var(--bg-elevated)]"
+              )}
+            >
+              <Map className="h-4 w-4" />
+            </Link>
+          )}
           {!IS_EN && (
             <Link
               href="/favoris"

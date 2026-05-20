@@ -10,6 +10,7 @@ const LINKS_FR = {
     { label: "Par département", href: "/departements" },
     { label: "Carte interactive", href: "/carte" },
     { label: "Classements", href: "/classements" },
+    { label: "Cadre de vie", href: "/cadre-de-vie" },
     { label: "Leaderboard", href: "/leaderboard" },
     { label: "Comparer", href: "/comparer" },
     { label: "Red Flag Radar", href: "/red-flags" },
