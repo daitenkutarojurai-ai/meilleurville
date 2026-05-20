@@ -44,19 +44,19 @@ export default function PublicServicesHubPage() {
       q: "Quelles villes françaises offrent le meilleur accès aux services publics ?",
       a: `Selon notre composite F60 (écoles 35 % + mairie 25 % + La Poste 25 % + médiathèque 15 %), les villes ≥ 15 000 hab. au meilleur maillage sont : ${best
         .slice(0, 5)
-        .map((c) => `${c.name} (${c.services.composite}/10)`)
-        .join(", ")}. Score faible = bon accès.`,
+        .map((c) => `${c.name} (${(10 - c.services.composite).toFixed(1)}/10)`)
+        .join(", ")}. Score élevé = bon accès.`,
     },
     {
       q: "Quelles villes sont en désert de services publics ?",
-      a: `Les villes ≥ 15 000 hab. au composite le plus élevé sont : ${desert
+      a: `Les villes ≥ 15 000 hab. au composite le plus bas sont : ${desert
         .slice(0, 5)
-        .map((c) => `${c.name} (${c.services.composite}/10)`)
-        .join(", ")}. Ce score traduit un cumul de tensions sur écoles, La Poste, mairie ou médiathèque — souvent lié à la ruralité de l'arrière-pays départemental ou aux DROM les plus tendus.`,
+        .map((c) => `${c.name} (${(10 - c.services.composite).toFixed(1)}/10)`)
+        .join(", ")}. Un score bas traduit un cumul de tensions sur écoles, La Poste, mairie ou médiathèque, souvent lié à la ruralité de l'arrière-pays départemental ou aux DROM les plus tendus.`,
     },
     {
       q: "Comment ce classement est-il calculé ?",
-      a: "Composite agrégeant 4 dimensions : écoles & petite enfance (35 %, annuaire DEPP + tension crèche CAF), mairie & démarches (25 %, amplitude + France Services), La Poste & France Services (25 %, bureaux + APC + RPC + ~2 800 MFS), médiathèque (15 %, BNF observatoire lecture publique). Score 0-10, 10 = déficit max.",
+      a: "Composite agrégeant 4 dimensions : écoles & petite enfance (35 %, annuaire DEPP + tension crèche CAF), mairie & démarches (25 %, amplitude + France Services), La Poste & France Services (25 %, bureaux + APC + RPC + ~2 800 MFS), médiathèque (15 %, BNF observatoire lecture publique). Score 0-10, 10 = maillage complet.",
     },
     {
       q: "Où trouver les coordonnées officielles des services publics près de chez moi ?",
@@ -81,8 +81,8 @@ export default function PublicServicesHubPage() {
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
           Index composite agrégeant quatre piliers du quotidien : écoles &amp;
           petite enfance, mairie &amp; démarches, La Poste &amp; France Services,
-          médiathèque. Score 0-10, 10 = déficit maximum. Filtre 15 000 habitants
-          minimum.
+          médiathèque. Score 0-10, 10 = maillage de services complet. Filtre
+          15 000 habitants minimum.
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
@@ -129,16 +129,16 @@ export default function PublicServicesHubPage() {
                     <td className="px-3 py-2 text-[var(--text-tertiary)]">{c.region}</td>
                     <td className="px-3 py-2 text-right">
                       <span className={`font-bold tabular-nums ${SERVICES_LEVEL_COLOR[c.services.level]}`}>
-                        {c.services.composite.toFixed(1)}
+                        {(10 - c.services.composite).toFixed(1)}
                       </span>
                       <span className="text-[10px] uppercase tracking-wide text-[var(--text-tertiary)] ml-1">
                         {SERVICES_LEVEL_LABEL[c.services.level]}
                       </span>
                     </td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{c.services.schools.score.toFixed(1)}</td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{c.services.library.score.toFixed(1)}</td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{c.services.postOffice.score.toFixed(1)}</td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{c.services.cityHall.score.toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{(10 - c.services.schools.score).toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{(10 - c.services.library.score).toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{(10 - c.services.postOffice.score).toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{(10 - c.services.cityHall.score).toFixed(1)}</td>
                   </tr>
                 ))}
               </tbody>
@@ -146,7 +146,7 @@ export default function PublicServicesHubPage() {
           </div>
         </Card>
         <p className="text-xs text-[var(--text-tertiary)] mt-2">
-          Lecture : 10 = déficit maximum. Score &lt; 3 = maillage complet.
+          Lecture : 10 = maillage de services complet. Score &lt; 3 = désert de services.
         </p>
 
         {/* Desert */}
@@ -187,13 +187,13 @@ export default function PublicServicesHubPage() {
                     <td className="px-3 py-2 text-[var(--text-tertiary)]">{c.region}</td>
                     <td className="px-3 py-2 text-right">
                       <span className="font-bold tabular-nums text-red-600">
-                        {c.services.composite.toFixed(1)}
+                        {(10 - c.services.composite).toFixed(1)}
                       </span>
                       <span className="text-[10px] uppercase tracking-wide text-[var(--text-tertiary)] ml-1">/10</span>
                     </td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{c.services.schools.score.toFixed(1)}</td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{c.services.postOffice.score.toFixed(1)}</td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{c.services.cityHall.score.toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{(10 - c.services.schools.score).toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{(10 - c.services.postOffice.score).toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{(10 - c.services.cityHall.score).toFixed(1)}</td>
                   </tr>
                 ))}
               </tbody>

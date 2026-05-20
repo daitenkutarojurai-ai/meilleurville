@@ -44,19 +44,19 @@ export default function DemographyHubPage() {
       q: "Quelles villes françaises ont le profil démographique le plus dynamique ?",
       a: `Selon notre composite F59 (vieillissement 30 % + trajectoire 30 % + jeunes actifs 25 % + renouvellement 15 %), les villes ≥ 15 000 hab. au profil le plus dynamique sont : ${dynamic
         .slice(0, 5)
-        .map((c) => `${c.name} (${c.demo.composite}/10)`)
-        .join(", ")}. Score faible = équilibre démographique.`,
+        .map((c) => `${c.name} (${(10 - c.demo.composite).toFixed(1)}/10)`)
+        .join(", ")}. Score élevé = équilibre démographique.`,
     },
     {
       q: "Quelles villes sont en tension démographique critique ?",
-      a: `Les villes ≥ 15 000 hab. au composite le plus élevé sont : ${ageing
+      a: `Les villes ≥ 15 000 hab. au composite le plus bas sont : ${ageing
         .slice(0, 5)
-        .map((c) => `${c.name} (${c.demo.composite}/10)`)
+        .map((c) => `${c.name} (${(10 - c.demo.composite).toFixed(1)}/10)`)
         .join(", ")}. Elles cumulent généralement vieillissement marqué, départ des jeunes actifs et solde démographique négatif depuis plusieurs décennies.`,
     },
     {
       q: "Comment ce classement est-il calculé ?",
-      a: "Composite agrégeant 4 dimensions INSEE : vieillissement (30 %, % seniors 60+ par dept), trajectoire population (30 %, solde naturel + migratoire), attractivité jeunes actifs 25-35 (25 %, % dans la pop totale), renouvellement (15 %, taux brut de natalité ‰). Score 0-10, 10 = tension critique.",
+      a: "Composite agrégeant 4 dimensions INSEE : vieillissement (30 %, % seniors 60+ par dept), trajectoire population (30 %, solde naturel + migratoire), attractivité jeunes actifs 25-35 (25 %, % dans la pop totale), renouvellement (15 %, taux brut de natalité ‰). Score 0-10, 10 = démographie dynamique.",
     },
     {
       q: "Où voir les projections officielles à 2050 ?",
@@ -81,7 +81,7 @@ export default function DemographyHubPage() {
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
           Index composite agrégeant quatre dimensions clés de la démographie locale :
           vieillissement, attractivité jeunes actifs, trajectoire population, renouvellement
-          naturel. Score 0-10, 10 = tension critique. Filtre 15 000 habitants minimum.
+          naturel. Score 0-10, 10 = démographie dynamique. Filtre 15 000 habitants minimum.
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
@@ -96,7 +96,7 @@ export default function DemographyHubPage() {
         </h2>
         <p className="mt-2 text-sm text-[var(--text-secondary)]">
           Grandes métropoles attractives, IDF dense, façade atlantique en croissance. Score
-          composite faible = pyramide équilibrée + trajectoire positive.
+          composite élevé = pyramide équilibrée + trajectoire positive.
         </p>
         <Card className="mt-4 overflow-hidden p-0">
           <div className="overflow-x-auto">
@@ -128,16 +128,16 @@ export default function DemographyHubPage() {
                     <td className="px-3 py-2 text-[var(--text-tertiary)]">{c.region}</td>
                     <td className="px-3 py-2 text-right">
                       <span className={`font-bold tabular-nums ${DEMO_LEVEL_COLOR[c.demo.level]}`}>
-                        {c.demo.composite.toFixed(1)}
+                        {(10 - c.demo.composite).toFixed(1)}
                       </span>
                       <span className="text-[10px] uppercase tracking-wide text-[var(--text-tertiary)] ml-1">
                         {DEMO_LEVEL_LABEL[c.demo.level]}
                       </span>
                     </td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{c.demo.ageing.score.toFixed(1)}</td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{c.demo.youngActives.score.toFixed(1)}</td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{c.demo.trajectory.score.toFixed(1)}</td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{c.demo.renewal.score.toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{(10 - c.demo.ageing.score).toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{(10 - c.demo.youngActives.score).toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{(10 - c.demo.trajectory.score).toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{(10 - c.demo.renewal.score).toFixed(1)}</td>
                   </tr>
                 ))}
               </tbody>
@@ -145,7 +145,7 @@ export default function DemographyHubPage() {
           </div>
         </Card>
         <p className="text-xs text-[var(--text-tertiary)] mt-2">
-          Lecture : 10 = tension maximale. Score &lt; 3 = profil démographique équilibré et dynamique.
+          Lecture : 10 = démographie dynamique. Score &lt; 3 = tension démographique critique.
         </p>
 
         {/* Ageing */}
@@ -186,13 +186,13 @@ export default function DemographyHubPage() {
                     <td className="px-3 py-2 text-[var(--text-tertiary)]">{c.region}</td>
                     <td className="px-3 py-2 text-right">
                       <span className="font-bold tabular-nums text-red-600">
-                        {c.demo.composite.toFixed(1)}
+                        {(10 - c.demo.composite).toFixed(1)}
                       </span>
                       <span className="text-[10px] uppercase tracking-wide text-[var(--text-tertiary)] ml-1">/10</span>
                     </td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{c.demo.ageing.score.toFixed(1)}</td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{c.demo.youngActives.score.toFixed(1)}</td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{c.demo.trajectory.score.toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{(10 - c.demo.ageing.score).toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{(10 - c.demo.youngActives.score).toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{(10 - c.demo.trajectory.score).toFixed(1)}</td>
                   </tr>
                 ))}
               </tbody>

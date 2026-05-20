@@ -80,15 +80,15 @@ export default async function MacroRegionServicesPage({ params }: Props) {
       q: `Quelles villes ont le meilleur accès aux services publics en ${macro.label} ?`,
       a:
         best.length > 0
-          ? `Top 3 selon le composite F60 (10 = pire) : ${best
+          ? `Top 3 selon le composite F60 (10 = maillage complet) : ${best
               .slice(0, 3)
-              .map((c) => `${c.name} (${c.services.composite}/10)`)
+              .map((c) => `${c.name} (${(10 - c.services.composite).toFixed(1)}/10)`)
               .join(", ")}.`
           : `Aucune ville de plus de 10 000 habitants n'est référencée pour cette macro-région.`,
     },
     {
       q: `Quel est le profil services publics moyen sur ${macro.label} ?`,
-      a: `Composite moyen ${avgComposite}/10. Détail par dimension (10 = déficit max) : écoles ${avgSchools}/10, médiathèque ${avgLibrary}/10, La Poste ${avgPost}/10, mairie ${avgHall}/10.`,
+      a: `Composite moyen ${(10 - avgComposite).toFixed(1)}/10. Détail par dimension (10 = maillage complet) : écoles ${(10 - avgSchools).toFixed(1)}/10, médiathèque ${(10 - avgLibrary).toFixed(1)}/10, La Poste ${(10 - avgPost).toFixed(1)}/10, mairie ${(10 - avgHall).toFixed(1)}/10.`,
     },
     {
       q: `Comment ce classement est-il calculé ?`,
@@ -119,7 +119,7 @@ export default async function MacroRegionServicesPage({ params }: Props) {
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
           <Badge>{cities.length} villes analysées</Badge>
-          <Badge>Composite moyen : {avgComposite}/10</Badge>
+          <Badge>Composite moyen : {(10 - avgComposite).toFixed(1)}/10</Badge>
         </div>
 
         {/* Macro-region aggregate */}
@@ -137,7 +137,7 @@ export default async function MacroRegionServicesPage({ params }: Props) {
               <div key={d.k} className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-3">
                 <div className="text-xs text-[var(--text-tertiary)]">{d.k}</div>
                 <div className="text-xl font-bold tabular-nums text-[var(--text-primary)] mt-1">
-                  {d.v.toFixed(1)}
+                  {(10 - d.v).toFixed(1)}
                   <span className="text-xs font-normal text-[var(--text-tertiary)] ml-0.5">/10</span>
                 </div>
                 <div className="text-[11px] text-[var(--text-tertiary)] mt-1 leading-tight">{d.hint}</div>
@@ -145,7 +145,7 @@ export default async function MacroRegionServicesPage({ params }: Props) {
             ))}
           </div>
           <p className="text-[11px] text-[var(--text-tertiary)] mt-3">
-            Sous-scores : 10 = déficit maximum.
+            Sous-scores : 10 = maillage de services complet.
           </p>
         </Card>
 
@@ -182,15 +182,15 @@ export default async function MacroRegionServicesPage({ params }: Props) {
                     <td className="px-3 py-2 text-[var(--text-tertiary)]">{c.department}</td>
                     <td className="px-3 py-2 text-right">
                       <span className={`font-bold tabular-nums ${SERVICES_LEVEL_COLOR[c.services.level]}`}>
-                        {c.services.composite.toFixed(1)}
+                        {(10 - c.services.composite).toFixed(1)}
                       </span>
                       <span className="text-[10px] uppercase tracking-wide text-[var(--text-tertiary)] ml-1">
                         {SERVICES_LEVEL_LABEL[c.services.level]}
                       </span>
                     </td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{c.services.schools.score.toFixed(1)}</td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{c.services.postOffice.score.toFixed(1)}</td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{c.services.cityHall.score.toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{(10 - c.services.schools.score).toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{(10 - c.services.postOffice.score).toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{(10 - c.services.cityHall.score).toFixed(1)}</td>
                   </tr>
                 ))}
               </tbody>
@@ -231,13 +231,13 @@ export default async function MacroRegionServicesPage({ params }: Props) {
                     <td className="px-3 py-2 text-[var(--text-tertiary)]">{c.department}</td>
                     <td className="px-3 py-2 text-right">
                       <span className="font-bold tabular-nums text-red-600">
-                        {c.services.composite.toFixed(1)}
+                        {(10 - c.services.composite).toFixed(1)}
                       </span>
                       <span className="text-[10px] uppercase tracking-wide text-[var(--text-tertiary)] ml-1">/10</span>
                     </td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{c.services.schools.score.toFixed(1)}</td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{c.services.postOffice.score.toFixed(1)}</td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{c.services.cityHall.score.toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{(10 - c.services.schools.score).toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{(10 - c.services.postOffice.score).toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{(10 - c.services.cityHall.score).toFixed(1)}</td>
                   </tr>
                 ))}
               </tbody>

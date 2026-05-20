@@ -81,19 +81,19 @@ export default async function MacroRegionHealthcarePage({ params }: Props) {
       q: `Quelles villes ont le meilleur accès aux soins en ${macro.label} ?`,
       a:
         best.length > 0
-          ? `Top 3 selon le composite F47 (10 = désert) : ${best
+          ? `Top 3 selon le composite F47 (10 = excellent accès aux soins) : ${best
               .slice(0, 3)
-              .map((c) => `${c.name} (${c.access.composite}/10)`)
-              .join(", ")}. Score faible = accès facile.`
+              .map((c) => `${c.name} (${(10 - c.access.composite).toFixed(1)}/10)`)
+              .join(", ")}. Score élevé = bon accès.`
           : `Aucune ville de plus de 10 000 habitants n'est référencée pour cette macro-région.`,
     },
     {
       q: `Quel est le niveau moyen d'accès aux soins en ${macro.label} ?`,
-      a: `Composite moyen ${avgComposite}/10 (10 = désert avéré). Détail moyenne par dimension : médecins généralistes ${avgMg}/10, spécialistes ${avgSpe}/10, urgences ${avgUrg}/10, pharmacies ${avgPharma}/10.`,
+      a: `Composite moyen ${(10 - avgComposite).toFixed(1)}/10 (10 = excellent accès aux soins). Détail moyenne par dimension : médecins généralistes ${(10 - avgMg).toFixed(1)}/10, spécialistes ${(10 - avgSpe).toFixed(1)}/10, urgences ${(10 - avgUrg).toFixed(1)}/10, pharmacies ${(10 - avgPharma).toFixed(1)}/10.`,
     },
     {
       q: `Comment ce classement est-il calculé ?`,
-      a: `Composite agrégeant 4 dimensions : médecins généralistes (35 %, densité DREES + override CHU/métropole), spécialistes (25 %), urgences/SAU (25 %, présence + malus montagne/île), pharmacies (15 %). Sources : DREES, CNOM, ARS.`,
+      a: `Composite agrégeant 4 dimensions : médecins généralistes (35 %, densité DREES + override CHU/métropole), spécialistes (25 %), urgences/SAU (25 %, présence + malus montagne/île), pharmacies (15 %). Score 0-10, 10 = excellent accès aux soins. Sources : DREES, CNOM, ARS.`,
     },
   ]);
 
@@ -120,7 +120,7 @@ export default async function MacroRegionHealthcarePage({ params }: Props) {
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
           <Badge>{cities.length} villes analysées</Badge>
-          <Badge>Composite moyen : {avgComposite}/10</Badge>
+          <Badge>Composite moyen : {(10 - avgComposite).toFixed(1)}/10</Badge>
         </div>
 
         {/* Macro-region aggregate */}
@@ -138,7 +138,7 @@ export default async function MacroRegionHealthcarePage({ params }: Props) {
               <div key={d.k} className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-3">
                 <div className="text-xs text-[var(--text-tertiary)]">{d.k}</div>
                 <div className="text-xl font-bold tabular-nums text-[var(--text-primary)] mt-1">
-                  {d.v.toFixed(1)}
+                  {(10 - d.v).toFixed(1)}
                   <span className="text-xs font-normal text-[var(--text-tertiary)] ml-0.5">/10</span>
                 </div>
                 <div className="text-[11px] text-[var(--text-tertiary)] mt-1 leading-tight">{d.hint}</div>
@@ -146,7 +146,7 @@ export default async function MacroRegionHealthcarePage({ params }: Props) {
             ))}
           </div>
           <p className="text-[11px] text-[var(--text-tertiary)] mt-3">
-            Sous-scores : 10 = accès maximalement difficile, 0 = très facile.
+            Sous-scores : 10 = accès aux soins excellent, 0 = désert médical.
           </p>
         </Card>
 
@@ -183,15 +183,15 @@ export default async function MacroRegionHealthcarePage({ params }: Props) {
                     <td className="px-3 py-2 text-[var(--text-tertiary)]">{c.department}</td>
                     <td className="px-3 py-2 text-right">
                       <span className={`font-bold tabular-nums ${HEALTH_LEVEL_COLOR[c.access.level]}`}>
-                        {c.access.composite.toFixed(1)}
+                        {(10 - c.access.composite).toFixed(1)}
                       </span>
                       <span className="text-[10px] uppercase tracking-wide text-[var(--text-tertiary)] ml-1">
                         {HEALTH_LEVEL_LABEL[c.access.level]}
                       </span>
                     </td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{c.access.generalistes.score.toFixed(1)}</td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{c.access.specialistes.score.toFixed(1)}</td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{c.access.urgences.score.toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{(10 - c.access.generalistes.score).toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{(10 - c.access.specialistes.score).toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{(10 - c.access.urgences.score).toFixed(1)}</td>
                   </tr>
                 ))}
               </tbody>
@@ -232,13 +232,13 @@ export default async function MacroRegionHealthcarePage({ params }: Props) {
                     <td className="px-3 py-2 text-[var(--text-tertiary)]">{c.department}</td>
                     <td className="px-3 py-2 text-right">
                       <span className="font-bold tabular-nums text-red-600">
-                        {c.access.composite.toFixed(1)}
+                        {(10 - c.access.composite).toFixed(1)}
                       </span>
                       <span className="text-[10px] uppercase tracking-wide text-[var(--text-tertiary)] ml-1">/10</span>
                     </td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{c.access.generalistes.score.toFixed(1)}</td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{c.access.specialistes.score.toFixed(1)}</td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{c.access.urgences.score.toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{(10 - c.access.generalistes.score).toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{(10 - c.access.specialistes.score).toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{(10 - c.access.urgences.score).toFixed(1)}</td>
                   </tr>
                 ))}
               </tbody>

@@ -81,15 +81,15 @@ export default async function MacroRegionEmploymentPage({ params }: Props) {
       q: `Quelles villes ont le marché du travail le plus favorable en ${macro.label} ?`,
       a:
         best.length > 0
-          ? `Top 3 selon le composite F50 (10 = sinistré) : ${best
+          ? `Top 3 selon le composite F50 (10 = marché du travail dynamique) : ${best
               .slice(0, 3)
-              .map((c) => `${c.name} (${c.market.composite}/10)`)
-              .join(", ")}. Score faible = marché facile.`
+              .map((c) => `${c.name} (${(10 - c.market.composite).toFixed(1)}/10)`)
+              .join(", ")}. Score élevé = marché favorable.`
           : `Aucune ville de plus de 10 000 habitants n'est référencée pour cette macro-région.`,
     },
     {
       q: `Quel est le profil emploi moyen sur ${macro.label} ?`,
-      a: `Composite moyen ${avgComposite}/10 (10 = marché sinistré). Détail par dimension (10 = pire) : chômage ${avgUnemp}/10, salaire ${avgSalary}/10, dynamisme ${avgDyn}/10, mix sectoriel ${avgMix}/10.`,
+      a: `Composite moyen ${(10 - avgComposite).toFixed(1)}/10 (10 = marché du travail dynamique). Détail par dimension (10 = situation la plus favorable) : chômage ${(10 - avgUnemp).toFixed(1)}/10, salaire ${(10 - avgSalary).toFixed(1)}/10, dynamisme ${(10 - avgDyn).toFixed(1)}/10, mix sectoriel ${(10 - avgMix).toFixed(1)}/10.`,
     },
     {
       q: `Comment ce classement est-il calculé ?`,
@@ -120,7 +120,7 @@ export default async function MacroRegionEmploymentPage({ params }: Props) {
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
           <Badge>{cities.length} villes analysées</Badge>
-          <Badge>Composite moyen : {avgComposite}/10</Badge>
+          <Badge>Composite moyen : {(10 - avgComposite).toFixed(1)}/10</Badge>
         </div>
 
         {/* Macro-region aggregate */}
@@ -138,7 +138,7 @@ export default async function MacroRegionEmploymentPage({ params }: Props) {
               <div key={d.k} className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-3">
                 <div className="text-xs text-[var(--text-tertiary)]">{d.k}</div>
                 <div className="text-xl font-bold tabular-nums text-[var(--text-primary)] mt-1">
-                  {d.v.toFixed(1)}
+                  {(10 - d.v).toFixed(1)}
                   <span className="text-xs font-normal text-[var(--text-tertiary)] ml-0.5">/10</span>
                 </div>
                 <div className="text-[11px] text-[var(--text-tertiary)] mt-1 leading-tight">{d.hint}</div>
@@ -146,7 +146,7 @@ export default async function MacroRegionEmploymentPage({ params }: Props) {
             ))}
           </div>
           <p className="text-[11px] text-[var(--text-tertiary)] mt-3">
-            Sous-scores : 10 = pire (chômage haut, salaire bas, faible dynamisme, mono-secteur).
+            Sous-scores : 10 = situation la plus favorable (chômage bas, salaire haut, fort dynamisme, mix diversifié).
           </p>
         </Card>
 
@@ -183,15 +183,15 @@ export default async function MacroRegionEmploymentPage({ params }: Props) {
                     <td className="px-3 py-2 text-[var(--text-tertiary)]">{c.department}</td>
                     <td className="px-3 py-2 text-right">
                       <span className={`font-bold tabular-nums ${JOB_LEVEL_COLOR[c.market.level]}`}>
-                        {c.market.composite.toFixed(1)}
+                        {(10 - c.market.composite).toFixed(1)}
                       </span>
                       <span className="text-[10px] uppercase tracking-wide text-[var(--text-tertiary)] ml-1">
                         {JOB_LEVEL_LABEL[c.market.level]}
                       </span>
                     </td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{c.market.unemployment.score.toFixed(1)}</td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{c.market.salary.score.toFixed(1)}</td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{c.market.dynamism.score.toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{(10 - c.market.unemployment.score).toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{(10 - c.market.salary.score).toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{(10 - c.market.dynamism.score).toFixed(1)}</td>
                   </tr>
                 ))}
               </tbody>
@@ -232,13 +232,13 @@ export default async function MacroRegionEmploymentPage({ params }: Props) {
                     <td className="px-3 py-2 text-[var(--text-tertiary)]">{c.department}</td>
                     <td className="px-3 py-2 text-right">
                       <span className="font-bold tabular-nums text-red-600">
-                        {c.market.composite.toFixed(1)}
+                        {(10 - c.market.composite).toFixed(1)}
                       </span>
                       <span className="text-[10px] uppercase tracking-wide text-[var(--text-tertiary)] ml-1">/10</span>
                     </td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{c.market.unemployment.score.toFixed(1)}</td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{c.market.salary.score.toFixed(1)}</td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{c.market.dynamism.score.toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{(10 - c.market.unemployment.score).toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{(10 - c.market.salary.score).toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{(10 - c.market.dynamism.score).toFixed(1)}</td>
                   </tr>
                 ))}
               </tbody>

@@ -44,19 +44,19 @@ export default function EmploymentHubPage() {
       q: "Quelles villes françaises ont le marché du travail le plus favorable ?",
       a: `Selon notre composite F50 (chômage, dynamisme, mix sectoriel, salaire), les villes ≥ 15 000 hab. au marché le plus favorable sont : ${best
         .slice(0, 5)
-        .map((c) => `${c.name} (${c.market.composite}/10)`)
-        .join(", ")}. Score faible = marché facile.`,
+        .map((c) => `${c.name} (${(10 - c.market.composite).toFixed(1)}/10)`)
+        .join(", ")}. Score élevé = marché favorable.`,
     },
     {
       q: "Quelles villes ont le marché de l'emploi le plus difficile ?",
-      a: `Les villes ≥ 15 000 hab. au composite le plus élevé (donc le marché le plus difficile) sont : ${worst
+      a: `Les villes ≥ 15 000 hab. au composite le plus bas (donc le marché le plus difficile) sont : ${worst
         .slice(0, 5)
-        .map((c) => `${c.name} (${c.market.composite}/10)`)
+        .map((c) => `${c.name} (${(10 - c.market.composite).toFixed(1)}/10)`)
         .join(", ")}. Ces villes cumulent généralement chômage élevé, salaires bas et faible dynamisme entrepreneurial.`,
     },
     {
       q: "Comment ce classement est-il calculé ?",
-      a: "Composite agrégeant 4 dimensions : taux de chômage INSEE T4 2024 par dept (35 %), salaire net médian INSEE DADS (25 %), dynamisme création SIRENE (20 %), mix sectoriel et résilience (20 %). Score 0-10, 10 = marché le plus difficile.",
+      a: "Composite agrégeant 4 dimensions : taux de chômage INSEE T4 2024 par dept (35 %), salaire net médian INSEE DADS (25 %), dynamisme création SIRENE (20 %), mix sectoriel et résilience (20 %). Score 0-10, 10 = marché du travail dynamique.",
     },
     {
       q: "Où trouver les offres d'emploi en temps réel ?",
@@ -81,7 +81,7 @@ export default function EmploymentHubPage() {
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
           Index composite agrégeant quatre dimensions clés du marché du travail local :
           taux de chômage (INSEE), dynamisme entrepreneurial (SIRENE), mix sectoriel
-          (résilience), salaire net médian (DADS). Score 0-10, 10 = marché le plus difficile.
+          (résilience), salaire net médian (DADS). Score 0-10, 10 = marché du travail dynamique.
           Filtre 15 000 habitants minimum pour pertinence des indicateurs départementaux.
         </p>
 
@@ -97,7 +97,7 @@ export default function EmploymentHubPage() {
         </h2>
         <p className="mt-2 text-sm text-[var(--text-secondary)]">
           Grandes métropoles dynamiques, départements à faible chômage, salaires médians
-          élevés. Score composite faible = marché facile, opportunités larges.
+          élevés. Score composite élevé = marché facile, opportunités larges.
         </p>
         <Card className="mt-4 overflow-hidden p-0">
           <div className="overflow-x-auto">
@@ -129,16 +129,16 @@ export default function EmploymentHubPage() {
                     <td className="px-3 py-2 text-[var(--text-tertiary)]">{c.region}</td>
                     <td className="px-3 py-2 text-right">
                       <span className={`font-bold tabular-nums ${JOB_LEVEL_COLOR[c.market.level]}`}>
-                        {c.market.composite.toFixed(1)}
+                        {(10 - c.market.composite).toFixed(1)}
                       </span>
                       <span className="text-[10px] uppercase tracking-wide text-[var(--text-tertiary)] ml-1">
                         {JOB_LEVEL_LABEL[c.market.level]}
                       </span>
                     </td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{c.market.unemployment.score.toFixed(1)}</td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{c.market.salary.score.toFixed(1)}</td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{c.market.dynamism.score.toFixed(1)}</td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{c.market.sectorMix.score.toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{(10 - c.market.unemployment.score).toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{(10 - c.market.salary.score).toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{(10 - c.market.dynamism.score).toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{(10 - c.market.sectorMix.score).toFixed(1)}</td>
                   </tr>
                 ))}
               </tbody>
@@ -146,7 +146,7 @@ export default function EmploymentHubPage() {
           </div>
         </Card>
         <p className="text-xs text-[var(--text-tertiary)] mt-2">
-          Lecture des sous-scores : 10 = pire (chômage haut, salaire bas, faible dynamisme).
+          Lecture des sous-scores : 10 = situation la plus favorable (chômage bas, salaire haut, fort dynamisme).
         </p>
 
         {/* Most difficult */}
@@ -187,13 +187,13 @@ export default function EmploymentHubPage() {
                     <td className="px-3 py-2 text-[var(--text-tertiary)]">{c.region}</td>
                     <td className="px-3 py-2 text-right">
                       <span className="font-bold tabular-nums text-red-600">
-                        {c.market.composite.toFixed(1)}
+                        {(10 - c.market.composite).toFixed(1)}
                       </span>
                       <span className="text-[10px] uppercase tracking-wide text-[var(--text-tertiary)] ml-1">/10</span>
                     </td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{c.market.unemployment.score.toFixed(1)}</td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{c.market.salary.score.toFixed(1)}</td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{c.market.dynamism.score.toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{(10 - c.market.unemployment.score).toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{(10 - c.market.salary.score).toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{(10 - c.market.dynamism.score).toFixed(1)}</td>
                   </tr>
                 ))}
               </tbody>

@@ -44,19 +44,19 @@ export default function HealthcareHubPage() {
       q: "Quelles sont les villes françaises avec le meilleur accès aux soins ?",
       a: `Selon notre composite F47 (médecins généralistes, spécialistes, urgences, pharmacies), les villes ≥ 10 000 hab. au meilleur accès sont : ${best
         .slice(0, 5)
-        .map((c) => `${c.name} (${c.access.composite}/10)`)
-        .join(", ")}. Score faible = accès facile.`,
+        .map((c) => `${c.name} (${(10 - c.access.composite).toFixed(1)}/10)`)
+        .join(", ")}. Score élevé = bon accès.`,
     },
     {
       q: "Quelles sont les villes en désert médical avéré ?",
-      a: `Les villes ≥ 10 000 hab. au composite accès soins le plus élevé (donc le plus difficile) sont : ${deserts
+      a: `Les villes ≥ 10 000 hab. au composite accès soins le plus bas (donc le plus difficile) sont : ${deserts
         .slice(0, 5)
-        .map((c) => `${c.name} (${c.access.composite}/10)`)
+        .map((c) => `${c.name} (${(10 - c.access.composite).toFixed(1)}/10)`)
         .join(", ")}. Ces villes cumulent généralement densité MG dégradée, urgences éloignées et spécialistes rares.`,
     },
     {
       q: "Comment ce classement est-il calculé ?",
-      a: "Composite agrégeant 4 dimensions : médecins généralistes (35 %, densité DREES par dept + override CHU/métropole), spécialistes (25 %, présence CHU > grande agglo > moyenne > rural), urgences/SAU (25 %, présence dans la commune + malus montagne/île), pharmacies (15 %, maillage population × statut urbain). Sources : DREES, CNOM, ARS.",
+      a: "Composite agrégeant 4 dimensions : médecins généralistes (35 %, densité DREES par dept + override CHU/métropole), spécialistes (25 %, présence CHU > grande agglo > moyenne > rural), urgences/SAU (25 %, présence dans la commune + malus montagne/île), pharmacies (15 %, maillage population × statut urbain). Score 0-10, 10 = excellent accès aux soins. Sources : DREES, CNOM, ARS.",
     },
     {
       q: "Que faire si je ne trouve pas de médecin traitant ?",
@@ -81,7 +81,7 @@ export default function HealthcareHubPage() {
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
           Index composite agrégeant quatre dimensions clés de l&apos;accès aux soins :
           médecins généralistes, spécialistes, urgences/SAU et pharmacies. Score 0-10,
-          10 = accès le plus difficile (désert médical). Filtre 10 000 habitants minimum
+          10 = excellent accès aux soins. Filtre 10 000 habitants minimum
           pour pertinence des indicateurs départementaux.
         </p>
 
@@ -97,7 +97,7 @@ export default function HealthcareHubPage() {
         </h2>
         <p className="mt-2 text-sm text-[var(--text-secondary)]">
           Communes hébergeant un CHU, grandes agglomérations bien dotées en MG et spécialistes,
-          maillage urbain dense. Score composite faible = accès facile.
+          maillage urbain dense. Score composite élevé = accès facile.
         </p>
         <Card className="mt-4 overflow-hidden p-0">
           <div className="overflow-x-auto">
@@ -129,16 +129,16 @@ export default function HealthcareHubPage() {
                     <td className="px-3 py-2 text-[var(--text-tertiary)]">{c.region}</td>
                     <td className="px-3 py-2 text-right">
                       <span className={`font-bold tabular-nums ${HEALTH_LEVEL_COLOR[c.access.level]}`}>
-                        {c.access.composite.toFixed(1)}
+                        {(10 - c.access.composite).toFixed(1)}
                       </span>
                       <span className="text-[10px] uppercase tracking-wide text-[var(--text-tertiary)] ml-1">
                         {HEALTH_LEVEL_LABEL[c.access.level]}
                       </span>
                     </td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{c.access.generalistes.score.toFixed(1)}</td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{c.access.specialistes.score.toFixed(1)}</td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{c.access.urgences.score.toFixed(1)}</td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{c.access.pharmacies.score.toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{(10 - c.access.generalistes.score).toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{(10 - c.access.specialistes.score).toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{(10 - c.access.urgences.score).toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{(10 - c.access.pharmacies.score).toFixed(1)}</td>
                   </tr>
                 ))}
               </tbody>
@@ -146,7 +146,7 @@ export default function HealthcareHubPage() {
           </div>
         </Card>
         <p className="text-xs text-[var(--text-tertiary)] mt-2">
-          Lecture des sous-scores : 10 = accès maximalement difficile, 0 = très facile.
+          Lecture des sous-scores : 10 = accès aux soins excellent, 0 = désert médical.
         </p>
 
         {/* Desert médical */}
@@ -155,7 +155,7 @@ export default function HealthcareHubPage() {
         </h2>
         <p className="mt-2 text-sm text-[var(--text-secondary)]">
           Communes ≥ 10 000 hab. cumulant désert MG (DREES), spécialistes saturés et
-          urgences éloignées. Score composite élevé = accès difficile.
+          urgences éloignées. Score composite faible = accès difficile.
         </p>
         <Card className="mt-4 overflow-hidden p-0">
           <div className="overflow-x-auto">
@@ -186,13 +186,13 @@ export default function HealthcareHubPage() {
                     <td className="px-3 py-2 text-[var(--text-tertiary)]">{c.region}</td>
                     <td className="px-3 py-2 text-right">
                       <span className="font-bold tabular-nums text-red-600">
-                        {c.access.composite.toFixed(1)}
+                        {(10 - c.access.composite).toFixed(1)}
                       </span>
                       <span className="text-[10px] uppercase tracking-wide text-[var(--text-tertiary)] ml-1">/10</span>
                     </td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{c.access.generalistes.score.toFixed(1)}</td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{c.access.specialistes.score.toFixed(1)}</td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{c.access.urgences.score.toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{(10 - c.access.generalistes.score).toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{(10 - c.access.specialistes.score).toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{(10 - c.access.urgences.score).toFixed(1)}</td>
                   </tr>
                 ))}
               </tbody>

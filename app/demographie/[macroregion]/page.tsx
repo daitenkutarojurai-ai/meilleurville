@@ -81,15 +81,15 @@ export default async function MacroRegionDemographyPage({ params }: Props) {
       q: `Quelles sont les villes au profil démographique le plus dynamique en ${macro.label} ?`,
       a:
         dynamic.length > 0
-          ? `Top 3 selon le composite F59 (10 = pire) : ${dynamic
+          ? `Top 3 selon le composite F59 (10 = démographie dynamique) : ${dynamic
               .slice(0, 3)
-              .map((c) => `${c.name} (${c.demo.composite}/10)`)
+              .map((c) => `${c.name} (${(10 - c.demo.composite).toFixed(1)}/10)`)
               .join(", ")}.`
           : `Aucune ville de plus de 10 000 habitants n'est référencée pour cette macro-région.`,
     },
     {
       q: `Quel est le profil démographique moyen sur ${macro.label} ?`,
-      a: `Composite moyen ${avgComposite}/10. Détail par dimension (10 = tension max) : vieillissement ${avgAgeing}/10, jeunes actifs ${avgYoung}/10, trajectoire ${avgTraj}/10, renouvellement ${avgRenewal}/10.`,
+      a: `Composite moyen ${(10 - avgComposite).toFixed(1)}/10. Détail par dimension (10 = démographie dynamique) : vieillissement ${(10 - avgAgeing).toFixed(1)}/10, jeunes actifs ${(10 - avgYoung).toFixed(1)}/10, trajectoire ${(10 - avgTraj).toFixed(1)}/10, renouvellement ${(10 - avgRenewal).toFixed(1)}/10.`,
     },
     {
       q: `Comment ce classement est-il calculé ?`,
@@ -120,7 +120,7 @@ export default async function MacroRegionDemographyPage({ params }: Props) {
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
           <Badge>{cities.length} villes analysées</Badge>
-          <Badge>Composite moyen : {avgComposite}/10</Badge>
+          <Badge>Composite moyen : {(10 - avgComposite).toFixed(1)}/10</Badge>
         </div>
 
         {/* Macro-region aggregate */}
@@ -138,7 +138,7 @@ export default async function MacroRegionDemographyPage({ params }: Props) {
               <div key={d.k} className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-3">
                 <div className="text-xs text-[var(--text-tertiary)]">{d.k}</div>
                 <div className="text-xl font-bold tabular-nums text-[var(--text-primary)] mt-1">
-                  {d.v.toFixed(1)}
+                  {(10 - d.v).toFixed(1)}
                   <span className="text-xs font-normal text-[var(--text-tertiary)] ml-0.5">/10</span>
                 </div>
                 <div className="text-[11px] text-[var(--text-tertiary)] mt-1 leading-tight">{d.hint}</div>
@@ -146,7 +146,7 @@ export default async function MacroRegionDemographyPage({ params }: Props) {
             ))}
           </div>
           <p className="text-[11px] text-[var(--text-tertiary)] mt-3">
-            Sous-scores : 10 = tension maximale.
+            Sous-scores : 10 = démographie dynamique.
           </p>
         </Card>
 
@@ -183,15 +183,15 @@ export default async function MacroRegionDemographyPage({ params }: Props) {
                     <td className="px-3 py-2 text-[var(--text-tertiary)]">{c.department}</td>
                     <td className="px-3 py-2 text-right">
                       <span className={`font-bold tabular-nums ${DEMO_LEVEL_COLOR[c.demo.level]}`}>
-                        {c.demo.composite.toFixed(1)}
+                        {(10 - c.demo.composite).toFixed(1)}
                       </span>
                       <span className="text-[10px] uppercase tracking-wide text-[var(--text-tertiary)] ml-1">
                         {DEMO_LEVEL_LABEL[c.demo.level]}
                       </span>
                     </td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{c.demo.ageing.score.toFixed(1)}</td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{c.demo.youngActives.score.toFixed(1)}</td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{c.demo.trajectory.score.toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{(10 - c.demo.ageing.score).toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{(10 - c.demo.youngActives.score).toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{(10 - c.demo.trajectory.score).toFixed(1)}</td>
                   </tr>
                 ))}
               </tbody>
@@ -232,13 +232,13 @@ export default async function MacroRegionDemographyPage({ params }: Props) {
                     <td className="px-3 py-2 text-[var(--text-tertiary)]">{c.department}</td>
                     <td className="px-3 py-2 text-right">
                       <span className="font-bold tabular-nums text-red-600">
-                        {c.demo.composite.toFixed(1)}
+                        {(10 - c.demo.composite).toFixed(1)}
                       </span>
                       <span className="text-[10px] uppercase tracking-wide text-[var(--text-tertiary)] ml-1">/10</span>
                     </td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{c.demo.ageing.score.toFixed(1)}</td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{c.demo.youngActives.score.toFixed(1)}</td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{c.demo.trajectory.score.toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{(10 - c.demo.ageing.score).toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">{(10 - c.demo.youngActives.score).toFixed(1)}</td>
+                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden md:table-cell">{(10 - c.demo.trajectory.score).toFixed(1)}</td>
                   </tr>
                 ))}
               </tbody>
