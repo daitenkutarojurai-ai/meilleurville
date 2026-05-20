@@ -73,7 +73,7 @@ export function StatsBar() {
   return (
     <section
       ref={ref}
-      className="relative border-y border-[var(--border)]/60 py-12 overflow-hidden"
+      className="relative border-y border-[var(--border)]/60 py-8 sm:py-12 overflow-hidden"
     >
       <div className="absolute inset-0 bg-[var(--bg-surface)]/70 backdrop-blur-sm" aria-hidden />
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_60%_60%_at_50%_50%,rgba(34,197,94,0.06),transparent_70%)]" aria-hidden />

@@ -76,7 +76,7 @@ export default function HomePage() {
           .sort((a, b) => (b.scores.global + b.scores.cost) - (a.scores.global + a.scores.cost))
           .slice(0, 6);
         return (
-          <section className="py-12 sm:py-16 border-t border-[var(--border)]">
+          <section className="py-8 sm:py-16 border-t border-[var(--border)]">
             <div className="mx-auto max-w-7xl px-4 sm:px-6">
               <div className="flex items-end justify-between mb-8">
                 <div>
@@ -126,7 +126,7 @@ export default function HomePage() {
       })()}
 
       {/* Trending comparisons */}
-      <section className="py-12 sm:py-16 border-t border-[var(--border)] bg-[var(--bg-surface)]">
+      <section className="py-8 sm:py-16 border-t border-[var(--border)] bg-[var(--bg-surface)]">
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <div className="flex items-end justify-between mb-8">
             <div>
@@ -185,7 +185,7 @@ export default function HomePage() {
       </section>
 
       {/* Cost calculator section */}
-      <section id="simulateur" className="py-12 sm:py-16 border-t border-[var(--border)]">
+      <section id="simulateur" className="py-8 sm:py-16 border-t border-[var(--border)]">
         <div className="mx-auto max-w-3xl px-4 sm:px-6">
           <div className="text-center mb-8">
             <p className="text-xs uppercase tracking-widest text-[var(--accent)] font-semibold mb-2">💸 Simulateur express</p>

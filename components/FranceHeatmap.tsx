@@ -159,7 +159,7 @@ export function FranceHeatmap() {
   }, []);
 
   return (
-    <section className="relative overflow-hidden py-12 sm:py-20 border-t border-[var(--border)]">
+    <section className="relative overflow-hidden py-8 sm:py-20 border-t border-[var(--border)]">
       {/* Aurora backdrop behind the map */}
       <div className="pointer-events-none absolute inset-0" aria-hidden>
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_70%_60%_at_50%_45%,rgba(16,185,129,0.18),transparent_70%)]" />
