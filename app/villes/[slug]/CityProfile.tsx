@@ -211,7 +211,7 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
       </section>
 
       {/* Tabs */}
-      <div className="sticky top-16 z-40 border-b border-[var(--border)] bg-[var(--bg-canvas)]/90 backdrop-blur-xl">
+      <div className="sticky top-14 z-40 border-b border-[var(--border)] bg-[var(--bg-canvas)]/90 backdrop-blur-xl">
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <div
             role="tablist"

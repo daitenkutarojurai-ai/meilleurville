@@ -250,7 +250,10 @@ export function Navbar() {
           onClick={() => setOpen(false)}
           aria-label={IS_EN ? "Close menu" : "Fermer le menu"}
           tabIndex={-1}
-          className="lg:hidden fixed inset-x-0 top-14 bottom-0 -z-10 bg-black/30 backdrop-blur-[2px]"
+          className={cn(
+            "lg:hidden fixed inset-x-0 bottom-0 -z-10 bg-black/30 backdrop-blur-[2px]",
+            scrolled ? "top-14" : "top-16"
+          )}
         />
       )}
 
@@ -258,8 +261,8 @@ export function Navbar() {
       <div
         id="mobile-menu"
         className={cn(
-          "lg:hidden overflow-hidden transition-all duration-200",
-          open ? "max-h-96" : "max-h-0"
+          "lg:hidden overflow-hidden transition-all duration-300 ease-out",
+          open ? "max-h-[34rem] opacity-100" : "max-h-0 opacity-0"
         )}
       >
         <div className="border-t border-[var(--border)] bg-[var(--bg-surface)] px-4 py-4">
@@ -273,7 +276,7 @@ export function Navbar() {
                   onClick={() => setOpen(false)}
                   aria-current={active ? "page" : undefined}
                   className={cn(
-                    "flex items-center gap-1.5 rounded-full px-3 py-1.5 text-xs font-medium transition-all",
+                    "flex items-center gap-1.5 rounded-full px-3.5 py-2 text-sm font-medium transition-all active:scale-[0.97]",
                     active
                       ? "bg-[var(--accent)] text-white shadow-sm"
                       : "border border-[var(--border)] text-[var(--text-secondary)] hover:bg-[var(--bg-elevated)] hover:text-[var(--text-primary)]"

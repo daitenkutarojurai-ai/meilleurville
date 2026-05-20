@@ -126,7 +126,7 @@ export default function HomePage() {
       })()}
 
       {/* Trending comparisons */}
-      <section className="py-12 sm:py-14 border-t border-[var(--border)] bg-[var(--bg-surface)]">
+      <section className="py-12 sm:py-16 border-t border-[var(--border)] bg-[var(--bg-surface)]">
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <div className="flex items-end justify-between mb-8">
             <div>
@@ -136,6 +136,9 @@ export default function HomePage() {
               <h2 className="text-2xl font-bold text-[var(--text-primary)]">
                 Hésitations classiques, on tranche
               </h2>
+              <p className="text-sm text-[var(--text-secondary)] mt-1">
+                Les duels de villes qu&apos;on nous demande le plus, score à l&apos;appui
+              </p>
             </div>
             <Link href="/comparer" className="hidden sm:flex items-center gap-1 text-sm font-medium text-[var(--accent)] hover:underline">
               Toutes les comparaisons →
@@ -182,10 +185,10 @@ export default function HomePage() {
       </section>
 
       {/* Cost calculator section */}
-      <section id="simulateur" className="py-12 sm:py-14 border-t border-[var(--border)]">
+      <section id="simulateur" className="py-12 sm:py-16 border-t border-[var(--border)]">
         <div className="mx-auto max-w-3xl px-4 sm:px-6">
           <div className="text-center mb-8">
-            <p className="text-sm font-semibold text-[var(--accent)] mb-2">💸 Simulateur express</p>
+            <p className="text-xs uppercase tracking-widest text-[var(--accent)] font-semibold mb-2">💸 Simulateur express</p>
             <h2 className="text-2xl font-bold text-[var(--text-primary)] mb-2">Combien resterait-il sur le compte ?</h2>
             <p className="text-[var(--text-secondary)]">Tapez votre loyer et votre salaire, on calcule l&apos;écart, ville par ville.</p>
           </div>
