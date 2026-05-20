@@ -198,8 +198,8 @@ export function CompareTool() {
       {selected.length >= 1 && (
         <div className="space-y-8">
           {/* Score grid */}
-          <div className="overflow-hidden rounded-2xl border border-[var(--border)]">
-            <table className="w-full">
+          <div className="overflow-x-auto rounded-2xl border border-[var(--border)]">
+            <table className="w-full min-w-[480px]">
               <thead>
                 <tr className="border-b border-[var(--border)] bg-[var(--bg-surface)]">
                   <th className="px-6 py-4 text-left text-xs font-semibold text-[var(--text-secondary)]">

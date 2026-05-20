@@ -165,7 +165,8 @@ export default async function QuitterPairPage({ params }: Props) {
           Médians honnêtes — votre situation peut varier. Source : observatoires loyers, ADEME, France Assureurs, DGFiP.
         </p>
         <Card className="mt-4 overflow-hidden">
-          <table className="w-full text-sm">
+          <div className="overflow-x-auto">
+          <table className="w-full text-sm min-w-[440px]">
             <thead className="bg-[var(--bg-surface)] text-xs uppercase tracking-wide text-[var(--text-tertiary)]">
               <tr>
                 <th className="px-3 py-2 text-left">Poste</th>
@@ -194,6 +195,7 @@ export default async function QuitterPairPage({ params }: Props) {
               </tr>
             </tbody>
           </table>
+          </div>
         </Card>
 
         {/* Wins / Losses */}

@@ -98,7 +98,8 @@ export default async function ExpatRetourCountryPage({ params }: Props) {
             Comparatif réaliste, valeurs médianes. À ajuster selon votre profession et votre ville française cible.
           </p>
           <Card>
-            <table className="w-full text-sm">
+            <div className="overflow-x-auto">
+            <table className="w-full text-sm min-w-[460px]">
               <thead>
                 <tr className="border-b border-[var(--border)]">
                   <th className="text-left py-2 font-semibold text-[var(--text-primary)]">Critère</th>
@@ -120,6 +121,7 @@ export default async function ExpatRetourCountryPage({ params }: Props) {
                 ))}
               </tbody>
             </table>
+            </div>
           </Card>
         </section>
 

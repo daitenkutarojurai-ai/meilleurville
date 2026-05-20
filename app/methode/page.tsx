@@ -192,8 +192,8 @@ télétravail × 0.08
         {/* Sources table */}
         <section>
           <h2 className="text-2xl font-bold text-[var(--text-primary)] mb-6">Sources par axe</h2>
-          <div className="overflow-hidden rounded-2xl border border-[var(--border)] glass">
-            <table className="w-full text-sm">
+          <div className="overflow-x-auto rounded-2xl border border-[var(--border)] glass">
+            <table className="w-full text-sm min-w-[420px]">
               <thead>
                 <tr className="bg-[var(--bg-elevated)]/60 border-b border-[var(--border)]">
                   <th className="px-5 py-3 text-left text-xs font-semibold text-[var(--text-secondary)]">Axe</th>
