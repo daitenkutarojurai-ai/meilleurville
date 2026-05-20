@@ -715,15 +715,14 @@ sub-page strip on the main profile (already iconified via emoji).
 
 Files: every sub-page's "Aller plus loin" block — `app/villes/[slug]/*/page.tsx`.
 
-### R7.13 — Calculateur cout-reel: CTA card upgrade (P2)
-**Problem:** `/calculateur-cout-reel/[ville]` ends with a flat text link
-"Fiche complète de Rodez →". Redesign as a styled card with icon, city
-name, score badge, and a clear "Voir la fiche complète →" button. Apply
-the same pattern on all per-city calculator/tool pages: `/cout-menage/[ville]`,
-`/quiz-compatibilite/[ville]` if exists.
-
-Files: `app/calculateur-cout-reel/[ville]/page.tsx`, `app/cout-menage/[ville]/page.tsx`,
-any other per-city sub-tool.
+### R7.13 — Calculateur cout-reel: CTA card upgrade (P2) ✅
+**Shipped.** New shared `components/CityProfileCta.tsx` — a styled link card
+with MapPin icon, city name, 6-tier score badge (`scoreBg`/`scoreColor`/
+`scoreLabel`) and a "Voir la fiche" button. Added to the end of
+`/calculateur-cout-reel/[ville]` (which had no profile link at all) and to
+the "Aller plus loin" block of `/cout-menage/[ville]` (replaced the flat
+"Fiche ville" tile; remaining grid trimmed to 3 cards). `/quiz-compatibilite`
+and `/simulateur-achat` are not per-city, so nothing to do there.
 
 ### R7.14 — /villes filters: visual lift (P2)
 Add icons to the filter chips on `/villes` (region picker, score sort,

@@ -5,6 +5,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
+import { CityProfileCta } from "@/components/CityProfileCta";
 import { HiddenCostsCalculator } from "@/components/HiddenCostsCalculator";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { getHousing } from "@/data/housing";
@@ -138,6 +139,12 @@ export default async function CalculateurCoutReelCityPage({ params }: Props) {
             <li>• Variations interquartier (peut représenter ±20% sur le loyer)</li>
           </ul>
         </Card>
+
+        <CityProfileCta
+          city={city}
+          eyebrow="Pour aller plus loin"
+          blurb={`Score global, sécurité, transports, climat et avis : la fiche complète de ${city.name}.`}
+        />
       </div>
 
       <Footer />

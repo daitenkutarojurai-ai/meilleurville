@@ -5,6 +5,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
+import { CityProfileCta } from "@/components/CityProfileCta";
 import { CITIES_SEED } from "@/data/cities-seed";
 import {
   HOUSEHOLD_PROFILES,
@@ -163,13 +164,13 @@ export default async function CoutMenageCityPage({ params }: Props) {
 
         {/* Cross-links */}
         <h2 className="mt-10 text-xl font-semibold text-[var(--text-primary)]">Aller plus loin</h2>
-        <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
-          <Link href={`/villes/${city.slug}`} className="block">
-            <Card className="p-4 hover:shadow-md transition">
-              <div className="text-xs uppercase text-[var(--text-tertiary)]">Fiche ville</div>
-              <div className="mt-1 text-sm font-semibold text-[var(--text-primary)]">{city.name}</div>
-            </Card>
-          </Link>
+        <div className="mt-3">
+          <CityProfileCta
+            city={city}
+            blurb={`Score global, quartiers, climat et tous les coûts détaillés pour ${city.name}.`}
+          />
+        </div>
+        <div className="mt-3 grid grid-cols-1 sm:grid-cols-3 gap-3">
           <Link href={`/calculateur-cout-reel/${city.slug}`} className="block">
             <Card className="p-4 hover:shadow-md transition">
               <div className="text-xs uppercase text-[var(--text-tertiary)]">Calculateur interactif</div>
