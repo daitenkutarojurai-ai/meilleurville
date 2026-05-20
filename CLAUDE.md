@@ -662,7 +662,15 @@ sweep also caught `expat-retour` + `lib/expat-return.ts` using F33899
 consular step and F32824 (assurance maladie au retour) for the sécu steps.
 All service-public links moved to the current `.gouv.fr` host.
 
-### R7.6 — Louer ou Acheter: self-explanatory scores (P1)
+### R7.6 — Louer ou Acheter: self-explanatory scores (P1) ✅
+**Shipped.** The per-city page already carried a full "Comment lire ce
+ratio" legend box + the ratio's "années de loyer pour acheter" sub-label,
+and every surface pairs the number with a labelled verdict chip
+(`VERDICT_META`). The remaining gap was the national `/louer-ou-acheter`
+ranking: its two tables showed a bare "Ratio" column. Added a one-line
+"Lecture du ratio" legend under each table (< 13 achat fortement gagnant
+… > 30 marché tendu). No naked numbers remain in the rent-vs-buy system.
+
 **Problem:** `/villes/[slug]/louer-ou-acheter` shows raw numbers without
 context — users don't know what "score 6.2" means.
 

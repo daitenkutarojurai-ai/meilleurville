@@ -85,6 +85,11 @@ export default function LouerOuAcheterIndexPage() {
             </tbody>
           </table>
         </Card>
+        <p className="mt-2 text-[11px] text-[var(--text-tertiary)] leading-relaxed">
+          <strong className="text-[var(--text-secondary)]">Lecture du ratio</strong> = années de loyer
+          pour égaler le prix d&apos;achat. &lt; 13 : achat fortement gagnant · 13-18 : achat favorable ·
+          18-24 : équilibre · 24-30 : louer plus malin · &gt; 30 : marché tendu.
+        </p>
 
         {/* Top 15 fortement locataires */}
         <h2 className="mt-10 text-xl font-semibold text-[var(--text-primary)]">
@@ -130,6 +135,11 @@ export default function LouerOuAcheterIndexPage() {
             </tbody>
           </table>
         </Card>
+        <p className="mt-2 text-[11px] text-[var(--text-tertiary)] leading-relaxed">
+          <strong className="text-[var(--text-secondary)]">Lecture du ratio</strong> = années de loyer
+          pour égaler le prix d&apos;achat. &lt; 13 : achat fortement gagnant · 13-18 : achat favorable ·
+          18-24 : équilibre · 24-30 : louer plus malin · &gt; 30 : marché tendu.
+        </p>
 
         <div className="mt-10 text-xs text-[var(--text-tertiary)]">
           L&apos;URL <code className="px-1 py-0.5 bg-[var(--bg-elevated)] rounded-full">/villes/&lt;slug-ville&gt;/louer-ou-acheter</code>
