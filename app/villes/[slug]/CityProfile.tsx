@@ -337,14 +337,14 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                     { label: "🎓 Étudiant", val: niche.studentLife, hint: "Universités, vie nocturne, loyers" },
                   ].map((n) => {
                     const color =
-                      n.val >= 7.5 ? "from-emerald-500 to-emerald-400"
+                      n.val >= 7.5 ? "from-purple-500 to-violet-400"
                       : n.val >= 7.0 ? "from-green-500 to-lime-400"
                       : n.val >= 6.0 ? "from-lime-400 to-amber-300"
                       : n.val >= 5.0 ? "from-amber-400 to-orange-300"
                       : n.val >= 4.0 ? "from-orange-400 to-red-400"
                       : "from-red-500 to-rose-400";
                     const txt =
-                      n.val >= 7.5 ? "text-emerald-500"
+                      n.val >= 7.5 ? "text-purple-500"
                       : n.val >= 7.0 ? "text-green-500"
                       : n.val >= 6.0 ? "text-lime-500"
                       : n.val >= 5.0 ? "text-amber-400"

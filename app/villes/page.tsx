@@ -55,7 +55,7 @@ export default function VillesPage() {
             </span>
             <span className="text-[var(--border)]">·</span>
             <span className="flex items-center gap-1.5 text-sm">
-              <span className="font-bold font-mono-data text-emerald-500">{topPct}%</span>
+              <span className="font-bold font-mono-data text-purple-500">{topPct}%</span>
               <span className="text-[var(--text-secondary)]">avec score ≥ 7.5</span>
             </span>
           </div>

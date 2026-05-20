@@ -85,7 +85,7 @@ city — the rescaler is designed to keep relative ranking stable.
 
 | Range  | Colour  | Count (352 cities) | Meaning        |
 |--------|---------|-------------------|----------------|
-| ≥ 7.5  | Emerald | ~3 (0.9%)         | Exceptionnel — très rare |
+| ≥ 7.5  | Violet (`#A855F7`) | ~3 (0.9%) | Exceptionnel — très rare |
 | ≥ 7.0  | Green   | ~22 (6.3%)        | Excellent      |
 | ≥ 6.0  | Lime    | ~100 (28%)        | Bon            |
 | ≥ 5.0  | Amber   | ~116 (33%)        | Moyen          |
@@ -683,17 +683,16 @@ Files: `app/villes/[slug]/louer-ou-acheter/page.tsx`, `components/RentVsBuyCard.
 `lib/rent-vs-buy.ts`.
 
 ### R7.7 — Score → colour audit (P0) ✅
-**Shipped.** Root cause: the ≥7.5 tier. CLAUDE.md documents it as Emerald
-and every `opengraph-image.tsx` already painted it emerald (`#10B981`),
-but the on-page `SCORE_TIERS` table in `lib/utils.ts` plus several
-hand-rolled ladders used purple (`#A855F7`) — an off-gradient hue on a
-red→green scale, so a #1 city scoring 8.0 read as purple, not green.
-Standardised the top tier to emerald everywhere: `lib/utils.ts`
-(propagates to `scoreColor`/`scoreBg`/`scoreHex`, hence FranceHeatmap
-dots, CarteClient, DromStrip, ScoreBar consumers), the hand-rolled ladders
-(CityCard gradient, ScoreBar, CityProfile niche tiles, `quartiers/page.tsx`),
-the FranceHeatmap legends, and the `/villes` "≥ 7.5" stat. Thresholds
-(7.5/7/6/5/4) were already correct everywhere; only the top-tier hue drifted.
+**Shipped (corrected).** The ≥7.5 top tier was first flipped purple →
+emerald, trusting a stale "Emerald" line in this file. That was wrong:
+commit `ceb91dc` deliberately set the top tier to **violet `#A855F7`**
+"across the entire codebase", and the emerald `#10B981` in the
+`opengraph-image.tsx` files was the actual drift. Reverted to violet and
+brought the 14 OG images + the FranceHeatmap/EN-map legends in line, so
+the top tier is now genuinely violet everywhere (`lib/utils.ts`
+`SCORE_TIERS`, hand-rolled ladders, OG cards, legends). The 6-tier
+thresholds (7.5/7/6/5/4) were always correct; only the top-tier hue had
+drifted across surfaces.
 
 **Problem:** On `/classements/retraite` (and likely others), scores 8.0
 display orange — violates the 6-tier scale defined in CLAUDE.md (8.0 should
