@@ -36,6 +36,9 @@
 
 html {
   scroll-behavior: smooth;
+  /* Mobile browsers don't reliably honour overflow-x on <body> alone — set it
+     on <html> too so no decorative element can make the page scroll sideways. */
+  overflow-x: hidden;
 }
 
 body {

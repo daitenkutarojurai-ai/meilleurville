@@ -76,7 +76,9 @@ export function SectionNav() {
   return (
     <div
       className={cn(
-        "sticky z-40 transition-all duration-300",
+        // Hidden on phones: the 6-pill strip is cramped on a narrow screen.
+        // Shown from the md breakpoint up, where it has room to breathe.
+        "hidden md:block sticky z-40 transition-all duration-300",
         visible ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-2 pointer-events-none"
       )}
       style={{ top: navHeight }}
