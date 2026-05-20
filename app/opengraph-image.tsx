@@ -2,7 +2,33 @@ import { ImageResponse } from "next/og";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { GUIDES } from "@/data/guides";
 
-export const alt = "MeilleurVille — Trouvez la ville qui vous ressemble";
+// Locale-aware: the EN Vercel project sets NEXT_PUBLIC_DEFAULT_LOCALE=en, so
+// this single OG card renders in English on bestcitiesinfrance.com and in
+// French on mavilleideale.fr. Every EN page inherits this card (there is no
+// app/[locale]/opengraph-image.tsx).
+const IS_EN = process.env.NEXT_PUBLIC_DEFAULT_LOCALE === "en";
+
+const COPY = IS_EN
+  ? {
+      brand: "BestCitiesInFrance",
+      eyebrow: "The reference for choosing where to live in France",
+      line1: "Find the French city",
+      line2: "that fits you",
+      stats: (c: number, g: number) => `${c} cities · ${g} guides`,
+      quizA: "Matching",
+      quizB: "quiz",
+    }
+  : {
+      brand: "MeilleurVille",
+      eyebrow: "La référence pour choisir où vivre en France",
+      line1: "Trouvez la ville",
+      line2: "qui vous ressemble",
+      stats: (c: number, g: number) => `${c} villes · ${g} guides`,
+      quizA: "Quiz de",
+      quizB: "matching",
+    };
+
+export const alt = `${COPY.brand} — ${COPY.line1} ${COPY.line2}`;
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -39,7 +65,7 @@ export default function Image() {
           <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
             <svg width="44" height="44" viewBox="0 0 32 32"><rect width="32" height="32" rx="7" fill="#0D9488" /><path d="M16 4C11.13 4 7 8.13 7 13c0 8 9 15 9 15s9-7 9-15c0-4.87-4.13-9-9-9z" fill="white" /><circle cx="16" cy="13" r="3.5" fill="#0D9488" /></svg>
             <span style={{ color: "#f0f6fc", fontSize: "26px", fontWeight: 800 }}>
-              MeilleurVille
+              {COPY.brand}
             </span>
           </div>
           <div
@@ -53,17 +79,17 @@ export default function Image() {
               fontWeight: 600,
             }}
           >
-            {`${CITIES_SEED.length} villes · ${GUIDES.length} guides`}
+            {COPY.stats(CITIES_SEED.length, GUIDES.length)}
           </div>
         </div>
 
         {/* Center: tagline */}
         <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
           <div style={{ color: "#8b949e", fontSize: "18px", letterSpacing: "1px" }}>
-            La référence pour choisir où vivre en France
+            {COPY.eyebrow}
           </div>
           <div style={{ color: "#f0f6fc", fontSize: "68px", fontWeight: 900, lineHeight: 1.05 }}>
-            Trouvez la ville
+            {COPY.line1}
           </div>
           <div
             style={{
@@ -73,7 +99,7 @@ export default function Image() {
               lineHeight: 1.05,
             }}
           >
-            qui vous ressemble
+            {COPY.line2}
           </div>
         </div>
 
@@ -122,10 +148,10 @@ export default function Image() {
           >
             <span style={{ color: "#0D9488", fontSize: "22px", fontWeight: 900 }}>✨</span>
             <span style={{ color: "#2DD4BF", fontSize: "12px", fontWeight: 600, textAlign: "center" }}>
-              Quiz de
+              {COPY.quizA}
             </span>
             <span style={{ color: "#2DD4BF", fontSize: "12px", fontWeight: 600, textAlign: "center" }}>
-              matching
+              {COPY.quizB}
             </span>
           </div>
         </div>

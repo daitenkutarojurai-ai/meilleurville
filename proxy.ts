@@ -62,6 +62,11 @@ export function proxy(request: NextRequest): NextResponse | undefined {
 
   // Always pass through Next internals, API routes, static assets, and
   // SEO-critical files served at the root of either domain.
+  //
+  // opengraph-image / twitter-image are Next metadata routes with no file
+  // extension — without an explicit bypass the EN rewrite would turn
+  // /opengraph-image into /en/opengraph-image (which has no page → 404),
+  // so the EN domain would ship broken og:image tags.
   if (
     pathname.startsWith("/_next") ||
     pathname.startsWith("/api") ||
@@ -72,6 +77,8 @@ export function proxy(request: NextRequest): NextResponse | undefined {
     pathname.startsWith("/sitemap/") ||
     pathname === "/manifest.webmanifest" ||
     pathname === "/feed.xml" ||
+    pathname.endsWith("/opengraph-image") ||
+    pathname.endsWith("/twitter-image") ||
     /\.[a-z0-9]+$/i.test(pathname)
   ) {
     return;

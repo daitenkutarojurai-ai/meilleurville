@@ -1,10 +1,17 @@
 import { MetadataRoute } from "next";
 
+// Locale-aware: the EN Vercel project sets NEXT_PUBLIC_DEFAULT_LOCALE=en, so
+// the PWA manifest reads BestCitiesInFrance on bestcitiesinfrance.com and
+// MeilleurVille on mavilleideale.fr.
+const IS_EN = process.env.NEXT_PUBLIC_DEFAULT_LOCALE === "en";
+
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "MeilleurVille",
-    short_name: "MeilleurVille",
-    description: "Trouvez la ville française qui vous ressemble — IA + avis authentiques",
+    name: IS_EN ? "BestCitiesInFrance" : "MeilleurVille",
+    short_name: IS_EN ? "BestCities" : "MeilleurVille",
+    description: IS_EN
+      ? "Find the French city that fits you — rankings, resident reviews, lifestyle quiz"
+      : "Trouvez la ville française qui vous ressemble — IA + avis authentiques",
     start_url: "/",
     display: "standalone",
     background_color: "#FAFBF4",
@@ -25,20 +32,34 @@ export default function manifest(): MetadataRoute.Manifest {
       },
     ],
     categories: ["travel", "lifestyle", "utilities"],
-    lang: "fr",
+    lang: IS_EN ? "en" : "fr",
     dir: "ltr",
-    shortcuts: [
-      {
-        name: "Quiz IA",
-        short_name: "Quiz",
-        description: "Trouver ma ville idéale",
-        url: "/quiz",
-      },
-      {
-        name: "Classements",
-        short_name: "Classements",
-        url: "/classements",
-      },
-    ],
+    shortcuts: IS_EN
+      ? [
+          {
+            name: "AI Quiz",
+            short_name: "Quiz",
+            description: "Find my ideal city",
+            url: "/quiz",
+          },
+          {
+            name: "Rankings",
+            short_name: "Rankings",
+            url: "/rankings",
+          },
+        ]
+      : [
+          {
+            name: "Quiz IA",
+            short_name: "Quiz",
+            description: "Trouver ma ville idéale",
+            url: "/quiz",
+          },
+          {
+            name: "Classements",
+            short_name: "Classements",
+            url: "/classements",
+          },
+        ],
   };
 }
