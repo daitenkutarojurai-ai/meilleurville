@@ -6,6 +6,7 @@ import { Footer } from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Conditions Générales d'Utilisation · MeilleurVille",
   description: "CGU de MeilleurVille : règles d'utilisation du service, avis, abonnements, propriété intellectuelle.",
+  alternates: { canonical: "/cgu" },
 };
 
 const SECTIONS = [

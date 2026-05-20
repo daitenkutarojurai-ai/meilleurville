@@ -20,6 +20,8 @@ import {
 export const metadata: Metadata = {
   title: "Mon tableau de bord · MeilleurVille",
   description: "Gérez vos villes sauvegardées, avis, alertes et rapport IA personnalisé.",
+  alternates: { canonical: "/dashboard" },
+  robots: { index: false, follow: false },
 };
 
 // Demo data — in production, fetched from DB for authenticated user

@@ -53,7 +53,7 @@ export function AirQualityCard({ city }: Props) {
         </div>
 
         <p className="text-[11px] text-[var(--text-tertiary)] leading-tight mt-3">
-          ATMO · CITEPA · RNSA — mesure horaire sur atmo-france.org.
+          10 = pollution maximale · ATMO · CITEPA · RNSA — mesure horaire sur atmo-france.org.
         </p>
       </Link>
     </Card>

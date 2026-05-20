@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     alternates: { canonical: `/velo/${macro.slug}` },
     openGraph: {
       title: `Villes cyclables · ${macro.label}`,
-      description: `Index composite F57 par ville de la macro-région ${macro.label}.`,
+      description: `Index composite par ville de la macro-région ${macro.label}.`,
     },
   };
 }
@@ -81,7 +81,7 @@ export default async function MacroRegionCyclingPage({ params }: Props) {
       q: `Quelles sont les villes les plus cyclables de ${macro.label} ?`,
       a:
         best.length > 0
-          ? `Top 3 selon le composite F57 (10 = excellent) : ${best
+          ? `Top 3 selon le composite (10 = excellent) : ${best
               .slice(0, 3)
               .map((c) => `${c.name} (${c.cycling.composite}/10)`)
               .join(", ")}.`
@@ -113,7 +113,7 @@ export default async function MacroRegionCyclingPage({ params }: Props) {
           {macro.emoji} Villes cyclables — {macro.label}
         </h1>
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
-          Index composite F57 restreint aux {cities.length} villes de la macro-région
+          Index composite restreint aux {cities.length} villes de la macro-région
           {" "}{macro.label} référencées de plus de 10 000 habitants. Quatre dimensions :
           réseau cyclable, topographie, sécurité, climat.
         </p>

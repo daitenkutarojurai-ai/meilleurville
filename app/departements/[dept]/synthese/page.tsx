@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const count = CITIES_SEED.filter((c) => c.department === dept).length;
   return {
     title: `Synthèse 8 axes · ${dept} | palmarès des villes du département`,
-    description: `Classement synthèse F61 des ${count} villes du département ${dept} sur les 8 dimensions data (environnement, santé, emploi, cadre de vie, vélo, sécurité, démographie, services publics). Convention 10 = excellent.`,
+    description: `Classement synthèse des ${count} villes du département ${dept} sur les 8 dimensions data (environnement, santé, emploi, cadre de vie, vélo, sécurité, démographie, services publics). Convention 10 = excellent.`,
     alternates: { canonical: `/departements/${deptSlug}/synthese` },
     openGraph: {
       title: `Synthèse · ${dept}`,
@@ -68,7 +68,7 @@ export default async function DeptSynthesePage({ params }: Props) {
   // synthesis.axes[*] qui n'est PAS l'ordre clé fixe — donc on regroupe par key).
   const axisKeys = ["cadre-de-vie", "environnement", "sante", "emploi", "velo", "securite", "demographie", "services-publics"] as const;
   const axisLabels: Record<(typeof axisKeys)[number], { label: string; hint: string }> = {
-    "cadre-de-vie": { label: "Cadre de vie", hint: "Méga-index F52" },
+    "cadre-de-vie": { label: "Cadre de vie", hint: "Méga-index" },
     "environnement": { label: "Env.", hint: "Air · bruit · eau · risques" },
     "sante": { label: "Santé", hint: "MG · spé · urgences" },
     "emploi": { label: "Emploi", hint: "Chômage · salaires" },
@@ -98,7 +98,7 @@ export default async function DeptSynthesePage({ params }: Props) {
       q: `Quelles sont les villes du département ${dept} au meilleur profil global ?`,
       a:
         top.length > 0
-          ? `Top 3 selon la synthèse F61 (moyenne des 8 axes normalisés, 10 = excellent) : ${top
+          ? `Top 3 selon la synthèse (moyenne des 8 axes normalisés, 10 = excellent) : ${top
               .slice(0, 3)
               .map((c) => `${c.name} (${c.synthesis.global}/10)`)
               .join(", ")}.`
@@ -119,7 +119,7 @@ export default async function DeptSynthesePage({ params }: Props) {
     },
     {
       q: `Comment ce classement est-il calculé ?`,
-      a: `Synthèse F61 : moyenne arithmétique des 8 composites des clusters data (env, santé, emploi, cadre de vie, vélo, sécurité, démographie, services publics) normalisés vers une convention « 10 = excellent ». Restreint au département ${dept}.`,
+      a: `Synthèse : moyenne arithmétique des 8 composites des clusters data (env, santé, emploi, cadre de vie, vélo, sécurité, démographie, services publics) normalisés vers une convention « 10 = excellent ». Restreint au département ${dept}.`,
     },
   ]);
 
@@ -140,7 +140,7 @@ export default async function DeptSynthesePage({ params }: Props) {
           Synthèse — villes du département {dept}
         </h1>
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
-          Classement synthèse F61 restreint aux {n} ville{n > 1 ? "s" : ""}
+          Classement synthèse restreint aux {n} ville{n > 1 ? "s" : ""}
           {" "}du département {dept} référencée{n > 1 ? "s" : ""} dans le seed. Les 8
           dimensions data agrégées en un score unifié 0-10, 10 = excellent.
         </p>

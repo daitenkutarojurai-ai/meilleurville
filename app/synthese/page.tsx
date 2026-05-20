@@ -1,4 +1,4 @@
-// F68 — Hub Synthèse 8 axes.
+// Hub Synthèse 8 axes.
 //
 // Landing page qui surface l'ensemble de la pyramide synthèse (F61-F67)
 // en un seul écran. Cinq niveaux géographiques + comparer + personnaliser
@@ -27,7 +27,7 @@ export const revalidate = false;
 
 export const metadata: Metadata = {
   title: "Synthèse 8 axes · palmarès, comparatifs, profils régionaux | MeilleurVille",
-  description: `Système synthèse F61 : 8 axes data (env / santé / emploi / cadre / vélo / sécurité / démo / services publics) unifiés sur ${CITIES_COUNT} villes, ${DEPARTMENTS_COUNT} départements, ${REGIONS_COUNT} régions, 6 macro-régions, palmarès national. Comparer 2 villes ou 2 régions, palmarès personnalisé.`,
+  description: `Système synthèse : 8 axes data (env / santé / emploi / cadre / vélo / sécurité / démo / services publics) unifiés sur ${CITIES_COUNT} villes, ${DEPARTMENTS_COUNT} départements, ${REGIONS_COUNT} régions, 6 macro-régions, palmarès national. Comparer 2 villes ou 2 régions, palmarès personnalisé.`,
   alternates: { canonical: "/synthese" },
   openGraph: {
     title: "Synthèse 8 axes · MeilleurVille",
@@ -56,7 +56,7 @@ export default function SyntheseHubPage() {
   const faq = faqJsonLd([
     {
       q: "Qu'est-ce que la synthèse 8 axes ?",
-      a: `Système unifié qui agrège 8 composites des clusters data du site (F44 environnement, F47 santé, F50 emploi, F52 cadre de vie, F57 vélo, F58 sécurité, F59 démographie, F60 services publics) sur une convention unique « 10 = excellent ». Permet une lecture rapide et comparable de n'importe quelle ville, département, région, macro-région ou de la France entière.`,
+      a: `Système unifié qui agrège 8 composites des clusters data du site (environnement, santé, emploi, cadre de vie, vélo, sécurité, démographie, services publics) sur une convention unique « 10 = excellent ». Permet une lecture rapide et comparable de n'importe quelle ville, département, région, macro-région ou de la France entière.`,
     },
     {
       q: "Quels niveaux géographiques sont couverts ?",
@@ -64,11 +64,11 @@ export default function SyntheseHubPage() {
     },
     {
       q: "Comment comparer deux villes ou deux régions ?",
-      a: `Comparaison ville↔ville : /comparer/[a]-vs-[b]/synthese (614 paires curées, F63). Comparaison région↔région : /comparer-regions/[a]-vs-[b]/synthese (78 paires, F67). Verdict automatique axe par axe avec seuil ±0,3 pt.`,
+      a: `Comparaison ville↔ville : /comparer/[a]-vs-[b]/synthese (614 paires curées). Comparaison région↔région : /comparer-regions/[a]-vs-[b]/synthese (78 paires). Verdict automatique axe par axe avec seuil ±0,3 pt.`,
     },
     {
       q: "Puis-je personnaliser la pondération des 8 axes ?",
-      a: `Oui — /palmares/personnaliser (F64) : 8 sliders 1-5 pour pondérer chaque axe selon les priorités personnelles, recompute en direct du top 10 villes ≥ 15 000 hab. URL partageable qui restaure les poids exacts.`,
+      a: `Oui — /palmares/personnaliser : 8 sliders 1-5 pour pondérer chaque axe selon les priorités personnelles, recompute en direct du top 10 villes ≥ 15 000 hab. URL partageable qui restaure les poids exacts.`,
     },
   ]);
 
@@ -120,7 +120,7 @@ export default function SyntheseHubPage() {
                 Synthèse par ville
               </div>
               <div className="text-xs text-[var(--text-tertiary)] mt-1">
-                F61 — {CITIES_COUNT} fiches /villes/[slug]/synthese. Score global, cohérence ±,
+                {CITIES_COUNT} fiches /villes/[slug]/synthese. Score global, cohérence ±,
                 forces, tensions, signature narrative.
               </div>
             </Card>
@@ -134,7 +134,7 @@ export default function SyntheseHubPage() {
                 Synthèse par département
               </div>
               <div className="text-xs text-[var(--text-tertiary)] mt-1">
-                F65 — {deptCount} palmarès /departements/[dept]/synthese. Profil moyen + top villes
+                {deptCount} palmarès /departements/[dept]/synthese. Profil moyen + top villes
                 + plus tendues.
               </div>
             </Card>
@@ -148,7 +148,7 @@ export default function SyntheseHubPage() {
                 Synthèse par région
               </div>
               <div className="text-xs text-[var(--text-tertiary)] mt-1">
-                F66 — 18 palmarès /regions/[r]/synthese (métropole + DROM). Profil moyen, top 20,
+                18 palmarès /regions/[r]/synthese (métropole + DROM). Profil moyen, top 20,
                 zoom département.
               </div>
             </Card>
@@ -162,7 +162,7 @@ export default function SyntheseHubPage() {
                 Macro-régions
               </div>
               <div className="text-xs text-[var(--text-tertiary)] mt-1">
-                F62 — {MACRO_REGIONS.length} zones transrégionales /palmares/[macro] (côte atlantique,
+                {MACRO_REGIONS.length} zones transrégionales /palmares/[macro] (côte atlantique,
                 arc méditerranéen, arc alpin, sud-ouest gascon, vallée du Rhône, IDF élargie).
               </div>
             </Card>
@@ -176,7 +176,7 @@ export default function SyntheseHubPage() {
                 Palmarès France
               </div>
               <div className="text-xs text-[var(--text-tertiary)] mt-1">
-                F62 — /palmares. Top 30 profils les plus favorables + top 20 les plus tendus,
+                /palmares. Top 30 profils les plus favorables + top 20 les plus tendus,
                 filtre 15 000 hab.
               </div>
             </Card>
@@ -190,7 +190,7 @@ export default function SyntheseHubPage() {
                 Palmarès personnalisé
               </div>
               <div className="text-xs text-[var(--text-tertiary)] mt-1">
-                F64 — 8 sliders 1-5, recompute du top 10 en direct. URL partageable qui restaure
+                8 sliders 1-5, recompute du top 10 en direct. URL partageable qui restaure
                 les poids exacts.
               </div>
             </Card>
@@ -210,7 +210,7 @@ export default function SyntheseHubPage() {
           <Link href="/comparer" className="block">
             <Card className="hover:shadow-md transition-shadow h-full">
               <div className="text-xs uppercase tracking-wide text-[var(--text-tertiary)] font-semibold">
-                F63 — 614 paires curées
+                614 paires curées
               </div>
               <div className="text-base font-bold text-[var(--text-primary)] mt-1">
                 Comparer 2 villes en synthèse
@@ -224,7 +224,7 @@ export default function SyntheseHubPage() {
           <Link href="/comparer-regions" className="block">
             <Card className="hover:shadow-md transition-shadow h-full">
               <div className="text-xs uppercase tracking-wide text-[var(--text-tertiary)] font-semibold">
-                F67 — 78 paires
+                78 paires
               </div>
               <div className="text-base font-bold text-[var(--text-primary)] mt-1">
                 Comparer 2 régions en synthèse
@@ -335,14 +335,14 @@ export default function SyntheseHubPage() {
             <li>
               <strong className="text-[var(--text-primary)]">Convention unifiée</strong> :
               tous les axes sont normalisés vers « 10 = excellent », même les clusters dont
-              la convention native est inversée (santé F47, emploi F50, sécurité F58,
-              démographie F59, services publics F60).
+              la convention native est inversée (santé, emploi, sécurité,
+              démographie, services publics).
             </li>
             <li>
               <strong className="text-[var(--text-primary)]">Score global</strong> :
-              moyenne arithmétique simple des 8 axes par ville (F61). À l&apos;échelle
+              moyenne arithmétique simple des 8 axes par ville. À l&apos;échelle
               dept/région, on calcule la moyenne sur les villes du seed appartenant
-              au territoire, puis on moyenne les 8 axes (F66, F67).
+              au territoire, puis on moyenne les 8 axes.
             </li>
             <li>
               <strong className="text-[var(--text-primary)]">Cohérence ±</strong> :

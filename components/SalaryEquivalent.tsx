@@ -92,6 +92,7 @@ export function SalaryEquivalent({ cities }: { cities: CityLite[] }) {
             <select
               value={sourceSlug}
               onChange={(e) => setSourceSlug(e.target.value)}
+              aria-label="Ville actuelle"
               className="w-full rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] px-3 py-2 text-sm text-[var(--text-primary)]"
             >
               {cities.map((c) => (
@@ -113,6 +114,7 @@ export function SalaryEquivalent({ cities }: { cities: CityLite[] }) {
               step={100}
               value={salary}
               onChange={(e) => setSalary(Math.max(0, Number(e.target.value)))}
+              aria-label="Salaire net mensuel actuel"
               className="w-full rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] px-3 py-2 text-sm text-right font-mono-data font-bold text-[var(--text-primary)]"
             />
           </div>
@@ -124,6 +126,7 @@ export function SalaryEquivalent({ cities }: { cities: CityLite[] }) {
             <select
               value={targetSlug}
               onChange={(e) => setTargetSlug(e.target.value)}
+              aria-label="Ville cible"
               className="w-full rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] px-3 py-2 text-sm text-[var(--text-primary)]"
             >
               {cities.map((c) => (

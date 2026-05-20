@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     alternates: { canonical: `/sante/${macro.slug}` },
     openGraph: {
       title: `Accès aux soins · ${macro.label}`,
-      description: `Index composite F47 par ville de la macro-région ${macro.label}.`,
+      description: `Index composite par ville de la macro-région ${macro.label}.`,
     },
   };
 }
@@ -81,7 +81,7 @@ export default async function MacroRegionHealthcarePage({ params }: Props) {
       q: `Quelles villes ont le meilleur accès aux soins en ${macro.label} ?`,
       a:
         best.length > 0
-          ? `Top 3 selon le composite F47 (10 = excellent accès aux soins) : ${best
+          ? `Top 3 selon le composite (10 = excellent accès aux soins) : ${best
               .slice(0, 3)
               .map((c) => `${c.name} (${(10 - c.access.composite).toFixed(1)}/10)`)
               .join(", ")}. Score élevé = bon accès.`
@@ -113,7 +113,7 @@ export default async function MacroRegionHealthcarePage({ params }: Props) {
           {macro.emoji} Accès aux soins — {macro.label}
         </h1>
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
-          Index composite F47 restreint aux {cities.length} villes de la macro-région
+          Index composite restreint aux {cities.length} villes de la macro-région
           {" "}{macro.label} référencées de plus de 10 000 habitants. Quatre dimensions :
           médecins généralistes, spécialistes, urgences/SAU, pharmacies.
         </p>

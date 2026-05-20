@@ -1,4 +1,5 @@
 import { MetadataRoute } from "next";
+import { SITEMAP_CHUNK_COUNT } from "./sitemap";
 
 const DEFAULT_LOCALE = (process.env.NEXT_PUBLIC_DEFAULT_LOCALE ?? "fr") as "fr" | "en";
 const FR_URL = process.env.NEXT_PUBLIC_BASE_URL_FR ?? "https://www.mavilleideale.fr";
@@ -6,10 +7,9 @@ const EN_URL = process.env.NEXT_PUBLIC_BASE_URL_EN ?? "https://bestcitiesinfranc
 const BASE_URL =
   process.env.NEXT_PUBLIC_BASE_URL ?? (DEFAULT_LOCALE === "en" ? EN_URL : FR_URL);
 
-// Keep in sync with SITEMAP_CHUNKS in app/sitemap.ts (FR: 15 chunks incl.
-// comparer-regions + calculator + gentrification + quitter + cout-menage; EN: 3).
-const CHUNK_COUNT = DEFAULT_LOCALE === "en" ? 3 : 15;
-const SITEMAP_INDEXES = Array.from({ length: CHUNK_COUNT }, (_, i) => i);
+// Chunk count derived from app/sitemap.ts so every chunk generateSitemaps
+// emits is advertised here — no manual drift (FR: 16 chunks, EN: 8).
+const SITEMAP_INDEXES = Array.from({ length: SITEMAP_CHUNK_COUNT }, (_, i) => i);
 
 export default function robots(): MetadataRoute.Robots {
   return {

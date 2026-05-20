@@ -1,4 +1,5 @@
 import { ImageResponse } from "next/og";
+import { CITIES_SEED } from "@/data/cities-seed";
 
 export const alt = "Où partir en vacances en France — guide mois par mois · MeilleurVille";
 export const size = { width: 1200, height: 630 };
@@ -61,7 +62,7 @@ export default function Image() {
             Où partir en France ?
           </div>
           <div style={{ color: "#475569", fontSize: "20px", marginTop: "6px" }}>
-            352 villes classées · climat · activité · affluence · budget
+            {`${CITIES_SEED.length} villes classées · climat · activité · affluence · budget`}
           </div>
         </div>
 

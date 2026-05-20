@@ -53,7 +53,7 @@ export function NoiseCard({ city }: Props) {
         </div>
 
         <p className="text-[11px] text-[var(--text-tertiary)] leading-tight mt-3">
-          CBS · PEB · Bruitparif — carte précise sur la CBS communale.
+          10 = nuisance sonore maximale · CBS · PEB · Bruitparif — carte précise sur la CBS communale.
         </p>
       </Link>
     </Card>

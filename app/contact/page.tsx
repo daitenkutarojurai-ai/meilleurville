@@ -11,6 +11,7 @@ export const metadata: Metadata = {
   title: "Contact · MeilleurVille",
   description:
     "Contactez l'équipe MeilleurVille : signaler une erreur, proposer une ville, partenariat presse ou data.",
+  alternates: { canonical: "/contact" },
 };
 
 export default function ContactPage() {

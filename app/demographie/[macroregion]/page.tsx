@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     alternates: { canonical: `/demographie/${macro.slug}` },
     openGraph: {
       title: `Démographie · ${macro.label}`,
-      description: `Index composite F59 par ville de la macro-région ${macro.label}.`,
+      description: `Index composite par ville de la macro-région ${macro.label}.`,
     },
   };
 }
@@ -81,7 +81,7 @@ export default async function MacroRegionDemographyPage({ params }: Props) {
       q: `Quelles sont les villes au profil démographique le plus dynamique en ${macro.label} ?`,
       a:
         dynamic.length > 0
-          ? `Top 3 selon le composite F59 (10 = démographie dynamique) : ${dynamic
+          ? `Top 3 selon le composite (10 = démographie dynamique) : ${dynamic
               .slice(0, 3)
               .map((c) => `${c.name} (${(10 - c.demo.composite).toFixed(1)}/10)`)
               .join(", ")}.`
@@ -113,7 +113,7 @@ export default async function MacroRegionDemographyPage({ params }: Props) {
           {macro.emoji} Démographie — {macro.label}
         </h1>
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
-          Index composite F59 restreint aux {cities.length} villes de la macro-région
+          Index composite restreint aux {cities.length} villes de la macro-région
           {" "}{macro.label} référencées de plus de 10 000 habitants. Quatre dimensions :
           vieillissement, jeunes actifs, trajectoire, renouvellement.
         </p>

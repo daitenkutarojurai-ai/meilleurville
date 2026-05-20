@@ -166,7 +166,7 @@ export function CompareTool() {
       {/* City pickers */}
       <div className="grid gap-3 mb-10" style={{ gridTemplateColumns: `repeat(${cities.length}, 1fr)` }}>
         {cities.map((city, i) => (
-          <div key={i} className="relative">
+          <div key={city?.slug ?? `slot-${i}`} className="relative">
             <CityPicker
               selected={city}
               onSelect={(c) => setCity(i, c)}

@@ -9,6 +9,7 @@ import { CITIES_COUNT, REGIONS_COUNT, DEPARTMENTS_COUNT } from "@/lib/site-stats
 export const metadata: Metadata = {
   title: "FAQ · Questions fréquentes | MeilleurVille",
   description: "Réponses aux questions fréquentes sur MeilleurVille : comment sont calculés les scores, comment contribuer, comment marche le quiz et le comparateur.",
+  alternates: { canonical: "/faq" },
 };
 
 const FAQ_SECTIONS = [

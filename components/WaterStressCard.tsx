@@ -53,7 +53,7 @@ export function WaterStressCard({ city }: Props) {
         </div>
 
         <p className="text-[11px] text-[var(--text-tertiary)] leading-tight mt-3">
-          Propluvia · BRGM — restrictions du jour à vérifier sur Propluvia.
+          10 = stress hydrique maximal · Propluvia · BRGM — restrictions du jour à vérifier sur Propluvia.
         </p>
       </Link>
     </Card>

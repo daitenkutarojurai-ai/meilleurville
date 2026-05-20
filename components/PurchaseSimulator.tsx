@@ -79,6 +79,7 @@ export function PurchaseSimulator({ cities }: Props) {
                 step={10000}
                 value={budget}
                 onChange={(e) => setBudget(Number(e.target.value))}
+                aria-label="Budget achat total"
                 className="flex-1"
               />
               <input
@@ -88,6 +89,7 @@ export function PurchaseSimulator({ cities }: Props) {
                 step={5000}
                 value={budget}
                 onChange={(e) => setBudget(Math.max(0, Number(e.target.value)))}
+                aria-label="Budget achat total en euros"
                 className="w-28 rounded-lg border border-[var(--border)] bg-[var(--bg-surface)] px-2 py-1 text-right font-mono-data font-bold"
               />
             </div>
@@ -106,6 +108,7 @@ export function PurchaseSimulator({ cities }: Props) {
                 step={5}
                 value={surface}
                 onChange={(e) => setSurface(Number(e.target.value))}
+                aria-label="Surface souhaitée en mètres carrés"
                 className="flex-1"
               />
               <input
@@ -115,6 +118,7 @@ export function PurchaseSimulator({ cities }: Props) {
                 step={1}
                 value={surface}
                 onChange={(e) => setSurface(Math.max(15, Number(e.target.value)))}
+                aria-label="Surface souhaitée en mètres carrés"
                 className="w-20 rounded-lg border border-[var(--border)] bg-[var(--bg-surface)] px-2 py-1 text-right font-mono-data font-bold"
               />
             </div>
@@ -133,6 +137,7 @@ export function PurchaseSimulator({ cities }: Props) {
                 step={1}
                 value={downPaymentPct}
                 onChange={(e) => setDownPaymentPct(Number(e.target.value))}
+                aria-label="Apport en pourcentage du prix"
                 className="flex-1"
               />
               <span className="w-12 text-right font-mono-data font-bold text-[var(--text-primary)]">

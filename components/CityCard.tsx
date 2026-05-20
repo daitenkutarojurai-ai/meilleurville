@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { MapPin, Star, TrendingUp } from "lucide-react";
+import { MapPin, Star } from "lucide-react";
 import { Badge } from "@/components/ui/Badge";
 import { cn, formatNumber, formatScore, scoreHex, scoreColor, scoreLabel } from "@/lib/utils";
 import type { City } from "@/lib/types";
@@ -9,7 +9,6 @@ import { FavoriteButton } from "@/components/effects/FavoriteButton";
 interface CityCardProps {
   city: City;
   rank?: number;
-  delta?: number;
   className?: string;
 }
 
@@ -22,7 +21,7 @@ function gradientForScore(score: number) {
   return "from-red-500 via-rose-400 to-orange-400";
 }
 
-export function CityCard({ city, rank, delta, className }: CityCardProps) {
+export function CityCard({ city, rank, className }: CityCardProps) {
   const score = city.scores.global;
   const cover = gradientForScore(score);
   const tier = scoreLabel(score);
@@ -82,17 +81,6 @@ export function CityCard({ city, rank, delta, className }: CityCardProps) {
                   {city.reviewCount} avis
                 </span>
               </div>
-              {delta !== undefined && delta !== 0 && (
-                <div
-                  className={cn(
-                    "flex items-center gap-0.5 text-xs font-medium",
-                    delta > 0 ? "text-emerald-600" : "text-red-500"
-                  )}
-                >
-                  <TrendingUp className={cn("h-3 w-3", delta < 0 && "rotate-180")} />
-                  {Math.abs(delta)}
-                </div>
-              )}
             </div>
           </div>
 

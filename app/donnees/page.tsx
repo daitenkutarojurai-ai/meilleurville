@@ -10,6 +10,7 @@ export const metadata: Metadata = {
   title: "Données & Sources · MeilleurVille",
   description:
     "Transparence totale sur les sources de données MeilleurVille : INSEE, Open Data, avis habitants. Tout est documenté et téléchargeable.",
+  alternates: { canonical: "/donnees" },
 };
 
 const SOURCES = [

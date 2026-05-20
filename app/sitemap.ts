@@ -62,6 +62,10 @@ const SITEMAP_CHUNKS_EN = [
 
 const SITEMAP_CHUNKS = IS_EN ? SITEMAP_CHUNKS_EN : SITEMAP_CHUNKS_FR;
 
+/** Number of sitemap chunks for the active locale — consumed by robots.ts
+ *  so the advertised chunk URLs always match what generateSitemaps emits. */
+export const SITEMAP_CHUNK_COUNT = SITEMAP_CHUNKS.length;
+
 type Chunk = (typeof SITEMAP_CHUNKS_FR)[number] | (typeof SITEMAP_CHUNKS_EN)[number];
 
 export async function generateSitemaps() {

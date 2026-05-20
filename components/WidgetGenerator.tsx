@@ -90,6 +90,7 @@ export function WidgetGenerator({ cities }: { cities: CityLite[] }) {
         <select
           value={city}
           onChange={(e) => setCity(e.target.value)}
+          aria-label={format === "compare" ? "Ville 1" : "Ville"}
           className="w-full rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] px-3 py-2 text-sm text-[var(--text-primary)]"
         >
           {cities.map((c) => (
@@ -106,6 +107,7 @@ export function WidgetGenerator({ cities }: { cities: CityLite[] }) {
             <select
               value={city2}
               onChange={(e) => setCity2(e.target.value)}
+              aria-label="Ville 2"
               className="w-full rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] px-3 py-2 text-sm text-[var(--text-primary)]"
             >
               {cities.map((c) => (

@@ -53,7 +53,7 @@ export function NaturalRisksCard({ city }: Props) {
         </div>
 
         <p className="text-[11px] text-[var(--text-tertiary)] leading-tight mt-3">
-          BCSF · BRGM · ONF — vérifier le PPRI précis sur Géorisques.
+          10 = exposition aux risques maximale · BCSF · BRGM · ONF — vérifier le PPRI précis sur Géorisques.
         </p>
       </Link>
     </Card>

@@ -521,7 +521,7 @@ function housingAffordabilityScore(c: (typeof CITIES_SEED)[number]): number {
 
 export function getRankedCities(
   slug: RankingSlug
-): Array<{ city: City; rank: number; score: number; delta: number }> {
+): Array<{ city: City; rank: number; score: number }> {
   const meta = RANKING_META[slug];
   const weights = meta.weights as Record<string, number>;
 
@@ -569,6 +569,5 @@ export function getRankedCities(
       },
       rank: i + 1,
       score: Math.round(item.score * 10) / 10,
-      delta: Math.floor(Math.random() * 3) * (Math.random() > 0.5 ? 1 : -1),
     }));
 }

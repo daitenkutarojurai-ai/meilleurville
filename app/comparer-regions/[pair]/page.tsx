@@ -28,8 +28,8 @@ type Props = { params: Promise<{ pair: string }> };
 const PRIORITY_PAIRS: ReadonlyArray<readonly [string, string]> = [
   ["Bretagne", "Occitanie"],
   ["Bretagne", "Normandie"],
-  ["Provence-Alpes-Côte d'Azur", "Nouvelle-Aquitaine"],
-  ["Île-de-France", "Auvergne-Rhône-Alpes"],
+  ["Nouvelle-Aquitaine", "Provence-Alpes-Côte d'Azur"],
+  ["Auvergne-Rhône-Alpes", "Île-de-France"],
 ];
 
 // Editorial intros for the 4 priority pairs. Keys are the slug `${a}-vs-${b}`
@@ -40,9 +40,9 @@ const PRIORITY_INTROS: Record<string, string> = {
     "Deux régions diamétralement opposées dans le top des relocations 2024. La Bretagne mise sur la côte sauvage, une scène tech à Rennes et un coût de vie qui reste sous la moyenne nationale. L'Occitanie offre du soleil quasi méditerranéen (Montpellier et Toulouse comptent parmi les villes les plus ensoleillées de France métropolitaine) et une dynamique étudiante intense — mais avec des étés qui deviennent réellement chauds. À comparer concrètement.",
   "bretagne-vs-normandie":
     "L'arbitrage classique entre les deux régions atlantiques nord-ouest. La Bretagne joue la carte identitaire forte, le cluster tech rennais et un littoral découpé. La Normandie joue la proximité Paris (Rouen à 1h20, Caen accessible), un patrimoine historique unique et un immobilier souvent encore plus abordable. Les climats se ressemblent — mais la Bretagne reste plus humide à l'ouest.",
-  "provence-alpes-cote-d-azur-vs-nouvelle-aquitaine":
+  "nouvelle-aquitaine-vs-provence-alpes-cote-d-azur":
     "Sud-est versus sud-ouest. PACA capitalise sur la Méditerranée, l'art de vivre azuréen et un marché du luxe assumé, avec un coût de la vie en conséquence. La Nouvelle-Aquitaine combine Bordeaux dynamique, le Pays Basque premium et le Périgord rural — plus diverse, mais l'attractivité a fait grimper les prix de Bordeaux et de la côte basque depuis 5 ans.",
-  "ile-de-france-vs-auvergne-rhone-alpes":
+  "auvergne-rhone-alpes-vs-ile-de-france":
     "Paris et son écosystème versus Lyon et l'arc alpin. L'Île-de-France domine encore largement en emploi qualifié et accès culturel, au prix d'un logement qui phagocyte tout. Auvergne-Rhône-Alpes propose Lyon (2e ville française), Grenoble (tech / recherche), Annecy (lac + qualité de vie premium) et un arrière-pays alpin accessible. Pour ceux qui veulent quitter Paris sans perdre l'urbanité.",
 };
 

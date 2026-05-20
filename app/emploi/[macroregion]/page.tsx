@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     alternates: { canonical: `/emploi/${macro.slug}` },
     openGraph: {
       title: `Marché de l'emploi · ${macro.label}`,
-      description: `Index composite F50 par ville de la macro-région ${macro.label}.`,
+      description: `Index composite par ville de la macro-région ${macro.label}.`,
     },
   };
 }
@@ -81,7 +81,7 @@ export default async function MacroRegionEmploymentPage({ params }: Props) {
       q: `Quelles villes ont le marché du travail le plus favorable en ${macro.label} ?`,
       a:
         best.length > 0
-          ? `Top 3 selon le composite F50 (10 = marché du travail dynamique) : ${best
+          ? `Top 3 selon le composite (10 = marché du travail dynamique) : ${best
               .slice(0, 3)
               .map((c) => `${c.name} (${(10 - c.market.composite).toFixed(1)}/10)`)
               .join(", ")}. Score élevé = marché favorable.`
@@ -113,7 +113,7 @@ export default async function MacroRegionEmploymentPage({ params }: Props) {
           {macro.emoji} Marché de l&apos;emploi — {macro.label}
         </h1>
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
-          Index composite F50 restreint aux {cities.length} villes de la macro-région
+          Index composite restreint aux {cities.length} villes de la macro-région
           {" "}{macro.label} référencées de plus de 10 000 habitants. Quatre dimensions :
           chômage, salaire médian, dynamisme entrepreneurial, mix sectoriel.
         </p>

@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     alternates: { canonical: `/cadre-de-vie/${macro.slug}` },
     openGraph: {
       title: `Cadre de vie · ${macro.label}`,
-      description: `Méga-index F52 par ville de la macro-région ${macro.label}.`,
+      description: `Méga-index par ville de la macro-région ${macro.label}.`,
     },
   };
 }
@@ -93,7 +93,7 @@ export default async function MacroRegionQolPage({ params }: Props) {
     },
     {
       q: `Comment est calculé l'Index Cadre de Vie ?`,
-      a: `Composite agrégeant 3 sous-indices (F44 environnement, F47 santé, F50 emploi) pondérés env 35 % + santé 30 % + emploi 35 %. Score 0-10, 10 = cadre de vie exceptionnel.`,
+      a: `Composite agrégeant 3 sous-indices (environnement, santé, emploi) pondérés env 35 % + santé 30 % + emploi 35 %. Score 0-10, 10 = cadre de vie exceptionnel.`,
     },
   ]);
 
@@ -147,7 +147,7 @@ export default async function MacroRegionQolPage({ params }: Props) {
             ))}
           </div>
           <p className="text-[11px] text-[var(--text-tertiary)] mt-3">
-            Sous-scores : 10 = bon sur la dimension (déjà inversés depuis F44 / F47 / F50).
+            Sous-scores : 10 = bon sur la dimension (déjà inversés).
           </p>
         </Card>
 

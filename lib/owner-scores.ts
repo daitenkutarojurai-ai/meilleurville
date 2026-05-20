@@ -16,6 +16,7 @@
 
 import type { City } from "@/lib/types";
 import { CITIES_SEED } from "@/data/cities-seed";
+import { scoreColor } from "@/lib/utils";
 
 export type SourceKind = "real" | "proxy-v0" | "estimation-regionale";
 
@@ -338,12 +339,11 @@ export function computeOwnerScores(city: SeedCity | City): OwnerScore[] {
 }
 
 // UI helpers
+// Owner scores are on the canonical 0-10 "10 = bon" scale, so they route
+// through the single-source 6-tier scale in lib/utils (was a divergent
+// 5-tier ladder that mis-coloured values vs the rest of the site).
 export function ownerScoreColor(value: number): string {
-  if (value >= 7.5) return "text-emerald-600";
-  if (value >= 6.0) return "text-lime-600";
-  if (value >= 4.5) return "text-amber-600";
-  if (value >= 3.0) return "text-orange-600";
-  return "text-red-600";
+  return scoreColor(value);
 }
 
 export function sourceKindBadge(kind: SourceKind): { label: string; tone: string } {

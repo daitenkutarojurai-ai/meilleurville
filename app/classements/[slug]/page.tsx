@@ -8,7 +8,7 @@ import { CommentSection } from "@/components/CommentSection";
 import { RANKING_META, getRankedCities, type RankingSlug } from "@/lib/rankings";
 import { CityCard } from "@/components/CityCard";
 import { Card } from "@/components/ui/Card";
-import { CheckCircle, TrendingUp, TrendingDown, Minus, Info } from "lucide-react";
+import { CheckCircle, Info } from "lucide-react";
 import { HOUSING } from "@/data/housing";
 import { GUIDES } from "@/data/guides";
 import { scoreColor } from "@/lib/utils";
@@ -193,7 +193,6 @@ export default async function RankingPage({ params }: Props) {
                   key={entry.city.slug}
                   city={entry.city}
                   rank={entry.rank}
-                  delta={entry.delta}
                   className="h-full"
                 />
               ))}
@@ -223,9 +222,6 @@ export default async function RankingPage({ params }: Props) {
                     </th>
                     <th className="hidden lg:table-cell px-4 py-3 text-right text-xs font-semibold text-[var(--text-secondary)]">
                       Loyer T2
-                    </th>
-                    <th className="px-4 py-3 text-right text-xs font-semibold text-[var(--text-secondary)]">
-                      Évol.
                     </th>
                   </tr>
                 </thead>
@@ -269,21 +265,6 @@ export default async function RankingPage({ params }: Props) {
                         <span className="text-xs font-mono-data text-[var(--text-secondary)]">
                           {HOUSING[entry.city.slug]?.avgRentT2 ? `${HOUSING[entry.city.slug].avgRentT2}€` : "—"}
                         </span>
-                      </td>
-                      <td className="px-4 py-3 text-right">
-                        {entry.delta === 0 ? (
-                          <Minus className="ml-auto h-3.5 w-3.5 text-[var(--text-secondary)]" />
-                        ) : entry.delta > 0 ? (
-                          <div className="flex items-center justify-end gap-0.5 text-emerald-600 text-xs">
-                            <TrendingUp className="h-3.5 w-3.5" />
-                            {entry.delta}
-                          </div>
-                        ) : (
-                          <div className="flex items-center justify-end gap-0.5 text-red-500 text-xs">
-                            <TrendingDown className="h-3.5 w-3.5" />
-                            {Math.abs(entry.delta)}
-                          </div>
-                        )}
                       </td>
                     </tr>
                   ))}

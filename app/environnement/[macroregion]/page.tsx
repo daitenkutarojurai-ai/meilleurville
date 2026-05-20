@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     alternates: { canonical: `/environnement/${macro.slug}` },
     openGraph: {
       title: `Villes saines · ${macro.label}`,
-      description: `Index environnemental composite F40-F43 par ville de la macro-région ${macro.label}.`,
+      description: `Index environnemental composite par ville de la macro-région ${macro.label}.`,
     },
   };
 }

@@ -4,6 +4,10 @@ import type { Guide } from "@/data/guides";
 interface GuideCardProps {
   guide: Guide;
   featured?: boolean;
+  /** Build-time reference timestamp. Passed down from a server component so
+   *  freshness is computed identically on server and client (no hydration
+   *  mismatch when GuideCard renders inside the client GuidesGrid). */
+  now?: number;
 }
 
 function categoryLabel(c: Guide["category"]): string {
@@ -17,23 +21,24 @@ function categoryLabel(c: Guide["category"]): string {
   }
 }
 
-function freshness(updatedAt: string): string | null {
+function freshness(updatedAt: string, now: number): string | null {
   const dt = new Date(updatedAt);
   if (Number.isNaN(dt.getTime())) return null;
-  const days = Math.floor((Date.now() - dt.getTime()) / 86_400_000);
+  const days = Math.floor((now - dt.getTime()) / 86_400_000);
   if (days < 14) return "Mis à jour récemment";
   return dt.toLocaleDateString("fr-FR", { month: "short", year: "numeric" });
 }
 
-function isNew(publishedAt: string): boolean {
+function isNew(publishedAt: string, now: number): boolean {
   const dt = new Date(publishedAt);
   if (Number.isNaN(dt.getTime())) return false;
-  return Date.now() - dt.getTime() < 30 * 86_400_000;
+  return now - dt.getTime() < 30 * 86_400_000;
 }
 
-export function GuideCard({ guide, featured = false }: GuideCardProps) {
-  const fresh = freshness(guide.updatedAt);
-  const isFresh = isNew(guide.publishedAt);
+export function GuideCard({ guide, featured = false, now }: GuideCardProps) {
+  const ref = now ?? Date.now();
+  const fresh = freshness(guide.updatedAt, ref);
+  const isFresh = isNew(guide.publishedAt, ref);
   return (
     <Link
       href={`/guides/${guide.slug}`}

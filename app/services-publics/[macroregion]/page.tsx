@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     alternates: { canonical: `/services-publics/${macro.slug}` },
     openGraph: {
       title: `Services publics · ${macro.label}`,
-      description: `Index composite F60 par ville de la macro-région ${macro.label}.`,
+      description: `Index composite par ville de la macro-région ${macro.label}.`,
     },
   };
 }
@@ -80,7 +80,7 @@ export default async function MacroRegionServicesPage({ params }: Props) {
       q: `Quelles villes ont le meilleur accès aux services publics en ${macro.label} ?`,
       a:
         best.length > 0
-          ? `Top 3 selon le composite F60 (10 = maillage complet) : ${best
+          ? `Top 3 selon le composite (10 = maillage complet) : ${best
               .slice(0, 3)
               .map((c) => `${c.name} (${(10 - c.services.composite).toFixed(1)}/10)`)
               .join(", ")}.`
@@ -112,7 +112,7 @@ export default async function MacroRegionServicesPage({ params }: Props) {
           {macro.emoji} Services publics — {macro.label}
         </h1>
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
-          Index composite F60 restreint aux {cities.length} villes de la
+          Index composite restreint aux {cities.length} villes de la
           macro-région {macro.label} référencées de plus de 10 000 habitants.
           Quatre dimensions : écoles, médiathèque, La Poste, mairie.
         </p>

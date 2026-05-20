@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     alternates: { canonical: `/securite/${macro.slug}` },
     openGraph: {
       title: `Sécurité SSMSI · ${macro.label}`,
-      description: `Index composite F58 par ville de la macro-région ${macro.label}.`,
+      description: `Index composite par ville de la macro-région ${macro.label}.`,
     },
   };
 }
@@ -81,7 +81,7 @@ export default async function MacroRegionSafetyPage({ params }: Props) {
       q: `Quelles sont les villes les plus calmes de ${macro.label} ?`,
       a:
         calmest.length > 0
-          ? `Top 3 selon le composite F58 (10 = pire) : ${calmest
+          ? `Top 3 selon le composite (10 = pire) : ${calmest
               .slice(0, 3)
               .map((c) => `${c.name} (${c.safety.composite}/10)`)
               .join(", ")}.`
@@ -113,7 +113,7 @@ export default async function MacroRegionSafetyPage({ params }: Props) {
           {macro.emoji} Sécurité SSMSI — {macro.label}
         </h1>
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
-          Index composite F58 restreint aux {cities.length} villes de la macro-région
+          Index composite restreint aux {cities.length} villes de la macro-région
           {" "}{macro.label} référencées de plus de 10 000 habitants. Quatre dimensions :
           atteintes biens, personnes, nuit, VFFS.
         </p>

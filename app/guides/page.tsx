@@ -67,7 +67,7 @@ export default function GuidesPage() {
 
       <div className="mx-auto max-w-5xl px-4 sm:px-6 py-12 space-y-12">
         {/* Interactive guides grid with category filtering */}
-        <GuidesGrid guides={GUIDES} />
+        <GuidesGrid guides={GUIDES} now={Date.now()} />
 
         {/* Categories overview */}
         <div>

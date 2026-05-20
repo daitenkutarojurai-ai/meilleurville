@@ -187,7 +187,7 @@ const OVERRIDES: Record<string, Partial9> = {
   melun:           { safety: 5.4, cost: 5.6, transport: 7.4, nature: 6.6, culture: 6.6, schools: 6.4, remoteWork: 7.0, life: 6.5 },
   mantes_la_jolie: { safety: 4.6, cost: 6.0, transport: 7.4, nature: 6.0, culture: 6.0, schools: 5.6, remoteWork: 6.6, life: 5.9 },
   pontoise:        { safety: 5.6, cost: 5.4, transport: 7.6, nature: 6.6, culture: 6.6, schools: 6.6, remoteWork: 7.0, life: 6.6 },
-  evry:            { safety: 5.0, cost: 5.6, transport: 7.6, nature: 6.4, culture: 6.6, schools: 6.4, remoteWork: 7.0, life: 6.4 },
+  evry_courcouronnes: { safety: 5.0, cost: 5.6, transport: 7.6, nature: 6.4, culture: 6.6, schools: 6.4, remoteWork: 7.0, life: 6.4 },
   creteil:         { safety: 5.4, cost: 4.8, transport: 8.4, nature: 6.0, culture: 6.8, schools: 6.4, remoteWork: 7.4, life: 6.5 },
   nanterre:        { safety: 5.4, cost: 4.0, transport: 8.6, nature: 5.6, culture: 7.0, schools: 6.6, remoteWork: 7.6, life: 6.5 },
 

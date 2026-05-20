@@ -10,6 +10,9 @@ import { GUIDE_CATEGORIES } from "@/data/guides";
 
 interface Props {
   guides: Guide[];
+  /** Build-time timestamp from the server page — keeps GuideCard freshness
+   *  hydration-stable. */
+  now: number;
 }
 
 // Lightweight string normalisation: lowercase + strip accents so "lycée"
@@ -18,7 +21,7 @@ interface Props {
 const normalize = (s: string) =>
   s.toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, "");
 
-export function GuidesGrid({ guides }: Props) {
+export function GuidesGrid({ guides, now }: Props) {
   const [activeCategory, setActiveCategory] = useState<string>("all");
   const [query, setQuery] = useState("");
   const q = normalize(query.trim());
@@ -164,7 +167,7 @@ export function GuidesGrid({ guides }: Props) {
         {filtered.length > 0 ? (
           <div className="grid gap-4 sm:grid-cols-2">
             {filtered.map((guide) => (
-              <GuideCard key={guide.slug} guide={guide} featured />
+              <GuideCard key={guide.slug} guide={guide} now={now} featured />
             ))}
           </div>
         ) : (
