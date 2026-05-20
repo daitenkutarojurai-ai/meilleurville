@@ -810,14 +810,24 @@ Done in this sweep. Logo + nav now locale-aware; the EN build covers:
 | `/departments/[dept]` | new | Per-department city list |
 | `/quiz` | existing | Lifestyle matcher |
 | `/about` | new | Independent, what we do/don't do |
-| `/contact` | new | Email-based contact cards |
+| `/contact` | new | Contact form (topic picker) |
 | `/faq` | new | 9 Q/A + JSON-LD `FAQPage` |
 | `/methodology` | new | 8-axis pipeline explainer |
 | `/legal-notice` | existing | Required |
 | `/privacy-policy` | existing | Required |
 
+Phase 2 added (2026-05-20):
+
+| Route | File | Notes |
+|-------|------|-------|
+| `/compare` | `app/[locale]/compare/page.tsx` | Popular-pairs index |
+| `/compare/[pair]` | new | ~300 SEO pairs, score table + per-profile verdict |
+| `/guides` | `app/[locale]/guides/page.tsx` | Curated EN guide index |
+| `/guides/[slug]` | new | 6 native-EN guides (`data/guides-en.ts`) + Article/FAQ JSON-LD |
+| `/map` | `app/[locale]/map/page.tsx` | Server-rendered SVG dot-map, no-JS, score-coloured |
+
 Sitemap chunks for EN: `en-static`, `en-cities`, `en-rankings`, `en-regions`,
-`en-departments`, `en-city-sub` (4 sub-pages × 352 cities = 1 408 URLs).
+`en-departments`, `en-city-sub` (4×352), `en-compare` (~300), `en-guides` (6).
 
 ### EN translation roadmap (post-2026-05-19)
 
@@ -838,15 +848,20 @@ What's *not* shipped yet, in rough priority. Treat as a phased plan.
 
 **Phase 2 — high-value missing routes**
 
-- [ ] `/guides` + `/guides/[slug]` (EN). 360+ FR guides exist — translating
-      all bodies is a multi-week effort. Suggested batched approach:
-      start with a curated EN-relevant subset (~30 guides: "Quitter X" =
-      "Leaving X", "Climat 2040", relocation-from-abroad). Skip per-city
-      niche guides for now.
-- [ ] `/compare/[pair]` (EN equivalent of `/comparer/[pair]`). 17 priority
-      pairs exist; reuse `SEO_PAIRS` and translate the comparator UI strings.
+- [x] `/guides` + `/guides/[slug]` (EN). Shipped 2026-05-20 as 6 natively
+      written English guides in `data/guides-en.ts` (not translations of
+      the 359 FR guides). Topics: moving to France, remote work, families,
+      cost of living, leaving Paris, retirement. **Next:** expand the
+      curated set — add "Quitter X" → "Leaving X" city guides, climate
+      guides. Each new entry in `data/guides-en.ts` auto-generates a route.
+- [x] `/compare` + `/compare/[pair]` (EN). Shipped 2026-05-20 — reuses
+      `SEO_PAIRS` (~300 pairs), score table + housing + per-profile verdict.
+      2-city only; triplets not ported.
+- [x] `/map` (EN equivalent of `/carte`). Shipped 2026-05-20 as a
+      server-rendered SVG dot-map (no client JS — the FR `CarteClient` has
+      hardcoded FR strings and wasn't reused). DROM cities listed separately.
 - [ ] `/compare-regions` (EN equivalent of `/comparer-regions`).
-- [ ] `/map` (EN equivalent of `/carte`).
+- [ ] Triplet comparisons (`/compare/[a]-vs-[b]-vs-[c]`).
 
 **Phase 3 — secondary surfaces**
 

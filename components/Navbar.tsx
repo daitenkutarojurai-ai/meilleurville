@@ -39,14 +39,23 @@ const NAV_MOBILE_ONLY_FR: NavItem[] = [
   { label: "Contact", href: "/contact", emoji: "✉️", matchPrefix: "/contact" },
 ];
 
-// EN nav: only routes that actually exist on bestcitiesinfrance.com today.
+// EN nav: routes that actually exist on bestcitiesinfrance.com today.
 const NAV_PRIMARY_EN: NavItem[] = [
   { label: "Cities",   href: "/cities",   emoji: "🌍", matchPrefix: "/cities" },
   { label: "Rankings", href: "/rankings", emoji: "📊", matchPrefix: "/rankings" },
-  { label: "Quiz",     href: "/quiz",     emoji: "✨", matchPrefix: "/quiz" },
+  { label: "Compare",  href: "/compare",  emoji: "⚖️", matchPrefix: "/compare" },
+  { label: "Guides",   href: "/guides",   emoji: "📖", matchPrefix: "/guides" },
 ];
-const NAV_SECONDARY_EN: NavItem[] = [];
-const NAV_MOBILE_ONLY_EN: NavItem[] = [];
+const NAV_SECONDARY_EN: NavItem[] = [
+  { label: "Map",     href: "/map",     emoji: "🗺️", matchPrefix: "/map" },
+  { label: "Regions", href: "/regions", emoji: "📍", matchPrefix: "/regions" },
+  { label: "Quiz",    href: "/quiz",    emoji: "✨", matchPrefix: "/quiz" },
+];
+const NAV_MOBILE_ONLY_EN: NavItem[] = [
+  { label: "Departments", href: "/departments", emoji: "🗂️", matchPrefix: "/departments" },
+  { label: "About",       href: "/about",       emoji: "ℹ️", matchPrefix: "/about" },
+  { label: "FAQ",         href: "/faq",         emoji: "❓", matchPrefix: "/faq" },
+];
 
 const NAV_PRIMARY = IS_EN ? NAV_PRIMARY_EN : NAV_PRIMARY_FR;
 const NAV_SECONDARY = IS_EN ? NAV_SECONDARY_EN : NAV_SECONDARY_FR;

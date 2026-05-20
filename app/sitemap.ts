@@ -2,6 +2,7 @@ import { MetadataRoute } from "next";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { RANKING_META } from "@/lib/rankings";
 import { GUIDES } from "@/data/guides";
+import { EN_GUIDES } from "@/data/guides-en";
 import { SEO_PAIRS } from "@/lib/comparer-pairs";
 import { SEO_TRIPLETS } from "@/lib/comparer-triplets";
 import { QUITTER_PAIRS, pairToSlug } from "@/lib/quitter-pairs";
@@ -55,6 +56,8 @@ const SITEMAP_CHUNKS_EN = [
   "en-regions",
   "en-departments",
   "en-city-sub",
+  "en-compare",
+  "en-guides",
 ] as const;
 
 const SITEMAP_CHUNKS = IS_EN ? SITEMAP_CHUNKS_EN : SITEMAP_CHUNKS_FR;
@@ -586,6 +589,9 @@ function enStaticSection(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/leaderboard`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.7 },
     { url: `${BASE_URL}/regions`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.75 },
     { url: `${BASE_URL}/departments`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.65 },
+    { url: `${BASE_URL}/compare`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.75 },
+    { url: `${BASE_URL}/guides`, lastModified: STATIC_UPDATED, changeFrequency: "weekly", priority: 0.8 },
+    { url: `${BASE_URL}/map`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.7 },
     { url: `${BASE_URL}/quiz`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE_URL}/about`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.5 },
     { url: `${BASE_URL}/contact`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.4 },
@@ -644,6 +650,24 @@ function enCitySubSection(): MetadataRoute.Sitemap {
       priority: 0.55,
     }))
   );
+}
+
+function enCompareSection(): MetadataRoute.Sitemap {
+  return SEO_PAIRS.map(([a, b]) => ({
+    url: `${BASE_URL}/compare/${a}-vs-${b}`,
+    lastModified: CITY_DATA_UPDATED,
+    changeFrequency: "monthly" as const,
+    priority: 0.6,
+  }));
+}
+
+function enGuidesSection(): MetadataRoute.Sitemap {
+  return EN_GUIDES.map((g) => ({
+    url: `${BASE_URL}/guides/${g.slug}`,
+    lastModified: new Date(g.updatedAt),
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
 }
 
 function quitterSection(): MetadataRoute.Sitemap {
@@ -754,6 +778,8 @@ export default async function sitemap({ id }: { id: Promise<string> }): Promise<
     case "en-regions": return enRegionsSection();
     case "en-departments": return enDepartmentsSection();
     case "en-city-sub": return enCitySubSection();
+    case "en-compare": return enCompareSection();
+    case "en-guides": return enGuidesSection();
     default: return [];
   }
 }
