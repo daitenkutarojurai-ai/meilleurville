@@ -12,6 +12,8 @@ export interface ContactMessage {
   name: string;
   email: string;
   body: string;
+  /** Which site the message came from. Older entries may lack it → treated as "fr". */
+  locale?: "fr" | "en";
   createdAt: string;
 }
 
@@ -91,12 +93,28 @@ export async function addContactMessage(
   return m;
 }
 
-/** Best-effort Resend forward. Returns true if sent. */
+/**
+ * Best-effort Resend forward. Returns true if sent.
+ *
+ * Every contact message — FR or EN — is delivered to a single inbox
+ * (CONTACT_TO_EMAIL). Only the `from` address and the subject brand change
+ * with the locale, so a reply lands on the right domain. The `from` domains
+ * must be verified in Resend (mavilleideale.fr / bestcitiesinfrance.com).
+ */
 export async function maybeForwardEmail(m: ContactMessage): Promise<boolean> {
   const apiKey = process.env.RESEND_API_KEY;
-  const to = process.env.CONTACT_TO_EMAIL ?? "hello@mavilleideale.fr";
-  const from = process.env.CONTACT_FROM_EMAIL ?? "bonjour@mavilleideale.fr";
   if (!apiKey) return false;
+
+  const to = process.env.CONTACT_TO_EMAIL ?? "daitenkutarojurai@gmail.com";
+  const locale = m.locale ?? "fr";
+  const from =
+    locale === "en"
+      ? process.env.CONTACT_FROM_EMAIL_EN ?? "hello@bestcitiesinfrance.com"
+      : process.env.CONTACT_FROM_EMAIL_FR ??
+        process.env.CONTACT_FROM_EMAIL ??
+        "bonjour@mavilleideale.fr";
+  const brand = locale === "en" ? "BestCitiesInFrance" : "MeilleurVille";
+
   try {
     const res = await fetch("https://api.resend.com/emails", {
       method: "POST",
@@ -108,7 +126,7 @@ export async function maybeForwardEmail(m: ContactMessage): Promise<boolean> {
         from,
         to,
         reply_to: m.email,
-        subject: `[MeilleurVille] ${m.topic} — ${m.name}`,
+        subject: `[${brand}] ${m.topic} — ${m.name}`,
         text: `${m.body}\n\n— ${m.name} <${m.email}>`,
       }),
     });

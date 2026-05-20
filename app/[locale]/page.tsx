@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
+import { NewsletterSection } from "@/components/NewsletterSection";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { t, ORIGIN_BY_LOCALE } from "@/lib/i18n";
 import { CITIES_COUNT } from "@/lib/site-stats";
@@ -94,6 +95,8 @@ export default function EnHomePage() {
           </Link>
         </div>
       </section>
+
+      <NewsletterSection locale="en" />
 
       <Footer />
     </main>

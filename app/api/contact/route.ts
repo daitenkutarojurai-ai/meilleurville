@@ -7,7 +7,15 @@ export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
 const Schema = z.object({
-  topic: z.enum(["question", "erreur", "ville", "presse", "suggestion", "autre"]),
+  topic: z.enum([
+    "question",
+    "red-flag",
+    "erreur",
+    "ville",
+    "presse",
+    "suggestion",
+    "autre",
+  ]),
   name: z
     .string()
     .min(2, "Au moins 2 caractères")
@@ -15,6 +23,8 @@ const Schema = z.object({
     .regex(/^[\p{L}0-9 .'_-]+$/u, "Caractères non autorisés"),
   email: z.string().email("Email invalide"),
   body: z.string().min(20, "Au moins 20 caractères").max(4000),
+  // Which site the message came from — sets the reply-from domain + brand.
+  locale: z.enum(["fr", "en"]).default("fr"),
   // honeypot — bots love filling these
   website: z.string().max(0).optional(),
 });
@@ -54,8 +64,8 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ ok: true }, { status: 200 });
   }
 
-  const { topic, name, email, body } = parsed.data;
-  const stored = await addContactMessage({ topic, name, email, body });
+  const { topic, name, email, body, locale } = parsed.data;
+  const stored = await addContactMessage({ topic, name, email, body, locale });
   const sent = await maybeForwardEmail(stored);
 
   return NextResponse.json(
