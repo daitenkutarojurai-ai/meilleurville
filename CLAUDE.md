@@ -919,13 +919,15 @@ What's *not* shipped yet, in rough priority. Treat as a phased plan.
 
 **Phase 3 — secondary surfaces**
 
-- [x] City sub-pages — 16 mirrored in EN: `climate`, `transport`, `schools`,
+- [x] City sub-pages — 17 mirrored in EN: `climate`, `transport`, `schools`,
       `cost-of-living`, `healthcare`, `safety`, `air-quality`, `employment`,
       `natural-risks`, `noise`, `water`, `demographics`, `public-services`,
-      `cycling`, `own-vs-rent`, `remote-work` (last two shipped 2026-05-21).
-      Still missing vs the FR set: `neighbourhoods` (needs native-EN summaries
-      — FR `quartiers` prose is not translatable as-is), `seasons`,
-      `honest-review`, `climate-2040`, `fiscalite`.
+      `cycling`, `own-vs-rent`, `remote-work`, `tax` (last three shipped
+      2026-05-21). Still missing vs the FR set, each blocked on native-EN
+      prose that lives in the lib/data rather than the page: `neighbourhoods`
+      (FR `quartiers` — French summaries in `data/neighborhoods.ts`),
+      `seasons` (French strings in `lib/seasons.ts`), `honest-review` (needs
+      an EN `HonestReviewCard`), `climate-2040`.
 - [ ] `/red-flags` and `/red-flags/[theme]` (EN).
 - [x] `/leaderboard` (EN). Shipped: static global ranking, 352 cities, podium + table.
 - [ ] `/vacations` (EN port of `/vacances`, ~387 pages).
