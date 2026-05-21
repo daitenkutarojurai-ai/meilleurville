@@ -41,7 +41,7 @@ const FR_ONLY_SEGMENTS = new Set([
   "expat-retour",
   "reality-check",
   "ville-du-mois",
-  "gentrification",
+  // "gentrification" removed — EN page now exists at app/[locale]/gentrification
   "alertes",
   "favoris",
   "recherche",
