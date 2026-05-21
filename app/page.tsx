@@ -18,6 +18,7 @@ import { CityMarquee } from "@/components/CityMarquee";
 import { ScrollReveal } from "@/components/effects/ScrollReveal";
 import { SectionNav } from "@/components/SectionNav";
 import { CITIES_SEED } from "@/data/cities-seed";
+import { scoreColor } from "@/lib/utils";
 
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://www.mavilleideale.fr";
 
@@ -110,11 +111,11 @@ export default function HomePage() {
                       </p>
                     </div>
                     <div className="text-right flex-shrink-0">
-                      <div className="text-sm font-bold font-mono-data text-[var(--accent)]">
+                      <div className={`text-sm font-bold font-mono-data ${scoreColor(city.scores.global)}`}>
                         {city.scores.global.toFixed(1)}
                       </div>
-                      <div className="text-xs text-emerald-500 font-medium mt-0.5">
-                        coût {city.scores.cost.toFixed(1)}
+                      <div className="text-xs font-medium mt-0.5 text-[var(--text-tertiary)]">
+                        coût <span className={scoreColor(city.scores.cost)}>{city.scores.cost.toFixed(1)}</span>
                       </div>
                     </div>
                   </Link>
@@ -167,12 +168,12 @@ export default function HomePage() {
                     <span className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors truncate">
                       {a.name}
                     </span>
-                    <span className="text-xs font-mono text-[var(--text-tertiary)] shrink-0">{a.scores.global.toFixed(1)}</span>
+                    <span className={`text-xs font-mono font-bold shrink-0 ${scoreColor(a.scores.global)}`}>{a.scores.global.toFixed(1)}</span>
                     <span className="text-xs font-bold text-[var(--text-tertiary)] shrink-0">VS</span>
                     <span className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors truncate">
                       {b.name}
                     </span>
-                    <span className="text-xs font-mono text-[var(--text-tertiary)] shrink-0">{b.scores.global.toFixed(1)}</span>
+                    <span className={`text-xs font-mono font-bold shrink-0 ${scoreColor(b.scores.global)}`}>{b.scores.global.toFixed(1)}</span>
                   </div>
                   <span className="text-xs text-[var(--accent)] font-medium shrink-0 ml-2">
                     {winner.name} gagne →

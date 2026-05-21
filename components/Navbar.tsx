@@ -158,21 +158,14 @@ export function Navbar() {
   const [open, setOpen] = useState(false);        // mobile drawer
   const [moreOpen, setMoreOpen] = useState(false); // desktop overflow menu
   const [scrolled, setScrolled] = useState(false);
-  const [hidden, setHidden] = useState(false);     // hide-on-scroll-down
   const pathname = usePathname();
   const moreRef = useRef<HTMLDivElement>(null);
 
-  // Shrink + hide on scroll-down, reveal on scroll-up.
+  // Shrink (compact height + shadow) once scrolled. The bar stays pinned at
+  // the top at all times — it never hides on scroll-down, so the SectionNav
+  // below it always sits flush against it.
   useEffect(() => {
-    let last = window.scrollY;
-    const onScroll = () => {
-      const y = window.scrollY;
-      setScrolled(y > 32);
-      if (y < 80) setHidden(false);
-      else if (y > last + 8) setHidden(true);
-      else if (y < last - 8) setHidden(false);
-      last = y;
-    };
+    const onScroll = () => setScrolled(window.scrollY > 32);
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
@@ -205,8 +198,7 @@ export function Navbar() {
       {/* ── Top bar ──────────────────────────────────────────────── */}
       <nav
         className={cn(
-          "sticky top-0 z-50 transition-[transform,background-color,box-shadow,height] duration-300",
-          hidden && !open ? "-translate-y-full" : "translate-y-0",
+          "sticky top-0 z-50 transition-[background-color,box-shadow,height] duration-300",
           scrolled
             ? "border-b border-[var(--border)]/60 bg-[var(--bg-canvas)]/75 backdrop-blur-2xl shadow-[0_8px_32px_-12px_rgba(31,58,42,0.10)]"
             : "border-b border-transparent bg-[var(--bg-canvas)]/40 backdrop-blur-md"

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Marquee } from "@/components/effects/Marquee";
 import { CITIES_SEED } from "@/data/cities-seed";
+import { scoreColor } from "@/lib/utils";
 
 /**
  * CityMarquee — infinite-scroll trust ribbon of top cities + scores.
@@ -29,7 +30,7 @@ export function CityMarquee() {
               <span className="text-[10px] uppercase tracking-wider text-[var(--text-tertiary)] whitespace-nowrap">
                 {c.region}
               </span>
-              <span className="rounded-full bg-[var(--accent-soft)] px-2 py-0.5 text-[10px] font-bold font-mono-data text-[var(--accent)]">
+              <span className={`rounded-full bg-[var(--bg-elevated)] px-2 py-0.5 text-[10px] font-bold font-mono-data ${scoreColor(c.score)}`}>
                 {c.score.toFixed(1)}
               </span>
             </Link>

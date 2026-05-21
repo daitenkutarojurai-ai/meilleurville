@@ -3,6 +3,8 @@ import { ArrowRight, Laptop, Home, TreePine, GraduationCap, Palmtree } from "luc
 import { Badge } from "@/components/ui/Badge";
 import { TiltCard } from "@/components/effects/TiltCard";
 import { Spotlight } from "@/components/effects/Spotlight";
+import { getRankedCities, type RankingSlug } from "@/lib/rankings";
+import { scoreColor } from "@/lib/utils";
 
 const RANKINGS = [
   {
@@ -13,8 +15,6 @@ const RANKINGS = [
     bg: "bg-blue-400/10",
     border: "border-blue-400/20",
     description: "Fibre, coworking, café culture",
-    topCity: "Rennes",
-    topScore: "9.1",
   },
   {
     slug: "famille",
@@ -24,8 +24,6 @@ const RANKINGS = [
     bg: "bg-emerald-500/10",
     border: "border-emerald-400/20",
     description: "Écoles, sécurité, espaces verts",
-    topCity: "Annecy",
-    topScore: "8.9",
   },
   {
     slug: "nature",
@@ -35,8 +33,6 @@ const RANKINGS = [
     bg: "bg-green-400/10",
     border: "border-green-400/20",
     description: "Randonnée, vélo, grand air",
-    topCity: "Grenoble",
-    topScore: "9.4",
   },
   {
     slug: "etudiant",
@@ -46,8 +42,6 @@ const RANKINGS = [
     bg: "bg-violet-400/10",
     border: "border-violet-400/20",
     description: "Campus, coût, nightlife",
-    topCity: "Toulouse",
-    topScore: "8.7",
   },
   {
     slug: "retraite",
@@ -57,8 +51,6 @@ const RANKINGS = [
     bg: "bg-amber-400/10",
     border: "border-amber-400/20",
     description: "Douceur de vivre, santé, calme",
-    topCity: "Aix-en-Provence",
-    topScore: "8.6",
   },
 ];
 
@@ -88,6 +80,9 @@ export function RankingPreview() {
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-5">
           {RANKINGS.map((r) => {
             const Icon = r.icon;
+            // Real #1 city + score, derived from the live ranking engine —
+            // no hardcoded preview numbers (those drifted above the 8.6 clamp).
+            const top = getRankedCities(r.slug as RankingSlug)[0];
             return (
               <TiltCard key={r.slug} max={6} scale={1.025} className="h-full">
                 <Link href={`/classements/${r.slug}`} className="block h-full">
@@ -106,11 +101,11 @@ export function RankingPreview() {
                         <div>
                           <div className="text-xs text-[var(--text-secondary)]">N°1</div>
                           <div className="text-sm font-semibold text-[var(--text-primary)]">
-                            {r.topCity}
+                            {top.city.name}
                           </div>
                         </div>
-                        <div className={`text-2xl font-bold font-mono-data ${r.color}`}>
-                          {r.topScore}
+                        <div className={`text-2xl font-bold font-mono-data ${scoreColor(top.score)}`}>
+                          {top.score.toFixed(1)}
                         </div>
                       </div>
                     </div>
