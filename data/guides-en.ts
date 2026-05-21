@@ -282,6 +282,216 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["pau", "la-rochelle", "angers", "perpignan", "vannes"],
     tags: ["retirement", "healthcare", "climate", "calm"],
   },
+  {
+    slug: "healthcare-in-france-newcomers-2026",
+    title: "How healthcare works in France: a newcomer's guide",
+    metaTitle: "Healthcare in France — A Newcomer's Guide (2026)",
+    metaDesc:
+      "How the French health system works, how to get into it, what it costs, and the one healthcare question that should shape where you choose to live.",
+    category: "moving",
+    emoji: "🏥",
+    readMinutes: 8,
+    publishedAt: "2026-05-21",
+    updatedAt: "2026-05-21",
+    intro:
+      "France's healthcare system has a strong international reputation, and mostly it earns it. But 'good healthcare' as a national average and 'a doctor who will actually take you as a patient' in your specific town are two very different things. This guide explains how the system works, what you're entitled to, what it costs, and the question that should quietly shape where you decide to live.",
+    sections: [
+      {
+        heading: "How the system is structured",
+        body: "French healthcare runs on a reimbursement model, not a free-at-the-point-of-use one. You typically pay the doctor, and the state health insurance (Assurance Maladie, part of the Sécurité sociale) reimburses most of it afterwards via your carte Vitale. A standard GP visit costs around €30; the state covers roughly 70%, and the rest is usually picked up by a private top-up insurance called a mutuelle. So 'free healthcare' is a simplification: the system is excellent and heavily subsidised, but it expects you to hold a mutuelle and to register a regular GP, your médecin traitant.",
+      },
+      {
+        heading: "Getting into the system as a newcomer",
+        body: "If you live in France stably and legally, you can join the public system through residence-based affiliation (PUMA) — broadly, after about three months of residence. EU citizens can bridge that gap with a European Health Insurance Card; everyone else should budget for private insurance to cover the first few months, because the affiliation paperwork and the carte Vitale take time to arrive. Start the process the week you get your address. The single most common newcomer mistake is assuming coverage is instant — it is not, and the gap is exactly when an unexpected bill hurts most.",
+      },
+      {
+        heading: "The médecin traitant and why it matters",
+        body: "France runs a 'coordinated care pathway' (parcours de soins). You're expected to declare one GP as your médecin traitant, who acts as your first point of contact and refers you to specialists. Skip this step and you're still treated — but reimbursed at a lower rate, so you pay more out of pocket. Registering is a simple form signed by the doctor. The catch is finding a GP taking new patients at all, which brings us to the part of this guide that should actually influence your move.",
+      },
+      {
+        heading: "Medical deserts are real — and often where you'd least expect",
+        body: "France has genuine 'medical deserts' (déserts médicaux): areas where the density of GPs has fallen so low that newcomers struggle to register with anyone. They are not only remote mountain villages. Plenty of pretty, sought-after small towns — the kind retirees and remote workers are drawn to — have one overstretched doctor and a months-long wait for a slot. The national average hides this completely. Before you commit to a town, check GP density on its city profile here, and where possible phone a couple of local practices and ask the blunt question: are you taking new patients?",
+      },
+      {
+        heading: "What it actually costs",
+        body: "For most residents the real monthly healthcare cost is the mutuelle, typically €30–80 per person depending on age and cover, sometimes subsidised by an employer. Consultations, prescriptions and hospital stays are then largely reimbursed. People with a recognised long-term condition (affection de longue durée) get that condition's care covered at 100%. Compared with healthcare costs in the US, the UK private system, or many other countries, the total burden in France is low and, importantly, predictable — which matters enormously if you're on a fixed income.",
+      },
+      {
+        heading: "How to factor healthcare into your city choice",
+        body: "Turn healthcare into two concrete checks for every city on your shortlist. First, GP and specialist density — a city with a teaching hospital (CHU) and a healthy supply of doctors is a different proposition from a charming town with one. Second, distance to a hospital with the specialties you're realistically likely to need. The healthcare-related scores on this site surface both. A place can be beautiful, affordable and sunny, and still be the wrong choice if you can't register with a doctor — so make this a deciding factor, not an afterthought.",
+      },
+    ],
+    relatedCities: ["montpellier", "rennes", "nantes", "grenoble", "tours"],
+    tags: ["healthcare", "carte vitale", "moving to france", "medical"],
+  },
+  {
+    slug: "renting-an-apartment-in-france-2026",
+    title: "Renting an apartment in France: the dossier, the deposit, the catches",
+    metaTitle: "Renting an Apartment in France (2026)",
+    metaDesc:
+      "How renting works in France: the dossier, the guarantor problem, furnished vs unfurnished leases, deposits, fees and the costs newcomers miss.",
+    category: "moving",
+    emoji: "🔑",
+    readMinutes: 8,
+    publishedAt: "2026-05-21",
+    updatedAt: "2026-05-21",
+    intro:
+      "Renting in France is less a transaction than an exam. Landlords in the desirable cities can be selective, and they choose tenants on paperwork. Newcomers who understand the process land a flat in weeks; those who improvise lose months and the nicest listings. Here's how it actually works, and where the costs hide.",
+    sections: [
+      {
+        heading: "The dossier is everything",
+        body: "A French rental application is a file — the dossier — and a strong one wins the flat. Expect to provide ID, your last three payslips or proof of income, your most recent tax notice (avis d'imposition), proof of your current address and, often, your employment contract. The unwritten rule landlords apply is the 'three times rent' guideline: your monthly net income should be roughly three times the rent. Have the whole dossier scanned into a single tidy PDF before you start viewing. In a competitive city, the flat goes to whoever can hand over a complete file first, not to whoever liked it most.",
+      },
+      {
+        heading: "The guarantor problem — and how to solve it",
+        body: "Many landlords also want a garant: a guarantor, usually a French resident with strong income, who agrees to cover the rent if you can't. Newcomers rarely have one. The fix is Visale, a free state-backed guarantee scheme run by Action Logement that plays the garant role for eligible tenants — particularly useful for under-30s and people new to a job. Apply for the Visale visa before you house-hunt, so you can show it as part of your dossier. Alternatively some landlords accept private rent-guarantee insurance (GLI) instead of a personal garant.",
+      },
+      {
+        heading: "Furnished vs unfurnished — a real decision",
+        body: "France draws a sharp legal line between furnished (meublé) and unfurnished (vide) lets, and it changes your life. A furnished lease typically runs one year (nine months for students), is more flexible to leave, and costs a little more per month. An unfurnished lease runs three years, is harder for the landlord to end, and is usually cheaper — but you arrive with nothing, down to the light fittings. If you're testing a city, rent furnished. If you're settling, unfurnished almost always wins on cost and stability.",
+      },
+      {
+        heading: "Deposit, fees and what's actually legal",
+        body: "The security deposit (dépôt de garantie) is capped: one month's rent excluding charges for an unfurnished let, two months for a furnished one. Agency fees charged to the tenant are also capped by law and scale with the property's size and location — and crucially, if you rent directly from an owner with no agency involved, there are no agency fees at all. Know these limits: they protect you from being overcharged, and a landlord asking for a six-month deposit is a landlord to walk away from.",
+      },
+      {
+        heading: "Charges, taxes and the real monthly cost",
+        body: "Headline rent is not your real cost. On top sits charges — a monthly provision for building upkeep, sometimes water and heating — often €30–200 depending on the building. The good news for renters: the taxe d'habitation on a main residence has been abolished, so as a primary-residence tenant you no longer pay it. Energy is the variable to watch: an old, poorly insulated flat with electric heating can cost far more to run than a slightly dearer but efficient one. Always ask for the DPE energy rating before signing.",
+      },
+      {
+        heading: "Practical tips for newcomers",
+        body: "Move fast: good flats in Rennes, Lyon, Nantes or Montpellier are gone within days. View in person where you can — photos flatter, and a winter visit reveals damp, noise and the real walk to the métro. Read the DPE: anything rated F or G will be cold and expensive, and the worst ratings are being phased out of the rental market entirely. And once you're in, apply for the CAF housing benefit (APL) — it's income-tested, available to many renters including students, and quietly takes a real bite out of the monthly cost.",
+      },
+    ],
+    relatedCities: ["lyon", "nantes", "rennes", "montpellier", "lille"],
+    tags: ["renting", "apartment", "lease", "dossier"],
+  },
+  {
+    slug: "warmest-sunniest-cities-france-2026",
+    title: "The warmest and sunniest cities in France",
+    metaTitle: "Warmest & Sunniest Cities in France (2026)",
+    metaDesc:
+      "Where the sun and warmth really are in France, the heat trade-offs nobody mentions, and how to pick your spot on the warmth spectrum.",
+    category: "lifestyle",
+    emoji: "☀️",
+    readMinutes: 7,
+    publishedAt: "2026-05-21",
+    updatedAt: "2026-05-21",
+    intro:
+      "Plenty of people move to France chasing sun, and France has plenty to give. But 'warm' has become a more complicated wish than it used to be: the sunniest corners of the country are also the ones where summer is turning genuinely harsh. This guide maps where the warmth and light actually are — and what comes attached.",
+    sections: [
+      {
+        heading: "Where the sun actually is",
+        body: "The undisputed sun belt is the Mediterranean arc: the coast and near-inland of Provence-Alpes-Côte d'Azur and eastern Occitanie. Cities like Marseille, Toulon, Nice and Perpignan record well over 2,500 hours of sunshine a year — among the highest in mainland France — with hot, dry summers and mild winters. If raw sunshine hours are your single priority, this strip is the answer, and nowhere else in the country really competes with it.",
+      },
+      {
+        heading: "Warm but calmer — the inland south",
+        body: "Step a row inland from the coast and you keep most of the sun while easing the crowds and the coastal prices. Aix-en-Provence and the inland cities of Occitanie still get long, bright summers and gentle winters, with a bit more day-night temperature swing than the coast. For many people this is the sweet spot: a southern climate and a southern light, without paying a seafront premium or queuing behind the entire country's holidaymakers every August.",
+      },
+      {
+        heading: "The Atlantic south-west: mild more than scorching",
+        body: "If you want warmth without the Mediterranean's increasingly brutal summers, look to the Atlantic south-west — Pau, Bayonne, the Basque coast, up towards La Rochelle. Winters are mild, summers are warm rather than punishing, and the ocean keeps the worst heat off. The price is more cloud and more rain than the Med, and the famous Basque-coast greenery exists for a reason. For heat-sensitive people, and especially for older residents, this milder version of 'warm' is often the smarter long-term bet.",
+      },
+      {
+        heading: "The heat trade-off nobody puts on the postcard",
+        body: "Here's the part the sunshine brochures skip. The same Mediterranean cities that top the sunshine table now also lead the heatwave table. Summer spells above 38–40 °C are no longer rare; tropical nights that never drop below 20 °C make sleep hard; and the region routinely faces water restrictions and elevated wildfire risk. None of this means 'don't move south'. It means move south with open eyes — and prioritise a home you can actually keep cool, with shade, insulation and ideally not a top-floor sun-trap.",
+      },
+      {
+        heading: "Sunniest is not the same as best",
+        body: "It's worth saying plainly: the sunniest cities are not automatically the best places to live, and treating sunshine as the only axis is how people end up disappointed. The Mediterranean coast is also where housing is most expensive, summer crowding most intense, and water stress most acute. A city two notches less sunny but cheaper, calmer and easier to live in year-round can deliver more actual quality of life. Sunshine is one ingredient, not the whole recipe.",
+      },
+      {
+        heading: "How to choose your spot on the warmth spectrum",
+        body: "Be honest about your own heat tolerance, because it's the deciding variable. If you genuinely thrive in intense heat and have the budget for a well-built, coolable home, the Mediterranean arc will make you happy. If you want warmth and light but find 40 °C miserable — or you're choosing for the next twenty years and the next decade of climate matters — the inland south or the Atlantic south-west give you most of the upside with far less of the risk. Use the climate figures on each city profile to place your shortlist precisely.",
+      },
+    ],
+    relatedCities: ["marseille", "nice", "perpignan", "aix-en-provence", "pau"],
+    tags: ["climate", "warm", "sunshine", "mediterranean"],
+  },
+  {
+    slug: "best-french-cities-for-students-2026",
+    title: "The best French cities for students",
+    metaTitle: "Best French Cities for Students (2026)",
+    metaDesc:
+      "Where to study in France on a real budget: the cities that balance affordable rent, student life and good universities, plus the aid you should claim.",
+    category: "budget",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-05-21",
+    updatedAt: "2026-05-21",
+    intro:
+      "France is one of the most affordable countries in Europe to be a student — public university tuition is famously low — but where you study changes the experience far more than which course you pick. The gap between a well-chosen student city and a badly chosen one is measured in hundreds of euros a month and in whether you actually have a social life.",
+    sections: [
+      {
+        heading: "Rent is the student budget",
+        body: "Tuition at French public universities is low, so the real cost of being a student is housing. There are three routes. CROUS student residences are the cheapest by far but heavily oversubscribed — apply early and have a backup. A private studio is the most independent but the most expensive option. A colocation (flatshare) usually lands in between and is, for most students, the best mix of cost and company. Whichever route you take, the city you pick sets the price floor — and that's where the leverage is.",
+      },
+      {
+        heading: "The cities that give the most for the least",
+        body: "Avoid the instinct to default to Paris. Paris rent will dominate a student budget and leave little for anything else. France's mid-size university cities deliver the same low tuition, comparable degrees, and a fraction of the housing cost. A studio that costs a small fortune in central Paris can cost less than half that in a lively, well-equipped university city elsewhere — and the saved money is the difference between scraping by and actually enjoying the years.",
+      },
+      {
+        heading: "The classic student cities",
+        body: "A few cities have a deserved reputation as great places to be a student. Toulouse and Montpellier are large, young, sunny and packed with students, with a social scene that runs all year. Rennes is a compact, genuinely student-shaped city in the west — affordable, walkable, lively. Grenoble pairs strong science and engineering faculties with the Alps on the doorstep. Lille is big, warm-spirited and famous for its student nightlife. Each has a real university ecosystem, not just a campus bolted onto a town.",
+      },
+      {
+        heading: "Student life beyond the lecture hall",
+        body: "A degree is three to five years of your life, so weigh the things that fill the evenings and weekends. Is the city walkable and cyclable, so you don't need a car? Is there a real cultural calendar, cheap cinema, sport, a music scene? Is the student population big enough that you'll find your people? Mid-size cities with a large student share tend to win here precisely because students set the rhythm of the place — cheap eats, late venues and events are built around them.",
+      },
+      {
+        heading: "The aid you should actually claim",
+        body: "Do not leave money on the table. The CAF housing benefit (APL) is income-tested and available to many students, including international ones, and it meaningfully cuts monthly rent — apply as soon as you have a lease. A student card unlocks reduced rates on transport, museums, cinemas and more. CROUS canteens serve subsidised meals at a low fixed price. Stacked together, these supports change the budget maths enough that they should factor into your planning from the start, not be discovered halfway through the year.",
+      },
+      {
+        heading: "How to shortlist",
+        body: "Build your shortlist from two lists and overlap them: the cities that offer your course at a university you'd be happy at, and the cities that score well for budget and student life on this site. Where those overlap is your real list. Then check median rent for a studio or a room, confirm CROUS availability, and — if you can — visit. A weekend in term-time tells you in an afternoon whether a city feels like somewhere you'd want to spend the next few years.",
+      },
+    ],
+    relatedCities: ["toulouse", "montpellier", "rennes", "grenoble", "lille"],
+    tags: ["students", "university", "budget", "crous"],
+  },
+  {
+    slug: "best-coastal-cities-france-2026",
+    title: "Living by the sea: the best coastal cities in France",
+    metaTitle: "Best Coastal Cities in France (2026)",
+    metaDesc:
+      "France's three coasts compared for full-time living: Atlantic, Mediterranean and Channel, the seasonal-town trap, and what living by the sea really costs.",
+    category: "lifestyle",
+    emoji: "🌊",
+    readMinutes: 8,
+    publishedAt: "2026-05-21",
+    updatedAt: "2026-05-21",
+    intro:
+      "Living by the sea is a near-universal daydream, and France has three very different coasts to make it real. But a coast you'd love for a fortnight in July is not always a coast you'd love in February, and the gap between holiday and home is exactly where coastal moves go wrong. Here's how the three coastlines compare for a full-time life.",
+    sections: [
+      {
+        heading: "Three coasts, three different lives",
+        body: "France's coastlines are not interchangeable. The Atlantic coast is wild, green and weather-driven — big skies, real surf, mild but wet. The Mediterranean is the postcard: hot, bright, dry summers, and the highest prices and crowds in the country. The Channel coast in the north is cooler, far cheaper, and quietly underrated. Before you fix on 'a coastal city', decide which of these three climates and rhythms you actually want, because the choice shapes everything from your heating bill to your social calendar.",
+      },
+      {
+        heading: "The Atlantic: room to breathe",
+        body: "The Atlantic coast is the strongest all-rounder for living, not just holidaying. La Rochelle is the standout — a genuine year-round city, walkable, cyclable, with a real economy and not merely a seafront. Further south, the Basque coast around Bayonne and Biarritz blends ocean, mountains and a strong local identity. The honest trade-off is the weather: this is oceanic France, mild but grey and wet for chunks of the year. People who love the Atlantic accept the rain as the price of the space and the light.",
+      },
+      {
+        heading: "The Mediterranean: sun, but do the maths",
+        body: "The Med coast delivers exactly what it promises — heat, light, that particular blue — and the whole country knows it, which is the problem. Housing along the desirable stretch is among the most expensive in France, summer crowding is intense, and the climate pressures (heatwaves, water restrictions, wildfire risk) are sharpest here. It can absolutely be a wonderful place to live; just go in knowing you're paying a premium for a coast that's busiest exactly when it's hottest. Looking slightly inland often buys back a lot of value.",
+      },
+      {
+        heading: "The Channel coast: the underrated option",
+        body: "The northern coast — Normandy and the Hauts-de-France shoreline — gets unfairly overlooked. It's cooler and greyer, yes, but it's also dramatically more affordable, well connected by rail, and within easy reach of both Paris and the UK. Cities like Le Havre and Cherbourg, and the coast around Caen and Brest on the western edge, offer a real maritime life at a fraction of the southern price. If your dream is the sea rather than specifically the sun, this coast deserves a serious look.",
+      },
+      {
+        heading: "The seasonal-town trap",
+        body: "The single biggest mistake in a coastal move is choosing a resort town rather than a coastal city. Many gorgeous seaside spots are built around summer: in July they hum, and in January the restaurants are shuttered, the population collapses, and the nearest open pharmacy is a drive away. A coastal city — somewhere with a year-round economy, a hospital, schools and a population that doesn't evaporate after August — gives you the sea without the winter ghost-town. Always visit your shortlist in the off-season.",
+      },
+      {
+        heading: "What living by the sea really costs",
+        body: "Coastal living carries some specific costs worth pricing in. Sea air is hard on buildings, cars and outdoor everything — maintenance is higher. Property near the water commands a premium almost everywhere, and a true sea view commands a steep one. On exposed coasts, factor in wind, and increasingly, check coastal-erosion and flood-risk maps before you buy. None of this should kill the dream — it should just be in the spreadsheet, so the sea stays a joy rather than becoming a slow, salty surprise.",
+      },
+    ],
+    relatedCities: ["la-rochelle", "biarritz", "brest", "nice", "caen"],
+    tags: ["coastal", "sea", "atlantic", "mediterranean"],
+  },
 ];
 
 export function getEnGuide(slug: string): EnGuide | undefined {
