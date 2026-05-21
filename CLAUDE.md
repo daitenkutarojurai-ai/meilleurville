@@ -919,12 +919,13 @@ What's *not* shipped yet, in rough priority. Treat as a phased plan.
 
 **Phase 3 — secondary surfaces**
 
-- [ ] City sub-pages: `/cities/[slug]/healthcare`, `/safety`,
-      `/neighbourhoods`, `/employment`, `/air-quality`, `/noise`,
-      `/risks`, `/seasons`, `/water`, `/remote-work`, `/honest-review`,
-      `/own-vs-rent`. The FR site has 24 sub-pages per city; only 4 are
-      mirrored in EN today. Pick the next 4 by intent: healthcare, safety,
-      neighbourhoods, own-vs-rent.
+- [x] City sub-pages — 15 mirrored in EN: `climate`, `transport`, `schools`,
+      `cost-of-living`, `healthcare`, `safety`, `air-quality`, `employment`,
+      `natural-risks`, `noise`, `water`, `demographics`, `public-services`,
+      `cycling`, `own-vs-rent` (last shipped 2026-05-21). Still missing vs the
+      FR set: `neighbourhoods` (needs native-EN summaries — FR `quartiers`
+      prose is not translatable as-is), `seasons`, `remote-work`,
+      `honest-review`, `climate-2040`, `fiscalite`.
 - [ ] `/red-flags` and `/red-flags/[theme]` (EN).
 - [x] `/leaderboard` (EN). Shipped: static global ranking, 352 cities, podium + table.
 - [ ] `/vacations` (EN port of `/vacances`, ~387 pages).
