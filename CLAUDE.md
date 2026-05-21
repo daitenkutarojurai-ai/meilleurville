@@ -919,12 +919,12 @@ What's *not* shipped yet, in rough priority. Treat as a phased plan.
 
 **Phase 3 — secondary surfaces**
 
-- [x] City sub-pages — 15 mirrored in EN: `climate`, `transport`, `schools`,
+- [x] City sub-pages — 16 mirrored in EN: `climate`, `transport`, `schools`,
       `cost-of-living`, `healthcare`, `safety`, `air-quality`, `employment`,
       `natural-risks`, `noise`, `water`, `demographics`, `public-services`,
-      `cycling`, `own-vs-rent` (last shipped 2026-05-21). Still missing vs the
-      FR set: `neighbourhoods` (needs native-EN summaries — FR `quartiers`
-      prose is not translatable as-is), `seasons`, `remote-work`,
+      `cycling`, `own-vs-rent`, `remote-work` (last two shipped 2026-05-21).
+      Still missing vs the FR set: `neighbourhoods` (needs native-EN summaries
+      — FR `quartiers` prose is not translatable as-is), `seasons`,
       `honest-review`, `climate-2040`, `fiscalite`.
 - [ ] `/red-flags` and `/red-flags/[theme]` (EN).
 - [x] `/leaderboard` (EN). Shipped: static global ranking, 352 cities, podium + table.
