@@ -800,6 +800,116 @@ emoji too, so every chip group is now iconified.
 10. **R7.11 → R7.14** (UI polish layer)
 11. **R7.8** (guide rewrite — biggest scope, parallelisable)
 
+## Roadmap v8 — City Match + verticales "vraie vie" (2026-05-21)
+
+Batch issu d'une demande produit : transformer le site d'un annuaire de
+classements en un outil de décision personnel et viral. Trois chantiers,
+listés par ordre de priorité produit.
+
+### R8.1 — "City Match" : le quiz immersif (P0, gros chantier)
+
+**Concept.** Le « Tinder des villes ». Un quiz immersif où l'utilisateur
+exprime ses priorités et reçoit un **score de compatibilité ultra-personnalisé**
+par ville, avec un classement dynamique qui se recalcule à chaque réponse.
+
+Le site a déjà un `/quiz` (lifestyle matcher) et un `/quiz-compatibilite` :
+**R8.1 ne les remplace pas mécaniquement** — c'est une nouvelle expérience à
+part entière (`/city-match`) avec un design délibérément inhabituel et
+mémorable, pensé pour le **partage social**. Auditer d'abord les deux quiz
+existants : réutiliser le moteur de scoring (`lib/niche-scores.ts`,
+`lib/quiz`*) là où c'est possible, ne pas dupliquer la logique.
+
+**Axes de préférence à recueillir** (curseurs / cartes à swiper, pas un
+formulaire) : budget, météo préférée, sécurité, sport, ambiance, transport,
+famille, télétravail, nature, fiscalité, communauté tech, nightlife, coût de
+la vie, pollution. Mapper chaque axe sur un score seed existant ou un score
+propriétaire (cf. F3 roadmap v6) ; si un axe n'a pas de donnée sous-jacente
+(nightlife, communauté tech), créer le score dérivé dans `lib/` avant de
+l'exposer — **pas de score fantôme**.
+
+**Sorties.**
+- **Score de compatibilité** par ville (0–100 %) avec le détail axe par axe.
+- **Recommandations** : top 3 villes + « pourquoi » lisible, et un « match
+  surprise » (ville hors-radar à fort score).
+- **Simulations** : « et si je montais mon budget de 200 € ? » — re-rank live.
+- **Classement dynamique** : la liste se réordonne pendant que l'utilisateur
+  répond, pas seulement à la fin.
+
+**Design / viralité.**
+- Expérience plein écran, animée, qui ne ressemble à aucune autre page du
+  site. Cartes à swiper, transitions, jauge de match qui se remplit.
+- **Carte de résultat partageable** : un visuel « Je matche à 92 % avec
+  Annecy » généré côté serveur (route `opengraph-image` dédiée + bouton
+  « Partager »), pensé pour Instagram / X.
+- Permaliens de résultat (`/city-match/r/<hash>` encodant les réponses) pour
+  que le partage rouvre le même résultat.
+- Doit rester accessible sans JS dégradé (au minimum la page d'atterrissage
+  et un fallback formulaire).
+
+**Note IA.** « recommandations IA » = au départ un moteur de scoring
+déterministe côté serveur (transparent, auditable, cf. convention « no silent
+fake data »). Un vrai appel LLM pour rédiger le commentaire de match est une
+sur-couche optionnelle Phase 2, derrière une clé d'API ; ne pas en faire un
+prérequis du lancement.
+
+Fichiers probables : `app/city-match/`, `lib/city-match.ts` (scoring +
+encodage permalien), `app/city-match/opengraph-image.tsx`, entrée sitemap,
+lien depuis la navbar / homepage.
+
+### R8.2 — Questions "vraie vie" par ville (P1)
+
+Répondre frontalement aux questions que se pose vraiment quelqu'un qui
+envisage une ville. Plusieurs sont **déjà couvertes partiellement** — auditer
+avant de créer, étendre l'existant plutôt que dupliquer.
+
+| Question utilisateur | Existant | Action |
+|----------------------|----------|--------|
+| « Combien je dépense réellement à *** ? » | `/calculateur-cout-reel`, `/cout-menage` | Vérifier la couverture, mettre en avant ; pas de nouvelle page si déjà honnête |
+| « Temps moyen réel de transport » | sous-page `transports` (score) | Ajouter un chiffre concret : minutes domicile-travail moyennes, pas seulement un score |
+| « Bruit la nuit » | sous-page `noise` / score bruit | Décliner un volet **nocturne** explicite |
+| « Quartiers safe » | sous-pages `quartiers` + `safety` | Croiser les deux : marquer les quartiers par niveau de sécurité |
+| « Qualité internet » | **absent** | Nouveau score propriétaire (couverture fibre / débit) + affichage fiche ville |
+| « Mentalité locale » | **absent** | Nouveau volet éditorial « ambiance / mentalité » par ville ou archétype |
+| « Difficulté à trouver un logement » | housing partiel | Nouvel indicateur « tension locative » (délai, concurrence) dérivé de `data/housing.ts` |
+
+Pour chaque indicateur réellement nouveau : créer le `lib/*-score.ts` avec le
+bloc de convention en tête, le surfacer dans la fiche ville et `SourcesPanel`,
+respecter « 10 = bon » (cf. R7.3). Aucun chiffre inventé.
+
+### R8.3 — Verticale "S'installer" : guides pratiques + contenu éditorial (P1)
+
+Une couche d'aide opérationnelle à l'installation, plus une couche éditoriale
+qui donne vie aux villes. Auditer le contenu guides existant avant d'ajouter.
+
+**Volet pratique** — guides « comment faire », par ville ou par région :
+trouver un logement, démarches administratives, simulateur de budget
+d'installation, écoles, coworkings, jobs, santé, internet, sécurité,
+fiscalité. Plusieurs recoupent des sous-pages ou des guides existants
+(`fiscalite`, `ecoles`, `teletravail`…) : factoriser, ne pas réinventer.
+
+**Volet éditorial** — donner une voix et un visage aux villes :
+- **Interviews d'habitants** — personnages **fictifs assumés**. Chaque profil
+  doit être clairement étiqueté « portrait-type / personnage fictif » (pas de
+  fausse citation présentée comme réelle — cohérent avec « no silent fake
+  data »).
+- **Avis** — même règle : personnages fictifs explicitement étiquetés, ou
+  bien s'appuyer sur les vrais commentaires (`lib/comments-store.ts`).
+- Vidéos de quartiers, format « Une journée à… », podcasts locaux : à traiter
+  comme des emplacements de contenu (embeds) — la production média est
+  hors-scope code, prévoir les gabarits.
+- **Classement annuel** — une édition datée du leaderboard (« Palmarès 2026 »).
+- **Événements** — agenda local par ville / région.
+
+Découper en sous-tâches livrables ; ce point est volontairement large et
+sera affiné avant exécution.
+
+### R8 — Ordre d'exécution suggéré
+
+1. **R8.2** indicateurs déjà existants (mise en avant, quick wins)
+2. **R8.1** City Match (chantier phare, fort potentiel viral)
+3. **R8.2** indicateurs nouveaux (internet, mentalité, tension logement)
+4. **R8.3** verticale « S'installer » (le plus large, à découper)
+
 ## Bilingual setup (bestcitiesinfrance.com)
 
 Same repo, same build, two Vercel projects, two domains.
