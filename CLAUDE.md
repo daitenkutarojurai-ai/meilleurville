@@ -932,11 +932,10 @@ profil, espace personnel).
 
 - Auth e-mail (magic link ou mot de passe) + éventuellement OAuth Google.
   Pas de mot de passe en clair, sessions sécurisées.
-- **Décision d'infra à trancher** : le runtime est aujourd'hui statique sans
-  DB (stores JSON). Comptes + favoris + alertes exigent une persistance
-  utilisateur — proposer Supabase (Postgres managé, auth incluse) ou un
-  équivalent. À cadrer dans un mini-RFC avant code. Le schéma Prisma mort
-  dans `prisma/` peut être réveillé ou remplacé.
+- **Infra de persistance : Supabase** (décidé 2026-05-21). Le runtime est
+  aujourd'hui statique sans DB (stores JSON) ; comptes + favoris + alertes
+  passent par Supabase (Postgres managé + auth intégrée). Le schéma Prisma
+  mort dans `prisma/` est remplacé, pas réveillé.
 - **SSG préservé** : les pages publiques restent pré-rendues. La couche
   compte est client-side / API routes au-dessus, sans casser le no-JS SEO.
 - Migrer les stores existants (`lib/comments-store.ts`,
