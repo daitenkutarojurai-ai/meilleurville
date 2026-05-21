@@ -1,6 +1,6 @@
 "use client";
 import { useState, useMemo } from "react";
-import { Search, SlidersHorizontal, X } from "lucide-react";
+import { Search, SlidersHorizontal, X, ArrowUpDown, Tag, Users, Mountain, MapPin } from "lucide-react";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { CityCard } from "@/components/CityCard";
 import { Badge } from "@/components/ui/Badge";
@@ -69,6 +69,12 @@ const NICHE_OPTIONS = [
 type NicheKey = (typeof NICHE_OPTIONS)[number]["id"];
 
 const TERRAIN_OPTIONS: Terrain[] = ["mer", "montagne", "plaine", "vallee"];
+const TERRAIN_EMOJIS: Record<Terrain, string> = {
+  mer: "🌊",
+  montagne: "⛰️",
+  plaine: "🌾",
+  vallee: "🏞️",
+};
 
 // Precompute niche scores once per city — cheap, pure
 const NICHE_BY_SLUG: Record<string, ReturnType<typeof computeNicheScores>> = Object.fromEntries(
@@ -224,7 +230,9 @@ export function VillesSearch() {
           </div>
 
           <div>
-            <label className="text-xs text-[var(--text-secondary)] block mb-2">Trier par</label>
+            <label className="text-xs text-[var(--text-secondary)] flex items-center gap-1.5 mb-2">
+              <ArrowUpDown className="h-3.5 w-3.5 text-[var(--accent)]" /> Trier par
+            </label>
             <div className="flex flex-wrap gap-2">
               {SORT_OPTIONS.map((opt) => (
                 <button
@@ -245,7 +253,9 @@ export function VillesSearch() {
           </div>
 
           <div>
-            <label className="text-xs text-[var(--text-secondary)] block mb-2">Ambiance / Profil</label>
+            <label className="text-xs text-[var(--text-secondary)] flex items-center gap-1.5 mb-2">
+              <Tag className="h-3.5 w-3.5 text-[var(--accent)]" /> Ambiance / Profil
+            </label>
             <div className="flex flex-wrap gap-2">
               <button
                 onClick={() => setTag("")}
@@ -277,8 +287,8 @@ export function VillesSearch() {
           </div>
 
           <div>
-            <label className="text-xs text-[var(--text-secondary)] block mb-2">
-              Profils de vie · niche
+            <label className="text-xs text-[var(--text-secondary)] flex flex-wrap items-center gap-1.5 mb-2">
+              <Users className="h-3.5 w-3.5 text-[var(--accent)]" /> Profils de vie · niche
               {niches.size > 0 && (
                 <span className="ml-2 text-[10px] text-[var(--text-tertiary)]">
                   Score mini : <span className="font-mono-data font-bold">{nicheMin.toFixed(1)}</span>/10
@@ -320,7 +330,9 @@ export function VillesSearch() {
           </div>
 
           <div>
-            <label className="text-xs text-[var(--text-secondary)] block mb-2">Terrain</label>
+            <label className="text-xs text-[var(--text-secondary)] flex items-center gap-1.5 mb-2">
+              <Mountain className="h-3.5 w-3.5 text-[var(--accent)]" /> Terrain
+            </label>
             <div className="flex flex-wrap gap-2">
               {TERRAIN_OPTIONS.map((t) => {
                 const active = terrains.has(t);
@@ -329,12 +341,13 @@ export function VillesSearch() {
                     key={t}
                     onClick={() => toggleTerrain(t)}
                     className={cn(
-                      "rounded-xl border px-3 py-1.5 text-xs font-medium transition-colors cursor-pointer",
+                      "flex items-center gap-1.5 rounded-xl border px-3 py-1.5 text-xs font-medium transition-colors cursor-pointer",
                       active
                         ? "border-[var(--accent)] bg-[var(--accent)]/10 text-[var(--accent)]"
                         : "border-[var(--border)] text-[var(--text-secondary)] hover:border-[var(--accent)]/40"
                     )}
                   >
+                    <span aria-hidden>{TERRAIN_EMOJIS[t]}</span>
                     {TERRAIN_LABELS[t]}
                   </button>
                 );
@@ -344,7 +357,9 @@ export function VillesSearch() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
-              <label className="text-xs text-[var(--text-secondary)] block mb-2">Région</label>
+              <label className="text-xs text-[var(--text-secondary)] flex items-center gap-1.5 mb-2">
+                <MapPin className="h-3.5 w-3.5 text-[var(--accent)]" /> Région
+              </label>
               <select
                 value={region}
                 onChange={(e) => { setRegion(e.target.value); setDept(""); }}
@@ -359,7 +374,9 @@ export function VillesSearch() {
             </div>
 
             <div>
-              <label className="text-xs text-[var(--text-secondary)] block mb-2">Département</label>
+              <label className="text-xs text-[var(--text-secondary)] flex items-center gap-1.5 mb-2">
+                <MapPin className="h-3.5 w-3.5 text-[var(--accent)]" /> Département
+              </label>
               <select
                 value={dept}
                 onChange={(e) => { setDept(e.target.value); setRegion(""); }}
