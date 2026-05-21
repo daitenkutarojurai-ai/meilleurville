@@ -59,6 +59,7 @@ const SITEMAP_CHUNKS_EN = [
   "en-compare",
   "en-compare-regions",
   "en-guides",
+  "en-for-who",
 ] as const;
 
 const SITEMAP_CHUNKS = IS_EN ? SITEMAP_CHUNKS_EN : SITEMAP_CHUNKS_FR;
@@ -711,6 +712,23 @@ function enGuidesSection(): MetadataRoute.Sitemap {
   }));
 }
 
+const EN_FOR_WHO_SLUGS = [
+  "families", "young-professionals", "retirees", "freelancers", "remote-workers",
+  "students", "car-free", "premium", "women-solo", "couples", "returning-expats",
+] as const;
+
+function enForWhoSection(): MetadataRoute.Sitemap {
+  return [
+    { url: `${BASE_URL}/for-who`, lastModified: STATIC_UPDATED, changeFrequency: "monthly" as const, priority: 0.75 },
+    ...EN_FOR_WHO_SLUGS.map((slug) => ({
+      url: `${BASE_URL}/for-who/${slug}`,
+      lastModified: STATIC_UPDATED,
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    })),
+  ];
+}
+
 function quitterSection(): MetadataRoute.Sitemap {
   return QUITTER_PAIRS.map((p) => ({
     url: `${BASE_URL}/quitter/${pairToSlug(p)}`,
@@ -822,6 +840,7 @@ export default async function sitemap({ id }: { id: Promise<string> }): Promise<
     case "en-compare": return enCompareSection();
     case "en-compare-regions": return enCompareRegionsSection();
     case "en-guides": return enGuidesSection();
+    case "en-for-who": return enForWhoSection();
     default: return [];
   }
 }
