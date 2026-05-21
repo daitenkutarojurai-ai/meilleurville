@@ -61,6 +61,7 @@ const SITEMAP_CHUNKS_EN = [
   "en-guides",
   "en-for-who",
   "en-red-flags",
+  "en-vacations",
 ] as const;
 
 const SITEMAP_CHUNKS = IS_EN ? SITEMAP_CHUNKS_EN : SITEMAP_CHUNKS_FR;
@@ -755,6 +756,63 @@ function enForWhoSection(): MetadataRoute.Sitemap {
   ];
 }
 
+function enVacationsSection(): MetadataRoute.Sitemap {
+  const EN_MONTH_SLUGS = [
+    "january", "february", "march", "april", "may", "june",
+    "july", "august", "september", "october", "november", "december",
+  ];
+  const ACTIVITY_SLUGS = [
+    "plage", "montagne", "ski", "citytrip", "vignobles",
+    "surf", "thermal", "road-trip", "gastro", "famille",
+  ];
+  const PROFILE_SLUGS = ["famille", "couple", "solo", "amis", "seniors"];
+  const REGION_SLUGS = [
+    "auvergne-rhone-alpes", "bourgogne-franche-comte", "bretagne",
+    "centre-val-de-loire", "corse", "grand-est", "hauts-de-france",
+    "ile-de-france", "normandie", "nouvelle-aquitaine", "occitanie",
+    "pays-de-la-loire", "provence-alpes-cote-d-azur",
+    "la-reunion", "martinique", "guadeloupe", "guyane", "mayotte",
+  ];
+  return [
+    {
+      url: `${BASE_URL}/vacations`,
+      lastModified: STATIC_UPDATED,
+      changeFrequency: "weekly",
+      priority: 0.85,
+    },
+    ...EN_MONTH_SLUGS.map((slug) => ({
+      url: `${BASE_URL}/vacations/month/${slug}`,
+      lastModified: STATIC_UPDATED,
+      changeFrequency: "weekly" as const,
+      priority: 0.75,
+    })),
+    ...ACTIVITY_SLUGS.map((slug) => ({
+      url: `${BASE_URL}/vacations/activity/${slug}`,
+      lastModified: STATIC_UPDATED,
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    })),
+    ...PROFILE_SLUGS.map((slug) => ({
+      url: `${BASE_URL}/vacations/profile/${slug}`,
+      lastModified: STATIC_UPDATED,
+      changeFrequency: "monthly" as const,
+      priority: 0.65,
+    })),
+    ...REGION_SLUGS.map((slug) => ({
+      url: `${BASE_URL}/vacations/region/${slug}`,
+      lastModified: STATIC_UPDATED,
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    })),
+    ...CITIES_SEED.map((c) => ({
+      url: `${BASE_URL}/vacations/${c.slug}`,
+      lastModified: STATIC_UPDATED,
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
+    })),
+  ];
+}
+
 function quitterSection(): MetadataRoute.Sitemap {
   return QUITTER_PAIRS.map((p) => ({
     url: `${BASE_URL}/quitter/${pairToSlug(p)}`,
@@ -868,6 +926,7 @@ export default async function sitemap({ id }: { id: Promise<string> }): Promise<
     case "en-guides": return enGuidesSection();
     case "en-for-who": return enForWhoSection();
     case "en-red-flags": return enRedFlagsSection();
+    case "en-vacations": return enVacationsSection();
     default: return [];
   }
 }
