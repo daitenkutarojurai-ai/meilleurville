@@ -192,6 +192,7 @@ export default async function EnCityPage({ params }: Props) {
               { href: "demographics", emoji: "👥", label: "Demographics" },
               { href: "public-services", emoji: "🏛️", label: "Public services" },
               { href: "cycling", emoji: "🚲", label: "Cycling" },
+              { href: "own-vs-rent", emoji: "🏠", label: "Own vs rent" },
             ].map((s) => (
               <Link
                 key={s.href}
