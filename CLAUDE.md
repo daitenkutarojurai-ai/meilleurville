@@ -934,8 +934,11 @@ profil, espace personnel).
   Pas de mot de passe en clair, sessions sécurisées.
 - **Infra de persistance : Supabase** (décidé 2026-05-21). Le runtime est
   aujourd'hui statique sans DB (stores JSON) ; comptes + favoris + alertes
-  passent par Supabase (Postgres managé + auth intégrée). Le schéma Prisma
-  mort dans `prisma/` est remplacé, pas réveillé.
+  passent par Supabase (auth intégrée + base managée). On interagit
+  **uniquement via le client JS Supabase** (`supabase.from(...)`,
+  `supabase.auth...`) — pas de SQL brut côté applicatif, sauf le DDL initial
+  de création des tables. Le schéma Prisma mort dans `prisma/` est remplacé,
+  pas réveillé.
 - **SSG préservé** : les pages publiques restent pré-rendues. La couche
   compte est client-side / API routes au-dessus, sans casser le no-JS SEO.
 - Migrer les stores existants (`lib/comments-store.ts`,
