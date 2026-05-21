@@ -23,6 +23,7 @@ import { computeCyclingMobility } from "@/lib/cycling-mobility";
 import { computeSafetyDeep } from "@/lib/safety-deep";
 import { computeDemography } from "@/lib/demography";
 import { computePublicServices } from "@/lib/public-services";
+import { sunshineDays } from "@/lib/utils";
 
 type SeedCity = (typeof CITIES_SEED)[number];
 
@@ -560,6 +561,40 @@ function rankNuitTendue(): RedFlagRow[] {
   return rows.sort((a, b) => b.severity - a.severity).slice(0, 12);
 }
 
+// --- THEME 16 — Hiver rude ---
+// Cible : villes où l'hiver est le plus dur, sur deux dimensions cumulables —
+// le froid (température moyenne de janvier basse) et la grisaille (faible
+// ensoleillement annuel, proxy honnête du manque de lumière hivernale, terrain
+// de la déprime saisonnière). Une ville peut entrer par le froid seul (villes
+// d'altitude), par la grisaille seule (façade Nord), ou par le cumul des deux
+// — c'est ce cumul qui obtient le malus de gravité.
+function rankHiverRude(): RedFlagRow[] {
+  const rows: RedFlagRow[] = [];
+  for (const city of CITIES_SEED) {
+    const janT = city.avgTempJanuary;
+    const sun = city.sunshinedays;
+    if (janT == null || sun == null) continue;
+
+    // Froid : 5 °C de moyenne en janvier → 0, -1 °C → 10.
+    const coldFactor = normSeverity(5 - janT, 0, 6);
+    // Grisaille : 1 950 h de soleil/an → 0, 1 480 h → 10.
+    const greyFactor = normSeverity(1950 - sun, 0, 470);
+    if (coldFactor < 3.5 && greyFactor < 3.5) continue; // hiver clément
+
+    const bothHarsh = coldFactor >= 5 && greyFactor >= 5;
+    const severity = Math.min(
+      10,
+      coldFactor * 0.5 + greyFactor * 0.5 + (bothHarsh ? 1.2 : 0),
+    );
+    if (severity < 5) continue;
+
+    const days = sunshineDays(sun);
+    const reason = `${janT.toFixed(1).replace(".", ",")} °C de moyenne en janvier · ${days} jours de soleil/an${bothHarsh ? " — froid ET grisaille cumulés" : ""}`;
+    rows.push({ city, severity: Math.round(severity * 10) / 10, reason });
+  }
+  return rows.sort((a, b) => b.severity - a.severity).slice(0, 12);
+}
+
 export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-regrets-achat",
@@ -785,6 +820,21 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     methodology:
       "Severity = sous-score nocturnal + bonus combos. Pondération : biens 35 % · personnes 30 % · nuit 20 % · VFFS 15 %. Sources : SSMSI (Service statistique ministériel de la sécurité intérieure), atteintes nocturnes / rixes ; interstats.fr. Caveat : un taux élevé peut refléter à la fois une réalité plus tendue ET un meilleur signalement.",
     rank: rankNuitTendue,
+  },
+  {
+    slug: "villes-hiver-rude",
+    title: "Villes où l'hiver est le plus rude",
+    metaTitle: "Hiver rude 2026 — Villes françaises les plus dures en janvier",
+    metaDescription:
+      "Classement 2026 des villes françaises au pire hiver : janvier glacial et grisaille tenace cumulés. Températures et ensoleillement Météo-France 1991-2020.",
+    emoji: "❄️",
+    intro:
+      "L'annonce immobilière vante toujours la ville sous son meilleur jour : photos prises en mai, terrasses au soleil, jardin verdoyant. Personne ne montre le mois de janvier — la gelée qui colle au pare-brise tous les matins, le ciel bas qui ne se lève pas avant midi, et ces semaines entières où l'on ne voit pas une heure de soleil. L'hiver ne se voit pas sur une photo de printemps : il se traverse, quatre mois par an.",
+    reality:
+      "On croise deux dimensions cumulables : le froid (température moyenne de janvier, climato Météo-France 1991-2020) et la grisaille (ensoleillement annuel, proxy honnête du manque de lumière hivernale — terrain bien documenté de la déprime saisonnière). Une ville peut figurer au classement par le froid seul (villes d'altitude et plateaux), par la grisaille seule (façade Nord et Manche) ou, le pire des cas, par le cumul des deux — c'est ce cumul qui reçoit le malus de gravité. Les villes méditerranéennes et l'Outre-mer en sont, logiquement, totalement absents.",
+    methodology:
+      "Severity = 50% facteur froid (5 °C en janvier → 0, -1 °C → 10) + 50% facteur grisaille (1 950 h de soleil/an → 0, 1 480 h → 10), + 1,2 de malus quand les deux facteurs dépassent 5/10 (hiver à la fois glacial et sombre). Sources : moyennes climatiques Météo-France 1991-2020 (température de janvier, durée d'insolation annuelle).",
+    rank: rankHiverRude,
   },
 ];
 
