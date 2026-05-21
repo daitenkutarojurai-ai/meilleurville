@@ -817,10 +817,19 @@ function enVacationsSection(): MetadataRoute.Sitemap {
 }
 
 function enCalculatorsSection(): MetadataRoute.Sitemap {
+  const SALARY_SLUGS = ["1500-euros", "2000-euros", "2500-euros", "3000-euros", "4000-euros", "5000-euros"] as const;
   return [
     { url: `${BASE_URL}/calculator/real-cost`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly" as const, priority: 0.8 },
     { url: `${BASE_URL}/household-cost`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly" as const, priority: 0.75 },
     { url: `${BASE_URL}/simulator/purchase`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly" as const, priority: 0.8 },
+    { url: `${BASE_URL}/salary-equivalent`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly" as const, priority: 0.8 },
+    { url: `${BASE_URL}/living-on`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly" as const, priority: 0.75 },
+    ...SALARY_SLUGS.map((slug) => ({
+      url: `${BASE_URL}/living-on/${slug}`,
+      lastModified: CITY_DATA_UPDATED,
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    })),
     ...CITIES_SEED.map((c) => ({
       url: `${BASE_URL}/calculator/real-cost/${c.slug}`,
       lastModified: CITY_DATA_UPDATED,
