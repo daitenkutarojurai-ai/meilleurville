@@ -626,6 +626,8 @@ function enStaticSection(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/overall-ranking`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.7 },
     { url: `${BASE_URL}/glossary`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.65 },
     { url: `${BASE_URL}/site-index`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.5 },
+    { url: `${BASE_URL}/quality-of-life`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.7 },
+    { url: `${BASE_URL}/data-sources`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.55 },
   ];
 }
 
