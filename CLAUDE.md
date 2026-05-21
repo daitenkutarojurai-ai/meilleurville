@@ -934,17 +934,51 @@ profil, espace personnel).
   Pas de mot de passe en clair, sessions sécurisées.
 - **Infra de persistance : Supabase** (décidé 2026-05-21). Le runtime est
   aujourd'hui statique sans DB (stores JSON) ; comptes + favoris + alertes
-  passent par Supabase (auth intégrée + base managée). On interagit
-  **uniquement via le client JS Supabase** (`supabase.from(...)`,
-  `supabase.auth...`) — pas de SQL brut côté applicatif, sauf le DDL initial
-  de création des tables. Le schéma Prisma mort dans `prisma/` est remplacé,
-  pas réveillé.
+  passent par Supabase (Postgres managé + auth intégrée). Le schéma et le
+  SQL (DDL + RLS + triggers) sont écrits et versionnés dans le repo. Le
+  schéma Prisma mort dans `prisma/` est remplacé, pas réveillé.
 - **SSG préservé** : les pages publiques restent pré-rendues. La couche
   compte est client-side / API routes au-dessus, sans casser le no-JS SEO.
 - Migrer les stores existants (`lib/comments-store.ts`,
   `lib/contact-store.ts`) vers le nouveau backend, en rattachant les
   commentaires à un `userId` quand l'auteur est connecté (anonyme toujours
   permis).
+
+#### Supabase — best practices (à respecter dès R9.1)
+
+Le SQL est écrit par l'agent et appliqué via le MCP Supabase. Règles non
+négociables :
+
+- **Skill agent Supabase** : installer `npx skills add supabase/agent-skills`
+  avant de commencer ; elle porte les garde-fous dev + sécurité officiels.
+- **Migrations versionnées** : tout changement de schéma passe par
+  `apply_migration` (DDL nommé, horodaté), jamais d'`execute_sql` ad hoc pour
+  du DDL. Les fichiers de migration sont commités dans `supabase/migrations/`.
+  Toujours `list_tables` avant de modifier le schéma.
+- **RLS obligatoire** : `ENABLE ROW LEVEL SECURITY` sur **chaque** table, sans
+  exception. La clé `anon` est publique (exposée côté client) — sans RLS,
+  toute la base est lisible/écrivable. Policies explicites : un user ne lit
+  et n'écrit que ses propres lignes (favoris, alertes), lecture publique
+  seulement là où c'est voulu (commentaires approuvés).
+- **Clés** : `NEXT_PUBLIC_SUPABASE_URL` + clé `anon`/publishable côté client ;
+  `SUPABASE_SERVICE_ROLE_KEY` **uniquement** en API routes / server actions,
+  jamais bundlé client. La service-role bypasse RLS — usage minimal et audité.
+- **Profils** : ne pas stocker les données métier dans `auth.users`. Créer une
+  table `profiles` (pseudo, réglages) liée par FK à `auth.users(id)`,
+  peuplée par un trigger `on auth.users insert`.
+- **Index** : index explicite sur chaque clé étrangère et chaque colonne de
+  filtre fréquent (`city_slug`, `user_id`). Postgres n'indexe pas les FK seul.
+- **Types** : régénérer les types TS via `generate_typescript_types` après
+  chaque migration ; les commiter (`lib/database.types.ts`) pour garder le
+  strict TS propre.
+- **Audit post-migration** : lancer `get_advisors` (sécurité + perf) après
+  chaque changement de schéma et corriger avant de merger. `get_logs` en
+  premier réflexe de debug.
+- **Clients séparés** : un client navigateur (`@supabase/ssr`, cookies) et un
+  client serveur ; ne jamais réutiliser une instance entre requêtes.
+- **Coûts** : `get_cost` / `confirm_cost` avant toute création de projet ou
+  de branche. Une seule instance projet ; les branches Supabase pour tester
+  une migration risquée, pas en routine.
 
 ### R9.2 — Espace personnel : favoris, fil d'activité, profil (P0)
 
