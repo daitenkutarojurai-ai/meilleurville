@@ -60,6 +60,7 @@ const SITEMAP_CHUNKS_EN = [
   "en-compare-regions",
   "en-guides",
   "en-for-who",
+  "en-red-flags",
 ] as const;
 
 const SITEMAP_CHUNKS = IS_EN ? SITEMAP_CHUNKS_EN : SITEMAP_CHUNKS_FR;
@@ -717,6 +718,18 @@ const EN_FOR_WHO_SLUGS = [
   "students", "car-free", "premium", "women-solo", "couples", "returning-expats",
 ] as const;
 
+function enRedFlagsSection(): MetadataRoute.Sitemap {
+  return [
+    { url: `${BASE_URL}/red-flags`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly" as const, priority: 0.75 },
+    ...CITIES_SEED.map((c) => ({
+      url: `${BASE_URL}/red-flags/${c.slug}`,
+      lastModified: CITY_DATA_UPDATED,
+      changeFrequency: "monthly" as const,
+      priority: 0.55,
+    })),
+  ];
+}
+
 function enForWhoSection(): MetadataRoute.Sitemap {
   return [
     { url: `${BASE_URL}/for-who`, lastModified: STATIC_UPDATED, changeFrequency: "monthly" as const, priority: 0.75 },
@@ -841,6 +854,7 @@ export default async function sitemap({ id }: { id: Promise<string> }): Promise<
     case "en-compare-regions": return enCompareRegionsSection();
     case "en-guides": return enGuidesSection();
     case "en-for-who": return enForWhoSection();
+    case "en-red-flags": return enRedFlagsSection();
     default: return [];
   }
 }
