@@ -62,6 +62,7 @@ const SITEMAP_CHUNKS_EN = [
   "en-for-who",
   "en-red-flags",
   "en-vacations",
+  "en-quiz",
 ] as const;
 
 const SITEMAP_CHUNKS = IS_EN ? SITEMAP_CHUNKS_EN : SITEMAP_CHUNKS_FR;
@@ -813,6 +814,13 @@ function enVacationsSection(): MetadataRoute.Sitemap {
   ];
 }
 
+function enQuizSection(): MetadataRoute.Sitemap {
+  return [
+    { url: `${BASE_URL}/quiz`, lastModified: STATIC_UPDATED, changeFrequency: "monthly" as const, priority: 0.8 },
+    { url: `${BASE_URL}/quiz/compatibility`, lastModified: STATIC_UPDATED, changeFrequency: "monthly" as const, priority: 0.8 },
+  ];
+}
+
 function quitterSection(): MetadataRoute.Sitemap {
   return QUITTER_PAIRS.map((p) => ({
     url: `${BASE_URL}/quitter/${pairToSlug(p)}`,
@@ -927,6 +935,7 @@ export default async function sitemap({ id }: { id: Promise<string> }): Promise<
     case "en-for-who": return enForWhoSection();
     case "en-red-flags": return enRedFlagsSection();
     case "en-vacations": return enVacationsSection();
+    case "en-quiz": return enQuizSection();
     default: return [];
   }
 }

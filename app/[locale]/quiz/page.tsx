@@ -2,14 +2,15 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import { t, ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { CITIES_SEED } from "@/data/cities-seed";
 
 const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const metadata: Metadata = {
   title: "City-matching quiz · Which French city is right for you?",
   description:
-    "Answer 10 questions about budget, climate, family, work style and lifestyle priorities. We surface 5 French cities that genuinely match — no fluff, no sponsored slots.",
+    "Two ways to find your French city: a qualitative lifestyle quiz and a quantitative compatibility scorer across 10 weighted criteria.",
   alternates: { canonical: `${EN_BASE}/quiz` },
 };
 
@@ -19,34 +20,49 @@ export default function EnQuizPage() {
       <Navbar />
 
       <section className="mx-auto max-w-3xl px-4 sm:px-6 pt-24 pb-12 text-center">
-        <h1 className="text-4xl sm:text-6xl font-bold text-[var(--text-primary)] mb-4 tracking-tight leading-[1.05]">
-          {t("quiz.title", "en")}
+        <h1 className="text-4xl sm:text-5xl font-bold text-[var(--text-primary)] mb-4 tracking-tight leading-[1.1]">
+          Find your French city
         </h1>
         <p className="text-[var(--text-secondary)] text-lg max-w-2xl mx-auto">
-          {t("quiz.intro", "en")}
+          Two approaches. Same mission: a city that fits your life, not a sponsored recommendation.
         </p>
-
-        <div className="mt-10 rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-6 text-left">
-          <p className="text-sm text-[var(--text-secondary)] mb-4">
-            The interactive quiz UI is shared with the French version and is being localised.
-            Meanwhile, you can browse rankings or jump straight to a city:
-          </p>
-          <div className="flex flex-wrap gap-3">
-            <Link
-              href="/rankings"
-              className="rounded-full bg-[var(--accent)] px-5 py-2.5 text-white font-semibold shadow-sm hover:opacity-90"
-            >
-              {t("nav.rankings", "en")}
-            </Link>
-            <Link
-              href="/cities"
-              className="rounded-full border border-[var(--border)] px-5 py-2.5 font-semibold text-[var(--text-primary)] hover:bg-[var(--bg-canvas)]"
-            >
-              {t("nav.cities", "en")}
-            </Link>
-          </div>
-        </div>
       </section>
+
+      <div className="mx-auto max-w-3xl px-4 sm:px-6 pb-16 grid sm:grid-cols-2 gap-5">
+        <Link
+          href="/quiz/compatibility"
+          className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-6 hover:border-[var(--accent)]/50 hover:shadow-md transition-all group"
+        >
+          <div className="text-3xl mb-3">🎯</div>
+          <h2 className="text-lg font-bold text-[var(--text-primary)] mb-2 group-hover:text-[var(--accent)] transition-colors">
+            Compatibility quiz
+          </h2>
+          <p className="text-sm text-[var(--text-secondary)] mb-4">
+            10 questions on budget, climate, car, family, work style and priorities. Returns Top 5
+            cities with a percentage match and a breakdown by criterion.
+          </p>
+          <span className="text-xs font-semibold text-[var(--accent)]">
+            {CITIES_SEED.length} cities · quantitative →
+          </span>
+        </Link>
+
+        <Link
+          href="/for-who"
+          className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-6 hover:border-[var(--accent)]/50 hover:shadow-md transition-all group"
+        >
+          <div className="text-3xl mb-3">👤</div>
+          <h2 className="text-lg font-bold text-[var(--text-primary)] mb-2 group-hover:text-[var(--accent)] transition-colors">
+            City profiles by lifestyle
+          </h2>
+          <p className="text-sm text-[var(--text-secondary)] mb-4">
+            Pick your profile — families, retirees, remote workers, students and more. Browse
+            the top 20 cities tailored to each lifestyle, no questions required.
+          </p>
+          <span className="text-xs font-semibold text-[var(--accent)]">
+            11 profiles · instant →
+          </span>
+        </Link>
+      </div>
 
       <Footer />
     </main>
