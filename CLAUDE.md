@@ -910,6 +910,103 @@ sera affiné avant exécution.
 3. **R8.2** indicateurs nouveaux (internet, mentalité, tension logement)
 4. **R8.3** verticale « S'installer » (le plus large, à découper)
 
+## Roadmap v9 — Virage plateforme communautaire (2026-05-21)
+
+**Changement de cap stratégique.** Le site cesse d'être un annuaire de
+classements consulté une fois pour devenir une **plateforme communautaire**
+où l'utilisateur revient régulièrement : il crée un compte, suit ses villes,
+pose des questions, commente, reçoit des alertes quand les choses bougent.
+La métrique nord devient la **rétention** (utilisateurs récurrents), pas la
+seule acquisition SEO.
+
+Cette section **réoriente les roadmaps précédentes** : tout nouveau
+développement doit favoriser l'interaction et le retour. Les piliers SSG /
+SEO / « sans bullshit » restent intacts (la couche communautaire est
+additive, jamais bloquante : tout reste lisible sans compte).
+
+### R9.1 — Comptes utilisateurs + authentification (P0, socle)
+
+Aujourd'hui : commentaires et contact en fichiers JSON, **pas de notion
+d'utilisateur**. Il faut un vrai compte (modèle CertQuest : login simple,
+profil, espace personnel).
+
+- Auth e-mail (magic link ou mot de passe) + éventuellement OAuth Google.
+  Pas de mot de passe en clair, sessions sécurisées.
+- **Décision d'infra à trancher** : le runtime est aujourd'hui statique sans
+  DB (stores JSON). Comptes + favoris + alertes exigent une persistance
+  utilisateur — proposer Supabase (Postgres managé, auth incluse) ou un
+  équivalent. À cadrer dans un mini-RFC avant code. Le schéma Prisma mort
+  dans `prisma/` peut être réveillé ou remplacé.
+- **SSG préservé** : les pages publiques restent pré-rendues. La couche
+  compte est client-side / API routes au-dessus, sans casser le no-JS SEO.
+- Migrer les stores existants (`lib/comments-store.ts`,
+  `lib/contact-store.ts`) vers le nouveau backend, en rattachant les
+  commentaires à un `userId` quand l'auteur est connecté (anonyme toujours
+  permis).
+
+### R9.2 — Espace personnel : favoris, fil d'activité, profil (P0)
+
+- **Favoris persistants** : aujourd'hui en `localStorage` (cf. `FavoriteButton`).
+  Les rattacher au compte → synchronisés entre appareils. Garder le fallback
+  `localStorage` pour les visiteurs non connectés.
+- **Page « Mes villes »** : tableau de bord des villes suivies, avec leurs
+  scores et tout changement récent.
+- **Fil d'activité / notifications** : l'utilisateur voit **qui a répondu à
+  son commentaire**, les réponses sur les villes qu'il suit, les nouveautés.
+- **Profil public léger** : pseudo, villes suivies, historique de
+  contributions — pour crédibiliser les commentaires (réputation douce).
+
+### R9.3 — Alertes & monitoring de ville (P1)
+
+L'utilisateur définit des **alertes** et reçoit une notification (e-mail via
+Brevo, cf. memory ; ou notification in-app) quand quelque chose change :
+
+- **Alerte métrique** : « préviens-moi si le score sécurité / loyer / climat
+  de Rennes franchit un seuil ». Suppose un historique des scores (snapshot
+  daté à chaque build → table `score_history`).
+- **Monitoring local** : nouveaux commentaires, nouveaux red-flags, nouveaux
+  événements (cf. R8.3 agenda) dans la ville où il vit / qu'il suit.
+- Réutiliser la config Brevo existante (listes FR id 4 / EN id 5) pour les
+  e-mails transactionnels et digests.
+
+### R9.4 — Pousser l'interaction (P1)
+
+Faire de chaque page une invitation à contribuer, pas seulement à lire :
+
+- **Q&R par ville** : section « Posez votre question sur *** » au-delà du
+  simple commentaire — questions visibles, réponses de la communauté,
+  upvotes. Étend `CommentSection`.
+- CTA de contribution sur les sous-pages (cf. R7.11) reliés au compte.
+- **Gamification légère** : badges de contributeur, compteur de réponses
+  utiles — pour récompenser le retour. Rester sobre, pas de pop-up.
+- Mettre en avant les meilleures contributions sur la fiche ville.
+
+### R9.5 — "Où devrais-je vivre dans 5 ans ?" (P1)
+
+Outil de **projection prospective** : ne répond pas « où vivre maintenant »
+mais « où vivre dans 5 ans » compte tenu d'une trajectoire de vie.
+
+- **Volet achat immobilier** : croise le pouvoir d'achat futur de
+  l'utilisateur avec les prix `data/housing.ts` et la dynamique de marché ;
+  s'appuie sur l'existant `/simulateur-achat` et `/louer-ou-acheter`.
+- **Volet style de vie** : projette le profil (famille qui s'agrandit,
+  passage au télétravail, retraite qui approche) sur les axes scores.
+- **Volet climat** : réutilise la série « Climat 2040 » (`data/guides.ts`) —
+  les villes encore agréables en 2031 ne sont pas celles d'aujourd'hui.
+- Sortie : 3 villes-cibles + trajectoire (« d'ici 5 ans, voici pourquoi »).
+  Si l'utilisateur est connecté, sauvegarde le résultat dans son espace et
+  peut activer une alerte de suivi (lien R9.3).
+- Complémentaire de R8.1 « City Match » (présent vs. futur) — partager le
+  moteur de scoring, pas le dupliquer.
+
+### R9 — Ordre d'exécution suggéré
+
+1. **R9.1** (comptes + infra — socle bloquant de tout le reste ; RFC d'abord)
+2. **R9.2** (espace personnel — donne une raison de créer un compte)
+3. **R9.4** (interaction — fait vivre la communauté)
+4. **R9.3** (alertes — moteur de rétention, suppose l'historique de scores)
+5. **R9.5** (projection 5 ans — feature produit au-dessus du socle)
+
 ## Bilingual setup (bestcitiesinfrance.com)
 
 Same repo, same build, two Vercel projects, two domains.
