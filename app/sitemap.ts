@@ -610,6 +610,18 @@ function enStaticSection(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/methodology`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.55 },
     { url: `${BASE_URL}/legal-notice`, lastModified: LEGAL_UPDATED, changeFrequency: "yearly", priority: 0.3 },
     { url: `${BASE_URL}/privacy-policy`, lastModified: LEGAL_UPDATED, changeFrequency: "yearly", priority: 0.3 },
+    { url: `${BASE_URL}/from-paris`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.7 },
+    { url: `${BASE_URL}/gentrification`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.65 },
+    { url: `${BASE_URL}/environment`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.7 },
+    { url: `${BASE_URL}/cycling`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.7 },
+    { url: `${BASE_URL}/own-vs-rent`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.7 },
+    { url: `${BASE_URL}/healthcare`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.7 },
+    { url: `${BASE_URL}/safety`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.7 },
+    { url: `${BASE_URL}/employment`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.65 },
+    { url: `${BASE_URL}/demographics`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.65 },
+    { url: `${BASE_URL}/public-services`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.65 },
+    { url: `${BASE_URL}/expat-return`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.6 },
+    { url: `${BASE_URL}/tools`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.65 },
   ];
 }
 
