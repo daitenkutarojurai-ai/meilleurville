@@ -718,6 +718,13 @@ const EN_FOR_WHO_SLUGS = [
   "students", "car-free", "premium", "women-solo", "couples", "returning-expats",
 ] as const;
 
+const EN_RED_FLAG_THEME_SLUGS = [
+  "buyers-remorse", "car-dependent", "beautiful-brutal-summers", "chronic-air-pollution",
+  "natural-hazards", "noise-nightmare", "water-stress", "medical-desert",
+  "chronic-unemployment", "quality-of-life-stretched", "cost-explosion",
+  "public-services-desert", "anti-cycling", "critical-ageing", "tense-nights", "harsh-winters",
+] as const;
+
 function enRedFlagsSection(): MetadataRoute.Sitemap {
   return [
     { url: `${BASE_URL}/red-flags`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly" as const, priority: 0.75 },
@@ -726,6 +733,12 @@ function enRedFlagsSection(): MetadataRoute.Sitemap {
       lastModified: CITY_DATA_UPDATED,
       changeFrequency: "monthly" as const,
       priority: 0.55,
+    })),
+    ...EN_RED_FLAG_THEME_SLUGS.map((slug) => ({
+      url: `${BASE_URL}/red-flags/themes/${slug}`,
+      lastModified: CITY_DATA_UPDATED,
+      changeFrequency: "monthly" as const,
+      priority: 0.65,
     })),
   ];
 }
