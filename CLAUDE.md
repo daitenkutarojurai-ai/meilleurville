@@ -1043,6 +1043,77 @@ mais « où vivre dans 5 ans » compte tenu d'une trajectoire de vie.
 4. **R9.3** (alertes — moteur de rétention, suppose l'historique de scores)
 5. **R9.5** (projection 5 ans — feature produit au-dessus du socle)
 
+## Roadmap v10 — Features "wow" / data-visualisation (2026-05-21)
+
+Trois chantiers de visualisation spectaculaire, choisis pour être **à la fois
+impressionnants et utiles à la décision** (le survol 3D photoréaliste a été
+écarté : effet vitrine sans valeur de décision, et trop lourd pour le modèle
+SSG/SEO).
+
+**Garde-fou commun.** Le site est SSG / sans-JS pour le SEO (règle dure). Ces
+trois features sont des **couches interactives opt-in**, jamais des pages de
+contenu indexées :
+- chargées en `dynamic import` / `next/dynamic` avec `ssr: false` ;
+- la page hôte garde un fallback statique (carte SVG existante, image) qui
+  rend sans JS et porte le contenu SEO ;
+- aucune donnée inventée — tout dérive des scores seed existants.
+
+### R10.1 — Carte 3D de France "data sculpture" (P1)
+
+Chaque ville devient une **colonne 3D** posée sur la carte de France : hauteur
+proportionnelle au score global, couleur = les 6 tiers (`lib/utils.ts`
+`SCORE_TIERS`). On incline, on tourne, on zoome ; le clic ouvre la fiche ville.
+La France entière se lit comme une sculpture de données.
+
+- **Techno** : `deck.gl` (`ColumnLayer` ou `HexagonLayer`) au-dessus de
+  MapLibre, ou `react-three-fiber` si on veut un rendu plus stylisé. Pas de
+  nouvelle source de données — `CITIES_SEED` (lat/lng + score) suffit.
+- Réutiliser la bounding-box métropolitaine existante (`lng ∈ [-6, 10]`,
+  `lat ∈ [40, 52]`) ; DROM en strip séparé comme `FranceHeatmap`.
+- Filtres : par axe de score (afficher la hauteur = sécurité, = climat…),
+  par région. Le relief change → on voit où se concentre la qualité de vie.
+- Route : nouveau mode sur `/carte` (toggle 2D/3D) ou `/carte-3d` dédié.
+  Fallback : la `CarteClient` 2D actuelle reste le rendu par défaut.
+
+### R10.2 — Empreinte générative par ville (P1, fort potentiel viral)
+
+Un **visuel d'art génératif unique par ville**, calculé déterministe depuis
+ses 8 axes de score : une « signature » visuelle (polygone radar stylisé,
+forme organique, ou motif paramétrique). Type Spotify Wrapped pour une ville.
+
+- **Déterministe** : même ville → même empreinte (seed = slug + scores). Pas
+  d'aléatoire non reproductible.
+- **Techno** : SVG généré côté serveur (idéal — rend sans JS, léger, parfait
+  pour OG image) ou `canvas`. Privilégier le SVG.
+- **Partage** : bouton « Mon empreinte de *** » → export PNG + carte OG
+  dédiée (`opengraph-image.tsx`). C'est le levier viral.
+- Intégration : sur la fiche ville (`CityProfile`), dans les résultats de
+  City Match (R8.1), et comme visuel des cartes de classement.
+- Aucune API externe, aucun coût. Le candidat le plus rentable des trois.
+
+### R10.3 — Carte time-lapse "Climat 2040" (P2)
+
+Carte animée avec **slider temporel 2026 → 2040** : on fait glisser le temps
+et la France se réchauffe — le Sud vire au rouge, le trait de côte recule,
+les risques (canicule, sécheresse, feu) s'intensifient par macro-région.
+
+- **Source** : la série « Climat 2040 » déjà écrite (15 macro-régions dans
+  `data/guides.ts`) + les scores climat seed. Modéliser une trajectoire par
+  macro-région (interpolation 2026→2040), pas de fausse précision ville par
+  ville — afficher des bandes régionales.
+- **Techno** : la même carte que R10.1/`FranceHeatmap` avec une dimension
+  temps ; transition de couleur interpolée au déplacement du slider.
+- Honnêteté : libellé clair « projection ARPEGE / GIEC, pas une prévision »,
+  cohérent avec le ton des guides Climat 2040.
+- Intégration : sur `/cadre-de-vie` ou un hub `/climat-2040`, et chaque guide
+  Climat 2040 affiche la carte centrée sur sa macro-région.
+
+### R10 — Ordre d'exécution suggéré
+
+1. **R10.2** (empreinte générative — le plus léger, le plus viral, zéro coût)
+2. **R10.1** (carte 3D — gros effet, données déjà là)
+3. **R10.3** (time-lapse climat — dépend du moteur carte de R10.1)
+
 ## Bilingual setup (bestcitiesinfrance.com)
 
 Same repo, same build, two Vercel projects, two domains.
