@@ -1114,6 +1114,194 @@ les risques (canicule, sécheresse, feu) s'intensifient par macro-région.
 2. **R10.1** (carte 3D — gros effet, données déjà là)
 3. **R10.3** (time-lapse climat — dépend du moteur carte de R10.1)
 
+## Roadmap v11 — Features IA + data haute densité (2026-05-21)
+
+Audit de faisabilité et specs de 7 features ambitieuses. Chacune est
+étiquetée **[LIVRABLE]**, **[LIVRABLE avec caveats]** ou **[BLOQUÉ ext.]**
+selon la disponibilité réelle des données / APIs.
+
+### R11.1 — "Future You Simulator" [LIVRABLE] (P1)
+
+**Concept.** L'utilisateur renseigne son profil (salaire, remote, lifestyle,
+famille, sport, budget, météo idéale) et reçoit une simulation concrète de
+sa vie dans 2 ou 3 villes : temps libre estimé, stress, budget restant, trajet
+moyen, météo annuelle, coût immobilier.
+
+**Rapport aux roadmaps existantes.** Ce chantier recoupe R8.1 (City Match) et
+R9.5 (projection 5 ans) — **ne pas dupliquer le moteur de scoring**. Différence
+de positionnement : City Match = « quelle ville me correspond ? » (affinités),
+Future You = « à quoi ressemble ma vie concrètement dans cette ville ? »
+(simulation de budget et de temps). Les deux se complètent.
+
+**Mise en œuvre.**
+- Moteur déterministe dans `lib/future-you.ts` : pour chaque ville, calculer
+  `budget_restant = salaire − loyer_estimé(data/housing.ts) − transport −
+  imposition_approx(lib/fiscalite.ts)`, `temps_libre = 168h − travail −
+  trajet(lib/transport-score.ts) − tâches ménagères_proxy`, stress_proxy
+  depuis score sécurité + densité + score transport.
+- Inclure des villes étrangères (Lisbonne, Berlin…) : créer un dataset minimal
+  `data/cities-abroad.ts` (5–10 villes, coût de vie + loyer moyen + météo).
+  Clairement étiqueté « estimation » — on n'a pas la précision française.
+- UI : 3 colonnes côte à côte, chiffres animés, pas de jargon. Sauvegardable
+  dans l'espace personnel si connecté (R9.2).
+
+### R11.2 — Real-time "Vibe Map" [LIVRABLE avec caveats] (P2)
+
+**Concept.** Afficher l'humeur d'une ville « en ce moment » (Paris : stress
+élevé aujourd'hui / Bordeaux : ambiance festive ce soir).
+
+**Audit des sources :**
+
+| Source | Statut | Note |
+|--------|--------|------|
+| Météo Open-Meteo | ✅ live gratuit | Déjà intégré |
+| Pollution OpenAQ | ✅ live gratuit | API JSON, pas de clé |
+| Événements locaux | ⚠️ best-effort | Scrape hebdo `sortir.valdoise.fr` etc. (cf. TODO existant) |
+| Trafic | ⚠️ TomTom/HERE | Tier gratuit limité — faisable pour les grandes villes |
+| Reddit `r/france` | ⚠️ possible | API Reddit accessible, sentiment extractable, volume faible |
+| Twitter/X | ❌ bloqué | API Basic = 100 $/mois. Trop cher. **Écarté.** |
+
+**Version honnête livrée** : vibe calculé depuis météo actuelle + pollution +
+événements programmés du jour + indicateur de trafic (TomTom tier free). Score
+composite 1-5 + label (calme / animé / festif / chargé / stressé). Badge
+`ESTIMÉ` sur le composant. Les composantes en temps réel (météo, pollution)
+sont rafraîchies côté serveur toutes les heures via `revalidate`. Pas de
+sentiment social en temps réel sans clé payante — le dire clairement.
+
+Route : widget sur les fiches ville + carte globale `/vibe`.
+
+### R11.3 — "Where people like YOU moved" [LIVRABLE avec caveats] (P1)
+
+**Concept.** « Les développeurs 25-35 ans quittant Paris vont majoritairement
+vers… » — effet de social proof basé sur des profils similaires.
+
+**Réalité des données.** Nous n'avons **pas** de données de migration réelles
+(le site n'a pas encore de comptes R9.1). Deux phases :
+- **Phase A (livrable maintenant)** : personas synthétiques étiquetés. Pour
+  chaque profil-type (dev senior, famille, retraité, étudiant…) + ville de
+  départ + tranche de revenus, calculer un classement de destination avec
+  `lib/niche-scores.ts`. Présenter comme « les profils similaires au tien
+  privilégient ces villes » — fondé sur les scores, pas sur de la migration
+  réelle. Le labeler honnêtement : « selon le profil, pas un suivi GPS ».
+- **Phase B (post-R9.1)** : quand les comptes existent, laisser les utilisateurs
+  renseigner leur ville de départ et destination. Agréger en anonymisé.
+  Remplacer progressivement les personas synthétiques par des données réelles.
+
+Route : section sur City Match (R8.1) et sur les fiches ville.
+
+### R11.4 — City Timeline Simulation [LIVRABLE avec caveats] (P2)
+
+**Concept.** Time machine : voir l'évolution d'une ville sur 10-20 ans
+(prix immobilier, population, criminalité, météo, transports).
+
+**Données disponibles (France open data) :**
+
+| Métrique | Source | Disponibilité |
+|----------|--------|---------------|
+| Prix immobilier | DVF (Demandes de Valeurs Foncières) `data.gouv.fr` | ✅ annuel 2014-2024 |
+| Population | INSEE recensements | ✅ disponible par commune |
+| Criminalité | SSMSI `data.gouv.fr` | ✅ annuel 2016-2024 |
+| Météo historique | Open-Meteo historical | ✅ gratuit, ERA5 1940→ |
+| Transports | GTFS IDFM + SNCF open | ⚠️ Île-de-France OK, province partiel |
+
+Toutes ces sources sont libres et téléchargeables. **C'est un chantier de
+data engineering** (télécharger, normaliser, commiter dans `data/`) autant
+que de code. La visualisation (graphe timeline animé + slider) est directe
+une fois la donnée propre.
+
+Plan : `data/city-timelines/` avec des JSONs par ville, générés par un script
+d'import one-shot depuis DVF + INSEE + SSMSI. Affichage sur la fiche ville,
+onglet « Histoire & évolution ».
+
+### R11.5 — Street Reality Score [LIVRABLE] (P1)
+
+**Concept.** Analyser visuellement les rues d'une ville pour extraire
+walkability, verdure, propreté, stress visuel, sécurité ressentie.
+
+**La bonne nouvelle** : Claude a une API vision multimodale. On peut envoyer
+des images Street View et demander à Claude d'en extraire des scores. Le
+travail se fait **en build-time, une seule fois** (pas en temps réel), et les
+résultats sont stockés en JSON.
+
+**Pipeline :**
+1. Google Street View Static API : ~5 images par ville (centre + quartier
+   résidentiel + artère principale + gare + parc si disponible). Coût :
+   ~$7 / 1000 appels → 352 villes × 5 = 1 760 appels → ~12 $. Acceptable.
+2. Claude Vision (`claude-opus-4-7` ou `haiku` pour le coût) analyse chaque
+   image sur 5 axes : végétation, propreté, densité piétonne estimée,
+   luminosité/ombrage, état des bâtiments. Score 1-10 par axe.
+3. Agréger par ville → `data/street-scores.json`. Régénérer trimestriellement.
+4. Afficher sur les fiches ville : nouvelles barres de score, sourcées
+   `SourceStatus: "computed-vision"` avec badge explicite.
+5. **Transparence** : expliquer la méthode (n images, axes analysés) — pas de
+   score opaque sans provenance. Cohérent avec « no silent fake data ».
+
+**Env vars nécessaires** : `GOOGLE_STREETVIEW_KEY`, `ANTHROPIC_API_KEY`
+(déjà présente si on utilise Claude API côté build).
+
+### R11.6 — Comparaison VS : animations style versus game [LIVRABLE] (P1)
+
+**Concept.** Sur `/comparer/[pair]`, remplacer la mise en page statique par
+une expérience « battle » : les deux villes s'affrontent, les stats s'animent,
+les scores se remplissent, la ville gagnante sur chaque axe est mise en
+évidence avec une animation.
+
+**Faisabilité** : 100% front, zéro nouvelle donnée. CSS animations + Framer
+Motion (ou `@keyframes` vanilla si on évite les dépendances). L'existant
+`TripletView.tsx` et les pages comparer ont déjà la structure — c'est un
+redesign d'affichage.
+
+**Éléments UX :**
+- Entrée des deux villes avec un « VS » central animé (flash, tremblement).
+- Barres de scores qui se remplissent en séquence, axe par axe.
+- Axe « gagnant » : couleur + icône victoire, axe perdant : grisé.
+- Verdict final animé (« Annecy l'emporte sur 5/8 axes »).
+- Compatible mobile (les colonnes se stackent, l'animation reste lisible).
+- Version triplet (3 villes) adaptée à `TripletView.tsx`.
+
+Fichiers : `app/comparer/[pair]/page.tsx`, `TripletView.tsx`, nouveau
+`components/VsAnimations.tsx`.
+
+### R11.7 — AI Relocation Copilot [LIVRABLE] (P2, dépend R9.1)
+
+**Concept.** Pas un chatbot basique — un vrai agent de déménagement qui
+construit un plan personnalisé : trouver des quartiers, estimer le budget,
+comparer les écoles, optimiser les trajets, suggérer des appartements,
+calculer les taxes, produire un checklist de démarches.
+
+**Architecture.** Agent Claude (via Claude API avec tool use) + données du
+site comme outils :
+- `search_cities(criteria)` — requête sur `CITIES_SEED` filtré
+- `get_city_profile(slug)` — fiche complète (scores, housing, fiscalité)
+- `estimate_budget(salary, city, family_size)` — `lib/future-you.ts` (R11.1)
+- `compare_schools(city)` — données `app/villes/[slug]/ecoles`
+- `find_neighborhoods(city)` — `data/neighborhoods.ts`
+- `get_transit(city, work_address)` — proxy commute estimate
+
+Le copilote tient un contexte de session (profil utilisateur + critères) et
+produit un **plan de déménagement structuré** exportable (PDF ou markdown).
+Si connecté (R9.1), le plan est sauvegardé dans l'espace personnel.
+
+**Lisbonne / villes étrangères** : se branche sur le dataset `data/cities-abroad.ts`
+de R11.1 pour les comparaisons France-étranger.
+
+**Coût** : appel Claude API par session — facturer un nombre limité de
+questions gratuites, puis compte (R9.1) pour continuer. Modèle économique
+naturel pour l'inscription.
+
+**Env var** : `ANTHROPIC_API_KEY`.
+
+### R11 — Ordre d'exécution suggéré
+
+1. **R11.6** (VS animations — front only, gros effet visible, rapide)
+2. **R11.5** (Street Reality Score — build-time, données réelles, feature
+   unique en France)
+3. **R11.1** (Future You Simulator — moteur déterministe, pas d'API externe)
+4. **R11.3** (People like you — Phase A persona, puis Phase B post-comptes)
+5. **R11.2** (Vibe Map — limiter aux sources gratuites disponibles)
+6. **R11.4** (City Timeline — data engineering lourd, séquencer après)
+7. **R11.7** (AI Copilot — dépend de R9.1 comptes + R11.1 moteur budget)
+
 ## Bilingual setup (bestcitiesinfrance.com)
 
 Same repo, same build, two Vercel projects, two domains.
