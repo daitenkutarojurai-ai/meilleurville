@@ -775,13 +775,13 @@ the "Aller plus loin" block of `/cout-menage/[ville]` (replaced the flat
 "Fiche ville" tile; remaining grid trimmed to 3 cards). `/quiz-compatibilite`
 and `/simulateur-achat` are not per-city, so nothing to do there.
 
-### R7.14 — /villes filters: visual lift (P2)
-Add icons to the filter chips on `/villes` (region picker, score sort,
-character-tag chips), matching the visual style of `/classements`. Lucide
-icons for filter types, emoji for character tags where they exist in the
-ranking pages.
-
-Files: `app/villes/page.tsx`, `components/CitiesFilter.tsx` (or similar).
+### R7.14 — /villes filters: visual lift (P2) ✅
+**Shipped 2026-05-21.** `VillesSearch` filter panel: the 5 section labels
+(Trier par / Ambiance / Profils de vie / Terrain / Région / Département)
+gained lucide icons (`ArrowUpDown`, `Tag`, `Users`, `Mountain`, `MapPin`)
+matching the `/classements` visual style. The sort / ambiance / niche chips
+already carried emoji; the terrain chips (mer/montagne/plaine/vallée) gained
+emoji too, so every chip group is now iconified.
 
 ### R7.15 — Red Flags Thématiques: strip Fxx refs (P0, 5-min) ✅
 **Shipped.** Codes Fxx retirés des surfaces user-facing : badge `tag` supprimé du rendu synthèse, FAQ JSON-LD comparer/synthèse réécrite sans F44/F47/F50/F52/F57/F58/F59/F60/F61, champ `tag` retiré de `SynthesisAxis` (source unique du leak).
