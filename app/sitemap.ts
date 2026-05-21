@@ -664,12 +664,20 @@ function enCitySubSection(): MetadataRoute.Sitemap {
 }
 
 function enCompareSection(): MetadataRoute.Sitemap {
-  return SEO_PAIRS.map(([a, b]) => ({
-    url: `${BASE_URL}/compare/${a}-vs-${b}`,
-    lastModified: CITY_DATA_UPDATED,
-    changeFrequency: "monthly" as const,
-    priority: 0.6,
-  }));
+  return [
+    ...SEO_PAIRS.map(([a, b]) => ({
+      url: `${BASE_URL}/compare/${a}-vs-${b}`,
+      lastModified: CITY_DATA_UPDATED,
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
+    })),
+    ...SEO_TRIPLETS.map(([a, b, c]) => ({
+      url: `${BASE_URL}/compare/${a}-vs-${b}-vs-${c}`,
+      lastModified: CITY_DATA_UPDATED,
+      changeFrequency: "monthly" as const,
+      priority: 0.55,
+    })),
+  ];
 }
 
 function enCompareRegionsSection(): MetadataRoute.Sitemap {
