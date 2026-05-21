@@ -17512,6 +17512,53 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["nucléaire", "CNPE", "EDF", "ASN", "IRSN", "PPI", "IFER", "Cattenom", "Bugey", "Tricastin", "Gravelines", "Chinon", "Fessenheim", "EPR2", "Penly", "industrie", "2026"],
   },
+  {
+    slug: "tester-une-ville-avant-de-demenager-week-end-reperage-2026",
+    title: "Tester une ville avant de déménager : le week-end de repérage qui évite les regrets",
+    metaTitle: "Tester une ville avant de déménager : guide 2026",
+    metaDesc:
+      "Comment organiser un week-end de repérage pour tester une ville avant de s'y installer : quartiers, transports, ambiance et les signaux à ne pas rater.",
+    category: "lifestyle",
+    emoji: "🧭",
+    readMinutes: 8,
+    publishedAt: "2026-05-21",
+    updatedAt: "2026-05-21",
+    intro:
+      "On choisit une ville comme on tombe amoureux : sur une impression, un samedi ensoleillé, une terrasse au bon moment. Six mois plus tard, on découvre le bruit de la rocade, le désert du dimanche soir et les quarante minutes de bouchons pour déposer les enfants. Le week-end de repérage existe précisément pour transformer cette intuition en décision lucide. Encore faut-il le mener correctement. Voici comment faire en sorte qu'il serve vraiment à quelque chose, et pas juste à se rassurer.",
+    sections: [
+      {
+        heading: "Le piège du coup de cœur : pourquoi une visite ne suffit pas",
+        body: "Une visite spontanée se déroule presque toujours dans les pires conditions pour décider : on arrive un samedi, par beau temps, on flâne dans le centre historique, on s'assoit en terrasse. On ne voit jamais le trajet domicile-travail un mardi à 8h, le dimanche soir quand tout est fermé, ou la rue résidentielle à 23h. Le cerveau fait le reste : il cherche ce qui confirme l'envie déjà installée. C'est le biais de confirmation, et il est redoutable quand l'enjeu est de signer un bail ou un compromis. Le bon réflexe est d'inverser l'ordre des choses. Faites vos devoirs avant de monter dans la voiture : consultez la fiche de la ville sur MeilleurVille, regardez les scores par axe (sécurité, transport, climat, coût), lisez la page red-flags si elle existe, comparez deux ou trois candidates côte à côte. Le week-end de repérage ne sert pas à former une première impression. Il sert à vérifier des hypothèses précises sur le terrain."
+      },
+      {
+        heading: "Choisir le bon week-end : la saison et le jour comptent",
+        body: "Une ville n'a pas le même visage selon le moment où on la teste. Visiter Montpellier ou Nîmes un week-end de mai ne dit rien de la fournaise d'août, ni du nombre de nuits où dormir devient difficile. Tester une ville de montagne en plein été masque l'hiver, les routes verglacées et la nuit qui tombe à 17h. À l'inverse, une station balnéaire comme La Rochelle visitée hors saison montre la vraie vie locale, sans le décor touristique de juillet. La page climat de chaque fiche ville donne ce contexte saisonnier : utilisez-la pour savoir ce que votre week-end ne vous montrera pas. Le jour compte tout autant. Le samedi révèle le marché et l'animation, mais c'est un jour trompeur. Le vendredi en fin d'après-midi montre la circulation aux heures de pointe. Le dimanche soir est le test le plus cruel et le plus utile : une ville morte le dimanche soir le restera tous les dimanches soirs de votre vie. L'idéal : arriver le vendredi vers 17h et repartir le dimanche après le dîner."
+      },
+      {
+        heading: "Le samedi de repérage, heure par heure",
+        body: "Un repérage efficace se vit comme un habitant, pas comme un visiteur. Vendredi 17h : arrivez en voiture aux heures de pointe et garez-vous là où vous habiteriez réellement, pas sur le parking du centre. Notez le temps de trajet et la facilité de stationnement. Samedi 8h30 : marchez, à pied, dans le quartier que vous pourriez vous offrir, et chronométrez la distance jusqu'à la boulangerie, l'arrêt de transport, une école. C'est ce trajet-là, répété mille fois, qui fera votre quotidien. Samedi midi : déjeunez dans un café de quartier ordinaire, pas dans l'adresse touristique. Samedi après-midi : faites une vraie course de résident, pharmacie, supermarché, médiathèque, pour sentir l'offre de proximité. Dimanche matin : observez si les gens sortent, si les commerces ouvrent, si la ville respire ou se vide. La sous-page transports d'une fiche ville chiffre la mobilité ; votre week-end, lui, vérifie si ce chiffre se traduit en confort réel."
+      },
+      {
+        heading: "Lire un quartier au-delà de la carte postale",
+        body: "Presque tous les centres-villes français sont jolis. La question n'est jamais « cette ville est-elle agréable » mais « le quartier que je peux réellement m'offrir est-il vivable ». Une ville bien notée globalement peut abriter des quartiers très inégaux : croisez toujours le score de sécurité et la sous-page quartiers avant de cibler une rue. Sur place, ne jugez pas une zone sur sa rue commerçante mais sur ses rues secondaires. Marchez-y deux fois, le matin vers 8h et le soir vers 19h, pour voir qui l'habite : familles, étudiants, personnes âgées, et à quel rythme. Un signal qui ne trompe pas : le taux de vitrines vides. Une rue avec trois ou quatre commerces fermés et des affiches « à louer » jaunies raconte un centre qui se dévitalise, quel que soit le discours de l'agent immobilier. À l'inverse, des commerces de bouche indépendants qui tournent, une école qui déborde aux heures de sortie et des espaces publics entretenus sont des marqueurs solides de quartier vivant."
+      },
+      {
+        heading: "Les signaux faibles qui ne mentent pas",
+        body: "Au-delà des grands critères, une poignée de détails en disent long. Le bruit nocturne : passez dix minutes debout devant l'adresse visée vers 23h, ou demandez à dormir une nuit fenêtre entrouverte. La rocade, une ligne de bus, une rue de sortie de boîte ne se voient pas sur une annonce. La propreté et son entretien : un peu de saleté est normal, mais des graffitis jamais nettoyés et des déchets installés signalent une collectivité qui a lâché prise. La couverture mobile et internet : vérifiez l'adresse précise sur les cartes ARCEP, car la fibre s'arrête parfois au coin de la rue. Et surtout, parlez à deux ou trois habitants installés depuis plus de cinq ans, jamais à l'agent immobilier. Posez-leur une seule question utile : « qu'est-ce qui vous a surpris en mauvais après votre arrivée ? » Leur réponse vaut tous les classements. Une ville a toujours un défaut. Le but du repérage n'est pas de ne pas en trouver, c'est de le trouver avant de signer et de décider s'il est acceptable."
+      },
+      {
+        heading: "La check-list à remplir avant de rentrer",
+        body: "Avant de reprendre la route, ne vous fiez pas à votre mémoire : remplissez une fiche, à froid. Notez le temps de trajet domicile-travail réellement mesuré, pas estimé. Estimez vos charges fixes mensuelles sur place : loyer ou mensualité, transport, stationnement, énergie. Écrivez noir sur blanc le défaut rédhibitoire que vous avez repéré, et tranchez : acceptable ou non. Attribuez une note au quartier précis que vous visez, pas à la ville en général. Si vous hésitez entre plusieurs villes, faites passer à chacune exactement la même grille et utilisez le comparateur de MeilleurVille pour aligner les scores objectifs en face de vos impressions de terrain. Dernier conseil, le plus important : ne décidez jamais dans la voiture du retour, porté par l'euphorie du week-end. Laissez passer une semaine. Si l'envie tient encore une fois la fatigue du trajet oubliée et les chiffres relus, alors c'est probablement la bonne ville. Sinon, vous venez d'économiser des années de regret pour le prix de deux nuits d'hôtel."
+      }
+    ],
+    relatedCities: ["rennes", "nantes", "angers", "tours", "la-rochelle"],
+    relatedGuides: [
+      "demenager-sintegrer-province-sans-reseau-2026",
+      "securite-ressentie-vs-reelle-ville-france-2026",
+      "petites-villes-50000-habitants-tout-france-2026",
+    ],
+    tags: ["déménagement", "repérage", "visiter une ville", "qualité de vie", "checklist", "2026"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
