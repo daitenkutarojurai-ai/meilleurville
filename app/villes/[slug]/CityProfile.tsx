@@ -383,7 +383,7 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
               {/* F3 — Profils propriétaires (10 scores avec source) */}
               <OwnerScoresCard city={city} />
 
-              {/* Vue selon profil de vie (ex Life Stage Lens) */}
+              {/* Vue selon profil de vie */}
               <Card>
                 <h2 className="text-base font-semibold text-[var(--text-primary)] mb-1">
                   Cette ville selon votre profil

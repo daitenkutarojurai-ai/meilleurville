@@ -69,6 +69,12 @@ export default function EnRegionsHub() {
         <p className="text-[var(--text-secondary)] text-lg max-w-2xl mx-auto">
           The 18 French regions, sorted by average quality-of-life score. Click a region to see all its cities.
         </p>
+        <Link
+          href="/compare-regions"
+          className="mt-5 inline-flex items-center gap-2 rounded-full border border-[var(--accent)]/30 bg-[var(--accent)]/5 px-5 py-2.5 text-sm font-semibold text-[var(--accent)] transition-colors hover:border-[var(--accent)] hover:bg-[var(--accent)]/10"
+        >
+          🗺️ Compare two regions side by side
+        </Link>
       </section>
       <section className="mx-auto max-w-6xl px-4 sm:px-6 py-6">
         <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">

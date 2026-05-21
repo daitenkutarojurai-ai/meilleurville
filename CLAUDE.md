@@ -910,7 +910,11 @@ What's *not* shipped yet, in rough priority. Treat as a phased plan.
 - [x] `/map` (EN equivalent of `/carte`). Shipped 2026-05-20 as a
       server-rendered SVG dot-map (no client JS — the FR `CarteClient` has
       hardcoded FR strings and wasn't reused). DROM cities listed separately.
-- [ ] `/compare-regions` (EN equivalent of `/comparer-regions`).
+- [x] `/compare-regions` + `/compare-regions/[pair]` (EN). Shipped 2026-05-21 —
+      78 region pairs (C(13,2)) in SSG, mirrors `/comparer-regions`. Score
+      bars + climate + housing tables + top-5 per region + BreadcrumbList /
+      FAQPage JSON-LD. Sitemap chunk `en-compare-regions`. Cross-linked from
+      the EN regions hub and EN compare index.
 - [ ] Triplet comparisons (`/compare/[a]-vs-[b]-vs-[c]`).
 
 **Phase 3 — secondary surfaces**

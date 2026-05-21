@@ -38,6 +38,12 @@ export default function EnCompareIndex() {
         <p className="text-[var(--text-secondary)] text-lg max-w-2xl mx-auto">
           Two cities, side by side: every score, housing costs, and a verdict for families, remote workers, retirees and students.
         </p>
+        <Link
+          href="/compare-regions"
+          className="mt-5 inline-flex items-center gap-2 rounded-full border border-[var(--accent)]/30 bg-[var(--accent)]/5 px-5 py-2.5 text-sm font-semibold text-[var(--accent)] transition-colors hover:border-[var(--accent)] hover:bg-[var(--accent)]/10"
+        >
+          🗺️ Or compare entire regions
+        </Link>
       </section>
       <section className="mx-auto max-w-5xl px-4 sm:px-6 py-6">
         <h2 className="text-xl font-bold text-[var(--text-primary)] mb-4">Popular comparisons</h2>

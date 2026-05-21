@@ -57,6 +57,7 @@ const SITEMAP_CHUNKS_EN = [
   "en-departments",
   "en-city-sub",
   "en-compare",
+  "en-compare-regions",
   "en-guides",
 ] as const;
 
@@ -670,6 +671,28 @@ function enCompareSection(): MetadataRoute.Sitemap {
   }));
 }
 
+function enCompareRegionsSection(): MetadataRoute.Sitemap {
+  const entries: MetadataRoute.Sitemap = [
+    {
+      url: `${BASE_URL}/compare-regions`,
+      lastModified: CITY_DATA_UPDATED,
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
+    },
+  ];
+  for (let i = 0; i < METRO_REGIONS.length; i++) {
+    for (let j = i + 1; j < METRO_REGIONS.length; j++) {
+      entries.push({
+        url: `${BASE_URL}/compare-regions/${regionToSlug(METRO_REGIONS[i])}-vs-${regionToSlug(METRO_REGIONS[j])}`,
+        lastModified: CITY_DATA_UPDATED,
+        changeFrequency: "monthly" as const,
+        priority: 0.55,
+      });
+    }
+  }
+  return entries;
+}
+
 function enGuidesSection(): MetadataRoute.Sitemap {
   return EN_GUIDES.map((g) => ({
     url: `${BASE_URL}/guides/${g.slug}`,
@@ -788,6 +811,7 @@ export default async function sitemap({ id }: { id: Promise<string> }): Promise<
     case "en-departments": return enDepartmentsSection();
     case "en-city-sub": return enCitySubSection();
     case "en-compare": return enCompareSection();
+    case "en-compare-regions": return enCompareRegionsSection();
     case "en-guides": return enGuidesSection();
     default: return [];
   }
