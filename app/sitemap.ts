@@ -622,6 +622,10 @@ function enStaticSection(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/public-services`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.65 },
     { url: `${BASE_URL}/expat-return`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.6 },
     { url: `${BASE_URL}/tools`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.65 },
+    { url: `${BASE_URL}/geographic-zones`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.6 },
+    { url: `${BASE_URL}/overall-ranking`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.7 },
+    { url: `${BASE_URL}/glossary`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.65 },
+    { url: `${BASE_URL}/site-index`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.5 },
   ];
 }
 
