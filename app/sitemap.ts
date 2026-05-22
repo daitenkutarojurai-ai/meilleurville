@@ -103,6 +103,7 @@ function staticSection(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/expat-retour/depuis-belgique`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/expat-retour/depuis-royaume-uni`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/expat-retour/depuis-canada`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE_URL}/expat-retour/depuis-allemagne`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/widget`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.5 },
     { url: `${BASE_URL}/vivre-avec`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/vivre-avec/1500-euros`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.65 },

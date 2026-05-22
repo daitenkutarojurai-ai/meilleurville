@@ -11,7 +11,13 @@
 // systématique : "consultatif, ne remplace pas le conseil d'un expert-comptable
 // ou du consulat".
 
-export type ExpatCountry = "suisse" | "luxembourg" | "belgique" | "royaume-uni" | "canada";
+export type ExpatCountry =
+  | "suisse"
+  | "luxembourg"
+  | "belgique"
+  | "royaume-uni"
+  | "canada"
+  | "allemagne";
 
 export interface ExpatCountryProfile {
   slug: ExpatCountry;
@@ -173,6 +179,37 @@ export const EXPAT_COUNTRIES: ExpatCountryProfile[] = [
     warnings: [
       "Si vous avez un PEL canadien (CELI / REER), le déclarer en France comme revenu d'épargne — ne PAS oublier, sanctions importantes.",
       "Les Français du Canada vivent souvent avec une voiture grande taille (SUV) — anticiper qu'à Lyon / Nantes / Lille la circulation est plus contraignante.",
+    ],
+  },
+  {
+    slug: "allemagne",
+    name: "Allemagne",
+    flag: "🇩🇪",
+    currency: "EUR",
+    currencyToEurApprox: 1.0,
+    netConversionFactor: 0.9, // pas de choc de change ; léger ajustement de pouvoir d'achat selon la ville cible
+    bestSuitedCities: ["strasbourg", "mulhouse", "colmar", "forbach", "sarreguemines", "saint-louis-haut-rhin", "metz", "lyon"],
+    intro:
+      "Le retour d'Allemagne n'a pas de choc de change (zone euro), mais le différentiel de salaire net joue dans les deux sens : un profil qualifié de Munich ou Francfort gagnait davantage, un salarié de l'Est allemand souvent l'équivalent du niveau français. Le vrai sujet, c'est la fiscalité française à plusieurs étages et le coût du logement dans les métropoles allemandes. Avantage géographique : les villes frontalières d'Alsace et de Moselle (Strasbourg, Mulhouse, Colmar, Forbach, Sarreguemines) permettent souvent de conserver l'emploi allemand sous le statut de frontalier.",
+    hadVsWillHave: [
+      { topic: "Salaire net", had: "2 800-3 500 € net cadre (Munich / Francfort)", willHave: "Équivalent ~2 600-3 200 € net en France après charges" },
+      { topic: "Loyer T3", had: "1 200-1 900 € (Munich, Francfort, Hambourg)", willHave: "650-1 200 € (Strasbourg, Metz, Mulhouse)" },
+      { topic: "Santé", had: "Assurance publique GKV (~7-8 % du salaire) ou privée PKV", willHave: "Sécu + mutuelle 80-200 €/mois" },
+      { topic: "Fiscalité revenu", had: "~30-40 % effectif (impôt + cotisations + Soli)", willHave: "~25-35 % effectif (TMI + CSG + prélèvements sociaux)" },
+      { topic: "Voiture", had: "Carburant ~1,75 €/L, autoroutes gratuites", willHave: "Carburant 1,65-1,85 €/L, péages autoroutiers" },
+      { topic: "Garde d'enfants", had: "Kita souvent gratuite ou ~100-300 €/mois selon le Land", willHave: "Crèche FR 150-400 €/mois après CAF/CMG" },
+    ],
+    adminPriorities: [
+      { step: "Déclarer le retour au consulat & radier", detail: "Avant le départ : se radier du registre des Français établis hors de France et demander l'attestation de radiation.", officialUrl: "https://www.service-public.gouv.fr/particuliers/vosdroits/R43251" },
+      { step: "Clôturer le domicile allemand", detail: "Faire l'Abmeldung (déclaration de départ) au Bürgeramt avant de partir : sans elle, l'impôt local et la redevance audiovisuelle (Rundfunkbeitrag) continuent de courir." },
+      { step: "Sécurité sociale", detail: "Ouvrir un dossier CPAM à l'arrivée avec l'attestation de fin d'affiliation à la Krankenkasse ; demander le formulaire S1 si vous restez frontalier en emploi allemand.", officialUrl: "https://www.service-public.gouv.fr/particuliers/vosdroits/F32824" },
+      { step: "Fiscalité revenu", detail: "Convention fiscale FR-DE : résidence fiscale française à compter du jour J. Déclaration fractionnée l'année du retour côté français + Steuererklärung de départ côté allemand." },
+      { step: "Permis & scolarité", detail: "Permis allemand reconnu de droit en France (UE), pas d'échange obligatoire. Pour les enfants, inscription en mairie + entretien d'équivalence avec l'établissement (le système Gymnasium / Realschule diffère du collège-lycée français)." },
+    ],
+    warnings: [
+      "Le statut de frontalier permet de garder un emploi allemand depuis Strasbourg, Mulhouse, Colmar, Forbach ou Sarreguemines : il suppose de résider et travailler dans les zones frontalières définies par la convention et de rentrer chez soi régulièrement.",
+      "Pensez à clôturer l'Anmeldung par une Abmeldung et à résilier le Rundfunkbeitrag : oubliés, ils génèrent des relances et des frais après votre retour.",
+      "Les droits à la retraite cotisés auprès de la Deutsche Rentenversicherung sont conservés et totalisés au niveau européen — conservez tous vos relevés de cotisation.",
     ],
   },
 ];
