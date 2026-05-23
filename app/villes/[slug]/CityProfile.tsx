@@ -30,6 +30,7 @@ import { SafetyDeepCard } from "@/components/SafetyDeepCard";
 import { DemographyCard } from "@/components/DemographyCard";
 import { PublicServicesCard } from "@/components/PublicServicesCard";
 import { QolHeroBadge } from "@/components/QolHeroBadge";
+import { CityFingerprint } from "@/components/CityFingerprint";
 import { getNeighborhoods } from "@/data/neighborhoods";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { getHousing } from "@/data/housing";
@@ -916,7 +917,7 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                 </a>
                 <a
                   href={`/villes/${city.slug}/synthese`}
-                  className="flex items-center justify-between rounded-xl border border-[var(--accent)]/30 bg-[var(--accent)]/5 hover:border-[var(--accent)] hover:shadow-md transition-all px-5 py-4 group sm:col-span-2 lg:col-span-1"
+                  className="flex items-center justify-between rounded-xl border border-[var(--accent)]/30 bg-[var(--accent)]/5 hover:border-[var(--accent)] hover:shadow-md transition-all px-5 py-4 group"
                 >
                   <div className="min-w-0">
                     <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
@@ -928,13 +929,50 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                   </div>
                   <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors shrink-0" />
                 </a>
+                <a
+                  href={`/villes/${city.slug}/empreinte`}
+                  className="flex items-center justify-between rounded-xl border border-[var(--accent)]/30 bg-gradient-to-br from-[var(--accent)]/10 to-[var(--bg-surface)] hover:border-[var(--accent)] hover:shadow-md transition-all px-5 py-4 group sm:col-span-2 lg:col-span-1"
+                >
+                  <div className="min-w-0">
+                    <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
+                      🌸 Empreinte de la ville
+                    </div>
+                    <div className="text-xs text-[var(--text-tertiary)] mt-0.5 truncate">
+                      Signature visuelle unique, dérivée des 8 axes
+                    </div>
+                  </div>
+                  <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors shrink-0" />
+                </a>
               </div>
             </div>
           </div>
         )}
 
         {activeTab === "scores" && (
-          <div id="city-panel-scores" role="tabpanel" aria-labelledby="city-tab-scores" className="max-w-2xl">
+          <div id="city-panel-scores" role="tabpanel" aria-labelledby="city-tab-scores" className="max-w-2xl space-y-6">
+            <Card className="overflow-hidden">
+              <div className="flex flex-col items-center gap-2 sm:flex-row sm:items-center sm:gap-6">
+                <div className="shrink-0">
+                  <CityFingerprint city={city} size={260} showFooter={false} />
+                </div>
+                <div className="min-w-0 text-center sm:text-left">
+                  <div className="inline-flex items-center gap-1.5 rounded-full bg-[var(--bg-elevated)] px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wider text-[var(--text-tertiary)]">
+                    <Sparkles className="h-3 w-3" /> Empreinte générative
+                  </div>
+                  <h2 className="mt-2 text-lg font-bold text-[var(--text-primary)]">
+                    La signature visuelle de {city.name}
+                  </h2>
+                  <p className="mt-2 text-sm text-[var(--text-secondary)]">
+                    Une forme unique, calculée à partir des 8 axes de score. Plus
+                    un pétale est long et coloré, plus la ville est forte sur cet
+                    axe — la silhouette globale révèle son profil d&apos;un coup d&apos;œil.
+                  </p>
+                  <p className="mt-2 text-xs text-[var(--text-tertiary)]">
+                    Deux villes n&apos;ont jamais la même empreinte.
+                  </p>
+                </div>
+              </div>
+            </Card>
             <Card>
               <h2 className="text-lg font-bold text-[var(--text-primary)] mb-6">
                 Scores détaillés — {city.name}
