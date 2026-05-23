@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import { ThumbsUp, ThumbsDown, CheckCircle2, XCircle, Sparkles } from "lucide-react";
+import { ThumbsUp, ThumbsDown, CheckCircle2, Sparkles } from "lucide-react";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { computeOwnerScores } from "@/lib/owner-scores";
 import { buildHonestReview } from "@/lib/honest-reviews";
@@ -277,7 +277,7 @@ export default async function EnHonestReviewPage({ params }: Props) {
         </div>
 
         {/* Profile fit */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div>
           <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5">
             <div className="flex items-center gap-1.5 mb-3">
               <CheckCircle2 className="h-4 w-4 text-emerald-600" />
@@ -311,42 +311,6 @@ export default async function EnHonestReviewPage({ params }: Props) {
             )}
           </div>
 
-          <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5">
-            <div className="flex items-center gap-1.5 mb-3">
-              <XCircle className="h-4 w-4 text-red-600" />
-              <span className="text-xs font-semibold uppercase tracking-wider text-red-700">Avoid if you are</span>
-            </div>
-            {review.avoidIf.length > 0 ? (
-              <>
-                {review.avoidIf.some((f) => f.soft) && (
-                  <p className="text-[11px] text-[var(--text-tertiary)] mb-2 italic">
-                    No truly disqualifying profile — these two are simply a weaker match:
-                  </p>
-                )}
-                <ul className="space-y-2">
-                  {review.avoidIf.map((f) => (
-                    <li key={f.profile.slug} className="text-sm text-[var(--text-primary)]">
-                      <span className="inline-flex items-center gap-1">
-                        <span aria-hidden>{f.profile.emoji}</span>
-                        {f.soft ? (
-                          <>Less suited for <strong>{(PROFILE_LABEL_EN[f.profile.slug] ?? f.profile.label).toLowerCase()}</strong></>
-                        ) : (
-                          <>You are <strong>{(PROFILE_LABEL_EN[f.profile.slug] ?? f.profile.label).toLowerCase()}</strong></>
-                        )}
-                      </span>
-                      <span className="text-[11px] text-[var(--text-tertiary)] block ml-5">
-                        #{f.rank} of {CITIES_COUNT} — {f.soft ? "other cities fit this profile better" : "other cities rank much higher here"}
-                      </span>
-                    </li>
-                  ))}
-                </ul>
-              </>
-            ) : (
-              <p className="text-xs text-[var(--text-tertiary)]">
-                No profile where this city is clearly disqualified.
-              </p>
-            )}
-          </div>
         </div>
 
         <p className="text-xs text-[var(--text-tertiary)]">

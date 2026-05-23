@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ThumbsUp, ThumbsDown, CheckCircle2, XCircle, Sparkles } from "lucide-react";
+import { ThumbsUp, ThumbsDown, CheckCircle2, Sparkles } from "lucide-react";
 import { Card } from "@/components/ui/Card";
 import { buildHonestReview } from "@/lib/honest-reviews";
 import { CITIES_COUNT } from "@/lib/site-stats";
@@ -109,7 +109,7 @@ export function HonestReviewCard({ city, compact = false }: Props) {
       </div>
 
       {/* Profile fit */}
-      <div className="pt-4 border-t border-[var(--border)]/60 grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="pt-4 border-t border-[var(--border)]/60">
         <div>
           <div className="flex items-center gap-1.5 mb-2">
             <CheckCircle2 className="h-3.5 w-3.5 text-emerald-600" />
@@ -144,44 +144,6 @@ export function HonestReviewCard({ city, compact = false }: Props) {
           ) : (
             <p className="text-xs text-[var(--text-tertiary)]">
               Aucun profil ne ressort sur cette ville. Vous pouvez la considérer comme un choix généraliste sans signature forte.
-            </p>
-          )}
-        </div>
-        <div>
-          <div className="flex items-center gap-1.5 mb-2">
-            <XCircle className="h-3.5 w-3.5 text-red-600" />
-            <span className="text-xs font-semibold uppercase tracking-wider text-red-700">
-              À éviter si
-            </span>
-          </div>
-          {review.avoidIf.length > 0 ? (
-            <>
-              {review.avoidIf.some((f) => f.soft) && (
-                <p className="text-[11px] text-[var(--text-tertiary)] mb-2 italic">
-                  Aucun profil rédhibitoire — voici simplement les deux pour lesquels {city.name} est <em>moins forte</em> :
-                </p>
-              )}
-              <ul className="space-y-1.5">
-                {review.avoidIf.map((f) => (
-                  <li key={f.profile.slug} className="text-sm">
-                    <span className="inline-flex items-center gap-1 text-[var(--text-primary)]">
-                      <span aria-hidden>{f.profile.emoji}</span>
-                      {f.soft ? (
-                        <>Moins adaptée si vous êtes <strong className="font-semibold">{f.profile.label.toLowerCase()}</strong></>
-                      ) : (
-                        <>Vous êtes <strong className="font-semibold">{f.profile.label.toLowerCase()}</strong></>
-                      )}
-                    </span>
-                    <span className="text-[11px] text-[var(--text-tertiary)] block ml-5">
-                      #{f.rank} sur {CITIES_COUNT} — {f.soft ? "d'autres villes collent mieux à ce profil" : "d'autres villes sont mieux placées"}
-                    </span>
-                  </li>
-                ))}
-              </ul>
-            </>
-          ) : (
-            <p className="text-xs text-[var(--text-tertiary)]">
-              Aucun profil pour lequel cette ville est nettement disqualifiée.
             </p>
           )}
         </div>
