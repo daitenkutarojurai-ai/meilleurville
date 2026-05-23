@@ -136,6 +136,7 @@ function staticSection(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/future-you`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE_URL}/people-like-you`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.75 },
     { url: `${BASE_URL}/climat-2040-timelapse`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.75 },
+    { url: `${BASE_URL}/city-match`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.85 },
     { url: `${BASE_URL}/quitter`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.75 },
     { url: `${BASE_URL}/cout-menage`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.75 },
     { url: `${BASE_URL}/louer-ou-acheter`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.75 },
