@@ -8,6 +8,7 @@ import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { buildRentVsBuy, VERDICT_META, REF_SURFACE_M2 } from "@/lib/rent-vs-buy";
+import { housingTensionFor } from "@/lib/housing-tension";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 
 // ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
@@ -54,6 +55,7 @@ export default async function LouerOuAcheterPage({ params }: Props) {
   const city = CITIES_SEED.find((c) => c.slug === slug);
   if (!city) notFound();
   const data = buildRentVsBuy(slug);
+  const tension = housingTensionFor(city);
 
   const breadcrumb = breadcrumbJsonLd([
     { name: "Accueil", path: "/" },
@@ -121,6 +123,44 @@ export default async function LouerOuAcheterPage({ params }: Props) {
                 <strong> &gt; 25 ans : marché tendu où l&apos;achat est rarement gagnant</strong>.
               </div>
             </Card>
+
+            {/* Tension locative — R8.2 */}
+            {tension && (
+              <Card className="mt-4">
+                <div className="flex items-start justify-between gap-3 mb-2">
+                  <div className="min-w-0">
+                    <p className="text-xs uppercase tracking-wider text-[var(--text-tertiary)] mb-1">
+                      Tension locative
+                    </p>
+                    <p className="text-sm font-semibold text-[var(--text-primary)] capitalize">
+                      Marché {tension.level}
+                    </p>
+                  </div>
+                  <div className="text-right shrink-0">
+                    <div
+                      className="text-2xl font-bold font-mono-data"
+                      style={{ color: tension.color }}
+                    >
+                      {tension.value.toFixed(1)}<span className="text-sm text-[var(--text-tertiary)]">/10</span>
+                    </div>
+                    <p className="text-[10px] text-[var(--text-tertiary)]">10 = très tendu</p>
+                  </div>
+                </div>
+                <div className="h-2 rounded-full bg-[var(--bg-elevated)] overflow-hidden">
+                  <div
+                    className="h-full rounded-full transition-all"
+                    style={{ width: `${(tension.value / 10) * 100}%`, background: tension.color }}
+                  />
+                </div>
+                <p className="mt-3 text-sm text-[var(--text-secondary)] leading-relaxed">
+                  {tension.verdict}
+                </p>
+                <p className="mt-2 text-[10px] text-[var(--text-tertiary)]">
+                  Loyer T2 vs médiane nationale : <strong>×{tension.rentRatio}</strong> ·{" "}
+                  <em>{tension.source}</em>
+                </p>
+              </Card>
+            )}
 
             {/* Données brutes */}
             <h2 className="mt-8 text-lg font-semibold text-[var(--text-primary)]">Les chiffres</h2>
