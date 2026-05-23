@@ -61,7 +61,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     ? `Enseignement supérieur à ${city.name} : ${tags.join(" · ")}. Score écoles ${city.scores.schools.toFixed(1)}/10.`
     : `Score écoles ${city.scores.schools.toFixed(1)}/10. Tissu de lycées et offre post-bac à ${city.name}.`;
   return {
-    title: `Écoles & études à ${city.name} · Université, CPGE, écoles | MeilleurVille`,
+    title: `Écoles & études à ${city.name} · Université, CPGE, écoles | MaVilleIdeal`,
     description: desc,
     alternates: { canonical: `/villes/${slug}/ecoles` },
     openGraph: { title: `Écoles à ${city.name}`, description: desc },

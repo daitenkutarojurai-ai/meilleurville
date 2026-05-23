@@ -1,14 +1,14 @@
 import { ImageResponse } from "next/og";
 import { ACTIVITIES, ACTIVITY_DEFS, type ActivitySlug } from "@/lib/vacation-activities";
 
-export const alt = "Vacances par activité en France · MeilleurVille";
+export const alt = "Vacances par activité en France · MaVilleIdeal";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
 export function generateImageMetadata() {
   return ACTIVITIES.map((slug) => ({
     id: slug,
-    alt: `Vacances ${ACTIVITY_DEFS[slug].label.toLowerCase()} en France · MeilleurVille`,
+    alt: `Vacances ${ACTIVITY_DEFS[slug].label.toLowerCase()} en France · MaVilleIdeal`,
     size,
     contentType,
   }));

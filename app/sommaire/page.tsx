@@ -11,8 +11,8 @@ import { getAllTagsWithCounts } from "@/lib/guide-tags";
 import { CITIES_COUNT, GUIDES_COUNT, TAGS_COUNT, RANKINGS_COUNT, REGIONS_COUNT } from "@/lib/site-stats";
 
 export const metadata: Metadata = {
-  title: "Sommaire · Index complet du site | MeilleurVille",
-  description: `Index alphabétique complet : ${CITIES_COUNT} villes, ${GUIDES_COUNT} guides, ${TAGS_COUNT} tags, ${RANKINGS_COUNT} classements, ${REGIONS_COUNT} régions, départements et outils. Tout MeilleurVille en une page.`,
+  title: "Sommaire · Index complet du site | MaVilleIdeal",
+  description: `Index alphabétique complet : ${CITIES_COUNT} villes, ${GUIDES_COUNT} guides, ${TAGS_COUNT} tags, ${RANKINGS_COUNT} classements, ${REGIONS_COUNT} régions, départements et outils. Tout MaVilleIdeal en une page.`,
   alternates: { canonical: "/sommaire" },
 };
 
@@ -54,7 +54,7 @@ export default function SommairePage() {
           </h1>
           <p className="text-[var(--text-secondary)] max-w-3xl">
             {cities.length} villes, {GUIDES.length} guides, {tags.length}+ tags, {regions.length}{" "}
-            régions et tous les outils MeilleurVille — en un seul endroit, pour parcourir
+            régions et tous les outils MaVilleIdeal — en un seul endroit, pour parcourir
             rapidement.
           </p>
         </div>

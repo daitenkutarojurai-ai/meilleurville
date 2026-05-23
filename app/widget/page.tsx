@@ -9,7 +9,7 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 
 export const metadata: Metadata = {
-  title: "Widget MeilleurVille · Intégrer un badge ville 2026 (gratuit)",
+  title: "Widget MaVilleIdeal · Intégrer un badge ville 2026 (gratuit)",
   description:
     "Générez un widget gratuit < 10 KB à intégrer sur votre site (agence immo, blog, marketplace) : badge score ville, top 3 critères, comparatif 2 villes. Backlink dofollow inclus.",
   alternates: { canonical: "/widget" },
@@ -41,7 +41,7 @@ export default function WidgetGeneratorPage() {
           </h1>
           <p className="text-[var(--text-secondary)] text-base max-w-2xl mx-auto">
             iframe sécurisée, &lt; 10 KB, sans tracking. 3 formats : badge score global,
-            top 3 critères, comparatif 2 villes. Le lien « Source : MeilleurVille » est
+            top 3 critères, comparatif 2 villes. Le lien « Source : MaVilleIdeal » est
             obligatoire et fait office de backlink dofollow.
           </p>
         </div>
@@ -60,7 +60,7 @@ export default function WidgetGeneratorPage() {
             <li>✅ <strong>Gratuit</strong> à vie pour tout site éditorial, blog, agence immo ou outil indépendant.</li>
             <li>✅ <strong>Pas de tracking</strong>, pas de cookies, pas d&apos;analytics tiers dans l&apos;iframe.</li>
             <li>✅ <strong>Backlink dofollow</strong> obligatoire vers la fiche ville ou le comparatif — c&apos;est la contrepartie.</li>
-            <li>✅ <strong>Open Graph correct</strong> côté MeilleurVille : la fiche cible a une OG image dédiée.</li>
+            <li>✅ <strong>Open Graph correct</strong> côté MaVilleIdeal : la fiche cible a une OG image dédiée.</li>
             <li>⚠️ Pas d&apos;usage commercial qui revend les scores comme votre data propre.</li>
             <li>⚠️ Pas de modification de l&apos;HTML/CSS de l&apos;iframe — sinon le widget peut être désactivé.</li>
           </ul>

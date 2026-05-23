@@ -2,13 +2,13 @@ import { MetadataRoute } from "next";
 
 // Locale-aware: the EN Vercel project sets NEXT_PUBLIC_DEFAULT_LOCALE=en, so
 // the PWA manifest reads BestCitiesInFrance on bestcitiesinfrance.com and
-// MeilleurVille on mavilleideale.fr.
+// MaVilleIdeal on mavilleideale.fr.
 const IS_EN = process.env.NEXT_PUBLIC_DEFAULT_LOCALE === "en";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: IS_EN ? "BestCitiesInFrance" : "MeilleurVille",
-    short_name: IS_EN ? "BestCities" : "MeilleurVille",
+    name: IS_EN ? "BestCitiesInFrance" : "MaVilleIdeal",
+    short_name: IS_EN ? "BestCities" : "MaVilleIdeal",
     description: IS_EN
       ? "Find the French city that fits you — rankings, resident reviews, lifestyle quiz"
       : "Trouvez la ville française qui vous ressemble — IA + avis authentiques",

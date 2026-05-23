@@ -37,6 +37,15 @@ const BORDER: Array<[number, number]> = [
   [3.06, 50.63], [2.6, 50.85], [2.38, 51.04],
 ];
 
+// Hand-traced Corsica polygon (lng, lat) — same as homepage map
+const CORSICA: Array<[number, number]> = [
+  [9.45, 43.02], [9.56, 42.85], [9.55, 42.55], [9.52, 42.13],
+  [9.40, 41.85], [9.28, 41.55], [9.17, 41.38], [9.05, 41.40],
+  [8.79, 41.56], [8.65, 41.92], [8.55, 42.10], [8.65, 42.40],
+  [8.55, 42.55], [8.85, 42.75], [9.10, 42.93], [9.25, 43.00],
+  [9.45, 43.02],
+];
+
 const LNG_MIN = -5.6;
 const LNG_MAX = 9.8;
 const LAT_MIN = 41.2;
@@ -61,13 +70,21 @@ function scoreSize(score: number): number {
   return 5 + Math.max(0, score - 4) * 0.9;
 }
 
-const BORDER_PATH =
-  "M " +
-  BORDER.map(([lng, lat]) => {
-    const [x, y] = project(lng, lat);
-    return `${x.toFixed(1)} ${y.toFixed(1)}`;
-  }).join(" L ") +
-  " Z";
+function buildPath(points: Array<[number, number]>): string {
+  return (
+    "M " +
+    points
+      .map(([lng, lat]) => {
+        const [x, y] = project(lng, lat);
+        return `${x.toFixed(1)} ${y.toFixed(1)}`;
+      })
+      .join(" L ") +
+    " Z"
+  );
+}
+
+const BORDER_PATH = buildPath(BORDER);
+const CORSICA_PATH = buildPath(CORSICA);
 
 interface HoverState {
   slug: string;
@@ -186,8 +203,18 @@ export function CarteClient() {
           <div className="grain rounded-3xl" style={{ opacity: 0.18, mixBlendMode: "overlay" }} />
 
           <div className="relative">
-            <div className="text-[11px] uppercase tracking-widest text-[#84CC16]/80 font-semibold mb-2">
-              {currentLabel} · {sorted.length} villes
+            <div className="mb-2 flex items-center justify-between gap-3">
+              <div className="text-[11px] uppercase tracking-widest text-[#84CC16]/80 font-semibold">
+                {currentLabel} · {sorted.length} villes
+              </div>
+              <div
+                key={scoreKey}
+                className="inline-flex items-center gap-1.5 rounded-full bg-[#84CC16]/15 px-2.5 py-1 text-[10px] font-bold uppercase tracking-widest text-[#BEF264] ring-1 ring-[#84CC16]/30"
+                style={{ animation: "carte-axis-pop 0.45s cubic-bezier(.34,1.56,.64,1) both" }}
+              >
+                {SCORE_OPTIONS.find((o) => o.key === scoreKey)?.emoji}{" "}
+                <span>Coloriage : {currentLabel}</span>
+              </div>
             </div>
 
             <svg viewBox={`0 0 ${W} ${H}`} className="w-full h-auto" role="img" aria-label="Carte de France des villes">
@@ -228,6 +255,7 @@ export function CarteClient() {
                 </pattern>
                 <clipPath id="cFranceClip">
                   <path d={BORDER_PATH} />
+                  <path d={CORSICA_PATH} />
                 </clipPath>
               </defs>
 
@@ -296,6 +324,30 @@ export function CarteClient() {
                 filter="url(#cBorderGlow)"
               />
 
+              {/* Corsica shape */}
+              <path
+                d={CORSICA_PATH}
+                fill="url(#cFranceFill)"
+                stroke="url(#cFranceStroke)"
+                strokeWidth="2.5"
+                strokeLinejoin="round"
+                strokeLinecap="round"
+                style={{
+                  strokeDasharray: 700,
+                  strokeDashoffset: mounted ? 0 : 700,
+                  transition: "stroke-dashoffset 2.4s cubic-bezier(0.2, 0.7, 0.2, 1)",
+                  filter: "url(#cFranceShadow)",
+                }}
+              />
+              <path
+                d={CORSICA_PATH}
+                fill="none"
+                stroke="rgba(132,204,22,0.45)"
+                strokeWidth="6"
+                strokeLinejoin="round"
+                filter="url(#cBorderGlow)"
+              />
+
               {/* Pulsing rings for top tier */}
               {dots
                 .filter((d) => d.score >= 7.5)
@@ -308,13 +360,21 @@ export function CarteClient() {
                   </g>
                 ))}
 
-              {/* Clickable dots */}
+              {/* Clickable dots — fill + radius transition on filter change */}
+              <style>{`
+                @keyframes carte-axis-pop {
+                  0% { transform: scale(0.85); opacity: 0; }
+                  60% { transform: scale(1.08); opacity: 1; }
+                  100% { transform: scale(1); opacity: 1; }
+                }
+                .carte-dot circle { transition: fill 0.35s ease-out, r 0.45s cubic-bezier(.34,1.56,.64,1); }
+              `}</style>
               {dots.map((d) => (
                 <a
                   key={d.slug}
                   href={`/villes/${d.slug}`}
                   aria-label={`Voir ${d.name}`}
-                  className="cursor-pointer"
+                  className="cursor-pointer carte-dot"
                   style={{
                     opacity: mounted ? 1 : 0,
                     transform: mounted ? "scale(1)" : "scale(0)",

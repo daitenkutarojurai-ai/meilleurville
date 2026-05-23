@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const city = CITIES_SEED.find((c) => c.slug === slug);
   if (!city) return {};
   return {
-    title: `Quartiers de ${city.name} · Quel quartier choisir ? | MeilleurVille`,
+    title: `Quartiers de ${city.name} · Quel quartier choisir ? | MaVilleIdeal`,
     description: `Comparatif des quartiers de ${city.name} : sécurité, loyers, transports, ambiance. Trouvez le quartier fait pour vous.`,
     alternates: { canonical: `/villes/${slug}/quartiers` },
   };

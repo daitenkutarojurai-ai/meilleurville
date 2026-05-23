@@ -8,7 +8,7 @@
 //   city2=<slug>           — required for compare format
 //   format=badge|criteres|compare  — default: badge
 //
-// Mandatory backlink to MeilleurVille is rendered inside the iframe; the
+// Mandatory backlink to MaVilleIdeal is rendered inside the iframe; the
 // third-party site cannot suppress it (everything ships server-side).
 //
 // CSP / framing: the iframe must be embeddable from any origin, so we set
@@ -62,7 +62,7 @@ function shell(inner: string): string {
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>MeilleurVille — Widget</title>
+<title>MaVilleIdeal — Widget</title>
 <style>${STYLE}</style>
 </head>
 <body>${inner}</body>
@@ -77,7 +77,7 @@ function renderBadge(slug: string): string {
   <div class="h"><div class="l">${escapeHtml(city.name)}</div><div class="r">${escapeHtml(city.region ?? "")}</div></div>
   <div style="display:flex;align-items:baseline;gap:8px"><div class="score" style="color:${color}">${city.scores.global.toFixed(1)}</div><div class="tag">/10 · qualité de vie</div></div>
   <div class="bar" style="margin-top:10px"><span style="width:${city.scores.global * 10}%;background:${color}"></span></div>
-  <div class="f">Source : <a href="${BASE_URL}/villes/${city.slug}" target="_blank" rel="noopener">MeilleurVille</a></div>
+  <div class="f">Source : <a href="${BASE_URL}/villes/${city.slug}" target="_blank" rel="noopener">MaVilleIdeal</a></div>
 </div>`);
 }
 
@@ -106,7 +106,7 @@ function renderCriteres(slug: string): string {
       return `<div class="crit"><span class="lbl">${escapeHtml(a.label)}</span><span class="val" style="color:${scoreHex(v)}">${v.toFixed(1)}</span></div><div class="bar" style="margin-bottom:8px"><span style="width:${v * 10}%;background:${scoreHex(v)}"></span></div>`;
     })
     .join("")}
-  <div class="f">Données : <a href="${BASE_URL}/villes/${city.slug}" target="_blank" rel="noopener">MeilleurVille</a></div>
+  <div class="f">Données : <a href="${BASE_URL}/villes/${city.slug}" target="_blank" rel="noopener">MaVilleIdeal</a></div>
 </div>`);
 }
 
@@ -123,7 +123,7 @@ function renderCompare(slugA: string, slugB: string): string {
     <div class="c"><div class="n">${escapeHtml(a.name)}</div><div class="s" style="color:${aColor}">${a.scores.global.toFixed(1)}</div><div class="tag">/10</div></div>
     <div class="c"><div class="n">${escapeHtml(b.name)}</div><div class="s" style="color:${bColor}">${b.scores.global.toFixed(1)}</div><div class="tag">/10</div></div>
   </div>
-  <div class="f">Comparatif : <a href="${BASE_URL}/comparer/${a.slug}-vs-${b.slug}" target="_blank" rel="noopener">MeilleurVille</a></div>
+  <div class="f">Comparatif : <a href="${BASE_URL}/comparer/${a.slug}-vs-${b.slug}" target="_blank" rel="noopener">MaVilleIdeal</a></div>
 </div>`);
 }
 

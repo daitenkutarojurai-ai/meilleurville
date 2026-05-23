@@ -7,7 +7,7 @@ import {
   slugToRegion,
 } from "@/lib/regions";
 
-export const alt = "Vacances par région française · MeilleurVille";
+export const alt = "Vacances par région française · MaVilleIdeal";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -23,7 +23,7 @@ const ALL_REGIONS: string[] = [
 export function generateImageMetadata() {
   return ALL_REGIONS.map((r) => ({
     id: regionToSlug(r),
-    alt: `Vacances en ${r} · MeilleurVille`,
+    alt: `Vacances en ${r} · MaVilleIdeal`,
     size,
     contentType,
   }));

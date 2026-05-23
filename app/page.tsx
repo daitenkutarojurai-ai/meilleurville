@@ -25,7 +25,7 @@ const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://www.mavilleideale.
 const websiteJsonLd = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  name: "MeilleurVille",
+  name: "MaVilleIdeal",
   url: BASE_URL,
   description: "La référence pour choisir où vivre en France : classements, avis d'habitants, quiz de matching, données locales.",
   potentialAction: {
@@ -41,7 +41,7 @@ const websiteJsonLd = {
 const organizationJsonLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  name: "MeilleurVille",
+  name: "MaVilleIdeal",
   url: BASE_URL,
   logo: `${BASE_URL}/icon.png`,
   sameAs: [],

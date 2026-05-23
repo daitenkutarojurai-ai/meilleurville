@@ -311,7 +311,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     ? `Drapeaux à vérifier : ${top.join(", ")}.`
     : "Aucun drapeau majeur, profil de risque globalement maîtrisé.";
   return {
-    title: `Red Flags ${city.name} · Risques connus & sources publiques 2026 | MeilleurVille`,
+    title: `Red Flags ${city.name} · Risques connus & sources publiques 2026 | MaVilleIdeal`,
     description: `Ce qu'on ne vous dit pas avant de signer à ${city.name} : sécurité, inondation, canicule, pollution, sismicité, coût. ${teaser} Sources : Géorisques, SSMSI, ATMO, BRGM.`,
     alternates: { canonical: `/red-flags/${slug}` },
     openGraph: {

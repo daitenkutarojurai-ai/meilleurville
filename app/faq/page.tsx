@@ -7,8 +7,8 @@ import { StaticPageCrossLink } from "@/components/StaticPageCrossLink";
 import { CITIES_COUNT, REGIONS_COUNT, DEPARTMENTS_COUNT } from "@/lib/site-stats";
 
 export const metadata: Metadata = {
-  title: "FAQ · Questions fréquentes | MeilleurVille",
-  description: "Réponses aux questions fréquentes sur MeilleurVille : comment sont calculés les scores, comment contribuer, comment marche le quiz et le comparateur.",
+  title: "FAQ · Questions fréquentes | MaVilleIdeal",
+  description: "Réponses aux questions fréquentes sur MaVilleIdeal : comment sont calculés les scores, comment contribuer, comment marche le quiz et le comparateur.",
   alternates: { canonical: "/faq" },
 };
 
@@ -26,7 +26,7 @@ const FAQ_SECTIONS = [
       },
       {
         q: "Pourquoi ma ville est-elle si mal notée ?",
-        a: "Les scores reflètent des données objectives et des avis d'habitants. Si vous pensez qu'un score est incorrect, vous pouvez nous signaler une erreur via le formulaire de contact. Nous vérifierons les données sources et mettrons à jour si nécessaire. MeilleurVille n'accepte aucune modification de score en échange d'un paiement.",
+        a: "Les scores reflètent des données objectives et des avis d'habitants. Si vous pensez qu'un score est incorrect, vous pouvez nous signaler une erreur via le formulaire de contact. Nous vérifierons les données sources et mettrons à jour si nécessaire. MaVilleIdeal n'accepte aucune modification de score en échange d'un paiement.",
       },
       {
         q: "Pourquoi Annecy est-elle numéro 1 alors que c'est très cher ?",
@@ -59,7 +59,7 @@ const FAQ_SECTIONS = [
     title: "Données et confidentialité",
     questions: [
       {
-        q: "MeilleurVille vend-il des données à des tiers ?",
+        q: "MaVilleIdeal vend-il des données à des tiers ?",
         a: "Non. Nous ne vendons, ne louons, ni ne partageons vos données personnelles avec des tiers à des fins commerciales. Nos partenaires techniques (Vercel pour l'hébergement, Stripe pour les paiements) ont accès aux données strictement nécessaires à leur service. Voir notre politique de confidentialité complète.",
       },
       {
@@ -94,7 +94,7 @@ const FAQ_SECTIONS = [
     ],
   },
   {
-    title: "Naviguer sur MeilleurVille",
+    title: "Naviguer sur MaVilleIdeal",
     questions: [
       {
         q: "Comment trouver les villes par région ou département ?",
@@ -114,7 +114,7 @@ const FAQ_SECTIONS = [
     title: "Guides & Conseils",
     questions: [
       {
-        q: "Qu'est-ce que les guides MeilleurVille ?",
+        q: "Qu'est-ce que les guides MaVilleIdeal ?",
         a: "Les guides sont des articles longs et approfondis (7 à 12 minutes de lecture) qui couvrent des sujets de mobilité résidentielle : quitter Paris, s'installer en télétravail, choisir une ville pour sa famille, investissement immobilier, vivre en bord de mer à budget accessible, etc. Chaque guide est rédigé avec des données concrètes, des comparatifs de villes, et des conseils pratiques tirés de retours d'habitants.",
       },
       {
@@ -161,7 +161,7 @@ export default function FaqPage() {
           <Badge variant="accent" className="mb-3">FAQ</Badge>
           <h1 className="text-3xl font-bold text-[var(--text-primary)] mb-3">Questions fréquentes</h1>
           <p className="text-[var(--text-secondary)]">
-            Tout ce que vous voulez savoir sur MeilleurVille — les scores, les avis et la méthode.
+            Tout ce que vous voulez savoir sur MaVilleIdeal — les scores, les avis et la méthode.
           </p>
         </div>
       </section>

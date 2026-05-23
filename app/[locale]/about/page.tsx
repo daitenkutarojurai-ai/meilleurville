@@ -46,7 +46,7 @@ export default function EnAbout() {
         </p>
         <h2 className="text-2xl font-bold text-[var(--text-primary)] mt-10 mb-3">French version</h2>
         <p className="text-[var(--text-secondary)] leading-relaxed mb-6">
-          BestCitiesInFrance is the English version of <a className="text-[var(--accent)] hover:underline" href="https://www.mavilleideale.fr">MeilleurVille</a> (mavilleideale.fr). Same data, written for English-speaking readers.
+          BestCitiesInFrance is the English version of <a className="text-[var(--accent)] hover:underline" href="https://www.mavilleideale.fr">MaVilleIdeal</a> (mavilleideale.fr). Same data, written for English-speaking readers.
         </p>
         <div className="mt-10 flex flex-wrap gap-3">
           <Link href="/cities" className="rounded-full bg-[var(--accent)] px-5 py-2.5 text-white font-semibold hover:opacity-90">Browse cities</Link>

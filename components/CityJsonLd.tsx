@@ -22,7 +22,7 @@ export function CityJsonLd({ city }: { city: CitySeed & { reviewCount?: number }
       q: `Quel est le coût de la vie à ${city.name} ?`,
       a: housing
         ? `À ${city.name}, un appartement T2 coûte en moyenne ${housing.avgRentT2}€/mois et un T3 ${housing.avgRentT3}€/mois. Le prix d'achat moyen est de ${housing.avgBuyPriceM2}€/m². Le score coût de la vie est de ${city.scores.cost}/10.`
-        : `Le coût de la vie à ${city.name} est noté ${city.scores.cost}/10 sur MeilleurVille.`,
+        : `Le coût de la vie à ${city.name} est noté ${city.scores.cost}/10 sur MaVilleIdeal.`,
     },
     {
       q: `${city.name} est-elle une bonne ville pour les familles ?`,
@@ -78,7 +78,7 @@ export function CityJsonLd({ city }: { city: CitySeed & { reviewCount?: number }
         breadcrumb: {
           "@type": "BreadcrumbList",
           itemListElement: [
-            { "@type": "ListItem", position: 1, name: "MeilleurVille", item: baseUrl },
+            { "@type": "ListItem", position: 1, name: "MaVilleIdeal", item: baseUrl },
             { "@type": "ListItem", position: 2, name: "Villes", item: `${baseUrl}/villes` },
             { "@type": "ListItem", position: 3, name: city.name, item: `${baseUrl}/villes/${city.slug}` },
           ],

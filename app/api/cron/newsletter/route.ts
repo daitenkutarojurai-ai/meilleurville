@@ -30,7 +30,7 @@ const LOCALES: Locale[] = ["fr", "en"];
 const SENDER: Record<Locale, BrevoSender> = {
   fr: {
     email: process.env.NEWSLETTER_FROM_EMAIL_FR ?? "lettre@mavilleideale.fr",
-    name: "MeilleurVille",
+    name: "MaVilleIdeal",
   },
   en: {
     email: process.env.NEWSLETTER_FROM_EMAIL_EN ?? "newsletter@bestcitiesinfrance.com",

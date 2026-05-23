@@ -21,7 +21,7 @@ export function CityGuidesList({ slug, name }: { slug: string; name: string }) {
         <div className="flex items-baseline justify-between mb-6">
           <div>
             <p className="text-xs uppercase tracking-widest text-[var(--text-tertiary)] font-semibold mb-1">
-              Guides MeilleurVille
+              Guides MaVilleIdeal
             </p>
             <h2 className="text-xl font-bold text-[var(--text-primary)]">
               {matches.length} guides qui parlent de {name}

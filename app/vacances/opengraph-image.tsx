@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 import { CITIES_SEED } from "@/data/cities-seed";
 
-export const alt = "Où partir en vacances en France — guide mois par mois · MeilleurVille";
+export const alt = "Où partir en vacances en France — guide mois par mois · MaVilleIdeal";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 

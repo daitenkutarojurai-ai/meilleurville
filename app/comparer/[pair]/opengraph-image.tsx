@@ -52,7 +52,7 @@ export default async function Image({ params }: Props) {
       >
         {/* Branding */}
         <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
-          <div style={{ color: "#0D9488", fontSize: "18px", fontWeight: 700 }}>MeilleurVille</div>
+          <div style={{ color: "#0D9488", fontSize: "18px", fontWeight: 700 }}>MaVilleIdeal</div>
           <div style={{ color: "#30363d", fontSize: "18px" }}>·</div>
           <div style={{ color: "#8b949e", fontSize: "14px" }}>Comparaison qualité de vie 2026</div>
         </div>

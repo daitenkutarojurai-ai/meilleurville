@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 import { CITIES_SEED } from "@/data/cities-seed";
 
-export const alt = "Leaderboard villes françaises — MeilleurVille";
+export const alt = "Leaderboard villes françaises — MaVilleIdeal";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -38,7 +38,7 @@ export default function Image() {
           <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
             <svg width="32" height="32" viewBox="0 0 32 32"><rect width="32" height="32" rx="7" fill="#0D9488" /><path d="M16 4C11.13 4 7 8.13 7 13c0 8 9 15 9 15s9-7 9-15c0-4.87-4.13-9-9-9z" fill="white" /><circle cx="16" cy="13" r="3.5" fill="#0D9488" /></svg>
             <span style={{ color: "#0D9488", fontSize: "20px", fontWeight: 700 }}>
-              MeilleurVille
+              MaVilleIdeal
             </span>
           </div>
           <div

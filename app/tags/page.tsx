@@ -8,9 +8,9 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { GUIDES_COUNT } from "@/lib/site-stats";
 
 export const metadata: Metadata = {
-  title: "Tous les tags · Index thématique des guides | MeilleurVille",
+  title: "Tous les tags · Index thématique des guides | MaVilleIdeal",
   description:
-    "Index complet des tags MeilleurVille. Parcourez les guides par thème : télétravail, déménagement, immobilier, ville par ville, climat, mobilité...",
+    "Index complet des tags MaVilleIdeal. Parcourez les guides par thème : télétravail, déménagement, immobilier, ville par ville, climat, mobilité...",
   alternates: { canonical: "/tags" },
 };
 

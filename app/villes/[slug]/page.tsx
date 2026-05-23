@@ -30,12 +30,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `${city.name} (${city.department}, ${city.region}) : score de qualité de vie ${city.scores.global}/10. Avis d'habitants, quartiers, données locales.${rentHint} Comparez avec d'autres villes.`,
     alternates: { canonical: `/villes/${slug}` },
     openGraph: {
-      title: `${city.name} · MeilleurVille · ${city.scores.global}/10`,
+      title: `${city.name} · MaVilleIdeal · ${city.scores.global}/10`,
       description: `Score QdV ${city.scores.global}/10 · ${city.region} · ${city.characterTags.slice(0, 3).join(", ")}`,
     },
     twitter: {
       card: "summary_large_image",
-      title: `${city.name} · ${city.scores.global}/10 | MeilleurVille`,
+      title: `${city.name} · ${city.scores.global}/10 | MaVilleIdeal`,
       description: `Qualité de vie, avis d'habitants et données locales pour ${city.name}.`,
     },
   };

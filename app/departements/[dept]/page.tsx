@@ -33,7 +33,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: `Découvrez les ${cities.length} meilleures villes du département ${dept} : scores qualité de vie, comparaisons, avis d'habitants. N°1 : ${topCity?.name} (${topCity?.scores.global}/10).`,
     alternates: { canonical: `/departements/${deptSlug}` },
     openGraph: {
-      title: `Villes de ${dept} · MeilleurVille`,
+      title: `Villes de ${dept} · MaVilleIdeal`,
       description: `${cities.length} villes analysées · Top : ${topCity?.name} ${topCity?.scores.global}/10`,
     },
   };

@@ -96,7 +96,7 @@ export function TripletView({ cities, slug }: { cities: SeedCity[]; slug: string
               {
                 "@type": "BreadcrumbList",
                 itemListElement: [
-                  { "@type": "ListItem", position: 1, name: "MeilleurVille", item: BASE_URL },
+                  { "@type": "ListItem", position: 1, name: "MaVilleIdeal", item: BASE_URL },
                   { "@type": "ListItem", position: 2, name: "Comparer", item: `${BASE_URL}/comparer` },
                   { "@type": "ListItem", position: 3, name: `${a.name} vs ${b.name} vs ${c.name}`, item: `${BASE_URL}/comparer/${slug}` },
                 ],
@@ -205,7 +205,7 @@ export function TripletView({ cities, slug }: { cities: SeedCity[]; slug: string
         {/* Verdict */}
         {overallWinner && (
           <div className="rounded-2xl border border-emerald-400/30 bg-emerald-500/5 p-6 text-center">
-            <p className="text-sm text-[var(--text-secondary)] mb-1">Recommandé par MeilleurVille</p>
+            <p className="text-sm text-[var(--text-secondary)] mb-1">Recommandé par MaVilleIdeal</p>
             <p className="text-xl font-bold text-emerald-600">
               {overallWinner.name} l&apos;emporte sur {overallWinner.wins} critères sur {SCORE_ROWS.length}
             </p>

@@ -89,9 +89,22 @@ interface HoverState {
   color: string;
 }
 
+type ScoreKey = "global" | "nature" | "cost" | "safety" | "transport" | "culture" | "remoteWork" | "schools";
+
+const SCORE_OPTIONS: Array<{ key: ScoreKey; label: string; emoji: string }> = [
+  { key: "global", label: "Score global", emoji: "🌍" },
+  { key: "nature", label: "Nature", emoji: "🌲" },
+  { key: "cost", label: "Coût de vie", emoji: "💸" },
+  { key: "safety", label: "Sécurité", emoji: "🛡️" },
+  { key: "transport", label: "Transport", emoji: "🚆" },
+  { key: "culture", label: "Culture", emoji: "🎭" },
+  { key: "remoteWork", label: "Télétravail", emoji: "💻" },
+  { key: "schools", label: "Écoles", emoji: "🎓" },
+];
+
 export function FranceHeatmap() {
   const [hover, setHover] = useState<HoverState | null>(null);
-  const [filter, setFilter] = useState<"all" | "top" | "budget" | "nature">("all");
+  const [scoreKey, setScoreKey] = useState<ScoreKey>("global");
   const [mounted, setMounted] = useState(false);
   const mapRef = useRef<HTMLDivElement | null>(null);
   const svgRef = useRef<SVGSVGElement | null>(null);
@@ -120,30 +133,24 @@ export function FranceHeatmap() {
   const dots = useMemo(() => {
     return [...CITIES_SEED]
       .filter((c) => c.longitude >= -6 && c.longitude <= 10 && c.latitude >= 40 && c.latitude <= 52)
-      .filter((c) => {
-        if (filter === "top") return c.scores.global >= 7.0;
-        if (filter === "budget") return c.scores.cost >= 7.0;
-        if (filter === "nature") return c.scores.nature >= 7.5;
-        return true;
-      })
-      .sort((a, b) => a.scores.global - b.scores.global)
+      .sort((a, b) => a.scores[scoreKey] - b.scores[scoreKey])
       .map((c, i) => {
         const [x, y] = project(c.longitude, c.latitude);
         return {
           slug: c.slug,
           name: c.name,
           region: c.region,
-          score: c.scores.global,
+          score: c.scores[scoreKey],
           population: c.population,
           x,
           y,
-          color: scoreColor(c.scores.global),
+          color: scoreColor(c.scores[scoreKey]),
           r: dotRadius(c.population),
           delay: i * 12,
           scores: c.scores,
         };
       });
-  }, [filter]);
+  }, [scoreKey]);
 
   const top3 = useMemo(
     () => [...CITIES_SEED].sort((a, b) => b.scores.global - a.scores.global).slice(0, 3),
@@ -182,19 +189,14 @@ export function FranceHeatmap() {
           </p>
         </div>
 
-        {/* Filter chips */}
-        <div className="flex flex-wrap items-center justify-center gap-2 mb-4">
-          {[
-            { id: "all" as const, label: "Toutes", emoji: "🌍" },
-            { id: "top" as const, label: "Top villes (7+)", emoji: "🏆" },
-            { id: "budget" as const, label: "Bon budget", emoji: "💸" },
-            { id: "nature" as const, label: "Côté nature", emoji: "🌲" },
-          ].map((f) => {
-            const active = filter === f.id;
+        {/* Score chips — colour the map by selected axis */}
+        <div className="flex flex-wrap items-center justify-center gap-2 mb-3">
+          {SCORE_OPTIONS.map(({ key, label, emoji }) => {
+            const active = scoreKey === key;
             return (
               <button
-                key={f.id}
-                onClick={() => setFilter(f.id)}
+                key={key}
+                onClick={() => setScoreKey(key)}
                 className={
                   "rounded-full px-4 py-1.5 text-sm font-medium transition-all border " +
                   (active
@@ -202,16 +204,28 @@ export function FranceHeatmap() {
                     : "bg-white/70 backdrop-blur text-[var(--text-secondary)] border-[var(--border)] hover:border-[var(--accent)]/40 hover:text-[var(--text-primary)]")
                 }
               >
-                <span className="mr-1.5">{f.emoji}</span>
-                {f.label}
+                <span className="mr-1.5">{emoji}</span>
+                {label}
               </button>
             );
           })}
         </div>
 
+        {/* Current colouring badge — pops on filter change */}
+        <div className="mb-4 flex justify-center">
+          <div
+            key={scoreKey}
+            className="inline-flex items-center gap-1.5 rounded-full bg-[var(--accent)]/12 px-3 py-1 text-[10px] font-bold uppercase tracking-widest text-[var(--accent)] ring-1 ring-[var(--accent)]/30"
+            style={{ animation: "fh-axis-pop 0.45s cubic-bezier(.34,1.56,.64,1) both" }}
+          >
+            {SCORE_OPTIONS.find((o) => o.key === scoreKey)?.emoji}
+            <span>Coloriage par : {SCORE_OPTIONS.find((o) => o.key === scoreKey)?.label}</span>
+          </div>
+        </div>
+
         {/* Legend — score color scale */}
         <div className="mb-8 flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-[11px] text-[var(--text-tertiary)]">
-          <span className="font-semibold uppercase tracking-wider text-[var(--text-secondary)]">Score qualité de vie</span>
+          <span className="font-semibold uppercase tracking-wider text-[var(--text-secondary)]">Échelle de score</span>
           {[
             { color: "#A855F7", label: "≥ 7,5 Exceptionnel" },
             { color: "#22C55E", label: "≥ 7,0 Excellent" },
@@ -327,13 +341,13 @@ export function FranceHeatmap() {
                 transform="translate(0 6)"
               />
 
-              {/* Heat layer — radial gradients per top city, clipped to France */}
+              {/* Heat layer — radial gradients per top city for current axis */}
               <g clipPath="url(#franceClip)" opacity="0.55" style={{ mixBlendMode: "screen" }}>
                 {[...CITIES_SEED]
-                  .filter((c) => c.scores.global >= 6.0)
+                  .filter((c) => c.scores[scoreKey] >= 6.0)
                   .map((c) => {
                     const [x, y] = project(c.longitude, c.latitude);
-                    const r = 70 + (c.scores.global - 6.0) * 30;
+                    const r = 70 + (c.scores[scoreKey] - 6.0) * 30;
                     return (
                       <radialGradient
                         key={`h-${c.slug}`}
@@ -343,16 +357,16 @@ export function FranceHeatmap() {
                         r={r}
                         gradientUnits="userSpaceOnUse"
                       >
-                        <stop offset="0%" stopColor={scoreColor(c.scores.global)} stopOpacity="0.55" />
-                        <stop offset="100%" stopColor={scoreColor(c.scores.global)} stopOpacity="0" />
+                        <stop offset="0%" stopColor={scoreColor(c.scores[scoreKey])} stopOpacity="0.55" />
+                        <stop offset="100%" stopColor={scoreColor(c.scores[scoreKey])} stopOpacity="0" />
                       </radialGradient>
                     );
                   })}
                 {[...CITIES_SEED]
-                  .filter((c) => c.scores.global >= 6.0)
+                  .filter((c) => c.scores[scoreKey] >= 6.0)
                   .map((c) => {
                     const [x, y] = project(c.longitude, c.latitude);
-                    const r = 70 + (c.scores.global - 6.0) * 30;
+                    const r = 70 + (c.scores[scoreKey] - 6.0) * 30;
                     return (
                       <circle
                         key={`hc-${c.slug}`}
@@ -448,8 +462,8 @@ export function FranceHeatmap() {
                   return droms.map((r, i) => {
                     const top = [...CITIES_SEED]
                       .filter((c) => c.region === r.name)
-                      .sort((a, b) => b.scores.global - a.scores.global)[0];
-                    const color = top ? scoreColor(top.scores.global) : "#94A3B8";
+                      .sort((a, b) => b.scores[scoreKey] - a.scores[scoreKey])[0];
+                    const color = top ? scoreColor(top.scores[scoreKey]) : "#94A3B8";
                     const x = startX + i * (boxW + gap);
                     return (
                       <g key={r.code} opacity={mounted ? 1 : 0} style={{ transition: `opacity 0.5s ease ${(800 + i * 60).toFixed(0)}ms` }}>
@@ -486,7 +500,7 @@ export function FranceHeatmap() {
                             fill={color}
                             fontFamily="JetBrains Mono, monospace"
                           >
-                            {top.scores.global.toFixed(1)}
+                            {top.scores[scoreKey].toFixed(1)}
                           </text>
                         )}
                       </g>
@@ -523,6 +537,16 @@ export function FranceHeatmap() {
                   </g>
                 ))}
 
+              {/* CSS — dot fill transition + axis-pop animation */}
+              <style>{`
+                @keyframes fh-axis-pop {
+                  0% { transform: scale(0.85); opacity: 0; }
+                  60% { transform: scale(1.08); opacity: 1; }
+                  100% { transform: scale(1); opacity: 1; }
+                }
+                .fh-dot circle { transition: fill 0.35s ease-out; }
+              `}</style>
+
               {/* City dots — staggered fade-in, click to open city */}
               {dots.map((d) => {
                 const hoverPayload = {
@@ -540,7 +564,7 @@ export function FranceHeatmap() {
                     key={d.slug}
                     href={`/villes/${d.slug}`}
                     aria-label={`${d.name} (${d.region}) — score ${d.score.toFixed(1)} sur 10`}
-                    className="cursor-pointer outline-none focus-visible:[outline:2px_solid_white] focus-visible:[outline-offset:2px]"
+                    className="cursor-pointer fh-dot outline-none focus-visible:[outline:2px_solid_white] focus-visible:[outline-offset:2px]"
                     style={{
                       opacity: mounted ? 1 : 0,
                       transform: mounted ? "scale(1)" : "scale(0)",
@@ -589,7 +613,7 @@ export function FranceHeatmap() {
                     maxWidth: 280,
                   }}
                 >
-                  <div className="flex items-center gap-2 mb-2">
+                  <div className="flex items-center gap-2 mb-1">
                     <span className="inline-block h-3.5 w-3.5 rounded-full ring-2 ring-white shadow" style={{ background: hover.color }} />
                     <span className="text-lg font-bold text-[var(--text-primary)] truncate">{hover.name}</span>
                     <span
@@ -598,6 +622,9 @@ export function FranceHeatmap() {
                     >
                       {hover.scores.global.toFixed(1)}
                     </span>
+                  </div>
+                  <div className="text-[10px] uppercase tracking-wider font-semibold mb-2 text-right text-[var(--text-tertiary)]">
+                    sur l&apos;axe {SCORE_OPTIONS.find((o) => o.key === scoreKey)?.label}
                   </div>
                   <div className="text-xs text-[var(--text-tertiary)] mb-3 truncate">
                     {hover.region} · {hover.population.toLocaleString("fr-FR")} hab.

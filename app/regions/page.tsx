@@ -7,7 +7,7 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 
 export const metadata: Metadata = {
-  title: "Villes par région · Toutes les régions françaises | MeilleurVille",
+  title: "Villes par région · Toutes les régions françaises | MaVilleIdeal",
   description:
     "Explorez les meilleures villes françaises région par région : Bretagne, Occitanie, PACA, Auvergne-Rhône-Alpes et plus. Scores comparés, top villes.",
   alternates: { canonical: "/regions" },

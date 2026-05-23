@@ -90,7 +90,7 @@ export default async function RankingPage({ params }: Props) {
       {
         "@type": "BreadcrumbList",
         itemListElement: [
-          { "@type": "ListItem", position: 1, name: "MeilleurVille", item: BASE_URL },
+          { "@type": "ListItem", position: 1, name: "MaVilleIdeal", item: BASE_URL },
           { "@type": "ListItem", position: 2, name: "Classements", item: `${BASE_URL}/classements` },
           { "@type": "ListItem", position: 3, name: meta.headline, item: `${BASE_URL}/classements/${slug}` },
         ],

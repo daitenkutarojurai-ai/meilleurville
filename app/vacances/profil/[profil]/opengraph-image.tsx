@@ -5,14 +5,14 @@ import {
   type VacationProfile,
 } from "@/lib/vacation-fit";
 
-export const alt = "Vacances par profil voyageur · MeilleurVille";
+export const alt = "Vacances par profil voyageur · MaVilleIdeal";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
 export function generateImageMetadata() {
   return VACATION_PROFILES.map((slug) => ({
     id: slug,
-    alt: `Vacances ${VACATION_PROFILE_DEFS[slug].label.toLowerCase()} en France · MeilleurVille`,
+    alt: `Vacances ${VACATION_PROFILE_DEFS[slug].label.toLowerCase()} en France · MaVilleIdeal`,
     size,
     contentType,
   }));

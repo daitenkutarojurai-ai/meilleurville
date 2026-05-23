@@ -7,7 +7,7 @@ import Link from "next/link";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 
 export const metadata: Metadata = {
-  title: "Comparer des villes · MeilleurVille",
+  title: "Comparer des villes · MaVilleIdeal",
   description:
     "Comparez deux ou trois villes françaises côte à côte : qualité de vie, coût, transport, nature, sécurité, écoles. Outil de comparaison gratuit.",
   alternates: { canonical: "/comparer" },

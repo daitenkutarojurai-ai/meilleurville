@@ -40,10 +40,10 @@ export async function GET() {
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>MeilleurVille — Guides</title>
+    <title>MaVilleIdeal — Guides</title>
     <link>${SITE_URL}/guides</link>
     <atom:link href="${SITE_URL}/guides/feed.xml" rel="self" type="application/rss+xml" />
-    <description>Guides MeilleurVille : télétravail, famille, budget, comparaisons.</description>
+    <description>Guides MaVilleIdeal : télétravail, famille, budget, comparaisons.</description>
     <language>fr-FR</language>
     <lastBuildDate>${new Date(latest).toUTCString()}</lastBuildDate>
 ${items}

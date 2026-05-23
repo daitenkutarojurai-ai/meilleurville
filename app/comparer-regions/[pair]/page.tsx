@@ -78,7 +78,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!parsed) return {};
   const { a, b } = parsed;
   return {
-    title: `${a} vs ${b} · Comparatif régions 2026 | MeilleurVille`,
+    title: `${a} vs ${b} · Comparatif régions 2026 | MaVilleIdeal`,
     description: `Comparaison complète entre ${a} et ${b} : coût de la vie, climat, immobilier, scores qualité de vie, meilleures villes. Données calibrées sur les ${CITIES_COUNT} villes du site.`,
     alternates: { canonical: `/comparer-regions/${pair}` },
     openGraph: {
@@ -178,7 +178,7 @@ export default async function ComparerRegionsPage({ params }: Props) {
               {
                 "@type": "BreadcrumbList",
                 itemListElement: [
-                  { "@type": "ListItem", position: 1, name: "MeilleurVille", item: BASE_URL },
+                  { "@type": "ListItem", position: 1, name: "MaVilleIdeal", item: BASE_URL },
                   { "@type": "ListItem", position: 2, name: "Comparer régions", item: `${BASE_URL}/comparer-regions` },
                   { "@type": "ListItem", position: 3, name: `${a} vs ${b}`, item: `${BASE_URL}/comparer-regions/${pair}` },
                 ],

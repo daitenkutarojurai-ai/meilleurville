@@ -32,7 +32,7 @@ const ITEMS: Item[] = [
     href: "/faq",
     emoji: "❓",
     label: "FAQ",
-    desc: "Tout ce qu'on nous demande sur MeilleurVille en un seul endroit.",
+    desc: "Tout ce qu'on nous demande sur MaVilleIdeal en un seul endroit.",
   },
 ];
 
@@ -49,7 +49,7 @@ export function StaticPageCrossLink({ exclude }: { exclude: string }) {
     <section className="border-t border-[var(--border)] bg-[var(--bg-surface)] py-12">
       <div className="mx-auto max-w-4xl px-4 sm:px-6">
         <p className="text-xs uppercase tracking-widest text-[var(--text-tertiary)] font-semibold mb-5">
-          Ailleurs sur MeilleurVille
+          Ailleurs sur MaVilleIdeal
         </p>
         <div className="grid sm:grid-cols-3 gap-4">
           {items.map((i) => (

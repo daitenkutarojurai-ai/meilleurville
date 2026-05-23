@@ -19,7 +19,7 @@ const COPY = IS_EN
       quizB: "quiz",
     }
   : {
-      brand: "MeilleurVille",
+      brand: "MaVilleIdeal",
       eyebrow: "La référence pour choisir où vivre en France",
       line1: "Trouvez la ville",
       line2: "qui vous ressemble",

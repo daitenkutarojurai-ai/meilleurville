@@ -35,10 +35,10 @@ const SITE_URL =
 const HTML_LANG = DEFAULT_LOCALE === "en" ? "en" : "fr";
 
 const IS_EN = DEFAULT_LOCALE === "en";
-const SITE_NAME = IS_EN ? "BestCitiesInFrance" : "MeilleurVille";
+const SITE_NAME = IS_EN ? "BestCitiesInFrance" : "MaVilleIdeal";
 const SITE_TITLE = IS_EN
   ? "BestCitiesInFrance — Find the French city that fits you"
-  : "MeilleurVille — Trouvez la ville qui vous ressemble";
+  : "MaVilleIdeal — Trouvez la ville qui vous ressemble";
 const SITE_DESCRIPTION = IS_EN
   ? `AI + lived experience + ${CITIES_COUNT} cities of official data. Rankings, resident reviews, lifestyle-matching quiz — independent and unbiased.`
   : "IA + vraies expériences + données locales. Classements, avis d'habitants, quiz de matching. La référence pour choisir où vivre en France.";
@@ -123,7 +123,7 @@ const organizationJsonLd = {
       sameAs: [],
       description: IS_EN
         ? "BestCitiesInFrance — independent reference for choosing where to live in France. City rankings, resident reviews and a matching quiz built on official data (Insee, Ministry of Interior, observatoires des loyers)."
-        : "MeilleurVille — la référence indépendante pour choisir où vivre en France. Classements de villes, avis d'habitants, quiz de matching basés sur des données publiques (Insee, SSMSI, observatoires des loyers).",
+        : "MaVilleIdeal — la référence indépendante pour choisir où vivre en France. Classements de villes, avis d'habitants, quiz de matching basés sur des données publiques (Insee, SSMSI, observatoires des loyers).",
     },
     {
       "@type": "WebSite",

@@ -4,15 +4,14 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { CommentSection } from "@/components/CommentSection";
 import { CITIES_SEED } from "@/data/cities-seed";
-import { CityCard } from "@/components/CityCard";
 import { Badge } from "@/components/ui/Badge";
 import { Card } from "@/components/ui/Card";
 import type { City } from "@/lib/types";
 import Link from "next/link";
 import { getHousing } from "@/data/housing";
-import { scoreColor, scoreHex } from "@/lib/utils";
 import React from "react";
 import { TripletView } from "./TripletView";
+import { VsBattle } from "@/components/VsBattle";
 
 type Props = { params: Promise<{ pair: string }> };
 
@@ -157,7 +156,7 @@ export default async function PairPage({ params }: Props) {
               {
                 "@type": "BreadcrumbList",
                 itemListElement: [
-                  { "@type": "ListItem", position: 1, name: "MeilleurVille", item: process.env.NEXT_PUBLIC_BASE_URL ?? "https://www.mavilleideale.fr" },
+                  { "@type": "ListItem", position: 1, name: "MaVilleIdeal", item: process.env.NEXT_PUBLIC_BASE_URL ?? "https://www.mavilleideale.fr" },
                   { "@type": "ListItem", position: 2, name: "Comparer", item: `${process.env.NEXT_PUBLIC_BASE_URL ?? "https://www.mavilleideale.fr"}/comparer` },
                   { "@type": "ListItem", position: 3, name: `${seedA.name} vs ${seedB.name}`, item: `${process.env.NEXT_PUBLIC_BASE_URL ?? "https://www.mavilleideale.fr"}/comparer/${pair}` },
                 ],
@@ -225,39 +224,22 @@ export default async function PairPage({ params }: Props) {
       />
 
       {/* Header */}
-      <section className="bg-[var(--bg-surface)] border-b border-[var(--border)] py-12">
+      <section className="bg-[var(--bg-surface)] border-b border-[var(--border)] py-8 sm:py-10">
         <div className="mx-auto max-w-5xl px-4 sm:px-6">
-          <Badge variant="accent" className="mb-3">Comparaison 2026</Badge>
+          <Badge variant="accent" className="mb-3">Comparaison 2026 · Mode battle</Badge>
           <h1 className="text-3xl sm:text-4xl font-bold text-[var(--text-primary)] mb-2">
             {seedA.name}{" "}
             <span className="text-[var(--text-secondary)]">vs</span>{" "}
             {seedB.name}
           </h1>
           <p className="text-[var(--text-secondary)]">
-            {seedA.region} · {seedA.scores.global}/10 &nbsp;vs&nbsp; {seedB.region} · {seedB.scores.global}/10
+            Duel critère par critère, avec verdict final.
           </p>
         </div>
       </section>
 
-      <div className="mx-auto max-w-5xl px-4 sm:px-6 py-12 space-y-10">
-        {/* Cards */}
-        <div className="grid grid-cols-2 gap-4">
-          <CityCard city={cityA} />
-          <CityCard city={cityB} />
-        </div>
-
-        {/* Winner verdict */}
-        {winner && (
-          <div className="rounded-2xl border border-emerald-400/30 bg-emerald-500/5 p-6 text-center">
-            <p className="text-sm text-[var(--text-secondary)] mb-1">Recommandé par MeilleurVille</p>
-            <p className="text-xl font-bold text-emerald-600">
-              {winner.name} l&apos;emporte sur {SCORE_ROWS.length - Math.min(winsA, winsB)} critères
-            </p>
-            <p className="text-xs text-[var(--text-secondary)] mt-1">
-              Résultat basé sur 9 critères pondérés équitablement
-            </p>
-          </div>
-        )}
+      <div className="mx-auto max-w-5xl px-4 sm:px-6 py-8 sm:py-12 space-y-10">
+        <VsBattle a={seedA} b={seedB} />
 
         {/* F63 cross-link: synthèse 8 axes */}
         <Link
@@ -277,54 +259,6 @@ export default async function PairPage({ params }: Props) {
             <span className="shrink-0 text-[var(--accent)] text-sm font-semibold">→</span>
           </div>
         </Link>
-
-        {/* Head-to-head table */}
-        <Card>
-          <h2 className="text-base font-semibold text-[var(--text-primary)] mb-6">
-            Comparaison critère par critère
-          </h2>
-          <div className="space-y-5">
-            {SCORE_ROWS.map(({ key, label }) => {
-              const va = seedA.scores[key];
-              const vb = seedB.scores[key];
-              const diff = va - vb;
-              return (
-                <div key={key}>
-                  <div className="flex justify-between text-xs text-[var(--text-secondary)] mb-2">
-                    <span className={diff > 0 ? "font-bold text-emerald-600" : ""}>{seedA.name}</span>
-                    <span className="font-medium text-[var(--text-primary)]">{label}</span>
-                    <span className={diff < 0 ? "font-bold text-emerald-600" : ""}>{seedB.name}</span>
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <span className={`w-8 text-right text-sm font-bold font-mono-data ${diff > 0 ? scoreColor(va) : "text-[var(--text-secondary)]"}`}>
-                      {va.toFixed(1)}
-                    </span>
-                    <div className="flex-1 flex gap-1">
-                      {/* A bar — right-aligned */}
-                      <div className="flex-1 flex justify-end">
-                        <div
-                          className="h-2 rounded-l-full"
-                          style={{ width: `${(va / 10) * 100}%`, background: diff > 0 ? scoreHex(va) : `${scoreHex(va)}44` }}
-                        />
-                      </div>
-                      <div className="w-px bg-[var(--border)]" />
-                      {/* B bar — left-aligned */}
-                      <div className="flex-1">
-                        <div
-                          className="h-2 rounded-r-full"
-                          style={{ width: `${(vb / 10) * 100}%`, background: diff < 0 ? scoreHex(vb) : `${scoreHex(vb)}44` }}
-                        />
-                      </div>
-                    </div>
-                    <span className={`w-8 text-sm font-bold font-mono-data ${diff < 0 ? scoreColor(vb) : "text-[var(--text-secondary)]"}`}>
-                      {vb.toFixed(1)}
-                    </span>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-        </Card>
 
         {/* Climate */}
         <Card>

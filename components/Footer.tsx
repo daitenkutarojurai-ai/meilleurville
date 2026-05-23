@@ -71,7 +71,7 @@ const PUBLISHER_LINE =
 const COPY_LINE =
   DEFAULT_LOCALE === "en"
     ? "© 2026 BestCitiesInFrance · Made with"
-    : "© 2026 MeilleurVille · Fait avec";
+    : "© 2026 MaVilleIdeal · Fait avec";
 const COPY_SUFFIX =
   DEFAULT_LOCALE === "en" ? "in France" : "en France";
 const SIGNAL_LINE =
@@ -85,7 +85,7 @@ const BRAND_DISPLAY =
     </>
   ) : (
     <>
-      Meilleur<span className="text-[var(--accent)]">Ville</span>
+      MaVille<span className="text-[var(--accent)]">Ideal</span>
     </>
   );
 

@@ -8,7 +8,7 @@ import { GuidesGrid } from "@/components/GuidesGrid";
 import { getAllTagsWithCounts } from "@/lib/guide-tags";
 
 export const metadata: Metadata = {
-  title: "Guides · Bien choisir sa ville en France | MeilleurVille",
+  title: "Guides · Bien choisir sa ville en France | MaVilleIdeal",
   description:
     `${GUIDES.length} guides complets pour choisir sa ville en France : télétravail, famille, budget, qualité de vie. Analyses honnêtes avec données réelles.`,
   alternates: {
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     types: { "application/rss+xml": "/guides/feed.xml" },
   },
   openGraph: {
-    title: "Guides · Bien choisir sa ville | MeilleurVille",
+    title: "Guides · Bien choisir sa ville | MaVilleIdeal",
     description: "Tous nos guides pour vous aider à trouver la ville faite pour vous.",
   },
 };
@@ -26,11 +26,11 @@ export default function GuidesPage() {
   const collectionJsonLd = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
-    name: "Guides MeilleurVille",
+    name: "Guides MaVilleIdeal",
     description: `Tous les guides pour bien choisir sa ville en France (${GUIDES.length} guides).`,
     url: `${baseUrl}/guides`,
     inLanguage: "fr-FR",
-    isPartOf: { "@type": "WebSite", name: "MeilleurVille", url: baseUrl },
+    isPartOf: { "@type": "WebSite", name: "MaVilleIdeal", url: baseUrl },
     breadcrumb: {
       "@type": "BreadcrumbList",
       itemListElement: [

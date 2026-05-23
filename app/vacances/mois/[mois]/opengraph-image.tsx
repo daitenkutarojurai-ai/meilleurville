@@ -5,7 +5,7 @@ import {
   formatMonthLabel,
 } from "@/lib/vacation-seasons";
 
-export const alt = "Où partir en France ce mois-ci · MeilleurVille";
+export const alt = "Où partir en France ce mois-ci · MaVilleIdeal";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -13,7 +13,7 @@ export const contentType = "image/png";
 export function generateImageMetadata() {
   return MONTHS.map((slug) => ({
     id: slug,
-    alt: `Où partir en France en ${slug} · MeilleurVille`,
+    alt: `Où partir en France en ${slug} · MaVilleIdeal`,
     size,
     contentType,
   }));

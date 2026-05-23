@@ -32,10 +32,10 @@ export async function GET() {
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>MeilleurVille — Guides</title>
+    <title>MaVilleIdeal — Guides</title>
     <link>${BASE_URL}/guides</link>
     <atom:link href="${BASE_URL}/feed.xml" rel="self" type="application/rss+xml" />
-    <description>Guides MeilleurVille — où vivre en France, sans bullshit, données à l'appui.</description>
+    <description>Guides MaVilleIdeal — où vivre en France, sans bullshit, données à l'appui.</description>
     <language>fr-FR</language>
     <lastBuildDate>${new Date(sorted[0].updatedAt).toUTCString()}</lastBuildDate>
 ${items}

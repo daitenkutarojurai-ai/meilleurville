@@ -78,16 +78,16 @@ export default async function GuidePage({ params }: Props) {
     keywords: guide.tags?.join(", "),
     wordCount: articleWordCount,
     timeRequired: `PT${guide.readMinutes}M`,
-    author: { "@type": "Organization", name: "MeilleurVille", url: baseUrl },
+    author: { "@type": "Organization", name: "MaVilleIdeal", url: baseUrl },
     publisher: {
       "@type": "Organization",
-      name: "MeilleurVille",
+      name: "MaVilleIdeal",
       url: baseUrl,
     },
     breadcrumb: {
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "MeilleurVille", item: baseUrl },
+        { "@type": "ListItem", position: 1, name: "MaVilleIdeal", item: baseUrl },
         { "@type": "ListItem", position: 2, name: "Guides", item: `${baseUrl}/guides` },
         { "@type": "ListItem", position: 3, name: guide.title, item: `${baseUrl}/guides/${guide.slug}` },
       ],

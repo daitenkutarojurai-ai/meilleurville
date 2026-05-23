@@ -4,16 +4,16 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Politique de confidentialité · MeilleurVille",
+  title: "Politique de confidentialité · MaVilleIdeal",
   description:
-    "Données collectées, cookies, liens d'affiliation, droits RGPD : politique de confidentialité de MeilleurVille.",
+    "Données collectées, cookies, liens d'affiliation, droits RGPD : politique de confidentialité de MaVilleIdeal.",
   alternates: { canonical: "/confidentialite" },
 };
 
 const SECTIONS = [
   {
     title: "1. Qui est responsable de vos données ?",
-    content: `Le responsable du traitement est Thomas Fendrich, entrepreneur individuel (SIREN 797 983 665), éditeur de MeilleurVille (mavilleideale.fr) et de BestCitiesInFrance (bestcitiesinfrance.com).
+    content: `Le responsable du traitement est Thomas Fendrich, entrepreneur individuel (SIREN 797 983 665), éditeur de MaVilleIdeal (mavilleideale.fr) et de BestCitiesInFrance (bestcitiesinfrance.com).
 
 Contact RGPD : privacy@mavilleideale.fr
 Contact général : hello@mavilleideale.fr
@@ -22,7 +22,7 @@ Le site n'emploie ni délégué à la protection des données (DPO), ni co-respo
   },
   {
     title: "2. Données collectées",
-    content: `Sur MeilleurVille, nous collectons strictement le minimum nécessaire :
+    content: `Sur MaVilleIdeal, nous collectons strictement le minimum nécessaire :
 
 • Adresse e-mail — uniquement si vous vous inscrivez à la newsletter ou laissez un avis.
 • Contenu des avis et commentaires que vous publiez volontairement (texte, scores, tags).
@@ -43,7 +43,7 @@ Aucune donnée n'est utilisée pour de la publicité ciblée ou du profilage com
   },
   {
     title: "4. Cookies et traceurs",
-    content: `MeilleurVille utilise un minimum strict de cookies :
+    content: `MaVilleIdeal utilise un minimum strict de cookies :
 
 • Cookies techniques nécessaires : session de navigation, préférences d'interface (thème, langue). Ces cookies sont exemptés de consentement (art. 82 loi Informatique & Libertés, recommandation CNIL).
 • Aucun cookie publicitaire tiers — pas de Facebook Pixel, pas de Google Ads, pas de retargeting, pas de Hotjar.
@@ -55,7 +55,7 @@ Booking.com peut déposer ses propres cookies si vous cliquez sur un lien parten
   },
   {
     title: "5. Liens d'affiliation Booking.com",
-    content: `MeilleurVille participe au programme Booking.com Partners. Certains liens sortants vers Booking.com (boutons « Trouver un hôtel », barre flottante, fiches vacances) sont des liens partenaires.
+    content: `MaVilleIdeal participe au programme Booking.com Partners. Certains liens sortants vers Booking.com (boutons « Trouver un hôtel », barre flottante, fiches vacances) sont des liens partenaires.
 
 Concrètement : si vous cliquez sur un de ces liens et réservez un hébergement sur Booking, nous touchons une petite commission de Booking. Cela ne change rien au prix que vous payez. Cela ne nous donne pas accès à vos données de réservation : Booking ne nous communique que des statistiques agrégées et anonymes (nombre de clics, nombre de réservations, montant total commissionné).
 
@@ -97,7 +97,7 @@ Nous ne vendons jamais vos données. Nous ne les partageons jamais avec des cour
   },
   {
     title: "9. Mineurs",
-    content: `MeilleurVille n'est pas destiné aux mineurs de moins de 15 ans. Nous ne collectons pas sciemment de données concernant des mineurs. Si vous êtes un parent ou tuteur et que vous constatez que votre enfant nous a transmis des données, écrivez à privacy@mavilleideale.fr — nous les supprimerons sans délai.`,
+    content: `MaVilleIdeal n'est pas destiné aux mineurs de moins de 15 ans. Nous ne collectons pas sciemment de données concernant des mineurs. Si vous êtes un parent ou tuteur et que vous constatez que votre enfant nous a transmis des données, écrivez à privacy@mavilleideale.fr — nous les supprimerons sans délai.`,
   },
   {
     title: "10. Mise à jour de la politique",

@@ -37,7 +37,7 @@ export function WidgetGenerator({ cities }: { cities: CityLite[] }) {
   }, [format, city, city2]);
 
   const snippet = useMemo(() => {
-    return `<iframe src="${embedUrl}" width="${formatMeta.w}" height="${formatMeta.h}" loading="lazy" frameborder="0" style="border:0;max-width:100%" title="MeilleurVille — ${city}"></iframe>`;
+    return `<iframe src="${embedUrl}" width="${formatMeta.w}" height="${formatMeta.h}" loading="lazy" frameborder="0" style="border:0;max-width:100%" title="MaVilleIdeal — ${city}"></iframe>`;
   }, [embedUrl, formatMeta, city]);
 
   const copy = async () => {

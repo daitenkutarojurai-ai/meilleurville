@@ -7,9 +7,9 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 
 export const metadata: Metadata = {
-  title: "À propos · MeilleurVille",
+  title: "À propos · MaVilleIdeal",
   description:
-    "Découvrez la mission de MeilleurVille : aider chaque Français à trouver la ville faite pour lui, avec des données réelles et des avis honnêtes.",
+    "Découvrez la mission de MaVilleIdeal : aider chaque Français à trouver la ville faite pour lui, avec des données réelles et des avis honnêtes.",
   alternates: { canonical: "/about" },
 };
 
@@ -34,7 +34,7 @@ const TEAM = [
   {
     name: "Équipe Communauté",
     role: "Avis & contributions",
-    description: "La qualité de MeilleurVille dépend de la communauté. Nous avons construit des systèmes anti-manipulation et de vérification pour que chaque avis compte.",
+    description: "La qualité de MaVilleIdeal dépend de la communauté. Nous avons construit des systèmes anti-manipulation et de vérification pour que chaque avis compte.",
     emoji: "🤝",
   },
 ];
@@ -78,7 +78,7 @@ export default function AboutPage() {
           <p className="text-[var(--text-secondary)] text-lg leading-relaxed">
             Changer de ville est une des décisions les plus importantes de votre vie. Elle mérite
             mieux qu&apos;un guide touristique ou un classement basé sur des critères abstraits.
-            MeilleurVille est le Glassdoor des villes : des données réelles, des avis honnêtes,
+            MaVilleIdeal est le Glassdoor des villes : des données réelles, des avis honnêtes,
             aucune langue de bois.
           </p>
         </div>
@@ -102,7 +102,7 @@ export default function AboutPage() {
 
         {/* Origin story */}
         <div>
-          <h2 className="text-2xl font-bold text-[var(--text-primary)] mb-6">Pourquoi MeilleurVille existe</h2>
+          <h2 className="text-2xl font-bold text-[var(--text-primary)] mb-6">Pourquoi MaVilleIdeal existe</h2>
           <div className="space-y-4 text-[var(--text-secondary)] leading-relaxed">
             <p>
               Tout a commencé avec une question simple : <em className="text-[var(--text-primary)]">&quot;Où vivre en France pour être heureux ?&quot;</em>
@@ -115,7 +115,7 @@ export default function AboutPage() {
               et Tripadvisor (dense, orienté usages), appliqué aux villes où vous envisagez de vivre.
             </p>
             <p>
-              MeilleurVille ne vend pas de publicité pour les villes. Ne reçoit pas d&apos;argent des offices de tourisme.
+              MaVilleIdeal ne vend pas de publicité pour les villes. Ne reçoit pas d&apos;argent des offices de tourisme.
               Ne classe pas les villes selon leur budget marketing. La seule chose qui monte un score, c&apos;est la réalité.
             </p>
           </div>

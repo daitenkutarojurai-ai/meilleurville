@@ -217,7 +217,7 @@ export function Navbar() {
               {IS_EN ? (
                 <>Best<span className="text-[var(--accent)]">CitiesInFrance</span></>
               ) : (
-                <>Meilleur<span className="text-[var(--accent)]">Ville</span></>
+                <>MaVille<span className="text-[var(--accent)]">Ideal</span></>
               )}
             </span>
           </Link>
