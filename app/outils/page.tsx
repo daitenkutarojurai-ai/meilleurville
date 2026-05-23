@@ -24,9 +24,41 @@ type Tool = {
 
 const TOOLS: Tool[] = [
   {
-    href: "/quiz",
+    href: "/city-match",
+    emoji: "🌸",
+    title: "City Match",
+    desc:
+      `8 questions, 90 secondes. Top 3 ville mis à jour à chaque réponse + un match surprise, et un lien partageable pour montrer le résultat à vos proches. Aucun email demandé.`,
+    cta: "Lancer City Match",
+  },
+  {
+    href: "/future-you",
     emoji: "✨",
-    title: "Quiz IA",
+    title: "Future You — la vie en chiffres",
+    desc:
+      "Salaire, foyer, mode de vie, priorités : reste à vivre, heures libres par semaine, niveau de stress et match climat dans les 3 villes qui vous conviennent le mieux.",
+    cta: "Simuler ma vie",
+  },
+  {
+    href: "/people-like-you",
+    emoji: "👥",
+    title: "People like you",
+    desc:
+      "11 profils types × 50 grandes villes : où des gens comme vous (famille, freelance, retraité·e…) gagneraient à s'installer en quittant leur ville actuelle.",
+    cta: "Voir les destinations",
+  },
+  {
+    href: "/climat-2040-timelapse",
+    emoji: "🌡️",
+    title: "Climat 2040 — timelapse",
+    desc:
+      "Glissez le curseur de 2026 à 2040 : la France passe du bleu au rouge à mesure que le climat se réchauffe. Métriques : température juillet, jours > 30 °C, nuits tropicales.",
+    cta: "Lancer le timelapse",
+  },
+  {
+    href: "/quiz",
+    emoji: "🧠",
+    title: "Quiz IA classique",
     desc:
       `Répondez à 7 questions sur vos priorités (climat, budget, écoles, mobilité) — on classe les ${CITIES_COUNT} villes selon votre profil personnel.`,
     cta: "Faire le quiz",
