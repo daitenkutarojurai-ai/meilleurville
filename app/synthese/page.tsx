@@ -26,7 +26,7 @@ import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: "Synthèse 8 axes · palmarès, comparatifs, profils régionaux | MaVilleIdeal",
+  title: "Synthèse 8 axes · palmarès et comparatifs | MaVilleIdeal",
   description: `Système synthèse : 8 axes data (env / santé / emploi / cadre / vélo / sécurité / démo / services publics) unifiés sur ${CITIES_COUNT} villes, ${DEPARTMENTS_COUNT} départements, ${REGIONS_COUNT} régions, 6 macro-régions, palmarès national. Comparer 2 villes ou 2 régions, palmarès personnalisé.`,
   alternates: { canonical: "/synthese" },
   openGraph: {

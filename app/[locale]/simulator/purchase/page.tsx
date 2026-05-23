@@ -20,7 +20,7 @@ export const revalidate = false;
 const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const metadata: Metadata = {
-  title: "Property purchase simulator 2026 · Where to buy in France on your budget",
+  title: "Property purchase simulator 2026 · France on your budget",
   description:
     "Enter your budget and target floor area — see the top 15 affordable French cities ranked by quality of life, with monthly mortgage payment and estimated notary fees.",
   alternates: { canonical: `${EN_BASE}/simulator/purchase` },

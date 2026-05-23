@@ -194,6 +194,28 @@ export default function HomePage() {
             <p className="text-[var(--text-secondary)]">Tapez votre loyer et votre salaire, on calcule l&apos;écart, ville par ville.</p>
           </div>
           <CostCalculator />
+
+          <div className="mt-8">
+            <a
+              href="/future-you"
+              className="group block rounded-2xl border border-[var(--accent)]/30 bg-gradient-to-br from-[var(--accent)]/10 to-transparent p-5 hover:border-[var(--accent)] hover:shadow-md transition-all"
+            >
+              <div className="flex items-center justify-between gap-3">
+                <div className="min-w-0">
+                  <div className="text-xs uppercase tracking-widest font-bold text-[var(--accent)] mb-1">
+                    ✨ Pour aller plus loin · Future You
+                  </div>
+                  <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
+                    Simulez votre vie complète dans une autre ville
+                  </div>
+                  <div className="text-xs text-[var(--text-tertiary)] mt-0.5">
+                    Reste à vivre, heures libres, stress, climat — chiffres concrets, pas que des scores.
+                  </div>
+                </div>
+                <span className="shrink-0 text-[var(--accent)] text-lg font-bold">→</span>
+              </div>
+            </a>
+          </div>
         </div>
       </section>
       <RedFlagTeaser />

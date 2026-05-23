@@ -9,7 +9,7 @@ import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: "Quiz Cadre de Vie personnalisé · vos priorités, votre top 10 villes",
+  title: "Quiz Cadre de Vie personnalisé · votre top 10 villes",
   description:
     "Quiz court : pondérez environnement, santé et emploi selon vos priorités personnelles. Top 10 villes recalculé en direct + lien partageable. Index F52 reweighté.",
   alternates: { canonical: "/cadre-de-vie/personnaliser" },

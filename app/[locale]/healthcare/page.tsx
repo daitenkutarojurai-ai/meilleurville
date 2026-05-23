@@ -24,12 +24,12 @@ export async function generateStaticParams() {
 }
 
 export const metadata: Metadata = {
-  title: "Healthcare access in France · best hospitals vs medical deserts 2026",
+  title: "Healthcare access in France · hospitals vs deserts 2026",
   description:
     "National ranking of French cities by healthcare access: GPs, specialists, A&E, pharmacies. Top 30 best-served cities vs top 20 medical deserts. Sources: DREES / CNOM / ARS.",
   alternates: { canonical: `${EN_BASE}/healthcare` },
   openGraph: {
-    title: "Healthcare access in France · best hospitals vs medical deserts 2026",
+    title: "Healthcare access in France · hospitals vs deserts 2026",
     description:
       "Top 30 best-served cities (GPs + specialists + A&E) vs top 20 confirmed medical deserts.",
   },

@@ -15,7 +15,7 @@ export const revalidate = false;
 const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const metadata: Metadata = {
-  title: "Red Flag Themes 2026 · 16 risk patterns across French cities | BestCitiesInFrance",
+  title: "Red Flag Themes 2026 · 16 risks | BestCitiesInFrance",
   description: `16 thematic risk rankings built from open data (Géorisques, ATMO, SSMSI, BRGM) across ${CITIES_SEED.length} French cities. Which cities swelter in summer, depend on cars, face water stress, or drain your budget fastest?`,
   alternates: { canonical: `${EN_BASE}/red-flags/themes` },
 };

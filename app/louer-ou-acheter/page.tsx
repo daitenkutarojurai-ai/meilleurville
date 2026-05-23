@@ -8,7 +8,7 @@ import { buildAllRentVsBuy, VERDICT_META } from "@/lib/rent-vs-buy";
 
 export const metadata: Metadata = {
   title: "Louer ou acheter en France 2026 · Ratio prix/loyer par ville",
-  description: "Classement des villes françaises par ratio prix/loyer (PER immobilier). Les villes où l'achat s'amortit vite vs celles où louer reste rationnel. Médians + barèmes 2026.",
+  description: "Ratio prix/loyer par ville : où acheter s'amortit vite vs où louer reste rationnel. PER immobilier + médians 2026.",
   alternates: { canonical: "/louer-ou-acheter" },
   openGraph: {
     title: "Louer ou acheter ? Classement France 2026",

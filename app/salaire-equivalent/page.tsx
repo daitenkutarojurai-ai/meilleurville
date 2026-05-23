@@ -13,7 +13,7 @@ import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";
 
 export const metadata: Metadata = {
-  title: "Salaire équivalent entre villes 2026 · Calculateur reste à vivre",
+  title: "Salaire équivalent entre villes · Calculateur 2026",
   description: `Combien gagner dans une autre ville pour garder le même reste à vivre ? Calculateur interactif ${CITIES_COUNT} villes françaises. Loyer, mobilité, taxes inclus.`,
   alternates: { canonical: "/salaire-equivalent" },
 };

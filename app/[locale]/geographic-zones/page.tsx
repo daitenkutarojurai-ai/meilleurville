@@ -18,7 +18,7 @@ export const revalidate = false;
 const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const metadata: Metadata = {
-  title: "French geographic zones 2026 · Atlantic coast, Mediterranean arc, Alps and more",
+  title: "French geographic zones 2026 · Coast, Arc, Alps",
   description:
     "6 thematic zones that match real relocation projects: Atlantic coast, Mediterranean arc, Alpine arc, South-West, Rhône Valley, Greater Paris. Beyond administrative regions.",
   alternates: { canonical: `${EN_BASE}/geographic-zones` },

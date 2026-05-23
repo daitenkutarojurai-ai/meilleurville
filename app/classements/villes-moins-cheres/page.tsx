@@ -11,7 +11,7 @@ import { scoreColor } from "@/lib/utils";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 
 export const metadata: Metadata = {
-  title: "Villes les moins chères de France 2026 · Loyer T2 le plus bas",
+  title: "Villes les moins chères de France 2026 · Loyer T2",
   description:
     "Top 50 des villes françaises où se loger coûte le moins cher en 2026. Classement par loyer T2 médian croissant — données observatoires des loyers (ANIL) et prix m² DVF.",
   alternates: { canonical: "/classements/villes-moins-cheres" },

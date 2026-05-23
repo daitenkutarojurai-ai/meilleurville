@@ -17,7 +17,7 @@ import { CITIES_COUNT } from "@/lib/site-stats";
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: "Villes cyclables en France · palmarès 2026 réseau, relief, sécurité",
+  title: "Villes cyclables en France · palmarès 2026",
   description:
     "Classement national des villes françaises selon la cyclabilité quotidienne : réseau cyclable, topographie, sécurité, climat. Top 30 villes les plus cyclables vs. top 20 les plus difficiles à vélo.",
   alternates: { canonical: "/velo" },

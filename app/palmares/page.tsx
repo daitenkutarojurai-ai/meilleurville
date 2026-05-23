@@ -17,7 +17,7 @@ import { CITIES_COUNT } from "@/lib/site-stats";
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: "Palmarès national 2026 · Meilleur cadre de vie en France toutes dimensions",
+  title: "Palmarès national 2026 · Meilleur cadre de vie en France",
   description: `Classement national unifié des ${CITIES_COUNT} villes françaises sur les 8 dimensions data du site (environnement, santé, emploi, cadre de vie, vélo, sécurité, démographie, services publics). Top 30 profils les plus favorables vs. top 20 plus tendus.`,
   alternates: { canonical: "/palmares" },
   openGraph: {

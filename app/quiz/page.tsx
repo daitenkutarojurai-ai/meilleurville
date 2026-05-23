@@ -29,6 +29,7 @@ export default function QuizPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(quizBreadcrumb)} />
       <AmbientBackground />
       <Navbar />
+      <h1 className="sr-only">Quiz · Trouvez votre ville idéale en France</h1>
       <QuizFlow />
       <Footer />
     </main>

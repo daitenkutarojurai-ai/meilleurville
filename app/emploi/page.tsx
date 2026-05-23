@@ -17,7 +17,7 @@ import { CITIES_COUNT } from "@/lib/site-stats";
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: "Marché du travail en France · meilleures villes pour trouver un emploi 2026",
+  title: "Marché du travail en France · meilleures villes 2026",
   description:
     "Classement national des villes françaises selon le marché du travail : chômage INSEE, dynamisme SIRENE, mix sectoriel, salaire net médian. Top 30 villes favorables vs. top 20 marchés sinistrés.",
   alternates: { canonical: "/emploi" },

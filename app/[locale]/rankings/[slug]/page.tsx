@@ -319,7 +319,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const en = RANKING_EN[slug] ?? {
     label: slug,
     headline: `Ranking · ${slug}`,
-    description: "French city ranking based on official data.",
+    description: "French city ranking built from official open data — INSEE, Ministry of Interior, observatoires des loyers.",
     methodology: "",
     why: [],
   };

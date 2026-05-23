@@ -9,7 +9,7 @@ import { MACRO_REGIONS, citiesInMacroRegion } from "@/lib/macro-regions";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 
 export const metadata: Metadata = {
-  title: "Macro-régions françaises 2026 · Côte, arc, vallée par zone géographique",
+  title: "Macro-régions françaises 2026 · Côte, arc, vallée",
   description:
     "6 macro-régions thématiques au-delà du découpage administratif : côte atlantique, arc méditerranéen, arc alpin, sud-ouest gascon, vallée du Rhône, Île-de-France élargie.",
   alternates: { canonical: "/macro-region" },

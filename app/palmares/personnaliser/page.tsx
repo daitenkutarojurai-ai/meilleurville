@@ -9,7 +9,7 @@ import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: "Palmarès personnalisé · pondère les 8 axes selon tes priorités 2026",
+  title: "Palmarès personnalisé 8 axes · top 10 villes 2026",
   description:
     "Quiz court 8 sliders : pondérez environnement, santé, emploi, cadre de vie, vélo, sécurité, démographie, services publics selon vos priorités. Top 10 villes recalculé en direct + lien partageable.",
   alternates: { canonical: "/palmares/personnaliser" },

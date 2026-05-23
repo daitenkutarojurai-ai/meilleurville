@@ -7,7 +7,7 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 
 export const metadata: Metadata = {
-  title: "Villes par département · Tous les départements français | MaVilleIdeal",
+  title: "Villes par département · France | MaVilleIdeal",
   description:
     "Explorez les meilleures villes françaises département par département : Isère, Ille-et-Vilaine, Gironde, Hérault et plus. Scores comparés, top villes.",
   alternates: { canonical: "/departements" },
