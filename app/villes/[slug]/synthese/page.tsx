@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
+import { DiscussionCTA } from "@/components/DiscussionCTA";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
 import { CITIES_SEED } from "@/data/cities-seed";
@@ -273,6 +274,10 @@ export default async function SynthesePage({ params }: Props) {
             → Voir le palmarès national (classement universel 8 axes)
           </Link>
         </div>
+      </section>
+
+      <section className="mx-auto max-w-5xl px-4 sm:px-6 pb-8">
+        <DiscussionCTA citySlug={city.slug} cityName={city.name} />
       </section>
 
       <Footer />
