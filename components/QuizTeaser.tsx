@@ -71,6 +71,16 @@ export function QuizTeaser({ citiesCount }: { citiesCount: number }) {
                   </span>
                 </div>
 
+                <div className="mt-3">
+                  <Link
+                    href="/city-match"
+                    className="inline-flex items-center gap-1.5 text-sm font-semibold text-[var(--accent)] hover:underline"
+                  >
+                    ✨ Nouveau · Essayer City Match (résultat partageable)
+                    <ArrowRight className="h-3.5 w-3.5" />
+                  </Link>
+                </div>
+
                 {/* Steps */}
                 <div className="mt-10 grid grid-cols-3 gap-2 sm:gap-3">
                   {STEPS.map(({ icon: Icon, label }, i) => (
