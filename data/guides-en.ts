@@ -4775,6 +4775,114 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["paris", "bordeaux", "nantes", "rennes", "angers", "caen"],
     tags: ["leaving paris 2026", "paris expat destination guide", "where to move from paris", "best french cities parisians move to", "paris to bordeaux nantes rennes"],
   },
+  {
+    slug: "montpellier-living-guide-for-expats-2026",
+    title: "Living in Montpellier: the honest expat guide for 2026",
+    metaTitle: "Living in Montpellier 2026 — Expat Guide: Cost, Beaches, University, Pros and Cons",
+    metaDesc: "Montpellier: Mediterranean sun, 12km from the sea, 250,000 students, TGV to Paris. But also: summer heat, housing tension, and a job market that is narrower than it looks. Full picture.",
+    category: "city-guide",
+    emoji: "☀️",
+    readMinutes: 7,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "Montpellier is France's fastest-growing city over the past 30 years — driven by its university (one of the oldest in the world, founded 1220), its Mediterranean climate, and an influx of young professionals seeking an alternative to Paris. In 2026, it has over 300,000 inhabitants and a rental market that reflects its desirability. Here is the honest picture.",
+    sections: [
+      {
+        heading: "Housing: desirable and increasingly expensive",
+        body: "Montpellier is no longer the cheap city it was in the 1990s. Current median prices: Écusson (historic centre, pedestrian lanes): €4,500-6,500/m². Arceaux, Boutonnet (bourgeois residential, north centre): €4,000-5,200/m². Antigone (neo-classical neighbourhood, Ricardo Bofill): €3,500-4,500/m². Figuerolles (multicultural, affordable, market): €3,000-4,000/m². Port Marianne (modern development east, tramway): €4,000-5,500/m². Périphérie (Grabels, Castelnau-le-Lez, Pérols near the sea): €2,800-4,500/m². Rent for a T2 (50m²): €750-1,000/month unfurnished, €850-1,150/month furnished in central areas. The beach village of Palavas-les-Flots (12km south) runs €900-1,300/month for a T2 — and the demand from summer renters keeps prices elevated year-round.",
+      },
+      {
+        heading: "The beach: closer than people expect",
+        body: "The sea is 12-15km from Montpellier city centre. By tram (Line 3 to Pérols then bus to Palavas) or by bike on the dedicated cycle path along the Lez river, it is accessible without a car in 35-50 minutes. In summer, the beaches at Palavas-les-Flots, La Grande-Motte, and Carnon are genuinely pleasant Mediterranean beaches — fine sand, warm water, full infrastructure. The practical caveat: they are tourist beaches in July-August, crowded and expensive. Locals either go early (before 10am), have a boat, or escape to less-visited spots on weekdays.",
+      },
+      {
+        heading: "Transport: one of France's best tram networks",
+        body: "Montpellier has four tram lines (Lines 1, 2, 3, 4) covering the city and extending to its suburbs. The network is genuinely comprehensive for a city of its size — built progressively from 2000 onwards. A monthly pass (TaM) costs €45/month. Cycling: the city has made real investments in cycle infrastructure, and Montpellier is rated among the top 5 French cities for cycling. The terrain is flat, which helps. Car: useful for the hinterland (Cévennes mountains 1h north, Camargue 1h south, Provence east) but unnecessary for daily urban life in the central neighbourhoods. TGV connections: Paris in 3h20, Barcelona in 2h30 — the Spanish connection is underused but genuinely fast.",
+      },
+      {
+        heading: "The summer heat: a real consideration",
+        body: "Montpellier has a Mediterranean climate with genuine summer heat. July-August regularly sees temperatures above 35°C, with occasional heatwaves above 40°C. The city's urban heat island effect amplifies this in built-up areas. Air conditioning is increasingly standard in new construction but not universal in older buildings. This is not an exaggeration or a deterrent for everyone — many people actively prefer a hot summer — but if you have medical sensitivity to heat, work from home without climate control, or have young children, this needs to be planned for. The compensating factors: evenings are cool (sea breeze arrives around 7-9pm most days), the dry heat feels different from humid northern European heat, and the climate outside July-August is genuinely excellent.",
+      },
+      {
+        heading: "The honest employment picture",
+        body: "Montpellier has diversified beyond its historic reliance on the university and healthcare. The hospital cluster (CHU de Montpellier, oncology, clinical research) is one of the largest in southern France. IT and digital services have grown significantly (IBM, Ubisoft, Cap Gemini have presence). Agronomics and water management research (INRAE, Cirad, IRD) make it a world centre for Mediterranean environmental sciences. Tourism and hospitality generate jobs but largely seasonal and low-paid. The challenge: the prestige of living in Montpellier attracts more candidates than the local market can absorb in many specialisations. Senior roles, finance, and specialised consulting are thin. Salaries are below Paris by 20-30% for equivalent roles. Remote work has made this less of a blocker for people keeping Paris salaries.",
+      },
+    ],
+    relatedCities: ["montpellier", "palavas-les-flots", "castelnau-le-lez", "grabels"],
+    tags: ["living in montpellier 2026", "montpellier expat guide", "montpellier housing cost", "montpellier mediterranean city", "expat south of france 2026"],
+  },
+  {
+    slug: "best-french-cities-for-families-2026",
+    title: "Best French cities for families in 2026: the honest ranking",
+    metaTitle: "Best French Cities for Families 2026 — Schools, Safety, Cost, Quality of Life",
+    metaDesc: "The best French cities for families in 2026, based on school quality, safety, housing costs, green space, and family infrastructure. The data-led ranking.",
+    category: "family",
+    emoji: "👨‍👩‍👧",
+    readMinutes: 8,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "Choosing a French city as a family is a different calculation from choosing as a single professional. Schools matter. Green space matters. Safety matters. The commute that is tolerable for one person becomes a daily family logistics challenge. This is a ranking built around what families actually need, with honest data rather than tourist brochures.",
+    sections: [
+      {
+        heading: "What we measured: the criteria",
+        body: "Primary and secondary school quality: ranked by baccalauréat pass rates, academic inspection ratings, and availability of international / bilingual sections. Safety: SSMSI crime statistics per 10,000 inhabitants, adjusted for city size. Housing affordability for families: T3/T4 rent and purchase prices relative to regional median salaries — because a family needs more than a T2. Green space per inhabitant: square metres of accessible parks and nature per resident. Family infrastructure: availability of crèches (nursery places per under-3 per 100 children), paediatric healthcare, extracurricular activities. Transport: public transport reliability and coverage for school runs and after-school activities.",
+      },
+      {
+        heading: "The top tier: cities that score well across all criteria",
+        body: "Rennes consistently emerges at the top when balancing all criteria. Good schools (above-average baccalauréat rates in most areas), low crime by French standards, strong family infrastructure, affordable housing relative to income (T3 rent €800-1,100/month, purchase €3,000-4,500/m²), excellent public transport, and Brittany's outdoor activities on the doorstep. Angers (Loire Valley) performs similarly: very safe, family infrastructure above average, affordable (T3 rent €650-900/month), strong schools, and a genuine quality of daily life that is underappreciated nationally. Nantes: excellent cultural offer for families, good schools, reasonable prices, strong employment market — slightly more expensive than Rennes or Angers but still family-friendly by French standards.",
+      },
+      {
+        heading: "The surprising performers: mid-size cities",
+        body: "Pau scores exceptionally well for safety and access to outdoor activities — Pyrenees skiing, hiking, Atlantic coast within 1h. Housing prices are among the most family-affordable in France (T3 house possible for €1,000-1,300/month rent or €160,000-220,000 to buy). The employment market is narrower (TotalEnergies, Safran, healthcare), but for remote workers, it is an outstanding family base. Chambéry (Savoie): Alpine access, strong schools, very safe, reasonable prices, clean air. Underrated for families who prioritise outdoor life and want proximity to skiing without the Annecy price premium. Caen: one of France's safest cities, affordable, Normandy coast 20 minutes away, good schools — low profile but strong data.",
+      },
+      {
+        heading: "What to avoid: the traps in the family ranking",
+        body: "Large cities with low average scores often have strong internal variation — a bad city average can hide excellent family neighbourhoods. Bordeaux overall has a high quality of life but housing prices now require dual professional incomes to be comfortable with children. Paris is not on this ranking — it is a special case where school choice, pollution, and cost create a unique calculus. For Paris, the relevant comparison is which suburb or arrondissement, not Paris vs. province. Marseille has spectacular assets (climate, sea, outdoor activities) but the school quality variation between neighbourhoods is extreme, and safety statistics in several arrondissements are significantly above the national average.",
+      },
+      {
+        heading: "Bilingual and international education in France",
+        body: "France has a network of international schools (Lycées français à programme international, sections internationales in public schools, and private international schools). The availability varies significantly by city. Paris has the most options, but several provincial cities have credible bilingual or international programmes: Lyon (International School of Lyon, sections internationales at public lycées), Bordeaux (international sections at Lycée Michel Montaigne), Strasbourg (European schools, cross-border German/French options), Rennes and Nantes (a growing number of sections bilangues from primary school). If your children are not French-speaking, check the specific international provision in your target city before committing — provision varies enormously and waitlists are real.",
+      },
+    ],
+    relatedCities: ["rennes", "angers", "nantes", "pau", "caen", "chambery"],
+    tags: ["best french cities families 2026", "france family relocation guide", "french cities schools safety", "family friendly france", "moving france with children 2026"],
+  },
+  {
+    slug: "french-property-purchase-guide-for-expats-2026",
+    title: "Buying property in France as an expat: the complete 2026 guide",
+    metaTitle: "Buying Property in France 2026 — Expat Guide: Notaire, PTZ, DPE, Process, Costs",
+    metaDesc: "How to buy property in France as a non-citizen: the process, notaire fees, DPE ratings, mortgage for non-residents, and what the estate agent won't tell you. Complete 2026 guide.",
+    category: "budget",
+    emoji: "🏡",
+    readMinutes: 10,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "Buying property in France as a non-French citizen is legally straightforward — there are no restrictions on foreign ownership. The process is significantly different from the UK, US, or German systems and has specific costs and legal steps that catch expats off guard. This is the complete honest guide.",
+    sections: [
+      {
+        heading: "The process: from offer to completion",
+        body: "French property purchase follows a structured sequence: (1) Find a property and agree on a price. Estate agents (agents immobiliers) and private sellers (particulier) are both common. (2) Sign a compromis de vente — a preliminary sales contract that commits both buyer and seller. The buyer pays a deposit (usually 5-10% of the purchase price) at this stage. The buyer has a 10-day cooling-off period after signing during which they can withdraw without penalty. (3) The notaire (public lawyer who handles all property transactions in France) conducts searches, verifies ownership, and prepares the final deed. This typically takes 2-3 months. (4) Acte de vente — the final deed is signed at the notaire's office. Full payment is made. The property is officially yours. Key difference from UK conveyancing: in France, the notaire is a neutral public official, not a partisan lawyer. One notaire can represent both parties — or each party can hire their own notaire, with the fees shared.",
+      },
+      {
+        heading: "The real cost of buying: beyond the asking price",
+        body: "The total cost of a French property purchase is significantly higher than the asking price. Budget for: Notaire fees (frais de notaire): approximately 7-8% of the purchase price for older properties (more than 5 years old), or 2-3% for new-build properties. These fees include registration taxes (droits d'enregistrement or DMTO), land registration, and the notaire's actual professional fee (emoluments). Estate agent fees (honoraires d'agence): typically 3-6% of the purchase price, often displayed as FAI (frais d'agence inclus) — meaning the price you see includes the agent's fee. If listed as HHA (hors honoraires d'agence), add the agent fee on top. Mortgage fees: if financing with a French mortgage, expect arrangement fees of €1,000-2,000 and mandatory borrower insurance (assurance emprunteur) of 0.2-0.5% of the loan annually. Home insurance: compulsory in France from the moment of purchase.",
+      },
+      {
+        heading: "The DPE: energy rating and what it means for your purchase",
+        body: "The DPE (Diagnostic de Performance Énergétique) is an energy rating from A (most efficient) to G (worst). It is legally required on every property sale and rental. Since 2022, the French government has tightened rules around DPE G and F-rated properties (called 'passoires thermiques' — thermal sieves): F-rated properties cannot have rent increased at renewal from January 2025; G-rated properties cannot be rented from January 2025. If you are buying to rent out: a G or F rating is a major liability. If you are buying to live in: a G or F rating means high energy costs and potentially significant renovation obligations. A DPE renovation to bring a G-rated property to at least E can cost €20,000-60,000 depending on the property. MaPrimRénov' grants (government renovation subsidies) partially offset this — but processing times are long. Always ask for the full DPE report, not just the letter grade.",
+      },
+      {
+        heading: "Getting a French mortgage as a non-resident",
+        body: "Non-EU citizens can obtain French mortgages, but the conditions are stricter than for French residents. French banks typically lend to non-residents at a higher interest rate (0.2-0.5% premium) and require a larger deposit (25-40% rather than the 10-20% standard for residents). Maximum loan-to-income ratio is strictly enforced in France: monthly repayments (including all loans) cannot exceed 35% of gross monthly income by law. Useful options: Crédit Foncier (specialist mortgage lender), BNP Paribas International Expat Mortgage, HSBC France (for HSBC Premier customers). Consider using a mortgage broker (courtier en crédit immobilier) who specialises in non-resident borrowers — they have pre-established relationships with lenders who are open to this profile.",
+      },
+      {
+        heading: "Tax on French property: what you owe and when",
+        body: "Taxe foncière: an annual land and property tax paid by owners, calculated on the property's notional rental value (valeur locative cadastrale). It varies significantly by commune and département. Expect €500-2,000/year for a typical apartment in a major city; higher for houses or coastal properties. Taxe d'habitation résidence secondaire: abolished for primary residences in 2023, but still applies to secondary residences (résidences secondaires) — at rates set by each commune, some of which have been raised significantly in high-demand areas. Capital gains tax on French property: if you sell at a profit, you owe capital gains tax at 19% (plus 17.2% social charges = 36.2% total). Exemptions: the primary residence is fully exempt. For secondary properties, there is a rolling abatement of 6% per year from year 6 to year 21 of ownership, reaching full exemption after 22 years (income tax) and 30 years (social charges).",
+      },
+    ],
+    relatedCities: ["paris", "bordeaux", "lyon", "nice", "marseille"],
+    tags: ["buying property france expat 2026", "french property purchase guide", "notaire fees france", "DPE france guide", "mortgage france non-resident 2026"],
+  },
 ];
 
 export function getEnGuide(slug: string): EnGuide | undefined {
