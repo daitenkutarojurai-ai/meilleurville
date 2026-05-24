@@ -67,6 +67,7 @@ const SITEMAP_CHUNKS_EN = [
   "en-quality-of-life",
   "en-moving-from",
   "en-gentrification",
+  "en-thematic-macro",
 ] as const;
 
 const SITEMAP_CHUNKS = IS_EN ? SITEMAP_CHUNKS_EN : SITEMAP_CHUNKS_FR;
@@ -961,6 +962,24 @@ function enMovingFromSection(): MetadataRoute.Sitemap {
   }));
 }
 
+function enThematicMacroRegionSection(): MetadataRoute.Sitemap {
+  const THEMATIC_SLUGS = [
+    "healthcare", "safety", "employment", "environment", "demographics", "public-services",
+  ] as const;
+  const MACRO_SLUGS = [
+    "cote-atlantique", "arc-mediterraneen", "arc-alpin",
+    "sud-ouest-gascon", "vallee-du-rhone", "ile-de-france-elargie",
+  ] as const;
+  return THEMATIC_SLUGS.flatMap((section) =>
+    MACRO_SLUGS.map((macro) => ({
+      url: `${BASE_URL}/${section}/${macro}`,
+      lastModified: CITY_DATA_UPDATED,
+      changeFrequency: "monthly" as const,
+      priority: 0.65,
+    }))
+  );
+}
+
 function quitterSection(): MetadataRoute.Sitemap {
   return QUITTER_PAIRS.map((p) => ({
     url: `${BASE_URL}/quitter/${pairToSlug(p)}`,
@@ -1080,6 +1099,7 @@ export default async function sitemap({ id }: { id: Promise<string> }): Promise<
     case "en-quality-of-life": return enQualityOfLifeSection();
     case "en-moving-from": return enMovingFromSection();
     case "en-gentrification": return enGentrificationSection();
+    case "en-thematic-macro": return enThematicMacroRegionSection();
     default: return [];
   }
 }
