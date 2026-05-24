@@ -996,6 +996,20 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                   <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors shrink-0" />
                 </a>
                 <a
+                  href={`/villes/${city.slug}/profils`}
+                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
+                >
+                  <div className="min-w-0">
+                    <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
+                      👤 Profils de vie
+                    </div>
+                    <div className="text-xs text-[var(--text-tertiary)] mt-0.5 truncate">
+                      Expats, retraités, étudiants, télétravail
+                    </div>
+                  </div>
+                  <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors shrink-0" />
+                </a>
+                <a
                   href={`/villes/${city.slug}/synthese`}
                   className="flex items-center justify-between rounded-xl border border-[var(--accent)]/30 bg-[var(--accent)]/5 hover:border-[var(--accent)] hover:shadow-md transition-all px-5 py-4 group"
                 >
