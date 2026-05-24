@@ -885,6 +885,10 @@ function enVacationsSection(): MetadataRoute.Sitemap {
 function enCalculatorsSection(): MetadataRoute.Sitemap {
   const SALARY_SLUGS = ["1500-euros", "2000-euros", "2500-euros", "3000-euros", "4000-euros", "5000-euros"] as const;
   return [
+    { url: `${BASE_URL}/city-match`, lastModified: STATIC_UPDATED, changeFrequency: "monthly" as const, priority: 0.85 },
+    { url: `${BASE_URL}/future-you`, lastModified: STATIC_UPDATED, changeFrequency: "monthly" as const, priority: 0.8 },
+    { url: `${BASE_URL}/people-like-you`, lastModified: STATIC_UPDATED, changeFrequency: "monthly" as const, priority: 0.8 },
+    { url: `${BASE_URL}/copilot`, lastModified: STATIC_UPDATED, changeFrequency: "monthly" as const, priority: 0.8 },
     { url: `${BASE_URL}/calculator/real-cost`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly" as const, priority: 0.8 },
     { url: `${BASE_URL}/household-cost`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly" as const, priority: 0.75 },
     { url: `${BASE_URL}/simulator/purchase`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly" as const, priority: 0.8 },
