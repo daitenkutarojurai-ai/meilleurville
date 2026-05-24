@@ -1826,6 +1826,272 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["versailles", "reims", "rouen", "chartres", "orleans"],
     tags: ["paris suburbs", "commuter towns", "greater paris", "affordable france", "ile de france"],
   },
+  {
+    slug: "grenoble-living-guide-2026",
+    title: "Living in Grenoble: France's science city between two mountain ranges",
+    metaTitle: "Living in Grenoble 2026 — Honest Guide for Expats & Movers",
+    metaDesc:
+      "Grenoble has the lowest cost of living of any major French city with a significant tech sector, and the best mountain access in France. Here's what living there actually involves.",
+    category: "lifestyle",
+    emoji: "🏔️",
+    readMinutes: 7,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Grenoble is the most undervalued major city in France for a specific type of person: the scientist, the engineer, the outdoor enthusiast, or the researcher who wants urban infrastructure, a genuine tech economy, and ski slopes visible from the city centre. Its reputation for grey weather is partly deserved, but the quality-of-life calculation — comparing its cost base to Lyon, its mountain access to anywhere, and its scientific density to anywhere outside Paris — is difficult to beat.",
+    sections: [
+      {
+        heading: "The research and technology economy",
+        body: "Grenoble has the highest concentration of researchers per capita of any French city outside Paris. The CEA (Commissariat à l'Énergie Atomique) has its largest research campus in Grenoble; CNRS, INRIA, and the LIG (Laboratoire d'Informatique de Grenoble) are significant presences. The semiconductor industry has deep roots — STMicroelectronics, Soitec, and several hundred companies in the microelectronics supply chain are based here. Clinatec (medical robotics), the European Synchrotron Radiation Facility, and the Institut Laue-Langevin are world-class research facilities that bring international scientists to Grenoble on a regular basis. For anyone in research, microelectronics, medical technology, or software, the job density is exceptional.",
+      },
+      {
+        heading: "Cost of living: the main argument",
+        body: "Grenoble is the cheapest major French city for housing, relative to the incomes it generates. Average apartment prices in the city centre ran €2,200–3,200/m² in 2025 — roughly 30% below Lyon and 40% below Nice. A studio in a well-connected neighbourhood costs €500–700/month; a 70m² two-bedroom is €800–1,100/month. Groceries and restaurant prices are at or below the national average. For researchers and engineers on French academic or tech salaries that are already below Parisian levels, this cost differential is material.",
+      },
+      {
+        heading: "The mountain access",
+        body: "The Chartreuse, the Belledonne, and the Vercors massifs surround Grenoble on three sides. From the city centre, you're at a ski resort car park in 35–45 minutes. The resorts accessible from Grenoble include Chamrousse (the 1968 Winter Olympics venue), Les 7 Laux, and Les 2 Alpes within 90 minutes. In summer, the same massifs offer trail running, hiking, via ferrata and cycling with elevation gain that has produced multiple Tour de France champions. The Vercors — a high plateau with forests, cliffs and medieval villages — is accessible as a day trip. This geographic position is unique in France: no other large city gives you this combination of urban infrastructure and immediate mountain access.",
+      },
+      {
+        heading: "The weather: honest assessment",
+        body: "Grenoble sits in a valley bowl surrounded on three sides by mountains. In autumn and winter, a phenomenon called temperature inversion traps cold air and fog in the valley while the surrounding peaks are sunny. The grenoble gray — grey sky, low cloud, no direct sun — can persist for days or weeks in November through February. Sunshine hours average around 1,900 per year (decent), but the distribution is skewed: glorious spring, summer and autumn; genuinely gloomy midwinter. The grey season is the price for the mountain proximity. People who live here for the outdoors generally accept this as a reasonable trade.",
+      },
+      {
+        heading: "The university population and social life",
+        body: "With around 60,000 students at the Université Grenoble Alpes and its affiliated schools (Grenoble INP for engineering, Sciences Po, École de Management Grenoble), the city has a significant student culture. This creates reasonable social infrastructure — restaurants, bars, live music — but at a scale suited to a city of 160,000, not Paris or Lyon. The international scientific community adds a layer of multilingualism and transient energy. The most common complaint from people who move to Grenoble from Paris or Lyon is that it's smaller than it feels on paper: the city centre is compact, and the choice of cultural programming, restaurants and nightlife, while acceptable, is not Lyon-level.",
+      },
+    ],
+    relatedCities: ["grenoble", "chambery", "annecy", "valence", "vienne"],
+    tags: ["grenoble", "living in grenoble", "isere", "french alps", "research"],
+  },
+  {
+    slug: "marseille-living-guide-2026",
+    title: "Living in Marseille: the city that doesn't apologise for itself",
+    metaTitle: "Living in Marseille 2026 — Honest Expat & Relocation Guide",
+    metaDesc:
+      "Marseille is polarising, genuinely sunny, genuinely complex and the most affordable major French city on the Mediterranean. A honest picture.",
+    category: "lifestyle",
+    emoji: "⚓",
+    readMinutes: 8,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Marseille is the second largest city in France and one of the most consistently misrepresented. It has real problems — safety statistics that are significantly worse than other comparable cities, an uneven urban fabric, and a bureaucratic infrastructure that is notably less efficient than Lyon or Bordeaux. It also has the best weather of any large French city, an extraordinary coastal geography, a seafood culture that is genuinely one of the world's best, an energy that places that are cleaner and more polished consistently lack, and property prices that are 40–60% below the Côte d'Azur cities immediately to its east.",
+    sections: [
+      {
+        heading: "The coastal geography",
+        body: "Marseille has 57 km of coastline within the city limits. The Calanques — a national park of sheer limestone cliffs, turquoise coves and pine forests — begins at the city's southern edge and extends 20 km east. You can hike from the residential 9th arrondissement to a wilderness that looks like the cover of a travel magazine, with no car required. The beaches in the city range from the crowded Prado beaches to the more secluded Calanques access points. The sea is swimmable from May through October, often longer. For anyone for whom proximity to the sea and coastal wilderness is a life priority, no other French city matches this combination of scale and access.",
+      },
+      {
+        heading: "Safety: the honest picture",
+        body: "Marseille has France's highest violent crime rate of any major city, and this is a genuine consideration. The concentration of violence is, however, highly geographic: the bulk of serious incidents occur in the northern arrondissements (13th–16th) and specific public housing complexes associated with drug trafficking networks. The city centre, the Vieux-Port area, the bourgeois arrondissements (6th–8th) and the southern neighbourhoods are meaningfully safer — comparable to similar districts in other large French cities. Most of the people who live in Marseille and have a negative safety experience are not living in the areas that generate the statistics. This doesn't minimise the underlying problem, but it means that the neighbourhood you choose matters more in Marseille than in almost any other French city.",
+      },
+      {
+        heading: "Property prices: the affordability argument",
+        body: "Marseille is the most affordable major French city on the Mediterranean by a large margin. In 2025, average prices in the 6th and 7th arrondissements (the most desirable, near the Vieux-Port and Corniche) ran €3,200–4,200/m². In the 8th arrondissement (inland bourgeois, popular with families), €2,800–3,800/m². In the less fashionable northern arrondissements, prices dropped to €1,200–1,800/m². For comparison: Nice averages €4,500–6,500/m², Aix-en-Provence €3,800–5,500/m², Toulon €2,500–3,500/m². For anyone priced out of the Côte d'Azur who still wants the Mediterranean climate and coastline, Marseille is the only option that makes financial sense.",
+      },
+      {
+        heading: "The food culture",
+        body: "Marseille's bouillabaisse is the famous example, but the food culture runs deeper: the city is a Mediterranean port with an extraordinary immigrant heritage — Algerian, Moroccan, Tunisian, Comorian, Italian, Armenien — and the food scene reflects this in a way that no PR-managed gastronomy destination can replicate. The Noailles market (known locally as 'le ventre de Marseille') is one of the most alive urban markets in France. The small fishing ports at Vallon des Auffes and Les Goudes supply restaurants that serve fish bought that morning. This is not food tourism; it's the actual way the city eats.",
+      },
+      {
+        heading: "Who Marseille suits",
+        body: "Marseille suits: those who value the sea and coastal wilderness as primary quality-of-life factors; those for whom authentic, raw urban energy is preferable to managed pleasantness; those with a budget that the Côte d'Azur doesn't allow; those who work in maritime, logistics, tourism, or cultural sectors where Marseille's specific identity is an asset; and those who have the social and spatial intelligence to navigate a complex city on its own terms. It suits less well: those who need the security that a low-crime city provides, those who want a clean, efficient civic infrastructure, and those who are drawn to Marseille primarily by the idea of it rather than the experience of living there.",
+      },
+    ],
+    relatedCities: ["marseille", "aix-en-provence", "toulon", "cassis", "la-ciotat"],
+    tags: ["marseille", "living in marseille", "paca", "mediterranean", "expat"],
+  },
+  {
+    slug: "rennes-living-guide-2026",
+    title: "Living in Rennes: the Breton capital that gets everything right for a certain type of person",
+    metaTitle: "Living in Rennes 2026 — Honest Guide for Expats & Movers",
+    metaDesc:
+      "Rennes consistently ranks in France's top 5 for quality of life. A granular look at what it delivers, what it doesn't, and who it suits.",
+    category: "lifestyle",
+    emoji: "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
+    readMinutes: 6,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Rennes is one of the most consistently highly rated cities in France in terms of quality of life, and the rating is broadly accurate. It is also a city that means something specific: a Breton university town that is urban without being a metropolis, connected without being expensive, and productive without being frenetic. If that's what you want from a French city, Rennes is hard to beat. If you need the sea, the sun, or the density of a large metro, you'll find it slightly disappointing.",
+    sections: [
+      {
+        heading: "The tech and digital economy",
+        body: "Rennes has an unusual economic profile for a French regional city: a significant technology and digital sector. Orange (France's largest telecom) has its main R&D campus here; Airbus Defence and Space, Thales, and Nokia all have significant presences. The Rennes digital tech cluster (Bretagne développement Innovation) includes several hundred companies in cybersecurity, telecoms software, IoT and digital services. This creates genuine tech job availability — not at Parisian density, but enough that a software engineer or data scientist doesn't need to leave Brittany. Alongside tech, the agri-food sector (Bretagne is France's primary food production region) and healthcare (CHU Rennes is a major employer) round out an unusually diversified economic base.",
+      },
+      {
+        heading: "Cost of living and housing",
+        body: "Rennes is meaningfully cheaper than the cities it is often compared to as a quality-of-life alternative (Lyon, Bordeaux, Nantes), but has become more expensive than it was a decade ago as its reputation has attracted demand. Average apartment prices in 2025 ran €2,800–3,600/m² in the city centre; the Colombier and Thabor neighbourhoods are at the upper end, the outer arrondissements and university districts lower. A studio rents for €550–750/month; a 70m² two-bedroom is €850–1,100/month. Restaurants and food costs are below the national average — an advantage in a city with an excellent restaurant and market culture.",
+      },
+      {
+        heading: "The TGV connection and geographic position",
+        body: "Paris is 1h25 by TGV from Rennes — fast enough to be practical for day trips or for occasional commuting. Nantes is 1h10. The Atlantic coast — Dinard, Saint-Malo, the Gulf of Morbihan — is 45 minutes to an hour by car or train. Mont Saint-Michel is an hour. This geographic position is one of Rennes's underappreciated advantages: it's a Breton city, but it's more accessible from Paris than most French cities of comparable size, and the access to some of the most beautiful coastline in France is real.",
+      },
+      {
+        heading: "The cycling infrastructure",
+        body: "Rennes is one of France's top-five cities for cycling infrastructure, with an extensive and coherent network that makes car-free commuting practical for most of the inner city. The Vélostars vélo'v self-service bike system covers the city. The combination of flat terrain in the valley sections and an infrastructure that takes cycling seriously makes it genuinely comfortable to cycle year-round — the Breton weather is wet but mild enough that most cyclists consider it manageable with appropriate clothing.",
+      },
+      {
+        heading: "The weather and the Breton reality",
+        body: "Rennes has an oceanic climate. It rains — not dramatically, not in tropical downpours, but persistently, particularly in autumn and winter. Annual sunshine averages around 1,700 hours. The winters are genuinely mild (rarely below 0°C in the city), and the summers are warm-to-hot with the weather having trended warmer over the past decade. The cultural relationship with the weather in Brittany is different from the south: people don't treat grey days as a problem to be avoided. But if you're coming specifically for the sun, the Breton climate will be an adjustment.",
+      },
+    ],
+    relatedCities: ["rennes", "nantes", "saint-malo", "brest", "lorient"],
+    tags: ["rennes", "living in rennes", "brittany", "bretagne", "expat"],
+  },
+  {
+    slug: "annecy-living-guide-2026",
+    title: "Living in Annecy: the price of paradise",
+    metaTitle: "Living in Annecy 2026 — Honest Guide to France's Most Beautiful Town",
+    metaDesc:
+      "Annecy is consistently voted France's most beautiful city. It is also one of the most expensive outside Paris. A realistic look at what living here involves.",
+    category: "lifestyle",
+    emoji: "🏔️",
+    readMinutes: 6,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Annecy's appearance in 'most beautiful city in France' rankings is not a marketing artefact — the medieval old town, the lake, the surrounding peaks, and the clarity of the water are genuinely extraordinary. What those rankings don't include is the housing cost and the limited career options for anyone not working remotely or not in the tourism industry. Annecy rewards the remote worker, the seasonal sportsperson, and the retiree more than it rewards the young professional building a local career.",
+    sections: [
+      {
+        heading: "The lake and the landscape",
+        body: "Lac d'Annecy is the clearest lake in Western Europe — drinking water standards, supervised beaches, and water you can see through to 12 metres. The lake is surrounded by the Bauges and Aravis massifs. In summer it's a water sports and cycling hub; in winter, the ski resorts of La Clusaz, Le Grand-Bornand and Les Aravis are 30–45 minutes away. The summer cycling infrastructure is exceptional: the lake circuit (21 km, car-free sections) and the routes into the Aravis attract serious cyclists as well as the leisure rider. This combination — swimming lake, skiing within 30 minutes, good cycling terrain — is genuinely unusual.",
+      },
+      {
+        heading: "Property and rents: the premium",
+        body: "Annecy is expensive. Average apartment prices in the Old Town (Vieille Ville) run €5,500–7,000/m² — comparable to Paris's inner arrondissements. The wider Annecy agglomeration averages €3,800–5,200/m². Rental prices reflect this: a studio in a reasonable location costs €700–900/month; a 70m² apartment is €1,200–1,600/month. For a city of 130,000 people, these prices reflect a persistent demand that exceeds supply. The root causes are familiar: limited buildable land (mountains on three sides, lake on the fourth), desirability-driven migration, and a growing proportion of property used as holiday lets or second homes that shrinks the residential pool.",
+      },
+      {
+        heading: "The job market: realistic assessment",
+        body: "Annecy's economy runs primarily on precision manufacturing (the Haute-Savoie has a deep industrial heritage in mécanique de précision — think watchmaking's industrial descendants), medical devices (Tegra Medical, SurModics and several specialist firms), and tourism/hospitality. The salary levels in manufacturing are reasonable, and the medical device sector is relatively stable. What Annecy does not have is a broad tech or professional services economy. If you work in finance, tech, marketing, law, or most white-collar sectors and need to be physically present, your options are limited. For remote workers, this isn't a constraint. For career-builders in those sectors, Grenoble (55 km south), Lyon (130 km south), and Geneva (50 km north in Switzerland) are the functional alternatives.",
+      },
+      {
+        heading: "The cross-border Geneva option",
+        body: "Geneva is 50 km from Annecy by motorway — approximately 45–60 minutes in normal traffic. Swiss wages in Geneva are substantially higher than equivalent French wages for comparable roles (a software engineer might earn 70–100% more in Geneva than in equivalent French positions). Many Annecy residents commute to Geneva. The attraction is clear: live in a more affordable, more aesthetically pleasant French environment while accessing Swiss wages. The trade-off is the A40/A41 motorway commute, the carburant (fuel) cost, the logistics of cross-border social security and taxation, and the time. For those who have done the calculation and made it work, it's an excellent arrangement. For those who underestimate the cost and time friction, it's a source of ongoing frustration.",
+      },
+      {
+        heading: "Who Annecy suits",
+        body: "Annecy suits: remote workers who can live anywhere and want the best outdoor access in France; retirees with sufficient savings or pensions to manage the cost; families who prioritise outdoor quality of life over career density; seasonal workers in the ski and outdoor tourism industries; and Swiss commuters who have done the logistics calculation. It suits less well: those who need career development in a city's professional economy; those on below-average French salaries; and those who want significant urban cultural programming without a car.",
+      },
+    ],
+    relatedCities: ["annecy", "chambery", "grenoble", "thonon-les-bains", "annemasse"],
+    tags: ["annecy", "living in annecy", "haute-savoie", "french alps", "lake annecy"],
+  },
+  {
+    slug: "retiring-south-of-france-guide-2026",
+    title: "Retiring in the south of France: a realistic plan",
+    metaTitle: "Retiring in the South of France 2026 — Practical Guide",
+    metaDesc:
+      "Healthcare access, visa requirements, cost of living, and which parts of the south are actually affordable for retirees on a pension. The honest version.",
+    category: "lifestyle",
+    emoji: "🌅",
+    readMinutes: 8,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "The south of France is a rational retirement destination: the climate genuinely improves quality of life for most people, the healthcare system is world-class, the food culture rewards retirement's slower pace, and the property market has price points that range from Monaco-prohibitive to genuinely accessible. Making a good retirement decision here requires cutting through the fantasy to understand which specific parts of the south, on which specific budget, make actual sense.",
+    sections: [
+      {
+        heading: "Which parts of the south are affordable",
+        body: "The south of France has very different price points by location. The Côte d'Azur from Cannes to Monaco is expensive: Nice averages €4,500–6,500/m², Antibes €4,000–5,500/m², Menton €3,800–5,000/m². The Var department (Toulon, Draguignan, the Verdon hinterland) is substantially cheaper: €2,200–3,500/m² depending on the town. The Hérault and Gard departments in Languedoc — Montpellier, Nîmes, Uzès, Sète — offer Mediterranean climate with property at €2,000–3,800/m². The Pyrénées-Orientales (Perpignan and the Costa Vermella) is among the cheapest Mediterranean regions in France: €1,500–2,500/m². The Lot, Dordogne and Tarn departments further north trade some climate for significant additional affordability.",
+      },
+      {
+        heading: "Visa and residency for non-EU retirees",
+        body: "For non-EU retirees (including British nationals post-Brexit, Americans, Canadians, Australians), the standard route is the VLS-TS Visiteur visa. Requirements: proof of sufficient income to support yourself (typically €1,200–1,500/month per person), comprehensive health insurance (required until PUMA affiliation), no intention to work in France. The visa is applied for at the French consulate in your country of residence before arrival and must be renewed after the first year. For retirees with pension income, the income requirement is generally easy to meet. The key step is getting the first visa application right — the documentation requirements are specific and incomplete applications are refused.",
+      },
+      {
+        heading: "Healthcare access",
+        body: "France's healthcare system is one of the best arguments for retiring in France rather than other sunny retirement destinations. After 3–6 months of legal residence and PUMA affiliation, you access the Assurance Maladie at the same terms as French citizens: approximately 70% of most healthcare costs reimbursed, with a complementary health insurance (mutuelle) covering most of the remainder. The south of France has excellent hospital infrastructure in the main cities. The concern in rural areas is the ongoing shortage of GPs (médecins traitants) — if you plan to retire to a small village, confirm that GP access is available before committing. The shortage is real in some areas.",
+      },
+      {
+        heading: "Tax considerations",
+        body: "France taxes residents on worldwide income, subject to double taxation treaties. UK State Pensions, US Social Security, and most pension income from countries with treaties are treated clearly: taxable in France, with a credit for any tax already paid in the source country. French income tax on pension income is progressive: on €20,000 annual income, a single person pays approximately €1,200–1,800 in French income tax (depending on the precise calculation). Property taxes apply to any property you own. Capital gains on a French property are exempt from French tax after 22 years of ownership. The tax situation is manageable but benefits from professional advice at the outset.",
+      },
+      {
+        heading: "The retirement towns that consistently deliver",
+        body: "Towns that come up repeatedly in retiree satisfaction assessments: Uzès (Gard, beautiful medieval town, good infrastructure, genuinely charming, €2,500–3,500/m²); Sète (Hérault, real fishing port character, canal town, sea access, lower prices than Montpellier); Collioure (Pyrénées-Orientales, iconic, but property is expensive for its size); Pézenas (Hérault, historic market town, genuine French community rather than expat colony, affordable); Céret (Pyrénées-Orientales, foothills of the Pyrenees, mild climate, art history, affordable); Draguignan (Var, less glamorous than the coast but functioning town at half the coastal prices). The consistent pattern: second-tier towns with strong local character, away from the tourist-saturated coast, tend to deliver better long-term livability than the picture-postcard destinations.",
+      },
+    ],
+    relatedCities: ["montpellier", "nimes", "toulon", "perpignan", "beziers"],
+    tags: ["retirement france", "south of france", "retire in france", "expat retirement", "visa"],
+  },
+  {
+    slug: "french-social-security-expats-guide-2026",
+    title: "French social security for newcomers: what you're actually entitled to",
+    metaTitle: "French Social Security for Expats 2026 — PUMA, Healthcare & Benefits",
+    metaDesc:
+      "How the French social security system works for non-citizens — PUMA affiliation, healthcare reimbursements, unemployment rights, family allowances. What you get and when.",
+    category: "moving",
+    emoji: "🏥",
+    readMinutes: 7,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "France's social protection system is genuinely comprehensive — and genuinely confusing to navigate when you arrive. The confusion is not because the system is hostile to newcomers; it's because the system evolved over 80 years for a domestic population and the administrative pathways for registering as a newcomer are not always obvious. This guide explains what you're entitled to, when you become entitled to it, and how to get it.",
+    sections: [
+      {
+        heading: "PUMA: the universal healthcare affiliation",
+        body: "PUMA (Protection Universelle Maladie) is the mechanism by which residents in France access state healthcare reimbursements. You become eligible for PUMA after residing legally and regularly in France for a minimum of 3 months. 'Regular' means your main residence is in France, not that you've been continuously present — occasional travel doesn't break it. To register, you submit documents to your local CPAM (Caisse Primaire d'Assurance Maladie) proving: identity, legal right to reside in France, and evidence of regular residence (utility bills, lease, bank statements). Processing takes 3–6 months in most cases. Until PUMA is active, you pay healthcare costs in full and are reimbursed retroactively for anything you're entitled to once the affiliation is in place.",
+      },
+      {
+        heading: "What PUMA covers",
+        body: "Once affiliated, PUMA covers approximately 70% of most healthcare costs at the conventional tariff: GP consultations (€30 → €24 reimbursed), specialist visits, hospital stays, some prescription medications. The remaining 30% is either your charge or covered by a complementary insurance (mutuelle). EU citizens on an S1 certificate (retired on EU benefits) have their home country fund pay France for their care, with no CPAM contribution required. Most people purchase a mutuelle (complementary health insurance) to cover the 30% gap and certain items PUMA doesn't cover (dental, vision). Mutuelles cost approximately €50–150/month depending on coverage level and age.",
+      },
+      {
+        heading: "Employment and unemployment rights",
+        body: "If you're legally employed in France (with a valid work permit or as an EU citizen), you contribute to and are entitled to the French unemployment system (France Travail, formerly Pôle Emploi). The contribution rate is automatic from salary. The entitlement to benefits after losing a job depends on how long you contributed — generally 6 months of contributions in the preceding 24 months gives entitlement to benefits. The unemployment benefit is income-related (typically 57–75% of prior net salary) and duration-dependent. EU citizens have the right to aggregate contributions from other EU countries for calculating entitlement. Non-EU citizens' rights depend on their visa category — most worker categories qualify, visitor-visa holders generally do not.",
+      },
+      {
+        heading: "Family allowances",
+        body: "France has a generous family benefit system administered by the CAF (Caisse d'Allocations Familiales). Eligibility for most CAF benefits is based on legal residence, not nationality. The main benefits: Allocations familiales (monthly payment per child from the second child onwards, income-tested), PAJE (childcare supplement for under-3s), APL (housing benefit, income and rent-tested), RSA (minimum income support for the most financially precarious). Legal residents are generally entitled to apply once they can demonstrate regular residence. Some benefits have waiting periods for non-EU citizens; EU citizens are generally entitled immediately upon legal residence.",
+      },
+      {
+        heading: "Pension contributions and portability",
+        body: "If you work in France, you contribute to the French pension system — both the régime général (basic pension, administered by the CNAV) and usually a complementary scheme (AGIRC-ARRCO for private sector employees). These contributions count towards a French pension, which you can claim at French retirement age (currently 64, rising to 65 progressively). Contributions made in other EU countries count towards qualifying periods under EU portability rules. For non-EU countries, bilateral social security agreements (France has them with most major countries) govern whether contributions can be aggregated. The practical implication for most expatriates: even relatively short periods of French employment will generate a small French pension entitlement that you can claim later, worth registering for.",
+      },
+    ],
+    relatedCities: ["paris", "lyon", "bordeaux", "marseille", "toulouse"],
+    tags: ["social security", "PUMA", "healthcare france", "expat benefits", "france system"],
+  },
+  {
+    slug: "normandy-living-guide-2026",
+    title: "Living in Normandy: the honest case for France's most underestimated region",
+    metaTitle: "Living in Normandy 2026 — Honest Guide for Expats & Movers",
+    metaDesc:
+      "Caen, Rouen and the Normandy coast offer proximity to Paris, affordable property and strong quality of life. A granular look at what living here means.",
+    category: "lifestyle",
+    emoji: "🏰",
+    readMinutes: 7,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Normandy is the most overlooked major region in France by the sort of people who read relocation guides. This is partly because the lifestyle image — apple orchards, dairy cows, grey skies, D-Day beaches — doesn't photograph as well as the Provence or Dordogne brand. Underneath that is a region with affordable property, very good rail links to Paris and London, a surprisingly strong food culture, and a coastal landscape that has its own austere appeal. For people who have made the Paris comparison and found it financially impossible, Normandy is the most rational alternative.",
+    sections: [
+      {
+        heading: "The Paris connection",
+        body: "Normandy is the French region with the best rail connection to Paris relative to its cost of living. Rouen is 1h10 from Paris Saint-Lazare by Intercité train (75 min on some services). Caen is 1h45–2h from Saint-Lazare. Le Havre is 2h10–2h20. For remote workers who need to be in Paris once or twice a week, this is genuinely workable. For the 'leave Paris but keep your job' calculation, Rouen in particular represents a specific opportunity: a university city of 115,000 with genuine urban character, 30–40% of Paris property costs, and a daily train to the capital that makes Paris-based employment compatible.",
+      },
+      {
+        heading: "The English Channel connection",
+        body: "The Eurostar connects London St Pancras to Paris Gare du Nord in 2h15. Caen and Cherbourg have ferry connections to Portsmouth (3–4 hours). Dieppe has a ferry to Newhaven (4h). For British nationals who want access to the UK without the expense of flights, the Normandy coast is the most practical base in France. Many British residents in Normandy maintain a relationship with the UK that they've made into a practical cross-Channel lifestyle — Norman property at French prices, UK salaries or pensions, ferry access rather than airports.",
+      },
+      {
+        heading: "Property: genuine affordability",
+        body: "Normandy has some of the most affordable property in northern France. In Caen, average prices run €1,800–2,800/m² for apartments. In Rouen, €2,000–3,200/m². Smaller coastal towns like Honfleur, Étretat and Deauville are more expensive due to tourist and second-home demand, but the surrounding communes offer very different prices. The rural hinterland — the Pays d'Auge, the Cotentin, the Suisse Normande — offers farmhouses and country properties that would cost four times as much in Dordogne or Provence with better access to urban infrastructure and transport links.",
+      },
+      {
+        heading: "The climate",
+        body: "Normandy has an Atlantic oceanic climate — mild, wet, often overcast. Annual sunshine in Caen and Rouen averages around 1,700–1,800 hours, which is below the national average but comparable to Brittany. The key difference from the south: winter temperatures rarely fall significantly below 0°C, and summer temperatures are comfortable rather than hot — typically 20–25°C rather than 30–35°C. The region is green, which tells you something about the precipitation. If you're coming from northern Europe, Normandy will feel familiar. If you're comparing it to the Mediterranean, it will require adjustment.",
+      },
+      {
+        heading: "The food and cultural argument",
+        body: "Normandy has one of France's strongest regional food identities: Camembert, Livarot, Pont-l'Évêque and other Norman cheeses; Calvados (apple brandy); cider produced from orchards throughout the region; exceptional seafood along the coast; and a dairy-rich cuisine that produces some of the best butter and cream in France. The D-Day beaches, the tapestry at Bayeux, the Claude Monet gardens at Giverny, and the island abbey of Mont Saint-Michel are not tourist-only attractions — they're the local cultural patrimony. Rouen's Gothic cathedral and medieval quarter, and its historical connection to Joan of Arc, make it architecturally significant in its own right.",
+      },
+    ],
+    relatedCities: ["rouen", "caen", "le-havre", "cherbourg", "bayeux"],
+    tags: ["normandy", "living in normandy", "normandie", "caen", "rouen"],
+  },
 ];
 
 export function getEnGuide(slug: string): EnGuide | undefined {
