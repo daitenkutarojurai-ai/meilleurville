@@ -4515,6 +4515,122 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["paris", "lyon", "bordeaux", "nantes", "rennes"],
     tags: ["renting france expat 2026", "french rental process", "visale guarantee france", "guarantor france rental", "tenant rights france 2026"],
   },
+  {
+    slug: "best-french-cities-remote-workers-2026",
+    title: "The best French cities for remote workers in 2026",
+    metaTitle: "Best French Cities for Remote Work 2026 — Fibre, Coworking, Cost & Quality of Life",
+    metaDesc: "Fibre coverage, coworking density, cost of living, climate, and community: the honest ranking of the best French cities for full-time remote workers in 2026.",
+    category: "remote-work",
+    emoji: "💻",
+    readMinutes: 9,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "The best city for remote work is not the same as the best city in general. Transport matters less; internet quality, coworking culture, cost of living, and quality of life at a daily level matter more. Here is the honest ranking for 2026 with criteria that actually matter to someone who works from home most of the week.",
+    sections: [
+      {
+        heading: "The criteria that actually matter",
+        body: "Internet: full-fibre (FTTH) coverage with reliable speeds above 200 Mb/s download. Coworking: at least 3-4 coworking spaces in the city centre where you can work without a monthly commitment on days you need a change. Cost of housing: a liveable T2 (50m² 2-room flat) for under €900/month rent. Quality of life: walkable daily life, parks, food, culture — because when your office is your home, the surrounding environment determines your quality of life entirely. Community: enough international professionals or freelancers that you can build a professional network. Climate: at least 1,700 hours of sunshine/year (the productivity and mood impact of grey winters is underestimated).",
+      },
+      {
+        heading: "#1: Rennes — the best-balanced remote worker city",
+        body: "Rennes wins on the matrix. Fibre: near-total FTTH coverage. Coworking: La Cordée, Fabrique à Entreprises, multiple independent spaces. Rent T2 centre: €850-1,100/month — not cheap, but competitive. Climate: 1,750 sunshine hours — oceanic and grey in winter, but manageable. TGV to Paris in 1h27 for client meetings. Strong tech and cybersecurity cluster creates a professional community of remote workers and freelancers. The weakness: winters are genuinely grey from November to March, and the city lacks the sunshine draw of southern France. The payoff: everything else works extremely well.",
+      },
+      {
+        heading: "#2: Bordeaux — sunshine and infrastructure",
+        body: "Bordeaux offers what Rennes doesn't: 2,050 hours of sunshine/year and a warmer, drier climate. It also has excellent cycling infrastructure, a large coworking ecosystem (Morning, Deskeo, Darwin in Bordeaux Bastide, and many others), FTTH coverage above 96%, and a growing tech/startup community. The cost: T2 rent in the centre is €1,000-1,300/month — about 15-25% more than Rennes or Nantes for equivalent quality. This is the premium for Atlantic sunshine. TGV Paris 2h10. Strong quality of life in wine culture, gastronomy, and Atlantic weekend getaways (Arcachon Bay, Dune du Pilat, surf coast).",
+      },
+      {
+        heading: "#3: Montpellier — the sunshine maximiser",
+        body: "Montpellier wins on climate (2,600+ sunshine hours/year) and is significantly cheaper than Bordeaux (T2 centre: €800-1,050/month). The coworking scene is developed (multiple Darwin-type spaces, Numa Montpellier, and university-linked facilities). FTTH coverage is good in the urban core. Weaknesses: the housing market is tightening as the city attracts new residents for exactly these reasons. The city is growing faster than its infrastructure in some respects (road congestion, housing stress). The student population (70,000+) drives rents in the centre upward. Still: for a remote worker who prioritises sunshine and cost, Montpellier is hard to beat.",
+      },
+      {
+        heading: "#4: Grenoble — the tech hub option",
+        body: "Grenoble stands out for the depth of its professional community (semiconductor industry, CNRS, ESRF, CEA, Schneider Electric, STMicroelectronics) — which matters for remote workers who need an in-person professional network. FTTH coverage is excellent, coworking is well-developed, and the outdoor access (ski resorts 45 minutes from the city centre, hiking, cycling in summer) is unmatched. The weakness: grey winters (Grenoble is surrounded by mountains, which traps cloud in the bowl-shaped valley), and the city has a pollution problem in winter due to this same topography. Rent is competitive: T2 centre €720-950/month.",
+      },
+      {
+        heading: "#5: Nantes — the safe, solid choice",
+        body: "Nantes offers reliable infrastructure (FTTH coverage 98%+, excellent tram network), a strong quality of life, good cultural offer, and reasonable rents (T2 centre €900-1,150/month). It doesn't win on any single criterion — it's not the cheapest, not the sunniest, not the best-networked. But it's consistently good across all criteria, which makes it a safe choice for remote workers who don't want to optimise for one thing at the expense of others. The oceanic climate is grey in winter but mild, and Atlantic weekends (coast, La Rochelle, Belle-Île) are within easy reach.",
+      },
+      {
+        heading: "Cities worth considering for specific profiles",
+        body: "Dijon: for remote workers on a tight budget who don't mind cold winters. T2 centre €600-800/month. TGV Paris 1h35. Excellent food culture. Angers: similar to Dijon in price, better transport connections, flatter and more bikeable. Reims: the underrated outlier — TGV Paris 45 minutes, T2 rent under €700/month in the centre, excellent food culture, and direct access to Champagne countryside. Genuinely good for remote workers who need to go to Paris frequently. Tours: Loire valley, quiet, well-connected (TGV to Paris 55 min), affordable. Good for solo remote workers or couples who prioritise stability and low cost.",
+      },
+    ],
+    relatedCities: ["rennes", "bordeaux", "montpellier", "grenoble", "nantes"],
+    tags: ["best french cities remote work 2026", "remote worker france city", "coworking france cities", "work from france", "freelance france city 2026"],
+  },
+  {
+    slug: "france-visa-for-remote-workers-2026",
+    title: "Working remotely from France: which visa, which status, what it costs",
+    metaTitle: "France Remote Work Visa 2026 — Visa Talent, APS, Auto-entrepreneur: Guide",
+    metaDesc: "Non-EU citizen working remotely from France: the Visa Talent (Passeport Talent), the APS, auto-entrepreneur status, and the tax implications. Honest answers.",
+    category: "remote-work",
+    emoji: "🛂",
+    readMinutes: 9,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "France does not have a 'digital nomad visa' in the explicit sense of some countries (Portugal, Spain, Georgia). But there are several routes for non-EU nationals to work remotely from France legally. They differ in complexity, eligibility criteria, cost, and the rights they grant. Here is the honest map of your options in 2026.",
+    sections: [
+      {
+        heading: "EU/EEA citizens: no barrier",
+        body: "If you hold citizenship of any EU or EEA country, you can live and work in France without any visa or permit — freedom of movement is in full effect. You register with the local mairie, get a social security number via CPAM after 3 months of residence, and can work remotely for foreign clients or employers with no restriction. The only administrative step is declaring your tax residence in France once you're spending more than 183 days/year there (or as soon as France becomes your primary residence).",
+      },
+      {
+        heading: "Visa Talent (Passeport Talent): for high-skill non-EU workers",
+        body: "The Visa Talent (officially Passeport Talent) is the main route for skilled non-EU workers, including remote workers with employer-level status. It requires: a work contract or employer commitment from a company (French or foreign) for a salary above 1.5× the French minimum wage (approximately €2,700/month gross in 2026), OR professional qualifications above Bac+3 (undergraduate) and a job or project in France. For remote workers: if your foreign employer can provide a letter of assignment or work contract, and your compensation meets the threshold, you can apply for the Passeport Talent at the French consulate in your country of origin. Duration: 4 years (renewable). It comes with a multi-entry visa and gives your spouse (if applicable) the right to work in France automatically.",
+      },
+      {
+        heading: "Auto-entrepreneur status: working freelance from France",
+        body: "If you want to work as a freelancer from France (invoicing clients abroad), the micro-entrepreneur (auto-entrepreneur) status is accessible to non-EU nationals who have a valid residence permit (titre de séjour) that authorises self-employed activity. You register on le.guichet-entreprises.fr, get a SIRET number (business registration), and can invoice clients worldwide. You pay cotisations sociales (22% for services, 12.8% for commerce) on your invoiced revenue — in exchange, you access the French healthcare system (PUMA/CPAM) and build pension rights. The income cap for micro-entrepreneur status is €77,700/year for services. Above this, you need a full legal structure (EURL, SAS).",
+      },
+      {
+        heading: "The APS (Autorisation Provisoire de Séjour): for graduates",
+        body: "Non-EU students who graduated from a French university (minimum Bac+3) can apply for an APS — a 12-month provisional stay permit that allows them to work full-time or to search for employment. It is not specifically a remote worker visa, but it allows graduates to remain in France while establishing themselves. After the APS, you can convert to a Passeport Talent or a Salarié work permit if you have an employment contract.",
+      },
+      {
+        heading: "The tax reality: when you become a French tax resident",
+        body: "Working remotely from France as a non-EU national means you become a French tax resident as soon as France is your primary residence or you spend more than 183 days there. France taxes residents on worldwide income. If you are paid by a foreign employer in a foreign currency, you still owe French income tax on that income. France has tax treaties with most countries to avoid double taxation, but the mechanism varies: some treaties give France the exclusive right to tax, others share the right. The safest approach: consult a French expert-comptable (accountant) specialised in international taxation before establishing residence. The cost is €200-500 for an initial consultation and worthwhile given the potential liabilities.",
+      },
+    ],
+    relatedCities: ["paris", "bordeaux", "rennes", "montpellier", "lyon"],
+    tags: ["france remote work visa 2026", "passeport talent france", "auto-entrepreneur non-EU", "digital nomad france", "working remotely france 2026"],
+  },
+  {
+    slug: "nice-living-guide-for-expats-2026",
+    title: "Living in Nice: the honest guide for expats in 2026",
+    metaTitle: "Living in Nice 2026 — Expat Guide: Cost, Pros, Cons, Which Neighbourhood",
+    metaDesc: "Nice: 300 sunny days, Italy 30 minutes away, Promenade des Anglais. But also: expensive, earthquake risk, summer crowds. The complete honest picture.",
+    category: "city-guide",
+    emoji: "🌊",
+    readMinutes: 8,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "Nice is the fifth-largest city in France and the capital of the French Riviera. Its assets are famous: exceptional climate (2,700+ hours of sunshine annually, the most of any French mainland city), the Mediterranean at your doorstep, Italy accessible in 30-40 minutes, an international airport with 120+ direct destinations. Its costs and constraints are less publicised. Here is the full picture.",
+    sections: [
+      {
+        heading: "Housing: expensive but stratified",
+        body: "Nice is one of France's most expensive housing markets outside Paris. But there is significant variation by neighbourhood. Promenade des Anglais and beachfront apartments: €8,000-20,000/m² for the most sought-after properties. Vieux-Nice (old town): €4,500-7,000/m², narrow streets, very high demand. Cimiez (residential hill, museums): €4,000-5,500/m². Liberation, Vernier (working-class, inland): €3,000-4,200/m². Quartier des Musiciens (art deco, walkable): €4,500-5,500/m². Rent for a T2 (50m²) in a reasonable neighbourhood: €900-1,300/month. On the Promenade: €1,500-2,500/month. Budget T2 in Liberation: €800-1,000/month. Compared to Paris, Nice is cheaper in absolute terms — but not cheap. The local salary market does not justify Nice prices for most local professionals.",
+      },
+      {
+        heading: "Cost of living beyond housing",
+        body: "Groceries in Nice are expensive — 15-20% above the French average. This is partly the 'Riviera premium' (expensive real estate drives up operating costs for all businesses) and partly the tourist economy effect on prices. Markets (Marché du Cours Saleya, Marché de la Libération) offer better value than supermarkets for fresh produce. Restaurants: a lunch menu in a non-tourist area runs €13-16; tourist restaurants on the Promenade are €20-35 for a mediocre meal. Public transport: the Lignes d'Azur network covers the city well; the Nice Côte d'Azur tram is expanding. Monthly pass: approximately €35/month. Car: largely unnecessary within the city but useful for trips to Monaco, Menton, or the hinterland villages (arrière-pays niçois).",
+      },
+      {
+        heading: "The climate: exceptional but not without caveats",
+        body: "Nice averages 2,724 hours of sunshine per year — more than anywhere else in mainland France. The Mistral wind blows cold and dry from the north in winter (mostly in the Rhône valley, less in Nice, but still present). Summers are hot: July-August averages 28-30°C with occasional heatwaves above 35°C. The sea temperature in summer (24-27°C) is the best in mainland France. The Riviera climate is the most reliably warm and sunny in France — this is not marketing. For anyone coming from Northern Europe or the UK, the difference in daily light and warmth is psychologically significant.",
+      },
+      {
+        heading: "The international community and language",
+        body: "Nice has one of France's largest permanent expatriate communities — British, Italian (Nice was part of the Kingdom of Sardinia until 1860), German, Russian (historically significant), and increasingly American. The Côte d'Azur broadly attracts professionals in finance (Monaco is 15 minutes), luxury hospitality, and high-net-worth services. English is widely spoken in professional and commercial environments — far more so than in most French cities of comparable size. Nice is also a university city (Université Côte d'Azur) with growing research capacity in AI and digital, anchored by Sophia Antipolis tech park (20 minutes by car or bus).",
+      },
+      {
+        heading: "What Nice gets wrong: the honest caveats",
+        body: "The tourist economy: in July-August, Nice is genuinely overcrowded in its tourist areas. Restaurants are full, beaches (the pebble beaches) are packed, and prices surge. Residents retreat to the hinterland or adjust their routines. This is manageable but real. Housing market tension: availability is limited and the market is competitive. Earthquake risk: the Alpes-Maritimes is one of France's most seismically active zones — not a daily concern but worth knowing if you plan to buy. Healthcare: Nice has good hospitals (CHU de Nice is a major teaching hospital), but specialist waiting times have lengthened. Transport to Paris: 5h30 by TGV (changing at Marseille or Lyon) or 1h15 by plane — which makes Nice feel isolated for frequent Paris travellers, unlike Bordeaux, Rennes, or Nantes.",
+      },
+    ],
+    relatedCities: ["nice", "antibes", "cagnes-sur-mer", "cannes"],
+    tags: ["living in nice 2026", "nice expat guide", "nice housing cost", "côte d'azur expat", "nice vs bordeaux 2026"],
+  },
 ];
 
 export function getEnGuide(slug: string): EnGuide | undefined {
