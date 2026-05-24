@@ -828,6 +828,98 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["montpellier", "bordeaux", "lyon", "toulouse", "strasbourg"],
     tags: ["digital nomad", "remote work", "visa", "co-working", "expat"],
   },
+  {
+    slug: "leaving-paris-best-french-cities-2026",
+    title: "Leaving Paris: where to actually go in France",
+    metaTitle: "Leaving Paris 2026 — Best French Cities to Move To",
+    metaDesc:
+      "The honest case for each major destination when you're done with Paris rents, commutes and winters. With actual numbers: rent savings, quality-of-life gains, what you give up.",
+    category: "moving",
+    emoji: "🚆",
+    readMinutes: 9,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Every year, around 60,000 Parisians make a permanent move out of the Paris metropolitan area. The conversation around this has become a genre — 'leaving Paris' think-pieces, Reddit threads, YouTube vlogs — and most of them have the same structural flaw: they're written by people who have decided to leave and need validation, not by people who have run the actual numbers. This guide runs the numbers.",
+    sections: [
+      {
+        heading: "What you're actually escaping",
+        body: "Paris is genuinely expensive. A T2 in Paris within the périphérique averages around €1,400/month; the same apartment in Lyon costs €800, in Bordeaux €870, in Rennes €730. Over five years, that difference — before counting savings from having a parking space or a garden — is €30,000-plus. The commute tax is equally real: the average Île-de-France resident spends 70 minutes per day commuting, compared to 40 minutes nationally. These two numbers — rent and commute — are the honest calculus behind 'leaving Paris'. Everything else is aesthetics.",
+      },
+      {
+        heading: "Lyon: the default answer, and why",
+        body: "Lyon is the city most Parisians end up thinking about first, because it does everything well. It's France's second-largest economic hub, with real employment depth in finance, biotech, luxury goods and consulting. It has two Michelin-starred restaurants per square kilometre, a serious cultural calendar, excellent schools and a TGV to Paris in under two hours. The rent gap saves you €5,000-plus per year. The downsides: the Rhône winters are greyer than people expect, it can feel corporate, and it has enough Parisian transplants that some neighbourhoods have started to feel like the 6th arrondissement with cheaper wine.",
+      },
+      {
+        heading: "Bordeaux: the lifestyle upgrade",
+        body: "Bordeaux is where you go when lifestyle ranks above career density. The city has been transformed since the TGV arrived in 2017: property prices shot up, the waterfront was rebuilt, and the restaurant scene became genuinely excellent. The problem is that prices rose fastest here of any provincial city — the rental savings over Paris are narrower than they were five years ago (roughly €400-500/month on a T2 versus €700+ for Lyon). What you get in return: Atlantic climate, surf within 45 minutes, wine culture, and a city that is aesthetically one of the most beautiful in France. Worth it for the right profile; not the budget move it was.",
+      },
+      {
+        heading: "Nantes: the underrated choice",
+        body: "Nantes consistently wins quality-of-life surveys that aren't funded by its tourism board, and there's a real reason. The city is genuinely liveable: a well-functioning tram network, an actual cycling culture, green spaces, a river, affordable housing (T2 around €780/month), and a cultural scene that punches above its size. The Atlantic climate is wet, which you either accept or don't. The TGV to Paris takes 2h10, and direct connections cover most of France. The downsides are practical: Nantes is not a city for certain specific careers (less finance, less luxury, less consultancy than Lyon or Paris). For remote workers, it's an almost perfectly designed city.",
+      },
+      {
+        heading: "Rennes: the underestimated one",
+        body: "Rennes gets fewer mentions than it deserves in these conversations, partly because Brittany doesn't have the sun premium that drives people south. What it has: the lowest rents of any major French city (T2 around €730/month), a serious tech and defence sector, excellent universities, a city small enough that a bike gets you everywhere, and — for a significant proportion of movers — proximity to the coast within 45 minutes. The climate is wet and mild, not warm. If you've eliminated 'warm winters' as a requirement and you're looking at the rent-to-quality-of-life ratio, Rennes wins the calculation more often than people admit.",
+      },
+      {
+        heading: "Montpellier and the south: the climate trade-off",
+        body: "If sunshine matters — and for many people it matters enormously — then Montpellier, Nice, Aix-en-Provence or Toulouse enter the picture. The problem is the trade-off: Montpellier has 300 days of sun and significant employment insecurity; Nice has sunshine and a housing market that has absorbed Paris-level demand from retirees; Aix is beautiful and very expensive for what it offers. Toulouse is the most economically coherent of the group — a genuine employment hub with aerospace as its foundation — and its summers are genuinely hot now, with the climate 2040 trajectory pointing toward sustained heatwaves. If you're moving south for quality of life, the climate question is now a 20-year decision, not a 5-year one.",
+      },
+      {
+        heading: "How to actually decide",
+        body: "The honest sequence: list your non-negotiables (career access, schools if you have children, healthcare requirements, proximity to family, climate). Apply those constraints. Of the cities that survive, calculate the actual monthly difference: (Paris rent - destination rent) × 12 = your annual housing bonus. Add the commute cost if your company doesn't go hybrid. Then visit the two finalists for a normal week — not a long weekend in June, but a working week in February or November. After that, you have the information to decide. Everything before that is vibes.",
+      },
+    ],
+    relatedCities: ["lyon", "bordeaux", "nantes", "rennes", "montpellier"],
+    tags: ["leaving paris", "relocation", "moving from paris", "provincial city", "rent savings"],
+  },
+  {
+    slug: "france-without-a-car-best-cities-2026",
+    title: "Living in France without a car: which cities actually work",
+    metaTitle: "Car-Free Living in France 2026 — Best Cities for No-Car Lifestyle",
+    metaDesc:
+      "Which French cities have public transport, cycling infrastructure and daily access good enough to make car-free living genuinely comfortable? An honest ranking.",
+    category: "lifestyle",
+    emoji: "🚊",
+    readMinutes: 7,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Living without a car in France is possible, but 'possible' and 'comfortable' are different things. France outside of Paris has built its urban geography around the car for 60 years, and most of that legacy is still there. The cities where car-free life is genuinely comfortable are fewer than transport scores suggest — this guide separates the ones that work from the ones where you'll spend a lot of time standing in the rain waiting for a bus that's running 20 minutes late.",
+    sections: [
+      {
+        heading: "What makes car-free life work",
+        body: "Four variables: the quality of the public transport network (frequency, coverage, reliability — not just the existence of a tram line), cycling infrastructure (separated lanes that cover your actual routes, not just scenic greenways), the walkability of the city centre (where can you realistically reach on foot in 20 minutes), and the geography of your daily life (can you get to work, a supermarket, a GP, a school and an evening out without a car?). A city can score well on one of these and badly on the others. The combination is what matters.",
+      },
+      {
+        heading: "Paris and its suburbs: genuinely car-free",
+        body: "Central Paris is the only place in France where a large proportion of the population has always lived without a car and never found it inconvenient. The Métro runs every 2 minutes at peak hours. Vélib' is everywhere. The périphérique makes driving into central Paris actively unpleasant. The suburbs are more variable: CDG airport and La Défense are well connected, but many eastern and southern suburb communes require a car or extremely long RER journeys. If you're moving to a suburb to save on rent, always check the public transport access to your specific commune before committing.",
+      },
+      {
+        heading: "Strasbourg: the provincial benchmark",
+        body: "Strasbourg's public transport system is unusually good for a French city of 300,000. The tram network is the highest-capacity in France (relative to city size), the cycling infrastructure is comprehensive, and the city's compact geography means that almost everything is reachable by bike in 15 minutes. The flat terrain (Strasbourg sits in the Rhine plain) is the other factor — there are no hills to make cycling unpleasant. Car-free life here is not just viable; it's actively comfortable, which is a stronger statement than you can make about most French cities.",
+      },
+      {
+        heading: "Nantes and Grenoble: the next tier",
+        body: "Nantes has a three-line tram network that covers the main corridors, plus decent bus rapid transit. Cycling infrastructure has improved significantly since 2020. Grenoble is the most cycling-focused mid-size city in France: the city government has consistently invested in active transport, the cycle network is genuinely comprehensive, and the flat-bottomed mountain bowl means that most destinations are reachable by bike without hills. Both cities allow car-free life; neither is quite at the Strasbourg standard for the complete combination of public transport + cycling.",
+      },
+      {
+        heading: "Bordeaux and Rennes: viable but with caveats",
+        body: "Bordeaux has a tram network and a cycle share scheme, but the network is oriented toward the centre and leaves many peripheral areas underserved. Rennes has a strong metro but it's two lines — you'll often need a bus connection for the second half of a journey. Both cities are viable without a car for most central-area residents; both have gaps that become more significant if your life doesn't fit the main corridors. The cycling infrastructure has improved but is not comprehensive.",
+      },
+      {
+        heading: "Cities where a car-free life requires compromises",
+        body: "Lyon is a city where car-free life works well in and near the city centre but becomes difficult in the suburbs — especially the hills of Croix-Rousse and Fourvière for cyclists. Montpellier has invested in tram but is a sprawling city with significant car-dependency outside the main network. Marseille's public transport is the weakest of any major French city: the metro is limited to two lines, the bus network is unreliable, and the city's geography (steep hills, sprawl) makes cycling impractical for most routes. Living car-free in Marseille is possible near the Joliette or the Prado; it's punishing most other places.",
+      },
+      {
+        heading: "The honest calculation",
+        body: "If car-free living is a genuine priority, the honest calculation adds the car-free savings to the cost-of-living comparison: the average French car costs €5,000-7,000 per year in insurance, fuel, maintenance and loan payments. A city where you can live car-free is effectively €400-580/month cheaper than its rent comparison suggests. Add this to the housing calculation and cities like Strasbourg, Grenoble and Nantes become more competitive than the rent figures alone suggest.",
+      },
+    ],
+    relatedCities: ["strasbourg", "nantes", "grenoble", "rennes", "bordeaux"],
+    tags: ["car-free", "public transport", "cycling", "mobility", "lifestyle"],
+  },
 ];
 
 export function getEnGuide(slug: string): EnGuide | undefined {
