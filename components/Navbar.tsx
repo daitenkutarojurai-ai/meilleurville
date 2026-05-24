@@ -3,13 +3,12 @@ import Link from "next/link";
 import { useState, useEffect, useRef } from "react";
 import { usePathname } from "next/navigation";
 import {
-  Menu, X, Sparkles, Heart, Search,
-  Globe2, BarChart3, Scale, MoreHorizontal,
+  Menu, X, Sparkles, Search,
+  Globe2, BarChart3, Scale,
 } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { cn } from "@/lib/utils";
-import { FavoriteCount } from "@/components/effects/FavoriteButton";
 import { AccountButton } from "@/components/effects/AccountButton";
 import { SearchPalette } from "@/components/SearchPalette";
 import { BrandMark } from "@/components/BrandMark";
@@ -21,63 +20,144 @@ interface NavItem {
   label: string;
   href: string;
   emoji: string;
-  /** Match against current pathname for active state. */
   matchPrefix?: string;
 }
 
-// Desktop nav: 5 primary text pills (lg+) + 1 secondary at xl. The mobile /
-// tablet experience (< lg) is a bottom tab bar — see BOTTOM_TABS below.
+interface MenuGroup {
+  title: string;
+  items: NavItem[];
+}
+
+// Desktop top bar — 4 compact pills, short labels to save space
 const NAV_PRIMARY_FR: NavItem[] = [
-  { label: "Explorer",    href: "/villes",      emoji: "🌍", matchPrefix: "/villes" },
-  { label: "Classements", href: "/classements", emoji: "📊", matchPrefix: "/classements" },
-  { label: "Comparer",    href: "/comparer",    emoji: "⚖️", matchPrefix: "/comparer" },
-  { label: "Guides",      href: "/guides",      emoji: "📖", matchPrefix: "/guides" },
-  { label: "Red Flags",   href: "/red-flags",   emoji: "🚩", matchPrefix: "/red-flags" },
+  { label: "Villes",    href: "/villes",      emoji: "🌍", matchPrefix: "/villes" },
+  { label: "Top",       href: "/classements", emoji: "📊", matchPrefix: "/classements" },
+  { label: "VS",        href: "/comparer",    emoji: "⚖️", matchPrefix: "/comparer" },
+  { label: "Red Flags", href: "/red-flags",   emoji: "🚩", matchPrefix: "/red-flags" },
 ];
-const NAV_SECONDARY_FR: NavItem[] = [
-  { label: "Vacances",  href: "/vacances",  emoji: "🌴", matchPrefix: "/vacances" },
-];
-const CARTE_FR: NavItem = { label: "Carte", href: "/carte", emoji: "🗺️", matchPrefix: "/carte" };
-// Folded into the desktop "Plus" overflow menu + the mobile drawer.
-const NAV_MOBILE_ONLY_FR: NavItem[] = [
-  CARTE_FR,
-  { label: "Favoris", href: "/favoris", emoji: "❤️", matchPrefix: "/favoris" },
-  { label: "Cadre de vie", href: "/cadre-de-vie", emoji: "🌿", matchPrefix: "/cadre-de-vie" },
-  { label: "Simulateur", href: "/#simulateur", emoji: "💸" },
-  { label: "Contact", href: "/contact", emoji: "✉️", matchPrefix: "/contact" },
+const NAV_PRIMARY_EN: NavItem[] = [
+  { label: "Cities",  href: "/cities",   emoji: "🌍", matchPrefix: "/cities" },
+  { label: "Top",     href: "/rankings", emoji: "📊", matchPrefix: "/rankings" },
+  { label: "VS",      href: "/compare",  emoji: "⚖️", matchPrefix: "/compare" },
+  { label: "Guides",  href: "/guides",   emoji: "📖", matchPrefix: "/guides" },
 ];
 
-// EN nav: routes that actually exist on bestcitiesinfrance.com today.
-const NAV_PRIMARY_EN: NavItem[] = [
-  { label: "Cities",   href: "/cities",   emoji: "🌍", matchPrefix: "/cities" },
-  { label: "Rankings", href: "/rankings", emoji: "📊", matchPrefix: "/rankings" },
-  { label: "Compare",  href: "/compare",  emoji: "⚖️", matchPrefix: "/compare" },
-  { label: "Guides",   href: "/guides",   emoji: "📖", matchPrefix: "/guides" },
+// Desktop burger — full mega-menu, 4 grouped columns
+const MENU_GROUPS_FR: MenuGroup[] = [
+  {
+    title: "Explorer",
+    items: [
+      { label: "Toutes les villes", href: "/villes",        emoji: "🌍" },
+      { label: "Carte interactive",  href: "/carte",         emoji: "🗺️" },
+      { label: "Par région",         href: "/regions",       emoji: "📍" },
+      { label: "Par département",    href: "/departements",  emoji: "🗂️" },
+      { label: "Leaderboard",        href: "/leaderboard",   emoji: "🏆" },
+      { label: "Vacances",           href: "/vacances",      emoji: "🌴" },
+    ],
+  },
+  {
+    title: "Outils",
+    items: [
+      { label: "City Match",      href: "/city-match",  emoji: "💘" },
+      { label: "Quiz IA",         href: "/quiz",        emoji: "✨" },
+      { label: "Comparer villes", href: "/comparer",    emoji: "⚖️" },
+      { label: "Classements",     href: "/classements", emoji: "📊" },
+      { label: "Synthèse",        href: "/synthese",    emoji: "📋" },
+      { label: "Red Flag Radar",  href: "/red-flags",   emoji: "🚩" },
+    ],
+  },
+  {
+    title: "Contenu",
+    items: [
+      { label: "Guides pratiques",  href: "/guides",        emoji: "📖" },
+      { label: "Cadre de vie",      href: "/cadre-de-vie",  emoji: "🌿" },
+      { label: "Glossaire",         href: "/glossaire",     emoji: "📚" },
+      { label: "Méthodologie",      href: "/methode",       emoji: "🔬" },
+      { label: "Données & Sources", href: "/donnees",       emoji: "📈" },
+    ],
+  },
+  {
+    title: "À propos",
+    items: [
+      { label: "Notre mission", href: "/about",    emoji: "ℹ️" },
+      { label: "FAQ",           href: "/faq",      emoji: "❓" },
+      { label: "Contact",       href: "/contact",  emoji: "✉️" },
+      { label: "Favoris",       href: "/favoris",  emoji: "❤️" },
+      { label: "Sommaire",      href: "/sommaire", emoji: "🗒️" },
+    ],
+  },
 ];
-const NAV_SECONDARY_EN: NavItem[] = [
-  { label: "Map",     href: "/map",     emoji: "🗺️", matchPrefix: "/map" },
-  { label: "Regions", href: "/regions", emoji: "📍", matchPrefix: "/regions" },
-  { label: "Quiz",    href: "/quiz",    emoji: "✨", matchPrefix: "/quiz" },
+const MENU_GROUPS_EN: MenuGroup[] = [
+  {
+    title: "Explore",
+    items: [
+      { label: "All cities",  href: "/cities",      emoji: "🌍" },
+      { label: "Map",         href: "/map",         emoji: "🗺️" },
+      { label: "Regions",     href: "/regions",     emoji: "📍" },
+      { label: "Departments", href: "/departments", emoji: "🗂️" },
+      { label: "Leaderboard", href: "/leaderboard", emoji: "🏆" },
+    ],
+  },
+  {
+    title: "Tools",
+    items: [
+      { label: "Quiz",     href: "/quiz",     emoji: "✨" },
+      { label: "Compare",  href: "/compare",  emoji: "⚖️" },
+      { label: "Rankings", href: "/rankings", emoji: "📊" },
+    ],
+  },
+  {
+    title: "Guides",
+    items: [
+      { label: "Guides",      href: "/guides",      emoji: "📖" },
+      { label: "Methodology", href: "/methodology", emoji: "🔬" },
+    ],
+  },
+  {
+    title: "About",
+    items: [
+      { label: "About",   href: "/about",   emoji: "ℹ️" },
+      { label: "FAQ",     href: "/faq",     emoji: "❓" },
+      { label: "Contact", href: "/contact", emoji: "✉️" },
+    ],
+  },
 ];
-const NAV_MOBILE_ONLY_EN: NavItem[] = [
+
+// Mobile slide-up drawer — all sections as pill chips
+const NAV_ALL_FR: NavItem[] = [
+  { label: "Toutes les villes", href: "/villes",        emoji: "🌍", matchPrefix: "/villes" },
+  { label: "Carte",             href: "/carte",         emoji: "🗺️", matchPrefix: "/carte" },
+  { label: "Régions",           href: "/regions",       emoji: "📍", matchPrefix: "/regions" },
+  { label: "Départements",      href: "/departements",  emoji: "🗂️", matchPrefix: "/departements" },
+  { label: "Classements",       href: "/classements",   emoji: "📊", matchPrefix: "/classements" },
+  { label: "Leaderboard",       href: "/leaderboard",   emoji: "🏆", matchPrefix: "/leaderboard" },
+  { label: "Comparer",          href: "/comparer",      emoji: "⚖️", matchPrefix: "/comparer" },
+  { label: "City Match",        href: "/city-match",    emoji: "💘", matchPrefix: "/city-match" },
+  { label: "Quiz IA",           href: "/quiz",          emoji: "✨", matchPrefix: "/quiz" },
+  { label: "Red Flag Radar",    href: "/red-flags",     emoji: "🚩", matchPrefix: "/red-flags" },
+  { label: "Synthèse",          href: "/synthese",      emoji: "📋", matchPrefix: "/synthese" },
+  { label: "Guides",            href: "/guides",        emoji: "📖", matchPrefix: "/guides" },
+  { label: "Vacances",          href: "/vacances",      emoji: "🌴", matchPrefix: "/vacances" },
+  { label: "Cadre de vie",      href: "/cadre-de-vie",  emoji: "🌿", matchPrefix: "/cadre-de-vie" },
+  { label: "Favoris",           href: "/favoris",       emoji: "❤️", matchPrefix: "/favoris" },
+  { label: "FAQ",               href: "/faq",           emoji: "❓", matchPrefix: "/faq" },
+  { label: "Contact",           href: "/contact",       emoji: "✉️", matchPrefix: "/contact" },
+];
+const NAV_ALL_EN: NavItem[] = [
+  { label: "Cities",      href: "/cities",      emoji: "🌍", matchPrefix: "/cities" },
+  { label: "Rankings",    href: "/rankings",    emoji: "📊", matchPrefix: "/rankings" },
+  { label: "Compare",     href: "/compare",     emoji: "⚖️", matchPrefix: "/compare" },
+  { label: "Guides",      href: "/guides",      emoji: "📖", matchPrefix: "/guides" },
+  { label: "Map",         href: "/map",         emoji: "🗺️", matchPrefix: "/map" },
+  { label: "Regions",     href: "/regions",     emoji: "📍", matchPrefix: "/regions" },
   { label: "Departments", href: "/departments", emoji: "🗂️", matchPrefix: "/departments" },
+  { label: "Quiz",        href: "/quiz",        emoji: "✨", matchPrefix: "/quiz" },
   { label: "About",       href: "/about",       emoji: "ℹ️", matchPrefix: "/about" },
   { label: "FAQ",         href: "/faq",         emoji: "❓", matchPrefix: "/faq" },
+  { label: "Contact",     href: "/contact",     emoji: "✉️", matchPrefix: "/contact" },
 ];
 
-const NAV_PRIMARY = IS_EN ? NAV_PRIMARY_EN : NAV_PRIMARY_FR;
-const NAV_SECONDARY = IS_EN ? NAV_SECONDARY_EN : NAV_SECONDARY_FR;
-const NAV_MOBILE_ONLY = IS_EN ? NAV_MOBILE_ONLY_EN : NAV_MOBILE_ONLY_FR;
-const NAV_ALL: NavItem[] = [...NAV_PRIMARY, ...NAV_SECONDARY, ...NAV_MOBILE_ONLY];
-
-// Desktop "Plus" overflow menu — secondary actions pulled out of the bar.
-const NAV_OVERFLOW: NavItem[] = IS_EN ? [] : [
-  CARTE_FR,
-  { label: "Contact", href: "/contact", emoji: "✉️", matchPrefix: "/contact" },
-];
-
-// Mobile / tablet bottom tab bar — the four highest-intent destinations
-// plus a Menu tab that opens the full drawer.
+// Mobile bottom tab bar — 4 highest-intent + Menu
 interface BottomTab {
   label: string;
   href: string;
@@ -85,10 +165,10 @@ interface BottomTab {
   matchPrefix: string;
 }
 const BOTTOM_TABS_FR: BottomTab[] = [
-  { label: "Explorer",    href: "/villes",      icon: Globe2,    matchPrefix: "/villes" },
-  { label: "Classements", href: "/classements", icon: BarChart3, matchPrefix: "/classements" },
-  { label: "Quiz",        href: "/quiz",        icon: Sparkles,  matchPrefix: "/quiz" },
-  { label: "Comparer",    href: "/comparer",    icon: Scale,     matchPrefix: "/comparer" },
+  { label: "Villes",  href: "/villes",      icon: Globe2,    matchPrefix: "/villes" },
+  { label: "Top",     href: "/classements", icon: BarChart3, matchPrefix: "/classements" },
+  { label: "Quiz",    href: "/quiz",        icon: Sparkles,  matchPrefix: "/quiz" },
+  { label: "VS",      href: "/comparer",    icon: Scale,     matchPrefix: "/comparer" },
 ];
 const BOTTOM_TABS_EN: BottomTab[] = [
   { label: "Cities",   href: "/cities",   icon: Globe2,    matchPrefix: "/cities" },
@@ -96,6 +176,10 @@ const BOTTOM_TABS_EN: BottomTab[] = [
   { label: "Quiz",     href: "/quiz",     icon: Sparkles,  matchPrefix: "/quiz" },
   { label: "Compare",  href: "/compare",  icon: Scale,     matchPrefix: "/compare" },
 ];
+
+const NAV_PRIMARY = IS_EN ? NAV_PRIMARY_EN : NAV_PRIMARY_FR;
+const MENU_GROUPS = IS_EN ? MENU_GROUPS_EN : MENU_GROUPS_FR;
+const NAV_ALL = IS_EN ? NAV_ALL_EN : NAV_ALL_FR;
 const BOTTOM_TABS = IS_EN ? BOTTOM_TABS_EN : BOTTOM_TABS_FR;
 
 function isActivePath(matchPrefix: string | undefined, pathname: string): boolean {
@@ -113,11 +197,6 @@ function openSearchPalette() {
   window.dispatchEvent(new CustomEvent("meilleurville:open-search"));
 }
 
-/**
- * Search trigger. `variant="bar"` is the full-width pill that fills the
- * mobile/tablet top bar; `variant="desktop"` is the compact pill in the
- * desktop right-hand cluster.
- */
 function SearchTrigger({ variant }: { variant: "bar" | "desktop" }) {
   const [isMac] = useState(() =>
     typeof navigator !== "undefined" && /Mac|iPad|iPhone/.test(navigator.platform)
@@ -146,7 +225,7 @@ function SearchTrigger({ variant }: { variant: "bar" | "desktop" }) {
       className="group inline-flex items-center gap-2 rounded-full border border-[var(--border)] bg-white/60 backdrop-blur px-3 py-1.5 text-xs text-[var(--text-tertiary)] transition-all hover:border-[var(--accent)]/40 hover:bg-white hover:text-[var(--text-primary)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]"
     >
       <Search className="h-3.5 w-3.5" />
-      <span>{IS_EN ? "Search…" : "Rechercher…"}</span>
+      <span>{IS_EN ? "Search…" : "Chercher…"}</span>
       <kbd className="ml-1 hidden xl:inline-flex items-center gap-0.5 rounded border border-[var(--border)] bg-[var(--bg-elevated)] px-1.5 py-0.5 text-[10px] font-mono text-[var(--text-tertiary)] group-hover:text-[var(--text-secondary)]">
         {isMac ? "⌘" : "Ctrl"}
         <span>K</span>
@@ -157,14 +236,11 @@ function SearchTrigger({ variant }: { variant: "bar" | "desktop" }) {
 
 export function Navbar() {
   const [open, setOpen] = useState(false);        // mobile drawer
-  const [moreOpen, setMoreOpen] = useState(false); // desktop overflow menu
+  const [menuOpen, setMenuOpen] = useState(false); // desktop mega-menu
   const [scrolled, setScrolled] = useState(false);
   const pathname = usePathname();
-  const moreRef = useRef<HTMLDivElement>(null);
+  const navRef = useRef<HTMLElement>(null);
 
-  // Shrink (compact height + shadow) once scrolled. The bar stays pinned at
-  // the top at all times — it never hides on scroll-down, so the SectionNav
-  // below it always sits flush against it.
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 32);
     onScroll();
@@ -172,7 +248,7 @@ export function Navbar() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  // Lock body scroll while the drawer is open.
+  // Lock body scroll while mobile drawer is open
   useEffect(() => {
     if (!open) return;
     const prev = document.body.style.overflow;
@@ -180,17 +256,27 @@ export function Navbar() {
     return () => { document.body.style.overflow = prev; };
   }, [open]);
 
-  // Click-outside closes the desktop overflow menu.
+  // Click outside or Escape closes the desktop mega-menu
   useEffect(() => {
-    if (!moreOpen) return;
+    if (!menuOpen) return;
     function onDown(e: MouseEvent) {
-      if (moreRef.current && !moreRef.current.contains(e.target as Node)) {
-        setMoreOpen(false);
+      if (navRef.current && !navRef.current.contains(e.target as Node)) {
+        setMenuOpen(false);
       }
     }
+    function onKey(e: KeyboardEvent) {
+      if (e.key === "Escape") setMenuOpen(false);
+    }
     document.addEventListener("mousedown", onDown);
-    return () => document.removeEventListener("mousedown", onDown);
-  }, [moreOpen]);
+    document.addEventListener("keydown", onKey);
+    return () => {
+      document.removeEventListener("mousedown", onDown);
+      document.removeEventListener("keydown", onKey);
+    };
+  }, [menuOpen]);
+
+  // Close mega-menu on route change
+  useEffect(() => { setMenuOpen(false); }, [pathname]);
 
   return (
     <>
@@ -198,8 +284,9 @@ export function Navbar() {
 
       {/* ── Top bar ──────────────────────────────────────────────── */}
       <nav
+        ref={navRef}
         className={cn(
-          "sticky top-0 z-50 transition-[background-color,box-shadow,height] duration-300",
+          "sticky top-0 z-50 transition-[background-color,box-shadow] duration-300",
           scrolled
             ? "border-b border-[var(--border)]/60 bg-[var(--bg-canvas)]/75 backdrop-blur-2xl shadow-[0_8px_32px_-12px_rgba(31,58,42,0.10)]"
             : "border-b border-transparent bg-[var(--bg-canvas)]/40 backdrop-blur-md"
@@ -223,19 +310,17 @@ export function Navbar() {
             </span>
           </Link>
 
-          {/* Desktop pill nav — lg shows primary, xl adds secondary */}
-          <div className="hidden lg:flex items-center gap-0.5 xl:gap-1 flex-1 justify-center min-w-0">
-            {[...NAV_PRIMARY, ...NAV_SECONDARY].map((link, i) => {
+          {/* Desktop: compact primary pills */}
+          <div className="hidden lg:flex items-center gap-0.5 flex-1 justify-center min-w-0">
+            {NAV_PRIMARY.map((link) => {
               const active = isActive(link, pathname);
-              const secondary = i >= NAV_PRIMARY.length;
               return (
                 <Link
                   key={link.href}
                   href={link.href}
                   aria-current={active ? "page" : undefined}
                   className={cn(
-                    "shrink-0 items-center gap-1.5 rounded-full px-2.5 xl:px-3 py-1.5 text-xs font-medium whitespace-nowrap transition-all focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]",
-                    secondary ? "hidden xl:flex" : "flex",
+                    "flex shrink-0 items-center gap-1.5 rounded-full px-3 py-1.5 text-xs font-medium whitespace-nowrap transition-all focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]",
                     active
                       ? "bg-[var(--accent)] text-white shadow-sm shadow-[var(--accent)]/40"
                       : "text-[var(--text-secondary)] hover:bg-[var(--bg-elevated)] hover:text-[var(--text-primary)]"
@@ -253,68 +338,93 @@ export function Navbar() {
             <SearchTrigger variant="bar" />
           </div>
 
-          {/* Desktop right cluster — search · quiz · account · overflow */}
-          <div className="hidden lg:flex items-center gap-1.5 xl:gap-2 flex-shrink-0">
+          {/* Desktop right cluster — search · account · quiz · burger */}
+          <div className="hidden lg:flex items-center gap-1.5 flex-shrink-0">
             <SearchTrigger variant="desktop" />
             <AccountButton />
             <Link href="/quiz">
               <Button size="md" className="gap-1.5 rounded-full px-3 lg:px-4">
                 <Sparkles className="h-4 w-4" />
-                <span className="hidden xl:inline">{IS_EN ? "AI Quiz" : "Quiz IA"}</span>
-                <span className="xl:hidden">Quiz</span>
+                <span>{IS_EN ? "Quiz" : "Quiz IA"}</span>
               </Button>
             </Link>
-            {NAV_OVERFLOW.length > 0 && (
-              <div className="relative" ref={moreRef}>
-                <button
-                  type="button"
-                  onClick={() => setMoreOpen((v) => !v)}
-                  aria-label={IS_EN ? "More" : "Plus de liens"}
-                  aria-expanded={moreOpen}
-                  className={cn(
-                    "inline-flex items-center rounded-full p-2 transition-colors",
-                    moreOpen
-                      ? "bg-[var(--bg-elevated)] text-[var(--text-primary)]"
-                      : "text-[var(--text-secondary)] hover:bg-[var(--bg-elevated)] hover:text-[var(--text-primary)]"
-                  )}
-                >
-                  <MoreHorizontal className="h-4 w-4" />
-                </button>
-                {moreOpen && (
-                  <div className="absolute right-0 top-full mt-2 w-52 rounded-2xl border border-[var(--border)] bg-[var(--bg-canvas)]/95 backdrop-blur-xl p-1.5 shadow-[0_12px_40px_-12px_rgba(31,58,42,0.25)]">
-                    {NAV_OVERFLOW.map((link) => {
-                      const active = isActive(link, pathname);
-                      return (
+            {/* Burger — opens full mega-menu */}
+            <button
+              type="button"
+              onClick={() => setMenuOpen((v) => !v)}
+              aria-label={IS_EN ? "All sections" : "Toutes les sections"}
+              aria-expanded={menuOpen}
+              aria-controls="desktop-mega-menu"
+              className={cn(
+                "inline-flex items-center gap-1.5 rounded-full border px-3 py-1.5 text-xs font-medium transition-all focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]",
+                menuOpen
+                  ? "border-[var(--accent)]/50 bg-[var(--accent)]/10 text-[var(--accent)]"
+                  : "border-[var(--border)] text-[var(--text-secondary)] hover:border-[var(--accent)]/40 hover:bg-[var(--bg-elevated)] hover:text-[var(--text-primary)]"
+              )}
+            >
+              {menuOpen ? <X className="h-4 w-4" /> : <Menu className="h-4 w-4" />}
+              <span>Menu</span>
+            </button>
+          </div>
+        </div>
+
+        {/* ── Desktop mega-menu dropdown ──────────────────────────── */}
+        <div
+          id="desktop-mega-menu"
+          className={cn(
+            "hidden lg:block absolute left-0 right-0 top-full border-b border-[var(--border)]/60 bg-[var(--bg-canvas)]/97 backdrop-blur-2xl shadow-[0_16px_48px_-8px_rgba(31,58,42,0.20)] transition-[opacity,transform] duration-200 origin-top",
+            menuOpen
+              ? "opacity-100 scale-y-100 pointer-events-auto"
+              : "opacity-0 scale-y-95 pointer-events-none"
+          )}
+        >
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 py-6 grid grid-cols-4 gap-8">
+            {MENU_GROUPS.map((group) => (
+              <div key={group.title}>
+                <h4 className="mb-3 text-[10px] font-semibold uppercase tracking-wider text-[var(--accent)]">
+                  {group.title}
+                </h4>
+                <ul className="space-y-0.5">
+                  {group.items.map(({ label, href, emoji }) => {
+                    const active = isActivePath(href, pathname);
+                    return (
+                      <li key={href}>
                         <Link
-                          key={link.href}
-                          href={link.href}
-                          onClick={() => setMoreOpen(false)}
+                          href={href}
+                          onClick={() => setMenuOpen(false)}
                           aria-current={active ? "page" : undefined}
                           className={cn(
-                            "flex items-center gap-2.5 rounded-xl px-3 py-2 text-sm font-medium transition-colors",
+                            "flex items-center gap-2 rounded-lg px-2.5 py-1.5 text-sm font-medium transition-colors",
                             active
-                              ? "bg-[var(--accent)] text-white"
+                              ? "bg-[var(--accent)]/10 text-[var(--accent)]"
                               : "text-[var(--text-secondary)] hover:bg-[var(--bg-elevated)] hover:text-[var(--text-primary)]"
                           )}
                         >
-                          <span aria-hidden>{link.emoji}</span>
-                          {link.label}
+                          <span aria-hidden className="w-5 text-center text-base">{emoji}</span>
+                          {label}
                         </Link>
-                      );
-                    })}
-                    <Link
-                      href="/favoris"
-                      onClick={() => setMoreOpen(false)}
-                      className="flex items-center gap-2.5 rounded-xl px-3 py-2 text-sm font-medium text-[var(--text-secondary)] hover:bg-[var(--bg-elevated)] hover:text-[var(--accent-pink)] transition-colors"
-                    >
-                      <Heart className="h-4 w-4" />
-                      <span>Favoris</span>
-                      <span className="ml-auto"><FavoriteCount /></span>
-                    </Link>
-                  </div>
-                )}
+                      </li>
+                    );
+                  })}
+                </ul>
               </div>
-            )}
+            ))}
+          </div>
+          {/* Bottom CTA strip */}
+          <div className="border-t border-[var(--border)]/40 bg-[var(--bg-elevated)]/40">
+            <div className="mx-auto max-w-7xl px-4 sm:px-6 py-3 flex items-center justify-between">
+              <p className="text-xs text-[var(--text-tertiary)]">
+                {IS_EN
+                  ? "Not sure where to start? Try the quiz."
+                  : "Pas sûr(e) par où commencer ? Essayez le quiz."}
+              </p>
+              <Link href="/quiz" onClick={() => setMenuOpen(false)}>
+                <Button size="sm" className="gap-1.5 rounded-full">
+                  <Sparkles className="h-3.5 w-3.5" />
+                  {IS_EN ? "Find my city" : "Trouver ma ville"}
+                </Button>
+              </Link>
+            </div>
           </div>
         </div>
       </nav>
@@ -354,12 +464,12 @@ export function Navbar() {
             )}
           >
             <Menu className="h-5 w-5" />
-            {IS_EN ? "Menu" : "Menu"}
+            Menu
           </button>
         </div>
       </nav>
 
-      {/* ── Mobile drawer (opened from the bottom "Menu" tab) ─────── */}
+      {/* ── Mobile drawer backdrop ────────────────────────────────── */}
       {open && (
         <button
           type="button"
@@ -369,6 +479,8 @@ export function Navbar() {
           className="lg:hidden fixed inset-0 z-[54] bg-black/40 backdrop-blur-[2px]"
         />
       )}
+
+      {/* ── Mobile slide-up drawer ────────────────────────────────── */}
       <div
         id="mobile-menu"
         className={cn(
