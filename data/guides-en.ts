@@ -2739,6 +2739,234 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["nantes", "saint-nazaire", "rennes", "la-rochelle", "bordeaux"],
     tags: ["nantes", "pays de la loire", "quality of life", "relocation", "atlantic france"],
   },
+  {
+    slug: "leaving-toulouse-where-to-go-2026",
+    title: "Leaving Toulouse: where to go and what you give up",
+    metaTitle: "Leaving Toulouse 2026 — Best Alternatives After Toulouse",
+    metaDesc:
+      "Toulouse's tech economy and sun have driven prices up sharply. If you're weighing an exit, here are the data-backed destinations sorted by what you value most — and an honest cost-benefit.",
+    category: "city-guide",
+    emoji: "🌹",
+    readMinutes: 6,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Toulouse used to be a comfortable mid-price city with Airbus-driven prosperity and more sun than any metropolis has a right to expect. Between 2015 and 2025, property prices roughly doubled and rents followed — driven by population growth, the aerospace ecosystem's salary levels, and a quality-of-life reputation that spread beyond France. If you moved there for value and now find it expensive, you're not wrong. The question is: what were you getting from Toulouse, and where else can you get it?",
+    sections: [
+      {
+        heading: "If you came for the aerospace and tech jobs",
+        body: "Toulouse's aerospace cluster — Airbus, Thales, Safran, ATR, Dassault Aviation, and the full supply chain — is genuinely unique in France and largely irreplaceable from another city. If your job is in aerospace or aerospace-adjacent engineering, the honest answer is that no other French city offers the same depth of opportunity. Bordeaux has some aerospace (Thales, Dassault) but is smaller. Marseille and Lyon have defence and tech but not aerospace specifically. If you're in Toulouse for the aerospace job, the calculation for leaving involves finding that job first.",
+      },
+      {
+        heading: "If you came for the climate",
+        body: "Toulouse's roughly 2,000 sunshine hours and warm summers are matched or exceeded by Montpellier (2,600 hours), Perpignan (2,700 hours), Nice and the Côte d'Azur (2,700-2,800 hours), and Marseille (2,800 hours). All of these are warmer and sunnier than Toulouse, though some are also more expensive (Nice, Marseille) or have different trade-offs (Perpignan has fewer job opportunities). The interior of Occitanie — Carcassonne, Albi, Castres — is considerably cheaper with comparable climate, though with far less urban infrastructure. Nîmes (2,500 hours) is a frequently overlooked option: cheap property, strong sun, access to both Montpellier and Avignon.",
+      },
+      {
+        heading: "If you want more for your housing budget",
+        body: "Toulouse property now averages €3,200-4,000/m² in good neighbourhoods. Montpellier is roughly comparable (€3,000-3,800/m²). The affordable alternatives: Nîmes averages €1,600-2,200/m², Carcassonne €1,200-1,800/m², Albi €1,400-2,000/m², Perpignan €1,300-1,900/m². All are in Occitanie, within 1-2 hours of Toulouse by car or train. For remote workers who just need a city with good broadband, these represent 40-60% savings on housing versus Toulouse with broadly similar climate.",
+      },
+      {
+        heading: "Montpellier as the obvious alternative",
+        body: "Montpellier and Toulouse are often compared directly — both are fast-growing Occitanie cities with young populations, universities, and good sun. Montpellier has better Mediterranean access (the beach is 15km away), more sunshine, a stronger tram network, and similar property prices. The job market is different: Montpellier is strong in healthcare (CHU, pharma, medical devices), IT services, and research; Toulouse is strong in aerospace and engineering. If you work in healthcare, IT, or research, Montpellier is a natural swap. The TGV to Paris is 3h20 (vs Toulouse's 4h15), which is a material advantage for Paris-connected professionals.",
+      },
+      {
+        heading: "What you actually give up",
+        body: "Toulouse is the capital of Occitanie and has the cultural and professional infrastructure that entails: multiple hospitals (CHU Toulouse is one of France's largest), a major university complex (Université Fédérale de Toulouse Midi-Pyrénées, 100,000+ students), a rich cultural life, and the Airbus ecosystem that supports thousands of indirect jobs. It's also a large, complete city with the economic diversity that entails. Nîmes, Carcassonne, or Albi are towns with charm and affordable housing but not metropolitan infrastructure. If you need major specialist healthcare, a large university, or a diverse private-sector job market, downsizing from Toulouse to a smaller Occitanie city involves real trade-offs.",
+      },
+    ],
+    relatedCities: ["toulouse", "montpellier", "nimes", "carcassonne", "perpignan"],
+    tags: ["leaving toulouse", "occitanie", "toulouse alternatives", "south of france", "relocation"],
+  },
+  {
+    slug: "lille-living-guide-2026",
+    title: "Living in Lille: the northern city that surprises",
+    metaTitle: "Living in Lille 2026 — Honest Relocation and Expat Guide",
+    metaDesc:
+      "Lille is 1h from Paris by Eurostar, 35 minutes from Brussels, 1h25 from London. Its quality of life is systematically underrated. The honest account of why, and what the downsides are.",
+    category: "city-guide",
+    emoji: "🏗️",
+    readMinutes: 6,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Lille sits at the intersection of three national rail networks — French TGV, Belgian, and Eurostar — and is closer to central London (1h25 via the Channel Tunnel) than Lyon is to Paris. This geographic position has made it France's most international northern city, though it remains underrated by the Parisian lens that shapes most French city commentary. The north of France has a deserved reputation for grey skies and industrial heritage; Lille has both of those things and also a genuinely extraordinary quality of life for people who can overlook weather.",
+    sections: [
+      {
+        heading: "The position: three countries in 90 minutes",
+        body: "Lille-Europe station is Eurostar-connected to London St Pancras (1h25), Thalys-connected to Brussels (35 min) and Amsterdam (2h15), and TGV-connected to Paris (1h, among the most frequent and cheap domestic French routes). For professionals with cross-border work — Franco-British, French-Belgian, or those who travel regularly — no other major French city offers this connectivity. The city is physically close to the Belgian border (Roubaix and Tourcoing, which merge into Greater Lille, are essentially on it). This matters for daily life: Belgian commerce and healthcare are accessible without effort.",
+      },
+      {
+        heading: "Economy: more diversified than the rust belt image suggests",
+        body: "Hauts-de-France was France's industrial heartland and retains scars from deindustrialisation. But Lille proper has transitioned to a service and knowledge economy: Euratechnologies (one of Europe's largest tech campuses) houses 350+ companies and 12,000 workers, the Lille-Europe business district attracts financial services and consulting, and the city's four universities (110,000+ students) drive a research and healthcare cluster. Unemployment in the Lille metro area remains above the French average — a legacy of regional industrial decline — but within the city, the white-collar economy is healthy. Wages are broadly similar to Lyon though lower than Paris.",
+      },
+      {
+        heading: "Housing: genuinely affordable for its size",
+        body: "Lille is one of France's largest cities (1.1 million metro area) with property prices that reflect something closer to a mid-sized provincial city. Average prices: €2,800-3,500/m² in good central neighbourhoods (Vieux-Lille, Wazemmes, Vauban), €2,000-2,800/m² in Roubaix/Tourcoing. T2 rents in central Lille: €650-850/month. This is substantially cheaper than Lyon, Bordeaux, or Nantes despite Lille's larger metro size. Part of this is the northern France reputation discount — real estate investors are more cautious about a city perceived as 'grey' — which benefits buyers and renters.",
+      },
+      {
+        heading: "Culture, food, and the Flemish dimension",
+        body: "Lille's cultural identity is Flemish as much as French — reflected in the architecture (brick, stepped gables), the food (estaminet cuisine: carbonnade flamande, potjevleesch, moules-frites), and the social culture (brasseries rather than cafes). The Vieux-Lille quarter is one of France's most beautiful preserved historic districts. La Braderie de Lille (the first weekend of September) is the world's largest flea market and a genuine cultural event. The Palais des Beaux-Arts holds France's second-largest art collection after the Louvre. The social life is notably convivial — northerners have a reputation for warmth that isn't unfounded.",
+      },
+      {
+        heading: "The weather: manageable, not catastrophic",
+        body: "Lille's weather is the main reason people hesitate. Average annual sunshine: 1,600-1,700 hours — among France's lowest, comparable to Brest. Winters are mild (rarely below -5°C), springs arrive reasonably, summers are warm rather than hot (25-28°C typically). The rain is not dramatic — it's a persistent light drizzle rather than heavy storms. The population adapts: indoor culture is strong, cycling is popular year-round (Lille consistently scores among France's top cycling cities), and the proximity to Belgian and northern European culture means the social life doesn't shut down in winter. For Northern Europeans accustomed to similar climates, Lille's weather is unremarkable; for people moving from southern France or the Mediterranean, it requires adjustment.",
+      },
+    ],
+    relatedCities: ["lille", "roubaix", "tourcoing", "valenciennes", "amiens"],
+    tags: ["lille", "hauts-de-france", "northern france", "eurostar", "relocation"],
+  },
+  {
+    slug: "leaving-nice-where-to-go-2026",
+    title: "Leaving Nice: where to go when the Côte d'Azur becomes unaffordable",
+    metaTitle: "Leaving Nice 2026 — Affordable Alternatives to the Côte d'Azur",
+    metaDesc:
+      "Nice's property market has repriced beyond most residents' reach. The honest guide to where the sunshine, coast, and quality of life can still be found at lower cost.",
+    category: "city-guide",
+    emoji: "🌊",
+    readMinutes: 6,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Nice has become one of France's most expensive cities outside Paris. Property averages €5,000-6,500/m² in the city proper, T2 rents regularly exceed €1,000/month, and the international buyer market (Russian, British, Italian, American) has pushed certain neighbourhoods into a price bracket that local incomes simply cannot sustain. If you're in Nice and considering an exit, or considering Nice and calculating whether you can afford it, this is the honest landscape.",
+    sections: [
+      {
+        heading: "Within the Côte d'Azur: the affordable micro-alternatives",
+        body: "The Côte d'Azur is not uniformly expensive. Cannes and Antibes are slightly cheaper than Nice for non-waterfront properties. But the real value plays are inland: Grasse (30 min from Cannes, 45 min from Nice), Vence (30 min from Nice), Carros, and the arrière-pays niçois villages offer Provençal quality of life at a fraction of the coastal price. Property in these communes averages €2,800-4,000/m². The trade-off: you lose beach access as a walk and rely on a car for most trips. In exchange you get proper house sizes, quiet, and a genuinely different lifestyle from the coast's tourist-driven economy.",
+      },
+      {
+        heading: "Marseille: comparable sun, very different character",
+        body: "Marseille is 2h30 from Nice by TER (train), or 2h10 by car. Property averages €2,800-3,800/m² in good neighbourhoods — roughly 35-50% cheaper than Nice. Sunshine hours are roughly equivalent (2,800 hours). The difference is character: Marseille is urban, rough around the edges in places, culturally intense (North African, Italian, Greek, Armenian influences), and not a resort city. Some Nice residents love Marseille's energy; others find Nice's more ordered, bourgeois atmosphere preferable. Both have the Mediterranean. What they don't share: Nice's mountain backdrop (the Mercantour is extraordinary), and Marseille's social diversity.",
+      },
+      {
+        heading: "Montpellier: the Atlantic-side compromise",
+        body: "Montpellier is 3h from Nice by train, west along the Mediterranean coast. Property averages €3,000-3,800/m². Sunshine hours are similar (2,600 per year). The coast is 15km away. Montpellier has a larger university population (100,000 students), a stronger tech and healthcare economy, and is 3h20 from Paris by TGV. It does not have Nice's dramatic geography (the mountains behind the coast are what makes the Riviera landscape irreplaceable), but as a Mediterranean city with a complete urban economy at lower cost, it's the most direct alternative for people who need a proper job market.",
+      },
+      {
+        heading: "The Spanish option: a genuine alternative",
+        body: "Barcelona is 2h45 from Nice by high-speed train (via Marseille and Perpignan). For non-EU nationals, this changes your immigration considerations significantly. But for EU citizens — including Brits under their Schengen 90-day rules — the comparison is worth making: Barcelona property in non-tourist neighbourhoods averages €3,500-4,500/m², with comparable Mediterranean climate, far more cultural infrastructure, and a cosmopolitan social environment that Nice's boutique-heavy tourist economy doesn't match. This is only worth raising because Nice residents often think of 'leaving Nice' in purely French terms, when Barcelona is genuinely closer than Lyon.",
+      },
+      {
+        heading: "What you genuinely cannot replace",
+        body: "Nice's location is difficult to replicate. The Promenade des Anglais, the immediate mountain access (skiing within an hour), the Italian border 30 minutes away by Riviera rail, the specific light quality that made it an artist's city for 150 years. The food (socca, pissaladière, salade niçoise that are actual local dishes, not restaurant fabrications) is tied to the city in ways that don't travel. The Nice Carnival and flower-throwing tradition are genuine events, not tourist simulations. If the Riviera identity — which is French but also Ligurian, cosmopolitan, and European — is what you're buying, understand that most alternatives are cheaper because they offer something different, not the same thing at a discount.",
+      },
+    ],
+    relatedCities: ["nice", "marseille", "montpellier", "cannes", "toulon"],
+    tags: ["leaving nice", "cote d'azur", "nice alternatives", "south of france", "mediterranean"],
+  },
+  {
+    slug: "france-for-german-expats-2026",
+    title: "Moving to France from Germany: what's different, what's better, what's harder",
+    metaTitle: "Moving to France from Germany 2026 — German Expat Guide",
+    metaDesc:
+      "Germany and France are neighbours with similar income levels but very different bureaucratic cultures. What German expats find better in France, what they miss, and which cities suit German lifestyles.",
+    category: "moving",
+    emoji: "🇩🇪",
+    readMinutes: 6,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Germany and France share a border, a currency, and the EU, which leads many Germans to underestimate how different daily life in France actually is. The bureaucratic culture, the relationship with rules, the rhythm of commerce (Sunday closures are real), and the social norms around work-life balance are genuinely distinct. Germans who move to France — and many do, particularly to Alsace, the Pays Basque, and the Paris region — report a mixture of pleasant surprises and persistent frustrations. This is an honest account based on the common experience.",
+    sections: [
+      {
+        heading: "What German expats typically find better",
+        body: "The food culture. Paris bistros and provincial markets operate at a quality level that has no direct German equivalent in most cities (Munich and Hamburg are partial exceptions). The climate in most French regions is significantly better than Germany's — even northern France gets more sunshine than Frankfurt. The cost of living is lower in most French regional cities compared to Munich, Hamburg, Frankfurt, or Stuttgart. French healthcare — once you're affiliated — is faster and less constrained by Germany's complex Krankenkasse system (France has a simpler single-payer structure for most services). The countryside and regional landscapes are more varied. Work-life balance in French professional culture typically favours more leave and less intensity than German norms.",
+      },
+      {
+        heading: "What German expats typically find harder",
+        body: "French bureaucracy. Germany has bureaucracy too, but it's generally documented, predictable, and followable if you do what's required. French administrative processes are infamous for being opaque, inconsistent between offices, and slow in ways that feel personal but are structural. Banking is particularly frustrating for new arrivals (opening a bank account without a French address is a circular problem). French professional culture has a different relationship with reliability: meetings start late, deadlines are treated as guidelines, and what Germans read as 'not serious' is often a different time orientation. These differences narrow after a year or two but require managing expectations in the transition period.",
+      },
+      {
+        heading: "Language: unlike English expats, you cannot opt out",
+        body: "Germany and France have roughly equivalent rates of English fluency in professional settings. But unlike moving from an English-speaking country, German expats cannot use English as a fallback — both the host and origin language require active maintenance. Most Germans arriving in France have some school French, which gets you farther than zero but less far than fluent. The important difference from British or American arrivals: you're accustomed to a written bureaucracy that is precise and consistent; French administrative writing is often ambiguous and informal in ways that confuse even native French speakers. Allow for this in your administrative timeline expectations.",
+      },
+      {
+        heading: "The cities that work best for Germans",
+        body: "Strasbourg is the most obvious destination — French citizens describe it as 'less German than the rest of Alsace, more German than the rest of France.' A significant German-speaking professional community is resident here; German is spoken on the street, in some schools, and in EU institution settings. The Pays Basque (Bayonne, Biarritz) attracts outdoors-focused Germans drawn by the Atlantic and the Pyrenees. Paris draws German professionals in finance, tech, and creative industries — the German expat community in Paris is large enough to have its own social infrastructure. Lyon attracts German workers in the pharmaceutical and engineering sectors (Sanofi, Boehringer, Bayer all have significant Rhône Valley presence).",
+      },
+      {
+        heading: "Practical differences worth knowing",
+        body: "German driver's licence exchanged for French licence: straightforward for EU citizens. Health insurance: in Germany, you chose between public and private Krankenkassen; in France, you register for Assurance Maladie (universal) plus an optional complementaire (top-up). Pension portability: EU social security agreements coordinate French and German pension contributions — periods in each country count towards your total qualifying period in both. Banking: open a French bank account before you arrive if possible (some German banks like Deutsche Bank or ING have French operations that ease this). German-format privacy expectations (DSGVO/GDPR implementation) are met by French law — France has a strong CNIL privacy framework.",
+      },
+    ],
+    relatedCities: ["strasbourg", "paris", "bayonne", "lyon", "bordeaux"],
+    tags: ["german expat france", "germany to france", "alsace", "bilingual", "EU mobility"],
+  },
+  {
+    slug: "best-french-cities-digital-nomads-updated-2026",
+    title: "The best French cities for digital nomads in 2026: updated rankings",
+    metaTitle: "Best French Cities for Digital Nomads 2026 — Updated Rankings",
+    metaDesc:
+      "Fibre coverage, coworking density, café culture, cost of living, and livability combined. The 2026 ranking of French cities for location-independent workers — with the data behind it.",
+    category: "remote-work",
+    emoji: "💻",
+    readMinutes: 7,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "The digital nomad landscape in France has matured considerably since 2020. The 'Paris or nothing' assumption is gone; most medium-sized French cities now have coworking spaces, good fibre coverage, and active communities of location-independent workers. This updated ranking focuses on the intersection of four factors: internet infrastructure (fibre coverage, reliable speeds), coworking access and price, overall cost of living against local quality of life, and social infrastructure for a working lifestyle.",
+    sections: [
+      {
+        heading: "Tier 1: the complete package",
+        body: "Rennes leads consistently for digital nomads on the metrics that matter: France's highest fibre coverage rates (above 95% in the city), the cheapest T2 rents among major French cities (€600-750/month), a 1h25 TGV to Paris, 50+ coworking spaces, and an active French Tech scene. The weather is Atlantic and grey, which is the standard objection; the tradeoff is that you get a complete, walkable city at Atlantic coast prices. Lyon is Tier 1 for digital nomads who need urban density and international airport access — fibre is excellent, the coworking scene is mature, and the city has genuine European cultural weight. The cost premium over Rennes is roughly 30-40% for housing.",
+      },
+      {
+        heading: "Tier 2: strong options with one trade-off each",
+        body: "Nantes: excellent fibre, good coworking, slightly higher rents than Rennes, Atlantic climate. Bordeaux: excellent fibre and coworking, significantly higher rents than it used to be, great lifestyle. Montpellier: excellent climate (the best in this tier by sunshine), good fibre and coworking, Mediterranean energy; slightly less urban than Lyon or Nantes. Toulouse: Airbus-driven infrastructure including excellent fibre and tech talent density, warm climate, but rising housing costs. Grenoble: exceptional tech density (semiconductor industry = great fibre), compact and walkable, affordable; the air quality in winter and less cosmopolitan feel are the trade-offs.",
+      },
+      {
+        heading: "Tier 3: underrated options worth considering",
+        body: "Clermont-Ferrand: one of France's more surprising digital nomad destinations — very affordable housing, Michelin's tech infrastructure means excellent connectivity, the Massif Central is at the door, and the city has a small but active digital community. Angers: often overlooked, 1h35 from Paris by TGV, Loire Valley location, reasonable rents, improving coworking scene, genuinely pleasant quality of life. Poitiers: inexpensive, well-connected (1h15 TGV to Paris), university-driven digital infrastructure, smaller community. These cities suit nomads who want very low cost of living and don't require the full cosmopolitan infrastructure of a larger city.",
+      },
+      {
+        heading: "What Paris actually offers vs the regions",
+        body: "Paris has the most coworking spaces (2,000+), the most international nomad community, the most reliable infrastructure, and the highest salaries if you take French clients. It also has the highest rents by a wide margin, the most stressful living environment, and the most social pressure to present professionally. For nomads earning in dollars or euros outside France, Paris is expensive relative to the quality of life improvement over, say, Bordeaux or Lyon. For nomads who genuinely benefit from the Paris professional network — taking French clients, attending French tech events, building a French professional reputation — Paris has irreplaceable advantages. For pure lifestyle-focused nomads, the regions win on quality-of-life-per-euro.",
+      },
+      {
+        heading: "The Visiteur visa for non-EU nomads",
+        body: "Non-EU digital nomads in France face the same visa issue as in any country: without a specific nomad visa (France does not have one, unlike Portugal, Spain, or Croatia), the legal route for stays beyond 90 days is the Visiteur visa, which requires demonstrating sufficient independent income (approximately €1,500+/month per person) and prohibits working for French clients or employers. Working for non-French employers/clients while on a Visiteur visa is a grey area — technically prohibited under some interpretations, tolerated in practice if no French employment relationship exists. The situation is legally unclear and unlikely to be resolved favourably for long-term security. EU citizens have no such restriction under freedom of movement.",
+      },
+    ],
+    relatedCities: ["rennes", "lyon", "bordeaux", "nantes", "montpellier"],
+    tags: ["digital nomad france", "remote work", "coworking france", "best cities nomads", "fibre france"],
+  },
+  {
+    slug: "perpignan-mediterranean-coast-living-2026",
+    title: "Perpignan and the Roussillon coast: France's cheapest Mediterranean option",
+    metaTitle: "Living in Perpignan 2026 — Roussillon and Catalan Coast Guide",
+    metaDesc:
+      "Perpignan has more sunshine than Nice, cheaper property than anywhere else on the French Mediterranean, and a Catalan identity distinct from the rest of France. The honest case for and against.",
+    category: "city-guide",
+    emoji: "☀️",
+    readMinutes: 6,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Perpignan holds a unusual position in the French city landscape: it has the sunshine figures of a Riviera city (2,700+ hours per year), direct beach access (the coast is 15km away), a distinct Catalan cultural identity, and property prices that look like a typo relative to Nice or Montpellier. The reason it doesn't appear in most 'best French cities' lists is also honest: it has a high unemployment rate, a difficult social geography in parts, and an economy that hasn't modernised as quickly as cities further north. This is a clear-eyed account.",
+    sections: [
+      {
+        heading: "The climate: this is genuinely extraordinary",
+        body: "Perpignan averages 2,700-2,800 sunshine hours per year — more than Nice (2,700), Marseille (2,800 but comparable), and dramatically more than Paris (1,800) or Bordeaux (2,100). It rarely freezes (fewer than 5 frost days per year on average). The Tramontane wind — a dry cold wind from the northwest — blows regularly and is the city's most significant climate annoyance. Summers are hot (35°C peaks are common in July-August, the Roussillon plain concentrates heat), which is relevant for outdoor workers. The Mediterranean beach access is 15km by road or a short train journey to towns like Canet-en-Roussillon and Argelès-sur-Mer.",
+      },
+      {
+        heading: "Housing: the cheapest Mediterranean France by a significant margin",
+        body: "Perpignan property averages €1,300-1,900/m² — roughly one-quarter of Nice, one-third of Montpellier. T2 rents: €480-600/month. These figures are not for degraded properties in bad neighbourhoods; they reflect a market that hasn't been discovered by remote workers and second-home buyers to the same extent as the Côte d'Azur or the Languedoc coast. The population of around 120,000 keeps demand moderate. The affordable coastal communes (Argelès, Canet, Barcarès) where beach access is direct are somewhat more expensive but still cheap by Mediterranean standards.",
+      },
+      {
+        heading: "Economy: the honest picture",
+        body: "Perpignan's unemployment rate is among the highest of French cities of its size — consistently 15-20% for the city proper, compared to a French average around 7-8%. The economy relies heavily on agriculture (the Roussillon is one of France's major fruit and vegetable producing regions), cross-border commerce with Spain (50km to the border), tourism, and logistics (a large rail freight hub serves the French-Spanish border crossing). The professional services economy is limited. This is important for job-seekers: unless you are creating work rather than looking for it, or working remotely, finding skilled-professional employment in Perpignan is difficult compared to Montpellier, Toulouse, or Marseille.",
+      },
+      {
+        heading: "The Catalan identity: genuinely distinct",
+        body: "Perpignan's identity as Northern Catalonia (Catalunya Nord in Catalan) is real, not marketing. The flag is Catalan, the traditional festivals (Sant Jordi, the Sardane dances, the Semana Santa processions — among Europe's most dramatic) are Catalan, and a portion of the older population speaks Catalan alongside French. Spanish is more commonly understood here than in most French cities. The relationship with Spain is daily — Barceloneta is a 2h drive, Girona 1h15, Barcelona 2h — and the border effect means cross-border shopping (petrol, electronics, wine) is habitual. For people who find southern French culture intriguing rather than alien, the Catalan dimension adds rather than detracts.",
+      },
+      {
+        heading: "Who Perpignan works for and who it doesn't",
+        body: "Perpignan works well for: remote workers with established income who want maximum sunshine at minimum cost, retirees with comfortable pensions who want Mediterranean climate without Riviera prices, people who value the Spanish-French border lifestyle, and those willing to accept a smaller urban footprint for significant housing savings. It doesn't work well for: job-seekers in skilled professions (the market is genuinely thin), people who need a culturally international environment (Perpignan is provincial in a way that Montpellier, Marseille, and Nice are not), and families who prioritise elite school provision (the educational offering is adequate but not exceptional).",
+      },
+    ],
+    relatedCities: ["perpignan", "montpellier", "carcassonne", "nimes", "marseille"],
+    tags: ["perpignan", "roussillon", "catalan coast", "cheap mediterranean france", "pyrenees orientales"],
+  },
 ];
 
 export function getEnGuide(slug: string): EnGuide | undefined {
