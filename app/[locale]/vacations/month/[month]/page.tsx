@@ -8,7 +8,6 @@ import { Badge } from "@/components/ui/Badge";
 import { BookingCTA } from "@/components/BookingCTA";
 import { CITIES_COUNT } from "@/lib/site-stats";
 import {
-  MONTHS,
   monthSignal,
   type MonthIndex,
 } from "@/lib/vacation-seasons";
@@ -36,22 +35,6 @@ export const dynamicParams = false;
 
 const EN_BASE = ORIGIN_BY_LOCALE.en;
 
-// EN slug → FR slug (needed to call lib functions that use FR slugs)
-const EN_TO_FR_MONTH_SLUG: Record<string, string> = {
-  january: "janvier",
-  february: "février",
-  march: "mars",
-  april: "avril",
-  may: "mai",
-  june: "juin",
-  july: "juillet",
-  august: "août",
-  september: "septembre",
-  october: "octobre",
-  november: "novembre",
-  december: "décembre",
-};
-
 // EN slug → month index
 const EN_MONTH_TO_INDEX: Record<string, MonthIndex> = {
   january: 1,
@@ -74,13 +57,6 @@ const EN_MONTHS_ORDER = [
 ] as const;
 
 type EnMonthSlug = (typeof EN_MONTHS_ORDER)[number];
-
-// Month index → EN slug
-const INDEX_TO_EN_SLUG: Record<MonthIndex, EnMonthSlug> = {
-  1: "january", 2: "february", 3: "march", 4: "april",
-  5: "may", 6: "june", 7: "july", 8: "august",
-  9: "september", 10: "october", 11: "november", 12: "december",
-};
 
 const EN_MONTH_LABELS: Record<EnMonthSlug, string> = {
   january: "January", february: "February", march: "March",

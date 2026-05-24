@@ -5,7 +5,6 @@ import { AlertTriangle } from "lucide-react";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { RED_FLAG_THEMES } from "@/lib/red-flag-themes";
-import type { RedFlagTheme } from "@/lib/red-flag-themes";
 import { scoreColor } from "@/lib/utils";
 import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
 

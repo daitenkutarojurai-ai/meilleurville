@@ -4,7 +4,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Badge } from "@/components/ui/Badge";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
-import { CITIES_COUNT, GUIDES_COUNT, GLOSSARY_TERMS_COUNT } from "@/lib/site-stats";
+import { CITIES_COUNT, GUIDES_COUNT } from "@/lib/site-stats";
 import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
 
 export async function generateStaticParams() {

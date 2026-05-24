@@ -9,7 +9,6 @@ import { BookingCTA } from "@/components/BookingCTA";
 import { StickyBookingBar } from "@/components/StickyBookingBar";
 import { CITIES_SEED } from "@/data/cities-seed";
 import {
-  MONTHS_SHORT,
   monthSignal,
   type MonthIndex,
 } from "@/lib/vacation-seasons";
@@ -22,7 +21,6 @@ import {
   vacationFit,
   bestMonthsFor,
   BUDGET_TIER_LABEL,
-  BUDGET_TIER_DESC,
 } from "@/lib/vacation-fit";
 import { nearestStation, distanceToNearestKm } from "@/lib/climate-normals";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";

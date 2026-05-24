@@ -93,7 +93,7 @@ function profileScore(city: (typeof CITIES_SEED)[number], keys: ScoreKey[]): num
   return keys.reduce((s, k) => s + city.scores[k], 0) / keys.length;
 }
 
-function TripletPage({ cities, pair }: { cities: [(typeof CITIES_SEED)[number], (typeof CITIES_SEED)[number], (typeof CITIES_SEED)[number]]; pair: string }) {
+function TripletPage({ cities }: { cities: [(typeof CITIES_SEED)[number], (typeof CITIES_SEED)[number], (typeof CITIES_SEED)[number]] }) {
   const [a, b, c] = cities;
   const topCity = [a, b, c].reduce((best, city) => city.scores.global > best.scores.global ? city : best);
 
@@ -121,7 +121,7 @@ function TripletPage({ cities, pair }: { cities: [(typeof CITIES_SEED)[number], 
 
       {/* Score cards */}
       <section className="mx-auto max-w-5xl px-4 sm:px-6 py-4 grid grid-cols-3 gap-3">
-        {[a, b, c].map((city, i) => (
+        {[a, b, c].map((city) => (
           <Link
             key={city.slug}
             href={`/cities/${city.slug}`}
@@ -305,7 +305,7 @@ export default async function EnComparePair({ params }: Props) {
 
   // 3-city dispatch
   const triplet = parseTriplet(pair);
-  if (triplet) return <TripletPage cities={triplet} pair={pair} />;
+  if (triplet) return <TripletPage cities={triplet} />;
 
   const parsed = parsePair(pair);
   if (!parsed) notFound();

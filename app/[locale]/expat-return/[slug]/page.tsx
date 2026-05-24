@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { AmbientBackground } from "@/components/AmbientBackground";
-import { EXPAT_COUNTRIES, getExpatCountry } from "@/lib/expat-return";
+import { getExpatCountry } from "@/lib/expat-return";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { scoreColor } from "@/lib/utils";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
