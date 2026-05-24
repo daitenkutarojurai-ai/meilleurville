@@ -398,6 +398,12 @@ function citySubSection(): MetadataRoute.Sitemap {
       changeFrequency: "monthly" as const,
       priority: 0.75,
     },
+    {
+      url: `${BASE_URL}/villes/${city.slug}/s-installer`,
+      lastModified: CITY_DATA_UPDATED,
+      changeFrequency: "monthly" as const,
+      priority: 0.65,
+    },
   ]);
 }
 
