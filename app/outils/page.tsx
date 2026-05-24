@@ -32,6 +32,13 @@ const TOOLS: Tool[] = [
     cta: "Parler au copilote",
   },
   {
+    href: "/projection-5ans",
+    emoji: "🔭",
+    title: "Projection 5 ans",
+    desc: "Votre situation dans 5 ans : famille, carrière, budget. Quelles villes correspondent à ce que vous serez (pas ce que vous êtes), avec le risque climatique 2040 intégré.",
+    cta: "Projeter ma vie",
+  },
+  {
     href: "/city-match",
     emoji: "🌸",
     title: "City Match",
