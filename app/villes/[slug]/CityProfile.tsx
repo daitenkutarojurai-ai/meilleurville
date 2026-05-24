@@ -7,6 +7,7 @@ import { Card } from "@/components/ui/Card";
 import { ScoreBar } from "@/components/ui/ScoreBar";
 import { CityDiscussionTabs } from "@/components/CityDiscussionTabs";
 import { FavoriteButton } from "@/components/effects/FavoriteButton";
+import { FollowCityButton } from "@/components/FollowCityButton";
 import { GrainOverlay } from "@/components/effects/GrainOverlay";
 import { AISummaryCard } from "@/components/AISummaryCard";
 import { UserVsOfficialScore } from "@/components/UserVsOfficialScore";
@@ -131,6 +132,7 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                   </Badge>
                 ))}
                 <FavoriteButton slug={city.slug} className="!ml-1" label />
+                <FollowCityButton citySlug={city.slug} cityName={city.name} />
               </div>
               <h1 className="text-5xl sm:text-7xl font-bold text-[var(--text-primary)] mb-3 tracking-tight leading-[1.02]">
                 <span className="font-display gradient-text-anim italic">{city.name}</span>
