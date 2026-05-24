@@ -3831,6 +3831,294 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["paris", "lyon", "bordeaux", "nantes", "rennes"],
     tags: ["france utility costs", "electricity france", "housing costs france", "charges copropriété", "monthly budget france"],
   },
+  {
+    slug: "dijon-living-guide-2026",
+    title: "Living in Dijon: Burgundy's underrated capital that quietly ticks every box",
+    metaTitle: "Living in Dijon 2026 — expat guide: cost, lifestyle, pros & cons",
+    metaDesc: "Dijon: TGV 1h35 to Paris, genuinely affordable housing, world-class food culture, strong university. The honest guide to living in Burgundy's capital.",
+    category: "city-guide",
+    emoji: "🍷",
+    readMinutes: 8,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "Dijon is the kind of city that makes Parisians feel slightly foolish for not having moved there sooner. One-and-a-half hours by TGV from Paris Gare de Lyon, a T2 apartment for €600/month, one of the best historic centres in France, and a food culture that doesn't need to borrow prestige from anywhere. It's a city of 160,000 with the cultural weight of something twice its size — a university town (27,000 students), a legal capital, and the undisputed gastronomic capital of Burgundy. The main drawback is weather: cold winters, humid springs, not much sun by French standards. If you can make peace with that, Dijon rewards you generously.",
+    sections: [
+      {
+        heading: "What kind of city is Dijon?",
+        body: "Dijon is the prefecture of Côte-d'Or and the capital of the Burgundy-Franche-Comté region. It has a medieval core (the Dukes of Burgundy palace and the surrounding old town are genuinely stunning — not tourist-board-stunning, actually beautiful), a strong university presence (Université de Bourgogne, Sciences Po campus, Burgundy School of Business), and an economy anchored in law, agri-food, insurance, and public services. It's a working city, not a postcard. About 60% of residents own their homes, which speaks to its stability. The population is relatively stable — not losing residents like some post-industrial cities, not growing explosively like Bordeaux or Rennes. It draws people who've decided they want a good life at a human scale and would rather have a garden than a Haussmann facade.",
+      },
+      {
+        heading: "Housing and cost of living",
+        body: "Housing in Dijon is the headline number. A T1 (studio-ish, 30m²) rents for €450-550/month; a T2 (one-bedroom, 45m²) for €550-700; a T3 (two bedrooms) for €700-950. Buying: €1,900-2,500/m² for apartments in good central locations, €1,600-2,000/m² for slightly out-of-centre. This is Paris divided by roughly three. The best central neighbourhoods for renters: around Place Darcy and Rue de la Liberté (lively, central, walkable), Montchapet (quieter, slightly upmarket), Les Bourroches (student-friendly, good transport). Grocery costs are standard French provincial — perhaps 5-10% below Lyon. Transport: Divia runs the tram and bus network; a monthly pass is €40. Most of the city is easily cyclable. Parking is cheap and generally available if you have a car.",
+      },
+      {
+        heading: "The food and wine culture — not just for tourists",
+        body: "It would be dishonest to write a Dijon guide without spending time on food. Burgundy is one of the top five wine regions in the world, and living in Dijon means access to that reality at everyday prices — not bottle-of-Chambolle-Musigny-on-a-Wednesday prices, but farmers' markets with great producers, local pinot noir at €8-12 a bottle, and a casual dining scene that takes cooking seriously without taking itself too seriously. The city also has one of the best traditional covered markets in France (Les Halles de Dijon, Victor Baltard design) open three mornings per week. Restaurant prices are markedly lower than Paris or Lyon for equivalent quality: a serious two-course lunch costs €15-22. The Moutarde de Dijon (mustard) factories are real; so is the pain d'épices. You will not go hungry, and you will not regret it.",
+      },
+      {
+        heading: "Getting around and out",
+        body: "Dijon's TGV station puts Paris Gare de Lyon at 1h35 — meaning weekend trips to Paris are entirely reasonable, and commuting twice a week to a Paris office is uncomfortable but not impossible. Lyon is 1h40 by TGV (or 2h on regional trains). Beaune and the famous wine road (Route des Grands Crus) is 25 minutes south by car — a Sunday drive that most Dijonnais do casually. The Alps (Chamonix, Les Arcs, Les Gets) are 2h30-3h by car. For daily life, the tram is efficient and the city is compact enough to walk end-to-end in 30 minutes. One thing that bothers people: Dijon doesn't have a major airport. Dole-Jura is nearby but limited; Lyon-Saint-Exupéry (2h by car or connecting train) covers international routes. If you fly frequently, this is a real consideration.",
+      },
+      {
+        heading: "Honest pros and cons",
+        body: "Pros: genuinely affordable housing without sacrificing quality of life; TGV to Paris in 1h35; one of France's best historic centres (actually beautiful, not just described as beautiful); strong food and wine culture; good university and professional ecosystem; human scale. Cons: weather is a real issue — Dijon averages 1,900 sunshine hours/year (compare to Montpellier's 2,800), and winters are cold and grey; the nightlife and arts scene is limited compared to Lyon or Bordeaux; the economy is solid but not booming — job opportunities are concentrated in law, public sector, and agri-food; no major airport; some have found it slightly provincial in terms of diversity and cosmopolitan energy. The city that Dijon most resembles in feel and value proposition is Strasbourg — another historically rich, food-serious, slightly rainy city that consistently punches above its size. If Strasbourg is too close to Germany or too far east, Dijon is usually the next conversation.",
+      },
+    ],
+    relatedCities: ["dijon", "beaune", "chalon-sur-saone", "besancon", "macon"],
+    tags: ["dijon guide", "living in dijon", "burgundy expat", "dijon housing", "france city guide 2026"],
+  },
+  {
+    slug: "leaving-lyon-where-to-go-2026",
+    title: "Leaving Lyon: where to go when France's second city stops fitting your life",
+    metaTitle: "Leaving Lyon 2026 — where expats and Lyonnais move next",
+    metaDesc: "Housing costs, commute fatigue, neighbourhood change: the honest guide to leaving Lyon and the 8 destinations worth considering in 2026.",
+    category: "moving",
+    emoji: "🚀",
+    readMinutes: 9,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "Lyon is genuinely excellent — France's second city in most meaningful ways, with a food culture that rivals Paris, a strong economy, and faster access to skiing and the Mediterranean than anywhere else. But its housing market has tightened significantly since 2019 (prices up 30-40% in central neighbourhoods), and the feeling of space that drew people from Paris has narrowed. If you're Lyonnais-born or an expat who landed in Lyon first and now wants to recalibrate, this guide is about what comes next — the cities that offer what Lyon offers without the friction that made you start googling.",
+    sections: [
+      {
+        heading: "Why people leave Lyon (and why it's not a crisis)",
+        body: "Leaving Lyon doesn't mean Lyon failed you. The most common reasons we hear: housing costs have escalated so much that the Paris-minus-the-rent arbitrage has mostly closed in central Presqu'île and Croix-Rousse (€3,500-5,000/m² for purchase, €1,200-1,500/month for a T2 rental). Remote work has cut the umbilical cord to the office. Children reach school age and parents start weighing whether the city school system matches their expectations. A relationship ends or begins somewhere else. Sometimes it's simpler: someone visited Bordeaux in April and couldn't stop thinking about it. None of these reasons require Lyon to have a flaw. Cities suit life stages, and life stages end.",
+      },
+      {
+        heading: "Grenoble — the obvious first candidate",
+        body: "Grenoble is 1h15 from Lyon by regional express and sits at the confluence of three mountain ranges (Vercors, Belledonne, Chartreuse). It has roughly 160,000 residents, one of the largest university campuses in France, and a technology sector (semiconductors, deep tech, nuclear) that keeps professional incomes high. Housing is significantly cheaper than Lyon: T2 apartments at €700-900/month rental, purchase prices around €2,200-2,800/m² in good central areas. The main objection is the same as always: Grenoble gets fewer sunshine hours than Lyon (already not sunny) and is enclosed by mountains, which creates an urban air quality challenge in winter (temperature inversions trap pollution). If you work in tech, research, or the public sector and can handle the weather trade-off, Grenoble is the most natural choice. Bonus: ski resorts within 45 minutes.",
+      },
+      {
+        heading: "Annecy — small, expensive, and worth considering anyway",
+        body: "Annecy is 1h40 from Lyon by train and is frankly beautiful — a lake town with a medieval centre, and mountains close enough to be in the kitchen rather than the background. The problem: it's expensive for its size. A T2 in Annecy city centre costs €900-1,200/month; buying starts at €4,000/m² for good locations. This is Bordeaux money without Bordeaux's job market. It works if you have a remote job with a Lyon or Geneva salary, or if your partner keeps working in Geneva (45 minutes by train). The lifestyle payoff — lake swimming in summer, skiing in winter, a genuinely beautiful everyday environment — is real, not imagined. But go in with realistic expectations about the price: Annecy is not a budget escape from Lyon.",
+      },
+      {
+        heading: "Bordeaux, Nantes, Rennes — the Atlantic pivot",
+        body: "If your reason for leaving Lyon is specifically the climate (grey winters, hot humid summers), the Atlantic cities are the most logical counter-moves. Bordeaux is 2h from Paris TGV, has more sunshine than Lyon, better winter temperatures, and a dynamic professional scene — but central housing prices have risen sharply (€3,500-5,000/m²) and the city is still feeling a post-Covid oversupply hangover in some sectors. Nantes is calmer, more affordable (€3,000-4,000/m² for apartments), with excellent cycling infrastructure and a strong digital economy. Rennes has the most affordable housing of the three for comparable neighbourhoods, a very active cultural life, and TGV to Paris in 1h30 — the fastest major-city rail link in France per distance. All three are full professional ecosystems with good international school options for expat families.",
+      },
+      {
+        heading: "Staying in the region: Valence, Romans-sur-Isère, Roanne",
+        body: "Not everyone needs to cross France. If you want to cut costs and keep Lyon within commuting range, the Rhône corridor has options. Valence (1h south of Lyon by train) has a sunny Drôme climate, housing at €1,600-2,200/m² and rents around €600-800/month for a T2 — serious savings. It has a real town centre (less dynamic than Lyon but functional), and Ardèche and Vercors access within 30-45 minutes. Romans-sur-Isère (15km from Valence, shoe-making heritage) is even cheaper. Bourg-en-Bresse (1h north, Ain) is the alternative if you want lower costs, access to Jura countryside, and a direct regional train into Lyon for the office days. None of these are exciting cities in the way Lyon is exciting; they're practical answers for a specific problem (costs) rather than lifestyle upgrades.",
+      },
+    ],
+    relatedCities: ["lyon", "grenoble", "annecy", "bordeaux", "valence"],
+    tags: ["leaving lyon", "where to move from lyon", "lyon alternative cities france", "expat lyon 2026"],
+  },
+  {
+    slug: "france-healthcare-guide-expats-2026",
+    title: "French healthcare for expats: how the system works and how to use it",
+    metaTitle: "French healthcare expats 2026 — PUMA, mutuelle, GP, hospital guide",
+    metaDesc: "How to register for French state healthcare (PUMA), what a mutuelle covers, how to find a GP, and what to expect from French hospitals. Practical guide for expats 2026.",
+    category: "moving",
+    emoji: "🏥",
+    readMinutes: 10,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "France has one of the best healthcare systems in the world by most objective metrics, but it works differently from the UK NHS, the US system, or most Northern European models. It's not free at the point of use (you pay and get reimbursed), it's not a pure insurance market (the state covers 70-80% of most costs), and it rewards people who understand how it's structured. This guide explains how to access it as an expat, what you'll actually pay, and the situations where the French system is exceptional versus where it has gaps.",
+    sections: [
+      {
+        heading: "PUMA: the universal health coverage you need to register for",
+        body: "PUMA (Protection Universelle Maladie) replaced CMU in 2016 and gives every legal resident access to the state health insurance scheme, regardless of employment status. If you work in France, your employer enrolls you automatically — URSSAF takes care of it. If you're self-employed, you register through your professional body (URSSAF, SSI depending on status). If you're not working (retired, dependent partner, student from outside the EU), you can still access PUMA after 3 months of legal residency by applying through your local CPAM (Caisse Primaire d'Assurance Maladie). The registration process requires: proof of identity, proof of legal residency (titre de séjour or EU passport), and proof of address. It can take 1-3 months to be fully processed, during which time you're technically uninsured — keep receipts for any medical expenses during this window, as you can usually claim retroactively. Your Carte Vitale (the green chip card) is issued after registration and is your proof of insurance at every medical appointment.",
+      },
+      {
+        heading: "What the state pays and what you need a mutuelle for",
+        body: "French health insurance is a two-layer system. The Assurance Maladie (state layer, managed by CPAM) reimburses 70% of the reference rate for most consultations and treatments. The mutuelle (complementary insurance, private) covers the remaining 30% and, crucially, covers the gap between the reference rate and what practitioners actually charge — a significant issue with specialists in Sector 2 and 3 (more on that below). Employees are required by law to be offered a mutuelle through their employer (50% employer-funded since 2016). Self-employed people, retirees, and dependants buy their own. A basic individual mutuelle costs €30-80/month; a family coverage with good reimbursement for dental, optical, and specialists: €100-200/month. Without a mutuelle, dental and optical costs in France are essentially not covered by the state. A crown costs €500-800; glasses €200-400 for a frame with corrective lenses. These are your main financial exposures in the French system if you opt out of complementary insurance — which most residents don't.",
+      },
+      {
+        heading: "Finding a GP: médecin traitant, déserts médicaux, and alternatives",
+        body: "Every adult in France is supposed to designate a médecin traitant — a GP who is your primary care entry point. This matters financially: if you see a specialist without going through your médecin traitant first (for non-emergency care), your reimbursement rate drops. The problem: France is experiencing a significant GP shortage, particularly in rural areas and some urban outskirts. Finding a médecin traitant who is accepting new patients can be genuinely difficult in areas like the Loire valley, parts of Normandy, the Auvergne, and suburban areas around Paris. In large cities (Paris, Lyon, Bordeaux, Nantes), the situation is better but still tight. Doctolib.fr is the standard tool for finding and booking appointments online — most GPs and specialists use it. For urgent care that doesn't require A&E, the Maison Médicale de Garde (open evenings and weekends) and SOS Médecins (house calls, available 24/7) cover gaps. In genuine emergencies: call 15 (SAMU), 18 (Sapeurs-Pompiers), or 112.",
+      },
+      {
+        heading: "Specialists: Sector 1, 2, 3 explained",
+        body: "French practitioners are classified into three sectors based on their billing freedom. Sector 1 (secteur conventionné): charges the official rate; fully covered by Assurance Maladie and most mutuelles. Sector 2 (honoraires libres): can charge above the official rate; the gap ('dépassement d'honoraires') is only partly covered by mutuelles. A Sector 2 cardiologist in Paris might charge €80 for a consultation where the reference rate is €30 — your mutuelle may cover €20 of that gap, leaving you with €30 out of pocket. Sector 3 (non conventionné): very high fees, minimal state reimbursement, usually only a portion covered by premium mutuelles. Relevant in practice: many well-known Parisian specialists (psychiatrists, dermatologists, gynaecologists) practice in Sector 2 or 3. In smaller cities and for non-specialist care, Sector 1 dominates. When choosing a mutuelle, look at the 'niveau de remboursement' for specialist fees (dépassements d'honoraires) if you're in a large city where Sector 2 is common.",
+      },
+      {
+        heading: "Hospitals, ALD, and the situations where France excels",
+        body: "French public hospitals (CHU — Centre Hospitalier Universitaire — in major cities) are genuinely excellent for serious conditions: oncology, cardiac care, orthopaedics. The public system is free after the first day's hospitalisation fee (€20/day, covered by mutuelle), including surgery, anaesthesia, and in-hospital medications. If you have a serious chronic illness (ALD — Affection de Longue Durée: diabetes, cancer, serious cardiovascular disease, etc.), your treatment protocol is 100% covered by the state at no cost to you. This is perhaps the part of the French system most different from the US and UK: a cancer patient in France has essentially no medical bills. Where the French system has known weaknesses: mental health coverage is limited (psychiatry consultations are expensive and waiting lists long), some preventive care is less systematic than in Scandinavia or Germany, and GP access in rural areas is a real problem as noted. For expats coming from the NHS: you'll spend more money on routine care (GP co-pays, mutuelle premiums) but will be insulated from catastrophic costs far better than in most private-insurance systems.",
+      },
+    ],
+    relatedCities: ["paris", "lyon", "bordeaux", "nantes", "rennes"],
+    tags: ["french healthcare expats", "PUMA france", "mutuelle france", "médecin traitant", "french health system 2026"],
+  },
+  {
+    slug: "grenoble-living-guide-2026",
+    title: "Living in Grenoble: the tech city with mountains at the door — an honest assessment",
+    metaTitle: "Living in Grenoble 2026 — expat guide: tech jobs, mountains, cost of living",
+    metaDesc: "Grenoble: semiconductors, ski resorts, affordable housing, grey winters. The complete honest guide for expats and remote workers considering France's most tech-dense city outside Paris.",
+    category: "city-guide",
+    emoji: "⛷️",
+    readMinutes: 8,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "Grenoble doesn't need to be sold. It has 160,000 residents, three mountain ranges within 30 minutes, one of Europe's densest concentrations of deep tech (STMicroelectronics, Soitec, Schneider Electric, Biomérieux, MINATEC), and housing prices that make Lyon look expensive. But it has a weather pattern that is genuinely divisive — low sunshine hours, winter thermal inversions that trap pollution in the bowl formed by the mountains, and a reputation for being grey that discourages people who should probably move there. This guide is for the person who already knows they can handle imperfect weather in exchange for an exceptional everyday environment.",
+    sections: [
+      {
+        heading: "Who moves to Grenoble and why",
+        body: "Three main groups: tech and research professionals (the employment ecosystem is unusually dense for a city this size — semiconductor engineering, nuclear research at CEA, biosciences at Biopôle, deep learning at Inria), students and academics (the Université Grenoble Alpes has 65,000 students and ranks in the top 150 universities globally for engineering and physical sciences), and mountain lifestyle seekers who want to base in France's Alps without living in a resort. The city has a history of radical politics (Grenoble was notably the first French city to ban advertising on public spaces) and a culture that prizes substance over style — the opposite of Nice or Biarritz. Expats from Northern Europe (Germany, Scandinavia, Netherlands) often feel immediately at home; those from Southern or Anglo cultures take more adjustment.",
+      },
+      {
+        heading: "Housing: the honest numbers",
+        body: "Grenoble has among the lowest housing costs of any major French city with a strong job market. T1 (studio, 25-35m²): €450-580/month rental. T2 (one bedroom, 40-50m²): €620-820/month. T3 (two bedrooms): €800-1,100/month. Buying: €2,000-3,000/m² in good central neighbourhoods (Championnet, Berriat, Île Verte); €1,600-2,200/m² in the outer parts of the city. The main residential neighbourhoods are compact and most are either walkable or well-served by the excellent tram network (3 lines covering most of the city). The least recommended areas for new arrivals: Mistral and Village Olympique in the south have higher crime and social challenges — not unique to Grenoble, but the reality. The best value neighbourhood for young professionals: the Victor Hugo / Berriat area — great cafés, near the market at Place Saint-Bruno, 10 minutes tram from most tech campuses.",
+      },
+      {
+        heading: "The mountain access: not just for weekends",
+        body: "People say 'Grenoble has mountains 30 minutes away' as a tourism tagline. It's literally true and it changes daily life. Chamrousse ski resort: 25 minutes by car. Les Sept Laux: 45 minutes. Alpe d'Huez (the famous one): 1h15. In summer, trail running, mountain biking, and hiking start where the city ends — the Bastille (fort above the city) is accessible on foot or by bubble gondola in 10-20 minutes. Cyclists are well served: multiple major alpine cols start from or near the city (Col de la Croix de Fer, Col du Lautaret). For remote workers or those with flexible hours, there's a very real possibility of skiing on a Tuesday morning and working from the office in the afternoon. This is not a theoretical benefit — it's what a significant proportion of Grenoble's tech workforce actually does in January and February.",
+      },
+      {
+        heading: "The weather: what you actually need to accept",
+        body: "Grenoble averages 1,900-2,000 sunshine hours per year — less than Lyon (2,100) and well below Montpellier (2,700). The mountains that create the exceptional landscape also create the main meteorological liability: thermal inversions in winter trap cold air and pollution in the valley floor. From November to February, the city can go 2-3 weeks with a persistent grey fog that the mountains above enjoy sunshine in. Air quality during these inversions is measurably poor and affects some residents with respiratory sensitivities. The solution: an apartment higher up (the hillside neighbourhoods above 250m tend to sit above the inversion layer on the worst days) or the mental preparation to simply drive 20 minutes up a mountain road on the worst days. Summers in Grenoble are hot (hotter than Lyon due to the enclosed valley) and sunny — genuinely beautiful. The controversial season is winter.",
+      },
+      {
+        heading: "Professional life and English",
+        body: "English is widely spoken in Grenoble's tech sector — many companies run bilingual or English-first environments. For engineers, researchers, and tech professionals, moving to Grenoble without French is feasible in a way it wouldn't be in most French cities. The research ecosystem (CEA, CNRS, Inria, university) is highly international and routinely hires people with no French. For non-tech roles (retail, hospitality, admin), French remains necessary. The city has a decent international school (École Internationale de Grenoble), which matters for expat families, though it has limited capacity and a waiting list. Professional networking is active — the French Tech Grenoble association and Minatec events regularly bring together the tech community. Salary levels for engineers in Grenoble tend to be 10-20% below Paris rates but housing savings of 50-60% relative to Paris more than compensate in most scenarios.",
+      },
+    ],
+    relatedCities: ["grenoble", "annecy", "lyon", "chambery", "valence"],
+    tags: ["grenoble guide", "living in grenoble", "grenoble expat", "grenoble tech jobs", "france alpine city 2026"],
+  },
+  {
+    slug: "french-school-system-expat-guide-2026",
+    title: "The French school system: what expat families need to know before enrolling",
+    metaTitle: "French school system expat guide 2026 — maternelle to baccalauréat explained",
+    metaDesc: "Maternelle, CP, collège, lycée, baccalauréat, international sections: everything expat parents need to understand about French education before choosing a city or school.",
+    category: "family",
+    emoji: "📚",
+    readMinutes: 11,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "The French education system is free, compulsory from age 3, and produces well-educated adults — but it functions on assumptions and rhythms that are very different from British, American, or Northern European schooling. Homework starts in primaire. Assessment is out of 20 (not 100 or grades). The teaching style is more formal and lecture-based than most Anglophone schools. Students choose a 'filière' (academic track) at 15. And the school calendar — structured around the 'grandes vacances' of July-August — means you will reorganise your professional life around the French school year once you have children in it. This guide explains each stage, flags the moments that matter most, and addresses the international school question directly.",
+    sections: [
+      {
+        heading: "Maternelle to CM2: the primary years",
+        body: "Maternelle (ages 3-6, 3 years): France introduced compulsory schooling from age 3 in 2019. The maternelle is free (public) and full-day. Don't underestimate it — French maternelle is substantive, with significant cognitive and language work starting in Petite Section (age 3). For non-Francophone children, the immersion effect of maternelle is rapid: most children acquire conversational French within one school year if they start before age 6. Primaire (ages 6-11, 5 years — CP to CM2): the formal academic programme begins. Grading from 20 from CE2 (age 8). Homework is assigned from CE1 (age 7), though the volume has been officially reduced and teachers vary. Class sizes: 20-27 in public schools; smaller in private. The programme is nationally standardised (Ministère de l'Éducation Nationale), so a child moving from Bordeaux to Rennes will find themselves in the same curriculum stage.",
+      },
+      {
+        heading: "Collège: four years that matter more than people realise",
+        body: "Collège (ages 11-15, 4 years — 6ème to 3ème): the French secondary school is where academic differentiation begins to matter. Brevet des collèges at the end of 3ème is the first national exam. Preparation for it starts from the beginning of 3ème and involves significant homework load. The choice of collège matters more than it does in primary school: French urban collèges are affected by the same socioeconomic segregation patterns as in most countries, and the 'carte scolaire' (school zoning) determines your options unless you apply for a dérogation (an exemption). In practice, the schools with better reputations are associated with wealthier residential areas — which partly explains the premium on certain urban neighbourhoods. For expat families, the 'classe bilangue' option (available in many collèges) allows children to study two modern languages from 6ème — often a useful path for English-first families who want to maintain their language.",
+      },
+      {
+        heading: "Lycée and the baccalauréat: the new system since 2021",
+        body: "Lycée (ages 15-18, 3 years — Seconde, Première, Terminale): the baccalauréat reform introduced in 2021 replaced the three classic filières (L, ES, S) with a more flexible system. Students now choose a 'tronc commun' (core subjects including French, philosophy, history-geography, maths, PE) and two speciality subjects from a list of 12 options (maths, biology, economics, history, arts, etc.). There is also a 'Grand Oral' examination — a 20-minute oral presentation — which is new and culturally significant: oral performance has traditionally been less valued than written work in the French system, and this marks a shift. The baccalauréat is still taken at the end of Terminale and is still the standard gateway to higher education. Graduates with a 'mention Très Bien' (very good honours) have priority access to the most competitive university tracks via Parcoursup (the national university matching platform).",
+      },
+      {
+        heading: "International sections and international schools",
+        body: "For expat families, two main options allow children to maintain a non-French language alongside the French curriculum: Sections internationales (SIL/LIL): available in selected public collèges and lycées in major cities. Students follow the standard French programme but receive reinforced teaching in their mother tongue and study literature, history, and a subject in that language. Bilingual French-English sections are most common (Paris, Lyon, Bordeaux, Nantes, Strasbourg, Grenoble). Children finish with the baccalauréat but with an 'option internationale' mention. This is often the best option for families planning to stay long-term — children become genuinely bilingual and the French social integration is deeper. International schools: full English (or other language) curriculum leading to IB or A-levels. Most expensive in Paris (€20,000-35,000/year), cheaper in other cities (€8,000-15,000/year). Schools in Lyon, Bordeaux, Nantes, Grenoble, Marseille, Toulouse are the main options outside Paris. Children maintain their original curriculum and cultural identity but have shallower French integration. Worth it if the stay is time-limited or if the professional context requires it.",
+      },
+      {
+        heading: "Practical considerations when choosing a city with children",
+        body: "The school system is one more reason to verify your residential neighbourhood before signing a lease. The carte scolaire means your postcode determines which public school your child attends, and the quality variation between schools in different parts of the same city can be significant. Resources: the Ministère de l'Éducation Nationale's 'Annuaire de l'éducation' lets you find the school attached to any address. Académie websites (your region's education authority) publish results data for collèges and lycées including brevet and baccalauréat pass rates. Talking to parents in the neighbourhood is still the most useful input — ask specifically about 'l'ambiance' in the school (social climate) rather than just results. French school hours are specific: school typically starts at 8:30am and ends at 4:30-5pm, with a 2-hour lunch break. Wednesday afternoons are often free (no school in most schools for younger children). This shapes daily logistics significantly and is worth factoring into childcare planning.",
+      },
+    ],
+    relatedCities: ["paris", "lyon", "bordeaux", "nantes", "grenoble", "strasbourg"],
+    tags: ["french school system expats", "maternelle france", "baccalauréat guide", "international school france", "expat children france 2026"],
+  },
+  {
+    slug: "best-french-cities-seniors-retirees-2026",
+    title: "Best French cities for seniors and retirees: where to live well on a fixed income",
+    metaTitle: "Best French cities for retirees 2026 — seniors guide: healthcare, climate, cost",
+    metaDesc: "Healthcare access, warm climate, affordable housing, and cultural life: the 8 best French cities for retirees and seniors in 2026, with honest scores and real numbers.",
+    category: "lifestyle",
+    emoji: "🌞",
+    readMinutes: 9,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "Retiring in France works very well if you make one good decision at the start: choose the right city. A retiree in the wrong French city — isolated, with poor healthcare access, in a damp climate on a fixed income — will be miserable. A retiree in the right city will have one of the best quality of life situations in Europe. The criteria are specific: healthcare proximity and quality, climate (sunshine matters more after 65 than it did at 35), affordable housing without the isolation of deep countryside, and enough cultural and social life to keep life interesting. This guide ranks the eight cities that consistently satisfy all four.",
+    sections: [
+      {
+        heading: "What to prioritise when you're retiring in France",
+        body: "Healthcare access deserves its own paragraph. France's health system is excellent nationally, but proximity to specialists matters more as you age. Cities with a CHU (Centre Hospitalier Universitaire — teaching hospital) have higher-tier oncology, cardiology, and neurology on-site. Smaller cities depend on regional transfers for specialised care. For a retiree with complex health needs, this is a practical rather than theoretical concern: being 2 hours from a major CHU versus 20 minutes changes outcomes. Climate: France's sunshine gradient runs broadly south-by-southwest, from 1,900 hours/year in the northeast to 2,800+ in the Languedoc and PACA coast. Bones and mood respond to sunshine. The difference between Dijon (cold winters, grey springs) and Montpellier (250+ days sun/year) is not cosmetic. Social life: France outside Paris has a strong culture of local associations (sports clubs, cultural societies, third-sector organisations) that make integration into community life achievable without being native-born. The density of this associative life tends to be highest in cities of 50,000-200,000 rather than in either large metropolises or isolated villages.",
+      },
+      {
+        heading: "Montpellier — the retiree city that doesn't market itself as one",
+        body: "Montpellier has 300,000 residents, one of the top medical schools in France, 2,700 sunshine hours per year, and a city centre that is genuinely walkable. It's not primarily a retiree city — it's young and student-heavy — which actually works in favour of retirees who don't want an atmosphere of managed decline. Healthcare: the CHU de Montpellier is one of the top cardiology and oncology centres in France. Costs: T2 rents at €800-1,000/month for central; buying at €3,200-4,500/m² (note: these are high by French provincial standards and the market has been heating up). The coast (Palavas, La Grande-Motte) is 15 minutes by tram. The main downsides: summer heat (35-40°C in July-August, increasing with climate projections), and a slightly chaotic urban growth pattern in outlying areas. But for a French retiree with health concerns and sun-hunger, Montpellier delivers consistently.",
+      },
+      {
+        heading: "Pau — the hidden value-for-money star",
+        body: "Pau gets mentioned surprisingly rarely in retirement conversations, which is why it over-delivers. It has 80,000 residents, an excellent hospital, direct TGV connection to Paris (5h30), a micro-climate that is measurably milder than the surrounding region (it sits in a thermal corridor sheltered by the Pyrenees), and housing at €1,500-2,200/m² for good apartments. A retiree on a British or German pension who moves to Pau is well-financed relative to local costs. The city has a notable Anglophone community going back to the 19th century (the British gentry 'discovered' Pau in the 1830s for its mild winters) — there are English-speaking social clubs, an English-language church, and enough expat infrastructure to ease the integration. The Pyrénées are genuinely spectacular and accessible; Biarritz is 1h15 away. For retirees from Northern Europe who want warmth, affordability, and mountains, Pau is the most underrated city in France.",
+      },
+      {
+        heading: "La Rochelle — maritime, calm, well-equipped",
+        body: "La Rochelle has 80,000 permanent residents and genuinely excellent quality of life statistics — consistently among the top cities for residents' wellbeing surveys. The old port is beautiful without being overwhelmed by tourism (unlike Honfleur or Antibes), the flat terrain is excellent for cycling, and the Atlantic coast delivers softer sun than the Mediterranean — more Biarritz than Nice. Healthcare: the Centre Hospitalier de La Rochelle handles most needs; Bordeaux CHU is 1h30 for specialised care. Costs: T2 apartments at €750-1,000/month rental; purchase at €2,500-3,500/m² (prices elevated by Parisian buyers). The Île de Ré, accessible by bridge, adds a genuinely special dimension. Summer overcrowding is the main drawback — July and August bring the tourist population to 250,000+ in the metropolitan area, which strains everything. September to June: excellent. The islands (Ré, Oléron) are popular with retirees for the same reasons on a smaller and quieter scale.",
+      },
+      {
+        heading: "Other strong candidates: Bayonne, Perpignan, Aix-en-Provence, Toulon",
+        body: "Bayonne (Pays Basque): mild Atlantic climate, strong Basque cultural identity, growing expat community, good hospital. Housing has risen sharply (driven by Biarritz spillover) — now €3,000-4,500/m² in the best areas. Perpignan: Mediterranean climate, cheapest housing of any coastal French city (€1,500-2,200/m² for good apartments), direct TGV to Paris (5h). The city has social challenges that are well-documented; but for retirees focused on climate, health access (CHU de Perpignan), and budget, it delivers seriously on all three. Aix-en-Provence: beautiful, expensive (€4,000-6,000/m²), excellent air quality by PACA standards, strong social life, great cultural events. Best suited to retirees with higher incomes. Toulon: cheaper than Aix or Nice, excellent climate (2,700+ sunshine hours), large naval hospital (one of the best in southern France), mixed urban character. A practical rather than glamorous choice — but the quality of life for a retiree focused on sunshine and healthcare is high.",
+      },
+    ],
+    relatedCities: ["montpellier", "pau", "la-rochelle", "bayonne", "perpignan", "aix-en-provence"],
+    tags: ["retiring in france", "best french cities retirees", "france seniors living guide", "retire france 2026", "expat retirement france"],
+  },
+  {
+    slug: "france-banking-guide-expats-2026",
+    title: "Banking in France as an expat: how to open an account without losing your mind",
+    metaTitle: "France banking expats 2026 — open account, best banks, transfer money",
+    metaDesc: "How to open a French bank account as a foreign resident, which banks accept expats easily, what to do while waiting, and how to transfer money internationally. Practical 2026 guide.",
+    category: "moving",
+    emoji: "🏦",
+    readMinutes: 8,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "Opening a bank account in France as a new resident is the administrative task that surprises people the most. The system is more formal than in the UK, more bureaucratic than in Germany, and more conservative than in the Netherlands. French banks want documents, they take their time, and the process can feel circular: you need an account to set up a direct debit (prélèvement automatique) for rent, and some landlords ask for bank details before you've arrived. But there are ways through. This guide tells you which banks are easiest for new arrivals, what you absolutely need before applying, and what to do in the gap.",
+    sections: [
+      {
+        heading: "What French banks want from you",
+        body: "The standard document list for opening a current account (compte courant) at a traditional French bank: valid passport or national ID, proof of address in France (facture d'électricité, de gaz, attestation de domicile), and proof of income or professional status (contrat de travail, first pay slip, or business registration). For non-EU nationals: a valid titre de séjour (residence permit) is also required by most banks. The problem for new arrivals: you don't have a French address yet, or you have a temporary one (hotel, Airbnb), and you don't have a pay slip because you haven't started work yet. This is the classic Catch-22. Solutions: some banks accept an attestation d'hébergement (a signed letter from whoever is hosting you, plus their proof of address and ID) as address proof; others accept a provisional employment contract in lieu of a pay slip.",
+      },
+      {
+        heading: "Online banks and neobanks: the fastest entry point",
+        body: "The easiest way to get a functional French IBAN quickly is through an online bank or neobank. Boursorama Banque (owned by Société Générale) has the lowest fees of any full-service French bank and offers a free card with no foreign transaction fees — good for new arrivals still transferring money internationally. The application is online, document upload is digital, and account opening takes 5-10 business days if your documents are clear. N26 (German neobank, French subsidiary) and Revolut (UK-based but EU-regulated) are also widely used by expats: instant IBAN, no account fees, excellent apps. Important caveat: French administrative systems and many French landlords specifically request a 'RIB' (Relevé d'Identité Bancaire) from a French traditional bank; some explicitly refuse Revolut or N26 IBANs (which start with FR but are issued through third-party structures). For the first lease signing, Boursorama usually works; Revolut sometimes doesn't.",
+      },
+      {
+        heading: "Traditional banks: BNP Paribas, Crédit Agricole, Société Générale, LCL",
+        body: "The big four traditional French banks all have expat-friendly offers in theory; in practice, individual branch experiences vary significantly. BNP Paribas and Société Générale have international desks in major cities (Paris, Lyon, Bordeaux) that are specifically set up for non-French residents. Crédit Agricole and LCL operate through their regional branches — service quality varies more but some regional directors go out of their way to help new residents. Typical account fees: €2-8/month for a basic account with a debit card; premium accounts (including credit cards, insurance, international transfers) €15-25/month. The key negotiation when opening: ask for the 'droite au compte' (right to a bank account) if refused, which is a legal right that entitles any legal resident to a basic account through the Banque de France mediation process. It's rarely needed but worth knowing. Account opening takes 2-4 weeks at traditional banks.",
+      },
+      {
+        heading: "Transferring money to France and managing international income",
+        body: "If you have ongoing income in another currency (salary, pension, rental income from property abroad), the exchange cost will compound over time. The two lowest-cost solutions in 2026: Wise (TransferWise) for one-time and recurring transfers — mid-market rate, ~0.4-0.7% fee per transfer; transparent, reliable. Revolut for people who receive and spend in multiple currencies — holds GBP, EUR, USD in the same account, converts at the interbank rate with a low spread (except on weekends when they add a 1% surcharge). Avoid: bank-to-bank wire transfers through traditional banks (typically €25-40 flat fee plus a 1-3% exchange spread); Western Union for large amounts (expensive); PayPal for currency conversion (very bad rates). If you receive a British or Irish pension in France post-2026, you're not subject to double taxation under the UK-France tax treaty (pensions are typically taxed only in the country of residence). Document this correctly in your annual French tax return.",
+      },
+      {
+        heading: "Credit in France: building a history from scratch",
+        body: "French credit scoring is less formalised than in the US or UK — there's no FICO equivalent, and banks make credit decisions based on your file (income stability, employment type, existing debts) rather than a single number. For new arrivals, this means credit access is limited initially but can be built reasonably quickly. Priority sequence: first, open a current account and use it actively (regular credits from your salary, regular debits). Second, get a credit card attached to the account (even a basic debit/credit card that requires monthly balance payoff). Third, after 6-12 months of clean account history, you're in a position to apply for consumer credit or explore mortgage eligibility. Home loan access: French banks require a minimum of 2 years of French tax returns and a CDI employment contract (or equivalent stable income) to take a mortgage application seriously. Recent arrivals on work visas or in trial periods will typically be declined. The magic moment for most expat mortgage applications is 2 years of declared income in France plus a stable professional situation.",
+      },
+    ],
+    relatedCities: ["paris", "lyon", "bordeaux", "nantes", "rennes"],
+    tags: ["france banking expats", "open bank account france", "boursorama", "french IBAN", "expat banking france 2026"],
+  },
+  {
+    slug: "montpellier-living-guide-2026",
+    title: "Living in Montpellier: 300,000 sun hours and the housing market that goes with it",
+    metaTitle: "Living in Montpellier 2026 — expat guide: cost, climate, pros & cons",
+    metaDesc: "Montpellier: best sunshine in mainland France, top medical faculty, rising housing prices, young energy. The honest guide for expats and remote workers in 2026.",
+    category: "city-guide",
+    emoji: "☀️",
+    readMinutes: 8,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "Montpellier is France's fastest-growing major city by population (2x in 40 years) and consistently ranks among the sunniest, youngest, and most dynamic cities in the country. It's also genuinely more expensive than it was five years ago — the Parisian-exile effect has pushed up rents and purchase prices, and the city's charms have been thoroughly discovered. But 'more expensive than before' and 'too expensive' are different things. For a remote worker, a retiree, a student, or a family leaving a larger French city, Montpellier still delivers a strong value proposition. This guide skips the tourist-board version and gives you the numbers.",
+    sections: [
+      {
+        heading: "What kind of city is Montpellier?",
+        body: "Montpellier has 300,000 residents in the city proper, 650,000 in the metro area, and a student population of around 75,000 — roughly one in four residents is a student. It's a young city with a medieval university (founded 1220, one of the oldest in the world, still one of France's top medical schools), and a modern economy dominated by healthcare and biotech, IT and tech services, and public administration. The city has a distinctive spatial layout: the historic centre (Écusson) is compact and walkable; the rest of the city sprawls via tram lines. The Mediterranean sea (Palavas-les-Flots) is 15 minutes by tram from the centre — a tram, not a car, which is genuinely unusual among coastal-adjacent cities. The city also has a strong North African cultural presence (the largest Algerian-origin community in France outside Paris and Lyon) that shapes the food, music, and social fabric in ways that distinguish it from other southern cities.",
+      },
+      {
+        heading: "Housing costs: the real current numbers",
+        body: "T1 (studio, 25-35m²): €600-750/month in the centre (Écusson, Beaux-Arts, Antigone); €500-650/month in Les Arceaux, Boutonnet. T2 (one-bedroom, 40-55m²): €800-1,100/month centre; €700-900/month outer city. T3 (two bedrooms): €1,000-1,400/month. Buying: the central Écusson district runs €4,000-5,500/m² for well-renovated apartments. Antigone (the post-modern Bofill-designed district) €3,200-4,200/m². Outer city and périphérie: €2,500-3,200/m². These are meaningfully higher than Toulouse for equivalent quality, and the gap has widened since 2020. If your budget is tight, look at the northern districts (La Paillade, La Mosson) for lower prices — but do your research on specific streets; these are diverse areas with significant variation in atmosphere. The Odysseum area (east, near Ikea) has newer stock at better purchase prices but is car-dependent.",
+      },
+      {
+        heading: "Climate: what 2,700 sunshine hours actually means daily",
+        body: "Montpellier averages 2,700-2,800 sunshine hours per year — the highest of any major city in mainland France. In practical terms: in January and February, you will have 5-6 hours of sunshine on most days (compare to Lyon's 2-3 average, or Paris's 1-2). Spring starts in March and is genuinely beautiful. Summer is hot — July average maximum 32°C, with spikes to 38-40°C during canicules, which are becoming more frequent and intense. The Tramontane and Mistral winds keep the air moving on the best days. Autumn (September-November) is often the finest season. Rain comes in concentrated episodes — the Cévennes events (rainfall in 24-48 hours what Paris gets in 3 months) can be dramatic in October and November. The climate is objectively excellent for bones, mood, and outdoor activity. It does not yet have the extreme summer heat patterns of deeper Mediterranean cities, though projections suggest this will change significantly by 2035-2040.",
+      },
+      {
+        heading: "Getting around and travel connections",
+        body: "Montpellier has 5 tram lines covering most of the city — one of the most extensive tram networks in France relative to population. Monthly pass: €48. Cycling is decent in the centre but tram routes are much more complete. The train station (Montpellier-Saint-Roch) connects to Paris-Gare de Lyon in 3h20 by TGV, Barcelona in 3h, Marseille in 1h40, Perpignan in 1h. Montpellier-Méditerranée airport serves domestic routes plus seasonal international flights; for full international connectivity, Marseille-Provence (1h30) or Lyon-Saint-Exupéry (2h30 by train + TGV) are the main options. Car-ownership is less necessary than in many southern cities — if you live in the city centre or near a tram line, public transport covers daily life well. The coast is the only destination genuinely better by car: the tram goes to Palavas but not to the prettier beaches at Carnon or Grau-du-Roi.",
+      },
+      {
+        heading: "Honest assessment: strengths and weaknesses",
+        body: "Strengths: the best climate of any large French city outside PACA; genuine dynamism and a young social energy that makes it feel alive rather than just pleasant; top medical school and excellent healthcare; improving tram network; coast genuinely accessible by public transport. Weaknesses: the housing market has been repriced upward significantly since 2019 and the Paris-escape-valve narrative is now slightly dated; summer heat is increasingly difficult and will worsen; the tram is comprehensive but the city sprawl means peripheral areas are car-dependent; some central districts have high crime rates (petty theft, motorcycle robberies are documented problems in specific areas — ask locals about specific streets before renting). The city that Montpellier is most often compared to by people leaving it is Porto in Portugal or Valencia in Spain — not as an insult, but as a recognition that the combination of sun, youth, price (relative to French cities), and slight rough edges is a specific acquired taste. If the taste suits you, it suits you very well.",
+      },
+    ],
+    relatedCities: ["montpellier", "nimes", "beziers", "sete", "perpignan"],
+    tags: ["montpellier guide", "living in montpellier", "montpellier expat", "montpellier housing 2026", "france mediterranean city guide"],
+  },
 ];
 
 export function getEnGuide(slug: string): EnGuide | undefined {
