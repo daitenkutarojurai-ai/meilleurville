@@ -5187,6 +5187,126 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["paris", "lyon", "bordeaux", "marseille"],
     tags: ["driving in france expat 2026", "french driving licence exchange", "france driving rules expat", "french motorway tolls guide", "car insurance france expat"],
   },
+  {
+    slug: "toulouse-living-guide-for-expats-2026",
+    title: "Living in Toulouse as an Expat: The Honest Guide (2026)",
+    metaTitle: "Living in Toulouse 2026 — expat guide: Airbus, cost of living, neighbourhoods, pink city",
+    metaDesc: "Everything expats need to know about Toulouse in 2026: aerospace industry, rent, neighbourhoods, the Garonne, and the real experience of France's fourth city.",
+    category: "city-guide",
+    emoji: "🚀",
+    readMinutes: 10,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "Toulouse is France's aerospace capital — home to Airbus headquarters, the CNES space agency, ATR, and a web of suppliers, engineers, and researchers that makes it the most internationally recruited city in France outside Paris. It is also the fourth-largest city in France, with 800,000 people in the metropolitan area, a distinctive pink-brick architecture, two rivers, one of Europe's best rugby cultures, and a university that has been training students since 1229. The combination is potent: an internationally minded professional community, a Mediterranean climate without the Mediterranean premium, and a city large enough to offer everything but compact enough to actually navigate.",
+    sections: [
+      {
+        heading: "Who moves to Toulouse and why",
+        body: "Toulouse is dominated by one story: Airbus and aerospace. Airbus employs over 14,000 people directly in the Toulouse area, with a supply chain of tens of thousands more across the region. CNES (national space agency), ATR (regional turboprops), Safran, Thales, and a dense ecosystem of aerospace subcontractors all recruit internationally. If you work in aeronautics, aerospace engineering, avionics, manufacturing, or related fields, Toulouse is where Europe's industry concentrates. Engineers from Spain, Germany, the UK, and across the EU and beyond make up a visible and well-established expat community. Beyond aerospace, Toulouse has a large and active university (110,000 students), a growing digital tech sector, and a healthcare research cluster (Oncopole cancer research campus).",
+      },
+      {
+        heading: "Cost of living in Toulouse in 2026",
+        body: "Toulouse is more expensive than a decade ago — the Airbus premium and post-Covid arrivals pushed rents up significantly — but it remains below Lyon or Bordeaux for equivalent housing. A furnished T2 in a central or popular neighbourhood (Carmes, Saint-Étienne, Capitole, Minimes) costs €700-1,000/month. A T3 family apartment is €1,000-1,400/month. The housing market is competitive — vacancy rates are low, particularly for well-located apartments. Groceries are similar to other large French cities. Restaurants: a lunch formule in a bistro costs €13-18; dinner €25-45 in mid-range. Public transport (Tisséo: metro 2 lines + tram + bus) works well in the centre; the first ring is less well served. Monthly transport pass: €55.",
+      },
+      {
+        heading: "Neighbourhoods: where to live in Toulouse",
+        body: "**Carmes / Saint-Étienne**: the Parisian-style central districts, elegant, good schools, closest to the Capitole. Most expensive (T2 €900-1,150/month). **Minimes**: north of the centre, residential, quieter, slightly more affordable, good metro connection. **Saint-Cyprien**: the trendy left-bank district across the Garonne, increasingly gentrified, good nightlife, younger demographic, artists and professionals. **Croix-Daurade**: north-east, more suburban, better value (T2 €650-800/month), young families. **Rangueil / Lespinet**: south-east, near the university Paul Sabatier and the Oncopole, popular with researchers and academics. **Blagnac**: suburb north-west, literally next to Airbus headquarters and the airport. Many Airbus engineers live here. More suburban feel; tram connection to central Toulouse. T2 €650-850/month, more space per euro.",
+      },
+      {
+        heading: "The aerospace community: practical realities",
+        body: "Airbus has a dedicated international relocation service that smooths the initial setup considerably — bank account, housing search, school guidance. The Airbus expat community is large enough to be self-sustaining, with regular events and informal networks for newcomers. English is the working language in much of Airbus's technical environment. Outside Airbus, the broader aerospace cluster operates in French — you will need French to function in supplier companies and in daily life. The international community has its own rhythms: Airbus relocations tend to cluster around September and February, creating bursts of housing demand at those times. If you are arriving independently (not on an Airbus package), compete harder for housing in those months.",
+      },
+      {
+        heading: "Climate and quality of life",
+        body: "Toulouse has a semi-continental climate with Mediterranean influences: warm summers (averaging 28-32°C in July, with regular heat waves reaching 38°C), mild winters (rarely below 5°C), and a good 2,000+ hours of sunshine per year. The vent d'autan (hot dry wind from the south-east) is a feature of spring and autumn — can be pleasant or maddening depending on your tolerance for wind. The Garonne and its banks are the social backbone of summer life: walks, cycles, kayaking, riverside bars. The Pyrénées are visible on clear days and skiing is under 2 hours away. The rugby culture is serious — Stade Toulousain (multiple European Champions Cup winners) draws 20,000 people per match. Football (TFC) is the poor cousin.",
+      },
+      {
+        heading: "Practical setup: admin, healthcare, schools",
+        body: "CHU Toulouse (Rangueil and Purpan campuses) is a major university hospital with strong specialisation in oncology and cardiology (close to the Oncopole). GP access through Doctolib — expect 2-4 weeks for a first appointment. For schools, the city has good public lycées and collèges. International sections at Lycée Pierre de Fermat (sciences) and Lycée Bellevue are competitive and oversubscribed. Private Catholic schools under contract are well-regarded and popular with local families. There is no dedicated English international school in Toulouse (unlike Paris or Lyon), so integration into the French school system is effectively the path. German or Spanish bilingual sections are available in some public schools. Administrative setup is standard French: préfecture appointment for your titre de séjour if non-EU, CPAM for social security, CAF for housing benefit.",
+      },
+    ],
+    relatedCities: ["toulouse", "blagnac", "colomiers"],
+    tags: ["living in toulouse expat 2026", "toulouse airbus expat guide", "toulouse cost of living 2026", "toulouse neighbourhoods expat", "toulouse aerospace community"],
+  },
+  {
+    slug: "lyon-living-guide-for-expats-2026",
+    title: "Living in Lyon as an Expat: The Honest Guide (2026)",
+    metaTitle: "Living in Lyon 2026 — expat guide: cost of living, arrondissements, food, Rhône-Alpes",
+    metaDesc: "Everything expats need to know about Lyon in 2026: rent, best arrondissements, the food scene, international schools, healthcare, and the real daily experience.",
+    category: "city-guide",
+    emoji: "🦁",
+    readMinutes: 11,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "Lyon is France's second city in everything except population, where it ranks third behind Paris and Marseille. It has the best food culture in France (a claim most French people will not dispute), a genuine economy that doesn't depend on tourism, an exceptional transport network, and a position at the crossroads of Europe that gives it an international character its size alone wouldn't generate. It is also expensive — not Paris-expensive, but the gap between Lyon and other French cities has narrowed considerably over the past decade. For expats looking for a high-quality city life with real professional opportunities, Lyon is the most consistently recommended choice after Paris.",
+    sections: [
+      {
+        heading: "Who moves to Lyon and why",
+        body: "Lyon's economy is diverse and strong: pharmaceuticals and biotech (Sanofi, BioMérieux, biotech cluster near Gerland), finance (Crédit Agricole's IT division, regional banks), luxury (Hermès, LVMH suppliers in the silk and textile tradition), logistics (major European hub at the junction of North-South and East-West axes), consulting, and a large and well-regarded university system (Lyon 1, 2, 3 plus grandes écoles). The expat community is correspondingly mixed: researchers at IARC (WHO cancer research agency, located in Lyon), engineers at industrial groups, finance professionals, and an increasingly large cohort of remote workers and digital nomads. Lyon has a well-established Anglophone community, several English-language cultural events, and a vibrant international student population.",
+      },
+      {
+        heading: "Cost of living: the honest numbers",
+        body: "Lyon is not cheap. A furnished T2 in a desirable arrondissement (3ème, 6ème, 7ème, Vieux-Lyon) costs €900-1,300/month. A T3 for a family in a good school catchment area is €1,200-1,700/month. The 5th arrondissement (Vieux-Lyon, Fourvière) commands a premium for the ambiance; the 1st (Croix-Rousse) is slightly more affordable for a central location. The 8th and 9th arrondissements are more accessible without losing good transport links. Groceries are similar to Paris. The famous bouchons (traditional Lyonnais restaurants) charge €20-35 for a main course; budget more for wine. Public transport (TCL: 4 metro lines, 5 tram lines, funiculars, buses) is excellent. Monthly pass: €68. Lyon without a car is completely viable in all central arrondissements.",
+      },
+      {
+        heading: "Arrondissements: where to live",
+        body: "**1er (Terreaux / Croix-Rousse bas)**: lively, bohemian, good nightlife, mix of young professionals and established families. Hilly — the Croix-Rousse plateau requires leg muscles. **2ème (Presqu'île, centre)**: prestigious central location between the Saône and the Rhône. Most expensive rents in Lyon. Commercial, less residential, very central. **3ème (Part-Dieu / Guillotière)**: major business district (Part-Dieu TGV station, business towers) and the multicultural Guillotière quarter. Practical but less charming. Good for professionals commuting frequently. **4ème (Croix-Rousse haut)**: the artisan and creative plateau, quieter, green, community feel, good schools. Fewer international restaurants but a strong local identity. **5ème (Vieux-Lyon / Saint-Just)**: historic mediaeval and Renaissance quarter, UNESCO-listed traboules (hidden passageways), stunning architecture, very touristic but genuinely pleasant to live. Steep and narrow. **6ème (Cité Internationale)**: wealthy, prestigious, near Parc de la Tête d'Or (Lyon's main park), international institutions. Family favourite. Expensive (T2 €1,100-1,400/month). **7ème (Gerland / Jean-Macé)**: dynamic, improving, biotech cluster, good value for proximity to centre. T2 €850-1,100/month. Popular with researchers.",
+      },
+      {
+        heading: "The food culture: why it matters for daily life",
+        body: "Lyon's reputation as France's gastronomic capital is not marketing — it is the lived experience of daily food shopping and eating out. The Halles Paul Bocuse (covered food market) has the best charcuterie, cheese, and freshwater fish available in France without going to a producer. The Marché de la Croix-Rousse (daily outdoor market, larger and more affordable than the Halles) covers everyday shopping. Restaurants: Lyon has more starred and bib-gourmand restaurants per capita than any other French city. The bouchon (traditional Lyonnais restaurant) format — quenelles, andouillette, cervelle de canut, tablier de sapeur — is hyperlocal and incomparable. Eating well in Lyon costs money, but eating adequately while eating well is achievable at a fraction of Paris or London prices.",
+      },
+      {
+        heading: "International schools and expat resources",
+        body: "Lyon has one of France's best options for international families: the **Cité Scolaire Internationale de Lyon** (CSI Lyon), a public school with sections in 11 languages (including English, German, Arabic, Chinese, Japanese, Portuguese, Spanish). Entry is competitive but free of charge — a genuinely exceptional option. The **International School of Lyon** (fee-paying, British curriculum, IGCSE and A-Level) is the alternative for families who need an English-language curriculum. Several lycées offer international sections (OIB). The IARC (WHO cancer agency) has a small but active expat community; Université Lyon 1 hosts significant numbers of international researchers. The association Lyon Accueil provides practical settlement support in English and French.",
+      },
+      {
+        heading: "Admin, healthcare, and practical setup",
+        body: "CHU Lyon (Hospices Civils de Lyon) is one of France's top university hospital complexes, with particularly strong oncology, cardiology, and neurology. An international patient service operates at HCL for non-French speakers. GP registration takes 2-4 weeks via Doctolib — start immediately on arrival. Social security registration at CPAM is mandatory within 3 months of employment or arrival. For non-EU residents, the OFII procedure (biometric appointment, integration contract) follows your visa. Administrative French in Lyon is standard — no regional dialect complications. The préfecture du Rhône handles titre de séjour applications; expect several months for processing. Bank accounts: all major French banks plus Crédit Agricole (strong regional presence), plus the usual challengers (Revolut, N26) for the digital-first.",
+      },
+    ],
+    relatedCities: ["lyon", "villeurbanne", "caluire-et-cuire"],
+    tags: ["living in lyon expat 2026", "lyon expat guide", "lyon cost of living 2026", "lyon arrondissements expat", "lyon international school guide"],
+  },
+  {
+    slug: "france-social-security-expat-guide-2026",
+    title: "French Social Security for Expats: Registration, Benefits & the Real System (2026)",
+    metaTitle: "French Social Security Expats 2026 — register CPAM, carte vitale, reimbursement rates",
+    metaDesc: "How to register for French social security as an expat in 2026: CPAM, carte vitale, mutuelle, reimbursement rates, and what the French system actually covers.",
+    category: "moving",
+    emoji: "💊",
+    readMinutes: 11,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "The French healthcare system consistently ranks among the world's best for outcomes, access, and financial protection. The part that confuses most expats is not the quality — it is the structure: a mandatory base insurance (Sécurité Sociale) that covers 70% of most costs, and a supplementary insurance (mutuelle) that covers most of the rest. Understanding both, registering correctly, and knowing what you actually pay out of pocket is what this guide covers. The good news: once set up, the system is remarkably good value compared to any private health insurance in the UK, US, or Australia.",
+    sections: [
+      {
+        heading: "Who qualifies for French social security",
+        body: "Since 2016, the Sécurité Sociale is theoretically universal (PUMA — Protection Universelle Maladie): any person who lives and works, or simply lives stably in France, is entitled to register. In practice, the path depends on your status. **Employees**: automatically enrolled through your employer from your first day of work. Your employer registers you and pays the majority of contributions (about 13% of your gross salary, versus your 7%). You receive a temporary attestation of rights while your dossier is processed. **Self-employed / freelance / micro-entrepreneur**: register directly with the CPAM (Caisse Primaire d'Assurance Maladie — the local social security office) and pay your own contributions. Rates for the self-employed are lower than for employees but the base coverage is identical. **Non-working residents (retirees, accompanying partners, students not covered by student insurance)**: register with CPAM directly as a 'ayant droit' (dependant) or as an independent beneficiary under PUMA, with income-based contributions. **EU citizens** can use the European Health Insurance Card (EHIC) for temporary stays but must register with CPAM on becoming a permanent resident.",
+      },
+      {
+        heading: "How to register: the process",
+        body: "Registration is done at your local CPAM (find it at ameli.fr). The documents required: valid passport or ID, proof of French address (utility bill, rental contract), work contract or proof of activity, and often a birth certificate with official French translation (apostille). For EU citizens: also your EHIC card and proof of EU status. Processing time: 1-4 months is standard. During this period, you receive an attestation de droits (proof of entitlement) which you can use to receive care. You will eventually receive your numéro de sécurité sociale (13 digits, based on your birth date, sex, and place of birth), and after 3-6 months from your first care episode, your carte Vitale (green electronic card used at pharmacies and doctors). Important: do not wait to register — start the process within the first month of arrival. Delays compound.",
+      },
+      {
+        heading: "What the Sécurité Sociale covers (and what it doesn't)",
+        body: "The base insurance covers the 'tarif de convention' — the standard rate set by the state for each medical act. **Reimbursement rates**: GP visit (€25 standard tariff): 70% reimbursed = you pay €7.50 plus a €1 participation forfaitaire (always borne by the patient). Specialist visit: 70% of the tariff. Hospital stay: 80% of hospitalisation costs, with a daily 'forfait hospitalier' of €20/day (for shared rooms) always at your charge. Medication: 15-100% depending on the drug's 'taux de remboursement' (some essential drugs are 100%, many common drugs are 30% or 65%). **Not covered**: cosmetic procedures, comfort care options, preventive dental care above basic extractions, optical care above basic prescriptions. The gap between the official tariff and what specialists actually charge (dépassements d'honoraires) is a significant issue — covered by the mutuelle, not the base insurance.",
+      },
+      {
+        heading: "The mutuelle: why you need it",
+        body: "A mutuelle (complémentaire santé) covers what the Sécurité Sociale doesn't: the 30% base patient share, specialist fee overruns (dépassements), dental (crowns, implants), optical (glasses, contact lenses), and hospital comfort supplements (private room, etc.). If you are employed, your employer is legally required since 2016 to provide a group mutuelle covering at least 50% of the premium. The employee contribution is 50% of what the employer pays. Typical employer group mutuelles cost €30-80/month for the employee, providing solid coverage. If self-employed or non-working, you can join a mutuelle individually — costs range from €40-200/month depending on age, coverage level, and provider. Without a mutuelle, dental and optical care in France is effectively out-of-pocket — a crown costs €500-1,500, glasses €200-600. With a good mutuelle, most routine dental and optical is largely reimbursed.",
+      },
+      {
+        heading: "Using the system: the day-to-day mechanics",
+        body: "Present your carte Vitale at every medical appointment, pharmacy, and lab. The system handles reimbursement automatically — you typically see the credit on your bank account within 3-10 days without filling in any form. For specialists, you need a referral from your médecin traitant (declared GP) to get the 70% reimbursement rate; seeing a specialist without this referral drops reimbursement to 30%. Declare a médecin traitant via ameli.fr as soon as you have your social security number — it is the key that unlocks the system. For children, they are covered under a parent's account until age 20. Maternity care is 100% covered from the 6th month of pregnancy. Long-term illness (ALD — affection de longue durée): major chronic conditions are fully covered (100%) with no patient contribution.",
+      },
+      {
+        heading: "Practical tips for expats",
+        body: "1. Register with CPAM within 30 days of arrival and start the process even before you have all documents — partial dossiers are accepted. 2. Download the ameli.fr app — it shows your reimbursements in real time and stores your care history. 3. Your carte Vitale takes months to arrive; in the meantime, print your attestation de droits from ameli.fr to show at each appointment. 4. If your employer's group mutuelle is inadequate, you have the right to opt out and take an individual one if you can demonstrate better coverage. 5. For dental work above the basic scale (prothèses dentaires), always ask for a 'devis' (quote) in advance and check what your mutuelle reimburses before agreeing to treatment. 6. Pharmacies in France are extremely useful — pharmacists can prescribe certain medications, give advice on minor ailments, and handle simple dressings. They are your first port of call for minor health questions.",
+      },
+    ],
+    relatedCities: ["paris", "lyon", "bordeaux", "marseille"],
+    tags: ["french social security expat 2026", "CPAM registration expat france", "carte vitale expat guide", "french healthcare system expat", "mutuelle france expat guide"],
+  },
 ];
 
 export function getEnGuide(slug: string): EnGuide | undefined {
