@@ -3145,6 +3145,188 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["metz", "nancy", "thionville", "strasbourg", "luxembourg-city"],
     tags: ["metz", "nancy", "lorraine", "grand est", "luxembourg commute"],
   },
+  {
+    slug: "leaving-montpellier-where-to-go-2026",
+    title: "Leaving Montpellier: where to go when the fastest-growing French city starts to strain",
+    metaTitle: "Leaving Montpellier 2026 — Alternatives and What You Give Up",
+    metaDesc:
+      "Montpellier has grown faster than its infrastructure for 15 years. If you're considering an exit, here's what the Mediterranean lifestyle looks like in cheaper, less crowded alternatives.",
+    category: "city-guide",
+    emoji: "🦩",
+    readMinutes: 5,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Montpellier has been the fastest-growing French major city for most of the 2000s and 2010s. The growth has been real but the infrastructure has strained to keep up: transport bottlenecks at peak hours, a tightly wound rental market, and increasing pressure on schools in certain areas. If you moved to Montpellier for the combination of Mediterranean climate, university energy, and a city that felt like it was heading somewhere — and now find the city has arrived somewhere more congested and expensive — the alternatives are worth examining.",
+    sections: [
+      {
+        heading: "For more sunshine at lower cost",
+        body: "Nîmes is the most direct comparison: 50 minutes from Montpellier by car or TGV, 2,500 sunshine hours per year (versus Montpellier's 2,600 — nearly equivalent), and property at €1,600-2,200/m² versus Montpellier's €3,000-3,800/m². Nîmes is smaller (150,000) and its economy is less dynamic, but for remote workers or retirees the cost-per-sunshine-hour trade is compelling. Perpignan (2,700 hours, €1,300-1,900/m²) is further at 1h45 by car but even more affordable. For full Mediterranean coast access, the Hérault coastal towns (Sète, Agde, Lunel) offer beach proximity at lower prices than Montpellier.",
+      },
+      {
+        heading: "If you need a university or research economy",
+        body: "Toulouse is 2h15 by TGV and has a larger research and engineering economy than Montpellier, though different in profile (aerospace vs healthcare/pharma). Lyon is 2h by TGV and has France's deepest private-sector economy outside Paris. Neither has Montpellier's specific Mediterranean identity. Aix-en-Provence (accessible via Marseille, 2h30 from Montpellier) has a major university and a Provençal-Mediterranean identity that's somewhat comparable — it's more expensive to buy property but closer culturally.",
+      },
+      {
+        heading: "What Montpellier offers that's hard to replicate",
+        body: "Montpellier's combination — large university (100,000 students), Mediterranean climate, affordable (relative to Nice), fast TGV to Paris (3h20), and a young population driving cultural energy — is unusual. The beach is 15km away. The social diversity is high. The healthcare sector (Hôpital Saint-Éloi, major CHU, pharma cluster including Sanofi) supports high-quality healthcare employment. Cities that are cheaper have smaller job markets; cities that are larger are more expensive. The balance Montpellier strikes is genuinely hard to find elsewhere.",
+      },
+    ],
+    relatedCities: ["montpellier", "nimes", "perpignan", "marseille", "toulouse"],
+    tags: ["leaving montpellier", "occitanie", "montpellier alternatives", "mediterranean france", "relocation"],
+  },
+  {
+    slug: "moving-to-france-from-canada-2026",
+    title: "Moving to France from Canada: the practical guide for Canadians",
+    metaTitle: "Moving to France from Canada 2026 — Canadian Expat Guide",
+    metaDesc:
+      "Visa routes, Quebec French vs European French, tax treaties, healthcare comparisons, and the French cities Canadians most commonly choose. The practical guide for the France-Canada move.",
+    category: "moving",
+    emoji: "🍁",
+    readMinutes: 7,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Canada is one of France's top source countries for immigrants and long-term residents. The relationship is historical (particularly for Francophone Canadians who maintain strong cultural and linguistic ties), practical (a Working Holiday Agreement for those under 35), and increasingly lifestyle-driven (Canadians attracted by European urban density, healthcare, and the lower cost of living in French regional cities versus Toronto or Vancouver). The practical questions Canadians face have some country-specific dimensions worth addressing.",
+    sections: [
+      {
+        heading: "Visa and residency for Canadians",
+        body: "Canada and France have a Youth Mobility Agreement (Visa Vacances-Travail): Canadian citizens aged 18-35 can obtain a one-year working holiday visa to live and work in France. This is a common first step for younger Canadians — it provides time to establish French residency, find employment, and potentially transition to a longer-term permit. For longer-term residence without the WHV: the standard Visiteur visa (sufficient income, no work for French employers) or the Passeport Talent (skilled employment with salary above 1.5× SMIC, or researcher/artist routes). After five years of legal continuous residence, permanent residence is available; naturalisation after five years.",
+      },
+      {
+        heading: "Francophone Canadians: the language advantage and a cultural note",
+        body: "Canadians from Quebec, New Brunswick, or other Francophone communities have a meaningful practical advantage in France: they arrive with existing French language ability. However, European French (particularly Parisian French) and Québécois French have meaningful differences in vocabulary, accent, and some grammar. Québécois speakers find European French comprehensible but often report initial friction — and European French speakers may initially find Québécois difficult. This is a minor practical issue that resolves quickly for most people; don't expect immediate seamless integration of the Québécois register into Parisian professional settings.",
+      },
+      {
+        heading: "The Canada-France tax treaty",
+        body: "Canada and France have a comprehensive double taxation treaty (signed 1975, updated). The treaty generally allocates taxing rights by income type: employment income is taxed where work is performed, investment income allocation depends on the type, pension income has specific rules. Critically for Canadians: Canadian Registered Retirement Savings Plans (RRSPs) and Registered Retirement Income Funds (RRIFs) are recognised under the treaty, meaning withdrawals are taxed in Canada (your country of residence at time of withdrawal may also have rights — a specialist is worth consulting). The Canada Revenue Agency treats you as a non-resident after you establish principal residence in France, subject to departure tax calculations and ongoing obligations for Canadian-source income.",
+      },
+      {
+        heading: "Healthcare: from provincial coverage to Assurance Maladie",
+        body: "Canadian provincial health insurance (OHIP, MSP, RAMQ, etc.) terminates after you leave Canada for a specified period (typically 6-7 months for most provinces). You'll need coverage in the gap between leaving Canada and establishing French PUMA eligibility (requires 3+ months of legal residence). The EHIC card for EU travel doesn't apply (Canada is not EU); travel or international health insurance is essential during the transition period. France's Assurance Maladie, once established, is broadly comparable to or better than Canadian provincial coverage in specialist access and prescription coverage — the point-of-care experience (doctor-patient ratio, appointment availability in large cities) is generally faster than the Canadian average.",
+      },
+      {
+        heading: "Cities that suit Canadian expats and where communities exist",
+        body: "Paris has the largest Canadian community in France (estimated 30,000-50,000 Canadians, including Quebec diaspora). Lyon and Bordeaux have smaller communities. Quebec's cultural ties to France mean Quebecers often settle in culturally similar regions: Brittany (Celtic connections, similar rainy-weather resilience), Normandy, and the Loire Valley have Quebec expat communities. For lifestyle-driven Canadians escaping Toronto or Vancouver prices: almost any French regional city offers dramatic housing cost relief. French cities that routinely surprise Canadian arrivals include Lyon (Toronto-equivalent professional depth at 40% of the housing cost) and Montpellier (Vancouver-adjacent climate profile at 30% of Vancouver property prices).",
+      },
+    ],
+    relatedCities: ["paris", "lyon", "bordeaux", "nantes", "rennes"],
+    tags: ["canadian expat france", "canada to france", "working holiday france", "moving from canada", "quebecois"],
+  },
+  {
+    slug: "best-french-cities-single-professionals-2026",
+    title: "The best French cities for single professionals in 2026",
+    metaTitle: "Best French Cities for Single Professionals 2026",
+    metaDesc:
+      "Career options, social life density, dating market size, safety, and cost per square metre of social infrastructure. The cities where being single in France works best.",
+    category: "lifestyle",
+    emoji: "🎯",
+    readMinutes: 6,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Most French city guides are written with couples or families in mind. Single professionals have a different set of requirements: career density matters more (one job market, not two), social life depth matters more (making friends in a new city without a built-in social unit is harder), and the quality of the city's public life — bars, events, density — matters more than a large garden or nearby schools. This ranking focuses on the factors that single professionals actually weight.",
+    sections: [
+      {
+        heading: "Paris: the obvious answer, with caveats",
+        body: "Paris has the densest dating market, the most career options, the richest social infrastructure, and the most opportunities for spontaneous cultural encounters of any French city. It also has the most competitive housing market, the highest cost of living, and a social culture that (outside specific contexts like startup scenes or expat communities) can be difficult to break into. The Paris experience for a single professional depends heavily on which social entry points you have access to: if you arrive with a job that provides a cohort (colleagues, events) or a hobby that creates a community (climbing gym, running club, sports team), it's excellent. If you arrive without pre-existing connections, breaking in requires more deliberate effort than in smaller cities.",
+      },
+      {
+        heading: "Lyon: the underrated solo city",
+        body: "Lyon's combination of professional depth, urban density, and social openness makes it the most underrated city for single professionals in France. The gastronomic culture creates genuine shared social experiences (food is Lyon's secular religion and a genuine conversation topic). The Presqu'île and Vieux-Lyon have high bar and restaurant density. The tech and pharma scenes create professional social networks. Property prices, while not cheap, are lower than Paris — which means a single person's budget goes further on living space and disposable income. The city is large enough (500,000 in the commune, 1.5 million metro) for a diverse social pool but compact enough to have a sense of community.",
+      },
+      {
+        heading: "Bordeaux, Nantes, and Rennes: strong Atlantic options",
+        body: "These three cities share similar profiles for single professionals: large student populations that keep the cultural scene lively long after graduation age, good nightlife for their size, walkable centres that facilitate spontaneous social encounters, and growing tech scenes that attract young professionals from elsewhere. Bordeaux has the warmest climate and strongest wine-culture social life. Nantes has the most unusual cultural events (Les Machines de l'Île is a genuine conversation starter). Rennes has the cheapest housing and the densest tech community relative to its size. All three are better than Paris for single professionals who want a social life without Paris's cost and competitive density.",
+      },
+      {
+        heading: "Montpellier: the underrated Mediterranean single city",
+        body: "Montpellier has an unusually high proportion of young residents — France's youngest major city by median age — driven by its large university population. The beach proximity means weekend social life extends outdoors in a way that Atlantic and interior cities can't match. The bar and restaurant scene in the Écusson (historic centre) is lively and affordable relative to Bordeaux or Lyon. The healthcare and tech economy provide professional opportunities. The main challenge for single professionals: housing is tighter than its population density suggests, and the rapid growth has created urban stress that affects quality of daily life.",
+      },
+      {
+        heading: "What to avoid: the social isolation trap",
+        body: "Some cities are beautiful and liveable for couples and families but challenging for single newcomers: Annecy (expensive, resort-oriented, the social fabric is built around families and tourists), Biarritz (the surf community is welcoming but the city is small and seasonal), many Provence towns (beautiful for holidays, genuinely difficult for making friends as a new solo resident). The warning sign: a city where most residents seem to have been there for a generation, where there are few obvious entry points for newcomers, and where the young adult population is thin. Check for a university presence, a French Tech scene, or active sports associations before committing.",
+      },
+    ],
+    relatedCities: ["paris", "lyon", "bordeaux", "nantes", "montpellier"],
+    tags: ["single professionals france", "best cities singles", "social life france", "career cities france", "dating france"],
+  },
+  {
+    slug: "france-netherlands-expat-comparison-2026",
+    title: "France vs the Netherlands for expats: which country actually works better?",
+    metaTitle: "France vs Netherlands 2026 — Expat Comparison Guide",
+    metaDesc:
+      "Both are popular expat destinations in Western Europe. The Netherlands is more English-friendly; France has a lower cost of living outside Paris. The honest comparison on what actually matters.",
+    category: "moving",
+    emoji: "🌷",
+    readMinutes: 6,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "France and the Netherlands attract overlapping profiles of expats — Northern European and North American professionals looking for a high-quality European life, preferably without the cost and scale of the UK or Germany. The comparison is instructive because both are highly developed EU countries with good healthcare and strong social systems, but they differ significantly on the dimensions expats care most about: language access, cost of living, bureaucracy, and quality of life outside the capital.",
+    sections: [
+      {
+        heading: "Language: the Netherlands' structural advantage",
+        body: "The Netherlands' English proficiency is among the highest in the world outside primarily English-speaking countries — consistently in the top 5 on EF's English Proficiency Index. You can live, work, and navigate Dutch bureaucracy effectively in English for an extended period, especially in Amsterdam, Rotterdam, and the Randstad generally. France is reliably towards the bottom of Western European English proficiency rankings. You cannot navigate French bureaucracy, healthcare, or most professional settings effectively in English for long. This difference is not a stereotype; it reflects educational investment and cultural attitudes towards English that are genuinely different. If language acquisition is a barrier, the Netherlands provides a longer runway.",
+      },
+      {
+        heading: "Cost of living: France outside Paris, the Netherlands anywhere",
+        body: "Amsterdam and Paris are comparable in housing cost — both in the upper tier of European capital cities. The difference appears in secondary cities: Lyon, Bordeaux, Nantes, and Toulouse are 40-60% cheaper than Amsterdam for property purchase. Rotterdam, The Hague, and Utrecht are expensive by Dutch standards but cheaper than Amsterdam — typically 15-30% cheaper, not 40-60%. The Netherlands has no French equivalent to the affordable regional city with full urban infrastructure. Eindhoven, Groningen, and Tilburg are genuinely affordable but smaller. For expats who want metropolitan quality of life at lower cost, French regional cities offer the more dramatic saving.",
+      },
+      {
+        heading: "Climate: France wins, but by how much depends on which France",
+        body: "The Netherlands has one of Western Europe's most reliable grey climates: mild, rainy, and windy year-round, with limited sunshine (around 1,700-1,800 hours per year in Amsterdam). Paris is comparable. But Lyon gets 2,000 hours, Bordeaux 2,100, Montpellier 2,600, and the Côte d'Azur 2,700-2,800. For people who have identified sunshine as a quality of life driver — and survey data consistently shows they have — southern France is materially different from both the Netherlands and northern France. This isn't available from the Netherlands regardless of location.",
+      },
+      {
+        heading: "Work culture and professional environment",
+        body: "The Netherlands has a famously direct professional culture — feedback is frank, hierarchies are flat, and work-life balance is structurally embedded (the Netherlands has one of the highest rates of part-time work in Europe, including among professionals, and this is socially normalised). French work culture is more formal, more hierarchical, and involves more complex social navigation of face-saving and relationship-building. Dutch bureaucracy, while never actually easy, is more digitalised and often more efficient than French equivalents. The Netherlands' 30% ruling for highly skilled migrants (a tax advantage for the first five years) has been reduced and narrowed in recent years but still benefits some high earners.",
+      },
+      {
+        heading: "Healthcare: both are excellent, with different structures",
+        body: "Dutch healthcare is private insurance-based (mandatory Zorgverzekering basic insurance, top-up optional) with very good outcomes and fast specialist access. French healthcare is social insurance-based (Assurance Maladie) with generally faster specialist access than the Netherlands and a lower point-of-care cost experience. Both are well above the European average. For expats: in the Netherlands, you need to register and pay for Dutch health insurance immediately on arrival (the fine for non-registration is retroactive). In France, the PUMA affiliation process takes time but the coverage is comparable or better once established.",
+      },
+    ],
+    relatedCities: ["paris", "lyon", "bordeaux", "nantes", "montpellier"],
+    tags: ["france vs netherlands", "expat comparison", "netherlands vs france", "amsterdam vs paris", "western europe"],
+  },
+  {
+    slug: "french-countryside-living-guide-2026",
+    title: "Living in the French countryside: what city-leavers actually discover",
+    metaTitle: "French Countryside Living 2026 — Honest Guide for City-Leavers",
+    metaDesc:
+      "The dream of the French farmhouse is older than social media, but the reality is specific. What rural France actually offers, what it doesn't, and which regions suit which profiles.",
+    category: "lifestyle",
+    emoji: "🌾",
+    readMinutes: 7,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "The fantasy of the French country house — vine-covered stone walls, a garden with its own well, a Tuesday market in the village square — has driven British, American, and Northern European migration to rural France for fifty years. The Peter Mayle effect is real and persistent. So is the reality gap. This is an honest account of what actually happens when city-dwellers (French or foreign) move to French rural areas, which regions work best for which profiles, and what the practical compromises are.",
+    sections: [
+      {
+        heading: "What rural France genuinely offers",
+        body: "Property that is dramatically cheaper than French cities or most European equivalents — a stone farmhouse (mas) with 150m² and a garden in the Dordogne, Charente, Lot, or Aveyron can be purchased for €150,000-250,000. A comparable property in the Luberon or the Côte d'Azur hinterland costs three times more. The landscape is often extraordinary: the Dordogne's river valleys, the Lot's limestone plateaus (Causses), the Ardèche gorges, the Cévennes. Local food markets are real and weekly, and the produce quality is genuinely different from what urban supermarkets provide. The pace of life is not a marketing slogan — rural France moves differently, and many people who move there find this beneficial after the initial adjustment.",
+      },
+      {
+        heading: "What rural France does not offer",
+        body: "Healthcare access can be seriously limited — rural France has a documented médecin désert problem. Some departments have fewer than 2 GPs per 1,000 inhabitants; the national minimum recommended is 3. Hospital distances of 30-60 minutes are common. For routine health, this is manageable; for emergencies, it's a real consideration, particularly for older arrivals or those with chronic conditions. School quality varies enormously — rural primary schools are often excellent (small class sizes, dedicated teachers), but secondary schools may involve long bus journeys or boarding. Professional employment opportunities are limited unless you are creating work rather than finding it. Internet infrastructure has improved dramatically (France Très Haut Débit programme) but fibre coverage remains uneven in some rural communes.",
+      },
+      {
+        heading: "The best regions for rural relocation and why",
+        body: "The Dordogne (Périgord) attracts the largest English-speaking community — the infrastructure for English-speaking arrivals (estate agents, solicitors, healthcare professionals who speak English) is more developed here than anywhere else in rural France. The Lot and Aveyron are cheaper, less discovered, and arguably more authentically rural. The Charente and Charente-Maritime (inland) offer excellent value with a milder Atlantic climate. The Cévennes (Gard, Lozère) attract people seeking wilder landscape and a more independent community ethos — historically a Protestant stronghold, it has a tradition of non-conformism that some rural arrivals find congenial. The Languedoc interior (Hérault, Aude) combines affordability with Mediterranean climate.",
+      },
+      {
+        heading: "The commune de moins de 2000 habitants reality",
+        body: "Most 'rural France' lives in communes of fewer than 2,000 inhabitants. The social integration question is real: French rural communities can be welcoming to newcomers, but the integration is measured in years. Being seen at the village association meetings, at the marché, at the annual fête de village, is how you build a local place. Remaining invisible in your farmhouse and shopping at the nearest supermarket produces a very different experience. French rural courtesy (bonjour on the street, acknowledgement in the boulangerie) is real and easy to meet; social integration into local life takes consistent, sustained presence over time.",
+      },
+      {
+        heading: "The remote work factor: what's changed since 2020",
+        body: "The COVID-era remote work acceleration transformed rural France's appeal for working-age people. Previously, rural relocation was predominantly a retirement or second-home market. Now, a significant cohort of 30-50 year olds with remote-work income are buying primary residences in rural areas — the Creuse, Corrèze, Aveyron, and Ardèche have all recorded inflows from urban France that were negligible before 2019. Fibre coverage, while improving, is the bottleneck: check the ADSL/VDSL/fibre status of any specific property before committing. High-speed connectivity (above 100Mbps) is now available in many rural communes; some remain on copper ADSL below 10Mbps. This is not a detail.",
+      },
+    ],
+    relatedCities: ["bordeaux", "toulouse", "montpellier", "clermont-ferrand", "limoges"],
+    tags: ["french countryside", "rural france", "dordogne", "lot", "farmhouse france"],
+  },
 ];
 
 export function getEnGuide(slug: string): EnGuide | undefined {
