@@ -68,6 +68,7 @@ const SITEMAP_CHUNKS_EN = [
   "en-moving-from",
   "en-gentrification",
   "en-thematic-macro",
+  "en-geographic-zones",
 ] as const;
 
 const SITEMAP_CHUNKS = IS_EN ? SITEMAP_CHUNKS_EN : SITEMAP_CHUNKS_FR;
@@ -980,6 +981,19 @@ function enThematicMacroRegionSection(): MetadataRoute.Sitemap {
   );
 }
 
+function enGeographicZonesSection(): MetadataRoute.Sitemap {
+  const MACRO_SLUGS = [
+    "cote-atlantique", "arc-mediterraneen", "arc-alpin",
+    "sud-ouest-gascon", "vallee-du-rhone", "ile-de-france-elargie",
+  ] as const;
+  return MACRO_SLUGS.map((slug) => ({
+    url: `${BASE_URL}/geographic-zones/${slug}`,
+    lastModified: CITY_DATA_UPDATED,
+    changeFrequency: "monthly" as const,
+    priority: 0.65,
+  }));
+}
+
 function quitterSection(): MetadataRoute.Sitemap {
   return QUITTER_PAIRS.map((p) => ({
     url: `${BASE_URL}/quitter/${pairToSlug(p)}`,
@@ -1100,6 +1114,7 @@ export default async function sitemap({ id }: { id: Promise<string> }): Promise<
     case "en-moving-from": return enMovingFromSection();
     case "en-gentrification": return enGentrificationSection();
     case "en-thematic-macro": return enThematicMacroRegionSection();
+    case "en-geographic-zones": return enGeographicZonesSection();
     default: return [];
   }
 }
