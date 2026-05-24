@@ -10,6 +10,7 @@
 //   while existing FR URLs (/villes/*, /classements/*, etc.) 404 to avoid
 //   duplicate content on the EN domain.
 
+import { createServerClient } from "@supabase/ssr";
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 
@@ -57,7 +58,7 @@ const FR_ONLY_SEGMENTS = new Set([
   "a-propos",
 ]);
 
-export function proxy(request: NextRequest): NextResponse | undefined {
+export async function proxy(request: NextRequest): Promise<NextResponse> {
   const { pathname } = request.nextUrl;
 
   // Always pass through Next internals, API routes, static assets, and
@@ -81,39 +82,63 @@ export function proxy(request: NextRequest): NextResponse | undefined {
     pathname.endsWith("/twitter-image") ||
     /\.[a-z0-9]+$/i.test(pathname)
   ) {
-    return;
+    return NextResponse.next();
   }
 
+  // Determine rewrite target for locale logic (EN domain only)
+  let rewriteTarget: URL | null = null;
   if (DEFAULT_LOCALE === "en") {
-    // On the EN project, block FR-only routes so the EN domain doesn't
-    // serve duplicate French content under different paths.
     const firstSegment = pathname.split("/")[1] ?? "";
     if (FR_ONLY_SEGMENTS.has(firstSegment)) {
-      return NextResponse.rewrite(new URL("/404", request.url));
+      rewriteTarget = new URL("/404", request.url);
+    } else if (!(pathname === "/en" || pathname.startsWith("/en/"))) {
+      const clone = request.nextUrl.clone();
+      clone.pathname = pathname === "/" ? "/en" : `/en${pathname}`;
+      rewriteTarget = clone;
     }
-
-    // If the path already includes /en, render it as-is (this is how the
-    // EN page tree is keyed internally).
+  } else {
     if (pathname === "/en" || pathname.startsWith("/en/")) {
-      return;
+      rewriteTarget = new URL("/404", request.url);
     }
-
-    // Bare URL on the EN domain → rewrite internally to /en/<path>
-    // so app/[locale]/* picks it up with locale="en".
-    const rewritten = request.nextUrl.clone();
-    rewritten.pathname = pathname === "/" ? "/en" : `/en${pathname}`;
-    return NextResponse.rewrite(rewritten);
   }
 
-  // DEFAULT_LOCALE === "fr" (or anything else)
-  // The FR project should never expose /en/* publicly. Treat as not-found
-  // so Google doesn't index the EN tree from the French domain.
-  if (pathname === "/en" || pathname.startsWith("/en/")) {
-    return NextResponse.rewrite(new URL("/404", request.url));
+  // Build base response (rewrite or pass-through)
+  let response = rewriteTarget
+    ? NextResponse.rewrite(rewriteTarget)
+    : NextResponse.next({ request });
+
+  // Refresh Supabase auth session so it doesn't expire mid-browse.
+  // Only active when env vars are set (skips gracefully otherwise).
+  if (
+    process.env.NEXT_PUBLIC_SUPABASE_URL &&
+    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
+  ) {
+    const supabase = createServerClient(
+      process.env.NEXT_PUBLIC_SUPABASE_URL,
+      process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY,
+      {
+        cookies: {
+          getAll() {
+            return request.cookies.getAll();
+          },
+          setAll(toSet) {
+            toSet.forEach(({ name, value }) =>
+              request.cookies.set(name, value),
+            );
+            response = rewriteTarget
+              ? NextResponse.rewrite(rewriteTarget)
+              : NextResponse.next({ request });
+            toSet.forEach(({ name, value, options }) =>
+              response.cookies.set(name, value, options),
+            );
+          },
+        },
+      },
+    );
+    await supabase.auth.getUser();
   }
 
-  // FR: pass-through. Existing behaviour preserved.
-  return;
+  return response;
 }
 
 export const config = {
