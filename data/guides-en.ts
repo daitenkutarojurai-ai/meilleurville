@@ -492,6 +492,174 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["la-rochelle", "biarritz", "brest", "nice", "caen"],
     tags: ["coastal", "sea", "atlantic", "mediterranean"],
   },
+  {
+    slug: "buying-property-in-france-honest-guide-2026",
+    title: "Buying property in France: an honest guide for 2026",
+    metaTitle: "Buying Property in France — Honest Guide 2026",
+    metaDesc:
+      "The real costs, the traps and the honest maths of buying property in France in 2026. From notaire fees to negotiation room and which cities are worth buying in.",
+    category: "budget",
+    emoji: "🏡",
+    readMinutes: 10,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Buying property in France is not complicated, but it is slow, full of fees, and surprisingly forgiving of negotiation if you know how to approach it. This guide covers what a foreign buyer actually needs to know — not the legal boilerplate, but the practical reality of what things cost, where the traps are, and which markets still make sense in 2026.",
+    sections: [
+      {
+        heading: "The fees you didn't budget for",
+        body: "The sticker price is not what you pay. Add notaire fees (roughly 7-8% for older properties, 2-3% for new builds), potential agency fees (often 3-6%, sometimes split with the seller, sometimes not), mortgage arrangement fees if you're financing, and a property survey if you're buying old stone with your eyes open. Budget 10-12% on top of the purchase price and you won't be caught short. These fees are fixed by law for the notaire portion, so there's no point shopping around on that.",
+      },
+      {
+        heading: "How much negotiation room is realistic?",
+        body: "In a tight market (Paris, the côte d'Azur, Annecy, parts of the Basque Country), expect 2-5% off the asking price at most. In a balanced or soft market — most of provincial France right now after the 2023-24 rate shock — 8-12% is achievable if the property has been sitting. The rule of thumb: if a listing is over 60 days old, the seller is probably ready to talk. If it went on yesterday, don't open with a lowball.",
+      },
+      {
+        heading: "Which markets still make sense to buy in?",
+        body: "The cities where buying makes clear financial sense in 2026 are those where the price-to-rent ratio is under 18 years — meaning you'd recoup your purchase in less than 18 years of equivalent rent. In France, that currently includes most of northern France (Rouen, Le Havre, Lille, Amiens), the Auvergne–Massif Central corridor (Clermont-Ferrand, Limoges, Moulins), and several cities in Hauts-de-France. Coastal PACA, Annecy, Lyon and Paris proper are above 25 years, which makes buying a lifestyle choice rather than a financial one.",
+      },
+      {
+        heading: "The compromis de vente — don't skip reading it",
+        body: "Once you agree a price, you sign a compromis de vente (preliminary sale agreement). You then have a 10-day cooling-off period as a buyer. After that, backing out costs you 10% of the purchase price. Read the compromis carefully — it lists the conditions precedentes (clauses that let you walk away without penalty), typically including a mortgage approval condition. Make sure yours is in there if you're borrowing. The notaire works for both parties, but is not your lawyer.",
+      },
+      {
+        heading: "Getting a French mortgage as a non-resident",
+        body: "French banks will lend to non-residents, but the conditions are stricter: expect a 20-30% deposit requirement, proof of stable income, and a debt-to-income ratio under 35%. Specialist international mortgage brokers (several operate between France, the UK and the US) are genuinely useful here — they know which banks are actually open to foreign applicants in 2026. Fixed rates are around 3.5-4% for 20 years as of mid-2026, up from historic lows but no longer the crisis territory of 2023.",
+      },
+      {
+        heading: "Old stone versus new build: the honest trade-off",
+        body: "Old stone is France's romantic selling point, and it delivers on aesthetics. The honest trade-offs are energy performance (most old stone is DPE class E or F, which affects resale value and heating bills), maintenance costs, and renovation surprises. New builds cost more per m², but carry a 10-year structural guarantee, lower notaire fees, and (usually) a better energy rating. If you're buying to rent, a DPE label of D or better matters now — E and F rentals face increasing restrictions under French energy-efficiency legislation.",
+      },
+    ],
+    relatedCities: ["bordeaux", "lyon", "nantes", "clermont-ferrand", "rouen"],
+    tags: ["buy", "property", "mortgage", "notaire", "investment"],
+  },
+  {
+    slug: "best-french-cities-for-expats-2026",
+    title: "The best French cities for expats in 2026",
+    metaTitle: "Best French Cities for Expats 2026 | BestCitiesInFrance",
+    metaDesc:
+      "Not every French city is equally expat-friendly. Here's what actually matters — English spoken, international schools, expat community, healthcare access — and the cities that score best.",
+    category: "moving",
+    emoji: "🌍",
+    readMinutes: 8,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Moving to France is one thing; settling somewhere that doesn't grind you down for five years while your French improves is another. Expat-friendliness is not just about English being spoken — it's about accessible bureaucracy, a healthcare system you can actually navigate, an international school within range, and a social life that doesn't require you to be fluent first. Here's where France delivers on those things.",
+    sections: [
+      {
+        heading: "What expat-friendly actually means",
+        body: "People often conflate expat-friendly with 'lots of British people' or 'English menus'. That's not what moves the needle on your quality of life. What actually matters: a functioning international school or bilingual school option; a CPAM office that isn't overwhelmed; a city with enough international population that English is a functional second language in shops and offices; a reasonable administrative burden for titre de séjour renewals; and a city with enough going on that you can build a social life outside the expat bubble. The last one is underrated — cities with active cultural scenes tend to mix better.",
+      },
+      {
+        heading: "Lyon — the consistent top pick",
+        body: "Lyon keeps appearing on expat lists for good reasons. It has two international schools (a US-curriculum school in the suburbs, a British section at a public lycée), a large English-speaking community from the region's pharmaceutical and biotech industries, and enough size (second city in practice, third officially) to absorb newcomers without making them feel conspicuous. Healthcare access is excellent. The food is arguably the best in France. The only honest downside is the grey winters, which catch people from sunnier climates off guard.",
+      },
+      {
+        heading: "Bordeaux — the anglophone city",
+        body: "Bordeaux has a historically anglophone orientation going back centuries of wine trade with Britain. It shows: English is more widely spoken here than almost anywhere outside Paris, there's a functioning international school, and the city has a very active expat scene. The quality of life is high, the climate is mild, and the TGV to Paris takes just over 2 hours. The catch is that Bordeaux has been discovered — rents and prices rose sharply during the pandemic years and have not fully corrected, making it one of France's more expensive cities relative to local salaries.",
+      },
+      {
+        heading: "Montpellier — international by default",
+        body: "Montpellier is so student-heavy and research-oriented that international is simply the default state. The University of Montpellier has been attracting students from across the Mediterranean and beyond for centuries. English is widely spoken in universities, research institutes and among young professionals. The weather is exceptional. The international school situation is less comprehensive than Lyon or Bordeaux, but there are bilingual and European sections within the state system. Healthcare is strong with a major teaching hospital.",
+      },
+      {
+        heading: "Strasbourg — made for Europeans",
+        body: "Strasbourg's situation — seat of the European Parliament and Council of Europe — means it runs on a genuinely multilingual baseline. EU civil servants, international NGO staff and Eurocrats live here full-time, and the city's services have adapted to that. German is as useful as English. The quality of life is high, the architecture is exceptional, and the Rhine valley setting is beautiful. The winter is harsher than western France, which is the main deterrent for people from warmer climates.",
+      },
+      {
+        heading: "Paris — still the default, but at a cost",
+        body: "Paris remains the default expat destination for good reasons: every international service exists, the expat community is vast, English is spoken across professional Paris, and there are more international schools than anywhere else. The cost is the literal cost — rents are among the highest in France and the administrative burden of living in a 2-million-person prefecture is real. The city also has a learning curve that trips people up if they arrive without adequate French. For many expats, Paris works best as a landing pad while they figure out whether provincial France might suit them better.",
+      },
+    ],
+    relatedCities: ["lyon", "bordeaux", "montpellier", "strasbourg", "paris"],
+    tags: ["expat", "international", "english-speaking", "international-school"],
+  },
+  {
+    slug: "mid-size-french-cities-underrated-2026",
+    title: "France's most underrated mid-size cities in 2026",
+    metaTitle: "Underrated Mid-Size French Cities Worth Moving To (2026)",
+    metaDesc:
+      "Everyone talks about Lyon and Bordeaux. Here are the mid-size French cities that consistently deliver quality of life, affordability and character — without the hype premium.",
+    category: "lifestyle",
+    emoji: "🔭",
+    readMinutes: 7,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "The French relocation conversation has been dominated by the same six cities for twenty years. Lyon, Bordeaux, Nantes, Montpellier, Toulouse, Nice — the usual suspects. They're not wrong choices, but they're not cheap ones either. Here are the cities that consistently perform well on quality of life, affordability and character, without carrying the premium that comes with being the obvious answer.",
+    sections: [
+      {
+        heading: "Angers — the quiet overperformer",
+        body: "Angers is on almost no one's shortlist and should be on many more. It's 1h30 from Paris by TGV, consistently ranks among the best French cities for quality of life, has a genuinely attractive old centre, excellent cycling infrastructure and a university that gives it real energy. Rents are significantly lower than Nantes (just 40 minutes away by TGV) and the Loire Valley character is intact. If you're looking for what Nantes was fifteen years ago, Angers is close.",
+      },
+      {
+        heading: "Clermont-Ferrand — value with altitude",
+        body: "Clermont-Ferrand divides people on aesthetics (a dark volcanic city against a backdrop of extinct volcanoes), but the data is hard to argue with. It's consistently one of France's best-value cities for property, one of the strongest for remote work infrastructure, and sits at the edge of some of France's best outdoor terrain (the Massif Central, Puy de Dôme, ski resorts within an hour). The Michelin headquarters don't hurt for employment. If you can get past the grey stone, the quality-of-life-to-cost ratio is exceptional.",
+      },
+      {
+        heading: "Brest — the Atlantic underdog",
+        body: "Brest gets dismissed for its weather (it is wet, and committed to that fact), but people who live there are conspicuously happy about it. The city is completely rebuilt post-war and entirely functional — the tram system is excellent, the port is active, the university is large, and the Atlantic seascape is relentless and dramatic. Property is significantly cheaper than Rennes or Lorient. Brest rewards people who actually like the ocean rather than the idea of it.",
+      },
+      {
+        heading: "Dijon — more than mustard",
+        body: "Dijon consistently punches above its weight. The old centre is architecturally remarkable, the quality of food (for obvious regional reasons) is consistently excellent, and the city has kept enough economic activity to avoid the hollowing-out that affects some wine-region towns. It's 1h30 from Paris by TGV, which keeps it connected without making it a suburb. Property prices are moderate. The honest downside is that Dijon is small enough that you can run out of city fairly quickly.",
+      },
+      {
+        heading: "Metz — the surprise city",
+        body: "Metz is arguably the most underrated city in France. The old centre is beautiful, the Centre Pompidou-Metz (a satellite of the Paris modern art museum) gives it genuine cultural weight, and its position on the rail network (TGV junction with connections to Paris, Luxembourg and Germany) makes it surprisingly well-connected. Rents are very reasonable, the German border is close enough to matter, and the city has a peaceful, unhurried character that people who move there tend to find deeply appealing. It's not for everyone, but the ones who choose it rarely leave.",
+      },
+      {
+        heading: "How to find your own",
+        body: "The pattern in each of these cities is the same: enough size to have a real economy and real services, a distinctive character that resists easy replication, and a price-to-quality ratio that the obvious cities no longer offer. If you're doing your own search, filter by quality-of-life score, cost-of-living score and transport connectivity simultaneously — the cities that score well on all three without ranking first on any of them are usually the hidden gems. And always visit in November, not August.",
+      },
+    ],
+    relatedCities: ["angers", "clermont-ferrand", "brest", "dijon", "metz"],
+    tags: ["underrated", "affordable", "quality-of-life", "provincial"],
+  },
+  {
+    slug: "french-countryside-living-honest-guide-2026",
+    title: "Living in the French countryside — what nobody tells you",
+    metaTitle: "Living in the French Countryside — Honest Guide 2026",
+    metaDesc:
+      "The dream and the reality of rural France. What life actually looks like — healthcare, internet, community, isolation — before you sign for that farmhouse.",
+    category: "lifestyle",
+    emoji: "🌾",
+    readMinutes: 9,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "The French countryside sells itself. A stone farmhouse, a garden, a view, a tenth of the price of a flat in Paris. The dream is real enough — people do move to rural France and find exactly that. But the gap between the dream and the life is larger than most people researching from a city expect, and it shows up in specific ways that never appear in the magazine articles. This is what they don't tell you.",
+    sections: [
+      {
+        heading: "The internet question is not trivial",
+        body: "Fibre is spreading across France, but it hasn't reached everywhere. In rural and semi-rural areas, you may still be on ADSL with 8-15 Mbps, which is functional but not the high-speed connection remote work typically requires. Before you buy or rent, check the exact address at telecom.gouv.fr — not the commune, the address. Coverage varies enormously within a single commune, and the difference between 'fibre available' and 'fibre connected' can be two years of waiting. Starlink is a practical alternative where it's available.",
+      },
+      {
+        heading: "Healthcare is the real calculus",
+        body: "Rural France has a significant médecin traitant (GP) shortage. In many areas, the nearest doctor accepting new patients is 30-45 minutes away. The nearest hospital with an emergency department may be further. This is manageable if you're healthy and have a car; it becomes a serious problem if you have ongoing conditions, children, or parents in declining health. Check the density of medical practitioners in your target area before you commit — the Ameli platform's data is public. Rural healthcare is the single most common thing people didn't factor in.",
+      },
+      {
+        heading: "The social isolation is real, and it takes time to build",
+        body: "Community in rural France is tight-knit and formed slowly. If you speak good French, you will eventually be absorbed — through the market, the local association, the apéro, the neighbours who come to check on the new arrivals. If you don't speak much French, you will need to find this community within the expat network, which exists in most popular rural areas but requires active effort to reach. Either way, the first winter is the hard one. Plan for it.",
+      },
+      {
+        heading: "The car is not optional",
+        body: "Everything in the countryside runs on a car. One car is the minimum; two is safer if you're a couple in an area without public transport. A school run, a grocery shop, a doctor's visit — these all assume a car. Factor the cost of running two vehicles into your budget, and make sure your farmhouse has storage. Road access in winter matters too — some rural properties become genuinely problematic in a heavy frost. Ask specifically about road conditions when you visit.",
+      },
+      {
+        heading: "Renovation costs are always higher than estimated",
+        body: "The beautiful ruin is the classic French countryside trap. Renovation costs in France are high — builders are in short supply in many rural areas and wait times are long. A project quoted at €80,000 can become €140,000; a project timed for 8 months can take 24. If you're buying to renovate, build in 40% contingency on the budget and 100% on the timeline, and get three quotes before you believe any of them. The people who handle this well are the ones who either have construction experience themselves or have done previous renovations in France.",
+      },
+      {
+        heading: "What actually works",
+        body: "The rural France move works best for people who are financially stable and not dependent on employment in the local economy; who either speak French or have a clear plan to learn; who have a specific reason to be in a particular area rather than just 'the countryside'; and who visit through all four seasons before deciding. The people who are happiest after five years in rural France are generally the ones who chose a specific village for a specific reason — the terrain, a community they'd already connected with, family nearby, or a project that the land made possible. Abstracted countryside is the thing that disappoints.",
+      },
+    ],
+    relatedCities: ["clermont-ferrand", "limoges", "perigueux", "cahors", "rodez"],
+    tags: ["countryside", "rural", "renovation", "isolation", "lifestyle"],
+  },
 ];
 
 export function getEnGuide(slug: string): EnGuide | undefined {
