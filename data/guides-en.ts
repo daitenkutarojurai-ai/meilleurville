@@ -2702,9 +2702,9 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["france work visa", "working in france", "passeport talent", "non-EU", "immigration france"],
   },
   {
-    slug: "nantes-living-guide-2026",
+    slug: "nantes-living-and-working-guide-2026",
     title: "Living in Nantes: France's most liveable large city, examined",
-    metaTitle: "Living in Nantes 2026 — Honest Relocation and Expat Guide",
+    metaTitle: "Living and Working in Nantes 2026 — Deep-dive Expat Guide",
     metaDesc:
       "Nantes regularly tops French quality-of-life surveys. The reasons are real: diverse economy, strong public transport, Atlantic access, affordable housing by French metro standards. The honest caveats too.",
     category: "city-guide",
@@ -3832,9 +3832,9 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["france utility costs", "electricity france", "housing costs france", "charges copropriété", "monthly budget france"],
   },
   {
-    slug: "dijon-living-guide-2026",
+    slug: "dijon-relocation-guide-2026",
     title: "Living in Dijon: Burgundy's underrated capital that quietly ticks every box",
-    metaTitle: "Living in Dijon 2026 — expat guide: cost, lifestyle, pros & cons",
+    metaTitle: "Relocating to Dijon 2026 — expat guide: cost, lifestyle, pros & cons",
     metaDesc: "Dijon: TGV 1h35 to Paris, genuinely affordable housing, world-class food culture, strong university. The honest guide to living in Burgundy's capital.",
     category: "city-guide",
     emoji: "🍷",
@@ -3940,9 +3940,9 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["french healthcare expats", "PUMA france", "mutuelle france", "médecin traitant", "french health system 2026"],
   },
   {
-    slug: "grenoble-living-guide-2026",
+    slug: "grenoble-relocation-guide-2026",
     title: "Living in Grenoble: the tech city with mountains at the door — an honest assessment",
-    metaTitle: "Living in Grenoble 2026 — expat guide: tech jobs, mountains, cost of living",
+    metaTitle: "Relocating to Grenoble 2026 — expat guide: tech jobs, mountains, cost of living",
     metaDesc: "Grenoble: semiconductors, ski resorts, affordable housing, grey winters. The complete honest guide for expats and remote workers considering France's most tech-dense city outside Paris.",
     category: "city-guide",
     emoji: "⛷️",
@@ -4084,9 +4084,9 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["france banking expats", "open bank account france", "boursorama", "french IBAN", "expat banking france 2026"],
   },
   {
-    slug: "montpellier-living-guide-2026",
+    slug: "montpellier-relocation-guide-2026",
     title: "Living in Montpellier: 300,000 sun hours and the housing market that goes with it",
-    metaTitle: "Living in Montpellier 2026 — expat guide: cost, climate, pros & cons",
+    metaTitle: "Relocating to Montpellier 2026 — expat guide: cost, climate, pros & cons",
     metaDesc: "Montpellier: best sunshine in mainland France, top medical faculty, rising housing prices, young energy. The honest guide for expats and remote workers in 2026.",
     category: "city-guide",
     emoji: "☀️",
@@ -4262,6 +4262,150 @@ export const EN_GUIDES: EnGuide[] = [
     ],
     relatedCities: ["paris", "bordeaux", "lyon", "nantes", "rennes", "dijon"],
     tags: ["france cost of living 2026", "paris vs province cost", "bordeaux vs paris cost", "french city monthly budget", "moving from paris savings"],
+  },
+  {
+    slug: "france-driving-licence-guide-expats-2026",
+    title: "Your driving licence in France: what expats actually need to know",
+    metaTitle: "Driving Licence in France 2026 — Expat Guide: Exchange, Tests, Rules",
+    metaDesc: "Can you drive on your foreign licence? When do you need to exchange it? How hard is the French driving test? Honest answers for expats in France in 2026.",
+    category: "moving",
+    emoji: "🚗",
+    readMinutes: 8,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "Driving in France on a foreign licence is one of those topics surrounded by myths and incomplete advice. The short version: EU licences are valid indefinitely, some non-EU licences can be exchanged without retaking tests, and others require the full French driving process. Here is the unvarnished picture.",
+    sections: [
+      {
+        heading: "EU/EEA licences: no action required",
+        body: "If you hold a driving licence issued by an EU or EEA country (including Switzerland, Norway, Iceland, Liechtenstein), you can drive in France indefinitely without any exchange. France must recognise it as a valid French-equivalent licence as long as it remains valid in the issuing country. You do not need to convert it to a French licence unless you want to — but there is rarely a reason to unless you lose the original and need to replace it. One practical note: if your EU licence expires, you renew it in the issuing country, not France. If you have become a French tax resident and your licence is permanently lost or destroyed, you may then need to begin the French process.",
+      },
+      {
+        heading: "Non-EU licences with exchange agreements",
+        body: "France has bilateral driving licence exchange agreements with around 100 countries, allowing holders to exchange their foreign licence for a French one without retaking any tests. The list includes: all EU/EEA countries, Canada, Japan, South Korea, Australia, New Zealand, Singapore, South Africa, Morocco, Tunisia, Algeria, Senegal, Ivory Coast, and many others. The exchange process: you must apply within one year of establishing French residence as a new resident, or within five years if you held the foreign licence before becoming a French resident. You submit to the prefecture (or online via ANTS): your foreign licence (original), a certified translation if not in French, proof of identity, proof of French address, a passport photo, and the prefecture's specific form. Processing time: 2-8 weeks. The prefecture retains your foreign original and issues a French licence.",
+      },
+      {
+        heading: "Non-EU licences without exchange agreements: the full French process",
+        body: "If your country doesn't have an exchange agreement with France (the list includes the USA, UK post-Brexit for some categories, Brazil, China, India, and others), you must start from scratch. This means: passing the French Highway Code exam (le code de la route) — a 40-question multiple-choice test, 35 correct required to pass. Sitting the practical driving test (l'examen de conduite). Both tests can be taken in French or in your language in some prefectures, but the French version is required for the official test. The process typically takes 3-12 months depending on waiting times for practical test slots, your existing skill level, and how much time you invest in preparation. Costs: auto-école (driving school) registration €30-50, theory preparation course €50-200, practical lessons if needed €50-80/hour, exam fees are included in the school package (around €1,200-2,000 for a full course from scratch).",
+      },
+      {
+        heading: "UK licences post-Brexit: the nuance",
+        body: "UK licences after Brexit (1 February 2021) are no longer automatically exchangeable. The UK and France do not have a bilateral exchange agreement for car licences (Category B). This means UK residents in France must, in theory, retake the full French driving process for Category B (cars). However, this is enforced inconsistently and the practical reality has been that many UK nationals have driven on their UK licence for years without issue. The administrative situation as of 2026: UK licences remain valid for driving in France for up to 1 year from the date you become a French resident. After that, you technically need a French licence. The pragmatic approach taken by many UK expats: exchange other categories (motorcycles, HGV) where individual agreements may apply, and address Category B through an auto-école. Some prefectures have shown flexibility. This is an area to verify with your specific prefecture, as rules have evolved and continue to evolve.",
+      },
+      {
+        heading: "Practical tips for getting through the process",
+        body: "Theory exam: the French code de la route is learnable in 2-4 weeks of preparation using apps like iCode or Codes Rousseau (€5-20). The questions cover traffic signs, priority rules, safe driving, and first aid basics. Many expats find it straightforward once they adjust to the multiple-choice format and French road law specifics (notably priority-to-the-right rules that differ from many countries). Practical exam: if you already know how to drive, the French practical test primarily tests that you follow French driving protocol — checking mirrors, signalling, giving way correctly. It is not testing raw skill but procedural compliance. An auto-école will typically assess your existing competence and recommend 10-20 lessons of adaptation rather than a full learning course. Waiting for a slot: this is the main bottleneck. In major cities (Paris, Lyon, Marseille), practical exam slots can take 3-6 months. Book early.",
+      },
+    ],
+    relatedCities: ["paris", "lyon", "bordeaux", "strasbourg", "toulouse"],
+    tags: ["driving licence france expats", "permis conduire echange", "UK driving licence france", "foreign licence france 2026", "code de la route expat"],
+  },
+  {
+    slug: "paying-taxes-in-france-expat-guide-2026",
+    title: "Paying taxes in France as an expat: what you owe, how it works",
+    metaTitle: "French Income Tax for Expats 2026 — Complete Honest Guide",
+    metaDesc: "When do you become a French tax resident? What do you owe on foreign income? How does the impôt sur le revenu work? Clear answers for expats and new arrivals.",
+    category: "moving",
+    emoji: "📊",
+    readMinutes: 10,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "French tax law is not designed to be simple. But the basic structure — who owes what, when, and how to file — is learnable. This guide covers the essentials for expats arriving in France: tax residency, income tax mechanics, the social charges system, and the most common traps.",
+    sections: [
+      {
+        heading: "Tax residency: when France claims you",
+        body: "France taxes residents on their worldwide income, so the first question is: are you a French tax resident? The criteria are either/or, not cumulative. You are a French tax resident if: (1) your fiscal domicile is in France — where your family lives, where your primary residence is; or (2) you spend more than 183 days/year in France; or (3) your principal professional activity is in France; or (4) France is the centre of your economic interests (where most of your income comes from or most of your assets are based). Even one of these conditions makes you a French tax resident for the whole year. If you arrive in France in July, you are a resident for the full year from January.",
+      },
+      {
+        heading: "The income tax (impôt sur le revenu) structure",
+        body: "France uses a progressive household-based tax system with quotient familial (family quotient). Rates in 2026: 0% on income up to €11,294, 11% from €11,294 to €28,797, 30% from €28,797 to €82,341, 41% from €82,341 to €177,106, 45% above €177,106. These rates apply per part of the household: a couple counts as 2 parts, with one additional half-part per child (up to a capped benefit). A single person earning €40,000 gross pays approximately €4,000-4,500/year in income tax after social charges. A couple earning €60,000 combined pays approximately €4,500-5,500/year. Comparing with gross income: French income taxes are lower than UK or German equivalents at equivalent gross levels — but the social charges (below) are higher, and the combined burden is broadly comparable.",
+      },
+      {
+        heading: "Social charges: the hidden cost",
+        body: "On top of income tax, employed workers pay social charges (cotisations sociales) that fund healthcare, pensions, unemployment insurance, and other benefits. For employees, these are deducted directly from gross pay by the employer — you see them as the gap between your gross and net salary. Employee charges total approximately 22-25% of gross; employer charges add another 40-45% on top of your gross (which is why French gross salaries look lower than UK equivalents). For self-employed and independent professionals, the CSG/CRDS (social contributions) apply at 9.2% on earned income and 17.2% on capital/investment income. These apply even if you pay no income tax. For early retirees living on savings in France: if your income is investment/capital income, expect to pay 17.2% CSG/CRDS plus income tax — this is often a surprise for people coming from countries where passive income is taxed more lightly.",
+      },
+      {
+        heading: "Declaring foreign income and assets",
+        body: "If you are a French tax resident with income from abroad (rental income from a UK property, dividends from US stocks, foreign pension, remote salary from a foreign employer), you must declare it in France. France has tax treaties with most countries to avoid double taxation, but the mechanism varies: in many cases, the foreign income is reported and used to calculate your effective rate, even if France doesn't collect tax on it directly. Foreign bank accounts above €10,000 must be declared annually (Form 3916). Failure to declare carries penalties up to 80% of evaded tax plus interest. The most common expat tax errors: not declaring foreign accounts, not reporting foreign real estate, and treating foreign pensions as exempt. They are not exempt by default — check the specific treaty for your country of origin.",
+      },
+      {
+        heading: "Filing: the practical process",
+        body: "France operates a pre-filled declaration system (déclaration pré-remplie) through impots.gouv.fr. If you have a French salary, most income is pre-filled and you verify/correct it. New arrivals in their first year file on paper (Cerfa 2042). Online access opens once you have a numéro fiscal (tax identification number), which you get by registering at your local tax office (SIP — Service des Impôts des Particuliers) with your identity documents and proof of address. Filing deadlines: typically late May (online) to mid-May (paper) for the previous year's income. Paying: income tax is now deducted monthly directly from your salary or bank account (prélèvement à la source), so you pay as you go and the annual declaration is a final adjustment. Accountants (expert-comptable) who speak English and specialise in expat tax are available in Paris, Lyon, Bordeaux, and most major cities — budget €500-1,500 for complex international situations.",
+      },
+    ],
+    relatedCities: ["paris", "bordeaux", "lyon", "nice", "strasbourg"],
+    tags: ["french income tax expats", "impôt sur le revenu france", "social charges france", "declaring foreign income france", "french tax resident 2026"],
+  },
+  {
+    slug: "caen-living-guide-2026",
+    title: "Living in Caen: Normandy's pragmatic capital — honest expat guide",
+    metaTitle: "Living in Caen 2026 — Expat & Relocation Guide: Cost, Housing, Life",
+    metaDesc: "Caen: affordable housing, direct ferry to Portsmouth, good university, Calvados countryside. What it's genuinely like to live in Normandy's largest city.",
+    category: "city-guide",
+    emoji: "🏰",
+    readMinutes: 7,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "Caen is one of the most underrated relocation options in France for British and Northern European expats — not because it's glamorous, but because it works. Direct ferry to Portsmouth, affordable housing, a real city (250,000 metropolitan population), solid job market, good schools, and Normandy countryside and coastline within 20 minutes. Here is the honest guide.",
+    sections: [
+      {
+        heading: "The city in practice",
+        body: "Caen's centre was almost entirely rebuilt after World War II (it was 75% destroyed in the 1944 battle). The rebuilt city is clean, functional, and pleasantly laid out — wide boulevards, well-maintained public spaces, a revived canal basin (the Bassin Saint-Pierre) that has become the social heart of the city, and a tram network that works. It does not have the architectural charm of Rennes, Nantes, or Bordeaux. That said, it has the Abbaye aux Hommes and the Abbaye aux Dames (both built by William the Conqueror), the Caen Memorial Museum (one of the best WWII museums in Europe), and access to the D-Day beaches and Normandy apple country within 20 minutes. For British expats, this proximity to UK history and culture — plus the ferry link — makes Caen a psychologically easy transition.",
+      },
+      {
+        heading: "Housing: genuinely affordable",
+        body: "Caen is one of the most affordable city markets in northern France. Average apartment prices: €2,000-2,800/m² in the city centre, rising to €3,000-3,500/m² in the most central locations near the Abbaye. Peripheral neighbourhoods (Hérouville-Saint-Clair, which is technically a separate commune but contiguous with Caen) are cheaper. Rent for a 50m² T2: €650-850/month in the centre, €550-700/month in the inner suburbs. For context: similar size in Rennes runs €850-1,000, in Bordeaux €1,000-1,200. Caen consistently sits 20-30% below comparable regional capitals in the north. New construction is active in the Presqu'île Caen project (a 25-year urban renewal of the industrial peninsula south of the centre), which is adding well-designed housing stock and driving investment.",
+      },
+      {
+        heading: "The ferry connection: a genuine advantage",
+        body: "Brittany Ferries operates daily overnight and day sailings between Caen (Ouistreham port, 15 minutes from the city) and Portsmouth. Journey time: approximately 6 hours on the standard service, 3h30 on the fast ferry (seasonal). This is a practical lifeline for British expats who travel back regularly — you can drive your car, bring luggage without limits, and avoid airport hassles. The fares are competitive compared to flying once you factor in checked luggage. For businesses importing/exporting with the UK, this is also a supply chain consideration. The port also runs seasonal services to Poole.",
+      },
+      {
+        heading: "Jobs and economy",
+        body: "Caen's economy is more industrial-technical than most comparable French cities: the nuclear fuel processing complex at La Hague is 90 minutes away, and there are significant manufacturing (Philips Éclairage, Valeo), pharmaceutical (Merck, Bayer France), and defence-adjacent employers in the metropolitan area. The university (Université de Caen Normandie) is large (30,000+ students) and provides a knowledge economy anchor. ENSICAEN is a respected engineering school with strong industry links. Healthcare is a significant employer (CHU de Caen). For international professionals: English-language professional opportunities are limited outside research, pharmaceutical, and multinational roles — the local job market is predominantly French-speaking.",
+      },
+      {
+        heading: "Quality of life and what Caen does well",
+        body: "Caen's strongest cards: pragmatic city management (transport works, services work), low cost of living, a genuine cultural programme (the city punches above its weight in theatre, music, and museum quality), and access to some of France's best coastline and countryside within 30 minutes. The coast at Courseulles-sur-Mer and the Bessin beaches is genuinely beautiful — sand beaches, low-key tourist infrastructure, accessible year-round. Cheese, cider, and calvados are the Normandy trifecta, and they are outstanding here. The climate is Northern French — wet, grey in winter, pleasant in summer. Annual sunshine is around 1,700 hours, similar to Paris. If you need guaranteed sun, this is not your city. If you can live with grey winters in exchange for a genuinely good quality of life at a price that leaves you money at the end of the month, Caen is worth serious consideration.",
+      },
+    ],
+    relatedCities: ["caen", "rouen", "rennes", "nantes", "cherbourg"],
+    tags: ["living in caen normandy", "caen expat guide", "normandy relocation", "british expats france", "caen housing cost 2026"],
+  },
+  {
+    slug: "toulouse-vs-bordeaux-which-city-2026",
+    title: "Toulouse vs Bordeaux: two southern capitals, two very different lives",
+    metaTitle: "Toulouse vs Bordeaux 2026 — Which City Is Right for You?",
+    metaDesc: "Both are sunny, affordable-by-French-standards, and growing fast. But they attract different people and offer very different daily lives. An honest comparative guide.",
+    category: "city-guide",
+    emoji: "⚖️",
+    readMinutes: 8,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "Toulouse and Bordeaux are both in the southwest, both substantially cheaper than Paris, both sunny, both growing fast, and both consistently at the top of French quality-of-life rankings. They are also genuinely different places that suit different people. Here is the honest comparison.",
+    sections: [
+      {
+        heading: "The cost difference: housing is the key variable",
+        body: "Bordeaux is consistently 15-25% more expensive than Toulouse for equivalent housing. Average T2 (50m²) in the centre: Bordeaux €1,000-1,300/month, Toulouse €800-1,050/month. Apartment purchase price per m²: Bordeaux city centre €4,500-5,500/m², Toulouse €3,200-4,200/m². The Bordeaux premium reflects its Atlantic prestige, wine tourism, and decade of aggressive urban renovation (the Euratlantique project transformed the right bank). Toulouse's lower prices are partly explained by its sprawl (much of the housing demand is absorbed in the suburban belt) and partly by its more industrial-technical profile, which attracts a different buyer profile than Bordeaux's lifestyle-driven demand. If budget is your primary constraint, Toulouse wins clearly.",
+      },
+      {
+        heading: "Jobs: aerospace vs everything",
+        body: "Toulouse is France's aerospace capital and that is not a minor characteristic — it is the dominant feature of the professional city. Airbus headquarters, 300+ aerospace suppliers, ISAE-SUPAERO (the top aerospace engineering school), a thriving subcontractor ecosystem, and the largest concentration of aerospace engineers in Europe outside Seattle. If you work in aerospace, Toulouse is unambiguously the better choice. Beyond aerospace: Toulouse has growing clusters in medtech (Pierre Fabre, INSERM labs), IT, and agri-tech. The job market is strong for engineers and scientists. Bordeaux's job market is more diverse — financial services, wine industry, logistics (the Port of Bordeaux), growing tech and creative sector, real estate, and tourism. Neither has a particularly strong finance sector compared to Paris or Lyon, but Bordeaux skews more service/commerce and Toulouse more industrial/technical.",
+      },
+      {
+        heading: "Urban feel and architecture",
+        body: "These cities look and feel radically different. Bordeaux is built in pale golden limestone (Gironde stone), uniformly 18th-century Haussmannian in the centre, beautifully maintained, with wide boulevards and a monumental scale that makes it feel like a smaller Paris. The Garonne riverfront is spectacular, the Place de la Bourse is genuinely famous, and the city centre is compact enough to walk. It is somewhat precious — Bordeaux knows it's beautiful and has a self-consciousness about it. Toulouse is built in pink brick (the brique toulousaine), has a more organic, sprawling urban form, and less architectural coherence — but more warmth and chaos. The city centre around the Capitole is grand but the surrounding neighbourhoods are more varied in character. Toulouse has a stronger student energy (roughly 130,000 students in a city of 500,000 metropolitan) that keeps it feeling young and unpolished.",
+      },
+      {
+        heading: "Climate: almost the same, subtly different",
+        body: "Both cities get around 2,000-2,100 hours of sunshine annually. Both have warm, dry summers. Bordeaux is slightly wetter and milder in winter (Atlantic influence), while Toulouse has colder, clearer winters and occasionally extreme summer heat (the region around Toulouse sees some of France's highest summer temperatures). Both are significantly sunnier and warmer than Paris. If you want the most Mediterranean-adjacent experience in the southwest, Toulouse is slightly closer climatically. If you prefer mild winters with more frequent mild days, Bordeaux's Atlantic moderation helps.",
+      },
+      {
+        heading: "Social life and culture",
+        body: "Bordeaux's social life is more homogeneous — it has a strong bobo (bourgeois-bohémien) profile, a significant British expat community (particularly in the Médoc and Dordogne nearby), and a lifestyle scene built around food, wine, and outdoor living. The cultural offer is good but not exceptional. Toulouse is messier, more cosmopolitan due to the international aerospace workforce (you'll meet more Americans, British, Germans, Japanese in Toulouse's international community than in Bordeaux's), and has a stronger student-driven nightlife and music scene. Toulouse is also more politically diverse — it has a tradition of left politics (it was one of the few major French cities not controlled by the right for most of the 20th century) that shapes its cultural institutions. The right choice for social fit depends largely on which energy you prefer: polished and homogeneous (Bordeaux) or energetic and mixed (Toulouse).",
+      },
+    ],
+    relatedCities: ["toulouse", "bordeaux", "montpellier", "nantes", "lyon"],
+    tags: ["toulouse vs bordeaux 2026", "which city france", "bordeaux or toulouse", "southwest france relocation", "moving to toulouse or bordeaux"],
   },
 ];
 
