@@ -660,6 +660,174 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["clermont-ferrand", "limoges", "perigueux", "cahors", "rodez"],
     tags: ["countryside", "rural", "renovation", "isolation", "lifestyle"],
   },
+  {
+    slug: "safest-french-cities-2026",
+    title: "The safest French cities in 2026 — honest data, not vibes",
+    metaTitle: "Safest French Cities 2026 — Crime Data & Honest Rankings",
+    metaDesc:
+      "Which French cities have the lowest crime rates? SSMSI data on theft, assault and burglary by city — and why 'safe' means very different things depending on your lifestyle.",
+    category: "lifestyle",
+    emoji: "🛡️",
+    readMinutes: 7,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Safety is the question everyone asks about France and the answer nobody gives a straight answer to. The reason is that safety is genuinely multidimensional: pick-pocketing in tourist centres, break-ins in quiet suburbs, and street assault in city centres are three completely different risks, affecting completely different people. This guide uses the SSMSI crime-by-commune database to separate signal from noise.",
+    sections: [
+      {
+        heading: "How French crime data is collected",
+        body: "The SSMSI (service statistique ministériel de la sécurité intérieure) publishes commune-level crime statistics annually, broken down by offence type. The figures cover crimes and misdemeanours registered by police and gendarmerie — not all incidents, since under-reporting is significant for minor theft and domestic violence. For major violent crime, the data is more reliable. All rates on this site are per 1,000 residents, which is the only meaningful basis for comparison between Bordeaux (260,000 residents) and Rodez (24,000).",
+      },
+      {
+        heading: "The cities that consistently score well",
+        body: "Angers, Rennes, Nantes, Strasbourg and Brest all score above the national average on our safety index, and this is consistent across multiple data years. They share a structural trait: relatively stable, educated populations with low economic polarisation. Angers in particular stands out — high quality of life, affordable, and a crime rate that consistently sits in the bottom quartile nationally. Rennes and Nantes have slightly higher numbers in the city centres but strong results in their wider metropolitan areas.",
+      },
+      {
+        heading: "The cities where context matters most",
+        body: "Marseille, Paris, and Nice have elevated raw crime figures — but these numbers are dominated by tourist-area theft and a highly mobile, transient population. The lived experience in Marseille's 12th arrondissement or Nice's western suburbs is very different from the Vieux-Port or Promenade des Anglais. If you live and work in a residential neighbourhood rather than a tourist hotspot, the relevant comparison is neighbourhood-level data, not city-level. The city-level figures are not useless, but they require this caveat.",
+      },
+      {
+        heading: "What the safety score measures on this site",
+        body: "The safety score here is a composite of SSMSI crime rate, a density-weighted correction (dense city centres are inherently more crime-prone, all else equal), and a calibration against user-reported perception data. It measures risk for a typical resident going about daily life — not for a backpacker sleeping in a hostel near a train station, and not for someone living in an outlying rural commune. It's an estimate, not a verdict.",
+      },
+      {
+        heading: "What the data doesn't capture",
+        body: "The SSMSI data has two major gaps. First, perceived safety — the experience of being a woman walking alone at night, or a visibly foreign person in certain neighbourhoods — is not captured by crime statistics. Several cities with low registered crime rates have poor reputations for street harassment in specific zones. Second, the data reflects past reporting, not present conditions: a city that has gentrified rapidly over three years may look better in historical data than it is today. For a more granular picture, the red-flag pages on individual city profiles flag specific neighbourhood-level patterns.",
+      },
+      {
+        heading: "A practical framework",
+        body: "If safety is a top priority: Angers, Rennes, Brest, Bayonne and Annecy all have strong records and are genuinely pleasant places to live. If you're moving to a city with elevated crime figures, spend time researching specific neighbourhoods — the variation within a city is often larger than the variation between cities. And remember that safety trades off against other factors: the safest cities are often not the cheapest, most culturally diverse, or most career-connected. The goal is not to find the city with the lowest crime rate; it's to find the one whose risk profile matches your specific life.",
+      },
+    ],
+    relatedCities: ["angers", "rennes", "brest", "bayonne", "annecy"],
+    tags: ["safety", "crime", "SSMSI", "security", "rankings"],
+  },
+  {
+    slug: "cycling-french-cities-2026",
+    title: "The best French cities for cyclists in 2026",
+    metaTitle: "Best French Cities for Cycling 2026 — Infrastructure & Daily Use",
+    metaDesc:
+      "Which French cities have built cycling infrastructure that actually works for daily commuting? An honest look beyond the promotional cycle paths.",
+    category: "lifestyle",
+    emoji: "🚴",
+    readMinutes: 6,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "France has an uneven cycling record. Paris has spent billions on infrastructure and made extraordinary progress since 2020; Strasbourg has had a functioning cycle culture for decades; and several mid-size cities have transformed their urban mobility in a few years. Meanwhile, plenty of French cities still treat cycling as something that happens on scenic Sunday paths rather than a daily transport mode. This guide separates them.",
+    sections: [
+      {
+        heading: "Strasbourg: the benchmark",
+        body: "Strasbourg has been the standard against which other French cities are measured for thirty years. The bike modal share is around 15% — genuinely Nordic by French standards — and the infrastructure is comprehensive: separated lanes on all major arterials, priority at junctions, secure parking at tram stops, a dense grid that handles rain and a flat topography. It also helps that Strasbourg has a culture of cycling that predates the infrastructure: the Alsatian cross-border connection to German cycling practice runs deep. If you want to live without a car and commute by bike in France, Strasbourg is the first shortlist entry.",
+      },
+      {
+        heading: "Bordeaux and Nantes: real progress, real caveats",
+        body: "Bordeaux has built aggressively since its tramway expansion and has a network that functions for most central commutes. The caveats: the network still has gaps, night-time security for parked bikes is inconsistent, and the hills around the city centre — modest by European standards but real — catch newcomers. Nantes has similar strengths and similar gaps. Both cities are genuinely good for cycling; neither is the city to choose if cycling is your single most important criterion.",
+      },
+      {
+        heading: "Rennes and Grenoble: the understated ones",
+        body: "Rennes built its cycling network late but built it well — the RV67 greenway network and recent infrastructure along key arterials make it genuinely usable for cross-city commuting. Grenoble is the best cycling city in the Alps by a wide margin: a flat bowl surrounded by mountains means the terrain works for cyclists, and the city has invested consistently in infrastructure. Both cities are compact enough that cycling gets you further, faster than alternatives for most journeys.",
+      },
+      {
+        heading: "Paris post-2020: transformed but still patchy",
+        body: "Paris went from a city with bike share and some painted lanes to one with a growing network of separated infrastructure in five years. The Seine banks are beautiful; the main arterials have decent tracks. The gaps are real though: the cycling network still has discontinuities where you suddenly find yourself sharing a lane with a bus or navigating a roundabout with no cycle markings. The growth trajectory is strong but the current state is 'good with gaps', not 'comprehensive'. That said, for getting around central Paris daily, cycling is now the fastest mode for most journeys.",
+      },
+      {
+        heading: "Cities with terrain challenges",
+        body: "Lyon is a beautiful but hilly city, and the hills are real barriers for non-e-bike cycling. The Presqu'île (the flat city-centre peninsula) has reasonable infrastructure, but cross-city commutes often involve the Croix-Rousse or Fourvière hills. Nice and Marseille both have terrain that limits cycling to coastal/flat corridors. All three have invested in e-bike share schemes, which shifts the calculus: with an e-bike or speed pedelec, the hills become manageable. The infrastructure investment hasn't caught up with the terrain opportunities in any of these cities yet.",
+      },
+      {
+        heading: "The practical checklist",
+        body: "Before choosing a city for cycling, verify: Does the route from where you'll likely live to where you'll likely work have separated infrastructure, or do you share with motor traffic? Is secure overnight parking available at your building or nearby? What's the e-bike theft rate? (Bordeaux and Paris have high rates.) Is there a functioning vélo station network for occasional one-way use? And finally: what's the winter condition? Many cities that are fine in summer become miserable for cycling in dark, wet November-February conditions. Rennes' mild Atlantic climate handles this better than Strasbourg's cold winters.",
+      },
+    ],
+    relatedCities: ["strasbourg", "bordeaux", "nantes", "rennes", "grenoble"],
+    tags: ["cycling", "bike", "active transport", "infrastructure", "lifestyle"],
+  },
+  {
+    slug: "french-cities-tech-jobs-2026",
+    title: "Best French cities for tech workers in 2026",
+    metaTitle: "Best French Cities for Tech Jobs 2026 — Startups, Salaries & Quality of Life",
+    metaDesc:
+      "Paris isn't the only option. Lyon, Bordeaux, Nantes, Rennes and Toulouse all have serious tech ecosystems — at half the rent.",
+    category: "moving",
+    emoji: "💻",
+    readMinutes: 7,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "France has one of Europe's largest tech ecosystems outside the UK, and it's no longer concentrated in Paris. The 2020s have seen a sustained decentralisation: companies that were remote during COVID found that their engineers preferred Bordeaux's rent and weather, and many have kept hybrid or fully remote setups. This guide covers where the genuine tech density is, and where you can find tech work without sacrificing your quality of life to Paris prices.",
+    sections: [
+      {
+        heading: "Paris: still the startup capital, but no longer the only option",
+        body: "Paris — specifically Station F, Île-de-France, and the so-called 'Frenchtech' ecosystem — remains the dominant hub for French venture-backed startups and the French offices of major international tech companies. If you're a senior engineer targeting CAC 40 tech or Series B+ French startups, Paris is still where the density is. The compensation premium is real, but it comes with a rent that wipes out most of it. A €65,000 salary in Paris buys a similar quality of life to €50,000 in Lyon, once you account for housing. That gap narrows substantially when remote.",
+      },
+      {
+        heading: "Lyon: the most credible alternative",
+        body: "Lyon has the second-largest concentration of tech employment in France and a growing ecosystem centred on biotech/medtech (due to Sanofi, Boehringer Ingelheim and IPSEN) as well as enterprise software and consultancies. The city has a dozen engineering schools and a strong supply of local talent. Salaries track at roughly 85-90% of Paris levels; rents are around 55-60% of Paris. The maths work out clearly for engineers who can access Lyon positions. The culture is more corporate and less 'startup hustle' than Paris — something that's either a feature or a bug depending on where you are in your career.",
+      },
+      {
+        heading: "Nantes and Rennes: Atlantic tech hubs",
+        body: "Nantes has built an identifiable tech sector in the past decade, concentrated around gaming (XAnge, Ankama alumni, several mid-sized studios), agritech and digital health. The city has a quality of life advantage — good transport, a coastal option within 45 minutes, milder winters than the east — and salaries around 78-82% of Paris. Rennes is smaller but punches above its weight due to the presence of Technicolor, Orange Labs and a cluster of defence/telecom companies. Both cities have strong student pipelines from INSA, Centrale and IMT.",
+      },
+      {
+        heading: "Bordeaux: the lifestyle-tech balance",
+        body: "Bordeaux attracts tech workers more than it produces them — many arrive from Paris, Lyon or internationally, drawn by the city's quality of life and the Atlantic climate. The local ecosystem is real but smaller: scale-ups rather than deep tech, with strength in wine-tech (a very specific niche), tourism and SaaS. Salaries track at 75-85% of Paris; the gap in quality of life closes it. If you can negotiate remote with your current employer and want the best lifestyle-to-salary ratio, Bordeaux is a consistent answer.",
+      },
+      {
+        heading: "Toulouse: aerospace and deep tech",
+        body: "Toulouse is unique: its tech ecosystem is dominated by aerospace (Airbus, Safran, Thales) and the downstream software, systems and AI that supports it. If you're an engineer in embedded systems, avionics, satellite (CNES is here), or the AI/computer vision adjacent to these industries, Toulouse has some of the highest compensation in provincial France and deep technical problems that don't exist elsewhere. For pure software-product roles, the ecosystem is thinner. Toulouse also has a university cluster (ISAE-SUPAERO, INSA, Université Capitole) that makes it a good place for research-adjacent positions.",
+      },
+      {
+        heading: "Remote-first: the cities that win",
+        body: "If you're fully or mostly remote, the calculus shifts entirely. You're optimising for rent, quality of life, TGV access for occasional office days, and the ecosystem you need for your next job — not your current one. On these criteria, Angers (40 min TGV to Paris, low rents, high safety), Montpellier (climate, young population, growing scale-up scene), and Rennes (strong tech culture, Paris access, quality of life) all outperform Paris for many people. The key variable is how often you genuinely need to be in the office — be honest about this before choosing a city that makes it a hardship.",
+      },
+    ],
+    relatedCities: ["lyon", "nantes", "bordeaux", "toulouse", "rennes"],
+    tags: ["tech", "startups", "software", "engineering", "jobs", "relocation"],
+  },
+  {
+    slug: "france-for-digital-nomads-2026",
+    title: "France for digital nomads: the honest guide 2026",
+    metaTitle: "France for Digital Nomads 2026 — Visas, Cities & Real Costs",
+    metaDesc:
+      "Visas, fibre coverage, co-working costs and which French cities actually work for a location-independent lifestyle. Without the travel-blog clichés.",
+    category: "remote-work",
+    emoji: "🌍",
+    readMinutes: 8,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "France is not Bali. It is not a nomad-as-tourist destination. It is a country with a complex visa system, a high cost of living in most major cities, and bureaucratic friction that is real and specific. It is also a country with extraordinary quality of life, excellent healthcare, fibre coverage in virtually every city above 20,000 people, and a cultural richness that makes two years feel like ten. This guide addresses both sides honestly.",
+    sections: [
+      {
+        heading: "The visa question first",
+        body: "EU/EEA nationals can live and work in France indefinitely with no visa — this is the simplest case. Non-EU nationals need a visa, and France's options for location-independent workers are limited. The 'passeport talent' visa covers specific cases (researchers, artists, investors, founders) but is not a general digital nomad visa. The 'profession libérale' route is available for freelancers who can demonstrate French clients or revenue streams. For most non-EU digital nomads working for non-French clients with no local revenue, the legal path is opaque. Consult an immigration specialist before treating this as solved.",
+      },
+      {
+        heading: "Cities that work for the nomadic lifestyle",
+        body: "Montpellier, Bordeaux, Marseille and Lyon all have co-working ecosystems worth using, digital nomad communities (informal but real), and the sort of lifestyle that makes sustained remote work feel like a feature rather than a sacrifice. Montpellier specifically has an unusually young, international population relative to its size, strong fibre coverage, and a cost of living that is high by the standards of Southeast Asia or Eastern Europe but reasonable by French standards. Toulouse has a similar profile with less nightlife and more aerospace.",
+      },
+      {
+        heading: "Co-working infrastructure",
+        body: "France's co-working market matured quickly after COVID and you can now find a genuinely functional desk in every city above 30,000 people. Prices range from €150/month in smaller cities to €400/month for a dedicated desk in a Paris premium space. Most accept month-to-month. The quality varies dramatically — the key is a stable fibre connection with a guaranteed minimum uptime. Before committing to a co-working, ask specifically about the internet setup: who's the provider, what's the SLA, is there a 4G backup? The shiny décor means nothing if the connection drops during your calls.",
+      },
+      {
+        heading: "Fibre coverage: where it's reliable",
+        body: "THD France's deployment data shows 85%+ fibre coverage in urban France. In any city above 50,000 residents, you can expect FTTH (fibre to the home) to be available in most apartments. Rural areas are the gap: even with the government's 'Plan France Très Haut Débit', many communes below 5,000 residents still rely on VDSL or 4G fixed. If your work requires consistent 100+ Mbps upstream, stay in cities. This is not a France-specific problem — it's a structural reality of rural broadband everywhere.",
+      },
+      {
+        heading: "The rental market for short stays",
+        body: "France's rental market is strongly oriented toward 12-month unfurnished leases. The meublé (furnished) lease with a 1-month notice period exists but is rarer and commands a premium. For stays under 3 months, Airbnb/VRBO is common but expensive in central areas and constrained by local regulations in Paris, Lyon and Bordeaux. For 3-12 month stays, the 'bail mobilité' (mobility lease) was created specifically for temporary residents and is increasingly available. Monthly furnished rentals are a viable route in most cities; budget 20-40% above the long-term unfurnished equivalent.",
+      },
+      {
+        heading: "What actually surprises people",
+        body: "Three things: French administrative processes are genuinely slow, genuinely opaque, and genuinely require in-person presence more than you'd expect. Plan for bureaucratic tasks taking 2-4x as long as you'd assume. Social integration in France happens at a different pace than in more transient societies — it requires effort, language, and patience. And France's public healthcare system is extraordinary for residents but requires registration, a médecin traitant, and a carte vitale — processes that take weeks to months. Travel insurance covers the gap, but understanding this in advance saves frustration.",
+      },
+    ],
+    relatedCities: ["montpellier", "bordeaux", "lyon", "toulouse", "strasbourg"],
+    tags: ["digital nomad", "remote work", "visa", "co-working", "expat"],
+  },
 ];
 
 export function getEnGuide(slug: string): EnGuide | undefined {
