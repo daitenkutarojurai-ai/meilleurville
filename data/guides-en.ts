@@ -1522,6 +1522,310 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["rennes", "nantes", "montpellier", "bordeaux", "strasbourg"],
     tags: ["digital nomad", "remote work", "visa", "tax", "freelance"],
   },
+  {
+    slug: "toulouse-living-guide-2026",
+    title: "Living in Toulouse: the honest picture",
+    metaTitle: "Living in Toulouse 2026 — Honest Guide for Expats & Movers",
+    metaDesc:
+      "Toulouse is France's aerospace capital and a city of 500,000 with genuine warmth, good weather and a competitive property market. Here's what to actually expect.",
+    category: "lifestyle",
+    emoji: "🛫",
+    readMinutes: 7,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Toulouse divides France. Some love it unconditionally; others find it overrated. The truth is more precise: Toulouse is genuinely good for specific things — aerospace employment, a warm social culture, proximity to both mountains and sea, and strong weather — and genuinely difficult for others, particularly property prices and public transport quality outside the main lines. If your life aligns with its strengths, you will be comfortable here.",
+    sections: [
+      {
+        heading: "The aerospace economy",
+        body: "The Toulouse economy is the most sector-concentrated of any major French city: Airbus, Thales, ATR, Safran, and their supply chains directly or indirectly employ roughly 100,000 people in the wider metropolitan area. This creates a very particular job market. Engineering, aeronautics, defence contracting, and related functions pay well and have low unemployment. Everything outside the aerospace ecosystem is a normal French city: healthcare, education, retail, hospitality — present but not exceptional. If you are in aerospace or adjacent sectors, Toulouse offers career density you won't find anywhere else in France outside of a few Paris-region clusters. If you're not, the city is fine but the job market advantage disappears.",
+      },
+      {
+        heading: "Property: pink city, red prices",
+        body: "The 'Pink City' nickname (from the rosy terracotta used in historic buildings) extends uncomfortably to property prices. Toulouse is the second most expensive French city for property after Lyon and Nice, ahead of Bordeaux. In 2025, average prices in Toulouse city were around €3,700–4,200/m² for older apartments and €4,500–5,200/m² for new construction. The shortage of housing relative to demand — driven by aerospace employment stability and net positive migration — means competition for rentals is real. Budget €750–1,000/month for a 40m² studio in a central arrondissement, and €1,100–1,500/month for a 70m² apartment.",
+      },
+      {
+        heading: "Climate: the best argument for Toulouse",
+        body: "2,100 hours of sunshine per year puts Toulouse among the top five sunniest cities in metropolitan France. The winters are genuinely mild compared to northern France — frost is rare, and cold dark January days are the exception rather than the rule. The proximity to the Pyrenees means ski resorts are reachable in 90 minutes, yet the Mediterranean is two hours away by car. This geographical position — neither fully Atlantic, nor fully Mediterranean, nor fully continental — gives Toulouse a range of weather options that no other major French city can match. The trade-off: summer temperatures regularly exceed 35°C and have climbed measurably over the past decade.",
+      },
+      {
+        heading: "Transport: within the city, not beyond it",
+        body: "The metro and tram network is good within Toulouse itself — the two metro lines are fast, reliable, and well-used. The problem is the commuter belt: outlying areas of the metropolitan zone are badly connected by public transport, which means car dependency for anyone not living close to a metro stop. The national rail connections are adequate (Paris by TGV is 4h10, which is long but functional), but compared to Lyon or Bordeaux, Toulouse feels more isolated from the French rail network. The airport is well-connected to London, Madrid, Amsterdam and other European cities — an advantage for frequent travellers.",
+      },
+      {
+        heading: "The social climate",
+        body: "Toulouse has a reputation for warmth that is broadly deserved, though the mechanism is specific: the city has a strong student population (over 100,000 students at universities and grandes écoles including ISAE-SUPAERO), a rugby culture that creates a very specific social glue around match days, and a sunnier disposition that the weather directly enables. The expat community is notably present — the aerospace sector attracts international engineers, and the city has established clusters of British, German, and Spanish residents. Finding English-language social connections is easier here than in most comparable French cities.",
+      },
+    ],
+    relatedCities: ["toulouse", "montpellier", "bordeaux", "pau", "carcassonne"],
+    tags: ["toulouse", "living in toulouse", "aerospace", "occitanie", "expat"],
+  },
+  {
+    slug: "nantes-living-guide-2026",
+    title: "Living in Nantes: what the rankings don't tell you",
+    metaTitle: "Living in Nantes 2026 — Honest Expat & Relocation Guide",
+    metaDesc:
+      "Nantes tops most French quality-of-life rankings. Here's a granular picture: what the scores mean in practice, what the city gets right, and what it doesn't.",
+    category: "lifestyle",
+    emoji: "🌿",
+    readMinutes: 7,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Nantes appears in the top 5 of almost every French city quality-of-life ranking. This is not marketing: the city has genuinely invested in public space, cycling infrastructure, cultural programming, and economic diversification for three decades in a way that shows in the lived experience. What the rankings don't tell you is the cost of that success: Nantes is no longer cheap, the weather is legitimately grey for much of the year, and the housing market has tightened significantly.",
+    sections: [
+      {
+        heading: "What Nantes actually looks like",
+        body: "The historic centre is compact, walkable and architecturally varied — a mix of Loire valley stone, renovated docklands (the Île de Nantes), and a clean, mid-scale urban fabric that never overwhelms. The Machines de l'Île (a permanent fantastical mechanical art installation housed in former shipyard warehouses) is genuinely extraordinary and not a tourist trap — it's an emblem of how the city approaches public culture. The Erdre river runs through the northern suburbs, giving the city a riparian quality that most French cities lack. The airport is a short tram ride away. None of this is manufactured for rankings — it's the texture of the city.",
+      },
+      {
+        heading: "Cost of living: no longer cheap",
+        body: "A decade of strong demand has made Nantes expensive by Breton and Pays-de-la-Loire standards. Apartment prices in the city centre and Île de Nantes range from €3,200 to €4,500/m². A studio close to the centre costs €700–900/month in rent; a 70m² two-bedroom runs €1,100–1,400/month. Groceries and restaurant prices are roughly at Bordeaux levels — below Paris, but significantly above Rennes, Brest or Angers. The salary premium over smaller French cities has eroded as housing costs caught up. Budget accordingly.",
+      },
+      {
+        heading: "The weather: clear-eyed",
+        body: "Nantes has an oceanic climate. In practice: a lot of cloud cover. Annual sunshine averages 1,750–1,800 hours, which is about 20–25% less than Bordeaux and roughly 30–35% less than Nice or Montpellier. Winters are mild (rarely below 0°C) but grey; springs are often rainy. June through August can be genuinely pleasant — warm rather than hot, with evenings that don't require a jacket. If you're coming from a northern European climate, Nantes will feel like an improvement. If you're comparing it to anywhere in the south of France, the weather is a meaningful downgrade.",
+      },
+      {
+        heading: "Cycling and transport",
+        body: "Nantes has one of the most extensive cycling networks in France for a city its size — over 700 km of bike lanes and paths, with coherent east-west and north-south axes that make car-free commuting feasible for most of the inner city. The tram network is old (first line opened 1985) and reliable. The Chronobus rapid bus network covers the suburbs. Paris is 2h10 by TGV from the central station. Rennes is 1h15. The airport offers direct connections to 60+ destinations across Europe, with a strong London Heathrow and London City service.",
+      },
+      {
+        heading: "The economic base and jobs",
+        body: "Nantes has diversified beyond its historic industrial roots into digital, healthcare/pharma, and financial services. The Atlanpole technology park and the broader digital ecosystem have made it a credible alternative to Lyon for tech careers. Major employers include Airbus (not aerospace — aircraft interiors and logistics software), the CHU Nantes (one of France's major teaching hospitals, a significant employer and innovation cluster), and a growing cluster of fintech and e-commerce companies. The job market is healthier than the national average, and the presence of major universities (Université de Nantes, École Centrale Nantes, Audencia business school) creates a pipeline of talent and a culture of innovation.",
+      },
+    ],
+    relatedCities: ["nantes", "rennes", "la-rochelle", "angers", "saint-nazaire"],
+    tags: ["nantes", "living in nantes", "pays de la loire", "quality of life", "expat"],
+  },
+  {
+    slug: "montpellier-living-guide-2026",
+    title: "Living in Montpellier: sun, students and a stretched housing market",
+    metaTitle: "Living in Montpellier 2026 — Honest Expat & Relocation Guide",
+    metaDesc:
+      "Montpellier is France's fastest-growing major city. The sun is real. So is the competition for housing, the heat in summer, and the uneven quality of the suburbs.",
+    category: "lifestyle",
+    emoji: "🌞",
+    readMinutes: 7,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Montpellier has grown by 30% over the past 20 years and is now France's 7th largest city. That growth tells you something important: people actively choose to come here, and not just the retired or the remote worker — the city has a genuine economic base, a major university cluster, and a quality of life that consistently ranks it in the national top 10. What it doesn't have is the architectural gravitas of Lyon or Bordeaux, nor the supply of housing that its own growth creates demand for.",
+    sections: [
+      {
+        heading: "The university town that grew up",
+        body: "One in five residents of Montpellier is a student. The Université de Montpellier (founded 1289 — one of Europe's oldest) and its satellite institutions have shaped the city's character: young, internationally minded, academically credentialed. This creates an unusual urban culture for a city of 300,000 — the restaurant, bar, and cultural scene punches above the city's size. The medical faculty and the CHU Montpellier are significant employers and research centres. The engineering and biotech ecosystem (including the Biopôle Euromédecine cluster) is less visible but increasingly important.",
+      },
+      {
+        heading: "The sun: as advertised, and warming further",
+        body: "2,700 hours of sunshine per year. This is not a marketing claim — it's in the meteorological data. Montpellier is genuinely one of the sunniest cities in France. The coast is 10 km from the centre (the beaches at Palavas-les-Flots are functional if not beautiful; the Camargue and Cap d'Agde are an easy drive). The trade-off is summer heat: temperatures above 35°C are now routine in July and August, and the 2022–2024 heatwave cycles were severe enough to cause significant discomfort in older, uninsulated housing. Air conditioning in any property you rent or buy is worth checking carefully.",
+      },
+      {
+        heading: "Housing: tight and getting tighter",
+        body: "Montpellier's growth rate consistently outpaces its construction rate. The result is a rental market where vacancy rates are very low and landlords can be selective. A studio in the historic centre (Écusson) or close to the tramway lines costs €650–850/month. A 70m² apartment in a well-connected neighbourhood runs €1,000–1,300/month. Property prices range from €3,000 to €4,200/m² depending on the area, with newer developments in the Port Marianne and Odysseum districts at the upper end. One practical note: apply quickly if you find something suitable. Competition from students who view early means good properties go within days.",
+      },
+      {
+        heading: "Transport: the tram network is the city",
+        body: "Montpellier has 6 tramway lines serving the metropolitan area, with a distinctive design programme (each line has a different artist's livery). The tram network is genuinely the backbone of daily mobility for residents who choose to be car-free, and most of the city's important destinations — beaches, hospitals, university campuses, the main commercial areas — are within a short walk of a tram stop. For national connections: TGV to Paris runs in 3h20, to Barcelona in 3h. The airport has a reasonable European network but is much smaller than Lyon or Nice.",
+      },
+      {
+        heading: "Neighbourhood choices and social mix",
+        body: "The Écusson (historic centre) is dense, characterful and expensive — a mix of medieval lanes, student bars and high-end restaurants. Beaux-Arts and Boutonnet are established residential neighbourhoods with good amenities and a more stable social mix. Port Marianne is the modern, planned expansion district east of the centre — cleaner, more expensive, popular with professionals and young families. The northern and western suburbs have higher deprivation indicators and quality-of-life scores significantly below the city average; for anyone relocating, neighbourhood selection matters more in Montpellier than in most comparably-sized French cities.",
+      },
+    ],
+    relatedCities: ["montpellier", "nimes", "beziers", "sete", "perpignan"],
+    tags: ["montpellier", "living in montpellier", "languedoc", "occitanie", "expat"],
+  },
+  {
+    slug: "nice-living-guide-2026",
+    title: "Living in Nice: the Côte d'Azur without the illusions",
+    metaTitle: "Living in Nice 2026 — Honest Guide for Expats and Remote Workers",
+    metaDesc:
+      "Nice is beautiful, genuinely sunny, and expensive in ways that catch newcomers off guard. A realistic picture of what living here looks like, week to week.",
+    category: "lifestyle",
+    emoji: "🌊",
+    readMinutes: 7,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Nice makes a strong first impression. The promenade, the light, the Old Town, the sea visible from most hilltop vantage points — it looks like a version of the good life. What living here actually requires is a realistic accounting of what you're trading: property prices and rents among the highest in France, a city divided between a wealthy coastal strip and far more modest northern neighbourhoods, limited career options outside tourism and finance, and an infrastructure (road, rail, local government) that doesn't always match the brochure quality.",
+    sections: [
+      {
+        heading: "The climate: the main argument",
+        body: "Nice averages 2,700 hours of sunshine per year — consistently in France's top three. The winters are genuinely mild: January averages hover around 8–10°C, cold days below 5°C are uncommon, and snow on the Promenade des Anglais is an event that happens once every several years. The sea remains swimmable well into October. For anyone coming from Britain, northern France, or Germany, the difference is visceral — especially in February and March, when the rest of Europe is still grey and Nice is already light.",
+      },
+      {
+        heading: "Property and rents: a reality check",
+        body: "Nice ranks in France's top 3 for both sale prices and rents. In 2025, average sale prices in Nice ran €4,500–6,500/m² for apartments in the coastal and central arrondissements, with premium addresses on the Promenade and in the Colline du Château area significantly above this range. A studio of 25–30m² rents for €850–1,100/month in the centre. A 70m² two-bedroom apartment in a decent neighbourhood costs €1,400–1,900/month. The rental market is competitive — the Nice Côte d'Azur agglomeration has a structural undersupply of housing relative to demand, amplified by the concentration of short-term tourist rentals that shrink the residential stock.",
+      },
+      {
+        heading: "Jobs: tourism, finance, and not much else",
+        body: "Nice's economy runs primarily on tourism, hospitality, real estate, and — for a more upmarket segment — private wealth management, Monaco-adjacent financial services, and the luxury sector. The technology and industrial base is thin relative to cities like Lyon, Toulouse or Nantes. Sophia Antipolis, the technology park 20 km west of Nice near Valbonne, is the main exception: it hosts major tech companies and R&D centres including IBM, SAP, Texas Instruments, and several hundred smaller firms. Commuting from Nice to Sophia Antipolis is realistic if you have a car. If your career depends on the Sophia ecosystem, the accommodation options around Valbonne and Biot may actually be better placed.",
+      },
+      {
+        heading: "Transport: the city and beyond",
+        body: "Within Nice, the tram network covers the main east-west axis (Promenade to the station) and a newer north-south line. For most of the city, a car remains useful. The A8 motorway and the road network are congested at peak hours. The Nice-Côte d'Azur airport is one of France's largest, with direct flights to over 100 destinations including good connections to the UK, Germany, and Scandinavia. The TGV to Paris takes approximately 5h30, which limits day-trip practicality. Monaco is 20 minutes by train from Nice Ville station.",
+      },
+      {
+        heading: "The two Nices",
+        body: "Nice has a geographic and social split that matters for anyone choosing where to live. The coastal strip, the Old Town (Vieux-Nice), the Promenade des Anglais and the bourgeois western arrondissements are well-maintained, expensive, heavily touristed in summer, and feel like a different city from the northern arrondissements (Ariane, Pasteur, Les Moulins) which have higher unemployment and social tension indicators. The middle ground — Libération, Saint-Roch, the area around the MAMAC museum — offers a more normal Niçois residential experience at prices that are still high but somewhat more accessible. Most newcomers end up in this middle belt.",
+      },
+    ],
+    relatedCities: ["nice", "antibes", "cannes", "menton", "monaco"],
+    tags: ["nice", "living in nice", "cote d'azur", "french riviera", "expat"],
+  },
+  {
+    slug: "alsace-strasbourg-living-guide-2026",
+    title: "Living in Alsace and Strasbourg: Europe's most underrated region",
+    metaTitle: "Living in Alsace & Strasbourg 2026 — Honest Expat Guide",
+    metaDesc:
+      "Strasbourg is bilingual, walkable, European and often overlooked. Alsace is a region where France and Germany have been arguing and collaborating for centuries — and the result is genuinely distinctive.",
+    category: "lifestyle",
+    emoji: "🇪🇺",
+    readMinutes: 7,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Alsace sits at the intersection of French and German culture, and the result is neither a compromise nor a blend — it's a distinct regional identity that has produced exceptional architecture, food, wine, and civic infrastructure. Strasbourg, the regional capital, hosts the European Parliament and the European Court of Human Rights, which means a significant permanent international population, an above-average level of multilingualism, and an urban quality that has been deliberately maintained. For expats from northern Europe especially, Alsace is the most accessible and culturally compatible part of France.",
+    sections: [
+      {
+        heading: "Strasbourg as a European city",
+        body: "Strasbourg is genuinely different from other French cities in one key respect: it has been an international administrative capital for 70 years. The European institutions bring thousands of EU officials, journalists, lobbyists, and international NGO workers to the city on a permanent or rotating basis. The practical effects for ordinary residents: English is spoken naturally in more contexts than in most French cities, there's a critical mass of international social infrastructure (English-language reading groups, international parent networks at schools, multilingual services), and the city's administrators have been forced to maintain public spaces and transport to a European-facing standard.",
+      },
+      {
+        heading: "The cycling infrastructure",
+        body: "Strasbourg has the most developed cycling network in France, full stop. Over 600 km of cycle paths, a culture where cycling is genuinely normalized across age groups, and a geography (flat, compact, river and canal features creating pleasant routes) that makes it work. The comparison point for anyone from the Netherlands or Denmark is: it's not quite Amsterdam, but it's in the same conversation in a way that no other French city is. For anyone who cycles to work, Strasbourg removes friction that feels normal in other cities.",
+      },
+      {
+        heading: "Property and cost of living",
+        body: "Strasbourg is meaningfully cheaper than the other major French cities it competes with culturally — Lyon, Bordeaux, Nantes. Average apartment prices in the city centre ran €2,800–3,600/m² in 2025. A studio in the Krutenau (the lively neighbourhood near the university) costs €600–800/month. A 70m² apartment in a desirable central neighbourhood runs €900–1,200/month. The Alsatian wine region directly north and south of Strasbourg offers cheaper property with excellent quality of life if you're prepared to commute by bike or tram into the city.",
+      },
+      {
+        heading: "Cross-border life",
+        body: "The German city of Kehl is 15 minutes from Strasbourg city centre by tram — the first tram to cross an international border in Europe. Freiburg im Breisgau, one of Germany's most pleasant cities, is 50 minutes away. The Swiss city of Basel, with its distinctive international character and very high wages, is 90 minutes by train. For expats with EU work flexibility, the Alsace cross-border region creates genuine optionality: live in Strasbourg, work in Basel or Freiburg, shop in Germany where prices are lower. Many residents do exactly this.",
+      },
+      {
+        heading: "Climate and the Vosges",
+        body: "Strasbourg's climate is continental — more pronounced seasons than Atlantic France, proper winters (snow is a regular occurrence) and warm summers that have become hotter. The Vosges mountains to the west create a protective barrier that gives Alsace higher sunshine hours than you'd expect for a region at this latitude — Strasbourg averages around 1,700 hours per year, comparable to some coastal Atlantic cities. The Vosges themselves, accessible in 45 minutes by car, offer hiking, ski resorts (modest but functional), and a slower pace that many Strasbourg residents actively use.",
+      },
+    ],
+    relatedCities: ["strasbourg", "colmar", "mulhouse", "haguenau", "obernai"],
+    tags: ["alsace", "strasbourg", "european institutions", "franco-german", "expat"],
+  },
+  {
+    slug: "leaving-london-moving-to-france-2026",
+    title: "Leaving London for France: the decisions that actually matter",
+    metaTitle: "Leaving London for France 2026 — Practical Relocation Guide",
+    metaDesc:
+      "Post-Brexit practical guide for British nationals moving from London to France — visas, healthcare, pensions, tax, and which French cities make the most sense.",
+    category: "moving",
+    emoji: "🚂",
+    readMinutes: 9,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Moving from London to France is one of the most common major relocation decisions made by British nationals. It's also one of the most poorly understood, post-Brexit. The visa rules changed, the healthcare access changed, the pension picture changed, and the tax implications changed — often in ways that travel poorly in the popular accounts. This guide focuses on the practical decisions, not the lifestyle fantasy.",
+    sections: [
+      {
+        heading: "The visa situation since Brexit",
+        body: "British nationals are now third-country nationals in France — the same as Americans, Australians, or Canadians. This means: you cannot simply arrive and start living and working in France indefinitely. For stays beyond 90 days in any 180-day period, you need a long-stay visa (VLS-TS). The most commonly used visa categories for British nationals moving to France are: the Salarié visa (if you have a French employer), the Visiteur visa (if you have sufficient income from non-French sources and don't need to work in France), and the Passeport Talent category (for specific high-skill or business scenarios). The application must be made at the French consulate in the UK before departure — not after arrival. This is a firm rule that is actually enforced.",
+      },
+      {
+        heading: "Healthcare: accessing the French system",
+        body: "EU citizens have immediate access to the French healthcare system through the EHIC/S1 mechanism or through employment-based affiliation. British nationals since Brexit access healthcare through the PUMA system (Protection Universelle Maladie) — but access is conditional on legal residence for a minimum of 3 months and proof of regular and stable residence in France. Until your CPAM affiliation is established (which can take 3–6 months after arrival), you need comprehensive private health insurance — this is also a requirement for the Visiteur visa application. The NHS pension-style contributions you've made in the UK do not transfer your UK entitlements to France — the two systems are separate.",
+      },
+      {
+        heading: "UK pension and the state pension",
+        body: "You can continue to receive your UK State Pension in France — it's payable abroad and is not reduced by living in France. What does change: the triple lock annual increase does not apply if you live in a country without a Social Security Reciprocal Agreement that includes the uprating provision, and France does not have such an agreement. Your UK pension is frozen at the rate when you left. This is a material difference for long-term retirement planning. Private and workplace pensions are typically payable abroad without restriction, subject to the tax treaty between the UK and France.",
+      },
+      {
+        heading: "Tax: the double taxation treaty and what it covers",
+        body: "The UK-France Double Taxation Convention prevents you from being taxed on the same income in both countries simultaneously. In practice: if you become a French tax resident (which happens after 183 days in France per year, or if France becomes your main economic centre), your worldwide income is reportable in France. UK pensions are taxable in France, not the UK. UK rental income is taxable in France (though you get a credit for any UK tax paid). Employment income from UK employers is taxable where the work is physically performed. The treaty is complex enough that spending €200–300 on an adviser who knows both systems is genuinely cost-effective before you make irreversible decisions.",
+      },
+      {
+        heading: "Which French cities make sense for Londoners",
+        body: "The cities that come up most consistently in conversations with British expats who have made the move successfully: Bordeaux (2h by Eurostar + TGV via Paris, strong British community, wine country, urban quality, now with hot summers), Lyon (central location, excellent food scene, more career options than most, 2h from Paris by TGV, no Eurostar connection but good flight links), Rennes or Nantes (genuine quality of life, cheaper than the south, reasonable Atlantic climate, Eurostar via Paris in 3h30–4h), and — for retirees especially — rural Dordogne and the Lot (well-established British community, genuinely affordable property, slow pace, but car-dependent). The Côte d'Azur is obvious from a weather perspective but the costs and the culture can feel isolating for anyone who hasn't built a community before arriving.",
+      },
+    ],
+    relatedCities: ["bordeaux", "lyon", "rennes", "nantes", "perigueux"],
+    tags: ["leaving london", "uk to france", "brexit", "visa", "british expat"],
+  },
+  {
+    slug: "moving-from-usa-to-france-2026",
+    title: "Moving from the US to France: the decisions that surprise Americans",
+    metaTitle: "Moving from USA to France 2026 — Practical Guide for Americans",
+    metaDesc:
+      "Healthcare, FATCA tax obligations, visas, and the cultural shifts that catch Americans off guard. A realistic guide for US nationals planning to move to France.",
+    category: "moving",
+    emoji: "🗽",
+    readMinutes: 8,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "More Americans move to France than any other English-speaking country, drawn by the food, the quality of life, the slower pace, and an aesthetic that resonates in ways that are genuinely hard to articulate. The practical reality of making the move involves several decision points that are specific to American citizens and that are frequently underestimated — particularly around tax, banking, and healthcare. This guide addresses those specifics.",
+    sections: [
+      {
+        heading: "The visa process",
+        body: "American citizens need a long-stay visa (VLS-TS) for stays beyond 90 days. The most relevant categories: the Visiteur visa (sufficient passive or non-French income, no right to work in France), the Salarié visa (French employer required), the Passeport Talent (high-skill/business category), and the recently introduced Freelance Talent Passport. Applications are submitted at the French consulate covering your US state of residence — in practice, this means Chicago, Houston, Los Angeles, Miami, New York, or San Francisco depending on where you live. Processing times vary by consulate and category: typically 3–8 weeks. The Visiteur visa requires proof of financial self-sufficiency (roughly €1,200–1,500/month in accessible funds) and comprehensive health insurance — as with all non-EU nationals.",
+      },
+      {
+        heading: "FATCA and American expat tax: the thing nobody tells you",
+        body: "The US is one of two countries in the world (the other is Eritrea) that taxes its citizens on worldwide income regardless of where they live. This means: as an American national in France, you file US tax returns every year for the rest of your citizenship, even after years of French residence. The Foreign Earned Income Exclusion (FEIE) lets you exclude up to approximately $126,500 per year (2025, indexed to inflation) of foreign earned income, and the Foreign Tax Credit reduces US tax by the French taxes you've paid. For most Americans, this means the actual additional US tax burden is small — but the compliance burden (the forms, the FBAR reporting for foreign accounts over $10,000, the FATCA reporting, the complexity of understanding which deductions apply) is significant and you will need a US expat tax specialist. Budget $500–1,500/year for professional preparation.",
+      },
+      {
+        heading: "Banking: why it's complicated",
+        body: "FATCA requires French (and all foreign) banks to report accounts held by US persons to the IRS. Many French banks have responded by refusing to open accounts for US citizens or closing existing ones. This is a genuine barrier that catches many Americans off guard when they arrive. Solutions: Wise (formerly TransferWise) has a US-friendly account with a French IBAN that works for most day-to-day French transactions. Some credit unions and smaller regional French banks are more willing to take US-person accounts. HSBC France has historically been more accepting. The Banque Postale has no legal obligation to refuse, though policies vary by branch. Having a solution in place before arrival is strongly advised.",
+      },
+      {
+        heading: "Healthcare: adjusting expectations",
+        body: "The French healthcare system surprises most Americans who have dealt with the US system. After PUMA affiliation (typically 3–6 months after legal residence is established), you access universal healthcare at heavily subsidised rates — a GP consultation costs €30, of which roughly €24 is reimbursed by the Assurance Maladie. Prescription drugs range from fully reimbursed to partially covered. Waiting times for specialists vary by city and specialty but are typically shorter than comparable US waits for the uninsured, and comparable to or shorter than US waits even for the insured. The system is not perfect — there are deserts médicaux (medical deserts, particularly in rural areas), and access to English-speaking doctors is limited outside major cities — but the quality floor is significantly higher than the US system for equivalent cost.",
+      },
+      {
+        heading: "The French cities that work best for Americans",
+        body: "The cities with the most established American expat communities, and the infrastructure to support them, are: Paris (obvious — the largest expat community, the most English-language services, but extremely expensive and requires specific adjustment to density), Lyon (smaller, less expensive, genuinely urban, strong food culture, medical excellence), Bordeaux (wine, walkability, Atlantic climate, a historic British and American presence), Aix-en-Provence (upmarket, sunny, university town, but expensive and not particularly career-oriented), and Montpellier (younger demographic, growing medical/tech sector, Mediterranean climate, more affordable). The rural Dordogne and Provence are viable for retirees with independent income and a genuine desire for a rural pace.",
+      },
+    ],
+    relatedCities: ["paris", "lyon", "bordeaux", "montpellier", "aix-en-provence"],
+    tags: ["american expat", "usa to france", "fatca", "visa", "us citizens abroad"],
+  },
+  {
+    slug: "paris-suburbs-affordable-living-2026",
+    title: "The Paris suburbs that are worth it: what nobody moving to 'near Paris' checks",
+    metaTitle: "Paris Suburbs Guide 2026 — Best Affordable Areas Near Paris",
+    metaDesc:
+      "The Paris metropolitan area has 12 million people. Not all of them live in expensive arrondissements. A practical guide to the suburban belt that gets the results without the price.",
+    category: "budget",
+    emoji: "🚇",
+    readMinutes: 7,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "The conversation about 'Paris vs the rest of France' often misses a third option: greater Paris. The metropolitan area extends well beyond the périphérique, and some of the towns within that ring offer urban quality, fast rail connections, and property prices that are 40–50% below central Paris. The catch is that not all of them are equal, and the difference between a good suburban choice and a bad one is not obvious from the outside.",
+    sections: [
+      {
+        heading: "The logic of the commuter towns",
+        body: "The RER network (Réseau Express Régional) connects Paris's main stations to towns up to 50 km from the centre in 20–45 minutes. The towns served by RER A (east-west axis) and RER B (north-south) have the most established commuter culture and the most integrated identity with Paris. Key towns: Versailles (expensive but consistently ranked France's most liveable suburb), Saint-Germain-en-Laye (historic, affluent, on RER A, 30 min to Chatelet), Vincennes (just east of the périphérique, compact, Paris prices minus the Paris scarcity premium), and the Hauts-de-Seine towns west of Paris — Boulogne-Billancourt, Issy-les-Moulineaux — which function as extensions of Paris's business districts at slightly lower rents.",
+      },
+      {
+        heading: "The towns that offer real value",
+        body: "The best value in the greater Paris commuter belt — real quality of life at prices significantly below Paris — cluster in a few specific zones: the Marne-la-Vallée axis on RER A (towns like Noisy-le-Grand and Lagny-sur-Marne offer 2-bedroom apartments for €1,100–1,400/month in decent condition, versus €1,800–2,200 for equivalent space in the 11th arrondissement), the Essonne towns south of Orly (Évry-Courcouronnes, Corbeil-Essonnes) which are cheaper still but require accepting a different urban fabric, and the towns around Pontoise and Cergy-Pontoise on the Saint-Lazare line, which have their own urban identity distinct from Paris-bedroom-suburb.",
+      },
+      {
+        heading: "The TGV towns: an entirely different calculation",
+        body: "A separate category from the commuter suburbs are the TGV towns — cities like Rouen (1h10 to Paris Saint-Lazare), Reims (45 min from Paris Est on TGV), Chartres (1h05 from Montparnasse), Orléans (1h from Austerlitz) and Lille (1h from Paris Nord). These cities have their own genuine urban identity, their own economies, their own culture — they're not Paris suburbs. But for remote workers who go into Paris 1–2 times per week, or professionals with Paris-based roles who want to live in a real city, they represent a different calculation: 30–50% of Paris housing costs, a complete urban infrastructure, and a fast enough connection that Paris is genuinely accessible. Reims in particular has seen significant inflows from Paris-based remote workers for exactly this reason.",
+      },
+      {
+        heading: "What to actually check before choosing",
+        body: "The most common mistake: choosing a commuter town based on price and rail connection, without checking the local urban quality. Some towns with excellent rail connections have high-rise housing estates that were built in the 1970s and have deprivation indicators that the price level doesn't suggest. Before committing: check the crime statistics for the specific commune (the Ministère de l'Intérieur publishes commune-level data), look at the school performance data (published by the Ministère de l'Éducation), walk the town on a weekday morning and a Friday evening, and understand which quartier within the town you're targeting. Within a single town, quality can vary enormously by neighbourhood.",
+      },
+      {
+        heading: "The practical cost comparison",
+        body: "A 70m² two-bedroom apartment in the 11th arrondissement of Paris: €1,800–2,300/month in rent. The same specification in Vincennes (RER A, 20 min): €1,500–1,800/month. In Noisy-le-Grand (RER A, 30 min): €1,100–1,400/month. In Reims (TGV, 45 min): €750–1,000/month. In Chartres (TGV, 65 min): €600–850/month. The rail pass from Chartres to Paris runs approximately €2,400/year. Even accounting for the commute cost, the Chartres option saves a typical family €7,000–12,000 per year in housing costs compared to central Paris. The question is whether the commute time and the change of urban context work for your life.",
+      },
+    ],
+    relatedCities: ["versailles", "reims", "rouen", "chartres", "orleans"],
+    tags: ["paris suburbs", "commuter towns", "greater paris", "affordable france", "ile de france"],
+  },
 ];
 
 export function getEnGuide(slug: string): EnGuide | undefined {
