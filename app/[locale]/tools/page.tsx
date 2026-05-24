@@ -36,6 +36,34 @@ type Tool = {
 
 const TOOLS: Tool[] = [
   {
+    href: "/city-match",
+    emoji: "🌸",
+    title: "City Match",
+    desc: `8 questions, 90 seconds. Top 3 cities updated live as you answer + a surprise match, and a shareable link. No email required.`,
+    cta: "Start City Match",
+  },
+  {
+    href: "/copilot",
+    emoji: "🤖",
+    title: "AI Relocation Copilot",
+    desc: "Ask in plain English: budget, profile, priorities. The AI knows all ${CITIES_COUNT} French cities — rents, quality-of-life scores, taxes — and answers in seconds.",
+    cta: "Talk to the copilot",
+  },
+  {
+    href: "/future-you",
+    emoji: "✨",
+    title: "Future You — life in numbers",
+    desc: "Salary, household, lifestyle, priorities: monthly leftover, free hours per week, stress level, and climate match in your top 3 cities.",
+    cta: "Simulate my life",
+  },
+  {
+    href: "/people-like-you",
+    emoji: "👥",
+    title: "People like you",
+    desc: "11 persona profiles × 50 major cities: where people like you (family, freelance, retiree…) would gain by moving from your current city.",
+    cta: "See destinations",
+  },
+  {
     href: "/quiz/compatibility",
     emoji: "✨",
     title: "Compatibility quiz",
