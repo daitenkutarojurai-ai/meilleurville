@@ -31,6 +31,7 @@ import { DemographyCard } from "@/components/DemographyCard";
 import { PublicServicesCard } from "@/components/PublicServicesCard";
 import { QolHeroBadge } from "@/components/QolHeroBadge";
 import { CityFingerprint } from "@/components/CityFingerprint";
+import { VibeWidget } from "@/components/VibeWidget";
 import { getNeighborhoods } from "@/data/neighborhoods";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { getHousing } from "@/data/housing";
@@ -455,6 +456,7 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
 
             {/* Sidebar */}
             <div className="space-y-4">
+              <VibeWidget city={city} />
               <UserScoresCard
                 key={reviewBumpKey}
                 citySlug={city.slug}

@@ -48,6 +48,13 @@ const TOOLS: Tool[] = [
     cta: "Voir les destinations",
   },
   {
+    href: "/vibe",
+    emoji: "✨",
+    title: "Ambiance par ville",
+    desc: "Estimations éditoriales : quelle énergie se dégage de chaque ville ? Calme, animé, festif, ressourcant. Dérivé des scores officiels, pas de données en temps réel.",
+    cta: "Explorer les vibes",
+  },
+  {
     href: "/climat-2040-timelapse",
     emoji: "🌡️",
     title: "Climat 2040 — timelapse",
