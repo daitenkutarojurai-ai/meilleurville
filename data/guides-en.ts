@@ -2092,6 +2092,196 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["rouen", "caen", "le-havre", "cherbourg", "bayeux"],
     tags: ["normandy", "living in normandy", "normandie", "caen", "rouen"],
   },
+  {
+    slug: "leaving-lyon-where-to-go-2026",
+    title: "Leaving Lyon: where people actually go, and why",
+    metaTitle: "Leaving Lyon 2026 — Where to Move Next | Honest Guide",
+    metaDesc:
+      "Lyon is France's most liveable major city on most metrics — which means leaving it is a real decision. A clear-eyed look at the most rational destinations.",
+    category: "moving",
+    emoji: "🦁",
+    readMinutes: 7,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "People leave Lyon for specific reasons: housing costs that have risen significantly over the past decade, a desire for coastline (Lyon is landlocked), a need for more nature density, or simply a lifestyle change that the city doesn't accommodate. The decision is not obvious because Lyon is genuinely good at many things — and leaving means accepting a real trade-off, not an obvious upgrade.",
+    sections: [
+      {
+        heading: "Why people leave Lyon",
+        body: "Lyon's departures cluster around a few consistent themes. First: the housing market. Lyon is the second most expensive French city for property outside Paris, and rents have risen sharply. Someone who moved to Lyon in 2016 and is now looking at renewing a lease at current market prices can face a 30–40% increase. Second: the landlocked geography. Lyon is three hours from the nearest Mediterranean beach by car, two hours from the Alps. For anyone who discovers that coastal or mountain access is a genuine lifestyle priority — not just occasional — Lyon makes the calculation harder. Third: specific life stage changes. Families looking for more space, retirees seeking warmer winters, remote workers who realise they can live anywhere.",
+      },
+      {
+        heading: "Grenoble: the most logical technical move",
+        body: "For engineers, researchers, and anyone in the technology or scientific sector who leaves Lyon, Grenoble is the most rational destination. 100 km south-east, 1h15 by train, and offering: direct ski resort access (35 min by car), significantly lower housing costs (roughly 25–35% below Lyon for equivalent space), a world-class research environment, and a tech job market that is second only to Lyon in the region. The trade-off is Grenoble's reputation for winter greyness (temperature inversions) and its smaller cultural and social scene. For the right person, it's a clear win.",
+      },
+      {
+        heading: "Bordeaux: the lifestyle upgrade case",
+        body: "Bordeaux has become one of the most common Lyon-departure destinations for a specific profile: professionals who can work remotely or accept a 2h TGV Paris connection, who want a more aesthetically consistent city (Bordeaux's Haussmann-era uniformity is genuinely beautiful in a way Lyon isn't), who want warmer winters, and who want to live within range of wine country. The calculation has complications: Bordeaux's property prices have risen sharply since the TGV arrived, and the summer heat has intensified. But for the 'I want a different quality of urban life' motivation, Bordeaux is a credible answer.",
+      },
+      {
+        heading: "Annecy and the alpine destinations",
+        body: "For the 'I want mountains and a lake' motivation, the answer is almost always Annecy, Chambéry, or one of the smaller Haute-Savoie towns. These are all within 90–120 minutes of Lyon by car or train. The trade-off is clear: smaller cities with limited career options, expensive property in Annecy specifically, and a life that revolves more around outdoor access than urban amenities. For remote workers with stable income, the calculation often works. For those who need a local professional ecosystem, less so.",
+      },
+      {
+        heading: "The Rhône Valley corridor",
+        body: "A less glamorous but very practical option: the towns of the Rhône Valley — Vienne (30 km south), Valence (100 km south), Romans-sur-Isère — offer Lyon adjacency (easy rail connection back for meetings or culture) at meaningfully lower housing costs. Vienne in particular has undergone significant renovation of its historic centre and is increasingly interesting as a 'Lyon plus' option. Valence is larger, more autonomous, and has the Ardèche and Drôme tourist hinterland that many residents use. These are not glamorous destinations, but they make the Lyon-without-Lyon-prices calculation feasible.",
+      },
+    ],
+    relatedCities: ["lyon", "grenoble", "bordeaux", "annecy", "valence"],
+    tags: ["leaving lyon", "moving from lyon", "lyon alternatives", "rhone alpes"],
+  },
+  {
+    slug: "loire-valley-living-guide-2026",
+    title: "Living in the Loire Valley: France's garden, its châteaux, and its housing market",
+    metaTitle: "Living in Loire Valley 2026 — Honest Guide for Expats & Movers",
+    metaDesc:
+      "Tours, Orléans, Blois and the villages between. The Loire Valley is genuinely beautiful, genuinely affordable, and genuinely underrated as a place to actually live.",
+    category: "lifestyle",
+    emoji: "🏰",
+    readMinutes: 7,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "The Loire Valley is better known as a tourist destination than as a place to live, which is precisely why it's worth considering seriously. The region's real estate market hasn't been inflated by relocation hype; its transport connections are excellent; its climate is mild and pleasant; and its quality of life — evaluated in terms of local amenities, cultural activity, natural beauty, and social pace — is significantly underpriced relative to the regions that generate more PR.",
+    sections: [
+      {
+        heading: "The two main cities: Tours and Orléans",
+        body: "Tours is the larger and more immediately appealing of the two main cities: a compact, walkable centre with a genuinely animated restaurant and market culture, a significant university population (over 30,000 students), and a quality of architecture that reflects its position as a centre of French Renaissance culture. Orléans is more industrial in character, slightly cheaper, and arguably more practical: it's one hour from Paris Austerlitz by TGV, which makes the Paris-adjacency calculation compelling for remote workers. Both cities offer apartment prices in the €1,800–2,600/m² range — significantly below Lyon or Bordeaux — with rents for a 70m² apartment typically in the €750–1,000/month range.",
+      },
+      {
+        heading: "The Paris connection",
+        body: "The Loire Valley's most underappreciated asset is its rail connection to Paris. Orléans is 1h from Paris Austerlitz; Tours is 1h05 from Montparnasse; Le Mans (at the northern edge of what residents consider the Loire zone) is 55 minutes from Montparnasse. For remote workers who need to be in Paris once or twice a week, the Loire Valley is within the zone where a Paris-based professional lifestyle is genuinely compatible with provincial living. Combined with property prices at 40–50% of Paris equivalents, this is one of the best-value positions in northern France.",
+      },
+      {
+        heading: "The rural and village dimension",
+        body: "Between Tours and Orléans lies the core of the Loire Valley wine country and château zone. Villages like Amboise, Blois, Chinon, and Saumur have their own urban identity and, for anyone prepared to embrace a smaller-scale life, offer property values that are remarkably low: a stone house in a Loire Valley village costs €150,000–300,000, which is less than a studio in central Paris. The trade-off is car dependency outside the main towns and a social world that is more locally oriented. Many British and Dutch residents in the Loire Valley have found a balance here: a rural house as home base, easy rail access to Paris or via Eurostar from Paris Nord, and a local life that revolves around the river and its landscape.",
+      },
+      {
+        heading: "The wine and food culture",
+        body: "The Loire is France's most diverse wine region: Muscadet in the west, Vouvray and Chinon near Tours, Sancerre and Pouilly-Fumé at the eastern end. Living here means proximity to wine producers in a way that the tourist experience doesn't capture: local cave cooperatives, open-house harvest weekends, and the ability to buy directly from domaines that sell tourist-guide-famous wines at prices that reflect their local economy rather than their international reputation. The food more broadly is high quality and affordable — this is a farming region, and the market culture in Tours and Blois in particular is genuine.",
+      },
+      {
+        heading: "The climate",
+        body: "The Loire Valley has what many consider France's most balanced climate: a transition zone between Atlantic and continental influences, with mild winters, warm summers that rarely reach the extremes of the south, and a spring and autumn that are genuinely pleasant. Rainfall is distributed fairly evenly across the year rather than concentrated in winter. For anyone coming from the UK or northern Europe, the difference from home is positive but not shocking — perhaps 20% more sunshine, meaningfully milder winters, warmer summers. Not the Mediterranean, but comfortable and reliable.",
+      },
+    ],
+    relatedCities: ["tours", "orleans", "blois", "amboise", "angers"],
+    tags: ["loire valley", "living in france", "tours", "orleans", "chateaux"],
+  },
+  {
+    slug: "dijon-living-guide-2026",
+    title: "Living in Dijon: France's most underrated gastronomic capital",
+    metaTitle: "Living in Dijon 2026 — Honest Guide for Expats & Movers",
+    metaDesc:
+      "Dijon is central, cheap, beautiful, and connected. It is also completely overlooked in most French city rankings. A clear-eyed case for considering it seriously.",
+    category: "lifestyle",
+    emoji: "🍷",
+    readMinutes: 6,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Dijon occupies a paradoxical position in France's city rankings: consistently rated high on quality of life indices, rarely mentioned in the relocation conversations that dominate the English-language discussion. The reasons it doesn't feature more are cultural — it doesn't have the coastline, the mountains, or the Mediterranean cachet — rather than practical. The practical case for Dijon is, in some respects, the strongest of any city of its size in France.",
+    sections: [
+      {
+        heading: "The geography and the Paris connection",
+        body: "Dijon is at the geographic centre of France, which translates into an extraordinary rail position: 1h35 from Paris Gare de Lyon by TGV (some services: 1h25), 1h40 from Lyon, 2h10 from Basel, 3h from Marseille. For anyone who needs to maintain Paris access while living outside it, Dijon's connection is among the best in France. The Eurostar network via Paris connects easily. For remote workers who travel professionally, Dijon's centrality makes it more practical than many superficially similar cities.",
+      },
+      {
+        heading: "Housing: the price that shouldn't be this low",
+        body: "Dijon's property prices genuinely surprise people who investigate them for the first time: average apartment prices in the city centre run €2,000–2,800/m². A 70m² apartment in a desirable central neighbourhood — near the covered market or in the historic quarter — costs €800–1,100/month in rent. These prices are lower than comparable space in Rennes, Nantes, or Bordeaux, for a city with better rail links, comparable urban quality, and an equivalent (or better) food scene. The reason is simply that Dijon hasn't been discovered by the relocation-guide circuit yet.",
+      },
+      {
+        heading: "The wine country access",
+        body: "The Côte d'Or — the strip of vineyards that produces Burgundy's greatest wines, from Gevrey-Chambertin to Meursault and Puligny-Montrachet — begins 10 km south of Dijon. This proximity is not a tourist-brochure talking point: it means access to direct domaine purchases, harvest participation if you have the social connections, and a daily visual landscape that is genuinely beautiful in the October harvest season and the winter dormancy. For anyone interested in wine at any level of seriousness, this geographic proximity is unusual.",
+      },
+      {
+        heading: "The food culture and the market",
+        body: "Dijon has one of France's best covered markets (Les Halles de Dijon, designed by Gustave Eiffel) and a restaurant scene that punches well above the city's size. The city's identity as a gastronomic centre is not PR fiction — the local production ecosystem of Burgundy wines, Époisses and Cîteaux cheeses, Dijon mustard (still made locally, though the major brands have outsourced most production), and escargots de Bourgogne supports a food culture that would be expensive and exotic elsewhere. The restaurants are better value here than in any comparable French city.",
+      },
+      {
+        heading: "The social and cultural life",
+        body: "Dijon has a significant student population (Université de Bourgogne is a major employer and cultural presence), a historic centre that is genuinely walkable and intact, and a cultural programme that reflects its ambitions as a regional capital without being overwhelming. The summer Les Estivales festival and the Fête de la Gastronomie in autumn are the main moments. The city is compact enough that most things are accessible without a car, and the cycling infrastructure has improved significantly over the past decade. The social density is lower than Lyon or Bordeaux, which can be an advantage for those who find large city social dynamics exhausting.",
+      },
+    ],
+    relatedCities: ["dijon", "beaune", "chalon-sur-saone", "macon", "besancon"],
+    tags: ["dijon", "living in dijon", "burgundy", "bourgogne", "wine country"],
+  },
+  {
+    slug: "opening-bank-account-france-expats-2026",
+    title: "Opening a bank account in France as a foreigner: what actually works",
+    metaTitle: "Opening a French Bank Account for Expats 2026 — Practical Guide",
+    metaDesc:
+      "French banks are notoriously difficult for non-residents and some EU citizens. A frank guide to which approaches actually work and what documents you'll need.",
+    category: "moving",
+    emoji: "🏦",
+    readMinutes: 6,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Opening a bank account in France is harder than it should be, particularly for recent arrivals, non-EU citizens, and anyone affected by FATCA (US citizens). French banks have significant documentation requirements, and some categories of person face outright refusals. This guide explains what actually works — in order of ease, not of theory.",
+    sections: [
+      {
+        heading: "Option 1: Wise or Revolut (the easiest starting point)",
+        body: "For anyone who has just arrived or is planning to arrive in France, opening a Wise account with a French IBAN (Euro account) before travelling is the pragmatic first step. Wise provides a genuine IBAN in the format that French landlords, utilities, and employers recognise; transfers to and from French banks work normally; the account can be opened from your home country in minutes with a passport and a selfie. This is not a permanent solution — it lacks cheque facility, and some landlords prefer a traditional bank — but it enables immediate participation in the French banking system while you establish the documentation for a real account.",
+      },
+      {
+        heading: "Option 2: La Banque Postale (the accessible French option)",
+        body: "La Banque Postale (the post office bank) is the most consistently accessible French bank for newcomers. It has a statutory obligation to provide basic banking services to anyone with legal French residence, making outright refusal legally problematic. The documentation requirements are standard: proof of identity, proof of address in France (a lease agreement or utility bill), and a long-stay visa or carte de séjour if you're a non-EU citizen. The account you get is functional for all standard French transactions. The online banking interface is less modern than commercial banks, but the service is dependable.",
+      },
+      {
+        heading: "Option 3: Boursorama or N26 (online banks)",
+        body: "Boursorama (part of the Société Générale group) is France's largest online bank and generally accessible to EU citizens with French residence. The account application is online, the documentation requirements are standard, and the product is modern. N26 (German, but operates in France) is similarly accessible and has a more international customer base. Both have lower income thresholds for approval than traditional high-street banks. For EU citizens who encounter difficulty at traditional branches, the online banks are the most friction-free path to a functional French account.",
+      },
+      {
+        heading: "The FATCA problem for US citizens",
+        body: "American citizens face a specific obstacle: FATCA requires French banks to report accounts held by US persons to the IRS, and many banks respond by refusing to open accounts for Americans or closing existing ones. The institutions most consistently willing to bank US citizens are: Wise (not a bank, but functional for most purposes), HSBC France (has US-citizen account infrastructure), Crédit Mutuel (policies vary by branch), and some savings banks (caisses d'épargne) where individual branch managers have more discretion. A letter from a French accountant or employer confirming your tax situation can help. The Banque de France operates a droit au compte (right to account) mechanism — if you've been refused by three banks, you can apply to the Banque de France to assign you an institution.",
+      },
+      {
+        heading: "Documents needed for most accounts",
+        body: "Standard documentation for opening a French account: valid passport or national ID card; proof of French address (lease agreement, utility bill in your name, or a letter from someone you're staying with plus their proof of address); long-stay visa or carte de séjour (for non-EU citizens); optionally, evidence of income source (employment contract, pension statement, bank statements showing regular income). Some banks request proof of tax residence or a tax number; others don't ask. Having all documents ready before your first appointment significantly reduces back-and-forth. For US citizens, additionally having a completed W-9 form ready can accelerate the FATCA compliance process.",
+      },
+    ],
+    relatedCities: ["paris", "lyon", "bordeaux", "marseille", "toulouse"],
+    tags: ["bank account france", "french banking", "expat finance", "FATCA", "Wise"],
+  },
+  {
+    slug: "french-driving-licence-guide-2026",
+    title: "Your driving licence in France: what's valid, what needs converting, and when",
+    metaTitle: "Driving Licence in France for Expats 2026 — Complete Guide",
+    metaDesc:
+      "EU licences are valid indefinitely. British licences are valid for 1 year. American licences need exchanging in most cases. The rules, timelines, and process.",
+    category: "moving",
+    emoji: "🚗",
+    readMinutes: 6,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Driving in France with a foreign licence is one of those administrative questions that generates enormous amounts of contradictory advice. The actual rules are reasonably clear, but the timeline for acting on them depends on your nationality, how long you plan to stay, and what type of licence you hold. This guide gives the current rules as of 2026.",
+    sections: [
+      {
+        heading: "EU and EEA licences: valid indefinitely",
+        body: "If you hold a driving licence issued by an EU or EEA member state, it is valid in France indefinitely as long as it remains valid in the issuing country. You do not need to exchange it for a French licence unless you want to. If your EU licence expires, you renew it with the issuing country if you're still resident there, or you can convert it to a French licence once you've established French residence. EU licences don't need to be converted even after years of French residence — the mutual recognition principle applies. One exception: if you acquire a medical restriction while resident in France, French medical authorities handle the update to your record even if the original licence is EU-issued.",
+      },
+      {
+        heading: "British licences post-Brexit: 1 year",
+        body: "Since Brexit, British driving licences are no longer covered by EU mutual recognition. British nationals who become resident in France may drive on their UK licence for one year from the date of taking up residency. After one year of residence, you must exchange your UK licence for a French one. The exchange process: submit an online application via the ANTS (Agence Nationale des Titres Sécurisés) portal, providing your UK licence, proof of French residence, proof of identity, and a passport photo. France and the UK have a bilateral exchange agreement, so you don't need to retake a theory or practical test — the exchange is administrative. UK licences can be exchanged up to 5 years after your French residency date; after that, you may need to take the full French test. Act early.",
+      },
+      {
+        heading: "American licences: state-by-state agreement",
+        body: "France has bilateral driving licence exchange agreements with some US states and not others. The states with exchange agreements (as of 2026) include: California, Colorado, Connecticut, Delaware, Florida, Georgia, Illinois, Kansas, Maryland, Massachusetts, Michigan, Missouri, North Carolina, Ohio, Pennsylvania, South Carolina, Texas, Virginia, and several others. If your licence was issued by one of these states, you can exchange it without retaking a test. If your state is not on the list, you must: drive on your US licence plus an International Driving Permit for one year from residency, then take the full French driving test (theory and practical). The IDP is obtained before departure from your home state's motor vehicle authority (AAA in the US issues them). Check the current list on the Service Public website before assuming your state qualifies — the agreement list changes periodically.",
+      },
+      {
+        heading: "The French driving test if you need it",
+        body: "The French driving licence (permis de conduire) has two parts: the Code (theory test, computer-based, 40 questions, need 35/40 to pass) and the practical driving test. The Code exam can be taken in English at many driving schools. Preparation takes most adults 20–40 hours of study. The practical test is conducted in French — you'll need a basic command of traffic-related French vocabulary ('accélérez', 'freinez', 'priorité à droite', etc.) or a bilingual examiner, which some areas offer. The average waiting time for a practical test slot has improved but can still be several months in urban areas.",
+      },
+      {
+        heading: "Motorcycles and special categories",
+        body: "If you hold a motorcycle licence, the same nationality rules apply: EU/EEA valid indefinitely, UK exchangeable for one year, US state-dependent. France requires an A1 licence for bikes 125cc and below, A2 for bikes up to 35kW for the first two years, and full A for unrestricted power. Progressive access rules apply: you cannot go directly from no licence to a full A without the 2-year A2 phase unless you're over 24. If you hold a US motorcycle endorsement on your car licence, check with the prefecture whether this can be exchanged — in some cases it can, in others a French motorcycle test is required regardless.",
+      },
+    ],
+    relatedCities: ["paris", "lyon", "bordeaux", "marseille", "toulouse"],
+    tags: ["driving licence france", "permis de conduire", "expat admin", "UK licence", "US licence"],
+  },
 ];
 
 export function getEnGuide(slug: string): EnGuide | undefined {
