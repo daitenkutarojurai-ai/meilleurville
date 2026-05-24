@@ -124,6 +124,7 @@ function staticSection(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/pour-qui/solo-femme`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/pour-qui/couple-sans-enfant`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/pour-qui/expat-retour`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE_URL}/pour-qui/primo-accedants`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/salaire-equivalent`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.75 },
     { url: `${BASE_URL}/macro-region`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/macro-region/cote-atlantique`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.65 },
