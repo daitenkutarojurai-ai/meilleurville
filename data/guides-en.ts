@@ -3868,9 +3868,9 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["dijon guide", "living in dijon", "burgundy expat", "dijon housing", "france city guide 2026"],
   },
   {
-    slug: "leaving-lyon-where-to-go-2026",
+    slug: "leaving-lyon-best-alternatives-2026",
     title: "Leaving Lyon: where to go when France's second city stops fitting your life",
-    metaTitle: "Leaving Lyon 2026 — where expats and Lyonnais move next",
+    metaTitle: "Leaving Lyon 2026 — best alternative cities for expats and Lyonnais",
     metaDesc: "Housing costs, commute fatigue, neighbourhood change: the honest guide to leaving Lyon and the 8 destinations worth considering in 2026.",
     category: "moving",
     emoji: "🚀",
