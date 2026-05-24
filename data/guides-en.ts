@@ -2282,6 +2282,158 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["paris", "lyon", "bordeaux", "marseille", "toulouse"],
     tags: ["driving licence france", "permis de conduire", "expat admin", "UK licence", "US licence"],
   },
+  {
+    slug: "reims-living-guide-2026",
+    title: "Living in Reims: champagne, cathedrals and 45 minutes from Paris",
+    metaTitle: "Living in Reims 2026 — Honest Guide for Expats & Movers",
+    metaDesc:
+      "Reims is the best-connected city under 200,000 in France outside the Paris region. Affordable, architecturally exceptional, 45 minutes from Paris by TGV.",
+    category: "lifestyle",
+    emoji: "🥂",
+    readMinutes: 6,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Reims occupies a unique position in French city geography: 45 minutes from Paris by TGV (some services run under 40 minutes), yet it has its own substantial city of 185,000 with a Gothic cathedral that is one of the most extraordinary in Europe, significant food and wine culture, and property prices that are 50–60% below equivalent Paris space. For remote workers who need Paris access without Paris prices, Reims is arguably the most rational option in France.",
+    sections: [
+      {
+        heading: "The Paris connection: the main argument",
+        body: "Paris Gare de l'Est to Reims by TGV takes 45 minutes. Several services run in 39–41 minutes. A monthly pass for unlimited TGV Paris-Reims travel costs approximately €2,400–2,600 per year. A 70m² apartment in central Reims rents for €800–1,000/month; the equivalent Paris space (12th arrondissement, comparable distance from business districts) is €1,800–2,200/month. The annual housing cost difference (roughly €9,600–15,000 saved in rent) pays for the travel pass several times over. For one or two Paris days per week, the math is straightforward. The question is whether 45 minutes of your morning is worth what you save — for most people who have actually made the comparison, it clearly is.",
+      },
+      {
+        heading: "Property prices: genuinely affordable",
+        body: "Reims has average apartment prices of €1,600–2,400/m² depending on the arrondissement and condition. The most desirable central areas (around the cathedral, the covered market, the Clémenceau neighbourhood) are at the upper end of that range; the outer districts and the Croix-Rouge area are lower. A 70m² two-bedroom apartment in a renovated building near the cathedral rents for €850–1,100/month. Property purchase prices for a 70m² apartment run €140,000–180,000. By Paris standards these are extraordinary values; even by regional standards (Reims is cheaper than Strasbourg, Rennes, or Lyon), the prices are notably accessible.",
+      },
+      {
+        heading: "The cathedral and the architecture",
+        body: "The Cathedral of Notre-Dame de Reims is one of the finest Gothic buildings in the world. This is not a tourist brochure claim — the building's scale, the quality of its 13th-century stonework, and the significance of its history (it was the site of French royal coronations for 800 years) make it genuinely comparable to the great cathedrals of Europe at a fraction of the tourist density of Paris or Chartres. Living in Reims means walking past this every time you cross the city centre. The historic core also includes the Palais du Tau, the Saint-Remi basilica, and the Roman antiquities that reflect the city's position as one of the major Roman settlements in Gaul. The urban fabric is reconstructed (the city was 80% destroyed in World War I), but the reconstruction is coherent and handsome.",
+      },
+      {
+        heading: "The Champagne economy",
+        body: "Reims is the commercial capital of the Champagne wine region. The headquarters of most of the major Champagne houses (Veuve Clicquot, G.H. Mumm, Pommery, Taittinger, Charles Heidsieck) are here, and the surrounding vineyards extend south towards Épernay. The economic base beyond wine includes aerospace (Reims has a light industrial history), healthcare (the CHU Reims is a significant employer), and a significant educational sector. The Neoma Business School campus in Reims is one of France's better business schools. For professionals in hospitality, wine trade, or healthcare, Reims has a genuine local economy; for everyone else, the Paris connection defines the employment picture.",
+      },
+      {
+        heading: "The social scene and daily life",
+        body: "Reims has a functioning, pleasant social life for a city its size. The covered market (Les Halles de Boulingrin — a listed Art Deco building) is excellent. The restaurant scene has improved significantly over the past decade and now includes a Michelin-starred restaurant. The cultural programming — theatre, opera, concerts at the Flèche d'Or and other venues — is solid if not spectacular. The university population of around 25,000 students keeps certain areas of the city animated. The main limitation is that Reims, at its current population, doesn't offer the social density or choice of Lyon, Bordeaux, or Nantes. The implicit trade in moving here is: accept a smaller city in exchange for excellent Paris access at significantly reduced cost.",
+      },
+    ],
+    relatedCities: ["reims", "epernay", "chalons-en-champagne", "laon", "soissons"],
+    tags: ["reims", "living in reims", "champagne", "paris commute", "grand est"],
+  },
+  {
+    slug: "basque-country-living-guide-2026",
+    title: "Living in the French Basque Country: what makes it different, and what it costs",
+    metaTitle: "Living in French Basque Country 2026 — Bayonne, Biarritz, Saint-Jean",
+    metaDesc:
+      "The Basque Country has the most distinctive regional identity in France, excellent surf, good weather and one of the highest property price growth rates in the country.",
+    category: "lifestyle",
+    emoji: "🌊",
+    readMinutes: 7,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "The French Basque Country (le Pays Basque français) occupies a corner of the south-west where the Pyrenees meet the Atlantic. It has the strongest regional identity of any area in mainland France, a culture that predates French sovereignty, a surf culture that is serious rather than decorative, food that is arguably the best regional cuisine in France, and a property market that has been one of the most pressured in the country over the past decade. None of this is accidental: the quality of life here is genuinely exceptional for a specific type of person.",
+    sections: [
+      {
+        heading: "The three towns: Bayonne, Biarritz, Anglet",
+        body: "The Basque BAB conurbation (Bayonne-Anglet-Biarritz) functions as a single urban area of roughly 130,000 people. Bayonne is the administrative and commercial hub: a walled medieval city at the confluence of the Nive and Adour rivers, with a covered market, the best ham (jambon de Bayonne) in France, and a genuine Basque cultural identity that is distinct from the tourist-facing version. Biarritz is the coastal resort town — beautiful, expensive, surf-centric, and more international in character. Anglet is the residential connector between the two, with the airport, long beaches, and suburban shopping, at prices somewhat below Biarritz. Each serves a different function for residents.",
+      },
+      {
+        heading: "The property market: severe pressure",
+        body: "The Basque Country has experienced one of the most rapid property price increases in France over the past decade. In Biarritz, average apartment prices now run €6,000–8,000/m² in the prime areas — comparable to Nice or the 6th arrondissement of Paris. In Bayonne, €3,500–5,000/m². Even the inland villages have risen sharply. The proximate cause is clear: the combination of a desirable destination, limited buildable land (mountains, coast, protected zones), and demand from second-home buyers and French-origin retirees returning from Paris has created structural scarcity. For buyers, this means either significant capital or accepting the further-inland compromise. For renters, Bayonne is more accessible than Biarritz.",
+      },
+      {
+        heading: "The surf and outdoor access",
+        body: "The Basque coast has the best Atlantic surfing conditions in Europe. Biarritz's Grande Plage and the breaks at Hossegor (just north of the Basque frontier, though considered part of the cultural zone) attract serious surfers from across Europe. The waves are consistent, the infrastructure (surf schools, rental, community) is extensive, and the culture around surfing is genuine rather than commercial. The Pyrenees, visible from the coast on clear days, begin at the Spanish border: the ski resort of La Pierre Saint-Martin is 90 minutes by car; the passes into Spain are even closer. Kayaking, trail running, mountain biking, and hiking trails into the Basque interior are all accessible from the coastal towns.",
+      },
+      {
+        heading: "The food: the strongest case for the region",
+        body: "Basque food is the most compelling argument for the region that doesn't depend on money or weather. The pintxos culture (the Basque version of tapas, eaten standing at bars) is experienced most intensely in San Sebastián across the Spanish border, but Bayonne and Biarritz have their own versions. The local products — jambon de Bayonne, Ossau-Iraty cheese, Espelette pepper, salt cod preparations, txakoli wine from across the border — are available at local markets and producers at prices that reflect their geographic origin rather than their export reputation. The restaurant culture across the price spectrum is excellent.",
+      },
+      {
+        heading: "The language and the cultural identity",
+        body: "Basque (Euskara) is spoken as a first language by approximately 20% of the French Basque population and is the official co-language alongside French in much of the region. Signage is bilingual, cultural events reflect a dual identity, and the political and cultural discourse has a distinct flavour from the rest of France. For newcomers, the cultural identity is usually experienced as an enrichment rather than an obstacle — the Basque culture is welcoming to those who show genuine interest. The practical implication for daily life is minimal (French is the working language of everything), but the cultural dimension is part of what makes the region feel distinct from a generic French provincial town.",
+      },
+    ],
+    relatedCities: ["bayonne", "biarritz", "pau", "saint-jean-de-luz", "hendaye"],
+    tags: ["basque country", "pays basque", "biarritz", "bayonne", "surf france"],
+  },
+  {
+    slug: "france-for-australian-expats-2026",
+    title: "Moving to France from Australia: the practical questions answered",
+    metaTitle: "Moving to France from Australia 2026 — Guide for Australian Expats",
+    metaDesc:
+      "Visa options, healthcare access, superannuation, tax obligations, and which French cities work best for Australians. The information gaps the general guides miss.",
+    category: "moving",
+    emoji: "🦘",
+    readMinutes: 7,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Australians form one of the larger English-speaking expatriate communities in France — drawn primarily by the food, the quality of life, the cultural access, and a desire for the European base that France provides. The practical questions Australians face are somewhat different from those of British or American expats: the superannuation question, the time zone difficulty, and the specific visa routes available require Australian-specific answers.",
+    sections: [
+      {
+        heading: "Visa options for Australians",
+        body: "Australian citizens are third-country nationals in France and require a long-stay visa (VLS-TS) for stays beyond 90 days. The Working Holiday Visa (Visa Vacances-Travail) is available for Australians aged 18–35 and allows a stay of up to 12 months with the right to work in France. This is often the entry point for younger Australians. For longer-term residence, the Visiteur visa (sufficient income from non-French sources, no working in France) is the most common route; the Salarié or Entrepreneur routes apply if you have French employment or a French business. France and Australia have a social security agreement that coordinates contributions between the two countries, which matters if you plan to work in France.",
+      },
+      {
+        heading: "The superannuation question",
+        body: "Australian superannuation funds are generally not transferable to France, and France does not have an equivalent mandatory private pension system in the same form. Your Australian super remains in Australia and is accessible at Australian preservation age (currently 60 for those born after 1 June 1964), subject to Australian tax rules at the time of withdrawal. France may tax super payments under the France-Australia tax treaty depending on how they are categorised — professional advice from a cross-border tax specialist is essential before withdrawing significant amounts while resident in France. The Australia-France double taxation agreement prevents literal double taxation on most income types.",
+      },
+      {
+        heading: "The time zone and staying connected",
+        body: "France is UTC+1 (winter) or UTC+2 (summer daylight saving). Sydney is UTC+10 (winter) or UTC+11 (summer). The overlap: in Australian winter, there's a 9-hour difference; in Australian summer, there's 10 hours. A call at 7am Paris time reaches Sydney at 4pm–5pm — workable for professional calls but not casual. Melbourne and Brisbane have similar time zones. For Australians with significant professional or family commitments in Australia, the time zone difference is a genuine consideration that creates asymmetric communication patterns. The emotional dimension — being 24 hours of travel away from family — is something most Australian expats describe as the hardest aspect of the move.",
+      },
+      {
+        heading: "Healthcare in France vs Australia",
+        body: "Australia's Medicare system provides universal healthcare subsidised by the government. France's Assurance Maladie is comparable in structure but generally considered superior in specialist access, hospital infrastructure, and pharmaceutical coverage. After PUMA affiliation (3–6 months of legal residence), Australian expats access French healthcare on the same terms as other legal residents. The France-Australia social security agreement means periods of French employment count towards French healthcare entitlement without losing Australian Medicare eligibility if you return. Australia does not maintain a foreign Medicare arrangement for long-term residents abroad — after an extended absence from Australia, you may need to re-enrol in Medicare on return.",
+      },
+      {
+        heading: "The cities that work best for Australians",
+        body: "The Australian expat community in France is not as geographically concentrated as the British community (which clusters in specific regions like Dordogne). Australians tend to gravitate towards: Paris (the largest community, the most comprehensive range of services in English), Lyon (food culture, quality of life, direct flights via Singapore Airlines or other connections), Nice and the Côte d'Azur (climate, similar outdoor culture to parts of Australia), and the Pays Basque (surf culture resonance, outdoor access). The practical consideration for most Australians is flight connections: Paris CDG has the most options (Singapore Airlines, Air France, Qantas, Emirates all serve it); Lyon, Nice, Bordeaux, and Marseille have indirect connections. Factor the flight logistics into your city choice if you plan to return to Australia regularly.",
+      },
+    ],
+    relatedCities: ["paris", "lyon", "nice", "bayonne", "bordeaux"],
+    tags: ["australian expat", "australia to france", "visa working holiday", "super france", "expat"],
+  },
+  {
+    slug: "french-schools-system-guide-2026",
+    title: "The French school system: what every expat parent needs to know",
+    metaTitle: "French Schools for Expat Children 2026 — Complete Guide",
+    metaDesc:
+      "From maternelle at 3 to baccalauréat at 18, how French education works, what international options exist, how to enrol, and what to expect language-wise.",
+    category: "family",
+    emoji: "🎓",
+    readMinutes: 8,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Sending children into the French school system is one of the decisions that most shapes the daily life of an expat family. The system is structured differently from British, American, or Australian education in ways that matter practically — the age of entry, the approach to homework, the social norms around school meals and Wednesday schedules, and the language immersion question. This guide covers the structure and practical entry points for families arriving in France.",
+    sections: [
+      {
+        heading: "The structure: from 3 to 18",
+        body: "French children enter école maternelle (kindergarten) at 3 years old — attendance is free and from 2019 compulsory from age 3. Three years of maternelle (petite, moyenne, grande section) are followed by 5 years of école primaire (CP through CM2), 4 years of collège (6ème through 3ème), and 3 years of lycée (seconde, première, terminale) culminating in the baccalauréat. The academic year runs September to June. Wednesday afternoons are traditionally free in primary schools (though many now have structured activities); Saturdays are generally free. Lunches are eaten at school (cantine scolaire) for most children — the school lunch culture is more structured and nutritionally considered than in most other countries.",
+      },
+      {
+        heading: "Enrolling in a French public school",
+        body: "State schools in France are assigned by school district (carte scolaire), based on your home address. To enrol: contact your local mairie (town hall) to determine your assigned school, gather documents (birth certificate, vaccination record, proof of address, and for non-EU children a long-stay visa or carte de séjour), and present them at the school. Language requirements: there are none for entry. Children who arrive not speaking French are assessed and may be placed in a UPE2A class (Unité Pédagogique pour Élèves Allophones Arrivants) — a dedicated class with French language support that bridges into mainstream classes. Most children acquire conversational French within 6–12 months; academic French takes longer.",
+      },
+      {
+        heading: "International and bilingual options",
+        body: "For families who want English-language or bilingual education, the main options are: International French schools with English sections (available in major cities — Paris has the most options, followed by Lyon, Bordeaux, Nice), the network of AEFE (Agence pour l'Enseignement Français à l'Étranger) schools which follow the French curriculum with international certification, and fully independent international schools. In Paris, there are American, British, German, Japanese, and other national schools with fees from €5,000 to €30,000+ per year. Outside Paris, international options are more limited. The OIB (Option Internationale du Baccalauréat) allows students in French schools to complete the baccalauréat with an English-language component — available in a growing number of state lycées.",
+      },
+      {
+        heading: "The Wednesday question and after-school care",
+        body: "French primary schools traditionally do not have classes on Wednesday afternoons. Most schools now offer a structured programme until 4:30pm or 5pm on Wednesdays (centre de loisirs or ALSH), but this varies by commune. After-school care (périscolaire) is available in most communes from 4pm or 4:30pm until 6pm or 6:30pm, at subsidised rates based on family income. Grandes vacances (summer holidays) run 8 weeks (July–August); there are also two-week holidays at Toussaint (October), Noël (December), Hiver (February), and Printemps (April). The school calendar's long breaks are an adjustment for families used to shorter summer holidays and less frequent half-terms.",
+      },
+      {
+        heading: "The baccalauréat and university entry",
+        body: "The baccalauréat (bac) is taken at age 17–18 and is the main qualification for university entry. The 2021 reform made the bac more continuous-assessment based (the Grand oral and the épreuves de contrôle continu) alongside final written exams. Three main tracks: Baccalauréat Général (most academic, with choice of specialisation subjects in first and terminale years), Baccalauréat Technologique, and Baccalauréat Professionnel. French universities are largely free (registration fees of €170–600/year for state universities). The competitive entry tracks — Classes Préparatoires (Grandes Écoles), Sciences Po, medical school — are what the most academically ambitious students aim for. For international families, understanding the bac's equivalence abroad is important if you plan to return: it is accepted in most European countries and many others.",
+      },
+    ],
+    relatedCities: ["paris", "lyon", "bordeaux", "nantes", "montpellier"],
+    tags: ["french schools", "expat education", "baccalauréat", "international schools", "children"],
+  },
 ];
 
 export function getEnGuide(slug: string): EnGuide | undefined {
