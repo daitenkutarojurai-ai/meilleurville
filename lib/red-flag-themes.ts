@@ -23,6 +23,7 @@ import { computeCyclingMobility } from "@/lib/cycling-mobility";
 import { computeSafetyDeep } from "@/lib/safety-deep";
 import { computeDemography } from "@/lib/demography";
 import { computePublicServices } from "@/lib/public-services";
+import { housingTensionFor } from "@/lib/housing-tension";
 import { sunshineDays } from "@/lib/utils";
 
 type SeedCity = (typeof CITIES_SEED)[number];
@@ -595,6 +596,36 @@ function rankHiverRude(): RedFlagRow[] {
   return rows.sort((a, b) => b.severity - a.severity).slice(0, 12);
 }
 
+// --- THEME 17 — Logement locatif introuvable ---
+// Cible : villes dont le proxy de tension locative dépasse 7,5/10 — c'est-à-dire
+// classées « tendu » ou « très tendu » par lib/housing-tension. Bonus quand le
+// loyer T2 dépasse 1,5× la médiane nationale (signal de marché vraiment serré,
+// pas juste d'une demande modérément élevée). Indicateur dédié aux locataires
+// (étudiants, jeunes actifs, expatriés revenant en France) qui se posent la
+// vraie question : « est-ce que je vais réussir à signer un bail avant
+// l'épuisement de mes droits à l'allocation logement ? ».
+function rankLogementIntrouvable(): RedFlagRow[] {
+  const rows: RedFlagRow[] = [];
+  for (const city of CITIES_SEED) {
+    const tension = housingTensionFor(city);
+    if (!tension) continue;
+    if (tension.value < 7.5) continue; // hors « tendu » et « très tendu »
+
+    const rentBonus = tension.rentRatio >= 1.5 ? 1.0 : tension.rentRatio >= 1.2 ? 0.4 : 0;
+    const severity = Math.min(10, tension.value + rentBonus);
+
+    const pct = Math.round((tension.rentRatio - 1) * 100);
+    const rentNote = pct > 0
+      ? `loyer T2 +${pct} % vs médiane nationale`
+      : pct < 0
+        ? `loyer T2 ${pct} % vs médiane nationale`
+        : `loyer T2 dans la médiane nationale`;
+    const reason = `Marché ${tension.level} (${tension.value.toFixed(1)}/10) · ${rentNote}`;
+    rows.push({ city, severity: Math.round(severity * 10) / 10, reason });
+  }
+  return rows.sort((a, b) => b.severity - a.severity).slice(0, 12);
+}
+
 export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-regrets-achat",
@@ -820,6 +851,21 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     methodology:
       "Severity = sous-score nocturnal + bonus combos. Pondération : biens 35 % · personnes 30 % · nuit 20 % · VFFS 15 %. Sources : SSMSI (Service statistique ministériel de la sécurité intérieure), atteintes nocturnes / rixes ; interstats.fr. Caveat : un taux élevé peut refléter à la fois une réalité plus tendue ET un meilleur signalement.",
     rank: rankNuitTendue,
+  },
+  {
+    slug: "villes-logement-introuvable",
+    title: "Villes où le logement locatif est introuvable",
+    metaTitle: "Logement introuvable 2026 — Marché locatif le plus serré",
+    metaDescription:
+      "Classement 2026 des villes où décrocher un bail est une bataille : marché tendu, loyer T2 bien au-dessus de la médiane. Proxy DGALN-aligned.",
+    emoji: "🔑",
+    intro:
+      "L'annonce alléchante reste en ligne huit minutes. Les visites sont collectives, douze candidats au pas de la porte, dossier déjà imprimé en trois exemplaires. L'agence ne rappelle pas, ou demande deux garants et trois bulletins de salaire pour un T2 à 950 €. Sur le papier, le marché est « dynamique » ; pour le locataire, la même réalité s'appelle simplement : introuvable. Cette tension ne se voit ni sur une carte des prix ni dans une plaquette de ville — elle se découvre quand on a deux semaines pour signer un bail et qu'on n'a vu aucun bien correct.",
+    reality:
+      "On classe les villes dont le proxy de tension locative dépasse 7,5/10 — soit la catégorie « tendu » et « très tendu » de la grille DGALN. Concrètement : un loyer T2 supérieur à la médiane nationale, un prix d'achat qui suit, une population qui maintient la demande, et des scores qualité de vie + sécurité qui rendent la ville désirable. Quand ces signaux se cumulent, le marché bascule de « concurrentiel » à « bloquant pour les profils sans garant ni CDI long ». Toutes les villes affichées passent le seuil 7,5/10 et la plupart cumulent un loyer T2 ≥ 20 % au-dessus de la médiane nationale.",
+    methodology:
+      "Severity = tension (0-10, 10 = pire) + 1,0 si loyer T2 ≥ 1,5× médiane nationale, + 0,4 si ≥ 1,2×. Pondération de la tension : loyer T2 vs médiane 55 % · prix d'achat m² 25 % · population (bonus > 200k, malus < 30k) · désirabilité life + safety. Proxy aligné sur la liste DGALN « zones tendues » (~1100 communes) que le seed n'expose pas directement. Sources sous-jacentes : DVF (prix), observatoires loyer 2024, INSEE (population), scores propriétaires site.",
+    rank: rankLogementIntrouvable,
   },
   {
     slug: "villes-hiver-rude",
