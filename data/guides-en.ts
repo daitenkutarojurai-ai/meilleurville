@@ -4631,6 +4631,150 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["nice", "antibes", "cagnes-sur-mer", "cannes"],
     tags: ["living in nice 2026", "nice expat guide", "nice housing cost", "côte d'azur expat", "nice vs bordeaux 2026"],
   },
+  {
+    slug: "bordeaux-living-guide-for-expats-2026",
+    title: "Living in Bordeaux: the honest expat guide for 2026",
+    metaTitle: "Living in Bordeaux 2026 — Expat Guide: Cost, Neighbourhoods, Pros and Cons",
+    metaDesc: "Bordeaux: wine country, TGV to Paris in 2h, affordable by French standards. But also: rising prices, Atlantic rain, tech jobs outside Paris are harder to find. Full picture.",
+    category: "city-guide",
+    emoji: "🍷",
+    readMinutes: 8,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "Bordeaux is one of the most-cited destinations for Parisians leaving the capital — and for good reason. It has excellent TGV connections, a renovated city centre that is genuinely beautiful, a food and wine culture that is serious without being pretentious, and housing prices that were half of Paris before the market ran up. In 2026, those prices are less cheap than they were five years ago. Here is what living there actually looks like.",
+    sections: [
+      {
+        heading: "Housing costs in 2026: cheaper than Paris, less cheap than expected",
+        body: "Bordeaux experienced the sharpest price rise of any major French city between 2015 and 2022 — in some neighbourhoods, prices doubled. The market corrected partially in 2023-2024 and stabilised in 2025-2026. Current median prices by area: Chartrons and Saint-Pierre (prime central, river views): €4,800-6,200/m². Triangle d'Or (Saint-Seurin, Fondaudège, Judaïque): €5,500-7,000/m². Left bank popular (Saint-Michel, Capucins): €4,200-5,200/m². Right bank (La Bastide, Belcier near the TGV station): €3,200-4,500/m² — still developing, but connected. First suburbs (Mérignac, Pessac, Bègles): €2,800-3,800/m². Rent for a furnished T2 (50m²): €850-1,200/month in central areas. This is cheaper than Lyon, Paris, and Nantes. Not cheap in absolute terms.",
+      },
+      {
+        heading: "Getting around without a car",
+        body: "Bordeaux has a well-developed tram network (A, B, C, D lines) that connects the centre, the TGV station, and the university campus. For central neighbourhoods — Chartrons, Saint-Pierre, Capucins, Victoire — public transport and cycling are viable alternatives to a car. The city has made genuine progress on cycling infrastructure since 2019, including protected lanes along major boulevards. The limitation: the greater metropolitan area (Mérignac airport, tech parks, peripheral areas) is car-dependent. If your life is entirely central Bordeaux, you can go car-free. If you commute to the suburbs, you probably need one.",
+      },
+      {
+        heading: "Employment: strong in some sectors, limited in others",
+        body: "Bordeaux's job market is decent but not exceptional for highly specialised roles. Strong sectors: aerospace and defence (Dassault, Thales, Safran components), wine and agri-food industry, tourism and hospitality, construction and architecture, healthcare, and education (Université de Bordeaux is large). Growing sectors: digital and tech, although the ecosystem remains smaller than Lyon, Paris, or Toulouse. Weak in: finance, international law, and management consulting. For remote workers, Bordeaux is ideal — high quality of life, good infrastructure, a community of remote professionals that has grown since 2020.",
+      },
+      {
+        heading: "The honest caveats",
+        body: "The weather: Bordeaux is Atlantic, not Mediterranean. It rains regularly (around 900mm per year), especially October-March. Grey, cool weeks are common in winter. This surprises many Parisians who expected southern French sunshine. The rising prices: while still cheaper than Paris, the Bordeaux premium has shrunk. If you bought in 2018-2019, you have a paper gain. If you're buying in 2026, the buy-vs-rent calculation (22-26 years payback on rental equivalent) suggests renting is often the rational choice unless you plan to stay 10+ years. The TGV as double-edged sword: the 2h Paris connection is fantastic for weekends, but it means Bordeaux feels like a Paris suburb to many executives who commute weekly rather than relocating fully. This keeps demand and prices elevated beyond what local salaries justify.",
+      },
+      {
+        heading: "Which neighbourhoods for expats?",
+        body: "Chartrons is the classic expat neighbourhood — art galleries, wine bars, antique dealers, English-speaking community, Saturday market along the Garonne. Prices are high but the quality of daily life is genuinely excellent. Capucins and Victor Hugo: closer to the covered market, more neighbourhood feel, slightly younger crowd. La Bastide (right bank): across the river, cheaper, improving — connected by tram and foot bridge, with the Garonne as your daily view. Saint-Genès, Sainte-Croix: slightly more local, less tourist-heavy, good restaurants and independent shops. For families: Caudéran (west) and the first suburbs offer houses with gardens and reasonable schools — but you'll need a car.",
+      },
+    ],
+    relatedCities: ["bordeaux", "merignac", "pessac", "begles"],
+    tags: ["living in bordeaux 2026", "bordeaux expat guide", "bordeaux housing cost", "bordeaux neighbourhoods", "expat france atlantic 2026"],
+  },
+  {
+    slug: "lille-living-guide-for-expats-2026",
+    title: "Living in Lille: the honest expat guide for 2026",
+    metaTitle: "Living in Lille 2026 — Expat Guide: Cost, Pros and Cons, Which Neighbourhood",
+    metaDesc: "Lille: affordable, flat, well-connected to Paris and Brussels. But also: grey, cold, and a job market that depends heavily on which sector you work in. Full honest picture.",
+    category: "city-guide",
+    emoji: "🧇",
+    readMinutes: 7,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "Lille is the most underrated large French city for expats. It is affordable, genuinely international (Belgium and the UK are next door), extremely well-connected (Paris in 1h, Brussels in 40 minutes, London via Eurostar in under 1h30), and has a food and nightlife scene that punches above its weight. Its downsides are real but often overstated. Here is the honest picture.",
+    sections: [
+      {
+        heading: "Housing: genuinely affordable for France",
+        body: "Lille remains one of the most affordable large French cities in 2026. Current median prices: Vieux-Lille (the historic quarter, most desirable): €3,500-5,000/m². Gambetta, République (central residential): €2,800-3,800/m². Wazemmes (multicultural, market neighbourhood): €2,200-3,000/m². Fives, Moulins (industrial-conversion areas, gentrifying): €1,800-2,600/m². First suburbs (Villeneuve-d'Ascq for the university campus and tech): €2,200-3,200/m². Rent for a furnished T2 (50m²) in central Lille: €650-850/month — significantly cheaper than Paris, Lyon, Bordeaux, or Nantes at equivalent locations. This affordability is Lille's strongest asset for young professionals and families.",
+      },
+      {
+        heading: "Transport: exceptional connections",
+        body: "Lille has two metro lines (M1 and M2, automated, frequent, and reliable), a tram line, and an extensive bus network. The city is flat, making cycling practical. The Transpole network has a monthly pass at approximately €55 for adults. The real advantage: Lille-Europe station puts Paris (Gare du Nord) at 1h by TGV, Brussels at 38 minutes, and London St Pancras at 1h22 via Eurostar. No French city of Lille's size has comparable international connectivity. This makes it an unusual option for people who need regular access to Paris or work across borders.",
+      },
+      {
+        heading: "Employment: manufacturing and services",
+        body: "Lille's job market has evolved significantly from its industrial past. Strong sectors today: logistics and supply chain (the city is a European hub), retail and e-commerce headquarters (Leroy Merlin, Décathlon, La Redoute), healthcare (major university hospital, CHRU de Lille), education (University of Lille, Sciences Po Lille, HEI), and IT services. Growing: fintech and digital health. Challenging: traditional manufacturing is declining, and the startup ecosystem is smaller than Paris, Lyon, or Bordeaux. For international companies with European operations, Lille's central European position (equidistant between Paris, Brussels, Amsterdam) makes it a genuinely logical base.",
+      },
+      {
+        heading: "The honest caveats: weather and image",
+        body: "The weather is the main objection to Lille, and it is legitimate. Northern France has a genuinely oceanic-to-continental climate: grey skies are frequent October through March, rainfall is regular (770mm/year, spread evenly), and summer can be hot but short. There are roughly 55 days of sunshine per month in winter vs. 210+ hours per month in summer — the contrast is stark. If you need sun to be happy, Lille is not the right choice. The image issue: 'Ch'ti' culture and the working-class industrial reputation can be a mental hurdle for people who haven't visited. The reality is a city that has invested heavily in cultural infrastructure (Palais des Beaux-Arts is one of France's finest museums outside Paris), has a vibrant student population (over 100,000 students), and a genuinely warm social culture.",
+      },
+      {
+        heading: "Which neighbourhood for you?",
+        body: "Vieux-Lille is the undisputed first choice: beautiful Flemish architecture, cobblestones, excellent restaurants and bars, walkable daily life. Expensive for Lille (not expensive by French standards). Wazemmes is the market neighbourhood — lively, diverse, a Sunday market that is the social centre of the area. Slightly rougher edges but strong community feel. Popular with young professionals and artists. Gambetta and République offer quieter residential life, close to the centre, good schools. Villeneuve-d'Ascq is ideal for families who want a house with garden: larger spaces, the university campus, parks, and reasonable prices — but you need public transport or a bike to reach central Lille.",
+      },
+    ],
+    relatedCities: ["lille", "villeneuve-d-ascq", "roubaix", "tourcoing"],
+    tags: ["living in lille 2026", "lille expat guide", "lille housing cost", "lille vs paris cost", "expat northern france 2026"],
+  },
+  {
+    slug: "france-healthcare-system-expat-guide-2026",
+    title: "The French healthcare system explained for expats in 2026",
+    metaTitle: "French Healthcare for Expats 2026 — CPAM, Carte Vitale, Top-Up Insurance Guide",
+    metaDesc: "How France's Sécurité Sociale actually works: CPAM registration, Carte Vitale, mutuelle top-up, choosing a GP (médecin traitant). The practical expat guide for 2026.",
+    category: "moving",
+    emoji: "🏥",
+    readMinutes: 9,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "France consistently ranks among the world's top healthcare systems in international comparisons, and the ranking is earned. The combination of Sécurité Sociale (the public base insurance) and mutuelle (private top-up insurance) means most consultations, medications, and hospital stays are either free or nearly free at point of care once you are registered. Getting registered as an expat takes some paperwork. Here is the complete guide.",
+    sections: [
+      {
+        heading: "Who is eligible for French public healthcare (PUMA)?",
+        body: "The Protection Universelle Maladie (PUMA) entitles any person who resides legally and stably in France to coverage under the Sécurité Sociale, regardless of employment status. 'Stably' means you intend France to be your main residence — typically demonstrated by having lived there for 3+ months, having a lease, and not maintaining a main residence elsewhere. EU citizens living and working in France are automatically covered through their employment. Non-EU citizens with a valid titre de séjour (residence permit) can register after 3 months of legal residence. If you are employed by a French employer, registration happens automatically via your employer's URSSAF contributions. If you are self-employed (auto-entrepreneur), you register through URSSAF directly.",
+      },
+      {
+        heading: "How to register: CPAM and the Carte Vitale",
+        body: "CPAM (Caisse Primaire d'Assurance Maladie) is the local branch of the public health insurance. There is one per département. To register: gather your identity documents, proof of residence (lease agreement or utility bill), proof of legal right to be in France (titre de séjour for non-EU), and if employed, your employment contract and first pay slips. Submit online via ameli.fr or in person at your local CPAM office. The Carte Vitale (the green health insurance card) arrives by post after registration — typically 3-6 weeks for EU citizens, 2-4 months for non-EU. Before you receive it, keep your attestation de droits (rights statement, downloadable from ameli.fr after your account is created) — doctors accept this.",
+      },
+      {
+        heading: "What the Sécurité Sociale covers (and what it doesn't)",
+        body: "The public system reimburses a percentage of the tarif de convention (official consultation fee) for each act. For a standard GP consultation: the official fee is €30, Sécurité Sociale reimburses €24 (70%). For specialists: reimbursement is typically 70% of the tarif de base. For hospitalisation: 80% covered, with a daily patient contribution (ticket modérateur). For medications: reimbursement varies by classification (100% for serious illness/ALD, 65%, 30%, or 15% for others). What it doesn't cover well: dental care (partial reimbursement at old, very low tarif de base rates), optical (very limited), and hearing aids — these gaps are substantial. The mutuelle top-up fills them.",
+      },
+      {
+        heading: "The mutuelle: how to choose and what to pay",
+        body: "A mutuelle (complementary health insurance) covers the gap between what Sécurité Sociale reimburses and what you actually pay. It is optional but strongly recommended — especially for dental, optical, and hospitalisation costs. If you work for a French employer, your employer is legally required to contribute at least 50% of a collective mutuelle — typically you pay €20-60/month as your share. If you are self-employed or freelance, you purchase an individual mutuelle: expect €50-150/month depending on your age, coverage level, and insurer. Key terms to compare: taux de remboursement en optique (optical reimbursement rate), prothèses dentaires (dental prosthetics), forfait hospitalier (daily hospital fee), dépassements d'honoraires (specialist fee overruns above the official tarif). 100% Santé (the government reform from 2020) guarantees zero-cost dental, optical, and hearing options if you choose items in the regulated basket — ask about this specifically when comparing mutuelle offers.",
+      },
+      {
+        heading: "Choosing a médecin traitant (registered GP)",
+        body: "To get full reimbursement from Sécurité Sociale, you must declare a médecin traitant — a registered GP who becomes your primary care physician. Without this declaration, your reimbursement rate drops significantly for non-emergency consultations. To declare one: find a GP who is accepting new patients (often difficult in urban areas — GP shortages are real), book an appointment, and ask them to sign the declaration form. You can declare your médecin traitant online via ameli.fr. Specialist consultations require a referral from your médecin traitant to be reimbursed at full rate (directe access without referral results in reduced reimbursement). Emergency and some specialists like gynaecologists, ophthalmologists, and psychiatrists can be seen directly. GP shortage tip: in cities with waiting lists, try Doctolib (booking platform) filtering by 'accepting new patients', or contact your CPAM who may maintain a list of available practitioners.",
+      },
+    ],
+    relatedCities: ["paris", "lyon", "marseille", "bordeaux", "nantes"],
+    tags: ["french healthcare expat 2026", "CPAM registration expat", "carte vitale guide", "mutuelle france 2026", "french social security expat"],
+  },
+  {
+    slug: "leaving-paris-best-cities-2026",
+    title: "Leaving Paris in 2026: where people actually go (and why)",
+    metaTitle: "Leaving Paris 2026 — Where to Move: Bordeaux, Nantes, Rennes, Lyon, or Smaller?",
+    metaDesc: "Paris leavers in 2026 don't all go to Bordeaux. The data on where people actually move, what they gain, what they miss, and which French cities genuinely deliver on the promise.",
+    category: "lifestyle",
+    emoji: "🗼",
+    readMinutes: 8,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "About 30,000-40,000 people leave Paris each year for other French cities. The narrative is usually about Bordeaux or the countryside. The reality is more nuanced. Some go to Lyon, some to smaller cities they've never heard of, some to coastal towns that change their life in ways they didn't expect. This is an honest look at the main destinations — what you actually gain, what you actually lose, and what the data says about satisfaction rates.",
+    sections: [
+      {
+        heading: "The most popular destinations and why",
+        body: "Bordeaux remains the most cited destination for Paris leavers, driven by TGV convenience (2h), the wine-country lifestyle brand, and a decade of visible investment in the city centre. The downside: Bordeaux has absorbed so much Paris migration that prices have nearly tripled since 2012, and the social dynamics in some neighbourhoods now feel like a Parisian transplant colony rather than a local city. Nantes is the second most popular destination — slightly farther (2h from Paris by TGV), but with a more authentically local feel, strong job market, and a creative / cultural scene that has developed independently of Parisian trends. Rennes is growing in popularity among younger professionals — cheaper than Nantes, high quality of life, Brittany as a lifestyle asset. Lyon catches people who prioritise career continuity: it has the most diversified job market of any French city outside Paris.",
+      },
+      {
+        heading: "The surprise destinations: smaller cities that outperform",
+        body: "The cities that get the best feedback from Paris-leavers who have settled are often smaller: Angers (320,000 metro, Loire valley, 1h40 from Paris by TGV, exceptional quality-of-life scores, affordable housing, good schools). Bayonne/Anglet (the Basque coast, surf culture, Pyrenees access, bilingual French-Basque environment — and Biarritz airport for European travel). Caen (1h45 from Paris Saint-Lazare, Normandy sea access, one of France's safest cities, affordable, lower profile than the big names — which makes it better value). La Rochelle (Atlantic coast, sailing, genuinely sunny for the Atlantic, tight rental market but exceptionally livable). The pattern: smaller cities with a strong identity and manageable size often deliver higher actual satisfaction than the famous big ones because the quality-of-life premium comes without the urban grind.",
+      },
+      {
+        heading: "What Paris leavers actually miss",
+        body: "The honest answer from people who have made the move: job market depth (finding the right senior or specialised role outside Paris is harder; remote work has softened this but not eliminated it), the concentration of cultural events (the number of concerts, exhibitions, and niche events in Paris is impossible to replicate anywhere else in France), and the speed of things happening. People also miss — less expectedly — the anonymity of a large city. In smaller French cities, social circles close quickly and there are fewer people you can connect with who share a particular niche interest. What they don't miss: the commute, the cost of housing, the general stress level, and the sense of spending 60% of income on rent.",
+      },
+      {
+        heading: "Remote work has changed the calculus",
+        body: "Before 2020, leaving Paris often meant a salary cut — either a lower-paying local role or the difficulty of finding equivalent work. In 2026, that equation has changed structurally. A significant proportion of Paris leavers are keeping Paris salaries (or close to them) while moving to cities where housing costs 40-60% less. This is the core driver of the quality-of-life gain: a Parisian salary + Angers/Nantes/Rennes cost of living produces a materially different standard of living. The cities that benefit most from this shift are mid-size cities with good internet infrastructure, a local professional community that is growing, and enough amenities for families and professionals — Nantes, Rennes, Bordeaux, Angers, Tours, Poitiers. Smaller and rural destinations attract a narrower profile: people who genuinely want rural life, not people who want a smaller city.",
+      },
+      {
+        heading: "How to actually make the decision",
+        body: "Visit before committing — at least three days in your shortlisted city, not during a holiday. Include a Monday, because weekday rhythms (commute, market, daily routine) reveal things that weekends don't. Spend time in the neighbourhood you'd actually live in, not the tourist centre. If possible, try renting for 6 months before buying — the Paris housing market is slow enough that your apartment won't disappear while you test a new city. Talk to people who left Paris for that city 3+ years ago, not 6 months ago. The 6-month perspective is often still on the honeymoon; at 3 years, the genuine trade-offs have emerged. Use this site's city comparison tool to benchmark the specific axes that matter to you: safety, remote work infrastructure, nature access, schools, healthcare. Your priorities are personal — don't optimise for the average.",
+      },
+    ],
+    relatedCities: ["paris", "bordeaux", "nantes", "rennes", "angers", "caen"],
+    tags: ["leaving paris 2026", "paris expat destination guide", "where to move from paris", "best french cities parisians move to", "paris to bordeaux nantes rennes"],
+  },
 ];
 
 export function getEnGuide(slug: string): EnGuide | undefined {
