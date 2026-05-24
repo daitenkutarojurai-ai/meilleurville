@@ -2967,6 +2967,184 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["perpignan", "montpellier", "carcassonne", "nimes", "marseille"],
     tags: ["perpignan", "roussillon", "catalan coast", "cheap mediterranean france", "pyrenees orientales"],
   },
+  {
+    slug: "leaving-nantes-where-to-go-2026",
+    title: "Leaving Nantes: where to go when the Atlantic west becomes too expensive",
+    metaTitle: "Leaving Nantes 2026 — Best Alternatives After Nantes",
+    metaDesc:
+      "Nantes' property prices have risen 40% since 2018. If you're weighing an exit, here's where the Atlantic quality of life can be found at lower cost — with honest trade-offs.",
+    category: "city-guide",
+    emoji: "🐘",
+    readMinutes: 5,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Nantes was France's quality-of-life value proposition for most of the 2010s: a complete metropolis at regional city prices, with Atlantic access, excellent trams, and a cultural life that surprised. By 2026, that value gap has largely closed. Property prices now sit at €3,400-4,000/m² in good areas — comparable to Toulouse and not dramatically cheaper than Lyon. If you moved to Nantes for the value and now find the prices have followed you, here's the honest landscape of alternatives.",
+    sections: [
+      {
+        heading: "If you want to stay Atlantic at lower cost",
+        body: "La Rochelle is the most natural destination for people leaving Nantes for cost reasons — similar Atlantic energy, a beautiful historic port, somewhat more sunshine (Nantes' skies are noticeably greyer), and property at €2,800-3,500/m². 2h by TGV from Paris. The trade-off: La Rochelle's job market is thinner than Nantes'. For remote workers, this doesn't matter. For job-seekers, it does. Rennes is the other option — 1h25 from Nantes by TGV, with property at roughly 5-10% cheaper than Nantes and France's best fibre coverage. If your concern is cost specifically, Rennes' tech economy means salaries there offset some of the housing difference.",
+      },
+      {
+        heading: "If you want more sun",
+        body: "Nantes averages 1,800-1,900 sunshine hours per year — it's Atlantic and it shows. Moving south along the coast towards Bordeaux (2,100 hours) and then the Landes coast or Bayonne (2,100-2,200 hours) gains you meaningfully more sun. The leap to La Rochelle (2,200 hours) is worthwhile. Going further south to Bordeaux costs similar money but with better climate. The real sun upgrade requires reaching the Mediterranean (Montpellier: 2,600 hours) or the Côte d'Azur (2,700-2,800 hours), which involves a different cost bracket and a different lifestyle.",
+      },
+      {
+        heading: "Smaller Loire Valley cities: the underrated option",
+        body: "The Loire Valley between Nantes and Orléans — Angers, Tours, Le Mans — offers an undervalued alternative. Angers is 40 minutes from Nantes by TGV with property prices 20-30% lower. It has a university (30,000 students), a reasonable cultural life, and access to the Loire châteaux. Tours is 1h from Paris by TGV, with similar property prices to Angers and a slightly warmer, sunnier climate (1,900-2,000 hours). Le Mans is 1h10 from Paris and notably affordable (€1,800-2,400/m²). None of these are Nantes in terms of scale, but for families or remote workers who don't need a metropolitan job market, they represent significant value.",
+      },
+      {
+        heading: "What Nantes offers that alternatives don't",
+        body: "Nantes has a complete metropolitan economy: Airbus, Saint-Nazaire naval shipbuilding, a growing tech sector, major healthcare facilities, and a 2h10 TGV to Paris. The cultural infrastructure (Machines de l'Île, Voyage à Nantes, Lieu Unique) is real, not inflated by reputation. The social life is lively and diverse. For people in aerospace, tech, or healthcare who need a real job market, most of Nantes' alternatives are smaller cities where career options genuinely narrow. If your move is driven by housing cost alone, make sure the destination city's job market meets your needs before committing.",
+      },
+    ],
+    relatedCities: ["nantes", "la-rochelle", "rennes", "angers", "bordeaux"],
+    tags: ["leaving nantes", "atlantic france", "nantes alternatives", "loire valley", "relocation"],
+  },
+  {
+    slug: "leaving-rennes-where-to-go-2026",
+    title: "Leaving Rennes: why people leave and where they go",
+    metaTitle: "Leaving Rennes 2026 — Alternatives and What You Give Up",
+    metaDesc:
+      "Rennes is fast, well-connected, and affordable. The people who leave are usually seeking more sun. Here's where they go and what the trade-offs look like.",
+    category: "city-guide",
+    emoji: "🦊",
+    readMinutes: 5,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Rennes is an unusual entry in the 'leaving' series: it's a genuinely good city with justified quality-of-life scores, and the main reason people leave is not that Rennes fails them but that they want something it can't provide — primarily more sunshine. Rennes averages 1,700-1,800 sunshine hours per year. If you came for quality of life, affordability, and TGV access to Paris, you got what you paid for. If you came hoping to eventually feel warmer and drier, the geography won't change.",
+    sections: [
+      {
+        heading: "The sun problem: where people go for more light",
+        body: "Nantes (1h25 from Rennes) adds 100-150 sunshine hours per year and is comparable in cost — it's Brittany-adjacent but less Atlantic in feel. Bordeaux (3h by TGV) adds 300+ hours and remains well-connected; it's significantly more expensive to buy property. Montpellier (4h+ by TGV) is the leap to Mediterranean sunshine (2,600 hours) — it has a strong university and healthcare economy, good trams, and is cheaper than Bordeaux per m². For people who know they want sustained sunlight, the honest answer is that no city within two hours of Rennes can provide it.",
+      },
+      {
+        heading: "If you're leaving for career reasons",
+        body: "Rennes' tech sector is excellent for its size, but it is sized for a city of 400,000. Paris (1h25 by TGV) is the obvious move for career acceleration — or the lifestyle calculation of staying in Rennes and commuting to Paris 1-2 times per week, which many professionals do. Lyon has a denser private-sector economy than Rennes in most fields and is worth comparing if you're in pharmaceuticals, finance, or engineering.",
+      },
+      {
+        heading: "What Rennes genuinely offers and what replacements fail to match",
+        body: "Rennes has the best fibre penetration in France, among the cheapest rents in the large-city category, a remarkable cycling infrastructure, an active startup scene, and a quality of life that regularly tops national surveys. Property at €2,800-3,400/m² looks cheap compared to Bordeaux, Lyon, or Nantes. The social environment is notably easy for newcomers — the large student population (70,000 in the metro area) keeps the city energetic and relatively open. Cities that are cheaper than Rennes in property are smaller, with less infrastructure. Cities with more sun are more expensive or further from Paris. There isn't an obvious 'Rennes but better' — people leave because they want something Rennes specifically lacks.",
+      },
+    ],
+    relatedCities: ["rennes", "nantes", "brest", "saint-brieuc", "bordeaux"],
+    tags: ["leaving rennes", "brittany", "rennes alternatives", "sun france", "relocation"],
+  },
+  {
+    slug: "french-income-tax-expats-2026",
+    title: "French income tax for expats: what you actually need to know",
+    metaTitle: "French Income Tax for Expats 2026 — Complete Guide",
+    metaDesc:
+      "French tax residency rules, the income tax scale, how to file if you arrived mid-year, social charges, double taxation treaties, and what surprises new arrivals most.",
+    category: "moving",
+    emoji: "🧾",
+    readMinutes: 8,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "France's income tax system is not the highest in Europe (that depends heavily on income level and composition), but it is among the more complex to navigate as a new arrival. The interplay of income tax (impôt sur le revenu), social charges (CSG/CRDS and prélèvements sociaux), and the treaty network creates a set of questions that first-year residents consistently get wrong or overlook. This is a practical overview — useful for orientation, but not a substitute for professional advice in your specific situation.",
+    sections: [
+      {
+        heading: "Tax residency: when France taxes you",
+        body: "France taxes tax residents on worldwide income. You become a French tax resident if: your main home is in France, you spend more than 183 days in France in a year, France is your centre of economic interests, or France is your main professional activity location. Any of these tests individually triggers tax residency — you don't need to meet all four. Critically, new arrivals in France often assume they're only taxed from their arrival date; in reality, France taxes the full year's income from the first year of tax residency in most cases (with credit for foreign taxes paid). Get this clear in your first year.",
+      },
+      {
+        heading: "The income tax scale for 2026",
+        body: "French income tax is calculated on household income (foyer fiscal) with a quotient familial system that adjusts for family size. The 2026 rates on the barème progressif: 0% up to €11,294; 11% from €11,295 to €28,797; 30% from €28,798 to €82,341; 41% from €82,342 to €177,106; 45% above €177,106. These are marginal rates on taxable income, not the effective rate on total income. The effective rate on €50,000 of income for a single filer is considerably lower than 30%. The quotient familial reduces tax for couples and families — a married couple files jointly and the rates apply to income divided by 2 (or more for children).",
+      },
+      {
+        heading: "Social charges: the invisible second tax",
+        body: "In addition to income tax, French residents pay social charges on most income. For employees, many of these are withheld at source and are part of the headline payslip charges. For investment income, rental income, and self-employment income, the prélèvements sociaux apply at 17.2% (for most income types). These are separate from income tax and are not covered by most double taxation treaties — the ECJ (Evans v France) established that EU social charges cannot be levied on EU nationals affiliated to another member state's social security system, but this treaty network varies by country. UK residents post-Brexit may face social charges on investment income without relief.",
+      },
+      {
+        heading: "Filing: when, how, and what to expect",
+        body: "French tax returns are filed online at impots.gouv.fr annually, with a deadline in May for online filers (slightly earlier for paper). In your first year, you will need to create a tax account (espace personnel) — you'll need your numéro fiscal (on the avis d'imposition if you've received one, or on your first correspondence from the tax office) or request one from your local Service des Impôts des Particuliers. Pre-filled returns (déclaration préremplie) are standard for employees — your employer has reported your salary to the tax office and it's pre-populated. Self-employed and rental income require additional schedules. The first filing is always the most complex.",
+      },
+      {
+        heading: "Double taxation treaties: what they cover",
+        body: "France has double taxation treaties with most countries. The treaty generally determines which country has primary taxing rights over which income categories. For US citizens: the France-US treaty is complex and does not eliminate US filing obligations — American citizens remain subject to US tax on worldwide income regardless of where they live, though the Foreign Earned Income Exclusion and Foreign Tax Credit reduce (rarely eliminate) double taxation. For UK citizens post-Brexit: the France-UK treaty (1968, updated) covers most income categories; dividend and interest relief depends on the type of UK source. For other nationalities: your national tax authority's website and the OECD treaty database are the authoritative sources.",
+      },
+    ],
+    relatedCities: ["paris", "bordeaux", "lyon", "nice", "strasbourg"],
+    tags: ["french tax", "income tax france", "expat tax france", "impôt sur le revenu", "tax residency"],
+  },
+  {
+    slug: "france-for-irish-expats-2026",
+    title: "Moving to France from Ireland: the practical guide",
+    metaTitle: "Moving to France from Ireland 2026 — Irish Expat Guide",
+    metaDesc:
+      "EU freedom of movement makes the France-Ireland move administratively simple. The practical questions: which cities suit Irish lifestyles, how the tax system compares, where the communities are.",
+    category: "moving",
+    emoji: "🍀",
+    readMinutes: 6,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Irish citizens moving to France have the significant advantage of EU freedom of movement — no visa, no work authorisation required, registration with the préfecture is straightforward after three months. The practical questions Irish expats typically face are different from British or American ones: the tax relationship between Ireland and France is managed by the France-Ireland double taxation treaty of 1968 (updated), and the question of healthcare changes from an Irish universal model to a French reimbursement model. This guide covers the issues specific to the Ireland-France transition.",
+    sections: [
+      {
+        heading: "The EU freedom of movement advantage",
+        body: "As an EU citizen, you have the right to move to France without applying for a visa. You can work, study, or establish a business without work authorisation. After three months of residence, you should register at your local préfecture to receive a Certificat de Résidence (CdR) or equivalently the Attestation d'Enregistrement — not legally required to stay but practically necessary for opening bank accounts, signing leases, and registering with other services. After five years of continuous residence, you can apply for a Carte de Résident (10-year permanent residence). Naturalisation is available after five years.",
+      },
+      {
+        heading: "Healthcare: from PRSI-backed universal to Assurance Maladie",
+        body: "Ireland's healthcare system (HSE) provides universal access with significant co-payments in practice — GP visits, hospital charges, and prescription costs are real for most Irish residents. France's Assurance Maladie provides broader coverage with lower point-of-care costs, particularly for specialist appointments and prescriptions (reimbursement rates of 60-100% depending on the type of care). After three months of legal residence with income (employment, self-employment, or EU income), you register for PUMA (Protection Universelle Maladie). Before PUMA affiliation, retain your EHIC card for emergency coverage. Getting a médecin traitant (registered GP) quickly is the single most important step after arriving.",
+      },
+      {
+        heading: "The France-Ireland tax treaty",
+        body: "Ireland and France have a double taxation treaty that determines which country taxes which income. For most workers: wages are taxable in the country where the work is performed. For Irish-sourced investment income, dividends, and rental income while resident in France: France has taxing rights, with credit for Irish taxes paid. The tricky case for Irish expats is often their Irish rental income (a common situation for those who kept their Irish property and moved to France) — this will be taxable in France, with an Irish tax credit, and may create additional reporting obligations in both countries. Specific advice on your Irish-source income before moving is worth the cost.",
+      },
+      {
+        heading: "Banking: the account-before-address problem",
+        body: "Opening a French bank account typically requires a French address. Getting a long-term rental typically requires a French bank account. This circular problem is real and frustrating. Practical solutions: many Irish people use N26 (German digital bank operating in France under EU passporting), Revolut (Irish-registered), or Wise (which provides a French IBAN) as a bridge account while establishing a French address. Another option is to open an account with a bank that accepts a foreign address for initial registration — Boursorama and BforBank are occasionally cited — or via an introductory relationship with your Irish bank's French partner.",
+      },
+      {
+        heading: "Cities that suit Irish expats and where communities exist",
+        body: "The Irish expat community in France is not as geographically concentrated as the British community. Paris has the largest Irish community, with Irish bars, GAA clubs, and annual Fête de la Saint-Patrick events that draw thousands. Cork is twinned with Rennes (historical connection through Brittany's Celtic heritage), and there is a small Irish community in Rennes. Bordeaux and the Dordogne attract Irish retirees and families drawn by the southwest lifestyle and relatively easy access to Ireland via Ryanair routes to Bordeaux and Bergerac airports. For direct flights back to Ireland: Paris CDG and Orly have the most options; Bordeaux Mérignac, Biarritz, Nantes, and Lyon have varying seasonal routes.",
+      },
+    ],
+    relatedCities: ["paris", "bordeaux", "rennes", "nantes", "la-rochelle"],
+    tags: ["irish expat france", "ireland to france", "EU freedom of movement", "moving from ireland", "expat"],
+  },
+  {
+    slug: "metz-nancy-living-guide-2026",
+    title: "Metz and Nancy: the Grand Est's twin cities compared",
+    metaTitle: "Living in Metz or Nancy 2026 — Grand Est City Guide",
+    metaDesc:
+      "Metz and Nancy are 55km apart in Lorraine but have distinct characters. Metz is Luxembourg's commuter city; Nancy is the art nouveau capital with a university focus. The comparison.",
+    category: "city-guide",
+    emoji: "🏰",
+    readMinutes: 6,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Metz and Nancy are often discussed in the same breath — both in Lorraine, both part of the Metz-Nancy metropolitan area, both well below the national average in housing costs. But they have different characters and different economic attractors. Metz has pivoted towards Luxembourg's overflow economy (40 minutes from Luxembourg city by TER, which matters enormously for salaries). Nancy has invested in its extraordinary built heritage and university identity. Which suits you depends on why you're going.",
+    sections: [
+      {
+        heading: "Metz: the Luxembourg commute city",
+        body: "Luxembourg city's salary levels are among Europe's highest — European institutions, financial services, and a favourable corporate tax environment have produced a concentrated economy with very high wages in a small country. Many Luxembourg workers live in Metz and commute: the TER takes 40 minutes, property is a fraction of Luxembourg's, and Metz offers a genuine French urban life rather than the sometimes sterile quality of Luxembourg itself. Property in Metz averages €2,000-2,800/m². This cross-border dynamic has pushed Metz's housing market up relative to its size, but it remains cheap by French metropolitan standards. For the specific case of workers employed in Luxembourg, Metz is one of France's most financially rational residential choices.",
+      },
+      {
+        heading: "Nancy: heritage city with a university focus",
+        body: "Nancy's Place Stanislas — a UNESCO World Heritage gilded baroque square — is one of France's most arresting public spaces, and it sets the tone for a city that takes its built environment seriously. The city's art nouveau heritage (the École de Nancy was one of Europe's most important art nouveau movements, and the buildings remain) gives the residential districts an unusually attractive stock of older buildings. The University of Lorraine (55,000 students across Lorraine, with significant Nancy presence) drives the cultural and economic life. Property in Nancy averages €1,800-2,600/m². The economy is more dependent on public sector and education than Metz — which makes it more stable but limits private-sector career options.",
+      },
+      {
+        heading: "Practical comparison: what differs day to day",
+        body: "Luxembourg accessibility: Metz wins clearly (40 min TER). Paris by TGV: Metz takes 1h20, Nancy takes 1h30 — essentially equivalent. Strasbourg: 1h30 from Nancy, 1h30 from Metz. Belgium and Germany are accessible from both. Climate: continental, cold winters (regular frost and some snow), warm summers, more sunshine than Atlantic France (about 1,700-1,800 hours/year). University energy: Nancy has significantly more visible student life. Cultural events: Nancy's heritage identity creates a richer calendar for classical music, art, and heritage events. Food: both have good restaurant scenes given their size; the Lorraine charcuterie (quiche lorraine, potée, mirabelle plum desserts) is genuinely local to the region.",
+      },
+      {
+        heading: "Housing: affordable with different profiles",
+        body: "Both cities are significantly cheaper than Strasbourg, Lyon, or Bordeaux. Metz has a newer, more uniform residential stock in many neighbourhoods (post-WWII reconstruction); Nancy has more varied architecture including the art nouveau quarters (Quartier Haussmann, rue Félix-Faure). T2 rents in both cities: €550-750/month. For buyers: Metz property has appreciated faster due to Luxembourg demand; Nancy is marginally more stable but less likely to see the same appreciation trajectory. Both cities have populations in the 110,000-130,000 range — compact enough to be walkable, large enough to have full urban infrastructure.",
+      },
+      {
+        heading: "Which city for which profile",
+        body: "Metz suits: professionals working in Luxembourg, people who prioritise financial optimisation (Luxembourg salary, French cost of living), those who want newer housing stock and a more pragmatic city character. Nancy suits: people who value heritage and aesthetics, students and academics, cultural professionals, anyone for whom the art nouveau district or the Place Stanislas is a meaningful daily backdrop. Remote workers: both are equally viable — both have excellent fibre coverage and adequate coworking scenes. Families: both have comparable school provision and child services. If neither Luxembourg employment nor Nancy's heritage is your primary driver, the price difference between the two is small enough not to be determinative.",
+      },
+    ],
+    relatedCities: ["metz", "nancy", "thionville", "strasbourg", "luxembourg-city"],
+    tags: ["metz", "nancy", "lorraine", "grand est", "luxembourg commute"],
+  },
 ];
 
 export function getEnGuide(slug: string): EnGuide | undefined {
