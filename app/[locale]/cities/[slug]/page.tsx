@@ -197,6 +197,14 @@ export default async function EnCityPage({ params }: Props) {
               { href: "tax", emoji: "🧾", label: "Property tax" },
               { href: "honest-review", emoji: "⭐", label: "Honest review" },
               { href: "climate-2040", emoji: "🌡️", label: "Climate 2040" },
+              { href: "seasons", emoji: "🌷", label: "Seasons" },
+              { href: "neighbourhoods", emoji: "🏘️", label: "Neighbourhoods" },
+              { href: "vibe", emoji: "✨", label: "City vibe" },
+              { href: "profiles", emoji: "👤", label: "Lifestyle profiles" },
+              { href: "fingerprint", emoji: "🔮", label: "City fingerprint" },
+              { href: "internet-quality", emoji: "📶", label: "Internet quality" },
+              { href: "get-settled", emoji: "📋", label: "Get settled" },
+              { href: "housing", emoji: "🏠", label: "Housing" },
               { href: "overview", emoji: "🗺️", label: "Full overview" },
             ].map((s) => (
               <Link
