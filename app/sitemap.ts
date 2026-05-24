@@ -66,6 +66,7 @@ const SITEMAP_CHUNKS_EN = [
   "en-calculators",
   "en-quality-of-life",
   "en-moving-from",
+  "en-gentrification",
 ] as const;
 
 const SITEMAP_CHUNKS = IS_EN ? SITEMAP_CHUNKS_EN : SITEMAP_CHUNKS_FR;
@@ -886,6 +887,15 @@ function enVacationsSection(): MetadataRoute.Sitemap {
   ];
 }
 
+function enGentrificationSection(): MetadataRoute.Sitemap {
+  return CITIES_SEED.map((c) => ({
+    url: `${BASE_URL}/gentrification/${c.slug}`,
+    lastModified: CITY_DATA_UPDATED,
+    changeFrequency: "monthly" as const,
+    priority: 0.55,
+  }));
+}
+
 function enQualityOfLifeSection(): MetadataRoute.Sitemap {
   const MACRO_SLUGS = [
     "cote-atlantique", "arc-mediterraneen", "arc-alpin",
@@ -1069,6 +1079,7 @@ export default async function sitemap({ id }: { id: Promise<string> }): Promise<
     case "en-calculators": return enCalculatorsSection();
     case "en-quality-of-life": return enQualityOfLifeSection();
     case "en-moving-from": return enMovingFromSection();
+    case "en-gentrification": return enGentrificationSection();
     default: return [];
   }
 }
