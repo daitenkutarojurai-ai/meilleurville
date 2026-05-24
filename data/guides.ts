@@ -19768,6 +19768,252 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["mobilité douce France 2026", "vivre sans voiture France", "meilleures villes vélo France", "transport en commun France", "cycliste France ville"],
   },
+  {
+    slug: "brest-vs-rennes-comparatif-2026",
+    title: "Brest ou Rennes en 2026 : laquelle choisir ? Comparatif complet",
+    metaTitle: "Brest vs Rennes 2026 — comparatif : prix, emploi, qualité de vie, météo",
+    metaDesc: "Brest ou Rennes ? Comparatif complet 2026 : loyers, marché de l'emploi, vie culturelle, météo, transport — pour choisir la bonne ville bretonne.",
+    category: "comparaison",
+    emoji: "⚓",
+    readMinutes: 9,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "Brest et Rennes sont les deux grandes villes de Bretagne — et elles n'ont presque rien en commun hormis la région et la pluie. Rennes est la capitale régionale, connectée à Paris en 1h30 de TGV, avec un écosystème tech et une scène culturelle établie. Brest est une ville portuaire et navale à l'extrême bout du Finistère, avec une identité plus brute, des loyers 30 % moins chers et une façade atlantique qui ne ressemble à rien d'autre en France. Choisir l'une ou l'autre, c'est choisir deux manières très différentes de vivre en Bretagne.",
+    sections: [
+      {
+        heading: "Prix et coût de vie",
+        body: "Brest gagne haut la main sur ce critère. Les loyers y sont 25-35 % inférieurs à Rennes : T2 meublé à Brest 480-620 €/mois contre 650-900 €/mois à Rennes. L'immobilier à l'achat est encore plus décalé : comptez 1 500-2 000 €/m² à Brest contre 2 400-3 200 €/m² à Rennes. Une maison de ville avec jardin à Brest s'achète 180-250 k€ ; équivalent rennais : 280-400 k€. Les restaurants et services sont également moins chers à Brest. Sur le seul critère budget, Brest est l'une des grandes villes les plus abordables de France.",
+      },
+      {
+        heading: "Emploi et marché du travail",
+        body: "Rennes domine sur l'emploi. L'écosystème tech rennais (Thales, Orange, Airbus, Capgemini, startups) génère des emplois qualifiés que Brest ne peut pas égaler en volume. Rennes est aussi siège de grandes administrations (région Bretagne, préfecture), universités importantes et école de commerce reconnue. Brest a ses points forts : base navale (Marine Nationale — premier employeur), Ifremer (recherche marine de rang mondial), Finistère Mer Vent (filière éolien offshore), CHU Brest. La ville est incontournable pour les profils défense-naval, océanographie, ou éolien offshore. Pour tout le reste, Rennes a plus d'offres.",
+      },
+      {
+        heading: "Météo et cadre naturel",
+        body: "Sur la météo, il n'y a pas de vainqueur — les deux villes sont bretonnes. Brest est plus exposée aux vents atlantiques et aux pluies horizontales en hiver, mais reçoit moins de jours de gel que Rennes (temperatures plus douces grâce à l'océan). Rennes est plus continentale, avec des étés plus chauds mais aussi plus de canicule depuis 2019. L'avantage de Brest est son accès immédiat à la mer : plages de la presqu'île de Crozon à 45 min, côtes sauvages, rade de Brest (un des plus grands estuaires d'Europe). Rennes est à 30 min de Saint-Malo en train et 1h de la côte en voiture — accessible mais pas immédiat.",
+      },
+      {
+        heading: "Transport et connexion",
+        body: "Rennes a un avantage décisif : TGV Paris en 1h30, métro 2 lignes, réseau Star bien maillé. Brest est au bout du monde ferroviaire français : Paris-Brest en TGV prend 3h45-4h avec correspondance à Rennes. C'est l'un des trajets les plus longs vers une grande ville de province. Aéroport Brest Bretagne (vols Air France, Transavia, Volotea) compense partiellement. Pour ceux qui doivent aller régulièrement à Paris, Rennes s'impose. Pour ceux qui coupent le lien parisien, Brest n'est pas un inconvénient.",
+      },
+      {
+        heading: "Vie quotidienne et identité",
+        body: "Brest a un caractère qui plaît ou ne plaît pas. La ville a été rasée à 80 % en 1944 et reconstruite selon un plan en damier — belle ville de la reconstruction, très lisible, mais sans le bâti ancien de Rennes ou Dinan. L'identité ouvrière et maritime est forte. La population est moins bobo, moins « TGV-Paris », plus ancrée localement. Rennes est plus étudiante, plus branchée, avec une scène culturelle et musicale (Transmusicales, Festival des Tombées de la Nuit) de réputation nationale. Vie nocturne plus développée. Marchés — Rennes a le marché des Lices (l'un des plus grands de France) ; Brest a le marché de Saint-Louis, moins spectaculaire mais local et authentique.",
+      },
+      {
+        heading: "Le verdict selon le profil",
+        body: "**Choisissez Brest si** : vous travaillez dans la marine, l'océanographie, ou l'éolien offshore ; vous cherchez un coût de vie très bas dans une ville avec services complets ; vous aimez la mer au quotidien et le bout du monde vous attire plutôt que vous effraie. **Choisissez Rennes si** : vous cherchez un emploi dans la tech, les administrations ou les grandes entreprises ; vous avez besoin de la connexion TGV Paris ; vous voulez une ville étudiante animée avec une vie culturelle riche.",
+      },
+    ],
+    relatedCities: ["brest", "rennes", "lorient"],
+    relatedGuides: [
+      "brest-vs-lorient-comparatif-2026",
+      "quitter-brest-guide-2026",
+      "quitter-rennes-guide-2026",
+    ],
+    tags: ["Brest vs Rennes 2026", "comparatif Brest Rennes", "choisir entre Brest et Rennes", "vivre en Bretagne quelle ville", "Brest Rennes coût de vie emploi"],
+  },
+  {
+    slug: "angers-vs-tours-comparatif-2026",
+    title: "Angers ou Tours en 2026 : laquelle choisir ? Comparatif complet",
+    metaTitle: "Angers vs Tours 2026 — comparatif : prix, emploi, qualité de vie, Val de Loire",
+    metaDesc: "Angers ou Tours ? Comparatif complet 2026 : loyers, marché de l'emploi, patrimoine UNESCO, vie étudiante et connexions TGV.",
+    category: "comparaison",
+    emoji: "🏰",
+    readMinutes: 8,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "Angers et Tours se disputent depuis des siècles le titre de capitale du Val de Loire — un territoire classé au patrimoine mondial de l'UNESCO pour ses châteaux et ses jardins. En 2026, elles se disputent surtout le même bassin d'acquéreurs : télétravailleurs parisiens cherchant la « douceur angevine » ou la « douceur tourangelle », retraités attirés par le vin et le patrimoine, jeunes actifs fuyant les prix parisiens. Deux villes similaires en taille, différentes en caractère.",
+    sections: [
+      {
+        heading: "Prix immobilier et coût de vie",
+        body: "Les deux villes sont comparables : Angers tourne autour de 2 200-2 700 €/m² pour les appartements anciens, Tours autour de 2 000-2 500 €/m². Tours est légèrement moins chère, avec un marché des maisons individuelles en première couronne particulièrement accessible (200-300 k€ pour une maison 4 pièces à Joué-lès-Tours ou Saint-Cyr-sur-Loire). Loyers T2 : Angers 580-750 €/mois, Tours 540-700 €/mois. Les deux villes ont connu une hausse post-Covid mais se sont stabilisées depuis 2023.",
+      },
+      {
+        heading: "Emploi : deux économies différentes",
+        body: "Angers se distingue par son tissu industriel — Michelin (siège d'une usine majeure), Groupe SEB, filière végétale (horticulture, semences) et une économie diversifiée. Le Pôle d'économie végétale est une spécificité nationale. Angers est aussi siège de grandes mutuelles et d'administrations. Tours a une économie plus tertiaire : pharmacie (Chiesi, Pfizer historiquement), tourisme (capital du tourisme mondial des châteaux), administration (préfecture de région Centre-Val de Loire), université (30 000 étudiants). Pour les profils industriels, Angers est légèrement mieux. Pour les profils santé, tourisme ou enseignement-recherche, Tours tient la comparaison.",
+      },
+      {
+        heading: "Connexion Paris et transport",
+        body: "Les deux villes sont bien connectées à Paris en TGV : Angers-Paris en 1h35, Tours-Paris en 1h05. Tours gagne sur ce point — c'est l'une des connexions TGV les plus rapides de province. Angers a une courte avance sur le tramway intérieur (3 lignes) ; Tours a 1 ligne de tramway mais en extension. Les deux sont cyclables en centre-ville. L'aéroport de Tours est petit mais actif (Ryanair, Dublin, Maroc).",
+      },
+      {
+        heading: "Vie culturelle et patrimoine",
+        body: "Le Val de Loire est un terrain de jeu exceptionnel pour les amateurs de patrimoine : châteaux de Chambord, Chenonceau, Amboise, Villandry — tous à moins d'une heure de Tours ou d'Angers. Côté vins : l'Anjou-Saumur (autour d'Angers) et la Touraine-Vouvray (autour de Tours) sont deux appellations distinctes, également excellentes. Angers a le château des rois d'Anjou et la tapisserie de l'Apocalypse, patrimoine mondial unique. Tours a le Vieux-Tours (maisons à colombages) et une scène gastronomique reconnue (fromages de chèvre, rillettes). Socialement, Tours est perçue comme légèrement plus animée avec une plus grande densité de restaurants et bars en centre-ville.",
+      },
+      {
+        heading: "Verdict selon le profil",
+        body: "**Angers** : choisissez-la si vous cherchez un emploi industriel ou dans l'économie végétale, si vous aimez une identité de ville à taille humaine avec un tissu associatif fort et une ambiance moins « vitrine patrimoine ». **Tours** : choisissez-la si la connexion Paris (1h05) est décisive, si vous aimez une plus grande effervescence touristique (festivals comme les Fêtes musicales en Touraine), ou si vous ciblez le secteur santé/pharmacie.",
+      },
+    ],
+    relatedCities: ["angers", "tours", "saumur", "joue-les-tours"],
+    relatedGuides: [
+      "le-mans-vs-tours-comparatif-2026",
+      "quitter-angers-guide-2026",
+      "quitter-tours-guide-2026",
+    ],
+    tags: ["Angers vs Tours 2026", "comparatif Angers Tours", "choisir Angers ou Tours", "Val de Loire vivre quelle ville", "immobilier Angers Tours comparatif"],
+  },
+  {
+    slug: "clermont-ferrand-vs-limoges-comparatif-2026",
+    title: "Clermont-Ferrand ou Limoges en 2026 : comparatif complet",
+    metaTitle: "Clermont-Ferrand vs Limoges 2026 — coût de vie, emploi, qualité de vie Massif Central",
+    metaDesc: "Clermont-Ferrand ou Limoges ? Comparatif 2026 : loyers, marché de l'emploi, vie étudiante, cadre naturel et connexions.",
+    category: "comparaison",
+    emoji: "🌋",
+    readMinutes: 8,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "Clermont-Ferrand et Limoges sont deux villes du Massif Central central qui partagent la réputation d'être « sous-estimées » — et à raison. Deux villes moyennes avec une vraie qualité de vie, des loyers sages, et des profils économiques distincts : Michelin et l'industrie pour Clermont, porcelaine et Legrand pour Limoges. Ce comparatif aide à choisir entre deux France profonde qui ne ressemblent pas à la France qu'on imagine.",
+    sections: [
+      {
+        heading: "Coût de vie et immobilier",
+        body: "Les deux villes sont parmi les moins chères de France pour une ville avec un CHU, une université et un réseau de transports correct. Limoges est légèrement moins chère : T2 meublé 400-550 €/mois contre 470-620 €/mois à Clermont. Prix immobilier à l'achat : Limoges tourne autour de 1 200-1 600 €/m², Clermont autour de 1 600-2 100 €/m². À Limoges, on peut acheter un appartement de 60 m² en bon état pour 70-90 k€ — c'est parmi les prix les plus bas de France pour une grande ville. Un télétravailleur avec un salaire parisien peut vivre confortablement dans les deux villes sans effort financier particulier.",
+      },
+      {
+        heading: "Emploi : deux économies différentes",
+        body: "Clermont-Ferrand est dominée par Michelin — le premier employeur privé de la ville et l'un des plus importants de France, avec plusieurs milliers de salariés directs et un écosystème de sous-traitants. Le groupe Limagrain (semences) est le second grand employeur. L'université Clermont Auvergne (35 000 étudiants) anime aussi la recherche. Limoges est dominée par Legrand (matériel électrique, siège mondial), la porcelaine haut de gamme (Bernardaud, Haviland), et les hôpitaux (CHU important pour sa taille). Pour les ingénieurs matériaux, chimie ou caoutchouc : Clermont. Pour les profils électrotechnique ou design industriel : Limoges.",
+      },
+      {
+        heading: "Cadre naturel",
+        body: "Clermont-Ferrand gagne clairement sur ce point : le Puy-de-Dôme (volcano de 1 465 m) est visible depuis la ville. La Chaîne des Puys — classée au patrimoine mondial UNESCO depuis 2018 — est à 20 min en voiture. Ski à Super Besse à 50 min. Randonnées dans les volcans depuis les portes de la ville. Limoges offre aussi un cadre plaisant (lacs, Creuse), mais sans cette proximité spectaculaire avec des espaces naturels exceptionnels. Pour les amateurs de plein air, Clermont est un avantage compétitif clair.",
+      },
+      {
+        heading: "Transport et connexion",
+        body: "Clermont-Ferrand est pénalisée sur ce point : pas de TGV direct Paris (3h15 en Intercités, ou TGV via Lyon = 2h45 mais plus cher). Annecy, Lyon et Vichy sont accessibles, mais Paris reste lointain. Limoges a une connexion TGV Paris (Haute-Vienne) à 2h20 — bien meilleure que Clermont pour ceux qui ont des liens parisiens. Clermont a un aéroport actif (Lyon-Paris en correspondance, quelques vols européens) ; Limoges a un petit aéroport avec vols Paris et quelques destinations UK.",
+      },
+      {
+        heading: "Verdict",
+        body: "**Choisissez Clermont-Ferrand** si le grand air et les volcans comptent dans votre vie quotidienne, si vous travaillez dans l'industrie du pneumatique ou de la chimie, ou si la vie étudiante et le dynamisme d'une ville plus grande (150 000 habitants vs 130 000) vous convient. **Choisissez Limoges** si le budget est très serré, si vous avez besoin du TGV Paris, ou si vous travaillez chez Legrand ou dans le secteur de la santé limousin.",
+      },
+    ],
+    relatedCities: ["clermont-ferrand", "limoges", "vichy"],
+    relatedGuides: [
+      "quitter-clermont-ferrand-guide-2026",
+      "quitter-limoges-guide-2026",
+      "vivre-en-auvergne-profonde-guide-2026",
+    ],
+    tags: ["Clermont-Ferrand vs Limoges 2026", "comparatif Clermont Limoges", "choisir Clermont-Ferrand ou Limoges", "Massif Central vivre quelle ville", "coût de vie Clermont Limoges"],
+  },
+  {
+    slug: "meilleures-villes-oenophiles-vins-france-2026",
+    title: "Les meilleures villes de France pour les amateurs de vin en 2026",
+    metaTitle: "Meilleures villes amateurs de vin France 2026 — vignobles à portée, culture viticole, restaurants",
+    metaDesc: "Où vivre en France quand le vin est une passion ? Classement des 10 meilleures villes : proximité des vignobles, caves, restaurants, événements viticoles.",
+    category: "lifestyle",
+    emoji: "🍷",
+    readMinutes: 9,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "La France est la première nation viticole mondiale, mais toutes ses villes ne sont pas égales pour vivre avec le vin comme compagnon quotidien. Pour l'amateur sérieux — pas seulement le touriste qui achète un château en souvenir — il faut une combinaison de proximité aux vignobles, de cavistes indépendants compétents, de restaurateurs qui comprennent l'accord mets-vins, et d'une communauté d'amateurs avec qui partager ce qui est fondamentalement un plaisir social. Voici où s'installer.",
+    sections: [
+      {
+        heading: "Les critères retenus",
+        body: "Pour ce classement, on a évalué : la distance aux vignobles les plus proches (idéal < 30 min), la densité de cavistes indépendants de qualité (pas la Grande Épicerie ni Nicolas de centre commercial), la présence de foires et salons viticoles accessibles au public (pas seulement aux professionnels), les restaurants avec sommeliers formés, et enfin la possibilité d'acheter en direct à la propriété dans un rayon raisonnable.",
+      },
+      {
+        heading: "Top 5 : les villes vins",
+        body: "**1. Bordeaux** : la capitale mondiale du vin. Les vignobles du Médoc, Saint-Émilion, Pomerol et Pessac-Léognan sont à 20-40 min de voiture. Les négociants et courtiers du Quai des Chartrons sont à 10 min à vélo. Vinexpo bordeaux, la fête du vin (biennale, 300 000 visiteurs). Cave Brunet, Le Verre Bouteille, Bordeaux Vinothèque — des cavistes de référence nationale. **2. Dijon** : porte d'entrée de la Bourgogne. Nuits-Saint-Georges à 20 min, Gevrey-Chambertin à 15 min, la Route des Grands Crus passe sous les fenêtres. L'école des Vins de Bourgogne forme le monde entier. Caviste Quentin Leroux référence locale. **3. Lyon** : capitale de la Beaujolais + portail Nord du Rhône. Beaujeu à 60 min, Ampuis (Côte-Rôtie) à 40 min, Condrieu à 45 min. Les bouchons lyonnais ont une culture du vin au verre incomparable en France. Pas de vignobles à 10 min comme Bordeaux ou Dijon, mais la densité de culture viticole urbaine est unique. **4. Colmar (Alsace)** : au cœur de la Route des Vins d'Alsace. Riesling, Gewurztraminer, Pinot Gris en direct producteur à 5 min. Festival Alsace Alsace. Cave Wolfberger + dizaines de producteurs locaux. À noter : Colmar est petite (70 000 hab) et peut manquer d'animation hors saison. **5. Reims** : capitale du Champagne. Moët & Chandon, Taittinger, Ruinart sont à 20 min des caves historiques. La Route du Champagne part de la ville. Un caviste comme La Cave des Sacres concentre une sélection exceptionnelle de grower champagnes. Bonus : Sciences Po Reims et l'université rémoise créent une population éduquée consommatrice de belles bouteilles.",
+      },
+      {
+        heading: "Les bonnes surprises",
+        body: "**Bayonne / Bordeaux (Pyrénées-Atlantiques)** : Irouléguy et Jurançon sont les deux AOC basques, difficiles à trouver ailleurs qu'ici. La culture gastronomique locale place le vin naturellement au centre de la table. **Montpellier** : à 30 min du Pic Saint-Loup, de Pic Saint-Loup, et des AOP Languedoc. Le marché du vin nature a explosé — des cavistes comme La Cave des Abbés ou Vert et Rouge font référence. Budget vins significativement inférieur aux Bordeaux ou Bourgogne. **Tours** : Val de Loire, Vouvray, Bourgueil, Chinon — des vins de Loire magnifiques produits à 20-40 min. La Guinguette du Vieux Tours l'été, caves troglodytes de Rochecorbon.",
+      },
+      {
+        heading: "Ce que beaucoup ignorent : les vins confidentiels",
+        body: "Habiter dans une région de vins peu connus peut être plus intéressant pour l'amateur éclairé : vins de la Loire depuis Angers (Anjou, Saumur-Champigny), vins du Jura depuis Lons-le-Saunier (Vin Jaune, Savagnin), vins corses depuis Bastia (Nielluccio, Vermentino). Ces terroirs sont sous-exploités médiatiquement mais permettent d'acheter en direct producteur à des prix impossibles à Paris ou Bordeaux.",
+      },
+      {
+        heading: "Acheter du vin à Paris vs en région",
+        body: "Un Bordeaux grand cru classé acheté au négoce à Bordeaux coûte 15-25 % moins cher qu'en cave parisienne pour les mêmes bouteilles — et c'est encore moins cher en achat direct au domaine. L'amateur qui s'installe dans un bassin viticole peut constituer une cave de qualité en 2-3 ans à un coût prohibitif depuis Paris. La logistique est aussi plus simple (cave naturelle dans les maisons anciennes en Bourgogne, cave creusée en tuffeau en Touraine).",
+      },
+    ],
+    relatedCities: ["bordeaux", "dijon", "lyon", "reims", "colmar"],
+    relatedGuides: [
+      "meilleures-villes-gastronomie-france-2026",
+      "vivre-en-alsace-guide-2026",
+      "vivre-en-bourgogne-franche-comte-guide-2025",
+    ],
+    tags: ["meilleures villes amateurs de vin France 2026", "vivre près vignobles France", "oenophile France ville", "Bordeaux Bourgogne Champagne vivre", "culture vin France villes"],
+  },
+  {
+    slug: "vivre-en-berry-guide-2026",
+    title: "Vivre dans le Berry en 2026 : Bourges, Châteauroux — bilan honnête",
+    metaTitle: "Vivre dans le Berry 2026 — Bourges, Châteauroux : coût de vie, patrimoine, qualité de vie",
+    metaDesc: "Guide Berry 2026 : Bourges la médiévale, Châteauroux l'accessible. Loyers très bas, patrimoine classé UNESCO, marché de l'emploi réel et vie quotidienne.",
+    category: "region",
+    emoji: "🐏",
+    readMinutes: 8,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "Le Berry est l'une des régions les plus méconnues de France — et l'une des plus abordables. Entre Loire et Creuse, ce territoire de plaines agricoles et de bocage héberge deux villes que la grande migration post-Covid n'a pas encore atteintes : Bourges, avec sa cathédrale gothique classée au patrimoine mondial de l'UNESCO et un tissu industriel discret mais solide, et Châteauroux, plus petite, plus accessible encore, en train de se réinventer doucement. Pour qui cherche l'espace, le calme et des prix immobiliers qui n'existent plus ailleurs, le Berry mérite l'attention.",
+    sections: [
+      {
+        heading: "Bourges : la belle endormie",
+        body: "Bourges (65 000 habitants) est l'une des grandes surprises de la France profonde. Sa cathédrale Saint-Étienne (XIIe-XIIIe siècle, nef centrale la plus haute de France après Amiens) est classée UNESCO depuis 1992 — ce qui en fait un monument de niveau mondial dans une ville de taille modeste. Le palais Jacques Cœur (XVe), le quartier médiéval et les nombreux hôtels particuliers forment un ensemble patrimonial exceptionnel. Économiquement : Bourges a su maintenir un tissu industriel — MBDA (missiles balistiques, défense), Safran Helicopter Engines (maintenance), et quelques PME métallurgie. Le Printemps de Bourges (festival de musique, 200 000 participants/an) est l'un des rendez-vous culturels les plus importants de France. TGV Paris (via Les Aubrais) : 2h15.",
+      },
+      {
+        heading: "Châteauroux : l'option encore plus accessible",
+        body: "Châteauroux (43 000 habitants) est la préfecture de l'Indre — département classé parmi les moins denses de France. Prix immobiliers : 800-1 200 €/m² pour les appartements, maisons de ville 4 pièces pour 80-120 k€. Difficile de faire moins cher dans une ville avec un CHU, un lycée classique-moderne et un réseau de transport fonctionnel. Le déficit d'image est réel : la ville n'a pas de monument emblématique, peu de tourisme, une économie qui souffre depuis la fermeture de la base américaine de Déols dans les années 1990. Mais pour un télétravailleur cherchant une maison avec jardin pour 100-150 k€ à 2h30 de Paris, Châteauroux est une option sérieuse.",
+      },
+      {
+        heading: "Coût de vie dans le Berry",
+        body: "Le Berry est l'une des régions les moins chères de France — sans compromis sur la sécurité ou les services de base. Loyer T2 à Bourges : 380-500 €/mois. À Châteauroux : 320-430 €/mois. Immobilier à l'achat : parmi les prix les plus bas de France pour une ville avec hôpital et lycée. Courses, restaurants, services : 10-15 % moins chers que la moyenne nationale. Un télétravailleur avec 2 500 €/mois net peut épargner significativement dans le Berry — ce qui n'est pas possible à Bordeaux, Lyon ou même Clermont.",
+      },
+      {
+        heading: "Ce que le Berry offre vraiment",
+        body: "Des randonnées dans la Sologne (réserve naturelle humide, étangs, cerfs), des marchés locaux (fromages de chèvre, Valençay AOC, cochons de lait), et le silence. Beaucoup de silence. La Creuse et l'Indre sont des rivières de pêche de premier ordre. Les étangs de la Brenne (5 000 ha) sont un paradis ornithologique. L'hiver est froid et gris, la densité de population très faible — ce qui peut être exactement ce qu'on cherche, ou une raison de ne pas y aller.",
+      },
+      {
+        heading: "À qui convient le Berry ?",
+        body: "**Idéal pour** : télétravailleurs cherchant une grande maison à prix cassé, retraités attirés par le calme et le patrimoine, familles fuyant les grandes villes avec enfants en bas âge, chasseurs et pêcheurs, amateurs de randonnée et de nature sauvage. **À éviter si** : vous avez besoin d'une scène culturelle dense, d'un marché de l'emploi local diversifié, ou d'un accès TGV direct à Paris (la liaison n'est pas directe depuis Bourges ou Châteauroux).",
+      },
+    ],
+    relatedCities: ["bourges", "chartres", "orleans"],
+    relatedGuides: [
+      "vivre-en-centre-val-de-loire-guide-2026",
+      "vivre-en-creuse-guide-2026",
+      "vivre-retraite-1500-euros-mois-france-2026",
+    ],
+    tags: ["vivre dans le Berry 2026", "Bourges Châteauroux guide de vie", "immobilier Berry prix", "région Berry qualité de vie", "télétravail Berry France profonde"],
+  },
+  {
+    slug: "villes-france-teletravail-et-nature-2026",
+    title: "Télétravail + nature : les villes françaises qui combinent les deux en 2026",
+    metaTitle: "Télétravail et nature France 2026 — top 12 villes : fibre, espace, grand air",
+    metaDesc: "Les meilleures villes françaises pour télétravailler tout en vivant au vert : fibre optique, nature à 20 min, logement spacieux, communauté de remote workers.",
+    category: "teletravail",
+    emoji: "🌲",
+    readMinutes: 9,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "Le télétravail a libéré des millions de Français de la contrainte du trajet quotidien — mais beaucoup ont simplement reproduit la vie urbaine dans une ville légèrement moins chère, sans vraiment accéder à la nature qu'ils cherchaient. Ce guide cible le profil spécifique : je travaille de chez moi à plein temps (ou quasi), j'ai besoin d'une fibre correcte, d'un logement spacieux avec extérieur, et je veux de la vraie nature accessible à pied ou en vélo depuis mon domicile — pas à 2h de route. Voici les 12 villes où cette combinaison existe réellement.",
+    sections: [
+      {
+        heading: "Les critères : nature réelle, pas nature de weekendier",
+        body: "Pour cette sélection, « nature accessible » signifie : forêt, montagne, mer ou rivière atteignable en moins de 30 minutes à pied ou à vélo depuis le centre-ville. Pas la nature qui nécessite une voiture, un week-end organisé et un parking. Côté connectivité : couverture fibre (FttH) à plus de 95 % sur la commune, débit montant suffisant pour les visioconférences en 4K. Côté logement : présence de maisons avec jardin ou appartements avec terrasse à des prix inférieurs à 300 000 € en achat ou 800 €/mois en location.",
+      },
+      {
+        heading: "Le top 12 : villes télétravail + nature",
+        body: "**1. Grenoble** : forêts et montagnes à 15 min à pied, fibre omniprésente, logement abordable comparé aux Alpes. Coworking dense, communauté tech active. Hiver froid mais pas prohibitif. **2. Annecy** : lac à 10 min, Aravis à 30 min. Loyers élevés mais compensés par la qualité de vie exceptionnelle. Fibre couverte à > 98 %. **3. Pau** : Pyrénées à 30 min (vue sur les sommets depuis la ville), vélo en ville, plage atlantique à 1h. Prix très bas pour la qualité de vie. Bon bassin de remote workers francophones. **4. Chambéry** : lac du Bourget à 15 min, Bauges à 20 min, Chartreuse en face. Moins chère qu'Annecy, même cadre naturel. **5. Brest** : mer et presqu'île de Crozon à 45 min. Nature atlantique sauvage. Loyers très bas. Fibre couverte. Hiver venteux mais jamais froid. **6. Clermont-Ferrand** : Chaîne des Puys à 20 min (UNESCO), randonnées depuis la ville. CHU + université garantissent les services. **7. Gap** : Hautes-Alpes, Écrins à portée. Moins connu, très accessible en immobilier, 300 jours de soleil/an. Communauté remote workers en croissance. **8. Dax / Mont-de-Marsan** : forêt des Landes à 5 min, Pyrénées à 1h, océan à 1h. Très abordable. Moins de vie nocturne mais calme total. **9. Bayonne** : Pyrénées + océan. Communauté surf + télétravail. Prix en hausse mais encore raisonnables. **10. Aurillac** : Cantal volcanique, nature totale, loyers < 400 €/T2. Pour les vrais amateurs de rural profond + bon débit. **11. Millau** : gorges du Tarn, plateaux caussenards, viaduc Millau à 5 min. Petit (22 000 hab) mais bien équipé. **12. Albi** : brique rouge, Tarn, Cévennes à 1h. Classé UNESCO. Communauté active d'installés.",
+      },
+      {
+        heading: "Les erreurs à éviter",
+        body: "Ne pas confondre « ville proche de la nature » et « ville en zone blanche télécoms ». Certains villages ou petites villes à l'environnement idyllique n'ont pas encore la fibre ou un débit descendant satisfaisant. Vérifier sur le site Ariase ou le très officiel map.arcep.fr avant de signer un bail. Deuxième erreur : la solitude du remote worker solitaire en province. La communauté de coworking et d'autres télétravailleurs fait la différence entre une installation réussie et un retour à Paris au bout de 18 mois. Cherchez un espace de coworking à fréquenter 2 jours/semaine dans la ville cible.",
+      },
+      {
+        heading: "Le budget réel d'une installation télétravail-nature",
+        body: "Budget minimal pour une installation réussie en province nature : loyer + charges T3 ou maison 3 pièces avec jardin : 650-900 €/mois selon la ville. Abonnement fibre : 20-35 €/mois. Coworking ou café de travail : 100-200 €/mois (optionnel). Équipement bureau à domicile : 1 000-2 000 € one-shot. L'économie mensuelle par rapport à Paris est typiquement de 600-1 200 €/mois — soit 7 000-14 000 €/an. En 5 ans, cela finance la mise de fonds d'un achat immobilier en province.",
+      },
+    ],
+    relatedCities: ["grenoble", "annecy", "pau", "clermont-ferrand", "bayonne"],
+    relatedGuides: [
+      "teletravailler-depuis-auvergne-guide-2026",
+      "teletravailler-depuis-nouvelle-aquitaine-guide-2026",
+      "meilleures-villes-fibre-optique-teletravail-france-2026",
+    ],
+    tags: ["télétravail et nature France 2026", "meilleures villes télétravail nature", "remote work nature France", "télétravail en pleine nature France", "vivre en télétravail campagne ville"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
