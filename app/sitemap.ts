@@ -22,9 +22,9 @@ const IS_EN = DEFAULT_LOCALE === "en";
 
 // Honest lastModified values per content family.
 // Bump these when the underlying source actually changes.
-const CITY_DATA_UPDATED = new Date("2026-05-12"); // last seed + score calibration
-const RANKING_UPDATED = new Date("2026-05-12");
-const STATIC_UPDATED = new Date("2026-05-12");
+const CITY_DATA_UPDATED = new Date("2026-05-24"); // last seed + score calibration
+const RANKING_UPDATED = new Date("2026-05-24");
+const STATIC_UPDATED = new Date("2026-05-24");
 const LEGAL_UPDATED = new Date("2026-05-19"); // cgu/confidentialite/mentions-legales
 
 // Order MUST stay stable per locale — the sitemap chunk URL is /sitemap/<index>.xml,
