@@ -12,6 +12,7 @@ import {
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";
 import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { MACRO_REGIONS } from "@/lib/macro-regions";
 
 export async function generateStaticParams() {
   return [{ locale: "en" }];
@@ -25,6 +26,15 @@ export const metadata: Metadata = {
   title: `Overall ranking 2026 · Best quality of life in France across all dimensions`,
   description: `National ranking of ${CITIES_COUNT} French cities across 8 data dimensions (environment, healthcare, employment, quality of life, cycling, safety, demographics, public services). Top 30 most favourable profiles vs top 20 most strained.`,
   alternates: { canonical: `${EN_BASE}/overall-ranking` },
+};
+
+const EN_MACRO_LABEL: Record<string, string> = {
+  "cote-atlantique": "Atlantic Coast",
+  "arc-mediterraneen": "Mediterranean Arc",
+  "arc-alpin": "Alpine Arc",
+  "sud-ouest-gascon": "South-West Gascony",
+  "vallee-du-rhone": "Rhône Valley",
+  "ile-de-france-elargie": "Greater Île-de-France",
 };
 
 const EN_SYNTHESIS_LABEL: Record<string, string> = {
@@ -253,6 +263,24 @@ export default function EnOverallRankingPage() {
             </table>
           </div>
         </Card>
+
+        {/* By macro-region */}
+        <h2 className="mt-12 text-xl font-semibold text-[var(--text-primary)]">By geographic zone</h2>
+        <p className="mt-2 text-sm text-[var(--text-secondary)]">
+          The overall ranking broken down by macro-region — Atlantic coast, Mediterranean arc, Alpine arc and more.
+          Each view restricts to cities in that zone only.
+        </p>
+        <div className="mt-3 grid grid-cols-2 sm:grid-cols-3 gap-3">
+          {MACRO_REGIONS.map((m) => (
+            <Link key={m.slug} href={`/overall-ranking/${m.slug}`} className="block">
+              <Card className="hover:shadow-md transition-shadow h-full">
+                <div className="text-2xl mb-1">{m.emoji}</div>
+                <div className="text-sm font-semibold text-[var(--text-primary)]">{EN_MACRO_LABEL[m.slug] ?? m.label}</div>
+                <div className="text-xs text-[var(--text-tertiary)] mt-1">Top favourable + strained</div>
+              </Card>
+            </Link>
+          ))}
+        </div>
 
         {/* Methodology */}
         <h2 className="mt-12 text-xl font-semibold text-[var(--text-primary)]">Methodology</h2>
