@@ -3725,6 +3725,112 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["paris", "lyon", "bordeaux", "nantes", "marseille"],
     tags: ["moving to france checklist", "france relocation", "first 90 days france", "expat checklist", "visa france"],
   },
+  {
+    slug: "pau-basque-foothills-living-guide-2026",
+    title: "Living in Pau: the Pyrenees at your doorstep, Paris in your pocket",
+    metaTitle: "Living in Pau 2026 — Béarn and Pyrenees Relocation Guide",
+    metaDesc:
+      "Pau is where the Pyrenees meet the city. Affordable, sunny, with genuine urban infrastructure — and the TGV arrives from Paris in 3h45. The honest case for Béarn.",
+    category: "city-guide",
+    emoji: "🏔️",
+    readMinutes: 5,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Pau's Boulevard des Pyrénées is the best urban view in France — a kilometre-long promenade at 300m altitude with the entire Pyrenees chain visible on clear days, from the Pic du Midi to the Pic d'Anie. This is not a marketing claim; it's the specific reason Queen Victoria came here in 1889 and why the English colony built a golf course here in 1856 (one of the oldest in continental Europe). The practical question is whether the city behind the view justifies a relocation, and the honest answer is yes for a specific profile.",
+    sections: [
+      {
+        heading: "What Pau offers",
+        body: "Pau (85,000 people) is the capital of the Pyrénées-Atlantiques department, a university city (25,000 students at Université de Pau et des Pays de l'Adour), and home to Turbomeca (now Safran Helicopter Engines), one of the world's major helicopter engine manufacturers. The Pyrenees are 30-45 minutes away by road (Col d'Aubisque, ski resorts of Gourette and La Pierre-Saint-Martin). Bayonne and Biarritz (the Basque Coast) are 1h30 by TGV. Property averages €1,600-2,200/m² — among France's most affordable for a city with this quality of life and landscape access. The climate is milder than you'd expect at altitude: Pau averages 1,900-2,000 sunshine hours per year, warm summers, mild winters.",
+      },
+      {
+        heading: "The TGV situation and Paris access",
+        body: "Pau has a TGV connection to Paris via Bordeaux (3h45 total), which puts it in a different category from truly isolated Pyrenean cities. Bordeaux is 1h30 by TGV, with frequent departures. This matters: for remote workers who need 1-2 Paris days per month, Pau is feasible; for daily commuters, it isn't. The Bayonne-Pau axis (1h30 by car) creates a practical economic zone: the Bayonne industrial basin and the Basque Country economy are accessible from Pau as a base.",
+      },
+      {
+        heading: "Who moves to Pau and why",
+        body: "The profiles that report best experiences in Pau: people attracted by the mountain access (skiing, hiking, paragliding in the Pyrenees as a primary quality-of-life driver), remote workers earning Paris or Bordeaux salaries, Safran/aeronautics industry employees, and retirees who want urban infrastructure (hospital, university cultural calendar, restaurants) without urban prices. The profile that struggles: career-oriented people in competitive private-sector fields who find the job market too limited and eventually move to Bordeaux or Paris.",
+      },
+    ],
+    relatedCities: ["pau", "bayonne", "lourdes", "tarbes", "bordeaux"],
+    tags: ["pau", "pyrenees", "béarn", "mountain city france", "affordable france southwest"],
+  },
+  {
+    slug: "best-french-cities-artists-creatives-2026",
+    title: "The best French cities for artists and creatives in 2026",
+    metaTitle: "Best French Cities for Artists and Creatives 2026",
+    metaDesc:
+      "Studio space costs, cultural infrastructure density, artist communities, and quality-of-life per euro. The French cities where creative work is genuinely supported rather than merely tolerated.",
+    category: "lifestyle",
+    emoji: "🎨",
+    readMinutes: 6,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "The classic answer to 'where should an artist live in France?' is Paris. The classic counter-argument is that Paris is where artists used to live before they couldn't afford it. This guide looks at where French creative infrastructure (institutions, studios, residencies, audiences, peer communities) actually exists in 2026 — and what it costs to access it.",
+    sections: [
+      {
+        heading: "Paris: still essential, but differently",
+        body: "Paris's creative infrastructure is irreplaceable in certain respects: the gallery system (Marais, Saint-Germain, Belleville, the 10th and 11th arrondissements), the fashion and design industry, the film and music production ecosystem, the performance venues (Philharmonie, Opéra National, the Théâtres de la Ville), and the institutional circuit (Pompidou, Palais de Tokyo, foundations). For artists who need this specific infrastructure — commercial artists, performers, designers with corporate clients, artists pursuing institutional exhibition — Paris remains where the decisions happen. The cost pressure has pushed many artists to the Seine-Saint-Denis (93) and the inner suburbs, but the commute to the centre remains manageable.",
+      },
+      {
+        heading: "Lyon: visual arts and a serious residency scene",
+        body: "Lyon's contemporary art scene is significantly more developed than its national profile suggests. The Biennale d'Art Contemporain de Lyon (biennial, odd years) is one of Europe's most important, attracting 250,000+ visitors. The IAC (Institut d'Art Contemporain) in Villeurbanne and the MAC Lyon (Musée d'Art Contemporain) anchor a permanent contemporary infrastructure. The city has an active residency programme ecosystem (Villa Gillet for writers, numerous visual artist residencies at La Friche and independent spaces). Studio costs are a fraction of Paris. The tech and design sector creates a parallel economy for commercial creatives. For visual artists specifically, Lyon offers institutional credibility without Paris prices.",
+      },
+      {
+        heading: "Marseille: the creative city that resists domestication",
+        body: "Marseille's creative scene operates on its own terms — it has never been as aligned with Paris's institutional gatekeeping as Lyon or Bordeaux. The Friche la Belle de Mai (a former tobacco factory, one of Europe's most significant artist-residency and cultural production complexes) hosts studios, performance spaces, residencies, and events. The city's North African, Italian, and Corsican cultural layers create genuinely distinctive creative output. Housing costs make large studio space accessible. The social environment is more rough-edged than Lyon — Marseille rewards directness and punishes affected sophistication. For artists who find Paris's social hierarchies suffocating, Marseille is a corrective.",
+      },
+      {
+        heading: "Bordeaux, Rennes, Nantes: mid-tier with growing infrastructure",
+        body: "These three cities have invested in creative infrastructure as part of urban identity: Bordeaux (CAPC contemporary art, Méca cultural centre, strong design and wine-aesthetics economy), Rennes (strong music scene — multiple labels, Les Transmusicales festival is one of France's most respected for new music discovery, La Criée contemporary art), Nantes (Lieu Unique as a cultural hub, the Machines de l'Île as a monument to artistic engineering, creative cluster on the Île de Nantes). All three are affordable relative to Paris, have universities producing art graduates, and have venues willing to program new work. For mid-career and emerging artists, they offer more accessible entry points than Paris's saturated scene.",
+      },
+      {
+        heading: "Practical considerations: studios, residencies, and funding",
+        body: "The DRAC (Direction Régionale des Affaires Culturelles) in each region administers national arts funding — for French and EU artists, understanding the DRAC system is more important than choosing a city. The Centre National des Arts Plastiques (CNAP) runs national purchase programmes that support visual artists. Residency databases (Artcena for theatre, Hors les Murs for contemporary circus and street arts) cover all regions. For non-EU artists: funding access is more limited, but the MIF (Mobilité Internationale des Artistes) programme and some Foundation support channels are open to international artists with French work. Language matters more for grant applications than for artistic work itself — French arts administration is conducted in French.",
+      },
+    ],
+    relatedCities: ["paris", "lyon", "marseille", "bordeaux", "nantes"],
+    tags: ["artists france", "creative cities france", "art studios france", "residencies france", "contemporary art"],
+  },
+  {
+    slug: "france-electricity-housing-costs-2026",
+    title: "France utility and housing costs: what you'll actually pay each month",
+    metaTitle: "French Utility and Housing Costs 2026 — Real Monthly Budget Guide",
+    metaDesc:
+      "Electricity tariffs, gas costs, internet, water charges, co-ownership fees (charges de copropriété) — the real monthly costs of French housing beyond the rent or mortgage.",
+    category: "budget",
+    emoji: "💡",
+    readMinutes: 6,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Rent or mortgage is only part of the monthly housing cost in France. Electricity, gas (or heating), internet, water, and for apartment owners and renters the charges de copropriété (building maintenance and service charges) add substantially to the headline figure. This guide covers what you'll actually pay across each category, with honest figures rather than best-case estimates.",
+    sections: [
+      {
+        heading: "Electricity: EDF and the tariff landscape",
+        body: "France's electricity is predominantly nuclear-generated (about 70-75% nuclear share), which historically kept prices lower than most European equivalents. The Tarif Réglementé de Vente (TRV) — the regulated rate from EDF — applies to small consumers. Post-2021, French electricity prices have risen significantly due to European market integration (France's nuclear price is now partly indexed to European gas prices). The current TRV Bleu for a flat (option Base, subscription 6kVA): approximately €9-11/month subscription + €0.21-0.25/kWh. A typical 50m² flat with electric heating: €80-150/month in winter, €30-50/month in summer. Heat pumps reduce this significantly but require installation investment.",
+      },
+      {
+        heading: "Gas, heating, and DPE",
+        body: "French apartment rentals in older buildings often use gas central heating, which has fluctuated dramatically in cost (post-2022 gas crisis). Gas from Engie or alternatives: roughly €0.09-0.12/kWh (2026 rates, stabilised after the 2022-23 spike). A 65m² apartment with gas heating: €100-200/month in winter. The DPE (Diagnostic de Performance Energétique) energy rating on the property tells you the expected annual heating costs — a DPE E or F property is legally required to disclose its estimated annual energy cost, and from 2025 DPE G properties cannot be rented at all in France. Check the DPE before signing any lease for post-2022 rents, as E and F rated properties may see regulated rent increases frozen.",
+      },
+      {
+        heading: "Internet and mobile",
+        body: "France's internet infrastructure is excellent in cities and most medium-sized towns (FTTH fibre is the standard for new connections). Fibre subscription costs: €25-35/month for 1Gbps symmetrical with a 'box' that includes TV and a fixed phone (Free, SFR, Orange, Bouygues are the main operators). Mobile plans: MVNOs (Free Mobile, RED by SFR, Prixtel) offer SIM-only plans from €5-15/month for 20-100GB. The main operators' full contracts are €25-45/month. France's mobile infrastructure is very good in cities; rural coverage is improving but some areas remain patchy. Check Arcep.fr for coverage maps before moving to a rural area.",
+      },
+      {
+        heading: "Charges de copropriété (apartment buildings)",
+        body: "If you're renting or buying in a co-owned apartment building (copropriété — the vast majority of French apartments), you pay monthly charges that cover: building maintenance, building insurance, common area cleaning and utilities, elevator maintenance, concierge if applicable, and the provision fund (fonds de travaux, mandatory since 2017, 5% of the annual budget for future major works). For renters: some charges are recoverable by the landlord ('charges locatives récupérables'): building cleaning, water supply, common heating. For buyers: the total charges depend on the building's state and equipment. Average: €100-300/month for a T2 in a well-maintained city building; €50-150/month in a basic building without elevator. Ask for the last three years of copropriété minutes and the annual report before purchase.",
+      },
+      {
+        heading: "Water, tax foncière, and the total bill",
+        body: "Water in France is billed by the commune and handled by Veolia, Suez, or the local authority. Typical consumption for one person: €15-30/month (combined supply and wastewater treatment). Taxe foncière (property tax paid by owners) varies dramatically by commune: €500-1,500/year for a T2 apartment in most French cities, but some communes have very high rates (check the taux communaux on impots.gouv.fr before buying). Taxe d'habitation on main residences has been abolished for households below a certain income threshold (effectively most households); it still applies to second residences and rental properties. Adding up electricity + gas/heating + internet + charges + water + property tax: budget €400-700/month on top of rent or mortgage for a city apartment.",
+      },
+    ],
+    relatedCities: ["paris", "lyon", "bordeaux", "nantes", "rennes"],
+    tags: ["france utility costs", "electricity france", "housing costs france", "charges copropriété", "monthly budget france"],
+  },
 ];
 
 export function getEnGuide(slug: string): EnGuide | undefined {
