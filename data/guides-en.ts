@@ -3615,6 +3615,116 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["avignon", "nimes", "arles", "aix-en-provence", "orange"],
     tags: ["avignon", "provence", "southern rhone", "vaucluse", "medieval france"],
   },
+  {
+    slug: "buying-property-france-step-by-step-2026",
+    title: "Buying property in France: the complete step-by-step process",
+    metaTitle: "Buying Property in France 2026 — Step-by-Step Process Guide",
+    metaDesc:
+      "From finding to signing: the notaire system, compromis de vente, mandatory diagnostics, cooling-off period, and final acte de vente. What each step takes, costs, and requires.",
+    category: "budget",
+    emoji: "🏠",
+    readMinutes: 9,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "France's property purchase process is handled through a notaire (a legally required public official who manages the transfer of title) and involves a sequence of steps with specific timescales and legal protections that differ substantially from Anglo-Saxon property transactions. This is the process as it actually works, stripped of the tourist-guide vagueness.",
+    sections: [
+      {
+        heading: "Finding the property: immobiliers, PAP, and the notaire network",
+        body: "Most French properties are sold through real estate agents (agences immobilières). The agent's commission is typically 4-8% of the sale price and is usually included in the displayed price (prix FAI — frais d'agence inclus). Alternatively, PAP (Particulier à Particulier) platforms allow direct seller-to-buyer transactions without agent fees. Notaires also have a listing network (immobilier.notaires.fr) and occasionally sell properties directly. In practice, agent-listed properties dominate the market in cities; direct sales are more common in rural areas. Viewing properties requires scheduling via the agent; in competitive markets (Nice, Paris, Lyon) desirable properties receive multiple offers and require fast decisions.",
+      },
+      {
+        heading: "The compromis de vente: making it official",
+        body: "The compromis de vente (preliminary purchase contract) is the binding stage. Once you've agreed price and basic terms with the seller, the agent or notaire drafts a compromis that specifies price, property details, conditions suspensives (usually: obtaining a mortgage, absence of pre-emption rights by the commune), and a completion date. You pay a deposit (typically 5-10% of the purchase price) at this stage. Signing the compromis triggers a 10-day cooling-off period (délai de rétractation) during which you can withdraw without penalty — this protection exists only for residential buyers, not investors buying through a company.",
+      },
+      {
+        heading: "Between signing and completion: what happens",
+        body: "After the compromis and cooling-off period, the notaire conducts title searches and verifies the diagnostics techniques immobiliers (mandatory property surveys: lead, asbestos, energy performance DPE, termites in some areas, natural risk information, electricity and gas safety). You (if financing) apply for a mortgage — French banks typically require 3-6 weeks to issue a formal offer, after which you have a mandatory 10-day reflection period before signing. The completion timeline is typically 2-4 months from compromis to acte de vente (final signing).",
+      },
+      {
+        heading: "The acte de vente and notaire fees",
+        body: "The acte authentique de vente is signed at the notaire's office in the presence of both buyer and seller. The notaire reads the act in full and both parties sign. On signing, you pay: the notaire's fees (emoluments: approximately 0.8-1.5% of the purchase price, on a sliding scale), property taxes transferred at signing, and — by far the largest cost — the droits de mutation (DMTO, transfer taxes). DMTO for existing properties is approximately 5.8% of the purchase price in most departments (slight variations). New-build properties have reduced DMTO (0.7%) but apply TVA (20%) to the purchase price instead.",
+      },
+      {
+        heading: "After purchase: registering and first costs",
+        body: "The notaire registers the sale in the Fichier Immobilier (land registry) and sends you the titre de propriété (title deed) — typically 3-6 months after the acte. You are liable for taxe foncière from the following 1 January. If the property is your main residence, you are not liable for taxe d'habitation (abolished for main residences for most people from 2023). Taxe foncière varies significantly by commune: check the DGFiP rates for the specific commune before purchase, as it can differ by a factor of 2-3 between neighbouring communes. Budget for 6 months of ownership costs (foncière, insurance, copropriété charges if applicable) before buying.",
+      },
+    ],
+    relatedCities: ["paris", "bordeaux", "lyon", "nice", "marseille"],
+    tags: ["buying property france", "notaire", "compromis de vente", "french property purchase", "real estate"],
+  },
+  {
+    slug: "angers-living-guide-2026",
+    title: "Living in Angers: the Loire city that keeps outperforming expectations",
+    metaTitle: "Living in Angers 2026 — Loire Valley Relocation Guide",
+    metaDesc:
+      "Angers has wine, the Loire, 40 minutes from Nantes by TGV, and housing cheaper than any comparable French city. The honest account of why more people haven't discovered it.",
+    category: "city-guide",
+    emoji: "🍎",
+    readMinutes: 5,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Angers appears regularly in French quality-of-life surveys without ever becoming the object of the same hype as Bordeaux or Nantes. The reasons are structural: it's 40 minutes from Nantes by TGV, which means anyone who wants the broader Nantes economy can reach it in under an hour; it's in the Loire Valley alongside Tours and Saumur, with wine country on its doorstep; and it has housing costs that look like a corrected spreadsheet compared to the cities around it.",
+    sections: [
+      {
+        heading: "Getting there and around",
+        body: "Angers-Saint-Laud TGV station is central and directly connected: Paris Montparnasse in 1h35 (the TER bus connection is also an option for cost), Nantes in 40 minutes (TGV), Tours in 35 minutes (TGV), Le Mans in 35 minutes (TER). The proximity to Nantes is significant: many Angers residents work in Nantes or visit regularly without it feeling distant. Internal transport: a tram line, buses, and strong cycling infrastructure (Angers consistently ranks among France's top cycling cities relative to its size). The city itself is compact and walkable at the centre.",
+      },
+      {
+        heading: "Economy: smaller than Nantes but more varied than it looks",
+        body: "Angers' economy punches slightly above its 155,000-person size. The electronics and tech sector has a long history here (Thomson, then STMicroelectronics maintained a significant presence, and the ecosystem includes smaller tech companies). The University of Angers and Catholic University of the West (UCO) combine for 45,000+ students. The horticultural sector (Angers is the capital of French horticulture — Maine-et-Loire produces the majority of France's nursery plants) creates a distinct and practical agricultural economy that differentiates it from pure service cities. Healthcare is well-developed for its size (CHU Angers is a significant regional hospital).",
+      },
+      {
+        heading: "Housing and cost",
+        body: "Angers property averages €2,000-2,700/m² in good central areas — roughly 25-35% cheaper than Nantes and 40-50% cheaper than Bordeaux. T2 rents: €600-750/month. The market has tightened since the remote work wave but remains genuine value for its quality. The property stock in the central neighbourhoods (centre-ville, La Doutre across the Maine) includes attractive older buildings without Nantes' premium. For buyers, the combination of good TGV access to Paris and Nantes with below-regional-capital housing costs makes Angers one of the Loire's best residential propositions.",
+      },
+      {
+        heading: "What to expect socially and culturally",
+        body: "Angers has a strong student population (25% of residents are students) that keeps the social energy lively for a city of its size. The Festival d'Anjou (outdoor theatre, June-July), the Mondial du Lion (one of world's most important horse riding competitions, late October), and the Cointreau distillery (headquartered here) give the city specific cultural anchors. The Loire wine axis — Muscadet to the west, Saumur Champigny 40km east, Savennières and Anjou Blanc nearby — creates a wine culture that rewards exploration. The annual Nantes-Angers crossover (many cultural events, festivals, shared institutions) means residents in either city don't feel cut off from the other.",
+      },
+    ],
+    relatedCities: ["angers", "nantes", "saumur", "le-mans", "tours"],
+    tags: ["angers", "maine-et-loire", "loire valley", "affordable france", "relocation"],
+  },
+  {
+    slug: "moving-to-france-complete-checklist-2026",
+    title: "Moving to France: the complete checklist for the first 90 days",
+    metaTitle: "Moving to France Checklist 2026 — First 90 Days Guide",
+    metaDesc:
+      "What to do before you leave, in your first week, and in your first three months in France. Sequenced, practical, with approximate timelines. Not a general guide — a working checklist.",
+    category: "moving",
+    emoji: "✅",
+    readMinutes: 7,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "The first 90 days in France involve a specific set of administrative tasks with dependencies that aren't always obvious. Doing things out of sequence can create months of delay. This checklist is sequenced by dependency, not alphabetically or by perceived importance. Skip steps at your own risk — most of what looks optional becomes blocking later.",
+    sections: [
+      {
+        heading: "Before you leave your home country",
+        body: "1. Obtain your long-stay visa (VLS-TS) from the French consulate in your country — process takes 4-8 weeks. 2. Get a Carte Européenne d'Assurance Maladie (EHIC) if you're an EU citizen — covers emergency healthcare in France during the PUMA waiting period. 3. Obtain international driving licence if your home country uses non-Latin script. 4. Make certified translations of key documents (birth certificate, marriage certificate, university degrees) by an approved translator (traducteur assermenté) — you'll need these for préfecture registration and some employer HR processes. 5. Get a few months of bridging health insurance if you're not EU-affiliated. 6. Inform your bank and HMRC/IRS/ATO (depending on nationality) of your planned departure date to start the non-residency clock.",
+      },
+      {
+        heading: "First week",
+        body: "1. Validate your VLS-TS at OFII within 3 months of arrival (do it in week 1 to be safe) — the OFII validation link arrives by email or SMS; complete it online. 2. Open a bridging bank account: N26, Revolut, or Wise provides a French IBAN quickly without a French address. 3. Secure accommodation (rental lease, or proof of address from a host if staying temporarily). 4. Obtain a SIM card with a French number — many French services require a French mobile for SMS verification. 5. Register at your city's mairie if required (varies by commune). 6. Get a numéro fiscal from impots.gouv.fr — call or visit your Service des Impôts des Particuliers if you can't create an account online.",
+      },
+      {
+        heading: "Weeks 2-4",
+        body: "1. Open a proper French bank account using your bridge account IBAN and lease as address proof. Boursorama, BNP, or Crédit Agricole are common choices. 2. Register for Assurance Maladie via Ameli.fr — submit your identity documents and proof of address. The process takes 6-12 weeks; your attestation arrives by post. 3. Find a médecin traitant (registered GP) and register them with Assurance Maladie — this enables full reimbursement rates. In cities, use Doctolib to find accepting doctors; rural areas may have longer waits. 4. Register children at their assigned school (contact the mairie for the école du secteur). 5. Set up French utility accounts (EDF/Engie for electricity/gas, or your energy provider of choice).",
+      },
+      {
+        heading: "Month 2-3: the administrative sweep",
+        body: "1. Apply for the Carte Vitale (green health insurance card) via Ameli.fr once your Assurance Maladie number is issued — the Carte Vitale takes 2-4 weeks to arrive after application. 2. Apply for APL (housing aid) via Caf.fr if you're renting and your income qualifies. 3. Apply for titre de séjour if required (non-EU citizens) via Administration.gouv.fr — book your préfecture appointment early as slots fill quickly. 4. Convert your driving licence to a French permis de conduire if required (EU licences are recognised; some non-EU licences can be exchanged; others require re-taking the test). 5. Register for French income tax (you'll file your first return the following spring for the period of residence during the current tax year).",
+      },
+      {
+        heading: "Common mistakes and how to avoid them",
+        body: "The most common first-year mistakes: 1) Waiting to register for Assurance Maladie — the 6-12 week processing time means any delay pushes your coverage later; 2) Ignoring the OFII validation — it seems optional but non-completion can create problems with titre de séjour renewal; 3) Not getting a numéro fiscal early — you need it for the tax return, and for some banking and property transactions; 4) Using your home country address for French services — this creates mailing problems and some services reject foreign addresses; 5) Not translating documents before arrival — French administrative offices may accept documents in English (especially préfectures in Paris), but certified translations are required for certain procedures and the wait for an assermenté translator can be 1-2 weeks.",
+      },
+    ],
+    relatedCities: ["paris", "lyon", "bordeaux", "nantes", "marseille"],
+    tags: ["moving to france checklist", "france relocation", "first 90 days france", "expat checklist", "visa france"],
+  },
 ];
 
 export function getEnGuide(slug: string): EnGuide | undefined {
