@@ -1,7 +1,8 @@
 "use client";
 
-import { useSyncExternalStore, useState } from "react";
+import { useSyncExternalStore, useState, useEffect } from "react";
 import { Heart } from "lucide-react";
+import { createClient } from "@/lib/supabase/client";
 
 const STORAGE_KEY = "meilleurville:favorites";
 const CHANGED_EVENT = "favorites-changed";
@@ -71,6 +72,33 @@ function useFavorites(): string[] {
   return useSyncExternalStore(subscribe, readSnapshot, readServerSnapshot);
 }
 
+// ----- Supabase sync helpers ---------------------------------------------
+
+async function getSupabaseUserId(): Promise<string | null> {
+  const supabase = createClient();
+  const { data } = await supabase.auth.getUser();
+  return data.user?.id ?? null;
+}
+
+async function fetchSupabaseFavorites(userId: string): Promise<string[]> {
+  const supabase = createClient();
+  const { data } = await supabase
+    .from("favorites")
+    .select("city_slug")
+    .eq("user_id", userId);
+  return (data ?? []).map((r) => r.city_slug);
+}
+
+async function insertSupabaseFavorite(userId: string, slug: string): Promise<void> {
+  const supabase = createClient();
+  await supabase.from("favorites").upsert({ user_id: userId, city_slug: slug });
+}
+
+async function deleteSupabaseFavorite(userId: string, slug: string): Promise<void> {
+  const supabase = createClient();
+  await supabase.from("favorites").delete().eq("user_id", userId).eq("city_slug", slug);
+}
+
 // ----- Public components --------------------------------------------------
 
 export function FavoriteButton({
@@ -88,16 +116,39 @@ export function FavoriteButton({
   const active = favorites.includes(slug);
   const [animating, setAnimating] = useState(false);
 
+  // On mount: if logged in, merge Supabase favorites into localStorage.
+  useEffect(() => {
+    getSupabaseUserId().then(async (userId) => {
+      if (!userId) return;
+      const remote = await fetchSupabaseFavorites(userId);
+      if (remote.length === 0) return;
+      const local = readFavorites();
+      const merged = Array.from(new Set([...local, ...remote]));
+      if (merged.length !== local.length) writeFavorites(merged);
+    });
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
   function toggle(e: React.MouseEvent) {
     e.preventDefault();
     e.stopPropagation();
     const current = readFavorites();
-    const next = current.includes(slug)
-      ? current.filter((s) => s !== slug)
-      : [...current, slug];
+    const adding = !current.includes(slug);
+    const next = adding
+      ? [...current, slug]
+      : current.filter((s) => s !== slug);
     writeFavorites(next);
     setAnimating(true);
     setTimeout(() => setAnimating(false), 400);
+    // Sync to Supabase if logged in (fire-and-forget).
+    getSupabaseUserId().then((userId) => {
+      if (!userId) return;
+      if (adding) {
+        insertSupabaseFavorite(userId, slug);
+      } else {
+        deleteSupabaseFavorite(userId, slug);
+      }
+    });
   }
 
   return (

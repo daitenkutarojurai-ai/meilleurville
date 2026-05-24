@@ -10,6 +10,7 @@ import type { LucideIcon } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { cn } from "@/lib/utils";
 import { FavoriteCount } from "@/components/effects/FavoriteButton";
+import { AccountButton } from "@/components/effects/AccountButton";
 import { SearchPalette } from "@/components/SearchPalette";
 import { BrandMark } from "@/components/BrandMark";
 import { DEFAULT_LOCALE } from "@/lib/i18n";
@@ -252,9 +253,10 @@ export function Navbar() {
             <SearchTrigger variant="bar" />
           </div>
 
-          {/* Desktop right cluster — search · quiz · overflow */}
+          {/* Desktop right cluster — search · quiz · account · overflow */}
           <div className="hidden lg:flex items-center gap-1.5 xl:gap-2 flex-shrink-0">
             <SearchTrigger variant="desktop" />
+            <AccountButton />
             <Link href="/quiz">
               <Button size="md" className="gap-1.5 rounded-full px-3 lg:px-4">
                 <Sparkles className="h-4 w-4" />
