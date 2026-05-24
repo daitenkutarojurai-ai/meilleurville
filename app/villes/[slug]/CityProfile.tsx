@@ -38,6 +38,8 @@ import { buildCityNarrative } from "@/lib/city-narrative";
 import { computeNicheScores, TERRAIN_LABELS } from "@/lib/niche-scores";
 import { RANKING_META, getRankedCities } from "@/lib/rankings";
 import { formatNumber, formatScore, scoreColor, cn, sunshineDays, sunshineHours } from "@/lib/utils";
+import { internetScore, internetLabel } from "@/lib/internet-score";
+import { rentalTension, tensionInfo } from "@/lib/rental-tension";
 import type { CitySeed } from "@/data/cities-seed";
 import type { RankingSlug } from "@/lib/rankings";
 
@@ -482,7 +484,39 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                       </div>
                     );
                   })}
+                  <div className="border-t border-[var(--border)] pt-2.5 space-y-2.5">
+                    {(() => {
+                      const inet = internetScore(city);
+                      const iLabel = internetLabel(inet);
+                      const tension = rentalTension(city);
+                      const tLabel = tensionInfo(tension);
+                      return (
+                        <>
+                          <div className="flex items-center justify-between">
+                            <span className="text-xs text-[var(--text-secondary)]">
+                              Qualité internet
+                            </span>
+                            <span className={`text-sm font-bold font-mono-data ${iLabel.color}`} title={iLabel.label}>
+                              {inet.toFixed(1)}
+                            </span>
+                          </div>
+                          <div className="flex items-center justify-between">
+                            <span className="text-xs text-[var(--text-secondary)]">
+                              Tension locative
+                            </span>
+                            <span className={`text-xs font-semibold ${tLabel.color}`} title={tLabel.label}>
+                              {tLabel.shortLabel}
+                            </span>
+                          </div>
+                        </>
+                      );
+                    })()}
+                  </div>
                 </div>
+                <p className="text-[10px] text-[var(--text-tertiary)] mt-3 leading-relaxed">
+                  Internet : estimation ARCEP couverture fibre 2024 par région.
+                  Tension locative : dérivée des loyers Clameur / Observatoire des loyers.
+                </p>
               </Card>
 
               {/* Housing summary */}
