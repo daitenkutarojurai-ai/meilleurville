@@ -7,7 +7,7 @@ interface GuideCardProps {
   /** Build-time reference timestamp. Passed down from a server component so
    *  freshness is computed identically on server and client (no hydration
    *  mismatch when GuideCard renders inside the client GuidesGrid). */
-  now?: number;
+  now: number;
 }
 
 function categoryLabel(c: Guide["category"]): string {
@@ -36,9 +36,8 @@ function isNew(publishedAt: string, now: number): boolean {
 }
 
 export function GuideCard({ guide, featured = false, now }: GuideCardProps) {
-  const ref = now ?? Date.now();
-  const fresh = freshness(guide.updatedAt, ref);
-  const isFresh = isNew(guide.publishedAt, ref);
+  const fresh = freshness(guide.updatedAt, now);
+  const isFresh = isNew(guide.publishedAt, now);
   return (
     <Link
       href={`/guides/${guide.slug}`}

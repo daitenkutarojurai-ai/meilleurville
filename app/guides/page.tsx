@@ -7,6 +7,10 @@ import { GUIDES, GUIDE_CATEGORIES } from "@/data/guides";
 import { GuidesGrid } from "@/components/GuidesGrid";
 import { getAllTagsWithCounts } from "@/lib/guide-tags";
 
+// Build-time freshness reference — captured once at module load so render
+// stays pure (Date.now inside the component body trips react-hooks/purity).
+const BUILD_NOW = Date.now();
+
 export const metadata: Metadata = {
   title: "Guides · Bien choisir sa ville en France | MaVilleIdeal",
   description:
@@ -67,7 +71,7 @@ export default function GuidesPage() {
 
       <div className="mx-auto max-w-5xl px-4 sm:px-6 py-12 space-y-12">
         {/* Interactive guides grid with category filtering */}
-        <GuidesGrid guides={GUIDES} now={Date.now()} />
+        <GuidesGrid guides={GUIDES} now={BUILD_NOW} />
 
         {/* Categories overview */}
         <div>

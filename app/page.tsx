@@ -196,7 +196,7 @@ export default function HomePage() {
           <CostCalculator />
 
           <div className="mt-8">
-            <a
+            <Link
               href="/future-you"
               className="group block rounded-2xl border border-[var(--accent)]/30 bg-gradient-to-br from-[var(--accent)]/10 to-transparent p-5 hover:border-[var(--accent)] hover:shadow-md transition-all"
             >
@@ -214,7 +214,7 @@ export default function HomePage() {
                 </div>
                 <span className="shrink-0 text-[var(--accent)] text-lg font-bold">→</span>
               </div>
-            </a>
+            </Link>
           </div>
         </div>
       </section>

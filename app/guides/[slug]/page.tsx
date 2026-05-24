@@ -16,6 +16,10 @@ import { slugifyTag, TAG_SLUGS } from "@/lib/guide-tags";
 export const revalidate = false;
 export const dynamicParams = false;
 
+// Build-time freshness reference — captured once at module load so render is
+// pure (no Date.now() inside the component body, which the React 19 linter flags).
+const BUILD_NOW = Date.now();
+
 type Props = { params: Promise<{ slug: string }> };
 
 export function generateStaticParams() {
@@ -363,7 +367,7 @@ export default async function GuidePage({ params }: Props) {
                 </p>
                 <div className="space-y-3">
                   {relatedGuides.map((g) => (
-                    <GuideCard key={g.slug} guide={g} />
+                    <GuideCard key={g.slug} guide={g} now={BUILD_NOW} />
                   ))}
                 </div>
               </div>
