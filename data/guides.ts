@@ -19321,6 +19321,166 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["ville après séparation France 2026", "divorcer et déménager quelle ville", "budget monoparental ville France", "repartir de zéro France 2026", "ville seul avec enfant France 2026"],
   },
+  {
+    slug: "vivre-en-cote-d-azur-guide-2026",
+    title: "Vivre sur la Côte d'Azur en 2026 : Nice, Cannes, Antibes, Menton — le guide complet",
+    metaTitle: "Vivre Côte d'Azur 2026 — Nice, Cannes, Antibes : guide honnête, prix, réalités",
+    metaDesc: "Côte d'Azur 2026 : le soleil est réel, les prix aussi. Nice, Cannes, Antibes, Menton : que choisir et pour quel budget ? Le guide sans illusions.",
+    category: "region",
+    emoji: "🌊",
+    readMinutes: 9,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "La Côte d'Azur est la région côtière française la plus ensoleillée (2 700 h/an à Nice) et la plus chère — hors Paris. Elle rassemble des profils très différents : retraités aisés français et étrangers, frontaliers monégasques, expatriés de retour, et quelques courageux qui s'y installent avec des revenus locaux. Voici le panorama complet.",
+    sections: [
+      {
+        heading: "Les villes et leur positionnement réel",
+        body: "Nice : la plus grande ville (350 000 habitants), la plus diversifiée socialement, la seule avec un vrai tissu économique propre (université, tourisme d'affaires, Sophia Antipolis à 20 km, aéroport international). Prix T2 centre : 4 200-6 500 €/m². Antibes/Juan-les-Pins : moins chère que Nice en termes d'immobilier (3 800-5 500 €/m²), plus calme, base voile et nautisme. Profil retraité actif ou familles avec enfants au lycée. Cannes : connue pour le Festival, mais résider à Cannes plutôt que de visiter est une autre affaire. Le hors-saison est correct mais la ville dépend structurellement du tourisme d'affaires. Prix : 4 500-7 500 €/m² pour du vue mer. Menton : la dernière ville avant l'Italie, à 10 km. La moins chère de la Côte (3 500-5 000 €/m²), la plus chaude aussi (micro-climat exceptionnel). Population vieillissante, vie culturelle limitée, accès difficile sans voiture. Idéal pour les retraités aisés cherchant le calme. Grasse, Valbonne, Mougins (intérieur) : prix légèrement inférieurs pour un accès mer en 20-30 min.",
+      },
+      {
+        heading: "Le marché de l'emploi : réaliste ou surestimé ?",
+        body: "Le mythe : la Côte d'Azur grouille d'opportunités. La réalité : la Côte d'Azur est une économie très déséquilibrée. Les secteurs porteurs : tourisme et hôtellerie de luxe (saisonnier), nautisme (Antibes est la capitale mondiale de la superyacht), Monaco (accessoire : pas France), Sophia Antipolis (parc technologique entre Nice et Antibes — 36 000 emplois tech, pharma, télécom), hospitalité médicale (CHU de Nice, polycliniques). Les secteurs faibles : industrie, logistique, finance classique. Les salaires locaux hors Monaco et Sophia sont souvent décalés par rapport aux prix de l'immobilier. De nombreux résidents sont soit retraités, soit frontaliers Monaco, soit télétravailleurs avec des revenus extérieurs à la région.",
+      },
+      {
+        heading: "Monaco : l'effet frontalier",
+        body: "Monaco est à 20 km de Nice (30 min par train, 45 min par route), à 10 km de Menton. Les salaires à Monaco (pas de cotisations sociales pour les résidents français qui y travaillent, mais protection sociale française maintenue grâce aux accords bilatéraux) sont sensiblement supérieurs aux équivalents français. Résider en France et travailler à Monaco est légal et courant — environ 35 000 Français font ce trajet quotidiennement. C'est le facteur principal qui soutient les prix immobiliers de la zone Menton-Roquebrune-Beausoleil-Cap-Martin : des actifs Monaco solvables cherchant la France sans payer l'immobilier monégasque.",
+      },
+      {
+        heading: "Le vrai budget de vie sur la Côte d'Azur",
+        body: "Loyer T2 Nice (hors centre historique et Promenade, qualité normale) : 900-1 300 €/mois. Loyer T2 Cannes vue mer : 1 400-2 500 €/mois. Loyer T2 Menton : 700-1 000 €/mois. Alimentation : 15-25 % plus cher que la moyenne française en grande ville côtière — l'effet 'tourisme permanent' sur les prix des services. Restaurant déjeuner non-touristique : 16-22 €. Transport : le réseau Lignes d'Azur (Nice) est correct pour la ville mais insuffisant inter-villes. La voiture reste quasi-indispensable pour circuler entre Cannes, Antibes, Nice et Menton. Gasoil, péage A8 (Nice-Cannes ~8 € aller-retour), parkings — le budget voiture mensuel est significatif.",
+      },
+      {
+        heading: "Pour qui la Côte d'Azur est-elle faite en 2026 ?",
+        body: "La Côte d'Azur est la destination idéale pour : les retraités avec une épargne ou une retraite élevée (plus de 2 500-3 000 €/mois nets), les frontaliers Monaco, les télétravailleurs avec des salaires de grande métropole internationale, les expatriés revenant au pays avec un capital immobilier d'ailleurs. Elle est difficile pour : les primo-accédants avec des salaires locaux, les familles avec des enfants nombreux qui souhaitent acheter, les jeunes professionnels en début de carrière sans secteur porteur (Sophia Antipolis ou Monaco) dans leur domaine. L'honnêteté s'impose : la Côte d'Azur est une région de luxe relative, pas un coin de France abordable avec du soleil en prime.",
+      },
+    ],
+    relatedCities: ["nice", "antibes", "cannes", "menton", "cagnes-sur-mer"],
+    relatedGuides: [
+      "quitter-nice-guide-2026",
+      "nice-vs-montpellier-comparatif-2026",
+      "acheter-a-nice-quel-quartier-budget-2026",
+    ],
+    tags: ["vivre Côte d'Azur 2026", "Nice Cannes Antibes Menton guide", "immobilier Côte d'Azur", "frontalier Monaco France", "retraite Côte d'Azur 2026"],
+  },
+  {
+    slug: "meilleures-villes-naturalistes-biodiversite-france-2026",
+    title: "Les meilleures villes de France pour les amateurs de nature et de biodiversité en 2026",
+    metaTitle: "Meilleures villes nature biodiversité France 2026 — parcs naturels, zones humides, oiseaux",
+    metaDesc: "Birdwatching, botaniste, observateur des oiseaux, amoureux de la nature sauvage : quelles villes françaises offrent le meilleur accès aux espaces naturels protégés ? Guide 2026.",
+    category: "lifestyle",
+    emoji: "🌿",
+    readMinutes: 7,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "La France est un des pays européens les plus riches en biodiversité — 11 parcs nationaux, 58 parcs naturels régionaux, des milliers de zones Natura 2000. Mais l'accès à ces espaces depuis une grande ville varie considérablement. Voici le classement des villes françaises qui permettent de s'immerger dans la nature sauvage le plus rapidement et le plus facilement.",
+    sections: [
+      {
+        heading: "Critères utilisés pour ce classement",
+        body: "Proximité d'un parc national ou régional : moins de 30 minutes de route ou de transport. Richesse ornithologique : nombre d'espèces observables dans un rayon de 50 km (données LPO). Zones humides et rivières accessibles : cours d'eau, zones Ramsar, marais. Espaces de garrigue, maquis, landes et tourbières selon la région. Qualité de l'air et bruit ambiant : les milieux naturels proches de zones urbaines bruyantes sont moins favorables à l'observation faune/flore. Communauté naturaliste locale : clubs, LPO (Ligue pour la Protection des Oiseaux), associations botaniques — un indicateur de la densité d'amateurs déjà installés.",
+      },
+      {
+        heading: "Top 5 villes nature en France",
+        body: "Bayonne/Pau (Pyrénées-Atlantiques) : accès direct au Parc National des Pyrénées (2h max depuis Pau), zones humides du Marais d'Orx et de la Réserve de Biosphère des Landes, littoral basque, couloir migratoire (Pyrénées occidentales = une des meilleures routes migratoires d'Europe). Montpellier : accès à la Camargue (1h20), aux Cévennes (1h10), à l'étang de l'Or et aux zones humides méditerranéennes. Richesse herpétologique (reptiles, amphibiens) parmi les plus élevées de France. Strasbourg : Parc Naturel Régional des Vosges du Nord à 30 min, Forêt Noire (Allemagne) en vélo, Ried alsacien (zone humide rhénane) remarquable pour les oiseaux. Grenoble : Parc National des Écrins (1h30), Réserve Naturelle des Hauts Plateaux du Vercors (1h), Chartreuse, lacs alpins. La biodiversité alpine est structurellement différente mais très riche. Metz/Nancy : forêts de Lorraine, étangs de la Woëvre (zones humides mosellanes exceptionnelles pour les limicoles et canards plongeurs), Parc Régional des Vosges du Nord.",
+      },
+      {
+        heading: "Pour les birdwatchers : les 3 meilleurs contextes géographiques",
+        body: "La façade atlantique (La Rochelle, Bayonne, Nantes) : couloirs migratoires printemps-automne parmi les plus intenses d'Europe occidentale. Estuaires de la Gironde, de la Loire, du gave de Pau. Shearwaters, grands alcidés en hiver, limicoles au passage. La Camargue (Montpellier, Nîmes, Arles) : le paradis ornithologique méditerranéen. Flamants, aigles pécheurs, hérons pourprés, bee-eaters (guêpiers d'Europe). Les falaises normandes (Rouen, Caen, Cherbourg) : colonies reproductrices de macareux (disparus des côtes bretonnes), fulmars, guillemots. Pelagics offshore accessibles depuis Cherbourg.",
+      },
+      {
+        heading: "Les villes sous-estimées pour les naturalistes",
+        body: "Bourges : au cœur du Berry (mares et étangs, forêts de Sologne accessibles en 30 min, réserves naturelles de la Brenne à 1h). La Brenne est surnommée 'la région aux 1000 étangs' — un des hauts lieux mondiaux de la libellule et du râle des genêts. Béziers : entre Camargue, Cévennes et garrigue languedocienne, avec accès au Parc Naturel Régional de la Narbonnaise en Méditerranée (zone Ramsar). Encore abordable et méconnu. Aurillac / Issoire (Auvergne) : à portée des tourbières du Massif Central (zone humide unique en France), des plateaux basaltiques à busards, des rivières à loutres et martins-pêcheurs.",
+      },
+    ],
+    relatedCities: ["bayonne", "montpellier", "strasbourg", "grenoble", "la-rochelle"],
+    relatedGuides: [
+      "meilleures-villes-randonnee-trail-france-2026",
+      "meilleures-villes-sports-outdoor-plein-air-france-2026",
+      "meilleures-villes-zero-dechet-ecologie-france-2026",
+    ],
+    tags: ["nature biodiversité France villes 2026", "birdwatching France villes", "naturaliste France meilleure ville", "parcs naturels accès ville France", "biodiversité Camargue Pyrénées Alsace"],
+  },
+  {
+    slug: "vivre-en-var-guide-2026",
+    title: "Vivre dans le Var en 2026 : Toulon, Draguignan, Hyères — guide complet",
+    metaTitle: "Vivre dans le Var 2026 — Toulon, Draguignan, Hyères, Brignoles : guide honnête",
+    metaDesc: "Le Var : mer, Provence, forêts — mais aussi les prix qui montent, les incendies, et les villes qui diffèrent beaucoup entre elles. Guide honnête 2026.",
+    category: "region",
+    emoji: "🌿",
+    readMinutes: 8,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "Le Var est le département le plus méconnu de la Côte d'Azur. Souvent associé aux seules Toulon et Saint-Tropez, il recouvre en réalité une géographie très variée : le littoral (très cher), le Var intérieur (abordable), les massifs forestiers (risque incendie), la Provence verte autour de Brignoles. Voici le panorama.",
+    sections: [
+      {
+        heading: "Toulon : voir la section dédiée",
+        body: "Toulon est couverte dans notre guide dédié (Acheter à Toulon en 2026). Pour résumer : c'est la ville principale du Var, avec la base navale nationale, un tissu économique militaire et tertiaire, un prix immobilier en hausse mais encore accessible (1 800-5 200 €/m² selon le quartier). Qualité de vie contrastée selon le quartier.",
+      },
+      {
+        heading: "Hyères : l'alternative calme à Toulon",
+        body: "Hyères est la ville balnéaire la plus ancienne de la Côte d'Azur (XIXe siècle), avec un climat légèrement plus chaud que Toulon (exposée plein sud), des plages de sable fin vers l'Almanarre, et les îles d'Or (Porquerolles, Port-Cros, Île du Levant) à 20-30 minutes en ferry. Population stable de 60 000 habitants. Prix immobilier T2 : 3 000-5 000 €/m² selon la proximité des plages. Commerce et services convenables pour un bassin de vie autonome. Aéroport Toulon-Hyères à 5 km — petite structure, mais vols vers Paris, Brest, Strasbourg et quelques destinations européennes.",
+      },
+      {
+        heading: "Draguignan et le Var intérieur : le vrai Var abordable",
+        body: "Draguignan (40 000 hab.) est la préfecture historique du Var — avant que le chef-lieu administratif ne passe à Toulon. Ville de garnison (centre de formation de l'Artillerie), marché agricole (roses, truffes, huile d'olive), commerce local actif. Prix T2 : 1 600-2 500 €/m² — parmi les plus abordables de Provence. Brignoles (Var vert) : 20 000 habitants, entre Toulon (45 min) et Aix (45 min), dans un paysage de bauxite rouge et de collines. Très calme, services de base présents, immobilier à 1 400-2 200 €/m² pour les appartements, maisons de village disponibles entre 100 000 et 200 000 €. Idéal pour les télétravailleurs cherchant la Provence abordable avec un accès autoroutier.",
+      },
+      {
+        heading: "Le risque incendie : le facteur à intégrer impérativement",
+        body: "Le Var est le département français le plus touché par les incendies de forêt. L'été 2003, l'été 2021 (incendie de Gonfaron, 7 000 ha brûlés), l'été 2022 (La Garde-Freinet) — les épisodes d'incendie dévastateurs se multiplient avec le changement climatique. Si vous achetez ou louez dans le Var, vérifiez : le classement PPRIF (Plan de Prévention des Risques d'Incendie de Forêt) de la commune, la distance entre le bâtiment et la végétation (débroussaillement obligatoire à 50 m autour des constructions), les accès (routes à double sens pour l'évacuation), et l'assurance habitation (certaines zones sont devenues difficiles à assurer ou avec des surprimes élevées). Ce n'est pas une raison d'éviter le Var — mais c'est un risque à intégrer, pas à occulter.",
+      },
+      {
+        heading: "Pour qui le Var convient-il ?",
+        body: "Le Var est idéal pour : les retraités actifs cherchant la Provence sans les prix de la Côte d'Azur (Draguignan, Brignoles), les télétravailleurs avec des revenus extérieurs (le Var intérieur offre un cadre exceptionnel à prix raisonnables), les frontaliers et professionnels travaillant à Toulon, les familles avec des enfants qui veulent la mer et la Provence sans Paris-Banlieue. Le Var est inadapté pour : ceux qui ont besoin d'un marché d'emploi dense et diversifié (hors Toulon militaire/tertiaire), ceux qui sont sensibles au risque incendie, ceux qui ne veulent pas ou ne peuvent pas conduire (le Var intérieur est voiture-indispensable).",
+      },
+    ],
+    relatedCities: ["toulon", "hyeres", "la-valette-du-var", "draguignan"],
+    relatedGuides: [
+      "acheter-a-toulon-quel-quartier-budget-2026",
+      "toulon-vs-marseille-comparatif-2026",
+      "vivre-en-cote-d-azur-guide-2026",
+    ],
+    tags: ["vivre Var 2026", "Toulon Draguignan Hyères guide", "immobilier Var", "Var intérieur abordable", "risque incendie Var 2026"],
+  },
+  {
+    slug: "investir-dans-logements-etudiants-france-2026",
+    title: "Investir dans les logements étudiants en France en 2026 : guide complet",
+    metaTitle: "Investissement locatif étudiant France 2026 — studios, résidences, rendements réels",
+    metaDesc: "Investir dans les logements étudiants en France : meilleures villes universitaires, rendements locatifs bruts, pièges à éviter, loi Pinel vs meublé LMNP. Guide 2026.",
+    category: "budget",
+    emoji: "🎓",
+    readMinutes: 8,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "L'investissement dans les logements étudiants est souvent présenté comme une valeur sûre : demande structurelle forte, vacance locative basse en septembre-octobre, loyers relativement stables. La réalité est plus nuancée. Certaines villes offrent des rendements bruts de 6-8 %, d'autres des rendements de 2-3 % avec une rotation de locataires intense. Voici les données réelles.",
+    sections: [
+      {
+        heading: "Les villes les plus rentables pour l'investissement étudiant",
+        body: "Les meilleures villes pour le locatif étudiant combinent une université ou grande école importante, un ratio prix immobilier / loyer favorable, et une tension locative réelle. Top 5 : Clermont-Ferrand : studio achat 60 000-80 000 €, loyer 400-500 €/mois, rendement brut 6-8 %. Limoges : studio 50 000-70 000 €, loyer 380-450 €/mois, rendement brut 7-9 %. Poitiers : studio 65 000-85 000 €, loyer 400-470 €/mois, rendement brut 6-7 %. Rouen : studio 80 000-110 000 €, loyer 500-580 €/mois, rendement brut 5-7 %. Tours : studio 85 000-115 000 €, loyer 500-580 €/mois, rendement brut 5-6 %. Les villes classiques (Nantes, Lyon, Bordeaux, Rennes) offrent des rendements plus bas (3-5 %) mais une liquidité à la revente supérieure.",
+      },
+      {
+        heading: "LMNP meublé vs. Pinel nu : la fiscalité qui change tout",
+        body: "Louer en meublé sous le statut LMNP (Loueur en Meublé Non Professionnel) est le régime fiscal le plus avantageux pour les logements étudiants. Sous le régime réel LMNP, vous déduisez les charges réelles (intérêts d'emprunt, taxe foncière, charges de copropriété, assurances) ET amortissez le bien — ce qui génère un déficit fiscal venant effacer les revenus locatifs pendant 10-20 ans. Résultat concret : avec un bien bien amorti, le revenu locatif net d'impôt peut être très significatif. La loi Pinel (réduction d'impôt contre engagement de louer nu à loyer plafonné) n'est plus attractive pour les petites surfaces depuis le durcissement des plafonds en 2023-2024. Sauf cas particuliers (zone A bis, Paris), préférez le LMNP meublé.",
+      },
+      {
+        heading: "Les résidences étudiantes gérées : attention aux pièges",
+        body: "Les résidences étudiantes avec gestion déléguée (Nexity, Cardinal Immo, Réside Études) sont commercialisées avec des arguments attractifs : loyer garanti, zéro gestion, occupation assurée. La réalité documentée : plusieurs dizaines de résidences ont subi des redressements de bail commercial en 2020-2023, réduisant ou suspendant le loyer garanti pour 2-5 ans. Les acheteurs dans ces résidences ont souvent acheté au prix du marché mais perçu des revenus bien inférieurs aux projections commerciales. Notre recommandation : si vous voulez investir en résidence services, lisez le bail commercial en détail (notamment les clauses de renégociation et d'indexation), vérifiez la solidité financière de l'exploitant, et comparez le prix d'achat à celui d'un appartement nu équivalent dans le même quartier — l'écart de prix ne se justifie pas toujours.",
+      },
+      {
+        heading: "La gestion locative étudiante : spécificités et coûts",
+        body: "Louer à des étudiants implique : une rotation annuelle (contrats souvent de septembre à juin, 9 ou 10 mois), des locataires souvent en caution parentale (parents garants), une usure plus forte du bien qu'un locataire salarié stable, et des règlements de charges éventuels en cas de dommages mineurs. Les frais de gestion via une agence : 7-10 % des loyers + frais d'état des lieux. Les frais de remise en état entre locataires : prévoir 500-2 000 €/an en moyenne pour les studios. Les impayés sont rares grâce aux cautions parentales, mais la vacance entre deux locataires (juillet-août) est quasi-systématique — intégrez 1-2 mois de vacance annuelle dans vos calculs de rendement net.",
+      },
+      {
+        heading: "Quoi acheter : studio, T1 bis, ou chambre en colocation ?",
+        body: "Studio (18-30 m²) : la valeur sûre de la demande étudiante. Loyer par m² le plus élevé, demande constante, liquidité correcte à la revente (bien que les primo-accédants achètent peu de studios). T1 bis (30-40 m²) : souvent plus rentable au m² que le studio car l'écart de loyer est faible mais l'écart de prix à l'achat est limité. Meilleure qualité de vie pour le locataire = moins de rotation. Chambre en colocation (avec les autres chambres gérées séparément ou ensemble) : rentabilité au m² la plus élevée, mais gestion plus complexe (contrats par chambre, colocataires solidaires ou non, parties communes à entretenir). Déconseillé pour les investisseurs débutants.",
+      },
+    ],
+    relatedCities: ["clermont-ferrand", "limoges", "poitiers", "rouen", "tours"],
+    relatedGuides: [
+      "investissement-locatif-moins-100000-euros-france-2026",
+      "meilleures-villes-investissement-locatif-colocation-2025",
+      "survivre-etudiant-province-moins-700-euros-2026",
+    ],
+    tags: ["investissement locatif étudiant France 2026", "LMNP meublé étudiant", "résidence étudiante investissement", "rendement locatif studio France", "meilleures villes investissement étudiant 2026"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
