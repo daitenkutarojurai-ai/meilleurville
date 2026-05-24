@@ -1,0 +1,137 @@
+{
+  "name": "MaVilleIdeale — Nouveau épisode podcast",
+  "nodes": [
+    {
+      "parameters": {
+        "pollTimes": {
+          "item": [{ "mode": "everyHour" }]
+        },
+        "url": "https://anchor.fm/s/112e31abc/podcast/rss",
+        "options": {}
+      },
+      "id": "bb000002-0000-0000-0000-000000000001",
+      "name": "RSS — Nouveau épisode",
+      "type": "n8n-nodes-base.rssFeedReadTrigger",
+      "typeVersion": 1,
+      "position": [100, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Format episode data into platform posts\nconst item = $input.first().json;\n\nconst title    = item.title || 'Nouvel épisode';\nconst summary  = (item.contentSnippet || item.summary || '').slice(0, 200);\nconst link     = item.link || 'https://mavilleideale.fr';\nconst pubDate  = item.pubDate ? new Date(item.pubDate).toLocaleDateString('fr-FR') : '';\n\nconst posts = {\n  facebook:\n    `🎙️ Nouvel épisode : \"${title}\"\\n\\n` +\n    `${summary}${summary.length >= 200 ? '...' : ''}\\n\\n` +\n    `Écoutez sur Spotify, Apple Podcasts ou directement :\\n${link}\\n\\n` +\n    `#MaVilleIdeale #Podcast #Immobilier #France #Relocation`,\n\n  threads:\n    `🎙️ \"${title}\"\\n\\n${summary.slice(0, 150)}\\n\\nÉcouter ➡️ ${link}`,\n\n  linkedin:\n    `Nouvel épisode du podcast MaVilleIdeale\\n\\n` +\n    `\"${title}\"\\n\\n${summary}\\n\\nÉcoutez ici : ${link}\\n\\n` +\n    `#Podcast #Immobilier #Relocation #France`,\n\n  twitter:\n    `🎙️ \"${title}\"\\n${summary.slice(0, 120)}\\n${link}\\n#MaVilleIdeale`\n};\n\nreturn [{ json: { title, link, pubDate, posts } }];"
+      },
+      "id": "bb000002-0000-0000-0000-000000000002",
+      "name": "Formater le post épisode",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [360, 300]
+    },
+    {
+      "parameters": {
+        "method": "GET",
+        "url": "https://graph.facebook.com/v20.0/me/accounts",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            { "name": "access_token", "value": "={{ $env.FB_ACCESS_TOKEN }}" }
+          ]
+        },
+        "options": {}
+      },
+      "id": "bb000002-0000-0000-0000-000000000003",
+      "name": "FB — Récupérer pages",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [620, 140]
+    },
+    {
+      "parameters": {
+        "jsCode": "const data = $input.first().json.data;\nif (!data || data.length === 0) throw new Error('Aucune page Facebook gérée.');\nconst page = data[0];\nreturn [{ json: { pageId: page.id, pageName: page.name, pageToken: page.access_token } }];"
+      },
+      "id": "bb000002-0000-0000-0000-000000000004",
+      "name": "FB — Extraire page ID",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [860, 140]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "=https://graph.facebook.com/v20.0/{{ $json.pageId }}/feed",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            { "name": "message",      "value": "={{ $('Formater le post épisode').first().json.posts.facebook }}" },
+            { "name": "link",         "value": "={{ $('Formater le post épisode').first().json.link }}" },
+            { "name": "access_token", "value": "={{ $json.pageToken }}" }
+          ]
+        },
+        "options": {}
+      },
+      "id": "bb000002-0000-0000-0000-000000000005",
+      "name": "Facebook — Publier épisode",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [1100, 140]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "=https://graph.threads.net/v1.0/{{ $env.THREADS_USER_ID }}/threads",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            { "name": "media_type",   "value": "TEXT" },
+            { "name": "text",         "value": "={{ $('Formater le post épisode').first().json.posts.threads }}" },
+            { "name": "access_token", "value": "={{ $env.FB_ACCESS_TOKEN }}" }
+          ]
+        },
+        "options": {}
+      },
+      "id": "bb000002-0000-0000-0000-000000000006",
+      "name": "Threads — Créer conteneur",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [620, 300]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "=https://graph.threads.net/v1.0/{{ $env.THREADS_USER_ID }}/threads_publish",
+        "sendQuery": true,
+        "queryParameters": [
+          { "name": "creation_id",  "value": "={{ $json.id }}" },
+          { "name": "access_token", "value": "={{ $env.FB_ACCESS_TOKEN }}" }
+        ],
+        "options": {}
+      },
+      "id": "bb000002-0000-0000-0000-000000000007",
+      "name": "Threads — Publier épisode",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [860, 300]
+    }
+  ],
+  "connections": {
+    "RSS — Nouveau épisode": {
+      "main": [[{ "node": "Formater le post épisode", "type": "main", "index": 0 }]]
+    },
+    "Formater le post épisode": {
+      "main": [[
+        { "node": "FB — Récupérer pages",      "type": "main", "index": 0 },
+        { "node": "Threads — Créer conteneur", "type": "main", "index": 0 }
+      ]]
+    },
+    "FB — Récupérer pages": {
+      "main": [[{ "node": "FB — Extraire page ID", "type": "main", "index": 0 }]]
+    },
+    "FB — Extraire page ID": {
+      "main": [[{ "node": "Facebook — Publier épisode", "type": "main", "index": 0 }]]
+    },
+    "Threads — Créer conteneur": {
+      "main": [[{ "node": "Threads — Publier épisode", "type": "main", "index": 0 }]]
+    }
+  },
+  "active": false,
+  "settings": { "executionOrder": "v1" },
+  "tags": [{ "name": "podcast" }, { "name": "mavilleideale" }]
+}
