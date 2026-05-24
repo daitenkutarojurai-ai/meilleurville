@@ -13,6 +13,7 @@ import {
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";
 import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { MACRO_REGIONS } from "@/lib/macro-regions";
 
 export const revalidate = false;
 
@@ -21,6 +22,15 @@ export function generateStaticParams() {
 }
 
 const EN_BASE = ORIGIN_BY_LOCALE.en;
+
+const EN_MACRO_LABEL: Record<string, string> = {
+  "cote-atlantique": "Atlantic Coast",
+  "arc-mediterraneen": "Mediterranean Arc",
+  "arc-alpin": "Alpine Arc",
+  "sud-ouest-gascon": "South-West Gascony",
+  "vallee-du-rhone": "Rhône Valley",
+  "ile-de-france-elargie": "Greater Île-de-France",
+};
 
 const EN_JOB_LABEL: Record<string, string> = {
   facile: "Active",
@@ -248,6 +258,22 @@ export default function EnEmploymentHubPage() {
             Apec (management), Hellowork.
           </p>
         </Card>
+
+        <h2 className="mt-12 text-xl font-semibold text-[var(--text-primary)]">By geographic zone</h2>
+        <p className="mt-2 text-sm text-[var(--text-secondary)]">
+          This ranking broken down by macro-region — each view shows only cities in that geographic zone.
+        </p>
+        <div className="mt-3 grid grid-cols-2 sm:grid-cols-3 gap-3">
+          {MACRO_REGIONS.map((m) => (
+            <Link key={m.slug} href={`/employment/${m.slug}`} className="block">
+              <Card className="hover:shadow-md transition-shadow h-full">
+                <div className="text-2xl mb-1">{m.emoji}</div>
+                <div className="text-sm font-semibold text-[var(--text-primary)]">{EN_MACRO_LABEL[m.slug] ?? m.label}</div>
+                <div className="text-xs text-[var(--text-tertiary)] mt-1">Employment market</div>
+              </Card>
+            </Link>
+          ))}
+        </div>
 
         {/* Cross-links */}
         <h2 className="mt-12 text-xl font-semibold text-[var(--text-primary)]">
