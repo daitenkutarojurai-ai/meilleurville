@@ -205,6 +205,7 @@ export default async function EnCityPage({ params }: Props) {
               { href: "internet-quality", emoji: "📶", label: "Internet quality" },
               { href: "get-settled", emoji: "📋", label: "Get settled" },
               { href: "housing", emoji: "🏠", label: "Housing" },
+              { href: "synthesis", emoji: "🧩", label: "8-dimension profile" },
               { href: "overview", emoji: "🗺️", label: "Full overview" },
             ].map((s) => (
               <Link
