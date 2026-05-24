@@ -1130,6 +1130,398 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["lyon", "montpellier", "nice", "bordeaux", "rennes"],
     tags: ["healthcare", "puma", "mutuelle", "expat", "carte-vitale"],
   },
+  {
+    slug: "best-french-cities-hiking-outdoor-2026",
+    title: "Best French cities for hiking and outdoor living",
+    metaTitle: "Best French Cities for Hiking & Outdoor Life (2026)",
+    metaDesc:
+      "Grenoble, Annecy, Pau, Chambéry: a direct comparison of French cities where the mountains, trails and outdoor culture are genuinely baked into daily life.",
+    category: "lifestyle",
+    emoji: "🥾",
+    readMinutes: 8,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "There's a difference between a city near mountains and a city where the mountains are actually part of daily life. The first type looks good on a brochure; the second type is where you'll find a head torch in every kitchen drawer, trail running clubs that fill up mid-week, and a pharmacy that knows what a twisted ankle on the Col de la Forclaz means. This guide covers the second type.",
+    sections: [
+      {
+        heading: "Grenoble: the capital of outdoor France",
+        body: "Grenoble is surrounded by three mountain ranges — the Belledonne, the Chartreuse, and the Vercors — and the trails start literally at the edge of the city. The Bastille cable car climbs directly from the city centre; you can be on a proper mountain path in under twenty minutes by foot. The outdoor culture is real and deep: there are more than forty sports clubs affiliated to trail running and mountain sports, gear shops on every other street, and a local culture where weekend plans are organised around weather forecasts rather than restaurant reservations. The trade-offs are a below-average climate score in summer (though the altitude keeps heat tolerable), an industrial history that has left air quality issues in the valley, and a cost of living that is rising fast as the outdoor-lifestyle premium drives demand.",
+      },
+      {
+        heading: "Annecy: picture-perfect but increasingly priced out",
+        body: "Annecy has the lake, the old town, and the Alps. The cycling circuit around the lake is one of the most beautiful urban cycling routes in Europe, and the ski resorts of La Clusaz and Le Grand-Bornand are 30-40 minutes by car. The problem is that Annecy has become a victim of its own reputation. Rents and purchase prices have increased sharply over the past five years, and the city is now genuinely expensive by French standards — T2 rents at or above €800/month, purchase prices above €4,500/m². If you can afford it, the quality of life is exceptional. If you're working remotely on a median salary, the maths starts to strain.",
+      },
+      {
+        heading: "Pau: the outdoors without the price tag",
+        body: "Pau is the underrated choice. The Pyrenees are visible on clear days from the city centre, the valleys of the Gave de Pau and the Ossau are stunning, and the city has excellent access to both ski resorts (La Mongie, Gourette) and long-distance hiking (the GR10 starts not far from here, and the Camino de Santiago passes through). Rents are significantly lower than Grenoble or Annecy — T2s from €550/month — and the city has a real student and young professional population, partly driven by Total's regional presence. The weather pattern is Atlantic-Pyrenean: lots of sunshine, but real rain in winter. Worth looking at seriously if the Alpine cities are out of budget.",
+      },
+      {
+        heading: "Chambéry: Grenoble's quieter neighbour",
+        body: "Chambéry sits between the Belledonne range and the Chartreuse, with fast access to the major Savoyard ski resorts and a decent trail network of its own. It's significantly cheaper than either Grenoble or Annecy, and the TGV connection to Paris is around 2 hours. The city centre is pleasant without being spectacular, the cultural scene is modest, and the outdoor access is the main draw. For remote workers or early retirees who want Alpine access without paying Alpine prices, Chambéry is worth a serious look.",
+      },
+      {
+        heading: "Biarritz and the Basque coast",
+        body: "If mountains are secondary and ocean sports are primary — surfing, kitesurfing, trail running on coastal cliffs — the Basque coast from Biarritz to Hendaye is the reference. Biarritz has a world-class surf beach and a community of professional surfers that has shaped the city's culture since the 1960s. The outdoors culture here runs more towards the ocean and the Pyrenean foothills, with trail events, surf schools and an enviable year-round climate (the Basque coast avoids both the northern cold and the Mediterranean heat). The price to pay: Biarritz itself is expensive; Bayonne and Anglet offer better value while keeping the same geography.",
+      },
+      {
+        heading: "What to check before committing",
+        body: "For outdoor living to work long-term, check: the city's cycling infrastructure (a city that's great for mountain biking but miserable for getting to the supermarket by bike will frustrate you daily), the availability and cost of sports clubs (some cities have waiting lists for popular clubs; others have active open communities), the air quality index (several Alpine cities sit in valley-floor inversions that trap pollution in winter), and the proximity to your activity — not just distance on a map, but whether public transport can get you to the trailhead, or whether every outing requires a car.",
+      },
+    ],
+    relatedCities: ["grenoble", "annecy", "pau", "chambery", "biarritz"],
+    tags: ["hiking", "outdoor", "mountains", "trail running", "lifestyle"],
+  },
+  {
+    slug: "moving-to-france-from-uk-2026",
+    title: "Moving to France from the UK: what changed after Brexit",
+    metaTitle: "Moving to France from the UK (2026) — Post-Brexit Guide",
+    metaDesc:
+      "Visas, healthcare, driving licences, pensions, banking: a direct post-Brexit guide to relocating from the UK to France in 2026.",
+    category: "moving",
+    emoji: "🇫🇷",
+    readMinutes: 9,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Before 2021, British citizens moving to France were EU citizens moving to another EU country — a bureaucratic non-event. Post-Brexit, it's meaningfully more involved. The good news: France remains one of the most popular destinations for British expats, the process is manageable, and the quality of life on the other side is largely unchanged. The bad news: you can no longer just arrive and figure it out later. Here's what the process actually looks like.",
+    sections: [
+      {
+        heading: "Visa: which one applies to you",
+        body: "British citizens can enter France without a visa for up to 90 days in any 180-day period, but staying longer requires a visa. For most movers, the relevant visas are: the Visa de Long Séjour Valant Titre de Séjour (VLS-TS) Visiteur, which is for people with passive income who won't work for French employers (retirees, those living on savings or rents); the VLS-TS Salarié, for those with a job offer from a French employer; and the Passeport Talent / ICT for intra-company transfers or skilled workers. The Visiteur visa requires proof of financial self-sufficiency (typically €1,100–1,500/month), comprehensive health insurance, and a signed declaration that you won't work in France. It's issued for one year and renewable. Applications go through Campus France and the French consulate in the UK.",
+      },
+      {
+        heading: "Healthcare: the CPAM gap",
+        body: "As a non-EU citizen, you cannot use the EHIC (or the UK's replacement, the GHIC) to access French healthcare; those cards only cover emergency and temporary stays in the EU. For the first year, before PUMA affiliation kicks in (three months of stable residence, then paperwork that takes further months), you will need private international health insurance. Budget €100–250/month for comprehensive cover depending on age. The Visiteur visa explicitly requires proof of health insurance before it's granted. Once you have your carte Vitale, the French system is excellent and affordable — but the gap between arrival and full coverage needs planning.",
+      },
+      {
+        heading: "Banking: more friction than you'd expect",
+        body: "Opening a French bank account as a new UK resident has become harder since Brexit. Traditional French banks (BNP, Société Générale, Crédit Agricole) are cautious about non-EU clients with no established French credit history. The practical solution most newcomers now use: open a Wise or Revolut multi-currency account before you leave (these work from day one and give you a French IBAN), then use that for daily life while you establish residency and find a local bank willing to take you on. BNP Paribas and HSBC France have been the most reliable options for British expats; local savings banks (caisses d'épargne, Crédit Mutuel) vary. Having a carte de séjour significantly improves your chances.",
+      },
+      {
+        heading: "Driving licence",
+        body: "UK driving licences remain valid in France for one year from the date your residency card (carte de séjour) is issued. After that year, you must exchange your UK licence for a French permis de conduire. The exchange process — handled by ANTS (Agence Nationale des Titres Sécurisés) — is administrative and doesn't require a new test. Keep the original UK licence; you'll need it for the exchange. If your UK licence was issued in Northern Ireland, note that the process is identical: the licence type is what matters, not the issuing authority.",
+      },
+      {
+        heading: "Pension and benefits",
+        body: "UK State Pension can be paid abroad, including to France. If you've reached State Pension age, you simply notify DWP of your new French address and the payment continues. The UK-France social security convention (maintained post-Brexit) means that National Insurance contributions paid in the UK can count towards French pension entitlements in some circumstances — useful for those who intend to work in France. Child Benefit ceases once you permanently leave the UK. Council Tax stops the day you deregister. If you have a private pension, check the tax treatment: under the France-UK double taxation treaty, most private pension payments are taxable in France (at French rates) once you're a French tax resident.",
+      },
+      {
+        heading: "Which cities work best for UK movers",
+        body: "The areas with the largest established British communities — and therefore the most practical infrastructure for newcomers — are: Dordogne and the wider Lot (established second-home communities, many long-term residents), the Charente and Charente-Maritime (La Rochelle has become particularly popular), Brittany (Finistère and Côtes-d'Armor have many British residents), and parts of Languedoc and Provence. For those who need or want city infrastructure, Lyon and Bordeaux have active anglophone communities. Paris has a large English-speaking community but the cost and density often don't suit the lifestyle newcomers are looking for. The south is culturally tempting but increasingly hot — take the climate projections seriously if you're planning to be there in 2035.",
+      },
+    ],
+    relatedCities: ["bordeaux", "toulouse", "montpellier", "dordogne", "la-rochelle"],
+    tags: ["brexit", "uk expats", "visa", "moving to france", "relocation"],
+  },
+  {
+    slug: "brittany-living-guide-2026",
+    title: "Living in Brittany: the honest guide",
+    metaTitle: "Living in Brittany France 2026 — Honest Guide",
+    metaDesc:
+      "Rennes, Brest, Quimper, Saint-Malo: cost of living, weather, jobs, and who Brittany actually suits. Not the tourist brochure version.",
+    category: "lifestyle",
+    emoji: "🌊",
+    readMinutes: 8,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Brittany has a reputation problem: people hear 'grey', 'rainy' and 'the end of the world' and stop listening. The people who have lived there for a decade hear those same words and feel a quiet relief that fewer people are moving there. The reality is more nuanced, and considerably more interesting.",
+    sections: [
+      {
+        heading: "The weather, honestly",
+        body: "Brittany has an oceanic climate: mild winters, cool summers, and a serious amount of cloud cover and rain from October to April. Annual sunshine hours are among the lowest in metropolitan France — roughly 1,700-1,900 hours depending on location, versus 2,700+ on the Côte d'Azur. If you need sun and heat to function, this will be a problem. If you find 38 °C French summers unbearable, or if you prioritise green landscapes and fresh sea air over beach weather, the calculus inverts. The coast gets strong winds that can be dramatic rather than unpleasant. Summer — July and August — is genuinely lovely: temperatures in the mid-20s, long evenings, and some of the most spectacular coastlines in Europe.",
+      },
+      {
+        heading: "Rennes: Brittany's capital, France's best-kept secret",
+        body: "Rennes consistently ranks as one of the best-value mid-size French cities for quality of life, and the data backs this. Strong public transport, a genuinely vibrant student and young-professional population (the city has over 60,000 students), a real tech and startup ecosystem, fast TGV to Paris (1h25), and rents that are significantly below Nantes, Lyon or Bordeaux. The cultural life is strong for a city of its size. The main limitation is that Rennes is not the coast: it's inland, 60 km from Saint-Malo. For city life plus weekend sea access, it's excellent; for daily coastal living, you'd need to be elsewhere.",
+      },
+      {
+        heading: "The coast: Brest, Quimper, Saint-Malo",
+        body: "Brest is the largest coastal city and a naval base — a working city rather than a picturesque one, with prices to match (among the lowest property prices of any large French city), a serious music scene, and an outdoor culture shaped by access to the Presqu'île de Crozon and the Armorique natural park. Quimper is smaller, more conservative, and genuinely pretty — an attractive base for those who want old Breton town character without tourist-town density. Saint-Malo is the most romanticised town in Brittany: the walled city is genuinely beautiful, the ferries to the UK Channel Islands are useful, but it's become expensive and heavily touristic, with a small year-round permanent community.",
+      },
+      {
+        heading: "Jobs and the economy",
+        body: "Brittany is not a major employment hub outside Rennes and, to a lesser extent, Brest. The regional economy relies on agro-food industries (it's the largest agricultural region in France), the naval and defence sector (Brest), and a growing tech cluster in Rennes. Tourism supports seasonal employment along the coast but doesn't build careers. For remote workers, Brittany is near-ideal: fibre coverage is good, cost of living is low, and the quality of life argument writes itself. For those needing local employment, Rennes is the practical choice; the rest of Brittany requires either a niche in the local economy or a portable income.",
+      },
+      {
+        heading: "Who Brittany suits",
+        body: "Brittany consistently shows up at the top of the list for: remote workers who want a lower cost of living without sacrificing city infrastructure (Rennes), retirees with portable income who want landscapes, history and an affordable property market, families who prioritise safety and school quality over urban density, and people making a conscious decision to trade sunshine for a slower, greener rhythm of life. It is a bad fit for people who need warmth, those who depend on local employment in a specialised sector, and anyone for whom a long Parisian-style cultural calendar is a non-negotiable.",
+      },
+    ],
+    relatedCities: ["rennes", "brest", "quimper", "saint-malo", "lorient"],
+    tags: ["brittany", "bretagne", "rennes", "brest", "living in france"],
+  },
+  {
+    slug: "provence-alps-living-guide-2026",
+    title: "Living in Provence and the Côte d'Azur: what the brochures don't say",
+    metaTitle: "Living in Provence & Côte d'Azur 2026 — Honest Guide",
+    metaDesc:
+      "Marseille, Aix-en-Provence, Nice, Toulon: the real trade-offs of living in the south of France in an era of accelerating Mediterranean summers.",
+    category: "lifestyle",
+    emoji: "☀️",
+    readMinutes: 8,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "The south of France remains one of the most sought-after places in Europe to live, and the reasons are obvious: the light, the food, the mountains-meeting-sea geography, the outdoor life. The trade-offs are less often discussed: the heat, the traffic, the water stress, and what 2040 looks like for a region whose summers are already pushing the edge of what is comfortable. This guide covers both sides.",
+    sections: [
+      {
+        heading: "Marseille: France's most misunderstood city",
+        body: "Marseille has a reputation problem that does not survive a week of actually living there. It's France's second-largest city, its most diverse, and arguably its most culturally alive — a city where the Mediterranean is genuinely integrated into daily life, not just a view from a terrace. The problems are real but geographically concentrated: crime statistics are skewed heavily by specific neighbourhoods in the northern districts; the city centre, the south districts (Endoume, Mazargues, Montredon) and the east are perfectly ordinary to live in. The commute is what will grind you down: public transport outside the metro lines is unreliable, driving is exhausting, and the geography is hilly in a way that doesn't forgive bad infrastructure. Budget-wise, it's cheaper than you'd think for a second-city — T2 rents starting around €750/month in liveable areas.",
+      },
+      {
+        heading: "Aix-en-Provence: the expensive civilised choice",
+        body: "Aix is what Marseille would look like if it were smaller, leafier and primarily populated by academics, lawyers and retirees with taste. The old town is genuinely beautiful; the university is one of the best in France; the farmers' market is absurdly good. The price: Aix is expensive relative to its size — property prices are among the highest in the south, rents push €1,000/month for a decent T2 in the centre, and the summer tourist rush makes it unpleasant for several weeks. For those who can afford it and don't mind the summer crowds, the quality of everyday life is consistently high.",
+      },
+      {
+        heading: "Nice: the Côte d'Azur city that functions year-round",
+        body: "Nice has what most of the Côte d'Azur lacks: a real city infrastructure that operates outside tourist season. The tramway network is good, the airport has flights across Europe and the world, and the city of 350,000 has a dense enough population to support cultural life, good hospitals (CHU Nice is one of the better ones in France), and a functional neighbourhood structure. The downside is cost: Nice is expensive even by French standards, with T2 rents approaching €1,100–1,200/month in attractive areas. The Italian border is 30 minutes east, which has appeal for some. The heat in July and August is becoming intense — recent summers have seen multiple days above 38 °C.",
+      },
+      {
+        heading: "The water stress and climate trajectory",
+        body: "The south of France faces a genuine long-term challenge that deserves more weight in any relocation decision. The Mediterranean region is one of the fastest-warming zones in Europe. Drought restrictions — on gardens, pools, car washing, agriculture — have become standard in summer rather than exceptional. Wildfire risk is real across the Var and the Alpes-Maritimes; several areas near Toulon and Saint-Tropez have experienced major fires in the past five years. This doesn't mean the south becomes uninhabitable — millions will continue to live there happily — but if you're buying for the next twenty years, factor in that the summers of the 2030s will be materially harder than those of the 2000s.",
+      },
+      {
+        heading: "Who the south actually suits",
+        body: "The south of France suits: retirees with the income to afford it who won't be commuting in the heat, remote workers who can structure their work around the climate (early mornings, coast access), those who genuinely use the outdoor life on offer (hiking in the Luberon, skiing in the Alpes, sailing), and those for whom the winter quality of life — mild, sunny, Mediterranean — outweighs the summer intensity. It does not suit: families on tight budgets (the rent-to-salary ratio is punishing in most cities), those who need dense public transport to live car-free, and those who struggle with heat. The climate trajectory, honestly presented, suggests that the second group is growing.",
+      },
+    ],
+    relatedCities: ["marseille", "nice", "aix-en-provence", "toulon", "montpellier"],
+    tags: ["provence", "cote d'azur", "marseille", "nice", "living in france"],
+  },
+  {
+    slug: "lyon-living-guide-2026",
+    title: "Living in Lyon: France's second city done right",
+    metaTitle: "Living in Lyon France 2026 — Honest Guide",
+    metaDesc:
+      "Cost of living, neighbourhoods, food, transport and who Lyon actually suits. France's most liveable metropolis, with its real weaknesses.",
+    category: "lifestyle",
+    emoji: "🦁",
+    readMinutes: 7,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Lyon doesn't try as hard as Paris to impress, and that's exactly what makes it work. The second city of France — or third depending on how you count — has the infrastructure of a major metropolis with the everyday quality of life of a mid-size city: you can walk to a starred restaurant from a T2 apartment that costs €900/month, which in Paris would be either a walk-in wardrobe or a six-figure private room.",
+    sections: [
+      {
+        heading: "The geography and how it shapes life",
+        body: "Lyon is built at the confluence of the Rhône and the Saône, which gives it an unusual urban structure: the Presqu'île (the peninsula between the two rivers) is the commercial and cultural heart, Vieux Lyon (the old town) climbs the Fourvière hill on the right bank, and the east is the flat, grid-planned, residential and industrial zone where most people actually live. The geography matters because the east arrondissements (3rd, 7th, 8th) offer excellent value without the Presqu'île premium, and the north (Caluire, Bron) and south (Vénissieux) suburbs extend the metropolitan offer significantly. Property prices and rents in Lyon are high by French standards, but materially lower than Paris: T2s in the 3rd and 7th start around €800–1,000/month, with purchase prices around €4,500–5,000/m².",
+      },
+      {
+        heading: "Gastronomy: it's real, not a tourist invention",
+        body: "Lyon's status as the gastronomic capital of France is not marketing. The city has more Michelin-starred restaurants per capita than any other city in France (and arguably any in the world), but that's a footnote to the real story, which is the bouchons: the traditional Lyonnais bistros serving quenelle, tablier de sapeur, andouillette and tête de veau in a way that hasn't significantly changed since Paul Bocuse's mother ran one. You don't need to earn much to eat extraordinarily well in Lyon. The weekly food markets at Croix-Rousse and the covered market at Les Halles Paul Bocuse are not tourist attractions; they're where people actually shop.",
+      },
+      {
+        heading: "Transport",
+        body: "Lyon has one of the best public transport networks in France outside Paris: four metro lines, multiple tram lines, an extensive bus network, and a growing cycling infrastructure. The 'Vélo'v' self-service bike scheme has over 300 stations. TGV connections are exceptional — Paris in 2 hours, Marseille in 1h40, Geneva in 2 hours, London in 5 hours — making Lyon a genuine base for European business travel. The new T9 tram extension and the Saint-Exupéry airport link (the Rhônexpress, 30 minutes from Part-Dieu) complete a transport picture that is genuinely enviable.",
+      },
+      {
+        heading: "The cultural life",
+        body: "Lyon has a serious cultural infrastructure: the Opéra de Lyon (redesigned by Jean Nouvel, one of the better mid-size opera houses in Europe), the Musée des Confluences, the Biennale d'Art Contemporain, the Fête des Lumières in December — a free public light installation that transforms the entire city for four nights. The film festival (Lumière) pays tribute to the city's claim to be the birthplace of cinema. This is not Paris-level density, but it is enough to sustain a life where cultural boredom is not a realistic risk.",
+      },
+      {
+        heading: "Who Lyon suits — and who it doesn't",
+        body: "Lyon suits: urban professionals who need city infrastructure but find Paris either too expensive or too intense, food-obsessed people for whom gastronomy is a genuine daily pleasure, remote workers and freelancers who want a major tech hub (Lyon has a significant health-tech and biotech cluster centred on the BioParc), and families who want city life with good schools and manageable commutes. It suits less well: those who find dense urban environments stressful (Lyon is genuinely urban; there are no quiet residential streets in the first three arrondissements), those who want the sea (Lyon is 300 km from the nearest coast), and those on minimal budgets (it's not a cheap city).",
+      },
+    ],
+    relatedCities: ["lyon", "villeurbanne", "grenoble", "clermont-ferrand", "saint-etienne"],
+    tags: ["lyon", "living in lyon", "france cities", "lifestyle", "gastronomy"],
+  },
+  {
+    slug: "france-education-system-families-2026",
+    title: "France's education system: what families need to know",
+    metaTitle: "French Education System Guide for Families 2026",
+    metaDesc:
+      "Public, private, international schools in France: a practical guide for expat and relocating families to understand the French school system, catchment areas and realistic options.",
+    category: "family",
+    emoji: "🎓",
+    readMinutes: 8,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "For families with children, the school question often determines the city. Choose a city, then choose a school — or choose a school, then find an apartment in its catchment area. France's education system is distinctive enough that it's worth understanding before you make a decision, rather than discovering the important details after you've signed a lease.",
+    sections: [
+      {
+        heading: "The structure: maternelle to terminale",
+        body: "The French school system runs from age 3 (école maternelle, preschool) to 18 (terminale, the final year of lycée and the year of the baccalauréat exam). Compulsory schooling starts at age 3. The school day is long by European standards — typically 8h30 to 16h30 — and Wednesday afternoons are traditionally off in many schools, though this has been modified in some municipalities. The academic year runs from September to early July, with generous school holidays roughly every six to seven weeks. The system is centralised: curriculum, teaching qualifications and core assessments are set nationally, so the academic experience at a public school in Rennes and one in Perpignan is broadly similar.",
+      },
+      {
+        heading: "Public vs private (and what 'private' means in France)",
+        body: "Around 20% of French schools are 'private' — but this means something different here than in the UK or US. The vast majority of private schools in France are privately managed but state-funded under contract (sous contrat): they follow the national curriculum, employ state-qualified teachers, charge fees of around €500–2,000/year, and do not select on academic ability. The main difference from public schools is usually religious character (Catholic, in most cases), sometimes smaller class sizes, and occasionally a different pedagogical approach. Genuinely private, uncontracted schools exist but are rare and expensive.",
+      },
+      {
+        heading: "The carte scolaire: how catchment areas work",
+        body: "France operates a school catchment system (carte scolaire) for public schools: your address determines which collège (secondary school) your child is assigned to. This is more rigidly enforced at collège level than at lycée level (for lycée, there's more choice). The practical implication for relocating families is that the address you choose matters for the school your child attends. In cities with large variation in school quality — Paris, Lyon, Marseille — the catchment area can significantly affect educational outcomes. In smaller or more homogeneous cities (Rennes, Nantes, Grenoble), the differences between catchment schools are smaller.",
+      },
+      {
+        heading: "International and bilingual schools",
+        body: "If your child has significant schooling in English already, or if you're aiming for a bilingual education, international schools are an option in the major cities. AEFE-affiliated French lycées abroad aside, the main international school options within France are concentrated in Paris, Lyon, Nice, Bordeaux and Toulouse. Most operate on fees of €10,000–20,000/year. British International Schools exist in Paris, Sophia Antipolis and a few other locations. An alternative gaining popularity: bilingual sections in public lycées (labelled OIB — Option Internationale du Baccalauréat) which offer partial instruction in English within the French curriculum, at no extra cost. These sections exist in about 100 lycées across France, mainly in major cities.",
+      },
+      {
+        heading: "Grandes écoles and higher education",
+        body: "France's higher education system is split between universities (open access, relatively low fees) and the grandes écoles (selective, prestigious, significant for career trajectory). The grandes écoles most relevant to international families are the Sciences Po campuses (Paris, Bordeaux, Lyon, etc.), the École Polytechnique (near Paris), and the engineering and business schools of each major city. For families who may have academically ambitious children, the grandes écoles track starts earlier than most parents realise: the two-year classes préparatoires (prépa) after terminale are the feeder pathway, and these are housed in specific lycées whose prestige and prépa places are fiercely competitive.",
+      },
+      {
+        heading: "Practical first steps",
+        body: "On arrival, register with the mairie (city hall) — this is the first step for school registration. They will issue a certificate of enrolment for your catchment school. For children who don't speak French, most cities have CASNAV support classes (Classes d'Accueil pour les élèves allophones) which provide intensive French instruction alongside integration. These are attached to specific schools; ask the mairie which school serves your area. For secondary-age children with limited French, it is worth discussing directly with the school's CPE (counsellor) about the best integration route — most will be pragmatic and helpful.",
+      },
+    ],
+    relatedCities: ["paris", "lyon", "bordeaux", "nantes", "toulouse"],
+    tags: ["education", "schools", "families", "bilingual", "french school system"],
+  },
+  {
+    slug: "france-property-market-buyers-guide-2026",
+    title: "Buying property in France in 2026: the honest buyer's guide",
+    metaTitle: "Buying Property in France 2026 — Honest Buyer's Guide",
+    metaDesc:
+      "Notaires, frais de notaire, DPE, mortgage access for non-residents: what foreign buyers need to understand about France's property market in 2026.",
+    category: "budget",
+    emoji: "🏡",
+    readMinutes: 9,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "France's property market has a dual character. On one side: a notarial system designed to make transactions slow, expensive and, by design, very hard to unwind. On the other: one of the highest levels of property security in the world, once you're through the door. Understanding how the system works — and where it will surprise you — is what separates people who buy well from those who are still talking about it three years later.",
+    sections: [
+      {
+        heading: "The notaire system and what it actually costs you",
+        body: "Every property purchase in France must go through a notaire (a public official, not a private solicitor). The notaire's role is to verify title, collect the relevant taxes and register the transaction. The 'frais de notaire' are around 7–8% of the purchase price for older (second-hand) properties, and 2–3% for new builds. This is not a negotiable line item — it's a fixed cost you cannot avoid. On a €250,000 purchase, you're paying roughly €18,000–20,000 in notaire fees. Budget for this from the start. The process typically takes 3–4 months from the signing of the preliminary contract (compromis de vente) to the final deed.",
+      },
+      {
+        heading: "DPE: the energy label and why it now matters",
+        body: "Every property listed for sale in France must carry a DPE (Diagnostic de Performance Énergétique) rating, from A (efficient) to G (very poor). As of 2025, properties rated F or G are no longer legally rentable — they cannot be let out — and G-rated properties are subject to restrictions on sale. Properties rated E face restrictions from 2028. This has significant implications for buyers: a cheaper E or F-rated property might look attractive on price, but factor in the thermal renovation cost (typically €20,000–50,000+ for full insulation and heating upgrades) before comparing. On the other hand, the post-renovation value uplift in a well-positioned DPE-E property can be real.",
+      },
+      {
+        heading: "Mortgages as a foreign buyer",
+        body: "Non-resident EU citizens can access French mortgages relatively normally, though criteria have tightened post-2022. Non-EU buyers (British since Brexit, Americans, Australians) face more screening: most French banks want to see French tax residency, local employment, or significant assets before offering a mortgage. If you're buying as a non-resident, specialist brokers who work with international buyers (banks like Banque Transatlantique or LCL's private banking arm) can unlock options that a standard branch approach won't. Interest rates in 2026 remain elevated by the standards of 2020–21; typical residential mortgages are at 3.5–4.0% for 20-year terms at time of writing.",
+      },
+      {
+        heading: "Which markets offer the best value",
+        body: "The price divergence between French cities is significant. At the top: Paris (€9,000–10,000/m² for average properties), the Côte d'Azur, and Annecy. At the other end: Perpignan, Saint-Étienne, Limoges, parts of Lorraine and the industrial north, where well-maintained apartments start below €1,500/m². The mid-tier — Rennes, Nantes, Bordeaux, Strasbourg — sits at €3,500–5,000/m² depending on neighbourhood. The recent cooling of the 2021–2022 bubble has improved conditions for buyers in the over-priced southern cities, though prices have not corrected dramatically. The best value-to-quality ratio in 2026 is in the range of €2,000–3,500/m² in cities with real university and professional populations: Poitiers, Le Mans, Dijon, Metz, Reims.",
+      },
+      {
+        heading: "Practical traps to avoid",
+        body: "The most common errors foreign buyers make: underestimating the notaire fees (see above), not checking the co-ownership charges (charges de copropriété) on apartments — which can run €200–500/month in older buildings with expensive shared maintenance — treating the compromis de vente as non-binding when it mostly isn't (the seven-day cooling-off period is for buyers only, and only for main residence purchases), and buying in a flood zone without reading the Plan de Prévention du Risque Inondation (PPRI) which is publicly available for every municipality.",
+      },
+    ],
+    relatedCities: ["bordeaux", "nantes", "rennes", "lyon", "montpellier"],
+    tags: ["property", "buying", "notaire", "dpe", "mortgage", "budget"],
+  },
+  {
+    slug: "france-cost-of-living-vs-salary-2026",
+    title: "France: what salary do you actually need to live well?",
+    metaTitle: "France Cost of Living vs Salary (2026) — What You Need",
+    metaDesc:
+      "Realistic salary benchmarks for living comfortably in Paris, Lyon, Bordeaux, Rennes and smaller French cities in 2026. Rent, food, transport and what's left over.",
+    category: "budget",
+    emoji: "💶",
+    readMinutes: 7,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "The median net salary in France is around €2,100/month. That's the national median — and it explains both why so many French people manage perfectly well and why the 'France is expensive' narrative is partially true and partially a Paris-centric distortion. What you need depends enormously on where you are.",
+    sections: [
+      {
+        heading: "Paris: the outlier",
+        body: "Paris requires €3,500–4,000/month net per adult to live comfortably without constant anxiety about money. A decent one-bedroom (T2) apartment in an acceptable arrondissement costs €1,200–1,600/month. Add food (€400–600/month eating partly out, partly in), transport (Navigo pass €86/month), utilities, phone, and basic leisure, and you're at €2,800–3,200/month before savings. At the median salary of €2,100, you're in permanent squeeze or sharing. The Île-de-France broadly (the suburbs) improves the rent situation but rarely the commute. Paris makes financial sense mainly if your job pays Parisian rates and you're genuinely career-constrained to being there.",
+      },
+      {
+        heading: "Lyon, Bordeaux, Nantes: the liveable metros",
+        body: "In France's tier-two cities, the minimum for a comfortable single-person life drops to €2,200–2,500/month net. Rents are meaningfully lower — T2 in Lyon from €800, Bordeaux from €850, Nantes from €800 — and the rest of the cost basket doesn't scale up proportionally. At €2,500–3,000/month, you're living well: comfortable apartment, daily restaurant lunches, regular cultural events, annual holidays. The career ladder is shallower than Paris, but for remote workers or those who have made a deliberate income compromise, the quality-of-life-per-euro ratio is considerably better.",
+      },
+      {
+        heading: "Mid-size cities: the value sweet spot",
+        body: "In cities like Rennes, Montpellier, Strasbourg, Grenoble or Toulouse, you can live genuinely well on €1,800–2,200/month net. Rents drop to €650–800/month for a decent T2; food is cheaper; everything is closer. At €2,500+/month you have significant breathing room — savings, a car, regular travel. These cities are not compromises; they have real universities, hospitals, cultural life and career ecosystems. The 'moving out of Paris' financial argument is most compelling precisely here: a 20–25% pay cut can still translate to a 30–40% improvement in disposable income and free time.",
+      },
+      {
+        heading: "The SMIC and what it actually buys",
+        body: "The SMIC (minimum wage) in France is currently around €1,400/month net. At this income level, Paris is not viable without housing subsidies (APL) or shared accommodation. In mid-size French cities, the SMIC is survivable — €550–650 rent in a shared colocation, €250 food, €100 transport, €100 phone and internet — but leaves nothing for savings, leisure, or unexpected costs. The SMIC was designed to be the floor, not the average; the genuine lower-end of comfortable independent living is around €1,600–1,700/month net in a low-cost city.",
+      },
+      {
+        heading: "What French income taxes actually mean for take-home pay",
+        body: "France's income tax (impôt sur le revenu) is based on the household, not the individual, via the quotient familial system. A single person earning €35,000 gross pays around €2,500–3,000 in income tax, for a net of about €28,000–30,000 (before social charges; gross-to-net conversion already includes employee social charges, which are high in France). The net salary figure on your contract already has social charges deducted — what you receive is roughly 75-80% of the gross salary number. Property tax (taxe foncière) has risen significantly across France in 2023–2025, particularly in cities; for owners, this is now a meaningful annual cost.",
+      },
+    ],
+    relatedCities: ["paris", "lyon", "rennes", "bordeaux", "montpellier"],
+    tags: ["cost of living", "salary", "budget", "smic", "income"],
+  },
+  {
+    slug: "bordeaux-living-guide-2026",
+    title: "Living in Bordeaux: the honest guide",
+    metaTitle: "Living in Bordeaux France 2026 — Honest Resident's Guide",
+    metaDesc:
+      "What living in Bordeaux is really like in 2026: cost of living, best neighbourhoods, the wine country, and who it suits (and who it doesn't).",
+    category: "lifestyle",
+    emoji: "🍷",
+    readMinutes: 7,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Bordeaux had its inflection point around 2017 when the LGV high-speed rail line cut the journey from Paris to 2 hours. The city was already attractive; suddenly it was also accessible. The result was a property price surge, a significant in-migration of Parisians, and a genuine metropolitan ambition. A few years on, the shine is more calibrated: Bordeaux is good, sometimes very good, but it's not Paris-on-the-Atlantic, and the summers are getting serious.",
+    sections: [
+      {
+        heading: "The neighbourhoods",
+        body: "Bordeaux's historic centre is the Golden Triangle (between the Place des Grands Hommes, the Allées de Tourny and the cours de l'Intendance): expensive, touristy, beautiful. The Chartrons quarter — between the port and the centre — is where the city's contemporary culture lives: art galleries, design shops, wine merchants who know their terroir. The Caudéran and Saint-Genès neighbourhoods to the south and west are residential, quieter, and where families tend to settle. The Bastide, across the river, was the left-behind zone that has become Bordeaux's gentrification frontier over the past decade — more affordable, with a growing restaurant and bar scene. The LGV effect pushed up prices significantly in most areas; T2 rents now start around €850/month in accessible neighbourhoods.",
+      },
+      {
+        heading: "The wine culture is real and everyday",
+        body: "The Bordeaux wine culture is not a tourist overlay — it's structural. The wine estates around the city are not far: Pomerol, Saint-Émilion and Médoc are 30–50 minutes by car, the Graves is practically suburban. The city has a dense network of négociants, wine bars and cellars that operate at all levels — this is not an exclusive €500/bottle culture; it's a city where the local epicerie has decent Bordeaux Supérieur at €7 a bottle and takes it seriously. The CIVB's Cité du Vin museum is a useful introduction for newcomers; the real education comes from the négociants.",
+      },
+      {
+        heading: "Climate and the summer heat",
+        body: "Bordeaux is warm. More precisely: Bordeaux now has summers that regularly exceed 35 °C for extended periods, and the 2022 and 2023 heatwaves were severe enough to ignite wildfires in the Gironde forests that burned through the night in visible distance of suburban Bordeaux. This is not a reason to avoid the city, but it is a serious factor for anyone buying (an air-conditioned or well-insulated property is no longer a luxury), anyone who works outdoors, and anyone who has physical health conditions worsened by heat. The spring and autumn are exceptional — arguably the best season-for-season climate in France. Winter is mild. Summer is now challenging.",
+      },
+      {
+        heading: "Jobs and the economic base",
+        body: "Bordeaux has a diversified economy: aerospace (the Thales and Safran cluster around Mérignac airport), wine trade, a growing tech ecosystem (Bordeaux Métropole has invested heavily in attracting startups), and significant tourism-related employment. The Chamber of Commerce ranks it among the top-five most dynamic French cities by new business creation. The salaries are below Parisian levels — typically 10–20% lower for equivalent roles — but so is the cost of living. The TGV connection makes it feasible to maintain Parisian professional connections while living in Bordeaux.",
+      },
+      {
+        heading: "Who Bordeaux suits",
+        body: "Bordeaux suits: those who want a genuinely urban, architecturally beautiful city with a high cultural ceiling without the density of Paris, wine lovers for whom the geographic proximity to great wine country is a life quality factor, remote workers who can access Paris occasionally without relocating there, and families who want a mid-size metropolis with a genuine sense of civic identity. It suits less well: those on minimal budgets (it's not cheap relative to most French cities), those who can't manage warm summers, and those who need the specific density of the Parisian job market.",
+      },
+    ],
+    relatedCities: ["bordeaux", "pau", "la-rochelle", "bayonne", "arcachon"],
+    tags: ["bordeaux", "living in bordeaux", "wine", "gironde", "france"],
+  },
+  {
+    slug: "france-digital-nomad-visa-guide-2026",
+    title: "Working remotely from France: visa options, taxes and the practical truth",
+    metaTitle: "France Digital Nomad & Remote Work Visa Guide (2026)",
+    metaDesc:
+      "Which visa lets you work remotely from France legally, how French taxes apply, and the cities that make the most practical sense for non-EU remote workers.",
+    category: "remote-work",
+    emoji: "🌍",
+    readMinutes: 8,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "France doesn't have a specific 'digital nomad visa' — not in the way Portugal, Spain or Estonia do. What it does have is a set of long-stay visa routes that a remote worker can use legally, depending on their employment structure and nationality. The nuance matters: working remotely from France on a tourist visa is technically illegal. Most people do it for a few weeks without consequence, but for stays of six months or more, getting the paperwork right matters — especially for tax residency.",
+    sections: [
+      {
+        heading: "The Visiteur visa: the main option for most",
+        body: "For non-EU citizens who work remotely for a non-French employer and want to spend over 90 days in France, the VLS-TS Visiteur (Visitor long-stay visa) is the most common route. The key conditions: you must not work for a French employer or client (passive income, foreign-sourced remote income, and self-employed income from non-French clients are the targeted use cases), you must demonstrate financial self-sufficiency (typically €1,100–1,500/month minimum, shown via bank statements), and you must have comprehensive health insurance. The visa is issued for 1 year, renewable as long as conditions are met. Crucially, it does not give you the right to work in France — it gives you the right to reside while your income comes from elsewhere.",
+      },
+      {
+        heading: "The auto-entrepreneur route for freelancers",
+        body: "If you have clients in France, or want the option to take French clients without limitation, the auto-entrepreneur (micro-enterprise) regime is France's simplified sole trader structure. Registration takes 15 minutes online, the tax structure is simple (a flat percentage of turnover, no complex accounting), and it qualifies you for a VLS-TS Salarié/Entrepreneur. The trade-off: once registered as an auto-entrepreneur in France, you're a French tax resident with French social contributions (about 22% of turnover for service activities), and French business law applies to your invoices. For those planning to stay longer-term and build a client base in France, it's the right structure. For those keeping all income non-French, the Visiteur visa is cleaner.",
+      },
+      {
+        heading: "Tax residency: the 183-day trigger",
+        body: "France's tax law defines you as a tax resident if you spend more than 183 days in France in a calendar year, or if France is your main economic base or family home — whichever criterion is met first. Once you're a French tax resident, your worldwide income is taxable in France, subject to any applicable double taxation treaty (France has treaties with most countries that prevent literal double taxation, but not all income is treated the same under every treaty). For remote workers, the practical implication: if you're spending more than six months in France per year, you will likely become a French tax resident, and you should account for this in your financial planning. French income tax on a €40,000 annual income is around €3,000–4,500 for a single person — not severe, but not zero.",
+      },
+      {
+        heading: "Cities that work best for remote workers",
+        body: "The cities that consistently come out ahead for remote-working quality of life are: Rennes (strong fibre, active tech community, affordable, excellent rail connections, 1h25 to Paris), Nantes (larger, slightly more expensive, exceptional quality of life, Atlantic access), Montpellier (the sun argument, strong student and startup density, growing but still affordable), Bordeaux (urban quality, wine country access, LGV connection, but summers are now intense), and Strasbourg (European access, architectural character, lower density, excellent public transport). All have good fibre coverage, multiple coworking options, and an established community of remote workers.",
+      },
+      {
+        heading: "The practical checklist",
+        body: "Before committing to more than 90 days in France: 1. Apply for the appropriate visa from the French consulate in your home country — do not arrive on a tourist entry and then apply locally, this rarely works. 2. Get comprehensive health insurance before applying. 3. Open a French bank account or a Wise account with a French IBAN before you lose easy access to your home country systems. 4. Understand your tax residency position: speak to a tax adviser in your home country about treaty provisions before crossing the 183-day threshold. 5. Register your address with the mairie within 3 months of arrival — this is the administrative anchor for everything else: bank accounts, the PUMA affiliation process, library cards.",
+      },
+    ],
+    relatedCities: ["rennes", "nantes", "montpellier", "bordeaux", "strasbourg"],
+    tags: ["digital nomad", "remote work", "visa", "tax", "freelance"],
+  },
 ];
 
 export function getEnGuide(slug: string): EnGuide | undefined {
