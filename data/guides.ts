@@ -19481,6 +19481,293 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["investissement locatif étudiant France 2026", "LMNP meublé étudiant", "résidence étudiante investissement", "rendement locatif studio France", "meilleures villes investissement étudiant 2026"],
   },
+  {
+    slug: "acheter-a-metz-quel-quartier-budget-2026",
+    title: "Acheter à Metz en 2026 : quel quartier et quel budget ?",
+    metaTitle: "Acheter à Metz 2026 — prix m², quartiers, budget primo-accédant",
+    metaDesc: "Guide immobilier Metz 2026 : prix par quartier (Centre historique, Devant-les-Ponts, Borny, Grigy), fourchettes de budget et tendances du marché.",
+    category: "budget",
+    emoji: "🏰",
+    readMinutes: 9,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "Metz surprend. Capitale de la Moselle avec une cathédrale gothique hors normes, une scène culturelle qui monte (Centre Pompidou-Metz, festivals) et des prix immobiliers encore sages pour une ville de cette envergure. Si Strasbourg a explosé et Nancy suit le mouvement, Metz reste dans une fenêtre d'opportunité — surtout pour les primo-accédants qui ont raté le TGV Paris-Lyon-Bordeaux. Le marché est liquide, la demande locative portée par l'université et les administrations, et les quartiers patrimoniaux offrent un rapport charme/prix difficile à battre en France.",
+    sections: [
+      {
+        heading: "Le marché immobilier messin en 2026",
+        body: "Metz affiche un prix médian autour de 2 100-2 400 €/m² pour les appartements anciens, en légère progression depuis 2023. La ville a évité la surchauffe : pas de spéculation massive ni d'afflux de télétravailleurs parisiens comme Nantes ou Bordeaux. La demande locative est portée par 15 000 étudiants (université, écoles d'ingénieurs), les fonctionnaires de l'État et du département, et une population allemande et luxembourgeoise qui travaille de l'autre côté de la frontière. Taux de vacance locative faible en centre-ville. Le marché des maisons en périphérie est plus tendu : les Messins qui ont accès à un jardin ne veulent plus revenir en appartement.",
+      },
+      {
+        heading: "Les quartiers à connaître",
+        body: "**Centre historique et Île** : secteur premium, cœur médiéval entre la cathédrale Saint-Étienne et la Moselle. Appartements dans des hôtels particuliers du XVIIIe, lofts en bâti industriel réhabilité. 2 600-3 500 €/m². Parfait pour un investissement patrimonial à louer aux cadres d'Eurostat ou du Parlement européen de passage. Peu de rotation, forts loyers. **Nouvelle-Ville (quartier impérial)** : architecture néo-baroque allemande remarquablement conservée, autour de l'avenue Foch et de la gare. 1 900-2 500 €/m². Idéal pour les familles : espaces verts, lycées de qualité, ambiance bourgeoise-bohème. **Devant-les-Ponts / Plantières** : rive gauche de la Moselle, ambiance populaire authentique. Maisons de ville avec jardins, encore sous la barre des 1 800 €/m² pour la moitié des biens. Quartier en embourgeoisement progressif depuis l'ouverture de nouvelles lignes de bus. **Borny / Queuleu** : secteur nord-est, parc résidentiel des années 70. Appart F3-F4 en dessous de 1 500 €/m², rentabilité brute souvent > 7 %. À réserver aux investisseurs expérimentés : gestion locative plus exigeante, turnover plus élevé. **Grigy (ZAC)** : zone d'activités et résidentielle neuve au sud. Programmes neufs 2 800-3 200 €/m², éligibles PTZ, mais cadre sans âme et dépendance voiture.",
+      },
+      {
+        heading: "Budgets types pour acheter à Metz",
+        body: "Studio / T1 (25-35 m²) : 48 000-80 000 € selon le secteur. T2 (40-55 m²) : 80 000-130 000 €. T3 (60-80 m²) : 130 000-190 000 €. Maison de ville avec jardin (Devant-les-Ponts) : 180 000-280 000 €. Appartement dans un bel immeuble de la Nouvelle-Ville (T3, 70 m²) : 150 000-200 000 €. Ces fourchettes permettent d'accéder à Metz avec un apport de 15-20 000 € sur un T2, ce qui est inaccessible dans la plupart des grandes métropoles françaises.",
+      },
+      {
+        heading: "L'investissement locatif : une rentabilité supérieure à la moyenne",
+        body: "Metz affiche des rendements bruts de 5 à 8 % selon le secteur — un écart notable par rapport à Lyon (3-4 %) ou Strasbourg (4-5 %). La demande étudiante sur les petites surfaces est très fiable : l'université Paul-Verlaine recrute des étudiants venus du nord de la Lorraine et du Luxembourg. Les biens dans la Nouvelle-Ville (T2-T3, 80-140 k€) combinant bon état + bonne localisation tendent à être les plus faciles à arbitrer. Attention aux immeubles de la reconstruction d'après-guerre (années 50-60) : travaux d'isolation lourds à venir, DPE en F-G, risque de moins-value si l'acheteur ne budget pas la rénovation.",
+      },
+      {
+        heading: "Ce que personne ne dit sur Metz",
+        body: "La ville reste sous-estimée par rapport à son potentiel. L'ouverture du Centre Pompidou-Metz en 2010 a attiré 500 000 visiteurs par an et légitimé Metz comme destination culturelle. La proximité du Luxembourg (45 min en TER) crée un réservoir de locataires avec des salaires luxembourgeois — et une capacité à payer des loyers supérieurs à la médiane locale. En revanche, le marché de l'emploi local reste fragile hors secteur public et frontaliers : une ville très dépendante du tertiaire public. Pour un investissement à long terme, Metz est plus sûre qu'une ville mono-industrielle, mais l'appréciation du prix n'explosera pas non plus.",
+      },
+    ],
+    relatedCities: ["metz", "nancy", "thionville", "strasbourg"],
+    relatedGuides: [
+      "acheter-a-strasbourg-quel-quartier-budget-2026",
+      "metz-vs-nancy-comparatif-2026",
+      "vivre-en-lorraine-metz-nancy-thionville-2026",
+    ],
+    tags: ["acheter à Metz 2026", "immobilier Metz prix quartiers", "investissement locatif Metz", "primo-accédant Metz", "quartiers Metz budget"],
+  },
+  {
+    slug: "acheter-a-nancy-quel-quartier-budget-2026",
+    title: "Acheter à Nancy en 2026 : quel quartier et quel budget ?",
+    metaTitle: "Acheter à Nancy 2026 — prix m², quartiers, conseils primo-accédant",
+    metaDesc: "Guide immobilier Nancy 2026 : prix par quartier (Place Stanislas, Trois-Maisons, Haussonville, Rives de Meurthe), fourchettes budget et tendances.",
+    category: "budget",
+    emoji: "⚜️",
+    readMinutes: 9,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "Nancy est la ville universitaire de Lorraine par excellence — 50 000 étudiants pour 300 000 habitants dans l'agglomération — avec une Place Stanislas classée au patrimoine mondial de l'UNESCO qui fait office de vitrine mondiale. Mais derrière le décor baroque, c'est un marché immobilier en mutation : le départ de plusieurs grandes entreprises industrielles a pesé, l'université a renforcé la vocation résidentielle et estudiantine, et certains quartiers offrent des prix très accessibles pour un cadre de vie réel. Guide sans emballage.",
+    sections: [
+      {
+        heading: "État du marché immobilier nancéien en 2026",
+        body: "Nancy navigue autour de 1 900-2 300 €/m² pour les appartements anciens, avec un marché plus abordable que Strasbourg et légèrement sous Metz pour les surfaces courantes. La demande locative est dominée par les étudiants (grandes écoles : Mines Nancy, ESSEC ING, ICN, fac de droit-médecine) et les jeunes actifs en début de carrière. La tension locative est forte sur les T1-T2, plus détendue sur les T3-T4 en dehors du centre. La ville a enregistré un regain d'attractivité depuis 2022 chez les télétravailleurs qui cherchent une ville à taille humaine avec TGV Paris (1h30). Résultat : quelques dizaines de milliers d'euros de surcoût sur les biens les plus demandés en hypercentre, sans pour autant que le marché soit tendu au sens lyonnais ou bordelais.",
+      },
+      {
+        heading: "Les quartiers de Nancy, du centre à la périphérie",
+        body: "**Hypercentre / Place Stanislas** : les appartements haussmanniens et Art déco autour de la place se négocient 2 400-3 200 €/m². Forte demande, peu de rotation. Un T2 de 45 m² vaut 110-140 k€. Excellent investissement patrimonial mais rendement locatif brut modeste (4-5 %). **Quartier de la Pépinière / Anatole France** : légèrement en retrait, calme, arbres centenaires. Famille + retraités aisés. 2 200-2 700 €/m². **Trois-Maisons / Saint-Pierre** : quartier populaire reconverti, en embourgeoisement lent. Maisons de ville 130-200 k€. Bon compromis qualité-prix pour les familles. **Haussonville** : quartier du XIXe intermédiaire, immeubles de rapport bien conservés. 1 800-2 200 €/m². Rendement correct, population mixte. **Rives de Meurthe** : requalification urbaine des anciens abattoirs et friches industrielles. Programmes neufs 2 600-3 000 €/m², bon niveau de prestation, architecture contemporaine. Ecoconstruction, pistes cyclables. Pour les acheteurs qui veulent du neuf sans aller en banlieue. **Plateau de Haye** : grand ensemble nord, prix très bas (< 1 200 €/m²), rendement élevé, gestion locative délicate. À éviter pour un premier achat.",
+      },
+      {
+        heading: "Budget selon le profil",
+        body: "Étudiant / investisseur petit budget : T1 en Haussonville ou Trois-Maisons, 45-70 k€. Rentabilité brute potentielle 6-8 %. Primo-accédant jeune couple : T2-T3 dans le quartier de la Pépinière ou Anatole France, 100-160 k€. Famille : T3-T4 à Trois-Maisons ou une maison en première couronne (Laxou, Vandœuvre), 180-280 k€. Investisseur patrimonial : appartement Art déco hypercentre, T2-T3, 130-200 k€, valorisation et bonne liquidité à la revente.",
+      },
+      {
+        heading: "Spécificité : le marché des grandes surfaces et maisons",
+        body: "Nancy souffre d'un déficit historique de maisons individuelles dans la ville proprement dite (morphologie urbaine dense). Les familles qui veulent un jardin doivent chercher en périphérie : Essey-lès-Nancy, Laxou, Villers-lès-Nancy, Saint-Max. Prix des maisons 3-4 chambres en première couronne : 220 000-350 000 €. La commune de Vandœuvre-lès-Nancy mérite attention : desservie par le tramway, plus abordable que Nancy-ville, partiellement étudiante (IUT, fac de médecine).",
+      },
+      {
+        heading: "Nancy dans 5 ans : pari raisonnable ?",
+        body: "La dynamique dépend de la capacité de Nancy à retenir ses diplômés plutôt que de les voir migrer vers Strasbourg, Paris ou Lyon. Le TGV (1h30 Paris) aide mais n'a pas suffi à redresser l'emploi privé comme espéré post-2010. Les nouvelles administrations régionales (Grand Est à Strasbourg) ont concentré les sièges ailleurs. Résultat : Nancy est une belle ville universitaire avec des prix sages — un bon achat si on projette une revente à 5-7 ans, moins sûr sur 15 ans si l'emploi local stagne. Les Rives de Meurthe représentent le pari le plus clair sur l'avenir du quartier.",
+      },
+    ],
+    relatedCities: ["nancy", "metz", "vandoeuvre-les-nancy", "strasbourg"],
+    relatedGuides: [
+      "metz-vs-nancy-comparatif-2026",
+      "acheter-a-metz-quel-quartier-budget-2026",
+      "vivre-en-lorraine-metz-nancy-thionville-2026",
+    ],
+    tags: ["acheter à Nancy 2026", "immobilier Nancy prix quartiers", "investissement locatif Nancy", "primo-accédant Nancy Lorraine", "quartiers Nancy budget"],
+  },
+  {
+    slug: "acheter-a-la-rochelle-quel-quartier-budget-2026",
+    title: "Acheter à La Rochelle en 2026 : quel quartier et quel budget ?",
+    metaTitle: "Acheter à La Rochelle 2026 — prix m², quartiers, conseils",
+    metaDesc: "Guide immobilier La Rochelle 2026 : prix par quartier (Vieux-Port, Les Minimes, Mireuil, Tasdon), budget primo-accédant et tendances du marché.",
+    category: "budget",
+    emoji: "⚓",
+    readMinutes: 9,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "La Rochelle est un cas d'école de l'attractivité post-Covid. La ville a explosé dès 2021 : des milliers de télétravailleurs ont fui Paris, Nantes ou Bordeaux pour s'installer au bord de l'Atlantique avec une qualité de vie supérieure. Résultat : les prix ont pris 25-35 % en trois ans dans les quartiers les plus demandés. En 2026, le soufflé est légèrement retombé mais pas effondré. La Rochelle reste une ville chère rapportée à son bassin d'emploi local — à des prix souvent justifiés par le mode de vie, moins par la rentabilité locative. Guide pour ceux qui veulent acheter les yeux ouverts.",
+    sections: [
+      {
+        heading: "Le marché rochelais en 2026 : après la surchauffe",
+        body: "La Rochelle tourne autour de 3 200-3 800 €/m² pour les appartements anciens selon les quartiers — soit le niveau de Rennes ou de Bordeaux-périphérie. Les maisons avec jardin dépassent souvent 4 000 €/m² en bon état, au-delà du raisonnable pour un marché de 80 000 habitants. La correction de 2023-2024 (hausse des taux) a légèrement freiné la course mais pas inversé la tendance. Demande toujours portée par les télétravailleurs, les retraités du nord de la France (le soleil, la mer, les îles), et les résidences secondaires de la classe aisée parisienne. Tension locative en saison touristique qui fausse les rendements annuels.",
+      },
+      {
+        heading: "Les quartiers : panorama réaliste",
+        body: "**Vieux-Port / Centre historique** : tours médiévales, arcades, restaurants. Appartements en pierre 3 500-5 000 €/m². Marché de prestige et de résidences secondaires. Rendement locatif brut < 4 %, mais revente fluide. **Les Minimes** : quartier résidentiel moderne autour du port de plaisance, le plus grand de France. Pavillons des années 70-90, quelques immeubles récents face au port. 2 800-3 500 €/m². La Rochelle la plus « famille ». Pistes cyclables, lycées, commerces. **Mireuil** : quartier nord-ouest, plus accessible (2 200-2 700 €/m²), mixité sociale, en cours de rénovation urbaine. Bon rapport qualité-prix si on accepte un environnement moins « carte postale ». **Tasdon / Port-Neuf** : au sud, réhabilitation d'anciens quartiers portuaires, programmes neufs et belles rénovations. 3 200-4 000 €/m² mais souvent meilleur état que l'ancien. **Aytré / Lagord (communes limitrophes)** : 2 500-3 000 €/m² pour des maisons plus abordables qu'à La Rochelle-ville, bien desservies en vélo ou bus.",
+      },
+      {
+        heading: "Budget pour chaque profil",
+        body: "T1 pour investissement locatif : 90-130 k€ (Les Minimes ou Mireuil). Rendement brut 4-5 %, honnête mais pas exceptionnel. Primo-accédant T2 : 130-180 k€, trouver quelque chose de correct nécessite du temps et du compromis. La Rochelle n'est plus bon marché. Famille T3-T4 : 220-350 k€ selon le quartier et l'état. Budget en dehors de Paris mais pas loin. Maison avec jardin : 300-550 k€ pour quelque chose de correct dans la ville. Moins cher en premiere couronne (Aytré, Périgny).",
+      },
+      {
+        heading: "Le piège de la résidence secondaire",
+        body: "Un tiers des appartements du Vieux-Port seraient des résidences secondaires ou des locations courte durée (Airbnb). Cela soutient les prix mais tue la vie de quartier en basse saison et rend la location longue durée de plus en plus difficile. La mairie a mis en place des restrictions sur les meublés touristiques dans certains secteurs — à vérifier avant d'acheter avec un projet de location saisonnière. La ALUR sur la limitation Airbnb s'applique : maximum 120 jours/an en résidence principale.",
+      },
+      {
+        heading: "Acheter à La Rochelle : pour qui, vraiment ?",
+        body: "La Rochelle est un bon achat si : vous comptez y vivre à long terme (cadre de vie exceptionnel), vous êtes télétravailleur ou avez un emploi local (université, pôle santé, administrations), ou vous cherchez une résidence secondaire pour usage personnel à moins de 3h de Paris en TER. La rentabilité locative pure est décevante pour les prix demandés. La plus-value future est incertaine maintenant que le gros de la hausse post-Covid est passé. Pas la ville pour un investissement locatif opportuniste — préférez Poitiers ou Niort pour ça.",
+      },
+    ],
+    relatedCities: ["la-rochelle", "poitiers", "saintes", "niort"],
+    relatedGuides: [
+      "la-rochelle-vs-bayonne-comparatif-2026",
+      "vivre-en-charente-maritime-guide-2026",
+      "teletravailler-depuis-nouvelle-aquitaine-guide-2026",
+    ],
+    tags: ["acheter à La Rochelle 2026", "immobilier La Rochelle prix quartiers", "investissement locatif La Rochelle", "primo-accédant La Rochelle", "quartiers La Rochelle budget"],
+  },
+  {
+    slug: "acheter-a-reims-quel-quartier-budget-2026",
+    title: "Acheter à Reims en 2026 : quel quartier et quel budget ?",
+    metaTitle: "Acheter à Reims 2026 — prix m², quartiers, conseils primo-accédant",
+    metaDesc: "Guide immobilier Reims 2026 : prix par quartier (Centre cathédrale, Clairmarais, Europe, Croix-Rouge), budget d'achat et tendances du marché.",
+    category: "budget",
+    emoji: "🍾",
+    readMinutes: 9,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "Reims souffre d'un déficit d'image injustifié. La capitale du champagne a une cathédrale gothique classée UNESCO, une scène culturelle qui monte, et surtout — argument massue en 2026 — un TGV à 45 minutes de Paris. Ce qui en fait l'une des villes les mieux placées pour les Parisiens qui veulent du patrimoine, de l'espace et des prix abordables sans couper le lien avec la capitale. Le marché immobilier en bénéficie directement : afflux de primo-accédants parisiens depuis 2021, légère pression sur les prix, mais la ville reste raisonnable.",
+    sections: [
+      {
+        heading: "Le marché immobilier rémois en 2026",
+        body: "Reims navigue entre 2 000 et 2 600 €/m² pour les appartements anciens selon le quartier — des prix nettement inférieurs à Strasbourg ou Bordeaux, avec un TGV Paris encore plus rapide. La progression a été de +15-20 % depuis 2020 (effet Paris-en-moins) mais le marché s'est stabilisé depuis 2023. La demande est double : primo-accédants rémois locaux et acquéreurs parisiens cherchant à décaler leur lieu de vie tout en gardant la carte de visite du TGV. Les T2-T3 restent les produits les plus liquides. Le marché des maisons individuelles en ville est rare (Reims est dense) ; les familles cherchent en périphérie.",
+      },
+      {
+        heading: "Les quartiers de Reims",
+        body: "**Centre cathédrale / Érard** : le cœur historique autour de Notre-Dame de Reims. Immeubles de ville bourgeois, beau bâti. 2 400-3 200 €/m². Premium local, mais encore abordable pour un Parisien habitué. **Clairmarais** : quartier résidentiel verdoyant à l'est du centre, prisé des familles aisées. Maisons individuelles + grands appartements. 2 200-2 800 €/m². Calme, écoles reconnues. **Europe / TGV** : secteur développé autour de la gare TGV. Programmes neufs, immeubles récents, fonctionnel mais manque de cachet. 2 400-2 900 €/m² dans le neuf. Idéal pour un profil Parisien navetteur (< 1h Paris). **Croix-Rouge** : quartier nord-ouest en rénovation, anciens logements sociaux en cours de requalification. Prix abordables (1 600-2 000 €/m²), mais environnement en transition. **Wilson / Barbâtre** : entre le centre et Clairmarais, architecture de la reconstruction post-WWI, soigné, bonne ambiance de quartier. 2 000-2 500 €/m², souvent le meilleur compromis. **Tinqueux / Champagne (communes)** : première couronne ouest, maisons 3-4 chambres 200-300 k€. Bien desservi en tram.",
+      },
+      {
+        heading: "Budget selon le profil",
+        body: "Studio / T1 (investissement) : 55-85 k€ selon l'état et le quartier. T2 (primo-accédant) : 90-140 k€. T3 (famille) : 140-200 k€. Appartement de prestige T4 hypercentre : 200-300 k€. Maison de ville : rare et cher en intramuros, chercher en première couronne (250-380 k€).",
+      },
+      {
+        heading: "L'argument TGV : vrai ou surévalué ?",
+        body: "Le TGV Reims-Paris (45 min) est un atout réel pour les navetteurs, mais il ne compense pas un marché de l'emploi local qui reste limité hors secteur public et agroalimentaire. Les Parisiens qui achètent à Reims pour télétravailler 4 jours/5 s'en trouvent bien ; ceux qui comptent trouver un emploi équivalent à leur poste parisien dans la métropole rémoise déchantent souvent. La ville reste également dans le périmètre Île-de-France élargi pour les zones de covoit quotidien. Un achat à Reims est une stratégie de mode de vie, pas d'opportunité d'emploi.",
+      },
+      {
+        heading: "Investissement locatif rémois : quelle rentabilité ?",
+        body: "Rendements bruts 5-7 % sur les petites surfaces — correct pour une ville de taille intermédiaire. La demande locative est portée par 30 000 étudiants (URCA, Sciences Po Reims antenne) et les salariés en mobilité. Les biens proches de Sciences Po (campus hypercentre) se louent facilement à 700-900 €/mois pour un T1-T2. Fiscalité avantageuse : Reims n'est pas en zone tendue (B2), donc moins de contraintes sur les loyers en investissement nu. LMNP meublé reste intéressant.",
+      },
+    ],
+    relatedCities: ["reims", "amiens", "chalons-en-champagne"],
+    relatedGuides: [
+      "reims-vs-amiens-comparatif-2026",
+      "quitter-paris-guide-2025",
+      "vivre-en-champagne-guide-2025",
+    ],
+    tags: ["acheter à Reims 2026", "immobilier Reims prix quartiers", "investissement locatif Reims", "primo-accédant Reims TGV Paris", "quartiers Reims budget"],
+  },
+  {
+    slug: "vivre-en-poitou-guide-2026",
+    title: "Vivre en Poitou en 2026 : Poitiers, Niort, Châtellerault — bilan honnête",
+    metaTitle: "Vivre en Poitou 2026 — Poitiers, Niort, Châtellerault : coût de vie, emploi, qualité de vie",
+    metaDesc: "Guide Poitou 2026 : Poitiers la universitaire, Niort la mutualisante, Châtellerault la discrète. Loyers, scores, réalité du terrain.",
+    category: "region",
+    emoji: "🦅",
+    readMinutes: 9,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "Le Poitou est la région qu'on traverse sans s'arrêter — et c'est précisément son problème d'image. Entre la Loire et les Charentes, entre Atlantique et Massif Central, ce territoire de plaines et de bocage héberge trois villes qui méritent mieux que leur réputation : Poitiers avec son campus et ses 30 000 étudiants, Niort et sa concentration unique de mutuelles françaises (Maif, Macif, Groupama), et Châtellerault la discrète qui joue sa carte industrie-patrimoine. Pour qui cherche la France profonde accessible et abordable, le bilan est meilleur que le bouche-à-oreille.",
+    sections: [
+      {
+        heading: "Poitiers : la ville universitaire sous-estimée",
+        body: "30 000 étudiants pour 90 000 habitants, soit le ratio le plus élevé de France parmi les villes moyennes. L'université de Poitiers (droit, médecine, sciences humaines) et l'ENSMA (ingénieurs aéronautiques) animent une ville qui mériterait plus d'attention. Le centre historique est magnifique : baptistère paléochrétien, quartier médiéval quasi intact, palais des Comtes d'Aquitaine. Prix immobiliers autour de 1 600-2 000 €/m² pour les appartements anciens — parmi les plus bas des villes universitaires françaises. Demande locative forte et fiable. Transport : TGV Paris (1h15) mais liaison TGV discontinue (passage par Les Aubrais pour certains trains). Emploi local limité hors université et administrations.",
+      },
+      {
+        heading: "Niort : la capitale silencieuse des mutuelles",
+        body: "Niort héberge les sièges sociaux de Maif, Macif, GMF, Groupama (partiellement) et plusieurs grandes mutuelles de santé. Résultat : le taux de chômage local tourne autour de 6 %, l'un des plus bas des villes de cette taille en France. Les emplois sont stables, les salaires corrects, et le turn-over faible. Pour un profil cadre dans l'assurance, la finance, ou l'informatique, Niort est une opportunité réelle — à condition d'accepter une vie sociale moins dense qu'à Bordeaux. Prix immobiliers : 1 500-1 900 €/m² pour les appartements. La Sèvre Niortaise traverse la ville, quelques beaux quartiers anciens. À 45 min de La Rochelle et ses plages.",
+      },
+      {
+        heading: "Châtellerault : l'option discrète",
+        body: "Châtellerault (32 000 habitants) est la ville qu'on ne cite jamais dans les palmarès mais qui offre un rapport qualité-prix imbattable. Centre-ville XVIIIe bien conservé (bâtiments en tuffeau blanc), parc de 100 ha, berges de la Vienne. TGV Paris (1h30 via Futuroscope). Industrie de précision héritée de l'arsenal (Stellantis partiellement), quelques PME technologiques. Prix immobiliers : 900-1 400 €/m² — on peut acheter un grand appartement ou une maison de ville pour 100-150 k€. Risque : peu de dynamisme économique endogène, jeunes qui partent à Poitiers ou Bordeaux.",
+      },
+      {
+        heading: "Coût de vie dans le Poitou",
+        body: "Loyer T2 à Poitiers : 480-600 €/mois. À Niort : 450-570 €/mois. À Châtellerault : 380-480 €/mois. Courses, restaurants, services : 5-10 % moins cher que la moyenne nationale. L'argument budgétaire est réel — le Poitou permet de vivre confortablement avec des revenus médians, ce qui n'est plus vrai à Nantes, Bordeaux ou La Rochelle.",
+      },
+      {
+        heading: "À qui convient le Poitou ?",
+        body: "**Idéal pour** : familles cherchant une maison abordable avec jardin et bonnes écoles publiques, télétravailleurs voulant un vrai cadre de vie sans payer la prime d'image des grandes métropoles, cadres de l'assurance/finance ciblant Niort, retraités recherchant calme et praticité à mi-chemin de Paris et de la mer. **Moins adapté** : jeunes cherchant une scène culturelle dense, actifs dans des secteurs porteurs comme la tech ou le luxe, ou personnes qui ont besoin d'une ville-monde dans le viseur.",
+      },
+    ],
+    relatedCities: ["poitiers", "niort", "la-rochelle", "angouleme"],
+    relatedGuides: [
+      "teletravailler-depuis-nouvelle-aquitaine-guide-2026",
+      "vivre-en-charente-maritime-guide-2026",
+      "vivre-retraite-1500-euros-mois-france-2026",
+    ],
+    tags: ["vivre en Poitou 2026", "Poitiers Niort Châtellerault qualité de vie", "immobilier Poitou", "région Poitou-Charentes guide 2026", "télétravail Poitiers"],
+  },
+  {
+    slug: "meilleures-villes-vegans-vegetariens-france-2026",
+    title: "Meilleures villes de France pour les végans et végétariens en 2026",
+    metaTitle: "Meilleures villes végans végétariens France 2026 — restaurants, épiceries, communauté",
+    metaDesc: "Où vivre en France quand on est végan ou végétarien ? Classement des 10 meilleures villes : offre culinaire, épiceries bio, communauté, coût de vie.",
+    category: "lifestyle",
+    emoji: "🌱",
+    readMinutes: 8,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "La France a la réputation culinaire la plus carnivore d'Europe — en partie méritée, en partie dépassée. En 2026, les végans et végétariens peuvent vivre parfaitement dans plusieurs grandes villes françaises, et même dans certaines villes moyennes. L'offre de restaurants 100 % végé, de marchés bio et d'épiceries en vrac a explosé depuis 2019. Mais l'écart entre les grandes agglomérations et la France profonde reste réel. Voici où s'installer, et pourquoi.",
+    sections: [
+      {
+        heading: "Les critères d'évaluation",
+        body: "Pour ce classement, on a regardé : le nombre de restaurants végétariens et végans identifiés (source : HappyCow, The Fork), la présence d'épiceries bio et de marchés en vrac, l'existence d'une communauté végane active (associations, groupes Meetup, festivals vegan), la facilité d'accès à des alternatives végétales dans la grande distribution (Biocoop, La Vie Claire, Naturalia, mais aussi Carrefour Bio), et enfin le coût de vie — parce qu'un régime végé dans une ville chère peut coûter plus cher qu'une alimentation omnivore standard.",
+      },
+      {
+        heading: "Top 5 des villes véganes",
+        body: "**1. Paris (11e / 20e arrondissements)** : leader incontestable avec plusieurs centaines de restaurants végétariens ou végans. Quartiers Oberkampf, République, Canal Saint-Martin — véganisme ancré dans la culture bobo. Épiceries en vrac partout (Day by Day, La Recharge). Coût de vie rédhibitoire pour beaucoup. **2. Lyon** : deuxième ville végane de France. Marché de la Croix-Rousse (bios, producteurs locaux), restaurants végétariens dans le Vieux-Lyon et Guillotière, association Vegan Impact active. Coût de vie plus raisonnable qu'à Paris. **3. Montpellier** : Biocoop, restaurants végé en centre-ville, marché bio du Lez. Ville jeune, étudiante, végane — profil idéal. Les températures méditerranéennes facilitent une alimentation végétale locale 9 mois/12. **4. Bordeaux** : scène végane qui a explosé depuis 2020, marché des Capucins avec producteurs locaux bio, plusieurs restaurants spécialisés. Le Vieux-Bordeaux reste très carnivore — mais les quartiers Chartrons et Victor Hugo ont évolué. **5. Rennes** : ville bretonne qu'on n'attendait pas. Le marché des Lices (le plus grand de l'Ouest), une communauté végane active depuis longtemps, des coopératives d'achat. Coût de vie raisonnable.",
+      },
+      {
+        heading: "Les bonnes surprises : villes moyennes",
+        body: "**Toulouse** : les étudiants de Paul Sabatier et Jean Jaurès ont développé une scène végane notable. Épiceries bio en vrac, quelques restaurants 100 % végé dans le centre. **Grenoble** : ville militante, végane ancré dans la culture étudiante et environnementaliste. Marché de l'Estacade (producteurs locaux). **Nantes** : marché de Talensac, communauté végane visible, restaurants bien implantés dans le quartier du Bouffay. **Strasbourg** : surprenante — derrière l'image alsacienne-choucroute, une communauté végane active, probablement liée à la proximité de la Suisse et de l'Allemagne (pionniers du végétalisme).",
+      },
+      {
+        heading: "Où éviter (ou préparer son terrain)",
+        body: "Les villes à forte tradition carnivore sans scène végane développée : Bayonne (charcuterie basque), Brest (port et pêche), Perpignan (cuisine catalane-carnivore), La Rochelle (huîtres + charcuterie). Ça ne veut pas dire qu'on ne peut pas y vivre en végé — il faut cuisiner plus souvent à la maison et trouver les bonnes épiceries. La Grande Surface Bio (Leclerc Bio, Carrefour Bio) s'est développée partout, donc les bases sont accessibles même en province profonde.",
+      },
+      {
+        heading: "Budget : manger végane en France, ça coûte combien ?",
+        body: "Un régime végétarien cuisiné maison avec courses en marché et Biocoop coûte 200-300 €/mois pour une personne dans une grande ville. Le végétalisme (100 % végétal) est du même ordre si on cuisineé plutôt que de dépendre des produits de substitution industriels (steak végétal, fromage vegan industriel — souvent chers et décevants nutritionnellement). L'erreur à éviter : manger exclusivement des produits transformés végans — souvent plus chers que la viande conventionnelle. La base reste les légumineuses, les céréales complètes et les légumes frais de saison.",
+      },
+    ],
+    relatedCities: ["lyon", "montpellier", "bordeaux", "rennes", "paris"],
+    relatedGuides: [
+      "meilleures-villes-zero-dechet-ecologie-france-2026",
+      "meilleures-villes-culture-festivals-france-2026",
+      "meilleures-villes-bien-etre-spas-france-2026",
+    ],
+    tags: ["meilleures villes végans France 2026", "végétarien France ville", "restaurants végétariens France", "végane communauté France", "vivre végane France"],
+  },
+  {
+    slug: "guide-mobilite-douce-france-villes-2026",
+    title: "Mobilité douce en France 2026 : les villes où voiture = option, pas obligation",
+    metaTitle: "Mobilité douce France 2026 — vélo, tram, bus : les meilleures villes sans voiture",
+    metaDesc: "Guide mobilité douce 2026 : les 12 villes françaises où vélo, transports en commun et marche permettent de vivre sans voiture. Scores, infrastructure, réalité.",
+    category: "lifestyle",
+    emoji: "🚲",
+    readMinutes: 10,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "Vivre sans voiture en France reste une gageure dans la majorité des villes — mais il existe une douzaine d'agglomérations où c'est non seulement possible, mais confortable. Ce guide va plus loin que les classements habituels basés sur le réseau de bus : on regarde la combinaison vélo + transports en commun + marche à pied + logistique quotidienne (courses, médecin, école, loisirs). Parce que 90 % des trajets courts, ça se fait à vélo — et le reste, en tram ou bus.",
+    sections: [
+      {
+        heading: "Les critères d'une ville vraiment sans-voiture",
+        body: "Un réseau de bus ou tram cadencé (fréquence ≥ 10 min en heure de pointe) n'est que la base. Il faut aussi : des pistes cyclables séparées de la circulation motorisée (pas juste des marquages au sol), un réseau qui maille les quartiers résidentiels aux zones d'emploi (pas seulement le centre-ville), des commerces accessibles sans voiture (supermarchés, marchés à portée de vélo), et des services de covoiturage ou d'autopartage pour les rares déplacements interurbains. L'indice combiné de ces critères donne des résultats souvent surprenants.",
+      },
+      {
+        heading: "Le top 5 français de la mobilité douce",
+        body: "**1. Strasbourg** : capitale du vélo en France (CEREMA 2024). 600 km de pistes cyclables, tram sur 6 lignes, Vélhop (vélos en libre-service), culture allemande du vélo ancrée depuis 40 ans. 45 % des déplacements domicile-travail en mode actif. **2. Bordeaux** : réseau tram exemplaire (4 lignes, fréquence 4 min), pistes cyclables sur les quais, Vcub vélos en libre-service. La voiture est clairement optionnelle en centre-ville et première couronne. **3. Lyon** : métro + tram + funiculaire + TCL, réseau exceptionnel. Le vélo a explosé depuis 2019 (Vélo'v 5 000 stations). Moins confortable pour les arrondissements de colline (Fourvière, Croix-Rousse) — mais l'ascenseur mécanique et le funiculaire compensent. **4. Nantes** : pionnière du tramway en France (1985), réseau de pistes cyclables cohérent, Bicloo bien déployé. La vie sans voiture est réaliste sur l'île de Nantes et les quartiers centraux. **5. Grenoble** : ville à pieds et à vélo par excellence. Topographie plate en centre-ville (les montagnes en arrière-plan), réseau tram dense, 600 km de voies vertes dans l'agglomération. 30 % de déplacements à vélo — record national pour une ville de cette taille.",
+      },
+      {
+        heading: "Les bonnes surprises de taille moyenne",
+        body: "**Rennes** : métro (2 lignes, en cours d'extension), bus Star fiables, Star vélo. Le centre historique se visite quasi-exclusivement à pied. Coût de vie encore raisonnable malgré la pression. **Montpellier** : réseau tram 5 lignes, vélo Vélomagg, ville étudiante à morphologie compacte. La chaleur estivale limite le vélo en juillet-août. **Dijon** : Divia vélos en libre-service, tram 2 lignes, ville compacte. Souvent citée mais sous-évaluée comme destination sans-voiture. **Tours** : réseau Fil Bleu + Vélo à moi, tramway 1 ligne (extension prévue), centre historique piéton. Budget locatif bien meilleur que les 5 premières.",
+      },
+      {
+        heading: "Ce qui ne marche pas : les illusions",
+        body: "Marseille : réseau de bus théoriquement dense mais ponctualité catastrophique, pistes cyclables insuffisantes, topographie difficile. Le vélo est une aventure quotidienne, pas une option sereine. Nice : terrain très vallonné, tramway uniquement sur l'axe est-ouest, le reste en bus lents. Vivre sans voiture est possible mais exige de choisir le bon quartier (Libération, Vieux-Nice, Riquier). Paris : possible et même confortable en petite couronne (métro/RER), mais le logement abordable oblige souvent à aller là où le transport est mauvais. La grande banlieue parisienne est un désert de mobilité douce.",
+      },
+      {
+        heading: "Conseils pratiques pour passer sans voiture",
+        body: "Checklist avant de décider : vérifiez la fréquence réelle de votre ligne (pas juste les horaires théoriques — regardez les avis d'usagers en décembre), testez le trajet domicile-travail en vélo via OpenStreetMap cyclable (pas Google Maps qui minimise les dénivels et les voies dangereuses), identifiez le supermarché le plus proche accessible à pied ou à vélo chargé, et assurez-vous que votre logement a un local vélo sécurisé (un appartement au 3e sans ascenseur + un vélo cargo, c'est le piège classique). Prévoir un budget Zipcar ou Getaround pour les 3-4 sorties/mois où la voiture reste pratique.",
+      },
+    ],
+    relatedCities: ["strasbourg", "bordeaux", "grenoble", "nantes", "montpellier"],
+    relatedGuides: [
+      "vivre-sans-voiture-france-guide-2025",
+      "vivre-sans-voiture-strasbourg-guide-2026",
+      "meilleures-villes-cyclistes-france-2026",
+    ],
+    tags: ["mobilité douce France 2026", "vivre sans voiture France", "meilleures villes vélo France", "transport en commun France", "cycliste France ville"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
