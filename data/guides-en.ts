@@ -920,6 +920,216 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["strasbourg", "nantes", "grenoble", "rennes", "bordeaux"],
     tags: ["car-free", "public transport", "cycling", "mobility", "lifestyle"],
   },
+  {
+    slug: "french-riviera-cote-dazur-living-2026",
+    title: "Living on the French Riviera: beyond the clichés",
+    metaTitle: "Living on the French Riviera — Honest Guide 2026",
+    metaDesc:
+      "Real rents, summer crowds, wildfire risk and the best affordable alternatives: what life on the Côte d'Azur actually looks like beyond the postcard.",
+    category: "lifestyle",
+    emoji: "🌴",
+    readMinutes: 8,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "The Côte d'Azur is real. The light is actually that good, the sea is actually that blue, and the Italian border is genuinely 30 minutes from Nice. It is also one of the most expensive, congested and climatically stressed coastal strips in France — and the gap between a holiday there and a life there is wider than almost anywhere else in the country. Here is what the region actually looks like when you have to pay rent in it.",
+    sections: [
+      {
+        heading: "What the main cities cost",
+        body: "Nice is the anchor city of the Riviera and, by provincial French standards, an expensive one. A T2 in a decent neighbourhood — the Libération market area, the hills of Cimiez, or west of the centre — runs €950–1,200 per month in 2026. Cannes commands more: the same flat costs €1,100–1,400, partly driven by the permanent demand from people who want an address even if they spend only part of the year there. Antibes sits between the two at roughly €900–1,100, and Menton, the last town before the Italian border, is meaningfully more affordable at €750–950 — quieter, slightly older demographic, and a genuine year-round city rather than a seasonal one.",
+      },
+      {
+        heading: "The summer reality",
+        body: "If you move to the Riviera and expect the July-August vibe to be the year-round vibe, you will be disappointed and then significantly annoyed. Coastal roads between Nice and Cannes grind to a halt; parking disappears; restaurants fill with tourists; beach access requires arriving before 9 am or paying for a private beach. This is not a reason not to live here — many Riviera residents simply move inland or out of town for July and August — but it should be priced into your expectations. The corollary is that September through June, particularly October through April, the Côte d'Azur is calm, beautiful and genuinely pleasant to live in.",
+      },
+      {
+        heading: "Healthcare, air quality and wildfire risk",
+        body: "The CHU de Nice (Centre Hospitalier Universitaire) is the regional reference hospital and offers a full range of specialties — healthcare access from Nice is genuinely good. Air quality is a different story: the Alpes-Maritimes coastal corridor traps pollution during summer high-pressure periods, and Nice regularly records poor air quality days between June and September. Wildfire risk in the hinterland is significant and increasing: the hills above Antibes, the Estérel massif and the arrière-pays from Grasse to Vence have all seen major fires in recent years. If you're buying property with views, check the PPRI and PPRIF (forest fire risk plans) for the commune — they exist for a reason.",
+      },
+      {
+        heading: "The affordable alternatives in the region",
+        body: "The best-kept secret of the Riviera is the tier of inland towns that sit 15–30 minutes from the coast and carry a fraction of the coastal premium. Grasse, the perfume capital, has a real working-class and professional local economy, significantly lower rents (T2 at €650–800), and a market town character that coastal Nice has largely lost. Valbonne and Sophia Antipolis, just north of Antibes, host Europe's largest science park — rents are higher than Grasse but the community skews young, international and tech-oriented. Vallauris, between Antibes and Cannes, is one of the only towns on this stretch where a genuine local housing market still exists, with studios available under €600.",
+      },
+      {
+        heading: "The Italian border advantage",
+        body: "One genuinely underrated aspect of living in this part of France: Italy is next door. Ventimiglia is 40 minutes from Nice by train and has a weekly market that Nicois residents use for groceries. Sanremo is a proper Italian city within easy reach for a day out. Many Riviera residents with remote income shop partly across the border. For expats from countries with no geographic equivalent, this easy international mobility — a different country, a different food culture, a different pace — is a real quality-of-life addition.",
+      },
+      {
+        heading: "Who the Riviera suits and who it doesn't",
+        body: "The Riviera works well for people with portable income and a genuine desire to be there — not just to say they live by the sea, but to use the sea, the hills, the climate, the Italy connection and the cultural calendar year-round. It works badly for people on tight budgets (costs are simply high and rising), people who are heat-sensitive (40 °C days are now routine), and people expecting the tourist-season energy as a daily life. The test: could you enjoy Menton in January, with the market town quiet and the sea to yourself? If yes, this coast will suit you. If you need July to find it appealing, you're choosing a holiday over a home.",
+      },
+    ],
+    relatedCities: ["nice", "cannes", "antibes", "menton", "marseille"],
+    tags: ["riviera", "cote-dazur", "nice", "mediterranean", "lifestyle"],
+  },
+  {
+    slug: "best-french-cities-american-expats-2026",
+    title: "Best French cities for American expats (2026)",
+    metaTitle: "Best French Cities for American Expats 2026",
+    metaDesc:
+      "Visa options, FATCA awareness, English-speaking communities and international schools: where Americans actually settle in France and what makes it work.",
+    category: "moving",
+    emoji: "🇺🇸",
+    readMinutes: 9,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Moving from the US to France involves a specific set of complications that don't apply to most other nationalities. The tax situation is genuinely complicated, the visa options are narrower than most guides admit, and the healthcare transition requires active management. On the other side of that friction is a quality of life that most Americans who've done it describe as transformative — and a set of French cities where the American community is large enough to ease the transition without becoming an echo chamber.",
+    sections: [
+      {
+        heading: "The visa and legal reality",
+        body: "Americans need a visa to stay in France beyond 90 days. The main routes: the long-stay tourist visa (visa de long séjour visiteur) for people with passive income, savings or a pension who won't work in France; the auto-entrepreneur or profession libérale route for freelancers with clients; the passeport talent for specific high-skill profiles; and the salarié visa if you have a French employer. There is no general digital nomad visa for Americans working for US employers — if you're working remotely for a US company, the legal path is not straightforward, and you should speak to an immigration attorney before assuming it's solved. A long-stay visitor visa is the most common route for retirees and financially independent Americans.",
+      },
+      {
+        heading: "FATCA and financial planning — the things to know",
+        body: "This is not tax advice, but it is information you need to find out about before moving. Americans are taxed on worldwide income regardless of residence (one of only two countries in the world that does this), and FATCA requires foreign financial institutions to report American account holders to the IRS. In practice: you will likely still need to file US tax returns, you may need to file FBARs for foreign bank accounts above $10,000, and some French banks are reluctant to take American clients because of the reporting burden. Hire a Franco-American tax specialist — there are several who cater specifically to this — before you open a French bank account or establish residency. The France-US tax treaty reduces double taxation on most income types, but the complexity is real.",
+      },
+      {
+        heading: "Cities with strong American communities",
+        body: "Paris is the obvious answer — the American community in Paris is one of the largest in Europe, with institutions (the American Library, the American Cathedral, the American University of Paris) providing instant social infrastructure. The cost is Parisian. Bordeaux has a historically anglophone character from centuries of wine trade, and its American community has grown steadily since the TGV arrival. Montpellier has a large student and academic American population, is significantly more affordable than Bordeaux, and has a university environment where English is widely spoken. Lyon has a mid-size but stable American community tied to its pharmaceutical and biotech sector.",
+      },
+      {
+        heading: "International schools — where they exist",
+        body: "If you have school-age children on a US curriculum, the options are limited outside Paris. The American School of Paris (Saint-Cloud) is the main US-curriculum institution and is expensive and in the suburbs. There are British international schools in Lyon, Toulouse and Bordeaux that many American families use as an alternative. Several public lycées offer bilingual or European sections that function in English for part of the day — these are free but require good French. If a US curriculum is non-negotiable for college application reasons, Paris or a commutable suburb of Paris is effectively required. If you can adapt, France's bilingual public schools produce good outcomes and cost nothing.",
+      },
+      {
+        heading: "Healthcare: what to expect",
+        body: "France's healthcare is genuinely excellent and, for a resident with the carte Vitale, very affordable. The transition from US healthcare requires planning. Americans arrive used to paying high premiums for full coverage; in France you pay a mutuelle of €50–120 per month and the system covers most of the rest. The challenge is the first few months: PUMA residence-based affiliation takes time, and you'll need private travel insurance or an international health insurance policy to bridge the gap. Once you're in the system, the quality of care in France's major cities — Nice, Lyon, Paris, Montpellier — is comparable to the US at a fraction of the cost.",
+      },
+      {
+        heading: "Top 5 cities for American expats",
+        body: "Ranked for the combination of English infrastructure, American community, visa practicality and quality of life: Paris (complete, expensive, non-negotiable for certain needs), Bordeaux (anglophone tradition, lifestyle-first, expensive for France), Montpellier (affordable, young, international by default, strong healthcare with its CHU), Lyon (stable American community, strongest employment base, good healthcare, milder than expected winters), and Aix-en-Provence (popular with retirees, very French, beautiful, and expensive but manageable on a solid pension or portfolio income). Of these, Montpellier and Lyon offer the best balance for most profiles; Paris for those who need it.",
+      },
+    ],
+    relatedCities: ["paris", "bordeaux", "montpellier", "lyon", "nice"],
+    tags: ["american-expat", "usa", "visa", "fatca", "expat"],
+  },
+  {
+    slug: "south-of-france-cost-of-living-2026",
+    title: "Cost of living in the South of France — honest numbers",
+    metaTitle: "Cost of Living in South of France 2026 — Honest Numbers",
+    metaDesc:
+      "Actual rents, food, utilities and car costs for Marseille, Montpellier, Toulon, Perpignan and Nîmes. Compare the South against Paris and see who can afford what.",
+    category: "budget",
+    emoji: "💶",
+    readMinutes: 7,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "The South of France has a reputation as expensive, and — like most reputations — it's partly right and partly wrong. The coastal hotspots are genuinely expensive. The inland and less famous southern cities are substantially cheaper than the north or west, and considerably cheaper than any major north European city. Here are the numbers, stripped of marketing.",
+    sections: [
+      {
+        heading: "Rent city by city",
+        body: "The range across southern cities is wider than most people expect. Marseille, the second-largest city in France, has median T2 rents of €700–900 depending on arrondissement — the north is cheaper and riskier; the south and east (8th, 12th) are priced at the upper end. Montpellier runs €750–950 for a T2, pushed up by student and university demand in central areas. Toulon is cheaper at €650–800 and offers the best value of any major Provençal city given its access to the coast and Marseille's services. Perpignan is the most affordable main southern city at €550–700, with genuinely low property prices to match. Nîmes sits at €600–750 and benefits from the Occitanie dynamic without Montpellier's premium.",
+      },
+      {
+        heading: "Food and groceries",
+        body: "Food in the South is not dramatically cheaper or more expensive than the French national average. A standard weekly grocery run for one person — market vegetables, meat, dairy, bread, a bottle of wine — runs €80–120 depending on how much you use markets versus supermarkets. The South has a legitimate advantage for food quality: local markets are frequent and cheap for seasonal produce, olive oil is sold direct from cooperatives, and eating out at a local restaurant (not a tourist one) remains affordable at €12–20 for a weekday lunch. The tourist premium in July and August at coastal towns can be brutal, but that's temporary and avoidable.",
+      },
+      {
+        heading: "Utilities: the air conditioning reality",
+        body: "Heating bills in the South are lower than in northern or eastern France — gas consumption from October to March is modest in most southern cities. But air conditioning, which barely registers as a cost in Brittany, is a real line item in Provence and Occitanie. A ground-floor flat with thick walls and external shutters may cost almost nothing to cool; a top-floor apartment with south-facing glazing can rack up €80–120 per month in July and August. When you view a southern flat, ask about the DPE rating and specifically about how the building stays cool in summer. Combined utility bills (electricity, internet, sometimes water) run €120–200/month, with the higher end applying to older apartments with electric heating and poor insulation.",
+      },
+      {
+        heading: "Car dependency outside major centres",
+        body: "This is the cost item that surprises people most. Southern cities outside their historic cores are car-dependent, and the south's geography — sprawling agglomerations, coastal roads, disconnected suburbs — makes it worse than average for France. Montpellier has invested seriously in tram and is the most car-optional of the major southern cities. Marseille's metro is two lines and patchy; outside the metro corridors, a car is effectively required. Toulon, Perpignan and Nîmes all assume a car for most residents living outside the immediate centre. The cost of running a car — insurance, fuel, maintenance, parking — runs €300–450 per month and wipes out a significant share of the rent savings over northern cities.",
+      },
+      {
+        heading: "Property prices and the buy decision",
+        body: "The South's property market is bifurcated. Coastal PACA (Nice, Antibes, Aix, the Var coast) is expensive, with prices per m² that exceed €4,000–6,000 in desirable areas and a market sustained by national and international demand. Inland Occitanie — Perpignan, Nîmes, inland Hérault — is a different story: €1,800–2,500/m² for decent property, with price-to-rent ratios that make buying financially logical. Marseille is the most complex: its 16 arrondissements vary from below €2,000/m² in the north to €4,500+ in the 8th. The buy-vs-rent calculation in the South requires going city by city and neighbourhood by neighbourhood.",
+      },
+      {
+        heading: "Who can afford what",
+        body: "A reasonable baseline: to live comfortably in Montpellier or Marseille without financial stress — decent flat, car optional, eating out occasionally, one holiday — you need roughly €2,000–2,500/month net after tax. In Perpignan or Toulon that drops to €1,600–2,000. For retirees on a state pension or a modest portfolio, Perpignan and the inland villages of Hérault and Gard offer genuine quality of life at a cost that makes the South affordable in a way the Riviera never is. Remote workers earning a Paris or international salary will find the South very comfortable financially, particularly in the cities where car-free life is possible.",
+      },
+    ],
+    relatedCities: ["marseille", "montpellier", "toulon", "perpignan", "nimes"],
+    tags: ["cost-of-living", "south-of-france", "budget", "rent", "provence"],
+  },
+  {
+    slug: "learning-french-which-city-2026",
+    title: "Which French city is best for learning French?",
+    metaTitle: "Best French City for Learning French 2026 — Honest Guide",
+    metaDesc:
+      "Accent clarity, immersion quality, language school density and the cost of a long stay. Where serious French learners should actually go.",
+    category: "lifestyle",
+    emoji: "🗣️",
+    readMinutes: 6,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Everyone has an opinion on the best place to learn French, and most of those opinions are based on either a holiday they once had or a claim about accent purity that linguists have been debunking for decades. This guide focuses on the practical variables that actually affect language acquisition: immersion quality, the social pressure to use French, language school infrastructure and the cost of staying long enough to make real progress.",
+    sections: [
+      {
+        heading: "The accent question — useful but misunderstood",
+        body: "Tours and Orléans are traditionally cited by language teachers as producing the 'clearest' or most 'neutral' French accent — an idea rooted in the historical prestige of the Loire Valley court French. Modern sociolinguistics is more sceptical: there is no single pure French accent, and what these cities actually offer is a relatively low density of strong regional features (compared to Marseille's southern vowels, Toulouse's rolling r, or Alsace's Germanic intonation). For learners, this is marginally useful: if you're building an ear in the early stages, a city without a very strong regional marker makes the standard forms clearer. It is not, however, the main factor in how quickly you'll learn.",
+      },
+      {
+        heading: "Immersion quality and the English trap",
+        body: "The single most important variable for language acquisition is how much French you're forced to speak. Cities with very large expat communities — Paris most obviously, but also Bordeaux and Nice — create a social dynamic where defaulting to English is easy, comfortable and often expected. This is lovely for your social life and terrible for your French. Smaller cities, cities with fewer anglophone expats, and cities where French is the only real option for daily life (markets, administration, neighbours) produce faster learning. The paradox: the cities most marketed to learners are often the worst for immersion.",
+      },
+      {
+        heading: "Language school density: where the infrastructure exists",
+        body: "If you're combining formal study with immersion, school density matters. Paris has the highest concentration of French language schools, but Paris prices apply. Montpellier has an unusually strong infrastructure for its size: the Alliance Française, multiple private schools, and the university's CUEF (Centre Universitaire d'Études Françaises) all cater to international learners at different levels and budgets. Bordeaux and Toulouse both have solid school density. Tours and Orléans have language schools of good reputation and the Loire Valley setting, but fewer options overall than Montpellier. Rennes has a small but functional school scene with the advantage of lower living costs.",
+      },
+      {
+        heading: "Cost of a long stay during language study",
+        body: "Progress in French requires time — a serious improvement from A2 to B2 takes most adults 6–18 months of consistent effort. That means the cost of staying is as important as the cost of studying. Montpellier is the sweet spot for the formal-study profile: language school costs are moderate, T2 rents average €750–950, food is affordable, and the social environment (a large student population, warm climate, walkable centre) supports the kind of active daily life that accelerates learning. Tours is cheaper still — rents at €600–750 for a T2 — and the urban density is lower, which either feels peaceful or limiting depending on temperament.",
+      },
+      {
+        heading: "Cities to avoid for serious learning",
+        body: "Paris is the most common choice and one of the worst for immersion. The city is too large, too anglophone and too expensive for most learners to get genuine immersion value from. Nice and Cannes have language schools but the tourist economy means service workers often speak English before you can attempt French. Strasbourg has the complication of German as a competing language in many contexts, which can be disorienting. Very small towns present a different problem: too few social connections for learners to practise with regularly, and limited school infrastructure if you want formal classes.",
+      },
+      {
+        heading: "The honest verdict",
+        body: "For serious learners who want to combine formal classes, immersion and affordable long-term living: Montpellier is the most consistently recommended city, and the data supports it. For those who prioritise the linguistic environment above all and can tolerate a smaller city: Tours or Orléans offer a quieter, more focused setting where French is genuinely the only social option. For learners who want a larger city experience alongside learning: Lyon works well — the expat community is smaller relative to Paris or Bordeaux, the city is large enough to be interesting, and the language school and university infrastructure is solid.",
+      },
+    ],
+    relatedCities: ["montpellier", "tours", "bordeaux", "rennes", "lyon"],
+    tags: ["learning-french", "language", "immersion", "language-school", "expat"],
+  },
+  {
+    slug: "france-healthcare-how-it-works-for-expats-2026",
+    title: "French healthcare for expats — how it actually works",
+    metaTitle: "French Healthcare for Expats 2026 — Practical Guide",
+    metaDesc:
+      "PUMA, mutuelle, médecin traitant, urgences: how the French health system works for new arrivals, what it costs, and where quality varies by city.",
+    category: "lifestyle",
+    emoji: "🏥",
+    readMinutes: 8,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "France's healthcare system is genuinely good — better than its reputation in some respects, worse in others. For an expat arriving from an anglophone country, the main challenges are not quality but navigation: understanding the administrative structure, knowing who to register with and in what order, and not being caught uninsured in the gap between arrival and full system access. This guide covers the practical steps without the jargon.",
+    sections: [
+      {
+        heading: "PUMA: who's covered and when",
+        body: "PUMA (Protection Universelle Maladie) is the residence-based universal health coverage that replaced the old CMU in 2016. After three months of stable legal residence in France, most people are eligible to affiliate — EU citizens, non-EU citizens with valid residency, and long-stay visa holders. EU citizens can bridge the gap with the European Health Insurance Card (EHIC), which covers urgent care during the waiting period. Non-EU expats should budget for private international health insurance for the first few months — typically €80–150/month for a healthy adult — because the affiliation paperwork and the carte Vitale (the green health insurance card) take time, sometimes several months, to process.",
+      },
+      {
+        heading: "The mutuelle: what it is and what it costs",
+        body: "PUMA covers roughly 70% of most healthcare costs in France. The remaining 30% — called the ticket modérateur — is normally covered by a private top-up insurance called a mutuelle. Without a mutuelle, you pay that 30% out of pocket every time. With one, you typically pay nothing or very little. Mutuelles cost €50–120/month for an individual depending on age and level of cover; comprehensive dental and optical coverage pushes costs higher. Employers are legally required to offer a mutuelle for employees and cover at least 50% of the premium. The self-employed and retirees buy independently. If you have a long-term condition (affection de longue durée), that condition's specific treatment is covered at 100% by the base system, reducing the mutuelle's role.",
+      },
+      {
+        heading: "Registering a médecin traitant",
+        body: "France's system runs on the concept of a médecin traitant — a declared GP who acts as your primary point of contact and refers you to specialists. Registering with one is not optional if you want full reimbursement: without a declared médecin traitant, your reimbursement rate for consultations drops significantly, and you pay more out of pocket. Registration is a simple form — your doctor fills in their details and sends it to Assurance Maladie. The problem is finding a doctor who is taking new patients, which in many cities and most rural areas requires persistence. In cities with a CHU (university hospital) and a healthy GP density — Lyon, Montpellier, Rennes, Nantes, Grenoble — the wait is manageable. In medical deserts, it can take months.",
+      },
+      {
+        heading: "Dental, optical and what isn't covered well",
+        body: "The base PUMA system covers dental and optical care poorly. A standard dental check-up costs around €30 and is mostly reimbursed; a crown or implant is barely covered at all, with a symbolic €100 reimbursement on a €1,000–2,000 procedure. Optical is similar: the base system contributes negligible amounts toward glasses or contact lenses. This is where a comprehensive mutuelle pays for itself: a good-level optical and dental module typically covers 80–100% of costs up to an annual cap. If you wear glasses or have complex dental needs, factor the mutuelle level carefully before choosing — the cheapest plans leave significant gaps.",
+      },
+      {
+        heading: "Urgences and emergency care",
+        body: "Emergency care in France is always provided regardless of insurance status — you cannot be turned away from urgences (A&E) for financial reasons. The ambulance (SAMU, dialled 15) and emergency services operate without prior payment. If you're insured, the costs are reimbursed afterwards through the normal system. If you're in the gap period without a carte Vitale, keep your private insurance certificate with you and present it at the urgences desk. The quality of emergency care in France's CHU hospitals is high; in smaller cliniques privées, variation is greater. Finding English-speaking emergency staff is easier in major cities and tourist areas than in rural settings.",
+      },
+      {
+        heading: "Practical steps and city-level quality differences",
+        body: "The practical sequence: on arrival, gather your identity documents and proof of address; submit your PUMA affiliation request to your local CPAM (Caisse Primaire d'Assurance Maladie) as soon as your address is established; get private insurance to cover the gap; obtain a carte Vitale once affiliation is confirmed; then register your médecin traitant. For finding an English-speaking GP, the Pages Jaunes and the CPAM's ameli.fr both have search tools that let you filter by language spoken — use them. On quality by city: Paris, Lyon, Montpellier, Bordeaux and Rennes all have large CHU hospitals and good specialist density. Smaller towns and rural areas rely on cliniques and often limited specialist access. Healthcare quality is one of the genuine arguments for choosing a mid-size city over a beautiful small town.",
+      },
+    ],
+    relatedCities: ["lyon", "montpellier", "nice", "bordeaux", "rennes"],
+    tags: ["healthcare", "puma", "mutuelle", "expat", "carte-vitale"],
+  },
 ];
 
 export function getEnGuide(slug: string): EnGuide | undefined {
