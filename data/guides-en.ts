@@ -3327,6 +3327,154 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["bordeaux", "toulouse", "montpellier", "clermont-ferrand", "limoges"],
     tags: ["french countryside", "rural france", "dordogne", "lot", "farmhouse france"],
   },
+  {
+    slug: "france-vs-spain-where-to-live-2026",
+    title: "France vs Spain: the honest comparison for people choosing between the two",
+    metaTitle: "France vs Spain 2026 — Which Country Should Expats Choose?",
+    metaDesc:
+      "Both offer Mediterranean weather, good food, and lower costs than the UK or US. Spain has the Beckham Law; France has better infrastructure. The real differences that affect daily life.",
+    category: "moving",
+    emoji: "🌞",
+    readMinutes: 8,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "France and Spain draw from a similar pool of Northern European and North American expats — people who want a Western European quality of life, more sun, lower property costs, and a culture that rewards slowing down. The comparison sounds simple (both have Mediterranean coasts, both are EU) but the differences are significant and under-discussed. This is the honest side-by-side on the factors that actually determine day-to-day expat life.",
+    sections: [
+      {
+        heading: "Climate: Spain is sunnier, southern France is closer",
+        body: "Spain's Mediterranean coast gets 2,700-3,000 hours of sunshine per year (Valencia, Alicante, Málaga). Southern France reaches 2,600-2,800 hours in Montpellier, Perpignan, and the Côte d'Azur. The Canary Islands (in Spanish territory) average 2,800-3,000 hours year-round with the mildest winters. Atlantic Spain (San Sebastián, Bilbao) is greener and wetter — comparable to the French Basque Country. For pure sunshine quantity, Spain has a slight edge. For the specific combination of Mediterranean sun with proximity to the rest of Europe (TGV network, Paris hub), southern France is competitive.",
+      },
+      {
+        heading: "Cost of living: depends which cities",
+        body: "Madrid and Barcelona are expensive — comparable to Lyon or Bordeaux for housing, more expensive for some services. Secondary Spanish cities (Valencia, Málaga, Seville, Alicante) are cheaper than their French equivalents of similar size: Málaga's property averages €2,500-3,500/m², comparable to Nantes but with far more sun. Rural Spain — Extremadura, rural Castile, inland Andalusia — is dramatically cheaper than rural France and generally less discovered by Northern European buyers. France's cost advantage is primarily in secondary cities versus their Spanish counterparts; Spain's is in rural and smaller coastal cities.",
+      },
+      {
+        heading: "Tax: Spain's Beckham Law vs France's standard system",
+        body: "Spain's Régimen Especial de Trabajadores Desplazados (Beckham Law) allows new tax residents who have not been resident in Spain in the previous 5 years to pay a flat 24% tax on Spanish-sourced income up to €600,000 for up to 6 years. This is a significant advantage for high earners and has attracted a wave of high-income remote workers to Barcelona and Madrid. France has no equivalent preferential tax regime for new residents. French income tax applies at standard progressive rates from arrival. For high earners, this difference can be worth tens of thousands of euros per year; at average incomes, it matters less than the fundamental cost of living difference.",
+      },
+      {
+        heading: "Healthcare: both are excellent, different structures",
+        body: "France's Assurance Maladie is consistently rated among the world's best public health systems — fast specialist access, comprehensive coverage, low point-of-care costs. Spain's Sistema Nacional de Salud (SNS) is also universal and well-regarded, with some regional variation (the Basque Country's system is considered the best in Spain). Both require legal residency to access. For expats: Spain's NIE registration is faster and simpler than France's préfecture registration process in most regions. Healthcare access in rural Spain can be limited, similar to rural France's désert médical problem.",
+      },
+      {
+        heading: "Language and integration",
+        body: "Spain has a higher proportion of English speakers in tourist and expat areas (Costa del Sol, Costa Blanca, Barcelona) than comparable French areas, but France and Spain are both substantially behind the Netherlands and Scandinavia for English proficiency in the general population. Outside expat communities, both require local language ability for meaningful integration. Spanish is widely spoken globally and often easier for English speakers to acquire than French (more phonetically regular). France has historically had stronger cultural resistance to English in professional and administrative settings; this is changing but the difference with Spain is real.",
+      },
+    ],
+    relatedCities: ["paris", "lyon", "bordeaux", "montpellier", "nice"],
+    tags: ["france vs spain", "expat comparison", "spain vs france", "where to move europe", "mediterranean"],
+  },
+  {
+    slug: "aix-en-provence-living-guide-2026",
+    title: "Living in Aix-en-Provence: beautiful, expensive, and worth examining carefully",
+    metaTitle: "Living in Aix-en-Provence 2026 — Honest Relocation Guide",
+    metaDesc:
+      "Aix is one of France's most genuinely beautiful cities. It's also one of the most expensive outside the Riviera, with a limited private job market and a challenging rental scene. The honest account.",
+    category: "city-guide",
+    emoji: "🎨",
+    readMinutes: 6,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Aix-en-Provence's reputation is well-earned: Cézanne's landscapes, the cours Mirabeau with its plane trees, the Saturday market, the Festival International d'Art Lyrique (one of Europe's most prestigious opera festivals). The city genuinely looks like the France people imagine. The honest follow-up: it is very expensive for its size, the private job market outside the university is limited, and the rental market is extremely tight. The people who live happily in Aix are mostly those who can afford to — retirees with comfortable incomes, remote workers earning above-regional salaries, academics. The people who struggle are those who moved for the beauty and find the economics don't work.",
+    sections: [
+      {
+        heading: "The beauty is real",
+        body: "Aix-en-Provence's built environment is genuinely extraordinary. The cours Mirabeau (100m wide, lined with 17th-century hôtels particuliers and plane trees) is one of France's most handsome streets. The Vieil Aix quarter is a preserved historic centre that tourism hasn't destroyed the way it has some Provençal towns. The surrounding landscape — the Montagne Sainte-Victoire that Cézanne painted obsessively, the Luberon 30km north — is dramatic. The climate is Provençal: 2,700 sunshine hours per year, warm dry summers, mild winters. The Festival d'Aix (July) brings international opera productions; the city's cultural calendar is dense for its size (150,000 people).",
+      },
+      {
+        heading: "Cost: more expensive than it looks on paper",
+        body: "Property in Aix averages €4,500-6,000/m² in the historic centre and desirable areas — more than Lyon, significantly more than Bordeaux or Nantes. T2 rents: €850-1,100/month for reasonable accommodation. Part of this reflects Aix's position as a wealthy city (France's highest concentration of Michelin-starred restaurants per capita outside Paris, by some measures) with high demand from Marseille commuters, Parisian second-home buyers, and international buyers. Marseille is 30 minutes by TGV and 45 minutes by road; many Aix residents work in Marseille's larger economy. The practical implication: Aix property isn't just Provençal charm pricing — it's also Marseille-satellite pricing for buyers with Marseille-level salaries.",
+      },
+      {
+        heading: "Job market: limited without Marseille",
+        body: "Aix has the Aix-Marseille Université (one of France's largest universities, 72,000 students split between the two cities), an important technological cluster around the Europôle de l'Arbois (high-tech research park with companies including Shell, CEA Tech), and a business centre with some financial and consultancy presence. But the job market depth is not comparable to Lyon, Bordeaux, or Toulouse. Most Aix residents who want a diverse private-sector career live there and work in Marseille (or Lyon by TGV at 1h10). If you're considering Aix for a job rather than for the lifestyle and have a Marseille employment option, the economics require careful calculation against Marseille's cheaper housing stock.",
+      },
+      {
+        heading: "The Marseille alternative",
+        body: "Marseille is 30 minutes from Aix by TGV and 40 minutes by car. It's also France's second city — a Mediterranean port with North African, Italian, and Corsican cultural layers, a complex social geography, and property at €2,800-3,800/m² versus Aix's €4,500-6,000/m². Many people who romanticise Aix find Marseille more genuinely interesting once they're there: it's rawer, more diverse, and has a cultural energy that Aix's bourgeois calm lacks. The trade-off is real (parts of Marseille require neighbourhood-specific knowledge to navigate safely and enjoyably), but Marseille is significantly underrated by people who've heard only its reputation.",
+      },
+      {
+        heading: "Who Aix works for",
+        body: "Aix works well for: remote workers earning substantially above the median French salary, retirees with comfortable pensions (the healthcare access is excellent, there are multiple hospitals including specialist services in the Marseille-Aix basin), people in academia at Aix-Marseille Université, and families who can afford private schools (several bilingual and international options exist). It works less well for: job-seekers in competitive private-sector fields, people on average French salaries, and those expecting the rental market to be straightforward. If you can afford Aix, it's one of France's most pleasant places to live. If you need to economise, Marseille or the Var coast provide the Provence lifestyle at significantly lower cost.",
+      },
+    ],
+    relatedCities: ["aix-en-provence", "marseille", "toulon", "arles", "avignon"],
+    tags: ["aix-en-provence", "provence", "south of france", "relocation", "provençal lifestyle"],
+  },
+  {
+    slug: "le-havre-caen-normandy-coast-living-2026",
+    title: "Le Havre and Caen: Normandy's coastal cities for people who value value",
+    metaTitle: "Living in Le Havre or Caen 2026 — Normandy Coast Guide",
+    metaDesc:
+      "Le Havre and Caen offer some of France's best city-quality-per-euro north of the Loire. Both are 2 hours from Paris; both have harbour and sea access. The comparison.",
+    category: "city-guide",
+    emoji: "⛵",
+    readMinutes: 5,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Normandy's two main cities — Le Havre and Caen — are routinely overlooked in French relocation discussions because they lack the prestige of Bordeaux, the sun of Montpellier, or the dynamism of Lyon. What they have instead: genuine affordability (property at €1,800-2,600/m²), Paris in 2 hours by train, Channel coast access, and a quality of life that surprises people who expected grey industrial cities and found something more liveable. They are not cities for people who need sustained sunshine. They are cities for people who value what northern France actually delivers.",
+    sections: [
+      {
+        heading: "Le Havre: UNESCO heritage and a harbour the size of a small city",
+        body: "Le Havre was destroyed in WWII and rebuilt between 1945 and 1954 by Auguste Perret — the result is a UNESCO World Heritage Site entirely unlike any other: a modernist planned city of rational concrete that has been appreciated as extraordinary urban architecture since the 1990s. The harbour is France's second-largest container port (after Marseille). Property averages €1,500-2,200/m² — among France's cheapest for a city of 170,000. Paris Saint-Lazare is 2h15 by train (non-TGV). The beaches at Etretat (famous chalk cliffs) are 30 minutes north. The city has a strong sea connection that shapes both the economy and the identity.",
+      },
+      {
+        heading: "Caen: university city with medieval heritage and D-Day history",
+        body: "Caen has a very different character from Le Havre: it was also heavily bombed in WWII but rebuilt with more traditional architecture around its surviving medieval castle and abbeys (the Abbaye aux Hommes, the Abbaye aux Dames). The Mémorial de Caen is one of France's most visited WWII sites and draws significant international tourism. The University of Caen (30,000 students) gives the city a lively social dynamic disproportionate to its size (100,000 people). Property: €2,000-2,800/m². TGV to Paris: 2h. Normandy cider and cheese country is immediately accessible.",
+      },
+      {
+        heading: "What both cities share",
+        body: "Both are on the Normandy coast within driving distance of exceptional landscapes (D-Day beaches, Etretat cliffs, Mont Saint-Michel 1h30 from Caen). Both have good healthcare infrastructure. Both have good motorway connections and train services to Paris. Both have housing costs that are 30-50% below equivalent-quality cities further south or in the Loire Valley. The weather is what it is — Normandy averages 1,600-1,700 sunshine hours, Atlantic maritime, noticeably grey by French standards. The cheese and cider and apple brandy are compensations that locals take seriously.",
+      },
+      {
+        heading: "Who these cities work for",
+        body: "Le Havre and Caen work for: remote workers who want maximum housing value within 2 hours of Paris, maritime professionals (the port economy employs tens of thousands in the Le Havre area), academics and students at the University of Caen, families who want a complete city at northern French prices, and people who find the Normandy landscape (dramatic cliffs, apple orchards, bocage) genuinely beautiful rather than a consolation. They don't work for people who need Mediterranean climate, a dense international cultural scene, or a large private-sector tech or finance job market.",
+      },
+    ],
+    relatedCities: ["le-havre", "caen", "rouen", "cherbourg", "saint-lo"],
+    tags: ["le havre", "caen", "normandy", "coastal france", "affordable france north"],
+  },
+  {
+    slug: "french-wine-regions-where-to-live-2026",
+    title: "Living in France's wine regions: which one actually suits you?",
+    metaTitle: "Living in French Wine Regions 2026 — Bordeaux, Burgundy, Alsace, Loire",
+    metaDesc:
+      "France has five major wine regions you can actually live in. Each has different costs, climates, and job markets. Where wine-lovers should base themselves for the vineyard lifestyle.",
+    category: "lifestyle",
+    emoji: "🍷",
+    readMinutes: 6,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Living 'near the wine' is a common relocation motivation that deserves breaking down into specifics. Which wine region? At what cost? With what job market? The Bordeaux dream and the Burgundy fantasy are quite different places to actually live, and the Alsace experience is different again. This guide is for wine enthusiasts making a location decision, not a wine tourism overview — it focuses on the residential reality of France's main wine-producing regions.",
+    sections: [
+      {
+        heading: "Bordeaux: the wine is real but the city has urbanised",
+        body: "Living in Bordeaux doesn't mean you're in the vineyard — Bordeaux is a city of 250,000 (500,000 metro) with a full urban economy, traffic, and the property prices that now reflect that. The vineyards begin at the city's outskirts: Saint-Émilion is 35km, Pauillac is 50km, Sauternes is 40km. The Saint-Émilion village itself (tourist-saturated, expensive accommodation, beautiful) is not where wine workers live — they live in Libourne or smaller communes. If you want to be near the Bordeaux appellation and actually live affordably, the Médoc communes (Lesparre, Pauillac) and the Entre-Deux-Mers area provide vineyard access at rural prices. The wine trade itself is based in Bordeaux city.",
+      },
+      {
+        heading: "Burgundy (Bourgogne): the Côte d'Or question",
+        body: "The Burgundy wine heartland (Côte de Nuits, Côte de Beaune) runs south of Dijon along a narrow band of hills. Dijon (160,000 people) is the regional capital — a complete city with a university, good TGV connection (1h40 to Paris), and property at €2,200-3,000/m². The wine villages themselves (Gevrey-Chambertin, Nuits-Saint-Georges, Meursault, Puligny-Montrachet) are small, expensive by village standards (the prestige of the appellations drives up property prices), and lacking in urban infrastructure. For the wine lifestyle, the practical base is Dijon or Beaune (22,000 people, deeply embedded in the wine world, charming, but small). Chablis and the Mâconnais are cheaper and more accessible alternatives for wine immersion without Côte d'Or prices.",
+      },
+      {
+        heading: "Alsace: wine with Germany next door",
+        body: "The Alsace wine route (Route des Vins d'Alsace) runs through some of France's most picturesque villages — Riquewihr, Kaysersberg, Ribeauvillé — against the backdrop of the Vosges mountains. The base cities are Colmar (70,000 people, extraordinarily well-preserved medieval centre, among France's most picturesque cities, genuinely liveable at a human scale) and Strasbourg (300,000, EU institutions, more cosmopolitan). Alsace Riesling and Gewurztraminer are distinctive wines with a strong regional identity. The German influence on food, architecture, and culture is real. Property in Colmar averages €2,500-3,500/m² — reasonable for the lifestyle on offer.",
+      },
+      {
+        heading: "Loire Valley: the château country compromise",
+        body: "The Loire Valley wine regions (Muscadet near Nantes, Anjou-Saumur, Touraine, Pouilly-Fumé/Sancerre) span 300km of river. The practical base is Tours (140,000 people, 1h from Paris by TGV, good wine access across the Touraine appellation, property at €2,000-2,800/m²). Saumur is a smaller option (28,000 people) surrounded by cave-carved tufa villages and some of France's most interesting smaller producers. The Loire Valley UNESCO listing means the landscape is protected and exceptional. Climate is more northern than Bordeaux or Provence but milder than Burgundy or Alsace.",
+      },
+      {
+        heading: "The Rhône Valley: often overlooked",
+        body: "The Northern Rhône (Côte-Rôtie, Hermitage, Cornas) and Southern Rhône (Châteauneuf-du-Pape, Gigondas) are among France's most exciting wine appellations by current international standing. The base cities are Valence (65,000 people, 45 min from Lyon by TGV, 1h from the northern appellations, affordable at €2,000-2,600/m²) and Avignon (90,000 people, at the heart of the Southern Rhône, Provençal city, strong cultural calendar with its theatre festival, property at €2,800-3,500/m²). For wine enthusiasts who want Mediterranean climate with serious wine proximity, the Southern Rhône offers a combination that Bordeaux and Burgundy can't match.",
+      },
+    ],
+    relatedCities: ["bordeaux", "dijon", "strasbourg", "tours", "avignon"],
+    tags: ["wine regions france", "living in wine country", "bordeaux", "burgundy", "alsace"],
+  },
 ];
 
 export function getEnGuide(slug: string): EnGuide | undefined {
