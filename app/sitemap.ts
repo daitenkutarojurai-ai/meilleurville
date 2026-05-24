@@ -964,7 +964,7 @@ function enMovingFromSection(): MetadataRoute.Sitemap {
 
 function enThematicMacroRegionSection(): MetadataRoute.Sitemap {
   const THEMATIC_SLUGS = [
-    "healthcare", "safety", "employment", "environment", "demographics", "public-services", "cycling",
+    "healthcare", "safety", "employment", "environment", "demographics", "public-services", "cycling", "overall-ranking",
   ] as const;
   const MACRO_SLUGS = [
     "cote-atlantique", "arc-mediterraneen", "arc-alpin",
