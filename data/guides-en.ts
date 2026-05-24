@@ -4883,6 +4883,114 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["paris", "bordeaux", "lyon", "nice", "marseille"],
     tags: ["buying property france expat 2026", "french property purchase guide", "notaire fees france", "DPE france guide", "mortgage france non-resident 2026"],
   },
+  {
+    slug: "grenoble-living-guide-for-expats-2026",
+    title: "Living in Grenoble: the honest expat guide for 2026",
+    metaTitle: "Living in Grenoble 2026 — Expat Guide: Alps Access, Cost, Research City, Pros & Cons",
+    metaDesc: "Grenoble: surrounded by three mountain ranges, Europe's leading research hub, affordable housing. But also: pollution in winter, limited nightlife, heavy industry legacy. Honest picture.",
+    category: "city-guide",
+    emoji: "⛰️",
+    readMinutes: 7,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "Grenoble is the most under-rated large French city for a specific profile: outdoors enthusiasts, researchers, engineers, and people who prioritise mountain access above everything else. Surrounded by the Vercors, Chartreuse, and Belledonne mountain ranges, it offers skiing in winter, trail running in spring and autumn, and genuine alpine hiking in summer. Its housing costs are among the most affordable of any French city of its size. Its downsides are real but less often discussed.",
+    sections: [
+      {
+        heading: "Housing: affordable by French standards",
+        body: "Grenoble is genuinely more affordable than Lyon, Bordeaux, Nantes, or Rennes for equivalent-sized properties. Current median prices: Hyper-centre, Victor Hugo, Championnet (central residential): €2,800-3,800/m². Île Verte (north, leafy, family residential): €2,600-3,500/m². Caserne de Bonne (eco-neighbourhood, central): €3,000-4,000/m². Saint-Martin-d'Hères, Gières (university campus area east): €2,000-2,800/m². Échirolles, Échirolles-Surieux (south, working class): €1,500-2,200/m². Rent for a furnished T2 (50m²): €650-850/month in central areas. These prices reflect a city that has not experienced the same influx-driven appreciation as Bordeaux or Nantes.",
+      },
+      {
+        heading: "The Alps: the main reason to choose Grenoble",
+        body: "No large French city has comparable mountain access. Chamrousse ski resort: 40 minutes from the city centre by bus. Les Sept Laux: 50 minutes. Villard-de-Lans (Vercors): 45 minutes. Autrans: 45 minutes. Alpe d'Huez: 1h15 by car. This means: realistic weekday evening skiing in winter (post-work), trail running at altitude on weekday mornings, and access to serious technical mountaineering within an hour of a large city with full urban amenities. The Vercors plateau is accessible by road in 30 minutes and offers hundreds of kilometres of hiking and mountain biking trails. The Chartreuse massif (north): quieter, more spiritual landscape, equally accessible.",
+      },
+      {
+        heading: "Research and employment: Europe's science hub",
+        body: "Grenoble hosts the European Synchrotron Radiation Facility (ESRF), the Institut Laue-Langevin (ILL, neutron research), and the CEA-Grenoble (atomic energy). It is the location of STMicroelectronics' largest European design centre, Soitec (semiconductor), Schneider Electric (headquarters), and an extensive biotech and medtech cluster. The Grenoble-Alpes University is large and research-intensive. For scientists, engineers, and tech professionals, the employment density in Grenoble is exceptional relative to its size. The ecosystem is strong in: semiconductor design and fabrication, renewable energy, medical devices, materials science, and distributed computing. For other sectors (finance, luxury, media), the market is thin.",
+      },
+      {
+        heading: "The honest caveats: pollution and urban grit",
+        body: "The valley geography that makes Grenoble surrounded by mountains also traps pollution. In winter, temperature inversions can keep pollution at high levels for days or weeks. Grenoble regularly records PM2.5 and ozone peaks above WHO guidelines, particularly in cold, still weather. The city authorities have implemented traffic restrictions during pollution alerts. This is not a reason to reject Grenoble, but it is a real trade-off: you gain mountain access, you absorb winter air quality that is worse than higher-altitude or coastal cities. The urban fabric in some areas (south Grenoble, Échirolles) reflects the city's industrial history — it lacks the polish of Bordeaux, Lyon, or Rennes. The student population (60,000) keeps energy in the centre but also generates the typical student-city rhythm: lively term-time, quiet vacation periods.",
+      },
+      {
+        heading: "Which neighbourhood for you?",
+        body: "Championnet, Victor Hugo, Préfecture: the classic central choice. Walkable, well-served by trams, cafés and restaurants, good schools nearby. The most expensive central option. Île Verte: north of the centre, leafy and quieter, next to the Parc Paul Mistral (large urban park). Excellent for families. Well connected by tram. Saint-Martin-d'Hères: adjacent to the university campus, cheaper, large student population. Good for researchers and academics who want proximity to their institution. The Village Olympique (built for the 1968 Winter Olympics) has aged into a pleasant residential neighbourhood — quirky architecture, affordable, well connected.",
+      },
+    ],
+    relatedCities: ["grenoble", "echirolles", "saint-martin-d-heres", "gieres"],
+    tags: ["living in grenoble 2026", "grenoble expat guide", "grenoble alps access", "grenoble research city expat", "grenoble housing cost 2026"],
+  },
+  {
+    slug: "france-banking-for-expats-guide-2026",
+    title: "Opening a bank account in France as an expat in 2026",
+    metaTitle: "French Bank Account for Expats 2026 — BNP, Société Générale, Boursorama, N26",
+    metaDesc: "How to open a French bank account as a non-citizen: traditional banks vs. neo-banks, what documents you need, which banks accept non-residents. Complete 2026 guide.",
+    category: "moving",
+    emoji: "🏦",
+    readMinutes: 7,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "Having a French bank account (compte bancaire) is practically necessary for daily life in France — renting an apartment requires a RIB (bank details), paying utilities requires domiciliation, and many services require a French IBAN. The process for expats ranges from simple (if you're an EU citizen with a stable address) to tedious (if you're a non-EU citizen without a titre de séjour yet). Here is the full picture.",
+    sections: [
+      {
+        heading: "Traditional banks: the full-service option",
+        body: "The major French retail banks are BNP Paribas, Société Générale, Crédit Agricole, Banque Populaire, Caisse d'Épargne, and LCL. For expats, these banks offer the full range of services: current account (compte courant), savings account (livret A, which is regulated and tax-free up to €22,950), loans, and insurance. The process requires in-person appointment at a branch. Required documents typically include: passport or national ID, proof of residence (attestation d'hébergement or lease agreement), proof of income or employment contract (for credit scoring). For non-EU citizens: you may also need your titre de séjour. Wait times for account opening: 1-3 weeks. The main advantage: a French IBAN is fully recognised everywhere; some landlords and employers require a specifically French bank account.",
+      },
+      {
+        heading: "Neo-banks: the fast option",
+        body: "Neo-banks and online banks have made account opening significantly faster for expats. Boursorama (Société Générale subsidiary): fully online, no fees, accepted as a French IBAN. Requires a French address and identity document. Can be opened before receiving your titre de séjour in many cases. N26: German bank with French IBAN, fully English-language interface, no fees for basic account. Easy to open online. Revolut: technically an e-money institution rather than a bank, but provides an IBAN and is widely accepted. Opening is very fast (minutes). Lydia, Sogexia: French mobile banking solutions. Important caveat: some landlords and some employers' payroll systems specify 'compte domicilié en France' (French-domiciled account) — a Revolut UK IBAN or N26 German IBAN is not always accepted. Check requirements before relying solely on a neo-bank.",
+      },
+      {
+        heading: "The right to a bank account: Droit au compte",
+        body: "If a French bank refuses to open an account for you, you have a legal right (Droit au compte) to request that the Banque de France designate a bank that must open a basic account for you. This is a safety net, not a primary option — the process takes several weeks and the designated account typically has limited services. It is primarily useful for people who have been refused by multiple banks due to a poor financial history or complex documentation situation. To invoke it: contact the Banque de France online (banque-france.fr) with proof of refusal from at least one bank.",
+      },
+      {
+        heading: "What to know about French banking fees",
+        body: "Traditional French banks have notoriously high fees compared to UK, German, or Dutch banks. Expect: monthly account maintenance fee: €5-10/month (some accounts waive this for high income or automatic payroll). CB card annual fee: €30-50/year for a Visa/Mastercard with contactless (carte bancaire). CB international transactions: 1.5-3% foreign currency fee (traditional banks). Overdraft: French banks have strict overdraft policies — going into the red without authorisation triggers immediate fees (frais d'incident). The alternative: pair a traditional bank (for the French IBAN requirements) with a neo-bank like Revolut or N26 for daily international transactions and travel. The dual-account approach is standard practice for cost-conscious expats.",
+      },
+      {
+        heading: "Money transfer: sending money to France or out of France",
+        body: "For regular international transfers (receiving salary from abroad, or sending money to family), avoid using traditional bank wire transfers — fees and exchange rate spreads are high. The established alternatives: Wise (formerly TransferWise): transparent mid-market rate, typically 0.4-1% total cost including fees. SWIFT/SEPA: for SEPA zone transfers (Eurozone to Eurozone), standard SEPA transfers are free or near-free between French accounts and other Eurozone accounts. For non-SEPA transfers (e.g. USD, GBP, CHF): use Wise or similar. Compliance note: France has tax reporting obligations for overseas accounts. If you maintain an account in another country while residing in France, you must declare it annually on your French tax return (Form 3916). Failure to declare is penalised.",
+      },
+    ],
+    relatedCities: ["paris", "lyon", "bordeaux", "marseille"],
+    tags: ["french bank account expat 2026", "opening bank account france", "boursorama N26 revolut france expat", "french banking guide 2026", "compte bancaire france etranger"],
+  },
+  {
+    slug: "clermont-ferrand-living-guide-for-expats-2026",
+    title: "Living in Clermont-Ferrand: the honest expat guide for 2026",
+    metaTitle: "Living in Clermont-Ferrand 2026 — Expat Guide: Volcanoes, Michelin, Cost, Pros & Cons",
+    metaDesc: "Clermont-Ferrand: volcanoes, Michelin, affordable housing, mountain access. And one of France's most underrated cities for quality of life. The honest expat picture for 2026.",
+    category: "city-guide",
+    emoji: "🌋",
+    readMinutes: 6,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "Clermont-Ferrand is the least-known large French city that consistently surprises people who move there. It sits at the foot of the Massif Central, 30 minutes from the Puy de Dôme volcano, with skiing 30-45 minutes away in winter and an extraordinary landscape of extinct volcanoes as its backdrop. Housing is affordable by any French standard, and the university ensures a young, international community.",
+    sections: [
+      {
+        heading: "Housing: among the most affordable in France",
+        body: "Clermont-Ferrand offers some of the lowest property prices among French cities of over 100,000 inhabitants. Current prices: historic centre (Cathédrale, Place de Jaude, Saint-Pierre): €2,000-3,200/m². Montferrand (medieval village integrated into the city, eastern Clermont): €1,800-2,600/m² — charming and quiet. Residential north (Rousset, Les Salins): €1,500-2,200/m². Royat (adjacent spa town to the west, very residential, the premium micro-market): €2,000-3,000/m². Rent for a T2 (50m²): €500-700/month unfurnished in most areas. This makes Clermont one of the rare French cities where a single professional on an average salary can rent a T2 comfortably and still save.",
+      },
+      {
+        heading: "Michelin and beyond: the employment reality",
+        body: "Michelin's global headquarters is in Clermont-Ferrand. It employs directly and indirectly a significant portion of the city's workforce, with facilities for tyre design, engineering, materials research, and corporate functions. This creates a strong industrial employer base and a steady stream of international assignments (Michelin has plants on every continent and rotates executives through Clermont). Beyond Michelin: Limagrain (agronomic research and seeds, fourth largest seed group in the world), Volvic (Danone subsidiary — water and beverage), and several university-linked research institutions. Clermont-Ferrand Auvergne University is a major employer and a base for researchers in earth sciences, volcanology, and medicine.",
+      },
+      {
+        heading: "Nature and outdoor access: the hidden advantage",
+        body: "Clermont-Ferrand is not, as its name might suggest, surrounded by mountains in the alpine sense. It is built on a plateau of volcanic rock, with the Chaîne des Puys (a UNESCO World Heritage site) directly to the west. The Puy de Dôme summit (1,465m) is accessible by a cog railway from a point 10 minutes from the city. Ski resorts (Le Mont-Dore, Super-Besse, La Bourboule) are 40-50 minutes away by car. The Sancy massif offers summer hiking. The gorges of the Allier and the Livradois-Forez natural park are within 30-60 minutes. The city sits at 400m altitude, which means cooler summers than Bordeaux or Montpellier — a practical advantage as climate change accelerates.",
+      },
+      {
+        heading: "The honest caveats",
+        body: "Clermont has a known image challenge — 'dark city' and 'provincial' are frequent descriptions from people who haven't visited. In reality, the black lava stone (arkosine) used in historic buildings does create a distinctive dark palette that takes adjustment. The climate at altitude means colder winters than the Loire valley or Bordeaux — snow in the city is occasional. The job market is narrower than in Lyon, Nantes, or Bordeaux if you work outside industrial, research, or healthcare sectors. And the transport connection to Paris (3h15 by train — no TGV direct, change at Lyon or Riom-Vichy direction) makes Clermont the most isolated major French city from the capital.",
+      },
+      {
+        heading: "The international community and language",
+        body: "Clermont-Ferrand has a permanent international community driven by Michelin rotations, university partnerships, and Limagrain's global operations. English is used professionally in the industrial and research sectors at a higher rate than in most provincial cities of this size. The Université Clermont Auvergne has active Erasmus exchanges and attracts international students. If you are moving for a Michelin or Limagrain position, the company provides relocation support and there is an established expat network for practical setup questions.",
+      },
+    ],
+    relatedCities: ["clermont-ferrand", "royat", "beaumont", "issoire"],
+    tags: ["living in clermont-ferrand 2026", "clermont expat guide", "clermont-ferrand michelin expat", "clermont affordable city france", "auvergne expat guide 2026"],
+  },
 ];
 
 export function getEnGuide(slug: string): EnGuide | undefined {

@@ -19206,6 +19206,121 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["vivre Haute-Savoie 2026", "Annecy Thonon Cluses guide", "immobilier Haute-Savoie", "frontalier Genève Savoie", "qualité vie Alpes France"],
   },
+  {
+    slug: "retraite-bord-de-mer-france-villes-guide-2026",
+    title: "Prendre sa retraite au bord de la mer en France : les vraies villes pour 2026",
+    metaTitle: "Retraite bord de mer France 2026 — La Rochelle, Sète, Vannes, Bayonne : le guide",
+    metaDesc: "Retraite au bord de la mer en France : quelles côtes sont viables financièrement, lesquelles sont saturées de touristes, où trouver l'équilibre ? Le guide honnête 2026.",
+    category: "lifestyle",
+    emoji: "🌊",
+    readMinutes: 8,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "Prendre sa retraite au bord de la mer est un fantasme collectif français. La réalité de 2026 est que les côtes les plus demandées (Côte d'Azur, Bretagne nord, Bassin d'Arcachon) sont devenues aussi chères que Paris en termes d'immobilier, et que les stations balnéaires hors saison sont moins animées que vous ne l'imaginez. Quelques villes tiennent encore la promesse. Voici celles-là.",
+    sections: [
+      {
+        heading: "Critères pour une retraite maritime réussie",
+        body: "Une station balnéaire animée toute l'année — pas seulement en juillet-août. Un accès aux soins réel : médecins généralistes acceptant de nouveaux patients, proximité d'un CHU ou d'un service d'urgences compétent, pas seulement une clinique saisonnière. Un prix immobilier qui ne vide pas votre retraite en 2 ans. Un réseau de transport public minimal (ou la capacité de rester mobile sans voiture). Une vie culturelle et sociale hors saison — marchés, cinéma, associations, club de natation. Ces critères éliminent immédiatement la majorité des stations balnéaires françaises (Hossegor, Deauville, Carnac, Saint-Tropez) qui sont magnifiques l'été et à moitié mortes le reste de l'année.",
+      },
+      {
+        heading: "Vannes (Bretagne) : l'équilibre parfait",
+        body: "Vannes est la capitale du Morbihan breton, sur le golfe du Morbihan. 65 000 habitants en ville, 150 000 dans l'agglomération. Mer à 5 minutes à vélo depuis le centre. Ville médiévale préservée et vivante — pas un décor, un vrai tissu commercial et culturel. Prix immobilier T2 : 3 500-4 800 €/m² (encore raisonnable pour du bord de mer breton). CHU de Bretagne Sud à Lorient (45 min) + hôpital local de Vannes correct. Réseau Kicéo (bus) correct pour la ville. Accès TGV Paris en 2h40. L'été est chargé de touristes mais Vannes garde sa vie de ville à l'année. Le seul défaut : il pleut (Bretagne oblige), même si le golfe du Morbihan est statistiquement moins arrosé que le Finistère.",
+      },
+      {
+        heading: "Sète (Hérault) : la Marseille abordable du Languedoc",
+        body: "Sète est une ville portuaire authentique sur la mer Méditerranée, à 30 km de Montpellier et 75 km de Montpellier-Fabre (aéroport). 45 000 habitants, une vraie ville qui vit à l'année — pêcheurs, vignobles environnants, marché central permanent. Plages de sable à 5 minutes, Bassin de Thau (huîtres, eau chaude en été) à pied. Prix immobilier : 3 000-4 500 €/m² — nettement inférieur à la Côte d'Azur pour un climat méditerranéen quasi-identique. CHU de Montpellier accessible en 30 min. Réseau bus Hérault Transport. La réputation de Sète a évolué depuis 10 ans — ville d'artistes (Brassens, Valéry en sont originaires), festival Cinemed, galeries. Moins chic que Nice, moins touristique que Montpellier — le bon équilibre.",
+      },
+      {
+        heading: "La Rochelle : le bon compromis Atlantique",
+        body: "La Rochelle est la ville côtière française qui répond le mieux aux critères de la retraite maritime sérieuse. 80 000 habitants. Ville universitaire et culturelle (IUT, université, écoles supérieures). Hôpital de La Rochelle correct, CHU de Poitiers à 1h pour le spécialisé. Île de Ré à 15 minutes. Réseau yélo (vélos + bus) honnête pour la ville. Plages urbaines accessibles. Prix immobilier T2 : 3 800-5 500 €/m² selon le quartier (cher pour l'Atlantique). La tension du marché locatif est forte à La Rochelle (tourisme + étudiants). Point de vigilance : l'ensoleillement atlantique est bien inférieur au méditerranéen — entre 1 900 et 2 100 h/an, soit 600 h de moins que Nice ou Sète.",
+      },
+      {
+        heading: "Les côtes à éviter pour une retraite permanente",
+        body: "Côte d'Azur (Antibes, Juan-les-Pins, Villefranche) : magnifique mais prix de Paris ou plus. Côte d'Émeraude (Saint-Malo, Dinard) : chère et très saisonnière hors ville de Saint-Malo. Bassin d'Arcachon (Arcachon, Cap Ferret) : excessivement saisonnier hors saison, prix très élevés depuis 2020. Hossegor, Capbreton, Capbreton : surf culture jeune, désert de services en hiver. Quiberon, Île de Ré, Île d'Oléron : les îles et presqu'îles sont magiques — et complètement inadaptées pour une retraite permanente sans voiture et sans services de santé spécialisés. Le fantasme des îles françaises tient rarement à l'usage.",
+      },
+    ],
+    relatedCities: ["la-rochelle", "vannes", "sete", "bayonne"],
+    relatedGuides: [
+      "meilleures-villes-seniors-actifs-france-2026",
+      "vivre-retraite-1500-euros-mois-france-2026",
+      "vivre-a-la-mer-toute-annee-france-2026-fantasme-realite",
+    ],
+    tags: ["retraite bord mer France 2026", "meilleure ville retraite côte", "Vannes Sète La Rochelle retraite", "retraite maritime France", "côte française pour seniors 2026"],
+  },
+  {
+    slug: "meilleures-villes-jeunes-professionnels-france-2026",
+    title: "Les meilleures villes de France pour les jeunes professionnels en 2026",
+    metaTitle: "Meilleures villes jeunes pros France 2026 — salaires, logement, vie nocturne, carrière",
+    metaDesc: "Pour un jeune professionnel en France : Rennes, Lyon, Nantes ou Bordeaux ? Le classement basé sur les salaires nets de charge vs. loyers, la densité d'employeurs et la vie sociale.",
+    category: "lifestyle",
+    emoji: "🚀",
+    readMinutes: 7,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "Quel est le meilleur endroit pour commencer sa vie professionnelle en France en 2026 ? La réponse dépend du secteur, des ambitions de carrière et du style de vie voulu. Mais quelques constantes émergent quand on croise les données — salaires médians, loyers des T1/T2, densité d'employeurs, scores de sociabilité et d'activité culturelle. Voici le panorama honnête.",
+    sections: [
+      {
+        heading: "Le ratio qui compte : salaire net vs. loyer",
+        body: "Pour un jeune professionnel, la question n'est pas 'quel salaire brut' mais 'quel reste-à-vivre après le loyer'. Le ratio salaire médian net local / loyer T2 median varie considérablement : Paris : salaire médian cadre junior ~2 800-3 200 € nets, loyer T2 Paris 1 300-1 800 € → reste 1 000-1 900 € avant les autres charges. Lyon : salaire médian cadre junior ~2 400-2 800 € nets, loyer T2 ~850-1 100 € → reste 1 300-1 950 €. Rennes : salaire médian cadre junior ~2 200-2 600 € nets, loyer T2 ~680-850 € → reste 1 350-1 750 €. Bordeaux : salaire médian cadre junior ~2 200-2 600 € nets, loyer T2 ~800-1 100 € → reste 1 100-1 800 €. Toulouse : salaire médian cadre junior ~2 300-2 700 € nets, loyer T2 ~750-950 € → reste 1 350-1 950 €. Le reste-à-vivre après loyer est souvent meilleur hors Paris que dans la capitale.",
+      },
+      {
+        heading: "Villes avec la meilleure densité d'employeurs",
+        body: "Lyon arrive systématiquement en tête : siège de nombreux grands groupes (Sanofi, BNP Paribas, Euronext, L'Oréal R&D, bioMérieux), tissu de PME-ETI dynamique, marché de l'emploi le plus diversifié après Paris. Toulouse : aéronautique et spatial (Airbus, Safran, Thales, CNES) — marché excellent pour les ingénieurs, informaticiens et gestionnaires de projets industriels. Rennes : tech/télécoms (historiquement Orange, Technicolor) et écosystème deeptech en croissance. Forte présence de startups et scaleups. Bordeaux : diversifié mais aucune spécialité dominante — bonne option généraliste. Nantes : aéroconfluence tech, services numériques, forte communauté startup. Strasbourg : administrations européennes et organismes internationaux — unique en France pour certains profils.",
+      },
+      {
+        heading: "Vie sociale et nocturne : les classements réels",
+        body: "La vie sociale d'une ville pour un jeune professionnel n'est pas seulement la densité de bars — c'est la capacité à créer des liens professionnels et personnels rapidement. Villes où les jeunes pros créent des réseaux rapidement : Lyon (culture des apéros professionnels, associations alumni d'écoles nombreuses, événements Meetup denses), Rennes (taille humaine, communauté tech soudée, festivals), Bordeaux (culture du vin et de la gastronomie comme liant social). Villes sous-estimées pour la vie sociale : Nantes (festival Royal de Luxe, BIIG, La Cantine numérique, communauté entrepreneuriale très active), Strasbourg (dynamique européenne, ville de congrès et d'événements académiques). Paris gagne en densité absolue mais perd sur l'accessibilité — difficile de maintenir des sorties régulières quand le loyer absorbe la moitié du salaire.",
+      },
+      {
+        heading: "Spécificités par secteur : où aller selon son métier",
+        body: "Tech/data/IA : Paris (densité absolue), Lyon (second pôle), Rennes, Bordeaux (forte croissance). Ingénierie aéronautique/spatiale : Toulouse sans discussion, avec Bordeaux et Paris comme alternatives. Santé/biotech/pharma : Lyon (IARC, CIRC, Mérieux), Strasbourg (INSERM, CHU reference européen), Montpellier (CNRS-INSERM, agri-food-santé). Finance/assurance : Paris (90 % du marché), Lyon (reste 8 %), Bordeaux, Rennes en croissance. Architecture/urbanisme : Paris, Lyon, Bordeaux (ville en mutation constante). Design/modes/luxe : Paris — pas d'alternative française sérieuse. Éducation/recherche publique : toute ville universitaire, mais les opportunités d'avancement restent concentrées à Paris et Lyon. Communication/marketing digital : Paris, Bordeaux, Rennes, Nantes.",
+      },
+    ],
+    relatedCities: ["lyon", "rennes", "nantes", "bordeaux", "toulouse", "strasbourg"],
+    relatedGuides: [
+      "meilleures-villes-entrepreneurs-startups-france-2026",
+      "meilleures-villes-freelances-independants-france-2026",
+      "meilleures-villes-colocation-jeunes-actifs-2026",
+    ],
+    tags: ["meilleures villes jeunes pros France 2026", "meilleure ville démarrer carrière France", "salaires loyers ratio France villes", "jeune professionnel Lyon Rennes Bordeaux", "quelle ville pour travailler France 2026"],
+  },
+  {
+    slug: "divorce-separation-demenager-quelle-ville-france-2026",
+    title: "Après une séparation : quelle ville pour repartir en France en 2026 ?",
+    metaTitle: "Repartir après séparation : quelle ville choisir en France 2026 ? Le guide",
+    metaDesc: "Après un divorce ou une séparation : budget réduit, un seul revenu, peut-être des enfants. Quelles villes françaises offrent un nouveau départ réaliste ? Le guide sans bullshit.",
+    category: "budget",
+    emoji: "🌱",
+    readMinutes: 7,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "Une séparation ou un divorce change la donne financière radicalement : d'un foyer avec deux revenus et souvent un bien immobilier, on passe à un revenu unique, une location à trouver vite, et parfois des enfants à charge partagée. Cette situation est vécue par des centaines de milliers de personnes chaque année. Voici les critères qui comptent vraiment pour choisir une ville dans ce contexte.",
+    sections: [
+      {
+        heading: "Les critères spécifiques à cette situation",
+        body: "Budget serré sur le logement : avec un seul revenu, la part du loyer dans le budget monte mécaniquement. Viser des villes où un T2 ou T3 (si vous avez un droit de garde) est disponible sous 700-900 €/mois charges incluses. Réseau de soutien : une ville où vous avez de la famille, des amis proches ou un réseau professionnel établi. Refaire la vie dans une ville inconnue est possible mais plus difficile en période de reconstruction. Écoles et garde d'enfants : si garde partagée, la ville doit avoir de la disponibilité en crèches, périscolaire, et une offre scolaire de qualité. Services de santé mentale : médecins, psychologues, structures d'aide — souvent sous-dimensionnés hors des grandes villes. Emploi accessible : si vous cherchez un nouvel emploi en même temps, la densité du marché local compte.",
+      },
+      {
+        heading: "Villes abordables avec un bon ratio vie/budget",
+        body: "Rennes : T2 meublé à 650-800 €/mois, marché de l'emploi correct, vie sociale réelle, Bretagne comme terrain de décompression. La taille humaine favorise la reconstruction d'un réseau local. Clermont-Ferrand : T2 à 500-650 €/mois — parmi les plus abordables des grandes villes françaises. Si le marché de l'emploi local correspond à votre profil, c'est un des meilleurs rapports budget/qualité de vie disponibles. Caen : très sûre, abordable (T2 à 550-700 €/mois), mer à 20 minutes, bonne offre scolaire — sous-estimée par rapport à sa qualité réelle pour cette situation. Pau : T2 à 500-650 €/mois, montagnes à portée, ambiance de ville à taille humaine, plus simple à habiter que les grandes métropoles quand on reconstruit.",
+      },
+      {
+        heading: "Éviter les erreurs communes",
+        body: "Choisir une ville sur un coup de tête émotionnel : une ville où vous avez passé un beau séjour en vacances n'est pas nécessairement une ville où vous vivrez bien. Les vacances n'exposent pas aux trajets quotidiens, aux files d'attente chez le médecin ou au marché de l'emploi local. Partir trop loin du réseau de soutien : si vos parents, vos amis proches ou vos enfants sont ailleurs, une distance trop grande crée de l'isolement — surtout dans les premières années. Surestimer la qualité de vie des petites villes à la mode : Uzès, L'Isle-sur-la-Sorgue, Honfleur — charme évident, mais accès aux soins, emploi et services insuffisants pour y construire un quotidien avec un seul revenu et des enfants. Sous-estimer les charges annexes : dans les villes attractives (La Rochelle, Bordeaux, Annecy), le loyer est la première dépense mais pas la seule — les services, les restaurants, les activités coûtent aussi plus cher.",
+      },
+      {
+        heading: "Ressources et droits à activer",
+        body: "Si vous quittez un logement commun avec des enfants : contactez la CAF (Caisse d'Allocations Familiales) pour vérifier vos droits aux APL (aides au logement) — ils dépendent de vos revenus et du loyer. Le CAF peut aussi accélérer l'accès à une crèche en situation de monoparentalité. Si vous retrouvez un emploi dans une nouvelle ville : la prime de mobilité géographique (aide à la mobilité professionnelle) peut être activée via France Travail. Elle peut couvrir partiellement les frais de déménagement. Si vous êtes propriétaire et devez vendre : les frais de mutation (frais de notaire) sont à la charge de l'acheteur, pas du vendeur. En revanche, la plus-value sur la résidence principale est exonérée — facteur souvent méconnu. Concernant la pension alimentaire : elle est imposable pour le parent qui la perçoit mais déductible pour celui qui la verse. Un comptable ou la CAF peut vous aider à optimiser.",
+      },
+    ],
+    relatedCities: ["rennes", "caen", "pau", "clermont-ferrand", "nantes"],
+    relatedGuides: [
+      "meilleures-villes-familles-monoparentales-france-2026",
+      "vivre-smic-quelle-ville-france-2026",
+      "meilleures-villes-primo-accedants-france-2026",
+    ],
+    tags: ["ville après séparation France 2026", "divorcer et déménager quelle ville", "budget monoparental ville France", "repartir de zéro France 2026", "ville seul avec enfant France 2026"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
