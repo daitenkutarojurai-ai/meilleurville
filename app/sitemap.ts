@@ -64,6 +64,8 @@ const SITEMAP_CHUNKS_EN = [
   "en-vacations",
   "en-quiz",
   "en-calculators",
+  "en-quality-of-life",
+  "en-moving-from",
 ] as const;
 
 const SITEMAP_CHUNKS = IS_EN ? SITEMAP_CHUNKS_EN : SITEMAP_CHUNKS_FR;
@@ -675,6 +677,7 @@ function enStaticSection(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/quality-of-life`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.7 },
     { url: `${BASE_URL}/data-sources`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.55 },
     { url: `${BASE_URL}/property-calendar`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.6 },
+    { url: `${BASE_URL}/moving-from`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
   ];
 }
 
@@ -883,6 +886,22 @@ function enVacationsSection(): MetadataRoute.Sitemap {
   ];
 }
 
+function enQualityOfLifeSection(): MetadataRoute.Sitemap {
+  const MACRO_SLUGS = [
+    "cote-atlantique", "arc-mediterraneen", "arc-alpin",
+    "sud-ouest-gascon", "vallee-du-rhone", "ile-de-france-elargie",
+  ] as const;
+  return [
+    { url: `${BASE_URL}/quality-of-life`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly" as const, priority: 0.75 },
+    ...MACRO_SLUGS.map((slug) => ({
+      url: `${BASE_URL}/quality-of-life/${slug}`,
+      lastModified: CITY_DATA_UPDATED,
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    })),
+  ];
+}
+
 function enCalculatorsSection(): MetadataRoute.Sitemap {
   const SALARY_SLUGS = ["1500-euros", "2000-euros", "2500-euros", "3000-euros", "4000-euros", "5000-euros"] as const;
   return [
@@ -921,6 +940,15 @@ function enQuizSection(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/quiz`, lastModified: STATIC_UPDATED, changeFrequency: "monthly" as const, priority: 0.8 },
     { url: `${BASE_URL}/quiz/compatibility`, lastModified: STATIC_UPDATED, changeFrequency: "monthly" as const, priority: 0.8 },
   ];
+}
+
+function enMovingFromSection(): MetadataRoute.Sitemap {
+  return QUITTER_PAIRS.map(([a, b]) => ({
+    url: `${BASE_URL}/moving-from/${a}-to-${b}`,
+    lastModified: CITY_DATA_UPDATED,
+    changeFrequency: "monthly" as const,
+    priority: 0.6,
+  }));
 }
 
 function quitterSection(): MetadataRoute.Sitemap {
@@ -1039,6 +1067,8 @@ export default async function sitemap({ id }: { id: Promise<string> }): Promise<
     case "en-vacations": return enVacationsSection();
     case "en-quiz": return enQuizSection();
     case "en-calculators": return enCalculatorsSection();
+    case "en-quality-of-life": return enQualityOfLifeSection();
+    case "en-moving-from": return enMovingFromSection();
     default: return [];
   }
 }
