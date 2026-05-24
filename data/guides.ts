@@ -18075,6 +18075,221 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["négociation immobilière", "offre d'achat", "DPE", "prix immobilier", "chasseur immobilier", "2026"],
   },
+  {
+    slug: "dpe-passoire-thermique-acheter-renover-france-2026",
+    title: "DPE F et G en France : acheter une passoire thermique en 2026 — calcul honnête et alternatives",
+    metaTitle: "Acheter un logement DPE F ou G France 2026 — rénover ou éviter ?",
+    metaDesc:
+      "DPE F ou G : interdiction de louer, coût de rénovation, MaPrimeRénov', Eco-PTZ, décote de prix. Le guide honnête pour acheter une passoire thermique en France en 2026.",
+    category: "budget",
+    emoji: "🏚️",
+    readMinutes: 9,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Un logement classé F ou G au DPE se vend avec une décote qui peut atteindre 10 à 20 % du prix de marché — de quoi financer les travaux, parfois avec du reste. Mais cette équation n'est pas systématiquement vraie : certains vendeurs n'ont pas encore intégré la décote, certains biens ont des travaux tellement complexes que la décote ne couvre pas le coût réel, et certains marchés locaux absorbent les passoires sans broncher. Ce guide vous donne les outils pour faire le calcul vous-même.",
+    sections: [
+      {
+        heading: "Ce que le DPE change concrètement depuis 2022",
+        body: "Le DPE (Diagnostic de Performance Énergétique) est obligatoire pour toute vente ou location depuis 2006, mais ses conséquences légales ont radicalement changé depuis 2022. Avant 2022, c'était un document informatif. Depuis juillet 2021, il est opposable : si le DPE est erroné, le vendeur ou le bailleur en est responsable. Depuis 2022, les logements classés G à énergie extrêmement consommatrice (au-dessus de 450 kWh/m²/an) ne peuvent plus faire l'objet de nouveaux baux. À partir de 2025, les logements G sont totalement interdits à la location (renouvellement de bail inclus). À partir de 2028, les logements F suivront. À partir de 2034, les logements E. Ce calendrier est officiel et progressif. Il crée une pression mécanique sur les propriétaires-bailleurs qui ont des biens énergivores : soit ils rénovent, soit ils vendent, soit ils ne peuvent plus louer. Cette pression se traduit dans les prix de vente — mais inégalement selon les marchés."
+      },
+      {
+        heading: "La décote de marché : ce qu'elle est et ce qu'elle n'est pas",
+        body: "La décote moyenne d'un bien DPE F ou G par rapport à un bien DPE D équivalent est estimée entre 5 et 20 % selon les études FNAIM et Observatoire du marché (2024). Elle est plus forte dans les villes où la demande locative est élevée (grande valeur de rendement futur perdue), plus faible dans les marchés résidentiels détendus où les propriétaires-occupants dominent. Concrètement à Paris : un appartement en DPE G vaut en moyenne 13-17 % de moins que le même bien en DPE C. À Lyon, Bordeaux, Nantes : 8-12 %. Dans les villes moyennes et les zones rurales : 3-8 %, parfois moins si les acheteurs sont principalement des résidents et non des investisseurs. La décote n'est pas automatiquement égale au coût des travaux. Vérifiez toujours si le prix affiché intègre déjà la décote DPE (de nombreux vendeurs continuent à afficher un prix plein en espérant négocier après le DPE) — si ce n'est pas le cas, la négociation est justifiée et chiffrée."
+      },
+      {
+        heading: "Estimation du coût de rénovation énergétique",
+        body: "Les travaux nécessaires pour passer d'un DPE G à un DPE D ou E varient selon la nature des problèmes. Isolation des combles : 2 000 à 5 000 euros pour un appartement standard — rentabilité rapide (3-5 ans) et impact DPE fort. Isolation des murs par l'intérieur (ITE) : 8 000 à 20 000 euros — gros impact mais perd quelques m² de surface habitable. Remplacement de la chaudière à fioul/gaz par une pompe à chaleur air/eau : 8 000 à 16 000 euros (avant aides). Changement des fenêtres (simple vitrage → double vitrage) : 3 000 à 9 000 euros. Un audit énergétique complet (obligatoire pour les ventes de maisons individuelles en F/G depuis 2023) coûte 500 à 1 000 euros et vous donne un scénario de travaux priorisés avec les montants. Commandez cet audit avant de décider si vous achetez — les vendeurs sont tenus de le mettre à disposition dans les annonces de vente de maisons individuelles en F ou G."
+      },
+      {
+        heading: "Les aides disponibles en 2026 : MaPrimeRénov et Eco-PTZ",
+        body: "MaPrimeRénov' : aide de l'ANAH accessible aux propriétaires occupants qui rénovent leur résidence principale. Les taux varient selon les revenus (4 plafonds : Très modestes, Modestes, Intermédiaires, Supérieurs). Pour les ménages modestes, la prime peut couvrir 70 à 90 % du coût des travaux — par exemple, une pompe à chaleur à 14 000 euros peut coûter réellement 3 000 à 5 000 euros après prime. Pour les ménages intermédiaires, les taux sont 40-50 %. Pour les revenus plus élevés, 15-25 % — moins généreux mais cumulable avec l'Eco-PTZ. L'Eco-PTZ (prêt à taux zéro pour la rénovation énergétique) est disponible sans condition de ressources, jusqu'à 50 000 euros sur 15 à 20 ans à 0 %. Cumulé avec MaPrimeRénov', pour un ménage intermédiaire, une rénovation complète de 35 000 euros peut revenir réellement à 12 000 à 18 000 euros sortis de poche, le reste étant financé par aides et prêt sans intérêts."
+      },
+      {
+        heading: "Acheter une passoire thermique : la décision rationnelle",
+        body: "Pour un acheteur qui veut habiter le bien et peut faire les travaux dans les 2 premières années : acheter une passoire est souvent une bonne opération si la décote dépasse le coût réel des travaux net des aides. Ce cas se produit souvent : acheter un bien avec 15 % de décote DPE, puis financer 60 % des travaux par MaPrimeRénov' et Eco-PTZ revient à habiter un bien rénové pour un coût total inférieur à un bien équivalent en DPE D acheté au prix de marché. Pour un investisseur-bailleur : la fenêtre se ferme rapidement. Les interdictions de location 2025-2028 sont en vigueur et les amendes pour location illégale d'un G en 2025 peuvent aller jusqu'à 5 % du loyer annuel. Acheter un G pour le rénover et le relouer est viable si le calcul de rentabilité tient compte du coût de travaux net des aides ET du délai de travaux pendant lequel le bien n'est pas loué. Ne rachetez jamais une passoire thermique en espérant que la réglementation sera assouplie — le calendrier légal est voté et le lobby des propriétaires n'a pas réussi à le faire bouger significativement depuis 2022."
+      }
+    ],
+    relatedCities: ["paris", "bordeaux", "lyon", "nantes", "dijon", "grenoble"],
+    relatedGuides: [
+      "bilan-energetique-avant-achat-france-2026",
+      "negocier-prix-immobilier-france-guide-2026",
+      "meilleures-villes-primo-accedants-france-2026",
+    ],
+    tags: ["DPE", "passoire thermique", "rénovation énergétique", "MaPrimeRénov", "DPE F DPE G", "2026"],
+  },
+  {
+    slug: "demenager-avec-enfants-france-guide-2026",
+    title: "Déménager avec des enfants en France : quand partir, comment préparer, et ce que les études montrent vraiment",
+    metaTitle: "Déménager avec des enfants France 2026 — école, garde, intégration, timing",
+    metaDesc:
+      "Quel âge est le moins perturbant, comment gérer l'école, trouver une crèche ou assistante maternelle dans une nouvelle ville : le guide pratique pour déménager avec des enfants en France.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 8,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Le déménagement avec des enfants est l'une des décisions les plus émotionnellement chargées d'une vie de famille. Et l'une des plus mal documentées : les conseils disponibles oscillent entre « les enfants s'adaptent toujours » (trop optimiste) et « c'est traumatisant » (trop alarmiste). La réalité, bien documentée par les études de psychologie développementale française, est plus nuancée et plus utile.",
+    sections: [
+      {
+        heading: "L'âge du déménagement : ce que dit vraiment la recherche",
+        body: "Aucun âge n'est parfait, mais certains sont clairement plus favorables. Avant 2 ans : les enfants en bas âge n'ont pas de réseau social établi et s'adaptent rapidement si le cadre familial immédiat reste stable. L'impact est presque nul si les parents eux-mêmes sont sereins et organisés. De 2 à 5 ans (maternelle) : attachement aux copains commence mais la mémoire affective de long terme n'est pas encore consolidée. L'adaptation prend 4 à 8 semaines à l'école, souvent moins si l'enseignant est bien informé du changement. De 6 à 10 ans (primaire) : amitiés plus solides, impacts plus durables mais les études montrent une bonne résilience si le déménagement coïncide avec un changement naturel de classe (fin de CP, de CE2, de CM1). Entre 11 et 14 ans (collège) : période la plus délicate. Le réseau social prend une importance identitaire forte. Déménager en 6ème ou 5ème est difficile. Déménager à la fin de la 3ème (après le brevet, avant le lycée) est beaucoup plus naturel. Entre 15 et 18 ans (lycée) : le choc peut être fort si le lycée de destination a une orientation différente. En Terminale, déménager brise la continuité de la préparation au baccalauréat."
+      },
+      {
+        heading: "Préparer les enfants : ce qui fonctionne",
+        body: "Annoncer le déménagement tôt (2 à 4 mois à l'avance selon l'âge) et en parler régulièrement plutôt qu'une seule fois. Impliquer les enfants dans des décisions concrètes : visiter la nouvelle ville, choisir des éléments de leur nouvelle chambre, visiter l'école. Pour les collégiens et lycéens : les faire participer à la recherche de l'école et aux visites — donner l'impression qu'ils ont une prise sur leur avenir dans la nouvelle ville. Maintenir le contact avec les amis de la ville d'origine (WhatsApp, visites programmées) — couper net est plus traumatisant qu'une transition lente. Inscrire l'enfant dans une activité parascolaire dès les premières semaines dans la nouvelle ville — le club de sport, la chorale ou le conservatoire est souvent plus rapide que l'école pour créer des liens sociaux nouveaux."
+      },
+      {
+        heading: "L'inscription scolaire : les démarches concrètes",
+        body: "Pour l'école primaire : s'adresser à la mairie de la nouvelle commune qui attribue l'école selon la carte scolaire (secteur géographique). La mairie délivre un certificat d'inscription, l'école demandera ensuite les documents : livret de famille, carnet de vaccinations à jour, justificatif de domicile, carnet scolaire. Délai raisonnable : 2 à 3 semaines. Pour le collège et le lycée : s'adresser directement au chef d'établissement ou à la Direction des Services de l'Éducation Nationale (DSDEN) du département pour obtenir une affectation. En cours d'année, une demande de dérogation peut permettre d'accéder à un établissement hors secteur si l'établissement de secteur a de la place. Pour la crèche et l'assistante maternelle : les places de crèche publique sont attribuées par les mairies sur critères (ancienneté sur liste d'attente, revenus, situation familiale). L'inscription en crèche se fait idéalement avant même la naissance dans les villes tendues (Paris, Lyon, Bordeaux) — en provincial modéré, 3 à 6 mois avant la date souhaitée suffisent. L'assistante maternelle agréée (trouvée via assistante-maternelle.net ou le relais petite enfance de la commune) peut être disponible en 4 à 8 semaines."
+      },
+      {
+        heading: "Choisir une ville avec des enfants : les critères spécifiques",
+        body: "Au-delà des scores de qualité des écoles (visibles sur les pages /villes/[slug]/ecoles), voici ce que les familles qui ont fait le choix racontent comme critères déterminants. L'accès aux espaces extérieurs sécurisés (parcs, jardins publics, espaces verts accessibles à pied depuis le logement) — crucial pour les 2-10 ans. La densité de clubs sportifs et culturels pour enfants (associations sportives, conservatoires, accueils de loisirs) — certaines villes ont une offre parascolaire très riche, d'autres très clairsemée. La qualité des transports en commun pour les collégiens et lycéens qui commencent à se déplacer seuls. La distance domicile-école réalisable à pied ou à vélo — les familles qui ont pu faire ce choix rapportent une qualité de vie nettement supérieure au combo voiture matin + soir. La présence d'autres familles avec enfants dans le même immeuble ou quartier — les liens de voisinage naissent plus vite dans les quartiers avec forte densité de familles."
+      },
+      {
+        heading: "Les villes françaises les mieux notées par les familles qui ont déménagé",
+        body: "D'après les témoignages collectés via nos formulaires de contact et les études Ifop/CREDOC régulières sur la satisfaction résidentielle des familles : Rennes ressort régulièrement en tête pour les familles — accessibilité scolaire, transports bien maillés, offre culturelle et associative dense, espaces naturels accessibles. Nantes : idem profil, légèrement plus cher mais avec une très forte satisfaction des familles arrivées depuis moins de 5 ans. Angers : villes moins médiatisée mais plébiscitée pour sa qualité de vie familiale, ses loyers encore raisonnables et sa scène associative active. Bordeaux : satisfaction élevée des familles, mais signaux de tension sur le logement depuis 2019. Strasbourg : appréciée des familles pour la mobilité douce, les parcs et la qualité de l'offre scolaire publique. Lyon est très bien notée pour la qualité scolaire mais moins pour la détente familiale quotidienne — ville dense et chère. Montpellier : excellente pour le cadre de vie (soleil, littoral) mais des signaux de tension scolaire dans certains quartiers. Le match idéal pour une famille : une ville de 150 000 à 400 000 habitants avec une bonne desserte TGV, des loyers sous 900 euros pour un T3, et une offre parascolaire riche."
+      }
+    ],
+    relatedCities: ["rennes", "nantes", "angers", "bordeaux", "strasbourg", "lyon"],
+    relatedGuides: [
+      "meilleures-villes-familles-ecoles-securite-france-2025",
+      "meilleure-ville-famille-france",
+      "meilleures-villes-primo-accedants-france-2026",
+    ],
+    tags: ["déménagement enfants", "famille déménagement France", "inscription école", "crèche nouvelle ville", "adapter enfants", "2026"],
+  },
+  {
+    slug: "colocation-intergenerationnelle-france-2026",
+    title: "Colocation intergénérationnelle en France : comment ça marche, ce que ça coûte vraiment",
+    metaTitle: "Colocation intergénérationnelle France 2026 — programme, loyer, contrat, villes",
+    metaDesc:
+      "Jeune logeant chez un senior en échange de services ou de loyer réduit : fonctionnement, programmes COSI et CAES, villes les plus actives, loyer moyen. Guide pratique 2026.",
+    category: "budget",
+    emoji: "🏠",
+    readMinutes: 7,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "La colocation intergénérationnelle met en présence un senior propriétaire d'un logement sous-occupé et un étudiant ou jeune actif qui cherche un logement abordable. En échange d'un loyer réduit (ou nul dans certains dispositifs), le jeune rend des services non médicaux au senior : courses, aide aux tâches ménagères, présence régulière. C'est une formule qui existe depuis les années 1990 mais qui connaît une forte accélération depuis 2020 — portée par la double pression de la crise du logement étudiant et de l'isolement des personnes âgées.",
+    sections: [
+      {
+        heading: "Les deux modèles principaux",
+        body: "Modèle 1 — Loyer solidaire : le jeune paie un loyer réduit (souvent 30 à 50 % du loyer marché) et s'engage à être présent un certain nombre de nuits par semaine (généralement 5 à 7 nuits) et à rendre quelques heures de services par semaine (2 à 5h selon les accords). Ce modèle est géré par des associations ou des plateformes (Ensemble2Générations, Cohabit'âge, Prism'emploi Jeunes) qui jouent le rôle d'intermédiaire, de garant et de médiateur si des difficultés surviennent. Modèle 2 — Hébergement gratuit ou presque : le jeune loge à titre gratuit ou pour une participation symbolique aux charges (50 à 100 euros/mois). En contrepartie, il s'engage à des présences nocturnes régulières et à des services plus substantiels. Ce modèle est plus exigeant et demande une vraie compatibilité de mode de vie. Les deux modèles nécessitent un contrat formalisé — les associations le rédigent, incluant les clauses de service, les modalités de préavis, et les règles de cohabitation."
+      },
+      {
+        heading: "Les programmes nationaux et locaux actifs en 2026",
+        body: "Ensemble2Générations est l'opérateur le plus développé en France (présent dans 30 villes). Leur modèle : loyer réduit + convention de services signée par les deux parties + accompagnement sur toute la durée. Leur site permet de chercher par ville. Le réseau CAES (Cohabitations Aménagées entre Étudiants et Seniors) est plus concentré sur les grandes villes universitaires. PACT, Action Logement et certaines CCAS (Centres Communaux d'Action Sociale) locales ont des dispositifs similaires. Du côté des universités : certains Crous ont des partenariats avec des associations de colocation intergénérationnelle — à vérifier directement au CROUS de votre ville de destination. Les villes les plus actives en nombre de colocations intergénérationnelles formalisées : Paris et Île-de-France (hors coût du marché classique, la demande est forte), Lyon, Bordeaux, Nantes, Rennes, Toulouse, Grenoble, Montpellier, Lille, Strasbourg."
+      },
+      {
+        heading: "Ce que les deux parties gagnent réellement",
+        body: "Le senior : une présence régulière qui rompt l'isolement sans dépendance médicale (les seniors recherchent souvent un compagnonnage de vie, pas une aide soignante), une aide pratique pour les tâches devenues pénibles sans être handicapantes, et une sécurité passive (quelqu'un est là si quelque chose arrive). Parfois aussi une source de revenus complémentaires modeste mais réelle. Le jeune : un logement à 150-300 euros par mois dans une ville où le marché est à 600-900 euros pour un studio. Sur 10 mois de location universitaire, l'économie représente 3 000 à 6 000 euros — de quoi changer la viabilité financière d'une année d'études. En contrepartie : moins de liberté d'horaires, une cohabitation avec quelqu'un de sensibilités différentes, et des responsabilités réelles même si légères."
+      },
+      {
+        heading: "Les points de friction et comment les anticiper",
+        body: "Les ruptures de colocation intergénérationnelle arrivent dans trois cas : incompatibilité de modes de vie non anticipée (le jeune rentre à 2h du matin, le senior se lève à 6h), glissement non voulu des services demandés (le senior commence à demander plus que prévu), ou manque de présence du jeune (sorties fréquentes, absences longues). Comment les anticiper : être très précis dans le contrat sur les créneaux de présence attendus et les services convenus (liste écrite, pas verbale). Faire une période d'essai de 3 mois avant d'engager sur une année entière. Maintenir le contact avec l'association intermédiaire — les bonnes associations font un suivi mensuel. Les seniors qui ont les meilleures expériences : ceux qui recherchent de la compagnie plus que de l'aide, et qui sont eux-mêmes encore très autonomes. Les jeunes qui ont les meilleures expériences : ceux qui sont sincèrement intéressés par la relation humaine, pas seulement par l'économie du loyer."
+      },
+      {
+        heading: "Comment trouver une colocation intergénérationnelle",
+        body: "Étape 1 : identifiez les associations actives dans la ville cible (Ensemble2Générations, Cohabit'âge, réseau CAES) et prenez contact. La plupart ont des listes d'attente — plus vous contactez tôt (3 à 6 mois avant la rentrée), meilleures sont vos chances. Étape 2 : préparez un profil honnête — les associations font des entretiens pour vérifier la compatibilité. Parlez de vos rythmes, de vos activités, de ce que vous cherchez dans cette relation. Étape 3 : participez à la réunion de matching (la plupart des associations organisent des sessions de rencontre) et prenez le temps de rencontrer plusieurs seniors avant de vous engager. Étape 4 : signez un contrat complet — loyer, services, présence minimale, modalités de préavis (généralement 1 mois), règles sur les invités. Ne jamais démarrer sans contrat écrit. Étape 5 : informez la CAF de votre mode d'hébergement — selon le montant du loyer, vous pouvez avoir droit à l'APL. Au-dessous d'un certain seuil, l'APL n'est pas versée mais cela reste votre droit de vérifier."
+      }
+    ],
+    relatedCities: ["paris", "lyon", "bordeaux", "nantes", "rennes", "toulouse"],
+    relatedGuides: [
+      "meilleures-villes-colocation-jeunes-actifs-2026",
+      "survivre-etudiant-province-moins-700-euros-2026",
+      "meilleures-villes-seniors-actifs-france-2025",
+    ],
+    tags: ["colocation intergénérationnelle", "logement étudiant", "senior jeune", "Ensemble2Générations", "loyer solidaire", "2026"],
+  },
+  {
+    slug: "vivre-en-bretagne-mer-bilan-honnete-2026",
+    title: "Vivre en Bretagne face à la mer : le bilan honnête après 12 mois",
+    metaTitle: "Vivre en Bretagne bord de mer 2026 — bilan honnête : météo, isolement, coût",
+    metaDesc:
+      "Météo, isolement hivernal, transport, opportunités d'emploi, coût du littoral breton : le bilan réaliste pour ceux qui envisagent de s'installer en Bretagne côtière en 2026.",
+    category: "region",
+    emoji: "🌊",
+    readMinutes: 8,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "La Bretagne côtière est la promesse de vivre face à l'océan à prix abordables avec une identité culturelle forte et des paysages exceptionnels. C'est vrai. C'est aussi une vie avec des hivers veneux, gris et isolés, un marché de l'emploi limité dans les communes littorales elles-mêmes, et des prix qui ont considérablement augmenté depuis 2020 à mesure que les Parisiens ont découvert que le TGV Paris-Rennes tient en 1h30. Ce bilan honnête s'adresse aux personnes sérieuses dans ce projet.",
+    sections: [
+      {
+        heading: "Le littoral breton : de quoi parle-t-on exactement ?",
+        body: "La Bretagne côtière couvre environ 2 730 km de linéaire côtier (le plus long de France). Les profils sont très différents. Côte nord (Côtes d'Armor) : côtes déchiquetées, plages sauvages, ports de pêche. Communes : Paimpol, Tréguier, Perros-Guirec, Lannion (50 000 hab., vraie ville avec un tissu économique). Finistère (Brest, Quimper, Douarnenez, Pont-Aven, Concarneau) : la Bretagne la plus isolée géographiquement mais avec deux villes de taille significative (Brest 140 000 hab., Quimper 65 000 hab.). Côte sud (Morbihan) : golfe du Morbihan, Lorient (57 000 hab.), Vannes (55 000 hab.) — le secteur avec le meilleur ensoleillement de Bretagne et les marchés immobiliers les plus tendus. La Presqu'île de Quiberon, Belle-Île : littoral insulaire et semi-insulaire, isolement assumé. Chaque secteur a ses propres réalités immobilières, professionnelles et météorologiques."
+      },
+      {
+        heading: "La météo : ce qu'on vous dit et ce qu'on ne vous dit pas",
+        body: "Rennes a 1 850 heures de soleil par an. Brest, en Finistère, a 1 600 heures — soit moins que Strasbourg, moins que Dijon, légèrement plus que Lille. Vannes a 1 900 heures — c'est le seuil de la Bretagne douce. Ce qu'on ne dit pas : la Bretagne côtière reçoit 900 à 1 200 mm de pluie par an (contre 640 mm à Paris). Mais les pluies sont fréquentes et fines, pas torrentielles — et la Bretagne a une culture de l'extérieur sous la pluie que les Bretons trouvent normale et que les Parisiens trouvent difficile. Ce qu'on dit mais qu'on minimise : le vent. La Bretagne a des vents moyens de 5 à 8 m/s sur le littoral, avec des tempêtes hivernales régulières (Irma, Ciaran). Les maisons côtières sont bâties pour tenir, mais la vie quotidienne en hiver avec 50 km/h de vent permanent est physiquement et psychologiquement différente de ce que l'on imagine en été. Les Bretons d'origine trouvent ça vivifiant. Les néo-Bretons d'installation hivernale y sont souvent moins préparés."
+      },
+      {
+        heading: "L'emploi et le télétravail : la réalité du marché littoral",
+        body: "Dans les communes littorales de moins de 5 000 habitants, le marché de l'emploi est saisonnier (hôtellerie-restauration, tourisme) et limité hors saison. Si vous n'êtes pas en télétravail complet ou à la retraite, évitez les communes exclusivement touristiques sans secteur économique propre. Les villes avec un marché de l'emploi réel : Brest (marine nationale, pêche, numérique — Naval Group, Dassault Marine, Tech'espace), Lorient (économie portuaire et marine), Lannion (Orange Labs, pôle optronique, Telecom Bretagne — une des villes françaises avec le meilleur ratio entreprises tech/habitant), Vannes et Quimper (PME agroalimentaire, services, commerce). Pour les télétravailleurs, la qualité de la connexion est bonne dans les communes équipées (vérifiez ARCEP adresse par adresse — les zones non couvertes en fibre existent encore dans les communes rurales côtières). La 4G/5G est souvent la solution de secours — les opérateurs ont bien couvert le littoral breton en hauteur de réseau."
+      },
+      {
+        heading: "Les prix immobiliers : ce qui s'est passé depuis 2020",
+        body: "Les prix immobiliers sur le littoral breton ont augmenté de 30 à 60 % entre 2019 et 2024 — portés par l'exode urbain post-Covid et la découverte du TGV Rennes-Paris (1h30). Quelques ordres de grandeur 2026 : Quiberon (île, très prisée) : 4 000 à 7 000 €/m². Belle-Île : 4 500 à 8 000 €/m². Vannes centre : 3 500 à 5 000 €/m². Lorient : 1 800 à 2 800 €/m². Brest : 1 600 à 2 500 €/m². Perros-Guirec (Côtes d'Armor) : 2 500 à 4 000 €/m² pour les vues mer. Concarneau, Quimper : 2 000 à 3 500 €/m². Les zones encore accessibles : le Finistère intérieur (15 à 30 km de la côte) — 1 200 à 1 800 €/m² — et les bourgs de l'arrière-littoral des Côtes d'Armor. La Bretagne n'est plus bon marché partout. Mais elle reste nettement en dessous du Pays Basque, de la Côte d'Azur ou du Sud Bretagne premium pour des qualités de vie comparables."
+      },
+      {
+        heading: "Pour qui la Bretagne côtière fonctionne vraiment",
+        body: "Les profils qui s'installent durablement : les télétravailleurs avec des contrats nationaux/internationaux qui ont besoin d'un environnement de qualité de vie mais pas d'un marché de l'emploi local. Les retraités avec une pension solide qui veulent un littoral sans caniculen estivale ni surpopulation touristique permanente. Les artisans et professions libérales dont la clientèle locale est suffisante. Les marins, pêcheurs et professionnels de la mer. Et les Bretons revenus d'ailleurs qui ont intégré les compromis dès l'enfance. Les profils qui souffrent : les gens qui ont acheté en été sans connaître l'hiver. Les personnes seules sans réseau social préexistant dans la région. Les familles dépendant d'un emploi salarié sectoriel absent localement. Et ceux qui ont une tolérance faible au gris et au vent continus de novembre à mars."
+      }
+    ],
+    relatedCities: ["brest", "rennes", "vannes", "lorient", "quimper", "saint-malo"],
+    relatedGuides: [
+      "vivre-en-bretagne-guide-2025",
+      "teletravailler-depuis-bretagne-guide-2026",
+      "vivre-bord-mer-france-guide",
+    ],
+    tags: ["Bretagne côtière", "vivre en Bretagne", "bord de mer Bretagne", "météo Bretagne", "immobilier Bretagne", "2026"],
+  },
+  {
+    slug: "loyer-reel-france-charges-estimees-villes-2026",
+    title: "Loyers réels en France en 2026 : les charges qui font la vraie différence",
+    metaTitle: "Loyers réels France 2026 — charges incluses, coût total par ville",
+    metaDesc:
+      "Loyer + charges locatives + énergie + internet + assurance : le coût mensuel réel d'un logement dans 20 grandes villes françaises en 2026. Les chiffres que les annonces ne montrent pas.",
+    category: "budget",
+    emoji: "📊",
+    readMinutes: 8,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Une annonce immobilière affiche un loyer. Ce n'est pas ce que vous payez. Il y a les charges locatives (eau froide, entretien parties communes, parfois chauffage), la provision pour charges (si contrat de bail collectif), l'électricité, le gaz ou la PAC, internet, l'assurance habitation, et parfois le parking. Dans les villes avec des bâtiments anciens mal isolés, la facture énergétique peut dépasser le loyer de 30 à 50 % en hiver. Ce guide vous donne les chiffres réels pour 20 villes françaises.",
+    sections: [
+      {
+        heading: "Les composantes du coût réel : tout ce qui ne figure pas dans l'annonce",
+        body: "Un loyer affiché de 700 euros pour un T2 peut revenir à 900, 1 000, voire 1 100 euros par mois tout compris selon la ville, le bâtiment, la période de l'année et votre usage. Décomposition type pour un T2 de 50 m² dans un immeuble des années 1970 : Loyer HC (hors charges) : affiché dans l'annonce. Charges locatives récupérables : 50 à 150 euros selon le service (eau chaude collective, entretien ascenseur, gardien, espaces verts). Électricité (abonnement + kWh) : 50 à 150 euros en été, 90 à 220 euros en hiver selon le chauffage et l'isolation. Gaz : 0 à 100 euros (selon chauffage gaz ou électrique). Internet : 25 à 35 euros. Assurance habitation multirisque : 15 à 30 euros. Éventuellement : parking (50 à 150 euros dans les grandes villes). En bâtiment BBC récent (DPE A ou B) : les charges énergie sont 40 à 60 % inférieures."
+      },
+      {
+        heading: "Tableau de référence : coût total par ville en 2026",
+        body: "Coût mensuel réel all-in pour un T2 (hors parking) dans un bâtiment moyen (DPE D) : Paris : loyer 1 400 € + charges 180 € + énergie 180 € + internet 30 € + assurance 25 € = **1 815 €/mois**. Lyon : loyer 900 € + 140 € + 160 € + 30 € + 20 € = **1 250 €/mois**. Bordeaux : loyer 950 € + 130 € + 150 € + 30 € + 20 € = **1 280 €/mois**. Nantes : loyer 850 € + 130 € + 155 € + 30 € + 18 € = **1 183 €/mois**. Rennes : loyer 820 € + 120 € + 155 € + 30 € + 18 € = **1 143 €/mois**. Toulouse : loyer 840 € + 120 € + 145 € + 30 € + 18 € = **1 153 €/mois**. Montpellier : loyer 880 € + 120 € + 135 € + 30 € + 18 € = **1 183 €/mois**. Strasbourg : loyer 830 € + 140 € + 175 € + 30 € + 18 € = **1 193 €/mois** (hiver plus froid, charges plus élevées). Lille : loyer 780 € + 135 € + 180 € + 30 € + 18 € = **1 143 €/mois**. Grenoble : loyer 760 € + 130 € + 170 € + 30 € + 18 € = **1 108 €/mois**. Dijon : loyer 680 € + 120 € + 160 € + 30 € + 17 € = **1 007 €/mois**. Clermont-Ferrand : loyer 640 € + 110 € + 160 € + 30 € + 15 € = **955 €/mois**."
+      },
+      {
+        heading: "L'impact du DPE sur la facture énergétique",
+        body: "Un logement en DPE G (très mauvais) coûte 3 à 4 fois plus en énergie qu'un logement en DPE B. Concrètement : un T2 de 50 m² en DPE G dans une ville froide (Strasbourg, Grenoble, Dijon) peut coûter 350 à 500 euros par mois en électricité/gaz de novembre à mars. Le même appartement en DPE B coûte 60 à 100 euros. La différence de loyer (un DPE G se loue souvent moins cher) est entièrement annulée par la facture énergétique, et souvent inversée. Une annonce pour un T2 à 650 euros en DPE G dans une ville froide est en réalité plus chère qu'un T2 à 800 euros en DPE C dans le même secteur. Ce calcul est rarement fait par les locataires au moment de choisir — et c'est l'une des principales sources de mauvaise surprise dans le premier logement."
+      },
+      {
+        heading: "Comment comparer honnêtement deux logements",
+        body: "Méthode simple : pour chaque logement visité, calculez le coût mensuel normalisé. Loyer HC + estimation des charges récupérables (demandez au bailleur ou à l'agence la moyenne des 2 dernières années) + simulation énergétique (le DPE indique la consommation en kWh/m²/an — multipliez par la surface et par le tarif électrique moyen de 0,25 €/kWh pour avoir une estimation annuelle, divisez par 12) + internet 30 € + assurance 20-25 €. Cette démarche prend 10 minutes par logement et vous évitera de choisir un appartement qui paraît 100 euros moins cher par mois mais qui en coûte 180 de plus en charges et énergie. La simulation énergétique n'est qu'une estimation — mais elle vous permet de comparer deux logements en DPE D vs DPE F sur les mêmes bases, et de négocier le loyer du DPE F en conséquence."
+      },
+      {
+        heading: "Les aides sur les charges : APL, FSL, chèque énergie",
+        body: "APL (Aide Personnalisée au Logement) : versée par la CAF directement sur le loyer ou à vous selon l'accord avec le bailleur. Dépend de vos revenus, de la composition du foyer, et de la zone de la commune. Simulateur sur caf.fr. Chèque énergie : versé automatiquement par l'État aux foyers modestes (revenus fiscaux sous ~11 000 €/an par unité de consommation). Montant : 48 à 277 euros/an selon les revenus. Valable chez tous les fournisseurs d'énergie et pour les travaux de rénovation chez un professionnel RGE. FSL (Fonds de Solidarité Logement) : aide ponctuelle accordée par les départements pour payer les impayés de loyer, de charges ou d'énergie en situation de précarité — à demander via le CCAS de votre commune. Ces aides sont cumulables et souvent méconnues. L'APL seule peut représenter 100 à 200 euros de réduction effective du loyer pour un ménage aux revenus modestes."
+      }
+    ],
+    relatedCities: ["paris", "lyon", "bordeaux", "nantes", "rennes", "dijon"],
+    relatedGuides: [
+      "trouver-appartement-france-guide-pratique-2026",
+      "vivre-smic-quelle-ville-france-2026",
+      "dpe-passoire-thermique-acheter-renover-france-2026",
+    ],
+    tags: ["loyer charges incluses", "coût réel logement France", "budget logement ville", "charges locatives", "facture énergie logement", "2026"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
