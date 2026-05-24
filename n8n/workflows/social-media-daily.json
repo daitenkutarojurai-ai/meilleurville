@@ -5,10 +5,7 @@
       "parameters": {
         "rule": {
           "interval": [
-            {
-              "field": "cronExpression",
-              "expression": "0 9,15,19 * * 1-6"
-            }
+            { "field": "cronExpression", "expression": "0 9,15,19 * * 1-6" }
           ]
         }
       },
@@ -20,7 +17,7 @@
     },
     {
       "parameters": {
-        "jsCode": "// ===== GÉNÉRATEUR DE CONTENU MAVILLEIDEALE =====\n// Rotation quotidienne : une ville différente chaque jour\n\nconst cities = [\n  { name: 'Annecy',            slug: 'annecy',            score: 7.8, dept: 'Haute-Savoie',              region: 'Auvergne-Rhône-Alpes', highlight: 'lac, montagnes, qualité de vie au sommet' },\n  { name: 'Bayonne',           slug: 'bayonne',           score: 7.5, dept: 'Pyrénées-Atlantiques',       region: 'Nouvelle-Aquitaine',    highlight: 'culture basque authentique, gastronomie, Biarritz à 10 min' },\n  { name: 'La Rochelle',       slug: 'la-rochelle',       score: 7.4, dept: 'Charente-Maritime',          region: 'Nouvelle-Aquitaine',    highlight: 'port historique, 2 600 h de soleil, île de Ré à deux pas' },\n  { name: 'Rennes',            slug: 'rennes',            score: 7.2, dept: 'Ille-et-Vilaine',            region: 'Bretagne',              highlight: '1er réseau vélo de France, dynamisme universitaire' },\n  { name: 'Bordeaux',          slug: 'bordeaux',          score: 7.1, dept: 'Gironde',                    region: 'Nouvelle-Aquitaine',    highlight: 'vignobles, qualité de vie, TGV Paris 2 h' },\n  { name: 'Nantes',            slug: 'nantes',            score: 7.0, dept: 'Loire-Atlantique',           region: 'Pays de la Loire',      highlight: 'capitale créative, Machines de l'île, nature urbaine' },\n  { name: 'Montpellier',       slug: 'montpellier',       score: 6.9, dept: 'Hérault',                    region: 'Occitanie',             highlight: '300 jours de soleil, mer à 10 min, 1ère ville étudiante' },\n  { name: 'Grenoble',          slug: 'grenoble',          score: 6.8, dept: 'Isère',                      region: 'Auvergne-Rhône-Alpes', highlight: 'hub tech, Alpes à portée, air pur' },\n  { name: 'Brest',             slug: 'brest',             score: 6.7, dept: 'Finistère',                  region: 'Bretagne',              highlight: 'prix attractifs, mer omniprésente, Bretagne vivante' },\n  { name: 'Strasbourg',        slug: 'strasbourg',        score: 6.7, dept: 'Bas-Rhin',                   region: 'Grand Est',             highlight: 'capitale européenne, gastronomie alsacienne, marché de Noël' },\n  { name: 'Tours',             slug: 'tours',             score: 6.6, dept: 'Indre-et-Loire',             region: 'Centre-Val de Loire',   highlight: 'jardins de la Loire, art de vivre, Paris 55 min TGV' },\n  { name: 'Pau',               slug: 'pau',               score: 6.5, dept: 'Pyrénées-Atlantiques',       region: 'Nouvelle-Aquitaine',    highlight: 'Pyrénées visibles depuis les boulevards, soleil, immobilier doux' },\n  { name: 'Nice',              slug: 'nice',              score: 6.5, dept: 'Alpes-Maritimes',            region: 'PACA',                  highlight: 'Riviera, 300 jours de soleil, aéroport international' },\n  { name: 'Metz',              slug: 'metz',              score: 6.4, dept: 'Moselle',                    region: 'Grand Est',             highlight: 'Centre Pompidou-Metz, cathédrale illuminée, porte de l'Europe' },\n  { name: 'Chambéry',          slug: 'chambery',          score: 6.4, dept: 'Savoie',                     region: 'Auvergne-Rhône-Alpes', highlight: 'carrefour alpin, lac du Bourget, Annecy et Lyon à 1 h' },\n  { name: 'Nancy',             slug: 'nancy',             score: 6.3, dept: 'Meurthe-et-Moselle',        region: 'Grand Est',             highlight: 'Place Stanislas UNESCO, art nouveau, université' },\n  { name: 'Nîmes',             slug: 'nimes',             score: 6.3, dept: 'Gard',                       region: 'Occitanie',             highlight: 'amphithéâtre romain, soleil méditerranéen, prix accessibles' },\n  { name: 'Angers',            slug: 'angers',            score: 6.3, dept: 'Maine-et-Loire',             region: 'Pays de la Loire',      highlight: 'Anjou, vignobles, château, Paris 1 h 20 TGV' },\n  { name: 'Dijon',             slug: 'dijon',             score: 6.2, dept: 'Côte-d'Or',                  region: 'Bourgogne-Franche-Comté', highlight: 'capitale gastronomique, Côte de Nuits, art de vivre' },\n  { name: 'Toulon',            slug: 'toulon',            score: 6.2, dept: 'Var',                        region: 'PACA',                  highlight: 'mer à pied, soleil varois, alternative abordable à Nice' },\n  { name: 'Caen',              slug: 'caen',              score: 6.2, dept: 'Calvados',                   region: 'Normandie',             highlight: 'université, mer à 15 min, prix attractifs, Paris 2 h' },\n  { name: 'Lorient',           slug: 'lorient',           score: 6.2, dept: 'Morbihan',                   region: 'Bretagne',              highlight: 'festival interceltique, rade magnifique, Bretagne abordable' },\n  { name: 'Clermont-Ferrand',  slug: 'clermont-ferrand',  score: 6.1, dept: 'Puy-de-Dôme',               region: 'Auvergne-Rhône-Alpes', highlight: 'volcans à 10 min, hub industriel, nature immédiate' },\n  { name: 'Valence',           slug: 'valence',           score: 6.0, dept: 'Drôme',                      region: 'Auvergne-Rhône-Alpes', highlight: 'soleil, Ardèche accessible, TGV Paris-Marseille' },\n  { name: 'Perpignan',         slug: 'perpignan',         score: 6.0, dept: 'Pyrénées-Orientales',        region: 'Occitanie',             highlight: 'ville la plus ensoleillée de France, mer, Espagne à 30 min' },\n  { name: 'Rouen',             slug: 'rouen',             score: 5.8, dept: 'Seine-Maritime',             region: 'Normandie',             highlight: 'Normandie historique, Paris 1 h 20, bords de Seine' },\n  { name: 'Poitiers',          slug: 'poitiers',          score: 5.8, dept: 'Vienne',                     region: 'Nouvelle-Aquitaine',    highlight: 'université médiévale, Futuroscope, accessibilité TGV' },\n  { name: 'Reims',             slug: 'reims',             score: 5.7, dept: 'Marne',                      region: 'Grand Est',             highlight: 'champagne, cathédrale UNESCO, Paris 45 min TGV' },\n  { name: 'Le Mans',           slug: 'le-mans',           score: 5.9, dept: 'Sarthe',                     region: 'Pays de la Loire',      highlight: 'Paris 55 min TGV, prix 30% sous Paris, qualité de vie' },\n  { name: 'Amiens',            slug: 'amiens',            score: 5.5, dept: 'Somme',                      region: 'Hauts-de-France',       highlight: 'cathédrale gothique, hortillonnages, Paris 1 h TGV' }\n];\n\nconst BASE_URL = 'https://mavilleideale.fr';\n\n// Rotation par jour de l'année\nconst today = new Date();\nconst dayOfYear = Math.floor((today - new Date(today.getFullYear(), 0, 0)) / 86400000);\nconst city = cities[dayOfYear % cities.length];\nconst cityUrl = `${BASE_URL}/villes/${city.slug}`;\n\n// Emoji selon le tier\nconst tierEmoji = city.score >= 7.5 ? '🏆' : city.score >= 7.0 ? '🌟' : city.score >= 6.0 ? '✅' : '📍';\n\nconst posts = {\n  facebook:\n    `${tierEmoji} Ville du jour : ${city.name}\\n\\n` +\n    `📊 Score MaVilleIdeale : ${city.score.toFixed(1)}/10\\n` +\n    `📍 ${city.dept} — ${city.region}\\n\\n` +\n    `${city.highlight}\\n\\n` +\n    `Classement 100% données publiques : INSEE, SSMSI, observatoires des loyers. Sans bullshit.\\n\\n` +\n    `🔗 Analyse complète : ${cityUrl}\\n\\n` +\n    `#MaVilleIdeale #${city.name.replace(/[\\s'\\-]/g, '')} #France #Immobilier #Relocation #QualiteDeVie`,\n\n  threads:\n    `${tierEmoji} ${city.name} — score ${city.score.toFixed(1)}/10\\n\\n` +\n    `${city.highlight}\\n\\n` +\n    `Données : INSEE, SSMSI, loyers officiels. 352 villes analysées.\\n\\n` +\n    `➡️ ${cityUrl}`,\n\n  linkedin:\n    `Analyse : ${city.name} (${city.dept})\\n\\n` +\n    `Indice de qualité de vie MaVilleIdeale : ${city.score.toFixed(1)}/10\\n\\n` +\n    `Points forts : ${city.highlight}\\n\\n` +\n    `MaVilleIdeale classe 352 villes françaises sur 8 axes (qualité de vie, transports, nature, coût, sécurité, culture, télétravail, écoles). ` +\n    `Toutes les données sont publiques et vérifiables. Pas de classement sponsorisé.\\n\\n` +\n    `📊 ${cityUrl}\\n\\n` +\n    `#Immobilier #Relocation #QualitéDeVie #Télétravail #France #${city.region.replace(/[\\s\\-]/g, '')}`,\n\n  twitter:\n    `${tierEmoji} ${city.name} — ${city.score.toFixed(1)}/10\\n` +\n    `${city.highlight}\\n\\n` +\n    `352 villes · données INSEE/SSMSI\\n` +\n    `➡️ ${cityUrl}\\n#MaVilleIdeale #France`\n};\n\nreturn [{ json: { city, posts, cityUrl, generatedAt: today.toISOString() } }];"
+        "jsCode": "// ===== GÉNÉRATEUR DE CONTENU MAVILLEIDEALE =====\n\nconst cities = [\n  { name: 'Annecy',           slug: 'annecy',           score: 7.8, dept: 'Haute-Savoie',           region: 'Auvergne-Rhône-Alpes',    highlight: 'lac, montagnes, qualité de vie au sommet' },\n  { name: 'Bayonne',          slug: 'bayonne',          score: 7.5, dept: 'Pyrénées-Atlantiques',    region: 'Nouvelle-Aquitaine',       highlight: 'culture basque authentique, gastronomie, Biarritz à 10 min' },\n  { name: 'La Rochelle',      slug: 'la-rochelle',      score: 7.4, dept: 'Charente-Maritime',       region: 'Nouvelle-Aquitaine',       highlight: 'port historique, 2 600 h de soleil, île de Ré à deux pas' },\n  { name: 'Rennes',           slug: 'rennes',           score: 7.2, dept: 'Ille-et-Vilaine',         region: 'Bretagne',                 highlight: '1er réseau vélo de France, dynamisme universitaire' },\n  { name: 'Bordeaux',         slug: 'bordeaux',         score: 7.1, dept: 'Gironde',                 region: 'Nouvelle-Aquitaine',       highlight: 'vignobles, qualité de vie, TGV Paris 2 h' },\n  { name: 'Nantes',           slug: 'nantes',           score: 7.0, dept: 'Loire-Atlantique',        region: 'Pays de la Loire',         highlight: 'capitale créative, Machines de l\\'île, nature urbaine' },\n  { name: 'Montpellier',      slug: 'montpellier',      score: 6.9, dept: 'Hérault',                 region: 'Occitanie',                highlight: '300 jours de soleil, mer à 10 min, 1ère ville étudiante' },\n  { name: 'Grenoble',         slug: 'grenoble',         score: 6.8, dept: 'Isère',                   region: 'Auvergne-Rhône-Alpes',    highlight: 'hub tech, Alpes à portée, air pur' },\n  { name: 'Brest',            slug: 'brest',            score: 6.7, dept: 'Finistère',               region: 'Bretagne',                 highlight: 'prix attractifs, mer omniprésente, Bretagne vivante' },\n  { name: 'Strasbourg',       slug: 'strasbourg',       score: 6.7, dept: 'Bas-Rhin',                region: 'Grand Est',                highlight: 'capitale européenne, gastronomie alsacienne' },\n  { name: 'Tours',            slug: 'tours',            score: 6.6, dept: 'Indre-et-Loire',          region: 'Centre-Val de Loire',      highlight: 'jardins de la Loire, art de vivre, Paris 55 min TGV' },\n  { name: 'Pau',              slug: 'pau',              score: 6.5, dept: 'Pyrénées-Atlantiques',    region: 'Nouvelle-Aquitaine',       highlight: 'Pyrénées visibles depuis les boulevards, soleil, immobilier doux' },\n  { name: 'Nice',             slug: 'nice',             score: 6.5, dept: 'Alpes-Maritimes',         region: 'PACA',                     highlight: 'Riviera, 300 jours de soleil, aéroport international' },\n  { name: 'Metz',             slug: 'metz',             score: 6.4, dept: 'Moselle',                 region: 'Grand Est',                highlight: 'Centre Pompidou-Metz, cathédrale illuminée' },\n  { name: 'Chambéry',         slug: 'chambery',         score: 6.4, dept: 'Savoie',                  region: 'Auvergne-Rhône-Alpes',    highlight: 'carrefour alpin, lac du Bourget, Annecy et Lyon à 1 h' },\n  { name: 'Nancy',            slug: 'nancy',            score: 6.3, dept: 'Meurthe-et-Moselle',     region: 'Grand Est',                highlight: 'Place Stanislas UNESCO, art nouveau, université' },\n  { name: 'Nîmes',            slug: 'nimes',            score: 6.3, dept: 'Gard',                    region: 'Occitanie',                highlight: 'amphithéâtre romain, soleil méditerranéen, prix accessibles' },\n  { name: 'Angers',           slug: 'angers',           score: 6.3, dept: 'Maine-et-Loire',          region: 'Pays de la Loire',         highlight: 'Anjou, vignobles, château, Paris 1 h 20 TGV' },\n  { name: 'Dijon',            slug: 'dijon',            score: 6.2, dept: 'Côte-d\\'Or',              region: 'Bourgogne-Franche-Comté', highlight: 'capitale gastronomique, Côte de Nuits, art de vivre' },\n  { name: 'Toulon',           slug: 'toulon',           score: 6.2, dept: 'Var',                     region: 'PACA',                     highlight: 'mer à pied, soleil varois, alternative abordable à Nice' },\n  { name: 'Caen',             slug: 'caen',             score: 6.2, dept: 'Calvados',                region: 'Normandie',                highlight: 'université, mer à 15 min, prix attractifs, Paris 2 h' },\n  { name: 'Lorient',          slug: 'lorient',          score: 6.2, dept: 'Morbihan',                region: 'Bretagne',                 highlight: 'festival interceltique, rade magnifique, Bretagne abordable' },\n  { name: 'Clermont-Ferrand', slug: 'clermont-ferrand', score: 6.1, dept: 'Puy-de-Dôme',            region: 'Auvergne-Rhône-Alpes',    highlight: 'volcans à 10 min, hub industriel, nature immédiate' },\n  { name: 'Valence',          slug: 'valence',          score: 6.0, dept: 'Drôme',                   region: 'Auvergne-Rhône-Alpes',    highlight: 'soleil, Ardèche accessible, TGV Paris-Marseille' },\n  { name: 'Perpignan',        slug: 'perpignan',        score: 6.0, dept: 'Pyrénées-Orientales',     region: 'Occitanie',                highlight: 'ville la plus ensoleillée de France, mer, Espagne à 30 min' },\n  { name: 'Rouen',            slug: 'rouen',            score: 5.8, dept: 'Seine-Maritime',          region: 'Normandie',                highlight: 'Normandie historique, Paris 1 h 20, bords de Seine' },\n  { name: 'Poitiers',         slug: 'poitiers',         score: 5.8, dept: 'Vienne',                  region: 'Nouvelle-Aquitaine',       highlight: 'université médiévale, Futuroscope, accessibilité TGV' },\n  { name: 'Reims',            slug: 'reims',            score: 5.7, dept: 'Marne',                   region: 'Grand Est',                highlight: 'champagne, cathédrale UNESCO, Paris 45 min TGV' },\n  { name: 'Le Mans',          slug: 'le-mans',          score: 5.9, dept: 'Sarthe',                  region: 'Pays de la Loire',         highlight: 'Paris 55 min TGV, prix 30% sous Paris, qualité de vie' },\n  { name: 'Amiens',           slug: 'amiens',           score: 5.5, dept: 'Somme',                   region: 'Hauts-de-France',          highlight: 'cathédrale gothique, hortillonnages, Paris 1 h TGV' }\n];\n\nconst BASE_URL = 'https://mavilleideale.fr';\nconst today = new Date();\nconst dayOfYear = Math.floor((today - new Date(today.getFullYear(), 0, 0)) / 86400000);\nconst city = cities[dayOfYear % cities.length];\nconst cityUrl   = `${BASE_URL}/villes/${city.slug}`;\nconst ogImageUrl = `${BASE_URL}/villes/${city.slug}/opengraph-image`;\n\nconst tierEmoji  = city.score >= 7.5 ? '🏆' : city.score >= 7.0 ? '🌟' : city.score >= 6.0 ? '✅' : '📍';\nconst cityHashtag  = city.name.replace(/[\\s''\\-]/g, '');\nconst regionHashtag = city.region.replace(/[\\s\\-']/g, '').replace(/[^a-zA-Z0-9]/g, '');\n\nconst posts = {\n  facebook:\n    `${tierEmoji} Ville du jour : ${city.name}\\n\\n` +\n    `📊 Score MaVilleIdeale : ${city.score.toFixed(1)}/10\\n` +\n    `📍 ${city.dept} — ${city.region}\\n\\n` +\n    `${city.highlight}\\n\\n` +\n    `Classement 100 % données publiques : INSEE, SSMSI, observatoires des loyers. Sans bullshit.\\n\\n` +\n    `🔗 Analyse complète : ${cityUrl}\\n\\n` +\n    `#MaVilleIdeale #${cityHashtag} #France #Immobilier #Relocation #QualiteDeVie`,\n\n  threads:\n    `${tierEmoji} ${city.name} — score ${city.score.toFixed(1)}/10\\n\\n` +\n    `${city.highlight}\\n\\n` +\n    `Données : INSEE, SSMSI, loyers officiels. 352 villes analysées.\\n\\n` +\n    `➡️ ${cityUrl}`,\n\n  instagram:\n    `${tierEmoji} ${city.name} — score ${city.score.toFixed(1)}/10\\n\\n` +\n    `${city.highlight}\\n\\n` +\n    `352 villes françaises analysées sur 8 axes de qualité de vie.\\n` +\n    `Lien en bio 👇 mavilleideale.fr\\n\\n` +\n    `#MaVilleIdeale #${cityHashtag} #France #Immobilier #Relocation #QualiteDeVie #VillesFrance #Demenagement #${regionHashtag}`,\n\n  linkedin:\n    `Analyse : ${city.name} (${city.dept})\\n\\n` +\n    `Indice de qualité de vie MaVilleIdeale : ${city.score.toFixed(1)}/10\\n\\n` +\n    `Points forts : ${city.highlight}\\n\\n` +\n    `MaVilleIdeale classe 352 villes françaises sur 8 axes. Toutes les données sont publiques et vérifiables.\\n\\n` +\n    `📊 ${cityUrl}\\n\\n` +\n    `#Immobilier #Relocation #QualitéDeVie #Télétravail #France #${regionHashtag}`,\n\n  twitter:\n    `${tierEmoji} ${city.name} — ${city.score.toFixed(1)}/10\\n` +\n    `${city.highlight}\\n\\n` +\n    `352 villes · données INSEE/SSMSI\\n` +\n    `➡️ ${cityUrl}\\n#MaVilleIdeale #France`\n};\n\nreturn [{ json: { city, posts, cityUrl, ogImageUrl, generatedAt: today.toISOString() } }];"
       },
       "id": "aa000001-0000-0000-0000-000000000002",
       "name": "Générer le contenu",
@@ -44,7 +41,7 @@
       "name": "FB — Récupérer pages",
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.2,
-      "position": [620, 140]
+      "position": [620, 120]
     },
     {
       "parameters": {
@@ -54,7 +51,7 @@
       "name": "FB — Extraire page ID",
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
-      "position": [860, 140]
+      "position": [880, 120]
     },
     {
       "parameters": {
@@ -74,7 +71,75 @@
       "name": "Facebook — Publier",
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.2,
-      "position": [1100, 140]
+      "position": [1140, 40]
+    },
+    {
+      "parameters": {
+        "method": "GET",
+        "url": "=https://graph.facebook.com/v20.0/{{ $json.pageId }}",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            { "name": "fields",       "value": "instagram_business_account" },
+            { "name": "access_token", "value": "={{ $json.pageToken }}" }
+          ]
+        },
+        "options": {}
+      },
+      "id": "aa000001-0000-0000-0000-000000000006",
+      "name": "Instagram — Récupérer compte IG",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [1140, 220]
+    },
+    {
+      "parameters": {
+        "jsCode": "const resp = $input.first().json;\nif (!resp.instagram_business_account) throw new Error('Pas de compte Instagram Business lié à cette page Facebook.');\nconst igUserId   = resp.instagram_business_account.id;\nconst pageToken  = $('FB — Extraire page ID').first().json.pageToken;\nreturn [{ json: { igUserId, pageToken } }];"
+      },
+      "id": "aa000001-0000-0000-0000-000000000007",
+      "name": "Instagram — Extraire IG ID",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1380, 220]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "=https://graph.facebook.com/v20.0/{{ $json.igUserId }}/media",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            { "name": "image_url",    "value": "={{ $('Générer le contenu').first().json.ogImageUrl }}" },
+            { "name": "caption",      "value": "={{ $('Générer le contenu').first().json.posts.instagram }}" },
+            { "name": "access_token", "value": "={{ $json.pageToken }}" }
+          ]
+        },
+        "options": {}
+      },
+      "id": "aa000001-0000-0000-0000-000000000008",
+      "name": "Instagram — Créer conteneur",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [1380, 400]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "=https://graph.facebook.com/v20.0/{{ $('Instagram — Extraire IG ID').first().json.igUserId }}/media_publish",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            { "name": "creation_id",  "value": "={{ $json.id }}" },
+            { "name": "access_token", "value": "={{ $('Instagram — Extraire IG ID').first().json.pageToken }}" }
+          ]
+        },
+        "options": {}
+      },
+      "id": "aa000001-0000-0000-0000-000000000009",
+      "name": "Instagram — Publier",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [1620, 400]
     },
     {
       "parameters": {
@@ -90,28 +155,30 @@
         },
         "options": {}
       },
-      "id": "aa000001-0000-0000-0000-000000000006",
+      "id": "aa000001-0000-0000-0000-000000000010",
       "name": "Threads — Créer conteneur",
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.2,
-      "position": [620, 300]
+      "position": [620, 400]
     },
     {
       "parameters": {
         "method": "POST",
         "url": "=https://graph.threads.net/v1.0/{{ $env.THREADS_USER_ID }}/threads_publish",
         "sendQuery": true,
-        "queryParameters": [
-          { "name": "creation_id",  "value": "={{ $json.id }}" },
-          { "name": "access_token", "value": "={{ $env.FB_ACCESS_TOKEN }}" }
-        ],
+        "queryParameters": {
+          "parameters": [
+            { "name": "creation_id",  "value": "={{ $json.id }}" },
+            { "name": "access_token", "value": "={{ $env.FB_ACCESS_TOKEN }}" }
+          ]
+        },
         "options": {}
       },
-      "id": "aa000001-0000-0000-0000-000000000007",
+      "id": "aa000001-0000-0000-0000-000000000011",
       "name": "Threads — Publier",
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.2,
-      "position": [860, 300]
+      "position": [880, 400]
     },
     {
       "parameters": {
@@ -130,13 +197,12 @@
         "jsonBody": "={{ JSON.stringify({ author: 'urn:li:person:' + $env.LI_PERSON_URN, lifecycleState: 'PUBLISHED', specificContent: { 'com.linkedin.ugc.ShareContent': { shareCommentary: { text: $('Générer le contenu').first().json.posts.linkedin }, shareMediaCategory: 'NONE' } }, visibility: { 'com.linkedin.ugc.MemberNetworkVisibility': 'PUBLIC' } }) }}",
         "options": {}
       },
-      "id": "aa000001-0000-0000-0000-000000000008",
+      "id": "aa000001-0000-0000-0000-000000000012",
       "name": "LinkedIn — Publier",
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.2,
-      "position": [620, 460],
-      "disabled": true,
-      "notes": "DÉSACTIVÉ — compléter OAuth LinkedIn d'abord. Voir README."
+      "position": [620, 580],
+      "disabled": true
     },
     {
       "parameters": {
@@ -154,13 +220,12 @@
         "jsonBody": "={{ JSON.stringify({ text: $('Générer le contenu').first().json.posts.twitter }) }}",
         "options": {}
       },
-      "id": "aa000001-0000-0000-0000-000000000009",
+      "id": "aa000001-0000-0000-0000-000000000013",
       "name": "Twitter/X — Publier",
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.2,
-      "position": [620, 600],
-      "disabled": true,
-      "notes": "DÉSACTIVÉ — compléter OAuth Twitter d'abord. Voir README."
+      "position": [620, 720],
+      "disabled": true
     }
   ],
   "connections": {
@@ -169,17 +234,29 @@
     },
     "Générer le contenu": {
       "main": [[
-        { "node": "FB — Récupérer pages",       "type": "main", "index": 0 },
-        { "node": "Threads — Créer conteneur",  "type": "main", "index": 0 },
-        { "node": "LinkedIn — Publier",         "type": "main", "index": 0 },
-        { "node": "Twitter/X — Publier",        "type": "main", "index": 0 }
+        { "node": "FB — Récupérer pages",      "type": "main", "index": 0 },
+        { "node": "Threads — Créer conteneur", "type": "main", "index": 0 },
+        { "node": "LinkedIn — Publier",        "type": "main", "index": 0 },
+        { "node": "Twitter/X — Publier",       "type": "main", "index": 0 }
       ]]
     },
     "FB — Récupérer pages": {
       "main": [[{ "node": "FB — Extraire page ID", "type": "main", "index": 0 }]]
     },
     "FB — Extraire page ID": {
-      "main": [[{ "node": "Facebook — Publier", "type": "main", "index": 0 }]]
+      "main": [[
+        { "node": "Facebook — Publier",                "type": "main", "index": 0 },
+        { "node": "Instagram — Récupérer compte IG",   "type": "main", "index": 0 }
+      ]]
+    },
+    "Instagram — Récupérer compte IG": {
+      "main": [[{ "node": "Instagram — Extraire IG ID", "type": "main", "index": 0 }]]
+    },
+    "Instagram — Extraire IG ID": {
+      "main": [[{ "node": "Instagram — Créer conteneur", "type": "main", "index": 0 }]]
+    },
+    "Instagram — Créer conteneur": {
+      "main": [[{ "node": "Instagram — Publier", "type": "main", "index": 0 }]]
     },
     "Threads — Créer conteneur": {
       "main": [[{ "node": "Threads — Publier", "type": "main", "index": 0 }]]
