@@ -10,7 +10,7 @@ export interface EnGuide {
   title: string;
   metaTitle: string;
   metaDesc: string;
-  category: "moving" | "remote-work" | "family" | "budget" | "lifestyle";
+  category: "moving" | "remote-work" | "family" | "budget" | "lifestyle" | "city-guide";
   emoji: string;
   readMinutes: number;
   publishedAt: string;
@@ -27,6 +27,7 @@ export const EN_GUIDE_CATEGORIES: Record<EnGuide["category"], string> = {
   family: "Family",
   budget: "Budget",
   lifestyle: "Lifestyle",
+  "city-guide": "City guide",
 };
 
 export const EN_GUIDES: EnGuide[] = [
@@ -2433,6 +2434,310 @@ export const EN_GUIDES: EnGuide[] = [
     ],
     relatedCities: ["paris", "lyon", "bordeaux", "nantes", "montpellier"],
     tags: ["french schools", "expat education", "baccalauréat", "international schools", "children"],
+  },
+  {
+    slug: "strasbourg-living-guide-2026",
+    title: "Living in Strasbourg: Europe's crossroads city",
+    metaTitle: "Living in Strasbourg 2026 — Expat and Relocation Guide",
+    metaDesc:
+      "Strasbourg is France's most distinctly European city — half French, half German in feel, with EU institutions, good salaries, and quality of life that punches well above its size.",
+    category: "city-guide",
+    emoji: "🏛️",
+    readMinutes: 7,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Strasbourg sits on the Rhine, facing Germany, and is simultaneously the seat of the European Parliament, the Council of Europe, and the European Court of Human Rights. That institutional concentration shapes the city profoundly: it attracts well-educated international residents, supports a bilingual culture (French-German is common, English is widely understood in institutional circles), and brings economic stability that most French cities of 300,000 people don't enjoy. It's also one of the best-preserved medieval city centres in Europe, with a UNESCO-listed Grande Île that you can cross by bicycle in ten minutes.",
+    sections: [
+      {
+        heading: "The economic base: EU institutions and the Rhineland industry",
+        body: "Strasbourg's economy is anchored by the EU institutions (about 10,000 civil servants and support staff) and by the cross-border Rhineland industrial zone that extends into Germany. The Port of Strasbourg is the second-largest river port in France. The University of Strasbourg (50,000 students, three Nobel laureates on faculty) drives research employment. Salaries in the institutional sector are high and tax-exempt (EU civil servants pay a separate EU tax, not French income tax). For the private sector, proximity to Germany — where wages in Baden-Württemberg are among Europe's highest — creates upward pressure on salaries compared to equivalent French cities.",
+      },
+      {
+        heading: "Neighbourhoods: where to live",
+        body: "The Grande Île (city island) is the historic centre — beautiful, walkable, expensive, tourist-heavy. Professionals tend to live in Neudorf (young, diverse, good transport), Robertsau (green, quiet, popular with EU families), Cronenbourg and Hautepierre (affordable, urban, less scenic), Lingolsheim and Ostwald (suburban, good value, car-needed). Krutenau is the student quarter — lively, central, dense. The Orangerie park neighbourhood, near the EU institutions, is where senior EU officials and diplomats tend to rent: expensive, spacious, very international.",
+      },
+      {
+        heading: "Cross-border life: the Germany factor",
+        body: "The German city of Kehl is a 10-minute tram ride across the Rhine. Many Strasbourg residents shop in Germany for some goods (notably petrol, electronics, some food categories), access German healthcare for certain specialist care (mutual recognition of EU health cards), and commute the other way — German workers commuting into Strasbourg. If you work for the EU institutions, German colleagues may live 20 minutes away in Freiburg. This cross-border dimension is real and affects daily life in ways that residents in Paris, Lyon, or Marseille don't experience.",
+      },
+      {
+        heading: "Cost of living and housing",
+        body: "Strasbourg is more expensive than the French average but cheaper than Paris, Lyon, or Nice. Average T2 rents: €700–900/month in central areas, €550–700 in outer neighbourhoods. Property purchase prices average €3,200–3,800/m² for the city; the Grande Île can reach €5,000/m². The EU institutional presence creates a two-speed rental market: properties near the Orangerie park command premiums from EU tenant demand. Groceries are roughly average French prices; dining out is slightly cheaper than Lyon or Paris. The proximity to Germany makes some cross-border shopping economically rational.",
+      },
+      {
+        heading: "Quality of life: what's genuinely good",
+        body: "Strasbourg has the best cycling infrastructure of any large French city outside Paris — 600km of bike lanes, a flat terrain, and a culture of cycling that means a bicycle is a practical primary vehicle. The tram network (7 lines, 70km) is fast and reliable. The Alsatian food culture — choucroute, tarte flambée, Riesling, Gewurztraminer, kougelhopf — is real and present in everyday restaurants, not just tourist traps. The Christmas market (mid-November to December) is Europe's oldest and largest; accept that the city becomes very crowded for six weeks. The Vosges mountains are 40 minutes away; Germany's Black Forest is 50 minutes.",
+      },
+    ],
+    relatedCities: ["strasbourg", "mulhouse", "colmar", "metz", "nancy"],
+    tags: ["strasbourg", "alsace", "EU institutions", "expat", "european city"],
+  },
+  {
+    slug: "la-rochelle-living-guide-2026",
+    title: "Living in La Rochelle: the Atlantic city that gets almost everything right",
+    metaTitle: "Living in La Rochelle 2026 — Relocation and Expat Guide",
+    metaDesc:
+      "La Rochelle combines Atlantic coast access, an excellent quality of life, strong cycling infrastructure, and a diverse economy — with none of the overcrowding of Bordeaux. The honest case for and against.",
+    category: "city-guide",
+    emoji: "⚓",
+    readMinutes: 6,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "La Rochelle consistently ranks among France's top quality-of-life cities, and the ranking is earned rather than manufactured. It has more sunshine than Bordeaux, a historic port that hasn't been sold entirely to tourists, strong cycling infrastructure (it pioneered the vélo libre system in France in 1976), a university, and a compact size — 85,000 people — that means you can know your neighbourhood. The honest counter: salaries are moderate, the job market is narrow outside tourism and logistics, and property prices have risen sharply as remote workers discovered it post-2020.",
+    sections: [
+      {
+        heading: "The economy: modest salaries, strong quality of life",
+        body: "La Rochelle's economy runs on port and maritime logistics, tourism, the University of La Rochelle (10,000 students), healthcare, and a growing digital economy. The salary levels are lower than Bordeaux, Nantes, or Lyon — roughly 10-15% below comparable positions in those cities. For remote workers earning Paris-level salaries, this is irrelevant; for job-seekers, it matters. The port is one of France's busiest for bulk goods and is expanding its renewable energy logistics capacity (wind turbine components). Tourism provides summer employment but is seasonal. For professionals in finance, consulting, tech, or law, the options are genuinely limited; most serious career moves involve commuting to Bordeaux (2 hours by TGV) or Paris (3 hours).",
+      },
+      {
+        heading: "Housing: good value, but the gap with Paris is narrowing",
+        body: "La Rochelle's housing market was genuinely affordable until about 2019. The remote work wave of 2020-2022 brought significant price pressure: central properties now average €3,500-4,500/m², with the historic centre and waterfront reaching €5,500/m². T2 rents in good neighbourhoods: €700-900/month. By French Atlantic coast standards this remains reasonable (Bordeaux is considerably more expensive), but it's no longer cheap. The island of Île de Ré, visible from the mainland, is extremely expensive (€7,000-12,000/m²) and counts as a separate market. Areas like Laleu-la-Pallice offer genuine affordability with tram access to the centre.",
+      },
+      {
+        heading: "Climate: Atlantic, with genuine sunshine",
+        body: "La Rochelle's climate is temperate Atlantic but on the sunnier end of that spectrum — around 2,200 hours of sunshine per year, more than Nantes and comparable to northern Bordeaux. Winters are mild (rarely below 2°C), springs arrive early, summers are warm but rarely extreme (compared to the Mediterranean or the Garonne corridor). The Atlantic brings wind year-round; the coast can be very exposed in winter. Summer heat waves are shorter and cooler than inland equivalents. For northern Europeans accustomed to more sun, this is a significant lifestyle upgrade; for those expecting Mediterranean conditions, it's an honest middle ground.",
+      },
+      {
+        heading: "Getting around: cycling works here",
+        body: "La Rochelle's cycling infrastructure is among France's best in proportion to city size. The réseau Yélo (formerly La Rochelle Vélos) provides bike sharing, with 28km of dedicated lanes in the city. The flat terrain means cycling is practical for most trips. The public transport network (Yélo buses and trams) covers the city reasonably. For regional travel: Bordeaux is 2h by TGV, Paris 3h15. Nantes is 2h by TGV. The airport (La Rochelle-Île de Ré) has seasonal direct flights to UK airports (particularly popular), some Dutch and German connections; it's not a hub. For regular travel to Paris, the TGV is faster and more reliable.",
+      },
+      {
+        heading: "What works and what doesn't",
+        body: "La Rochelle genuinely works for: remote workers who want an Atlantic coastal lifestyle without Bordeaux prices, families who want good schools and outdoor access, retirees with sufficient income, and people who value a human-scale city. It works less well for: career-driven professionals in competitive sectors who need a dense job market, people who need a major international airport, and anyone who finds a compact city too small after a few years. The social environment is notably relaxed and welcoming compared to Paris equivalents. The summer tourist season transforms the historic centre — it becomes very crowded from July to August, which residents handle by avoiding certain areas.",
+      },
+    ],
+    relatedCities: ["la-rochelle", "rochefort", "saintes", "niort", "bordeaux"],
+    tags: ["la rochelle", "atlantic coast", "charente-maritime", "relocation", "quality of life"],
+  },
+  {
+    slug: "brest-living-guide-2026",
+    title: "Living in Brest: France's western outpost, honestly assessed",
+    metaTitle: "Living in Brest 2026 — Honest Relocation Guide",
+    metaDesc:
+      "Brest has one of France's best natural harbours, a strong naval and research economy, and housing prices that seem implausibly cheap by French standards. The weather requires managing expectations.",
+    category: "city-guide",
+    emoji: "⚓",
+    readMinutes: 6,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Brest gets a mixed reputation in France, often reduced to 'the city that rains every day.' The weather is real but overstated — Brest gets around 1,100mm of rain per year, distributed across many days, but it's rarely cold and the Atlantic means mild, green winters. What the reputation obscures: Brest has a strong public-sector economy (French Navy, Ifremer, Télécom Bretagne), housing prices that make Paris residents audibly gasp, a lively student population (30,000 at the University of Western Brittany), and the kind of dramatic Atlantic seascape that people pay holiday premiums for elsewhere.",
+    sections: [
+      {
+        heading: "Economy: navy, research, and public sector dominance",
+        body: "Brest's economic anchor is the French Navy (Marine Nationale), whose main Atlantic base is here. The naval presence brings thousands of direct employees and an ecosystem of defence industry contractors. Ifremer, France's ocean research institute, has its major facility in Brest, alongside the European Institute for Marine Studies. Télécom Bretagne (now IMT Atlantique) is a leading engineering school. The University of Western Brittany (UBO, 22,000 students) adds academic employment. For the private sector, Brest has a manufacturing base (Thales, Naval Group, Damen shipyard) and a growing digital tech sector. The public-sector weighting means employment is stable — recession-resistant in ways that more tourism or finance-dependent cities aren't.",
+      },
+      {
+        heading: "Housing: genuinely affordable, no caveats",
+        body: "Brest's housing market is one of France's genuinely affordable urban markets. Property prices average €1,600-2,200/m² for the city — roughly one-third the price of Nantes, one-fifth of Paris. T2 rents: €500-650/month in good neighbourhoods. A 3-bedroom flat in a decent area: €800-950/month. You can buy a city-centre apartment of 70m² for €130,000-160,000. These are not mistake numbers — Brest's real estate has been slow to catch the post-2020 remote work premium because the weather reputation put off some potential buyers. For buyers relocating on regional or national salaries, this creates genuine purchasing power.",
+      },
+      {
+        heading: "The weather question: what it's actually like",
+        body: "Brest averages around 185 rainy days per year — more than almost any other French city. But 'rainy days' includes light drizzle, and the rain is frequently horizontal (it's Atlantic, not monsoon). Average temperatures: 7°C in January, 18°C in August. Frost is rare (5-10 days per year on average). Snow is unusual. The Atlantic keeps temperatures mild year-round — Brest is never brutally cold or brutally hot. The sunshine deficit is real: around 1,700 hours per year versus 2,600 in Bordeaux or 2,800 in Montpellier. The population adapts: outdoor culture, waterproofs as standard clothing, appreciation for those 3-4 weeks per summer when the weather is genuinely spectacular.",
+      },
+      {
+        heading: "Quality of life: what residents value",
+        body: "The Presqu'île de Crozon, Finistère coast, Armorique Regional Park, and Île d'Ouessant are within an hour's drive. The Rade de Brest — one of the world's finest natural harbours — is accessible from the city. Weekend outdoor access is exceptional by any French urban standard. The Tanguy food market (Saturday morning, covered, central) is one of Brittany's best. The tramway links the main neighbourhoods efficiently. The Penfeld river valley cuts through the city and offers unusual green space. The social atmosphere in Brest is notably unpretentious — Brest was destroyed in WWII and rebuilt in the 1950s-60s, which gives it a matter-of-fact character that long-term residents tend to appreciate.",
+      },
+      {
+        heading: "Getting to Brest and out of it",
+        body: "Brest is geographically distant from the rest of France: Paris by TGV is 3h30 (the TGV Bretagne-Pays de la Loire cut this from 4h15), Rennes is 1h20. The Brest Bretagne Airport has direct flights to Paris CDG (Air France, multiple daily), Paris Orly, Amsterdam, Dublin, and seasonal Mediterranean destinations. For commuting to Paris weekly, it's manageable. For daily commuting, it isn't. Internet quality in Brest (fibre penetration, speeds) is high by French standards — which matters for remote workers. The city has invested seriously in digital infrastructure, partly as a strategic response to its geographic peripherality.",
+      },
+    ],
+    relatedCities: ["brest", "quimper", "morlaix", "rennes", "lorient"],
+    tags: ["brest", "brittany", "finistère", "cheap housing", "atlantic coast"],
+  },
+  {
+    slug: "leaving-bordeaux-where-to-go-2026",
+    title: "Leaving Bordeaux: where to go and why",
+    metaTitle: "Leaving Bordeaux 2026 — Best Alternatives After Bordeaux",
+    metaDesc:
+      "Bordeaux's property market has repriced dramatically since 2016. If you're considering leaving, here are the data-backed alternatives sorted by profile — and what you actually give up by going.",
+    category: "city-guide",
+    emoji: "🍷",
+    readMinutes: 7,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Bordeaux's transformation since the LGV high-speed line reached it in 2017 is one of France's sharper urban property stories: what was a pleasant, affordable Atlantic city became one of France's most expensive outside Paris and Lyon. Rents and purchase prices roughly doubled in a decade. The people who left were largely replaced by Parisian arrivals willing to pay Paris-adjacent prices for a better climate. If you're in Bordeaux and considering a move, the honest question is: what did you come here for, and can you find it somewhere cheaper?",
+    sections: [
+      {
+        heading: "If you came for the Atlantic coast and the wine",
+        body: "The Atlantic coast doesn't begin and end at Bordeaux. La Rochelle, 2h north by TGV, has comparable sunshine, a better cycling culture, a beautiful historic port, and property prices 30-40% lower. Bayonne and Biarritz offer the coast plus the Basque identity and surf culture — though Biarritz has become expensive in its own right. Arcachon (40 minutes from Bordeaux) is the local escape valve for coast access, but property there is now extremely expensive. For the wine specifically: you live surrounded by vineyards in Bordeaux, but you can access the Bordeaux appellation from any of these cities without living there. The vineyards won't relocate.",
+      },
+      {
+        heading: "If you came for the quality of life and the food",
+        body: "Bordeaux's food culture is real and improving. But Nantes, 2h north, has a comparable and in some respects superior food and cultural offer, with a more diverse economy and similar access to the Atlantic. Toulouse, 2h15 east, is warmer, has a larger tech job market, and is cheaper to buy property. Lyon, 2h north-east by TGV, is France's gastronomic capital by most measures and has a stronger cultural offer than Bordeaux — with considerably higher salaries to offset higher rents. The quality-of-life argument for staying in Bordeaux is real but not unique.",
+      },
+      {
+        heading: "If you're a remote worker priced out of Bordeaux",
+        body: "The prime remote-work target if you're leaving Bordeaux is the Charente-Maritime — towns like Saintes, Rochefort, and Cognac within 1h30 of Bordeaux by car or train. Property prices are half Bordeaux's; the climate is similar; the region is genuinely pleasant without being a tourist destination. Alternatively, the Lot-et-Garonne (Agen, Villeneuve-sur-Lot) and the Dordogne (Périgueux, Bergerac) offer rural-ish quality of life at a fraction of the cost. If remote work and broadband are your constraints, almost any of these are viable; the question is social infrastructure (healthcare, schools, cultural options) which scales with city size.",
+      },
+      {
+        heading: "The Pau and Bayonne question",
+        body: "Pau and Bayonne are Bordeaux's most natural southern alternatives. Pau (100km south) has the Pyrenees visible from the Boulevard des Pyrénées, a smaller university economy, and housing at roughly 40% of Bordeaux prices. Bayonne is the functional city of the Pays Basque (Biarritz is the resort, Bayonne is where people live and work) — train access to Bordeaux in 1h30 by TGV, a strong local identity, better weather than Bordeaux, and housing still 20-30% cheaper than Bordeaux though rising. San Sebastián is 50 minutes by road from Bayonne — which is not a standard French urban perk.",
+      },
+      {
+        heading: "What you actually give up",
+        body: "Bordeaux's LGV to Paris (2h05) is a genuine structural advantage that its alternatives mostly lack. La Rochelle is 3h15 to Paris, Bayonne is 2h10 (competitive but less frequent), Toulouse is 4h15 (TGV via Bordeaux until the new LGV Toulouse completes, expected around 2030). If your life involves regular Paris access — clients, office, family — Bordeaux's train connection is a real differentiator. The city is also large enough (more than 500,000 in the metro area) to support a diverse professional services economy, specialist healthcare, good schools, cultural venues. Smaller cities are not equivalent substitutes on these dimensions.",
+      },
+    ],
+    relatedCities: ["bordeaux", "bayonne", "la-rochelle", "nantes", "toulouse"],
+    tags: ["leaving bordeaux", "bordeaux alternatives", "atlantic coast", "relocation", "bordeaux property"],
+  },
+  {
+    slug: "france-vs-portugal-where-to-live-2026",
+    title: "France vs Portugal: an honest comparison for expats deciding between the two",
+    metaTitle: "France vs Portugal 2026 — Which Country Should You Move To?",
+    metaDesc:
+      "Both are popular expat destinations. Portugal has better weather and simpler bureaucracy; France has better infrastructure and a more diverse economy. The data on what actually differs.",
+    category: "moving",
+    emoji: "🌍",
+    readMinutes: 8,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "France and Portugal compete for the same pool of Northern European and North American expats — people looking for a European lifestyle upgrade, better weather, lower property costs relative to major cities in their home country, and a healthcare system that works. They make the comparison at face value because both are Schengen EU members with romantic languages and good food. But they differ significantly on the dimensions that matter most to a long-term resident. This is an honest comparison, not a PR document for either country.",
+    sections: [
+      {
+        heading: "Cost of living: Portugal is still cheaper, but the gap has narrowed",
+        body: "Portugal's cost of living advantage over France has compressed significantly since 2019. Lisbon is now comparable to Lyon and more expensive than many French regional cities. Porto is roughly comparable to Bordeaux. But rural and secondary Portuguese cities (Coimbra, Braga, Évora, Alentejo) remain markedly cheaper than French equivalents. The key divergence: housing. Lisbon average property prices now exceed €4,000/m²; Porto is €2,800-3,200/m². Against this: Lyon is €4,200/m², Bordeaux is €4,000/m², Nantes is €3,800/m². Nice and Paris are both higher. Toulouse, Rennes, Montpellier are €3,000-3,500/m². The narrative that Portugal is dramatically cheaper than France is no longer accurate for city-dwellers — it depends sharply on which cities you compare.",
+      },
+      {
+        heading: "Climate: Portugal wins in the south",
+        body: "This is the clearest advantage Portugal holds. Lisbon and Porto average 2,700-2,800 sunshine hours per year. The Algarve reaches 3,000+ hours. In France, only the Côte d'Azur and parts of Provence (2,700-2,900 hours) match this, and those areas are expensive. Paris gets 1,800 hours, Lyon 2,000, Bordeaux 2,100. For sunshine specifically, southern Portugal outperforms most of France — and the Atlantic keeps temperatures mild, without the summer brutality of southern Spain. If winter sunshine and mild temperatures are your primary driver, Portugal has a structural advantage over most French cities.",
+      },
+      {
+        heading: "Healthcare: France has a stronger national system",
+        body: "France's Assurance Maladie is one of the world's best-regarded public health systems — specialist access is faster, hospital infrastructure is denser, and the reimbursement model is more comprehensive than Portugal's SNS (Serviço Nacional de Saúde). This is not an opinion but a reflected in international healthcare rankings: France consistently outperforms Portugal on wait times and specialist availability. For expats: accessing the French system requires PUMA affiliation (3+ months of legal residence); Portugal's SNS is accessible to legal residents but private insurance remains common because the public system can have significant wait times for specialist care. For serious healthcare consumers, France's system is the stronger argument.",
+      },
+      {
+        heading: "Infrastructure and transport: France at a different level",
+        body: "France's rail network (TGV) has no Portuguese equivalent. Lisbon to Porto by train is 2h50 — comparable to Paris to Bordeaux, but the frequency and network density are incomparable. France's motorway system, broadband penetration, and logistics infrastructure reflect the infrastructure investment of a €3 trillion economy. Portugal's infrastructure is good for its size and income level, but the comparison is between a €260 billion economy and a €3 trillion one. For day-to-day life within a major city this doesn't matter much; for accessing a country's breadth, it does.",
+      },
+      {
+        heading: "Bureaucracy and language: Portugal is easier for Anglophones",
+        body: "English penetration in Portugal — particularly among the under-40 population, in Lisbon, Porto, and tourist areas — is notably higher than in France. You can realistically navigate daily life in Portugal with English for considerably longer than in France. French bureaucracy (préfecture, CAF, Assurance Maladie, tax administration) is genuinely complex and often poorly translated; it requires either French language ability or professional help. The Portuguese NHR (Non-Habitual Resident) tax regime — historically a major draw for high earners — was significantly reformed in 2024, reducing its attractiveness for new arrivals. France has no equivalent preferential tax regime for new residents (unlike the Italian flat-tax, Spanish Beckham law, or Portugal NHR).",
+      },
+    ],
+    relatedCities: ["paris", "lyon", "bordeaux", "nice", "montpellier"],
+    tags: ["france vs portugal", "expat comparison", "where to move in europe", "portugal expat", "france expat"],
+  },
+  {
+    slug: "best-french-mountain-towns-live-work-2026",
+    title: "The best French mountain towns to live and work in 2026",
+    metaTitle: "Best French Mountain Towns to Live In 2026 — Beyond the Ski Resort",
+    metaDesc:
+      "Annecy, Grenoble, Chambéry, Briançon, Gap, Moûtiers — which French mountain towns work for year-round living, remote work, and long-term relocation, beyond the ski season.",
+    category: "lifestyle",
+    emoji: "⛰️",
+    readMinutes: 7,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "The French mountain towns that get discussed most for relocation fall into two categories: the genuinely liveable year-round cities with mountain access (Grenoble, Annecy, Chambéry), and the smaller towns that are lovely in winter but thin on urban infrastructure the rest of the year (most ski resorts). This guide focuses on the former — places where you can build a life, not just a ski season.",
+    sections: [
+      {
+        heading: "Grenoble: the mountain city with a real economy",
+        body: "Grenoble is France's most significant mountain city in economic terms — a hub for semiconductor manufacturing (STMicroelectronics, Soitec, Schneider Electric), nuclear research (CEA Grenoble, EDF), and one of France's leading universities for science and technology. The Chartreuse, Belledonne, and Vercors massifs are visible from the city centre; ski areas are 45-90 minutes away. Average property prices: €2,800-3,200/m². The city has a well-documented air quality problem in winter (bowl geography traps pollution) and a significant urban crime concentration in certain districts (the Villeneuve / Village Olympique area). These are not deal-breakers but require eyes-open awareness. For those who want a serious professional environment with mountain access, Grenoble has few European equivalents.",
+      },
+      {
+        heading: "Annecy: beautiful but expensive, and increasingly crowded",
+        body: "Annecy's reputation has globalised — it appears regularly in 'most beautiful cities in Europe' lists, and the property market reflects this. Average prices are now €4,500-5,500/m² for the lake-facing areas, €3,500-4,200/m² for less scenic parts. T2 rents: €800-1,100/month. The lake creates a micro-climate with more sunshine than inland equivalents. The economy is productive — Annecy has a significant concentration of medical device, precision mechanics, and plastics-processing industry. But the city is victim of its own reputation: the historic centre is heavily tourist-pressured, accommodation costs are high, and the social environment in the most desirable areas can feel like a luxury resort rather than an urban community.",
+      },
+      {
+        heading: "Chambéry: the underrated option",
+        body: "Chambéry is what Annecy was 20 years ago — genuinely pleasant, smaller (60,000 people), with excellent mountain access (it's the gateway to the Tarentaise valley and several major ski areas including the Trois Vallées via Moûtiers), reasonable property prices (€2,400-3,000/m²), and a relaxed quality of life. Geneva is 1h15 by road, Lyon is 1h by TGV. The economy is smaller than Grenoble or Annecy, which limits professional options in the private sector. But as a base for remote workers or those willing to commute to Lyon or Geneva, it's hard to fault at its price point. The old town (Vieille Ville) is handsome without being overwhelming.",
+      },
+      {
+        heading: "Gap and Briançon: further up, thinner infrastructure",
+        body: "Gap (40,000 people, 735m altitude) is the capital of the Hautes-Alpes and offers the purest mountain-town experience below the alpine resort level. Property prices are €1,600-2,200/m² — the cheapest of any mountain city in France. The Écrins National Park begins nearby. The trade-off: the job market is thin, specialist healthcare requires a drive to Grenoble (1h30), and winter can bring significant snowfall and road closures. Briançon (12,000 people, 1,326m altitude) is Europe's highest city — genuinely alpine, with a UNESCO-listed Vauban citadel. Beautiful for mountain-focused living; not a career destination. Both suit people with established remote income or pensions rather than job-seekers.",
+      },
+      {
+        heading: "What to watch for: the ski resort trap",
+        body: "Many French mountain towns are actually ski resorts that hollow out in spring and summer — Val d'Isère, Courchevel, Méribel, Morzine. These are fine for winter seasons but thin on year-round services, schools, and social infrastructure. A resort town of 2,000 people with 80% of its economy in three winter months is not a city in the sense of year-round liveability. The test: what's the school situation, what are the September jobs, what's the healthcare access? If the answers are 'limited, seasonal, and 45 minutes away,' factor that in honestly before committing to a property purchase.",
+      },
+    ],
+    relatedCities: ["grenoble", "annecy", "chambery", "briançon", "gap"],
+    tags: ["mountain towns france", "alpes", "annecy", "grenoble", "mountain living"],
+  },
+  {
+    slug: "france-work-permit-guide-2026",
+    title: "Working in France: visa and work permit options for non-EU nationals",
+    metaTitle: "France Work Visa and Work Permit Guide 2026 — Non-EU Nationals",
+    metaDesc:
+      "Talent passport, salarié visa, entrepreneur routes, freelance options — the actual French visa routes for working in France, what they require, and what the process looks like.",
+    category: "moving",
+    emoji: "📋",
+    readMinutes: 8,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Working legally in France as a non-EU national requires a work authorisation. France does not have a simple points-based system like Canada or Australia; the process goes through the préfecture and, for employer-sponsored routes, the Ministère du Travail. The routes available depend on your nationality, your employer's situation, and your income. This is a practical overview — it will reduce confusion but not replace formal advice for your specific situation.",
+    sections: [
+      {
+        heading: "The employer-sponsored route: visa salarié",
+        body: "The standard route for employed work is the visa long séjour mention travailleur temporaire or mention salarié. Your French employer applies to the Direccte (Direction régionale de l'économie, de l'emploi, du travail et des solidarités) for a work authorisation before you apply for the visa. The employer must generally demonstrate that no equivalent EU/EEA candidate was available — though some sectors (tech, healthcare, engineering) have simplified procedures. Processing time: 4-8 weeks for the work authorisation, then visa processing. Once you have a job offer, the most time-sensitive thing is getting the authorisation started; don't wait until a start date is confirmed.",
+      },
+      {
+        heading: "The talent passport (Passeport Talent)",
+        body: "France's Passeport Talent is a 4-year renewable residence permit for skilled professionals. It covers several categories: employees with a salary above 1.5× SMIC (about €2,700/month gross in 2026) in a job requiring at least a master's degree equivalent; researchers and scientists; artists and cultural professionals with a significant contract; investors (€300,000 in capital); highly qualified employees under the EU Blue Card (€53,836/year gross minimum in 2026). The key advantage: it's a combined work + residence permit, no separate work authorisation needed, and it's renewable and can lead to permanent residence. It's the route to aim for if your profile qualifies — process through the French consulate before entry.",
+      },
+      {
+        heading: "Self-employment and freelance: the auto-entrepreneur route",
+        body: "France's auto-entrepreneur (micro-entrepreneur) system allows simplified self-employment registration — you can register online in under a day. For non-EU nationals, working as a micro-entrepreneur requires either an existing long-stay visa with work authorisation, a talent passport, or, for EU nationals, freedom of movement. You cannot arrive in France, register as an auto-entrepreneur, and work immediately as a third-country national — you need an existing valid immigration status. Once you have appropriate residency, the auto-entrepreneur registration itself is genuinely simple. The tax regime (flat charges on turnover, not profit) is attractive for early-stage or part-time freelance work; it's less efficient as turnover grows.",
+      },
+      {
+        heading: "The Visiteur visa: living in France without working for French employers",
+        body: "The Visiteur visa allows long-term residence in France without authorisation to work for French employers. It's designed for people with sufficient independent income: retirees, people with investment income, those working for non-French employers (some remote workers use this route — but only if your employment contract is with an overseas employer and you do not serve French clients or operate in the French market). Processing: sufficient income proof (roughly €1,500/month net per person, or more for the Paris region and dependents), health insurance, and accommodation proof. Renewable annually. Does not lead directly to permanent residence in the same way employment routes do.",
+      },
+      {
+        heading: "After your first 5 years: permanent residence and naturalisation",
+        body: "After 5 years of continuous regular residence in France, non-EU nationals can apply for a Carte de Résident (10-year renewable, permanent residence equivalent). The requirements include demonstrated French language ability (A2 minimum for the carte de résident), proof of integration into French society, and absence of serious criminal record. French naturalisation is available after 5 years of residence (reduced to 2 years if you hold a French degree). The naturalisation process requires B1 French language level, attendance at a civic interview, and typically a file compiled over several months. France has one of Europe's more accessible naturalisation routes for long-term legal residents.",
+      },
+    ],
+    relatedCities: ["paris", "lyon", "bordeaux", "nantes", "strasbourg"],
+    tags: ["france work visa", "working in france", "passeport talent", "non-EU", "immigration france"],
+  },
+  {
+    slug: "nantes-living-guide-2026",
+    title: "Living in Nantes: France's most liveable large city, examined",
+    metaTitle: "Living in Nantes 2026 — Honest Relocation and Expat Guide",
+    metaDesc:
+      "Nantes regularly tops French quality-of-life surveys. The reasons are real: diverse economy, strong public transport, Atlantic access, affordable housing by French metro standards. The honest caveats too.",
+    category: "city-guide",
+    emoji: "🚀",
+    readMinutes: 7,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Nantes finishes near the top of most French quality-of-life indices, and unlike some cities in those rankings, the score holds up under scrutiny. It has a diversified economy that isn't dependent on a single employer or sector, a tram system that is both extensive and reliable, an Atlantic coast 50km away, and a cultural life (Les Machines de l'Île, the Voyage à Nantes festival) that punches above its 300,000-person weight class. The honest version also: it rains. Atlantic weather is not Mediterranean weather, and that is not a minor detail.",
+    sections: [
+      {
+        heading: "Economy: more diversified than most",
+        body: "Nantes' economic base is unusually broad for a French regional city: Airbus and its aerospace supply chain, the naval shipbuilder Chantiers de l'Atlantique (Saint-Nazaire, 50km north), a growing digital and startup sector (Nantes is consistently in the top 3 French cities for tech employment outside Paris), a large healthcare and pharmaceutical cluster, and a port logistics operation. The University of Nantes and the Centrale Nantes engineering school supply technical graduates. Unemployment is below the French average; wages are better than the Atlantic average though below Lyon or Paris. For professionals in tech, engineering, life sciences, or logistics, Nantes has genuine depth.",
+      },
+      {
+        heading: "Transport and getting around",
+        body: "Nantes' tram network (3 main lines, 45km) is one of France's best in proportion to city size, running fast and frequently. The bus (Chronobus) fills the gaps. Cycling infrastructure has improved markedly since 2015. The TGV to Paris takes 2h10 — fast enough that some people commute weekly. Bordeaux is 2h10 by TGV, Rennes is 1h25. La Rochelle is 1h45 by TGV. The airport (Nantes Atlantique) handles direct flights to over 100 destinations including London, Dublin, Amsterdam, and various French domestic routes. The airport is being replaced by a new facility at Notre-Dame-des-Landes (long delayed, now planned for 2031-2035) — the current airport has capacity constraints in summer.",
+      },
+      {
+        heading: "Housing: reasonable, trending up",
+        body: "Nantes was genuinely affordable until about 2017; the post-TGV Lyon + Bordeaux demand spill-over, the remote work wave, and population growth have pushed prices higher. Average property prices: €3,400-4,000/m² for the city proper, €2,400-3,000/m² in the first-ring suburbs. T2 rents in good central areas: €700-900/month. This remains substantially cheaper than Lyon and Bordeaux, and dramatically cheaper than Paris. The rental market is tight — vacancy rates are low and competition is real, particularly at the start of the academic year. Areas like Doulon-Gohards (young, developing), Malakoff (post-industrial regen), and Saint-Sébastien-sur-Loire (suburban, good schools) offer value below the city average.",
+      },
+      {
+        heading: "Culture and social life",
+        body: "Nantes has invested deliberately in becoming a cultural destination, not just a residential one. Les Machines de l'Île (the giant mechanical elephant on the Île de Nantes) has become genuinely iconic. The Voyage à Nantes festival (July) transforms the city with art installations across the urban fabric. The Cité des Congrès hosts international conferences and concerts. For daily cultural life: a solid museum offering, a good live music scene, a restaurant culture that's genuinely improving (three Michelin stars in the metro area as of 2026). The Erdre river valley and the Sèvre Nantaise offer urban green space that most French cities would envy.",
+      },
+      {
+        heading: "What honest residents say",
+        body: "The consistent positives: the quality-of-life/cost ratio is hard to beat in the 300,000-500,000 city category. The tram works. The Atlantic is close enough for weekends. The negatives: Atlantic weather means grey winters and rain year-round — not the soul-destroying cold of northern France, but not the sunshine of Bordeaux or the Mediterranean. The city is growing fast and some infrastructure is straining: schools are overcrowded in some peripheral zones, and the rental market's tightness can make the first few months difficult. Nantes has a reputation as a politically progressive city (strong cycling lobby, green politics); if that context is important to you positively or negatively, it's worth knowing.",
+      },
+    ],
+    relatedCities: ["nantes", "saint-nazaire", "rennes", "la-rochelle", "bordeaux"],
+    tags: ["nantes", "pays de la loire", "quality of life", "relocation", "atlantic france"],
   },
 ];
 
