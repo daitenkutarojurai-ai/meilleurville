@@ -18290,6 +18290,203 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["loyer charges incluses", "coût réel logement France", "budget logement ville", "charges locatives", "facture énergie logement", "2026"],
   },
+  {
+    slug: "acheter-a-bordeaux-quel-quartier-budget-2026",
+    title: "Acheter à Bordeaux en 2026 : quel quartier et quel budget ?",
+    metaTitle: "Acheter à Bordeaux 2026 — quartiers, prix m² et budget réel",
+    metaDesc: "Prix m² par quartier à Bordeaux, projections 2026, quartiers en hausse et en repli. Le guide honnête pour acheter à Bordeaux sans se faire avoir.",
+    category: "budget",
+    emoji: "🍷",
+    readMinutes: 8,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "Bordeaux a connu la plus forte hausse des prix immobiliers parmi les grandes villes françaises entre 2015 et 2022. Depuis, le marché a marqué une pause. Le moment d'acheter ou pas ? La réponse honnête : cela dépend du quartier, de votre horizon de détention et de votre capacité d'emprunt. Voici les données brutes.",
+    sections: [
+      {
+        heading: "Prix m² par quartier en 2026",
+        body: "Bordeaux intra-muros couvre une surface relativement contenue, ce qui signifie que la géographie compte énormément. Quartiers les plus chers : Triangle d'Or (Saint-Seurin, Fondaudège, Judaïque) entre 5 500 et 7 000 €/m² pour l'ancien bien rénové. Saint-Pierre, Saint-Paul, quartier historique : 5 000-6 500 €/m². Chartrons (rive gauche, proche fleuve) : 4 800-6 200 €/m² selon la vue. Les Capucins, Saint-Michel : 4 200-5 200 €/m², plus populaire et moins homogène qualitativement. Rive droite (Bastide, Belcier, Floirac) : 3 200-4 500 €/m² pour du neuf à Euratlantique, 2 800-3 800 €/m² pour l'ancien. Saint-Augustin, Caudéran, grands Bordeaux-périphérie : 3 000-4 000 €/m². Mérignac, Pessac, Villenave-d'Ornon (première couronne) : 2 800-3 800 €/m². Ces fourchettes sont des médianes DVF — le haut de gamme ponctuellement dépasse ces plafonds.",
+      },
+      {
+        heading: "Quartiers à surveiller en 2026",
+        body: "La Bastide (rive droite) a profité d'une décennie de réaménagement et continue sa montée : le tram D y circule, les berges sont réaménagées, les équipements arrivent. On est encore 20-30 % sous les prix de la rive gauche pour une qualité architecturale qui monte. Belcier et ses abords (gare Saint-Jean) bénéficient de l'effet Euratlantique — le programme de renouvellement urbain massif autour de la gare TGV tire les prix vers le haut dans un rayon de 500 m à 1 km. Bègles (commune limitrophe au sud) reste sous-évalué par rapport à sa qualité de vie et sa connexion tram. Bacalan (nord du centre, ex-industriel) a rattrapé une partie de son retard mais garde une marge de progression si le projet Bordeaux Maritime se concrétise.",
+      },
+      {
+        heading: "Le calcul honnête : louer ou acheter ?",
+        body: "À Bordeaux, le ratio prix d'achat / loyer annuel se situe autour de 22-26 ans selon le quartier (les Chartrons tournent autour de 24-26 ans, la rive droite autour de 20-22 ans). Ces ratios indiquent que l'achat n'est rentable, à taux d'intérêt actuels (3,5-4,2 % en mai 2026), que sur des horizons de détention de 10-15 ans minimum. Un achat à 350 000 € (appartement T2 50 m² Chartrons) financé à 100 % sur 20 ans à 3,8 % représente une mensualité de 2 100 €. Un loyer équivalent est 1 050-1 250 €. La différence initiale de 850-1 050 €/mois se comble par l'amortissement du capital sur 10-12 ans, mais seulement si les prix ne reculent pas. Ce calcul n'est pas une recommandation d'acheter ou de ne pas acheter — c'est le cadre honnête pour évaluer votre décision.",
+      },
+      {
+        heading: "Ce que les annonces ne disent pas",
+        body: "Bordeaux intra-muros est traversée par plusieurs axes à fort trafic (rocade, boulevard ceinture, ponts) qui génèrent un bruit de fond constant dans les appartements qui y donnent. Vérifier systématiquement la carte de bruit de la ville (disponible sur le géoportail de l'urbanisme). Les copropriétés des années 1960-1980 dans les quartiers périphériques (Saint-Augustin, Pessac) ont souvent des charges de copropriété élevées et des travaux votés ou à venir — toujours demander le carnet d'entretien et les procès-verbaux des trois dernières AG. Les appartements en rez-de-chaussée dans la plupart des quartiers se vendent 15-20 % moins cher mais sont difficiles à revendre et à louer. Le marché locatif bordelais est tendu : les zones tendues s'étendent à l'ensemble de la métropole, ce qui limite les hausses de loyer lors des relocations.",
+      },
+      {
+        heading: "Budget total réel pour un achat T2 à Bordeaux",
+        body: "Pour un T2 50 m² dans les Chartrons à 5 000 €/m², le prix FAI est 250 000 €. Frais de notaire (ancien) : environ 8 % = 20 000 €. Frais d'agence (si en sus) : 3-5 % = 7 500-12 500 €. Budget travaux moyen (remise à niveau d'une cuisine ou d'une salle de bain) : 15 000-25 000 €. Budget total : 292 000-307 000 €. Apport minimum recommandé pour obtenir un financement : 10 % du prix + frais de notaire = 45 000-50 000 €. Taux actuel (mai 2026, profil standard) : 3,6-4,0 % sur 20 ans. Mensualité hors assurance pour 250 000 € emprunté : environ 1 450-1 500 €. Assurance emprunteur : 50-100 €/mois. Total mensualité + assurance : environ 1 550-1 600 €.",
+      },
+    ],
+    relatedCities: ["bordeaux", "merignac", "pessac", "begles"],
+    relatedGuides: [
+      "negocier-prix-immobilier-france-guide-2026",
+      "dpe-passoire-thermique-acheter-renover-france-2026",
+      "ptz-pret-taux-zero-2026-guide-complet",
+    ],
+    tags: ["acheter Bordeaux 2026", "prix m² Bordeaux quartiers", "immobilier Bordeaux", "Chartrons Bastide prix", "budget achat Bordeaux"],
+  },
+  {
+    slug: "acheter-a-rennes-quel-quartier-budget-2026",
+    title: "Acheter à Rennes en 2026 : quel quartier et quel budget ?",
+    metaTitle: "Acheter à Rennes 2026 — quartiers, prix m² et ce que les annonces cachent",
+    metaDesc: "Prix m² par quartier à Rennes, projections 2026, marché de la métropole. Le guide honnête pour acheter à Rennes avec les vrais chiffres.",
+    category: "budget",
+    emoji: "⚓",
+    readMinutes: 7,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "Rennes a longtemps été le secret le mieux gardé de l'immobilier breton. Elle ne l'est plus. Après des années de hausses soutenues, le marché en 2026 est dans une phase de stabilisation avec quelques niches encore sous-évaluées. Voici les prix réels par quartier et le calcul de faisabilité honnête.",
+    sections: [
+      {
+        heading: "Prix m² par quartier en 2026",
+        body: "Rennes intra-muros (à l'intérieur du périphérique) : le centre historique (Thabor, Arsenal, Saint-Germain, Quartier de la gare) : 4 000-5 200 €/m² pour l'ancien rénové. Beaulieu-Baud (pôle universitaire est) : 3 200-4 000 €/m². Villejean-Beauregard (nord, proche fac de médecine) : 2 800-3 500 €/m². Cleunay, Bréquigny (sud-ouest) : 2 600-3 200 €/m². Maurepas, Patton (est populaire) : 2 400-3 000 €/m². Première couronne (Cesson-Sévigné, Saint-Grégoire, Bruz, Pacé) : 3 000-4 200 €/m² selon la proximité du métro et du périphérique. Vitré, Redon (30-45 min par TER) : 1 800-2 500 €/m² — alternative réelle pour les télétravail complet.",
+      },
+      {
+        heading: "L'impact du métro et de la Ligne B",
+        body: "La Ligne B du métro (ouverte en 2022) a structurellement modifié les prix dans un couloir nord-est / sud-ouest. Les quartiers directement desservis (stations Jeanne d'Arc, Gayeulles, Sainte-Anne, Jules Ferry) ont vu leurs prix progresser de 8-15 % entre 2021 et 2024. Le modèle habituel : 200-400 €/m² de prime pour un appartement dans un rayon de 400 m d'une station de métro ou de BHNS (Bus à Haut Niveau de Service). L'horizon suivant : la future Ligne C (à l'étude, horizon 2035) pourrait repeindre la carte des prix sur l'axe nord-sud si elle est confirmée.",
+      },
+      {
+        heading: "Quartiers à potentiel en 2026",
+        body: "Maurepas est le quartier qui concentre le plus de regards de la part des investisseurs avisés en 2026. Rénovation urbaine en cours (ANRU), nouvelle médiathèque, arrivée d'équipements. Les prix actuels (2 400-3 000 €/m²) restent sous la moyenne de Rennes alors que la connexion au centre est directe. Triangle de Cleunay : proche du périphérique, infrastructure récente, prix encore raisonnables. Pour les familles qui acceptent un trajet en TER : Vitré (35 min) et Redon (40 min) offrent des maisons à 200 000-280 000 € pour des budgets qui ne permettent qu'un T2 à Rennes centre.",
+      },
+      {
+        heading: "Budget réel pour acheter à Rennes",
+        body: "T2 50 m² dans le centre de Rennes (Arsenal, Thabor) à 4 500 €/m² : 225 000 € FAI. Frais de notaire : 8 % = 18 000 €. Frais d'agence : 4-5 % = 9 000-11 250 €. Budget travaux (réaliste pour du bien des années 70-80) : 15 000-20 000 €. Budget total : 267 000-274 000 €. Pour un T3 70 m² en première couronne à 3 600 €/m² : 252 000 € FAI + frais = environ 293 000 € tout compris. Taux mai 2026 (profil standard, 20 ans) : 3,7-4,0 %. Mensualité pour 230 000 € emprunté sur 20 ans : environ 1 350-1 400 €.",
+      },
+    ],
+    relatedCities: ["rennes", "cesson-sevigne", "saint-gregoire", "vitre"],
+    relatedGuides: [
+      "acheter-a-bordeaux-quel-quartier-budget-2026",
+      "negocier-prix-immobilier-france-guide-2026",
+      "ptz-pret-taux-zero-2026-guide-complet",
+    ],
+    tags: ["acheter Rennes 2026", "prix m² Rennes quartiers", "immobilier Rennes", "Maurepas Thabor prix", "budget achat Rennes"],
+  },
+  {
+    slug: "acheter-a-nantes-quel-quartier-budget-2026",
+    title: "Acheter à Nantes en 2026 : quel quartier et quel budget ?",
+    metaTitle: "Acheter à Nantes 2026 — guide des quartiers, prix m² et budget réel",
+    metaDesc: "Île de Nantes, Zola, Doulon, rive nord : les vrais prix m² par quartier à Nantes en 2026 et le calcul honnête pour votre achat immobilier.",
+    category: "budget",
+    emoji: "🌿",
+    readMinutes: 7,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "Nantes a rattrapé les grandes métropoles françaises en termes de prix immobiliers. Les bonnes affaires de 2015 n'existent plus, mais certains quartiers gardent un potentiel réel. Voici le panorama honnête du marché nantais en 2026.",
+    sections: [
+      {
+        heading: "Prix m² par quartier en 2026",
+        body: "Centre historique, Bouffay, Graslin : 4 500-5 800 €/m². Île de Nantes (secteur réaménagé, neuf et ancien récent) : 4 000-5 500 €/m² selon la vue et la proximité du Loire. Zola, Canclaux (bourgeois résidentiel, très demandé) : 4 200-5 200 €/m². Doulon (est, plus populaire) : 2 800-3 400 €/m². Malakoff, Dervallières (quartiers en rénovation) : 2 400-3 000 €/m². Saint-Sébastien-sur-Loire, Rezé (sud, rive gauche) : 3 000-4 000 €/m². Saint-Herblain, Orvault (ouest, première couronne) : 3 000-3 800 €/m². La Chapelle-sur-Erdre (résidentiel nord, qualité de vie) : 3 200-4 200 €/m².",
+      },
+      {
+        heading: "L'Île de Nantes : le pari qui a tenu",
+        body: "L'Île de Nantes est le projet urbain phare de la métropole depuis 20 ans. Ce que l'on peut dire en 2026 : le pari a globalement tenu. Le quartier est habité, animé, bien connecté (tramway, vélos, berges du Loire aménagées), avec une architecture de qualité variable (quelques bâtiments remarquables, quelques immeubles banals). Les prix actuels sont proches du centre historique, ce qui signifie que la plus-value spéculative est largement réalisée. Achetez-y pour y habiter, pas pour un rendement locatif ou une plus-value court terme.",
+      },
+      {
+        heading: "Quartiers à potentiel réel",
+        body: "Doulon-Gohards (est nantais) est sous-évalué par rapport à son accessibilité en transport et ses équipements. Le projet de rénovation urbaine du secteur avance, les prix sont encore 25-35 % sous la moyenne. Malakoff, pour les profils qui acceptent un environnement en transformation. La Chapelle-sur-Erdre pour les familles qui privilégient le cadre de vie sur le prix : la commune offre l'un des meilleurs rapports qualité de vie / prix de toute la métropole. En dehors de la métropole : Ancenis (40 min de Nantes par train) et Châteaubriant offrent des maisons sous les 200 000 € pour des télétravailleur 2-3 jours/semaine.",
+      },
+      {
+        heading: "Budget et financement en 2026",
+        body: "T2 50 m² centre Nantes (Zola) à 4 800 €/m² : 240 000 € FAI. Frais de notaire : 19 200 €. Frais d'agence inclus ou séparés (3-5 %) : 7 200-12 000 €. Total : 266 000-271 000 €. Mensualité pour 230 000 € emprunté sur 20 ans à 3,8 % : environ 1 370 €. T3 70 m² à Saint-Sébastien-sur-Loire à 3 500 €/m² : 245 000 € FAI + frais ≈ 285 000 €. Nantes reste dans la fourchette haute des villes de province, et le calcul louer/acheter penche vers l'achat uniquement sur des horizons longs (12-15 ans).",
+      },
+    ],
+    relatedCities: ["nantes", "saint-sebastien-sur-loire", "rezé", "la-chapelle-sur-erdre"],
+    relatedGuides: [
+      "acheter-a-bordeaux-quel-quartier-budget-2026",
+      "ptz-pret-taux-zero-2026-guide-complet",
+      "negocier-prix-immobilier-france-guide-2026",
+    ],
+    tags: ["acheter Nantes 2026", "prix m² Nantes quartiers", "Île de Nantes immobilier", "Doulon Zola prix", "budget achat Nantes"],
+  },
+  {
+    slug: "villes-france-qualite-internet-fibre-debit-2026",
+    title: "Qualité d'internet par ville en France en 2026 : fibre, débit et zones blanches",
+    metaTitle: "Qualité internet France 2026 — fibre optique, débit moyen et zones blanches par ville",
+    metaDesc: "Taux de couverture fibre, débit moyen par ville, zones blanches et zones grises en France. Le guide honnête pour les télétravailleurs et les nomades numériques.",
+    category: "teletravail",
+    emoji: "📡",
+    readMinutes: 7,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "La fibre optique couvre désormais la quasi-totalité des grandes et moyennes villes françaises, mais la qualité de la connexion varie encore de manière significative selon l'opérateur, l'immeuble et la commune. Ce guide fait le point sur la réalité du déploiement et les villes à éviter ou à prioriser si votre activité dépend d'une connexion performante.",
+    sections: [
+      {
+        heading: "État du déploiement fibre en France en 2026",
+        body: "Selon l'ARCEP (Autorité de régulation des communications électroniques et des postes), 89 % des logements français sont éligibles à la fibre optique en 2026. Mais éligible ne signifie pas raccordé : environ 72 % des foyers sont effectivement abonnés à la fibre. Les grandes métropoles (Paris, Lyon, Marseille, Bordeaux, Nantes, Toulouse, Rennes) affichent des taux de couverture fibre supérieurs à 95 %. Les villes moyennes (Limoges, Poitiers, Angers, Tours, Clermont-Ferrand) sont entre 90 et 95 %. La situation se complique dans les communes rurales et les zones peu denses. Les «zones blanches» (sans couverture fixe correcte, ni fibre ni ADSL décent) concernent encore environ 3-5 % du territoire et environ 600 000 logements, concentrés dans les zones de montagne (Alpes intérieures, Massif Central, Pyrénées) et les communes rurales isolées.",
+      },
+      {
+        heading: "Débits réels : ce que les opérateurs ne disent pas",
+        body: "Un abonnement fibre «jusqu'à 1 Gb/s» ne signifie pas 1 Gb/s dans la réalité du quotidien. Le débit effectif dépend : du type de raccordement (FTTH — fibre jusqu'au logement — vs FTTB — fibre jusqu'à l'immeuble, coaxial ensuite), de la qualité du câblage intérieur de l'immeuble, de l'équipement réseau de l'abonné (routeur fourni vs qualité), et de la congestion aux heures de pointe. Dans les grandes villes, les débits médians constatés sur FTTH oscillent entre 400 et 700 Mb/s en téléchargement, 100-300 Mb/s en envoi — ce qui est très largement suffisant pour le télétravail intensif, les visioconférences en 4K, et les transferts de fichiers volumineux. Les situations problématiques concernent essentiellement les immeubles anciens où le câblage interne n'a pas été mis à jour.",
+      },
+      {
+        heading: "Villes avec la meilleure couverture qualitative en 2026",
+        body: "Au-delà du taux de couverture brut, la qualité de service varie selon les opérateurs dominants localement et la densité des nœuds de distribution. Les villes qui obtiennent les meilleurs retours d'expérience des télétravailleurs : Paris intra-muros (couverture quasi-totale, multiples opérateurs), Lyon (99 % de couverture, qualité homogène), Rennes (investissements anciens dans les réseaux, qualité reconnue), Strasbourg (très bien couverte, opérateurs compétitifs), Grenoble (ville d'ingénieurs, infrastructure exemplaire), Bordeaux (couverture 97 %, sauf quelques zones sud-est de la ville). Particularité : les villes et communes bénéficiant du réseau d'initiative publique (RIP, financé par les collectivités dans les zones moins denses) offrent parfois une qualité supérieure aux zones «privées» car le réseau est plus récent.",
+      },
+      {
+        heading: "Les zones à risque pour les télétravailleurs",
+        body: "Avant de vous engager sur un logement en dehors des grandes agglomérations, vérifiez systématiquement l'éligibilité FTTH via le site de chaque opérateur (pas les agrégateurs tiers) ou via eligibilite.arcep.fr. Les zones à risque réel en 2026 : vallées alpines hors des stations principales (Bourg-d'Oisans, Valloire, Argentière), zones rurales du Massif Central (Cantal, Haute-Loire intérieure, Corrèze profonde), certaines parties des Pyrénées (Ariège, Hautes-Pyrénées hors de Tarbes), et des zones côtières à l'habitat diffus (certaines parties de la Bretagne intérieure, cap Sizun). La 4G fixe (offre box 4G par Bouygues, SFR, Orange) est une alternative viable dans ces zones — elle offre des débits de 20-80 Mb/s, suffisants pour la visioconférence et les usages courants mais insuffisants pour les transferts massifs ou le gaming en temps réel.",
+      },
+      {
+        heading: "Comment vérifier la connexion avant de signer un bail",
+        body: "La méthode sérieuse : avant de signer un bail ou un compromis de vente dans une zone non-urbaine, passez dans le logement avec votre smartphone et faites un test de débit (nperf.com ou speedtest.net) en Wi-Fi sur la box existante. Si le logement est vide et non raccordé, vérifiez l'adresse exacte sur le site de chaque opérateur principal (Orange, SFR, Free, Bouygues Télécom) — les estimations diffèrent souvent d'un opérateur à l'autre pour la même adresse. Demandez au propriétaire ou au bailleur quel opérateur est présent dans l'immeuble (notamment pour le raccordement immeuble). En copropriété, vérifiez si le câblage vertical a été réalisé en FTTH ou si on est encore en FTTB/coaxial.",
+      },
+    ],
+    relatedCities: ["paris", "lyon", "rennes", "grenoble", "strasbourg"],
+    relatedGuides: [
+      "meilleures-villes-fibre-optique-teletravail-france-2026",
+      "teletravailler-depuis-bretagne-guide-2026",
+      "auto-entrepreneur-choisir-sa-ville-france-2026",
+    ],
+    tags: ["fibre optique France 2026", "qualité internet ville", "zones blanches fibre", "télétravail connexion", "ARCEP débit ville"],
+  },
+  {
+    slug: "seniors-decouvrir-france-villes-accessibles-2026",
+    title: "Villes françaises accessibles et actives pour les seniors en 2026",
+    metaTitle: "Meilleures villes pour seniors actifs France 2026 — accessibilité, services, qualité de vie",
+    metaDesc: "Transport en commun, soins de proximité, activités, coût de la vie : le guide honnête des villes françaises les plus adaptées aux seniors actifs en 2026.",
+    category: "lifestyle",
+    emoji: "🌞",
+    readMinutes: 8,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "Les critères qui comptent pour un senior actif diffèrent de ceux d'un jeune professionnel ou d'une famille avec enfants. L'accessibilité des transports, la densité des soins de proximité, le coût de la vie sur une pension, la richesse culturelle, et la convivialité sociale pèsent plus lourd. Voici les villes françaises qui cochent réellement ces cases.",
+    sections: [
+      {
+        heading: "Ce que les classements généraux ne mesurent pas",
+        body: "La plupart des classements généraux de qualité de vie classent bien Lyon, Rennes, et Bordeaux. Ces villes sont effectivement très bien pour les actifs entre 30 et 50 ans. Pour les seniors, l'équation est différente : les métropoles peuvent être stressantes, chères, et peu confortables si vous n'avez plus besoin d'accéder au marché du travail. Les villes moyennes (50 000 à 200 000 habitants) sont souvent le sweet spot : elles offrent tous les services essentiels, un réseau de transports publics réel, des activités culturelles et sportives, et un coût de la vie plus doux que les grandes métropoles.",
+      },
+      {
+        heading: "Les villes moyennes qui se distinguent pour les seniors",
+        body: "Angers : souvent citée en tête pour les seniors actifs. Le tramway dessert la quasi-totalité de l'agglomération, le CHU est un centre de soins de référence régional, les loyers sont abordables (T2 centre 650-850 €), et la vie culturelle est étonnamment riche pour une ville de 160 000 habitants. Le centre-ville est compact et plat — marcher y est agréable. Bayonne-Anglet-Biarritz : le Pays Basque concentre de nombreux retraités pour ses raisons évidentes — surf, gastronomie, architecture, identité culturelle forte, et un réseau de soins de qualité. Le coût de la vie est plus élevé (Biarritz notamment), mais Bayonne reste modérée. La Rochelle : mer, patrimoine, tram-vélo, CHU, taille humaine. Très bien classée pour le bien-être des retraités. Tours : qualité de vie sur la Loire à prix accessibles, TGV vers Paris et Bordeaux, service de santé dense.",
+      },
+      {
+        heading: "L'accessibilité physique : où la ville favorise la mobilité réduite",
+        body: "Le classement de l'Association des Paralysés de France sur l'accessibilité urbaine donne des résultats parfois contre-intuitifs. Les villes construites ou largement rénovées après 1980 (Montpellier, Rennes, Nantes, Grenoble) ont des réseaux de transport entièrement accessibles aux personnes à mobilité réduite. Les villes historiques non-rénovées (une partie du vieux Marseille, certains quartiers de Lyon Vieux, Bordeaux Saint-Pierre) ont des trottoirs étroits et irréguliers. La topographie joue massivement : Lyon n'est pas facile pour les personnes avec des difficultés de mobilité (beaucoup de dénivelé), Grenoble est plate au centre, Brest et Saint-Étienne ont des quartiers très pentus. Les villes côtières plates (Montpellier, Perpignan, La Rochelle, Bayonne partie basse) sont généralement les plus accessibles physiquement.",
+      },
+      {
+        heading: "Soins de proximité : l'accès à un médecin traitant",
+        body: "Les «déserts médicaux» sont une réalité en France rurale, mais ils existent aussi dans certaines villes moyennes. Les zones les mieux dotées en médecins généralistes et spécialistes pour leur population se trouvent autour des CHU (Centres Hospitaliers Universitaires) : Bordeaux, Lyon, Nantes, Strasbourg, Lille, Montpellier, Rennes, Grenoble. Attention aux villes où les médecins qui partent en retraite ne sont pas remplacés : certains quartiers de villes comme Limoges, Rouen, ou Clermont-Ferrand ont des tensions réelles sur l'accès aux soins, malgré la présence d'un CHU. Le site Géodes (Santé Publique France) permet de vérifier la densité médicale par commune avant de s'installer.",
+      },
+      {
+        heading: "Vivre confortablement avec une retraite de 1 800 €/mois",
+        body: "Sur une retraite de 1 800 €/mois, le choix de la ville est déterminant. À Paris ou Nice, c'est une existence contrainte. À Angers, Tours, Bayonne, Dijon, ou Reims, c'est confortable. Budget type pour un retraité seul à Angers : loyer T2 centre 720 €, charges et assurance 180 €, mutuelle santé (niveau 3, bonne couverture) 80-120 €, alimentation 300 €, transports (carte senior + quelques taxis) 80 €, loisirs et sorties 200 €, divers 80 €. Total : 1 660-1 700 €. Il reste 100-140 € de marge — pas de luxe, mais une vie agréable et sans stress financier dans une belle ville avec tous les services. La même configuration à Nice : loyer T2 centre au moins 1 000-1 100 €. La marge disparaît ou devient négative.",
+      },
+    ],
+    relatedCities: ["angers", "tours", "bayonne", "la-rochelle", "dijon"],
+    relatedGuides: [
+      "meilleures-villes-seniors-actifs-france-2026",
+      "vivre-retraite-1500-euros-mois-france-2026",
+      "meilleures-villes-accessibilite-handicap-france-2026",
+    ],
+    tags: ["villes seniors actifs France 2026", "accessibilité seniors villes françaises", "retraite province France", "meilleure ville retraite France", "soins proximité senior"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
