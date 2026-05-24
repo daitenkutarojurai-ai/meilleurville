@@ -4119,6 +4119,150 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["montpellier", "nimes", "beziers", "sete", "perpignan"],
     tags: ["montpellier guide", "living in montpellier", "montpellier expat", "montpellier housing 2026", "france mediterranean city guide"],
   },
+  {
+    slug: "france-property-tax-guide-expats-2026",
+    title: "Property tax in France: what you'll actually pay as a homeowner or landlord",
+    metaTitle: "France property tax guide expats 2026 — taxe foncière, local taxes, what to expect",
+    metaDesc: "Taxe foncière, taxe d'habitation on second homes, DPE-linked surcharges: what property owners in France pay and how to avoid surprises. Practical 2026 guide.",
+    category: "budget",
+    emoji: "💶",
+    readMinutes: 8,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "France has several property-related taxes that catch foreign buyers by surprise — not because they're hidden, but because they work differently from what most British, American, or Northern European buyers expect. The taxe foncière is paid annually regardless of whether you live in the property; the taxe d'habitation on second homes can be significant in high-demand areas; and the 2024 DPE-linked surcharges have added another layer. This guide gives you the real numbers by city type and the rules as they stand in 2026.",
+    sections: [
+      {
+        heading: "Taxe foncière: the base property tax",
+        body: "The taxe foncière (TFPB — taxe foncière sur les propriétés bâties) is payable by every property owner in France, regardless of whether you rent it out or leave it empty. It's calculated based on the property's rental value (valeur locative cadastrale), determined by the tax authority and updated periodically. The commune and département then apply their own rates to this base value. Average annual taxe foncière for a T2 apartment (45m²): €400-800 in most provincial cities; €1,200-2,500 in Paris; €800-1,500 in Lyon, Bordeaux, Nantes, and Nice. These are genuine averages — individual properties can be higher or lower depending on the exact commune rate, the property's cadastral valuation, and any exemptions (new builds are exempt for 2 years; some elderly and disabled homeowners receive partial exemptions). The taxe foncière is due in October each year. You can pay online via impots.gouv.fr, by direct debit, or by bank transfer. There's no automatic discount for paying early, but late payment incurs a 10% surcharge.",
+      },
+      {
+        heading: "Taxe d'habitation: abolished for main residences, still alive for second homes",
+        body: "The taxe d'habitation was abolished for main residences in stages between 2018 and 2023. As of 2024, no primary homeowner or tenant pays taxe d'habitation on their main residence, regardless of income. However, taxe d'habitation on second residences (résidences secondaires) and vacant properties (logements vacants, with a surcharge called 'taxe sur les logements vacants') is not only maintained but has been raised significantly in high-tension zones since 2023. In Paris, Lyon, Bordeaux, Nice, Annecy, La Rochelle, Biarritz, and roughly 2,600 communes listed as 'zones tendues', the taxe d'habitation on second homes can be increased by the commune by up to 60% above the standard rate. If you buy a holiday home in a popular coastal or mountain area, factor in a second-home taxe d'habitation that can range from €500 to €3,000/year depending on the property and location. Check the commune's deliberation on impots.gouv.fr before finalising any purchase.",
+      },
+      {
+        heading: "The DPE surcharges and energy renovation incentives",
+        body: "Since 2023, some French communes and the national government have added financial pressure on energy-poor properties (DPE classes F and G). From 2025, DPE G properties cannot be rented (new leases blocked) — this applies to properties with an energy consumption above 450 kWh/m²/year. From 2028, DPE F properties follow. As a buyer or owner, this creates a direct financial obligation: you either renovate (costs: €15,000-80,000 depending on the property and work needed) or you can no longer legally let the property. On the positive side: MaPrimeRénov' is a state subsidy for energy renovation that can cover 20-90% of renovation costs depending on your income and the work type. For a household on median income, a typical boiler+insulation renovation can be 50% subsidised. Check maprimerenov.gouv.fr for current rates. The Eco-PTZ (zero-interest loan for energy renovation) can cover up to €50,000 of renovation costs at 0% interest — stacked with MaPrimeRénov', the actual out-of-pocket cost for many renovations is significantly lower than the sticker price suggests.",
+      },
+      {
+        heading: "Prélèvements sociaux and income tax on rental income",
+        body: "If you rent out a property in France, the rental income is taxable in France regardless of where you live (French source income is taxable in France under all major tax treaties). For furnished rentals (LMNP status — loueur meublé non professionnel), the income is taxed as BIC (industrial and commercial profits) with either a simplified micro regime (50% flat deduction on gross rental income) or the real expenses regime. For unfurnished rentals, income is taxed as revenus fonciers (property income) — same choice of micro-foncier (30% deduction) or real expenses. Both regimes are additionally subject to prélèvements sociaux (social charges) of 17.2% if you're a resident of an EU country. Non-EU residents pay a reduced 7.5% social charge under the CSG exemption. Non-residents (people not living in France) pay income tax on French rental income at a minimum rate of 20%, plus the relevant social charges. Your tax treaty between France and your home country determines whether you can offset French tax against home-country tax — which you usually can, so double taxation is rare, but the filing obligation remains.",
+      },
+      {
+        heading: "The annual declaration: what owners need to file",
+        body: "French property owners have specific annual obligations. Taxe foncière and taxe d'habitation on second homes are pre-calculated by the tax authority and sent as bills (avis d'imposition) in September-October — you don't need to file anything for these, just pay. For rental income: you must declare it on your annual income tax return (filed by May-June for the preceding year's income). If you use a French tax accountant (expert-comptable), expect €300-600/year for a simple rental property. If you declare yourself, the form is either the 2042-C (micro régimes) or 2044 (real expenses, unfurnished rental) or 2031 (real regime, furnished rental). Non-residents file a simplified French tax return (called a 'déclaration des revenus de sources françaises') covering French-source income only. If you're unsure which regime applies to you, a one-time consultation with a French tax specialist (avocat fiscaliste or expert-comptable) is worth €100-300 to avoid a correction later.",
+      },
+    ],
+    relatedCities: ["paris", "bordeaux", "lyon", "nice", "annecy"],
+    tags: ["france property tax", "taxe foncière", "taxe d'habitation second home", "rental income france tax", "expat property owner france 2026"],
+  },
+  {
+    slug: "france-for-scandinavian-expats-2026",
+    title: "France for Scandinavian expats: the real adjustments — and why most don't regret it",
+    metaTitle: "France for Scandinavian expats 2026 — Danish, Swedish, Norwegian, Finnish guide",
+    metaDesc: "What Swedes, Danes, Norwegians and Finns actually find when they move to France: bureaucracy, taxes, healthcare, social life, and which cities suit Scandinavian sensibilities best.",
+    category: "moving",
+    emoji: "🇫🇷",
+    readMinutes: 9,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "Scandinavians in France occupy a particular position in the expat landscape: highly educated, accustomed to excellent public services and high trust institutions, and often genuinely surprised by how much the French system asks of them in paperwork and patience — before delivering a quality of life that, on the balance, most find better than what they had. This guide is written for Danish, Swedish, Norwegian, and Finnish nationals (all broadly similar situations in France) who are considering or planning a move.",
+    sections: [
+      {
+        heading: "The adjustment most Scandinavians don't expect",
+        body: "The expectation gap is almost always the same: Scandinavians arrive assuming France has comparable public-service efficiency to what they're used to. It doesn't, and the gap is significant. Swedish Skatteverket processes a basic registration in days; the French CPAM or préfecture can take weeks to months and require multiple document submissions. This isn't a crisis — it's a calibration issue. Scandinavians who do well in France are the ones who accept early that French administration runs on its own timeline and plan around it (starting processes 2-3 months early, building in buffer time, keeping impeccable document copies). What surprises Scandinavians positively: the actual quality of the results. French healthcare is excellent once you're in the system. French schools are rigorous. French public transport in cities is genuinely good. The food culture is real and not tourist-board-invented. Most Scandinavians report a higher quality of daily life in France than at home — but the process of setting it up is more friction-intensive.",
+      },
+      {
+        heading: "Bureaucracy: what you'll need, in what order",
+        body: "For EU citizens (Sweden, Denmark, Finland — and Norway via EEA): no visa required. You have the right to live and work in France without a residence permit (carte de séjour). However, you need to register at your local mairie or préfecture within 3 months of establishing residence — an 'attestation de résidence européenne' may be requested by landlords and banks. For non-EU situations: Norway is EEA, not EU, which means Norwegians have the same practical rights but may encounter occasional confusion from French officials less familiar with EEA status. Carry your EEA certificate. First administrative priorities after arrival: 1) Register address at mairie (for attestation d'hébergement or change of address). 2) Open a French bank account (Boursorama or Crédit Agricole are reliable). 3) Register for health insurance (PUMA) via CPAM. 4) Get a Numéro de Sécurité Sociale (NSS) — this takes the most time and is the most important. Without an NSS, the health system doesn't fully function. 5) Declare French residency to your home country's tax authority (Sweden: Skatteverket; Denmark: Skat; Norway: Skatteetaten; Finland: Vero) to avoid being taxed in both countries.",
+      },
+      {
+        heading: "Taxes: the double-taxation treaty and what it means for you",
+        body: "France has bilateral tax treaties with Sweden, Denmark, Norway, and Finland that prevent double taxation on most income categories. The general rule: you pay tax in the country where you are resident (France, once you've moved). Your home country tax authority needs to be notified of your departure and change of fiscal residence. Swedish residents: inform Skatteverket, ask to be removed from the Swedish population register (folkbokföring) if you leave permanently. Danish residents: Skat handles it through your departure registration. Finnish residents: Vero Skatt. Norwegian residents: Skatteetaten. In France, income from employment in France is taxed in France at French rates (0% up to €10,777, then 11%, 30%, 41%, 45% for the highest bracket in 2026 — the brackets are adjusted annually). Important for Scandinavians who retain investment income, property income, or pensions from their home country: the tax treaties typically assign taxing rights to the source country for pensions and to the residence country for most investment income. Get this right before you move — a 30-minute consultation with a French tax specialist with experience in Nordic matters will prevent surprises.",
+      },
+      {
+        heading: "Which French cities suit Scandinavian sensibilities?",
+        body: "Based on what Scandinavians in France report: Strasbourg is consistently the most comfortable landing point — it has a strong Germanic/Nordic-adjacent culture, excellent cycling infrastructure, well-organised city administration by French standards, Alsatian food culture that appeals to Scandinavian palates, and a significant German-speaking community. Rennes appeals particularly to environmentally-conscious Scandinavians — it has France's best cycling infrastructure per capita, strong green politics locally, and a university energy that feels inclusive. Grenoble suits the tech and research profiles — the ESRF, ILL, and CEA labs have large Scandinavian staff contingents, and the outdoors culture (skiing, trail running, cycling) maps well to Scandinavian lifestyle. Lyon works for Scandinavians with corporate jobs in finance, pharma, or engineering — the job market is dense and international, English is widely spoken in the professional environment. The cities most Scandinavians find hardest: Marseille (less organised, more informal, very different social codes) and smaller towns with little international professional life.",
+      },
+      {
+        heading: "Language: how quickly can you function in French?",
+        body: "For Scandinavians, French is learnable but not trivially close to any of the Nordic languages. English-Swedish-Danish distance is far smaller than French-Swedish. Expect 6-12 months of serious study (A2 level) before daily life in France becomes comfortable, and 18-24 months before professional fluency (B2) is achievable without formal instruction. The good news: French pronunciation, while intimidating, is learnable at a much faster pace than the grammar, and pronunciation is what opens social doors. Investing 3 months in Alliance Française classes or a Duolingo Pro + tutored session combo before moving pays off enormously. In professional environments (tech, research, international business), English is often the working language — some Scandinavians in Paris, Lyon, or Grenoble work entirely in English and achieve a comfortable French social life in parallel. The mistake to avoid: treating French as optional and living in an expat bubble. The Scandinavians who love France the most are the ones who made the language uncomfortable and then comfortable.",
+      },
+    ],
+    relatedCities: ["strasbourg", "rennes", "grenoble", "lyon", "bordeaux"],
+    tags: ["france for scandinavians", "sweden france expat", "denmark france expat", "norway france expat", "moving to france northern europe 2026"],
+  },
+  {
+    slug: "best-french-cities-outdoor-sports-2026",
+    title: "Best French cities for outdoor sports: where to live when the weekend matters as much as the job",
+    metaTitle: "Best French cities outdoor sports 2026 — cycling, skiing, hiking, surfing guide",
+    metaDesc: "Skiing 30 minutes away, cycling routes from your door, Atlantic surf, trail running: the 8 French cities with the best outdoor sports access. Honest 2026 guide.",
+    category: "lifestyle",
+    emoji: "🏔️",
+    readMinutes: 8,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "For a significant cohort of people — the ones who moved to Lyon because of Chamrousse, to Grenoble because of Alpe d'Huez, to Biarritz because the waves are real — outdoor sport access is a non-negotiable factor in city choice, not a nice-to-have. This guide ranks French cities not by quality-of-life indices but by a single, direct question: if you wake up on a Saturday morning with 4 hours and a bike, skis, or trail shoes, how good does it get?",
+    sections: [
+      {
+        heading: "Mountain access: the cities that do it best",
+        body: "Grenoble wins this category without competition. Three mountain ranges within 30 minutes, ski resorts at 45 minutes, and France's most extensive network of alpine cycling routes starting from the city limits. For a working professional who skis, trail runs, and cycles, Grenoble's weekend proposition is among the best in Europe. Annecy is the second option for mountain lovers: 30 minutes to Aravis ski resorts, surrounded by the Haute-Savoie cycle routes, and a lake for summer swimming that most mountain cities don't have. Housing is more expensive than Grenoble but the environment is arguably more beautiful. Chambéry — between Grenoble and Annecy geographically — is cheaper than both, with access to Les Saisies, La Plagne (1h), and the Bauges natural park. Often overlooked: Clermont-Ferrand has the Massif Central immediately accessible — extinct volcanos, trail running, cycling, ski at Le Mont-Dore (1h). Not Alpine skiing, but serious outdoor access at very affordable housing costs.",
+      },
+      {
+        heading: "Cycling-first cities: where the infrastructure is real",
+        body: "France has seen a significant cycling infrastructure upgrade since 2020 (Plan vélo national), but quality still varies enormously between cities. The top cycling cities in France: Strasbourg has the most mature cycling infrastructure in France — 650km of dedicated lanes, 15% modal share for bikes, flat terrain, and a cycling culture that predates the recent national enthusiasm by 20 years. Rennes is close behind in per-capita cycling infrastructure investment and has a strong velotaf (cycle-commuting) culture. Bordeaux is excellent: the quays, the Garonne circuit, the dedicated lanes to the vineyards and the Gironde coast. Nantes has improved significantly since 2020. Montpellier has 5 tram lines and cycling lanes that work but is more mixed in quality. Paris has transformed its cycling infrastructure since 2020 — the Champs-Élysées cycle lanes are real, the Seine routes are excellent — but traffic density still makes daily cycling stressful for some. For serious road cyclists: the Alps (Grenoble, Annecy, Chambéry) and the Pyrénées (Pau, Tarbes, Lourdes) give access to the famous cols of the Tour de France from your door.",
+      },
+      {
+        heading: "Surf and water sports: the Atlantic cities",
+        body: "Biarritz is France's surf capital — the waves are genuinely good (Côte des Basques, La Grande Plage, Guéthary 15 minutes south), the surfing community is decades old, and the city has an infrastructure of surf schools, shapers, and repair shops that supports serious practice. Housing has become very expensive (€4,000-7,000/m² in prime areas). Hossegor (40 minutes north of Biarritz) is where the professional surf tour comes — more affordable housing, legendary beach breaks (La Gravière, Les Culs Nuls), but less of a city and more of a surf village. For windsurfing and kitesurfing: La Rochelle and the Île de Ré, or the Pointe du Raz in Finistère. For flatwater kayaking and canoeing: the Ardèche (Vallon-Pont-d'Arc), the Dordogne, the Loire. For sailing: Brest, Saint-Malo, La Rochelle, and Toulon all have major sailing cultures with accessible marinas and clubs.",
+      },
+      {
+        heading: "Trail running and hiking: the less obvious cities",
+        body: "The most obvious trail running bases (Grenoble, Chamonix, Annecy) are also the most expensive. Some less obvious but excellent bases: Pau — the start and finish of multiple long-distance trail races (including the Pyrénean crossings), with the UTPF (Ultra Trail des Pyrénées Françaises) nearby, and housing at €1,500-2,200/m². Millau (Aveyron) — for trail running in the Causses and the Gorges du Tarn, one of the most dramatic landscapes in France. Saint-Étienne — the Pilat natural park starts at the city boundary; serious trail access at genuinely affordable housing prices. Pau comes up repeatedly: TGV to Paris (5h30), mountains 45 minutes, a mild micro-climate, and an affordable housing market that remains rational relative to its quality of life. For long-distance hikers: cities near the GR10 (Basque Country to Mediterranean, Pyrénées) or the GR20 (Corsica) offer long-trail access from a city base that has normal services and a working economy.",
+      },
+      {
+        heading: "Skiing: what daily access actually requires",
+        body: "The fantasy is leaving from your apartment and skiing by 9am. The reality requires more specificity. From Grenoble: Chamrousse resort is 25 minutes by car — this is literally achievable, but Chamrousse is a medium resort with good terrain and a practical local appeal, not a destination resort. The bigger resorts (Alpe d'Huez, Serre Chevalier, Les 2 Alpes) are 1h-1h30 from Grenoble — still excellent for a day trip but not a quick morning run. From Annecy: Les Aravis (La Clusaz, Le Grand Bornand) at 45-60 minutes; the huge Portes du Soleil (Morzine, Avoriaz, Châtel) at 1h15-1h30. From Chambéry: Les Saisies, Valmorel at 1h; the Tarentaise mega-resorts (Val d'Isère, Courchevel, Méribel) at 1h30-2h — serious weekend skiing possible but not casual. From Lyon: 1h30 to the nearest resorts in Chartreuse or Vercors; 2h to Chamrousse; 2h30 to major resorts. Doable for weekend trips, not for a casual morning. If daily ski access is a true priority, Grenoble is the only major French city that delivers it credibly.",
+      },
+    ],
+    relatedCities: ["grenoble", "annecy", "pau", "biarritz", "strasbourg", "bordeaux"],
+    tags: ["france outdoor sports cities", "best french cities skiing 2026", "biarritz surf", "grenoble mountains", "french city cycling infrastructure"],
+  },
+  {
+    slug: "cost-of-living-france-paris-vs-province-2026",
+    title: "Cost of living in France: Paris vs. 10 provincial cities — the real numbers",
+    metaTitle: "France cost of living 2026 — Paris vs Bordeaux, Lyon, Rennes, Nantes, Montpellier",
+    metaDesc: "Side-by-side monthly budget comparison: Paris vs. 10 French cities. Rent, food, transport, dining out, taxes. Who saves €500/month by leaving Paris?",
+    category: "budget",
+    emoji: "💸",
+    readMinutes: 10,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "The Paris-vs-province cost comparison is one of the most searched topics in French relocation research, and one of the most poorly served by listicles that compare grocery prices without touching rent or transport. This guide does it properly: a full monthly budget comparison across 11 cities (Paris + 10 provincial) for three profiles — single professional, couple, family of four — with real market data from 2026.",
+    sections: [
+      {
+        heading: "The methodology: what we're comparing and why",
+        body: "We compare six budget categories for each city: housing (rent for the relevant apartment size, market median for a mid-range central neighbourhood), transport (monthly pass or equivalent), food (grocery spend for the household, median supermarket prices), dining and social (eating out twice a week, occasional bars, cinema), utilities (electricity, gas, internet, phone), and taxation (income tax estimate for a gross salary of €40,000, single). We don't compare salaries, because they vary by employer and sector, not by city — a developer in Bordeaux can earn the same as in Paris from a Paris client while paying Bordeaux rent. The salary question is yours to answer; the cost question is what this page addresses.",
+      },
+      {
+        heading: "Single professional, €40k gross: Paris vs the competition",
+        body: "Monthly rent T1 central (35m²): Paris €1,200 / Lyon €720 / Bordeaux €780 / Nantes €680 / Rennes €640 / Toulouse €660 / Lille €600 / Montpellier €700 / Strasbourg €680 / Dijon €560 / Grenoble €580. Transport monthly pass: Paris (Navigo toutes zones) €86 / others €45-55. Food (groceries, 1 person): Paris €280 / provinces €240-260. Dining and social: Paris €320 / provinces €220-270. Utilities: Paris €90 / provinces €80-85. Income tax estimate at €40k gross: roughly identical nationally (€3,800-4,200/year net of social charges). Total monthly budget excluding income tax: Paris ≈ €2,080 / Lyon ≈ €1,390 / Bordeaux ≈ €1,450 / Nantes ≈ €1,310 / Rennes ≈ €1,280 / Montpellier ≈ €1,340. Savings from leaving Paris: €630-800/month depending on destination. Annual: €7,500-9,600 in the account without changing income. This is the number that surprises most people — the full budget comparison, not just rent.",
+      },
+      {
+        heading: "Couple (no children): the amplified version",
+        body: "Couples moving from Paris to a provincial city typically see even larger savings in absolute terms. Monthly rent T2 central (50m²): Paris €1,700 / Lyon €1,050 / Bordeaux €1,100 / Nantes €950 / Rennes €880 / Toulouse €900 / Grenoble €850 / Dijon €800. Transport (two passes): Paris €172 / provinces €90-110. Food (two people): Paris €450 / provinces €380-420. Dining and social: Paris €500 / provinces €380-430. Utilities: Paris €120 / provinces €100-110. Total monthly: Paris ≈ €2,950 / Lyon ≈ €2,030 / Nantes ≈ €1,800 / Rennes ≈ €1,760 / Dijon ≈ €1,670. Saving by moving from Paris to Nantes: €1,150/month, €13,800/year. Saving by moving to Dijon: €1,280/month, €15,360/year. A couple earning €65,000 gross combined who moves to Dijon is essentially giving themselves a combined raise of 15-20% of net income without changing jobs.",
+      },
+      {
+        heading: "Family of four: where the childcare and school equation changes things",
+        body: "Families with young children have to add childcare to the equation. Crèche (public, means-tested): typically €200-500/month for one child under 3, similar across France because fees are nationally regulated. Halte-garderie, nounou (childminder): €700-1,200/month/child, with variation primarily driven by local salary levels (higher in Paris and IDF). School is free and nationally funded — no fees for public primary through lycée. Extracurricular activities: music school, sports clubs — typically €100-300/month for one child; costs are lower in provincial cities where demand is less strained. Family of four total monthly (T3, 2 adults working, 2 children under 6): Paris ≈ €5,500-6,200 / Lyon ≈ €3,800-4,300 / Nantes ≈ €3,500-3,900 / Dijon ≈ €3,100-3,500. The gap at family scale is €1,500-2,700/month — the kind of difference that changes whether you can afford to save, take parental leave at reduced pay, or send children to private school if you eventually choose to.",
+      },
+      {
+        heading: "The income question: will you earn less?",
+        body: "The honest answer: it depends entirely on your sector and employer arrangement. If you work remotely for a Paris-based company and they don't have a geo-adjusted pay policy, you earn exactly the same in Bordeaux as in Paris. Many tech companies, consultancies, and startups operate this way. If you work for a local employer, salaries for comparable roles in Bordeaux, Rennes, or Grenoble are typically 10-20% below Paris levels — so the full saving isn't the gross figures above. The break-even calculation: for most people, the cost savings on housing and general life outweigh the salary differential at 10-20%, especially once you factor in that you can afford a larger apartment, avoid commuting costs, and have more disposable income for lifestyle. The exception: roles where Paris concentration is a significant premium — top-end finance, luxury sector, certain law firms — where the salary premium is 30-40% and the local alternatives don't exist. Those are real exceptions; for the majority of professional roles in France, the provincial move is economically positive within 12-18 months.",
+      },
+    ],
+    relatedCities: ["paris", "bordeaux", "lyon", "nantes", "rennes", "dijon"],
+    tags: ["france cost of living 2026", "paris vs province cost", "bordeaux vs paris cost", "french city monthly budget", "moving from paris savings"],
+  },
 ];
 
 export function getEnGuide(slug: string): EnGuide | undefined {
