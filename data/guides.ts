@@ -17817,6 +17817,264 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["étudiant", "budget étudiant", "logement étudiant", "CROUS", "université", "2026"],
   },
+  {
+    slug: "acheter-a-nice-quel-quartier-budget-2026",
+    title: "Acheter à Nice en 2026 : quel quartier, quel budget, ce qu'on ne vous dit pas",
+    metaTitle: "Acheter à Nice 2026 — prix par quartier, budget réel, pièges",
+    metaDesc:
+      "Prix au m² par quartier à Nice, budget réel primo-accédant, quartiers en hausse, marché actuel : le guide honnête pour acheter un appartement à Nice en 2026.",
+    category: "budget",
+    emoji: "🌊",
+    readMinutes: 9,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Nice est l'une des villes les plus chères de France hors Paris. Son marché immobilier est aussi l'un des plus opaques : la demande internationale (résidents étrangers permanents, investisseurs britanniques et italiens, fonds patrimoniaux) crée des micro-marchés qui se comportent très différemment du marché résidentiel classique. Ce guide vous donne les prix réels par quartier, le budget minimum viable pour un primo-accédant, les quartiers où le marché est surévalué, et ceux où il reste de l'intérêt.",
+    sections: [
+      {
+        heading: "Les prix au m² par quartier en 2026",
+        body: "Vieux-Nice et Promenade des Anglais : 5 000 à 8 000 €/m² selon l'étage et la vue. Cimiez (colline aristocratique, architecture belle-époque, vue sur la ville) : 4 500 à 6 500 €/m². Les Musiciens / Magnan (quartier résidentiel apprécié, calme, bien desservi) : 4 000 à 5 500 €/m². Centre-ville (Masséna, Jean Médecin, Flandre) : 3 500 à 5 000 €/m². Libération / Gorbella : 3 000 à 4 200 €/m², secteur en hausse rapide depuis 2021, bonne infrastructure tram. Méridia (technopole Nice Côte d'Azur) : 3 000 à 4 500 €/m², neuf et récent, profils tech et chercheurs. Nice Nord (Lingostière, Saint-Isidore) : 2 200 à 3 000 €/m², desservi par tramway T2, beaucoup plus abordable mais éloigné de la mer. Quartiers à risque élevé de surévaluation : tout ce qui donne directement sur la Promenade et le Vieux-Nice — le potentiel locatif saisonnier est capturé dans les prix à des multiples qui font que la rentabilité locative nette est quasi nulle. Ces biens s'achètent en capital, pas en rendement."
+      },
+      {
+        heading: "Budget minimum réaliste pour un primo-accédant",
+        body: "À Nice, un T1 de 30 m² correct (pas Promenade, pas Vieux-Nice, mais dans un quartier vivable) coûte 150 000 à 200 000 euros. Avec un apport de 10 % et les frais de notaire (~8 % dans l'ancien), vous avez besoin de 27 000 à 36 000 euros cash. Pour un T2 de 45 m² dans les quartiers intermédiaires (Libération, Méridia, Gorbella) : 180 000 à 240 000 euros, soit 32 000 à 43 000 euros d'apport. Le PTZ (prêt à taux zéro) est disponible à Nice dans les zones B1 (sous conditions de revenus) — en 2026, il peut couvrir jusqu'à 40 % du prix dans l'ancien avec travaux. Pour un ménage avec un revenu fiscal de référence inférieur à 37 000 € à deux (plafond de la zone B1), le PTZ peut déplacer entre 50 000 et 100 000 euros du montant emprunté hors intérêts. Vérifiez votre éligibilité sur simulateur-ptz.fr avant toute démarche."
+      },
+      {
+        heading: "Quartiers en hausse vs quartiers plateaux",
+        body: "En hausse clairement identifiée (2024-2026) : Libération et ses extensions vers la gare de Nice-Riquier — le tramway T1 prolongé a dopé l'accessibilité, et les prix n'ont pas encore rattrapé ceux du centre. La Madeleine / Caucade (entre la ville et l'aéroport) : arrivée de nouveaux programmes neufs et rénovations, profil jeune famille, prix encore 20 % en dessous du centre. L'axe autour de la ligne de tramway T3 (en construction) : les quartiers qui seront desservis font déjà l'objet d'anticipation de la part d'investisseurs avisés — notamment dans le secteur de Saint-Roch et Pasteur. Marchés plutôt plafonnés voire en légère baisse : le haut de gamme Promenade / Opéra — la demande internationale a fléchi en 2024-2025 et les prix se sont stabilisés après des sommets. Vieux-Nice : manque de parking, charges de copropriété élevées dans les immeubles anciens non rénovés, et attrait touristique qui ne se traduit pas en rendement locatif longue durée."
+      },
+      {
+        heading: "La question spécifique des charges et de la copropriété",
+        body: "À Nice plus que dans toute autre ville de France, vérifiez l'état des façades et des toitures avant de signer. Le parc immobilier ancien niçois présente un retard d'entretien important dans beaucoup de copropriétés : des ravalement onéreux (30 000 à 100 000 euros par lot selon les cas) peuvent tomber dans les 5 ans suivant votre achat. Demandez systématiquement les 3 derniers procès-verbaux d'assemblée générale de copropriété — c'est là que les travaux votés ou envisagés apparaissent. Les charges mensuelles dans un immeuble ancien avec ascenseur au bord de mer peuvent atteindre 400 à 600 euros par mois pour un T2 — une donnée qui modifie entièrement le calcul de rentabilité ou de pouvoir d'achat immobilier. La DPE est obligatoire : les biens en classe F ou G vont devoir être rénovés d'ici 2028-2030. Achetez avec une marge de budget travaux ou négociez le prix en conséquence."
+      },
+      {
+        heading: "Pièges spécifiques au marché niçois",
+        body: "Piège 1 : le loft rénové avec vue mer en Vieux-Nice à 7 000 €/m² qu'un agent vous présente comme une opportunité. Ce n'est pas une opportunité — c'est un bien de patrimoine, pas de rendement, et il sera difficile à revendre à ce prix si les acheteurs internationaux se raréfient. Piège 2 : les copropriétés avec « fonds de travaux insuffisant » (inférieur à 5 % du budget prévisionnel annuel, obligatoire depuis 2017). Elles ont des mauvaises habitudes de gestion et vous ferez face à des appels de fonds exceptionnels. Piège 3 : les caves, parkings et locaux en rez-de-chaussée sur la Promenade. Ils semblent attractifs prix d'entrée mais leur valeur est entièrement dépendante d'une réglementation du stationnement qui évolue. Piège 4 : acheter dans un secteur mal desservi par les transports en se disant qu'on sera en voiture — Nice a l'un des pires indices de congestion de France (3e après Paris et Lyon), le transport public est la seule variable sur laquelle vous n'aurez pas de mauvaise surprise."
+      }
+    ],
+    relatedCities: ["nice", "antibes", "cannes", "menton", "villefranche-sur-mer"],
+    relatedGuides: [
+      "acheter-immobilier-france-meilleures-villes-2025",
+      "meilleures-villes-investissement-locatif-colocation-2025",
+      "investissement-locatif-meilleures-villes-2025",
+    ],
+    tags: ["acheter Nice", "immobilier Nice 2026", "prix m² Nice", "quartiers Nice", "primo-accédant PACA", "2026"],
+  },
+  {
+    slug: "acheter-a-grenoble-quel-quartier-budget-2026",
+    title: "Acheter à Grenoble en 2026 : quel quartier, quel budget et pourquoi le marché reste accessible",
+    metaTitle: "Acheter à Grenoble 2026 — prix par quartier, budget, quartiers en hausse",
+    metaDesc:
+      "Prix au m² par quartier à Grenoble, budget primo-accédant, secteurs tech en hausse, pièges à éviter : le guide complet pour acheter un appartement à Grenoble en 2026.",
+    category: "budget",
+    emoji: "🏔️",
+    readMinutes: 8,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Grenoble est l'une des villes françaises de taille significative où l'immobilier reste le plus accessible — pour une ville avec ce niveau de tissu économique, de richesse universitaire et d'accès à la montagne. Mais « accessible » ne veut pas dire sans nuances : certains quartiers ont des problématiques sociales bien documentées, d'autres sont en hausse rapide grâce à la demande tech. Ce guide vous guide quartier par quartier.",
+    sections: [
+      {
+        heading: "Les prix par quartier — état du marché 2026",
+        body: "Île Verte (quartier résidentiel prisé, proche Presqu'île, verdure) : 2 800 à 3 800 €/m². Victor Hugo / Championnet (centre historique commerçant, bonne ambiance) : 2 500 à 3 400 €/m². Berriat / Europe (quartier populaire devenu boboisé, cafés, marché, jeune) : 2 200 à 3 000 €/m². Presqu'île (campus scientifique, MINATEC, logements neufs) : 3 000 à 4 200 €/m², beaucoup de programme neufs — prix élevés pour Grenoble mais justifiés par la qualité de la construction. Europole / Polygone scientifique (proche gare, quartier d'affaires) : 2 800 à 3 500 €/m². Secteurs avec décote : Mistral, Village Olympique, Teisseire — prix significativement plus bas (1 800 à 2 500 €/m²) mais avec des réalités sociales à bien évaluer avant d'acheter. Saint-Bruno / Très-Cloîtres : en transition, prix 2 200 à 2 800 €/m², bonne infrastructure café-resto, amélioration progressive."
+      },
+      {
+        heading: "Budget réaliste pour un primo-accédant",
+        body: "Un T2 correct (45 m²) dans un quartier intermédiaire de Grenoble coûte entre 100 000 et 135 000 euros — soit un apport de 18 000 à 24 000 euros pour 10 % + frais de notaire. C'est l'une des villes françaises avec un tissu économique solide où ce scénario reste accessible pour un ménage avec un revenu médian. Le PTZ est disponible à Grenoble (zone B1). Pour un ménage sous les plafonds de ressources, il peut couvrir une part significative du prêt. La mensualité pour un T2 financé à 80 % sur 20 ans à un taux de 3,5 % (hypothèse 2026) : environ 620 €/mois — comparable ou inférieur au loyer marché pour le même bien. C'est la configuration qui rend Grenoble particulièrement intéressante pour l'accession à la propriété."
+      },
+      {
+        heading: "Secteurs en hausse et logique de la Presqu'île scientifique",
+        body: "La Presqu'île de Grenoble (entre Drac et Isère, au nord-ouest du centre) est le grand projet urbain de la ville : campus de 250 hectares qui concentre CEA, CNRS, GIANT, INRIA et une partie de l'Université. Les logements neufs construits dans ce secteur depuis 2018 ont vu leur valorisation progresser rapidement. Profil d'acheteur : ingénieurs, chercheurs, cadres tech qui cherchent à ne pas dépendre de la voiture. Prix : parmi les plus élevés de Grenoble mais avec une qualité BBC / RE2020. Le secteur autour de la nouvelle ligne de bus express (Chrono C3 vers la gare) bénéficie d'une accessibilité améliorée qui soutient les prix. À surveiller : le quartier autour de la gare de Grenoble fait l'objet d'un projet de requalification (« Bouchayer-Viallet ») — les appartements de la première couronne devraient s'apprécier au fur et à mesure de la livraison des équipements."
+      },
+      {
+        heading: "La question spécifique de la qualité de l'air",
+        body: "Grenoble est la ville française dans une vallée fermée par des montagnes — en hiver, lors des épisodes d'inversion thermique, la qualité de l'air est parmi les moins bonnes des grandes villes françaises. Pour un acheteur, cela a des implications pratiques : les appartements en hauteur (au-dessus du 4e étage dans les immeubles de grande hauteur, ou dans les collines au-dessus de 250 m) échappent souvent aux pires épisodes. Les logements sur la Bastille côté sud ou dans les quartiers de Meylan, Echirolles ou Saint-Martin-d'Hères bénéficient de meilleures données qualité de l'air que le cœur de l'agglomération. Ce n'est pas une raison de ne pas acheter à Grenoble — la ville a des atouts considérables — mais c'est un paramètre à intégrer si vous avez des antécédents respiratoires. Les données ATMO Auvergne-Rhône-Alpes (atmo-auvergnerhonealpes.fr) permettent de consulter la qualité de l'air adresse par adresse."
+      },
+      {
+        heading: "Ce que Grenoble offre que beaucoup de grandes villes n'ont pas",
+        body: "À 2 000-2 500 €/m², vous achetez dans une ville avec un pôle technologique de niveau mondial, une université classée top 150 en sciences, des connexions directes TGV à Paris (3h), Lyon (1h15) et Marseille (1h50), et les Alpes à moins de 45 minutes. Ce rapport qualité-prix n'existe nulle part ailleurs en France pour un profil comparable. Le seul vrai risque d'achat à Grenoble est de choisir un mauvais quartier ou un immeuble mal entretenu — ce qui amplifie à la baisse dans une ville où la pression à la hausse est moins puissante qu'à Lyon ou Bordeaux. Faites une étude de copropriété sérieuse, vérifiez le DPE, et choisissez un quartier avec une dynamique positive (Berriat, Presqu'île, Île Verte) plutôt que d'optimiser sur le prix brut dans un secteur délicat."
+      }
+    ],
+    relatedCities: ["grenoble", "annecy", "chambery", "valence", "lyon"],
+    relatedGuides: [
+      "auvergne-rhone-alpes-lyon-grenoble-annecy",
+      "acheter-immobilier-france-meilleures-villes-2025",
+      "meilleures-villes-freelances-independants-france-2026",
+    ],
+    tags: ["acheter Grenoble", "immobilier Grenoble 2026", "prix m² Grenoble", "Presqu'île Grenoble", "primo-accédant Grenoble", "2026"],
+  },
+  {
+    slug: "ptz-pret-taux-zero-2026-guide-complet",
+    title: "PTZ 2026 : comment fonctionne le prêt à taux zéro et qui peut vraiment en bénéficier",
+    metaTitle: "PTZ 2026 : guide complet — conditions, plafonds, zones, simulation",
+    metaDesc:
+      "Plafonds de ressources, zones éligibles, quotité maximale, neuf vs ancien avec travaux : le guide complet du PTZ 2026 pour primo-accédants en France.",
+    category: "budget",
+    emoji: "💚",
+    readMinutes: 9,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Le prêt à taux zéro (PTZ) est l'un des rares dispositifs d'aide à l'accession à la propriété qui a survécu aux multiples réformes fiscales de ces dix ans. Il a été refondu en 2024 et à nouveau ajusté en 2026 — et si vous êtes primo-accédant sous plafonds de ressources, il peut réduire votre mensualité de 200 à 500 euros. Ce guide vous donne les règles exactes applicables en 2026, sans enrober dans du jargon ou des conditions qui ne s'appliquent qu'à 3 % des cas.",
+    sections: [
+      {
+        heading: "C'est quoi le PTZ, exactement ?",
+        body: "Le prêt à taux zéro est un prêt immobilier sans intérêts financé par l'État, distribué par les banques agréées. Ce n'est pas une aide directe — vous empruntez de l'argent que vous remboursez, mais sans payer d'intérêts dessus. Sur 20 ans d'emprunt, l'économie est substantielle : pour 80 000 euros de PTZ à un taux habituel de 3,5 %, la différence représente environ 50 000 euros d'intérêts économisés. Le PTZ ne finance pas la totalité de votre achat — il est plafonné en montant et vient en complément d'un prêt principal. Votre banque calcule le financement global : PTZ + prêt principal (+ éventuellement épargne logement). Le différé de remboursement (période pendant laquelle vous ne remboursez pas le PTZ, seulement le prêt principal) est l'autre avantage clé — pendant 5 à 15 ans selon vos revenus, vous n'avez pas de mensualité PTZ, ce qui allège la charge initiale."
+      },
+      {
+        heading: "Qui y a droit en 2026 : conditions de revenus et de primo-accession",
+        body: "Condition numéro 1 : vous ne devez pas avoir été propriétaire de votre résidence principale dans les 2 ans précédant la demande. Exception : les personnes en situation de handicap et les victimes de catastrophe naturelle qui ont perdu leur logement sont exonérées de cette condition. Condition numéro 2 : votre revenu fiscal de référence (RFR) ne doit pas dépasser un plafond qui varie selon la zone et le nombre de personnes dans le foyer. En zone A bis (Paris intra-muros, communes de la petite couronne) : 37 000 €/an pour 1 personne, 51 800 € pour 2, 62 900 € pour 3. En zone B1 (grandes villes, Côte d'Azur, Île-de-France périphérie) : 30 000 € pour 1, 42 000 € pour 2, 51 000 € pour 3. En zone B2 et C (reste de la France) : 27 000 € pour 1, 37 800 € pour 2, 45 900 € pour 3. Ces plafonds sont ceux du RFR de l'année N-2 — c'est votre avis d'imposition de 2024 (revenus 2023) qui sert de référence pour un PTZ sollicité en 2026."
+      },
+      {
+        heading: "Neuf vs ancien avec travaux : les règles actuelles",
+        body: "Depuis la réforme de 2024, le PTZ couvre à la fois le neuf et l'ancien avec travaux, mais les règles diffèrent. Neuf : la quotité PTZ (part du prix financée par le PTZ) est de 40 % en zones A bis et A, 40 % en zone B1, et 20 % en zones B2 et C. Ancien avec travaux : éligible si les travaux représentent au moins 25 % du coût total de l'opération. La quotité est de 40 % en zones A et B1, 40 % en zones B2 et C (c'est là que le PTZ 2026 a élargi l'accès — l'ancien avec travaux est désormais éligible partout). Cette extension est significative pour les communes rurales et les villes moyennes hors zones tendues : vous pouvez acheter une maison ancienne à rénover dans la Creuse, le Gers ou l'Ariège et financer jusqu'à 40 % en PTZ à taux zéro. Le montant maximal du PTZ est par ailleurs plafonné en valeur absolue (de 80 000 à 150 000 € selon la zone et le nombre de personnes) — ce plafond s'applique si le prix d'achat est très élevé."
+      },
+      {
+        heading: "Simulation concrète : que gagnez-vous vraiment ?",
+        body: "Prenons un ménage de 2 personnes, RFR 2023 = 38 000 €, achète un appartement T3 de 180 000 € en zone B1 (Nantes, par exemple) dans l'ancien avec travaux de rénovation (50 000 €). Prix total de l'opération : 230 000 €. PTZ éligible : 40 % de 230 000 = 92 000 €, plafonné au maximum B1 à 2 personnes soit 83 000 €. Différé de remboursement : 10 ans (niveau de revenus intermédiaire). Pendant 10 ans, vous remboursez uniquement votre prêt principal de 147 000 € → mensualité environ 970 €/mois à 3,5 % sur 20 ans. Sans PTZ, vous auriez emprunté 230 000 € → mensualité environ 1 340 €/mois. Économie sur les 10 premières années : 370 €/mois = 44 400 €. Sur la totalité du prêt, l'économie d'intérêts sur le PTZ représente environ 44 000 à 52 000 € selon la durée. C'est le genre d'ordre de grandeur que les banques présentent rarement avec clarté dans leurs premières simulations."
+      },
+      {
+        heading: "Les banques qui distribuent le PTZ et comment le demander",
+        body: "Le PTZ est distribué par les banques accréditées par l'État — en pratique, toutes les grandes banques (BNP Paribas, Crédit Agricole, Société Générale, LCL, Caisse d'Épargne, Banque Populaire, CIC, HSBC) et la plupart des banques en ligne (Boursorama). La demande se fait dans le cadre de votre demande de financement global — vous ne sollicitez pas le PTZ séparément, vous l'intégrez dans le plan de financement que votre banquier ou courtier constitue. Le point d'attention : certaines banques sont moins proactives que d'autres pour simuler le PTZ dans votre dossier, car elles y gagnent moins d'intérêts qu'un prêt classique. Un courtier indépendant (CAFPI, Meilleurtaux, Vousfinancer) comparera les offres et intègrera systématiquement le PTZ dans la simulation — c'est souvent là que les primo-accédants réalisent qu'ils y ont droit alors qu'aucune banque ne le leur avait signalé."
+      }
+    ],
+    relatedCities: ["nantes", "rennes", "bordeaux", "lyon", "grenoble", "dijon"],
+    relatedGuides: [
+      "meilleures-villes-primo-accedants-france-2026",
+      "devenir-proprietaire-5-ans-strategie-france-2026",
+      "acheter-immobilier-france-meilleures-villes-2025",
+    ],
+    tags: ["PTZ", "prêt à taux zéro", "primo-accédant", "aide achat immobilier", "2026"],
+  },
+  {
+    slug: "acheter-a-dijon-quel-quartier-budget-2026",
+    title: "Acheter à Dijon en 2026 : prix honnêtes, quartiers, pourquoi le marché reste l'un des meilleurs de France",
+    metaTitle: "Acheter à Dijon 2026 — prix m² par quartier, budget réel, opportunités",
+    metaDesc:
+      "Prix au m² par quartier à Dijon, budget primo-accédant avec PTZ, quartiers en valeur, pièges à éviter : guide complet pour acheter un appartement à Dijon en 2026.",
+    category: "budget",
+    emoji: "🍷",
+    readMinutes: 8,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Dijon est régulièrement cité comme l'un des meilleurs rapports qualité-prix immobiliers de France pour une ville avec un tissu économique solide, un TGV direct Paris en 1h35 et un cadre de vie de grande qualité. Les prix ont progressé depuis 2019 mais restent modérés par rapport aux autres métropoles régionales. Ce guide dresse un bilan honnête du marché et des opportunités réelles en 2026.",
+    sections: [
+      {
+        heading: "Les prix par quartier en 2026",
+        body: "Centre historique (Libération, Darcy, Musée, Cathédrale) : 2 200 à 3 200 €/m² pour l'ancien. Les immeubles haussmanniens bien rénovés atteignent 3 000 à 3 500 €/m². Montchapet (ouest, quartier résidentiel bourgeois, calme, très prisé) : 2 400 à 3 400 €/m². Fontaine d'Ouche (nord-ouest, rénovation urbaine en cours) : 1 600 à 2 200 €/m² — décote liée au passé difficile, à surveiller dans 5 ans. Maladière / Bourroches (sud-est, quartier étudiant, bien desservi, jeune) : 2 000 à 2 800 €/m². Parc / Toison d'Or (nord, secteur commercial et résidentiel) : 1 900 à 2 600 €/m². Valmy / Victor Hugo (proche gare) : 2 000 à 2 800 €/m². L'ancien bien entretenu reste la meilleure opportunité — les logements typiques de Dijon (immeubles de 3-5 étages, années 1900-1960) ont du caractère et des volumes que le neuf local ne reproduit pas."
+      },
+      {
+        heading: "Budget et financement : ce qu'un primo-accédant peut vraiment faire",
+        body: "Un T2 de 45 m² dans le centre élargi (Maladière, Victor Hugo, Bourroches) coûte 95 000 à 130 000 euros en 2026. Avec 10 % d'apport + frais de notaire (environ 8 % dans l'ancien), il vous faut 17 000 à 23 000 euros. Dijon est en zone B2 — la quotité PTZ dans l'ancien avec travaux est de 40 %, ce qui peut représenter jusqu'à 55 000 euros de financement sans intérêts sur un bien de 140 000 euros avec une part travaux. Pour un ménage de 2 personnes avec un RFR sous 37 800 €, l'ensemble PTZ + prêt principal sur 20 ans amène la mensualité vers 600 à 700 euros pour un T2 — un niveau très confortable. C'est pour ça que Dijon attire des primo-accédants de Lyon et Paris qui ont épargné 5 à 8 ans sans réussir à acheter dans leur ville d'origine."
+      },
+      {
+        heading: "Quartiers et opportunités en 2026",
+        body: "L'opportunité la plus nette en 2026 est dans les quartiers qui ont bénéficié du renouvellement urbain ces 5 dernières années sans que les prix aient encore pleinement rattrapé. Fontaine d'Ouche fait l'objet d'un NPNRU (Programme National de Renouvellement Urbain) depuis 2018 : les parties réhabilitées ont une infrastructure récente (écoles, commerces de proximité, espaces publics), et les prix restent autour de 1 800-2 000 €/m² pour des logements de bonne qualité. Risque : la transition est encore incomplète, et certaines parties du quartier ont encore des problématiques sociales actives. Sur 10 ans, le potentiel de valorisation est le plus fort de Dijon. Le centre historique est plus sécurisé mais offre moins d'upside — les prix ont déjà intégré la qualité de vie."
+      },
+      {
+        heading: "Pourquoi le marché dijonnais est structurellement solide",
+        body: "Trois raisons pour lesquelles Dijon résiste mieux que d'autres villes aux corrections immobilières : la demande locale est ancrée (forte proportion de fonctionnaires, universitaires, professions libérales avec des emplois stables), le parc locatif privé est abondant ce qui évite les tensions extrêmes observées à Bordeaux ou Nantes, et la ville a peu connu le phénomène de spéculation parisienne qui a dopé puis retourné les marchés de Rennes ou Angers entre 2019 et 2024. Le risque d'effondrement des prix dijonnais est objectivement faible — pas parce que les prix sont bas (ils ont progressé), mais parce que la structure de la demande est résidentielle et locale, pas spéculative. C'est une donnée de fond qui rassure les acheteurs à long terme."
+      },
+      {
+        heading: "Ce qui fait baisser la valeur : les vraies vigilances",
+        body: "Comme dans beaucoup de villes de province, les logements en rez-de-chaussée (surtout sur cour ou sur rue commerçante passante) sont difficiles à valoriser — évitez sauf si le prix est vraiment décoté et que la configuration est spéciale (jardin privatif, belle hauteur sous plafond). Les appartements avec DPE F ou G sont à traiter avec méthode : la réglementation va rendre leur location illicite en 2028 (DPE G) et 2034 (DPE F) — ce qui ferme de fait le marché locatif et force une décote. En achetant un F ou G en 2026, vous achetez dans la certitude de devoir financer des travaux de rénovation dans les 3 à 8 ans. Chiffrez-les avant de signer et négociez le prix en conséquence. La bonne nouvelle : les artisans à Dijon sont plus disponibles et moins chers qu'à Lyon ou Paris — les devis sont obtenables et réalistes."
+      }
+    ],
+    relatedCities: ["dijon", "beaune", "chalon-sur-saone", "besancon", "auxerre"],
+    relatedGuides: [
+      "vivre-en-bourgogne-franche-comte-guide-2025",
+      "meilleures-villes-primo-accedants-france-2026",
+      "ptz-pret-taux-zero-2026-guide-complet",
+    ],
+    tags: ["acheter Dijon", "immobilier Dijon 2026", "prix m² Dijon", "PTZ Dijon", "primo-accédant Bourgogne", "2026"],
+  },
+  {
+    slug: "succession-immobilier-france-guide-2026",
+    title: "Succession et immobilier en France : ce que vous allez payer et comment le réduire légalement",
+    metaTitle: "Succession immobilier France 2026 — droits, abattements, SCI, donation",
+    metaDesc:
+      "Droits de succession sur un bien immobilier, abattements légaux, donation en démembrement, SCI familiale : le guide complet pour préparer la transmission de votre patrimoine en 2026.",
+    category: "budget",
+    emoji: "📜",
+    readMinutes: 10,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "En France, les droits de succession sur un bien immobilier peuvent représenter 20 à 45 % de la valeur transmise selon le lien de parenté et l'actif net. La bonne nouvelle : les abattements légaux sont élevés (100 000 euros entre parent et enfant, renouvelable tous les 15 ans), et des stratégies parfaitement légales permettent de réduire considérablement la facture si on les engage suffisamment tôt. Ce guide vous explique la mécanique, les chiffres, et les leviers concrets.",
+    sections: [
+      {
+        heading: "Les droits de succession en France : la mécanique de base",
+        body: "Les droits de succession sont calculés sur la valeur nette des biens transmis (actif brut - dettes déductibles) après application des abattements personnels. Entre parents et enfants : abattement de 100 000 euros par enfant. Après abattement, le barème progressif s'applique : 5 % jusqu'à 8 072 €, 10 % de 8 072 à 12 109 €, 15 % de 12 109 à 15 932 €, 20 % de 15 932 à 552 324 €, 30 % de 552 324 à 902 838 €, 40 % de 902 838 à 1 805 677 €, 45 % au-delà. Entre époux ou partenaires pacsés : exonération totale depuis 2007. Entre frères et sœurs : abattement de 15 932 €, puis 35 % jusqu'à 24 430 € et 45 % au-delà. Pour les autres héritiers (neveux, amis, concubins) : 55 % ou 60 % selon le lien. Ces taux expliquent pourquoi les couples non mariés avec un patrimoine immobilier significatif ont un intérêt très fort à anticiper — sans disposition testamentaire et sans PACS ou mariage, le partenaire peut se retrouver imposé à 60 %."
+      },
+      {
+        heading: "La donation de son vivant : l'outil le plus efficace",
+        body: "Donner de son vivant plutôt qu'attendre la succession présente deux avantages majeurs. Premier avantage : les abattements sont renouvelables tous les 15 ans. Un parent peut donner 100 000 euros à chaque enfant en franchise de droits, puis recommencer 15 ans plus tard. Pour un couple avec deux enfants, cela représente 400 000 euros de transmission à taux zéro sur une fenêtre de 15 ans. Deuxième avantage : la valeur est figée au moment de la donation, pas au moment du décès. Donner un immeuble qui vaut 300 000 euros aujourd'hui et qui en vaudra 450 000 euros dans 20 ans signifie que les droits sont calculés sur 300 000 euros — l'appréciation bénéficie aux enfants sans être retaxée. La donation doit être formalisée par acte notarié (obligatoire pour l'immobilier) — coût : environ 1 à 2 % de la valeur du bien en frais de notaire."
+      },
+      {
+        heading: "La donation en démembrement : donner sans perdre les revenus",
+        body: "Le démembrement de propriété est l'une des stratégies les plus utilisées pour réduire les droits de succession tout en conservant l'usage du bien. Fonctionnement : le parent conserve l'usufruit (le droit d'habiter le bien ou d'en percevoir les loyers) et donne la nue-propriété aux enfants. L'enfant devient propriétaire, mais le parent reste maître des revenus. Au décès du parent, l'usufruit s'éteint et l'enfant récupère la pleine propriété sans droits supplémentaires — parce que la transmission de la nue-propriété a déjà eu lieu. La valeur fiscale de la nue-propriété est réduite selon l'âge du donateur (barème légal : à 60 ans, la nue-propriété vaut 40 % de la valeur totale ; à 70 ans, 50 % ; à 80 ans, 70 %). Concrètement : pour un immeuble de 400 000 euros, un donateur de 65 ans qui cède la nue-propriété transmet fiscalement 200 000 euros — soit un droit de succession réduit de moitié."
+      },
+      {
+        heading: "La SCI familiale : bien réelle mais mal comprise",
+        body: "La Société Civile Immobilière (SCI) permet de détenir un immeuble en famille sous forme de parts sociales. Elle n'est pas un outil fiscal miracle — mais elle simplifie la transmission et permet de la lisser dans le temps. Avantages réels : transmission par parts progressives (donner des parts chaque année ou tous les 15 ans dans la limite des abattements), pas de gestion indivise en cas de décès (le bien reste dans la société, évitant les blocages), application possible d'une décote de liquidité sur la valeur des parts (10 à 20 % admis par l'administration car les parts d'une SCI non cotée sont moins liquides qu'un immeuble direct). Inconvénients souvent oubliés : frais de constitution et de gestion (comptabilité annuelle obligatoire, modification des statuts, AG), complexité accrue en cas de mésentente entre associés, régime fiscal de la SCI à l'IS (impôt sur les sociétés) qui peut être défavorable si les biens sont revendus. La SCI pertinente est celle qui sera conservée sur plusieurs décennies, pas celle montée pour une seule transmission."
+      },
+      {
+        heading: "Quand et comment agir : le rôle clé du notaire",
+        body: "La règle d'or : commencer 15 ans avant le moment où vous pensez que le sujet deviendra urgent. Les stratégies de donation prennent du temps pour déployer leurs effets (renouvellement des abattements, démembrement progressif). Un premier rendez-vous notarial de bilan patrimonial est généralement gratuit ou peu coûteux, et permet de cartographier votre situation, les actifs concernés, les héritiers potentiels et les options disponibles. Le notaire a une obligation de conseil — il doit vous présenter les solutions existantes, pas seulement rédiger l'acte que vous lui apportez. Prenez un notaire spécialisé en droit patrimonial ou en fiscalité successorale si votre patrimoine dépasse 500 000 euros. Pour les patrimoines plus modestes, votre notaire de ville habituel suffit généralement. Dernier point : les règles changent — les abattements et les barèmes peuvent être modifiés par les lois de finances. Ce guide reflète les règles de 2026 mais une vérification annuelle du cadre légal est recommandée."
+      }
+    ],
+    relatedCities: ["paris", "lyon", "bordeaux", "dijon", "nantes"],
+    relatedGuides: [
+      "sci-familiale-france-2026-montage-transmission",
+      "demembrement-croise-immobilier-france-2026",
+      "acheter-avec-pret-familial-france-2026",
+    ],
+    tags: ["succession", "droits de succession", "donation immobilier", "SCI", "démembrement", "héritage", "2026"],
+  },
+  {
+    slug: "negocier-prix-immobilier-france-guide-2026",
+    title: "Négocier le prix d'un appartement en France : méthode, arguments, combien espérer",
+    metaTitle: "Négocier prix immobilier France 2026 — méthode, arguments, marge réelle",
+    metaDesc:
+      "Marché tendu ou détendu, délai de vente, DPE, travaux : les arguments qui font baisser le prix et ceux qui ne servent à rien. Guide pratique pour négocier un achat immobilier en France en 2026.",
+    category: "budget",
+    emoji: "🤝",
+    readMinutes: 8,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "La négociation immobilière en France est culturellement moins formalisée qu'aux États-Unis ou au Royaume-Uni, mais elle existe — et elle peut représenter 3 à 15 % du prix de vente selon la situation du bien et du marché local. Ce guide vous dit comment lire le marché, quels arguments sont recevables, lesquels ne font que vous discréditer, et comment construire une offre qui a une chance d'être acceptée.",
+    sections: [
+      {
+        heading: "Lire le marché avant de négocier",
+        body: "La marge de négociation varie radicalement selon la tension du marché local. Dans un marché très tendu (Paris intra-muros, Lyon Presqu'île, Bordeaux centre, Annecy, Biarritz) : les biens bien prix trouvent acquéreur en 2 à 4 semaines et les offres en dessous du prix sont rarement acceptées — une négociation de 1 à 3 % est le maximum réaliste. Dans un marché intermédiaire (ville moyenne dynamique, première couronne des grandes métropoles) : 3 à 7 % de négociation sont courants pour des biens sans défaut majeur. Dans un marché détendu (villes moyennes en déclin, zones rurales éloignées, segments haut de gamme de villes peu recherchées) : 8 à 15 % sont possibles sur des biens qui traînent depuis 3 mois ou plus. Pour lire la tension : le délai moyen de vente (visible sur Meilleurs Agents, PAP, ou en demandant l'agent immobilier directement) est votre meilleur indicateur. Un bien vendu en moins de 30 jours en moyenne dans le secteur n'a presque aucune marge ; un bien qui dépasse 90 jours est clairement en position de négociation."
+      },
+      {
+        heading: "Les arguments qui font vraiment baisser le prix",
+        body: "DPE F ou G : depuis 2022, un bien classé F ou G implique des travaux obligatoires avant de le louer (dès 2025 pour les G, 2028 pour les F). Ce point est légal, quantifiable et incontestable — si vous avez un devis de rénovation énergétique de 25 000 euros pour amener le bien au niveau E, c'est 25 000 euros de moins dans votre offre, argumentés devis à l'appui. Travaux déjà visibles : toiture vieillissante, humidité, chaudière ancienne — chiffrez-les et déduisez. Les vendeurs qui refusent ces arguments ont généralement mal prix leur bien. Durée de mise en vente : si un bien est en vente depuis plus de 3 mois sans offre, le vendeur est psychologiquement prêt à négocier même s'il ne l'admet pas. Une offre ferme mais inférieure de 8 à 10 % peut débloquer une discussion que rien d'autre n'aurait ouverte. Dossier solide (financement confirmé, pas de condition suspensive d'obtention de prêt si vous êtes cash) : un acheteur certain qui offre 5 % de moins qu'un acheteur incertain au prix peut emporter le bien."
+      },
+      {
+        heading: "Les arguments qui ne fonctionnent pas",
+        body: "« J'ai vu un bien moins cher dans la même rue » : les biens ne sont pas comparables à la rue. L'exposition, l'étage, l'état, le double vitrage, la cave — chaque variable compte. Présenter un bien différent comme référence est rarement convaincant. « Mon budget est limité à X » : ce n'est pas un argument pour le vendeur — c'est votre contrainte, pas la sienne. Cela peut même signaler que vous n'êtes pas le bon acheteur. « Je n'aime pas la décoration » : l'immobilier se revend vide et les meubles ne comptent pas dans le prix légal. Décorer ne coûte rien au vendeur — c'est un mauvais levier. « Le marché va baisser » : les vendeurs entendent ça depuis 15 ans. Sans données locales précises et récentes, cet argument n'a aucun poids. Il est souvent perçu comme un aveu de manque de moyens plutôt qu'une analyse."
+      },
+      {
+        heading: "Comment formuler une offre",
+        body: "L'offre d'achat en France est rédigée par écrit (lettre ou formulaire) et engage juridiquement l'acheteur si elle est acceptée. Ne faites donc pas une offre que vous ne souhaitez pas voir accepter. Structure d'une bonne offre : prix ferme (sans fourchette « entre X et Y »), conditions suspensives clairement listées (obtention de prêt, avec quel délai et à quel taux), date de réponse demandée (10 à 15 jours maximum), modalités d'entrée en possession (date de signature de l'acte définitif). Pour les biens avec travaux : joindre les devis obtenus et expliciter le lien entre les travaux et la réduction de prix que vous demandez. Une offre argumentée est presque toujours mieux reçue qu'une offre chiffrée sans explication — même si elle est inférieure de 10 % au prix affiché."
+      },
+      {
+        heading: "Quand passer par un chasseur immobilier",
+        body: "Un chasseur immobilier (mandataire exclusif de l'acheteur, à distinguer de l'agent du vendeur) prend en charge la recherche, la visite et la négociation pour votre compte. Sa rémunération est typiquement 2 à 3 % du prix d'achat, payée par l'acheteur. Dans un marché tendu, un bon chasseur a accès à des biens off-market (vendus avant publication) et peut vous faire gagner 2 à 4 mois de recherche. Dans un marché détendu, il apporte surtout une capacité de négociation et un gain de temps. Pour un appartement à 300 000 euros, les honoraires de 7 000 à 9 000 euros peuvent être rentables si le chasseur obtient une négociation de 5 % (15 000 euros) que vous n'auriez pas obtenue seul. La question à poser au chasseur avant de signer le mandat : « Quelle est votre marge de négociation moyenne obtenue sur les 12 derniers mois ? » S'il ne peut pas répondre avec des chiffres, cherchez quelqu'un d'autre."
+      }
+    ],
+    relatedCities: ["paris", "lyon", "bordeaux", "nantes", "dijon", "grenoble"],
+    relatedGuides: [
+      "acheter-immobilier-france-meilleures-villes-2025",
+      "trouver-appartement-france-guide-pratique-2026",
+      "bilan-energetique-avant-achat-france-2026",
+    ],
+    tags: ["négociation immobilière", "offre d'achat", "DPE", "prix immobilier", "chasseur immobilier", "2026"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
