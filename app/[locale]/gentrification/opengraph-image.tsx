@@ -1,0 +1,60 @@
+import { ImageResponse } from "next/og";
+import { CITIES_COUNT } from "@/lib/site-stats";
+
+export const alt = "Gentrification index 2026 — French cities on the rise | BestCitiesInFrance";
+export const size = { width: 1200, height: 630 };
+export const contentType = "image/png";
+
+const SIGNALS = [
+  { emoji: "📈", label: "Property price momentum" },
+  { emoji: "👥", label: "25–35 demographic shift" },
+  { emoji: "☕", label: "Café & coworking density" },
+  { emoji: "🚴", label: "Cycling infrastructure" },
+  { emoji: "🏗️", label: "Urban renewal projects" },
+  { emoji: "💻", label: "Remote worker influx" },
+];
+
+export default function Image() {
+  return new ImageResponse(
+    (
+      <div
+        style={{
+          width: "100%",
+          height: "100%",
+          background: "linear-gradient(135deg, #0d1117 0%, #0f0a1a 100%)",
+          display: "flex",
+          flexDirection: "column",
+          fontFamily: "system-ui, -apple-system, sans-serif",
+          padding: "56px 64px",
+          justifyContent: "space-between",
+        }}
+      >
+        <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
+          <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+            <svg width="32" height="32" viewBox="0 0 32 32"><rect width="32" height="32" rx="7" fill="#0D9488" /><path d="M16 4C11.13 4 7 8.13 7 13c0 8 9 15 9 15s9-7 9-15c0-4.87-4.13-9-9-9z" fill="white" /><circle cx="16" cy="13" r="3.5" fill="#0D9488" /></svg>
+            <span style={{ color: "#0D9488", fontSize: "20px", fontWeight: 700 }}>BestCitiesInFrance</span>
+          </div>
+          <div style={{ background: "#161b22", border: "1px solid #a855f7", borderRadius: "8px", padding: "6px 14px", color: "#a855f7", fontSize: "14px" }}>
+            {CITIES_COUNT} cities ranked
+          </div>
+        </div>
+
+        <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
+          <div style={{ color: "#a855f7", fontSize: "16px", letterSpacing: "2px", textTransform: "uppercase", fontWeight: 600 }}>Composite score 0–100</div>
+          <div style={{ color: "#f0f6fc", fontSize: "58px", fontWeight: 900, lineHeight: 1 }}>Gentrification index</div>
+          <div style={{ color: "#8b949e", fontSize: "18px" }}>Cities on the rise in 2026 — before it gets expensive</div>
+        </div>
+
+        <div style={{ display: "flex", gap: "10px", flexWrap: "wrap" }}>
+          {SIGNALS.map((s) => (
+            <div key={s.label} style={{ background: "#1a1025", border: "1px solid #a855f722", borderRadius: "10px", padding: "8px 14px", display: "flex", alignItems: "center", gap: "8px" }}>
+              <span style={{ fontSize: "16px" }}>{s.emoji}</span>
+              <span style={{ color: "#c4b5fd", fontSize: "13px", fontWeight: 600 }}>{s.label}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    ),
+    { ...size }
+  );
+}
