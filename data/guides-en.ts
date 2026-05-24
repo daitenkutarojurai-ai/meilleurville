@@ -3475,6 +3475,146 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["bordeaux", "dijon", "strasbourg", "tours", "avignon"],
     tags: ["wine regions france", "living in wine country", "bordeaux", "burgundy", "alsace"],
   },
+  {
+    slug: "tours-loire-valley-living-guide-2026",
+    title: "Living in Tours: a quiet case for the Loire Valley's most liveable city",
+    metaTitle: "Living in Tours 2026 — Loire Valley Relocation Guide",
+    metaDesc:
+      "Tours is 1 hour from Paris by TGV, surrounded by Châteaux de la Loire, and priced at a fraction of the cities attracting the most attention. An honest case for an underrated destination.",
+    category: "city-guide",
+    emoji: "🏰",
+    readMinutes: 5,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Tours is the kind of city that doesn't make headlines but consistently appears in quality-of-life surveys near the top of its category. It's 1h from Paris by TGV, in the heart of the Loire Valley UNESCO World Heritage landscape, within cycling distance of Châteaux de Chambord and Chenonceau, and costs roughly half what Bordeaux or Nantes charge for comparable housing. It has a university (30,000 students), a genuine historic centre, and a climate that's slightly warmer and sunnier than Paris without approaching the Mediterranean extremes.",
+    sections: [
+      {
+        heading: "Position and climate",
+        body: "Tours sits at the confluence of the Loire and Cher rivers, 240km southwest of Paris. The TGV takes 1 hour (Paris Montparnasse to Saint-Pierre-des-Corps, with a connecting tram to the centre). The climate is transitional between oceanic and semi-continental: more sunshine than Paris or the Atlantic coast (1,900-2,000 hours per year), milder winters than the continental interior, hot summers (the Loire Valley heat funnels significantly). Average January temperature: 4°C. Average July: 21°C. The vine yards of Vouvray (Chenin Blanc) and Chinon (Cabernet Franc) begin immediately east and west.",
+      },
+      {
+        heading: "Housing and cost of living",
+        body: "Tours property averages €2,000-2,800/m² in good central neighbourhoods (Vieux Tours, Prébendes, Rabelais), €1,600-2,200/m² in outer areas. T2 rents: €550-700/month. This compares very favourably with Nantes (€700-900), Bordeaux (€750-1,000), or Lyon (€800-1,050). The cost of living is proportionally lower: restaurants, services, and daily goods are priced for a regional rather than a national market. For remote workers earning Lyon-level or Paris-level salaries, Tours offers dramatic purchasing power improvement for equivalent quality of living.",
+      },
+      {
+        heading: "What Tours actually looks like",
+        body: "The Vieux Tours (old city) has a well-preserved half-timbered core that survived WWII (unlike many Loire cities). The Place Plumereau is the social centre — bars and restaurants in a genuinely medieval square, not a reconstruction. The Prébendes d'Oé park (140 hectares) is one of France's most underrated city parks. The Loire riverbanks are accessible by cycle path in both directions — westward towards Villandry (15km), eastward towards Amboise (25km). The weekly covered market (Les Halles) is serious about regional produce.",
+      },
+      {
+        heading: "Economy and job market",
+        body: "Tours is not a major employment hub — the economy is public-sector weighted (Université de Tours, CHR hospital, regional administration) with a growing healthcare and biotech cluster. For private-sector career-seekers in competitive fields, Tours has limitations: Paris is the obvious move for ambition, and Nantes has more private-sector depth. For remote workers, academics, or people in healthcare, it works well. The Loire Valley as a whole (extending to Orléans, 1h20 from Paris) is developing as a remote-work corridor precisely because the Paris TGV connection makes 1-2 days per week in the capital feasible.",
+      },
+    ],
+    relatedCities: ["tours", "blois", "amboise", "angers", "orleans"],
+    tags: ["tours", "loire valley", "château country", "paris commuter", "affordable france"],
+  },
+  {
+    slug: "clermont-ferrand-living-guide-2026",
+    title: "Living in Clermont-Ferrand: Michelin's city and the Massif Central gateway",
+    metaTitle: "Living in Clermont-Ferrand 2026 — Honest Relocation Guide",
+    metaDesc:
+      "Clermont-Ferrand is affordable, volcanic, and powered by Michelin. One of France's most overlooked cities for quality-of-life value. The honest account.",
+    category: "city-guide",
+    emoji: "🌋",
+    readMinutes: 5,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Clermont-Ferrand doesn't appear in most relocation conversations, which is part of why it offers some of France's best quality-of-life value. It's the capital of the Auvergne, dominated by Michelin (the tyre company, founded here in 1889), with a dark volcanic stone old town that's genuinely striking, an extinct volcano (the Puy de Dôme) visible from the city, and property prices that make Nantes or Bordeaux look extravagant.",
+    sections: [
+      {
+        heading: "Economy: Michelin and more",
+        body: "Michelin's world headquarters and main research complex are in Clermont-Ferrand — the company employs 26,000 people locally and has shaped the city's technical and engineering culture for 135 years. This creates a specific type of economy: strong in manufacturing and industrial R&D, with a supporting ecosystem of engineering consultancies and suppliers. The Université Clermont Auvergne (30,000 students) adds academic employment. Beyond Michelin, the city has a growing digital and tech sector (French Tech label), and a serious biomedical cluster. The employment picture is more varied than the single-employer narrative suggests.",
+      },
+      {
+        heading: "Housing: genuinely cheap for a city of this size",
+        body: "Clermont-Ferrand property averages €1,600-2,400/m² in good areas — substantially cheaper than comparable-sized French cities. T2 rents: €500-650/month. This reflects both the Auvergne location discount (interior France doesn't attract the same demand as Atlantic or Mediterranean cities) and the fact that the city hasn't been 'discovered' in the way that Bordeaux or Nantes were. For buyers, this creates real opportunity: Clermont is a complete metropolitan city with 470,000 people in its metro area, excellent medical facilities (CHU), and a proper cultural life at rural France prices.",
+      },
+      {
+        heading: "The outdoors access: extraordinary by urban standards",
+        body: "The Puy de Dôme (1,465m) is 15km from the city centre. The Chaîne des Puys — a chain of 80 extinct volcanoes — is UNESCO World Heritage listed and begins at the city's edge. The Massif Central offers hiking, skiing (Superbesse, Le Mont-Dore, 50-70km away), mountain biking, and kayaking. Auvergne is known for rivers (Allier, Dore) and lakes (Lac Chambon, Lac d'Aydat). The outdoor access from a city of this size is exceptional — comparable to what Grenoble offers, at a fraction of the price.",
+      },
+      {
+        heading: "What doesn't work",
+        body: "Clermont's main limitations: it's 3h40 from Paris by train (no TGV yet — the Clermont-Lyon-Paris LGV is in long-term planning), which makes weekly Paris commuting impractical. The social environment is shaped by Michelin's conservative corporate culture in ways that some people find limiting. The climate is continental and cold in winter (Clermont is 400m in altitude) — frosts are regular from November to March. The city lacks the cosmopolitan diversity of Lyon or Bordeaux. For remote workers without Paris obligations, these limitations are manageable; for career-movers with Paris ties, the train connection is a genuine constraint.",
+      },
+    ],
+    relatedCities: ["clermont-ferrand", "vichy", "riom", "issoire", "thiers"],
+    tags: ["clermont ferrand", "auvergne", "massif central", "michelin", "volcanic france"],
+  },
+  {
+    slug: "navigating-french-bureaucracy-2026",
+    title: "Navigating French bureaucracy: a guide that actually helps",
+    metaTitle: "French Bureaucracy Guide for Expats 2026 — Practical Survival Guide",
+    metaDesc:
+      "French administrative processes are genuinely complex. This guide covers the préfecture system, the key registrations in sequence, how to avoid the most common mistakes, and what to expect.",
+    category: "moving",
+    emoji: "📄",
+    readMinutes: 8,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "French bureaucracy has a specific reputation that is partly earned and partly exaggerated. It is genuinely slow, sometimes inconsistent between offices, and often under-explained in English. The pre-arrival research phase tends to produce warnings without solutions. This guide tries to be the opposite: specific about sequence, honest about timelines, and focused on the steps that actually block progress versus the ones that are merely annoying.",
+    sections: [
+      {
+        heading: "The sequence that matters",
+        body: "Most registrations in France have dependencies that aren't well-signposted. The logical order: 1) Arrive with a valid long-stay visa (VLS-TS) if required — this is your entry permit, typically issued before departure. 2) Within 3 months of arrival, validate your VLS-TS online at OFII (Office Français de l'Immigration et de l'Intégration) — this is mandatory for most visa types and triggers your medical appointment. 3) Open a bank account (see the circular problem below). 4) Register your address at the mairie if required (not universal, but needed for some services). 5) Obtain a numéro fiscal (tax number) from the Service des Impôts. 6) Register for Assurance Maladie via Ameli.fr. 7) If employed, your employer handles most of the Urssaf (social charge) registration.",
+      },
+      {
+        heading: "The bank account problem",
+        body: "Opening a French bank account is the bureaucratic node that blocks everything else, because many French services (rental deposits, CAF housing aid, utility direct debits) require a French RIB (banking identity). The circular problem: banks want a French address proof to open an account, and addresses require a bank account for some documentation. Solutions that work: 1) Neo-banks with no French address requirement: N26 (German, EU passporting in France), Revolut (EU regulated), Wise (provides French IBAN immediately). Use one of these as your bridge account. 2) BNP Paribas and Société Générale occasionally open accounts for non-residents with foreign address — call the expat services lines. 3) Crédit Agricole has a programme for incoming residents. The neo-bank approach is usually fastest.",
+      },
+      {
+        heading: "The préfecture: when and why",
+        body: "The préfecture (or sous-préfecture for smaller areas) is where residence permits (titres de séjour) are obtained. EU citizens do not need a titre de séjour but may request an Attestation d'Enregistrement for practical reasons (some landlords, banks, and employers request it). Non-EU citizens need to apply for a titre de séjour to extend beyond their initial visa. The préfecture system is digitising: most applications now go through the Administration.gouv.fr portal rather than in-person. However, appointments (rendez-vous) are still needed for certain procedures, and the wait times vary dramatically by préfecture — Paris préfectures are notoriously backed up; smaller préfectures can be faster.",
+      },
+      {
+        heading: "CAF and social benefits",
+        body: "The Caisse d'Allocations Familiales (CAF) administers housing aid (APL — Aide Personnalisée au Logement) and family benefits. EU citizens with legal residence and income qualifying for APL can apply; non-EU citizens may need a year of legal residence first for some benefits. The APL application is online at Caf.fr — you'll need your RIB, lease, and income declaration. Processing takes 2-4 months. The APL amounts are calculated based on your rent and income; the current maximums for a T2 are around €200-350/month in most French regions (higher in Paris). This is meaningful money — apply early rather than late.",
+      },
+      {
+        heading: "Managing the waiting: what to do while you wait",
+        body: "French administrative processes are slow. The Assurance Maladie registration can take 2-6 months; the titre de séjour renewal can take 4-8 months; the préfecture appointment system can take months just for an appointment. The legal protection while waiting: you are legally protected with a récépissé (receipt confirming your application is in process) — this has the same legal effect as the document you're waiting for, in most contexts. Keep every piece of correspondence. Follow up by registered letter (lettre recommandée avec accusé de réception) if you've heard nothing after the stated processing time. The online Démarches Simplifiées system tracks some applications, but not all.",
+      },
+    ],
+    relatedCities: ["paris", "lyon", "bordeaux", "marseille", "strasbourg"],
+    tags: ["french bureaucracy", "préfecture", "bank account france", "visa france", "expat registration"],
+  },
+  {
+    slug: "avignon-provence-living-guide-2026",
+    title: "Living in Avignon: medieval walls, theatre, and the Southern Rhône",
+    metaTitle: "Living in Avignon 2026 — Provence Relocation Guide",
+    metaDesc:
+      "Avignon combines medieval UNESCO heritage, the Southern Rhône wine country, and a manageable cost of living. An honest account of life inside and outside the walls.",
+    category: "city-guide",
+    emoji: "🌉",
+    readMinutes: 5,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro:
+      "Avignon is one of France's most immediately arresting cities: the medieval city wall (Les Remparts) encircles the entire historic centre, the Palais des Papes dominates the skyline, and the broken Pont d'Avignon is one of Europe's most famous bridges. Beyond the tourism — and there is a lot of tourism — Avignon has a genuine urban life as the capital of the Vaucluse department, with a university, solid healthcare, and a TGV station that makes Lyon and Marseille accessible in under an hour.",
+    sections: [
+      {
+        heading: "Position: the Southern Rhône's natural hub",
+        body: "Avignon sits at the confluence of the Rhône and Durance rivers, 80km from Marseille by TGV (35 min), 1h15 from Lyon, 2h45 from Paris. The TGV station (Avignon TGV) is outside the city centre — a shuttle connects it in 10 minutes. The geography is remarkable: the Luberon (30km east), the Alpilles (20km southwest, Les Baux-de-Provence), the Camargue (45km south), and the Southern Rhône wine country (Châteauneuf-du-Pape is 15km north) are all within an hour's drive. This is the densest concentration of Provençal landscape per kilometre of any city in France.",
+      },
+      {
+        heading: "Housing: Provençal at a moderate price",
+        body: "Inside the city walls, property averages €3,000-4,000/m² — reflecting the heritage premium and international buyer interest (the Avignon Festival brings global attention every July). Outside the walls and in the immediate suburban communes, prices drop to €2,200-3,000/m². The surrounding Vaucluse countryside (Gordes, Ménerbes, Bonnieux in the Luberon) is very expensive — the Luberon has been a destination for wealthy Parisians and Northern Europeans for 30 years and prices reflect this. Communes further from the Luberon axis (Cavaillon, Orange, Carpentras) are considerably more affordable.",
+      },
+      {
+        heading: "The Festival d'Avignon and cultural life",
+        body: "The Festival d'Avignon (three weeks in July) is Europe's largest performing arts festival — 1,400 shows, 40 venues, 150,000 spectators. It transforms the city completely: the population doubles, tickets sell months in advance, and every courtyard becomes a theatre. For residents, this is either an extraordinary annual event or an unavoidable disruption depending on tolerance for crowds and noise. Outside festival season, Avignon has a year-round cultural calendar of theatre, opera, and music that punches well above its size (90,000 people). The Collection Lambert (contemporary art) and the Musée du Petit Palais are genuinely significant cultural institutions.",
+      },
+      {
+        heading: "Climate: hot Provençal summers, manageable winters",
+        body: "Avignon averages 2,700 sunshine hours per year — in the top tier of French cities. Summers are hot and dry: July and August regularly reach 35-38°C, with occasional heat spikes above 40°C during canicule events (the Rhône Valley concentrates heat). The Mistral wind — cold, dry, and strong — blows regularly, particularly in winter and spring; it clears the air and reduces humidity but can be uncomfortable during prolonged episodes. Winters are mild by northern European standards (average January temperature 5°C) but cooler than the Côte d'Azur. For people who want Provençal climate without coastal prices, Avignon delivers.",
+      },
+    ],
+    relatedCities: ["avignon", "nimes", "arles", "aix-en-provence", "orange"],
+    tags: ["avignon", "provence", "southern rhone", "vaucluse", "medieval france"],
+  },
 ];
 
 export function getEnGuide(slug: string): EnGuide | undefined {
