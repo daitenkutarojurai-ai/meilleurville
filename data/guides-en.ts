@@ -4991,6 +4991,202 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["clermont-ferrand", "royat", "beaumont", "issoire"],
     tags: ["living in clermont-ferrand 2026", "clermont expat guide", "clermont-ferrand michelin expat", "clermont affordable city france", "auvergne expat guide 2026"],
   },
+  {
+    slug: "strasbourg-living-guide-for-expats-2026",
+    title: "Living in Strasbourg as an Expat: The Honest Guide (2026)",
+    metaTitle: "Living in Strasbourg 2026 — expat guide: cost of living, neighbourhoods, pros & cons",
+    metaDesc: "Everything expats need to know about Strasbourg: rent, EU institutions, German border life, neighbourhoods, healthcare, and the real daily experience.",
+    category: "city-guide",
+    emoji: "🇪🇺",
+    readMinutes: 11,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "Strasbourg is France's most international city — and not because of tourism. It hosts the European Parliament, the Council of Europe, the European Court of Human Rights, and a dozen other EU institutions. This creates an expat community unlike any other in France: diplomats, MEPs, lawyers, policy professionals, and their families from across the continent. Add a German border you can cross by tram, one of France's best cycling networks, and Alsatian food that's excellent whether you eat meat or not. The downsides exist — high rents, cold winters, crowded at Christmas — but Strasbourg earns its reputation as a genuinely liveable city.",
+    sections: [
+      {
+        heading: "Who moves to Strasbourg and why",
+        body: "The European institutions employ around 5,000 people in Strasbourg directly, with a much larger orbit of consultants, lobbyists, translators, and NGO workers. If you are working for or with EU bodies, Strasbourg is the obvious choice. Beyond the EU bubble, Alsatian industry (automotive supply chain, chemicals, logistics along the Rhine corridor) draws professionals from Germany, Switzerland, and further afield. The University of Strasbourg (50,000 students) has one of France's highest proportions of international students and Erasmus participants. There is also a growing contingent of remote workers attracted by the quality of life and TGV access to Paris (1h50).",
+      },
+      {
+        heading: "Cost of living in Strasbourg",
+        body: "Strasbourg is one of the more expensive cities in France — a consequence of EU salaries, proximity to Germany and Switzerland, and the Alsatian premium on quality of life. Rent for a furnished T2 (one-bedroom) in a central neighbourhood runs €800-1,100/month. A T3 family apartment near good schools is €1,100-1,500/month. Groceries are roughly on par with Paris — you will find yourself shopping across the border in Germany or at the Strasbourg market for fresh produce. A meal in a winstub (traditional Alsatian restaurant) costs €18-30/person. Public transport is subsidised and excellent — the tram network is one of France's best, and cycling infrastructure is exceptional. If you do not own a car, you will save significantly compared to most French cities.",
+      },
+      {
+        heading: "Neighbourhoods: where to live",
+        body: "**Petite France and city centre**: medieval half-timbered district, UNESCO-listed, very desirable and priced accordingly. T2 rents €950-1,200/month. Touristy in summer but genuinely pleasant to live year-round. **Neustadt (German quarter)**: built during German annexation (1871-1918), wide tree-lined boulevards, grand apartments, excellent transport links. Popular with EU professionals. €850-1,100/month for a T2. **Robertsau**: quiet residential area north of the city, close to EU institutions, large family apartments and houses, green spaces along the Ill river. Preferred by families with children. **Krutenau**: bohemian, student-friendly, between the university and the city centre. More affordable (€700-900/month T2), lively bar scene. **Esplanade**: university neighbourhood, high student density, slightly cheaper but less charming. **Lingolsheim / Illkirch-Graffenstaden**: first suburban ring, tram-connected, significantly more affordable (€550-750/month T2). Worth considering for families on a tighter budget.",
+      },
+      {
+        heading: "The German border: daily life advantage",
+        body: "Germany is a tram ride away. Many Strasbourg residents do some or all of their weekly shopping in Kehl (5 minutes by tram across the Rhine) — German supermarkets are generally cheaper for staples, dairy, and particularly alcohol. IKEA is in Germany. DIY stores are in Germany. And German pharmacies, with a different prescription regime, are useful for some medications. If you have children, the bilingual German-French school system in Alsace (ABCM Zweisprachige Schule and public bilingual streams) is a genuine advantage for language development. The borderless Schengen zone makes this seamless.",
+      },
+      {
+        heading: "Healthcare, schools, and practical setup",
+        body: "Healthcare access in Strasbourg is strong — the Hôpitaux Universitaires de Strasbourg (HUS) is a major regional centre with an international patient service. Several private clinics cater to EU staff with supplementary insurance. Registering with a médecin traitant (GP) takes 2-4 weeks — start early. For schools, public options are good by French standards. Expat families often use the European School of Strasbourg (covers primary to baccalaureate with European sections in multiple languages) or German-French bilingual public schools. Setting up a French bank account is straightforward with proof of address and employment — some EU institutions have preferred arrangements with local banks. CAF housing benefit applies if you are not an EU official on a special tax status.",
+      },
+      {
+        heading: "The honest downsides",
+        body: "Strasbourg winters are grey and cold — fog along the Rhine plain, temperatures regularly below zero in January-February, little sunshine from November to March. If you need sun for your mental health, plan winter escapes. The city is extremely crowded during the Christmas market season (December) — genuinely unliveable if you need to move quickly through the city centre. Parking is a nightmare even by French standards. The EU session calendar means the city empties during recesses — some restaurants and businesses close, which feels odd. Alsatian French has a distinct accent and some people switch to Alsatian dialect or German without warning, which can be disorienting until you adjust.",
+      },
+    ],
+    relatedCities: ["strasbourg", "mulhouse", "colmar"],
+    tags: ["living in strasbourg expat 2026", "strasbourg expat guide", "strasbourg eu institutions expat", "strasbourg cost of living 2026", "alsace expat guide"],
+  },
+  {
+    slug: "rennes-living-guide-for-expats-2026",
+    title: "Living in Rennes as an Expat: The Honest Guide (2026)",
+    metaTitle: "Living in Rennes 2026 — expat guide: cost of living, tech scene, Brittany life",
+    metaDesc: "Everything expats need to know about Rennes in 2026: rent, tech industry, neighbourhoods, Breton culture, and the real daily experience.",
+    category: "city-guide",
+    emoji: "🦁",
+    readMinutes: 10,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "Rennes flies under the radar for most international observers focused on Paris, Lyon, or the obvious coastal cities — which is precisely what makes it interesting. The capital of Brittany has quietly built one of France's strongest digital and tech ecosystems, a functioning metro system (with a second line recently completed), one of the country's best weekly markets, and a student population that gives the city an energy disproportionate to its size of 225,000. It rains more than the postcards suggest, but not as much as the Breton reputation implies. And the cost of living, while no longer bargain-basement, remains well below the French premium cities.",
+    sections: [
+      {
+        heading: "Who moves to Rennes and why",
+        body: "Rennes attracts three overlapping expat and migrant profiles. First, tech professionals — Rennes hosts Thales, Orange, Airbus Defence, Capgemini, and a growing startup scene clustered around the Atalante business park and the Digital district. If you work in cybersecurity, telecoms, or aerospace engineering, Rennes has a stronger job market than its size would suggest. Second, students and academics — two universities and several grandes écoles (Sciences Po campus, INSA) attract students from across Europe and Africa. Third, remote workers and lifestyle migrants — Rennes offers the quality of life markers (good food, cultural events, 1h30 TGV from Paris, coast 30 minutes away) at prices that are still meaningfully below Bordeaux, Lyon, or Nantes.",
+      },
+      {
+        heading: "Cost of living in Rennes",
+        body: "Rennes has become more expensive since 2020, but remains cheaper than the most-hyped French cities. A furnished T2 in a central neighbourhood costs €650-900/month. A T3 for a family is €900-1,200/month. Groceries are similar to other major French cities. The Marché des Lices (Saturday market, one of France's largest) is excellent for fresh local produce at reasonable prices — Breton vegetables, fish, charcuterie, cheese. Restaurants in the hypercentre run €15-25 for a main course lunch menu; cheaper in student-oriented areas like the Thabor or Villejean. Transport: the metro (two lines) + bus network is efficient. A monthly pass costs €55.",
+      },
+      {
+        heading: "Neighbourhoods and where to live",
+        body: "**Hypercentre / République**: old medieval streets and 18th-century squares, lively bar scene, good transport. Rents are highest here but still manageable. T2 €750-950/month. **Thabor**: residential area east of the centre, large public park, family-friendly, good schools. Rents slightly above average (€800-1,000/month T2) for the calm and greenery. **Villejean**: university neighbourhood in the northwest, very student-oriented, affordable (T2 €550-700/month). **Beaulieu / Atalante**: east of the city, next to the university campus and tech park. Practical for tech sector workers, not the most charming. T2 €620-780/month. **EuroRennes**: new neighbourhood around the TGV station, modern architecture, good connectivity. Growing slowly; amenities still sparse. **Saint-Grégoire / Cesson-Sévigné**: suburban communes, more family-oriented, good schools, cheaper house prices. Bus/metro connection to Rennes centre in 20-30 min.",
+      },
+      {
+        heading: "The tech ecosystem and job market",
+        body: "Rennes is France's second-largest ICT cluster after Paris, a fact that surprises most people who've never lived there. The Brittany Cyber campus, Orange's research division, Thales' defence electronics, and Airbus' cyber security unit all have significant Rennes presence. Startups cluster around the Labo Numérique and the Coworking Rennes network. English is widely used in technical environments — many team meetings in the tech sector operate in English, particularly where international R&D partners are involved. If you are a software engineer, data scientist, or security researcher, finding a Rennes employer should not be difficult. Other sectors are thinner: healthcare (good CHU Rennes), education, and retail. Finance and consulting are limited.",
+      },
+      {
+        heading: "Brittany: the cultural context",
+        body: "Rennes is in Brittany, which matters. Bretons have a distinct regional identity — Celtic heritage, Breton language (still spoken by several tens of thousands), a festive culture built around pardons (religious festivals), and a genuine coastal obsession. This manifests practically in: an exceptional seafood culture (the freshest mussels, oysters, crab, and langoustines in France are within 30 minutes), a festival calendar throughout the summer (Transmusicales de Rennes is one of Europe's key alternative music festivals), and a sociability that is simultaneously reserved with strangers and extremely generous once a connection is made. The weather is more temperate than continental France — mild winters, cool summers. July and August are the best months. October through February is grey and wet, though rarely cold.",
+      },
+      {
+        heading: "Practical setup: healthcare, schools, admin",
+        body: "CHU Rennes is a major teaching hospital with good specialist coverage. Finding a GP takes persistence — start with the Doctolib platform and cast a wide net across arrondissements. Schools: public schooling in Rennes is solid. For international families, the Lycée International de Rennes (LIR) offers international sections, though it is oversubscribed. Private Catholic schools (under contract with the state, so publicly funded but selective) are popular with French families and accessible to expats. Administrative setup is similar to other French cities: secure your address, get a French SIM card, open a bank account (Crédit Mutuel de Bretagne is the local cooperative bank, very present and well-regarded), then register for social security. CAF benefits apply from the first month of residence.",
+      },
+    ],
+    relatedCities: ["rennes", "saint-malo", "brest"],
+    tags: ["living in rennes expat 2026", "rennes expat guide", "rennes tech sector expat", "rennes cost of living 2026", "brittany expat guide"],
+  },
+  {
+    slug: "nantes-living-guide-for-expats-2026",
+    title: "Living in Nantes as an Expat: The Honest Guide (2026)",
+    metaTitle: "Living in Nantes 2026 — expat guide: cost of living, culture, Loire lifestyle",
+    metaDesc: "Everything expats need to know about Nantes in 2026: rent prices, industries, neighbourhoods, cultural scene, and the real daily experience in France's Atlantic capital.",
+    category: "city-guide",
+    emoji: "🐘",
+    readMinutes: 10,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "Nantes has reinvented itself spectacularly since the closure of its shipyards in the 1980s. The giant mechanical elephant walking its 50,000 passengers per year through the old shipyard district is more than a tourist attraction — it is an accurate symbol of how the city approached its post-industrial transition: with creativity, ambition, and enough absurdism to attract talented people who want to work somewhere interesting. Nantes consistently tops French quality-of-life rankings. The reality is more nuanced than the rankings suggest — housing costs have risen sharply, the weather is frequently disappointing, and the city's growth is putting pressure on its infrastructure — but the fundamentals remain genuinely strong.",
+    sections: [
+      {
+        heading: "Who moves to Nantes and why",
+        body: "Nantes is the economic capital of western France, home to a diversified economy across aerospace (Airbus, Safran), digital/tech (capacity as a tech hub has grown substantially), healthcare (CHU Nantes, pharmaceutical research), and creative industries. For French and European professionals, it offers Paris-level career opportunities in some sectors at significantly lower housing costs — though this gap is narrowing. The international expat community is smaller than in Lyon or Bordeaux but present: Airbus and its supply chain attract British, German, and Spanish engineers; the university brings students from West Africa and southern Europe; and the cultural sector (Machines de l'Île, Festival des 3 Continents) draws creative professionals.",
+      },
+      {
+        heading: "Cost of living in Nantes in 2026",
+        body: "Nantes is no longer cheap. The post-Covid influx of Parisians pushed rents up 20-30% between 2020-2023, and while the market has cooled, it has not reversed. A furnished T2 in the city centre or popular neighbourhoods (Bouffay, Île de Nantes, Zola) costs €800-1,100/month. A T3 for a family is €1,100-1,500/month. For context: Nantes rents are now comparable to Lyon's outer arrondissements. Groceries are similar to other French cities. The Saturday market at the Marché de Talensac is excellent for fresh local produce. Eating out: €15-25 for a decent meal at lunch. Public transport (TAN) has improved significantly with new tram lines and BusWay; a monthly pass is €55.",
+      },
+      {
+        heading: "Neighbourhoods: the real picture",
+        body: "**Bouffay (city centre)**: medieval neighbourhood, restaurants, lively nightlife, tourist traffic. Rents are highest here but the ambiance justifies it for sociable people without children. **Île de Nantes**: former shipyard district, now the city's most creative neighbourhood. Machines de l'Île (mechanical elephant), design agencies, co-working spaces, new residential towers. Growing fast. Rents €850-1,100/month T2. **Zola / Dervallières**: residential, family-oriented, quieter, good schools. **Chantenay / Sainte-Anne**: hillside neighbourhood west of the centre, village atmosphere, spectacular Loire views. Popular with artists and academics. Less central but worth the trade-off. **Doulon / Bottière**: eastern sector, more affordable, improving infrastructure. **Saint-Herblain / Rezé**: suburban communes, well-served by tram, cheaper (€600-800/month T2). Practical for families who want space over centrality.",
+      },
+      {
+        heading: "The cultural scene: beyond the elephant",
+        body: "Nantes takes culture seriously in a way most French cities of similar size do not. The Machines de l'Île (steampunk mechanical animals in the old shipyards), La Folle Journée (classical music festival that sells 200,000 tickets), the Festival des 3 Continents (one of Europe's best world cinema events), and Le Lieu Unique (national cultural centre in a former biscuit factory) are all internationally significant. The city's approach to urban art and public space is distinctive — the Voyage à Nantes trail remaps the city every summer with site-specific artworks. If cultural richness matters in your choice of city, Nantes punches well above its weight class.",
+      },
+      {
+        heading: "Weather: managing expectations",
+        body: "The Loire-Atlantique climate is oceanic — mild but frequently grey and wet. Nantes receives about 820mm of rain per year, spread relatively evenly across the year with a slight peak in winter. Summers are warm (25-28°C July-August) with long evenings, and increasingly prone to heatwaves as the Atlantic climate shifts. Winters are mild by French standards (rarely below 0°C) but persistently overcast from November to February. If you are coming from a sunnier climate — Mediterranean, American South, MENA — factor this in. The lack of sunshine is the most common complaint among expats who settle in Nantes.",
+      },
+      {
+        heading: "Practical setup: admin, healthcare, schools",
+        body: "CHU Nantes is one of France's top university hospitals, with high-level specialist care. Finding a GP is the standard French challenge — use Doctolib and expect 3-6 weeks wait. Schools: public schooling is good in most neighbourhoods; private Catholic contract schools are oversubscribed. For international families, there is no dedicated international school in Nantes (unlike Lyon or Paris), which means integration into the French system is effectively mandatory. This can be a positive — your children will become fluent French speakers quickly — or a source of stress depending on their starting level and age. The Nantes Métropole foreigners' welcome service (Bienvenue à Nantes) offers guided admin support for new arrivals.",
+      },
+    ],
+    relatedCities: ["nantes", "saint-nazaire", "la-rochelle"],
+    tags: ["living in nantes expat 2026", "nantes expat guide", "nantes cost of living 2026", "nantes ile de france remote work", "loire atlantique expat"],
+  },
+  {
+    slug: "french-education-system-guide-for-expat-parents-2026",
+    title: "The French Education System: What Expat Parents Need to Know (2026)",
+    metaTitle: "French Education System Guide for Expats 2026 — schools, enrolment, what to expect",
+    metaDesc: "A practical guide to enrolling children in French schools as an expat. Public vs private, maternelle to lycée, bilingual options, baccalaureate, and the realities.",
+    category: "moving",
+    emoji: "🎒",
+    readMinutes: 12,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "The French education system has an excellent international reputation — and a rather different day-to-day reality that surprises many expat parents arriving with expectations shaped by Anglo-Saxon or Nordic schooling. It is rigorous, academic, and centralised. It is also demanding for children who arrive without French, inflexible to different learning styles, and heavy on homework by international standards. This guide gives you the structural facts and the honest reality check that the official guides don't.",
+    sections: [
+      {
+        heading: "The structure: ages and levels",
+        body: "French schooling is organised in three cycles: **Maternelle** (nursery school, ages 2-6, three years — petite, moyenne, grande section): attendance is compulsory from age 3 since 2019. It is genuinely educational rather than purely childcare — children learn to read and write from grande section. The maternelle year before CP (first year of primary) is academically more demanding than its UK or US equivalent. **École élémentaire** (primary, ages 6-11, five years — CP, CE1, CE2, CM1, CM2): structured academic curriculum, homework from CP, a significant focus on French grammar and calculation. **Collège** (middle school, ages 11-15, four years — 6ème to 3ème): increasingly academic, with subject specialist teachers and a national exam (Brevet des Collèges) at the end of 3ème. **Lycée** (high school, ages 15-18, three years — Seconde, Première, Terminale): culminates in the Baccalauréat, which determines university access and is internationally recognised.",
+      },
+      {
+        heading: "Public vs private schools: the real distinction",
+        body: "In France, 'private' schools are almost always Catholic schools that have a contract with the state (établissements privés sous contrat). This means the state pays teachers' salaries, they follow the national curriculum, and fees are low (€300-1,000/year versus €15,000-25,000/year for genuinely private, non-contract schools). Practically: private contract schools select students more than public schools (which must accept their catchment zone), maintain a slightly different atmosphere (more traditional, more parental involvement), and are intensely oversubscribed in good neighbourhoods. Getting into a sought-after private contract school requires applying a year in advance and often a church membership or sibling priority. Public schools in France are good in affluent catchment zones and weaker in underfunded urban peripheries — the system is centralised but outcomes vary enormously by location.",
+      },
+      {
+        heading: "Enrolling your child: the process",
+        body: "For public school: contact your **mairie** (town hall) to get a school assignment based on your address. Bring proof of address, child's health record (carnet de santé) with vaccination records, and a copy of the birth certificate (translated if not in French). The mairie issues a school assignment certificate; you then contact the school director to finalise enrolment. For private contract school: contact the school directly in spring for the following September. Documents required are similar. For children arriving mid-year: schools must accept them by law. Contact the CASNAV (Centre Académique pour la Scolarisation des enfants Allophones Nouvellement Arrivés) if your child doesn't speak French — they will assess the level and may place the child in an UPE2A class (French as a foreign language intensive support) alongside mainstream classes.",
+      },
+      {
+        heading: "What to expect: language integration",
+        body: "Children who arrive under 10 typically become fluent in French within 12-18 months of full immersion. The process is uncomfortable — expect a silent period of 2-6 months where your child understands more than they produce, frustration, and social difficulty. Schools in France are not always well-equipped to support language learners — much depends on the individual teacher. The UPE2A classes (where they exist) accelerate integration significantly. For teenagers arriving at 12 or above, integration is harder — the academic content assumes strong French literacy, and social groups are more formed. Arriving at the start of 6ème (first year of collège) or Seconde (first year of lycée) is significantly better than mid-year. For children 15+, consider whether the French baccalaureate is a realistic target or whether an international baccalaureate option (available at certain lycées) better preserves university options abroad.",
+      },
+      {
+        heading: "International and bilingual options",
+        body: "Major cities have better options for expat families: **European sections** within public lycées teach some subjects in a foreign language (English, German, Spanish, Italian). Competitive entry. **International sections** (Seconde Internationale) are rarer and require existing bilingualism — intended for children of diplomats and long-term expats. **European Schools** exist in Strasbourg (EU focus), Sophia Antipolis (near Nice), and several other locations — primarily for EU institution employees. **AEFE schools** abroad are relevant if you move frequently. **American and British schools** exist in Paris (Marymount, École Jeannine Manuel, American School of Paris) and in some other cities — expect €15,000-25,000/year. In Lyon, the Cité Scolaire Internationale is a public internationally-oriented school with sections in multiple languages — oversubscribed but accessible without paying fees.",
+      },
+      {
+        heading: "The baccalauréat and university access",
+        body: "The French baccalauréat, reformed in 2019-2021, is now partly continuous assessment and partly final exams. Students choose specialisations in Première and Terminale from a set of subject 'spécialités'. A 'mention' (honours) on the baccalauréat influences access to selective grandes écoles (Sciences Po, engineering schools). University access is via Parcoursup, the national application platform — entry to most universities is not selective (except grandes écoles and some professional programmes), but competition for the most sought-after courses in Paris is intense. The French baccalaureate is recognised by universities worldwide. Many students take the OIB (Option Internationale du Baccalauréat) which adds international exams and is particularly respected by Anglo-Saxon universities.",
+      },
+    ],
+    relatedCities: ["paris", "lyon", "strasbourg", "nantes"],
+    tags: ["french education system expat 2026", "enrol child in french school", "french school system explained", "expat parent france schools", "french baccalaureate guide"],
+  },
+  {
+    slug: "driving-in-france-expat-guide-2026",
+    title: "Driving in France as an Expat: Licence Exchange, Rules & What's Changed (2026)",
+    metaTitle: "Driving in France as Expat 2026 — licence exchange, rules, fines, motorway system",
+    metaDesc: "Complete guide to driving in France as an expat in 2026: licence exchange rules, French road laws, fines, speed cameras, motorway system, and buying a car.",
+    category: "moving",
+    emoji: "🚗",
+    readMinutes: 10,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "Driving in France is straightforward once you understand the system — but the system has its own logic, and the consequences of getting it wrong range from a €35 fine to a suspended licence to a confiscated car. This guide covers what expats actually need to know: when you must exchange your licence, what the French roads are actually like, the rules that catch foreigners out, and how to buy and insure a car without being taken advantage of.",
+    sections: [
+      {
+        heading: "Do you need to exchange your driving licence?",
+        body: "This depends on where your licence was issued. **EU/EEA licences** (Germany, Spain, UK for licences issued before 31 December 2020, etc.): you can drive in France indefinitely on your existing licence. No exchange required. However, if you become a permanent French resident, you may be asked to exchange it to a French permis de conduire after one year — check with your préfecture. **Post-Brexit UK licences** (issued after 31 Dec 2020, or UK licence holders who became French residents after Brexit): you must exchange within one year of establishing residency. The UK-France licence exchange agreement is bilateral — bring your original UK licence, a certified translation, and proof of French residency to the préfecture. Processing takes 4-12 weeks. **Non-EU licences** (US, Canada, Australia, etc.): some countries have bilateral agreements with France (most US states do, as do Canada, Australia, Japan). If your country is on the recognised list, exchange at the préfecture within one year of residency. If not, you must retake the French driving licence from scratch — theory (code de la route) and practical exam. **International driving permit (IDP)**: allows you to drive on a foreign licence for one year from your arrival date. Issued in your home country before departure.",
+      },
+      {
+        heading: "French road rules that catch foreigners out",
+        body: "**Priorité à droite**: the most counterintuitive French rule. At unmarked junctions in urban areas, traffic from the right has priority — even if you are on what looks like the main road. Watch for the yellow diamond sign (you have priority) or its inverted version (you cede priority). In Paris and many town centres, this rule applies constantly. **Speed limits**: motorways (autoroutes) — 130 km/h dry, 110 km/h rain, 110 km/h for licence holders under 2 years. National roads — 80 km/h (reduced from 90 in 2018, still controversial). Urban areas — 50 km/h, or 30 km/h in many zones. **Alcohol limit**: 0.5g/L blood alcohol (lower than UK/US). For drivers with licence under 2 years: 0.2g/L. Police can stop any vehicle for a breath test with no specific reason. **Breathalyser kit**: officially required in every vehicle (law exists, fine rarely enforced currently). **Yellow vest (gilet jaune)**: legally required in every vehicle, worn outside the car in case of breakdown. **Hands-free**: headsets allowed for navigation audio, but holding a phone is a €150 fine + 3 penalty points.",
+      },
+      {
+        heading: "The motorway system and tolls",
+        body: "France has an extensive motorway (autoroute) network, largely privatised and subject to tolls. Tolls are expensive — a Paris-Lyon journey costs around €30-35 in tolls alone. The télépéage system (Liber-t badge or equivalent) lets you pay automatically without stopping and sometimes at a slight discount. It is worth getting one if you drive regularly on motorways. Most toll booths accept credit cards. Rest areas (aires) on French motorways are generally well-maintained with coffee, food, and clean toilets. The famous Vinci and Sanef networks have apps. Note: breaking down on a motorway requires calling the official motorway assistance number (not the general AA equivalent) — a legal requirement, and the service is efficient.",
+      },
+      {
+        heading: "Speed cameras and fines",
+        body: "France has one of Europe's most extensive speed camera networks — fixed cameras, mobile cameras in unmarked cars, and average-speed cameras on certain stretches of motorway. The app Waze and GPS devices can alert you to fixed cameras (legal in France) but not mobile police. Fines are payable online at amendes.gouv.fr. Foreigners are increasingly targeted through the cross-border enforcement directive — unpaid fines from EU-registered vehicles are pursued in the owner's home country. For non-EU residents, the French state can impound a vehicle at the roadside if the driver cannot immediately pay a 'consignation' (deposit) for serious speeding (over 40 km/h above limit). This is not theoretical — it happens.",
+      },
+      {
+        heading: "Buying and insuring a car in France",
+        body: "To buy a car in France you need: a French bank account, a French address, and proof of identity. The sale is formalised with a certificat de cession (transfer of sale) and the new owner registers the car to get a French registration certificate (carte grise, now called certificat d'immatriculation). The process is done online at the ANTS (Agence Nationale des Titres Sécurisés). Expect delays of 2-6 weeks. Insurance is mandatory and must be arranged before driving. The Crit'Air vignette (pollution sticker) is required to drive in ZFE (low emission zones) — Paris, Lyon, Grenoble, and others. Non-residents must get a Crit'Air for the French zone, or pay a fine. Most modern post-2015 petrol/diesel cars qualify for Crit'Air 1 or 2, which covers most zones.",
+      },
+    ],
+    relatedCities: ["paris", "lyon", "bordeaux", "marseille"],
+    tags: ["driving in france expat 2026", "french driving licence exchange", "france driving rules expat", "french motorway tolls guide", "car insurance france expat"],
+  },
 ];
 
 export function getEnGuide(slug: string): EnGuide | undefined {
