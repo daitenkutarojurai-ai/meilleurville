@@ -410,6 +410,12 @@ function citySubSection(): MetadataRoute.Sitemap {
       changeFrequency: "monthly" as const,
       priority: 0.7,
     },
+    {
+      url: `${BASE_URL}/villes/${city.slug}/connexion-internet`,
+      lastModified: CITY_DATA_UPDATED,
+      changeFrequency: "monthly" as const,
+      priority: 0.65,
+    },
   ]);
 }
 
@@ -710,7 +716,7 @@ function enCitySubSection(): MetadataRoute.Sitemap {
     "safety", "air-quality", "employment", "natural-risks", "noise",
     "water", "demographics", "public-services", "cycling", "own-vs-rent",
     "remote-work", "tax", "honest-review", "climate-2040", "overview",
-    "get-settled",
+    "get-settled", "housing", "fingerprint",
   ] as const;
   return CITIES_SEED.flatMap((c) =>
     subs.map((sub) => ({
