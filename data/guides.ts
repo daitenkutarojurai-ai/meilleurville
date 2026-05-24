@@ -18639,6 +18639,154 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["télétravail Alpes France 2026", "télétravailler Grenoble Annecy Chambéry", "connexion internet Alpes", "logement télétravail montagne France", "freelance Alpes 2026"],
   },
+  {
+    slug: "vivre-sans-voiture-lille-guide-2026",
+    title: "Vivre sans voiture à Lille en 2026 : bilan honnête",
+    metaTitle: "Vivre sans voiture à Lille 2026 — métro, vélo, transports : est-ce vraiment possible ?",
+    metaDesc: "Métro automatique, réseau de bus dense, vélos en libre-service : le bilan complet pour se passer de voiture à Lille en 2026.",
+    category: "lifestyle",
+    emoji: "🚇",
+    readMinutes: 6,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "Lille est souvent sous-estimée dans les classements de mobilité douce, au profit de villes plus médiatisées comme Bordeaux ou Nantes. Pourtant, son métro automatique (le VAL, le premier au monde), son réseau de tramways et son réseau cyclable en pleine expansion en font l'une des villes françaises les plus praticables sans voiture au quotidien.",
+    sections: [
+      {
+        heading: "Le métro VAL : la colonne vertébrale",
+        body: "Lille dispose du premier métro automatique au monde (Véhicule Automatique Léger, inauguré en 1983). Deux lignes (M1 et M2) couvrent la métropole lilloise avec des fréquences de 2 à 3 minutes en heure de pointe. La ligne M2 dessert notamment Villeneuve-d'Ascq et le campus universitaire, la ligne M1 le vieux Lille et les Hauts-de-France Arena. Le métro fonctionne jusqu'à minuit en semaine et plus tard le week-end. Pour quelqu'un qui habite sur un axe de métro, c'est un moyen de transport aussi fluide que dans les grandes métropoles européennes.",
+      },
+      {
+        heading: "Tramway et bus",
+        body: "Le réseau Ilevia (transports en commun de la métropole lilloise) inclut 2 lignes de tramway desservant Tourcoing et Roubaix depuis Lille. Le réseau de bus est dense, avec des lignes à haut niveau de service (ChronoLille) sur les axes principaux. Le tarif mensuel (carte OùRA!) : environ 65-70 € pour une zone urbaine complète. La vitesse commerciale reste le point faible sur les lignes de bus en heures de pointe — les axes nord-est (vers Roubaix) peuvent être lents.",
+      },
+      {
+        heading: "Le vélo à Lille en 2026",
+        body: "Lille a multiplié par 3 son réseau de pistes cyclables depuis 2015. Le réseau V'Lille (vélos en libre-service, 2 500 vélos dont une large part électrique) couvre la métropole. La topographie est favorable — Lille est essentiellement plate. Le chantier : des discontinuités persistent sur certains axes (particulièrement sur les boulevards périphériques de la métropole), et le partage avec les voitures dans les rues commerçantes génère des tensions. Le Plan Vélo Métropolitain vise 500 km de réseau continu d'ici 2030 — les travaux en cours sont visibles mais aussi perturbateurs.",
+      },
+      {
+        heading: "La réalité périphérique : Roubaix, Tourcoing, et la «MEL»",
+        body: "La métropole lilloise (MEL) est polycentriste — Roubaix, Tourcoing, et Villeneuve-d'Ascq sont des pôles indépendants significatifs. Se déplacer entre ces pôles sans voiture est possible en tramway et métro, mais les trajets prennent plus longtemps que les distances le suggèrent. Pour quelqu'un qui travaille à Roubaix et habite à Lille, le tramway est viable (30-40 min). Pour les déplacements périphériques vers les zones industrielles, les zones commerciales de la périphérie, ou les communes hors des lignes de transport structurantes, la voiture reste difficile à éviter.",
+      },
+    ],
+    relatedCities: ["lille", "roubaix", "tourcoing", "villeneuve-d-ascq"],
+    relatedGuides: [
+      "quitter-lille-guide-2026",
+      "vivre-sans-voiture-lyon-guide-2026",
+      "meilleures-villes-cyclistes-france-2026",
+    ],
+    tags: ["vivre sans voiture Lille 2026", "métro Lille VAL", "vélo Lille", "transports Ilevia Lille", "mobilité douce Lille"],
+  },
+  {
+    slug: "vivre-sans-voiture-clermont-ferrand-guide-2026",
+    title: "Vivre sans voiture à Clermont-Ferrand en 2026 : bilan honnête",
+    metaTitle: "Vivre sans voiture à Clermont-Ferrand 2026 — tramway, bus, vélo",
+    metaDesc: "Clermont-Ferrand a un réseau de tramway récent, mais la ville reste très orientée voiture. Le bilan honnête pour ceux qui veulent s'en passer.",
+    category: "lifestyle",
+    emoji: "🌋",
+    readMinutes: 5,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "Clermont-Ferrand est une des grandes villes françaises où le modèle automobile est le plus ancré culturellement et infrastructurellement. La ville a ouvert son tramway en 2019, ce qui constitue une avancée réelle. Mais les limites du réseau existant et la morphologie urbaine rendent la vie sans voiture difficile pour les habitants des quartiers excentrés ou des communes de la périphérie.",
+    sections: [
+      {
+        heading: "Le tramway : une ligne unique, des lacunes réelles",
+        body: "Clermont-Ferrand n'a qu'une seule ligne de tramway (T1), qui va de La Pardieu (gare d'affaires, pôle multimodal) au nord de la ville via le centre. Elle dessert les principaux axes économiques et universitaires mais ne couvre que l'axe nord-sud central. La fréquence est correcte en journée (6-8 minutes) et le trajet est rapide. Ce qui manque : une deuxième ligne sur l'axe est-ouest, et une extension vers les zones pavillonnaires en développement à l'est.",
+      },
+      {
+        heading: "Bus et mobilités douces",
+        body: "Le réseau T2C (Transports en Commun Clermontois) est dense en centre-ville et dans les quartiers proches. Les périphéries sont moins bien couvertes. Le réseau cyclable a progressé mais reste incomplet — les connexions entre pistes sont fréquemment interrompues, et la ville est moderément plate dans sa partie centrale mais accidentée en périphérie (les volcans du Puy-de-Dôme ne sont pas qu'esthétiques : le relief au nord et à l'ouest de la ville impose des dénivelés significatifs). Les vélos électriques changent la donne pour une partie de ces trajets.",
+      },
+      {
+        heading: "Verdict : pour qui c'est viable ?",
+        body: "Vivre sans voiture à Clermont-Ferrand est réaliste pour les habitants du centre-ville et des quartiers desservis par le T1 (La Pardieu, Gaillard, Jaude, Delille) qui travaillent sur l'axe central ou télétravaillent. Pour les résidents des quartiers périphériques (Champratel, Malintrat, Gerzat, Aubière hors centre) ou ceux qui ont des impératifs de mobilité interurbaine fréquents, la voiture reste difficile à éviter. La ville est en train de construire un réseau plus cohérent, mais en 2026, les lacunes restent visibles.",
+      },
+    ],
+    relatedCities: ["clermont-ferrand", "riom", "issoire"],
+    relatedGuides: [
+      "quitter-clermont-ferrand-guide-2026",
+      "vivre-sans-voiture-lyon-guide-2026",
+      "teletravailler-depuis-auvergne-guide-2026",
+    ],
+    tags: ["vivre sans voiture Clermont-Ferrand 2026", "tramway Clermont", "mobilité douce Clermont", "T2C bus Clermont", "vélo Clermont-Ferrand"],
+  },
+  {
+    slug: "habitat-participatif-france-guide-2026",
+    title: "L'habitat participatif en France : guide pratique 2026",
+    metaTitle: "Habitat participatif France 2026 — guide complet : fonctionnement, coûts, villes",
+    metaDesc: "Coopératives d'habitants, groupes d'autopromotion, habitat solidaire : le guide honnête sur l'habitat participatif en France en 2026.",
+    category: "lifestyle",
+    emoji: "🏘️",
+    readMinutes: 8,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "L'habitat participatif — créer ou rejoindre un projet de logement collectif autogéré — suscite un intérêt croissant en France. C'est une alternative réelle à la fois à la copropriété classique et à la location. Mais c'est aussi un projet qui prend 3 à 7 ans, nécessite un investissement personnel important, et comporte des risques spécifiques que la plupart des articles enthousiastes passent sous silence.",
+    sections: [
+      {
+        heading: "Les différentes formes d'habitat participatif",
+        body: "Trois grandes formes coexistent en France. L'autopromotion : un groupe de ménages s'associe pour faire construire un immeuble ensemble en maîtrise d'ouvrage collective. Chaque ménage est propriétaire de son logement individuel + d'une quote-part des espaces partagés. C'est le modèle le plus courant dans les projets neufs. La coopérative d'habitants : les ménages sont sociétaires d'une coopérative qui est propriétaire du bâtiment ; les ménages ont un droit d'usage permanent (via des parts sociales) mais pas la pleine propriété. Ce modèle protège contre la spéculation. L'habitat solidaire / résidence intergénérationnelle : modèle locatif où les ménages partagent des espaces communs mais restent locataires.",
+      },
+      {
+        heading: "Les villes où l'habitat participatif est le plus développé",
+        body: "Grenoble est la référence française : la ville a une longue tradition d'habitat participatif, des élus locaux favorables, et un tissu associatif dense (Habitat et Humanisme, HABICOOP, plusieurs groupes actifs). Lyon (notamment la Part-Dieu et les quartiers en renouvellement) et Bordeaux (Ginko, Bastide) ont des projets en cours ou récemment livrés. Strasbourg a des initiatives portées par les bailleurs sociaux. Rennes, Nantes, et Montpellier ont chacune plusieurs projets à différents stades. Paris concentre la demande mais peu de terrains disponibles et une administration plus complexe — quelques opérations dans les arrondissements périphériques.",
+      },
+      {
+        heading: "Les avantages réels",
+        body: "Le coût au m² peut être 10-20 % inférieur à un achat en promotion classique (les marges du promoteur sont éliminées), mais ce chiffre cache une grande variabilité selon la localisation et le projet. La qualité architecturale des projets participatifs est souvent supérieure à celle de la promotion classique car les futurs occupants choisissent les matériaux et les prestations avec soin. Les espaces partagés (laverie, atelier, salle commune, jardin) réduisent les besoins individuels. La communauté crée un filet social réel — cela peut compter pour les familles avec enfants et les personnes vieillissantes. Le DPE (diagnostic de performance énergétique) des projets participatifs est généralement excellent car les futurs occupants ont intérêt à minimiser les charges d'énergie.",
+      },
+      {
+        heading: "Les risques et les contraintes que personne ne dit",
+        body: "Le risque principal : les délais. Un projet d'autopromotion prend rarement moins de 4 ans de la première réunion à la livraison. Pendant ce temps, vous immobilisez votre apport (pas de rendement), les prix peuvent changer, et les groupes se transforment (départs, conflits). Les projets qui aboutissent sont ceux avec un noyau dur solide de 3-5 ménages très engagés et une cohérence des valeurs sur les questions de vie commune. Les conflits autour de la gouvernance (comment prendre les décisions ?) et du niveau de vie commune (jusqu'où partage-t-on ?) sont fréquents et parfois destructeurs. L'accompagnement par une AMO (Assistance à Maîtrise d'Ouvrage) spécialisée en habitat participatif est quasi-obligatoire pour les projets neufs — budget entre 3 et 8 % du coût total du projet.",
+      },
+      {
+        heading: "Comment trouver un projet ou lancer le sien",
+        body: "Pour rejoindre un projet existant : le réseau RELIER (réseau national d'habitat participatif), les groupes locaux sur Réseaux Citoyens, et les plateformes comme Habicoop. Pour lancer un projet : commencez par le réseau local (une AMO locale, la mairie qui peut signaler des terrains disponibles, des groupes d'intéressés). Les mairies de Grenoble, Lyon (ALEC), Nantes, et Bordeaux ont des dispositifs d'accompagnement. Les communautés d'Emmaüs et certaines SEM (Sociétés d'Economie Mixte) portent aussi des projets cherchant des occupants.",
+      },
+    ],
+    relatedCities: ["grenoble", "lyon", "bordeaux", "strasbourg", "rennes"],
+    relatedGuides: [
+      "colocation-intergenerationnelle-france-2026",
+      "meilleures-villes-zero-dechet-ecologie-france-2026",
+      "villes-france-retraite-anticipee-fire-2026",
+    ],
+    tags: ["habitat participatif France 2026", "autopromotion logement", "coopérative habitants France", "vivre ensemble France", "projet immobilier collectif"],
+  },
+  {
+    slug: "retraite-early-budget-serré-où-vivre-france-2026",
+    title: "FIRE et retraite anticipée avec un budget serré : quelle ville française en 2026 ?",
+    metaTitle: "FIRE France ville 2026 — retraite anticipée budget serré : où vivre ?",
+    metaDesc: "Vivre en retraite anticipée avec 1 200 à 2 000 €/mois en France : les villes où c'est confortable, les villes à éviter absolument.",
+    category: "budget",
+    emoji: "🏖️",
+    readMinutes: 7,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "La retraite anticipée en France est souvent présentée comme accessible uniquement aux patrimoines confortables. C'est inexact : il est possible de vivre confortablement en France avec 1 500-2 000 €/mois de revenus passifs ou de rente, à condition de choisir la bonne ville. Le choix de la ville détermine si ce budget est un horizon ouvert ou une contrainte permanente.",
+    sections: [
+      {
+        heading: "Le seuil de confort par ville : chiffres bruts",
+        body: "Pour un célibataire en retraite anticipée, le budget mensuel type dans différentes villes (incluant loyer T2 centre, charges, mutuelle, alimentation, loisirs, transport) : Paris : 2 800-3 500 € (trop cher pour un budget FIRE serré). Lyon 6e : 2 200-2 800 € (difficile). Nice : 2 100-2 600 € (tendu). Bordeaux : 1 900-2 300 € (faisable avec discipline). Montpellier : 1 800-2 200 € (confortable). Rennes : 1 700-2 100 €. Nantes : 1 800-2 200 €. Angers : 1 500-1 800 € (excellent rapport). Dijon : 1 400-1 700 €. Reims : 1 300-1 600 €. Tours : 1 450-1 750 €. Limoges : 1 200-1 500 € (le bas de l'échelle nationale). Ces chiffres sont des médianes pour quelqu'un qui loue en centre-ville — l'achat change profondément le calcul.",
+      },
+      {
+        heading: "Villes recommandées pour le FIRE budget serré en 2026",
+        body: "Angers est régulièrement cité comme le meilleur rapport qualité de vie / coût pour la retraite anticipée. Tramway, THU de référence, culture vivace, cuisine ligérienne. Budget FIRE confortable dès 1 600-1 700 €/mois. Tours : même catégorie de prix, accès au château de la Loire, TGV vers Paris (55 min). Dijon : encore moins cher que les Pays-de-la-Loire, gastronomie, Université, cadre de vie très agréable. Budget FIRE dès 1 500 €/mois. Reims : la ville la plus sous-cotée de France pour le FIRE. TGV Paris 45 min, loyers très bas, champagne et gastronomie, architecture Art Déco. Budget FIRE dès 1 400 €/mois. Clermont-Ferrand : volcans, plein air, université, loyers très abordables. La contrainte : le marché de l'emploi est limité pour un retour éventuel.",
+      },
+      {
+        heading: "L'impact du statut fiscal FIRE",
+        body: "En France, les revenus passifs (dividendes, loyers, plus-values) sont soumis au prélèvement forfaitaire unique (PFU) de 30 % ou à l'imposition au barème sur option. Les intérêts de livrets A et LDDS sont exonérés mais les plafonds (22 950 € pour le livret A) limitent leur usage comme source principale. Pour les profils FIRE avec des revenus de capitaux mobiliers, la fiscalité française est moins favorable que certains pays européens mais raisonnable comparée aux pays nordiques. Un bilan fiscal personnalisé avec un expert-comptable est recommandé avant de choisir la ville de résidence, car certaines communes ont des taux de taxe foncière qui peuvent peser sur les FIRE qui ont acheté leur logement.",
+      },
+      {
+        heading: "La vraie variable : avez-vous acheté ou louez-vous ?",
+        body: "Le FIRE en location donne de la flexibilité mais expose à la hausse des loyers et à la nécessité de rester liquide. En propriété, la mensualité est fixe (si à taux fixe) et le budget est stable. Pour un FIRE avec 300 000 € en capital disponible : acheter un T2 à Reims (budget 150 000-180 000 €) laisse 120 000-150 000 € de capital investissable, dont les rendements peuvent couvrir les charges courantes. Acheter dans une grande métropole absorbe la quasi-totalité du capital sans laisser de filet. La règle heuristique FIRE : achetez dans les villes où le prix du T2 ne dépasse pas 180 000-220 000 € pour préserver la liquidité.",
+      },
+    ],
+    relatedCities: ["angers", "dijon", "reims", "tours", "clermont-ferrand"],
+    relatedGuides: [
+      "villes-france-retraite-anticipee-fire-2026",
+      "vivre-retraite-1500-euros-mois-france-2026",
+      "colocation-intergenerationnelle-france-2026",
+    ],
+    tags: ["FIRE France 2026", "retraite anticipée France ville", "budget 1500 euros mois France", "vivre retraite anticipée province", "FIRE ville française"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
