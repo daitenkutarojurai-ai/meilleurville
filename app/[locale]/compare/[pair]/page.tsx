@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
+import { VsBattle } from "@/components/VsBattle";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { getHousing } from "@/data/housing";
 import { scoreColor } from "@/lib/utils";
@@ -337,52 +338,8 @@ export default async function EnComparePair({ params }: Props) {
         </p>
       </section>
 
-      <section className="mx-auto max-w-4xl px-4 sm:px-6 py-4 grid grid-cols-2 gap-3">
-        {[a, b].map((c) => (
-          <Link
-            key={c.slug}
-            href={`/cities/${c.slug}`}
-            className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5 transition-all hover:border-[var(--accent)]/40 hover:shadow-lg"
-          >
-            <p className="text-xs text-[var(--text-secondary)]">{c.region ?? ""}</p>
-            <h2 className="text-xl font-bold text-[var(--text-primary)]">{c.name}</h2>
-            <p className={`font-mono-data text-3xl font-bold mt-1 ${scoreColor(c.scores.global)}`}>
-              {c.scores.global.toFixed(1)}
-              <span className="text-sm text-[var(--text-tertiary)]">/10</span>
-            </p>
-          </Link>
-        ))}
-      </section>
-
       <section className="mx-auto max-w-4xl px-4 sm:px-6 py-6">
-        <h2 className="text-xl font-bold text-[var(--text-primary)] mb-4">Score by score</h2>
-        <div className="overflow-hidden rounded-2xl border border-[var(--border)]">
-          <table className="w-full text-sm">
-            <thead>
-              <tr className="bg-[var(--bg-elevated)] text-[var(--text-secondary)]">
-                <th className="text-left p-3 font-semibold">Criterion</th>
-                <th className="text-center p-3 font-semibold">{a.name}</th>
-                <th className="text-center p-3 font-semibold">{b.name}</th>
-                <th className="text-center p-3 font-semibold">Winner</th>
-              </tr>
-            </thead>
-            <tbody>
-              {SCORE_ROWS.map((row) => {
-                const va = a.scores[row.key];
-                const vb = b.scores[row.key];
-                const winner = va === vb ? "—" : va > vb ? a.name : b.name;
-                return (
-                  <tr key={row.key} className="border-t border-[var(--border)]">
-                    <td className="p-3 text-[var(--text-primary)] font-medium">{row.label}</td>
-                    <td className={`p-3 text-center font-mono-data font-bold ${scoreColor(va)}`}>{va.toFixed(1)}</td>
-                    <td className={`p-3 text-center font-mono-data font-bold ${scoreColor(vb)}`}>{vb.toFixed(1)}</td>
-                    <td className="p-3 text-center text-[var(--text-secondary)]">{winner}</td>
-                  </tr>
-                );
-              })}
-            </tbody>
-          </table>
-        </div>
+        <VsBattle a={a} b={b} locale="en" />
       </section>
 
       {(housingA || housingB) && (

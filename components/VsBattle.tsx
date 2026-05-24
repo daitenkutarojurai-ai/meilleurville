@@ -8,7 +8,7 @@ import type { CitySeed } from "@/data/cities-seed";
 
 type ScoreShape = CitySeed["scores"];
 
-const ROWS: Array<{ key: keyof ScoreShape; label: string; icon: string }> = [
+const ROWS_FR: Array<{ key: keyof ScoreShape; label: string; icon: string }> = [
   { key: "global",     label: "Global",     icon: "⭐" },
   { key: "life",       label: "Qualité",    icon: "✨" },
   { key: "transport",  label: "Transport",  icon: "🚊" },
@@ -18,6 +18,18 @@ const ROWS: Array<{ key: keyof ScoreShape; label: string; icon: string }> = [
   { key: "culture",    label: "Culture",    icon: "🎭" },
   { key: "remoteWork", label: "Remote",     icon: "💻" },
   { key: "schools",    label: "Écoles",     icon: "🎓" },
+];
+
+const ROWS_EN: Array<{ key: keyof ScoreShape; label: string; icon: string }> = [
+  { key: "global",     label: "Overall",    icon: "⭐" },
+  { key: "life",       label: "Quality",    icon: "✨" },
+  { key: "transport",  label: "Transport",  icon: "🚊" },
+  { key: "nature",     label: "Nature",     icon: "🌳" },
+  { key: "cost",       label: "Cost",       icon: "💰" },
+  { key: "safety",     label: "Safety",     icon: "🛡️" },
+  { key: "culture",    label: "Culture",    icon: "🎭" },
+  { key: "remoteWork", label: "Remote",     icon: "💻" },
+  { key: "schools",    label: "Schools",    icon: "🎓" },
 ];
 
 interface CityInput {
@@ -30,6 +42,7 @@ interface CityInput {
 interface Props {
   a: CityInput;
   b: CityInput;
+  locale?: "fr" | "en";
 }
 
 const KEYFRAMES = `
@@ -67,7 +80,8 @@ const KEYFRAMES = `
 }
 `;
 
-export function VsBattle({ a, b }: Props) {
+export function VsBattle({ a, b, locale = "fr" }: Props) {
+  const ROWS = locale === "en" ? ROWS_EN : ROWS_FR;
   const wins = ROWS.reduce(
     (acc, { key }) => {
       const va = a.scores[key];
@@ -99,7 +113,9 @@ export function VsBattle({ a, b }: Props) {
             <span className="text-sm sm:text-base text-[var(--text-tertiary)]">/10</span>
           </div>
           <div className="mt-1 text-[9px] sm:text-[10px] uppercase tracking-wider text-[var(--text-tertiary)] font-semibold">
-            {wins.a} axe{wins.a > 1 ? "s" : ""} gagné{wins.a > 1 ? "s" : ""}
+            {locale === "en"
+              ? `${wins.a} axis${wins.a !== 1 ? "es" : ""} won`
+              : `${wins.a} axe${wins.a > 1 ? "s" : ""} gagné${wins.a > 1 ? "s" : ""}`}
           </div>
         </div>
 
@@ -121,14 +137,16 @@ export function VsBattle({ a, b }: Props) {
             <span className="text-sm sm:text-base text-[var(--text-tertiary)]">/10</span>
           </div>
           <div className="mt-1 text-[9px] sm:text-[10px] uppercase tracking-wider text-[var(--text-tertiary)] font-semibold">
-            {wins.b} axe{wins.b > 1 ? "s" : ""} gagné{wins.b > 1 ? "s" : ""}
+            {locale === "en"
+              ? `${wins.b} axis${wins.b !== 1 ? "es" : ""} won`
+              : `${wins.b} axe${wins.b > 1 ? "s" : ""} gagné${wins.b > 1 ? "s" : ""}`}
           </div>
         </div>
       </div>
 
       <div className="mt-6 sm:mt-8 rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-4 sm:p-6">
         <h2 className="text-base font-semibold text-[var(--text-primary)] mb-5">
-          Le duel critère par critère
+          {locale === "en" ? "Head-to-head by criterion" : "Le duel critère par critère"}
         </h2>
         <div className="space-y-4 sm:space-y-5">
           {ROWS.map(({ key, label, icon }, i) => {
@@ -195,7 +213,7 @@ export function VsBattle({ a, b }: Props) {
                 >
                   {tie ? (
                     <span className="inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[10px] font-semibold bg-[var(--bg-elevated)] text-[var(--text-tertiary)]">
-                      = Égalité
+                      = {locale === "en" ? "Tie" : "Égalité"}
                     </span>
                   ) : (
                     <span
@@ -221,25 +239,28 @@ export function VsBattle({ a, b }: Props) {
           }}
         >
           <div className="text-[10px] sm:text-xs uppercase tracking-widest text-emerald-600 font-bold mb-1">
-            Verdict final
+            {locale === "en" ? "Final verdict" : "Verdict final"}
           </div>
           {winner ? (
             <>
               <p className="text-xl sm:text-2xl font-bold text-emerald-600">
-                🏆 {winner.name} l&apos;emporte
+                🏆 {locale === "en" ? `${winner.name} wins` : `${winner.name} l’emporte`}
               </p>
               <p className="text-xs sm:text-sm text-[var(--text-secondary)] mt-1">
-                {winner === a ? wins.a : wins.b} axes gagnés sur {total} ·
-                écart {Math.abs(a.scores.global - b.scores.global).toFixed(1)} pt au global
+                {locale === "en"
+                  ? `${winner === a ? wins.a : wins.b} axes won out of ${total} · ${Math.abs(a.scores.global - b.scores.global).toFixed(1)} pt gap overall`
+                  : `${winner === a ? wins.a : wins.b} axes gagnés sur ${total} · écart ${Math.abs(a.scores.global - b.scores.global).toFixed(1)} pt au global`}
               </p>
             </>
           ) : (
             <>
               <p className="text-xl sm:text-2xl font-bold text-amber-500">
-                ⚖️ Égalité parfaite
+                ⚖️ {locale === "en" ? "Perfect tie" : "Égalité parfaite"}
               </p>
               <p className="text-xs sm:text-sm text-[var(--text-secondary)] mt-1">
-                {wins.a}–{wins.b} sur les axes décisifs · le choix dépend de tes priorités
+                {locale === "en"
+                  ? `${wins.a}–${wins.b} on key axes · the right choice depends on your priorities`
+                  : `${wins.a}–${wins.b} sur les axes décisifs · le choix dépend de tes priorités`}
               </p>
             </>
           )}
