@@ -11276,7 +11276,7 @@ export const GUIDES: Guide[] = [
     tags: ["quitter Amiens", "Amiens", "Picardie", "Hauts-de-France", "Lille", "baie de Somme", "Beauvais", "déménagement"],
   },
   {
-    slug: "quitter-reims-guide-2026",
+    slug: "quitter-reims-paris-lille-epernay-2026",
     title: "Quitter Reims en 2026 — vers Paris, vers Lille, vers Épernay ?",
     metaTitle: "Quitter Reims 2026 : Paris (TGV 45 min), Lille, Châlons, Épernay — le guide",
     metaDesc:
@@ -18291,7 +18291,7 @@ export const GUIDES: Guide[] = [
     tags: ["loyer charges incluses", "coût réel logement France", "budget logement ville", "charges locatives", "facture énergie logement", "2026"],
   },
   {
-    slug: "acheter-a-bordeaux-quel-quartier-budget-2026",
+    slug: "guide-immobilier-bordeaux-prix-quartiers-2026",
     title: "Acheter à Bordeaux en 2026 : quel quartier et quel budget ?",
     metaTitle: "Acheter à Bordeaux 2026 — quartiers, prix m² et budget réel",
     metaDesc: "Prix m² par quartier à Bordeaux, projections 2026, quartiers en hausse et en repli. Le guide honnête pour acheter à Bordeaux sans se faire avoir.",
@@ -18332,7 +18332,7 @@ export const GUIDES: Guide[] = [
     tags: ["acheter Bordeaux 2026", "prix m² Bordeaux quartiers", "immobilier Bordeaux", "Chartrons Bastide prix", "budget achat Bordeaux"],
   },
   {
-    slug: "acheter-a-rennes-quel-quartier-budget-2026",
+    slug: "guide-immobilier-rennes-prix-quartiers-2026",
     title: "Acheter à Rennes en 2026 : quel quartier et quel budget ?",
     metaTitle: "Acheter à Rennes 2026 — quartiers, prix m² et ce que les annonces cachent",
     metaDesc: "Prix m² par quartier à Rennes, projections 2026, marché de la métropole. Le guide honnête pour acheter à Rennes avec les vrais chiffres.",
@@ -18369,7 +18369,7 @@ export const GUIDES: Guide[] = [
     tags: ["acheter Rennes 2026", "prix m² Rennes quartiers", "immobilier Rennes", "Maurepas Thabor prix", "budget achat Rennes"],
   },
   {
-    slug: "acheter-a-nantes-quel-quartier-budget-2026",
+    slug: "guide-immobilier-nantes-prix-quartiers-2026",
     title: "Acheter à Nantes en 2026 : quel quartier et quel budget ?",
     metaTitle: "Acheter à Nantes 2026 — guide des quartiers, prix m² et budget réel",
     metaDesc: "Île de Nantes, Zola, Doulon, rive nord : les vrais prix m² par quartier à Nantes en 2026 et le calcul honnête pour votre achat immobilier.",
