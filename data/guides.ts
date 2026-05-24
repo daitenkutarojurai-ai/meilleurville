@@ -20014,6 +20014,211 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["télétravail et nature France 2026", "meilleures villes télétravail nature", "remote work nature France", "télétravail en pleine nature France", "vivre en télétravail campagne ville"],
   },
+  {
+    slug: "acheter-a-bayonne-quel-quartier-budget-2026",
+    title: "Acheter à Bayonne en 2026 : quel quartier et quel budget ?",
+    metaTitle: "Acheter à Bayonne 2026 — prix m², quartiers, budget primo-accédant Pays Basque",
+    metaDesc: "Guide immobilier Bayonne 2026 : prix par quartier (Grand Bayonne, Petit Bayonne, Saint-Esprit, Mousserolles), budget d'achat et marché immobilier basque.",
+    category: "budget",
+    emoji: "🏉",
+    readMinutes: 9,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "Bayonne est la ville-porte du Pays Basque — et le Pays Basque est l'un des marchés immobiliers les plus tendus de France. Depuis 2019, la pression est considérable : des Parisiens et des Bordelais qui cherchent le surf, le jambon, le rugby et un coin de paradis à l'atlantique ont fait flamber les prix dans toute la côte basque. Bayonne résiste un peu mieux que Biarritz ou Saint-Jean-de-Luz — plus de 50 000 habitants, une vraie économie locale, des quartiers populaires encore accessibles — mais le temps joue contre l'acheteur attentiste.",
+    sections: [
+      {
+        heading: "État du marché bayonnais en 2026",
+        body: "Bayonne tourne autour de 3 200-4 000 €/m² pour les appartements anciens, avec des variations significatives selon le quartier. Ces prix sont très élevés pour une ville de cette taille — largement supérieurs à Nancy, Brest ou Clermont — mais 20-30 % moins chers que Biarritz ou Saint-Jean-de-Luz. La demande est portée par trois profils : télétravailleur aisé ayant quitté Paris ou Bordeaux, retraité cherchant la douceur du Pays Basque, et investisseur locatif ciblant la location touristique ou l'Airbnb (sous pression réglementaire croissante). La tension locative est forte : peu d'appartements disponibles, délai de mise sur le marché très court.",
+      },
+      {
+        heading: "Les quartiers de Bayonne",
+        body: "**Grand Bayonne** : le cœur historique basque, entre la Nive et l'Adour. Maisons à colombages, cathédrale Sainte-Marie. Appartements dans des immeubles de caractère. 3 500-4 500 €/m². Le quartier le plus recherché. **Petit Bayonne** : rive droite de la Nive, ambiance plus populaire, bars tapas, marché couvert. En embourgeoisement rapide depuis 2020. 3 000-3 800 €/m². Idéal pour les moins de 40 ans. **Saint-Esprit** : sur la rive gauche de l'Adour, anciennement juif-espagnol puis populaire. Plus abordable : 2 600-3 300 €/m². Bien desservi (gare TGV à pied). Quartier qui monte. **Moulia / Mousserolles** : résidentiel, pavillonnaire. Maisons de ville avec jardins 300-500 k€. Famille first, moins d'âme que les quartiers historiques. **Anglet** (commune voisine) : entre Bayonne et Biarritz, accès plages, plus résidentiel. 3 500-5 000 €/m² selon la proximité plage.",
+      },
+      {
+        heading: "Budgets types",
+        body: "T1 (investissement locatif) : 120-180 k€. Rentabilité locative brute 4-5 % — honorable dans ce marché mais pas exceptionnel. T2 (primo-accédant) : 180-260 k€. T3 (famille) : 250-360 k€. Maison de ville avec jardin (Saint-Esprit ou Mousserolles) : 350-550 k€. Appartement de standing Grand Bayonne T3 : 280-420 k€.",
+      },
+      {
+        heading: "Le piège Airbnb et la réglementation",
+        body: "Bayonne est en zone tendue et a mis en place des restrictions strictes sur les locations touristiques de courte durée (meublés de tourisme). La résidence principale peut être louée 120 jours/an maximum. Les résidences secondaires en location courte durée nécessitent une autorisation de changement d'usage de plus en plus difficile à obtenir. Pour un investissement purement Airbnb, Bayonne n'est plus le bon choix — la réglementation resserre l'étau. Pour une résidence principale qui se loue occasionnellement, c'est encore faisable.",
+      },
+      {
+        heading: "Acheter à Bayonne vs Pau",
+        body: "Pau est à 1h de route de Bayonne et à trois fois moins cher en immobilier (< 1 500 €/m²). Pour un télétravailleur avec un budget limité, Pau donne accès aux Pyrénées, aux plages atlantiques en 1h, et à un coût de vie très inférieur. Bayonne vaut la surpayée si : la vie de quartier basque au quotidien compte vraiment (jambon, fêtes de Bayonne, culture, gastronomie), si vous avez besoin de la mer à 20 min et pas 1h, et si vous avez le budget pour une résidence principale dans un marché tendu.",
+      },
+    ],
+    relatedCities: ["bayonne", "pau", "la-rochelle"],
+    relatedGuides: [
+      "pau-vs-bayonne-comparatif-2026",
+      "vivre-en-pays-basque-guide-2026",
+      "la-rochelle-vs-bayonne-comparatif-2026",
+    ],
+    tags: ["acheter à Bayonne 2026", "immobilier Bayonne prix quartiers", "investissement locatif Bayonne Pays Basque", "primo-accédant Bayonne", "marché immobilier Pays Basque"],
+  },
+  {
+    slug: "guide-vivre-seul-france-quelle-ville-2026",
+    title: "Vivre seul en France : quelle ville choisir en 2026 ?",
+    metaTitle: "Vivre seul France 2026 — meilleures villes pour les célibataires et personnes solo",
+    metaDesc: "Où vivre seul en France en 2026 ? Guide complet : studios accessibles, vie sociale, sécurité, transports, communauté — sans budget couple.",
+    category: "lifestyle",
+    emoji: "🧭",
+    readMinutes: 9,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "Vivre seul en France en 2026 n'a jamais été aussi courant — et jamais aussi cher. Les studios et T1 sont les produits les plus rares et les plus demandés du marché locatif. Le coût par mètre carré d'un studio est 30-40 % supérieur à un T3 dans la même ville, et la surface réduite amplifie chaque défaut de localisation ou de voisinage. Ce guide pense aux critères qui comptent vraiment pour qui vit seul : accessibilité financière du logement, vie sociale dès qu'on sort de chez soi, sécurité à pied le soir, transport sans voiture, et communauté pour ne pas s'isoler.",
+    sections: [
+      {
+        heading: "Les critères spécifiques au célibataire géographique",
+        body: "Un couple peut mutualiser le loyer et les charges — un solo non. Le budget logement représente souvent 40-50 % des revenus pour quelqu'un qui vit seul, contre 20-30 % pour un couple avec deux salaires. Premier critère : trouver une ville avec de vraies petites surfaces abordables (< 600 €/mois pour un studio ou T1 en bon état). Deuxième critère : la densité sociale — une ville universitaire ou étudiante avec beaucoup de jeunes actifs facilite les rencontres spontanées. Troisième : la sécurité nocturne — rentrer à pied ou en tram seul à 23h ne doit pas être une aventure. Quatrième : les transports sans voiture, parce qu'un solo qui possède une voiture voit ses charges fixes exploser.",
+      },
+      {
+        heading: "Top 7 villes pour vivre seul",
+        body: "**1. Toulouse** : studios abordables (400-600 €), vie étudiante dense, sortie culturelle et musicale active, sécurité correcte dans les quartiers centraux, tram et métro fonctionnels. Probablement la meilleure combinaison pour les 25-35 ans. **2. Montpellier** : ville très étudiante (40 % de la population a moins de 35 ans), soleil, mer à 15 km, studios accessibles (380-560 €/mois en petite couronne). Très sociale par nature. **3. Rennes** : petite ville universitaire à forte densité sociale, marchés excellents, sécurité reconnue, bonne connectivité TGV. Studio : 450-620 €/mois. **4. Bordeaux** : plus cher (studio 550-750 €/mois), mais la scène sociale est exceptionnelle et la qualité de vie entre rivière et pinède est réelle. **5. Nantes** : ville très animée, bonne offre culturelle, studio 500-700 €/mois, quartier Île de Nantes dynamique. **6. Lyon** : plus cher mais le réseau de sociabilité y est dense. Studio 600-850 €/mois centre. Si on a le budget, c'est une excellente ville solo. **7. Poitiers ou Clermont-Ferrand** : pour le budget vraiment serré (studio < 420 €/mois), villes universitaires avec vie sociale correcte et services complets.",
+      },
+      {
+        heading: "Éviter l'isolement : les villes qui communautarisent",
+        body: "Certaines villes facilitent naturellement la rencontre : espaces publics animés (marchés, places), bars et restaurants accessibles sans réservation, associations actives, cultures du « sortir seul » qui ne choque personne. Bordeaux (les quais), Montpellier (Place de la Comédie), Lyon (bouchons), Rennes (bars de la rue Saint-Malo) font partie de ces villes. À éviter si vous vivez seul et avez du mal à vous intégrer : des villes à faible densité culturelle, très orientées famille pavillonnaire, ou sans mobilité douce (vous dépendrez de votre voiture pour socialiser).",
+      },
+      {
+        heading: "Le budget réel pour vivre seul",
+        body: "Simulation mensuelle pour une personne solo dans une ville de province moyenne (Toulouse, Montpellier, Rennes) : loyer studio + charges : 550 €. Alimentation (courses + repas dehors 2-3 fois/semaine) : 350 €. Transports (pass mensuel) : 55 €. Assurances (santé mutuelle, habitation, téléphone) : 120 €. Loisirs, sports, sorties : 150 €. Total : 1 225 €/mois. Pour vivre décemment seul dans ces villes avec un reste à vivre positif, il faut un salaire net d'au moins 1 500-1 700 €/mois. En-dessous, les aides au logement (APL) compensent partiellement.",
+      },
+      {
+        heading: "Le télétravail solo : une équation différente",
+        body: "Le télétravailleur solo cumule les avantages (pas de bureau imposé, mobilité géographique) et les risques (isolement amplifié, pas de déjeuner-machine à café avec collègues). La solution n'est pas la ville la moins chère — c'est la ville où l'investissement social est le plus facile. Coworking 2 jours/semaine dans une ville de 80 000 habitants avec une communauté tech active (Poitiers, Clermont, Brest) vaut souvent mieux qu'un appart sur rue à Paris. La vie de quartier compte doublement quand on n'a pas de bureau.",
+      },
+    ],
+    relatedCities: ["toulouse", "montpellier", "rennes", "bordeaux"],
+    relatedGuides: [
+      "meilleures-villes-jeunes-professionnels-france-2026",
+      "meilleures-villes-colocation-jeunes-actifs-2026",
+      "teletravailler-depuis-occitanie-guide-2026",
+    ],
+    tags: ["vivre seul France 2026", "meilleures villes célibataires France", "studio abordable France", "vivre seul quelle ville province", "solo logement France budget"],
+  },
+  {
+    slug: "teletravailler-depuis-alsace-guide-2026",
+    title: "Télétravailler depuis l'Alsace en 2026 : guide complet",
+    metaTitle: "Télétravailler depuis l'Alsace 2026 — Strasbourg, Colmar, Mulhouse : fibre, coût, qualité de vie",
+    metaDesc: "Guide télétravail Alsace 2026 : où s'installer dans le Bas-Rhin et le Haut-Rhin, coût de vie, connexion, communauté remote workers, accès nature.",
+    category: "teletravail",
+    emoji: "🥨",
+    readMinutes: 9,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "L'Alsace est la région européenne par excellence — à cheval entre France et Allemagne, à 30 min de la Suisse, à 2h de Paris en TGV depuis Strasbourg. Pour un télétravailleur, c'est une combinaison redoutable : une culture de qualité de vie héritée de la rigueur alsacienne, un réseau de fibre parmi les plus denses de France, une gastronomie locale qui justifie l'installation à elle seule, et des prix immobiliers encore raisonnables hors Strasbourg. Ce guide passe en revue les vraies options d'installation.",
+    sections: [
+      {
+        heading: "Strasbourg : le choix premium",
+        body: "Strasbourg est le choix évident mais pas le seul. La capitale alsacienne offre tout : TGV Paris direct (1h50), tram excellent, vélo partout, scène culturelle dense, marché de Noël mythique. Pour un télétravailleur, c'est une ville qui ne sacrifie rien. Mais les loyers ont suivi l'attractivité : T2 750-1 050 €/mois en centre, T3 1 000-1 400 €/mois. Le coût de vie est supérieur à Mulhouse ou au Bas-Rhin rural. La fibre (FttH) est déployée à > 97 % dans l'agglomération.",
+      },
+      {
+        heading: "Colmar : le juste milieu",
+        body: "Colmar est la surprise alsacienne. 70 000 habitants, quartier des Tanneurs classé parmi les plus beaux de France, accès direct à la Route des Vins, Vosges à 30 min. T2 550-720 €/mois, maisons de ville 250-380 k€. Les coworkings s'y développent depuis 2022. La gare TER est bien connectée à Mulhouse (20 min) et Bâle (40 min), et à Strasbourg (35 min). Pas de TGV direct Paris mais le combo TER+TGV depuis Mulhouse-Bâle ou Strasbourg reste compétitif. Pour un télétravailleur cherchant le charme d'un village dans une vraie ville, Colmar est souvent la meilleure option en Alsace.",
+      },
+      {
+        heading: "Mulhouse : l'option budget",
+        body: "Mulhouse a mauvaise réputation, souvent injustement. La ville industrielle de Haut-Rhin est en pleine reconversion — musée de l'automobile de classe mondiale, Cité du Train, art de rue. Les loyers sont parmi les plus bas d'Alsace : T2 430-580 €/mois. Proximité immédiate de Bâle (Suisse, 25 min) et de Fribourg-en-Brisgau (Allemagne, 45 min). L'aéroport de Bâle-Mulhouse (EuroAirport) dessert toute l'Europe. Pour un télétravailleur qui veut faire des économies sur le logement sans couper l'accès à l'Europe, Mulhouse est une option sérieuse.",
+      },
+      {
+        heading: "Le Bas-Rhin rural : Obernai, Sélestat, Saverne",
+        body: "Au-delà des trois grandes villes, le Bas-Rhin offre des villages et petites villes qui combinent charme alsacien et connectivité moderne. Obernai (12 000 hab, vignobles, maisons à colombages, fibre > 95 %) : T2 520-680 €/mois, accès TER Strasbourg 25 min. Sélestat (20 000 hab, entre Strasbourg et Colmar, TGV Paris indirect) : T2 450-600 €/mois. Saverne (Nord Alsace, accès Lorraine, vieux château, parc naturel des Vosges du Nord) : T2 420-560 €/mois. Ces villes permettent de vivre en Alsace profonde avec une infrastructure de qualité.",
+      },
+      {
+        heading: "La vie côté allemand et frontalier",
+        body: "Un télétravailleur installé en Alsace fait des courses en Allemagne (20-30 % moins cher pour l'épicerie, les meubles, les produits électroménagers), profite de la nature des Vosges (randonnées, ski de fond, lac du Forlet) et des Schwarzwald (forêt noire allemande). La fiscalité franco-allemande a des règles spécifiques pour les frontaliers — inapplicables au pure télétravailleur, mais à connaître si vous avez un contrat allemand. Bâle (Suisse) offre une gamme de musées et d'événements culturels inaccessibles en France à ce niveau. L'Alsace est une région où la frontière n'est plus une contrainte mais un atout de vie.",
+      },
+    ],
+    relatedCities: ["strasbourg", "mulhouse", "colmar"],
+    relatedGuides: [
+      "teletravailler-depuis-grand-est-guide-2026",
+      "vivre-en-alsace-guide-2026",
+      "vivre-sans-voiture-strasbourg-guide-2026",
+    ],
+    tags: ["télétravailler depuis Alsace 2026", "télétravail Strasbourg Colmar Mulhouse", "remote work Alsace guide", "s'installer en Alsace télétravail", "Alsace freelance vie"],
+  },
+  {
+    slug: "familles-enfants-en-bas-age-quelle-ville-france-2026",
+    title: "Quelle ville choisir pour élever des enfants en bas âge en France ? Guide 2026",
+    metaTitle: "Meilleures villes France pour enfants en bas âge 2026 — crèches, parcs, sécurité, budget",
+    metaDesc: "Guide 2026 pour les parents de jeunes enfants (0-6 ans) : quelles villes françaises combinent crèches accessibles, parcs, sécurité et budget maîtrisé ?",
+    category: "famille",
+    emoji: "🧸",
+    readMinutes: 10,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "La naissance du premier enfant est souvent le déclencheur d'une réflexion radicale sur le lieu de vie. Paris, Bordeaux, Lyon — des villes où vivre est formidable jusqu'à ce qu'on cherche une place en crèche, qu'on calcule le budget mensuel avec un ou deux enfants, et qu'on réalise que le studio de 40 m² n'est plus une option. Ce guide pense spécifiquement aux parents d'enfants de 0 à 6 ans : les années où la proximité des crèches, des parcs, la sécurité du quartier et l'espace à la maison comptent plus que la scène musicale.",
+    sections: [
+      {
+        heading: "Les critères qui comptent pour les tout-petits",
+        body: "Pour les 0-3 ans : accessibilité des crèches municipales (taux de couverture, délai d'attente), assistantes maternelles agréées disponibles, RAM (Relais Assistantes Maternelles) actif. Pour les 3-6 ans : maternelle publique de qualité, proximité pédestre ou cyclable, activités périscolaires, ALSH (accueil loisirs) le mercredi. Pour toute la période : espace extérieur au logement (jardin ou terrasse — ce que très peu d'appartements parisiens ou lyonnais centraux offrent à prix raisonnable), parcs publics à portée de poussette, sécurité du quartier, réseau de parents locaux pour les échanges informels.",
+      },
+      {
+        heading: "Les villes qui réussissent pour les jeunes familles",
+        body: "**Rennes** : taux de couverture en crèche parmi les meilleurs de France, maternelles publiques réputées, quartiers résidentiels sécurisés (Thabor, Clairchêne, Beaulieu), marché des Lices pour les produits frais. Prix encore accessibles pour un T3 ou une maison de première couronne (200-300 k€). **Nantes** : ville très famille, parcs abondants, quartier de la Cité des Congrès avec crèches d'entreprise bien dotées, activités périscolaires sérieuses. Île de Nantes pour les familles cool, Doulon pour les familles budget. **Bordeaux** : quartiers Caudéran et Bacalan très familiaux, réseau de parcs (Bordelais, Palmer), assistantes maternelles en nombre suffisant. Plus cher qu'il y a 5 ans. **Angers** : ville souvent sous-estimée, excellent rapport qualité-prix (T3 à 150-200 k€), couverture crèche correcte, vie quartier forte. Lac de Maine à 2 km. **Chambéry ou Aix-les-Bains** : pour les familles qui veulent montagnes + lac + qualité de vie alpine sans les prix d'Annecy. Prix immobiliers encore raisonnables.",
+      },
+      {
+        heading: "La crèche en France : comprendre le système",
+        body: "La France est en déficit chronique de places en crèche. Sur 2,2 millions d'enfants de moins de 3 ans, moins de la moitié ont une place en structure collective ou chez une assistante maternelle subventionnée. Les grandes villes ont les listes d'attente les plus longues : Paris peut dépasser 18 mois, Lyon 12 mois. À Rennes, Angers ou Clermont, les délais sont plus courts (6-10 mois). Stratégie : s'inscrire sur la liste d'attente de la crèche municipale dès le premier trimestre de grossesse, simultanément chercher une assistante maternelle agréée (souvent plus réactif), et regarder les crèches d'entreprise si l'employeur en propose.",
+      },
+      {
+        heading: "Budget mensuel famille (2 adultes + 1 enfant) en province",
+        body: "Loyer T3 ou maison avec jardin : 800-1 100 €/mois selon la ville. Crèche ou assistante maternelle (après déduction fiscale et CAF) : 350-600 €/mois selon les revenus. Alimentation, vêtements enfant : 350-450 €/mois. Transport (voiture indispensable pour les familles hors ville dense) : 250-400 €/mois. Activités périscolaires, loisirs : 100-200 €/mois. Total : 1 850-2 750 €/mois. Avec deux salaires à 2 000 €/mois net, une famille peut vivre confortablement dans une ville de province — quelque chose d'impossible en île-de-France pour le même budget.",
+      },
+      {
+        heading: "Ce que les parents regrettent le plus après l'installation",
+        body: "Le voisinage sans enfants du même âge. Trouver une ville « bien notée » pour les familles n'assure pas qu'il y a des enfants dans votre rue, au même stade que le vôtre, avec des parents avec qui vous vous entendez. C'est le facteur X qui décide vraiment de la qualité de vie des premières années avec un bébé. Solution : chercher des appartements dans des copropriétés ou des résidences déjà peuplées de familles (souvent repérable sur les plateformes de coloc ou les groupes locaux de parents), ou des quartiers avec une densité visible de poussettes dans les parcs.",
+      },
+    ],
+    relatedCities: ["rennes", "nantes", "angers", "bordeaux", "chambery"],
+    relatedGuides: [
+      "meilleures-villes-familles-ecoles-securite-france-2025",
+      "meilleures-villes-accessibilite-handicap-france-2026",
+      "villes-france-ecoles-alternatives-montessori-2026",
+    ],
+    tags: ["meilleures villes enfants en bas âge France 2026", "quelle ville pour élever enfants France", "crèche accessible France villes", "famille jeune enfant province France", "ville famille bébé France 2026"],
+  },
+  {
+    slug: "villes-france-litteraires-patrimoine-culturel-2026",
+    title: "Les villes littéraires et culturelles de France : où vivre si vous aimez les livres et les arts",
+    metaTitle: "Villes littéraires culturelles France 2026 — librairies, théâtres, musées, patrimoine",
+    metaDesc: "Classement des villes françaises les plus riches culturellement : librairies indépendantes, théâtres, musées, festivals littéraires, patrimoine — pour les amateurs d'art et de culture.",
+    category: "lifestyle",
+    emoji: "📚",
+    readMinutes: 9,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "La France est la patrie du livre — plus de librairies indépendantes par habitant qu'aucun autre pays au monde, un réseau de bibliothèques publiques parmi les plus denses d'Europe, et des festivals littéraires dans presque chaque grande ville. Mais toutes les villes ne sont pas égales devant la culture : certaines ont des scènes théâtrales vivantes, des musées de première importance, des librairies de caractère et une population qui y va vraiment. Ce guide classe les villes françaises pour les profils culturels — celui qui lit, va au théâtre, aime les musées et préfère le festival local au streaming.",
+    sections: [
+      {
+        heading: "Les critères de la ville culturelle",
+        body: "Pour ce classement : densité de librairies indépendantes (pas la FNAC — les librairies de quartier avec un libraire qui connaît ses fonds), nombre de théâtres subventionnés et programmation saisonnière, grands musées ou collections permanentes accessibles, festivals littéraires et culturels notoires, et la présence d'une vie culturelle quotidienne (cinémas d'art et essai, conférences publiques, galeries).",
+      },
+      {
+        heading: "Paris : irremplaçable mais cher",
+        body: "Aucune ville au monde n'a la densité culturelle de Paris. Le Quartier Latin seul concentre plus de librairies indépendantes que certaines capitales. Le Théâtre du Châtelet, la Comédie-Française, l'Odéon, le Centre Pompidou, le Louvre, le Musée d'Orsay — des institutions de rang mondial. Les lectures publiques, dédicaces, conférences quotidiennes gratuites ou à prix libre. Le prix à payer : 1 000 €/mois pour un studio de 20 m² dans les bons quartiers, une foule permanente, et un rythme que beaucoup trouvent épuisant après 5 ans.",
+      },
+      {
+        heading: "Le top 5 hors Paris",
+        body: "**Lyon** : 2ème ville culturelle de France. Musées des Confluences (sciences et sociétés, superbe) et des Beaux-Arts (collection européenne de référence), Théâtre National Populaire à Villeurbanne (Théâtre national hors Paris), Nuits de Fourvière (festival arts du monde), librairies Passages (Presqu'île) et Expérience (Croix-Rousse). Coût de vie élevé mais la qualité culturelle justifie l'arbitrage. **Strasbourg** : institution européenne par excellence, Médiathèque Malraux de première qualité, théâtre de Strasbourg national, Musée d'Art Moderne et Contemporain (MAMCS), librairie Kléber (l'une des plus belles de France), Festival Musica et Libreki. **Bordeaux** : CAPC Musée d'art contemporain, librairie Mollat (la plus grande librairie indépendante de France, événements quotidiens), Darwin (espace créatif), Bordeaux Baroque et Fête du Vin. **Tours** : ville universitaire avec une vie culturelle disproportionnée à sa taille. Centre de Création Musicale, librairies du vieux-Tours, bibliothèque de Touraine remarquable, Fêtes musicales. **Montpellier** : ville jeune et culturelle, Musée Fabre (collection très riche), Opéra Berlioz, librairies indépendantes nombreuses, Festival Cinemed (films méditerranéens).",
+      },
+      {
+        heading: "Les surprises : villes moyennes à haute densité culturelle",
+        body: "**Avignon** : en dehors du Festival (juillet), la ville a une vie théâtrale permanente quasi unique en province — plusieurs compagnies résidentes, off permanent. Musée du Petit Palais. Librairies spécialisées théâtre. **Arles** : capitale mondiale de la photographie (Rencontres d'Arles, chaque été). Petite ville (55 000 hab) avec une densité culturelle hors normes pour sa taille. LUMA Arles (Gehry). **Aix-en-Provence** : Festival international d'art lyrique, Musée Granet, culture Cézanne. Librairies de qualité. Prix élevés mais qualité culturelle justifiée. **Saint-Malo** : Étonnants Voyageurs (festival littéraire majeur). Corsaires et mer — une identité culturelle forte.",
+      },
+      {
+        heading: "La librairie indépendante comme baromètre",
+        body: "Une bonne librairie indépendante est le signe le plus fiable d'une ville culturellement vivante. Elle indique une population qui lit, achète local, et participe aux lectures et dédicaces. Cherchez : le Gibert local, la librairie spécialisée (théâtre, jeunesse, BD, polar, cuisine), ou la librairie générale avec conseil libraire actif. Ce n'est pas anodin : une librairie indépendante ne survit que dans un tissu social qui la fait vivre. Son existence est une preuve de la qualité culturelle du quartier.",
+      },
+    ],
+    relatedCities: ["paris", "lyon", "strasbourg", "bordeaux", "montpellier"],
+    relatedGuides: [
+      "meilleures-villes-culture-festivals-france-2026",
+      "meilleures-villes-artistes-creatifs-france-2026",
+      "meilleures-villes-musique-scene-france-2026",
+    ],
+    tags: ["villes littéraires culturelles France 2026", "meilleures villes culture France", "librairies indépendantes France villes", "théâtre musée France meilleures villes", "patrimoine culturel France villes"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
