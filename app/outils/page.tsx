@@ -24,6 +24,14 @@ type Tool = {
 
 const TOOLS: Tool[] = [
   {
+    href: "/copilot",
+    emoji: "🤖",
+    title: "Copilote Déménagement IA",
+    desc:
+      "Posez vos questions en langage naturel : budget, profil, priorités. L'IA connaît les 352 villes, leurs loyers, scores et fiscalité — et vous répond en quelques secondes.",
+    cta: "Parler au copilote",
+  },
+  {
     href: "/city-match",
     emoji: "🌸",
     title: "City Match",
