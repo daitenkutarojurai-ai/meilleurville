@@ -4407,6 +4407,114 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["toulouse", "bordeaux", "montpellier", "nantes", "lyon"],
     tags: ["toulouse vs bordeaux 2026", "which city france", "bordeaux or toulouse", "southwest france relocation", "moving to toulouse or bordeaux"],
   },
+  {
+    slug: "strasbourg-living-guide-for-expats-2026",
+    title: "Living in Strasbourg: Europe at your doorstep — an honest guide",
+    metaTitle: "Living in Strasbourg 2026 — Expat Guide: Cost, Culture, Pros & Cons",
+    metaDesc: "Strasbourg: EU institutions, Germany 20 minutes away, exceptional cycling, world-class Christmas market, very affordable housing. What life really looks like here.",
+    category: "city-guide",
+    emoji: "🏰",
+    readMinutes: 8,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "Strasbourg sits at the crossroads of France and Germany in a way that is more than geographic. It is the seat of the European Parliament, the Council of Europe, and the European Court of Human Rights — which means a genuinely cosmopolitan professional environment, a large international community, and a level of English proficiency well above average for a French city. It is also, for its size and quality of life, remarkably affordable. Here is what living here actually looks like.",
+    sections: [
+      {
+        heading: "Housing and cost of living",
+        body: "Strasbourg is one of the most underpriced large French cities relative to its quality of life. Average T2 (50m², 2-room flat) in the city centre: €800-1,100/month rent. Purchase prices: €3,200-4,500/m² in the centre, €2,500-3,400/m² in the peripheral neighbourhoods. For comparison: Lyon (which is broadly comparable in size and quality of life) runs €4,500-6,500/m² in the centre. The explanation is partly geographic: Strasbourg is not on the TGV main line to Paris in the same way as Bordeaux or Lyon (the TGV takes 1h47 to Paris via the LGV Est, which is excellent but less commercially celebrated), and its proximity to Germany creates a different dynamic than Atlantic or Mediterranean cities with their lifestyle premiums. The result for the resident: you get a genuinely beautiful city at provincial prices.",
+      },
+      {
+        heading: "The German proximity: practical implications",
+        body: "Kehl, the German town across the Rhine, is 15 minutes by tram from Strasbourg centre. This matters practically: large German supermarkets (ALDI, Kaufland, Rewe) are popular with Strasbourg residents for grocery shopping — the price difference on packaged goods, meat, and beer can be 15-30%. Many Strasbourg residents also use the German healthcare system for some services (shorter waiting times for specialists in some areas), and the cross-border labour market creates employment options on both sides. If you work in Germany (Kehl, Offenburg, or further into Baden-Württemberg), you can live in Strasbourg, pay French housing prices, and earn German salaries — a significant financial advantage. German-speaking capability is not required in Strasbourg but opens meaningful professional and social doors.",
+      },
+      {
+        heading: "The cycling city",
+        body: "Strasbourg consistently ranks as one of France's top cycling cities, competing with Lyon and Strasbourg in surveys of infrastructure quality. The Véloparc network provides over 600 km of cycling routes, and the modal share of cycling in Strasbourg (roughly 15% of trips) is among the highest of any French city. The city is largely flat (it sits on the Rhine plain), which helps enormously. The tram network (6 lines) is excellent — fast, frequent, reliable. This combination makes car-free living particularly practical. If you live in the city centre and work anywhere on a tram line, a car is genuinely optional.",
+      },
+      {
+        heading: "The cultural and social life",
+        body: "The Christmas market (Marché de Noël, late November to Christmas Eve) is among the oldest and largest in Europe — it is beautiful and worth experiencing once, though residents quickly tire of the tourist crowds. The Alsatian food culture is exceptional: winstubs (wine-serving restaurants with Alsatian specialities), an outstanding local wine tradition (Riesling, Pinot Gris, Gewurztraminer from the Alsatian wine route just south of the city), and German-influenced cooking that includes hearty dishes not found elsewhere in France. The EU community gives Strasbourg a cosmopolitan edge — you'll encounter more English, German, and a range of Eastern European languages in daily life than in comparably sized French cities. The Cour européenne des droits de l'homme and the EU institutions employ several thousand people, creating a significant professional international community.",
+      },
+      {
+        heading: "What Strasbourg lacks",
+        body: "The main criticisms from residents: winters are cold and grey (Strasbourg is much more continental than Atlantic cities — January temperatures regularly go below 0°C, and snowfall is not unusual). Summers are warm and sunny (the Alsatian wine route is stunning in summer), but the grey winter period from November to February is long. The rental market is tight due to the student population (Université de Strasbourg is one of the largest French universities with 50,000+ students) — finding accommodation can be competitive. The city can feel small for those used to the scale and diversity of Paris or Lyon. The nightlife is livelier than its image suggests but does not compare with Lyon or Paris in breadth.",
+      },
+    ],
+    relatedCities: ["strasbourg", "colmar", "mulhouse"],
+    tags: ["living in strasbourg 2026", "strasbourg expat guide", "alsace relocation", "eu institutions strasbourg", "strasbourg housing cost 2026"],
+  },
+  {
+    slug: "rennes-living-guide-for-expats-2026",
+    title: "Living in Rennes: Brittany's tech capital — an honest expat guide",
+    metaTitle: "Living in Rennes 2026 — Expat Guide: Cost, Tech Jobs, Cycling, Quality of Life",
+    metaDesc: "Rennes: France's best cycling city, strong tech sector, affordable housing, 2h10 from Paris by TGV. The honest guide to living in Brittany's capital.",
+    category: "city-guide",
+    emoji: "🚲",
+    readMinutes: 7,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "Rennes appears in almost every French quality-of-life ranking — and the reputation is deserved, but not for the reasons you might assume. It is not particularly beautiful. It is not sunny. It is not cheap by small-city standards. What it is: extremely well-run, exceptionally well-connected, home to a strong tech and research economy, and one of the most liveable cities in France at the practical level of daily life. Here is the honest picture.",
+    sections: [
+      {
+        heading: "Housing and cost of living in 2026",
+        body: "Rennes has become more expensive over the past decade as demand caught up with quality of life. T2 (50m²) in the centre: €850-1,100/month rent. Purchase prices in the historic centre (Arsenal, Thabor): €4,000-5,200/m². Peripheral zones (Villejean, Maurepas): €2,600-3,400/m². First suburban ring (Cesson-Sévigné, Saint-Grégoire): €3,000-4,200/m². For context: significantly cheaper than Bordeaux or Lyon in the centre, more expensive than most French mid-size cities. The City Centre is 20-25% cheaper than Bordeaux on housing, which matters if budget is a constraint. Rennes is not the 'affordable escape from Paris' it was 10 years ago, but relative to what it offers, the value is still real.",
+      },
+      {
+        heading: "The cycling infrastructure",
+        body: "Rennes has the best cycling infrastructure per capita of any French city, by most independent assessments. The network combines dedicated bike paths, shared bus-bike lanes on major axes, a 700+ km network of routes, and the Star Vélo electric bike-share system. The city is largely flat (except the Thabor hill, which is manageable). The cycling modal share is around 12-15% and rising. What this means in practice: if you work anywhere reachable by bike in the city centre or inner suburbs, you will not miss a car on a daily basis. The tram network (Lines A and B, with Line C projected for 2030s) covers the main axes. The bus network fills the gaps.",
+      },
+      {
+        heading: "Jobs and the tech economy",
+        body: "Rennes is often described as Brittany's Silicon Valley — which is exaggerated but contains truth. The city has a genuine tech cluster anchored by: Orange (historically established here, with major R&D centre), Thales (defence and digital), a growing cybersecurity ecosystem (Rennes is the French capital of cybersecurity research, home to CentraleSupélec Rennes, INRIA, and several key defence-adjacent cybersecurity firms), and a biotech sector around the CHU de Rennes. The Rennes tech scene is more embedded in research and institutional collaboration than the startup-driven scenes of Paris or Lyon. Salaries are 10-20% below Paris equivalents, but housing savings typically more than compensate for remote workers or professionals willing to relocate.",
+      },
+      {
+        heading: "The weather: clear-eyed",
+        body: "Brittany has an oceanic climate and Rennes is not on the coast, which means it gets the grey and the rain without the dramatic seafront. Annual sunshine is around 1,750 hours — comparable to Nantes, significantly below Bordeaux and about 30-35% below Nice or Montpellier. Winters are mild but wet and overcast from November to March. If you need regular sunshine, Rennes is not your city. The flip side: summer in Rennes is often genuinely pleasant — warm without being brutal — and the surrounding countryside (Côtes-d'Armor, Morbihan coast) is accessible for weekend escapes. Many Rennes residents keep a healthy perspective on the weather by getting to the Breton coast (Dinard, Saint-Malo, Quiberon, Belle-Île) regularly.",
+      },
+      {
+        heading: "The Paris connection: the key underrated advantage",
+        body: "Rennes to Paris Montparnasse: 1h27 by TGV (on the LGV Bretagne-Pays de la Loire, inaugurated 2017). This is genuinely transformative for Rennes as a professional base. You can work remotely from Rennes and be in Paris for a morning meeting, returning the same evening. Or commute 2-3 times per month. The fare ranges from €30-80 depending on timing and booking advance — competitive with Paris commuter costs. Rennes to Nantes: 1h10 by train. Rennes to Saint-Malo: 40 minutes. The TGV connection puts Rennes in a rare category of French cities that genuinely expand Parisian professional options without requiring Parisian housing costs.",
+      },
+    ],
+    relatedCities: ["rennes", "cesson-sevigne", "saint-malo", "nantes"],
+    tags: ["living in rennes 2026", "rennes expat guide", "brittany tech city", "rennes cycling city", "rennes housing cost 2026"],
+  },
+  {
+    slug: "france-rental-market-expats-guide-2026",
+    title: "Renting in France: what expats need to know before signing",
+    metaTitle: "Renting in France 2026 — Expat Guide: Guarantees, Deposits, Tenant Rights",
+    metaDesc: "Proof of income, guarantors, rental deposit, tenant rights, giving notice: everything you need to rent an apartment in France as a foreigner in 2026.",
+    category: "moving",
+    emoji: "🏠",
+    readMinutes: 9,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "The French rental market is highly regulated in tenant-friendly ways — but that same regulation makes it complicated to enter without the right documentation. Landlords are cautious because evicting a non-paying tenant takes 12-24 months legally. Here is what you actually need to find and sign a rental in France as a foreigner.",
+    sections: [
+      {
+        heading: "What landlords want: the document dossier",
+        body: "French private landlords typically require a dossier (application file) containing: identity document (passport or EU ID card), three recent pay slips (or equivalent income proof for self-employed: tax returns for last 2 years, accountant certificate), last three months of bank statements, proof of employment (work contract, or for self-employed: KBIS extract / professional registration), and one guarantor or equivalent guarantee (Visale or private guarantor). Landlords generally apply the rule that your monthly income should be at least 3× the rent before tax. Some require 3.5× or 4×. For a €1,000/month apartment, you need to show €3,000/month net income. Foreign income (in a foreign currency) is accepted but must be translated or converted, and banks may require additional documentation.",
+      },
+      {
+        heading: "Guarantors: the expat problem and how to solve it",
+        body: "The standard solution — having a French guarantor who owns property in France and can be liable for your rent — is often impossible for newly arrived expats. Two practical alternatives. First: Visale (Action Logement), a free state-backed guarantee scheme that covers rent defaults for eligible tenants (under 30, or employees of private-sector companies on qualifying contracts). Application is online at visale.fr, and Visale is widely accepted by landlords as it eliminates their risk. Second: private guarantee services — Garantme, Smartloc, or Unkle collect a fee (typically 3.5-5% of annual rent) and issue a guarantee certificate that landlords accept. Budget approximately €400-800/year for this service for a typical rental. Both are legitimate and increasingly common — Garantme in particular is now well-known to landlords.",
+      },
+      {
+        heading: "The deposit, lease type, and notices",
+        body: "Security deposit: 1 month's rent for unfurnished apartments, 2 months for furnished. This is a legal maximum — no landlord can charge more. The deposit must be returned within 1 month of leaving (2 months if there is damage to fix). Lease types: the standard unfurnished lease is 3 years (renewable automatically). The furnished lease is 1 year (renewable automatically), or 9 months for students. Notice to leave: tenant must give 1 month notice for furnished, 3 months for unfurnished (but 1 month is acceptable in certain zones tendues including Paris, Lyon, Bordeaux, Nantes, Strasbourg, and many other major cities — check the official list on service-public.fr before assuming). Landlord-initiated eviction: very difficult legally — this protects you but also means landlords screen hard.",
+      },
+      {
+        heading: "Zones tendues and rent caps",
+        body: "In France's most sought-after cities and suburbs, the loi ELAN and subsequent regulations impose encadrement des loyers — rent caps that limit how much above the neighbourhood reference price a landlord can charge. Paris, Lyon, Grenoble, Bordeaux Métropole, Montpellier, and Lille currently have active rent caps. In theory, a landlord cannot charge more than 120% of the reference rent for the neighbourhood and apartment type. In practice: enforcement is tenant-initiated (you must complain to the préfecture or go to the conciliateur de justice), and many landlords exceed caps knowing most tenants won't challenge it. If you believe your rent is above cap, check the official simulateur on the relevant city's website before raising the issue.",
+      },
+      {
+        heading: "Practical tips for the expat tenant search",
+        body: "Build your dossier in advance: landlords in competitive markets (Paris, Lyon, Bordeaux) will rent an apartment to the first credible dossier they receive, often within 24-48 hours of viewing. Prepare everything before you start looking. Translation: if your pay slips or tax returns are in a foreign language, get them translated by a certified translator (traducteur assermenté). The cost is €25-50 per page but makes your dossier immediately credible. Platforms: SeLoger, PAP (particulier à particulier, no agency fees), Bien'ici, Le Bon Coin. Agency fees: for standard lettings through an agency, fees are capped at 8-12 €/m² of apartment surface (for a 50m² flat, that's maximum €400-600). Some agencies charge more — check the legal cap before signing anything. The French rental calendar: September-October is the peak season (students, job movers) — competition is highest. June-July is easier. January-February slowest.",
+      },
+    ],
+    relatedCities: ["paris", "lyon", "bordeaux", "nantes", "rennes"],
+    tags: ["renting france expat 2026", "french rental process", "visale guarantee france", "guarantor france rental", "tenant rights france 2026"],
+  },
 ];
 
 export function getEnGuide(slug: string): EnGuide | undefined {
