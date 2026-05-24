@@ -5,7 +5,7 @@ import { MapPin, Star, Sun, Thermometer, Users, TrendingUp, Home, Laptop, Gradua
 import { Badge } from "@/components/ui/Badge";
 import { Card } from "@/components/ui/Card";
 import { ScoreBar } from "@/components/ui/ScoreBar";
-import { CommentSection } from "@/components/CommentSection";
+import { CityDiscussionTabs } from "@/components/CityDiscussionTabs";
 import { FavoriteButton } from "@/components/effects/FavoriteButton";
 import { GrainOverlay } from "@/components/effects/GrainOverlay";
 import { AISummaryCard } from "@/components/AISummaryCard";
@@ -1089,13 +1089,7 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
           land somewhere meaningful instead of scrolling to the very bottom. */}
       <section className="border-t border-[var(--border)] py-10">
         <div id="discussions" className="mx-auto max-w-5xl px-4 sm:px-6 scroll-mt-24">
-          <CommentSection
-            topic={`city:${city.slug}`}
-            title={`Témoignages sur ${city.name}`}
-            showRating
-            subscribeContext={city.name}
-            emptyHint={`Vous avez vécu ou visité ${city.name} ? Racontez-nous : ce que vous avez aimé, ce qui vous a surpris, vos coups de cœur de quartier…`}
-          />
+          <CityDiscussionTabs citySlug={city.slug} cityName={city.name} />
         </div>
       </section>
 

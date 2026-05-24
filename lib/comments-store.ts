@@ -21,6 +21,7 @@ export interface Comment {
   // lib/review-categories.ts. Used by /villes/[slug] UserScoresCard to
   // compute crowd-sourced aggregate scores per category.
   categoryRatings?: Record<string, number>;
+  type?: "comment" | "question"; // R9.4 — defaults to "comment" when absent
   createdAt: string; // ISO
 }
 

@@ -43,6 +43,8 @@ const PostSchema = z.object({
   categoryRatings: z
     .record(z.string().max(40), z.number().int().min(1).max(5))
     .optional(),
+  // R9.4 — question vs. comment (defaults to "comment")
+  type: z.enum(["comment", "question"]).optional().default("comment"),
   // Anti-bot: honeypot must be empty, formStartedAt must be at least ~2s in the past
   website: z.string().max(0).optional(),
   formStartedAt: z.number().int().optional(),
@@ -150,6 +152,7 @@ export async function POST(req: NextRequest) {
     body: parsed.data.body.trim(),
     rating: parsed.data.rating,
     categoryRatings,
+    type: parsed.data.type,
   });
   return NextResponse.json({ ok: true, comment }, { status: 201 });
 }

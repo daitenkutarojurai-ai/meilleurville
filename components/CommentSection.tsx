@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { MessageCircle, Send, Star, User, AlertCircle, CheckCircle } from "lucide-react";
 import { Button } from "@/components/ui/Button";
+import { ContributorBadge } from "@/components/effects/ContributorBadge";
 
 interface Comment {
   id: string;
@@ -72,6 +73,7 @@ export function CommentSection({
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [success, setSuccess] = useState<string | null>(null);
+  const [showBadge, setShowBadge] = useState(false);
   const [showSubscribe, setShowSubscribe] = useState(false);
   const [subscribeStatus, setSubscribeStatus] = useState<"idle" | "ok" | "err">("idle");
   const formRef = useRef<HTMLFormElement | null>(null);
@@ -127,13 +129,17 @@ export function CommentSection({
       if (newComment) setItems((prev) => [newComment, ...prev]);
       setBody("");
       setRating(null);
-      setSuccess("Merci ! Votre commentaire est en ligne.");
+      setSuccess("Votre commentaire est en ligne.");
+      setShowBadge(true);
       try {
         localStorage.setItem(STORAGE_KEY, author.trim());
         localStorage.setItem(EMAIL_KEY, email.trim());
       } catch {}
       if (subscribeContext) setShowSubscribe(true);
-      setTimeout(() => setSuccess(null), 4000);
+      setTimeout(() => {
+        setSuccess(null);
+        setShowBadge(false);
+      }, 4000);
     } catch (err) {
       setError(err instanceof Error ? err.message : "Erreur réseau");
     } finally {
@@ -272,7 +278,8 @@ export function CommentSection({
             <span>{error}</span>
           </div>
         )}
-        {success && (
+        <ContributorBadge visible={showBadge} />
+        {success && !showBadge && (
           <div role="status" aria-live="polite" className="mt-3 flex items-center gap-2 rounded-lg bg-emerald-50 border border-emerald-200 px-3 py-2 text-xs text-emerald-700">
             <CheckCircle className="h-4 w-4" />
             <span>{success}</span>
