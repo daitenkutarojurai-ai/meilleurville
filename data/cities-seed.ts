@@ -9167,6 +9167,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 24.0,
     avgTempJanuary: 4.5,
     characterTags: ["Val-d'Oise", "Île-de-France", "préfecture", "historique", "bords de l'Oise", "RER"],
+    descriptionEn:
+      "Pontoise is the Val-d'Oise historic prefecture — Pissarro's painting setting, Oise river through the centre, RER A direct to central Paris, affordable for Île-de-France. Best fit: Paris commuters seeking cheaper Île-de-France base, ultra-budget households, Pissarro-and-Impressionist heritage lovers.",
+    seoTitleEn: "Pontoise — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Pontoise (Val-d'Oise, Île-de-France): quality-of-life score 6.5/10. Val-d'Oise historic prefecture, Pissarro heritage, Oise river, RER access.",
     scores: {
       global: 6.5,
       life: 6.5,
@@ -9192,6 +9197,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 23.0,
     avgTempJanuary: 4.0,
     characterTags: ["Loir-et-Cher", "Sologne", "Sauldre", "calme", "abordable", "nature", "Léonard de Vinci"],
+    descriptionEn:
+      "Romorantin-Lanthenay is the Sologne capital — Leonardo da Vinci designed the planned city for François I (never completed), refined Sauldre river setting, hunting and fishing country, dramatically affordable. Best fit: ultra-budget households, hunting-and-fishing enthusiasts, retirees seeking calm Sologne living.",
+    seoTitleEn: "Romorantin-Lanthenay — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Romorantin-Lanthenay (Loir-et-Cher, Centre-Val de Loire): quality-of-life score 7.0/10. Sologne capital, Leonardo da Vinci project, very affordable.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -9217,6 +9227,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 23.0,
     avgTempJanuary: 3.5,
     characterTags: ["Yonne", "Bourgogne", "médiéval", "vignoble", "bords de l'Yonne", "abordable", "calme"],
+    descriptionEn:
+      "Joigny is the northern-Yonne medieval Burgundy town — refined half-timbered upper town, Yonne river, vineyards on the slopes, dramatically affordable. Best fit: ultra-budget households, heritage lovers, retirees seeking refined small-Burgundy living.",
+    seoTitleEn: "Joigny — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Joigny (Yonne, Bourgogne-Franche-Comté): quality-of-life score 6.8/10. Northern-Yonne medieval town, half-timbered, riverside, very affordable.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -9243,6 +9258,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 26.0,
     avgTempJanuary: 4.5,
     characterTags: ["Ardèche", "préfecture", "collines", "calme", "nature", "castellane", "abordable"],
+    descriptionEn:
+      "Privas is the Ardèche prefecture — the smallest department capital in France (population ~8,000), dramatic Castellane setting, dramatically affordable, surrounded by Ardèche countryside. Best fit: extreme-rural-living seekers, ultra-budget households, nature retirees, slow-life expats.",
+    seoTitleEn: "Privas — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Privas (Ardèche, Auvergne-Rhône-Alpes): quality-of-life score 7.0/10. Smallest French department capital, Castellane setting, ultra-rural, affordable.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -9268,6 +9288,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 28.5,
     avgTempJanuary: 5.5,
     characterTags: ["Gard", "Cèze", "Rhône", "soleil", "ITER proche", "marché provençal", "abordable"],
+    descriptionEn:
+      "Bagnols-sur-Cèze is the Gard Rhône-valley town — sunny Mediterranean climate, refined Provençal market, ITER fusion-reactor and Marcoule nuclear site nearby (technical-engineering employment), affordable. Best fit: nuclear-and-tech engineering professionals (CEA Marcoule, ITER), ultra-budget Provence-adjacent households.",
+    seoTitleEn: "Bagnols-sur-Cèze — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Bagnols-sur-Cèze (Gard, Occitanie): quality-of-life score 6.8/10. Gard Rhône-valley town, ITER and CEA Marcoule nearby, sunny, affordable.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -9293,6 +9318,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 25.0,
     avgTempJanuary: 5.5,
     characterTags: ["Haute-Garonne", "Toulouse proche", "sous-préfecture", "Garonne", "abordable", "familial"],
+    descriptionEn:
+      "Muret is the major Toulouse-adjacent suburb — 20 minutes south of Toulouse by train, dramatically cheaper than central Toulouse, family-friendly, with Pyrenees views in clear weather. Best fit: Toulouse-region workers wanting cheaper base, families, aerospace professionals (Airbus 30 min).",
+    seoTitleEn: "Muret — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Muret (Haute-Garonne, Occitanie): quality-of-life score 7.0/10. Toulouse-adjacent town, 20 min south, family-friendly, very affordable Pyrenees views.",
     scores: {
       global: 7.0,
       life: 7.0,
@@ -9318,6 +9348,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 24.5,
     avgTempJanuary: 4.0,
     characterTags: ["Seine-et-Marne", "Île-de-France", "Marne", "Transilien P", "cathédrale", "brie", "accessible Paris"],
+    descriptionEn:
+      "Meaux is the eastern Île-de-France Seine-et-Marne city — Bossuet's cathedral, Brie cheese capital (Brie de Meaux AOP), Marne river, Transilien P direct to Paris in 30 minutes, dramatically affordable for Île-de-France. Best fit: Paris commuters seeking cheaper IdF base, gastronomes (Brie), ultra-budget households.",
+    seoTitleEn: "Meaux — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Meaux (Seine-et-Marne, Île-de-France): quality-of-life score 6.5/10. Eastern Île-de-France, Brie capital, 30 min to Paris, very affordable for IdF.",
     scores: {
       global: 6.5,
       life: 6.5,
@@ -9343,6 +9378,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 24.0,
     avgTempJanuary: 3.5,
     characterTags: ["Isère", "Nord-Isère", "Lyon proche", "textile", "sous-préfecture", "abordable", "accessible"],
+    descriptionEn:
+      "Bourgoin-Jallieu is the Nord-Isère textile-heritage town — Lyon 30 minutes by train, Grenoble 1 hour, dramatically affordable, dynamic local economy. Best fit: Lyon-Grenoble corridor workers wanting cheap base, ultra-budget households, industrial-textile professionals.",
+    seoTitleEn: "Bourgoin-Jallieu — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Bourgoin-Jallieu (Isère, Auvergne-Rhône-Alpes): quality-of-life score 7.0/10. Nord-Isère textile town, 30 min Lyon, 1h Grenoble, very affordable.",
     scores: {
       global: 7.0,
       life: 7.0,
@@ -9368,6 +9408,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 25.5,
     avgTempJanuary: 5.0,
     characterTags: ["Tarn", "AOC Gaillac", "vignoble", "Tarn rivière", "medieval", "calme", "abordable"],
+    descriptionEn:
+      "Gaillac is the Tarn wine town — Gaillac AOC (one of France's oldest wine appellations), refined medieval centre on the Tarn river, Albi 25 minutes, Toulouse 1 hour, affordable. Best fit: wine professionals (Gaillac), refined retirees, gastronomes, families wanting refined southwest small-town living.",
+    seoTitleEn: "Gaillac — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Gaillac (Tarn, Occitanie): quality-of-life score 7.5/10. Tarn wine town, Gaillac AOC, refined medieval centre, near Albi, affordable.",
     scores: {
       global: 7.5,
       life: 8.0,
@@ -9394,6 +9439,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.5,
     avgTempJanuary: 3.5,
     characterTags: ["Aube", "Seine", "textile", "abordable", "calme", "sous-préfecture"],
+    descriptionEn:
+      "Romilly-sur-Seine is the western-Aube textile-and-railway town — Seine river, dramatically affordable property, calm. Best fit: ultra-budget households (among France's cheapest property), retirees seeking calm Champagne-region living, first-time buyers.",
+    seoTitleEn: "Romilly-sur-Seine — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Romilly-sur-Seine (Aube, Grand Est): quality-of-life score 6.5/10. Western-Aube textile-railway town, Seine river, very cheap property.",
     scores: {
       global: 6.5,
       life: 6.5,
@@ -9419,6 +9469,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.0,
     avgTempJanuary: 3.0,
     characterTags: ["Haute-Marne", "Marne", "sous-préfecture", "abordable", "calme", "industrie"],
+    descriptionEn:
+      "Saint-Dizier is the northern-Haute-Marne industrial town — De Gaulle's Colombey-les-Deux-Églises nearby, lac du Der (one of Europe's largest artificial lakes), dramatically affordable. Best fit: ultra-budget households, industrial workers, lake-and-nature enthusiasts.",
+    seoTitleEn: "Saint-Dizier — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Saint-Dizier (Haute-Marne, Grand Est): quality-of-life score 6.5/10. Northern Haute-Marne industrial town, lac du Der nearby, very affordable.",
     scores: {
       global: 6.5,
       life: 6.5,
@@ -9444,6 +9499,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.0,
     avgTempJanuary: 4.0,
     characterTags: ["Eure-et-Loir", "château médiéval", "Loir", "Beauce", "abordable", "calme", "histoire"],
+    descriptionEn:
+      "Châteaudun is the southern-Eure-et-Loir medieval town — Dunois's dramatic château (Jean of Arc's companion), Loir river, Beauce wheat-plains country, dramatically affordable. Best fit: heritage lovers, ultra-budget households, retirees seeking calm Beauce small-town living.",
+    seoTitleEn: "Châteaudun — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Châteaudun (Eure-et-Loir, Centre-Val de Loire): quality-of-life score 7.0/10. Southern Eure-et-Loir, Dunois château, Loir river, Beauce, affordable.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -9469,6 +9529,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 25.5,
     avgTempJanuary: 4.0,
     characterTags: ["Grand Lyon", "proche Lyon", "abordable", "populaire", "tramway", "diversité"],
+    descriptionEn:
+      "Vénissieux is the major south-Lyon working-class suburb — tramway direct to central Lyon, large industrial-and-logistics employment, dramatically affordable, multicultural. Best fit: Lyon-region workers wanting ultra-cheap base, ultra-budget households, multicultural-life embracers.",
+    seoTitleEn: "Vénissieux — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Vénissieux (Métropole de Lyon, Auvergne-Rhône-Alpes): quality-of-life score 6.0/10. South-Lyon suburb, tramway direct to centre, very affordable, multicultural.",
     scores: {
       global: 6.0,
       life: 6.0,
@@ -9494,6 +9559,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.5,
     avgTempJanuary: 5.0,
     characterTags: ["Mayenne", "bords de Mayenne", "sous-préfecture", "calme", "abordable", "bocage"],
+    descriptionEn:
+      "Château-Gontier-sur-Mayenne is the southern-Mayenne river town — refined Mayenne-river setting, dramatically affordable, calm bocage countryside. Best fit: ultra-budget households, retirees seeking calm small-Mayenne living, river-boating enthusiasts.",
+    seoTitleEn: "Château-Gontier — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Château-Gontier-sur-Mayenne (Mayenne, Pays de la Loire): quality-of-life score 7.0/10. Southern-Mayenne river town, very affordable, calm bocage.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -9519,6 +9589,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 23.5,
     avgTempJanuary: 4.0,
     characterTags: ["Yvelines", "Île-de-France", "château", "forêt domaniale", "bord de Paris", "Transilien N", "résidentiel"],
+    descriptionEn:
+      "Rambouillet is the Yvelines royal-forest town — President's official château, vast Rambouillet forest, 35 minutes from Paris by Transilien N, refined residential character. Best fit: Paris-region families seeking forest-and-château residence, equestrians (Bergerie Nationale), refined retirees.",
+    seoTitleEn: "Rambouillet — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Rambouillet (Yvelines, Île-de-France): quality-of-life score 7.5/10. Yvelines royal-forest town, presidential château, 35 min to Paris, refined.",
     scores: {
       global: 7.5,
       life: 7.5,
