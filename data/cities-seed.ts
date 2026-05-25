@@ -10072,6 +10072,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.5,
     avgTempJanuary: 3.0,
     characterTags: ["Ardennes", "Aisne", "sous-préfecture", "calme", "très abordable", "boudin blanc"],
+    descriptionEn:
+      "Rethel is the Ardennes sub-prefecture — famous boudin blanc (white sausage), Aisne river setting, dramatically affordable, calm. Best fit: ultra-budget households, gastronomes, retirees seeking calm Ardennes living.",
+    seoTitleEn: "Rethel — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Rethel (Ardennes, Grand Est): quality-of-life score 6.5/10. Ardennes sub-prefecture, boudin blanc heritage, very affordable, calm.",
     scores: {
       global: 6.5,
       life: 6.5,
@@ -10097,6 +10102,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.5,
     avgTempJanuary: 3.0,
     characterTags: ["Meuse", "madeleines", "château Stanislas", "calme", "très abordable", "Lorraine"],
+    descriptionEn:
+      "Commercy is the Meuse town famous for Madeleines — Stanislas's château, dramatically affordable, calm Lorraine countryside. Best fit: ultra-budget households, gastronomes, retirees seeking calm Lorraine living.",
+    seoTitleEn: "Commercy — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Commercy (Meuse, Grand Est): quality-of-life score 6.5/10. Famous Madeleines town, Stanislas château, very affordable, calm Lorraine.",
     scores: {
       global: 6.5,
       life: 7.0,
@@ -10122,6 +10132,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.5,
     avgTempJanuary: 3.5,
     characterTags: ["Creuse", "Marche limousine", "calme absolu", "très abordable", "patrimoine", "télétravail"],
+    descriptionEn:
+      "La Souterraine is the western-Creuse Marche-Limousine town — Paris-Toulouse railway line (3h to Paris), dramatically affordable property, calm rural setting. Best fit: remote workers seeking ultra-cheap French base with Paris rail access, ultra-budget households, retirees.",
+    seoTitleEn: "La Souterraine — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "La Souterraine (Creuse, Nouvelle-Aquitaine): quality-of-life score 7.0/10. Marche-Limousine railway town, Paris line access, very cheap property.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -10147,6 +10162,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.0,
     avgTempJanuary: 5.0,
     characterTags: ["bastide médiévale", "Gers", "marché", "rural", "patrimoine", "calme"],
+    descriptionEn:
+      "Fleurance is the 13th-century Gers bastide town — refined arcaded central square, weekly market, rural Gascony setting, dramatically affordable. Best fit: ultra-budget households, retirees seeking authentic Gascon small-town living, gastronomes.",
+    seoTitleEn: "Fleurance — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Fleurance (Gers, Occitanie): quality-of-life score 6.3/10. 13th-century Gascon bastide, arcaded square, rural, very affordable.",
     scores: {
       global: 6.3,
       life: 6.8,
@@ -10172,6 +10192,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.0,
     avgTempJanuary: 4.0,
     characterTags: ["sous-préfecture", "rural", "Limousin", "tranquille", "patrimoine", "abordable"],
+    descriptionEn:
+      "Bellac is the Haute-Vienne Limousin sub-prefecture — Jean Giraudoux's birthplace, dramatically affordable rural Limousin setting. Best fit: ultra-budget households seeking very cheap French property, literary tourists, slow-life expats.",
+    seoTitleEn: "Bellac — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Bellac (Haute-Vienne, Nouvelle-Aquitaine): quality-of-life score 5.8/10. Limousin sub-prefecture, Giraudoux birthplace, very affordable, rural.",
     scores: {
       global: 5.8,
       life: 6.2,
@@ -10197,6 +10222,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 19.0,
     avgTempJanuary: 2.0,
     characterTags: ["Lozère", "altitude", "nature", "industrie", "air pur", "randonnée"],
+    descriptionEn:
+      "Saint-Chély-d'Apcher is the northern-Lozère high-altitude town (1000m) — Aubrac plateau adjacent, ArcelorMittal steel plant, dramatic mountain Massif Central setting. Best fit: extreme-rural-living seekers, steel-industry professionals, ultra-budget households prepared for harsh winters.",
+    seoTitleEn: "Saint-Chély-d'Apcher — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Saint-Chély-d'Apcher (Lozère, Occitanie): quality-of-life score 5.7/10. North-Lozère high-altitude town, 1000m, Aubrac plateau, ultra-rural.",
     scores: {
       global: 5.7,
       life: 6.1,
@@ -10222,6 +10252,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.0,
     avgTempJanuary: 3.0,
     characterTags: ["Bourgogne", "rivière", "patrimoine", "calme", "marché", "abordable"],
+    descriptionEn:
+      "Clamecy is the Nièvre Burgundy town — refined Yonne-river setting, Romain Rolland's home, dramatically affordable. Best fit: ultra-budget households, retirees seeking calm small-Burgundy living, literary tourists.",
+    seoTitleEn: "Clamecy — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Clamecy (Nièvre, Bourgogne-Franche-Comté): quality-of-life score 5.9/10. Nièvre Burgundy town, refined river setting, very affordable, calm.",
     scores: {
       global: 5.9,
       life: 6.3,
@@ -10247,6 +10282,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 26.0,
     avgTempJanuary: 9.0,
     characterTags: ["Corse", "mer", "tourisme", "plages", "nature", "luxe"],
+    descriptionEn:
+      "Porto-Vecchio is the premium south-Corsican resort — Palombaggia and Santa Giulia beaches (some of the Mediterranean's most beautiful), refined Corsican-resort heritage, exclusively summer-focused. Best fit: refined retirees with budget, second-home owners, lifestyle remote workers prepared for seasonal swings, premium-resort lovers.",
+    seoTitleEn: "Porto-Vecchio — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Porto-Vecchio (Corse-du-Sud, Corse): quality-of-life score 7.1/10. Premium south-Corsican resort, Palombaggia beach, refined, ultra-seasonal.",
     scores: {
       global: 7.1,
       life: 7.5,
@@ -10272,6 +10312,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 24.0,
     avgTempJanuary: 6.0,
     characterTags: ["Corse", "université", "montagne", "nature", "histoire", "randonnée"],
+    descriptionEn:
+      "Corte is the historic interior-Corsican mountain town — Università di Corsica Pasquale Paoli, dramatic eagle's-nest setting in the Restonica valley, the symbolic capital of independent Corsica (Pasquale Paoli's 1755 republic). Best fit: university students, mountain-Corsican-culture seekers, slow-life expats.",
+    seoTitleEn: "Corte — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Corte (Haute-Corse, Corse): quality-of-life score 6.8/10. Historic interior-Corsican mountain town, Università di Corsica, Restonica valley.",
     scores: {
       global: 6.8,
       life: 7.2,
@@ -10297,6 +10342,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 25.0,
     avgTempJanuary: 8.0,
     characterTags: ["Corse authentique", "médiéval", "patrimoine", "nature", "maquis", "silence"],
+    descriptionEn:
+      "Sartène is the most authentic Corsican town — Mérimée's 'most Corsican of Corsican towns,' dramatic granite-stone medieval centre, surrounded by maquis, dramatically isolated from tourist Corsica. Best fit: authenticity-seekers, slow-life expats, retirees prepared for deep-Corsican living.",
+    seoTitleEn: "Sartène — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Sartène (Corse-du-Sud, Corse): quality-of-life score 6.5/10. Most authentic Corsican town, Mérimée heritage, dramatic granite medieval centre.",
     scores: {
       global: 6.5,
       life: 7.0,
@@ -10322,6 +10372,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 26.0,
     avgTempJanuary: 9.0,
     characterTags: ["Corse", "citadelle", "mer", "plage", "tourisme", "patrimoine génois"],
+    descriptionEn:
+      "Calvi is the premium north-west Corsican Balagne resort — Genoese citadel above the harbour, refined yacht-and-beach town, Corsica's most anglophone tourist zone, dramatic mountain-and-sea setting. Best fit: refined retirees with budget, British expat retirees, sailors, lifestyle remote workers.",
+    seoTitleEn: "Calvi — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Calvi (Haute-Corse, Corse): quality-of-life score 7.0/10. Premium Balagne Corsican resort, Genoese citadel, refined yacht harbour.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -10347,6 +10402,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.0,
     avgTempJanuary: 5.0,
     characterTags: ["Charente", "cognac", "Mitterrand", "rivière", "patrimoine", "calme"],
+    descriptionEn:
+      "Jarnac is the Charente cognac town — François Mitterrand's birthplace and burial site, Courvoisier headquarters, refined Charente-river setting. Best fit: cognac professionals, ultra-budget households, retirees seeking refined small-Charente living.",
+    seoTitleEn: "Jarnac — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Jarnac (Charente, Nouvelle-Aquitaine): quality-of-life score 5.8/10. Charente cognac town, Mitterrand birthplace, Courvoisier HQ.",
     scores: {
       global: 5.8,
       life: 6.3,
@@ -10372,6 +10432,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 18.0,
     avgTempJanuary: 1.0,
     characterTags: ["Cantal", "volcans", "montagne", "nature", "altitude", "Massif Central"],
+    descriptionEn:
+      "Mauriac is the northern-Cantal mountain town — Massif Central volcanic landscapes, dramatic Auvergne setting, dramatically affordable, ultra-rural. Best fit: extreme-rural-living seekers, ultra-budget households, retirees prepared for harsh winters and genuine isolation.",
+    seoTitleEn: "Mauriac — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Mauriac (Cantal, Auvergne-Rhône-Alpes): quality-of-life score 5.5/10. North-Cantal volcanic mountain town, ultra-rural, very affordable, isolated.",
     scores: {
       global: 5.5,
       life: 5.9,
@@ -10397,6 +10462,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.0,
     avgTempJanuary: 1.0,
     characterTags: ["frontalier", "Suisse", "Belfort", "industrie", "TGV proche", "calme"],
+    descriptionEn:
+      "Delle is the Swiss-border Territoire de Belfort town — direct rail link to Switzerland's Delémont (TGV-Léman line), industrial heritage, dramatically affordable. Best fit: Swiss-border professionals (Delémont, Porrentruy), ultra-budget households, industrial workers.",
+    seoTitleEn: "Delle — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Delle (Territoire de Belfort, Bourgogne-Franche-Comté): quality-of-life score 5.9/10. Swiss-border town, rail to Delémont, very affordable.",
     scores: {
       global: 5.9,
       life: 6.2,
@@ -10422,6 +10492,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.5,
     avgTempJanuary: 5.0,
     characterTags: ["Dordogne", "expats", "marché", "Périgord", "rural", "calme"],
+    descriptionEn:
+      "Ribérac is the northern-Dordogne Périgord-Vert town — exceptional weekly market, established British and Anglo retiree community, rural Périgord setting. Best fit: British and Anglo retirees seeking affordable Périgord-Vert living, gastronomes, slow-life expats.",
+    seoTitleEn: "Ribérac — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Ribérac (Dordogne, Nouvelle-Aquitaine): quality-of-life score 6.0/10. Périgord-Vert market town, British retiree community, rural, affordable.",
     scores: {
       global: 6.0,
       life: 6.5,
