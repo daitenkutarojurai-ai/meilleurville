@@ -3590,6 +3590,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 19.5,
     avgTempJanuary: 3.0,
     characterTags: ["dentelle", "Fénélon", "cathédrale", "Flandre", "gastronomie", "historique"],
+    descriptionEn:
+      "Cambrai is the historic Flemish-Nord city — UNESCO Cambrai mint, refined cathedral, dramatically affordable, Lille 45 minutes, Paris 1h30. Famous for bêtises de Cambrai mints and exceptional pâtisserie heritage. Best fit: ultra-budget households, heritage lovers, Paris-Lille commuters seeking very cheap base.",
+    seoTitleEn: "Cambrai — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Cambrai (Nord, Hauts-de-France): quality-of-life score 6.5/10. Flemish Nord city, refined cathedral, very affordable, near Lille and Paris.",
     scores: {
       global: 6.5,
       life: 7.0,
@@ -3616,6 +3621,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.0,
     avgTempJanuary: 1.5,
     characterTags: ["Peugeot", "Stellantis", "multiculturalisme", "Alsace-Mont", "Noël", "frontalier-Suisse"],
+    descriptionEn:
+      "Montbéliard is the Peugeot-Stellantis manufacturing city — major automotive jobs (Sochaux plant), Swiss border 1 hour away, famous Montbéliard Christmas markets, multicultural. Affordable. Best fit: automotive industry professionals, Swiss-Franche-Comté border workers, families seeking secure industrial jobs.",
+    seoTitleEn: "Montbéliard — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Montbéliard (Doubs, Bourgogne-Franche-Comté): quality-of-life score 6.7/10. Peugeot-Stellantis manufacturing, Christmas markets, multicultural.",
     scores: {
       global: 6.7,
       life: 7.0,
@@ -3642,6 +3652,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.5,
     avgTempJanuary: 3.0,
     characterTags: ["volcan", "Cantal", "parapluies", "festival-de-rue", "authenticité", "nature-préservée"],
+    descriptionEn:
+      "Aurillac is the Cantal capital — 631m altitude in the Massif Central volcanic country, France's famous umbrella manufacturer (Piganiol), the iconic Festival International de Théâtre de Rue each August. Dramatically isolated and authentic. Best fit: street-theatre and arts professionals, nature retirees, ultra-budget households seeking the most rural French mid-sized town.",
+    seoTitleEn: "Aurillac — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Aurillac (Cantal, Auvergne-Rhône-Alpes): quality-of-life score 7.0/10. Cantal capital, 631m altitude, street-theatre festival, authentic Massif Central.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -3668,6 +3683,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 24.0,
     avgTempJanuary: 5.0,
     characterTags: ["coutellerie", "Vienne", "TGV-Paris-Bordeaux", "patrimoine", "accessible", "vallée-Vienne"],
+    descriptionEn:
+      "Châtellerault is the Vienne sub-prefecture — historic cutlery industry, on the Paris-Bordeaux TGV line (1h45 Paris, 1h20 Bordeaux), very affordable. Best fit: Paris-Bordeaux commuters wanting cheap base, industrial-engineering workers, ultra-budget households.",
+    seoTitleEn: "Châtellerault — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Châtellerault (Vienne, Nouvelle-Aquitaine): quality-of-life score 6.7/10. Vienne sub-prefecture, Paris-Bordeaux TGV line, very affordable.",
     scores: {
       global: 6.7,
       life: 7.0,
@@ -3694,6 +3714,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 25.0,
     avgTempJanuary: 1.0,
     characterTags: ["frontalier-Genève", "Salève", "tram", "accessible", "Léman-Express", "alpes"],
+    descriptionEn:
+      "Annemasse is the main Geneva cross-border worker hub — Geneva 15 minutes by tram (Léman Express), Mont Salève on the doorstep, dramatically cheaper than living in Geneva itself. Best fit: Geneva-employed professionals (Swiss salaries, French costs), Switzerland-border families, mountain-active commuters.",
+    seoTitleEn: "Annemasse — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Annemasse (Haute-Savoie, Auvergne-Rhône-Alpes): quality-of-life score 7.4/10. Main Geneva cross-border hub, 15 min tram, Mont Salève, Swiss salaries.",
     scores: {
       global: 7.4,
       life: 7.5,
@@ -3720,6 +3745,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.0,
     avgTempJanuary: 3.0,
     characterTags: ["forêt", "château", "Oise", "proche-Paris", "patrimoine", "vélo"],
+    descriptionEn:
+      "Compiègne is the Oise royal-château city — vast Forêt de Compiègne, the imperial château of Napoleon III, Armistice clearing of November 1918, 45 minutes from Paris by train. Refined, affordable for Île-de-France-adjacent. Best fit: Paris-area workers wanting forest-and-château lifestyle, heritage lovers, families.",
+    seoTitleEn: "Compiègne — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Compiègne (Oise, Hauts-de-France): quality-of-life score 7.1/10. Oise royal-château city, vast forest, 45 min train to Paris, refined.",
     scores: {
       global: 7.1,
       life: 7.5,
@@ -3746,6 +3776,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.0,
     avgTempJanuary: 3.0,
     characterTags: ["cathédrale-gothique", "aéroport", "proche-Paris", "accessible", "Oise", "low-cost"],
+    descriptionEn:
+      "Beauvais is the Oise prefecture — the world's tallest Gothic choir (Saint-Pierre cathedral), Beauvais-Tillé low-cost airport (Paris's third), 1h15 to Paris by train. Dramatically affordable for Île-de-France-adjacent. Best fit: Paris-area workers seeking cheapest commuter base, low-cost-airline frequent flyers, ultra-budget households.",
+    seoTitleEn: "Beauvais — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Beauvais (Oise, Hauts-de-France): quality-of-life score 6.6/10. World's tallest Gothic choir, low-cost airport, 1h15 to Paris, very affordable.",
     scores: {
       global: 6.6,
       life: 7.0,
@@ -3772,6 +3807,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 29.0,
     avgTempJanuary: 8.0,
     characterTags: ["vin", "Méditerranée", "Canal-du-Midi", "gastronomie", "Aude", "soleil"],
+    descriptionEn:
+      "Narbonne is the Aude Roman-and-wine city — once the Roman capital of southern Gaul, Canal du Midi flowing through, Languedoc wine country in every direction, sea 15 minutes away. Affordable for the Mediterranean access. Best fit: wine professionals, retirees, Mediterranean-climate-and-heritage lovers on moderate budget.",
+    seoTitleEn: "Narbonne — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Narbonne (Aude, Occitanie): quality-of-life score 7.1/10. Former Roman capital, Languedoc wine country, Canal du Midi, sea nearby, affordable.",
     scores: {
       global: 7.1,
       life: 7.5,
@@ -3798,6 +3838,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 19.0,
     avgTempJanuary: 2.5,
     characterTags: ["art-déco", "Guynemer", "Aisne", "reconversion", "accessible", "historique"],
+    descriptionEn:
+      "Saint-Quentin is the Aisne sub-prefecture — exceptional Art Deco heritage (post-WWI reconstruction), the famous Matisse pastel collection, dramatically affordable property. Best fit: Art-Deco architecture lovers, ultra-budget households, Paris-region workers seeking cheap base (Paris 1h40).",
+    seoTitleEn: "Saint-Quentin — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Saint-Quentin (Aisne, Hauts-de-France): quality-of-life score 6.3/10. Art Deco heritage, Matisse collection, dramatically affordable property.",
     scores: {
       global: 6.3,
       life: 6.8,
@@ -3824,6 +3869,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.0,
     avgTempJanuary: 1.0,
     characterTags: ["Alsace", "humanisme", "vins", "entre-Strasbourg-Colmar", "médiéval", "forêt-Vosges"],
+    descriptionEn:
+      "Sélestat sits between Strasbourg and Colmar on the Alsace Wine Route — Bibliothèque Humaniste UNESCO heritage, refined medieval centre, Vosges forests to the west, Black Forest visible to the east. Best fit: wine and heritage lovers, families wanting refined Alsatian small-town living, Franco-German cultural enthusiasts.",
+    seoTitleEn: "Sélestat — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Sélestat (Bas-Rhin, Grand Est): quality-of-life score 7.5/10. Between Strasbourg and Colmar, UNESCO Humanist Library, Alsace Wine Route.",
     scores: {
       global: 7.5,
       life: 8.0,
@@ -3850,6 +3900,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 24.0,
     avgTempJanuary: 4.0,
     characterTags: ["cathédrale-UNESCO", "Printemps-de-Bourges", "Jacques-Cœur", "Berry", "accessible", "patrimoine"],
+    descriptionEn:
+      "Bourges is the historic Berry capital — UNESCO Saint-Étienne cathedral, Jacques-Cœur palace, the influential Printemps de Bourges music festival each spring. Refined heritage, dramatically affordable, exact centre of France. Best fit: music professionals, heritage lovers, ultra-budget households, retirees seeking refined heart-of-France living.",
+    seoTitleEn: "Bourges — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Bourges (Cher, Centre-Val de Loire): quality-of-life score 7.1/10. UNESCO cathedral, Jacques-Cœur palace, Printemps de Bourges festival, affordable.",
     scores: {
       global: 7.1,
       life: 7.5,
@@ -3876,6 +3931,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 23.0,
     avgTempJanuary: 4.0,
     characterTags: ["Indre", "Centre-France", "prix-très-accessibles", "base-militaire", "calme", "verdoyant"],
+    descriptionEn:
+      "Châteauroux is the Indre prefecture — among France's cheapest mid-sized cities for property, military base, calm Berry countryside. Best fit: military families, ultra-budget first-time buyers (some of the lowest property prices in France), retirees seeking calm.",
+    seoTitleEn: "Châteauroux — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Châteauroux (Indre, Centre-Val de Loire): quality-of-life score 6.5/10. Indre prefecture, among France's cheapest property markets, calm Berry.",
     scores: {
       global: 6.5,
       life: 7.0,
@@ -3902,6 +3962,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 25.0,
     avgTempJanuary: 5.0,
     characterTags: ["rugby", "Périgord-noir", "gastronomie", "Corrèze", "authenticité", "marché-Brive"],
+    descriptionEn:
+      "Brive-la-Gaillarde is the Corrèze rugby-and-gastronomy capital — exceptional weekly market, gateway to the Périgord Noir (Dordogne) and Lot, refined southwest food culture. Affordable. Best fit: rugby fans, gastronomes, retirees with established southwest-France interest, foodies wanting Périgord access.",
+    seoTitleEn: "Brive-la-Gaillarde — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Brive-la-Gaillarde (Corrèze, Nouvelle-Aquitaine): quality-of-life score 7.2/10. Corrèze rugby town, exceptional market, Périgord gateway.",
     scores: {
       global: 7.2,
       life: 7.5,
@@ -3928,6 +3993,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 24.0,
     avgTempJanuary: 5.0,
     characterTags: ["Gascogne", "D'Artagnan", "Armagnac", "cathédrale", "gastronomie-gasconne", "calme"],
+    descriptionEn:
+      "Auch is the historic Gascony capital — D'Artagnan's homeland, Armagnac brandy country, refined cathedral, dramatic Pyrenees views in clear weather. Affordable. Best fit: gastronomes, Armagnac and southwest wine lovers, retirees seeking refined Gascon living, history fans.",
+    seoTitleEn: "Auch — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Auch (Gers, Occitanie): quality-of-life score 6.9/10. Gascony capital, D'Artagnan country, Armagnac country, refined and affordable.",
     scores: {
       global: 6.9,
       life: 7.5,
@@ -3954,6 +4024,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.0,
     avgTempJanuary: 2.0,
     characterTags: ["Pasteur", "Doubs", "Jura", "patrimoine", "canal", "abordable"],
+    descriptionEn:
+      "Dole is Pasteur's birthplace — historic Jura town on the Doubs river, canal-side architecture, refined heritage, dramatically affordable. Best fit: science-history lovers, retirees seeking refined small-town Jura living, ultra-budget households wanting eastern France character.",
+    seoTitleEn: "Dole — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Dole (Jura, Bourgogne-Franche-Comté): quality-of-life score 7.0/10. Pasteur's birthplace, historic Jura town, Doubs river, refined and affordable.",
     scores: {
       global: 7.0,
       life: 7.5,
