@@ -1265,6 +1265,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.5,
     avgTempJanuary: 3.2,
     characterTags: ["patrimoine", "outlet", "abordable", "lacs", "historique"],
+    descriptionEn:
+      "Troyes is the medieval Champagne-region city — exceptional half-timbered old town, outlet-shopping capital of France (Marques Avenue, McArthurGlen), Orient lakes nearby, 90 minutes from Paris. Affordable, calm, with strong heritage. Best fit: heritage lovers, retirees on budget, Paris-region commuters seeking historic city living.",
+    seoTitleEn: "Troyes — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Troyes (Aube, Grand Est): quality-of-life score 6.9/10. Medieval Champagne city, half-timbered, outlet capital, Orient lakes nearby.",
     scores: {
       global: 6.9,
       life: 7.0,
@@ -1291,6 +1296,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.8,
     avgTempJanuary: 5.0,
     characterTags: ["BD", "créatif", "abordable", "patrimoine", "calme"],
+    descriptionEn:
+      "Angoulême is France's comic-book capital — home of the Festival International de la Bande Dessinée, with hillside-perched historic centre and Charente river. Affordable, creative, mid-sized. Best fit: comic artists and illustrators, creative professionals, retirees and families on tight budgets seeking heritage city living.",
+    seoTitleEn: "Angoulême — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Angoulême (Charente, Nouvelle-Aquitaine): quality-of-life score 6.8/10. Comic-book capital, hilltop historic centre, affordable, creative scene.",
     scores: {
       global: 6.8,
       life: 6.9,
@@ -1317,6 +1327,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 19.5,
     avgTempJanuary: 6.8,
     characterTags: ["mer", "breton", "port", "festival", "abordable"],
+    descriptionEn:
+      "Lorient is the South-Brittany Atlantic port — Festival Interceltique each August (one of Europe's largest Celtic gatherings), fishing fleet still working, Île de Groix ferry on the doorstep. Affordable, sea-facing, with strong Celtic identity. Best fit: sailors, Celtic-music lovers, ultra-budget households seeking Atlantic coast.",
+    seoTitleEn: "Lorient — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Lorient (Morbihan, Bretagne): quality-of-life score 7.2/10. South-Brittany port, Festival Interceltique, working fishing fleet, affordable.",
     scores: {
       global: 7.2,
       life: 7.4,
@@ -1343,6 +1358,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 27.0,
     avgTempJanuary: 5.5,
     characterTags: ["UNESCO", "art", "Camargue", "soleil", "flamants roses"],
+    descriptionEn:
+      "Arles is the Roman-and-Van-Gogh Provençal city — UNESCO Roman amphitheatre still hosting events, Rencontres d'Arles photography festival each summer, Camargue wetlands and flamingos at the doorstep, LUMA arts foundation. Best fit: artists and photographers, heritage lovers, Provence-seekers wanting refined small-city living.",
+    seoTitleEn: "Arles — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Arles (Bouches-du-Rhône, PACA): quality-of-life score 7.1/10. Roman UNESCO city, Van Gogh heritage, Rencontres d'Arles, Camargue at hand.",
     scores: {
       global: 7.1,
       life: 7.4,
@@ -1369,6 +1389,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.5,
     avgTempJanuary: 2.8,
     characterTags: ["alsacien", "vin", "patrimoine", "Petite Venise", "tourisme"],
+    descriptionEn:
+      "Colmar is the storybook Alsatian wine capital — half-timbered houses, La Petite Venise canals, Unterlinden Museum (Grünewald's altarpiece), surrounded by Alsace Wine Route villages. Refined, very touristy in summer, mild winters. Best fit: wine professionals, refined retirees, families wanting Franco-German Alsatian lifestyle.",
+    seoTitleEn: "Colmar — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Colmar (Haut-Rhin, Grand Est): quality-of-life score 7.6/10. Alsatian wine capital, half-timbered houses, La Petite Venise, refined heritage.",
     scores: {
       global: 7.6,
       life: 7.9,
@@ -1395,6 +1420,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 19.8,
     avgTempJanuary: 6.0,
     characterTags: ["mer", "corsaire", "remparts", "tourisme", "vent"],
+    descriptionEn:
+      "Saint-Malo is the Breton corsair city — granite-walled old town built on the sea, dramatic Channel tides, Mont Saint-Michel 50 minutes away. Atlantic-Channel maritime culture, refined despite the tourist crowds. Best fit: sailors, families seeking dramatic coast, retirees with budget, channel-crossing professionals.",
+    seoTitleEn: "Saint-Malo — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Saint-Malo (Ille-et-Vilaine, Bretagne): quality-of-life score 7.7/10. Walled corsair city, Channel tides, refined Breton coast, near Mont Saint-Michel.",
     scores: {
       global: 7.7,
       life: 8.0,
@@ -1421,6 +1451,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 28.0,
     avgTempJanuary: 5.5,
     characterTags: ["festival", "papes", "Mistral", "soleil", "patrimoine"],
+    descriptionEn:
+      "Avignon is the medieval papal Provençal city — UNESCO Palais des Papes, the legendary Pont d'Avignon, the world-class Festival d'Avignon each July. Walled centre, mistral wind, refined Provençal lifestyle, 2h40 TGV to Paris. Best fit: heritage lovers, theatre-and-arts professionals, retirees with mid-budget seeking refined Provence.",
+    seoTitleEn: "Avignon — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Avignon (Vaucluse, PACA): quality-of-life score 7.2/10. UNESCO papal city, Palais des Papes, Festival d'Avignon, refined Provençal heritage.",
     scores: {
       global: 7.2,
       life: 7.4,
@@ -1447,6 +1482,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 24.0,
     avgTempJanuary: 1.0,
     characterTags: ["montagne", "proximité-Alpes", "dynamique", "compact", "familial"],
+    descriptionEn:
+      "Chambéry is the value alternative to Annecy in the Savoie Alps — Alps on every side, Lac du Bourget (France's largest natural lake), 1h to both Lyon and Geneva, dramatically cheaper than Annecy. Best fit: mountain-active families, value-seeking Alpine residents, Geneva-region commuters wanting Savoie character without Annecy premium.",
+    seoTitleEn: "Chambéry — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Chambéry (Savoie, Auvergne-Rhône-Alpes): quality-of-life score 7.5/10. Savoie Alps gateway, Lac du Bourget, cheaper Annecy alternative.",
     scores: {
       global: 7.5,
       life: 7.8,
@@ -1473,6 +1513,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 28.5,
     avgTempJanuary: 8.0,
     characterTags: ["mer", "soleil", "histoire", "retraite", "familial"],
+    descriptionEn:
+      "Fréjus is the under-the-radar Var Mediterranean city — Roman heritage (one of the largest Roman amphitheatres outside Italy), beaches, Saint-Tropez peninsula proximity, dramatically cheaper than Cannes or Antibes. Best fit: retirees seeking Côte d'Azur climate at lower cost, families, military-and-defence professionals (large base nearby).",
+    seoTitleEn: "Fréjus — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Fréjus (Var, PACA): quality-of-life score 7.0/10. Var Mediterranean coast, Roman heritage, cheaper Côte d'Azur alternative, family beach town.",
     scores: {
       global: 7.0,
       life: 7.3,
@@ -1499,6 +1544,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 25.5,
     avgTempJanuary: 4.5,
     characterTags: ["vignobles", "Saint-Émilion", "abordable", "calme", "Bordeaux-30min"],
+    descriptionEn:
+      "Libourne sits at the heart of the great right-bank Bordeaux wine country — Saint-Émilion, Pomerol, Fronsac all within 15 minutes. Bordeaux 30 minutes by train, calm, affordable for the Gironde region. Best fit: wine professionals, wine-tourism households, retirees and families wanting Bordeaux-region access without Bordeaux prices.",
+    seoTitleEn: "Libourne — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Libourne (Gironde, Nouvelle-Aquitaine): quality-of-life score 7.1/10. Right-bank Bordeaux wine country, Saint-Émilion adjacent, calm, affordable.",
     scores: {
       global: 7.1,
       life: 7.3,
@@ -1525,6 +1575,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 27.5,
     avgTempJanuary: 6.5,
     characterTags: ["arènes", "garrigues", "soleil", "patrimoine", "gastronomie"],
+    descriptionEn:
+      "Nîmes is the Roman Occitan city — arena (still hosting events), Maison Carrée temple, Pont du Gard 20 minutes away, dramatic Mediterranean climate (heatwaves intense). Garrigues scrubland and the Cévennes on the doorstep. Best fit: heritage lovers, Roman-history buffs, mid-budget retirees, Mediterranean-climate seekers prepared for hot summers.",
+    seoTitleEn: "Nîmes — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Nîmes (Gard, Occitanie): quality-of-life score 7.0/10. Roman Occitan city, arena, Maison Carrée, Pont du Gard adjacent, intense sun.",
     scores: {
       global: 7.0,
       life: 7.1,
@@ -1551,6 +1606,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.5,
     avgTempJanuary: 0.5,
     characterTags: ["montagnes", "air-pur", "ski", "calme", "abordable"],
+    descriptionEn:
+      "Gap is the Hautes-Alpes capital — 740m altitude, dry mountain climate (one of France's sunniest), Serre Chevalier and Devoluy ski areas nearby, Mediterranean influence reaches this far north. Affordable for Alpine France. Best fit: serious mountain dwellers, sun-and-snow seekers, retirees who want dry mountain air, ski-season workers.",
+    seoTitleEn: "Gap — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Gap (Hautes-Alpes, PACA): quality-of-life score 7.3/10. Hautes-Alpes capital at 740m, dry sunny mountain climate, affordable Alpine living.",
     scores: {
       global: 7.3,
       life: 7.7,
@@ -1577,6 +1637,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.0,
     avgTempJanuary: 6.5,
     characterTags: ["golfe-du-Morbihan", "voile", "historique", "qualité-vie", "familial"],
+    descriptionEn:
+      "Vannes consistently ranks among France's top quality-of-life cities — medieval Gulf of Morbihan capital, walled old town, sailing paradise, family-friendly, mild oceanic climate. Property prices rising fast as the secret leaks. Best fit: sailing families, refined retirees, remote workers wanting south-Brittany lifestyle at peak quality.",
+    seoTitleEn: "Vannes — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Vannes (Morbihan, Bretagne): quality-of-life score 7.9/10. Gulf of Morbihan capital, walled medieval old town, top-ranked French quality of life.",
     scores: {
       global: 7.9,
       life: 8.3,
@@ -1603,6 +1668,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 18.5,
     avgTempJanuary: 5.5,
     characterTags: ["mer", "normandie", "abordable", "industriel", "calme"],
+    descriptionEn:
+      "Cherbourg-en-Cotentin is the tip of the Cotentin peninsula — major naval base, Channel ferries to Ireland and the UK, very affordable, wild coastline. Modest urban scale. Best fit: naval and defence professionals, sailors, ultra-budget households seeking Atlantic-Channel coast.",
+    seoTitleEn: "Cherbourg-en-Cotentin — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Cherbourg-en-Cotentin (Manche, Normandie): quality-of-life score 6.6/10. Cotentin peninsula tip, naval base, UK ferries, very affordable.",
     scores: {
       global: 6.6,
       life: 6.8,
@@ -1629,6 +1699,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 24.0,
     avgTempJanuary: 3.5,
     characterTags: ["Pyrénées", "abordable", "calme", "sport-outdoor", "sous-estimée"],
+    descriptionEn:
+      "Tarbes is the under-the-radar Pyrenees-gateway city — Pic du Midi observatory and ski areas within an hour, Lourdes 20 minutes away, dramatically affordable. Lower-altitude than Gap but real mountain access. Best fit: ultra-budget mountain residents, retirees seeking Pyrenees access, families and remote workers prioritising value.",
+    seoTitleEn: "Tarbes — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Tarbes (Hautes-Pyrénées, Occitanie): quality-of-life score 6.8/10. Pyrenees-gateway city, very affordable, Pic du Midi nearby, calm.",
     scores: {
       global: 6.8,
       life: 7.0,
