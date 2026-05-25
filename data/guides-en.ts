@@ -7103,6 +7103,178 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["vannes", "lorient", "auray", "quimper"],
     tags: ["living in vannes expat 2026", "vannes expat guide", "morbihan gulf living", "brittany coast expat", "vannes cost of living"],
   },
+  {
+    slug: "british-retiring-in-france-post-brexit-2026",
+    title: "British Retiring in France Post-Brexit: The 2026 Guide",
+    metaTitle: "British Retiring France 2026 — post-Brexit guide, visa, NHS, healthcare, taxes",
+    metaDesc: "How British nationals retire in France in 2026 post-Brexit: long-stay visa, NHS-to-French healthcare transition, pension, S1 form, tax, residency.",
+    category: "moving",
+    emoji: "🇬🇧",
+    readMinutes: 12,
+    publishedAt: "2026-05-25",
+    updatedAt: "2026-05-25",
+    intro: "Britain has the longest-standing tradition of retiring to France of any English-speaking country — the Dordogne expat villages, the Provençal stone cottages, the Brittany cottages are largely British creations. Post-Brexit, the path has become formalised: no more freedom of movement, a long-stay visa is required, and the S1 healthcare arrangement now governs how British pension recipients access French healthcare. The good news: the legal pathway is well-trodden, the WA-protected retirees who moved before December 2020 retain extensive rights, and France actively wants British retirees. This guide walks through the complete 2026 picture.",
+    sections: [
+      {
+        heading: "Two categories: WA-protected vs. post-Brexit new movers",
+        body: "**Withdrawal Agreement (WA) protected**: if you were legally resident in France on 31 December 2020 and registered through the dedicated procedure, you hold a 'carte de séjour accord de retrait' valid 10 years renewable. You retain the substantive rights you had pre-Brexit: free movement within the Schengen Area, access to French healthcare on the same terms as French residents (subject to your status), right to work, right to family reunification on the old EU rules. Approximately 150,000 British nationals in France hold WA cards. **Post-Brexit new movers**: from 1 January 2021, British nationals are 'third-country nationals' for French immigration purposes. To retire to France, you apply for the long-stay visitor visa (VLS-TS Visiteur) — same procedure as Americans. The visa requires proof of sufficient income, private health insurance for the first year (or S1 if you receive UK State Pension), accommodation proof, and a clean record. Renewable annually at the Préfecture. After 5 years, eligible for the long-term residence card.",
+      },
+      {
+        heading: "The S1 form: your bridge to French healthcare",
+        body: "The S1 is a critical document for British pensioners moving to France. **What it is**: a UK certificate certifying that you receive the UK State Pension (or are otherwise covered under UK social security). It entitles the holder to receive healthcare in another EU country, with the UK reimbursing the host country. **How to get it**: request from the NHS Overseas Healthcare Services (OHS) before or shortly after your move. The OHS issues S1 forms to UK pensioners who are eligible. **What it gives you**: full access to the French Sécurité Sociale (Assurance Maladie) healthcare system, on the same terms as French residents. You're covered for 70%+ of medical costs; you can buy a French mutuelle to cover the rest. You're effectively integrated into the French system with the UK footing the bill via the EU-UK Trade Agreement. **Important**: not all British retirees qualify. Eligibility is based on having paid UK National Insurance contributions and receiving a UK State Pension (or qualifying state benefit). Private UK pensions alone do not qualify for an S1. **If you don't qualify for S1**: you need private health insurance during the visa's first year, then can join French Assurance Maladie via the PUMa system after 3 months of residence (income-based contribution applies).",
+      },
+      {
+        heading: "Pension: UK State Pension paid into France",
+        body: "**UK State Pension**: paid directly into your French bank account. You declare it as foreign income on your French tax return. Per the UK-France tax treaty, the UK State Pension is generally taxable in your country of residence (France) — but exempted by treaty for some categories. Verify with a UK-France expat tax advisor. **Annual increase (triple lock)**: critically, UK State Pensions paid to EU residents continue to receive annual increases (frozen pensions affect British retirees in some non-EU countries — Australia, Canada, etc. — but not in France). This is a substantial benefit. **Private UK pensions (occupational, SIPP, personal)**: taxable in France for French residents, with credit for UK tax paid (UK-France treaty). Some private pensions are paid gross (no UK tax withholding) once your French tax residency is established. Some pension schemes require notification of change in residence — contact your scheme administrator. **State Pension claim from France**: if you reach State Pension age while resident in France, you claim from the International Pension Centre (UK government). Process takes 4-8 weeks. Pension is paid by direct debit to your French account.",
+      },
+      {
+        heading: "Tax: UK-France interaction",
+        body: "**Tax residency**: France considers you a tax resident if you spend more than 183 days/year there, or France is your principal residence. As a retiree in France, you'll almost certainly become French tax resident. **UK-France treaty**: prevents double taxation but doesn't eliminate UK filing in all cases. Generally: UK State Pension is taxable in France (with treaty exception); UK private pensions are taxable in France with UK credit; UK property rental income remains taxable in the UK; UK savings interest is taxable in France with UK credit. **UK tax non-residence**: you formally become UK tax non-resident by leaving the UK and meeting the Statutory Residence Test conditions. You file a final UK tax return covering the year of departure (P85 form). **French tax filing**: file annually by mid-May. The Form 2042 (main French tax return) plus Form 2047 (foreign income). For most British retirees with State Pension + small UK private pension, French tax is modest or zero. **CSG/CRDS social charges**: 17.2% on capital income (savings interest, investment returns) — but British S1 holders are exempt from CSG on certain income types per the bilateral arrangement. **Capital gains**: UK property sales by French-resident Britons are taxable in the UK (where the property is) but also reportable in France with credit.",
+      },
+      {
+        heading: "Visa application process for post-Brexit movers",
+        body: "1. **Apply at a UK-based French consulate** (London, Edinburgh, Manchester) through the VFS Global service. 2. **Documents required**: passport (6 months remaining minimum), birth certificate, marriage certificate if applicable, proof of accommodation in France (signed lease or sale contract), proof of income (last 3 years of bank statements showing pension deposits, P60s, pension statements), private health insurance covering France (minimum coverage requirements specified by the consulate), DBS criminal record check, photo, application form. **Timeline**: visa typically issued within 4-6 weeks after biometric appointment. **Cost**: €99 application fee + VFS service fee ~£40 + DBS check + insurance + sworn translations. **After arrival**: validate the visa online via the OFII system within 3 months. Apply at the Préfecture for the carte de séjour (renewable visitor card) about 2 months before the visa expires.",
+      },
+      {
+        heading: "Most popular British retirement areas in France 2026",
+        body: "**Dordogne / Lot / Périgord**: by far the largest British expat retirement zone. Stone houses, gentle hills, mature established community, English-speaking services in towns like Sarlat, Bergerac, Eymet, Beynac. Property prices €150,000-400,000 typical. **Provence (Vaucluse, Drôme provençale, Var inland)**: traditional British attraction. Property prices have risen substantially — €300,000-700,000 typical. **Languedoc (Hérault, Aude, Pyrénées-Orientales)**: budget Mediterranean. Smaller British community than Provence but growing. **Brittany (Côtes-d'Armor, Morbihan)**: emerging since 2018 due to mild climate, Atlantic moderation, easier ferry access from UK. Pricing very reasonable. **Pays Basque coast (Saint-Jean-de-Luz, Hossegor)**: smaller-scale, recent growth. **Loire Valley (around Saumur, Chinon, Bourgueil)**: refined, wine-focused, growing. **Pyrenees foothills (around Pau, Mirepoix)**: emerging British and Dutch retirement zone.",
+      },
+      {
+        heading: "Practical considerations specifically for Britons",
+        body: "1. **Driving licence**: UK driving licences are recognised in France indefinitely under the bilateral arrangement (provided they were issued before Brexit if you became French-resident pre-Brexit, or under the post-Brexit reciprocal agreement otherwise). You can drive in France with your UK licence; many residents choose to exchange to a French licence for convenience after 1-2 years. **2. Property transactions**: same process as for any foreign buyer. Use a French notaire. The post-Brexit period has not changed property purchase mechanics. **3. Pets**: post-Brexit, the UK pet passport is no longer valid for travel to the EU. Each trip requires an Animal Health Certificate (AHC) issued by an OV in the UK. For pet residents in France: get a French pet passport from a French vet — re-usable and cheaper. **4. UK bank accounts**: most UK banks restrict services to non-UK residents but maintain account-keeping for British abroad. Notify your bank of the move. Some banks (HSBC, Barclays) have services optimised for international British residents. Keep a UK account for UK income and an emergency UK base. **5. NHS access during visits**: post-Brexit, GHIC (replacement for EHIC) gives British nationals access to medically necessary care during temporary visits to EU countries. UK residents have full NHS access; if you're French-resident with S1, you have French Assurance Maladie + NHS access for visits to UK. The NHS does not provide free elective care to UK passport holders who are non-UK-resident, however.",
+      },
+    ],
+    relatedCities: ["sarlat-la-caneda", "bergerac", "pau", "saint-jean-de-luz", "saumur"],
+    tags: ["british retiring in france 2026", "post brexit british expat france", "S1 form france british", "uk pension france retire", "british long stay visa france"],
+  },
+  {
+    slug: "caen-vs-rouen-normandy-expat-comparison-2026",
+    title: "Caen vs Rouen: Which Normandy City for Expats? (2026)",
+    metaTitle: "Caen vs Rouen 2026 — Normandy expat city comparison, cost of living, Paris, lifestyle",
+    metaDesc: "Caen or Rouen for expats in 2026? Compared by cost of living, Paris access, neighbourhoods, schools, climate, lifestyle, expat community.",
+    category: "city-guide",
+    emoji: "⚓",
+    readMinutes: 9,
+    publishedAt: "2026-05-25",
+    updatedAt: "2026-05-25",
+    intro: "Caen and Rouen are the two main cities of Normandy: both prefectures of their respective départements (Calvados and Seine-Maritime), both with deep medieval heritage, both within easy Paris reach. They are routinely confused — but they are very different. Rouen is the larger, more industrial, more Paris-aligned city. Caen is the smaller, coast-adjacent, family-oriented one. For expats considering Normandy, the choice matters. This guide compares them head to head in 2026.",
+    sections: [
+      {
+        heading: "Geographic and basic facts",
+        body: "**Caen**: 105,000 in the city, 200,000 metropolitan area. In Calvados département, 15 km from the English Channel (coastal towns: Ouistreham, Cabourg, Deauville within 20-40 min). Population is younger (large university, 32,000 students). **Rouen**: 110,000 in the city, 510,000 metropolitan area. In Seine-Maritime département, on the Seine river, 35 km inland from the Channel coast. Larger and more economically active. **Climate**: very similar — Atlantic-tempered, mild summers (peak 22-25°C), mild winters (lows rarely below 0°C), grey and rainy in winter. Caen marginally cooler in summer due to coastal proximity. **Paris connection**: both well-connected. Rouen-Paris by direct train (1h05 to Saint-Lazare, hourly), Caen-Paris by direct train (2h to Saint-Lazare, every 1-2h). For Paris commuters, Rouen is meaningfully better connected.",
+      },
+      {
+        heading: "Cost of living: Caen marginally cheaper",
+        body: "**Caen**: property prices €2,000-3,200/m² ancien in central neighbourhoods, €2,800-3,800 renovated. T2 furnished €450-650/month centrally, T3 €600-850/month. **Rouen**: property prices €2,300-3,500/m² ancien, €3,000-4,200 renovated. T2 furnished €500-750/month centrally, T3 €700-1,000/month. Rouen is roughly 10-15% more expensive. Both significantly cheaper than Paris (50-70% lower than Paris equivalent neighbourhoods). Groceries: similar national average. Restaurants: solid value in both. Public transport: Caen has tramway (3 lines), bus network. Rouen has metro (1 line — actually a tramway-style with underground sections), tram (1 line), bus. Both €40 monthly pass.",
+      },
+      {
+        heading: "Neighbourhoods to know",
+        body: "**Caen**: **Vaucelles / Centre-ville**: walkable centre around the cathedral and Château de Caen, restaurants, family-friendly. T2 €550-700/month. **Saint-Étienne**: bourgeois historic district, parks, schools. **Université / Pierre Heuzé**: student-area, more affordable, dynamic. **Vaucelles-Beaulieu**: residential family suburbs. **Outside Caen**: Bayeux (20 min, famous tapestry, walkable medieval town) is a popular alternative for those wanting smaller scale. **Rouen**: **Centre-ville (around the cathedral)**: spectacular Gothic cathedral (Monet painted it), half-timbered medieval streets, restaurants, walkable. T2 €700-900/month. **Rive Gauche**: residential, more affordable, families. **Le Mont-Saint-Aignan**: bourgeois suburb on the hills above the Seine, larger properties, suburban quiet. **Sotteville-lès-Rouen**: working-class suburb, very affordable. **Bois-Guillaume**: bourgeois northern suburb, families.",
+      },
+      {
+        heading: "Economy and jobs",
+        body: "**Caen**: university hub (Caen University 32,000 students), public sector (regional capital, courts, hospital), defence industry (DCNS, Naval Group), tourism (Mémorial de Caen — major WWII museum), agriculture/agroindustry. **Rouen**: industrial port on the Seine (chemical industry, refineries — Total, Exxon, Lubrizol), aerospace (Aerocom), pharmaceutical (Janssen-Cilag, GSK), public sector (prefecture of Seine-Maritime), university. Rouen's job market is meaningfully bigger and more diverse. For career-oriented expats, Rouen offers more opportunities; for academic/research/public-sector roles, Caen.",
+      },
+      {
+        heading: "Lifestyle and character",
+        body: "**Caen**: rebuilt extensively after WWII (the 1944 Battle of Caen reduced 80% of the city to rubble — much of the architecture is post-war reconstruction), giving it a distinctive 1950s feel mixed with surviving medieval buildings (the Abbey aux Hommes, Abbey aux Dames). The 1944 D-Day landing beaches are 20-30 minutes away — a constant historical presence. Calmer pace, university-driven energy in term-time, very family-friendly. Coastal trips weekly are normal. **Rouen**: medieval centre preserved (Joan of Arc was burned here in 1431, the half-timber Old Town survived), more urban feel, larger restaurant scene, more international due to industry presence. The Seine river through the city gives it a different atmosphere. More Parisian-style ambiance — many Parisians commute from Rouen. For someone wanting urban density and culture: Rouen wins. For someone wanting smaller scale and coast access: Caen.",
+      },
+      {
+        heading: "Schools and family infrastructure",
+        body: "**Caen**: excellent public school network, Caen University with strong international student programme, several bilingual sections in lycées. The Institut Britannique (private bilingual school) caters to British/American expat families. **Rouen**: strong public schools, fewer bilingual options than Caen. Catholic and private schools also available. For families with international educational needs, Caen has a slight edge.",
+      },
+      {
+        heading: "Verdict",
+        body: "**Choose Caen** if: you want a smaller-scale family city with coast access; you have school-age children and want bilingual school options; you prefer university-town atmosphere; you don't need to commute to Paris regularly; you value lower property prices and easier daily life; coastal weekend access matters to you (D-Day beaches, Cabourg, Honfleur within 30-40 min). **Choose Rouen** if: you need career mobility and Paris commuter access (Rouen is a much better Paris commute); you appreciate medieval city density and preserved old town atmosphere; you want a larger restaurant/cultural scene; you work in chemicals, pharmaceuticals, or aerospace (Rouen's industries); you prefer slightly more urban energy. **The honest summary**: Caen suits family-oriented expats and academics; Rouen suits career professionals and those wanting Paris-orbit access. Both work well for Britons (close to Channel ferries — Le Havre, Caen, Dieppe ports — and reasonable for retirees). Quality of life is comparable; the choice comes down to scale and priorities.",
+      },
+    ],
+    relatedCities: ["caen", "rouen", "le-havre", "bayeux"],
+    tags: ["caen vs rouen 2026", "normandy expat city comparison", "which normandy city expat", "caen expat guide", "rouen expat guide"],
+  },
+  {
+    slug: "france-tech-entrepreneurs-startup-expat-guide-2026",
+    title: "France for Tech Entrepreneurs and Startup Founders (2026)",
+    metaTitle: "France Tech Entrepreneurs 2026 — startup founder expat guide: BPI, visa, ecosystems, cities",
+    metaDesc: "Founding a tech startup in France as an expat in 2026: passeport talent, BPI funding, French Tech ecosystems, best cities, tax credits, real costs.",
+    category: "remote-work",
+    emoji: "🚀",
+    readMinutes: 12,
+    publishedAt: "2026-05-25",
+    updatedAt: "2026-05-25",
+    intro: "France has invested heavily in becoming a European startup hub over the past decade — Station F (the world's largest startup campus), the French Tech Visa program, BPI France's substantial funding presence, the CIR (Crédit d'Impôt Recherche) tax credits, and EU-level R&D incentives. For tech entrepreneurs, France in 2026 offers a credible alternative to the UK, Berlin, or Amsterdam — with specific strengths (deep technical talent, strong universities, EU market access from day 1) and weaknesses (slower business culture in some sectors, French-language requirements outside Paris). This guide walks through what an expat tech entrepreneur actually needs to know.",
+    sections: [
+      {
+        heading: "The French Tech Visa and Passeport Talent",
+        body: "**French Tech Visa** is the immigration pathway for foreign tech entrepreneurs, talent, and investors. Three main categories: 1) **Talent Passport — Création d'entreprise**: for founders launching a startup in France. Requires capital of at least €30,000 invested in the project, and a realistic business plan endorsed by a recognised French Tech accelerator or partner. 4-year residence permit, renewable. 2) **Talent Passport — Salarié qualifié**: for foreign employees hired by French Tech-endorsed startups. Renewable 4-year permit. 3) **Talent Passport — Investisseur**: for foreign investors deploying at least €300,000 in French startups. **Application**: through the Préfecture once in France, or via the French consulate before arrival. Documents: business plan, proof of capital, contract or endorsement from a recognised French Tech body, residence/accommodation evidence. **Processing**: typically 1-3 months for the visa, 6-12 months for the residence permit. **Key advantage**: family members (spouse, children) automatically receive accompanying 'Talent Passport — Famille' permits — they can work freely in France.",
+      },
+      {
+        heading: "The French startup ecosystem by city",
+        body: "**Paris (Station F + La Défense)**: by far the largest ecosystem. Station F (formerly Halle Freyssinet) hosts 1,000+ startups, dozens of accelerators (Founders Program, French Tech Visa partners, corporate accelerators by Microsoft, Facebook/Meta, BNP Paribas, etc.). The Quai d'Austerlitz area has become a tech corridor. Funding density is highest in France. **Lyon (La French Tech Lyon, biotech focus)**: strong life sciences and deep tech presence; Lyonbiopôle is the major biotech cluster. **Toulouse (aerospace and space tech)**: ISAE, ENAC, and the Airbus ecosystem create a unique aerospace startup cluster. **Bordeaux (digital, sustainability)**: growing scene anchored by La Cité du Vin and Darwin Ecosystème. **Nantes (tech, creative)**: the Quartier de la Création and Atlantic 2.2 create momentum. **Marseille (logistics, maritime tech, French Tech Aix-Marseille)**: emerging; The Camp accelerator (Aix) is significant. **Grenoble (deep tech, semiconductors)**: CEA-Leti, Inria, and the engineering schools make Grenoble France's deepest deep-tech ecosystem. **Lille (cross-border, distribution)**: EuraTechnologies hosts 300+ companies. **Strasbourg (European institutions, biotech)**: growing, geographically distinctive. **Sophia Antipolis (Côte d'Azur tech park)**: long-established, more corporate than startup. **For founder visibility**: Paris is unmatched; for specific verticals (biotech, aerospace, deep tech), regional ecosystems can be more accessible.",
+      },
+      {
+        heading: "Funding: BPI, EU programmes, VC landscape",
+        body: "**BPI France** (Banque Publique d'Investissement): the dominant public funding source. Provides equity, loans, grants, guarantees, and conviction at scale. BPI's pre-seed loans (€20,000-100,000) are accessible without venture-capital qualification. BPI's growth-stage equity (€500,000-€10M+) co-invests alongside private VCs. Apply via bpifrance.fr. **EU funding**: Horizon Europe (research), EIC Accelerator (deep tech, up to €17.5M), EIB venture (large rounds). **French VC landscape**: substantial. Major French VCs include Partech, Idinvest, XAnge, Iris Capital, Eurazeo Growth, Bpifrance Venture, Index Ventures (also London), Serena Capital, Daphni. **Anglo-American VCs active in France**: Sequoia, Accel, Index, General Catalyst, Lightspeed, Insight all have France-related portfolio companies. **Funding stage characteristics 2026**: pre-seed/seed median check €500k-2M; Series A median €5-10M; Series B €15-30M. Lower than US comparable but improving. **Pre-money valuations**: typically 20-30% below US comparable companies — partly reflecting smaller market, partly weaker exit prospects, partly cultural.",
+      },
+      {
+        heading: "Tax incentives and credits",
+        body: "**CIR (Crédit d'Impôt Recherche)**: France's most powerful R&D tax credit. Eligible R&D expenses are reimbursed at 30% (50% for first €100M). For a startup spending €500k on R&D, that's €150k tax credit — refundable (paid in cash if no taxable income). Required documentation rigorous; many startups use specialised consultants (Ayming, FundUp) on success fee basis. **CII (Crédit d'Impôt Innovation)**: 20% credit on innovation expenses (smaller companies). **JEI (Jeune Entreprise Innovante)**: status for startups <8 years old with significant R&D spend. Exempts from social charges on R&D staff for first 7 years (massive cost reduction) plus exemption from local taxes (CFE, CVAE). **R&D tax integration**: France ranks among the most R&D-favorable tax jurisdictions in the world. For deeptech, biotech, AI startups, these credits often determine viability. **Corporate tax rate**: standard 25% (2026), reduced rate 15% on first €42,500 of profit for SMEs. Holding regime, group consolidation, IP regime (10% on patent income) — substantial sophistication.",
+      },
+      {
+        heading: "Company structures and the practical mechanics",
+        body: "**SAS (Société par Actions Simplifiée)**: the dominant startup structure. Flexible governance, single shareholder allowed (SASU), no minimum capital legally required (€1 acceptable), president as legal representative. Most VCs require SAS for investment. Setup: 1-2 weeks, €1,000-3,000 in legal/notaire fees. **SARL**: more traditional, slightly less flexible, declining for tech. **Setting up**: 1) Register with the Greffe du Tribunal de Commerce (commercial court). 2) Open a corporate bank account (requires initial capital deposit). 3) Register with URSSAF (social security), tax authority (DGFIP), and INSEE. 4) Hire a French expert-comptable (chartered accountant) — practically required for all but the simplest businesses. Typical annual cost €4,000-15,000 depending on company complexity. **Salary mechanics**: French employer social charges on top of gross salary are approximately 42% (very high by global standards), but balanced by tax credits and the JEI exemption. **Equity for employees (BSPCE, AGA)**: BSPCE is the French equivalent of stock options for startup employees, very tax-favorable. AGA (Actions Gratuites) gives free shares. These are critical retention tools.",
+      },
+      {
+        heading: "Hiring tech talent in France",
+        body: "**Talent pool**: France has Europe's largest pool of math and engineering graduates per capita. Top schools (École Polytechnique, Centrale, École des Mines, ENSAE, ENS, Mines ParisTech, Télécom Paris, Epitech) produce world-class engineers. **Salaries 2026**: junior software engineer €40-55k gross, mid-level €55-80k gross, senior €80-110k gross, principal/staff €100-140k gross. Lower than the US (often 30-50%) but France-resident living costs are also lower. **Equity**: junior 0.05-0.15%, senior 0.2-0.5%, staff 0.5-1%, executive 0.5-3%. **Recruitment**: LinkedIn dominant. Welcome to the Jungle is France-specific and excellent for startups. Codingame and HackerEarth for technical screening. **Visa for foreign hires**: French Tech Visa easy if your startup has French Tech endorsement (status reviewed annually). Otherwise standard Talent Passport — Salarié qualifié with salary minimum €43,243/year.",
+      },
+      {
+        heading: "Practical advice for foreign founders",
+        body: "1. **Apply for French Tech endorsement first.** It opens the visa pipeline for you and your foreign hires. 2. **Engage a French expert-comptable from day 1.** French accounting standards (PCG), VAT (TVA) returns, social-charges declarations all have specific French quirks. Bad accounting destroys companies; good accounting can be inherited as you grow. 3. **Use BPI from early on.** Even at pre-seed, the BPI pre-seed loan (€20-100k) is accessible and dilutes nothing. Free money. 4. **Plan for CIR from day 1.** Structure R&D so it's CIR-eligible: keep careful time tracking, technical documentation, financial separation. A retroactive CIR claim is harder than building documentation as you go. 5. **Network at Station F if Paris-based, or at the local French Tech antenna if regional.** The French ecosystem is more relationship-driven than US-style cold pitch. The local Bpifrance investment manager, the French Tech president of your region, and the major regional accelerator team members are critical contacts. 6. **Hire your first 5 people locally.** Remote-first is possible but French employment law and the JEI exemption work better with French-resident hires. 7. **Consider Anglo-French hybrid**: incorporate in France (for tax credits, talent), maintain UK/US presence for fundraising. Many successful French founders use this dual structure. 8. **Don't underestimate language**: French is essential for hiring, fundraising from French VCs, and basic business operations. Many founders arrive thinking English is enough; reality is harder.",
+      },
+    ],
+    relatedCities: ["paris", "lyon", "toulouse", "grenoble", "nantes"],
+    tags: ["france tech startup expat 2026", "french tech visa founder", "BPI france funding expat", "starting startup france guide", "passeport talent tech founder"],
+  },
+  {
+    slug: "leaving-nice-cote-azur-where-to-move-2026",
+    title: "Leaving Nice and the Côte d'Azur: Where to Move (2026)",
+    metaTitle: "Leaving Nice 2026 — best cities to move to from Côte d'Azur, alternatives, expat guide",
+    metaDesc: "Where to move if leaving Nice or the Côte d'Azur in 2026: top alternatives by profile (Mediterranean, cheaper, family, climate). Honest comparisons.",
+    category: "city-guide",
+    emoji: "🧭",
+    readMinutes: 9,
+    publishedAt: "2026-05-25",
+    updatedAt: "2026-05-25",
+    intro: "Nice and the wider Côte d'Azur (Cannes, Antibes, Menton, Monaco) have been the gold standard for Mediterranean expat life for over a century. Residents leave for very specific reasons in 2026: extreme summer crowding, property prices that put even mid-tier neighbourhoods beyond ordinary reach, the rising heat and water stress, the demographic skew (retirement-heavy, fewer young families), or simply 10+ years on the Riviera being enough. Where they go depends on what they want to preserve. This guide covers the dominant alternatives.",
+    sections: [
+      {
+        heading: "If you want to keep the Mediterranean but cheaper",
+        body: "**Marseille (6th, 7th, 8th arrondissements)**: France's other Mediterranean major city, dramatically more affordable (40-50% cheaper property), genuine urban scale, harder edges. The natural Nice→Marseille move for those wanting Mediterranean urban life without the Riviera premium. **Toulon**: under-the-radar, military port, very affordable, Mediterranean climate, similar to a less polished Nice. **Aix-en-Provence**: refined Provençal, 30-40% cheaper than Nice for equivalent property, smaller scale, family-friendly. **Avignon**: medieval city, papal heritage, much cheaper, manageable scale. **Montpellier**: similar climate (slightly milder), more dynamic, growing tech and biotech economy, lower prices. **Perpignan**: dramatically cheaper Catalan-coast option (see dedicated guide). **The Italian Riviera**: many Nice-leavers cross to Ventimiglia, San Remo, Imperia for substantially lower prices (40-60% below Nice) and similar climate.",
+      },
+      {
+        heading: "If climate change concerns push the move north",
+        body: "Nice's summers have intensified — heatwaves, water stress, fire risk. For an Atlantic refuge: **La Rochelle, Royan, Île de Ré**: Atlantic Charente, milder summers, refined heritage. **Bordeaux**: Atlantic moderation, gastronomy, scale. **Nantes**: properly oceanic, family-friendly, milder. **Brittany coast (Vannes, Quimper, Saint-Brieuc)**: full Atlantic moderation, mild summers. **Loire valley (Tours, Saumur, Angers)**: warm but less extreme than Mediterranean, vineyards. For an altitude refuge: **Annecy**: lakeside Alpine, mild summers, premium pricing. **Chambéry**: smaller, cheaper, similar Alpine access. **Pau**: Pyrenean foothills, mild oceanic-mountain climate.",
+      },
+      {
+        heading: "If career and economic activity drive the move",
+        body: "Nice's job market is thin outside tourism, services, and Sophia Antipolis (tech). For broader careers: **Lyon**: France's second metropolitan area, real economic depth, manageable scale, mountains nearby. **Marseille**: urban scale, more diversified economy. **Paris**: scale and career mobility, with Riviera-level prices in central districts. **Sophia Antipolis itself**: many Nice-leavers move just to Sophia (the corporate tech park area) where housing is dramatically cheaper than the coast. **Geneva area (Annecy, Annemasse)**: international finance, biotech, Swiss-salary opportunities.",
+      },
+      {
+        heading: "If you want quieter and more refined",
+        body: "**Aix-en-Provence**: the most common Nice→quieter move. Refined Provençal, walkable, family-friendly, expat-friendly. **Saint-Tropez peninsula villages (Grimaud, Ramatuelle, La Croix-Valmer)**: smaller scale Côte d'Azur (still expensive but less than Nice). **Cap-Ferrat, Beaulieu-sur-Mer, Èze**: ultra-premium Riviera but smaller villages. **Italian Riviera small villages**: significantly cheaper, similar lifestyle. **Provençal hill villages (Lourmarin, Roussillon, Bonnieux, Gordes)**: village character with Mediterranean climate, very expensive in name villages but cheaper alternatives nearby (Eygalières, Cucuron).",
+      },
+      {
+        heading: "If retirement is the driver",
+        body: "Many Nice retirees move when the Riviera intensity becomes too much. Common destinations: **Aix-en-Provence**: refined Provençal alternative. **Quieter Côte d'Azur**: Menton (more peaceful), small Italian Riviera villages. **Languedoc coast**: Sète, smaller villages — more affordable, less crowded. **Pays Basque**: completely different Atlantic atmosphere, refined retirement option. **Dordogne**: established British retirement zone, slower pace, very affordable. **Pyrenees foothills**: Pau, Mirepoix, smaller villages. **Return to home country**: many international retirees in Nice eventually leave France entirely — to Spain (Mallorca, Costa Brava), Portugal (Algarve, Lisbon), Italy (Tuscany, Liguria) — for lower prices, similar climate, less administrative complexity.",
+      },
+      {
+        heading: "Top 7 Nice/Côte d'Azur-leaver destinations: ranked",
+        body: "**#1 Aix-en-Provence** (refined Provençal alternative, family-friendly, cheaper). **#2 Marseille** (urban Mediterranean scale, dramatically cheaper). **#3 Toulon / Hyères area** (cheaper Côte d'Azur alternative). **#4 Aix-les-Bains / Annecy area** (Alpine quality of life upgrade). **#5 Italian Riviera (Ventimiglia to San Remo)** (similar climate, cheaper, EU-easy). **#6 Antibes / Cannes inland villages** (Riviera-adjacent at lower cost). **#7 Languedoc coast (Sète, Béziers, Narbonne)** (Mediterranean with much lower prices). Beyond these: international options (Italian Riviera, Spanish Costa Brava, Portuguese Algarve) for those willing to leave France entirely. For climate-conscious movers: Atlantic options (Bordeaux, Nantes) are increasingly chosen as Mediterranean heat intensifies.",
+      },
+    ],
+    relatedCities: ["aix-en-provence", "marseille", "toulon", "antibes", "menton", "perpignan"],
+    tags: ["leaving nice 2026", "where to move from nice cote azur", "nice alternatives expat", "moving from cote azur", "best french cities ex nice"],
+  },
 ];
 
 export function getEnGuide(slug: string): EnGuide | undefined {
