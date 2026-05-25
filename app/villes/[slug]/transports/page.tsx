@@ -7,6 +7,7 @@ import { Footer } from "@/components/Footer";
 import { AmbientBackground } from "@/components/AmbientBackground";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { getTransit, transitTags, type Transit } from "@/lib/transit";
+import { commuteEstimate } from "@/lib/commute-estimate";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 
 // ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
@@ -98,6 +99,7 @@ export default async function TransportsPage({ params }: Props) {
   const summary = transportSummary(city, t);
   const similar = findSimilarTransitCities(city, CITIES_SEED);
   const score = city.scores.transport;
+  const ce = commuteEstimate(city);
   const vsAvg = +(score - SCORE_AVG).toFixed(1);
 
   // Rank by transport score
@@ -226,6 +228,41 @@ export default async function TransportsPage({ params }: Props) {
           </div>
           <p className="text-xs text-[var(--text-tertiary)] mt-3">
             Données réseau hand-curées à partir des cartes publiques RATP / SNCF / GART. Une absence indique que nous n&apos;avons pas confirmé la présence du réseau, pas nécessairement qu&apos;il n&apos;existe pas.
+          </p>
+        </div>
+      </section>
+
+      {/* Commute estimate */}
+      <section className="relative pb-8">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
+          <div className="flex items-baseline gap-3 mb-4">
+            <h2 className="text-xl font-bold text-[var(--text-primary)]">Trajet domicile-travail estimé</h2>
+            <span className="text-[10px] uppercase tracking-wide font-semibold text-amber-700 bg-amber-100/70 rounded-full px-2 py-0.5">Estimation</span>
+          </div>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-3">
+            <div className="rounded-2xl glass border border-white/50 p-4 shadow-sm">
+              <div className="text-xs text-[var(--text-tertiary)] mb-1">Aller simple</div>
+              <div className="text-2xl font-bold text-[var(--text-primary)]">{ce.oneWayMinutes}<span className="text-sm font-normal text-[var(--text-tertiary)]"> min</span></div>
+              <div className="text-[11px] mt-1 text-[var(--text-tertiary)] capitalize">{ce.label}</div>
+            </div>
+            <div className="rounded-2xl glass border border-white/50 p-4 shadow-sm">
+              <div className="text-xs text-[var(--text-tertiary)] mb-1">Aller-retour</div>
+              <div className="text-2xl font-bold text-[var(--text-primary)]">{ce.roundTripMinutes}<span className="text-sm font-normal text-[var(--text-tertiary)]"> min/j</span></div>
+              <div className="text-[11px] mt-1 text-[var(--text-tertiary)]">≈ {Math.round(ce.roundTripMinutes * 5 / 60)} h/sem.</div>
+            </div>
+            <div className="rounded-2xl glass border border-white/50 p-4 shadow-sm">
+              <div className="text-xs text-[var(--text-tertiary)] mb-1">Voiture</div>
+              <div className="text-2xl font-bold text-[var(--text-primary)]">{Math.round(ce.carShare * 100)}<span className="text-sm font-normal text-[var(--text-tertiary)]"> %</span></div>
+              <div className="text-[11px] mt-1 text-[var(--text-tertiary)]">part des trajets</div>
+            </div>
+            <div className="rounded-2xl glass border border-white/50 p-4 shadow-sm">
+              <div className="text-xs text-[var(--text-tertiary)] mb-1">Transports / vélo / pied</div>
+              <div className="text-2xl font-bold text-[var(--text-primary)]">{Math.round((ce.publicShare + ce.activeShare) * 100)}<span className="text-sm font-normal text-[var(--text-tertiary)]"> %</span></div>
+              <div className="text-[11px] mt-1 text-[var(--text-tertiary)]">{Math.round(ce.publicShare * 100)} % transports · {Math.round(ce.activeShare * 100)} % actif</div>
+            </div>
+          </div>
+          <p className="text-xs text-[var(--text-tertiary)]">
+            Estimation dérivée de la population, du score transports et de la géographie. Moyenne nationale Insee 2022 : ~22 min aller. À recouper avec ses propres trajets — le quartier choisi pèse autant que la ville.
           </p>
         </div>
       </section>

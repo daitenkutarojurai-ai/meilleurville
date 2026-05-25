@@ -195,29 +195,27 @@ Vivre sans voiture +5, Acheter à [ville] +5, and the "Lire ensuite" reading lis
 R7.2 (méthodologie section already absent), R7.9 (string + soft-fallback shipped in `components/HonestReviewCard.tsx`), R7.11 (`components/DiscussionCTA.tsx` on all 26 sub-pages), R7.12 (emoji icons present on every "Aller plus loin" card) are shipped.
 
 ### Product — City Match + vraie vie
-- **R8.1 City Match** (`/city-match`) — Quiz immersif "Tinder des villes". Scoring déterministe (budget/météo/sécurité/sport/transport/famille/télétravail/nature/fiscalité/communauté tech/nightlife). Classement dynamique qui se recalcule à chaque réponse. Permalien `/city-match/r/<hash>`. Carte résultat partageable (OG image dédiée). Auditer `/quiz` et `/quiz-compatibilite` pour réutiliser `lib/niche-scores.ts`. Tout axe sans donnée sous-jacente → créer le score dérivé dans `lib/` d'abord.
-- **R8.2 Vraie vie** — Indicateurs manquants: qualité internet (couverture fibre/débit), mentalité locale (volet éditorial), tension locative (délai/concurrence depuis `data/housing.ts`). Ajouter minutes domicile-travail concrètes sur sous-page transports.
-- **R8.3 Verticale S'installer** — Guides pratiques + portraits-types fictifs explicitement étiquetés ("portrait-type / personnage fictif"). Agenda local par ville/région. Large scope — découper avant exécution.
+- **R8.2 Vraie vie** — Indicateurs manquants: qualité internet (`/villes/[slug]/connexion-internet` shipped), mentalité locale (volet éditorial pending), tension locative (délai/concurrence depuis `data/housing.ts` pending), minutes domicile-travail concrètes sur sous-page transports pending.
+- **R8.3 Verticale S'installer** — `/villes/[slug]/s-installer` shipped. Pending: portraits-types fictifs explicitement étiquetés, agenda local par ville/région.
+
+R8.1 City Match (`/city-match` + `lib/city-match.ts`) shipped.
 
 ### Plateforme communautaire (R9)
-- **R9.1 Comptes + auth** — Auth e-mail (magic link ou MdP) + OAuth Google. **Infra: Supabase** (Postgres + auth intégrée). SSG préservé — couche compte client-side / API routes. Migrer `comments-store.ts` + `contact-store.ts` vers Supabase. Avant de démarrer: lire les Supabase best practices dans ROADMAP.md (RLS obligatoire sur chaque table, migrations versionnées, clés séparées client/serveur, `generate_typescript_types` après chaque migration).
-- **R9.2** — Favoris persistants (fallback localStorage pour non-connectés), page "Mes villes", fil d'activité, profil public léger.
-- **R9.3** — Alertes métrique (seuil score par ville), monitoring local (nouveaux commentaires, red-flags). Réutiliser config Brevo (listes FR id 4 / EN id 5).
-- **R9.4** — Q&R par ville, gamification légère (badges, compteurs).
-- **R9.5** — "Où dans 5 ans ?" — projection immobilier + style de vie + climat 2040. Complémentaire de R8.1 (présent vs. futur), partager le moteur.
+- **R9.3** — Alertes métrique (seuil score par ville), monitoring local (nouveaux commentaires, red-flags). Réutiliser config Brevo (listes FR id 4 / EN id 5). **Not done.**
+- **R9.4** — Q&R par ville, gamification légère (badges, compteurs). **Not done.**
+
+R9.1 (`/auth` + `/connexion`, Supabase), R9.2 (`/favoris` + `/dashboard`), R9.5 (`/projection-5ans`) shipped.
 
 ### Data-visualisation (R10)
-- **R10.1** — Carte 3D colonnes (`deck.gl` ColumnLayer ou `react-three-fiber`). Toggle 2D/3D sur `/carte`. DROM en strip séparé. SSG fallback obligatoire (CarteClient 2D actuelle). Filtres par axe de score.
-- **R10.2** — Empreinte générative par ville: SVG déterministe depuis 8 axes, même ville = même empreinte. Bouton partage PNG. OG image dédiée. Intégrer sur fiche ville + City Match. Candidat le plus rentable (zéro API, zéro coût).
-- **R10.3** — Time-lapse "Climat 2040" avec slider 2026→2040 sur la carte. Source: série guides Climat 2040 + scores seed. Afficher bandes régionales, pas de fausse précision ville par ville. Libellé "projection ARPEGE/GIEC, pas une prévision".
+- **R10.1** — Carte 3D colonnes (`deck.gl` ColumnLayer ou `react-three-fiber`). Toggle 2D/3D sur `/carte`. DROM en strip séparé. SSG fallback obligatoire (CarteClient 2D actuelle). Filtres par axe de score. **Not done.**
+
+R10.2 (`/villes/[slug]/empreinte` + `lib/city-fingerprint.ts` + `components/CityFingerprint.tsx`), R10.3 (`/climat-2040-timelapse`) shipped.
 
 ### Features IA (R11)
-- **R11.1 Future You Simulator** — `lib/future-you.ts`: `budget_restant = salaire − loyer(housing.ts) − transport − imposition(fiscalite.ts)`, `temps_libre`, `stress_proxy`. Dataset `data/cities-abroad.ts` (5-10 villes étrangères, clairement étiqueté "estimation").
-- **R11.2 Vibe Map** — Score composite 1-5 depuis météo actuelle + pollution + événements + trafic (TomTom tier free). Badge ESTIMÉ. Composantes météo/pollution rafraîchies toutes les heures via `revalidate`.
-- **R11.3 "Where people like YOU moved"** — Phase A: personas synthétiques étiquetés, classement depuis `lib/niche-scores.ts`. Phase B (post-R9.1): données réelles anonymisées.
-- **R11.5 Street Reality Score** — Google Street View Static API (~$12 pour 352 villes ×5 images) + Claude Vision (`claude-haiku` pour le coût). 5 axes: végétation, propreté, densité piétonne, luminosité, état bâtiments. Résultats en `data/street-scores.json`. Env vars: `GOOGLE_STREETVIEW_KEY`, `ANTHROPIC_API_KEY`.
-- **R11.6 VS animations** — `/comparer/[pair]`: barres de scores qui se remplissent en séquence, axe gagnant coloré, verdict animé. Framer Motion ou `@keyframes` vanilla. Zéro nouvelle donnée. Files: `app/comparer/[pair]/page.tsx`, `TripletView.tsx`, nouveau `components/VsAnimations.tsx`.
-- **R11.7 AI Relocation Copilot** (post-R9.1) — Agent Claude avec tool use. Outils: `search_cities`, `get_city_profile`, `estimate_budget` (R11.1), `compare_schools`, `find_neighborhoods`. Plan exportable PDF/markdown. Env var: `ANTHROPIC_API_KEY`.
+- **R11.3 "Where people like YOU moved"** — Phase A: personas synthétiques étiquetés, classement depuis `lib/niche-scores.ts`. Phase B (post-R9.1): données réelles anonymisées. **Not done.** (Distinct from `/expat-retour` which targets returning French expats by foreign origin.)
+- **R11.5 Street Reality Score** — Google Street View Static API (~$12 pour 352 villes ×5 images) + Claude Vision (`claude-haiku` pour le coût). 5 axes: végétation, propreté, densité piétonne, luminosité, état bâtiments. Résultats en `data/street-scores.json`. Env vars: `GOOGLE_STREETVIEW_KEY`, `ANTHROPIC_API_KEY`. **Not done — needs budget.**
+
+R11.1 (`/future-you` + `lib/future-you.ts`), R11.2 (`/vibe` + `lib/vibe.ts`), R11.6 (`components/VsBattle.tsx`), R11.7 (`/copilot`) shipped.
 
 ### Vacances `/vacances` — architecture (shipped, monétisation pending)
 Engines: `lib/vacation-seasons.ts` (climat 12 mois ×352), `lib/vacation-activities.ts` (10 activités), `lib/vacation-fit.ts` (score composite + helpers). 387 routes SSG.
