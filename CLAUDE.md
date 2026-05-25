@@ -174,10 +174,9 @@ Current count: **359 guides**. Guide spec: `slug, title, metaTitle, metaDesc, ca
 All planned series are complete (Climat 2040 ×15, Quitter X ×18, Comparaisons A vs B ×17, Région 2026 ×16, Télétravail 2026 ×11, Lifestyle ×14, Budget ×7, Famille ×4).
 
 ### Pending guide work
-- **Vivre sans voiture +5** — Toulouse, Grenoble, Rennes, Montpellier, Nice. Same 6-section pattern as existing batch.
-- **Acheter à [ville] +5** — Bordeaux, Nantes, Strasbourg, Rennes, Montpellier. Same pattern: prix m² par quartier → budget brackets → quartiers en hausse → calcul honnête.
-- **Reading list** at end of each guide — auto-suggest by category + city overlap (not hardcoded). Improves session duration and PageRank distribution.
-- **Editorial rewrite (R7.8)** — all 359 guides: prose/editorial voice, full sentences, light friendly tone. Keep metadata fields untouched, only `intro` and `sections[].body`. Use parallel agents, batch by series.
+- **Editorial rewrite (R7.8)** — all 359 guides: prose/editorial voice, full sentences, light friendly tone. Keep metadata fields untouched, only `intro` and `sections[].body`. Use parallel agents, batch by series. Biggest remaining content task.
+
+Vivre sans voiture +5, Acheter à [ville] +5, and the "Lire ensuite" reading list (via `lib/guide-suggestions.ts` + auto-block on each guide page) are shipped.
 
 ---
 
@@ -191,11 +190,9 @@ All planned series are complete (Climat 2040 ×15, Quitter X ×18, Comparaisons 
 ## Pending work
 
 ### UX polish
-- **R7.2** — Remove "Méthodologie" subsection from `/cadre-de-vie` (or trim to one-line link to `/methode`). Files: `app/cadre-de-vie/page.tsx`, possibly `app/cadre-de-vie/[macroregion]/page.tsx`.
-- **R7.9** — Ghost copy: verify no "Life Stage Lens" string remains anywhere; add softer fallback for "Pas dans le top 30 d'un profil spécifique…"; strip em-dash `—` from that string.
-- **R7.10** — Em-dash purge across body copy + meta descriptions. Cap at ~1 per 200 words, never two per sentence. Manually review per-file, don't blanket sed.
-- **R7.11** — Comment CTA on every city sub-page: add "Discuter →" anchor link pointing to parent profile's `#discussions`. Option B (no fragmentation). Files: 21 sub-pages under `app/villes/[slug]/`.
-- **R7.12** — Add lucide icons per card in "Aller plus loin" blocks. Files: `app/villes/[slug]/*/page.tsx`.
+- **R7.10** — Em-dash purge across body copy + meta descriptions. Cap at ~1 per 200 words, never two per sentence. Manually review per-file, don't blanket sed. **Status: not done** — 2,000+ em-dashes in `data/guides.ts` alone; needs the R7.8 editorial pass to absorb it.
+
+R7.2 (méthodologie section already absent), R7.9 (string + soft-fallback shipped in `components/HonestReviewCard.tsx`), R7.11 (`components/DiscussionCTA.tsx` on all 26 sub-pages), R7.12 (emoji icons present on every "Aller plus loin" card) are shipped.
 
 ### Product — City Match + vraie vie
 - **R8.1 City Match** (`/city-match`) — Quiz immersif "Tinder des villes". Scoring déterministe (budget/météo/sécurité/sport/transport/famille/télétravail/nature/fiscalité/communauté tech/nightlife). Classement dynamique qui se recalcule à chaque réponse. Permalien `/city-match/r/<hash>`. Carte résultat partageable (OG image dédiée). Auditer `/quiz` et `/quiz-compatibilite` pour réutiliser `lib/niche-scores.ts`. Tout axe sans donnée sous-jacente → créer le score dérivé dans `lib/` d'abord.
@@ -277,20 +274,19 @@ FR-equivalent routes covered: home, cities index + 352 city pages, 4 city sub-pa
 - [ ] Keep `REGION_EN_DESCRIPTIONS` and `RANKING_EN` in sync with FR changes
 
 **Phase 2 — missing routes**
-- [ ] Triplet comparisons `/compare/[a]-vs-[b]-vs-[c]`
+- [x] Triplet comparisons `/compare/[a]-vs-[b]-vs-[c]` (shipped via `lib/comparer-triplets.ts` + `app/[locale]/compare/[pair]/page.tsx`)
 
-**Phase 3 — secondary surfaces**
-- [ ] `/red-flags` and `/red-flags/[theme]` (EN)
-- [ ] `/vacations` (EN port of `/vacances`, ~387 pages)
-- [ ] `/quiz/compatibility` (EN port of `/quiz-compatibilite`)
-- [ ] `/calculator/real-cost`, `/household-cost`, `/simulator/purchase`
-- [ ] City sub-pages still missing vs FR: `neighbourhoods`, `seasons`, `honest-review`, `climate-2040`
+**Phase 3 — secondary surfaces** (all shipped)
+- [x] `/red-flags` + `/red-flags/themes` (EN)
+- [x] `/vacations` (EN port)
+- [x] `/quiz/compatibility` (EN port)
+- [x] `/calculator/real-cost`, `/household-cost`, `/simulator/purchase`
+- [x] City sub-pages: `neighbourhoods`, `seasons`, `honest-review`, `climate-2040`, plus `fingerprint`, `vibe`, `get-settled`, `overview`, `synthesis`, `profiles`
 
 **Phase 4 — long tail**
-- [ ] All 360+ guides translated
-- [ ] All 24 city sub-pages per city
+- [ ] All 360+ guides translated — in progress (180+ native EN guides shipped via `data/guides-en.ts`; not 1:1 translations, native expat-angle content)
 - [ ] Per-city OG images with EN copy
-- [ ] EN-specific RSS feed
+- [x] EN-specific RSS feed (`/feed.xml` + `/guides/feed.xml` locale-aware via `NEXT_PUBLIC_DEFAULT_LOCALE`)
 
 ### Conventions for adding an EN route
 
