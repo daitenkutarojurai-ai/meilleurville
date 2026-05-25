@@ -10524,6 +10524,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.0,
     avgTempJanuary: 27.0,
     characterTags: ["océan Indien", "tropical", "préfecture", "métissage", "DROM"],
+    descriptionEn:
+      "Saint-Denis is the capital of Réunion Island in the Indian Ocean — historic Creole-and-Indian-French capital, tropical climate, dramatic volcanic interior. Best fit: tropical-island expats from mainland France, multicultural-life embracers, hiking-and-nature enthusiasts (Piton de la Fournaise volcano).",
+    seoTitleEn: "Saint-Denis (La Réunion) — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Saint-Denis (La Réunion): quality-of-life score 7.4/10. Réunion Island capital, Indian Ocean, tropical Creole French-overseas department.",
     scores: { global: 7.4, life: 7.5, transport: 5.5, nature: 9.4, cost: 5.0, safety: 6.2, culture: 7.2, remoteWork: 6.5, schools: 6.5 },
   },
   {
@@ -10540,6 +10545,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.0,
     avgTempJanuary: 28.0,
     characterTags: ["plage", "lagon", "tropical", "surf", "côte ouest", "DROM"],
+    descriptionEn:
+      "Saint-Paul is Réunion Island's west-coast resort city — lagoon beaches, surf, refined Creole-tropical lifestyle, France's first settlement on the island. Best fit: surfers, lagoon-beach families, lifestyle remote workers, refined tropical expats.",
+    seoTitleEn: "Saint-Paul (La Réunion) — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Saint-Paul (La Réunion): quality-of-life score 7.3/10. Réunion west-coast resort, lagoon beaches, surf, refined Creole-tropical lifestyle.",
     scores: { global: 7.3, life: 7.5, transport: 5.0, nature: 9.5, cost: 5.0, safety: 6.0, culture: 6.6, remoteWork: 6.2, schools: 6.2 },
   },
   {
@@ -10556,6 +10566,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.0,
     avgTempJanuary: 28.0,
     characterTags: ["sud sauvage", "marché", "tropical", "balnéaire", "DROM"],
+    descriptionEn:
+      "Saint-Pierre is the south-Réunion city — sunny south-coast beaches, exceptional Saturday market, the 'sud sauvage' wild south on the doorstep, sub-tropical climate. Best fit: families seeking south-Réunion tropical lifestyle, refined retirees, lifestyle remote workers.",
+    seoTitleEn: "Saint-Pierre (La Réunion) — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Saint-Pierre (La Réunion): quality-of-life score 7.5/10. South-Réunion sunny coast, Saturday market, sud sauvage, tropical lifestyle.",
     scores: { global: 7.5, life: 7.7, transport: 5.5, nature: 9.3, cost: 5.2, safety: 6.5, culture: 6.9, remoteWork: 6.5, schools: 6.5 },
   },
   {
@@ -10572,6 +10587,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 17.0,
     avgTempJanuary: 23.0,
     characterTags: ["hauts", "fraîcheur", "volcan", "rural", "DROM"],
+    descriptionEn:
+      "Le Tampon is the Réunion 'hauts' altitude town (500-800m+) — cooler than the coast, dramatic Piton de la Fournaise volcano-and-cirques access, rural agricultural setting. Best fit: outdoor active families seeking cool tropical-altitude, hikers and volcanologists, slow-life expats.",
+    seoTitleEn: "Le Tampon — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Le Tampon (La Réunion): quality-of-life score 7.0/10. Réunion altitude town, cooler than coast, Piton de la Fournaise access, rural.",
     scores: { global: 7.0, life: 7.2, transport: 4.8, nature: 9.4, cost: 5.5, safety: 6.8, culture: 6.0, remoteWork: 6.0, schools: 6.5 },
   },
   {
@@ -10588,6 +10608,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 28.0,
     avgTempJanuary: 25.0,
     characterTags: ["Caraïbes", "préfecture", "créole", "tropical", "DROM"],
+    descriptionEn:
+      "Fort-de-France is the Martinique capital — Caribbean French-overseas department, tropical-Creole capital, refined waterfront, dramatic Mont Pelée volcano backdrop. Best fit: Caribbean-tropical-life expats, Creole-culture lovers, multicultural-life embracers, French-Caribbean professionals.",
+    seoTitleEn: "Fort-de-France — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Fort-de-France (Martinique): quality-of-life score 6.8/10. Caribbean French-overseas capital, tropical Creole, Mont Pelée backdrop.",
     scores: { global: 6.8, life: 6.9, transport: 5.5, nature: 8.8, cost: 5.0, safety: 5.5, culture: 7.2, remoteWork: 6.3, schools: 6.3 },
   },
   {
@@ -10604,6 +10629,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 28.0,
     avgTempJanuary: 25.0,
     characterTags: ["aéroport", "industriel", "Caraïbes", "tropical", "DROM"],
+    descriptionEn:
+      "Le Lamentin is the Martinique airport-and-industrial city — Aimé Césaire International Airport, business and logistics hub, dramatically affordable for a Caribbean island. Best fit: aviation and logistics professionals, industrial workers in the French Caribbean, families with airport-adjacency needs.",
+    seoTitleEn: "Le Lamentin — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Le Lamentin (Martinique): quality-of-life score 6.5/10. Martinique airport-industrial city, Aimé Césaire airport, business hub.",
     scores: { global: 6.5, life: 6.6, transport: 5.0, nature: 8.4, cost: 5.2, safety: 5.8, culture: 6.5, remoteWork: 6.0, schools: 6.3 },
   },
   {
@@ -10620,6 +10650,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 28.0,
     avgTempJanuary: 25.0,
     characterTags: ["Caraïbes", "tropical", "périurbain", "créole", "DROM"],
+    descriptionEn:
+      "Les Abymes is the largest Guadeloupean city — periurban Pointe-à-Pitre adjacent, Creole-tropical demographics, dramatically affordable for the Caribbean. Best fit: French-Caribbean professionals, ultra-budget tropical-life households, multicultural-life embracers.",
+    seoTitleEn: "Les Abymes — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Les Abymes (Guadeloupe): quality-of-life score 6.3/10. Largest Guadeloupean city, Pointe-à-Pitre adjacent, Creole-tropical, affordable.",
     scores: { global: 6.3, life: 6.4, transport: 5.0, nature: 8.6, cost: 5.0, safety: 5.2, culture: 6.5, remoteWork: 6.0, schools: 6.0 },
   },
   {
@@ -10636,6 +10671,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 28.0,
     avgTempJanuary: 25.0,
     characterTags: ["Caraïbes", "port", "marché", "créole", "DROM"],
+    descriptionEn:
+      "Pointe-à-Pitre is the historic Guadeloupean port city — refined French-Caribbean architecture, working Caribbean market, dramatic islands offshore (Les Saintes, Marie-Galante). Best fit: French-Caribbean professionals, port-and-logistics workers, Creole-culture lovers.",
+    seoTitleEn: "Pointe-à-Pitre — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Pointe-à-Pitre (Guadeloupe): quality-of-life score 6.4/10. Historic Caribbean port, French-Creole architecture, market, islands offshore.",
     scores: { global: 6.4, life: 6.5, transport: 5.5, nature: 8.5, cost: 5.0, safety: 5.0, culture: 7.0, remoteWork: 6.0, schools: 5.8 },
   },
   {
@@ -10652,6 +10692,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 28.0,
     avgTempJanuary: 25.0,
     characterTags: ["zone d'activités", "Caraïbes", "tropical", "DROM"],
+    descriptionEn:
+      "Baie-Mahault is the Guadeloupean business-and-industrial hub — major commercial zone (Jarry), aviation and logistics, somewhat better safety than Pointe-à-Pitre. Best fit: Guadeloupe business professionals, French-Caribbean industrial workers, families seeking the safer Guadeloupean urban option.",
+    seoTitleEn: "Baie-Mahault — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Baie-Mahault (Guadeloupe): quality-of-life score 6.6/10. Guadeloupean business hub, Jarry industrial zone, French-Caribbean.",
     scores: { global: 6.6, life: 6.7, transport: 5.2, nature: 8.7, cost: 5.2, safety: 5.8, culture: 6.5, remoteWork: 6.2, schools: 6.2 },
   },
   {
@@ -10668,6 +10713,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 27.0,
     avgTempJanuary: 26.0,
     characterTags: ["Amazonie", "préfecture", "équatorial", "biodiversité", "DROM"],
+    descriptionEn:
+      "Cayenne is the capital of French Guiana — French-equatorial-Amazonian capital on the Atlantic, dramatic biodiversity (the Amazon rainforest at the doorstep), Kourou space center 50 km away (CNES/Arianespace). Best fit: French-Guiana professionals (space, public sector), tropical-equatorial-life expats, multicultural Creole-life embracers.",
+    seoTitleEn: "Cayenne — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Cayenne (Guyane): quality-of-life score 6.2/10. French Guiana capital, equatorial-Amazon, Kourou space center adjacent.",
     scores: { global: 6.2, life: 6.3, transport: 4.5, nature: 9.0, cost: 5.0, safety: 5.0, culture: 6.5, remoteWork: 5.8, schools: 5.8 },
   },
   {
@@ -10684,6 +10734,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 27.0,
     avgTempJanuary: 26.0,
     characterTags: ["frontière", "Amazonie", "fleuve", "équatorial", "DROM"],
+    descriptionEn:
+      "Saint-Laurent-du-Maroni is the western French-Guiana frontier town on the Maroni river — Suriname border opposite, dramatic Amazonian setting, historic prison camp heritage (Papillon novel/film). Best fit: extreme-rural-living seekers, French-Guiana frontier professionals, Amazonian-life expats prepared for genuine isolation.",
+    seoTitleEn: "Saint-Laurent-du-Maroni — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Saint-Laurent-du-Maroni (Guyane): quality-of-life score 5.8/10. French-Guiana Maroni-river frontier, Suriname border, Amazon setting.",
     scores: { global: 5.8, life: 5.9, transport: 4.0, nature: 9.2, cost: 5.5, safety: 5.0, culture: 6.0, remoteWork: 5.5, schools: 5.5 },
   },
   {
@@ -10700,6 +10755,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 24.0,
     avgTempJanuary: 28.0,
     characterTags: ["océan Indien", "lagon", "préfecture", "tropical", "DROM"],
+    descriptionEn:
+      "Mamoudzou is the capital of Mayotte — France's youngest department (2011), Indian Ocean lagoon, Comorian-French Creole culture, the most challenging French overseas posting on safety and infrastructure. Best fit: French-Mayotte public-sector and education professionals on assignment, very-tropical-life expats prepared for challenges.",
+    seoTitleEn: "Mamoudzou — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Mamoudzou (Mayotte): quality-of-life score 5.7/10. Mayotte capital, Indian Ocean lagoon, France's youngest department.",
     scores: { global: 5.7, life: 5.7, transport: 4.0, nature: 9.0, cost: 5.5, safety: 4.5, culture: 6.0, remoteWork: 5.5, schools: 5.5 },
   },
   {
@@ -10716,6 +10776,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne","résidentiel","Seine","Transilien J"],
+    descriptionEn:
+      "Cormeilles-en-Parisis is the western Val-d'Oise Seine-side suburb — refined residential character, Transilien J direct to Saint-Lazare in 25 minutes, family-friendly. Best fit: families seeking refined affordable Paris-region base.",
+    seoTitleEn: "Cormeilles-en-Parisis — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Cormeilles-en-Parisis (Val-d'Oise, Île-de-France): quality-of-life score 5.8/10. Western Val-d'Oise Seine suburb, Transilien J to Paris.",
     scores: {
       global: 5.8,
       life: 6,
@@ -10742,6 +10807,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne","populaire","RER D","multiculturel"],
+    descriptionEn:
+      "Sarcelles is the major Val-d'Oise multicultural suburb — RER D direct to central Paris, one of France's largest Sephardic Jewish and African communities, dramatically affordable. Best fit: ultra-budget Paris-region households, multicultural-life embracers.",
+    seoTitleEn: "Sarcelles — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Sarcelles (Val-d'Oise, Île-de-France): quality-of-life score 4.5/10. Major multicultural Val-d'Oise suburb, RER D to Paris, very affordable.",
     scores: {
       global: 4.5,
       life: 4.5,
@@ -10768,6 +10838,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne","résidentiel","RER C/H","gare"],
+    descriptionEn:
+      "Ermont is the Val-d'Oise residential suburb — RER C and Transilien H direct to central Paris in 25 minutes, family-friendly, refined residential character. Best fit: Paris-region families seeking affordable refined suburb.",
+    seoTitleEn: "Ermont — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Ermont (Val-d'Oise, Île-de-France): quality-of-life score 5.9/10. Val-d'Oise residential suburb, RER C/H to Paris, family-friendly.",
     scores: {
       global: 5.9,
       life: 6,
