@@ -23,7 +23,7 @@ export default function CopilotPage() {
 
   return (
     <>
-      {jsonLdScript(breadcrumb)}
+      <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(breadcrumb)} />
       <main id="main-content" className="min-h-screen bg-[var(--bg-canvas)]">
         <Navbar />
         <div className="pt-16">
