@@ -5307,6 +5307,126 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["paris", "lyon", "bordeaux", "marseille"],
     tags: ["french social security expat 2026", "CPAM registration expat france", "carte vitale expat guide", "french healthcare system expat", "mutuelle france expat guide"],
   },
+  {
+    slug: "marseille-living-guide-for-expats-2026",
+    title: "Living in Marseille as an Expat: The Honest Guide (2026)",
+    metaTitle: "Living in Marseille 2026 — expat guide: neighbourhoods, safety, cost of living, Mediterranean life",
+    metaDesc: "The honest guide to Marseille for expats in 2026: best neighbourhoods, realistic safety picture, cost of living, port culture, and what actually makes it work.",
+    category: "city-guide",
+    emoji: "⚓",
+    readMinutes: 11,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "Marseille is France's most misrepresented city. The international narrative has two modes: chaotic crime hotspot or secretly charming hidden gem — both are caricatures. The reality is a city of 900,000 people with genuine complexity: a spectacular Mediterranean setting, France's busiest port, a diverse population unlike anywhere else in the country, some of the worst urban inequality in France, a cultural scene that punches above its weight, and neighbourhoods that vary so dramatically between each other that saying 'I live in Marseille' tells you almost nothing about the actual experience. This guide gives you the real picture.",
+    sections: [
+      {
+        heading: "Who moves to Marseille and why",
+        body: "Marseille attracts several distinct expat profiles. The largest group is Maghrebi and West African diaspora communities — Marseille has the most important North African-heritage population in France, and represents a genuine cultural centre for French-Algerian, French-Moroccan, and French-Tunisian communities. Beyond this, the city draws artists and creative professionals who cannot afford Paris or who find its cultural energy more interesting; researchers (Aix-Marseille Université is one of the largest in the Francophone world); maritime and logistics professionals (Grand Port Maritime de Marseille, the largest in France); and an increasing number of remote workers and nomads attracted by the Mediterranean climate and the price gap with other French coastal cities. The pure lifestyle expat — sun, sea, bouillabaisse — is a minority but exists.",
+      },
+      {
+        heading: "Cost of living: genuinely affordable for France's second city",
+        body: "Marseille is significantly cheaper than Lyon, Bordeaux, or Nantes for housing. A furnished T2 in a safe central neighbourhood (Castellane, Vauban, Cinq-Avenues) costs €650-900/month. A T3 family apartment is €900-1,250/month. In premium areas (Endoume, Malmousque, Bompard near the sea) rents are higher: €950-1,300/month T2. In the northern arrondissements (13th, 14th, 15th), you can find T2 for €450-600/month but the trade-off in services and safety is real. Groceries: the Noailles market (the most diverse in France) offers exceptional variety at prices significantly below supermarket. Restaurants: excellent value — a bouillabaisse lunch costs €25-35, everyday restaurants €12-18 for a menu. Transport: public transport is functional but unreliable by French standards; a car is useful though not essential if you live centrally.",
+      },
+      {
+        heading: "The safety picture: honest and nuanced",
+        body: "Marseille's crime statistics are real and the worst-affected areas are clearly defined. The northern arrondissements (3rd, 14th, 15th, 16th) experience significantly higher rates of violent crime, largely related to drug trafficking networks. These areas are not random — they have specific streets and housing estates where the risk is concentrated. As an expat living in the city's established residential neighbourhoods (6th, 7th, 8th arrondissements; Vauban, Cinq-Avenues, Estaque, Cours Julien vicinity), the daily experience of crime risk is considerably lower than the statistics for the city as a whole would suggest. Petty theft (bag snatching, car break-ins) is higher than the French average citywide. The honest message: choose your neighbourhood carefully, avoid the northern arrondissements if you are new to the city, and Marseille is liveable. Do not choose based on crime statistics averaged across all 16 arrondissements.",
+      },
+      {
+        heading: "Neighbourhoods: where to live",
+        body: "**6th arrondissement (Préfecture / Castellane)**: the bourgeois centre, excellent transport, good schools, high-quality housing stock, safest central neighbourhood. Rents are highest here. **7th arrondissement (Endoume / Bompard / Catalans)**: the most beautiful residential neighbourhoods, overlooking the sea, calanques accessible by foot from Bompard. Popular with wealthy Marseillais and lifestyle expats. **8th arrondissement (Périer / Roucas-Blanc)**: quieter, more residential, good schools, Marseille's equivalent of Lyon's 6th — comfortable and expensive. **5th arrondissement (Cinq-Avenues / La Plaine)**: vibrant, younger, culturally mixed, Cours Julien art scene, market on La Plaine. Growing expat and creative community. T2 €650-850/month. **1st arrondissement (Noailles)**: the most diverse neighbourhood in France, Noailles market, African and Maghrebi commerce. Real energy but requires comfort with urban density and noise. **13th arrondissement (Château-Gombert)**: quieter northern suburb with a village feel, campus universitaire, more affordable, less urban.",
+      },
+      {
+        heading: "The Mediterranean experience: what actually delivers",
+        body: "Marseille genuinely delivers on the Mediterranean promise in ways that Nice (too tourist-polished) and Montpellier (too landlocked) don't. The Calanques National Park starts where the 8th arrondissement ends — you can hike from the city centre to the Calanque de Sormiou in 40 minutes. The Vieux-Port is a working port with daily fish market (starting at 8am, ending when it ends) where local fishermen sell directly. The Corniche Kennedy runs along the sea for 5km and is a genuine daily walking route for residents. Pastis at 4pm is not a tourist performance — it is social infrastructure. The pétanque courts on the Vieux-Port and throughout the city are open and welcoming.",
+      },
+      {
+        heading: "Admin, healthcare, schools",
+        body: "Aix-Marseille Université (AMU) is the largest French-speaking university in the world by student count, with very significant international partnerships and an active international student office. AP-HM (Assistance Publique-Hôpitaux de Marseille) is a major university hospital complex — high-level care, but stretched. For expats, the hospital's international patient service functions in English for serious conditions. GP access in Marseille is harder than in other cities — doctor shortage is significant. Use Doctolib and expand your search radius. Schools: public schooling quality varies enormously by neighbourhood and individual school. The main international option is the Lycée International de Provence (French Baccalauréat International) at Aix — accessible but requires transport from Marseille.",
+      },
+    ],
+    relatedCities: ["marseille", "aix-en-provence", "toulon"],
+    tags: ["living in marseille expat 2026", "marseille expat guide", "marseille cost of living 2026", "marseille safe neighbourhoods expat", "mediterranean france expat guide"],
+  },
+  {
+    slug: "france-renting-apartment-guide-expats-2026",
+    title: "Renting a Flat in France as an Expat: The Complete Guide (2026)",
+    metaTitle: "Renting in France 2026 Expat Guide — dossier, garantie, lease, tenant rights",
+    metaDesc: "How to rent a flat in France as a foreigner in 2026: what a dossier needs, guarantees, the lease, tenant rights, and traps to avoid.",
+    category: "moving",
+    emoji: "🔑",
+    readMinutes: 12,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "Renting in France has a reputation for bureaucratic difficulty — and that reputation is partly earned. The dossier requirements are extensive, the competition in tight markets is brutal, and the tenant protection laws that make France good for renters also make landlords extremely cautious about who they accept. This guide gives you the complete picture: what landlords actually want, how to compete effectively as a foreign applicant, what your rights are once you have the keys, and the common traps that cost expats money or their deposit.",
+    sections: [
+      {
+        heading: "What a French rental dossier contains",
+        body: "A dossier (application package) typically includes: **Identity**: passport copy or EU ID card. **Residency permit**: titre de séjour or carte de résident if non-EU. **Employment proof**: work contract (CDI is strongly preferred; CDD or freelance contracts are harder — see below), or attestation from employer on company letterhead. **Income proof**: last 3 payslips (bulletins de salaire), or last 2 tax returns if self-employed. **Bank statements**: last 3 months. **Tax return**: your last avis d'imposition if you have been in France, or equivalent foreign document. **Guarantor** (if income is < 3× rent): same documents for the guarantor. In practice, many landlords and agencies add their own requirements. The standard in Paris and large cities is becoming stricter — some require 6 months of payslips, a CDI (open-ended contract) signed and past the probation period, and a guarantor whose income is > 4× the rent.",
+      },
+      {
+        heading: "The income requirement and guarantor system",
+        body: "The standard French rule: your income must be at least 3× the monthly rent. For a €900/month apartment, your net monthly income should be at least €2,700. This is a guideline, not a legal limit, but landlords apply it systematically. As an expat, if your income is from abroad (not a French payslip), you need to provide certified bank statements and a foreign employer letter — and expect more scrutiny. **Guarantors**: if your income does not meet the threshold, or if you are newly arrived without a French work history, you need a guarantor. This can be: a French resident with sufficient income (typically a parent, partner, or friend — increasingly unusual among expats), or a professional guarantee service. **Visale**: the main free guarantee, provided by Action Logement — free for tenants under 30, or for any age if moving for a job. Very widely accepted. Apply at visale.fr before your dossier. **Garantme or Cautioneo**: paid private guarantee services (typically 3-5% of annual rent as a one-time fee). Widely accepted and practical for expats who cannot get a French guarantor.",
+      },
+      {
+        heading: "The lease: what you need to know",
+        body: "Standard leases in France are governed by the loi Alur and its successors. **Duration**: 3 years for unfurnished (vide), 1 year for furnished (meublé). A furnished lease can be as short as 9 months for a student (bail étudiant). **Notice**: tenant gives 3 months for unfurnished, 1 month for furnished (or in zone tendue — tight market areas — 1 month for unfurnished too). Landlord gives 6 months and can only terminate for specific reasons (selling the property, personal use, serious breach). **Deposit (caution)**: 1 month's rent for unfurnished, 2 months for furnished. Returned within 1 month if no damage, 2 months if there is. **Charges (charges locatives)**: either forfaitaires (flat fee, simpler) or réelles (actual costs passed through). Ask which applies. **État des lieux**: a detailed inventory of the property's condition at entry and exit. Take photos at entry of every imperfection noted. Landlords can only deduct from the deposit for damage not listed at entry.",
+      },
+      {
+        heading: "The rental market: how to compete",
+        body: "In tight markets (Paris, Lyon, Bordeaux, Nantes, Montpellier, and now smaller cities like Rennes or Annecy), competition for a good apartment is intense — tens of applications per viewing. Your dossier needs to be impeccably organised and complete before you even attend a viewing: print a well-formatted PDF with all documents in order, ready to hand over or upload immediately. A complete dossier the same day outcompetes a perfect-but-delayed one. If you are at a disadvantage (foreign contract, short employment history, no local guarantor), use Visale or a guarantee service upfront to remove that objection. Avoid mentioning pets in your initial application — French law prohibits landlords from banning pets in leases (article 10 de la loi de 1970), but many landlords try anyway. Raise it after acceptance.",
+      },
+      {
+        heading: "Tenant rights in France",
+        body: "France has some of Europe's strongest tenant protections. **Trêve hivernale**: from 1 November to 31 March, no eviction can be carried out, even if the tenant is in arrears. **Rent increases**: in regulated areas (zones tendues), rent increases are capped by the IRL (indice de référence des loyers) — usually 1-3% per year. Landlords cannot raise rent arbitrarily at renewal. **Rental receipt (quittance)**: you can request a written rental receipt each month, free of charge — useful for your tax return, visa renewal, or CAF. **Repairs**: landlord is responsible for structural repairs, appliances provided with the rental, and anything affecting habitability. Tenant is responsible for minor upkeep and intentional damage. **Emergency repairs**: if the landlord does not respond to an urgent repair request in writing within a reasonable time, you can have work done and deduct the cost from rent — following a precise legal procedure.",
+      },
+      {
+        heading: "Traps to avoid",
+        body: "1. **Paying fees to 'private' landlords**: under French law, tenants renting directly from a private owner (not via an agency) pay no fees. Agency fees are capped and shared between landlord and tenant. Any demand for payment before signing the lease is illegal. 2. **Apartment scams**: if a listing price is well below market and the landlord claims to be abroad and wants payment via wire transfer — it is a scam. View the property in person before any payment. 3. **Verbal agreements**: never pay without a signed lease. Verbal agreements are unenforceable in French courts. 4. **Not doing a proper état des lieux**: take your own photos and video at check-in, even if the agent is in a hurry. The état des lieux is your only protection at check-out.",
+      },
+    ],
+    relatedCities: ["paris", "lyon", "bordeaux", "nantes", "rennes"],
+    tags: ["renting apartment france expat 2026", "french rental dossier guide", "lease france expat", "tenant rights france", "rent france foreigner guide"],
+  },
+  {
+    slug: "bordeaux-living-guide-for-expats-deep-dive-2026",
+    title: "Living in Bordeaux as an Expat in 2026: What Nobody Tells You",
+    metaTitle: "Living in Bordeaux 2026 — the real expat guide: beyond the wine and postcards",
+    metaDesc: "The unvarnished Bordeaux expat guide for 2026: real cost of living, neighbourhoods after gentrification, the Bordeaux paradox, and what actually works long-term.",
+    category: "city-guide",
+    emoji: "🍷",
+    readMinutes: 10,
+    publishedAt: "2026-05-24",
+    updatedAt: "2026-05-24",
+    intro: "Bordeaux has been the most talked-about city in France for a decade. The LGV (high-speed rail to Paris in 2h04), the UNESCO listing of its 18th-century urban core, the wine prestige, the Atlantic beaches 45 minutes away — the pitch is almost too good. Expats arrived in waves, especially post-Brexit British and Canadian buyers and post-COVID Parisian remote workers. The result: a city that has genuinely improved in quality and infrastructure but where housing costs have doubled since 2016, and where the tension between the pre-LGV Bordeaux and the new global-city ambitions is visible on every block. Here is what a multi-year resident actually experiences.",
+    sections: [
+      {
+        heading: "The Bordeaux paradox: a great city that got expensive before it got better",
+        body: "Bordeaux's transformation was largely driven by infrastructure (LGV, tram expansion, river quay renovation) that raised prices before the job market caught up. Today you can pay Lyon prices in Bordeaux without finding Lyon-level professional opportunities in most sectors. The exception: wine and spirits industry (Bordeaux is still the global HQ), Dassault Aviation (private jets), a growing digital sector (La Cité du Vin as catalyst, tech/startup community), and the university research cluster. For most other professions, Bordeaux's job market is thinner than its real estate prices suggest. If you are a remote worker, the price/quality equation is still good. If you are relocating for a local job, research the sector carefully first.",
+      },
+      {
+        heading: "Cost of living: the real numbers in 2026",
+        body: "The 2016-2021 price surge has plateaued somewhat. A furnished T2 in the Triangle d'Or (Chartrons, Saint-Pierre, Victoire) now runs €850-1,150/month. A T3 in the same area: €1,200-1,650/month. More accessible neighbourhoods: Bacalan (Cité du Vin area) at €750-950/month T2; La Bastide (east bank of the Garonne) at €700-900/month T2; Saint-Genès or Saint-Augustin at €750-1,000/month T2. Buying: €3,800-5,500/m² in prime areas, €3,000-3,800 in second tier. Overall grocery costs are comparable to Lyon or Nantes. The wine budget, if you take the city's identity seriously, is either a bonus (great wines accessible at cellar-door prices) or a risk (you will spend more on wine than you planned).",
+      },
+      {
+        heading: "Neighbourhoods: the current landscape",
+        body: "**Saint-Pierre / Saint-Michel (historic centre)**: medieval and 18th-century, now almost entirely tourist and short-let. Living here has become hard due to Airbnb density and noise. Worth it for the experience; not for long-term stability. **Chartrons**: the most sought-after neighbourhood. Former wine merchants' quarter, art galleries, Sunday market, organic restaurants. T2 €900-1,100/month. Genuinely pleasant. **Bacalan**: emerging neighbourhood north of Chartrons, Cité du Vin as anchor, newer buildings, younger demographic, more affordable. T2 €750-950/month. **La Bastide**: east bank of the Garonne, 15 years ago industrial, now partially gentrified. Darwin (sustainable campus), Parc aux Angéliques along the river. Tram to centre in 10 min. More space per euro. **Victoire / Capucins**: student quarter, lively, market days (Capucins covered market is excellent for produce), younger and more affordable. T2 €800-1,000/month. **Saint-Genès / Caudéran**: western residential, family-oriented, quieter, good schools, more suburban feel.",
+      },
+      {
+        heading: "What actually works in Bordeaux daily life",
+        body: "The tram network is excellent — 4 lines covering most of the city without rails on the riverside quays (aesthetic choice). The Garonne quays (5km of pedestrianised riverfront from Quinconces to the Pont de Pierre) are among the best urban public spaces in France for daily use — skating, running, aperitif, market. The wine culture is not a tourist performance: many residents are genuinely knowledgeable, cavistes are excellent (Aux Quatre Coins du Vin, La Vinothèque), and buying wine from Bordeaux appellations at producer prices is a real advantage of living here. The Atlantic beaches (Lacanau, Biscarrosse, Arcachon) are 45-60 minutes by car — reachable for a weekend afternoon without planning.",
+      },
+      {
+        heading: "The British expat community and post-Brexit realities",
+        body: "Bordeaux has the largest British expat community in France outside Paris — tens of thousands, concentrated in the Dordogne corridor and in Bordeaux itself. Post-Brexit, EU freedom of movement ended for UK nationals. Those who arrived before 31 December 2020 and registered are protected under the Withdrawal Agreement (carte de séjour 'accord de retrait', valid 10 years renewable). Those arriving after must apply for the standard French immigration procedure — job offer, or self-employed registration, or retirement visa for over-65s with sufficient income. The Consulate in Bordeaux and several local associations (ADAPT, Bordeaux British) provide support. The community is well-established and social networks exist for new arrivals.",
+      },
+      {
+        heading: "The verdict: for whom does Bordeaux work best in 2026",
+        body: "Bordeaux works best for: remote workers with moderate-to-high incomes who prioritise lifestyle over career growth; wine professionals and those adjacent to the industry; retirees and semi-retirees with property equity to invest; families who want good schools, Atlantic access, and a certain scale of city without Paris density. It works less well for: career-focused professionals in tech or finance (Lyon or Paris is stronger); budget-constrained young adults (Toulouse, Montpellier, or Rennes offer comparable lifestyle at lower cost); people who expected 2016 Bordeaux prices in 2026.",
+      },
+    ],
+    relatedCities: ["bordeaux", "merignac", "pessac"],
+    tags: ["living in bordeaux expat 2026", "bordeaux expat guide real", "bordeaux cost of living 2026", "bordeaux neighbourhoods expat", "bordeaux british expat community"],
+  },
 ];
 
 export function getEnGuide(slug: string): EnGuide | undefined {
