@@ -9620,6 +9620,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 24.0,
     avgTempJanuary: 4.5,
     characterTags: ["Essonne", "Île-de-France", "TGV", "tech", "entreprises", "RER B", "RER C"],
+    descriptionEn:
+      "Massy is the southern Île-de-France tech-and-TGV hub — Massy-Palaiseau TGV station (direct to Bordeaux, Marseille, Lyon without passing through Paris), Saclay tech corridor adjacent, RER B and C to central Paris. Best fit: tech and engineering professionals working the Saclay cluster, TGV-frequent travellers, Paris-region workers.",
+    seoTitleEn: "Massy — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Massy (Essonne, Île-de-France): quality-of-life score 6.5/10. South Île-de-France TGV-and-tech hub, Saclay adjacent, RER B and C.",
     scores: {
       global: 6.5,
       life: 6.5,
@@ -9645,6 +9650,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.0,
     avgTempJanuary: 4.5,
     characterTags: ["Orne", "Normandie", "sous-préfecture", "Orne rivière", "calme", "abordable", "bocage"],
+    descriptionEn:
+      "Argentan is the Orne sub-prefecture — refined Normandy bocage countryside, dramatically affordable, calm. Best fit: ultra-budget households, retirees seeking calm Normandy living, first-time buyers.",
+    seoTitleEn: "Argentan — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Argentan (Orne, Normandie): quality-of-life score 6.8/10. Orne sub-prefecture, Normandy bocage countryside, very affordable, calm.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -9670,6 +9680,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 18.5,
     avgTempJanuary: 1.0,
     characterTags: ["Vosges", "lac", "ski", "forêt", "randonnée", "nature", "tourisme", "montagne vosgienne"],
+    descriptionEn:
+      "Gérardmer is the 'Pearl of the Vosges' — Lake Gérardmer, refined mountain-resort heritage, ski-and-Nordic-ski stations at the doorstep, dramatic Vosges forest setting. Best fit: lake-and-mountain families, refined retirees, lifestyle remote workers wanting Vosges-mountain living, winter-sport enthusiasts.",
+    seoTitleEn: "Gérardmer — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Gérardmer (Vosges, Grand Est): quality-of-life score 8.0/10. Pearl of the Vosges, Lake Gérardmer, refined mountain resort, ski stations.",
     scores: {
       global: 8.0,
       life: 8.5,
@@ -9695,6 +9710,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.5,
     avgTempJanuary: 3.5,
     characterTags: ["Haut-Rhin", "Alsace", "Route des Vins", "Lauch", "sous-préfecture", "vignoble", "abordable"],
+    descriptionEn:
+      "Guebwiller is the south-Alsace Lauch-valley town — Route des Vins d'Alsace southern end, four Grand-Cru vineyards in the surrounding hills (one of France's highest concentrations), refined heritage. Best fit: wine professionals (Alsace Grand Cru), refined retirees, gastronomes, families seeking Alsatian wine-country living.",
+    seoTitleEn: "Guebwiller — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Guebwiller (Haut-Rhin, Grand Est): quality-of-life score 7.5/10. South-Alsace Route des Vins town, four Grand Cru vineyards, refined.",
     scores: {
       global: 7.5,
       life: 8.0,
@@ -9720,6 +9740,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 19.5,
     avgTempJanuary: 1.0,
     characterTags: ["Jura", "Haut-Jura", "lunettes", "bruyère", "Bienne", "montagne", "abordable", "artisanat"],
+    descriptionEn:
+      "Saint-Claude is the Haut-Jura mountain town — historic French eyewear-frame manufacturing capital, briarwood pipes heritage, dramatic Bienne river gorge setting, 425m altitude. Best fit: Jura-mountain enthusiasts, artisans (eyewear, pipes, jewellery), ultra-budget households, outdoor active retirees.",
+    seoTitleEn: "Saint-Claude — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Saint-Claude (Jura, Bourgogne-Franche-Comté): quality-of-life score 7.0/10. Haut-Jura mountain town, eyewear capital, briarwood pipes, affordable.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -9745,6 +9770,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 23.0,
     avgTempJanuary: 4.5,
     characterTags: ["Sarthe", "bords de Sarthe", "abbaye Solesmes", "calme", "abordable", "sous-préfecture"],
+    descriptionEn:
+      "Sablé-sur-Sarthe is the western-Sarthe town famous for sablés biscuits — Abbey of Solesmes (Gregorian chant world centre) 5 minutes away, refined Sarthe-river setting, dramatically affordable. Best fit: ultra-budget households, Gregorian-chant-and-monastic enthusiasts, retirees, families.",
+    seoTitleEn: "Sablé-sur-Sarthe — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Sablé-sur-Sarthe (Sarthe, Pays de la Loire): quality-of-life score 7.0/10. Sablés biscuits namesake, Abbey of Solesmes adjacent, very affordable.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -9771,6 +9801,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.0,
     avgTempJanuary: 4.5,
     characterTags: ["Eure", "Normandie", "Eure rivière", "sous-préfecture", "abordable", "proche Rouen"],
+    descriptionEn:
+      "Louviers is the Eure Normandy town — between Rouen and Évreux, dramatically affordable, Eure-river setting, refined small-Norman-town heritage. Best fit: Rouen-region workers wanting cheap base, ultra-budget households, retirees seeking calm Norman living.",
+    seoTitleEn: "Louviers — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Louviers (Eure, Normandie): quality-of-life score 6.8/10. Eure Norman town, between Rouen and Évreux, Eure-river setting, very affordable.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -9796,6 +9831,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 23.5,
     avgTempJanuary: 4.5,
     characterTags: ["Hautes-Pyrénées", "thermalisme", "Pyrénées", "montagne", "ski", "calme", "abordable"],
+    descriptionEn:
+      "Bagnères-de-Bigorre is the Hautes-Pyrénées thermal-spa town — refined Belle-Époque spa heritage, Pic du Midi observatory and ski areas at the doorstep, Lourdes 20 minutes, dramatically affordable. Best fit: thermal-spa enthusiasts, retirees, Pyrenees outdoor active families, ultra-budget mountain-region households.",
+    seoTitleEn: "Bagnères-de-Bigorre — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Bagnères-de-Bigorre (Hautes-Pyrénées, Occitanie): quality-of-life score 7.5/10. Pyrenees thermal-spa town, Pic du Midi adjacent, very affordable.",
     scores: {
       global: 7.5,
       life: 8.0,
@@ -9821,6 +9861,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.5,
     avgTempJanuary: 2.5,
     characterTags: ["Haute-Saône", "sous-préfecture", "calme", "très abordable", "forêt", "ruralité"],
+    descriptionEn:
+      "Lure is the Haute-Saône Vosges-foothill town — surrounded by Vosges and Jura forests, dramatically affordable property, calm rural setting. Best fit: ultra-budget households (some of France's cheapest property), retirees seeking calm forest-adjacent living, slow-life expats.",
+    seoTitleEn: "Lure — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Lure (Haute-Saône, Bourgogne-Franche-Comté): quality-of-life score 6.5/10. Vosges-foothill Haute-Saône town, very cheap property, forest-adjacent.",
     scores: {
       global: 6.5,
       life: 7.0,
@@ -9846,6 +9891,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.5,
     avgTempJanuary: 3.5,
     characterTags: ["Somme", "Grande Guerre", "14-18", "étangs", "abordable", "calme", "histoire"],
+    descriptionEn:
+      "Péronne is the eastern-Somme WWI memorial city — Historial de la Grande Guerre museum, dramatic 1916 Battle of the Somme heritage, dramatically affordable. Best fit: WWI-history professionals and researchers, ultra-budget households, retirees seeking quiet Somme small-town living.",
+    seoTitleEn: "Péronne — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Péronne (Somme, Hauts-de-France): quality-of-life score 6.5/10. Somme WWI memorial city, Historial de la Grande Guerre, very affordable.",
     scores: {
       global: 6.5,
       life: 7.0,
@@ -9871,6 +9921,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 23.0,
     avgTempJanuary: 4.0,
     characterTags: ["Indre", "Creuse rivière", "Brenne proche", "calme", "très abordable", "nature"],
+    descriptionEn:
+      "Le Blanc is the western-Indre town — at the gateway to the Brenne Regional Park (the 'land of a thousand lakes'), Creuse river, dramatically affordable. Best fit: nature-and-birdwatching retirees, ultra-budget households, photographers, slow-life expats.",
+    seoTitleEn: "Le Blanc — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Le Blanc (Indre, Centre-Val de Loire): quality-of-life score 7.0/10. Brenne Regional Park gateway, thousand-lakes country, very affordable.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -9896,6 +9951,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 23.5,
     avgTempJanuary: 4.5,
     characterTags: ["Vienne", "Cité de l'Écrit", "livres", "Gartempe", "calme", "très abordable", "culture"],
+    descriptionEn:
+      "Montmorillon is the Vienne 'Cité de l'Écrit' — dedicated French book-and-printing-arts village, Gartempe river, dramatically affordable. Best fit: writers, antiquarian-book lovers, publishing professionals, ultra-budget households, retirees seeking refined small-town living.",
+    seoTitleEn: "Montmorillon — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Montmorillon (Vienne, Nouvelle-Aquitaine): quality-of-life score 7.0/10. Cité de l'Écrit book-village, Gartempe river, refined, very affordable.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -9922,6 +9982,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 23.0,
     avgTempJanuary: 3.5,
     characterTags: ["Haute-Loire", "Loire gorges", "près Saint-Étienne", "commuter", "abordable", "famille"],
+    descriptionEn:
+      "Monistrol-sur-Loire is the northern-Haute-Loire commuter town — Loire gorges, Saint-Étienne 30 minutes, Lyon 1h15, dramatically affordable. Best fit: Saint-Étienne and Lyon-region workers seeking ultra-cheap base, families, outdoor active commuters.",
+    seoTitleEn: "Monistrol-sur-Loire — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Monistrol-sur-Loire (Haute-Loire, Auvergne-Rhône-Alpes): quality-of-life score 7.0/10. Northern Haute-Loire commuter town, near Saint-Étienne.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -9947,6 +10012,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.0,
     avgTempJanuary: 2.0,
     characterTags: ["Hautes-Alpes", "Serre-Ponçon", "lac", "montagne", "sous-préfecture", "soleil alpin", "abordable"],
+    descriptionEn:
+      "Embrun is the Hautes-Alpes sub-prefecture on Lac de Serre-Ponçon (Europe's largest alpine reservoir lake) — dramatic Alpine setting, exceptional sun, water-sport paradise, Briançon and the Écrins National Park nearby. Best fit: lake-and-mountain families, water-sport enthusiasts (windsurf, kite), refined retirees with budget, lifestyle remote workers.",
+    seoTitleEn: "Embrun — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Embrun (Hautes-Alpes, PACA): quality-of-life score 8.0/10. Lac de Serre-Ponçon, Hautes-Alpes sub-prefecture, water-sport paradise, sunny.",
     scores: {
       global: 8.0,
       life: 8.5,
@@ -9972,6 +10042,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 24.5,
     avgTempJanuary: 5.0,
     characterTags: ["Ariège", "Pyrénées", "sous-préfecture", "Salat", "calme", "abordable", "nature"],
+    descriptionEn:
+      "Saint-Girons is the Couserans Pyrenees-foothill town — dramatic Salat river setting, Ariège Pyrenees access, dramatically affordable, working-class authenticity. Best fit: ultra-budget Pyrenees-region households, outdoor active retirees, nature-and-Pyrenees-trekking enthusiasts, slow-life expats.",
+    seoTitleEn: "Saint-Girons — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Saint-Girons (Ariège, Occitanie): quality-of-life score 7.5/10. Couserans Pyrenees-foothill town, Salat river, very affordable, outdoor.",
     scores: {
       global: 7.5,
       life: 8.0,
