@@ -1730,6 +1730,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.8,
     avgTempJanuary: 2.0,
     characterTags: ["Place-Stanislas-UNESCO", "baroque", "étudiant", "art-nouveau", "dynamique"],
+    descriptionEn:
+      "Nancy is the Lorraine art-nouveau capital — Place Stanislas (UNESCO, often called Europe's most beautiful 18th-century square), École de Nancy art-nouveau heritage, strong university, 1h30 TGV to Paris. Affordable for its cultural depth. Best fit: art-nouveau lovers, students, Paris commuters, families seeking refined eastern France.",
+    seoTitleEn: "Nancy — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Nancy (Meurthe-et-Moselle, Grand Est): quality-of-life score 7.6/10. Lorraine capital, UNESCO Place Stanislas, art-nouveau, refined and affordable.",
     scores: {
       global: 7.6,
       life: 7.8,
@@ -1756,6 +1761,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 23.5,
     avgTempJanuary: 4.0,
     characterTags: ["abordable", "Cher", "sous-estimée", "calme", "patrimoine"],
+    descriptionEn:
+      "Montluçon is the under-the-radar Allier town in the heart of France — Bourbonnais heritage, Cher river, exceptionally affordable property, calm pace. Modest urban scale but real value. Best fit: ultra-budget households, first-time buyers seeking very cheap French property, retirees prioritising calm.",
+    seoTitleEn: "Montluçon — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Montluçon (Allier, Auvergne-Rhône-Alpes): quality-of-life score 6.5/10. Allier mid-France town, very affordable property, Bourbonnais heritage, calm.",
     scores: {
       global: 6.5,
       life: 6.8,
@@ -1782,6 +1792,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 2.5,
     characterTags: ["Ardennes", "Rimbaud", "abordable", "frontalier", "nature"],
+    descriptionEn:
+      "Charleville-Mézières is the Ardennes capital — Rimbaud's birthplace, Place Ducale (a smaller cousin of Paris's Place des Vosges), Belgian border 20 minutes away, dramatic forested countryside. Affordable, calm, with poetry-festival heritage. Best fit: poetry-and-literature lovers, outdoor active retirees, Belgian-border workers.",
+    seoTitleEn: "Charleville-Mézières — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Charleville-Mézières (Ardennes, Grand Est): quality-of-life score 6.6/10. Rimbaud's birthplace, Place Ducale, Ardennes forest, Belgian border.",
     scores: {
       global: 6.6,
       life: 6.8,
@@ -1808,6 +1823,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 19.5,
     avgTempJanuary: 4.5,
     characterTags: ["port", "mer-du-Nord", "Nausicaá", "maritime", "abordable"],
+    descriptionEn:
+      "Boulogne-sur-Mer is France's largest fishing port — Nausicaá (Europe's largest aquarium), historic walled upper town, Channel ferries to Dover, dramatically affordable for a coastal city. Best fit: maritime professionals, ultra-budget households seeking Channel-coast living, Britain-France commuters.",
+    seoTitleEn: "Boulogne-sur-Mer — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Boulogne-sur-Mer (Pas-de-Calais, Hauts-de-France): quality-of-life score 6.8/10. France's largest fishing port, Nausicaá aquarium, very affordable.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -1834,6 +1854,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 23.5,
     avgTempJanuary: 5.0,
     characterTags: ["Marais-poitevin", "mutuelles", "abordable", "Sèvre", "dynamique"],
+    descriptionEn:
+      "Niort is the insurance and mutuelle capital of France — major headquarters for MAIF, MAAF, Macif (significant white-collar employment), Marais Poitevin wetlands (Venise Verte) on the doorstep. Affordable, dynamic for its size. Best fit: insurance and mutuelle professionals, families seeking solid job market in mid-size city, Marais Poitevin nature lovers.",
+    seoTitleEn: "Niort — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Niort (Deux-Sèvres, Nouvelle-Aquitaine): quality-of-life score 7.2/10. Insurance HQ city (MAIF, MAAF), Marais Poitevin nature, dynamic, affordable.",
     scores: {
       global: 7.2,
       life: 7.5,
@@ -1860,6 +1885,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 25.5,
     avgTempJanuary: 5.5,
     characterTags: ["cité-épiscopale-UNESCO", "brique-rouge", "Tarn", "abordable", "soleillée"],
+    descriptionEn:
+      "Albi is the Toulouse-Lautrec city — UNESCO Episcopal city (massive red-brick Sainte-Cécile cathedral), pink-brick architecture, sunny southwest climate, Toulouse 50 minutes away. Refined yet affordable. Best fit: heritage lovers, artists, mid-budget retirees, Toulouse-region workers wanting a refined smaller-city base.",
+    seoTitleEn: "Albi — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Albi (Tarn, Occitanie): quality-of-life score 7.5/10. UNESCO Episcopal city, red-brick cathedral, Toulouse-Lautrec heritage, sunny, affordable.",
     scores: {
       global: 7.5,
       life: 7.8,
@@ -1886,6 +1916,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 27.0,
     avgTempJanuary: 10.5,
     characterTags: ["soleil-extrême", "mer-Méditerranée", "Napoléon", "maquis", "île"],
+    descriptionEn:
+      "Ajaccio is the Corsican capital — Napoleonic birthplace, dramatic Gulf of Ajaccio setting, mountains rising from the sea, exceptional Mediterranean sun (one of France's sunniest). Working year-round Corsican life (unlike many tourist-driven smaller towns). Best fit: Mediterranean-lifestyle expats accepting island logistics, retirees with mainland-level pensions, remote workers prepared for thinner job market.",
+    seoTitleEn: "Ajaccio — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Ajaccio (Corse-du-Sud, Corse): quality-of-life score 7.6/10. Corsican capital, Napoleonic birthplace, dramatic Mediterranean, year-round life.",
     scores: {
       global: 7.6,
       life: 8.2,
@@ -1912,6 +1947,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.5,
     avgTempJanuary: 2.5,
     characterTags: ["industriel", "frontalier-Suisse", "musée-automobile", "Alsace", "abordable"],
+    descriptionEn:
+      "Mulhouse is the southern Alsatian city — Cité de l'Automobile (world's largest automobile museum), Basel-Switzerland 30 minutes away (huge cross-border worker market), Germany 5 minutes by tram. Affordable, multicultural, industrial-heritage. Best fit: Swiss-border workers (€100k+ Swiss salaries with French costs), Franco-German-Swiss tri-border professionals.",
+    seoTitleEn: "Mulhouse — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Mulhouse (Haut-Rhin, Grand Est): quality-of-life score 6.8/10. South Alsace, Basel-border, automobile museum, cross-border worker hub.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -1938,6 +1978,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 19.0,
     avgTempJanuary: 4.0,
     characterTags: ["port-industriel", "mer-du-Nord", "abordable", "carnaval", "mobilité-douce"],
+    descriptionEn:
+      "Dunkerque is the major North-Sea industrial port — Carnaval de Dunkerque (one of France's most famous), free public transport network (a national first), dramatically affordable, Flemish-influenced. Best fit: industrial and logistics professionals, ultra-budget households, Flanders-culture lovers.",
+    seoTitleEn: "Dunkerque — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Dunkerque (Nord, Hauts-de-France): quality-of-life score 6.5/10. North-Sea industrial port, free public transport, famous carnaval, very affordable.",
     scores: {
       global: 6.5,
       life: 6.8,
@@ -1964,6 +2009,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 26.5,
     avgTempJanuary: 9.5,
     characterTags: ["festival", "Riviera", "glamour", "Croisette", "Méditerranée"],
+    descriptionEn:
+      "Cannes is the Côte d'Azur glamour capital — the world-famous Festival, Croisette beachfront, exceptional climate, Lérins islands offshore. Property prices premium throughout. Best fit: refined retirees with budget, entertainment professionals, lifestyle-first remote workers, second-home owners.",
+    seoTitleEn: "Cannes — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Cannes (Alpes-Maritimes, PACA): quality-of-life score 7.5/10. Côte d'Azur glamour capital, the Festival, Croisette beach, premium prices.",
     scores: {
       global: 7.5,
       life: 8.0,
@@ -1990,6 +2040,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 23.5,
     avgTempJanuary: 5.5,
     characterTags: ["Périgord", "patrimoine", "gastronomie", "calme", "nature"],
+    descriptionEn:
+      "Périgueux is the Dordogne capital — Gallo-Roman heritage, Saint-Front cathedral, the heart of foie-gras, truffle and walnut country. The British retirement-community Dordogne starts here. Best fit: gastronomes, British and Anglo retirees with established community, Dordogne-region property buyers.",
+    seoTitleEn: "Périgueux — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Périgueux (Dordogne, Nouvelle-Aquitaine): quality-of-life score 6.8/10. Périgord capital, foie-gras truffle walnut country, British retiree zone.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -2016,6 +2071,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 26.0,
     avgTempJanuary: 6.5,
     characterTags: ["soleil", "abordable", "Cévennes", "nature", "authentique"],
+    descriptionEn:
+      "Alès is the Cévennes-gateway Gard city — former mining town reinvented, Mediterranean climate, Cévennes National Park on the doorstep, very affordable. Best fit: nature-and-outdoor active families, ultra-budget households seeking southern France, Cévennes-walking-route enthusiasts.",
+    seoTitleEn: "Alès — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Alès (Gard, Occitanie): quality-of-life score 6.5/10. Cévennes gateway, Mediterranean climate, very affordable, outdoor-active.",
     scores: {
       global: 6.5,
       life: 6.5,
@@ -2042,6 +2102,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 3.5,
     characterTags: ["Paris proche", "cathédrale", "calme", "patrimonial", "abordable"],
+    descriptionEn:
+      "Chartres is the cathedral city — Notre-Dame de Chartres is one of Europe's masterpieces of Gothic architecture, with its famous blue stained glass. 1 hour from Paris by train, calm, affordable mid-sized town. Best fit: Paris commuters wanting historic city living, heritage lovers, families on moderate budget.",
+    seoTitleEn: "Chartres — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Chartres (Eure-et-Loir, Centre-Val de Loire): quality-of-life score 6.7/10. Cathedral city, Gothic masterpiece, 1h from Paris, calm, affordable.",
     scores: {
       global: 6.7,
       life: 6.5,
@@ -2068,6 +2133,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.5,
     avgTempJanuary: 4.0,
     characterTags: ["château-royal", "patrimoine", "Loire", "douceur-angevine", "abordable"],
+    descriptionEn:
+      "Blois is the royal-château Loire Valley city — François I architecture, gentle climate, mid-way between Orléans and Tours on the Loire river, 1h30 from Paris. Affordable, refined, the heart of château country. Best fit: heritage lovers, retirees, families wanting Loire Valley living without Tours premium.",
+    seoTitleEn: "Blois — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Blois (Loir-et-Cher, Centre-Val de Loire): quality-of-life score 7.0/10. Royal château Loire Valley city, gentle climate, affordable, refined.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -2094,6 +2164,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 25.8,
     avgTempJanuary: 7.5,
     characterTags: ["soleil", "abordable", "Méditerranée", "authentique", "Canal du Midi"],
+    descriptionEn:
+      "Béziers is the trendiest cheap Mediterranean city — surprisingly affordable Hérault property, Canal du Midi running through, dramatic Plateau des Poètes park, Montpellier 45 minutes away. Currently gentrifying. Best fit: Mediterranean-climate seekers on tight budgets, retirees with mid-pension, investment buyers betting on Montpellier-spillover.",
+    seoTitleEn: "Béziers — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Béziers (Hérault, Occitanie): quality-of-life score 6.6/10. Sunny Mediterranean Hérault city, Canal du Midi, affordable, gentrifying.",
     scores: {
       global: 6.6,
       life: 6.5,
