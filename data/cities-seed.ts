@@ -2195,6 +2195,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4.5,
     characterTags: ["calme", "abordable", "familial", "nature", "Mayenne"],
+    descriptionEn:
+      "Laval is the Mayenne capital — calm, family-friendly, dramatically affordable, Mayenne river through the centre, 1h10 TGV to Paris. Mid-sized, with quiet but real cultural scene. Best fit: families on tight budgets, first-time buyers, Paris commuters seeking very cheap housing.",
+    seoTitleEn: "Laval — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Laval (Mayenne, Pays de la Loire): quality-of-life score 6.9/10. Calm family-friendly Mayenne capital, 1h10 TGV to Paris, very affordable.",
     scores: {
       global: 6.9,
       life: 7.0,
@@ -2221,6 +2226,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 25.5,
     avgTempJanuary: 8.0,
     characterTags: ["mer", "canaux", "authentique", "gastronomie", "Méditerranée"],
+    descriptionEn:
+      "Sète is the 'Venice of Languedoc' — Mediterranean fishing port with canals, Mont Saint-Clair, exceptional seafood, working-class authentic character (Brassens was born here). Currently gentrifying but still cheaper than Montpellier. Best fit: foodies (especially seafood), authenticity-seekers, creatives, mid-budget Mediterranean lovers.",
+    seoTitleEn: "Sète — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Sète (Hérault, Occitanie): quality-of-life score 7.1/10. Venice-of-Languedoc Mediterranean port, canals, exceptional seafood, gentrifying.",
     scores: {
       global: 7.1,
       life: 7.5,
@@ -2247,6 +2257,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.0,
     avgTempJanuary: 4.5,
     characterTags: ["qualité de vie", "nature", "patrimoine", "accessible", "calme"],
+    descriptionEn:
+      "Rodez is the Aveyron capital — Soulages Museum, dramatic cathedral, perched mid-altitude (635m), surrounded by the Aubrac and Causses plateaus. Frequently ranked among France's best quality-of-life cities. Best fit: nature-and-outdoor families, retirees with budget, artists, slow-life seekers.",
+    seoTitleEn: "Rodez — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Rodez (Aveyron, Occitanie): quality-of-life score 7.5/10. Aveyron capital, Soulages Museum, mid-altitude calm, Aubrac plateau nearby.",
     scores: {
       global: 7.5,
       life: 8.0,
@@ -2273,6 +2288,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 24.5,
     avgTempJanuary: 4.5,
     characterTags: ["pont-valentré", "médiéval", "Lot", "vin-de-Cahors", "authenticité"],
+    descriptionEn:
+      "Cahors is the medieval Lot Valley city — UNESCO Pont Valentré, the dramatic Lot river loop, malbec-wine country, sunny southwest climate. Authentic, mid-sized, increasingly attracting expat retirees. Best fit: wine lovers, heritage-and-medieval fans, retirees seeking refined southwest living.",
+    seoTitleEn: "Cahors — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Cahors (Lot, Occitanie): quality-of-life score 7.3/10. Medieval Lot Valley city, UNESCO Pont Valentré, malbec wine country, authentic.",
     scores: {
       global: 7.3,
       life: 8.0,
@@ -2299,6 +2319,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 24.0,
     avgTempJanuary: 6.5,
     characterTags: ["entre deux métropoles", "gastronomie", "marché", "abordable", "Garonne"],
+    descriptionEn:
+      "Agen sits between Bordeaux and Toulouse — famous for its prunes (pruneaux d'Agen), Garonne river, southwest gastronomy, affordable property. Best fit: ultra-budget households wanting southwest France character, gastronomes, retirees, families wanting two-metro access without metro prices.",
+    seoTitleEn: "Agen — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Agen (Lot-et-Garonne, Nouvelle-Aquitaine): quality-of-life score 6.7/10. Between Bordeaux and Toulouse, southwest gastronomy, affordable.",
     scores: {
       global: 6.7,
       life: 7.0,
@@ -2325,6 +2350,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.5,
     avgTempJanuary: 3.5,
     characterTags: ["vins", "Bourgogne", "gastronomie", "proche Lyon", "TGV"],
+    descriptionEn:
+      "Mâcon sits at the junction of Burgundy and Beaujolais — wine country in all directions, the Saône river through the centre, TGV to Paris in 1h40 and Lyon in 25 minutes. Affordable for the wine quality at hand. Best fit: wine professionals, Lyon-region workers wanting cheaper base, gastronomes.",
+    seoTitleEn: "Mâcon — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Mâcon (Saône-et-Loire, Bourgogne-Franche-Comté): quality-of-life score 6.9/10. Burgundy-Beaujolais junction, 25 min TGV to Lyon, wine country.",
     scores: {
       global: 6.9,
       life: 7.2,
@@ -2351,6 +2381,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.5,
     avgTempJanuary: 3.0,
     characterTags: ["Saône", "photographie", "industrie", "abordable", "canal-du-Centre"],
+    descriptionEn:
+      "Chalon-sur-Saône is the birthplace of photography (Nicéphore Niépce) — Saône river through the historic centre, Niépce Museum, dramatically affordable Burgundy industrial-heritage town. Best fit: photographers, ultra-budget households, Burgundy wine professionals seeking cheaper base than Beaune or Dijon.",
+    seoTitleEn: "Chalon-sur-Saône — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Chalon-sur-Saône (Saône-et-Loire, Bourgogne-Franche-Comté): quality-of-life score 6.8/10. Birthplace of photography, Saône river, very affordable.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -2377,6 +2412,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.0,
     avgTempJanuary: 2.5,
     characterTags: ["volaille de Bresse", "proche Lyon", "nature", "gastronomie", "Ain"],
+    descriptionEn:
+      "Bourg-en-Bresse is famous for poulet de Bresse — France's only AOP-protected chicken. Ain capital, mid-way between Lyon and the Jura, 40 minutes by train from Lyon, affordable. Best fit: gastronomes, Lyon-region workers wanting cheaper base, families and retirees seeking calm with metropolitan access.",
+    seoTitleEn: "Bourg-en-Bresse — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Bourg-en-Bresse (Ain, Auvergne-Rhône-Alpes): quality-of-life score 6.8/10. Poulet de Bresse capital, 40 min from Lyon, affordable, gastronomic.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -2403,6 +2443,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.0,
     avgTempJanuary: 3.5,
     characterTags: ["Normandie", "proche Paris", "cathédrale", "abordable", "verdoyant"],
+    descriptionEn:
+      "Évreux is the Eure capital — close to Paris (1h by train), very affordable, with a Gothic cathedral and the Iton river through the centre. Modest cultural scene; the trade-off is dramatic budget value. Best fit: Paris commuters seeking ultra-cheap housing, first-time buyers, ultra-budget families.",
+    seoTitleEn: "Évreux — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Évreux (Eure, Normandie): quality-of-life score 6.2/10. Eure capital, 1h train to Paris, very affordable, Gothic cathedral, Iton river.",
     scores: {
       global: 6.2,
       life: 6.5,
@@ -2429,6 +2474,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 26.0,
     avgTempJanuary: 9.5,
     characterTags: ["Méditerranée", "nautisme", "Côte d'Azur", "vieux port", "lifestyle"],
+    descriptionEn:
+      "Antibes is the Côte d'Azur sailing capital — historic Vieux Antibes, Port Vauban (one of Europe's largest yacht marinas), Picasso Museum, Cap d'Antibes. Premium Mediterranean lifestyle between Nice and Cannes. Best fit: sailors, yachting professionals, lifestyle-first remote workers, retirees with substantial budget.",
+    seoTitleEn: "Antibes — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Antibes (Alpes-Maritimes, PACA): quality-of-life score 7.5/10. Côte d'Azur yachting capital, Port Vauban, Vieux Antibes, premium lifestyle.",
     scores: {
       global: 7.5,
       life: 8.0,
@@ -2455,6 +2505,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 2.5,
     characterTags: ["Luxembourg", "frontalier", "Moselle", "emploi", "dynamique"],
+    descriptionEn:
+      "Thionville is the main Luxembourg cross-border worker hub — 25 minutes by train to Luxembourg City, Moselle river, dynamic local economy driven by border-worker incomes. Best fit: Luxembourg-employed professionals (LU salaries with FR costs), families seeking Lorraine quality of life with high purchasing power.",
+    seoTitleEn: "Thionville — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Thionville (Moselle, Grand Est): quality-of-life score 7.0/10. Main Luxembourg cross-border hub, 25 min train to LU, dynamic, family-friendly.",
     scores: {
       global: 7.0,
       life: 7.0,
@@ -2481,6 +2536,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 19.5,
     avgTempJanuary: 3.0,
     characterTags: ["beffroi", "Grand Place", "historique", "abordable", "artois"],
+    descriptionEn:
+      "Arras is the Artois capital — UNESCO Grand'Place and Place des Héros (Flemish-baroque masterpieces), Wellington Quarry WWI memorial, Lille and Paris both within 60 minutes by train. Affordable, refined heritage. Best fit: heritage lovers, Paris-Lille commuters, families seeking historic city living at moderate price.",
+    seoTitleEn: "Arras — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Arras (Pas-de-Calais, Hauts-de-France): quality-of-life score 6.6/10. Artois capital, UNESCO baroque squares, affordable, Lille and Paris adjacent.",
     scores: {
       global: 6.6,
       life: 6.8,
@@ -2507,6 +2567,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 26.0,
     avgTempJanuary: 6.5,
     characterTags: ["cité médiévale", "UNESCO", "soleil", "canal du Midi", "abordable"],
+    descriptionEn:
+      "Carcassonne is the UNESCO medieval citadel city — La Cité fortified upper town (Europe's largest), Canal du Midi crossing through, dramatic Mediterranean climate, Pyrenees and coast both nearby. Best fit: heritage lovers, Mediterranean-climate seekers on moderate budgets, families wanting iconic Occitanie living.",
+    seoTitleEn: "Carcassonne — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Carcassonne (Aude, Occitanie): quality-of-life score 6.8/10. UNESCO medieval citadel, Canal du Midi, sunny, Mediterranean and Pyrenees nearby.",
     scores: {
       global: 6.8,
       life: 7.2,
@@ -2533,6 +2598,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 19.5,
     avgTempJanuary: 4.0,
     characterTags: ["tapisserie", "Débarquement", "médiéval", "tourisme", "Normandie"],
+    descriptionEn:
+      "Bayeux holds the famous Bayeux Tapestry — well-preserved medieval centre, D-Day beaches 10 minutes away, refined small-Norman-town living, Caen 20 minutes by train. Best fit: history lovers (medieval and WWII), retirees, families seeking small-town Normandy character.",
+    seoTitleEn: "Bayeux — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Bayeux (Calvados, Normandie): quality-of-life score 7.0/10. Bayeux Tapestry, medieval centre, D-Day beaches adjacent, refined small town.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -2559,6 +2629,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 19.5,
     avgTempJanuary: 5.0,
     characterTags: ["Bretagne", "côte", "familial", "abordable", "nature"],
+    descriptionEn:
+      "Saint-Brieuc is the Côtes-d'Armor capital — bay setting, dramatic tides, affordable, north-Brittany sea access. Modest cultural scene but real value for coast-adjacent living. Best fit: families on tight budgets seeking Brittany coast, retirees, sailors prioritising value over scene.",
+    seoTitleEn: "Saint-Brieuc — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Saint-Brieuc (Côtes-d'Armor, Bretagne): quality-of-life score 6.8/10. Côtes-d'Armor capital, bay setting, affordable, north-Brittany coast.",
     scores: {
       global: 6.8,
       life: 7.0,
