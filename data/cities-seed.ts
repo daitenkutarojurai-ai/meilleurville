@@ -2660,6 +2660,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.0,
     avgTempJanuary: 6.0,
     characterTags: ["industrie navale", "estuaire", "mer", "emploi", "abordable"],
+    descriptionEn:
+      "Saint-Nazaire is the major Loire-Atlantic shipbuilding city — Chantiers de l'Atlantique (the giant cruise ships), Airbus aerostructures, the Loire estuary opening to the Atlantic. Strong industrial job market, affordable, Nantes 45 minutes away. Best fit: shipbuilding and aerospace professionals, families wanting Atlantic-coast living at industrial-city prices.",
+    seoTitleEn: "Saint-Nazaire — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Saint-Nazaire (Loire-Atlantique, Pays de la Loire): quality-of-life score 6.9/10. Shipbuilding city, Loire estuary, Airbus, Atlantic coast, affordable.",
     scores: {
       global: 6.9,
       life: 7.0,
@@ -2686,6 +2691,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 25.0,
     avgTempJanuary: 7.0,
     characterTags: ["Languedoc", "vignes", "lac du Salagou", "nature", "calme"],
+    descriptionEn:
+      "Clermont-l'Hérault is a small Languedoc-Hérault town in the heart of wine and nature country — Lac du Salagou (one of France's most dramatic red-earth lakes) at the doorstep, Mediterranean climate, Montpellier 45 minutes away. Best fit: nature lovers, retirees, ultra-budget households wanting Hérault inland living.",
+    seoTitleEn: "Clermont-l'Hérault — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Clermont-l'Hérault (Hérault, Occitanie): quality-of-life score 7.0/10. Languedoc inland town, Lac du Salagou, vineyards, 45 min from Montpellier.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -2712,6 +2722,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 2.5,
     characterTags: ["Champagne", "cathédrale", "verdure", "abordable", "historique"],
+    descriptionEn:
+      "Châlons-en-Champagne is the Marne prefecture — Reims's quieter southern cousin in Champagne country, green canals, dramatically affordable, calm. Best fit: Champagne professionals seeking value-base, ultra-budget households, retirees prioritising calm and heritage.",
+    seoTitleEn: "Châlons-en-Champagne — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Châlons-en-Champagne (Marne, Grand Est): quality-of-life score 6.5/10. Marne prefecture, Champagne country, very affordable, calm green city.",
     scores: {
       global: 6.5,
       life: 6.8,
@@ -2738,6 +2753,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.5,
     avgTempJanuary: 2.8,
     characterTags: ["Bourgogne", "abordable", "patrimoine", "vignoble", "calme"],
+    descriptionEn:
+      "Auxerre is the Yonne capital — northern Burgundy, Chablis wine country at the doorstep, the Yonne river through the centre, 1h45 to Paris by direct train. Affordable for the heritage quality. Best fit: wine lovers (Chablis), retirees, Paris-region workers wanting quiet historic mid-sized base.",
+    seoTitleEn: "Auxerre — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Auxerre (Yonne, Bourgogne-Franche-Comté): quality-of-life score 6.8/10. Northern Burgundy, Chablis adjacent, Yonne river, 1h45 to Paris.",
     scores: {
       global: 6.8,
       life: 7.2,
@@ -2764,6 +2784,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.0,
     avgTempJanuary: 1.5,
     characterTags: ["carrefour", "industrie", "abordable", "nature", "histoire"],
+    descriptionEn:
+      "Belfort sits at the Burgundy-Alsace-Franche-Comté crossroads — Vauban citadel with the famous Lion of Belfort, Switzerland and Germany both 30 minutes away, industrial heritage (Alstom). Affordable, with strong tri-border access. Best fit: Switzerland-Germany cross-border professionals, industrial-engineering jobs, ultra-budget households.",
+    seoTitleEn: "Belfort — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Belfort (Territoire de Belfort, Bourgogne-Franche-Comté): quality-of-life score 6.6/10. Tri-border crossroads, Vauban citadel, Alstom, affordable.",
     scores: {
       global: 6.6,
       life: 6.8,
@@ -2790,6 +2815,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.5,
     avgTempJanuary: 3.5,
     characterTags: ["thermale", "patrimoine", "calme", "verdoyant", "accessible"],
+    descriptionEn:
+      "Vichy is the historic thermal-spa Auvergne town — Belle Époque architecture, vast parks along the Allier river, UNESCO Great Spa Town listing. Quieter than its Belle-Époque heyday, refined and affordable. Best fit: retirees, thermal-spa enthusiasts, families seeking refined small-town living, architecture lovers.",
+    seoTitleEn: "Vichy — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Vichy (Allier, Auvergne-Rhône-Alpes): quality-of-life score 7.0/10. UNESCO thermal-spa town, Belle Époque architecture, refined, affordable.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -2816,6 +2846,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 3.5,
     characterTags: ["Normandie", "dentelle", "abordable", "calme", "patrimoine"],
+    descriptionEn:
+      "Alençon is the Orne prefecture in lower Normandy — UNESCO point d'Alençon lace heritage, calm, dramatically affordable, surrounded by Normandy countryside, 1h45 from Paris. Best fit: ultra-budget households, first-time buyers, retirees prioritising calm rural Normandy access.",
+    seoTitleEn: "Alençon — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Alençon (Orne, Normandie): quality-of-life score 6.5/10. Orne prefecture, UNESCO lace heritage, very affordable, calm Normandy countryside.",
     scores: {
       global: 6.5,
       life: 6.8,
@@ -2842,6 +2877,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 24.0,
     avgTempJanuary: 4.0,
     characterTags: ["viaduc", "outdoor", "nature", "calme", "authentique"],
+    descriptionEn:
+      "Millau is the outdoor-sport capital of southern France — Viaduc de Millau (the world's tallest bridge) is the visual icon, paragliding, climbing, kayaking and canyon-running all on the doorstep, dramatic limestone Causses landscape. Best fit: outdoor active families, paragliders and climbers, nature retirees, slow-life seekers.",
+    seoTitleEn: "Millau — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Millau (Aveyron, Occitanie): quality-of-life score 7.3/10. Outdoor-sport capital, world's tallest bridge, Causses landscape, paragliding mecca.",
     scores: {
       global: 7.3,
       life: 8.0,
@@ -2868,6 +2908,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 23.5,
     avgTempJanuary: 5.5,
     characterTags: ["cognac", "vignobles", "patrimoine", "calme", "abordable"],
+    descriptionEn:
+      "Cognac is the eponymous brandy capital — Hennessy, Martell, Rémy Martin and Camus all headquartered here, Charente river through the centre, vineyards in every direction. Refined yet affordable. Best fit: spirits and wine professionals, gastronomes, retirees seeking refined southwest living.",
+    seoTitleEn: "Cognac — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Cognac (Charente, Nouvelle-Aquitaine): quality-of-life score 7.0/10. Cognac brandy capital, major distillery HQs, Charente river, refined.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -2894,6 +2939,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.0,
     avgTempJanuary: 1.5,
     characterTags: ["imagerie", "forêts-vosgiennes", "rivière-moselle", "calme", "artisanat"],
+    descriptionEn:
+      "Épinal is the Vosges-foothills city — historic image-print heritage (the famous Épinal prints), the Moselle river through the centre, Vosges forests and ski stations within an hour. Calm, affordable. Best fit: nature-and-forest lovers, ultra-budget households, retirees seeking quiet Vosges access.",
+    seoTitleEn: "Épinal — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Épinal (Vosges, Grand Est): quality-of-life score 6.8/10. Vosges-foothills city, image-print heritage, Moselle river, affordable, forest access.",
     scores: {
       global: 6.8,
       life: 7.2,
@@ -2920,6 +2970,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 26.5,
     avgTempJanuary: 4.5,
     characterTags: ["nougat", "soleil", "Rhône", "gastronomie", "patrimoine"],
+    descriptionEn:
+      "Montélimar is the nougat capital of France — sunny Drôme provençale, gateway to Provence (the south-French climate truly begins here), Rhône Valley wines, dramatic Vercors and Ardèche nearby. Affordable. Best fit: Provence-seekers on budget, gastronomes, retirees, families.",
+    seoTitleEn: "Montélimar — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Montélimar (Drôme, Auvergne-Rhône-Alpes): quality-of-life score 7.1/10. Nougat capital, gateway to Provence, sunny, Rhône Valley wines.",
     scores: {
       global: 7.1,
       life: 7.5,
@@ -2946,6 +3001,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 24.5,
     avgTempJanuary: 4.0,
     characterTags: ["médiéval", "Champollion", "Célé", "authenticité", "douceur-de-vivre"],
+    descriptionEn:
+      "Figeac is the medieval Lot Valley jewel — Champollion's birthplace (he decoded the Rosetta Stone), exceptionally well-preserved Quercy heritage, the Célé and Lot rivers nearby, dramatic limestone landscapes. Authentic, refined. Best fit: heritage lovers, retirees seeking refined Lot Valley living, slow-life expats.",
+    seoTitleEn: "Figeac — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Figeac (Lot, Occitanie): quality-of-life score 7.4/10. Medieval Lot Valley town, Champollion's birthplace, refined Quercy heritage, authentic.",
     scores: {
       global: 7.4,
       life: 8.5,
@@ -2972,6 +3032,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 25.0,
     avgTempJanuary: 3.5,
     characterTags: ["chaussures", "Isère", "patrimoine", "artisanat", "entre-montagne-plaine"],
+    descriptionEn:
+      "Romans-sur-Isère is the historic French shoemaking capital — Charles Jourdan and Stéphane Kélian heritage, International Shoe Museum, sunny Drôme location, Vercors massif at the doorstep. Best fit: artisans and craftspeople, leather-and-shoe industry workers, mid-budget retirees, outdoor families.",
+    seoTitleEn: "Romans-sur-Isère — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Romans-sur-Isère (Drôme, Auvergne-Rhône-Alpes): quality-of-life score 6.9/10. Historic French shoemaking capital, Shoe Museum, Vercors nearby.",
     scores: {
       global: 6.9,
       life: 7.2,
@@ -2998,6 +3063,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.0,
     avgTempJanuary: 5.0,
     characterTags: ["industrie", "dynamique", "sport", "famille", "accessible"],
+    descriptionEn:
+      "Cholet is the dynamic Maine-et-Loire industrial city — textile and clothing-manufacturing heritage, very low unemployment, family-friendly, sport-active culture. Modest cultural scene, strong job market. Best fit: industrial-and-manufacturing professionals, families seeking secure local jobs, sport-active households.",
+    seoTitleEn: "Cholet — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Cholet (Maine-et-Loire, Pays de la Loire): quality-of-life score 7.1/10. Dynamic industrial city, low unemployment, family-friendly, sporty.",
     scores: {
       global: 7.1,
       life: 7.5,
@@ -3024,6 +3094,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 27.5,
     avgTempJanuary: 7.0,
     characterTags: ["Provence", "soleil", "arrière-pays-varois", "authenticité", "abordable"],
+    descriptionEn:
+      "Draguignan is the Var-interior Provençal city — refined market town, Mediterranean climate, Verdon Gorges within an hour, dramatically cheaper than coastal Var. Best fit: Provençal-lifestyle seekers on tight budgets, retirees, families wanting Provence character at inland prices, Verdon outdoor lovers.",
+    seoTitleEn: "Draguignan — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Draguignan (Var, PACA): quality-of-life score 7.0/10. Inland Var Provençal city, market-town refinement, Verdon Gorges adjacent, affordable.",
     scores: {
       global: 7.0,
       life: 7.5,
