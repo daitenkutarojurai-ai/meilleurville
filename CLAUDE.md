@@ -195,19 +195,18 @@ Vivre sans voiture +5, Acheter à [ville] +5, and the "Lire ensuite" reading lis
 R7.2 (méthodologie section already absent), R7.9 (string + soft-fallback shipped in `components/HonestReviewCard.tsx`), R7.11 (`components/DiscussionCTA.tsx` on all 26 sub-pages), R7.12 (emoji icons present on every "Aller plus loin" card) are shipped.
 
 ### Product — City Match + vraie vie
-- **R8.2 Vraie vie** — Indicateurs manquants: qualité internet (`/villes/[slug]/connexion-internet` shipped), mentalité locale (volet éditorial pending), tension locative (délai/concurrence depuis `data/housing.ts` pending), minutes domicile-travail concrètes sur sous-page transports pending.
-- **R8.3 Verticale S'installer** — `/villes/[slug]/s-installer` shipped. Pending: portraits-types fictifs explicitement étiquetés, agenda local par ville/région.
+- **R8.2 Vraie vie** — Indicateurs manquants: qualité internet (`/villes/[slug]/connexion-internet` shipped), mentalité locale (`/villes/[slug]/mentalite-locale` shipped), tension locative (`/villes/[slug]/tension-locative` shipped), minutes domicile-travail (section "Trajet domicile-travail estimé" sur `/villes/[slug]/transports` shipped). **R8.2 complet.**
+- **R8.3 Verticale S'installer** — `/villes/[slug]/s-installer` shipped, `/villes/[slug]/agenda` shipped. Pending: portraits-types fictifs explicitement étiquetés.
 
 R8.1 City Match (`/city-match` + `lib/city-match.ts`) shipped.
 
 ### Plateforme communautaire (R9)
 - **R9.3** — Alertes métrique (seuil score par ville), monitoring local (nouveaux commentaires, red-flags). Réutiliser config Brevo (listes FR id 4 / EN id 5). **Not done.**
-- **R9.4** — Q&R par ville, gamification légère (badges, compteurs). **Not done.**
 
-R9.1 (`/auth` + `/connexion`, Supabase), R9.2 (`/favoris` + `/dashboard`), R9.5 (`/projection-5ans`) shipped.
+R9.1 (`/auth` + `/connexion`, Supabase), R9.2 (`/favoris` + `/dashboard`), R9.4 (`/villes/[slug]/questions` + EN `/cities/[slug]/questions`), R9.5 (`/projection-5ans`) shipped.
 
 ### Data-visualisation (R10)
-- **R10.1** — Carte 3D colonnes (`deck.gl` ColumnLayer ou `react-three-fiber`). Toggle 2D/3D sur `/carte`. DROM en strip séparé. SSG fallback obligatoire (CarteClient 2D actuelle). Filtres par axe de score. **Not done.**
+- **R10.1** — 2D/3D toggle sur `/carte` via CSS perspective + SVG ColumnLayer. Toggle ◉ 2D / ▲ 3D. Hauteur = score, couleur = score. DROM strip séparé (DromStrip component). Filtres par axe déjà présents. **Shipped** (CSS perspective, no new deps). Note: deck.gl proper avec tuiles carte de fond reste une upgrade future.
 
 R10.2 (`/villes/[slug]/empreinte` + `lib/city-fingerprint.ts` + `components/CityFingerprint.tsx`), R10.3 (`/climat-2040-timelapse`) shipped.
 
