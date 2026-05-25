@@ -213,6 +213,26 @@ export const PROFILE_PAGES: ProfileDef[] = [
     reasonHint: (c) =>
       `Coût ${c.scores.cost.toFixed(1)} · qualité de vie ${c.scores.life.toFixed(1)} · sécurité ${c.scores.safety.toFixed(1)}`,
   },
+  {
+    slug: "familles-monoparentales",
+    emoji: "👩‍👧",
+    label: "Familles monoparentales",
+    metaTitle: "Meilleures villes familles monoparentales 2026 — Top 20",
+    metaDescription: "Top 20 villes pour parents solos : coût accessible avec un seul revenu, sécurité, écoles, transport, services famille. Sélection 2026 calibrée.",
+    intro:
+      "Familles monoparentales : un seul revenu, des contraintes d'organisation doublées et zéro marge sur le budget. Le triangle qui compte vraiment, c'est coût accessible, sécurité (jour et soir) et école proche d'un transport efficace. Le réseau de garde et les services famille font la différence entre survivre et tenir. Ces 20 villes maximisent ce mélange — souvent des préfectures moyennes plus que des grandes métropoles, parce qu'elles concentrent les services à un coût soutenable.",
+    weights: {
+      cost: 2.5,
+      safety: 2.0,
+      schools: 2.0,
+      transport: 1.5,
+      famille: 1.5,
+      securiteFemmeSeule: 1.0,
+      life: 1.0,
+    },
+    reasonHint: (c) =>
+      `Coût ${c.scores.cost.toFixed(1)} · sécurité ${c.scores.safety.toFixed(1)} · écoles ${c.scores.schools.toFixed(1)}`,
+  },
 ];
 
 export const PROFILE_SLUGS = PROFILE_PAGES.map((p) => p.slug);
