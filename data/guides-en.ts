@@ -6935,6 +6935,174 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["paris", "lyon", "strasbourg", "bordeaux", "nantes"],
     tags: ["france vs germany expat 2026", "france or germany move", "expat comparison france germany", "germany or france work", "europe expat which country"],
   },
+  {
+    slug: "leaving-bordeaux-where-to-move-expat-2026",
+    title: "Leaving Bordeaux: Where to Move (2026)",
+    metaTitle: "Leaving Bordeaux 2026 — best cities to move to, alternatives, expat guide",
+    metaDesc: "Where to move from Bordeaux in 2026: top alternatives by profile (Atlantic, cheaper, family, career). Honest comparisons and trade-offs.",
+    category: "city-guide",
+    emoji: "🧭",
+    readMinutes: 9,
+    publishedAt: "2026-05-25",
+    updatedAt: "2026-05-25",
+    intro: "Bordeaux has been France's hottest relocation destination since 2014 — but a decade of price inflation, the increasing summer heat, and the original LGV-driven Parisian influx now have many established residents looking elsewhere. The Bordeaux-leaver typically wants to preserve elements of what made Bordeaux attractive (Atlantic moderation, wine culture, scale) while escaping its newer downsides (prices, summer intensity, gentrification fatigue). Here are the dominant 2026 alternatives.",
+    sections: [
+      {
+        heading: "If you want Atlantic moderation in a cheaper city",
+        body: "**Nantes**: similar Atlantic climate, real city scale (660,000 metro), strong economy, dramatically family-friendly. Property prices roughly 30% below Bordeaux equivalent neighbourhoods. The natural Bordeaux-alternative. **La Rochelle**: smaller (75,000 city), genuinely coastal (Bordeaux is 60 km inland), refined heritage, growing expat community. Property prices comparable to Bordeaux for premium areas. **Brest**: oceanic, naval city, dramatically cheaper, smaller scale, distinctive Breton culture. **Lorient, Quimper**: smaller Breton cities, very affordable, authentic Breton character. **Saint-Brieuc, Vannes**: family-friendly Breton mid-size options.",
+      },
+      {
+        heading: "If you want major city with more activity",
+        body: "**Lyon**: France's second metropolis, similar mid-size scale (1.4M metro), stronger economy, continental seasons. The dominant Bordeaux→urban move. Property prices similar or slightly above Bordeaux's centre. **Toulouse**: aerospace economy, sunnier, slightly cheaper. Similar size. Less Atlantic feel. **Marseille**: Mediterranean urban scale (1.6M metro), dramatically cheaper. Very different character. **Paris**: career upgrade option; significant lifestyle trade-offs.",
+      },
+      {
+        heading: "If you want quieter and more affordable",
+        body: "**Angoulême**: 1h south of Bordeaux by car (40 min TGV), dramatically cheaper, comic-book heritage, smaller scale. **Périgueux, Sarlat**: Dordogne, mature British expat zone, picturesque. **Pau**: Pyrenean foothills, mild, much cheaper, growing expat community. **Mont-de-Marsan, Agen**: south-west towns, very affordable. **Bayonne**: Pays Basque coast, more expensive than Pau but reachable. **Cognac, Saintes**: Charente towns, affordable, refined.",
+      },
+      {
+        heading: "If climate change concerns push the move",
+        body: "Bordeaux's summers have intensified — 35°C+ heatwaves now regular. If avoiding this is the driver: **Atlantic options north**: Nantes, La Rochelle, Brest — milder summers. **Brittany interior**: Rennes, Pontivy, central Brittany villages — properly oceanic, cool. **Loire valley**: Tours, Angers, Saumur — slightly cooler than Bordeaux, river setting. **Mountain options**: Annecy, Chambéry, Pau — altitude moderation. **Northern France**: Lille, Caen, Rouen — much cooler, family-friendly.",
+      },
+      {
+        heading: "If career mobility drives the move",
+        body: "Bordeaux's job market is thinner than its property prices suggest. For specific careers: **Tech**: Paris, Lyon, Toulouse have stronger ecosystems. **Aerospace**: Toulouse, Marignane (Marseille). **Finance**: Paris, Lyon. **Pharma and life sciences**: Lyon, Paris-Saclay, Strasbourg. **Wine industry**: stays in Bordeaux or move to Champagne (Reims, Épernay), Burgundy (Dijon, Beaune), or Cognac. **Public sector / civil service**: prefer Paris or smaller prefecture cities. **Remote workers**: anywhere — Bordeaux's premium then becomes optional.",
+      },
+      {
+        heading: "Top 6 Bordeaux-leaver destinations: ranked",
+        body: "**#1 Nantes** (Atlantic, family-friendly, cheaper). **#2 Lyon** (urban scale upgrade, career mobility). **#3 La Rochelle** (genuinely coastal, refined). **#4 Pau** (Pyrenean, dramatically cheaper, mild). **#5 Toulouse** (aerospace career, southern climate). **#6 Angoulême** (cheaper, manageable scale, TGV connected). Beyond these: Brittany (Rennes, Vannes, Quimper) for those wanting properly oceanic climate; Provence (Aix, Marseille) for those wanting Mediterranean shift; international options (Lisbon, Porto, Valencia) for those leaving France entirely.",
+      },
+    ],
+    relatedCities: ["nantes", "la-rochelle", "lyon", "pau", "angouleme"],
+    tags: ["leaving bordeaux 2026", "where to move from bordeaux expat", "bordeaux alternatives", "moving out of bordeaux", "best french cities ex bordeaux"],
+  },
+  {
+    slug: "reims-champagne-living-expat-guide-2026",
+    title: "Living in Reims and the Champagne Region as an Expat (2026)",
+    metaTitle: "Living in Reims 2026 — expat guide: 45min TGV to Paris, Champagne capital, cost of living",
+    metaDesc: "Honest expat guide to Reims and the Champagne region in 2026: 45 minutes TGV to Paris, the Champagne industry, cost of living, neighbourhoods, family infrastructure.",
+    category: "city-guide",
+    emoji: "🥂",
+    readMinutes: 9,
+    publishedAt: "2026-05-25",
+    updatedAt: "2026-05-25",
+    intro: "Reims is the unexpected sweet spot of the Paris-orbit French cities: 45 minutes from Paris-Est by TGV, the historic capital of Champagne (where French kings were crowned for 1,000 years), 200,000 in the city and 320,000 in the metropolitan area, with property prices roughly half those of Bordeaux or Lyon. For expats who want a real French regional city with serious heritage, easy Paris access, and reasonable costs, Reims deserves much more consideration than it gets. This guide gives the honest 2026 picture.",
+    sections: [
+      {
+        heading: "What Reims is",
+        body: "Population: 184,000 city, 320,000 metropolitan area. Location: 145 km east of Paris, 110 km north-west of Nancy, 200 km south of Lille. Climate: continental-oceanic, distinct seasons. Average July max ~25°C, January max ~6°C with cold snaps. Annual rainfall ~620 mm — moderate. Warmer summers than Lille, cooler than Paris. Economic base: champagne industry (the heart of it — most major houses have headquarters or major sites in or near Reims: Veuve Clicquot, Krug, Pommery, Mumm, Taittinger, Ruinart), pharmaceuticals, automotive parts, agro-industry (the Champagne region is also major for sugar beet, wheat). Public services as regional capital. Education: Université de Reims Champagne-Ardenne (UR), Sciences Po (one of the seven multi-site campuses), NEOMA Business School, École Centrale Supélec.",
+      },
+      {
+        heading: "Cost of living: reasonable for the connectivity",
+        body: "Property prices in Reims: €2,000-3,200/m² for ancien in good central neighbourhoods, €2,500-3,800 for renovated or neuf. Premium areas (around the cathedral, the Saint-Remi neighbourhood, the Boulingrin area) can reach €3,500-4,500/m². For comparison: Lyon at €5,000-7,500/m², Bordeaux at €3,800-5,500. Reims offers serious value. Rental: T2 furnished €450-650/month centrally, T3 €650-900/month, family T4 €850-1,200/month. Groceries: 5-10% below national average. Restaurants: solid value, particularly the Champagne-paired gastronomy (€20-30 for a serious lunch). Public transport: tram (2 lines) — one of the most modern tram networks in France, opened 2011. Bus network. Monthly pass €40.",
+      },
+      {
+        heading: "Neighbourhoods to know",
+        body: "**Centre-ville (around the cathedral)**: UNESCO-listed cathedral area, restaurants, walkable, beautiful 18th-century streets. T2 €550-750/month. **Boulingrin / Saint-Remi**: bourgeois historic district, parks, family-oriented, schools. T3 €750-1,000/month. **Croix-Rouge**: residential, mix of social and middle-class housing, modern flats. **Courlancy**: residential bourgeois west of centre, larger properties. **Cernay**: emerging neighbourhood, affordable, gentrifying. **Wilson**: 1960s tower blocks district, very affordable but socially mixed. **Outside Reims proper**: **Tinqueux** (western suburb, modern flats, family-oriented), **Cormontreuil** (southern suburb), **Bétheny** (northern, affordable), the surrounding Champagne villages (Aÿ, Mareuil-sur-Aÿ, Verzenay) for those seeking rural quality of life with Reims access.",
+      },
+      {
+        heading: "The Paris connection and the wider transport picture",
+        body: "Reims-Paris TGV: 45 minutes to Paris-Est, every hour during the day with peak frequency every 30 min. Monthly TGV subscription €350-450 for unlimited travel. Reims is 3rd or 4th most popular Paris-commuter city after Le Mans and Lille. Many Reims residents commute to Paris weekly. **Other connections**: Reims-Strasbourg TGV 1h45 direct, Reims-Lille TGV 1h35, Reims-Brussels by train 2h15 with connection, Charles de Gaulle airport accessible directly via TGV (40 min). **Driving**: A4 motorway connects to Paris (1h30), Metz (1h45), Strasbourg (3h15). **The practical effect for expats**: Reims is one of the best 'live regional, work in Paris' options in France — cheaper than Le Mans, faster than Lille, established enough to have its own identity.",
+      },
+      {
+        heading: "The Champagne industry and lifestyle",
+        body: "The Champagne AOC region is a UNESCO World Heritage site (since 2015). Living in or near Reims puts you at the heart of one of the world's most prestigious wine regions. **Practical lifestyle benefits**: champagne tastings and tours accessible weekly without travel; cellar prices for great champagnes (~€20-40 for excellent grower champagnes, vs €40-80 in Paris); restaurant Michelin density per capita is among France's highest (Le Foch, Le Parc, Domaine Les Crayères). **Cycling and outdoors**: the Champagne vineyards offer excellent road cycling (the route des Champagne is well-marked); the Marne river runs through Reims for kayaking; the Ardennes forest 1h away for hiking. **Cultural calendar**: Fêtes de la Saint-Vincent (winegrowers' festival, January), Fêtes Johanniques (Joan of Arc commemoration, June), Habits de Lumière (December — illuminations in nearby Épernay), Sacre du Folklore.",
+      },
+      {
+        heading: "Schools, healthcare, family infrastructure",
+        body: "Public schools in Reims are above national average. **International / bilingual options**: limited compared to Bordeaux or Lyon. Lycée Roosevelt and a few other schools offer European Section programs (English, German, Spanish bilingual streams). For full international curriculum, Paris is 45 minutes away. **Healthcare**: CHU de Reims is a major university hospital — high-level care available. GP access is moderate; better than the south of France but tighter than 5 years ago. **Family infrastructure**: Reims has invested heavily in parks (Parc de Champagne, Parc Léo Lagrange), library system, sports facilities. Stade de Reims (the football club) — historic but currently in Ligue 2. Family-friendly daily life.",
+      },
+      {
+        heading: "Who Reims works for",
+        body: "Works best for: Paris professionals wanting weekly commute with much lower property cost and serious quality of life; remote workers who appreciate refined provincial culture; champagne and wine industry professionals; families seeking solid public schools, parks, and infrastructure without major-city density; couples in their 30s-50s who want a real city without aspirational pricing. Less ideal for: career-focused under-35s in tech or finance (Paris or Lyon are stronger ecosystems); expats seeking a strong international community (Reims's expat community is small); families needing strong international schools (Bordeaux, Lyon, Paris are better); those drawn to coastal or Mediterranean lifestyles (Reims is decidedly continental).",
+      },
+    ],
+    relatedCities: ["reims", "epernay", "chalons-en-champagne"],
+    tags: ["living in reims expat 2026", "reims expat guide", "champagne region expat", "reims TGV paris commute", "reims cost of living"],
+  },
+  {
+    slug: "americans-retiring-in-france-deep-guide-2026",
+    title: "Americans Retiring in France: The Deep 2026 Guide",
+    metaTitle: "Americans Retiring in France 2026 — deep guide: visa, healthcare, taxes, best cities",
+    metaDesc: "Americans retiring in France in 2026: long-stay visa, Medicare and healthcare, US tax obligations, FATCA, social security, where to live, real costs.",
+    category: "moving",
+    emoji: "🦅",
+    readMinutes: 13,
+    publishedAt: "2026-05-25",
+    updatedAt: "2026-05-25",
+    intro: "France is one of the top three retirement destinations for Americans abroad (alongside Mexico and Portugal) and has been gaining share since 2018. The reasons are well known — climate, gastronomy, healthcare, walkability, cultural depth. The complications are also real and specifically American: the long-stay visa, the US tax system following you everywhere, Medicare not covering you abroad, the FATCA reporting requirements, currency hedging on a USD-denominated retirement income. This guide walks through everything an American specifically needs to know to retire in France in 2026.",
+    sections: [
+      {
+        heading: "The visa: long-stay 'Visiteur' (VLS-TS) for retirees",
+        body: "Americans retiring in France typically apply for the **long-stay visitor visa (Visa de long séjour valant titre de séjour — VLS-TS 'Visiteur')**. This visa: 1) Requires proof of sufficient income (typically at least the SMIC minimum wage equivalent, ~€17,000-22,000/year per person — Social Security or pension income qualifies). 2) Requires private health insurance covering France (during the first year — see healthcare section). 3) Prohibits working in France (employment-prohibited; passive income, US-source pensions, and Social Security are fine). 4) Lasts 1 year, renewable at the Préfecture each year. 5) After 5 years of continuous residence on this visa, you become eligible for the long-term residence card (Carte de Résident, 10-year renewable). 6) After 5 years, you can also apply for French citizenship if desired. **Application**: at your local French consulate in the US (Washington DC, San Francisco, New York, Houston, Chicago, etc.). Process takes 4-8 weeks. Documents include passport, financial statements showing sufficient income, US tax returns, accommodation proof in France, criminal background check, and health insurance.",
+      },
+      {
+        heading: "US tax obligations: they don't go away",
+        body: "Critically: **the US taxes its citizens on worldwide income, regardless of residence**. You will continue filing a US federal tax return every year. France-US tax treaty prevents double taxation but doesn't eliminate filing. **What you continue to owe**: US federal income tax on any income above the Foreign Earned Income Exclusion (FEIE — irrelevant for retirees, applies only to earned income) or otherwise covered by Foreign Tax Credits. For retirement income: US Social Security is taxable only in the US per the bilateral treaty (which trumps your French tax residency). US private pensions (401(k), IRA, Roth IRA distributions) are taxable in France (your country of residence) but with credit for US tax already paid. **State taxes**: if you were a tax resident of a state at the time of move, you may still owe state tax depending on the state. California, New York, and other 'sticky' states can claim residency for years after a move abroad. Establish a clean break with a tax-friendly state (Florida, Texas, Washington) before moving to France if possible. **FATCA reporting**: Americans abroad must declare foreign bank accounts (FBAR — Form FinCEN 114) if their aggregate value exceeded $10,000 at any point during the year, and Form 8938 (FATCA reporting) for higher-value accounts. French banks know about FATCA and report American accounts automatically to the IRS.",
+      },
+      {
+        heading: "French tax obligations",
+        body: "Once you're a French tax resident (more than 183 days/year in France, or France is your primary residence), you file a French tax return. **What France taxes**: worldwide income, with credits for tax paid abroad per bilateral treaties. **Retirement income from the US**: declared on Form 2047 (foreign income). The bilateral treaty determines tax allocation. Social Security exempt from French tax (taxed in US); IRA/401(k) withdrawals taxable in France with US credit. **Income tax brackets in France**: progressive, 0% up to ~€11,500, 11% to €29,500, 30% to €83,800, 41% to €180,300, 45% above. For a couple, the 'quotient familial' applies (split income across household). **CSG/CRDS social charges**: 17.2% on capital income, including French and foreign investment income — but Americans receiving exclusively US-source retirement income are typically exempt from CSG (per the bilateral agreement). Verify with a French expat tax advisor. **Property taxes**: taxe foncière (€600-3,000+ depending on property and commune), taxe d'habitation residence secondaire (only if applicable). **Wealth tax (IFI)**: applies if your worldwide real estate exceeds €1.3M net. Rates 0.5-1.5% sliding scale.",
+      },
+      {
+        heading: "Healthcare: the Medicare gap and how to bridge it",
+        body: "**Medicare does NOT cover you abroad** (with extremely limited exceptions for cruise ships near US shores). Even Medicare Advantage and Medigap policies generally don't cover French care. **Your healthcare strategy in France**: 1) **First year**: private international health insurance (Cigna Global, GeoBlue, Allianz Care, AXA Global Health, William Russell). Costs $400-1,500/month per person depending on age, conditions, and coverage tier. **REQUIRED** for the long-stay visa. 2) **After 3 months of residence**: register with Assurance Maladie (CPAM) under the Protection Universelle Maladie (PUMa). You can stay in PUMa while also keeping private international insurance, or transition fully to PUMa. 3) **Long-term**: PUMa + mutuelle (€30-100/month) provides comprehensive coverage. PUMa contributions for non-employed retirees: an income-based contribution called CSM (Cotisation Subsidiaire Maladie), typically 6.5% of capital income above a threshold of approximately €23,000. For most retirees with US Social Security as primary income (which is exempted from CSM calculation), the actual contribution is modest or zero. **Pre-existing conditions**: not a barrier in French public system. The system covers what you need.",
+      },
+      {
+        heading: "Currency, banking, and US retirement assets",
+        body: "**Currency exposure**: your US-denominated retirement income converts to euros at fluctuating rates. The USD-EUR rate has moved between 0.85 and 1.20 EUR per USD over recent years — a 40% swing. A retirement income of $5,000/month converts to anywhere between €4,250 and €6,000 depending on the moment. Practical: keep a 6-12 month buffer in euros to ride out rate dips; consider partial euro-denominated investments. **French bank account**: required for daily life, lease, utilities. Major banks accepting American clients: BNP Paribas, Crédit Agricole, Société Générale, HSBC France (though HSBC has reduced US-client services). N26 and Revolut work for digital-first accounts. **US bank accounts**: keep your US accounts open. Many US banks (Schwab, Fidelity) allow international access. **Investment accounts**: your existing 401(k), IRA, Roth IRA accounts continue to function. PFIC (Passive Foreign Investment Company) rules make French and European mutual funds tax-toxic for US persons — avoid them. Stick with US-domiciled ETFs and stocks. **Wire transfers**: use Wise or OFX rather than traditional bank wires — fees are 50-80% lower.",
+      },
+      {
+        heading: "Best French cities for American retirees",
+        body: "Based on the established American retiree community and quality-of-life-for-Americans: **Provence (Aix-en-Provence, smaller Provençal towns)**: largest American retirement community in France. Climate, gastronomy, English-speaking services, organised social events. **Dordogne (Sarlat, Bergerac, Beynac)**: traditional British+American expat zone. Stone houses, slow pace, very affordable. **Côte d'Azur (Nice, Antibes, Cap-Ferrat)**: international and refined; expensive but full English-speaking infrastructure. **Pays Basque (Saint-Jean-de-Luz, Biarritz)**: growing American community, surf and Pyrenees access. **Languedoc (Pézenas, smaller medieval villages)**: budget Mediterranean lifestyle. **Brittany (around Dinard, Vannes, smaller coastal towns)**: emerging American community attracted by mild climate and Atlantic coast. **Loire valley**: refined elegance, Châteaux country. **Paris (specific neighbourhoods like the 6th, 7th, 16th arrondissements)**: largest urban American community, full English-speaking medical/legal/financial services. Expensive. **For an American retiree mainly seeking community**: Aix-en-Provence or the Dordogne are unrivalled. For lifestyle uniqueness: Pays Basque or Brittany. For city living: Paris or Nice.",
+      },
+      {
+        heading: "Practical timeline for an American move to France",
+        body: "**18 months out**: visit France for 2-3 weeks specifically to scout areas. Spend at least a week in each candidate region. Don't decide based on a 3-day tourist trip. **12 months out**: identify your tax-friendly US state and establish residency if not already. Talk to a US expat tax advisor (Buzzacott, Greenback Tax Services, MyExpatTaxes are dedicated to US expats). Build USD savings as a euro-conversion buffer. **9 months out**: secure international health insurance quote (compare 4-5 providers). Identify likely French city/neighbourhood. **6 months out**: arrange French long-term rental (12-month furnished lease typically — see the rental guide). Take possession before applying for the visa to have a French address. **3 months out**: apply for VLS-TS Visiteur at French consulate. Begin to wind down US obligations (cancel US-only subscriptions, transfer mail forwarding to a US-based service like Earth Class Mail, prepare US tax filing for the transition year). **Move**: ship belongings (see shipping guide), wind down US housing if applicable. **First 3 months in France**: ANTS for residency, OFII validation (online), bank account, French phone, register with mairie, find GP. **Month 4-6**: register with Assurance Maladie. Start integration steps. **Annually after**: renew visa at préfecture; file US and French tax returns; review healthcare and financial setup.",
+      },
+    ],
+    relatedCities: ["aix-en-provence", "nice", "sarlat-la-caneda", "bayonne", "paris"],
+    tags: ["american retiring in france 2026", "americans france long stay visa", "medicare france expat", "us retiree france guide", "americans retiring abroad france"],
+  },
+  {
+    slug: "vannes-morbihan-coast-living-expat-2026",
+    title: "Living in Vannes and the Morbihan Coast as an Expat (2026)",
+    metaTitle: "Living in Vannes 2026 — Morbihan expat guide, Gulf of Morbihan, cost of living, neighbourhoods",
+    metaDesc: "Honest expat guide to Vannes and the Morbihan coast in 2026: Gulf of Morbihan, mild climate, real cost of living, neighbourhoods, family infrastructure.",
+    category: "city-guide",
+    emoji: "⛵",
+    readMinutes: 9,
+    publishedAt: "2026-05-25",
+    updatedAt: "2026-05-25",
+    intro: "Vannes is the secret weapon of southern Brittany: 55,000 residents in a beautifully preserved medieval city, sitting at the head of the Gulf of Morbihan — one of the most stunning coastal bays in Europe, with 30+ islands and exceptional sailing. The climate is mild oceanic, the local culture is genuinely Breton, and the city has invested heavily in liveability over the past decade. For expats seeking Atlantic coastal life with manageable scale, real heritage, and lower prices than the Atlantic 'name' cities (Bordeaux, La Rochelle, Nantes), Vannes deserves serious attention.",
+    sections: [
+      {
+        heading: "What Vannes and the Morbihan are",
+        body: "Population: 55,000 city, 150,000 metropolitan area. Location: in southern Brittany (Bretagne sud), on the Gulf of Morbihan, 110 km east of Quimper, 110 km west of Nantes, 460 km west of Paris (3h by TGV). Climate: oceanic, very mild. Average July max ~22-24°C, January max ~9°C, lows rarely below 0°C. Annual rainfall ~700 mm — moderate by Breton standards. **Gulf of Morbihan**: one of France's most beautiful natural sites, with 42 inhabited islands (Île aux Moines, Île d'Arz are the largest), exceptional sailing, calm waters protected from Atlantic swell. **Economic base**: tourism, public services (regional administration), agro-industry (Bretagne is France's largest dairy and meat region), tertiary sector growing. **Cultural identity**: deeply Breton — the Breton language (Brezhoneg) is taught in immersion schools (Diwan), the local festivals (Fêtes d'Arvor in August) are major events, Celtic music is genuine.",
+      },
+      {
+        heading: "Cost of living: reasonable for Atlantic coast",
+        body: "Property prices in Vannes have risen substantially since 2019 (Brittany migration boom post-COVID), but remain below 'name' Atlantic cities. **Buying**: €3,000-4,800/m² for ancien in central neighbourhoods, €3,800-5,500 for renovated or sea-view. Premium properties around the Gulf shore (Larmor-Baden, Sarzeau, Île aux Moines) can reach €6,000-9,000/m². **Rentals**: T2 furnished €550-800/month centrally, T3 €750-1,050/month. For comparison: Bordeaux T2 €750-1,050/month, La Rochelle T2 €700-950/month. Vannes is meaningfully more affordable. Groceries: at national average. Restaurants: solid value, particularly seafood (oysters from the Gulf are world-class), galettes/crêpes culture genuine.",
+      },
+      {
+        heading: "Neighbourhoods to know",
+        body: "**Centre historique (medieval city)**: walled medieval old town, half-timbered houses, restaurants, walkable. T2 €650-850/month. The most desirable but small flats. **Port-Tudy / Le Port**: marina area, lively, restaurants, modern flats with sea-view. T2 €700-950/month. **Tabarly / Mendon**: residential bourgeois, parks, family-oriented schools. T3 €800-1,100/month. **Beaupré / Lannouée**: emerging neighbourhoods, more affordable, family-oriented. **Conleau**: peninsula extending into the Gulf, residential, larger properties, sea views. **Saint-Nolff, Theix-Noyalo**: suburban villages within metro, family-oriented, more affordable. **Gulf villages worth considering as alternatives**: Sarzeau (40 min from Vannes — village character, sailing access), Arzon (Port-du-Crouesty marina), Larmor-Baden (gateway to the islands).",
+      },
+      {
+        heading: "What works in daily life",
+        body: "The Gulf of Morbihan is genuinely exceptional. Sailing season runs March-November; many Vannes residents own small boats or moor in Port-Tudy. Multiple sailing schools accept long-term locals at reasonable rates. **Beaches**: Atlantic surf beaches accessible 20-30 min from Vannes (Quiberon peninsula, Carnac, Erdeven). **Cycling**: extensive bike paths along the Gulf shore (V5 cycling route), the canal de Nantes-à-Brest passes nearby. **Food culture**: oysters, mussels, Breton butter, kouign-amann, far Breton, cider, chouchen (mead). The seafood quality is world-class. **Cultural calendar**: Fêtes d'Arvor (Celtic festival, August), Festival Photo La Gacilly (50 km away — major outdoor photography festival), Semaine du Golfe (sailing regatta every 2 years). **Surrounding**: Quiberon peninsula, Carnac megaliths (one of Europe's most important prehistoric sites), Belle-Île and the smaller offshore islands.",
+      },
+      {
+        heading: "Schools, healthcare, family infrastructure",
+        body: "Public schools in Vannes are above national average. **Bilingual options**: French-Breton immersion (Diwan school, French/Breton public bilingual sections), French/English sections in some Vannes lycées. For international curriculum (IB, American), Rennes or Nantes (each 1h away) are the closest. **Healthcare**: Centre Hospitalier Bretagne Atlantique (CHBA) — solid regional hospital. GP access is moderate — better than in tight markets but tightening. **Family infrastructure**: well-developed. Parks, sports clubs (sailing, rugby, football), library system. Childcare capacity exists but with some demand-supply gaps (apply early). **Connectivity**: TGV to Paris-Montparnasse in 3 hours direct. Nantes airport (90 min by car) for European flights. Rennes-Saint-Jacques airport (1h) as alternative.",
+      },
+      {
+        heading: "Who Vannes works for",
+        body: "Works best for: families seeking real coastal lifestyle with manageable scale and good schools; retirees who want Atlantic coast life at reasonable prices (Vannes is significantly cheaper than La Rochelle or Bayonne); sailors and water-sports enthusiasts (the Gulf is among Europe's premier sailing waters); remote workers with stable incomes who appreciate Breton culture; couples in their 30s-50s seeking quality of life downsizing from Paris or Lyon. Less ideal for: career-focused under-40s in tech/finance roles (the local job market is thin; Rennes is the regional career hub, 1h away); families needing strong international schools (Rennes or Nantes are needed); those who need frequent international travel (Nantes airport is solid but not a major hub); those allergic to Atlantic grey winters (winters are mild but cloudy).",
+      },
+    ],
+    relatedCities: ["vannes", "lorient", "auray", "quimper"],
+    tags: ["living in vannes expat 2026", "vannes expat guide", "morbihan gulf living", "brittany coast expat", "vannes cost of living"],
+  },
 ];
 
 export function getEnGuide(slug: string): EnGuide | undefined {
