@@ -6380,6 +6380,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 28.5,
     avgTempJanuary: 8.5,
     characterTags: ["Hérault", "Méditerranée", "basalte", "Cap d'Agde", "Languedoc", "mer", "abordable"],
+    descriptionEn:
+      "Agde is the Greek-founded Mediterranean Hérault city — black-basalt Romanesque cathedral, Cap d'Agde resort (the famous naturist village), Canal du Midi, affordable for the coastal location. Best fit: ultra-budget Mediterranean households, naturist-tourism enthusiasts, retirees seeking value Languedoc coast.",
+    seoTitleEn: "Agde — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Agde (Hérault, Occitanie): quality-of-life score 6.9/10. Greek-founded Mediterranean, black-basalt cathedral, Cap d'Agde resort, affordable.",
     scores: {
       global: 6.9,
       life: 7.5,
@@ -6406,6 +6411,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 19.0,
     avgTempJanuary: 8.0,
     characterTags: ["Finistère", "port", "pêche", "Bretagne profonde", "authentique", "mer", "abordable"],
+    descriptionEn:
+      "Douarnenez is the deep-Brittany Finistère fishing port — sardine and tuna heritage, Port-Musée maritime museum, wild Cap Sizun and Crozon coast nearby, dramatically affordable. Best fit: authenticity-seekers, retirees wanting genuine working-Breton port, ultra-budget households, sailors.",
+    seoTitleEn: "Douarnenez — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Douarnenez (Finistère, Bretagne): quality-of-life score 7.0/10. Deep-Brittany fishing port, sardine heritage, wild Finistère coast, affordable.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -6432,6 +6442,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 24.0,
     avgTempJanuary: 9.5,
     characterTags: ["Landes", "lac", "océan", "pinède", "kite-surf", "famille", "dunes"],
+    descriptionEn:
+      "Biscarrosse is the Landes lake-and-ocean town — Atlantic surf coast on one side, the vast Biscarrosse lake on the other, pine forests, kite-surfing capital. Best fit: surfers and kite-surfers, family beach-and-lake households, lifestyle remote workers wanting pine-forest Atlantic-coast living.",
+    seoTitleEn: "Biscarrosse — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Biscarrosse (Landes, Nouvelle-Aquitaine): quality-of-life score 7.4/10. Landes lake-and-ocean town, surf coast, kite-surfing capital, pine forest.",
     scores: {
       global: 7.4,
       life: 8.5,
@@ -6458,6 +6473,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 28.5,
     avgTempJanuary: 6.5,
     characterTags: ["Alpilles", "Provence", "Van Gogh", "mas provençaux", "marché", "art de vivre", "expats"],
+    descriptionEn:
+      "Saint-Rémy-de-Provence is the iconic Alpilles Provençal town — where Van Gogh painted his most famous works (Saint-Paul-de-Mausole asylum), Nostradamus's birthplace, exceptional Wednesday market, dramatic Alpilles backdrop. Best fit: refined expat retirees, lifestyle remote workers, second-home owners.",
+    seoTitleEn: "Saint-Rémy-de-Provence — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Saint-Rémy-de-Provence (Bouches-du-Rhône, PACA): quality-of-life score 8.0/10. Iconic Alpilles town, Van Gogh's painting setting, refined Provence.",
     scores: {
       global: 8.0,
       life: 9.0,
@@ -6484,6 +6504,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 27.0,
     avgTempJanuary: 5.5,
     characterTags: ["village perché", "Luberon", "plus beaux villages", "lavande", "bories", "Provence", "prestige"],
+    descriptionEn:
+      "Gordes is the postcard-Luberon village — perched on a limestone cliff (one of France's most photographed villages), refined Provençal-Luberon lifestyle, Sénanque lavender abbey nearby, premium prices. Best fit: refined retirees with substantial budget, second-home owners, lifestyle remote workers wanting iconic Provençal village.",
+    seoTitleEn: "Gordes — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Gordes (Vaucluse, PACA): quality-of-life score 8.1/10. Postcard Luberon perched village, refined Provençal, Sénanque lavender abbey, premium.",
     scores: {
       global: 8.1,
       life: 9.5,
@@ -6510,6 +6535,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 23.0,
     avgTempJanuary: 4.5,
     characterTags: ["citadelle", "Durance", "Provence alpine", "lavande", "agneau de Sisteron AOP", "soleil", "abordable"],
+    descriptionEn:
+      "Sisteron sits at the gateway between Provence and the Alps — dramatic Vauban citadel above the Durance river, AOP Sisteron lamb country, lavender fields, sunny and affordable for the dramatic setting. Best fit: ultra-budget Provence-alpine households, retirees seeking refined small-town living, mountain-and-Provence combination lovers.",
+    seoTitleEn: "Sisteron — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Sisteron (Alpes-de-Haute-Provence, PACA): quality-of-life score 7.1/10. Gateway between Provence and Alps, Vauban citadel, AOP lamb, sunny.",
     scores: {
       global: 7.1,
       life: 8.0,
@@ -6536,6 +6566,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 26.0,
     avgTempJanuary: 9.5,
     characterTags: ["village d'artistes", "Fondation Maeght", "Côte d'Azur", "remparts", "galeries", "Chagall", "prestige"],
+    descriptionEn:
+      "Saint-Paul-de-Vence is the iconic Côte d'Azur artist-village — Chagall is buried here, Fondation Maeght world-class modern art, walled medieval perched centre, gallery-dense, ultra-refined. Premium prices. Best fit: art collectors, refined retirees with budget, second-home owners, lifestyle remote workers.",
+    seoTitleEn: "Saint-Paul-de-Vence — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Saint-Paul-de-Vence (Alpes-Maritimes, PACA): quality-of-life score 8.0/10. Iconic Côte d'Azur art village, Fondation Maeght, Chagall buried here.",
     scores: {
       global: 8.0,
       life: 9.5,
@@ -6562,6 +6597,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 26.0,
     avgTempJanuary: 9.0,
     characterTags: ["Sophia Antipolis", "tech", "international", "village médiéval", "Côte d'Azur", "innovation", "expats"],
+    descriptionEn:
+      "Valbonne is the heart of the Sophia Antipolis tech park — Europe's first science park, major international tech-and-pharma employment (SAP, IBM, Air France, Galderma), refined medieval-grid village, large expat community, the most English-speaking commune in France. Best fit: tech expats, international corporate families, refined retirees.",
+    seoTitleEn: "Valbonne — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Valbonne (Alpes-Maritimes, PACA): quality-of-life score 8.3/10. Sophia Antipolis tech park, international expat heartland, medieval village.",
     scores: {
       global: 8.3,
       life: 8.5,
@@ -6588,6 +6628,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 27.5,
     avgTempJanuary: 9.0,
     characterTags: ["Catalogne", "Pyrénées", "art moderne", "cerises", "Matisse-Picasso", "Espagne-proche", "nature"],
+    descriptionEn:
+      "Céret is the Catalan-Pyrenees art town — Matisse, Picasso, Soutine, Chagall all painted here (Musée d'Art Moderne), cherry capital of France, Spanish border 15 minutes, dramatic Mont Canigou backdrop. Best fit: artists, art-and-Catalan-culture lovers, refined retirees, Spanish-border professionals.",
+    seoTitleEn: "Céret — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Céret (Pyrénées-Orientales, Occitanie): quality-of-life score 7.6/10. Catalan-Pyrenees art town, Matisse-Picasso heritage, cherry capital.",
     scores: {
       global: 7.6,
       life: 8.5,
@@ -6614,6 +6659,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 27.5,
     avgTempJanuary: 6.0,
     characterTags: ["Vaucluse", "marché provençal", "truffes", "Mont Ventoux", "artisanat", "Luberon-proche", "Provence authentique"],
+    descriptionEn:
+      "Carpentras is the truffle capital of Provence — historic Friday provençal market, famous winter truffle market (one of France's largest), Mont Ventoux on the doorstep, refined Vaucluse heritage. Best fit: gastronomes (truffles), Provençal-cycling enthusiasts (Mont Ventoux), retirees seeking authentic Vaucluse living.",
+    seoTitleEn: "Carpentras — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Carpentras (Vaucluse, PACA): quality-of-life score 7.2/10. Truffle capital of Provence, historic market, Mont Ventoux gateway, refined.",
     scores: {
       global: 7.2,
       life: 7.5,
@@ -6640,6 +6690,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 27.0,
     avgTempJanuary: 5.5,
     characterTags: ["Luberon", "fruits confits", "ocre", "Parc naturel", "Provence sauvage", "marché samedi", "calme"],
+    descriptionEn:
+      "Apt is the Luberon capital — candied-fruit production heritage, ochre-coloured cliffs of Roussillon nearby, exceptional Saturday market, Luberon Regional Natural Park headquarters. Best fit: refined retirees seeking calm Luberon living, weekend-market enthusiasts, lifestyle remote workers, slow-life expats.",
+    seoTitleEn: "Apt — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Apt (Vaucluse, PACA): quality-of-life score 7.5/10. Luberon capital, candied-fruit heritage, ochre cliffs nearby, exceptional Saturday market.",
     scores: {
       global: 7.5,
       life: 8.0,
@@ -6666,6 +6721,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 27.5,
     avgTempJanuary: 8.0,
     characterTags: ["Marcel Pagnol", "santons", "Marseille-proche", "Calanques-proche", "artisanat", "Provence"],
+    descriptionEn:
+      "Aubagne is Marcel Pagnol's hometown — Garlaban hills setting of his novels, santons (Provençal nativity figurines) capital, Marseille 25 minutes by train, the Calanques 30 minutes. Affordable for the location. Best fit: Marseille-region workers, Pagnol-heritage lovers, families seeking value Provençal living.",
+    seoTitleEn: "Aubagne — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Aubagne (Bouches-du-Rhône, PACA): quality-of-life score 7.3/10. Marcel Pagnol's hometown, santons capital, Marseille adjacent, Garlaban hills.",
     scores: {
       global: 7.3,
       life: 7.5,
@@ -6692,6 +6752,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 27.0,
     avgTempJanuary: 10.0,
     characterTags: ["Golfe de Saint-Tropez", "plages", "Riviera", "familles", "nautisme", "luxe accessible", "Provence maritime"],
+    descriptionEn:
+      "Sainte-Maxime is the value Saint-Tropez peninsula resort — across the gulf from Saint-Tropez itself but dramatically cheaper, family-friendly beaches, refined Riviera lifestyle without the jet-set premium. Best fit: refined retirees with moderate budget, families wanting Saint-Tropez-peninsula access at saner prices.",
+    seoTitleEn: "Sainte-Maxime — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Sainte-Maxime (Var, PACA): quality-of-life score 7.8/10. Value Saint-Tropez gulf resort, family-friendly beaches, refined Riviera.",
     scores: {
       global: 7.8,
       life: 8.5,
@@ -6718,6 +6783,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 25.5,
     avgTempJanuary: 4.0,
     characterTags: ["lavande", "géoparc", "thermes", "Alpes du Sud", "calme absolu", "nature sauvage", "train des Pignes"],
+    descriptionEn:
+      "Digne-les-Bains is the Alpes-de-Haute-Provence prefecture — Géoparc de Haute-Provence (UNESCO), thermal-spa heritage, lavender country, train des Pignes scenic narrow-gauge to Nice. Genuine alpine-Provence calm. Best fit: nature retirees seeking the most isolated southern-Alps living, lavender-and-geology enthusiasts.",
+    seoTitleEn: "Digne-les-Bains — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Digne-les-Bains (Alpes-de-Haute-Provence, PACA): quality-of-life score 7.1/10. Haute-Provence prefecture, UNESCO Géoparc, lavender, calm.",
     scores: {
       global: 7.1,
       life: 7.5,
@@ -6744,6 +6814,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 27.0,
     avgTempJanuary: 5.0,
     characterTags: ["ruines romaines", "Ventoux", "festival", "Haute-Provence", "authenticité", "marchés", "télétravailleurs"],
+    descriptionEn:
+      "Vaison-la-Romaine is the small Vaucluse Roman-heritage town — exceptional Gallo-Roman ruins, refined medieval upper town, Mont Ventoux backdrop, Provence wine country in every direction. Best fit: heritage lovers, refined retirees, lifestyle remote workers wanting authentic Vaucluse village living.",
+    seoTitleEn: "Vaison-la-Romaine — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Vaison-la-Romaine (Vaucluse, PACA): quality-of-life score 7.8/10. Vaucluse Roman heritage, refined medieval upper town, Ventoux backdrop.",
     scores: {
       global: 7.8,
       life: 8.5,
