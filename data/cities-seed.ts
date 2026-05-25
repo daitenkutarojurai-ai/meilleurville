@@ -7775,6 +7775,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.5,
     avgTempJanuary: 3.0,
     characterTags: ["ville médiévale", "Auvergne", "proche Clermont", "basalte", "patrimoine", "calme", "abordable"],
+    descriptionEn:
+      "Riom is the medieval Auvergne town near Clermont-Ferrand — black-basalt heritage architecture, calm, dramatically affordable. Best fit: Clermont-region workers wanting cheaper base, heritage lovers, ultra-budget households seeking refined Auvergne small-town living.",
+    seoTitleEn: "Riom — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Riom (Puy-de-Dôme, Auvergne-Rhône-Alpes): quality-of-life score 7.1/10. Medieval Auvergne town near Clermont-Ferrand, black-basalt heritage, calm.",
     scores: {
       global: 7.1,
       life: 7.3,
@@ -7801,6 +7806,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.0,
     avgTempJanuary: 2.5,
     characterTags: ["coutellerie", "gorges Durolle", "artisanat", "patrimoine médiéval", "Puy-de-Dôme", "abordable", "nature"],
+    descriptionEn:
+      "Thiers is France's knife-making capital — Laguiole-and-Opinel competitor, dramatic Durolle gorge setting, exceptional medieval upper town, Clermont-Ferrand 45 minutes. Affordable. Best fit: artisans, knife-and-craft enthusiasts, retirees seeking dramatic small-town setting.",
+    seoTitleEn: "Thiers — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Thiers (Puy-de-Dôme, Auvergne-Rhône-Alpes): quality-of-life score 6.8/10. France's knife-making capital, dramatic Durolle gorge, medieval upper town.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -7827,6 +7837,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 23.0,
     avgTempJanuary: 1.5,
     characterTags: ["plasturgie", "Ain", "Jura proche", "industrie", "accessible", "montagne", "abordable"],
+    descriptionEn:
+      "Oyonnax is France's plastics-industry capital ('Plastics Valley') — Ain industrial heritage, Jura mountains at the doorstep, dramatically affordable. Best fit: plastics-and-industrial professionals, ultra-budget households, Jura outdoor active retirees.",
+    seoTitleEn: "Oyonnax — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Oyonnax (Ain, Auvergne-Rhône-Alpes): quality-of-life score 6.5/10. France's plastics-industry capital, Jura adjacent, industrial, very affordable.",
     scores: {
       global: 6.5,
       life: 6.5,
@@ -7853,6 +7868,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.5,
     avgTempJanuary: 0.5,
     characterTags: ["décolletage", "vallée de l'Arve", "montagne", "industrie", "Haute-Savoie", "ski proche", "Chamonix-proche"],
+    descriptionEn:
+      "Cluses is the heart of France's precision-machining industry (Vallée de l'Arve décolletage) — Chamonix and Mont Blanc 40 minutes away, Geneva 1 hour, affordable for Alpine Haute-Savoie. Best fit: precision-machining and Swiss-watchmaking-component professionals, mountain-active families, Geneva-Chamonix-region workers.",
+    seoTitleEn: "Cluses — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Cluses (Haute-Savoie, Auvergne-Rhône-Alpes): quality-of-life score 6.8/10. Vallée de l'Arve precision-machining, Chamonix 40 min, Geneva 1h.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -7879,6 +7899,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 23.5,
     avgTempJanuary: 1.5,
     characterTags: ["proche Annecy", "abordable", "résidentiel", "famille", "Haute-Savoie", "calme", "nature"],
+    descriptionEn:
+      "Rumilly is the value Annecy-adjacent town — 20 minutes south of Annecy, dramatically cheaper, family-friendly, calm, Alpine countryside. Best fit: Annecy-region workers wanting much cheaper base, families seeking value Haute-Savoie living, retirees.",
+    seoTitleEn: "Rumilly — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Rumilly (Haute-Savoie, Auvergne-Rhône-Alpes): quality-of-life score 7.2/10. Value Annecy-adjacent town, 20 min south of Annecy, family-friendly.",
     scores: {
       global: 7.2,
       life: 7.5,
@@ -7905,6 +7930,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.0,
     avgTempJanuary: 3.0,
     characterTags: ["montgolfière", "Montgolfier", "Ardèche", "patrimoine industriel", "Rhône proche", "nature", "abordable"],
+    descriptionEn:
+      "Annonay is the hot-air-balloon birthplace — the Montgolfier brothers's hometown (1783 first flight), Ardèche industrial-and-paper heritage, dramatic gorges nearby, Lyon 1 hour. Affordable. Best fit: ultra-budget households, industrial-heritage lovers, nature retirees, Lyon-region workers wanting cheaper base.",
+    seoTitleEn: "Annonay — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Annonay (Ardèche, Auvergne-Rhône-Alpes): quality-of-life score 6.8/10. Hot-air-balloon birthplace, Montgolfier brothers, Ardèche heritage.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -7931,6 +7961,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.0,
     avgTempJanuary: 2.5,
     characterTags: ["thermes", "Jura", "vignoble comtois", "capital Jura", "Rouget de Lisle", "abordable", "calme"],
+    descriptionEn:
+      "Lons-le-Saunier is the Jura prefecture — Rouget de Lisle's birthplace (composer of La Marseillaise), thermal-spa heritage, Jura wine country at the doorstep (vin jaune, vin de paille), affordable. Best fit: Jura wine professionals, ultra-budget households, retirees seeking refined Jura small-town living.",
+    seoTitleEn: "Lons-le-Saunier — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Lons-le-Saunier (Jura, Bourgogne-Franche-Comté): quality-of-life score 7.0/10. Jura prefecture, La Marseillaise composer's birthplace, vin jaune.",
     scores: {
       global: 7.0,
       life: 7.2,
@@ -7957,6 +7992,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 19.5,
     avgTempJanuary: 1.0,
     characterTags: ["ville haute", "basalte", "cathédrale", "Cantal", "viaduc", "calme", "patrimoine", "altitude"],
+    descriptionEn:
+      "Saint-Flour is the high-altitude Cantal town (881m) — perched on a black-basalt outcrop, dramatic Garabit viaduct (Eiffel) nearby, calm authentic mountain-Auvergne living. Dramatically affordable. Best fit: mountain-rural-living seekers, ultra-budget households, retirees wanting altitude-and-calm.",
+    seoTitleEn: "Saint-Flour — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Saint-Flour (Cantal, Auvergne-Rhône-Alpes): quality-of-life score 7.2/10. Black-basalt Cantal mountain town at 881m, Garabit viaduct nearby.",
     scores: {
       global: 7.2,
       life: 7.5,
@@ -7983,6 +8023,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.0,
     avgTempJanuary: 2.0,
     characterTags: ["Ville Haute", "Renaissance", "patrimoine", "Meuse", "groseille épépinée", "calme", "abordable"],
+    descriptionEn:
+      "Bar-le-Duc is the Meuse prefecture — exceptional Renaissance upper town (one of France's best Renaissance ensembles), famous épépinée-by-quill redcurrant jam, dramatically affordable. Best fit: heritage lovers, ultra-budget households, retirees seeking authentic small-Meuse living.",
+    seoTitleEn: "Bar-le-Duc — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Bar-le-Duc (Meuse, Grand Est): quality-of-life score 6.8/10. Meuse prefecture, exceptional Renaissance upper town, very affordable.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -8009,6 +8054,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.0,
     avgTempJanuary: 3.0,
     characterTags: ["tapisserie", "UNESCO", "Creuse", "art", "village d'artisans", "nature", "calme", "abordable"],
+    descriptionEn:
+      "Aubusson is the world capital of tapestry — UNESCO-listed Aubusson tapestry craft, Cité Internationale de la Tapisserie, dramatic Creuse countryside, dramatically affordable. Best fit: tapestry-and-textile artists, ultra-budget households, refined heritage lovers, craft-tourism households.",
+    seoTitleEn: "Aubusson — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Aubusson (Creuse, Nouvelle-Aquitaine): quality-of-life score 7.0/10. UNESCO tapestry capital, Cité de la Tapisserie, Creuse countryside, affordable.",
     scores: {
       global: 7.0,
       life: 7.3,
@@ -8035,6 +8085,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.0,
     avgTempJanuary: 1.5,
     characterTags: ["remparts", "Diderot", "Haute-Marne", "citadelle", "panorama", "patrimoine", "abordable"],
+    descriptionEn:
+      "Langres is the fortified Haute-Marne plateau city — Diderot's birthplace, intact 3.5-km medieval ramparts (one of France's best-preserved fortified circuits), dramatic 466m hilltop setting, dramatically affordable. Best fit: heritage lovers, ultra-budget households, retirees seeking refined fortified-city living.",
+    seoTitleEn: "Langres — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Langres (Haute-Marne, Grand Est): quality-of-life score 7.0/10. Fortified plateau city, Diderot's birthplace, intact ramparts, very affordable.",
     scores: {
       global: 7.0,
       life: 7.3,
@@ -8061,6 +8116,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.0,
     avgTempJanuary: 6.0,
     characterTags: ["Bretagne", "Côtes-d'Armor", "chapelle ND de Bon Secours", "football", "marché", "calme", "authentique"],
+    descriptionEn:
+      "Guingamp is the authentic Côtes-d'Armor Breton town — strong football identity (EA Guingamp), refined Breton heritage, dramatic Trégor countryside, dramatically affordable. Best fit: ultra-budget households, retirees seeking authentic Breton living, football fans, families.",
+    seoTitleEn: "Guingamp — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Guingamp (Côtes-d'Armor, Bretagne): quality-of-life score 7.0/10. Authentic Côtes-d'Armor Breton town, football identity, very affordable.",
     scores: {
       global: 7.0,
       life: 7.2,
@@ -8087,6 +8147,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4.5,
     characterTags: ["Normandie", "Orne", "château musée", "bocage normand", "calme", "abordable", "famille"],
+    descriptionEn:
+      "Flers is the lower-Normandy Orne town — Bocage Normand setting, château-museum, dramatically affordable property, calm rural-Norman living. Best fit: ultra-budget households, first-time buyers, retirees seeking calm Normandy countryside.",
+    seoTitleEn: "Flers — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Flers (Orne, Normandie): quality-of-life score 6.8/10. Lower-Normandy Bocage Normand town, château-museum, very affordable, calm.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -8113,6 +8178,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.0,
     avgTempJanuary: 5.0,
     characterTags: ["Prytanée National Militaire", "Sarthe", "zoo de la Flèche", "rivière Loir", "calme", "abordable", "famille"],
+    descriptionEn:
+      "La Flèche is the Sarthe town famous for the Prytanée National Militaire (elite military prep school) and the Zoo de la Flèche (one of France's best zoos), Loir river setting, dramatically affordable. Best fit: military families, ultra-budget households, families with young children, retirees.",
+    seoTitleEn: "La Flèche — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "La Flèche (Sarthe, Pays de la Loire): quality-of-life score 7.0/10. Prytanée military prep school, top-rated zoo, Loir river, very affordable.",
     scores: {
       global: 7.0,
       life: 7.3,
@@ -8139,6 +8209,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 23.5,
     avgTempJanuary: 3.5,
     characterTags: ["Loire", "Pouilly-Fumé proche", "vignoble", "cyclotourisme", "calme", "abordable", "nature"],
+    descriptionEn:
+      "Cosne-Cours-sur-Loire sits on the Loire across from Pouilly-Fumé wine country — Sancerre 15 minutes away, cycle-tourism on the Loire à Vélo, refined wine-and-river living, dramatically affordable. Best fit: Sancerre-and-Pouilly wine professionals, cyclists, retirees seeking authentic Loire-wine-country living.",
+    seoTitleEn: "Cosne-Cours-sur-Loire — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Cosne-Cours-sur-Loire (Nièvre, Bourgogne-Franche-Comté): quality-of-life score 7.0/10. Loire river, Pouilly-Fumé adjacent, Sancerre nearby, cycle-friendly.",
     scores: {
       global: 7.0,
       life: 7.3,
