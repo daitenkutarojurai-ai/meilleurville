@@ -201,9 +201,7 @@ R7.2 (méthodologie section already absent), R7.9 (string + soft-fallback shippe
 R8.1 City Match (`/city-match` + `lib/city-match.ts`) shipped.
 
 ### Plateforme communautaire (R9)
-- **R9.3** — Alertes métrique (seuil score par ville), monitoring local (nouveaux commentaires, red-flags). Réutiliser config Brevo (listes FR id 4 / EN id 5). **Not done.**
-
-R9.1 (`/auth` + `/connexion`, Supabase), R9.2 (`/favoris` + `/dashboard`), R9.4 (`/villes/[slug]/questions` + EN `/cities/[slug]/questions`), R9.5 (`/projection-5ans`) shipped.
+R9.1 (`/auth` + `/connexion`, Supabase), R9.2 (`/favoris` + `/dashboard`), R9.3 (alertes: `lib/alertes-store.ts` + `POST /api/alertes/subscribe` + cron Mon 08:00 UTC + `components/AlerteForm.tsx` in CityProfile), R9.4 (`/villes/[slug]/questions` + EN `/cities/[slug]/questions`), R9.5 (`/projection-5ans`) shipped.
 
 ### Data-visualisation (R10)
 - **R10.1** — 2D/3D toggle sur `/carte` via CSS perspective + SVG ColumnLayer. Toggle ◉ 2D / ▲ 3D. Hauteur = score, couleur = score. DROM strip séparé (DromStrip component). Filtres par axe déjà présents. **Shipped** (CSS perspective, no new deps). Note: deck.gl proper avec tuiles carte de fond reste une upgrade future.
@@ -211,7 +209,7 @@ R9.1 (`/auth` + `/connexion`, Supabase), R9.2 (`/favoris` + `/dashboard`), R9.4 
 R10.2 (`/villes/[slug]/empreinte` + `lib/city-fingerprint.ts` + `components/CityFingerprint.tsx`), R10.3 (`/climat-2040-timelapse`) shipped.
 
 ### Features IA (R11)
-- **R11.3 "Where people like YOU moved"** — Phase A: personas synthétiques étiquetés, classement depuis `lib/niche-scores.ts`. Phase B (post-R9.1): données réelles anonymisées. **Not done.** (Distinct from `/expat-retour` which targets returning French expats by foreign origin.)
+- **R11.3 "Where people like YOU moved"** — Phase A shipped: `/portraits-types` (FR) + `/community-profiles` (EN). 6 fictional labeled archetypes with real niche scores. Phase B (post-R9.1): données réelles anonymisées. (Distinct from `/expat-retour`.)
 - **R11.5 Street Reality Score** — Google Street View Static API (~$12 pour 352 villes ×5 images) + Claude Vision (`claude-haiku` pour le coût). 5 axes: végétation, propreté, densité piétonne, luminosité, état bâtiments. Résultats en `data/street-scores.json`. Env vars: `GOOGLE_STREETVIEW_KEY`, `ANTHROPIC_API_KEY`. **Not done — needs budget.**
 
 R11.1 (`/future-you` + `lib/future-you.ts`), R11.2 (`/vibe` + `lib/vibe.ts`), R11.6 (`components/VsBattle.tsx`), R11.7 (`/copilot`) shipped.
