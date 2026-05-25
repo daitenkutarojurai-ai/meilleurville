@@ -335,6 +335,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 18.6,
     avgTempJanuary: 6.2,
     characterTags: ["maritime", "militaire", "breton", "abordable", "mer"],
+    descriptionEn:
+      "Brest is Finistère's Atlantic port city, far-west Brittany, with a working naval-base identity and a refreshingly affordable cost of living. Wild coastline, mild oceanic climate, modest cultural scene compared to Rennes or Nantes, but strong value for money. Best fit: families on tighter budgets, sea-and-nature lovers, remote workers who don't need an international airport.",
+    seoTitleEn: "Brest — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Brest (Finistère, Bretagne): quality-of-life score 7.2/10. Atlantic naval port, far-west Brittany, affordable, wild coast, mild oceanic climate.",
     scores: {
       global: 7.2,
       life: 7.3,
@@ -361,6 +366,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 27.3,
     avgTempJanuary: 6.8,
     characterTags: ["provençal", "universitaire", "premium", "soleil", "culturel"],
+    descriptionEn:
+      "Aix-en-Provence is the refined Provençal alternative to Marseille — historic, walkable, very sunny, with a major law-and-arts university. Expensive for its size (real-estate prices close to Bordeaux) but the daily-life quality is consistently top-tier. Strong fit for families, retirees with budget, and remote workers seeking Mediterranean climate without Marseille's urban edge.",
+    seoTitleEn: "Aix-en-Provence — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Aix-en-Provence (Bouches-du-Rhône, PACA): quality-of-life score 8.2/10. Refined Provençal city, very sunny, historic centre, university town, expensive.",
     scores: {
       global: 8.2,
       life: 8.5,
@@ -387,6 +397,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.4,
     avgTempJanuary: 3.7,
     characterTags: ["volcans", "sport", "universitaire", "abordable", "nature"],
+    descriptionEn:
+      "Clermont-Ferrand sits at the foot of the Chaîne des Puys volcanic range (UNESCO) — France's most spectacular city-with-mountains-out-the-window. Affordable, sporty, with Michelin's headquarters and a strong university. Modest cultural scene compared to Lyon, but outdoor access and cost of living are excellent. Best fit: outdoor active families, students, remote workers wanting nature on the doorstep.",
+    seoTitleEn: "Clermont-Ferrand — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Clermont-Ferrand (Puy-de-Dôme, Auvergne-Rhône-Alpes): quality-of-life score 7.4/10. Volcanic mountain backdrop, affordable, sporty, Michelin HQ, strong university.",
     scores: {
       global: 7.4,
       life: 7.5,
@@ -413,6 +428,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.5,
     avgTempJanuary: 2.9,
     characterTags: ["gastronomie", "historique", "universitaire", "vélo", "bourguignon"],
+    descriptionEn:
+      "Dijon is Burgundy's gastronomic and historic capital — exceptionally well-preserved medieval and Renaissance core, 90-minute TGV to Paris, world-class wine villages at the doorstep (Beaune, Nuits-Saint-Georges). Cycle-friendly, refined, mid-sized. Best fit: foodies, wine lovers, families wanting culture without big-city stress, remote workers within easy reach of Paris.",
+    seoTitleEn: "Dijon — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Dijon (Côte-d'Or, Bourgogne-Franche-Comté): quality-of-life score 7.6/10. Burgundy capital, gastronomic, historic, 90 min TGV to Paris, cycle-friendly.",
     scores: {
       global: 7.6,
       life: 7.7,
@@ -439,6 +459,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.6,
     avgTempJanuary: 5.0,
     characterTags: ["châteaux", "universitaire", "cyclable", "jardins", "historique"],
+    descriptionEn:
+      "Tours is the Loire Valley capital — gentle climate, gardens, historic streets, the Loire à Vélo cycle route on its doorstep, 70 minutes to Paris by TGV. Strong university, surrounded by châteaux and wine villages. Best fit: families, retirees, cyclists, remote workers seeking Loire Valley lifestyle with quick Paris access.",
+    seoTitleEn: "Tours — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Tours (Indre-et-Loire, Centre-Val de Loire): quality-of-life score 7.5/10. Loire Valley capital, gentle climate, cycle-friendly, 70 min TGV to Paris.",
     scores: {
       global: 7.5,
       life: 7.6,
@@ -465,6 +490,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.5,
     avgTempJanuary: 3.2,
     characterTags: ["champagne", "cathédrale", "historique", "gastronomie", "paris-proche"],
+    descriptionEn:
+      "Reims sits in the heart of Champagne country — UNESCO cathedral, 45-minute TGV to Paris, and the great Champagne houses (Veuve Clicquot, Taittinger, Pommery) within walking distance. Refined gastronomy, affordable compared to its neighbours west. Best fit: wine professionals, Paris commuters wanting historic city living, families with culture-first priorities.",
+    seoTitleEn: "Reims — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Reims (Marne, Grand Est): quality-of-life score 7.1/10. Champagne capital, UNESCO cathedral, 45 min TGV to Paris, historic and gastronomic.",
     scores: {
       global: 7.1,
       life: 7.2,
@@ -491,6 +521,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.2,
     avgTempJanuary: 2.7,
     characterTags: ["européen", "historique", "musée", "art", "verdoyant"],
+    descriptionEn:
+      "Metz is a green, historic Grand Est city — Pompidou-Metz contemporary art centre, German-influenced architecture, Luxembourg 45 minutes away (cross-border worker hub). Underrated, affordable, with excellent green spaces and a quietly strong cultural scene. Best fit: cross-border professionals working in Luxembourg, families on budget, art lovers.",
+    seoTitleEn: "Metz — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Metz (Moselle, Grand Est): quality-of-life score 7.3/10. Green historic city, Pompidou-Metz, Luxembourg-border, cross-border worker hub.",
     scores: {
       global: 7.3,
       life: 7.4,
@@ -517,6 +552,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.0,
     avgTempJanuary: 4.8,
     characterTags: ["24h", "automobile", "abordable", "familial", "accessible"],
+    descriptionEn:
+      "Le Mans is famous for the 24-hour endurance race but works as a deeply affordable mid-sized family city — 1 hour TGV to Paris, Plantagenet medieval old town, low property prices. Modest cultural scene; the trade-off is real value-for-money. Best fit: Paris commuters seeking cheap housing, families on tight budgets, first-time buyers.",
+    seoTitleEn: "Le Mans — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Le Mans (Sarthe, Pays de la Loire): quality-of-life score 6.9/10. Affordable mid-sized city, 1h TGV to Paris, family-friendly, 24h endurance race city.",
     scores: {
       global: 6.9,
       life: 7.0,
@@ -543,6 +583,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.5,
     avgTempJanuary: 4.8,
     characterTags: ["universitaire", "futuroscope", "historique", "calme", "accessible"],
+    descriptionEn:
+      "Poitiers is a Nouvelle-Aquitaine university city — historic medieval centre, the Futuroscope theme-park nearby, affordable, calm, well-located between Paris (1h30 TGV) and Bordeaux (1h TGV). Modest urban scale but excellent value. Best fit: students, young families, remote workers wanting central-France access without big-city costs.",
+    seoTitleEn: "Poitiers — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Poitiers (Vienne, Nouvelle-Aquitaine): quality-of-life score 7.0/10. Historic university city, affordable, well-connected by TGV, Futuroscope adjacent.",
     scores: {
       global: 7.0,
       life: 7.1,
@@ -569,6 +614,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.0,
     avgTempJanuary: 4.5,
     characterTags: ["porcelaine", "nature", "abordable", "calme", "universitaire"],
+    descriptionEn:
+      "Limoges is France's porcelain capital — one of the most affordable mid-sized cities in the country, surrounded by Haute-Vienne countryside, with a quiet but solid university. Modest dynamism but exceptional cost-of-living. Best fit: retirees, first-time buyers, remote workers prioritising affordability over urban scale.",
+    seoTitleEn: "Limoges — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Limoges (Haute-Vienne, Nouvelle-Aquitaine): quality-of-life score 7.0/10. Porcelain capital, very affordable, quiet university town, rural surrounds.",
     scores: {
       global: 7.0,
       life: 7.1,
@@ -595,6 +645,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 19.0,
     avgTempJanuary: 5.2,
     characterTags: ["normand", "historique", "universitaire", "mer-proche", "abordable"],
+    descriptionEn:
+      "Caen is the Normandy capital with World War II memorial history, a strong university, the D-Day beaches 15 minutes away, and dramatic but mild oceanic climate. Affordable, family-friendly, with Paris 2 hours by train. Best fit: families, history buffs, remote workers seeking Normandy lifestyle without coastal premium.",
+    seoTitleEn: "Caen — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Caen (Calvados, Normandie): quality-of-life score 7.2/10. Normandy capital, D-Day adjacent, affordable, family-friendly, mild oceanic climate.",
     scores: {
       global: 7.2,
       life: 7.3,
@@ -621,6 +676,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 23.0,
     avgTempJanuary: 6.0,
     characterTags: ["pyrénées", "basque-proche", "rugby", "nature", "premium"],
+    descriptionEn:
+      "Pau is the Pyrenees gateway — refined Béarn capital, dramatic mountain views, exceptionally mild winters, and a long-standing British and Anglo expat community (since the 19th century). Quality urban scale at affordable prices. Best fit: retirees, mountain lovers, anglo expats with established community, families.",
+    seoTitleEn: "Pau — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Pau (Pyrénées-Atlantiques, Nouvelle-Aquitaine): quality-of-life score 7.6/10. Refined Pyrenees gateway, mild winters, historic anglo expat community.",
     scores: {
       global: 7.6,
       life: 7.8,
@@ -647,6 +707,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.5,
     avgTempJanuary: 9.5,
     characterTags: ["surf", "mer", "basque", "premium", "lifestyle"],
+    descriptionEn:
+      "Biarritz is the premium Basque coast resort — Atlantic surf, refined belle-époque architecture, gastronomic Basque culture, mild oceanic climate. Property prices rival the Côte d'Azur. Best fit: surfers, retirees with budget, lifestyle-first remote workers, second-home owners.",
+    seoTitleEn: "Biarritz — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Biarritz (Pyrénées-Atlantiques, Nouvelle-Aquitaine): quality-of-life score 7.9/10. Premium Basque coast, Atlantic surf, refined, very expensive.",
     scores: {
       global: 7.9,
       life: 8.3,
@@ -673,6 +738,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.8,
     avgTempJanuary: 6.6,
     characterTags: ["mer", "vélo", "tourisme", "soleil", "familial"],
+    descriptionEn:
+      "La Rochelle is the cycling and sailing capital of the Atlantic coast — historic harbour, exceptional sunshine for Atlantic France, free bike-share (one of France's oldest), Île de Ré bridge access. Family-friendly, walkable, increasingly expensive. Best fit: families, cyclists, retirees, sailors, lifestyle-first remote workers.",
+    seoTitleEn: "La Rochelle — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "La Rochelle (Charente-Maritime, Nouvelle-Aquitaine): quality-of-life score 7.8/10. Atlantic harbour city, very sunny, cycle-friendly, family destination.",
     scores: {
       global: 7.8,
       life: 8.0,
@@ -699,6 +769,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.0,
     avgTempJanuary: 5.5,
     characterTags: ["corderie-royale", "patrimoine-maritime", "Charente", "calme", "abordable"],
+    descriptionEn:
+      "Rochefort is the under-the-radar Charente-Maritime maritime-heritage city — Corderie Royale arsenal, Île d'Aix nearby, exceptionally affordable for a coast-adjacent city, very safe, calm. Best fit: retirees seeking value, history lovers, families wanting Atlantic coast without La Rochelle prices.",
+    seoTitleEn: "Rochefort — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Rochefort (Charente-Maritime, Nouvelle-Aquitaine): quality-of-life score 7.0/10. Maritime heritage city, very affordable, safe, Atlantic coast adjacent.",
     scores: {
       global: 7.0,
       life: 7.8,
