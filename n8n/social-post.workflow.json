@@ -1,5 +1,5 @@
 {
-  "name": "MeilleurVille — Social Post (FB + LinkedIn)",
+  "name": "MeilleurVille — Social Post (FB + LinkedIn + Instagram)",
   "nodes": [
     {
       "parameters": {
@@ -17,10 +17,10 @@
     },
     {
       "parameters": {
-        "jsCode": "const messages = [\n  'Quelle ville française vous correspond vraiment ? On a classé 540 villes sur 8 critères (vie, transport, nature, coût, sécurité, culture, télétravail, écoles). Sans bullshit, données SSMSI + Insee + observatoires des loyers. https://mavilleideale.fr',\n  'Top 3 villes pour le télétravail en 2026, données à l\\'appui : https://mavilleideale.fr/classements/teletravail',\n  'Climat 2040 par région française : ce qui change vraiment chez vous. https://mavilleideale.fr/guides',\n  'Acheter ou louer en 2026 ? On a calculé le seuil par ville. https://mavilleideale.fr',\n  'Vivre sans voiture en France : les 12 villes où c\\'est réaliste. https://mavilleideale.fr/guides'\n];\nconst pick = messages[Math.floor(Math.random() * messages.length)];\nreturn [{ json: { message: pick } }];"
+        "jsCode": "const posts = [\n  { msg: 'Quelle ville française vous correspond vraiment ? On a classé 540 villes sur 8 critères (vie, transport, nature, coût, sécurité, culture, télétravail, écoles). Sans bullshit, données SSMSI + Insee + observatoires des loyers. https://mavilleideale.fr', img: '1JhgsurZTNqEpsdr9xF1KSOZUcfb1haw1' },\n  { msg: 'Top 3 villes pour le télétravail en 2026, données à l\\'appui : https://mavilleideale.fr/classements/teletravail', img: '12jV75pFwBWLoAOLCYVZozXiaIsiHEd6X' },\n  { msg: 'Climat 2040 par région française : ce qui change vraiment chez vous. https://mavilleideale.fr/guides', img: '14mkn3BUbPbZNq98Xxewh6Ue_6jc6i7p4' },\n  { msg: 'Acheter ou louer en 2026 ? On a calculé le seuil par ville. https://mavilleideale.fr', img: '160M0VtwYME0Y1l62cmx9D6n22tpI7Ohw' },\n  { msg: 'Vivre sans voiture en France : les 12 villes où c\\'est réaliste. https://mavilleideale.fr/guides', img: '17Gh80SHzBuOQks0xDUs3KVObuPf42Y-a' }\n];\nconst p = posts[Math.floor(Math.random() * posts.length)];\nreturn [{ json: { message: p.msg, imageUrl: `https://lh3.googleusercontent.com/d/${p.img}` } }];"
       },
       "id": "pickmsg",
-      "name": "Pick rotating message",
+      "name": "Pick rotating post",
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
       "position": [460, 300]
@@ -42,7 +42,7 @@
       "name": "Facebook — Publish",
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.2,
-      "position": [720, 200]
+      "position": [720, 100]
     },
     {
       "parameters": {
@@ -65,17 +65,71 @@
       "name": "LinkedIn — Publish",
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.2,
-      "position": [720, 400]
+      "position": [720, 300]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "=https://graph.facebook.com/v21.0/{{$env.IG_USER_ID}}/media",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            { "name": "image_url", "value": "={{$json.imageUrl}}" },
+            { "name": "caption", "value": "={{$json.message}}" },
+            { "name": "access_token", "value": "={{$env.FB_PAGE_TOKEN}}" }
+          ]
+        },
+        "options": {}
+      },
+      "id": "igcontainer",
+      "name": "IG — Create container",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [720, 500]
+    },
+    {
+      "parameters": {
+        "amount": 10,
+        "unit": "seconds"
+      },
+      "id": "igwait",
+      "name": "Wait 10s",
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1.1,
+      "position": [940, 500],
+      "webhookId": "ig-wait"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "=https://graph.facebook.com/v21.0/{{$env.IG_USER_ID}}/media_publish",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            { "name": "creation_id", "value": "={{$json.id}}" },
+            { "name": "access_token", "value": "={{$env.FB_PAGE_TOKEN}}" }
+          ]
+        },
+        "options": {}
+      },
+      "id": "igpublish",
+      "name": "IG — Publish",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [1160, 500]
     }
   ],
   "connections": {
-    "Daily 10:00": { "main": [[{ "node": "Pick rotating message", "type": "main", "index": 0 }]] },
-    "Pick rotating message": {
+    "Daily 10:00": { "main": [[{ "node": "Pick rotating post", "type": "main", "index": 0 }]] },
+    "Pick rotating post": {
       "main": [[
         { "node": "Facebook — Publish", "type": "main", "index": 0 },
-        { "node": "LinkedIn — Publish", "type": "main", "index": 0 }
+        { "node": "LinkedIn — Publish", "type": "main", "index": 0 },
+        { "node": "IG — Create container", "type": "main", "index": 0 }
       ]]
-    }
+    },
+    "IG — Create container": { "main": [[{ "node": "Wait 10s", "type": "main", "index": 0 }]] },
+    "Wait 10s": { "main": [[{ "node": "IG — Publish", "type": "main", "index": 0 }]] }
   },
   "settings": { "executionOrder": "v1" },
   "active": false
