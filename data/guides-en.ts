@@ -6287,6 +6287,222 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["aix-en-provence", "marseille", "salon-de-provence"],
     tags: ["aix vs marseille expat 2026", "aix en provence marseille comparison", "which provence city expat", "aix expat community", "marseille provence expat guide"],
   },
+  {
+    slug: "working-from-france-foreign-employer-expat-guide-2026",
+    title: "Working from France for a Foreign Employer: Your Options (2026)",
+    metaTitle: "Working from France for Foreign Employer 2026 — EOR, contractor, branch, expat guide",
+    metaDesc: "Working remotely from France for a US, UK or international employer in 2026: employer of record (EOR), contractor status, French branch, tax and social charges.",
+    category: "remote-work",
+    emoji: "💻",
+    readMinutes: 11,
+    publishedAt: "2026-05-25",
+    updatedAt: "2026-05-25",
+    intro: "You found a job at a US tech firm but want to live in Lyon. Your London-based consultancy is happy for you to relocate to Bordeaux. Your Australian startup hires you while you keep your French apartment. These scenarios are increasingly common — but the legal, tax, and social-security mechanics of working in France for an employer based abroad are not as obvious as 'just keep doing what you do remotely'. Doing it wrong creates serious legal and tax risk for both you and the employer. This guide walks through the four legitimate structures in 2026 and how to pick the right one.",
+    sections: [
+      {
+        heading: "The fundamental rule: where you work, taxes apply",
+        body: "France's social-security and tax law is unambiguous: when you physically work from French territory, French social charges and (depending on residency) French income tax apply to your work. Your employer's location does not matter. What matters is where the work is performed. **This means**: a US employee who relocates to Lyon and continues 'working from home' has triggered French social-security obligations from day 1. The employer may be unaware, but the obligation is real. **The consequences** of working in France without addressing this: French URSSAF can claim retroactive social charges (employee + employer portions) plus penalties; French tax authority can claim retroactive income tax; the French Code du travail labour protections may apply (paid holidays, dismissal rules) which the employer is unprepared for. **You cannot 'simply work remotely from France for a US employer'** — you need to choose a legal structure.",
+      },
+      {
+        heading: "Option 1: Employer of Record (EOR / portage international)",
+        body: "The cleanest solution for most employees. An EOR is a French entity that becomes your legal employer of record, contracts with your actual (foreign) employer, and pays you a French salary with French social charges and French payslips. You remain employed by the EOR, do the work your real employer asks for, and the EOR invoices your real employer for the all-in cost. **Major providers in 2026**: Remote, Deel, Oyster, Velocity Global, Globalization Partners, Papaya Global, Multiplier. French specialists: ADP, Sodexo Pay Solutions, several portage salarial firms. **Costs**: EORs charge approximately 10-20% of the gross salary as their service fee. Your real employer pays: your gross salary + French employer social charges (~42% on top of gross) + EOR fee. Total cost to employer for a €60,000 gross salary: approximately €105,000-110,000. **What you get**: French payslip, French Sécu, French unemployment rights, French pension contributions, French paid holidays (5 weeks + RTT), French maternity leave. Identical employment rights to any French employee. **Best for**: long-term arrangements (more than 6-12 months), when the employee wants stable French status and benefits.",
+      },
+      {
+        heading: "Option 2: Independent contractor (auto-entrepreneur or company)",
+        body: "You register as a French self-employed person and invoice your foreign 'employer' as a client. **Advantages**: simple to set up (see the dedicated auto-entrepreneur guide), low overhead, flexibility. **Disadvantages**: significant risks, especially the 'dependent contractor' (or 'disguised employment') problem. **The dependent-contractor risk**: if you work primarily or exclusively for one client over time, work according to their schedule and direction, use their tools, and are integrated into their team, French law (URSSAF and labour courts) can re-qualify the relationship as employment — making the 'client' liable for back social charges, employment protections, and potential damages. **When this works**: legitimate consulting relationships with multiple clients, project-based work with clear deliverables, services with genuine commercial autonomy. **When this fails**: 'you're our remote engineer, work 40 hours/week on our team, attend our standups, code review every PR' — this is employment, not consulting, and re-qualification is increasingly aggressive in 2024-2025. **Cost**: 22-24% all-in social charges + income tax on net. **Best for**: genuinely autonomous consultants with multiple clients or project-based engagements.",
+      },
+      {
+        heading: "Option 3: Foreign employer registers as French employer (no entity)",
+        body: "Your foreign employer registers directly with French URSSAF as a foreign employer with French employees, without establishing a French legal entity. This is legally possible (referred to as 'employeur non établi en France' procedure) but rare. **Advantages**: your foreign employer remains your direct employer; no third-party EOR involved. **Disadvantages**: significant administrative complexity for the employer; requirement to designate a French representative; obligation to file all French employer reports; in practice, most foreign employers find this less appealing than using an EOR. **Cost**: similar to EOR (the social charges are the same), without EOR fees but with significant compliance costs. **Best for**: large foreign employers with multiple French employees and a willingness to take on French employer obligations directly.",
+      },
+      {
+        heading: "Option 4: Foreign company opens a French branch or subsidiary",
+        body: "Your foreign employer establishes a French legal entity (branch — succursale, or subsidiary — filiale). This entity directly employs you as a French employee. **Advantages**: clean legal structure; tax efficiency for the employer at scale; allows hiring multiple French employees; allows French commercial activity; the most permanent solution. **Disadvantages**: significant setup cost (€10,000-30,000+ in legal and accounting fees), ongoing compliance costs (€5,000-15,000/year), French corporate tax implications. **Cost**: variable but substantial; only worth it for committed long-term hiring. **Best for**: foreign companies hiring multiple French employees or establishing significant French operations.",
+      },
+      {
+        heading: "The Schengen short-stay / business-trip option",
+        body: "If you are visiting France for less than 90 days within a 180-day rolling period and your work is incidental to a visit (business meetings, conference attendance, brief project work for a foreign employer), this generally does not trigger French employment obligations. EU/EEA citizens have full freedom of movement. Non-EU citizens use the Schengen 90-day rule. **Limits**: this is not for long-term remote work. Once you have a French address, are paying rent, or staying more than 90 days, you have effectively moved to France and the rules above apply. **Genuine business trips** (3-day client visit, 5-day project workshop): no employment obligation triggered. **'I'll just work remotely from my Airbnb in Paris for 4 months'**: technically requires structure if exceeding 90 days, especially with regular pattern. The 'digital nomad in Paris for 6 months' lifestyle is in a grey zone — many do it without formal structure, but it carries legal risk if challenged.",
+      },
+      {
+        heading: "Practical guidance: which structure for which situation",
+        body: "**Permanent move to France, employed by single foreign company**: EOR is the right answer almost always. Cleanest, most protective, full French employment benefits. **Permanent move, multiple clients (genuine consulting)**: auto-entrepreneur or, if revenue exceeds ~€60,000/year, a French EURL or SASU company. **Permanent move, but the foreign company hires multiple French employees**: French branch or subsidiary becomes economic. **6-12 month assignment**: EOR is still the right answer. Setup is fast (1-3 weeks). **Genuine 'frontalier' (lives in France, works at the foreign HQ across the border)**: see the cross-border worker guide — different rules apply. **The honest summary**: most expats reading this guide should be using an EOR. The auto-entrepreneur route is tempting (low cost, simple) but creates real legal risk if the relationship is effectively employment. Get the structure right at the start; retroactive correction is expensive.",
+      },
+    ],
+    relatedCities: ["paris", "lyon", "bordeaux", "nantes", "toulouse"],
+    tags: ["working from france foreign employer 2026", "employer of record france expat", "remote work france legal", "france EOR portage international", "remote employee france setup"],
+  },
+  {
+    slug: "lille-north-france-expat-guide-2026",
+    title: "Living in Lille and the North as an Expat (2026)",
+    metaTitle: "Living in Lille 2026 — expat guide: cost of living, Eurostar, Brussels, Paris, Hauts-de-France",
+    metaDesc: "Honest expat guide to Lille and the Hauts-de-France region in 2026: 1h to Paris, 35min to Brussels, real cost of living, neighbourhoods, the Flemish-French culture.",
+    category: "city-guide",
+    emoji: "🍺",
+    readMinutes: 10,
+    publishedAt: "2026-05-25",
+    updatedAt: "2026-05-25",
+    intro: "Lille is the unexpected European hub of mainland France: 1 hour to Paris by TGV, 35 minutes to Brussels, 1h20 to London by Eurostar, on the doorstep of Belgium with the Flemish-French border barely visible in daily life. The 'Capitale des Flandres' has reinvented itself from declining industrial city to thriving service-economy regional capital with a young population, an exceptional university and student scene, distinctive Northern French and Flemish culture, and property prices that remain reasonable compared to Paris or Lyon. For expats valuing pan-European connectivity, Lille deserves serious consideration.",
+    sections: [
+      {
+        heading: "The geographic and connectivity advantage",
+        body: "Lille is 250 km north of Paris, 110 km west of Brussels, 290 km south-east of London via Eurostar. The city has two TGV/Eurostar stations (Lille-Flandres and Lille-Europe). Direct connections: Paris-Nord (1h hourly), Brussels-Midi (35 min, hourly), London St Pancras (1h20, multiple daily), Amsterdam-Centraal (2h30 via Brussels), Cologne (2h via Brussels). For an expat whose career requires regular European travel, Lille is unmatched. The airport (Lille-Lesquin) is modest — most international flights still go via Charles de Gaulle (1h by TGV) or Brussels Zaventem (1h by train including transfer). **Climate**: continental-oceanic, cool. Average July max ~22°C, January max ~6°C. Annual rainfall ~700mm — moderate, but cloudy and grey winters are real (160 days of cloud cover/year, similar to Brussels). Mild summers, occasional heatwaves to 30°C+. The 'grey winter' factor is the single biggest negative for Mediterranean-origin expats.",
+      },
+      {
+        heading: "Cost of living: notably cheaper than Paris",
+        body: "Property prices in Lille: €2,800-4,500/m² for ancien in good neighbourhoods, €3,500-5,500 for neuf or premium. Specific outliers in Lille's most desirable areas (Vieux-Lille, Vauban) can reach €5,500-7,500/m². For comparison, Lyon at €5,000-7,500/m², Paris at €9,000-14,000/m². Rental: T2 furnished €600-900/month centrally, T3 €850-1,250/month, family T4 €1,100-1,600/month. The Lille metropolitan area has 1.2 million residents — France's 4th largest after Paris, Lyon, Marseille — but maintains mid-size pricing. Groceries: 5-10% below national average. Restaurants: solid value, particularly the local 'estaminet' (traditional Flemish-Northern restaurant) scene; menus around €15-22 for a real meal. Public transport: 2 metro lines (Lille was the first city in the world to have a fully automated metro, 1983), tram, bus. Monthly pass €40. Excellent network for the city's scale.",
+      },
+      {
+        heading: "Neighbourhoods to know",
+        body: "**Vieux-Lille (old town)**: cobblestone streets, Flemish baroque architecture, the most beautiful neighbourhood, restaurants and boutiques. T2 €750-950/month. Excellent walkability. **Vauban-Esquermes**: historic bourgeois district near the citadel, parks, family-oriented, good schools. T3 €1,000-1,300/month. **Saint-Maurice-Pellevoisin**: residential, larger flats, more affordable. **Wazemmes**: vibrant, multicultural, the city's most famous market (Sunday morning) and most diverse neighbourhood. T2 €550-750/month. Real character. **Moulins**: working-class with rapid gentrification, affordable. T2 €500-650/month. **République-Beaux-Arts**: central, walkable, modern. **Lambersart**: bourgeois western suburb, families, larger properties. Outside Lille proper but in the metro area: **Roubaix** (industrial heritage, much cheaper, increasingly gentrified by Parisian buyers — T2 €350-500/month), **Tourcoing** (similar profile to Roubaix), **Villeneuve-d'Ascq** (new town with university, families, modern flats).",
+      },
+      {
+        heading: "Economy, jobs, and the student scene",
+        body: "Lille's economy has shifted dramatically from textile and coal-mining in the 20th century to service-economy in the 21st. Main sectors: distribution and retail (Auchan, Decathlon, Leroy Merlin, Kiabi all have HQ or major presence in Lille — the Mulliez family business empire is Lille-based), digital (Euratechnologies tech park is one of France's largest, with 300+ companies and 5,500 employees), insurance and banking (Crédit Mutuel Nord Europe), public services. Health and life sciences. **Universities**: Université de Lille (75,000 students, the third-largest in France), plus prestigious specialised schools (École des Hautes Études Commerciales du Nord — EDHEC, Sciences Po Lille, Centrale Lille, ENSAIT). The student population (~110,000 in the metro area) gives the city a young, dynamic energy. **For expat job-seekers**: the tech and digital sector has the most international openings, followed by insurance and consulting.",
+      },
+      {
+        heading: "The Northern France-Flemish culture",
+        body: "Lille sits in a distinct cultural zone where Northern France blends with Flanders. Beer culture is genuine — there are more breweries per capita than anywhere in France, the local Bières du Nord (Ch'ti, Belzébuth, 3 Monts) are taken seriously, and pub culture is closer to Belgian-British than Mediterranean. **Cuisine**: distinctive — carbonnade flamande (beef stew with beer), waterzoï (chicken-vegetable stew), maroilles cheese, gaufres fourrées, frites with mussels (moules-frites is the regional dish), endives. The cuisine is hearty, rich, suited to grey winters. **Sport**: Lille OSC (LOSC) football, basketball with Limoges-style passion. **Festivals**: Braderie de Lille (first weekend of September) is one of Europe's largest open-air markets, drawing 2-3 million visitors. **The character of the locals**: 'Ch'ti' is the Northern dialect/identity; northerners are stereotypically warm, generous, with a 'sens de la fête' (party spirit). The film Bienvenue chez les Ch'tis (2008) is a comic exaggeration but captures something real. Compared to Paris or Lyon, Lille feels more like a Belgian or Northern European city than a French one in many respects.",
+      },
+      {
+        heading: "Schools and family infrastructure",
+        body: "Public schools in Lille are decent overall. International / bilingual options: Lycée Internationale Montebello (bilingual French/English, French/Spanish, French/Italian, French/German sections), Lycée Faidherbe, Lycée Saint-Martin (Catholic with international focus). For families seeking truly international (American curriculum, IB), Brussels is 35 minutes away with multiple international schools (International School of Brussels, ISB Madeira) — many Lille-based families with international children commute. Childcare: standard French infrastructure, demand-supply balance moderate (better than Paris, similar to Bordeaux). Healthcare: CHRU Lille is one of France's largest university hospital complexes — high-level care. GP access has tightened in 2024 like elsewhere in France.",
+      },
+      {
+        heading: "Who Lille works for",
+        body: "Works best for: career professionals needing European connectivity (Eurostar to London, easy access to Brussels, Paris in an hour); families with school-age children (international school options, family infrastructure, parks); remote workers seeking a real French city without Paris pricing; British expats wanting a familiar Northern European feel within France; students and young professionals (the student-driven energy is real). Less ideal for: sun-seekers (the grey winters are a significant lifestyle factor — if you're escaping a grey climate, Lille will not be the solution); rural retirees (Lille is unambiguously urban); those who value Mediterranean/Provençal cultural references (Lille's culture is Northern European-flavoured); anyone preferring smaller city scale (Lille's 1.2M metropolitan area is bigger than it feels).",
+      },
+    ],
+    relatedCities: ["lille", "tourcoing", "roubaix", "villeneuve-d-ascq"],
+    tags: ["living in lille expat 2026", "lille expat guide", "lille eurostar paris brussels", "hauts de france expat", "ch ti lille flemish culture"],
+  },
+  {
+    slug: "studying-in-france-non-eu-students-guide-2026",
+    title: "Studying in France as a Non-EU Student: The 2026 Guide",
+    metaTitle: "Studying in France 2026 — non-EU student guide: visa, fees, accommodation, work, costs",
+    metaDesc: "Studying in France as a non-EU student in 2026: visa (VLS-TS), Campus France, universities, fees, accommodation, working rights, healthcare, life after graduation.",
+    category: "moving",
+    emoji: "🎓",
+    readMinutes: 12,
+    publishedAt: "2026-05-25",
+    updatedAt: "2026-05-25",
+    intro: "France is the world's 5th largest host of international students (around 400,000 in 2024) and the leading non-English-speaking destination. The system is structured, the public-university fees are dramatically lower than the US/UK, the diploma is internationally recognised, and the path to staying after graduation is clearer than many other destinations. For non-EU students considering France in 2026, the choice involves understanding the institutional landscape, the Campus France process, real costs, and the post-graduation pathway. Here is the complete picture.",
+    sections: [
+      {
+        heading: "The French higher education landscape",
+        body: "Four main types of institution. **Universités** (public universities): the bulk of the system, 70 institutions, mostly free or low-tuition for EU students, modest tuition for non-EU students (see below). Cover all disciplines from medicine to philosophy. Examples: Sorbonne, Université de Paris, Aix-Marseille Université, Lyon Lumière, Bordeaux Montaigne. **Grandes Écoles**: selective, prestigious specialised schools — most prominent in engineering (École Polytechnique, Centrale, Mines), business (HEC Paris, ESSEC, ESCP, EDHEC, EM Lyon), political science (Sciences Po), and the arts. Higher fees than universities but world-class reputation. Admission via competitive exam (concours) or, for international students, separate channels. **Écoles spécialisées**: trade-specific schools (engineering, design, communication, hotel management, etc.). Mid-range fees. **Instituts** (technical institutes): part of universities, vocational/applied programs, very low fees. **Important for non-EU students**: since 2019, universities charge non-EU students different (higher) tuition than EU/EEA students: roughly €2,770/year for bachelor's, €3,770/year for master's, vs. ~€170-€600 for EU students. Grandes Écoles already charged higher fees and the gap is smaller proportionally.",
+      },
+      {
+        heading: "The Campus France procedure: the path for most non-EU students",
+        body: "Students from 65 countries (including USA, Canada, Brazil, China, India, Mexico, Senegal, Algeria, Morocco, Vietnam, Indonesia, and more) must apply through **Campus France** — the centralised French agency for international student recruitment. The procedure: 1) Create a Campus France account (campusfrance.org) before December for the following academic year. 2) Select up to 7 programs across French institutions. 3) Submit your dossier (academic transcripts, language certification, motivation letter, CV) — all in French unless the program is taught in English. 4) Pay the Campus France fee (€100-180 depending on country). 5) Attend a Campus France interview (in your home country). 6) Receive admission decisions (March-June). 7) Apply for the student visa (VLS-TS) with the admission letter. **Critical**: applications open in October-November for September admission. Late applications are usually rejected. Plan 9-12 months ahead.",
+      },
+      {
+        heading: "Language requirements: French and English",
+        body: "**Programs taught in French**: require B2 minimum (some Master's require C1) — TCF, DELF, or DALF certification. **Programs taught in English**: increasingly common, especially in business and tech master's programs. About 1,800 master's programs in France are now taught entirely in English. They require TOEFL (90+), IELTS (6.5+), or equivalent. **Bilingual programs**: some require both. **Practical reality**: even in English-taught programs, daily life in France requires French. International students often arrive with B1 French and improve through immersion. Most universities offer French language courses to international students (often free). Plan for 6-12 months of additional language learning beyond your program requirement.",
+      },
+      {
+        heading: "Real costs: tuition, living, accommodation",
+        body: "**Tuition (annual)**: Public university Bachelor's €2,770 (non-EU), Master's €3,770. Grandes Écoles vary: HEC Master in Management €19,000/year, École Polytechnique €15,000/year, Sciences Po Master €14,500/year. Specialised schools: €5,000-15,000/year. **Living costs (annual, excluding tuition)**: in Paris €15,000-22,000; in Lyon/Bordeaux/Toulouse €10,000-15,000; in smaller cities (Rennes, Nantes, Strasbourg) €9,000-13,000. Breakdown for a typical Lyon student: rent €450-650/month, food €250-350/month, transport €30/month (Carte TCL student), books and supplies €30-50/month, leisure €100-200/month. **Accommodation**: CROUS (Centres Régionaux des Œuvres Universitaires et Scolaires) student residences are the cheapest (€200-400/month for a small studio) but limited and highly competitive. Private student residences (Studea, Nexity Studéa, Crous's private partners) €450-700/month. Shared apartments with French students (colocation) €350-550/month + utilities. **Significant aid**: CAF housing allowance (APL) is available to international students with French addresses — typically €70-200/month off rent.",
+      },
+      {
+        heading: "Working rights as a non-EU student",
+        body: "Non-EU students on a VLS-TS visa have automatic working rights in France: **maximum 964 hours/year** (roughly 18-20 hours/week during term, full-time during breaks). No separate work permit required. **Minimum wage (SMIC)**: €11.88/hour gross in 2026, ~€1,400/month net for full-time. Typical student jobs: catering and food service, retail, tutoring (lucrative if you can teach English to French students — €15-30/hour private), babysitting, university research assistant positions (stipend-funded). **Tax**: students earning under approximately €5,000/year owe no income tax. Above this, normal French income tax applies. **Internships (stages)**: heavily regulated. Internships over 2 months must be paid (minimum gratification of approximately €600/month for 35h/week). Many master's programs include a mandatory 4-6 month internship — this is a major income source. **Critical for non-EU students**: working hours are tracked. Exceeding 964 hours/year can jeopardise visa renewal.",
+      },
+      {
+        heading: "Post-graduation: the path to staying",
+        body: "After graduation, several pathways exist. **APS (Autorisation Provisoire de Séjour)**: 12-month renewable visa (recently extended to 24 months) that allows new graduates to seek employment or start a business in France. Eligible: anyone who has completed at least a Master's degree (M2) in France. **Salaried employment leading to a 'passeport talent'**: if you find a job paying at least €43,243/year gross (2026 threshold), you can get a 4-year residence permit. **Entrepreneurship**: 'passeport talent — création d'entreprise' for those starting a business with at least €30,000 capital and a realistic business plan. **PhD-track**: France actively recruits international PhDs. Funding through CIFRE (industry-academia partnership), university grants, or ERC fellowships. PhD holders have particularly easy paths to long-term residency. **Long-term residence**: after 5 years of continuous residence in France (including student years for permanent settlement track), eligibility for the 'carte de résident' (10-year renewable permit). **Citizenship**: after 5 years (typically — see the dedicated citizenship guide), eligibility for naturalisation.",
+      },
+      {
+        heading: "Healthcare and social benefits as a student",
+        body: "**Healthcare**: international students are automatically enrolled in Assurance Maladie (the public healthcare system) at no cost. You receive a Carte Vitale within 2-4 months of registration. Standard French healthcare coverage applies — 70% of consultations reimbursed by Sécu, mutuelle covers the rest. Many universities offer a free or low-cost student mutuelle (LMDE, Heyme, Smerep). **Health insurance from abroad**: not required for the visa itself (the French system covers you), but supplementary international insurance is sometimes useful for the first 3 months while waiting for Sécu registration. **Other benefits**: student discounts widespread (cinemas, theatres, museums, restaurants — usually 30-50% off with student card), public transport reductions (often 50% off monthly pass), free or subsidised cultural activities through universities, free language courses through university language centres.",
+      },
+    ],
+    relatedCities: ["paris", "lyon", "toulouse", "bordeaux", "rennes"],
+    tags: ["studying in france non eu student 2026", "campus france guide", "international student france visa", "studying in france as american indian chinese", "france student post graduation visa"],
+  },
+  {
+    slug: "leaving-marseille-where-to-go-expat-2026",
+    title: "Leaving Marseille: Where to Go (2026)",
+    metaTitle: "Leaving Marseille 2026 — best cities to move to, alternatives, expat guide",
+    metaDesc: "Where to move if leaving Marseille in 2026: top alternatives by profile (family, remote work, Mediterranean lover, professional). Honest comparisons.",
+    category: "city-guide",
+    emoji: "🧭",
+    readMinutes: 9,
+    publishedAt: "2026-05-25",
+    updatedAt: "2026-05-25",
+    intro: "Marseille is unforgettable but not for everyone. Residents leave for varying reasons: rising tension in specific neighbourhoods, the heat and dryness intensifying with climate change, the desire for a quieter rhythm, family relocations, or simply 10+ years in the city are enough. Where they go depends on what they want to preserve from Marseille — the Mediterranean, the diversity, the urban scale, the affordability — and what they want to leave behind. This guide walks through the most common alternative cities by profile, with honest assessments of trade-offs.",
+    sections: [
+      {
+        heading: "If you want the Mediterranean but less density",
+        body: "**Aix-en-Provence (32 km)**: the obvious move — same climate, same olive oil culture, same hour-long beach access, but smaller and more refined. Property is 25-40% more expensive than Marseille; daily safety is better; expat community is stronger; the trade-off is loss of urban scale and authentic diversity. The most common Marseille-leaver destination. **La Ciotat (40 km east)**: small coastal town, fishing village character, much quieter, growing remote-work community. T2 €600-800/month. **Cassis (25 km)**: pretty but expensive (Calanques tourist pricing), more village-scale. **Aubagne, Allauch, Le Rove**: working-class Marseille suburbs becoming gentrified, retain Marseille proximity. **Toulon (60 km east)**: France's military port city, similar diversity to Marseille but smaller (165,000 city). Less famous, less polished, more affordable, similar climate. Underrated.",
+      },
+      {
+        heading: "If you want a serious city but cooler climate",
+        body: "**Lyon**: France's second-tier metropolitan capital. Real city — restaurants, business, culture, dense urban life. Climate distinctly milder (proper four seasons, cooler summers). Property prices 30-50% above Marseille for equivalent neighbourhood. Excellent TGV connectivity. Suits Marseille-leavers who want urban scale without the Mediterranean intensity. **Bordeaux (5h30 by train or short flight)**: also major city, milder Atlantic climate, wine culture replaces olive oil culture. Property prices similar to or above Lyon. Stronger expat community than Marseille. Suits those wanting different cuisine and ambiance. **Toulouse**: similar size to Marseille metropolitan area, sunny but not Mediterranean (more continental). Aerospace and academic economy. Property notably cheaper than Marseille. Growing Marseille-leaver community among professionals.",
+      },
+      {
+        heading: "If you want quieter and more affordable",
+        body: "**Montpellier**: Marseille's Languedoc neighbour, similar climate (slightly milder summers), distinct identity (less Provençal, more Catalan-influenced), strong student and tech scene, growing expat community. Property is now closer to Marseille's central pricing — gap has closed in 2020s. Smaller (300k city, 600k metro) but more dynamic per capita. **Nîmes**: Roman heritage, sunny, drier than Marseille, much cheaper, smaller (150k), authentic Provençal but not Mediterranean coast. **Avignon**: medieval city, papal heritage, smaller scale (90k), excellent TGV connection. **Carcassonne or Narbonne**: smaller Languedoc towns, much cheaper, slower pace.",
+      },
+      {
+        heading: "If safety was the main reason",
+        body: "Be honest: Marseille's crime is concentrated in the northern arrondissements. If you lived there and want to escape that specifically, **moving within Marseille to the 7th, 8th, or 5th arrondissements** may solve the problem without leaving the city. If you've already exhausted that option: **Aix-en-Provence** is dramatically safer at modest premium. **Montpellier** is mid-tier safe (better than Marseille north, similar to Marseille 6th). **Bordeaux, Nantes, Rennes, Lyon central neighbourhoods** are all safer than Marseille's metropolitan average. **Annecy, Chambéry, Pau, La Rochelle** are notably safer (small-city advantage). Don't choose based purely on overall city statistics — neighbourhood-level data matters far more.",
+      },
+      {
+        heading: "If climate change concerns push the move",
+        body: "Marseille's climate is intensifying — heatwaves more frequent, longer hot seasons, less reliable winter rainfall, increasing wildfire risk in the back-country. If you want to leave the Mediterranean for climate reasons: **Atlantic coast options**: La Rochelle, Nantes, Vannes — milder summers, more rainfall, Atlantic moderation. **Loire valley**: Tours, Angers, Saumur — manageable summers, character. **Brittany**: Rennes, Brest — buffered by ocean, cooler all year. **Mountain refuge options**: Annecy, Grenoble (heat island but cool nights and quick mountain access), Pau (Pyrenean climate moderation). **Lyon and Lyon region**: still warming but slower than the Mediterranean. **For decade-plus horizon planning**: the Atlantic and Brittany are increasingly attractive choices for ex-Marseillais wanting to preserve coastal life without intensifying heat.",
+      },
+      {
+        heading: "Most common Marseille-leaver destinations: ranked",
+        body: "Based on relocation patterns we observe: **#1 Aix-en-Provence** (same region, easier move) — dominant choice. **#2 Lyon** (career/urban upgrade) — second most common. **#3 Bordeaux** (different French region, wine and Atlantic) — popular among 35-50 demographic. **#4 Montpellier** (similar climate, smaller, more dynamic) — growing. **#5 Toulon** (under-the-radar Mediterranean alternative). **#6 Aubagne / Allauch / La Ciotat** (Marseille metropolitan-area moves). **#7 Nantes** (Atlantic, family-oriented, cool climate). **#8 Toulouse** (career moves into aerospace). Beyond these top 8, Marseille-leavers also commonly choose: Carcassonne, Avignon, smaller Provençal villages, or international relocation (Lisbon, Barcelona, Valencia — leaving France entirely).",
+      },
+    ],
+    relatedCities: ["aix-en-provence", "lyon", "bordeaux", "montpellier", "toulon", "nantes"],
+    tags: ["leaving marseille 2026", "where to move from marseille", "marseille alternatives expat", "moving out of marseille france", "best french cities ex marseille"],
+  },
+  {
+    slug: "perpignan-roussillon-mediterranean-expat-guide-2026",
+    title: "Living in Perpignan and the Roussillon as an Expat (2026)",
+    metaTitle: "Living in Perpignan 2026 — expat guide: Mediterranean, Spain border, Catalan culture, cost of living",
+    metaDesc: "Honest expat guide to Perpignan and the French Catalan coast in 2026: cheap Mediterranean property, Spain proximity, Catalan culture, climate trade-offs.",
+    category: "city-guide",
+    emoji: "🍷",
+    readMinutes: 10,
+    publishedAt: "2026-05-25",
+    updatedAt: "2026-05-25",
+    intro: "Perpignan is France's last major city before Spain — the capital of the Pyrénées-Orientales département, the heart of French Catalonia, and the cheapest Mediterranean coastal city in mainland France. With 120,000 residents, 300 days of sun per year, the Pyrénées 30 minutes inland, and Barcelona just two hours by car, the Roussillon region offers a particular Mediterranean lifestyle at a price level that the Provence coast or Côte d'Azur no longer match. It is also a city with real challenges — significant deprivation in central neighbourhoods, weak job market, climate change pressure in the most vulnerable French region. This guide gives the honest picture for expats considering the move.",
+    sections: [
+      {
+        heading: "Geographic and cultural identity",
+        body: "Perpignan sits 13 km from the Mediterranean (Argelès-sur-Mer, Saint-Cyprien, Canet-en-Roussillon are the closest beach towns), 30 km from the Pyrenees foothills, 30 km from the Spanish border. It is the historical capital of the Kingdom of Majorca (13th-14th century) and culturally Catalan — Catalan flags are everywhere, Catalan is spoken by a significant minority of locals, signs are bilingual French-Catalan, and the cultural cousinship with Barcelona is genuine. The Catalan-Catalan border with Spain is barely a cultural border. **Climate**: among France's sunniest cities (2,500+ hours of sun/year, the most in France along with Toulon), Mediterranean climate with the strongest tramontane wind (a dry north wind that affects daily life — vigorous, can blow 80-100 km/h for several days). Summers are hot and dry (peak 30-34°C, occasional heatwaves to 40°C), winters are mild (peak 13-15°C, lows rarely below 5°C). **Critical climate change note**: the Roussillon is the French region most affected by drought and water stress. Major restrictions every summer since 2022. This is the climate-change frontline of France.",
+      },
+      {
+        heading: "Cost of living: dramatically cheaper than other Mediterranean cities",
+        body: "Property prices in Perpignan: €1,500-2,500/m² for ancien in good central neighbourhoods, €2,000-3,000 for renovated or neuf. This is among the lowest for any major Mediterranean coast city in mainland France. Compare to Nice (€5,500-8,500/m²), Marseille (€2,500-5,500), Montpellier (€3,500-5,500). Rental: T2 furnished €450-650/month centrally, T3 €600-850/month. Coastal villages (Argelès, Canet) are more expensive — €500-750/month T2. Groceries: 8-12% below national average. Restaurants: €12-18 for a serious menu lunch. Public transport: bus network, no tram or metro, modest. Most residents use a car for many errands.",
+      },
+      {
+        heading: "Neighbourhoods to know",
+        body: "**Centre historique (around Place de la Loge)**: medieval and Renaissance core, half-timbered houses, restaurants, vibrant. Mixed quality — some excellent streets, some declining. T2 €450-600/month. **Saint-Mathieu**: residential bourgeois, family-oriented. T3 €650-850/month. **Bas-Vernet**: emerging neighbourhood near the Têt river, lower-density, more affordable. **Champ de Mars / Quartier des Sciences**: middle-class residential, schools, quieter. **Mas-Vermeil**: outer residential, family suburbs. **Saint-Jacques (around the old Romani neighbourhood)**: very historic but socially complex, in transition. **Saint-Assiscle**: working-class, very affordable, mixed. **Avoid for first-time expat arrivers**: parts of Saint-Jacques (specifically), Diaz quarter, certain blocks in central streets with concentrated social housing. **The coastal villages (Canet, Argelès)** are residential alternatives for those who want sea access — but bus connection to Perpignan is modest, a car becomes more important.",
+      },
+      {
+        heading: "Honest assessment of safety and social challenges",
+        body: "Perpignan has higher than average crime statistics for a French city of its size. Petty theft (bag-snatching, car break-ins), property crime, and some violent crime occur — concentrated in specific neighbourhoods. The city has socio-economic challenges: high unemployment rate (around 18%, well above national average), significant poverty in certain quarters, tensions in some neighbourhoods. **Honest reading**: in established residential neighbourhoods (Saint-Mathieu, Champ de Mars, Bas-Vernet) daily safety is comparable to other mid-size French cities. In the central historic streets, particularly at night, more vigilance is needed than in (say) Aix or Annecy. The northern outer arrondissements have concentrated social issues. Choose your neighbourhood carefully and Perpignan is liveable; ignore the warnings and you may have a difficult experience.",
+      },
+      {
+        heading: "What works in daily life",
+        body: "Beach access: 13 km to Mediterranean coast, multiple resort towns within 20 minutes (Argelès-sur-Mer, Saint-Cyprien, Canet-en-Roussillon, Le Barcarès, Collioure). Real beach lifestyle accessible daily. **Mountain access**: Pyrenees foothills within 30 minutes; the Cerdagne Pyrenean plateau and ski stations (Font-Romeu, Les Angles) 90 minutes away. **Spain proximity**: Figueras 50 minutes by car, Girona 90 minutes, Barcelona 2h15. Many residents shop in Spain regularly (gas, wine, cheese, tobacco are dramatically cheaper). **Wine country**: Roussillon AOC wines (banyuls, maury, côtes-du-roussillon) — undervalued, exceptional quality at low prices. **Cuisine**: Catalan influence (paella, fideuà, crema catalana) blended with Mediterranean French. **Cultural events**: Festival Visa pour l'Image (international photojournalism), Procession de la Sanch (Easter Catalan procession), the bullfighting heritage in Céret (controversial but culturally significant).",
+      },
+      {
+        heading: "Job market reality",
+        body: "Perpignan's job market is thin compared to other French cities. Main employers: agro-industry (fruit and vegetable processing — the Roussillon is one of France's major fruit-producing regions), tourism, public sector (regional administrative centre), Université de Perpignan (8,000 students). **For expat job-seekers**: limited corporate opportunity; remote work is the most viable career model. Many Perpignan residents work remotely for Paris, Toulouse, or international employers. Local entrepreneurship in tourism, wine, and small-scale agriculture is more accessible than corporate employment. **Salaries**: where jobs exist, they are below national average. The economic logic of Perpignan works for retirees, remote workers, and those who do not depend on local employment.",
+      },
+      {
+        heading: "Who Perpignan works for and who it doesn't",
+        body: "Works for: retirees seeking Mediterranean sun at affordable prices (this is the dominant Perpignan-mover profile); remote workers wanting maximum cost arbitrage; surfers and beach-lovers content with smaller waves; wine enthusiasts (Roussillon is one of France's most undervalued wine regions); those drawn to Catalan culture and Spain proximity; budget-constrained early retirees. Does not work for: career-focused under-40s in non-remote roles (the local job market is genuinely thin); those who need world-class hospitals (Perpignan's hospital is solid but specialised care often routes to Montpellier or Toulouse); families seeking strong international schools (limited); anyone allergic to wind (the tramontane is real); environmentalists concerned by climate change (Perpignan is the front line of French drought and water stress).",
+      },
+    ],
+    relatedCities: ["perpignan", "narbonne", "argeles-sur-mer", "canet-en-roussillon"],
+    tags: ["living in perpignan expat 2026", "perpignan expat guide", "french catalan coast expat", "cheap mediterranean france expat", "roussillon living guide"],
+  },
 ];
 
 export function getEnGuide(slug: string): EnGuide | undefined {
