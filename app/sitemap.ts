@@ -140,6 +140,7 @@ function staticSection(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/macro-region/vallee-du-rhone`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.65 },
     { url: `${BASE_URL}/macro-region/ile-de-france-elargie`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.65 },
     { url: `${BASE_URL}/simulateur-achat`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.75 },
+    { url: `${BASE_URL}/portraits-types`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.75 },
     { url: `${BASE_URL}/future-you`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE_URL}/people-like-you`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.75 },
     { url: `${BASE_URL}/climat-2040-timelapse`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.75 },
@@ -707,6 +708,7 @@ function enStaticSection(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/property-calendar`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.6 },
     { url: `${BASE_URL}/moving-from`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/climate-2040-timelapse`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.75 },
+    { url: `${BASE_URL}/community-profiles`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.75 },
   ];
 }
 
