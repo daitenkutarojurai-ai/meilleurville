@@ -6845,6 +6845,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 23.5,
     avgTempJanuary: 1.5,
     characterTags: ["JO 1992", "Savoie", "stations de ski", "Tarentaise", "porte des Alpes", "nature alpine", "artisanat"],
+    descriptionEn:
+      "Albertville is the 1992 Winter Olympics host city — gateway to the Tarentaise ski valleys (Val-d'Isère, Tignes, Courchevel, Les Arcs all within an hour), affordable for the alpine access. Best fit: serious skiers seeking ski-season base, mountain-active families, retirees with substantial outdoor lifestyle.",
+    seoTitleEn: "Albertville — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Albertville (Savoie, Auvergne-Rhône-Alpes): quality-of-life score 7.4/10. 1992 Winter Olympics city, Tarentaise ski-valley gateway.",
     scores: {
       global: 7.4,
       life: 7.5,
@@ -6871,6 +6876,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.0,
     avgTempJanuary: 2.5,
     characterTags: ["Lac Léman", "eau minérale", "Suisse-proche", "palaces", "tennis", "montagne", "international"],
+    descriptionEn:
+      "Évian-les-Bains sits on the French shore of Lake Geneva — the Evian mineral water source, premium Belle-Époque palaces, ferry to Lausanne 30 minutes, refined lake-and-mountain living. Premium prices. Best fit: refined retirees with substantial budget, Swiss-border professionals, lifestyle remote workers.",
+    seoTitleEn: "Évian-les-Bains — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Évian-les-Bains (Haute-Savoie, Auvergne-Rhône-Alpes): quality-of-life score 8.0/10. Lake Geneva shore, Evian water, Belle-Époque palaces.",
     scores: {
       global: 8.0,
       life: 8.5,
@@ -6897,6 +6907,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 23.5,
     avgTempJanuary: 3.5,
     characterTags: ["Auvergne", "Volcans", "abbaye romane", "artisanat", "Clermont-proche", "télétravail", "abordable"],
+    descriptionEn:
+      "Issoire is the small Auvergne town between Clermont-Ferrand and Le Puy — Romanesque Saint-Austremoine abbey, Chaîne des Puys nearby, dramatically affordable, Clermont-Ferrand 30 minutes. Best fit: Clermont-region workers wanting cheap base, ultra-budget households, retirees seeking calm volcanic-country living.",
+    seoTitleEn: "Issoire — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Issoire (Puy-de-Dôme, Auvergne-Rhône-Alpes): quality-of-life score 7.2/10. Small Auvergne town, Romanesque abbey, near Chaîne des Puys, affordable.",
     scores: {
       global: 7.2,
       life: 7.5,
@@ -6923,6 +6938,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 23.0,
     avgTempJanuary: 3.5,
     characterTags: ["préfecture Allier", "Bourbonnais", "bocage", "patrimoine", "calme", "abordable", "centre France"],
+    descriptionEn:
+      "Moulins is the Allier prefecture — Anne de Beaujeu Museum, Centre National du Costume de Scène, Bourbonnais heritage, dramatically affordable. Calm rural-France centre. Best fit: ultra-budget households, retirees seeking refined small-town centre-France living, costume-and-theatre professionals.",
+    seoTitleEn: "Moulins — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Moulins (Allier, Auvergne-Rhône-Alpes): quality-of-life score 6.8/10. Allier prefecture, Bourbonnais heritage, very affordable, calm centre-France.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -6949,6 +6969,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 23.0,
     avgTempJanuary: 4.5,
     characterTags: ["accordéon", "Corrèze", "verdure", "qualité de vie", "Millevaches-proche", "abordable", "retraite"],
+    descriptionEn:
+      "Tulle is the Corrèze prefecture — accordion-manufacturing heritage, dramatic Corrèze gorge setting, Plateau de Millevaches nature park nearby, dramatically affordable. Best fit: nature retirees, ultra-budget households, music professionals (accordion), authenticity-seekers.",
+    seoTitleEn: "Tulle — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Tulle (Corrèze, Nouvelle-Aquitaine): quality-of-life score 7.0/10. Corrèze prefecture, accordion heritage, gorge setting, very affordable, calm.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -6975,6 +7000,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: -0.5,
     characterTags: ["Jura", "Suisse-proche", "absinthe", "ski de fond", "forêts", "qualité de vie", "plein air"],
+    descriptionEn:
+      "Pontarlier sits at 837m in the Jura Mountains — Swiss border 10 minutes (Neuchâtel and Lausanne professionals commute), absinthe-distilling heritage, exceptional Nordic-skiing terrain, calm. Best fit: Swiss-border professionals, Nordic-ski enthusiasts, outdoor active families, calm-seekers.",
+    seoTitleEn: "Pontarlier — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Pontarlier (Doubs, Bourgogne-Franche-Comté): quality-of-life score 7.5/10. Jura mountains at 837m, Swiss border, absinthe heritage, Nordic skiing.",
     scores: {
       global: 7.5,
       life: 8.0,
@@ -7001,6 +7031,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.5,
     avgTempJanuary: 6.0,
     characterTags: ["Vendée", "bocage", "marché", "canard", "Marais breton", "côte-proche", "dynamique"],
+    descriptionEn:
+      "Challans is the north-Vendée market town — famous duck (canard de Challans), Marais Breton wetlands, Atlantic coast 20 minutes away, dramatically affordable, dynamic local economy. Best fit: families seeking value Vendée living, ultra-budget households wanting Atlantic-coast access.",
+    seoTitleEn: "Challans — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Challans (Vendée, Pays de la Loire): quality-of-life score 7.1/10. North-Vendée market town, famous duck, Marais Breton wetlands, Atlantic coast.",
     scores: {
       global: 7.1,
       life: 7.5,
@@ -7027,6 +7062,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.5,
     avgTempJanuary: 6.5,
     characterTags: ["Marais Poitevin", "Renaissance", "patrimoine", "Venise verte", "calme", "abordable", "nature"],
+    descriptionEn:
+      "Fontenay-le-Comte is the Renaissance Vendée town — Marais Poitevin (the 'Venise Verte' green-water wetlands) on the doorstep, refined Renaissance architecture, dramatically affordable. Best fit: nature retirees, refined heritage lovers, ultra-budget households seeking authentic Vendée living.",
+    seoTitleEn: "Fontenay-le-Comte — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Fontenay-le-Comte (Vendée, Pays de la Loire): quality-of-life score 7.3/10. Renaissance Vendée town, Marais Poitevin Venise Verte, refined.",
     scores: {
       global: 7.3,
       life: 7.8,
@@ -7053,6 +7093,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.5,
     avgTempJanuary: 4.5,
     characterTags: ["Loire", "TGV Paris 45min", "abbaye", "Loir", "télétravailleurs", "abordable", "patrimoine"],
+    descriptionEn:
+      "Vendôme is the Loir-et-Cher TGV-Paris city — 45 minutes by TGV to Paris (one of France's fastest provincial connections), refined Trinité abbey heritage, Loir river through the centre, affordable. Best fit: Paris commuters seeking ultra-fast TGV connection at low cost, remote workers, families.",
+    seoTitleEn: "Vendôme — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Vendôme (Loir-et-Cher, Centre-Val de Loire): quality-of-life score 7.0/10. 45 min TGV to Paris, Trinité abbey, Loir river, refined and affordable.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -7079,6 +7124,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.5,
     avgTempJanuary: 4.0,
     characterTags: ["centre France", "Cher", "industrie", "abordable", "TGV-accessible", "nature", "calme"],
+    descriptionEn:
+      "Vierzon is the Cher industrial-heritage town — at the crossroads of central France, dramatically affordable property, dynamic rail-and-road junction. Best fit: ultra-budget households seeking some of the cheapest French property, industrial-heritage enthusiasts, calm-seekers.",
+    seoTitleEn: "Vierzon — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Vierzon (Cher, Centre-Val de Loire): quality-of-life score 6.6/10. Cher industrial-heritage junction town, dramatically affordable, calm.",
     scores: {
       global: 6.6,
       life: 7.0,
@@ -7105,6 +7155,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.5,
     avgTempJanuary: 4.0,
     characterTags: ["pralines", "canaux", "Paris-proche", "Gâtinais", "abordable", "forêts", "patrimoine"],
+    descriptionEn:
+      "Montargis is the 'Venise du Gâtinais' — historic canal network through the centre, the famous Mazet de Montargis pralines (since 1636), Paris 1 hour, Gâtinais forests, dramatically affordable. Best fit: Paris commuters seeking cheap canal-town base, retirees, ultra-budget households.",
+    seoTitleEn: "Montargis — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Montargis (Loiret, Centre-Val de Loire): quality-of-life score 6.8/10. Venise du Gâtinais canal town, Mazet pralines, 1h to Paris, affordable.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -7131,6 +7186,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.0,
     avgTempJanuary: 4.0,
     characterTags: ["faïence", "Loire", "château", "chasse", "abordable", "pêche", "patrimoine"],
+    descriptionEn:
+      "Gien is the eastern-Loire faïence town — 19th-century ceramic-tableware heritage, Loire-side château, hunting-and-fishing country, dramatically affordable. Best fit: ultra-budget households, retirees, ceramic and craft artisans, outdoor-sport (hunting, fishing) enthusiasts.",
+    seoTitleEn: "Gien — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Gien (Loiret, Centre-Val de Loire): quality-of-life score 6.9/10. Eastern-Loire faïence town, Loire château, hunting-fishing country, affordable.",
     scores: {
       global: 6.9,
       life: 7.5,
@@ -7157,6 +7217,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 24.5,
     avgTempJanuary: 6.0,
     characterTags: ["pèlerinage", "Pyrénées", "tourisme religieux", "Gavarnie-proche", "montagne", "international", "abordable"],
+    descriptionEn:
+      "Lourdes is the world Catholic pilgrimage city — Marian apparition site visited by 3+ million pilgrims yearly, Pic du Midi observatory and ski areas within an hour, dramatically affordable when not in pilgrimage season. Best fit: religious-tourism professionals, Pyrenees-region workers, ultra-budget mountain-adjacent households.",
+    seoTitleEn: "Lourdes — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Lourdes (Hautes-Pyrénées, Occitanie): quality-of-life score 6.8/10. World Catholic pilgrimage city, 3M+ pilgrims yearly, Pyrenees-adjacent.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -7183,6 +7248,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 25.5,
     avgTempJanuary: 5.5,
     characterTags: ["Périgord Noir", "médiéval", "foie gras", "noix", "tourisme", "Dordogne", "gastronomie"],
+    descriptionEn:
+      "Sarlat-la-Canéda is the iconic Périgord Noir medieval town — Europe's densest concentration of protected historic buildings, foie-gras and truffle and walnut country, refined Dordogne gastronomy, established British retiree community. Best fit: refined British and Anglo retirees, gastronomes, heritage lovers, weekend-home owners.",
+    seoTitleEn: "Sarlat-la-Canéda — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Sarlat-la-Canéda (Dordogne, Nouvelle-Aquitaine): quality-of-life score 7.8/10. Iconic Périgord medieval town, foie-gras truffle country, British retirees.",
     scores: {
       global: 7.8,
       life: 8.5,
@@ -7209,6 +7279,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 25.5,
     avgTempJanuary: 6.0,
     characterTags: ["tomate", "Lot-et-Garonne", "agriculture", "Garonne", "Bordeaux-proche", "abordable", "marché"],
+    descriptionEn:
+      "Marmande is the Lot-et-Garonne agricultural town — the famous Marmande tomato AOP, Garonne river through the centre, Bordeaux 1 hour away, dramatically affordable. Best fit: ultra-budget households, agricultural professionals, gastronomes wanting access to southwest produce, Bordeaux-region workers seeking very cheap base.",
+    seoTitleEn: "Marmande — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Marmande (Lot-et-Garonne, Nouvelle-Aquitaine): quality-of-life score 6.8/10. Agricultural town, famous Marmande tomato, near Bordeaux, very affordable.",
     scores: {
       global: 6.8,
       life: 7.2,
