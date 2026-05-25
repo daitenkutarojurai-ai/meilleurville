@@ -5427,6 +5427,126 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["bordeaux", "merignac", "pessac"],
     tags: ["living in bordeaux expat 2026", "bordeaux expat guide real", "bordeaux cost of living 2026", "bordeaux neighbourhoods expat", "bordeaux british expat community"],
   },
+  {
+    slug: "moving-pets-to-france-complete-guide-2026",
+    title: "Moving Your Pet to France: The Complete 2026 Guide",
+    metaTitle: "Moving Pets to France 2026 — dogs, cats, requirements, paperwork, transport, vet costs",
+    metaDesc: "How to move your dog or cat to France in 2026: EU pet passport, rabies vaccination, microchip, airline rules, costs, vet network, and city-by-city pet-friendliness.",
+    category: "moving",
+    emoji: "🐾",
+    readMinutes: 11,
+    publishedAt: "2026-05-25",
+    updatedAt: "2026-05-25",
+    intro: "France is one of Europe's most pet-friendly countries — over 60% of French households own at least one pet, restaurants and cafés routinely accept dogs, and the legal status of animals (no longer 'movable property' since 2015, now 'sentient beings') is among the most progressive in the EU. But moving a pet to France from abroad still requires planning: the paperwork is real, the timelines are not flexible, and the difference between EU origin and non-EU origin (especially post-Brexit UK and the United States) is substantial. This guide gives you the complete picture in 2026.",
+    sections: [
+      {
+        heading: "EU vs non-EU: two completely different procedures",
+        body: "**From an EU country (plus Norway, Iceland, Liechtenstein, Switzerland, Andorra, Monaco)**: your pet needs a valid EU pet passport, microchip (ISO 11784/11785 compliant), and a rabies vaccination at least 21 days old and not expired. That is essentially it. No advance notification, no quarantine, no border check beyond verifying the documents. **From a 'listed' non-EU country (USA, Canada, Australia, New Zealand, UK, Japan, and others)**: your pet needs the microchip, an up-to-date rabies vaccination, and an EU health certificate issued by an accredited vet within 10 days of arrival, then endorsed by the country's official veterinary authority (USDA APHIS for the US, CFIA for Canada, DEFRA for the UK). **From an 'unlisted' country**: add a rabies antibody titration test (RNATT) — blood drawn at least 30 days after rabies vaccination, sent to an EU-approved lab, with a 3-month waiting period before travel after a satisfactory result. Total minimum timeline: 4-5 months. Do not improvise.",
+      },
+      {
+        heading: "The post-Brexit UK situation",
+        body: "Since 1 January 2021, the UK is a 'listed third country'. UK pet passports issued before that date are no longer valid for travel to the EU. UK pets travelling to France need an Animal Health Certificate (AHC) issued by an Official Veterinarian in the UK within 10 days of travel. Each AHC is valid for one trip into the EU, and then for onward travel within the EU for 4 months. For repeated travel, the workable solution for many UK expats settled in France is to obtain a French pet passport from a French vet after arrival — much cheaper and re-usable indefinitely. Microchip and rabies vaccination remain valid; only the document format changes.",
+      },
+      {
+        heading: "Flying with your pet to France",
+        body: "Three options: **in cabin** (small dogs and cats, generally under 6-8 kg including carrier, depending on airline), **in hold as checked baggage** (same flight as you, in a IATA-compliant kennel), or **as manifest cargo** (separate flight, handled by a pet relocation company — used for large dogs and brachycephalic breeds that many airlines refuse). Air France, KLM, and Lufthansa are the most pet-friendly major carriers serving France. Air France's cabin limit is 8 kg including carrier; hold is up to 75 kg total. Brachycephalic breeds (bulldogs, pugs, Persian cats) are banned in hold on most airlines for safety reasons — they must fly cabin or as manifest cargo. Costs vary: in cabin €50-200 one-way, in hold €200-450, manifest cargo €800-2,500 depending on size, route, and provider.",
+      },
+      {
+        heading: "Costs once you arrive",
+        body: "Veterinary care in France is mid-priced by European standards and noticeably cheaper than the US or UK. Typical 2026 prices: routine consultation €40-65, annual vaccination booster €60-90, sterilisation of a male cat €70-110 or female cat €100-160, sterilisation of a dog (depending on size) €180-450, dental cleaning under anaesthesia €150-300. Pet insurance is now common — typical plans cost €15-40/month for a dog, €10-25/month for a cat. The two main providers are SantéVet and Bulle Bleue. For dogs, additional costs: dog tax (no longer national but applied at some communes), mandatory third-party liability insurance for categorised breeds (chiens de catégorie 1 and 2 — specific bull-type and guard breeds, very restrictive rules), and an Attestation d'Aptitude course for owners of categorised dogs.",
+      },
+      {
+        heading: "Daily life with a pet in France",
+        body: "Restaurants and cafés: about 70-80% of French restaurants accept well-behaved dogs (cats less common in restaurant culture but accepted on terraces). The 'no dogs' sign is rare except in tourist-heavy areas of Paris and some Riviera restaurants. Public transport: dogs are accepted on SNCF trains (free if under 6 kg in a carrier, €7 ticket for larger dogs on a leash with muzzle), on TER regional trains free for cats and small dogs, on the Paris Métro (small dogs in carriers free, larger dogs free with muzzle outside rush hours), and on most bus and tram networks. Beaches: many municipal beaches have summer restrictions (1 June to 30 September typically). Look for 'plages autorisées aux chiens' — the Atlantic coast has many, the Mediterranean fewer. Renting with pets: by French law (article 10, loi du 9 juillet 1970), landlords cannot ban pets in the lease for unfurnished rentals (with limited exceptions). In practice, landlords still discriminate informally — be tactful in your application.",
+      },
+      {
+        heading: "Most pet-friendly French cities",
+        body: "Cities widely recognised for excellent pet infrastructure (dog parks, off-leash areas, vet density, café acceptance): **Lyon** — dense vet network, large parks (Parc de la Tête d'Or, Parc de Gerland), strong dog community. **Bordeaux** — Atlantic proximity for beach access, Parc Bordelais, multiple dog parks, mild winters. **Toulouse** — large green spaces (Prairie des Filtres, Compans-Caffarelli), reasonable temperatures most of the year. **Annecy** — outstanding outdoor access for active dogs, lake-front walking, mountain trails. **Strasbourg** — civilised dog culture, parks well-maintained, good vet access through Alsace network. Less pet-friendly: dense Paris arrondissements (small flats, no parks immediately accessible), tourist-heavy Riviera in summer (beach restrictions, packed pavements). For a holiday week with a pet, Brittany and the Atlantic coast are unbeatable.",
+      },
+    ],
+    relatedCities: ["paris", "lyon", "bordeaux", "toulouse", "annecy"],
+    tags: ["moving pets to france 2026", "dog import france guide", "cat travel france expat", "EU pet passport guide 2026", "france pet friendly cities"],
+  },
+  {
+    slug: "childcare-france-expat-parents-guide-2026",
+    title: "Childcare in France for Expat Parents: Nursery to Maternelle (2026)",
+    metaTitle: "Childcare in France 2026 — crèche, assistante maternelle, école maternelle, costs, expat parent guide",
+    metaDesc: "How childcare works in France in 2026 for expat parents: crèche vs. assistante maternelle vs. private daycare, school enrolment, CAF subsidies, real costs.",
+    category: "family",
+    emoji: "👶",
+    readMinutes: 11,
+    publishedAt: "2026-05-25",
+    updatedAt: "2026-05-25",
+    intro: "France has one of the most developed childcare and early-education systems in the world — universal free school from age 3, subsidised daycare, paid parental leave, and direct cash support for families through CAF (Caisse d'Allocations Familiales). For expat parents, the system works once you understand it, but it is dense, region-dependent, and most foreign parents underestimate how early they need to apply. This guide walks through the real options from birth to age 6, what they actually cost in 2026, and how to navigate the system from outside it.",
+    sections: [
+      {
+        heading: "The French childcare landscape: five options",
+        body: "**Crèche collective (municipal nursery)** — the most subsidised and most competitive. Public or private but subsidised, typically open 7:30am to 6:30pm, takes children from 2-3 months to 3 years. Costs are scaled to your household income — typically €0.50 to €4/hour for low-to-mid income families, capped around €5-6/hour for high earners. The catch: in Paris, Lyon, Bordeaux, and most large cities, demand vastly exceeds supply. Apply during pregnancy (the 'commission d'attribution' meets several times a year). **Assistante maternelle (registered childminder)** — a state-licensed individual who keeps 1-4 children at her home. €4-7/hour gross before CAF subsidy; net cost after CMG (complément de libre choix du mode de garde) is typically €2-4/hour. Flexible, more personal. **Crèche privée** — private daycare, often run by Babilou, People & Baby, Crèche Attitude. Cost: €1,200-1,700/month full-time before CAF, €400-900/month after. Easier to access than public crèche. **Garde à domicile (in-home nanny)** — most expensive (€12-17/hour gross), but CAF subsidies cover a significant portion. Used by dual-career professionals with two children. **Famille / informal arrangements** — used widely but not subsidised. ",
+      },
+      {
+        heading: "École maternelle: free universal school from age 3",
+        body: "Since the 2019 reform, school is mandatory from age 3 (not 6 as previously). École maternelle covers ages 3-6 in three classes: petite section (PS, age 3), moyenne section (MS, age 4), grande section (GS, age 5-6). It is **completely free** in public schools — no tuition, no enrolment fees, no books to buy (supplies are provided by the school). Hours are typically 8:30am to 4:30pm Monday/Tuesday/Thursday/Friday, with Wednesday off in most districts (this varies — about 30% of communes have Wednesday morning school). Lunch (cantine) costs €3-7/day on a scaled fee. After-school care (garderie / périscolaire) costs €2-5/day. To enrol: go to your mairie (city hall) during pregnancy or as soon as you arrive in France. You'll need proof of address, child's birth certificate (translated and apostilled if foreign), and vaccination record. The school assignment is by sector (carte scolaire). Private and bilingual schools are also options but pay tuition.",
+      },
+      {
+        heading: "CAF: the direct cash and subsidy machine",
+        body: "CAF (Caisse d'Allocations Familiales) is the agency that pays family benefits and childcare subsidies. As an expat in France with a valid residency status, you are entitled to CAF support from the date of your arrival (some benefits have a 5-year residency rule, but most do not). Main benefits relevant to childcare: **CMG (complément de libre choix du mode de garde)** — covers a portion of the cost of an assistante maternelle, crèche privée, or in-home nanny. Amount depends on household income and number of children. Can cover 50-85% of the cost. **PAJE (prestation d'accueil du jeune enfant)** — base allowance paid monthly per child under 3 (approximately €185/month subject to income limits). **Allocations familiales** — paid per child from the 2nd child onwards. Around €145/month for 2 children, €330/month for 3 children, increasing by approximately €185 per additional child. Income-tested above certain thresholds. **CAF housing benefit (APL)** — even high-earning expats with school-age children may qualify in early years if income just relocated.",
+      },
+      {
+        heading: "Bilingual education and international schools",
+        body: "If you want your child to grow up bilingual or follow a foreign curriculum, France has options at every price point. **Public bilingual sections (sections internationales)** — public maternelles and primaries with a foreign-language section. Free, very high quality, but selective and concentrated in Paris (LIB), Lyon, Bordeaux, Toulouse, Nice, Strasbourg. Languages offered vary by city — English, German, Spanish, Italian, Portuguese, Arabic, Chinese are most common. **Private bilingual schools (école bilingue privée)** — fees typically €4,000-15,000/year. International School of Paris, École Active Bilingue Jeannine Manuel, EIB Victor Hugo, Lyon International School, Bordeaux International School. **International schools (full foreign curriculum)** — American School of Paris (€25,000-35,000/year), British School of Paris, International School of Toulouse, Mougins School (Côte d'Azur). Reserved for diplomats, executives on assignment, and high-income families.",
+      },
+      {
+        heading: "Practical tips for expat parents",
+        body: "1. **Apply for crèche during pregnancy.** Public crèche allocations close before birth in most large cities. If you are pregnant when arriving in France, register at the mairie immediately. 2. **CAF registration takes 2-4 months.** Submit your CAF application as soon as you have a French address and an attestation de droits from Assurance Maladie. Backdated payments are possible. 3. **Maternelle takes a translated birth certificate.** Get your child's foreign birth certificate translated by a sworn translator (traducteur assermenté) before arrival — it is required for school enrolment. 4. **Vaccination calendar.** France requires 11 mandatory vaccines for children born after 1 January 2018. If your child's vaccination record is different, your French paediatrician will assess what is needed for school enrolment. 5. **Choose your commune carefully.** Childcare access varies enormously by commune. Some Paris arrondissements (15th, 17th) have notably more crèche capacity than others. In the regions, smaller communes often have shorter waiting lists than the prefecture city itself.",
+      },
+      {
+        heading: "Cities with the best family infrastructure for expats",
+        body: "Based on crèche capacity per child, schools, parks, and family-friendly municipal policies: **Rennes** — strong municipal investment in childcare, mid-size city quality of life, growing bilingual options. **Nantes** — extensive crèche network, river and park access, family-friendly transit. **Bordeaux** — good public crèche supply per child, international community, mild climate. **Toulouse** — aerospace and research expat community, good bilingual schools, family-oriented neighbourhoods. **Lyon** — Lyon International School, strong public bilingual sections, dense health and childcare infrastructure. **Strasbourg** — European institution families well-served, Franco-German bilingual tradition. **Annecy** — small city but excellent quality of life, manageable demand, outdoor activities for children year-round.",
+      },
+    ],
+    relatedCities: ["paris", "lyon", "rennes", "nantes", "strasbourg"],
+    tags: ["childcare france expat 2026", "creche france guide expat", "ecole maternelle expat parents", "CAF benefits expat france", "france bilingual schools 2026"],
+  },
+  {
+    slug: "france-climate-change-outlook-expats-2026",
+    title: "France in 2040: A Climate-Informed Relocation Guide (2026)",
+    metaTitle: "France Climate 2040 — where to live as the climate changes, expat relocation guide",
+    metaDesc: "If you are moving to France in 2026 with a 10-15 year horizon, here is what climate science says about which French regions will remain liveable, and which will struggle.",
+    category: "lifestyle",
+    emoji: "🌡️",
+    readMinutes: 12,
+    publishedAt: "2026-05-25",
+    updatedAt: "2026-05-25",
+    intro: "Moving to a country is a decade-plus decision. The Côte d'Azur of 2010 — sunny, mild, breezy — is not the Côte d'Azur of 2026, and neither will be the Côte d'Azur of 2040. If you are planning to settle in France, the climate trajectory matters as much as the price of bread or the commute time. This guide synthesises what Météo-France's ARPEGE projections, the GIEC reports, and Cerema risk mapping say about which regions of France will remain comfortable to live in over the next 15 years, and which will face genuine pressure. It is not alarmist; it is informed.",
+    sections: [
+      {
+        heading: "The big picture: France is warming faster than the global average",
+        body: "France has already warmed by approximately 1.7 °C since 1900, slightly faster than the global average of 1.2 °C. Météo-France's reference scenario (RCP 4.5, considered the most plausible) projects an additional warming of 1.5-2.0 °C by 2040 relative to 2000. Higher-emissions scenarios (RCP 8.5) project +2.5-3.0 °C by 2040. What this means concretely: summers will routinely include 35-40 °C heatwaves in most of the south and lower Loire valley; the number of days above 30 °C in Paris will roughly double from 11 (2000) to 22-25 by 2040; coastal flooding events will become 2-3 times more frequent; the snow line in the Alps will rise by approximately 200-300 metres. None of this is uncertain at this point — only the precise pace.",
+      },
+      {
+        heading: "Regions facing the most pressure by 2040",
+        body: "**Mediterranean coast (Provence, Côte d'Azur, Languedoc-Roussillon)** — most exposed combination of pressures: increasing summer temperatures (40 °C heatwaves becoming annual rather than once-a-decade), water stress (Cerema flags Hérault, Gard, Var, Pyrénées-Orientales as 'highly vulnerable' to drought by 2035), wildfire risk (the 2022 Var/Gironde fires are a preview), and coastal erosion. Nice, Marseille, Montpellier, Perpignan, and the Var coast face genuinely changing liveability. Tourism economies will adapt but residents will feel the heat literally. **South-West (Bordeaux, Toulouse, Bayonne)** — milder pressure than the Mediterranean but increasing summer heat and water management challenges. Bordeaux summers are now what Marseille summers were in 1990. **Rhône Valley (Lyon, Avignon, Valence)** — major heat island effects, Lyon now experiences 35 °C+ heatwaves regularly. Air quality during heatwaves is a serious public-health issue. **Paris and Île-de-France** — heat island effect in dense urban areas. 2003 heatwave (the deadliest in modern French history, 15,000 deaths) will become a roughly once-per-decade event by 2040.",
+      },
+      {
+        heading: "Regions remaining more comfortable",
+        body: "**Brittany** — buffered by the Atlantic and prevailing west winds, summers remain mild (peak 26-30 °C even in 2040 projections), winters mild and wet. Brest, Rennes, Lorient, Quimper, Saint-Brieuc. The main change is more frequent winter storms and gradual sea-level rise on the coast. **Normandy (especially the Cotentin peninsula and Bocage)** — similar oceanic buffering, somewhat cooler than Brittany. Caen, Cherbourg, Bayeux. **Northern Atlantic coast (Vendée, Charente-Maritime north)** — warming but moderated by the ocean. **Alps and high Massif Central** — altitude provides a natural air-conditioning effect; villages above 700-900 m altitude retain comfortable summers. Annecy is at risk (lakeside, 447 m) but Chambéry's hinterland and the Vercors plateau, the Beaufortain, and the Massif Central highland villages (Le Puy, Aubrac, Cantal) maintain liveability. **Northern France (Hauts-de-France)** — warming but from a low base; Lille, Amiens, Arras remain comfortable.",
+      },
+      {
+        heading: "Specific risks to factor into a relocation decision",
+        body: "**Coastal flooding and erosion** — the French coast loses on average 30-50 cm per year in vulnerable areas; some stretches (the Aquitaine coast, the Languedoc lidos) lose several metres in a single winter storm. Lacanau, Soulac, Wissant, Quiberville, and several Côte d'Opale villages have official retreat plans (the 'recul du trait de côte' policy). Do not buy a property in a designated red zone. **Wildfire** — historically concentrated in the Mediterranean back-country, now expanding to the Gironde (the 2022 Landiras fire burned 30,000 hectares) and Aquitaine pine forests. Insurance is becoming difficult to obtain in certain communes. **Drought and water restrictions** — summer water restrictions affect 30+ departments in 2023-2025 each year. Wells run dry in the Pyrénées-Orientales and Var. Agricultural water-sharing conflicts are real. **River flooding** — the Rhône, the Vendée and Loire basins, and the Aude have seen increasingly violent flash floods. Check the PPRI (plan de prévention des risques inondation) for any property you consider.",
+      },
+      {
+        heading: "Practical adjustments to a relocation plan",
+        body: "1. **Re-weight south-vs-north preferences.** The traditional expat preference for the Mediterranean coast is increasingly a 10-year decision rather than a 30-year one. Brittany, Normandy, the Loire, and the Atlantic coast (Vendée, Pays de Retz, Charente north) are increasingly attractive for a long-horizon move. 2. **Prioritise altitude on the Mediterranean if you must live south.** Villages 500-800 m above sea level (Luberon villages, parts of the Drôme provençale, Cévennes foothills) are notably cooler than the coast and remain so in projections. 3. **Verify the property's flood and fire risk before purchase.** Géorisques.gouv.fr provides free property-level risk maps. Insurance premiums on properties in risk zones are climbing fast. 4. **Plan for summer mitigation.** Modern French construction in the south increasingly includes external shutters (volets persiennes), reversible heat pumps, and proper insulation — older 'mas' and 'cabanon' style houses are heat traps without significant renovation. 5. **Talk to local people who have lived through 10+ summers.** They know more about the trajectory of their specific commune than any model.",
+      },
+      {
+        heading: "Macro-region recommendations for expat settlers, by horizon",
+        body: "**5-10 year horizon, prioritising sun and Mediterranean lifestyle**: still defensible. Côte d'Azur, Languedoc, Provence. Accept the heat trade-off, plan for air-conditioning and shutters. **10-20 year horizon, prioritising stable comfort**: Brittany, Normandy, Loire valley (Tours, Angers, Saumur), Atlantic coast north of Bordeaux (La Rochelle, Île de Ré with flood caveats, Vendée). The Massif Central upland villages and certain Alpine valleys above 700 m. **20+ year horizon, climate-defensive**: northern Atlantic regions (Brittany, Normandy, Hauts-de-France coast), mid-altitude Alpine valleys, the Vosges, the Jura. These are the regions where 2045 will still feel like 2025. Expat communities will gradually shift in this direction; you can either lead or follow that shift.",
+      },
+    ],
+    relatedCities: ["rennes", "nantes", "annecy", "caen", "tours"],
+    tags: ["france climate change 2040 expat", "france future liveability expat", "moving to france climate 2026", "best french regions climate change", "france weather projection expat 2040"],
+  },
 ];
 
 export function getEnGuide(slug: string): EnGuide | undefined {
