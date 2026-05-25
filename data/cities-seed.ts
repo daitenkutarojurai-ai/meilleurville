@@ -3125,6 +3125,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 23.5,
     avgTempJanuary: 5.5,
     characterTags: ["arènes-romaines", "patrimoine", "Charente", "art-de-vivre", "calme"],
+    descriptionEn:
+      "Saintes is a Gallo-Roman Charente jewel — surviving Roman amphitheatre and arch of Germanicus, refined Charente river city, Cognac 30 minutes, Atlantic coast 1 hour. Refined and affordable. Best fit: heritage lovers, retirees, families seeking refined small-Charente living.",
+    seoTitleEn: "Saintes — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Saintes (Charente-Maritime, Nouvelle-Aquitaine): quality-of-life score 7.2/10. Gallo-Roman heritage, refined Charente city, Cognac and Atlantic nearby.",
     scores: {
       global: 7.2,
       life: 8.0,
@@ -3151,6 +3156,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 24.0,
     avgTempJanuary: 2.0,
     characterTags: ["thermale", "lac-du-Bourget", "alpes", "nature", "spa", "sports-nautiques"],
+    descriptionEn:
+      "Aix-les-Bains sits on Lac du Bourget (France's largest natural lake) — thermal Belle-Époque heritage, Alps on every side, Geneva 1h, Lyon 1h. Dramatically cheaper than Annecy, comparable lake-and-mountain access. Best fit: lake-and-mountain lovers, retirees with budget, thermal-spa enthusiasts, value-seeking Annecy alternatives.",
+    seoTitleEn: "Aix-les-Bains — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Aix-les-Bains (Savoie, Auvergne-Rhône-Alpes): quality-of-life score 7.6/10. Lac du Bourget, thermal heritage, cheaper Annecy alternative.",
     scores: {
       global: 7.6,
       life: 8.0,
@@ -3177,6 +3187,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 25.0,
     avgTempJanuary: 5.0,
     characterTags: ["vin", "périgord", "gastronomie", "expatriés", "authenticité", "vallée-dordogne"],
+    descriptionEn:
+      "Bergerac is the heart of the British-expat Dordogne — Bergerac wine appellation, riverside historic centre, established Anglo expat community since the 1980s, gastronomic Périgord lifestyle. Best fit: British and Anglo retirees seeking established community, gastronomes, Dordogne-region property buyers.",
+    seoTitleEn: "Bergerac — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Bergerac (Dordogne, Nouvelle-Aquitaine): quality-of-life score 6.9/10. Bergerac wine country, established British retiree community, refined Périgord.",
     scores: {
       global: 6.9,
       life: 7.2,
@@ -3203,6 +3218,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 26.0,
     avgTempJanuary: 8.0,
     characterTags: ["plage", "bassin", "dune-du-Pilat", "voile", "nature", "station-balnéaire"],
+    descriptionEn:
+      "Arcachon is the Bordeaux-region Atlantic seaside resort — Bassin d'Arcachon oyster country, Dune du Pilat (Europe's tallest sand dune), Belle-Époque villas, Bordeaux 50 minutes by train. Premium pricing, exceptional lifestyle. Best fit: oyster and seafood lovers, sailors, retirees with budget, Bordeaux-region weekend or remote workers.",
+    seoTitleEn: "Arcachon — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Arcachon (Gironde, Nouvelle-Aquitaine): quality-of-life score 7.4/10. Atlantic Bassin d'Arcachon, Dune du Pilat, oyster country, premium.",
     scores: {
       global: 7.4,
       life: 8.0,
@@ -3229,6 +3249,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 23.0,
     avgTempJanuary: 1.0,
     characterTags: ["lac-Léman", "alpes", "frontalier", "montagne", "pêche", "thermal"],
+    descriptionEn:
+      "Thonon-les-Bains sits on the French shore of Lake Geneva (Léman) — Geneva 40 minutes by ferry across the lake, Swiss border 15 minutes by car, Alpine ski stations within an hour. Strong Swiss cross-border worker market. Best fit: Geneva-employed professionals (Swiss salaries, French residence), lake-and-mountain families, retirees with budget.",
+    seoTitleEn: "Thonon-les-Bains — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Thonon-les-Bains (Haute-Savoie, Auvergne-Rhône-Alpes): quality-of-life score 7.3/10. Lake Geneva shore, Geneva ferry, Swiss cross-border hub.",
     scores: {
       global: 7.3,
       life: 7.5,
@@ -3255,6 +3280,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 29.0,
     avgTempJanuary: 6.0,
     characterTags: ["Provence", "base-aérienne", "soleil", "terroir", "Nostradamus", "accessibilité"],
+    descriptionEn:
+      "Salon-de-Provence sits between Aix-en-Provence and Avignon — sunny Provençal mid-sized town, Nostradamus heritage, Air Force base (Patrouille de France), affordable for the region. Best fit: Air Force families, Provence-seekers on moderate budget, retirees wanting Provençal mid-sized town living.",
+    seoTitleEn: "Salon-de-Provence — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Salon-de-Provence (Bouches-du-Rhône, PACA): quality-of-life score 6.8/10. Between Aix and Avignon, Provençal mid-town, Patrouille de France base.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -3281,6 +3311,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 28.0,
     avgTempJanuary: 7.0,
     characterTags: ["Venise-Provençale", "canaux", "Provence", "pêche", "mer", "authenticité"],
+    descriptionEn:
+      "Martigues is the 'Venise Provençale' — canals, fishing-village charm, Étang de Berre lagoon, dramatically cheaper than coastal Var or Bouches-du-Rhône hotspots. Petrochemical-industry adjacent. Best fit: ultra-budget Mediterranean households, fishing-and-boating enthusiasts, industrial-Marseille-area workers.",
+    seoTitleEn: "Martigues — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Martigues (Bouches-du-Rhône, PACA): quality-of-life score 6.6/10. Venise Provençale canals, Étang de Berre, authentic Provençal fishing town.",
     scores: {
       global: 6.6,
       life: 7.0,
@@ -3307,6 +3342,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 19.0,
     avgTempJanuary: 4.0,
     characterTags: ["frontière", "Tunnel-sous-la-Manche", "port", "dentelle", "reconversion", "Manche"],
+    descriptionEn:
+      "Calais is the major Channel ferry-and-Tunnel hub — direct rail and ferry to Dover, dramatically affordable, the historic lace and tulle industry. Going through significant urban renewal. Best fit: UK-France commuters, Channel-Tunnel professionals, ultra-budget households, freight-and-logistics workers.",
+    seoTitleEn: "Calais — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Calais (Pas-de-Calais, Hauts-de-France): quality-of-life score 6.1/10. Channel ferry and Tunnel hub, dramatically affordable, UK-France gateway.",
     scores: {
       global: 6.1,
       life: 6.5,
@@ -3333,6 +3373,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 19.0,
     avgTempJanuary: 3.5,
     characterTags: ["Louvre-Lens", "reconversion", "charbon", "culture", "accessibilité", "football"],
+    descriptionEn:
+      "Lens is the post-mining Nord city — Louvre-Lens (decentralised branch of the Paris Louvre, free for permanent collection) is the cultural surprise, UNESCO mining heritage, football capital (RC Lens), exceptionally affordable. Best fit: cultural buyers seeking ultra-cheap property, football fans, ultra-budget households.",
+    seoTitleEn: "Lens — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Lens (Pas-de-Calais, Hauts-de-France): quality-of-life score 6.3/10. Louvre-Lens, UNESCO mining heritage, RC Lens football, dramatically affordable.",
     scores: {
       global: 6.3,
       life: 6.5,
@@ -3359,6 +3404,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 19.5,
     avgTempJanuary: 3.0,
     characterTags: ["Toyota", "automobile", "université", "Watteau", "reconversion", "frontalier"],
+    descriptionEn:
+      "Valenciennes is the Toyota-France manufacturing city — major industrial jobs (Onnaing plant), strong university, Belgian border 15 minutes, Lille 30 minutes. Watteau's birthplace, dramatically affordable. Best fit: automotive manufacturing professionals, Lille-region workers wanting cheaper base, ultra-budget households.",
+    seoTitleEn: "Valenciennes — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Valenciennes (Nord, Hauts-de-France): quality-of-life score 6.2/10. Toyota France manufacturing hub, near Lille and Belgian border, very affordable.",
     scores: {
       global: 6.2,
       life: 6.5,
@@ -3385,6 +3435,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 24.0,
     avgTempJanuary: 5.5,
     characterTags: ["protestantisme", "Goya", "rugby", "Agout", "Tarn", "abordable"],
+    descriptionEn:
+      "Castres is the Tarn rugby-and-pharma city — Pierre Fabre Laboratories headquarters (major employment), Goya Museum (largest Spanish painting collection outside Spain), rugby identity strong. Affordable, sunny. Best fit: pharma professionals, rugby fans, ultra-budget Southwest-France households, families.",
+    seoTitleEn: "Castres — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Castres (Tarn, Occitanie): quality-of-life score 7.0/10. Tarn rugby town, Pierre Fabre HQ, Goya Museum, sunny, affordable.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -3411,6 +3466,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 28.0,
     avgTempJanuary: 9.0,
     characterTags: ["soleil", "îles-d-or", "palmiers", "mer", "kite-surf", "presqu-île-giens"],
+    descriptionEn:
+      "Hyères is the Var-coast Mediterranean city — exceptional sun, Îles d'Or (Porquerolles, Port-Cros) offshore, dramatic Presqu'île de Giens, palm-lined boulevards. More accessible than Saint-Tropez, premium for mainland Var. Best fit: kite-surfers and sailors, retirees with budget, lifestyle-first remote workers, Mediterranean island lovers.",
+    seoTitleEn: "Hyères — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Hyères (Var, PACA): quality-of-life score 7.5/10. Var Mediterranean coast, Îles d'Or, Presqu'île de Giens, palm boulevards, premium.",
     scores: {
       global: 7.5,
       life: 8.0,
@@ -3437,6 +3497,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.0,
     avgTempJanuary: 1.5,
     characterTags: ["forêt", "Alsace", "médiéval", "Hop", "frontalier-Allemagne", "accessible"],
+    descriptionEn:
+      "Haguenau is the north-Alsace mid-sized town — Strasbourg 30 minutes by train, Germany 15 minutes away, the Forêt de Haguenau (one of France's largest oak-and-hornbeam forests), refined Alsatian heritage. Best fit: Strasbourg-region workers seeking cheaper base, Germany-cross-border professionals, families wanting Alsatian small-town living.",
+    seoTitleEn: "Haguenau — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Haguenau (Bas-Rhin, Grand Est): quality-of-life score 7.2/10. North-Alsace town, 30 min train to Strasbourg, German border, vast oak forest.",
     scores: {
       global: 7.2,
       life: 7.5,
@@ -3463,6 +3528,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 23.5,
     avgTempJanuary: 3.5,
     characterTags: ["textile", "Troisgros", "gastronomie", "Loire", "authenticité", "abordable"],
+    descriptionEn:
+      "Roanne is the Loire department city famous for Troisgros (one of France's longest-running three-star Michelin family restaurants) and historic textile manufacturing. Dramatically affordable, Lyon 70 minutes by train. Best fit: gastronomes, Lyon-region workers wanting ultra-cheap base, ultra-budget households.",
+    seoTitleEn: "Roanne — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Roanne (Loire, Auvergne-Rhône-Alpes): quality-of-life score 6.8/10. Loire department city, Troisgros gastronomy heritage, very affordable.",
     scores: {
       global: 6.8,
       life: 7.2,
@@ -3489,6 +3559,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 19.5,
     avgTempJanuary: 3.0,
     characterTags: ["beffroi", "Gayant", "université", "charbon", "reconversion", "historique"],
+    descriptionEn:
+      "Douai is the Nord university city — UNESCO beffroi, the giant Gayant festival figures, École des Mines engineering school, Lille 30 minutes by train. Dramatically affordable, dynamic for its size. Best fit: engineering and tech students, Lille-region workers wanting cheaper base, ultra-budget households.",
+    seoTitleEn: "Douai — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Douai (Nord, Hauts-de-France): quality-of-life score 6.4/10. Nord university city, UNESCO beffroi, École des Mines, near Lille, very affordable.",
     scores: {
       global: 6.4,
       life: 6.8,
