@@ -4520,6 +4520,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4.8,
     characterTags: ["populaire", "artiste", "Seine", "transformation", "mixité", "abordable"],
+    descriptionEn:
+      "Ivry-sur-Seine is the south-east-Paris adjacent suburb — working-class transforming into creative-bohemian, Seine-side, metro line 7 direct, affordable for Paris-adjacency. Best fit: artists and creatives, young families seeking diverse Paris-adjacent base at moderate budget.",
+    seoTitleEn: "Ivry-sur-Seine — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Ivry-sur-Seine (Val-de-Marne, Île-de-France): quality-of-life score 7.0/10. South-east Paris adjacent, Seine-side, transforming, creative, affordable.",
     scores: {
       global: 7.0,
       life: 7.0,
@@ -4546,6 +4551,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4.8,
     characterTags: ["préfecture", "lac", "ville-nouvelle", "université", "dynamique", "accessible"],
+    descriptionEn:
+      "Créteil is the Val-de-Marne prefecture — major new-town suburb southeast of Paris, large university (UPEC), lake, metro line 8 to central Paris. Affordable for Île-de-France. Best fit: UPEC students, families seeking cheaper Paris-region base, hospital and administration workers.",
+    seoTitleEn: "Créteil — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Créteil (Val-de-Marne, Île-de-France): quality-of-life score 6.8/10. Val-de-Marne prefecture, new-town, UPEC university, lake, metro to Paris.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -4572,6 +4582,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.0,
     avgTempJanuary: 4.5,
     characterTags: ["résidentiel", "calme", "Malmaison", "Total-Énergies", "famille", "banlieue-verte"],
+    descriptionEn:
+      "Rueil-Malmaison is the west-Paris green residential suburb — Château de Malmaison (Joséphine de Beauharnais's home), Total Energies HQ, family-friendly, leafy, RER A to central Paris in 25 minutes. Best fit: corporate Total professionals, families with school-age children, refined suburb-seekers.",
+    seoTitleEn: "Rueil-Malmaison — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Rueil-Malmaison (Hauts-de-Seine, Île-de-France): quality-of-life score 7.8/10. West-Paris green suburb, Total HQ, Château de Malmaison, family-friendly.",
     scores: {
       global: 7.8,
       life: 8.0,
@@ -4598,6 +4613,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4.8,
     characterTags: ["résidentiel", "populaire", "banlieue", "accessible", "famille", "mixité"],
+    descriptionEn:
+      "Colombes is the northwest-Paris mid-density suburb — mixed-class residential character, RER C and Transilien access, affordable for the area. Best fit: middle-class families seeking budget Paris-adjacent base, La Défense corporate professionals wanting cheaper alternative to Levallois.",
+    seoTitleEn: "Colombes — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Colombes (Hauts-de-Seine, Île-de-France): quality-of-life score 7.0/10. Northwest-Paris mid-density suburb, mixed residential, RER access.",
     scores: {
       global: 7.0,
       life: 7.0,
@@ -4624,6 +4644,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.0,
     avgTempJanuary: 4.5,
     characterTags: ["Seine", "impressionnisme", "populaire", "accessible", "mixité", "sport"],
+    descriptionEn:
+      "Argenteuil is the Val-d'Oise Seine suburb — Monet's painting heritage (the famous Argenteuil bridge), working-class character, J line and Transilien direct to Saint-Lazare in 15 minutes. Best fit: Paris-region workers seeking very cheap base, ultra-budget households, Monet-history enthusiasts.",
+    seoTitleEn: "Argenteuil — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Argenteuil (Val-d'Oise, Île-de-France): quality-of-life score 6.5/10. Val-d'Oise Seine suburb, Monet impressionist heritage, very affordable.",
     scores: {
       global: 6.5,
       life: 6.5,
@@ -4650,6 +4675,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4.8,
     characterTags: ["La-Défense", "université", "populaire", "dynamique", "quartier-d-affaires", "accessibilité"],
+    descriptionEn:
+      "Nanterre is the Hauts-de-Seine prefecture — La Défense business district sprawls into it, Paris Nanterre University, Arena (one of Europe's largest concert venues), RER A direct. Mixed character. Best fit: La Défense corporate professionals seeking cheaper alternative to Levallois/Neuilly, students, concert-goers.",
+    seoTitleEn: "Nanterre — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Nanterre (Hauts-de-Seine, Île-de-France): quality-of-life score 7.2/10. Hauts-de-Seine prefecture, La Défense adjacent, university, Arena venue.",
     scores: {
       global: 7.2,
       life: 7.0,
@@ -4676,6 +4706,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4.8,
     characterTags: ["populaire", "Seine", "transformation", "abordable", "diversité", "artiste"],
+    descriptionEn:
+      "Vitry-sur-Seine is the south-east Paris adjacent suburb — major MAC/VAL contemporary art museum, street-art capital of Île-de-France, Seine-side, transforming rapidly. Best fit: contemporary-art professionals, ultra-budget Paris-region households, creatives seeking affordable Paris-adjacency.",
+    seoTitleEn: "Vitry-sur-Seine — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Vitry-sur-Seine (Val-de-Marne, Île-de-France): quality-of-life score 6.8/10. South-east Paris adjacent, MAC/VAL museum, street-art capital, affordable.",
     scores: {
       global: 6.8,
       life: 6.5,
@@ -4702,6 +4737,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4.8,
     characterTags: ["La-Défense", "tertiaire", "résidentiel", "dynamique", "cadres", "banlieue-chic"],
+    descriptionEn:
+      "Courbevoie sits at the heart of La Défense business district — corporate-tower dense, refined residential, metro line 1 and RER A access. Best fit: La Défense corporate professionals wanting walking-distance to office, young professionals, families with strong corporate package.",
+    seoTitleEn: "Courbevoie — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Courbevoie (Hauts-de-Seine, Île-de-France): quality-of-life score 7.8/10. La Défense business district, corporate-tower dense, refined residential.",
     scores: {
       global: 7.8,
       life: 7.5,
@@ -4728,6 +4768,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4.8,
     characterTags: ["ville-nouvelle", "Marne-la-Vallée", "RER-A", "résidentiel", "famille", "accessible"],
+    descriptionEn:
+      "Noisy-le-Grand is the east-Paris Marne-la-Vallée new-town — modern architecture, RER A direct to central Paris in 25 minutes, family-friendly, affordable. Best fit: families seeking affordable Paris-adjacent base with RER A access, Disneyland-region workers, Cité Descartes university and tech professionals.",
+    seoTitleEn: "Noisy-le-Grand — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Noisy-le-Grand (Seine-Saint-Denis, Île-de-France): quality-of-life score 6.8/10. East-Paris new-town, RER A to centre, family-friendly, affordable.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -4754,6 +4799,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.0,
     avgTempJanuary: 4.5,
     characterTags: ["préfecture", "ville-nouvelle", "université", "accessible", "diversité", "Essonne"],
+    descriptionEn:
+      "Évry-Courcouronnes is the Essonne prefecture — Université d'Évry, modern new-town architecture, Saclay-tech-corridor adjacent, RER D direct to central Paris. Best fit: university students, Saclay-region tech professionals, families seeking affordable Île-de-France base south of Paris.",
+    seoTitleEn: "Évry-Courcouronnes — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Évry-Courcouronnes (Essonne, Île-de-France): quality-of-life score 6.5/10. Essonne prefecture, new-town, university, Saclay-tech adjacent, RER D.",
     scores: {
       global: 6.5,
       life: 6.5,
@@ -4780,6 +4830,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 26.5,
     avgTempJanuary: 12.0,
     characterTags: ["citron", "Monaco-proche", "douceur", "patrimoine", "Méditerranée", "jardins"],
+    descriptionEn:
+      "Menton is the Italian-border Côte d'Azur city — France's mildest microclimate (palms, citrus, sub-tropical gardens), Italian border 5 minutes, Monaco 15 minutes, refined Belle-Époque architecture, famous Lemon Festival each February. Best fit: refined retirees with budget, Monaco professionals, lifestyle-first remote workers.",
+    seoTitleEn: "Menton — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Menton (Alpes-Maritimes, PACA): quality-of-life score 7.8/10. Côte d'Azur Italian-border city, France's mildest microclimate, Lemon Festival.",
     scores: {
       global: 7.8,
       life: 8.5,
@@ -4806,6 +4861,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.5,
     avgTempJanuary: 6.5,
     characterTags: ["préfecture", "Napoléon", "vendée", "accessible", "calme", "Atlantique-proche"],
+    descriptionEn:
+      "La Roche-sur-Yon is the Vendée prefecture — Napoleonic-era planned town (the only pentagonal-grid French city), calm, affordable, Atlantic coast 30 minutes away. Best fit: Vendée families on moderate budget, retirees, ultra-budget households wanting Atlantic-Vendée living.",
+    seoTitleEn: "La Roche-sur-Yon — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "La Roche-sur-Yon (Vendée, Pays de la Loire): quality-of-life score 7.0/10. Vendée prefecture, Napoleonic planned town, Atlantic 30 min, affordable.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -4832,6 +4892,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.0,
     avgTempJanuary: 8.0,
     characterTags: ["plage", "Vendée-Globe", "surf", "balnéaire", "Atlantique", "voile"],
+    descriptionEn:
+      "Les Sables-d'Olonne is the Vendée Atlantic resort — Vendée Globe round-the-world race start, dramatic surf, long sandy beaches, sailing capital. Best fit: sailors and surfers, family beach-seekers, retirees with Atlantic-coast budget, lifestyle-first remote workers.",
+    seoTitleEn: "Les Sables-d'Olonne — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Les Sables-d'Olonne (Vendée, Pays de la Loire): quality-of-life score 7.5/10. Vendée Atlantic resort, Vendée Globe, surf, sailing, long beaches.",
     scores: {
       global: 7.5,
       life: 8.0,
@@ -4858,6 +4923,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 23.5,
     avgTempJanuary: 8.5,
     characterTags: ["thermes", "spa", "Landes", "forêt", "rugby", "douceur"],
+    descriptionEn:
+      "Dax is the Landes thermal-spa capital — France's leading thermal-treatment town (over 50,000 thermal patients each year), surrounded by the Landes pine forest, mild oceanic climate, Atlantic coast 30 minutes. Best fit: thermal-spa enthusiasts, retirees seeking health-tourism setting, forest-and-nature households.",
+    seoTitleEn: "Dax — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Dax (Landes, Nouvelle-Aquitaine): quality-of-life score 7.0/10. France's leading thermal-spa town, Landes pine forest, mild oceanic climate.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -4884,6 +4954,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 23.0,
     avgTempJanuary: 8.0,
     characterTags: ["préfecture", "Landes", "rugby", "forêt", "calme", "abordable"],
+    descriptionEn:
+      "Mont-de-Marsan is the Landes prefecture — rugby-fervent (Stade Montois), surrounded by the Landes pine forest, calm, affordable, Bordeaux 1h30 by train. Best fit: rugby fans, families seeking calm southwest base, ultra-budget households wanting Landes-pine-forest character.",
+    seoTitleEn: "Mont-de-Marsan — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Mont-de-Marsan (Landes, Nouvelle-Aquitaine): quality-of-life score 7.0/10. Landes prefecture, rugby town, pine forest, calm and affordable.",
     scores: {
       global: 7.0,
       life: 7.5,
