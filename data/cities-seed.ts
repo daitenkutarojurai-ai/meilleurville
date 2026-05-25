@@ -8705,6 +8705,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.0,
     avgTempJanuary: 4.0,
     characterTags: ["médiéval", "Essonne", "tour Guinette", "Paris proche", "accessible", "patrimoine", "abordable IdF"],
+    descriptionEn:
+      "Étampes is the southern Île-de-France medieval town — refined Tour Guinette and Notre-Dame collegiate, 50 minutes from Paris by RER C/Transilien, dramatically affordable for Île-de-France. Best fit: Paris commuters seeking cheap historic base inside Île-de-France, ultra-budget Paris-region households.",
+    seoTitleEn: "Étampes — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Étampes (Essonne, Île-de-France): quality-of-life score 7.0/10. South Île-de-France medieval town, 50 min to Paris, very affordable for IdF.",
     scores: {
       global: 7.0,
       life: 7.0,
@@ -8731,6 +8736,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.5,
     avgTempJanuary: 3.5,
     characterTags: ["cathédrale gothique", "Aisne", "abbaye Saint-Jean-des-Vignes", "histoire", "Paris proche", "abordable", "Picardie"],
+    descriptionEn:
+      "Soissons is the Aisne historic city — early Gothic cathedral, Abbaye Saint-Jean-des-Vignes ruins, where Clovis defeated the Romans in 486, 1h30 from Paris by train, dramatically affordable. Best fit: heritage lovers, ultra-budget households, Paris-region workers seeking cheap historic base.",
+    seoTitleEn: "Soissons — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Soissons (Aisne, Hauts-de-France): quality-of-life score 6.8/10. Aisne historic city, early Gothic cathedral, Clovis-486 heritage, very affordable.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -8757,6 +8767,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 24.0,
     avgTempJanuary: 3.5,
     characterTags: ["Beaujolais", "Rhône", "capitale du Beaujolais", "vignoble", "bouchons lyonnais", "Lyon proche", "dynamique"],
+    descriptionEn:
+      "Villefranche-sur-Saône is the Beaujolais capital — heart of Beaujolais wine country, Lyon 30 minutes by train, dynamic mid-sized economy, affordable for the Lyon-region location. Best fit: wine professionals (Beaujolais), Lyon-region workers wanting cheaper base, gastronomes, families.",
+    seoTitleEn: "Villefranche-sur-Saône — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Villefranche-sur-Saône (Rhône, Auvergne-Rhône-Alpes): quality-of-life score 7.5/10. Beaujolais capital, 30 min train to Lyon, dynamic wine country.",
     scores: {
       global: 7.5,
       life: 7.8,
@@ -8783,6 +8798,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.5,
     avgTempJanuary: 2.0,
     characterTags: ["Buffon", "canal de Bourgogne", "Côte-d'Or", "site Buffon", "calme", "abordable", "patrimoine"],
+    descriptionEn:
+      "Montbard is the Côte-d'Or town where the naturalist Buffon lived and wrote — the Grandes Forges de Buffon iron-foundry site, Canal de Bourgogne running through, dramatically affordable. Best fit: ultra-budget households, retirees seeking calm Burgundy living, history-of-science enthusiasts.",
+    seoTitleEn: "Montbard — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Montbard (Côte-d'Or, Bourgogne-Franche-Comté): quality-of-life score 6.8/10. Buffon's home, Grandes Forges iron-foundry, Canal de Bourgogne.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -8809,6 +8829,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 23.0,
     avgTempJanuary: 2.5,
     characterTags: ["pèlerinage", "Sacré-Cœur", "Saône-et-Loire", "basilique romane", "tourisme religieux", "calme", "abordable"],
+    descriptionEn:
+      "Paray-le-Monial is the Sacré-Cœur Marian pilgrimage town — refined Romanesque basilica (one of Burgundy's masterpieces), dramatically affordable. Best fit: religious-tourism professionals, ultra-budget households, retirees seeking calm Burgundy living, Romanesque art lovers.",
+    seoTitleEn: "Paray-le-Monial — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Paray-le-Monial (Saône-et-Loire, Bourgogne-Franche-Comté): quality-of-life score 7.0/10. Sacré-Cœur pilgrimage town, refined Romanesque basilica.",
     scores: {
       global: 7.0,
       life: 7.3,
@@ -8835,6 +8860,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.0,
     avgTempJanuary: 1.5,
     characterTags: ["éperon rocheux", "remparts médiévaux", "Auxois", "Côte-d'Or", "Plus Belle Village proche", "calme", "patrimoine", "abordable"],
+    descriptionEn:
+      "Semur-en-Auxois is the dramatic Côte-d'Or medieval town — perched on a granite spur with the Armançon river looping below, intact 14th-century ramparts, refined Auxois countryside, dramatically affordable. Best fit: heritage lovers, retirees seeking refined Burgundy small-town living, photographers.",
+    seoTitleEn: "Semur-en-Auxois — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Semur-en-Auxois (Côte-d'Or, Bourgogne-Franche-Comté): quality-of-life score 7.5/10. Dramatic medieval Burgundy town, intact ramparts, river loop.",
     scores: {
       global: 7.5,
       life: 7.8,
@@ -8861,6 +8891,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 26.0,
     avgTempJanuary: 5.5,
     characterTags: ["bastide royale", "Lot-et-Garonne", "pruneaux d'Agen", "Lot rivière", "marché", "soleil", "abordable"],
+    descriptionEn:
+      "Villeneuve-sur-Lot is the 13th-century royal bastide on the Lot river — pruneaux d'Agen country, exceptional Saturday market, sunny southwest, dramatically affordable. Best fit: ultra-budget households, gastronomes, retirees seeking authentic Lot-et-Garonne living, families.",
+    seoTitleEn: "Villeneuve-sur-Lot — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Villeneuve-sur-Lot (Lot-et-Garonne, Nouvelle-Aquitaine): quality-of-life score 7.0/10. 13th-century royal bastide on the Lot river, pruneaux country.",
     scores: {
       global: 7.0,
       life: 7.3,
@@ -8887,6 +8922,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 25.5,
     avgTempJanuary: 4.5,
     characterTags: ["Quercy", "Périgord Noir proche", "patrimoine medieval", "Lot", "calme", "noyers", "abordable", "soleil"],
+    descriptionEn:
+      "Gourdon is the Quercy medieval Lot town — refined hilltop heritage, between the Périgord Noir and the Lot Valley, walnut country, dramatically affordable. Best fit: refined retirees seeking Quercy living, heritage lovers, ultra-budget households, gastronomes.",
+    seoTitleEn: "Gourdon — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Gourdon (Lot, Occitanie): quality-of-life score 7.3/10. Quercy medieval hilltop Lot town, between Périgord Noir and Lot Valley, refined.",
     scores: {
       global: 7.3,
       life: 7.5,
@@ -8913,6 +8953,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 26.5,
     avgTempJanuary: 5.5,
     characterTags: ["bastide", "Garonne", "Tarn-et-Garonne", "canal du Midi proche", "abordable", "soleil", "calme"],
+    descriptionEn:
+      "Castelsarrasin is the Tarn-et-Garonne bastide town — on the Garonne river, Canal des Deux Mers (continuation of Canal du Midi) running through, sunny southwest climate, dramatically affordable. Best fit: ultra-budget households, retirees, families seeking sunny southwest small-town living, cyclists (Canal route).",
+    seoTitleEn: "Castelsarrasin — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Castelsarrasin (Tarn-et-Garonne, Occitanie): quality-of-life score 6.8/10. Tarn-et-Garonne bastide, Garonne, Canal des Deux Mers, sunny, affordable.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -8939,6 +8984,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 1.5,
     characterTags: ["vitrail Chagall", "Moselle", "Alsace-Lorraine", "Pays de Sarrebourg", "forêt", "calme", "abordable"],
+    descriptionEn:
+      "Sarrebourg is the eastern-Moselle town famous for Chagall's monumental stained-glass window in the Chapelle des Cordeliers, Vosges forests at the doorstep, German border 30 minutes, dramatically affordable. Best fit: art lovers, ultra-budget households, Vosges-forest enthusiasts, German-border professionals.",
+    seoTitleEn: "Sarrebourg — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Sarrebourg (Moselle, Grand Est): quality-of-life score 7.0/10. Eastern-Moselle, Chagall stained-glass, Vosges forests, German border, affordable.",
     scores: {
       global: 7.0,
       life: 7.2,
@@ -8965,6 +9015,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.0,
     avgTempJanuary: 1.5,
     characterTags: ["faïence", "Luxembourg frontalier", "Meurthe-et-Moselle", "sidérurgie", "Vauban", "abordable", "patrimoine"],
+    descriptionEn:
+      "Longwy is the Luxembourg-border Meurthe-et-Moselle town — UNESCO Longwy enamels heritage, Vauban-fortified upper town, Luxembourg City 30 minutes by train (major cross-border worker market), dramatically affordable. Best fit: Luxembourg-employed professionals seeking ultra-cheap French base, enamel-and-ceramic artisans.",
+    seoTitleEn: "Longwy — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Longwy (Meurthe-et-Moselle, Grand Est): quality-of-life score 6.8/10. Luxembourg border, UNESCO Longwy enamels, Vauban citadel, very affordable.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -8991,6 +9046,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 23.0,
     avgTempJanuary: 3.5,
     characterTags: ["Berry", "Cher", "Sologne proche", "Creuse proche", "calme", "abordable", "nature"],
+    descriptionEn:
+      "Saint-Amand-Montrond is the southern-Berry Cher town — between Sologne and Creuse, dramatically affordable property, calm rural setting. Best fit: ultra-budget households (some of France's cheapest property), retirees seeking calm centre-France living.",
+    seoTitleEn: "Saint-Amand-Montrond — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Saint-Amand-Montrond (Cher, Centre-Val de Loire): quality-of-life score 6.8/10. Southern-Berry Cher town, very affordable, calm rural setting.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -9017,6 +9077,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.5,
     avgTempJanuary: 5.0,
     characterTags: ["Deux-Sèvres", "bocage", "sous-préfecture", "calme", "abordable", "ruralité"],
+    descriptionEn:
+      "Bressuire is the northern Deux-Sèvres bocage town — dramatic medieval château ruins, rural Vendée-adjacent setting, dramatically affordable. Best fit: ultra-budget households, retirees seeking calm rural living, first-time buyers, families.",
+    seoTitleEn: "Bressuire — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Bressuire (Deux-Sèvres, Nouvelle-Aquitaine): quality-of-life score 6.8/10. Northern Deux-Sèvres bocage town, château ruins, rural, very affordable.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -9042,6 +9107,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 1.5,
     characterTags: ["Corrèze", "Plateau de Millevaches", "altitude", "nature", "très calme", "très abordable", "slow life"],
+    descriptionEn:
+      "Ussel is the high-altitude Corrèze Plateau de Millevaches town — 631m altitude, dramatic isolated nature park, ultra-rural, ultra-affordable. Best fit: extreme-rural-living seekers, nature retirees on tightest budgets, slow-life expats prepared for genuine isolation and snowy winters.",
+    seoTitleEn: "Ussel — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Ussel (Corrèze, Nouvelle-Aquitaine): quality-of-life score 7.0/10. High-altitude Plateau de Millevaches, 631m, ultra-rural, ultra-affordable.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -9067,6 +9137,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.5,
     avgTempJanuary: 3.0,
     characterTags: ["Loire", "Forez", "sous-préfecture", "marché", "abordable", "près Saint-Étienne"],
+    descriptionEn:
+      "Montbrison is the Forez Loire-department town — refined Plaine du Forez setting, fourme de Montbrison cheese AOP, Saint-Étienne 30 minutes, Lyon 1h, dramatically affordable. Best fit: Saint-Étienne and Lyon-region workers seeking cheap base, gastronomes, retirees.",
+    seoTitleEn: "Montbrison — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Montbrison (Loire, Auvergne-Rhône-Alpes): quality-of-life score 7.0/10. Forez Loire town, fourme de Montbrison cheese AOP, near Saint-Étienne.",
     scores: {
       global: 7.0,
       life: 7.5,
