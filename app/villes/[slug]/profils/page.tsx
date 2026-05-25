@@ -7,6 +7,7 @@ import { Footer } from "@/components/Footer";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { computeNicheScores, TERRAIN_LABELS } from "@/lib/niche-scores";
+import { cityPortraits } from "@/lib/city-portraits";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { formatScore, scoreColor } from "@/lib/utils";
 import { Users, Laptop, PawPrint, Heart, GraduationCap, MapPin, ChevronRight } from "lucide-react";
@@ -107,6 +108,7 @@ export default async function ProfilsPage({ params }: Props) {
   const sorted = [...PROFILE_META].sort((a, b) => niche[b.key] - niche[a.key]);
   const top3 = sorted.slice(0, 3);
   const bottom2 = sorted.slice(-2).reverse();
+  const portraits = cityPortraits(city, 3);
 
   // Similar-profile neighbours: Euclidean distance on the 5 niche scores
   const neighbours = CITIES_SEED.filter((c) => c.slug !== city.slug)
@@ -287,6 +289,46 @@ export default async function ProfilsPage({ params }: Props) {
                 );
               })}
             </div>
+          </div>
+        </div>
+
+        {/* Fictional portraits */}
+        <div>
+          <div className="flex items-baseline gap-3 mb-1">
+            <h2 className="text-lg font-bold text-[var(--text-primary)]">Portraits-types</h2>
+            <span className="text-[10px] uppercase tracking-wide font-semibold text-amber-700 bg-amber-100/70 rounded-full px-2 py-0.5">Personnages fictifs</span>
+          </div>
+          <p className="text-sm text-[var(--text-secondary)] mb-4">
+            3 archétypes inventés qui pourraient s&apos;épanouir à {city.name}, dérivés des scores de la ville.
+            Pas de témoignage réel — juste de quoi se projeter.
+          </p>
+          <div className="grid gap-3 sm:grid-cols-3">
+            {portraits.map((p) => (
+              <div
+                key={p.archetype}
+                className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-4 flex flex-col gap-2"
+              >
+                <div className="flex items-start justify-between gap-2">
+                  <div>
+                    <div className="text-xl mb-1">{p.emoji}</div>
+                    <div className="text-sm font-semibold text-[var(--text-primary)]">
+                      {p.name}, {p.age}
+                    </div>
+                    <div className="text-xs text-[var(--text-tertiary)] capitalize">{p.profession}</div>
+                  </div>
+                  <span className={`font-mono-data text-xs font-bold ${scoreColor(p.fitScore)}`}>
+                    {formatScore(p.fitScore)}/10
+                  </span>
+                </div>
+                <div className="text-xs text-[var(--text-secondary)] mt-1">
+                  <span className="font-semibold text-[var(--text-primary)]">Pourquoi {city.name}.</span>{" "}
+                  {p.motivation}.
+                </div>
+                <div className="text-xs text-[var(--text-tertiary)]">
+                  <span className="font-semibold">Ce qui inquiète :</span> {p.worry}.
+                </div>
+              </div>
+            ))}
           </div>
         </div>
 
