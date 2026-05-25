@@ -34,7 +34,7 @@ export default function Image() {
               color: "#f9a8d4",
               fontSize: "16px",
               fontWeight: 600,
-              width: "fit-content",
+              width: "auto", alignSelf: "flex-start",
               letterSpacing: "1px",
               textTransform: "uppercase",
             }}

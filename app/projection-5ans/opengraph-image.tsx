@@ -76,11 +76,12 @@ export default function Image() {
               fontSize: "64px",
               fontWeight: 900,
               lineHeight: 1.05,
+              display: "flex",
+              flexDirection: "column",
             }}
           >
-            Votre vie idéale
-            <br />
-            dans 5 ans
+            <span>Votre vie idéale</span>
+            <span>dans 5 ans</span>
           </div>
           <div style={{ color: "#475569", fontSize: "20px", marginTop: "4px" }}>
             {`${CITIES_SEED.length} villes · risque climatique 2040 · famille · budget · télétravail`}

@@ -63,7 +63,7 @@ export default async function Image({ params }: Props) {
                 color: "#2DD4BF",
                 fontSize: "13px",
                 fontWeight: 600,
-                width: "fit-content",
+                width: "auto", alignSelf: "flex-start",
               }}
             >
               {`${cat.emoji} ${cat.label}`}

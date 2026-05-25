@@ -35,7 +35,7 @@ export default function Image() {
               color: "#c4b5fd",
               fontSize: "16px",
               fontWeight: 600,
-              width: "fit-content",
+              width: "auto", alignSelf: "flex-start",
             }}
           >
             Lifestyle Quiz

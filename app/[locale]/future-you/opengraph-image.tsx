@@ -41,7 +41,7 @@ export default function Image() {
               color: "#fbbf24",
               fontSize: "16px",
               fontWeight: 600,
-              width: "fit-content",
+              width: "auto", alignSelf: "flex-start",
             }}
           >
             ✨ Life Simulator
