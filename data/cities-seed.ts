@@ -8240,6 +8240,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.0,
     avgTempJanuary: 3.5,
     characterTags: ["cathédrale gothique", "Yonne", "proche Paris", "accessible", "patrimoine", "calme", "abordable"],
+    descriptionEn:
+      "Sens is the northern Yonne Gothic cathedral city — Saint-Étienne (the first French Gothic cathedral, predating Notre-Dame de Paris), 1 hour by train to Paris, dramatically affordable. Best fit: Paris commuters seeking cheap historic base, heritage lovers, ultra-budget households.",
+    seoTitleEn: "Sens — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Sens (Yonne, Bourgogne-Franche-Comté): quality-of-life score 7.0/10. First French Gothic cathedral, 1h to Paris, very affordable, calm.",
     scores: {
       global: 7.0,
       life: 7.0,
@@ -8266,6 +8271,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 25.5,
     avgTempJanuary: 5.0,
     characterTags: ["armagnac", "Gers", "cathédrale", "bastide", "Chemin Saint-Jacques", "calme", "gastronomie", "soleil"],
+    descriptionEn:
+      "Condom (yes, that's the real name) is the Armagnac capital — heart of Gascony brandy country, refined cathedral, Saint-Jacques pilgrimage stop, dramatically affordable. Best fit: spirits-and-wine professionals (Armagnac), gastronomes, ultra-budget households, retirees seeking authentic Gascon living.",
+    seoTitleEn: "Condom — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Condom (Gers, Occitanie): quality-of-life score 7.2/10. Armagnac brandy capital, refined Gascon cathedral, Saint-Jacques pilgrimage, very affordable.",
     scores: {
       global: 7.2,
       life: 7.5,
@@ -8292,6 +8302,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 26.0,
     avgTempJanuary: 5.5,
     characterTags: ["cloître roman", "UNESCO", "Garonne", "canal du Midi", "chasselas", "pèlerinage", "abordable", "soleil"],
+    descriptionEn:
+      "Moissac is the UNESCO Romanesque Tarn-et-Garonne town — exceptional Saint-Pierre abbey cloister (one of Europe's most refined Romanesque sculpture ensembles), chasselas grape capital, Saint-Jacques pilgrimage stop. Best fit: heritage lovers, ultra-budget households, retirees seeking authentic southwest living.",
+    seoTitleEn: "Moissac — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Moissac (Tarn-et-Garonne, Occitanie): quality-of-life score 7.3/10. UNESCO Romanesque cloister, chasselas grape, Saint-Jacques pilgrimage.",
     scores: {
       global: 7.3,
       life: 7.5,
@@ -8318,6 +8333,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.5,
     avgTempJanuary: 2.5,
     characterTags: ["basilique Saint-Julien", "Haute-Loire", "saumon", "Allier", "bastide", "patrimoine roman", "calme", "abordable"],
+    descriptionEn:
+      "Brioude is the Haute-Loire Romanesque jewel — exceptional Saint-Julien basilica (largest Romanesque church in Auvergne), wild Allier salmon-river setting, dramatically affordable. Best fit: heritage lovers, ultra-budget households, fly-fishing enthusiasts, retirees seeking calm Auvergne living.",
+    seoTitleEn: "Brioude — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Brioude (Haute-Loire, Auvergne-Rhône-Alpes): quality-of-life score 7.2/10. Largest Romanesque church in Auvergne, wild Allier river, affordable.",
     scores: {
       global: 7.2,
       life: 7.5,
@@ -8344,6 +8364,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.5,
     avgTempJanuary: 3.5,
     characterTags: ["Berry", "Balzac", "Indre", "artisanat", "calme", "abordable", "patrimoine", "plain-pied"],
+    descriptionEn:
+      "Issoudun is the Berry Indre town immortalised in Balzac's 'La Rabouilleuse' — calm flat-country setting, dramatically affordable, refined small-Berry-town heritage. Best fit: ultra-budget households, literary tourists, retirees seeking authentic Berry living on tight budget.",
+    seoTitleEn: "Issoudun — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Issoudun (Indre, Centre-Val de Loire): quality-of-life score 6.8/10. Berry Indre town, Balzac literary setting, calm, dramatically affordable.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -8370,6 +8395,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 19.5,
     avgTempJanuary: 4.0,
     characterTags: ["Baie de Somme", "Somme", "marais", "oiseaux", "collégiale Saint-Vulfran", "abordable", "Picardie", "nature"],
+    descriptionEn:
+      "Abbeville is the gateway to the Baie de Somme — France's most spectacular bird sanctuary, dramatic Channel-coast salt marshes, Marquenterre nature reserve, dramatically affordable. Best fit: birdwatchers, ultra-budget households, nature retirees, photographers.",
+    seoTitleEn: "Abbeville — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Abbeville (Somme, Hauts-de-France): quality-of-life score 6.8/10. Baie de Somme gateway, bird sanctuary, salt marshes, very affordable.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -8396,6 +8426,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.5,
     avgTempJanuary: 4.0,
     characterTags: ["Château-Gaillard", "Richard Cœur de Lion", "Seine", "falaises", "Eure", "Normandie", "calme", "patrimoine"],
+    descriptionEn:
+      "Les Andelys is the dramatic Eure Seine-valley town — Richard the Lionheart's Château-Gaillard above the river, white-chalk cliffs, refined Normandy heritage, Paris 1h30. Best fit: heritage lovers, Paris-region workers seeking dramatic historic base, retirees, photographers.",
+    seoTitleEn: "Les Andelys — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Les Andelys (Eure, Normandie): quality-of-life score 7.2/10. Dramatic Seine-valley town, Richard the Lionheart's Château-Gaillard, chalk cliffs.",
     scores: {
       global: 7.2,
       life: 7.5,
@@ -8422,6 +8457,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.0,
     avgTempJanuary: 4.0,
     characterTags: ["proche Paris", "Eure-et-Loir", "chapelle royale", "Blanche de Castille", "accessible", "périurbain", "abordable"],
+    descriptionEn:
+      "Dreux is the Eure-et-Loir Paris-region city — Chapelle royale Saint-Louis (Orléans family mausoleum), 1h to Paris by train, dramatically affordable, periurban character. Best fit: Paris commuters wanting cheap base, ultra-budget households.",
+    seoTitleEn: "Dreux — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Dreux (Eure-et-Loir, Centre-Val de Loire): quality-of-life score 6.8/10. Paris-region commuter city, royal chapel, 1h to Paris, very affordable.",
     scores: {
       global: 6.8,
       life: 6.8,
@@ -8448,6 +8488,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 25.0,
     avgTempJanuary: 3.5,
     characterTags: ["Cévennes", "Lozère", "Robert Louis Stevenson", "âne", "nature sauvage", "randonnée", "calme absolu", "UNESCO"],
+    descriptionEn:
+      "Florac-Trois-Rivières is the Cévennes National Park gateway — Stevenson's Travels with a Donkey route starts here, UNESCO Causses-Cévennes pastoral landscape, dramatic three-river setting, extreme calm. Best fit: hikers and donkey-trekkers, nature retirees, slow-life expats prepared for genuine isolation.",
+    seoTitleEn: "Florac-Trois-Rivières — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Florac-Trois-Rivières (Lozère, Occitanie): quality-of-life score 7.5/10. Cévennes National Park gateway, Stevenson route start, UNESCO landscape.",
     scores: {
       global: 7.5,
       life: 7.8,
@@ -8474,6 +8519,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 2.0,
     characterTags: ["plus grand château-fort d'Europe", "Ardennes", "drap de Sedan", "Meuse", "patrimoine", "abordable", "nature"],
+    descriptionEn:
+      "Sedan is the Ardennes city with Europe's largest fortified castle — Meuse river, dramatic Ardennes-forest setting, Belgian border 15 minutes, dramatically affordable. Best fit: heritage lovers, ultra-budget households, Belgian-border professionals, retirees seeking calm Ardennes living.",
+    seoTitleEn: "Sedan — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Sedan (Ardennes, Grand Est): quality-of-life score 6.8/10. Europe's largest fortified castle, Meuse river, Ardennes forest, very affordable.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -8500,6 +8550,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.5,
     avgTempJanuary: 2.5,
     characterTags: ["Champagne", "Aube", "vignoble", "Jeanne d'Arc proche", "calme", "abordable", "patrimoine"],
+    descriptionEn:
+      "Bar-sur-Aube is the southern-Aube Champagne wine town — Côte des Bar champagne country, refined small-town heritage, dramatically affordable for Champagne-region living. Best fit: champagne professionals seeking cheaper Aube base than Reims/Épernay, retirees, ultra-budget households.",
+    seoTitleEn: "Bar-sur-Aube — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Bar-sur-Aube (Aube, Grand Est): quality-of-life score 7.0/10. Southern-Aube Champagne wine town, Côte des Bar country, very affordable.",
     scores: {
       global: 7.0,
       life: 7.3,
@@ -8526,6 +8581,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.0,
     avgTempJanuary: 2.0,
     characterTags: ["Saône", "musée Baron-Martin", "Haute-Saône", "port fluvial", "calme", "patrimoine", "abordable"],
+    descriptionEn:
+      "Gray is the Saône-side Haute-Saône town — historic river port, refined Baron-Martin museum, dramatically affordable. Best fit: ultra-budget households, retirees seeking calm river-town living, river-boating enthusiasts.",
+    seoTitleEn: "Gray — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Gray (Haute-Saône, Bourgogne-Franche-Comté): quality-of-life score 6.8/10. Saône-side river port, Baron-Martin museum, calm, very affordable.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -8552,6 +8612,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.0,
     avgTempJanuary: 3.5,
     characterTags: ["porcelaine", "kaolin", "Haute-Vienne", "collines du Limousin", "calme", "patrimoine", "nature", "abordable"],
+    descriptionEn:
+      "Saint-Yrieix-la-Perche is the Haute-Vienne porcelain-kaolin town — the kaolin clay deposits that made Limoges porcelain world-famous originate here, refined Limousin heritage, dramatically affordable. Best fit: ceramic-and-porcelain artisans, retirees seeking calm Limousin living, ultra-budget households.",
+    seoTitleEn: "Saint-Yrieix-la-Perche — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Saint-Yrieix-la-Perche (Haute-Vienne, Nouvelle-Aquitaine): quality-of-life score 7.0/10. Porcelain-kaolin Limousin town, refined heritage, affordable.",
     scores: {
       global: 7.0,
       life: 7.3,
@@ -8578,6 +8643,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.5,
     avgTempJanuary: 4.5,
     characterTags: ["château médiéval", "rivière Mayenne", "Pays de la Loire", "calme", "abordable", "patrimoine", "famille"],
+    descriptionEn:
+      "Mayenne is the eponymous-river Mayenne town — refined 11th-century medieval château above the river, calm, family-friendly, dramatically affordable. Best fit: ultra-budget households, families seeking calm small-town living, heritage lovers, retirees.",
+    seoTitleEn: "Mayenne — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Mayenne (Mayenne, Pays de la Loire): quality-of-life score 7.0/10. Eponymous-river town, 11th-century medieval château, family-friendly, affordable.",
     scores: {
       global: 7.0,
       life: 7.2,
@@ -8604,6 +8674,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.0,
     avgTempJanuary: 2.5,
     characterTags: ["abbaye des Prémontrés", "Moselle", "Meurthe-et-Moselle", "place Duroc", "entre Nancy et Metz", "abordable", "patrimoine"],
+    descriptionEn:
+      "Pont-à-Mousson sits between Nancy and Metz on the Moselle — refined 18th-century Abbaye des Prémontrés (now cultural centre), Place Duroc, both Lorraine capitals within 20 minutes by train, affordable. Best fit: Nancy-Metz commuters seeking cheap historic base, ultra-budget households, heritage lovers.",
+    seoTitleEn: "Pont-à-Mousson — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Pont-à-Mousson (Meurthe-et-Moselle, Grand Est): quality-of-life score 7.0/10. Between Nancy and Metz, Abbaye des Prémontrés, refined and affordable.",
     scores: {
       global: 7.0,
       life: 7.2,
