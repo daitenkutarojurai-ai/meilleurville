@@ -1,0 +1,57 @@
+{
+  "name": "MeilleurVille — Social Post (FB ready)",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 10 * * *"
+            }
+          ]
+        }
+      },
+      "id": "trigger",
+      "name": "Daily 10:00",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [240, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "const messages = [\n  'Quelle ville française vous correspond vraiment ? On a classé 540 villes sur 8 critères (vie, transport, nature, coût, sécurité, culture, télétravail, écoles). Sans bullshit, données SSMSI + Insee + observatoires des loyers. 👉 https://mavilleideale.fr',\n  'Top 3 villes pour le télétravail en 2026, données à l\\'appui : 👉 https://mavilleideale.fr/classements/teletravail',\n  'Climat 2040 par région française : ce qui change vraiment chez vous. 👉 https://mavilleideale.fr/guides',\n  'Acheter ou louer en 2026 ? On a calculé le seuil par ville. 👉 https://mavilleideale.fr',\n  'Vivre sans voiture en France : les 12 villes où c\\'est réaliste. 👉 https://mavilleideale.fr/guides'\n];\nconst pick = messages[Math.floor(Math.random() * messages.length)];\nreturn [{ json: { message: pick } }];"
+      },
+      "id": "pickmsg",
+      "name": "Pick rotating message",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [460, 300]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "=https://graph.facebook.com/v21.0/{{$env.FB_PAGE_ID}}/feed",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            { "name": "message", "value": "={{$json.message}}" },
+            { "name": "access_token", "value": "={{$env.FB_PAGE_TOKEN}}" }
+          ]
+        },
+        "options": {}
+      },
+      "id": "fbpost",
+      "name": "Facebook — Publish",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [700, 300]
+    }
+  ],
+  "connections": {
+    "Daily 10:00": { "main": [[{ "node": "Pick rotating message", "type": "main", "index": 0 }]] },
+    "Pick rotating message": { "main": [[{ "node": "Facebook — Publish", "type": "main", "index": 0 }]] }
+  },
+  "settings": { "executionOrder": "v1" },
+  "active": false
+}
