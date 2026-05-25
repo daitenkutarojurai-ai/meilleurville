@@ -6,6 +6,7 @@ import { Badge } from "@/components/ui/Badge";
 import { Card } from "@/components/ui/Card";
 import { ScoreBar } from "@/components/ui/ScoreBar";
 import { CityDiscussionTabs } from "@/components/CityDiscussionTabs";
+import { AlerteForm } from "@/components/AlerteForm";
 import { FavoriteButton } from "@/components/effects/FavoriteButton";
 import { FollowCityButton } from "@/components/FollowCityButton";
 import { GrainOverlay } from "@/components/effects/GrainOverlay";
@@ -1204,6 +1205,9 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
       <section className="border-t border-[var(--border)] py-10">
         <div id="discussions" className="mx-auto max-w-5xl px-4 sm:px-6 scroll-mt-24">
           <CityDiscussionTabs citySlug={city.slug} cityName={city.name} />
+          <div className="mt-4 max-w-sm">
+            <AlerteForm citySlug={city.slug} cityName={city.name} locale="fr" />
+          </div>
         </div>
       </section>
 
