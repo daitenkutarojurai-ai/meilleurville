@@ -5915,6 +5915,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.0,
     avgTempJanuary: 7.5,
     characterTags: ["Bretagne", "Belle Époque", "plage", "villas", "Saint-Malo-proche", "prestige", "balnéaire"],
+    descriptionEn:
+      "Dinard is the Belle-Époque Brittany resort across the bay from Saint-Malo — the historic British-aristocrat seaside (Edwardian and Victorian villas), refined sandy beaches, golf and casino. Best fit: refined British-and-Anglo retirees with established community, second-home owners, Belle-Époque architecture lovers.",
+    seoTitleEn: "Dinard — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Dinard (Ille-et-Vilaine, Bretagne): quality-of-life score 7.8/10. Belle-Époque Brittany resort, British-aristocrat villas, refined beaches.",
     scores: {
       global: 7.8,
       life: 8.5,
@@ -5941,6 +5946,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 26.5,
     avgTempJanuary: 9.5,
     characterTags: ["Catalogne", "Méditerranée", "art", "Côte Vermeille", "château", "anchois", "pittoresque"],
+    descriptionEn:
+      "Collioure is the postcard Catalan-coast harbour — birthplace of Fauvism (Matisse and Derain painted here in 1905), the Royal Château guarding the bay, anchovy heritage, Spanish border 25 minutes. Best fit: artists, refined retirees, lifestyle remote workers wanting the most pittoresque Mediterranean France.",
+    seoTitleEn: "Collioure — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Collioure (Pyrénées-Orientales, Occitanie): quality-of-life score 7.9/10. Catalan-coast Fauvism birthplace, Royal Château, refined Mediterranean.",
     scores: {
       global: 7.9,
       life: 9.0,
@@ -5967,6 +5977,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.0,
     avgTempJanuary: 4.5,
     characterTags: ["médiéval", "royal", "cathédrale", "Paris-proche", "forêt", "calme", "patrimoine"],
+    descriptionEn:
+      "Senlis is the medieval Oise royal city — early Gothic cathedral, intact medieval centre, surrounded by the vast Chantilly and Halatte royal forests, 40 minutes from Paris. Refined, family-friendly. Best fit: Paris-region executives wanting historic forest setting, families seeking refined Oise base, heritage lovers.",
+    seoTitleEn: "Senlis — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Senlis (Oise, Hauts-de-France): quality-of-life score 7.6/10. Medieval royal city, Gothic cathedral, Chantilly forest, 40 min from Paris.",
     scores: {
       global: 7.6,
       life: 8.0,
@@ -5993,6 +6008,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 19.5,
     avgTempJanuary: 7.5,
     characterTags: ["Bretagne", "viaduc", "authentique", "marché", "maisons-à-lanterne", "mer-proche", "abordable"],
+    descriptionEn:
+      "Morlaix is the north-Finistère Breton port — dramatic granite viaduct over the town, distinctive 'lantern houses' medieval architecture, working harbour, dramatically affordable. Best fit: authenticity-seekers, retirees wanting authentic Breton living, ultra-budget households, artists.",
+    seoTitleEn: "Morlaix — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Morlaix (Finistère, Bretagne): quality-of-life score 7.1/10. North-Finistère port, granite viaduct, lantern houses, authentic, affordable.",
     scores: {
       global: 7.1,
       life: 7.5,
@@ -6019,6 +6039,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.5,
     avgTempJanuary: 4.0,
     characterTags: ["UNESCO", "médiéval", "Paris-proche", "roses", "remparts", "tourisme", "campagne Île-de-France"],
+    descriptionEn:
+      "Provins is the UNESCO medieval Seine-et-Marne town — intact 12th-century ramparts, historic Champagne-fair trade-route capital, famous Provins roses, 1h25 from Paris. Refined Île-de-France countryside. Best fit: heritage lovers, Paris-region weekend-home owners, medieval-tourism households.",
+    seoTitleEn: "Provins — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Provins (Seine-et-Marne, Île-de-France): quality-of-life score 7.3/10. UNESCO medieval town, intact ramparts, Provins roses, 1h25 from Paris.",
     scores: {
       global: 7.3,
       life: 7.5,
@@ -6045,6 +6070,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.0,
     avgTempJanuary: 1.5,
     characterTags: ["Jura", "Genève-proche", "zone-franche", "pouvoir-d-achat", "montagne", "frontalier", "expatriés"],
+    descriptionEn:
+      "Gex is the Pays-de-Gex Geneva-border zone — Geneva 20 minutes, free-trade zone, Mont Jura skiing on the doorstep, dramatic Alps views, major Geneva cross-border worker community. Best fit: Geneva-employed professionals seeking mountain-French residence with Swiss salaries, expat families.",
+    seoTitleEn: "Gex — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Gex (Ain, Auvergne-Rhône-Alpes): quality-of-life score 7.7/10. Pays-de-Gex Geneva-border zone, free-trade, Jura skiing, cross-border hub.",
     scores: {
       global: 7.7,
       life: 8.0,
@@ -6071,6 +6101,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 27.5,
     avgTempJanuary: 10.0,
     characterTags: ["Var", "Riviera", "prestige", "luxe", "plages", "jet-set", "vignobles AOP"],
+    descriptionEn:
+      "Saint-Tropez is the legendary Var-coast jet-set village — Brigitte Bardot heritage, Pampelonne beach clubs, Côtes-de-Provence rosé country, ultra-premium prices. Mostly seasonal (Oct-April quiet). Best fit: jet-set retirees with substantial budget, lifestyle remote workers prepared for tourist intensity, second-home owners.",
+    seoTitleEn: "Saint-Tropez — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Saint-Tropez (Var, PACA): quality-of-life score 7.5/10. Jet-set Var village, Pampelonne beaches, Côtes-de-Provence rosé, ultra-premium.",
     scores: {
       global: 7.5,
       life: 9.0,
@@ -6097,6 +6132,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 24.0,
     avgTempJanuary: 9.0,
     characterTags: ["surf", "Landes", "Atlantique", "pins", "lac", "jeunesse", "Côte Basque-proche"],
+    descriptionEn:
+      "Hossegor (officially Soorts-Hossegor) is the world surfing capital — Pro France WSL contest each fall, world-class barrel waves, pine-forest setting, refined surf-lifestyle living. Best fit: serious surfers, surf-industry professionals (Quiksilver, Rip Curl HQ nearby), lifestyle remote workers in surf culture.",
+    seoTitleEn: "Hossegor — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Hossegor (Landes, Nouvelle-Aquitaine): quality-of-life score 7.8/10. World surfing capital, Pro France WSL, world-class barrels, pine forest.",
     scores: {
       global: 7.8,
       life: 9.0,
@@ -6123,6 +6163,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.5,
     avgTempJanuary: 2.5,
     characterTags: ["Alsace", "Route des Vins", "colombages", "remparts", "vignobles", "Strasbourg-proche", "médiéval"],
+    descriptionEn:
+      "Obernai consistently ranks among France's top quality-of-life small towns — postcard-Alsatian half-timbered centre, intact medieval ramparts, on the Alsace Wine Route, Strasbourg 30 minutes by train. Best fit: refined retirees, wine professionals, families seeking premium Alsatian small-town living.",
+    seoTitleEn: "Obernai — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Obernai (Bas-Rhin, Grand Est): quality-of-life score 8.2/10. Top-ranked Alsatian small town, half-timbered centre, Wine Route, 30 min Strasbourg.",
     scores: {
       global: 8.2,
       life: 9.0,
@@ -6149,6 +6194,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 26.0,
     avgTempJanuary: 9.5,
     characterTags: ["Alpes-Maritimes", "Riviera", "Nice-proche", "abordable", "Renoir", "hippodrome", "plage"],
+    descriptionEn:
+      "Cagnes-sur-Mer is the value Côte d'Azur city between Nice and Cannes — Renoir spent his last years here (museum at his villa), Cagnes hippodrome (racing), Mediterranean beach, dramatically cheaper than its neighbours. Best fit: Riviera lifestyle on moderate budget, retirees, Nice-region workers.",
+    seoTitleEn: "Cagnes-sur-Mer — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Cagnes-sur-Mer (Alpes-Maritimes, PACA): quality-of-life score 7.4/10. Value Côte d'Azur, between Nice and Cannes, Renoir Museum, hippodrome.",
     scores: {
       global: 7.4,
       life: 7.5,
@@ -6175,6 +6225,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.0,
     avgTempJanuary: 8.0,
     characterTags: ["île", "Vendée", "Atlantique", "sel", "mimosa", "pont de Noirmoutier", "tourisme"],
+    descriptionEn:
+      "Noirmoutier-en-l'Île is the Vendée Atlantic island — accessible by Passage du Gois (tidal causeway) or modern bridge, salt marshes (fleur de sel), mimosa-blooming winters, dramatic working-island character. Premium for the calm. Best fit: refined retirees, second-home owners, salt-and-oyster producers, lifestyle remote workers tolerating island logistics.",
+    seoTitleEn: "Noirmoutier — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Noirmoutier-en-l'Île (Vendée, Pays de la Loire): quality-of-life score 7.7/10. Vendée Atlantic island, Passage du Gois, salt marshes, mimosa.",
     scores: {
       global: 7.7,
       life: 9.0,
@@ -6201,6 +6256,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 8.0,
     characterTags: ["Morbihan", "mégalithes", "plage", "prestige", "Bretagne", "mer", "mystérieux"],
+    descriptionEn:
+      "Carnac is the megalithic Morbihan town — thousands of Neolithic standing stones (the densest concentration in the world), refined Brittany resort, sandy beaches, Quiberon peninsula nearby. Best fit: archaeology-and-heritage lovers, refined Brittany-coast retirees, family beach-seekers.",
+    seoTitleEn: "Carnac — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Carnac (Morbihan, Bretagne): quality-of-life score 7.6/10. Megalithic Morbihan town, Neolithic standing stones, refined Brittany resort.",
     scores: {
       global: 7.6,
       life: 8.5,
@@ -6227,6 +6287,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.5,
     avgTempJanuary: 8.5,
     characterTags: ["île", "vélo", "Atlantique", "marais salants", "vignes", "Paris-proche", "prestige"],
+    descriptionEn:
+      "Île de Ré is the premium Atlantic island off La Rochelle — refined whitewashed villages, vast cycle-path network, salt marshes, oyster culture, Parisian-elite second-home capital. Premium prices. Best fit: refined retirees with substantial budget, Parisian weekend-home owners, cyclists.",
+    seoTitleEn: "Île de Ré — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Île de Ré (Charente-Maritime, Nouvelle-Aquitaine): quality-of-life score 8.2/10. Premium Atlantic island, whitewashed villages, cycle-friendly, refined.",
     scores: {
       global: 8.2,
       life: 9.5,
@@ -6253,6 +6318,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 8.5,
     characterTags: ["presqu'île", "Morbihan", "thalasso", "mer sauvage", "Belle-Île-proche", "surf", "Bretagne"],
+    descriptionEn:
+      "Quiberon is the dramatic Morbihan peninsula — wild west-coast 'Côte Sauvage,' ferries to Belle-Île, world-class thalassotherapy (Louison Bobet heritage), Atlantic surf. Best fit: thalassotherapy enthusiasts, surfers, refined retirees, lifestyle remote workers wanting dramatic Breton-coast living.",
+    seoTitleEn: "Quiberon — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Quiberon (Morbihan, Bretagne): quality-of-life score 7.8/10. Morbihan peninsula, wild Côte Sauvage, thalassotherapy, Belle-Île ferries.",
     scores: {
       global: 7.8,
       life: 9.0,
@@ -6279,6 +6349,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 28.0,
     avgTempJanuary: 8.0,
     characterTags: ["Molière", "Hérault", "patrimoine", "Languedoc", "antiquaires", "douceur de vivre", "abordable"],
+    descriptionEn:
+      "Pézenas is the small Languedoc gem where Molière performed — refined 17th-century mansion centre, antiques and craft-shop capital, hot Mediterranean climate, Béziers and Sète both 20 minutes. Best fit: heritage lovers, antiques and arts professionals, retirees seeking refined Languedoc small-town living.",
+    seoTitleEn: "Pézenas — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Pézenas (Hérault, Occitanie): quality-of-life score 7.4/10. Languedoc Molière town, 17th-century mansion centre, antiques capital, refined.",
     scores: {
       global: 7.4,
       life: 8.0,
