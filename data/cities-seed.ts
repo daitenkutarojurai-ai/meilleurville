@@ -5450,6 +5450,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 23.5,
     avgTempJanuary: 5.5,
     characterTags: ["Ariège", "château", "Pyrénées-proche", "médiéval", "préfecture", "calme", "nature"],
+    descriptionEn:
+      "Foix is the Ariège prefecture — three-tower medieval château perched on a rock, Pyrenees foothills, calm, dramatically affordable, Toulouse 1h20 away. Best fit: ultra-budget mountain-region households, retirees seeking calm Pyrenees-foothills living, medieval-heritage lovers.",
+    seoTitleEn: "Foix — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Foix (Ariège, Occitanie): quality-of-life score 6.5/10. Ariège prefecture, three-tower medieval château, Pyrenees foothills, dramatically affordable.",
     scores: {
       global: 6.5,
       life: 7.0,
@@ -5476,6 +5481,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.5,
     avgTempJanuary: 7.0,
     characterTags: ["Atlantique", "plages", "art-déco", "Belle-Époque", "station-balnéaire", "famille", "soleil"],
+    descriptionEn:
+      "Royan is the Charente-Maritime Atlantic seaside city — exceptional 1950s Modernist architecture (rebuilt after WWII destruction), long sandy beaches, La Rochelle 1 hour, Bordeaux 1h30. Best fit: family beach-seekers, modernist-architecture lovers, retirees seeking refined Atlantic resort.",
+    seoTitleEn: "Royan — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Royan (Charente-Maritime, Nouvelle-Aquitaine): quality-of-life score 7.5/10. Atlantic seaside resort, 1950s Modernist architecture, sandy beaches.",
     scores: {
       global: 7.5,
       life: 8.0,
@@ -5502,6 +5512,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 26.5,
     avgTempJanuary: 7.5,
     characterTags: ["parfum", "PACA", "arrière-pays", "fleurs", "altitude", "retraite", "UNESCO"],
+    descriptionEn:
+      "Grasse is the world's perfume capital — UNESCO-listed perfume craftsmanship (Galimard, Molinard, Fragonard houses), 325m altitude in the Côte d'Azur hinterland, refined heritage, dramatically cooler summer climate than coastal Nice. Best fit: perfume professionals, refined retirees, lifestyle-first remote workers wanting hinterland Riviera.",
+    seoTitleEn: "Grasse — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Grasse (Alpes-Maritimes, PACA): quality-of-life score 7.0/10. World's perfume capital, UNESCO craftsmanship, refined Côte d'Azur hinterland.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -5528,6 +5543,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 19.5,
     avgTempJanuary: 7.0,
     characterTags: ["Bretagne", "ville-close", "pêche", "maritime", "tourisme", "Finistère", "artisanat"],
+    descriptionEn:
+      "Concarneau is the south-Finistère fishing port — the iconic Ville Close (granite-walled medieval islet), still-working tuna fleet, refined small Breton port, surf and sailing beaches. Best fit: sailors and fishermen, retirees seeking refined small Brittany port living, artists.",
+    seoTitleEn: "Concarneau — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Concarneau (Finistère, Bretagne): quality-of-life score 7.0/10. South-Finistère fishing port, iconic Ville Close, working tuna fleet, refined.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -5554,6 +5574,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 23.0,
     avgTempJanuary: 10.0,
     characterTags: ["Pays Basque", "Atlantique", "surf", "pêche", "gastronomie", "pittoresque", "Louis XIV"],
+    descriptionEn:
+      "Saint-Jean-de-Luz is the refined Basque-coast jewel — Louis XIV married Maria Theresa here in 1660, exceptional Basque cuisine, still-active fishing fleet, Spanish border 10 minutes. Premium prices. Best fit: refined retirees with budget, gastronomes, surfers wanting Basque-port refinement, Spanish-border professionals.",
+    seoTitleEn: "Saint-Jean-de-Luz — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Saint-Jean-de-Luz (Pyrénées-Atlantiques, Nouvelle-Aquitaine): quality-of-life score 7.8/10. Refined Basque-coast jewel, Louis XIV heritage, premium.",
     scores: {
       global: 7.8,
       life: 8.5,
@@ -5580,6 +5605,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 27.5,
     avgTempJanuary: 9.5,
     characterTags: ["Var", "mer", "port", "Provence", "artistes", "famille", "Toulon-proche"],
+    descriptionEn:
+      "Sanary-sur-Mer is the refined Var-coast harbour town — historic German-exile community (Thomas Mann, Brecht, Aldous Huxley lived here in the 1930s), Provençal market, Toulon 15 minutes. Refined coastal living at moderate Var-coast prices. Best fit: refined retirees, lifestyle remote workers, family beach-seekers.",
+    seoTitleEn: "Sanary-sur-Mer — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Sanary-sur-Mer (Var, PACA): quality-of-life score 7.8/10. Refined Var harbour town, historic literary German exile community, Provençal market.",
     scores: {
       global: 7.8,
       life: 8.5,
@@ -5606,6 +5636,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.0,
     avgTempJanuary: 6.5,
     characterTags: ["médiéval", "remparts", "Rance", "Bretagne", "authenticité", "patrimoine", "calme"],
+    descriptionEn:
+      "Dinan is one of Brittany's best-preserved medieval cities — intact ramparts, cobbled lanes descending to the Rance river, refined small-town living, Saint-Malo and the coast 30 minutes away. Best fit: heritage lovers, retirees seeking refined medieval Brittany, slow-life expats.",
+    seoTitleEn: "Dinan — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Dinan (Côtes-d'Armor, Bretagne): quality-of-life score 7.5/10. Best-preserved medieval Brittany town, intact ramparts, Rance river, refined.",
     scores: {
       global: 7.5,
       life: 8.0,
@@ -5632,6 +5667,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.5,
     avgTempJanuary: 10.5,
     characterTags: ["Pays Basque", "Espagne-frontière", "Atlantique", "surf", "Txingudi", "transfrontalier", "famille"],
+    descriptionEn:
+      "Hendaye sits directly on the Spanish border — Txingudi bay shared with Irun and Hondarribia (Spain), exceptional surf, Spain shopping and food 5 minutes by foot. Best fit: Spain-France cross-border workers, surfers, lifestyle remote workers, families wanting bicultural Basque-coast living.",
+    seoTitleEn: "Hendaye — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Hendaye (Pyrénées-Atlantiques, Nouvelle-Aquitaine): quality-of-life score 7.5/10. Spanish-border Basque coast, Txingudi bay, exceptional surf.",
     scores: {
       global: 7.5,
       life: 8.0,
@@ -5658,6 +5698,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 5.5,
     characterTags: ["médiéval", "château", "Bretagne", "calme", "Rennes-proche", "patrimoine", "accessible"],
+    descriptionEn:
+      "Vitré is the east-Brittany medieval gem — dramatic intact château, well-preserved medieval centre, Rennes 30 minutes by train, dynamic industrial economy (Lactalis HQ). Best fit: medieval-heritage lovers, Rennes-region workers wanting cheap historic base, families.",
+    seoTitleEn: "Vitré — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Vitré (Ille-et-Vilaine, Bretagne): quality-of-life score 7.3/10. East-Brittany medieval town, intact château, 30 min to Rennes, Lactalis HQ.",
     scores: {
       global: 7.3,
       life: 7.5,
@@ -5684,6 +5729,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.5,
     avgTempJanuary: 7.5,
     characterTags: ["Atlantique", "plage", "prestige", "Belle-Époque", "villas", "tourisme", "station-balnéaire"],
+    descriptionEn:
+      "La Baule-Escoublac is the prestigious Atlantic-coast resort — one of Europe's longest sand beaches (9km), Belle-Époque villas, refined retirement-and-second-home destination, Nantes 1 hour. Premium prices. Best fit: refined retirees with budget, second-home owners, family beach-seekers.",
+    seoTitleEn: "La Baule — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "La Baule-Escoublac (Loire-Atlantique, Pays de la Loire): quality-of-life score 7.8/10. Prestigious Atlantic resort, 9km beach, Belle-Époque villas.",
     scores: {
       global: 7.8,
       life: 8.5,
@@ -5710,6 +5760,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.0,
     avgTempJanuary: 1.5,
     characterTags: ["Lozère", "Massif Central", "Causses", "calme", "nature", "préfecture", "ressourcement"],
+    descriptionEn:
+      "Mende is the Lozère prefecture — France's least-populated department, dramatic Causses-plateau landscapes, 731m altitude, exceptionally calm and rural. Best fit: extreme-rural-living seekers, nature retirees, slow-life expats prepared for genuine isolation.",
+    seoTitleEn: "Mende — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Mende (Lozère, Occitanie): quality-of-life score 6.5/10. Lozère prefecture in France's least-populated department, Causses plateau, rural.",
     scores: {
       global: 6.5,
       life: 7.5,
@@ -5736,6 +5791,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.0,
     avgTempJanuary: 5.0,
     characterTags: ["Loire", "château", "Léonard de Vinci", "patrimoine", "douceur de vivre", "expats", "touristique"],
+    descriptionEn:
+      "Amboise is the Loire Valley royal-château town where Leonardo da Vinci spent his last years — Clos Lucé (Da Vinci's house), royal château perched above the Loire, refined heritage, established expat community, Tours 20 minutes. Best fit: heritage lovers, retirees, refined-Loire-Valley expats.",
+    seoTitleEn: "Amboise — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Amboise (Indre-et-Loire, Centre-Val de Loire): quality-of-life score 7.9/10. Loire Valley royal château, Da Vinci's last home, refined heritage.",
     scores: {
       global: 7.9,
       life: 8.5,
@@ -5762,6 +5822,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 28.0,
     avgTempJanuary: 6.5,
     characterTags: ["Provence", "romain", "théâtre antique", "soleil", "Rhône", "Châteauneuf-du-Pape", "douceur de vivre"],
+    descriptionEn:
+      "Orange is the Vaucluse Roman-heritage town — UNESCO Roman theatre (still hosting operas), Triumphal Arch, Châteauneuf-du-Pape wine country, hot dry Mediterranean climate. Best fit: wine professionals (Châteauneuf-du-Pape), heritage lovers, mid-budget retirees, Provençal climate seekers.",
+    seoTitleEn: "Orange — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Orange (Vaucluse, PACA): quality-of-life score 7.2/10. UNESCO Roman theatre, Triumphal Arch, Châteauneuf-du-Pape wine country, hot Provence.",
     scores: {
       global: 7.2,
       life: 7.5,
@@ -5788,6 +5853,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 24.0,
     avgTempJanuary: 4.5,
     characterTags: ["Rhône", "romain", "Jazz à Vienne", "Lyon-proche", "abordable", "patrimoine", "gastronomie"],
+    descriptionEn:
+      "Vienne is the Isère Rhône-Roman city — exceptional Roman remains, the iconic Jazz à Vienne festival each summer in the Roman theatre, Lyon 30 minutes by train, affordable. Best fit: jazz lovers, Lyon-region workers wanting cheaper historic base, gastronomes (Pyramide three-Michelin restaurant heritage).",
+    seoTitleEn: "Vienne — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Vienne (Isère, Auvergne-Rhône-Alpes): quality-of-life score 7.4/10. Rhône-Roman city, Jazz à Vienne festival, 30 min train to Lyon, affordable.",
     scores: {
       global: 7.4,
       life: 7.5,
@@ -5814,6 +5884,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 19.5,
     avgTempJanuary: 7.0,
     characterTags: ["Manche", "côte", "ville fortifiée", "Normandie", "mer", "Christian Dior", "pittoresque"],
+    descriptionEn:
+      "Granville is the Cotentin Atlantic-Channel city — fortified upper town on dramatic cliffs, Christian Dior's childhood home (now museum), dramatic tides (third-largest tidal range in the world), Chausey islands offshore. Best fit: sailors, refined retirees, Cotentin-region workers, dramatic-coast lovers.",
+    seoTitleEn: "Granville — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Granville (Manche, Normandie): quality-of-life score 7.5/10. Cotentin coast, fortified clifftop town, Christian Dior's childhood home, Chausey.",
     scores: {
       global: 7.5,
       life: 8.0,
