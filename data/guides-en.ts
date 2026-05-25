@@ -5787,6 +5787,250 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["paris", "lyon", "marseille", "bordeaux", "nantes"],
     tags: ["shipping belongings france expat 2026", "international move france", "container shipping france guide", "french customs personal effects", "moving from usa to france shipping"],
   },
+  {
+    slug: "le-mans-living-guide-expats-2026",
+    title: "Living in Le Mans as an Expat: A Loire-Sarthe Guide (2026)",
+    metaTitle: "Living in Le Mans 2026 — expat guide: cost of living, neighbourhoods, Paris TGV access",
+    metaDesc: "Honest expat guide to Le Mans in 2026: 55-min TGV to Paris, half the property prices, medieval Cité Plantagenêt, real cost of living.",
+    category: "city-guide",
+    emoji: "🏎️",
+    readMinutes: 9,
+    publishedAt: "2026-05-25",
+    updatedAt: "2026-05-25",
+    intro: "Le Mans is the secret weapon of the Loire valley: a 145,000-resident city with a UNESCO-listed medieval core, a famous 24-hour race that defines a city for a single weekend, the second-fastest TGV link to Paris in France (55 minutes), and property prices roughly half those of Tours and a third of those in Rennes. It is on the relocation radar of Parisians escaping the capital and remote workers willing to trade some city density for serious quality-of-life upgrades. For expats looking at the wider Loire region, Le Mans deserves more attention than its racing reputation suggests.",
+    sections: [
+      {
+        heading: "The geographic and economic position",
+        body: "Le Mans sits at the eastern edge of the Pays de la Loire region, 200 km west of Paris, 90 km north of Tours, 160 km south of Caen. It is the prefecture of Sarthe department. Economic base: automotive industry (the 24h race is just one facet — major insurance and automotive companies have HQ here, including MMA Assurances), Renault site, food industry (Bel Group, Saupiquet), and a growing logistics sector benefiting from the TGV junction. Population: city ~145,000; metropolitan area ~340,000. The TGV station is 7 minutes' walk from the medieval centre — among the most useful station locations in any French city of this size.",
+      },
+      {
+        heading: "Cost of living: genuinely affordable",
+        body: "Le Mans is one of the cheapest major French cities to live in. T2 furnished rental: €450-650/month in central neighbourhoods, €380-500/month in less central areas. T3 family apartment: €620-850/month centrally. Buying: €1,800-2,800/m² for ancien in good neighbourhoods, €2,200-3,400 for neuf or renovated. For comparison: Tours runs at €3,200-4,500/m², Rennes at €4,500-6,000/m². Groceries and restaurants: 15-20% cheaper than national average. Public transport: tramway (1 line), bus network, monthly pass €40 — modest but functional for the city's size.",
+      },
+      {
+        heading: "Neighbourhoods worth knowing",
+        body: "**Cité Plantagenêt (medieval centre)**: UNESCO-listed walled city, the Roman wall is the most complete in northern Europe, cobblestone streets, restaurants, restored half-timber houses. Renting here is romantic but small flats; T2 €600-800/month. **République (modern centre)**: shopping district, the cathedral, walkable, mainstream city life. T2 €500-650/month. **Pontlieue**: residential, family-oriented, easy tram access, schools. T3 €700-900/month. **Sablons / Préfecture**: bourgeois historic neighbourhood, larger properties, more expensive. **Antarès / Ouest**: zone around the 24h race circuit, newer developments, suburban feel. **Saint-Pavin**: emerging neighbourhood north of the centre, regenerated, more affordable T2 €450-600/month. **Avoid for first-time arrivers**: Bellevue, Ronceray (concentrated public housing, less integration for newcomers).",
+      },
+      {
+        heading: "The TGV factor and what it changes",
+        body: "Le Mans-Paris TGV runs roughly hourly during the day with peak frequency every 30 min during rush hours. Travel time: 55 minutes (faster than many Paris suburbs). Monthly TGV subscription (Carte Liberté or TGVMAX): €350-450/month for unlimited travel. This makes Le Mans the most extreme 'live cheaply, work in Paris' arbitrage in mainland France. Profile: someone who needs to be in central Paris twice a week, can work remote three days, and prefers half the property cost and twice the space. The economic logic is: a Paris 50 m² T2 at €1,800/month vs. Le Mans 80 m² T3 at €750/month + €350/month TGV pass = €1,100/month for substantially more space and a smaller city's quality of life.",
+      },
+      {
+        heading: "What works and what doesn't in daily life",
+        body: "What works: walkable city, no traffic, excellent regional cuisine (rillettes du Mans, pommé), strong cultural calendar (jazz festival, 24 Heures du Mans, Europa Jazz), Sarthe countryside on the doorstep (great cycling, river fishing, Brûlon vineyards), the medieval Cité is genuinely impressive. What doesn't: limited international community compared to Tours or Nantes, restaurant scene is solid but smaller than mid-size cities can rival, nightlife is modest (a few pubs, two clubs, that's it), no university with the international student volume of Rennes or Tours. Schools: solid public network. International / bilingual options are limited — Tours (1h by train) is the nearest serious bilingual option, otherwise homeschool or accept the French-only path.",
+      },
+      {
+        heading: "Verdict: who Le Mans works best for",
+        body: "Le Mans works for: Paris remote workers wanting maximum arbitrage; couples or families who can stomach a small city for affordable larger property; quietly-creative professionals who don't need an international scene; British/Irish/Dutch retirees finding the Loire Atlantic too expensive. It doesn't work for: solo professionals seeking density and nightlife (try Tours or Nantes); families who need an international school network (Tours, Bordeaux, Lyon); anyone whose career requires being in person in Paris four days a week (the TGV is one expense too many at that intensity).",
+      },
+    ],
+    relatedCities: ["le-mans", "tours", "angers"],
+    tags: ["living in le mans expat 2026", "le mans expat guide", "le mans TGV paris", "le mans cost of living 2026", "loire valley expat le mans"],
+  },
+  {
+    slug: "saint-etienne-living-guide-expats-2026",
+    title: "Living in Saint-Étienne as an Expat: The Underdog Guide (2026)",
+    metaTitle: "Living in Saint-Étienne 2026 — expat guide: cheapest French metro, Lyon access, design city",
+    metaDesc: "Honest expat guide to Saint-Étienne in 2026: France's cheapest major city, Lyon at 40 min, UNESCO Design City, the Stade Geoffroy-Guichard pulse.",
+    category: "city-guide",
+    emoji: "⚙️",
+    readMinutes: 10,
+    publishedAt: "2026-05-25",
+    updatedAt: "2026-05-25",
+    intro: "Saint-Étienne is France's least-loved metropolitan city — a former coal and weapons-manufacturing capital that has spent 30 years reinventing itself as a design hub, a startup ecosystem, and (it does this quietly) the cheapest major city in France. Property is genuinely affordable in a country where 'affordable' usually means village size or northern grim. At 173,000 in the city and 514,000 in the metropolitan area, it has the scale of Bordeaux or Rennes but the price tag of a small town. For an expat willing to look past the reputation, Saint-Étienne in 2026 is one of the most rational economic decisions in France.",
+    sections: [
+      {
+        heading: "Why Saint-Étienne has a bad reputation (and why it's mostly outdated)",
+        body: "Saint-Étienne was France's coal-mining and weapons capital in the 19th century — Manufrance, the famous bicycle and arms maker, was here. The deindustrialisation that started in the 1970s emptied the city of its industrial backbone. Population declined 25% between 1970 and 2000. The architectural heritage — long parallel streets of grim 19th-century industrial workers' housing — does the city no favours. From this came the reputation: dirty, declining, dangerous. The reality in 2026 is significantly different. The UNESCO Design City status (2010), the Biennale Internationale Design (largest in France), the Manufacture Plaine Achille redevelopment, and the city's commitment to public investment have visibly turned the centre around. Crime statistics: noticeably below Lyon and Marseille averages, similar to Nantes. The deeper truth: Saint-Étienne is now an attractive small city with affordable prices, not a struggling industrial wreck.",
+      },
+      {
+        heading: "Cost of living: the bottom of the French metropolitan range",
+        body: "Property prices: €1,200-2,200/m² for ancien in central neighbourhoods, €1,800-2,600 for renovated or neuf. This is below Limoges and roughly half the price of Lyon. Rental: T2 furnished €380-550/month centrally, T3 €550-750/month, T4 family-size €700-950/month. Compare to Lyon (40 min by TER train): T2 €750-1,000/month centrally, similar T3 €1,100-1,500/month. The arbitrage is real. Groceries: among the cheapest in France (no Parisian price premium, lots of competitive markets, the Halles markets are notably cheap). Restaurants: a standard menu lunch is €11-16, a good dinner €25-35 — significantly cheaper than Lyon at 40 min away. Transport: tram (3 lines), trolleybus, monthly pass €40. Excellent integrated network.",
+      },
+      {
+        heading: "Neighbourhoods to know",
+        body: "**Centre-ville (around Place du Peuple)**: walkable, restaurants, the renovated central streets feel good. T2 €450-600/month. **Bellevue/Châteaucreux (around the TGV station)**: regenerated zone, modern apartments, mix of old and new. **Carnot**: residential bourgeois, larger flats, families. T3 €700-900/month. **Tarentaize/Beaubrun-Severine**: emerging artsy neighbourhood, the design ecosystem hub, Manufacture Plaine Achille, very affordable, attracting creatives. T2 €400-550/month — one of the best deals in France for an artistically engaged neighbourhood. **Bel-Air**: upper-middle-class residential, hill above the centre, suburban quiet. **Avoid for first arrivers**: Montchovet, Le Soleil, Beaulieu (concentrated social housing). The southern/eastern districts (Saint-Victor, Crêt de Roch) are pleasant residential.",
+      },
+      {
+        heading: "The Lyon factor",
+        body: "Saint-Étienne to Lyon is 40-50 minutes by direct TER train (every 30 minutes), 50-65 minutes by car (A47 motorway). A monthly TER subscription is approximately €120-140/month for unlimited travel. The practical effect: many Saint-Étienne residents work in Lyon, especially professionals in finance, consulting, biotech where Lyon has critical mass. The economic logic: Saint-Étienne housing prices + Lyon salary = significant disposable income gain. Many couples make this split: one partner works in Lyon, one works in Saint-Étienne, the kids go to Saint-Étienne schools, and Lyon is a Saturday outing. This is the dominant Saint-Étienne professional lifestyle for under-45s now.",
+      },
+      {
+        heading: "What works in daily life",
+        body: "Saint-Étienne has invested heavily in public services and quality of life. The tramway network is excellent for the city's size. The Stade Geoffroy-Guichard (les Verts, AS Saint-Étienne) gives the city a real football culture — derby with Lyon is among the most intense in France. Design Biennale and the Cité du Design create a genuine creative ecosystem. Excellent universities (Mines de Saint-Étienne, Jean Monnet university) keep a student population alive. The hills around the city (Pilat regional park, the Forez massif) offer outstanding hiking, ski touring, road cycling. What doesn't work: the architectural environment still has rough patches — long stretches of empty industrial buildings, especially in the eastern arc. Air quality is below Lyon's standard (geographic basin, residual industry). International scene is modest. Restaurants are good but the gastronomic ambition is not at the Lyon level.",
+      },
+      {
+        heading: "Who Saint-Étienne works for in 2026",
+        body: "Works best for: young professionals working in Lyon who want maximum housing affordability; remote workers willing to live in a less-glamorous city for serious cost savings; families with young children who value space and parks over urban prestige; designers and creatives drawn to the Cité du Design ecosystem; football lovers (AS Saint-Étienne is a way of life). Less ideal for: expats seeking an international community (Lyon is a much better fit); luxury or status-driven lifestyles (Saint-Étienne is the opposite); families requiring international or bilingual schools (Lyon is a 40-minute commute — workable but adds friction). Property investors take note: rental yields in Saint-Étienne are 5-7% gross, among the best in France's mid-size cities.",
+      },
+    ],
+    relatedCities: ["saint-etienne", "lyon", "clermont-ferrand"],
+    tags: ["living in saint etienne expat 2026", "saint etienne cost of living", "saint etienne lyon commute", "saint etienne design city", "france cheap metropolitan city expat"],
+  },
+  {
+    slug: "france-lgbtq-expat-guide-2026",
+    title: "France for LGBTQ+ Expats: The 2026 Guide",
+    metaTitle: "LGBTQ+ Moving to France 2026 — best cities, legal rights, community, expat guide",
+    metaDesc: "Moving to France as an LGBTQ+ expat in 2026: legal rights (marriage, adoption, healthcare), the most welcoming cities, communities and what to know.",
+    category: "lifestyle",
+    emoji: "🏳️‍🌈",
+    readMinutes: 11,
+    publishedAt: "2026-05-25",
+    updatedAt: "2026-05-25",
+    intro: "France is consistently among the EU's most LGBTQ+ friendly countries on legal protections, marriage and adoption equality, healthcare access, and broad social acceptance — but the experience differs significantly between Paris, the major regional metros, the mid-sized cities, and rural France. For LGBTQ+ expats considering a move in 2026, the legal framework is excellent, the community infrastructure is concentrated in specific cities, and a few specific issues (trans healthcare, religious-area attitudes, school environments for LGBTQ+ youth) deserve clearer explanation than most general moving-to-France guides give. This is that guide.",
+    sections: [
+      {
+        heading: "The legal framework: among the world's strongest",
+        body: "**Marriage equality**: France legalised same-sex marriage in 2013 (Loi Taubira). Same legal rights as opposite-sex marriage including joint property, inheritance, immigration sponsorship, and divorce. **Civil partnership (PACS)**: available to all couples since 1999. **Adoption**: same-sex couples can jointly adopt. Single people of any sexual orientation can also adopt. **Medically assisted reproduction (PMA)**: since 2021, IVF and sperm donation access is open to lesbian couples and single women, fully reimbursed by Assurance Maladie. **Gender recognition**: since 2016, gender change is administrative (no surgery required), through a relatively simple court procedure. **Anti-discrimination**: comprehensive employment, housing, services, and healthcare protections. **Conversion therapy**: explicitly banned since 2022 (Loi du 31 janvier 2022). **Trans military service**: open since 1999. Overall, France is in the top 5-10 of the EU's ILGA-Europe rankings consistently.",
+      },
+      {
+        heading: "The most welcoming cities in practice",
+        body: "**Paris**: by far the largest LGBTQ+ community in France. The Marais (3rd-4th arrondissements) is the historic gay neighbourhood — bars, bookshops, community centres, the Centre LGBT+ Paris-Île-de-France. Annual Pride in late June draws 500,000+ attendees. **Lyon**: the most established regional LGBTQ+ scene outside Paris. The Pentes de la Croix-Rousse and parts of Vieux-Lyon are particularly welcoming. Lyon Pride is one of France's largest. **Marseille**: increasingly diverse and accepting, particularly around the Cours Julien district. The Mediterranean queer scene has its own flavour. **Toulouse**: excellent reputation for openness, strong student-driven LGBTQ+ activism, growing community. **Montpellier**: among the most LGBTQ+-friendly per-capita cities in France, lively scene relative to size. **Bordeaux**: well-established quietly accepting community, gentrification has brought more visible scene. **Nantes**: progressive politics, welcoming community, active organisations. **Strasbourg**: European institutions presence creates a diverse population and protective environment. **Smaller cities (Rennes, Grenoble, Aix-en-Provence)**: pleasant, accepting, though smaller communities and fewer dedicated venues.",
+      },
+      {
+        heading: "Healthcare access and trans-affirming care",
+        body: "**General healthcare**: the public system (Assurance Maladie) provides LGBTQ+ patients identical care to everyone else, with no discrimination in practice. **PrEP (HIV pre-exposure prophylaxis)**: free in France since 2016, available via prescription at most GP offices and CeGIDD (sexual health centres). **HIV care**: free, world-class. CeGIDD centres in every metropolitan area offer free testing and care. **Trans healthcare**: complex picture. The official pathway through public hospitals and approved private clinics involves a psychiatric evaluation (controversial within the community), then hormone therapy is reimbursed by Assurance Maladie. Top surgery is reimbursed. Bottom surgery is reimbursed (waiting lists in public hospitals can be long; some patients prefer private clinics in Thailand, Spain, or Belgium, which are out-of-pocket). The Parisian hospital network (Hôpital Henri-Mondor, Hôpital Cochin) is the historical reference; Lyon, Marseille, Bordeaux, Toulouse also have specialised teams. Independent endocrinologists (informed consent model, no psychiatric gatekeeping) are becoming more accessible, especially in Paris and Lyon. **Reproductive support**: lesbian couples have full PMA access; gestational surrogacy (GPA) remains illegal in France — same-sex male couples wanting a biological child usually pursue surrogacy abroad (US, Canada) and bring the child to France post-birth.",
+      },
+      {
+        heading: "Community infrastructure",
+        body: "Major LGBTQ+ organisations: **SOS Homophobie** (national, anti-discrimination helpline), **Inter-LGBT** (Paris-based umbrella), **Centre LGBT+ Paris-Île-de-France** (Paris community space and library), **ChrYsalide** and **OUTrans** (Lyon and national, trans support), **Le Refuge** (national, supports LGBTQ+ youth rejected by family), **Stop Homophobie**. Lyon, Marseille, Toulouse, Bordeaux, Nantes, Montpellier all have dedicated LGBTQ+ centres providing legal, health, and social support. Sports clubs are well-developed — most large cities have FSGL (Fédération Sportive Gaie et Lesbienne) affiliated clubs in football, swimming, rugby, climbing, etc. Religious LGBTQ+ communities: David et Jonathan (Christian LGBTQ+), Beit Haverim (Jewish LGBTQ+ Paris-based), Homosexuels Musulmans de France. Pride season runs April-October across France, with Paris, Lyon, Marseille, Toulouse, Montpellier, Nantes, Bordeaux holding annual marches.",
+      },
+      {
+        heading: "Where France is harder",
+        body: "Rural France: smaller towns and villages, particularly in the centre and east of the country, remain culturally conservative. Being openly LGBTQ+ in a village of 500 is possible but lonely — community presence and active discrimination are both lower than in cities. Some cities with strong religious conservative traditions (Versailles, parts of Lyon's 6th arrondissement, certain Breton coastal towns with strong Catholic identity) feel less welcoming than their progressive reputation suggests in daily encounters, though physical violence is rare. School environment for LGBTQ+ youth: French public schools have anti-bullying policies but enforcement varies by individual school and administration. Trans students face significant friction with name and pronoun changes in school records. Religion-influenced communities (some Muslim-majority neighbourhoods in cities, some traditional Catholic communities) can present challenges, though most areas are simply more conservative without active hostility. Physical safety: France has lower rates of anti-LGBTQ+ violence than many EU countries but incidents do happen. In Paris and major cities, the trend over the last decade has been a moderate increase in reported homophobic and transphobic assaults — about 1,800 reported incidents in 2024, likely underreporting significant.",
+      },
+      {
+        heading: "Practical relocation tips",
+        body: "1. **City choice matters more than national framework.** Paris, Lyon, Marseille, Toulouse, Montpellier are easy. Smaller cities work for many people but check the local scene before committing. 2. **Spouse/partner immigration**: France recognises same-sex marriages and PACS from abroad. A French citizen's same-sex spouse has identical immigration rights as opposite-sex spouses. 3. **Healthcare transfer**: bring documentation of any current treatments (HRT prescriptions, HIV regimens, mental health support). French physicians will continue or adapt protocols; bring at least 3 months of medication for the transition period. 4. **Document your family**: a same-sex couple's marriage/PACS, your children's birth certificates with both parents named, any adoption decrees — bring originals plus apostilled certified copies. 5. **Find the local LGBTQ+ centre early.** They provide invaluable orientation, friend networks, and access to professionals (doctors, lawyers, accountants) experienced with LGBTQ+ clients.",
+      },
+    ],
+    relatedCities: ["paris", "lyon", "marseille", "toulouse", "montpellier"],
+    tags: ["LGBTQ moving to france 2026", "france gay friendly cities", "france trans healthcare expat", "PACS marriage same sex france", "france LGBT community expat"],
+  },
+  {
+    slug: "limoges-living-guide-expats-2026",
+    title: "Living in Limoges as an Expat: The Forgotten Bargain (2026)",
+    metaTitle: "Living in Limoges 2026 — expat guide: cost of living, neighbourhoods, porcelain capital",
+    metaDesc: "Honest expat guide to Limoges in 2026: cheapest major city in France, central French nature, porcelain heritage, what it lacks and offers.",
+    category: "city-guide",
+    emoji: "🏺",
+    readMinutes: 9,
+    publishedAt: "2026-05-25",
+    updatedAt: "2026-05-25",
+    intro: "Limoges is the largest city most foreigners cannot place on a map — 130,000 residents, central France, prefecture of Haute-Vienne, capital of the historic Limousin region. It is famous for porcelain (still produced today, the Bernardaud factory is here), enamel work, and not much else internationally. For domestic relocators and a growing trickle of remote-working expats, Limoges is the country's quietest bargain: serious infrastructure, cheap property, surrounded by stunning rural countryside, and a 3-hour TGV link to Paris. It is small and isolated by mainland France standards — and that is the point.",
+    sections: [
+      {
+        heading: "What Limoges actually is",
+        body: "Population: 130,000 city, 280,000 metropolitan area. Geographic position: 400 km south-west of Paris, 200 km north-east of Bordeaux, 200 km west of Clermont-Ferrand. Climate: oceanic-influenced, similar to Limousin uplands — mild, wet, no extreme heat (average July max ~25°C), winter cold but rarely below -5°C. Economic base: porcelain (still 90% of French production), pharmaceuticals, paper industry, public sector (Limoges is a regional administrative centre with hospital, university, courts, prefecture). University of Limoges has 13,000 students — small by metro standards but enough to keep a youthful population component. Cuisine: Limousin beef (one of the world's finest cattle breeds, raised here), Limoges chestnuts, apple pies (clafoutis is the regional dessert).",
+      },
+      {
+        heading: "Cost of living: among France's cheapest cities",
+        body: "Property prices: €1,200-1,800/m² for ancien in central neighbourhoods, €1,800-2,400 for renovated. This is among the lowest in mainland France for cities of this scale. Rental: T2 furnished €380-520/month centrally, T3 €500-700/month, large family T4 €650-900/month. Groceries: 10-15% below national average. Restaurants: a menu lunch is €10-14, a serious dinner €22-32. Public transport: bus only, no tram (the city has explored tram projects but none built). Most residents use a combination of bus + bike + occasional car. Monthly bus pass €27-35.",
+      },
+      {
+        heading: "Neighbourhoods worth knowing",
+        body: "**Centre-ville (around Place de la République)**: walkable, modest restaurant scene, the cathedral, half-timber medieval district. T2 €450-580/month. **Cité (medieval upper town)**: historic core around the gothic cathedral, atmospheric, smaller properties. **Beaubreuil**: family-oriented residential, larger flats, mix of older and 1970s buildings. **La Bastide / Carnot**: residential bourgeois, parks, schools. T3 €600-800/month. **Faubourg (Saint-Lazare, Champ-de-Juillet)**: less central but well-connected, attracting young professionals. **Avoid for first-time arrivers**: Val de l'Aurence (concentrated social housing), Beaubreuil eastern fringe. Property buyers note: village houses 15-30 minutes from Limoges in the Vienne valley sell for €80,000-180,000 — among the cheapest substantial properties in mainland France.",
+      },
+      {
+        heading: "The Limousin countryside: an underrated reason to be here",
+        body: "The Limousin (Haute-Vienne, Creuse, Corrèze départements) is rural France at its most untouched. Population density: 35 inhabitants per km² (vs. 117 national average) — among the lowest in mainland France. What this means: vast forests (the Limousin oak is renowned), small villages of 200-500 residents, almost no traffic, exceptional fishing rivers (the Vienne, the Briance, the Vézère). Lake Vassivière (45 min from Limoges) is the second-largest artificial lake in France, with sailing and swimming. The Plateau de Millevaches regional park is the closest thing France has to North American wilderness — empty, vast, with wolves recently returned. For someone who values nature access without driving for hours, the Limoges-Limousin combination is unmatched in mainland France.",
+      },
+      {
+        heading: "Connectivity and isolation",
+        body: "The honest reality: Limoges is more isolated than cities of comparable size. TGV to Paris takes 3 hours (the only direct rail link to a major city), and it is a real TGV but the route is not the fastest. To Bordeaux: 2h30 by car or 2h30 by train (slow regional). To Lyon: 5 hours by car. To Toulouse: 3h30. There is no direct rail to Lyon or Toulouse. Airport: small, mainly easyJet to UK, Ryanair to Brussels. International travel typically means going via Paris (3h TGV + flight). This isolation has a price (less professional opportunity, fewer international flights, slower distribution of cultural events) and a benefit (no Parisian-style integration of the city into the Île-de-France growth area; Limoges is genuinely its own place).",
+      },
+      {
+        heading: "Who Limoges works for",
+        body: "Works best for: retirees who want serious property value (large house + garden for €150-250k), remote workers comfortable with isolation in exchange for the lowest cost in any major French metropolitan area, families seeking real space and rural access, artists and craftspeople (porcelain, ceramics, woodwork — the local tradition welcomes craft), and Brits familiar with the Dordogne region looking for a 'cheaper Dordogne' option. Less ideal for: career-focused under-40s (job market is thin), expats wanting international community (small), families wanting easy international travel for work (the Paris-via-TGV-plus-flight chain wears), and anyone needing world-class restaurants or cultural events (modest scale).",
+      },
+    ],
+    relatedCities: ["limoges", "brive-la-gaillarde", "tulle"],
+    tags: ["living in limoges expat 2026", "limoges expat guide", "limousin region expat", "cheap french city limoges", "rural france limoges porcelain"],
+  },
+  {
+    slug: "tours-vs-orleans-loire-comparison-expats-2026",
+    title: "Tours vs Orléans: Which Loire Valley City for Expats? (2026)",
+    metaTitle: "Tours vs Orléans 2026 — Loire valley expat city comparison, cost of living, transport, lifestyle",
+    metaDesc: "Tours or Orléans for expats in 2026? Compared by cost of living, TGV access to Paris, neighbourhoods, expat community, schools, lifestyle.",
+    category: "city-guide",
+    emoji: "🏰",
+    readMinutes: 10,
+    publishedAt: "2026-05-25",
+    updatedAt: "2026-05-25",
+    intro: "Tours and Orléans are the two largest cities of the Loire valley — both regional capitals (Tours of Indre-et-Loire, Orléans of Loiret), both with TGV access to Paris, both with serious historical heritage, both with populations between 110,000 and 140,000. They are routinely confused by foreign newcomers and lumped together as 'Loire valley cities'. They are, in fact, very different in feel, in connectivity, in economic specialisation, and in what makes them work for expats. This guide compares them head to head in 2026.",
+    sections: [
+      {
+        heading: "Geography and basic positioning",
+        body: "**Tours**: 140,000 in the city, 510,000 metropolitan area, on the Loire river 240 km south-west of Paris, in the heart of 'château country' (Chenonceau, Amboise, Villandry, Azay-le-Rideau within 30 minutes). **Orléans**: 116,000 in the city, 290,000 metropolitan area, on the Loire river but 130 km south of Paris, closer to the Île-de-France growth zone. The geographic distinction matters: Orléans is effectively a Paris commuter city for a significant portion of its population. Tours is its own region. Climate: very similar, oceanic-influenced, similar precipitation and temperatures, with Orléans slightly drier and continental.",
+      },
+      {
+        heading: "TGV access and Paris connection",
+        body: "**Tours**: TGV Atlantique line, 55 minutes to Paris-Montparnasse. Direct TGVs roughly every hour. Monthly TGV subscription €350-450. Tours people can commute to Paris but most don't full-time. **Orléans**: TER trains take 1h05-1h20 to Paris-Austerlitz (not TGV — Orléans is on a different rail line). Pendulaire (commuter train) every 30 minutes. Monthly TER pass €130-180. **Practical effect**: Orléans is unambiguously a Paris commuter city. 30,000+ daily commuters travel between Orléans and Paris. Tours is a destination city — people who move there are typically not commuting to Paris regularly. **For an expat, this changes everything**: in Orléans, your neighbours are largely Parisians who half-live there; in Tours, your neighbours are Tourangeaux (locals) plus more international expats.",
+      },
+      {
+        heading: "Cost of living: similar, with Tours slightly higher",
+        body: "**Tours**: rental T2 furnished €600-850/month centrally, T3 €900-1,250/month. Buying: €2,800-4,200/m² ancien, €3,500-4,800 neuf. **Orléans**: rental T2 €550-750/month, T3 €800-1,100/month. Buying: €2,400-3,500/m² ancien, €3,200-4,200 neuf. Orléans is roughly 10-15% cheaper across the board, reflecting smaller demand and weaker tourist economy. Groceries are similar; both cities are 5-10% below national average. Restaurants: Tours has a stronger restaurant scene (more establishments per capita, broader range), Orléans is solid but less varied. Public transport: both have tram networks (Tours has 1 line being expanded, Orléans has 2 lines, both well-integrated with bus). Monthly transit pass €40 in both.",
+      },
+      {
+        heading: "Neighbourhoods to compare",
+        body: "**Tours – Centre-ville (around Place Plumereau)**: medieval centre, restaurants, cobblestone streets, vibrant. T2 €700-900/month. **Tours – Saint-Pierre-des-Corps**: practical TGV station district, more affordable. **Tours – Tonnellé**: middle-class residential, families. **Tours – Beaujardin**: bourgeois upper-class, parks. **Tours – Plumereau/Cité**: medieval, smaller flats. **Orléans – Centre-ville (rue de Bourgogne, Jeanne d'Arc)**: walkable centre, restaurants, Joan of Arc heritage. T2 €600-800/month. **Orléans – Saint-Marceau**: residential south of the Loire, more affordable, family-oriented. **Orléans – Olivet**: bourgeois suburb, larger properties. **Orléans – La Source**: 1960s university quarter, mixed population, more affordable. **Orléans – Faubourg Bannier**: emerging, gentrifying.",
+      },
+      {
+        heading: "Economy and jobs",
+        body: "**Tours**: tourism, wine and gastronomy (Touraine appellations, gastronomic capital reputation), pharmaceuticals (Saint-Pierre-des-Corps industry), insurance and banking back-offices, growing tech scene. Strong university presence (35,000 students, 4th university region of France by student count). **Orléans**: pharmaceuticals (Lilly, Servier, Famar — major employers), cosmetics (the 'Cosmetic Valley' cluster), aerospace (Thales Avionics), agriculture supply, public sector (regional capital). Logistics: Orléans is at the centre of the Paris-Lyon-Bordeaux road network, major logistics employer. Effectively both are solid but specialised: Tours for tourism/heritage/research, Orléans for industry/Paris-commute/pharma.",
+      },
+      {
+        heading: "Expat community and lifestyle",
+        body: "**Tours**: stronger expat community, particularly British and Dutch attracted by the wine and château country, plus international academics at the university. Wine and gastronomy culture is genuine — most expats here become serious about wine within a year. The pace is unmistakably slower than Orléans. **Orléans**: smaller expat community, mostly French families with Parisian connections rather than true international expats. The city feels more functional than charming — more 1960s rebuilding, fewer half-timbered streets. Lifestyle: more practical, less romantic. **Schools**: both have decent public schools. Tours has the Lycée international Jean-Vilar (English/French/Italian/Spanish sections); Orléans has fewer international school options. **For families with a 5+ year horizon and bilingual aspirations**: Tours is meaningfully better.",
+      },
+      {
+        heading: "Verdict",
+        body: "**Choose Tours** if: you want the romantic Loire valley experience (châteaux, wine, medieval cities), you can work fully remotely or have a Tours-based job, you value the slower pace and stronger international community, you have children and want bilingual schooling options, the gastronomy and wine culture appeal to you. **Choose Orléans** if: you need to commute to Paris regularly (Orléans is much better positioned), you work in pharmaceuticals or cosmetics (the local industry clusters are real), you want lower property prices (Orléans is 10-15% cheaper), you prefer a more practical, less touristy city. **The honest summary**: Tours is the romantic choice with a slight premium and weaker Paris connection. Orléans is the practical choice with better Paris access and a less distinctive character. For most expats prioritising the 'Loire valley lifestyle' itself, Tours wins on quality of experience. For those needing Paris and balancing budget, Orléans wins on rationality.",
+      },
+    ],
+    relatedCities: ["tours", "orleans", "amboise"],
+    tags: ["tours vs orleans 2026", "loire valley expat city comparison", "tours vs orleans expat", "loire valley which city expat", "best loire valley city france expat"],
+  },
+  {
+    slug: "france-winter-ski-expat-guide-2026",
+    title: "France for Winter & Ski Lovers: The Expat Settler's Guide (2026)",
+    metaTitle: "Living in French Alps & Pyrenees 2026 — ski expat guide: where to live, costs, work, schools",
+    metaDesc: "Where to live in the French Alps or Pyrenees as a ski-loving expat in 2026: best resort towns, real costs, remote work, schools, year-round liveability.",
+    category: "lifestyle",
+    emoji: "⛷️",
+    readMinutes: 12,
+    publishedAt: "2026-05-25",
+    updatedAt: "2026-05-25",
+    intro: "France has more ski terrain than any other country in the world, more lift-served vertical drop than the entire US Rockies, and three of the world's ten largest interconnected ski areas (Trois Vallées, Paradiski, Espace Killy). For expats who define their year by the snow, France is the obvious centre of European skiing. The big question is not 'where can I ski' — it is 'where can I actually live year-round'. A resort that bursts with 80,000 daily visitors in February can be a ghost town with 600 residents in October. This guide walks through the choices: pure ski resorts vs. valley towns vs. lower-altitude bases, the real economics, schools, work options, and what 'winter person' actually means as a relocation decision.",
+    sections: [
+      {
+        heading: "The three living strategies for ski-lovers in France",
+        body: "**Strategy 1: Live in a high-altitude resort year-round.** Communities like Tignes, Val Thorens, Avoriaz, Les Arcs are essentially full ski-villages with limited summer activity. Pros: ski-in/ski-out, deep skiing community, lift access from your door. Cons: high cost of living, half the year there is no economic activity, schooling for children is challenging, weather is severe. Suits: ski instructors, ski professionals, retired enthusiasts with no school-age children. **Strategy 2: Live in a valley town with the resort 15-40 minutes away.** Communities like Bourg-Saint-Maurice (Les Arcs), Moûtiers (Trois Vallées), Annecy/Chamonix valley, Sallanches (Mont Blanc area), Bourg d'Oisans (Alpe d'Huez). Pros: real year-round community, schools, services, much lower property costs than the resort, summer cycling/hiking economy. Cons: 15-40 min commute to ski. Suits: most family expats, remote workers, anyone wanting daily-life infrastructure. **Strategy 3: Live in a regional city 1-2 hours from the resorts.** Annecy, Chambéry, Grenoble, Pau, Tarbes give you full city services, jobs, schools, and ski access every weekend with reasonable drives. This is the dominant choice for under-50 professionals.",
+      },
+      {
+        heading: "Where the resorts are and which suit settlers best",
+        body: "**Trois Vallées (Méribel, Courchevel, Val Thorens, Les Menuires)** — the world's largest ski area. Méribel and Courchevel are international and expensive (resort-town living costs roughly 30-50% above Lyon). Les Menuires is more affordable and has a year-round population. **Paradiski (Les Arcs, La Plagne, Peisey-Vallandry)** — large, varied terrain. Bourg-Saint-Maurice in the valley is the practical year-round option. **Espace Killy (Tignes, Val d'Isère)** — high-altitude, snow-sure, glamorous. Tignes is expensive but has more year-round community than Val d'Isère. **Espace Diamant (Megève, Praz-sur-Arly, Combloux)** — quieter, traditional, family-friendly. Megève is famous and expensive, Combloux is the working alternative. **Mont Blanc / Chamonix valley** — Chamonix, Argentière, Les Houches. Year-round international community, world-class climbing, mountaineering, plus skiing. Most expat-friendly serious-mountain location in the French Alps. **Pyrenees (Saint-Lary-Soulan, Cauterets, Ax-3-Domaines, Font-Romeu)** — lower altitude, smaller scale, much cheaper, less crowded, less reliable snow but increasingly attractive as Alps prices rise. **Vosges and Jura (Gérardmer, Métabief)** — small-scale, low altitude, mainly Nordic/cross-country. Local-population scale.",
+      },
+      {
+        heading: "Real costs of living in a ski region",
+        body: "Property prices vary by tier dramatically. **High-altitude resort apartments**: Tignes, Val d'Isère, Courchevel, Megève — €8,000-15,000/m² (resort-resort villas can hit €20,000+). **Valley towns near resorts**: Bourg-Saint-Maurice, Moûtiers, Sallanches — €2,500-4,500/m². **Regional cities (1-2h from resorts)**: Annecy €5,500-9,000/m² (Annecy is its own premium market), Chambéry €3,000-4,500/m², Grenoble €3,200-4,800/m², Pau €2,200-3,200/m², Tarbes €1,800-2,500/m². Rentals: a long-term winter rental in Val d'Isère costs more in 6 months than a year-round rental in Chambéry. Ski pass season cost: €1,400-1,800/season for resort-only, €1,800-2,500 for major area, €700-1,000 for regional/smaller resorts. Childcare/school: equivalent French rates apply (free public maternelle), but international schools are rare in ski regions outside Chamonix and Annecy.",
+      },
+      {
+        heading: "Working in a ski region",
+        body: "**Ski industry jobs**: ESF (École du Ski Français) is the main employer for instructors — French qualifications required, EU citizens can transfer, non-EU citizens need a work visa. Lift operations, ski patrol, resort administration, hotel/restaurant: seasonal employment with reduced summer activity. **Remote work**: ski regions vary enormously in internet quality. Chamonix, Bourg-Saint-Maurice, Annecy, Megève have excellent fibre. Smaller villages may still be on slow DSL — verify with a specific address check via ARCEP carto.arcep.fr before committing. **Professional services**: Annecy and Chambéry are mid-size cities with full professional sectors (legal, finance, consulting). Grenoble is a major engineering and research hub (CEA, Inria). Pau has oil and gas industry. Outside these, the regional job market is thin. **The realistic equation for most expats**: live in a valley town near a resort, work remotely or for one of the regional cities, ski 80-120 days/year as a lifestyle choice rather than a profession.",
+      },
+      {
+        heading: "Climate change reality for ski expats",
+        body: "This must be discussed honestly. The snow line in the Alps has risen approximately 200-300 m since 1990. By 2040 (RCP 4.5 scenario), the reliable-snow line will be approximately 1,800-2,000 m. Consequences: **resorts above 1,800 m base altitude** (Tignes 2,100m, Val Thorens 2,300m, Val d'Isère 1,850m, Les Arcs 2,000m, Les Menuires 1,850m) remain economically viable through 2040+. **Resorts between 1,400 and 1,800 m base** (Méribel 1,450m, Megève 1,100m, Les Houches 1,000m) increasingly rely on artificial snow and shorter seasons. **Lower-altitude resorts (<1,200 m)** (Métabief, Gérardmer, many Pyrenean stations) are facing real existential pressure and may close certain runs or reorient toward Nordic/summer activities. **Long-horizon settling decisions** should account for this: a 25-year purchase in a high-altitude resort is more defensible than in a 1,400m resort. The Pyrenees in particular face accelerated change — many small Pyrenean resorts may not be operational by 2040.",
+      },
+      {
+        heading: "Verdict: best base for different ski-expat profiles",
+        body: "**Active family with school-age children**: Annecy or Chamonix valley. Genuine cities/large towns with international schools, world-class skiing 30-90 minutes away, year-round outdoor culture, established expat community. **Remote-working couple, no kids, ski-focused**: Bourg-Saint-Maurice (Paradiski door), Sallanches (Mont Blanc area), Tignes (in-resort). Real community plus skiing. **Retired enthusiasts**: Chamonix, Megève, or a quiet Pyrenean valley town. Lifestyle over service density. **Career professional wanting weekend skiing**: Grenoble or Chambéry. Real city economy with skiing 1-1.5h away. Pau for Pyrenean access. **Pure ski instructor / industry**: live in the resort itself for the season, base in a valley town off-season. **For all profiles**: visit in October. A ski village in October — empty, closed, grey — is the honest picture of half the year. If you would still want to live there in October, the place is right for you.",
+      },
+    ],
+    relatedCities: ["annecy", "chambery", "grenoble", "chamonix-mont-blanc", "pau"],
+    tags: ["france ski expat 2026", "living in french alps expat", "winter france expat guide", "chamonix expat living", "best french ski towns to live in"],
+  },
 ];
 
 export function getEnGuide(slug: string): EnGuide | undefined {
