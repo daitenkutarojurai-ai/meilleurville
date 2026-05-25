@@ -7310,6 +7310,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 26.5,
     avgTempJanuary: 6.5,
     characterTags: ["Blanquette de Limoux", "Pyrénées", "Cathares", "Carcassonne-proche", "vin pétillant", "médiéval", "abordable"],
+    descriptionEn:
+      "Limoux is the world's oldest sparkling-wine region — Blanquette de Limoux predates Champagne, refined medieval Aude town, Cathar country at the Pyrenees foothills, Carcassonne 30 minutes. Affordable. Best fit: wine professionals (sparkling), heritage lovers, retirees seeking refined Occitanie living.",
+    seoTitleEn: "Limoux — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Limoux (Aude, Occitanie): quality-of-life score 7.0/10. World's oldest sparkling-wine region, Blanquette de Limoux, Cathar country, refined.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -7336,6 +7341,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.5,
     avgTempJanuary: 4.0,
     characterTags: ["Creuse", "Millevaches", "calme", "nature", "abordable", "artisanat", "centre France"],
+    descriptionEn:
+      "Guéret is the Creuse prefecture — France's least-populated department after Lozère, dramatic Plateau de Millevaches nature park, dramatically affordable property (among France's cheapest). Best fit: extreme-rural-living seekers, nature retirees on tightest budgets, slow-life expats prepared for genuine isolation.",
+    seoTitleEn: "Guéret — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Guéret (Creuse, Nouvelle-Aquitaine): quality-of-life score 6.5/10. Creuse prefecture, Plateau de Millevaches, ultra-rural, very cheap property.",
     scores: {
       global: 6.5,
       life: 7.0,
@@ -7362,6 +7372,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 25.0,
     avgTempJanuary: 5.5,
     characterTags: ["porte des Pyrénées", "Comminges", "Toulouse-proche", "montagne", "thermes", "nature", "abordable"],
+    descriptionEn:
+      "Saint-Gaudens is the Comminges Pyrenees-gateway — Toulouse 1 hour, Pyrenees skiing 30 minutes (Luchon area), Saint-Bertrand-de-Comminges UNESCO village nearby, dramatically affordable. Best fit: ultra-budget Pyrenees-region households, Toulouse-region workers, outdoor active families.",
+    seoTitleEn: "Saint-Gaudens — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Saint-Gaudens (Haute-Garonne, Occitanie): quality-of-life score 7.0/10. Comminges Pyrenees-gateway, near Toulouse, Luchon ski access, affordable.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -7388,6 +7403,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 19.5,
     avgTempJanuary: 6.0,
     characterTags: ["port", "Manche", "Angleterre-proche", "plage de galets", "pêche", "ferry", "casino"],
+    descriptionEn:
+      "Dieppe is the Normandy Channel port — ferries to Newhaven (UK), dramatic chalk cliffs, working fishing fleet, refined seaside heritage, dramatically affordable. Best fit: UK-France ferry commuters, fishing-and-port professionals, ultra-budget households seeking Channel-coast living.",
+    seoTitleEn: "Dieppe — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Dieppe (Seine-Maritime, Normandie): quality-of-life score 6.9/10. Normandy Channel port, UK ferries, chalk cliffs, working fishing fleet.",
     scores: {
       global: 6.9,
       life: 7.2,
@@ -7414,6 +7434,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.0,
     avgTempJanuary: 5.5,
     characterTags: ["Manche", "Normandie", "reconstruction", "prairie", "Cotentin-proche", "calme", "abordable"],
+    descriptionEn:
+      "Saint-Lô is the Manche prefecture — Normandy reconstruction city (largely destroyed in 1944, rebuilt in modernist style), Cotentin peninsula gateway, dramatic prairie landscape, dramatically affordable. Best fit: ultra-budget households, modernist-architecture lovers, ferry-to-UK frequent travellers, calm-seekers.",
+    seoTitleEn: "Saint-Lô — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Saint-Lô (Manche, Normandie): quality-of-life score 6.8/10. Manche prefecture, post-1944 reconstruction city, Cotentin gateway, very affordable.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -7440,6 +7465,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.5,
     avgTempJanuary: 5.5,
     characterTags: ["médiéval", "Saint-Jacques", "Deux-Sèvres", "Gâtine", "abordable", "marché", "authenticité"],
+    descriptionEn:
+      "Parthenay is the medieval Deux-Sèvres Saint-Jacques pilgrimage stop — exceptional walled medieval centre, Wednesday market is a regional benchmark, dramatically affordable. Best fit: heritage lovers, pilgrims, ultra-budget households, retirees seeking authentic small-town centre-France living.",
+    seoTitleEn: "Parthenay — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Parthenay (Deux-Sèvres, Nouvelle-Aquitaine): quality-of-life score 7.1/10. Medieval pilgrimage town, walled centre, Wednesday market, affordable.",
     scores: {
       global: 7.1,
       life: 7.5,
@@ -7466,6 +7496,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 23.5,
     avgTempJanuary: 3.5,
     characterTags: ["Bourgogne", "vins", "Hospices", "Route des Grands Crus", "gastronomie", "tourisme", "patrimoine"],
+    descriptionEn:
+      "Beaune is the heart of Burgundy wine country — Hospices de Beaune annual wine auction (the world's most important), Route des Grands Crus on the doorstep (Romanée-Conti, Montrachet, Pommard), refined heritage. Best fit: wine professionals, refined retirees, gastronomes, wine investors and traders.",
+    seoTitleEn: "Beaune — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Beaune (Côte-d'Or, Bourgogne-Franche-Comté): quality-of-life score 7.8/10. Heart of Burgundy wine country, Hospices auction, Route des Grands Crus.",
     scores: {
       global: 7.8,
       life: 8.5,
@@ -7492,6 +7527,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 23.0,
     avgTempJanuary: 2.5,
     characterTags: ["romain", "cathédrale", "Morvan", "art roman", "Bourgogne", "abordable", "patrimoine"],
+    descriptionEn:
+      "Autun is the Saône-et-Loire Gallo-Roman city — Augustodunum founded by Augustus, exceptional Romanesque Cathédrale Saint-Lazare, Morvan Regional Park on the doorstep, dramatically affordable. Best fit: heritage lovers, ultra-budget households, retirees seeking refined small-Burgundy living.",
+    seoTitleEn: "Autun — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Autun (Saône-et-Loire, Bourgogne-Franche-Comté): quality-of-life score 7.3/10. Gallo-Roman city, Augustus-era heritage, Romanesque cathedral, Morvan.",
     scores: {
       global: 7.3,
       life: 7.5,
@@ -7518,6 +7558,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.5,
     avgTempJanuary: 2.0,
     characterTags: ["Vosges", "roses", "château", "canal de la Marne", "Strasbourg-proche", "alsacien", "nature"],
+    descriptionEn:
+      "Saverne is the Vosges-foothill Alsace gateway — refined château, rose-cultivation heritage, Strasbourg 30 minutes by train, Vosges forests and trails, Canal de la Marne au Rhin. Best fit: refined Strasbourg-region workers wanting cheaper base, families seeking Alsatian small-town living with mountain access.",
+    seoTitleEn: "Saverne — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Saverne (Bas-Rhin, Grand Est): quality-of-life score 7.5/10. Vosges-Alsace gateway, refined château, rose cultivation, 30 min Strasbourg.",
     scores: {
       global: 7.5,
       life: 8.0,
@@ -7544,6 +7589,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.5,
     avgTempJanuary: 3.5,
     characterTags: ["ville médiévale", "colline", "cathédrale gothique", "Paris-proche", "Aisne", "abordable", "patrimoine"],
+    descriptionEn:
+      "Laon is the dramatic Aisne hilltop city — medieval upper town perched 100m above the plain, exceptional Gothic Notre-Dame cathedral, dramatically affordable, Paris 1h30 by train. Best fit: heritage lovers, ultra-budget households, Paris commuters wanting dramatic historic base.",
+    seoTitleEn: "Laon — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Laon (Aisne, Hauts-de-France): quality-of-life score 6.9/10. Dramatic hilltop medieval city, Gothic Notre-Dame cathedral, 1h30 to Paris, affordable.",
     scores: {
       global: 6.9,
       life: 7.2,
@@ -7570,6 +7620,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.5,
     avgTempJanuary: 2.5,
     characterTags: ["Haute-Saône", "calme", "festival", "Franche-Comté", "abordable", "nature", "authenticité"],
+    descriptionEn:
+      "Vesoul is the Haute-Saône prefecture — Jacques Brel song heritage, working-class authenticity, dramatically affordable, Vosges-foothill setting. Best fit: ultra-budget households, retirees seeking authentic Franche-Comté living, calm-rural-France seekers.",
+    seoTitleEn: "Vesoul — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Vesoul (Haute-Saône, Bourgogne-Franche-Comté): quality-of-life score 6.7/10. Haute-Saône prefecture, Jacques Brel heritage, very affordable, calm.",
     scores: {
       global: 6.7,
       life: 7.0,
@@ -7596,6 +7651,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.0,
     avgTempJanuary: 2.5,
     characterTags: ["viaduc", "graphisme", "Haute-Marne", "calme", "abordable", "forêts", "arts graphiques"],
+    descriptionEn:
+      "Chaumont is the Haute-Marne graphic-design capital — biennale International Poster Festival, dramatic 50-arch viaduct, dramatically affordable, surrounded by Champagne forests. Best fit: graphic designers, poster-and-print professionals, ultra-budget households, retirees seeking quiet Haute-Marne living.",
+    seoTitleEn: "Chaumont — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Chaumont (Haute-Marne, Grand Est): quality-of-life score 6.6/10. Haute-Marne graphic-design capital, Poster Biennale, 50-arch viaduct, affordable.",
     scores: {
       global: 6.6,
       life: 7.0,
@@ -7622,6 +7682,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 23.0,
     avgTempJanuary: 4.5,
     characterTags: ["Rabelais", "forteresse royale", "Chinon AOC", "Vienne", "Touraine", "médiéval", "vin rouge"],
+    descriptionEn:
+      "Chinon is the medieval Touraine Loire-Valley town — Rabelais's birthplace, dramatic royal fortress above the Vienne river, Chinon AOC red wine country, refined heritage. Best fit: heritage lovers, wine professionals (Loire reds), literary tourists, retirees seeking refined Loire Valley living.",
+    seoTitleEn: "Chinon — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Chinon (Indre-et-Loire, Centre-Val de Loire): quality-of-life score 7.4/10. Medieval Touraine town, Rabelais heritage, royal fortress, Chinon AOC wine.",
     scores: {
       global: 7.4,
       life: 8.0,
@@ -7648,6 +7713,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.0,
     avgTempJanuary: 1.5,
     characterTags: ["Amérique nommée ici", "Vosges", "festival de géographie", "forêts", "abordable", "calme", "patrimoine"],
+    descriptionEn:
+      "Saint-Dié-des-Vosges is the Vosges-forest town where America was first named (1507 Cosmographiae Introductio) — annual Geography Festival, dramatic Vosges-forest setting, dramatically affordable. Best fit: geographers, ultra-budget mountain-adjacent households, retirees seeking calm Vosges-forest living.",
+    seoTitleEn: "Saint-Dié-des-Vosges — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Saint-Dié-des-Vosges (Vosges, Grand Est): quality-of-life score 6.8/10. Where America was named in 1507, Vosges forest, Geography Festival.",
     scores: {
       global: 6.8,
       life: 7.0,
@@ -7674,6 +7744,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 25.0,
     avgTempJanuary: 4.5,
     characterTags: ["bastide médiévale", "Aveyron", "truffe noire", "Lot-proche", "calme", "patrimoine", "abordable"],
+    descriptionEn:
+      "Villefranche-de-Rouergue is the 13th-century Aveyron bastide town — refined grid-plan medieval centre, Lot Valley adjacent, black-truffle country, dramatically affordable. Best fit: heritage lovers, gastronomes (truffles), retirees seeking refined small-town Aveyron living, ultra-budget households.",
+    seoTitleEn: "Villefranche-de-Rouergue — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Villefranche-de-Rouergue (Aveyron, Occitanie): quality-of-life score 7.2/10. 13th-century bastide, black-truffle country, refined and affordable.",
     scores: {
       global: 7.2,
       life: 7.5,
