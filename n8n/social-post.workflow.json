@@ -1,14 +1,11 @@
 {
-  "name": "MeilleurVille — Social Post (FB ready)",
+  "name": "MeilleurVille — Social Post (FB + LinkedIn)",
   "nodes": [
     {
       "parameters": {
         "rule": {
           "interval": [
-            {
-              "field": "cronExpression",
-              "expression": "0 10 * * *"
-            }
+            { "field": "cronExpression", "expression": "0 10 * * *" }
           ]
         }
       },
@@ -20,7 +17,7 @@
     },
     {
       "parameters": {
-        "jsCode": "const messages = [\n  'Quelle ville française vous correspond vraiment ? On a classé 540 villes sur 8 critères (vie, transport, nature, coût, sécurité, culture, télétravail, écoles). Sans bullshit, données SSMSI + Insee + observatoires des loyers. 👉 https://mavilleideale.fr',\n  'Top 3 villes pour le télétravail en 2026, données à l\\'appui : 👉 https://mavilleideale.fr/classements/teletravail',\n  'Climat 2040 par région française : ce qui change vraiment chez vous. 👉 https://mavilleideale.fr/guides',\n  'Acheter ou louer en 2026 ? On a calculé le seuil par ville. 👉 https://mavilleideale.fr',\n  'Vivre sans voiture en France : les 12 villes où c\\'est réaliste. 👉 https://mavilleideale.fr/guides'\n];\nconst pick = messages[Math.floor(Math.random() * messages.length)];\nreturn [{ json: { message: pick } }];"
+        "jsCode": "const messages = [\n  'Quelle ville française vous correspond vraiment ? On a classé 540 villes sur 8 critères (vie, transport, nature, coût, sécurité, culture, télétravail, écoles). Sans bullshit, données SSMSI + Insee + observatoires des loyers. https://mavilleideale.fr',\n  'Top 3 villes pour le télétravail en 2026, données à l\\'appui : https://mavilleideale.fr/classements/teletravail',\n  'Climat 2040 par région française : ce qui change vraiment chez vous. https://mavilleideale.fr/guides',\n  'Acheter ou louer en 2026 ? On a calculé le seuil par ville. https://mavilleideale.fr',\n  'Vivre sans voiture en France : les 12 villes où c\\'est réaliste. https://mavilleideale.fr/guides'\n];\nconst pick = messages[Math.floor(Math.random() * messages.length)];\nreturn [{ json: { message: pick } }];"
       },
       "id": "pickmsg",
       "name": "Pick rotating message",
@@ -45,12 +42,40 @@
       "name": "Facebook — Publish",
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.2,
-      "position": [700, 300]
+      "position": [720, 200]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.linkedin.com/v2/ugcPosts",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            { "name": "Authorization", "value": "=Bearer {{$env.LINKEDIN_ACCESS_TOKEN}}" },
+            { "name": "X-Restli-Protocol-Version", "value": "2.0.0" },
+            { "name": "Content-Type", "value": "application/json" }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"author\": \"{{$env.LINKEDIN_URN}}\",\n  \"lifecycleState\": \"PUBLISHED\",\n  \"specificContent\": {\n    \"com.linkedin.ugc.ShareContent\": {\n      \"shareCommentary\": { \"text\": {{ JSON.stringify($json.message) }} },\n      \"shareMediaCategory\": \"NONE\"\n    }\n  },\n  \"visibility\": { \"com.linkedin.ugc.MemberNetworkVisibility\": \"PUBLIC\" }\n}",
+        "options": {}
+      },
+      "id": "lipost",
+      "name": "LinkedIn — Publish",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [720, 400]
     }
   ],
   "connections": {
     "Daily 10:00": { "main": [[{ "node": "Pick rotating message", "type": "main", "index": 0 }]] },
-    "Pick rotating message": { "main": [[{ "node": "Facebook — Publish", "type": "main", "index": 0 }]] }
+    "Pick rotating message": {
+      "main": [[
+        { "node": "Facebook — Publish", "type": "main", "index": 0 },
+        { "node": "LinkedIn — Publish", "type": "main", "index": 0 }
+      ]]
+    }
   },
   "settings": { "executionOrder": "v1" },
   "active": false
