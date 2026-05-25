@@ -65,7 +65,7 @@ export default function CguPage() {
             Conditions Générales d&apos;Utilisation
           </h1>
           <p className="text-sm text-[var(--text-tertiary)]">
-            Dernière mise à jour : 1er avril 2025
+            Dernière mise à jour : 25 mai 2026
           </p>
         </div>
         <div className="space-y-8">

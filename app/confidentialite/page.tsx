@@ -103,7 +103,7 @@ Nous ne vendons jamais vos données. Nous ne les partageons jamais avec des cour
     title: "10. Mise à jour de la politique",
     content: `Nous pouvons mettre à jour cette politique pour refléter des évolutions techniques, légales ou éditoriales. Toute modification substantielle (nouvelle catégorie de donnée, nouveau sous-traitant, nouvelle finalité) sera signalée en haut de cette page pendant au moins 30 jours.
 
-Dernière mise à jour : 19 mai 2026.`,
+Dernière mise à jour : 25 mai 2026.`,
   },
 ];
 

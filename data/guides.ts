@@ -17852,7 +17852,7 @@ export const GUIDES: Guide[] = [
         body: "Piège 1 : le loft rénové avec vue mer en Vieux-Nice à 7 000 €/m² qu'un agent vous présente comme une opportunité. Ce n'est pas une opportunité — c'est un bien de patrimoine, pas de rendement, et il sera difficile à revendre à ce prix si les acheteurs internationaux se raréfient. Piège 2 : les copropriétés avec « fonds de travaux insuffisant » (inférieur à 5 % du budget prévisionnel annuel, obligatoire depuis 2017). Elles ont des mauvaises habitudes de gestion et vous ferez face à des appels de fonds exceptionnels. Piège 3 : les caves, parkings et locaux en rez-de-chaussée sur la Promenade. Ils semblent attractifs prix d'entrée mais leur valeur est entièrement dépendante d'une réglementation du stationnement qui évolue. Piège 4 : acheter dans un secteur mal desservi par les transports en se disant qu'on sera en voiture — Nice a l'un des pires indices de congestion de France (3e après Paris et Lyon), le transport public est la seule variable sur laquelle vous n'aurez pas de mauvaise surprise."
       }
     ],
-    relatedCities: ["nice", "antibes", "cannes", "menton", "villefranche-sur-mer"],
+    relatedCities: ["nice", "antibes", "cannes", "menton"],
     relatedGuides: [
       "acheter-immobilier-france-meilleures-villes-2025",
       "meilleures-villes-investissement-locatif-colocation-2025",
@@ -18360,7 +18360,7 @@ export const GUIDES: Guide[] = [
         body: "T2 50 m² dans le centre de Rennes (Arsenal, Thabor) à 4 500 €/m² : 225 000 € FAI. Frais de notaire : 8 % = 18 000 €. Frais d'agence : 4-5 % = 9 000-11 250 €. Budget travaux (réaliste pour du bien des années 70-80) : 15 000-20 000 €. Budget total : 267 000-274 000 €. Pour un T3 70 m² en première couronne à 3 600 €/m² : 252 000 € FAI + frais = environ 293 000 € tout compris. Taux mai 2026 (profil standard, 20 ans) : 3,7-4,0 %. Mensualité pour 230 000 € emprunté sur 20 ans : environ 1 350-1 400 €.",
       },
     ],
-    relatedCities: ["rennes", "cesson-sevigne", "saint-gregoire", "vitre"],
+    relatedCities: ["rennes", "vitre"],
     relatedGuides: [
       "acheter-a-bordeaux-quel-quartier-budget-2026",
       "negocier-prix-immobilier-france-guide-2026",
@@ -18397,7 +18397,7 @@ export const GUIDES: Guide[] = [
         body: "T2 50 m² centre Nantes (Zola) à 4 800 €/m² : 240 000 € FAI. Frais de notaire : 19 200 €. Frais d'agence inclus ou séparés (3-5 %) : 7 200-12 000 €. Total : 266 000-271 000 €. Mensualité pour 230 000 € emprunté sur 20 ans à 3,8 % : environ 1 370 €. T3 70 m² à Saint-Sébastien-sur-Loire à 3 500 €/m² : 245 000 € FAI + frais ≈ 285 000 €. Nantes reste dans la fourchette haute des villes de province, et le calcul louer/acheter penche vers l'achat uniquement sur des horizons longs (12-15 ans).",
       },
     ],
-    relatedCities: ["nantes", "saint-sebastien-sur-loire", "rezé", "la-chapelle-sur-erdre"],
+    relatedCities: ["nantes", "reze"],
     relatedGuides: [
       "acheter-a-bordeaux-quel-quartier-budget-2026",
       "ptz-pret-taux-zero-2026-guide-complet",
@@ -18516,7 +18516,7 @@ export const GUIDES: Guide[] = [
         body: "Pour les budgets qui ne permettent pas le centre d'Annecy : Cran-Gevrier (commune fusionnée avec Annecy en 2017, légèrement moins chère) : 4 000-4 800 €/m². Saint-Jorioz et Duingt (rive ouest du lac, verdoyant) : 4 500-6 000 €/m² selon la vue. Faverges (20 km au sud, Bauges) : 2 500-3 200 €/m², avec une qualité de vie montagne réelle. Pour les frontaliers suisses : les communes de la vallée de l'Arve (Bonneville, Cluses, Scionzier) offrent un accès à la Suisse par l'autoroute A40 et des prix entre 2 200 et 3 000 €/m² — économie de 60 000-150 000 € sur un T3 par rapport à Annecy.",
       },
     ],
-    relatedCities: ["annecy", "annecy-le-vieux", "seynod", "meythet"],
+    relatedCities: ["annecy"],
     relatedGuides: [
       "quitter-annecy-guide-2026",
       "annecy-vs-chambery-comparatif-2026",
@@ -18668,7 +18668,7 @@ export const GUIDES: Guide[] = [
         body: "La métropole lilloise (MEL) est polycentriste — Roubaix, Tourcoing, et Villeneuve-d'Ascq sont des pôles indépendants significatifs. Se déplacer entre ces pôles sans voiture est possible en tramway et métro, mais les trajets prennent plus longtemps que les distances le suggèrent. Pour quelqu'un qui travaille à Roubaix et habite à Lille, le tramway est viable (30-40 min). Pour les déplacements périphériques vers les zones industrielles, les zones commerciales de la périphérie, ou les communes hors des lignes de transport structurantes, la voiture reste difficile à éviter.",
       },
     ],
-    relatedCities: ["lille", "roubaix", "tourcoing", "villeneuve-d-ascq"],
+    relatedCities: ["lille", "roubaix", "tourcoing"],
     relatedGuides: [
       "quitter-lille-guide-2026",
       "vivre-sans-voiture-lyon-guide-2026",
@@ -18816,7 +18816,7 @@ export const GUIDES: Guide[] = [
         body: "T2 50 m² en centre-ville à 2 500 €/m² : 125 000 € FAI. Frais de notaire (8 %) : 10 000 €. Frais d'agence : 4-5 % = 5 000-6 250 €. Budget travaux réaliste : 10 000-20 000 €. Budget total : 150 000-161 000 €. T3 70 m² en couronne résidentielle (Royat, Beaumont) à 2 200 €/m² : 154 000 € + frais = 180 000 € tout compris. À titre de comparaison, un T3 équivalent à Lyon coûte 350 000-450 000 € en intra-muros. Taux mai 2026 (20 ans, profil standard) : 3,6-4,0 %. Mensualité pour 130 000 € empruntés : environ 755-780 €. Avec un salaire médian local (2 200-2 600 € nets), l'accession est beaucoup plus accessible qu'en métropole.",
       },
     ],
-    relatedCities: ["clermont-ferrand", "royat", "beaumont", "cebazat"],
+    relatedCities: ["clermont-ferrand"],
     relatedGuides: [
       "quitter-clermont-ferrand-guide-2026",
       "meilleures-villes-primo-accedants-france-2026",
@@ -18853,7 +18853,7 @@ export const GUIDES: Guide[] = [
         body: "T2 50 m² en centre historique à 3 000 €/m² : 150 000 € FAI. Frais de notaire : 12 000 €. Frais d'agence : 4-5 % = 6 000-7 500 €. Budget travaux (bien des années 1970-80) : 12 000-22 000 €. Budget total : 180 000-191 000 €. T3 70 m² à Vaucelles ou Calvaire à 2 400 €/m² : 168 000 € + frais = 196 000 € tout compris. Taux mai 2026 : 3,6-4,0 %. Mensualité pour 155 000 € empruntés sur 20 ans : environ 900-930 €. Pour les primo-accédants avec des revenus de 2 500-3 500 € nets, Caen est une des rares grandes villes normandes où l'accession à la propriété reste accessible sans apport familial exceptionnel.",
       },
     ],
-    relatedCities: ["caen", "herouville-saint-clair", "bayeux", "lisieux"],
+    relatedCities: ["caen", "herouville-saint-clair", "bayeux"],
     relatedGuides: [
       "caen-vs-rouen-comparatif-2026",
       "teletravailler-depuis-normandie-guide-2026",
@@ -18890,7 +18890,7 @@ export const GUIDES: Guide[] = [
         body: "T2 50 m² en centre-ville avec vue ou bien placé à 2 600 €/m² : 130 000 € FAI. Frais de notaire : 10 400 €. Frais d'agence : 4 % = 5 200 €. Budget travaux (bien des années 1960-80) : 12 000-18 000 €. Budget total : 157 000-163 000 €. Maison T4 100 m² avec terrain à Jurançon ou Lescar à 2 000 €/m² bâti équivalent : 220 000 € tout compris (terrain inclus). Taux mai 2026 : 3,6-4,0 %. Mensualité pour 135 000 € empruntés sur 20 ans : environ 785-810 €. L'accession à la propriété reste réaliste avec des revenus de 2 200-3 000 € nets à Pau, ce qui est rare pour une ville de cette qualité de cadre de vie.",
       },
     ],
-    relatedCities: ["pau", "billere", "lescar", "jurancon"],
+    relatedCities: ["pau"],
     relatedGuides: [
       "pau-vs-bayonne-comparatif-2026",
       "vivre-en-pays-basque-guide-2026",
@@ -18927,7 +18927,7 @@ export const GUIDES: Guide[] = [
         body: "S'installer dans la Normandie intérieure avec un emploi local à temps plein est difficile sauf dans des secteurs bien représentés (agriculture, logistique, santé, éducation). La stratégie qui fonctionne : le télétravail avec des déplacements ponctuels à Paris, Rouen ou Caen, ou un emploi local dans les secteurs porteurs de la région. La couverture fibre est en cours de déploiement dans toute la Normandie (plan France Très Haut Débit) — la plupart des communes de plus de 2 000 habitants sont fibrées ou le seront d'ici 2026-2027. Vérifier le statut exact de la commune cible avant d'acheter.",
       },
     ],
-    relatedCities: ["evreux", "lisieux", "caen", "rouen"],
+    relatedCities: ["evreux", "caen", "rouen"],
     relatedGuides: [
       "teletravailler-depuis-normandie-guide-2026",
       "caen-vs-rouen-comparatif-2026",
@@ -18968,7 +18968,7 @@ export const GUIDES: Guide[] = [
         body: "Toulon a historiquement sous-performé par rapport à Nice et Marseille en termes de valorisation immobilière. Les raisons : image de marque moins forte, tissu économique moins dynamique (la base militaire est une stabilité, pas un moteur de croissance). Depuis 2020, Toulon bénéficie de l'effet grande ville côtière méditerranéenne abordable — la demande extérieure (notamment parisienne et lyonnaise) a tiré les prix. L'horizon de détention raisonnable pour espérer une plus-value réelle reste 8-12 ans. Risques spécifiques : séisme (zone de sismicité modérée), pollution sonore de la base navale (survols aériens, activité portuaire), montée des eaux à très long terme pour les biens en bord de mer.",
       },
     ],
-    relatedCities: ["toulon", "la-seyne-sur-mer", "hyeres", "la-valette-du-var"],
+    relatedCities: ["toulon", "la-seyne-sur-mer", "hyeres"],
     relatedGuides: [
       "toulon-vs-marseille-comparatif-2026",
       "quitter-toulon-guide-2026",
@@ -19009,7 +19009,7 @@ export const GUIDES: Guide[] = [
         body: "À surveiller : le quartier Grammont (rive droite, en mutation douce depuis 10 ans) offre des prix encore sous la moyenne centrale pour une qualité de vie en hausse. Sotteville-lès-Rouen (rive gauche, première couronne) a le meilleur rapport transport/prix : ligne TEOR directe, gare SNCF, prix encore à 1 700-2 400 €/m². À approcher avec précaution : certains secteurs de Saint-Étienne-du-Rouvray proches des zones industrielles — les prix sont attractifs mais la demande locative est faible et la revente plus difficile. Conseil général : à Rouen, éviter les rez-de-chaussée et les appartements en angle de rue passante — la Seine crée un fond sonore et humide dans les rues basses, et le trafic normand est dense.",
       },
     ],
-    relatedCities: ["rouen", "sotteville-les-rouen", "bois-guillaume", "mont-saint-aignan"],
+    relatedCities: ["rouen", "sotteville-les-rouen", "mont-saint-aignan"],
     relatedGuides: [
       "quitter-rouen-guide-2026",
       "caen-vs-rouen-comparatif-2026",
@@ -19083,7 +19083,7 @@ export const GUIDES: Guide[] = [
         body: "L'hiver savoyard change les données. Novembre à mars, les journées sont courtes, il peut neiger en ville, et les températures descendent régulièrement sous 0°C. Faire ses courses à vélo par -5°C et neige collante est possible mais pas confortable. Le vélo électrique (VAE) change la donne — il compense les dénivelés et réduit l'effort physique, mais l'entretien hivernal (chaîne, pneus) est un sujet. Le SIBRA maintient son service en conditions normales (sauf épisodes neigeux exceptionnels sur les lignes périphériques). Sans voiture l'hiver à Annecy-centre : réaliste. Sans voiture l'hiver en périphérie montagnarde : inconfortable.",
       },
     ],
-    relatedCities: ["annecy", "cran-gevrier", "seynod", "annecy-le-vieux"],
+    relatedCities: ["annecy"],
     relatedGuides: [
       "vivre-sans-voiture-france-guide-2025",
       "vivre-sans-voiture-grenoble-guide-2026",
@@ -19120,7 +19120,7 @@ export const GUIDES: Guide[] = [
         body: "Coût mensuel transport sans voiture : abonnement Divia 44 € + DiviaVélo 2,4 €/mois (29 €/an) + VTC occasionnel 20-30 €/mois = environ 70-80 €/mois. Économie vs. voiture à Dijon (assurance + carburant + parking + entretien) : 350-550 €/mois selon le véhicule et l'usage. En 10 ans, l'économie totale de ne pas posséder de voiture à Dijon (transport remplacé par abonnement Divia) : environ 30 000-55 000 €. Dijon est l'une des villes où l'arbitrage financier en faveur du sans-voiture est le plus net — à la fois parce que le réseau est suffisant pour s'en passer et parce que la ville est petite enough pour que les déplacements restent courts.",
       },
     ],
-    relatedCities: ["dijon", "chenove", "quetigny", "talant"],
+    relatedCities: ["dijon", "chenove"],
     relatedGuides: [
       "vivre-sans-voiture-france-guide-2025",
       "quitter-dijon-guide-2026",
@@ -19198,7 +19198,7 @@ export const GUIDES: Guide[] = [
         body: "La Haute-Savoie est idéale pour : les travailleurs frontaliers (Genève, Lausanne) qui veulent vivre dans une qualité de vie française tout en bénéficiant de salaires suisses, les familles amoureuses de la montagne qui ont les moyens d'acheter ou d'être bien locataires, les télétravailleurs avec des revenus parisiens ou étrangers qui cherchent une qualité de vie nature exceptionnelle, les retraités aisés (actifs ou sportifs) qui ont liquidé leur immobilier parisien. Elle est déconseillée pour : les primo-accédants avec des revenus locaux (rapport effort/prix difficile), les personnes qui ne supportent pas l'hiver alpin ou les vallées encaissées, ceux qui cherchent une vie culturelle intense (Annecy a de l'offre, mais reste limitée comparée à Lyon ou Paris).",
       },
     ],
-    relatedCities: ["annecy", "annecy-le-vieux", "cran-gevrier", "thonon-les-bains"],
+    relatedCities: ["annecy", "thonon-les-bains"],
     relatedGuides: [
       "annecy-vs-chambery-comparatif-2026",
       "quitter-annecy-guide-2026",
@@ -19432,7 +19432,7 @@ export const GUIDES: Guide[] = [
         body: "Le Var est idéal pour : les retraités actifs cherchant la Provence sans les prix de la Côte d'Azur (Draguignan, Brignoles), les télétravailleurs avec des revenus extérieurs (le Var intérieur offre un cadre exceptionnel à prix raisonnables), les frontaliers et professionnels travaillant à Toulon, les familles avec des enfants qui veulent la mer et la Provence sans Paris-Banlieue. Le Var est inadapté pour : ceux qui ont besoin d'un marché d'emploi dense et diversifié (hors Toulon militaire/tertiaire), ceux qui sont sensibles au risque incendie, ceux qui ne veulent pas ou ne peuvent pas conduire (le Var intérieur est voiture-indispensable).",
       },
     ],
-    relatedCities: ["toulon", "hyeres", "la-valette-du-var", "draguignan"],
+    relatedCities: ["toulon", "hyeres", "draguignan"],
     relatedGuides: [
       "acheter-a-toulon-quel-quartier-budget-2026",
       "toulon-vs-marseille-comparatif-2026",

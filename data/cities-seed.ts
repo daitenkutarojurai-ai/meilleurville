@@ -10869,6 +10869,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne","résidentiel","Transilien H","pavillonnaire"],
+    descriptionEn:
+      "Franconville, Val-d'Oise, is a Paris suburb on Transilien H. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
+    seoTitleEn: "Franconville — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Franconville (Val-d'Oise, Île-de-France): quality-of-life score 5.8/10. Paris commuter belt, residential.",
     scores: {
       global: 5.8,
       life: 6,
@@ -10895,6 +10900,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne","résidentiel","Transilien H","moulin"],
+    descriptionEn:
+      "Sannois sits in the Paris commuter belt (Val-d'Oise), served by Transilien H. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
+    seoTitleEn: "Sannois — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Sannois (Val-d'Oise, Île-de-France): quality-of-life score 5.6/10. Paris commuter belt, residential.",
     scores: {
       global: 5.6,
       life: 5.8,
@@ -10921,6 +10931,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne","tramway T2","Seine","tertiaire"],
+    descriptionEn:
+      "Bezons sits in the Paris commuter belt (Val-d'Oise), served by tramway T2 near Seine. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
+    seoTitleEn: "Bezons — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Bezons (Val-d'Oise, Île-de-France): quality-of-life score 5.4/10. Paris commuter belt, tramway T2.",
     scores: {
       global: 5.4,
       life: 5.5,
@@ -10947,6 +10962,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne","populaire","RER D","multiculturel"],
+    descriptionEn:
+      "Garges-lès-Gonesse sits in the Paris commuter belt (Val-d'Oise), served by RER D. Best fit: value-driven buyers, locals rooted in the area, public-sector staff.",
+    seoTitleEn: "Garges-lès-Gonesse — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Garges-lès-Gonesse (Val-d'Oise, Île-de-France): quality-of-life score 4.4/10. Paris commuter belt, working-class.",
     scores: {
       global: 4.4,
       life: 4.2,
@@ -10973,6 +10993,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne","patrimoine","aéroport CDG","rénovation"],
+    descriptionEn:
+      "Gonesse, Val-d'Oise, is a Paris suburb. Best fit: engineering and industrial-sector employees tied to the local plant.",
+    seoTitleEn: "Gonesse — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Gonesse (Val-d'Oise, Île-de-France): quality-of-life score 5/10. Paris commuter belt, heritage.",
     scores: {
       global: 5,
       life: 5,
@@ -10999,6 +11024,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne","populaire","RER D","ANRU"],
+    descriptionEn:
+      "Villiers-le-Bel, Val-d'Oise, is a Paris suburb on RER D. Best fit: value-driven buyers, locals rooted in the area, public-sector staff.",
+    seoTitleEn: "Villiers-le-Bel — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Villiers-le-Bel (Val-d'Oise, Île-de-France): quality-of-life score 4.3/10. Paris commuter belt, working-class.",
     scores: {
       global: 4.3,
       life: 4,
@@ -11025,6 +11055,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne","tramway T5","populaire","ANRU"],
+    descriptionEn:
+      "Pierrefitte-sur-Seine sits in the Paris commuter belt (Seine-Saint-Denis), served by tramway T5. Best fit: value-driven buyers, locals rooted in the area, public-sector staff.",
+    seoTitleEn: "Pierrefitte-sur-Seine — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Pierrefitte-sur-Seine (Seine-Saint-Denis, Île-de-France): quality-of-life score 4.5/10. Paris commuter belt, tramway T5.",
     scores: {
       global: 4.5,
       life: 4.2,
@@ -11051,6 +11086,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne","RER B","industrie","ANRU"],
+    descriptionEn:
+      "Aulnay-sous-Bois, Seine-Saint-Denis, is a Paris suburb on RER B. Best fit: value-driven buyers, locals rooted in the area, public-sector staff.",
+    seoTitleEn: "Aulnay-sous-Bois — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Aulnay-sous-Bois (Seine-Saint-Denis, Île-de-France): quality-of-life score 4.7/10. Paris commuter belt, RER B.",
     scores: {
       global: 4.7,
       life: 4.5,
@@ -11077,6 +11117,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne","RER B","mémoire","résidentiel"],
+    descriptionEn:
+      "Drancy, Seine-Saint-Denis, is a Paris suburb on RER B. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
+    seoTitleEn: "Drancy — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Drancy (Seine-Saint-Denis, Île-de-France): quality-of-life score 4.9/10. Paris commuter belt, RER B.",
     scores: {
       global: 4.9,
       life: 4.8,
@@ -11103,6 +11148,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne","tramway T4","RER E","populaire"],
+    descriptionEn:
+      "Bondy is a Paris-area Seine-Saint-Denis suburb on the tramway T4 + RER E corridor. Best fit: value-driven buyers, locals rooted in the area, public-sector staff.",
+    seoTitleEn: "Bondy — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Bondy (Seine-Saint-Denis, Île-de-France): quality-of-life score 4.5/10. Paris commuter belt, tramway T4.",
     scores: {
       global: 4.5,
       life: 4.3,
@@ -11129,6 +11179,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne","tertiaire","métro 13/14","Puces","bobo"],
+    descriptionEn:
+      "Saint-Ouen-sur-Seine sits in the Paris commuter belt (Seine-Saint-Denis), served by métro 13/14. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
+    seoTitleEn: "Saint-Ouen-sur-Seine — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Saint-Ouen-sur-Seine (Seine-Saint-Denis, Île-de-France): quality-of-life score 6.3/10. Paris commuter belt, office / tertiary.",
     scores: {
       global: 6.3,
       life: 6.5,
@@ -11155,6 +11210,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne","métro 7/12","tertiaire","multiculturel"],
+    descriptionEn:
+      "Aubervilliers sits in the Paris commuter belt (Seine-Saint-Denis), served by métro 7/12. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
+    seoTitleEn: "Aubervilliers — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Aubervilliers (Seine-Saint-Denis, Île-de-France): quality-of-life score 5.1/10. Paris commuter belt, métro 7/12.",
     scores: {
       global: 5.1,
       life: 5,
@@ -11181,6 +11241,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne","populaire","tramway T11","cité-jardin"],
+    descriptionEn:
+      "Stains is a Paris-area Seine-Saint-Denis suburb on the tramway T11 corridor. Best fit: value-driven buyers, locals rooted in the area, public-sector staff.",
+    seoTitleEn: "Stains — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Stains (Seine-Saint-Denis, Île-de-France): quality-of-life score 4.4/10. Paris commuter belt, working-class.",
     scores: {
       global: 4.4,
       life: 4.2,
@@ -11207,6 +11272,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne","RER B","populaire","Canal Ourcq"],
+    descriptionEn:
+      "Sevran is a Paris-area Seine-Saint-Denis suburb on the RER B corridor. Best fit: value-driven buyers, locals rooted in the area, public-sector staff.",
+    seoTitleEn: "Sevran — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Sevran (Seine-Saint-Denis, Île-de-France): quality-of-life score 4.3/10. Paris commuter belt, RER B.",
     scores: {
       global: 4.3,
       life: 4,
@@ -11233,6 +11303,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne","métro 7","tramway T1","populaire","parc Courneuve"],
+    descriptionEn:
+      "La Courneuve sits in the Paris commuter belt (Seine-Saint-Denis), served by métro 7 + tramway T1. Best fit: value-driven buyers, locals rooted in the area, public-sector staff.",
+    seoTitleEn: "La Courneuve — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "La Courneuve (Seine-Saint-Denis, Île-de-France): quality-of-life score 4.4/10. Paris commuter belt, métro 7.",
     scores: {
       global: 4.4,
       life: 4.2,
@@ -11259,6 +11334,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne","métro 3","bobo","tertiaire"],
+    descriptionEn:
+      "Bagnolet is a Paris-area Seine-Saint-Denis suburb on the métro 3 corridor. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
+    seoTitleEn: "Bagnolet — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Bagnolet (Seine-Saint-Denis, Île-de-France): quality-of-life score 5.7/10. Paris commuter belt, métro 3.",
     scores: {
       global: 5.7,
       life: 5.8,
@@ -11285,6 +11365,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne","Seine","bourgeois","tramway T1"],
+    descriptionEn:
+      "Asnières-sur-Seine is a Paris-area Hauts-de-Seine suburb on the tramway T1 corridor near Seine. Best fit: refined-suburb families, dual-income Paris professionals.",
+    seoTitleEn: "Asnières-sur-Seine — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Asnières-sur-Seine (Hauts-de-Seine, Île-de-France): quality-of-life score 6.5/10. Paris commuter belt, Seine river.",
     scores: {
       global: 6.5,
       life: 6.8,
@@ -11311,6 +11396,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne","RER B","résidentiel","Parc de Sceaux"],
+    descriptionEn:
+      "Antony, Hauts-de-Seine, is a Paris suburb on RER B near Parc de Sceaux. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
+    seoTitleEn: "Antony — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Antony (Hauts-de-Seine, Île-de-France): quality-of-life score 6.8/10. Paris commuter belt, RER B.",
     scores: {
       global: 6.8,
       life: 7.2,
@@ -11337,6 +11427,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne","Seine","Mont-Valérien","T2","résidentiel"],
+    descriptionEn:
+      "Suresnes is a Paris-area Hauts-de-Seine suburb near Seine, Mont-Valérien. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
+    seoTitleEn: "Suresnes — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Suresnes (Hauts-de-Seine, Île-de-France): quality-of-life score 6.9/10. Paris commuter belt, Seine river.",
     scores: {
       global: 6.9,
       life: 7.2,
@@ -11363,6 +11458,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne","résidentiel haut de gamme","parc","tramway T2"],
+    descriptionEn:
+      "Saint-Cloud is a Paris-area Hauts-de-Seine suburb on the tramway T2 corridor. Best fit: refined-suburb families, dual-income Paris professionals.",
+    seoTitleEn: "Saint-Cloud — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Saint-Cloud (Hauts-de-Seine, Île-de-France): quality-of-life score 7.5/10. Paris commuter belt, upmarket residential.",
     scores: {
       global: 7.5,
       life: 7.8,
@@ -11389,6 +11489,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne","Marne","RER A/E","résidentiel"],
+    descriptionEn:
+      "Champigny-sur-Marne sits in the Paris commuter belt (Val-de-Marne), served by RER A/E near Marne. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
+    seoTitleEn: "Champigny-sur-Marne — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Champigny-sur-Marne (Val-de-Marne, Île-de-France): quality-of-life score 5.6/10. Paris commuter belt, Marne river.",
     scores: {
       global: 5.6,
       life: 5.8,
@@ -11415,6 +11520,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne","Marne","RER A","bourgeois","boucle de la Marne"],
+    descriptionEn:
+      "Saint-Maur-des-Fossés, Val-de-Marne, is a Paris suburb on RER A near Marne. Best fit: refined-suburb families, dual-income Paris professionals.",
+    seoTitleEn: "Saint-Maur-des-Fossés — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Saint-Maur-des-Fossés (Val-de-Marne, Île-de-France): quality-of-life score 7/10. Paris commuter belt, Marne river.",
     scores: {
       global: 7,
       life: 7.5,
@@ -11441,6 +11551,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne","métro 8","Marne","vétérinaire","résidentiel"],
+    descriptionEn:
+      "Maisons-Alfort sits in the Paris commuter belt (Val-de-Marne), served by métro 8 near Marne. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
+    seoTitleEn: "Maisons-Alfort — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Maisons-Alfort (Val-de-Marne, Île-de-France): quality-of-life score 6.5/10. Paris commuter belt, métro 8.",
     scores: {
       global: 6.5,
       life: 6.8,
@@ -11467,6 +11582,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne","RER A/E","Bois de Vincennes","résidentiel"],
+    descriptionEn:
+      "Fontenay-sous-Bois sits in the Paris commuter belt (Val-de-Marne), served by RER A/E near Bois de Vincennes. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
+    seoTitleEn: "Fontenay-sous-Bois — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Fontenay-sous-Bois (Val-de-Marne, Île-de-France): quality-of-life score 6.8/10. Paris commuter belt, RER A/E.",
     scores: {
       global: 6.8,
       life: 7,
@@ -11493,6 +11613,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne","métro 13","tertiaire","Seine"],
+    descriptionEn:
+      "Clichy sits in the Paris commuter belt (Hauts-de-Seine), served by métro 13 near Seine. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
+    seoTitleEn: "Clichy — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Clichy (Hauts-de-Seine, Île-de-France): quality-of-life score 6/10. Paris commuter belt, métro 13.",
     scores: {
       global: 6,
       life: 6.2,
@@ -11519,6 +11644,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne","RER A","Seine","automobile (Stellantis)"],
+    descriptionEn:
+      "Poissy is a Paris-area Yvelines suburb on the RER A corridor near Seine. Best fit: engineering and industrial-sector employees tied to the local plant.",
+    seoTitleEn: "Poissy — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Poissy (Yvelines, Île-de-France): quality-of-life score 5.9/10. Paris commuter belt, RER A.",
     scores: {
       global: 5.9,
       life: 6.2,
@@ -11545,6 +11675,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne","Seine","Eole RER E","ANRU"],
+    descriptionEn:
+      "Mantes-la-Jolie, Yvelines, is a Paris suburb on Eole near Seine. Best fit: value-driven buyers, locals rooted in the area, public-sector staff.",
+    seoTitleEn: "Mantes-la-Jolie — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Mantes-la-Jolie (Yvelines, Île-de-France): quality-of-life score 5/10. Paris commuter belt, Seine river.",
     scores: {
       global: 5,
       life: 5,
@@ -11571,6 +11706,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne","Saint-Quentin-en-Yvelines","Transilien N","ANRU"],
+    descriptionEn:
+      "Trappes, Yvelines, is a Paris suburb on Transilien N near Saint-Quentin-en-Yvelines. Best fit: value-driven buyers, locals rooted in the area, public-sector staff.",
+    seoTitleEn: "Trappes — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Trappes (Yvelines, Île-de-France): quality-of-life score 4.7/10. Paris commuter belt, Saint-Quentin-en-Yvelines.",
     scores: {
       global: 4.7,
       life: 4.5,
@@ -11597,6 +11737,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne","RER A","Seine","résidentiel"],
+    descriptionEn:
+      "Sartrouville sits in the Paris commuter belt (Yvelines), served by RER A near Seine. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
+    seoTitleEn: "Sartrouville — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Sartrouville (Yvelines, Île-de-France): quality-of-life score 5.8/10. Paris commuter belt, RER A.",
     scores: {
       global: 5.8,
       life: 6,
@@ -11623,6 +11768,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 19.5,
     avgTempJanuary: 1.5,
     characterTags: ["alsace","vignoble","Vosges","résidentiel"],
+    descriptionEn:
+      "Cernay is a Haut-Rhin town in Grand Est near Vosges. Best fit: mountain-life seekers, outdoor professionals, ski-season workers.",
+    seoTitleEn: "Cernay — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Cernay (Haut-Rhin, Grand Est): quality-of-life score 6/10. Alsace, wine country.",
     scores: {
       global: 6,
       life: 6.5,
@@ -11649,6 +11799,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 19.5,
     avgTempJanuary: 3.5,
     characterTags: ["textile historique","métro Lille","ANRU","musée La Piscine"],
+    descriptionEn:
+      "Roubaix is a Lille-area Nord suburb on the métro L corridor. Best fit: value-driven buyers, locals rooted in the area, public-sector staff.",
+    seoTitleEn: "Roubaix — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Roubaix (Nord, Hauts-de-France): quality-of-life score 5/10. Textile historique, métro Lille.",
     scores: {
       global: 5,
       life: 4.8,
@@ -11675,6 +11830,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 19.5,
     avgTempJanuary: 3.5,
     characterTags: ["textile historique","métro Lille","frontière belge","Université"],
+    descriptionEn:
+      "Tourcoing is a Lille-area Nord suburb on the métro L corridor. Best fit: students, junior academics, young professionals on Lille salaries.",
+    seoTitleEn: "Tourcoing — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Tourcoing (Nord, Hauts-de-France): quality-of-life score 5.1/10. Textile historique, métro Lille.",
     scores: {
       global: 5.1,
       life: 5,
@@ -11701,6 +11861,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 19.5,
     avgTempJanuary: 3.5,
     characterTags: ["frontière belge","résidentiel","tertiaire"],
+    descriptionEn:
+      "Wattrelos is a Nord town on the Belgian border. Best fit: cross-border commuters, bilingual professionals.",
+    seoTitleEn: "Wattrelos — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Wattrelos (Nord, Hauts-de-France): quality-of-life score 5/10. Belgium border, residential.",
     scores: {
       global: 5,
       life: 5,
@@ -11727,6 +11892,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 27,
     avgTempJanuary: 7.5,
     characterTags: ["étang de Berre","industriel","Aix-Marseille","résidentiel"],
+    descriptionEn:
+      "Vitrolles sits in the Marseille commuter belt (Bouches-du-Rhône). Best fit: engineering and industrial-sector employees tied to the local plant.",
+    seoTitleEn: "Vitrolles — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Vitrolles (Bouches-du-Rhône, Provence-Alpes-Côte d'Azur): quality-of-life score 5.5/10. Étang de Berre, industrial.",
     scores: {
       global: 5.5,
       life: 5.5,
@@ -11753,6 +11923,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 27,
     avgTempJanuary: 7.5,
     characterTags: ["aéroport Marseille-Provence","Airbus Helicopters","étang de Berre"],
+    descriptionEn:
+      "Marignane is a Bouches-du-Rhône Mediterranean / Provençal town near Airbus Helicopters. Best fit: engineering and industrial-sector employees tied to the local plant.",
+    seoTitleEn: "Marignane — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Marignane (Bouches-du-Rhône, Provence-Alpes-Côte d'Azur): quality-of-life score 5.6/10. Aéroport Marseille-Provence, Airbus Helicopters.",
     scores: {
       global: 5.6,
       life: 5.7,
@@ -11779,6 +11954,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 27,
     avgTempJanuary: 7.5,
     characterTags: ["étang de Berre","base aérienne","Provence"],
+    descriptionEn:
+      "Istres is a Bouches-du-Rhône Mediterranean / Provençal town. Best fit: settlers seeking a quieter Bouches-du-Rhône base, locals rooted in the area.",
+    seoTitleEn: "Istres — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Istres (Bouches-du-Rhône, Provence-Alpes-Côte d'Azur): quality-of-life score 5.7/10. Étang de Berre, base aérienne.",
     scores: {
       global: 5.7,
       life: 5.8,
@@ -11805,6 +11985,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 27,
     avgTempJanuary: 8.5,
     characterTags: ["Méditerranée","Toulon","rade","balnéaire","naval historique"],
+    descriptionEn:
+      "La Seyne-sur-Mer is a Var Mediterranean / Provençal town. Best fit: coastal-life seekers, semi-retirees, sea-adjacent remote workers.",
+    seoTitleEn: "La Seyne-sur-Mer — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "La Seyne-sur-Mer (Var, Provence-Alpes-Côte d'Azur): quality-of-life score 5.5/10. Mediterranean, Toulon.",
     scores: {
       global: 5.5,
       life: 5.8,
@@ -11831,6 +12016,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 27,
     avgTempJanuary: 8.5,
     characterTags: ["Méditerranée","balnéaire","vélo","résidentiel haut de gamme"],
+    descriptionEn:
+      "Six-Fours-les-Plages is a Var Mediterranean / Provençal town. Best fit: refined-suburb families, dual-income Var professionals.",
+    seoTitleEn: "Six-Fours-les-Plages — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Six-Fours-les-Plages (Var, Provence-Alpes-Côte d'Azur): quality-of-life score 6.5/10. Mediterranean, seaside resort.",
     scores: {
       global: 6.5,
       life: 7.2,
@@ -11857,6 +12047,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 26,
     avgTempJanuary: 9,
     characterTags: ["Méditerranée","Cannes voisin","résidentiel","Pierre Bonnard"],
+    descriptionEn:
+      "Le Cannet is a Alpes-Maritimes Mediterranean / Provençal town near Pierre Bonnard. Best fit: coastal-life seekers, semi-retirees, sea-adjacent remote workers.",
+    seoTitleEn: "Le Cannet — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Le Cannet (Alpes-Maritimes, Provence-Alpes-Côte d'Azur): quality-of-life score 6.5/10. Mediterranean, Cannes voisin.",
     scores: {
       global: 6.5,
       life: 7,
@@ -11883,6 +12078,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 26,
     avgTempJanuary: 9,
     characterTags: ["Méditerranée","Estérel","golf","balnéaire","marina"],
+    descriptionEn:
+      "Mandelieu-la-Napoule is a Alpes-Maritimes Mediterranean / Provençal town. Best fit: coastal-life seekers, semi-retirees, sea-adjacent remote workers.",
+    seoTitleEn: "Mandelieu-la-Napoule — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Mandelieu-la-Napoule (Alpes-Maritimes, Provence-Alpes-Côte d'Azur): quality-of-life score 7/10. Mediterranean, Estérel.",
     scores: {
       global: 7,
       life: 7.5,
@@ -11909,6 +12109,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22,
     avgTempJanuary: 3.5,
     characterTags: ["banlieue lyonnaise","tramway T3","ENTPE","ANRU"],
+    descriptionEn:
+      "Vaulx-en-Velin, Métropole de Lyon, is a Lyon suburb on tramway T3. Best fit: value-driven buyers, locals rooted in the area, public-sector staff.",
+    seoTitleEn: "Vaulx-en-Velin — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Vaulx-en-Velin (Métropole de Lyon, Auvergne-Rhône-Alpes): quality-of-life score 5/10. Lyon commuter belt, tramway T3.",
     scores: {
       global: 5,
       life: 4.8,
@@ -11935,6 +12140,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22,
     avgTempJanuary: 3.5,
     characterTags: ["banlieue lyonnaise","tramway T2/T5","aéroport Bron","résidentiel"],
+    descriptionEn:
+      "Bron sits in the Lyon commuter belt (Métropole de Lyon), served by tramway T2. Best fit: engineering and industrial-sector employees tied to the local plant.",
+    seoTitleEn: "Bron — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Bron (Métropole de Lyon, Auvergne-Rhône-Alpes): quality-of-life score 5.5/10. Lyon commuter belt, tramway T2/T5.",
     scores: {
       global: 5.5,
       life: 5.5,
@@ -11961,6 +12171,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22,
     avgTempJanuary: 3.5,
     characterTags: ["banlieue lyonnaise","tramway T2","Renault Trucks","résidentiel"],
+    descriptionEn:
+      "Saint-Priest sits in the Lyon commuter belt (Métropole de Lyon), served by tramway T2 near Renault Trucks. Best fit: engineering and industrial-sector employees tied to the local plant.",
+    seoTitleEn: "Saint-Priest — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Saint-Priest (Métropole de Lyon, Auvergne-Rhône-Alpes): quality-of-life score 5.7/10. Lyon commuter belt, tramway T2.",
     scores: {
       global: 5.7,
       life: 5.8,
@@ -11987,6 +12202,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22,
     avgTempJanuary: 3.5,
     characterTags: ["banlieue lyonnaise","Saône","résidentiel haut de gamme","Croix-Rousse"],
+    descriptionEn:
+      "Caluire-et-Cuire sits in the Lyon commuter belt (Métropole de Lyon) near Saône. Best fit: refined-suburb families, dual-income Lyon professionals.",
+    seoTitleEn: "Caluire-et-Cuire — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Caluire-et-Cuire (Métropole de Lyon, Auvergne-Rhône-Alpes): quality-of-life score 7/10. Lyon commuter belt, Saône.",
     scores: {
       global: 7,
       life: 7.5,
@@ -12013,6 +12233,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22,
     avgTempJanuary: 3.5,
     characterTags: ["banlieue lyonnaise","tramway T3","OL Stadium","Canal Jonage"],
+    descriptionEn:
+      "Décines-Charpieu sits in the Lyon commuter belt (Métropole de Lyon), served by tramway T3 near OL Stadium. Best fit: families and couples commuting into Lyon, remote workers needing a base nearby.",
+    seoTitleEn: "Décines-Charpieu — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Décines-Charpieu (Métropole de Lyon, Auvergne-Rhône-Alpes): quality-of-life score 5.8/10. Lyon commuter belt, tramway T3.",
     scores: {
       global: 5.8,
       life: 6,
@@ -12039,6 +12264,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22,
     avgTempJanuary: 3.5,
     characterTags: ["banlieue lyonnaise","tramway T3 (Rhônexpress)","Grand Large","résidentiel"],
+    descriptionEn:
+      "Meyzieu is a Lyon-area Métropole de Lyon suburb on the tramway T3 corridor. Best fit: families and couples commuting into Lyon, remote workers needing a base nearby.",
+    seoTitleEn: "Meyzieu — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Meyzieu (Métropole de Lyon, Auvergne-Rhône-Alpes): quality-of-life score 5.9/10. Lyon commuter belt, tramway T3 (Rhônexpress).",
     scores: {
       global: 5.9,
       life: 6.2,
@@ -12065,6 +12295,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 23,
     avgTempJanuary: 6.9,
     characterTags: ["banlieue bordelaise","tramway A","aéroport Bordeaux","Dassault Aviation"],
+    descriptionEn:
+      "Mérignac, Gironde, is a Bordeaux suburb on tramway A near Dassault Aviation. Best fit: engineering and industrial-sector employees tied to the local plant.",
+    seoTitleEn: "Mérignac — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Mérignac (Gironde, Nouvelle-Aquitaine): quality-of-life score 6.5/10. Bordeaux commuter belt, tramway A.",
     scores: {
       global: 6.5,
       life: 6.8,
@@ -12091,6 +12326,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 23,
     avgTempJanuary: 6.9,
     characterTags: ["banlieue bordelaise","université Bordeaux","tramway B","Cité Frugès Le Corbusier"],
+    descriptionEn:
+      "Pessac sits in the Bordeaux commuter belt (Gironde), served by tramway B near Cité Frugès Le Corbusier. Best fit: students, junior academics, young professionals on Bordeaux salaries.",
+    seoTitleEn: "Pessac — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Pessac (Gironde, Nouvelle-Aquitaine): quality-of-life score 6.7/10. Bordeaux commuter belt, université Bordeaux.",
     scores: {
       global: 6.7,
       life: 7,
@@ -12117,6 +12357,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 23,
     avgTempJanuary: 6.9,
     characterTags: ["banlieue bordelaise","université","tramway B","résidentiel"],
+    descriptionEn:
+      "Talence sits in the Bordeaux commuter belt (Gironde), served by tramway B. Best fit: students, junior academics, young professionals on Bordeaux salaries.",
+    seoTitleEn: "Talence — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Talence (Gironde, Nouvelle-Aquitaine): quality-of-life score 6.8/10. Bordeaux commuter belt, university.",
     scores: {
       global: 6.8,
       life: 7,
@@ -12143,6 +12388,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 23,
     avgTempJanuary: 6.9,
     characterTags: ["banlieue bordelaise","tramway C","Garonne","écologique"],
+    descriptionEn:
+      "Bègles, Gironde, is a Bordeaux suburb on tramway C near Garonne. Best fit: wine-trade workers, semi-retirees, settled couples seeking vineyard living.",
+    seoTitleEn: "Bègles — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Bègles (Gironde, Nouvelle-Aquitaine): quality-of-life score 6.5/10. Bordeaux commuter belt, tramway C.",
     scores: {
       global: 6.5,
       life: 6.8,
@@ -12169,6 +12419,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 23,
     avgTempJanuary: 6.9,
     characterTags: ["banlieue bordelaise","tramway D","résidentiel haut de gamme","Parc Bordelais"],
+    descriptionEn:
+      "Le Bouscat sits in the Bordeaux commuter belt (Gironde), served by tramway D near Parc Bordelais. Best fit: wine-trade workers, semi-retirees, settled couples seeking vineyard living.",
+    seoTitleEn: "Le Bouscat — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Le Bouscat (Gironde, Nouvelle-Aquitaine): quality-of-life score 7/10. Bordeaux commuter belt, tramway D.",
     scores: {
       global: 7,
       life: 7.5,
@@ -12195,6 +12450,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 23,
     avgTempJanuary: 6.9,
     characterTags: ["banlieue bordelaise","tramway C","Garonne","résidentiel"],
+    descriptionEn:
+      "Villenave-d'Ornon sits in the Bordeaux commuter belt (Gironde), served by tramway C near Garonne. Best fit: wine-trade workers, semi-retirees, settled couples seeking vineyard living.",
+    seoTitleEn: "Villenave-d'Ornon — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Villenave-d'Ornon (Gironde, Nouvelle-Aquitaine): quality-of-life score 6.3/10. Bordeaux commuter belt, tramway C.",
     scores: {
       global: 6.3,
       life: 6.5,
@@ -12221,6 +12481,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 19.5,
     avgTempJanuary: 3.5,
     characterTags: ["Grand-Place","patrimoine","TGV Lille","résidentiel"],
+    descriptionEn:
+      "Béthune is a Pas-de-Calais town in Hauts-de-France. Best fit: heritage lovers, retirees, families wanting walkable historic centres.",
+    seoTitleEn: "Béthune — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Béthune (Pas-de-Calais, Hauts-de-France): quality-of-life score 5.4/10. Grand-Place, heritage.",
     scores: {
       global: 5.4,
       life: 5.5,
@@ -12247,6 +12512,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 19.5,
     avgTempJanuary: 3.5,
     characterTags: ["bassin minier","patrimoine UNESCO","Louvre-Lens proche","ANRU"],
+    descriptionEn:
+      "Liévin is part of the Pas-de-Calais former coal-basin (UNESCO mining heritage). Best fit: heritage lovers, retirees, families wanting walkable historic centres.",
+    seoTitleEn: "Liévin — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Liévin (Pas-de-Calais, Hauts-de-France): quality-of-life score 4.8/10. Former coal basin, UNESCO heritage.",
     scores: {
       global: 4.8,
       life: 4.8,
@@ -12273,6 +12543,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 19.5,
     avgTempJanuary: 3.5,
     characterTags: ["bassin minier","patrimoine UNESCO","résidentiel"],
+    descriptionEn:
+      "Bruay-la-Buissière is part of the Pas-de-Calais former coal-basin (UNESCO mining heritage). Best fit: heritage lovers, retirees, families wanting walkable historic centres.",
+    seoTitleEn: "Bruay-la-Buissière — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Bruay-la-Buissière (Pas-de-Calais, Hauts-de-France): quality-of-life score 5/10. Former coal basin, UNESCO heritage.",
     scores: {
       global: 5,
       life: 5,
@@ -12299,6 +12574,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 23.5,
     avgTempJanuary: 5.5,
     characterTags: ["banlieue toulousaine","Airbus","résidentiel","TER"],
+    descriptionEn:
+      "Colomiers, Haute-Garonne, is a Toulouse suburb near Airbus. Best fit: engineering and industrial-sector employees tied to the local plant.",
+    seoTitleEn: "Colomiers — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Colomiers (Haute-Garonne, Occitanie): quality-of-life score 6.5/10. Toulouse commuter belt, Airbus.",
     scores: {
       global: 6.5,
       life: 6.8,
@@ -12325,6 +12605,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 23.5,
     avgTempJanuary: 5.5,
     characterTags: ["banlieue toulousaine","résidentiel haut de gamme","Touch (rivière)","Airbus"],
+    descriptionEn:
+      "Tournefeuille, Haute-Garonne, is a Toulouse suburb near Airbus. Best fit: engineering and industrial-sector employees tied to the local plant.",
+    seoTitleEn: "Tournefeuille — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Tournefeuille (Haute-Garonne, Occitanie): quality-of-life score 7/10. Toulouse commuter belt, upmarket residential.",
     scores: {
       global: 7,
       life: 7.5,
@@ -12351,6 +12636,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 23.5,
     avgTempJanuary: 5.5,
     characterTags: ["banlieue toulousaine","Airbus HQ","aéroport","tramway T1"],
+    descriptionEn:
+      "Blagnac, Haute-Garonne, is a Toulouse suburb on tramway T1 near Airbus HQ. Best fit: engineering and industrial-sector employees tied to the local plant.",
+    seoTitleEn: "Blagnac — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Blagnac (Haute-Garonne, Occitanie): quality-of-life score 6.6/10. Toulouse commuter belt, Airbus HQ.",
     scores: {
       global: 6.6,
       life: 6.8,
@@ -12377,6 +12667,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 23.5,
     avgTempJanuary: 5.5,
     characterTags: ["banlieue toulousaine","résidentiel","pavillonnaire"],
+    descriptionEn:
+      "Cugnaux sits in the Toulouse commuter belt (Haute-Garonne). Best fit: families and couples commuting into Toulouse, remote workers needing a base nearby.",
+    seoTitleEn: "Cugnaux — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Cugnaux (Haute-Garonne, Occitanie): quality-of-life score 6.3/10. Toulouse commuter belt, residential.",
     scores: {
       global: 6.3,
       life: 6.5,
@@ -12403,6 +12698,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.5,
     avgTempJanuary: 5.5,
     characterTags: ["banlieue nantaise","tramway 1/3","Atlantis","résidentiel"],
+    descriptionEn:
+      "Saint-Herblain sits in the Nantes commuter belt (Loire-Atlantique), served by tramway 1/3. Best fit: families and couples commuting into Nantes, remote workers needing a base nearby.",
+    seoTitleEn: "Saint-Herblain — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Saint-Herblain (Loire-Atlantique, Pays de la Loire): quality-of-life score 6.3/10. Nantes commuter belt, tramway 1/3.",
     scores: {
       global: 6.3,
       life: 6.5,
@@ -12429,6 +12729,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.5,
     avgTempJanuary: 5.5,
     characterTags: ["banlieue nantaise","tramway 3","Loire","Cité Radieuse Le Corbusier"],
+    descriptionEn:
+      "Rezé is a Nantes-area Loire-Atlantique suburb on the tramway 3 corridor near Loire. Best fit: value-driven buyers, locals rooted in the area, public-sector staff.",
+    seoTitleEn: "Rezé — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Rezé (Loire-Atlantique, Pays de la Loire): quality-of-life score 6.5/10. Nantes commuter belt, tramway 3.",
     scores: {
       global: 6.5,
       life: 6.8,
@@ -12455,6 +12760,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.5,
     avgTempJanuary: 5.5,
     characterTags: ["banlieue nantaise","résidentiel haut de gamme","tramway 2","verdure"],
+    descriptionEn:
+      "Orvault, Loire-Atlantique, is a Nantes suburb on tramway 2. Best fit: refined-suburb families, dual-income Nantes professionals.",
+    seoTitleEn: "Orvault — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Orvault (Loire-Atlantique, Pays de la Loire): quality-of-life score 7/10. Nantes commuter belt, upmarket residential.",
     scores: {
       global: 7,
       life: 7.5,
@@ -12481,6 +12791,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.5,
     avgTempJanuary: 5.5,
     characterTags: ["banlieue nantaise","vignoble Muscadet","Sèvre nantaise","résidentiel"],
+    descriptionEn:
+      "Vertou, Loire-Atlantique, is a Nantes suburb. Best fit: wine-trade workers, semi-retirees, settled couples seeking vineyard living.",
+    seoTitleEn: "Vertou — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Vertou (Loire-Atlantique, Pays de la Loire): quality-of-life score 6.8/10. Nantes commuter belt, vignoble Muscadet.",
     scores: {
       global: 6.8,
       life: 7.2,
@@ -12507,6 +12822,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 1.5,
     characterTags: ["banlieue strasbourgeoise","tramway B/E","brasseries","alsacien"],
+    descriptionEn:
+      "Schiltigheim, Bas-Rhin, is a Strasbourg suburb on tramway B/E. Best fit: refined-suburb families, dual-income Strasbourg professionals.",
+    seoTitleEn: "Schiltigheim — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Schiltigheim (Bas-Rhin, Grand Est): quality-of-life score 6.4/10. Strasbourg commuter belt, tramway B/E.",
     scores: {
       global: 6.4,
       life: 6.5,
@@ -12533,6 +12853,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 1.5,
     characterTags: ["banlieue strasbourgeoise","tramway A","Université","Ill"],
+    descriptionEn:
+      "Illkirch-Graffenstaden sits in the Strasbourg commuter belt (Bas-Rhin), served by tramway A near Ill. Best fit: students, junior academics, young professionals on Strasbourg salaries.",
+    seoTitleEn: "Illkirch-Graffenstaden — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Illkirch-Graffenstaden (Bas-Rhin, Grand Est): quality-of-life score 6.6/10. Strasbourg commuter belt, tramway A.",
     scores: {
       global: 6.6,
       life: 6.8,
@@ -12559,6 +12884,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 1.5,
     characterTags: ["banlieue strasbourgeoise","tramway B","résidentiel"],
+    descriptionEn:
+      "Lingolsheim, Bas-Rhin, is a Strasbourg suburb on tramway B. Best fit: wine-trade workers, semi-retirees, settled couples seeking vineyard living.",
+    seoTitleEn: "Lingolsheim — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Lingolsheim (Bas-Rhin, Grand Est): quality-of-life score 6.3/10. Strasbourg commuter belt, tramway B.",
     scores: {
       global: 6.3,
       life: 6.5,
@@ -12585,6 +12915,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 1.5,
     characterTags: ["banlieue strasbourgeoise","tramway B/E","résidentiel","alsacien"],
+    descriptionEn:
+      "Bischheim is a Strasbourg-area Bas-Rhin suburb on the tramway B/E corridor. Best fit: refined-suburb families, dual-income Strasbourg professionals.",
+    seoTitleEn: "Bischheim — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Bischheim (Bas-Rhin, Grand Est): quality-of-life score 6/10. Strasbourg commuter belt, tramway B/E.",
     scores: {
       global: 6,
       life: 6,
@@ -12611,6 +12946,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.5,
     avgTempJanuary: 5,
     characterTags: ["banlieue tourangelle","tramway A","résidentiel","TGV proche"],
+    descriptionEn:
+      "Joué-lès-Tours, Indre-et-Loire, is a Tours suburb on tramway A + TGV. Best fit: families and couples commuting into Tours, remote workers needing a base nearby.",
+    seoTitleEn: "Joué-lès-Tours — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Joué-lès-Tours (Indre-et-Loire, Centre-Val de Loire): quality-of-life score 6/10. Tours commuter belt, tramway A.",
     scores: {
       global: 6,
       life: 6.2,
@@ -12637,6 +12977,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.5,
     avgTempJanuary: 2,
     characterTags: ["banlieue grenobloise","tramway B/C","université","campus"],
+    descriptionEn:
+      "Saint-Martin-d'Hères sits in the Grenoble commuter belt (Isère), served by tramway B/C. Best fit: students, junior academics, young professionals on Grenoble salaries.",
+    seoTitleEn: "Saint-Martin-d'Hères — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Saint-Martin-d'Hères (Isère, Auvergne-Rhône-Alpes): quality-of-life score 6.3/10. Grenoble commuter belt, tramway B/C.",
     scores: {
       global: 6.3,
       life: 6.2,
@@ -12663,6 +13008,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.5,
     avgTempJanuary: 2,
     characterTags: ["banlieue grenobloise","tramway A","industriel","ANRU"],
+    descriptionEn:
+      "Échirolles sits in the Grenoble commuter belt (Isère), served by tramway A. Best fit: value-driven buyers, locals rooted in the area, public-sector staff.",
+    seoTitleEn: "Échirolles — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Échirolles (Isère, Auvergne-Rhône-Alpes): quality-of-life score 5.5/10. Grenoble commuter belt, tramway A.",
     scores: {
       global: 5.5,
       life: 5.5,
@@ -12689,6 +13039,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.5,
     avgTempJanuary: 2,
     characterTags: ["banlieue grenobloise","tramway A","résidentiel","Vercors"],
+    descriptionEn:
+      "Fontaine sits in the Grenoble commuter belt (Isère), served by tramway A near Vercors. Best fit: mountain-life seekers, outdoor professionals, ski-season workers.",
+    seoTitleEn: "Fontaine — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Fontaine (Isère, Auvergne-Rhône-Alpes): quality-of-life score 6/10. Grenoble commuter belt, tramway A.",
     scores: {
       global: 6,
       life: 6.2,
@@ -12715,6 +13070,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.5,
     avgTempJanuary: 2.5,
     characterTags: ["pré-Alpes","Chartreuse","TER Grenoble","patrimoine"],
+    descriptionEn:
+      "Voiron is a Isère town in Auvergne-Rhône-Alpes near Chartreuse. Best fit: heritage lovers, retirees, families wanting walkable historic centres.",
+    seoTitleEn: "Voiron — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Voiron (Isère, Auvergne-Rhône-Alpes): quality-of-life score 6.5/10. Pré-Alpes, Chartreuse.",
     scores: {
       global: 6.5,
       life: 6.8,
@@ -12741,6 +13101,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20,
     avgTempJanuary: 1.5,
     characterTags: ["banlieue nancéienne","tramway 1","université","campus santé"],
+    descriptionEn:
+      "Vandœuvre-lès-Nancy, Meurthe-et-Moselle, is a Nancy suburb on tramway 1. Best fit: students, junior academics, young professionals on Nancy salaries.",
+    seoTitleEn: "Vandœuvre-lès-Nancy — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Vandœuvre-lès-Nancy (Meurthe-et-Moselle, Grand Est): quality-of-life score 6/10. Nancy commuter belt, tramway 1.",
     scores: {
       global: 6,
       life: 6,
@@ -12767,6 +13132,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20,
     avgTempJanuary: 1.5,
     characterTags: ["banlieue nancéienne","tramway 1","résidentiel haut de gamme"],
+    descriptionEn:
+      "Laxou sits in the Nancy commuter belt (Meurthe-et-Moselle), served by tramway 1. Best fit: refined-suburb families, dual-income Nancy professionals.",
+    seoTitleEn: "Laxou — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Laxou (Meurthe-et-Moselle, Grand Est): quality-of-life score 6.5/10. Nancy commuter belt, tramway 1.",
     scores: {
       global: 6.5,
       life: 7,
@@ -12793,6 +13163,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22,
     avgTempJanuary: 2.5,
     characterTags: ["vallée du Gier","industriel","Pilat proche","résidentiel"],
+    descriptionEn:
+      "Saint-Chamond is a Loire town in Auvergne-Rhône-Alpes near the Pilat regional park. Best fit: engineering and industrial-sector employees tied to the local plant.",
+    seoTitleEn: "Saint-Chamond — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Saint-Chamond (Loire, Auvergne-Rhône-Alpes): quality-of-life score 5.6/10. Vallée du Gier, industrial.",
     scores: {
       global: 5.6,
       life: 5.8,
@@ -12819,6 +13194,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22,
     avgTempJanuary: 2.5,
     characterTags: ["vallée de l'Ondaine","Le Corbusier UNESCO","Pilat","industriel"],
+    descriptionEn:
+      "Firminy is a Loire town in Auvergne-Rhône-Alpes near Le Corbusier UNESCO, Pilat. Best fit: engineering and industrial-sector employees tied to the local plant.",
+    seoTitleEn: "Firminy — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Firminy (Loire, Auvergne-Rhône-Alpes): quality-of-life score 5.4/10. Vallée de l'Ondaine, Le Corbusier UNESCO.",
     scores: {
       global: 5.4,
       life: 5.5,
@@ -12845,6 +13225,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21,
     avgTempJanuary: 2,
     characterTags: ["banlieue dijonnaise","tramway T2","vignoble Côte de Nuits","résidentiel"],
+    descriptionEn:
+      "Chenôve is a Dijon-area Côte-d'Or suburb on the tramway T2 corridor. Best fit: coastal-life seekers, semi-retirees, sea-adjacent remote workers.",
+    seoTitleEn: "Chenôve — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Chenôve (Côte-d'Or, Bourgogne-Franche-Comté): quality-of-life score 5.8/10. Dijon commuter belt, tramway T2.",
     scores: {
       global: 5.8,
       life: 5.8,
@@ -12871,6 +13256,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 19.5,
     avgTempJanuary: 1.5,
     characterTags: ["frontière Suisse/Bâle","EuroAirport","alsacien","résidentiel"],
+    descriptionEn:
+      "Saint-Louis (Haut-Rhin) is a Haut-Rhin cross-border town with Switzerland (Basel / EuroAirport) near EuroAirport. Best fit: cross-border commuters, bilingual professionals.",
+    seoTitleEn: "Saint-Louis (Haut-Rhin) — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Saint-Louis (Haut-Rhin) (Haut-Rhin, Grand Est): quality-of-life score 6.5/10. Frontière Suisse/Bâle, EuroAirport.",
     scores: {
       global: 6.5,
       life: 6.8,
@@ -12897,6 +13287,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 19.5,
     avgTempJanuary: 1.5,
     characterTags: ["banlieue mulhousienne","bassin potasse","résidentiel"],
+    descriptionEn:
+      "Wittenheim is a Haut-Rhin town in Grand Est. Best fit: settlers seeking a quieter Haut-Rhin base, locals rooted in the area.",
+    seoTitleEn: "Wittenheim — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Wittenheim (Haut-Rhin, Grand Est): quality-of-life score 5.5/10. Banlieue mulhousienne, bassin potasse.",
     scores: {
       global: 5.5,
       life: 5.8,
@@ -12923,6 +13318,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne","La Défense","tertiaire","tramway T2","résidentiel"],
+    descriptionEn:
+      "Puteaux is a Paris-area Hauts-de-Seine suburb on the tramway T2 corridor near La Défense. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
+    seoTitleEn: "Puteaux — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Puteaux (Hauts-de-Seine, Île-de-France): quality-of-life score 6.8/10. Paris commuter belt, La Défense.",
     scores: {
       global: 6.8,
       life: 7,
@@ -12949,6 +13349,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne","port industriel","métro 13","tramway T1","ANRU"],
+    descriptionEn:
+      "Gennevilliers is a Paris-area Hauts-de-Seine suburb on the métro 13 + tramway T1 corridor. Best fit: engineering and industrial-sector employees tied to the local plant.",
+    seoTitleEn: "Gennevilliers — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Gennevilliers (Hauts-de-Seine, Île-de-France): quality-of-life score 5.2/10. Paris commuter belt, port industriel.",
     scores: {
       global: 5.2,
       life: 5,
@@ -12975,6 +13380,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne","Seine","tramway T1","résidentiel"],
+    descriptionEn:
+      "Villeneuve-la-Garenne, Hauts-de-Seine, is a Paris suburb on tramway T1 near Seine. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
+    seoTitleEn: "Villeneuve-la-Garenne — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Villeneuve-la-Garenne (Hauts-de-Seine, Île-de-France): quality-of-life score 5.3/10. Paris commuter belt, Seine river.",
     scores: {
       global: 5.3,
       life: 5.5,
@@ -13001,6 +13411,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne","Seine","métro 8","résidentiel"],
+    descriptionEn:
+      "Alfortville sits in the Paris commuter belt (Val-de-Marne), served by métro 8 near Seine. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
+    seoTitleEn: "Alfortville — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Alfortville (Val-de-Marne, Île-de-France): quality-of-life score 6/10. Paris commuter belt, Seine river.",
     scores: {
       global: 6,
       life: 6.2,
@@ -13027,6 +13442,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne","Marne","RER A/E","résidentiel haut de gamme"],
+    descriptionEn:
+      "Le Perreux-sur-Marne is a Paris-area Val-de-Marne suburb on the RER A/E corridor near Marne. Best fit: refined-suburb families, dual-income Paris professionals.",
+    seoTitleEn: "Le Perreux-sur-Marne — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Le Perreux-sur-Marne (Val-de-Marne, Île-de-France): quality-of-life score 7/10. Paris commuter belt, Marne river.",
     scores: {
       global: 7,
       life: 7.5,
@@ -13053,6 +13473,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne","Marne","RER A/E","résidentiel haut de gamme","guinguettes"],
+    descriptionEn:
+      "Nogent-sur-Marne sits in the Paris commuter belt (Val-de-Marne), served by RER A/E near Marne. Best fit: refined-suburb families, dual-income Paris professionals.",
+    seoTitleEn: "Nogent-sur-Marne — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Nogent-sur-Marne (Val-de-Marne, Île-de-France): quality-of-life score 7.2/10. Paris commuter belt, Marne river.",
     scores: {
       global: 7.2,
       life: 7.8,
@@ -13079,6 +13504,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne","Seine","RER C","tramway T9","résidentiel"],
+    descriptionEn:
+      "Choisy-le-Roi sits in the Paris commuter belt (Val-de-Marne), served by RER C + tramway T9 near Seine. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
+    seoTitleEn: "Choisy-le-Roi — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Choisy-le-Roi (Val-de-Marne, Île-de-France): quality-of-life score 5.4/10. Paris commuter belt, Seine river.",
     scores: {
       global: 5.4,
       life: 5.5,
@@ -13105,6 +13535,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne","RER E","tramway T1","Rosny 2 (centre commercial)"],
+    descriptionEn:
+      "Rosny-sous-Bois, Seine-Saint-Denis, is a Paris suburb on RER E + tramway T1 near Rosny 2 (centre commercial). Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
+    seoTitleEn: "Rosny-sous-Bois — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Rosny-sous-Bois (Seine-Saint-Denis, Île-de-France): quality-of-life score 5.7/10. Paris commuter belt, RER E.",
     scores: {
       global: 5.7,
       life: 5.8,
@@ -13131,6 +13566,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne","Marne","RER A (Neuilly-Plaisance)","résidentiel"],
+    descriptionEn:
+      "Neuilly-sur-Marne, Seine-Saint-Denis, is a Paris suburb on RER A near Marne. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
+    seoTitleEn: "Neuilly-sur-Marne — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Neuilly-sur-Marne (Seine-Saint-Denis, Île-de-France): quality-of-life score 6/10. Paris commuter belt, Marne river.",
     scores: {
       global: 6,
       life: 6.5,
@@ -13157,6 +13597,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne","tramway T11","résidentiel","industriel"],
+    descriptionEn:
+      "Le Blanc-Mesnil, Seine-Saint-Denis, is a Paris suburb on tramway T11. Best fit: engineering and industrial-sector employees tied to the local plant.",
+    seoTitleEn: "Le Blanc-Mesnil — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Le Blanc-Mesnil (Seine-Saint-Denis, Île-de-France): quality-of-life score 5/10. Paris commuter belt, tramway T11.",
     scores: {
       global: 5,
       life: 5,
@@ -13183,6 +13628,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne","RER B","aéroport CDG","résidentiel"],
+    descriptionEn:
+      "Tremblay-en-France, Seine-Saint-Denis, is a Paris suburb on RER B. Best fit: engineering and industrial-sector employees tied to the local plant.",
+    seoTitleEn: "Tremblay-en-France — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Tremblay-en-France (Seine-Saint-Denis, Île-de-France): quality-of-life score 5.5/10. Paris commuter belt, RER B.",
     scores: {
       global: 5.5,
       life: 5.8,
@@ -13209,6 +13659,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne","RER E","tramway T1","résidentiel"],
+    descriptionEn:
+      "Noisy-le-Sec, Seine-Saint-Denis, is a Paris suburb on RER E + tramway T1. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
+    seoTitleEn: "Noisy-le-Sec — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Noisy-le-Sec (Seine-Saint-Denis, Île-de-France): quality-of-life score 5.3/10. Paris commuter belt, RER E.",
     scores: {
       global: 5.3,
       life: 5.5,
@@ -13235,6 +13690,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne","Transilien N","Saint-Quentin proche","résidentiel"],
+    descriptionEn:
+      "Plaisir is a Paris-area Yvelines suburb on the Transilien N corridor. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
+    seoTitleEn: "Plaisir — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Plaisir (Yvelines, Île-de-France): quality-of-life score 6/10. Paris commuter belt, Transilien N.",
     scores: {
       global: 6,
       life: 6.2,
@@ -13261,6 +13721,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne","RER A","Seine","résidentiel"],
+    descriptionEn:
+      "Houilles sits in the Paris commuter belt (Yvelines), served by RER A near Seine. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
+    seoTitleEn: "Houilles — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Houilles (Yvelines, Île-de-France): quality-of-life score 6.3/10. Paris commuter belt, RER A.",
     scores: {
       global: 6.3,
       life: 6.5,
@@ -13287,6 +13752,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne","Seine","Transilien J / RER A","patrimoine batelier"],
+    descriptionEn:
+      "Conflans-Sainte-Honorine is a Paris-area Yvelines suburb on the Transilien J corridor near Seine. Best fit: heritage lovers, retirees, families wanting walkable historic centres.",
+    seoTitleEn: "Conflans-Sainte-Honorine — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Conflans-Sainte-Honorine (Yvelines, Île-de-France): quality-of-life score 6.2/10. Paris commuter belt, Seine river.",
     scores: {
       global: 6.2,
       life: 6.5,
@@ -13313,6 +13783,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["Saint-Quentin-en-Yvelines","ville nouvelle","Transilien N","tertiaire","résidentiel"],
+    descriptionEn:
+      "Montigny-le-Bretonneux is a Paris-area Yvelines suburb on the Transilien N corridor near Saint-Quentin-en-Yvelines. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
+    seoTitleEn: "Montigny-le-Bretonneux — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Montigny-le-Bretonneux (Yvelines, Île-de-France): quality-of-life score 6.7/10. Saint-Quentin-en-Yvelines, ville nouvelle.",
     scores: {
       global: 6.7,
       life: 7,
@@ -13339,6 +13814,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["Saint-Quentin-en-Yvelines","Technocentre Renault","tertiaire","résidentiel"],
+    descriptionEn:
+      "Guyancourt is a Paris-area Yvelines suburb near Saint-Quentin-en-Yvelines, Technocentre Renault. Best fit: engineering and industrial-sector employees tied to the local plant.",
+    seoTitleEn: "Guyancourt — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Guyancourt (Yvelines, Île-de-France): quality-of-life score 6.5/10. Saint-Quentin-en-Yvelines, Technocentre Renault.",
     scores: {
       global: 6.5,
       life: 6.8,
@@ -13364,7 +13844,12 @@ const RAW_CITIES_SEED = [
     sunshinedays: 1700,
     avgTempJuly: 19.5,
     avgTempJanuary: 1.5,
-    characterTags: ["frontière allemande","Sarrebruck proche","bassin houiller","résidentiel"],
+    characterTags: ["frontière allemande","Saarbrücken close by","bassin houiller","résidentiel"],
+    descriptionEn:
+      "Forbach is a Moselle cross-border town with Germany (Sarrebruck just over the border). Best fit: cross-border commuters, bilingual professionals.",
+    seoTitleEn: "Forbach — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Forbach (Moselle, Grand Est): quality-of-life score 5.5/10. Germany border, Saarbrücken close by.",
     scores: {
       global: 5.5,
       life: 5.5,
@@ -13391,6 +13876,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 19.5,
     avgTempJanuary: 1.5,
     characterTags: ["frontière allemande","faïenceries","Sarre","patrimoine"],
+    descriptionEn:
+      "Sarreguemines is a Moselle cross-border town with Germany near Sarre. Best fit: cross-border commuters, bilingual professionals.",
+    seoTitleEn: "Sarreguemines — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Sarreguemines (Moselle, Grand Est): quality-of-life score 5.8/10. Germany border, faïenceries.",
     scores: {
       global: 5.8,
       life: 6,
@@ -13417,6 +13907,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 19.5,
     avgTempJanuary: 1.5,
     characterTags: ["bassin houiller","Lorraine","industriel","résidentiel"],
+    descriptionEn:
+      "Saint-Avold is a Moselle town in Grand Est. Best fit: engineering and industrial-sector employees tied to the local plant.",
+    seoTitleEn: "Saint-Avold — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Saint-Avold (Moselle, Grand Est): quality-of-life score 5.4/10. Bassin houiller, Lorraine.",
     scores: {
       global: 5.4,
       life: 5.5,
@@ -13443,6 +13938,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21,
     avgTempJanuary: 6.5,
     characterTags: ["banlieue Lorient","Scorff","naval historique","résidentiel"],
+    descriptionEn:
+      "Lanester sits in the Lorient commuter belt (Morbihan) near Scorff. Best fit: families and couples commuting into Lorient, remote workers needing a base nearby.",
+    seoTitleEn: "Lanester — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Lanester (Morbihan, Brittany): quality-of-life score 5.8/10. Banlieue Lorient, Scorff.",
     scores: {
       global: 5.8,
       life: 6,
@@ -13469,6 +13969,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20,
     avgTempJanuary: 4.5,
     characterTags: ["banlieue Caen","tramway T1/T2","ville nouvelle","résidentiel"],
+    descriptionEn:
+      "Hérouville-Saint-Clair, Calvados, is a Caen suburb on tramway T1. Best fit: families and couples commuting into Caen, remote workers needing a base nearby.",
+    seoTitleEn: "Hérouville-Saint-Clair — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Hérouville-Saint-Clair (Calvados, Normandy): quality-of-life score 5.8/10. Banlieue Caen, tramway T1/T2.",
     scores: {
       global: 5.8,
       life: 5.8,
@@ -13495,6 +14000,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue orléanaise","Loiret","tramway A","résidentiel haut de gamme"],
+    descriptionEn:
+      "Olivet, Loiret, is a Orléans suburb on tramway A near Loiret. Best fit: refined-suburb families, dual-income Orléans professionals.",
+    seoTitleEn: "Olivet — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Olivet (Loiret, Centre-Val de Loire): quality-of-life score 6.8/10. Orléans commuter belt, Loiret.",
     scores: {
       global: 6.8,
       life: 7.2,
@@ -13521,6 +14031,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue orléanaise","tramway B","gare TGV Les Aubrais","résidentiel"],
+    descriptionEn:
+      "Fleury-les-Aubrais, Loiret, is a Orléans suburb on tramway B + TGV. Best fit: families and couples commuting into Orléans, remote workers needing a base nearby.",
+    seoTitleEn: "Fleury-les-Aubrais — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Fleury-les-Aubrais (Loiret, Centre-Val de Loire): quality-of-life score 6/10. Orléans commuter belt, tramway B.",
     scores: {
       global: 6,
       life: 6,
@@ -13547,6 +14062,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20,
     avgTempJanuary: 3.5,
     characterTags: ["Oise","TER Paris","industriel","ANRU"],
+    descriptionEn:
+      "Creil is a Oise town in Hauts-de-France. Best fit: engineering and industrial-sector employees tied to the local plant.",
+    seoTitleEn: "Creil — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Creil (Oise, Hauts-de-France): quality-of-life score 5/10. Oise, TER Paris.",
     scores: {
       global: 5,
       life: 5,
@@ -13573,6 +14093,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 26.5,
     avgTempJanuary: 6.5,
     characterTags: ["Provence","Luberon","melon de Cavaillon","marché agricole"],
+    descriptionEn:
+      "Cavaillon is a Vaucluse Mediterranean / Provençal town. Best fit: settlers seeking a quieter Vaucluse base, locals rooted in the area.",
+    seoTitleEn: "Cavaillon — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Cavaillon (Vaucluse, Provence-Alpes-Côte d'Azur): quality-of-life score 5.7/10. Provence, Luberon.",
     scores: {
       global: 5.7,
       life: 6,
@@ -13599,6 +14124,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 26.5,
     avgTempJanuary: 6,
     characterTags: ["Provence","Luberon","Aix proche","résidentiel"],
+    descriptionEn:
+      "Pertuis is a Vaucluse Mediterranean / Provençal town. Best fit: settlers seeking a quieter Vaucluse base, locals rooted in the area.",
+    seoTitleEn: "Pertuis — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Pertuis (Vaucluse, Provence-Alpes-Côte d'Azur): quality-of-life score 6.2/10. Provence, Luberon.",
     scores: {
       global: 6.2,
       life: 6.8,
@@ -13625,6 +14155,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 27,
     avgTempJanuary: 7.5,
     characterTags: ["Provence","collines","village provençal","Marseille voisine"],
+    descriptionEn:
+      "Allauch is a Bouches-du-Rhône Mediterranean / Provençal town. Best fit: settlers seeking a quieter Bouches-du-Rhône base, locals rooted in the area.",
+    seoTitleEn: "Allauch — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Allauch (Bouches-du-Rhône, Provence-Alpes-Côte d'Azur): quality-of-life score 6.8/10. Provence, collines.",
     scores: {
       global: 6.8,
       life: 7.5,
@@ -13651,6 +14186,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.5,
     avgTempJanuary: 5.5,
     characterTags: ["banlieue Angers","ardoisières","tramway","patrimoine ouvrier"],
+    descriptionEn:
+      "Trélazé sits in the Angers commuter belt (Maine-et-Loire). Best fit: heritage lovers, retirees, families wanting walkable historic centres.",
+    seoTitleEn: "Trélazé — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Trélazé (Maine-et-Loire, Pays de la Loire): quality-of-life score 5.7/10. Banlieue Angers, ardoisières.",
     scores: {
       global: 5.7,
       life: 5.8,
@@ -13677,6 +14217,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne sud","Seine","RER D","industriel","ANRU"],
+    descriptionEn:
+      "Corbeil-Essonnes, Essonne, is a Paris suburb on RER D near Seine. Best fit: engineering and industrial-sector employees tied to the local plant.",
+    seoTitleEn: "Corbeil-Essonnes — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Corbeil-Essonnes (Essonne, Île-de-France): quality-of-life score 5.2/10. South-Paris commuter belt, Seine river.",
     scores: {
       global: 5.2,
       life: 5.2,
@@ -13703,6 +14248,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne sud","RER C","Orge","résidentiel"],
+    descriptionEn:
+      "Savigny-sur-Orge sits in the Paris commuter belt (Essonne), served by RER C near Orge. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
+    seoTitleEn: "Savigny-sur-Orge — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Savigny-sur-Orge (Essonne, Île-de-France): quality-of-life score 6/10. South-Paris commuter belt, RER C.",
     scores: {
       global: 6,
       life: 6.2,
@@ -13729,6 +14279,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne sud","RER C","Orly proche","Seine"],
+    descriptionEn:
+      "Athis-Mons is a Paris-area Essonne suburb on the RER C corridor near Seine. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
+    seoTitleEn: "Athis-Mons — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Athis-Mons (Essonne, Île-de-France): quality-of-life score 5.6/10. South-Paris commuter belt, RER C.",
     scores: {
       global: 5.6,
       life: 5.8,
@@ -13755,6 +14310,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne sud","RER D","Yerres","résidentiel haut de gamme","Caillebotte"],
+    descriptionEn:
+      "Yerres sits in the Paris commuter belt (Essonne), served by RER D near Yerres, Caillebotte. Best fit: refined-suburb families, dual-income Paris professionals.",
+    seoTitleEn: "Yerres — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Yerres (Essonne, Île-de-France): quality-of-life score 6.7/10. South-Paris commuter belt, RER D.",
     scores: {
       global: 6.7,
       life: 7,
@@ -13781,6 +14341,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne sud","RER D","Yerres","résidentiel"],
+    descriptionEn:
+      "Brunoy, Essonne, is a Paris suburb on RER D near Yerres. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
+    seoTitleEn: "Brunoy — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Brunoy (Essonne, Île-de-France): quality-of-life score 6.4/10. South-Paris commuter belt, RER D.",
     scores: {
       global: 6.4,
       life: 6.8,
@@ -13807,6 +14372,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne sud","RER C","Donjon","résidentiel"],
+    descriptionEn:
+      "Sainte-Geneviève-des-Bois is a Paris-area Essonne suburb on the RER C corridor near Donjon. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
+    seoTitleEn: "Sainte-Geneviève-des-Bois — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Sainte-Geneviève-des-Bois (Essonne, Île-de-France): quality-of-life score 6.1/10. South-Paris commuter belt, RER C.",
     scores: {
       global: 6.1,
       life: 6.3,
@@ -13833,6 +14403,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne sud","Plateau Saclay","École Polytechnique","RER B"],
+    descriptionEn:
+      "Palaiseau is a Paris-area Essonne suburb on the RER B corridor near Plateau Saclay, École Polytechnique. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
+    seoTitleEn: "Palaiseau — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Palaiseau (Essonne, Île-de-France): quality-of-life score 6.7/10. South-Paris commuter belt, Plateau Saclay.",
     scores: {
       global: 6.7,
       life: 7,
@@ -13859,6 +14434,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne sud","Sénart (forêt)","Seine","résidentiel"],
+    descriptionEn:
+      "Draveil, Essonne, is a Paris suburb near Sénart (forêt), Seine. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
+    seoTitleEn: "Draveil — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Draveil (Essonne, Île-de-France): quality-of-life score 6.3/10. South-Paris commuter belt, Sénart (forêt).",
     scores: {
       global: 6.3,
       life: 6.5,
@@ -13885,6 +14465,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne sud","RER C/D","Seine","résidentiel"],
+    descriptionEn:
+      "Viry-Châtillon, Essonne, is a Paris suburb on RER C/D near Seine. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
+    seoTitleEn: "Viry-Châtillon — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Viry-Châtillon (Essonne, Île-de-France): quality-of-life score 5.7/10. South-Paris commuter belt, RER C/D.",
     scores: {
       global: 5.7,
       life: 5.8,
@@ -13911,6 +14496,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne","tramway T6","résidentiel haut de gamme","vert"],
+    descriptionEn:
+      "Le Plessis-Robinson sits in the Paris commuter belt (Hauts-de-Seine), served by tramway T6. Best fit: refined-suburb families, dual-income Paris professionals.",
+    seoTitleEn: "Le Plessis-Robinson — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Le Plessis-Robinson (Hauts-de-Seine, Île-de-France): quality-of-life score 7.2/10. Paris commuter belt, tramway T6.",
     scores: {
       global: 7.2,
       life: 7.5,
@@ -13937,6 +14527,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne","Seine","tramway T2","Manufacture porcelaine","résidentiel haut de gamme"],
+    descriptionEn:
+      "Sèvres is a Paris-area Hauts-de-Seine suburb on the tramway T2 corridor near Seine, Manufacture porcelaine. Best fit: refined-suburb families, dual-income Paris professionals.",
+    seoTitleEn: "Sèvres — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Sèvres (Hauts-de-Seine, Île-de-France): quality-of-life score 7.3/10. Paris commuter belt, Seine river.",
     scores: {
       global: 7.3,
       life: 7.5,
@@ -13963,6 +14558,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne est","RER E","Marne","résidentiel"],
+    descriptionEn:
+      "Chelles sits in the Paris commuter belt (Seine-et-Marne), served by RER E near Marne. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
+    seoTitleEn: "Chelles — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Chelles (Seine-et-Marne, Île-de-France): quality-of-life score 6.1/10. East-Paris commuter belt, RER E.",
     scores: {
       global: 6.1,
       life: 6.3,
@@ -13989,6 +14589,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["préfecture 77","Seine","RER D","patrimoine","Fontainebleau proche"],
+    descriptionEn:
+      "Melun is a Seine-et-Marne town in Île-de-France near Seine. Best fit: heritage lovers, retirees, families wanting walkable historic centres.",
+    seoTitleEn: "Melun — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Melun (Seine-et-Marne, Île-de-France): quality-of-life score 5.8/10. Préfecture 77, Seine river.",
     scores: {
       global: 5.8,
       life: 6,
@@ -14015,6 +14620,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne est","RER E","résidentiel pavillonnaire"],
+    descriptionEn:
+      "Pontault-Combault is a Paris-area Seine-et-Marne suburb on the RER E corridor. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
+    seoTitleEn: "Pontault-Combault — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Pontault-Combault (Seine-et-Marne, Île-de-France): quality-of-life score 6.2/10. East-Paris commuter belt, RER E.",
     scores: {
       global: 6.2,
       life: 6.5,
@@ -14041,6 +14651,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne sud-est","Sénart","RER D","ville nouvelle"],
+    descriptionEn:
+      "Savigny-le-Temple sits in the Paris commuter belt (Seine-et-Marne), served by RER D near Sénart. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
+    seoTitleEn: "Savigny-le-Temple — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Savigny-le-Temple (Seine-et-Marne, Île-de-France): quality-of-life score 5.8/10. South-east-Paris commuter belt, Sénart.",
     scores: {
       global: 5.8,
       life: 6,
@@ -14067,6 +14682,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne est","Val-d'Europe / Marne-la-Vallée","RER A","ville nouvelle"],
+    descriptionEn:
+      "Torcy is a Paris-area Seine-et-Marne suburb on the RER A corridor near Val-d'Europe / Marne-la-Vallée. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
+    seoTitleEn: "Torcy — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Torcy (Seine-et-Marne, Île-de-France): quality-of-life score 6.3/10. East-Paris commuter belt, Val-d'Europe / Marne-la-Vallée.",
     scores: {
       global: 6.3,
       life: 6.5,
@@ -14093,6 +14713,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne sud-est","RER D","Sénart","résidentiel"],
+    descriptionEn:
+      "Combs-la-Ville, Seine-et-Marne, is a Paris suburb on RER D near Sénart. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
+    seoTitleEn: "Combs-la-Ville — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Combs-la-Ville (Seine-et-Marne, Île-de-France): quality-of-life score 6/10. South-east-Paris commuter belt, RER D.",
     scores: {
       global: 6,
       life: 6.2,
@@ -14119,6 +14744,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne est","RER A","université","Cité Descartes"],
+    descriptionEn:
+      "Champs-sur-Marne is a Paris-area Seine-et-Marne suburb on the RER A corridor near Cité Descartes. Best fit: students, junior academics, young professionals on Paris salaries.",
+    seoTitleEn: "Champs-sur-Marne — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Champs-sur-Marne (Seine-et-Marne, Île-de-France): quality-of-life score 6.5/10. East-Paris commuter belt, RER A.",
     scores: {
       global: 6.5,
       life: 6.8,
@@ -14145,6 +14775,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue parisienne est","RER A","ville nouvelle","Marne","ancienne chocolaterie Menier"],
+    descriptionEn:
+      "Noisiel is a Paris-area Seine-et-Marne suburb on the RER A corridor near Marne. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
+    seoTitleEn: "Noisiel — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Noisiel (Seine-et-Marne, Île-de-France): quality-of-life score 6.2/10. East-Paris commuter belt, RER A.",
     scores: {
       global: 6.2,
       life: 6.5,
@@ -14171,6 +14806,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 19.5,
     avgTempJanuary: 26.5,
     characterTags: ["océan Indien","côte nord-est","canne à sucre","DROM","indianité"],
+    descriptionEn:
+      "Saint-André (Réunion), Réunion. Best fit: French overseas-life seekers comfortable with tropical climate and isolation.",
+    seoTitleEn: "Saint-André (Réunion) — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Saint-André (Réunion) (Réunion): quality-of-life score 5.5/10. Océan Indien, côte nord-est.",
     scores: {
       global: 5.5,
       life: 5.5,
@@ -14197,6 +14837,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 18.5,
     avgTempJanuary: 25.5,
     characterTags: ["océan Indien","Sud Réunion","Cilaos","DROM"],
+    descriptionEn:
+      "Saint-Louis (Réunion) is a Réunion commune near Cilaos. Best fit: French overseas-life seekers comfortable with tropical climate and isolation.",
+    seoTitleEn: "Saint-Louis (Réunion) — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Saint-Louis (Réunion) (Réunion): quality-of-life score 5.4/10. Océan Indien, Sud Réunion.",
     scores: {
       global: 5.4,
       life: 5.5,
@@ -14223,6 +14868,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 18.5,
     avgTempJanuary: 26,
     characterTags: ["océan Indien","sud sauvage","Grand-Bois","DROM"],
+    descriptionEn:
+      "Saint-Joseph (Réunion) sits on the Réunion coast near Grand-Bois. Best fit: French overseas-life seekers comfortable with tropical climate and isolation.",
+    seoTitleEn: "Saint-Joseph (Réunion) — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Saint-Joseph (Réunion) (Réunion): quality-of-life score 5.6/10. Océan Indien, sud sauvage.",
     scores: {
       global: 5.6,
       life: 6,
@@ -14249,6 +14899,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 19,
     avgTempJanuary: 25.5,
     characterTags: ["océan Indien","côte au vent","Takamaka","DROM","humide"],
+    descriptionEn:
+      "Saint-Benoît (Réunion), Réunion near Takamaka. Best fit: coastal-life seekers, semi-retirees, sea-adjacent remote workers.",
+    seoTitleEn: "Saint-Benoît (Réunion) — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Saint-Benoît (Réunion) (Réunion): quality-of-life score 5.4/10. Océan Indien, côte au vent.",
     scores: {
       global: 5.4,
       life: 5.8,
@@ -14275,6 +14930,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 28,
     avgTempJanuary: 25.5,
     characterTags: ["mer des Caraïbes","fonds blancs","DROM","résidentiel"],
+    descriptionEn:
+      "Le Robert (Martinique) is a Martinique commune. Best fit: coastal-life seekers, semi-retirees, sea-adjacent remote workers.",
+    seoTitleEn: "Le Robert (Martinique) — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Le Robert (Martinique) (Martinique): quality-of-life score 5.8/10. Mer des Caraïbes, fonds blancs.",
     scores: {
       global: 5.8,
       life: 6.2,
@@ -14301,6 +14961,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 28,
     avgTempJanuary: 25.5,
     characterTags: ["mer des Caraïbes","fonds blancs","DROM","résidentiel"],
+    descriptionEn:
+      "Le François (Martinique) sits on the Martinique coast. Best fit: French overseas-life seekers comfortable with tropical climate and isolation.",
+    seoTitleEn: "Le François (Martinique) — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Le François (Martinique) (Martinique): quality-of-life score 5.7/10. Mer des Caraïbes, fonds blancs.",
     scores: {
       global: 5.7,
       life: 6,
@@ -14327,6 +14992,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 23,
     avgTempJanuary: 6.9,
     characterTags: ["banlieue bordelaise","ArianeGroup","tramway C","forêt landaise"],
+    descriptionEn:
+      "Saint-Médard-en-Jalles, Gironde, is a Bordeaux suburb on tramway C near ArianeGroup. Best fit: wine-trade workers, semi-retirees, settled couples seeking vineyard living.",
+    seoTitleEn: "Saint-Médard-en-Jalles — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Saint-Médard-en-Jalles (Gironde, Nouvelle-Aquitaine): quality-of-life score 6.7/10. Bordeaux commuter belt, ArianeGroup.",
     scores: {
       global: 6.7,
       life: 7,
@@ -14353,6 +15023,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22,
     avgTempJanuary: 3.5,
     characterTags: ["banlieue lyonnaise","tramway T6","résidentiel haut de gamme","Monts d'Or"],
+    descriptionEn:
+      "Tassin-la-Demi-Lune is a Lyon-area Métropole de Lyon suburb on the tramway T6 corridor near Monts d'Or. Best fit: refined-suburb families, dual-income Lyon professionals.",
+    seoTitleEn: "Tassin-la-Demi-Lune — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Tassin-la-Demi-Lune (Métropole de Lyon, Auvergne-Rhône-Alpes): quality-of-life score 7.2/10. Lyon commuter belt, tramway T6.",
     scores: {
       global: 7.2,
       life: 7.5,
@@ -14380,6 +15055,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21,
     avgTempJanuary: 4,
     characterTags: ["métro 1","Bois de Vincennes","résidentiel premium","limitrophe Paris"],
+    descriptionEn:
+      "Saint-Mandé is a Val-de-Marne town in Île-de-France near Bois de Vincennes. Best fit: refined-suburb families, dual-income Val-de-Marne professionals.",
+    seoTitleEn: "Saint-Mandé — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Saint-Mandé (Val-de-Marne, Île-de-France): quality-of-life score 7/10. Métro 1, Bois de Vincennes.",
     scores: { global: 7, life: 7.5, transport: 8.5, nature: 7, cost: 3.5, safety: 7.5, culture: 7, remoteWork: 7, schools: 7.5 },
   },
   {
@@ -14396,6 +15076,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21,
     avgTempJanuary: 4,
     characterTags: ["métro 8","confluence Seine-Marne","Bercy 2","limitrophe Paris"],
+    descriptionEn:
+      "Charenton-le-Pont is a Val-de-Marne town in Île-de-France near Bercy 2. Best fit: settlers seeking a quieter Val-de-Marne base, locals rooted in the area.",
+    seoTitleEn: "Charenton-le-Pont — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Charenton-le-Pont (Val-de-Marne, Île-de-France): quality-of-life score 6.8/10. Métro 8, confluence Seine-Marne.",
     scores: { global: 6.8, life: 7, transport: 8.5, nature: 6, cost: 4, safety: 7, culture: 6.5, remoteWork: 7, schools: 7 },
   },
   {
@@ -14412,6 +15097,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21,
     avgTempJanuary: 4,
     characterTags: ["RER B","Parc de Sceaux","top écoles","résidentiel cossu"],
+    descriptionEn:
+      "Sceaux is a Hauts-de-Seine town in Île-de-France near Parc de Sceaux. Best fit: refined-suburb families, dual-income Hauts-de-Seine professionals.",
+    seoTitleEn: "Sceaux — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Sceaux (Hauts-de-Seine, Île-de-France): quality-of-life score 7/10. RER B, Parc de Sceaux.",
     scores: { global: 7, life: 7.5, transport: 7.5, nature: 6.5, cost: 4, safety: 7.5, culture: 7, remoteWork: 7, schools: 8.5 },
   },
   {
@@ -14428,6 +15118,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21,
     avgTempJanuary: 4,
     characterTags: ["RER B","résidentiel","écoles","accès Paris rapide"],
+    descriptionEn:
+      "Bourg-la-Reine is a Hauts-de-Seine town in Île-de-France. Best fit: settlers seeking a quieter Hauts-de-Seine base, locals rooted in the area.",
+    seoTitleEn: "Bourg-la-Reine — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Bourg-la-Reine (Hauts-de-Seine, Île-de-France): quality-of-life score 6.9/10. RER B, residential.",
     scores: { global: 6.9, life: 7.2, transport: 8, nature: 6, cost: 4, safety: 7.5, culture: 6, remoteWork: 7, schools: 8 },
   },
   {
@@ -14444,6 +15139,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21,
     avgTempJanuary: 4,
     characterTags: ["métro 13","tramway T6","ancien village","dense"],
+    descriptionEn:
+      "Châtillon is a Hauts-de-Seine town in Île-de-France. Best fit: settlers seeking a quieter Hauts-de-Seine base, locals rooted in the area.",
+    seoTitleEn: "Châtillon — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Châtillon (Hauts-de-Seine, Île-de-France): quality-of-life score 6.4/10. Métro 13, tramway T6.",
     scores: { global: 6.4, life: 6.5, transport: 8, nature: 5.5, cost: 5, safety: 6.5, culture: 6, remoteWork: 6.5, schools: 6.5 },
   },
   {
@@ -14460,6 +15160,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21,
     avgTempJanuary: 4,
     characterTags: ["métro 13","limitrophe Paris","ancien populaire","gentrification"],
+    descriptionEn:
+      "Malakoff is a Hauts-de-Seine town in Île-de-France. Best fit: value-driven buyers, locals rooted in the area, public-sector staff.",
+    seoTitleEn: "Malakoff — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Malakoff (Hauts-de-Seine, Île-de-France): quality-of-life score 6.3/10. Métro 13, limitrophe Paris.",
     scores: { global: 6.3, life: 6.5, transport: 8, nature: 5, cost: 5, safety: 6.5, culture: 6.5, remoteWork: 6.5, schools: 6.5 },
   },
   {
@@ -14476,6 +15181,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21,
     avgTempJanuary: 4,
     characterTags: ["métro 4 prolongé","grand ensemble","populaire","ZAC Victor Hugo"],
+    descriptionEn:
+      "Bagneux is a Hauts-de-Seine town in Île-de-France. Best fit: value-driven buyers, locals rooted in the area, public-sector staff.",
+    seoTitleEn: "Bagneux — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Bagneux (Hauts-de-Seine, Île-de-France): quality-of-life score 5.8/10. Métro 4 prolongé, grand ensemble.",
     scores: { global: 5.8, life: 6, transport: 7.5, nature: 5, cost: 5.5, safety: 5.5, culture: 5.5, remoteWork: 6, schools: 6 },
   },
   {
@@ -14492,6 +15202,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21,
     avgTempJanuary: 4,
     characterTags: ["RER B Robinson","parc de Sceaux","résidentiel verdoyant","Cité-jardin Butte Rouge"],
+    descriptionEn:
+      "Châtenay-Malabry is a Hauts-de-Seine town in Île-de-France. Best fit: value-driven buyers, locals rooted in the area, public-sector staff.",
+    seoTitleEn: "Châtenay-Malabry — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Châtenay-Malabry (Hauts-de-Seine, Île-de-France): quality-of-life score 6.5/10. RER B Robinson, parc de Sceaux.",
     scores: { global: 6.5, life: 6.8, transport: 6.5, nature: 7, cost: 5, safety: 6.5, culture: 6, remoteWork: 6.5, schools: 7 },
   },
   {
@@ -14508,6 +15223,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21,
     avgTempJanuary: 4,
     characterTags: ["RER B Antony","Cerise","mixte","résidentiel"],
+    descriptionEn:
+      "Fresnes is a Val-de-Marne town in Île-de-France. Best fit: settlers seeking a quieter Val-de-Marne base, locals rooted in the area.",
+    seoTitleEn: "Fresnes — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Fresnes (Val-de-Marne, Île-de-France): quality-of-life score 5.7/10. RER B Antony, Cerise.",
     scores: { global: 5.7, life: 5.8, transport: 6, nature: 5.5, cost: 5.5, safety: 5.5, culture: 5.5, remoteWork: 5.8, schools: 5.8 },
   },
   {
@@ -14524,6 +15244,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21,
     avgTempJanuary: 4,
     characterTags: ["RER B","ex-ENS Cachan","étudiant","aqueduc"],
+    descriptionEn:
+      "Cachan is a Val-de-Marne town in Île-de-France. Best fit: students, junior academics, young professionals on Val-de-Marne salaries.",
+    seoTitleEn: "Cachan — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Cachan (Val-de-Marne, Île-de-France): quality-of-life score 6.5/10. RER B, ex-ENS Cachan.",
     scores: { global: 6.5, life: 6.8, transport: 7.5, nature: 5.5, cost: 4.5, safety: 6.5, culture: 7, remoteWork: 7, schools: 7.5 },
   },
   {
@@ -14540,6 +15265,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21,
     avgTempJanuary: 4,
     characterTags: ["RER B","aqueduc","mixte","limitrophe Paris"],
+    descriptionEn:
+      "Arcueil is a Val-de-Marne town in Île-de-France. Best fit: settlers seeking a quieter Val-de-Marne base, locals rooted in the area.",
+    seoTitleEn: "Arcueil — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Arcueil (Val-de-Marne, Île-de-France): quality-of-life score 6.3/10. RER B, aqueduc.",
     scores: { global: 6.3, life: 6.5, transport: 8, nature: 5.5, cost: 5, safety: 6, culture: 6.5, remoteWork: 6.5, schools: 6.5 },
   },
   {
@@ -14556,6 +15286,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21,
     avgTempJanuary: 4,
     characterTags: ["tramway T3","limitrophe Paris","dense","Sanofi"],
+    descriptionEn:
+      "Gentilly is a Val-de-Marne town in Île-de-France near Sanofi. Best fit: engineering and industrial-sector employees tied to the local plant.",
+    seoTitleEn: "Gentilly — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Gentilly (Val-de-Marne, Île-de-France): quality-of-life score 6/10. Tramway T3, limitrophe Paris.",
     scores: { global: 6, life: 6, transport: 8, nature: 5, cost: 5.5, safety: 6, culture: 6, remoteWork: 6, schools: 6 },
   },
   {
@@ -14572,6 +15307,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21,
     avgTempJanuary: 4,
     characterTags: ["métro 7","CHU Bicêtre","limitrophe Paris","dense"],
+    descriptionEn:
+      "Le Kremlin-Bicêtre is a Val-de-Marne town in Île-de-France. Best fit: settlers seeking a quieter Val-de-Marne base, locals rooted in the area.",
+    seoTitleEn: "Le Kremlin-Bicêtre — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Le Kremlin-Bicêtre (Val-de-Marne, Île-de-France): quality-of-life score 6.4/10. Métro 7, CHU Bicêtre.",
     scores: { global: 6.4, life: 6.5, transport: 8.5, nature: 5, cost: 5, safety: 6, culture: 6.5, remoteWork: 6.5, schools: 6.5 },
   },
   {
@@ -14588,6 +15328,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21,
     avgTempJanuary: 4,
     characterTags: ["ligne L","résidentiel","familial","accès La Défense"],
+    descriptionEn:
+      "Bois-Colombes sits in the Paris commuter belt (Hauts-de-Seine). Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
+    seoTitleEn: "Bois-Colombes — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Bois-Colombes (Hauts-de-Seine, Île-de-France): quality-of-life score 7/10. Ligne L, residential.",
     scores: { global: 7, life: 7.2, transport: 7.5, nature: 6, cost: 4.5, safety: 7.5, culture: 6.5, remoteWork: 7, schools: 7.5 },
   },
   {
@@ -14604,6 +15349,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21,
     avgTempJanuary: 4,
     characterTags: ["tramway T2","résidentiel cossu","familial","accès La Défense"],
+    descriptionEn:
+      "La Garenne-Colombes sits in the Paris commuter belt (Hauts-de-Seine), served by tramway T2. Best fit: refined-suburb families, dual-income Paris professionals.",
+    seoTitleEn: "La Garenne-Colombes — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "La Garenne-Colombes (Hauts-de-Seine, Île-de-France): quality-of-life score 7/10. Tramway T2, upmarket residential.",
     scores: { global: 7, life: 7.2, transport: 7.5, nature: 6, cost: 4, safety: 7.5, culture: 6.5, remoteWork: 7, schools: 7.5 },
   },
   {
@@ -14620,6 +15370,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21,
     avgTempJanuary: 4,
     characterTags: ["ligne H","résidentiel","villas","parcs"],
+    descriptionEn:
+      "Eaubonne is a Val-d'Oise town in Île-de-France. Best fit: settlers seeking a quieter Val-d'Oise base, locals rooted in the area.",
+    seoTitleEn: "Eaubonne — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Eaubonne (Val-d'Oise, Île-de-France): quality-of-life score 6.2/10. Ligne H, residential.",
     scores: { global: 6.2, life: 6.5, transport: 6.5, nature: 6.5, cost: 5.5, safety: 6.5, culture: 5.5, remoteWork: 6, schools: 6.5 },
   },
   {
@@ -14636,6 +15391,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21,
     avgTempJanuary: 4,
     characterTags: ["RER D","accès CDG","populaire","grand ensemble"],
+    descriptionEn:
+      "Goussainville is a Val-d'Oise town in Île-de-France. Best fit: value-driven buyers, locals rooted in the area, public-sector staff.",
+    seoTitleEn: "Goussainville — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Goussainville (Val-d'Oise, Île-de-France): quality-of-life score 4.8/10. RER D, accès CDG.",
     scores: { global: 4.8, life: 5, transport: 6, nature: 5, cost: 6.5, safety: 4.5, culture: 4.5, remoteWork: 5, schools: 5 },
   },
   {
@@ -14652,6 +15412,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21,
     avgTempJanuary: 4,
     characterTags: ["ligne H","forêt de Montmorency","résidentiel","familial"],
+    descriptionEn:
+      "Saint-Leu-la-Forêt is a Val-d'Oise town in Île-de-France. Best fit: settlers seeking a quieter Val-d'Oise base, locals rooted in the area.",
+    seoTitleEn: "Saint-Leu-la-Forêt — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Saint-Leu-la-Forêt (Val-d'Oise, Île-de-France): quality-of-life score 6.5/10. Ligne H, forêt de Montmorency.",
     scores: { global: 6.5, life: 7, transport: 6, nature: 8, cost: 5, safety: 7, culture: 5.5, remoteWork: 6.5, schools: 7 },
   },
   {
@@ -14668,6 +15433,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21,
     avgTempJanuary: 4,
     characterTags: ["ligne H","résidentiel","collines","familial"],
+    descriptionEn:
+      "Soisy-sous-Montmorency is a Val-d'Oise town in Île-de-France. Best fit: settlers seeking a quieter Val-d'Oise base, locals rooted in the area.",
+    seoTitleEn: "Soisy-sous-Montmorency — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Soisy-sous-Montmorency (Val-d'Oise, Île-de-France): quality-of-life score 6/10. Ligne H, residential.",
     scores: { global: 6, life: 6.2, transport: 6, nature: 6.5, cost: 5.5, safety: 6.5, culture: 5.5, remoteWork: 6, schools: 6.5 },
   },
   {
@@ -14684,6 +15454,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21,
     avgTempJanuary: 4,
     characterTags: ["collégiale historique","forêt de Montmorency","résidentiel","Rousseau"],
+    descriptionEn:
+      "Montmorency is a Val-d'Oise town in Île-de-France near Rousseau. Best fit: settlers seeking a quieter Val-d'Oise base, locals rooted in the area.",
+    seoTitleEn: "Montmorency — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Montmorency (Val-d'Oise, Île-de-France): quality-of-life score 6.4/10. Collégiale historique, forêt de Montmorency.",
     scores: { global: 6.4, life: 6.8, transport: 6, nature: 7, cost: 5, safety: 6.5, culture: 6.5, remoteWork: 6, schools: 7 },
   },
   {
@@ -14700,6 +15475,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21,
     avgTempJanuary: 4,
     characterTags: ["ligne H","pavillonnaire","forêt de Montmorency","calme"],
+    descriptionEn:
+      "Domont is a Val-d'Oise town in Île-de-France. Best fit: settlers seeking a quieter Val-d'Oise base, locals rooted in the area.",
+    seoTitleEn: "Domont — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Domont (Val-d'Oise, Île-de-France): quality-of-life score 6/10. Ligne H, low-rise residential.",
     scores: { global: 6, life: 6.5, transport: 6, nature: 6.5, cost: 5.5, safety: 6.5, culture: 5, remoteWork: 6, schools: 6.5 },
   },
   {
@@ -14716,6 +15496,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21,
     avgTempJanuary: 4,
     characterTags: ["tramway T6","Dassault Aviation","Vélizy 2","résidentiel"],
+    descriptionEn:
+      "Vélizy-Villacoublay is a Yvelines town in Île-de-France near Dassault Aviation, Vélizy 2. Best fit: engineering and industrial-sector employees tied to the local plant.",
+    seoTitleEn: "Vélizy-Villacoublay — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Vélizy-Villacoublay (Yvelines, Île-de-France): quality-of-life score 6.5/10. Tramway T6, Dassault Aviation.",
     scores: { global: 6.5, life: 6.8, transport: 6.5, nature: 6.5, cost: 4.5, safety: 7, culture: 6.5, remoteWork: 7, schools: 7 },
   },
   {
@@ -14732,6 +15517,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21,
     avgTempJanuary: 4,
     characterTags: ["limitrophe Versailles","résidentiel cossu","commune nouvelle 2019","hôpital Mignot"],
+    descriptionEn:
+      "Le Chesnay-Rocquencourt is a Yvelines town in Île-de-France. Best fit: refined-suburb families, dual-income Yvelines professionals.",
+    seoTitleEn: "Le Chesnay-Rocquencourt — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Le Chesnay-Rocquencourt (Yvelines, Île-de-France): quality-of-life score 6.8/10. Limitrophe Versailles, upmarket residential.",
     scores: { global: 6.8, life: 7, transport: 6, nature: 7, cost: 4.5, safety: 7.5, culture: 7, remoteWork: 6.5, schools: 7.5 },
   },
   {
@@ -14748,6 +15538,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21,
     avgTempJanuary: 4,
     characterTags: ["Saint-Quentin-en-Yvelines","colline point culminant IDF","ville nouvelle","résidentiel"],
+    descriptionEn:
+      "Élancourt sits in the Paris commuter belt (Yvelines) near Saint-Quentin-en-Yvelines. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
+    seoTitleEn: "Élancourt — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Élancourt (Yvelines, Île-de-France): quality-of-life score 6.3/10. Saint-Quentin-en-Yvelines, colline point culminant IDF.",
     scores: { global: 6.3, life: 6.5, transport: 5.5, nature: 7, cost: 5.5, safety: 6.5, culture: 5.5, remoteWork: 6.5, schools: 6.5 },
   },
   {
@@ -14764,6 +15559,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21,
     avgTempJanuary: 4,
     characterTags: ["Saint-Quentin-en-Yvelines","ville nouvelle","pavillonnaire","forêt de Maurepas"],
+    descriptionEn:
+      "Maurepas, Yvelines, is a Paris suburb near Saint-Quentin-en-Yvelines. Best fit: families and couples commuting into Paris, remote workers needing a base nearby.",
+    seoTitleEn: "Maurepas — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Maurepas (Yvelines, Île-de-France): quality-of-life score 6/10. Saint-Quentin-en-Yvelines, ville nouvelle.",
     scores: { global: 6, life: 6.5, transport: 5.5, nature: 7, cost: 5.5, safety: 6.5, culture: 5, remoteWork: 6, schools: 6.5 },
   },
   // F39 — Extension seed +25 communes non-IDF (515 → 540)
@@ -14782,6 +15582,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 19.5,
     avgTempJanuary: 4,
     characterTags: ["Audomarois","cathédrale Notre-Dame","marais audomarois","UNESCO biosphère"],
+    descriptionEn:
+      "Saint-Omer is a Pas-de-Calais town in Hauts-de-France near Audomarois, UNESCO biosphère. Best fit: heritage lovers, retirees, families wanting walkable historic centres.",
+    seoTitleEn: "Saint-Omer — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Saint-Omer (Pas-de-Calais, Hauts-de-France): quality-of-life score 5.8/10. Audomarois, cathédrale Notre-Dame.",
     scores: { global: 5.8, life: 6.2, transport: 5.5, nature: 7.5, cost: 6.5, safety: 6, culture: 6.5, remoteWork: 5.5, schools: 6 },
   },
   {
@@ -14798,6 +15603,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 19.5,
     avgTempJanuary: 4,
     characterTags: ["Flandre intérieure","gare nœud","Mont des Cats proche","TGV-TER"],
+    descriptionEn:
+      "Hazebrouck is a Nord town in Hauts-de-France. Best fit: settlers seeking a quieter Nord base, locals rooted in the area.",
+    seoTitleEn: "Hazebrouck — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Hazebrouck (Nord, Hauts-de-France): quality-of-life score 5.7/10. Flandre intérieure, gare nœud.",
     scores: { global: 5.7, life: 6, transport: 6.5, nature: 6.5, cost: 6.5, safety: 6, culture: 5.5, remoteWork: 5.8, schools: 6 },
   },
   {
@@ -14814,6 +15624,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 19.5,
     avgTempJanuary: 4,
     characterTags: ["banlieue lilloise","Lys","textile historique","frontière belge"],
+    descriptionEn:
+      "Armentières is a Nord town on the Belgian border near Lys. Best fit: cross-border commuters, bilingual professionals.",
+    seoTitleEn: "Armentières — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Armentières (Nord, Hauts-de-France): quality-of-life score 5.5/10. Banlieue lilloise, Lys.",
     scores: { global: 5.5, life: 5.8, transport: 6, nature: 5.5, cost: 6.5, safety: 5.5, culture: 5.5, remoteWork: 5.8, schools: 5.8 },
   },
   {
@@ -14830,6 +15645,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 19.5,
     avgTempJanuary: 3.5,
     characterTags: ["Sambre","frontière belge","ancien sidérurgique","ANRU"],
+    descriptionEn:
+      "Maubeuge is a Nord town on the Belgian border near Sambre. Best fit: engineering and industrial-sector employees tied to the local plant.",
+    seoTitleEn: "Maubeuge — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Maubeuge (Nord, Hauts-de-France): quality-of-life score 4.5/10. Sambre, Belgium border.",
     scores: { global: 4.5, life: 4.8, transport: 5.5, nature: 5.5, cost: 7, safety: 4.5, culture: 5, remoteWork: 4.8, schools: 4.8 },
   },
   {
@@ -14846,6 +15666,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20,
     avgTempJanuary: 4,
     characterTags: ["bassin minier","ancien sidérurgique","ANRU","populaire"],
+    descriptionEn:
+      "Denain is part of the Nord former coal-basin (UNESCO mining heritage). Best fit: engineering and industrial-sector employees tied to the local plant.",
+    seoTitleEn: "Denain — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Denain (Nord, Hauts-de-France): quality-of-life score 4.2/10. Former coal basin, ancien sidérurgique.",
     scores: { global: 4.2, life: 4.5, transport: 5.5, nature: 5, cost: 7.5, safety: 4, culture: 4.5, remoteWork: 4.5, schools: 4.5 },
   },
   {
@@ -14862,6 +15687,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 19.5,
     avgTempJanuary: 4,
     characterTags: ["bassin minier","UNESCO mining","politique","accessible Lille/Lens"],
+    descriptionEn:
+      "Hénin-Beaumont is part of the Pas-de-Calais former coal-basin (UNESCO mining heritage). Best fit: value-driven buyers, locals rooted in the area, public-sector staff.",
+    seoTitleEn: "Hénin-Beaumont — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Hénin-Beaumont (Pas-de-Calais, Hauts-de-France): quality-of-life score 4.8/10. Former coal basin, UNESCO mining.",
     scores: { global: 4.8, life: 5, transport: 6, nature: 5.5, cost: 7, safety: 5, culture: 5, remoteWork: 5, schools: 5 },
   },
   {
@@ -14878,6 +15708,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 19,
     avgTempJanuary: 5,
     characterTags: ["Côte d'Opale","cerf-volant","plage","sanatorium historique"],
+    descriptionEn:
+      "Berck is a Pas-de-Calais town in Hauts-de-France near Côte d'Opale. Best fit: coastal-life seekers, semi-retirees, sea-adjacent remote workers.",
+    seoTitleEn: "Berck — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Berck (Pas-de-Calais, Hauts-de-France): quality-of-life score 5.5/10. Côte d'Opale, cerf-volant.",
     scores: { global: 5.5, life: 6, transport: 4.5, nature: 8, cost: 6.5, safety: 6, culture: 5.5, remoteWork: 5.5, schools: 5.5 },
   },
   // Grand Est / Alsace
@@ -14895,6 +15730,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 1.5,
     characterTags: ["banlieue Metz","Mettis BHNS","résidentiel","Moselle"],
+    descriptionEn:
+      "Montigny-lès-Metz is a Metz-area Moselle suburb on the Mettis BHNS corridor near Moselle. Best fit: families and couples commuting into Metz, remote workers needing a base nearby.",
+    seoTitleEn: "Montigny-lès-Metz — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Montigny-lès-Metz (Moselle, Grand Est): quality-of-life score 6.2/10. Banlieue Metz, Mettis BHNS.",
     scores: { global: 6.2, life: 6.5, transport: 7, nature: 6, cost: 5.8, safety: 6.5, culture: 6, remoteWork: 6.5, schools: 6.8 },
   },
   {
@@ -14911,6 +15751,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20,
     avgTempJanuary: 1,
     characterTags: ["sidérurgie historique","Fensch","frontalier Luxembourg","ouvrier"],
+    descriptionEn:
+      "Hayange is a Moselle town in Grand Est. Best fit: wine-trade workers, semi-retirees, settled couples seeking vineyard living.",
+    seoTitleEn: "Hayange — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Hayange (Moselle, Grand Est): quality-of-life score 4.8/10. Sidérurgie historique, Fensch.",
     scores: { global: 4.8, life: 5, transport: 5.5, nature: 5.5, cost: 7, safety: 5, culture: 4.8, remoteWork: 5, schools: 5 },
   },
   {
@@ -14927,6 +15772,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.5,
     avgTempJanuary: 2,
     characterTags: ["banlieue Mulhouse","résidentiel","alsacien","calme"],
+    descriptionEn:
+      "Riedisheim sits in the Mulhouse commuter belt (Haut-Rhin). Best fit: families and couples commuting into Mulhouse, remote workers needing a base nearby.",
+    seoTitleEn: "Riedisheim — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Riedisheim (Haut-Rhin, Grand Est): quality-of-life score 6.3/10. Banlieue Mulhouse, residential.",
     scores: { global: 6.3, life: 6.5, transport: 6.5, nature: 6.5, cost: 6, safety: 6.8, culture: 5.5, remoteWork: 6.2, schools: 6.5 },
   },
   {
@@ -14943,6 +15793,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.5,
     avgTempJanuary: 2,
     characterTags: ["banlieue Mulhouse","démocratie participative","tramway proche","résidentiel"],
+    descriptionEn:
+      "Kingersheim is a Mulhouse-area Haut-Rhin suburb. Best fit: families and couples commuting into Mulhouse, remote workers needing a base nearby.",
+    seoTitleEn: "Kingersheim — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Kingersheim (Haut-Rhin, Grand Est): quality-of-life score 6.1/10. Banlieue Mulhouse, démocratie participative.",
     scores: { global: 6.1, life: 6.3, transport: 6.5, nature: 6, cost: 6, safety: 6.5, culture: 6, remoteWork: 6, schools: 6.3 },
   },
   // Métropole de Lyon
@@ -14960,6 +15815,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.5,
     avgTempJanuary: 3.5,
     characterTags: ["banlieue lyonnaise sud","métro B prolongé 2024","résidentiel","Observatoire"],
+    descriptionEn:
+      "Saint-Genis-Laval is a Lyon-area Métropole de Lyon suburb on the métro B (extended 2024) corridor near Observatoire. Best fit: families and couples commuting into Lyon, remote workers needing a base nearby.",
+    seoTitleEn: "Saint-Genis-Laval — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Saint-Genis-Laval (Métropole de Lyon, Auvergne-Rhône-Alpes): quality-of-life score 6.8/10. Banlieue lyonnaise sud, métro B prolongé 2024.",
     scores: { global: 6.8, life: 7, transport: 7, nature: 7, cost: 5, safety: 7, culture: 6, remoteWork: 6.8, schools: 7 },
   },
   {
@@ -14976,6 +15836,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 23,
     avgTempJanuary: 3.5,
     characterTags: ["confluence Rhône-Gier","industriel","TER Lyon-Saint-Étienne","ANRU"],
+    descriptionEn:
+      "Givors sits in the Lyon commuter belt (Métropole de Lyon). Best fit: value-driven buyers, locals rooted in the area, public-sector staff.",
+    seoTitleEn: "Givors — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Givors (Métropole de Lyon, Auvergne-Rhône-Alpes): quality-of-life score 5/10. Confluence Rhône-Gier, industrial.",
     scores: { global: 5, life: 5.2, transport: 6.5, nature: 6, cost: 7, safety: 5, culture: 5, remoteWork: 5.5, schools: 5.5 },
   },
   {
@@ -14992,6 +15857,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.5,
     avgTempJanuary: 3.5,
     characterTags: ["banlieue lyonnaise nord","Plateau","mixte","ANRU"],
+    descriptionEn:
+      "Rillieux-la-Pape sits in the Lyon commuter belt (Métropole de Lyon). Best fit: value-driven buyers, locals rooted in the area, public-sector staff.",
+    seoTitleEn: "Rillieux-la-Pape — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Rillieux-la-Pape (Métropole de Lyon, Auvergne-Rhône-Alpes): quality-of-life score 5.6/10. Banlieue lyonnaise nord, Plateau.",
     scores: { global: 5.6, life: 5.8, transport: 6.5, nature: 6, cost: 6, safety: 5.5, culture: 5.5, remoteWork: 6, schools: 6 },
   },
   {
@@ -15008,6 +15878,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.5,
     avgTempJanuary: 3.5,
     characterTags: ["banlieue lyonnaise ouest","résidentiel haut de gamme","collines","catholique"],
+    descriptionEn:
+      "Sainte-Foy-lès-Lyon sits in the Lyon commuter belt (Métropole de Lyon). Best fit: refined-suburb families, dual-income Lyon professionals.",
+    seoTitleEn: "Sainte-Foy-lès-Lyon — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Sainte-Foy-lès-Lyon (Métropole de Lyon, Auvergne-Rhône-Alpes): quality-of-life score 7/10. Banlieue lyonnaise ouest, upmarket residential.",
     scores: { global: 7, life: 7.3, transport: 6.5, nature: 7.5, cost: 4.5, safety: 7.5, culture: 6, remoteWork: 6.8, schools: 7.5 },
   },
   {
@@ -15024,6 +15899,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.5,
     avgTempJanuary: 3.5,
     characterTags: ["commune nouvelle 2024","métro B prolongé","Rhône","résidentiel mixte"],
+    descriptionEn:
+      "Oullins-Pierre-Bénite is a Lyon-area Métropole de Lyon suburb on the métro B prolongé corridor near Rhône. Best fit: families and couples commuting into Lyon, remote workers needing a base nearby.",
+    seoTitleEn: "Oullins-Pierre-Bénite — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Oullins-Pierre-Bénite (Métropole de Lyon, Auvergne-Rhône-Alpes): quality-of-life score 6.4/10. Commune nouvelle 2024, métro B prolongé.",
     scores: { global: 6.4, life: 6.5, transport: 7.5, nature: 6, cost: 5.5, safety: 6, culture: 5.8, remoteWork: 6.5, schools: 6.5 },
   },
   // Haute-Savoie / Ain
@@ -15041,6 +15921,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21,
     avgTempJanuary: 1,
     characterTags: ["Pays du Mont-Blanc","accès Chamonix","TER Saint-Gervais","vallée Arve"],
+    descriptionEn:
+      "Sallanches is a Haute-Savoie town in Auvergne-Rhône-Alpes. Best fit: mountain-life seekers, outdoor professionals, ski-season workers.",
+    seoTitleEn: "Sallanches — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Sallanches (Haute-Savoie, Auvergne-Rhône-Alpes): quality-of-life score 6.6/10. Pays du Mont-Blanc, accès Chamonix.",
     scores: { global: 6.6, life: 7, transport: 6, nature: 8.5, cost: 5, safety: 7, culture: 5.5, remoteWork: 6.5, schools: 6.5 },
   },
   {
@@ -15057,6 +15942,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22,
     avgTempJanuary: 2.5,
     characterTags: ["nœud ferroviaire","TER Lyon 35min","plaine de l'Ain","industrie"],
+    descriptionEn:
+      "Ambérieu-en-Bugey is a Ain town in Auvergne-Rhône-Alpes. Best fit: settlers seeking a quieter Ain base, locals rooted in the area.",
+    seoTitleEn: "Ambérieu-en-Bugey — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Ambérieu-en-Bugey (Ain, Auvergne-Rhône-Alpes): quality-of-life score 5.9/10. Nœud ferroviaire, TER Lyon 35min.",
     scores: { global: 5.9, life: 6, transport: 6.8, nature: 7, cost: 6.5, safety: 6, culture: 5, remoteWork: 6.2, schools: 5.8 },
   },
   // Normandie
@@ -15073,7 +15963,12 @@ const RAW_CITIES_SEED = [
     sunshinedays: 1680,
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
-    characterTags: ["bords de Seine","Giverny (Monet) proche","Transilien J","résidentiel"],
+    characterTags: ["bords de Seine","Giverny nearby","Transilien J","résidentiel"],
+    descriptionEn:
+      "Vernon is a Eure town in Normandy near Giverny (Monet's gardens). Best fit: settlers seeking a quieter Eure base, locals rooted in the area.",
+    seoTitleEn: "Vernon — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Vernon (Eure, Normandy): quality-of-life score 6.2/10. Bords de Seine, Giverny nearby.",
     scores: { global: 6.2, life: 6.5, transport: 6, nature: 7, cost: 6, safety: 6.2, culture: 6.5, remoteWork: 6.2, schools: 6.2 },
   },
   {
@@ -15090,6 +15985,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20,
     avgTempJanuary: 4.5,
     characterTags: ["banlieue Rouen","Métrobus T4","cheminots historiques","accès rapide centre"],
+    descriptionEn:
+      "Sotteville-lès-Rouen is a Rouen-area Seine-Maritime suburb. Best fit: families and couples commuting into Rouen, remote workers needing a base nearby.",
+    seoTitleEn: "Sotteville-lès-Rouen — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Sotteville-lès-Rouen (Seine-Maritime, Normandy): quality-of-life score 5.9/10. Banlieue Rouen, Métrobus T4.",
     scores: { global: 5.9, life: 6, transport: 7, nature: 5.5, cost: 6, safety: 5.8, culture: 6, remoteWork: 6.2, schools: 6 },
   },
   {
@@ -15106,6 +16006,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20,
     avgTempJanuary: 4.5,
     characterTags: ["banlieue Rouen sud","tramway TEOR","résidentiel","Le Zénith"],
+    descriptionEn:
+      "Le Grand-Quevilly, Seine-Maritime, is a Rouen suburb on tramway T. Best fit: families and couples commuting into Rouen, remote workers needing a base nearby.",
+    seoTitleEn: "Le Grand-Quevilly — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Le Grand-Quevilly (Seine-Maritime, Normandy): quality-of-life score 5.9/10. Banlieue Rouen sud, tramway TEOR.",
     scores: { global: 5.9, life: 6, transport: 6.8, nature: 5.5, cost: 6, safety: 6, culture: 5.8, remoteWork: 6.2, schools: 6 },
   },
   {
@@ -15122,6 +16027,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20,
     avgTempJanuary: 4.5,
     characterTags: ["banlieue Rouen nord","plateau","Université Rouen","résidentiel cossu"],
+    descriptionEn:
+      "Mont-Saint-Aignan is a Rouen-area Seine-Maritime suburb. Best fit: students, junior academics, young professionals on Rouen salaries.",
+    seoTitleEn: "Mont-Saint-Aignan — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Mont-Saint-Aignan (Seine-Maritime, Normandy): quality-of-life score 6.8/10. Banlieue Rouen nord, plateau.",
     scores: { global: 6.8, life: 7, transport: 6.5, nature: 7, cost: 5, safety: 7, culture: 6.5, remoteWork: 6.8, schools: 7.5 },
   },
   // Oise
@@ -15139,6 +16049,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20,
     avgTempJanuary: 4,
     characterTags: ["château","hippodrome","forêt","TER Paris 25min","résidentiel haut de gamme"],
+    descriptionEn:
+      "Chantilly is a Oise town in Hauts-de-France. Best fit: heritage lovers, retirees, families wanting walkable historic centres.",
+    seoTitleEn: "Chantilly — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Chantilly (Oise, Hauts-de-France): quality-of-life score 7.2/10. Château, hippodrome.",
     scores: { global: 7.2, life: 7.5, transport: 7, nature: 8, cost: 4, safety: 7.5, culture: 7.5, remoteWork: 7, schools: 7.5 },
   },
   {
@@ -15155,6 +16070,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["Valois","ancien duché","TER Paris 50min","résidentiel accessible"],
+    descriptionEn:
+      "Crépy-en-Valois is a Oise town in Hauts-de-France. Best fit: settlers seeking a quieter Oise base, locals rooted in the area.",
+    seoTitleEn: "Crépy-en-Valois — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Crépy-en-Valois (Oise, Hauts-de-France): quality-of-life score 6/10. Valois, ancien duché.",
     scores: { global: 6, life: 6.3, transport: 6, nature: 7, cost: 6.5, safety: 6.2, culture: 5.8, remoteWork: 6, schools: 6 },
   },
   {
@@ -15171,6 +16091,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4,
     characterTags: ["pays de Thelle","Transilien H","accessible Paris","tabletterie historique"],
+    descriptionEn:
+      "Méru is a Oise town in Hauts-de-France. Best fit: settlers seeking a quieter Oise base, locals rooted in the area.",
+    seoTitleEn: "Méru — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Méru (Oise, Hauts-de-France): quality-of-life score 5.7/10. Pays de Thelle, Transilien H.",
     scores: { global: 5.7, life: 5.8, transport: 6.3, nature: 6.5, cost: 6.5, safety: 5.8, culture: 5.5, remoteWork: 5.8, schools: 5.8 },
   },
 ];
