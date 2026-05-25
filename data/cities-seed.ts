@@ -800,6 +800,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 27.5,
     avgTempJanuary: 8.1,
     characterTags: ["mer", "soleil", "cosmopolite", "gastronomie", "sport nautique"],
+    descriptionEn:
+      "Marseille is France's second-largest city — Mediterranean port, raw and dramatic, multicultural, with the Calanques National Park on its southern edge. Dramatically cheaper than Côte d'Azur or Paris, currently the trendiest French food scene. Real safety variation by district (central 1st-8th broadly fine; northern districts uneven). Best fit: budget-aware Mediterranean lovers, creatives, remote workers picking neighbourhoods carefully.",
+    seoTitleEn: "Marseille — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Marseille (Bouches-du-Rhône, PACA): quality-of-life score 7.0/10. Mediterranean port, multicultural, trendy food scene, Calanques National Park.",
     scores: {
       global: 7.0,
       life: 7.2,
@@ -826,6 +831,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 27.2,
     avgTempJanuary: 7.5,
     characterTags: ["soleil", "méditerranéen", "abordable", "catalogne", "nature"],
+    descriptionEn:
+      "Perpignan is France's Catalan Mediterranean — exceptionally sunny, dramatically affordable for a coast-and-mountain access city, Pyrenees-Orientales skiing 1 hour away. Catalan identity strong; Spanish border 30 minutes. Best fit: retirees on tight budgets, sun-seekers prioritising value, families wanting Mediterranean climate without Côte d'Azur prices.",
+    seoTitleEn: "Perpignan — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Perpignan (Pyrénées-Orientales, Occitanie): quality-of-life score 6.9/10. Catalan Mediterranean city, very sunny, affordable, Pyrenees skiing nearby.",
     scores: {
       global: 6.9,
       life: 7.1,
@@ -852,6 +862,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.8,
     avgTempJanuary: 4.2,
     characterTags: ["historique", "patrimoine", "culturel", "art", "fleuve"],
+    descriptionEn:
+      "Rouen is the Normandy capital — Gothic cathedral immortalised by Monet, half-timbered medieval centre, the Seine flowing through, Paris 1h15 by train. Cultural depth strong for a city of its size. Best fit: history and art lovers, Paris commuters seeking historic city living, families on moderate budget.",
+    seoTitleEn: "Rouen — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Rouen (Seine-Maritime, Normandie): quality-of-life score 7.0/10. Norman capital, Gothic cathedral, half-timbered centre, 1h15 train to Paris.",
     scores: {
       global: 7.0,
       life: 7.2,
@@ -878,6 +893,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 26.5,
     avgTempJanuary: 8.4,
     characterTags: ["mer", "soleil", "marine", "méditerranéen", "sport nautique"],
+    descriptionEn:
+      "Toulon is the major French Mediterranean naval port — under-the-radar, dramatically cheaper than Nice or Cannes, exceptional Mediterranean climate, with the rugged Mont Faron towering over the harbour. Best fit: retirees seeking value, military-and-defence professionals, lifestyle remote workers wanting Mediterranean climate at lower cost.",
+    seoTitleEn: "Toulon — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Toulon (Var, PACA): quality-of-life score 7.1/10. Mediterranean naval port, sunny, affordable Riviera alternative, dramatic mountain backdrop.",
     scores: {
       global: 7.1,
       life: 7.4,
@@ -904,6 +924,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 19.8,
     avgTempJanuary: 3.2,
     characterTags: ["étudiant", "cathédrale", "abordable", "historique", "hortillonnages"],
+    descriptionEn:
+      "Amiens is the Picardy capital — France's largest Gothic cathedral (UNESCO), the floating market gardens (hortillonnages), strong university, 1h10 to Paris by train. Genuinely affordable mid-sized city with modest cultural scene. Best fit: students, Paris commuters seeking ultra-cheap housing, history-and-architecture lovers.",
+    seoTitleEn: "Amiens — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Amiens (Somme, Hauts-de-France): quality-of-life score 6.8/10. Largest French Gothic cathedral, hortillonnages, affordable, 1h10 train to Paris.",
     scores: {
       global: 6.8,
       life: 6.9,
@@ -930,6 +955,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.5,
     avgTempJanuary: 2.1,
     characterTags: ["verdoyant", "étudiant", "nature", "vélo", "horloger"],
+    descriptionEn:
+      "Besançon is one of France's greenest cities — surrounded by Jura forested hills, Vauban citadel (UNESCO), strong university, Swiss border 1 hour away (cross-border workers). Historic clockmaking and watchmaking heritage. Best fit: nature-and-outdoor families, Switzerland-border workers, students, calm-seekers.",
+    seoTitleEn: "Besançon — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Besançon (Doubs, Bourgogne-Franche-Comté): quality-of-life score 7.2/10. Greenest French city, Vauban citadel, Jura forest, Swiss-border access.",
     scores: {
       global: 7.2,
       life: 7.4,
@@ -956,6 +986,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.8,
     avgTempJanuary: 4.6,
     characterTags: ["étudiant", "jardin", "culture", "dynamique", "fleuve"],
+    descriptionEn:
+      "Angers consistently ranks as one of France's best cities to live — Loire Valley climate, exceptional gardens (Terra Botanica), strong university, dynamic cultural scene, 1h30 TGV to Paris. Family-friendly, walkable, growing tech sector. Best fit: families seeking quality of life, students, remote workers wanting Loire lifestyle with urban amenities.",
+    seoTitleEn: "Angers — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Angers (Maine-et-Loire, Pays de la Loire): quality-of-life score 7.5/10. Top-ranked French quality-of-life city, Loire Valley, gardens, family-friendly.",
     scores: {
       global: 7.5,
       life: 7.7,
@@ -982,6 +1017,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 19.5,
     avgTempJanuary: 4.8,
     characterTags: ["port", "mer", "architecture", "UNESCO", "abordable"],
+    descriptionEn:
+      "Le Havre is France's largest Atlantic container port — Auguste Perret's post-war reconstruction is UNESCO-listed, dramatically affordable for a coast-adjacent city, 2 hours from Paris. Modernist architecture lovers' niche choice. Best fit: ultra-budget households, architects, port-and-shipping professionals, sea-loving Paris-region workers.",
+    seoTitleEn: "Le Havre — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Le Havre (Seine-Maritime, Normandie): quality-of-life score 6.7/10. Atlantic port, UNESCO modernist architecture, very affordable coastal city.",
     scores: {
       global: 6.7,
       life: 6.8,
@@ -1008,6 +1048,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.0,
     avgTempJanuary: 3.5,
     characterTags: ["abordable", "montagne", "design", "sport", "industrie"],
+    descriptionEn:
+      "Saint-Étienne is France's design city (UNESCO Creative City of Design), former industrial hub now reinvented around design schools, sport (the football legend), and outdoor access — Pilat Regional Park on its doorstep. Among France's cheapest mid-sized cities. Best fit: designers, sport fans, ultra-budget families and remote workers, outdoor active singles.",
+    seoTitleEn: "Saint-Étienne — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Saint-Étienne (Loire, Auvergne-Rhône-Alpes): quality-of-life score 6.6/10. UNESCO Design City, very affordable, Pilat outdoor park nearby.",
     scores: {
       global: 6.6,
       life: 6.8,
@@ -1034,6 +1079,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.3,
     avgTempJanuary: 4.1,
     characterTags: ["Loire", "patrimoine", "abordable", "Paris proche", "vélo"],
+    descriptionEn:
+      "Orléans is the Joan of Arc city on the Loire — 1 hour from Paris, affordable, with strong heritage architecture and increasing cycle infrastructure. Mid-sized, family-friendly, growing as a Paris commuter hub. Best fit: Paris commuters wanting historic city living, families on moderate budget, cyclists.",
+    seoTitleEn: "Orléans — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Orléans (Loiret, Centre-Val de Loire): quality-of-life score 7.1/10. Joan of Arc city on Loire, 1 hour from Paris, affordable, cycle-friendly.",
     scores: {
       global: 7.1,
       life: 7.2,
@@ -1060,6 +1110,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 19.8,
     avgTempJanuary: 3.4,
     characterTags: ["dynamique", "étudiant", "bière", "frontière", "culture flamande"],
+    descriptionEn:
+      "Lille is France's fourth metropolitan area — Flemish-influenced architecture, massive student population, strong food and beer scene, 1 hour to Paris and Brussels by TGV, 80 minutes to London. Dynamic, young, increasingly cycle-friendly. Best fit: students, young professionals, cross-border workers, anyone wanting French metropolitan life with Belgium and UK access.",
+    seoTitleEn: "Lille — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Lille (Nord, Hauts-de-France): quality-of-life score 7.4/10. Fourth French metro, Flemish architecture, student-rich, 1h TGV to Paris/Brussels.",
     scores: {
       global: 7.4,
       life: 7.5,
@@ -1086,6 +1141,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 19.6,
     avgTempJanuary: 6.2,
     characterTags: ["breton", "nature", "mer", "tranquille", "patrimoine"],
+    descriptionEn:
+      "Quimper is the heart of historic Brittany — Cornouaille capital, Celtic-Breton identity strong, calm pace, sea 30 minutes away, mid-sized scale, affordable. Best fit: Breton-culture seekers, retirees wanting quiet coastal access, families on moderate budget, slow-life lovers.",
+    seoTitleEn: "Quimper — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Quimper (Finistère, Bretagne): quality-of-life score 7.3/10. Historic Cornouaille capital, Celtic-Breton identity, calm, sea-adjacent.",
     scores: {
       global: 7.3,
       life: 7.6,
@@ -1112,6 +1172,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 25.8,
     avgTempJanuary: 5.2,
     characterTags: ["soleil", "Rhône", "abordable", "nature", "gastronomie"],
+    descriptionEn:
+      "Valence sits at the gateway between northern and southern France — the Provençal climate begins here. Affordable Drôme capital, dramatic Vercors mountains to the west, Rhône valley wines, 1h TGV to Lyon or Marseille. Best fit: gastronomes, mid-budget retirees, families seeking south-leaning climate without Mediterranean prices.",
+    seoTitleEn: "Valence — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Valence (Drôme, Auvergne-Rhône-Alpes): quality-of-life score 7.0/10. Gateway to southern France, affordable, gastronomic, Vercors at hand.",
     scores: {
       global: 7.0,
       life: 7.2,
@@ -1138,6 +1203,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 23.2,
     avgTempJanuary: 7.2,
     characterTags: ["basque", "mer", "culture", "gastronomie", "rugby"],
+    descriptionEn:
+      "Bayonne is the historic Basque capital — exceptional Basque-French food scene (jambon de Bayonne, chocolate), riverside old town, rugby fervour, the Atlantic 10 minutes away (Biarritz adjacent). Refined and quirky. Best fit: foodies, Basque-culture lovers, families seeking Atlantic-Basque lifestyle, rugby fans.",
+    seoTitleEn: "Bayonne — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Bayonne (Pyrénées-Atlantiques, Nouvelle-Aquitaine): quality-of-life score 7.8/10. Historic Basque capital, Atlantic-adjacent, gastronomic, rugby.",
     scores: {
       global: 7.8,
       life: 8.1,
@@ -1164,6 +1234,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 24.8,
     avgTempJanuary: 5.8,
     characterTags: ["soleil", "abordable", "calme", "gastronomie", "Sud-Ouest"],
+    descriptionEn:
+      "Montauban is a sunny Tarn-et-Garonne city — pink-brick architecture (sister-city to nearby Toulouse), affordable Southwest cuisine country, calm pace, Toulouse 40 minutes by train. Best fit: ultra-budget households, Southwest-food lovers, retirees, families wanting Toulouse access without the price.",
+    seoTitleEn: "Montauban — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Montauban (Tarn-et-Garonne, Occitanie): quality-of-life score 6.8/10. Sunny Southwest city, pink-brick architecture, affordable, near Toulouse.",
     scores: {
       global: 6.8,
       life: 6.9,
