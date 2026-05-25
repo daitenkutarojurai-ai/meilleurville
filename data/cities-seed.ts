@@ -4055,6 +4055,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 19.0,
     avgTempJanuary: 7.0,
     characterTags: ["télécoms", "Orange-R&D", "Côte-de-Granite-Rose", "Bretagne", "tech", "mer-sauvage"],
+    descriptionEn:
+      "Lannion is the north-Brittany telecoms tech hub — Orange R&D centre, Côte de Granit Rose (pink-granite coast) on the doorstep, wild Atlantic-Channel scenery, surprisingly strong tech jobs. Best fit: telecoms-and-tech professionals, families seeking nature-and-tech combination, remote workers wanting dramatic Breton coast.",
+    seoTitleEn: "Lannion — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Lannion (Côtes-d'Armor, Bretagne): quality-of-life score 7.3/10. Telecoms tech hub, Orange R&D, Côte de Granit Rose, wild Breton coast.",
     scores: {
       global: 7.3,
       life: 7.8,
@@ -4081,6 +4086,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4.8,
     characterTags: ["capitale", "culture", "gastronomie", "mode", "tourisme", "métropole"],
+    descriptionEn:
+      "Paris is France's capital — 20 arrondissements, the densest French career and cultural market, museums, restaurants and metropolitan amenities at scale. Expensive but cheaper than London for equivalent neighborhoods. Best fit: career-driven professionals, international expats, culture-and-restaurant lovers, anyone wanting Europe-major-capital living.",
+    seoTitleEn: "Paris — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Paris (Île-de-France): quality-of-life score 8.0/10. French capital, 20 arrondissements, densest career market, world-class culture, metropolitan.",
     scores: {
       global: 8.0,
       life: 7.5,
@@ -4107,6 +4117,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 19.8,
     avgTempJanuary: 4.5,
     characterTags: ["château", "patrimoine-UNESCO", "bourgeois", "calme", "famille", "royal"],
+    descriptionEn:
+      "Versailles is the Yvelines royal-château city — UNESCO château, refined bourgeois centre, excellent public schools (Lycée Hoche, Notre-Dame), 30-40 minutes to central Paris by RER. Premium family-expat heartland. Best fit: corporate-package families, refined retirees, international-school families.",
+    seoTitleEn: "Versailles — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Versailles (Yvelines, Île-de-France): quality-of-life score 8.0/10. Royal château UNESCO city, refined, family-expat heartland, top public schools.",
     scores: {
       global: 8.0,
       life: 8.0,
@@ -4133,6 +4148,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4.8,
     characterTags: ["résidentiel", "cadres", "dynamique", "banlieue-chic", "famille"],
+    descriptionEn:
+      "Boulogne-Billancourt is the largest Paris suburb — directly south-west of Paris, riverside, corporate-dense (Renault, TF1, Carrefour HQs), trendy, family-friendly. Apartment €8,500-12,000/m². Best fit: corporate professionals working in southwest Paris, families seeking dynamic upscale suburb.",
+    seoTitleEn: "Boulogne-Billancourt — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Boulogne-Billancourt (Hauts-de-Seine, Île-de-France): quality-of-life score 8.2/10. Largest Paris suburb, corporate HQs, riverside, trendy.",
     scores: {
       global: 8.2,
       life: 8.5,
@@ -4159,6 +4179,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4.8,
     characterTags: ["artiste", "populaire", "multiculturel", "branché", "abordable", "créatif"],
+    descriptionEn:
+      "Montreuil is the east-of-Paris creative suburb — artists' studios, multicultural, hipster restaurants, dramatically cheaper than central Paris, metro line 9 direct. Best fit: artists, creatives, young families seeking diverse alternative Paris-adjacent living at moderate budget.",
+    seoTitleEn: "Montreuil — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Montreuil (Seine-Saint-Denis, Île-de-France): quality-of-life score 7.2/10. East-Paris creative suburb, artists, multicultural, hipster.",
     scores: {
       global: 7.2,
       life: 7.0,
@@ -4185,6 +4210,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4.8,
     characterTags: ["château", "bois-de-Vincennes", "famille", "résidentiel", "bourgeois", "calme"],
+    descriptionEn:
+      "Vincennes is the east-Paris bourgeois adjacent suburb — Château de Vincennes, Bois de Vincennes (Paris's largest park) on the doorstep, metro line 1 direct to central Paris in 10 minutes. Refined, family-friendly. Best fit: families wanting Paris adjacency with park-and-château living, corporate professionals.",
+    seoTitleEn: "Vincennes — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Vincennes (Val-de-Marne, Île-de-France): quality-of-life score 8.3/10. East-Paris adjacent, Château de Vincennes, Bois park, metro direct.",
     scores: {
       global: 8.3,
       life: 8.5,
@@ -4211,6 +4241,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.0,
     avgTempJanuary: 4.5,
     characterTags: ["ville-nouvelle", "jeune", "étudiant", "abordable", "dynamique", "Oise"],
+    descriptionEn:
+      "Cergy is the new-town northwest of Paris — built in the 1970s as a planned satellite city, ESSEC business school, large student population, Oise valley, RER A direct to central Paris. Affordable for Île-de-France. Best fit: ESSEC students, young families seeking cheap Paris-region base, suburb-modernist enthusiasts.",
+    seoTitleEn: "Cergy — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Cergy (Val-d'Oise, Île-de-France): quality-of-life score 6.8/10. Planned new-town, ESSEC school, student population, RER A to Paris, affordable.",
     scores: {
       global: 6.8,
       life: 6.5,
@@ -4237,6 +4272,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4.8,
     characterTags: ["Stade-de-France", "basilique", "populaire", "multiculturel", "réhabilitation", "Grand-Paris"],
+    descriptionEn:
+      "Saint-Denis is the major north-Paris suburb — Stade de France, the royal Saint-Denis Basilica (burial site of French kings), strongly multicultural, undergoing major Grand-Paris-Express regeneration. Mixed character. Best fit: ultra-budget Paris-region households, multicultural-life embracers, Grand-Paris transit investors.",
+    seoTitleEn: "Saint-Denis — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Saint-Denis (Seine-Saint-Denis, Île-de-France): quality-of-life score 6.5/10. North-Paris major suburb, Stade de France, royal Basilica, multicultural.",
     scores: {
       global: 6.5,
       life: 6.0,
@@ -4263,6 +4303,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4.8,
     characterTags: ["dense", "bourgeois", "dynamique", "banlieue-chic", "affaires", "La-Défense-proche"],
+    descriptionEn:
+      "Levallois-Perret is the dense northwest-Paris suburb — wedged between Paris 17th and La Défense business district, very dense, refined bourgeois character, metro line 3 direct. Best fit: La Défense corporate professionals, families wanting Paris-adjacency with safety and amenities, young professionals.",
+    seoTitleEn: "Levallois-Perret — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Levallois-Perret (Hauts-de-Seine, Île-de-France): quality-of-life score 8.0/10. Dense northwest Paris suburb, La Défense adjacent, bourgeois.",
     scores: {
       global: 8.0,
       life: 8.0,
@@ -4289,6 +4334,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4.8,
     characterTags: ["numérique", "Canal+", "tech", "résidentiel", "dynamique", "innovation"],
+    descriptionEn:
+      "Issy-les-Moulineaux is the Paris southwest tech-corporate suburb — Canal+, Bouygues, Microsoft France, Cisco headquarters, metro line 12 direct to central Paris. Modern, family-friendly. Best fit: tech and media professionals, families balancing corporate access with refined Île-de-France suburb living.",
+    seoTitleEn: "Issy-les-Moulineaux — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Issy-les-Moulineaux (Hauts-de-Seine, Île-de-France): quality-of-life score 8.3/10. Southwest-Paris tech-corporate suburb, Canal+, Microsoft.",
     scores: {
       global: 8.3,
       life: 8.5,
@@ -4315,6 +4365,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4.8,
     characterTags: ["prestige", "bourgeois", "calme", "Bois-de-Boulogne", "famille", "luxe"],
+    descriptionEn:
+      "Neuilly-sur-Seine is Paris's most prestigious adjacent suburb — directly west of the 17th arrondissement, embassy and corporate density, Bois de Boulogne access, international schools nearby. Apartment €11,000-15,000/m². Best fit: corporate expat families with international school requirements, luxury households.",
+    seoTitleEn: "Neuilly-sur-Seine — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Neuilly-sur-Seine (Hauts-de-Seine, Île-de-France): quality-of-life score 8.5/10. Paris's most prestigious adjacent suburb, expat-family heartland.",
     scores: {
       global: 8.5,
       life: 8.5,
@@ -4341,6 +4396,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.0,
     avgTempJanuary: 4.0,
     characterTags: ["château", "forêt", "patrimoine", "INSEAD", "calme", "nature-exceptionnelle"],
+    descriptionEn:
+      "Fontainebleau is the royal-château forest city — UNESCO Château de Fontainebleau, INSEAD business school, the world-famous Fontainebleau forest with iconic bouldering, 45 minutes by train to central Paris. Refined, family-friendly. Best fit: INSEAD families and professors, climbers and outdoor lovers, Paris-region executives seeking forest-and-château living.",
+    seoTitleEn: "Fontainebleau — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Fontainebleau (Seine-et-Marne, Île-de-France): quality-of-life score 7.8/10. UNESCO château, INSEAD, world-class bouldering forest, refined.",
     scores: {
       global: 7.8,
       life: 8.5,
@@ -4367,6 +4427,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 19.8,
     avgTempJanuary: 4.5,
     characterTags: ["château-royal", "forêt", "famille", "résidentiel", "RER-A", "prestige"],
+    descriptionEn:
+      "Saint-Germain-en-Laye is the Yvelines royal-forest expat heartland — the Lycée International (one of France's top public international schools), royal château, vast forest, RER A direct to central Paris in 30 minutes. Best fit: international corporate families, refined retirees, expat-school families.",
+    seoTitleEn: "Saint-Germain-en-Laye — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Saint-Germain-en-Laye (Yvelines, Île-de-France): quality-of-life score 8.2/10. Yvelines expat heartland, Lycée International, royal château, RER A.",
     scores: {
       global: 8.2,
       life: 8.5,
@@ -4393,6 +4458,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 26.5,
     avgTempJanuary: 10.5,
     characterTags: ["port", "Corse", "authentique", "commerce", "patrimoine", "Méditerranée"],
+    descriptionEn:
+      "Bastia is the north-Corsican port — Corsica's second city, working-class authentic character, the main ferry hub to mainland (Marseille, Nice, Toulon, Italian Riviera), cheaper than Ajaccio. Best fit: budget-aware Corsican expats, authenticity-seekers, retirees prepared for island logistics, mainland-Corsica frequent travellers.",
+    seoTitleEn: "Bastia — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Bastia (Haute-Corse, Corse): quality-of-life score 7.2/10. North-Corsican port, ferry hub to mainland, authentic, cheaper than Ajaccio.",
     scores: {
       global: 7.2,
       life: 7.5,
@@ -4419,6 +4489,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 4.8,
     characterTags: ["artiste", "créatif", "canal-de-l-Ourcq", "gentrification", "Hermès", "branché"],
+    descriptionEn:
+      "Pantin is the rapidly-gentrifying north-east Paris suburb — Canal de l'Ourcq, Hermès workshop and Chanel headquarters drawing creative-luxury employment, BETC and other agencies relocating from central Paris. Metro line 5 direct. Best fit: creative-industry professionals, young expat families seeking budget-Paris-adjacency, gentrification investors.",
+    seoTitleEn: "Pantin — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Pantin (Seine-Saint-Denis, Île-de-France): quality-of-life score 7.5/10. Rapidly gentrifying north-east Paris suburb, Hermès, Chanel, creative.",
     scores: {
       global: 7.5,
       life: 7.5,
