@@ -434,6 +434,12 @@ function citySubSection(): MetadataRoute.Sitemap {
       changeFrequency: "monthly" as const,
       priority: 0.7,
     },
+    {
+      url: `${BASE_URL}/villes/${city.slug}/agenda`,
+      lastModified: CITY_DATA_UPDATED,
+      changeFrequency: "monthly" as const,
+      priority: 0.65,
+    },
   ]);
 }
 
@@ -738,7 +744,7 @@ function enCitySubSection(): MetadataRoute.Sitemap {
     "remote-work", "tax", "honest-review", "climate-2040", "overview",
     "get-settled", "housing", "fingerprint", "profiles", "vibe",
     "internet-quality", "seasons", "neighbourhoods", "synthesis",
-    "questions",
+    "questions", "calendar",
   ] as const;
   return CITIES_SEED.flatMap((c) =>
     subs.map((sub) => ({
