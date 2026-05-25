@@ -96,6 +96,7 @@ export function CarteClient() {
   const [scoreKey, setScoreKey] = useState<ScoreKey>("global");
   const [hover, setHover] = useState<HoverState | null>(null);
   const [mounted, setMounted] = useState(false);
+  const [is3D, setIs3D] = useState(false);
   const mapRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
@@ -126,7 +127,11 @@ export function CarteClient() {
     () =>
       [...CITIES_SEED]
         .filter((c) => isMetropolitan(c.longitude, c.latitude))
-        .sort((a, b) => a.scores[scoreKey] - b.scores[scoreKey])
+        .sort((a, b) =>
+          is3D
+            ? a.latitude - b.latitude   // 3D: south first (further from viewer)
+            : a.scores[scoreKey] - b.scores[scoreKey]   // 2D: low scores drawn first (below)
+        )
         .map((c, i) => {
           const [x, y] = project(c.longitude, c.latitude);
           return {
@@ -141,7 +146,7 @@ export function CarteClient() {
             delay: i * 8,
           };
         }),
-    [scoreKey]
+    [scoreKey, is3D]
   );
 
   const hovered = hover ? CITIES_SEED.find((c) => c.slug === hover.slug) : null;
@@ -207,17 +212,52 @@ export function CarteClient() {
               <div className="text-[11px] uppercase tracking-widest text-[#84CC16]/80 font-semibold">
                 {currentLabel} · {sorted.length} villes
               </div>
-              <div
-                key={scoreKey}
-                className="inline-flex items-center gap-1.5 rounded-full bg-[#84CC16]/15 px-2.5 py-1 text-[10px] font-bold uppercase tracking-widest text-[#BEF264] ring-1 ring-[#84CC16]/30"
-                style={{ animation: "carte-axis-pop 0.45s cubic-bezier(.34,1.56,.64,1) both" }}
-              >
-                {SCORE_OPTIONS.find((o) => o.key === scoreKey)?.emoji}{" "}
-                <span>Coloriage : {currentLabel}</span>
+              <div className="flex items-center gap-2">
+                <button
+                  onClick={() => setIs3D((v) => !v)}
+                  className={
+                    "rounded-full px-3 py-1 text-[10px] font-bold uppercase tracking-widest transition-all border " +
+                    (is3D
+                      ? "bg-[#84CC16]/25 text-[#BEF264] border-[#84CC16]/50 ring-1 ring-[#84CC16]/30"
+                      : "bg-white/5 text-[#84CC16]/70 border-[#84CC16]/20 hover:border-[#84CC16]/50")
+                  }
+                  aria-label="Basculer vue 3D"
+                >
+                  {is3D ? "▲ 3D" : "◉ 2D"}
+                </button>
+                <div
+                  key={scoreKey}
+                  className="inline-flex items-center gap-1.5 rounded-full bg-[#84CC16]/15 px-2.5 py-1 text-[10px] font-bold uppercase tracking-widest text-[#BEF264] ring-1 ring-[#84CC16]/30"
+                  style={{ animation: "carte-axis-pop 0.45s cubic-bezier(.34,1.56,.64,1) both" }}
+                >
+                  {SCORE_OPTIONS.find((o) => o.key === scoreKey)?.emoji}{" "}
+                  <span>Coloriage : {currentLabel}</span>
+                </div>
               </div>
             </div>
 
-            <svg viewBox={`0 0 ${W} ${H}`} className="w-full h-auto" role="img" aria-label="Carte de France des villes">
+            <div
+              style={
+                is3D
+                  ? { perspective: "900px", perspectiveOrigin: "50% 5%" }
+                  : {}
+              }
+            >
+            <svg
+              viewBox={`0 0 ${W} ${H}`}
+              className="w-full h-auto"
+              role="img"
+              aria-label="Carte de France des villes"
+              style={
+                is3D
+                  ? {
+                      transform: "rotateX(-52deg)",
+                      transformOrigin: "50% 55%",
+                      transition: "transform 0.55s cubic-bezier(.4,0,.2,1)",
+                    }
+                  : { transition: "transform 0.55s cubic-bezier(.4,0,.2,1)" }
+              }
+            >
               <defs>
                 <radialGradient id="cFranceFill" cx="50%" cy="40%" r="60%">
                   <stop offset="0%" stopColor="#34D399" stopOpacity="0.18" />
@@ -360,7 +400,7 @@ export function CarteClient() {
                   </g>
                 ))}
 
-              {/* Clickable dots — fill + radius transition on filter change */}
+              {/* Clickable city marks */}
               <style>{`
                 @keyframes carte-axis-pop {
                   0% { transform: scale(0.85); opacity: 0; }
@@ -368,31 +408,87 @@ export function CarteClient() {
                   100% { transform: scale(1); opacity: 1; }
                 }
                 .carte-dot circle { transition: fill 0.35s ease-out, r 0.45s cubic-bezier(.34,1.56,.64,1); }
+                .carte-bar rect { transition: fill 0.35s ease-out; }
               `}</style>
-              {dots.map((d) => (
-                <a
-                  key={d.slug}
-                  href={`/villes/${d.slug}`}
-                  aria-label={`Voir ${d.name}`}
-                  className="cursor-pointer carte-dot"
-                  style={{
-                    opacity: mounted ? 1 : 0,
-                    transform: mounted ? "scale(1)" : "scale(0)",
-                    transformOrigin: `${d.x}px ${d.y}px`,
-                    transformBox: "view-box",
-                    transition: `opacity 0.4s ease ${d.delay}ms, transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) ${d.delay}ms`,
-                  }}
-                  onMouseEnter={() => setHover({ slug: d.slug, x: d.x, y: d.y })}
-                  onMouseLeave={() => setHover(null)}
-                >
-                  <circle cx={d.x} cy={d.y} r={d.r * 2.6} fill={d.color} opacity="0.18" filter="url(#cDotGlow)" />
-                  <circle cx={d.x} cy={d.y} r={d.r * 1.6} fill={d.color} opacity="0.35" />
-                  <circle cx={d.x} cy={d.y} r={d.r} fill={d.color} stroke="white" strokeWidth="1" />
-                </a>
-              ))}
 
-              {/* Hover label */}
-              {hover && hovered && (
+              {is3D
+                ? /* 3D column bars */
+                  dots.map((d) => {
+                    const barH = Math.max(8, d.score * 32);
+                    const barW = Math.max(7, d.r * 2.2);
+                    return (
+                      <a
+                        key={d.slug}
+                        href={`/villes/${d.slug}`}
+                        aria-label={`Voir ${d.name}`}
+                        className="cursor-pointer carte-bar"
+                        style={{
+                          opacity: mounted ? 1 : 0,
+                          transition: `opacity 0.4s ease ${d.delay}ms`,
+                        }}
+                        onMouseEnter={() => setHover({ slug: d.slug, x: d.x, y: d.y })}
+                        onMouseLeave={() => setHover(null)}
+                      >
+                        {/* Ground shadow */}
+                        <ellipse cx={d.x} cy={d.y + 2} rx={barW * 0.75} ry={barW * 0.28} fill="#000" opacity="0.35" />
+                        {/* Column body */}
+                        <rect
+                          x={d.x - barW / 2}
+                          y={d.y - barH}
+                          width={barW}
+                          height={barH}
+                          fill={d.color}
+                          opacity="0.82"
+                          rx="2"
+                        />
+                        {/* Left dark face (depth illusion) */}
+                        <rect
+                          x={d.x - barW / 2}
+                          y={d.y - barH}
+                          width={barW * 0.18}
+                          height={barH}
+                          fill="#000"
+                          opacity="0.22"
+                          rx="2"
+                        />
+                        {/* Top cap highlight */}
+                        <rect
+                          x={d.x - barW / 2}
+                          y={d.y - barH}
+                          width={barW}
+                          height={Math.max(3, barH * 0.12)}
+                          fill="white"
+                          opacity="0.28"
+                          rx="2"
+                        />
+                      </a>
+                    );
+                  })
+                : /* 2D dots (original) */
+                  dots.map((d) => (
+                    <a
+                      key={d.slug}
+                      href={`/villes/${d.slug}`}
+                      aria-label={`Voir ${d.name}`}
+                      className="cursor-pointer carte-dot"
+                      style={{
+                        opacity: mounted ? 1 : 0,
+                        transform: mounted ? "scale(1)" : "scale(0)",
+                        transformOrigin: `${d.x}px ${d.y}px`,
+                        transformBox: "view-box",
+                        transition: `opacity 0.4s ease ${d.delay}ms, transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) ${d.delay}ms`,
+                      }}
+                      onMouseEnter={() => setHover({ slug: d.slug, x: d.x, y: d.y })}
+                      onMouseLeave={() => setHover(null)}
+                    >
+                      <circle cx={d.x} cy={d.y} r={d.r * 2.6} fill={d.color} opacity="0.18" filter="url(#cDotGlow)" />
+                      <circle cx={d.x} cy={d.y} r={d.r * 1.6} fill={d.color} opacity="0.35" />
+                      <circle cx={d.x} cy={d.y} r={d.r} fill={d.color} stroke="white" strokeWidth="1" />
+                    </a>
+                  ))}
+
+              {/* Hover label (2D only — 3D uses side panel) */}
+              {!is3D && hover && hovered && (
                 <g pointerEvents="none">
                   <circle cx={hover.x} cy={hover.y} r={14} fill="none" stroke={scoreColor(hovered.scores[scoreKey])} strokeWidth="2" opacity="0.7">
                     <animate attributeName="r" values="12;20;12" dur="1.4s" repeatCount="indefinite" />
@@ -411,6 +507,7 @@ export function CarteClient() {
                 </g>
               )}
             </svg>
+            </div>{/* end perspective wrapper */}
           </div>
 
           {/* Legend */}
@@ -429,7 +526,11 @@ export function CarteClient() {
                 <span className="text-[#C4D5C0] font-mono-data">{s.l}</span>
               </span>
             ))}
-            <span className="ml-auto text-[#A8C4A8]">Cliquez sur un point pour ouvrir la fiche</span>
+            <span className="ml-auto text-[#A8C4A8]">
+              {is3D
+                ? "Vue 3D — hauteur = score · cliquez pour ouvrir la fiche"
+                : "Cliquez sur un point pour ouvrir la fiche"}
+            </span>
           </div>
 
           <DromStrip />
