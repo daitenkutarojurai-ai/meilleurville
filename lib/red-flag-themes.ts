@@ -26,6 +26,11 @@ import { computePublicServices } from "@/lib/public-services";
 import { housingTensionFor } from "@/lib/housing-tension";
 import { sunshineDays } from "@/lib/utils";
 
+// Tag patterns that signal a strong seasonal/touristic vocation. Matched on
+// the joined character-tags string (lowercased) of each city seed entry.
+const SEASONAL_TAGS_REGEX = /balnéaire|station-balnéaire|stations de ski|\bski\b|tourisme|thermalisme/i;
+const STRONG_STATION_REGEX = /station-balnéaire|stations de ski|thermalisme/i;
+
 type SeedCity = (typeof CITIES_SEED)[number];
 
 export interface RedFlagRow {
@@ -626,6 +631,69 @@ function rankLogementIntrouvable(): RedFlagRow[] {
   return rows.sort((a, b) => b.severity - a.severity).slice(0, 12);
 }
 
+// --- THEME 18 — Mono-touristique / saison morte ---
+// Cible : villes ≤ 80 000 hab. dont les character-tags signalent une vocation
+// saisonnière (balnéaire, ski, thermalisme, tourisme) ET dont le mix sectoriel
+// est faiblement diversifié (sectorMix.score ≥ 5,5 — proxy aligné sur les
+// `MONO_TOURISM_DEPTS` de lib/employment-market). Severity amplifiée par
+// l'intensité de la dépendance (tags « station-balnéaire » / « stations de
+// ski » / « thermalisme » = +1,5), par la petite taille (< 30 000 hab. =
+// +1,0, car le tissu privé non-touristique n'a pas la masse critique) et
+// par un score global élevé (≥ 6,5 = +0,5, la « belle façade » qui cache
+// une saisonnalité brutale).
+function rankMonoTouristique(): RedFlagRow[] {
+  const rows: RedFlagRow[] = [];
+  for (const city of CITIES_SEED) {
+    const tags = (city.characterTags ?? []).join(" ");
+    if (!SEASONAL_TAGS_REGEX.test(tags)) continue;
+    const pop = city.population ?? 0;
+    if (pop > 80_000) continue; // exclut Nice, Cannes, Antibes : tourisme dilué dans une vraie économie urbaine
+
+    const e = computeEmploymentMarket(city);
+    // Une ville est éligible si :
+    //   (a) le sectorMix INSEE la flagge déjà comme mono-touristique (≥ 5,5/10)
+    //   OU
+    //   (b) ses character-tags affichent explicitement une vocation forte de
+    //       station (station-balnéaire / stations de ski / thermalisme).
+    // Sans (b), un département non tagué mono-tourism (ex. Savoie, Vosges,
+    // Charente-Maritime) ne pourrait pas remonter même quand la commune est
+    // évidemment saisonnière. C'est l'astuce qui rend le classement honnête.
+    const sectorFlag = e.sectorMix.score >= 5.5;
+    const stationFlag = STRONG_STATION_REGEX.test(tags);
+    if (!sectorFlag && !stationFlag) continue;
+
+    // Severity = max du score sectorMix (déjà 0-10, 10 = pire) et d'un proxy
+    // dérivé du tag, pour ne pas sous-coter une station alpine qui ne tombe
+    // pas dans MONO_TOURISM_DEPTS.
+    const tagBase = stationFlag ? 6.8 : /balnéaire|\bski\b/i.test(tags) ? 6 : 0;
+    let severity = Math.max(e.sectorMix.score, tagBase);
+
+    if (stationFlag) severity += 1.5;
+    else if (/balnéaire|\bski\b/i.test(tags)) severity += 1.0;
+    if (pop > 0 && pop < 30_000) severity += 1.0;
+    if (city.scores.global >= 6.5) severity += 0.5;
+    severity = Math.min(10, severity);
+    if (severity < 6) continue;
+
+    const popLabel = pop > 0 ? `${pop.toLocaleString("fr-FR")} hab.` : "petite commune";
+    const flavour = /thermalisme/i.test(tags)
+      ? "station thermale"
+      : /station-balnéaire/i.test(tags)
+        ? "station balnéaire"
+        : /stations de ski|\bski\b/i.test(tags)
+          ? "économie ski-dépendante"
+          : /balnéaire/i.test(tags)
+            ? "économie balnéaire"
+            : "tissu mono-touristique";
+    const sectorLabel = sectorFlag
+      ? `mix sectoriel ${e.sectorMix.score.toFixed(1)}/10`
+      : "tag station explicite";
+    const reason = `${flavour.charAt(0).toUpperCase() + flavour.slice(1)} · ${sectorLabel} · ${popLabel}`;
+    rows.push({ city, severity: Math.round(severity * 10) / 10, reason });
+  }
+  return rows.sort((a, b) => b.severity - a.severity).slice(0, 12);
+}
+
 export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-regrets-achat",
@@ -881,6 +949,21 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     methodology:
       "Severity = 50% facteur froid (5 °C en janvier → 0, -1 °C → 10) + 50% facteur grisaille (1 950 h de soleil/an → 0, 1 480 h → 10), + 1,2 de malus quand les deux facteurs dépassent 5/10 (hiver à la fois glacial et sombre). Sources : moyennes climatiques Météo-France 1991-2020 (température de janvier, durée d'insolation annuelle).",
     rank: rankHiverRude,
+  },
+  {
+    slug: "villes-mono-touristiques",
+    title: "Villes mono-touristiques — la saison morte qui plombe",
+    metaTitle: "Villes mono-touristiques 2026 — La saison morte qui plombe",
+    metaDescription:
+      "Classement 2026 des villes françaises au tissu mono-touristique : économie dépendante d'une saison, vie locale en sommeil hors-saison. Mix sectoriel INSEE.",
+    emoji: "🏖️",
+    intro:
+      "Sur la plaquette : carte postale, photo prise en août, terrasses pleines, plage à 800 m. Personne ne montre la même rue en février — vitrines aux volets baissés, restaurants fermés six mois sur douze, écoles sous-remplies, médecin parti à 60 km. Une économie dont la saison fait 80 % du chiffre d'affaires n'est pas un mode de vie : c'est un calendrier de chômage technique partagé par tout le bassin.",
+    reality:
+      "On classe les villes ≤ 80 000 habitants dont le score `sectorMix` (lib/employment-market) signale une faible diversification — typiquement les départements `Var`, `Alpes-Maritimes`, `Hautes-Alpes`, `Pyrénées-Orientales`, les deux Corses, et les stations balnéaires / ski / thermalisme isolées dans des territoires sinon ruraux. Le score base 7/10 du modèle « mono-tourism » est amplifié par un malus de petite taille (< 30 000 hab. : pas de tissu privé non-touristique pour compenser) et par un bonus quand la ville présente un score global élevé — la « belle façade » qui dissimule une économie sous perfusion saisonnière.",
+    methodology:
+      "Severity = score sectorMix + 1,5 si tag explicite station-balnéaire / stations de ski / thermalisme (sinon +1,0 pour tag balnéaire / ski) + 1,0 si population < 30 000 hab. + 0,5 si score global ≥ 6,5. Filtre : population > 0 et ≤ 80 000 hab., severity ≥ 6/10. Source : MONO_TOURISM_DEPTS (Insee — répartition de l'emploi par secteur 2024) + character-tags du seed propriétaire (vocations affichées).",
+    rank: rankMonoTouristique,
   },
 ];
 

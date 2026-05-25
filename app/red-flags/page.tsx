@@ -144,8 +144,8 @@ export default function RedFlagsPage() {
               l&apos;hiver, risques naturels (Géorisques), bruit cauchemar, manque d&apos;eau l&apos;été
               (Propluvia / BRGM), désert médical (DREES / CNOM / ARS), chômage élevé, cadre
               de vie tendu, coûts explosifs, désert de services publics, villes anti-vélo,
-              vieillissement critique, sécurité nocturne tendue, hivers rudes et logement
-              locatif introuvable.
+              vieillissement critique, sécurité nocturne tendue, hivers rudes, logement
+              locatif introuvable et économies mono-touristiques (saison morte).
             </p>
           </div>
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 auto-rows-fr">
