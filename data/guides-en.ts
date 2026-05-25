@@ -7275,6 +7275,202 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["aix-en-provence", "marseille", "toulon", "antibes", "menton", "perpignan"],
     tags: ["leaving nice 2026", "where to move from nice cote azur", "nice alternatives expat", "moving from cote azur", "best french cities ex nice"],
   },
+  {
+    slug: "french-inheritance-succession-law-expat-guide-2026",
+    title: "French Inheritance and Succession Law for Expats (2026)",
+    metaTitle: "French Inheritance Law 2026 — succession, forced heirship, wills, taxes for expats",
+    metaDesc: "How French succession law works for expats: forced heirship, EU Regulation 650/2012, wills, inheritance tax bands, and how to plan around French rules.",
+    category: "moving",
+    emoji: "⚖️",
+    readMinutes: 12,
+    publishedAt: "2026-05-25",
+    updatedAt: "2026-05-25",
+    intro: "French succession law is the single most blindsiding administrative reality for expats with assets in France. Unlike common-law countries (UK, US, Australia, Canada), France imposes forced heirship: you cannot fully disinherit your children, and the proportion you can freely give away (the quotité disponible) is fixed by law. Combine that with French inheritance tax rates that hit 60% between unrelated parties, and the difference between good and bad estate planning is enormous. This guide covers the rules every expat with French property or French residence needs to understand.",
+    sections: [
+      {
+        heading: "Forced heirship: the central rule",
+        body: "French law reserves a minimum share of an estate for the deceased's children — the réserve héréditaire. With one child, the child must receive at least 50% of the estate. With two children, two-thirds (split equally). With three or more children, three-quarters (split equally). The remaining portion is the quotité disponible — the share you can give to anyone (spouse, friend, charity, one favoured child). The surviving spouse has separate rights: in the absence of children, the spouse may inherit the full estate; with children, the spouse can choose between full ownership of one-quarter or life-usufruct of the entire estate. **Key implication**: a will leaving everything to your spouse is partly invalid in France if you have children. Children can demand their reserved share. This shocks Anglo-American expats who assumed common-law spousal freedom applies.",
+      },
+      {
+        heading: "EU Regulation 650/2012 — the planning lever",
+        body: "Since 2015, EU Regulation 650/2012 (Brussels IV) allows you to elect the law of your nationality to govern your succession, overriding French forced heirship. You make this election in your will. A British, American, Australian, or Canadian expat can elect English law (or California law, or Australian law) and bypass forced heirship entirely. **However**: the election does NOT change French inheritance tax. You still pay French succession tax at French rates on French-situs assets and (if French-resident) on worldwide assets. Brussels IV is also under increasing French legal challenge — recent French legislation has reinstated some forced-heirship protection where children are EU/EEA-resident. Get specialist advice. **Practical step**: have a notaire draft (or review) a French will that includes the Brussels IV election explicitly.",
+      },
+      {
+        heading: "French inheritance tax: the bands matter enormously",
+        body: "France taxes inheritance based on the relationship between deceased and beneficiary, not on the size of the estate. **Children**: €100,000 allowance per child per parent, then progressive rates from 5% to 45% (45% above €1.8M). **Spouse and PACS partner**: completely exempt from inheritance tax since 2007 (massive contrast to UK 40% above the nil-rate band). **Siblings**: €15,932 allowance, then 35-45%. **Nieces/nephews**: €7,967 allowance, 55% flat. **Unrelated parties (including unmarried partners not in PACS)**: €1,594 allowance, 60% flat. **The 60% rate is brutal**: leave €500,000 to an unmarried partner and over €299,000 disappears in tax. The lesson: PACS or marry your long-term partner if there's any inheritance planned in France. Step-children are treated as unrelated unless formally adopted.",
+      },
+      {
+        heading: "French-resident vs non-resident expats",
+        body: "**If you are French tax-resident at death**: French inheritance tax applies to worldwide assets. **If you are non-resident with French assets**: French inheritance tax applies only to French-situs assets (real estate in France, French bank accounts, French shares). **France has double-tax treaties** with the UK, US, Italy, Spain, Sweden, Germany, Belgium, Switzerland, Austria, Saudi Arabia, and a few others — these resolve double inheritance taxation. Notably no treaty exists with Australia, Canada, or most Asian/African countries — meaning double taxation is possible (your home country may also tax). **Six-year rule**: heirs who have been French tax-resident for at least 6 of the preceding 10 years pay French inheritance tax on worldwide inherited assets, regardless of where the deceased lived. This affects expat children who moved to France while parents remained abroad.",
+      },
+      {
+        heading: "Property structure: SCI and démembrement",
+        body: "**SCI (Société Civile Immobilière)**: holding French property through an SCI converts real estate (heavily forced-heirship-protected, with substantial transfer costs) into shares (more flexible, easier to transfer in stages, can be valued at a discount). SCI is the workhorse of French expat estate planning. Setup costs €1,500-3,000; ongoing accounting ~€800/year. **Démembrement (usufruit/nue-propriété split)**: parents transfer the bare ownership (nue-propriété) of property to children while retaining usufruct (right to use and receive income) for life. On parents' death, the children automatically receive full ownership with no inheritance tax on the usufruct portion. Tax authorities use a fixed scale (e.g., usufruit of a 60-year-old parent valued at 50% of the property). This is one of France's most popular wealth-transfer strategies. **Assurance-vie (life insurance wrapper)**: payments to beneficiaries are largely outside the succession (with caveats and €152,500 per beneficiary allowance for premiums paid before age 70). Critical tool for transferring wealth to non-children (partner, friend, distant relatives).",
+      },
+      {
+        heading: "Practical estate planning checklist for expats",
+        body: "1. **Draft (or update) a French will via a French notaire.** Cost €300-1,000. A French will is recognised, registered with the Fichier Central des Dispositions de Dernières Volontés, and unambiguous on French assets. 2. **Include the Brussels IV election** if you want your home-country law to govern (subject to recent French restrictions on children resident in EU/EEA). 3. **Marry or PACS your long-term partner** if you want spousal inheritance-tax exemption (60% otherwise). 4. **Consider SCI** for shared property ownership, particularly with children or unmarried partner. 5. **Use assurance-vie** to transfer to non-spouse beneficiaries with favourable tax treatment. 6. **Map your assets by jurisdiction**: French-situs assets always face French rules; foreign assets may or may not. 7. **Consult a notaire AND an avocat fiscaliste** — succession law and tax law overlap in France but require different specialists. Pure UK/US estate planning advice does not work in France. 8. **Update your will every 5 years** or after major life events (marriage, divorce, additional children, change of residency).",
+      },
+    ],
+    relatedCities: ["paris", "nice", "bordeaux", "lyon", "marseille"],
+    tags: ["french inheritance law expat 2026", "succession france expat", "brussels IV election", "french inheritance tax expat", "forced heirship france"],
+  },
+  {
+    slug: "insurance-france-expat-guide-mutuelle-home-car-2026",
+    title: "Insurance in France for Expats: Mutuelle, Home, Car (2026)",
+    metaTitle: "France Insurance Expat 2026 — mutuelle complementaire, home, car insurance guide",
+    metaDesc: "Complete expat guide to French insurance: top-up mutuelle health, home (assurance habitation), car, and the small print that catches foreigners.",
+    category: "moving",
+    emoji: "🛡️",
+    readMinutes: 10,
+    publishedAt: "2026-05-25",
+    updatedAt: "2026-05-25",
+    intro: "Insurance in France works on a tiered logic that takes Anglo expats a while to absorb. Statutory health insurance (Sécurité Sociale) covers roughly 70% of most costs; you top it up with a mutuelle. Home insurance is legally mandatory for tenants. Car insurance is mandatory and bonus-malus (claims history) follows you for life. This guide breaks down the three main insurance categories expats deal with monthly, the price brackets, the catches, and which providers actually work well with English-speaking expats.",
+    sections: [
+      {
+        heading: "Mutuelle (complementary health insurance) — the essential top-up",
+        body: "France's statutory health insurance (Assurance Maladie via CPAM) covers 60-70% of GP visits, 70% of specialist visits, 80% of hospital stays, and varying percentages of dental and optical. The remaining gap is the ticket modérateur — your portion. A mutuelle (or complémentaire santé) covers that gap. **For employees**: your employer must provide and co-pay (typically 50%) a basic mutuelle. You can keep it, top it up, or refuse it in narrow cases. **For self-employed, retired, or unemployed**: you choose and pay 100% yourself. Costs €40-120/month for an individual; €100-250/month for a family. **Coverage tiers to look for**: hospitalisation (especially private rooms), dental (very weak Séc Soc coverage — important for orthodontics, crowns, implants), optical (lenses and frames), audiology, alternative medicine (osteopathy, psychology — increasingly covered). **Good providers for expats**: Allianz, AXA, Henner (specialist expat plans, English support), April International (expat international plans), Harmonie Mutuelle, MGEN (teachers/public sector), Pro BTP. Henner and April are notably English-friendly.",
+      },
+      {
+        heading: "Assurance habitation (home insurance) — legally mandatory for tenants",
+        body: "**Tenants must have home insurance** by law (Loi Alur). The landlord requires proof annually. **Owners**: not legally mandatory for stand-alone houses but practically essential; mandatory for apartments in co-ownership buildings (copropriété). **Standard policy includes**: fire, water damage, theft, broken windows, civil liability (responsabilité civile — covers damage you accidentally cause to others), natural disasters (catastrophes naturelles, automatic). **Costs**: €120-250/year for a 2-bedroom city apartment; €300-600/year for a 4-bedroom suburban house; €600-1,500/year for a coastal villa or chateau. **Key catches**: 1) Coverage of personal belongings (objets de valeur) has limits — declare jewellery, art, electronics. 2) Theft coverage requires proof of forced entry; insurers reject claims if there's no evidence (broken lock, smashed window). 3) Water damage is the most-claimed risk; check coverage for both burst pipes (yours) and damage caused by upstairs neighbour's pipes. 4) Civil liability for children matters more in France (your child injures a classmate at school — your insurance pays). **Top providers**: MAIF (member-owned, expat-friendly), MAAF, GMF, AXA, Allianz, Direct Assurance (online, cheaper), Luko (digital-first, English-friendly).",
+      },
+      {
+        heading: "Car insurance — bonus-malus and the foreign-licence problem",
+        body: "**Mandatory minimum**: au tiers (third-party liability). Most drivers take au tiers étendu (third-party plus theft and fire) or tous risques (comprehensive). **Costs vary enormously** by driver profile: young driver (under 25, first French licence) €1,500-3,000/year tous risques; experienced driver with clean record €400-900/year tous risques; experienced with comprehensive coverage on premium car €1,000-2,000/year. **Bonus-malus system**: starts at coefficient 1.00; each claim-free year multiplies by 0.95 (down to 0.50 minimum after 13 years); each at-fault claim multiplies by 1.25 (up to 3.50). The bonus-malus follows you and is portable between French insurers. **The expat catch**: when arriving from abroad, French insurers will not recognise your foreign no-claims record automatically. Many will start you at coefficient 1.00 (no bonus). Some (MAIF, MACIF) will accept a translated 'attestation de bonus-malus' from your previous insurer and grant partial bonus. **Strategy**: get a letter from your previous insurer detailing years claim-free, translate, and shop providers. **Top providers**: MAIF, MACIF, Matmut, GMF, AXA, Allianz, Direct Assurance, ECA Assurances. Direct Assurance and Lovys are digital, often cheapest. MAIF is widely considered the best customer experience.",
+      },
+      {
+        heading: "Other insurances you may need",
+        body: "**Prêt immobilier insurance (mortgage insurance)**: mandatory when you take a French mortgage. Covers death, disability, sometimes loss of job. Cost: 0.20-0.45% of the loan annually. Since 2022 (Loi Lemoine), you can change provider anytime — major saving opportunity for healthy borrowers. **Garantie décennale (10-year construction guarantee)**: required for new builds and major renovations. Builder responsibility. As owner you receive an attestation. **Mutuelle santé internationale**: if you split time between France and another country, look at Cigna, Bupa, Allianz Worldwide, GeoBlue. Costs €150-500/month/person but covers global care. **Pet insurance**: relatively new in France. SantéVet, Bulle Bleue, Assur O'Poil. Useful for purebreds with known health risks. €15-50/month. **Cyber/identity insurance**: bundled increasingly with home insurance. Worth checking if not duplicated. **Dependency insurance (assurance dépendance)**: pays a lump-sum/monthly amount if you become dependent in old age. AG2R La Mondiale, CNP, AGIRC-ARRCO. Sensible for retirees without family support; expensive (€30-100/month from age 60).",
+      },
+      {
+        heading: "Practical insurance setup checklist for new arrivals",
+        body: "1. **Health**: register with CPAM first (this is free statutory cover). Then choose a mutuelle. If employed, take your employer's plan unless you have better via spouse. If freelance/expat, look at Henner, April International, MAIF for expat-friendly options. 2. **Home**: arrange assurance habitation before signing the lease — landlord requires proof at signing. Online providers (Direct Assurance, Luko) deliver attestations in 30 minutes. 3. **Car**: if you brought a car from abroad, get insurance arranged before driving. Bring translated no-claims certificate. Compare with comparators (LeLynx.fr, Assurland.com) but verify the price-quoted matches the final bid (many policies have hidden underwriting steps). 4. **Avoid stacking**: many expats end up with multiple overlapping insurances (Anglo travel insurance, French mutuelle, mortgage insurance, credit card insurance). Audit annually. 5. **Read the franchise (excess)** carefully — a low premium with €800 excess is often worse than a higher premium with €150 excess. 6. **Keep translated copies** of all important policy documents — French claims processes are paper-heavy.",
+      },
+    ],
+    relatedCities: ["paris", "lyon", "marseille", "bordeaux", "toulouse"],
+    tags: ["france insurance expat 2026", "mutuelle expat guide", "assurance habitation expat", "car insurance france expat", "expat insurance france"],
+  },
+  {
+    slug: "living-in-corsica-expat-guide-2026",
+    title: "Living in Corsica as an Expat: The Honest 2026 Guide",
+    metaTitle: "Living in Corsica 2026 — expat guide to Ajaccio, Bastia, Porto-Vecchio, costs, realities",
+    metaDesc: "Living in Corsica as an expat in 2026: cost of living, where to settle (Ajaccio, Bastia, Porto-Vecchio), pros, cons, what no one tells you about island life.",
+    category: "lifestyle",
+    emoji: "🏝️",
+    readMinutes: 11,
+    publishedAt: "2026-05-25",
+    updatedAt: "2026-05-25",
+    intro: "Corsica is geographically French, culturally distinctive, and operationally an island. It is one of the most beautiful regions of France — a dramatic Mediterranean coastline meeting an almost-Alpine interior — but moving there full-time is a different proposition from holidaying. Expats who succeed in Corsica accept that mainland services, supply chains, and rhythms work differently here. This guide covers where to settle, what it actually costs, the seasonal extremes (3 million tourists vs 340,000 residents), and what mainland-French and foreign expats discover only after they arrive.",
+    sections: [
+      {
+        heading: "The geography: two cities, several worlds",
+        body: "**Ajaccio** (south-west, Haute-Corse): the largest city (~70,000), Napoleonic capital, more touristic, broader services, the main airport hub. Pleasant urban Mediterranean scale, walkable, more amenities than the rest of the island combined. **Bastia** (north-east, Haute-Corse): the second city (~45,000), more authentic, less polished, the main port for ferries to/from mainland, working-class character, lower prices than Ajaccio. **Porto-Vecchio and the south coast** (Corse-du-Sud): luxury Mediterranean — beaches, marinas, summer crowds. Very expensive, beautiful, much quieter off-season. **Calvi, L'Île-Rousse, Balagne** (north-west): another premium tourist zone, quieter and more refined than the south, English/expat presence higher here. **The interior (Corte, Sartène, Zonza, Castagniccia)**: dramatic mountain Corsica, traditional villages, very quiet, cheap property, isolating in winter. Most expats settle in or near the four main cities or the Balagne/south-coast tourist zones.",
+      },
+      {
+        heading: "Cost of living: not as cheap as island stereotypes suggest",
+        body: "**Property**: prices vary widely. Ajaccio and Bastia city centres €3,500-5,500/m² for apartments, slightly below mainland equivalents. Coastal hotspots (Porto-Vecchio, Calvi, Île-Rousse, Bonifacio) €5,500-12,000/m² for apartments, much higher for villas — comparable to the Côte d'Azur. Inland villages: from €1,200/m² for stone houses needing renovation. **Rent**: Ajaccio 2-bedroom €900-1,400/month; Bastia €700-1,100/month; coastal hotspots in summer wildly inflated, off-season more reasonable. **Groceries**: 10-25% more expensive than mainland France due to shipping costs; many products airlifted in. Supermarkets exist but ranges are narrower. **Restaurants**: tourist-priced in summer (€30-60/person), reasonable in winter (€18-30/person). **Healthcare**: CPAM covers Corsica identically to mainland. Hospitals in Ajaccio and Bastia are functional but specialised care often requires medical evacuation to Marseille or Nice — a logistical reality for serious conditions. **Utilities**: similar to mainland prices. EDF supplies electricity. **Bottom line**: a comfortable expat household in Corsica spends roughly the same as in a mid-tier French mainland city (Montpellier, Aix-en-Provence) — not the discount many imagine.",
+      },
+      {
+        heading: "The seasonal extreme — and why winter Corsica matters",
+        body: "July-August: 3+ million tourists transit Corsica. Roads jammed, beaches packed, restaurants booked, prices peak, locals stay home or escape. November-March: many tourist-zone restaurants and shops close, some villages have 80% of their houses shuttered. Ferries reduce, weather can be harsh in the interior, depression-by-isolation is a real expat phenomenon. **The 4-month rule**: if you cannot accept living somewhere where October-March is significantly quieter and somewhat duller, do not buy in the small tourist villages — buy near Ajaccio or Bastia, where year-round life persists. **Ferry-and-flight rhythm**: mainland is reachable by daily ferry (Marseille, Nice, Toulon — 6-12 hours) or daily flight (Ajaccio, Bastia, Calvi, Figari airports — 1 hour to mainland). Costs €60-200 per crossing for foot passengers, €150-500 with car. Heavy in summer (book months ahead), easy in winter. **Climate**: Mediterranean coast mild year-round (winter lows 7-10°C); interior alpine (snow common in winter, summer cool at altitude). Heatwaves intense, fire risk significant in summer.",
+      },
+      {
+        heading: "Culture, language, and integration realities",
+        body: "**Language**: French is the dominant working language. Corsican (Corsu) is spoken by perhaps 40-50% of locals (older more than younger), used at home, in signs, in some media. Learning a few Corsican phrases is enormously appreciated. Many Corsicans switch to French immediately with non-Corsicans. **Cultural attitude**: Corsicans are famously reserved with outsiders (continentaux = mainland French as well as foreign). Integration takes years, not months. Direct, sometimes blunt communication. Strong sense of identity, history, and political nuance (the Corsican autonomy movement is active and consequential locally). **Community**: established expat communities exist in Ajaccio, Porto-Vecchio, and the Balagne (especially British and Italian retirees). Settle near one if integration matters. **Practical advice**: speak the small Corsican phrases, attend village festivals, support local businesses over the supermarket chain, never compare unfavourably with mainland France, don't pry into politics. After 3-5 years of consistent presence, you'll be treated as a respected outsider — full insider status is essentially impossible.",
+      },
+      {
+        heading: "Who Corsica works for — and who it doesn't",
+        body: "**Works for**: retirees with mainland-level pensions who want Mediterranean beauty without the Côte d'Azur intensity. Remote workers with no need for in-person professional networks. Outdoor-active couples and families. Writers, artists, and people with established creative practices. People with mainland family ties (regular ferry/flight visits home). **Does not work for**: career-driven expats needing a deep job market (it is thin outside tourism, public sector, and small-scale services). Families seeking elite or international schools (limited — international section in Ajaccio, but most options force trade-offs). Those who fear or dislike isolation (winter is genuinely quiet). Anyone unwilling to accept that island logistics — deliveries, healthcare specialists, big-city services — work less smoothly than on the mainland. **A useful test**: spend a full off-season month (November or February) in your target town before buying. If that month felt long, buy somewhere with more year-round life (or don't buy at all). Many expats live in Corsica part-time and keep a mainland base — a sustainable compromise.",
+      },
+    ],
+    relatedCities: ["ajaccio", "bastia", "porto-vecchio", "calvi", "bonifacio"],
+    tags: ["living in corsica expat 2026", "corsica expat guide", "moving to corsica", "ajaccio bastia expat life", "corsica vs french riviera"],
+  },
+  {
+    slug: "paris-arrondissements-expat-guide-2026",
+    title: "Paris Arrondissements: An Expat Guide to Picking Your District (2026)",
+    metaTitle: "Paris Arrondissements Expat 2026 — district-by-district guide, where expats live, prices",
+    metaDesc: "An honest expat guide to Paris's 20 arrondissements: who lives where, rents, lifestyle, English-friendliness, best districts for families, professionals, students.",
+    category: "city-guide",
+    emoji: "🗼",
+    readMinutes: 12,
+    publishedAt: "2026-05-25",
+    updatedAt: "2026-05-25",
+    intro: "Paris is a city of 20 arrondissements arranged in a clockwise spiral, but for expats the meaningful distinctions reduce to maybe eight or nine genuine choices. Each arrondissement has a distinct rhythm, demographic, price range, and English-speaking presence. This guide cuts through the postcard stereotypes (Saint-Germain ≠ today's Saint-Germain) and tells you what each district actually feels like to live in, which expat profiles each suits, and where the genuine value-for-money sits in 2026.",
+    sections: [
+      {
+        heading: "Central touristic Paris: 1st, 4th, 6th, 7th, 8th (premium price, premium prestige)",
+        body: "**1st (Louvre, Tuileries, Châtelet, Palais Royal)**: ultra-central, very expensive (apartment €15,000-22,000/m²), small residential population, touristic 24/7. Rare and expensive for actual living. **4th (Marais, Île Saint-Louis)**: trendy, gay-friendly, museum-dense, very expensive (€13,000-20,000/m²), strong restaurant scene, walkable. Popular with expat creatives, fashion industry, finance professionals. **6th (Saint-Germain-des-Prés, Luxembourg)**: classical bourgeois Paris, very expensive (€14,000-21,000/m²), historic literary cafés, Sorbonne adjacent, refined. Older expat couples, established professionals, families with university-aged kids. **7th (Eiffel Tower, Invalides, Champ de Mars)**: aristocratic Paris, embassy-dense, very expensive (€14,000-22,000/m²), quiet, ministerial. Diplomatic and corporate expats — many international school families. **8th (Champs-Élysées, Madeleine, Saint-Lazare)**: business-district central, luxury shopping, hotel-heavy, very expensive (€11,000-18,000/m²), less residential character. International executives.",
+      },
+      {
+        heading: "Refined residential west: 16th, 17th (family expat heartland)",
+        body: "**16th (Trocadéro, Passy, Auteuil)**: the classic upper-class Parisian arrondissement. Wide boulevards, Haussmann buildings, embassy presence, the largest concentration of expat families in Paris. Major international schools (École Active Bilingue, EIB Monceau, Hattemer) nearby. Quiet, refined, sometimes criticised as bourgeois-boring by younger expats. Apartment €10,000-16,000/m². **17th (Batignolles, Monceau, Wagram)**: split character — southern half elegant Haussmann, northern half (Batignolles) trendier and more diverse, with renovated parks, restaurants, hipsters. Apartment €9,000-14,000/m². Popular with expat professionals balancing refinement and dynamism. Best metro coverage for families. **Both 16th and 17th**: the most family-expat-friendly districts. English-speaking pediatricians, anglophone playgroups, well-organised expat networks.",
+      },
+      {
+        heading: "Dynamic central-east: 3rd, 9th, 10th, 11th (creative, mixed, more affordable)",
+        body: "**3rd (Upper Marais, Carreau du Temple)**: trendy, design-heavy, gay-friendly, restaurant-dense, expensive (€12,000-17,000/m²) but slightly less than the 4th. Young professionals, fashion, design. **9th (Pigalle, Saint-Georges, Opéra)**: dynamic, central, mixed character (touristic around Opéra, residential around Saint-Georges, edgy around Pigalle), strong restaurant and bar scene. Apartment €10,000-14,000/m². Young expat professionals, English-speaking workforce. **10th (Canal Saint-Martin, Gare du Nord, Gare de l'Est)**: trendy north of the canal (cafés, brunches, young professionals), edgier near the stations. Apartment €8,500-12,500/m². Creative expats, journalists, NGO workers, English-speaking community strong around the canal. **11th (Bastille, Oberkampf, République)**: the heart of young creative/professional Paris. Bars, music venues, restaurants, mixed demographic, increasingly gentrified. Apartment €9,000-13,000/m². The single best district for early-30s expat professionals.",
+      },
+      {
+        heading: "Affordable working-class but rising: 12th, 14th, 19th, 20th",
+        body: "**12th (Bercy, Nation, Daumesnil)**: residential, family-friendly, well-served by metros, near Bois de Vincennes. Apartment €8,500-12,000/m². Underrated for families. **14th (Montparnasse, Denfert-Rochereau, Plaisance)**: solidly residential, parks, Catacombs, mixed bourgeois-bohemian. Apartment €8,500-12,500/m². **19th (Buttes-Chaumont, La Villette, Stalingrad)**: traditionally working-class and immigrant, now strongly gentrifying. Park (Buttes-Chaumont) is one of the most beautiful in Paris. Apartment €7,000-10,500/m² — best value in central-ish Paris. Young creatives, families on tighter budgets, multicultural. **20th (Belleville, Père-Lachaise, Ménilmontant)**: artsy, multicultural, hilly streetscape, hipster restaurants, very mixed demographics. Apartment €7,500-11,000/m². Increasingly popular with young expats wanting authentic Paris at lower prices.",
+      },
+      {
+        heading: "Districts most expats overlook (or shouldn't)",
+        body: "**5th (Latin Quarter, Panthéon, Jardin des Plantes)**: university-dense, refined, expensive (€11,000-15,000/m²), strong English-speaking academic community (American University of Paris adjacent, Sorbonne, ENS). Great for academic/student-aged-children families. **2nd (Sentier, Bourse, Opéra)**: very central, increasingly residential, tech and fashion industries, smaller apartments. €11,000-15,000/m². **13th (Place d'Italie, Chinatown, BNF)**: vast district, southern Chinatown (largest in Europe), large new-build area, more affordable. Apartment €7,500-11,000/m². Asian-American expats notably comfortable here. **15th (Vaugirard, Convention)**: largest arrondissement, quietly residential, family-friendly, less interesting than 16th but cheaper (€9,000-12,500/m²). **18th (Montmartre, Pigalle, Goutte d'Or)**: hugely uneven — Montmartre charming and expensive (€10,000-14,000/m²), Goutte d'Or working-class and edgy (€6,500-9,000/m²). Strong English-speaking community in Montmartre.",
+      },
+      {
+        heading: "Quick recommendation matrix for expat profiles",
+        body: "**International family with corporate package**: 16th, 17th, 7th. Closest to international schools (École Jeannine Manuel, EIB Monceau, Lycée International de Saint-Germain-en-Laye in nearby suburbs). **Young professional couple**: 11th, 3rd, 10th, 9th. Bars, restaurants, dynamic, well-connected. **Older expat couple, retirees**: 6th, 7th, 5th, 16th. Refined, walkable, cultural, calm. **Creative expat, journalist, NGO**: 10th (canal), 11th, 20th, 3rd. **Tech/finance professional alone**: 8th, 9th, 2nd. Near offices, short commute. **Budget-conscious expat**: 19th, 20th, 13th, 18th (Goutte d'Or). **Family on budget**: 14th, 15th, 12th, 13th, 19th. **Pro tip**: rent for 6-12 months before buying. Paris is small (105 km²), and three months living in a district will reveal what no internet research can. Most expats end up in a different arrondissement than they expected.",
+      },
+    ],
+    relatedCities: ["paris"],
+    tags: ["paris arrondissements expat 2026", "where to live in paris", "best paris districts expats", "paris neighbourhoods guide", "paris expat living"],
+  },
+  {
+    slug: "marseille-vs-lyon-which-city-expat-2026",
+    title: "Marseille vs Lyon: Which French City for Expats? (2026)",
+    metaTitle: "Marseille vs Lyon 2026 — head-to-head expat comparison, prices, job market, lifestyle",
+    metaDesc: "Marseille vs Lyon as an expat in 2026: cost of living, salaries, climate, safety, job market, family life. Honest head-to-head between France's #2 and #3.",
+    category: "city-guide",
+    emoji: "🏛️",
+    readMinutes: 11,
+    publishedAt: "2026-05-25",
+    updatedAt: "2026-05-25",
+    intro: "Marseille and Lyon are France's second and third metropolises, and they could hardly be more different. Lyon is orderly, prosperous, gastronomic, geographically central, and famous for being slightly cold (in personality, not climate). Marseille is Mediterranean, raw, dramatic, cheaper, less safe, more multicultural, and increasingly trendy. For expats considering a French move beyond Paris, this is the most-debated choice. This guide compares them honestly across the dimensions that actually matter to expat life.",
+    sections: [
+      {
+        heading: "Cost of living and property",
+        body: "**Lyon**: city apartments €4,500-7,000/m² (centre €6,000-8,500/m²); 2-bedroom rent €1,000-1,600/month. Higher than expected — Lyon prices have caught up with Bordeaux and aren't far from Paris suburbs. **Marseille**: city apartments €2,800-4,500/m² (best central €5,000-6,500/m² for 7th/8th); 2-bedroom rent €700-1,300/month. Significantly cheaper. **Cost of living overall**: Marseille 15-25% cheaper across daily expenses (groceries, restaurants, services). Lyon's premium reflects salary levels and demand, not significantly better quality. **Marseille verdict**: better value, especially for property. **Lyon verdict**: higher cost matched by higher salaries.",
+      },
+      {
+        heading: "Job market and salaries",
+        body: "**Lyon**: France's most diversified provincial economy. Strong sectors: biotech (Sanofi, BioMérieux), banking and finance (regional HQs), pharmaceuticals, consulting, tech (CGI, Capgemini), automotive (Renault Trucks). Mid-level professional salaries 10-15% below Paris but with 30-40% lower cost of living. Englishspeaking corporate jobs are findable. Excellent internal labour market — you can change jobs without leaving the metro area. **Marseille**: weaker job market relative to its size. Strong sectors: maritime/port logistics, tourism, public sector (huge), media (production), some tech (the Aix-Marseille Université is generating spinouts). Lower salaries (15-25% below Lyon for equivalent roles). English-speaking jobs are scarcer outside tourism. **Verdict for career-driven expats**: Lyon wins clearly. **Verdict for remote workers with foreign employer**: Marseille wins on cost-of-living arbitrage.",
+      },
+      {
+        heading: "Climate and outdoor life",
+        body: "**Marseille**: 300+ days of sunshine, hot Mediterranean summers (average July 26-30°C), mild winters (8-13°C). Mistral wind common (chilling, drying). Calanques National Park on the city's southern edge — world-class hiking and swimming. Provence countryside 30 minutes away. Sea swimming May-October. **Lyon**: continental-influenced, four real seasons. Hot summers (heat-island can exceed 35°C), cold winters (December lows around 0°C, occasional snow). The Alps 1-1.5 hours away (skiing in winter, hiking summer); the Rhône valley and Beaujolais countryside nearby. Two rivers (Rhône, Saône) for walking but no swimming. **Marseille verdict**: dramatically more sun, more outdoor swimming-and-walking, more 'Mediterranean lifestyle'. **Lyon verdict**: more variety of activities (skiing!), better suited to those who like all four seasons.",
+      },
+      {
+        heading: "Safety and quality of urban life",
+        body: "**Lyon**: among France's safer major cities. Some districts (Part-Dieu, Confluence, 6th arrondissement) very safe. Drug-related violence isolated to specific neighbourhoods (Mermoz, Vénissieux, Bron suburbs). Walking at night in central Lyon is broadly comfortable. **Marseille**: France's most-discussed safety case. Serious drug-related violence (point de deal, settlement-of-scores) is real but very geographically concentrated (north-east districts, parts of the 13th-15th arrondissements). Central 1st, 2nd, 6th, 7th, 8th arrondissements are normal-European-city safe. Tourism safety in central Marseille is fine if standard precautions are taken. Pickpocketing higher than Lyon. **Honest verdict**: Lyon is meaningfully safer in average daily experience. Marseille is safe if you pick your neighbourhood carefully (7th, 8th, central 6th) but the city does have genuine no-go-by-night pockets.",
+      },
+      {
+        heading: "Schools, families, and integration",
+        body: "**Lyon**: excellent public schools (lycées Parc, Ampère, du Parc consistently top national rankings), strong bilingual options (École Cité Scolaire Internationale, German section, English sections), the international school CSI is highly regarded. Established expat-family infrastructure (English-speaking paediatricians, anglophone childcare). **Marseille**: public schools wildly uneven — excellent in central districts (Lycée Thiers, Périer), weaker elsewhere. International school (EIPACA in Manosque is 1.5 hours away; in Marseille itself, the international section at Lycée Thiers is the main option). Bilingual childcare scarcer. **Verdict for families with school-age children**: Lyon clearly wins. **Verdict for families with very young children only or homeschoolers**: Marseille is workable, cheaper, and lifestyle-superior.",
+      },
+      {
+        heading: "Culture, food, social rhythm",
+        body: "**Lyon**: France's gastronomic capital (more Michelin stars per capita than anywhere). Bouchon culture, Paul Bocuse legacy, strong wine scene (Beaujolais, Rhône Valley, Burgundy nearby). Classical and theatre dense (Opéra de Lyon, Théâtre des Célestins). Slightly reserved social culture — Lyonnais are famously polite but slow to befriend. **Marseille**: more Mediterranean-loud, multicultural, immediate. North-African, Italian, Armenian, Comorian influences. Street life genuinely vibrant. Music scene (rap, ragga, world music) strong. Restaurants improving rapidly (Marseille is the trendiest French food city of 2024-2026). Less classical-cultural infrastructure than Lyon. More immediately social — you'll meet people fast. **Verdict for sociability and ease-of-meeting-people**: Marseille. **Verdict for refined culture and gastronomy**: Lyon.",
+      },
+      {
+        heading: "Bottom line: who should pick which",
+        body: "**Pick Lyon if**: career advancement matters, you want strong public schools, you value urban order and refinement, you're not married to Mediterranean weather, you appreciate gastronomy, you want easy access to the Alps. **Pick Marseille if**: budget matters, you want Mediterranean weather, you value cultural mix and street life, you have a remote job from abroad, you want a less polished but more immediately alive urban experience, you can pick your neighbourhood carefully. **Both work for**: outdoor-active couples, mid-career professionals with internationally-portable jobs, families willing to invest in private schooling. **Neither is the best French city for everyone**: Bordeaux, Toulouse, Montpellier, Nantes all have strengths. But for those drawn specifically to France's second-city scale, the Lyon-vs-Marseille question reduces to: do you want refined-French-bourgeois (Lyon) or raw-Mediterranean-multicultural (Marseille)?",
+      },
+    ],
+    relatedCities: ["marseille", "lyon", "aix-en-provence", "bordeaux", "montpellier"],
+    tags: ["marseille vs lyon expat 2026", "lyon or marseille expat", "marseille lyon comparison", "best french city not paris", "expat france second city"],
+  },
 ];
 
 export function getEnGuide(slug: string): EnGuide | undefined {
