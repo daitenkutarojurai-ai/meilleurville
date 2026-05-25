@@ -4985,6 +4985,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.0,
     avgTempJanuary: 3.5,
     characterTags: ["UNESCO", "Saint-Jacques", "volcans", "dentelle", "patrimoine", "pèlerinage"],
+    descriptionEn:
+      "Le Puy-en-Velay is the dramatic volcanic-needle Haute-Loire town — UNESCO Saint-Jacques pilgrimage starting point, Chapelle Saint-Michel d'Aiguilhe perched on a volcanic spire, traditional lace heritage. Best fit: pilgrims, photographers, retirees seeking dramatic Auvergne living, slow-life expats.",
+    seoTitleEn: "Le Puy-en-Velay — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Le Puy-en-Velay (Haute-Loire, Auvergne-Rhône-Alpes): quality-of-life score 7.3/10. UNESCO pilgrimage town, dramatic volcanic spires, lace heritage.",
     scores: {
       global: 7.3,
       life: 8.0,
@@ -5011,6 +5016,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 23.0,
     avgTempJanuary: 4.0,
     characterTags: ["lyon-adjacent", "étudiant", "populaire", "dynamique", "gratte-ciel", "INSA"],
+    descriptionEn:
+      "Villeurbanne is Lyon's adjacent twin city — INSA engineering school, large student population, more diverse and affordable than central Lyon, famously progressive (the Gratte-Ciel social-housing modernist neighbourhood). Best fit: INSA students, young professionals, families seeking Lyon-adjacency at cheaper prices.",
+    seoTitleEn: "Villeurbanne — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Villeurbanne (Métropole de Lyon, Auvergne-Rhône-Alpes): quality-of-life score 7.5/10. Lyon's twin city, INSA, large student community, affordable.",
     scores: {
       global: 7.5,
       life: 7.5,
@@ -5037,6 +5047,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 24.0,
     avgTempJanuary: 5.0,
     characterTags: ["Luberon", "Haute-Provence", "lavande", "calme", "retraite", "soleil", "nature"],
+    descriptionEn:
+      "Manosque is the Alpes-de-Haute-Provence Luberon gateway — L'Occitane en Provence headquarters, lavender fields, Jean Giono heritage, hot dry Mediterranean climate, calm pace. Best fit: retirees seeking refined Provençal Luberon living, lavender-and-nature lovers, L'Occitane and ITER (Cadarache) professionals.",
+    seoTitleEn: "Manosque — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Manosque (Alpes-de-Haute-Provence, PACA): quality-of-life score 7.5/10. Luberon gateway, L'Occitane HQ, lavender, refined Provence, calm.",
     scores: {
       global: 7.5,
       life: 8.0,
@@ -5063,6 +5078,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.5,
     avgTempJanuary: 3.5,
     characterTags: ["Loire", "Bourgogne", "céramique", "Magny-Cours", "calme", "accessible", "préfecture"],
+    descriptionEn:
+      "Nevers is the Nièvre prefecture — Loire river, faïence ceramic tradition, Magny-Cours F1 circuit nearby, calm rural Burgundy adjacent, dramatically affordable. Best fit: motorsport professionals, retirees seeking ultra-cheap heritage living, ceramic and craft artisans.",
+    seoTitleEn: "Nevers — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Nevers (Nièvre, Bourgogne-Franche-Comté): quality-of-life score 6.5/10. Nièvre prefecture, Loire, faïence ceramic heritage, Magny-Cours F1, affordable.",
     scores: {
       global: 6.5,
       life: 7.0,
@@ -5089,6 +5109,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.0,
     avgTempJanuary: 2.5,
     characterTags: ["mémoire", "Meuse", "histoire", "Lorraine", "calme", "touristique", "patrimoine"],
+    descriptionEn:
+      "Verdun is the WWI memory city — the famous 1916 battle, Mémorial de Verdun, Douaumont ossuary, dramatic Meuse river setting. Dramatically affordable, calm. Best fit: WWI-history professionals and researchers, retirees seeking ultra-cheap Lorraine living, memorial-tourism households.",
+    seoTitleEn: "Verdun — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Verdun (Meuse, Grand Est): quality-of-life score 6.5/10. WWI memorial city, 1916 battle, Mémorial de Verdun, dramatic Meuse valley, affordable.",
     scores: {
       global: 6.5,
       life: 7.0,
@@ -5115,6 +5140,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 26.0,
     avgTempJanuary: 5.5,
     characterTags: ["Ardèche", "nature", "gorges", "authenticité", "calme", "artisanat", "terroir"],
+    descriptionEn:
+      "Aubenas is the Ardèche gateway — dramatic Cévennes-Ardèche country, Gorges de l'Ardèche within 30 minutes, authentic terroir, calm. Best fit: outdoor active families and retirees, kayakers and canyon-runners, slow-life expats seeking the most rural French mid-sized town living.",
+    seoTitleEn: "Aubenas — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Aubenas (Ardèche, Auvergne-Rhône-Alpes): quality-of-life score 7.0/10. Ardèche gateway, Gorges de l'Ardèche adjacent, authentic terroir, outdoor.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -5141,6 +5171,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 23.5,
     avgTempJanuary: 5.5,
     characterTags: ["Ariège", "Pyrénées-proche", "Occitanie", "accessible", "calme", "nature", "abordable"],
+    descriptionEn:
+      "Pamiers is the Ariège industrial town — Pyrenees-foothills, dramatically affordable, Toulouse 1 hour by train, dramatic mountain access. Best fit: ultra-budget households seeking Pyrenees-adjacency, Toulouse-region workers wanting cheaper base, outdoor active retirees.",
+    seoTitleEn: "Pamiers — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Pamiers (Ariège, Occitanie): quality-of-life score 6.5/10. Ariège industrial town, Pyrenees-foothills, near Toulouse, dramatically affordable.",
     scores: {
       global: 6.5,
       life: 7.0,
@@ -5167,6 +5202,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.5,
     avgTempJanuary: 5.0,
     characterTags: ["Loire", "château", "vins", "équitation", "patrimoine", "tourisme", "gastronomie"],
+    descriptionEn:
+      "Saumur is the Loire Valley equestrian capital — Cadre Noir riding school, dramatic château perched above the Loire, Saumur-Champigny wine country, refined heritage. Best fit: equestrians, wine professionals, retirees seeking refined Loire Valley living, château-region property buyers.",
+    seoTitleEn: "Saumur — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Saumur (Maine-et-Loire, Pays de la Loire): quality-of-life score 7.3/10. Loire equestrian capital, Cadre Noir, château, Saumur-Champigny wine.",
     scores: {
       global: 7.3,
       life: 8.0,
@@ -5193,6 +5233,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 22.5,
     avgTempJanuary: -1.0,
     characterTags: ["montagne", "Alpes", "UNESCO", "ski", "nature", "altitude", "patrimoine"],
+    descriptionEn:
+      "Briançon is France's highest town at 1,326m — UNESCO Vauban fortifications, exceptional skiing (Serre Chevalier on the doorstep), dry sunny Alpine climate, dramatic Écrins National Park for summer climbing. Best fit: serious mountain dwellers, ski-season workers, mountaineers, sun-and-snow seekers tolerating quiet winter evenings.",
+    seoTitleEn: "Briançon — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Briançon (Hautes-Alpes, PACA): quality-of-life score 7.5/10. France's highest town, UNESCO Vauban, Serre Chevalier ski, Écrins National Park.",
     scores: {
       global: 7.5,
       life: 8.0,
@@ -5219,6 +5264,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 21.0,
     avgTempJanuary: 2.0,
     characterTags: ["champagne", "Avenue de Champagne", "UNESCO", "gastronomie", "tourisme", "prestige", "vignobles"],
+    descriptionEn:
+      "Épernay is the Champagne wine capital — Avenue de Champagne (UNESCO, where Moët, Pol Roger, Perrier-Jouët all line up), the largest champagne cellar network in France, refined gastronomic culture. Best fit: Champagne professionals, wine investors, refined retirees, oenology students.",
+    seoTitleEn: "Épernay — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Épernay (Marne, Grand Est): quality-of-life score 7.0/10. Champagne capital, UNESCO Avenue de Champagne, Moët HQ, refined wine culture.",
     scores: {
       global: 7.0,
       life: 7.5,
@@ -5245,6 +5295,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 27.5,
     avgTempJanuary: 8.5,
     characterTags: ["PACA", "cinéma", "calanques", "mer", "Cassis-proche", "maritime", "plage"],
+    descriptionEn:
+      "La Ciotat sits between Marseille and Cassis — birthplace of cinema (Lumière brothers' 1895 train film), dramatic calanques setting, refined Provençal harbour, dramatically cheaper than Cassis. Best fit: Marseille-region workers seeking coastal base, cinema-history lovers, retirees with moderate budget.",
+    seoTitleEn: "La Ciotat — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "La Ciotat (Bouches-du-Rhône, PACA): quality-of-life score 7.5/10. Between Marseille and Cassis, cinema's birthplace, calanques, refined harbour.",
     scores: {
       global: 7.5,
       life: 8.0,
@@ -5271,6 +5326,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 27.0,
     avgTempJanuary: 10.0,
     characterTags: ["Côte d'Azur", "mer", "plages", "Estérel", "Fréjus-proche", "tourisme", "retraite"],
+    descriptionEn:
+      "Saint-Raphaël is the Var-coast resort city — Massif de l'Estérel dramatic red-cliff backdrop, refined Belle-Époque architecture, Fréjus adjacent, Cannes 30 minutes by train. Best fit: retirees with budget seeking refined Côte d'Azur living, lifestyle remote workers, Estérel hiking enthusiasts.",
+    seoTitleEn: "Saint-Raphaël — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Saint-Raphaël (Var, PACA): quality-of-life score 7.5/10. Côte d'Azur Var resort, Massif de l'Estérel red cliffs, refined Belle-Époque heritage.",
     scores: {
       global: 7.5,
       life: 8.0,
@@ -5297,6 +5357,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 23.5,
     avgTempJanuary: 9.0,
     characterTags: ["surf", "Atlantique", "Pays Basque", "plages", "Biarritz-proche", "pinède", "famille"],
+    descriptionEn:
+      "Anglet sits between Biarritz and Bayonne — Atlantic surf coast, pine-shaded family beaches (Chambre d'Amour), refined Basque-coast lifestyle. Slightly cheaper than Biarritz, more family-friendly. Best fit: surfing families, lifestyle remote workers wanting Atlantic-Basque coast living, refined retirees.",
+    seoTitleEn: "Anglet — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Anglet (Pyrénées-Atlantiques, Nouvelle-Aquitaine): quality-of-life score 7.8/10. Basque coast between Biarritz and Bayonne, Atlantic surf, family.",
     scores: {
       global: 7.8,
       life: 8.5,
@@ -5323,6 +5388,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 20.5,
     avgTempJanuary: 5.5,
     characterTags: ["Normandie", "port", "art", "impressionnisme", "tourisme", "pittoresque", "Vieux-Bassin"],
+    descriptionEn:
+      "Honfleur is the iconic Normandy harbour town — the Vieux Bassin (the most-painted French harbour by Impressionists: Boudin, Monet, Jongkind), refined heritage, Paris 2 hours, tourist-busy in summer. Best fit: artists and photographers, retirees with budget, weekend-home owners seeking refined Norman lifestyle.",
+    seoTitleEn: "Honfleur — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Honfleur (Calvados, Normandie): quality-of-life score 7.5/10. Iconic Normandy harbour, Vieux Bassin, Impressionist heritage, refined small port.",
     scores: {
       global: 7.5,
       life: 8.0,
@@ -5349,6 +5419,11 @@ const RAW_CITIES_SEED = [
     avgTempJuly: 27.0,
     avgTempJanuary: 9.0,
     characterTags: ["calanques", "PACA", "mer", "provençal", "plongée", "vin", "luxe"],
+    descriptionEn:
+      "Cassis is the postcard-Provençal harbour — Calanques National Park starting on its doorstep, Cassis AOC wine country, dramatic Cap Canaille cliffs, premium prices. Best fit: hikers and divers, retirees with substantial budget, lifestyle-first remote workers, weekend-home owners.",
+    seoTitleEn: "Cassis — Quality of life, reviews & 2026 rankings",
+    seoDescriptionEn:
+      "Cassis (Bouches-du-Rhône, PACA): quality-of-life score 8.0/10. Postcard Provençal harbour, Calanques National Park, Cassis AOC wine, premium.",
     scores: {
       global: 8.0,
       life: 9.0,
