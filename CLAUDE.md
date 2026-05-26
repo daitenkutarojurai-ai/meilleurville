@@ -1,6 +1,6 @@
 # MeilleurVille — Project briefing
 
-French city ranking & relocation guide site. 540 cities, 453 FR guides + 218 EN guides, 19 ranking
+French city ranking & relocation guide site. 540 cities, 459 FR guides + 218 EN guides, 19 ranking
 categories, 18 regions (13 metropolitan + 5 DROM). Copy is **French**.
 (Counts derived at build — see `lib/site-stats.ts`; figures here are indicative.)
 
@@ -174,7 +174,7 @@ Current count: **453 guides**. Guide spec: `slug, title, metaTitle, metaDesc, ca
 All planned series are complete (Climat 2040 ×15, Quitter X ×18, Comparaisons A vs B ×17, Région 2026 ×16, Télétravail 2026 ×11, Lifestyle ×14, Budget ×7, Famille ×4).
 
 ### Pending guide work
-- **Editorial rewrite (R7.8)** — all 453 guides: prose/editorial voice, full sentences, light friendly tone. Keep metadata fields untouched, only `intro` and `sections[].body`. Use parallel agents, batch by series. Biggest remaining content task.
+- **Editorial rewrite (R7.8)** — all 459 guides: prose/editorial voice, full sentences, light friendly tone. Keep metadata fields untouched, only `intro` and `sections[].body`. Use parallel agents, batch by series. Biggest remaining content task.
 
 Vivre sans voiture +5, Acheter à [ville] +5, and the "Lire ensuite" reading list (via `lib/guide-suggestions.ts` + auto-block on each guide page) are shipped.
 
