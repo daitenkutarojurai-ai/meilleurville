@@ -711,6 +711,8 @@ function enStaticSection(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/climate-2040-timelapse`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.75 },
     { url: `${BASE_URL}/community-profiles`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.75 },
     { url: `${BASE_URL}/search`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.6 },
+    { url: `${BASE_URL}/cheapest-cities`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.75 },
+    { url: `${BASE_URL}/best-value-cities`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.75 },
   ];
 }
 
