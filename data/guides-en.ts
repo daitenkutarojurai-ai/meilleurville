@@ -8047,6 +8047,254 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["lyon", "bordeaux", "toulouse", "strasbourg", "marseille"],
     tags: ["best French cities food lovers 2026", "France gastronomy expat guide", "best food markets France 2026", "Lyon Bordeaux Toulouse food guide expat", "move to France for food culture 2026"],
   },
+  {
+    slug: "living-in-toulon-var-coast-expat-guide-2026",
+    title: "Living in Toulon and the Var Coast as an Expat (2026)",
+    metaTitle: "Living in Toulon and the Var Coast: honest expat guide 2026",
+    metaDesc: "Toulon, Hyères, Bandol, Sanary-sur-Mer: what the Var coast is actually like to live in. Property prices, climate, healthcare, what works and what doesn't.",
+    category: "city-guide",
+    emoji: "⚓",
+    readMinutes: 12,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Toulon sits in the shadow of its flashier neighbours — Nice is 80km east, Marseille 80km west — but it has genuine advantages that neither can match: a real working navy port, significantly lower property prices, and a Provence climate without the tourist saturation. The Var coast stretches from the Calanques to Saint-Tropez, and Toulon is its functional capital. Here is what living there actually looks like.",
+    sections: [
+      {
+        heading: "The Var coast: who actually lives here",
+        body: "The Var department (83) has one of the highest concentrations of British, Northern European, and Dutch expats in France outside the Dordogne. The reasons are climate (285+ sunny days per year), proximity to beaches, and property prices that are substantially lower than the Côte d'Azur proper. Toulon itself is a working city of 175,000 — the largest French naval base — rather than a resort. That distinction matters: it has real infrastructure (university, university hospital, large Leclerc and Carrefour), genuine neighbourhood life, and a population that is not tourists. The surrounding towns — Hyères, Bandol, Sanary-sur-Mer, Ollioules, La Seyne-sur-Mer — each have their own character and attract different buyer profiles.",
+      },
+      {
+        heading: "Property prices and what you actually get",
+        body: "Toulon city: apartments €2,200–3,500/m². A 3-bedroom in the Mourillon quarter (the upmarket residential area facing the bay) runs €350,000–500,000. The Haute-Ville and Saint-Jean-du-Var areas are cheaper (€1,800–2,400/m²) but require more research about the immediate street. Around Toulon: Hyères (€3,000–4,500/m², peninsula areas more), Bandol (€4,000–6,000/m²), Sanary-sur-Mer (€3,500–5,500/m²), La Seyne-sur-Mer (significantly cheaper, €2,000–3,000/m², industrial port past but good transport to Toulon). For context, comparable property in Nice would be 60–80% more expensive. The key Var trade-off is price-vs-prestige: you get coast and climate at Provence prices, not Riviera prices.",
+      },
+      {
+        heading: "Climate: genuine Mediterranean without the winter crowds",
+        body: "The Var has a more reliably sunny climate than the western Provence interior. Mean annual sunshine: 2,850 hours (Toulon), which is above Nice (2,720) and well above Marseille (2,760). Rainfall is concentrated in autumn (October–November can bring violent storms — the Var has regular flood events; check flood maps before buying near a waterway). January average: 8°C. Summer: 27–32°C, with Mistral cutting the heat several times per month and making it more bearable than the humidity of the Italian Riviera. The sea temperature in July–August (24–26°C) is the warmest on the French Mediterranean coast. Winter is genuinely mild: outdoor dining is possible from March to November. Snow in Toulon: essentially never.",
+      },
+      {
+        heading: "Healthcare and services",
+        body: "Toulon has the Hôpital Sainte-Musse, the main public hospital, which handles most specialties including a maternité and oncology department. Wait times for specialists are better than in smaller Provence towns but worse than Lyon or Paris. There is a significant cluster of English-speaking doctors in the Var — partly because of the long expat presence, partly because of the Hôpital Américain de Nice being nearby for complex cases. Registering with a médecin traitant (GP) is done online via Doctolib; availability is adequate in Toulon, tighter in smaller communes. The Var has an active CPAM (social security office) and most administrative procedures for new arrivals can be done in Toulon or online.",
+      },
+      {
+        heading: "Getting around: the TER, bus, and the car question",
+        body: "Toulon has a bus and boat network that covers the urban area adequately. There is a direct TER train connection to Marseille (50 min, frequent) and to Nice (1h30–2h, less frequent due to the single-track coast section). The TGV to Paris from Toulon takes about 3h20. Within the Var, a car is almost essential if you live outside the Toulon urban core. Many coastal towns (Bandol, Sanary, Hyères-les-Palmiers) have summer traffic that is severe — the RN8 coast road becomes a car park in July–August. The Toulon Hyères airport serves several European low-cost routes (Ryanair, easyJet) including direct to London Gatwick. For frequent UK travellers, this is a significant practical advantage over some other Provence locations.",
+      },
+      {
+        heading: "Expat life and community",
+        body: "The Var has one of the most established British expat communities in France outside Dordogne-Lot. International church services exist in Hyères and Toulon. There are English-speaking estate agents, notaries who handle cross-border transactions in both French and English, and a well-developed expat social scene particularly in Hyères and the peninsula towns (Presqu'île de Giens). The downside is that some coastal towns can feel quite insular — a circle of long-established expats who socialise mainly with each other rather than integrating with French life. Whether that matters depends on what you're looking for.",
+      },
+      {
+        heading: "The honest verdict",
+        body: "Toulon works best for: retirees who want genuine Mediterranean climate at non-Riviera prices; families who want coast without full tourist saturation; people who don't mind a working-city environment around them. It works less well for: those who want Riviera glamour (go to Nice or Antibes); those who depend on frequent direct flights to multiple European cities (Toulon airport is limited); people who want city vibrancy in the evening (Toulon's nightlife is modest for its size). The Mourillon quarter — beach promenade, pine trees, café terraces — is one of the most underrated places to live in Mediterranean France. The price differential with the eastern Côte d'Azur makes that hard to ignore.",
+      },
+    ],
+    relatedCities: ["toulon", "hyeres", "marseille", "nice", "aix-en-provence"],
+    tags: ["living in Toulon expat 2026", "Var coast property prices 2026", "Toulon expat guide", "Hyères expat guide France", "Mediterranean France affordable 2026"],
+  },
+  {
+    slug: "living-in-saint-malo-brittany-expat-guide-2026",
+    title: "Living in Saint-Malo and North Brittany as an Expat (2026)",
+    metaTitle: "Living in Saint-Malo and North Brittany: honest expat guide 2026",
+    metaDesc: "Saint-Malo, Dinard, Dinan: what north Brittany is actually like to live in. Ferries to the UK, property prices, climate, and the honest trade-offs.",
+    category: "city-guide",
+    emoji: "⛵",
+    readMinutes: 11,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Saint-Malo is the most British-friendly city in France, and not by accident: the Brittany Ferries terminal here connects directly to Portsmouth, and the Intra-Muros (walled city) has been popular with British second-home buyers for decades. Whether that's an advantage or a warning sign depends on what you want. Here is an honest assessment of living in Saint-Malo and the north Brittany coast.",
+    sections: [
+      {
+        heading: "The city and its character",
+        body: "Saint-Malo has about 46,000 residents. The Intra-Muros (the historic walled city, reconstructed after WW2 bombing) is the postcard image — granite ramparts, tidal pools, the open Atlantic, the islands of Grand Bé and Petit Bé. It is genuinely beautiful. The rest of Saint-Malo is a functional city: Paramé (beach suburb), Saint-Servan (quieter residential with a good weekly market), and the port area. Dinard, across the estuary, is the posher alternative — Belle Époque villas, golf, and prices that reflect both. Dinan, 30km south, is a medieval walled town that is popular with retirees who want something smaller and quieter. The whole north Brittany coast from Saint-Malo to Paimpol is popular with buyers seeking coast without Mediterranean prices.",
+      },
+      {
+        heading: "Property prices: what actually costs what",
+        body: "Intra-Muros apartments: €4,500–8,000/m² — these are vacation-market prices driven by tourism demand, with high charges and seasonal rental income as the underlying rationale. Saint-Servan and Paramé: €2,800–4,200/m². Dinard: €3,500–6,000/m² depending on sea view. Dinan: €1,800–2,800/m² — genuinely affordable for a beautiful medieval town. The Ille-et-Vilaine countryside between Saint-Malo and Rennes: houses with land from €120,000 (needs work) to €350,000 (renovated). The key trade-off: if you want the Intra-Muros, you are paying tourism premium for a permanently crowded small space (the walled city is genuinely tiny and overwhelmed in summer). The surrounding area is far better value.",
+      },
+      {
+        heading: "The UK connection: Brittany Ferries",
+        body: "The direct ferry from Saint-Malo to Portsmouth (Brittany Ferries) runs year-round, typically 8–10 hours overnight. This is transformative for British expats: you can take your car, your dog, your furniture, and your entire life across without the trauma of airports. It is also expensive: €200–400 for a car + 2 passengers depending on cabin and season. Many British retirees in Saint-Malo cross 2–3 times per year; the ferry makes that practical in a way that flying cannot, particularly if you have a pet. For people who want to maintain strong UK ties without flying, the Portsmouth–Saint-Malo route is a genuine competitive advantage over other French cities.",
+      },
+      {
+        heading: "Climate: Atlantic, not Mediterranean",
+        body: "North Brittany has a cool oceanic climate: mild but rarely warm. Annual sunshine: around 1,800 hours — less than the Dordogne, far less than Provence, but the light is extraordinary (the northern Brittany coast has some of the clearest Atlantic light in Europe, which is why it attracted Impressionist painters). Summer high: 20–24°C — warm enough for beach use in July–August, cool enough to need a fleece in the evening. Winter: mild (5–9°C average January) with persistent westerly winds and regular rain. The Rance valley microclimate is slightly more sheltered. If you require sustained summer heat, North Brittany will disappoint. If you find Atlantic weather appealing and prize landscape over guaranteed sun, it is exceptional.",
+      },
+      {
+        heading: "Daily life and services",
+        body: "Saint-Malo has a hospital (Centre Hospitalier de Saint-Malo), adequate for most needs, with complex cases referred to Rennes (50 min by TGV or 1h by road). Rennes is the regional capital and provides the full range of services: university hospital, specialist medical, large commercial infrastructure. Saint-Malo itself has a Leclerc, a Carrefour, decent weekly markets (Tuesday at Intra-Muros, Saturday at Saint-Servan), and the commercial infrastructure of a small city. The TGV from Saint-Malo to Paris-Montparnasse takes 2h10 (via Rennes). For most errands, Saint-Malo is self-sufficient; for anything specialised, Rennes covers it.",
+      },
+      {
+        heading: "The expat reality",
+        body: "Saint-Malo has a significant British expat population — the ferry connection, the coastline, and the granite architecture (similar to the West Country in some respects) make it a natural draw. There are English-speaking estate agents, bilingual notaires, and a well-established social scene. The downside is that parts of the Intra-Muros in particular can feel like an enclave — English heard as frequently as French in some cafés, prices driven by tourism and second-home demand. The surrounding countryside (Ille-et-Vilaine, the Côtes-d'Armor) integrates more naturally into French life. If deep French integration is your goal, look at Dinan or further inland.",
+      },
+      {
+        heading: "The verdict",
+        body: "Saint-Malo works best for: British retirees or semi-retirees who value the ferry connection, want coast without Mediterranean prices, and are comfortable in a place with a high British expat density. It works less well for: those who want prolonged summer heat; those who want to be in a larger city (Rennes is the regional capital and more vibrant); those who find high tourist density and inflated Intra-Muros prices off-putting. Dinan — 30km south — is in many ways a better buy: medieval, beautiful, cheaper, quieter, and still within easy reach of the coast. If someone said 'I want Saint-Malo but without the crowds and the premium,' Dinan is usually the answer.",
+      },
+    ],
+    relatedCities: ["saint-malo", "rennes", "dinard", "dinan", "brest"],
+    tags: ["living in Saint-Malo expat 2026", "Saint-Malo property prices guide", "Brittany expat guide 2026", "Saint-Malo Brittany Ferries Portsmouth expat", "north Brittany living expat"],
+  },
+  {
+    slug: "living-in-valence-drome-expat-guide-2026",
+    title: "Living in Valence and the Drôme: the Affordable Provence Gateway (2026)",
+    metaTitle: "Living in Valence and the Drôme: honest expat guide 2026",
+    metaDesc: "Valence sits between Lyon and Provence on the Rhône corridor. Affordable, sunny, overlooked. What it's actually like to live here as an expat in 2026.",
+    category: "city-guide",
+    emoji: "🌻",
+    readMinutes: 10,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Valence is one of those French cities that almost no expat considers — and then they visit and wonder why. It sits on the Rhône at the exact point where southern France begins: the light changes, the vegetation shifts towards Mediterranean scrub, and the fruit markets start selling things that taste of summer rather than storage. At 45 minutes from Lyon by TGV and an hour from Marseille, it is absurdly well-connected. At €2,000–2,800/m², it is among the most affordable sunny French cities.",
+    sections: [
+      {
+        heading: "Why Valence is overlooked and why that's changing",
+        body: "Valence (population 65,000) has an image problem: it is seen as a transit city, somewhere you pass through on the way to Provence or the Alps. The reality is more interesting. The old city has genuine medieval bones — the Cathédrale Saint-Apollinaire, the Maison des Têtes, the Côtes du Rhône wine bars on the pedestrian streets. The weekly Saturday market is one of the best in the corridor. The city has a significant North African community that contributes to a lively food scene (excellent Maghrebi patisseries, couscous restaurants). And since around 2020, it has started attracting remote workers and younger buyers who have discovered the price-to-sunshine ratio. Prices have risen 10–15% since 2021 but remain well below Lyon or Marseille.",
+      },
+      {
+        heading: "Property and cost of living",
+        body: "Valence city: €1,900–2,800/m². The desirable central area (between the Champ de Mars and the Vieille Ville) runs €2,200–3,000/m². The Drôme countryside: the Drôme Provençale (south of Valence, towards Nyons and Grignan) has stone-house property at €1,500–2,500/m² for renovated, with large plots more affordable. Crest (30km south), a small medieval town on the Drôme river, has attracted significant numbers of back-to-the-land buyers and sustainable-living types. Rent in Valence: T2 from €520–680/month, T3 from €700–950/month. Cost of living is meaningfully lower than Lyon — groceries, restaurants, leisure are all calibrated to local rather than tourist spending.",
+      },
+      {
+        heading: "Climate: the real reason to come",
+        body: "Valence has a transitional climate that leans convincingly Mediterranean south of the city. Annual sunshine: 2,200 hours — more than Lyon (1,970h), comparable to Montpellier (2,270h), less than Marseille (2,760h). The Mistral affects the Rhône valley periodically, which is cooling and irritating in equal measure. July averages: 25–28°C (hot but not brutal). Winter: cold snaps are possible (January average 4°C) but snow in the city is rare. The Drôme Provençale immediately south has a more convincingly warm microclimate — lavender fields, truffle oaks, almond trees, local AOP wines (Grignan-les-Adhémar). For people who want reliable sun without going all the way to Provence, the Valence–Drôme zone is the best compromise in the Rhône corridor.",
+      },
+      {
+        heading: "Connectivity and getting around",
+        body: "Valence TGV station: direct to Paris-Gare de Lyon in 2h05 (one of the fastest TGV corridors in France). Lyon: 35–45 min by TGV or intercité. Marseille: 1h05. Montélimar (30km south): 15 min. The Drôme countryside is car-dependent outside the Valence urban area. Within Valence, CITEA bus system is adequate. The nearby Romans-sur-Isère (15km north) has its own shopping zone and hospital. The Grenoble road (50km east) gives access to winter skiing and the Vercors plateau for hiking — an unusual advantage of the Valence location.",
+      },
+      {
+        heading: "The Drôme Provençale: the real draw",
+        body: "South of Valence, the Drôme Provençale is one of the most beautiful and underpriced landscapes in France. Grignan (its castle is Madame de Sévigné's), Nyons (olive oil capital of France, weekly market), Buis-les-Baronnies (lavender and linden), the Tricastin plain. This is truffle country, lavender country, wine country (Côtes du Rhône Villages, Vinsobres, Rousset-les-Vignes). Stone houses with large plots in villages here can be found from €180,000 renovated — extraordinary value by French standards. The south-facing hills have a climate that would feel familiar to anyone from Languedoc or the Luberon, at half the price of the Luberon.",
+      },
+      {
+        heading: "The honest trade-offs",
+        body: "Valence itself is not glamorous. The city centre has energy but also the gritty reality of a mid-sized French city — some degraded areas, variable urban aesthetic outside the historic core. The Drôme countryside is stunning but rural: if you need city amenities more than once a week, plan for a car journey. The expat community is smaller than in the Dordogne or Var — this is a place where you integrate into French life rather than an established expat bubble. French is essential. Healthcare: Valence has a hospital, adequate for most needs, with Lyon accessible for complex cases. The region has good GP availability compared to more rural areas.",
+      },
+    ],
+    relatedCities: ["valence", "grenoble", "lyon", "montpellier", "avignon"],
+    tags: ["living in Valence Drôme expat 2026", "Drôme Provençale property expat guide", "affordable Provence France 2026", "Valence Rhône expat guide", "Drôme living guide 2026"],
+  },
+  {
+    slug: "living-in-bayonne-pays-basque-expat-guide-2026",
+    title: "Living in Bayonne: the Basque Capital That Nobody Overhypes (2026)",
+    metaTitle: "Living in Bayonne and the French Basque Country: honest expat guide 2026",
+    metaDesc: "Bayonne, Anglet, Biarritz: the real costs, the real character, and what it's like to actually live on the Basque coast versus just holiday there.",
+    category: "city-guide",
+    emoji: "🦅",
+    readMinutes: 11,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "The French Basque Country — Bayonne, Biarritz, Anglet — has one of the most distinctive regional identities in France, a coast with real Atlantic surf, and prices that are high for the southwest but manageable compared to the Côte d'Azur. Bayonne is the functional capital: the market town, the city with the ham market and the chocolate tradition, the one that actually works as a place to live rather than a resort. Here is what the Basque coast looks like from a resident rather than a holiday perspective.",
+    sections: [
+      {
+        heading: "The three cities and what they mean",
+        body: "The Basque coast has three adjacent cities that form a functional unit: Bayonne (52,000) is the administrative and commercial centre, on the Adour river, with the old town (Grand Bayonne and Petit Bayonne), the covered market, the ham festival, the chocolate shops. Anglet (40,000) is in between — largely residential, with some of the best surf beaches (the Chambre d'Amour, the Côte des Basques beach for families). Biarritz (25,000) is the glamour end — Grand Plage, Belle Époque villas, the casino, and prices that reflect the brand. Most expats end up choosing Bayonne or Anglet for living and Biarritz for visiting. The whole area is about 20 minutes across by car.",
+      },
+      {
+        heading: "Property prices: higher than you expect",
+        body: "Bayonne city: €3,000–4,500/m² in the historic quartiers (Grand Bayonne). Anglet: €3,500–5,000/m², with proximity to beaches pushing the high end. Biarritz: €5,000–10,000/m² — the top end is genuinely extraordinary and driven by Parisian second-home demand. The Basque interior — Espelette (yes, the pepper village), Cambo-les-Bains, Saint-Jean-Pied-de-Port — is significantly cheaper (€2,000–3,000/m²) but car-essential and rural. The price driver on the coast is scarcity: the Basque coast is short, hemmed in by the Pyrenees and the Spanish border, and under consistent demand from Paris buyers and international buyers attracted by the brand. Prices have risen 25–35% since 2019; the market has cooled since 2023 but remains elevated.",
+      },
+      {
+        heading: "What makes Bayonne different",
+        body: "Bayonne is not trying to be a holiday resort. It is a real Basque city with functioning daily life: the covered market (Les Halles, daily) is among the best in the southwest — jambon de Bayonne, fresh tuna, sheep cheeses, Basque cakes (gâteau Basque). The chocolate tradition (Bayonne has been making chocolate since the 17th century — Jewish refugees brought cacao processing from Spain) means there are serious chocolatiers rather than tourist shops. The pelota courts in Petit Bayonne are used by locals, not tourists. The festivals — the Fêtes de Bayonne (late July, 5 days, the most intense public festival in France outside Carnaval) — are for locals as much as visitors. The city has genuine character that survives the summer tourist season.",
+      },
+      {
+        heading: "Climate and the Atlantic question",
+        body: "The Basque coast has a warm oceanic climate — the warmest in Atlantic France, with a southern influence from proximity to Spain. Annual sunshine: about 1,950 hours, which is more than Bordeaux (1,870h) and substantially more than Brittany. Summer: 23–26°C, with Atlantic swells making the beaches functional for surfing and swimming (water temperature July: 20–22°C). Autumn is the best season — warm, clear, the mountains visible, the summer crowds gone. Winter is genuinely mild (6–8°C January average). The downside: the Basque coast gets more rain than anywhere east of it (about 1,400mm annually vs 850mm for Bordeaux). This comes in concentrated Atlantic fronts rather than persistent drizzle, but it is noticeable.",
+      },
+      {
+        heading: "Living costs and daily life",
+        body: "Bayonne is expensive relative to the Landes or the Gers — the Basque premium is real. Restaurants in the old town charge Bordeaux prices; the covered market produce is excellent but not cheap. Rent: T2 in Bayonne €750–950/month, in Anglet €800–1,100/month. The TGV to Paris from Bayonne takes 3h15–3h45 (depending on service). Biarritz-Anglet-Bayonne airport serves a handful of European routes including London City and Dublin. San Sebastián — widely considered the best food city in Europe per capita — is 45 minutes by car across the Spanish border. For food culture, surf, mountains (the Pyrenees are 40km away), and a strong regional identity, the Basque coast is genuinely exceptional.",
+      },
+      {
+        heading: "The honest verdict",
+        body: "The Basque coast works best for: surfers and outdoor enthusiasts (surf schools, hiking, Pyrenees access, trail running on the Spanish border); people drawn to strong regional culture and exceptional food; those who can afford the premium and want the Atlantic rather than the Mediterranean. It works less well for: those on a tight budget (this is not affordable France); those who want a large city environment (Bordeaux, 2h north, is the nearest large city); those who need sustained summer heat rather than pleasant Atlantic summers. The property market is expensive enough that careful due diligence on flood maps (the Adour floods periodically in Bayonne) and orientation (south-facing is worth a premium) is important.",
+      },
+    ],
+    relatedCities: ["bayonne", "biarritz", "bordeaux", "pau", "saint-jean-de-luz"],
+    tags: ["living in Bayonne expat 2026", "Basque coast property prices 2026", "Bayonne Biarritz Anglet expat guide", "French Basque Country living guide 2026", "Biarritz expat property guide"],
+  },
+  {
+    slug: "living-in-arles-camargue-expat-guide-2026",
+    title: "Living in Arles and the Camargue: Van Gogh's City at Affordable Provence Prices (2026)",
+    metaTitle: "Living in Arles and the Camargue: honest expat guide 2026",
+    metaDesc: "Arles: Roman amphitheatre, Van Gogh's Provence, the Camargue on the doorstep — and property prices that are 40% cheaper than Aix. The honest 2026 guide.",
+    category: "city-guide",
+    emoji: "🌾",
+    readMinutes: 10,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Arles is the Provence that painters painted and the tourist brochures reference but very few expats actually move to — which explains why it is one of the best-value cities in the region. Roman amphitheatre intact and in use, Van Gogh's hospital and his café painting location preserved, the Camargue nature reserve beginning at the city's southern edge, LUMA Arles (a major contemporary arts foundation) driving cultural investment. And property at €2,000–2,800/m², roughly 40% below Aix-en-Provence.",
+    sections: [
+      {
+        heading: "The city: what it is and what it is not",
+        body: "Arles has 53,000 residents and a geographic footprint that is absurdly large for its population — the commune includes a large swath of the Camargue wetlands and Crau plain. The city itself is compact, centred on the Place de la République (the Roman obelisk, the Cathédrale Saint-Trophime, the Hôtel de Ville), the Arènes (the intact Roman amphitheatre, still used for bullfighting and concerts), and the Cours Gambetta running south. The LUMA Arles campus (designed by Frank Gehry, opened 2021) on the former railway workshops has changed the city's self-image significantly — it has attracted galleries, art hotels, and a cultural class that was not previously here. But Arles is also a working agricultural city: the Camargue ranchers, the rice farmers, the flamingo tourists, the Spanish bullfighting connection.",
+      },
+      {
+        heading: "Property prices: the Provence discount",
+        body: "Arles city: €1,800–2,800/m² for apartments. The desirable old-town area (between the Arènes and the Rhône, including the Roquette quarter) runs €2,200–3,200/m². Renovated hôtels particuliers (the Arles townhouse, typically 18th-century, courtyard, several floors) start from €400,000 and reach €1.5M for the most spectacular examples. The Alpilles (30km north, including Les Baux-de-Provence and Saint-Rémy): €3,000–5,000/m² and rising under pressure from Parisian buyers. The Camargue countryside: difficult — it is a flood plain, and many areas have strict restrictions on permanent habitation or renovation. Check the PLU carefully. For comparison: Aix-en-Provence equivalent properties run 35–50% more; Avignon 10–20% more.",
+      },
+      {
+        heading: "The Camargue: an extraordinary landscape on the doorstep",
+        body: "The Camargue regional nature park begins literally at the southern edge of Arles and extends to the Saintes-Maries-de-la-Mer. Flamingos, white horses, black bulls, rice fields, salt pans, the Étang de Vaccarès. For residents who value access to wild landscape over urban amenities, this is exceptional. The Camargue is not a managed park like the Luberon — it is a functioning wetland ecosystem with working farms, and the access by bicycle from Arles is one of the best flat cycling routes in Provence (25km to the sea with virtually no traffic). The downside: the Camargue generates mosquitoes in summer, particularly after rain. Those who live at its edge manage this with screens and citronella; those who live in the city itself are less affected.",
+      },
+      {
+        heading: "Arts, culture, and daily life",
+        body: "LUMA Arles is a legitimate cultural institution of international standing — the Gehry tower, the exhibition programme, the residencies. Les Rencontres de la Photographie (annual photography festival, July) is the most important photography event in Europe. The Fêtes d'Arles (bullfighting season) draws a Spanish-inflected crowd. The weekly market on the Boulevard des Lices (Saturday) is genuinely excellent — Camargue rice, local olive oil, Alpilles honey, Camargue bull meat, local cheese from the Alpilles farms. The permanent commercial infrastructure is adequate — the Carrefour and Leclerc on the ring road cover routine shopping. For anything specialised, Marseille is 90km east (1 hour by road) and Montpellier 70km west (1 hour).",
+      },
+      {
+        heading: "Getting around: the train, the road, and the canal",
+        body: "Arles has a TER train station with regular connections to Marseille (35–50 min), Nîmes (20 min), and Montpellier (40 min). TGV access requires Avignon TGV or Marseille Saint-Charles — Paris in 2h40 from Avignon. The city is on the A54 motorway connecting Marseille and Nîmes. Within the city, a bicycle is genuinely practical — the centre is compact and relatively flat. The Camargue is car or bicycle territory; no public transport of significance once you leave the urban core. Arles airport does not exist in practical terms for international travel.",
+      },
+      {
+        heading: "The honest verdict",
+        body: "Arles works best for: people drawn to a combination of deep history, contemporary arts, Provence landscape, and genuine affordability; artists and cultural workers (the LUMA effect has created a genuine creative community); those who want access to the Camargue and Alpilles without the premium of the Luberon or Aix. It works less well for: those who need a large city environment (Arles is small and the downtown feels quiet outside market days and summer); those who require frequent international flights (Marseille Airport at 90km is manageable but not ideal); those who are sensitive to summer heat (July–August in Arles can be severe: 32–36°C regularly, with Mistral providing some relief). The combination of low property prices, exceptional history, and cultural investment makes Arles one of the most undervalued places to live in southern France.",
+      },
+    ],
+    relatedCities: ["arles", "avignon", "aix-en-provence", "nimes", "marseille"],
+    tags: ["living in Arles expat 2026", "Arles property prices guide 2026", "Camargue living expat guide", "affordable Provence expat 2026", "Arles LUMA expat guide"],
+  },
+  {
+    slug: "living-in-colmar-alsace-expat-guide-2026",
+    title: "Living in Colmar: Alsace's Most Beautiful City Without the Strasbourg Premium (2026)",
+    metaTitle: "Living in Colmar, Alsace: honest expat guide 2026",
+    metaDesc: "Colmar is Alsace's chocolate-box city — half-timbered streets, world-class wine, the Rhine 20 minutes away. And property prices 30% below Strasbourg. The honest guide.",
+    category: "city-guide",
+    emoji: "🍷",
+    readMinutes: 10,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Colmar (71,000 residents) is the capital of the Alsatian wine route, the city with the most intact medieval half-timbered streetscape in France, and the home of the Isenheim Altarpiece (one of the most important paintings in Europe). It is also 30% cheaper to buy property in than Strasbourg, 40 minutes from the Swiss border, and has a quality of life that consistently surprises people who expected a tourist trap and found a real city.",
+    sections: [
+      {
+        heading: "What Colmar actually is",
+        body: "Colmar is a city that looks like a film set — the Petite Venise quarter (canals, geranium-covered half-timbered houses, restaurant terraces on the water), the Tanners' Quarter, the Old Town around the Koïfhus customs house — but is not a film set. People live in these buildings, shop in the Wednesday and Saturday markets, drink at the winstubs (traditional Alsatian wine bars). The city has genuine urban functions: a large hospital (CHU de Colmar), Alsace University, industrial zones on the outskirts, a TGV station. It has avoided the full-tourist-dependency trap that some Alsatian villages have fallen into, partly through sheer size and partly through maintaining functioning commerce rather than souvenir shops.",
+      },
+      {
+        heading: "Property prices and what that means practically",
+        body: "Colmar city: €2,200–3,200/m² depending on quartier. The Old Town commands a premium (€3,000–4,000/m²); the residential suburbs (Ingersheim, Wintzenheim, Turckheim — all part of the practical Colmar zone) are cheaper (€2,000–2,800/m²). Renovated half-timbered houses in the historic centre: €350,000–800,000 depending on size and condition. The vine-growing villages along the Route des Vins (Riquewihr, Kaysersberg, Ribeauvillé) have extreme premiums due to tourism and wine prestige: €3,500–6,000/m² for something decent. Strasbourg equivalent: 25–35% more. Basel/Switzerland equivalent: 200%+ more — which explains why cross-border workers from Basel choose Colmar for their French base.",
+      },
+      {
+        heading: "The wine dimension",
+        body: "Colmar is the geographic centre of the Alsatian wine route — 170km of vineyards running from Thann to Marlenheim. This is a practical daily reality rather than a weekend hobby: the cooperative caves (Turckheim, Beblenheim, Riquewihr) sell Riesling, Pinot Gris, Gewurztraminer, and Cremant at cave prices. The Saturday market in Colmar has wine producers direct from the vineyard. The annual Foire aux Vins d'Alsace (last week of July, first week of August) is one of the largest food and wine events in France. For people who find the wine dimension of French life important rather than incidental, Colmar puts them in the centre of one of the two great French wine landscapes (Burgundy being the other).",
+      },
+      {
+        heading: "Connectivity: the Swiss and German dimensions",
+        body: "Colmar's TGV station gives direct access to Paris-Est in 2h20. Basel (Switzerland) is 45 minutes by TER — a critical fact for cross-border workers, since Basel hosts major pharmaceutical and chemical companies (Roche, Novartis, Syngenta) that employ significant numbers of French cross-border commuters. The Swiss salaries (earned in CHF) combined with French housing costs (in euros) create a substantial income advantage. Freiburg (Germany) is 30km east through the Rhine crossing. The location — simultaneously close to France, Germany, and Switzerland — is genuinely unusual and is a practical advantage for anyone with multilateral European professional life.",
+      },
+      {
+        heading: "Climate and daily life",
+        body: "Colmar has one of the sunniest climates in France east of the Vosges: the Vosges mountains to the west create a rain shadow that gives the Rhine plain an unexpectedly dry and sunny climate (around 1,850 hours of sunshine annually, comparable to Bordeaux). Winters are cold but clear (continental influence): -5 to 5°C in January, with regular snow possible. Summers are warm and dry: 25–30°C in July. The Vosges behind Colmar are accessible for skiing in winter (30 min to La Bresse or Markstein) and hiking in summer. The city's hospital covers most medical needs; Strasbourg's CHU for complex cases is 70 minutes away.",
+      },
+      {
+        heading: "The honest verdict",
+        body: "Colmar works best for: people drawn to Alsatian culture, wine, and medieval architecture who don't want to pay Strasbourg prices; cross-border workers commuting to Basel or Freiburg; those who find the Franco-German cultural hybridity (choucroute, Riesling, German street names, Romanesque churches) attractive rather than confusing; retirees who want beauty, calm, and good infrastructure without a large city. It works less well for: those who need a large city for professional or social reasons (Colmar is a small city despite its visual impact); those who find the tourist season intrusive (the Old Town in December during the Christmas markets is genuinely overwhelmed); those who prefer Atlantic climate to continental. The price differential with Strasbourg is real and represents genuine value.",
+      },
+    ],
+    relatedCities: ["colmar", "strasbourg", "mulhouse", "freiburg", "riquewihr"],
+    tags: ["living in Colmar expat 2026", "Colmar property prices Alsace 2026", "Alsace wine route living expat", "Colmar vs Strasbourg property 2026", "cross-border worker Basel France 2026"],
+  },
 ];
 
 export function getEnGuide(slug: string): EnGuide | undefined {
