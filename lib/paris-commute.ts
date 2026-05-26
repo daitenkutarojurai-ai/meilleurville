@@ -12,7 +12,7 @@
 import { CITIES_SEED, type CitySeed } from "@/data/cities-seed";
 import { haversineKm } from "@/lib/distances";
 
-interface TgvStation {
+export interface TgvStation {
   /** Slug d'une ville de CITIES_SEED, ou un nom court pour les hubs hors seed */
   slug: string;
   name: string;
@@ -27,7 +27,7 @@ interface TgvStation {
 
 // Stations TGV/Intercités/TER directes vers Paris — temps Oui.sncf (jun 2025).
 // Sélection : tous les hubs > 1 train direct/jour.
-const TGV_STATIONS: TgvStation[] = [
+export const TGV_STATIONS: TgvStation[] = [
   // LGV Sud-Est
   { slug: "lyon", name: "Lyon Part-Dieu", lat: 45.7605, lon: 4.8593, parisMin: 117, line: "Sud-Est" },
   { slug: "saint-etienne", name: "Saint-Étienne", lat: 45.4309, lon: 4.3865, parisMin: 165, line: "Sud-Est" },

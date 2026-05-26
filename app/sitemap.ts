@@ -154,6 +154,13 @@ function staticSection(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/cout-menage`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.75 },
     { url: `${BASE_URL}/louer-ou-acheter`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.75 },
     { url: `${BASE_URL}/depuis-paris`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.75 },
+    { url: `${BASE_URL}/depuis`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.8 },
+    ...["lyon","marseille","bordeaux","toulouse","nice","nantes","strasbourg","montpellier","lille","grenoble","rennes","reims","dijon","metz","nancy","rouen","caen","angers","tours","le-havre","brest","annecy","pau","bayonne","clermont-ferrand","besancon"].map((slug) => ({
+      url: `${BASE_URL}/depuis/${slug}`,
+      lastModified: STATIC_UPDATED,
+      changeFrequency: "monthly" as const,
+      priority: 0.72,
+    })),
     { url: `${BASE_URL}/environnement`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.85 },
     { url: `${BASE_URL}/environnement/cote-atlantique`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/environnement/arc-mediterraneen`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.7 },

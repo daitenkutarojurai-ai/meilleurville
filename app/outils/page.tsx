@@ -142,6 +142,14 @@ const TOOLS: Tool[] = [
     cta: "Voir le calendrier",
   },
   {
+    href: "/depuis",
+    emoji: "🚄",
+    title: "Destinations depuis votre ville",
+    desc:
+      "Choisissez votre ville de départ : toutes les destinations françaises classées par temps de trajet (TGV, Intercités ou voiture). Idéal pour planifier un week-end.",
+    cta: "Choisir ma ville",
+  },
+  {
     href: "/feed.xml",
     emoji: "📡",
     title: "Flux RSS des guides",
