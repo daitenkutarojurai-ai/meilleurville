@@ -23025,6 +23025,168 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["Tours vs Orléans 2026", "Tours ou Orléans s'installer Loire", "comparatif Tours Orléans immobilier TGV", "Val de Loire villes comparaison 2026", "meilleure ville Loire Tours Orléans 2026"],
   },
+  {
+    slug: "budget-mensuel-realiste-strasbourg-2026",
+    title: "Budget mensuel réaliste à Strasbourg en 2026 : ce que ça coûte vraiment",
+    metaTitle: "Budget mensuel Strasbourg 2026 — Ce que coûte vraiment vivre à Strasbourg",
+    metaDesc: "Combien faut-il pour vivre à Strasbourg en 2026 ? Budget mensuel détaillé : loyer, tram, bière, Parlement Européen. Chiffres réels pour célibataire et couple.",
+    category: "budget",
+    emoji: "🥨",
+    readMinutes: 7,
+    publishedAt: "2026-05-01",
+    updatedAt: "2026-05-26",
+    intro: "Strasbourg est la seule ville française avec une dimension européenne institutionnelle vécue au quotidien — Parlement Européen, Conseil de l'Europe, Cour des droits de l'Homme. Ce contexte crée une ville cosmopolite avec une demande locative soutenue. Les prix reflètent cette attractivité : Strasbourg est plus chère que Mulhouse ou Metz, mais reste accessible par rapport à Lyon ou Bordeaux.",
+    sections: [
+      {
+        heading: "Logement : la prime européenne",
+        body: "Studio 22 m² dans la Neustadt ou la Grande Île : 600–870 €/mois. T2 40 m² à Krutenau ou Orangerie : 780–1 100 €/mois. T3 65 m² à Neudorf ou Hautepierre : 850–1 200 €/mois. T3 65 m² en banlieue proche (Schiltigheim, Ostwald) : 800–1 100 €/mois. Colocation chambre T4 : 480–660 €/mois. La prime pour le secteur Orangerie (près des institutions européennes) est de 10–20 % sur les autres quartiers résidentiels.",
+      },
+      {
+        heading: "Transport : le tram strasbourgeois",
+        body: "CTS (Compagnie des Transports Strasbourgeois) abonnement mensuel : 68 €. Le tramway de Strasbourg (6 lignes) est l'un des plus denses de France et l'un des modèles européens du tram moderne. Véloparc abonnement : 10 €/an. Strasbourg est la capitale française du vélo — plus de 600 km de pistes cyclables et une culture du vélo rare en France. TGV Paris-Montparnasse : 1h48.",
+      },
+      {
+        heading: "Alimentation : la gastronomie alsacienne",
+        body: "Marché des Halles couvert (quotidien, centre-ville) et marchés en plein air (place Broglie, place de la Mésange). Budget courses pour une personne : 280–390 €/mois. La cuisine alsacienne (choucroute, tarte flambée, baeckeoffe, kougelhopf) est accessible en winstub — le format bistro alsacien : comptez 15–22 € pour un plat complet. La bière alsacienne (Kronenbourg, Meteor, Licorne) se consomme en pression à partir de 3,50 € dans les winstubs.",
+      },
+      {
+        heading: "Le coût de la frontière",
+        body: "La proximité de l'Allemagne crée une spécificité strasbourgeoise : il est courant de faire ses courses à Kehl (2 km, 5 min) ou à Offenburg (30 km, 30 min) où certains produits (viande, produits laitiers allemands, alcools) sont 10–20 % moins chers qu'en France. Les Strasbourgeois qui pratiquent régulièrement le shopping transfrontalier économisent 30–60 €/mois sur l'alimentation.",
+      },
+      {
+        heading: "Récapitulatif",
+        body: "Budget strasbourgeois célibataire confortable : T2 900 €, tram 68 €, alimentation 400 €, winstubs/sorties 220 €, divers 150 € = 1 740–2 000 €/mois. Couple en T3 Neudorf (950 €) : 2 900–3 400 €/mois. Strasbourg est comparable à Rennes en termes de coût, avec la prime institutionnelle européenne qui tire les loyers vers le haut dans les quartiers premium. Pour les profils travaillant dans les institutions européennes ou sur le marché frontalier alsacien, Strasbourg est le seul choix réaliste.",
+      },
+    ],
+    relatedCities: ["strasbourg", "mulhouse", "colmar", "metz", "nancy"],
+    relatedGuides: [
+      "budget-mensuel-realiste-paris-2026",
+      "vivre-en-grand-est-alsace-moselle-guide-2025",
+    ],
+    tags: ["budget mensuel Strasbourg 2026", "combien coûte vivre Strasbourg", "prix Strasbourg loyer tram alsacien", "budget vivre Strasbourg Parlement Européen 2026", "Strasbourg coût de la vie alsace 2026"],
+  },
+  {
+    slug: "budget-mensuel-realiste-lille-2026",
+    title: "Budget mensuel réaliste à Lille en 2026 : ce que ça coûte vraiment",
+    metaTitle: "Budget mensuel Lille 2026 — Ce que coûte vraiment vivre à Lille",
+    metaDesc: "Combien faut-il pour vivre à Lille en 2026 ? Budget mensuel détaillé : loyer, métro, frites, Eurostar. Chiffres réels pour célibataire et couple.",
+    category: "budget",
+    emoji: "🍺",
+    readMinutes: 7,
+    publishedAt: "2026-05-01",
+    updatedAt: "2026-05-26",
+    intro: "Lille est souvent citée comme l'une des meilleures villes françaises pour les jeunes actifs — grande métropole européenne à -40 % des prix parisiens, connexion London/Paris/Bruxelles en moins de 2h, et une énergie culturelle et festive unique. Ce guide donne les chiffres réels pour vivre à Lille en 2026.",
+    sections: [
+      {
+        heading: "Logement : -40 % sur Paris pour une vraie métropole",
+        body: "Studio 22 m² dans le Vieux-Lille ou la République : 550–800 €/mois. T2 40 m² à Wazemmes ou Moulins : 620–900 €/mois. T3 65 m² à Fives ou Hellemmes : 700–1 000 €/mois. T3 65 m² à Villeneuve d'Ascq (proche universités, bien connecté) : 720–1 000 €/mois. Colocation chambre T4 : 420–600 €/mois. Roubaix et Tourcoing (banlieue immédiate) descendent à 400–600 €/mois pour un T2 — le prix de la périphérie dans une conurbation qui se gentrify doucement.",
+      },
+      {
+        heading: "Transport : métro VAL et Transpole",
+        body: "Transpole abonnement mensuel : 67 €. Métro VAL (2 lignes automatiques, l'un des meilleurs d'Europe pour sa taille), tram 2 lignes, bus. Eurostar Lille–Londres St-Pancras : 1h20 (80–200 € aller selon le tarif). Thalys/Eurostar Lille–Bruxelles : 35 min. TGV Paris-Nord : 1h00. La position géographique de Lille en fait le seul grand hub ferroviaire européen de France hors Paris.",
+      },
+      {
+        heading: "Alimentation et spécialités lilloises",
+        body: "Marché de Wazemmes (dimanche matin, un des plus grands marchés de France) : l'expérience lilloise authentique. Budget courses pour une personne : 270–380 €/mois. Les spécialités lilloises (maroilles fromage, welsh, carbonade flamande, waterzooi) se dégustent à prix modérés dans les estaminets (brasseries traditionnelles). Les friteries — institution culturelle des Hauts-de-France — servent des frites à 3–5 € que les foodies admettent être les meilleures de France.",
+      },
+      {
+        heading: "La braderie et la culture lilloise",
+        body: "La Braderie de Lille (premier week-end de septembre) est la plus grande brocante d'Europe — 200 km de stands, 2 millions de visiteurs. C'est le symbole de l'identité lilloise. La scène musicale lillloise (Aéronef, La Malterie, Biplan) est parmi les plus actives de France hors Paris. Le LOSC (Ligue 1) et le stade Pierre-Mauroy (50 000 places) structurent la sociabilité masculine du Nord. Le Palais des Beaux-Arts de Lille est l'un des plus riches de province.",
+      },
+      {
+        heading: "Récapitulatif Lille",
+        body: "Budget lillois célibataire confortable : T2 750 €, transport 67 €, alimentation 380 €, sorties 200 €, divers 150 € = 1 550–1 800 €/mois. Couple en T3 Wazemmes (800 €) : 2 600–3 100 €/mois. Lille est l'une des villes françaises où le rapport salaire-coût-qualité de vie est le meilleur. Pour les profils travaillant entre Paris et Londres, ou dans la grande distribution et la logistique du Nord, c'est la ville la mieux positionnée de France — et de loin.",
+      },
+    ],
+    relatedCities: ["lille", "amiens", "reims", "dunkerque", "valenciennes"],
+    relatedGuides: [
+      "budget-mensuel-realiste-paris-2026",
+      "vivre-en-hauts-de-france-guide-2026",
+    ],
+    tags: ["budget mensuel Lille 2026", "combien coûte vivre Lille", "prix Lille loyer métro Eurostar", "budget vivre Lille célibataire couple 2026", "Lille coût de la vie Hauts-de-France 2026"],
+  },
+  {
+    slug: "lyon-vs-grenoble-comparatif-2026",
+    title: "Lyon vs Grenoble 2026 : laquelle choisir pour s'installer en Auvergne-Rhône-Alpes ?",
+    metaTitle: "Lyon vs Grenoble 2026 — Comparatif pour s'installer en Rhône-Alpes",
+    metaDesc: "Lyon ou Grenoble ? Comparatif immobilier, emploi, Alpes, qualité de vie 2026. Deux métropoles alpines très différentes. Guide objectif.",
+    category: "comparaison",
+    emoji: "🏔️",
+    readMinutes: 7,
+    publishedAt: "2026-05-01",
+    updatedAt: "2026-05-26",
+    intro: "Lyon et Grenoble sont les deux grandes métropoles de la région Auvergne-Rhône-Alpes — séparées de 110 km et 55 minutes par l'autoroute A48. Lyon est la grande métropole généraliste ; Grenoble est la métropole scientifique spécialisée. Pour certains profils, le choix est évident ; pour d'autres, il mérite un examen sérieux.",
+    sections: [
+      {
+        heading: "Immobilier : Grenoble 30 % moins chère",
+        body: "Lyon centre (Presqu'île, Croix-Rousse) : 4 500–7 500 €/m². Lyon résidentiel (Villeurbanne, 8e) : 3 000–4 500 €/m². Grenoble centre (Victor Hugo, Berriat) : 2 800–4 200 €/m². Grenoble résidentiel (Échirolles, Meylan) : 2 200–3 200 €/m². L'écart de 30–40 % est constant. Pour un même budget de 250 000 €, vous achetez un T2 central à Lyon ou un T3 dans un bon quartier grenoblois. Pour les familles cherchant une maison avec jardin, Grenoble est 2× plus accessible que Lyon.",
+      },
+      {
+        heading: "Emploi : Lyon plus profond, Grenoble plus spécialisé",
+        body: "Lyon a le deuxième bassin d'emploi de France : multisectoriel (pharma, finance, services, tech, industrie), très profond, accessible à la plupart des profils qualifiés. Grenoble est plus étroit mais extraordinairement profond pour les secteurs spécifiques : recherche fondamentale (CEA, CNRS, ESRF, ILL), semi-conducteurs (STMicroelectronics), énergie (Schneider Electric, GE Vernova). Pour un ingénieur en microélectronique ou un chercheur en physique, Grenoble est supérieure à Lyon. Pour un juriste, un comptable, un commercial, ou un profil généraliste : Lyon sans hésitation.",
+      },
+      {
+        heading: "Les Alpes : avantage Grenoble",
+        body: "Grenoble est encerclée par les Alpes — Belledonne, Chartreuse, Vercors à 20–30 min, les grands domaines (Alpe d'Huez, Les 2 Alpes, Chamrousse) à 40–60 min. C'est inégalé pour une métropole. Lyon n'est pas sans accès montagne (Mont Blanc en 2h30 par l'A40, Chartreuse en 1h30) mais la différence qualitative avec Grenoble est énorme. Si le ski, la randonnée et les sports alpins sont centraux dans votre projet de vie, Grenoble change la proposition de valeur fondamentalement.",
+      },
+      {
+        heading: "Qualité de vie générale : Lyon gagne",
+        body: "Lyon a une gastronomie (numéro un mondial du rapport qualité-prix), une vie culturelle (Opéra, Nuits de Fourvière, Fête des Lumières), et un tissu social plus riche que Grenoble pour la plupart des modes de vie. Grenoble a une image d'enfermement dans sa cuvette alpine (pollution hivernale réelle par inversion thermique) et une université très dominante qui oriente la sociabilité vers les cycles étudiants. Grenoble est une ville sympa mais plus 'fonctionnelle' que Lyon — qui est un art de vivre en soi.",
+      },
+      {
+        heading: "Verdict",
+        body: "Lyon pour : tous les profils généralistes et la plupart des carrières ; les gastronomes, les amateurs de vie urbaine riche et diverse ; les familles qui veulent les meilleurs services d'une grande métropole. Grenoble pour : les scientifiques et ingénieurs en recherche, semi-conducteurs, énergie ; les alpinistes inconditionnels pour qui les montagnes à 20 min valent le surcoût psychique ; les acheteurs immobiliers qui veulent Lyon-niveau-tech à -30 % sur le logement.",
+      },
+    ],
+    relatedCities: ["lyon", "grenoble", "chambery", "annecy", "saint-etienne"],
+    relatedGuides: [
+      "budget-mensuel-realiste-lyon-2026",
+      "acheter-a-grenoble-quel-quartier-budget-2026",
+      "acheter-a-lyon-quel-quartier-budget-2026",
+    ],
+    tags: ["Lyon vs Grenoble 2026", "Lyon ou Grenoble s'installer Rhône-Alpes", "comparatif Lyon Grenoble immobilier emploi Alpes", "vivre Rhône-Alpes Lyon Grenoble", "meilleure métropole alpine France 2026"],
+  },
+  {
+    slug: "villes-france-moins-cheres-2026-top-10",
+    title: "Top 10 des villes françaises les moins chères pour s'installer en 2026",
+    metaTitle: "Top 10 villes France moins chères 2026 — Immobilier abordable, où s'installer",
+    metaDesc: "Les 10 villes françaises les moins chères pour s'installer en 2026 : immobilier abordable, coût de la vie, qualité de vie. Classement honnête avec données réelles.",
+    category: "budget",
+    emoji: "💰",
+    readMinutes: 8,
+    publishedAt: "2026-05-01",
+    updatedAt: "2026-05-26",
+    intro: "La carte de la France abordable est plus riche qu'on ne le croit. Des villes moyennes oubliées des médias nationaux offrent des maisons avec jardin à 120 000 €, des T3 à 600 €/mois, et une qualité de vie décente — pour peu qu'on accepte de s'éloigner des grandes métropoles et de l'axe Paris-Lyon-Marseille. Ce top 10 ne classe pas les villes les plus pittoresques ou les plus tendances — il classe celles où le budget s'étire le plus.",
+    sections: [
+      {
+        heading: "1. Limoges — la capitale méconnue du Centre-Ouest",
+        body: "Limoges (130 000 hab.) est régulièrement classée parmi les moins chères de France pour une préfecture de cette taille. Prix immobilier : 1 000–2 000 €/m². T3 65 m² : 700–950 €/mois en location. Pavillon 100 m² avec jardin en périphérie : 120 000–180 000 €. L'économie tourne autour de la porcelaine historique (Haviland, Bernardaud), la santé, et les services publics. TGV Paris en 2h58. Hors bons plans immobiliers, l'offre culturelle et économique est limitée — mais pour les télétravailleurs ou retraités cherchant l'espace, c'est une valeur sûre.",
+      },
+      {
+        heading: "2. Châteauroux — la surprise du Berry",
+        body: "Châteauroux (43 000 hab., Indre) est l'une des villes de France avec les prix immobiliers les plus bas parmi les villes dotées d'une gare et de services. Prix : 800–1 600 €/m². Maisons avec jardins à partir de 70 000–100 000 €. Intercités Paris-Austerlitz en 1h45 (sans TGV). L'économie est industrielle (Mécachrome aviation, Alstom) — plus robuste qu'il n'y paraît. Pour un télétravailleur qui valorise l'espace maximal à coût minimal et accepte l'isolement relatif, Châteauroux est une option légitimement sous-estimée.",
+      },
+      {
+        heading: "3. Vierzon et Bourges — le Berry accessible",
+        body: "Bourges (65 000 hab.) : prix 1 200–2 000 €/m², cathédrale UNESCO, Printemps de Bourges (festival). Vierzon (25 000 hab., 30 km nord) : prix encore plus bas (900–1 500 €/m²), gare avec liaisons correctes. Le Berry est une région agricole verte et calme — paysages de bocage et d'étangs, qualité de vie tranquille, coût de la vie parmi les plus bas de France métropolitaine.",
+      },
+      {
+        heading: "4. Saint-Quentin et le bassin de l'Aisne",
+        body: "Saint-Quentin (55 000 hab., Aisne) : prix 800–1 400 €/m². TGV Paris en 55 min — extraordinaire connexion pour ces prix. L'économie est en reconversion (textile, industrie) avec des défis réels, mais la connexion Paris en moins d'1h est unique à ce niveau de prix. Laon, Soissons, Reims proche (60 km) — le bassin de l'Aisne est une option pour les télétravauilleurs qui ne refusent pas la sociologie des villes post-industrielles.",
+      },
+      {
+        heading: "5–10 : Épinal, Roanne, Alençon, Guéret, Tulle, Cahors",
+        body: "Épinal (30 000 hab., Vosges) : 1 000–1 700 €/m², préfecture vosgienne entre forêts et industrie textile. Roanne (35 000 hab., Loire) : 900–1 600 €/m², gastronomie (les frères Troisgros — 3 étoiles Michelin à 5 km), à 1h de Lyon. Alençon (26 000 hab., Orne) : 1 000–1 700 €/m², dentelle, proche Normandie. Guéret (13 000 hab., Creuse) : 700–1 200 €/m² — l'une des moins chères de France préfecture. Tulle (15 000 hab., Corrèze) : 700–1 300 €/m², capitale de l'accordéon, miel, cadre de moyenne montagne. Cahors (20 000 hab., Lot) : 1 200–2 200 €/m², cité médiévale sur le Lot, vin de Cahors, Quercy.",
+      },
+    ],
+    relatedCities: ["limoges", "bourges", "saint-quentin", "cahors", "roanne"],
+    relatedGuides: [
+      "budget-vivre-en-france-comparatif",
+      "budget-mensuel-realiste-paris-2026",
+      "acheter-a-limoges-quel-quartier-budget-2026",
+    ],
+    tags: ["villes moins chères France 2026", "top 10 villes abordables France", "immobilier pas cher France s'installer", "où s'installer budget limité France 2026", "meilleures villes budget serré France 2026"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
