@@ -24,6 +24,7 @@ import {
 } from "@/lib/vacation-fit";
 
 type Step = 1 | 2 | 3 | 4 | 5 | "results";
+type EmailState = "idle" | "loading" | "done" | "error";
 
 interface Answers {
   month: MonthIndex | null;
@@ -58,10 +59,27 @@ const BUDGET_TIERS: Array<{ tier: 1 | 2 | 3 | 4; label: string; range: string }>
 export function QuizFlow() {
   const [step, setStep] = useState<Step>(1);
   const [answers, setAnswers] = useState<Answers>(EMPTY_ANSWERS);
+  const [nlEmail, setNlEmail] = useState("");
+  const [nlState, setNlState] = useState<EmailState>("idle");
 
   function reset() {
     setAnswers(EMPTY_ANSWERS);
     setStep(1);
+  }
+
+  async function handleNlSubmit(e: React.FormEvent) {
+    e.preventDefault();
+    setNlState("loading");
+    try {
+      const res = await fetch("/api/vacances/newsletter", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ email: nlEmail }),
+      });
+      setNlState(res.ok ? "done" : "error");
+    } catch {
+      setNlState("error");
+    }
   }
 
   function next() {
@@ -357,9 +375,47 @@ export function QuizFlow() {
             </div>
           )}
 
+          {/* Email capture */}
+          <div className="mt-6 rounded-2xl border border-[var(--border)] bg-[var(--bg-elevated)] p-4">
+            {nlState === "done" ? (
+              <p className="text-sm text-[var(--text-secondary)] text-center py-1">
+                C&apos;est noté ! On vous enverra les prochaines sélections.
+              </p>
+            ) : (
+              <>
+                <p className="text-sm font-medium text-[var(--text-primary)] mb-0.5">
+                  Recevez nos sélections vacances chaque mois
+                </p>
+                <p className="text-xs text-[var(--text-secondary)] mb-3">
+                  Un seul email par mois. Pas de spam. Désabonnement en un clic.
+                </p>
+                <form onSubmit={handleNlSubmit} className="flex gap-2">
+                  <input
+                    type="email"
+                    value={nlEmail}
+                    onChange={(e) => setNlEmail(e.target.value)}
+                    placeholder="votre@email.fr"
+                    required
+                    className="flex-1 min-w-0 rounded-xl border border-[var(--border)] bg-[var(--bg-canvas)] px-3 py-2 text-sm text-[var(--text-primary)] placeholder:text-[var(--text-tertiary)] focus:outline-none focus:border-[var(--accent)]"
+                  />
+                  <button
+                    type="submit"
+                    disabled={nlState === "loading"}
+                    className="rounded-xl bg-[var(--accent)] text-white text-sm font-semibold px-4 py-2 hover:bg-[var(--accent-hover)] disabled:opacity-50 transition-colors shrink-0"
+                  >
+                    {nlState === "loading" ? "..." : "M'abonner"}
+                  </button>
+                </form>
+                {nlState === "error" && (
+                  <p className="mt-1.5 text-xs text-red-500">Une erreur est survenue, réessayez.</p>
+                )}
+              </>
+            )}
+          </div>
+
           <button
             onClick={reset}
-            className="mt-6 inline-flex items-center gap-1.5 text-sm font-medium text-[var(--text-secondary)] hover:text-[var(--accent)] transition-colors"
+            className="mt-4 inline-flex items-center gap-1.5 text-sm font-medium text-[var(--text-secondary)] hover:text-[var(--accent)] transition-colors"
           >
             <RefreshCw className="h-3.5 w-3.5" />
             Refaire le quiz

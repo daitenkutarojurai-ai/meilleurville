@@ -217,7 +217,7 @@ R11.1 (`/future-you` + `lib/future-you.ts`), R11.2 (`/vibe` + `lib/vibe.ts`), R1
 ### Vacances `/vacances` — architecture (shipped, monétisation pending)
 Engines: `lib/vacation-seasons.ts` (climat 12 mois ×352), `lib/vacation-activities.ts` (10 activités), `lib/vacation-fit.ts` (score composite + helpers). 387 routes SSG.
 Activation monétisation: créer compte Booking Partners → `NEXT_PUBLIC_BOOKING_AID=XXXXXXX` sur Vercel.
-Phases pending: 1.5 (normales Météo-France pour remplacer l'interpolation sinusoïdale), 3 (quiz `/vacances/quiz`, email capture).
+Phases pending: 1.5 (normales Météo-France pour remplacer l'interpolation sinusoïdale). Phase 3 shipped: quiz `/vacances/quiz` + email capture (Brevo list 4, `/api/vacances/newsletter`).
 
 ---
 
