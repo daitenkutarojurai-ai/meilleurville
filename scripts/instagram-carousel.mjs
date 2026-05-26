@@ -16,14 +16,14 @@
  *                     then GET /{page-id}?fields=instagram_business_account&access_token=PAGE_TOKEN
  */
 
-import { readFileSync, writeFileSync, existsSync } from "fs";
+import { readFileSync, writeFileSync, existsSync, readdirSync } from "fs";
 import { fileURLToPath } from "url";
-import { dirname, join } from "path";
+import { dirname, join, extname } from "path";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const QUEUE_FILE = join(root, "scripts", "instagram-queue.json");
 const BASE_URL = "https://mavilleideale.fr";
-const IG_API = "https://graph.instagram.com/v21.0";
+const IG_API = "https://graph.facebook.com/v21.0";
 
 // ─── Load .env.local ──────────────────────────────────────────────────────────
 const envRaw = readFileSync(join(root, ".env.local"), "utf-8");
@@ -37,7 +37,9 @@ const env = Object.fromEntries(
     })
 );
 
-const { IG_USER_ID, IG_ACCESS_TOKEN } = env;
+const { IG_USER_ID, IG_ACCESS_TOKEN, FB_PAGE_TOKEN, FB_PAGE_ID } = env;
+// When Instagram is linked to a Facebook Page, the Page token covers IG publishing
+const IG_TOKEN = IG_ACCESS_TOKEN || FB_PAGE_TOKEN;
 
 // ─── City stats (global score, key axes) for featured cities ─────────────────
 const CITIES = {
@@ -584,6 +586,36 @@ Nantes, c'est la vie métropolitaine sans l'écrasement de Paris.
   },
 ];
 
+// ─── Upload local file to Facebook CDN ───────────────────────────────────────
+// Instagram requires public image URLs. When the site's OG images aren't reachable,
+// upload local JPEGs/PNGs to the FB Page Photos (unpublished) to get a stable CDN URL.
+async function uploadFileToCDN(filePath) {
+  const ext = extname(filePath).toLowerCase();
+  const mime = ext === ".png" ? "image/png" : "image/jpeg";
+  const buf = readFileSync(filePath);
+
+  const form = new FormData();
+  form.append("source", new Blob([buf], { type: mime }), `slide${ext}`);
+  form.append("published", "false");
+  form.append("access_token", FB_PAGE_TOKEN);
+
+  const upload = await fetch(`https://graph.facebook.com/v21.0/${FB_PAGE_ID}/photos`, {
+    method: "POST",
+    body: form,
+  });
+  const uploadData = await upload.json();
+  if (!upload.ok) throw new Error(`Photo upload failed: ${JSON.stringify(uploadData)}`);
+
+  // Retrieve CDN URL from uploaded photo metadata
+  const meta = await fetch(
+    `https://graph.facebook.com/v21.0/${uploadData.id}?fields=images&access_token=${FB_PAGE_TOKEN}`
+  );
+  const metaData = await meta.json();
+  const url = metaData.images?.[0]?.source;
+  if (!url) throw new Error(`Could not get CDN URL for photo ${uploadData.id}`);
+  return url;
+}
+
 // ─── Queue management ─────────────────────────────────────────────────────────
 function readQueue() {
   if (!existsSync(QUEUE_FILE)) return { nextIndex: 0 };
@@ -612,7 +644,7 @@ async function uploadCarouselItem(imageUrl, altText) {
     image_url: imageUrl,
     is_carousel_item: true,
     alt_text: altText,
-    access_token: IG_ACCESS_TOKEN,
+    access_token: IG_TOKEN,
   });
 }
 
@@ -621,25 +653,31 @@ async function createCarouselContainer(childIds, caption) {
     media_type: "CAROUSEL",
     children: childIds.join(","),
     caption,
-    access_token: IG_ACCESS_TOKEN,
+    access_token: IG_TOKEN,
   });
 }
 
 async function publishCarousel(containerId) {
   return igPost(`/${IG_USER_ID}/media_publish`, {
     creation_id: containerId,
-    access_token: IG_ACCESS_TOKEN,
+    access_token: IG_TOKEN,
   });
 }
 
 // ─── Post a topic ─────────────────────────────────────────────────────────────
-async function postTopic(topic, dryRun = false) {
+// overrideUrls: if provided, replace topic slide image URLs (used with --slides)
+async function postTopic(topic, dryRun = false, overrideUrls = null) {
+  const slides = topic.slides.map((s, i) => ({
+    imageUrl: overrideUrls?.[i] ?? s.imageUrl,
+    altText: s.altText,
+  }));
+
   console.log(`\n📸 Carousel: "${topic.title}" [${topic.series}]`);
-  console.log(`📝 ${topic.slides.length} slides\n`);
+  console.log(`📝 ${slides.length} slides\n`);
 
   if (dryRun) {
     console.log("── Slides ──");
-    topic.slides.forEach((s, i) => {
+    slides.forEach((s, i) => {
       console.log(`  [${i + 1}] ${s.imageUrl}`);
       console.log(`      alt: ${s.altText}`);
     });
@@ -649,17 +687,16 @@ async function postTopic(topic, dryRun = false) {
     return;
   }
 
-  if (!IG_USER_ID || !IG_ACCESS_TOKEN) {
-    console.error("❌ IG_USER_ID or IG_ACCESS_TOKEN not set in .env.local");
-    console.error("   See setup instructions at the top of this file.");
+  if (!IG_USER_ID || !IG_TOKEN) {
+    console.error("❌ IG_USER_ID or FB_PAGE_TOKEN (or IG_ACCESS_TOKEN) not set in .env.local");
     process.exit(1);
   }
 
   // Upload each slide as a carousel item
   const childIds = [];
-  for (let i = 0; i < topic.slides.length; i++) {
-    const slide = topic.slides[i];
-    process.stdout.write(`  Uploading slide ${i + 1}/${topic.slides.length}... `);
+  for (let i = 0; i < slides.length; i++) {
+    const slide = slides[i];
+    process.stdout.write(`  Uploading slide ${i + 1}/${slides.length}... `);
     const r = await uploadCarouselItem(slide.imageUrl, slide.altText);
     if (!r.ok) {
       console.error(`\n❌ Slide ${i + 1} upload failed: ${JSON.stringify(r.data)}`);
@@ -668,7 +705,7 @@ async function postTopic(topic, dryRun = false) {
     console.log(`✅ ${r.data.id}`);
     childIds.push(r.data.id);
     // Instagram rate limit: small pause between uploads
-    if (i < topic.slides.length - 1) await new Promise((r) => setTimeout(r, 500));
+    if (i < slides.length - 1) await new Promise((r) => setTimeout(r, 500));
   }
 
   // Create carousel container
@@ -741,25 +778,86 @@ if (args.includes("--next")) {
   process.exit(0);
 }
 
+// --slides <dir> --topic <n>
+// Upload local JPEGs from <dir> to FB CDN, then post as Instagram carousel for topic <n>.
+// File order: alphabetical (slide-01.jpg, slide-02.jpg, ...).
+// Image count overrides topic's default slide count.
+if (args.includes("--slides")) {
+  const slideDir = args[args.indexOf("--slides") + 1];
+  const topicIdx = args.includes("--topic")
+    ? parseInt(args[args.indexOf("--topic") + 1], 10)
+    : 0;
+  const topic = TOPICS[topicIdx % TOPICS.length];
+  const dryRun = args.includes("--dry-run");
+
+  if (!slideDir) {
+    console.error("❌ --slides requires a directory path");
+    process.exit(1);
+  }
+
+  const files = readdirSync(slideDir)
+    .filter((f) => /\.(jpg|jpeg|png)$/i.test(f))
+    .sort()
+    .map((f) => join(slideDir, f));
+
+  if (files.length < 2) {
+    console.error(`❌ Need at least 2 image files in ${slideDir}, found ${files.length}`);
+    process.exit(1);
+  }
+
+  console.log(`\n📂 ${files.length} slides from ${slideDir}`);
+  files.forEach((f, i) => console.log(`   [${i + 1}] ${f}`));
+
+  let cdnUrls;
+  if (dryRun) {
+    cdnUrls = files.map((f) => `[local: ${f}]`);
+  } else {
+    if (!FB_PAGE_ID || !FB_PAGE_TOKEN) {
+      console.error("❌ FB_PAGE_ID or FB_PAGE_TOKEN not set — needed to upload images to CDN");
+      process.exit(1);
+    }
+    console.log("\n  Uploading to Facebook CDN...");
+    cdnUrls = [];
+    for (let i = 0; i < files.length; i++) {
+      process.stdout.write(`  File ${i + 1}/${files.length}: ${files[i]}... `);
+      const url = await uploadFileToCDN(files[i]);
+      console.log(`✅`);
+      cdnUrls.push(url);
+    }
+  }
+
+  // Pad or trim topic slides to match file count
+  const paddedTopic = {
+    ...topic,
+    slides: files.map((_, i) => topic.slides[i] ?? topic.slides[topic.slides.length - 1]),
+  };
+
+  await postTopic(paddedTopic, dryRun, cdnUrls);
+  if (!dryRun) {
+    const q = readQueue();
+    writeQueue({ ...q, lastPosted: topic.title, postedAt: new Date().toISOString() });
+  }
+  process.exit(0);
+}
+
 // Default: show help
 console.log(`
 Instagram Carousel poster — mavilleideale.fr
 
 Usage:
-  node scripts/instagram-carousel.mjs --list           List all ${TOPICS.length} topics
-  node scripts/instagram-carousel.mjs --preview 0      Preview slides for topic 0
-  node scripts/instagram-carousel.mjs --post 0         Post topic 0
-  node scripts/instagram-carousel.mjs --next           Post next topic in queue
-  node scripts/instagram-carousel.mjs --dry-run 0      Preview without posting
+  node scripts/instagram-carousel.mjs --list                   List all ${TOPICS.length} topics
+  node scripts/instagram-carousel.mjs --preview 0              Preview topic 0
+  node scripts/instagram-carousel.mjs --post 0                 Post topic 0 (needs live image URLs)
+  node scripts/instagram-carousel.mjs --next                   Post next queued topic
+  node scripts/instagram-carousel.mjs --slides ./slides/ --topic 0   Upload local JPEGs + post
+  node scripts/instagram-carousel.mjs --slides ./slides/ --topic 0 --dry-run   Preview only
 
-Env vars needed in .env.local:
-  IG_USER_ID        Instagram Business Account ID
-  IG_ACCESS_TOKEN   Long-lived token (instagram_basic + instagram_content_publish)
+Image workflow:
+  1. Design slides in Canva / Figma (1080×1080 or 1080×1350), export as JPEG
+  2. Name files so they sort correctly: slide-01.jpg, slide-02.jpg, ...
+  3. Run: node scripts/instagram-carousel.mjs --slides ./my-slides/ --topic 0
 
-Setup:
-  1. In Meta Business Suite, link your Instagram account to your Facebook Page
-  2. In Meta for Developers, add Instagram Graph API to your app
-  3. Generate a token with: instagram_basic, instagram_content_publish
-  4. GET https://graph.instagram.com/v21.0/me?fields=id&access_token=YOUR_TOKEN
-     → save the id as IG_USER_ID in .env.local
+Env vars in .env.local:
+  IG_USER_ID        Instagram Business Account ID  (already set)
+  FB_PAGE_TOKEN     Facebook Page token            (already set — covers IG when accounts linked)
 `);
