@@ -22337,6 +22337,211 @@ export const GUIDES: Guide[] = [
     tags: ["quitter Orléans 2026", "alternatives à Orléans Loire", "Orléans navetteur Paris alternatives", "partir d'Orléans où aller", "Orléans vs Tours vs Nantes 2026"],
   },
   {
+    slug: "vivre-en-centre-val-de-loire-guide-2026",
+    title: "Vivre en Centre-Val de Loire en 2026 : guide complet de la région",
+    metaTitle: "Vivre en Centre-Val de Loire 2026 — Guide complet, villes, qualité de vie",
+    metaDesc: "Tout sur vivre en Centre-Val de Loire : villes, immobilier, emploi, Loire, châteaux, qualité de vie. Guide complet pour s'installer dans la région en 2026.",
+    category: "region",
+    emoji: "🏰",
+    readMinutes: 9,
+    publishedAt: "2026-05-01",
+    updatedAt: "2026-05-26",
+    intro: "Le Centre-Val de Loire est la région des contradictions positives : riche en patrimoine mondial (châteaux de la Loire, cathédrales, vignobles), accessible depuis Paris en moins de 1h15 par TGV, et pourtant l'une des moins chères de France en termes d'immobilier. Tours, Orléans, Blois, Chartres, Bourges — cinq villes de caractère à moins de 130 km de Paris. Pour les télétravailleurs, retraités ou familles cherchant l'espace et le calme sans s'exiler à 500 km, cette région est un secret bien gardé.",
+    sections: [
+      {
+        heading: "Les villes à connaître",
+        body: "Tours (145 000 hab.) est la métropole ligérienne par excellence — TGV Paris en 1h00, économie pharma et nucléaire solide, université (30 000 étudiants), vieille ville dynamique, 2 200–3 500 €/m². Orléans (115 000 hab.) est plus proche de Paris (1h05 TGV) mais moins autonome — 2 500–3 800 €/m². Blois (45 000 hab.) est la ville de la Loire classique — château royal, vieille ville médiévale, Loire en centre-ville, 1 500–2 300 €/m²; idéal pour les télétravailleurs. Chartres (40 000 hab.) est la ville cathédrale, 1h08 de Paris-Montparnasse, 2 000–3 200 €/m². Bourges (65 000 hab.) est la capitale du Berry — cathédrale UNESCO, prix parmi les plus bas de la région (1 400–2 200 €/m²), calme provincial.",
+      },
+      {
+        heading: "Immobilier : parmi les moins chers près de Paris",
+        body: "Le Centre-Val de Loire offre les prix immobiliers les plus bas de France pour une région avec un accès TGV vers Paris. Les villes moyennes (Vierzon, Dreux, Vendôme, Romorantin-Lanthenay) descendent à 800–1 600 €/m². Pour un pavillon 100 m² avec jardin dans un bourg proche d'une ville TGV, comptez 150 000–220 000 €. La région souffre d'une démographie vieillissante et d'une pression immobilière limitée — ce qui profite aux acheteurs. Mais attention : une démographie atone signifie aussi moins de dynamisme économique local.",
+      },
+      {
+        heading: "Emploi et économie",
+        body: "L'économie régionale est diversifiée mais de taille modeste. Secteurs clés : pharmaceutique et cosmétique (Cosmétic Valley entre Paris, Chartres et Tours — premier cluster cosmétique mondial en termes d'emplois), énergie nucléaire (centrale de Saint-Laurent-Nouan, Dampierre, Belleville), agriculture et viticulture (Vouvray, Chinon, Sancerre), et les services publics dans les villes préfectures. Pour les profils tech ou finance, Tours est le seul bassin d'emploi local significatif. Orléans et Chartres restent dans l'orbite Paris. Télétravail : la région est l'une des premières bénéficiaires du travail à distance — beaucoup de cadres parisiens y ont acheté depuis 2020.",
+      },
+      {
+        heading: "Qualité de vie : la Loire et les châteaux au quotidien",
+        body: "Le patrimoine est la ressource qualitative principale de la région : 42 châteaux inscrits au Patrimoine Mondial UNESCO (Chambord, Chenonceau, Villandry...) à moins de 1h de voiture depuis n'importe quelle ville de la région. La Loire — fleuve sauvage, non canalisé, classé par l'UNESCO — est une ressource de loisirs exceptionnelle : vélo (la Loire à Vélo, 800 km de pistes), canoë, pêche. Le vignoble ligérien (Vouvray, Chinon, Sancerre, Pouilly-Fumé, Muscadet) est l'un des plus diversifiés de France. Le réseau de marchés locaux et de producteurs directs est dense — qualité alimentaire élevée à prix raisonnables.",
+      },
+      {
+        heading: "Pour quel profil ?",
+        body: "Le Centre-Val de Loire est particulièrement adapté aux : télétravailleurs parisiens qui veulent l'espace et le patrimoine sans l'éloignement ; retraités cherchant un environnement culturellement riche à budget modéré ; familles cherchant un pavillon avec jardin à moins de 200 000 € à moins de 1h30 de Paris ; profils pharma/cosmétique (Cosmétic Valley). Moins adapté pour : les jeunes actifs ambitieux sans emploi à distance (les marchés locaux sont étroits), les amateurs de grandes villes dynamiques (aucune métropole majeure dans la région), ou les personnes dépendantes d'une offre culturelle urbaine dense.",
+      },
+    ],
+    relatedCities: ["tours", "orleans", "blois", "chartres", "bourges"],
+    relatedGuides: [
+      "acheter-a-tours-quel-quartier-budget-2026",
+      "acheter-a-orleans-quel-quartier-budget-2026",
+      "acheter-a-chartres-quel-quartier-budget-2026",
+    ],
+    tags: ["vivre en Centre-Val de Loire 2026", "s'installer Centre-Val de Loire guide", "immobilier Centre-Val de Loire prix", "Tours Orléans Blois Chartres vivre", "région Loire châteaux qualité de vie 2026"],
+  },
+  {
+    slug: "vivre-en-normandie-guide-2026",
+    title: "Vivre en Normandie en 2026 : guide complet de la région",
+    metaTitle: "Vivre en Normandie 2026 — Guide complet, villes, qualité de vie",
+    metaDesc: "Tout sur vivre en Normandie : Rouen, Caen, Le Havre, falaises, mer, immobilier. Guide complet pour s'installer en Normandie en 2026.",
+    category: "region",
+    emoji: "⚓",
+    readMinutes: 9,
+    publishedAt: "2026-05-01",
+    updatedAt: "2026-05-26",
+    intro: "La Normandie est la région de France la plus proche de Paris et la plus méconnue à l'échelle nationale. Rouen à 1h20 de Paris-Saint-Lazare, Caen à 2h, Le Havre à 2h10. Des falaises d'albâtre classées, une côte de 600 km, le Débarquement, le camembert, le cidre — et une immobilier parmi les plus accessibles des régions à accès parisien rapide. Pour les Parisiens cherchant la mer, l'espace et un vrai changement de rythme sans s'exiler, la Normandie reste sous-exploitée.",
+    sections: [
+      {
+        heading: "Les villes clés de Normandie",
+        body: "Rouen (115 000 hab., 115 000 dans l'agglomération) est la grande métropole normande — cathédrale gothique, vieille ville à colombages, Seine, musées de classe mondiale (Musée des Beaux-Arts, Musée de la Céramique), et une économie diversifiée (pharmacie, logistique, port). TGV Paris-Saint-Lazare en 1h20. Prix : 2 000–3 500 €/m². Caen (100 000 hab.) est la capitale de Basse-Normandie — Mémorial, abbaye aux Hommes, campus universitaire (25 000 étudiants), accès côte (Deauville, Cabourg à 30 km). Intercités Paris-Saint-Lazare en 2h00. Prix : 1 800–3 000 €/m². Le Havre (165 000 hab.) est le grand port normand — architecture Le Corbusier UNESCO, plage de galets, estuaire de la Seine. TER + Intercités Paris en 2h10. Prix : 1 400–2 500 €/m².",
+      },
+      {
+        heading: "Mer, falaises et qualité de vie côtière",
+        body: "La Normandie offre 600 km de côte : les falaises d'Étretat (classées parmi les plus belles d'Europe), la Côte Fleurie (Deauville, Trouville, Cabourg — stations balnéaires bourgeois au charme authentique), les plages du Débarquement (Omaha, Utah, Arromanches), et le Cotentin sauvage. Pour les amateurs de mer froide et de grands espaces, c'est une ressource unique. La météo normande est tempérée atlantique — pas le midi, mais pas le nord pluvieux non plus : Rouen reçoit 700 mm de pluie/an (comparable à Paris). Les étés normands (17–22°C en juillet-août) sont frais mais agréables.",
+      },
+      {
+        heading: "Immobilier : prix accessibles à la mer",
+        body: "La Normandie est l'une des rares régions françaises où il est encore possible d'acheter une maison avec jardin à 5 km de la mer pour moins de 200 000 €. Les villes côtières comme Fécamp, Étretat, Lisieux, Bayeux offrent des prix entre 1 500 et 2 800 €/m². Les villes du Bocage normand (Flers, Vire, Argentan) tombent à 800–1 500 €/m² — certains des prix les plus bas de France métropolitaine. Même Deauville, qui a une image luxueuse, reste accessible dans ses quartiers non-front de mer (2 500–4 000 €/m²). Pour les télétravailleurs parisiens, la combinaison accès Paris + mer + prix est difficilement battable en France.",
+      },
+      {
+        heading: "Économie et emploi normand",
+        body: "L'économie normande est dominée par l'industrie (raffinage pétrolier à Port-Jérôme, agroalimentaire Danone/Lactalis, automobile Renault à Flins et Cléon), la logistique portuaire (port du Havre — 1er port français de conteneurs), l'agriculture (lait, pommes, cidre, fromage — Normandie représente 25 % de la production laitière française), et le nucléaire (centrale de Paluel, Penly). Les profils ingénierie industrielle, chimie, logistique et agroalimentaire trouvent des opportunités régionales. Rouen a un écosystème numérique modeste mais croissant.",
+      },
+      {
+        heading: "Pour quel profil ?",
+        body: "Normandie idéale pour : navetteurs parisiens cherchant la mer à moins de 2h (Rouen, Le Havre) ; familles cherchant maison avec jardin à prix abordable ; retraités attirés par le patrimoine historique et la côte ; profils industriels (agroalimentaire, pétrochimie, logistique) ; résidences secondaires balnéaires (Deauville, Étretat, Cabourg). Moins adaptée pour : les profils tech sans emploi à distance (l'écosystème numérique est limité), les amateurs du soleil méditerranéen (la météo est atlantique tempérée, jamais vraiment chaude), ou ceux cherchant une grande métropole autonome.",
+      },
+    ],
+    relatedCities: ["rouen", "caen", "le-havre", "bayeux", "dieppe"],
+    relatedGuides: [
+      "acheter-a-rouen-quel-quartier-budget-2026",
+      "acheter-a-caen-quel-quartier-budget-2026",
+      "teletravailler-depuis-normandie-guide-2026",
+    ],
+    tags: ["vivre en Normandie 2026", "s'installer Normandie guide complet", "immobilier Normandie prix falaises mer", "Rouen Caen Le Havre vivre", "Normandie qualité de vie navetteur Paris 2026"],
+  },
+  {
+    slug: "vivre-en-hauts-de-france-guide-2026",
+    title: "Vivre en Hauts-de-France en 2026 : guide complet de la région",
+    metaTitle: "Vivre en Hauts-de-France 2026 — Guide complet, villes, qualité de vie",
+    metaDesc: "Tout sur vivre en Hauts-de-France : Lille, Amiens, Reims, Dunkerque, immobilier, emploi, culture. Guide complet pour s'installer dans la région en 2026.",
+    category: "region",
+    emoji: "🍺",
+    readMinutes: 9,
+    publishedAt: "2026-05-01",
+    updatedAt: "2026-05-26",
+    intro: "Hauts-de-France est la région la moins connue et la plus injustement caricaturée de France. Entre Lille — métropole européenne de 1,2 million d'habitants avec une vitalité culturelle exceptionnelle — et Amiens, Reims, Dunkerque et la Côte d'Opale, la région offre des prix immobiliers parmi les plus bas de France, un accès exceptionnel à Paris (Lille : 1h à 220 €/m² en moyenne) et à Londres (Eurostar en 1h20), et une culture flamande et picarde unique. Le cliché 'région triste et pauvre' ignore Lille et toute la dynamique de reconversion industrielle en cours.",
+    sections: [
+      {
+        heading: "Lille : la métropole qui défie les clichés",
+        body: "Lille (230 000 hab., 1,2 million dans l'aire urbaine incluant Roubaix-Tourcoing) est l'une des villes françaises les plus dynamiques — et les plus jeunes. Premier pôle universitaire de France hors Paris (110 000 étudiants), centre européen grâce à Euralille et l'Eurostar, marché de l'emploi profond (grande distribution Auchan/Décathlon/La Redoute, services financiers, santé, numérique). Vieille ville flamande (Grand'Place, Vieux-Lille) parmi les plus belles de France. Et des prix défiant toute logique : 2 200–4 000 €/m² selon le quartier — Paris à l'envers. La jeunesse, la bière, la braderie (plus grande brocante d'Europe), et le stade Pierre-Mauroy (LOSC, Daft Punk) font le reste.",
+      },
+      {
+        heading: "Les autres villes de la région",
+        body: "Amiens (135 000 hab.) est la préfecture de la Somme — cathédrale Notre-Dame (la plus grande de France, UNESCO), Hortillonnages (jardins flottants en centre-ville), économie pharmaceutique (GSK, Baxter). Prix : 1 500–2 500 €/m². Reims (185 000 hab.) est à 45 min de Paris par TGV — champagne, cathédrale du Sacré Couronnement, Cave Mumm. Prix : 1 800–3 000 €/m². Dunkerque (90 000 hab.) est en pleine renaissance : grande zone industrielle (ArcelorMittal, Dunkerque LNG, futur méga-projet industriel avec 13 Mds d'investissements annoncés), plages de la mer du Nord, port. Prix ultra-bas : 1 200–2 000 €/m². Saint-Quentin, Valenciennes, Douai complètent le tissu urbain régional.",
+      },
+      {
+        heading: "Immobilier : les prix les plus bas de la France du nord",
+        body: "Hors Lille centre, les Hauts-de-France offrent certains des prix immobiliers les plus bas de France métropolitaine. Roubaix : 700–1 500 €/m² (l'une des villes les moins chères de l'arc nord-européen). Tourcoing : 1 000–2 000 €/m². Amiens périphérie : 1 200–2 000 €/m². Dunkerque : 1 200–2 000 €/m². Ces prix bas reflètent une démographie fragile et des défis économiques réels — ce ne sont pas des aubaines sans contrepartie. Mais pour les primo-accédants ou les investisseurs à budget limité, la région offre des opportunités que les autres régions françaises n'ont plus.",
+      },
+      {
+        heading: "Economie en mutation : déclin et reconversion",
+        body: "Les Hauts-de-France portent l'héritage du déclin industriel (charbon, textile, sidérurgie) mais aussi une reconversion réelle. La 'Vallée de la Batterie' autour de Dunkerque attire des gigafactories de batteries (Verkor, Envision AESC, ACC — 10 Mds d'euros d'investissements, 10 000 emplois directs attendus d'ici 2030). Toyota à Onnaing, Renault électrique à Douai, Amazon à Brétigny et Lauwin-Planque — le tissu industriel se réinvente. Lille concentre les emplois tertiaires, la finance, et le commerce. La reconversion industrielle du bassin minier est lente mais réelle.",
+      },
+      {
+        heading: "Pour quel profil ?",
+        body: "Hauts-de-France idéale pour : les Lillois (qui connaissent déjà leur chance) ; les personnes cherchant la meilleure connexion Paris + coût bas en France (Reims : 45 min pour 1 800 €/m²) ; les profils industrie/logistique/grande distribution ; les amateurs de culture flamande, de bières artisanales, de frites et de concerts (Lille a la scène musicale la plus active de France hors Paris). Moins idéale pour : les amateurs de soleil et de chaleur (la météo est franchement nordique), les personnes cherchant la nature montagnarde ou méditerranéenne.",
+      },
+    ],
+    relatedCities: ["lille", "amiens", "reims", "dunkerque", "valenciennes"],
+    relatedGuides: [
+      "acheter-a-lille-quel-quartier-budget-2026",
+      "acheter-a-amiens-quel-quartier-budget-2026",
+      "acheter-a-reims-quel-quartier-budget-2026",
+    ],
+    tags: ["vivre en Hauts-de-France 2026", "s'installer Hauts-de-France guide", "immobilier Hauts-de-France prix", "Lille Amiens Reims Dunkerque vivre", "Hauts-de-France qualité de vie emploi 2026"],
+  },
+  {
+    slug: "vivre-en-bretagne-guide-2026",
+    title: "Vivre en Bretagne en 2026 : guide complet de la région",
+    metaTitle: "Vivre en Bretagne 2026 — Guide complet, villes, qualité de vie",
+    metaDesc: "Tout sur vivre en Bretagne : Rennes, Brest, Saint-Malo, Quimper, immobilier, emploi, mer. Guide complet pour s'installer en Bretagne en 2026.",
+    category: "region",
+    emoji: "🌊",
+    readMinutes: 9,
+    publishedAt: "2026-05-01",
+    updatedAt: "2026-05-26",
+    intro: "La Bretagne est la région française où la qualité de vie est le plus souvent citée spontanément par ses habitants. Mer partout, bocage, calvaires, crêpes, cidre, et une identité régionale forte qui confère un sentiment d'appartenance rare dans les régions françaises. Rennes est l'une des métropoles françaises les plus dynamiques. Les villes côtières (Saint-Malo, Quimper, Vannes, Lorient, Brest) ont chacune une personnalité forte. Le revers : prix en forte hausse depuis 2020 et emploi limité hors Rennes dans les secteurs modernes.",
+    sections: [
+      {
+        heading: "Rennes : la métropole bretonne et sa dynamique",
+        body: "Rennes (225 000 hab.) est la locomotive économique de la Bretagne — et l'une des métropoles françaises les plus attractives pour les 25–45 ans. Écosystème tech et numérique dense (French Tech Rennes, Capgemini, Atos, Orange, Thales), deux universités importantes (60 000 étudiants), TGV Paris en 1h27, ligne LGV Rennes–Nantes (horizon 2026), et une vieille ville en bois et ardoise authentique. Prix : 3 000–4 500 €/m² — en forte hausse depuis 2015 mais encore abordables par rapport à Lyon ou Bordeaux. C'est la première destination des Bretons qui partent de leurs villes côtières pour chercher un emploi qualifié.",
+      },
+      {
+        heading: "Les villes côtières : Saint-Malo, Vannes, Quimper, Brest",
+        body: "Saint-Malo (47 000 hab.) — cité corsaire intra-muros, plages, Dinard en face, Emeraude. Marché très tendu (2 800–5 000 €/m²), attiré par les résidences secondaires parisiennes et les télétravailleurs. Vannes (55 000 hab.) — golfe du Morbihan, vieille ville à colombages, économie touristique et services. 2 200–3 500 €/m². Quimper (65 000 hab.) — cathédrale gothique, faïences, Finistère sud, accès plages. 1 700–2 600 €/m². Brest (145 000 hab.) — arsenal, océanographie (Ifremer), université, rade exceptionnelle. 1 800–2 800 €/m². Lorient (57 000 hab.) — festival interceltique, port de pêche, abordable. 1 600–2 800 €/m².",
+      },
+      {
+        heading: "Immobilier : la pression post-2020",
+        body: "La Bretagne a subi une pression immobilière forte depuis 2020, alimentée par l'exode urbain parisien et l'essor du télétravail. Les prix des maisons avec jardin en campagne proche d'une ville bretonne ont augmenté de 25–40 % entre 2019 et 2024. Zones tendues : Saint-Malo (très tendu), Golfe du Morbihan, côte bretonne. Zones encore abordables : Finistère intérieur, Côtes-d'Armor intérieur, Loudéac, Pontivy, Guingamp — comptez 800–1 600 €/m² pour un pavillon en zone rurale. La Bretagne intérieure (Argoat) est parmi les moins chères de France — et parmi les plus vertes.",
+      },
+      {
+        heading: "Qualité de vie : la mer, le bocage, l'identité",
+        body: "La Bretagne a 2 730 km de côtes — la plus longue façade maritime de France. L'accès quotidien à la mer depuis n'importe quelle ville bretonne est rarement supérieur à 45 min. La culture locale (fest-noz, pardons, crêperies, marchés de producteurs, voile, surf sur la côte atlantique) crée un tissu social et identitaire fort. Le cidre breton, les huîtres de Cancale, le kouign-amann, le far breton — la gastronomie est ancrée dans le terroir. Météo : atlantique doux, sans grande chaleur (18–22°C en été) ni grand froid, mais venteux et pluvieux d'octobre à mars.",
+      },
+      {
+        heading: "Pour quel profil ?",
+        body: "Bretagne idéale pour : les amoureux de la mer et des espaces sauvages ; les profils tech avec emploi à Rennes ou en télétravail ; les familles cherchant une éducation de qualité dans un environnement sûr et identitaire ; les retraités attirés par la douceur du climat côtier et le coût de vie modéré. Moins idéale pour : les profils cherchant la chaleur et le soleil (la Bretagne est l'une des régions les moins ensoleillées de France), les personnes dépendant d'un marché de l'emploi privé profond hors Rennes, ou les amateurs de montagne.",
+      },
+    ],
+    relatedCities: ["rennes", "brest", "saint-malo", "vannes", "lorient"],
+    relatedGuides: [
+      "acheter-a-rennes-quel-quartier-budget-2026",
+      "acheter-a-lorient-quel-quartier-budget-2026",
+      "acheter-a-vannes-quel-quartier-budget-2026",
+    ],
+    tags: ["vivre en Bretagne 2026", "s'installer Bretagne guide complet", "immobilier Bretagne prix mer côte", "Rennes Brest Saint-Malo Vannes vivre", "Bretagne qualité de vie télétravail 2026"],
+  },
+  {
+    slug: "vivre-en-occitanie-guide-2026",
+    title: "Vivre en Occitanie en 2026 : guide complet de la région",
+    metaTitle: "Vivre en Occitanie 2026 — Guide complet, villes, qualité de vie",
+    metaDesc: "Tout sur vivre en Occitanie : Toulouse, Montpellier, Nîmes, Perpignan, Carcassonne, immobilier, emploi, soleil. Guide complet pour s'installer en Occitanie en 2026.",
+    category: "region",
+    emoji: "☀️",
+    readMinutes: 9,
+    publishedAt: "2026-05-01",
+    updatedAt: "2026-05-26",
+    intro: "L'Occitanie est la plus grande région de France métropolitaine par superficie — 72 724 km² de Toulouse aux Pyrénées à la Méditerranée. Deux grandes métropoles (Toulouse et Montpellier), 300 jours de soleil en moyenne, Pyrénées accessibles, Méditerranée à portée, et une identité culturelle (langue occitane, rugby, pastis, gastronomie) très affirmée. C'est la région qui enregistre le plus fort solde migratoire positif de France depuis 2015 — les gens arrivent, et pour de bonnes raisons.",
+    sections: [
+      {
+        heading: "Toulouse et Montpellier : deux pôles très différents",
+        body: "Toulouse (800 000 hab. dans l'aire urbaine) est la capitale régionale — économie aéronautique (Airbus, 40 000 emplois directs), spatiale (CNES), et industrielle de premier plan. TGV Paris en 4h10 (→ 3h15 après 2032). Économie solide, marché de l'emploi profond, prix en hausse mais encore moins chers que Paris ou Lyon (2 500–4 000 €/m²). Montpellier (400 000 hab.) est la métropole méditerranéenne — mer à 12 km, 300 000 étudiants pour la région, santé et pharma, croissance démographique record. TGV Paris en 3h15. Plus chère que Toulouse pour des services équivalents : 2 800–4 500 €/m².",
+      },
+      {
+        heading: "Les villes secondaires : Nîmes, Perpignan, Narbonne, Carcassonne",
+        body: "Nîmes (150 000 hab.) — arènes romaines, Maison Carrée, accès Montpellier (50 km), immobilier abordable (2 000–3 200 €/m²). Perpignan (120 000 hab.) — porte de la Catalogne française, Pyrénées à 50 km, Méditerranée à 15 km, les prix les plus bas d'une ville côtière méditerranéenne française (1 600–2 800 €/m²). Narbonne (55 000 hab.) — entre Montpellier et Perpignan, Via Domitia, étangs, 1 500–2 500 €/m². Carcassonne (45 000 hab.) — citadelle médiévale UNESCO exceptionnelle, prix très bas (1 200–2 200 €/m²), mais emploi local limité.",
+      },
+      {
+        heading: "Soleil, Pyrénées, Méditerranée : le cadre de vie",
+        body: "L'Occitanie est la région française avec le plus de soleil et de chaleur après la Côte d'Azur : 2 500–2 800 heures de soleil/an (contre 1 600 à Paris). Les Pyrénées (ski à Font-Romeu, Ax-les-Thermes, Piau-Engaly, Cauterets, Luchon) sont à 1h–2h de Toulouse. La Méditerranée (Sète, Cap d'Agde, Leucate, Canet) est à 10–45 min de Montpellier ou Narbonne. Le canal du Midi (UNESCO) traverse la région de Toulouse à la Méditerranée. Les étés sont chauds (35–40°C en juillet-août) et longs (juin–septembre) — un atout ou un inconvénient selon les goûts.",
+      },
+      {
+        heading: "Marché de l'emploi régional",
+        body: "L'économie occitane est portée par Toulouse (aéronautique, spatial) et Montpellier (santé, pharma, services). Hors de ces deux pôles, le tissu économique est fragile : agriculture (viticulture Languedoc, grande culture), tourisme côtier et montagnard, et services publics dominent dans les villes secondaires. La croissance démographique exceptionnelle (l'Occitanie gagne 50 000 habitants/an) crée une demande de services — mais les emplois qualifiés dans le privé restent très concentrés sur les deux métropoles.",
+      },
+      {
+        heading: "Pour quel profil ?",
+        body: "Occitanie idéale pour : ingénieurs et techniciens aéronautique/spatial (Toulouse) ; actifs santé/pharma/recherche (Montpellier) ; télétravailleurs cherchant le soleil et la mer à budget modéré (hors Montpellier-centre) ; retraités actifs attirés par le plein air (Pyrénées, Méditerranée) ; familles cherchant un grand espace de vie moins cher qu'en PACA. Moins idéale pour : les profils cherchant un marché de l'emploi diversifié hors aéro/santé, les personnes intolérantes à la chaleur estivale, ou les amateurs de grands centres culturels nationaux.",
+      },
+    ],
+    relatedCities: ["toulouse", "montpellier", "nimes", "perpignan", "carcassonne"],
+    relatedGuides: [
+      "acheter-a-toulouse-quel-quartier-budget-2026",
+      "acheter-a-montpellier-quel-quartier-budget-2026",
+      "montpellier-vs-toulouse-comparatif-2026",
+    ],
+    tags: ["vivre en Occitanie 2026", "s'installer Occitanie guide complet", "immobilier Occitanie prix Toulouse Montpellier", "Toulouse Montpellier Nîmes Perpignan vivre", "Occitanie soleil Pyrénées Méditerranée 2026"],
+  },
+  {
     slug: "acheter-a-le-mans-quel-quartier-budget-2026",
     title: "Acheter au Mans en 2026 : quartiers, budget et ce qu'on ne vous dit pas",
     metaTitle: "Acheter au Mans 2026 — Prix immobilier, quartiers, budget réaliste",
