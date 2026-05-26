@@ -22131,6 +22131,252 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["Strasbourg vs Colmar 2026", "Strasbourg ou Colmar s'installer", "comparatif Strasbourg Colmar immobilier emploi", "vivre Alsace Strasbourg Colmar", "frontalier Alsace Bâle Fribourg"],
   },
+  {
+    slug: "quitter-arles-guide-2026",
+    title: "Quitter Arles en 2026 : pourquoi et où aller",
+    metaTitle: "Quitter Arles 2026 — Alternatives Provence, où partir après Arles",
+    metaDesc: "Pourquoi quitter Arles ? Tourisme saturé, économie fragile, chaleur extrême. Les alternatives : Avignon, Nîmes, Montpellier, Aix. Guide comparatif 2026.",
+    category: "comparaison",
+    emoji: "🌾",
+    readMinutes: 7,
+    publishedAt: "2026-05-01",
+    updatedAt: "2026-05-26",
+    intro: "Arles est belle, patrimoniale, et en pleine transformation culturelle (LUMA). Mais partir d'Arles en 2026 est une décision que prennent aussi de nombreux résidents : économie locale fragile, chaleur estivale extrême, moustiques en Camargue, et un marché du logement tiré vers le haut par le tourisme et les investisseurs parisiens. Ce guide analyse les alternatives les plus sérieuses pour les Arlésiens qui envisagent un départ.",
+    sections: [
+      {
+        heading: "Pourquoi des gens quittent Arles",
+        body: "Les raisons de départ les plus fréquentes : emploi insuffisant pour les actifs non-indépendants (le tissu économique d'Arles est dominé par le tourisme saisonnier, l'agroalimentaire et les services publics) ; la gentrification LUMA qui tire les loyers et les prix d'achat vers le haut sans créer d'emplois proportionnels pour les résidents permanents ; les chaleurs extrêmes de juillet-août (35–42°C, ville peu végétalisée) ; et, pour les familles, l'offre scolaire secondaire limitée (lycée général sans grande option spécialisée). La ville reste attractive pour les retraités, télétravailleurs et indépendants — mais les jeunes actifs cherchent ailleurs.",
+      },
+      {
+        heading: "Avignon (35 km) : la plus logique des alternatives",
+        body: "Avignon (90 000 hab.) est la destination naturelle pour les Arlésiens qui veulent une vraie métropole provençale avec de l'emploi et des services. Le Palais des Papes, l'université, le secteur hospitalier (CHU Nord de Marseille est trop loin, mais Avignon a un centre hospitalier solide) et l'économie tertiaire offrent un marché de l'emploi sans commune mesure avec Arles. Prix immobilier : 2 500–4 000 €/m². TGV Paris en 2h40. Inconvénient : la saison du festival d'Avignon (juillet) génère nuisances et coûts similaires à Arles en haute saison.",
+      },
+      {
+        heading: "Nîmes (30 km) : grand site romain, prix Arles",
+        body: "Nîmes (150 000 hab.) est souvent négligée mais offre un excellent rapport valeur-taille : arènes romaines, Maison Carrée, Jardins de la Fontaine, et une économie locale plus diversifiée qu'Arles. Prix : 2 000–3 200 €/m² — comparables à Arles mais pour une ville trois fois plus grande avec un meilleur accès à l'emploi. TGV Paris en 2h50. Montpellier est à 50 km (35 min en voiture) — accessible pour des visites pro sans déménager. Inconvénient : Nîmes est moins 'tendance' qu'Arles, et le centre-ville a souffert de la concurrence des périphéries commerciales.",
+      },
+      {
+        heading: "Montpellier (90 km) : pour les actifs et les étudiants",
+        body: "Montpellier (320 000 hab.) est le choix évident pour les Arlésiens cherchant de l'emploi dans les secteurs santé, pharma, numérique ou enseignement supérieur. La mer est à 12 km, le tram dessert bien la ville, et la vie étudiante est extrêmement dense. Prix : 2 800–4 500 €/m². L'inconvénient principal par rapport à Arles : Montpellier est plus chère et a perdu une partie de son côté accessible depuis 2020.",
+      },
+      {
+        heading: "Saint-Rémy-de-Provence et les Alpilles : pour rester dans le paysage",
+        body: "Pour les Arlésiens très attachés à la Provence authentique qui cherchent à quitter la ville proprement dite, Saint-Rémy-de-Provence (10 000 hab., 20 km nord) et les villages des Alpilles offrent un cadre naturel exceptionnel — mais les prix sont explosés (4 000–7 000 €/m²) et l'emploi local quasi inexistant. C'est l'option résidence principale pour les personnes dont les revenus sont indépendants de la géographie (retraités, télétravailleurs, professions libérales installées).",
+      },
+    ],
+    relatedCities: ["arles", "avignon", "nimes", "montpellier", "aix-en-provence"],
+    relatedGuides: [
+      "acheter-a-arles-quel-quartier-budget-2026",
+      "acheter-a-avignon-quel-quartier-budget-2026",
+      "acheter-a-nimes-quel-quartier-budget-2026",
+    ],
+    tags: ["quitter Arles 2026", "alternatives à Arles Provence", "Arles trop cher où aller", "partir d'Arles immobilier", "Provence alternatives Arles prix 2026"],
+  },
+  {
+    slug: "quitter-chambery-guide-2026",
+    title: "Quitter Chambéry en 2026 : pourquoi et où aller",
+    metaTitle: "Quitter Chambéry 2026 — Alternatives Savoie, où partir après Chambéry",
+    metaDesc: "Pourquoi quitter Chambéry ? Emploi limité, Annecy trop chère. Les alternatives : Grenoble, Lyon, Annecy, Aix-les-Bains. Guide comparatif 2026.",
+    category: "comparaison",
+    emoji: "🏰",
+    readMinutes: 7,
+    publishedAt: "2026-05-01",
+    updatedAt: "2026-05-26",
+    intro: "Chambéry est une ville agréable, bien placée entre les massifs alpins, avec un centre historique authentique. Mais quitter Chambéry est une décision que prennent régulièrement ses habitants actifs : le bassin d'emploi local reste limité comparé à Grenoble ou Lyon, et les jeunes professionnels ambitieux trouvent souvent le plafond rapidement. Ce guide explore les alternatives selon votre profil.",
+    sections: [
+      {
+        heading: "Pourquoi des gens quittent Chambéry",
+        body: "Les raisons principales : le marché de l'emploi est de taille provinciale (25 000 emplois dans l'aire urbaine) avec peu de grands groupes industriels ou tech. Les secteurs dominants sont les services publics, la santé, et quelques PME industrielles — insuffisant pour les profils tech, ingénierie ou finance. La ville souffre aussi d'une comparaison permanente avec Annecy (plus belle, plus chère) et Grenoble (plus grande, plus dynamique). Certains quittent Chambéry pour Annecy quand les revenus le permettent, ou pour Grenoble quand l'emploi l'exige.",
+      },
+      {
+        heading: "Grenoble (55 km) : pour les carrières tech et ingénierie",
+        body: "Grenoble est la destination naturelle pour les Chambériens cherchant une carrière dans la tech, la recherche ou l'industrie de pointe. Le CEA, le CNRS, l'ESRF, STMicroelectronics et Schneider Electric offrent un écosystème sans équivalent dans les Alpes françaises. Prix comparables à Chambéry (2 800–4 200 €/m² en centre), mais revenu moyen supérieur. Trajet Chambéry–Grenoble : 55 min par l'A41. Inconvénient : Grenoble est plus polluée (bassin alpin fermé, inversions thermiques) et moins touristique que Chambéry.",
+      },
+      {
+        heading: "Lyon (1h) : la grande métropole à portée",
+        body: "Lyon (550 000 hab.) est accessible en 1h par l'A43 ou 1h05 par TER depuis Chambéry. Pour les profils cherchant un grand bassin d'emploi multisectoriel (finance, consulting, santé, industrie, tech) sans quitter la région Auvergne-Rhône-Alpes, Lyon est la destination logique. Prix : 4 000–6 500 €/m² en centre — nettement plus cher que Chambéry. Les Chambériens qui 'montent' à Lyon rejoignent souvent les communes de la première couronne (Villeurbanne, Bron, Vénissieux) où les prix restent plus abordables.",
+      },
+      {
+        heading: "Annecy (45 km) : le rêve accessible si le budget suit",
+        body: "Annecy est la destination aspirationnelle des Chambériens. Le lac, la vieille ville, la qualité de vie — tout y est. Problème : les prix (4 500–7 000 €/m²) rendent l'accession à la propriété difficile pour des revenus locaux. Mais en location, Annecy reste possible : 900–1 300 €/mois pour un T2/T3. Pour les frontaliers genevois ayant un salaire suisse, le différentiel prix Annecy/Genève est favorable. Pour les Chambériens aux revenus normaux, Annecy en propriété est souvent inatteignable sans aide familiale.",
+      },
+      {
+        heading: "Aix-les-Bains (15 km) : l'alternative balnéaire locale",
+        body: "Aix-les-Bains (30 000 hab.) sur le lac du Bourget est l'option de proximité pour les Chambériens qui veulent un environnement balnéaire sans faire un grand saut. Prix : 2 500–3 800 €/m². Lac du Bourget (plus grand lac naturel de France entièrement en France), thermes, plages. Économie tournée vers le thermalisme et le tourisme — marché de l'emploi local limité. Pour les télétravailleurs ou retraités, c'est une option sérieuse à seulement 15 km de Chambéry.",
+      },
+    ],
+    relatedCities: ["chambery", "grenoble", "lyon", "annecy", "aix-les-bains"],
+    relatedGuides: [
+      "acheter-a-chambery-quel-quartier-budget-2026",
+      "acheter-a-grenoble-quel-quartier-budget-2026",
+      "acheter-a-annecy-quel-quartier-budget-2026",
+    ],
+    tags: ["quitter Chambéry 2026", "alternatives à Chambéry Savoie", "Chambéry où aller après", "partir de Chambéry Alpes", "Chambéry vs Grenoble vs Annecy 2026"],
+  },
+  {
+    slug: "quitter-chartres-guide-2026",
+    title: "Quitter Chartres en 2026 : pourquoi et où aller",
+    metaTitle: "Quitter Chartres 2026 — Alternatives, où partir après Chartres",
+    metaDesc: "Pourquoi quitter Chartres ? Dépendance Paris, emploi limité. Les alternatives : Orléans, Rambouillet, Tours, Rouen. Guide comparatif 2026.",
+    category: "comparaison",
+    emoji: "⛪",
+    readMinutes: 7,
+    publishedAt: "2026-05-01",
+    updatedAt: "2026-05-26",
+    intro: "Chartres est une ville de navetteurs : une grande part de sa population active travaille à Paris et rentre le soir. Quand ce modèle ne convient plus — perturbations SNCF trop fréquentes, fatigue du trajet, changement d'emploi vers un poste local, retraite anticipée — Chartres est souvent quittée. Ce guide présente les alternatives selon votre situation.",
+    sections: [
+      {
+        heading: "Pourquoi des gens quittent Chartres",
+        body: "Le profil type du départ de Chartres est le navetteur qui abandonne. Le trajet Paris-Montparnasse–Chartres (1h08) est correct en théorie, mais les Intercités affichent une ponctualité variable et les grèves SNCF peuvent bloquer la ville plusieurs jours. Sans voiture de secours, les navetteurs se retrouvent bloqués. Autres raisons : l'emploi local est limité aux secteurs cosmétic valley, services, et fonction publique ; le centre-ville commercial souffre ; et les jeunes actifs sans attachement au navettage parisien trouvent peu d'opportunités sur place.",
+      },
+      {
+        heading: "Orléans (80 km) : la grande alternative ligérienne",
+        body: "Orléans (115 000 hab.) est la destination naturelle pour les Chartrain qui veulent une vraie métropole sans Paris. Économie diversifiée (pharmaceutique, logistique, services), université (30 000 étudiants), TGV Paris-Austerlitz en 1h05, tramway 2 lignes, Loire en centre-ville. Prix : 2 500–3 800 €/m². Orléans est 25–35 % plus chère qu'Chartres mais offre un marché de l'emploi local réel. C'est la transition de la dépendance parisienne vers l'autonomie économique ligérienne.",
+      },
+      {
+        heading: "Rambouillet et les villes forêt d'Île-de-France",
+        body: "Rambouillet (27 000 hab., 40 km nord-est) est en Île-de-France, accès Paris Montparnasse en 40 min, forêt domaniale de 20 000 ha, châteaux, étangs. Prix plus élevés que Chartres (3 200–4 500 €/m²) mais accès Paris amélioré. Pour les navetteurs qui veulent rester proches de Paris tout en vivant dans un cadre de nature, Rambouillet est une option sérieuse. Autres villes de la même zone : Étampes (50 km sud de Paris), Dourdan, Maintenon — prices décroissants avec l'éloignement.",
+      },
+      {
+        heading: "Tours (100 km) : la grande ville de la Loire",
+        body: "Tours (140 000 hab.) à 100 km au sud-ouest est la métropole ligérienne qui offre le meilleur équilibre : TGV Paris en 1h00 (l'une des meilleures connexions provinciales de France), économie diversifiée (pharma, nucléaire, services), université (30 000 étudiants), Loire, châteaux. Prix : 2 200–3 500 €/m². Pour les Chartrains dont le modèle navettage Paris change en profondeur — passage au distanciel partiel, changement d'employeur — Tours représente une rupture positive : une vraie ville autonome.",
+      },
+      {
+        heading: "Vendôme : la surprise TGV",
+        body: "Vendôme (17 000 hab., 60 km sud-ouest) est une petite ville souvent oubliée dotée d'une gare TGV permettant Paris-Montparnasse en 45 min. Prix immobilier : 1 400–2 200 €/m² — parmi les moins chers d'une ville TGV en France. Cadre médiéval agréable (abbaye de la Trinité, Loir). Pour un télétravailleur qui va à Paris une fois par semaine et cherche à maximiser l'espace pour le budget, Vendôme est une option très sous-estimée. Inconvénient : petite ville, services limités, vie culturelle réduite.",
+      },
+    ],
+    relatedCities: ["chartres", "orleans", "tours", "rennes", "caen"],
+    relatedGuides: [
+      "acheter-a-chartres-quel-quartier-budget-2026",
+      "acheter-a-orleans-quel-quartier-budget-2026",
+      "tgv-paris-accessibilite-villes-2026",
+    ],
+    tags: ["quitter Chartres 2026", "alternatives à Chartres Eure-et-Loir", "Chartres navetteur Paris alternatives", "partir de Chartres où aller", "Chartres vs Orléans vs Tours 2026"],
+  },
+  {
+    slug: "quitter-lorient-guide-2026",
+    title: "Quitter Lorient en 2026 : pourquoi et où aller",
+    metaTitle: "Quitter Lorient 2026 — Alternatives Bretagne, où partir après Lorient",
+    metaDesc: "Pourquoi quitter Lorient ? Chômage élevé, emploi limité. Les alternatives : Vannes, Quimper, Rennes, Brest. Guide comparatif 2026.",
+    category: "comparaison",
+    emoji: "🛳️",
+    readMinutes: 7,
+    publishedAt: "2026-05-01",
+    updatedAt: "2026-05-26",
+    intro: "Lorient offre un cadre de vie maritime réel à prix abordable, mais son marché de l'emploi est l'un des plus fragiles des villes moyennes bretonnes. Avec un taux de chômage supérieur à la moyenne bretonne et une économie centrée sur le port militaire, la pêche et l'agroalimentaire, les Lorientais avec des profils professionnels dans la tech, la finance ou le conseil trouvent rapidement les limites du bassin local.",
+    sections: [
+      {
+        heading: "Pourquoi des gens quittent Lorient",
+        body: "Les raisons de départ les plus fréquentes : chômage structurellement élevé dans certains secteurs ; peu d'entreprises privées hors périmètre pêche-naval-agroalimentaire ; salaires inférieurs à Rennes ou Nantes pour les mêmes postes ; et pour les jeunes sortants d'études, l'attraction naturelle de Rennes (emplois tech, université, dynamisme) ou Nantes. La ville n'a pas de grande entreprise tech ni de campus universitaire majeur propre (l'UBS, Université Bretagne Sud, reste modeste). Le port militaire est le premier employeur — secteur peu ouvert.",
+      },
+      {
+        heading: "Vannes (60 km) : pour le dynamisme morbihannais",
+        body: "Vannes (55 000 hab.) est la ville du golfe du Morbihan — l'une des plus belles baies du monde, classée Grand Site de France. Économie plus dynamique que Lorient : tourisme premium, services, santé, quelques PME numériques. Prix : 2 200–3 500 €/m² — plus cher que Lorient mais justifié par la qualité de vie. Pour les Lorientais cherchant à rester dans le Morbihan avec un meilleur marché de l'emploi et un environnement naturel encore plus reconnu, Vannes est la première option.",
+      },
+      {
+        heading: "Rennes (130 km) : la vraie métropole bretonne",
+        body: "Rennes (220 000 hab.) est la capitale régionale et offre ce que Lorient ne peut pas : un vrai bassin d'emploi tech (French Tech Rennes, Capgemini, Atos, Orange), deux universités, des infrastructures culturelles de métropole, et un TGV Paris en 1h27. Prix : 3 000–4 500 €/m² — nettement plus cher. Pour les actifs mobiles, le gain en opportunités professionnelles compense largement le surcoût immobilier. Rennes attire massivement les jeunes actifs bretons des villes moyennes.",
+      },
+      {
+        heading: "Quimper (70 km) : rester en Finistère",
+        body: "Quimper (63 000 hab.) est la préfecture du Finistère — cathédrale gothique, vieille ville bretonne, cornouaillais. Économie de services publics et agroalimentaire. Prix : 1 700–2 600 €/m² — comparables à Lorient. Pour les Lorientais qui veulent rester en Bretagne finistérienne dans un cadre différent, Quimper offre une ville plus 'classique' avec un centre historique mieux valorisé. Inconvénient : bassin d'emploi également limité, éloignement de Rennes et Nantes.",
+      },
+      {
+        heading: "Brest (100 km) : l'autre port breton",
+        body: "Brest (140 000 hab.) est la grande ville de la Bretagne occidentale — université (28 000 étudiants), pôle de recherche marine (Ifremer), rade militaire, et une économie un peu plus diversifiée que Lorient. Prix : 1 800–2 800 €/m² — similaires à Lorient. Pour les Lorientais qui veulent rester dans un environnement portuaire-maritime mais avec une offre supérieure en emploi et services, Brest est l'alternative naturelle. La LGV Rennes–Brest en projet changerait la donne à terme.",
+      },
+    ],
+    relatedCities: ["lorient", "vannes", "rennes", "quimper", "brest"],
+    relatedGuides: [
+      "acheter-a-lorient-quel-quartier-budget-2026",
+      "acheter-a-vannes-quel-quartier-budget-2026",
+      "acheter-a-rennes-quel-quartier-budget-2026",
+    ],
+    tags: ["quitter Lorient 2026", "alternatives à Lorient Bretagne", "Lorient emploi limité où aller", "partir de Lorient Morbihan", "Lorient vs Vannes vs Rennes 2026"],
+  },
+  {
+    slug: "quitter-orleans-guide-2026",
+    title: "Quitter Orléans en 2026 : pourquoi et où aller",
+    metaTitle: "Quitter Orléans 2026 — Alternatives Loire, où partir après Orléans",
+    metaDesc: "Pourquoi quitter Orléans ? Proximité Paris stressante, centre-ville commercial en souffrance. Les alternatives : Tours, Blois, Paris, Nantes. Guide comparatif 2026.",
+    category: "comparaison",
+    emoji: "🌹",
+    readMinutes: 7,
+    publishedAt: "2026-05-01",
+    updatedAt: "2026-05-26",
+    intro: "Orléans est la métropole ligérienne la plus proche de Paris (1h05 par TGV), ce qui en fait à la fois son atout et son problème. Beaucoup d'Orléanais travaillent à Paris, et quand ce modèle de navettage s'essouffle, Orléans est souvent laissée pour une ville plus autonome, plus méridionale, ou plus grande. Ce guide analyse les trajectoires de départ les plus fréquentes.",
+    sections: [
+      {
+        heading: "Pourquoi des gens quittent Orléans",
+        body: "Paradoxalement, la proximité de Paris nuit à Orléans : la ville est trop proche pour développer une identité pleinement autonome, et trop loin pour appartenir réellement à l'Île-de-France. Le centre commercial La Source et les centres commerciaux périphériques ont vidé une partie du commerce de centre-ville. Le marché de l'emploi local, bien qu'honorable (pharma, logistique, services publics), souffre de la comparaison avec Tours au sud ou Paris au nord. Les retraités orléanais quittent parfois pour le soleil du sud, les actifs mobiles pour une métropole plus grande.",
+      },
+      {
+        heading: "Tours (110 km) : la métropole ligérienne plus méridionale",
+        body: "Tours (140 000 hab.) est la grande rivale ligérienne d'Orléans — mais complementaire plutôt que substituée. TGV Paris en 1h00 (encore plus rapide qu'Orléans), économie pharma solide (Sanofi, IQVIA), université réputée, châteaux de la Loire à portée, Loire plus large et plus pittoresque qu'à Orléans. Prix : 2 200–3 500 €/m² — légèrement moins cher qu'Orléans. Pour ceux qui quittent Orléans pour plus de soleil et de Loire, Tours est la destination logique.",
+      },
+      {
+        heading: "Paris (1h05 TGV) : le retour en Île-de-France",
+        body: "Une fraction des Orléanais qui déménagent font le chemin inverse : retour à Paris ou en Île-de-France, souvent pour une proposition professionnelle qui ne justifie plus le navettage. Paris reste la destination n°1 pour les profils très qualifiés. La question financière est centrale : un appartement parisien coûte 3 à 4 fois le prix orléanais. Les cibles intermédiaires — Essonne sud (Corbeil-Essonnes, Évry), Loiret proche IDF (Pithiviers) — peuvent être des compromis.",
+      },
+      {
+        heading: "Blois (60 km) : le choix du calme ligérien",
+        body: "Blois (45 000 hab., 60 km au sud-ouest) est une ville du Val de Loire classée UNESCO — château royal, vieille ville médiévale, Loire à ses pieds. Prix : 1 500–2 300 €/m² — l'une des villes les moins chères du Val de Loire. Bassin d'emploi très modeste mais accès TER Orléans (50 min) et Tours (40 min) raisonnable. Pour les télétravailleurs ou retraités qui cherchent le Val de Loire authentique à prix doux, Blois est une option sérieuse et souvent négligée.",
+      },
+      {
+        heading: "Nantes (250 km) : pour le grand saut atlantique",
+        body: "Nantes (320 000 hab.) est la grande destination pour les Orléanais cherchant une métropole atlantique dynamique et ensoleillée (enfin, plus qu'Orléans). Économie tech et industrielle solide, vie culturelle dense, Atlantique à 50 km. Prix : 3 000–4 500 €/m² — plus cher qu'Orléans. TGV direct Orléans–Paris puis Paris–Nantes (2h10) ou TER via Tours (3h). Pour les profils jeunes cherchant l'Atlantique et un grand bassin d'emploi, Nantes domine. Pour les familles, Nantes est souvent plus épanouissante qu'Orléans.",
+      },
+    ],
+    relatedCities: ["orleans", "tours", "blois", "nantes", "chartres"],
+    relatedGuides: [
+      "acheter-a-orleans-quel-quartier-budget-2026",
+      "acheter-a-tours-quel-quartier-budget-2026",
+      "acheter-a-nantes-quel-quartier-budget-2026",
+    ],
+    tags: ["quitter Orléans 2026", "alternatives à Orléans Loire", "Orléans navetteur Paris alternatives", "partir d'Orléans où aller", "Orléans vs Tours vs Nantes 2026"],
+  },
+  {
+    slug: "acheter-a-le-mans-quel-quartier-budget-2026",
+    title: "Acheter au Mans en 2026 : quartiers, budget et ce qu'on ne vous dit pas",
+    metaTitle: "Acheter au Mans 2026 — Prix immobilier, quartiers, budget réaliste",
+    metaDesc: "Guide achat immobilier Le Mans 2026. Prix 1 400–2 600 €/m², TGV Paris 56 min. Quartiers Vieux-Mans, Jacobins, Ronceray-Glonnières. Comparatif complet.",
+    category: "budget",
+    emoji: "🏎️",
+    readMinutes: 8,
+    publishedAt: "2026-05-01",
+    updatedAt: "2026-05-26",
+    intro: "Le Mans, 143 000 habitants, est l'une des villes de France les plus abordables dotées d'un TGV direct Paris : 56 minutes pour Paris Montparnasse, et des prix immobiliers entre 1 400 et 2 600 €/m². Pour les primo-accédants qui ne peuvent plus se payer Paris, Tours ou même Orléans, Le Mans est une option sérieuse et souvent négligée. Connue mondialement pour les 24 Heures, la ville offre aussi un patrimoine médiéval exceptionnel (la Cité Plantagenêt) et une qualité de vie correcte pour son gabarit.",
+    sections: [
+      {
+        heading: "Prix par quartier : le marché manceau",
+        body: "La Cité Plantagenêt (Vieux-Mans intra-muros) est le joyau du Mans : remparts gallo-romains, maisons Renaissance, cathédrale Saint-Julien. C'est le segment le plus recherché et le plus cher : 2 200–2 600 €/m² pour du rénové. Surfaces souvent atypiques. Les Jacobins et Ronceray-Glonnières (sud du centre) sont les quartiers résidentiels familles : 1 800–2 300 €/m², calme, commodités. Le Vieux-Mans extension (autour de la place de la République) : 1 600–2 200 €/m², secteur en rénovation progressive. Les secteurs nord (Pontlieue, Gazonfier) sont les plus abordables de l'agglomération : 1 200–1 800 €/m².",
+      },
+      {
+        heading: "Budget réaliste pour un achat au Mans",
+        body: "Pour un T3 70 m² aux Jacobins (2 000 €/m²) : 140 000 € FAI, frais de notaire ~11 500 €, agence ~5 000 € = total 156 500 €. Apport 20 % = 31 300 €. Mensualité 20 ans à 3,9 % : ~760 €/mois. Loyer équivalent Le Mans : 600–720 €/mois. L'amortissement se fait en 15–18 ans. Pour une maison avec jardin en périphérie proche : 160 000–250 000 € selon la surface et l'état — exceptional rapport qualité-prix par rapport aux métropoles.",
+      },
+      {
+        heading: "Le Mans pour un navetteur Paris : la meilleure connexion ?",
+        body: "Le Mans–Paris Montparnasse par TGV : 56 minutes. C'est l'une des connexions les plus rapides de province pour une ville à 200 km de Paris. 15–20 TGV par jour en semaine. Abonnement SNCF mensuel : ~220 €. La gare du Mans est en plein centre — pas de déplacement supplémentaire. Pour le navetteur 2 à 3 jours par semaine cherchant à maximiser l'espace de vie pour son budget, Le Mans est objectivement l'une des meilleures combinaisons coût/connexion disponibles en France. Seule Vendôme (45 min mais ville plus petite) est plus rapide.",
+      },
+      {
+        heading: "Économie locale et emploi",
+        body: "Le Mans a une économie industrielle diversifiée : Renault Trucks (300 emplois), PSA (500 emplois à Sablé-sur-Sarthe, 40 km), SNECMA (aéronautique), Royer (biscuiterie), et un secteur assurance important (Mutuelle du Mans Assurances, Groupama). L'université du Maine (15 000 étudiants) et le centre hospitalier sont des employeurs publics significatifs. Le secteur automobile est naturellement lié aux 24 Heures (tourisme, hôtellerie, logistique événementielle). Le télétravail a considérablement amélioré l'attractivité du Mans pour les profils cadres parisiens.",
+      },
+      {
+        heading: "Alternatives proches si Le Mans ne convient pas",
+        body: "Laval (50 000 hab., 80 km) — préfecture mayennaise, TGV Paris en 1h08, marché immobilier ultra-abordable (1 200–2 000 €/m²), économie agro-industrielle. Alençon (26 000 hab., 50 km nord) — moins connecté (TER Caen), plus abordable encore (1 100–1 800 €/m²), mais infrastructure TGV absente. Tours (80 km) — plus grande ville, TGV Paris 1h00, prix plus élevés (2 200–3 500 €/m²). Chartres (80 km est) — connexion Paris comparable, prix similaires. Vendôme (60 km) — TGV 45 min, petite ville pittoresque.",
+      },
+    ],
+    relatedCities: ["le-mans", "tours", "laval", "caen", "chartres"],
+    relatedGuides: [
+      "quitter-le-mans-guide-2026",
+      "acheter-a-tours-quel-quartier-budget-2026",
+      "tgv-paris-accessibilite-villes-2026",
+    ],
+    tags: ["acheter au Mans 2026", "immobilier Le Mans prix quartiers", "Le Mans navetteur Paris TGV achat", "budget achat Le Mans Sarthe", "Le Mans Vieux-Mans Jacobins prix"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
