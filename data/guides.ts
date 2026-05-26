@@ -21767,6 +21767,247 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["quitter Biarritz 2026", "alternatives à Biarritz Pays Basque", "Biarritz trop cher où aller", "partir de Biarritz immobilier", "côte basque alternatives prix 2026"],
   },
+  {
+    slug: "acheter-a-chartres-quel-quartier-budget-2026",
+    title: "Acheter à Chartres en 2026 : quartiers, budget et ce qu'on ne vous dit pas",
+    metaTitle: "Acheter à Chartres 2026 — Prix immobilier, quartiers, budget réaliste",
+    metaDesc: "Guide achat immobilier Chartres 2026. Prix 2 000–3 200 €/m², 1h08 de Paris Montparnasse. Quartiers Cathédrale, Beaulieu, Rechèvres. Comparatif complet.",
+    category: "budget",
+    emoji: "⛪",
+    readMinutes: 8,
+    publishedAt: "2026-05-01",
+    updatedAt: "2026-05-26",
+    intro: "Chartres, 40 000 habitants, 1h08 de Paris-Montparnasse par Intercités — c'est l'une des villes les mieux placées d'Île-de-France élargie pour un premier achat. Avec des prix entre 2 000 et 3 200 €/m², on achète environ 40 % moins cher qu'à Orléans. La cathédrale UNESCO et le bassin de l'Eure sont les atouts patrimoniaux. En contrepartie : marché de l'emploi local limité, dépendance au train, et une ville qui manque encore de dynamisme économique propre.",
+    sections: [
+      {
+        heading: "Prix par quartier : où en est le marché ?",
+        body: "La Cathédrale et le centre historique concentrent le patrimoine (maisons à colombages, rues médiévales) mais aussi les biens les plus chers : 2 600–3 200 €/m² en bon état. C'est le quartier pour les acheteurs qui veulent le cachet sans se soucier de l'animation. Beaulieu (rive gauche) est le quartier résidentiel des familles — pavillons et immeubles 1960–1980, 2 200–2 700 €/m², à 15 min à pied du centre. Rechèvres (nord) est le quartier le plus abordable de Chartres : 1 900–2 400 €/m², parc des Bords de l'Eure à proximité, tramway pour rejoindre la gare.",
+      },
+      {
+        heading: "Les frais réels d'un achat à Chartres",
+        body: "Pour un 3 pièces 65 m² à Beaulieu (2 450 €/m²) : prix FAI 160 000 €, frais de notaire ~13 000 €, agence ~6 000 € = total 179 000 €. Apport recommandé : 20 % = 36 000 €. Mensualité sur 20 ans à 3,9 % : ~870 €/mois. À comparer avec un loyer Chartres du même bien : 700–800 €/mois. L'achat s'amortit en environ 12–14 ans dans ce scénario — rentable si vous restez. Attention aux copropriétés années 1970 avec charges élevées et DPE E/F.",
+      },
+      {
+        heading: "Chartres pour un navetteur Paris : réalité du train",
+        body: "Intercités Paris-Montparnasse–Chartres, 1h08 de trajet, ~20 allers-retours par jour en semaine. Abonnement mensuel : ~200 € avec carte Avantage SNCF (ou 250 € sans). Le quai à Paris est Montparnasse — bien placé pour le 14e, 15e, la Défense en correspondance. Problème : pas de TGV ici, que des Intercités. En cas de grève ou perturbation, pas d'alternative rapide. Les navetteurs Chartres-Paris décrivent une dépendance forte au réseau SNCF — à anticiper dans le projet de vie.",
+      },
+      {
+        heading: "Ce qu'on ne vous dit pas sur Chartres",
+        body: "Le tourisme de la cathédrale est concentré sur quelques semaines (pèlerinages, festival de lumières). En dehors : ville calme, rythme provincial marqué. L'économie locale tourne autour de la cosmétic valley (Cosmétique Paris/Chartres), quelques PME industrielles, et la fonction publique. Pour une activité professionnelle 100 % locale sans télétravail, les opportunités restent limitées. En revanche, l'accès à la nature est réel : Eure et forêts de Rambouillet-Eure-et-Loir à moins de 30 min.",
+      },
+      {
+        heading: "Alternatives proches si Chartres ne convient pas",
+        body: "Dreux (32 000 hab., 40 km) à 1h20 de Paris-St-Lazare — encore plus abordable (1 600–2 500 €/m²) mais moins de charme. Orléans (115 000 hab., 1h05 de Paris-Austerlitz) — plus grande ville, meilleur marché de l'emploi, mais 30 % plus cher. Rambouillet (27 000 hab.) à 40 min de Paris Montparnasse, forêt, cadre résidentiel mais prix élevés (3 200–4 500 €/m²). Vendôme (TGV direct Paris 45 min) à 60 km — surprenant rapport qualité-prix pour les acheteurs avec budget serré.",
+      },
+    ],
+    relatedCities: ["chartres", "orleans", "dreux", "vendome", "rambouillet"],
+    relatedGuides: [
+      "acheter-a-orleans-quel-quartier-budget-2026",
+      "tgv-paris-accessibilite-villes-2026",
+    ],
+    tags: ["acheter à Chartres 2026", "immobilier Chartres prix quartiers", "Chartres navetteur Paris achat", "budget achat Chartres Eure-et-Loir", "Chartres vs Orléans immobilier"],
+  },
+  {
+    slug: "acheter-a-lorient-quel-quartier-budget-2026",
+    title: "Acheter à Lorient en 2026 : quartiers, budget et ce qu'on ne vous dit pas",
+    metaTitle: "Acheter à Lorient 2026 — Prix immobilier, quartiers, budget réaliste",
+    metaDesc: "Guide achat immobilier Lorient 2026. Prix 1 600–2 800 €/m², port militaire, festival interceltique. Quartiers Lorient centre, Keryado, Lanester. Guide complet.",
+    category: "budget",
+    emoji: "🛳️",
+    readMinutes: 8,
+    publishedAt: "2026-05-01",
+    updatedAt: "2026-05-26",
+    intro: "Lorient, 57 000 habitants dans la conurbation, est l'une des villes portuaires les plus abordables de Bretagne. Avec des prix entre 1 600 et 2 800 €/m², c'est 25 à 35 % moins cher que Rennes et même moins cher que Brest. La ville est connue pour le Festival Interceltique (août, 700 000 visiteurs) et son port de pêche actif. Elle a été entièrement reconstruite après la Seconde Guerre mondiale — architecture de reconstruction qui divise, mais patrimoine bâti en bon état général.",
+    sections: [
+      {
+        heading: "Prix par quartier : le marché lorientais",
+        body: "Le centre-ville (Lorient-Perrière, quartier de la reconstruction) concentre les appartements T2/T3 — 1 900–2 600 €/m². Proche gare, commerces, mais peu de cachet architectural. Keryado (est) est le quartier résidentiel préféré des familles : maisons individuelles, 2 000–2 800 €/m², calme, commodités. Lanester (commune limitrophe, rive gauche du Blavet) offre les prix les plus bas : 1 400–2 000 €/m², accessible en 10 min en centre-ville Lorient, mais commune distincte à intégrer dans la réflexion. Larmor-Plage (5 km sud) : bord de mer, plages, 2 500–3 800 €/m² — la prime balnéaire.",
+      },
+      {
+        heading: "Budget réaliste pour un achat à Lorient",
+        body: "Pour un T3 65 m² à Keryado (2 200 €/m²) : 143 000 € FAI, frais de notaire ~11 500 €, agence ~5 000 € = total 160 000 €. Apport 20 % = 32 000 €. Mensualité 20 ans à 3,9 % : ~780 €/mois. Loyer équivalent : 650–750 €/mois. Durée d'amortissement : 13–16 ans. Les maisons de ville dans le centre reconstruit — typiques architecture Lorient — démarrent à 160 000–220 000 € pour 80–100 m².",
+      },
+      {
+        heading: "Marché de l'emploi et économie locale",
+        body: "Lorient est une ville à économie mixte : port militaire (DCN, Marine nationale), pêche industrielle et criée (3e port de pêche français), industrie nautique (Lorient Agglomération Nautisme), agroalimentaire (conserveries) et services publics. Le taux de chômage (autour de 11 %) est au-dessus de la moyenne bretonne. Pour un emploi dans le privé hors secteurs identifiés, le bassin est limité. Le télétravail change la donne — beaucoup de cadres acheteurs à Lorient en 2024–2026 travaillent à Paris ou Rennes.",
+      },
+      {
+        heading: "Cadre de vie : Lorient au quotidien",
+        body: "La façade maritime est réelle mais moins spectaculaire qu'un Saint-Malo ou un Quimper : c'est un port de travail, pas un port de carte postale. En revanche, la rade de Lorient est exceptionnelle pour la voile et les sports nautiques (600+ anneaux de plaisance). Les plages de Larmor-Plage et de Gâvres sont accessibles en 15 min. Le festival interceltique en août anime la ville, mais l'ambiance hors saison est celle d'une ville portuaire ordinaire. Les commerces de centre-ville ont souffert comme dans beaucoup de villes moyennes.",
+      },
+      {
+        heading: "Alternatives si Lorient ne correspond pas",
+        body: "Vannes (55 000 hab., 60 km est) est plus dynamique économiquement, plus chère (2 200–3 500 €/m²), golfe du Morbihan. Quimper (63 000 hab., 70 km ouest) — préfecture finistérienne, belle vieille ville, 1 700–2 600 €/m². Brest (150 000 hab., 100 km nord-ouest) — ville universitaire, prix comparables à Lorient (1 800–2 800 €/m²), meilleur bassin d'emploi. Hennebont (15 000 hab., 12 km nord) — satellite de Lorient, maisons moins chères, cadre de bourg.",
+      },
+    ],
+    relatedCities: ["lorient", "vannes", "quimper", "brest", "rennes"],
+    relatedGuides: [
+      "acheter-a-vannes-quel-quartier-budget-2026",
+      "acheter-a-rennes-quel-quartier-budget-2026",
+    ],
+    tags: ["acheter à Lorient 2026", "immobilier Lorient prix quartiers", "Lorient Morbihan achat immobilier", "budget achat Lorient Bretagne", "Lorient Keryado Larmor-Plage prix"],
+  },
+  {
+    slug: "acheter-a-chambery-quel-quartier-budget-2026",
+    title: "Acheter à Chambéry en 2026 : quartiers, budget et ce qu'on ne vous dit pas",
+    metaTitle: "Acheter à Chambéry 2026 — Prix immobilier, quartiers, budget réaliste",
+    metaDesc: "Guide achat immobilier Chambéry 2026. Prix 2 200–3 600 €/m², alternative à Annecy. Quartiers Vieux-Chambéry, Jacob-Bellecombette, Bissy. Comparatif complet.",
+    category: "budget",
+    emoji: "🏰",
+    readMinutes: 8,
+    publishedAt: "2026-05-01",
+    updatedAt: "2026-05-26",
+    intro: "Chambéry, 60 000 habitants, préfecture de Savoie, est devenue l'alternative sérieuse pour les candidats à l'achat en Savoie qui ne peuvent plus se payer Annecy. Avec des prix entre 2 200 et 3 600 €/m², c'est 40 à 50 % moins cher qu'Annecy (4 500–7 000 €/m²). Chambéry n'a pas le lac d'Annecy, mais elle a une vieille ville médiévale authentique, un accès ski direct (Chartreuse, Beaufortain, Vanoise à moins de 1h), et un bassin d'emploi indépendant.",
+    sections: [
+      {
+        heading: "Prix par quartier : le marché chambérien",
+        body: "Le Vieux-Chambéry (centre historique) — fontaine des Éléphants, maisons de caractère, arcades — est le segment premium : 2 900–3 600 €/m² pour du rénové. C'est le choix des acheteurs qui veulent le cachet. Jacob-Bellecombette (est, colline) est le quartier résidentiel prisé des familles : maisons avec jardins, 2 800–3 400 €/m², calme, vue sur le château. Bissy (nord-ouest) offre le meilleur rapport qualité-prix de Chambéry : 2 100–2 700 €/m², tramway ligne T2, commerces de proximité. Le secteur Barberaz–Challes-les-Eaux (commune limitrophe) descend à 2 000–2 600 €/m² avec un cadre plus résidentiel.",
+      },
+      {
+        heading: "Budget réaliste pour un achat à Chambéry",
+        body: "Pour un T3 68 m² à Bissy (2 400 €/m²) : 163 000 € FAI, frais de notaire ~13 200 €, agence ~6 000 € = total 182 000 €. Apport 20 % = 36 400 €. Mensualité 20 ans à 3,9 % : ~890 €/mois. Loyer équivalent Chambéry : 800–950 €/mois. L'achat s'amortit en 14–17 ans. Pour une maison avec jardin à Jacob : comptez 380 000–550 000 € — c'est là où Chambéry reste accessible là où Annecy dépasse allègrement le million.",
+      },
+      {
+        heading: "Chambéry vs Annecy : la comparaison honnête",
+        body: "Annecy a le lac, le vieux-Annecy carte postale, et une attraction touristique mondiale. Chambéry a une ambiance plus locale, moins Instagram. En matière de qualité de vie réelle : les deux ont accès aux mêmes massifs (Belledonne, Chartreuse, Aravis, Vanoise), des centres-villes à taille humaine, et un réseau de transport interurbain comparable. Pour l'emploi : Annecy est plus dynamique économiquement (industrie de précision, mécatronique, tourisme). Chambéry a un bassin d'emploi tertiaire solide (services publics, santé, enseignement, ARC Industries).",
+      },
+      {
+        heading: "Accès ski et montagne depuis Chambéry",
+        body: "Chartreuse : Les Déserts à 25 min, Saint-Pierre-de-Chartreuse à 30 min. Beaufortain (Arêches-Beaufort) à 50 min. Les Saisies à 55 min. Courchevel/Les 3 Vallées à 1h15 (via Moûtiers). Les Menuires, Val Thorens à 1h30. Chamonix à 1h45 via l'A40. Par rapport à Annecy, l'accès aux grandes stations de Tarentaise est souvent plus direct depuis Chambéry (autoroute A43 directe). La Chartreuse, en revanche, est un avantage exclusif de Chambéry.",
+      },
+      {
+        heading: "Alternatives si Chambéry ne convient pas",
+        body: "Aix-les-Bains (30 000 hab., 15 km nord) — sur le lac du Bourget, plus balnéaire, légèrement plus cher (2 500–3 800 €/m²). Albertville (19 000 hab., 40 km est) — porte des Alpes, marché très abordable (1 800–2 800 €/m²), mais ville fonctionnelle sans grand charme. Grenoble (165 000 hab., 55 km sud) — plus grande ville alpine, prix comparables, meilleur bassin d'emploi tech/recherche. Annecy (130 000 hab., 45 km nord) — le prestige, mais 50 % plus cher.",
+      },
+    ],
+    relatedCities: ["chambery", "annecy", "grenoble", "aix-les-bains", "albertville"],
+    relatedGuides: [
+      "acheter-a-grenoble-quel-quartier-budget-2026",
+      "acheter-a-annecy-quel-quartier-budget-2026",
+    ],
+    tags: ["acheter à Chambéry 2026", "immobilier Chambéry prix quartiers", "Chambéry alternative Annecy achat", "budget achat Chambéry Savoie", "Chambéry Bissy Jacob-Bellecombette prix"],
+  },
+  {
+    slug: "acheter-a-colmar-quel-quartier-budget-2026",
+    title: "Acheter à Colmar en 2026 : quartiers, budget et ce qu'on ne vous dit pas",
+    metaTitle: "Acheter à Colmar 2026 — Prix immobilier, quartiers, budget réaliste",
+    metaDesc: "Guide achat immobilier Colmar 2026. Prix 2 200–3 800 €/m², frontaliers Bâle-Fribourg. Quartiers Petite Venise, Tanner, Ladhof. Comparatif complet 2026.",
+    category: "budget",
+    emoji: "🍷",
+    readMinutes: 8,
+    publishedAt: "2026-05-01",
+    updatedAt: "2026-05-26",
+    intro: "Colmar, 68 000 habitants, est la ville alsacienne qui conjugue le charme médiéval maximal — Petite Venise, colombages, canaux — avec un accès direct au marché de l'emploi frontalier (Bâle à 70 km, Fribourg-en-Brisgau à 40 km). Avec des prix entre 2 200 et 3 800 €/m², c'est significativement moins cher que Strasbourg (3 000–5 500 €/m²). Pour les travailleurs frontaliers qui cherchent un bien en France, Colmar représente un bon compromis entre charme, accès et budget.",
+    sections: [
+      {
+        heading: "Prix par quartier : le marché colmarien",
+        body: "La Petite Venise et le centre historique (maisons à colombages du XVe–XVIe siècle) est le segment le plus cher et le plus atypique : 3 000–3 800 €/m² pour du rénové, surfaces souvent petites et irrégulières. Idéal pour un investissement locatif touristique ou un acheteur qui veut l'adresse. Le quartier Tanner-Ancienne Douane (centre nord) est plus dense, immeubles XIX–XXe, 2 500–3 200 €/m². Ladhof (nord-ouest) — quartier résidentiel familles, maisons individuelles, 2 400–3 000 €/m², cadre plus ordinaire mais calme. Les secteurs Horbourg-Wihr et Andolsheim (banlieue est) tombent à 1 900–2 600 €/m².",
+      },
+      {
+        heading: "Budget réaliste pour un achat à Colmar",
+        body: "Pour un T3 65 m² au Tanner (2 700 €/m²) : 175 500 € FAI, frais de notaire ~14 000 €, agence ~6 500 € = total 196 000 €. Apport 20 % = 39 200 €. Mensualité 20 ans à 3,9 % : ~955 €/mois. Loyer équivalent Colmar : 800–950 €/mois. Le marché colmarien est sous pression depuis le boom frontalier 2021–2023 : les prix ont progressé de 20–25 % en 3 ans.",
+      },
+      {
+        heading: "Colmar pour les frontaliers : la réalité logistique",
+        body: "Bâle (Suisse) est à 70 km par l'A35/A36 : 45–55 min hors pointe, 1h–1h20 aux heures de pointe. Pas de train direct Colmar–Bâle pratique (correspondance Mulhouse). Fribourg-en-Brisgau (Allemagne) à 40 km : 35–45 min. Mulhouse (30 km, 25 min) est le hub intermédiaire — Saint-Louis–Huningue (frontalier Suisse) à 50 km. Pour les frontaliers, Mulhouse ou Saint-Louis sont souvent plus pratiques que Colmar pour l'accès quotidien à Bâle. Colmar vaut pour ceux qui privilégient la qualité de vie alsacienne sur le temps de trajet.",
+      },
+      {
+        heading: "Ce que le tourisme ne dit pas",
+        body: "Colmar reçoit 2 millions de visiteurs par an, concentrés en été et au marché de Noël. Le centre historique vit au rythme du tourisme : prix des commerces, nuisances sonores en haute saison, difficultés de stationnement. Hors saison (janvier–mars), la ville retrouve son calme. L'économie locale combine tourisme, industrie agro-alimentaire (vins d'Alsace, foie gras), quelques PME industrielles et services publics. L'université UHA est présente avec un IUT — bassin étudiant modeste comparé à Strasbourg.",
+      },
+      {
+        heading: "Alternatives proches",
+        body: "Mulhouse (110 000 hab., 30 km) — plus industrielle, moins touristique, nettement moins chère (2 000–3 000 €/m²), meilleur accès Bâle. Strasbourg (285 000 hab., 75 km) — capitale régionale, marché de l'emploi incomparable, mais 40–60 % plus cher. Sélestat (21 000 hab., 25 km nord) — ville alsacienne intermédiaire moins connue, 1 900–2 700 €/m², train direct Strasbourg 25 min. Obernai (12 000 hab., 50 km nord) — village alsacien premium, 2 800–4 000 €/m², très prisé.",
+      },
+    ],
+    relatedCities: ["colmar", "mulhouse", "strasbourg", "selestat", "besancon"],
+    relatedGuides: [
+      "quitter-colmar-guide-2026",
+      "acheter-a-mulhouse-quel-quartier-budget-2026",
+      "acheter-a-strasbourg-quel-quartier-budget-2026",
+    ],
+    tags: ["acheter à Colmar 2026", "immobilier Colmar prix quartiers", "Colmar frontalier Bâle achat", "budget achat Colmar Alsace", "Colmar Petite Venise Tanner prix"],
+  },
+  {
+    slug: "acheter-a-arles-quel-quartier-budget-2026",
+    title: "Acheter à Arles en 2026 : quartiers, budget et ce qu'on ne vous dit pas",
+    metaTitle: "Acheter à Arles 2026 — Prix immobilier, quartiers, budget réaliste",
+    metaDesc: "Guide achat immobilier Arles 2026. Prix 1 900–3 500 €/m², LUMA, Camargue. Quartiers Arles centre, Trinquetaille, Griffeuille. Comparatif complet 2026.",
+    category: "budget",
+    emoji: "🌾",
+    readMinutes: 8,
+    publishedAt: "2026-05-01",
+    updatedAt: "2026-05-26",
+    intro: "Arles, 52 000 habitants, est l'une des villes provençales les plus abordables du Midi, avec des prix entre 1 900 et 3 500 €/m². L'ouverture de la Fondation LUMA en 2021 a transformé le profil de la ville — Arles est devenue une destination culturelle de premier plan (photo, art contemporain), ce qui tire les prix vers le haut dans les beaux quartiers. La Camargue, les Alpilles, Marseille (45 km) et Avignon (35 km) sont accessibles. C'est l'option pour ceux qui veulent le Midi méditerranéen sans payer les prix d'Aix ou Avignon.",
+    sections: [
+      {
+        heading: "Prix par quartier : le marché arlésien",
+        body: "Le centre historique (intra-muros, autour des arènes et du théâtre antique) — UNESCO depuis 1981 — affiche les prix les plus élevés : 2 800–3 500 €/m² pour du rénové avec cachet. C'est le quartier patrimonial, prisé des acheteurs résidence secondaire ou investisseurs meublé touristique. Trinquetaille (rive droite du Rhône) est le quartier historiquement populaire d'Arles — prix plus abordables (2 000–2 700 €/m²), moins touristique, bonne desserte en transports. Griffeuille (nord) — secteur plus récent, prix bas (1 800–2 400 €/m²), davantage de logements sociaux. Autour du LUMA (Parc des Ateliers) : quartier en mutation, prix en hausse, recherché par la scène créative.",
+      },
+      {
+        heading: "Budget réaliste pour un achat à Arles",
+        body: "Pour un T3 70 m² à Trinquetaille (2 300 €/m²) : 161 000 € FAI, frais de notaire ~13 000 €, agence ~6 000 € = total 180 000 €. Apport 20 % = 36 000 €. Mensualité 20 ans à 3,9 % : ~875 €/mois. Loyer équivalent Arles : 700–850 €/mois. Arles offre l'un des meilleurs rapports patrimoine/prix de Provence. Attention : le parc immobilier ancien impose souvent des travaux de rénovation énergétique importants (DPE D/E courants en centre historique).",
+      },
+      {
+        heading: "L'effet LUMA et la gentrification en cours",
+        body: "La Fondation LUMA (Maja Hoffmann, architecture Gehry) a attiré une nouvelle clientèle à Arles : collectionneurs, galeristes, créatifs parisiens. Les prix dans les beaux immeubles du centre ont progressé de 25–30 % entre 2018 et 2024. Le marché de l'été (Rencontres d'Arles de la photo, Fête d'Arles) génère une forte demande de locations courte durée. Pour un investisseur, Arles coche des cases : patrimoine UNESCO, LUMA, demande touristique solide, prix encore raisonnables par rapport à Aix.",
+      },
+      {
+        heading: "Vivre à Arles au quotidien : ce que le guide touristique ne dit pas",
+        body: "Arles a un taux de pauvreté supérieur à la moyenne nationale — la rénovation LUMA n'a pas encore transformé l'économie locale. Les commerces de proximité dans certains quartiers manquent. La chaleur estivale est intense (35–40°C en juillet-août). La Camargue génère des moustiques en quantités épiques de mai à octobre — c'est une réalité que les agences immobilières minimisent. En revanche, les hivers sont doux, les vents du Mistral assèchent et purifient l'air, et la lumière provençale est réelle.",
+      },
+      {
+        heading: "Alternatives si Arles ne convient pas",
+        body: "Avignon (90 000 hab., 35 km) — plus grande ville, palais des Papes, meilleur bassin d'emploi, 2 500–4 000 €/m². Nîmes (150 000 hab., 30 km) — arènes romaines, prix comparables à Arles (2 000–3 200 €/m²) mais marché de l'emploi plus important. Aix-en-Provence (145 000 hab., 80 km) — premium provençal, 3 500–5 500 €/m², université, marché tech. Saint-Rémy-de-Provence (10 000 hab., 20 km) — les Alpilles, résidence secondaire, prix explosés (4 000–7 000 €/m²).",
+      },
+    ],
+    relatedCities: ["arles", "avignon", "nimes", "aix-en-provence", "marseille"],
+    relatedGuides: [
+      "acheter-a-avignon-quel-quartier-budget-2026",
+      "acheter-a-nimes-quel-quartier-budget-2026",
+    ],
+    tags: ["acheter à Arles 2026", "immobilier Arles prix quartiers", "Arles LUMA Camargue achat", "budget achat Arles Provence", "Arles Trinquetaille Griffeuille prix"],
+  },
+  {
+    slug: "acheter-a-biarritz-quel-quartier-budget-2026",
+    title: "Acheter à Biarritz en 2026 : quartiers, budget et ce qu'on ne vous dit pas",
+    metaTitle: "Acheter à Biarritz 2026 — Prix immobilier, quartiers, budget réaliste",
+    metaDesc: "Guide achat immobilier Biarritz 2026. Prix 4 500–8 000 €/m², surf, côte basque. Quartiers Centre, Côte des Basques, Milady, Angloy. Comparatif complet.",
+    category: "budget",
+    emoji: "🏄",
+    readMinutes: 8,
+    publishedAt: "2026-05-01",
+    updatedAt: "2026-05-26",
+    intro: "Biarritz, 26 000 habitants, est l'une des villes les plus chères de France hors Paris et Côte d'Azur : entre 4 500 et 8 000 €/m² selon le quartier et la vue mer. La réputation surf, le patrimoine Belle Époque, et l'attractivité internationale du Pays Basque alimentent une demande qui dépasse largement l'offre locale. Acheter à Biarritz en 2026 est un projet de patrimoine ou de résidence secondaire premium — pour une résidence principale abordable, Bayonne et Anglet offrent de bien meilleures options dans le BAB.",
+    sections: [
+      {
+        heading: "Prix par quartier : un marché de premium",
+        body: "La Côte des Basques et le Centre-ville (hôtels particuliers Belle Époque, Grand Hôtel) : 6 000–8 000 €/m² et plus pour les biens avec vue Atlantique ou caractère architectural. C'est le segment résidence secondaire et investissement patrimonial. Milady (sud, plage calme) : 5 000–7 000 €/m² — légèrement moins cher que la Côte des Basques, quartier résidentiel calme. Les quartiers intermédiaires (Clemenceau, Négresse) : 4 500–5 500 €/m² — moins iconiques, plus accessibles, résidentiel. Anglet (commune limitrophe immédiate) : 3 200–4 800 €/m² — la première alternative avec accès aux mêmes plages.",
+      },
+      {
+        heading: "Budget réaliste pour un achat à Biarritz",
+        body: "Pour un T2 50 m² aux quartiers intermédiaires (4 800 €/m²) : 240 000 € FAI, frais de notaire ~19 000 €, agence ~9 000 € = total 268 000 €. Apport 20 % = 53 600 €. Mensualité 20 ans à 3,9 % : ~1 300 €/mois. Loyer équivalent Biarritz : 950–1 100 €/mois. L'amortissement prend 18–22 ans dans ce scénario. Pour une villa avec jardin et vue mer : comptez 1,5 M€–3 M€ minimum dans les beaux secteurs.",
+      },
+      {
+        heading: "La réalité du marché et de la concurrence",
+        body: "Le marché biarrot est dominé par les acheteurs résidence secondaire (parisiens, belges, anglais, espagnols) et les investisseurs meublé touristique (Airbnb). En 2024–2025, les restrictions sur les locations meublées touristiques (taxe d'habitation, zones tendues) ont légèrement refroidi les investisseurs. Pour les primo-accédants résidents permanents avec des revenus locaux, Biarritz est quasi-inaccessible sans apport important ou aide familiale. La mairie a mis en place des mesures anti-spéculation — limitées dans leur effet réel.",
+      },
+      {
+        heading: "Surf, style de vie et ce que ça coûte vraiment",
+        body: "L'accès aux spots surf (Côte des Basques, Plage de la Milady, Anglet) est réel — c'est l'une des meilleures côtes surf d'Europe. L'ambiance Pays Basque (pelote, fêtes, gastronomie) est authentique. En revanche : saison touristique chargée (juillet-août), stationnement difficile, commerces de luxe qui remplacent les épiceries de quartier. Les habitants permanents signalent une pression sur les services de proximité. Hors saison (novembre–mars) : ville quasi-fantôme dans certains quartiers, commerces fermés.",
+      },
+      {
+        heading: "Alternatives si Biarritz ne correspond pas au budget",
+        body: "Bayonne (52 000 hab., 8 km) — préfecture du Pays Basque, vieille ville gasconne, Nive et Adour, 2 800–4 200 €/m² — la meilleure alternative accessible. Anglet (39 000 hab., 3 km) — entre Biarritz et Bayonne, plages, 3 200–4 800 €/m², famille. Saint-Jean-de-Luz (14 000 hab., 18 km) — port de pêche, village Pays Basque côtier, 4 000–6 500 €/m²— presque aussi cher que Biarritz. Hendaye (18 000 hab., 25 km) — frontière espagnole, plage de 3 km, 3 000–4 500 €/m² — option sous-évaluée.",
+      },
+    ],
+    relatedCities: ["biarritz", "bayonne", "saint-jean-de-luz", "anglet", "pau"],
+    relatedGuides: [
+      "quitter-biarritz-guide-2026",
+      "acheter-a-bayonne-quel-quartier-budget-2026",
+    ],
+    tags: ["acheter à Biarritz 2026", "immobilier Biarritz prix quartiers", "Biarritz surf côte basque achat", "budget achat Biarritz Pays Basque", "Biarritz Côte des Basques Milady prix"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
