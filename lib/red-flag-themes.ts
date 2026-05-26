@@ -631,6 +631,56 @@ function rankLogementIntrouvable(): RedFlagRow[] {
   return rows.sort((a, b) => b.severity - a.severity).slice(0, 12);
 }
 
+// --- THEME 19 — Fuite des jeunes actifs (25-35 ans) ---
+// Cible : villes ≥ 10 000 hab. dont le déficit de jeunes actifs 25-35 ans
+// (lib/demography `youngActives`) dépasse 5,5/10. Distinct de
+// `villes-vieillissement-critique` : on ne réclame pas un composite démo
+// élevé — une ville peut hémorragier ses 25-35 ans sans que la pyramide
+// senior bascule (industrielle en décrochage, sous-préfecture sans pôle
+// universitaire). On filtre d'ailleurs les cas où le composite démographique
+// est déjà extrême (≥ 8,5) pour éviter la duplication avec le thème
+// vieillissement. Severity amplifiée par : trajectoire négative (solde
+// naturel + migratoire), chômage de département élevé (effet push),
+// dynamisme entrepreneurial faible (peu de création d'établissements
+// SIRENE) et petite taille (< 25 000 hab. : pas la masse critique pour
+// retenir un actif diplômé qui veut sa carrière).
+function rankFuiteJeunesActifs(): RedFlagRow[] {
+  const rows: RedFlagRow[] = [];
+  for (const city of CITIES_SEED) {
+    const pop = city.population ?? 0;
+    if (pop < 10_000) continue;
+    const d = computeDemography(city);
+    if (d.youngActives.score < 5.5) continue;
+    if (d.composite >= 8.5) continue; // chasse gardée du thème vieillissement
+
+    const e = computeEmploymentMarket(city);
+
+    // Contributions linéaires (et non par paliers) pour éviter que les villes
+    // des départements très âgés saturent toutes à 10/10. La déficience
+    // jeunes actifs porte la moitié du signal, le reste se répartit entre
+    // trajectoire, marché du travail et masse critique.
+    const yaContribution = d.youngActives.score * 0.55;
+    const trajContribution = Math.max(0, d.trajectory.score - 5) * 0.18;
+    const unempContribution = Math.max(0, e.unemployment.score - 5) * 0.16;
+    const dynContribution = Math.max(0, e.dynamism.score - 5) * 0.10;
+    const popMalus = pop < 25_000 ? 0.4 : pop < 40_000 ? 0.2 : 0;
+    let severity = yaContribution + trajContribution + unempContribution + dynContribution + popMalus;
+    // Plage utile : on remappe vers une échelle où ~3 = négligeable, ~10 = pire.
+    severity = severity * 1.7;
+    severity = Math.min(10, severity);
+    if (severity < 6) continue;
+
+    const trajLabel = d.trajectory.score >= 7
+      ? "trajectoire critique"
+      : d.trajectory.score >= 6
+        ? "trajectoire en érosion"
+        : "trajectoire stable";
+    const reason = `Déficit jeunes actifs ${d.youngActives.score.toFixed(1)}/10 · ${trajLabel} · chômage ${e.unemployment.score.toFixed(1)}/10`;
+    rows.push({ city, severity: Math.round(severity * 10) / 10, reason });
+  }
+  return rows.sort((a, b) => b.severity - a.severity).slice(0, 12);
+}
+
 // --- THEME 18 — Mono-touristique / saison morte ---
 // Cible : villes ≤ 80 000 hab. dont les character-tags signalent une vocation
 // saisonnière (balnéaire, ski, thermalisme, tourisme) ET dont le mix sectoriel
@@ -964,6 +1014,21 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     methodology:
       "Severity = score sectorMix + 1,5 si tag explicite station-balnéaire / stations de ski / thermalisme (sinon +1,0 pour tag balnéaire / ski) + 1,0 si population < 30 000 hab. + 0,5 si score global ≥ 6,5. Filtre : population > 0 et ≤ 80 000 hab., severity ≥ 6/10. Source : MONO_TOURISM_DEPTS (Insee — répartition de l'emploi par secteur 2024) + character-tags du seed propriétaire (vocations affichées).",
     rank: rankMonoTouristique,
+  },
+  {
+    slug: "villes-fuite-jeunes-actifs",
+    title: "Villes que les 25-35 ans quittent en silence",
+    metaTitle: "Villes fuite jeunes actifs 2026 — 25-35 ans en départ",
+    metaDescription:
+      "Classement 2026 des villes françaises que les jeunes actifs 25-35 ans quittent : déficit démographique INSEE, trajectoire, chômage, dynamisme SIRENE.",
+    emoji: "🎒",
+    intro:
+      "Le scénario ne se voit pas sur les plaquettes d'attractivité. Les 18-22 ans partent étudier à Lyon, Bordeaux ou Toulouse, certains envisagent vaguement de revenir « plus tard, quand ce sera le moment de fonder une famille »… et ne reviennent jamais. À 30 ans, la promotion entière a basculé sur les pôles métropolitains, et la ville se retrouve avec une démographie de couvercle : les seniors qui restent, les ados qui partiront, et un trou béant en haut de la pyramide active. C'est l'inverse exact du discours de revitalisation des centres-villes.",
+    reality:
+      "On croise le score `youngActives` de `lib/demography` (proxy INSEE recensement de la part des 25-35 ans) avec la `trajectory` (solde naturel + migratoire, Bilan démographique INSEE) et le score chômage de `lib/employment-market` (INSEE T4 2024). Les villes qui remontent sont rarement spectaculaires — pas de fait divers, pas de pollution — mais elles cumulent trois signaux : déficit structurel de jeunes actifs, solde démographique négatif et marché du travail tendu côté demandeur. Bonus pour les sous-préfectures < 25 000 hab. où l'absence de masse critique rend la rétention encore plus difficile. Le filtre exclut volontairement les villes déjà dominées par le pic vieillissement (composite démographique ≥ 8,5) — celles-là sont dans `villes-vieillissement-critique`.",
+    methodology:
+      "Severity = (0,55 × youngActives + 0,18 × max(0, trajectory−5) + 0,16 × max(0, chômage−5) + 0,10 × max(0, dynamisme−5) + malus taille +0,4 si <25 000 hab. ou +0,2 si <40 000 hab.) × 1,7, clampé à 10/10. Filtre : population ≥ 10 000 hab., composite démographique < 8,5 (pour ne pas dupliquer le thème vieillissement), severity ≥ 6/10. Sources : INSEE recensement (structure par âge 25-35), Bilan démographique INSEE 2024 (solde naturel + migratoire), INSEE taux de chômage T4 2024, SIRENE (flux d'établissements).",
+    rank: rankFuiteJeunesActifs,
   },
 ];
 

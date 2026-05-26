@@ -145,7 +145,8 @@ export default function RedFlagsPage() {
               (Propluvia / BRGM), désert médical (DREES / CNOM / ARS), chômage élevé, cadre
               de vie tendu, coûts explosifs, désert de services publics, villes anti-vélo,
               vieillissement critique, sécurité nocturne tendue, hivers rudes, logement
-              locatif introuvable et économies mono-touristiques (saison morte).
+              locatif introuvable, économies mono-touristiques (saison morte) et fuite
+              silencieuse des 25-35 ans.
             </p>
           </div>
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 auto-rows-fr">
