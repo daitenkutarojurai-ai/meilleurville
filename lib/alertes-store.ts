@@ -103,6 +103,11 @@ export async function findByUnsubscribeToken(token: string): Promise<Alerte | un
   return all.find((a) => a.unsubscribeToken === token);
 }
 
+export async function findAllByEmail(email: string): Promise<Alerte[]> {
+  const all = await ensureLoaded();
+  return all.filter((a) => a.active && a.email.toLowerCase() === email.toLowerCase());
+}
+
 export async function findActiveByEmailAndCity(
   email: string,
   citySlug: string

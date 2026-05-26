@@ -88,7 +88,12 @@ export function AlerteForm({ citySlug, cityName, locale = "fr" }: Props) {
     return (
       <div className="flex items-start gap-3 rounded-2xl border border-emerald-200/60 bg-emerald-50/40 px-4 py-3">
         <Bell className="h-4 w-4 text-emerald-600 mt-0.5 shrink-0" />
-        <p className="text-sm text-emerald-700">{message}</p>
+        <div>
+          <p className="text-sm text-emerald-700">{message}</p>
+          <p className="text-[11px] text-emerald-600 mt-1">
+            <a href="/mes-alertes" className="underline hover:no-underline">Gérer mes alertes</a>
+          </p>
+        </div>
       </div>
     );
   }
