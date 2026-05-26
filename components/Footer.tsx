@@ -45,10 +45,21 @@ const LINKS_EN = {
   Explore: [
     { label: "All cities", href: "/cities" },
     { label: "Rankings", href: "/rankings" },
+    { label: "Niche rankings", href: "/niche-rankings" },
+    { label: "For who", href: "/for-who" },
+    { label: "Cheapest cities", href: "/cheapest-cities" },
+    { label: "Best value", href: "/best-value-cities" },
     { label: "Quiz", href: "/quiz" },
+    { label: "Compare", href: "/compare" },
+    { label: "Guides", href: "/guides" },
+    { label: "Search", href: "/search" },
   ],
   About: [
     { label: "Home", href: "/" },
+    { label: "Methodology", href: "/methodology" },
+    { label: "Data sources", href: "/data-sources" },
+    { label: "Glossary", href: "/glossary" },
+    { label: "FAQ", href: "/faq" },
     { label: "Contact", href: "mailto:hello@mavilleideale.fr" },
   ],
   Legal: [
