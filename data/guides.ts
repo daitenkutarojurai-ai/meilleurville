@@ -27032,6 +27032,487 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["10 choses à faire à Chalon-sur-Saône", "activités Chalon 2026", "sorties Chalon", "que faire à Chalon-sur-Saône", "carnaval Niépce photographie Cluny Côte Chalonnaise"],
   },
+  {
+    slug: "10-choses-a-faire-a-saint-etienne-2026",
+    title: "10 choses à faire à Saint-Étienne (le design et l'héritage industriel du Forez)",
+    metaTitle: "10 choses à faire à Saint-Étienne 2026 — activités et sorties locales",
+    metaDesc: "Cité du Design, musée d'Art Moderne, gorges de la Loire et Pilat : 10 activités à Saint-Étienne pour découvrir la ville UNESCO du design et de l'industrie.",
+    category: "tourisme",
+    emoji: "⚙️",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Saint-Étienne est une ville de 170 000 habitants qui a réussi une reconversion post-industrielle rare en France : ancienne capitale du charbon, de l'arme et du ruban de soie, elle est aujourd'hui désignée UNESCO Ville Créative du Design (2010), l'une des seules villes françaises dans ce réseau. La Cité du Design et le musée d'Art Moderne en font une escale culturelle inattendue.",
+    sections: [
+      {
+        heading: "1. Cité du Design — l'ancienne manufacture d'armes reconvertie",
+        body: "La Cité du Design de Saint-Étienne occupe l'ancienne manufacture nationale d'armes (XIXe siècle, 11 ha) reconvertie en campus créatif. La Platine (bâtiment contemporain de LIN architectes, 2009) abrite des expositions permanentes et temporaires sur le design industriel, graphique et d'espace. La Biennale Internationale Design Saint-Étienne (tous les deux ans, 100 000 visiteurs) est l'un des événements de design les plus influents d'Europe.",
+      },
+      {
+        heading: "2. Musée d'Art Moderne et Contemporain — une collection de rang mondial",
+        body: "Le musée d'Art Moderne et Contemporain de Saint-Étienne (MAMC+) possède l'une des cinq plus grandes collections d'art moderne en France hors Paris : 22 000 œuvres couvrant 1900 à aujourd'hui. Points forts : art américain des années 1960-70 (Andy Warhol, Robert Rauschenberg, Jasper Johns), Nouveau Réalisme (Arman, Klein, Tinguely), art minimal. Le bâtiment (Didier Guichard, 1987) est un musée-forteresse de béton.",
+      },
+      {
+        heading: "3. Le Vieux Saint-Étienne — le quartier Crêt-de-Roc",
+        body: "Le quartier Crêt-de-Roc (vieux Saint-Étienne, entre la rue Michelet et la place du Peuple) est le seul quartier médiéval survivant de la ville : ruelles en pente, maisons à pans de bois des XVIe-XVIIe siècles, collégiale Saint-Thomas (XIIIe siècle). Le marché de la Gloriette (dimanche matin) est le marché paysan le plus animé de l'agglomération. La Comédie (théâtre national, salle de 900 places dans une ancienne usine) est à 200 m.",
+      },
+      {
+        heading: "4. Parc Naturel Régional du Pilat — à 20 min du centre",
+        body: "Le Pilat (parc naturel régional, 65 000 ha, point culminant Crêt de la Perdrix 1 432 m) commence à 20 km de Saint-Étienne. Le Crêt de l'Œillon (1 370 m, route carrossable, vue sur les Alpes, le Massif Central et par temps clair la Méditerranée) est accessible en voiture depuis Saint-Étienne en 40 min. Les gorges du Doux (à 60 km, côté Ardèche) et les vignes de Condrieu/Côte-Rôtie (AOC, à 30 km) complètent l'escapade.",
+      },
+      {
+        heading: "5. Le musée de la Mine — descendre au fond du puits",
+        body: "Le musée de la Mine (puits Couriot, au nord de Saint-Étienne) est le seul musée minier souterrain de France avec une descente dans un vrai puits de mine (120 m de galeries reconstituées, matériel d'époque in situ). Saint-Étienne a produit du charbon de 1700 à 1983 — le bassin stéphanois a alimenté la révolution industrielle française. La galerie de fond reconstitue les conditions de travail des mineurs en taille basse.",
+      },
+      {
+        heading: "6. Les gorges de la Loire — sauvages et proches",
+        body: "Les gorges de la Loire entre Saint-Victor-sur-Loire et le barrage de Grangent (à 15 km de Saint-Étienne) forment un lac-gorge de 21 km encaissé dans les granites du Massif Central. Le château de Grangent (îlot rocheux au milieu du lac, accessible en barque) et les falaises de Saint-Victor-sur-Loire (village médiéval perché) sont les deux sites emblématiques. Randonnée sur le GR3 (rive gauche, 12 km, 4h).",
+      },
+      {
+        heading: "7. La Manufacture de Saint-Étienne — armes et cycles",
+        body: "Saint-Étienne fut pendant deux siècles la capitale française de la coutellerie et de l'armurerie (Manufacture Nationale d'Armes, 1764-2001) et du cycle (Manufrance, créateur de la marque Hirondelle en 1886 — la première grande marque de vélos de France). Le musée d'Art et d'Industrie (bâtiment des origines de la Manufacture) retrace les trois industries stéphanoises : arme, ruban et cycle, avec des collections uniques de sabres, pistolets et cycles anciens.",
+      },
+      {
+        heading: "8. Annonay — le berceau de l'aviation et des frères Montgolfier",
+        body: "Annonay (à 40 km de Saint-Étienne) est la ville où les frères Montgolfier ont fait s'envoler le premier aérostat public le 4 juin 1783 (10 minutes de vol, 2 km parcourus). Le musée des Papeteries Canson et Montgolfier (dans l'ancienne papeterie familiale) retrace l'invention et l'histoire du papier Canson. La papeterie est encore en activité pour la production de papiers d'art.",
+      },
+      {
+        heading: "9. Vienne — les vestiges romains et le festival de jazz",
+        body: "Vienne (à 50 km de Saint-Étienne sur le Rhône) possède un théâtre antique romain du Ier siècle (8 000 places, l'un des mieux conservés de France) qui accueille le Jazz à Vienne (10 jours en juillet, 200 000 spectateurs) — le concert de jazz en plein air le plus influent d'Europe après Montreux. Le temple d'Auguste et de Livie (Ier siècle av. J.-C.), les mosaïques romaines du musée St-Pierre et les gorges du Rhône en contrebas complètent la visite.",
+      },
+      {
+        heading: "10. Gastronomie stéphanoise — la table du mineur",
+        body: "La cuisine stéphanoise porte l'héritage ouvrier : le carré de cochon (côtelette de porc marinée puis grillée au feu de bois), la salade de pissenlit au lard (pissenlit sauvage des prés du Pilat, lardons fumés, œuf poché), la bugne stéphanoise (beignet frit au sucre, distincte de la bugne lyonnaise). La Fouée (pain plat cuit au four à bois, garni de rillettes ou de fromage blanc) est le goûter traditionnel des sorties en Pilat.",
+      },
+    ],
+    relatedCities: ["saint-etienne"],
+    relatedGuides: [
+      "quitter-saint-etienne-guide-2026",
+      "acheter-a-saint-etienne-quel-quartier-budget-2026",
+      "vivre-en-auvergne-rhone-alpes-guide-2025",
+    ],
+    tags: ["10 choses à faire à Saint-Étienne", "activités Saint-Étienne 2026", "sorties Saint-Étienne", "que faire à Saint-Étienne", "Cité Design UNESCO musée art moderne Pilat gorges Loire"],
+  },
+  {
+    slug: "10-choses-a-faire-a-frejus-2026",
+    title: "10 choses à faire à Fréjus (la ville romaine et l'Estérel rouge)",
+    metaTitle: "10 choses à faire à Fréjus 2026 — activités et sorties locales",
+    metaDesc: "Amphithéâtre romain, cathédrale médiévale, massif de l'Estérel et calanques de porphyre : 10 activités à Fréjus pour découvrir la cité antique du Var.",
+    category: "tourisme",
+    emoji: "🏛️",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Fréjus est l'ancienne Forum Julii, port militaire fondé par Jules César en 49 av. J.-C. et agrandi par Auguste — l'une des villes romaines les mieux dotées en monuments de France. Ses 55 000 habitants partagent la ville entre un centre historique antique et médiéval exceptionnel et la station balnéaire de Fréjus-Plage, porte d'entrée du massif de l'Estérel.",
+    sections: [
+      {
+        heading: "1. L'amphithéâtre romain — l'arène du Ier siècle",
+        body: "L'amphithéâtre romain de Fréjus (Ier-IIe siècle ap. J.-C., 10 000 places) est le troisième amphithéâtre romain le mieux conservé de France après Nîmes et Arles. Sa structure en petits moellons (opus incertum) et ses arcades d'entrée partiellement reconstituées permettent de comprendre le fonctionnement de l'édifice. Des corridas et des concerts y sont organisés chaque été. L'arène est à 10 min à pied de la cathédrale.",
+      },
+      {
+        heading: "2. Groupe épiscopal de Fréjus — la cathédrale et son baptistère",
+        body: "Le groupe épiscopal de Fréjus (IVe-XIIIe siècles) est l'un des ensembles religieux médiévaux les plus complets du sud de la France : cathédrale Notre-Dame-et-Saint-Léonce (XIIe siècle), cloître gothique (XIIe-XIVe siècles), baptistère paléochrétien du Ve siècle (l'un des quatre seuls baptistères carolingiens encore debout en France) et épiscopat (musée archéologique avec des mosaïques romaines exceptionnelles).",
+      },
+      {
+        heading: "3. Le théâtre romain et les thermes d'Agrippa",
+        body: "Fréjus concentre sur 2 km² plus de monuments romains que la plupart des villes de province : théâtre antique (Ier siècle, scène partiellement reconstituée), thermes d'Agrippa (IIe siècle, enceinte hexagonale visible depuis la rue), porte de Rome (arche monumentale), porte des Gaules, aiguille romaine (colonne de signalisation du port antique). Le site archéologique de la Plate-forme réunit plusieurs de ces vestiges.",
+      },
+      {
+        heading: "4. Le massif de l'Estérel depuis Fréjus",
+        body: "Le massif de l'Estérel (porphyre rouge volcanique, falaises tombant dans une mer turquoise) commence à 5 km de Fréjus. La calanque du Dramont (plage de sable rouge, rocher de l'Île d'Or où Hergé a situé le Sceptre d'Ottokar), l'Agay (rade abritée, plage de porphyre rouge) et le Cap Roux (405 m, vue sur les Alpes et la Corse) sont les étapes du sentier du littoral depuis Fréjus (20 km, journée).",
+      },
+      {
+        heading: "5. Saint-Raphaël — la station Belle Époque voisine",
+        body: "Saint-Raphaël (contigüe à Fréjus, séparée seulement par une rue) est une station balnéaire fondée par Alphonse Karr en 1864. Son église néo-byzantine (1887) et ses villas Belle Époque donnent au front de mer un caractère distinct. Le port de Santa Lucia (premier port de plaisance du Var) est le point de départ des plongées sur l'épave du Donator (cargo de 1945, accessible à 15 m) et des sorties dauphins.",
+      },
+      {
+        heading: "6. La pagode bouddhiste Hong Hien — l'Indochine en Provence",
+        body: "La pagode Hong Hien (ou pagode de Fréjus, 1919) est l'une des toutes premières pagodes bouddhistes construites sur le sol français, érigée par des soldats indochinois de l'armée coloniale stationnés à Fréjus pendant la Première Guerre mondiale. Ses toits en tuiles vernissées vertes et son décor de dragons et de lions gardiens au milieu des pins méditerranéens créent un contraste saisissant. Entrée libre.",
+      },
+      {
+        heading: "7. Les gorges du Verdon depuis Fréjus",
+        body: "Le Grand Canyon du Verdon (à 90 km de Fréjus) est le plus grand canyon d'Europe : 25 km de gorges, parois calcaires de 700 m, eau turquoise émeraude. L'accès se fait depuis Moustiers-Sainte-Marie (village perché, faïences, étoile accrochée dans la falaise) ou Castellane. La randonnée du Sentier Martel (18 km, 8h, aller simple) dans le fond des gorges est l'expérience la plus intense — lampe frontale indispensable pour les tunnels.",
+      },
+      {
+        heading: "8. Napoléon à Fréjus — le golfe de débarquement",
+        body: "Fréjus est liée à Napoléon à deux titres : c'est là qu'il débarque le 9 octobre 1799 à son retour d'Égypte (le futur 18 Brumaire est dans deux semaines), et c'est là qu'il embarque définitivement le 28 avril 1814 pour l'île d'Elbe. La plage du Débarquement (golfe de Fréjus) porte deux plaques commémoratives. Le musée des Troupes de Marine (dans le camp Galliéni, à 3 km) retrace les campagnes coloniales françaises.",
+      },
+      {
+        heading: "9. Les plages de Fréjus-Plage et du Dramont",
+        body: "Fréjus-Plage (5 km de plages de sable fin à l'embouchure de l'Argens) est l'une des plages les plus familiales du Var — eau peu profonde, sable fin, pas de rochers. La plage du Débarquement (au pied de l'Estérel, sable de porphyre rouge mêlé de sable blanc) et la plage de la Garonne (dans la rade d'Agay) offrent des alternatives plus sauvages. La base nautique de Fréjus propose voile, windsurf et paddle depuis la plage principale.",
+      },
+      {
+        heading: "10. Marché de Fréjus et gastronomie varoise",
+        body: "Le marché de Fréjus (mercredi et samedi, place Formigé au pied de la cathédrale) est l'un des marchés provençaux les plus animés du Var intérieur : légumes du pays (courgettes fleurs, tomates de plein champ, aubergines violettes), fromages de Banon et de Brousse du Rove, tapenade et anchoïade maison. La soupe de poisson et la bouillabaisse varoise (différente de la marseillaise — rouget, saint-pierre, vive) se trouvent dans les restaurants du port de Fréjus.",
+      },
+    ],
+    relatedCities: ["frejus"],
+    relatedGuides: [
+      "vivre-en-provence-paca-guide-2025",
+      "cote-azur-abordable-arriere-pays-paca-2025",
+    ],
+    tags: ["10 choses à faire à Fréjus", "activités Fréjus 2026", "sorties Fréjus", "que faire à Fréjus", "amphithéâtre romain Estérel calanques cathédrale médiévale Var"],
+  },
+  {
+    slug: "10-choses-a-faire-a-arras-2026",
+    title: "10 choses à faire à Arras (les places flamandes et les champs de bataille)",
+    metaTitle: "10 choses à faire à Arras 2026 — activités et sorties locales",
+    metaDesc: "Grand-Place flamande, Boves souterrains, mémoriaux de la Grande Guerre et beffroi : 10 activités à Arras pour découvrir la capitale de l'Artois.",
+    category: "tourisme",
+    emoji: "🏟️",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Arras est la préfecture du Pas-de-Calais, 43 000 habitants dans une ville reconstruite à l'identique après la Première Guerre mondiale. Ses deux places flamandes (Grand-Place et place des Héros) avec leurs maisons à pignons baroques du XVIIe-XVIIIe siècles sont classées parmi les plus belles de France, et ses sous-sols cachent 22 km de souterrains médiévaux utilisés comme carrières de craie dès le XIe siècle.",
+    sections: [
+      {
+        heading: "1. Grand-Place et place des Héros — les façades flamandes baroques",
+        body: "Les deux places d'Arras (Grand-Place et place des Héros, reliées par la rue de la Taillerie) sont entourées de 155 maisons à façades flamandes à pignons sculptés en grès blanc — reconstruites à l'identique entre 1919 et 1932 après destruction quasi totale pendant la Grande Guerre. Les arcades basses et larges (les « corons ») permettaient jadis aux marchands de faire commerce à l'abri. Classées parmi les plus belles places de France.",
+      },
+      {
+        heading: "2. Les Boves — les souterrains médiévaux",
+        body: "Les Boves (de bove, cave en picard) sont 22 km de galeries souterraines creusées dans la craie sous Arras depuis le XIe siècle pour en extraire les pierres de construction. Utilisées comme carrières, caves à vin, refuges pendant les bombardements et positions militaires en 1917 (« Bataille des souterrains » — 25 000 soldats néo-zélandais ont vécu ici avant l'offensive d'Arras). Visite guidée (1h) depuis la place des Héros.",
+      },
+      {
+        heading: "3. Mémorial de Vimy — le sacrifice canadien",
+        body: "Le mémorial canadien de Vimy (à 10 km d'Arras) commémore la prise de la crête de Vimy par le Corps expéditionnaire canadien en avril 1917 — 3 598 soldats canadiens tués en 4 jours. Le monument (deux colonnes de calcaire blanc de 36 m, Walter Allward, 1936) est le monument le plus solennel de la Grande Guerre. Les tranchées conservées (reconstruction des lignes canadienne et allemande à 50 m l'une de l'autre) sont les plus saisissantes du front occidental.",
+      },
+      {
+        heading: "4. L'Anneau de la Mémoire de Notre-Dame-de-Lorette",
+        body: "Notre-Dame-de-Lorette (à 12 km d'Arras) est le plus grand cimetière militaire français : 40 000 soldats français enterrés sur une butte dominant la plaine de Flandre. L'Anneau de la Mémoire (2014, Philippe Prost) est un mémorial circulaire en acier de 345 m de circonférence gravé des 580 000 noms de soldats morts sur le front nord de 1914 à 1918 — sans distinction de nationalité, par ordre alphabétique. Architecture monumentale contemporaine.",
+      },
+      {
+        heading: "5. Beffroi d'Arras — vue sur les toits flamands",
+        body: "Le beffroi d'Arras (56 m, reconstruit en 1924 dans le style du XVe siècle d'origine, UNESCO) abrite le musée des Beaux-Arts et offre depuis sa terrasse la meilleure vue sur les deux places et les toits en tuiles rouges à pignons flamands. Le carillon (47 cloches) joue des mélodies populaires à chaque quart d'heure. La mairie (hôtel de ville adjacent, XVIIe-XVIIIe siècles) a été reconstruite à l'identique après 1918.",
+      },
+      {
+        heading: "6. Lens et le Louvre-Lens",
+        body: "Le Louvre-Lens (à 20 km d'Arras), inauguré en 2012 dans une ancienne fosse minière, est l'antenne régionale du musée du Louvre dans le bassin minier. La Galerie du Temps (120 m de long, 200 œuvres du Louvre présentées chronologiquement) est la présentation muséale la plus pédagogique de France. L'entrée permanente est gratuite. L'architecture (SANAA, Tokyo) est faite d'aluminium et de verre translucide intégré dans un parc paysager.",
+      },
+      {
+        heading: "7. Vallée de la Scarpe — la nature à 10 min",
+        body: "La vallée de la Scarpe (rivière à 5 km d'Arras) est une zone humide protégée (Natura 2000) dans un bassin industriel : étangs, roselières, bois alluviaux, martins-pêcheurs, loutres. La piste cyclable du Canal du Nord (38 km de voie verte, Arras-Douai) longe le canal sur berges plates. En automne, les peupliers de la Scarpe offrent un spectacle de couleurs inattendu dans la plaine du Nord.",
+      },
+      {
+        heading: "8. Le musée des Beaux-Arts — la collection flamande",
+        body: "Le musée des Beaux-Arts d'Arras (dans l'ancienne abbaye Saint-Vaast du XVIIIe siècle) possède une collection de peinture flamande et hollandaise de qualité : Jan Brueghel l'Ancien, Jan Claesz Rietschoof, paysages flamands du XVIIe. L'abbaye elle-même (cloître classique de 1746, chapelle transformée en salle d'exposition) est l'un des plus beaux bâtiments d'Arras. La collection de céramiques d'Arras (XVIIIe siècle) est une curiosité locale.",
+      },
+      {
+        heading: "9. Hénin-Beaumont et le bassin minier UNESCO",
+        body: "Le bassin minier du Pas-de-Calais (classé UNESCO en 2012) est le seul paysage industriel inscrit au patrimoine mondial en France : 353 éléments sur 120 km (fosses, terrils, cités ouvrières, chevalements). Les terrils jumeaux de Loos-en-Gohelle (180 m, les plus hauts terrils d'Europe), accessibles depuis la route, offrent une vue panoramique sur toute la plaine. La cité des Électriciens à Bruay-la-Buissière (cité ouvrière reconstituée) est visitables.",
+      },
+      {
+        heading: "10. Gastronomie du Pas-de-Calais — maroilles et carbonnade",
+        body: "La gastronomie du Pas-de-Calais est celle des estaminets flamands : la carbonnade flamande (bœuf braisé à la bière brune pendant 3h, pain d'épices et sirop de Liège), le hochepot (pot-au-feu flamand avec queue de bœuf et oreille de porc), la tarte au maroilles (quiche sur fond de maroilles AOP fondu — fromage à pâte molle lavée de la Thiérache, odeur puissante, goût doux). La ficelle picarde (crêpe garnie de jambon et champignons, gratinée) est l'entrée régionale.",
+      },
+    ],
+    relatedCities: ["arras"],
+    relatedGuides: [
+      "hauts-de-france-lille-arras-amiens-guide-2025",
+      "vivre-en-hauts-de-france-guide-2026",
+    ],
+    tags: ["10 choses à faire à Arras", "activités Arras 2026", "sorties Arras", "que faire à Arras", "places flamandes Boves souterrains Vimy Grande Guerre beffroi"],
+  },
+  {
+    slug: "10-choses-a-faire-a-lens-2026",
+    title: "10 choses à faire à Lens (le Louvre-Lens et le bassin minier)",
+    metaTitle: "10 choses à faire à Lens 2026 — activités et sorties locales",
+    metaDesc: "Louvre-Lens, terrils UNESCO, stade Bollaert et bassin minier : 10 activités à Lens pour découvrir la capitale culturelle du bassin minier du Nord.",
+    category: "tourisme",
+    emoji: "🎨",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Lens est une ville de 30 000 habitants au cœur du bassin minier du Pas-de-Calais (UNESCO), reconvertie depuis la fermeture des mines (1986) autour du Louvre-Lens — l'une des réussites culturelles les plus citées en France. Le Racing Club de Lens et son stade Bollaert (ultras de la tribune Marek — ambiance parmi les meilleures de Ligue 1) complètent l'identité forte de la ville.",
+    sections: [
+      {
+        heading: "1. Louvre-Lens — le musée du Louvre dans le bassin minier",
+        body: "Le Louvre-Lens (inauguré en 2012 sur l'ancienne fosse 9 des mines de Lens) est l'antenne régionale du musée du Louvre. La Galerie du Temps (120 m de long, 5 000 m²) présente 200 œuvres du Louvre en rotation — de la Victoire de Samothrace aux peintures flamandes du XVIIe siècle, dans un ordre chronologique unique. Entrée gratuite pour les collections permanentes. L'architecture SANAA (aluminium poli, verre translucide) intégre le bâtiment dans le parc paysager de l'ancienne fosse.",
+      },
+      {
+        heading: "2. Les terrils jumeaux de Loos-en-Gohelle",
+        body: "Les terrils 11/19 de Loos-en-Gohelle (à 5 km de Lens) sont les plus hauts terrils d'Europe : 180 m et 186 m de hauteur, visibles à 50 km à la ronde dans la plaine du Nord. La montée à pied (45 min) offre une vue à 360° sur le bassin minier, Arras, Douai et les éoliennes. Les terrils sont colonisés par une végétation spontanée (orchidées sauvages, bouleau, genêt). Les deux terrils reliés par une selle en font la silhouette la plus reconnaissable du Pas-de-Calais.",
+      },
+      {
+        heading: "3. Stade Bollaert-Delelis — le temple du RC Lens",
+        body: "Le stade Bollaert-Delelis (38 000 places, inauguré en 1933) est l'un des stades les plus atmosphériques de France : la tribune Marek (ultras lensois, debout, fumigènes) produit une ambiance de stade rare en dehors de l'Angleterre. Le RC Lens (Racing Club, dit « les Sang et Or ») est le club de la région et son lien avec la communauté minière est documenté : les enfants de mineurs polonais immigrés dans les années 1920 ont fondé le premier noyau de supporters. Visites du stade hors match.",
+      },
+      {
+        heading: "4. La cité des Électriciens de Bruay — la vie des mineurs",
+        body: "La cité des Électriciens de Bruay-la-Buissière (à 15 km de Lens) est une cité ouvrière construite en 1856 pour les mineurs électriciens de la fosse — restaurée et ouverte au public. 12 maisons témoignent des conditions de vie selon la hiérarchie minière : maison du contremaître, maison d'ouvrier, jardins ouvriers. C'est la seule cité ouvrière minière intégralement restaurée en France. Classée au patrimoine UNESCO du bassin minier.",
+      },
+      {
+        heading: "5. Le musée des Beaux-Arts de Valenciennes",
+        body: "Valenciennes (à 45 km de Lens) possède l'un des musées de province les plus riches de France : peintures flamandes et espagnoles du XVIIe (Rubens, Jordaens, Van Dyck), collection Watteau (né à Valenciennes en 1684). La collection de grisailles peintes (la spécialité de l'atelier valenciennois au XVIIIe siècle) est unique en France. Valenciennes est la ville natale de Jean-Baptiste Carpeaux (sculpteur du XIXe siècle, La Danse de l'Opéra Garnier).",
+      },
+      {
+        heading: "6. Douai — le beffroi et le carnaval des Gayants",
+        body: "Douai (à 20 km de Lens) possède le plus grand beffroi de France (54 m, XVe siècle, UNESCO) et ses Gayants — les plus grandes statues processionnelles d'Europe : Monsieur Gayant (8,5 m, 370 kg) et sa famille sortent chaque premier week-end de juillet depuis 1530. La foire à tout de Douai (Brocante, premier mai) est l'une des plus grandes foires de province en France. Le musée de la Chartreuse (dans l'ancienne chartreuse du XVIIe siècle) possède une collection flamande remarquable.",
+      },
+      {
+        heading: "7. Hénin-Beaumont et le bassin minier paysager",
+        body: "Le bassin minier UNESCO (353 éléments sur 120 km entre Lens et Valenciennes) est le seul paysage industriel inscrit au patrimoine mondial en France. Les chevalements (structures métalliques au-dessus des puits de mine) de Grévin à Auchel, de la fosse Delloye à Lewarde et de la fosse Arenberg (décor du film Germinal de 1993) sont les monuments emblématiques du bassin. Le Centre Historique Minier de Lewarde est le plus grand musée minier de France.",
+      },
+      {
+        heading: "8. Béthune — la Grand-Place et la tour Saint-Barthélemy",
+        body: "Béthune (à 15 km de Lens) possède une Grand-Place flamande avec beffroi du XIVe siècle (l'un des rares beffrois médiévaux du Pas-de-Calais). La tour Saint-Barthélemy (XVe siècle, seul vestige de l'église détruite en 1918) se dresse isolée au milieu d'un carrefour. Le marché du vendredi de Béthune est l'un des marchés alimentaires les plus animés de l'Artois.",
+      },
+      {
+        heading: "9. Le carnaval de Dunkerque depuis Lens",
+        body: "Dunkerque (à 80 km de Lens) accueille le plus grand carnaval du Nord de France (120 000 participants, trois semaines en janvier-mars). Depuis Lens, l'accès en voiture est direct par l'A25 (1h). La bande de Dunkerque (défilé en musique de la fosse aux bières à l'hôtel de ville, 10 km) est l'événement festif le plus impressionnant des Hauts-de-France.",
+      },
+      {
+        heading: "10. Gastronomie minière — estaminet et welsh",
+        body: "La gastronomie du bassin minier est celle de l'estaminet : le welsh (pain de mie garni de cheddar fondu à la bière, parfois jambon ou œuf — plat hérité des soldats anglais de 1914-1918), la potjevleesch (terrine froide de lapin, poulet, porc et veau dans sa gelée, servie avec frites et salade), la carbonnade flamande. Le café de l'Horloge à Lens et L'Estaminet du Beffroi à Béthune sont les adresses locales de référence.",
+      },
+    ],
+    relatedCities: ["lens"],
+    relatedGuides: [
+      "hauts-de-france-lille-arras-amiens-guide-2025",
+      "cote-opale-nord-pas-de-calais-vivre-guide-2025",
+    ],
+    tags: ["10 choses à faire à Lens", "activités Lens 2026", "sorties Lens", "que faire à Lens", "Louvre-Lens terrils UNESCO RC Lens bassin minier"],
+  },
+  {
+    slug: "10-choses-a-faire-a-calais-2026",
+    title: "10 choses à faire à Calais (la dentelle et le détroit le plus fréquenté du monde)",
+    metaTitle: "10 choses à faire à Calais 2026 — activités et sorties locales",
+    metaDesc: "Musée de la Dentelle, cap Blanc-Nez, Cité Europe et mémorial du Débarquement : 10 activités à Calais pour découvrir la ville du détroit et de la dentelle.",
+    category: "tourisme",
+    emoji: "🧵",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Calais est une ville de 70 000 habitants au point le plus proche entre la France et l'Angleterre (33 km jusqu'aux falaises de Douvres). Nœud de passage depuis la guerre de Cent Ans (siège de 1347), Calais est aujourd'hui le premier port passager d'Europe (10 millions de passagers/an) et la capitale mondiale de la dentelle à la mécanique.",
+    sections: [
+      {
+        heading: "1. Musée de la Dentelle et de la Mode — la capitale mondiale",
+        body: "Calais produit 80 % de la dentelle mécanique mondiale (dentelle de Calais-Caudry, IGP) depuis l'installation des métiers Leavers anglais par des ouvriers de Nottingham en 1816. Le musée de la Dentelle et de la Mode de Calais (dans la Cité de la Dentelle et de la Mode) présente l'histoire de la fabrication et des créateurs qui utilisent la dentelle calaisienne : Chanel, Dior, Valentino. Des métiers Leavers du XIXe siècle sont présentés en fonctionnement.",
+      },
+      {
+        heading: "2. Les Bourgeois de Calais — Rodin sur la place",
+        body: "Les Bourgeois de Calais (bronze, Auguste Rodin, 1888) commémore les six notables qui se sont livrés en 1347 à Édouard III d'Angleterre (corde au cou, clés de la ville en main) pour sauver la population du siège anglais — et ont été graciés par la reine Philippa de Hainaut enceinte. L'original est installé devant l'hôtel de ville néo-flamand d'Arras (1923). Une des œuvres de Rodin les plus reproduites au monde.",
+      },
+      {
+        heading: "3. Cap Blanc-Nez — les falaises de craie face à Douvres",
+        body: "Le cap Blanc-Nez (à 15 km de Calais) est un cap de craie de 134 m dominant le détroit du Pas-de-Calais — le plus fréquenté au monde (600 navires/jour). Par temps clair : les falaises blanches de Douvres sont visibles à l'œil nu à 33 km. L'obélisque du Dover Patrol (mémorial franco-anglais de la Première Guerre mondiale) est au sommet. Le sentier littoral (GR 120) relie le cap à Boulogne-sur-Mer (25 km, 8h).",
+      },
+      {
+        heading: "4. Cité Europe et le tunnel sous la Manche",
+        body: "Le terminal Eurotunnel de Coquelles (à 5 km de Calais) accueille le Shuttle (trains navettes de voitures sous la Manche, 35 min de trajet). La gare de Calais-Fréthun est la gare Eurostar la plus proche de Calais. L'entrée du tunnel côté français est visible depuis la D940 — aucune structure visible à la surface, juste les portiques de sécurité. La Cité Europe (le plus grand centre commercial des Hauts-de-France) est à côté.",
+      },
+      {
+        heading: "5. Le musée des Beaux-Arts et de la Dentelle",
+        body: "Le musée des Beaux-Arts de Calais (dans le parc Richelieu) possède une collection de peintures françaises et flamandes du XVIe au XXe siècle. Sa collection de sculptures est remarquable : moulages d'atelier de Rodin (offerts par l'artiste à la ville en reconnaissance de la commande des Bourgeois), et plusieurs bronzes originaux. La collection de dentelles de point à l'aiguille du XVIIe siècle (dentelles au fuseau de Flandre) est la plus complète de France.",
+      },
+      {
+        heading: "6. La plage de Calais et le front de mer",
+        body: "La plage de Calais (4 km de sable fin, la plus grande plage de la Côte d'Opale) est accessible depuis le centre-ville à pied (15 min). Par vents forts de nord-ouest, c'est l'une des meilleures plages de kitesurf de France. Le phare de Calais (56 m, visible à 28 km en mer) domine le front de mer et peut se visiter. Le casino et les villas Belle Époque du quartier Courgain-Maritime forment un front de mer insolite entre mer du Nord et architecture normande.",
+      },
+      {
+        heading: "7. Gravelines — la citadelle de Vauban",
+        body: "Gravelines (à 20 km de Calais) est la cité fortifiée la mieux conservée de Vauban : la citadelle hexagonale de 1559 (antérieure à Vauban, qui l'a aménagée) est intacte avec bastions, demi-lunes et fossés en eau. Le musée du Dessin et de l'Estampe Originale (dans l'arsenal du XVIIe siècle) est l'un des plus importants de France. La centrale nucléaire de Gravelines (6 réacteurs — la plus grande d'Europe de l'Ouest) est visible depuis la digue.",
+      },
+      {
+        heading: "8. Saint-Omer — la cathédrale et le marais audomarois",
+        body: "Saint-Omer (à 40 km de Calais) possède la cathédrale Notre-Dame (XIIIe-XVe siècles) avec une collection de sculptures flamandes médiévales exceptionnelle. Le marais audomarois (Grand Site de France) est un marais maraîcher cultivé en bateaux depuis le Moyen Âge — les maraichers vendent leurs légumes sur l'eau depuis leurs bacôves (barques plates) au marché flottant d'avril à octobre. La bière de Bailleul (Trois Monts) et les genièvres artisanaux sont les alcools locaux.",
+      },
+      {
+        heading: "9. Boulogne-sur-Mer — le plus grand aquarium de France",
+        body: "Boulogne-sur-Mer (à 30 km de Calais) possède Nausicaá (la plus grande exposition marine de France, 60 000 animaux marins, 9 000 m²) — classé parmi les cinq meilleures expositions marines d'Europe. La ville haute médiévale (remparts intacts, cathédrale à coupole, château-musée médiéval) domine le port de pêche (premier port de pêche de France). Dégustation de hareng fumé à froid (hareng saur) directement sur le port.",
+      },
+      {
+        heading: "10. Gastronomie du Calaisis — hareng et moules",
+        body: "La cuisine calaisienne est celle de la mer du Nord : hareng fumé à froid (hareng saur — filets séchés et fumés pendant 4h à froid, servis en salade avec pommes de terre tièdes), moules de Boulogne (cuites à la crème et échalotes), cabillaud rôti sur peau avec beurre de langoustines. La gaufre de Dunkerque (gaufre à la cassonade et vanille, croquante, à manger en marchant) est le goûter de la côte.",
+      },
+    ],
+    relatedCities: ["calais"],
+    relatedGuides: [
+      "cote-opale-nord-pas-de-calais-vivre-guide-2025",
+      "vivre-en-hauts-de-france-guide-2026",
+    ],
+    tags: ["10 choses à faire à Calais", "activités Calais 2026", "sorties Calais", "que faire à Calais", "dentelle Calais Bourgeois Rodin cap Blanc-Nez détroit Manche"],
+  },
+  {
+    slug: "10-choses-a-faire-a-boulogne-sur-mer-2026",
+    title: "10 choses à faire à Boulogne-sur-Mer (Nausicaá et le premier port de pêche de France)",
+    metaTitle: "10 choses à faire à Boulogne-sur-Mer 2026 — activités et sorties locales",
+    metaDesc: "Nausicaá, ville haute médiévale, cap Gris-Nez et hareng fumé : 10 activités à Boulogne-sur-Mer pour découvrir le premier port de pêche de France.",
+    category: "tourisme",
+    emoji: "🐟",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Boulogne-sur-Mer est la plus grande ville de pêche de France (30 000 t de poissons débarqués par an) et la troisième ville des Hauts-de-France avec 40 000 habitants. Sa ville haute médiévale (remparts du XIIIe siècle intacts), sa cathédrale à coupole et son musée du Château en font un centre historique parmi les plus riches du Nord — et Nausicaá reste la plus grande exposition marine de France.",
+    sections: [
+      {
+        heading: "1. Nausicaá — la plus grande exposition marine de France",
+        body: "Nausicaá (Centre National de la Mer, 9 000 m², 60 000 animaux marins) est la plus grande exposition marine de France et parmi les cinq meilleures d'Europe. Le bassin de 10 000 m³ (requins, raies, thons, poissons tropicaux en pleine eau) est le plus grand bassin de France. L'extension de 2017 (exposition sur la haute mer et l'Antarctique, 4 000 m²) a porté la capacité à 700 000 visiteurs/an.",
+      },
+      {
+        heading: "2. La ville haute médiévale — les remparts du XIIIe siècle",
+        body: "La ville haute de Boulogne est entourée de ses remparts médiévaux du XIIIe siècle sur 1,4 km, entièrement conservés et accessibles en promenade sur le chemin de ronde. À l'intérieur : la cathédrale Notre-Dame (XVIIIe-XIXe siècles, coupole de 35 m visible à 30 km en mer), le château-musée médiéval (donjon carré de Philippe Hurepel, 1231), la bibliothèque municipale dans l'ancien évêché. La vue depuis les remparts sur la ville basse et le port est la plus classique de Boulogne.",
+      },
+      {
+        heading: "3. Cap Gris-Nez — le point le plus proche de l'Angleterre",
+        body: "Le cap Gris-Nez (à 20 km de Boulogne) est le point de France le plus proche des côtes anglaises (28 km). Les falaises de craie noire (gris = grès, pas couleur) tombent à 45 m de hauteur sur la Manche. Par temps clair : les falaises de Douvres et le château de Douvres sont visibles à l'œil nu. Le sentier du littoral (GR 120, entre cap Gris-Nez et cap Blanc-Nez, 12 km) est la randonnée la plus spectaculaire de la Côte d'Opale.",
+      },
+      {
+        heading: "4. Le port de pêche — la criée en direct",
+        body: "Boulogne-sur-Mer est le premier port de pêche de France (30 000 t/an, 800 emplois directs). La criée de Boulogne est l'une des deux seules criées ouvertes au public en France (visite sur réservation, mardi-jeudi à 6h30). Le chalutier arrivé du Grand Nord (morue, lieu jaune, cabillaud) décharge directement en criée — le poisson vendu à 7h est dans les assiettes des restaurants parisiens à midi. Le marché à la marée (place Dalton, samedi matin) est le plus animé.",
+      },
+      {
+        heading: "5. Le château-musée médiéval",
+        body: "Le château comtal de Boulogne (1231, Philippe Hurepel, comte de Boulogne) est l'un des mieux conservés du nord de la France : donjon carré de 31 m, enceinte polygonale à quatre tours. Le musée à l'intérieur possède une collection égyptologique rare pour une ville de province (momies, sarcophages, ushabtis — donnés par Champollion en reconnaissance d'un séjour boulonnais) et des galeries gallo-romaines.",
+      },
+      {
+        heading: "6. Wimereux — la station balnéaire des Boulonnais",
+        body: "Wimereux (à 6 km de Boulogne) est la station balnéaire des familles boulonnaises : front de mer de villas victoriennesécossaises des années 1880-1900, plage de sable fin, casino. Le marché de Wimereux (mercredi et samedi) est le meilleur marché de la Côte d'Opale pour les fruits de mer et la bouillabaisse nordiste. La digue-promenade (1,5 km) et les bunkers de l'Atlantikwall visibles à marée basse complètent la visite.",
+      },
+      {
+        heading: "7. Le Portel et Ambleteuse — les forts napoléoniens",
+        body: "Le Portel (à 5 km de Boulogne) est le village de pêcheurs où Napoléon a campé avec la Grande Armée en 1803-1805 pour préparer le débarquement en Angleterre qui n'a jamais eu lieu. Le fort d'Ambleteuse (à 12 km, fort Mahon construit par Vauban en 1689) est un fortin carré dans la mer, accessible à pied à marée basse. La dune Dewulf (derrière le fort, marais naturel à loutres) est une réserve naturelle.",
+      },
+      {
+        heading: "8. Le Touquet-Paris-Plage — la station britannique",
+        body: "Le Touquet (à 30 km de Boulogne) est la station balnéaire fondée par des Britanniques en 1880, fréquentée par Churchill, les Rolling Stones et la jet-set londonienne. La forêt de pins (plantée dans les dunes pour les stabiliser), les villas anglo-normandes, le marché couvert et les plages de sable immenses (5 km, chars à voile) en font la station la plus « chic » de la côte. L'aéroport du Touquet accueille des vols privés depuis Paris et Londres.",
+      },
+      {
+        heading: "9. Montreuil-sur-Mer — la citadelle et Victor Hugo",
+        body: "Montreuil-sur-Mer (à 35 km de Boulogne — la mer s'est retirée au XVIIe siècle mais le nom reste) est une cité fortifiée médiévale avec des remparts du XVIe siècle entiers et accessibles à la promenade. Victor Hugo s'est inspiré du château de Montreuil pour la citadelle de Toulon dans Les Misérables. Le festival de la Marionnette (septembre) et la Fête des Remparts (juillet) sont les temps forts de la ville.",
+      },
+      {
+        heading: "10. Gastronomie boulonnaise — hareng saur et moules",
+        body: "Boulogne est la capitale du hareng fumé à froid de France : le hareng saur (filet de hareng séché et fumé 4h à froid, servi en salade avec pommes de terre tièdes et crème fraîche) est consommé depuis le XIe siècle dans le Boulonnais. La moule de corde de Boulogne (élevée en bouchots depuis le XVe siècle) est la moule de référence du Nord — moules-frites ou moules à la crème sont les plats des brasseries du port.",
+      },
+    ],
+    relatedCities: ["boulogne-sur-mer"],
+    relatedGuides: [
+      "cote-opale-nord-pas-de-calais-vivre-guide-2025",
+      "vivre-en-hauts-de-france-guide-2026",
+    ],
+    tags: ["10 choses à faire à Boulogne-sur-Mer", "activités Boulogne 2026", "sorties Boulogne", "que faire à Boulogne-sur-Mer", "Nausicaá port pêche ville haute remparts cap Gris-Nez"],
+  },
+  {
+    slug: "10-choses-a-faire-a-macon-2026",
+    title: "10 choses à faire à Mâcon (les vins de Bourgogne du Sud et la ville de Lamartine)",
+    metaTitle: "10 choses à faire à Mâcon 2026 — activités et sorties locales",
+    metaDesc: "Vignoble de Pouilly-Fuissé, roches de Solutré, Cluny et Lamartine : 10 activités à Mâcon pour découvrir la porte méridionale de la Bourgogne.",
+    category: "tourisme",
+    emoji: "🍾",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Mâcon est une ville de 35 000 habitants sur la Saône, à la jonction de la Bourgogne et de la Beaujolais, et ville natale d'Alphonse de Lamartine. À 7 km du centre, la roche de Solutré (station préhistorique de 20 000 ans, sommet rocheux à 493 m avec vue sur le Mont-Blanc) domine les vignobles de Pouilly-Fuissé — les chardonnays les plus méridionaux de la Bourgogne.",
+    sections: [
+      {
+        heading: "1. Roche de Solutré — le rocher préhistorique et la vue sur les Alpes",
+        body: "La roche de Solutré (493 m, à 7 km de Mâcon) est un promontoire rocheux calcaire dont le pied a livré les ossements de 100 000 chevaux — un site de chasse du Solutréen (21 000-17 000 av. J.-C.). La montée depuis le musée de Solutré (30 min) passe par les vignes de Pouilly-Fuissé et offre au sommet une vue sur le Mont-Blanc (par temps clair), les Alpes et la plaine de la Saône. François Mitterrand y montait chaque lundi de Pentecôte.",
+      },
+      {
+        heading: "2. Pouilly-Fuissé — le meilleur chardonnay du Mâconnais",
+        body: "Le vignoble de Pouilly-Fuissé (AOC, au pied des roches de Solutré et Vergisson) produit les chardonnays les plus complexes du Mâconnais : rondeur beurrée, notes de noisette et de silex, acidité présente malgré le sud. Pouilly-Vinzelles, Pouilly-Loché et Saint-Véran (autour de Mâcon) complètent les appellations. Les domaines Guffens-Heynen, Ferret et Château Fuissé sont les références. Dégustations en cave directement chez les producteurs.",
+      },
+      {
+        heading: "3. Lamartine et Mâcon — le poète romantique",
+        body: "Alphonse de Lamartine est né à Mâcon en 1790 — son appartement natal (rue Bauderon de Senecey) est ouvert au public. Le musée Lamartine (hôtel Senecé, XVIIIe siècle) conserve ses manuscrits, portraits et objets personnels. Son domaine de Saint-Point (à 30 km, à vendre depuis 1860 mais toujours intact) est une propriété de vigne et de château que Lamartine aimait comme « un morceau du ciel tombé sur la terre ».",
+      },
+      {
+        heading: "4. Cluny — l'abbaye mère du monachisme occidental",
+        body: "Cluny (à 25 km de Mâcon) était le centre du réseau monastique le plus puissant d'Europe : 1 450 monastères affiliés, armée de 10 000 moines, abbaye-cathédrale de 187 m (plus longue que Saint-Pierre de Rome avant la reconstruction de ce dernier). La reconstruction 3D au musée du site restitue l'ampleur de la perte. La ville de Cluny elle-même conserve ses hôtels abbatiaux du XVe siècle — l'une des villes médiévales les mieux préservées de Bourgogne.",
+      },
+      {
+        heading: "5. La vieille ville de Mâcon — les maisons romanes",
+        body: "Mâcon possède les deux seules maisons romanes civiles du XIIe siècle conservées en France (maison de Bois, place aux Herbes — les façades en pierre sculptée de figures humaines et animales sont parmi les plus anciennes sculptures non religieuses de France). La cathédrale Saint-Vincent (en ruines depuis la Révolution, seuls les deux clochers restent) et les quais de la Saône (platanes, guinguettes, marchés) composent le centre historique.",
+      },
+      {
+        heading: "6. Beaujolais depuis Mâcon — les villages et les crus",
+        body: "Le Beaujolais commence à 15 km de Mâcon : les crus du Beaujolais (Moulin-à-Vent, Chénas, Fleurie, Chiroubles, Morgon, Régnié, Brouilly — 10 crus au total) sont des gamays de granit comparables aux grands bourgognes. La route des vins du Beaujolais (D68) longe les collines granitiques depuis Mâcon jusqu'à Villefranche-sur-Saône. Le Beaujolais nouveau (3e jeudi de novembre) est célébré dans toutes les caves de la région.",
+      },
+      {
+        heading: "7. Tournus — l'abbatiale romane sur la Saône",
+        body: "Tournus (à 30 km de Mâcon) possède l'abbatiale Saint-Philibert (Xe-XIe siècles) — la plus austère et la plus belle des abbatiales romanes de Bourgogne : nef à hauts piliers cylindriques sans chapiteaux, narthex à deux étages, crypte carolingienne. Le bourg de Tournus (quais sur la Saône, hôtels de viguier médiévaux, commerces d'artisanat) est classé parmi les villes d'art et d'histoire de Bourgogne.",
+      },
+      {
+        heading: "8. Brancion et Berze-la-Ville — les peintures romanes",
+        body: "Brancion (à 25 km de Mâcon) est un village médiéval perché avec un château des XIe-XIVe siècles et une église romane à fresques du XIIIe siècle exceptionnelles. Berzé-la-Ville (à 10 km), la chapelle des Moines (XIe siècle, dépendance de Cluny) possède les fresques romanes clunisiennes les mieux conservées de France — le Christ en Majesté (abside, 1100-1110) rivalise avec les meilleures peintures romanes d'Espagne.",
+      },
+      {
+        heading: "9. Crèches-sur-Saône et le vignoble de Saint-Véran",
+        body: "Saint-Véran (AOC, à 10 km de Mâcon, altitude 250-400 m) est le chardonnay AOC le plus méridional de Bourgogne et le moins connu — rapport qualité-prix excellent. Les villages de Davayé, Prissé, Chânes et Leynes entourent le vignoble en amphithéâtre. La coopérative des Vignerons des Terres Secrètes regroupe 300 vignerons indépendants — prix directs inférieurs de 30 % aux négoces de Beaune.",
+      },
+      {
+        heading: "10. Marché de Mâcon et gastronomie bressolane",
+        body: "Le marché de Mâcon (samedi, esplanade Lamartine) est le plus grand marché de la Saône-et-Loire : volaille de Bresse AOP (poulet, chapon, poularde — la seule volaille avec une AOC en France), jambon persillé de Bourgogne (jambon cuit en gelée au vin blanc, persillé, en aspic), gougères au comté (choux de pâte au fromage gratiné), fromage d'Époisses (pâte molle lavée au marc de Bourgogne). Le boudin blanc de Bresse est le charcutier attendu.",
+      },
+    ],
+    relatedCities: ["macon"],
+    relatedGuides: [
+      "vivre-en-bourgogne-franche-comte-guide-2025",
+      "teletravailler-depuis-bourgogne-guide-2026",
+    ],
+    tags: ["10 choses à faire à Mâcon", "activités Mâcon 2026", "sorties Mâcon", "que faire à Mâcon", "Pouilly-Fuissé roche Solutré Cluny Lamartine Beaujolais"],
+  },
+  {
+    slug: "10-choses-a-faire-a-bourg-en-bresse-2026",
+    title: "10 choses à faire à Bourg-en-Bresse (le monastère royal de Brou et la volaille AOP)",
+    metaTitle: "10 choses à faire à Bourg-en-Bresse 2026 — activités et sorties locales",
+    metaDesc: "Monastère royal de Brou, volaille de Bresse AOP, Haut-Bugey et lacs du Jura : 10 activités à Bourg-en-Bresse pour découvrir la capitale de l'Ain.",
+    category: "tourisme",
+    emoji: "🐔",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Bourg-en-Bresse est la préfecture de l'Ain, 40 000 habitants dans une ville connue pour deux choses incomparables : le monastère royal de Brou (chef-d'œuvre gothique flamboyant de 1532, commandé par Marguerite d'Autriche) et la volaille de Bresse (la seule volaille au monde avec une AOC). La proximité des lacs du Jura, du Haut-Bugey et de Lyon en fait une ville de passage pratique.",
+    sections: [
+      {
+        heading: "1. Monastère royal de Brou — le chef-d'œuvre de Marguerite d'Autriche",
+        body: "Le monastère de Brou (1513-1532) est l'un des derniers monuments gothiques flamboyants construits en Europe — commandé par Marguerite d'Autriche (régente des Pays-Bas, tante de Charles Quint) pour abriter le tombeau de son mari Philibert le Beau, duc de Savoie. Les trois tombeaux (Marguerite d'Autriche, Philibert le Beau, Marguerite de Bourbon) sont des chefs-d'œuvre de la sculpture Renaissance flamande. Les clefs de voûte en pierre ajourée de l'église sont à 20 m de hauteur.",
+      },
+      {
+        heading: "2. Le marché à la volaille de Bresse — le jeudi de Louhans",
+        body: "Le marché aux volailles de Louhans (à 40 km de Bourg, chaque lundi matin) est le plus grand marché de volaille de Bresse en plein air de France : 200 producteurs alignent leurs volailles plumées sur des tréteaux dans la Grande Rue couverte d'arcades (XVIIe siècle). Le poulet de Bresse AOP (blanc, pattes bleues, crête rouge — les couleurs de France) se reconnaît à sa patte baguée et son sceau de cire. Prix : 25-40€ le poulet entier selon le format.",
+      },
+      {
+        heading: "3. La Dombes — les étangs et les oiseaux migrateurs",
+        body: "La Dombes (à 20 km de Bourg) est une plaine parsemée de 1 000 étangs artificiels créés au Moyen Âge pour l'élevage de carpes. Classée réserve naturelle, elle accueille 280 espèces d'oiseaux dont 10 000 flamants roses en hivernage, cigognes blanches (colonie de 2 000 individus — la plus grande de France), hérons cendrés, spatules. Le Parc des Oiseaux de Villars-les-Dombes (70 ha, 2 000 oiseaux de 500 espèces) est le plus grand parc ornithologique de France.",
+      },
+      {
+        heading: "4. Le Haut-Bugey — grottes, gorges et lacs",
+        body: "Le Haut-Bugey (à 30 km de Bourg dans le Jura méridional) est un causse calcaire compartimenté par des gorges : grottes de Cerdon (stalactites, stalagmites, cascade souterraine — les seules grottes visitables de l'Ain), gorges de l'Ain (canyon de 15 km, canoë et randonnée), lac de Nantua (eau bleue turquoise, route panoramique). Le Bugey (AOC vins du Bugey, gamay, chardonnay, roussette de Bugey pétillante) est le vignoble le moins connu de la région Auvergne-Rhône-Alpes.",
+      },
+      {
+        heading: "5. Lyon — la capitale gastronomique à 70 km",
+        body: "Lyon est à 70 km de Bourg-en-Bresse (50 min de TGV depuis la gare de Bourg). Les bouchons lyonnais (restaurants populaires de cuisine bourgeoise — quenelles de brochet, salade lyonnaise, tablier de sapeur, cervelle de canut) sont accessibles à la journée. La traboule (passage couvert traversant un immeuble) de la Croix-Rousse, le marché Saint-Antoine (quai de Saône, chaque matin) et le vieux Lyon (presqu'île de Saint-Jean, Renaissance italienne) complètent la journée.",
+      },
+      {
+        heading: "6. Pérouges — le plus beau village médiéval de l'Ain",
+        body: "Pérouges (à 35 km de Bourg) est classé parmi les plus beaux villages de France et l'un des mieux conservés de Rhône-Alpes : une bastide médiévale du XIIIe siècle entièrement en galets de l'Ain, pavés ronds, maisons à pignons. Les trois films de Cape et d'Épée (Dumas) de 1961 y ont été tournés. La galette de Pérouges (tarte ronde à la crème fraîche et sucre roux, cuite au four à bois) est la spécialité locale vendue sur la place de la Halle.",
+      },
+      {
+        heading: "7. Musée de Brou — la collection des primitifs flamands",
+        body: "Le musée de Brou (dans les bâtiments claustraux du monastère) possède une collection de peintures de premier ordre pour une ville de province : primitifs flamands (XVe-XVIe siècles), peintures françaises du XVIIe-XIXe siècles, et la reconstitution de l'atelier de sculpture des tombeaux de Brou. L'exposition temporaire annuelle (thématique arts décoratifs ou peinture régionale) utilise la grande nef du réfectoire monacal.",
+      },
+      {
+        heading: "8. Ambérieu-en-Bugey — le musée du chemin de fer",
+        body: "Ambérieu-en-Bugey (à 20 km de Bourg) est un nœud ferroviaire historique où la Compagnie du PLM (Paris-Lyon-Méditerranée) avait installé ses ateliers de réparation en 1855. Le musée du chemin de fer de Mâcon-Ambérieu possède une collection de locomotives à vapeur du XIXe au XXe siècle. La gare d'Ambérieu (1856, architecture PLM) est classée monument historique.",
+      },
+      {
+        heading: "9. La foire aux volailles de Noël de Bourg",
+        body: "La foire aux volailles glorieuses de Bresse (Bourg-en-Bresse, décembre, les « Glorieuses ») est le concours de volaille le plus célèbre du monde : quatre foires successives (Montrevel, Bourg, Louhans, Pont-de-Vaux) entre le 1er et le 22 décembre. Les meilleures volailles de Bresse de l'année y sont présentées sous des présentoirs de dentelle blanche et primées par un jury. Gastronomie et dégustation de chardonnay du Bugey autour des halles.",
+      },
+      {
+        heading: "10. Gastronomie bressane — gratin et quenelles",
+        body: "La cuisine de la Bresse est la plus riche de France en produits d'excellence : volaille AOP (poularde à la crème, demi-deuil — truffes glissées sous la peau), carpe des étangs de la Dombes (carpe farcie aux champignons), grenouilles fraîches de la Dombes (cuisses de grenouilles sautées à l'ail et au persil — Bourg est la capitale de la grenouille cuisinée en France). La quenelle de brochet bressolane (plus lourde que la lyonnaise, avec sa sauce Nantua à la crème d'écrevisses) est le plat du dimanche.",
+      },
+    ],
+    relatedCities: ["bourg-en-bresse"],
+    relatedGuides: [
+      "vivre-dans-l-ain-guide-2026",
+      "vivre-en-auvergne-rhone-alpes-guide-2025",
+    ],
+    tags: ["10 choses à faire à Bourg-en-Bresse", "activités Bourg-en-Bresse 2026", "sorties Bourg-en-Bresse", "que faire à Bourg-en-Bresse", "monastère Brou volaille Bresse AOP Dombes Pérouges"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
