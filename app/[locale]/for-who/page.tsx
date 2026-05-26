@@ -9,7 +9,7 @@ const EN_BASE = ORIGIN_BY_LOCALE.en;
 export const metadata: Metadata = {
   title: "Which French city suits your profile? — Top 20 lists 2026",
   description:
-    "11 lifestyle profiles, 11 top-20 rankings calibrated on the axes that actually matter: families, couples, young professionals, retirees, freelancers, students, and more.",
+    "13 lifestyle profiles, 13 top-20 rankings calibrated on the axes that actually matter: families, couples, young professionals, retirees, freelancers, students, first-time buyers, single parents, and more.",
   alternates: { canonical: `${EN_BASE}/for-who` },
 };
 
@@ -25,6 +25,8 @@ const PROFILES = [
   { enSlug: "women-solo", emoji: "👤", label: "Women living solo", intro: "Night safety + late transport + urban quality of life. Getting home serene, every evening." },
   { enSlug: "couples", emoji: "👫", label: "Couples without children", intro: "Culture, restaurants, nature weekends, transport — the DINK combination that actually matters." },
   { enSlug: "returning-expats", emoji: "✈️", label: "Returning expats", intro: "Transitioning from an international lifestyle back to France — without feeling like a downgrade." },
+  { enSlug: "first-time-buyers", emoji: "🔑", label: "First-time buyers", intro: "Affordable entry prices, low taxes, rental yield potential — cities where a first home is within reach." },
+  { enSlug: "single-parents", emoji: "🧑‍👧", label: "Single parents", intro: "Good schools, safe streets, walkable daily life — family life manageable on a single income." },
 ];
 
 export default function ForWhoIndex() {
@@ -41,7 +43,7 @@ export default function ForWhoIndex() {
             Which French city suits your profile?
           </h1>
           <p className="text-[var(--text-secondary)] text-base max-w-2xl mx-auto">
-            11 lifestyle profiles, 11 top-20 rankings calibrated on the axes that actually
+            13 lifestyle profiles, 13 top-20 rankings calibrated on the axes that actually
             matter for each one. More useful than a generic global score.
           </p>
         </div>

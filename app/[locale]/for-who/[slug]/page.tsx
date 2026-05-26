@@ -176,6 +176,34 @@ const EN_PROFILES: EnProfile[] = [
     reasonHint: (c: CitySeed) =>
       `Quality of life ${c.scores.life.toFixed(1)} · culture ${c.scores.culture.toFixed(1)} · transport ${c.scores.transport.toFixed(1)}`,
   },
+  {
+    enSlug: "first-time-buyers",
+    slug: "primo-accedants",
+    emoji: "🔑",
+    label: "First-time buyers",
+    metaTitle: "Best French cities for first-time property buyers 2026 — Top 20",
+    metaDescription:
+      "Top 20 French cities for first-time buyers: affordable entry prices, low taxes, rental yield, growth potential. Cities where a starter home is still within reach.",
+    intro:
+      "Buying your first home in France means balancing what you can actually afford against where you'd want to live. These 20 cities score well on property affordability and tax burden without sacrificing quality of life — the realistic shortlist for first-time buyers.",
+    weights: { cost: 3.0, safety: 1.5, transport: 1.5, schools: 1.5, life: 1.0, nature: 1.0 },
+    reasonHint: (c: CitySeed) =>
+      `Cost ${c.scores.cost.toFixed(1)} · safety ${c.scores.safety.toFixed(1)} · transport ${c.scores.transport.toFixed(1)}`,
+  },
+  {
+    enSlug: "single-parents",
+    slug: "familles-monoparentales",
+    emoji: "🧑‍👧",
+    label: "Single parents",
+    metaTitle: "Best French cities for single parents 2026 — Top 20",
+    metaDescription:
+      "Top 20 French cities for single-parent families: affordable housing, excellent schools, safety, walkability. Where a single income covers a decent family life.",
+    intro:
+      "Single-parent households face a tighter budget and a greater need for reliable services — good schools, safe streets, accessible public transport. These 20 cities combine affordable housing with strong public services and safety, making family life manageable on a single income.",
+    weights: { cost: 2.5, schools: 2.5, safety: 2.5, transport: 2.0, sansVoiture: 1.5, life: 1.0 },
+    reasonHint: (c: CitySeed) =>
+      `Schools ${c.scores.schools.toFixed(1)} · safety ${c.scores.safety.toFixed(1)} · cost ${c.scores.cost.toFixed(1)}`,
+  },
 ];
 
 function getEnProfile(slug: string): EnProfile | undefined {
