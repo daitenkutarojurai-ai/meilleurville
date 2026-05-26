@@ -20958,6 +20958,276 @@ export const GUIDES: Guide[] = [
     tags: ["médecin infirmier quelle ville France 2026", "déserts médicaux France installation 2026", "professions santé meilleure ville France", "médecin libéral installation aide France 2026", "infirmier libéral quelle ville France 2026"],
   },
   {
+    slug: "acheter-a-besancon-quel-quartier-budget-2026",
+    title: "Acheter à Besançon en 2026 : quartiers, prix et budget",
+    metaTitle: "Acheter à Besançon 2026 — Prix par quartier, budget, conseils achat immobilier",
+    metaDesc: "Guide complet pour acheter à Besançon : prix au m² par quartier (Boucle, Battant, Mouillère), budget studio à maison, citadelle UNESCO, frontière suisse. Données 2026.",
+    category: "budget",
+    emoji: "🏰",
+    readMinutes: 8,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Besançon est l'une des grandes villes françaises les plus sous-estimées des candidats à l'achat immobilier. Capitale de la Franche-Comté, inscrite au patrimoine UNESCO pour ses fortifications Vauban, nichée dans un méandre du Doubs, elle combine beauté architecturale, qualité de vie réelle (CHU, tramway, université de 26 000 étudiants) et des prix qui restent accessibles — 1 700 à 2 800 €/m² selon les quartiers — là où Annecy ou Grenoble dépassent 4 500 €/m² pour un cadre comparable. Et la frontière suisse (Bâle à 95 km) en fait une base attractive pour les travailleurs frontaliers.",
+    sections: [
+      {
+        heading: "La Boucle (centre historique)",
+        body: "La Boucle — le centre ancien encerclé par le Doubs sur trois côtés — concentre le patrimoine : cathédrale Saint-Jean, Gros-Horloge, palais Granvelle, Grande Rue piétonne. C'est le quartier le plus coté visuellement mais aussi le plus contraint : stationnement quasi impossible, copropriétés anciennes parfois énergivores, vis-à-vis. Prix : 2 400–3 000 €/m². Un T2 (40–50 m²) rénové se négocie 120 000–150 000 €. À ce tarif, la qualité du bâti est variable — vérifier DPE et façade avant compromis.",
+      },
+      {
+        heading: "Battant : le quartier en mutation",
+        body: "De l'autre côté du pont de Battant, ce quartier d'anciens tisserands vit une gentrification tranquille : caves à vin indépendantes, bars branchés, boulangers de qualité, loyers en hausse mais achats encore raisonnables (2 000–2 500 €/m²). La mixité sociale reste réelle. C'est le choix des acheteurs de 30–40 ans qui veulent une adresse urbaine sans la rigidité de la Boucle. Parking : difficile en soirée mais moins problématique que le centre.",
+      },
+      {
+        heading: "Mouillère et Chaprais : le choix des familles",
+        body: "Ces quartiers résidentiels autour du centre historique (nord-est et nord-ouest) sont la cible des familles établies : immeubles bourgeois début XXe, maisons de ville, bonnes écoles, transports corrects. Prix : 1 800–2 400 €/m². Un T4 de 90 m² avec cave se trouve entre 175 000 et 220 000 €. Les rues arborées et les fréquences de tramway (ligne 1) en font une base pratique pour les actifs.",
+      },
+      {
+        heading: "Planoise : l'option investisseur",
+        body: "Planoise (ouest, desservi par tram) est un quartier des années 1970 construit pour la classe ouvrière industrielle — logements sociaux dominants, quelques copropriétés mixtes. Ce n'est pas le premier choix pour un achat résidentiel, mais les rendements locatifs y sont les meilleurs de Besançon (studios étudiants à 1 200–1 600 €/m², rendement brut 6–8 %). La demande locative est structurelle (campus de Temis, Planoise est sur la ligne de tram). Acheter pour louer : oui. Acheter pour habiter : à réserver à ceux qui connaissent le secteur.",
+      },
+      {
+        heading: "La dimension frontalière",
+        body: "Besançon compte une population active non négligeable qui travaille en Suisse (Bâle, Delémont, Neuchâtel). Le salaire suisse en CHF combiné au coût de la vie en euros crée un différentiel substantiel. La gare TGV de Besançon-Franche-Comté (8 km du centre, navette TER) donne Paris en 2h45 et Zurich en 2h15 via Bâle. Les acheteurs frontaliers peuvent se permettre des surfaces à Besançon que les prix helvétiques (7 000–12 000 €/m² à Bâle) rendent inaccessibles là-bas.",
+      },
+      {
+        heading: "Budget global et frais d'acquisition",
+        body: "Fourchettes indicatives : studio (25–30 m²) 55 000–80 000 € ; T2 (45–55 m²) centre 110 000–150 000 €, quartiers résidentiels 90 000–130 000 € ; T3 (70–80 m²) avec parking 160 000–210 000 € ; maison de ville avec jardin Mouillère 280 000–380 000 €. Frais de notaire : 7–8 % du prix d'achat sur l'ancien. Taxe foncière : modérée (Besançon n'a pas augmenté ses taux à l'extrême comme certaines communes). DPE : les bâtiments anciens de la Boucle sont souvent classés F–G — anticiper travaux ou négocier fortement.",
+      },
+    ],
+    relatedCities: ["besancon", "belfort", "nancy", "dijon", "metz"],
+    relatedGuides: [
+      "acheter-a-dijon-quel-quartier-budget-2026",
+      "acheter-a-metz-quel-quartier-budget-2026",
+      "acheter-a-nancy-quel-quartier-budget-2026",
+    ],
+    tags: ["acheter à Besançon 2026", "prix immobilier Besançon quartiers", "Besançon Boucle Battant achat", "immobilier Franche-Comté 2026", "Besançon travailleur frontalier Suisse"],
+  },
+  {
+    slug: "acheter-a-troyes-quel-quartier-budget-2026",
+    title: "Acheter à Troyes en 2026 : prix, quartiers, budget achat immobilier",
+    metaTitle: "Acheter à Troyes 2026 — Prix par quartier, guide achat immobilier Aube",
+    metaDesc: "Guide achat immobilier Troyes 2026 : prix au m² centre médiéval, Saint-Martin, périphérie. À 1h30 de Paris, l'une des plus belles villes médiévales de France.",
+    category: "budget",
+    emoji: "🦢",
+    readMinutes: 7,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Troyes est un secret de polichinelle chez les investisseurs parisiens avisés : centre médiéval parmi les mieux conservés de France (colombages, ruelles en écaille de poisson), à 1h30 de Paris-Est par Intercités, avec des prix qui restent parmi les plus accessibles pour une ville de cette qualité architecturale (1 700–2 800 €/m² en cœur de ville). Capitale historique de la Champagne, cité de la bonneterie reconvertie en économie de services et de tourisme, Troyes est entrée dans le radar des télé-travailleurs depuis 2020.",
+    sections: [
+      {
+        heading: "Le centre médiéval : la carte postale et ses contraintes",
+        body: "Le quartier Saint-Jean et la « bouchon de Champagne » (le périmètre en forme de bouchon du vieux Troyes) concentrent les maisons à colombages des XIVe–XVIe siècles, les rues pavées, la cathédrale gothique. C'est le secteur le plus photogéniqu — et le plus contraint. Copropriétés de caractère avec règles Architectes des Bâtiments de France, stationnement problématique, humidité dans les rez-de-chaussée anciens. Prix : 2 200–2 800 €/m² pour rénové, 1 800–2 200 €/m² pour travaux. Un T2 dans l'hypercentre médiéval : 90 000–130 000 €.",
+      },
+      {
+        heading: "Saint-Martin et Préfecture : le résidentiel accessible",
+        body: "Ces quartiers jouxtant le centre (nord et ouest) proposent l'immobilier bourgeois troyens des XIXe–XXe siècles : immeubles en brique et pierre de taille, jardins intérieurs, voirie arborée. Prix corrects (1 800–2 400 €/m²), moins soumis aux contraintes patrimoniales, meilleures performances énergétiques. T3 de 75 m² : 135 000–170 000 €. Idéal pour l'acheteur qui veut les avantages du centre sans les contraintes du colombage.",
+      },
+      {
+        heading: "Périphérie et communes limitrophes",
+        body: "Les communes autour de Troyes (Sainte-Savine, Saint-André-les-Vergers, La Chapelle-Saint-Luc côté nord) offrent maisons individuelles avec jardin à 1 400–1 900 €/m² — soit 200 000–280 000 € pour une maison 4 pièces. Ces secteurs sont largement dépendants de la voiture mais apportent l'espace que le centre ne peut pas donner. L'axe est de l'agglomération (Buchères, Creney-près-Troyes) est porteur : à proximité de la zone commerciale et de l'A26 (Paris 1h30 en voiture).",
+      },
+      {
+        heading: "Le marché locatif et le rendement",
+        body: "Troyes héberge 14 000 étudiants (UTT, IUT, ESPA). La demande locative étudiante soutient les studios et T1 près des campus. Rendement brut sur studio campus : 6–8 %. L'arrivée de télétravailleurs parisiens a tendu le marché des T3–T4 en location : vacance locative faible sur ce segment. Le marché des usines-outlet de McArthurGlen (entre les deux zones de marques en Europe) attire aussi des cadres en mobilité professionnelle.",
+      },
+      {
+        heading: "Paris en 1h30 : la réalité du navetteur",
+        body: "La gare de Troyes-Ouest dessert Paris-Est par Intercités en 1h25–1h35. Fréquence correcte en heures de pointe (5–7 trains/jour vers Paris). Abonnement annuel (Fréquence SNCF) : environ 3 800–4 200 €/an (315–350 €/mois). La voiture via A26 + A5 donne 1h30 en circulation fluide. Le différentiel de prix avec la banlieue parisienne comparable en temps de trajet est de 50–70 % : un appartement 3 pièces à Troyes centre coûte ce que pèse un T2 à Melun ou Creil.",
+      },
+      {
+        heading: "Budget de référence 2026",
+        body: "Studio 25 m² : 45 000–65 000 € ; T2 45 m² : 90 000–130 000 € centre, 75 000–100 000 € résidentiel ; T3 75 m² : 135 000–175 000 € ; maison 4 pièces avec jardin proche centre : 200 000–280 000 € ; maison de caractère avec colombages rénovés : 300 000–550 000 € selon état. Taxe foncière dans la moyenne nationale. Point de vigilance : la revente — Troyes n'est pas en tension locative forte, donc la plus-value en revente rapide est incertaine ; envisager l'horizon à 7–10 ans minimum.",
+      },
+    ],
+    relatedCities: ["troyes", "reims", "sens", "auxerre", "chalons-en-champagne"],
+    relatedGuides: [
+      "acheter-a-reims-quel-quartier-budget-2026",
+      "acheter-a-dijon-quel-quartier-budget-2026",
+      "tgv-paris-accessibilite-villes-2026",
+    ],
+    tags: ["acheter à Troyes 2026", "prix immobilier Troyes quartiers", "Troyes achat immobilier centre médiéval", "Troyes télétravail Paris 2026", "immobilier Aube Troyes 2026"],
+  },
+  {
+    slug: "acheter-a-valence-quel-quartier-budget-2026",
+    title: "Acheter à Valence en 2026 : prix, quartiers et conseils",
+    metaTitle: "Acheter à Valence (Drôme) 2026 — Prix immobiliers par quartier, guide achat",
+    metaDesc: "Guide achat immobilier Valence 2026 : prix 1 900–2 800 €/m², quartiers Victor Hugo, Fontbarlettes, plan-les-Ouates. Soleil, TGV Lyon 35min.",
+    category: "budget",
+    emoji: "🌻",
+    readMinutes: 7,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Valence (68 000 habitants, agglomération 220 000) est au carrefour de deux logiques : préfecture de la Drôme avec un marché immobilier encore accessible (1 900–2 600 €/m² en quartier résidentiel), et porte nord de la Provence avec 2 200 heures d'ensoleillement annuel et une météo qui change radicalement à mesure qu'on descend l'axe rhodanien. Lyon est à 35 minutes de TGV. Ces deux atouts — soleil du Sud à prix de province — en font l'une des villes les plus citées dans les calculs de télétravailleurs et de retraités actifs.",
+    sections: [
+      {
+        heading: "Victor Hugo et centre-ville : le quartier de référence",
+        body: "L'axe Victor Hugo, avec ses galeries couvertes de style haussmannien, est le cœur bourgeois de Valence — commerces de qualité, cafés, marché dominical de la place des Clercs. C'est aussi le secteur le plus coté : 2 400–2 800 €/m² pour un appartement rénové. Un T3 de 75 m² : 185 000–220 000 €. Les immeubles hausmanniens sont bien construits mais les DPE des appartements anciens non rénovés restent souvent D–E ; anticiper la rénovation thermique.",
+      },
+      {
+        heading: "Quartier Bancel et Éperon : le résidentiel confortable",
+        body: "Ces quartiers résidentiels à l'est du centre (entre Victor Hugo et les collines) proposent maisons de ville et petits immeubles des années 1960–80. Moins spectaculaires mais fonctionnels, bien desservis et calmes. Prix : 1 900–2 400 €/m². Idéal pour une famille qui veut rester en tissu urbain sans payer le premium du centre historique.",
+      },
+      {
+        heading: "Fontbarlettes et Polygone : la carte étudiant/investisseur",
+        body: "Fontbarlettes (nord-ouest) est un quartier prioritaire en cours de réhabilitation. Prix très bas (1 200–1 600 €/m²) mais cadre social difficile — à réserver aux investisseurs avertis avec horizon long. Polygone (nord du centre), plus récent, mixte social-accession, desserte tramway : 1 700–2 100 €/m², option pour primo-accédants à budget serré.",
+      },
+      {
+        heading: "Communes limitrophes : Bourg-lès-Valence, Portes-lès-Valence",
+        body: "Bourg-lès-Valence (nord) est presque fondue dans Valence, desserte tramway, maisons individuelles 180 000–280 000 €, prix légèrement inférieurs au cœur de ville. Portes-lès-Valence (sud) : ambiance plus calme, accès autoroute A7, maisons avec jardin 200 000–300 000 €. Ces communes sont les options préférées des familles qui veulent jardins sans l'éloignement.",
+      },
+      {
+        heading: "Le TGV comme argument central",
+        body: "La gare de Valence TGV (en réalité la gare Valence-Ville dessert les TGV régionaux, et Valence-TGV est la gare LGV à 10 km) donne Lyon Part-Dieu en 35 minutes, Paris en 2h05. Pour un télétravailleur à 3 jours/semaine en déplacement, un abonnement mensuel Lyon–Valence coûte environ 120–160 €/mois. Comparé à l'équivalent en banlieue lyonnaise (+40–60 % sur les prix immobiliers), l'arbitrage est clair pour les acheteurs résignés aux transports.",
+      },
+      {
+        heading: "Budget de référence 2026",
+        body: "Studio 25 m² : 50 000–70 000 € ; T2 45 m² centre : 105 000–140 000 € ; T3 75 m² : 145 000–195 000 € ; maison 100 m² avec jardin banlieue proche : 220 000–320 000 €. Taxe foncière modérée. Point d'attention : les copropriétés des années 1970–80 dans le nord de la ville ont parfois des charges élevées et des travaux de ravalement à anticiper.",
+      },
+    ],
+    relatedCities: ["valence", "grenoble", "lyon", "montelimar", "romans-sur-isere"],
+    relatedGuides: [
+      "acheter-a-grenoble-quel-quartier-budget-2026",
+      "acheter-a-lyon-quel-quartier-budget-2026",
+      "tgv-paris-accessibilite-villes-2026",
+    ],
+    tags: ["acheter à Valence Drôme 2026", "prix immobilier Valence quartiers", "Valence achat appartement maison 2026", "Valence télétravail Lyon TGV", "immobilier Drôme Valence 2026"],
+  },
+  {
+    slug: "acheter-a-poitiers-quel-quartier-budget-2026",
+    title: "Acheter à Poitiers en 2026 : quartiers, prix au m², conseils",
+    metaTitle: "Acheter à Poitiers 2026 — Prix immobilier par quartier, guide achat Vienne",
+    metaDesc: "Guide achat immobilier Poitiers 2026 : centre médiéval, Demi-Lune, banlieues. Prix 1 400–2 500 €/m². 30 000 étudiants, Paris 1h20 TGV, rendements locatifs étudiants.",
+    category: "budget",
+    emoji: "🐴",
+    readMinutes: 7,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Poitiers (95 000 habitants, agglomération 140 000) est l'une des villes françaises où l'achat immobilier offre encore un rapport qualité-prix sérieux : centre historique médiéval avec baptistère Saint-Jean (l'un des plus anciens monuments chrétiens de France), 30 000 étudiants, TGV Paris en 1h20, et des prix qui restent entre 1 400 et 2 500 €/m² selon les secteurs. La ville souffre d'une image parfois terne mais présente les fondamentaux d'une ville universitaire solide avec marché locatif étudiant prévisible.",
+    sections: [
+      {
+        heading: "Le Plateau et centre historique",
+        body: "Le Plateau — le cœur médiéval sur la butte calcaire dominée par l'église Notre-Dame-la-Grande — est le quartier le plus recherché pour l'adresse et le charme. Rues piétonnes, marchés, cafés, architecture romane. Prix : 1 900–2 500 €/m² pour du rénové. Un T2 de 45 m² : 90 000–115 000 €. Les maisons de ville à colombages ou pierres calcaires : 200 000–350 000 € selon état et surface. Contrainte principale : parking inexistant ou payant, ruelles étroites.",
+      },
+      {
+        heading: "Demi-Lune et Saint-Éloi : le résidentiel convoité",
+        body: "Ces quartiers résidentiels au nord du Plateau (Demi-Lune) et à l'est (Saint-Éloi) sont les adresses préférées des familles et des cadres. Immeubles des années 1950–70 bien entretenus, maisons individuelles, écoles correctes. Prix : 1 700–2 200 €/m². Un T4 de 90 m² : 155 000–200 000 €. La connexion au tramway (ligne A) rend ces quartiers très pratiques.",
+      },
+      {
+        heading: "Beaulieu et secteurs étudiants",
+        body: "Le campus universitaire de Beaulieu (sud) génère une forte demande locative étudiante. Les studios et T1 proches de l'université : 1 300–1 700 €/m², rendement brut 6–8 %. La clientèle étudiante est stable (Université de Poitiers couvre médecine, droit, sciences, lettres — 30 000 inscrits). Le risque de vacance y est faible sur les petites surfaces. C'est la logique investisseur classique.",
+      },
+      {
+        heading: "Le TGV Paris–Poitiers",
+        body: "Poitiers est sur la LGV Atlantique : Paris-Montparnasse en 1h20, Bordeaux en 55 minutes. C'est le meilleur accès TGV pour son niveau de prix. Abonnement mensuel Paris–Poitiers (Fréquence SNCF) : environ 350–380 €/mois. La ville est moins connue que Tours dans le cadre des «villes TGV accessibles pour télétravailleurs parisiens» — ce qui explique en partie que les prix n'aient pas autant décollé.",
+      },
+      {
+        heading: "Budget global",
+        body: "Studio 25 m² : 35 000–55 000 € ; T2 45 m² : 75 000–110 000 € ; T3 75 m² : 110 000–155 000 € ; T4 90 m² centre : 155 000–200 000 € ; maison avec jardin banlieue proche : 180 000–280 000 €. Taxe foncière modérée. La revente reste portée par la demande étudiante sur les petites surfaces ; pour les grandes surfaces, la valorisation dépend de l'attractivité employeur locale (Futuroscope représente 5 000 emplois directs dans l'agglomération).",
+      },
+      {
+        heading: "Points de vigilance",
+        body: "Poitiers souffre d'un déficit d'image par rapport à des villes voisines plus «sexy» (Bordeaux, Nantes, La Rochelle). Ce n'est pas une ville en déclin démographique — la population est stable grâce à l'université — mais la dynamique économique hors université et Futuroscope reste à surveiller. Les quartiers en rive de Clain (est) peuvent être soumis à risque d'inondation — vérifier plan PPR avant achat.",
+      },
+    ],
+    relatedCities: ["poitiers", "niort", "la-rochelle", "tours", "angouleme"],
+    relatedGuides: [
+      "acheter-a-tours-quel-quartier-budget-2026",
+      "acheter-a-la-rochelle-quel-quartier-budget-2026",
+      "tgv-paris-accessibilite-villes-2026",
+    ],
+    tags: ["acheter à Poitiers 2026", "prix immobilier Poitiers quartiers", "Poitiers achat appartement étudiant", "Poitiers TGV Paris 1h20 immobilier", "immobilier Vienne Poitiers 2026"],
+  },
+  {
+    slug: "acheter-a-vannes-quel-quartier-budget-2026",
+    title: "Acheter à Vannes en 2026 : quartiers, prix et budget",
+    metaTitle: "Acheter à Vannes 2026 — Prix immobilier Morbihan, guide achat quartier par quartier",
+    metaDesc: "Guide achat immobilier Vannes 2026 : prix 2 500–4 500 €/m² (centre médiéval, Saint-Patern, Tohannic). Golfe du Morbihan, tram, TGV Paris 2h40.",
+    category: "budget",
+    emoji: "⛵",
+    readMinutes: 8,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Vannes (60 000 habitants, agglomération 110 000) est la capitale du Morbihan et l'une des villes les plus prisées de Bretagne pour la qualité de vie : remparts médiévaux intacts, accès direct au Golfe du Morbihan (le « golfe fermé » aux quelque 300 îles), deux lignes de BHNS en cours d'évolution, et une dynamique démographique positive nourrie par l'attractivité résidentielle. Le prix à payer est précisément le prix : les tarifs immobiliers se sont fortement appréciés depuis 2018 (accélération post-Covid) et le marché est désormais tendu.",
+    sections: [
+      {
+        heading: "Le centre médiéval et Ville close",
+        body: "La Ville close de Vannes — remparts, porte Saint-Vincent, rues de maisons à colombages — est le secteur le plus recherché. Offre rare, prix élevés : 3 500–4 800 €/m² pour une maison de caractère. Un T2 rénové intra-muros : 190 000–260 000 €. Les contraintes patrimoniales (ABF) sont fortes ; les travaux d'isolation thermique nécessitent des autorisations. Pour une adresse de prestige Vannetais, c'est le choix — mais pas pour optimiser le rapport m²/€.",
+      },
+      {
+        heading: "Saint-Patern et Kercado : le cœur résidentiel",
+        body: "Ces quartiers résidentiels proches du centre (nord et ouest) proposent maisons de ville et petits immeubles des XIXe–XXe siècles, bonnes écoles, commerces de proximité. Prix : 2 800–3 800 €/m² pour appartements ; maisons de ville 380 000–600 000 € selon taille. C'est le secteur des familles installées et des primo-accédants avec capacité d'emprunt solide.",
+      },
+      {
+        heading: "Tohannic et nord de l'agglomération",
+        body: "Tohannic (nord de la ville close, sur le plan d'eau) est un secteur résidentiel calme prisé pour sa vue sur le port et la proximité à pied du centre. Prix : 3 000–4 200 €/m². Plus abordable : les quartiers du Ménimur, Kerozer, et les communes péri-urbaines comme Séné (au sud, sur le golfe), Plescop, et Saint-Avé qui offrent maisons individuelles avec jardin à 2 500–3 500 €/m².",
+      },
+      {
+        heading: "Le Golfe du Morbihan comme argument de vie",
+        body: "Le Golfe du Morbihan est l'argument différenciant de Vannes par rapport à n'importe quelle autre ville bretonne de taille comparable. Voiliers, kayaks, Île-aux-Moines et Belle-Île accessibles en ferry, Carnac et ses menhirs à 35 km, randonnées côtières en toute saison. C'est cette combinaison ville-mer-nature qui tire les prix à la hausse et qui distingue Vannes des villes comparables (Lorient, Saint-Brieuc) au niveau attractivité. L'ensoleillement (2 000 h/an en moyenne) est meilleur que Rennes ou Brest grâce à la position dans le golfe.",
+      },
+      {
+        heading: "Accessibilité et contraintes",
+        body: "TGV Paris-Montparnasse–Vannes : 2h40 en TGV direct (quelques rotations par jour) ou 3h15 en TER via Rennes. Pour un télétravailleur qui va rarement à Paris, c'est acceptable. Pour un navetteur hebdomadaire, l'abonnement (400–450 €/mois) s'ajoute à des prix immobiliers élevés — la combinaison devient chère. Bretagne Wifi, les espaces de coworking et les fibre très bien déployés en Morbihan compensent partiellement pour les télétravailleurs à plein temps.",
+      },
+      {
+        heading: "Budget et perspectives 2026",
+        body: "Studio 25 m² : 100 000–130 000 € ; T2 45 m² : 160 000–220 000 € ; T3 75 m² : 240 000–330 000 € ; maison avec jardin commune péri-urbaine : 330 000–500 000 € ; maison de caractère centre médiéval : 450 000–900 000 €. Marché tendu : les biens correctement estimés partent en quelques semaines. La taxe foncière à Vannes est dans la moyenne haute bretonne. Perspective : le marché devrait se stabiliser après la surchauffe 2020–2024 ; une légère correction est possible sur le haut de marché.",
+      },
+    ],
+    relatedCities: ["vannes", "lorient", "quimper", "rennes", "saint-brieuc"],
+    relatedGuides: [
+      "vivre-en-bretagne-guide-2025",
+      "acheter-a-rennes-quel-quartier-budget-2026",
+      "acheter-a-brest-quel-quartier-budget-2026",
+    ],
+    tags: ["acheter à Vannes 2026", "prix immobilier Vannes Morbihan", "Vannes achat appartement maison 2026", "Golfe du Morbihan immobilier", "immobilier Bretagne Vannes 2026"],
+  },
+  {
+    slug: "acheter-a-mulhouse-quel-quartier-budget-2026",
+    title: "Acheter à Mulhouse en 2026 : prix, quartiers et marché immobilier",
+    metaTitle: "Acheter à Mulhouse 2026 — Prix immobilier par quartier, guide achat Haut-Rhin",
+    metaDesc: "Guide achat immobilier Mulhouse 2026 : prix 900–2 200 €/m² selon quartier. Frontalier Suisse (Bâle 25km), tramway, rendements locatifs élevés, pièges à éviter.",
+    category: "budget",
+    emoji: "🏭",
+    readMinutes: 7,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Mulhouse (112 000 habitants, agglomération 280 000) est la ville alsacienne la moins chère — et souvent la plus décriée, injustement. Troisième ville d'Alsace après Strasbourg et Colmar, elle dispose d'un réseau de tramway développé, d'un accès à Bâle (Suisse) en 25 minutes, de grands musées techniques (musée de l'Automobile, musée du Chemin de Fer, cités ouvrières alsaciennes inscrites à l'UNESCO), et de prix immobiliers qui permettent des rendements locatifs rarissimes dans la région. Le challenge : le tissu urbain est très hétérogène et le choix du quartier est décisif.",
+    sections: [
+      {
+        heading: "Centre-ville et Rebberg : le bon et le moins bon",
+        body: "La Rebberg est le quartier résidentiel bourgeois de Mulhouse, sur la colline ouest : villas début XXe, jardins, vue sur la plaine du Rhin, calme. C'est l'adresse la plus convoitée (1 800–2 400 €/m²). Le centre-ville historique autour de la place de la Réunion est en cours de réhabilitation progressive : hôtel de ville Renaissance, rues piétonnes, marché. Prix centre : 1 400–1 900 €/m². Les achats en centre représentent un pari sur la requalification urbaine — la tendance est positive mais lente.",
+      },
+      {
+        heading: "Dornach et Bourtzwiller : les quartiers à éviter",
+        body: "Bourtzwiller et certaines parties de Dornach sont des quartiers en grande difficulté sociale — fort taux de logement social dégradé, insécurité réelle. Les prix y sont mécaniquement bas (700–1 100 €/m²) mais les risques locatifs (impayés, dégradations, difficulté de revente) sont élevés. Ce n'est pas une zone d'investissement recommandable sauf pour les professionnels de l'immobilier social.",
+      },
+      {
+        heading: "Illzach, Kingersheim, Wittenheim : le périurbain fonctionnel",
+        body: "Les communes autour de Mulhouse (au nord surtout) offrent maisons individuelles à des prix accessibles (1 400–2 000 €/m²) dans un tissu périurbain standard. Ces communes sont desservies par le tramway mulhousien. Un pavillon 4 pièces avec jardin : 200 000–300 000 €. C'est l'option des familles qui privilégient l'espace sur l'adresse.",
+      },
+      {
+        heading: "L'argument frontalier suisse",
+        body: "La vraie carte de Mulhouse, c'est Bâle à 25 km (20 minutes en voiture, 30 minutes en TER). Bâle est l'une des villes les plus riches d'Europe (Roche, Novartis, Swiss Re, UBS). Les travailleurs frontaliers qui perçoivent un salaire en CHF et vivent à Mulhouse réalisent un différentiel considérable : appartement T3 à Mulhouse 130 000–180 000 € contre 700 000–1 000 000 CHF à Bâle pour l'équivalent. Ce marché des frontaliers soutient la demande locative (T2–T3 côté Mulhouse) de manière structurelle.",
+      },
+      {
+        heading: "Rendements locatifs et LMNP",
+        body: "Mulhouse offre parmi les meilleurs rendements locatifs bruts de France sur les bonnes adresses (Rebberg, centre réhabilité) : 6–9 % sur les petites surfaces meublées, 4–6 % sur les T3–T4. Le régime LMNP (meublé non professionnel) est particulièrement adapté : forte demande de travailleurs frontaliers cherchant une location meublée de courte durée avant installation définitive. La vigilance sur le quartier reste impérative.",
+      },
+      {
+        heading: "Budget et précautions 2026",
+        body: "Studio 25 m² Rebberg : 55 000–80 000 € ; T2 45 m² centre : 65 000–90 000 € ; T3 75 m² : 95 000–145 000 € ; maison avec jardin Wittenheim : 200 000–290 000 €. Frais de notaire standards. Vigilance DPE : nombreux immeubles des années 1960–80 classés F–G nécessitent rénovation thermique. Assurance propriétaire non-occupant indispensable. Ne pas acheter en quartier difficile sans connaissance terrain approfondie.",
+      },
+    ],
+    relatedCities: ["mulhouse", "strasbourg", "colmar", "belfort", "besancon"],
+    relatedGuides: [
+      "acheter-a-strasbourg-quel-quartier-budget-2026",
+      "immobilier-sous-cote-france-2026-villes",
+      "acheter-a-besancon-quel-quartier-budget-2026",
+    ],
+    tags: ["acheter à Mulhouse 2026", "prix immobilier Mulhouse quartiers", "Mulhouse frontalier Bâle immobilier", "investissement locatif Mulhouse 2026", "immobilier Haut-Rhin Mulhouse 2026"],
+  },
+  {
     slug: "quitter-aix-en-provence-guide-2026",
     title: "Quitter Aix-en-Provence en 2026 : où aller quand Provence devient trop chère",
     metaTitle: "Quitter Aix-en-Provence 2026 — les alternatives quand Aix n'est plus accessible",
