@@ -1,6 +1,6 @@
 # MeilleurVille — Project briefing
 
-French city ranking & relocation guide site. 540 cities, 474 FR guides + 230 EN guides, 19 ranking
+French city ranking & relocation guide site. 540 cities, 474 FR guides + 236 EN guides, 19 ranking
 categories, 18 regions (13 metropolitan + 5 DROM). Copy is **French**.
 (Counts derived at build — see `lib/site-stats.ts`; figures here are indicative.)
 

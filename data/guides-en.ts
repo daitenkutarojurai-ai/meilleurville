@@ -9039,6 +9039,234 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["strasbourg", "colmar", "mulhouse", "belfort", "besancon"],
     tags: ["Strasbourg vs Colmar expat 2026", "Alsace cities comparison expat", "Strasbourg Colmar which city 2026", "EU expat Alsace France comparison", "best Alsace city expat France 2026"],
   },
+  {
+    slug: "toulouse-for-expats-complete-guide-2026",
+    title: "Moving to Toulouse: the complete expat guide (2026)",
+    metaTitle: "Moving to Toulouse 2026: Complete Expat Guide — Costs, Jobs, Neighbourhoods",
+    metaDesc: "Everything about moving to Toulouse as an expat: property prices, Airbus jobs, English-speaking community, best neighbourhoods, healthcare, schools. Honest 2026 guide.",
+    category: "city-guide",
+    emoji: "✈️",
+    readMinutes: 11,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Toulouse is France's fourth-largest city and arguably its most interesting for a specific expat profile: engineers, scientists, aerospace professionals, and anyone drawn to a large, warm, well-connected southern city with a lower cost of living than Lyon or Paris. The city has a strong English-speaking community, particularly around the aerospace industry, making it one of the more foreigner-friendly French cities. This guide covers the practical reality of moving and settling in Toulouse in 2026.",
+    sections: [
+      {
+        heading: "Who moves to Toulouse and why",
+        body: "The dominant expat profile in Toulouse is aerospace: Airbus Group employs around 40,000 people in the Toulouse metropolitan area, drawing engineers, project managers, and support staff from across Europe, North America, and Asia. The company routinely relocates international staff and has an established English-language professional culture. A second significant group is academics and researchers — the University of Toulouse is one of the largest in France (130,000 students, 10,000 researchers), with strong international research partnerships. Retirees and lifestyle migrants form a third group, attracted by the climate (300+ days of sunshine), proximity to the Pyrenees and the Atlantic coast, and lower prices than the Riviera.",
+      },
+      {
+        heading: "Property and rents: where to live",
+        body: "Toulouse is significantly cheaper than Paris or Lyon but has risen sharply since 2018. Current averages: city centre (Capitole, Carmes, Saint-Étienne): €3,200–4,500/m². Inner residential (Saint-Cyprien, Minimes, Compans-Caffarelli): €2,800–3,600/m². Outer residential (Côte Pavée, Rangueil, Lardenne): €2,500–3,200/m². Premium suburbs (Blagnac near Airbus, Colomiers): €2,400–3,400/m². Monthly rents for a 70m² flat: €900–1,400 in central and inner areas. Buying makes financial sense for stays over 7–10 years; Airbus employees often buy in Blagnac or Colomiers, close to the main Airbus campus.",
+      },
+      {
+        heading: "The aerospace ecosystem: working at Airbus and beyond",
+        body: "Airbus Group's main assembly plant (A320/A330 family, HQ functions) is at Blagnac, 8km northwest of Toulouse centre. The professional culture within the company is predominantly English — internal communications, engineering documentation, and project meetings typically run in English for international programmes. Beyond Airbus, the aerospace supply chain generates thousands of additional jobs: Thales Alenia Space, Safran Nacelles, ATR (turboprop aircraft), Collins Aerospace, Dassault Systèmes. The CNES (French space agency) headquarters is also in Toulouse — a significant employer for space engineers. The critical mass means Toulouse has relocation support infrastructure that other French cities lack: company-assisted housing, English-language HR support, and an established expat network.",
+      },
+      {
+        heading: "Practical life: healthcare, schools, language",
+        body: "Healthcare: Toulouse CHU (University Hospital) is one of the five largest in France and handles complex cases. GP access can take 2–3 months for a new patient; establish yourself with a médecin traitant early. Pharmacies are comprehensive. English-speaking doctors exist but are less common than in Paris. Schools: the Lycée International Victor Hugo has sections internationales with bilingual tracks. The International School of Toulouse (IST) in Colomiers offers an English-medium curriculum from pre-K to Baccalaureate — significant tuition fees apply. Language: while Airbus operates in English, daily life in Toulouse requires functional French. Administrative processes, healthcare, and most services are French-only. Investing in French classes before arrival is strongly recommended.",
+      },
+      {
+        heading: "Getting around Toulouse",
+        body: "Toulouse has a metro (lines A and B, fast and frequent), tram (T1 and T2), and bus network. The metro runs to Blagnac airport (35min from Basso Cambo). For Airbus employees based at Toulouse-Blagnac, the Navette Airbus shuttle service supplements public transport. The city is also notably car-dependent in the suburbs — many expats buy a car for the first 12 months while settling in, even if they switch to transit later. TGV Paris: 4h20 (improving to ~3h15 after 2032 when Bordeaux–Toulouse LGV completes). By air: 90min Paris CDG. Barcelona: 2h15 by Ouigo (budget high-speed).",
+      },
+      {
+        heading: "Social life and English-speaking community",
+        body: "Toulouse has one of France's most active English-speaking expat communities outside Paris. The Toulouse Expat Facebook group has 15,000+ members. Regular meetups, English-language pub quizzes, international sporting events (Stade Toulousain — Top14 rugby, a big social anchor), and the international campus culture all contribute. The Pink City nickname comes from the pinkish terracotta brick used throughout the old city. Food culture is strong: cassoulet, Gascon duck confit, and an excellent Saturday market at Victor Hugo. For nightlife and cultural activity, the centre (Capitole, Saint-Cyprien) is lively year-round.",
+      },
+    ],
+    relatedCities: ["toulouse", "bordeaux", "montpellier", "marseille", "nimes"],
+    tags: ["moving to Toulouse expat 2026", "Toulouse expat guide Airbus", "living Toulouse France English speaker", "Toulouse property prices 2026", "Toulouse expat community aerospace"],
+  },
+  {
+    slug: "bordeaux-for-expats-complete-guide-2026",
+    title: "Moving to Bordeaux: the complete expat guide (2026)",
+    metaTitle: "Moving to Bordeaux 2026: Complete Expat Guide — Costs, Wine, Neighbourhoods",
+    metaDesc: "Everything about moving to Bordeaux as an expat: property prices by quarter, English-speaking community, best neighbourhoods, lifestyle, healthcare. Honest 2026 guide.",
+    category: "city-guide",
+    emoji: "🍷",
+    readMinutes: 10,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Bordeaux is one of France's most internationally recognised cities — the wine trade has attracted English, Dutch, and Irish merchants for centuries, and the modern city has retained a cosmopolitan self-confidence that makes it easier to land in as an expat than many other French cities. It is beautiful, well-connected to Paris (2h04 TGV), and has a strong cultural scene. The cost has risen sharply since the TGV arrived in 2017, but it remains significantly cheaper than Paris and increasingly competitive with Lyon.",
+    sections: [
+      {
+        heading: "Property prices and where to live",
+        body: "Bordeaux's property market stratified sharply post-2017 (TGV effect). Current averages: Chartrons and Triangle d'Or (historic bourgeois districts, most desirable): €4,500–6,500/m². Saint-Michel and Victoire (student and bohemian quarter, south of centre): €3,200–4,500/m². La Bastide (right bank, across the Garonne, up-and-coming): €2,800–3,800/m². Mériadeck and Bordeaux Lac (northwest): €3,000–4,000/m². Caudéran (inner suburb, houses with gardens): €3,200–4,200/m². Monthly rent for 75m²: €1,100–1,700 in the central quartiers. La Bastide offers the best value for those willing to be across the river.",
+      },
+      {
+        heading: "The English-speaking connection",
+        body: "Bordeaux has deep historical ties with Britain, Ireland, and the Netherlands through the wine trade. This creates a cultural familiarity: English is more widely spoken in professional contexts than in most French provincial cities, English-language social events are plentiful, and local businesses understand that foreign investment is welcome. The British expat community is significant and pre-dates the post-Brexit wave — many families have been settled here for generations. International schools and bilingual education options are well-established.",
+      },
+      {
+        heading: "Wine country as a lifestyle, not just a label",
+        body: "Living in Bordeaux means access to Saint-Émilion (45min), Médoc (30min), Sauternes (40min), and Arcachon Bay (50min) as weekend destinations. Wine tourism infrastructure is excellent. The city's food and drink culture is serious — the central covered market at Capucins and the organic market at Quinconces are worth the weekly ritual. The Cité du Vin (museum and cultural centre on wine) reflects a city that takes this dimension of its identity seriously. For families, the proximity of Arcachon Bay, the Atlantic Ocean, and the Dune du Pilat (Europe's largest sand dune, 1h south) makes outdoor life genuinely good.",
+      },
+      {
+        heading: "Work and economy beyond wine",
+        body: "Bordeaux's economy has diversified substantially. Key sectors: digital economy (French Tech Bordeaux, significant startup scene), aeronautics (Dassault Aviation at Mérignac, Thales, Safran), health (CHU Bordeaux, Sanofi research), tourism and hospitality, and the traditional agri-food sector. The airport at Mérignac (10M passengers) connects to major European hubs. The University of Bordeaux (60,000 students) generates a young, international workforce. For remote workers, Bordeaux is among the best French cities — excellent internet infrastructure, co-working spaces, café culture, and a pace of life that does not require a car for daily tasks.",
+      },
+      {
+        heading: "Practical considerations",
+        body: "Healthcare: CHU de Bordeaux is comprehensive. GP access requires patience (2–3 months wait for new patients in popular areas). English-speaking doctors are available but require active searching — check Doctolib filters. Transport: Bordeaux tram (4 lines, covers most key destinations) is excellent. Vélo'V bike-sharing is widely used. Car optional in the centre, useful for Médoc/vineyard weekends. TGV Paris: 2h04 (one of the best provincial connections). Driving to Spain (San Sebastián): 2h15. Schools: the International School of Bordeaux (Talence) offers an English curriculum to Baccalaureate. Several public lycées have sections internationales with bilingual English-French streams.",
+      },
+    ],
+    relatedCities: ["bordeaux", "toulouse", "la-rochelle", "nantes", "pau"],
+    tags: ["moving to Bordeaux expat 2026", "Bordeaux expat guide English", "living Bordeaux France property prices", "Bordeaux wine country expat life", "Bordeaux vs Lyon expat 2026"],
+  },
+  {
+    slug: "retiring-to-france-best-cities-2026",
+    title: "Retiring to France in 2026: which cities actually work for expat retirees?",
+    metaTitle: "Retiring to France 2026: Best Cities for Expat Retirees — Honest Guide",
+    metaDesc: "Planning to retire in France? The cities that actually work for English-speaking retirees: healthcare access, cost of living, English community, climate. Honest comparison 2026.",
+    category: "lifestyle",
+    emoji: "🌅",
+    readMinutes: 10,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Retiring to France is a significant life decision that deserves more than 'the south is lovely' generalisations. The cities that work well for expat retirees combine accessible healthcare (ideally a university hospital or major regional hospital within 30 minutes), a manageable cost of living, an existing English-speaking community to ease the transition, and enough daily infrastructure to live without a car. This guide covers the cities that genuinely deliver on these criteria — and some popular ones that disappoint.",
+    sections: [
+      {
+        heading: "What retirees actually need (and don't get told)",
+        body: "The romantic image of Provence or Burgundy countryside often meets the reality of: nearest GP 20km away with a 4-month wait; nearest specialist hospital 1h+ drive; minimal English-speaking social life outside your village; complete car dependency. The realities of ageing — occasional healthcare needs, reduced mobility over time, isolation risk — make cities significantly more practical than rural settings for most retirees. The best retirement cities for expats are not the most famous ones, but the ones with the right infrastructure combination: university hospital, direct TGV/air connection to the UK or your home country, genuine international community, and walkable daily life.",
+      },
+      {
+        heading: "Montpellier: the surprise top pick",
+        body: "Montpellier consistently ranks among the best retirement cities for expats for concrete reasons. The CHU de Montpellier is one of France's top university hospitals. The city has over 100,000 retirees (among the highest proportion in any French metropolis), creating strong institutional support for older residents. Climate is exceptional: 300+ sunshine days, mild winters. English-speaking community is large and organised — partly driven by the Erasmus and international academic tradition. Cost of living is moderate for a Mediterranean city (though property prices have risen). Easy access to airports: Ryanair and easyJet operate to UK airports from Montpellier-Méditerranée.",
+      },
+      {
+        heading: "Toulouse and Bordeaux: the practical metropolitans",
+        body: "Toulouse and Bordeaux are the most practical retirement choices for expats who want a genuinely metropolitan life with English-language support structures. Both have major university hospitals, large English-speaking communities (Bordeaux historically, Toulouse through the aerospace sector), and direct connections to the UK by air. Property prices are higher than most of France but substantially lower than Paris or Nice. The climate — hot summers, mild winters — is a bonus. These cities lack the 'glamour' of Nice or Aix-en-Provence but deliver on the practical criteria that matter most over a 20+ year retirement.",
+      },
+      {
+        heading: "Nice and Antibes: the glamour vs the cost",
+        body: "Nice is the most established expat retirement destination in France — the English colony dates to the 19th century (the Promenade des Anglais was literally funded by English residents). The infrastructure for English-speaking retirees is therefore mature: English-language services, Anglican church, expat clubs, excellent healthcare. The problems are real: Nice is among the most expensive French cities outside Paris (property, restaurants, services), and the concentration of wealthy retirees has driven costs that put it out of reach for many. Antibes, 25km west, offers a compromise: lower prices, similar Riviera access, smaller but functional expat community.",
+      },
+      {
+        heading: "Cities that disappoint retirees",
+        body: "Several cities frequently recommended for retirement disappoint in practice. Aix-en-Provence: extremely expensive, limited hospital for its size (closest major CHU in Marseille 30km), beautiful but premium-priced. Annecy: stunning lake and mountains, but property prices comparable to Nice, limited English community, genuine isolation risk without good French. Carcassonne: romantic and cheap, but very limited healthcare infrastructure, small English community, extreme summer heat. Rural Dordogne (Périgord): popular with British retirees but healthcare access is genuinely problematic for anyone with chronic conditions. Rule of thumb: beautiful small town + rural setting = high infrastructure risk as you age.",
+      },
+      {
+        heading: "Practical tips for the move",
+        body: "Healthcare registration: register with CPAM (French national health insurance) immediately on establishing residency — as an EU citizen, this is generally straightforward; as a non-EU national (post-Brexit British, American, Australian), the PUMA (Protection Universelle Maladie) system covers legal residents after 3 months. Find a médecin traitant (GP) before you need one — waiting lists are long in popular expat areas. French residency for non-EU nationals requires a long-stay visa obtained before arrival; apply 3–4 months before planned move. Financial planning: France has specific tax treaties with most countries. Consult a cross-border tax specialist — not a general accountant — for pension taxation, healthcare contribution liability, and inheritance planning.",
+      },
+    ],
+    relatedCities: ["montpellier", "toulouse", "bordeaux", "nice", "antibes"],
+    tags: ["retiring to France 2026 expat", "best cities retire France English", "France retirement visa healthcare expat", "retire Montpellier Toulouse Bordeaux", "expat retirement France cost of living"],
+  },
+  {
+    slug: "healthcare-france-expats-practical-guide-2026",
+    title: "Healthcare in France for expats: how it actually works (2026)",
+    metaTitle: "Healthcare in France for Expats 2026: Complete Practical Guide",
+    metaDesc: "How the French healthcare system works for expats: CPAM registration, médecin traitant, specialist access, private insurance, pharmacies, emergencies. Clear guide 2026.",
+    category: "moving",
+    emoji: "🏥",
+    readMinutes: 9,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "France's healthcare system is consistently rated among the world's best — high quality, broadly accessible, with strong primary and specialist care. For expats, navigating it requires understanding a few key concepts: the difference between public coverage (Sécurité Sociale) and complementary private insurance (mutuelle), how reimbursement works, how to find a GP, and what happens in emergencies. This guide explains the system as it actually works for foreign residents in 2026.",
+    sections: [
+      {
+        heading: "The basics: Sécurité Sociale and CPAM",
+        body: "France's public health system is administered by CPAM (Caisse Primaire d'Assurance Maladie). As a legal resident, you are entitled to register under PUMA (Protection Universelle Maladie) after 3 months of continuous legal residence. EU citizens exercising treaty rights can register immediately. Upon registration, you receive a Carte Vitale — a green chip card that carries your health insurance details and is presented at every medical appointment and pharmacy. CPAM reimburses 70% of most consultations (médecin de secteur 1) and prescription costs. The remaining 30% (called ticket modérateur) is typically covered by a mutuelle (complementary insurer).",
+      },
+      {
+        heading: "Finding a GP: the médecin traitant system",
+        body: "To access reimbursed specialist care, you need a médecin traitant — a registered GP who coordinates your care. Without one, you are reimbursed at a lower rate for specialist consultations. Finding a médecin traitant accepting new patients has become genuinely difficult in France: urban centres have waiting lists of 2–4 months; rural areas have médecin déserts (GP deserts). Practical strategies: use Doctolib (online booking platform) with the 'new patient' filter in your postcode; ask your employer's HR or your local mairie for recommendations; some pharmacists can direct you to GPs accepting new patients. Alternatively, Maisons de Santé (group health centres) often have shorter waits than solo practices.",
+      },
+      {
+        heading: "Specialist care and hospital",
+        body: "For specialist care (cardiologist, neurologist, gynaecologist, etc.), you generally need a referral from your médecin traitant for the consultation to be reimbursed at the standard rate. Direct access is permitted but reimbursed less generously. University hospitals (CHUs) are the highest-level care centres — Toulouse CHU, Bordeaux CHU, Montpellier CHU, Lyon HCL, and Paris APHP are where complex cases are handled. Public hospitals are generally reliable; private clinics (cliniques) are also part of the reimbursement system. Emergency care (urgences) is always available at public hospital A&E departments regardless of insurance status.",
+      },
+      {
+        heading: "Complementary insurance: the mutuelle",
+        body: "Most employed French residents have a mutuelle provided or subsidised by their employer — this became mandatory for employers in 2016 (ANI law). As a self-employed or freelance expat, you must arrange your own mutuelle. Major providers include MGEN, Malakoff Humanis, April, Harmonie Mutuelle, and many others. Monthly costs: €50–120/month for a solo adult depending on coverage level. The mutuelle typically covers the 30% ticket modérateur, dental and optical care (not well covered by CPAM), and can cover private room supplements in hospitals. Compare on ameli.fr (official comparator) or niche broker sites.",
+      },
+      {
+        heading: "Pharmacies, prescriptions, and mental health",
+        body: "French pharmacies are excellent, widely distributed, and pharmacists are trained to advise on minor conditions — this is a genuine resource for navigating everyday healthcare questions. Prescriptions from your médecin traitant are covered by Carte Vitale at the pharmacy. Over-the-counter medication culture differs from the UK or US — paracetamol, ibuprofen, and antihistamines require a pharmacy visit but not a prescription. Mental health: France has historically underserved mental healthcare, but access has improved. Psychologists can be partially reimbursed via the 'MonPsy' scheme (8 sessions/year reimbursed for mild-moderate issues). For English-speaking therapists, check local expat groups — they typically maintain updated lists.",
+      },
+      {
+        heading: "Emergencies and the 15/15/18 system",
+        body: "France's emergency number system: 15 (SAMU — medical emergency, ambulance, life-threatening situations), 18 (Sapeurs-Pompiers — fire brigade, who also respond to medical emergencies), 112 (European emergency number). All dispatch 24/7. SOS Médecins provides home GP visits outside normal hours — call 3600 or book online; fees are reimbursable. For dental emergencies outside working hours, the 3114 number (national distress line) can direct you to emergency dental services. If you are hospitalised, you can request a translator (interprète) — the hospital is legally obligated to provide one for non-French speakers under certain conditions, though in practice this varies.",
+      },
+    ],
+    relatedCities: ["montpellier", "toulouse", "bordeaux", "lyon", "paris"],
+    tags: ["healthcare France expats 2026", "French health system expat guide", "CPAM registration expat France", "médecin traitant expat France", "mutuelle France expat insurance"],
+  },
+  {
+    slug: "nice-vs-marseille-expat-guide-2026",
+    title: "Nice vs Marseille: which Mediterranean city for expats in 2026?",
+    metaTitle: "Nice vs Marseille 2026: Which Mediterranean City for Expats? Honest Comparison",
+    metaDesc: "Nice or Marseille for expats? Property prices, safety, English community, beaches, careers. Two very different Mediterranean cities. Honest 2026 comparison.",
+    category: "city-guide",
+    emoji: "🌊",
+    readMinutes: 9,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Nice and Marseille are France's two great Mediterranean cities — and they are almost opposites. Nice is polished, expensive, and internationally bourgeois, with a deep history of northern European aristocracy and retirees coming south for the sun. Marseille is raw, diverse, and complex: France's oldest city, a major port, and a place with genuine urban edge that either energises or puts off potential residents. Both have the Mediterranean, the sunshine, and direct connections abroad. The choice reveals a lot about what you are actually looking for.",
+    sections: [
+      {
+        heading: "Property and cost of living",
+        body: "Nice is one of France's most expensive cities: central Nice (Promenade des Anglais, Vieux-Nice, Cimiez) ranges from €4,500–8,000/m². Outer Nice and suburbs remain above €3,500/m² for most neighbourhoods. Marseille is 40–60% cheaper: quality central areas (8th arrondissement, Vauban, Endoume) run €3,000–5,000/m²; solid residential areas (12th, 13th arrondissement) fall to €2,200–3,000/m². For rent, a similar 70m² flat costs roughly €1,200–1,600/month in Nice versus €850–1,200/month in Marseille. For retirees or remote workers on a fixed income, the cost difference is material over time.",
+      },
+      {
+        heading: "Safety: what the statistics say and what residents report",
+        body: "This is the topic where preconceptions most diverge from reality. Nice's violent crime rate is genuinely lower than Marseille's on aggregate statistics — but Nice also had the 2016 Promenade des Anglais attack, a reminder that no city is risk-free. Marseille has specific neighbourhoods (northern arrondissements, 13th–15th) with serious issues involving drug trafficking and associated violence. However, the neighbourhoods where expats typically live — 8th (Corniche, Prado), Vauban, 12th, 13th arrondissement proper — have crime rates comparable to any large French city. Expats consistently report feeling safe in their day-to-day Marseille neighbourhoods. The key rule: choose your Marseille neighbourhood carefully.",
+      },
+      {
+        heading: "Career and employment",
+        body: "Nice's main professional advantage is Sophia Antipolis, the technology park 20km west that houses the European offices of hundreds of tech and pharma companies. French Tech Côte d'Azur is an active ecosystem. Beyond tech, Nice's economy is primarily services, tourism, and luxury — high employment in hospitality, with less depth for industrial or engineering profiles. Marseille has more economic mass: France's largest Mediterranean port generates logistics and maritime employment; Euromediterranée (the largest urban regeneration project in France by area) has transformed the docklands into a mixed professional district; Aix-Marseille University (80,000 students) creates significant research employment. For most career profiles, Marseille offers more.",
+      },
+      {
+        heading: "English-speaking community and expat life",
+        body: "Nice has a mature, long-established English-speaking community — particularly British, American, and Australian retirees and professionals. Anglican churches, English-language bookshops, clubs, and social organisations have existed for decades. Sophia Antipolis adds a younger international professional community. Marseille's international community is more diverse and less anglophone-specific: significant North African, Comorian, Italian, and Armenian communities; a growing but still developing English-language expat social scene. If having an immediate, organised Anglo community on arrival matters to you, Nice has more infrastructure. If you are comfortable building connections more gradually in a genuinely multicultural environment, Marseille is richer.",
+      },
+      {
+        heading: "The honest verdict",
+        body: "Choose Nice if: you are a retiree or remote worker who wants an immediately comfortable, internationally bourgeois lifestyle; your budget can sustain one of France's most expensive markets; you value the established Riviera infrastructure and social scene; Monaco access, Cannes, and the Côte d'Azur aesthetic are appealing to you. Choose Marseille if: you want a bigger, more complex city with more cultural depth and economic opportunity; your budget is moderate and you want it to go further; you are attracted to an authentically Mediterranean, port-city culture; you are willing to invest time in choosing your neighbourhood and building a social network from a less-structured base.",
+      },
+    ],
+    relatedCities: ["nice", "marseille", "toulon", "aix-en-provence", "antibes"],
+    tags: ["Nice vs Marseille expat 2026", "Nice or Marseille which city expat", "Mediterranean France expat comparison 2026", "living Nice Marseille England speaker", "Côte d'Azur vs Marseille expat"],
+  },
+  {
+    slug: "french-alps-cities-expats-annecy-grenoble-chambery-2026",
+    title: "French Alps cities for expats: Annecy, Grenoble, or Chambéry?",
+    metaTitle: "Annecy vs Grenoble vs Chambéry 2026: Which Alpine City for Expats?",
+    metaDesc: "Annecy, Grenoble, or Chambéry for expats? Property prices, jobs, mountains access, English community. Honest 2026 comparison of the three main French Alps cities.",
+    category: "city-guide",
+    emoji: "⛰️",
+    readMinutes: 9,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "The French Alps contain three distinct urban bases for expats: Annecy (the beautiful lake city), Grenoble (the tech and research capital), and Chambéry (the affordable alternative between the two). Each serves a fundamentally different profile. Annecy is a lifestyle purchase — you pay for the lake. Grenoble is a career choice — you come for the innovation ecosystem. Chambéry is the pragmatist's option — you get both regions at a 40% discount on Annecy prices. This comparison covers the reality of all three in 2026.",
+    sections: [
+      {
+        heading: "Annecy: the lake comes at a price",
+        body: "Annecy (145,000 in the greater area) is consistently ranked among the most beautiful cities in France, and the property market reflects it: €4,500–7,000/m² in the city and near-lake areas, with prime lakefront or old town addresses exceeding €8,000/m². This is Paris money outside Paris. The lake itself — Europe's cleanest, surrounded by the Aravis and Bauges mountain ranges — is extraordinary. The quality of life for outdoor enthusiasts (sailing, kayaking, cycling, skiing in winter at La Clusaz, Grand-Bornand, Megève) is exceptional. The job market, however, is primarily tourism, luxury hospitality, and local services — not commensurate with the real estate prices. Most professional expats in Annecy either work remotely or commute to Geneva (40min).",
+      },
+      {
+        heading: "Grenoble: the science city",
+        body: "Grenoble (480,000 metropolitan) is France's leading city for fundamental research and deep-tech industry. Key anchors: CEA (Commissariat à l'Énergie Atomique, 6,000 employees), CNRS, ESRF (European Synchrotron Radiation Facility), ILL (Institut Laue-Langevin), STMicroelectronics, Schneider Electric, Soitec. The result is one of France's highest concentrations of PhD-level employment and one of Europe's genuine science cities. The University Joseph Fourier has strong international partnerships. Property prices are moderate for a city of this scientific standing: €2,800–4,200/m² in the centre, €2,200–3,200/m² in residential areas. Grenoble is surrounded by three mountain ranges (Belledonne, Chartreuse, Vercors) offering skiing and hiking at exceptional proximity.",
+      },
+      {
+        heading: "Chambéry: the Annecy alternative",
+        body: "Chambéry (65,000 in the city, 235,000 metropolitan) is often described as what Annecy would be without the lake — a medium-sized Savoyard city with a genuine medieval centre, excellent mountains access (Chartreuse, Beaufortain, access to Tarentaise ski resorts within 1h30), and property prices 40–50% below Annecy. At €2,200–3,600/m², you can buy a spacious flat or a house with garden for budgets that would struggle to secure a studio in central Annecy. The job market is smaller than Grenoble but not negligible — the Chambéry metropolitan area has manufacturing (Alpes Contrôle, ARC Industries), university employment, and healthcare. Remote workers and professionals who commute occasionally to Lyon (1h) or Geneva (1h30) find it particularly practical.",
+      },
+      {
+        heading: "Geneva access: the Swiss factor",
+        body: "All three cities offer Geneva access, but the commute is very different. Annecy: 40min by motorway (fastest). Grenoble: 1h40 by motorway. Chambéry: 1h15 by motorway. For cross-border workers at Geneva-based employers (UN agencies, CERN, international banks, pharma), Annecy's proximity is a structural advantage that justifies a price premium. The trade-off: CERN employees can live in Annecy and still afford to buy property; Geneva-based bankers or international civil servants may find Annecy more reasonable than they expect when comparing to Geneva itself (where equivalent property costs 2–3× more).",
+      },
+      {
+        heading: "Which city for which profile",
+        body: "Annecy for: remote workers or Geneva commuters who make lifestyle the priority; retirees with capital who want the best outdoor setting in France; couples where one partner works in Geneva and the other works remotely. Budget: 350,000€+ for a 3-bedroom flat. Grenoble for: scientists, engineers, and tech professionals in the deep-tech sector; academics; those for whom proximity to a research ecosystem matters professionally. Budget: 250,000–350,000€ for a central 3-bedroom. Chambéry for: families who want Savoie mountain life at half the Annecy price; professionals who can commute occasionally to Grenoble (50min) or Lyon (1h); retirees who want the culture and mountains without Annecy's premium. Budget: 200,000–280,000€ for a 3-bedroom.",
+      },
+    ],
+    relatedCities: ["annecy", "grenoble", "chambery", "lyon", "aix-les-bains"],
+    tags: ["French Alps cities expats 2026", "Annecy vs Grenoble vs Chambéry expat", "best Alpine city France expat", "Annecy Grenoble property prices 2026", "French Alps expat guide 2026"],
+  },
 ];
 
 export function getEnGuide(slug: string): EnGuide | undefined {
