@@ -6,6 +6,8 @@ import { Footer } from "@/components/Footer";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
 import { scoreColor, sunshineDays } from "@/lib/utils";
+import { nearestStation, distanceToNearestKm, CLIMATE_SOURCE } from "@/lib/climate-normals";
+import { ClimateChart } from "@/components/ClimateChart";
 
 const EN_BASE = ORIGIN_BY_LOCALE.en;
 
@@ -56,6 +58,19 @@ export default async function EnCityClimate({ params }: Props) {
   const climate = classifyClimateEn(c);
   const sunDays = sunshineDays(c.sunshinedays);
 
+  const station = nearestStation(c);
+  const stationDist = distanceToNearestKm(c);
+  const monthlyNormals =
+    station && (stationDist == null || stationDist <= 120)
+      ? station.months.map((m) => ({
+          tempAvg: m.tempAvg,
+          tempMin: m.tempMin,
+          tempMax: m.tempMax,
+          precipMm: m.precipMm,
+          sunHours: m.sunHours,
+        }))
+      : null;
+
   return (
     <main id="main-content" className="min-h-screen">
       <Navbar />
@@ -95,6 +110,14 @@ export default async function EnCityClimate({ params }: Props) {
           <p className="font-mono-data text-2xl font-bold text-[var(--text-primary)]">{c.avgTempJanuary ? `${c.avgTempJanuary} °C` : "—"}</p>
         </div>
       </section>
+
+      {monthlyNormals && (
+        <section className="mx-auto max-w-3xl px-4 sm:px-6 py-4">
+          <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5">
+            <ClimateChart months={monthlyNormals} source={CLIMATE_SOURCE} stationDist={stationDist} locale="en" />
+          </div>
+        </section>
+      )}
 
       <section className="mx-auto max-w-3xl px-4 sm:px-6 py-6">
         <h2 className="text-xl font-bold text-[var(--text-primary)] mb-3">What it feels like</h2>

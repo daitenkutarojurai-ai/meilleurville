@@ -8,6 +8,8 @@ import { AmbientBackground } from "@/components/AmbientBackground";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { sunshineDays } from "@/lib/utils";
+import { nearestStation, distanceToNearestKm, CLIMATE_SOURCE } from "@/lib/climate-normals";
+import { ClimateChart, type MonthNormal } from "@/components/ClimateChart";
 
 // ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
 // revalidate=false → page built once at deploy, served from static edge cache.
@@ -168,6 +170,19 @@ export default async function ClimatPage({ params }: Props) {
   const { best, avoid } = bestMonths(climate);
   const similar = findSimilarCities(city, CITIES_SEED);
 
+  const station = nearestStation(city);
+  const stationDist = distanceToNearestKm(city);
+  const monthlyNormals: MonthNormal[] | null =
+    station && (stationDist == null || stationDist <= 120)
+      ? station.months.map((m) => ({
+          tempAvg: m.tempAvg,
+          tempMin: m.tempMin,
+          tempMax: m.tempMax,
+          precipMm: m.precipMm,
+          sunHours: m.sunHours,
+        }))
+      : null;
+
   // Ranking among all cities for sunshine
   const sunRank = (() => {
     if (city.sunshinedays == null) return null;
@@ -263,6 +278,17 @@ export default async function ClimatPage({ params }: Props) {
           </div>
         </div>
       </section>
+
+      {/* Monthly climate chart */}
+      {monthlyNormals && (
+        <section className="relative pb-8">
+          <div className="mx-auto max-w-5xl px-4 sm:px-6">
+            <div className="rounded-2xl glass border border-white/50 p-5 shadow-sm">
+              <ClimateChart months={monthlyNormals} source={CLIMATE_SOURCE} stationDist={stationDist} locale="fr" />
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* When to go */}
       <section className="relative pb-8">
