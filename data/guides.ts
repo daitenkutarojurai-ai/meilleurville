@@ -23669,6 +23669,486 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["10 choses à faire à Rennes", "activités Rennes 2026", "sorties Rennes", "que faire à Rennes", "marché des Lices Rennes visiteurs"],
   },
+  {
+    slug: "10-choses-a-faire-a-strasbourg-2026",
+    title: "10 choses à faire à Strasbourg (la ville qui réconcilie tout)",
+    metaTitle: "10 choses à faire à Strasbourg 2026 — activités et sorties locales",
+    metaDesc: "Cathédrale, Petite France, Parlement européen et forêt-noire à portée : 10 activités à Strasbourg pour vivre la ville alsacienne de l'intérieur.",
+    category: "tourisme",
+    emoji: "🥨",
+    readMinutes: 7,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Strasbourg est une ville unique en Europe : capitale alsacienne, siège du Parlement européen, ville de frontière franco-allemande. Son architecture, sa gastronomie et ses traditions en font une destination permanente pour ceux qui y vivent comme pour ceux qui la découvrent.",
+    sections: [
+      {
+        heading: "1. Monter à la plateforme de la Cathédrale",
+        body: "330 marches mènent à la plateforme à 66 m, offrant une vue sur la vieille ville, la Petite France et par temps clair les Vosges et la Forêt-Noire. L'horloge astronomique à l'intérieur (XIVe siècle) vaut également le détour — spectacle mécanique tous les jours à 12h30.",
+      },
+      {
+        heading: "2. Flâner dans la Petite France",
+        body: "Le quartier médiéval avec ses maisons à colombages, ses canaux et ses passerelles coiffées est le plus photographié d'Alsace. L'idéal est d'y aller tôt le matin ou en soirée — en journée, les ruelles sont encombrées. Les Ponts Couverts et la Vauban sont juste après.",
+      },
+      {
+        heading: "3. Marché de Noël (ou ses équivalents le reste de l'année)",
+        body: "Le Christkindelsmärik de Strasbourg est le plus ancien marché de Noël de France (depuis 1570). Hors saison, les marchés de printemps et d'été place Broglie offrent une version plus calme. Le vin chaud (Glühwein) et les bretzels frais sont présents toute l'année.",
+      },
+      {
+        heading: "4. Visite du Parlement européen",
+        body: "Le bâtiment Louise Weiss se visite gratuitement sur réservation. Les jours de session plénière (12 fois par an), l'ambiance est particulière — 705 eurodéputés de 27 pays. Même hors session, la visite de l'hémicycle vide reste marquante.",
+      },
+      {
+        heading: "5. Vélo vers Kehl (Allemagne) par les bords du Rhin",
+        body: "Le pont de l'Europe relie Strasbourg à Kehl en 10 minutes à vélo. La rive allemande offre un Rhin différent — plages naturelles, forêt rhénane, cafés de bord de fleuve. Un aller-retour transfrontalier de 20 km en terrain plat.",
+      },
+      {
+        heading: "6. Marché Broglie un samedi matin",
+        body: "Le grand marché hebdomadaire de Strasbourg place Broglie et alentours réunit producteurs alsaciens, fromagers, charcutiers (tarte flambée, munster, knack) et fleuristes. Cadre architectural sobre et élégant.",
+      },
+      {
+        heading: "7. Tarte flambée dans un winstub",
+        body: "Les winstubs sont les bistrots traditionnels alsaciens — boiseries sombres, pichets de Riesling, flammekueche (tarte flambée) et baeckeoffe. Le meilleur accord vin-plat de la région, pour moins de 20 € le midi. Cherchez les enseignes en alsacien.",
+      },
+      {
+        heading: "8. Musée d'Art Moderne et Contemporain (MAMCS)",
+        body: "En bord d'Ill, architecture de l'Atelier Adrien Fainsilber. Collections couvrant le XIXe siècle à aujourd'hui, avec un accent particulier sur l'Art Nouveau alsacien et les mouvements du XXe siècle européen. Premier dimanche du mois gratuit.",
+      },
+      {
+        heading: "9. Route des Vins d'Alsace depuis Strasbourg",
+        body: "En voiture ou en vélo depuis Obernai (30 minutes), la Route des Vins traverse 170 km de vignobles, villages médiévaux et caves coopératives. Riquewihr, Ribeauvillé, Kaysersberg — chacun offre une dégustation directe et un contexte architectural remarquable.",
+      },
+      {
+        heading: "10. Soirée dans le quartier de la Krutenau",
+        body: "Bordé par l'Ill, ce quartier estudiantin et bohème abrite bars à bières, caves à vin naturel, restaurants de cuisine du monde et terrasses sur les quais. Plus authentique que le centre touristique, très animé le soir.",
+      },
+    ],
+    relatedCities: ["strasbourg"],
+    relatedGuides: [
+      "vivre-en-alsace-strasbourg-colmar-mulhouse-2025",
+      "quitter-strasbourg-guide-2026",
+    ],
+    tags: ["10 choses à faire à Strasbourg", "activités Strasbourg 2026", "sorties Strasbourg", "que faire à Strasbourg", "Petite France Strasbourg visiteurs"],
+  },
+  {
+    slug: "10-choses-a-faire-a-montpellier-2026",
+    title: "10 choses à faire à Montpellier (la ville méditerranéenne qui bouge)",
+    metaTitle: "10 choses à faire à Montpellier 2026 — activités locales et sorties",
+    metaDesc: "Plages à 20 minutes, vieille ville, garrigue et scène étudiante : 10 activités à Montpellier pour vivre la capitale héraultaise de l'intérieur.",
+    category: "tourisme",
+    emoji: "🌞",
+    readMinutes: 7,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Montpellier est la ville française qui a le plus fort taux de croissance depuis 30 ans. Universitaire, méditerranéenne, tournée vers l'Espagne, elle attire des profils très divers. Ce dynamisme se ressent dans les quartiers, les marchés et les terrasses.",
+    sections: [
+      {
+        heading: "1. Baignade à Palavas-les-Flots ou à l'Espiguette",
+        body: "Les plages sont à 20 minutes en tram depuis Montpellier. Palavas est la plage accessible à l'année, Carnon et Espiguette (côté Gard) proposent des espaces naturels préservés. Eau chaude de juin à octobre, vent de mer rafraîchissant l'été.",
+      },
+      {
+        heading: "2. Flâner dans l'Écusson (centre historique)",
+        body: "L'Écusson, le cœur médiéval de Montpellier, est un labyrinthe de ruelles, hôtels particuliers du XVIIe et XVIIIe, placettes et boutiques. La Place de la Comédie côtoie des passages secrets et des cours intérieures peu visitées.",
+      },
+      {
+        heading: "3. Marché du Lez le week-end",
+        body: "Sur les berges du Lez, le marché du week-end réunit créateurs, producteurs bio, food trucks, concerts et ambiance festive dans un espace de 6000 m². Cadre industriel rénové, entrée libre, idéal pour passer une demi-journée.",
+      },
+      {
+        heading: "4. Randonnée dans la garrigue (Pic Saint-Loup)",
+        body: "À 30 minutes de Montpellier, le Pic Saint-Loup culmine à 658 m avec vue sur la Méditerranée et les Cévennes. Montée en 1h30, sentiers bien balisés, vignerons du cru au pied de la montagne. Une des randonnées de proximité les plus belles du Languedoc.",
+      },
+      {
+        heading: "5. Soirée dans le quartier Beaux-Arts ou Gambetta",
+        body: "Les deux quartiers les plus animés de Montpellier hors centre. Beaux-Arts côté artistique et alternatif, Gambetta pour les bars à cocktails et la scène musicale. Ambiance très jeune et internationale — 50 000 étudiants à Montpellier.",
+      },
+      {
+        heading: "6. Marché des Arceaux le samedi matin",
+        body: "Sous les arches de l'aqueduc Saint-Clément (1754), le marché des Arceaux est le marché vivrier de référence des Montpelliérains. Producteurs de l'Hérault, fromages de Roquefort, huîtres de Bouzigues, vin du cru.",
+      },
+      {
+        heading: "7. Visite du Musée Fabre",
+        body: "L'un des plus importants musées de beaux-arts de France en province. Collections du XVIe au XXe siècle — Courbet, Ingres, Delacroix, Bazille (Montpelliérain). Fonds Soulages très important. Entrée libre le premier dimanche du mois.",
+      },
+      {
+        heading: "8. Vélo sur la Via Rhôna ou la voie des Étangs",
+        body: "La véloroute des Étangs (100 km) longe les lagunes entre Montpellier et Sète, traversant flamants roses et villages de pêcheurs. La Via Rhôna descend vers la Camargue. Locations de vélos disponibles en ville.",
+      },
+      {
+        heading: "9. Journée à Sète",
+        body: "À 30 minutes de Montpellier en TER, Sète est la «Venise languedocienne» — canaux, poissonneries, joutes nautiques, port de pêche actif, tielle sétoise et noilly prat. Le cimetière marin de Paul Valéry domine la mer.",
+      },
+      {
+        heading: "10. Apéro sur la Place de la Comédie ou les terrasses du Quartier Antigone",
+        body: "La Comédie, place centrale piétonne, est le salon de Montpellier — terrasses de cafés, musiciens de rue, soleil jusqu'à 20h en été. Antigone, quartier post-moderne de Ricardo Bofill, cache des terrasses calmes et des cafés de quartier.",
+      },
+    ],
+    relatedCities: ["montpellier"],
+    relatedGuides: [
+      "quitter-montpellier-guide-2026",
+      "toulouse-montpellier-quelle-ville-choisir",
+    ],
+    tags: ["10 choses à faire à Montpellier", "activités Montpellier 2026", "sorties Montpellier", "que faire à Montpellier", "plages Montpellier visiteurs"],
+  },
+  {
+    slug: "10-choses-a-faire-a-lille-2026",
+    title: "10 choses à faire à Lille (la nordiste qui surprend toujours)",
+    metaTitle: "10 choses à faire à Lille 2026 — activités et sorties locales",
+    metaDesc: "Braderie, Vieux-Lille, estaminets et Grand Place : 10 activités à Lille pour aller au-delà des idées reçues et vivre la capitale nordiste.",
+    category: "tourisme",
+    emoji: "🍺",
+    readMinutes: 7,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Lille souffre d'une réputation injuste. La ville est en réalité chaleureuse, architecturalement somptueuse, gastronomiquement riche et dotée d'une vie culturelle et nocturne parmi les plus denses de France. Démonstration.",
+    sections: [
+      {
+        heading: "1. Flâner dans le Vieux-Lille",
+        body: "Le Vieux-Lille est un quartier exceptionnel — rues pavées, maisons flamandes des XVIIe et XVIIIe siècles en briques rouges, façades sculptées. Rue de la Monnaie, rue Basse, Place Louise-de-Bettignies. Les boutiques indépendantes et les caves à vin remplacent peu à peu les enseignes nationales.",
+      },
+      {
+        heading: "2. La Grand Place et la Vieille Bourse",
+        body: "La Grand Place (Place du Général-de-Gaulle) est le cœur de Lille — colonne de la Déesse, brasseries autour, animation constante. La Vieille Bourse (1653), juste à côté, est l'un des plus beaux bâtiments flamands de France : cour intérieure avec bouquinistes, joueurs d'échecs, danseurs de tango.",
+      },
+      {
+        heading: "3. Braderie de Lille (premier week-end de septembre)",
+        body: "La plus grande braderie d'Europe — 200 km de stands dans toute la ville, 2 millions de visiteurs, ambiance nordiste totale. Moules-frites obligatoires. À réserver à l'avance, les hôtels affichent complet un an à l'avance.",
+      },
+      {
+        heading: "4. Palais des Beaux-Arts",
+        body: "Deuxième plus grand musée de France après le Louvre (collections). Rubens, Véronèse, Goya, David, Impressionnistes. Entrée gratuite le premier dimanche du mois. L'architecture du XIXe et les salles de sculptures font aussi partie de l'expérience.",
+      },
+      {
+        heading: "5. Estaminet traditionnel au déjeuner",
+        body: "Les estaminets sont les brasseries folkloriques nordistes — plafonds bas, boiseries, jeux en bois, carbonnade flamande, welsh, potjevleesch. L'atmosphère est celle des guinguettes du XIXe siècle. Cherchez les adresses hors du circuit touristique immédiat.",
+      },
+      {
+        heading: "6. Le Tripostal et La Condition Publique (Roubaix)",
+        body: "Le Tripostal à Lille est l'espace d'expositions de la ville — agenda chargé, grands formats. La Condition Publique à Roubaix (20 minutes en métro) est une ancienne usine textile reconvertie en lieu culturel pluridisciplinaire spectaculaire.",
+      },
+      {
+        heading: "7. Visite du LaM (Villeneuve d'Ascq)",
+        body: "Le Musée d'Art Moderne, d'Art Contemporain et d'Art Brut de Lille Métropole, à Villeneuve-d'Ascq (métro), possède l'une des plus grandes collections d'Art Brut au monde. Cadre de parc, sculptures en plein air, café-restaurant dans un bâtiment moderniste.",
+      },
+      {
+        heading: "8. Balade à vélo sur la voie verte vers Roubaix ou Tourcoing",
+        body: "Le réseau de pistes cyclables de la métropole lilloise est parmi les plus denses de France. Vers Roubaix : la piste longe le canal de Roubaix, entre anciennes usines reconverties et zones humides. Aller-retour de 30 km en terrain plat.",
+      },
+      {
+        heading: "9. Marché de Wazemmes un dimanche matin",
+        body: "La Halle de Wazemmes et son marché extérieur sont le marché populaire de Lille par excellence. Épiceries du Maghreb et d'Afrique, fleurs, tissus, produits du nord, street food de toutes origines. Ambiance multiculturelle, prix imbattables.",
+      },
+      {
+        heading: "10. Soirée dans le quartier Moulins ou Wazemmes",
+        body: "Moulins est le nouveau quartier créatif de Lille — ateliers d'artistes, tiers-lieux, brasseries artisanales. Wazemmes a une vie nocturne dense et populaire. Deux versants d'une ville plus complexe que sa réputation industrielle.",
+      },
+    ],
+    relatedCities: ["lille"],
+    relatedGuides: [
+      "hauts-de-france-lille-arras-amiens-guide-2025",
+      "quitter-lille-guide-2026",
+    ],
+    tags: ["10 choses à faire à Lille", "activités Lille 2026", "sorties Lille", "que faire à Lille", "Vieux-Lille visiteurs Braderie"],
+  },
+  {
+    slug: "10-choses-a-faire-a-grenoble-2026",
+    title: "10 choses à faire à Grenoble (la capitale des Alpes accessible)",
+    metaTitle: "10 choses à faire à Grenoble 2026 — activités montagne et vie locale",
+    metaDesc: "Bastille, Vercors, vie étudiante et Musée de Grenoble : 10 activités à Grenoble pour vivre la ville entre Alpes et plaine iséroise.",
+    category: "tourisme",
+    emoji: "⛰️",
+    readMinutes: 7,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Grenoble est entourée de montagnes sur trois côtés — Vercors, Chartreuse, Belledonne. Cette géographie unique permet de skier le matin et de travailler l'après-midi. C'est aussi une ville universitaire dense avec un tissu culturel et gastronomique solide.",
+    sections: [
+      {
+        heading: "1. Monter à la Bastille en téléphérique",
+        body: "Les «bulles» (téléphérique à nacelles) montent en 5 minutes depuis le bord de l'Isère. Vue à 360° sur la cuvette grenobloise et les massifs. Descente à pied par les sentiers de la Bastille (30 minutes) pour voir la ville s'approcher progressivement.",
+      },
+      {
+        heading: "2. Randonnée en Vercors (St-Nizier ou Villard-de-Lans)",
+        body: "Le Plateau du Vercors est à 30 minutes de Grenoble. Saint-Nizier, Lans-en-Vercors, Villard-de-Lans — randonnées accessibles, vues sur la ville et les Alpes. L'hiver, ski de fond et raquettes. La Dent de Crolles et la Chartreuse sont de l'autre côté.",
+      },
+      {
+        heading: "3. Musée de Grenoble",
+        body: "L'un des meilleurs musées de beaux-arts de France en dehors de Paris. Collections allant de l'Antiquité à l'art contemporain — Rubens, Matisse, Picasso, Soutine. Donation Agutte-Sembat exceptionelle. Gratuit le premier dimanche du mois.",
+      },
+      {
+        heading: "4. Marché Victor Hugo un samedi matin",
+        body: "Halle couverte centrale. Fromages des Alpes (beaufort, reblochon, gruyère), charcuterie savoyarde, légumes des plaines de l'Isère et de la Drôme. Ambiance halle de marché typique du centre-est français. Cafés-comptoir autour.",
+      },
+      {
+        heading: "5. Vélo sur les bords de l'Isère et de la Drac",
+        body: "Grenoble dispose d'un réseau de pistes cyclables parmi les plus denses de France. La piste de l'Isère remonte vers Vizille d'un côté, vers Grenoble-Alpes Métropole de l'autre. Plat, rapide, traversée de zones naturelles inattendues pour une ville.",
+      },
+      {
+        heading: "6. Soirée dans le quartier Saint-Bruno ou Championnet",
+        body: "Saint-Bruno est le quartier commerçant populaire avec son marché plein-air quotidien. Championnet est plus résidentiel et calme. Les deux ont une concentration de restaurants de toutes origines et de bars à vins accessibles.",
+      },
+      {
+        heading: "7. Journée à ski à l'Alpe d'Huez ou Chamrousse",
+        body: "Chamrousse est à 30 minutes de Grenoble — premier domaine skiable accessible le soir après le travail. L'Alpe d'Huez est à 1h pour un domaine de haute altitude (100 pistes, 3330 m). Les Grenoblois skient sur un budget normal, hors vacances.",
+      },
+      {
+        heading: "8. Visite du Synchrotron de Grenoble (ESRF)",
+        body: "Grenoble est une capitale européenne de la recherche scientifique — ILL, ESRF, CEA. L'ESRF (Synchrotron européen) propose des journées portes ouvertes annuelles. C'est l'un des accélérateurs de particules les plus puissants du monde.",
+      },
+      {
+        heading: "9. Fondue ou raclette dans un chalet du Vercors",
+        body: "Les auberges de montagne du Vercors et de Chartreuse servent fondues et raclettes avec du fromage local d'alpage. Moins cher qu'en Savoie, aussi qualitatif. Ambiance authentique à moins d'une heure de route.",
+      },
+      {
+        heading: "10. Traversée nocturne de l'Isère à pied",
+        body: "Les passerelles piétonnes sur l'Isère offrent des vues nocturnes sur la Bastille illuminée et les massifs enneigés l'hiver. La passerelle de la Résistance et le pont de la Citadelle sont les meilleurs points de vue. Grenoble est une belle ville de nuit.",
+      },
+    ],
+    relatedCities: ["grenoble"],
+    relatedGuides: [
+      "grenoble-vs-chambery-comparatif-2025",
+      "quitter-grenoble-guide-2026",
+    ],
+    tags: ["10 choses à faire à Grenoble", "activités Grenoble 2026", "sorties Grenoble", "que faire à Grenoble", "Alpes Grenoble randonnée ski"],
+  },
+  {
+    slug: "10-choses-a-faire-a-rouen-2026",
+    title: "10 choses à faire à Rouen (la cité aux cent clochers)",
+    metaTitle: "10 choses à faire à Rouen 2026 — activités culturelles et sorties",
+    metaDesc: "Cathédrale, colombages médiévaux, Armada et bords de Seine : 10 activités à Rouen pour découvrir la capitale normande au-delà de Jeanne d'Arc.",
+    category: "tourisme",
+    emoji: "⚜️",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Rouen est à 1h20 de Paris en train et reste une ville sous-visitée en dehors des circuits Monet/Jeanne d'Arc. Sa cathédrale gothique, ses quartiers médiévaux et ses bords de Seine en font pourtant l'une des villes les plus attachantes de Normandie.",
+    sections: [
+      {
+        heading: "1. La Cathédrale de Rouen — façade et intérieur",
+        body: "Rendue célèbre par la série de peintures de Monet (1892-1894), la cathédrale gothique de Rouen est l'une des plus hautes de France. L'intérieur, avec ses vitraux du XIIIe siècle et ses gisants plantagenêts, est saisissant. Son portail flamamboyant est unique.",
+      },
+      {
+        heading: "2. Quartier médiéval et rue du Gros-Horloge",
+        body: "Le Gros-Horloge est une horloge astronomique du XVIe siècle enjambant la rue du même nom. Tout le quartier autour — Rue Martainville, Place du Vieux-Marché (où Jeanne d'Arc fut brûlée) — conserve des colombages des XVe et XVIe siècles.",
+      },
+      {
+        heading: "3. Musée des Beaux-Arts de Rouen",
+        body: "Un des musées régionaux les plus riches de France — Caravage, Rubens, Géricault, Delacroix, Monet, Sisley. La collection normande est particulièrement forte, avec des œuvres de Poussin et de l'école de Rouen. Entrée gratuite certains jours.",
+      },
+      {
+        heading: "4. Armada de Rouen (événement bisannuel)",
+        body: "Tous les 5-6 ans, les plus grands voiliers du monde remontent la Seine jusqu'à Rouen. L'Armada (prochaine édition 2028 environ) est l'un des plus grands rassemblements maritimes au monde. Les quais de Seine sont envahis pendant une semaine.",
+      },
+      {
+        heading: "5. Bords de Seine à Vélo vers les boucles normandes",
+        body: "La Véloscénie relie Paris à Rouen à Mont-Saint-Michel. Depuis Rouen, les boucles de Seine vers Jumièges et l'abbaye de Saint-Wandrille proposent des sorties cyclistes de 30 à 60 km avec vue sur la Seine et ses falaises calcaires.",
+      },
+      {
+        heading: "6. Marché du Vieux-Marché un samedi matin",
+        body: "Le marché de la Place du Vieux-Marché est animé le matin du samedi — légumes normands, fromages (camembert, livarot, neufchâtel), cidres et calvados. Ambiance commerçante dans un cadre historique marqué.",
+      },
+      {
+        heading: "7. Visite de l'Abbaye de Jumièges",
+        body: "À 30 km de Rouen, les ruines de l'abbaye bénédictine de Jumièges (VIIe-XIe siècles) sont parmi les plus belles ruines médiévales de France. Accessible en voiture ou par ferry sur la Seine. Cadre romantique en toute saison.",
+      },
+      {
+        heading: "8. La rive gauche de Rouen (Saint-Sever)",
+        body: "Moins touristique, la rive gauche a connu une transformation récente. Bibliothèque régionale, salles de spectacle, bars et restaurants plus abordables. La vue sur la cathédrale et les quais depuis les ponts est la meilleure de la ville.",
+      },
+      {
+        heading: "9. Soirée au 106 ou au Hangar 23",
+        body: "Le 106 est la salle de musiques actuelles de Rouen — programmation nationale et internationale à des tarifs accessibles. Le Hangar 23 est un espace de spectacles et événements dans une ancienne infrastructure portuaire.",
+      },
+      {
+        heading: "10. Excursion aux falaises d'Étretat",
+        body: "À 1h de Rouen, les falaises d'Étretat sont l'un des sites naturels les plus photographiés de France. L'accès est libre par les sentiers du littoral. Arrivez tôt — les parkings saturent dès 10h en été.",
+      },
+    ],
+    relatedCities: ["rouen"],
+    relatedGuides: [
+      "normandie-rouen-caen-le-havre-guide-2025",
+      "caen-vs-rouen-comparatif-2026",
+    ],
+    tags: ["10 choses à faire à Rouen", "activités Rouen 2026", "sorties Rouen", "que faire à Rouen", "cathédrale Rouen Normandie visiteurs"],
+  },
+  {
+    slug: "10-choses-a-faire-a-dijon-2026",
+    title: "10 choses à faire à Dijon (la capitale bourguignonne sous-estimée)",
+    metaTitle: "10 choses à faire à Dijon 2026 — activités et gastronomie locale",
+    metaDesc: "Moutarde, vins de Bourgogne, Palais des Ducs et Route des Grands Crus : 10 activités à Dijon pour découvrir la ville autrement qu'en transit.",
+    category: "tourisme",
+    emoji: "🍷",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Dijon est souvent traversée sans être visitée. C'est une erreur : la capitale bourguignonne a un centre médiéval et Renaissance remarquable, une gastronomie légendaire et un accès immédiat aux plus grands vignobles du monde.",
+    sections: [
+      {
+        heading: "1. Palais des Ducs et Tour Philippe le Bon",
+        body: "Le Palais des Ducs de Bourgogne domine la Place de la Libération. La Tour Philippe le Bon (316 marches) offre une vue sur les toits de tuiles vernissées caractéristiques de Bourgogne. Le musée des Beaux-Arts à l'intérieur est gratuit et exceptionnel.",
+      },
+      {
+        heading: "2. La chouette de Dijon (circuit des 1001 chouettes)",
+        body: "Dijon a installé 1001 statuettes de chouettes dans ses ruelles médiévales. La chercher est un prétexte parfait pour explorer le centre historique. La chouette de pierre sculptée sur l'église Notre-Dame (XIIIe siècle) est le porte-bonheur de la ville.",
+      },
+      {
+        heading: "3. Marché des Halles un samedi matin",
+        body: "La Halle Victor Hugo, conçue par Gustave Eiffel, abrite chaque samedi le marché de Dijon — escargots de Bourgogne, fromages d'époisses et comté, vins de la Côte d'Or, moutardes aromatisées. Le paradis gastronomique bourguignon sous une charpente métallique.",
+      },
+      {
+        heading: "4. Route des Grands Crus (à vélo)",
+        body: "La Route des Grands Crus longe 37 km de vignobles classés UNESCO entre Dijon et Santenay. Gevrey-Chambertin, Chambolle-Musigny, Vougeot, Vosne-Romanée — les noms de chaque village sont une leçon de géographie viticole. Location de vélos à Dijon.",
+      },
+      {
+        heading: "5. Dégustation de vins de Bourgogne à la Cité Internationale de la Gastronomie",
+        body: "Inaugurée dans l'ancien hôpital général du XVe siècle, la Cité propose expositions, restaurant étoilé, caves de dégustation et cours de cuisine. L'architecture du bâtiment, sur 11 000 m² en plein centre, est spectaculaire.",
+      },
+      {
+        heading: "6. Kir royal à la terrasse d'un café",
+        body: "Le kir (vin blanc et crème de cassis de Dijon) a été inventé par le chanoine Kir, maire de la ville. Le kir royal remplace le blanc par le champagne. Les terrasses de la Place de la Libération sont le cadre idéal pour cette dégustation locale incontournable.",
+      },
+      {
+        heading: "7. Musée des Beaux-Arts de Dijon",
+        body: "Installé dans les ailes du Palais des Ducs, c'est l'un des plus grands musées de France — collections de 125 000 œuvres couvrant 5000 ans d'histoire. Entrée gratuite. Les tombeaux des Ducs de Bourgogne sont parmi les plus belles œuvres de sculpture gothique.",
+      },
+      {
+        heading: "8. Randonnée en forêt de Cîteaux ou sur les hauteurs de la Côte",
+        body: "La Forêt de Cîteaux (abbaye cistercienne fondée en 1098) est à 20 minutes de Dijon. La Côte viticole offre des sentiers de crête avec vues sur les vignes et la plaine de Saône. Deux ambiances opposées, accessibles dans la journée.",
+      },
+      {
+        heading: "9. Bœuf bourguignon dans un bistrot local",
+        body: "Le vrai bœuf bourguignon se fait avec du pinot noir de la Côte d'Or et mijote 3 heures. Cherchez les restaurants qui servent sur ardoise le midi — les établissements touristiques de la Place de la Libération sont souvent les moins authentiques.",
+      },
+      {
+        heading: "10. Soirée dans le quartier de la Place Émile-Zola",
+        body: "Le quartier Zola est le cœur nocturne de Dijon — bars à bières belges, caves à vin, concerts, restaurants du monde. Ambiance estudiantine (université de Bourgogne à 2 km), prix accessibles, ouvert tard.",
+      },
+    ],
+    relatedCities: ["dijon"],
+    relatedGuides: [
+      "dijon-vs-besancon-comparatif-2025",
+      "dijon-vs-lyon-comparatif-2026",
+    ],
+    tags: ["10 choses à faire à Dijon", "activités Dijon 2026", "sorties Dijon", "que faire à Dijon", "Route des Grands Crus Dijon visiteurs"],
+  },
+  {
+    slug: "10-choses-a-faire-a-metz-2026",
+    title: "10 choses à faire à Metz (la cité de lumière méconnue)",
+    metaTitle: "10 choses à faire à Metz 2026 — activités et sorties locales",
+    metaDesc: "Centre Pompidou-Metz, cathédrale lumière, Moselle et gastronomie lorraine : 10 activités à Metz pour découvrir la capitale lorraine.",
+    category: "tourisme",
+    emoji: "🏛️",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Metz est l'une des villes françaises les plus méconnues du grand public. Sa cathédrale aux vitraux de Chagall, son Centre Pompidou et ses bords de Moselle en font une étape incontournable du Grand Est.",
+    sections: [
+      {
+        heading: "1. Cathédrale Saint-Étienne — les vitraux de Chagall",
+        body: "La cathédrale de Metz est surnommée «la Lanterne du Bon Dieu» : 6500 m² de vitraux, dont certains de Marc Chagall (XIXe-XXe siècles côte à côte avec du XIIIe siècle). La plus grande surface de vitraux d'une cathédrale en Europe. Entrée libre.",
+      },
+      {
+        heading: "2. Centre Pompidou-Metz",
+        body: "Antenne décentralisée du Centre Pompidou (ouverture 2010), c'est l'un des plus grands centres d'art contemporain de France hors Paris. Architecture de Shigeru Ban (tente hexagonale en bois et fibre de verre). Expositions temporaires et collections permanentes de premier rang.",
+      },
+      {
+        heading: "3. Promenade sur les bords de Moselle et l'Île du Saulcy",
+        body: "Metz est construite sur des îles de la Moselle. L'Île du Saulcy abrite l'université et ses parcs, le jardin botanique, et les rives aménagées pour la promenade et le vélo. Vue sur la cathédrale depuis les quais — l'un des panoramas urbains les plus élégants du Grand Est.",
+      },
+      {
+        heading: "4. Quartier impérial (Nouveau Quartier)",
+        body: "Construit après l'annexion allemande de 1871, le quartier impérial est une démonstration d'architecture allemande wilhelmienne en France. Post bureau, gare, musées — tout est surdimensionné et symbolique. Un quartier unique en France, bien conservé.",
+      },
+      {
+        heading: "5. Marché couvert les Halles de Metz",
+        body: "Halle du XIXe siècle en fonte, rénovée. Marché le mardi, jeudi, vendredi et samedi. Quiche lorraine, mirabelles de Lorraine, fromages de Munster, madeleines de Commercy. La gastronomie lorraine est moins connue qu'alsacienne mais tout aussi précise.",
+      },
+      {
+        heading: "6. Soirée dans le quartier Saint-Jacques",
+        body: "Le quartier médiéval de Metz autour de la Place Saint-Jacques et de la Place d'Armes. Restaurants gastronomiques, bars à vins lorrains, terrasses estivales. Le quartier bénéficie de la lumière de la cathédrale éclairée le soir — ambiance remarquable.",
+      },
+      {
+        heading: "7. Plan d'eau de la Moselle et kayak",
+        body: "La Moselle se prête au kayak en ville même. Plusieurs clubs proposent des sorties depuis le centre. L'été, les bords de Moselle sont investis par les habitants — pétanque, pique-nique, jogging.",
+      },
+      {
+        heading: "8. Musée de la Cour d'Or",
+        body: "Musée municipal installé dans les thermes gallo-romains de Metz (IIe-IVe siècles). Les vestiges archéologiques, médiévaux et les collections des arts décoratifs lorrains occupent un ensemble de bâtiments imbriqués dans 2000 ans d'histoire.",
+      },
+      {
+        heading: "9. Journée à Verdun",
+        body: "À 1h de Metz, Verdun est le mémorial de la Grande Guerre le plus important d'Europe — Ossuaire de Douaumont, Fort Vaux, champs de bataille. Visite nécessairement lente et silencieuse. Aucun autre site n'exprime aussi directement le coût du conflit.",
+      },
+      {
+        heading: "10. Mirabelles et quiche au marché de plein air",
+        body: "La mirabelle de Lorraine (AOP, 70% de la production mondiale) est récoltée en août. Les marchés de plein air proposent confitures, tartes, mirabelles fraîches et eau-de-vie. La quiche lorraine au lard fumé, telle qu'elle se fait localement, n'a rien à voir avec ses copies.",
+      },
+    ],
+    relatedCities: ["metz"],
+    relatedGuides: [
+      "metz-vs-nancy-comparatif-2025",
+      "vivre-en-lorraine-metz-nancy-thionville-2026",
+    ],
+    tags: ["10 choses à faire à Metz", "activités Metz 2026", "sorties Metz", "que faire à Metz", "Centre Pompidou Metz cathédrale visiteurs"],
+  },
+  {
+    slug: "10-choses-a-faire-a-angers-2026",
+    title: "10 choses à faire à Angers (la douceur angevine n'est pas un mythe)",
+    metaTitle: "10 choses à faire à Angers 2026 — activités et sorties locales",
+    metaDesc: "Château d'Angers, Maine et vignes d'Anjou : 10 activités concrètes à Angers pour vivre la capitale de l'Anjou au quotidien.",
+    category: "tourisme",
+    emoji: "🏰",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Angers est une ville agréable et souvent sous-évaluée dans les comparatifs nationaux. Qualité de vie élevée, prix raisonnables, accès au Val de Loire UNESCO, vignobles d'Anjou à portée — et pourtant peu de tourisme de masse.",
+    sections: [
+      {
+        heading: "1. Château d'Angers et la Tapisserie de l'Apocalypse",
+        body: "Le château à 17 tours noires domine la Maine. À l'intérieur, la Tapisserie de l'Apocalypse (XIVe siècle, 140 mètres de long) est l'une des plus grandes œuvres médiévales conservées au monde. Majestueuse et étrangement moderne.",
+      },
+      {
+        heading: "2. Quartier de la Doutre et bords de Maine",
+        body: "La Doutre (rive gauche) est le quartier bohème d'Angers — maisons troglodytiques, ateliers d'artistes, restaurants bio, bars à vins naturels. Les berges de la Maine sont aménagées pour la promenade et le vélo.",
+      },
+      {
+        heading: "3. Marché de la Place du Ralliement",
+        body: "Le marché du centre d'Angers se tient plusieurs fois par semaine. Vins d'Anjou, fromages de chèvre du Maine-et-Loire, rillauds (spécialité locale), champignons de Paris (cultivés dans les caves du Val de Loire).",
+      },
+      {
+        heading: "4. Vélo sur les bords de Loire vers Saumur",
+        body: "La Loire à Vélo, itinéraire cyclable classé UNESCO, longe le fleuve entre Angers et Saumur (60 km aller) à travers les châteaux, les vignes et les caves troglodytiques. Accessible depuis le centre d'Angers.",
+      },
+      {
+        heading: "5. Dégustation de Muscadet d'Anjou chez un vigneron",
+        body: "L'Anjou produit des vins blancs secs (Savennières), liquoreux (Coteaux du Layon), rosés (Rosé d'Anjou) et rouges (Saumur-Champigny). Les vignerons de la Vallée du Layon (30 minutes d'Angers) proposent des dégustations directes à prix domaine.",
+      },
+      {
+        heading: "6. Musée des Beaux-Arts d'Angers",
+        body: "Le musée, installé dans l'hôtel Pincé (XVIe siècle), possède une collection de peintures du Moyen Âge à nos jours et un exceptionnel fonds de peinture japonaise du XIXe siècle. L'architecture Renaissance du bâtiment est aussi un sujet de visite.",
+      },
+      {
+        heading: "7. Soirée dans le quartier Saint-Michel",
+        body: "Le quartier Saint-Michel, avec sa place animée, ses bars et ses restaurants indépendants, est le cœur de la vie nocturne angevine. Prix abordables, ambiance estudiantine mais pas exclusive, terrasses ouvertes 9 mois sur 12.",
+      },
+      {
+        heading: "8. Jardins du Château et parc Balzac",
+        body: "Les jardins du Château offrent une vue sur la Maine et la vieille ville. Le parc Balzac, sur l'île Saint-Aubin, est un espace naturel en pleine ville traversé par un bras de Maine — balade, vélo, pique-nique.",
+      },
+      {
+        heading: "9. Abbaye de Fontevraud (30 minutes)",
+        body: "L'abbaye royale de Fontevraud est la plus grande abbaye médiévale conservée d'Europe. Gisants des Plantagenêts (dont Richard Cœur de Lion et Aliénor d'Aquitaine), abbatiale romane, cuisine troglodytique. Hôtel-restaurant de luxe dans l'enceinte.",
+      },
+      {
+        heading: "10. Festival Premiers Plans (janvier) ou Trans-Musicales d'Angers",
+        body: "Premiers Plans est le festival du cinéma européen d'Angers (janvier) — projections dans le château et les salles du centre. Angers a aussi une vie culturelle dense avec le Grand Théâtre et le Quai (salle de spectacle sur les bords de Maine).",
+      },
+    ],
+    relatedCities: ["angers"],
+    relatedGuides: [
+      "angers-vs-nantes-comparatif-2025",
+      "teletravailler-depuis-pays-de-la-loire-guide-2026",
+    ],
+    tags: ["10 choses à faire à Angers", "activités Angers 2026", "sorties Angers", "que faire à Angers", "Château Angers Loire visiteurs"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
