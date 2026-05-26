@@ -19,6 +19,7 @@
 import { readFileSync, writeFileSync, existsSync, readdirSync } from "fs";
 import { fileURLToPath } from "url";
 import { dirname, join, extname } from "path";
+import sharp from "sharp";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const QUEUE_FILE = join(root, "scripts", "instagram-queue.json");
@@ -89,10 +90,14 @@ Comparez toutes les villes sur mavilleideale.fr
 
 #Lyon #Bordeaux #VieEnFrance #QualitéDeVie #Relocation #OùVivre #ImmobilierFrance`,
     slides: [
-      { imageUrl: comparerOg("lyon", "bordeaux"), altText: "Lyon vs Bordeaux — comparatif qualité de vie" },
-      { imageUrl: cityOg("lyon"), altText: "Lyon — score 8.0/10" },
-      { imageUrl: cityOg("bordeaux"), altText: "Bordeaux — score 8.1/10" },
-      { imageUrl: comparerOg("lyon", "bordeaux"), altText: "Verdict : Lyon ou Bordeaux ?" },
+      { imageUrl: comparerOg("lyon", "bordeaux"), altText: "Lyon vs Bordeaux — comparatif qualité de vie",
+        text: { heading: "LYON VS BORDEAUX", subheading: "Laquelle vous correspond ?" } },
+      { imageUrl: cityOg("lyon"), altText: "Lyon — score 8.0/10",
+        text: { heading: "LYON — 8.0/10", subheading: "Gastronomie · Culture · Transports", body: ["Points forts : culture, métro, emploi", "Point faible : canicules & logement"] } },
+      { imageUrl: cityOg("bordeaux"), altText: "Bordeaux — score 8.1/10",
+        text: { heading: "BORDEAUX — 8.1/10", subheading: "Vélo · Douceur · Gastronomie", body: ["Points forts : qualité de vie, vélo", "Point faible : prix immobilier +60%"] } },
+      { imageUrl: comparerOg("lyon", "bordeaux"), altText: "Verdict : Lyon ou Bordeaux ?",
+        text: { heading: "VOTRE VERDICT ?", subheading: "Comparez sur mavilleideale.fr", accent: "BATTLE" } },
     ],
   },
   {
@@ -109,10 +114,14 @@ Les deux dament le pion à Paris sur le rapport qualité/prix. Mais laquelle vou
 
 #Nantes #Rennes #PaysDeLaLoire #Bretagne #QualitéDeVie #Relocation`,
     slides: [
-      { imageUrl: comparerOg("nantes", "rennes"), altText: "Nantes vs Rennes — comparatif" },
-      { imageUrl: cityOg("nantes"), altText: "Nantes — score 8.3/10" },
-      { imageUrl: cityOg("rennes"), altText: "Rennes — score 8.2/10" },
-      { imageUrl: comparerOg("nantes", "rennes"), altText: "Verdict : Nantes ou Rennes ?" },
+      { imageUrl: comparerOg("nantes", "rennes"), altText: "Nantes vs Rennes — comparatif",
+        text: { heading: "NANTES VS RENNES", subheading: "La bataille de l'Ouest !" } },
+      { imageUrl: cityOg("nantes"), altText: "Nantes — score 8.3/10",
+        text: { heading: "NANTES — 8.3/10", subheading: "Culture · Tram · Métropole", body: ["Points forts : transports, emploi", "Point faible : météo & logement tendu"] } },
+      { imageUrl: cityOg("rennes"), altText: "Rennes — score 8.2/10",
+        text: { heading: "RENNES — 8.2/10", subheading: "Vélo · Universités · Qualité de vie", body: ["Points forts : vélo, coût maîtrisé", "Point faible : pluie & emploi hors tech"] } },
+      { imageUrl: comparerOg("nantes", "rennes"), altText: "Verdict : Nantes ou Rennes ?",
+        text: { heading: "VOTRE VERDICT ?", subheading: "Comparez sur mavilleideale.fr", accent: "BATTLE" } },
     ],
   },
   {
@@ -129,10 +138,14 @@ Deux villes du Sud, deux ambiances radicalement différentes.
 
 #Marseille #Nice #PACA #CôteDAzur #SudDeLaFrance #QualitéDeVie`,
     slides: [
-      { imageUrl: comparerOg("marseille", "nice"), altText: "Marseille vs Nice — comparatif" },
-      { imageUrl: cityOg("marseille"), altText: "Marseille — score 7.0/10" },
-      { imageUrl: cityOg("nice"), altText: "Nice — score 7.8/10" },
-      { imageUrl: comparerOg("marseille", "nice"), altText: "Verdict : Marseille ou Nice ?" },
+      { imageUrl: comparerOg("marseille", "nice"), altText: "Marseille vs Nice — comparatif",
+        text: { heading: "MARSEILLE VS NICE", subheading: "La Méditerranée en duel" } },
+      { imageUrl: cityOg("marseille"), altText: "Marseille — score 7.0/10",
+        text: { heading: "MARSEILLE — 7.0/10", subheading: "Mer · Soleil · Culture", body: ["Points forts : authenticité, mer", "Point faible : sécurité & inégalités"] } },
+      { imageUrl: cityOg("nice"), altText: "Nice — score 7.8/10",
+        text: { heading: "NICE — 7.8/10", subheading: "300 jours de soleil · Côte d'Azur", body: ["Points forts : météo, culture", "Point faible : coût de vie élevé"] } },
+      { imageUrl: comparerOg("marseille", "nice"), altText: "Verdict : Marseille ou Nice ?",
+        text: { heading: "VOTRE VERDICT ?", subheading: "Comparez sur mavilleideale.fr", accent: "BATTLE" } },
     ],
   },
   {
@@ -149,10 +162,14 @@ Les deux grandissent vite. Laquelle a encore de la place pour vous ?
 
 #Toulouse #Montpellier #OccitanieFrance #QualitéDeVie #Etudiants #Relocation`,
     slides: [
-      { imageUrl: comparerOg("toulouse", "montpellier"), altText: "Toulouse vs Montpellier — comparatif" },
-      { imageUrl: cityOg("toulouse"), altText: "Toulouse — score 7.8/10" },
-      { imageUrl: cityOg("montpellier"), altText: "Montpellier — score 7.9/10" },
-      { imageUrl: comparerOg("toulouse", "montpellier"), altText: "Verdict : Toulouse ou Montpellier ?" },
+      { imageUrl: comparerOg("toulouse", "montpellier"), altText: "Toulouse vs Montpellier — comparatif",
+        text: { heading: "TOULOUSE VS MONTPELLIER", subheading: "Duel des villes du Sud" } },
+      { imageUrl: cityOg("toulouse"), altText: "Toulouse — score 7.8/10",
+        text: { heading: "TOULOUSE — 7.8/10", subheading: "Aerospatiale · Etudiants · Soleil", body: ["Points forts : emploi, soleil", "Point faible : transports & trafic"] } },
+      { imageUrl: cityOg("montpellier"), altText: "Montpellier — score 7.9/10",
+        text: { heading: "MONTPELLIER — 7.9/10", subheading: "Mer · Jeunesse · Dynamisme", body: ["Points forts : soleil, etudiants", "Point faible : securite & loyers"] } },
+      { imageUrl: comparerOg("toulouse", "montpellier"), altText: "Verdict : Toulouse ou Montpellier ?",
+        text: { heading: "VOTRE VERDICT ?", subheading: "Comparez sur mavilleideale.fr", accent: "BATTLE" } },
     ],
   },
   {
@@ -169,10 +186,14 @@ Pour les amoureux des Alpes, le choix n'est pas évident.
 
 #Annecy #Grenoble #AuvergneRhôneAlpes #Alpes #QualitéDeVie`,
     slides: [
-      { imageUrl: comparerOg("annecy", "grenoble"), altText: "Annecy vs Grenoble — comparatif" },
-      { imageUrl: cityOg("annecy"), altText: "Annecy — score 8.6/10" },
-      { imageUrl: cityOg("grenoble"), altText: "Grenoble — score 7.7/10" },
-      { imageUrl: comparerOg("annecy", "grenoble"), altText: "Verdict : Annecy ou Grenoble ?" },
+      { imageUrl: comparerOg("annecy", "grenoble"), altText: "Annecy vs Grenoble — comparatif",
+        text: { heading: "ANNECY VS GRENOBLE", subheading: "Haute-Savoie vs Isere — les Alpes en duel" } },
+      { imageUrl: cityOg("annecy"), altText: "Annecy — score 8.6/10",
+        text: { heading: "ANNECY — 8.6/10", subheading: "Lac · Alpes · Securite", body: ["Points forts : nature 9.8, securite 8.7", "Point faible : prix immobilier parisiens"] } },
+      { imageUrl: cityOg("grenoble"), altText: "Grenoble — score 7.7/10",
+        text: { heading: "GRENOBLE — 7.7/10", subheading: "Recherche · Velo · Montagne", body: ["Points forts : nature, universites", "Point faible : pollution hiver & securite"] } },
+      { imageUrl: comparerOg("annecy", "grenoble"), altText: "Verdict : Annecy ou Grenoble ?",
+        text: { heading: "VOTRE VERDICT ?", subheading: "Comparez sur mavilleideale.fr", accent: "BATTLE" } },
     ],
   },
   {
@@ -189,10 +210,14 @@ Nancy offre un rapport qualité/prix imbattable en Grand Est.
 
 #Strasbourg #Nancy #GrandEst #Alsace #Lorraine #QualitéDeVie`,
     slides: [
-      { imageUrl: comparerOg("strasbourg", "nancy"), altText: "Strasbourg vs Nancy — comparatif" },
-      { imageUrl: cityOg("strasbourg"), altText: "Strasbourg — score 8.0/10" },
-      { imageUrl: cityOg("nancy"), altText: "Nancy — score 7.5/10" },
-      { imageUrl: comparerOg("strasbourg", "nancy"), altText: "Verdict : Strasbourg ou Nancy ?" },
+      { imageUrl: comparerOg("strasbourg", "nancy"), altText: "Strasbourg vs Nancy — comparatif",
+        text: { heading: "STRASBOURG VS NANCY", subheading: "Grand Est — culture vs budget" } },
+      { imageUrl: cityOg("strasbourg"), altText: "Strasbourg — score 8.0/10",
+        text: { heading: "STRASBOURG — 8.0/10", subheading: "Europe · Gastronomie · Culture", body: ["Points forts : culture, transports", "Point faible : hiver & logement cher"] } },
+      { imageUrl: cityOg("nancy"), altText: "Nancy — score 7.5/10",
+        text: { heading: "NANCY — 7.5/10", subheading: "Place Stanislas · Budget · Universites", body: ["Points forts : cout bas, culture", "Point faible : emploi & attractivite"] } },
+      { imageUrl: comparerOg("strasbourg", "nancy"), altText: "Verdict : Strasbourg ou Nancy ?",
+        text: { heading: "VOTRE VERDICT ?", subheading: "Comparez sur mavilleideale.fr", accent: "BATTLE" } },
     ],
   },
   {
@@ -209,10 +234,14 @@ Petite ville zen ou grande ville dynamique ?
 
 #LaRochelle #Nantes #CharenteMaritime #Atlantic #QualitéDeVie`,
     slides: [
-      { imageUrl: comparerOg("la-rochelle", "nantes"), altText: "La Rochelle vs Nantes — comparatif" },
-      { imageUrl: cityOg("la-rochelle"), altText: "La Rochelle — score 7.8/10" },
-      { imageUrl: cityOg("nantes"), altText: "Nantes — score 8.3/10" },
-      { imageUrl: comparerOg("la-rochelle", "nantes"), altText: "Verdict : La Rochelle ou Nantes ?" },
+      { imageUrl: comparerOg("la-rochelle", "nantes"), altText: "La Rochelle vs Nantes — comparatif",
+        text: { heading: "LA ROCHELLE VS NANTES", subheading: "Petite ville zen ou grande metropole ?" } },
+      { imageUrl: cityOg("la-rochelle"), altText: "La Rochelle — score 7.8/10",
+        text: { heading: "LA ROCHELLE — 7.8/10", subheading: "Mer · Velo · Taille humaine", body: ["Points forts : ocean, qualite de vie", "Point faible : emploi & logement tendu"] } },
+      { imageUrl: cityOg("nantes"), altText: "Nantes — score 8.3/10",
+        text: { heading: "NANTES — 8.3/10", subheading: "Metropole · Emploi · Culture", body: ["Points forts : transports, diversite", "Point faible : meteo & marche tendu"] } },
+      { imageUrl: comparerOg("la-rochelle", "nantes"), altText: "Verdict : La Rochelle ou Nantes ?",
+        text: { heading: "VOTRE VERDICT ?", subheading: "Comparez sur mavilleideale.fr", accent: "BATTLE" } },
     ],
   },
   {
@@ -229,10 +258,14 @@ Lyon gagne sur presque tout, sauf le réseau pro.
 
 #Paris #Lyon #QuitParis #Relocation #VieEnProvince #QualitéDeVie`,
     slides: [
-      { imageUrl: comparerOg("paris", "lyon"), altText: "Paris vs Lyon — comparatif" },
-      { imageUrl: cityOg("paris"), altText: "Paris — score 6.8/10" },
-      { imageUrl: cityOg("lyon"), altText: "Lyon — score 8.0/10" },
-      { imageUrl: comparerOg("paris", "lyon"), altText: "Verdict : Paris ou Lyon ?" },
+      { imageUrl: comparerOg("paris", "lyon"), altText: "Paris vs Lyon — comparatif",
+        text: { heading: "PARIS VS LYON", subheading: "Quitter la capitale — ca vaut quoi ?" } },
+      { imageUrl: cityOg("paris"), altText: "Paris — score 6.8/10",
+        text: { heading: "PARIS — 6.8/10", subheading: "Emploi · Culture · Transports", body: ["Points forts : reseau pro, culture", "Point faible : cout extreme & densite"] } },
+      { imageUrl: cityOg("lyon"), altText: "Lyon — score 8.0/10",
+        text: { heading: "LYON — 8.0/10", subheading: "Gastronomie · Metro · Alpes a 1h", body: ["Points forts : qualite vie, emploi", "Point faible : canicules & logement"] } },
+      { imageUrl: comparerOg("paris", "lyon"), altText: "Verdict : Paris ou Lyon ?",
+        text: { heading: "VOTRE VERDICT ?", subheading: "Comparez sur mavilleideale.fr", accent: "BATTLE" } },
     ],
   },
 
@@ -254,10 +287,14 @@ Marseille attire. Mais avant de signer, voilà les vrais points noirs :
 
 #Marseille #RedFlags #VéritéSurMarseille #BienVivre #Relocation`,
     slides: [
-      { imageUrl: cityOg("marseille"), altText: "Red flags de Marseille" },
-      { imageUrl: cityOg("marseille"), altText: "Marseille — sécurité" },
-      { imageUrl: cityOg("marseille"), altText: "Marseille — transports" },
-      { imageUrl: cityOg("marseille"), altText: "Marseille — inégalités" },
+      { imageUrl: cityOg("marseille"), altText: "Red flags de Marseille",
+        text: { heading: "RED FLAGS", subheading: "Marseille — ce qu'on ne vous dit pas", accent: "ATTENTION" } },
+      { imageUrl: cityOg("marseille"), altText: "Marseille — sécurité",
+        text: { heading: "SECURITE", subheading: "Score parmi les plus bas de France", body: ["Zones tres contrastees : nord vs sud", "Prudence dans certains quartiers"] } },
+      { imageUrl: cityOg("marseille"), altText: "Marseille — transports",
+        text: { heading: "TRANSPORTS", subheading: "Reseau incomplet, greves frequentes", body: ["Voiture quasi obligatoire hors centre", "Metro limite a 2 lignes"] } },
+      { imageUrl: cityOg("marseille"), altText: "Marseille — inégalités",
+        text: { heading: "MAIS...", subheading: "Mer, soleil, authenticite unique", body: ["Score global 7.0/10 malgre les defis", "mavilleideale.fr/villes/marseille"] } },
     ],
   },
   {
@@ -277,10 +314,14 @@ Belle ville. Oui. Mais il faut savoir dans quoi on s'engage.
 
 #Bordeaux #RedFlags #ImmobilierFrance #QualitéDeVie #VérifiéSurLeDonnées`,
     slides: [
-      { imageUrl: cityOg("bordeaux"), altText: "Red flags de Bordeaux" },
-      { imageUrl: cityOg("bordeaux"), altText: "Bordeaux — prix immobilier" },
-      { imageUrl: cityOg("bordeaux"), altText: "Bordeaux — embouteillages" },
-      { imageUrl: cityOg("bordeaux"), altText: "Bordeaux — canicules" },
+      { imageUrl: cityOg("bordeaux"), altText: "Red flags de Bordeaux",
+        text: { heading: "RED FLAGS", subheading: "Bordeaux — 3 verites qui font mal", accent: "ATTENTION" } },
+      { imageUrl: cityOg("bordeaux"), altText: "Bordeaux — prix immobilier",
+        text: { heading: "PRIX IMMOBILIER", subheading: "+60% en 10 ans", body: ["Les primo-accedants fuis vers la peripherie", "T2 en centre : 900-1200 EUR/mois"] } },
+      { imageUrl: cityOg("bordeaux"), altText: "Bordeaux — embouteillages",
+        text: { heading: "ROCADE", subheading: "Un enfer quotidien", body: ["Sans velo ou tram : voiture incontournable", "Heure de pointe : +45 min de trajet"] } },
+      { imageUrl: cityOg("bordeaux"), altText: "Bordeaux — canicules",
+        text: { heading: "MAIS...", subheading: "8.1/10 — qualite de vie reelle", body: ["Velo, gastronomie, douceur de vivre", "mavilleideale.fr/villes/bordeaux"] } },
     ],
   },
   {
@@ -300,10 +341,14 @@ La ville est jeune, dynamique, ensoleillée — mais pas encore au niveau de ses
 
 #Montpellier #RedFlags #OccitanieFrance #Relocation #VilleDeFrance`,
     slides: [
-      { imageUrl: cityOg("montpellier"), altText: "Red flags de Montpellier" },
-      { imageUrl: cityOg("montpellier"), altText: "Montpellier — sécurité" },
-      { imageUrl: cityOg("montpellier"), altText: "Montpellier — marché locatif" },
-      { imageUrl: cityOg("montpellier"), altText: "Montpellier — infrastructure" },
+      { imageUrl: cityOg("montpellier"), altText: "Red flags de Montpellier",
+        text: { heading: "RED FLAGS", subheading: "Montpellier — soleil oui, mais...", accent: "ATTENTION" } },
+      { imageUrl: cityOg("montpellier"), altText: "Montpellier — sécurité",
+        text: { heading: "SECURITE", subheading: "Certains quartiers tres difficiles", body: ["Score securite en dessous de la moyenne", "Ville qui grossit vite — tensions sociales"] } },
+      { imageUrl: cityOg("montpellier"), altText: "Montpellier — marché locatif",
+        text: { heading: "LOYERS", subheading: "Penurie etudiante + afflux retraites", body: ["Marche locatif sature en septembre", "Loyers en hausse : +20% en 5 ans"] } },
+      { imageUrl: cityOg("montpellier"), altText: "Montpellier — infrastructure",
+        text: { heading: "MAIS...", subheading: "7.9/10 — soleil et dynamisme reels", body: ["35% d'etudiants, Mediterranee a 15 min", "mavilleideale.fr/villes/montpellier"] } },
     ],
   },
   {
@@ -323,10 +368,14 @@ Le rêve méditerranéen a un prix. Avez-vous fait les calculs ?
 
 #Nice #RedFlags #CôteDAzur #ImmobilierFrance #VieEnFrance`,
     slides: [
-      { imageUrl: cityOg("nice"), altText: "Red flags de Nice" },
-      { imageUrl: cityOg("nice"), altText: "Nice — coût de vie" },
-      { imageUrl: cityOg("nice"), altText: "Nice — trafic" },
-      { imageUrl: cityOg("nice"), altText: "Nice — logement" },
+      { imageUrl: cityOg("nice"), altText: "Red flags de Nice",
+        text: { heading: "RED FLAGS", subheading: "Nice — la Cote d'Azur sans le filtre", accent: "ATTENTION" } },
+      { imageUrl: cityOg("nice"), altText: "Nice — coût de vie",
+        text: { heading: "COUT DE VIE", subheading: "Top 5 des villes les plus cheres", body: ["Loyers proches de Paris", "Residence secondaire gonfle les prix"] } },
+      { imageUrl: cityOg("nice"), altText: "Nice — trafic",
+        text: { heading: "TRAFIC", subheading: "Le littoral sature 6 mois/12", body: ["Embouteillages chroniques en saison", "Voiture presque obligatoire hors centre"] } },
+      { imageUrl: cityOg("nice"), altText: "Nice — logement",
+        text: { heading: "MAIS...", subheading: "7.8/10 — 300 jours de soleil", body: ["Mer, culture, art de vivre unique", "mavilleideale.fr/villes/nice"] } },
     ],
   },
   {
@@ -346,10 +395,14 @@ Pour les amoureux des Alpes qui acceptent de ne pas tout avoir.
 
 #Grenoble #RedFlags #Alpes #VieEnFrance #QualitéDeVie`,
     slides: [
-      { imageUrl: cityOg("grenoble"), altText: "Red flags de Grenoble" },
-      { imageUrl: cityOg("grenoble"), altText: "Grenoble — pollution" },
-      { imageUrl: cityOg("grenoble"), altText: "Grenoble — sécurité" },
-      { imageUrl: cityOg("grenoble"), altText: "Grenoble — météo" },
+      { imageUrl: cityOg("grenoble"), altText: "Red flags de Grenoble",
+        text: { heading: "RED FLAGS", subheading: "Grenoble — les Alpes sans les paillettes", accent: "ATTENTION" } },
+      { imageUrl: cityOg("grenoble"), altText: "Grenoble — pollution",
+        text: { heading: "POLLUTION", subheading: "Cuvette alpine — particules fines pieges", body: ["Alertes qualite air regulieres en hiver", "Voiture a eviter les jours rouges"] } },
+      { imageUrl: cityOg("grenoble"), altText: "Grenoble — sécurité",
+        text: { heading: "SECURITE", subheading: "Score en baisse depuis 5 ans", body: ["Certains quartiers centre-ville difficiles", "Vigilance recommandee en soiree"] } },
+      { imageUrl: cityOg("grenoble"), altText: "Grenoble — météo",
+        text: { heading: "MAIS...", subheading: "7.7/10 — nature et recherche au top", body: ["Massifs a portee de velo, 3 universites", "mavilleideale.fr/villes/grenoble"] } },
     ],
   },
 
@@ -371,12 +424,18 @@ Le télétravail change tout. Voici où s'installer si vous ne dépendez plus d'
 
 #Télétravail #RemoteWork #France #QualitéDeVie #OùVivre #NomadeFrançais`,
     slides: [
-      { imageUrl: classementOg("teletravail"), altText: "Top 5 villes pour le télétravail" },
-      { imageUrl: cityOg("annecy"), altText: "Annecy — #1 télétravail" },
-      { imageUrl: cityOg("rennes"), altText: "Rennes — #2 télétravail" },
-      { imageUrl: cityOg("la-rochelle"), altText: "La Rochelle — #3 télétravail" },
-      { imageUrl: cityOg("nantes"), altText: "Nantes — #4 télétravail" },
-      { imageUrl: cityOg("bordeaux"), altText: "Bordeaux — #5 télétravail" },
+      { imageUrl: classementOg("teletravail"), altText: "Top 5 villes pour le télétravail",
+        text: { heading: "TOP 5 TELETRAVAIL", subheading: "Les meilleures villes si vous etes libres", accent: "CLASSEMENT" } },
+      { imageUrl: cityOg("annecy"), altText: "Annecy — #1 télétravail",
+        text: { heading: "#1 ANNECY — 8.6/10", subheading: "Nature + securite + fibre = paradis", body: ["Lac, montagne, air pur", "Prix eleves — budget a prevoir"] } },
+      { imageUrl: cityOg("rennes"), altText: "Rennes — #2 télétravail",
+        text: { heading: "#2 RENNES — 8.2/10", subheading: "Velo, universites, cout maitrise", body: ["TGV Paris en 1h25", "Communaute tech dynamique"] } },
+      { imageUrl: cityOg("la-rochelle"), altText: "La Rochelle — #3 télétravail",
+        text: { heading: "#3 LA ROCHELLE — 7.8/10", subheading: "Mer, velo pionnier, taille humaine", body: ["76 000 hab. — tout a pied ou velo", "Iles accessibles le week-end"] } },
+      { imageUrl: cityOg("nantes"), altText: "Nantes — #4 télétravail",
+        text: { heading: "#4 NANTES — 8.3/10", subheading: "Metropole avec fibre partout", body: ["Transports exemplaires, culture riche", "Atlantique a 1h"] } },
+      { imageUrl: cityOg("bordeaux"), altText: "Bordeaux — #5 télétravail",
+        text: { heading: "#5 BORDEAUX — 8.1/10", subheading: "Lifestyle — mais attention aux prix", body: ["Velo roi, gastronomie, douceur", "mavilleideale.fr/classements/teletravail"] } },
     ],
   },
   {
@@ -396,12 +455,18 @@ Forêts, lacs, océan, montagne — ces villes ont tout ça à moins de 30 minut
 
 #Nature #France #GrandAir #QualitéDeVie #Randonnée #VieAuGrand Air`,
     slides: [
-      { imageUrl: classementOg("nature"), altText: "Top 5 villes pour la nature" },
-      { imageUrl: cityOg("annecy"), altText: "Annecy — nature 9.8/10" },
-      { imageUrl: cityOg("grenoble"), altText: "Grenoble — nature et Alpes" },
-      { imageUrl: cityOg("la-rochelle"), altText: "La Rochelle — océan + île" },
-      { imageUrl: cityOg("rennes"), altText: "Rennes — Bretagne verdoyante" },
-      { imageUrl: cityOg("nantes"), altText: "Nantes — Loire et bocage" },
+      { imageUrl: classementOg("nature"), altText: "Top 5 villes pour la nature",
+        text: { heading: "TOP 5 NATURE", subheading: "Forets, lacs, ocean — a moins de 30 min", accent: "CLASSEMENT" } },
+      { imageUrl: cityOg("annecy"), altText: "Annecy — nature 9.8/10",
+        text: { heading: "#1 ANNECY", subheading: "Nature 9.8/10 — meilleur score France", body: ["Lac d'Annecy + Alpes a velo", "Reserve naturelle a 10 min du centre"] } },
+      { imageUrl: cityOg("grenoble"), altText: "Grenoble — nature et Alpes",
+        text: { heading: "#2 GRENOBLE", subheading: "3 massifs alpins, velo roi", body: ["Belledonne, Vercors, Chartreuse", "Ski a 45 min, randonnee a 15 min"] } },
+      { imageUrl: cityOg("la-rochelle"), altText: "La Rochelle — océan + île",
+        text: { heading: "#3 LA ROCHELLE", subheading: "Ocean, ile de Re, marais atlantique", body: ["Kayak, velo, plage — tout accessible", "Faune et flore protegees"] } },
+      { imageUrl: cityOg("rennes"), altText: "Rennes — Bretagne verdoyante",
+        text: { heading: "#4 RENNES", subheading: "Foret de Broceliande, cote a 45 min", body: ["Bocage breton, riviere a velo", "Mont-Saint-Michel a 1h"] } },
+      { imageUrl: cityOg("nantes"), altText: "Nantes — Loire et bocage",
+        text: { heading: "#5 NANTES", subheading: "Loire, vignes, bocage vendeen", body: ["Parc de Procé + Loire en kayak", "mavilleideale.fr/classements/nature"] } },
     ],
   },
   {
@@ -421,12 +486,18 @@ Ces classements sont basés sur les données SSMSI (Ministère de l'Intérieur) 
 
 #Sécurité #France #VieEnFrance #Relocation #MeilleureVille #SSMSI`,
     slides: [
-      { imageUrl: classementOg("securite"), altText: "Top 5 villes les plus sûres" },
-      { imageUrl: cityOg("annecy"), altText: "Annecy — sécurité #1" },
-      { imageUrl: cityOg("rennes"), altText: "Rennes — sécurité #2" },
-      { imageUrl: cityOg("strasbourg"), altText: "Strasbourg — sécurité #3" },
-      { imageUrl: cityOg("nantes"), altText: "Nantes — sécurité #4" },
-      { imageUrl: cityOg("dijon"), altText: "Dijon — sécurité #5" },
+      { imageUrl: classementOg("securite"), altText: "Top 5 villes les plus sûres",
+        text: { heading: "TOP 5 SECURITE", subheading: "Donnees SSMSI — pas des ressentis", accent: "CLASSEMENT" } },
+      { imageUrl: cityOg("annecy"), altText: "Annecy — sécurité #1",
+        text: { heading: "#1 ANNECY", subheading: "Securite 8.7/10 — record national", body: ["Criminalite parmi les plus basses", "Ville la plus sure de cette taille"] } },
+      { imageUrl: cityOg("rennes"), altText: "Rennes — sécurité #2",
+        text: { heading: "#2 RENNES", subheading: "Faible criminalite pour une metropole", body: ["Chiffres stables et solides", "Centre-ville sur a toute heure"] } },
+      { imageUrl: cityOg("strasbourg"), altText: "Strasbourg — sécurité #3",
+        text: { heading: "#3 STRASBOURG", subheading: "Centre sur, chiffres corrects", body: ["Faible violence en centre-ville", "Quelques zones sensibles en peripherie"] } },
+      { imageUrl: cityOg("nantes"), altText: "Nantes — sécurité #4",
+        text: { heading: "#4 NANTES", subheading: "Dans la moyenne haute nationale", body: ["Metropole avec securite maitrisee", "Centre-ville et ile de Nantes surs"] } },
+      { imageUrl: cityOg("dijon"), altText: "Dijon — sécurité #5",
+        text: { heading: "#5 DIJON", subheading: "Souvent sous-estimee — bons chiffres", body: ["Gastronomie + securite + culture", "mavilleideale.fr/classements/securite"] } },
     ],
   },
   {
@@ -446,12 +517,18 @@ Paris coûte une fortune. Ces villes offrent l'ambiance sans le budget :
 
 #Étudiants #VieÉtudiante #France #Universités #Campus #OùÉtudier`,
     slides: [
-      { imageUrl: classementOg("etudiants"), altText: "Top 5 villes étudiantes" },
-      { imageUrl: cityOg("rennes"), altText: "Rennes — #1 étudiants" },
-      { imageUrl: cityOg("montpellier"), altText: "Montpellier — #2 étudiants" },
-      { imageUrl: cityOg("grenoble"), altText: "Grenoble — #3 étudiants" },
-      { imageUrl: cityOg("nancy"), altText: "Nancy — #4 étudiants" },
-      { imageUrl: cityOg("toulouse"), altText: "Toulouse — #5 étudiants" },
+      { imageUrl: classementOg("etudiants"), altText: "Top 5 villes étudiantes",
+        text: { heading: "TOP 5 ETUDIANTS", subheading: "Hors Paris — ambiance sans le budget", accent: "CLASSEMENT" } },
+      { imageUrl: cityOg("rennes"), altText: "Rennes — #1 étudiants",
+        text: { heading: "#1 RENNES", subheading: "Ville universitaire par excellence", body: ["Loyers encore raisonnables", "Vie associative et culturelle dense"] } },
+      { imageUrl: cityOg("montpellier"), altText: "Montpellier — #2 étudiants",
+        text: { heading: "#2 MONTPELLIER", subheading: "35% d'etudiants + Mediterranee", body: ["Campus en bord de ville, plage a 15 min", "Vie nocturne et culturelle intense"] } },
+      { imageUrl: cityOg("grenoble"), altText: "Grenoble — #3 étudiants",
+        text: { heading: "#3 GRENOBLE", subheading: "Universites de recherche internationales", body: ["Polytech, UGA, Grenoble INP", "Ski + labo = combo unique"] } },
+      { imageUrl: cityOg("nancy"), altText: "Nancy — #4 étudiants",
+        text: { heading: "#4 NANCY", subheading: "T2 a 550 EUR — Place Stanislas gratuite", body: ["Cout de vie parmi les plus bas", "Mines Nancy, Sciences Po, medecine"] } },
+      { imageUrl: cityOg("toulouse"), altText: "Toulouse — #5 étudiants",
+        text: { heading: "#5 TOULOUSE", subheading: "Aerospatiale + ingenierie + festif", body: ["ISAE, IMT Mines, Paul Sabatier", "mavilleideale.fr/classements/etudiants"] } },
     ],
   },
   {
@@ -471,12 +548,18 @@ Loyer < 700€ pour un T2, c'est encore possible. Voilà où :
 
 #BudgetFrance #CoûtDeVie #Loyer #Immobilier #France #OùBienVivre`,
     slides: [
-      { imageUrl: classementOg("cout-vie"), altText: "Top 5 villes les moins chères" },
-      { imageUrl: cityOg("nancy"), altText: "Nancy — coût bas #1" },
-      { imageUrl: cityOg("clermont"), altText: "Clermont-Ferrand — coût bas #2" },
-      { imageUrl: cityOg("dijon"), altText: "Dijon — coût bas #3" },
-      { imageUrl: cityOg("strasbourg"), altText: "Strasbourg — coût raisonnable #4" },
-      { imageUrl: cityOg("grenoble"), altText: "Grenoble — coût raisonnable #5" },
+      { imageUrl: classementOg("cout-vie"), altText: "Top 5 villes les moins chères",
+        text: { heading: "TOP 5 BUDGET", subheading: "Loyer T2 < 700 EUR — c'est encore possible", accent: "CLASSEMENT" } },
+      { imageUrl: cityOg("nancy"), altText: "Nancy — coût bas #1",
+        text: { heading: "#1 NANCY", subheading: "T2 ~580 EUR — culture et archi gratuites", body: ["Place Stanislas classee UNESCO", "Mines, Sciences Po, medecine"] } },
+      { imageUrl: cityOg("clermont"), altText: "Clermont-Ferrand — coût bas #2",
+        text: { heading: "#2 CLERMONT-FERRAND", subheading: "Volcans, nature, budget zero", body: ["Puy-de-Dome a 15 min", "Michelin, loyers parmi les plus bas"] } },
+      { imageUrl: cityOg("dijon"), altText: "Dijon — coût bas #3",
+        text: { heading: "#3 DIJON", subheading: "Gastronomie + art de vivre a prix correct", body: ["TGV Paris en 1h30", "T2 ~650 EUR en centre"] } },
+      { imageUrl: cityOg("strasbourg"), altText: "Strasbourg — coût raisonnable #4",
+        text: { heading: "#4 STRASBOURG", subheading: "Cher pour la region — loin de Paris", body: ["T2 ~750 EUR — reste accessible", "Frontaliers Allemagne = salaires +"] } },
+      { imageUrl: cityOg("grenoble"), altText: "Grenoble — coût raisonnable #5",
+        text: { heading: "#5 GRENOBLE", subheading: "Montagne accessible, cout maitrise", body: ["T2 ~680 EUR, montagne gratuite", "mavilleideale.fr/classements/cout-vie"] } },
     ],
   },
 
@@ -500,10 +583,14 @@ Annecy n'est pas pour tout le monde. Mais si votre budget le permet — difficil
 
 #Annecy #HauteSavoie #MeilleureVille #QualitéDeVie #France`,
     slides: [
-      { imageUrl: cityOg("annecy"), altText: "Annecy — 8.6/10, meilleure ville de France" },
-      { imageUrl: `${BASE_URL}/villes/annecy/climat/opengraph-image`, altText: "Annecy — nature et lac" },
-      { imageUrl: `${BASE_URL}/villes/annecy/transports/opengraph-image`, altText: "Annecy — transports" },
-      { imageUrl: cityOg("annecy"), altText: "Annecy — pour qui ?" },
+      { imageUrl: cityOg("annecy"), altText: "Annecy — 8.6/10, meilleure ville de France",
+        text: { heading: "ANNECY", subheading: "La meilleure ville de France — 8.6/10", accent: "SPOTLIGHT" } },
+      { imageUrl: `${BASE_URL}/villes/annecy/climat/opengraph-image`, altText: "Annecy — nature et lac",
+        text: { heading: "NATURE 9.8/10", subheading: "Lac + Alpes + reserve naturelle", body: ["L'un des plus beaux cadres de France", "Velo, kayak, ski — tout a portee"] } },
+      { imageUrl: `${BASE_URL}/villes/annecy/transports/opengraph-image`, altText: "Annecy — transports",
+        text: { heading: "SECURITE 8.7/10", subheading: "Parmi les plus sures de France", body: ["Ecoles 8.1/10 — ideal familles", "Seul frein : prix immobilier eleve"] } },
+      { imageUrl: cityOg("annecy"), altText: "Annecy — pour qui ?",
+        text: { heading: "POUR QUI ?", subheading: "Teletravailleur, famille, nature-addict", body: ["Budget logement solide requis", "mavilleideale.fr/villes/annecy"] } },
     ],
   },
   {
@@ -526,10 +613,14 @@ Mais sur le rapport global — Rennes reste l'une des meilleures affaires de Fra
 
 #Rennes #Bretagne #QualitéDeVie #VieEnProvince #VilleFrançaise`,
     slides: [
-      { imageUrl: cityOg("rennes"), altText: "Rennes — 8.2/10" },
-      { imageUrl: `${BASE_URL}/villes/rennes/transports/opengraph-image`, altText: "Rennes — vélo et TGV" },
-      { imageUrl: `${BASE_URL}/villes/rennes/ecoles/opengraph-image`, altText: "Rennes — universités et écoles" },
-      { imageUrl: cityOg("rennes"), altText: "Rennes — pour qui ?" },
+      { imageUrl: cityOg("rennes"), altText: "Rennes — 8.2/10",
+        text: { heading: "RENNES", subheading: "La ville qui fait tout bien — 8.2/10", accent: "SPOTLIGHT" } },
+      { imageUrl: `${BASE_URL}/villes/rennes/transports/opengraph-image`, altText: "Rennes — vélo et TGV",
+        text: { heading: "VELO & TGV", subheading: "600 km de pistes · Paris en 1h25", body: ["Reseau velo exemplaire en France", "Tram, bus, velo en libre-service"] } },
+      { imageUrl: `${BASE_URL}/villes/rennes/ecoles/opengraph-image`, altText: "Rennes — universités et écoles",
+        text: { heading: "ETUDIANTS & FAMILLES", subheading: "60 000 etudiants · Ecoles 8.1/10", body: ["Sciences Po, INSA, Universite Rennes 1", "Secteurs scolaires solides"] } },
+      { imageUrl: cityOg("rennes"), altText: "Rennes — pour qui ?",
+        text: { heading: "POUR QUI ?", subheading: "Jeunes actifs, familles, teletravail", body: ["Il pleut — oui. Mais la qualite de vie compense.", "mavilleideale.fr/villes/rennes"] } },
     ],
   },
   {
@@ -552,10 +643,14 @@ Idéale pour les télétravailleurs et les retraités actifs. Moins pour les sal
 
 #LaRochelle #CharenteMaritime #OcéanAtlantique #QualitéDeVie`,
     slides: [
-      { imageUrl: cityOg("la-rochelle"), altText: "La Rochelle — 7.8/10" },
-      { imageUrl: `${BASE_URL}/villes/la-rochelle/climat/opengraph-image`, altText: "La Rochelle — climat atlantique" },
-      { imageUrl: `${BASE_URL}/villes/la-rochelle/transports/opengraph-image`, altText: "La Rochelle — vélo pionnier" },
-      { imageUrl: cityOg("la-rochelle"), altText: "La Rochelle — pour qui ?" },
+      { imageUrl: cityOg("la-rochelle"), altText: "La Rochelle — 7.8/10",
+        text: { heading: "LA ROCHELLE", subheading: "La petite ville qui score comme une grande", accent: "SPOTLIGHT" } },
+      { imageUrl: `${BASE_URL}/villes/la-rochelle/climat/opengraph-image`, altText: "La Rochelle — climat atlantique",
+        text: { heading: "OCEAN & CLIMAT", subheading: "Hivers clemens · Ete doux · Ile de Re", body: ["Atlantique a 5 min du centre", "270 jours de soleil par an"] } },
+      { imageUrl: `${BASE_URL}/villes/la-rochelle/transports/opengraph-image`, altText: "La Rochelle — vélo pionnier",
+        text: { heading: "VELO PIONNIER", subheading: "30 ans d'avance sur le reste de la France", body: ["Libre-service velo des 1976", "Centre 100% pedestre et cyclable"] } },
+      { imageUrl: cityOg("la-rochelle"), altText: "La Rochelle — pour qui ?",
+        text: { heading: "POUR QUI ?", subheading: "Teletravailleur, retraite actif, famille", body: ["Emploi limite hors nautisme/tourisme", "mavilleideale.fr/villes/la-rochelle"] } },
     ],
   },
   {
@@ -578,10 +673,14 @@ Nantes, c'est la vie métropolitaine sans l'écrasement de Paris.
 
 #Nantes #LoireAtlantique #QualitéDeVie #Métropole #VieEnFrance`,
     slides: [
-      { imageUrl: cityOg("nantes"), altText: "Nantes — 8.3/10" },
-      { imageUrl: `${BASE_URL}/villes/nantes/transports/opengraph-image`, altText: "Nantes — transports exemplaires" },
-      { imageUrl: `${BASE_URL}/villes/nantes/ecoles/opengraph-image`, altText: "Nantes — universités et culture" },
-      { imageUrl: cityOg("nantes"), altText: "Nantes — pour qui ?" },
+      { imageUrl: cityOg("nantes"), altText: "Nantes — 8.3/10",
+        text: { heading: "NANTES", subheading: "La metropole qui a tout compris — 8.3/10", accent: "SPOTLIGHT" } },
+      { imageUrl: `${BASE_URL}/villes/nantes/transports/opengraph-image`, altText: "Nantes — transports exemplaires",
+        text: { heading: "TRANSPORTS", subheading: "Tram + bus + velo — top France", body: ["3 lignes de tram, reseau dense", "Chronovelo : 100 km de pistes protegees"] } },
+      { imageUrl: `${BASE_URL}/villes/nantes/ecoles/opengraph-image`, altText: "Nantes — universités et culture",
+        text: { heading: "CULTURE & EMPLOI", subheading: "60 000 etudiants · Tech · Sante · Industrie", body: ["Machines de l'Ile, scene musicale", "Emploi diversifie, dynamisme reel"] } },
+      { imageUrl: cityOg("nantes"), altText: "Nantes — pour qui ?",
+        text: { heading: "POUR QUI ?", subheading: "Cadre, famille, etudiant, createur", body: ["Il pleut — moins qu'on ne croit", "mavilleideale.fr/villes/nantes"] } },
     ],
   },
 ];
@@ -614,6 +713,131 @@ async function uploadFileToCDN(filePath) {
   const url = metaData.images?.[0]?.source;
   if (!url) throw new Error(`Could not get CDN URL for photo ${uploadData.id}`);
   return url;
+}
+
+async function uploadBufferToCDN(buffer) {
+  const form = new FormData();
+  form.append("source", new Blob([buffer], { type: "image/png" }), "slide.png");
+  form.append("published", "false");
+  form.append("access_token", FB_PAGE_TOKEN);
+
+  const upload = await fetch(`https://graph.facebook.com/v21.0/${FB_PAGE_ID}/photos`, {
+    method: "POST",
+    body: form,
+  });
+  const uploadData = await upload.json();
+  if (!upload.ok) throw new Error(`Buffer upload failed: ${JSON.stringify(uploadData)}`);
+
+  const meta = await fetch(
+    `https://graph.facebook.com/v21.0/${uploadData.id}?fields=images&access_token=${FB_PAGE_TOKEN}`
+  );
+  const metaData = await meta.json();
+  const url = metaData.images?.[0]?.source;
+  if (!url) throw new Error(`Could not get CDN URL for photo ${uploadData.id}`);
+  return url;
+}
+
+// ─── Text overlay on slide image ──────────────────────────────────────────────
+// text: { heading, subheading?, body?: string[], accent?: string, position?: "top"|"bottom" }
+// Returns a Buffer with the composited PNG.
+function xmlEsc(str) {
+  return str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+}
+
+async function applyTextOverlay(inputPath, text) {
+  const { heading, subheading, body = [], accent, position = "bottom" } = text;
+  const meta = await sharp(inputPath).metadata();
+  const W = meta.width;
+  const H = meta.height;
+
+  const FONT = "Ubuntu, DejaVu Sans, sans-serif";
+  const GRAD_H = Math.round(H * 0.55);
+  const GRAD_Y = position === "top" ? 0 : H - GRAD_H;
+  const TEXT_Y_BASE = position === "top" ? 60 : H - (body.length > 0 ? body.length * 46 + 120 : 90);
+
+  // Word-wrap helper: split text into lines of max `chars` characters
+  function wrapText(str, chars) {
+    const words = str.split(" ");
+    const lines = [];
+    let line = "";
+    for (const word of words) {
+      if ((line + " " + word).trim().length > chars) {
+        if (line) lines.push(line.trim());
+        line = word;
+      } else {
+        line = (line + " " + word).trim();
+      }
+    }
+    if (line) lines.push(line.trim());
+    return lines;
+  }
+
+  const headingLines = wrapText(heading, 28);
+  const subLines = subheading ? wrapText(subheading, 38) : [];
+
+  let currentY = TEXT_Y_BASE;
+  const svgLines = [];
+
+  // Accent pill (e.g. "SÉRIE 2/4")
+  if (accent) {
+    svgLines.push(`
+      <rect x="48" y="${currentY - 36}" width="${accent.length * 14 + 32}" height="40" rx="6"
+            fill="#A855F7" opacity="0.9"/>
+      <text x="64" y="${currentY - 10}" font-family="${FONT}" font-size="22" font-weight="700"
+            fill="white">${xmlEsc(accent)}</text>`);
+    currentY += 54;
+  }
+
+  // Heading (large, bold, white)
+  for (const line of headingLines) {
+    svgLines.push(`
+      <text x="48" y="${currentY}" font-family="${FONT}" font-size="64" font-weight="700"
+            fill="white" filter="url(#shadow)">${xmlEsc(line)}</text>`);
+    currentY += 72;
+  }
+
+  // Subheading
+  if (subLines.length) {
+    currentY += 8;
+    for (const line of subLines) {
+      svgLines.push(`
+        <text x="48" y="${currentY}" font-family="${FONT}" font-size="38" font-weight="400"
+              fill="#e5e7eb">${xmlEsc(line)}</text>`);
+      currentY += 46;
+    }
+  }
+
+  // Body bullet lines
+  if (body.length) {
+    currentY += 10;
+    for (const line of body) {
+      svgLines.push(`
+        <text x="48" y="${currentY}" font-family="${FONT}" font-size="34" font-weight="400"
+              fill="#d1fae5">${xmlEsc(line)}</text>`);
+      currentY += 44;
+    }
+  }
+
+  const gradDir = position === "top" ? "0,0,0,1" : "0,1,0,0";
+  const svg = `<svg width="${W}" height="${H}" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="grad" x1="${gradDir.split(",")[0]}" y1="${gradDir.split(",")[1]}"
+                      x2="${gradDir.split(",")[2]}" y2="${gradDir.split(",")[3]}">
+        <stop offset="0%" stop-color="black" stop-opacity="0"/>
+        <stop offset="100%" stop-color="black" stop-opacity="0.82"/>
+      </linearGradient>
+      <filter id="shadow">
+        <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="black" flood-opacity="0.7"/>
+      </filter>
+    </defs>
+    <rect x="0" y="${GRAD_Y}" width="${W}" height="${GRAD_H}" fill="url(#grad)"/>
+    ${svgLines.join("\n")}
+  </svg>`;
+
+  return sharp(inputPath)
+    .composite([{ input: Buffer.from(svg), blend: "over" }])
+    .png()
+    .toBuffer();
 }
 
 // ─── Queue management ─────────────────────────────────────────────────────────
@@ -819,6 +1043,30 @@ if (args.includes("--slides")) {
   console.log(`\n📂 ${files.length} slides from ${slideDir}`);
   files.forEach((f, i) => console.log(`   [${i + 1}] ${f}`));
 
+  // Pad or trim topic slides to match file count
+  const paddedTopic = {
+    ...topic,
+    slides: files.map((_, i) => topic.slides[i] ?? topic.slides[topic.slides.length - 1]),
+  };
+
+  // Apply text overlays to each slide
+  const noText = args.includes("--no-text");
+  const composited = [];
+  if (!noText) {
+    console.log("\n  Compositing text overlays...");
+    for (let i = 0; i < files.length; i++) {
+      const slideText = paddedTopic.slides[i]?.text;
+      if (slideText) {
+        process.stdout.write(`  Slide ${i + 1}/${files.length}: "${slideText.heading}"... `);
+        const buf = await applyTextOverlay(files[i], slideText);
+        composited.push(buf);
+        console.log("✅");
+      } else {
+        composited.push(readFileSync(files[i]));
+      }
+    }
+  }
+
   let cdnUrls;
   if (dryRun) {
     cdnUrls = files.map((f) => `[local: ${f}]`);
@@ -830,18 +1078,14 @@ if (args.includes("--slides")) {
     console.log("\n  Uploading to Facebook CDN...");
     cdnUrls = [];
     for (let i = 0; i < files.length; i++) {
-      process.stdout.write(`  File ${i + 1}/${files.length}: ${files[i]}... `);
-      const url = await uploadFileToCDN(files[i]);
-      console.log(`✅`);
+      process.stdout.write(`  File ${i + 1}/${files.length}... `);
+      const url = noText
+        ? await uploadFileToCDN(files[i])
+        : await uploadBufferToCDN(composited[i]);
+      console.log("✅");
       cdnUrls.push(url);
     }
   }
-
-  // Pad or trim topic slides to match file count
-  const paddedTopic = {
-    ...topic,
-    slides: files.map((_, i) => topic.slides[i] ?? topic.slides[topic.slides.length - 1]),
-  };
 
   await postTopic(paddedTopic, dryRun, cdnUrls);
   if (!dryRun) {
@@ -860,8 +1104,9 @@ Usage:
   node scripts/instagram-carousel.mjs --preview 0              Preview topic 0
   node scripts/instagram-carousel.mjs --post 0                 Post topic 0 (needs live image URLs)
   node scripts/instagram-carousel.mjs --next                   Post next queued topic
-  node scripts/instagram-carousel.mjs --slides ./slides/ --topic 0   Upload local JPEGs + post
-  node scripts/instagram-carousel.mjs --slides ./slides/ --topic 0 --dry-run   Preview only
+  node scripts/instagram-carousel.mjs --slides ./slides/ --topic 0              Upload + text overlay + post
+  node scripts/instagram-carousel.mjs --slides ./slides/ --topic 0 --no-text   Upload raw images (no overlay)
+  node scripts/instagram-carousel.mjs --slides ./slides/ --topic 0 --dry-run   Preview without posting
 
 Image workflow:
   1. Design slides in Canva / Figma (1080×1080 or 1080×1350), export as JPEG
