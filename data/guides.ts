@@ -20056,6 +20056,252 @@ export const GUIDES: Guide[] = [
     tags: ["acheter à Bayonne 2026", "immobilier Bayonne prix quartiers", "investissement locatif Bayonne Pays Basque", "primo-accédant Bayonne", "marché immobilier Pays Basque"],
   },
   {
+    slug: "acheter-a-brest-quel-quartier-budget-2026",
+    title: "Acheter à Brest en 2026 : quel quartier et quel budget ?",
+    metaTitle: "Acheter à Brest 2026 — prix m², quartiers, budget primo-accédant Finistère",
+    metaDesc: "Guide immobilier Brest 2026 : prix par quartier (Recouvrance, Saint-Marc, Lambézellec, Europe), budget d'achat, marché en hausse. La ville la moins chère de France ?",
+    category: "budget",
+    emoji: "⚓",
+    readMinutes: 8,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Brest est régulièrement citée comme la grande ville française la plus abordable pour l'immobilier. Ce n'est pas tout à fait exact — il existe des villes plus petites encore moins chères — mais pour une ville de 215 000 habitants avec un tramway, un CHU de référence, une université et un accès direct à l'un des plus beaux littoraux d'Europe (presqu'île de Crozon, Iroise), les prix restent exceptionnellement bas. Un T3 correct se trouve encore sous 180 000 € à Brest en 2026. Pour un primo-accédant ou un investisseur, c'est un marché à prendre au sérieux.",
+    sections: [
+      {
+        heading: "État du marché brestois en 2026",
+        body: "Brest affiche des prix médians de 1 700–2 200 €/m² pour les appartements (selon le quartier et l'état), parmi les plus bas de France pour une ville de cette taille. Le marché est resté stable 2023–2025, légèrement en hausse sur les secteurs rénovés (Recouvrance). La demande est portée par des actifs du Naval Group, du CHU, de l'Ifremer, de l'université (25 000 étudiants), et de plus en plus par des télétravailleurs venant de Paris ou Rennes. Rendement locatif brut : 6–8 % selon le quartier, parmi les meilleurs de France.",
+      },
+      {
+        heading: "Les quartiers de Brest",
+        body: "**Centre** (Place de la Liberté, Rue de Siam) : reconstruit après la Seconde Guerre mondiale, architecture des années 1950 fonctionnelle. 2 000–2 500 €/m². Pratique, bien desservi. **Recouvrance** : quartier historique en rive droite du Penfeld, en forte gentrification depuis 2018. Maisons de granit, brocantes, artistes, restaurants branchés. 1 800–2 400 €/m². Celui qui monte le plus vite. **Saint-Marc** : résidentiel, en hauteur, vue sur la rade pour les étages supérieurs. 1 900–2 300 €/m². Familial. **Lambézellec** : au nord, maisons individuelles et immeubles, le plus populaire. 1 500–2 000 €/m² — le moins cher de la ville. **Quartier de l'Europe** (Bellevue, Kersauzon) : tram T2, construction neuve récente, fonctionnel. 2 000–2 500 €/m² neuf.",
+      },
+      {
+        heading: "Budgets types",
+        body: "Studio/T1 (investissement locatif) : 60 000–100 000 €. Rendement locatif 7–9 % brut — excellent. T2 primo-accédant : 90 000–140 000 €. T3 famille : 140 000–200 000 €. Maison de ville Recouvrance : 180 000–300 000 €. Ces prix permettent l'accession à la propriété dès 1 600 €/mois de salaire avec un apport de 10 %, ce qui est rare dans les grandes villes françaises.",
+      },
+      {
+        heading: "Investissement locatif : le grand atout brestois",
+        body: "Brest est l'une des villes françaises offrant les meilleures rentabilités locatives brutes : 7–9 % pour un T2, 5–7 % pour un T3. La tension locative est forte (25 000 étudiants + base navale + Naval Group + CHU). La vacance locative est quasi-nulle dans le centre et à Recouvrance. Le marché de la location courte durée (Airbnb) est moins développé qu'en ville touristique — ce qui préserve le marché long terme et évite la réglementation anti-Airbnb des villes touristiques. Pour un primo-accédant qui envisage aussi la rentabilité locative future, Brest est l'un des marchés les plus solides de France.",
+      },
+      {
+        heading: "Les freins et le calcul honnête",
+        body: "Brest est une ville pluvieuse (1 250 mm de précipitations/an, parmi les plus humides de France) et géographiquement isolée (pas de TGV direct Paris — 4h30 en train). Ces deux facteurs expliquent les prix bas : une forte demande locale, mais peu d'attractivité pour les retraités cherchant le soleil ou les cadres parisiens qui veulent les transports. Si vous travaillez à Brest ou en télétravail, que la pluie ne vous dérange pas, et que vous aimez la Bretagne — c'est peut-être le meilleur marché immobilier de France en 2026. Si vous comptez retravailler la revente vers un profil large, c'est un marché un peu plus étroit.",
+      },
+    ],
+    relatedCities: ["brest", "rennes", "lorient"],
+    relatedGuides: [
+      "quitter-brest-guide-2026",
+      "brest-vs-lorient-comparatif-2026",
+      "vivre-en-bretagne-guide-2025",
+    ],
+    tags: ["acheter à Brest 2026", "immobilier Brest prix quartiers", "investissement locatif Brest", "primo-accédant Brest Finistère", "marché immobilier Brest Bretagne"],
+  },
+  {
+    slug: "acheter-a-tours-quel-quartier-budget-2026",
+    title: "Acheter à Tours en 2026 : quel quartier et quel budget ?",
+    metaTitle: "Acheter à Tours 2026 — prix m², quartiers, budget primo-accédant Val de Loire",
+    metaDesc: "Guide immobilier Tours 2026 : prix par quartier (Vieux-Tours, Prébendes, Saint-Symphorien, Sanitas), budget d'achat, marché accessible proche Paris.",
+    category: "budget",
+    emoji: "🏰",
+    readMinutes: 8,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Tours est la grande ville du Val de Loire, à 1h de Paris en TGV, classée UNESCO avec ses châteaux à portée de week-end, et surtout : un marché immobilier resté raisonnable malgré sa qualité de vie élevée. La ville combine une atmosphère universitaire (30 000 étudiants), une gastronomie sérieuse, un patrimoine exceptionnel et un accès à la nature (Loire, Cher, vignobles de Touraine). Pour un acheteur qui veut la qualité de vie de province sans sacrifier l'accès à Paris, Tours est l'un des meilleurs choix de France.",
+    sections: [
+      {
+        heading: "État du marché tourangeau en 2026",
+        body: "Tours affiche des prix médians de 2 300–3 200 €/m² selon le quartier et l'état. La correction 2024–2025 a ramené les prix du pic 2022–2023 de 5–8 %, créant une fenêtre d'opportunité. La ville attire de plus en plus de télétravailleurs depuis Paris (1h de TGV), ce qui dynamise les quartiers les plus qualitatifs. L'offre de biens anciens de caractère (appartements haussmanniens, hôtels particuliers) est supérieure à beaucoup de villes de cette taille.",
+      },
+      {
+        heading: "Les quartiers de Tours",
+        body: "**Vieux-Tours / Plumereau** : le cœur historique, maisons à colombages, Rue Colbert. Ultra-prime : 3 200–4 000 €/m². Surtout touristique ; bruit nocturne en été. **Prébendes** : quartier résidentiel bourgeois au sud-ouest, parc des Prébendes, calme. 2 800–3 500 €/m². Idéal familles aisées. **Saint-Symphorien** (rive sud de la Loire) : banlieue chic avec maisons de maître, jardins, bords de Loire. 2 500–3 200 €/m². Souvent sous-estimé. **Jean-Jaurès** (axe nord-sud) : commerçant, vivant, bonne desserte tram A. 2 400–3 000 €/m². Idéal pour les jeunes actifs. **Sanitas** (proche gare) : quartier populaire en réhabilitation, prix abordables. 1 800–2 400 €/m². Bonne rentabilité locative. **Velpeau** (est, proche facs) : étudiants, familles modestes, prix attractifs. 2 000–2 600 €/m².",
+      },
+      {
+        heading: "Budgets types",
+        body: "Studio/T1 (locatif étudiant) : 80 000–120 000 €. T2 primo-accédant : 120 000–180 000 €. T3 famille : 180 000–260 000 €. Appartement haussmannien T4 (Prébendes) : 280 000–400 000 €. Maison Saint-Symphorien T4 avec jardin : 300 000–480 000 €. Tours reste bien en-dessous de Bordeaux ou Nantes pour des surfaces et qualités comparables.",
+      },
+      {
+        heading: "Tours pour les télétravailleurs parisiens",
+        body: "Le calcul est simple : un T3 à Tours coûte 200 000–270 000 €. Un T3 équivalent à Paris 13e/19e/20e coûte 450 000–550 000 €. La différence — 200 000–250 000 € — est une retraite anticipée ou une épargne de vie entière. Avec 3 TGV Paris-Tours-Paris par heure aux heures de pointe (1h06 de trajet), le navetteur 2 jours/semaine est très viable. Tours est aussi plus jolie que beaucoup de villes qui ont capté cette migration (Orléans, Le Mans) — le Val de Loire en bonus.",
+      },
+      {
+        heading: "Rentabilité locative",
+        body: "Rendement locatif brut : 5,5–7,5 % selon le quartier. Sanitas et Velpeau offrent les meilleures rentabilités. Le marché locatif est tiré par les 30 000 étudiants de l'université de Tours (UFR, CHU, IUT, Sciences Po Tours). La vacance locative est faible en secteur étudiant. Attention à la copropriété dans les immeubles anciens du centre — les charges et travaux peuvent être importants.",
+      },
+    ],
+    relatedCities: ["tours", "angers", "orleans"],
+    relatedGuides: [
+      "le-mans-vs-tours-comparatif-2026",
+      "vivre-en-centre-val-de-loire-guide-2026",
+      "acheter-immobilier-france-meilleures-villes-2025",
+    ],
+    tags: ["acheter à Tours 2026", "immobilier Tours prix quartiers", "primo-accédant Tours Val de Loire", "investissement locatif Tours", "marché immobilier Tours Indre-et-Loire"],
+  },
+  {
+    slug: "acheter-a-angers-quel-quartier-budget-2026",
+    title: "Acheter à Angers en 2026 : quel quartier et quel budget ?",
+    metaTitle: "Acheter à Angers 2026 — prix m², quartiers, budget primo-accédant Maine-et-Loire",
+    metaDesc: "Guide immobilier Angers 2026 : prix par quartier (centre, Doutre, Belle-Beille, Roseraie), budget d'achat, TGV Paris 1h35.",
+    category: "budget",
+    emoji: "🏯",
+    readMinutes: 8,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Angers est l'une des villes françaises qui monte le plus discrètement depuis 10 ans. Capitale du Maine-et-Loire, à 1h35 de Paris en TGV, classée «Ville d'Art et d'Histoire», elle combine une université importante (35 000 étudiants), une économie dynamique (végétal, santé, numérique), et un marché immobilier encore raisonnable — même si la correction vers les prix nantais est clairement amorcée.",
+    sections: [
+      {
+        heading: "État du marché angevin en 2026",
+        body: "Angers affiche des prix médians de 2 600–3 200 €/m² pour les appartements, avec une progression de +22 % sur 5 ans. Le ralentissement 2024–2025 a partiellement corrigé la surchauffe, mais le marché reste actif. La ville est tirée par sa démographie positive (+1 % par an), une attractivité croissante des télétravailleurs de Nantes et Paris, et un marché locatif solide (tension locative élevée, vacance quasi-nulle).",
+      },
+      {
+        heading: "Les quartiers d'Angers",
+        body: "**Centre-ville** (rue Saint-Laud, Cathédrale) : commerçant, dense, prix élevés pour Angers. 3 000–3 800 €/m². Appartements dans des immeubles anciens, souvent des copropriétés difficiles. **La Doutre** (rive gauche de la Maine) : quartier médiéval en gentrification, bohème, animé. 2 800–3 500 €/m². Le plus recherché actuellement. **Belle-Beille** (universitaire, à l'ouest) : proche facs, résidentiel mixte. 2 400–3 000 €/m². Bonne rentabilité locative. **La Roseraie** (au nord-est) : résidentiel familial, peu touristique. 2 200–2 800 €/m². **Saint-Serge** (au nord) : proche Parc Saint-Nicolas et Parc de Balzac, maisons individuelles. 2 500–3 200 €/m². **Quartier Hauts-de-Saint-Aubin** (ouest) : construction neuve, pavillonnaire, familles. 2 800–3 500 €/m² neuf.",
+      },
+      {
+        heading: "Budgets types",
+        body: "T1 locatif (étudiants) : 85 000–130 000 €. T2 primo-accédant : 130 000–190 000 €. T3 famille : 200 000–290 000 €. Maison de ville La Doutre : 280 000–450 000 €. Maison neuve périphérie (Trélazé, Avrillé) T4 : 260 000–370 000 €.",
+      },
+      {
+        heading: "Angers vs Nantes : le grand arbitrage",
+        body: "Nantes est à 50 min d'Angers en TGV. Nantes est aussi 30–40 % plus chère à l'achat et à la location. Pour un acheteur qui accepte d'être à Nantes en 50 min plutôt qu'à pied, Angers offre un gain d'achat de 80 000–150 000 € sur un T3. Le marché angevin reste moins liquide que nantais — la revente peut être plus longue — mais pour une résidence principale de 10+ ans, l'arbitrage est souvent gagnant. Avec le projet de LGV (liaison à grande vitesse Paris-Rennes via Angers), la ville pourrait voir des prix remonter davantage d'ici 2030.",
+      },
+      {
+        heading: "Rentabilité locative",
+        body: "Rendement brut : 5,5–7 % selon le secteur. Belle-Beille (étudiants) est le meilleur secteur pour l'investissement locatif (T2 : 6,5–7,5 % brut). Le marché locatif est soutenu par 35 000 étudiants (Université d'Angers, ESSCA, ESA, ESEO, Audencia Angers). Attention : la demande est saisonnière et concentrée sur les T1/T2 proches des pôles universitaires.",
+      },
+    ],
+    relatedCities: ["angers", "nantes", "tours"],
+    relatedGuides: [
+      "angers-vs-nantes-comparatif-2025",
+      "vivre-en-pays-de-la-loire-guide-2025",
+      "acheter-immobilier-france-meilleures-villes-2025",
+    ],
+    tags: ["acheter à Angers 2026", "immobilier Angers prix quartiers", "primo-accédant Angers Maine-et-Loire", "investissement locatif Angers", "marché immobilier Angers"],
+  },
+  {
+    slug: "acheter-a-nimes-quel-quartier-budget-2026",
+    title: "Acheter à Nîmes en 2026 : quel quartier et quel budget ?",
+    metaTitle: "Acheter à Nîmes 2026 — prix m², quartiers, budget primo-accédant Gard",
+    metaDesc: "Guide immobilier Nîmes 2026 : prix par quartier (Écusson, Croix de Fer, Mas de Mingue, Haut-Gravier), budget d'achat dans la capitale du Gard.",
+    category: "budget",
+    emoji: "🏛️",
+    readMinutes: 8,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Nîmes est une anomalie du marché du Sud. À moins d'1h30 de Montpellier et 1h de Marseille en TGV, au cœur d'un Languedoc de plus en plus attractif, la ville reste bien moins chère que ses voisines méditerranéennes. Son patrimoine romain exceptionnel (Arènes, Maison Carrée, Pont du Gard à 20 km), son ensoleillement (2 700 heures/an), et sa taille humaine (150 000 habitants) en font un marché à surveiller pour un acheteur qui cherche le Sud sans les prix du Var ou des Bouches-du-Rhône.",
+    sections: [
+      {
+        heading: "État du marché nîmois en 2026",
+        body: "Nîmes affiche des prix médians de 2 000–2 700 €/m² pour les appartements selon le secteur. La progression 2020–2023 (+25 %) a été suivie d'une stabilisation. La demande reste soutenue par une population croissante, un bassin d'emploi diversifié (santé, services, tourisme, agriculture), et l'attractivité croissante du Languedoc pour les acheteurs fuyant les prix de Montpellier. Rendement locatif brut : 5,5–7 % selon le secteur.",
+      },
+      {
+        heading: "Les quartiers de Nîmes",
+        body: "**L'Écusson** (centre historique) : entre les Arènes et la Maison Carrée. Le quartier patrimonial. 2 400–3 200 €/m² pour les beaux appartements dans des hôtels particuliers. Bruit festif en period des Fêtes de Nîmes (corridas). **Croix de Fer** (nord-est du centre) : en embourgeoisement, familles et jeunes actifs. 2 000–2 600 €/m². **Haut-Gravier** (à l'est) : résidentiel bourgeois, grandes maisons de maître, calme. 2 500–3 500 €/m² pour les belles villas avec jardin. **Mas de Mingue** (sud-ouest) : quartier populaire, prix très accessibles. 1 400–1 900 €/m². Rentabilité locative élevée mais risque de vacance. **Valdegour / Pissevin** : quartiers nord en QPV — éviter pour l'investissement hors locatif social. **Périphérie** (Marguerittes, Milhaud, Poulx) : pavillonnaire, prix inférieurs à la ville. 2 000–2 800 €/m².",
+      },
+      {
+        heading: "Budgets types",
+        body: "Studio T1 (locatif) : 70 000–100 000 €. T2 primo-accédant : 100 000–160 000 €. T3 famille : 160 000–230 000 €. Villa avec piscine en périphérie : 280 000–450 000 €. Hôtel particulier à restaurer (Écusson) : 300 000–600 000 €.",
+      },
+      {
+        heading: "Nîmes vs Montpellier : le bon arbitrage",
+        body: "Montpellier est à 60 km (45 min TGV, 1h en voiture). Montpellier est 35–50 % plus chère à l'achat. Pour un télétravailleur ou un retraité, Nîmes offre le même ensoleillement, la même gastronomie languedocienne, le même accès à la mer (Camargue, côte du Gard à 50 km), pour un prix immobilier nettement inférieur. Le défaut : une scène culturelle et universitaire moins dense que Montpellier, et un réseau de transport moins développé (pas de tram — ligne à l'étude). Les TGV Nîmes-Paris sont directs en 2h50.",
+      },
+      {
+        heading: "Les fêtes de Nîmes et l'investissement touristique",
+        body: "Les Fêtes de Nîmes (corridas, concerts dans les Arènes) attirent 100 000+ visiteurs 3 fois par an. Les locations touristiques sont très demandées pendant ces périodes. Mais comme à Bayonne, la réglementation meublés touristiques s'est durcie : les résidences secondaires en Airbnb nécessitent une autorisation. Pour de l'investissement locatif classique (locataire longue durée), les Arènes comme proximité valorisent bien le quartier de l'Écusson.",
+      },
+    ],
+    relatedCities: ["nimes", "montpellier", "avignon"],
+    relatedGuides: [
+      "perpignan-vs-montpellier-comparatif-2026",
+      "vivre-en-occitanie-guide-2025",
+      "acheter-immobilier-france-meilleures-villes-2025",
+    ],
+    tags: ["acheter à Nîmes 2026", "immobilier Nîmes prix quartiers", "primo-accédant Nîmes Gard", "investissement locatif Nîmes", "marché immobilier Nîmes Languedoc"],
+  },
+  {
+    slug: "acheter-a-avignon-quel-quartier-budget-2026",
+    title: "Acheter à Avignon en 2026 : quel quartier et quel budget ?",
+    metaTitle: "Acheter à Avignon 2026 — prix m², intra-muros, Monclar, budget Provence",
+    metaDesc: "Guide immobilier Avignon 2026 : prix par quartier (intra-muros, Monclar, Courtine, Montfavet), budget d'achat. Festival, Palais des Papes, TGV Marseille 35 min.",
+    category: "budget",
+    emoji: "🎭",
+    readMinutes: 8,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Avignon est une ville de paradoxes immobiliers. La cité des Papes, le Festival d'Avignon, le Pont, les remparts — une beauté et une notoriété mondiales, pour une ville de 95 000 habitants. Et pourtant, les prix restent nettement en-dessous de Marseille, Aix ou Nice pour une qualité de vie comparable, voire supérieure hors saison. L'acheteur attentif trouve ici un marché avec une double logique : intra-muros (patrimoine, caractère, festival) et extra-muros (résidentiel, espaces verts, prix raisonnables).",
+    sections: [
+      {
+        heading: "État du marché avignonnais en 2026",
+        body: "Avignon affiche des prix médians de 2 800–3 800 €/m² selon le secteur — bien supérieurs à Nîmes ou Arles, mais nettement inférieurs à Aix-en-Provence (3 800–5 000 €/m²). La prime «Avignon intra-muros» est réelle : les appartements dans les hôtels particuliers de la cité sont rares et fortement demandés. Extra-muros, les prix sont beaucoup plus accessibles. TGV : Avignon TGV est à 35 min de Marseille, 2h40 de Paris. L'accès ferroviaire est un atout majeur.",
+      },
+      {
+        heading: "Les quartiers d'Avignon",
+        body: "**Intra-muros** (Place de l'Horloge, Palais des Papes, Rue de la République) : le cœur historique ceint de remparts. Appartements dans des hôtels particuliers du XVIIe-XVIIIe siècle. 3 500–5 000 €/m² pour les beaux biens. Bruit du Festival juillet–août. Tourisme intense. **Monclar** (sud du centre, populaire) : le quartier le plus dynamique pour les jeunes acheteurs. 2 400–3 000 €/m². Marché du samedi, bars, cafés. En embourgeoisement. **Courtine / Wagram** (immédiatement hors remparts, nord-est) : résidentiel, appartements des années 1960–1990. 2 200–2 800 €/m². Pratique. **Montfavet** (commune de la Grande Agglomération, 10 min d'Avignon) : maisons avec piscine, jardin, espace. 2 500–3 500 €/m² pour les maisons. Le choix des familles avec voiture.",
+      },
+      {
+        heading: "Budgets types",
+        body: "T1 (locatif touristique ou étudiant) : 90 000–130 000 €. T2 primo-accédant : 130 000–200 000 €. T3 famille extra-muros : 200 000–280 000 €. Hôtel particulier intra-muros T4 à restaurer : 350 000–600 000 €. Maison Montfavet avec piscine T5 : 400 000–650 000 €.",
+      },
+      {
+        heading: "Le marché locatif Festival : opportunité et risque",
+        body: "Le Festival d'Avignon (juillet) est l'un des plus grands au monde. Une semaine de location en juillet dans l'intra-muros peut atteindre 3 000–6 000 € pour un appartement de caractère. Mais comme dans toutes les villes en zone tendue, la réglementation meublés touristiques s'applique : 120 jours/an maximum en résidence principale, autorisation pour résidence secondaire. Pour un investisseur, calculer sur le long locatif (étudiants, résidents) plutôt que sur la saisonnalité du Festival — plus stable et moins réglementé.",
+      },
+      {
+        heading: "Avignon vs Aix-en-Provence : le choix",
+        body: "Aix est plus chère de 30–50 %, plus petite, et avec une ambiance plus «bourgeoise». Avignon est plus grande, plus populaire, plus bohème dans l'intra-muros. Les deux sont en Provence, soleil, gastronomie, TGV. Si votre budget est 300 k€ pour un appartement de caractère, Avignon vous donne un T3 intra-muros ; à Aix, un T2 en première couronne. Le choix dépend aussi de l'économie locale : Avignon a une base agricole et logistique, Aix est dominée par la tech (ST, Airbus) et les services.",
+      },
+    ],
+    relatedCities: ["avignon", "nimes", "aix-en-provence"],
+    relatedGuides: [
+      "vivre-en-provence-paca-guide-2025",
+      "vivre-dans-le-sud-france-guide-2025",
+      "acheter-immobilier-france-meilleures-villes-2025",
+    ],
+    tags: ["acheter à Avignon 2026", "immobilier Avignon prix quartiers", "primo-accédant Avignon Vaucluse", "investissement locatif Avignon", "marché immobilier Avignon Provence"],
+  },
+  {
+    slug: "acheter-a-perpignan-quel-quartier-budget-2026",
+    title: "Acheter à Perpignan en 2026 : quel quartier et quel budget ?",
+    metaTitle: "Acheter à Perpignan 2026 — prix m², quartiers, budget primo-accédant Pyrénées-Orientales",
+    metaDesc: "Guide immobilier Perpignan 2026 : prix par quartier (centre, Saint-Jacques, Moulin à vent, Saint-Assiscle), budgets et rentabilité. La ville la moins chère du littoral méditerranéen.",
+    category: "budget",
+    emoji: "🌊",
+    readMinutes: 8,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Perpignan est, avec Brest, l'une des grandes villes françaises où l'immobilier reste le plus abordable. Pour une ville méditerranéenne de 125 000 habitants à 15 km de la mer, à 1h de Barcelone, avec 300 jours de soleil par an — les prix restent difficiles à expliquer rationnellement. L'explication est simple : l'économie locale est fragile (chômage parmi les plus élevés de France, revenu médian faible) et la réputation sociale de certains quartiers pèse sur le marché global. Pour l'acheteur averti qui sait où regarder, Perpignan offre un rapport qualité/prix exceptionnel.",
+    sections: [
+      {
+        heading: "État du marché perpignanais en 2026",
+        body: "Perpignan affiche des prix médians de 1 600–2 300 €/m² selon le secteur — parmi les plus bas de toutes les villes méditerranéennes françaises. Le marché a progressé (+18 % sur 5 ans) mais reste bien en-dessous de Montpellier (+55 %), Marseille, ou même Nîmes. La croissance est tirée par des télétravailleurs qui cherchent le soleil catalan à budget contraint, des retraités britanniques et néerlandais (tradition ancienne), et une immigration de Barcelone (ville plus chère, 1h de TGV).",
+      },
+      {
+        heading: "Les quartiers de Perpignan",
+        body: "**Centre historique** (Le Castillet, Place de la République, Saint-Jean) : coeur catalan de Perpignan. Appartements anciens souvent mal isolés. 1 800–2 500 €/m². À rénover en général. **Saint-Jacques** : quartier populaire en QPV, éviter pour l'investissement privé. **Moulin à Vent** (nord-est) : résidentiel, classes moyennes, en amélioration. 1 600–2 100 €/m². **Saint-Mathieu** (est, résidentiel) : correct, sécurisé, ennuyeux. 1 800–2 300 €/m². **Bas Vernet** : à éviter. **Le Réal** (proche gare TGV, sud) : appartements récents, fonctionnel. 2 000–2 600 €/m². **Canet-en-Roussillon** (commune côtière, 15 km) : les plages de Perpignan. 2 500–4 000 €/m² selon la proximité mer.",
+      },
+      {
+        heading: "Budgets types",
+        body: "Studio T1 (locatif) : 50 000–80 000 €. T2 primo-accédant : 80 000–130 000 €. T3 famille : 130 000–200 000 €. Villa avec piscine en périphérie proche : 200 000–350 000 €. Maison sur le littoral (Canet, Argelès) : 300 000–550 000 €. Ces budgets permettent d'accéder à la propriété avec un seul salaire médian en France, ce qui est rarissime en zone méditerranéenne.",
+      },
+      {
+        heading: "Le risque qu'on ne dit pas",
+        body: "Perpignan a des quartiers avec de sérieux problèmes sociaux (trafics, incivilités, dégradation du bâti) qui sont bien connus localement mais peu documentés dans les guides immobiliers classiques. Règle n°1 : visite de quartier à différentes heures avant achat. Règle n°2 : éviter les immeubles à charges élevées et syndics peu actifs — fréquents dans les copropriétés dégradées du centre. Règle n°3 : privilégier les résidences sécurisées ou les maisons individuelles si vous cherchez la tranquillité. Le bon investissement à Perpignan existe — il demande plus de sélectivité qu'à Nantes ou Bordeaux.",
+      },
+      {
+        heading: "Perpignan pour les Barcelonais et les retraités nord-européens",
+        body: "Deux profils spécifiques trouvent Perpignan particulièrement attractive : (1) Les profils Barcelone-TGV : Barcelone est à 1h de TGV depuis Perpignan (depuis 2013). Pour un professionnel qui travaille à Barcelone et veut dormir en France, Perpignan permet d'avoir une maison + jardin + piscine pour le prix d'un appartement barcelonais. (2) Les retraités nord-européens (Néerlandais, Britanniques, Scandinaves) qui cherchent le soleil méditerranéen sans le prix de la Côte d'Azur ou du Languedoc central. La tradition est ancienne — beaucoup de résidents nord-européens dans le Roussillon.",
+      },
+    ],
+    relatedCities: ["perpignan", "nimes", "montpellier"],
+    relatedGuides: [
+      "perpignan-vs-montpellier-comparatif-2026",
+      "vivre-en-occitanie-guide-2025",
+      "acheter-immobilier-france-meilleures-villes-2025",
+    ],
+    tags: ["acheter à Perpignan 2026", "immobilier Perpignan prix quartiers", "primo-accédant Perpignan Pyrénées-Orientales", "investissement locatif Perpignan", "marché immobilier Perpignan Roussillon"],
+  },
+  {
     slug: "guide-vivre-seul-france-quelle-ville-2026",
     title: "Vivre seul en France : quelle ville choisir en 2026 ?",
     metaTitle: "Vivre seul France 2026 — meilleures villes pour les célibataires et personnes solo",
