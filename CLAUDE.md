@@ -169,12 +169,12 @@ npm run lint         # 25 errors remaining (all react/no-unescaped-entities, cos
 
 ## Content roadmap — guides (`data/guides.ts`)
 
-Current count: **359 guides**. Guide spec: `slug, title, metaTitle, metaDesc, category, emoji, readMinutes, publishedAt, updatedAt, intro, sections[], relatedCities[], relatedGuides[], tags[]`. All copy in **French**, direct voice, data-led. No silent fake figures.
+Current count: **441 guides**. Guide spec: `slug, title, metaTitle, metaDesc, category, emoji, readMinutes, publishedAt, updatedAt, intro, sections[], relatedCities[], relatedGuides[], tags[]`. All copy in **French**, direct voice, data-led. No silent fake figures.
 
 All planned series are complete (Climat 2040 ×15, Quitter X ×18, Comparaisons A vs B ×17, Région 2026 ×16, Télétravail 2026 ×11, Lifestyle ×14, Budget ×7, Famille ×4).
 
 ### Pending guide work
-- **Editorial rewrite (R7.8)** — all 359 guides: prose/editorial voice, full sentences, light friendly tone. Keep metadata fields untouched, only `intro` and `sections[].body`. Use parallel agents, batch by series. Biggest remaining content task.
+- **Editorial rewrite (R7.8)** — all 441 guides: prose/editorial voice, full sentences, light friendly tone. Keep metadata fields untouched, only `intro` and `sections[].body`. Use parallel agents, batch by series. Biggest remaining content task.
 
 Vivre sans voiture +5, Acheter à [ville] +5, and the "Lire ensuite" reading list (via `lib/guide-suggestions.ts` + auto-block on each guide page) are shipped.
 
@@ -279,7 +279,7 @@ FR-equivalent routes covered: home, cities index + 352 city pages, 4 city sub-pa
 - [x] City sub-pages: `neighbourhoods`, `seasons`, `honest-review`, `climate-2040`, plus `fingerprint`, `vibe`, `get-settled`, `overview`, `synthesis`, `profiles`
 
 **Phase 4 — long tail**
-- [ ] EN guides — in progress (207+ native EN guides shipped via `data/guides-en.ts`; not 1:1 translations, native expat-angle content)
+- [ ] EN guides — in progress (213+ native EN guides shipped via `data/guides-en.ts`; not 1:1 translations, native expat-angle content)
 - [ ] Per-city OG images with EN copy
 - [x] EN-specific RSS feed (`/feed.xml` + `/guides/feed.xml` locale-aware via `NEXT_PUBLIC_DEFAULT_LOCALE`)
 
