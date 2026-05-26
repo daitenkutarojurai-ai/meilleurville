@@ -738,100 +738,130 @@ async function uploadBufferToCDN(buffer) {
 }
 
 // ─── Text overlay on slide image ──────────────────────────────────────────────
-// text: { heading, subheading?, body?: string[], accent?: string, position?: "top"|"bottom" }
-// Returns a Buffer with the composited PNG.
+// Full-image card: dark overlay covers the whole image, text is vertically centred.
+// text: { heading, subheading?, body?: string[], accent?: string }
 function xmlEsc(str) {
-  return str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+  return String(str)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+// Wrap a string into lines of at most `maxChars` chars.
+function wrapText(str, maxChars) {
+  const words = str.split(" ");
+  const lines = [];
+  let line = "";
+  for (const word of words) {
+    const candidate = line ? `${line} ${word}` : word;
+    if (candidate.length > maxChars && line) {
+      lines.push(line);
+      line = word;
+    } else {
+      line = candidate;
+    }
+  }
+  if (line) lines.push(line);
+  return lines;
 }
 
 async function applyTextOverlay(inputPath, text) {
-  const { heading, subheading, body = [], accent, position = "bottom" } = text;
+  const { heading, subheading, body = [], accent } = text;
   const meta = await sharp(inputPath).metadata();
-  const W = meta.width;
-  const H = meta.height;
-
+  const W = meta.width;   // 1408
+  const H = meta.height;  // 768
+  const PAD = 72;
   const FONT = "Ubuntu, DejaVu Sans, sans-serif";
-  const GRAD_H = Math.round(H * 0.55);
-  const GRAD_Y = position === "top" ? 0 : H - GRAD_H;
-  const TEXT_Y_BASE = position === "top" ? 60 : H - (body.length > 0 ? body.length * 46 + 120 : 90);
 
-  // Word-wrap helper: split text into lines of max `chars` characters
-  function wrapText(str, chars) {
-    const words = str.split(" ");
-    const lines = [];
-    let line = "";
-    for (const word of words) {
-      if ((line + " " + word).trim().length > chars) {
-        if (line) lines.push(line.trim());
-        line = word;
-      } else {
-        line = (line + " " + word).trim();
-      }
-    }
-    if (line) lines.push(line.trim());
-    return lines;
-  }
+  // Wrap text to fit within usable width
+  const headingLines = wrapText(heading, 22);
+  const subLines     = subheading ? wrapText(subheading, 34) : [];
 
-  const headingLines = wrapText(heading, 28);
-  const subLines = subheading ? wrapText(subheading, 38) : [];
+  // Measure total text height to centre vertically
+  const ACCENT_H   = accent ? 52 : 0;
+  const HEAD_SIZE  = 88;
+  const HEAD_LINE  = 100;
+  const SUB_SIZE   = 46;
+  const SUB_LINE   = 56;
+  const BODY_SIZE  = 40;
+  const BODY_LINE  = 52;
+  const BRAND_H    = 44;   // brand line at bottom
+  const GAP        = 24;
 
-  let currentY = TEXT_Y_BASE;
-  const svgLines = [];
+  const totalTextH =
+    ACCENT_H +
+    (accent ? GAP : 0) +
+    headingLines.length * HEAD_LINE +
+    (subLines.length ? GAP + subLines.length * SUB_LINE : 0) +
+    (body.length      ? GAP + body.length * BODY_LINE  : 0);
 
-  // Accent pill (e.g. "SÉRIE 2/4")
+  // Start Y so block is vertically centred (leaving room for brand at bottom)
+  let y = Math.max(PAD + ACCENT_H + 10, Math.round((H - totalTextH) / 2));
+
+  const els = [];
+
+  // Accent pill
   if (accent) {
-    svgLines.push(`
-      <rect x="48" y="${currentY - 36}" width="${accent.length * 14 + 32}" height="40" rx="6"
-            fill="#A855F7" opacity="0.9"/>
-      <text x="64" y="${currentY - 10}" font-family="${FONT}" font-size="22" font-weight="700"
-            fill="white">${xmlEsc(accent)}</text>`);
-    currentY += 54;
+    const pillW = accent.length * 15 + 36;
+    els.push(`
+      <rect x="${PAD}" y="${y}" width="${pillW}" height="40" rx="8"
+            fill="#A855F7"/>
+      <text x="${PAD + 18}" y="${y + 28}" font-family="${FONT}" font-size="24"
+            font-weight="700" fill="white" letter-spacing="1">${xmlEsc(accent)}</text>`);
+    y += 40 + GAP;
   }
 
-  // Heading (large, bold, white)
+  // Heading
   for (const line of headingLines) {
-    svgLines.push(`
-      <text x="48" y="${currentY}" font-family="${FONT}" font-size="64" font-weight="700"
-            fill="white" filter="url(#shadow)">${xmlEsc(line)}</text>`);
-    currentY += 72;
+    els.push(`
+      <text x="${PAD}" y="${y + HEAD_SIZE}" font-family="${FONT}" font-size="${HEAD_SIZE}"
+            font-weight="700" fill="white" filter="url(#sh)">${xmlEsc(line)}</text>`);
+    y += HEAD_LINE;
   }
 
   // Subheading
   if (subLines.length) {
-    currentY += 8;
+    y += GAP;
     for (const line of subLines) {
-      svgLines.push(`
-        <text x="48" y="${currentY}" font-family="${FONT}" font-size="38" font-weight="400"
-              fill="#e5e7eb">${xmlEsc(line)}</text>`);
-      currentY += 46;
+      els.push(`
+        <text x="${PAD}" y="${y + SUB_SIZE}" font-family="${FONT}" font-size="${SUB_SIZE}"
+              font-weight="400" fill="#e2e8f0">${xmlEsc(line)}</text>`);
+      y += SUB_LINE;
     }
   }
 
-  // Body bullet lines
+  // Divider line
   if (body.length) {
-    currentY += 10;
+    y += GAP;
+    els.push(`<line x1="${PAD}" y1="${y}" x2="${W - PAD}" y2="${y}"
+                    stroke="#A855F7" stroke-width="2" opacity="0.7"/>`);
+    y += GAP;
+
     for (const line of body) {
-      svgLines.push(`
-        <text x="48" y="${currentY}" font-family="${FONT}" font-size="34" font-weight="400"
-              fill="#d1fae5">${xmlEsc(line)}</text>`);
-      currentY += 44;
+      els.push(`
+        <text x="${PAD}" y="${y + BODY_SIZE}" font-family="${FONT}" font-size="${BODY_SIZE}"
+              font-weight="400" fill="#a7f3d0">${xmlEsc(line)}</text>`);
+      y += BODY_LINE;
     }
   }
 
-  const gradDir = position === "top" ? "0,0,0,1" : "0,1,0,0";
+  // Brand watermark — always bottom-right
+  els.push(`
+    <text x="${W - PAD}" y="${H - 28}" font-family="${FONT}" font-size="28"
+          font-weight="400" fill="white" opacity="0.55"
+          text-anchor="end">mavilleideale.fr</text>`);
+
   const svg = `<svg width="${W}" height="${H}" xmlns="http://www.w3.org/2000/svg">
     <defs>
-      <linearGradient id="grad" x1="${gradDir.split(",")[0]}" y1="${gradDir.split(",")[1]}"
-                      x2="${gradDir.split(",")[2]}" y2="${gradDir.split(",")[3]}">
-        <stop offset="0%" stop-color="black" stop-opacity="0"/>
-        <stop offset="100%" stop-color="black" stop-opacity="0.82"/>
-      </linearGradient>
-      <filter id="shadow">
-        <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="black" flood-opacity="0.7"/>
+      <filter id="sh">
+        <feDropShadow dx="0" dy="2" stdDeviation="4"
+                      flood-color="black" flood-opacity="0.8"/>
       </filter>
     </defs>
-    <rect x="0" y="${GRAD_Y}" width="${W}" height="${GRAD_H}" fill="url(#grad)"/>
-    ${svgLines.join("\n")}
+    <!-- Full-image dark overlay -->
+    <rect x="0" y="0" width="${W}" height="${H}" fill="black" opacity="0.62"/>
+    ${els.join("\n")}
   </svg>`;
 
   return sharp(inputPath)
