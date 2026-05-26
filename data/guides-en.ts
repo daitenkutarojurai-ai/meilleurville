@@ -8292,8 +8292,272 @@ export const EN_GUIDES: EnGuide[] = [
         body: "Colmar works best for: people drawn to Alsatian culture, wine, and medieval architecture who don't want to pay Strasbourg prices; cross-border workers commuting to Basel or Freiburg; those who find the Franco-German cultural hybridity (choucroute, Riesling, German street names, Romanesque churches) attractive rather than confusing; retirees who want beauty, calm, and good infrastructure without a large city. It works less well for: those who need a large city for professional or social reasons (Colmar is a small city despite its visual impact); those who find the tourist season intrusive (the Old Town in December during the Christmas markets is genuinely overwhelmed); those who prefer Atlantic climate to continental. The price differential with Strasbourg is real and represents genuine value.",
       },
     ],
-    relatedCities: ["colmar", "strasbourg", "mulhouse", "freiburg", "riquewihr"],
+    relatedCities: ["colmar", "strasbourg", "mulhouse", "metz", "belfort"],
     tags: ["living in Colmar expat 2026", "Colmar property prices Alsace 2026", "Alsace wine route living expat", "Colmar vs Strasbourg property 2026", "cross-border worker Basel France 2026"],
+  },
+  {
+    slug: "rouen-living-guide-expats-2026",
+    title: "Living in Rouen: the expat guide 2026",
+    metaTitle: "Living in Rouen, France: Expat Guide 2026 | Costs, Neighbourhoods, Pros & Cons",
+    metaDesc: "Honest expat guide to living in Rouen: property prices €1,900–3,200/m², rents, best quartiers, 75 minutes from Paris, healthcare, schools.",
+    category: "city-guide",
+    emoji: "⚓",
+    readMinutes: 11,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Rouen sits in a dramatic loop of the Seine, one hour and 15 minutes from Paris-Saint-Lazare by direct train — close enough to commute twice a week, far enough to get meaningfully cheaper housing. It is the capital of Normandy, a city of 110,000 (400,000 in the metropolitan area), with one of the most intact Gothic city centres in France, a serious food culture, and the kind of genuine city character that you don't find in bedroom-community suburbs. Property in the historic centre runs €2,500–3,500/m², the residential outer quartiers €1,600–2,200/m². For expats who want a French city with real urban texture at a fraction of Île-de-France prices, Rouen is consistently underestimated.",
+    sections: [
+      {
+        heading: "What kind of city is Rouen?",
+        body: "Rouen is a proper working city that also happens to have exceptional architecture — the Cathedral (which Monet painted 30 times), the Gros-Horloge, the Place du Vieux-Marché where Joan of Arc was executed. But it's not a museum city: it has a university with 65,000 students (Université de Rouen Normandie), a functioning port economy, a tech cluster around the Technopôle du Madrillet, and genuine nightlife in the Saint-Marc and Eau-de-Robec quartiers. The city isn't especially touristy beyond the core historic blocks, which means daily life has a different texture from, say, Strasbourg or Bayonne where you're always navigating tourist crowds. The Seine itself is central to the city's identity — the quayside has been progressively revitalised with cultural programming, outdoor events, and market activity.",
+      },
+      {
+        heading: "Neighbourhoods and where to live",
+        body: "The Rive Droite (right bank) holds the historic centre, the cathedral, and the main commercial streets. It's animated but property in the old town is expensive and parking is a serious problem. For day-to-day livability, expats tend to gravitate to Saint-Marc — lively market quartier east of centre, mixed residential, good food shops — or the Côte Sainte-Catherine / Mont-Saint-Aignan area on the hills above the city, where you get suburban calm with views and good schools. The Rive Gauche (left bank, south of the Seine) is cheaper, more industrial in character, with pockets of gentrification around the Sotteville-lès-Rouen area. Mont-Saint-Aignan is particularly popular with families for its campus, safe streets, and access to the Université — it functions as the educated, middle-class residential plateau.",
+      },
+      {
+        heading: "Property prices and rent in 2026",
+        body: "Historic centre (Rive Droite heritage blocks): €2,800–3,500/m² — premium for the architecture but poor parking and some noise. Saint-Marc and inner residential: €2,200–2,800/m². Mont-Saint-Aignan and hillside suburbs: €2,000–2,600/m². Rive Gauche and outer zones: €1,600–2,200/m². Renovated half-timbered maison normande (the iconic black-and-white timber frame): €350,000–600,000 for a town house in the core, depending on condition. Renting: T2 (1-bed + living) city centre €750–950/month, T3 (2-bed) €1,000–1,250/month, house Mont-Saint-Aignan with garden €1,400–1,800/month. These figures represent roughly 30–40% savings versus equivalent properties in Paris suburbs at similar commute times.",
+      },
+      {
+        heading: "The Paris connection",
+        body: "The 1h15 Paris-Saint-Lazare connection is the defining fact of Rouen's attractiveness. Trains run every 30–60 minutes from early morning to late evening. A monthly abonnement (Fréquence card) runs approximately €450–480/month for Paris-Rouen. For people who need Paris 2–3 days per week — consulting, media, finance, international business — this makes Rouen genuinely viable as a base. The catch: the station is Rouen-Rive-Droite on the right bank, and the line is Intercités (not TGV), so reliability and comfort are more variable than high-speed rail. The A13 motorway connects Rouen to Paris in 1h30 in light traffic (plan for 2h+ at rush hour).",
+      },
+      {
+        heading: "Healthcare and schools",
+        body: "Rouen has the CHU (Centre Hospitalier Universitaire) de Rouen, a full-service teaching hospital that is one of the larger CHUs in France — it handles complex and rare cases that would elsewhere require Paris. Access to specialists via Doctolib is generally good. International school options: there is no dedicated English-language international school in Rouen itself; the nearest are in Paris. Several lycées offer OIB (Option Internationale du Baccalauréat) sections with English-language stream. The French public school system in Rouen functions well and the university presence keeps the overall educational ecosystem strong.",
+      },
+      {
+        heading: "The Normandy factor: climate and lifestyle",
+        body: "Normandy is not the south of France. The climate is oceanic and noticeably more overcast than Atlantic coast cities at lower latitudes: expect around 1,700–1,800 hours of sunshine per year (Paris gets around 1,650, so it's comparable). Rain is frequent but rarely extreme — the stereotype of constant drizzle is only somewhat accurate. The upside is that Normandy produces extraordinary food: the best butter and cream in France (Isigny-Sainte-Mère is 80km away), excellent seafood, Camembert, Calvados, cider. The Seine valley, the Côte d'Alabâtre cliffs at Étretat (90km), the D-Day beaches, and Mont Saint-Michel (2h30) are all within day-trip range. For people who prize cultural and gastronomic richness over year-round sunshine, the calculus works.",
+      },
+      {
+        heading: "The honest verdict",
+        body: "Rouen works well for: Paris commuters (especially 2–3 days/week) who want real housing value without sacrificing urban life; people who appreciate Gothic architecture and Norman food culture seriously; families who want good schools, green suburban options, and access to nature without paying Île-de-France prices; those who find the half-timbered Norman aesthetic genuinely attractive. It works less well for: people who prioritise sunshine and outdoor café culture (the climate is real — grey winters are the norm); those who want proximity to international airports (CDG is 1h45 from Rouen, Beauvais less useful); anyone hoping for a strong English-speaking expat community (it exists but is smaller than in Bordeaux, Montpellier, or Nice).",
+      },
+    ],
+    relatedCities: ["rouen", "caen", "amiens", "le-havre", "paris"],
+    tags: ["living in Rouen expat 2026", "Rouen property prices 2026", "Rouen Paris commute", "moving to Normandy expat", "Rouen vs Caen expat"],
+  },
+  {
+    slug: "orleans-living-guide-expats-2026",
+    title: "Living in Orléans: the expat guide 2026",
+    metaTitle: "Living in Orléans, France: Expat Guide 2026 | Loire Valley, Paris 1h, Costs",
+    metaDesc: "Complete expat guide to Orléans: property prices €2,200–3,400/m², trams, best quartiers, 1h05 from Paris, Loire Valley lifestyle.",
+    category: "city-guide",
+    emoji: "⚔️",
+    readMinutes: 10,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Orléans is the Loire Valley city that doesn't get the tourist attention of Tours or the wine prestige of Blois — which, for anyone wanting to actually live there, is an advantage. It is 117,000 people, 1h05 from Paris-Austerlitz by Intercités and under 2 hours by regional routes via Tours, with two functioning tram lines, a decent university (25,000 students), and property at €2,200–3,400/m² in the city core. The Loire riverfront has been substantially upgraded in the past decade. Orléans is a serious contender for the 'closest liveable French city to Paris at non-Île-de-France prices' position.",
+    sections: [
+      {
+        heading: "City character and what to expect",
+        body: "Orléans is a historically significant French city (the siege of Orléans in 1429, Joan of Arc) that has sometimes struggled to translate history into contemporary identity. The city centre — particularly around the Place du Martroi, the Rue Royale, and the cathedral — is genuinely elegant, Haussmann-scale urban fabric with good food shops, cafés, and a functioning pedestrian zone. The Loire riverfront (the 'Val de Loire' UNESCO landscape begins here) has been transformed into a pedestrian and cycling zone with cafés and cultural programming. The outlying residential areas are more typically French suburban: functional, not beautiful, but well-served by tram and bus.",
+      },
+      {
+        heading: "Neighbourhoods",
+        body: "City centre and Faubourg Saint-Jean: premium addresses, €2,800–3,400/m², good restaurants and market access, limited parking. La Source: university campus area 10km south of centre, connected by Tram B; a distinct suburban district with its own commercial zone; cheap (€1,600–2,200/m²), somewhat characterless, but popular for students and investors (rental demand is consistent). Nord (Fleury-les-Aubrais): near the main train station (Orléans-les-Aubrais for Paris connections), residential, €1,900–2,500/m². Saint-Marceau (south of the Loire, Rive Gauche): quieter, slightly cheaper than the core, good schools, popular with families. Olivet: semi-rural commune adjoining Orléans to the south, along the Loiret river; detached houses, gardens, highly sought by families; €2,200–3,000/m².",
+      },
+      {
+        heading: "Property prices and rents in 2026",
+        body: "City centre historic core: €2,800–3,400/m². Inner residential (Saint-Marceau, Argonne): €2,200–2,800/m². La Source and outer zones: €1,600–2,200/m². Olivet and suburban villages: €2,200–3,000/m² for houses. Renting: T2 centre €700–850/month, T3 €950–1,200/month, T4 house Olivet €1,300–1,700/month. Purchase benchmark: a 3-bedroom house in Olivet with garden runs €280,000–420,000. For comparison, equivalent properties in Paris suburbs at 1h commute (Melun, Mantes-la-Jolie) cost 40–60% more with a similar or worse commute. Orléans is part of the informal Paris commuter zone but hasn't fully priced that in — which represents the value case.",
+      },
+      {
+        heading: "The Paris commute",
+        body: "The main Paris connection is from Orléans-les-Aubrais station (2km north of centre, served by Tram A) to Paris-Austerlitz: 1h05 by Intercités direct. Frequency is reasonable — trains run roughly every 30–60 minutes from 05:30 to 22:30. An annual abonnement (Fréquence) costs approximately €3,600–4,200/year (€300–350/month). The journey is on Intercités trains, not TGV — comfortable enough but worth knowing. Saint-Jean-de-la-Ruelle TER connections to Tours (45min) and thence TGV lines south add flexibility. Driving to Paris: 1h30 in light traffic on the A10/A71; budget 2h in morning rush. The Orléans Métropole has committed to expanding tram coverage within the city, which improves internal mobility.",
+      },
+      {
+        heading: "Loire Valley as a lifestyle context",
+        body: "Orléans sits at the northernmost navigable point of the Loire and marks the start of the UNESCO World Heritage stretch of châteaux and vineyards running to the Atlantic. Day trips to Chambord (45km), Cheverny, Blois, and Amboise are trivial. The Loire cycling route (EuroVelo 6) passes through the city centre on both banks — this is a genuinely excellent cycling city by French standards, with flat terrain, dedicated lanes, and a cycling culture reinforced by the riverfront transformation. The local wine appellation (Orléans AC, mostly Pinot Meunier and Chardonnay) is little-known outside the region and very affordable.",
+      },
+      {
+        heading: "Healthcare and international schools",
+        body: "The CHR d'Orléans (Centre Hospitalier Régional) is the main public hospital — a large regional hospital with full specialties, not a CHU-level teaching hospital. For complex cases, Tours CHU is 1h15 by TER, Paris teaching hospitals 1h05 by rail. Specialist access via Doctolib is adequate; some specialties have waiting times. No dedicated English-language international school. The Lycée Benjamin Franklin in Tours (1h15) offers OIB; alternatively, homeschooling under CNED is an option several expat families use while their children attend French schools.",
+      },
+      {
+        heading: "The honest verdict",
+        body: "Orléans works for: Paris commuters willing to do 2–3 trips per week at manageable cost; people who value the Loire Valley aesthetic and cycling lifestyle; budget-conscious buyers who want a real city with history, trams, and decent food at prices that don't require a French salary; families looking for Olivet-style suburban quality without Île-de-France competition. It works less well for: daily Paris commuters (1h05 each way every day is tiring and expensive); those who want a strong international expat community (the visible expat population is smaller here than in Bordeaux, Nice, or Montpellier); those seeking Mediterranean climate.",
+      },
+    ],
+    relatedCities: ["orleans", "tours", "blois", "chartres", "angers"],
+    tags: ["living in Orléans expat 2026", "Orléans property prices 2026", "Loire Valley expat living", "Orléans Paris commute 1 hour", "moving to Orléans France 2026"],
+  },
+  {
+    slug: "besancon-living-guide-expats-2026",
+    title: "Living in Besançon: the expat's complete guide 2026",
+    metaTitle: "Living in Besançon, France: Expat Guide 2026 | UNESCO Citadel, Swiss Border, Costs",
+    metaDesc: "Honest expat guide to Besançon: property €1,700–2,800/m², tram city, Swiss border lifestyle, healthcare city, Franche-Comté at its best.",
+    category: "city-guide",
+    emoji: "🏰",
+    readMinutes: 10,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Besançon is one of the most beautiful and least-discussed medium-sized cities in France. Built inside a meander of the Doubs river, dominated by a Vauban UNESCO citadel, home to 135,000 people and a university of 26,000 students, it sits 90km from Lausanne and 95km from Basel. It is a genuinely walkable, tram-connected city with property at €1,700–2,800/m² that has not yet been discovered by the remote-work wave in the same way as Annecy or Besançon's alpine neighbours. For quality of life per euro, it is difficult to beat.",
+    sections: [
+      {
+        heading: "What makes Besançon unusual",
+        body: "Besançon was the birthplace of Victor Hugo (the house is still there) and the first city in France to install a public water clock. More relevantly, it is a UNESCO site (Vauban fortifications), a city with a long tradition of precision mechanics and watchmaking (now pivoting to microtechnology and medical devices), and a functioning city that manages to be visually spectacular without being a tourist trap. The Doubs river encircles the old city on three sides; the citadel sits on the fourth on a rocky promontory. The combination gives the city an urban geography unlike anything in western France — it is more central European in character than French, which surprises many first-time visitors.",
+      },
+      {
+        heading: "Neighbourhoods",
+        body: "The Boucle (historic loop enclosed by the Doubs): dense urban living, medieval streets, the cathedral, market halls; property €2,200–3,000/m², limited parking, very animated. Battant: the former textile workers' quartier west of the Doubs bridge, gentrifying rapidly; independent shops, wine bars, the city's bohemian core; €2,000–2,600/m². Planoise: 1970s-era suburban district in the west, connected by tram; cheaper (€1,200–1,700/m²), some social housing, not the obvious expat choice but useful for investment. Palente-Orchamps (north): quieter residential, family-oriented, €1,700–2,200/m². Mouillère and Chaprais: bourgeois residential belts around the historic core, good schools, €2,000–2,800/m², often the preferred address for families.",
+      },
+      {
+        heading: "Property prices and rents in 2026",
+        body: "Historic Boucle: €2,400–3,000/m². Battant and inner residential: €2,000–2,500/m². Middle residential belt (Mouillère, Chaprais): €1,800–2,400/m². Outer zones and Planoise: €1,200–1,800/m². Renting: T2 centre €650–800/month, T3 €850–1,050/month, T4 house with garden near centre €1,100–1,400/month. Besançon represents exceptional value relative to its quality. Annecy — a comparable city in terms of natural setting, university presence, and mountain proximity — costs roughly twice as much. The absence of Besançon from most expat shortlists is partly explained by its distance from Paris (2h45 by TGV to Paris-Gare de Lyon) and partly by lower media visibility.",
+      },
+      {
+        heading: "The Swiss proximity",
+        body: "Basel is 95km from Besançon (1h15 by road). Lausanne is 90km (1h by road on the A9). Geneva is 160km. This matters practically: Besançon has a notable cross-border commuter population working in Basel and the Swiss Jura watchmaking sector (Delémont, Neuchâtel). Swiss salaries in CHF, combined with French housing costs in euros at Besançon prices, produce a substantial income differential. The downside for remote expats: the city is not directly on a TGV axis from Paris (the TGV station Besançon-Franche-Comté TGV is 8km from the city centre, via a connecting shuttle bus; allow 3h total city-to-city including the transfer). Zurich is 2h by car, 2h15 by train via Basel.",
+      },
+      {
+        heading: "Healthcare",
+        body: "The CHU de Besançon is a full teaching hospital — one of the better regional CHUs in eastern France, with particular strength in neurology, oncology, and transplantation. For expats, this matters: the quality of local specialist care is significantly above what you'd find in a small or medium French city without CHU status. Doctolib access to GPs and specialists is reasonable, though some specialties have wait times of several weeks. The university medical campus is integrated with the hospital, keeping standards high.",
+      },
+      {
+        heading: "The Franche-Comté lifestyle",
+        body: "Besançon sits at the gateway to the Doubs gorges and the Jura mountains. Cross-country skiing starts 30km away at Métabief (700km of marked trails); downhill skiing at Les Rousses (70km) and Pontarlier area. In summer, the Doubs valley offers road cycling, trail running, and kayaking on a river that remains clear and cold even in August. The Comté cheese capital (Poligny, 80km) and Jura wine appellations (Arbois, Château-Chalon) are nearby. The food culture is regional and serious: raclette, fondue, vin jaune, and the extraordinary Comté are all produced locally. For people who want genuine mountain proximity combined with a real urban environment, Besançon competes directly with Grenoble and Annecy at a substantially lower price point.",
+      },
+      {
+        heading: "The honest verdict",
+        body: "Besançon works best for: those who value walkable urban beauty and mountain access without paying Annecy or Grenoble prices; cross-border workers into Switzerland (Basel especially); people drawn to precision crafts culture, watchmaking heritage, and a certain central-European seriousness; families who want good schools, a CHU, and outdoor access in one place. It works less well for: those who need quick Paris access (the TGV transfer adds friction); anyone who prioritises Mediterranean climate or beach access; those who want a large, internationally connected city (Besançon is real but provincial by size).",
+      },
+    ],
+    relatedCities: ["besancon", "belfort", "nancy", "metz", "dijon"],
+    tags: ["living in Besançon expat 2026", "Besançon property prices 2026", "Besançon Swiss border commute", "Franche-Comté expat living", "Besançon vs Annecy cost of living"],
+  },
+  {
+    slug: "france-buy-to-let-investment-guide-2026",
+    title: "Buy-to-let in France: the honest investor's guide 2026",
+    metaTitle: "Buy-to-Let in France 2026: Best Cities, Rental Yields, Tax, Expat Guide",
+    metaDesc: "Honest guide to property investment in France as a foreigner: best cities for rental yield, LMNP tax regime, student cities, coastal vs inland, yield data by city.",
+    category: "budget",
+    emoji: "🏠",
+    readMinutes: 13,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "France allows non-residents to own and rent out property — there is no restriction on foreign ownership of French real estate. The rental market is heavily regulated (favourable to tenants), yields are modest compared to Eastern Europe or the UK, but the combination of low entry prices in several cities, reliable tenants (especially student populations), and the LMNP tax regime makes the numbers work in the right locations. This guide cuts through the glossy real estate brochure version and gives you what actually matters: yield data by city, the tax setup, the legal protections you'll need, and where experienced investors are actually buying.",
+    sections: [
+      {
+        heading: "Realistic yield expectations by city type",
+        body: "France is not a high-yield market. Gross rental yields in Paris average 2.5–3.5% — barely above savings rates and below most European markets. The interesting yields are in mid-size cities. As a working range: student cities like Limoges (7–10% gross), Saint-Étienne (6–9%), Amiens (5–7%), Clermont-Ferrand (4.5–6.5%), Poitiers (5–7%). Net yield after charges, insurance, property tax (taxe foncière), and occasional vacancy runs 1.5–3 percentage points below gross. Coastal towns (Biarritz, La Rochelle, Arcachon) typically show 3–5% gross on long-let — the high entry prices compress yields — but short-term rental (Airbnb) on seasonal properties can push effective returns higher before regulatory risk. Lyon, Bordeaux, and Nantes sit in the 3–4.5% gross range: better than Paris but not exceptional.",
+      },
+      {
+        heading: "The LMNP regime: why furnished beats unfurnished",
+        body: "Meublé Non Professionnel (LMNP) is the tax status for furnished rental properties generating less than €23,000/year in rental income (or less than 50% of total household income). Under the Micro-BIC régime within LMNP, 50% of rental income is tax-deductible as a flat abatement — effectively halving your taxable rental income. Under the Réel régime, you can deduct actual charges (management fees, insurance, notary fees amortised, furniture depreciation) which can reduce taxable income to near zero in the early years. Most buy-to-let investors buying furnished studio or T2 units in student cities opt for LMNP Réel. A comptable (accountant) who specialises in this regime charges €400–800/year and is almost always worth it. Note: the 2024 finance law capped Micro-BIC at 30% abatement for non-classé furnished rentals (previously 50%) — confirm current rules at time of purchase, as this area continues to evolve.",
+      },
+      {
+        heading: "Best cities for student buy-to-let",
+        body: "The core logic: university towns have captive demand, student tenants sign 9-month leases (September to May), turnover is predictable, and the properties are typically small (T1 or T2) which means lower entry price. Cities with strong student-to-housing ratios and therefore lower vacancy risk: Poitiers (30,000 students, 90,000 city), Limoges (22,000 students, 133,000 city), Amiens (32,000 students, 135,000 city), Brest (28,000 students, 140,000 city), Reims (34,000 students, 185,000 city). Saint-Étienne has historically high yields (6–9% gross on inner T1-T2) driven by very low entry prices (€700–1,300/m²). The city is declining economically, which means excellent yields but moderate long-term capital growth. Limoges offers similar yield at slightly higher prices with better urban fundamentals.",
+      },
+      {
+        heading: "Coastal and mountain: short-term versus long-let",
+        body: "Short-term rental (Airbnb, Abritel) has been progressively restricted in France since 2023. Paris capped Airbnb to 120 days/year from 2024. Several coastal cities (Biarritz, Nice, La Rochelle) have implemented or are implementing primary-residence requirements or caps. The direction of travel is towards restriction, not liberalisation. That said, outside major cities and the most tourist-saturated coastal communes, short-term rental remains legal and viable. Mountain properties (Savoie, Alpes-de-Haute-Provence, Pyrénées) with established ski-season rental have a more durable structural demand. Gross yields on seasonal Alpine properties run 4–6% when fully managed, with professional rental management companies taking 25–35% of gross revenue.",
+      },
+      {
+        heading: "The purchase process and costs for non-residents",
+        body: "Non-EU nationals and EU nationals alike can buy freely in France. The purchase process (compromis de vente → 10-day cooling-off → notaire completion) is the same as for residents. Notaire fees run 7–8% of purchase price on old property (immobilier ancien), lower on new build (2.5–3%). Non-residents cannot use the PTZ (zero-rate loan) or certain other French state-backed products. Mortgage access: French banks will lend to non-residents but typically require 25–40% down payment and evidence of French rental income (a prior rental history helps). Some investors use cash purchase or raise equity from their home country. Rental management companies (agences de gestion locative) charge 6–10% of gross rent for full management; many non-resident investors find this worth it for peace of mind.",
+      },
+      {
+        heading: "Tax for non-resident property owners",
+        body: "Non-resident rental income from French property is taxed in France, not in your country of residence, unless a tax treaty says otherwise (France has treaties with most EU countries, the US, UK, Canada, and Australia). The standard non-resident rate is 20% flat on net income (after charges) plus 7.5% social contributions (prélèvements sociaux) — effectively 27.5%. EU/EEA residents benefit from the same social contributions rate as residents (17.2%) under post-Brexit and post-COVID rules. Tax returns are filed via impots.gouv.fr or via a fiscal representative (required for non-EU residents). Property selling: capital gains tax (plus-value immobilière) at 19% + social contributions (17.2%) for residents, with taper relief from year 6 (full exemption at year 22 for income tax, year 30 for social contributions). Non-residents pay 26.5% (19% + 7.5%) without the same taper — worth factoring into long-term exit planning.",
+      },
+      {
+        heading: "Where serious investors are actually buying",
+        body: "Based on where yields, fundamentals, and entry prices converge: (1) Limoges T1-T2 near the university campus: €1,200–1,700/m², 7–9% gross, low vacancy, LMNP works well. (2) Amiens northern quartiers close to Université de Picardie: €1,800–2,400/m², 5–7% gross, strong student demand, Paris Intercités commuter city. (3) Clermont-Ferrand inner residential near the Medical/Science faculties: €2,000–2,600/m², 4.5–6%, CHU city with stable professional rental demand. (4) Saint-Étienne entry-level for yield-maximisers: €700–1,300/m², 7–10% possible, but monitor demographic trends carefully. (5) Reims T2 for the dual student/commuter Paris market: €2,200–2,800/m², 4–5.5% gross, TGV 45min from Paris. The common thread is smaller properties (T1 or T2), university-adjacent location, LMNP furnished status, and prices that leave room for yield even after all costs.",
+      },
+    ],
+    relatedCities: ["limoges", "saint-etienne", "amiens", "reims", "clermont-ferrand"],
+    tags: ["buy to let France expat 2026", "rental yield France by city 2026", "LMNP tax France explained", "property investment France foreigner", "best cities buy to let France 2026"],
+  },
+  {
+    slug: "atlantic-coast-france-best-cities-expats-2026",
+    title: "Living on the Atlantic coast of France: expat guide 2026",
+    metaTitle: "Atlantic Coast France: Best Cities for Expats 2026 | La Rochelle, Biarritz, Nantes",
+    metaDesc: "Complete guide to the French Atlantic coast for expats: La Rochelle, Nantes, Biarritz, Bayonne, Vannes. Costs, climate, surfing, lifestyle, honest comparison.",
+    category: "lifestyle",
+    emoji: "🌊",
+    readMinutes: 12,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "The French Atlantic coast runs 2,000km from the Channel to the Spanish border. It is not one thing — La Rochelle is a sailing city with white stone and oysters; Biarritz is a surf town with Basque identity and Spanish proximity; Nantes is a serious European metropolis 50km inland from the ocean; Vannes is a medieval walled city in the gulf of Morbihan. What they share: ocean air, lower prices than the Mediterranean, a more relaxed pace than Paris, and a kind of practical livability that the Côte d'Azur, for all its glamour, often can't match. This guide covers the main Atlantic options with honest data.",
+    sections: [
+      {
+        heading: "The big question: Atlantic vs Mediterranean",
+        body: "The fundamental expat choice between Atlantic and Mediterranean France comes down to climate vs cost, and pace vs scene. The Mediterranean (Nice, Montpellier, Marseille) has more sun (2,700–3,000 hours/year versus 1,900–2,200 on the Atlantic), more tourism, more international visibility, and significantly higher property prices in most desirable locations. The Atlantic offers better value per square metre in most comparable cities, a stronger outdoor and ocean sports culture (surfing, sailing, cycling), and a slightly quieter social pace. For retirees and remote workers, the Atlantic tends to win on value. For those who need the sunshine or the social buzz of a larger international community, the Mediterranean often wins.",
+      },
+      {
+        heading: "La Rochelle: the harbour city",
+        body: "La Rochelle (80,000 city, 160,000 metropolitan) is arguably the best small city in France for quality of life. The harbour, the Vieux-Port towers, the white limestone architecture, the cycling infrastructure (one of the best in France), the oyster bars — it is genuinely beautiful and genuinely livable. University presence (28,000 students) keeps the city young. Property in the central historic quartiers: €3,500–5,000/m² and rising fast (major remote-work inflow post-2020). Île de Ré (15 min by bridge) adds €400,000 minimum for any decent house but is extraordinary. Renting: T2 centre €850–1,100/month. The main constraint: it has become somewhat of a fashionable destination, so prices have climbed. Sunshine: around 2,200 hours/year — notably good for the Atlantic.",
+      },
+      {
+        heading: "Biarritz and Bayonne: the Basque option",
+        body: "Biarritz (26,000) is the iconic surf town — grand Napoléon III villas, the Grande Plage, spectacular Atlantic swells, a serious surfing culture centred on the Côte des Basques break. Property: €4,500–7,500/m² in Biarritz itself, making it the most expensive Atlantic city after La Baule. The nearby alternative: Bayonne (50,000) is 8km inland, fundamentally Basque in character, and roughly 35–40% cheaper (€3,000–4,500/m²). Anglet sits between them and offers practical living at €3,200–4,500/m². The Basque Country package — surf, mountains (Pyrénées 30min), pintxos culture, San Sebastián 45min, Bilbao 2h — is a genuinely unusual lifestyle combination. Climate: 1,900–2,000 sunshine hours/year, Atlantic with Basque warmth, reliable surf winds.",
+      },
+      {
+        heading: "Nantes: the city, not the coast",
+        body: "Nantes (320,000 city, 650,000 metropolitan) is not technically on the Atlantic coast — it's 50km up the Loire estuary — but it belongs in any serious discussion of Atlantic France living. It is consistently voted France's most livable city by multiple quality-of-life indices, and the data supports this: functional transport (tram system, TGV 2h08 to Paris), strong tech and creative economy, good university system (55,000 students), and reasonable prices relative to its quality (city centre €3,400–4,500/m², outer residential €2,500–3,200/m²). The coast (Pornic, Saint-Nazaire, Ile de Noirmoutier) is accessible in 45–60 minutes by car. Nantes is the choice for those who want Atlantic lifestyle with a real metropolitan infrastructure.",
+      },
+      {
+        heading: "Vannes and Morbihan: the quiet option",
+        body: "Vannes (55,000) on the Golfe du Morbihan is one of the most beautiful small cities in France — intact medieval walls, granite centre, access to the gulf islands (Île aux Moines, Belle-Île) via ferry, strong sailing culture. It is quieter than La Rochelle, considerably cheaper (€2,500–3,800/m² for the centre), and lacks the urban diversity of a larger city. The Morbihan coast, including Lorient, Quiberon, and Carnac (megalithic stones), offers extraordinary natural landscape. For retirees or remote workers who want beauty and calm over urban infrastructure, this is the Atlantic option to consider. TGV from Vannes: Paris in 2h40.",
+      },
+      {
+        heading: "The Charente-Maritime and Cognac country",
+        body: "Between Nantes and Bordeaux, the Charente-Maritime (La Rochelle is its capital) and the Cognac/Jarnac area inland offer another Atlantic lifestyle profile. Royan (22,000) is a 1950s beachside resort with excellent sandy beaches, property at €2,500–4,000/m² (beachfront), and a reputation as a retirement and second-home destination. Saintes (25,000) inland is a small city with Roman amphitheatre and cathedral, property at €1,500–2,200/m², serving as a calmer, cheaper base for the Charente lifestyle. Cognac itself (18,000) is obviously dominated by its eponymous industry and has an expat community associated with the brandy houses.",
+      },
+      {
+        heading: "The honest verdict by profile",
+        body: "For remote workers: La Rochelle (best facilities, strong broadband, co-working) or Nantes (largest city infrastructure). For retirees: Vannes/Morbihan (beauty, quiet, lower prices), Bayonne (Basque lifestyle, Spanish proximity), or Saintes/Charente (cheapest option, cultural richness). For families: Nantes (school choice, infrastructure, urban culture) or Brest (very affordable, strong university, genuine community). For beach/surf lifestyle: Biarritz/Anglet (definitive, expensive), La Rochelle second choice. For value: Brest (most affordable genuine city on the Atlantic), Saint-Nazaire (industrial port feel but very cheap and improving), or Charente inland.",
+      },
+    ],
+    relatedCities: ["la-rochelle", "nantes", "biarritz", "vannes", "brest"],
+    tags: ["Atlantic coast France expat 2026", "La Rochelle Biarritz Nantes living guide", "best Atlantic coast French city expat", "France coast living comparison 2026", "moving to Atlantic France expat"],
+  },
+  {
+    slug: "sunshine-cities-france-beat-winter-blues-expats-2026",
+    title: "France's sunniest cities: beating the winter blues as an expat",
+    metaTitle: "Sunniest Cities in France 2026: Beat Winter Blues, Best for SAD, Expat Guide",
+    metaDesc: "Which French cities get the most winter sunshine? Ranked and explained for expats who struggle with grey winters: Mediterranean vs Atlantic, data vs myths.",
+    category: "lifestyle",
+    emoji: "☀️",
+    readMinutes: 9,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Seasonal Affective Disorder is real, and for expats moving from sunnier climates — or from northern Europe seeking more light — the choice of where to live in France matters enormously. France spans genuine climatic diversity: from Paris at 1,650 sunshine hours per year to Nice at 2,720. But the data contains surprises: several cities that expats don't immediately associate with sunshine have significantly better winter light than the headline destinations. This guide works through the actual numbers and what they mean for daily life.",
+    sections: [
+      {
+        heading: "Why sunshine hours matter (and why they don't tell the whole story)",
+        body: "Annual sunshine hours are a useful proxy for general light availability, but what most people respond to psychologically is winter sunshine — specifically November through February. A city can have excellent annual totals but concentrated in summer, with grey winters (Atlantic coast: La Rochelle has 2,200h annually, but January is often overcast). Conversely, cities in the rain shadow of mountain ranges can have excellent winter sunshine even if summer is often clouded by heat. Key metric: January sunshine hours. Paris: ~60h. Lyon: ~75h. Marseille: ~135h. Nice: ~160h. Perpignan: ~150h. Colmar: ~100h (Vosges rain shadow). Toulouse: ~110h. Montpellier: ~145h.",
+      },
+      {
+        heading: "The Mediterranean winners: Perpignan, Montpellier, Nice",
+        body: "For maximum winter sunshine, the Mediterranean coast has no peer in metropolitan France. Nice leads with ~2,720h annually and around 160h in January. Perpignan (2,600h) and Montpellier (2,700h) are close behind. The Pyrénées-Orientales département (Perpignan, Canet-en-Roussillon) benefits from the Tramontane wind, which scours the sky clear on winter days that would otherwise be overcast. The practical trade-off: Nice is expensive (€5,500–8,000/m² for the desirable areas), Montpellier less so (€3,000–4,000/m² centre), Perpignan decidedly affordable (€1,600–2,400/m²). For budget-constrained expats maximising winter light, Perpignan is the answer.",
+      },
+      {
+        heading: "The less obvious choices: Toulouse, Nîmes, Carcassonne",
+        body: "Toulouse (2,100h annually, ~110h January) is not classified as Mediterranean but benefits from warm southern air and more winter sun than most expats expect. It is significantly cheaper than the Côte d'Azur and has much better professional and transport infrastructure. Nîmes (2,600h, classified Mediterranean) is dramatically underrated for value — property at €1,800–2,600/m² in the city centre, excellent Roman architecture, Camargue access, 25min from Montpellier by TGV. Carcassonne is a small city (47,000) with medieval citadel, 2,300h sunshine, and property at €1,200–2,000/m² — exceptional value, limited urban infrastructure.",
+      },
+      {
+        heading: "Mountain cities: the altitude effect",
+        body: "High-altitude cities in France often have more winter sunshine than their lowland neighbours because they sit above frequent valley inversions — cold air traps fog in the valley while the mountains have clear skies. Grenoble (1,800h annually) sits in a valley and suffers from inversion fog in winter; ironically, Grenoble residents who ski regularly may experience more winter sun than those who stay in the city. Annecy (2,000h) is similar — beautiful, but winter fog in the basin is frequent. The Riviera villages above Nice (Vence, Saint-Paul-de-Vence) have notably better winter sunshine than the coastal zones due to altitude and orientation.",
+      },
+      {
+        heading: "Practical strategies for light-sensitive expats",
+        body: "If you are seriously affected by seasonal light: (1) Prioritise cities south of 44° latitude — the solar angle above the horizon in January is meaningfully higher, which matters as much as total sunshine hours for psychological effect. (2) Look for cities east of the main Atlantic weather track — the Rhône corridor from Lyon south has better winter sunshine than Atlantic-facing cities at the same latitude. (3) Mountain access can compensate — living 45min from ski country means weekend access to high-altitude sunshine even when the valley is grey. (4) Light therapy lamps (SAD lamps, 10,000 lux) are available in France and used by many northern-European expats; they do not substitute for actual daylight but help. (5) Consider southern Mediterranean villages over cities if budget allows — the lifestyle trade-off in smaller places is offset by the dramatically better light.",
+      },
+      {
+        heading: "Cities to avoid if winter light matters to you",
+        body: "The worst in France for winter sunshine: the Alsace plain (Strasbourg, Mulhouse, Colmar) sits in a fog belt in winter despite the Vosges rain shadow partially helping; January fog inversions can last for weeks. Grenoble valley fog is notorious. Paris and the Île-de-France are not exceptional — 1,650h annually with grey Novembers and Decembers. The Atlantic coast (Rennes, Brest, Bordeaux) has more annual rain days than sunshine days in winter. If you are moving from a sunny climate (South Africa, Australia, California, Spain) and are psychologically sensitive to grey, the Atlantic or northern France will likely need active mitigation strategies.",
+      },
+      {
+        heading: "The verdict: top 5 cities for light-conscious expats",
+        body: "Ranked by the combination of winter sunshine, quality of life infrastructure, and value: (1) Montpellier — best overall package: 2,700h sun, tram city, university energy, €3,000–4,000/m², 3h30 TGV from Paris. (2) Perpignan — maximum sunshine at minimum cost (€1,600–2,400/m²), smaller city infrastructure. (3) Toulouse — best urban infrastructure in the sunbelt with 2,100h; Airbus/aerospace city with jobs and culture. (4) Nîmes — massively underrated, 2,600h, €1,800–2,600/m², 25min from Montpellier. (5) Nice — definitive sunshine but expensive; right choice if budget isn't a constraint.",
+      },
+    ],
+    relatedCities: ["nice", "montpellier", "perpignan", "nimes", "toulouse"],
+    tags: ["sunniest cities France expat 2026", "winter sunshine France SAD expat", "best cities France sunshine hours", "beat winter blues France living", "Mediterranean France vs Atlantic sunshine"],
   },
 ];
 
