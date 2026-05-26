@@ -9851,6 +9851,356 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["grenoble", "chambery", "annecy", "lyon", "albertville"],
     tags: ["moving to Grenoble expat 2026", "Grenoble expat guide research science", "Grenoble ESRF ILL CEA expat", "living Grenoble Alps ski France 2026", "Grenoble property prices international community"],
   },
+
+  // ── Expat practical series ─────────────────────────────────────────────────
+  {
+    slug: "french-bureaucracy-survival-guide-2026",
+    title: "French Bureaucracy Survival Guide for Expats (2026)",
+    metaTitle: "French Bureaucracy Survival Guide 2026 — Visa, CAF, CPAM, Titre de Séjour",
+    metaDesc: "A no-nonsense walkthrough of French admin: residence permits, CAF housing aid, CPAM health coverage, bank accounts, and the prefecture system — what to expect and in what order.",
+    category: "moving",
+    emoji: "📋",
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "French bureaucracy is not designed to be easy for newcomers — but it is navigable if you understand the sequence. This guide walks through the key administrative steps in the order they matter: bank account, housing, health coverage, residence permit.",
+    readMinutes: 12,
+    sections: [
+      {
+        heading: "The logic of French bureaucracy",
+        body: "French administration is not designed to obstruct you — it is designed around the assumption that you are a French citizen who already has a carte d'identité, a French bank account, and a permanent address. Every document in the system assumes all the others already exist. The practical result: you need to solve a circular dependency problem on arrival. The sequence matters more than any individual step. Priority one is always a bank account and a phone number, because everything else requires them.",
+      },
+      {
+        heading: "Visa categories and residence permits (titre de séjour)",
+        body: "Citizens of EU/EEA/Switzerland do not need a visa or titre de séjour — they register with the mairie if staying over three months. Non-EU nationals need a visa in advance and must convert it to a titre de séjour at the prefecture within 3 months of arrival. Key categories: Visiteur (passive income, no work), Étudiant, Salarié, Passeport Talent (high-skill workers, researchers), Entrepreneur/Profession libérale. The Passeport Talent is valid 4 years initially and is the best option for highly qualified workers — it covers employees of companies with a minimum salary threshold and researchers at accredited institutions. Renewal: apply 2 months before expiry via the ANEF online portal (administration numérique pour les étrangers en France, launched 2021 — this replaced prefecture in-person appointments for most procedures).",
+      },
+      {
+        heading: "Opening a bank account",
+        body: "Without a French bank account, you cannot receive a French salary, pay rent by virement, or receive CAF benefits. The problem: most banks require a French address to open an account. The solution sequence: (1) Open a Wise (UK/EU-based), N26, or Revolut account before arriving — these are SEPA accounts that function as French bank accounts for most purposes. (2) Once in France with an address, open a real French account (BNP, Société Générale, Crédit Mutuel, La Poste — La Banque Postale is often most flexible for new arrivals without French credit history). (3) If all else fails, the Droit au Compte law gives you the right to a basic account at La Banque Postale — request via the Banque de France. Required documents: passport/ID, proof of address (justificatif de domicile — a utility bill, EDF/Engie invoice, or a letter from your employer with a French address).",
+      },
+      {
+        heading: "CAF — housing benefit and family allowances",
+        body: "The CAF (Caisse d'Allocations Familiales) administers housing aid (APL — Aide Personnalisée au Logement) and family allowances. APL depends on your income, rent level, and family situation — in 2026 it typically ranges from €50 to €400/month for a single person renting privately. Eligibility: you must have a regular titre de séjour (5+ years for most non-EU nationals without exception; EU nationals apply immediately). How to apply: create an account on caf.fr, upload your last income declaration (or statement that you have just arrived), rental contract (bail), and RIB (bank details). Processing time: 4–8 weeks. APL is paid directly to your landlord in many cases — confirm with CAF.",
+      },
+      {
+        heading: "CPAM — health coverage (Assurance Maladie)",
+        body: "The CPAM (Caisse Primaire d'Assurance Maladie) manages your health insurance under the French national system. Employees are automatically enrolled through their employer — you receive a Carte Vitale within 4–8 weeks. Self-employed, students, and non-workers apply via ameli.fr. EU citizens can use their EHIC (European Health Insurance Card) temporarily. Non-EU long-stay residents register via the Protection Universelle Maladie (PUMA) — you are eligible from day 1 of legal residency if you have a valid titre de séjour. Private top-up insurance (mutuelle) is highly recommended — the base reimbursement rate is 70% for most consultations. Many employers negotiate group mutuelle contracts. Without a mutuelle, a €2,000 dentist bill becomes €1,400 out-of-pocket.",
+      },
+      {
+        heading: "Finding housing — the French rental system",
+        body: "France's rental market has strict tenant protections (loi ALUR) — which makes landlords risk-averse and documentation-heavy. Standard rental file (dossier de location): passport/ID, last 3 pay slips, last tax declaration (avis d'imposition), employment contract, proof of income ≥3× monthly rent. Without French income: a guarantor (garant) who is a French resident with income is expected. Alternatives: (1) Visale guarantee (Action Logement) — free state-backed guarantee for under 30s and certain categories; (2) private guarantor services (Garantme, Cautioneo — fee-based, ~3.5% annual rent); (3) furnished furnished (meublé) rentals are slightly easier and allow shorter leases (1-year minimum vs 3-year for unfurnished). Key scam warning: never wire a deposit before visiting in person and receiving a signed receipt. The DPE (energy rating) is mandatory in listings since 2021 — filter out F and G ratings (high bills).",
+      },
+      {
+        heading: "The prefecture and ANEF online system",
+        body: "Most titre de séjour procedures have moved to the ANEF online portal (administration-etrangers-en-france.interieur.gouv.fr). The system is functional but imperfect — document upload limits, session timeouts, and occasional portal errors require persistence. Required documents vary by permit type but typically include: passport (all pages), birth certificate with apostille and certified French translation, proof of address, proof of income/resources, employer letter (if applicable), medical certificate (OFII visit, required on first long-stay permit). The OFII medical visit (Office Français de l'Immigration et de l'Intégration) is scheduled after your titre de séjour is approved — it is mandatory and includes a medical exam and language assessment. Missing it can jeopardize renewal.",
+      },
+      {
+        heading: "Practical timeline for a new arrival",
+        body: "Week 1: SIM card (Orange, Free, SFR — any phone shop accepts a foreign ID), open Wise or N26 account, find temporary accommodation (Airbnb, furnished short-term rental). Week 2–4: sign permanent rental contract, open French bank account, declare arrival at mairie if EU citizen. Month 2: file CPAM registration (ameli.fr), file CAF application if renting, register children at school (mairie for primaire, rectorat for collège/lycée). Month 3: file titre de séjour application via ANEF (non-EU). Month 4–6: receive Carte Vitale, receive ANEF decision on titre de séjour. First tax year: file income declaration the following spring (impots.gouv.fr) — even if you arrived mid-year, declare from day of arrival.",
+      },
+    ],
+    relatedCities: ["paris", "lyon", "bordeaux", "marseille", "toulouse"],
+    tags: ["French bureaucracy expat guide 2026", "titre de séjour France expat", "CAF APL France expat", "CPAM health insurance France foreign national", "moving to France paperwork checklist"],
+  },
+  {
+    slug: "buying-property-in-france-expat-guide-2026",
+    title: "Buying Property in France as a Foreigner — Complete Guide (2026)",
+    metaTitle: "Buying Property in France as a Foreigner 2026 — Step-by-Step Guide",
+    metaDesc: "How to buy a house or apartment in France as a non-resident or expat: the notaire process, mortgage rules, taxes, fees, and what the agents won't tell you upfront.",
+    category: "moving",
+    emoji: "🏡",
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "France imposes no restrictions on foreign property ownership — but the purchase process, fee structure, and tax implications have specific features that catch many buyers off guard. This guide covers everything from the compromis to the acte authentique.",
+    readMinutes: 11,
+    sections: [
+      {
+        heading: "Can foreigners buy property in France?",
+        body: "Yes, unconditionally. France imposes no restriction on property ownership by foreigners — non-residents and non-EU nationals can buy freehold property (pleine propriété) on identical terms to French citizens. There is no minimum residency requirement, no land ownership ceiling, and no foreign buyer surcharge. This distinguishes France from countries like Australia, Canada (new restrictions), or Denmark (EU/EEA residency required). The purchase process is identical regardless of nationality — the key variable is your mortgage eligibility, which French banks assess more conservatively for non-residents.",
+      },
+      {
+        heading: "The purchase process — from offer to completion",
+        body: "Step 1 — Compromis de vente: once your offer is accepted, you sign a preliminary contract (compromis or promesse de vente) and pay a deposit of 5–10% of the purchase price. This is binding — the seller cannot accept another offer. The buyer has a 10-day cooling-off period (délai de rétractation) to withdraw without penalty. Step 2 — Due diligence period (3–4 months): the notaire (state-certified solicitor) checks title, searches for encumbrances, orders mandatory diagnostic reports (DPE, amiante, plomb, termites, etc.). Your mortgage offer is firmed up. Step 3 — Acte authentique: final signing at the notaire's office. The full purchase price plus fees are paid. Keys are handed over. The notaire registers the title change with the land registry (publicité foncière). The process typically takes 3–4 months from accepted offer to completion — 2 months if no mortgage.",
+      },
+      {
+        heading: "The notaire — what they do and why you need them",
+        body: "The notaire is a state official who certifies the transaction, holds funds in escrow, performs all legal checks, and registers the transfer. Their involvement is mandatory for any property transaction in France. Costs: notaire fees (frais de notaire) are set by law and are paid by the buyer — typically 7–8% of the purchase price for older properties (resale), 2–3% for new builds (TVA is already included in the price). On a €300,000 apartment, expect €21,000–24,000 in frais de notaire. This is not negotiable — it is state-set. The notaire represents both buyer and seller, but buyers are free to appoint their own notaire in addition (the fees are shared between the two, not doubled). For a non-French speaker, having your own notaire who speaks English and can explain documents is strongly recommended.",
+      },
+      {
+        heading: "Getting a French mortgage as a non-resident",
+        body: "French banks will lend to non-residents but with stricter conditions. Key parameters: loan-to-value (LTV) typically capped at 70–80% for non-residents (vs 85–95% for French residents); debt service ratio (taux d'endettement) capped at 35% of gross income; mandatory life insurance; minimum income evidence (3 years of tax returns or pay slips). Interest rates in 2026: fixed rates typically 3.5–4.5% depending on term and profile. Term: 15–25 years. Currency risk: French mortgages are in euros — if your income is in GBP, USD, or CHF, factor in currency fluctuation. Non-resident mortgage specialists (Banque Transatlantique, Crédit Foncier, BNP International, HSBC France) are easier to deal with than retail branches. Online mortgage brokers (Meilleurtaux, Pretto) can also access non-resident products.",
+      },
+      {
+        heading: "Taxes on French property",
+        body: "Annual taxes: Taxe Foncière — property tax paid by owner, typically €500–3,000/year depending on property size and location. Taxe d'Habitation — abolished for primary residences since 2023 but still applies to second homes. Capital gains tax (plus-value immobilière): 19% flat rate for EU residents, 36.2% for non-EU non-residents, but with substantial abatements after 5 years of ownership — zero CGT after 22 years for income tax, 30 years for social charges. Rental income: if you rent the property, income is subject to French income tax (12.8–45% scale) and social charges (17.2%) for non-residents — total up to 27.5% on rental income. Double-tax treaties exist with most countries (UK, USA, Germany, etc.) — consult a tax advisor. Inheritance tax: France taxes French real estate regardless of where the heir resides — rates vary by relationship (0% spouse, up to 45% for unrelated parties).",
+      },
+      {
+        heading: "Hidden costs and things agents won't mention",
+        body: "Agency fees (honoraires d'agence): in France, agency fees are often paid by the buyer — typically 3–8% of purchase price. Listings marked «FAI» (frais d'agence inclus) include the fee in the listed price. Listings without FAI mean the fee is added on top. Ask explicitly before making an offer. Copropriété charges: apartments in French buildings belong to a co-ownership structure (copropriété). Annual charges (charges de copropriété) cover maintenance, insurance, and shared utilities — verify the last 3 years of accounts and any voted works (travaux votés) that you would inherit as new owner. Renovation in protected zones: properties in secteurs sauvegardés (historic districts) require ABF (Architecte des Bâtiments de France) approval for any exterior work — this can be slow and constrain your choices. DPE rating: energy diagnostics are now binding. F and G-rated properties cannot have rents increased and face progressive rental bans — buying an F/G requires a renovation budget.",
+      },
+      {
+        heading: "Practical tips for non-resident buyers",
+        body: "Use a bilingual notaire or appoint your own alongside the seller's — most notaires in tourist areas (Côte d'Azur, Brittany, Dordogne) have English-speaking staff. Open a French bank account before starting your search — some vendors and all notaires require a French IBAN for the deposit. Visit in person — never buy French property from photos alone. Book a full survey (expertise immobilière) beyond the mandatory diagnostics — the diagnostics reveal risks, not structural defects. Check the Plan Local d'Urbanisme (PLU) if buying land or planning to extend — building rights are tightly regulated. For rural properties, check the SAFER right of pre-emption (agricultural land protection body can pre-empt rural sales in some cases). Currency transfer: use a specialist FX service (Wise, Moneycorp, Currencies Direct) rather than a retail bank — on a €300,000 transfer, saving 1% on exchange rates is €3,000.",
+      },
+    ],
+    relatedCities: ["paris", "bordeaux", "nice", "lyon", "marseille"],
+    tags: ["buying property France foreigner 2026", "French property purchase guide expat", "notaire France property buying fees", "mortgage France non-resident 2026", "French real estate taxes capital gains"],
+  },
+  {
+    slug: "moving-to-france-with-pets-2026",
+    title: "Moving to France with Pets — Everything You Need to Know (2026)",
+    metaTitle: "Moving to France with Pets 2026 — Import Rules, Vets, Housing",
+    metaDesc: "How to bring dogs, cats, or ferrets to France: EU pet passport, rabies titre test for non-EU origins, microchip requirements, airline rules, and finding vet-friendly housing.",
+    category: "moving",
+    emoji: "🐾",
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "France is a pet-friendly country — but the import process has specific documentation requirements that vary sharply depending on where your pet is coming from. For UK and US nationals especially, the timeline is longer than most expect.",
+    readMinutes: 8,
+    sections: [
+      {
+        heading: "Entry requirements by country of origin",
+        body: "France follows EU pet import rules. The requirements differ depending on where your pet is coming from. From EU/EEA countries: EU Pet Passport (issued by a vet in the country of origin), microchip (ISO 15-digit standard), rabies vaccination up to date. Entry: direct, no waiting period. From the UK (post-Brexit): UK is now treated as a non-listed third country. Requirements: ISO microchip, EU-recognised rabies vaccination (given after microchipping), rabies antibody titre test (to prove immunity) with a result of ≥0.5 IU/ml, titre test done at an EU-approved laboratory, waiting period of 3 months after titre test blood draw. The titre test requirement adds roughly 3–4 months to planning time — factor this in. From the USA, Canada, Australia: same as UK rules. These countries are on the EU's «listed third countries» list but with titre test requirements. Check the TRACES NT system before departing — requirements update. From listed third countries (includes most countries): microchip + rabies vaccination + titre test + 21-day wait after vaccination. From unlisted third countries: 6-month quarantine on arrival — effectively means re-homing the pet unless you plan years in advance.",
+      },
+      {
+        heading: "The microchip and documentation in detail",
+        body: "Microchip: must be ISO 11784/11785 (15-digit, 134.2 kHz) — the standard used across Europe. Some older US-standard chips (125 kHz) are not readable by French scanners. If your pet has an older chip, a second ISO chip can be inserted. Vaccination: the rabies vaccine must be given AFTER microchipping (or on the same day) — if it was given before, it does not count. The vaccine must be current on the date of travel. Health certificate: from a vet accredited by the competent authority of the country of origin (in the UK, an Official Veterinarian; in the US, a USDA-accredited vet). The health certificate must be endorsed by the national authority (DEFRA in the UK, USDA APHIS in the US) and must be issued within 10 days of travel. EU Animal Health Certificate (AHC) format is now required for arrivals from non-EU countries.",
+      },
+      {
+        heading: "Finding a vet in France",
+        body: "France has excellent veterinary infrastructure. The Ordre National des Vétérinaires maintains a directory at ordredesveterinairesfr. In cities, chain veterinary clinics (Vétérinaire Référent, Clinique Vétérinaire) are the most accessible — most have English-speaking staff in international areas. To establish a veterinary record in France: book an initial consultation within the first month, bring all vaccination records and the EU pet passport (or health certificate), request that your vet update the SCAD national pet registry (for dogs and cats). Dogs must be registered in the national identification database (I-CAD) within 4 months of birth or on entry to France. Rabies vaccination must be up to date for travel within the EU — your French vet will update the EU Pet Passport.",
+      },
+      {
+        heading: "Housing with pets in France",
+        body: "French law allows tenants to have pets in rentals (since the loi Alur 2014 amendment) — landlords cannot prohibit cats and dogs outright. However, the law has nuances: co-ownership regulations (règlement de copropriété) can restrict certain breeds or sizes in shared buildings, and landlords can refuse pets that cause nuisance. In practice: mention your pet upfront in your rental application dossier. A clear, polite declaration is better than a discovery after signing. Large dogs and certain breeds (Rottweiler, American Staffordshire Terrier, etc.) face additional restrictions — Category 1 dogs (attack dogs) are banned; Category 2 (guard/defence breeds) require a permit, liability insurance, and mandatory training certificate. For houses and ground-floor apartments, pets are broadly accepted. For apartments above ground floor in densely-populated buildings, it depends on the copropriété.",
+      },
+      {
+        heading: "Airline and transport rules",
+        body: "In-cabin: most French and European airlines allow cats and small dogs in the cabin in an approved carrier (typically 5–8kg total including carrier). Air France allows in-cabin pets up to 8kg. Easyjet, Ryanair: no in-cabin pets (UK routes especially) — check per route. In hold: larger pets travel as «baggage» in the pressurised hold. Health certificate required. Stress risk — consult your vet on sedation (note: many vets advise against sedation for hold travel due to altitude effects). The Channel Tunnel (Eurostar): pets travel in the vehicle via Le Shuttle, not in passenger carriages. Eurotunnel Le Shuttle accepts pets in cars. Ferries (Brittany Ferries, DFDS): pets accepted in kennels on deck or in pet-friendly cabins — book well in advance as pet spaces are limited. By car from within Europe: no specific formalities beyond the pet passport, but keep it accessible.",
+      },
+      {
+        heading: "Pet insurance and healthcare costs",
+        body: "France has a developed pet insurance market. Key providers: Agria, Bulle Bleue, Groupama, SwissLife, Fidèle. Monthly premiums: €15–60/month depending on species, breed, age, and coverage level. Basic coverage includes accidents and illness. Comprehensive covers preventive care (vaccinations, dental). French vet costs are broadly comparable to UK costs and lower than US costs — a standard consultation is €40–70, common surgical procedures €500–2,000. Pet insurance pays in France but not for pre-existing conditions — get the pet insured before moving or immediately on arrival. Note: some French insurers require that your vet is registered in France — check portability if you already have foreign insurance.",
+      },
+    ],
+    relatedCities: ["paris", "bordeaux", "lyon", "toulouse", "montpellier"],
+    tags: ["moving France pets 2026", "bringing dog cat France expat", "EU pet passport France requirements", "France pet import rules microchip rabies", "finding vet France expat"],
+  },
+  {
+    slug: "french-healthcare-system-guide-expat-2026",
+    title: "The French Healthcare System — An Expat's Practical Guide (2026)",
+    metaTitle: "French Healthcare System Guide for Expats 2026 — CPAM, Mutuelle, Doctors",
+    metaDesc: "How French healthcare works for expats: CPAM registration, Carte Vitale, médecin traitant, mutuelle top-up insurance, specialist access, and what to do in an emergency.",
+    category: "moving",
+    emoji: "🏥",
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "France's healthcare system is consistently rated among the world's best — but accessing it requires understanding the CPAM registration process, the mutuelle top-up system, and the médecin traitant coordination model. This guide walks through all of it.",
+    readMinutes: 9,
+    sections: [
+      {
+        heading: "Overview — how the system is structured",
+        body: "France has one of the world's highest-rated healthcare systems (WHO 2000 ranking: 1st; 2024 EIU Healthcare Index: consistently top 5 in Europe). The system is a mix of universal public coverage and private practice. Structure: (1) Assurance Maladie (CPAM) — the state insurance fund that reimburses 70–80% of treatment costs. (2) Mutuelle — private supplementary insurance that covers the remaining 20–30%, dental, optical, and some specialist costs. (3) The médecin traitant (declared primary care doctor) — the gatekeeper who coordinates care and whose referrals allow full reimbursement of specialist consultations. Without a médecin traitant, reimbursements for specialists drop significantly. The key principle: you see mostly private practitioners who bill to the state insurance scheme. Hospitals are mostly public but with private practitioner privileges.",
+      },
+      {
+        heading: "Enrolling in CPAM — the Assurance Maladie",
+        body: "EU citizens: register via ameli.fr as soon as you have a French address and are working or resident. Bring or upload: proof of identity, proof of address, RIB (bank details), work contract or proof of residency. Non-EU citizens: register via PUMA (Protection Universelle Maladie) — eligibility from day 1 of legal residency if you have a valid titre de séjour and have been resident for 3 months. Students: register via Espace Étudiant on ameli.fr. Self-employed / micro-entrepreneurs: registration goes through the SSI (Sécurité Sociale des Indépendants) before 2018, now integrated into the general regime. Once registered, you receive a numéro de Sécurité Sociale (13 digits) — keep this. The Carte Vitale (green card) is issued 4–8 weeks after registration and is used at every medical appointment and pharmacy to trigger reimbursement.",
+      },
+      {
+        heading: "Choosing a médecin traitant",
+        body: "Your médecin traitant is your declared primary care doctor — you register them via ameli.fr, and all care coordinated through them is fully covered at the base rate. In practice: this is your GP. Find one who accepts new patients — the shortage of GPs means this can be difficult in rural areas and in some urban districts. Resources: the Annuaire Santé on ameli.fr; Doctolib.fr (the dominant booking platform, used by 80%+ of French doctors); KelDoc. Doctors are categorised by Secteur: Secteur 1 (apply the state tariff, no extra fees, full reimbursement); Secteur 2 (can charge above the tariff — top-ups are partially covered by mutuelle); Secteur 3 (charge freely, poorly reimbursed — avoid for routine care). Consultation fee for a GP in 2026: €26.50 base (Secteur 1), reimbursed at 70% = €18.55 from CPAM, the remainder from mutuelle.",
+      },
+      {
+        heading: "Getting a mutuelle (supplementary insurance)",
+        body: "The mutuelle covers what Assurance Maladie does not: typically the 30% patient share for consultations and hospital stays, dental prosthetics (crowns, implants — reimbursed very partially by CPAM), glasses and lenses, hearing aids, specialist excess fees. Without a mutuelle, a dental implant (€1,500–3,000) is almost entirely out-of-pocket. The law requires employers with 10+ employees to provide a group mutuelle — check your employment contract. Individual mutuelles: Harmonie Mutuelle, MAAF, MACSF, Allianz, Swiss Life. Comparison tool: empruntis.com or lelynx.fr. Monthly cost for an individual: €40–150/month depending on coverage level and age. Highly recommended even for healthy young people — French dental costs without coverage are significant.",
+      },
+      {
+        heading: "Specialist care — the parcours de soins",
+        body: "The parcours de soins coordonnés (coordinated care pathway) requires a médecin traitant referral before seeing a specialist to get the best reimbursement rate. Without referral: you can still see a specialist, but you are reimbursed at a lower rate (57% vs 70%). Exceptions to referral requirement: ophthalmologist, gynaecologist, psychiatrist, dentist (for your own care), paediatrician (for children). Emergency: go directly to urgences (A&E) — no referral needed, fully covered. Specialist waiting times vary widely — Doctolib typically shows real-time availability. In shortage specialities (psychiatry, dermato in rural areas), expect weeks to months. For complex or urgent cases, ask your médecin traitant to write a letter — it often unlocks faster access.",
+      },
+      {
+        heading: "Pharmacies and medication",
+        body: "French pharmacies (pharmacies, identified by the green cross) dispense prescription and OTC medications. The pharmacist (pharmacien) has a significant advisory role — they can suggest treatments for minor ailments, and French law permits them to substitute branded medications for generics. Prescriptions: give to the pharmacist with your Carte Vitale. The pharmacist bills CPAM directly — you pay only your share (typically €0.50–5 for common medications). Without Carte Vitale: pay full price, keep receipts, claim reimbursement via ameli.fr. Paracetamol and ibuprofen are behind the counter — you must ask for them by name, even though they are not prescription drugs.",
+      },
+      {
+        heading: "Emergencies and hospitals",
+        body: "Emergency number: 15 (SAMU — medical emergencies), 15 is the direct line to medical dispatch. 18 is fire brigade (pompiers), who also respond to medical emergencies. 112 is the EU emergency number. For serious emergencies: call 15. For urgent but non-life-threatening issues: urgences at your nearest hospital (CHU — Centre Hospitalier Universitaire in major cities). French public hospitals are excellent and free at point of care — you pay a hospital flat fee (€20/day in 2026) that your mutuelle covers. Private hospitals (cliniques) are used for elective surgery — they accept social security and often have shorter wait times. Pharmacie de garde: a rotating out-of-hours duty pharmacy is always open — the number is 3237 or displayed in any pharmacy window.",
+      },
+    ],
+    relatedCities: ["paris", "lyon", "bordeaux", "toulouse", "marseille"],
+    tags: ["French healthcare system expat 2026", "CPAM registration France expat", "mutuelle France top-up insurance guide", "médecin traitant how to find France", "French healthcare guide foreigners"],
+  },
+  {
+    slug: "lyon-vs-bordeaux-which-city-to-move-to-2026",
+    title: "Lyon vs Bordeaux — Which French City Should You Move To? (2026)",
+    metaTitle: "Lyon vs Bordeaux 2026 — Expat City Comparison: Cost, Jobs, Lifestyle",
+    metaDesc: "A direct comparison of Lyon and Bordeaux for expats and remote workers: property prices, job market, transport, climate, cultural life, and daily quality of life in 2026.",
+    category: "city-guide",
+    emoji: "⚖️",
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Lyon and Bordeaux are the two cities most often compared by people relocating from Paris or moving to France for the first time. Both are excellent — the right choice depends almost entirely on whether you need a local job market.",
+    readMinutes: 9,
+    sections: [
+      {
+        heading: "The fundamental difference",
+        body: "Lyon and Bordeaux are the two most frequently compared French cities for relocation. Both are large (Lyon metro: 2.3M; Bordeaux metro: 950,000), both have excellent quality of life, and both attract significant internal migration from Paris. The fundamental difference: Lyon is an economic powerhouse with a diversified industry base and a very high density of job opportunities. Bordeaux is a lifestyle city — beautiful, Atlantic-facing, wine-focused — but with a smaller job market and rising property prices that eroded its cost advantage. For remote workers, Bordeaux and Lyon are roughly equivalent. For on-site employment, Lyon wins unless your sector is specifically present in Bordeaux.",
+      },
+      {
+        heading: "Jobs and economy",
+        body: "Lyon: Europe's second-largest pharmaceutical cluster (Sanofi, bioMérieux, Boehringer Ingelheim), strong tech sector (Siemens, Capgemini, many scale-ups), financial services, logistics (proximity to motorway hub), manufacturing. The metropolitan economy is genuinely diversified. Unemployment (2026): 6.8%, below national average. Bordeaux: Aerospace (Thales, Safran subsidiaries near Mérignac airport), wine and agri-food industry, tourism and hospitality, tech (growing but smaller than Lyon). The tech scene is real but earlier-stage. Unemployment: 8.2%. Conclusion: if you need a local job market, Lyon has significantly more depth. In specific sectors (aerospace, wine-related), Bordeaux competes.",
+      },
+      {
+        heading: "Cost of living and property",
+        body: "Property prices (2026 median per m²): Lyon centre (Presqu'île, Croix-Rousse): €4,800–6,200. Lyon 6e–8e (residential): €4,200–5,500. Villeurbanne (adjacent, cheaper): €3,500–4,500. Bordeaux centre (Chartrons, Saint-Pierre): €4,500–5,800. Bordeaux suburbs (Mérignac, Pessac): €3,200–4,200. Bordeaux was cheaper than Lyon 10 years ago — it is now broadly equivalent or slightly more expensive in the city centre. Monthly rent for 70m²: Lyon €950–1,300; Bordeaux €950–1,250. Groceries and restaurants: very similar between the two cities — both have higher costs than Toulouse, Nantes, or Rennes. Lyon's transport (TCL) and Bordeaux's (TBM) are comparable in coverage and cost.",
+      },
+      {
+        heading: "Climate",
+        body: "Lyon: continental climate with cold winters (average January 4°C, frost common), very hot summers (July average 23°C, 40°C+ heatwaves increasing), unpredictable springs. The Bise (cold north wind) is a feature in winter. Sunshine: 2,000 hours/year. Bordeaux: oceanic Atlantic climate — milder winters (January 7°C, frost rare), warm summers (July 22°C, heatwaves but Atlantic breezes), mild autumns. Sunshine: 2,100 hours/year. Very similar sunshine totals, but Bordeaux's climate is significantly more temperate — less extreme cold and less heat stress. For those bothered by temperature extremes, Bordeaux wins. Note: Bordeaux is more exposed to Atlantic storms and rain. Lyon is drier overall.",
+      },
+      {
+        heading: "Transport and connections",
+        body: "Both cities have TGV connections to Paris (Lyon: 2h; Bordeaux: 2h05). Lyon is a major rail hub — connections to Marseille (1h40), Geneva (2h), Turin (3h40), Barcelona (4h30). Lyon Saint-Exupéry airport: 120+ destinations including major intercontinental connections. Bordeaux: TGV connections to Paris and Toulouse; international flights via Bordeaux-Mérignac (smaller range, mostly European). Internal city transport: Lyon's metro (4 lines) is more developed than Bordeaux's tram (4 lines + BRT) for radial journeys. Both cities are good cycling cities. Lyon wins on transport connectivity — especially if you need international connections.",
+      },
+      {
+        heading: "Cultural life and food",
+        body: "Lyon is the undisputed gastronomic capital of France — bouchons, covered markets (Les Halles Paul Bocuse), 26 Michelin-starred restaurants in the metro. The cultural offer is very high for a French city: Opéra, Musée des Confluences, Fête des Lumières (December). Bordeaux has a strong cultural scene for its size — CAPC (contemporary art), Cave de la Chartreuse, excellent music venues — but less depth than Lyon. Wine culture is a major plus for Bordeaux (Saint-Émilion, Médoc, Graves 30 minutes away). Food culture: Bordeaux has its specialties (oysters, duck, Basque influences) but the gastronomic density is lower than Lyon. For food and culture, Lyon is the stronger choice; for wine and beach proximity, Bordeaux.",
+      },
+      {
+        heading: "Verdict",
+        body: "Choose Lyon if: you need a dense local job market, you value transport connectivity (TGV, airport), you want the broadest cultural and gastronomic offer in France outside Paris, or you don't mind colder winters. Choose Bordeaux if: you are a remote worker or have a portable career, you prioritise mild Atlantic climate, proximity to the Atlantic coast (La Baule, Arcachon, Hossegor 90min), a slightly quieter pace, or you have a specific reason to be in the Bordeaux economic zone (aerospace, wine). Neither choice is wrong — these are two of the best cities in France to live.",
+      },
+    ],
+    relatedCities: ["lyon", "bordeaux"],
+    tags: ["Lyon vs Bordeaux expat comparison 2026", "moving to Lyon or Bordeaux France", "Lyon Bordeaux cost living property 2026", "best French city to move to expat", "Lyon Bordeaux relocation comparison"],
+  },
+  {
+    slug: "paris-vs-province-real-cost-comparison-2026",
+    title: "Paris vs Province — The Real Cost Comparison (2026)",
+    metaTitle: "Paris vs Province France — Real Cost Comparison 2026 for Expats",
+    metaDesc: "What does it actually cost to live in Paris vs Lyon, Bordeaux, Toulouse, or Rennes? A side-by-side comparison of rent, groceries, childcare, dining out, and total monthly budgets for 2026.",
+    category: "budget",
+    emoji: "💶",
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "The cost differential between Paris and provincial France is substantial — often €12,000–20,000 per year for a couple at equivalent lifestyle. This guide breaks it down by category so you can run the real numbers for your situation.",
+    readMinutes: 8,
+    sections: [
+      {
+        heading: "Why this comparison matters",
+        body: "Salary negotiations in France are often Paris-indexed — companies offer market-rate Paris salaries for remote roles without adjusting to local costs. Understanding the real cost differential helps you negotiate, plan, and decide where to locate. The gap between Paris and major provincial cities is substantial but not infinite — and it has narrowed slightly as Bordeaux and Lyon have seen significant price rises since 2018.",
+      },
+      {
+        heading: "Rent — the biggest variable",
+        body: "Monthly rent for a 2-bedroom apartment (65–70m²), unfurnished: Paris 10e–11e (central, affordable districts): €2,000–2,500. Paris 15e–17e (residential): €2,200–2,800. Lyon centre (Presqu'île): €1,200–1,600. Bordeaux centre: €1,100–1,500. Toulouse centre: €900–1,200. Nantes centre: €950–1,300. Rennes centre: €850–1,200. Montpellier centre: €850–1,200. Strasbourg centre: €900–1,200. The rent differential between Paris and a good provincial city is €800–1,500/month for a 2-bedroom. Over 12 months: €10,000–18,000 saving annually on housing alone. This is the core of the Paris-vs-province calculation.",
+      },
+      {
+        heading: "Groceries and food",
+        body: "Supermarket prices in France are largely nationalised — Carrefour, Leclerc, Intermarché charge very similar prices everywhere. The difference is mainly in the independent market offer, which is slightly cheaper outside Paris. Budget for a couple cooking most meals: Paris €600–750/month; provincial city €500–650/month. Restaurant dinner for two (no wine): Paris bistrot €60–100; provincial equivalent €40–70. Café espresso: Paris €2.50–3.50; province €1.80–2.50. The food cost difference is meaningful for restaurant-goers but modest for home cooks.",
+      },
+      {
+        heading: "Transport",
+        body: "Paris: Navigo pass (all zones, trains, metro, bus) €86.40/month. Car ownership discouraged by cost and parking. Provincial city: monthly transit pass €50–70; car needed for some suburban trips or regional access (€200–400/month total ownership cost including insurance, fuel, parking). Net transport cost is often lower in Paris for those who sell their car — but the transit pass doesn't cover the TGV for trips to Paris. Remote workers in province who visit Paris 2× monthly: add ~€120–200/month for train.",
+      },
+      {
+        heading: "Childcare and schools",
+        body: "Public nurseries (crèches municipales): waiting lists everywhere, but priority given to local residents. Cost after CAF subsidy: income-based, typically €100–400/month regardless of city. Private childminders (assistantes maternelles): slightly cheaper outside Paris. International schools: exist in Lyon (Cité Scolaire Internationale), Toulouse, Bordeaux, Strasbourg, Montpellier — not only in Paris. Lycée public: free everywhere. Overall, childcare costs are broadly similar nationally — what differs is availability of international schooling options.",
+      },
+      {
+        heading: "Total monthly budget comparison (couple, no children, renting)",
+        body: "Paris (7e–15e): €4,500–6,000/month all-in (rent + food + transport + leisure + utilities). Lyon (2e–6e): €3,000–4,000/month. Bordeaux: €2,900–3,800/month. Toulouse: €2,600–3,400/month. Nantes: €2,700–3,500/month. Rennes: €2,500–3,300/month. The difference: living in Lyon vs Paris saves a couple €18,000–24,000 per year at equivalent lifestyle. Living in Toulouse vs Paris saves €24,000–30,000. At that delta, a Paris salary negotiation can often be won by simply being transparent: «I'm based in Toulouse, the cost-of-living delta is €2,000/month, and I'm accepting a regional rate in return for flexibility.» Most companies understand this math.",
+      },
+      {
+        heading: "What you give up leaving Paris",
+        body: "The Paris premium is real for some categories: density of specialised jobs in certain sectors (media, fashion, top-tier consulting, international organisations); breadth of cultural output (theatre, art exhibitions, music — though Lyon and Bordeaux have strong offerings); direct international flight connections (though Lyon and Nice connect well); the social network effect for specific professional niches. What you don't give up: quality of life (most provincial cities rank higher), nature access (universally better outside Paris), commute time (dramatically better), and housing quality per euro (a 100m² flat with a terrace in Lyon costs less than a 50m² Paris apartment). The calculation is increasingly clear for remote workers: there is no reason to stay in Paris unless your specific career or social network demands it.",
+      },
+    ],
+    relatedCities: ["paris", "lyon", "bordeaux", "toulouse", "rennes"],
+    tags: ["Paris vs province cost comparison 2026", "cost of living France cities expat", "Paris vs Lyon Bordeaux Toulouse monthly budget", "moving out of Paris France 2026", "French cities cost comparison remote work"],
+  },
+  {
+    slug: "learning-french-in-france-guide-2026",
+    title: "Learning French in France — Schools, Methods, and Realistic Expectations (2026)",
+    metaTitle: "Learning French in France 2026 — Language Schools, Apps, Immersion Guide",
+    metaDesc: "How to learn French as an expat living in France: language schools, Alliance Française, immersion strategies, DELF/DALF certification, and realistic timelines by level.",
+    category: "moving",
+    emoji: "🗣️",
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Living in France speeds up French acquisition — but immersion alone is not enough. Structured study, the right tools, and forcing yourself out of English-speaking environments are what separate expats who reach B2 in a year from those who plateau at A2.",
+    readMinutes: 8,
+    sections: [
+      {
+        heading: "How long does it actually take?",
+        body: "The US Foreign Service Institute rates French as a Category I language for English speakers — 600–750 classroom hours to professional working proficiency (B2). In full immersion, with daily French exposure and structured study: A1 (basic) in 1–2 months; A2 (survival) in 3–4 months; B1 (intermediate, able to function daily) in 6–9 months; B2 (independent user) in 12–18 months; C1 (advanced) in 2–3 years of active use. These are realistic averages for motivated adults. Two caveats: immersion alone is not enough — without structured grammar study, progress plateaus. And English speakers get a false sense of security from the 40% shared vocabulary — French grammar and spoken rhythm are genuinely different.",
+      },
+      {
+        heading: "Language schools and formal courses",
+        body: "Alliance Française: the gold standard of French instruction abroad, with centres in every major French city (Paris, Lyon, Bordeaux, Marseille, Strasbourg, Nantes, Rennes, etc.). Intensive courses 20h/week: €500–900/month. Evening courses: €300–500/trimester. Their DELF/DALF exam preparation courses are structured and effective. IFG (Institut de Français de Grasse): the most intense immersion school in France — total immersion, no English on premises, 8h daily, accommodation included. Used by professionals who need rapid proficiency. Cost: ~€2,000–2,500/week. French universities: most offer French as a Foreign Language (FLE) departments with semester programmes — used mainly by exchange students but open to adults. CAVILAM Vichy: national language centre with intensive and specialised programmes (medical French, legal French, business French). Local associations: many cities have French conversation exchange programmes (tandem), often free, organised through the mairie.",
+      },
+      {
+        heading: "Daily immersion strategies that work",
+        body: "Living in France doesn't automatically teach you French — you need to force yourself out of English-speaking bubbles. Strategies that work: (1) Change all your devices and interfaces to French immediately — this one change maintains constant vocabulary exposure. (2) Watch French TV with French subtitles, not English — Netflix has French content, ARTE is available free online. (3) Find a tandem language partner via Tandem, HelloTalk, or the local Alliance Française. (4) Join a local association, sports club, or amateur choir — contexts where you have to communicate in French with no English fallback. (5) Listen to French podcasts at your level (Français Authentique, Coffee Break French, InnerFrench — specifically designed for non-native speakers). (6) Read French news daily — Le Monde, Le Figaro, Libération. Start with the summaries.",
+      },
+      {
+        heading: "The DELF and DALF certifications",
+        body: "DELF (Diplôme d'Études en Langue Française) covers A1–B2. DALF (Diplôme Approfondi de Langue Française) covers C1–C2. These are the internationally recognised French language certifications, accepted for immigration, university admission, and professional contexts. DELF B1 is the minimum for many professional contexts; B2 is typically required for French university admission. The exams are administered by the French Ministry of Education through Alliance Française and official centres. Registration: through any accredited exam centre. Cost: approximately €100–180 per session depending on level. Preparation: Alliance Française courses designed specifically for DELF/DALF are the most efficient path.",
+      },
+      {
+        heading: "Apps and technology — what's actually useful",
+        body: "Duolingo: useful for vocabulary acquisition and habit formation at beginner levels. Its gamification maintains momentum. Limitation: grammar depth is shallow, and it doesn't prepare you for real spoken French. Anki: spaced-repetition flashcard system — very effective for vocabulary if you maintain the habit. No guidance on pronunciation. Babbel: more structured grammar explanation than Duolingo, good for A1–A2 progression. Pimsleur: audio-based method, strong for pronunciation and spoken pattern formation — used well as a complement to written study. Speechling: real-time pronunciation feedback from human coaches. Recommended combination: Anki for vocabulary (daily), Pimsleur or Speechling for oral skills (3× week), a grammar textbook (Grammaire Progressive du Français is the standard), and a formal course for structure.",
+      },
+      {
+        heading: "Navigating the French education system with children",
+        body: "Children acquire French much faster than adults in school immersion — B2 proficiency within 6–12 months of school attendance is typical for primary-age children. The French école primaire has no formal EAL (English as Additional Language) support in most public schools — children are placed in the normal class and adapt. For older children (collège, lycée), some schools have CASNAV structures (classes d'accueil) for non-francophone new arrivals — these transition classes provide intensive French before integration. Check with the rectorat of your département on arrival to find CASNAV-equipped schools. The key message: don't delay school enrollment for language reasons. Immersion at school age is the fastest language acquisition route available.",
+      },
+    ],
+    relatedCities: ["paris", "bordeaux", "lyon", "toulouse", "montpellier"],
+    tags: ["learning French France expat 2026", "French language school Alliance Française", "DELF DALF certification France 2026", "how long to learn French immersion", "French immersion tips expat living France"],
+  },
+  {
+    slug: "retiring-to-france-guide-2026",
+    title: "Retiring to France — A Realistic Guide for Non-EU Nationals (2026)",
+    metaTitle: "Retiring to France 2026 — Visa, Taxes, Healthcare, Best Cities Guide",
+    metaDesc: "How to retire to France as a British, American, or non-EU national: long-stay visa, income requirements, tax treaties, healthcare options, and the best cities for retirees.",
+    category: "moving",
+    emoji: "🌻",
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "France is one of the world's most sought-after retirement destinations — but the administrative path for non-EU nationals involves specific visa categories, income proof requirements, and tax implications that need to be understood before you book the removal van.",
+    readMinutes: 10,
+    sections: [
+      {
+        heading: "Is France a good place to retire?",
+        body: "France is one of the top destinations for international retirement for clear reasons: world-class healthcare (free for legal residents), exceptional food culture, diverse geography (Atlantic, Mediterranean, mountains, countryside), excellent rail infrastructure, strong social support structures, and a cost of living that is high in Paris but very reasonable in regional cities. Drawbacks: the administrative burden for non-EU retirees is real — annual visa renewals for the first four years, income documentation requirements, tax complexity if you retain assets abroad. French bureaucracy is a non-trivial time investment. But for those who commit, France rewards the effort. The quality of life for retirees in Burgundy, Provence, the Dordogne, or the Loire Valley is genuinely among the best in the world.",
+      },
+      {
+        heading: "Visa — the Visiteur long-stay visa",
+        body: "Non-EU retirees (UK, US, Canadian, Australian nationals) need a Long Stay Visa (visa de long séjour) in the «Visiteur» category. This is specifically for people who can support themselves without working in France. Requirements: proof of sufficient financial means (in 2026, approximately €1,500–2,000/month per person in minimum income, though the threshold is not formally fixed — consulates use discretion); proof of accommodation in France (rental contract, property deed, or host family attestation); private health insurance that covers France (until you qualify for PUMA/Assurance Maladie after 3 months of legal residency); no intention to work. The visa is initially granted for 1 year and must be renewed at the prefecture. After 5 years of consecutive legal residency, you can apply for a 10-year carte de résident. After 5 years (EU rules) or specific conditions: permanent residency.",
+      },
+      {
+        heading: "Income requirements and pension recognition",
+        body: "France accepts foreign pensions as proof of means. UK state pension and occupational pensions, US Social Security and 401k distributions, Canadian CPP — all accepted as evidence of income. Required documentation: recent pension statements (3 months), a letter from the pension provider confirming the annual amount, bank statements showing regular deposits. Important: France does not have a minimum income threshold in law for the Visiteur visa — individual consulates interpret «sufficient means» differently. The standard working assumption used by consulates (Lyon, Bordeaux, Paris) in 2026 is approximately €1,800/month for a single person, €2,500 for a couple. Having a demonstrably comfortable surplus above this (investments, savings) strengthens the application. Property ownership in France is a strong positive factor.",
+      },
+      {
+        heading: "Taxes — the critical question",
+        body: "France taxes worldwide income of tax residents (183+ days in France). Double taxation treaties exist with the UK, US, Canada, Australia, and most other relevant countries — meaning you won't be taxed twice on the same income, but France's income tax rates are higher than some home countries. The income tax scale (2026): 0% up to €11,294; 11% €11,294–28,797; 30% €28,797–82,341; 41% €82,341–177,106; 45% above €177,106. Social charges (CSG/CRDS): 7.5–9.7% on pension income for French residents. Total effective tax rate for a retiree with €60,000 annual income: roughly 18–22% in France vs approximately 20% in the UK, or significantly less in some US states. Consult a tax advisor who specialises in French-foreign tax situations (cross-border specialists: Raymond James France, PwC France International Mobility team, Cabinet Ogivet). Specific to UK nationals post-Brexit: the UK-France double tax treaty remains in force. US nationals: the US-France treaty dates from 1994 and covers income, dividends, and capital gains.",
+      },
+      {
+        heading: "Healthcare as a retiree in France",
+        body: "After 3 months of legal residency, non-EU retirees can register for PUMA (Protection Universelle Maladie) and become eligible for Assurance Maladie. This gives access to the same state healthcare as French citizens — reimbursements at 70–80%, free hospitalisation for major procedures. A mutuelle (supplementary insurance) is still strongly recommended for dental, optical, and excess specialist fees. Cost: €80–200/month at age 65+. Until you reach the 3-month threshold: private health insurance is mandatory and must be shown to the consulate. EU S1 form: British nationals who receive UK state pension and move to France can obtain an S1 form from HMRC — this form transfers your healthcare entitlement from the UK NHS to the French system, and France is reimbursed by the UK for your costs. The S1 arrangement survived Brexit under the Trade and Cooperation Agreement.",
+      },
+      {
+        heading: "Best cities and regions for retirees",
+        body: "Dordogne (Périgord): low property prices, large English-speaking community, beautiful countryside, mild climate. Périgueux and Sarlat as main towns. Limited specialist healthcare locally — nearest major hospital is Bordeaux. Provence: Aix-en-Provence, Avignon, Luberon villages — beautiful, warm, expensive. Healthcare excellent in Aix and Marseille. International population, English widely spoken. Loire Valley: Tours, Chinon, Amboise, Blois — UNESCO World Heritage, châteaux, affordable property, good healthcare, temperate climate. Brittany (Finistère, Côtes-d'Armor): mild climate, strong expat community (British especially), affordable, excellent produce. Healthcare adequate in Brest, Quimper, St-Malo. Occitanie (Lot, Aveyron, Tarn): rural, very affordable, deep countryside, small English-speaking communities. Limited services — requires French language competence. For active retirees who still want a city: Lyon (excellent healthcare, culture), Bordeaux (wine, coast proximity), Montpellier (Mediterranean warmth, medical university town).",
+      },
+      {
+        heading: "Practical first steps",
+        body: "12 months before: consult a French tax advisor; consult your pension provider on any implications of becoming a French tax resident; begin French language study. 6 months before: start the visa application process (contact the French consulate in your country of residence — many require in-person appointments booked months in advance); secure temporary or permanent accommodation in France. 3 months before: arrange private health insurance for the transition period; organise currency transfer arrangements. On arrival: register with the local mairie (for EU nationals); file titre de séjour application (ANEF portal, for non-EU); register with CPAM after 3 months. First year in France: file first French income tax return (regardless of when you arrived, even if partially covered by UK/US returns the same year).",
+      },
+    ],
+    relatedCities: ["bordeaux", "aix-en-provence", "montpellier", "tours", "nice"],
+    tags: ["retiring to France non-EU 2026", "France retirement visa British American guide", "best places retire France expat 2026", "French long-stay visa Visiteur retiree", "taxes retiring to France UK US"],
+  },
 ];
 
 export function getEnGuide(slug: string): EnGuide | undefined {
