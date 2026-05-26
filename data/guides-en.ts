@@ -9267,6 +9267,230 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["annecy", "grenoble", "chambery", "lyon", "aix-les-bains"],
     tags: ["French Alps cities expats 2026", "Annecy vs Grenoble vs Chambéry expat", "best Alpine city France expat", "Annecy Grenoble property prices 2026", "French Alps expat guide 2026"],
   },
+  {
+    slug: "lyon-for-expats-complete-guide-2026",
+    title: "Moving to Lyon: the complete expat guide (2026)",
+    metaTitle: "Moving to Lyon 2026: Complete Expat Guide — Costs, Food, Neighbourhoods",
+    metaDesc: "Everything about moving to Lyon as an expat: property prices, Presqu'île vs Croix-Rousse, food culture, English community, jobs. Honest 2026 expat guide.",
+    category: "city-guide",
+    emoji: "🥩",
+    readMinutes: 10,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Lyon is France's second city by economic weight, its capital of gastronomy, and one of the most liveable large cities in Europe. For expats, Lyon occupies an interesting position: large enough to offer genuine career opportunities and urban infrastructure, small enough that you can genuinely know the city within 6 months. It sits between Paris (2h TGV) and Marseille (1h45 TGV), with direct access to the Alps and the Rhône Valley. The Lyonnais reputation for cultural conservatism is somewhat overstated — the city is cosmopolitan and has a substantial international community.",
+    sections: [
+      {
+        heading: "Property and rents in 2026",
+        body: "Lyon's property market has risen sharply over the past decade and now sits firmly in mid-range French metropolitan territory. Key benchmarks: Presqu'île (historic peninsula, most desirable): €5,000–7,500/m². Croix-Rousse (bohemian hillside, silk weavers' quarter): €4,500–6,500/m². Confluence (south Presqu'île, modern architecture): €4,000–5,500/m². Part-Dieu and east of centre (more dense, less prestigious): €3,200–4,500/m². Villeurbanne (adjacent commune, effectively continuous with Lyon): €3,000–4,200/m² — the best value close-in option. Monthly rent for 70m²: €1,100–1,800 depending on the quartier. Lyon has the sharpest intra-city price variation in France after Paris.",
+      },
+      {
+        heading: "The food culture: it's real and it matters",
+        body: "Lyon's reputation as France's gastronomic capital is not tourist marketing — it is a lived cultural reality that shapes daily life. The Halles Paul Bocuse covered market (Brotteaux district) is a genuine institution: charcutiers, fromagers, and poissoniers who take their craft seriously. Bouchons lyonnais (traditional bistros serving quenelles, andouillette, tête de veau) are neighbourhood institutions. Saturday morning markets at the Quais de Saône are rituals, not attractions. The density of genuinely excellent cheap-to-mid restaurants per inhabitant exceeds any other French city. For expats who love food, Lyon is the correct choice over Paris — better quality per euro, more accessible.",
+      },
+      {
+        heading: "Employment and economic profile",
+        body: "Lyon has France's second-largest concentration of corporate headquarters after Paris. Key economic anchors: Euronews (European headquarters), Sanofi (major pharma R&D centre), bioMérieux, Limonest (SAP France headquarters), Dassault Systèmes, Alstom, GL Events. The BioParc Lyon-Gerland (bio-cluster) has made Lyon a serious centre for life sciences. The Lyon financial district (Part-Dieu) houses the major French banks' regional offices. For international professionals in pharma, financial services, consulting, and engineering, Lyon offers genuine career opportunities without Paris costs. Euronews alone employs hundreds of multilingual Europeans.",
+      },
+      {
+        heading: "Neighbourhoods for expats",
+        body: "Croix-Rousse is consistently the first choice for expats who want character, community feel, and access to the city without being in the tourist core. The north-facing terraces (traboules — secret interior passages), markets, and café culture make it feel like a village within a metropolis. Confluence (south of the Presqu'île) is where the younger professional expat community has settled since the urban regeneration — modern buildings, riverside access, design-focused urban planning. Brotteaux and Cité Internationale (northeast, near the Parc de la Tête d'Or) attract families — large apartments, proximity to the international park, direct access by metro to Part-Dieu.",
+      },
+      {
+        heading: "Practical life: transport, schools, healthcare",
+        body: "Transport: Lyon has excellent public transit — metro (4 lines), tram (7 lines, expanding), funicular (Croix-Rousse and Fourvière). Vélo'v bike-sharing is extensive. TGV Paris: 2h00. Geneva: 2h by train. Marseille: 1h45. The A6/A7 motorway provides access north to Paris and south to the Côte d'Azur. Schools: multiple international options including Lycée International de Lyon (sections internationales), Cité Scolaire Internationale (CSI, bilingual tracks to Bac), and American School of Lyon (private, expensive). Healthcare: Hospices Civils de Lyon (HCL) is one of France's largest and most comprehensive hospital systems — Lyon has excellent specialist medical coverage. English-speaking GP access is possible but requires active searching.",
+      },
+    ],
+    relatedCities: ["lyon", "grenoble", "chambery", "dijon", "saint-etienne"],
+    tags: ["moving to Lyon expat 2026", "Lyon expat guide English", "living Lyon France property prices", "Lyon food culture expat life", "Lyon neighbourhoods Croix-Rousse Confluence expat"],
+  },
+  {
+    slug: "french-bureaucracy-guide-expats-2026",
+    title: "French bureaucracy for expats: what you actually need to know (2026)",
+    metaTitle: "French Bureaucracy for Expats 2026: Complete Practical Guide",
+    metaDesc: "Visa, carte de séjour, CPAM, CAF, driving licence, bank account. French bureaucracy explained clearly for expats moving to France in 2026.",
+    category: "moving",
+    emoji: "📋",
+    readMinutes: 10,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "France's administrative system has a well-deserved reputation for complexity, but most of the horror stories circulate because people attempt to navigate it without understanding how it is structured. The system is logical — deeply so — once you understand its internal rules. This guide covers the administrative milestones that affect most expats in rough chronological order: arrival, registration, healthcare, social security, banking, and the car.",
+    sections: [
+      {
+        heading: "Before you arrive: visa and initial paperwork",
+        body: "EU/EEA/Swiss citizens do not need a visa to live and work in France — you have the right of free movement. After 3 months, you should register at your local mairie (town hall) but this is not legally mandatory in the same way as other countries. Non-EU citizens (British post-Brexit, American, Canadian, Australian, etc.) need a long-stay visa (visa de long séjour, type D) issued before arrival by the French consulate in your country. The most common categories: salarié (employed, requires employer sponsorship), passeport talent (for highly qualified workers), visiteur (financially independent, cannot work), and regroupement familial (family reunion). Apply 3–4 months before your planned arrival. The visa application requires specific documents — consulate websites list them and the lists are accurate.",
+      },
+      {
+        heading: "Establishing residency: carte de séjour and OFII",
+        body: "Non-EU nationals who arrive on a long-stay visa must complete OFII (Office Français de l'Immigration et de l'Intégration) formalities within the first 3 months — this involves a medical examination and signing a 'Republican Integration Contract' (CIR). After one year on a long-stay visa, you apply for a carte de séjour (resident permit) at your prefecture or sub-prefecture. Online applications are now available through the ANEF platform (administration-etrangers-en-france.interieur.gouv.fr) for most categories. Key documents needed: passport, visa, proof of address (quittances de loyer or attestation d'hébergement), proof of resources, and category-specific documents. The process typically takes 2–4 months; you receive a récépissé (provisional receipt) while waiting, which is a legal residence document.",
+      },
+      {
+        heading: "Social security: CPAM and Carte Vitale",
+        body: "Register with CPAM (your local health insurance office) at cpam.fr as soon as you have a French address. You will need: identity document, proof of French address, and if employed, your employment contract and first payslips. If self-employed, your KBIS (company registration certificate). If a family member of an insured person, their social security number. After registration (4–8 weeks typically), you receive a carte Vitale — keep this with you at all times for medical visits. The AMELI online account (ameli.fr) lets you track reimbursements, request a new card, and manage your coverage online. If you are employed, your employer's mutuelle enrolment is handled by HR.",
+      },
+      {
+        heading: "Banking: opening a French account",
+        body: "French banking is more difficult to access than in many countries — you cannot simply walk into a bank and open an account the same day. Required documents typically include: identity document, proof of French address (utility bill or lease agreement, within 3 months), and proof of income or employment. For new arrivals without a French address, the process is circular — you need an address to open an account, and often need an account to secure an address. Practical solutions: some banks have specific expat or non-resident programmes (Société Générale, BNP Paribas have English-language channels). Online banks like N26, Revolut, and Lydia function in France and can bridge the gap initially. La Banque Postale (Post Office bank) is legally required to open an account for anyone with a French address who has been refused elsewhere — this 'droit au compte' is a genuine fallback.",
+      },
+      {
+        heading: "Driving licence and the car",
+        body: "EU driving licences are valid in France indefinitely — no conversion needed. Non-EU licences: there is a network of bilateral agreements between France and specific countries. If your country is on the list (this includes the US state-by-state, Canada province-by-province, Australia, New Zealand, Japan, and others), you can exchange your licence at the prefecture within your first year of residency. UK licences (post-Brexit): now treated as non-EU. UK and France have a bilateral agreement — UK licences can be exchanged within 12 months of establishing French residency. If you miss this window, you may need to redo the French driving test. Registering a car: foreign-registered cars can be used for up to 6 months after establishing French residency. After that, you must register the vehicle in France and get French plates — consult the ANTS online platform.",
+      },
+      {
+        heading: "Tax: the basics",
+        body: "France taxes residents on worldwide income. You become a French tax resident if France is your primary place of living, your primary professional activity is in France, or the centre of your economic interests is in France. Your first French tax return covers the year you arrived. Tax is declared annually (usually May) at impots.gouv.fr. The French income tax is progressive — 2026 rates: 0% below €11,300, 11% to €28,790, 30% to €82,340, 41% to €177,106, 45% above. France has a household-based system (foyer fiscal) — married couples and civil partners file jointly. Consult a cross-border tax specialist if you have income from multiple countries, pension from abroad, or complex asset situations — the French system interacts with the tax treaty of your home country in ways that are genuinely complex.",
+      },
+    ],
+    relatedCities: ["paris", "lyon", "bordeaux", "toulouse", "marseille"],
+    tags: ["French bureaucracy expats 2026", "carte de séjour France expat guide", "French visa residency permit 2026", "moving France admin paperwork expat", "CPAM OFII expat France 2026"],
+  },
+  {
+    slug: "digital-nomads-best-cities-france-2026",
+    title: "Best cities in France for digital nomads in 2026",
+    metaTitle: "Best Cities France for Digital Nomads 2026: Complete Guide",
+    metaDesc: "Best French cities for digital nomads: fast internet, co-working, cost of living, community, visa. Montpellier, Bordeaux, Toulouse, Biarritz, Marseille compared.",
+    category: "remote-work",
+    emoji: "💻",
+    readMinutes: 9,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "France is an underrated destination for digital nomads — for good reasons: fibre broadband penetration is among Europe's highest, co-working infrastructure has exploded since 2020, the visa situation for non-EU nomads has improved with the auto-entrepreneur regime, and the quality of life (food, climate, culture) is hard to match. The challenge is cost: Paris is expensive, and several secondary cities have been discovered and priced up. This guide identifies the cities that deliver the best combination of digital infrastructure, community, cost, and lifestyle for nomads in 2026.",
+    sections: [
+      {
+        heading: "Montpellier: the Mediterranean nomad hub",
+        body: "Montpellier consistently appears in European top-10 digital nomad lists, and the reputation is earned. Key advantages: fibre optic coverage exceeds 95% of the metropolitan area; a co-working scene that has exploded since 2020 (30+ spaces across the city); a young, international population (80,000 students) that creates a cultural mix tolerant of nomadic lifestyles; direct low-cost flights to the UK and northern Europe from Montpellier-Méditerranée airport; and the sea 12km away. Average monthly cost for a furnished studio near the Comédie: €700–900/month. Monthly co-working desk: €150–250. Good community events and French Tech Montpellier.",
+      },
+      {
+        heading: "Bordeaux: the wine city that works",
+        body: "Bordeaux has become one of France's strongest nomad cities thanks to several reinforcing factors: the TGV arrival (Paris 2h04) accelerated both digital infrastructure investment and the influx of young professional creatives; Wine Tourism is a unique lifestyle asset (work from a château estate co-working space is genuinely possible in the Médoc); English-speaking community is strong; Bordeaux's startup and creative economy (French Tech Bordeaux) means nomads integrate naturally with locals building companies. Cost: furnished studio in Chartrons or Saint-Épain: €750–1,100/month. The Atlantic coast (Arcachon, Cap Ferret) is accessible for weekend sessions.",
+      },
+      {
+        heading: "Biarritz and the Basque Coast: the lifestyle nomad choice",
+        body: "Biarritz attracts a specific type of nomad: the lifestyle-first, cost-flexible, surf-culture person who trades a lower bottom-line quality for a higher ceiling quality. The Basque coast is extraordinarily beautiful, the surf culture is welcoming to internationals, and co-working spaces have proliferated around the nomad demand. Cost reality: Biarritz itself is expensive (€900–1,400/month for a decent studio); Anglet and Bayonne offer the same surf access at 20–30% less. The community is self-selecting — nomads here tend to be mid-level earners for whom money matters somewhat less than the lifestyle equation. Fibre broadband coverage in the BAB conurbation: very good.",
+      },
+      {
+        heading: "Toulouse: the underrated nomad city",
+        body: "Toulouse is underrepresented in nomad rankings relative to its objective advantages: large city (good amenities, healthcare, transport), strong English-language professional community (aerospace), lower cost of living than Lyon or Bordeaux, 300 days of sunshine. Its limitations for nomads: less of the 'sexy' location branding than Biarritz or Montpellier; co-working scene is good but more corporate-oriented (driven by aerospace supply chain). Monthly costs: studio in central Toulouse €650–900/month. For nomads with tech/engineering backgrounds who want a French base with career optionality (Airbus could hire you if the nomad life gets old), Toulouse is an excellent choice.",
+      },
+      {
+        heading: "Marseille: high risk, high reward",
+        body: "Marseille is the nomad destination that divides people sharply. Those who love it are fiercely loyal; those who didn't click with it wonder what the fuss was about. What it offers: genuine urban energy, exceptional food and market culture, extraordinary natural setting (Calanques), and the lowest costs of any large French Mediterranean city (studios from €550–800/month in solid areas like the 8th arrondissement). What it demands: deliberate neighbourhood selection (the northern arrondissements have genuine crime issues), comfort with a city that does not perform for tourists or newcomers, and patience with a logistics culture that moves slowly. The nomad community is smaller than in Montpellier but growing.",
+      },
+      {
+        heading: "Practical: France nomad visa and tax",
+        body: "EU/EEA/Swiss citizens: free movement, no visa required. Non-EU nomads have two main paths. Auto-entrepreneur: register as a self-employed micro-entrepreneur (straightforward online registration, no minimum capital). This gives you a legal business status in France, makes you eligible for CPAM registration, and is the most common structure for nomads working with foreign clients from France. Freelance visa: technically the 'salarié' or 'talent' visa categories require French employment or French clients — there is no dedicated 'digital nomad visa' in France as of 2026, unlike Portugal or Spain. The auto-entrepreneur route is the practical path for most non-EU nomads who plan a stay of 6+ months. Tax: you become a French resident for tax purposes after 183+ days in France — consult a tax professional on your specific situation.",
+      },
+    ],
+    relatedCities: ["montpellier", "bordeaux", "toulouse", "biarritz", "marseille"],
+    tags: ["digital nomads France 2026", "best cities digital nomads France", "Montpellier Bordeaux Toulouse nomad", "France nomad visa 2026", "co-working France digital nomad cost"],
+  },
+  {
+    slug: "french-school-system-expat-guide-2026",
+    title: "The French school system explained for expat families (2026)",
+    metaTitle: "French School System for Expats 2026: Complete Guide for Families",
+    metaDesc: "French schools explained for expat families: maternelle to lycée, bilingual options, international schools, bac, fees. How to navigate the French education system in 2026.",
+    category: "family",
+    emoji: "🏫",
+    readMinutes: 9,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "France has a centralised, rigorous, and largely free public education system that delivers consistently good results — but it operates on rules and rhythms that are unfamiliar to most non-French families. Children of foreign residents are legally entitled to a place in the local public school system regardless of residency status. Understanding how the system is structured, what the options are, and how to navigate enrolment makes the difference between a smooth transition and months of confusion.",
+    sections: [
+      {
+        heading: "Structure: how French schooling is organised",
+        body: "French schooling proceeds through five stages: Maternelle (nursery school, ages 3–6, compulsory since 2019); École primaire (primary, ages 6–11, CP through CM2); Collège (lower secondary, ages 11–15, 6ème through 3ème); Lycée (upper secondary, ages 15–18, Seconde through Terminale); and Enseignement supérieur (higher education). School years are labelled descending: a child entering French school at 11 is in 6ème (6th grade equivalent), and counts down to Terminale. The Baccalauréat (Bac) at age 17–18 is the secondary school leaving qualification and university entrance examination combined. It is taken seriously: the national Bac rate is around 95%, but the 'mention très bien' (highest grade) is genuinely competitive.",
+      },
+      {
+        heading: "Public schools: free and legally accessible",
+        body: "Public school (école publique) is free for all children legally residing in France, including the children of foreign nationals without long-stay visas (though the school may ask for an address). Enrolment is through the local mairie for primary school and the académie (regional education authority) for secondary. You bring: proof of address (within 3 months), identity documents for child and parents, vaccination record (carnet de santé), and any previous school records (translated if non-French). The school assigns a class based on age; assessment for appropriate level placement in the class is common for children coming from foreign school systems. Language support: many public schools in cities with significant expat populations offer FLS (Français Langue Seconde) support — ask explicitly at enrolment.",
+      },
+      {
+        heading: "Bilingual and international public options",
+        body: "The best-kept secret of French public education is the réseau FLAM (Français LAngue Maternelle) and the sections internationales. Sections internationales exist in selected public lycées and collèges and offer a bilingual education track (typically French + one of: English, German, Spanish, Italian, Portuguese, Chinese, Japanese, Dutch). Pupils follow most subjects in French but have additional teaching in the international language. The international Baccalaureate option (OIB — Option Internationale du Baccalauréat) offers a diploma variant recognised internationally. Key section internationale institutions: Lycée International de Saint-Germain-en-Laye (Paris region), Lycée International de Lyon, Cité Scolaire Internationale de Lyon, Lycée Honoré de Balzac Mitry-Mory. Free (public), but competitive entry for the international tracks.",
+      },
+      {
+        heading: "Private and international schools",
+        body: "Private schools in France fall into two categories: sous contrat (under contract with the state — curriculum follows national standards, teachers are state-employed, fees very low: €100–500/year) and hors contrat (independent — their own curriculum, no state involvement, fees commercial: €3,000–15,000/year). International schools following foreign curricula (British, American, IB) are hors contrat or fully private: Académie International de Paris (IB), American School of Paris, British School of Paris, International School of Nice, ISL (International School of Lyon), IST (International School of Toulouse). Fees typically €10,000–25,000/year. These are appropriate for short-term expats, families with highly mobile careers, or parents who cannot commit to full French-language immersion for their children.",
+      },
+      {
+        heading: "Practical tips for the transition",
+        body: "Age equivalences create confusion: French CE2 ≈ UK Year 4 ≈ US Grade 3. Always convert by birth year, not grade level name. Calendar: French school year runs September to July, with two-week holidays every 6 weeks (Toussaint, Noël, Février, Pâques) and a zone system (A/B/C) that staggers holiday dates to reduce infrastructure overload. Lunch: the school canteen (cantine) is not included in fees — subscribe at the mairie or school administration; typical cost €3–5/day. Wednesday afternoons: traditionally school-free in France — many French families use this for extracurricular activities (sport clubs, music schools). After-school care: the garderie/périscolaire is provided by the mairie in most communes until 18:30 — fees are income-adjusted.",
+      },
+    ],
+    relatedCities: ["paris", "lyon", "bordeaux", "toulouse", "montpellier"],
+    tags: ["French school system expat 2026", "French schools children expat guide", "section internationale France expat", "international schools France 2026", "expat family France education system"],
+  },
+  {
+    slug: "france-vs-spain-vs-portugal-expat-comparison-2026",
+    title: "France vs Spain vs Portugal: which country for expats in 2026?",
+    metaTitle: "France vs Spain vs Portugal 2026: Which Country for Expats?",
+    metaDesc: "France, Spain or Portugal for expats? Cost of living, weather, bureaucracy, language, healthcare. A realistic three-way comparison for those considering a move.",
+    category: "moving",
+    emoji: "🌍",
+    readMinutes: 9,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Western Europe's three great expat-receiving countries — France, Spain, and Portugal — are often considered as alternatives to each other. Each has made it onto 'best countries to retire/move to' lists for different reasons. This comparison is deliberately honest: each country has genuine advantages and genuine disadvantages, and the right choice depends entirely on your specific profile, priorities, and tolerance for different types of friction.",
+    sections: [
+      {
+        heading: "Cost of living: Portugal wins, France and Spain vary",
+        body: "Portugal (specifically Lisbon and Porto) has seen dramatic price increases since 2018 and is no longer uniformly cheap. Lisbon: studio rents €900–1,400/month, roughly comparable to Bordeaux or Lyon. Portuguese second cities (Coimbra, Setúbal, Braga): genuinely affordable (€500–750/month for a flat). Spain is mid-tier: Madrid and Barcelona are expensive (€1,000–1,600/month for a studio); Valencia, Seville, Málaga: €650–950/month. France: Paris is very expensive; French secondary cities (Toulouse, Bordeaux, Lyon: €750–1,300/month). For a limited budget: interior Portugal or interior Spain (Extremadura, Castilla) beat France comfortably. For a mid-range budget: French secondary cities are competitive with major Spanish and Portuguese cities.",
+      },
+      {
+        heading: "Weather: the obvious advantage of Spain and Portugal",
+        body: "Spain and Portugal both have substantially more sun and warmth than France in their more temperate regions. Algarve (southern Portugal): ~3,200 hours of sun/year, rarely below 10°C. Costa del Sol (southern Spain): ~3,000 hours of sun, mild winters. France: Mediterranean coast (Nice, Montpellier) offers ~2,800 hours of sun, comparable to coastal Spain — but France's vast majority of territory is cooler, cloudier, and wetter (Paris: ~1,600 hours, Atlantic coast: ~1,800 hours). If year-round warmth is your primary criterion, Spain and Portugal beat France outside the Riviera. However, France's mountains, rivers, and landscape diversity make the trade-off complex for outdoor enthusiasts.",
+      },
+      {
+        heading: "Language acquisition: difficulty and necessity",
+        body: "French is objectively harder for English speakers than Spanish or Portuguese (phonology, orthography, formal register requirements, and administrative precision). In practice: French administrative life requires functional French — services, healthcare, banking, local administration are French-only outside major tourist and expat hubs. Spain outside Catalonia and Basque Country is similar — Spanish bureaucracy operates in Spanish. Portugal is generally considered the most English-friendly in daily life outside Lisbon, where a significant proportion of service workers and younger professionals speak English. Language learning efficiency: Spanish and Portuguese are more similar to each other and slightly more accessible for English speakers. But all three require serious investment for full integration.",
+      },
+      {
+        heading: "Bureaucracy: all three are challenging but differently",
+        body: "France has a reputation for the most complex bureaucracy, and it's partially earned — French administrative culture values process and documentation, and exceptions are difficult to obtain. But the system is highly documented, logical, and increasingly digitalised (ANEF, AMELI, impots.gouv.fr). Spain is notably variable by autonomous community — Madrid and Catalonia have improved digital services significantly; smaller regions are patchier. Portugal improved dramatically from 2015–2022 with Loja do Cidadão one-stop shops, but has struggled with backlogs from the influx of expats (2023–2025 saw multi-month wait times for residency appointments). For non-EU nationals: France has clear processes but requires planning; Spain and Portugal both have specific visa programmes (Spain: non-lucrative visa, digital nomad visa; Portugal: D7 passive income visa) that have attracted significant expat flows.",
+      },
+      {
+        heading: "Healthcare quality and access",
+        body: "All three countries have universal public healthcare systems of generally high quality. France has the most comprehensive and consistently high-quality system — CHU university hospitals, reimbursement structure, private/public balance. It consistently ranks in the top 3 globally. Spain's Sistema Nacional de Salud varies by region: Catalonia and Madrid have excellent systems; rural regions have significant GP desert issues. Portugal's Serviço Nacional de Saúde has historically been underfunded relative to demand — wait times can be long, particularly for specialists. Private health insurance is inexpensive in Spain (€30–80/month for comprehensive cover) and affordable in Portugal (€40–100/month) — many expats carry private insurance in both countries regardless of public coverage. French healthcare cost-sharing (mutuelle) works differently but comparably.",
+      },
+    ],
+    relatedCities: ["paris", "bordeaux", "montpellier", "nice", "toulouse"],
+    tags: ["France vs Spain vs Portugal expat 2026", "best country expats Europe 2026", "moving France Spain Portugal comparison", "expat Western Europe comparison 2026", "retire France Spain Portugal which country"],
+  },
+  {
+    slug: "cost-of-living-france-monthly-budget-2026",
+    title: "Real cost of living in France: monthly budget breakdown (2026)",
+    metaTitle: "Cost of Living France 2026: Realistic Monthly Budget for Expats",
+    metaDesc: "How much does it cost to live in France? Monthly budget breakdown for single person and couple in Paris, Lyon, Bordeaux, Toulouse, Montpellier. Real numbers 2026.",
+    category: "budget",
+    emoji: "💶",
+    readMinutes: 8,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "The 'cost of living in France' question gets vague answers online because France contains multiples: Paris is one of Europe's more expensive capitals; Lyon is a significant but affordable metropolis; Toulouse and Montpellier are warm, well-connected, and cheaper still; and small French towns can be extraordinarily affordable. This guide gives concrete monthly budget figures for five representative cities in 2026, for both a single person living independently and a couple.",
+    sections: [
+      {
+        heading: "Paris: expensive but not uniformly so",
+        body: "Single person monthly budget in Paris: Studio rent (20–30m², inner Paris): €900–1,400. Utilities (electricity, internet): €100–150. Navigo (monthly transport pass): €84. Groceries (Monoprix, Franprix average): €350–450. Restaurant + café (2–3x/week): €200–300. Misc (phone, streaming, gym): €80–120. Total: €1,700–2,450/month, not counting healthcare and tax. For a couple in a 2-bedroom flat (€1,500–2,200/month rent): budget €3,200–4,200/month for comfortable living. Paris is more manageable than reputation suggests if you cook at home, use public transport (excellent), and live in the 10e, 11e, 13e, or 19e rather than the 6e or 8e.",
+      },
+      {
+        heading: "Lyon: the metropolitan sweet spot",
+        body: "Single person monthly budget in Lyon: Studio rent (inner Lyon): €650–950. Utilities: €90–130. TCL monthly transport pass: €65. Groceries: €300–400. Restaurant + café: €150–250. Misc: €70–100. Total: €1,325–1,830/month. Couple in 2-bedroom (€1,000–1,500/month rent): €2,600–3,500/month. Lyon is the city where money goes furthest relative to quality of life — a metropolitan experience (excellent transport, culture, healthcare) at 30–40% below Paris. The food quality-per-euro is significantly better than Paris.",
+      },
+      {
+        heading: "Bordeaux and Toulouse: similar mid-range costs",
+        body: "Single person in Bordeaux or Toulouse: Studio (€600–900/month rent). Utilities: €85–120. Transport pass: €55–70. Groceries: €280–380. Restaurant: €120–200. Misc: €65–95. Total: €1,205–1,665/month. Couple in 2-bedroom (€900–1,400/month rent): €2,400–3,200/month. Bordeaux is marginally more expensive than Toulouse for housing (the TGV effect); Toulouse has slightly better job market depth. Both cities offer excellent quality of life — southern climate, active food culture, accessible nature — at costs 25–40% below Paris.",
+      },
+      {
+        heading: "Montpellier: the affordable Mediterranean",
+        body: "Single person in Montpellier: Studio (€550–800/month). Utilities: €80–110. Transport: €55. Groceries: €270–360. Restaurant: €110–180. Misc: €60–90. Total: €1,125–1,595/month. The key insight on Montpellier is that you get Mediterranean coast access (12km), 300 days of sun, and a young dynamic city for roughly what Bordeaux charges — because the sea in Montpellier is less polished than the Gironde. For budget-conscious expats who prioritise sunshine and sea access over prestige address, Montpellier is objectively the best value in southern France.",
+      },
+      {
+        heading: "Beyond the numbers: what Numbeo gets wrong",
+        body: "Online cost-of-living databases like Numbeo systematically undercount certain French costs: dining out is frequently underestimated (a decent brasserie lunch in France costs €14–22 including a glass of wine; budget websites often cite €10–12 from fast food); the mutuelle health insurance supplement (€50–100/month for a solo adult) is often omitted; and furniture rental, administrative costs (accountant, lawyer for visa issues), and language school fees are invisible in aggregate figures. Real first-year costs in France tend to run 15–25% above steady-state costs because of one-time administrative and setup expenses. Budget accordingly.",
+      },
+    ],
+    relatedCities: ["paris", "lyon", "bordeaux", "toulouse", "montpellier"],
+    tags: ["cost of living France 2026 expat", "monthly budget France expat Paris Lyon Bordeaux", "how much to live France 2026", "France living costs realistic budget expat", "Paris Lyon Bordeaux monthly expenses 2026"],
+  },
 ];
 
 export function getEnGuide(slug: string): EnGuide | undefined {
