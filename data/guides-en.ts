@@ -9671,6 +9671,186 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["toulouse", "bordeaux", "rennes", "montpellier", "grenoble"],
     tags: ["pet friendly cities France expats 2026", "moving France with dog cat expat", "France pet travel rules 2026", "best French cities pets dogs", "France rental pet dog apartment expat"],
   },
+  {
+    slug: "france-for-remote-workers-complete-guide-2026",
+    title: "France for remote workers: the complete guide (2026)",
+    metaTitle: "France for Remote Workers 2026: Complete Guide — Visa, Cities, Costs, Internet",
+    metaDesc: "Everything about working remotely from France: the best cities, internet quality, co-working spaces, visa options, tax implications. Complete 2026 guide for remote workers.",
+    category: "remote-work",
+    emoji: "💻",
+    readMinutes: 10,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "France is one of Europe's better-equipped countries for remote work, though it lacks the dedicated 'digital nomad visa' of Portugal, Spain, or Greece. The combination of fast fibre broadband (90%+ coverage), a well-developed co-working ecosystem, good quality of life in its secondary cities, and a temperate-to-Mediterranean climate makes it genuinely viable for location-independent workers. This guide covers the key decisions: where to base yourself, how to handle legal status, and what the daily working experience actually looks like.",
+    sections: [
+      {
+        heading: "The visa and legal status question",
+        body: "EU/EEA/Swiss citizens: no visa needed, full freedom of movement. You can work from France for a foreign employer as an EU national without any special registration — though if you stay over 3 months, establishing tax residency has implications. Non-EU nationals have two main legal paths. Auto-entrepreneur (micro-entrepreneur): registering a French sole-trader business is straightforward online (guichet-entreprises.fr), requires no capital, and gives you a legal status that qualifies for CPAM health insurance registration. This works well for freelancers with foreign clients. Salarié détaché: if your employer has a French subsidiary or partner, a secondment arrangement may be possible. There is no dedicated 'remote worker' or 'digital nomad' visa in France as of 2026. Non-EU nationals who want long-term remote-work residency in France typically use the 'visiteur' visa (for financially independent people not working for French clients) or the auto-entrepreneur pathway.",
+      },
+      {
+        heading: "Internet quality across France",
+        body: "France's fibre network (THD — Très Haut Débit) reached 90%+ of households by 2025 as part of the Plan France Très Haut Débit. Major cities (Paris, Lyon, Bordeaux, Toulouse, Marseille, Nice) have near-universal fibre access. Secondary cities (Rennes, Nantes, Strasbourg, Montpellier) are fully covered. Rural areas have improved significantly — most bourg centres have fibre, though isolated hamlets may still rely on ADSL or 4G home broadband. Standard residential fibre offer: 1 Gb/s download / 400 Mb/s upload for €25–35/month (Orange, SFR, Bouygues, Free). Mobile: excellent 4G/5G coverage on major networks — a sim card backup for mobile tethering is cheap and effective insurance.",
+      },
+      {
+        heading: "The best French cities for remote workers in 2026",
+        body: "Montpellier leads most rankings for a reason: fibre everywhere, 30+ co-working spaces, student-young professional energy, sea 12km away, lower cost of living than Lyon or Bordeaux. Rennes is underrated: French Tech hub (Orange, Capgemini nearby), excellent internet infrastructure, genuine tech community, Paris 1h27, Breton coast weekend access. Toulouse offers the best combination of city size, remote-worker infrastructure, and aerospace/tech community to accidentally meet interesting professionals. Bordeaux has a strong co-working scene, mature expat community, and excellent Atlantic coast access. Annecy and Chambéry appeal to remote workers who want the Alpine lifestyle — Geneva commutable, mountains on the doorstep, less co-working density but excellent connectivity.",
+      },
+      {
+        heading: "Co-working spaces: the practical reality",
+        body: "France has one of Europe's most developed co-working ecosystems — several hundred spaces in Paris and 30–50+ in each major regional city. Typical costs: hot desk day rate €15–30; monthly hot desk €150–280; dedicated desk €200–380/month; private office €400–800+/month. Major chains: WeWork (Paris-focused), Spaces, Morning, La Ruche, Le Tank. Municipal spaces (espaces de co-travail publics) run by many mairies offer subsidised rates for local entrepreneurs. In secondary cities, independent spaces often have community events, startup connections, and a local-professional feel that chains lack. The French co-working culture is notably social — expect lunch invitations and project conversations.",
+      },
+      {
+        heading: "Tax: what remote workers need to understand",
+        body: "If you spend more than 183 days in France in a calendar year, France may claim you as a tax resident — which means worldwide income is potentially taxable in France. This interacts with your home country's tax treaty with France. For EU nationals: most EU-France tax treaties provide clear rules. For non-EU nationals: the situation is country-specific. The auto-entrepreneur regime has a 'micro' tax treatment: for service businesses, you pay income tax on 66% of turnover (the remaining 34% is a notional expense deduction). This is simple but may not be optimal for high earners. Consult a cross-border tax professional if your income is significant — the cost of advice (€200–600/hour for a specialist) is recovered quickly.",
+      },
+    ],
+    relatedCities: ["montpellier", "toulouse", "bordeaux", "rennes", "grenoble"],
+    tags: ["France remote workers 2026 guide", "working remotely France visa legal", "best French cities remote work 2026", "co-working France remote worker", "France digital nomad internet 2026"],
+  },
+  {
+    slug: "nantes-for-expats-guide-2026",
+    title: "Moving to Nantes: the expat guide (2026)",
+    metaTitle: "Moving to Nantes 2026: Expat Guide — Atlantic City, Costs, English Community",
+    metaDesc: "Nantes for expats: Atlantic city life, property prices, English community, Pays de la Loire lifestyle. Honest 2026 guide for anyone considering Nantes.",
+    category: "city-guide",
+    emoji: "🏰",
+    readMinutes: 8,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Nantes sits at the intersection of several appealing vectors for expats: a genuine major city (660,000 in the metropolitan area), Atlantic coast access (Saint-Nazaire, La Baule, the Pays de la Loire coast within 1 hour), TGV to Paris in 2h10, and a surprisingly active contemporary art and cultural scene. The Machines de l'Île and the Voyage à Nantes festival have given the city an international creative reputation that extends beyond France. For expats looking for an alternative to the more saturated Bordeaux or the Mediterranean cities, Nantes represents a genuinely interesting option.",
+    sections: [
+      {
+        heading: "What makes Nantes different",
+        body: "Nantes' culture is hard to categorise. It has the industrial-maritime heritage of a Loire estuary port (shipbuilding at Saint-Nazaire, 60km downstream), the artistic ambition of a city determined to reinvent itself (the Île de Nantes creative district), and the Breton-Vendée cultural border identity — technically in Pays de la Loire administratively, emotionally in conversation with Brittany. The contemporary art installations scattered through the city (Les Machines, Voyage à Nantes in summer) are not tourist decoration — they reflect a genuine municipal investment in public creativity. For expats with a creative professional or artistic sensibility, Nantes resonates distinctly.",
+      },
+      {
+        heading: "Property and neighbourhoods",
+        body: "Nantes has seen significant price increases since 2015 but remains more affordable than Bordeaux city centre. 2026 benchmarks: Île Feydeau and centre historique: €3,500–5,000/m². Quartier Graslin and Procé: €3,200–4,500/m². Île de Nantes (creative district, new urban development): €3,000–4,200/m². Zola/Canclaux (residential, popular with families): €2,800–3,800/m². Rezé and Vertou (southern suburbs, river access): €2,400–3,200/m². Monthly rent for 70m²: €900–1,350 depending on area. The Île de Nantes is the most interesting area for younger expats — in continuous transformation, contemporary architecture, mix of studios and tech companies.",
+      },
+      {
+        heading: "Employment and economy",
+        body: "Nantes has a diversified economic base that makes it genuinely functional as a city to build a career (not just as a retirement destination or remote-work base). Key sectors: digital economy (Nantes digital district at Île de Nantes, 7,000 tech jobs), agri-food industry (second-largest in France after Île-de-France), health and biopharma (CHU, Sanofi), aeronautics (Airbus Saint-Nazaire facility, 60km), and a large public sector. The University of Nantes (45,000 students) and Centrale Nantes (engineering school) supply technical talent. For expats in digital, engineering, or life sciences, Nantes has real depth.",
+      },
+      {
+        heading: "The Atlantic coast dimension",
+        body: "The Atlantic coast from the Loire Atlantique to Vendée is accessible within 45–90 minutes of Nantes. Saint-Nazaire (60km, 50min by car) has an industrial port, an ocean liner museum, and a beach — not glamorous but authentic. La Baule (90km, 1h) is the premium Atlantic resort town — wide sandy beach, grand Belle Époque villas, Atlantic ocean conditions for surfing and windsurfing. The islands (Île de Noirmoutier, Île d'Yeu) require ferry access but offer genuinely wild Atlantic landscapes. Loire wine country (Muscadet at Sèvre et Maine, Anjou) starts 30km east of Nantes.",
+      },
+      {
+        heading: "Practical life in Nantes",
+        body: "Transport: Nantes has a tram network (3 lines), chronobus, and Tan bikes. Paris 2h10 by TGV (Paris Montparnasse). Bordeaux: 2h10. Rennes: 1h15 (new LGV completed 2026). Nantes airport: 10 million passengers, direct to UK (Bristol, Birmingham, London), Ireland, and European destinations — one of France's best provincial airport connections to Britain. Healthcare: CHU de Nantes is a major university hospital. English-speaking GPs exist but require proactive searching. English-speaking community: less dense than Bordeaux or Nice, but growing — tech immigration (non-French nationals in the digital sector) and academic staff from the university. The Nantes Expats Facebook group is the main entry point.",
+      },
+    ],
+    relatedCities: ["nantes", "rennes", "la-rochelle", "bordeaux", "angers"],
+    tags: ["moving to Nantes expat 2026", "Nantes expat guide English", "living Nantes France Atlantic city", "Nantes property prices 2026 expat", "Nantes Machines Île expat culture 2026"],
+  },
+  {
+    slug: "learning-french-expats-practical-guide-2026",
+    title: "Learning French as an expat: the practical guide that actually helps (2026)",
+    metaTitle: "Learning French as an Expat 2026: Practical Guide That Works",
+    metaDesc: "How to actually learn French as an expat in France: realistic timeline, best methods, where to find classes, common pitfalls. Practical 2026 guide.",
+    category: "moving",
+    emoji: "🗣️",
+    readMinutes: 8,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Learning French as an adult expat in France is both easier and harder than most guides suggest. Easier: you are immersed, have constant practice opportunities, and strong motivation. Harder: daily life in France does not automatically improve your French — French colleagues switch to English, services default to written forms, and most expat social circles are English-speaking. Becoming functional in French requires deliberate effort. This guide is built from the realistic experience of adult expats who actually reached operational fluency.",
+    sections: [
+      {
+        heading: "How long does it actually take?",
+        body: "The US Foreign Service Institute rates French as a Category 1 language for English speakers — theoretically 600 class hours to professional working proficiency. For adult expats in France with daily practice, a realistic timeline: A2 (basic communication, shopping, simple conversations) — 3–4 months with consistent effort. B1 (functional communication, can handle most daily situations, 'get by') — 6–9 months. B2 (genuinely comfortable, can work in French with effort, understand most of what's said to you) — 12–18 months. C1 (near-native fluency in professional contexts) — 3+ years with significant professional-level use. Most expats who arrive without French reach B1 within a year if they actively practise — but many plateau at A2/B1 because English fills the gap.",
+      },
+      {
+        heading: "The best methods for busy adults",
+        body: "Structured course first: without a grammar foundation, your progress hits a ceiling. Recommended: Alliance Française courses (in every major French city, internationally recognised, structured A1–C2 tracks) or CCFS (Paris). Online: iTalki for one-on-one sessions with native tutors (€15–25/hour for community tutors). Apps: Anki (flashcards, vocabulary) and Duolingo (habit formation, not language mastery) work best as supplements, not primary methods. Audiobooks: Assimil 'Le Français sans peine' remains one of the best structure-plus-immersion methods for self-starters. French radio: France Inter or France Info as background — comprehension comes before speaking.",
+      },
+      {
+        heading: "Immersion in France: the disappointing reality",
+        body: "Living in France does not automatically make you fluent. The French education system has produced a generation that is more comfortable reading and writing English than speaking it — but comfortable enough to switch when they sense difficulty. French colleagues, shopkeepers, and service providers will often switch to English the moment your accent reveals you are foreign. This accelerates your transactions but stalls your progress. Countermeasures: explicitly ask people to speak French with you ('Pouvez-vous parler français avec moi, s'il vous plaît? Je veux apprendre'). Join French-speaking activities (sports clubs, cooking courses, neighbourhood associations) where speaking French is the default.",
+      },
+      {
+        heading: "French regional accents: what to expect",
+        body: "The French you learned from standard recordings sounds different from the French you hear in Marseille, Toulouse, Lyon, or Alsace. Regional accents vary significantly: Marseillais French has a strong southern intonation and some specific vocabulary; Alsatian French has a German phonetic influence; Lyonnais French has a specific intonation pattern that takes getting used to. None of these are so strong as to be incomprehensible — but they are a genuine adjustment after standard Parisian French. The good news: native speakers across France understand each other perfectly, and regional speakers appreciate when you are clearly making an effort.",
+      },
+      {
+        heading: "Resources in France",
+        body: "Alliance Française: offices in every major French city, generally excellent. Group courses €400–700/trimester, individual classes €50–80/hour. DILF/DELF/DALF: official French language certifications from A1 to C2 — valuable if you need to demonstrate language level for a carte de séjour, university admission, or professional purposes. Many French towns offer Français Langue Étrangère (FLE) courses through municipal adult education programmes (MJC, maison de quartier) at subsidised rates — ask at your mairie. Language exchange: tandem partnerships (you help someone with their English while they help your French) are widely available through apps like Tandem or Speaky, and through Alliance Française noticeboard postings.",
+      },
+    ],
+    relatedCities: ["paris", "lyon", "bordeaux", "toulouse", "montpellier"],
+    tags: ["learning French expat guide 2026", "French language adult learner practical", "how long learn French expat France", "Alliance Française expat France", "French immersion expat tips 2026"],
+  },
+  {
+    slug: "expat-families-france-which-cities-2026",
+    title: "France for expat families: which cities work best in 2026?",
+    metaTitle: "Best Cities France for Expat Families 2026: Schools, Safety, Quality of Life",
+    metaDesc: "Best French cities for expat families: international schools, safe neighbourhoods, parks, space. Honest 2026 guide for families moving to France.",
+    category: "family",
+    emoji: "👨‍👩‍👧",
+    readMinutes: 9,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Moving to France with children introduces a different set of priorities than relocating as a single professional or a couple. School quality, space (for the children and for adults who need quiet), safety perception, children's social integration, and access to extracurricular activities all matter. The cities that work best for expat families are not always the same as those that work best for lifestyle migrants or career moves. This guide works through the key factors and names the cities that deliver.",
+    sections: [
+      {
+        heading: "The school question: public, bilingual, or international?",
+        body: "The first decision is whether to use the French public system, a bilingual/section internationale track within the public system, or a private international school. Public school is free, broadly good quality, and delivers the fastest French integration — but is entirely in French from day one (FLS support varies widely by school). For children arriving under age 8, public school immersion works well. For older arrivals (10+), an intermediate option — sections internationales in public lycées and collèges, or a year at an international school to stabilise before transitioning to public — is often better. Private international schools (American, British, IB) are expensive (€10,000–25,000/year) but provide continuity of curriculum, English-medium instruction, and a multinational peer group. Most families use them as a bridge, not a permanent solution.",
+      },
+      {
+        heading: "Lyon: family gold standard",
+        body: "Lyon consistently ranks as France's best city for families. The combination of excellent public schools (including several sections internationales at prestigious lycées), large apartments and family housing available in the residential 6th and 9th arrondissements and Villeurbanne, a network of parks (Parc de la Tête d'Or — 117ha, the largest in France after the Bois de Boulogne), manageable distances, and outstanding healthcare makes it the most complete option. The Cité Scolaire Internationale de Lyon is one of France's most sought-after international public schools — competitive entry, multiple language sections. The city's social fabric is robust for families — school networks, sports clubs, and the strong parental-investment culture of the Lyonnais middle class.",
+      },
+      {
+        heading: "Bordeaux and Toulouse: quality with space",
+        body: "Both offer something Paris cannot: space. The ceinture résidentielle of Bordeaux (Mérignac, Pessac, Talence) and Toulouse (Balma, Castanet-Tolosan, Tournefeuille) have houses with gardens within 30 minutes of the city centre — at prices that make 120m² with a garden achievable at €350,000–500,000. Both cities have international school options (IST in Toulouse, International School of Bordeaux) and sections internationales in public schools. Toulouse has the additional advantage of a large international professional community (Airbus families are numerous and well-organised) with established expat family networks, French social integration events, and school support.",
+      },
+      {
+        heading: "Brittany and Normandy: for families prioritising nature",
+        body: "For expat families where outdoor life, space, and safety are the primary priorities, Brittany and Normandy offer something the southern cities cannot: genuine rural proximity, affordable houses with large gardens, and environments where children have genuine freedom to roam. Rennes (Brittany) is the base that makes this practical — metropolitan amenities, good schools, Paris 1h27. Outside Rennes, Brittany and Normandy villages offer houses with gardens from €150,000–250,000. The trade-off: less immediate English-language infrastructure, more French immersion required, and weather that is genuinely grey from October to March. Families who have done this consistently report high satisfaction — the natural environment compensates for the cultural isolation.",
+      },
+      {
+        heading: "What families consistently say they underestimated",
+        body: "The social calendar: French school social life operates on a schedule that is busier and more structured than most Anglophone families expect. Birthday parties, goûters, and end-of-term events start in maternelle and continue through lycée — and they build the social networks that integrate children into French life. Participating fully in this calendar is one of the most effective integration tools available. The Wednesday question: French schools are typically closed on Wednesday afternoons — this is deep in the culture and not changing. Childcare or extracurricular activities (sport clubs, music schools, conservatoires) are expected to fill this slot. Plan for it. The homework load: French schooling, particularly from collège (11+) onwards, has a heavier homework and test culture than most English-speaking systems. Children who are used to project-based learning may find the transition demanding.",
+      },
+    ],
+    relatedCities: ["lyon", "toulouse", "bordeaux", "rennes", "nantes"],
+    tags: ["expat families France cities 2026", "best cities France family expat", "schools France expat family 2026", "moving France with children guide", "Lyon Toulouse Bordeaux family expat 2026"],
+  },
+  {
+    slug: "grenoble-for-expats-guide-2026",
+    title: "Moving to Grenoble: the expat guide (2026)",
+    metaTitle: "Moving to Grenoble 2026: Expat Guide — Science City, Alps Access, Costs",
+    metaDesc: "Grenoble for expats: CERN, CEA, ski slopes from the city, international scientific community, property prices. Honest 2026 guide.",
+    category: "city-guide",
+    emoji: "⛷️",
+    readMinutes: 8,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Grenoble is one of Europe's most distinctive cities for a specific profile: scientists, engineers, and researchers in deep tech, quantum physics, energy, and materials science. The city hosts more fundamental research infrastructure per capita than any other in France — possibly in Europe. CERN is 100km away (1h10 by car). The French Alps are visible from the city centre. And property prices remain remarkably moderate for a city of this intellectual density. If you are moving for research or advanced tech, Grenoble is worth examining very seriously.",
+    sections: [
+      {
+        heading: "The research and tech ecosystem",
+        body: "Grenoble's scientific identity is built on a cluster of world-class research institutions that is disproportionate to the city's size (480,000 metropolitan). The key anchors: CEA Grenoble (Commissariat à l'Énergie Atomique, 4,500 employees, nuclear and advanced electronics research); CNRS (strong presence in physics, chemistry, mathematics); ESRF (European Synchrotron Radiation Facility — one of the world's brightest X-ray sources, 44 member countries, 7,000 visiting researchers/year); ILL (Institut Laue-Langevin, neutron scattering, 40 member countries); EMBL (European Molecular Biology Laboratory outstation). The result: Grenoble has more international researchers as a proportion of its population than anywhere else in France.",
+      },
+      {
+        heading: "The Alps on your doorstep",
+        body: "Grenoble's geographic position is unique in France: the city is enclosed by three mountain ranges — Belledonne (east), Chartreuse (north), and Vercors (west). These ranges are not merely scenic backdrop — they are accessible daily. The Vercors plateau is 20min by car. Belledonne ski stations (Chamrousse, Alpe d'Huez via A480/A41) start 40min away. Les Deux Alpes and Alpe d'Huez (both major resorts) are under 1h. Chamonix is 1h40. For researchers and professionals who want to ski 30+ days a season without leaving their city, this is genuinely without equivalent. Summer: the climbing, hiking, and trail running infrastructure around Grenoble is among Europe's best.",
+      },
+      {
+        heading: "Property and cost of living",
+        body: "Grenoble is notably affordable for a city of its scientific standing. 2026 property benchmarks: Victor Hugo and Alpexpo (central, desirable): €2,800–4,200/m². Championnet and Saint-Bruno (north residential): €2,500–3,500/m². Echirolles (southern suburb, Grenoble city boundary): €1,800–2,800/m². Meylan and Montbonnot (east, near Minatec and CEA): €2,500–3,500/m² — popular with research staff. Monthly rents for 70m²: €750–1,100 depending on area. The cost advantage over Lyon (30% cheaper) and Paris (50% cheaper) is significant for researchers on university or public research salaries.",
+      },
+      {
+        heading: "The international research community",
+        body: "The ESRF and ILL are international organisations — their staff are from 44 member countries and live in Grenoble under specific international civil servant arrangements (exemption from French income tax on ILL/ESRF salary, but contributing to social security). This creates a specific expat sub-community that is well-organised, experienced in French administrative navigation, and has established networks for housing, schools, and social integration. The University of Grenoble Alpes has extensive exchange partnerships and an international student population. English is widely used as a working language in research environments — but French fluency still significantly improves daily life quality.",
+      },
+      {
+        heading: "Practical life",
+        body: "Transport: Grenoble has a tram (5 lines) and cable car infrastructure within the city. Car is useful for mountain access and for reaching Lyon (55min by A48 motorway) or Chambéry (45min). TGV Paris via Lyon: ~3h. Geneva: 1h10 by car. Chambéry airport (Grenoble–Chambéry): small but connects to UK (in winter season, chartered ski flights). Lyon Saint-Exupéry airport is the main gateway (1h15). Schools: the University of Grenoble has an excellent French language centre for new arrivals. International schools in Grenoble are limited — most international families use the sections internationales in the public lycées. Healthcare: CHU de Grenoble is a major university hospital with comprehensive specialist coverage. Pollution: Grenoble sits in a mountain valley with limited air circulation — winter temperature inversions cause periodic pollution episodes, worse than in open-terrain cities.",
+      },
+    ],
+    relatedCities: ["grenoble", "chambery", "annecy", "lyon", "albertville"],
+    tags: ["moving to Grenoble expat 2026", "Grenoble expat guide research science", "Grenoble ESRF ILL CEA expat", "living Grenoble Alps ski France 2026", "Grenoble property prices international community"],
+  },
 ];
 
 export function getEnGuide(slug: string): EnGuide | undefined {
