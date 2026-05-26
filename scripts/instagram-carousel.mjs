@@ -657,11 +657,22 @@ async function createCarouselContainer(childIds, caption) {
   });
 }
 
-async function publishCarousel(containerId) {
-  return igPost(`/${IG_USER_ID}/media_publish`, {
-    creation_id: containerId,
-    access_token: IG_TOKEN,
-  });
+async function publishCarouselWithRetry(containerId, maxAttempts = 12, intervalMs = 5000) {
+  for (let attempt = 1; attempt <= maxAttempts; attempt++) {
+    const r = await igPost(`/${IG_USER_ID}/media_publish`, {
+      creation_id: containerId,
+      access_token: IG_TOKEN,
+    });
+    if (r.ok) return r;
+    // 9007 = not ready yet — wait and retry
+    const code = r.data?.error?.error_subcode;
+    if (code === 2207027 && attempt < maxAttempts) {
+      process.stdout.write(`(not ready, retry ${attempt}/${maxAttempts})... `);
+      await new Promise((res) => setTimeout(res, intervalMs));
+      continue;
+    }
+    return r; // other error — bubble up
+  }
 }
 
 // ─── Post a topic ─────────────────────────────────────────────────────────────
@@ -717,9 +728,9 @@ async function postTopic(topic, dryRun = false, overrideUrls = null) {
   }
   console.log(`✅ ${container.data.id}`);
 
-  // Publish
+  // Publish (retries automatically if Instagram is still processing)
   process.stdout.write("  Publishing... ");
-  const pub = await publishCarousel(container.data.id);
+  const pub = await publishCarouselWithRetry(container.data.id);
   if (!pub.ok) {
     console.error(`\n❌ Publish failed: ${JSON.stringify(pub.data)}`);
     process.exit(1);
