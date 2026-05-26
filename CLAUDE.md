@@ -196,7 +196,7 @@ R7.2 (méthodologie section already absent), R7.9 (string + soft-fallback shippe
 
 ### Product — City Match + vraie vie
 - **R8.2 Vraie vie** — Indicateurs manquants: qualité internet (`/villes/[slug]/connexion-internet` shipped), mentalité locale (`/villes/[slug]/mentalite-locale` shipped), tension locative (`/villes/[slug]/tension-locative` shipped), minutes domicile-travail (section "Trajet domicile-travail estimé" sur `/villes/[slug]/transports` shipped). **R8.2 complet.**
-- **R8.3 Verticale S'installer** — `/villes/[slug]/s-installer` shipped, `/villes/[slug]/agenda` shipped. Pending: portraits-types fictifs explicitement étiquetés.
+- **R8.3 Verticale S'installer** — `/villes/[slug]/s-installer` shipped, `/villes/[slug]/agenda` shipped, portraits-types fictivement étiquetés ("Personnages fictifs · Illustratif uniquement" + disclaimer en bas de page). **R8.3 complet.**
 
 R8.1 City Match (`/city-match` + `lib/city-match.ts`) shipped.
 
@@ -265,7 +265,7 @@ FR-equivalent routes covered: home, cities index + 352 city pages, 4 city sub-pa
 ### EN translation roadmap — pending
 
 **Phase 1 — content depth**
-- [ ] `descriptionEn` / `seoTitleEn` / `seoDescriptionEn` for remaining ~342 cities (only 10 populated)
+- [x] `descriptionEn` / `seoTitleEn` / `seoDescriptionEn` — all 541 cities populated (verified 2026-05-26)
 - [ ] Keep `REGION_EN_DESCRIPTIONS` and `RANKING_EN` in sync with FR changes
 
 **Phase 2 — missing routes**
@@ -279,7 +279,7 @@ FR-equivalent routes covered: home, cities index + 352 city pages, 4 city sub-pa
 - [x] City sub-pages: `neighbourhoods`, `seasons`, `honest-review`, `climate-2040`, plus `fingerprint`, `vibe`, `get-settled`, `overview`, `synthesis`, `profiles`
 
 **Phase 4 — long tail**
-- [ ] All 360+ guides translated — in progress (180+ native EN guides shipped via `data/guides-en.ts`; not 1:1 translations, native expat-angle content)
+- [ ] EN guides — in progress (207+ native EN guides shipped via `data/guides-en.ts`; not 1:1 translations, native expat-angle content)
 - [ ] Per-city OG images with EN copy
 - [x] EN-specific RSS feed (`/feed.xml` + `/guides/feed.xml` locale-aware via `NEXT_PUBLIC_DEFAULT_LOCALE`)
 
