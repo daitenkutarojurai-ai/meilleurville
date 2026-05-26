@@ -26551,6 +26551,487 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["10 choses à faire au Mans", "activités Le Mans 2026", "sorties Le Mans", "que faire au Mans", "24 Heures du Mans circuit cité Plantagenêt cathédrale Sarthe"],
   },
+  {
+    slug: "10-choses-a-faire-a-lorient-2026",
+    title: "10 choses à faire à Lorient (le festival interceltique et les ports de guerre)",
+    metaTitle: "10 choses à faire à Lorient 2026 — activités et sorties locales",
+    metaDesc: "Festival Interceltique, sous-marins de Keroman, presqu'île de Quiberon et Groix : 10 activités à Lorient pour découvrir la ville bretonne aux sept ports.",
+    category: "tourisme",
+    emoji: "🎺",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Lorient est une ville de 60 000 habitants entièrement reconstruite après 1945 (97 % des bâtiments détruits) autour de sept ports distincts. Elle est surtout connue pour le Festival Interceltique (10 jours en août, 750 000 visiteurs) — le plus grand rassemblement des peuples celtes du monde — et pour sa base de sous-marins de la Seconde Guerre mondiale, la plus grande d'Europe.",
+    sections: [
+      {
+        heading: "1. Festival Interceltique — le plus grand rassemblement celtique du monde",
+        body: "Le Festival Interceltique de Lorient (10 jours en août, depuis 1971) rassemble 750 000 spectateurs pour célébrer les cultures celtiques : Bretagne, Irlande, Écosse, Galles, Cornouailles, Île de Man, Galice, Asturie. Concerts de rue gratuits, compétitions de cornemuse et bombarde, défilé du dimanche (10 000 musiciens et danseurs en costumes), spectacles de nuit au Parc des Expositions. La soirée d'ouverture (grandes Nuits de la Citadelle) est le temps fort payant.",
+      },
+      {
+        heading: "2. La base de sous-marins de Keroman — la plus grande d'Europe",
+        body: "La base de sous-marins de Keroman (construite par l'organisation Todt de 1941 à 1944) est la plus grande base de sous-marins construite par l'Allemagne nazie en Europe de l'Ouest : trois alvéoles en béton armé de 7 m d'épaisseur, indestructibles (les bombardements alliés n'ont jamais pu les percer). Le sous-marin Flore (S645, en service 1960-1989) est visitable à l'intérieur depuis 2015 — seul sous-marin de la Guerre froide ouvert au public en France.",
+      },
+      {
+        heading: "3. Île de Groix — l'île aux plages de galets multicolores",
+        body: "L'île de Groix (à 45 min de ferry depuis Lorient, 2 500 habitants permanents) est la seule île de France avec des plages de galets multicolores (porphyre violet, quartz blanc, amphibolite noire) dues à son sous-sol métamorphique. La plage des Grands Sables est la seule plage convexe de France (la forme s'incurve vers la mer). Le tour de l'île à vélo (22 km, 3h) passe par les falaises de la côte sauvage, les landes à bruyère et les anciens thoniers.",
+      },
+      {
+        heading: "4. Presqu'île de Quiberon — la Côte Sauvage atlantique",
+        body: "La presqu'île de Quiberon (à 45 km de Lorient), reliée au continent par un isthme de 200 m, possède la Côte Sauvage sur son flanc atlantique : 7 km de falaises et d'encoches creusées par les vagues. La côte est interdite à la baignade (courants violents) mais le spectacle des vagues en tempête est saisissant. Le côté Baie (côté est) est calme — plages de sable, sardines et langoustines au port de pêche de Quiberon.",
+      },
+      {
+        heading: "5. Citadelle de Port-Louis — la forteresse du XVIe siècle",
+        body: "Port-Louis, à 15 min de Lorient en vedette nautique, possède une citadelle du XVIe siècle (1591-1640, construite par les Espagnols puis les Français) en parfait état de conservation. Le musée de la Compagnie des Indes (dans la citadelle) retrace l'histoire de la Compagnie française des Indes orientales fondée à Lorient en 1664. La traversée de la rade de Lorient en vedette permet de voir les sept ports depuis le large.",
+      },
+      {
+        heading: "6. Hennebont — les remparts médiévaux et la haras",
+        body: "Hennebont, à 12 km de Lorient sur le Blavet, possède des remparts médiévaux du XIVe siècle en partie conservés avec leur porte Broërec restaurée. Le haras national d'Hennebont (fondé en 1808) est l'un des plus beaux de Bretagne : 80 étalons, architecture du XIXe siècle, visites et spectacles équestres. La Basilique Notre-Dame-du-Paradis (XVIe siècle, clocher de 65 m) domine la ville basse.",
+      },
+      {
+        heading: "7. Carnac et les alignements depuis Lorient",
+        body: "Carnac, à 35 km de Lorient, est le site mégalithique le plus important au monde (3 000 menhirs en lignes parallèles). Les alignements de Kermario (1 029 menhirs, les plus accessibles) et la Table des Marchands (dolmen de Locmariaquer, à 25 km) sont les deux étapes incontournables. La Maison des Mégalithes (accueil, boutique, observatoire) organise des visites guidées des alignements (accès aux alentours en saison uniquement depuis les passerelles).",
+      },
+      {
+        heading: "8. Marché des Halles de Lorient et la sardine bretonne",
+        body: "Le marché des Halles de Lorient (halles couvertes, quotidien sauf lundi) est le meilleur marché de la rade : poissonniers de la criée de Lorient (daurade, bar, lieu jaune, thon germon), fruits de mer (homard breton, tourteau, coquilles Saint-Jacques), charcuteries et fromages bretons. La sardine de Lorient (pêchée en saison juin-septembre, grillée au beurre salé sur les terrasses du port) est l'emblème culinaire de la ville.",
+      },
+      {
+        heading: "9. Écomusée de Saint-Dégan — le hameau breton reconstitué",
+        body: "L'écomusée de Saint-Dégan (à 20 km de Lorient à Brec'h) est un écomusée en plein air reconstitué autour d'un vrai hameau breton du XVIIIe siècle : fermes en pierre et chaume, fours à pain, pressoirs à cidre, moulins, animaux de basse-cour locaux (poules Coucou de Rennes, vache bretonne pie-noir). Savoir-faire agricoles et artisanaux démontrés par des animateurs en costume.",
+      },
+      {
+        heading: "10. Navigation en rade de Lorient",
+        body: "La rade de Lorient (un des plus grands plans d'eau naturels de France, 50 km²) est un terrain de voile exceptionnel : vents constants de secteur ouest, abris naturels, îles accessibles à la journée. Les clubs de voile lorientais (COYCH, Cercle de la Voile de Lorient) proposent des initiations. Les vedettes du Golfe (liaisons Lorient-Groix-Port-Louis-Gâvres) permettent d'explorer la rade sans permis bateau.",
+      },
+    ],
+    relatedCities: ["lorient"],
+    relatedGuides: [
+      "quitter-lorient-guide-2026",
+      "acheter-a-lorient-quel-quartier-budget-2026",
+      "vivre-morbihan-bretagne-sud-guide-2025",
+    ],
+    tags: ["10 choses à faire à Lorient", "activités Lorient 2026", "sorties Lorient", "que faire à Lorient", "Festival Interceltique sous-marins Keroman île Groix Quiberon"],
+  },
+  {
+    slug: "10-choses-a-faire-a-chartres-2026",
+    title: "10 choses à faire à Chartres (la cathédrale gothique et la Beauce)",
+    metaTitle: "10 choses à faire à Chartres 2026 — activités et sorties locales",
+    metaDesc: "Cathédrale gothique classée UNESCO, vitraux médiévaux, pèlerinage de Chartres et Chartres en Lumières : 10 activités à Chartres pour découvrir la capitale de la Beauce.",
+    category: "tourisme",
+    emoji: "⛪",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Chartres est une ville de 40 000 habitants dont le monument principal — la cathédrale Notre-Dame — est considéré par la plupart des historiens de l'art comme l'édifice médiéval le plus parfait jamais construit. Ses 176 vitraux médiévaux (XIIe-XIIIe siècles) représentent la plus grande surface de vitraux médiévaux conservés au monde.",
+    sections: [
+      {
+        heading: "1. Cathédrale Notre-Dame de Chartres — le chef-d'œuvre du gothique",
+        body: "La cathédrale de Chartres (XIIe-XIIIe siècles, UNESCO) est le monument médiéval le plus influent de l'histoire de l'architecture occidentale : elle a défini les canons du gothique français (voûte sur croisées d'ogives, arc boutant, grande rosace). Ses deux tours asymétriques (l'une romane du XIIe siècle, l'autre gothique du XVIe), ses trois portails sculptés de 700 figures et ses 176 vitraux (2 600 m² de verre coloré) en font un monument au-dessus de toute comparaison.",
+      },
+      {
+        heading: "2. Les vitraux médiévaux — la plus grande surface au monde",
+        body: "Les vitraux de Chartres (XIIe-XIIIe siècles, 176 baies, 2 600 m²) sont la plus grande surface de vitraux médiévaux conservés in situ au monde. Le Bleu de Chartres (bleu cobalt des vitraux du XIIe siècle, composition aujourd'hui perdue) est reconnaissable entre tous — plus intense et plus lumineux que tout ce qui a été produit depuis. La grande rosace sud (13 m de diamètre, 1221) est la plus complexe du Moyen Âge. Jumelles recommandées.",
+      },
+      {
+        heading: "3. Chartres en Lumières — le festival annuel d'illuminations",
+        body: "Chartres en Lumières (fin avril - octobre, nocturnes à partir de 22h) projette des spectacles lumineux sur 28 monuments de la ville, dont la façade entière de la cathédrale (reconstitution numérique des polychromies médiévales, les sculptures et portails étaient peints en couleurs vives à l'origine). La visite commentée en petit train (1h, départ place de la Cathédrale) est le meilleur moyen de voir tous les sites illuminés.",
+      },
+      {
+        heading: "4. Le pèlerinage de Chartres — la marche Paris-Chartres",
+        body: "Le pèlerinage étudiant de Chartres (Pentecôte, depuis 1983) est le plus grand rassemblement catholique traditionnel de France : 15 000 pèlerins marchent 100 km de Paris à Chartres en 3 jours. Chartres est un des plus anciens pèlerinages chrétiens d'Occident — la Voile de la Vierge (relique conservée dans la cathédrale) attire depuis le IXe siècle. Le pèlerinage existe indépendamment de l'événement étudiant tout au long de l'année.",
+      },
+      {
+        heading: "5. La vieille ville de Chartres — les ruelles médiévales",
+        body: "La vieille ville de Chartres descend en pentes raides depuis la cathédrale vers l'Eure : maisons à pans de bois des XVe-XVIIe siècles rue de la Porte-Guillaume et rue aux Herbes, lavoirs médiévaux sur les bras de l'Eure, l'église Saint-André (XIe siècle) en ruines pittoresques au bord de l'eau. La maison Picassiette (mosaïque de fragments de faïence sur tous les murs, jardin, meubles — travail d'un cantonnier de 1938 à 1964) est l'œuvre d'art brut la plus étrange de la ville.",
+      },
+      {
+        heading: "6. Musée des Beaux-Arts de Chartres",
+        body: "Le musée des Beaux-Arts de Chartres (dans l'ancien palais épiscopal, XIIe-XVIIIe siècles) possède une collection de peintures et d'émaux remarquable : émaux de Léonard Limosin (XVIe siècle, la plus grande collection de France), peintures flamandes du XVIIe, collection de zoomorphes médiévaux et tapisseries. La vue depuis les jardins du musée sur les bras de l'Eure et les arches médiévales est l'une des plus photographiées de Chartres.",
+      },
+      {
+        heading: "7. Maintenon — le château de Mme de Maintenon",
+        body: "Maintenon, à 15 km de Chartres, possède le château de Mme de Maintenon (épouse secrète de Louis XIV, qui lui offrit le domaine) avec ses douves, son parc à la française et l'aqueduc inachevé de Louis XIV (construit pour amener l'eau de la vallée de l'Eure à Versailles — chantier abandonné après 30 000 ouvriers morts de maladie). L'aqueduc (quatre niveaux d'arcades, 4,8 km de long inachevés) est visible depuis le parc.",
+      },
+      {
+        heading: "8. La Beauce — les greniers à blé de la France",
+        body: "La Beauce (plaine céréalière de 6 000 km² autour de Chartres) est le premier bassin de production de blé de France et d'Europe. Les silos à grain qui jalonnent la plaine, la cathédrale visible à 30 km à la ronde depuis les champs plats, les chemin ruraux entre les blés en été forment un paysage agricole qu'aucun autre pays d'Europe ne possède à cette échelle. En juin-juillet : la moisson (moissonneuses-batteuses de nuit, odeur de paille chaude).",
+      },
+      {
+        heading: "9. Dreux — la chapelle royale des Orléans",
+        body: "Dreux, à 35 km de Chartres, possède la chapelle royale Saint-Louis — nécropole des ducs d'Orléans depuis 1816 (50 membres de la famille d'Orléans y sont enterrés, de Louis-Philippe à aujourd'hui). Le décor intérieur (vitraux, sculptures, médaillons peints) est un chef-d'œuvre du romantisme français. Le beffroi médiéval de Dreux (XIIIe siècle) domine la vieille ville.",
+      },
+      {
+        heading: "10. Anet — le château de Diane de Poitiers",
+        body: "Anet, à 50 km de Chartres, abrite les vestiges du château d'Anet, construit en 1547-1552 par Philibert de l'Orme pour Diane de Poitiers, maîtresse d'Henri II. La porte d'entrée (aujourd'hui conservée à l'École des Beaux-Arts de Paris) est un chef-d'œuvre de la Renaissance française. Ce qu'il en reste sur place (aile droite, chapelle circulaire) suffit à comprendre la magnificence du projet. Diane de Poitiers est enterrée dans la chapelle.",
+      },
+    ],
+    relatedCities: ["chartres"],
+    relatedGuides: [
+      "quitter-chartres-guide-2026",
+      "acheter-a-chartres-quel-quartier-budget-2026",
+      "vivre-en-centre-val-de-loire-guide-2026",
+    ],
+    tags: ["10 choses à faire à Chartres", "activités Chartres 2026", "sorties Chartres", "que faire à Chartres", "cathédrale gothique vitraux médiévaux Chartres en Lumières UNESCO"],
+  },
+  {
+    slug: "10-choses-a-faire-a-blois-2026",
+    title: "10 choses à faire à Blois (les châteaux de la Loire et la ville royale)",
+    metaTitle: "10 choses à faire à Blois 2026 — activités et sorties locales",
+    metaDesc: "Château royal de Blois, Chambord, Cheverny et son de lumière : 10 activités à Blois pour découvrir la capitale du Val de Loire et la vallée des châteaux.",
+    category: "tourisme",
+    emoji: "🏰",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Blois est une ville de 45 000 habitants au cœur du Val de Loire classé UNESCO — la vallée la plus concentrée en châteaux royaux du monde. Chambord (à 18 km), Cheverny (à 14 km), Chaumont (à 18 km), Beauregard, Villesavin — tous accessibles depuis Blois en une journée. La ville elle-même possède son château royal dont François Ier a commandé l'aile la plus spectaculaire.",
+    sections: [
+      {
+        heading: "1. Château royal de Blois — quatre styles architecturaux en un",
+        body: "Le château royal de Blois réunit quatre époques architecturales distinctes dans une même cour : l'aile gothique de Louis XII (1498-1503), l'aile Renaissance de François Ier (1515-1524 — escalier à vis en cage ouverte, le plus photographié de la Loire), l'aile classique de Gaston d'Orléans (Mansart, 1635-1638) et la salle des États généraux (XIIIe siècle, seule salle médiévale conservée). Le château de Blois est un manuel d'histoire de l'architecture française.",
+      },
+      {
+        heading: "2. Chambord — le château le plus grand du Val de Loire",
+        body: "Chambord (à 18 km de Blois) est le plus grand château du Val de Loire et l'un des chefs-d'œuvre de l'architecture Renaissance mondiale : 440 pièces, 365 cheminées, 83 escaliers, et le double escalier à vis central (attribué à Léonard de Vinci) où deux personnes qui montent et descendent ne se croisent jamais. François Ier n'y a passé que 72 nuits. Le domaine national (5 500 ha, plus grand parc forestier muré d'Europe) accueille cerfs et sangliers en liberté.",
+      },
+      {
+        heading: "3. Cheverny — le château habité et les chiens de chasse",
+        body: "Cheverny (à 14 km de Blois) est le seul château de la Loire encore habité par la même famille depuis le XVIIe siècle (famille de Vibraye). Son intérieur — mobilier d'époque, tapisseries, argenterie — est intact. La meute de 100 chiens Anglo-Français tricolores (race locale) est présentée chaque matin (soupe des chiens, 11h30). Cheverny a inspiré le château de Moulinsart dans Tintin.",
+      },
+      {
+        heading: "4. Son et Lumière de Chambord",
+        body: "Le spectacle équestre et nocturne de Chambord (juillet-août, « Les Grandes Nuits de Chambord ») est l'un des plus beaux spectacles en plein air de France : projection lumineuse sur la façade de 156 m du château, cavaliers en costume d'époque, musique baroque. Le renard et la lumière (spectacle son et lumière de 45 min sur la façade nord) est proposé toutes les nuits en saison.",
+      },
+      {
+        heading: "5. Chaumont-sur-Loire — le Festival des Jardins",
+        body: "Chaumont-sur-Loire (à 18 km de Blois) accueille le Festival International des Jardins (mai-octobre) depuis 1992 : 25 jardins éphémères créés chaque année par des paysagistes du monde entier dans le parc du château. Le Festival est devenu l'un des événements de paysagisme les plus influents au monde. Le château (XVe-XVIe siècles) domine la Loire depuis 60 m de hauteur — vue sur les bancs de sable et les îles de la Loire.",
+      },
+      {
+        heading: "6. La vieille ville de Blois — les escaliers et les maisons de vignerons",
+        body: "Blois est construite sur une falaise de tuffeau au-dessus de la Loire — la vieille ville descend par escaliers monoliths (les « escaliers Denis-Papin ») jusqu'aux quais. La rue du Commerce et la rue des Papegaults (maisons Renaissance du XVIe siècle en tuffeau blanc) forment le cœur du Blois médiéval. La cathédrale Saint-Louis (XVIIe siècle, reconstruite après un ouragan en 1678) et son jardin de l'Évêché (vue sur la Loire) complètent le circuit.",
+      },
+      {
+        heading: "7. Beauregard — le cabinet des portraits royaux",
+        body: "Château de Beauregard (à 10 km de Blois) possède la salle des portraits la plus originale de France : 327 portraits en pied d'hommes et de femmes illustres du XIVe au XVIIe siècle, peints sur les murs et le plafond d'une galerie entière. Le carrelage de Delft du XVIIe siècle (4 000 carreaux représentant une armée en marche) qui couvre le sol de la galerie est unique en France.",
+      },
+      {
+        heading: "8. La Loire à vélo — de Blois à Amboise",
+        body: "La Loire à vélo (EuroVelo 6, de Nevers à Saint-Nazaire) longe la Loire sur des pistes cyclables en grande partie sur berges, sans dénivelé. L'étape Blois-Amboise (40 km) est la plus dense en châteaux et caves troglodytiques : Chaumont, Amboise (château royal où est enterré Léonard de Vinci), Clos Lucé (dernière demeure de Vinci). En aller-retour depuis Blois : 80 km, journée complète.",
+      },
+      {
+        heading: "9. Caves troglodytiques et vins de Touraine",
+        body: "Le tuffeau (calcaire tendre) qui compose les falaises du Val de Loire a été creusé depuis l'Antiquité pour en extraire les pierres des châteaux, laissant des milliers de caves et de maisons troglodytiques habitées. Les caves viticoles de Montoire (AOC Coteaux du Vendômois) et de Cheverny (AOC, rouge au pinot noir, blanc au sauvignon) sont accessibles à la dégustation. Les champignons de Paris sont cultivés dans les caves depuis le XIXe siècle.",
+      },
+      {
+        heading: "10. Amboise — le château et Léonard de Vinci",
+        body: "Amboise, à 35 km de Blois, possède le château royal où Charles VIII est mort en se cognant la tête contre un linteau en 1498, où François Ier a invité Léonard de Vinci à passer ses dernières années (1516-1519) et où une conjuration protestante de 1560 a été écrasée (1 200 pendus aux créneaux). Le Clos Lucé (maison de Vinci, à 500 m du château) présente des maquettes de ses inventions en taille réelle.",
+      },
+    ],
+    relatedCities: ["blois"],
+    relatedGuides: [
+      "val-de-loire-vivre-guide-2025",
+      "vivre-en-centre-val-de-loire-guide-2026",
+      "centre-val-de-loire-tours-orleans-guide-2025",
+    ],
+    tags: ["10 choses à faire à Blois", "activités Blois 2026", "sorties Blois", "que faire à Blois", "château royal Chambord Cheverny Val de Loire Loire à vélo"],
+  },
+  {
+    slug: "10-choses-a-faire-a-auxerre-2026",
+    title: "10 choses à faire à Auxerre (la cathédrale et les vins de Bourgogne du Nord)",
+    metaTitle: "10 choses à faire à Auxerre 2026 — activités et sorties locales",
+    metaDesc: "Cathédrale Saint-Étienne, Chablis, abbaye Saint-Germain et canal de Bourgogne : 10 activités à Auxerre pour découvrir la capitale de l'Yonne en Bourgogne.",
+    category: "tourisme",
+    emoji: "🍇",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Auxerre est une ville de 35 000 habitants sur les bords de l'Yonne, porte nord de la Bourgogne. Sa cathédrale gothique domine la rivière depuis 150 m de hauteur, son abbaye Saint-Germain possède des cryptes carolingiennes du IXe siècle parmi les mieux conservées de France, et Chablis — le premier grand cru de Bourgogne en remontant de Paris — est à 20 km.",
+    sections: [
+      {
+        heading: "1. Cathédrale Saint-Étienne — les vitraux du XIIIe siècle",
+        body: "La cathédrale Saint-Étienne d'Auxerre (XIIIe-XVIe siècles) possède l'une des plus belles collections de vitraux médiévaux de France : les vitraux du XIIIe siècle (chœur) sont parmi les plus anciens de Bourgogne. La façade (XIVe-XVIe siècles) est un exemple de gothique flamboyant avec ses trois portails sculptés. La vue depuis le parvis sur les toits d'Auxerre et l'Yonne en contrebas est la plus photographiée de la ville.",
+      },
+      {
+        heading: "2. Abbaye Saint-Germain — les cryptes carolingiennes du IXe siècle",
+        body: "L'abbaye Saint-Germain d'Auxerre (fondée au Ve siècle sur la tombe de l'évêque Germain) possède des cryptes carolingiennes du IXe siècle avec des fresques murales datant de 850 ap. J.-C. — les fresques carolingiennes les mieux conservées de France. La crypte Saint-Maxime (IXe siècle) et ses colonnes antiques récupérées sur des édifices gallo-romains sont exceptionnelles. Le cloître (XVe siècle) est aujourd'hui musée d'art et d'histoire.",
+      },
+      {
+        heading: "3. Chablis — le premier cru de Bourgogne",
+        body: "Chablis (à 20 km d'Auxerre) est l'appellation la plus septentrionale de la Bourgogne viticole et produit les chardonnays les plus minéraux du monde : sol kimméridgien (calcaire marin du Jurassique avec des fossiles d'huîtres — les vignes poussent littéralement sur des coquilles). Les Grands Crus de Chablis (Blanchot, Bougros, Les Clos, Grenouilles, Preuses, Valmur, Vaudésir) sont parmi les 50 plus grands vins blancs secs au monde.",
+      },
+      {
+        heading: "4. Le canal de Bourgogne — navigation et haltes fluviales",
+        body: "Le canal de Bourgogne (242 km, Migennes à Saint-Jean-de-Losne) passe par Auxerre et traverse la Bourgogne en longeant les côtes viticoles. Location de péniches habitables (Nicols, Crown Blue Line) depuis Auxerre pour des croisières de 2 à 7 jours. Les écluses manuelles (236 sur le canal), les guinguettes de halte et les villages de vignerons sur les berges donnent au canal de Bourgogne son charme particulier.",
+      },
+      {
+        heading: "5. Vézelay — la basilique romane et le chemin de Compostelle",
+        body: "Vézelay (à 50 km d'Auxerre) est l'un des plus grands pèlerinages médiévaux et l'un des quatre points de départ officiels du chemin de Saint-Jacques-de-Compostelle en France. La basilique Sainte-Marie-Madeleine (XIe-XIIe siècles, UNESCO) possède le tympan de la Pentecôte (1130) — la plus grande composition sculptée romane de France. Le village perché sur une colline vigneronne, entouré de remparts, est classé parmi les plus beaux de France.",
+      },
+      {
+        heading: "6. Tonnerre — l'Hôtel-Dieu médiéval et le vignoble Épineuil",
+        body: "Tonnerre (à 35 km d'Auxerre) possède l'Hôtel-Dieu médiéval (1293, la seule salle des malades du XIIIe siècle encore intacte en France — plus grande que celle de Beaune) avec son charpente en bois de 80 m de long. Le vignoble d'Épineuil (AOC Bourgogne Épineuil, pinot noir léger et fruité) est le plus méconnu des vins de l'Yonne — à goûter dans les caves de Tonnerre.",
+      },
+      {
+        heading: "7. Sens — la première cathédrale gothique de France",
+        body: "Sens (à 60 km d'Auxerre) possède la cathédrale Saint-Étienne (1130-1160) — la première cathédrale gothique construite en France, antérieure à Notre-Dame de Paris et à Chartres. Son trésor (tissus médiévaux brodés, ivoires, reliquaires du XIIe siècle) est parmi les plus riches de France. L'abbé Suger, inventeur du gothique à Saint-Denis, s'est inspiré d'une visite à Sens.",
+      },
+      {
+        heading: "8. Irancy — le seul vin rouge de l'Yonne",
+        body: "Irancy (à 10 km d'Auxerre) est le seul village de l'Yonne à produire un rouge AOC : l'Irancy, issu de pinot noir sur des pentes calcaires en cirque naturel exposées plein sud. Le domaine Colinot (en agriculture biologique depuis 1968) est la référence. Le village lui-même, avec ses maisons de vignerons du XVIIIe siècle et son cerisier en fleurs en avril, est l'un des plus beaux villages de l'Yonne.",
+      },
+      {
+        heading: "9. Forêt d'Othe — les plateaux boisés entre Seine et Yonne",
+        body: "La forêt d'Othe (60 000 ha, entre Sens et Auxerre) est un massif forestier peu connu traversé par des sentiers de randonnée et de VTT dans un paysage de hêtres, charmes et chênes. Les pommes du Pays d'Othe (cidre fermier, calvados AOC) sont la production locale : les vergers en fleurs en avril, les pressoirs en octobre. Le GR2 traverse la forêt depuis Sens jusqu'à Joigny (ville médiévale à 27 km d'Auxerre).",
+      },
+      {
+        heading: "10. L'Yonne en kayak — de Clamecy à Auxerre",
+        body: "L'Yonne entre Clamecy et Auxerre (80 km) est un itinéraire de kayak en eaux vives modérées (classe I-II) passant par des gorges, des villages de granit et des rapides naturels. Le tronçon Mailly-le-Château / Vincelles (20 km, demi-journée) longe les falaises calcaires de la Cure. Locations de canoës et kayaks à Vincelles (Club nautique de Vincelles) et Auxerre.",
+      },
+    ],
+    relatedCities: ["auxerre"],
+    relatedGuides: [
+      "vivre-en-bourgogne-franche-comte-guide-2025",
+      "teletravailler-depuis-bourgogne-guide-2026",
+    ],
+    tags: ["10 choses à faire à Auxerre", "activités Auxerre 2026", "sorties Auxerre", "que faire à Auxerre", "Chablis cathédrale abbaye carolingienne canal Bourgogne Vézelay"],
+  },
+  {
+    slug: "10-choses-a-faire-a-belfort-2026",
+    title: "10 choses à faire à Belfort (le lion de Bartholdi et le territoire de la liberté)",
+    metaTitle: "10 choses à faire à Belfort 2026 — activités et sorties locales",
+    metaDesc: "Lion de Bartholdi, citadelle de Vauban, festival Eurockéennes et ballon d'Alsace : 10 activités à Belfort pour découvrir la ville invaincue du Territoire de Belfort.",
+    category: "tourisme",
+    emoji: "🦁",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Belfort est une ville de 45 000 habitants dans son propre département (le Territoire de Belfort, 90 — le plus petit de France) entre Alsace, Franche-Comté et Bourgogne. Invaincue lors du siège franco-prussien de 1870-1871 (103 jours de résistance), elle a obtenu le droit de rester française en échange de la cession de l'Alsace-Moselle. Son lion de grès rose (11 m, Bartholdi) est le monument emblématique de cette résistance.",
+    sections: [
+      {
+        heading: "1. Le Lion de Belfort — le colosse de Bartholdi",
+        body: "Le Lion de Belfort (1880, Frédéric-Auguste Bartholdi — le même sculpteur que la Statue de la Liberté) est une sculpture de 11 m de long et 4 m de haut taillée dans le grès rose des Vosges, adossée au rocher de la citadelle. Il symbolise la résistance de Belfort face au siège de 1870 (le colonel Denfert-Rochereau a tenu 103 jours avec 17 000 soldats face à 40 000 Prussiens). Bartholdi a reproduit le lion en bronze pour la place Denfert-Rochereau à Paris.",
+      },
+      {
+        heading: "2. Citadelle de Vauban — le château sur le rocher",
+        body: "La citadelle de Belfort (sur le rocher de 73 m dominant la ville) a été renforcée par Vauban en 1687 — bastions, fossés, demi-lunes, glacis. Le château (XIe-XVIIe siècles) à l'intérieur de la citadelle abrite le Musée d'Art et d'Histoire de Belfort : section archéologique (bronzes hallstattiens), galerie des Beaux-Arts (Boucher, Cranach, Courbet), et surtout la salle consacrée à Bartholdi avec des maquettes de la Statue de la Liberté.",
+      },
+      {
+        heading: "3. Festival des Eurockéennes — le plus grand festival de rock de l'Est",
+        body: "Les Eurockéennes de Belfort (4 jours début juillet, depuis 1989) sont le plus grand festival de musique de l'Est de la France : 120 000 spectateurs sur le site de la presqu'île du Malsaucy (lac artificiel, scènes en plein air). Programmation rock, électro, hip-hop — Nirvana, Radiohead, Daft Punk, The Weeknd y ont joué. Le camping du festival (5 000 places) est inclus dans le pass. Navettes depuis Belfort.",
+      },
+      {
+        heading: "4. La vieille ville de Belfort — la place d'Armes et les remparts",
+        body: "La vieille ville de Belfort (intra-muros, entre les remparts de Vauban et la citadelle) conserve ses rues en damier du XVIIe siècle : place d'Armes avec ses maisons à arcades, église Saint-Christophe (1727, intérieur baroque), hôtel de ville et préfecture néoclassiques. Les remparts (en partie accessibles depuis le champ de Mars) permettent une promenade avec vue sur le lion et la plaine de Belfort.",
+      },
+      {
+        heading: "5. Ballon d'Alsace — le premier col routier de France",
+        body: "Le ballon d'Alsace (1 247 m, à 30 km de Belfort) est le premier col routier de France à avoir été classé dans le Tour de France (1905). La route du ballon depuis Saint-Maurice-sur-Moselle (côté vosgien) offre une montée en forêt de sapins avec vue sur la plaine d'Alsace au sommet. Le lac des Corbeaux (voisin) et les pistes de ski (nordique et alpin modeste) complètent l'activité.",
+      },
+      {
+        heading: "6. Montbéliard — la ville de Peugeot et Cuvier",
+        body: "Montbéliard (à 15 km de Belfort) est la ville natale de Georges Cuvier (fondateur de la paléontologie) et le berceau de Peugeot (Armand Peugeot y a fondé sa manufacture en 1891). Le musée Peugeot de Sochaux (à 20 min) retrace 130 ans de production automobile. Le château de Montbéliard (deux tours rondes, XIV-XVIe siècles, dont la Henriette, résidence des ducs de Wurtemberg) abrite le musée de l'art et des sciences.",
+      },
+      {
+        heading: "7. Giromagny et le pays sous-vosgien",
+        body: "Giromagny (à 15 km de Belfort au pied des Vosges) est le point de départ des randonnées dans les ballons vosgiens : sentier des Roches (3h, cirque glaciaire du Fossard), GR5 vers le ballon d'Alsace, lac de Sewen. Les mines d'argent de Giromagny (exploitées du XVe au XIXe siècle) sont visitables en été. Le village de Rougegoutte, à 8 km, possède une chapelle baroque du XVIIIe siècle aux fresques exceptionnelles.",
+      },
+      {
+        heading: "8. Ronchamp — la chapelle Le Corbusier",
+        body: "Ronchamp (à 25 km de Belfort) abrite la chapelle Notre-Dame-du-Haut (1955, Le Corbusier) — l'un des chefs-d'œuvre de l'architecture du XXe siècle. Son toit en béton en forme de coque de bateau retourné, ses murs courbes et ses fenêtres découpées de toutes tailles qui inondent l'intérieur de lumière colorée ont été classés au Patrimoine mondial de l'UNESCO en 2016. Le couvent des Clarisses (voisin, 2011, Renzo Piano) complète le site.",
+      },
+      {
+        heading: "9. Héricourt et le train des Vosges",
+        body: "La ligne du Doubs (TER Belfort-Montbéliard-Besançon) longe la vallée du Doubs entre falaises calcaires et prairies. Depuis Belfort, le train Belfort-Mulhouse (30 min) traverse la trouée de Belfort — le seul corridor entre Vosges et Jura. Le canal du Rhône au Rhin (Belfort à Mulhouse, 37 km) est un itinéraire vélo plat sur berges accessible depuis le centre de Belfort.",
+      },
+      {
+        heading: "10. La Cité musicale de Belfort et le FIMU",
+        body: "Belfort possède une vie musicale exceptionnelle pour sa taille : les Eurockéennes en été, le FIMU (Festival International de Musique Universitaire, Pentecôte, gratuit, 600 concerts de rue) et la Cité musicale de Belfort (salle de 3 000 places, ancienne usine industrielle réhabilitée). La Poudrière (salle de concerts de 1 000 places dans un ancien dépôt de munitions du XIXe siècle) est la salle de musiques actuelles de référence de l'Est.",
+      },
+    ],
+    relatedCities: ["belfort"],
+    relatedGuides: [
+      "vivre-en-bourgogne-franche-comte-guide-2025",
+      "vivre-en-franche-comte-jura-guide-2025",
+    ],
+    tags: ["10 choses à faire à Belfort", "activités Belfort 2026", "sorties Belfort", "que faire à Belfort", "lion Bartholdi Eurockéennes citadelle Vauban ballon d'Alsace Ronchamp"],
+  },
+  {
+    slug: "10-choses-a-faire-a-epinal-2026",
+    title: "10 choses à faire à Épinal (l'imagerie vosgienne et les lacs du massif)",
+    metaTitle: "10 choses à faire à Épinal 2026 — activités et sorties locales",
+    metaDesc: "Imagerie d'Épinal, basilique Saint-Maurice, lacs des Vosges et parc international d'art : 10 activités à Épinal pour découvrir la préfecture des Vosges.",
+    category: "tourisme",
+    emoji: "🖨️",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Épinal est la préfecture des Vosges, 30 000 habitants sur la Moselle aux pieds du massif vosgien. Elle doit sa notoriété mondiale à l'Imagerie d'Épinal — la maison Pellerin a diffusé des estampes populaires en couleur dans toute l'Europe depuis 1796, et l'expression « une image d'Épinal » (représentation simplifiée et idéalisée) est entrée dans la langue française.",
+    sections: [
+      {
+        heading: "1. Imagerie d'Épinal — le musée de l'estampe populaire",
+        body: "L'Imagerie d'Épinal (musée de l'Image) retrace l'histoire de la maison Pellerin (1796-aujourd'hui), productrice des célèbres images colorées à la main, puis imprimées au pochoir, qui ont illustré les murs de toute la France rurale. La collection comprend 100 000 images originales sur 230 ans, des batailles napoléoniennes aux jeux pour enfants. L'atelier de sérigraphie permet de repartir avec sa propre image fabriquée.",
+      },
+      {
+        heading: "2. Basilique Saint-Maurice — le joyau gothique vosgien",
+        body: "La basilique Saint-Maurice d'Épinal (XIe-XIVe siècles) est l'un des plus beaux édifices religieux de Lorraine : choeur gothique de la fin du XIIIe siècle, nef romane du XIe, et une collection de 65 statues médiévales (XIIIe-XVIe siècles) parmi les plus importantes de l'Est de la France. Le tympan du portail Nord (XVIe siècle) et les chapiteaux sculptés de la nef romane valent le détour.",
+      },
+      {
+        heading: "3. Parc international d'art — sculptures en plein air",
+        body: "Le parc international d'art d'Épinal (sur l'île du Cours, en plein centre-ville) est l'un des plus grands parcs de sculpture en plein air de France : 90 sculptures contemporaines de 25 pays dans un parc boisé de 4 ha sur une île de la Moselle. Tom Wesselmann, Robert Indiana, Jean Dubuffet, Niki de Saint Phalle y sont représentés. Entrée libre, ouvert toute l'année.",
+      },
+      {
+        heading: "4. Lac de Gérardmer — la perle des Vosges",
+        body: "Gérardmer (à 40 km d'Épinal) est la plus grande station de montagne des Vosges : lac glaciaire de 115 ha (le plus grand des Vosges), plage et activités nautiques en été, domaine skiable de La Mauselaine en hiver. Le lac de Longemer (à 5 km) et les chaumes sommitales (paysages ouverts au-dessus de 1 000 m) sont accessibles en randonnée depuis Gérardmer. L'usine de fromage Gérômé (munster de Gérardmer AOP) se visite.",
+      },
+      {
+        heading: "5. La route des crêtes des Vosges",
+        body: "La Route des Crêtes (D415/D430, de Thann au Donon, 77 km) longe la ligne de crête des Vosges qui constituait la frontière franco-allemande de 1871 à 1918. Les balcons des Vosges (Markstein, Hohneck, Grand Ballon — point culminant des Vosges à 1 424 m) offrent des vues sur la plaine d'Alsace, le Rhin et la Forêt-Noire. La route reste ouverte sauf grand enneigement — la montée à pied ou à vélo depuis le versant lorrain (Épinal) est possible en été.",
+      },
+      {
+        heading: "6. Remiremont — les chanoinesses et la ville abbatiale",
+        body: "Remiremont (à 30 km d'Épinal) est l'ancienne ville des chanoinesses nobles — un chapitre de femmes nobles qui gouvernèrent la ville pendant 1 200 ans. Ses arcades de la Grande Rue (galeries couvertes du XVIIe siècle sur tout le linéaire commerçant), sa crypte mérovingienne et son musée Charles-de-Bruyères (collection de peintures régionales) en font l'une des villes les plus cohérentes des Vosges.",
+      },
+      {
+        heading: "7. Plombières-les-Bains — les thermes napoléoniens",
+        body: "Plombières-les-Bains (à 35 km d'Épinal) est une station thermale dont les sources ont été fréquentées depuis les Romains. Napoléon III y a rencontré Cavour en 1858 pour négocier l'unification italienne (entrevue de Plombières). Les thermes Belle Époque (architecture haussmannienne en pleine vallée vosgienne), les cascades et les forêts de sapins autour de la station en font une halte à part.",
+      },
+      {
+        heading: "8. Forêt vosgienne et randonnée au col de la Schlucht",
+        body: "Le massif vosgien est couvert à 70 % de forêts (sapins de Noël, épicéas, hêtres) — les forêts les plus étendues d'Est de la France. Le col de la Schlucht (1 139 m, entre Gérardmer et Colmar en Alsace) est le point de passage le plus spectaculaire : les Vosges tombent abruptement côté alsacien (800 m de dénivelé en 10 km). La Roche du Diable (à 2 km du col, 30 min à pied) offre la meilleure vue sur la vallée de la Fecht.",
+      },
+      {
+        heading: "9. Festival International de l'Image d'Épinal",
+        body: "Le Festival Image Épinal (août, depuis 2009) est le festival de la photographie et de l'illustration de l'Est : expositions en plein air sur les grilles de la ville, projections nocturnes sur les façades, rencontres avec des photographes et illustrateurs. Dans la tradition de l'Imagerie d'Épinal (image populaire et large diffusion), le festival met l'accent sur la démocratisation de l'image.",
+      },
+      {
+        heading: "10. Gastronomie vosgienne — quiche et munster",
+        body: "La gastronomie vosgienne est à cheval entre Lorraine et Alsace : quiche lorraine (les meilleures sont cuites au feu de bois dans les fours à pain des fermes auberges de montagne), munster AOP (fromage de vache à croûte lavée, affiné 3 semaines minimum dans les caves humides des Vosges), tarte au fromage blanc (cheesecake vosgien, dessert emblématique des fermes auberges du massif), mirabelle de Lorraine (alcool de prune jaune).",
+      },
+    ],
+    relatedCities: ["epinal"],
+    relatedGuides: [
+      "climat-2040-grand-est-alsace-lorraine",
+    ],
+    tags: ["10 choses à faire à Épinal", "activités Épinal 2026", "sorties Épinal", "que faire à Épinal", "Imagerie Épinal lac Gérardmer Vosges route des crêtes"],
+  },
+  {
+    slug: "10-choses-a-faire-a-roanne-2026",
+    title: "10 choses à faire à Roanne (la gastronomie et la Loire en son berceau)",
+    metaTitle: "10 choses à faire à Roanne 2026 — activités et sorties locales",
+    metaDesc: "Maison Troisgros, gorges de la Loire, Charlieu et musée Déchelette : 10 activités à Roanne pour découvrir la capitale gastronomique de la Loire.",
+    category: "tourisme",
+    emoji: "🍽️",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Roanne est une ville de 35 000 habitants sur la Loire — au tout début du fleuve, alors encore torrent de montagne. Elle est surtout connue hors de la région pour la Maison Troisgros, l'une des tables qui ont le plus influencé la cuisine française depuis 60 ans. Ses environs immédiats (gorges de la Loire, Charlieu, Côte Roannaise) sont parmi les plus méconnus de la région.",
+    sections: [
+      {
+        heading: "1. Maison Troisgros — la cuisine de la Nouvelle Vague",
+        body: "La Maison Troisgros (3 étoiles Michelin depuis 1968 sans interruption, sauf 1957-1968 — 2 étoiles) est l'une des tables ayant le plus influencé la cuisine mondiale depuis les années 1970 : le « saumon à l'oseille » de Pierre et Jean Troisgros (1962) est le plat symbole de la Nouvelle Cuisine. La maison s'est déplacée en 2017 de Roanne à Ouches (à 5 km, domaine de Boulieu). Le restaurant de bistrot « Le Central » à Roanne reste abordable.",
+      },
+      {
+        heading: "2. Gorges de la Loire — le canyon avant les plaines",
+        body: "Les gorges de la Loire (entre Villerest et Balbigny, à 10-30 km de Roanne) sont le premier grand accident géographique du fleuve : le barrage de Villerest (1985, retenue de 1 500 ha) a noyé la partie basse des gorges mais les rives restantes sont sauvages et peu fréquentées. Le lac de Villerest est le plan d'eau de loisirs de Roanne (voile, pédalo, plage de sable artificielle). La source de la Loire (mont Gerbier-de-Jonc, à 80 km) est accessible en journée.",
+      },
+      {
+        heading: "3. Charlieu — l'abbaye bénédictine et le prieuré",
+        body: "Charlieu (à 25 km de Roanne) possède l'un des ensembles monastiques les plus remarquables de Bourgogne du Sud : le narthex roman de l'abbaye bénédictine Saint-Fortunat (XIIe siècle) avec ses deux portails sculptés (archivoltes à rinceaux, tympan de l'Ascension) est un joyau de la sculpture romane clunisienne. Le prieuré des Bénédictines (XIVe-XVe siècles, cloître gothique flamboyant) est à 200 m.",
+      },
+      {
+        heading: "4. Musée Joseph-Déchelette — l'archéologie de la Loire",
+        body: "Le musée Déchelette de Roanne (dans l'hôtel de ville du XVIIe siècle) possède des collections archéologiques et d'arts décoratifs exceptionnelles pour une ville de taille moyenne : céramiques roannaises du XVIe au XIXe siècle (Roanne était un grand centre potier), bronzes gaulois et gallo-romains du bassin de la Loire, faïences européennes et tissus anciens. Joseph Déchelette, directeur du musée et archéologue, est l'auteur du premier manuel d'archéologie préhistorique française.",
+      },
+      {
+        heading: "5. Côte Roannaise — les vins du berceau de la Loire",
+        body: "La Côte Roannaise (AOC, versants granitiques dominant la Loire à 10 km de Roanne) produit des gamays de granit parmi les plus fins de France — comparables aux Moulin-à-Vent et Morgon en Beaujolais mais moins connus. Domaine Sérol (Saint-André-d'Apchon), domaine Plasse, domaine des Pothiers. Les terrasses granitiques en vue sur la plaine du Forez offrent un paysage de vignes peu fréquenté.",
+      },
+      {
+        heading: "6. Ambierle — le retable flamand et le musée Alice-Taverne",
+        body: "Ambierle (à 20 km de Roanne, classé parmi les plus beaux villages de France) possède une collégiale gothique du XVe siècle avec un retable flamand en triptyque peint à Bruges vers 1470 — l'une des plus belles peintures flamandes de province en France. Le musée Alice-Taverne (musée ethnographique du Roannais, dans une ferme du XVIIIe siècle) présente les arts et métiers de la Loire forézienne.",
+      },
+      {
+        heading: "7. Le Forez — la plaine entre Loire et monts",
+        body: "La plaine du Forez (entre Roanne et Montbrison, 50 km) est une dépression alluviale encadrée par les monts du Forez à l'est et les monts de la Loire à l'ouest. Le canal de Roanne à Digoin (58 km, construit en 1834) longe la Loire sur voie verte cyclable entre Roanne et Digoin — paysage de peupleraies et de prairies inondables (prairies humides classées Natura 2000).",
+      },
+      {
+        heading: "8. Monts du Forez et Pierre-sur-Haute",
+        body: "Pierre-sur-Haute (1 634 m, à 70 km de Roanne) est le point culminant des monts du Forez — vue à 360° sur le Massif Central, les Alpes et parfois le Mont-Blanc par temps clair. Les hautes chaumes (prairies sommitales de montagne pâturées) sont un paysage rare en France centrale, peuplé de vaches de race locale (Ferrandaise, race en voie de disparition). Station de ski de Chalmazel (à 20 km, petite station familiale).",
+      },
+      {
+        heading: "9. Thiers — la coutellerie capitale de France",
+        body: "Thiers (à 80 km de Roanne, Puy-de-Dôme) est la capitale française de la coutellerie depuis le XIVe siècle : 70 % de la production française de couteaux. La Vallée des Usines (gorge de la Durolle, moulins à couteaux du XIXe siècle en cascade, partiellement restaurés) est classée monument historique. La Coutellerie de la Douze propose des ateliers de fabrication de couteaux (2h, forgeron en démonstration).",
+      },
+      {
+        heading: "10. Gastronomie roannaise — volaille et fromages du Forez",
+        body: "Le Roannais produit une volaille fermière de qualité (poulet au beurre de la mère Brazier — recette popularisée par Eugénie Brazier, 3 étoiles Michelin en 1933, première femme à obtenir 6 étoiles). Le fromage du Forez (fourme de Montbrison AOP — fourme à pâte persillée bleue, cylindre de 2 kg, plus douce que le roquefort) et la côtelette de porc local grillée aux herbes des monts du Forez sont les plats de la table familiale roannaise.",
+      },
+    ],
+    relatedCities: ["roanne"],
+    relatedGuides: [
+      "vivre-en-auvergne-rhone-alpes-guide-2025",
+    ],
+    tags: ["10 choses à faire à Roanne", "activités Roanne 2026", "sorties Roanne", "que faire à Roanne", "Troisgros gorges Loire Charlieu Côte Roannaise gastronomie"],
+  },
+  {
+    slug: "10-choses-a-faire-a-chalon-sur-saone-2026",
+    title: "10 choses à faire à Chalon-sur-Saône (le carnaval et les vins de Bourgogne du Sud)",
+    metaTitle: "10 choses à faire à Chalon-sur-Saône 2026 — activités et sorties locales",
+    metaDesc: "Carnaval de Chalon, musée Nicéphore Niépce, côte chalonnaise et abbaye de Cluny : 10 activités à Chalon-sur-Saône pour découvrir la capitale du Sud Bourgogne.",
+    category: "tourisme",
+    emoji: "🎪",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Chalon-sur-Saône est une ville de 45 000 habitants sur la Saône, porte du sud de la Bourgogne. Elle est la ville natale de Nicéphore Niépce (inventeur de la photographie, 1826) et accueille le deuxième plus grand carnaval de France après Nice (100 000 spectateurs). Sa position centrale dans la vallée de la Saône en fait le point de départ naturel des vins de la Côte Chalonnaise.",
+    sections: [
+      {
+        heading: "1. Carnaval de Chalon-sur-Saône — le deuxième de France",
+        body: "Le carnaval de Chalon-sur-Saône (3 semaines en février-mars, depuis 1449 — le plus ancien de France) est avec 100 000 spectateurs sur le défilé du dimanche gras le deuxième carnaval de France après Nice. Les chars chalonnais (construits par des associations locales tout l'hiver) atteignent 15 m de hauteur. La « Goniotte » (la figure satirique de l'année, brûlée en clôture) et le défilé aux flambeaux du vendredi soir sont les moments les plus spectaculaires.",
+      },
+      {
+        heading: "2. Musée Nicéphore Niépce — l'invention de la photographie",
+        body: "Le musée Nicéphore Niépce (dans un hôtel particulier du XVIIIe siècle sur les quais de la Saône) retrace l'histoire de la photographie depuis la première image fixe au monde (Point de vue du Gras, 1826, prise par Joseph Nicéphore Niépce, né à Chalon en 1765). La collection comprend l'appareil photo de Niépce, la caméra lunaire de la NASA (Apollo 17), et 4 millions de photographies d'archives. Niépce a inventé l'héliographie 12 ans avant Daguerre.",
+      },
+      {
+        heading: "3. La Côte Chalonnaise — les vins entre Beaune et Mâcon",
+        body: "La Côte Chalonnaise (entre Chagny et Montagny, à 5-15 km de Chalon) est la zone viticole entre la Côte de Beaune et le Mâconnais : quatre appellations majeures — Rully (blanc et rouge), Mercurey (premier rouge de la Côte, robuste et tannique), Givry (le vin d'Henri IV, dit-on) et Montagny (blanc uniquement). Les villages de Mercurey (caves de négociants et domaines) sont visitables librement le week-end.",
+      },
+      {
+        heading: "4. Abbaye de Cluny — la mère des abbayes",
+        body: "Cluny (à 25 km de Chalon) abritait la plus grande église chrétienne du monde (Cluny III, 1088-1130 : 187 m de long) avant la construction de Saint-Pierre de Rome. Détruite à 90 % à la Révolution (pierres récupérées pour construire les haras), il n'en reste que deux clochers et un transept — mais l'échelle de ce qui a été perdu est lisible grâce à une reconstitution 3D exceptionnelle au musée du site. La ville de Cluny conserve ses hôtels abbatiaux médiévaux.",
+      },
+      {
+        heading: "5. L'île Saint-Laurent et les quais de la Saône",
+        body: "L'île Saint-Laurent (au milieu de la Saône, accessible par deux ponts) est le quartier historique de Chalon avec ses maisons à colombages du XVe siècle, son église Saint-Vincent (cathédrale gothique et romane), ses bras de Saône et ses guinguettes. Les quais de Saône (côté île) sont le lieu de promenade du soir — restaurants de terrasse sous les platanes, péniches-restaurants. Le marché du vendredi matin (place de l'Hôtel de Ville) est le plus animé du Sud Bourgogne.",
+      },
+      {
+        heading: "6. Tournus — l'abbatiale romane de Saint-Philibert",
+        body: "Tournus (à 30 km de Chalon) possède l'abbatiale Saint-Philibert (Xe-XIe siècles) — la plus ancienne abbatiale romane de Bourgogne en élévation complète : narthex à deux étages, nef à hauts piliers cylindriques sans chapiteaux, crypte carolingienne. L'austérité de la pierre blanche et le plan basilical sont un contraste complet avec la richesse sculptée de Cluny ou Vézelay. Le village de Tournus, sur les quais de Saône, est classé.",
+      },
+      {
+        heading: "7. Les Grandes Heures de Bourgogne à Beaune",
+        body: "Beaune (à 35 km de Chalon) est la capitale des vins de Bourgogne : Hôtel-Dieu (hospices de Beaune, 1443, toits de tuiles vernissées multicolores — le monument le plus photographié de Bourgogne), remparts du XVe siècle avec caves de la maison Patriarche (la plus grande cave de Bourgogne, 5 km de galeries). Les ventes aux enchères des Hospices de Beaune (3e dimanche de novembre) fixent les prix des Bourgognes pour l'année.",
+      },
+      {
+        heading: "8. Voie Verte Chalon-Mâcon — 60 km sans voiture",
+        body: "La Voie Verte de la Bresse (60 km de Chalon à Mâcon sur une ancienne voie ferrée) longe la Saône à travers les prairies humides de la Bresse bourguignonne. Terrain plat, asphalte, sans circulation automobile — adapté aux familles. Les haltes sur la Saône (ponts de bateaux, épis de pêche, hérons et martins-pêcheurs) et les villages de pierre dorée de la Côte Chalonnaise (en vue à l'ouest) ponctuent le parcours.",
+      },
+      {
+        heading: "9. La Bresse bourguignonne — volaille et fromages",
+        body: "La Bresse (plaine agricole entre Saône et Ain, à l'est de Chalon) est la région de la volaille de Bresse AOP — la seule volaille au monde avec une AOC : chair très ferme, peau crémeuse, chair à saveur de noisette. Les marchés au gras de Bourg-en-Bresse (décembre) et les poulaillers artisanaux sont les meilleurs endroits pour la déguster. La gastronomie chalonnaise se nourrit aussi des escargots de Bourgogne (préparés au beurre persillé, AOP).",
+      },
+      {
+        heading: "10. Festival Chalon dans la Rue — le théâtre de rue",
+        body: "Chalon dans la Rue (fin juillet, depuis 1987) est le plus grand festival de théâtre de rue de France : 700 compagnies, 600 spectacles en 5 jours, 150 000 spectateurs. Les spectacles « officiels » (scènes aménagées) coexistent avec les spectacles « off » (artistes de rue dans les places et ruelles). Le défilé d'ouverture et la parade du samedi soir sont les moments les plus spectaculaires. Entrée libre pour l'essentiel des spectacles.",
+      },
+    ],
+    relatedCities: ["chalon-sur-saone"],
+    relatedGuides: [
+      "vivre-en-bourgogne-franche-comte-guide-2025",
+      "teletravailler-depuis-bourgogne-guide-2026",
+    ],
+    tags: ["10 choses à faire à Chalon-sur-Saône", "activités Chalon 2026", "sorties Chalon", "que faire à Chalon-sur-Saône", "carnaval Niépce photographie Cluny Côte Chalonnaise"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
