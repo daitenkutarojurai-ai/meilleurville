@@ -24629,6 +24629,486 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["10 choses à faire à Orléans", "activités Orléans 2026", "sorties Orléans", "que faire à Orléans", "Loire Jeanne d'Arc Orléans visiteurs"],
   },
+  {
+    slug: "10-choses-a-faire-a-caen-2026",
+    title: "10 choses à faire à Caen (Normandie et mémoire)",
+    metaTitle: "10 choses à faire à Caen 2026 — activités et sorties locales",
+    metaDesc: "Mémorial, château ducal, abbaye aux Hommes et cuisine normande : 10 activités à Caen pour explorer la capitale bas-normande au-delà du Débarquement.",
+    category: "tourisme",
+    emoji: "⚓",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Caen est une ville reconstruite après 1944, mais son patrimoine médiéval est demeuré en grande partie intact — le château de Guillaume le Conquérant domine la ville depuis 1000 ans. À une heure de Paris en train, c'est la porte d'entrée de la Normandie du D-Day et du bocage.",
+    sections: [
+      {
+        heading: "1. Mémorial de Caen",
+        body: "Le Mémorial est l'un des musées d'histoire de la Seconde Guerre mondiale les plus complets d'Europe. 5 000 m² d'exposition sur la montée des totalitarismes, le Débarquement du 6 juin 1944 et la construction de la paix. Comptez une demi-journée minimum. Accessible en tramway depuis le centre.",
+      },
+      {
+        heading: "2. Château de Caen — forteresse de Guillaume le Conquérant",
+        body: "L'un des plus grands ensembles médiévaux de France, fondé vers 1060 par Guillaume le Conquérant. L'enceinte est en accès libre et offre un panorama sur la ville. À l'intérieur : le musée de Normandie (histoire régionale) et le musée des Beaux-Arts (Rubens, Titien, Poussin).",
+      },
+      {
+        heading: "3. Abbaye aux Hommes et abbaye aux Dames",
+        body: "Guillaume et Mathilde ont chacun fondé une abbaye à Caen au XIe siècle — l'abbaye aux Hommes (Saint-Étienne) pour lui, l'abbaye aux Dames (Trinité) pour elle. Deux ensembles romans exceptionnellement bien conservés, gratuits ou à prix libre. L'abbaye aux Hommes abrite aujourd'hui la mairie.",
+      },
+      {
+        heading: "4. Marché du dimanche et halles Saint-Pierre",
+        body: "Le marché du dimanche matin au Vieux-Saint-Sauveur est l'un des plus vivants de Normandie. Fromages (camembert, livarot, pont-l'évêque), cidre, calvados, tripes à la mode de Caen, poissons de la Manche. Les halles couvertes Saint-Pierre fonctionnent en semaine.",
+      },
+      {
+        heading: "5. Quartier de l'Université et rue de Bras",
+        body: "Caen est une ville universitaire de 30 000 étudiants qui anime son centre le soir. La rue de Bras et ses environs concentrent bars, concerts et restaurants. Le campus universitaire jouxte le centre-ville, donnant une énergie plus jeune que la moyenne des villes normandes.",
+      },
+      {
+        heading: "6. Plages du Débarquement — Sword, Juno, Gold",
+        body: "Les plages du Débarquement sont à 15-25 minutes de Caen : Sword (Ouistreham), Juno (Courseulles), Gold (Ver-sur-Mer), Omaha et Utah (plus à l'ouest). Les cimetières militaires américains, britanniques et allemands sont des lieux de recueillement sobres et bien entretenus.",
+      },
+      {
+        heading: "7. Port de plaisance et bords de l'Orne",
+        body: "Le port de plaisance de Caen, reconverti après la désindustrialisation, accueille terrasses, galeries et un marché hebdomadaire. Les bords de l'Orne vers Ouistreham offrent une piste cyclable plate et ombragée jusqu'à la mer — 14 km aller depuis la gare.",
+      },
+      {
+        heading: "8. Château de Fontaine-Henry",
+        body: "À 15 km de Caen, ce château du XVe-XVIe siècle est l'un des plus beaux exemples de l'architecture Renaissance en Normandie. Toujours habité par la même famille depuis 800 ans, il abrite une collection de tableaux anciens. Visites guidées, jardins ouverts en saison.",
+      },
+      {
+        heading: "9. Cidre et calvados chez un producteur du Pays d'Auge",
+        body: "Le Pays d'Auge, à 30-40 km de Caen, est le terroir de référence pour le cidre bouché, le pommeau et le calvados. Les routes du cidre balisées passent par les vergers et exploitations qui ouvrent à la visite (Cambremer, Beuvron-en-Auge). Dégustation directe, prix producteur.",
+      },
+      {
+        heading: "10. Festival Panic! et vie culturelle étudiante",
+        body: "Caen a une programmation musicale plus active que sa taille ne le laisserait supposer — festival Panic! (rock, métal, électro), concerts au Cargö (salle de référence régionale), cinémas d'art et d'essai. La programmation du Mémorial comprend aussi des expos temporaires et des cycles cinéma.",
+      },
+    ],
+    relatedCities: ["caen"],
+    relatedGuides: [
+      "normandie-rouen-caen-le-havre-guide-2025",
+      "quitter-caen-guide-2026",
+    ],
+    tags: ["10 choses à faire à Caen", "activités Caen 2026", "sorties Caen", "que faire à Caen", "Normandie Débarquement Mémorial Caen visiteurs"],
+  },
+  {
+    slug: "10-choses-a-faire-a-nancy-2026",
+    title: "10 choses à faire à Nancy (la place Stanislas et au-delà)",
+    metaTitle: "10 choses à faire à Nancy 2026 — activités et sorties locales",
+    metaDesc: "Place Stanislas UNESCO, Art Nouveau, forêt de Haye et gastronomie lorraine : 10 activités à Nancy pour découvrir la capitale lorraine.",
+    category: "tourisme",
+    emoji: "🏛️",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Nancy est l'une des villes françaises les plus sous-estimées : sa place Stanislas est classée UNESCO, son patrimoine Art Nouveau rivalise avec celui de Paris et Bruxelles, et sa qualité de vie dépasse largement son image de ville moyenne lorraine. Accessible en 90 minutes de Paris en TGV.",
+    sections: [
+      {
+        heading: "1. Place Stanislas — le salon à ciel ouvert",
+        body: "La place Stanislas, construite entre 1752 et 1755 sur ordre du duc Stanislas Leszczynski, est l'une des places royales les plus accomplies d'Europe. Classée UNESCO en 1983. Les grilles dorées de Jean Lamour, les fontaines et l'Hôtel de Ville forment un ensemble baroque d'une cohérence rare. L'entrée est libre.",
+      },
+      {
+        heading: "2. Musée de l'École de Nancy — Art Nouveau",
+        body: "Nancy est l'un des foyers mondiaux de l'Art Nouveau, avec Paris et Bruxelles. Le musée de l'École de Nancy rassemble meubles (Gallé, Majorelle), verreries, céramiques et ferronneries de la fin XIXe et début XXe. Le jardin Majorelle en version originale, avant Marrakech.",
+      },
+      {
+        heading: "3. Villa Majorelle et parcours Art Nouveau en ville",
+        body: "La Villa Majorelle (1901-1902), résidence de Louis Majorelle dessinée par Henri Sauvage, est l'une des rares villas Art Nouveau habitées classées monument historique. En ville, la brasserie Excelsior (1911) est le lieu le plus accessible pour vivre l'Art Nouveau dans sa fonction d'origine — restaurant vivant.",
+      },
+      {
+        heading: "4. Parc de la Pépinière",
+        body: "Le parc public du centre de Nancy (23 ha) abrite un rosarium de 150 variétés, un zoo municipal (entrée gratuite), des terrains de pétanque et une roseraie classée. C'est le lieu de rendez-vous des Nancéiens le week-end — une fenêtre directe sur la vie locale.",
+      },
+      {
+        heading: "5. Vieille ville et Grande Rue",
+        body: "Le quartier médiéval de Nancy autour de la Grande Rue et de la place Saint-Épvre conserve des hôtels particuliers des XVe et XVIe siècles. Le portail du Palais Ducal, la porte de la Craffe (XIVe siècle) et l'église Saint-Épvre forment un circuit pédestre d'1h30.",
+      },
+      {
+        heading: "6. Musée des Beaux-Arts de Nancy",
+        body: "Installé en bordure de la place Stanislas, le musée conserve une collection allant du XVe au XXIe siècle. Forte représentation de l'École de Nancy (Gallé, Prouvé), sections d'art ancien (Rubens, Caravage, Delacroix) et moderne. Entrée réduite le premier dimanche du mois.",
+      },
+      {
+        heading: "7. Forêt de Haye et sentiers VTT",
+        body: "La forêt domaniale de Haye (8 500 ha) jouxte Nancy à l'ouest. Sentiers de randonnée et VTT balisés, piste cyclable depuis la ville, parcours Vita. En automne, les champignons y sont abondants. Accessible en bus depuis la gare en 20 minutes.",
+      },
+      {
+        heading: "8. Marché de la place Henri-Mengin et rue Saint-Dizier",
+        body: "Le marché couvert Central (quotidien) et les marchés extérieurs de la place Henri-Mengin proposent les produits lorrains : mirabelles, quetsches, bergamotes de Nancy (confiserie IGP), fromages (munster, chèvre lorrain), charcuteries. La rue Saint-Dizier est l'axe commerçant animé en journée.",
+      },
+      {
+        heading: "9. Brasseries lorraines et gastronomie locale",
+        body: "Nancy a une tradition brassicole lorraine (bière de Lorraine, Meteor, Kronenbourg) et gastronomique : quiche lorraine en version maison, tarte aux mirabelles, madeleines de Commercy, bergamotes. Les brasseries de la place Stanislas servent ces spécialités dans un cadre exceptionnel.",
+      },
+      {
+        heading: "10. Soirée quartier Stanislas et rue des Maréchaux",
+        body: "Le soir, la place Stanislas éclairée est un spectacle en soi. Les bars et restaurants de la rue des Maréchaux et des rues adjacentes concentrent la vie nocturne étudiante (Nancy compte 50 000 étudiants, Université de Lorraine). Les concerts à la Salle Poirel complètent la programmation culturelle.",
+      },
+    ],
+    relatedCities: ["nancy"],
+    relatedGuides: [
+      "vivre-en-lorraine-metz-nancy-thionville-2026",
+      "quitter-nancy-guide-2026",
+    ],
+    tags: ["10 choses à faire à Nancy", "activités Nancy 2026", "sorties Nancy", "que faire à Nancy", "Place Stanislas Art Nouveau Lorraine visiteurs"],
+  },
+  {
+    slug: "10-choses-a-faire-a-amiens-2026",
+    title: "10 choses à faire à Amiens (la cathédrale et les hortillonnages)",
+    metaTitle: "10 choses à faire à Amiens 2026 — activités et sorties locales",
+    metaDesc: "Cathédrale gothique UNESCO, hortillonnages, maison Jules Verne et cuisine picarde : 10 activités à Amiens pour découvrir la préfecture de la Somme.",
+    category: "tourisme",
+    emoji: "🌾",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Amiens est à 1h10 de Paris en TER et abrite la plus grande cathédrale gothique de France par volume. Moins touristique que Reims ou Strasbourg, elle offre une expérience authentique : hortillonnages flottants, gastronomie picarde et quartier Saint-Leu le long de la Somme.",
+    sections: [
+      {
+        heading: "1. Cathédrale Notre-Dame d'Amiens",
+        body: "La cathédrale d'Amiens est la plus grande cathédrale gothique de France en volume intérieur (200 000 m³). Construite entre 1220 et 1288, elle est d'une cohérence architecturale rare — peu de remaniements post-médiévaux. Les sculptures du portail et le mobilier en bois sculpté (stalles XVe) sont exceptionnels. Classée UNESCO.",
+      },
+      {
+        heading: "2. Hortillonnages — les jardins flottants",
+        body: "Les hortillonnages sont un réseau de jardins maraîchers créé au Moyen Âge sur des îles de la Somme, navigables en barque à fond plat (rieu). La promenade en barque (Association des Hortillonnages, mai-oct) dure 45 minutes. En septembre, le marché sur l'eau rassemble les maraîchers sur leurs embarcations.",
+      },
+      {
+        heading: "3. Quartier Saint-Leu",
+        body: "Le quartier Saint-Leu, au pied de la cathédrale le long de la Somme, est le secteur le plus pittoresque d'Amiens : maisons à colombages du XVe siècle, canaux, terrasses sur l'eau. Reconverti depuis les années 1990, il concentre les bars, restaurants et galeries. Moins connu que les quartiers équivalents à Strasbourg ou Annecy.",
+      },
+      {
+        heading: "4. Maison de Jules Verne",
+        body: "Jules Verne a vécu à Amiens de 1871 à sa mort en 1905 — c'est là qu'il a écrit la majeure partie de son œuvre. Sa maison, classée monument historique, est un musée de son bureau, sa bibliothèque et son atelier. La maquette du Nautilus et les manuscrits originaux sont exposés.",
+      },
+      {
+        heading: "5. Musée de Picardie",
+        body: "L'un des plus grands musées de province de France, installé dans un bâtiment Napoléon III. Collection archéologique de Picardie, peintures (Quentin de La Tour, Puvis de Chavannes, El Greco), sculptures médiévales. L'exposition permanente couvre 5 000 ans d'histoire régionale.",
+      },
+      {
+        heading: "6. Circuit des Indes mémoriel — Péronne et Thiepval",
+        body: "La Somme est le théâtre des batailles les plus meurtrières de la Grande Guerre. Le mémorial de Thiepval (70 000 soldats britanniques et sud-africains portés disparus) et l'Historial de Péronne (musée de la guerre 1914-1918, à 60 km) sont les sites les plus poignants du front occidental.",
+      },
+      {
+        heading: "7. Étang Saint-Ladre et base de loisirs",
+        body: "À 5 km du centre, la base de loisirs de l'étang Saint-Ladre propose plage aménagée, voile, kayak, tennis et parcours santé. C'est l'échappatoire nature des Amiénois — accès en bus depuis la gare. En hiver, la Somme et ses étangs accueillent des milliers d'oiseaux migrateurs (canards pilets, sarcelles).",
+      },
+      {
+        heading: "8. Marché sur l'eau et produits picards",
+        body: "Le marché sur l'eau d'Amiens se tient le jeudi et le samedi matin quai Bélu, sous la cathédrale. Les maraîchers arrivent en barque avec leurs légumes et fleurs depuis les hortillonnages. En dehors des marchés, les halles couvertes de la place Gambetta proposent fromages picards, ficelle picarde et macarons d'Amiens.",
+      },
+      {
+        heading: "9. Balade à vélo le long de la Somme",
+        body: "La véloroute de la Somme longe le fleuve depuis Amiens jusqu'à la baie de Somme (80 km, plat). La section Amiens-Abbeville (45 km) passe par les villages de brique rouge, les marais de la Somme et les étangs de pêche. Vélos en location à la gare.",
+      },
+      {
+        heading: "10. Spectacle son et lumières de la cathédrale",
+        body: "Chaque été (de juin à septembre), la façade de la cathédrale d'Amiens est illuminée selon des projections qui reconstituent les couleurs médiévales des sculptures — une reconstitution scientifique de ce qu'était la cathédrale au XIIIe siècle, avant que la polychromie disparaisse. Spectacle gratuit, en soirée.",
+      },
+    ],
+    relatedCities: ["amiens"],
+    relatedGuides: [
+      "hauts-de-france-lille-arras-amiens-guide-2025",
+      "quitter-amiens-guide-2026",
+    ],
+    tags: ["10 choses à faire à Amiens", "activités Amiens 2026", "sorties Amiens", "que faire à Amiens", "cathédrale hortillonnages Somme Amiens visiteurs"],
+  },
+  {
+    slug: "10-choses-a-faire-a-limoges-2026",
+    title: "10 choses à faire à Limoges (porcelaine et forêts limousines)",
+    metaTitle: "10 choses à faire à Limoges 2026 — activités et sorties locales",
+    metaDesc: "Porcelaine, émail cloisonné, forêt du Limousin et gastronomie : 10 activités à Limoges pour aller au-delà des poncifs sur la capitale limousine.",
+    category: "tourisme",
+    emoji: "🍽️",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Limoges est la capitale mondiale de la porcelaine et de l'émail, une ville de taille humaine à l'abri des flux touristiques de masse. Son coût de la vie parmi les plus bas de France pour une préfecture, ses forêts à 20 minutes et son patrimoine artisanal en font un cas à part.",
+    sections: [
+      {
+        heading: "1. Musée national Adrien Dubouché — la porcelaine",
+        body: "Le musée Adrien Dubouché est l'un des plus grands musées de la céramique et de la porcelaine au monde : 12 000 pièces exposées, de l'Antiquité à nos jours. Porcelaine de Limoges depuis 1771, mais aussi Sèvres, Meissen, Chine et Japon. Entrée à tarif réduit, gratuit le premier dimanche du mois.",
+      },
+      {
+        heading: "2. Manufacture de porcelaine — visite d'atelier",
+        body: "Plusieurs manufactures proposent des visites commentées de leurs ateliers : Bernardaud (visite complète, 45 min), Haviland et Royal Limoges pour les plus connues. On y observe le tournage, le décor à la main, la cuisson dans les fours tunnel. Boutiques en fin de visite avec des prix inférieurs à ceux des revendeurs.",
+      },
+      {
+        heading: "3. Crypte Saint-Martial et cité médiévale",
+        body: "La crypte de l'abbaye Saint-Martial, construite au IVe siècle, est l'un des lieux de pèlerinage les plus anciens de Gaule — saint Martial aurait évangélisé le Limousin au Ier siècle. La cathédrale Saint-Étienne (XIIIe-XVIe siècles) domine le vieux Limoges depuis le promontoire de la Cité.",
+      },
+      {
+        heading: "4. Musée municipal de l'Évêché — émaux limousins",
+        body: "L'émail cloisonné de Limoges est une technique datant du XIIe siècle, portée à son apogée au Moyen Âge. Le musée de l'Évêché, installé dans l'ancien palais épiscopal, conserve la plus grande collection d'émaux limousins médiévaux au monde — 500 pièces du XIIe au XVe siècle.",
+      },
+      {
+        heading: "5. Marché des Halles Centrales",
+        body: "Les halles couvertes centrales de Limoges fonctionnent du mardi au dimanche matin. Spécialités locales : bœuf limousin (IGP, l'une des meilleures viandes de France), agneau limousin, pommes Reinette du Limousin, truffes noires en hiver, fromages de Creuse. Prix inférieurs de 20 à 30% aux marchés des grandes métropoles.",
+      },
+      {
+        heading: "6. Lac de Vassivière",
+        body: "À 60 km de Limoges, le lac de Vassivière (1 000 ha) est l'un des plus grands plans d'eau du Massif Central. Baignade, kayak, vélo autour du lac (19 km), centre d'art contemporain sur l'île centrale (expositions en plein air et galerie). Accessible en voiture en 1h, pas de transport en commun direct.",
+      },
+      {
+        heading: "7. Forêt de Rancon et randonnées en Haute-Vienne",
+        body: "La forêt de Rancon et les gorges de la Gartempe sont à 30-40 km de Limoges — paysages de bocage, moulin de Chabroulie, viaduc de la Vienne. La GR 654 traverse la Haute-Vienne sur 60 km. L'été, la route Compostelle via la via Turonensis passe par Limoges.",
+      },
+      {
+        heading: "8. Quartier de la Boucherie",
+        body: "Le quartier médiéval de la Boucherie, au pied de la cathédrale, conserve ses maisons à pans de bois des XVe-XVIe siècles. Les bouchers avaient leur propre corporation et leur chapelle (chapelle Saint-Aurélien). C'est le quartier le plus pittoresque de la vieille ville, avec ses ruelles pavées.",
+      },
+      {
+        heading: "9. Stadium et culture sportive — Limoges CSP",
+        body: "Le Limoges CSP est l'un des clubs de basket les plus titrés d'Europe — 7 championnats EuroLeague et 24 championnats de France. Voir un match au Palais des Sports de Beaublanc est une expérience de ferveur locale unique. La ville a une identité sportive forte qui dépasse les simples résultats.",
+      },
+      {
+        heading: "10. Gastronomie : clafoutis, boudin aux châtaignes, entrecôte limousine",
+        body: "La gastronomie limousine est sous-exposée nationalement. Le clafoutis (aux cerises, recette originale sans dénoyautage), le boudin aux châtaignes, le gigot limousin et l'entrecôte de bœuf IGP méritent chacun un restaurant dédié. Les marchés du dimanche autour de Limoges proposent ces produits directement des producteurs.",
+      },
+    ],
+    relatedCities: ["limoges"],
+    relatedGuides: [
+      "vivre-en-nouvelle-aquitaine-guide-2025",
+      "quitter-limoges-guide-2026",
+    ],
+    tags: ["10 choses à faire à Limoges", "activités Limoges 2026", "sorties Limoges", "que faire à Limoges", "porcelaine émail Limousin Limoges visiteurs"],
+  },
+  {
+    slug: "10-choses-a-faire-a-besancon-2026",
+    title: "10 choses à faire à Besançon (la citadelle Vauban et le Doubs)",
+    metaTitle: "10 choses à faire à Besançon 2026 — activités et sorties locales",
+    metaDesc: "Citadelle UNESCO, boucle du Doubs, musée du Temps et gastronomie comtoise : 10 activités à Besançon pour explorer la capitale de la Franche-Comté.",
+    category: "tourisme",
+    emoji: "⏱️",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Besançon est une ville exceptionnellement bien conservée, enfermée dans un méandre du Doubs et dominée par la citadelle de Vauban. Classée deux fois à l'UNESCO (citadelle + sites horlogers), elle est la capitale horlogère historique de France et le berceau de Victor Hugo.",
+    sections: [
+      {
+        heading: "1. Citadelle Vauban — panorama et musées",
+        body: "La citadelle de Besançon (XVIIe siècle), construite par Vauban sur un éperon rocheux de 110 mètres, est l'une des mieux conservées de son réseau classé UNESCO. Elle abrite un zoo, un musée de la Résistance et de la Déportation, un musée comtois et des aquariums. Vue à 360° sur la ville et la vallée du Doubs.",
+      },
+      {
+        heading: "2. Promenade dans la boucle du Doubs",
+        body: "Le centre historique de Besançon est encerclé par un méandre du Doubs sur 3 côtés — une configuration urbaine unique en France. Les quais du Doubs offrent une balade pédestre ou cyclable de 6 km autour de la vieille ville. Bains de soleil sur les berges en été, marchés artisanaux au printemps.",
+      },
+      {
+        heading: "3. Musée du Temps",
+        body: "Installé dans le Palais Granvelle (XVIe siècle), le musée du Temps retrace l'histoire de la mesure du temps depuis l'Antiquité. Besançon a été le centre horloger français pendant deux siècles — les horloges et montres produites localement sont exposées, de la pendule de marine aux montres de poche du XIXe siècle.",
+      },
+      {
+        heading: "4. Grande Rue et architecture romaine",
+        body: "La Grande Rue de Besançon, axe principal de la vieille ville, suit le tracé romain de la cardo maximus. Elle traverse une porte romaine (Porte Noire, IIe siècle) encore debout. Les hôtels particuliers de la Renaissance et les immeubles classiques du XVIIIe siècle s'alternent sur 700 mètres.",
+      },
+      {
+        heading: "5. Cathédrale Saint-Jean et horloge astronomique",
+        body: "La cathédrale Saint-Jean abrite une horloge astronomique du XIXe siècle avec 70 000 pièces mécaniques et 57 cadrans — l'une des plus complexes jamais construites. Spectacle de sonnerie toutes les heures. La cathédrale elle-même mêle architecture romane et gothique sur un site occupé depuis le IVe siècle.",
+      },
+      {
+        heading: "6. Forêt de Chailluz et Noirmont",
+        body: "La forêt de Chailluz (1 000 ha) est accessible à vélo depuis le centre en 30 minutes. Sentiers de trail running, VTT, raquettes en hiver. Le plateau du Noirmont, au-dessus de la ville, offre des vues sur les Vosges et, par temps clair, sur les Alpes et le Jura. Accès gratuit.",
+      },
+      {
+        heading: "7. Marché Beaux-Arts et produits comtois",
+        body: "Le marché de Besançon (place de la Révolution, mardi, jeudi, vendredi, samedi, dimanche) propose les produits francs-comtois : comté (AOP, affiné 12 à 36 mois), morbier, saucisse de Morteau, saucisse de Montbéliard, kirsch et vins du Jura. La fromagerie Janod est la référence locale pour l'affinage.",
+      },
+      {
+        heading: "8. Musée des Beaux-Arts et d'Archéologie",
+        body: "L'un des plus vieux musées de France (1694), installé dans les anciennes halles au grain. Collection de 5 000 ans d'archéologie régionale, peintures des XIVe au XXe siècles (Cranach, Courbet natif de Franche-Comté, Bonnard, Picasso). Entrée gratuite le dimanche matin.",
+      },
+      {
+        heading: "9. Route des vins du Jura depuis Besançon",
+        body: "Les vignobles du Jura (Arbois, Poligny, Château-Chalon) sont à 40-60 km de Besançon. Le vin jaune (vin de voile vieilli sous marc, terroir de Château-Chalon) et le vin de paille sont des spécialités mondiales sans équivalent. La Percée du Vin Jaune (février) rassemble 80 000 visiteurs à Arbois.",
+      },
+      {
+        heading: "10. Baignade dans le Doubs et vie estivale",
+        body: "En été, les plages aménagées du Doubs en aval de Besançon (Port-Roulant, La Malate) attirent une bonne partie de la ville. L'eau du Doubs est propre et la baignade surveillée. Les bords du Doubs le soir, avec les terrasses et les pêcheurs, donnent une image très différente de la cité romaine du jour.",
+      },
+    ],
+    relatedCities: ["besancon"],
+    relatedGuides: [
+      "vivre-en-franche-comte-jura-guide-2025",
+      "quitter-besancon-guide-2026",
+    ],
+    tags: ["10 choses à faire à Besançon", "activités Besançon 2026", "sorties Besançon", "que faire à Besançon", "citadelle Vauban Doubs Franche-Comté visiteurs"],
+  },
+  {
+    slug: "10-choses-a-faire-a-pau-2026",
+    title: "10 choses à faire à Pau (boulevard des Pyrénées et Béarn)",
+    metaTitle: "10 choses à faire à Pau 2026 — activités et sorties locales",
+    metaDesc: "Boulevard des Pyrénées, château de Henri IV, Pic du Midi et gastronomie béarnaise : 10 activités à Pau pour profiter de la porte des Pyrénées.",
+    category: "tourisme",
+    emoji: "🏔️",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Pau est à la fois ville de plaine et porte des Pyrénées — du boulevard des Pyrénées, par temps clair, la vue s'étend sur 300 km de crêtes enneigées. Petite ville universitaire avec une tradition touristique anglaise du XIXe siècle, elle combine douceur de vivre et accès aux sommets.",
+    sections: [
+      {
+        heading: "1. Boulevard des Pyrénées — la vue sur la chaîne",
+        body: "Le boulevard des Pyrénées est une terrasse panoramique de 1,8 km dominée par la chaîne pyrénéenne. Par temps clair (surtout après la pluie ou en hiver), la vue couvre 300 km de crêtes, du Pic d'Anie au Pic du Midi de Bigorre. Lamartine et Victor Hugo l'ont décrit comme l'un des plus beaux panoramas d'Europe.",
+      },
+      {
+        heading: "2. Château de Pau — berceau de Henri IV",
+        body: "Le château de Pau, résidence royale du XIVe au XIXe siècle, est le lieu de naissance d'Henri IV (1553). Les appartements royaux de Napoléon III et d'Eugénie, les Gobelins et la collection de tapisseries sont remarquables. La carapace de tortue ayant servi de berceau à Henri IV est la curiosité locale.",
+      },
+      {
+        heading: "3. Quartier du Hédas et vieille ville",
+        body: "Le Hédas est une vallée encaissée au cœur de Pau, traversée par un ruisseau et bordée de terrasses de bars. C'est le quartier festif de Pau, vivant dès le jeudi soir. La vieille ville autour du château, avec ses rues pavées et ses hôtels particuliers béarnais, mérite 1h30 de balade.",
+      },
+      {
+        heading: "4. Musée des Beaux-Arts et musée national du Château",
+        body: "Le musée des Beaux-Arts de Pau conserve une collection surprenante pour une ville de 80 000 habitants : Degas (Le Cotton Exchange de La Nouvelle-Orléans), Rubens, Greco, Ribera. Le musée national du château est consacré à Henri IV et à la monarchie Bourbon.",
+      },
+      {
+        heading: "5. Pic du Midi et Pyrénées — journée en altitude",
+        body: "Le Pic du Midi de Bigorre (2 877 m), à 1h30 de Pau, est accessible par téléphérique depuis La Mongie. L'observatoire astronomique au sommet est ouvert aux visiteurs — on y mesure les étoiles depuis 1882. En hiver, les stations de Cauterets et du Grand Tourmalet sont à 1h-1h30.",
+      },
+      {
+        heading: "6. Gave de Pau et randonnées en Béarn",
+        body: "Le Gave de Pau, rivière torrentielle descendant des Pyrénées, offre des spots de canyoning (Gorges de Kakuetta, 1h30), de kayak et de pêche à la truite. Les gorges de Kakuetta (Sainte-Engrâce) sont parmi les plus belles des Pyrénées-Atlantiques. Ouvertes d'avril à octobre.",
+      },
+      {
+        heading: "7. Marché de Pau et produits béarnais",
+        body: "Le marché de Pau (halles couvertes quotidiennement, grand marché les mercredi et samedi place de la République) est l'un des meilleurs du Sud-Ouest : foie gras du Béarn, piment d'Espelette, fromage des Pyrénées (ossau-iraty AOP), magret, poule au pot. Viandes locales de qualité supérieure à prix raisonnables.",
+      },
+      {
+        heading: "8. Thermalisme à Eaux-Bonnes ou Salies-de-Béarn",
+        body: "Le Béarn a une tradition thermale ancienne. Eaux-Bonnes (40 km), station thermale victorienne dans un cadre pyrénéen préservé. Salies-de-Béarn (50 km) utilise une saumure naturelle dix fois plus concentrée que la mer — pour les soins rhumatologiques et la détente. Les thermes fonctionnent toute l'année.",
+      },
+      {
+        heading: "9. Pelote basque à Pau",
+        body: "La pelote basque et les sports gascons (courses landaises) débordent jusqu'à Pau. Les fronton en plein air organisent des parties libres les week-ends. La JAV (Jugeant à Vue), variante locale de la chistera, se joue au trinquet de Pau — spectacle de vitesse et de technique.",
+      },
+      {
+        heading: "10. Lourdes et Pyrénées spirituelles",
+        body: "Lourdes est à 30 km de Pau. Indépendamment de la foi, le sanctuaire de Lourdes reçoit 6 millions de pèlerins par an — la deuxième destination de pèlerinage catholique après Rome. La grotte de Massabielle, le château fort médiéval et les vues sur le gave de Pau constituent un site singulier à connaître.",
+      },
+    ],
+    relatedCities: ["pau"],
+    relatedGuides: [
+      "vivre-pays-basque-bayonne-biarritz-pau",
+      "quitter-pau-guide-2026",
+    ],
+    tags: ["10 choses à faire à Pau", "activités Pau 2026", "sorties Pau", "que faire à Pau", "Pyrénées Béarn Henri IV Pau visiteurs"],
+  },
+  {
+    slug: "10-choses-a-faire-a-bayonne-2026",
+    title: "10 choses à faire à Bayonne (fêtes et chocolat basque)",
+    metaTitle: "10 choses à faire à Bayonne 2026 — activités et sorties locales",
+    metaDesc: "Fêtes de Bayonne, chocolat, cathédrale gothique et vie de quartier basque : 10 activités à Bayonne pour vivre la capitale du Pays Basque.",
+    category: "tourisme",
+    emoji: "🎉",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Bayonne est la capitale historique du Pays Basque français — une ville de 53 000 habitants avec une identité culturelle parmi les plus affirmées de France. Ses fêtes de juillet rassemblent 1 million de visiteurs, mais le reste de l'année, elle reste une ville à vivre au quotidien.",
+    sections: [
+      {
+        heading: "1. Fêtes de Bayonne — juillet",
+        body: "Les Fêtes de Bayonne (premier mercredi de juillet, 5 jours) sont l'une des plus grandes fêtes populaires d'Europe — environ 1 million de visiteurs, entrée gratuite. Corridas, concerts de rue, bodégas dans tous les quartiers. Dress code obligatoire : blanc et rouge. Réservation d'hébergement à faire 6 mois à l'avance.",
+      },
+      {
+        heading: "2. Chocolat de Bayonne — les maisons historiques",
+        body: "Bayonne est l'une des premières villes d'Europe à avoir fabriqué du chocolat, importé par les Juifs expulsés d'Espagne au XVIe siècle. La rue du Port-Neuf concentre les chocolateries : Daranatz, Cazenave, Puyodebat. La tasse de chocolat chaud bayonnais avec son mousse — une institution locale à 3-4€.",
+      },
+      {
+        heading: "3. Cathédrale Sainte-Marie",
+        body: "La cathédrale gothique Sainte-Marie (XIIIe-XVe siècles), avec ses deux flèches visibles depuis la campagne basque, est l'un des plus beaux exemples de l'art gothique dans le Sud-Ouest. Le cloître du XIVe siècle, en accès libre, est d'un calme saisissant à 50 mètres des rues animées.",
+      },
+      {
+        heading: "4. Vieux Bayonne — rue des Prébendés et Petit Bayonne",
+        body: "Le Grand Bayonne et le Petit Bayonne, les deux quartiers de la vieille ville séparés par la Nive, ont des personnalités distinctes. La rue des Prébendés (Grand Bayonne) est commerçante et animée le midi. Le Petit Bayonne, côté rive droite, est plus bohème avec ses bars le soir le long des quais.",
+      },
+      {
+        heading: "5. Musée Basque et de l'Histoire de Bayonne",
+        body: "Le musée Basque, installé dans l'Hôtel Dagourette (XVIIe siècle), est le musée de référence pour comprendre la culture basque : langue, pelote, danses, architecture, histoire maritime. Collection de maquettes de bateaux de la flotte baleinière bayonnaise qui chassait dans les eaux canadiennes dès le XVIe siècle.",
+      },
+      {
+        heading: "6. Marché aux halles et jambon de Bayonne",
+        body: "Le marché couvert des halles de Bayonne (quai Commandant Roquebert) est l'un des plus vivants du Pays Basque. Jambon de Bayonne (IGP), fromage ossau-iraty, piment d'Espelette (AOP), gâteau basque, foie gras. Le vendredi matin, le marché s'étend sur les quais de la Nive.",
+      },
+      {
+        heading: "7. Bords de la Nive à vélo vers Saint-Pée",
+        body: "La véloroute longe la Nive depuis Bayonne jusqu'à Saint-Jean-Pied-de-Port (75 km, plat les 30 premiers km). La section Bayonne-Hasparren (20 km) est accessible à tous niveaux et passe par des villages basques typiques. Location de vélos à la gare de Bayonne.",
+      },
+      {
+        heading: "8. Anglet — plages et surf",
+        body: "Anglet, commune mitoyenne de Bayonne (non Biarritz), possède 4,5 km de plages surfables avec 11 spots distincts. Les compétitions de surf régionales se déroulent à Anglet, qui a une culture surf plus locale et moins huppée que Biarritz. Accès en bus depuis Bayonne en 15 minutes.",
+      },
+      {
+        heading: "9. Pelote basque — fronton couvert",
+        body: "La pelote basque est omniprésente à Bayonne. Le fronton couvert (trinquet) propose des parties professionnelles (chistera, main nue) le week-end. Plusieurs clubs locaux organisent des initiations. La pelote est à Bayonne ce que le football est à une ville moyenne française.",
+      },
+      {
+        heading: "10. Gastronomie basque — pintxos et chipirons",
+        body: "Le Pays Basque a une des gastronomies les plus denses de France. À Bayonne : pintxos dans les bars du Petit Bayonne le vendredi soir, chipirons à la basquaise, ttoro (soupe de poissons), gâteau basque cerise ou crème. Le bar Le Corsaire (rue des Prébendés) et les bars de la rue Pannecau sont les références locales.",
+      },
+    ],
+    relatedCities: ["bayonne"],
+    relatedGuides: [
+      "vivre-pays-basque-bayonne-biarritz-pau",
+      "quitter-bayonne-guide-2026",
+    ],
+    tags: ["10 choses à faire à Bayonne", "activités Bayonne 2026", "sorties Bayonne", "que faire à Bayonne", "fêtes chocolat Pays Basque Bayonne visiteurs"],
+  },
+  {
+    slug: "10-choses-a-faire-a-biarritz-2026",
+    title: "10 choses à faire à Biarritz (surf, falaises et Belle Époque)",
+    metaTitle: "10 choses à faire à Biarritz 2026 — activités et sorties locales",
+    metaDesc: "Grande Plage, falaises, surf et architecture Belle Époque : 10 activités à Biarritz pour comprendre la station basque au-delà des clichés de la côte.",
+    category: "tourisme",
+    emoji: "🏄",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Biarritz est une station balnéaire de la Belle Époque devenue capitale mondiale du surf en Europe — les deux identités coexistent sans friction. 25 000 habitants à l'année, 500 000 en août, un coût du logement parmi les plus élevés de France en dehors de Paris.",
+    sections: [
+      {
+        heading: "1. Grande Plage et Plage du Miramar",
+        body: "La Grande Plage de Biarritz, face au casino, est la plage la plus iconique de la côte Atlantique. En dehors de juillet-août, elle appartient aux habitants. Plage du Miramar (plus au nord) est plus calme et familiale. Les deux sont surveillées en saison. En hiver, les surfeurs y sont majoritaires.",
+      },
+      {
+        heading: "2. Rocher de la Vierge et promenade des falaises",
+        body: "Le rocher de la Vierge, accessible par une passerelle métallique conçue par Eiffel, offre la vue la plus spectaculaire de Biarritz sur les vagues de l'Atlantique. La promenade le long des falaises, depuis le rocher jusqu'à la Plage des Basques, dure 1h et révèle une côte sauvage à 500 mètres du centre.",
+      },
+      {
+        heading: "3. Musée de la Mer",
+        body: "Le musée de la Mer de Biarritz, construit dans les années 1930 en style Art déco, abrite un aquarium basque-atlantique (raies, requins, pinnipèdes) et une exposition sur la chasse à la baleine par les Basques — une des activités maritimes les plus importantes du XVIe siècle. Spectacle de nourrissage des phoques deux fois par jour.",
+      },
+      {
+        heading: "4. Plage de la Côte des Basques — surf et falaises",
+        body: "La Côte des Basques est LA plage historique du surf européen — c'est ici que Peter Viertel a introduit le surf en France en 1957. La falaise qui la surplombe est emblématique. En été, la plage est bondée. Hors saison, c'est un spot de surf de grande qualité avec une ambiance décontractée.",
+      },
+      {
+        heading: "5. Architecture Belle Époque — Hôtel du Palais",
+        body: "Biarritz doit son identité à Napoléon III et à l'impératrice Eugénie, qui en ont fait leur résidence d'été impériale. L'Hôtel du Palais (ancienne villa impériale, 1854) et les villas de la fin XIXe siècle représentent le patrimoine Belle Époque le mieux préservé de la côte Atlantique.",
+      },
+      {
+        heading: "6. Marché de Biarritz et Halles",
+        body: "Le marché couvert des Halles de Biarritz (rue des Halles) fonctionne le matin en semaine et le samedi jusqu'à 14h. Produits basques : jambon IGP, fromage ossau-iraty, anchois de Ciboure, piment d'Espelette AOP, gâteau basque artisanal. Le café du marché le matin est un rituel local.",
+      },
+      {
+        heading: "7. Leçon de surf ou stage de quelques jours",
+        body: "Biarritz est la meilleure base française pour apprendre le surf — écoles de surf reconnues (Hastea, Rip Curl School), conditions adaptées aux débutants sur la Côte des Basques hors été. Une semaine de stage incluant hébergement et cours est 30 à 40% moins chère que les mêmes prestations à Hossegor.",
+      },
+      {
+        heading: "8. Plage de Marbella et falaises de la Milady",
+        body: "La Plage de Marbella et la plage de la Milady, au sud de Biarritz vers Bidart, sont moins fréquentées que la Grande Plage et offrent une eau plus propre. Les falaises de la Milady sont idéales pour observer les vagues d'automne et d'hiver — les sessions de surf professionnel s'y tiennent en octobre-novembre.",
+      },
+      {
+        heading: "9. Fête de l'Atlantique et événements surf",
+        body: "Le Biarritz Surf Pro (WQS, généralement en juillet) rassemble les meilleurs surfeurs européens sur la Côte des Basques. Le Biarritz Surf Festival (compétition longboard, plus alternatif) est gratuit. Les festivals de jazz de Biarritz et de Bayonne complètent le calendrier culturel estival.",
+      },
+      {
+        heading: "10. Bidart et Saint-Jean-de-Luz depuis Biarritz",
+        body: "Bidart (10 min), village basque avec des plages de surf moins fréquentées. Saint-Jean-de-Luz (20 min), port de pêche thonière avec une vieille ville basque intacte et l'église où Louis XIV s'est marié (1660). Hendaye (30 min) marque la frontière espagnole. Tout s'enchaîne en une journée par la côte.",
+      },
+    ],
+    relatedCities: ["biarritz"],
+    relatedGuides: [
+      "vivre-pays-basque-bayonne-biarritz-pau",
+      "quitter-biarritz-guide-2026",
+    ],
+    tags: ["10 choses à faire à Biarritz", "activités Biarritz 2026", "sorties Biarritz", "que faire à Biarritz", "surf falaises Pays Basque Biarritz visiteurs"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
