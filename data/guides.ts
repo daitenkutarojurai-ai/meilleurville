@@ -22822,6 +22822,209 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["budget mensuel Nice 2026", "combien coûte vivre Nice Côte d'Azur", "prix Nice loyer tram Promenade", "budget vivre Nice célibataire couple 2026", "Nice coût de la vie méditerranée 2026"],
   },
+  {
+    slug: "budget-mensuel-realiste-nantes-2026",
+    title: "Budget mensuel réaliste à Nantes en 2026 : ce que ça coûte vraiment",
+    metaTitle: "Budget mensuel Nantes 2026 — Ce que coûte vraiment vivre à Nantes",
+    metaDesc: "Combien faut-il pour vivre à Nantes en 2026 ? Budget mensuel détaillé : loyer, tramway, Loire, Atlantique. Chiffres réels pour célibataire et couple.",
+    category: "budget",
+    emoji: "🏰",
+    readMinutes: 7,
+    publishedAt: "2026-05-01",
+    updatedAt: "2026-05-26",
+    intro: "Nantes est la métropole atlantique la moins chère des grandes villes de l'arc Bordeaux-Rennes. Moins premium que Bordeaux, moins universitaire que Rennes, mais plus grande et plus diversifiée économiquement que les deux. Ce guide donne les chiffres réels pour budgétiser une vie nantaise en 2026.",
+    sections: [
+      {
+        heading: "Logement : une métropole encore accessible",
+        body: "Studio 22 m² sur l'Île de Nantes ou place Graslin : 560–780 €/mois. T2 40 m² en Zola ou Canclaux : 720–980 €/mois. T3 65 m² à Rezé ou Vertou (banlieue sud, bord de Loire) : 800–1 100 €/mois. T3 65 m² à Saint-Herblain ou Orvault (banlieue ouest) : 750–1 000 €/mois. Colocation chambre T4 : 450–640 €/mois. L'Île de Nantes est la zone en transformation la plus dynamique — prix en hausse mais cadre contemporain. Les communes de l'est (Sainte-Luce-sur-Loire, Thouaré) offrent maisons avec jardin à 220 000–320 000 €.",
+      },
+      {
+        heading: "Transport : le tramway nantais",
+        body: "TAN (Transports de l'Agglomération Nantaise) abonnement mensuel : 60 €. 3 lignes de tram, chronobus, navettes fluviales. Bicloo (vélos en libre-service) abonnement annuel : 30 €. Nantes est l'une des villes les plus cyclables de France — la ville a développé un réseau de pistes cyclables important depuis 2010. TGV Paris Montparnasse : 2h10.",
+      },
+      {
+        heading: "Alimentation et vie quotidienne",
+        body: "Marché de Talensac (centre, couvert, quotidien) : le marché de référence nantais pour les produits frais. Budget courses pour une personne : 280–390 €/mois. La muscadet de Sèvre et Maine (vin blanc de Loire, appellation nantaise) est l'un des vins blancs secs les moins chers de qualité en France — 5–9 € au caviste. La gastronomie nantaise (beurre blanc nantais, sandre de Loire, gâteau nantais) est moins connue que la cuisine bordelaise mais de qualité équivalente.",
+      },
+      {
+        heading: "L'Atlantique et la Loire : le bonus géographique",
+        body: "Saint-Nazaire est à 60 km (50 min par voiture ou TER) — accès Atlantique direct. La Baule, Pornichet, Le Croisic (90 km, 1h) sont des stations balnéaires de l'Atlantique avec grandes plages de sable. L'estuaire de la Loire (80 km de Nantes à la mer) offre un paysage unique — île de Noirmoutier (2h), île d'Yeu (ferry depuis Fromentine). C'est l'avantage géographique de Nantes sur Lyon ou Bordeaux intérieur.",
+      },
+      {
+        heading: "Récapitulatif Nantes",
+        body: "Budget nantais célibataire confortable : T2 800 €, transport 60 €, alimentation 420 €, sorties 200 €, divers 150 € = 1 630–1 950 €/mois. Couple en T3 Zola (900 €) : 2 800–3 300 €/mois. Nantes est légèrement moins chère que Bordeaux pour une qualité de vie comparable — l'Atlantique est moins 'glamour' que l'Atlantique bordelais (Arcachon, Médoc) mais également accessible. Pour les familles cherchant espace + métropole + mer à budget modéré, Nantes est l'une des meilleures options françaises.",
+      },
+    ],
+    relatedCities: ["nantes", "rennes", "la-rochelle", "angers", "saint-nazaire"],
+    relatedGuides: [
+      "budget-mensuel-realiste-paris-2026",
+      "budget-mensuel-realiste-bordeaux-2026",
+    ],
+    tags: ["budget mensuel Nantes 2026", "combien coûte vivre Nantes", "prix Nantes loyer tramway Loire", "budget vivre Nantes célibataire couple 2026", "Nantes coût de la vie Atlantique 2026"],
+  },
+  {
+    slug: "budget-mensuel-realiste-rennes-2026",
+    title: "Budget mensuel réaliste à Rennes en 2026 : ce que ça coûte vraiment",
+    metaTitle: "Budget mensuel Rennes 2026 — Ce que coûte vraiment vivre à Rennes",
+    metaDesc: "Combien faut-il pour vivre à Rennes en 2026 ? Budget mensuel détaillé : loyer, métro, crêpes, Bretagne. Chiffres réels pour célibataire et couple.",
+    category: "budget",
+    emoji: "🌊",
+    readMinutes: 7,
+    publishedAt: "2026-05-01",
+    updatedAt: "2026-05-26",
+    intro: "Rennes est la métropole bretonne la plus dynamique — et l'une des plus chères de province, portée par l'effet TGV (Paris en 1h27) et l'afflux de cadres parisiens depuis 2020. Mais elle reste nettement plus accessible que Paris et offre un marché de l'emploi tech réel. Ce guide donne les budgets réels pour une vie rennaise en 2026.",
+    sections: [
+      {
+        heading: "Logement : l'effet TGV cinq ans plus tard",
+        body: "Studio 22 m² dans le centre historique ou Thabor : 600–860 €/mois. T2 40 m² à Beaulieu (campus, tech) ou Saint-Martin : 750–1 050 €/mois. T3 65 m² en Villejean ou Cleunay (banlieue proche, bien connecté) : 850–1 150 €/mois. T3 65 m² à Cesson-Sévigné (banlieue est, près des boîtes tech) : 900–1 200 €/mois. Colocation chambre T4 : 450–650 €/mois — Rennes est très étudiante (60 000 étudiants) et la coloc est la norme pour les moins de 30 ans.",
+      },
+      {
+        heading: "Transport : le métro VAL et le vélo",
+        body: "STAR (réseau Rennes) abonnement mensuel : 58 €. Métro VAL (2 lignes) + bus. Star Vélo (vélos en libre-service) abonnement annuel : 25 €. Rennes est reconnue pour son réseau cyclable — plusieurs pistes séparées et le Canal d'Ille-et-Rance (promenade vélo vers Saint-Malo). TGV Paris Montparnasse : 1h27 direct, l'une des meilleures connexions provinciales de France.",
+      },
+      {
+        heading: "Alimentation : crêpes, galettes et marchés bretons",
+        body: "Les Halles Centrales de Rennes (marché quotidien, couvert) sont un incontournable pour les produits frais. Budget courses pour une personne : 280–390 €/mois. La crêperie est l'institution sociale rennaise — un dîner galette + crêpe + cidre revient à 15–22 €, l'un des meilleurs rapports qualité-prix de la restauration française. Le cidre breton (Guillevic, Kerisac) est l'accompagnement naturel — 3–6 € la bouteille en épicerie.",
+      },
+      {
+        heading: "La Bretagne comme ressource qualitative",
+        body: "Saint-Malo est à 55 km (40 min par route), la Côte d'Émeraude à 70 km. Le week-end breton coûte le prix du plein (carburant) ou d'un TER (13–18 € aller-retour Rennes–Saint-Malo). La forêt de Rennes (4 000 ha à 10 min de centre-ville) est une ressource nature unique pour une métropole de cette taille. La Bretagne intérieure (Brocéliande, Monts d'Arrée) est accessible en 1h.",
+      },
+      {
+        heading: "Récapitulatif Rennes",
+        body: "Budget rennais célibataire confortable : T2 900 €, transport 58 €, alimentation 430 €, crêperies/sorties 200 €, divers 150 € = 1 740–2 000 €/mois. Couple en T3 Beaulieu (1 000 €) : 2 900–3 400 €/mois. Rennes est légèrement plus chère que Nantes mais offre un marché de l'emploi tech plus profond et le meilleur TGV Paris de province (à égalité avec Tours). Pour les profils numériques ou ingénierie qui veulent la Bretagne avec l'emploi, Rennes est la réponse.",
+      },
+    ],
+    relatedCities: ["rennes", "nantes", "brest", "saint-malo", "angers"],
+    relatedGuides: [
+      "budget-mensuel-realiste-nantes-2026",
+      "budget-mensuel-realiste-paris-2026",
+    ],
+    tags: ["budget mensuel Rennes 2026", "combien coûte vivre Rennes", "prix Rennes loyer métro Bretagne", "budget vivre Rennes célibataire couple 2026", "Rennes coût de la vie tech TGV 2026"],
+  },
+  {
+    slug: "rennes-vs-nantes-comparatif-2026",
+    title: "Rennes vs Nantes 2026 : laquelle choisir pour s'installer ?",
+    metaTitle: "Rennes vs Nantes 2026 — Comparatif complet pour s'installer",
+    metaDesc: "Rennes ou Nantes ? Comparatif immobilier, emploi, Bretagne vs Loire, transports 2026. Deux métropoles de l'Ouest avec des profils différents. Guide objectif.",
+    category: "comparaison",
+    emoji: "🌊",
+    readMinutes: 8,
+    publishedAt: "2026-05-01",
+    updatedAt: "2026-05-26",
+    intro: "Rennes et Nantes sont les deux grandes métropoles de l'arc atlantique nord. Souvent mises en concurrence, elles sont en réalité complémentaires plutôt que substituables. Rennes est la capitale tech de la Bretagne — TGV ultra-rapide, numérique, identité bretonne forte. Nantes est la métropole atlantique diversifiée — économie industrielle et créative, estuaire de la Loire, accès à la mer. Le choix entre les deux révèle des priorités de vie différentes.",
+    sections: [
+      {
+        heading: "Immobilier : Nantes légèrement avantageuse",
+        body: "Rennes 2026 : studio €600–860/mois, T3 65 m² €850–1 150/mois, achat €3 000–4 500/m² en central. Nantes 2026 : studio €560–780/mois, T3 65 m² €800–1 100/mois, achat €2 800–4 200/m² en central. L'écart est modeste (10–15 % en faveur de Nantes) mais réel. Les deux marchés sont en hausse depuis 2018 — l'effet TGV à Rennes, l'effet attractivité atlantique à Nantes. Pour l'achat d'une maison avec jardin en périphérie : les deux villes offrent des options à 280 000–400 000 € à 15–30 min du centre.",
+      },
+      {
+        heading: "Emploi : Rennes gagne sur le tech",
+        body: "Rennes a un avantage clair pour les profils numériques et ingénierie : Orange (1 000+ emplois), Capgemini, Thales, Nokia, Atos, et l'écosystème French Tech. Le technopôle Rennes Atalante (400 entreprises, 12 000 emplois) est le premier parc tech breton. Nantes a une économie plus diversifiée mais moins profonde en tech : French Tech Nantes est actif, le Pôle Industries Culturelles et Créatives (ILE de Nantes) est innovant, mais l'agroalimentaire, l'aéronautique (Saint-Nazaire) et le BTP sont les secteurs dominants. Pour un ingénieur logiciel : Rennes. Pour un profil industrie/logistique/design : Nantes.",
+      },
+      {
+        heading: "Paris : la connexion fait la différence",
+        body: "C'est là où Rennes gagne de façon décisive pour les navetteurs parisiens : TGV Paris en 1h27 — l'un des meilleurs temps de trajet de province. Nantes est à 2h10. Pour un cadre qui va à Paris deux fois par semaine, la différence de 43 minutes par trajet représente 1h26 perdu (ou gagné) chaque aller-retour. Pour un équilibre vie personnelle/professionnelle, ce 43 minutes compte. En revanche, Nantes a un aéroport plus actif pour les connexions européennes directes.",
+      },
+      {
+        heading: "Identité et cadre de vie",
+        body: "Rennes est culturellement bretonne — et cette identité est forte. Le fest-noz, le cidre breton, le rugby (Stade Rennais FC joue en Ligue 1), Saint-Malo à 55 km. L'identité rennaise est marquée, attachée à son ancrage breton, plus communautaire que cosmopolite. Nantes est à la frontière entre Bretagne historique, Pays de la Loire, et le Grand Ouest — une identité plus hybride, moins marquée. Les Machines de l'Île et l'ambiance créative de l'Île de Nantes lui confèrent une image plus 'artistique' et 'contemporaine'.",
+      },
+      {
+        heading: "Mer et nature : l'avantage Nantes",
+        body: "L'accès à la mer est meilleur depuis Nantes : Saint-Nazaire (60 km, accès Atlantique direct), La Baule (90 km, grandes plages de sable). Depuis Rennes, Saint-Malo est à 55 km mais sur une côte de rochers et d'Émeraude — magnifique mais différent. La plage de sable atlantique est plus accessible depuis Nantes. Pour les familles avec enfants qui veulent les grandes plages d'été, Nantes l'emporte. Pour ceux qui veulent la Côte d'Émeraude et le charme breton, Rennes.",
+      },
+    ],
+    relatedCities: ["rennes", "nantes", "brest", "la-rochelle", "angers"],
+    relatedGuides: [
+      "budget-mensuel-realiste-rennes-2026",
+      "budget-mensuel-realiste-nantes-2026",
+      "acheter-a-rennes-quel-quartier-budget-2026",
+    ],
+    tags: ["Rennes vs Nantes 2026", "Rennes ou Nantes s'installer", "comparatif Rennes Nantes immobilier emploi", "vivre Rennes vs Nantes Bretagne Loire", "meilleure ville Ouest France Rennes Nantes 2026"],
+  },
+  {
+    slug: "lille-vs-amiens-comparatif-2026",
+    title: "Lille vs Amiens 2026 : laquelle choisir pour s'installer dans le Nord ?",
+    metaTitle: "Lille vs Amiens 2026 — Comparatif pour s'installer dans les Hauts-de-France",
+    metaDesc: "Lille ou Amiens ? Comparatif immobilier, emploi, Eurostar, qualité de vie nord France 2026. Deux villes des Hauts-de-France très différentes. Guide objectif.",
+    category: "comparaison",
+    emoji: "🍺",
+    readMinutes: 8,
+    publishedAt: "2026-05-01",
+    updatedAt: "2026-05-26",
+    intro: "Lille et Amiens sont les deux plus grandes villes des Hauts-de-France — mais elles n'ont presque rien en commun au-delà de leur région administrative. Lille est une métropole européenne de 1,2 million d'habitants, cosmopolite, avec l'Eurostar (Londres en 1h20) et une vie universitaire et culturelle intense. Amiens est une ville préfectorale de 135 000 habitants, plus calme, avec la cathédrale la plus haute de France et une économie pharma solide.",
+    sections: [
+      {
+        heading: "Immobilier : Amiens 40 % moins chère",
+        body: "Lille centre (Vieux-Lille, République) : 2 500–4 500 €/m². Lille résidentiel (Wazemmes, Moulins) : 2 000–3 200 €/m². Amiens centre (Cathédrale, Saint-Leu) : 1 800–2 800 €/m². Amiens résidentiel et périphérie : 1 400–2 200 €/m². L'écart est significatif. Pour un T3 à 65 m², vous payez 150 000–180 000 € à Amiens contre 220 000–280 000 € à Lille. Pourquoi ce différentiel ? Amiens a un bassin d'emploi plus étroit et une attractivité moindre hors de sa région — le marché reflète cela.",
+      },
+      {
+        heading: "Emploi : Lille sans comparaison",
+        body: "Lille est le troisième pôle économique de France après Paris et Lyon — grande distribution (Auchan, Décathlon, La Redoute, Kiabi — tous fondés dans la région), services financiers, numérique (French Tech Lille), santé (CHU de Lille, l'un des plus grands de France), logistique (plateforme géographique centrale entre Paris-Londres-Bruxelles). Amiens a un tissu économique plus limité : GSK (pharmaceutique, premier employeur privé), Baxter Healthcare, Saint-Gobain, services publics. Pour une carrière dans le privé hors pharma : Lille est incomparable dans la région.",
+      },
+      {
+        heading: "Connexions et situation géographique",
+        body: "Lille est au carrefour de l'Europe du nord-ouest : TGV Paris en 1h (avec Eurostar connexion), Bruxelles en 35 min, Londres Saint-Pancras en 1h20 via Eurostar. C'est inégalé en France provinciale. Amiens : TGV Paris-Nord en 1h08 — excellent pour Paris mais limité pour l'international. Pour les profils travaillant entre Paris et la Grande-Bretagne ou la Belgique, Lille est stratégiquement incomparable.",
+      },
+      {
+        heading: "Qualité de vie quotidienne",
+        body: "Lille a une énergie urbaine proprement lilloise — les Braderies (septembre, plus grande brocante d'Europe), les friteries (les meilleures frites de France, objectivement), la bière (La Choulette, Trois Monts, Pelforth), les Vieux-Lille maisons en briques flamandes. C'est une ville jeune, animée, avec une vie nocturne soutenue. Amiens est plus calme — la cathédrale Notre-Dame d'Amiens (la plus grande de France en volume, UNESCO), les Hortillonnages (jardins flottants au centre-ville), les marais picards. Pour les familles cherchant le calme et la nature à prix abordable, Amiens l'emporte.",
+      },
+      {
+        heading: "Verdict",
+        body: "Choisissez Lille si : vous avez une carrière ou un projet entrepreneurial dans la grande distribution, le numérique, la logistique, ou les services ; si vous voyagez fréquemment entre Paris, Londres et Bruxelles ; si vous voulez une grande vie urbaine française à -40 % des prix parisiens. Choisissez Amiens si : votre emploi est dans la pharma (GSK) ou les services publics ; si vous cherchez la ville préfectorale calme à prix très doux pour la retraite ou le télétravail ; si la cathédrale, les Hortillonnages et la Baie de Somme sont des arguments décisifs pour votre qualité de vie.",
+      },
+    ],
+    relatedCities: ["lille", "amiens", "reims", "dunkerque", "valenciennes"],
+    relatedGuides: [
+      "acheter-a-lille-quel-quartier-budget-2026",
+      "acheter-a-amiens-quel-quartier-budget-2026",
+      "vivre-en-hauts-de-france-guide-2026",
+    ],
+    tags: ["Lille vs Amiens 2026", "Lille ou Amiens s'installer nord France", "comparatif Lille Amiens immobilier emploi", "Hauts-de-France villes comparaison", "meilleure ville nord France Lille Amiens 2026"],
+  },
+  {
+    slug: "tours-vs-orléans-comparatif-2026",
+    title: "Tours vs Orléans 2026 : laquelle choisir pour s'installer sur la Loire ?",
+    metaTitle: "Tours vs Orléans 2026 — Comparatif pour s'installer en Val de Loire",
+    metaDesc: "Tours ou Orléans ? Comparatif immobilier, TGV Paris, emploi, châteaux Loire 2026. Deux villes ligériennes très différentes. Guide objectif.",
+    category: "comparaison",
+    emoji: "🏰",
+    readMinutes: 7,
+    publishedAt: "2026-05-01",
+    updatedAt: "2026-05-26",
+    intro: "Tours et Orléans sont les deux grandes villes du Val de Loire — séparées de 110 km sur la même Loire, mais avec des profils très différents. Orléans est la plus proche de Paris (1h05 TGV) et la plus dépendante de la capitale économiquement. Tours est la plus autonome, avec un TGV encore plus rapide (1h00), une économie pharma solide, et une vieille ville plus charmante.",
+    sections: [
+      {
+        heading: "Connexion Paris : avantage Tours",
+        body: "Tours–Paris Montparnasse : TGV en 1h00. Orléans–Paris Austerlitz : TGV/Intercités en 1h05–1h15. L'écart est minime (5–15 min), mais la qualité de la connexion diffère : Tours a une vraie LGV avec des TGV fréquents et fiables ; Orléans est desservie par des Intercités moins fiables (pas de vraie LGV entre Orléans et Paris, les travaux sont prévus mais lointains). Pour un navetteur exigeant, Tours gagne sur la qualité de la connexion.",
+      },
+      {
+        heading: "Immobilier : comparables, légèrement en faveur d'Orléans",
+        body: "Tours centre (Vieux-Tours, Tours Nord) : 2 200–3 500 €/m². Tours résidentiel (Saint-Symphorien, la Riche) : 1 900–2 800 €/m². Orléans centre (Bannier, Saint-Marc) : 2 300–3 600 €/m². Orléans résidentiel (La Source, Saint-Jean de la Ruelle) : 1 800–2 700 €/m². Les deux villes sont comparables — Orléans légèrement plus chère en centre (pression Paris), Tours légèrement plus chère en résidentiel de qualité. Pour une maison avec jardin en périphérie : les deux offrent des pavillons à 180 000–280 000 € à 20 km du centre.",
+      },
+      {
+        heading: "Emploi : Tours plus autonome",
+        body: "Tours a un bassin d'emploi plus autonome qu'Orléans : pharmacie (Sanofi, IQVIA, Boehringer), nucléaire (centrale de Chinon, 35 km), université de Tours (30 000 étudiants), logistique (carrefour A10/A85). Orléans est davantage dans l'orbite Paris — une fraction des actifs orléanais travaille en fait en région parisienne. La Cosmétic Valley (cluster cosmétique, entre Chartres, Paris et Tours) génère des emplois dans les deux bassins. Pour l'autonomie économique locale, Tours est clairement supérieure.",
+      },
+      {
+        heading: "Cadre de vie et patrimoine",
+        body: "Le Vieux-Tours (quartier Plumereau) est l'un des centres historiques les plus vivants de France — maisons à colombages Renaissance, terrasses animées même en hiver, marchés. La Loire est plus large à Tours (700 m de largeur) et plus spectaculaire. Orléans a une belle cathédrale Sainte-Croix et un centre-ville en rénovation, mais le centre commercial de La Source et les périphéries commerciales ont vidé une partie du commerce central. Le Val de Loire UNESCO (châteaux, vignobles Vouvray/Chinon) est accessible depuis les deux villes, mais le cœur du vignoble (Vouvray, Amboise, Chenonceau) est plus proche de Tours.",
+      },
+      {
+        heading: "Verdict",
+        body: "Tours gagne sur presque tous les critères pour un choix de vie : TGV plus fiable, bassin d'emploi plus autonome, vieille ville plus vivante, vignoble ligérien plus proche. Orléans garde un avantage pour les navetteurs parisiens purs qui font des allers-retours fréquents et cherchent la proximité géographique maximale de Paris (105 km contre 240 km pour Tours). Pour un choix de vie à long terme dans la Loire, Tours domine.",
+      },
+    ],
+    relatedCities: ["tours", "orleans", "blois", "chartres", "bourges"],
+    relatedGuides: [
+      "acheter-a-tours-quel-quartier-budget-2026",
+      "acheter-a-orleans-quel-quartier-budget-2026",
+      "vivre-en-centre-val-de-loire-guide-2026",
+    ],
+    tags: ["Tours vs Orléans 2026", "Tours ou Orléans s'installer Loire", "comparatif Tours Orléans immobilier TGV", "Val de Loire villes comparaison 2026", "meilleure ville Loire Tours Orléans 2026"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
