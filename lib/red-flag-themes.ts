@@ -24,6 +24,7 @@ import { computeSafetyDeep } from "@/lib/safety-deep";
 import { computeDemography } from "@/lib/demography";
 import { computePublicServices } from "@/lib/public-services";
 import { housingTensionFor } from "@/lib/housing-tension";
+import { internetScore, internetLabel } from "@/lib/internet-score";
 import { sunshineDays } from "@/lib/utils";
 
 // Tag patterns that signal a strong seasonal/touristic vocation. Matched on
@@ -744,6 +745,38 @@ function rankMonoTouristique(): RedFlagRow[] {
   return rows.sort((a, b) => b.severity - a.severity).slice(0, 12);
 }
 
+// --- THEME 20 — Internet précaire ---
+// Cible : villes dont l'`internetScore` (lib/internet-score) tombe à ≤ 5/10. Le
+// score blend le `remoteWork` seed (60 %), le bonus régional ARCEP fibre, le
+// bonus urbain pour les 30 plus grandes villes, et la pénalité dépt à
+// couverture chronique faible (Creuse, Cantal, Lozère, Hautes-Alpes,
+// Aveyron…). Severity amplifiée quand la population est < 10 000 hab. (la
+// densité conditionne le déploiement FTTH des derniers kilomètres) et quand
+// le score remoteWork seed est lui-même très faible (≤ 4) — signal de
+// double peine pour les télétravailleurs. Indicateur dédié aux freelances,
+// digital nomads et expats numériques qui se posent la vraie question :
+// « ce point sur la carte tient-il une visio HD à 14 h sans coupure ? ».
+function rankInternetPrecaire(): RedFlagRow[] {
+  const rows: RedFlagRow[] = [];
+  for (const city of CITIES_SEED) {
+    const score = internetScore(city);
+    if (score > 5) continue;
+
+    const pop = city.population ?? 0;
+    let severity = (10 - score) * 1.6;
+    if (pop > 0 && pop < 10_000) severity += 0.6;
+    if (city.scores.remoteWork <= 4) severity += 0.4;
+    severity = Math.min(10, severity);
+    if (severity < 6) continue;
+
+    const tier = internetLabel(score);
+    const popLabel = pop > 0 ? `${pop.toLocaleString("fr-FR")} hab.` : "petite commune";
+    const reason = `Connectivité ${tier.label.toLowerCase()} (${score.toFixed(1)}/10) · ${popLabel} · score télétravail seed ${city.scores.remoteWork.toFixed(1)}/10`;
+    rows.push({ city, severity: Math.round(severity * 10) / 10, reason });
+  }
+  return rows.sort((a, b) => b.severity - a.severity).slice(0, 12);
+}
+
 export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-regrets-achat",
@@ -1029,6 +1062,21 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     methodology:
       "Severity = (0,55 × youngActives + 0,18 × max(0, trajectory−5) + 0,16 × max(0, chômage−5) + 0,10 × max(0, dynamisme−5) + malus taille +0,4 si <25 000 hab. ou +0,2 si <40 000 hab.) × 1,7, clampé à 10/10. Filtre : population ≥ 10 000 hab., composite démographique < 8,5 (pour ne pas dupliquer le thème vieillissement), severity ≥ 6/10. Sources : INSEE recensement (structure par âge 25-35), Bilan démographique INSEE 2024 (solde naturel + migratoire), INSEE taux de chômage T4 2024, SIRENE (flux d'établissements).",
     rank: rankFuiteJeunesActifs,
+  },
+  {
+    slug: "villes-internet-precaire",
+    title: "Villes où le très haut débit reste un compromis",
+    metaTitle: "Internet précaire 2026 — Villes au débit limité",
+    metaDescription:
+      "Classement 2026 des villes françaises où la fibre n'est pas arrivée : ADSL plafonné, 4G fixe saturée, dépts ARCEP peu denses (Creuse, Cantal, Lozère).",
+    emoji: "📡",
+    intro:
+      "L'annonce immobilière vante le calme, la vue, le prix au m² accessible. Personne ne mentionne que la fibre s'arrête au prochain hameau, que l'ADSL plafonne à 12 Mbps en aval et 1 Mbps en amont, et que la 4G fixe sature deux jours par semaine quand le voisin lance Netflix. Sur le papier, la France est « presque entièrement fibrée » ; pour le télétravailleur qui doit tenir une visio quotidienne, la même réalité s'appelle simplement : compromis permanent.",
+    reality:
+      "On classe les villes dont l'`internetScore` calculé tombe à 5/10 ou moins. Le score blend le sous-score `remoteWork` du seed (60 %), un bonus régional aligné sur les taux de couverture ARCEP T4 2024 par région, un bonus urbain pour les 30 plus grandes villes (densité FTTH systématique) et une pénalité quand le département figure dans la liste ARCEP « zones peu denses non rentables » historiquement défaillantes — Creuse, Cantal, Lozère, Hautes-Alpes, Aveyron, Ariège, Gers, Haute-Loire, Vosges, Meuse, Haute-Marne, Corrèze, Alpes-de-Haute-Provence. Une commune peut figurer ici par effet de densité seule (DROM dispersés, Corse rurale), par effet de département peu dense seul, ou — c'est le pire des cas — par cumul des deux.",
+    methodology:
+      "Severity = (10 − internetScore) × 1,6 + 0,6 si population < 10 000 hab. + 0,4 si remoteWork seed ≤ 4/10. Filtre : internetScore ≤ 5/10, severity ≥ 6/10. Sources sous-jacentes : ARCEP « Observatoire du marché des communications électroniques » T4 2024 (taux de locaux raccordables FTTH par région), zones peu denses non rentables ARCEP, scores seed propriétaire. Caveat : la couverture évolue trimestriellement — un raccordement neuf à 200 m du logement peut changer le ressenti sans changer le score moyen départemental.",
+    rank: rankInternetPrecaire,
   },
 ];
 
