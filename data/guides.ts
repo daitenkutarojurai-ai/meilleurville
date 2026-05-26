@@ -22008,6 +22008,129 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["acheter à Biarritz 2026", "immobilier Biarritz prix quartiers", "Biarritz surf côte basque achat", "budget achat Biarritz Pays Basque", "Biarritz Côte des Basques Milady prix"],
   },
+  {
+    slug: "nice-vs-marseille-comparatif-2026",
+    title: "Nice vs Marseille 2026 : laquelle choisir pour s'installer ?",
+    metaTitle: "Nice vs Marseille 2026 — Comparatif complet pour s'installer",
+    metaDesc: "Nice ou Marseille ? Comparatif immobilier, emploi, sécurité, plages, transports 2026. Deux villes méditerranéennes avec des profils très différents. Guide objectif.",
+    category: "comparaison",
+    emoji: "🌊",
+    readMinutes: 9,
+    publishedAt: "2026-05-01",
+    updatedAt: "2026-05-26",
+    intro: "Nice et Marseille sont les deux grandes métropoles méditerranéennes françaises, mais elles n'ont presque rien en commun en dehors de la mer et du soleil. Nice (345 000 hab.) est une ville franco-italienne bourgeoise, tournée vers le tourisme international et la résidence secondaire de luxe. Marseille (870 000 hab.) est la troisième ville de France, populaire, diverse, industrielle, avec une énergie brute unique. Choisir entre les deux est avant tout une question de profil de vie.",
+    sections: [
+      {
+        heading: "Immobilier : des marchés sans commune mesure",
+        body: "Nice est l'une des villes les plus chères de France après Paris : 4 000–7 500 €/m² selon le quartier (Cimiez, Promenade des Anglais, Vieux-Nice). Le marché est tiré par la demande internationale (retraités italiens, britanniques post-Brexit, investisseurs Monaco). Marseille est 40 à 60 % moins chère : 2 500–5 000 €/m² (Corniche-Kennedy en haut, 13e/14e arrondissement en bas). Pour un même budget, vous achetez deux fois plus de surface à Marseille qu'à Nice. Marseille a aussi un parc de biens anciens très varié — haussmannien, Art Déco, maisons de village dans les quartiers Nord.",
+      },
+      {
+        heading: "Emploi et économie : deux structures différentes",
+        body: "Nice est une économie de services et de tourisme : hôtellerie, restauration, finance, immobilier de luxe, et les grandes entreprises de la Côte d'Azur (Sophia Antipolis à 20 km — premier technopôle européen, 36 000 emplois tech). Nice est aussi ville universitaire (30 000 étudiants). Marseille est une économie plus diversifiée et plus grande : port (1er port méditerranéen français), logistique, pétrochimie (Fos-sur-Mer), tourisme, santé (CHU), université (80 000 étudiants), et un écosystème startup en forte croissance (French Tech Aix-Marseille). Pour l'emploi dans la tech, Nice est meilleure grâce à Sophia Antipolis.",
+      },
+      {
+        heading: "Sécurité : un écart réel mais nuancé",
+        body: "Marseille a une réputation de ville dangereuse qui est à la fois vraie et caricaturée. Les statistiques de criminalité violente dans certains quartiers Nord (13e–15e) sont réelles. Mais les quartiers où s'installent les cadres et les familles — 8e, 9e, 12e arrondissements, Mazargues, Château-Gombert — ont des niveaux de sécurité comparables à n'importe quelle grande ville française. Nice a une criminalité de droit commun plus faible, mais des tensions dans certains quartiers (Nice Nord, Ariane). La règle : choisir son quartier à Marseille est crucial ; à Nice, le marché fait le tri naturellement par les prix.",
+      },
+      {
+        heading: "Plages, mer et qualité de vie méditerranéenne",
+        body: "Nice a la Promenade des Anglais, les Calanques de Villefranche, et un accès facile à Monaco (22 min en train), Menton, Cannes. Plages de galets, eau cristalline. Marseille a les Calanques (Parc National, UNESCO), plages de sable et de galets, Cassis à 20 km. La Méditerranée marseillaise est plus sauvage et moins mondaine que la Côte d'Azur niçoise. Pour le nautisme, les deux villes offrent des conditions excellentes mais des ambiances très différentes : glamour à Nice, brut à Marseille.",
+      },
+      {
+        heading: "Transports et connexions",
+        body: "Nice : aéroport international (10 M passagers, 2e français), TGV Paris en 5h30 (ou avion 1h15), tram urbain T1/T2, bus Lignes d'Azur. Accès Monaco 22 min train. Marseille : aéroport international (10 M passagers), TGV Paris en 3h10 (le plus rapide), tram + métro (2 lignes), meilleure desserte nationale par train. Pour les connections Paris et nationales, Marseille domine largement. Nice garde un avantage pour l'international et la Côte d'Azur.",
+      },
+    ],
+    relatedCities: ["nice", "marseille", "toulon", "aix-en-provence", "antibes"],
+    relatedGuides: [
+      "nice-vs-montpellier-comparatif-2026",
+      "aix-en-provence-vs-marseille-comparatif-2026",
+      "marseille-vs-toulouse-comparatif-2025",
+    ],
+    tags: ["Nice vs Marseille 2026", "Nice ou Marseille s'installer", "comparatif Nice Marseille immobilier emploi", "vivre à Nice vs Marseille", "Méditerranée deux villes comparaison"],
+  },
+  {
+    slug: "montpellier-vs-toulouse-comparatif-2026",
+    title: "Montpellier vs Toulouse 2026 : laquelle choisir pour s'installer ?",
+    metaTitle: "Montpellier vs Toulouse 2026 — Comparatif complet pour s'installer",
+    metaDesc: "Montpellier ou Toulouse ? Comparatif immobilier, emploi, étudiants, soleil, transports 2026. Deux métropoles du Sud en pleine croissance. Guide objectif.",
+    category: "comparaison",
+    emoji: "☀️",
+    readMinutes: 9,
+    publishedAt: "2026-05-01",
+    updatedAt: "2026-05-26",
+    intro: "Montpellier et Toulouse sont les deux métropoles du sud de la France qui croissent le plus vite. Montpellier (300 000 hab.) est la ville méditerranéenne universitaire et médicale, plus petite, plus chère au m² pour ce qu'elle offre, et très tournée vers les jeunes. Toulouse (800 000 hab.) est la capitale de l'aéronautique européenne, nettement plus grande, avec un bassin d'emploi industrie/tech puissant. Les deux ont le soleil, mais elles s'adressent à des profils différents.",
+    sections: [
+      {
+        heading: "Immobilier : Montpellier plus chère que la logique ne le suggère",
+        body: "Montpellier : 2 800–4 500 €/m² selon le quartier (Écusson en haut, Port-Marianne, Antigone). La ville est chère pour sa taille et son marché de l'emploi — c'est l'effet mer + université + demande résidence secondaire. Toulouse : 2 500–4 000 €/m² (Capitole, Saint-Cyprien, Côte Pavée). Toulouse est légèrement moins chère pour une ville deux fois plus grande avec un marché de l'emploi deux fois plus profond. Rapport qualité/prix global : Toulouse. Pour les amateurs de mer et de Méditerranée : Montpellier justifie son premium.",
+      },
+      {
+        heading: "Emploi : Toulouse domine dans le privé",
+        body: "Toulouse est la capitale européenne de l'aéronautique et du spatial : Airbus (40 000 emplois), CNES, Thales, ATR, Safran. L'université Paul-Sabatier (sciences, santé) et l'INP alimentent une ingénierie locale puissante. Secteurs : aéro, spatial, défense, informatique embarquée, pharma (Pierre Fabre). Montpellier est avant tout une ville de services, de santé (CHU, Sanofi, CNRS) et d'enseignement supérieur (80 000 étudiants). Hors santé/pharma et recherche publique, le bassin d'emploi privé est moins profond qu'à Toulouse. Choix évident pour un ingénieur : Toulouse.",
+      },
+      {
+        heading: "Vie étudiante et jeunesse",
+        body: "Montpellier est l'une des villes les plus étudiantes de France (plus de 80 000 étudiants pour 300 000 hab. — ratio exceptionnel). L'ambiance estivale, la mer à 12 km, le Vieux-Montpellier, la Comédie — c'est une ville jeune, animée, parfois bruyante. Toulouse a aussi 130 000 étudiants (pour 800 000 hab.) et une vie étudiante dense. L'avantage Montpellier : la mer est là, l'ambiance est ibérique. L'avantage Toulouse : les salaires après études sont plus élevés grâce à l'industrie aéro.",
+      },
+      {
+        heading: "Qualité de vie quotidienne",
+        body: "Montpellier : mer à 12 km (Palavas, Carnon), garrigue, Camargue, tramway 5 lignes mais bouchons terribles sur périphérique. Chaleur estivale extrême (35–40°C, mais sec). Hiver doux. Toulouse : Pyrénées à 1h30, Carcassonne à 1h, Bordeaux à 2h TGV. Chaleur similaire en été. Tramway 2 lignes + métro 2 lignes — meilleure offre transport que Montpellier. Les deux ont des marchés frais exceptionnels, une culture festive du sport et du plein air.",
+      },
+      {
+        heading: "Transports et connexions nationales",
+        body: "Toulouse : TGV Paris en 4h10 (LGV Bordeaux-Toulouse prévue → 3h15 après 2032), aéroport (10 M passagers), hub national. Montpellier : TGV Paris en 3h15 direct (LGV Sud-Europe-Atlantique), aéroport 4 M passagers. Pour les connexions Paris, Montpellier est nettement plus rapide. Pour les connexions régionales et européennes, Toulouse est mieux placée. Le choix dépend de votre fréquence de déplacements.",
+      },
+    ],
+    relatedCities: ["montpellier", "toulouse", "nimes", "beziers", "perpignan"],
+    relatedGuides: [
+      "marseille-vs-toulouse-comparatif-2025",
+      "nice-vs-montpellier-comparatif-2026",
+      "perpignan-vs-montpellier-comparatif-2026",
+    ],
+    tags: ["Montpellier vs Toulouse 2026", "Montpellier ou Toulouse s'installer", "comparatif Montpellier Toulouse immobilier emploi", "vivre Montpellier vs Toulouse", "Sud France deux métropoles comparaison"],
+  },
+  {
+    slug: "strasbourg-vs-colmar-comparatif-2026",
+    title: "Strasbourg vs Colmar 2026 : laquelle choisir pour s'installer en Alsace ?",
+    metaTitle: "Strasbourg vs Colmar 2026 — Comparatif complet pour s'installer en Alsace",
+    metaDesc: "Strasbourg ou Colmar ? Comparatif immobilier, emploi, frontaliers, charme, transports 2026. Deux villes alsaciennes très différentes. Guide objectif.",
+    category: "comparaison",
+    emoji: "🥨",
+    readMinutes: 8,
+    publishedAt: "2026-05-01",
+    updatedAt: "2026-05-26",
+    intro: "Strasbourg (290 000 hab.) et Colmar (68 000 hab.) sont toutes les deux alsaciennes, mais elles s'adressent à des profils très différents. Strasbourg est une capitale européenne (Parlement Européen, Conseil de l'Europe), avec un bassin d'emploi en conséquence et des prix immobiliers à 40–60 % supérieurs à Colmar. Colmar a le charme médiéval maximal de l'Alsace, un accès au marché frontalier rhénan (Bâle, Fribourg), et une vie plus calme — au prix d'un emploi local limité.",
+    sections: [
+      {
+        heading: "Immobilier : un écart de 40 à 60 %",
+        body: "Strasbourg : 3 000–5 500 €/m² selon le quartier (Neustadt en haut, Cronenbourg, Meinau). La prime européenne et universitaire se paie. La Neustadt (quartier wilhelmien UNESCO) dépasse facilement 4 500 €/m² rénové. Colmar : 2 200–3 800 €/m². La Petite Venise (centre médiéval) est le segment le plus cher (3 000–3 800 €/m²), mais les quartiers résidentiels (Ladhof, Tanner) restent accessibles. Pour un même budget de 250 000 €, vous obtenez un T2 bien situé à Strasbourg ou un T3 avec cachet à Colmar.",
+      },
+      {
+        heading: "Emploi : Strasbourg sans comparaison",
+        body: "Strasbourg est la seule ville d'Alsace avec un vrai marché d'emploi autonome : institutions européennes (1 500 fonctionnaires permanents), université (55 000 étudiants, 3 Prix Nobel de chimie depuis 2008), grande industrie (PSA Stellantis à Illkirch, Liebherr, Roquette), finance et services. Colmar a un bassin d'emploi provincial : tourisme, agroalimentaire (vins d'Alsace, foie gras), PME industrielles. Pour une carrière dans une grande entreprise ou les institutions, Strasbourg est obligatoire. Colmar convient aux télétravailleurs, aux travailleurs frontaliers, et aux indépendants.",
+      },
+      {
+        heading: "Accès frontalier : l'avantage Colmar pour Bâle",
+        body: "Colmar pour Fribourg-en-Brisgau (Allemagne) : 40 km, 35–45 min par l'A35. Accès Bâle-Mulhouse (Suisse) : 70 km, 50–65 min. Strasbourg pour la Bade-Wurtemberg : Kehl est à 2 km, Karlsruhe à 80 km, Fribourg à 75 km. L'accès à Bâle est nettement meilleur depuis Colmar ou Mulhouse que depuis Strasbourg (100 km). En revanche, pour les frontaliers travaillant à Kehl, Baden-Baden ou Karlsruhe, Strasbourg est idéal. La question clé : quel pôle d'emploi transfrontalier ciblez-vous ?",
+      },
+      {
+        heading: "Charme, culture et vie quotidienne",
+        body: "Colmar est souvent classée parmi les plus belles villes de France : colombages du XVe–XVIIe, canaux, rues médiévales. 2 millions de visiteurs par an — ce tourisme crée une animation mais aussi des inconvénients (prix des commerces, nuisances haute saison). Strasbourg a aussi une vieille ville exceptionnelle (Petite France, cathédrale Notre-Dame), une vie culturelle très dense (Opéra du Rhin, Philharmonie, Musées de Strasbourg), et une ambiance euro-cosmopolite. Colmar = village de carte postale à grande échelle. Strasbourg = vraie grande ville européenne.",
+      },
+      {
+        heading: "Transports : Strasbourg bien connectée, Colmar en satellite",
+        body: "Strasbourg : TGV Paris en 1h48 direct — l'une des meilleures connexions de province. Eurostar Strasbourg–Londres (via Paris). Tramway 6 lignes (réseau exceptionnel pour une ville de cette taille). Colmar : TER Strasbourg–Colmar en 25 min, TGV Paris en 2h20 (via Strasbourg ou avec changement Mulhouse). Pas d'autoroute directe Colmar–Paris. Pour les déplacements fréquents vers Paris ou l'international, Strasbourg est incomparable. Colmar + TER Strasbourg = solution acceptable si vous acceptez de dépendre du train régional.",
+      },
+    ],
+    relatedCities: ["strasbourg", "colmar", "mulhouse", "metz", "belfort"],
+    relatedGuides: [
+      "acheter-a-colmar-quel-quartier-budget-2026",
+      "acheter-a-strasbourg-quel-quartier-budget-2026",
+      "quitter-colmar-guide-2026",
+    ],
+    tags: ["Strasbourg vs Colmar 2026", "Strasbourg ou Colmar s'installer", "comparatif Strasbourg Colmar immobilier emploi", "vivre Alsace Strasbourg Colmar", "frontalier Alsace Bâle Fribourg"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
