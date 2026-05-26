@@ -20957,6 +20957,276 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["médecin infirmier quelle ville France 2026", "déserts médicaux France installation 2026", "professions santé meilleure ville France", "médecin libéral installation aide France 2026", "infirmier libéral quelle ville France 2026"],
   },
+  {
+    slug: "quitter-aix-en-provence-guide-2026",
+    title: "Quitter Aix-en-Provence en 2026 : où aller quand Provence devient trop chère",
+    metaTitle: "Quitter Aix-en-Provence 2026 — les alternatives quand Aix n'est plus accessible",
+    metaDesc: "Aix-en-Provence à 5 000 €/m² et des loyers qui dépassent Lyon : qui part, où va-t-on, et quelles alternatives provençales ou occitanes permettent de garder le soleil sans le prix ?",
+    category: "comparaison",
+    emoji: "🌿",
+    readMinutes: 10,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Aix-en-Provence est devenue en une décennie l'une des villes françaises les plus chères hors Paris et Côte d'Azur : loyers T2 à 1 100–1 500 €/mois, achats à 4 500–6 000 €/m², et une pression démographique qui ne faiblit pas (retraités aisés des grandes métropoles, Parisiens qui « descendent au soleil »). Pour ceux qui y vivent déjà et y ont vu leur loyer bondir à chaque renouvellement, ou qui n'ont jamais pu y acheter malgré des revenus corrects, la question se pose : où aller, pour gagner quoi, en perdant quoi ?",
+    sections: [
+      {
+        heading: "Qui quitte Aix et pourquoi",
+        body: "Les profils qui envisagent de quitter Aix sont typiquement : les locataires dont le loyer a été augmenté lors du renouvellement (la ville n'est pas en zone d'encadrement des loyers stricte), les primo-accédants qui n'ont pas réussi à acheter malgré plusieurs années de tentatives, les retraités qui ont vendu leur maison et cherchent à réinvestir avec un reste à vivre confortable, et les télétravailleurs qui n'ont plus de contrainte géographique. Le facteur commun est le prix : Aix est perçue comme « trop chère pour ce qu'on y obtient concrètement » — sans la plage à portée (la mer est à 25 min de Marseille, pas d'Aix), sans le dynamisme économique de Lyon, sans le rayonnement culturel de Paris.",
+      },
+      {
+        heading: "Avignon : la Provence authentique moins chère",
+        body: "Avignon est à 80 km au nord d'Aix, 40 minutes de TGV. Les prix immobiliers y sont 30–40 % inférieurs : 2 500–3 800 €/m² en intra-muros (les remparts UNESCO), 1 800–2 500 €/m² dans les quartiers résidentiels. Les loyers T2 : 650–950 €/mois. Avignon a un festival culturel mondial (le Festival de théâtre de juillet), un marché couvert des Halles excellent, et une position stratégique entre Marseille (1h TGV), Lyon (40 min TGV) et Montpellier (1h voiture). La contrepartie : la ville a des quartiers contrastés (la rive droite du Rhône, Villeneuve-lès-Avignon, est beaucoup plus agréable que certains quartiers intra-muros nord), et le marché de l'emploi local est modeste.",
+      },
+      {
+        heading: "Arles : le pari de la valeur",
+        body: "Arles est à 60 km d'Aix (50 minutes par la N113 ou A7). Les prix : 2 000–3 000 €/m² en plein centre historique. La ville bénéficie depuis 2021 du rayonnement de LUMA Arles (Frank Gehry), ce qui attire une clientèle culturelle qui fait monter les prix des quartiers proches mais laisse d'autres secteurs très accessibles. Pour quelqu'un qui vend un T3 à Aix à 350 000 €, il peut racheter une maison avec jardin à Arles pour 200 000 € et placer la différence. Le Camargue à portée de vélo, Marseille à 90 km, Montpellier à 70 km : la géographie reste favorable.",
+      },
+      {
+        heading: "Toulon : la mer et le soleil à un prix raisonnable",
+        body: "Toulon est à 60 km au sud-est d'Aix (55 minutes par l'A51 puis l'A8). Les prix y sont 30–40 % inférieurs à Aix pour un ensoleillement équivalent (Toulon est même légèrement plus ensoleillé). T2 à 700–950 €/mois de loyer, achat à 2 200–3 500 €/m² selon quartier. Le Mourillon (face à la petite mer, pins maritimes, promenade) est l'un des cadres de vie les plus agréables de PACA pour un prix qui reste abordable. Toulon a un port militaire actif, ce qui lui confère une image peu glamour — mais ceux qui y habitent apprécient justement que ce ne soit pas une station balnéaire saturée de touristes.",
+      },
+      {
+        heading: "Nîmes : l'Occitanie méditerranéenne oubliée",
+        body: "Nîmes est à 90 km d'Aix (1h10 par l'A54). Le marché immobilier y est nettement moins cher : 1 800–2 600 €/m² en centre-ville. Nîmes bénéficie du même ensoleillement que Montpellier (2 200+ heures/an), a les Arènes romaines, un festival tauromachique qui structure le calendrier culturel, et un accès TGV vers Paris (2h40) et Montpellier (30 min). Pour des profils qui se moquent de l'image (Nîmes est moins « chic » qu'Aix dans la hiérarchie implicite provençale), le rapport qualité/prix est exceptionnel.",
+      },
+      {
+        heading: "La question du réseau : qu'est-ce qu'on abandonne vraiment ?",
+        body: "Quitter Aix, c'est souvent couper des relations professionnelles, sociales, scolaires qui sont ancrées dans la ville. Les enfants changent d'école, le médecin traitant change, le réseau professionnel aussi. Pour les télétravailleurs, l'impact réseau est moindre. Pour les professions libérales (avocats, architectes, médecins avec une patientèle aixoise), la décision est plus complexe et nécessite souvent 1–2 ans de transition. La règle pratique des personnes qui ont réussi leur départ d'Aix : maintenir 1–2 jours de présence physique à Aix pendant 12–18 mois après le déménagement, puis laisser le réseau se réorienter naturellement vers la nouvelle ville.",
+      },
+    ],
+    relatedCities: ["aix-en-provence", "avignon", "arles", "toulon", "nimes"],
+    relatedGuides: [
+      "aix-en-provence-vs-marseille-comparatif-2026",
+      "acheter-a-avignon-quel-quartier-budget-2026",
+      "acheter-a-nimes-quel-quartier-budget-2026",
+    ],
+    tags: ["quitter Aix-en-Provence 2026", "alternatives Aix-en-Provence moins chère", "où partir depuis Aix-en-Provence 2026", "immobilier Aix trop cher alternatives", "partir Provence budget 2026"],
+  },
+  {
+    slug: "villes-françaises-qui-perdent-habitants-2026",
+    title: "Les villes françaises qui perdent des habitants en 2026 — comprendre et décider",
+    metaTitle: "Villes françaises en déclin démographique 2026 — quelles villes perdent des habitants",
+    metaDesc: "Quelles villes françaises perdent le plus d'habitants en 2026 ? Déclin démographique : causes, conséquences sur l'immobilier et les services, et pourquoi certaines méritent quand même d'être considérées.",
+    category: "lifestyle",
+    emoji: "📉",
+    readMinutes: 11,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Le déclin démographique d'une ville n'est pas automatiquement un signal de fuite. Il peut signifier une opportunité d'achat immobilier à prix bas, un calme préservé, et parfois une reconversion culturelle en cours. Mais il peut aussi signaler une spirale de dégradation des services : fermetures de commerces, hôpitaux sous tension, départs des classes moyennes. Ce guide distingue les deux, à partir des données INSEE 2020–2026.",
+    sections: [
+      {
+        heading: "Les grandes villes qui stagnent ou reculent",
+        body: "Saint-Étienne est le cas d'école français : la ville est passée de 220 000 habitants en 1975 à 174 000 aujourd'hui, soit une perte de 46 000 résidents en 50 ans. La cause : la désindustrialisation post-sidérurgie. Mais la chute s'est ralentie depuis 2015, et la ville investit (Cité du Design, Manufacture Plaine Achille, MAMC). Autre exemple : Mulhouse (106 000 habitants, -8 % depuis 2010), dont le déclin est lié à la crise du textile et de la chimie alsacienne. Ces villes perdent des habitants mais restent fonctionnelles — les services y sont présents, même si l'attractivité globale reste faible.",
+      },
+      {
+        heading: "La « diagonale du vide » : les villes rurales en difficulté",
+        body: "La diagonale qui va du Nord-Est (Ardennes, Meuse) au Sud-Ouest (Lot, Cantal, Creuse) concentre les communes qui perdent le plus de population en proportion. Des sous-préfectures comme Guéret (-12 % depuis 2010), Aurillac (-8 %), Épinal (-9 %), Chaumont (-11 %) cumulent : fermetures de services publics (perceptions, tribunaux d'instance), déserts médicaux, vitrines fermées en centre-ville, marchés hebdomadaires qui perdent leurs exposants. Pour un acheteur, les prix semblent irréels (maisons à 60 000–100 000 €), mais la revente dans 10–15 ans est le vrai risque : qui rachètera si la population continue de baisser ?",
+      },
+      {
+        heading: "Pourquoi certaines villes en déclin valent quand même le coup",
+        body: "Le déclin n'est pas monolithique. Limoges perd légèrement des habitants mais maintient des infrastructures solides (CHU, université, équipements culturels). Périgueux stagne mais reste une préfecture avec des services stables. La règle : une ville en déclin léger (<-2 % sur 5 ans) avec un statut de préfecture ou sous-préfecture avec CHU mérite d'être considérée — les services publics y sont garantis par statut administratif, indépendamment de la démographie commerciale. Une ville en déclin fort (>-5 % sur 5 ans) hors préfecture est plus risquée.",
+      },
+      {
+        heading: "Les villes en déclin qui se transforment",
+        body: "Certaines villes en déclin démographique connaissent une reconversion culturelle ou économique qui change la trajectoire. Épinal (Vosges, -9 %) a développé une scène image (le musée de l'Image, l'Imagerie d'Épinal) et attire des artistes. Longwy (Meurthe-et-Moselle, -15 % depuis 1990) profite de la proximité luxembourgeoise pour une reconversion économique partielle. Florange (Moselle) et Hayange ont souffert de la fermeture des hauts fourneaux ArcelorMittal mais ont bénéficié de fonds de redynamisation. Ces reconversions sont réelles mais longues — un délai de 10–15 ans avant que l'immobilier suive est fréquent.",
+      },
+      {
+        heading: "L'immobilier en déclin : risque et opportunité",
+        body: "Dans une ville en déclin, l'immobilier offre des rendements bruts élevés (8–12 %) parce que les prix sont bas. Mais le rendement net est souvent plus faible qu'il n'y paraît : la vacance locative est élevée (pas de demande solvable), les travaux sont fréquents (bâti ancien mal entretenu), et la revente en 10–15 ans peut se faire en perte. L'exception : les biens proches d'un hôpital, d'une université, ou d'une MSP en zone de désert médical — ces biens ont une clientèle locative captive (soignants, étudiants) qui neutralise partiellement le risque de vacance.",
+      },
+      {
+        heading: "Le signal positif : les villes qui se retournent",
+        body: "À l'inverse, certaines villes ont inversé leur tendance démographique après des années de déclin. Saint-Étienne enregistre de petites progressions depuis 2022 grâce à l'attractivité des prix et aux investisseurs. Mulhouse stabilise sa population. Épinay-sur-Seine (Seine-Saint-Denis) et d'autres communes de la diagonale francilienne défavorisée progressent sous l'effet des prix bas et de la proximité Paris. Ces retournements sont précieux pour l'acheteur qui voit juste tôt — mais ils se confirment dans les données INSEE avec 3–5 ans de décalage, ce qui rend difficile le timing.",
+      },
+    ],
+    relatedCities: ["saint-etienne", "mulhouse", "limoges", "gueret", "aurillac"],
+    relatedGuides: [
+      "quitter-saint-etienne-guide-2026",
+      "acheter-moins-200000-euros-france-2026",
+      "acheter-a-limoges-quel-quartier-budget-2026",
+    ],
+    tags: ["villes françaises qui perdent habitants 2026", "déclin démographique France villes", "immobilier villes en déclin France", "Saint-Étienne Mulhouse Limoges déclin", "acheter dans une ville en déclin France"],
+  },
+  {
+    slug: "deserts-medicaux-france-villes-eviter-2026",
+    title: "Déserts médicaux en France 2026 : ce que ça change concrètement pour choisir sa ville",
+    metaTitle: "Déserts médicaux France 2026 — zones sous-dotées, comment choisir sa ville",
+    metaDesc: "Déserts médicaux en France : cartographie 2026 par département, impact sur la qualité de vie, et comment éviter de vous installer dans une zone où trouver un médecin prend 6 mois.",
+    category: "lifestyle",
+    emoji: "🏥",
+    readMinutes: 10,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "La question du médecin traitant est passée d'un détail administratif à un critère de choix de ville majeur pour beaucoup de Français. En 2026, 6 millions de personnes n'ont pas de médecin traitant, les déserts médicaux couvrent une part croissante du territoire rural, et même certaines villes moyennes souffrent de pénuries de spécialistes. Ce guide explique comment évaluer le risque médical d'une ville avant de s'y installer.",
+    sections: [
+      {
+        heading: "Comment mesurer l'accès aux soins d'une ville",
+        body: "L'indicateur officiel est l'APL (Accessibilité Potentielle Localisée), calculé par la DREES. Il mesure le nombre de consultations de médecins généralistes disponibles par an pour 1 000 habitants dans un rayon de 20 minutes. Une APL > 3 est considérée comme normale ; une APL < 2,5 signale une zone sous-dotée ; une APL < 1,5 est un désert médical avéré. En 2026, environ 30 % de la population vit dans une commune sous-dotée ou désert médical selon les seuils de l'INSEE. Les zones les plus touchées : la Creuse (APL moyenne 1,3), la Nièvre (1,2), le Cher (1,4), les Ardennes (1,3), la Haute-Vienne hors Limoges (1,4).",
+      },
+      {
+        heading: "Les villes et zones à risque élevé",
+        body: "Paradoxalement, certaines villes moyennes sont plus en difficulté que des zones rurales, parce que leurs médecins partent à la retraite sans successeur. **Guéret** (Creuse) : les difficultés à trouver un médecin traitant sont documentées — délai moyen de 6–9 mois selon Ameli.fr. **Châteauroux** (Indre) : le Centre Hospitalier est sous tension, et la densité médicale libérale est parmi les plus faibles de la région Centre-Val de Loire. **Vierzon** (Cher) : la ville a connu la fermeture de plusieurs cabinets en 2022–2024. **Maubeuge** (Nord) : densité médicale critique dans le bassin industriel nordiste post-sidérurgie.",
+      },
+      {
+        heading: "Les grandes villes universitaires : pas toutes égales",
+        body: "Une grande ville avec une faculté de médecine n'est pas une garantie d'accès facile. À Paris, Bordeaux, Lyon et Nantes, les délais pour les spécialistes atteignent 4–6 mois pour certaines disciplines (ophtalmologie, dermatologie, gynécologie), même avec un médecin traitant. Les villes universitaires moins peuplées avec une faculté de médecine ont souvent une meilleure densité : **Poitiers** (CHU + UFR de médecine, bonne APL), **Limoges** (CHU + UFR médicale, APL correcte dans la ville même), **Reims** (faculté de médecine et de pharmacie, densité convenable). Le CHU est la variable clé : là où il est, les spécialités existent — même si les délais restent présents.",
+      },
+      {
+        heading: "Ce que vous pouvez vérifier avant d'acheter",
+        body: "Trois vérifications pratiques avant de signer un compromis dans une nouvelle ville : (1) Chercher sur **Doctolib** s'il y a des médecins généralistes qui acceptent de nouveaux patients dans un rayon de 5 km. Zéro résultat sur Doctolib est un signal fort. (2) Consulter la carte des **Maisons de Santé Pluridisciplinaires** (MSP) sur le site du Ministère de la Santé — une MSP à 2 km est une bonne garantie d'accès aux soins. (3) Vérifier le **score APL sur geoportail.fr** (carte Santé > Accessibilité Potentielle Localisée). Un APL < 2 est un risque concret, surtout si vous avez une pathologie chronique nécessitant un suivi régulier.",
+      },
+      {
+        heading: "Les solutions qui existent dans les zones sous-dotées",
+        body: "Si vous êtes déjà en zone sous-dotée ou si vous envisagez d'y aller malgré le risque médical : (1) Les **CPTS** (Communautés Professionnelles Territoriales de Santé) organisent l'accès aux soins dans les zones rurales — renseignez-vous auprès de la CPAM locale si une CPTS couvre votre zone. (2) Les **médecins salariés des collectivités** (centres de santé municipaux) existent dans certaines communes et offrent un accès garanti. (3) La **téléconsultation** (Doctolib, Livi, Medecin Direct) est une solution de complément utile pour les consultations non urgentes. (4) Les **urgences du SAMU** (15) restent disponibles partout — mais ce n'est pas une solution durable pour le suivi chronique.",
+      },
+      {
+        heading: "Santé et attractivité immobilière : le cercle vertueux / vicieux",
+        body: "L'accès aux soins crée une corrélation directe avec l'attractivité immobilière : les villes bien dotées médicalement attirent des retraités et des familles, ce qui maintient la valeur de l'immobilier. Les déserts médicaux repoussent précisément ces profils, ce qui accentue le déclin démographique et rend le désert médical encore plus profond. Ce cercle vicieux est documenté dans plusieurs rapports de la DREES. Pour un investisseur, la carte médicale est donc aussi un indicateur de solidité du marché immobilier à 10–15 ans.",
+      },
+    ],
+    relatedCities: ["limoges", "poitiers", "reims", "gueret", "clermont-ferrand"],
+    relatedGuides: [
+      "professions-sante-infirmier-medecin-quelle-ville-2026",
+      "meilleures-villes-sante-hopital-medecins-france-2025",
+      "acheter-a-limoges-quel-quartier-budget-2026",
+    ],
+    tags: ["déserts médicaux France 2026", "accès soins villes France", "médecin traitant trouver France 2026", "zone sous-dotée médicalement France", "choisir ville accès santé France 2026"],
+  },
+  {
+    slug: "immobilier-sous-cote-france-2026-villes",
+    title: "Les villes françaises immobilièrement sous-cotées en 2026 — le guide honnête",
+    metaTitle: "Immobilier sous-coté France 2026 — villes oubliées avec bon ratio qualité/prix",
+    metaDesc: "Quelles villes françaises offrent le meilleur rapport qualité de vie / prix immobilier en 2026 ? Le guide des marchés sous-cotés qui n'ont pas encore rattrapé leur retard.",
+    category: "budget",
+    emoji: "💎",
+    readMinutes: 11,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Après 15 ans de montée des prix dans les grandes métropoles et les villes de bord de mer, certains marchés immobiliers français restent à la traîne — non pas parce qu'ils manquent de qualité de vie, mais parce qu'ils souffrent d'un déficit d'image, d'une communication insuffisante sur leurs atouts, ou simplement du fait d'être éclipsés par une grande voisine plus connue. Ce guide identifie les marchés qui n'ont pas encore rattrapé leur retard.",
+    sections: [
+      {
+        heading: "Qu'est-ce qu'un marché sous-coté ?",
+        body: "Un marché sous-coté est un marché où le ratio qualité de vie / prix de l'immobilier est significativement meilleur que dans des villes comparables. La sous-cotation peut avoir plusieurs origines : image négative injustifiée (Saint-Étienne a plus à offrir que sa réputation), situation de doublure d'une grande ville (Orléans dans l'ombre de Paris, Dijon dans l'ombre de Lyon), infrastructure récente qui n'a pas encore été intégrée dans les prix (ligne TGV inaugurée il y a 3 ans, nouveau campus universitaire). Le signe le plus sûr d'un marché sous-coté : des cadres supérieurs qui y vivent et n'en parlent pas trop fort.",
+      },
+      {
+        heading: "Dijon : sous-estimée, pas déclinante",
+        body: "Dijon est régulièrement identifiée comme l'une des villes françaises au meilleur rapport qualité/prix par les analystes immobiliers sérieux. Le marché oscille autour de 2 500–3 200 €/m² en centre-ville — 30 % moins qu'à Lyon pour une qualité de vie qui n'en est pas si éloignée (gastronomie, culture, université, CHU, TGV Paris en 1h30). La ville attire des Parisiens qui achètent une résidence principale et des Lyonnais qui veulent plus d'espace. Signe de sous-cotation avancée : des pressions haussières perceptibles depuis 2023, mais qui restent mesurées.",
+      },
+      {
+        heading: "Clermont-Ferrand : le paradoxe du chef-lieu auvergnat",
+        body: "Clermont-Ferrand a une image de ville industrielle grise (le siège de Michelin) qui masque une réalité plus intéressante : l'université Blaise Pascal est dynamique, les Volcans d'Auvergne (terrain de jeu sportif exceptionnel) sont à 20 minutes, Lyon est à 1h30 de TGV, et les prix immobiliers restent à 1 800–2 600 €/m². Le marché a progressé de 15 % depuis 2020 mais reste très en dessous des métropoles comparables en qualité de vie. Le profil typique de l'acheteur sous-cotation Clermont : le professionnel de santé venant d'une grande ville qui veut une maison avec jardin et un accès ski.",
+      },
+      {
+        heading: "Amiens : la grande inconnue à 1h05 de Paris",
+        body: "Amiens cumule des atouts qui ne sont pas dans la conversation nationale : la cathédrale gothique la plus grande de France, les hortillonnages (jardin flottant, biodiversité), le TGV Paris-Nord en 1h05, et un prix immobilier à 1 800–2 600 €/m². La ville est mal connue des Parisiens qui se focalisent sur la banlieue ou sur des villes mieux médiatisées (Nantes, Bordeaux, Lyon). C'est précisément pourquoi c'est un marché sous-coté : l'offre est abondante, la demande modérée, et les prix progressent lentement. Pour un navetteur qui veut une maison avec jardin à 20 minutes du TGV Paris, l'arbitrage Amiens est parmi les meilleurs de France.",
+      },
+      {
+        heading: "Limoges : la capitale du prix bas",
+        body: "Limoges est probablement le marché le plus sous-coté de France dans sa catégorie (ville de 130 000+ habitants avec CHU et université) : 1 100–1 700 €/m² pour des appartements corrects, maisons avec jardin à 130 000–180 000 €. La sous-cotation est structurelle (démographie plate, image terne) mais les fondamentaux sont là : CHU, université, équipements culturels, infrastructure de service fonctionnelle. Pour un acheteur qui se fiche de l'image et veut maximiser son pouvoir d'achat immobilier, Limoges est difficile à battre.",
+      },
+      {
+        heading: "Valence (Drôme) : la transition Provence",
+        body: "Valence est peut-être le marché sous-coté le plus intéressant du couloir Rhône-Méditerranée : 1 900–2 600 €/m² pour une ville à 35 minutes de TGV de Lyon, 1h de Marseille, et avec un ensoleillement de 2 200 heures/an qui se rapproche du méditerranéen. Le marché a progressé de 18 % entre 2020 et 2024 mais reste bien en dessous de Grenoble ou Montpellier. Le signal de sous-cotation : les acheteurs qui ont fait le calcul Valence vs Grenoble (même TGV, même soleil, 40 % moins cher) et n'ont pas encore répandu le secret.",
+      },
+    ],
+    relatedCities: ["dijon", "clermont-ferrand", "amiens", "limoges", "valence"],
+    relatedGuides: [
+      "acheter-a-dijon-quel-quartier-budget-2026",
+      "acheter-a-amiens-quel-quartier-budget-2026",
+      "acheter-a-limoges-quel-quartier-budget-2026",
+    ],
+    tags: ["immobilier sous-coté France 2026", "meilleures villes rapport qualité prix immobilier", "villes oubliées France immobilier 2026", "marché immobilier sous-évalué France", "où acheter en France bon rapport qualité prix"],
+  },
+  {
+    slug: "nouvelles-villes-montantes-france-2026",
+    title: "Les nouvelles villes qui montent en France en 2026 — émergence et trajectoires",
+    metaTitle: "Villes françaises montantes 2026 — émergence, trajectoires et opportunités",
+    metaDesc: "Quelles villes françaises gagnent en attractivité en 2026 ? Émergence post-Covid, télétravail, réurbanisation des villes moyennes — les marchés en train de se retourner.",
+    category: "lifestyle",
+    emoji: "🚀",
+    readMinutes: 10,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "L'attractivité des villes françaises n'est pas figée. Certains marchés qui semblaient condamnés il y a 10 ans sont en train de se retourner sous l'effet du télétravail, de la montée des préférences pour le cadre de vie, et d'investissements publics et culturels qui changent l'image. Ce guide identifie les villes dont la trajectoire est clairement ascendante en 2026.",
+    sections: [
+      {
+        heading: "Le phénomène post-Covid : vers les villes moyennes",
+        body: "La période 2020–2026 a conforté une tendance qui s'esquissait déjà : la montée en attractivité des villes moyennes françaises (30 000–150 000 habitants) au détriment des grandes métropoles saturées. Les données INSEE sur les flux migratoires montrent des gains nets pour des villes comme Angers, Tours, Dijon, Bayonne, Pau, La Rochelle, et Vannes. Ces gains sont alimentés par des Parisiens, Lyonnais et Bordelais qui cherchent plus d'espace, moins de bruit, et des prix abordables — une tendance que le déploiement du télétravail hybride (2–3 jours au bureau/semaine) a rendu structurellement possible.",
+      },
+      {
+        heading: "Angers : la ville qui fait le consensus",
+        body: "Angers est régulièrement citée parmi les villes françaises les plus attractives depuis 2019 : qualité de vie élevée, réseau de tram, universités dynamiques, Loire à vélo accessible, TGV Paris en 1h30. Le marché immobilier a progressé de 25 % depuis 2020 (2 800–3 500 €/m² aujourd'hui) mais reste significativement sous Nantes. La ville attire maintenant des Nantais qui arbitrent qualité de vie vs prix. La trajectoire semble durable : les investissements en infrastructure urbaine se poursuivent, et la démographie reste positive.",
+      },
+      {
+        heading: "Troyes : la surprise champenoise",
+        body: "Troyes est l'exemple le plus commenté dans les cercles immobiliers depuis 2022 : à 1h30 de Paris-Est (ligne classique, pas TGV), avec un centre médiéval intact (plus de maisons à colombages que Strasbourg), et des prix qui oscillaient entre 1 500 et 2 200 €/m² jusqu'en 2022. Le profil qui a découvert Troyes en premier : les télétravailleurs parisiens avec 2 jours de présence physique/semaine. La montée des prix est réelle (15–20 % depuis 2021) mais les prix restent très inférieurs à ce qu'ils seront dans 5–7 ans si la tendance se confirme. Risque : l'attractivité dépend du maintien du télétravail hybride.",
+      },
+      {
+        heading: "Bayonne : la montée du Pays Basque",
+        body: "Bayonne et la côte basque ont connu une hausse de prix spectaculaire depuis 2019 (+30–35 %), alimentée par une demande nationale et internationale. La ville continue de gagner des habitants malgré les prix qui augmentent — signe que l'attractivité est robuste. Le surf, les Pyrénées à portée, l'identité basque forte, et la gastronomie (Bayonne jambon, chocolat) continuent d'attirer. La trajectoire est confirmée mais les prix ont déjà beaucoup monté — la fenêtre d'achat sous-coté est passée.",
+      },
+      {
+        heading: "Fréjus–Saint-Raphaël : la Méditerranée accessible",
+        body: "Fréjus et Saint-Raphaël (Var) ont émergé comme des alternatives à Nice et Cannes pour les retraités et les télétravailleurs : même soleil, plages de sable (rares sur la Côte d'Azur), prix inférieurs de 40–50 % à Cannes (2 500–4 000 €/m² vs 5 000–8 000 €/m²). La gare TGV de Saint-Raphaël (ligne Marseille-Nice) est accessible, l'aéroport de Nice à 50 km. La montée des prix est visible (+20 % depuis 2020) mais reste partielle. Risque : la zone est sensible aux feux de forêt (les incendies de l'Estérel récurrents).",
+      },
+      {
+        heading: "Le signal à surveiller : l'investissement culturel et éducatif",
+        body: "L'expérience de Dunkerque (Dunkerque 2013 capitale culturelle, FRAC Grand Large ouvert en 2015, trajectoire démographique inversée depuis) ou de Lens (Louvre-Lens ouvert en 2012, gentrification mesurée du centre) montre que l'investissement culturel annonce souvent une montée en attractivité. En 2026, les villes à surveiller pour ce signal : Épinal (musée de l'Image), Saint-Étienne (MAMC + Cité du Design), Arles (LUMA). Ces signaux mettent 5–10 ans à se traduire en prix immobiliers — d'où l'intérêt d'entrer tôt.",
+      },
+    ],
+    relatedCities: ["angers", "troyes", "bayonne", "frejus", "saint-raphael"],
+    relatedGuides: [
+      "acheter-a-angers-quel-quartier-budget-2026",
+      "acheter-a-bayonne-quel-quartier-budget-2026",
+      "acheter-immobilier-france-meilleures-villes-2025",
+    ],
+    tags: ["villes montantes France 2026", "villes françaises attractivité 2026", "immobilier villes émergentes France", "télétravail villes moyennes France 2026", "investissement immobilier villes montantes France"],
+  },
+  {
+    slug: "tgv-paris-accessibilite-villes-2026",
+    title: "Accessibilité TGV depuis Paris en 2026 : le guide pour choisir sa ville",
+    metaTitle: "TGV Paris vers les villes françaises 2026 — temps de trajet, coût, fréquence",
+    metaDesc: "Temps de trajet TGV depuis Paris vers les principales villes françaises en 2026. Fréquences, coût de l'abonnement, gares secondaires : le guide pratique pour le navetteur et le choisisseur de ville.",
+    category: "teletravail",
+    emoji: "🚄",
+    readMinutes: 10,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Le choix d'une ville en dehors de Paris est fortement conditionné par l'accessibilité ferroviaire : combien de temps pour aller au bureau, combien de fois par semaine, à quel coût ? Ce guide synthétise les données réelles des trajets TGV ou grandes lignes depuis Paris, avec les nuances qui font la différence entre 1h05 confortable et 1h30 pénible.",
+    sections: [
+      {
+        heading: "Les villes à moins de 1h30 : le cercle idéal du navetteur",
+        body: "**Orléans** : 1h05 (Intercités depuis Paris-Austerlitz — attention, pas un TGV classique, la ligne est ancienne). **Le Mans** : 55 minutes depuis Paris-Montparnasse (TGV). **Reims** : 45 minutes depuis Paris-Est (TGV Champagne). **Tours** : 1h05 depuis Paris-Montparnasse (TGV). **Rouen** : 1h10-1h25 depuis Paris-Saint-Lazare (Intercités — ligne non TGV, susceptible de perturbations). **Amiens** : 1h05-1h25 depuis Paris-Nord (TGV Amélie parfois, Intercités souvent — vérifier votre train). **Chartres** : 1h depuis Paris-Montparnasse (TER/Intercités — non TGV mais fréquent). Ces villes permettent 1–2 jours de présence physique à Paris par semaine sans nuit hôtel.",
+      },
+      {
+        heading: "Entre 1h30 et 2h : la zone hybride",
+        body: "**Nantes** : 2h10 depuis Paris-Montparnasse (TGV — mais fréquent, nombreux départs). **Bordeaux** : 2h10 depuis Paris-Montparnasse (TGV depuis 2017 — révolution du marché bordelais). **Rennes** : 1h25-1h37 depuis Paris-Montparnasse (TGV Bretagne, depuis 2017). **Lyon** : 2h depuis Paris-Lyon (TGV, très fréquent). **Strasbourg** : 1h47 depuis Paris-Est (TGV Rhin-Rhône, fréquent). **Dijon** : 1h30-1h40 depuis Paris-Lyon (TGV). **Lille** : 1h depuis Paris-Nord (TGV Eurostar/Thalys). À ces distances, le navetteur 2–3 jours/semaine est faisable mais fatiguant sur la durée.",
+      },
+      {
+        heading: "Entre 2h et 3h : la limite du confort",
+        body: "**Montpellier** : 3h20 depuis Paris-Lyon (TGV via Marseille) ou 3h00 (LGV directe en heure de pointe). **Marseille** : 3h20 depuis Paris-Lyon (TGV). **Nice** : 5h40 depuis Paris-Lyon (TGV + ligne classique Marseille-Nice — c'est le temps réel, pas une typo). **Toulouse** : 4h05 depuis Paris-Montparnasse (pas de LGV directe en 2026 — la ligne Bordeaux-Toulouse-Narbonne n'est pas encore TGV, attendue autour de 2030). **Brest** : 3h55 depuis Paris-Montparnasse. **Grenoble** : 3h depuis Paris-Lyon. Au-delà de 2h30, la présence hebdomadaire à Paris est difficile à maintenir sur la durée — la fatigue s'accumule.",
+      },
+      {
+        heading: "Le coût de l'abonnement : ce que ça coûte vraiment",
+        body: "L'abonnement mensuel TGV (tarif Pro ou Avantage Famille) varie considérablement : Paris-Le Mans (~250–310 €/mois pour 4 A/R), Paris-Tours (~280–340 €/mois), Paris-Reims (~220–280 €/mois), Paris-Lyon (~350–450 €/mois pour 4 A/R), Paris-Nantes (~380–480 €/mois), Paris-Bordeaux (~390–500 €/mois). Ces chiffres supposent 4 A/R par mois (2 jours/semaine de présence à Paris). L'économie sur le logement par rapport à la région parisienne est souvent de 600–1 500 €/mois selon la ville choisie — l'abonnement est quasi-systématiquement amorti.",
+      },
+      {
+        heading: "Les nuances que les tableaux ne montrent pas",
+        body: "Le temps officiel ne dit pas tout : (1) La fréquence des trains. Orléans : 2 trains/heure depuis Paris-Austerlitz. Brest : 4–6 trains/jour depuis Paris-Montparnasse. Cette différence change tout si vous avez un imprévu. (2) La gare de départ à Paris. Les TGV partent de Montparnasse, Lyon, Est, Nord ou Austerlitz selon la destination — le coût en temps depuis votre bureau parisien peut ajouter 20–30 minutes. (3) La ponctualité. Les Intercités (Orleans-Paris, Rouen-Paris) ont des taux de ponctualité inférieurs aux TGV (85–88 % vs 92–95 %). (4) La gare d'arrivée dans la ville de destination. Certaines villes ont une gare TGV excentrée (Avignon TGV est à 5 km du centre, Valence TGV à 10 km, Massy-Palaiseau pour Paris-sud) qui ajoute un trajet.",
+      },
+      {
+        heading: "Le calcul complet : ce que vous gagnez et ce que vous perdez",
+        body: "La décision de s'installer en dehors de Paris n'est pas un calcul uniquement financier. Ce qui est sous-estimé dans le calcul du navetteur : la fatigue accumulée sur 6–12 mois (les premières semaines semblent faciles, la fatigue arrive après), la perte de disponibilité pour les activités parisiennes spontanées (après-travail, dîners imprévus), et le coût psychologique de la transition si la ville choisie ne convient pas. Ce qui est surestimé : la difficulté de s'adapter à une ville moins grande (la plupart des navetteurs signalent une adaptation en 6–12 mois et un niveau de satisfaction supérieur à l'IDF après 2 ans). Les études de qualité de vie post-déménagement sont convergentes sur ce point.",
+      },
+    ],
+    relatedCities: ["le-mans", "tours", "rennes", "bordeaux", "lyon", "nantes", "strasbourg", "dijon"],
+    relatedGuides: [
+      "quitter-paris-guide-complet-2025",
+      "teletravail-villes-france-guide-2025",
+      "acheter-a-amiens-quel-quartier-budget-2026",
+    ],
+    tags: ["TGV Paris villes françaises temps trajet 2026", "navetteur Paris province TGV guide", "temps trajet Paris province train 2026", "s'installer en province navetteur Paris", "meilleure ville province navetteur Paris 2026"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
