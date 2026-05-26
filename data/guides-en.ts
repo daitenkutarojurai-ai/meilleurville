@@ -9491,6 +9491,186 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["paris", "lyon", "bordeaux", "toulouse", "montpellier"],
     tags: ["cost of living France 2026 expat", "monthly budget France expat Paris Lyon Bordeaux", "how much to live France 2026", "France living costs realistic budget expat", "Paris Lyon Bordeaux monthly expenses 2026"],
   },
+  {
+    slug: "marseille-for-expats-honest-guide-2026",
+    title: "Moving to Marseille: an honest expat guide (2026)",
+    metaTitle: "Moving to Marseille 2026: Honest Expat Guide — Neighbourhoods, Safety, Costs",
+    metaDesc: "Honest guide to moving to Marseille as an expat: which neighbourhoods work, what safety is actually like, costs, the cultural adjustment. 2026 reality check.",
+    category: "city-guide",
+    emoji: "⚓",
+    readMinutes: 10,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Marseille does not perform for new arrivals. It is raw, complex, sometimes chaotic, and genuinely demanding in a way that more immediately curated cities like Bordeaux or Montpellier are not. Expats who thrive in Marseille share certain characteristics: they chose it deliberately (not as a default), they invested in learning the city rather than expecting it to adapt to them, and they tolerate — often come to love — a cultural directness and disorder that other French cities sand down. This guide is for people seriously considering Marseille, not people hoping to be talked out of it.",
+    sections: [
+      {
+        heading: "Choosing your neighbourhood: this matters more here than anywhere",
+        body: "Marseille's arrondissement system runs from 1 to 16, but the lived experience varies so dramatically between areas that they might as well be different cities. The 8th arrondissement (Corniche Kennedy, Prado, Roucas Blanc) is Marseille's equivalent of a premium residential area — seafront access, large apartment buildings, safe, calmer. The 7th (Endoume, Vallon des Auffes) is the expat-favourite historic village district: small, rocky inlets, fishing-village feel within the city, house prices 20% above city average. The 13th and 9th (south side, Les Goudes, Callelongue, Redon) border the Calanques directly — wild, beautiful, but logistically demanding. Avoid the 14th and 15th arrondissements as a first base — these are the areas with documented crime issues. The 4th (La Plaine, Castellane) and 6th (Vauban) are bohemian, mixed, affordable, and have good café-culture — popular with younger expats. The 1st (Noailles, Cours Julien) is vivid and multicultural but dense — works best if you enjoy urban noise.",
+      },
+      {
+        heading: "Safety: the honest version",
+        body: "Marseille's homicide rate is statistically higher than the French national average, primarily due to gang violence concentrated in specific northern areas. Within the areas where expats typically live — 7th, 8th, 9th, 13th, 6th, parts of 4th — the realistic safety experience is comparable to any large southern European city. Petty theft (phone snatching on terrace, car break-ins, bag theft in crowds) requires the same precautions as Barcelona or Naples. The cultural directness of Marseillais can read as aggression to people from more reserved cultures — it generally is not. Hundreds of thousands of people live in Marseille their whole lives and are never involved in violent crime. The risk matrix is real but manageable with reasonable neighbourhood choice and normal urban awareness.",
+      },
+      {
+        heading: "Property market and costs",
+        body: "Marseille offers some of France's best value for money in a large city. Quality 8th arrondissement (seafront access, good condition): €3,500–5,000/m². 7th (Endoume): €3,000–4,500/m². 6th (Vauban, Baille): €2,500–3,500/m². 13th (residential south): €2,200–3,200/m². Outer residential (9th, 11th, 12th): €2,000–3,000/m². Monthly rents for 70m²: €750–1,100 for well-located apartments outside the premium seafront. The cost advantage over Nice (40% cheaper) and Montpellier (20% cheaper) is material and real. First-year expats are often surprised to find that Marseille's actual daily cost of living is lower than its southern French competitors — particularly for food (the Marché de Noailles, the Vieux Port fish market, the neighbourhood corner shops) and going out.",
+      },
+      {
+        heading: "The Calanques: Marseille's permanent competitive advantage",
+        body: "The Parc National des Calanques — 20km of protected limestone coastline with turquoise water and wild rocky coves — is accessible from the city centre by bus 21 (30min) or by bike (40min). It is open year-round (with seasonal entry restrictions to protect the ecosystem — booking required June–September). This proximity to UNESCO-listed wilderness is genuinely unique among major European cities. On a Tuesday morning in March, you can swim in the Calanque de Sormiou with nothing but the sound of waves. No other city of 870,000 people offers this. For expats who are serious about the outdoors — hiking, diving, climbing, sailing — this alone justifies the location.",
+      },
+      {
+        heading: "Cultural adjustment: what to expect",
+        body: "The Marseillais identity is strong, specific, and not shy about expressing itself. The city is proud of its difference from Paris and from the rest of France. The local accent is distinctive (Southern French, closer to Provençal than Parisian). Marseille is also one of France's most genuinely multicultural cities — North African, Comorian, Armenian, Italian, and Southeast Asian communities are not peripheral but central to the city's food, culture, and social texture. Expats who embrace this diversity and do not expect a sanitised 'French' experience adapt quickly. Those expecting the bourgeois comfort of Bordeaux or the tourist-polished aesthetics of Nice will have a harder time.",
+      },
+    ],
+    relatedCities: ["marseille", "aix-en-provence", "toulon", "nice", "arles"],
+    tags: ["moving to Marseille expat 2026", "Marseille expat guide honest safety", "Marseille neighbourhoods expat 2026", "living Marseille France cost property", "Marseille Calanques expat guide 2026"],
+  },
+  {
+    slug: "rennes-for-expats-guide-2026",
+    title: "Moving to Rennes: the expat guide (2026)",
+    metaTitle: "Moving to Rennes 2026: Expat Guide — Tech Jobs, Breton Life, Costs",
+    metaDesc: "Rennes for expats: the tech hub, Breton culture, property prices, English community, getting settled. Honest 2026 guide for anyone considering Rennes.",
+    category: "city-guide",
+    emoji: "🌊",
+    readMinutes: 8,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Rennes is one of France's most consistently underrated cities for expats. The capital of Brittany is a genuine tech hub with a serious English-speaking professional community, one of France's best transport connections to Paris (1h27 by TGV), a lively student culture (60,000 students, 30% of the city's population), and a quality of life that consistently ranks among France's top five. The Breton cultural identity — crêpes, fest-noz, Celtic music, a maritime relationship to the world — gives it a distinctiveness that more conventionally 'pretty' French cities often lack.",
+    sections: [
+      {
+        heading: "The tech and professional ecosystem",
+        body: "Rennes hosts one of France's most active French Tech ecosystems outside Paris and Lyon. Key employers: Capgemini (1,500+ employees), Atos, Orange (historic research centre in Cesson-Sévigné, 4km east), Thales, Nokia, Technicolor Creative Studios. The tech park Rennes Atalante (created 1984) was the first technology park in France — it anchors a cluster of 400+ tech companies and 12,000 tech jobs. The University of Rennes (bioscience and IT) and CentraleSupélec campus feed a strong engineering pipeline. For software engineers, data scientists, and cybersecurity professionals, Rennes offers a genuine career market outside Paris.",
+      },
+      {
+        heading: "Property and where to live",
+        body: "Rennes has seen sharp price rises since 2015 (the TGV effect was compounded by COVID-era demand for space). 2026 benchmarks: Centre-ville historic (half-timbered houses, Cathedral quarter): €3,800–5,500/m². Thabor and inner residential (north-east): €3,500–4,800/m². Beaulieu and Cesson-Sévigné (east, near Atalante tech park): €2,800–3,800/m². Villejean and outer west: €2,500–3,200/m². Monthly rent for 70m²: €900–1,300 depending on area. Rennes has also become attractive for people working in Paris (1h27 TGV) who want space — a significant segment of the buyer market. Best value for expats: Cesson-Sévigné (short cycle to Atalante, own town infrastructure, 10% cheaper than central Rennes).",
+      },
+      {
+        heading: "Brittany as a lifestyle: what it actually means",
+        body: "Living in Rennes is not the same as living on the Breton coast, but the coast is within reach: Saint-Malo is 55km (45min by TER), Mont Saint-Michel is 60km, Dinard is 60km. The outdoor culture is genuine: hiking the GR34 coastal path, sailing from Saint-Malo, cycling on the old railway lines converted to véloroutes. The food culture is built on crêperies (savoury galettes are a Thursday-night institution), Cancale oysters, Brittany cider, and a Saturday Halles Centrales market that is a genuine institution. The fest-noz (Breton folk dancing) has UNESCO status and participates actively in Rennes nightlife. The climate is Atlantic temperate — wetter and cooler than the Mediterranean south, but mild in winter.",
+      },
+      {
+        heading: "English-speaking community and integration",
+        body: "Rennes has a smaller but active English-speaking expat community — centred primarily around tech (Orange, Capgemini, Nokia have significant international staff), academia (University of Rennes has an active Erasmus programme), and the American and British retirees who chose Brittany for lifestyle reasons. The Rennes Expats Facebook group (4,000+ members) organises regular events. Breton culture is open and curious about outsiders — expats typically report faster community integration than in more Parisian-influenced cities. French fluency is less expected than in Paris but still helps significantly for administrative and daily life outside the tech campus.",
+      },
+      {
+        heading: "Practical considerations",
+        body: "Transport: Rennes has a metro (2 lines), bus network, and cycle infrastructure (Vélostar). The TGV to Paris (Montparnasse) runs ~40 times/day — one of the highest-frequency provincial TGV services. The planned LGV Rennes–Nantes (ongoing) will improve the southern connection. Air: Rennes Bretagne Airport serves mainly French domestic routes and some European destinations — for intercontinental travel, Paris CDG is typically the gateway. Healthcare: the CHU de Rennes is a serious university hospital with comprehensive specialist coverage. GP access requires patience as in all French cities — establish a médecin traitant early. The digital health platform Doctolib is widely used here.",
+      },
+    ],
+    relatedCities: ["rennes", "brest", "saint-malo", "nantes", "lorient"],
+    tags: ["moving to Rennes expat 2026", "Rennes expat guide English tech", "living Rennes France property prices", "Rennes Breton culture expat life", "Rennes tech hub Orange Capgemini expat"],
+  },
+  {
+    slug: "buying-vs-renting-france-expats-2026",
+    title: "Buying vs renting in France as an expat: what actually makes sense (2026)",
+    metaTitle: "Buying vs Renting in France for Expats 2026: Honest Analysis",
+    metaDesc: "Should expats buy or rent in France? Mortgage access for foreigners, transaction costs, price trajectories, break-even periods. Honest 2026 guide.",
+    category: "budget",
+    emoji: "🏡",
+    readMinutes: 8,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "The buying vs renting question in France is more nuanced for expats than for French nationals, because several structural factors — high transaction costs, mortgage access for non-residents, potential for international relocation, and French rental market specificities — change the calculus in important ways. This guide works through the key variables so you can make an informed decision for your specific situation.",
+    sections: [
+      {
+        heading: "The French transaction cost problem",
+        body: "The single most important factor in the France buy-vs-rent calculation is the transaction cost on purchase. When you buy in France, you pay: notary fees (7–8% of property price on old property, 2–3% on new-build), potential agency fees (3–6% if not buying direct), and potentially a broker's fee for your mortgage. On a €300,000 property, total purchase costs easily reach €320,000–330,000. This means you need significant capital appreciation or time in the property before the purchase becomes financially superior to renting. Rough break-even: in most French cities, buying makes financial sense from year 7–12 of residence. For expats on short mandates (2–4 years), renting is almost always the right choice on pure financial grounds.",
+      },
+      {
+        heading: "Can expats get a French mortgage?",
+        body: "Yes, with important caveats. EU nationals residing in France with stable employment (CDI — permanent contract) have access to standard French mortgage products from major banks. Non-EU nationals are generally eligible if legally resident with stable income. The limiting factor is often employment contract type: French banks strongly prefer CDI contracts over CDD (fixed term), freelance, or auto-entrepreneur status. For residents with CDI employment, French mortgage conditions in 2026 are: rates 3.5–4.5% (down from 2023 peak of 5%), loan terms up to 25 years, debt-to-income ratio maximum 35%. Non-resident foreign buyers can also access mortgages through specific 'non-resident' products, typically with higher deposit requirements (30–40% rather than 10–20%).",
+      },
+      {
+        heading: "The French rental market: better tenant protection than you think",
+        body: "French rental law strongly protects tenants. Key protections: leases for unfurnished flats are minimum 3-year terms (renewed automatically); landlords cannot terminate without specific cause (sale, personal use, or unpaid rent/serious breach). Furnished flats (meublé) have 1-year minimum leases (9 months for students). Rent increases are index-linked (IRL — Indice de Référence des Loyers). Deposit is capped at 1 month's rent for unfurnished, 2 months for furnished. The notice period for tenants is 1 month (furnished) or 3 months (unfurnished, reduced to 1 month in zones tendues — dense areas). French renting is substantially more tenant-friendly than in the UK or the US — this shifts the buy-vs-rent calculation somewhat toward renting.",
+      },
+      {
+        heading: "Price trajectories and the current market",
+        body: "French property prices peaked in 2022–2023 and have seen modest corrections of 5–10% in most cities as interest rates rose. In 2026, the market is stabilising, with rate reductions encouraging renewed buyer activity. Long-term French price trends: average annual real appreciation of 1–2% (inflation-adjusted) over 20 years, with major metropolitan areas outperforming. The cities with the strongest price growth in recent years (Bordeaux, Rennes, Montpellier, Nantes) have seen more correction than slower markets. Projections: French demographics (modest population growth, household formation) support medium-term prices, but the work-from-home shift has created divergence between major metropolitan and mid-size city markets.",
+      },
+      {
+        heading: "The expat-specific calculation",
+        body: "For an expat with a 2–3 year horizon: rent, unambiguously. For a 5-year horizon: depends heavily on city and entry price. For a 10+ year horizon with stable employment: buying typically wins, especially outside Paris where yields are higher. The psychological factor also matters: buying signals commitment to a place and typically accelerates integration — it motivates learning French, engaging with the community, and developing local knowledge. Some expats report that buying (even when financially neutral in the short term) significantly improved their French life experience by incentivising deeper roots. This is not a financial argument — but it is a real one.",
+      },
+    ],
+    relatedCities: ["paris", "lyon", "bordeaux", "toulouse", "montpellier"],
+    tags: ["buying renting France expat 2026", "French mortgage expats foreigners", "should expat buy property France", "France real estate expat guide 2026", "France property transaction costs buyer"],
+  },
+  {
+    slug: "normandy-for-expats-coast-history-life-2026",
+    title: "Normandy for expats: coast, history, and the real cost of living (2026)",
+    metaTitle: "Normandy for Expats 2026: Living on the French Coast Near Paris",
+    metaDesc: "Living in Normandy as an expat: D-Day coast, cliffs, Rouen, Caen, affordable property near Paris, English community. Honest 2026 guide.",
+    category: "city-guide",
+    emoji: "⚓",
+    readMinutes: 8,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Normandy is France's most underrated expat region. Within two hours of Paris by train, it offers a 600km coastline, some of the most affordable property prices in northern France, a deep English historical connection (the Channel coast that faced Britain for centuries), and a daily life that is genuinely provincial without being remote. The Anglo-Norman connection is historical and tangible — William the Conqueror, the D-Day landings, the English Channel ferry crossings — and it creates a cultural familiarity that other French regions lack.",
+    sections: [
+      {
+        heading: "Why Normandy has an English connection",
+        body: "Normandy's relationship with the English is among the oldest in European history: William the Conqueror departed from Normandy in 1066. The Channel coast was administratively connected to England for centuries. In 1944, the D-Day landings made Normandy permanently part of Anglo-American collective memory — the beaches of Omaha, Utah, and Arromanches are genuinely moving to visit, and Normandy's respect for what happened there is authentic. There is also a significant British expat population dating back decades — particularly in the Calvados area (Deauville, Caen, Bayeux) and the Seine-Maritime (Rouen, Dieppe, Fécamp). British connection: Dover–Calais ferry (90min), Portsmouth–Caen/Cherbourg (5–6h overnight).",
+      },
+      {
+        heading: "The property market: affordable sea access",
+        body: "Normandy offers one of Europe's most compelling combinations: property prices below €2,500/m² for most of the region, and sea access within 30–60 minutes of most addresses. Rouen (the largest city): €1,800–3,500/m². Caen: €1,600–2,800/m². Le Havre: €1,200–2,200/m². Coastal towns (Fécamp, Étretat, Dieppe, Honfleur): €2,000–3,500/m² with significant variation by proximity to the coast. The Côte Fleurie (Deauville, Trouville, Cabourg) is a step up — €3,000–6,000/m² — reflecting the long-established Parisian second-home demand. Inland Normandy (Bocage Normand, Orne department): houses with gardens from €80,000–150,000, some of the lowest prices in metropolitan France.",
+      },
+      {
+        heading: "Key cities and their personalities",
+        body: "Rouen is the intellectual and cultural capital — a mid-sized city with exceptional Gothic architecture (the Cathedral, the Palais de Justice), a lively food scene, and a tech-growing economy. The Seine flows through the centre. Caen is a rebuilt city (90% destroyed in 1944) with a modern centre, excellent university, and exceptional museums (Mémorial de la Paix). It sits equidistant between Deauville (30km) and the D-Day beaches (20km). Honfleur (8,000 inhabitants) is the most picturesque Norman town — the Vieux Bassin, the Lieutenance, the painters' quarter — but it is very much a tourist/second-home town with limited year-round life. For living full-time, Rouen or Caen are more practical.",
+      },
+      {
+        heading: "Climate and outdoor life",
+        body: "Normandy's climate is the Atlantic French variant: mild year-round (8–22°C range), moist, with reliable grey skies from October to March and genuinely pleasant summers (June–September: 17–23°C, often sunny). The Channel coast is windswept and bracing — not the Côte d'Azur, but beautiful in its own way, particularly the chalk cliffs at Étretat (among the most photographed in Europe) and the wild Cotentin peninsula. Cider orchards in autumn, calvados distilleries, oyster beds at Utah Beach — the agricultural and food culture of Normandy is specifically Norman and worth engaging with.",
+      },
+      {
+        heading: "Paris access and practical life",
+        body: "Rouen to Paris Saint-Lazare: 1h20–1h30 (Intercités, no TGV but frequent service). Caen to Paris Saint-Lazare: 2h00 (Intercités). Cherbourg: 3h20. Ferry connections to England: Dieppe–Newhaven (Transmanche Ferries, 4h), Caen–Portsmouth (Brittany Ferries, 5h45), Cherbourg–Poole (4h30). Healthcare: the CHU de Rouen and CHU de Caen are comprehensive regional university hospitals. English-speaking GP access in Deauville and the Côte Fleurie is better than average due to the long-established British expat presence. Schools: several sections internationales in Rouen and Caen public lycées; small independent schools in the Calvados area serving British expat families.",
+      },
+    ],
+    relatedCities: ["rouen", "caen", "le-havre", "dieppe", "bayeux"],
+    tags: ["Normandy expat guide 2026", "living Normandy France English", "Rouen Caen expat property cost", "Normandy coast affordable France", "Normandy D-Day history expat life 2026"],
+  },
+  {
+    slug: "pet-friendly-cities-france-expats-2026",
+    title: "Pet-friendly cities in France for expats: where your dog or cat actually fits in (2026)",
+    metaTitle: "Pet-Friendly Cities France 2026: Best Places for Expats with Pets",
+    metaDesc: "Best French cities for expats with pets: vet access, apartment regulations, parks and beaches, rental market restrictions. Honest 2026 guide.",
+    category: "lifestyle",
+    emoji: "🐾",
+    readMinutes: 7,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "France is officially one of Europe's most pet-friendly countries — with an estimated 17 million dogs and cats, pets are a standard part of urban life. But 'pet-friendly' means different things for different situations. The challenge for expats with pets is threefold: getting your pet into France, finding a flat that accepts animals, and ensuring your pet has a good quality of life once you're settled. This guide covers all three.",
+    sections: [
+      {
+        heading: "Getting your pet into France",
+        body: "For EU nationals moving from within the EU: your pet needs an EU pet passport, microchip, and up-to-date rabies vaccination. The process is administrative and generally smooth. For non-EU nationals (UK post-Brexit, US, Australian, etc.): the rules are more stringent. Dogs and cats need a microchip, a valid rabies vaccination (must be administered after microchipping), and a health certificate from an official vet. For UK pets entering France: the GB-to-EU pet travel rules apply — rabies vaccination is required (done at least 21 days before entry), and a health certificate endorsed by an official UK vet is needed for each trip. France does not require quarantine for dogs and cats that meet the vaccination requirements.",
+      },
+      {
+        heading: "Rental market: the apartment problem",
+        body: "French law technically prohibits blanket 'no pets' clauses in unfurnished rental leases for cats and small dogs — but the law has exceptions and is not well-enforced. Many landlords simply add 'no animals' to furnished rental contracts (meublé), where more flexibility is allowed. In practice, finding a flat with a large dog in Paris is genuinely difficult. Strategies: be upfront about your pet in the rental application; offer to pay an additional security deposit (even though it's technically not required); frame the enquiry with references from previous landlords; and consider house-sharing in older buildings where rules are less rigidly enforced.",
+      },
+      {
+        heading: "Best cities for dogs: access to nature and space",
+        body: "Toulouse and Bordeaux consistently rank highly for dog-friendly city life: large urban parks (Parc de la Gloriette in Toulouse, Parc Bordelais), accessible forests (Forêt des Pins near Bordeaux, Montagne Noire near Toulouse), and a culture of cafe terraces where dogs are genuinely welcome. Montpellier has the Calanques nearby and several large parks. Rennes: Parc du Thabor is exceptional and central, Forêt de Rennes (4,000 ha) is accessible. Grenoble: directly adjacent to three mountain ranges with countless dog walking trails year-round. For small dogs in an urban setting, Lyon's riverside parks and the Croix-Rousse plateau work well.",
+      },
+      {
+        heading: "Veterinary care in France",
+        body: "France has a well-developed veterinary system — veterinary surgeons (vétérinaires) are medically trained to a high standard and practices are widely distributed. Costs: standard consultation €40–80. Vaccinations (annual booster): €50–90. Emergency care (clinique vétérinaire 24h): available in all major cities, costs €150–400 for a complex intervention. Pet health insurance (assurance animale) is available from providers like Santévet, Bulle Bleue, and Allianz — monthly premiums €20–50/month depending on species, breed, and coverage level. The coverage reimburses 50–100% of vet fees depending on the plan. For dogs of certain breeds classified as 'dangerous' (category 1 and 2 under French law — includes certain bull terrier types, Rottweilers, American Staffordshire Terriers), ownership requires registration, declaration, and a non-aggression certificate.",
+      },
+      {
+        heading: "Beach and nature access",
+        body: "Dog access to beaches in France is regulated by each municipality and varies widely. Most French beaches have seasonal restrictions (dogs prohibited on the beach from June–September); many have designated dog-friendly beach sections (plages pour chiens) that are free year-round. The Mediterranean coast (Camargue, Calanques, Languedoc) is generally more dog-friendly outside peak summer. Brittany and Normandy's Atlantic beaches have more dog-friendly year-round access. Mountain areas (Alpes, Pyrénées, Massif Central) are some of the most dog-friendly environments in France — trails, mountain lakes, forests — and have minimal seasonal restrictions.",
+      },
+    ],
+    relatedCities: ["toulouse", "bordeaux", "rennes", "montpellier", "grenoble"],
+    tags: ["pet friendly cities France expats 2026", "moving France with dog cat expat", "France pet travel rules 2026", "best French cities pets dogs", "France rental pet dog apartment expat"],
+  },
 ];
 
 export function getEnGuide(slug: string): EnGuide | undefined {

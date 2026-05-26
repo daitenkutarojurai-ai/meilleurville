@@ -1,6 +1,6 @@
 # MeilleurVille — Project briefing
 
-French city ranking & relocation guide site. 540 cities, 485 FR guides + 242 EN guides, 19 ranking
+French city ranking & relocation guide site. 540 cities, 485 FR guides + 247 EN guides, 19 ranking
 categories, 18 regions (13 metropolitan + 5 DROM). Copy is **French**.
 (Counts derived at build — see `lib/site-stats.ts`; figures here are indicative.)
 
@@ -279,7 +279,7 @@ FR-equivalent routes covered: home, cities index + 352 city pages, 4 city sub-pa
 - [x] City sub-pages: `neighbourhoods`, `seasons`, `honest-review`, `climate-2040`, plus `fingerprint`, `vibe`, `get-settled`, `overview`, `synthesis`, `profiles`
 
 **Phase 4 — long tail**
-- [ ] EN guides — in progress (242 native EN guides shipped via `data/guides-en.ts`; not 1:1 translations, native expat-angle content)
+- [ ] EN guides — in progress (247 native EN guides shipped via `data/guides-en.ts`; not 1:1 translations, native expat-angle content)
 - [ ] Per-city OG images with EN copy
 - [x] EN-specific RSS feed (`/feed.xml` + `/guides/feed.xml` locale-aware via `NEXT_PUBLIC_DEFAULT_LOCALE`)
 
