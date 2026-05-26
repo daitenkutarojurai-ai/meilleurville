@@ -8799,6 +8799,246 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["lille", "amiens", "reims", "paris", "valenciennes"],
     tags: ["leaving Lille expat 2026", "Lille alternatives northern France", "where to go after Lille France", "Ghent Brussels Amiens vs Lille expat", "moving from Lille expat 2026"],
   },
+  {
+    slug: "nice-vs-marseille-expat-comparison-2026",
+    title: "Nice vs Marseille: which city for expats in 2026?",
+    metaTitle: "Nice vs Marseille 2026: Which City for Expats? Honest Comparison | Costs, Lifestyle",
+    metaDesc: "Nice vs Marseille for expats: honest comparison of costs, property prices, lifestyle, safety, healthcare, transport. Which Mediterranean city wins for you?",
+    category: "city-guide",
+    emoji: "🌊",
+    readMinutes: 10,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Nice and Marseille are the two great Mediterranean cities of France — 200km apart on the same coastline, both with exceptional light and heat, both with international airports, both with serious food culture. But they are fundamentally different cities serving fundamentally different expat needs. Nice is expensive, refined, genuinely international, and small enough to feel manageable. Marseille is raw, dense, cheap by Côte d'Azur standards, and France's second city — with all the complexity that implies. Choosing between them is not about which is 'better' but about which matches your life.",
+    sections: [
+      {
+        heading: "The fundamental difference",
+        body: "Nice (345,000) is primarily a residential, retirement, and tourism city with a service economy (hospitality, luxury goods, healthcare) and a growing tech/startup cluster. It has the most consistent sunshine in metropolitan France (2,720 hours/year) and property prices that reflect demand from the global wealthy. Marseille (870,000) is France's second city by population, an industrial and commercial port, the entry point for much of France's North African and sub-Saharan African community, and a city where the energy is more raw and unpredictable. They are peers geographically but not demographically or economically.",
+      },
+      {
+        heading: "Property prices and rent: the gap is real",
+        body: "Nice (desirable areas: Cimiez, Carré d'Or, Promenade): €5,500–8,500/m². Nice outer residential (Nice Nord, Pasteur): €4,000–5,500/m². Marseille (desirable areas: 7e, 8e arrondissements, Endoume): €3,500–5,500/m². Marseille middle residential (Plaine, Cours Julien, 5e): €2,800–3,800/m². Marseille outer residential (North Marseille, 13e–15e): €1,500–2,500/m². Renting: Nice T2 decent area €1,000–1,400/month; Marseille T2 equivalent area €700–950/month. The bottom line: for identical comfort level, you pay roughly 40–60% more in Nice than in Marseille.",
+      },
+      {
+        heading: "Safety: the nuanced truth",
+        body: "Nice's safety reputation is broadly good for a city its size — the residential quartiers function like any prosperous French city. The main incidents (pick-pocketing on the Promenade, occasional street crime near the train station) are standard for a tourist city. Marseille's safety situation is more complex and geographically specific: the northern arrondissements (13e–15e, 14e) have genuine issues with organised crime and violence associated with drug trade networks; the southern and central residential areas (7e, 8e, 5e, 6e) are as safe as any comparable French city. The aggregate statistics that sometimes make Marseille look dangerous are heavily skewed by the northern districts. For expats choosing residential areas in the south and centre, the safety picture is different from the headlines.",
+      },
+      {
+        heading: "Healthcare",
+        body: "Marseille has the CHU de la Timone — a major teaching hospital, one of the largest in France, affiliated with Aix-Marseille Université (France's largest university by student count). Access to specialists is generally good. Nice has the CHU de Nice (Hôpital Pasteur) — smaller but fully functional, and the Monaco-Nice axis means serious private medical capacity is available. For expats who prioritise being in a serious medical ecosystem, Marseille's CHU is larger in absolute terms.",
+      },
+      {
+        heading: "Lifestyle and city character",
+        body: "Nice: the Old Town (Vieux-Nice), the Promenade des Anglais, the Tuesday/Saturday market at the Cours Saleya, Cimiez with its Roman ruins and Matisse museum. The city has an Italian edge (culturally and historically it was part of the Kingdom of Sardinia until 1860). It is more refined, calmer, and more international than Marseille — significant English-speaking expat community. Marseille: the Vieux-Port, the MuCEM (Museum of European and Mediterranean Civilisations), Cours Julien market, Le Panier neighbourhood. The city is louder, more surprising, and arguably more interesting culturally — its position as a Mediterranean crossroads shows in the food (bouillabaisse, but also Tunisian brik, Lebanese mezze, North African couscous) and in the street life.",
+      },
+      {
+        heading: "The verdict by expat profile",
+        body: "Nice wins for: retirees or semi-retirees on stable income who prioritise safety, beauty, and sunshine; expats who want the most sunshine possible; those for whom proximity to Monaco, Italy, and French Alps matters; people who want a smaller, manageable city with strong infrastructure. Marseille wins for: those on a budget who still want a major Mediterranean city; those who want cultural energy, diversity, and a genuinely urban experience; expats in tech or academia (Aix-Marseille Université is enormous); those who find Nice's uniformity aesthetically boring.",
+      },
+    ],
+    relatedCities: ["nice", "marseille", "toulon", "aix-en-provence", "antibes"],
+    tags: ["Nice vs Marseille expat 2026", "Nice or Marseille which city expat", "Mediterranean France expat comparison 2026", "Nice Marseille cost of living comparison", "where to live Nice vs Marseille France"],
+  },
+  {
+    slug: "lyon-vs-bordeaux-expat-comparison-2026",
+    title: "Lyon vs Bordeaux for expats: which French city in 2026?",
+    metaTitle: "Lyon vs Bordeaux 2026: Which City for Expats? Complete Honest Comparison",
+    metaDesc: "Lyon vs Bordeaux for expats: costs, property, job market, lifestyle, food scene. Which of France's two most popular expat cities is right for you?",
+    category: "city-guide",
+    emoji: "🍷",
+    readMinutes: 10,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Lyon and Bordeaux are the two cities that come up most consistently when internationally mobile people ask 'where should I live in France other than Paris?' Both are beautiful, both have excellent food cultures, both have real international expat communities. But they serve different profiles. Lyon is a bigger, more economically productive city with a harder-edged urban character. Bordeaux is more relaxed, more visually unified, and more overtly attractive — but with a narrower economic base. Choosing is about matching your life to the right framework.",
+    sections: [
+      {
+        heading: "Scale and economy",
+        body: "Lyon (520,000 city, 2.3M metropolitan area) is France's true second economic city after Paris. Biotech cluster (Lyonbiopôle is Europe's leading biotech hub), chemical industry (Axel'One), financial services, major engineering companies, and a trade fair/congress economy. The unemployment rate is lower than the national average and wages are higher. Bordeaux (260,000 city, 930,000 metropolitan) has a strong economy but smaller and more concentrated: aerospace and defence (Thales, Naval Group), wine sector, tourism, and a growing tech startup scene. Lyon simply offers more jobs in more sectors.",
+      },
+      {
+        heading: "Property prices and rents",
+        body: "Lyon inner city (Presqu'île, Croix-Rousse, Vieux-Lyon, Confluence): €4,800–6,500/m². Lyon first ring (Caluire, Villeurbanne, Tassin): €3,200–4,500/m². Bordeaux centre (Triangle d'Or, Chartrons, Saint-Pierre): €4,500–5,500/m². Bordeaux first ring (Mériadeck, Bacalan, Bordeaux-Sud): €3,200–4,200/m². The prices are broadly comparable, with Lyon's premium inner-city addresses slightly more expensive. Rents: T2 decent area Lyon €950–1,200/month, Bordeaux €900–1,100/month. The cost differential is not dramatic — both are in the €4,000–5,500/m² range for desirable properties.",
+      },
+      {
+        heading: "Climate: the decisive factor for some",
+        body: "This is the most significant and least-discussed difference. Lyon has a semi-continental climate: hot, sometimes very hot summers (heatwaves are frequent), cold winters with some frost, and a climatic position between the Atlantic and Mediterranean that means weather variability. Lyon has approximately 1,900 sunshine hours per year — respectable. Bordeaux has an Atlantic climate: milder winters, warmer summers (but not as extreme as Lyon), and about 2,000–2,100 sunshine hours per year. The difference matters more psychologically than statistically: Lyon winters feel colder and Lyon summers can feel more oppressive. Bordeaux is more consistently mild.",
+      },
+      {
+        heading: "Food culture",
+        body: "Lyon holds the title of gastronomic capital of France — and arguably Europe — with a legitimate claim that no city disputes. The bouchons (traditional Lyonnais restaurants), the market at Les Halles Paul Bocuse, and the density of Michelin-starred restaurants per square metre are simply not replicated elsewhere. Lyon's food culture is serious, local, and not performative for tourists — it's daily life. Bordeaux's food culture is excellent but differently oriented: wine is the star (Saint-Émilion, Médoc, Sauternes), and the food scene in the Chartrons and Capucins area is genuinely good. But it is not in the same tier as Lyon for sheer gastronomic density.",
+      },
+      {
+        heading: "Lifestyle and urban character",
+        body: "Lyon: more intense, more dense, harder-edged, with strong neighbourhood identities (the Croix-Rousse hill, the Presqu'île, Vieux-Lyon). The city has a Traboules network (hidden passageways from the silk-weaving era) that give it spatial intrigue. The Rhône and Saône riverbanks have been dramatically improved with pedestrian and cycling infrastructure. Bordeaux: visually more uniform (the 18th-century UNESCO centre is coherent in a way Lyon isn't), more relaxed, more beach-oriented (the Atlantic coast is 50km away), with a student energy (90,000 students at Université de Bordeaux and Sciences Po) that keeps the social scene more open.",
+      },
+      {
+        heading: "The verdict by profile",
+        body: "Lyon wins for: career-driven expats in pharma/biotech, engineering, or finance; foodies who take the gastronomic dimension seriously; those who want Alpine access (1h30 to Chamonix); people who prefer intense urban life over relaxed residential comfort. Bordeaux wins for: those who prioritise lifestyle over career density; expats who want Atlantic coast and surf access; wine enthusiasts (living inside the most prestigious wine region in France); retirees or semi-retirees for whom climate mildness matters; those who find Lyon's hard edge unappealing.",
+      },
+    ],
+    relatedCities: ["lyon", "bordeaux", "nantes", "grenoble", "toulouse"],
+    tags: ["Lyon vs Bordeaux expat 2026", "Lyon or Bordeaux which city expat", "France cities comparison Lyon Bordeaux 2026", "Lyon Bordeaux cost of living", "where to live Lyon vs Bordeaux France"],
+  },
+  {
+    slug: "rennes-vs-nantes-expat-comparison-2026",
+    title: "Rennes vs Nantes: which Atlantic France city for expats?",
+    metaTitle: "Rennes vs Nantes 2026: Which City for Expats? Brittany vs Loire Comparison",
+    metaDesc: "Rennes vs Nantes for expats: costs, property, tech economy, lifestyle, transport. Two of France's most dynamic cities — which one is right for your profile?",
+    category: "city-guide",
+    emoji: "🦁",
+    readMinutes: 9,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Rennes and Nantes are the two metropolitan cities of western France and are in genuine competition for the title of France's most livable mid-size city. They are 1h10 apart by TGV, similar in price, both with strong tech economies, both in the top 5 of French quality-of-life rankings. For expats deciding between them, the differences are real but subtle — it comes down to Brittany versus Loire, tighter versus larger, and a certain different texture of daily life.",
+    sections: [
+      {
+        heading: "Scale and character",
+        body: "Rennes (220,000 city, 420,000 metropolitan) is the Brittany capital — historically Breton, with the language still visible (bilingual street signs, strong cultural identity), a medieval core partially surrounded by 18th-century Parisian-style urban fabric, and an unusually dense cluster of grandes écoles (Sciences Po Rennes, INSA Rennes, ENS Rennes). 73,000 students give it a young, intellectual energy. Nantes (320,000 city, 650,000 metropolitan) is the Loire-Atlantique capital, France's 6th city by metropolitan area, and somewhat larger in feel — more variety of neighbourhoods, a stronger art/creative scene (Machines de l'île, the Lieu Unique), and a larger tech cluster. Nantes consistently ranks first in 'most livable French city' surveys.",
+      },
+      {
+        heading: "Property prices and rents",
+        body: "Rennes centre (Thabor, Centre-ville, Villejean): €3,700–4,800/m². Rennes residential ring: €2,800–3,600/m². Nantes centre (Île de Nantes, Bouffay, Quartier Graslin): €3,800–5,000/m². Nantes residential ring (Doulon, Chantenay, Erdre): €3,000–3,800/m². Renting: T2 Rennes €750–950/month, Nantes €800–1,000/month. Rennes is marginally cheaper than Nantes in both buying and renting, though the difference is not dramatic.",
+      },
+      {
+        heading: "Tech economy: both strong",
+        body: "Both cities have invested heavily in tech cluster development. Rennes: French cybersecurity capital (Inria, Orange Cyberdefense, Thales), strong telecom sector (Bouygues, SFR have major engineering bases), growing deeptech. Nantes: stronger in digital and creative industries, Airbus headquarters for Atlantic programmes (Saint-Nazaire 55km), larger general business ecosystem. For a software engineer or cybersecurity specialist, Rennes is arguably the more interesting job market. For a generalist or someone in logistics/manufacturing/creative industries, Nantes offers more breadth.",
+      },
+      {
+        heading: "Paris connection: the biggest practical difference",
+        body: "Rennes: TGV Paris-Montparnasse in 1h25 — one of the best Paris connections of any French provincial city of this size. This is genuinely game-changing for anyone who needs Paris regularly. Nantes: TGV Paris-Montparnasse in 2h05–2h15 — still good, but 45 minutes slower. For expats in Rennes, weekend trips to Paris are effortless in a way they are not from Nantes. This connectivity makes Rennes disproportionately attractive for people who want provincial life with Paris access.",
+      },
+      {
+        heading: "Brittany versus Loire lifestyle",
+        body: "Rennes brings you into the Brittany world: crêpes and galettes, cider culture, Breton language and cultural identity, access to the extraordinary Brittany coastline (Saint-Malo 55min, Dinard, Mont Saint-Michel 1h). The landscape is greener, the sea is wilder, and the cultural identity is more distinctly non-Parisian than almost anywhere in France. Nantes has its own identity (historically the capital of the Breton duchy, now firmly in Loire-Atlantique), with access to the Atlantic beaches (the Jade Coast, Noirmoutier, île d'Yeu) and to Loire wine appellations (Muscadet, Coteaux de la Loire). The choice between them is partly a question of which Atlantic identity resonates more.",
+      },
+      {
+        heading: "The verdict",
+        body: "Rennes wins for: those who prioritise Paris proximity, tech/cybersecurity careers, and Brittany cultural identity; expats who want a compact, walkable city with a strong university energy. Nantes wins for: those who want a larger, more varied city with more neighbourhood choice; a stronger arts and creative scene; slightly better Atlantic beach access; and the city that most comprehensively scores top across quality-of-life metrics — if you can only choose one 'safest' pick, Nantes is it.",
+      },
+    ],
+    relatedCities: ["rennes", "nantes", "saint-malo", "angers", "la-rochelle"],
+    tags: ["Rennes vs Nantes expat 2026", "Rennes or Nantes which city expat", "Brittany Loire France expat comparison 2026", "Rennes Nantes cost of living", "best western France city expat 2026"],
+  },
+  {
+    slug: "montpellier-vs-toulouse-expat-comparison-2026",
+    title: "Montpellier vs Toulouse: Occitania for expats in 2026",
+    metaTitle: "Montpellier vs Toulouse 2026: Which Occitanie City for Expats? Complete Guide",
+    metaDesc: "Montpellier vs Toulouse for expats: costs, careers, sunshine, students, lifestyle. Which Occitanie city wins for your profile?",
+    category: "city-guide",
+    emoji: "☀️",
+    readMinutes: 9,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Montpellier and Toulouse are the two Occitanie metropolises — 240km apart, both Mediterranean in character, both with massive student populations, both fast-growing, and both frequently appearing on 'best French cities to live in' lists. They share a southern France lifestyle identity but differ significantly in economic structure, urban character, and what kind of expat life they support. The choice between them is real and not obvious.",
+    sections: [
+      {
+        heading: "The economic contrast",
+        body: "Toulouse (480,000 city, 1.4M metropolitan) is the European aerospace capital. Airbus headquarters, Thales, Safran, CNES (France's space agency) — the aeronautics and space ecosystem is unparalleled outside of Houston or Toulouse. Engineering and aerospace careers here are at the top of the European market. The Métropole also has a significant biotech cluster (Oncopôle) and a growing digital sector. Montpellier (295,000 city, 620,000 metropolitan) has a different economic base: the CHU (top-tier teaching hospital), Aix-Marseille and Montpellier universities (major medical and science faculties), tech sector (IBM Europe, Dell, Ubisoft), and a large public sector. It is more diversified but less dominant in any single sector.",
+      },
+      {
+        heading: "Sunshine and climate",
+        body: "Montpellier: 2,700 sunshine hours per year — consistently one of the highest figures in metropolitan France. Mediterranean climate with hot, dry summers (30–35°C regularly in July–August) and mild winters (6–12°C January average). Toulouse: 2,100 sunshine hours — still excellent but meaningfully less than Montpellier. Semi-continental climate influenced by the Garonne valley: hotter in summer but with more rain (the Pyrénées catchment), colder in winter. For sunshine-maximisers, Montpellier wins clearly. For those who want warmth without extreme summer heat and with more reliable rain for a garden, Toulouse is the better climate.",
+      },
+      {
+        heading: "Property prices",
+        body: "Montpellier centre (Écusson, Antigone, Beaux-Arts): €3,200–4,500/m². Montpellier residential (Pas-du-Loup, Celleneuve): €2,400–3,200/m². Toulouse centre (Saint-Cyprien, Carmes, Esquirol): €3,800–5,000/m². Toulouse residential (Mirail area excluded; Côte Pavée, Lardenne): €2,800–4,000/m². Toulouse is somewhat more expensive than Montpellier on average, reflecting the stronger aerospace/engineering wages. Renting: T2 Montpellier centre €850–1,050/month, Toulouse €900–1,100/month.",
+      },
+      {
+        heading: "Sea and mountains access",
+        body: "Montpellier: 10km from the Mediterranean coast (Palavas-les-Flots, La Grande-Motte). This is real beach-on-weekday-evening access — not a weekend trip. The Pyrénées are 2h by road (Andorra 3h, ski in the Hérault mountains 1h30 at Font-Romeu). Toulouse: 150km from the Mediterranean coast (Narbonne area, 1h30 by TGV). 1h from the Pyrénées ski stations (Saint-Lary, Peyragudes). Mountain access from Toulouse is arguably better than from Montpellier — the central Pyrénées are closer and higher. Sea access is significantly better from Montpellier.",
+      },
+      {
+        heading: "Student and social energy",
+        body: "Both cities are dominated numerically by students — Montpellier (70,000 students, 25% of the population), Toulouse (130,000 students). Both have a young, café-heavy social culture and a density of bars and restaurants that punches above their size. Toulouse's student population has an engineering/aerospace bias (ISAE-Supaéro, INSA Toulouse, Paul Sabatier engineering faculty) which gives it a slightly different social texture than Montpellier's medical/law/arts mix. For expats, Toulouse's English-speaking community is slightly larger due to Airbus's international workforce.",
+      },
+      {
+        heading: "The verdict",
+        body: "Toulouse wins for: aerospace/engineering professionals; those who want the largest city with the most urban infrastructure; better Pyrénées mountain access; a slightly stronger English-speaking expat community. Montpellier wins for: those who want maximum sunshine and direct beach access; a somewhat cheaper housing market; a more compact, walkable city where the Mediterranean identity is stronger; those in healthcare or biotech (the CHU + medical faculty ecosystem is first-rate).",
+      },
+    ],
+    relatedCities: ["montpellier", "toulouse", "nimes", "perpignan", "carcassonne"],
+    tags: ["Montpellier vs Toulouse expat 2026", "Occitanie France expat comparison", "Montpellier or Toulouse which city", "south France cities comparison 2026", "Mediterranean France expat living 2026"],
+  },
+  {
+    slug: "nantes-vs-bordeaux-expat-comparison-2026",
+    title: "Nantes vs Bordeaux: which Atlantic city for expats in 2026?",
+    metaTitle: "Nantes vs Bordeaux 2026: Which City for Expats? Atlantic France Comparison",
+    metaDesc: "Nantes vs Bordeaux for expats: costs, jobs, lifestyle, climate, wine versus Brittany. Which Atlantic city is right for you in 2026?",
+    category: "city-guide",
+    emoji: "🍇",
+    readMinutes: 9,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Nantes and Bordeaux are the two great Atlantic metropolitan cities of France — 340km apart, both consistently in the top 5 of quality-of-life rankings, both attractive to expats for similar-sounding reasons (ocean proximity, food culture, lifestyle quality), and both expensive enough relative to their non-Parisian status to deserve careful comparison. They are often presented as interchangeable; in practice, they are quite different.",
+    sections: [
+      {
+        heading: "Scale and economy",
+        body: "Nantes (320,000 city, 650,000 metropolitan) and Bordeaux (260,000 city, 930,000 metropolitan — Bordeaux metro is larger despite smaller city core) are close in economic scale. Nantes: naval and aerospace construction (Airbus Saint-Nazaire 55km, Naval Group), strong digital industry, Airbus helicopter division. Bordeaux: aerospace (Thales, Dassault Aviation), wine and agri-food industry, pharmaceutical (Sanofi has major site), growing tech startup scene. Both have strong university systems (Nantes Université, Université de Bordeaux, Sciences Po Bordeaux). The job markets are broadly comparable but Bordeaux has been gaining on Nantes in recent years through stronger startup ecosystem development.",
+      },
+      {
+        heading: "Property prices and rents",
+        body: "Bordeaux has become significantly more expensive than Nantes in the post-TGV era (the 2017 TGV connection put Bordeaux 2h10 from Paris and triggered a significant price surge). Centre Bordeaux (Triangle d'Or, Chartrons, Saint-Pierre): €4,500–5,500/m². Bordeaux residential ring: €3,200–4,200/m². Nantes centre (Bouffay, Île de Nantes): €3,800–5,000/m². Nantes residential ring: €3,000–3,800/m². The centres are comparable, but the Bordeaux premium has compressed somewhat as the initial TGV effect fades. Renting: T2 Bordeaux €900–1,100/month, Nantes €800–1,000/month.",
+      },
+      {
+        heading: "Climate: the key practical difference",
+        body: "Bordeaux has a Garonne/Atlantic climate that is warmer and slightly sunnier than Nantes (2,000–2,100 hours/year versus 1,850–1,950 for Nantes). Bordeaux summers are hotter (sometimes uncomfortably so — heatwave risk has increased post-2020) and winters are milder. Nantes is more reliably moderate year-round but with more grey and rain in winter. For anyone coming from a sunnier climate, Bordeaux's climate advantage over Nantes is real and matters especially in October–March.",
+      },
+      {
+        heading: "Wine and food culture",
+        body: "Bordeaux is literally inside the most famous wine region in the world. The Médoc appellation (Pauillac, Saint-Estèphe), Saint-Émilion, Pomerol, Sauternes — these are all within 1h of the city centre. The wine culture is genuinely integrated into daily life (cave à vin shops, wine bars, Sunday markets at Chartrons). This is not replicated in Nantes, though the Muscadet appellation (dry white wine, perfect with the local seafood) is produced in the Loire-Atlantique. For expats for whom wine is central, Bordeaux is the only choice.",
+      },
+      {
+        heading: "Ocean access",
+        body: "Both cities market themselves as 'near the ocean' but the specifics differ. Bordeaux is on the Garonne estuary — the actual Atlantic coast (Lacanau, Cap-Ferret, Arcachon) is 60–80km (1h drive). Nantes is 55km from the Loire-Atlantique coast (La Baule, Pornichet, Noirmoutier). The Atlantic access is comparable in distance, but the coast characters differ: the Bordeaux/Gironde coast is pine-backed, sandy, and surf-oriented (Lacanau is a major surf destination). The Loire-Atlantique coast is more varied — La Baule is a classic French resort, the Pays de Retz is wilder.",
+      },
+      {
+        heading: "The verdict",
+        body: "Bordeaux wins for: those who want slightly better climate (especially autumn–spring); wine and Gascony food culture as a central life interest; a slightly more sophisticated urban aesthetic (the 18th-century UNESCO centre is uniformly elegant in a way Nantes isn't); proximity to the Dordogne and Périgord for weekend escapes. Nantes wins for: those who rank quality-of-life metrics above aesthetic beauty; people who want a city with more varied urban character and a stronger arts scene; those who prioritise Paris access (Nantes is TGV 2h05, Bordeaux 2h10, but Nantes is less exposed to the high-season price pressures Bordeaux TGV created); families who want the best overall combination of schools, healthcare, and infrastructure.",
+      },
+    ],
+    relatedCities: ["nantes", "bordeaux", "la-rochelle", "angers", "rennes"],
+    tags: ["Nantes vs Bordeaux expat 2026", "Nantes or Bordeaux which city expat", "Atlantic France cities comparison 2026", "Nantes Bordeaux cost of living", "best Atlantic city France expat 2026"],
+  },
+  {
+    slug: "strasbourg-vs-colmar-alsace-expat-2026",
+    title: "Strasbourg vs Colmar: which Alsace city for expats?",
+    metaTitle: "Strasbourg vs Colmar 2026: Which Alsace City for Expats? Honest Comparison",
+    metaDesc: "Strasbourg vs Colmar for expats: costs, EU careers, Basel access, Alsatian life. Which Alsace city is right for your profile?",
+    category: "city-guide",
+    emoji: "🥨",
+    readMinutes: 8,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Alsace has two distinct expat appeal centres: Strasbourg, the EU institution city and regional capital, and Colmar, the smaller, more visually perfect medieval city to the south. They are 70km apart, connected by TER in 45 minutes, and they serve genuinely different profiles. Choosing between them depends on whether you are primarily an EU professional, a cross-border worker to Switzerland, a retiree, or a lifestyle migrant.",
+    sections: [
+      {
+        heading: "Why the choice matters",
+        body: "Strasbourg (300,000 city, 800,000 metropolitan) is a real European metropolis: European Parliament, Council of Europe, European Court of Human Rights, University of Strasbourg (50,000 students), serious healthcare at the CHU de Strasbourg, strong job market. Colmar (72,000) is a different proposition: smaller, visually extraordinary (half-timbered houses, canals, Romanesque churches), primarily a service and tourism economy, without Strasbourg's institutional anchors but with its own strategic proximity to Basel (Switzerland, 45min by TER).",
+      },
+      {
+        heading: "Property prices",
+        body: "Strasbourg centre (Grande Île, Krutenau, Orangerie): €3,400–4,800/m². Strasbourg residential ring (Neudorf, Hautepierre): €2,400–3,200/m². Colmar city centre (Vieille Ville, Petite Venise): €2,400–3,200/m². Colmar outer residential and suburbs: €1,800–2,400/m². Colmar is 25–35% cheaper than Strasbourg for comparable accommodation. The old city of Colmar (the most photogenic part) is actually in the Strasbourg price range for premium addresses, but the average across the city is substantially lower.",
+      },
+      {
+        heading: "Career and professional life",
+        body: "Strasbourg's USP is clear: for EU institution workers (Parliament, Council, Court of Justice of the EU), there is no substitute. The EP employs around 8,000 people directly, with a large surrounding ecosystem of lobbying organisations, NGOs, law firms, and consultancies. Beyond EU institutions, Strasbourg has strong pharma (Janssen Cilag), manufacturing, and a growing digital sector. Colmar has no comparable professional ecosystem — it is primarily for people whose careers are portable, who work remotely, or who commute to Basel or Strasbourg.",
+      },
+      {
+        heading: "Basel access: the Swiss dimension",
+        body: "Both cities offer Basel access, but Colmar is significantly closer (45min by TER, 30min by road) versus Strasbourg (1h15 by TER, 45min by road). For cross-border workers at Basel-based pharmaceutical/chemical companies (Roche, Novartis, Syngenta), Colmar is the better residential base — lower prices and shorter commute. For those working at Basel but whose partner works in Strasbourg, the positioning between the two (Mulhouse, Colmar) becomes a different calculation.",
+      },
+      {
+        heading: "Tourism: asset or liability?",
+        body: "Colmar's extraordinary medieval centre is both its biggest draw and its biggest challenge. 3–4 million tourists per year for a city of 72,000 means that the old town in peak season (December Christmas markets, summer weekends) is genuinely overrun. As a resident in the historic centre, this is exhausting. Strasbourg also has significant tourism (Cathedral, European institutions attract visitors year-round) but the city is large enough to absorb it. The residential quarters of Strasbourg (Orangerie, Robertsau, Cronenbourg) are largely tourist-free.",
+      },
+      {
+        heading: "The verdict",
+        body: "Strasbourg wins for: EU institution professionals (no substitute); those who need a full-scale metropolitan infrastructure; people who want larger city life with a genuinely bilingual/multicultural environment. Colmar wins for: retirees or remote workers for whom beauty and calm are priorities; cross-border workers to Basel for whom Strasbourg's commute is too long; those who find the Alsatian aesthetic more attractive at Colmar's intimate scale than at Strasbourg's city scale; those who want to save 25–35% on housing relative to Strasbourg.",
+      },
+    ],
+    relatedCities: ["strasbourg", "colmar", "mulhouse", "belfort", "besancon"],
+    tags: ["Strasbourg vs Colmar expat 2026", "Alsace cities comparison expat", "Strasbourg Colmar which city 2026", "EU expat Alsace France comparison", "best Alsace city expat France 2026"],
+  },
 ];
 
 export function getEnGuide(slug: string): EnGuide | undefined {
