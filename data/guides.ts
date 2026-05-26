@@ -22582,6 +22582,246 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["acheter au Mans 2026", "immobilier Le Mans prix quartiers", "Le Mans navetteur Paris TGV achat", "budget achat Le Mans Sarthe", "Le Mans Vieux-Mans Jacobins prix"],
   },
+  {
+    slug: "budget-mensuel-realiste-paris-2026",
+    title: "Budget mensuel réaliste à Paris en 2026 : ce que ça coûte vraiment",
+    metaTitle: "Budget mensuel Paris 2026 — Ce que coûte vraiment vivre à Paris",
+    metaDesc: "Combien faut-il pour vivre à Paris en 2026 ? Budget mensuel détaillé : loyer, transport, courses, sorties. Chiffres réels pour célibataire et couple.",
+    category: "budget",
+    emoji: "🗼",
+    readMinutes: 7,
+    publishedAt: "2026-05-01",
+    updatedAt: "2026-05-26",
+    intro: "Paris est souvent citée comme l'une des villes les plus chères du monde. La réalité est plus nuancée : Paris peut être très chère ou raisonnablement chère selon votre mode de vie, votre arrondissement, et vos habitudes de consommation. Ce guide donne des chiffres réels — pas les prix de l'hôtel cinq étoiles ni ceux de l'appartement 30 m² en sous-sol — pour un mode de vie urbain normal en 2026.",
+    sections: [
+      {
+        heading: "Logement : la variable dominante",
+        body: "Le logement représente 40 à 55 % du budget parisien. Loyers en 2026 : studio 20–25 m² (1er–4e) : 900–1 200 €/mois. T2 40 m² dans les arrondissements centraux (5e–11e) : 1 200–1 700 €/mois. T3 65 m² dans les arrondissements extérieurs (18e–20e) : 1 500–2 200 €/mois. Colocation dans un T4 (par chambre) : 650–900 €/mois tout compris. Premier arrondissement de Paris à se regarder pour l'optimisation : le 19e et le 20e, encore à -20–25 % des arrondissements centraux pour une même surface. Charges locatives moyennes (hors loyer) : eau, ordures, parties communes = 50–150 €/mois selon l'immeuble.",
+      },
+      {
+        heading: "Transport : le Navigo et les autres",
+        body: "Passe Navigo mensuel toutes zones (métro + RER + bus Île-de-France) : 86,40 €/mois. C'est l'un des meilleurs rapports qualité-prix des métropoles mondiales pour les transports publics. Vélib' mensuel abonnement : 9 €. Autolib' est mort, les VTC (Uber, Bolt, Heetch) coûtent 15–30 € pour un trajet urbain. Si vous êtes en 75 + télétravail 3j/5, votre budget transport peut être minimal — Navigo + Vélib'. Sans voiture, Paris est l'une des villes où le transport est le moins contraignant d'Europe.",
+      },
+      {
+        heading: "Alimentation : de 300 à 600 € selon les choix",
+        body: "Courses pour une personne à Paris : 300–400 €/mois (Lidl/Aldi, marché + épiceries de quartier). Budget moyen 'décontracté' : 400–500 €. Bio/producteur + frais : 500–650 €. Restaurant : un déjeuner formule au bistro de quartier coûte 14–18 € ; un dîner brasserie 25–40 € par personne. Deux repas au restaurant/semaine = 180–250 €/mois. Café quotidien en terrasse (impossible à éviter) : 2 €/café × 20 = 40 €/mois. Budget alimentation réaliste pour un Parisien qui cuisine chez lui mais sort manger 2x/semaine : 500–700 €/mois.",
+      },
+      {
+        heading: "Le reste : activités, sorties, divers",
+        body: "Abonnement téléphone mobile (forfait 50–100 Go) : 20–35 €/mois. Internet (fibre) : 25–40 €/mois. Salle de sport (Basic Fit, Neoness) : 30–50 €/mois. Streaming + services (Netflix, Spotify, etc.) : 30–50 €/mois. Cinéma (UGC, MK2) : abonnement mensuel 22 € illimité. Sorties culturelles (expositions, concerts, théâtre) : variable mais Paris est l'une des rares villes où vous pouvez vous cultiver quasi gratuitement (musées nationaux gratuits -26 ans, Jours Gratuits premier dimanche du mois pour tous).",
+      },
+      {
+        heading: "Récapitulatif et comparaison",
+        body: "Budget parisien célibataire selon le mode de vie : minimum (coloc 700 €, Navigo 87 €, alimentation sobre 500 €, divers 100 €) = 1 400–1 600 €/mois. Confortable (T2 1 300 €, transport 130 €, alimentation 600 €, sorties 300 €, divers 200 €) = 2 500–3 000 €/mois. Aisé (T3 centre 2 000 €, alimentation et restau 900 €, divers/voyages 500 €) = 3 500–4 500 €/mois. Pour un couple en T3 (1 800 €) vivant convenablement : comptez 4 000–5 000 €/mois. Le SMIC net mensuel en 2026 est d'environ 1 450 € — à Paris, il permet de vivre, pas de s'épanouir, hors colocation.",
+      },
+    ],
+    relatedCities: ["paris", "lyon", "bordeaux", "toulouse", "nantes"],
+    relatedGuides: [
+      "budget-vivre-en-france-comparatif",
+      "quitter-paris-province-teletravail-guide-complet-2025",
+    ],
+    tags: ["budget mensuel Paris 2026", "combien coûte vivre Paris", "prix Paris loyer transport courses", "budget vivre Paris célibataire couple 2026", "Paris coût de la vie réaliste 2026"],
+  },
+  {
+    slug: "budget-mensuel-realiste-lyon-2026",
+    title: "Budget mensuel réaliste à Lyon en 2026 : ce que ça coûte vraiment",
+    metaTitle: "Budget mensuel Lyon 2026 — Ce que coûte vraiment vivre à Lyon",
+    metaDesc: "Combien faut-il pour vivre à Lyon en 2026 ? Budget mensuel détaillé : loyer, transport, courses, restau. Chiffres réels pour célibataire et couple.",
+    category: "budget",
+    emoji: "🥩",
+    readMinutes: 7,
+    publishedAt: "2026-05-01",
+    updatedAt: "2026-05-26",
+    intro: "Lyon est souvent présentée comme la ville idéale entre Paris (trop chère) et la province (trop loin). La réalité des budgets lyonnais est plus contrastée : le centre de Lyon (Presqu'île, Croix-Rousse) atteint des niveaux parisiens, mais la périphérie et Villeurbanne restent très accessibles. Et Lyon compense par une gastronomie supérieure au rapport qualité-prix parisien.",
+    sections: [
+      {
+        heading: "Logement : selon le quartier, tout change",
+        body: "Studio 25 m² en Presqu'île ou Croix-Rousse : 650–900 €/mois. T2 40 m² aux Brotteaux, Cité Internationale : 850–1 200 €/mois. T3 65 m² à Villeurbanne (Charpennes, Gratte-Ciel) : 850–1 150 €/mois. T3 65 m² dans le 8e ou 9e arrondissement lyonnais : 950–1 300 €/mois. Colocation chambre dans un T4 : 500–700 €/mois. La leçon : habitez Villeurbanne si vous voulez les transports (métro direct) sans les prix de la Presqu'île. Le rapport qualité-prix est meilleur de 20–30 % pour une surface équivalente.",
+      },
+      {
+        heading: "Transport : TCL et alternatives",
+        body: "TCL (Transports en Commun Lyonnais) abonnement mensuel : 65 €. Le réseau couvre bien Lyon et Villeurbanne (métro 4 lignes, tram 8 lignes, bus, funiculaires). Vélo'v abonnement annuel : 25 €/an = 2 €/mois. Lyon est l'une des villes françaises les plus cyclables — la piste cyclable des quais de Saône est de niveau européen. Voiture : peu nécessaire pour un quotidien lyonnais. Si vous travaillez à Part-Dieu ou à la Confluence, les transports publics couvrent parfaitement.",
+      },
+      {
+        heading: "Alimentation : le bonus lyonnais",
+        body: "Lyon est la seule grande ville de France où la gastronomie de qualité est accessible à budget modeste. Un déjeuner en bouchon lyonnais (traditionnel) : 15–22 € avec entrée/plat ou plat/dessert. Un formule-midi dans un bistro ordinaire : 12–16 €. Le marché de la Croix-Rousse (mardi et vendredi) et les Halles Paul Bocuse (quotidien) permettent des courses de qualité à prix raisonnables. Budget alimentation pour une personne qui mange bien à Lyon : 350–500 €/mois (courses + 2 restaurants/semaine). C'est comparable à Paris pour une qualité sensiblement supérieure.",
+      },
+      {
+        heading: "Le reste : divers, sorties, culture",
+        body: "Abonnement mobile : 20–35 €. Fibre Internet : 25–35 €. Salle de sport : 25–45 €. Lyon a une offre culturelle de premier plan (Opéra de Lyon, Musées des Beaux-Arts, Musée des Confluences, Nuits de Fourvière, Fête des Lumières en décembre — gratuite) qui enrichit le budget temps sans forcément alourdir le budget euros. Cinéma (Pathé, UGC) : abonnement mensuel ~22 €.",
+      },
+      {
+        heading: "Récapitulatif Lyon vs Paris",
+        body: "Budget lyon célibataire confortable : logement T2 900 €, transport 65 €, alimentation 500 €, divers/sorties 250 €, abonnements 100 € = 1 800–2 000 €/mois. Même profil à Paris : 2 500–3 000 €. L'écart est de 25–35 % en faveur de Lyon. Pour un couple en T3 Villeurbanne (950 €) vivant bien : 3 000–3 500 €/mois. Lyon offre le meilleur ratio qualité de vie / budget parmi les grandes métropoles françaises — c'est objectif.",
+      },
+    ],
+    relatedCities: ["lyon", "grenoble", "dijon", "saint-etienne", "chambery"],
+    relatedGuides: [
+      "budget-mensuel-realiste-paris-2026",
+      "budget-vivre-en-france-comparatif",
+    ],
+    tags: ["budget mensuel Lyon 2026", "combien coûte vivre Lyon", "prix Lyon loyer transport courses", "budget vivre Lyon célibataire couple 2026", "Lyon coût de la vie réaliste 2026"],
+  },
+  {
+    slug: "budget-mensuel-realiste-bordeaux-2026",
+    title: "Budget mensuel réaliste à Bordeaux en 2026 : ce que ça coûte vraiment",
+    metaTitle: "Budget mensuel Bordeaux 2026 — Ce que coûte vraiment vivre à Bordeaux",
+    metaDesc: "Combien faut-il pour vivre à Bordeaux en 2026 ? Budget mensuel détaillé : loyer, tram, courses, vin. Chiffres réels pour célibataire et couple.",
+    category: "budget",
+    emoji: "🍷",
+    readMinutes: 7,
+    publishedAt: "2026-05-01",
+    updatedAt: "2026-05-26",
+    intro: "Bordeaux a connu une explosion des prix depuis l'arrivée du TGV en 2017. La ville n'est plus la bonne affaire qu'elle était pour les primo-accédants, mais elle reste nettement moins chère que Paris — et offre un cadre de vie, une gastronomie, et un accès à l'Atlantique que Paris ne peut pas concurrencer. Ce guide donne les chiffres réels pour un budget Bordeaux en 2026.",
+    sections: [
+      {
+        heading: "Logement : l'effet TGV cinq ans plus tard",
+        body: "Studio 22 m² dans le Triangle d'Or ou les Chartrons : 600–850 €/mois. T2 40 m² en Chartrons ou Saint-Michel : 800–1 100 €/mois. T3 65 m² à La Bastide (rive droite) ou Bordeaux-Lac : 850–1 200 €/mois. T3 65 m² en Caudéran (maisons avec jardin) : 950–1 350 €/mois. La Bastide est la valeur montante de Bordeaux — moins chère que la rive gauche mais bien connectée par tram. Colocation chambre T4 : 500–680 €/mois.",
+      },
+      {
+        heading: "Transport : le tramway bordelaix",
+        body: "TBM (Transports Bordeaux Métropole) abonnement mensuel : 57 €. Le tramway bordelais (4 lignes) est l'un des plus étendus de France — il couvre la quasi-totalité de la métropole. Vélo : Vcub abonnement annuel 30 €. La Bordeaux à Vélo est praticable (plat, relativement sécurisé le long des quais). Voiture : moins nécessaire qu'il y a dix ans, mais utile pour les excursions Médoc/Arcachon le week-end.",
+      },
+      {
+        heading: "Alimentation et vin : vivre dans la capitale du vin",
+        body: "Marché des Capucins (marché central, tous les jours sauf lundi) : le meilleur marché couvert de Bordeaux pour la qualité/prix. Budget courses pour une personne : 300–420 €/mois. L'avantage bordelais : le vin. Un bon bordeaux régional en caviste se trouve à 6–12 €; un saint-émilion d'appellation simple à 12–20 €. Budget restaurant : un déjeuner en bistro de quartier : 13–18 €; un dîner confortable : 25–40 €/personne. La culture de l'apéro bordelais (rosé, gougères, charcuterie) est une dépense sociale quasi-incontournable.",
+      },
+      {
+        heading: "Le reste : divers et qualité de vie",
+        body: "Abonnements (mobile, Internet, streaming) : 70–110 €/mois. Salle de sport : 25–45 €. Sorties culturelles : Bordeaux a une offre correcte (Opéra National de Bordeaux, CAPC Musée d'Art Contemporain, Cité du Vin) mais moins dense que Lyon ou Paris. Les plages de l'Atlantique (Arcachon, Lacanau, Hourtin) sont à 45–60 min en voiture ou en TER — budget essentiel à l'été bordelais.",
+      },
+      {
+        heading: "Récapitulatif",
+        body: "Budget bordelais célibataire confortable : T2 900 €, tram 57 €, alimentation 500 €, vin/sorties 200 €, divers 150 € = 1 800–2 100 €/mois. Pour un couple en T3 La Bastide (950 €) : 3 000–3 600 €/mois. Bordeaux est à environ 15–20 % moins cher que Lyon pour un mode de vie comparable, et 30–40 % moins cher que Paris. Le Médoc et Arcachon compensent l'absence d'accès montagne.",
+      },
+    ],
+    relatedCities: ["bordeaux", "toulouse", "la-rochelle", "pau", "biarritz"],
+    relatedGuides: [
+      "budget-mensuel-realiste-paris-2026",
+      "budget-mensuel-realiste-lyon-2026",
+    ],
+    tags: ["budget mensuel Bordeaux 2026", "combien coûte vivre Bordeaux", "prix Bordeaux loyer tramway vin", "budget vivre Bordeaux célibataire couple 2026", "Bordeaux coût de la vie TGV 2026"],
+  },
+  {
+    slug: "budget-mensuel-realiste-toulouse-2026",
+    title: "Budget mensuel réaliste à Toulouse en 2026 : ce que ça coûte vraiment",
+    metaTitle: "Budget mensuel Toulouse 2026 — Ce que coûte vraiment vivre à Toulouse",
+    metaDesc: "Combien faut-il pour vivre à Toulouse en 2026 ? Budget mensuel détaillé : loyer, métro, courses, cassoulet. Chiffres réels pour célibataire et couple.",
+    category: "budget",
+    emoji: "🌹",
+    readMinutes: 7,
+    publishedAt: "2026-05-01",
+    updatedAt: "2026-05-26",
+    intro: "Toulouse est souvent citée comme la ville française qui offre le meilleur rapport coût-soleil-emploi. La 'Ville Rose' combine 300 jours de soleil, un marché de l'emploi aéronautique et tech solide, et des prix immobiliers et locatifs encore inférieurs à Lyon ou Bordeaux. Ce guide détaille ce que vivre à Toulouse coûte réellement en 2026.",
+    sections: [
+      {
+        heading: "Logement : la Ville Rose est encore abordable",
+        body: "Studio 22 m² dans le Capitole ou le quartier des Carmes : 550–800 €/mois. T2 40 m² à Saint-Cyprien ou Compans-Caffarelli : 700–1 000 €/mois. T3 65 m² à Côte Pavée ou Lardenne : 850–1 200 €/mois. T3 65 m² à Blagnac (proche Airbus, bien connecté) : 800–1 100 €/mois. Colocation chambre T4 : 420–620 €/mois — Toulouse est l'une des villes étudiantes les plus actives en colocation. La leçon : Blagnac et Colomiers sont les premiers arrêts de banlieue proche et offrent les meilleures valeurs pour les salariés Airbus.",
+      },
+      {
+        heading: "Transport : métro et Tisséo",
+        body: "Tisséo abonnement mensuel (métro + tram + bus) : 63 €. Le réseau toulousain (2 lignes de métro, 2 lignes de tram, bus) est correct pour le centre mais moins dense que Lyon ou Bordeaux en périphérie. Vélo'Toulouse abonnement annuel : 15 €. La Garonne et le Canal du Midi sont agréables en vélo mais le réseau cyclable reste inégal. Les quartiers industriels (Blagnac/Colomiers pour Airbus) sont mieux desservis en transport qu'autrefois avec la ligne T2 du tram.",
+      },
+      {
+        heading: "Alimentation et gastronomie gasconne",
+        body: "Toulouse est la capitale du cassoulet et de la confiture de violette, mais surtout une ville où le marché Victor Hugo (quotidien, couvert) est une institution. Budget courses pour une personne : 280–400 €/mois. Le canard confit, le foie gras, le saucisson de Toulouse (à ne pas confondre avec le saucisson ordinaire) se trouvent à prix raisonnables dans les épiceries spécialisées. Déjeuner au bistro toulousain : 12–18 €. Le rugby est une religion sociale — suivre le Stade Toulousain (Top14) est une dépense culturelle qui s'intègre au mode de vie local.",
+      },
+      {
+        heading: "Budget récapitulatif",
+        body: "Budget toulousain célibataire confortable : T2 800 €, transport 63 €, alimentation 450 €, sorties 200 €, divers 150 € = 1 650–1 950 €/mois. Couple en T3 Capitole-Carmes (1 000 €) : 2 800–3 300 €/mois. Toulouse est à environ 10–15 % moins cher que Bordeaux pour un mode de vie comparable et 25–35 % moins cher que Paris. Les Pyrénées (ski à Ax-les-Thermes, Cauterets à 1h30–2h) ajoutent une dimension outdoor qui n'est pas dans le budget mais dans la qualité de vie.",
+      },
+      {
+        heading: "Le coût caché : la voiture",
+        body: "Toulouse est plus dépendante de la voiture que Lyon ou Bordeaux, surtout pour les communes de la ceinture industrielle (Blagnac, Colomiers, Labège). Le parc automobile de la famille toulousaine est plus élevé que dans les autres grandes villes françaises. Budget voiture à Toulouse (amortissement, assurance, carburant, entretien) : 250–450 €/mois. C'est le coût caché qui peut rogner l'avantage de Toulouse sur Lyon. En compensant : le stationnement résidentiel reste moins cher qu'à Lyon.",
+      },
+    ],
+    relatedCities: ["toulouse", "bordeaux", "montpellier", "nimes", "pau"],
+    relatedGuides: [
+      "budget-mensuel-realiste-paris-2026",
+      "budget-mensuel-realiste-bordeaux-2026",
+    ],
+    tags: ["budget mensuel Toulouse 2026", "combien coûte vivre Toulouse", "prix Toulouse loyer métro", "budget vivre Toulouse célibataire couple 2026", "Toulouse coût de la vie cassoulet 2026"],
+  },
+  {
+    slug: "budget-mensuel-realiste-montpellier-2026",
+    title: "Budget mensuel réaliste à Montpellier en 2026 : ce que ça coûte vraiment",
+    metaTitle: "Budget mensuel Montpellier 2026 — Ce que coûte vraiment vivre à Montpellier",
+    metaDesc: "Combien faut-il pour vivre à Montpellier en 2026 ? Budget mensuel détaillé : loyer, tram, mer, plages. Chiffres réels pour célibataire et couple.",
+    category: "budget",
+    emoji: "🌊",
+    readMinutes: 7,
+    publishedAt: "2026-05-01",
+    updatedAt: "2026-05-26",
+    intro: "Montpellier est la grande ville méditerranéenne française la plus abordable — plus accessible que Nice, comparable à Marseille mais perçue comme plus sûre, et moins chère que Bordeaux. C'est pour cela qu'elle croît si vite : 350 000 habitants aujourd'hui, estimation 500 000 pour 2040. Ce guide donne les budgets réels pour vivre à Montpellier en 2026, avec la mer à 12 km.",
+    sections: [
+      {
+        heading: "Logement : un marché sous pression mais encore accessible",
+        body: "Studio 22 m² à l'Écusson (centre historique) ou Antigone : 550–780 €/mois. T2 40 m² en Port-Marianne ou Beaux-Arts : 720–980 €/mois. T3 65 m² en Castelnau-le-Lez (proche tram) : 800–1 100 €/mois. T3 65 m² à Montpellier Nord (Cévennes, Croix d'Argent) : 700–950 €/mois. Colocation chambre T4 : 430–600 €/mois — Montpellier est une ville très étudiante et la coloc est culturellement ancrée. Les quartiers Mosson et La Paillade ont les prix les plus bas (T2 à 550–700 €) mais aussi les défis de sécurité les plus documentés.",
+      },
+      {
+        heading: "Transport : 5 lignes de tram",
+        body: "TaM (Transports agglomération de Montpellier) abonnement mensuel : 55 €. Montpellier a l'un des meilleurs réseaux de tram de France (5 lignes, extensibles) — c'est une alternative sérieuse à la voiture pour 80 % des déplacements dans la métropole. Vélomagg abonnement annuel : 25 €. La ville est globalement plate — le vélo est pratique et utilisé. La voiture est utile pour aller à la mer (Palavas-les-Flots à 12 km, accès difficile en tram).",
+      },
+      {
+        heading: "La mer : gratuite mais pas sans coût",
+        body: "L'accès à la mer est l'argument Montpellier — et il est réel. Palavas-les-Flots (12 km), Carnon-Plage (16 km), La Grande-Motte (20 km) sont accessibles par le tram ligne 3 (Pérols) + correspondance, ou en 15 min de voiture. L'été méditerranéen (juin–septembre) est chaud (32–38°C) et nécessite quelques investissements : climatisation (150–200 € à l'achat, +30–50 € sur la facture EDF en été), protection solaire, équipement plage. La mer est gratuite mais l'équipement de la vie estivale méridionale est un coût réel.",
+      },
+      {
+        heading: "Alimentation et gastronomie languedocienne",
+        body: "Le marché du Lez (couvert, week-end) et les halles Laissac (quotidien) sont les meilleures adresses pour les courses fraîches. Budget courses pour une personne : 270–380 €/mois. Montpellier est dans le triangle des vins du Languedoc (Pic Saint-Loup à 25 km, Saint-Chinian, Faugères, Clairette de Bellegarde) — un verre de vin languedocien de qualité au caviste coûte 5–10 €. Tapas et mezze méditerranéens sont le format social dominant.",
+      },
+      {
+        heading: "Récapitulatif",
+        body: "Budget montpelliérain célibataire confortable : T2 850 €, tram 55 €, alimentation 420 €, sorties/mer 200 €, divers 150 € = 1 680–1 950 €/mois. Pour un couple en T3 Port-Marianne (1 000 €) : 2 900–3 400 €/mois. Montpellier est l'une des villes françaises avec le meilleur rapport soleil+mer+budget — légèrement moins chère que Bordeaux, nettement moins chère que Nice pour une qualité de vie méditerranéenne comparable.",
+      },
+    ],
+    relatedCities: ["montpellier", "toulouse", "nimes", "beziers", "perpignan"],
+    relatedGuides: [
+      "budget-mensuel-realiste-paris-2026",
+      "budget-mensuel-realiste-toulouse-2026",
+    ],
+    tags: ["budget mensuel Montpellier 2026", "combien coûte vivre Montpellier", "prix Montpellier loyer tram mer", "budget vivre Montpellier célibataire couple 2026", "Montpellier coût de la vie méditerranée 2026"],
+  },
+  {
+    slug: "budget-mensuel-realiste-nice-2026",
+    title: "Budget mensuel réaliste à Nice en 2026 : ce que ça coûte vraiment",
+    metaTitle: "Budget mensuel Nice 2026 — Ce que coûte vraiment vivre à Nice",
+    metaDesc: "Combien faut-il pour vivre à Nice en 2026 ? Budget mensuel détaillé : loyer Côte d'Azur, tram, mer, Monaco. Chiffres réels pour célibataire et couple.",
+    category: "budget",
+    emoji: "🌴",
+    readMinutes: 7,
+    publishedAt: "2026-05-01",
+    updatedAt: "2026-05-26",
+    intro: "Nice est l'une des villes françaises les plus chères — troisième derrière Paris et ses satellites immédiats. La Côte d'Azur se paie. Mais Nice compense par un cadre exceptionnel (Promenade des Anglais, Vieux-Nice, arrière-pays), un ensoleillement parmi les meilleurs de France (2 800 heures/an), et un accès à Monaco (22 min) et à l'Italie (30 min jusqu'à Vintimille). Ce guide donne les chiffres réels pour budgétiser une vie niçoise en 2026.",
+    sections: [
+      {
+        heading: "Logement : les prix de la Côte d'Azur",
+        body: "Studio 20–25 m² dans Vieux-Nice ou promenade : 700–1 100 €/mois. T2 40 m² dans Nice nord (Libération, Cimiez) : 900–1 300 €/mois. T2 45 m² dans les quartiers intermédiaires (Musiciens, Gambetta) : 850–1 150 €/mois. T3 65 m² dans Nice Est ou Nord : 1 100–1 600 €/mois. Colocation chambre T4 : 600–850 €/mois. Nice est sensiblement plus chère que Bordeaux ou Toulouse pour une même surface, mais reste à 20–30 % sous Paris dans les arrondissements comparables. Les studios étudiants en Nice Nord descendent à 600 €/mois.",
+      },
+      {
+        heading: "Transport : le tram niçois et les alternatives",
+        body: "Lignes d'Azur abonnement mensuel : 17 € (abonnement Liberté). C'est l'un des abonnements urbains les moins chers de France — et le réseau est bien développé (2 lignes de tram, bus). Train vers Monaco : 22 min, billet ~4 € aller simple. Vers Cannes : 40 min, billet ~7 €. La voiture est utile pour l'arrière-pays niçois (Vence, Saint-Paul-de-Vence, Entrevaux) — mais en ville, entre les prix du stationnement (1,5–3 €/h) et les embouteillages des axes côtiers, elle est pénalisante.",
+      },
+      {
+        heading: "Alimentation : le marché du Cours Saleya",
+        body: "Le marché du Cours Saleya (Vieux-Nice, mardi–dimanche matin) est le marché emblématique — socca, fleurs de courgette, olives, poissons locaux. Budget courses pour une personne : 320–450 €/mois. La socca à 3 € et la pissaladière à 2,50 € sont les snacks de rue qui remplacent avantageusement le sandwich parisien. Un repas en brasserie Vieux-Nice : 18–28 €. La cuisine niçoise (daube niçoise, salade niçoise, pan bagnat, bouillabaisse à Antibes) s'invite à prix raisonnables dans les trattorias du Vieux-Nice.",
+      },
+      {
+        heading: "Le premium Côte d'Azur : coûts cachés",
+        body: "Nice a des coûts cachés que d'autres villes françaises n'ont pas : le coût de la culture Côte d'Azur est réel. Sortir dans les bars et restaurants du Vieux-Nice est 20–30 % plus cher que dans des établissements équivalents à Toulouse. Les excursions Côte d'Azur (Cannes, Saint-Tropez, Monaco, les Calanques d'Esterel) ont un budget propre — location scooter, parking, restaurants de bord de mer. La climatisation en été (juillet–août, 32–38°C) est indispensable et ajoute 40–80 € à la facture EDF.",
+      },
+      {
+        heading: "Récapitulatif",
+        body: "Budget niçois célibataire confortable : T2 1 000 €, transport 17 €, alimentation 480 €, sorties 350 €, divers 200 € = 2 050–2 400 €/mois. Couple en T3 Nice Musiciens (1 300 €) : 3 500–4 200 €/mois. Nice est à 10–15 % plus chère que Lyon pour un mode de vie comparable, mais offre quelque chose qu'aucune autre grande ville française ne peut proposer : la Promenade des Anglais, la Côte d'Azur, et l'hiver méditerranéen doux. Le jugement coût-valeur dépend du poids que vous accordez à ce cadre spécifique.",
+      },
+    ],
+    relatedCities: ["nice", "antibes", "toulon", "marseille", "cannes"],
+    relatedGuides: [
+      "budget-mensuel-realiste-paris-2026",
+      "budget-mensuel-realiste-lyon-2026",
+    ],
+    tags: ["budget mensuel Nice 2026", "combien coûte vivre Nice Côte d'Azur", "prix Nice loyer tram Promenade", "budget vivre Nice célibataire couple 2026", "Nice coût de la vie méditerranée 2026"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
