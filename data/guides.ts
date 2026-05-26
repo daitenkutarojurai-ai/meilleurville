@@ -26072,6 +26072,485 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["10 choses à faire à Mulhouse", "activités Mulhouse 2026", "sorties Mulhouse", "que faire à Mulhouse", "Cité Automobile Bugatti Cité Train Écomusée Alsace"],
   },
+  {
+    slug: "10-choses-a-faire-a-arles-2026",
+    title: "10 choses à faire à Arles (les arènes et la Camargue de Van Gogh)",
+    metaTitle: "10 choses à faire à Arles 2026 — activités et sorties locales",
+    metaDesc: "Arènes romaines, Camargue, Rencontres de la photographie et traces de Van Gogh : 10 activités à Arles pour découvrir la capitale des Bouches-du-Rhône ancienne.",
+    category: "tourisme",
+    emoji: "🌻",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Arles est une ville de 50 000 habitants classée UNESCO qui concentre plus de monuments romains au km² que n'importe quelle ville de France — amphithéâtre, théâtre antique, nécropole des Alyscamps, thermes. C'est aussi la ville où Van Gogh a peint 300 toiles en 15 mois, et le point de départ naturel de la Camargue.",
+    sections: [
+      {
+        heading: "1. Les arènes d'Arles — l'amphithéâtre romain du Ier siècle",
+        body: "Les arènes d'Arles (Ier siècle ap. J.-C., 136 m × 107 m, 20 000 places) sont avec celles de Nîmes les amphithéâtres romains les mieux conservés de France. Leur particularité : elles ont servi de quartier d'habitation au Moyen Âge — on y a construit 200 maisons et deux églises à l'intérieur, démolies au XIXe siècle pour dégager les gradins. Les corridas (abrivado, courses camarguaises) s'y tiennent encore lors des férias de Pâques et de septembre.",
+      },
+      {
+        heading: "2. Les Rencontres d'Arles — le festival de photographie",
+        body: "Les Rencontres d'Arles (juillet, depuis 1970) sont le plus ancien et le plus influent festival de photographie au monde : 30 expositions, 100 000 visiteurs, découverte de photographes inconnus devenus légendes (William Klein, Sebastião Salgado y ont été révélés). Les expositions investissent des monuments romains, des usines désaffectées, des espaces inattendus dans toute la ville. Nocturnes le mercredi soir.",
+      },
+      {
+        heading: "3. Sur les traces de Van Gogh — 300 toiles en 15 mois",
+        body: "Van Gogh arrive à Arles en février 1888 et y peint 300 toiles en 15 mois (La Chambre à coucher, La Nuit étoilée sur le Rhône, La Terrasse du café le soir, Les Tournesols). La Fondation Vincent Van Gogh Arles (hôtel Léautaud de Donines) expose des œuvres originales de Van Gogh et des artistes contemporains en dialogue. Le circuit «Sur les pas de Van Gogh» (plaques de localisation dans la ville) permet de retrouver les vues exactes de ses toiles.",
+      },
+      {
+        heading: "4. La Camargue — chevaux blancs et flamants roses",
+        body: "La Camargue (parc naturel régional, 930 km²) commence au sud d'Arles : delta du Rhône entre bras de Grand Rhône et Petit Rhône, étangs saumâtres, rizières. Les chevaux camargues (race locale, robe blanche à l'âge adulte) et les taureaux camargues vivent en semi-liberté. Les flamants roses (10 000 à 15 000 individus en hiver) nichent à la réserve de la Tour du Valat. Balades à cheval depuis les mas du Sambuc.",
+      },
+      {
+        heading: "5. Les Alyscamps — la nécropole romaine et médiévale",
+        body: "Les Alyscamps (Champs Élysées en latin) étaient l'une des nécropoles les plus célèbres de l'Antiquité — une allée de sarcophages de pierre menant à l'église Saint-Honorat. Gauguin et Van Gogh les ont peints ensemble en novembre 1888 (leurs versions se répondent dans deux musées différents aujourd'hui). L'allée des sarcophages reste intacte, ombragée de platanes, à 10 min à pied du centre.",
+      },
+      {
+        heading: "6. Le théâtre antique et le Musée Départemental de l'Arles Antique",
+        body: "Le théâtre antique d'Arles (Ier siècle av. J.-C.) ne conserve que deux colonnes debout — le reste a été canibalisé pour construire les remparts médiévaux. Le Musée Départemental de l'Arles Antique (MDAA, bâtiment bleu triangulaire de Henri Ciriani, 1995) réunit les plus belles pièces archéologiques arlésienne : le buste de Jules César (retrouvé dans le Rhône, unique portrait en bronze de son vivant), la Vénus d'Arles et la barge romaine du Ier siècle.",
+      },
+      {
+        heading: "7. Les Saintes-Maries-de-la-Mer — le pèlerinage des Gitans",
+        body: "Les Saintes-Maries-de-la-Mer, à 40 km d'Arles, est le village au bout de la Camargue : plage de sable blanc, église fortifiée du XIe siècle, et chaque mai, le grand pèlerinage gitan de Sara la Noire (la servante noire des Saintes) — 10 000 Tsiganes de toute l'Europe. Hors pèlerinage : baignade (eau peu profonde), location de chevaux camargues pour traverser les marais, bars de pêcheurs.",
+      },
+      {
+        heading: "8. Le marché d'Arles et la cuisine camarguaise",
+        body: "Le marché d'Arles (mercredi place Voltaire, samedi boulevard des Lices — l'un des plus grands marchés de Provence) déborde de produits locaux : riz de Camargue (AOP, blanc ou rouge, cultivé dans les marais), taureaux camarguais (gardiane de taureau, ragoût au vin rouge et olives), tellines (petits coquillages pêchés dans le sable des plages). Le restaurant Le Gibolin (cave-restaurant, produits locaux) est l'adresse incontournable.",
+      },
+      {
+        heading: "9. Saint-Gilles — l'abbatiale romane du chemin de Saint-Jacques",
+        body: "Saint-Gilles, à 20 km d'Arles, abrite l'une des plus grandes abbatiales romanes de France (XIe-XIIe siècles) avec sa façade à trois portails sculptés (égalée seulement par Moissac et Vézelay) — une étape majeure du chemin de Saint-Jacques-de-Compostelle (Via Tolosana). La vis de Saint-Gilles (escalier hélicoïdal en pierre suspendu, sans pilier central) est un chef-d'œuvre de stéréotomie médiévale.",
+      },
+      {
+        heading: "10. Excursion au Pont de Gau et aux étangs de Vaccarès",
+        body: "Le Parc Ornithologique de Pont-de-Gau (à 35 km d'Arles, en entrée de Camargue) est le meilleur endroit pour observer les flamants roses à portée de main sur des passerelles de bois. L'étang de Vaccarès (6 500 ha, réserve nationale) est interdit d'accès motorisé mais visible depuis la route des digues. En novembre-mars : grues cendrées en migration, canards plongeurs, hérons pourprés.",
+      },
+    ],
+    relatedCities: ["arles"],
+    relatedGuides: [
+      "quitter-arles-guide-2026",
+      "acheter-a-arles-quel-quartier-budget-2026",
+      "vivre-dans-le-gard-guide-2025",
+    ],
+    tags: ["10 choses à faire à Arles", "activités Arles 2026", "sorties Arles", "que faire à Arles", "arènes romaines Camargue Van Gogh Rencontres photographie"],
+  },
+  {
+    slug: "10-choses-a-faire-a-montauban-2026",
+    title: "10 choses à faire à Montauban (la ville rose de Ingres et du Tarn-et-Garonne)",
+    metaTitle: "10 choses à faire à Montauban 2026 — activités et sorties locales",
+    metaDesc: "Place Nationale en brique rose, musée Ingres-Bourdelle, gorges de l'Aveyron et foie gras : 10 activités à Montauban pour découvrir la préfecture du Tarn-et-Garonne.",
+    category: "tourisme",
+    emoji: "🖼️",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Montauban est la première ville construite à volonté (bastide royale, 1144) en France, bâtie entièrement en brique rose du Tarn — sa couleur caractéristique qu'elle partage avec Toulouse, à 50 km. Ses 60 000 habitants vivent dans une ville natale d'Ingres (le peintre néoclassique) et d'Antoine Bourdelle (le sculpteur), dont les œuvres sont conservées dans un musée exceptionnel au bord du Tarn.",
+    sections: [
+      {
+        heading: "1. Place Nationale — les arcades de brique rose",
+        body: "La place Nationale est l'une des plus belles places à arcades de France : entièrement entourée de maisons à arcades en brique rose (XVIIe siècle, reconstruites après un incendie en 1614), elle est la place centrale de la bastide médiévale. Les arcades abritent cafés, restaurants et commerces — la promenade est agréable à toute heure. Le marché du samedi matin est l'un des marchés de plein air les plus animés du Midi-Pyrénées.",
+      },
+      {
+        heading: "2. Musée Ingres-Bourdelle — deux génies en une collection",
+        body: "Le musée Ingres-Bourdelle (palais épiscopal du XVIIe siècle) réunit les œuvres de deux artistes montalbanais de rang mondial : Jean-Auguste-Dominique Ingres (peintre néoclassique, 1780-1867 — La Grande Odalisque, Le Bain turc) et Antoine Bourdelle (sculpteur, 1861-1929 — Héraclès archer, buste de Beethoven). 5 000 dessins d'Ingres et les moulages originaux de Bourdelle en font une collection de premier rang.",
+      },
+      {
+        heading: "3. Pont Vieux — le pont médiéval du XIVe siècle",
+        body: "Le Pont Vieux de Montauban (XIVe siècle, 7 arches en brique rose sur le Tarn) est l'un des plus beaux ponts médiévaux de France — classé depuis 1840. La vue depuis le pont sur la cathédrale Notre-Dame de l'Assomption (bâtie en 1692 sur ordre de Louis XIV) et les quais en brique rose est la carte postale de la ville. Le quai Montmurat, côté rive gauche, est le quartier de promenade du soir.",
+      },
+      {
+        heading: "4. Les gorges de l'Aveyron — canoë et villages troglodytes",
+        body: "Les gorges de l'Aveyron, à 30 km de Montauban, sont un canyon de calcaire blanc creusé par l'Aveyron entre Bruniquel et Saint-Antonin-Noble-Val. Bruniquel (village médiéval perché sur une falaise, château des XIe-XVIIe siècles) et Saint-Antonin-Noble-Val (plus vieille maison romane civile de France, marché le dimanche) sont les deux joyaux. Location de canoës (15 km de parcours en eau calme, haltes sur les plages de galets).",
+      },
+      {
+        heading: "5. Moissac — l'abbatiale romane et son cloître",
+        body: "Moissac, à 25 km de Montauban, possède l'un des plus importants ensembles romans de France : le tympan de l'abbaye Saint-Pierre (1120-1135, Christ en gloire entouré des 24 vieillards de l'Apocalypse) est le chef-d'œuvre absolu de la sculpture romane. Le cloître (76 chapiteaux sculptés, 1100) est l'un des deux seuls cloîtres romans complets de France. Étape majeure du chemin de Saint-Jacques (Via Tolosana). Le chasselas de Moissac (raisin de table doré, AOP) est vendu en saison sur le marché.",
+      },
+      {
+        heading: "6. Lauzerte — le plus beau village de Quercy blanc",
+        body: "Lauzerte, à 45 km de Montauban, est classé parmi les plus beaux villages de France : bastide du XIIIe siècle perchée sur un éperon blanc au-dessus des coteaux de Quercy. Sa place des Cornières (arcades médiévales) et ses ruelles de pierre blanche restent à l'écart des circuits touristiques massifs. Étape du chemin de Saint-Jacques. Vues sur les collines verdoyantes du Quercy blanc jusqu'aux Pyrénées par temps clair.",
+      },
+      {
+        heading: "7. Foie gras et cassoulet du Tarn-et-Garonne",
+        body: "Le Tarn-et-Garonne est l'un des quatre départements du triangle du foie gras (avec Gers, Landes, Lot-et-Garonne). Foie gras de canard mi-cuit, magret séché, confit de canard — les marchés au gras de Montauban (décembre-janvier) sont parmi les plus fréquentés de la région. Le cassoulet montalbannais (version légèrement différente de Castelnaudary et Carcassonne — haricots tarbais, confit de canard, saucisse de Toulouse) est le plat de résistance hivernal.",
+      },
+      {
+        heading: "8. Canal de Garonne — véloroute et bastides",
+        body: "Le canal de Garonne (Moissac-Toulouse, 193 km) passe à 10 km de Montauban. La véloroute Via Garona (EuroVelo 17) longe le canal sur berges plates, entre platanes centenaires. Les bastides du Tarn-et-Garonne (Valence-d'Agen, Auvillar — classé plus beau village, Dunes) sont accessibles à vélo depuis Moissac. Auvillar, perché sur une falaise au-dessus de la Garonne, possède une halle ronde du XVIIIe siècle unique en France.",
+      },
+      {
+        heading: "9. Négrepelisse et la forêt de Grésigne",
+        body: "La forêt de Grésigne (2 800 ha, chênes sessiles, hêtres) est la forêt domaniale la plus étendue du Tarn-et-Garonne, à 40 km de Montauban. Depuis Bruniquel ou Puycelsi (village classé parmi les plus beaux), des sentiers de randonnée traversent des paysages alternant vignes, châtaigneraies et bois. L'automne (champignons, couleurs) est la meilleure saison.",
+      },
+      {
+        heading: "10. Festival Jazz à Montauban",
+        body: "Jazz à Montauban (fin juillet, depuis 1981) est l'un des plus grands festivals de jazz en plein air de France : concerts gratuits sur la Place Nationale et les quais du Tarn, concerts payants dans la salle des Fêtes du Sapiac. Le festival mêle jazz traditionnel, fusion et world music. L'été montalbanais s'anime aussi avec les Festivals de la Ville (théâtre de rue, concerts de musique occitane) sur la place Nationale.",
+      },
+    ],
+    relatedCities: ["montauban"],
+    relatedGuides: [
+      "vivre-dans-le-gers-et-tarn-et-garonne-guide-2025",
+      "vivre-en-occitanie-guide-2025",
+    ],
+    tags: ["10 choses à faire à Montauban", "activités Montauban 2026", "sorties Montauban", "que faire à Montauban", "place Nationale Ingres Bourdelle gorges Aveyron Moissac"],
+  },
+  {
+    slug: "10-choses-a-faire-a-albi-2026",
+    title: "10 choses à faire à Albi (la cathédrale forteresse et Toulouse-Lautrec)",
+    metaTitle: "10 choses à faire à Albi 2026 — activités et sorties locales",
+    metaDesc: "Cathédrale Sainte-Cécile, musée Toulouse-Lautrec, vieille ville classée UNESCO et gorges du Tarn : 10 activités à Albi pour découvrir la cité épiscopale du Tarn.",
+    category: "tourisme",
+    emoji: "🏰",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Albi est l'une des villes de brique rose les plus cohérentes de France : cathédrale, palais épiscopal, vieille ville entière en terre cuite rouge du Tarn, classé UNESCO depuis 2010. Ses 50 000 habitants vivent à l'ombre d'une cathédrale-forteresse gothique du XIIIe siècle — la plus grande cathédrale de brique au monde — et ont la chance d'abriter le plus grand musée Toulouse-Lautrec au monde.",
+    sections: [
+      {
+        heading: "1. Cathédrale Sainte-Cécile — la cathédrale-forteresse de brique",
+        body: "La cathédrale Sainte-Cécile d'Albi (1282-1480) est la plus grande cathédrale de brique du monde : 113 m de long, clocher de 78 m, murs extérieurs de 7 m d'épaisseur. Construite comme une forteresse (pas de vitraux sur les murs extérieurs, pas de contreforts — la masse de brique suffit) après la croisade contre les Cathares, sa nef unique sans pilier (de 29 m de largeur) est une prouesse architecturale. L'intérieur est intégralement peint (jubé gothique flamboyant du XVe siècle, fresques italiennes).",
+      },
+      {
+        heading: "2. Musée Toulouse-Lautrec — le plus grand musée dédié à l'artiste",
+        body: "Le musée Toulouse-Lautrec (dans le Palais de la Berbie, palais épiscopal du XIIIe siècle) est le plus grand musée dédié à Henri de Toulouse-Lautrec au monde : 1 000 œuvres (tableaux, dessins, lithographies, affiches de cabaret). Né à Albi en 1864 d'une famille aristocratique, Lautrec a peint Montmartre et le Moulin Rouge comme personne. Les jardins du Palais de la Berbie surplombent le Tarn — vue exceptionnelle.",
+      },
+      {
+        heading: "3. La vieille ville en brique — les ruelles médiévales",
+        body: "La vieille ville d'Albi (cœur classé UNESCO) est un labyrinthe de ruelles en brique rouge du XIIIe au XVIIe siècle, certaines si étroites qu'un homme seul peut en toucher les deux murs. La rue Mariès, la place du Vigan (place centrale, fontaine, cafés), le marché couvert (marché du Vigan, mardi et samedi) et les hôtels particuliers de négociants en pastel (XVe-XVIe siècles) composent le circuit de la vieille ville.",
+      },
+      {
+        heading: "4. Cordes-sur-Ciel — la bastide médiévale dans les nuages",
+        body: "Cordes-sur-Ciel, à 25 km d'Albi, est une bastide du XIIIe siècle perchée à 279 m d'altitude — régulièrement dans les nuages en automne et en hiver, d'où son nom. Ses maisons gothiques à façades sculptées (XIVe siècle) font de la Grand-Rue une allée de pierres d'exception. Les artisans (verriers, potiers, brodeuses) tiennent leurs ateliers dans ces façades médiévales. Classé parmi les plus beaux villages de France.",
+      },
+      {
+        heading: "5. Les gorges du Tarn — canoë et causse méjean",
+        body: "Les gorges du Tarn (classées Grand Site de France, à 80 km d'Albi) sont l'un des plus beaux canyons de France : falaises calcaires de 400 m au-dessus du Tarn, villages perchés (Sainte-Enimie, La Malène, Ispagnac), cirques de Navacelles et de Madasse. Descente en canoë (22 km de La Malène aux Vignes, demi-journée). Les causses Méjean et Sauveterre (plateau calcaire à 1 000 m) offrent des randonnées dans un paysage lunaire.",
+      },
+      {
+        heading: "6. Gaillac — le vignoble le plus ancien de France",
+        body: "Gaillac, à 25 km d'Albi, possède le vignoble dont l'origine est attestée depuis le Ier siècle ap. J.-C. — l'un des plus anciens de France. L'AOC Gaillac comprend des vins très divers (blanc doux, perlé, rouge, effervescent) issus de cépages locaux (mauzac, duras, fer servadou). La Maison des Vins de Gaillac (abbaye Saint-Michel) propose des dégustations. Le festival des vins de Gaillac (août) est l'un des plus animés du Sud-Ouest.",
+      },
+      {
+        heading: "7. Le Sidobre — chaos granitique des Monts de Lacaune",
+        body: "Le Sidobre (à 70 km d'Albi dans le Tarn) est un massif granitique aux formes étranges : rochers en équilibre (la Pierre Druidique, 900 tonnes sur 3 points d'appui), chaos de blocs géants dans une forêt de pins et chênes. Le Chaos de la Resse, les trois fromages (trois blocs superposés) et le Peyro Clabado (rocher de 780 tonnes sur un pivot de 1 m²) sont les formations les plus spectaculaires. Circuit pédestre de 8 km dans le chaos.",
+      },
+      {
+        heading: "8. Castres — le musée Goya hors du commun",
+        body: "Castres, à 40 km d'Albi, possède le seul musée Goya hors d'Espagne : 15 tableaux de Francisco de Goya dans un palais épiscopal conçu par Jules Hardouin-Mansart (l'architecte de Versailles). La collection complète le musée du Prado de Madrid pour les périodes mal représentées. Le quartier des tanneurs de Castres (maisons sur pilotis au-dessus de l'Agout, couleur brique et ocre) est l'une des compositions urbaines les plus photographiées du Tarn.",
+      },
+      {
+        heading: "9. Le pastel de Cocagne — l'or bleu du Lauragais",
+        body: "L'Albigeois et le Lauragais ont été la première région textile d'Europe grâce au pastel (isatis tinctoria), plante tinctoriale qui produisait le bleu avant l'arrivée de l'indigo des Indes (XVIe siècle). Les hôtels particuliers d'Albi, Toulouse et Lavaur ont été bâtis sur la fortune des marchands de pastel. Les moulins à pastel de Lectoure (à 80 km) et quelques producteurs du Lauragais cultivent encore le pastel pour la cosmétique et la teinture.",
+      },
+      {
+        heading: "10. Marché bio et produits du Tarn",
+        body: "Le marché du samedi matin d'Albi (place du Vigan et rue de la Piale) est l'un des plus grands marchés de plein air de Midi-Pyrénées. Produits du Tarn : fromages de brebis des Monts de Lacaune, jambon de Lacaune (IGP), miel de châtaignier des Cévennes, vins de Gaillac. La charcuterie de Lacaune (saucisse sèche, jambon sec, fricandin) est la charcuterie sèche la plus réputée du Midi-Pyrénées.",
+      },
+    ],
+    relatedCities: ["albi"],
+    relatedGuides: [
+      "vivre-dans-le-tarn-guide-2025",
+      "vivre-en-occitanie-guide-2025",
+    ],
+    tags: ["10 choses à faire à Albi", "activités Albi 2026", "sorties Albi", "que faire à Albi", "cathédrale Sainte-Cécile Toulouse-Lautrec gorges du Tarn UNESCO"],
+  },
+  {
+    slug: "10-choses-a-faire-a-tarbes-2026",
+    title: "10 choses à faire à Tarbes (les Pyrénées et la ville de Foch)",
+    metaTitle: "10 choses à faire à Tarbes 2026 — activités et sorties locales",
+    metaDesc: "Jardin Massey, haras national, pic du Midi et Lourdes : 10 activités à Tarbes pour découvrir la capitale des Hautes-Pyrénées au pied des sommets.",
+    category: "tourisme",
+    emoji: "🏔️",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Tarbes est la préfecture des Hautes-Pyrénées, 40 000 habitants dans une ville de plaine qui a la chance d'être le point de départ des Pyrénées les plus hautes de France. Le pic du Vignemale (3 298 m), la Brèche de Roland, Gavarnie — toutes les grandes ascensions du versant nord des Pyrénées centrales démarrent à moins d'une heure de voiture.",
+    sections: [
+      {
+        heading: "1. Le Jardin Massey — l'un des plus beaux jardins du Sud-Ouest",
+        body: "Le Jardin Massey (fondé en 1853 par Placide Massey, directeur des jardins du roi à Versailles) est le principal parc de Tarbes : arboretum de 2 500 espèces végétales rares, pièce d'eau, serre tropicale, cloître gothique du XIVe siècle transplanté depuis une abbaye. Le musée Massey (dans le pavillon central, collections militaires du musée des Hussards) et ses collections d'art méritent une visite. Accès libre.",
+      },
+      {
+        heading: "2. Maison natale du maréchal Foch",
+        body: "Ferdinand Foch, généralissime des armées alliées en 1918, est né à Tarbes en 1851. La maison natale (rue de la Victoire) est un musée consacré à sa vie et à la Première Guerre mondiale. Foch a commandé les armées françaises, britanniques et américaines lors des Cent Jours qui ont conduit à l'armistice du 11 novembre 1918. Sa statue équestre (place de Verdun) est l'un des monuments les plus visités de Tarbes.",
+      },
+      {
+        heading: "3. Haras national de Tarbes — le cheval tarbais",
+        body: "Le haras national de Tarbes (fondé par Napoléon en 1806) est l'un des plus beaux haras de France — architecture néoclassique, cours pavées, boxes de 300 chevaux dont le cheval anglo-arabe tarbais (race crée ici au XIXe siècle, réputée dans le monde entier pour l'équitation sportive et la course). Visites guidées toute l'année, spectacles équestres en été.",
+      },
+      {
+        heading: "4. Lourdes — le sanctuaire marial le plus visité du monde",
+        body: "Lourdes, à 20 km de Tarbes, est la deuxième ville hôtelière de France (300 hôtels) et le sanctuaire marial qui reçoit 6 millions de pèlerins par an. La grotte de Massabielle (apparitions de la Vierge à Bernadette Soubirous en 1858), la basilique souterraine Saint-Pie-X (25 000 personnes) et les processions aux flambeaux quotidiennes (19h30, été) sont les temps forts. Le château fort de Lourdes domine la ville médiévale depuis un promontoire calcaire.",
+      },
+      {
+        heading: "5. Gavarnie — le cirque et la brèche de Roland",
+        body: "Le cirque de Gavarnie (à 55 km de Tarbes) est l'un des plus grands cirques glaciaires du monde : paroi de 1 500 m de haut, Grande Cascade de Gavarnie (422 m de chute, la plus haute de France). La Brèche de Roland (2 807 m, faille naturelle de 100 m de large dans la crête frontière franco-espagnole) est accessible à pied depuis le refuge des Sarradets (7h aller-retour depuis le parking de la Pahule). Le cirque est classé Grand Site de France et UNESCO.",
+      },
+      {
+        heading: "6. Pic du Midi de Bigorre — l'observatoire astronomique au sommet",
+        body: "Le pic du Midi (2 877 m, à 60 km de Tarbes) est accessible par télécabine depuis La Mongie. L'observatoire astronomique (premier observatoire de haute montagne en France, 1873) propose des nuitées astronomiques (réservation obligatoire) : l'absence de pollution lumineuse et la turbulence atmosphérique faible permettent d'observer des astres invisibles depuis la plaine. La vue à 360° sur les Pyrénées (Vignemale, Maladeta, Mont Perdu) est la meilleure accessible sans randonnée.",
+      },
+      {
+        heading: "7. Cauterets — ski et thermalisme pyrénéen",
+        body: "Cauterets, à 50 km de Tarbes dans la vallée du gave, est la station thermale et de ski la plus emblématique des Pyrénées françaises. Le domaine skiable du Cirque du Lys (25 pistes, 1 500-2 350 m) est fiable en enneigement. Les thermes de César (soins respiratoires et rhumatismes) utilisent les sources sulfurées. Victor Hugo et George Sand y sont venus en cure. Le pont d'Espagne (1 500 m, parking puis randonnée) donne accès au parc national et aux lacs de montagne.",
+      },
+      {
+        heading: "8. Saint-Bertrand-de-Comminges — la cathédrale et la cité gallo-romaine",
+        body: "Saint-Bertrand-de-Comminges, à 60 km de Tarbes, est un village de 250 habitants avec une cathédrale digne d'une grande ville : cloître roman du XIIe siècle, stalles gothiques du XVIe, orgue du XVIe siècle, trésor de tapisseries. Au pied du village : Lugdunum Convenarum, ancienne capitale gallo-romaine de 60 000 habitants aux Ier-IVe siècles (forum, temple, thermes fouillés). Classé parmi les plus beaux villages de France.",
+      },
+      {
+        heading: "9. Randonnée GR10 — la traversée des Pyrénées",
+        body: "Le GR10 (traversée des Pyrénées de Hendaye à Banyuls, 900 km) passe à travers les Hautes-Pyrénées entre Luz-Saint-Sauveur, Gavarnie et Bagnères-de-Luchon. Les étapes depuis Tarbes permettent d'enchaîner des journées de 20-25 km dans les estives pyrénéennes avec nuitées en refuges gardés (CAF). Les mois de juillet-août sont idéaux — la fonte des neiges est complète et les refuges ouverts.",
+      },
+      {
+        heading: "10. Marché et gastronomie des Hautes-Pyrénées",
+        body: "Le marché de Tarbes (jeudi matin, halle Marcadieu du XIXe siècle) est le principal marché couvert des Hautes-Pyrénées : porc noir de Bigorre (AOP, jambon et saucisson séchés en montagne, race gascon ibérique), fromages de brebis (ossau-iraty AOP, tomme des Pyrénées), truite fumée de Haute-Bigorre. Le magret de canard des Landes voisines et le haricot tarbais (IGP, haricot blanc à l'œil violet, cultivé depuis le XVIe siècle) sont les deux produits phares.",
+      },
+    ],
+    relatedCities: ["tarbes"],
+    relatedGuides: [
+      "vivre-en-gascogne-gers-guide-2025",
+      "vivre-en-occitanie-guide-2025",
+    ],
+    tags: ["10 choses à faire à Tarbes", "activités Tarbes 2026", "sorties Tarbes", "que faire à Tarbes", "Pyrénées Gavarnie pic du Midi Lourdes haras national"],
+  },
+  {
+    slug: "10-choses-a-faire-a-niort-2026",
+    title: "10 choses à faire à Niort (le Marais poitevin et la ville de la mutualité)",
+    metaTitle: "10 choses à faire à Niort 2026 — activités et sorties locales",
+    metaDesc: "Marais poitevin en barque, donjon Plantagenêt, Venise verte et Fontenay-le-Comte : 10 activités à Niort pour découvrir la préfecture des Deux-Sèvres.",
+    category: "tourisme",
+    emoji: "🚣",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Niort est la préfecture des Deux-Sèvres, 60 000 habitants au cœur du Poitou. Son identité est double : capitale française de la mutualité et de l'assurance (Maif, Macif, Matmut y ont leur siège) et porte d'entrée du Marais poitevin — la Venise verte, deuxième zone humide de France après la Camargue.",
+    sections: [
+      {
+        heading: "1. Marais poitevin — la Venise verte en barque",
+        body: "Le Marais poitevin (210 000 ha, deuxième zone humide de France) se divise en marais mouillé (la Venise verte, canaux sous voûte de frênes et d'aulnes) et marais desséché (polders agricoles). La Venise verte se découvre en barque plate à fond plat (barque plate, 1h-2h depuis Coulon, Arçais ou La Garette). L'eau est noire et lisse sous le couvert végétal, en silence — l'une des balades les plus apaisantes de France.",
+      },
+      {
+        heading: "2. Coulon — la capitale du Marais mouillé",
+        body: "Coulon (à 12 km de Niort) est le village-porte de la Venise verte : maisons blanches en pierre du Poitou, location de barques à l'embarcadère, restaurants de grenouilles et d'anguilles fumées au bord des canaux. Le Maison du Marais poitevin (musée de l'écosystème) explique la géologie et l'histoire des marais. En saison : pédalos, canoës, promenades guidées en barque avec un passeur local.",
+      },
+      {
+        heading: "3. Donjon de Niort — la forteresse Plantagenêt",
+        body: "Le Donjon de Niort (XIIe-XIIIe siècles) est l'un des mieux conservés des donjons construits par les rois Plantagenêt d'Angleterre qui régnaient sur le Poitou. Ses deux tours jumelles reliées par un corps central dominent la ville depuis 40 m de hauteur. Françoise d'Aubigné, future Mme de Maintenon (épouse secrète de Louis XIV), y est née en 1635 dans les appartements du gouverneur. Le musée d'art et d'histoire local y est installé.",
+      },
+      {
+        heading: "4. Le marché de Niort et les produits du Poitou",
+        body: "Le marché de Niort (samedi matin, place de la Brèche — immense esplanade) est l'un des plus grands marchés en plein air de l'Ouest : produits des deux Sèvres (mogette poitevine — haricot blanc AOP, cagouilles — escargots petits gris en sauce, fromage de chèvre chabichou du Poitou AOP), marché aux fleurs, poissonniers de La Rochelle. Le marché du centre-ville (rue Victor-Hugo, mercredi et samedi) est plus intimiste.",
+      },
+      {
+        heading: "5. Melle — les mines d'argent carolingiennes",
+        body: "Melle, à 30 km de Niort, possède trois églises romanes du XIe siècle dans un rayon de 500 m — concentration unique en France. Mais sa singularité absolue : les mines d'argent de Melle (VIIe-XIe siècles), les seules mines médiévales visitables en Europe de l'Ouest, alimentaient le monnayage carolingien. La visite guidée descend dans les galeries à 15 m de profondeur — 25°C toute l'année.",
+      },
+      {
+        heading: "6. Fontenay-le-Comte — la ville de Rabelais",
+        body: "Fontenay-le-Comte, à 40 km de Niort, est la ville natale de Rabelais (né v. 1494) et l'ancienne capitale de la Vendée poitevine. Son château de Terre-Neuve (XVIe-XVIIe siècles, façades renaissance) et ses hôtels particuliers de la Renaissance (façades sculptées, fenêtres à meneaux) témoignent d'un passé culturel brillant. La Venise verte la plus sauvage commence ici.",
+      },
+      {
+        heading: "7. Abbaye de Saint-Maixent-l'École",
+        body: "Saint-Maixent-l'École, à 25 km de Niort, abrite l'une des plus belles abbatiales bénédictines du Poitou (XIe siècle, rebâtie au XVIIe par Jules Hardouin-Mansart). L'École militaire de l'infanterie et des armes associées (ESID) y est installée depuis 1874 — musée de l'infanterie ouvert au public. Le marché bihebdomadaire (mardi et samedi) est le plus animé du Poitou intérieur.",
+      },
+      {
+        heading: "8. Parthenay — la cité médiévale de la Gâtine",
+        body: "Parthenay, à 45 km de Niort, est une des plus belles cités médiévales du Poitou : porte Saint-Jacques et pont médiéval sur le Thouet, rue de la Vau-Saint-Jacques (maisons médiévales à pans de bois du XVe siècle), château des Lezay. Parthenay était une étape importante du chemin de Saint-Jacques-de-Compostelle. Le marché au bétail (mercredi, le plus grand de France) mérite l'excursion.",
+      },
+      {
+        heading: "9. Vélo dans le Marais — la piste cyclable des Deux-Sèvres",
+        body: "Le Marais poitevin est équipé de 600 km de pistes cyclables balisées — le plat absolu et l'absence de voitures dans les zones humides en font l'un des meilleurs terrains de vélo de plaine de France. La piste Niort-Coulon (12 km, asphalte) longe la Sèvre niortaise. Les circuits VVV (Voies Vertes de Vendée) connectent le Marais mouillé depuis Saint-Hilaire-la-Palud jusqu'à Marans et l'Atlantique.",
+      },
+      {
+        heading: "10. La Rochelle — l'Atlantique à 60 km",
+        body: "La Rochelle, à 60 km de Niort, est la ville côtière de référence pour les Niortais : vieux port médiéval (trois tours des XIVe-XVe siècles), aquarium (60 000 animaux marins, le plus visité de France hors Paris), île de Ré (accessible par pont, plages, vélo, ostréiculture). La liaison routière Niort-La Rochelle (A83) est directe et rapide — compter 45 min.",
+      },
+    ],
+    relatedCities: ["niort"],
+    relatedGuides: [
+      "vivre-en-poitou-guide-2026",
+    ],
+    tags: ["10 choses à faire à Niort", "activités Niort 2026", "sorties Niort", "que faire à Niort", "Marais poitevin Venise verte barque donjon Plantagenêt"],
+  },
+  {
+    slug: "10-choses-a-faire-a-angouleme-2026",
+    title: "10 choses à faire à Angoulême (la BD et la ville haute sur l'Angoumois)",
+    metaTitle: "10 choses à faire à Angoulême 2026 — activités et sorties locales",
+    metaDesc: "Festival international de la BD, remparts sur la Charente, cognac et circuit automobile : 10 activités à Angoulême pour découvrir la capitale mondiale de la bande dessinée.",
+    category: "tourisme",
+    emoji: "💬",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Angoulême est une ville de 40 000 habitants perchée sur un promontoire dominant la Charente, connue dans le monde entier pour son Festival International de la Bande Dessinée (FIBD) — le premier festival de BD au monde avec 200 000 visiteurs en janvier. La ville haute intra-muros, ses remparts et sa cathédrale romane en font un beau terrain de promenade entre deux albums.",
+    sections: [
+      {
+        heading: "1. Festival International de la BD — le plus grand festival BD du monde",
+        body: "Le FIBD d'Angoulême (dernière semaine de janvier, depuis 1974) est le plus grand festival de bande dessinée du monde : 200 000 visiteurs, 300 expositions dans toute la ville, remise du Grand Prix (le César de la BD). La ville entière est envahie de stands, signatures et projections — les bâtiments médiévaux de la vieille ville accueillent des expositions dans des espaces insolites. Hors festival : la Cité internationale de la bande dessinée et de l'image (musée permanent) est ouverte toute l'année.",
+      },
+      {
+        heading: "2. La Cité internationale de la BD et de l'image — le musée permanent",
+        body: "La Cité internationale de la BD et de l'image (CIBDI) est le seul musée entièrement consacré à la bande dessinée en France : 6 000 planches originales, des débuts de la BD américaine aux mangas japonais en passant par la Franco-belge (Tintin, Astérix, Spirou). La salle des collections permanentes retrace 150 ans d'histoire du 9e art. La bibliothèque-médiathèque (30 000 albums en libre accès) est ouverte au public.",
+      },
+      {
+        heading: "3. Les remparts et la cathédrale Saint-Pierre",
+        body: "La ville haute d'Angoulême est cernée de remparts du XIIe siècle sur 3 km, avec des vues panoramiques sur la vallée de la Charente. La cathédrale Saint-Pierre (XIIe siècle) est l'une des plus belles cathédrales romanes de l'Ouest : façade sculptée de 70 statues (une des plus riches de la statuaire romane française), coupoles en file sur la nef. Le tour des remparts (accès libre) prend 1h à pied avec des points de vue sur la ville basse.",
+      },
+      {
+        heading: "4. La vallée de la Charente — Cognac et les chais",
+        body: "Cognac, à 45 km d'Angoulême sur la Charente, est la capitale mondiale de l'eau-de-vie de même nom : Hennessy, Rémy Martin, Martell, Courvoisier ouvrent leurs chais aux visiteurs. La visite d'un chai (1h30-2h) comprend la distillation en alambics Charentais, le vieillissement en fûts de chêne du Limousin et la dégustation. La vallée de la Charente entre Angoulême et Cognac est un itinéraire cyclable de 35 km (voie verte).",
+      },
+      {
+        heading: "5. Circuit automobile d'Angoulême — la Rempart",
+        body: "Le Circuit d'Angoulême (circuit de vitesse sur les routes des remparts, depuis 1939) accueille chaque septembre le Grand Prix de France Historique et des Rétromobiles — voitures de compétition d'avant 1977 sur un circuit urbain en plein centre-ville. Angoulême est aussi connue pour ses concentrations de véhicules anciens (Rallye d'Angoulême, Circuit des Remparts — l'une des plus anciennes courses de côte de France).",
+      },
+      {
+        heading: "6. La papeterie de Puymoyen — le papier Charentais",
+        body: "L'Angoumois était au XIXe siècle la principale région papetière de France : 200 moulins à papier sur la Charente alimentaient l'imprimerie parisienne. La papeterie de Puymoyen (à 10 km d'Angoulême) est la seule encore en activité — visite de fabrication du papier à la cuve à la main. Les musées du papier d'Angoulême (Moulin de Fleurac) préservent le patrimoine paperier charentais.",
+      },
+      {
+        heading: "7. Jarnac — le vignoble de l'armagnac charentais",
+        body: "Jarnac, à 30 km d'Angoulême, est le berceau de François Mitterrand (né en 1916 — maison natale ouverte au public) et une capitale du cognac : Courvoisier (1835) y est installé depuis Napoléon III. La promenade en gabare (bateau traditionnel charentais) sur la Charente (2h, depuis le port de Jarnac) traverse les vignes des Fins Bois sous les peupliers des berges.",
+      },
+      {
+        heading: "8. Saintes et les arènes gallo-romaines",
+        body: "Saintes, à 70 km d'Angoulême, possède les vestiges de l'ancienne Mediolanum Santonum (capitale de la province romaine d'Aquitaine) : les arènes d'Agrippa (Ier siècle, 15 000 places, parmi les plus anciennes d'Occident), l'arc de Germanicus (Ier siècle), les thermes romains de Saint-Saloine. L'abbaye aux Dames (XIe siècle, salle de concert réputée) et la cathédrale Saint-Pierre complètent le circuit médiéval.",
+      },
+      {
+        heading: "9. Marché et gastronomie charentaise",
+        body: "Le marché d'Angoulême (samedi, place du champ de Mars — marché couvert des halles) propose les produits de l'Angoumois : moutarde d'Angoulême (préparée avec du vin blanc charentais), escargots de Charente (les cagouilles en escargot, race locale), fromages de chèvre frais (Chabichou AOC de la région), beurre Charentes-Poitou AOP, pineau des Charentes (apéritif entre cognac et jus de raisin).",
+      },
+      {
+        heading: "10. Les Eyzies — la préhistoire en Périgord",
+        body: "Les Eyzies-de-Tayac (à 90 km d'Angoulême, en Dordogne) est la « capitale mondiale de la Préhistoire » : grotte de Font-de-Gaume (seule grotte ornée polychrome encore ouverte au public en France — réservation obligatoire, accès très limité), abri de Cro-Magnon, Musée National de la Préhistoire. Lascaux IV (à 60 km) reproduit la grotte Lascaux en intégralité dans un bâtiment contemporain.",
+      },
+    ],
+    relatedCities: ["angouleme"],
+    relatedGuides: [
+      "vivre-en-charentes-angouleme-la-rochelle-saintes-guide-2025",
+    ],
+    tags: ["10 choses à faire à Angoulême", "activités Angoulême 2026", "sorties Angoulême", "que faire à Angoulême", "festival BD bande dessinée cognac remparts cathédrale romane"],
+  },
+  {
+    slug: "10-choses-a-faire-a-saintes-2026",
+    title: "10 choses à faire à Saintes (la capitale romaine de l'Aquitaine)",
+    metaTitle: "10 choses à faire à Saintes 2026 — activités et sorties locales",
+    metaDesc: "Arènes gallo-romaines, arc de Germanicus, abbaye aux Dames et marais de la Seudre : 10 activités à Saintes pour découvrir la capitale charentaise de l'Antiquité.",
+    category: "tourisme",
+    emoji: "🏛️",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Saintes est l'ancienne Mediolanum Santonum, capitale de la province romaine d'Aquitaine — une ville de 25 000 habitants avec un patrimoine antique exceptionnel et une abbaye romane du XIe siècle devenue l'une des meilleures salles de concert de l'Ouest. Elle donne aussi son nom à la Saintonge, la région historique des Charentes.",
+    sections: [
+      {
+        heading: "1. Arènes d'Agrippa — l'amphithéâtre romain du Ier siècle",
+        body: "Les arènes de Saintes (Ier siècle ap. J.-C., 20 000 places) sont parmi les plus anciennes de France — contemporaines des premiers grands amphithéâtres romains d'Italie. Creusées dans une pente naturelle (les gradins sont taillés dans la colline), elles ont été abandonnées au IVe siècle et servent depuis de carrière de pierre. Le site archéologique (en plein air) est accessible librement. Festival de jazz d'été (juillet) dans les arènes.",
+      },
+      {
+        heading: "2. Arc de Germanicus — le mieux conservé de France",
+        body: "L'arc de Germanicus (19 ap. J.-C.), érigé sur le pont antique de la Charente, est l'arc romain le mieux conservé de France. Démonté pierre par pierre en 1843 lors de la démolition du pont médiéval, il a été remonté à l'identique sur la rive gauche à la demande de Prosper Mérimée. Prosper Mérimée (inspecteur général des monuments historiques) a sauvé la moitié des monuments historiques de France — l'arc de Saintes est son premier acte officiel.",
+      },
+      {
+        heading: "3. Abbaye aux Dames — la collégiale romane et ses concerts",
+        body: "L'abbaye aux Dames (fondée en 1047) est une abbaye bénédictine féminine dont l'abbatiale romane est l'une des plus belles de l'Ouest. Son clocher octogonal et son portail sculpté sont des modèles de l'art roman saintongeais. Transformée en salle de concert (acoustique exceptionnelle dans une nef de pierre), l'abbaye accueille le Festival de Musique Ancienne (juillet), l'un des meilleurs festivals de musique baroque et médiévale de France.",
+      },
+      {
+        heading: "4. Cathédrale Saint-Pierre et le vieux Saintes",
+        body: "La cathédrale Saint-Pierre de Saintes (XIe-XVIe siècles) est un édifice gothique flamboyant avec un clocher-lanterne du XVIe siècle. Le vieux Saintes (rive gauche, autour de la cathédrale) conserve ses hôtels particuliers des XVIe-XVIIe siècles dans le quartier des Jacobins. La promenade le long des quais de la Charente (platanes centenaires, guinguettes en été) est la sortie du soir préférée des Saintais.",
+      },
+      {
+        heading: "5. Royan et les plages de la Côte de Beauté",
+        body: "Royan, à 40 km de Saintes, est la grande station balnéaire de la Charente-Maritime : plages de sable fin en anse (Grande Plage, plage de la Conche des Baleines), architecture moderniste unique en France (ville reconstruite après bombardement de 1945 — église Notre-Dame de 1958, plus grande construction en béton armé de l'époque). Le bac de Royan traverse l'estuaire de la Gironde jusqu'au Verdon-sur-Mer (10 min).",
+      },
+      {
+        heading: "6. Île de Oléron — la plus grande île française de l'Atlantique",
+        body: "L'île d'Oléron (à 50 km de Saintes, accessible par pont), 30 km de long, est la plus grande île de France métropolitaine après la Corse. Ses huîtres (premier site ostréicole de France, 30 000 t/an) et ses marais salants (sel de l'île d'Oléron) sont ses productions phares. Côté Atlantique : dunes et forêt de pins. Côté pertuis : marais, huîtres, plages abritées. En été : vélo obligatoire (350 km de pistes).",
+      },
+      {
+        heading: "7. Cognac et le pineau des Charentes",
+        body: "Cognac, à 30 km de Saintes, est la capitale mondiale du cognac. Le pineau des Charentes (AOC, jus de raisin muté au cognac, servi à l'apéritif sur de la glace ou avec du melon) est le vin doux local par excellence. Les musées Hennessy, Rémy Martin et Martell proposent des visites complètes des chais avec dégustation. La croisière en gabare sur la Charente entre Saintes et Cognac (été) longe les vignes des Fins Bois.",
+      },
+      {
+        heading: "8. Marais de la Seudre et la pêche à pied",
+        body: "Les marais de la Seudre (estuaire entre Saintes et Royan) sont un labyrinthe de chenaux, claires (bassins d'affinage des huîtres) et prés salés. La pêche à pied à marée basse (palourdes, coques, couteaux sur les bords de l'estuaire) est une activité locale gratuite avec une seule contrainte : connaître les horaires des marées et les zones autorisées. Les parcs ostréicoles de la Tremblade (12 km) sont les plus accessibles.",
+      },
+      {
+        heading: "9. Abbaye de Fontdouce — le trésor de la Saintonge",
+        body: "L'abbaye de Fontdouce (à 15 km de Saintes), fondée au XIe siècle, est en partie ruinée mais possède une salle capitulaire romane de toute beauté (XIIe siècle, colonnes jumelles, voûtes en arête) et une chapelle à deux nefs côte à côte unique en France. L'abbaye organise des concerts de musique médiévale en été et des visites guidées. Le cadre (vallée boisée, source d'eau vive) est l'un des plus paisibles de Charente-Maritime.",
+      },
+      {
+        heading: "10. Talmont-sur-Gironde — le village dans la Gironde",
+        body: "Talmont-sur-Gironde, à 50 km de Saintes, est classé parmi les plus beaux villages de France : une bastide du XIIIe siècle construite sur un promontoire rocheux avancé dans la Gironde, avec l'église Sainte-Radegonde (XIe siècle) en bordure de falaise au-dessus du fleuve. À marée haute, le village semble flotter sur l'eau. Les roses trémières qui envahissent les ruelles en été sont l'image emblématique de la Charente-Maritime.",
+      },
+    ],
+    relatedCities: ["saintes"],
+    relatedGuides: [
+      "vivre-en-charentes-angouleme-la-rochelle-saintes-guide-2025",
+    ],
+    tags: ["10 choses à faire à Saintes", "activités Saintes 2026", "sorties Saintes", "que faire à Saintes", "arènes romaines arc Germanicus abbaye romane cognac Charentes"],
+  },
+  {
+    slug: "10-choses-a-faire-a-le-mans-2026",
+    title: "10 choses à faire au Mans (les 24 Heures et la cité Plantagenêt)",
+    metaTitle: "10 choses à faire au Mans 2026 — activités et sorties locales",
+    metaDesc: "24 Heures du Mans, cité Plantagenêt médiévale, cathédrale Saint-Julien et Abbaye de l'Épau : 10 activités au Mans pour découvrir la capitale de la Sarthe.",
+    category: "tourisme",
+    emoji: "🏎️",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Le Mans est une ville de 145 000 habitants qui porte deux identités en parallèle : la cité Plantagenêt médiévale (Ier-XIIe siècles, remparts gallo-romains intacts, cathédrale remarquable) et la capitale mondiale de l'endurance automobile (les 24 Heures du Mans, depuis 1923). Richard Cœur de Lion est né ici en 1157 dans le palais des comtes du Maine.",
+    sections: [
+      {
+        heading: "1. Les 24 Heures du Mans — la plus grande course d'endurance du monde",
+        body: "Les 24 Heures du Mans (mi-juin, depuis 1923) sont la course automobile d'endurance la plus célèbre et la plus difficile du monde : 50 voitures de 3 équipages, 5 500 km en 24h sur le circuit de 13,6 km. La tribune Dunlop (la plus économique, en face du chicane du même nom) permet de voir les dépassements. Le bruit à pleine vitesse dans les Hunaudières (ligne droite de 6 km, jusqu'à 340 km/h) reste inoubliable. Camping et ambiance de festival autour du circuit.",
+      },
+      {
+        heading: "2. Musée des 24 Heures du Mans — l'histoire de la course",
+        body: "Le Musée des 24 Heures du Mans (sur le circuit de la Sarthe, ouvert toute l'année) retrace le siècle de la course avec 150 voitures de compétition originales — des premières Bentley et Bugatti des années 1920 aux prototypes hybrides d'aujourd'hui (Toyota GR010, Ferrari 499P). La visite comprend le circuit pédestre du circuit avec vue sur les stands. Accès au circuit en dehors des jours de course.",
+      },
+      {
+        heading: "3. La cité Plantagenêt — les remparts gallo-romains et médiévaux",
+        body: "La vieille ville du Mans (cité Plantagenêt) est entourée de remparts gallo-romains du IIIe siècle — les mieux conservés de France (1 300 m, hauteur jusqu'à 11 m). À l'intérieur, les ruelles médiévales (Grande-Rue, place Saint-Michel) sont bordées de maisons à pans de bois du XVe siècle. Richard Cœur de Lion est né dans le palais comtal ici en 1157 — son père Henri II Plantagenêt était comte du Maine.",
+      },
+      {
+        heading: "4. Cathédrale Saint-Julien — l'art roman et gothique réunis",
+        body: "La cathédrale Saint-Julien du Mans (XIe-XIIIe siècles) est l'une des plus complexes de France : nef romane du XIe siècle prolongée d'un chœur gothique rayonnant parmi les plus élancés de France (23 m de haut sous voûte), contreforts extérieurs en arc boutant spectaculaires. Les vitraux romans du XIIe siècle (les plus anciens de France encore in situ) et les tapisseries de la Mise au Tombeau (XVe siècle) sont les pièces maîtresses.",
+      },
+      {
+        heading: "5. Abbaye de l'Épau — la fondation de Bérengère de Navarre",
+        body: "L'abbaye de l'Épau (à 5 km du Mans dans la vallée de l'Huisne) a été fondée en 1229 par Bérengère de Navarre, reine d'Angleterre et veuve de Richard Cœur de Lion, pour expier le fait que son mari n'était pas enterré dans son propre comté. Son gisant en albâtre (XIIIe siècle) est dans l'abbatiale. Les bâtiments cisterciens (salle capitulaire, réfectoire, cloître) sont remarquablement conservés.",
+      },
+      {
+        heading: "6. Musée de Tessé — la collection égyptologique et flamande",
+        body: "Le musée de Tessé (dans l'hôtel de Tessé du XVIIIe siècle) possède une collection de peintures remarquable : primitifs flamands (XVe siècle), peinture française XVIIe-XIXe, et une collection d'antiquités égyptiennes parmi les 10 premières de France (papyrus, momies, sarcophages). L'émaillerie mancelle (émaux champlevés du XIIe siècle, technique inventée au Mans) est une spécialité locale.",
+      },
+      {
+        heading: "7. Le circuit automobile — rouler sur les 24 Heures",
+        body: "Le circuit de la Sarthe propose aux particuliers des sessions de conduite sur le circuit des 24 Heures hors compétition (Roulage libre, Porsche Experience, stages de conduite GT). Le circuit permanent (6,1 km, partie non homologuée à route ouverte) est accessible via Rallye Motors ou Driving Experience. La vue depuis la ligne droite des Hunaudières donne une idée de la vitesse atteinte en course.",
+      },
+      {
+        heading: "8. Sablé-sur-Sarthe et le château de Solesmes",
+        body: "Sablé-sur-Sarthe, à 40 km du Mans, est connue pour son abbaye de Solesmes (bénédictins, en activité) et ses moines qui ont codifié le chant grégorien au XIXe siècle — les enregistrements de Solesmes font autorité mondiale. Les Sculptures Blanches (groupes sculptés du XVe siècle dans le transept de l'abbatiale) sont exceptionnels. La rivière Sarthe entre Sablé et Le Mans est un itinéraire canoë de 40 km.",
+      },
+      {
+        heading: "9. Rillettes du Mans — la charcuterie locale",
+        body: "Les rillettes du Mans (charcuterie de porc effilochée cuite lentement à la graisse de saindoux, IGP) sont la spécialité culinaire absolue de la Sarthe. Contrairement aux rillettes de Tours (plus grasses), celles du Mans ont une texture plus ferme et une couleur dorée foncée. Les charcutiers du marché des Jacobins (samedi matin, vieille ville) proposent les meilleures rillettes artisanales. Accompagnement : pain de campagne et vin de Jasnières (AOC sarthe).",
+      },
+      {
+        heading: "10. Forêt de Bercé — les futaies de chênes séculaires",
+        body: "La forêt de Bercé (5 000 ha, à 40 km du Mans) est la dernière grande futaie de chênes sessiles de France : certains chênes atteignent 300 ans et 40 m de hauteur, avec des troncs de 4 m de circonférence. La Fontaine de la Coudre (source naturelle dans la forêt) et les allées cavalières créent une atmosphère de forêt primaire. La forêt de Bercé a fourni le bois des mâts de la marine royale de Louis XIV.",
+      },
+    ],
+    relatedCities: ["le-mans"],
+    relatedGuides: [
+      "quitter-le-mans-guide-2026",
+      "acheter-a-le-mans-quel-quartier-budget-2026",
+      "vivre-en-sarthe-maine-guide-2025",
+    ],
+    tags: ["10 choses à faire au Mans", "activités Le Mans 2026", "sorties Le Mans", "que faire au Mans", "24 Heures du Mans circuit cité Plantagenêt cathédrale Sarthe"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
