@@ -25109,6 +25109,486 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["10 choses à faire à Biarritz", "activités Biarritz 2026", "sorties Biarritz", "que faire à Biarritz", "surf falaises Pays Basque Biarritz visiteurs"],
   },
+  {
+    slug: "10-choses-a-faire-a-la-rochelle-2026",
+    title: "10 choses à faire à La Rochelle (le port et le large)",
+    metaTitle: "10 choses à faire à La Rochelle 2026 — activités et sorties locales",
+    metaDesc: "Vieux-Port, tours médiévales, Île de Ré et gastronomie charentaise : 10 activités à La Rochelle pour vivre la capitale atlantique au-delà des cartes postales.",
+    category: "tourisme",
+    emoji: "⛵",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "La Rochelle est la ville la plus ensoleillée du littoral atlantique français (2 400 h/an), une des rares où l'on peut vivre entièrement en vélo, et le point d'embarquement pour l'Île de Ré. Son Vieux-Port, ses tours du Moyen Âge et sa gastronomie maritime en font une destination autant pour les habitants que pour les visiteurs.",
+    sections: [
+      {
+        heading: "1. Vieux-Port et les tours médiévales",
+        body: "Le Vieux-Port de La Rochelle, fermé la nuit par une chaîne tendue entre la Tour de la Chaîne et la Tour Saint-Nicolas (XIVe siècle), est l'un des ports médiévaux les mieux conservés de France. La Tour de la Lanterne, prison du XVe siècle avec graffitis de prisonniers huguenots, offre la meilleure vue sur la rade. Entrée payante, billet combiné recommandé.",
+      },
+      {
+        heading: "2. Île de Ré en vélo",
+        body: "L'Île de Ré est à 3 km de La Rochelle via le pont (péage voiture, gratuit vélo). Le réseau cyclable de l'île (110 km balisés) est le plus dense de France en proportion de surface. Saint-Martin-de-Ré (citadelle Vauban classée UNESCO), Ars-en-Ré, les marais salants de Loix — une journée complète à vélo suffit pour le tour des villages principaux.",
+      },
+      {
+        heading: "3. Aquarium de La Rochelle",
+        body: "L'un des plus grands aquariums privés d'Europe (12 000 animaux, 600 espèces). Particulièrement remarquable pour ses bassins de raies et requins de grande taille, ses méduses et la reconstitution de l'océan profond. Comptez 2h. Situé au bout du port, à 10 minutes à pied du Vieux-Port.",
+      },
+      {
+        heading: "4. Marché central couvert",
+        body: "Le marché central de La Rochelle (halles couvertes, ouvert tous les matins sauf lundi) est le meilleur endroit pour goûter la gastronomie charentaise : huîtres de Marennes-Oléron (les plus réputées de France), moules de la baie, mojettes (haricots blancs charentais), beurre des Charentes AOP. Les poissonniers déchargent directement du port voisin.",
+      },
+      {
+        heading: "5. Musée maritime — le France I et les vieux gréements",
+        body: "Le musée maritime de La Rochelle propose la visite de plusieurs navires amarrés au bassin des Chalutiers : le chalutier France I (1962), une frégate de la Marine nationale, un bateau-phare. Le musée retrace l'histoire maritime de La Rochelle depuis le commerce triangulaire jusqu'à la pêche industrielle.",
+      },
+      {
+        heading: "6. Fortifications et remparts",
+        body: "La Rochelle était une place forte protestante sous Louis XIII — le siège de Richelieu (1627-1628) et la famine qui s'ensuivit restent une des pages les plus sombres des guerres de religion. Les remparts du XVIIe siècle sont partiellement visitables. La porte de la Grosse-Horloge est l'entrée historique de la vieille ville.",
+      },
+      {
+        heading: "7. Vélo en ville — la capitale française du vélo",
+        body: "La Rochelle est depuis les années 1970 une ville pionnière du vélo urbain. 170 km de pistes cyclables, vélos en libre-service (Yelo), possibilité de traverser toute la ville sans jamais quitter un aménagement dédié. En 2024, 20% des déplacements domicile-travail s'effectuent à vélo — le taux le plus élevé de France pour une ville de cette taille.",
+      },
+      {
+        heading: "8. Plages de La Rochelle et Châtelaillon",
+        body: "La Rochelle a ses propres plages (plage de la Concurrence, plage des Minimes) accessibles à vélo depuis le centre. Châtelaillon-Plage, à 15 km, est une station balnéaire Belle Époque avec une grande plage de sable fin. Les couchers de soleil sur l'Atlantique depuis les plages des Minimes sont parmi les plus beaux de la côte.",
+      },
+      {
+        heading: "9. Île d'Aix et Île d'Oléron — escapades en ferry",
+        body: "L'Île d'Aix (80 habitants permanents, interdite aux voitures) est accessible en ferry depuis La Rochelle en 45 min. Fortifications napoléoniennes, plages sauvages, maison de Napoléon. L'Île d'Oléron (via Fouras ou pont depuis Rochefort) est la plus grande île française après la Corse — réputée pour ses huîtres et ses forêts de pins.",
+      },
+      {
+        heading: "10. Les Francofolies et vie culturelle estivale",
+        body: "Les Francofolies de La Rochelle (juillet) sont le plus grand festival de chanson francophone au monde — 150 000 spectateurs, scènes gratuites et payantes. En dehors du festival, La Rochelle a une programmation culturelle dense pour une ville de 80 000 habitants : Scopitone (musiques actuelles), cinéma La Coursive, Les Luminessences d'Île de Ré en août.",
+      },
+    ],
+    relatedCities: ["la-rochelle"],
+    relatedGuides: [
+      "cote-atlantique-bordeaux-la-rochelle-bayonne",
+      "quitter-la-rochelle-guide-2026",
+    ],
+    tags: ["10 choses à faire à La Rochelle", "activités La Rochelle 2026", "sorties La Rochelle", "que faire à La Rochelle", "Île de Ré port Atlantique La Rochelle visiteurs"],
+  },
+  {
+    slug: "10-choses-a-faire-a-annecy-2026",
+    title: "10 choses à faire à Annecy (le lac et les Alpes)",
+    metaTitle: "10 choses à faire à Annecy 2026 — activités et sorties locales",
+    metaDesc: "Lac d'Annecy, vieille ville, Gorges du Fier et randonnées alpines : 10 activités à Annecy pour profiter de la Venise des Alpes sans les pièges touristiques.",
+    category: "tourisme",
+    emoji: "🏔️",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Annecy est une ville de 130 000 habitants avec un lac glaciaire d'une pureté exceptionnelle (eau potable directement prélevée), une vieille ville médiévale et les Alpes à portée de main. Son attractivité est réelle — les prix immobiliers le confirment — mais ses richesses naturelles restent accessibles sans budget.",
+    sections: [
+      {
+        heading: "1. Tour du lac d'Annecy à vélo",
+        body: "Le lac d'Annecy (27 km de périmètre) est entouré d'une piste cyclable presque continue. Le tour complet (41 km avec les détours) prend 3-4h à rythme tranquille. La rive est (via Talloires, Doussard) est plus sauvage et moins fréquentée que la rive ouest. Location de vélos à la gare ou au bord du lac.",
+      },
+      {
+        heading: "2. Vieille ville et Palais de l'Isle",
+        body: "La vieille ville d'Annecy, traversée par les bras du Thiou, est un dédale de ruelles médiévales, d'arcades et de canaux. Le Palais de l'Isle (XIIe siècle), ancienne prison triangulaire construite sur un îlot, est l'image la plus photographiée de Haute-Savoie. La visite du Château d'Annecy (sur les hauteurs) offre le meilleur panorama sur la vieille ville et le lac.",
+      },
+      {
+        heading: "3. Baignade dans le lac — les plages publiques",
+        body: "L'eau du lac d'Annecy est l'une des plus pures d'Europe grâce à des normes de protection strictes depuis les années 1960. Les plages publiques gratuites (Impérial, Marquisats, Albigny) offrent baignade surveillée en été. Eau transparente jusqu'à 10 m de fond. La plage des Marquisats, à 15 min à pied du centre, est la plus grande et la moins chère.",
+      },
+      {
+        heading: "4. Gorges du Fier",
+        body: "À 10 km d'Annecy, les Gorges du Fier sont une fissure de 200 m de long et 50 m de profondeur creusée par le Fier dans la roche calcaire. La passerelle métallique au-dessus du torrent (accès payant) est spectaculaire, surtout en mai-juin avec les eaux de fonte. Accessible par navette depuis le centre d'Annecy en saison.",
+      },
+      {
+        heading: "5. Randonnée au Semnoz — forêt et vue sur le Mont-Blanc",
+        body: "Le Semnoz (1 704 m) est le massif qui domine Annecy à l'ouest. Accessible en voiture jusqu'au sommet ou à pied depuis la ville (3h aller). Par temps clair, la vue couvre le lac d'Annecy, le Mont-Blanc, le Jura et les Alpes suisses. Pistes de ski de fond en hiver.",
+      },
+      {
+        heading: "6. Paragliding depuis la Montagne d'Annecy",
+        body: "Annecy est l'une des capitales mondiales du parapente — ses conditions thermiques au-dessus du lac sont idéales de mai à octobre. Les écoles de vol tandem (vol avec moniteur, aucune formation requise) partent de Forclaz ou de Montmin. Réservation 48h à l'avance en haute saison. Comptez 80-120€ pour un vol de 20-30 min.",
+      },
+      {
+        heading: "7. Talloires et Duingt — les villages du lac",
+        body: "Talloires, village sur la rive est du lac, est réputé pour son abbaye du VIIe siècle (hôtel de luxe aujourd'hui) et ses restaurants de spécialités lacustres (féra, omble chevalier). Duingt, au fond du lac, avec son château médiéval sur un promontoire rocheux, est le village le plus photographié de la rive sud. Accès en bateau depuis Annecy.",
+      },
+      {
+        heading: "8. Marché d'Annecy — produits savoyards",
+        body: "Le marché du mardi, vendredi et dimanche sur les bords du Thiou est l'un des plus grands de Haute-Savoie. Fromages savoyards (reblochon, abondance, beaufort, tome des Bauges AOP), charcuteries fumées, miel de montagne, génépi. Le marché du dimanche attire des producteurs de tout le massif des Bauges et des Aravis.",
+      },
+      {
+        heading: "9. Massif des Aravis depuis Annecy",
+        body: "La Clusaz et Le Grand-Bornand (stations ski, 45 min d'Annecy) sont accessibles en bus depuis la gare. En été, le Col des Aravis (1 486 m) offre une vue directe sur la face nord du Mont-Blanc. Le circuit des Aravis en VTT (100 km) est une référence du cyclisme alpin. En hiver, forfait ski pas cher par rapport à la Tarentaise.",
+      },
+      {
+        heading: "10. Soirée à Annecy — restaurants bord de lac et cave à vins",
+        body: "Le bord du lac au niveau du Pâquier est animé le soir en saison : terrasses, pédalos, guinguettes temporaires. La vieille ville concentre les restaurants de cuisine savoyarde et les caves à vins de montagne (mondeuse, roussette de Savoie). Les crêpes savoyardes (avec génépi pour les digestifs) restent l'incontournable à moins de 15€.",
+      },
+    ],
+    relatedCities: ["annecy"],
+    relatedGuides: [
+      "auvergne-rhone-alpes-lyon-grenoble-annecy",
+      "quitter-annecy-guide-2026",
+    ],
+    tags: ["10 choses à faire à Annecy", "activités Annecy 2026", "sorties Annecy", "que faire à Annecy", "lac Alpes randonnée Annecy visiteurs"],
+  },
+  {
+    slug: "10-choses-a-faire-a-chambery-2026",
+    title: "10 choses à faire à Chambéry (entre Alpes et lac du Bourget)",
+    metaTitle: "10 choses à faire à Chambéry 2026 — activités et sorties locales",
+    metaDesc: "Château des Ducs, Éléphants, Lac du Bourget et gastronomie savoyarde : 10 activités à Chambéry pour explorer la capitale historique de la Savoie.",
+    category: "tourisme",
+    emoji: "🐘",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Chambéry est l'ancienne capitale du duché de Savoie, une ville au caractère italien très marqué (la Savoie fut piémontaise jusqu'en 1860), coincée entre le lac du Bourget et les Alpes. Moins touristique qu'Annecy et moins chère, c'est l'une des villes françaises les plus agréables à vivre pour les amateurs de montagne.",
+    sections: [
+      {
+        heading: "1. Château des Ducs de Savoie",
+        body: "Le château des Ducs de Savoie, résidence des comtes puis ducs de Savoie du XIIIe au XVIe siècle, domine la vieille ville. La Sainte-Chapelle (XVe siècle) abrita le Saint-Suaire de Turin jusqu'en 1578. Visites guidées uniquement. La tour Trésorerie, la Salle des Archives et la chapelle sont les pièces maîtresses.",
+      },
+      {
+        heading: "2. Fontaine des Éléphants",
+        body: "La fontaine des Éléphants (1838), surnommée les « Quatre-sans-Cul » par les locaux pour sa conception anatomique particulière, est le symbole de Chambéry. Érigée en l'honneur du général Benoît de Boigne, militaire savoyard enrichi au service des Maharajas. Place centrale de la ville, lieu de rendez-vous incontournable.",
+      },
+      {
+        heading: "3. Vieille ville et rue de Boigne",
+        body: "La rue de Boigne, percée au XIXe siècle et bordée d'arcades à l'italienne, relie la fontaine des Éléphants au château. C'est l'axe commercial et de promenade de Chambéry, avec une ambiance qui rappelle Turin ou Gênes plus que Lyon. Les intérieurs des cours au fond des passages sont des joyaux cachés.",
+      },
+      {
+        heading: "4. Lac du Bourget — le plus grand lac naturel de France",
+        body: "Le Lac du Bourget (4 500 ha, 18 km de long) est à 15 minutes de Chambéry. Le plus grand lac naturel de France offre baignade (plages gratuites à Aix-les-Bains et Le Bourget-du-Lac), voile, pêche et croisières en bateau à vapeur vintage (Compagnie des Bateaux du Lac du Bourget). La vue depuis la Dent du Chat (1 390 m) sur le lac est saisissante.",
+      },
+      {
+        heading: "5. Aix-les-Bains et thermalisme",
+        body: "Aix-les-Bains, station thermale à 15 km de Chambéry, est l'une des villes thermales les plus fréquentées de France (40 000 curistes/an). Les thermes romains Alpes-Léman proposent soins, piscines thermales et hammam. La ville Belle Époque (casino, palace, villas) est un exemple parfait de l'aristocratie thermale du XIXe siècle.",
+      },
+      {
+        heading: "6. Musée des Beaux-Arts de Chambéry",
+        body: "Le musée de Chambéry possède la plus grande collection de peintures italiennes de France en dehors du Louvre — reflet de l'histoire piémontaise de la Savoie. Primitifs italiens, tableaux du XVIIe siècle (école bolonaise, vénitienne, florentine) et une salle de portraits de la maison de Savoie. Entrée gratuite le dimanche matin.",
+      },
+      {
+        heading: "7. Les Charmettes — maison de Jean-Jacques Rousseau",
+        body: "À 2 km du centre de Chambéry, Les Charmettes est la maison de campagne où Rousseau vécut avec Madame de Warens entre 1736 et 1742 — une période qu'il décrit dans les Confessions comme la plus heureuse de sa vie. La maison et le jardin sont conservés dans leur état d'origine. Promenade de 30 min depuis la vieille ville.",
+      },
+      {
+        heading: "8. Chartreuse et massif de Belledonne",
+        body: "Chambéry est encerclée par trois massifs : Chartreuse (à l'ouest), Belledonne (à l'est), Bauges (au nord). La Chartreuse offre des randonnées exceptionnelles depuis Entremont-le-Vieux ou Saint-Pierre-de-Chartreuse — paysages calcaires spectaculaires, cirques glaciaires. En 1h30 de voiture depuis Chambéry : Alpe d'Huez, Les Menuires, Val Thorens.",
+      },
+      {
+        heading: "9. Gastronomie savoyarde et cave à vins",
+        body: "La cuisine savoyarde de Chambéry inclut les indispensables fondue (abondance, beaufort), raclette artisanale et tartiflette mais aussi des spécialités locales : longeole (saucisse aux poireaux), diot au vin blanc, brési (viande séchée). Les vins de Savoie (roussette, altesse, mondeuse rouge) sont parmi les plus sous-évalués de France.",
+      },
+      {
+        heading: "10. Ginguet local et vie de quartier Curial",
+        body: "Le quartier Curial, ancienne caserne militaire reconvertie, est devenu le quartier créatif de Chambéry : coworking, restaurants, bars, expositions. Le marché des Halles (quotidien) et le marché du samedi place de l'Hôtel de Ville concentrent la vie locale. La vie étudiante (Université de Savoie Mont-Blanc, 12 000 étudiants) anime le centre le soir.",
+      },
+    ],
+    relatedCities: ["chambery"],
+    relatedGuides: [
+      "vivre-en-auvergne-rhone-alpes-guide-2025",
+      "quitter-chambery-guide-2026",
+    ],
+    tags: ["10 choses à faire à Chambéry", "activités Chambéry 2026", "sorties Chambéry", "que faire à Chambéry", "Alpes Lac du Bourget Savoie Chambéry visiteurs"],
+  },
+  {
+    slug: "10-choses-a-faire-a-toulon-2026",
+    title: "10 choses à faire à Toulon (la rade et la montagne du Faron)",
+    metaTitle: "10 choses à faire à Toulon 2026 — activités et sorties locales",
+    metaDesc: "Rade militaire, Mont Faron, Corniche du Var et gastronomie provençale : 10 activités à Toulon pour découvrir la troisième ville de PACA.",
+    category: "tourisme",
+    emoji: "⚓",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Toulon est la grande ville de la Côte d'Azur la moins touristique — et pour cela la plus authentique. Sa rade naturelle est l'une des plus belles d'Europe, sa cuisine provençale plus abordable qu'à Nice ou Marseille, et son ensoleillement (2 900 h/an) rivalise avec les stations balnéaires voisines sans leur prix.",
+    sections: [
+      {
+        heading: "1. Téléphérique du Mont Faron",
+        body: "Le téléphérique du Mont Faron (584 m) part du boulevard de l'Amiral-Vence et monte en 6 minutes au sommet. Vue à 360° sur la rade de Toulon, les îles d'Hyères, les Maures et les Alpes. Zoo du Faron en haut, sentiers de randonnée, restaurant panoramique. Dernier téléphérique 30 min avant coucher du soleil.",
+      },
+      {
+        heading: "2. Rade de Toulon — promenades en bateau",
+        body: "La rade de Toulon est une des plus grandes rades naturelles de Méditerranée (aspect défensif qui en fit le premier port militaire de France). Les bateaux de la Compagnie Maritime Toulonnaise relient le Vieux-Port aux communes de la rade (La Seyne-sur-Mer, Saint-Mandrier) en 20 min pour le prix d'un ticket de bus. Traversée au coucher du soleil : gratuite avec le pass Mistral.",
+      },
+      {
+        heading: "3. Musée national de la Marine",
+        body: "Le musée de la Marine de Toulon, installé dans la préfecture maritime du XVIIIe siècle, est l'un des plus beaux de France. Maquettes de navires (dont le Soleil Royal, vaisseau de 104 canons de Louis XIV), figures de proue sculptées par Puget, histoire de la flotte méditerranéenne. Entrée à tarif réduit.",
+      },
+      {
+        heading: "4. Marchés de la rue d'Alger et halles Vieille-Ville",
+        body: "Le marché du Cours Lafayette (chaque matin) est le marché provençal le plus authentique de la région — sans la muséification de certains marchés de la Côte d'Azur. Légumes provençaux, poissons du Var, olives et tapenade, fleurs de la région. La soupe au pistou, la socca (la vraie, pas la version touristique) et les navettes toulonnaises s'y trouvent.",
+      },
+      {
+        heading: "5. Presqu'île de Saint-Mandrier",
+        body: "Saint-Mandrier-sur-Mer, accessible en 15 min de bateau depuis Toulon, est une presqu'île avec une plage de galets sur la rade et des calanques sauvages côté mer. Les restaurants de poissons sur le port sont parmi les moins chers de la région pour une qualité identique à ceux de Marseille ou Nice.",
+      },
+      {
+        heading: "6. Îles d'Hyères — Porquerolles, Port-Cros",
+        body: "Les îles d'Hyères (Porquerolles, Port-Cros, Le Levant) sont accessibles en ferry depuis Toulon ou La Tour Fondue (40-60 min). Porquerolles est classée parmi les plus belles îles d'Europe : plages de sable blanc, eau turquoise, parc national (80% de l'île protégée). Interdite aux voitures, arpentée à pied ou à vélo.",
+      },
+      {
+        heading: "7. Corniche du Var et calanques entre Toulon et Cassis",
+        body: "Entre Toulon et La Ciotat, la corniche du Var (D559) longe des calanques accessibles à pied ou en kayak. Le Calanque de Figuerolles (La Ciotat), la Calanque du Jonquier, les plages de l'Anse de Renecros — des sites proches de Toulon sans les foules de Marseille. Les kayaks de mer se louent à Toulon et La Seyne.",
+      },
+      {
+        heading: "8. La Valette-du-Var — marché et producteurs locaux",
+        body: "La Valette-du-Var, commune périphérique de Toulon, abrite le plus grand marché de plein air de la Var (dimanche matin) avec des producteurs locaux : vin de Bandol (AOP), huile d'olive du Var, fromages de chèvre, miel de lavande. Le vignoble de Bandol est à 15 km de Toulon — visites domaines ouverts le week-end.",
+      },
+      {
+        heading: "9. Bandol et Sanary — les villages vignerons",
+        body: "Bandol (20 km de Toulon) est la seule AOP de Provence pour un vin rouge à dominante mourvèdre, élevé 18 mois minimum en foudres de chêne. Les domaines Tempier, Ott et La Suffrène proposent des dégustations. Sanary-sur-Mer, voisine, est un port de pêche intact avec arcades colorées — une des plus jolies villes de la côte varoise.",
+      },
+      {
+        heading: "10. Soirée dans le Mourillon et le Vieux-Toulon",
+        body: "Le quartier du Mourillon, avec sa plage urbaine et ses restaurants de poissons, est le secteur le plus animé de Toulon le soir. Le Vieux-Toulon autour de la Cours Lafayette et de la Place Puget concentre les bars et brasseries locales. La bouillabaisse toulonnaise (moins codifiée que la marseillaise) se mange dans les restaurants du port à 20-30€.",
+      },
+    ],
+    relatedCities: ["toulon"],
+    relatedGuides: [
+      "vivre-en-provence-paca-guide-2025",
+      "quitter-toulon-guide-2026",
+    ],
+    tags: ["10 choses à faire à Toulon", "activités Toulon 2026", "sorties Toulon", "que faire à Toulon", "rade Faron Îles d'Hyères Provence Toulon visiteurs"],
+  },
+  {
+    slug: "10-choses-a-faire-a-valence-2026",
+    title: "10 choses à faire à Valence (entre Rhône et Vercors)",
+    metaTitle: "10 choses à faire à Valence 2026 — activités et sorties locales",
+    metaDesc: "Vercors, Rhône, gastronomie Pic et vieille ville : 10 activités à Valence pour explorer la porte du Midi entre Lyon et Marseille.",
+    category: "tourisme",
+    emoji: "🌞",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Valence est la ville la plus au sud du grand couloir rhodanien, à mi-chemin entre Lyon (1h) et Marseille (1h30 en TGV). Son ensoleillement, sa gastronomie (Maison Pic, 3 étoiles Michelin depuis 1934), son accès immédiat au Vercors et aux Cévennes en font une base idéale pour les amateurs de plein air.",
+    sections: [
+      {
+        heading: "1. Maison Pic et gastronomie valentinoise",
+        body: "La Maison Pic est l'une des tables les plus étoilées de France — 3 étoiles Michelin depuis 1934, aujourd'hui dirigée par Anne-Sophie Pic (seule femme à avoir 3 étoiles en France). Le restaurant gastronomique reste inaccessible en termes de prix, mais le Bistrot à côté (même complexe) propose une cuisine de qualité à 35-55€. Le marché central de Valence, notamment le samedi, reflète la richesse du terroir drômois.",
+      },
+      {
+        heading: "2. Vercors — la forteresse naturelle",
+        body: "Le massif du Vercors (alt. max 2 341 m) est à 30 minutes de Valence par la D518 ou la D531. Combe Laval (route en corniche vertigineuse au-dessus des gorges), Pont-en-Royans (maisons suspendues au-dessus de la Bourne), Vassieux-en-Vercors (mémorial de la Résistance 1944). En hiver, ski de fond sur les hauts plateaux.",
+      },
+      {
+        heading: "3. Cathédrale Saint-Apollinaire",
+        body: "La cathédrale Saint-Apollinaire (XIe-XIIe siècles), reconstruite après les destructions des guerres de Religion, est un exemple de l'art roman dans la Drôme. À côté, le Musée des Beaux-Arts de Valence (pastels de Hubert Robert, préhistoire drômoise, collection de faïences) occupe l'ancien évêché. La vue depuis le Champ-de-Mars sur le Rhône et les Alpes ardéchoises complète la visite.",
+      },
+      {
+        heading: "4. Maisons de Valence — architecture médiévale",
+        body: "La Maison des Têtes (1532), façade Renaissance ornée de 60 médaillons sculptés, est l'un des bâtiments les plus remarquables de la vallée du Rhône. La vieille ville de Valence, avec ses ruelles de calcaire entre la cathédrale et le Rhône, garde une atmosphère médiévale préservée malgré la reconstruction post-Révolution.",
+      },
+      {
+        heading: "5. Bords du Rhône et parc Jouvet",
+        body: "Le parc Jouvet, sur les bords du Rhône avec une roseraie de 5 000 rosiers, est le poumon vert de Valence. Le belvédère Jouvet offre une vue sur le Rhône et le Vivarais (Ardèche en face). En été, les bords du Rhône au niveau du parc et de la plage des Couleures sont animés par les locaux le week-end.",
+      },
+      {
+        heading: "6. Ardèche depuis Valence — Gorges et Baume les Messieurs",
+        body: "Les Gorges de l'Ardèche (départ de Vallon-Pont-d'Arc, 45 min de Valence) sont l'un des sites naturels les plus spectaculaires de France. Le Pont d'Arc (arche naturelle de 60 m de haut) et la descente en canoë (34 km en 2 jours) sont les activités signatures. Réservation du gîte intermédiaire à Gaud indispensable en juillet-août.",
+      },
+      {
+        heading: "7. Chabeuil et vignoble de Crozes-Hermitage",
+        body: "Valence est au cœur de la Vallée du Rhône viticole. Crozes-Hermitage (syrah rouge, roussanne/marsanne blanc) est l'appellation la plus étendue de la région — domaines Cave de Tain, Delas, Chapoutier à 20-30 min. Hermitage, la colline la plus célèbre de la viticulture mondiale (vins > 300€ la bouteille), est visible depuis Valence.",
+      },
+      {
+        heading: "8. Marché du samedi et produits drômois",
+        body: "Le marché du samedi sur la place des Clercs et les rues adjacentes est le grand rendez-vous valentinois. Producteurs de la Drôme des Collines : huile de noix de Grenoble (IGP), nougat de Montélimar (IGP), lavande de la Drôme, poulet fermier, truffes noires de Grignan. Ravioles du Dauphiné (AOP) dans toutes les épiceries.",
+      },
+      {
+        heading: "9. Die et la Clairette — escapade dans le Diois",
+        body: "Die, à 70 km de Valence dans la vallée de la Drure (Diois), est connue pour la Clairette de Die (AOP, vin pétillant de muscat). Les Gorges des Gats et le Col de Rousset (accès au Vercors) en font un point de départ idéal pour 3 jours. Les thermes de Rochefort-en-Valdaine et de Vals-les-Bains (Ardèche) sont à 50-60 km.",
+      },
+      {
+        heading: "10. Festival de la Saint-Valentin et vie urbaine",
+        body: "Valence est jumelée à Valence en Espagne depuis 1960 et revendique sa connexion à la Saint-Valentin — le festival annuel de février anime le centre. Plus quotidiennement, le quartier de Lesdiguières et ses restaurants de cuisine bistronomique, la rue du Dr-Schweitzer et la Maison des Têtes (restaurant intégré) sont les adresses de la vie valentinoise.",
+      },
+    ],
+    relatedCities: ["valence"],
+    relatedGuides: [
+      "vivre-en-auvergne-rhone-alpes-guide-2025",
+      "quitter-valence-guide-2026",
+    ],
+    tags: ["10 choses à faire à Valence", "activités Valence 2026", "sorties Valence", "que faire à Valence", "Vercors Rhône Drôme Valence visiteurs"],
+  },
+  {
+    slug: "10-choses-a-faire-a-poitiers-2026",
+    title: "10 choses à faire à Poitiers (art roman et Futuroscope)",
+    metaTitle: "10 choses à faire à Poitiers 2026 — activités et sorties locales",
+    metaDesc: "Baptistère Saint-Jean, Notre-Dame-la-Grande, Futuroscope et cuisine poitevine : 10 activités à Poitiers pour découvrir la capitale du Poitou-Charentes.",
+    category: "tourisme",
+    emoji: "🏛️",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Poitiers est une ville universitaire de 90 000 habitants posée sur un plateau rocheux qui a vu se dérouler trois batailles décisives de l'histoire de France. Son patrimoine roman — le plus dense de France par ville — est un circuit architectural sans équivalent, et sa situation à 1h25 de Paris en TGV en fait un cas à part pour les télétravailleurs.",
+    sections: [
+      {
+        heading: "1. Notre-Dame-la-Grande — chef-d'œuvre de l'art roman",
+        body: "Notre-Dame-la-Grande est l'église romane la plus ornée de France — sa façade occidentale (XIIe siècle) est un livre de pierre avec 76 personnages sculptés. L'intérieur peint en polychromie (reconstitution XVIe siècle) est rare pour l'art roman français. Une mise en lumière numérique projette les couleurs médiévales sur la façade en été.",
+      },
+      {
+        heading: "2. Baptistère Saint-Jean — le plus vieux monument chrétien de France",
+        body: "Le Baptistère Saint-Jean (IVe siècle) est le plus ancien monument chrétien debout en France. Construit sous Constantin, il a servi au baptême par immersion totale pendant mille ans. Les fresques mérovingiennes et la cuve baptismale du Ve siècle sont uniques. Entrée à prix libre.",
+      },
+      {
+        heading: "3. Circuit des 35 églises romanes",
+        body: "Poitiers concentre 35 monuments romans dans un rayon de 500 m du centre — un record européen pour une ville de cette taille. La cathédrale Saint-Pierre (XIIe-XIIIe siècles, vitraux du XIIe siècle parmi les plus vieux de France), Saint-Hilaire-le-Grand, Sainte-Radegonde — un circuit pédestre de 3h aborde les principaux.",
+      },
+      {
+        heading: "4. Futuroscope",
+        body: "Le Futuroscope, parc technologique et de spectacles visuels, est à 10 km de Poitiers (navettes depuis la gare). Fondé en 1987, il reste l'un des parcs à thème les plus fréquentés de France (2 millions de visiteurs/an). Films en 4D, simulateurs dynamiques, dôme IMAX — plus accessible aux adultes que les parcs de type Disneyland.",
+      },
+      {
+        heading: "5. Hypogée des Dunes — nécropole mérovingienne",
+        body: "L'Hypogée des Dunes est une chapelle funéraire souterraine du VIIe siècle, creusée dans le tuffeau, avec des sarcophages mérovingiens en place et des inscriptions latines gravées dans la roche. L'un des sites archéologiques les moins connus et les plus impressionnants de France. Visite guidée uniquement, sur réservation.",
+      },
+      {
+        heading: "6. Marais poitevin — la Venise verte",
+        body: "Le Marais poitevin (Venise verte) est à 60 km de Poitiers via Niort. 10 000 km de canaux navigables en barque plate (yole) entre les frênes têtards. Coulon, Arçais, Saint-Hilaire-la-Palud sont les villages d'accès. Les promenades en barque avec un batelier local (avril-octobre) sont le mode d'accès le plus authentique.",
+      },
+      {
+        heading: "7. Parc de Blossac et bords du Clain",
+        body: "Le parc de Blossac (7 ha, XVIIIe siècle) est l'espace vert principal de Poitiers avec vue sur la vallée du Clain. Les bords du Clain offrent 20 km de sentiers pédestres et cyclables en fond de vallée. En aval, le site préhistorique de la Garenne (grottes calcaires) est accessible depuis le parc.",
+      },
+      {
+        heading: "8. Abbaye de Ligugé et Saint-Savin-sur-Gartempe",
+        body: "Ligugé (10 km de Poitiers) est la plus ancienne abbaye de France encore en activité, fondée par Saint Martin en 361. L'abbatiale romane et les ateliers des moines (émaux, livres d'art) sont visitables. Saint-Savin-sur-Gartempe (30 km) abrite la plus grande Bible en images du monde médiéval — fresques romanes du XIe siècle classées UNESCO.",
+      },
+      {
+        heading: "9. Marché de la place Charles-de-Gaulle et gastronomie poitevine",
+        body: "Le marché du samedi matin (place Charles-de-Gaulle) est le grand marché de Poitiers avec producteurs du Poitou : mogettes (haricots blancs de la Vendée), fromage de chèvre du Poitou (chabichou AOP), pineau des Charentes, farci poitevin (charcuterie aux herbes). La cuisine poitevine est moins connue que la charentaise mais tout aussi riche.",
+      },
+      {
+        heading: "10. Vie étudiante — quartier du Plateau et rue Gambetta",
+        body: "Poitiers est une ville universitaire de 30 000 étudiants (Université de Poitiers, fondée en 1431). La rue Gambetta, les abords de la place du Maréchal-Leclerc et le quartier des Écossais concentrent les bars, restaurants bon marché et concerts. Le TAP Théâtre Auditorium de Poitiers est l'une des meilleures salles de spectacle de l'Ouest.",
+      },
+    ],
+    relatedCities: ["poitiers"],
+    relatedGuides: [
+      "vivre-en-nouvelle-aquitaine-guide-2025",
+      "quitter-poitiers-guide-2026",
+    ],
+    tags: ["10 choses à faire à Poitiers", "activités Poitiers 2026", "sorties Poitiers", "que faire à Poitiers", "art roman Futuroscope Poitou Poitiers visiteurs"],
+  },
+  {
+    slug: "10-choses-a-faire-a-troyes-2026",
+    title: "10 choses à faire à Troyes (la ville médiévale et le champagne)",
+    metaTitle: "10 choses à faire à Troyes 2026 — activités et sorties locales",
+    metaDesc: "Vieille ville médiévale, vitraux gothiques, marché aux affaires et gastronomie champenoise : 10 activités à Troyes pour découvrir la capitale de l'Aube.",
+    category: "tourisme",
+    emoji: "🏘️",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Troyes est une ville médiévale d'exception : 2 000 maisons à colombages des XVe-XVIe siècles, 9 grandes églises gothiques avec les plus beaux vitraux de France après Chartres, et un centre historique entier en forme de bouchon de champagne. À 1h30 de Paris en train, c'est le week-end médiéval le plus accessible d'Île-de-France.",
+    sections: [
+      {
+        heading: "1. Cathédrale Saint-Pierre-et-Saint-Paul — les vitraux",
+        body: "La cathédrale de Troyes (XIIIe-XVIe siècles) possède 1 800 m² de vitraux du XIIe au XXe siècle — le plus grand ensemble de vitraux gothiques de France après Chartres. Les baies du XIIIe siècle de la nef et les grandes verrières du XVIe siècle du chœur sont classées monument historique. La rose ouest est l'une des plus belles de l'art gothique champenois.",
+      },
+      {
+        heading: "2. Quartier des colombages — la ville médiévale",
+        body: "Le centre historique de Troyes conserve 2 000 maisons à colombages du XVe au XVIIe siècle en état remarquable — la plus grande concentration de France après Strasbourg. La rue des Chats, la ruelle des Chats (passage voûté du XVIe siècle), la rue Paillot-de-Montabert sont les ruelles les plus photographiées. Le plan en forme de bouchon de champagne est visible sur les cartes.",
+      },
+      {
+        heading: "3. Basilique Saint-Urbain — l'avant-garde gothique",
+        body: "La basilique Saint-Urbain (1262-1265) est un manifeste du gothique rayonnant — fenêtres qui remplacent entièrement les murs, vitraux blancs laissant passer une lumière aveuglante. Commandée par le pape Urbain IV, natif de Troyes. L'intérieur, dépouillé et lumineux, contraste radicalement avec le gothique flamboyant de la cathédrale.",
+      },
+      {
+        heading: "4. Musée d'Art Moderne — Fauves et Cubistes",
+        body: "Le musée d'Art Moderne de Troyes, installé dans l'ancien palais épiscopal, abrite la collection Lévy-Dennery : 2 000 œuvres des avant-gardes du début XXe siècle (Derain, Vlaminck, Matisse, Picasso, Braque). L'une des meilleures collections de fauvisme et cubisme en province, résultat d'une donation privée exceptionnelle.",
+      },
+      {
+        heading: "5. Lac de la Forêt d'Orient",
+        body: "À 25 km de Troyes, les trois lacs de la forêt d'Orient (Parc naturel régional) représentent 7 000 ha de plans d'eau. Lac du Temple (réservoir pour Paris en cas de crue), Lac d'Orient (voile, planche à voile, baignade) et Lac Amance (ski nautique, motonautisme). L'hiver, les oiseaux migrateurs (grues cendrées par milliers) en font un site ornithologique européen.",
+      },
+      {
+        heading: "6. Champagne de l'Aube — les vignerons de la Côte des Bar",
+        body: "La Côte des Bar, à 30 km de Troyes, est le terroir des vignerons récoltants-manipulants champenois — moins connus que Reims et Épernay mais produisant des champagnes à personnalité marquée et prix inférieurs de 30-40%. Les villages de Gyé-sur-Seine, Les Riceys (seule AOC à triple appellation en France) et Bar-sur-Aube sont les centres de production.",
+      },
+      {
+        heading: "7. Fromagerie de Chaource et gastronomie auboise",
+        body: "Le chaource est un fromage AOP à pâte molle et croûte fleurie, produit exclusivement dans l'Aube depuis le Moyen Âge. Crémeux, légèrement acidulé, il se déguste frais ou affiné avec un champagne blanc de blancs. Les andouillettes de Troyes (AAAAA — association amicale des amateurs d'andouillette authentique) sont les plus réputées de France.",
+      },
+      {
+        heading: "8. Outlets de Troyes — McArthurGlen et Marques Avenue",
+        body: "Troyes est la capitale des outlets en France — deux parcs distincts (McArthurGlen et Marques Avenue) à 5 km du centre regroupent 200 boutiques de marques (Lacoste, Tommy Hilfiger, Levi's, Nike, Adidas) avec 30-70% de remise. 2 millions de visiteurs/an en font l'une des premières destinations shopping d'Europe.",
+      },
+      {
+        heading: "9. Église Sainte-Madeleine et le jubé de 1517",
+        body: "Le jubé de l'église Sainte-Madeleine (1517) est le seul jubé médiéval encore en place en Champagne — une clôture de pierre sculptée séparant la nef du chœur. Les dentelles de calcaire et les frises à motifs végétaux sont d'une finesse inégalée. L'église conserve aussi une Vierge à l'Enfant du XVIe siècle particulièrement expressive.",
+      },
+      {
+        heading: "10. Marché couvert et vie de la place Jean-Jaurès",
+        body: "Le marché couvert de Troyes (mardi, jeudi, samedi, vendredi partiel) regroupe des maraîchers de l'Aube et de la Seine-et-Marne. Spécialités : andouillettes AAAAA en charcuterie, chaource AOP, jambon de pays, crèpes de dentelle champenoises. La place Jean-Jaurès est le centre de la vie sociale le soir, avec ses terrasses et son animation universitaire.",
+      },
+    ],
+    relatedCities: ["troyes"],
+    relatedGuides: [
+      "vivre-en-bourgogne-franche-comte-guide-2025",
+      "quitter-troyes-guide-2026",
+    ],
+    tags: ["10 choses à faire à Troyes", "activités Troyes 2026", "sorties Troyes", "que faire à Troyes", "médiéval vitraux champagne Troyes visiteurs"],
+  },
+  {
+    slug: "10-choses-a-faire-a-colmar-2026",
+    title: "10 choses à faire à Colmar (la Petite Venise et la route des vins)",
+    metaTitle: "10 choses à faire à Colmar 2026 — activités et sorties locales",
+    metaDesc: "Petite Venise, retable d'Issenheim, route des vins d'Alsace et gastronomie alsacienne : 10 activités à Colmar pour découvrir le cœur de l'Alsace.",
+    category: "tourisme",
+    emoji: "🍷",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Colmar est la capitale viticole de l'Alsace, une ville de 70 000 habitants avec un centre historique entièrement préservé des destructions de 1944 — à la différence de Strasbourg ou Mulhouse. Ses maisons à colombages du XVe au XVIIe siècle, ses canaux et son retable d'Issenheim en font l'une des villes touristiques les plus denses de France.",
+    sections: [
+      {
+        heading: "1. Petite Venise — les quartiers des Tanneurs et des Maraîchers",
+        body: "Le quartier de la Petite Venise est le secteur le plus photographié de Colmar : maisons à colombages colorées (XV-XVIe siècles) qui se reflètent dans les bras de la Lauch. La promenade en barque (mai-octobre) dure 30 min et passe sous les ponts fleuris. Le quartier des Tanneurs (façades plus austères, séchoirs en dernier étage) complète le circuit.",
+      },
+      {
+        heading: "2. Musée Unterlinden — le retable d'Issenheim",
+        body: "Le retable d'Issenheim (1512-1516), peint par Matthias Grünewald pour une commanderie antonite soignant l'ergotisme, est l'un des plus grands chefs-d'œuvre de la peinture occidentale. La crucifixion centrale, d'un réalisme saisissant, reste la représentation de la Passion la plus puissante jamais peinte. Le musée Unterlinden (dans un cloître dominicain) est de rang mondial.",
+      },
+      {
+        heading: "3. Route des vins d'Alsace depuis Colmar",
+        body: "La Route des Vins d'Alsace (170 km de Marlenheim à Thann) passe par Colmar. Les grands crus du Haut-Rhin sont à portée de vélo depuis le centre : Grand Cru Schlossberg (Kaysersberg), Clos Saint-Urbain (Zind-Humbrecht), Clos Windsbuhl. Les cépages : riesling, gewurztraminer, pinot gris, muscat. Dégustations libres dans la plupart des domaines.",
+      },
+      {
+        heading: "4. Kaysersberg — le village natal d'Albert Schweitzer",
+        body: "Kaysersberg, à 15 km de Colmar sur la Route des Vins, est classé parmi les plus beaux villages de France. Son château médiéval, son église romane-gothique, ses maisons à colombages et ses caves viticoles en font un circuit d'une demi-journée. Maison natale d'Albert Schweitzer (musée ouvert en saison). La winstub du village sert les meilleures tartes flambées de la région.",
+      },
+      {
+        heading: "5. Marché de Noël de Colmar",
+        body: "Le marché de Noël de Colmar (fin novembre-décembre) est l'un des cinq plus fréquentés d'Europe, avec 2 millions de visiteurs. Contrairement aux marchés de Strasbourg, Colmar en organise plusieurs simultanément dans différents quartiers : place Unterlinden, la Petite Venise, place de l'Ancienne Douane. Bredele, pain d'épices, vin chaud, mannele.",
+      },
+      {
+        heading: "6. Ribeauvillé et les châteaux forts médiévaux",
+        body: "Ribeauvillé, à 20 km de Colmar, est dominée par trois châteaux médiévaux en ruines (Girsberg, Saint-Ulrich, Haut-Ribeaupierre). La montée aux ruines depuis le centre du village (45 min aller) offre une vue sur la plaine d'Alsace, le Rhin et la Forêt-Noire en Allemagne. La winstub Zum Pfifferhus est une institution locale depuis 1890.",
+      },
+      {
+        heading: "7. Gastronomie alsacienne — les vraies winstubs",
+        body: "La winstub (wine room) alsacienne est un restaurant populaire de bois sombre, tables serrées, nappes à carreaux. Choucroute garnie (charcuteries fumées, Riesling, porc local), baeckeoffe (ragoût de viandes marinées au vin blanc), flammekueche (tarte flambée), kugelhopf (brioche aux amandes), munster AOP fondu. Budget 15-25€ pour un repas complet avec verre de vin.",
+      },
+      {
+        heading: "8. Turckheim et les villages fortifiés",
+        body: "Turckheim, à 6 km de Colmar, est l'un des rares villages alsaciens à avoir conservé ses trois portes fortifiées médiévales intactes. Le veilleur de nuit (personnage en costume médiéval) fait sa ronde chaque soir à 22h de mai à octobre — une tradition ininterrompue depuis le Moyen Âge. Vignoble Brand (grand cru) accessible directement depuis le village.",
+      },
+      {
+        heading: "9. Alsace Minature — circuits familiaux",
+        body: "Alsace Miniature, à Ribeauvillé, reproduit en maquettes 1/87e les principaux monuments alsaciens : cathédrale de Strasbourg, châteaux forts, villages viticoles. Idéal avec enfants (parc extérieur de 1 ha). Combinable avec la visite de Ribeauvillé et des châteaux sur une journée.",
+      },
+      {
+        heading: "10. La nuit à Colmar — caves à vin et quartier des musiciens",
+        body: "Le soir, Colmar se vide rapidement des touristes de passage. Les habitants fréquentent les winstubs de la vieille ville (réservation indispensable le week-end) et les caves à vin qui proposent dégustations à l'assiette accompagnées de charcuteries. Le marché couvert (Marché Couvert Colmar) accueille un marché alimentaire le matin et des concerts ponctuels le soir.",
+      },
+    ],
+    relatedCities: ["colmar"],
+    relatedGuides: [
+      "vivre-en-alsace-guide-2025",
+      "quitter-colmar-guide-2026",
+    ],
+    tags: ["10 choses à faire à Colmar", "activités Colmar 2026", "sorties Colmar", "que faire à Colmar", "route des vins Alsace retable Colmar visiteurs"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
