@@ -7831,6 +7831,222 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["strasbourg", "grenoble", "bordeaux", "nantes", "rennes", "tours", "la-rochelle"],
     tags: ["best french cycling cities 2026", "bike friendly france", "cycling expat france", "best cycle cities france", "strasbourg grenoble nantes cycling"],
   },
+  {
+    slug: "dordogne-perigord-living-guide-expats-2026",
+    title: "Living in the Dordogne and Périgord: the honest expat guide (2026)",
+    metaTitle: "Dordogne Périgord living guide expats 2026 — cost, community, reality",
+    metaDesc: "Thinking of moving to the Dordogne or Périgord? The honest expat guide: costs, healthcare, English-speaking community, what no one tells you about rural France. Updated 2026.",
+    category: "lifestyle",
+    emoji: "🏡",
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    readMinutes: 10,
+    intro: "The Dordogne — or the Périgord, as the French call it — is arguably the most famous expat destination in France, and possibly in all of Europe. Since the 1970s and 80s, British, Dutch, Belgian and American buyers have been purchasing farmhouses, manoirs and village houses across the Dordogne, Corrèze and Lot-et-Garonne departments. Today the English-speaking community is well-established, the property prices are still reasonable by UK or Irish standards, the countryside is beautiful, and the food is exceptional. But it is also genuinely rural — and rural France in 2026 is not the romanticised version of the Peter Mayle novels. Here is what you actually need to know.",
+    sections: [
+      {
+        heading: "What the Dordogne actually is — geography first",
+        body: "The term 'Dordogne' is used loosely to refer to both the Dordogne department (24) and the broader region of Périgord, which covers most of it. Key towns: Périgueux (the prefecture, ~30,000 people, the practical hub), Bergerac (the wine town with a small airport, ~28,000), Sarlat-la-Canéda (the medieval tourist magnet, ~10,000), Brive-la-Gaillarde (just over the border in Corrèze, larger and more urban). Driving distances: Bordeaux is 1h40 from Sarlat, 1h from Bergerac. Toulouse is 2h30. Paris is 4h30 by road or about 3h by TGV from Périgueux or Brive. The Dordogne is not convenient to major cities — this is the primary fact about life here. If you need to commute or travel frequently for work, factor this cost carefully.",
+      },
+      {
+        heading: "Property: what you can get and what it costs",
+        body: "The Dordogne remains one of the most affordable rural departments of France for property with character. Typical prices: a farmhouse (farmhouse with outbuildings, 150–200 m² habitable, 1–2 hectares of land) runs €180,000–350,000 depending on condition and location. A village house in Sarlat or Brantôme: €200,000–400,000 (tourist premium). A manor house with pool in need of work: €350,000–600,000. A renovated, turn-key farmhouse in prime countryside: €450,000–800,000+. The differential versus the UK, Ireland or Netherlands is significant — a similar property in rural Somerset or County Cork would cost 2–3x. That said, renovation costs in France are not cheap: plumbing, electrical, roofing and structural work at French artisan rates (€50–100/hour) add up quickly. Budget 20–30% of purchase price for meaningful renovation.",
+      },
+      {
+        heading: "Healthcare: the honest picture",
+        body: "Healthcare access is the central practical issue for expats in the Dordogne. The department has a significant médecin généraliste shortage — a common pattern across rural France. Périgueux has the Clinique du Pôle Santé (private) and the Centre Hospitalier de Périgueux (public). Bergerac has a hospital but limited specialist access. For complex care, Bordeaux (1h30–2h) or Limoges (1h) are the realistic options. Post-Brexit British residents need to apply for the S1 form (via DVSA/HMRC) to access French healthcare on the same basis as EU citizens with CPAM. Many Dordogne expats use a complementary mutuelle (supplementary health insurance) to cover what the Sécu doesn't — typically €80–150/month for a couple. Expect 3–6 months to register with CPAM and get your carte vitale. Plan accordingly with private international health insurance for the first year.",
+      },
+      {
+        heading: "The English-speaking community: bigger than you think",
+        body: "The Dordogne has a genuinely large, established English-speaking community — one of the few places in rural France where you can have a rich social life in English without trying hard. Active groups: Périgord Expats (Facebook group, 6,000+ members), Dordogne Life magazine (English-language monthly), British Connections associations in Bergerac, Sarlat and Périgueux. Estate agents specialising in English-speaking buyers: everywhere. English-speaking doctors: a growing list maintained by the British consulate. The risk: the community is large enough that some expats spend years without learning much French. This is socially comfortable but limits integration with local French life and creates dependency on a community that can also be cliquey and gossip-heavy. Most long-term happy expats in the Dordogne report making a deliberate effort to have French as well as expat friends.",
+      },
+      {
+        heading: "What no one tells you before moving",
+        body: "Four things that consistently surprise new arrivals: 1) The winters are longer and greyer than expected. The Dordogne gets real cold (occasional snow, regular frosts November–March), and the thick stone walls that look romantic in summer are expensive to heat. Oil-fired central heating is common; fuel costs have risen sharply post-2022. 2) Rural isolation hits differently in year 2 or 3 than in year 1. The first year is exciting. After that, long drives to the supermarket, limited spontaneous socialising, and the absence of urban buzz affects some people more than expected. 3) French administration is genuinely complex for foreigners — registering a car, navigating planning permission for renovation, understanding tax treaties — and getting professional French-speaking help (accountant, notaire) is not always easy to find quickly. 4) The French neighbours are often warm but the integration timeline is long. French villages are not always as welcoming to newcomers as expat forums suggest. Invest in language, patience and showing up at the local boulangerie every morning.",
+      },
+    ],
+    relatedCities: ["perigueux", "bergerac", "sarlat-la-caneda"],
+    tags: ["Dordogne expat guide 2026", "living in the Dordogne UK", "Périgord expat life honest guide", "move to Dordogne France 2026", "Dordogne property expat"],
+  },
+  {
+    slug: "french-alps-annecy-chambery-living-guide-2026",
+    title: "Living in the French Alps: Annecy, Chambéry and the mountain lifestyle (2026)",
+    metaTitle: "French Alps living guide expats 2026 — Annecy Chambéry cost quality of life",
+    metaDesc: "Moving to the French Alps: Annecy, Chambéry, Grenoble. Cost of living, skiing, outdoor lifestyle, expat community, job market. Honest guide for 2026.",
+    category: "lifestyle",
+    emoji: "🏔️",
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    readMinutes: 9,
+    intro: "The French Alps are one of the great outdoor-living destinations of Europe — and for expats who want mountains, seasons, skiing, lakes and a genuinely active lifestyle, they offer something that coastal or urban France can't replicate. Annecy is regularly ranked among the most beautiful cities in France, Chambéry is the quiet, authentic Alpine gateway, and Grenoble is the tech-and-mountains combination that draws young professionals and researchers from around the world. But mountain life has tradeoffs: higher property prices in sought-after areas, genuinely cold winters, and a social scene that can be very sports-oriented. This guide is for people considering a real move — not a second-home ski purchase.",
+    sections: [
+      {
+        heading: "Annecy: the postcard city",
+        body: "Annecy is, quite simply, one of the most beautiful cities in France — and one of the most expensive in the Alps. The old town canals, the lake, the mountains as backdrop: it photographs extraordinarily well and attracts both tourists and people who want to live there full-time. Reality check: Annecy is not cheap. Average property prices sit at €4,500–6,500/m² for good apartments, €3,200–4,500/m² for the outskirts. Renting a 2-bedroom: €1,100–1,600/month in town. The job market outside tourism and border-commuting to Geneva (25 min by car) is limited — many Annecy residents work in Geneva (Swiss salaries, French cost of living — a famously lucrative combination, though the Swiss border-worker regime has become more complex post-2020). Lake access for swimming (July–August primarily; the lake is cold) and water sports is exceptional. Traffic is genuinely bad in tourist season (July–August) and somewhat year-round. If you drive to work, factor this in.",
+      },
+      {
+        heading: "Chambéry: the underrated Alpine base",
+        body: "Chambéry is consistently overlooked by expats who head straight for Annecy or Grenoble — and it's a real find for those who discover it. Smaller (60,000 people) than both its neighbours, Chambéry is quieter, more authentically Savoyard, and significantly cheaper. Average property prices: €2,800–3,600/m² for the city, significantly less for the surrounding valleys. Rent for a 2-bedroom: €750–1,000/month. Access: TGV direct from Paris in 2h30, Lyon in 1h, Geneva in 45 min. Skiing: Les Saisies, Valmorel, Les Arcs are within 1h. Outdoor lifestyle: Mont Granier, Belledonne, and the Grand Arc are accessible for hiking. The expat community is smaller than Grenoble or Annecy — you will integrate more with French residents by necessity, which most long-term residents consider an advantage. The local economy is service-oriented; remote workers and Geneva commuters make up a significant share of the active population.",
+      },
+      {
+        heading: "Grenoble: mountains plus career",
+        body: "Grenoble is the pragmatic choice for the Alpine move: a real city (480,000 metropolitan area), a world-class research and tech ecosystem (CEA-Leti, STMicroelectronics, Soitec, CNRS, Inria), a strong university (Grenoble-INP, UGA), and the Vercors, Chartreuse, Belledonne, and 7 Laux ski domains literally visible from the city centre. Costs are moderate for a city of this size: €2,800–3,800/m² in the city, €800–1,200/month for a 2-bedroom. The expat community is significant and well-established, particularly among scientists and engineers. Downsides: Grenoble sits in a valley between mountains — this creates an inversion effect in winter (pollution episodes, grey skies for weeks) and limited wind flow in summer (hot, humid). The city itself has some rough urban areas. Infrastructure and public transport are good; cycling infrastructure is among the best in France. If work or research ties you to the area, it's excellent. If pure lifestyle is the goal and budget allows, Annecy edge it out.",
+      },
+      {
+        heading: "Skiing: living close vs living at altitude",
+        body: "The question expats often ask: should I live at altitude (in a ski resort) or in a valley city? Living in a resort (Méribel, Val d'Isère, Morzine, Les Gets) is fantastic for ski-access but has tradeoffs: summer can be dead, property costs are high and volatile with ski-tourism demand, the expat-resort community can feel transient, and services (schools, healthcare, administration) are limited. For year-round living, valley cities (Annecy, Chambéry, Grenoble) are far more practical. 1h to ski resorts from any of these cities is realistic on weekends, and season ski passes (€900–1,400/season for major areas) make regular skiing entirely viable without living in the resort itself.",
+      },
+      {
+        heading: "Alpine lifestyle in practice: summer vs winter",
+        body: "Winters are real in the French Alps: cold (Chambéry averages -1°C in January; nights regularly -5 to -10°C), often grey in the valleys (see Grenoble's inversion problem), and heating costs significant. Wood or pellet stoves are common supplements. The summers, conversely, are exceptional: lake swimming from June through September, hiking, via ferratas, trail running, mountain biking, long days. The outdoor-activity cultural expectation is high — Alpine cities have very sporty populations. If you're not interested in skiing, hiking or water sports, the cultural fit may be less obvious than it appears from the outside. There are theatre, music and cultural scenes in Grenoble and Annecy, but they don't rival Lyon or Bordeaux.",
+      },
+    ],
+    relatedCities: ["annecy", "chambery", "grenoble", "albertville", "aix-les-bains"],
+    tags: ["French Alps living guide expats 2026", "Annecy expat guide 2026", "Chambéry living guide", "Grenoble expat living guide 2026", "move to French Alps 2026"],
+  },
+  {
+    slug: "occitanie-rural-lot-aveyron-tarn-expat-guide-2026",
+    title: "Rural Occitanie: living in the Lot, Aveyron and Tarn as an expat (2026)",
+    metaTitle: "Lot Aveyron Tarn expat guide 2026 — rural France cheap and beautiful",
+    metaDesc: "Living in rural Occitanie: the Lot, Aveyron and Tarn. Affordable property, space, landscape, honest assessment of healthcare and community. Expat guide 2026.",
+    category: "lifestyle",
+    emoji: "🌾",
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    readMinutes: 9,
+    intro: "South of the Dordogne and east of the Basque Country lies one of the least-discovered parts of rural France for foreign residents: the triangle formed by the Lot, Aveyron and Tarn departments. Think medieval perched villages (Rocamadour, Conques, Cordes-sur-Ciel), river gorges (Lot, Célé, Aveyron, Dourdou), Roquefort cheese country, and property prices that still look extraordinary to anyone arriving from Britain, the Netherlands or the US. The downside: remote, underdoctored, and genuinely quiet. This guide is for those who know what they're asking for.",
+    sections: [
+      {
+        heading: "The geography: Lot, Aveyron, Tarn — what's where",
+        body: "The Lot (department 46) centres on Cahors (wine, medieval bridge, prefecture) and stretches east through Figeac to the Lot gorge. It borders the Dordogne to the north and shares similar landscape — river valleys, cliffs, perched villages, walnut and truffle country. The Aveyron (department 12) is further east and more rugged: Millau (the viaduct, and a pleasant mid-sized town), Rodez (the prefecture, a cathedral town that's more lively than you'd expect), and the extraordinary Gorges du Tarn to the south. The Tarn (department 81) is the most accessible: Albi (UNESCO cathedral city, birthplace of Toulouse-Lautrec, genuinely worth considering as a base) and Castres (mid-sized, practical). All three are part of the Occitanie region (capital Toulouse), which puts the nearest big city at 1h–1h45 depending on where you are.",
+      },
+      {
+        heading: "Property: why the prices look too good",
+        body: "Rural Lot, Aveyron and Tarn offer some of the most affordable property in metropolitan France. A renovated farmhouse with 1 hectare of land: €120,000–220,000. A village house in Figeac or Cahors: €80,000–160,000. A small château in need of work: €200,000–400,000. These prices reflect the real economics of the area: modest local income, out-migration of younger generations, aging populations, and limited rental demand. The 'too good to be true' catch is the renovation obligation (many older properties have old electrics, septic tanks needing SPANC certification, no central heating), the cost of artisan labour in rural areas (good craftspeople are hard to find and book), and the re-sale risk. You're buying in a thin market — finding a buyer when you want to sell can take years, not months.",
+      },
+      {
+        heading: "Healthcare: the central challenge",
+        body: "The Aveyron and northern Lot are medical deserts by official DREES mapping. Cahors has a hospital (Centre Hospitalier Jean-Rougier), Rodez has the Hôpital de Rodez (recently extended), Figeac and Millau have clinics but limited specialist access. For anything complex — cardiology, oncology, major surgery — Toulouse is the reference centre. The median age of GPs in the Lot is among the highest in France, meaning retirements without replacement are accelerating the shortage. If you have chronic conditions requiring regular specialist visits, factor travel costs (fuel, accommodation near Toulouse for appointments) into your budget. Many expats in this area report driving 1h30–2h round trip for routine specialist appointments. This is not exceptional by rural French standards — but it is different from what most expats from UK, US or Northern Europe have experienced.",
+      },
+      {
+        heading: "Who actually lives here (and who thrives)",
+        body: "The long-term expat community in Lot and Aveyron is smaller and more dispersed than in the Dordogne, but exists. Key clusters: around Cahors and Saint-Cirq-Lapopie (artists, writers, remote workers who want serious quiet), around Figeac (access to medieval history, craft community), around Millau (outdoor sports — climbing, kayaking, cycling attract a younger, more active crowd). The profile that tends to thrive: people who are genuinely self-sufficient socially (don't need a large expat community), who have a project (renovation, farming, creative work, remote professional), who speak or are committed to learning French, and who have a stable income that doesn't depend on local employment. The profile that tends to struggle: those who moved for the cheap property without realistic plans for daily life, social contact and purpose.",
+      },
+      {
+        heading: "Albi: the smart base city",
+        body: "If you want access to rural Occitanie without full rural isolation, Albi (50,000 people) deserves serious consideration. It's often overlooked in favour of Toulouse, but it has genuine appeal: UNESCO-listed Old City, the exceptional Musée Toulouse-Lautrec, a lively market, decent schools and healthcare infrastructure for its size, TGV connection to Paris via Toulouse (2h45 total), and property prices that are 40–50% below Toulouse. From Albi you can reach rural Tarn and Aveyron in 30–45 minutes, Toulouse in 1h. It's a real city with real services — a more comfortable entry point to the region than jumping straight to an isolated farmhouse.",
+      },
+    ],
+    relatedCities: ["cahors", "figeac", "rodez", "albi", "castres"],
+    tags: ["Lot Aveyron Tarn expat guide 2026", "rural Occitanie France expat 2026", "cheap property France rural 2026", "living in Lot France expat", "Albi living guide expats 2026"],
+  },
+  {
+    slug: "bordeaux-wine-country-medoc-saint-emilion-living-2026",
+    title: "Living in Bordeaux wine country: the Médoc, Saint-Émilion and surrounds (2026)",
+    metaTitle: "Bordeaux wine country living expats 2026 — Médoc Saint-Émilion guide",
+    metaDesc: "Living in the Bordeaux wine country: the Médoc, Saint-Émilion, Entre-Deux-Mers. Property, lifestyle, expat community, distance to Bordeaux city. Honest guide 2026.",
+    category: "lifestyle",
+    emoji: "🍷",
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    readMinutes: 8,
+    intro: "The word Bordeaux means different things to different people. For most, it's the wine — and the wine country around the city is one of the most celebrated landscapes in the world. For expats considering a move to the wider Gironde, the question is often: should I live in Bordeaux city, or in the countryside? The answer depends heavily on what kind of life you want. This guide is specifically about the wine country — the Médoc peninsula north of the city, Saint-Émilion and the Libournais to the east, and the Entre-Deux-Mers between the Garonne and Dordogne rivers — rather than the city itself.",
+    sections: [
+      {
+        heading: "The three main wine country areas",
+        body: "The Médoc is the long peninsula stretching 80km north of Bordeaux, dotted with châteaux (Margaux, Pauillac, Saint-Julien, Saint-Estèphe). The landscape is flat, the winters damp, and the towns — Lesparre-Médoc, Pauillac, Margaux — are functional rather than charming. The estate culture is old and private; locals are reserved. Property is relatively affordable by Gironde standards (€150,000–300,000 for a good house), but the area is genuinely wine-industry focused and rural. Saint-Émilion and the Libournais (east of Bordeaux, 40km away) is different in character: hillier, more photogenic, centred on the village of Saint-Émilion (a tourist centre, beautiful but very seasonal). Surrounding villages like Castillon-la-Bataille, Lussac, Montagne are more practical bases. Entre-Deux-Mers (between the Garonne and Dordogne) is arguably the most pleasant for daily life: rolling hills, dry stone villages, within 30–45 minutes of Bordeaux city.",
+      },
+      {
+        heading: "Living with wine: what it actually means day to day",
+        body: "The fantasy: picking up a case of Margaux at the estate for €15. The reality: the grand crus are sold to négociants and distributed globally — you won't buy Château Margaux at the gate. What you do get: direct access to hundreds of petits châteaux producing excellent, honest Bordeaux at €6–15 a bottle. Winemaker neighbours who invite you to help with the vendange (grape harvest, September) and share lunch. The rhythm of the agricultural year — spring frost stress, summer heat, September harvest intensity, winter quiet — which shapes social life more than any urban calendar. And the food: Arcachon oysters (40 min west), duck and foie gras from Périgord (1h north), Basque pintxos (2h south). The Bordeaux table is genuinely excellent and accessible.",
+      },
+      {
+        heading: "Practical living: distances, services, connectivity",
+        body: "The wine country's central practical challenge is access. Bordeaux city has the TGV to Paris (2h10), the airport (direct London, Dublin, New York), the CHU (university hospital), the major shops and services. From Entre-Deux-Mers, you're 30–40 min by car. From the Médoc, 30–60 min depending on how far north. The TER train to Bordeaux exists but is infrequent and slow from many wine-country towns. Having a car is not optional. Internet: fibre has arrived in most villages over the past 3 years via the THD Gironde deployment — but check specifically for any property you're considering (eligible.arcep.fr). Healthcare: the Libournais has the Hôpital de Libourne (Libourne, 35,000 people), a reasonably well-equipped general hospital. The Médoc has limited options — Bordeaux Pellegrin for anything complex.",
+      },
+      {
+        heading: "Property: what the market looks like in 2026",
+        body: "The Bordeaux city property market has corrected from its peak (2022 saw prices fall 10–15% from 2021 highs), but wine-country rural property remains reasonably priced. A village house in Entre-Deux-Mers: €180,000–320,000. A small château (10–15 hectares with working vineyard) in Castillon: €400,000–800,000 — a completely different project. A renovated farmhouse with barn and 5,000 m² of garden in the Médoc: €250,000–450,000. Note the vineyard question: if a property comes with vines, you are taking on a complex agricultural business with significant obligations (chemical use, harvest labour, AOC rules, marketing). Most expats wanting the wine country lifestyle opt for a house with a large garden, not a working property.",
+      },
+      {
+        heading: "The expat community in wine country",
+        body: "The Gironde has a well-established international wine trade community (négociants, courtiers, wine buyers, journalists, MW students) based largely in Bordeaux city and spreading into the wine country for specific events. The Bordeaux Wine Festival, en primeur tasting week (April), and châteaux open days create a calendar of social events that brings international visitors year-round. Expat residents in the wine country itself are fewer than in the Dordogne — more likely to be professionals in the wine trade, remote workers, or retirees who wanted something more authentic than Bordeaux city. The British community has been present since the Medieval period (Bordeaux was English for 300 years) and the connection remains: Wine & Dine à Bordeaux, Bordeaux British Association, and the consulate maintain services. Integration with French wine-culture neighbours is often easier here than in purely tourist rural areas — shared passion for the land and what it produces bridges the language gap more naturally.",
+      },
+    ],
+    relatedCities: ["bordeaux", "bergerac", "limoges"],
+    tags: ["Bordeaux wine country expat guide 2026", "living near Bordeaux France 2026", "Médoc Saint-Émilion living guide", "Entre-Deux-Mers expat guide", "Bordeaux Gironde property expat 2026"],
+  },
+  {
+    slug: "normandy-coast-versus-brittany-coast-expat-2026",
+    title: "Normandy coast vs Brittany coast: which is right for you? (2026 expat guide)",
+    metaTitle: "Normandy vs Brittany coast expat 2026 — cost, climate, community comparison",
+    metaDesc: "Normandy coast vs Brittany coast for expats: honest comparison of costs, climate, community size, ferry access, quality of life. Which Atlantic coast suits you? Guide 2026.",
+    category: "moving",
+    emoji: "⚓",
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    readMinutes: 9,
+    intro: "For expats considering a coastal life on the northern French Atlantic, the decision often comes down to two regions: Normandy and Brittany. Both are accessible from the UK (multiple ferry routes), both are affordable relative to the south of France, both have strong regional identities, excellent seafood, and a long history of British visitors and residents. But they are genuinely different in character, climate, culture and practical logistics. This guide compares them directly for the questions that actually matter when choosing where to live.",
+    sections: [
+      {
+        heading: "Climate: the honest picture",
+        body: "Neither Normandy nor Brittany is the south of France — this bears saying plainly. Both are temperate oceanic: moderate temperatures year-round (rarely below 0°C on the coast, rarely above 25°C in summer), with consistent rainfall distributed through the year. Normandy is wetter than Brittany on the Cherbourg peninsula, and cloudier overall — Rouen and Caen average around 1,700 hours of sunshine per year (vs 2,000+ in Montpellier). Brittany's reputation for rain is somewhat exaggerated — Quimper gets around 1,900 hours of sunshine annually, similar to London — but fog and drizzle are real, particularly in the Finistère interior. The south coast of Brittany (Morbihan) is significantly sunnier and milder than the north coast (Côtes-d'Armor, Finistère). If sunshine is a priority, Morbihan (Vannes, Lorient, Quiberon) is dramatically better than either northern Brittany or Normandy.",
+      },
+      {
+        heading: "Ferry access and proximity to the UK",
+        body: "This is where Normandy has a real structural advantage. Caen (Ouistreham) is served by Brittany Ferries from Portsmouth; Cherbourg by Brittany Ferries from Poole and Irish Ferries from Rosslare; Le Havre by LD Lines. Crossing times: 3–7 hours depending on route. Normandy is also 2h–2h30 from Paris by TGV (Caen) or 2h (Rouen). Brittany: Saint-Malo has a ferry from Portsmouth and the Condor fast ferry from Weymouth/Poole (4h30); Roscoff serves Plymouth and Cork. Brest is far from Paris (4h30 by TGV). The practical difference: if you're commuting to the UK regularly (for work, for family), Normandy is significantly more convenient. If you just need occasional UK trips and care more about Brittany's specific lifestyle and culture, the access is still manageable.",
+      },
+      {
+        heading: "Property prices and what you get",
+        body: "Both regions remain considerably cheaper than the south of France or Paris. Normandy: Caen averages €2,000–2,800/m² (city centre), with seafront properties in Deauville or Honfleur hitting €5,000–8,000/m² (luxury premium). Inland Normandy (Orne, Eure) has some of the cheapest rural property in France — farmhouses for €80,000–180,000. Brittany: Brest and Quimper average €1,600–2,200/m². Rennes (not coastal but the capital) averages €3,200–3,800/m². Morbihan (southern Brittany) has seen prices rise significantly — Vannes averages €3,500–4,500/m², and coastal Quiberon or Saint-Gildas-de-Rhuys is higher. North Brittany (Côtes-d'Armor, Finistère north coast) remains affordable: village houses from €100,000–200,000. The sweet spot for value: inland Normandy or north Brittany. The compromise between price and lifestyle: Finistère south coast or Morbihan inland.",
+      },
+      {
+        heading: "The expat communities: size, character and integration",
+        body: "Normandy has a significant British community (historically tied to WWII memory and ferry proximity), strongest around Caen and the Orne/Calvados rural areas. Less organised than the Dordogne community but present — the British Embassy lists several associations. Normandy French residents are generally direct and private (the Norman stereotype of guarded but loyal is not entirely wrong); trust is built slowly but reliably. Brittany has a smaller but distinct British community, heaviest in the Saint-Malo/Dinan area and in Finistère. Bretons have a strong regional identity (language, culture, music) that runs parallel to French identity — some expats find this cultural richness engaging, others find it slightly insular. Breton culture is warm at festivals (Fest-Noz, Lorient Interceltique Festival) and more reserved in daily life. Both regions have French-speaking integration requirements for any meaningful participation in local life.",
+      },
+      {
+        heading: "Verdict: which suits you?",
+        body: "Choose Normandy if: you need regular, affordable access to the UK; you want Paris within 2h; you prefer apple country, cider, camembert, and a softer landscape; you're drawn to WWII history and heritage tourism; you want the cheapest rural property in northern France. Choose Brittany (Morbihan south coast) if: sunshine and mild winters are a priority; you want the most dramatic Atlantic coast scenery in France; you're drawn to Celtic culture, pardons and Fest-Noz events; you have a higher budget and want coastal Breton life; you want access to islands (Belle-Île, Groix, Île d'Ouessant). Choose north Brittany / Finistère if: you want maximum privacy, affordable rural property, and dramatic landscapes without the premium of Morbihan — and you accept that the winters are grey and the summers not guaranteed.",
+      },
+    ],
+    relatedCities: ["caen", "brest", "rennes", "rouen", "nantes"],
+    tags: ["Normandy vs Brittany expat 2026", "Normandy coast expat guide", "Brittany coast living guide 2026", "north France coast expat comparison", "move to Normandy or Brittany 2026"],
+  },
+  {
+    slug: "french-cities-for-food-lovers-expat-guide-2026",
+    title: "The best French cities for food lovers: an expat's guide (2026)",
+    metaTitle: "Best French cities food lovers expats 2026 — markets, restaurants, gastronomy",
+    metaDesc: "Best French cities for food lovers: local markets, restaurants, food culture, regional specialities. Honest guide for expats who put food at the centre of the decision. 2026.",
+    category: "lifestyle",
+    emoji: "🧀",
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    readMinutes: 8,
+    intro: "For a certain kind of person — and there are more of us than admit it — the quality of the local food market is a genuine factor in choosing where to live. France has the infrastructure for this: a covered market (halles) or an outdoor market in almost every city, a fromager who knows the difference between an Époisses at three weeks and at five, a boucher who will tell you which cut to braise and which to grill. But not all French cities are equal gastronomically — some have markets that are tourist-oriented and expensive, some have restaurant scenes that punched above their weight for years and are now resting on reputation. This is an honest ranking for the food-motivated mover.",
+    sections: [
+      {
+        heading: "Lyon: still the undisputed capital",
+        body: "Lyon is not a matter of debate. The density of Michelin-starred restaurants relative to population, the bouchon tradition (hearty, offal-forward, deeply local), the Les Halles de Lyon Paul Bocuse (the covered market that is probably the finest in France), the fromager Mère Richard, the charcutier Sibilia, the annual wine events — Lyon is the food city of France, full stop. For an expat moving for food reasons, Lyon is the highest-intensity option. The downside: it's expensive, urban, and the food scene requires money to access fully. But the entry-level food in Lyon is also excellent — bouchons serve proper three-course lunches with wine for €20–25, the outdoor markets at Quai Saint-Antoine and Place Carnot are outstanding. Food-motivated expats who land in Lyon rarely feel they made the wrong choice.",
+      },
+      {
+        heading: "Bordeaux: wine plus market excellence",
+        body: "Bordeaux is a wine city that is also a food city, though it's less celebrated for food than Lyon. The Marché des Capucins (the working-class central market, not the tourist Rue Sainte-Catherine) is one of the best markets in France: oysters from Arcachon at €7/dozen, lamprey in season, entrecôte à la Bordelaise, duck from the Landes. The restaurant scene has improved dramatically in the 2010s and now includes strong representation in all categories from neo-bistro to contemporary fine dining. The wine access is unparalleled at the €10–30 bottle level — you will drink better in Bordeaux for less money than anywhere else in France. The combination of market excellence, wine culture, and improving restaurant scene makes Bordeaux an underrated food destination for long-term residents.",
+      },
+      {
+        heading: "Toulouse and the Southwest: duck, cassoulet, violets",
+        body: "Toulouse is the capital of the gastronomic Southwest — duck confit, foie gras, cassoulet (the original, from Castelnaudary 45 minutes east), magret, Gascon armagnac, and the extraordinary Marché Victor Hugo (covered market, upstairs restaurants that use what the downstairs stalls sell). Toulouse's food scene is less fashionable than Lyon but perhaps more deeply embedded in daily life — the cassoulet here is not a tourist dish but a weekly ritual. The market at Saint-Aubin (Sunday morning) and the organic Marché du Ramier are excellent. Access to products: Pyrenees lamb (Barèges-Gavarnie AOP), south-west cheese (brebis), black Périgord truffle at Christmas. If you are drawn to the fatty, generous, deeply seasonal food of the Southwest, Toulouse or the surrounding countryside is where it's made.",
+      },
+      {
+        heading: "Strasbourg and Alsace: the other tradition",
+        body: "Alsace runs a completely different gastronomic tradition from the rest of France: German influence (choucroute garnie, Flammekueche, Baeckaeoffe, kugelhopf), Riesling and Pinot Gris, the extraordinary wine route (Route des Vins d'Alsace, 170km). Strasbourg's covered market (Marché central, near the Cathédrale) is serious — local foie gras, munster fermier, Pâtés de Noël. The Christmas market is tourist-dominated but the rest of the food year is authentically Alsatian. For expats who want something genuinely different from the Provençal or Atlantic food traditions — more structured, more Germanic, with the best white wine in France — Strasbourg is the answer. The brasserie tradition here (winstub, brasserie de tradition) is the best in France outside Paris.",
+      },
+      {
+        heading: "Marseille: rough edges, exceptional raw materials",
+        body: "Marseille is the wild card of French gastronomy. It does not have the smooth, bourgeois food culture of Lyon or Bordeaux. The Marché du Noailles (the most diverse market in France — North African, Levantine, Mediterranean, fish, spices) is extraordinary if you know how to use it. The bouillabaisse — the real one, at places like Chez Fonfon or Miramar — is an expensive ritual but a genuine one. The Vieux-Port fish market (daily, 8–12, straight off the boats) is among the last daily direct-from-boat markets in France. The restaurant scene is uneven: brilliant at the high end, variable in the middle, with significant geographic inconsistency. For cooks who want raw material — exceptional fish, North African produce, Provençal herbs, and a food culture that is rough and generous rather than polished — Marseille is irresistible.",
+      },
+    ],
+    relatedCities: ["lyon", "bordeaux", "toulouse", "strasbourg", "marseille"],
+    tags: ["best French cities food lovers 2026", "France gastronomy expat guide", "best food markets France 2026", "Lyon Bordeaux Toulouse food guide expat", "move to France for food culture 2026"],
+  },
 ];
 
 export function getEnGuide(slug: string): EnGuide | undefined {
