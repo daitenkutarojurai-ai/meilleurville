@@ -3,7 +3,7 @@ export interface Guide {
   title: string;
   metaTitle: string;
   metaDesc: string;
-  category: "lifestyle" | "teletravail" | "famille" | "budget" | "region" | "comparaison";
+  category: "lifestyle" | "teletravail" | "famille" | "budget" | "region" | "comparaison" | "tourisme";
   emoji: string;
   readMinutes: number;
   publishedAt: string;
@@ -23187,6 +23187,488 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["villes moins chères France 2026", "top 10 villes abordables France", "immobilier pas cher France s'installer", "où s'installer budget limité France 2026", "meilleures villes budget serré France 2026"],
   },
+
+  // ── 10 choses à faire à [ville] ──────────────────────────────────────────
+  {
+    slug: "10-choses-a-faire-a-paris-2026",
+    title: "10 choses à faire à Paris (au-delà des clichés)",
+    metaTitle: "10 choses à faire à Paris 2026 — sorties locales et spots moins connus",
+    metaDesc: "Au-delà de la tour Eiffel : 10 activités concrètes à Paris pour vivre la ville comme un habitant — marchés, quartiers vivants, scènes culturelles.",
+    category: "tourisme",
+    emoji: "🗼",
+    readMinutes: 7,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Paris déborde d'activités, mais les guides classiques vous envoient aux mêmes spots saturés. Voici 10 choses à faire vraiment — des expériences que les Parisiens recommandent à leurs amis plutôt qu'aux touristes.",
+    sections: [
+      {
+        heading: "1. Flâner au marché d'Aligre un dimanche matin",
+        body: "Le marché d'Aligre (12e) est l'un des derniers vrais marchés populaires de Paris. Puces, primeurs, fromageries et bars à vin ouverts dès 9h. Arrivez tôt pour le meilleur de la brocante, restez pour le verre de rouge à 11h.",
+      },
+      {
+        heading: "2. Traverser Paris à vélo via les berges de Seine",
+        body: "La voie express rive droite est piétonnisée le week-end. De Bercy au Trocadéro, comptez 1h de vélo sans voiture. Les stations Vélib' permettent un aller-retour sans logistique.",
+      },
+      {
+        heading: "3. Explorer la Coulée verte (Promenade plantée)",
+        body: "Ancienne voie ferrée reconvertie en jardin suspendu de 4,7 km au-dessus des 11e et 12e arrondissements. Beaucoup moins fréquentée que la High Line new-yorkaise dont elle est l'inspiration. Accès libre.",
+      },
+      {
+        heading: "4. Passer une soirée au Grand Rex ou au Louxor",
+        body: "Paris conserve des cinémas indépendants d'exception. Le Grand Rex (2e), classé monument historique, projette blockbusters et films cultes. Le Louxor (18e), rénové, est un temple Art déco aux tarifs accessibles.",
+      },
+      {
+        heading: "5. Déjeuner dans un bouillon parisien",
+        body: "Les bouillons (Chartier, Pigalle, République) servent la cuisine bourgeoise classique — œuf mayonnaise, blanquette, tarte tatin — pour 15 à 20 € le midi. Cadres Belle Époque, service rapide, zéro chichi.",
+      },
+      {
+        heading: "6. Visiter le Palais Royal et ses galeries",
+        body: "Jardin intérieur calme à deux pas du Louvre, entouré de galeries marchandes du XVIIIe siècle. Librairies, antiquaires, restaurants discrets. Les colonnes de Buren divisent encore — forcément.",
+      },
+      {
+        heading: "7. Assister à un concert à la Philharmonie ou au Théâtre du Châtelet",
+        body: "Deux salles de niveau international avec des tarifs allant de 10 à 40 € pour la majorité des places. La Philharmonie propose des concerts accessibles le week-end, avec programme en ligne plusieurs mois à l'avance.",
+      },
+      {
+        heading: "8. Grimper à Montmartre en semaine avant 9h",
+        body: "Le Sacré-Cœur bondé le week-end devient presque silencieux les matins de semaine. Vue sur Paris dégagée, cafés ouverts pour les locaux, Place du Tertre sans caricaturistes — pour une fois.",
+      },
+      {
+        heading: "9. Découvrir le Canal Saint-Martin à pied",
+        body: "Du bassin de la Villette à la République, le canal traverse une Paris de guinguettes, de concept-stores et de péniches-bars. La balade fait 3 km. Idéal le dimanche après-midi quand les quais sont piétons.",
+      },
+      {
+        heading: "10. Profiter d'un bain public dans un hammam ou une piscine Art déco",
+        body: "Paris compte plusieurs piscines classées — Pontoise (5e), Butte-aux-Cailles (13e) — et des hammams ouverts au public comme le hammam de la Mosquée. Entrée entre 5 et 20 €. Un Paris moins connu, très efficace.",
+      },
+    ],
+    relatedCities: ["paris"],
+    relatedGuides: [
+      "budget-mensuel-realiste-paris-2026",
+      "teletravail-vivre-a-paris-vs-province-2026",
+    ],
+    tags: ["10 choses à faire à Paris", "activités Paris 2026", "sorties Paris habitants", "que faire à Paris", "visites Paris moins connus"],
+  },
+  {
+    slug: "10-choses-a-faire-a-lyon-2026",
+    title: "10 choses à faire à Lyon (comme un Lyonnais)",
+    metaTitle: "10 choses à faire à Lyon 2026 — activités et spots locaux",
+    metaDesc: "Gastronomie, traboules, Confluence et vie nocturne : 10 activités concrètes à Lyon pour dépasser les cartes postales et vivre la ville de l'intérieur.",
+    category: "tourisme",
+    emoji: "🦁",
+    readMinutes: 7,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Lyon est régulièrement classée parmi les meilleures villes de France pour la qualité de vie — et ses habitants en profitent au quotidien. Voici 10 activités pour comprendre pourquoi.",
+    sections: [
+      {
+        heading: "1. Emprunter les traboules du Vieux-Lyon un matin de semaine",
+        body: "Ces passages couverts qui traversent les immeubles Renaissance permettent de traverser le quartier Saint-Jean sans jamais prendre la rue principale. L'office de tourisme donne les adresses des traboules ouvertes au public.",
+      },
+      {
+        heading: "2. Prendre le petit-déjeuner dans un bouchon lyonnais",
+        body: "Les vrais bouchons ouvrent le matin avec mâchon (saucisson, triperie, vin blanc) dès 9h. Pas touristique, pas bon marché, mais une expérience culinaire 100% locale que même les Lyonnais réservent aux grandes occasions.",
+      },
+      {
+        heading: "3. Monter à Fourvière à pied par les montées",
+        body: "Évitez le funiculaire à l'aller. La montée Gailleton ou la montée du Gourguillon offrent une vue progressive sur la presqu'île et le Rhône. 20 minutes à pied, panorama garanti.",
+      },
+      {
+        heading: "4. Longer la Saône à vélo vers Île Barbe",
+        body: "La piste cyclable rive droite de la Saône remonte vers le nord jusqu'à l'Île Barbe, ancienne abbaye carolingienne en plein fleuve. Aller-retour de 15 km en terrain plat.",
+      },
+      {
+        heading: "5. Visiter le marché de la Croix-Rousse",
+        body: "Marché historique des Canuts, le mardi et le samedi matin, boulevard de la Croix-Rousse. Producteurs locaux, fromages de la région, ambiance quartier vivant. Un des plus grands marchés découverts de France.",
+      },
+      {
+        heading: "6. Explorer le quartier de la Guillotière",
+        body: "Le quartier le plus cosmopolite de Lyon — épiceries nord-africaines, restaurants asiatiques, brocanteurs, bars alternatifs. Ignoré des guides classiques, très vivant le week-end.",
+      },
+      {
+        heading: "7. Assister à une représentation à l'Opéra ou aux Nuits de Fourvière",
+        body: "L'Opéra de Lyon (Jean Nouvel, 1993) propose des places à moins de 15 € pour les moins de 26 ans. Les Nuits de Fourvière (juin-juillet) transforment les amphithéâtres romains en scène à ciel ouvert.",
+      },
+      {
+        heading: "8. Traverser la passerelle du Collège et longer les berges du Rhône",
+        body: "Les berges aménagées du Rhône s'étendent sur 5 km entre Guillotière et Parc de la Tête d'Or. Pistes cyclables, pelouses, guinguettes temporaires l'été. La vraie vie sociale lyonnaise se passe là.",
+      },
+      {
+        heading: "9. Passer une après-midi au Musée des Confluences",
+        body: "Architecture spectaculaire à la jonction Rhône-Saône. Collections permanentes gratuites le premier dimanche du mois. Expos temporaires remarquables sur les sciences, l'anthropologie et l'écologie.",
+      },
+      {
+        heading: "10. Finir la soirée au bar du Vieux-Lyon ou en terrace à Confluence",
+        body: "La Presqu'île concentre les bars branchés, mais les locaux préfèrent la Guillotière pour les prix et le Vieux-Lyon pour l'atmosphère médiévale éclairée la nuit. La Confluence monte en puissance avec ses espaces de restauration face aux Docks.",
+      },
+    ],
+    relatedCities: ["lyon"],
+    relatedGuides: [
+      "teletravail-a-lyon-guide-pratique-2026",
+      "budget-mensuel-realiste-lyon-2026",
+    ],
+    tags: ["10 choses à faire à Lyon", "activités Lyon 2026", "sorties Lyon", "que faire à Lyon", "visites Lyon locaux"],
+  },
+  {
+    slug: "10-choses-a-faire-a-bordeaux-2026",
+    title: "10 choses à faire à Bordeaux (et sa métropole)",
+    metaTitle: "10 choses à faire à Bordeaux 2026 — activités, sorties et spots locaux",
+    metaDesc: "Vignobles, miroir d'eau, Darwin et Cité du Vin : 10 activités à Bordeaux pour aller au-delà du centre-ville et profiter de ce que les habitants connaissent.",
+    category: "tourisme",
+    emoji: "🍷",
+    readMinutes: 7,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Bordeaux a opéré une transformation radicale en deux décennies. Ville du patrimoine mondial, elle est aussi une métropole vivante avec une scène culturelle, gastronomique et sportive bien réelle. Voici 10 activités concrètes.",
+    sections: [
+      {
+        heading: "1. Promenade matinale sur les quais de Garonne",
+        body: "6 km de quais réaménagés longent la Garonne du pont de Pierre au pont d'Aquitaine. Piste cyclable continue, miroir d'eau (le plus grand du monde), fontaines. Le matin avant 9h, c'est quasi désert.",
+      },
+      {
+        heading: "2. Traverser le miroir d'eau un soir d'été",
+        body: "Place de la Bourse : 2 cm d'eau réfléchissent les façades classées et le ciel. Le soir, brumisation toutes les 20 minutes. Beau sur photo, beau en vrai. Gratuit et toujours impressionnant.",
+      },
+      {
+        heading: "3. Explorer la base sous-marine et Darwin Ecosystème",
+        body: "La base sous-marine allemande de la Seconde Guerre mondiale abrite désormais galeries d'art et expositions. À côté, Darwin occupe une ancienne caserne militaire — skatepark, épicerie bio, co-working, concerts. Zone vivante du rive droite.",
+      },
+      {
+        heading: "4. Visiter la Cité du Vin (ou juste le bar panoramique)",
+        body: "Musée immersif sur l'histoire du vin dans le monde. L'entrée vaut le détour même si les vins ne vous passionnent pas. Pour les budgets serrés, le bar panoramique au 8e étage ouvre pour une coupe incluse dans le billet.",
+      },
+      {
+        heading: "5. Faire un tour à vélo dans les vignes de Margaux",
+        body: "À 40 minutes de Bordeaux en voiture ou VTC, Margaux et Pauillac proposent des pistes cyclables entre châteaux viticoles. Location de vélos à Bordeaux, pique-nique dans les vignes, dégustation dans un chai du Médoc.",
+      },
+      {
+        heading: "6. Marché des Capucins un samedi matin",
+        body: "Surnommé le «ventre de Bordeaux», ouvert 6j/7. Poissons de l'Atlantique, huîtres du Bassin d'Arcachon, charcuterie du Périgord. Arrivez avant 10h pour les huîtres fraîches et le verre de blanc debout.",
+      },
+      {
+        heading: "7. Soirée concert à La Rock School Barbey ou au Rocher de Palmer",
+        body: "Deux salles de musiques actuelles de référence. La Barbey (rock, métal, électro) et le Rocher de Palmer à Cenon (musiques du monde, jazz) programment des artistes nationaux et internationaux à des tarifs entre 10 et 30 €.",
+      },
+      {
+        heading: "8. Randonnée dans les dunes du Pilat",
+        body: "À 60 km de Bordeaux, la plus grande dune d'Europe (110 m, 3 km de long). Montée physique, vue sur l'Atlantique et les forêts des Landes. Aller-retour en voiture dans la journée. L'été, arrivez avant 9h.",
+      },
+      {
+        heading: "9. Balade à vélo dans la forêt des Landes",
+        body: "La forêt des Landes de Gascogne, la plus grande forêt artificielle d'Europe Occidentale, est accessible en VTT ou vélo depuis le sud de Bordeaux. Sentiers plats, air de résine, étapes en villages landais.",
+      },
+      {
+        heading: "10. Terrasse aux Chartrons le dimanche après-midi",
+        body: "Les Chartrons, quartier des négociants en vins, a fait sa mutation : cavistes, antiquaires, restaurants ouverts le dimanche, terrasses sur la rue Notre-Dame. Le dimanche après-midi, la rue piétonne est envahie de familles et d'apéros improvisés.",
+      },
+    ],
+    relatedCities: ["bordeaux"],
+    relatedGuides: [
+      "budget-mensuel-realiste-bordeaux-2026",
+      "teletravail-a-bordeaux-guide-pratique-2026",
+    ],
+    tags: ["10 choses à faire à Bordeaux", "activités Bordeaux 2026", "sorties Bordeaux", "que faire à Bordeaux week-end", "visites Bordeaux locaux"],
+  },
+  {
+    slug: "10-choses-a-faire-a-toulouse-2026",
+    title: "10 choses à faire à Toulouse (la Ville Rose vue de l'intérieur)",
+    metaTitle: "10 choses à faire à Toulouse 2026 — activités et sorties locales",
+    metaDesc: "Canal du Midi, rugby, Capitole et scène musicale : 10 activités à Toulouse pour dépasser les clichés et vivre la ville comme ses habitants.",
+    category: "tourisme",
+    emoji: "🌹",
+    readMinutes: 7,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Toulouse est jeune, dynamique et souvent sous-estimée dans les guides nationaux. Capitale de l'aéronautique européenne, elle abrite aussi une scène culturelle, musicale et gastronomique que ses 500 000 habitants savent apprécier. Tour d'horizon.",
+    sections: [
+      {
+        heading: "1. Longer le Canal du Midi à vélo",
+        body: "Le Canal du Midi, classé UNESCO, traverse Toulouse et ses rives sont aménagées pour le vélo. Vers Castelnaudary ou vers Carcassonne, la voie verte permet des sorties d'une journée en longeant platanes centenaires et écluses. Location de vélos disponible en ville.",
+      },
+      {
+        heading: "2. Flâner sur les berges de la Garonne",
+        body: "Les berges aménagées entre le pont Neuf et le pont Saint-Michel offrent une promenade de 3 km avec vues sur les briques roses. Prairie des Filtres, guinguettes temporaires, couchers de soleil sur les dômes — le vrai visage de Toulouse.",
+      },
+      {
+        heading: "3. Assister à un match du Stade Toulousain",
+        body: "Le Stade Toulousain est le club de rugby le plus titré d'Europe. Un match au Stadium ou au futur Grand Stade (Toulouse Arena) est une expérience totale — ambiance, chants, troisième mi-temps incluse. Places dès 15 € en tribune.",
+      },
+      {
+        heading: "4. Explorer le marché Victor Hugo",
+        body: "Halle couverte en plein centre, ouverte mardi-dimanche. Charcuteries du Gers, fromages des Pyrénées, marché aux fleurs, poissonneries. Les restaurants à l'étage — une dizaine — servent midi et soir avec les produits frais du rez-de-chaussée.",
+      },
+      {
+        heading: "5. Visite de la Cité de l'Espace",
+        body: "Musée de l'espace en plein air avec vraies fusées (Ariane 5, Soyouz), simulateurs et planétarium. À 20 minutes du centre en bus. Idéal famille mais aussi adultes seuls — les expositions sur les missions habitées et le futur de l'exploration sont rigoureuses.",
+      },
+      {
+        heading: "6. Soirée au Bikini ou aux Abattoirs",
+        body: "Le Bikini est la salle de musiques actuelles de référence du sud-ouest (capacité 3000, programmation nationale). Les Abattoirs est le musée d'art moderne et contemporain de Toulouse, avec des expo-événements et nocturnes régulières.",
+      },
+      {
+        heading: "7. Promenade dans le quartier Saint-Cyprien",
+        body: "Rive gauche de la Garonne, Saint-Cyprien était populaire, devient créatif. Bars indépendants, studios d'artistes, marché du Fer-à-Cheval, résidences d'architectes. La gentrification douce d'un quartier qui garde son caractère.",
+      },
+      {
+        heading: "8. Journée dans les Pyrénées depuis Toulouse",
+        body: "Luchon, Saint-Lary ou le Cirque de Gavarnie sont accessibles en 2h. L'été, randonnée au Lac d'Oô ou aux lacs de Néouvielle. L'hiver, ski à Saint-Lary (3h). L'un des grands avantages géographiques de Toulouse.",
+      },
+      {
+        heading: "9. Découvrir la Basilique Saint-Sernin",
+        body: "La plus grande basilique romane conservée au monde. Édifiée au XIe siècle pour accueillir les pèlerins de Saint-Jacques-de-Compostelle, elle est classée UNESCO. Entrée gratuite. Contraste saisissant avec le Capitole baroque tout proche.",
+      },
+      {
+        heading: "10. Apéro sur la Place Saint-Pierre ou Place de la Daurade",
+        body: "Les deux places les plus animées de Toulouse en fin d'après-midi. Saint-Pierre (côté universitaire, bars bon marché), Daurade (vue sur Garonne, terrasses sur le quai). Ambiance étudiante, bière locale, coucher de soleil rose sur les briques.",
+      },
+    ],
+    relatedCities: ["toulouse"],
+    relatedGuides: [
+      "budget-mensuel-realiste-toulouse-2026",
+      "teletravail-a-toulouse-guide-pratique-2026",
+    ],
+    tags: ["10 choses à faire à Toulouse", "activités Toulouse 2026", "sorties Toulouse", "que faire à Toulouse", "visites Toulouse locaux"],
+  },
+  {
+    slug: "10-choses-a-faire-a-marseille-2026",
+    title: "10 choses à faire à Marseille (la vraie, pas celle des guides)",
+    metaTitle: "10 choses à faire à Marseille 2026 — calanques, marché et culture",
+    metaDesc: "Calanques, Vieux-Port, MuCEM et quartiers vivants : 10 activités concrètes à Marseille pour aller au-delà des clichés et vivre la ville comme ses habitants.",
+    category: "tourisme",
+    emoji: "⚓",
+    readMinutes: 7,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Marseille est une ville complexe, souvent mal présentée. Ses habitants sont profondément attachés à leur cité pour des raisons précises : lumière, mer, culture méditerranéenne, diversité. Voici 10 expériences qui expliquent cet attachement.",
+    sections: [
+      {
+        heading: "1. Randonnée dans les calanques (Morgiou ou Sugiton)",
+        body: "Le Parc National des Calanques est accessible à pied depuis les quartiers sud. La calanque de Morgiou (2h30 aller-retour) et Sugiton (1h30) sont les plus accessibles. Été : départ impératif avant 7h (fermeture du parc par arrêté en cas de risque incendie).",
+      },
+      {
+        heading: "2. Matin au marché du Vieux-Port",
+        body: "Chaque matin, les pêcheurs vendent leur prise directement sur le quai de la Fraternité. Poissons de roche, oursins en saison, herbes pour la bouillabaisse. La vraie bouillabaisse se prépare avec ce que le marché donne — pas avec ce que le restaurant choisit.",
+      },
+      {
+        heading: "3. Visite du MuCEM",
+        body: "Le Musée des Civilisations de l'Europe et de la Méditerranée est l'un des plus beaux bâtiments inaugurés en France ces vingt ans. L'architecture de Rudy Ricciotti, les passerelles, le fort Saint-Jean. Collections permanentes et temporaires d'excellente qualité. Premier dimanche du mois gratuit.",
+      },
+      {
+        heading: "4. Monter à Notre-Dame de la Garde",
+        body: "La Bonne Mère domine la ville à 162 m. Vue à 360° sur la rade, les îles, les calanques et l'arrière-pays. Bus 60 depuis le Vieux-Port. L'intérieur de la basilique, chargé d'ex-votos marins, est saisissant.",
+      },
+      {
+        heading: "5. Quartier du Panier : balade et street art",
+        body: "Le plus vieux quartier de Marseille (2600 ans), reconstruit en partie après la guerre. Ruelles, courettes, ateliers d'artistes. La Vieille Charité — ancien hospice baroque devenu musée — est l'un des plus beaux ensembles architecturaux de la ville.",
+      },
+      {
+        heading: "6. Navette maritime vers les îles du Frioul",
+        body: "30 minutes en bateau depuis le Vieux-Port pour rejoindre l'archipel du Frioul. Eaux turquoise, sentiers de randonnée, fort d'If (château du Comte de Monte-Cristo). Navettes RTMM toute l'année. Apportez à manger — la restauration sur les îles est limitée.",
+      },
+      {
+        heading: "7. Soirée dans le quartier de la Plaine ou de Noailles",
+        body: "La Plaine (place Jean-Jaurès) est le cœur estudiantin de Marseille — bars, concerts spontanés, terrasses tard le soir. Noailles est le quartier commerçant nord-africain et turc, épices, confiseries, snacks à toute heure.",
+      },
+      {
+        heading: "8. Baignade à la plage de Malmousque ou aux Catalans",
+        body: "Les Catalans (5e) sont la plage du centre-ville, en face du Vieux-Port. Malmousque (7e) est une crique entre rochers avec un escalier pour descendre — moins connue, eau plus propre. Accès libre, eau surveillée l'été.",
+      },
+      {
+        heading: "9. Marché de Noailles pour les épices et produits méditerranéens",
+        body: "Le marché de Noailles, ouvert tous les jours, est le meilleur endroit pour acheter ras el hanout, harissa fraîche, olives marinées et produits levantins. Animé, bruyant, pas touristique. Rue Longue-des-Capucins principalement.",
+      },
+      {
+        heading: "10. Concert au Mucem ou au Dôme",
+        body: "Le Mucem programme des spectacles en plein air l'été dans l'enceinte du fort Saint-Jean. Le Dôme est la principale salle de concerts de la ville (capacité 10 000). Entre les deux, Marseille a une vie musicale variée et internationale.",
+      },
+    ],
+    relatedCities: ["marseille"],
+    relatedGuides: [
+      "teletravail-a-marseille-guide-pratique-2026",
+      "quitter-marseille-pourquoi-et-ou-aller-2026",
+    ],
+    tags: ["10 choses à faire à Marseille", "activités Marseille 2026", "sorties Marseille", "que faire à Marseille", "calanques Marseille visiteurs"],
+  },
+  {
+    slug: "10-choses-a-faire-a-nice-2026",
+    title: "10 choses à faire à Nice (au-delà de la Promenade des Anglais)",
+    metaTitle: "10 choses à faire à Nice 2026 — activités locales et spots méconnus",
+    metaDesc: "Vieux-Nice, colline du Château, marché du Cours Saleya et arrière-pays : 10 activités concrètes à Nice pour aller au-delà des promenades touristiques.",
+    category: "tourisme",
+    emoji: "🌊",
+    readMinutes: 7,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Nice est bien plus que sa promenade. Ville d'art, de gastronomie, de montagne accessible et de culture italienne héritée, elle se révèle à ceux qui s'éloignent des circuits balisés.",
+    sections: [
+      {
+        heading: "1. Monter à la Colline du Château",
+        body: "Accessible à pied ou en ascenseur depuis le bord de mer. Jardins en terrasses, ruines de l'ancienne citadelle, vue sur la Baie des Anges et le Vieux-Port. Cascade artificielle, aire de pique-nique, entrée gratuite. Idéalement en fin d'après-midi.",
+      },
+      {
+        heading: "2. Marché du Cours Saleya le matin",
+        body: "Le marché aux fleurs et aux légumes de Cours Saleya (lundi au samedi, 6h-13h30) est l'un des plus beaux de France. Socca, farcis, tapenade. Le lundi, le marché laisse place aux antiquaires. La terrasse d'un café avec vue sur les bâtisses baroques jaunes : indispensable.",
+      },
+      {
+        heading: "3. Déjeuner de socca dans le Vieux-Nice",
+        body: "La socca (galette de farine de pois chiche, huile d'olive, poivre) est la street food niçoise par excellence. Chez Thérésa à la Socca, Cours Saleya — queue inévitable, mais prix et qualité sont au rendez-vous. À manger debout, avec un verre de rosé.",
+      },
+      {
+        heading: "4. Journée à Èze et la Côte d'Azur médiévale",
+        body: "À 20 minutes de Nice en bus (ligne 112), Èze est un village perché à 427 m avec vue sur la Méditerranée et Monaco. Jardin botanique exotique au sommet (payant), ruelles médiévales, hôtels de luxe et artisans. Descente à pied par le «sentier Nietzsche» vers la mer.",
+      },
+      {
+        heading: "5. Randonnée dans l'arrière-pays niçois (Mercantour)",
+        body: "Le Parc du Mercantour est à 1h de Nice. Vallées de la Vésubie, de la Roya et de la Tinée — villages occitans, lacs d'altitude, chamois et bouquetins. La Valle delle Meraviglie (gravures rupestres de l'Âge du Bronze) se mérite mais reste accessible.",
+      },
+      {
+        heading: "6. Visiter le MAMAC (Musée d'Art Moderne et d'Art Contemporain)",
+        body: "Nice a produit des artistes majeurs du XXe siècle — Yves Klein (bleu IKB), Niki de Saint Phalle, Arman. Le MAMAC en plein centre présente leurs œuvres de façon permanente. Gratuit le premier dimanche du mois.",
+      },
+      {
+        heading: "7. Baignade aux plages de Villefranche-sur-Mer",
+        body: "À 6 km de Nice, la baie de Villefranche offre une eau d'une transparence rare. Plage de sable (la vraie, pas les galets de Nice), vieux village de pêcheurs, citadelle. Bus ligne 100 depuis Nice, 20 minutes.",
+      },
+      {
+        heading: "8. Explorer le quartier Libération le dimanche matin",
+        body: "Le marché Libération est le marché vivrier des niçois — moins touristique que Cours Saleya, produits du pays niçois, prix locaux. Socca servie directement aux stands, café-croissant dans les cafés du coin.",
+      },
+      {
+        heading: "9. Soirée dans les bars du Vieux-Nice",
+        body: "Les ruelles du Vieux-Nice s'animent à partir de 20h. Bars à vin, caves de dégustation de vins provençaux, restaurant de pissaladière et socca, terrasses sur Place Rossetti. L'ambiance italienne (Nice était Nizza jusqu'en 1860) est bien réelle.",
+      },
+      {
+        heading: "10. Train des Merveilles vers Tende",
+        body: "La ligne ferroviaire Nice-Tende longe la Roya à travers des paysages sauvages. 2h de train, gorges verticales, viaducs, tunnels, villages accrochés aux rochers. Billet aller-retour moins de 20 €. La région a été durement touchée par les inondations de 2020 — la ligne est l'un des symboles de la reconstruction.",
+      },
+    ],
+    relatedCities: ["nice"],
+    relatedGuides: [
+      "nice-vs-marseille-quelle-ville-choisir-2026",
+      "teletravail-a-nice-guide-pratique-2026",
+    ],
+    tags: ["10 choses à faire à Nice", "activités Nice 2026", "sorties Nice", "que faire à Nice", "visites Nice locaux Côte d'Azur"],
+  },
+  {
+    slug: "10-choses-a-faire-a-nantes-2026",
+    title: "10 choses à faire à Nantes (bien plus qu'un éléphant mécanique)",
+    metaTitle: "10 choses à faire à Nantes 2026 — activités créatives et sorties locales",
+    metaDesc: "Machines de l'Île, Île de Nantes, Loire et vie nocturne : 10 activités concrètes à Nantes pour aller au-delà de la carte postale industrielle et créative.",
+    category: "tourisme",
+    emoji: "🐘",
+    readMinutes: 7,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Nantes est régulièrement citée comme l'une des meilleures villes de France pour y vivre. La conversion de ses anciennes friches industrielles en espaces culturels est devenue une référence nationale. Voici 10 activités pour le constater.",
+    sections: [
+      {
+        heading: "1. Visite des Machines de l'Île",
+        body: "L'Éléphant géant est le symbole, mais les Machines de l'Île c'est plus : le Carrousel des Mondes Marins (trois étages d'animaux mécaniques), le bâtiment des ateliers où les machines sont construites. Spectacle unique au monde, 2h minimum.",
+      },
+      {
+        heading: "2. Balade dans le Jardin des Plantes",
+        body: "L'un des plus beaux jardins botaniques de France, à deux pas de la gare. Serres tropicales, roseraies, sculptures contemporaines intercalées entre les allées. Entrée gratuite, ouvert toute l'année. Le jardin a inspiré Jules Verne, nantais de naissance.",
+      },
+      {
+        heading: "3. Explorer le quartier Bouffay le soir",
+        body: "Le cœur médiéval de Nantes — ruelles pavées, restaurants de cuisine du monde, bars à cocktails, concerts de rue. Lively sans être saturé de touristes. La rue Kervégan ouvre sur un quartier de créateurs et de galeristes.",
+      },
+      {
+        heading: "4. Vélo sur les bords de l'Erdre",
+        body: "La Véloroute de l'Erdre longe la rivière vers le nord, traversant parcs et propriétés de la bourgeoisie nantaise. Jusqu'à 40 km aller-retour en terrain plat. Balades en bateau possibles depuis le centre.",
+      },
+      {
+        heading: "5. Marché de Talensac un samedi matin",
+        body: "Le grand marché couvert de Nantes, rue de Talensac, open 6j/7. Poissons de l'Atlantique, muscat de Sèvre-et-Maine, fromages de Loire, légumes de maraîchers locaux. Moins célèbre que certains marchés parisiens, qualité équivalente.",
+      },
+      {
+        heading: "6. Visite du château des Ducs de Bretagne",
+        body: "Château médiéval au cœur de la ville, avec douves et remparts. Le musée du château retrace l'histoire de Nantes, de la traite négrière (dont Nantes fut l'un des premiers ports) à la métropole contemporaine. Cour intérieure en accès libre.",
+      },
+      {
+        heading: "7. Parcours Voyage à Nantes (été)",
+        body: "Chaque été (juillet-septembre), le Voyage à Nantes installe une ligne verte peinte dans les rues qui guide d'œuvre en œuvre à travers la ville. Installations éphémères, performances, musées ouverts. Le meilleur moment pour visiter Nantes.",
+      },
+      {
+        heading: "8. Soirée au Lieu Unique ou au Stéréolux",
+        body: "Le LieuUnique occupe les anciennes biscuiteries LU — spectacles pluridisciplinaires, bar, hammam, restaurant. Le Stéréolux est la salle de musiques électroniques et numériques de la métropole. Deux lieux incontournables de la scène culturelle nantaise.",
+      },
+      {
+        heading: "9. Sortie en Brière ou aux marais de Loire",
+        body: "À 45 minutes, le Parc de Brière est le deuxième plus grand marais de France — barques à fond plat, aigrettes et hérons, chaumières et villages isolés. Peut se combiner avec une nuit à La Baule.",
+      },
+      {
+        heading: "10. Muscadet et galettes à Clisson",
+        body: "À 25 minutes de Nantes, Clisson est un village néo-gothique entouré de vignes de muscadet. Château médiéval, chapelles italiennes (fantaisie du XIXe siècle), vignerons qui vendent à la propriété. Aller-retour dans la journée.",
+      },
+    ],
+    relatedCities: ["nantes"],
+    relatedGuides: [
+      "rennes-vs-nantes-quelle-ville-choisir-2026",
+      "budget-mensuel-realiste-nantes-2026",
+    ],
+    tags: ["10 choses à faire à Nantes", "activités Nantes 2026", "sorties Nantes", "que faire à Nantes", "Machines de l'Île Nantes visiteurs"],
+  },
+  {
+    slug: "10-choses-a-faire-a-rennes-2026",
+    title: "10 choses à faire à Rennes (la ville bretonne qui ne dort pas)",
+    metaTitle: "10 choses à faire à Rennes 2026 — activités et sorties locales",
+    metaDesc: "Colombages médiévaux, marché des Lices, scène musicale et accès à la Bretagne sauvage : 10 activités à Rennes pour vivre la capitale bretonne de l'intérieur.",
+    category: "tourisme",
+    emoji: "⚗️",
+    readMinutes: 7,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Rennes est une ville à taille humaine, jeune (50 000 étudiants), et souvent citée parmi les meilleures villes françaises pour vivre. Sa réputation de capitale de la nuit et de la musique bretonne n'est pas surfaite.",
+    sections: [
+      {
+        heading: "1. Marché des Lices un samedi matin",
+        body: "L'un des plus grands marchés de France en plein air, place des Lices depuis 1622. Crêpières bretonnes, chou-fleur de Bretagne, cidre, fromages armoricains. Ambiance populaire et festive. Arrivez avant 9h pour les meilleures galettes.",
+      },
+      {
+        heading: "2. Balade dans le Vieux-Rennes colombages",
+        body: "Le centre historique a miraculeusement échappé à l'incendie de 1720 qui ravagea une partie de la ville. Rues de Saint-Michel, de Saint-Georges, ruelles de colombages médiévaux. Place Saint-Anne, bars à cidre, concerts de rue.",
+      },
+      {
+        heading: "3. Concert au Liberté ou au Antipode",
+        body: "Le Liberté (grande salle, capacité 6000) et l'Antipode MJC sont les deux piliers de la scène musicale rennaise. Rennes a une histoire musicale forte — les Têtes Raides, Dominique A, Miossec en sont issus. Programmation variée et accessible.",
+      },
+      {
+        heading: "4. Parc du Thabor un matin de semaine",
+        body: "Parc urbain de 10 ha avec jardin à la française, roseraie, volière, serre chaude. Entrée libre. Un des plus beaux parcs municipaux de France. Fréquenté des joggeurs et des familles le week-end, quasi désert en semaine.",
+      },
+      {
+        heading: "5. Soirée rue Saint-Michel (la Rue de la Soif)",
+        body: "La rue Saint-Michel concentre plus de bars au mètre carré que n'importe quelle autre rue française. Bars à cidre, bières bretonnes, concerts debout, terrasses envahissantes. Start hour : 19h.",
+      },
+      {
+        heading: "6. Musée des Beaux-Arts de Rennes",
+        body: "Collection permanente remarquable — peintures flamandes, Rubens, Véronèse, section ethnographique bretonne. Situé dans le palais du Parlement de Bretagne, l'un des bâtiments les plus importants de l'architecture classique française en province.",
+      },
+      {
+        heading: "7. Journée à Saint-Malo (1h en train)",
+        body: "La cité corsaire est à 1h de Rennes en TER. Intra-muros, remparts, plages et Fort National constituent un condensé de Bretagne accessible sans voiture. Idéal pour une journée de plus, couplée avec un retour tardif.",
+      },
+      {
+        heading: "8. Randonnée en forêt de Brocéliande",
+        body: "La forêt de Paimpont (Brocéliande légendaire) est à 40 minutes de Rennes. Lac du Château, tombeau de Merlin, fontaine de Barenton. La balade du Val sans Retour fait 8 km avec dénivelé. Pique-nique obligatoire.",
+      },
+      {
+        heading: "9. Crêperie bretonne le midi",
+        body: "Rennes a des dizaines de crêperies, et la galette de blé noir n'est pas ici un produit touristique mais un repas du quotidien. Galette complète + crêpe sucrée + bolée de cidre pour moins de 15 €. Cherchez les enseignes sans menu traduit.",
+      },
+      {
+        heading: "10. Fête des Tombées de la Nuit ou Trans Musicales",
+        body: "Deux festivals qui définissent Rennes. Les Tombées de la Nuit (juillet) investissent les quartiers historiques avec spectacles de rue et installations. Les Trans Musicales (décembre) repèrent les artistes de la prochaine décennie depuis 1979. Réservez à l'avance.",
+      },
+    ],
+    relatedCities: ["rennes"],
+    relatedGuides: [
+      "rennes-vs-nantes-quelle-ville-choisir-2026",
+      "teletravail-a-rennes-guide-pratique-2026",
+    ],
+    tags: ["10 choses à faire à Rennes", "activités Rennes 2026", "sorties Rennes", "que faire à Rennes", "marché des Lices Rennes visiteurs"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
@@ -23223,4 +23705,5 @@ export const GUIDE_CATEGORIES = [
   { id: "lifestyle", label: "Style de vie", emoji: "🌅", color: "text-violet-400", bg: "bg-violet-400/10 border-violet-400/20" },
   { id: "region", label: "Par région", emoji: "🗺️", color: "text-orange-400", bg: "bg-orange-400/10 border-orange-400/20" },
   { id: "comparaison", label: "Comparaisons", emoji: "⚖️", color: "text-pink-400", bg: "bg-pink-400/10 border-pink-400/20" },
+  { id: "tourisme", label: "À faire & voir", emoji: "🎯", color: "text-cyan-400", bg: "bg-cyan-400/10 border-cyan-400/20" },
 ] as const;
