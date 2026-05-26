@@ -713,6 +713,17 @@ function enStaticSection(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/search`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.6 },
     { url: `${BASE_URL}/cheapest-cities`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.75 },
     { url: `${BASE_URL}/best-value-cities`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.75 },
+    { url: `${BASE_URL}/niche-rankings`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE_URL}/niche-rankings/air-quality`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.65 },
+    { url: `${BASE_URL}/niche-rankings/quietest`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.65 },
+    { url: `${BASE_URL}/niche-rankings/safest-for-women`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.65 },
+    { url: `${BASE_URL}/niche-rankings/night-safety`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.65 },
+    { url: `${BASE_URL}/niche-rankings/car-free`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.65 },
+    { url: `${BASE_URL}/niche-rankings/remote-work`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.65 },
+    { url: `${BASE_URL}/niche-rankings/heatwave-resistant`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.65 },
+    { url: `${BASE_URL}/niche-rankings/social-capital`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.65 },
+    { url: `${BASE_URL}/niche-rankings/young-professionals`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.65 },
+    { url: `${BASE_URL}/niche-rankings/families`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.65 },
   ];
 }
 
