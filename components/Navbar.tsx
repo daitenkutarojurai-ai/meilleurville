@@ -101,16 +101,23 @@ const MENU_GROUPS_EN: MenuGroup[] = [
   {
     title: "Tools",
     items: [
-      { label: "Quiz",     href: "/quiz",     emoji: "✨" },
-      { label: "Compare",  href: "/compare",  emoji: "⚖️" },
-      { label: "Rankings", href: "/rankings", emoji: "📊" },
+      { label: "Quiz",            href: "/quiz",            emoji: "✨" },
+      { label: "Compare",         href: "/compare",         emoji: "⚖️" },
+      { label: "Rankings",        href: "/rankings",        emoji: "📊" },
+      { label: "For who",         href: "/for-who",         emoji: "👥" },
+      { label: "Niche rankings",  href: "/niche-rankings",  emoji: "📊" },
+      { label: "Red flags",       href: "/red-flags",       emoji: "🚩" },
+      { label: "Vacations",       href: "/vacations",       emoji: "🌴" },
     ],
   },
   {
     title: "Guides",
     items: [
-      { label: "Guides",      href: "/guides",      emoji: "📖" },
-      { label: "Methodology", href: "/methodology", emoji: "🔬" },
+      { label: "Guides",           href: "/guides",           emoji: "📖" },
+      { label: "Cheapest cities",  href: "/cheapest-cities",  emoji: "💶" },
+      { label: "Best value",       href: "/best-value-cities", emoji: "💎" },
+      { label: "Search",           href: "/search",           emoji: "🔍" },
+      { label: "Methodology",      href: "/methodology",      emoji: "🔬" },
     ],
   },
   {
@@ -144,17 +151,23 @@ const NAV_ALL_FR: NavItem[] = [
   { label: "Contact",           href: "/contact",       emoji: "✉️", matchPrefix: "/contact" },
 ];
 const NAV_ALL_EN: NavItem[] = [
-  { label: "Cities",      href: "/cities",      emoji: "🌍", matchPrefix: "/cities" },
-  { label: "Rankings",    href: "/rankings",    emoji: "📊", matchPrefix: "/rankings" },
-  { label: "Compare",     href: "/compare",     emoji: "⚖️", matchPrefix: "/compare" },
-  { label: "Guides",      href: "/guides",      emoji: "📖", matchPrefix: "/guides" },
-  { label: "Map",         href: "/map",         emoji: "🗺️", matchPrefix: "/map" },
-  { label: "Regions",     href: "/regions",     emoji: "📍", matchPrefix: "/regions" },
-  { label: "Departments", href: "/departments", emoji: "🗂️", matchPrefix: "/departments" },
-  { label: "Quiz",        href: "/quiz",        emoji: "✨", matchPrefix: "/quiz" },
-  { label: "About",       href: "/about",       emoji: "ℹ️", matchPrefix: "/about" },
-  { label: "FAQ",         href: "/faq",         emoji: "❓", matchPrefix: "/faq" },
-  { label: "Contact",     href: "/contact",     emoji: "✉️", matchPrefix: "/contact" },
+  { label: "Cities",          href: "/cities",           emoji: "🌍", matchPrefix: "/cities" },
+  { label: "Rankings",        href: "/rankings",         emoji: "📊", matchPrefix: "/rankings" },
+  { label: "Compare",         href: "/compare",          emoji: "⚖️", matchPrefix: "/compare" },
+  { label: "Guides",          href: "/guides",           emoji: "📖", matchPrefix: "/guides" },
+  { label: "Map",             href: "/map",              emoji: "🗺️", matchPrefix: "/map" },
+  { label: "Regions",         href: "/regions",          emoji: "📍", matchPrefix: "/regions" },
+  { label: "Departments",     href: "/departments",      emoji: "🗂️", matchPrefix: "/departments" },
+  { label: "Quiz",            href: "/quiz",             emoji: "✨", matchPrefix: "/quiz" },
+  { label: "For who",         href: "/for-who",          emoji: "👥", matchPrefix: "/for-who" },
+  { label: "Niche rankings",  href: "/niche-rankings",   emoji: "📊", matchPrefix: "/niche-rankings" },
+  { label: "Red flags",       href: "/red-flags",        emoji: "🚩", matchPrefix: "/red-flags" },
+  { label: "Vacations",       href: "/vacations",        emoji: "🌴", matchPrefix: "/vacations" },
+  { label: "Cheapest cities", href: "/cheapest-cities",  emoji: "💶", matchPrefix: "/cheapest-cities" },
+  { label: "Search",          href: "/search",           emoji: "🔍", matchPrefix: "/search" },
+  { label: "About",           href: "/about",            emoji: "ℹ️", matchPrefix: "/about" },
+  { label: "FAQ",             href: "/faq",              emoji: "❓", matchPrefix: "/faq" },
+  { label: "Contact",         href: "/contact",          emoji: "✉️", matchPrefix: "/contact" },
 ];
 
 // Mobile bottom tab bar — 4 highest-intent + Menu
