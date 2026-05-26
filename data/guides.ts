@@ -24149,6 +24149,486 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["10 choses à faire à Angers", "activités Angers 2026", "sorties Angers", "que faire à Angers", "Château Angers Loire visiteurs"],
   },
+  {
+    slug: "10-choses-a-faire-a-reims-2026",
+    title: "10 choses à faire à Reims (champagne et cathédrale gothique)",
+    metaTitle: "10 choses à faire à Reims 2026 — activités et sorties locales",
+    metaDesc: "Cathédrale UNESCO, caves à champagne, montagne de Reims et vie de quartier : 10 activités à Reims pour aller au-delà des clichés de la cité du sacre.",
+    category: "tourisme",
+    emoji: "🍾",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Reims est une ville de taille humaine avec une concentration exceptionnelle de patrimoine : cathédrale gothique, champagne, art déco post-guerre et cuisine champenoise. À 45 minutes de Paris en TGV, elle reste étonnamment peu visitée hors week-end.",
+    sections: [
+      {
+        heading: "1. Cathédrale Notre-Dame de Reims — les vitraux de Chagall",
+        body: "La cathédrale de Reims, où 33 rois de France furent sacrés, est l'une des plus belles gothiques d'Europe. Les vitraux de Marc Chagall (chapelle axiale, 1974) côtoient des vitraux du XIIIe siècle. La façade ouest, avec ses 2 300 sculptures, est un chef-d'œuvre de la statuaire médiévale.",
+      },
+      {
+        heading: "2. Caves à champagne — Taittinger, Veuve Clicquot, Ruinart",
+        body: "Les grandes maisons de champagne proposent des visites de leurs caves creusées dans les crayères gallo-romaines (classées UNESCO). Taittinger offre la visite la plus impressionnante par sa mise en scène. Ruinart est la plus ancienne maison de champagne (1729). Réservation indispensable en saison.",
+      },
+      {
+        heading: "3. Palais du Tau",
+        body: "Résidence des archevêques de Reims, construit au XIVe et XVIIe siècles, classé UNESCO aux côtés de la cathédrale. Il abrite le trésor de la cathédrale — reliques, ornements royaux, sculptures originales du XIIIe siècle retirées de la façade pour préservation.",
+      },
+      {
+        heading: "4. Quartier art déco autour de la rue de Vesle",
+        body: "Reims a été reconstruite après la Première Guerre mondiale avec un soin architectural art déco remarquable. La rue de Vesle, la place d'Erlon et le quartier Saint-Remi conservent des façades et des intérieurs de cette période — un ensemble cohérent unique en France.",
+      },
+      {
+        heading: "5. Marché dominical et halles du Boulingrin",
+        body: "Le marché du Boulingrin se tient dans les halles métalliques de 1929 — chef-d'œuvre d'architecture industrielle du XXe siècle. Marchés quotidiens à l'intérieur, grand marché le samedi. Produits champenois : ratafia, marc de champagne, fromages de Langres, volailles de Bresse.",
+      },
+      {
+        heading: "6. Balade dans la Montagne de Reims",
+        body: "Le Parc Naturel Régional de la Montagne de Reims est à 20 minutes de la ville. Forêts, vignobles de pinot noir (Bouzy, Ambonnay), faux de Verzy (hêtres tordus, phénomène botanique unique), sentiers pédestres balisés. L'une des randonnées de proximité les plus belles du Grand Bassin parisien.",
+      },
+      {
+        heading: "7. Basilique Saint-Remi",
+        body: "Moins connue que la cathédrale, la basilique Saint-Remi (XIe-XIIe siècles) est l'une des plus grandes romanes de France. Le tombeau de saint Remi, évêque ayant baptisé Clovis en 498, est entouré d'un décor gothique du XIIIe siècle. Classée UNESCO. Entrée libre.",
+      },
+      {
+        heading: "8. Dégustation de champagne chez un récoltant-manipulant",
+        body: "Hors des grandes maisons, les vignerons indépendants de la Montagne de Reims ou de la Côte des Blancs proposent des dégustations directes à la propriété. Prix inférieurs de 30 à 50% aux grandes maisons, personnalité souvent plus marquée. Liste des récoltants via le CIVC.",
+      },
+      {
+        heading: "9. Musée des Beaux-Arts de Reims",
+        body: "Installé dans l'ancienne abbaye Saint-Denis, le musée propose une collection couvrant du XVIe au XXe siècle. La série de 27 portraits de l'école de Cranach, la collection d'oeuvres de Corot et Delacroix, et le fonds art moderne (Boudin, Sisley) sont remarquables.",
+      },
+      {
+        heading: "10. Apéro champagne place Drouet d'Erlon",
+        body: "La place piétonne du centre, longue de 400 mètres, est l'axe commercial et de terrasses de Reims. Le soir, bars à champagne, brasseries champenoises, pizzerias. La flûte de champagne local en terrasse avec vue sur une ville reconstruite en art déco : un rituel rémois.",
+      },
+    ],
+    relatedCities: ["reims"],
+    relatedGuides: [
+      "reims-vs-amiens-comparatif-2026",
+      "quitter-reims-guide-2026",
+    ],
+    tags: ["10 choses à faire à Reims", "activités Reims 2026", "sorties Reims", "que faire à Reims", "champagne cathédrale Reims visiteurs"],
+  },
+  {
+    slug: "10-choses-a-faire-a-aix-en-provence-2026",
+    title: "10 choses à faire à Aix-en-Provence (la Provence accessible)",
+    metaTitle: "10 choses à faire à Aix-en-Provence 2026 — activités locales",
+    metaDesc: "Cours Mirabeau, Cézanne, Luberon et marché provençal : 10 activités à Aix-en-Provence pour vivre la capitale provençale de l'intérieur.",
+    category: "tourisme",
+    emoji: "🌿",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Aix-en-Provence est la ville provençale la plus équilibrée : assez grande pour avoir tous les services, assez petite pour être à taille humaine, avec une qualité de vie et un ensoleillement que ses habitants défendent farouchement.",
+    sections: [
+      {
+        heading: "1. Flâner sur le Cours Mirabeau",
+        body: "L'avenue plantée de platanes centenaires divise la vieille ville. Cafés légendaires (Les Deux Garçons), librairies, glaciers et terrasses. Le matin avant 10h, elle appartient aux habitants. L'après-midi, c'est le salon de la ville.",
+      },
+      {
+        heading: "2. Marché Richelme ou Grand Marché le matin",
+        body: "La Place Richelme accueille un marché quotidien de producteurs — fruits et légumes de Provence, herbes aromatiques, miel, fromages de chèvre. Le grand marché du samedi place des Prêcheurs et alentours étend l'offre aux fleurs, épices, charcuteries et antiquités.",
+      },
+      {
+        heading: "3. Atelier Cézanne",
+        body: "Paul Cézanne est né et a vécu à Aix. Son dernier atelier, à l'extérieur du centre, est conservé tel qu'il l'a laissé. Les objets représentés dans les natures mortes sont exposés — une visite courte (30 min) mais saisissante. La Montagne Sainte-Victoire, son obsession, est visible depuis les hauteurs de la ville.",
+      },
+      {
+        heading: "4. Randonnée vers la Montagne Sainte-Victoire",
+        body: "La Sainte-Victoire, peinte 80 fois par Cézanne, culmine à 1 011 m. Départ depuis Puyloubier ou Beaurecueil. La crête offre une vue exceptionnelle sur la Provence. En été, départ avant 7h obligatoire (fermetures par arrêté incendie fréquentes). 3h30 aller-retour.",
+      },
+      {
+        heading: "5. Musée Granet",
+        body: "Musée des Beaux-Arts d'Aix, avec la collection Cézanne de référence (9 tableaux, études, aquarelles) et des maîtres anciens (Rembrandt, Rubens, Ingres, Nicolas de Staël). Installé dans l'ancien prieuré des Chevaliers de Malte. Premier dimanche du mois gratuit.",
+      },
+      {
+        heading: "6. Journée dans le Luberon ou au Gorges du Verdon",
+        body: "Le Luberon (Gordes, Roussillon, Lacoste) est à 40 minutes d'Aix. Les Gorges du Verdon — Canyon européen de référence, eaux turquoise, randonnée du sentier Martel (21 km) — à 1h30. Deux sorties dans la journée accessibles sans logistique complexe.",
+      },
+      {
+        heading: "7. Quartier Mazarin et hôtels particuliers",
+        body: "Le quartier Mazarin, au sud du Cours Mirabeau, est un labyrinthe de rues du XVIIe siècle avec des hôtels particuliers aux façades sculptées. Moins commerçant que le Vieil Aix, plus calme. Les cours intérieures privées avec leurs fontaines méritent le détour.",
+      },
+      {
+        heading: "8. Festival international d'art lyrique (juillet)",
+        body: "Le Festival d'Aix-en-Provence est l'un des plus prestigieux festivals d'opéra du monde. Représentations dans la Cour de l'Archevêché et au Grand Théâtre de Provence. Les places gratuites au théâtre de l'Archevêché (retransmission extérieure) permettent d'accéder à l'ambiance.",
+      },
+      {
+        heading: "9. Calissons et pâtisseries provençales",
+        body: "Le calisson d'Aix est un des IGP culinaires les plus anciens de France — amande de Provence, melon confit, pain azyme, glaçage royal. Confiseries Roy René et Léonard Parli sont les maisons de référence. La visite des laboratoires explique la fabrication.",
+      },
+      {
+        heading: "10. Thermes Sextius ou spa local",
+        body: "Aix est une ville thermale depuis l'Antiquité — les eaux chaudes ont été utilisées par les Romains. Les thermes Sextius en plein centre proposent accès à l'eau thermale et soins. Une tradition locale qui se pratique encore entre deux rendez-vous.",
+      },
+    ],
+    relatedCities: ["aix-en-provence"],
+    relatedGuides: [
+      "aix-en-provence-vs-marseille-comparatif-2026",
+      "teletravailler-depuis-provence-guide-2026",
+    ],
+    tags: ["10 choses à faire à Aix-en-Provence", "activités Aix-en-Provence 2026", "sorties Aix", "que faire à Aix-en-Provence", "Cézanne Provence visiteurs"],
+  },
+  {
+    slug: "10-choses-a-faire-a-brest-2026",
+    title: "10 choses à faire à Brest (la ville bretonne du bout du monde)",
+    metaTitle: "10 choses à faire à Brest 2026 — activités et sorties locales",
+    metaDesc: "Iroise, Océanopolis, rade et vie nocturne : 10 activités à Brest pour découvrir la cité maritime et sa presqu'île de Crozon.",
+    category: "tourisme",
+    emoji: "⚓",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Brest est à l'extrémité de la France continentale, face à l'Atlantique. Sa réputation pluvieuse cache une ville maritime authentique, une population chaleureuse et un accès immédiat à certains des plus beaux paysages naturels bretons.",
+    sections: [
+      {
+        heading: "1. Océanopolis",
+        body: "L'un des meilleurs aquariums d'Europe — trois pavillons thématiques (tropical, polaire, tempéré), expositions sur l'océan mondial et les défis environnementaux. Le pavillon polaire avec ses manchots et les requins du pavillon tropical sont les points forts. Compter une demi-journée.",
+      },
+      {
+        heading: "2. Traversée en bateau vers la presqu'île de Crozon",
+        body: "Le Brest Métropole Océane propose des traversées en vedette vers Camaret-sur-Mer et la presqu'île de Crozon (30 à 45 min). C'est l'accès le plus rapide à certains des plus beaux paysages de Bretagne : pointe de Pen-Hir, plages sauvages, falaises rouges de Morgat.",
+      },
+      {
+        heading: "3. Château de Brest et Musée National de la Marine",
+        body: "La fortification construite par Vauban abrite le Musée National de la Marine avec ses maquettes et instruments nautiques historiques. Le château est l'un des rares monuments médiévaux de Brest — la ville ayant été reconstruite après les bombardements de la Seconde Guerre mondiale.",
+      },
+      {
+        heading: "4. Conservatoire Botanique National et Vallon du Stangalar",
+        body: "Le Conservatoire Botanique National de Brest conserve des espèces végétales menacées du monde entier. Jardin romantique sur 22 ha, étangs, parcours thématiques. Entrée libre le week-end. Le Stangalar, vallée encaissée en plein Brest, est idéal pour une balade de 2h sans quitter la ville.",
+      },
+      {
+        heading: "5. Soirée dans le quartier de la Liberté ou Saint-Martin",
+        body: "Le quartier de la Liberté est le cœur de la vie nocturne brestoise — bars à bières (Brest est une ville de bière, pas de cidre), concerts de musique bretonne, ambiance maritime. Le Saint-Martin, plus calme, abrite des restaurants de poissons et de fruits de mer de qualité.",
+      },
+      {
+        heading: "6. Randonnée sur les GR34 autour de la rade",
+        body: "Le GR34, le sentier des douaniers, longe les côtes bretonnes sur 2 000 km. Depuis Brest, les tronçons vers la pointe Saint-Mathieu (21 km au sud-ouest) ou vers le Conquet et Trézien offrent des vues sur la rade, les îles et les abers. Niveau accessible.",
+      },
+      {
+        heading: "7. Pointe Saint-Mathieu et abbaye en ruine",
+        body: "À 20 km de Brest, la pointe Saint-Mathieu est l'un des sites maritimes les plus impressionnants de Bretagne — phare, ruines d'une abbaye bénédictine du VIe siècle, vue sur l'Iroise et les côtes normandes par temps clair. Accès libre.",
+      },
+      {
+        heading: "8. Marché des Halles Saint-Martin",
+        body: "Halle couverte centrale ouverte 6j/7. Poissons de la criée de Brest, homards et araignées vivants, charcuteries du Finistère, fromages et crêpes. La halle est moins touristique que celles de Rennes ou Nantes — vraiment utile aux habitants.",
+      },
+      {
+        heading: "9. Les Ateliers des Capucins",
+        body: "Anciens ateliers de la Marine nationale reconvertis en espace culturel de 60 000 m². Médiathèque, cinémas, Quartz (salle de spectacle nationale), restaurants, musée des beaux-arts. L'architecture industrielle du XIXe préservée — le meilleur de la reconversion des friches maritimes.",
+      },
+      {
+        heading: "10. Festival des Vieilles Charrues (Carhaix) ou Brest les Fêtes Maritimes",
+        body: "Les Vieilles Charrues (juillet, Carhaix — 50 km) est le plus grand festival de France en termes de fréquentation (300 000 spectateurs, 4 jours). Les Fêtes Maritimes de Brest (bisannuelles) réunissent voiliers traditionnels et cultures du monde entier dans la rade.",
+      },
+    ],
+    relatedCities: ["brest"],
+    relatedGuides: [
+      "brest-vs-rennes-comparatif-2026",
+      "quitter-brest-guide-2026",
+    ],
+    tags: ["10 choses à faire à Brest", "activités Brest 2026", "sorties Brest", "que faire à Brest", "Océanopolis Crozon Brest visiteurs"],
+  },
+  {
+    slug: "10-choses-a-faire-a-clermont-ferrand-2026",
+    title: "10 choses à faire à Clermont-Ferrand (la capitale volcanique de France)",
+    metaTitle: "10 choses à faire à Clermont-Ferrand 2026 — volcans et vie locale",
+    metaDesc: "Puy de Dôme, fromages d'Auvergne, cathédrale de lave noire et randonnées : 10 activités à Clermont-Ferrand pour vivre la capitale auvergnate.",
+    category: "tourisme",
+    emoji: "🌋",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Clermont-Ferrand est construite sur des basaltes volcaniques — ses pierres noires, ses volcans en toile de fond et sa gastronomie en font une destination singulière. Sous-estimée, elle recèle une qualité de vie remarquable et l'une des natures de proximité les plus spectaculaires de France.",
+    sections: [
+      {
+        heading: "1. Sommet du Puy de Dôme",
+        body: "À 15 km de Clermont, le Puy de Dôme (1 465 m) domine 80 volcans alignés. Accessible par le tramway à crémaillère (Panoramique des Dômes) ou à pied (2h). Vue à 360° sur la Chaîne des Puys classée UNESCO. Ruines d'un temple de Mercure romain au sommet.",
+      },
+      {
+        heading: "2. Cathédrale Notre-Dame de l'Assomption",
+        body: "Construite en pierre volcanique noire de Volvic au XIIIe siècle, la cathédrale de Clermont est unique en France. La couleur sombre donne un caractère gothique particulièrement dramatique. Les vitraux du XIIIe siècle sont parmi les mieux conservés de France.",
+      },
+      {
+        heading: "3. Marché Saint-Pierre le samedi matin",
+        body: "Le plus grand marché d'Auvergne, place Saint-Pierre — fromages (cantal, saint-nectaire, fourme d'Ambert, bleu d'Auvergne), lentilles du Puy (AOP), saucissons secs, vins des Côtes d'Auvergne. Ambiance populaire et régionale authentique.",
+      },
+      {
+        heading: "4. Randonnée dans la Chaîne des Puys",
+        body: "Classée UNESCO en 2018, la Chaîne des Puys est une alignée de 80 volcans dont le dernier cratère date de 6 000 ans. Le sentier des Puys relie une dizaine de cônes en une journée. Puy Pariou, Puy de Come, Puy de Lemptégy (fouilles archéologiques) — chaque volcan a sa personnalité.",
+      },
+      {
+        heading: "5. Basilique Notre-Dame du Port",
+        body: "Basilique romane du XIIe siècle classée UNESCO, à quelques minutes de la cathédrale. L'intérieur avec ses chapiteaux historiés et sa crypte est l'un des exemples les mieux conservés de l'art roman auvergnat. Moins visitée que la cathédrale, plus intime.",
+      },
+      {
+        heading: "6. Parc Bargoin et musées de Clermont",
+        body: "Le Musée Bargoin conserve la plus importante collection textile du monde (50 000 pièces) et des bronzes romains gallo-romains provenant du site de Gergovie. Le MARQ (Musée d'Archéologie Régionale et Queyras) complète un tableau culturel solide.",
+      },
+      {
+        heading: "7. Dégustation de fromages d'Auvergne",
+        body: "L'Auvergne compte 5 AOP fromagères — cantal, saint-nectaire, fourme d'Ambert, bleu d'Auvergne, salers. Les fruitières locales (laiteries artisanales) proposent des dégustations directes. Le Salon du Fromage de Clermont (automne) réunit les meilleurs producteurs.",
+      },
+      {
+        heading: "8. Gergovie et le site de la victoire de Vercingétorix",
+        body: "À 10 km de Clermont, le plateau de Gergovie (700 m) est le site de la bataille de 52 av. J.-C. où Vercingétorix battit Jules César. Musée archéologique, sentiers balisés, vue sur la Chaîne des Puys et la plaine de Limagne. Un site historique majeur et méconnu.",
+      },
+      {
+        heading: "9. Soirée dans le quartier Jaude ou Les Salins",
+        body: "La Place de Jaude est la grande place de Clermont — commerces, terrasses, statue de Vercingétorix. Le quartier Les Salins, plus alternatif, concentre bars à bières locaux, concerts et restaurants indépendants. Ambiance estudiantine (deux universités, CHU).",
+      },
+      {
+        heading: "10. Ski à Super-Besse ou Le Mont-Dore",
+        body: "À 45 minutes de Clermont, Super-Besse et Le Mont-Dore sont les deux stations de ski du Massif Central. Domaines modestes mais accessibles, prix inférieurs aux Alpes, foule limitée. L'hiver, Clermont permet de skier le soir après le travail — un avantage de localisation unique.",
+      },
+    ],
+    relatedCities: ["clermont-ferrand"],
+    relatedGuides: [
+      "quitter-clermont-ferrand-guide-2026",
+      "clermont-ferrand-vs-limoges-comparatif-2026",
+    ],
+    tags: ["10 choses à faire à Clermont-Ferrand", "activités Clermont-Ferrand 2026", "sorties Clermont", "que faire à Clermont-Ferrand", "Puy de Dôme volcans visiteurs"],
+  },
+  {
+    slug: "10-choses-a-faire-a-tours-2026",
+    title: "10 choses à faire à Tours (capitale du Val de Loire)",
+    metaTitle: "10 choses à faire à Tours 2026 — châteaux, Loire et vie locale",
+    metaDesc: "Vieille ville, châteaux de la Loire, vignobles de Touraine et gastronomie : 10 activités à Tours pour vivre la capitale du Val de Loire.",
+    category: "tourisme",
+    emoji: "🏰",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Tours est la ville de référence du Val de Loire UNESCO — accès direct à une douzaine des plus beaux châteaux du monde, gastronomie tourangelle reconnue, vieille ville préservée et qualité de vie parmi les meilleures des villes moyennes françaises.",
+    sections: [
+      {
+        heading: "1. Vieux-Tours — place Plumereau et colombages",
+        body: "La place Plumereau et les rues autour (rue de la Rôtisserie, rue du Commerce) forment l'un des ensembles médiévaux les mieux conservés de France. Maisons à colombages des XVe et XVIe siècles, cafés en terrasse, ambiance estudiantine. Le soir, la place est l'un des plus vivants de la région.",
+      },
+      {
+        heading: "2. Château de Chambord (45 km)",
+        body: "Le plus grand château de la Loire — 440 pièces, l'escalier à double révolution attribué à Léonard de Vinci, 5 440 hectares de forêt. Monument le plus visité de la région. Arrivez à l'ouverture (9h) pour profiter des terrasses sans foule.",
+      },
+      {
+        heading: "3. Château d'Amboise et clos Lucé",
+        body: "Amboise (30 km) : château royal sur falaise, chapelle Saint-Hubert où repose Léonard de Vinci, et le Clos Lucé — dernière demeure de Léonard de Vinci, avec ses machines reconstituées dans les jardins. Association Renaissance unique. Demi-journée suffisante.",
+      },
+      {
+        heading: "4. Loire à Vélo vers Villandry ou Chinon",
+        body: "La Loire à Vélo relie Tours aux châteaux les plus proches en terrain plat longeant le fleuve. Vers Villandry (16 km) pour ses jardins Renaissance à la française. Vers Chinon (50 km) pour le château médiéval et le vignoble de Cabernet Franc. Location de vélos en centre-ville.",
+      },
+      {
+        heading: "5. Vignobles de Touraine — Vouvray et Bourgueil",
+        body: "Le vignoble tourangeau produit des blancs de Chenin Blanc (Vouvray, Montlouis) et des rouges de Cabernet Franc (Bourgueil, Chinon). Les caves creusées dans le tuffeau (roche calcaire locale) proposent des dégustations directes à des prix très abordables.",
+      },
+      {
+        heading: "6. Marché gourmand des Halles ou marché de la Victoire",
+        body: "Les Halles de Tours (Place Gaston-Pailhou) accueillent un marché quotidien — rillettes de Tours (AOP), fromages de chèvre Sainte-Maure-de-Touraine (AOP), vins de Touraine. Le marché de la Victoire (mercredi et samedi, place de la Victoire) est le plus grand marché de plein air.",
+      },
+      {
+        heading: "7. Cathédrale Saint-Gatien",
+        body: "Cathédrale gothique flamboyante du XIIe au XIVe siècle. La façade est l'une des plus richement décorées du Val de Loire. Les vitraux du XIIIe siècle représentent l'un des plus importants cycles iconographiques médiévaux de France. Entrée libre.",
+      },
+      {
+        heading: "8. Troglodytes et caves de Vouvray",
+        body: "Le tuffeau du Val de Loire se creuse facilement — des milliers de caves et d'habitations troglodytiques jalonnent la rive nord de la Loire. Les vignerons de Vouvray élèvent leurs vins dans ces caves naturelles à température constante. La route des troglodytes entre Tours et Vouvray vaut une demi-journée.",
+      },
+      {
+        heading: "9. Rillettes, charcuterie et gastronomie tourangelle",
+        body: "Les rillettes de Tours (cuites à l'eau, plus grasses que les rillettes du Mans) sont une spécialité locale AOP. Boudin noir de Touraine, nougat de Tours, pithiviers feuilleté — la gastronomie tourangelle est riche et accessible. Les charcuteries artisanales du marché des Halles en sont la vitrine.",
+      },
+      {
+        heading: "10. Soirée place Plumereau ou bords de Loire",
+        body: "Le soir, la place Plumereau se remplit de terrasses et de soirées musicales informelles. Les quais de Loire entre le pont Wilson et le pont Napoleon aménagés l'été accueillent guinguettes éphémères et promeneurs. Tours est une ville qui vit dehors du printemps à l'automne.",
+      },
+    ],
+    relatedCities: ["tours"],
+    relatedGuides: [
+      "centre-val-de-loire-tours-orleans-guide-2025",
+      "le-mans-vs-tours-comparatif-2026",
+    ],
+    tags: ["10 choses à faire à Tours", "activités Tours 2026", "sorties Tours", "que faire à Tours", "châteaux Loire Tours visiteurs"],
+  },
+  {
+    slug: "10-choses-a-faire-a-perpignan-2026",
+    title: "10 choses à faire à Perpignan (la Catalane oubliée)",
+    metaTitle: "10 choses à faire à Perpignan 2026 — activités et sorties locales",
+    metaDesc: "Palais des Rois de Majorque, Côte Vermeille et cuisine catalane : 10 activités à Perpignan pour découvrir la ville la plus méridionale de France.",
+    category: "tourisme",
+    emoji: "🔴",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Perpignan est à 30 km de l'Espagne et à 1h des Pyrénées. Ville catalane dans l'âme — avec ses inscriptions bilingues, sa cuisine, ses traditions — elle est parmi les villes françaises les plus ensoleillées de l'Hexagone (plus de 2 700 heures par an).",
+    sections: [
+      {
+        heading: "1. Palais des Rois de Majorque",
+        body: "Le palais médiéval sur la colline Puig del Rey, construit au XIIIe siècle pour les rois de Majorque, domine la ville. Cour gothique à double galerie, chapelle royale, vue sur le Canigou enneigé et la mer. Entrée gratuite le premier dimanche du mois.",
+      },
+      {
+        heading: "2. La Castillet et les remparts",
+        body: "La Castillet, porte fortifiée du XIVe siècle au centre de la ville, est le symbole de Perpignan. Le musée catalan (Casa Pairal) à l'intérieur présente la culture et les arts populaires catalans. Les remparts Vauban, moins complets que Carcassonne, méritent un tour à pied.",
+      },
+      {
+        heading: "3. Marché Cassanyes et alimentation catalane",
+        body: "Le marché Cassanyes, couvert, est le marché quotidien de Perpignan — fruits et légumes du Roussillon (pêches, abricots, cerises selon saison), charcuteries catalanes (fuet, xoriço), fromages des Pyrénées, escargots de la Catalogne. Ambiance méditerranéenne affirmée.",
+      },
+      {
+        heading: "4. Côte Vermeille — Collioure, Banyuls, Cerbère",
+        body: "La Côte Vermeille (30 km de Perpignan) est la côte rocheuse entre Argelès et l'Espagne — criques, ports de pêche, anchois de Collioure, côtes du Roussillon. Collioure a inspiré Matisse et Derain (fauvisme). Banyuls produit un vin doux naturel de réputation nationale.",
+      },
+      {
+        heading: "5. Randonnée vers le Canigou",
+        body: "Le Canigou (2 784 m) est le symbole sacré de la Catalogne. Depuis Prades ou Villerach, l'ascension jusqu'au refuge des Cortalets (jeep ou marche) permet d'atteindre le sommet en 3h. Vue sur la mer, les Pyrénées espagnoles et la plaine du Roussillon. L'été, lever de soleil depuis le sommet.",
+      },
+      {
+        heading: "6. Sardane le dimanche sur les places",
+        body: "La sardane, danse circulaire catalane, se pratique encore dans les villages du Roussillon et à Perpignan. Le dimanche sur la place de la Loge ou devant la Castillet, des groupes se forment spontanément ou après les concerts de cobla (ensemble musical catalan). Un rituel culturel vivant.",
+      },
+      {
+        heading: "7. Abbaye de Saint-Michel-de-Cuxa",
+        body: "À 45 minutes de Perpignan, près de Prades, l'abbaye bénédictine du Xe siècle est l'un des monuments romans les mieux conservés des Pyrénées. Cloître avec ses chapiteaux sculptés (certains au Cloisters de New York). Festival Pablo Casals tous les étés dans l'abbatiale.",
+      },
+      {
+        heading: "8. Anchois de Collioure",
+        body: "Collioure est le port de pêche le plus réputé pour les anchois du Roussillon — préparés selon une méthode ancestrale (salage, maturation en barrique). Les conserveries Roque et Albert acceptent les visites. L'anchois de Collioure a son IGP et se retrouve dans toute la cuisine catalane locale.",
+      },
+      {
+        heading: "9. Place de la Loge et quartier Saint-Jean",
+        body: "La place de la Loge est le cœur historique de Perpignan — Loge de Mer (XVe siècle), hôtel de ville, fontaine. Tout autour, le Quartier Saint-Jean avec ses ruelles étroites, ses bars à tapas, ses épiceries catalanes et ses terrasses qui s'ouvrent jusqu'à minuit.",
+      },
+      {
+        heading: "10. Baignade sur les plages du Roussillon",
+        body: "Canet-en-Roussillon (12 km), Saint-Cyprien, Argelès-sur-Mer — les plages du Roussillon sont longues, sableuses et parmi les plus chaudes de France métropolitaine (eau à 26°C en août). Moins chic que la Côte d'Azur, plus familiales et accessibles. Parking gratuit hors juillet-août.",
+      },
+    ],
+    relatedCities: ["perpignan"],
+    relatedGuides: [
+      "perpignan-vs-montpellier-comparatif-2026",
+      "quitter-perpignan-guide-2026",
+    ],
+    tags: ["10 choses à faire à Perpignan", "activités Perpignan 2026", "sorties Perpignan", "que faire à Perpignan", "Côte Vermeille Catalogne Perpignan visiteurs"],
+  },
+  {
+    slug: "10-choses-a-faire-a-le-havre-2026",
+    title: "10 choses à faire au Havre (l'architecture de l'après-guerre)",
+    metaTitle: "10 choses à faire au Havre 2026 — Perret, mer et vie portuaire",
+    metaDesc: "Architecture UNESCO de Perret, plages, MuMa et vie nocturne : 10 activités au Havre pour découvrir la grande ville portuaire normande.",
+    category: "tourisme",
+    emoji: "🚢",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Le Havre est la seule ville du XXe siècle classée UNESCO en France — sa reconstruction après-guerre par Auguste Perret (1945-1964) constitue un chef-d'œuvre d'architecture en béton armé. Ses plages et son musée d'impressionnisme complètent une identité unique.",
+    sections: [
+      {
+        heading: "1. Le centre-ville Perret classé UNESCO",
+        body: "Le Havre détruit à 80% en 1944 a été entièrement reconstruit selon le plan d'Auguste Perret. Quadrillage régulier, modénature en béton armé avec la trame de 6,24 m, appartements avec doubles orientations. Unique en Europe comme exemple de reconstruction cohérente d'une grande ville. Balade-conférence organisée par le Volcan.",
+      },
+      {
+        heading: "2. Église Saint-Joseph — le phare de béton",
+        body: "Achevée en 1956, l'église Saint-Joseph est le symbole du Havre. Sa tour lanterne de 107 m est en béton, percée de milliers de petits vitraux colorés qui transforment l'intérieur en une cathédrale de lumière colorée. Vue depuis le parvis : une silhouette urbaine unique en France.",
+      },
+      {
+        heading: "3. MuMa (Musée d'Art Moderne André Malraux)",
+        body: "Le MuMa possède la deuxième collection d'œuvres impressionnistes et post-impressionnistes de France après le musée d'Orsay. Monet, Boudin, Pissarro, Dufy (havrais de naissance) — concentrés dans un bâtiment de verre en bord de mer. Vue sur l'estuaire de Seine depuis les terrasses.",
+      },
+      {
+        heading: "4. Les Bains des Docks (piscine Jean Nouvel)",
+        body: "Piscine couverte et extérieure architecturalement remarquable, conçue par Jean Nouvel dans les anciens bassins du port. Bassins à différentes températures, terrasse, espace détente. Entrée accessible. Le cadre industriel réhabilité est en soi une expérience.",
+      },
+      {
+        heading: "5. Les plages du Havre et de Sainte-Adresse",
+        body: "La plage de galets du Havre s'étend sur 2 km en plein centre-ville. Sainte-Adresse, promontoire à 3 km, offre une vue sur l'estuaire et le pont de Normandie — le même tableau que celui peint par Monet. Terrasses de cafés face à la mer, accès direct depuis le centre.",
+      },
+      {
+        heading: "6. Port autonome et terminal croisières",
+        body: "Le port du Havre est le premier port de conteneurs français et le 4e d'Europe. Des tours en bateau permettent de voir le terminal à conteneurs en activité. Le terminal de croisières à l'anse de Joinville accueille des paquebots transatlantiques — spectacle gratuit depuis les quais.",
+      },
+      {
+        heading: "7. Les Bassins du Commerce et quartier du Perrey",
+        body: "Les bassins intérieurs sont en cours de reconversion en espaces publics et culturels. Le quartier du Perrey, entre bassins et mer, voit s'installer restaurants, galeries et espaces de travail. La transformation havraise suit la dynamique des villes portuaires européennes.",
+      },
+      {
+        heading: "8. Excursion à Étretat (30 km)",
+        body: "Les falaises d'Étretat — Amont, Aval, Porte d'Aval — sont à 30 km du Havre. Site naturel exceptionnel, accessible en 30 minutes de voiture ou en navette. Les sentiers du GR21 sur les falaises offrent une progression panoramique entre chaque arche.",
+      },
+      {
+        heading: "9. Halles centrales et cuisine havraise",
+        body: "Les Halles centrales du Havre, reconstruites dans l'esprit Perret, proposent poissons de la Manche, coquilles Saint-Jacques, crevettes grises, camembert de Normandie, teurgoule (riz au lait caramélisé normand). Marché quotidien dans un cadre architectural typique.",
+      },
+      {
+        heading: "10. Soirée dans le quartier Saint-François",
+        body: "Le quartier Saint-François, autour de la place du même nom et des quais, est le quartier des pêcheurs reconverti en bar-restaurants. Brasseries de la mer, bars à vins, restaurants de cuisine du monde. Ambiance port de mer, plus authentique que le centre touristique.",
+      },
+    ],
+    relatedCities: ["le-havre"],
+    relatedGuides: [
+      "normandie-rouen-caen-le-havre-guide-2025",
+      "quitter-le-havre-guide-2026",
+    ],
+    tags: ["10 choses à faire au Havre", "activités Le Havre 2026", "sorties Le Havre", "que faire au Havre", "Perret UNESCO Le Havre visiteurs"],
+  },
+  {
+    slug: "10-choses-a-faire-a-orleans-2026",
+    title: "10 choses à faire à Orléans (la cité de Jeanne d'Arc sur la Loire)",
+    metaTitle: "10 choses à faire à Orléans 2026 — activités et sorties locales",
+    metaDesc: "Cathédrale Sainte-Croix, bords de Loire, vignes de l'Orléanais et patrimoine médiéval : 10 activités à Orléans pour découvrir la ville la plus proche de Paris.",
+    category: "tourisme",
+    emoji: "⚔️",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Orléans est à 1h de Paris mais fonctionne entièrement en autonomie. Ville de Jeanne d'Arc, ville de la Loire, ville des roses — elle dispose d'un patrimoine médiéval, d'une gastronomie locale et d'accès directs aux châteaux de la Loire souvent ignorés au profit de Tours.",
+    sections: [
+      {
+        heading: "1. Cathédrale Sainte-Croix",
+        body: "La cathédrale gothique d'Orléans, détruite et reconstruite à de multiples reprises depuis le VIe siècle, est l'une des grandes cathédrales de la Loire. Les vitraux du XIXe siècle retraçant la vie de Jeanne d'Arc sont parmi les plus narratifs de France. Vue sur la Loire depuis le parvis.",
+      },
+      {
+        heading: "2. Place du Martroi et Rue Royale",
+        body: "La statue équestre de Jeanne d'Arc domine la place du Martroi, cœur de la ville. La Rue Royale, axe monumental du XVIIIe siècle, descend vers les quais de Loire — perspective urbaine classique, ponctué de portiques en pierre blanche.",
+      },
+      {
+        heading: "3. Bords de Loire et Île de la Motte",
+        body: "Les quais de Loire aménagés en promenade longent le fleuve sur 4 km. L'île de la Motte, accessible en bateau, est un espace naturel en plein Orléans. L'été, guinguettes éphémères, kayak, et la Loire à Vélo s'élancent depuis les quais.",
+      },
+      {
+        heading: "4. Loire à Vélo vers Châteauneuf-sur-Loire ou Meung",
+        body: "La Loire à Vélo est accessible directement depuis Orléans. Vers Châteauneuf-sur-Loire (30 km) pour son château et sa Rhododendraie. Vers Meung-sur-Loire (20 km), bourg médiéval avec donjon du XIIe siècle où fut emprisonné François Villon. Terrain plat, cadre classé UNESCO.",
+      },
+      {
+        heading: "5. Musée des Beaux-Arts d'Orléans",
+        body: "L'un des musées régionaux les mieux dotés — du XVe au XXe siècle, avec un accent sur la peinture française et flamande. La salle des pastels (XVIIIe siècle) et la collection de sculptures en marbre sont particulièrement remarquables. Entrée libre le premier dimanche.",
+      },
+      {
+        heading: "6. Marché des Halles Châtelet",
+        body: "Halle couverte du centre-ville — fromages de la région, vins du Val de Loire (Meursault d'Orléans, VSOP vinaigre d'Orléans), charcuteries, fleurs. Bonne adresse pour les vins de Loire moins connus que Chinon ou Vouvray mais très intéressants.",
+      },
+      {
+        heading: "7. Les fêtes de Jeanne d'Arc (mai)",
+        body: "Les fêtes de Jeanne d'Arc (7-8 mai) sont les plus anciennes fêtes patriotiques de France — organisées depuis 1430, l'année suivant la victoire. Cortège historique en armures, messes solennelles, spectacles pyrotechniques et animations médiévales. Un événement local majeur.",
+      },
+      {
+        heading: "8. Quartier de la Source et le parc floral",
+        body: "Le Parc Floral de la Source, sur le campus de l'Université d'Orléans, est l'un des plus grands parcs botaniques du centre-ouest de la France. La «source» du Loiret (résurgence du fleuve souterrain) jaillit dans le parc. Exposition de tulipes au printemps, dahlias à l'automne.",
+      },
+      {
+        heading: "9. Musverre (Musée du verre de Meisenthal) à proximité",
+        body: "L'Orléanais produit du vinaigre depuis le Moyen Âge (vinaigre d'Orléans, IGP) — les vinaigriers locaux proposent des dégustations. La moutarde orléanaise et les confitures de Loire complètent un terroir gastronomique peu connu mais réel.",
+      },
+      {
+        heading: "10. Soirée dans le quartier Bannier ou Saint-Marceau",
+        body: "La rue de Bourgogne et le quartier Bannier concentrent les restaurants et bars d'Orléans. Saint-Marceau, côté rive gauche, est plus populaire et détendu. Les brasseries autour de la cathédrale sont les plus fréquentées par les étudiants des universités d'Orléans (30 000 étudiants).",
+      },
+    ],
+    relatedCities: ["orleans"],
+    relatedGuides: [
+      "centre-val-de-loire-tours-orleans-guide-2025",
+      "angers-vs-tours-comparatif-2026",
+    ],
+    tags: ["10 choses à faire à Orléans", "activités Orléans 2026", "sorties Orléans", "que faire à Orléans", "Loire Jeanne d'Arc Orléans visiteurs"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------

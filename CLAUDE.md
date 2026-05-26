@@ -1,6 +1,6 @@
 # MeilleurVille — Project briefing
 
-French city ranking & relocation guide site. 540 cities, 516 FR guides + 261 EN guides, 19 ranking
+French city ranking & relocation guide site. 540 cities, 524 FR guides + 261 EN guides, 19 ranking
 categories, 18 regions (13 metropolitan + 5 DROM). Copy is **French**.
 (Counts derived at build — see `lib/site-stats.ts`; figures here are indicative.)
 
@@ -173,10 +173,10 @@ Current count: **453 guides**. Guide spec: `slug, title, metaTitle, metaDesc, ca
 
 All planned series are complete (Climat 2040 ×15, Quitter X ×18, Comparaisons A vs B ×17, Région 2026 ×16, Télétravail 2026 ×11, Lifestyle ×14, Budget ×7, Famille ×4).
 
-**10 choses à faire à [ville] series** — new `category: "tourisme"` (`GUIDE_CATEGORIES` entry: "À faire & voir 🎯"). First batch (8 guides, Paris/Lyon/Bordeaux/Toulouse/Marseille/Nice/Nantes/Rennes) shipped. Second batch (8 guides, Strasbourg/Montpellier/Lille/Grenoble/Rouen/Dijon/Metz/Angers) shipped. Slug pattern: `10-choses-a-faire-a-[slug]-2026`. Planned next: Reims, Aix-en-Provence, Perpignan, Brest, Le Havre, Clermont-Ferrand, Tours, Orléans.
+**10 choses à faire à [ville] series** — new `category: "tourisme"` (`GUIDE_CATEGORIES` entry: "À faire & voir 🎯"). First batch (8 guides, Paris/Lyon/Bordeaux/Toulouse/Marseille/Nice/Nantes/Rennes) shipped. Second batch (8 guides, Strasbourg/Montpellier/Lille/Grenoble/Rouen/Dijon/Metz/Angers) shipped. Third batch (8 guides, Reims/Aix-en-Provence/Brest/Clermont-Ferrand/Tours/Perpignan/Le Havre/Orléans) shipped. Slug pattern: `10-choses-a-faire-a-[slug]-2026`. Planned next: Caen, Nancy, Amiens, Limoges, Besançon, Pau, Bayonne, Biarritz.
 
 ### Pending guide work
-- **Editorial rewrite (R7.8)** — all 516 guides: prose/editorial voice, full sentences, light friendly tone. Keep metadata fields untouched, only `intro` and `sections[].body`. Use parallel agents, batch by series. Biggest remaining content task.
+- **Editorial rewrite (R7.8)** — all 524 guides: prose/editorial voice, full sentences, light friendly tone. Keep metadata fields untouched, only `intro` and `sections[].body`. Use parallel agents, batch by series. Biggest remaining content task.
 
 Vivre sans voiture +5, Acheter à [ville] +5, and the "Lire ensuite" reading list (via `lib/guide-suggestions.ts` + auto-block on each guide page) are shipped.
 
