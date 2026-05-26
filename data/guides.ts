@@ -25589,6 +25589,489 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["10 choses à faire à Colmar", "activités Colmar 2026", "sorties Colmar", "que faire à Colmar", "route des vins Alsace retable Colmar visiteurs"],
   },
+  {
+    slug: "10-choses-a-faire-a-nimes-2026",
+    title: "10 choses à faire à Nîmes (les arènes romaines et le Midi gardois)",
+    metaTitle: "10 choses à faire à Nîmes 2026 — activités et sorties locales",
+    metaDesc: "Arènes romaines, Maison Carrée, Pont du Gard et feria : 10 activités à Nîmes pour découvrir la Roma francesa du Languedoc.",
+    category: "tourisme",
+    emoji: "🏛️",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Nîmes est la ville la mieux conservée de l'Antiquité romaine en France, avec un amphithéâtre du Ier siècle encore utilisé pour des corridas et des concerts. Ses 150 000 habitants vivent entre patrimoine exceptionnel et culture taurine — le denim de Nîmes (de Nîmes → denim) et la brandade de morue sont ses deux autres contributions mondiales.",
+    sections: [
+      {
+        heading: "1. Les arènes de Nîmes — l'amphithéâtre le mieux conservé d'Occident",
+        body: "Les arènes de Nîmes (Ier siècle ap. J.-C.) sont l'amphithéâtre romain le mieux conservé du monde occidental, en meilleur état que le Colisée de Rome. Capacité : 24 000 places à l'Antiquité. Elles accueillent encore aujourd'hui des corridas lors des ferias (Pentecôte et Vendanges) et des spectacles en soirée. La visite guidée comprend les galeries souterraines et les loges impériales.",
+      },
+      {
+        heading: "2. La Maison Carrée — le temple romain le plus intact du monde",
+        body: "La Maison Carrée (16 av. J.-C.) est le temple romain le mieux conservé au monde — Thomas Jefferson en fit réaliser des moulages pour le Capitole de Virginie. La projection intérieure « Nemausus, héros fondateur » (20 min, en relief) retrace l'histoire de Nîmes. La place devant le temple, avec le Carré d'Art (Norman Foster, 1993) en miroir contemporain, est la place centrale de Nîmes.",
+      },
+      {
+        heading: "3. Feria de Nîmes — la Pentecôte et les Vendanges",
+        body: "Les ferias de Nîmes (Pentecôte et Vendanges, septembre) sont les deux plus grands rassemblements taurins de France : 700 000 visiteurs sur 5 jours pour la Pentecôte. Le programme : corridas à l'espagnole dans les arènes, bandidos (lâcher de taureaux en ville), bodégas installées dans chaque quartier. L'ambiance de feria transforme entièrement la ville — prévoir l'hébergement très en avance.",
+      },
+      {
+        heading: "4. Le Pont du Gard — l'aqueduc romain classé UNESCO",
+        body: "Le Pont du Gard, à 25 km de Nîmes, est le tronçon le mieux conservé de l'aqueduc romain qui alimentait Nîmes en eau depuis la source d'Uzès (50 km). Trois niveaux d'arcades (49 m de hauteur), classé UNESCO depuis 1985. Baignade autorisée dans le Gardon en contrebas (eau claire, fond de galets). En juillet-août : prévoir d'arriver avant 9h.",
+      },
+      {
+        heading: "5. Jardins de la Fontaine — les plus anciens jardins publics de France",
+        body: "Les jardins de la Fontaine (XVIIIe siècle) sont les premiers jardins publics créés en France, aménagés autour des sources de la Nemausus antique. La tour Magne (rempart romain du Ier siècle av. J.-C.) se dresse au sommet — 32 m de hauteur, 140 marches, vue sur Nîmes et la garrigue. Le temple de Diane (ruines romaines au pied des jardins) est accessible librement.",
+      },
+      {
+        heading: "6. Uzès — la première Duché de France",
+        body: "Uzès, à 25 km de Nîmes, est une bourgade médiévale qui a conservé son duché héréditaire depuis le XIe siècle (la famille de Crussol d'Uzès occupe encore le château). Place aux Herbes, arcades médiévales, tour Fenestrelle (tour ronde romane unique en France) — comptez une demi-journée. André Gide a passé son enfance ici ; Racine y a écrit ses premières pièces.",
+      },
+      {
+        heading: "7. Gastronomie gardoise — brandade et vins du Languedoc",
+        body: "La brandade de Nîmes (morue effilochée montée à l'huile d'olive, AOP) est la spécialité locale absolue — servie sur toast ou en gratin. Accompagnez-la d'un costières-de-nîmes (AOC, vignoble en galets roulés identique à Châteauneuf-du-Pape). Les garrigoulettes (herbes de garrigue : thym, romarin, ciste) parfument les côtelettes d'agneau grillées sur feu de bois.",
+      },
+      {
+        heading: "8. Le musée de la Romanité",
+        body: "Le musée de la Romanité (2018, architecte Elizabeth de Portzamparc) présente 5 000 objets sur l'histoire romaine de Nîmes sur cinq niveaux. Sa façade en dentelle de verre reproduit les motifs d'une toge romaine. Pièce maîtresse : la mosaïque de Bellérophon (IIe siècle, 40 m²). Vue sur les arènes depuis la terrasse. Gratuit pour les moins de 18 ans.",
+      },
+      {
+        heading: "9. Bagnols-sur-Cèze et les gorges de l'Ardèche",
+        body: "Les gorges de l'Ardèche, à 60 km de Nîmes, constituent l'un des plus beaux circuits canoe de France : 32 km de Vallon-Pont-d'Arc (l'Arche naturelle de 54 m de haut) à Saint-Martin-d'Ardèche, bivouac sur les plages intermédiaires. Classé réserve naturelle. En amont, la grotte Chauvet-Pont d'Arc (réplique, site UNESCO) présente les plus anciennes peintures rupestres du monde (35 000 ans).",
+      },
+      {
+        heading: "10. La garrigue nîmoise — randonnées et circuits VTT",
+        body: "La garrigue qui entoure Nîmes (calcaire, chênes kermès, lavande, cigales) offre des itinéraires de randonnée accessibles depuis le centre-ville. Le circuit des moulins (15 km, départ tour Magne) passe par les collines cultivées en oliviers. En avril-mai, la floraison des cistes et des orchidées sauvages transforme le paysage.",
+      },
+    ],
+    relatedCities: ["nimes"],
+    relatedGuides: [
+      "quitter-nimes-guide-2026",
+      "acheter-a-nimes-quel-quartier-budget-2026",
+      "vivre-en-provence-paca-guide-2025",
+    ],
+    tags: ["10 choses à faire à Nîmes", "activités Nîmes 2026", "sorties Nîmes", "que faire à Nîmes", "arènes romaines Pont du Gard feria Nîmes"],
+  },
+  {
+    slug: "10-choses-a-faire-a-avignon-2026",
+    title: "10 choses à faire à Avignon (le Palais des Papes et le festival)",
+    metaTitle: "10 choses à faire à Avignon 2026 — activités et sorties locales",
+    metaDesc: "Palais des Papes, festival d'Avignon, Luberon et vignes du Rhône : 10 activités à Avignon pour découvrir la cité des papes en Provence.",
+    category: "tourisme",
+    emoji: "🎭",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Avignon est la cité papale du XIVe siècle, fortifiée dans un méandre du Rhône avec ses remparts médiévaux intacts sur 4,3 km. Ses 90 000 habitants reçoivent chaque juillet 150 000 festivaliers pour le plus grand festival de théâtre du monde. Classée UNESCO depuis 1995, elle est aussi la porte d'entrée du Luberon et des Alpilles.",
+    sections: [
+      {
+        heading: "1. Palais des Papes — la plus grande construction gothique médiévale",
+        body: "Le Palais des Papes (1335-1370) est le plus grand palais gothique du monde (15 000 m²) et l'édifice médiéval le plus visité de France après le Mont-Saint-Michel. Construit en 67 ans pour accueillir la papauté délocalisée à Avignon (1309-1377), il comprend deux palais superposés : le Palais Vieux (Benoît XII) et le Palais Neuf (Clément VI). La salle des Festins (52 m de long) reste impressionnante dépouillée de ses tapisseries.",
+      },
+      {
+        heading: "2. Festival d'Avignon — le plus grand festival de théâtre du monde",
+        body: "Le festival d'Avignon (juillet, depuis 1947) rassemble 150 000 spectateurs pour 1 500 spectacles en trois semaines, dans 130 lieux dont la Cour d'honneur du Palais des Papes. Le festival IN (sélection officielle) coexiste avec le festival OFF (600+ compagnies libres, tickets à 10-15€). Jean Vilar l'a fondé sur le principe de « théâtre populaire accessible à tous ».",
+      },
+      {
+        heading: "3. Le pont Saint-Bénezet — sur le pont d'Avignon",
+        body: "Le Pont Saint-Bénezet (XIIe siècle), celui de la chanson, ne compte plus que 4 arches sur les 22 d'origine — le Rhône a emporté le reste au XVIIe siècle. La promenade sur les arches restantes (billet combinable avec le Palais des Papes) offre la vue classique sur le Palais et le Rocher des Doms. La chapelle Saint-Nicolas sur la deuxième arche est l'une des plus petites chapelles romanes de Provence.",
+      },
+      {
+        heading: "4. Le Rocher des Doms — jardins et vue panoramique",
+        body: "Le Rocher des Doms est le promontoire rocheux au-dessus du Rhône où s'est installée la première population avignonnaise. Le jardin public (entrée libre) offre la vue la plus complète sur le Pont d'Avignon, le Palais des Papes, Villeneuve-lès-Avignon et le mont Ventoux par temps clair. Les cygnes du bassin sont là depuis 1866.",
+      },
+      {
+        heading: "5. Les Baux-de-Provence et les Alpilles",
+        body: "Les Baux-de-Provence, à 30 km d'Avignon, est un village des Alpilles classé parmi les plus beaux de France : château médiéval en ruines perché sur un éperon calcaire à 200 m au-dessus de la plaine. Carrières de Lumières (spectacle son et lumière dans une ancienne carrière de bauxite) : 700 000 visiteurs/an. L'AOC Les Baux-de-Provence (huile d'olive et vins) est disponible dans les domaines alentour.",
+      },
+      {
+        heading: "6. Châteauneuf-du-Pape — le vignoble papal",
+        body: "Châteauneuf-du-Pape, à 18 km d'Avignon, est l'appellation la plus célèbre de la vallée du Rhône : grenache, syrah, mourvèdre sur des galets roulés chauffants. Le château des papes (ruines du XIVe siècle) domine le village et le vignoble. La plupart des domaines reçoivent en dégustation sans réservation — Château Rayas, Château Beaucastel, Domaine du Vieux Télégraphe sont les références.",
+      },
+      {
+        heading: "7. Le Luberon — villages perchés et lavande",
+        body: "Le Luberon (parc naturel régional, Vaucluse) commence à 30 km d'Avignon : Gordes (classé plus beau village de France), Roussillon (falaises d'ocre, sentier des Ocres), Bonnieux, Ménerbes, Lacoste. En juin-juillet, les champs de lavande de Sault et du plateau d'Albion (à 60 km) offrent le tableau photographié dans le monde entier.",
+      },
+      {
+        heading: "8. Villeneuve-lès-Avignon — la rive droite des cardinaux",
+        body: "Villeneuve-lès-Avignon, sur la rive droite du Rhône (Gard), était la résidence des cardinaux de la cour pontificale. Le Fort Saint-André (XIVe siècle) domine l'ensemble depuis une butte calcaire — vue sur Avignon parmi les meilleures. La chartreuse du Val de Bénédiction (XIVe siècle) est l'une des plus grandes de France, aujourd'hui centre d'art contemporain.",
+      },
+      {
+        heading: "9. Marché des Halles d'Avignon",
+        body: "Les Halles d'Avignon (place Pie) sont le marché couvert central de la ville, ouvert tous les matins sauf lundi. Façade végétalisée (Patrick Blanc, 4 000 m² de plantes) côté place. À l'intérieur : maraîchers vauclusiens (melons de Cavaillon AOC, fraises de Carpentras), fromages (banon, pélardon, tome de Camargue), charcuteries et poissons de Méditerranée.",
+      },
+      {
+        heading: "10. Fontaine-de-Vaucluse — la résurgence de Pétrarque",
+        body: "Fontaine-de-Vaucluse, à 30 km d'Avignon, abrite la plus puissante résurgence d'Europe : la Sorgue jaillit d'un gouffre au pied d'une falaise calcaire (débit moyen 25 m³/s, pic à 200 m³/s au printemps). Pétrarque y vécut 16 ans (1337-1353) et y composa les sonnets pour Laure. Le musée Pétrarque retrace sa vie et son œuvre.",
+      },
+    ],
+    relatedCities: ["avignon"],
+    relatedGuides: [
+      "quitter-avignon-guide-2026",
+      "acheter-a-avignon-quel-quartier-budget-2026",
+      "vivre-en-provence-paca-guide-2025",
+    ],
+    tags: ["10 choses à faire à Avignon", "activités Avignon 2026", "sorties Avignon", "que faire à Avignon", "Palais des Papes festival théâtre Luberon Avignon"],
+  },
+  {
+    slug: "10-choses-a-faire-a-cannes-2026",
+    title: "10 choses à faire à Cannes (palaces, festivals et îles de Lérins)",
+    metaTitle: "10 choses à faire à Cannes 2026 — activités et sorties locales",
+    metaDesc: "Festival de Cannes, îles de Lérins, Croisette et arrière-pays grassois : 10 activités à Cannes pour découvrir la Côte d'Azur au-delà du tapis rouge.",
+    category: "tourisme",
+    emoji: "🎬",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Cannes est la ville du cinéma, 75 000 habitants qui vivent au rythme d'une économie événementielle parmi les plus denses d'Europe — MIPIM, MIPCOM, Festival de Cannes, Lions de Cannes. Mais la ville existait avant Hollywood : ses îles de Lérins ont vu naître le monachisme occidental, et son marché Forville est l'un des meilleurs marchés de Provence.",
+    sections: [
+      {
+        heading: "1. La Croisette — la promenade des palaces et des marques",
+        body: "La Croisette (1,8 km le long de la mer) est la promenade emblématique de Cannes avec ses hôtels palace (Carlton, Martinez, Majestic), ses boutiques de luxe et ses plages privées. Pendant le Festival (mai), les marches du Palais des Festivals devant l'hôtel Martinez sont le décor des montées mondiales. Hors festival, la promenade reste agréable : palmiers, vue sur les îles de Lérins, sable blond.",
+      },
+      {
+        heading: "2. Île Saint-Honorat — le monastère cistercien et ses vignes",
+        body: "L'île Saint-Honorat (à 15 min de bateau du Vieux-Port) est habitée depuis le Ve siècle par des moines cisterciens. L'abbaye en activité (accueil de visiteurs) produit l'un des vins les plus rares de Provence : moines vignerons sur 8 ha, production limitée vendue uniquement sur l'île et à l'abbaye. L'île est protégée (pas d'hôtel ni de restaurant autre que la guinguette monastique).",
+      },
+      {
+        heading: "3. Île Sainte-Marguerite — Fort Royal et le Masque de Fer",
+        body: "L'île Sainte-Marguerite (la plus grande des îles de Lérins, à 10 min de bateau) abrite le Fort Royal où fut emprisonné le « Masque de Fer » (1687-1698) — identité toujours débattue par les historiens. Le musée de la Mer dans les cellules du fort présente des amphores romaines remontées de l'épave d'un navire coulé au Ier siècle av. J.-C. Les forêts d'eucalyptus et de pins permettent des circuits pédestres sur tout le pourtour de l'île.",
+      },
+      {
+        heading: "4. Le Vieux-Port et le Suquet",
+        body: "Le Suquet est le quartier historique de Cannes, sur la colline au-dessus du Vieux-Port. La Castre (musée dans une chapelle médiévale) présente des collections d'ethnographie mondiale et d'archéologie méditerranéenne. Vue panoramique depuis le sommet : la baie de Cannes, les îles de Lérins, l'Estérel rouge en arrière-plan. Le Vieux-Port accueille encore des bateaux de pêche — la bouillabaisse du restaurant Astoux et Brun en est directement alimentée.",
+      },
+      {
+        heading: "5. Marché Forville — le marché provençal de Cannes",
+        body: "Le marché Forville (marché couvert, quartier Suquet) est l'un des plus beaux marchés de la Côte d'Azur, ouvert tous les matins sauf lundi. Primeurs provençaux (tomates de plein champ, courgettes fleur, figues), poissons de la criée de Cannes (poulpe, rouget, dorade), fromages de chèvre du Var. Les restaurateurs de la Croisette s'y approvisionnent dès 6h.",
+      },
+      {
+        heading: "6. Grasse — la capitale mondiale du parfum",
+        body: "Grasse, à 17 km de Cannes dans l'arrière-pays, est la capitale mondiale du parfum : Chanel, Dior, Guerlain y ont leurs laboratoires d'extraction. Le Musée International de la Parfumerie retrace 3 000 ans d'histoire olfactive. Les maisons de parfum (Fragonard, Molinard, Galimard) proposent des ateliers de création de son propre parfum (2h, 50-100€). En mai, la Fête du Jasmin.",
+      },
+      {
+        heading: "7. Massif de l'Estérel — les calanques de porphyre rouge",
+        body: "Le massif de l'Estérel, entre Cannes et Saint-Raphaël, est un massif volcanique de porphyre rouge tombant directement dans une mer turquoise — contraste chromatique unique sur la Côte d'Azur. Le sentier du littoral (GR 51, 20 km) suit les calanques entre Agay et La Napoule. La Corniche de l'Estérel (D559) longe la côte en voiture avec des belvédères sur les calanques.",
+      },
+      {
+        heading: "8. Festival de Cannes — participer sans invitation",
+        body: "Le Festival de Cannes (mai) n'est pas entièrement fermé au public. La Cinéphiles du Festival permet aux porteurs d'un Pass Cinéphile d'accéder aux projections publiques en soirée dans les salles officielles (5-20€, file d'attente dès 18h). Les projections de minuit au Grand Théâtre Lumière sont les plus accessibles. Les masterclasses (Palais des Congrès) sont souvent gratuites sur inscription.",
+      },
+      {
+        heading: "9. Mandelieu-la-Napoule — le château médiéval sur la mer",
+        body: "Le château de la Napoule, à 8 km de Cannes, est un château médiéval du XIVe siècle restauré au XXe par le sculpteur américain Henry Clews et sa femme. Les jardins à l'anglaise (fontaines, sculptures fantastiques, roses) descendent directement sur la mer. Visite guidée obligatoire pour l'intérieur. Le port de la Rague juste à côté est le plus grand port de plaisance des Alpes-Maritimes.",
+      },
+      {
+        heading: "10. Mougins — village des artistes et de la gastronomie",
+        body: "Mougins, à 7 km de Cannes sur les hauteurs, est le village où Picasso passa les 12 dernières années de sa vie (1961-1973). Son centre médiéval a attiré une communauté d'artistes et de restaurateurs — le Musée d'Art Classique (MACM) présente 3 000 ans d'art dans un hôtel particulier. Le Festival Gastronomique de Mougins (septembre) réunit les meilleurs chefs de Provence.",
+      },
+    ],
+    relatedCities: ["cannes"],
+    relatedGuides: [
+      "cote-azur-abordable-arriere-pays-paca-2025",
+      "vivre-en-provence-paca-guide-2025",
+    ],
+    tags: ["10 choses à faire à Cannes", "activités Cannes 2026", "sorties Cannes", "que faire à Cannes", "Festival Cannes îles Lérins Croisette Grasse"],
+  },
+  {
+    slug: "10-choses-a-faire-a-saint-malo-2026",
+    title: "10 choses à faire à Saint-Malo (la cité corsaire et la mer d'Iroise)",
+    metaTitle: "10 choses à faire à Saint-Malo 2026 — activités et sorties locales",
+    metaDesc: "Remparts intra-muros, îles du large, Route du Rhum et huîtres de Cancale : 10 activités à Saint-Malo pour découvrir la cité corsaire de Bretagne.",
+    category: "tourisme",
+    emoji: "⚓",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Saint-Malo est la cité corsaire du XVIIe siècle, construite sur un îlot rocheux relié au continent par une digue — intra-muros est une ville entière à l'intérieur des remparts. Ses 50 000 habitants partagent la ville avec 2 millions de touristes par an attirés par la mer à fort marnage (marnage jusqu'à 13,5 m, record atlantique européen) et la vieille ville entièrement reconstruite à l'identique après 1944.",
+    sections: [
+      {
+        heading: "1. Les remparts intra-muros — le tour de la cité en 1h",
+        body: "Le chemin de ronde sur les remparts (XIIe-XVIIe siècles, 1,8 km) fait le tour complet de la cité intra-muros avec vue sur les îles du Petit Bé, du Grand Bé et du Fort National. La porte Saint-Vincent (entrée principale), la tour Bidouane et les bastions ont été entièrement reconstruits à l'identique après la destruction de 1944 (80% de la ville détruite). Au sommet : vue sur la baie de Saint-Malo, Dinard en face et le Cotentin.",
+      },
+      {
+        heading: "2. Le Grand Bé — l'île de Chateaubriand",
+        body: "Le Grand Bé est un îlot rocheux accessible à pied à marée basse (30 min à pied depuis la porte Saint-Vincent, vérifier les horaires des marées). La tombe de Chateaubriand est au sommet — une dalle de granit brut, sans inscription, face à la mer selon ses volontés. Vue sur Saint-Malo depuis le large. Attention : le retour de la marée isole l'île rapidement — ne pas rester plus d'1h.",
+      },
+      {
+        heading: "3. Cancale — les huîtres plates de Bretagne",
+        body: "Cancale, à 15 km de Saint-Malo, est le berceau de l'huître plate bretonne. Le port de La Houle a ses bancs d'huîtriers directement accessibles à marée basse — on peut observer les parcs à huîtres depuis les tables des restaurants sur la jetée. La dégustation d'une douzaine avec une muscadet sur les rochers (achetée directement aux producteurs, 8-12€) est l'expérience canonique.",
+      },
+      {
+        heading: "4. Fort National — la citadelle de Vauban",
+        body: "Le Fort National, construit par Vauban en 1689 sur un rocher face aux remparts, est accessible à pied à marée basse depuis la plage du Sillon (vérifier horaires). Visites guidées en juillet-août uniquement. Il servit de prison pendant la Révolution (800 Malouins y furent internés). La vue depuis le fort sur la ville intra-muros est la plus utilisée dans les photographes de Saint-Malo.",
+      },
+      {
+        heading: "5. Route du Rhum — la transat en solitaire",
+        body: "La Route du Rhum (tous les 4 ans, édition suivante novembre 2028) est la plus grande course transatlantique en solitaire du monde — 560 bateaux au départ en 2022, 200 000 spectateurs sur les remparts. L'ambiance pré-départ à Saint-Malo est unique : le Village du Rhum s'installe pendant une semaine, les skippers préparent leurs bateaux sous les yeux du public. Ça reste mémorable même hors période de course.",
+      },
+      {
+        heading: "6. Dinard — la station balnéaire victorienne",
+        body: "Dinard, en face de Saint-Malo de l'autre côté de la Rance (10 min en bateau navette, 30 min en voiture par le barrage), est une station balnéaire fondée par des aristocrates anglais au XIXe siècle. Ses villas Belle Époque (400 recensées), son casino, sa piscine d'eau de mer chauffée et son festival du film britannique (octobre) en font une escale à part. Picasso y séjourna à plusieurs reprises.",
+      },
+      {
+        heading: "7. Mont-Saint-Michel — la merveille de la baie",
+        body: "Le Mont-Saint-Michel, à 60 km de Saint-Malo, est l'abbaye la plus visitée de France après le château de Versailles (3,5 millions de visiteurs/an). L'arrivée à pied sur la digue depuis le parking continental (3,5 km) avec la baie, les grèves et le Mont en premier plan est plus impressionnante que par navette. À marée haute (renseignements sur marees.info), le Mont est entouré d'eau — le spectacle dure 2h.",
+      },
+      {
+        heading: "8. Dinan — la cité médiévale de la Rance",
+        body: "Dinan, à 30 km de Saint-Malo le long de la Rance, est l'une des mieux conservées des cités médiévales de Bretagne : remparts intacts (2,6 km), château ducal, rue du Jerzual (maisons à colombages du XVe siècle descendant vers le port). Du Guesclin y est enterré (son cœur, à défaut du corps). Le port de Dinan accueille des voiliers de plaisance et des restaurants dans des bâtiments en granit.",
+      },
+      {
+        heading: "9. Cap Fréhel — les falaises rouges et le sillon de Bretagne",
+        body: "Le cap Fréhel, à 40 km de Saint-Malo, est un cap de grès rose et porphyre tombant en falaises de 70 m au-dessus de la mer. La lande à bruyère et ajoncs en été, la colonie de fous de Bassan et de guillemots sur les rochers, et le phare du XVIIIe siècle (visites en été) en font l'une des promenades bretonnes les plus spectaculaires. Le Fort La Latte (château médiéval à 4 km du cap) s'avance dans la mer.",
+      },
+      {
+        heading: "10. Intra-muros la nuit — les bistrots malouins",
+        body: "Le soir à Saint-Malo, la vieille ville intra-muros s'anime dans ses ruelles de granit. La rue de la Soif concentre bars et restaurants ; les galettes-saucisses des marchands ambulants devant les bars sont la collation officielle après 23h. La crêperie Surcouf (galettes tradition au blé noir, cidre breton en bolée) est l'adresse locale à préférer aux enseignes touristiques de la Grande Rue.",
+      },
+    ],
+    relatedCities: ["saint-malo"],
+    relatedGuides: [
+      "vivre-en-bretagne-nord-guide-2025",
+      "vivre-en-bretagne-guide-2025",
+    ],
+    tags: ["10 choses à faire à Saint-Malo", "activités Saint-Malo 2026", "sorties Saint-Malo", "que faire à Saint-Malo", "remparts corsaires Route du Rhum Cancale huîtres"],
+  },
+  {
+    slug: "10-choses-a-faire-a-vannes-2026",
+    title: "10 choses à faire à Vannes (le golfe du Morbihan et la cité médiévale)",
+    metaTitle: "10 choses à faire à Vannes 2026 — activités et sorties locales",
+    metaDesc: "Golfe du Morbihan, cité médiévale, île aux Moines et mégalithes de Carnac : 10 activités à Vannes pour découvrir le cœur de la Bretagne du Sud.",
+    category: "tourisme",
+    emoji: "⛵",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Vannes est la capitale du Morbihan, préfecture de 55 000 habitants au fond du golfe du Morbihan — une mer intérieure de 150 km² parsemée de 42 îles. Sa vieille ville médiévale (remparts intacts, cathédrale gothique, maisons à colombages) est l'une des mieux conservées de Bretagne, et ses accès directs en bateau sur les îles du golfe en font un point de départ exceptionnel.",
+    sections: [
+      {
+        heading: "1. Le golfe du Morbihan — la mer intérieure aux 42 îles",
+        body: "Le golfe du Morbihan est une mer intérieure connectée à l'Atlantique par un chenal de 900 m. Les courants de marée (jusqu'à 9 nœuds dans le passage) créent des conditions de navigation uniques, et l'ensemble des 42 îles du golfe est classé Grand Site de France. La croisière panoramique (2h30, compagnie Navix depuis Vannes) est le meilleur moyen de comprendre la géographie de l'ensemble.",
+      },
+      {
+        heading: "2. Île aux Moines — la douceur bretonne",
+        body: "L'île aux Moines (3 km × 1 km, 600 habitants permanents, navette depuis Port-Blanc toutes les 20 min) est l'île habitée la plus douce du Morbihan : mimosas et camélias fleurissent dès janvier, les vélos sont le seul moyen de transport. Le tour de l'île (circuit 8 km à pied ou vélo, 2h) passe par les menhirs du Bronze Age, les plages de sable et les hameaux de pêcheurs.",
+      },
+      {
+        heading: "3. La vieille ville de Vannes — remparts et cathédrale",
+        body: "La vieille ville de Vannes est entourée de remparts médiévaux dont 600 m côté jardins (les jardins suspendus sont aménagés entre les tours) — classique photographié entre les tours Connétable et du Bourreau. La cathédrale Saint-Pierre (XIIIe-XVIIe siècles) contient la chapelle du Sacrement dans un style Renaissance italien unique en Bretagne. La place Henri-IV aux maisons à pans de bois du XVIe est le cœur de la vieille ville.",
+      },
+      {
+        heading: "4. Carnac — la plus grande concentration de mégalithes du monde",
+        body: "Carnac, à 35 km de Vannes, possède les plus grandes alignements de menhirs du monde : 3 000 menhirs en plusieurs lignes parallèles (alignements de Kermario, Kerlescan, Le Ménec) couvrant 4 km². Érigés entre 4500 et 2000 av. J.-C., leur fonction reste débattue. Accès aux alignements depuis les observatoires aménagés (libre en dehors de la saison) ou visite guidée (Maison des Mégalithes, Carnac).",
+      },
+      {
+        heading: "5. Belle-Île-en-Mer — la grande île bretonne",
+        body: "Belle-Île-en-Mer (à 45 min de ferry depuis Quiberon ou Le Palais) est la plus grande île bretonne (20 km × 9 km, 5 000 habitants). La Côte Sauvage (falaises exposées à l'Atlantique) contraste avec les plages abritées de la côte est. Port-Donnant, Plage des Grands Sables, Grotte de l'Apothicairerie (falaises creusées par les vagues, cormorans). Monet a peint Belle-Île en 1886 (39 toiles, séjour de 10 semaines).",
+      },
+      {
+        heading: "6. Presqu'île de Rhuys — la Côte d'Azur bretonne",
+        body: "La presqu'île de Rhuys ferme le golfe au sud : côté golfe, eaux calmes et chaudes (23°C en août), côté Atlantique, plages de sable exposées aux vagues. Le château de Suscinio (XIIIe siècle, résidence des ducs de Bretagne) est le château médiéval le mieux restauré de Bretagne. Saint-Gildas-de-Rhuys (Abélard y passa ses dernières années, 1142-1142) et Arzon (port du Crouesty, 1 200 bateaux) complètent le circuit.",
+      },
+      {
+        heading: "7. Auray et la rivière de Saint-Goustan",
+        body: "Auray, à 15 km de Vannes, possède le plus beau port de rivière de Bretagne : Saint-Goustan (quai Benjamin-Franklin, qui y débarqua en 1778 pour convaincre Louis XVI de soutenir l'indépendance américaine). Les maisons à pans de bois des XVe-XVIe siècles côté quai sont parmi les mieux conservées du Morbihan. Marché du lundi matin place du Loch (artisanat, primeurs, fruits de mer).",
+      },
+      {
+        heading: "8. Gastronomie morbihannaise — huitres et bar au beurre blanc",
+        body: "Le Morbihan est le premier département ostréicole de France (60% de la production nationale d'huîtres plates). Les huîtres du golfe (Huîtres du Morbihan, label rouge) se dégustent aux étals des producteurs à Pénestin, La Trinité-sur-Mer ou directement sur le marché de Vannes. Le bar au beurre blanc, le homard breton à l'américaine et le kouign-amann (gâteau breton feuilleté au beurre salé) sont les incontournables.",
+      },
+      {
+        heading: "9. Festival Jazz à Vannes et La Nuit Nomade",
+        body: "Vannes anime ses remparts médiévaux avec plusieurs festivals estivaux : La Nuit Nomade (juillet, spectacles de rue dans la vieille ville, gratuit), Jazz à Vannes (juillet), Festival des Filets Bleus (Concarneau, août, rempart médiéval en fête). La place Gambetta et le port de plaisance concentrent les animations musicales du vendredi soir de juin à août.",
+      },
+      {
+        heading: "10. Kayak dans le golfe du Morbihan",
+        body: "Le kayak de mer dans le golfe du Morbihan est l'une des meilleures expériences nautiques de France : eau calme dans la plupart des passes, îles accessibles en 20-30 min de pagaie, faune (hérons cendrés, aigrettes, bernaches cravant). Locations de kayaks et circuits guidés depuis Larmor-Baden, Séné ou Le Bono. La randonnée de nuit (pleine lune, guides certifiés) est une expérience à part.",
+      },
+    ],
+    relatedCities: ["vannes"],
+    relatedGuides: [
+      "quitter-vannes-guide-2026",
+      "acheter-a-vannes-quel-quartier-budget-2026",
+      "vivre-morbihan-bretagne-sud-guide-2025",
+    ],
+    tags: ["10 choses à faire à Vannes", "activités Vannes 2026", "sorties Vannes", "que faire à Vannes", "golfe Morbihan cité médiévale Carnac mégalithes Belle-Île"],
+  },
+  {
+    slug: "10-choses-a-faire-a-quimper-2026",
+    title: "10 choses à faire à Quimper (la capitale de la Cornouaille bretonne)",
+    metaTitle: "10 choses à faire à Quimper 2026 — activités et sorties locales",
+    metaDesc: "Cathédrale gothique, faïences de Quimper, festival de Cornouaille et pointe du Raz : 10 activités à Quimper pour découvrir le cœur de la Bretagne ancienne.",
+    category: "tourisme",
+    emoji: "🏺",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Quimper est la capitale de la Cornouaille, la région la plus bretonnante de Bretagne. Ses 65 000 habitants vivent dans une ville où le breton est encore parlé dans les rues, où les faïences peintes à la main sont fabriquées depuis 1690, et où le festival de Cornouaille (juillet) attire 250 000 visiteurs pour la plus grande fête de la culture celtique.",
+    sections: [
+      {
+        heading: "1. Cathédrale Saint-Corentin — les flèches jumelles bretonnes",
+        body: "La cathédrale Saint-Corentin de Quimper (XIIIe-XVe siècles) est une des deux seules cathédrales gothiques de Bretagne avec ses deux flèches identiques de 75 m ajoutées au XIXe siècle. Particularité unique : la nef est désaxée de 5° par rapport au chœur (déviation intentionnelle symbolisant la tête du Christ sur la croix, selon la tradition). Les vitraux du XVe siècle sont parmi les mieux conservés de France.",
+      },
+      {
+        heading: "2. Faïences de Quimper — les poteries HB et Henriot",
+        body: "La faïence de Quimper (tradition depuis 1690) se caractérise par ses motifs de personnages bretons peints à la main — le Breton au chapeau, la Bretonne en coiffe. Les manufactures HB-Henriot (seule manufacture encore en activité) proposent des visites de l'atelier de peinture (ouvert en semaine, entrée libre). Le musée des Beaux-Arts conserve la plus grande collection de faïences de Quimper du XVIIe au XXe siècle.",
+      },
+      {
+        heading: "3. Festival de Cornouaille — la fête celtique de l'été",
+        body: "Le Festival de Cornouaille (dernière semaine de juillet, 250 000 spectateurs) est le plus grand rassemblement de culture bretonne et celtique au monde : bagadoù (orchestres de cornemuses et bombarde), fest-noz dans les rues, concours de chants bretonnants, groupes celtiques irlandais, gallois et écossais. Le défilé de clôture (dimanche, 5 000 participants en costume traditionnel) est la scène la plus photographiée.",
+      },
+      {
+        heading: "4. La vieille ville de Quimper — les rues médiévales",
+        body: "Le centre historique de Quimper (rive du Steïr) a conservé ses maisons à pans de bois des XVe-XVIIe siècles, notamment rue Kéréon, rue Guéodet et place au Beurre. L'Odet (rivière traversant la ville) et ses quais arborés sont le lieu de promenade du soir. Le marché des Halles Saint-François (couvert, place Saint-Corentin) est le meilleur marché alimentaire de la ville.",
+      },
+      {
+        heading: "5. Pointe du Raz — le finistère de la France",
+        body: "La pointe du Raz (à 60 km de Quimper) est le cap le plus à l'ouest de France métropolitaine : falaises de 70 m, vue sur l'île de Sein (15 km au large) et, par temps clair, sur l'île d'Ouessant. Le Raz de Sein (passage maritime entre la pointe et l'île de Sein) est l'un des plus dangereux d'Europe. Parking payant à 2 km, accès pédestre obligatoire. Réservé aux conditions météo favorables.",
+      },
+      {
+        heading: "6. Locronan — le village médiéval le plus conservé de Bretagne",
+        body: "Locronan, à 15 km de Quimper, est classé parmi les plus beaux villages de France : place centrale pavée entièrement entourée de maisons en granit des XVe-XVIIe siècles, sans construction moderne visible. La Troménie (grande procession religieuse autour de la montagne de Locronan, tous les 6 ans — prochaine édition : 2031) est inscrite au patrimoine immatériel de l'UNESCO.",
+      },
+      {
+        heading: "7. Concarneau — la ville close et les thoniers",
+        body: "Concarneau, à 25 km de Quimper, est le troisième port de pêche de France. La ville close (îlot fortifié dans le port, XVe siècle) accueille musées et restaurants de crustacés. La criée de Concarneau (la plus grande de Bretagne) se visite sur réservation. Le Festival des Filets Bleus (août, depuis 1905) est le plus ancien festival de musique celtique.",
+      },
+      {
+        heading: "8. Île de Sein — l'île des libres",
+        body: "L'île de Sein (à 1h de bateau depuis Audierne, 15 km de la pointe du Raz) est habitée par 230 personnes sur 1 km² de granit à 1 m au-dessus du niveau de la mer. En 1940, la totalité des hommes valides (128 personnes) a rallié la France libre à l'appel de De Gaulle — de Gaulle déclarera « Sein représente à lui seul le quart de la France libre. » Île quasi plate, faune marine exceptionnelle.",
+      },
+      {
+        heading: "9. Gastronomie cornouaillaise — homard et charcuteries kig ha farz",
+        body: "La Cornouaille est réputée pour ses crustacés (homard bleu breton pêché au casier, tourteau, langoustines), ses huîtres plates de Belon et ses poissons fumés à froid (saumon, truite, haddock fumé au bois de hêtre). Le kig ha farz (pot-au-feu breton avec une semoule de sarrasin cuite dans un sac en toile dans le bouillon) est le plat dominical traditionnel de la Cornouaille.",
+      },
+      {
+        heading: "10. Bénodet et les plages de l'Odet",
+        body: "Bénodet, à 15 km de Quimper à l'embouchure de l'Odet, est la station balnéaire de référence de la Cornouaille : plage de sable fin de 2 km, casino, thalassothérapie. La croisière sur l'Odet (Vedettes de l'Odet, 2h aller-retour depuis Quimper) remonte le fleuve à travers une vallée boisée — l'un des plus beaux trajets fluviaux de Bretagne. Fouesnant (à 10 km) est réputée pour son cidre et ses crêpes dentelle.",
+      },
+    ],
+    relatedCities: ["quimper"],
+    relatedGuides: [
+      "vivre-en-bretagne-guide-2025",
+      "vivre-en-bretagne-interieure-guide-2026",
+    ],
+    tags: ["10 choses à faire à Quimper", "activités Quimper 2026", "sorties Quimper", "que faire à Quimper", "festival Cornouaille faïences pointe du Raz Bretagne"],
+  },
+  {
+    slug: "10-choses-a-faire-a-dunkerque-2026",
+    title: "10 choses à faire à Dunkerque (le carnaval et les plages de la mer du Nord)",
+    metaTitle: "10 choses à faire à Dunkerque 2026 — activités et sorties locales",
+    metaDesc: "Carnaval de Dunkerque, plage de Malo-les-Bains, Beffroi et mémorial de Dunkerque : 10 activités pour découvrir la cité flamande de la Côte d'Opale.",
+    category: "tourisme",
+    emoji: "🎭",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Dunkerque est la troisième ville portuaire de France (80 000 habitants), réputée pour son carnaval hors-norme (120 000 participants sur 3 semaines en hiver) et son rôle dans l'Opération Dynamo de mai 1940. La ville reconstruite après 1945 n'a rien de pittoresque — mais ses plages de sable, son musée d'art contemporain et son musée portuaire en font une escale authentique loin des circuits touristiques classiques.",
+    sections: [
+      {
+        heading: "1. Carnaval de Dunkerque — la fête la plus folle du Nord",
+        body: "Le carnaval de Dunkerque (3 semaines en janvier-mars, depuis le XVIIe siècle) est le plus grand carnaval de France hors Nice : 120 000 participants sur les trois bandes (Dunkerque, Malo, Rosendaël). Tradition unique : le jet de harengs depuis le balcon de l'hôtel de ville (50 000 harengs fumés lancés dans la foule) et le « rigodon » (danse en ligne endiablée). Tenues obligatoires : déguisement complet.",
+      },
+      {
+        heading: "2. Plage de Malo-les-Bains — le sable blanc de la mer du Nord",
+        body: "La plage de Malo-les-Bains (3 km de sable fin blanc) est la plus grande plage de la mer du Nord en France et l'une des plus belles du nord de l'Europe. Le front de mer Belle Époque (villas du XIXe siècle partiellement conservées côté avenue Faidherbe) donne son caractère à la station. En été : chars à voile, cerf-volants, kitesurf dans les vents dominants de nord-ouest.",
+      },
+      {
+        heading: "3. Musée de Dunkerque — l'évacuation de 1940",
+        body: "Le mémorial du Souvenir (Place du Minck) et le musée de Dunkerque retracent l'Opération Dynamo de mai-juin 1940 : l'évacuation de 338 000 soldats alliés vers l'Angleterre en 9 jours, rendue possible par la « flottille de Dunkerque » (860 navires civils et militaires). Les épaves de la bataille de Dunkerque sont encore visibles sur la plage à marée basse après les grandes tempêtes d'hiver.",
+      },
+      {
+        heading: "4. Musée d'Art Contemporain de Dunkerque (LAAC)",
+        body: "Le LAAC (Lieu d'Art et Action Contemporaine) est l'un des musées d'art contemporain les plus importants de France hors Paris : 4 000 œuvres couvrant 1945-1980, avec une collection exceptionnelle CoBrA (Appel, Corneille, Jorn) et Fluxus. Le bâtiment (1982, architecture brutaliste) et son parc de sculptures (entrée libre) en font un lieu atypique. Le FRAC Grand Large (architecture navale contemporaine) complète l'offre culturelle.",
+      },
+      {
+        heading: "5. Le port de Dunkerque — le troisième port industriel de France",
+        body: "Le grand port maritime de Dunkerque (troisième de France) propose des croisières portuaires (Dunkerque Tourisme, 1h30) pour voir les terminaux méthaniers, les quais de chargement automobile (200 000 voitures par an) et les jetées est et ouest. La jetée est (phare de Dunkerque, 5 km de long) est accessible en voiture et à pied avec vue sur les fermes éoliennes offshore de la mer du Nord.",
+      },
+      {
+        heading: "6. Berges de l'Aa — canal de la Basse Colme",
+        body: "L'arrière-pays de Dunkerque (Plaine de la Flandre) est un paysage de polders aménagés sous le niveau de la mer, drainés par un réseau de canaux (watergangs). La voie verte du canal de la Basse Colme (25 km de Watten à Bergues) est un itinéraire cyclable plat traversant Bergues (cité fortifiée de Vauban) et Gravelines (plus petite cité fortifiée de Vauban intacte en France).",
+      },
+      {
+        heading: "7. Bergues — la ville de Bienvenue chez les Ch'tis",
+        body: "Bergues, à 10 km de Dunkerque, est la ville du film Bienvenue chez les Ch'tis (2008, 20 millions de spectateurs) : son beffroi (55 m, XIXe siècle), ses remparts de Vauban et sa Grand-Place sont directement reconnaissables dans le film. La bière de l'abbaye de Saint-Winoc (brassée dans l'enceinte des remparts), le maroilles et le fromage Bergues (fromage à pâte molle lavée) sont les produits locaux.",
+      },
+      {
+        heading: "8. Cap Gris-Nez et falaises de la Côte d'Opale",
+        body: "Le cap Gris-Nez (à 60 km de Dunkerque), point de France le plus proche de l'Angleterre (28 km), est un cap de craie noire dominant la Manche de 45 m. Par temps clair : les falaises blanches de Douvres sont visibles à l'œil nu. L'Eurotunnel passe à 40 m de profondeur à cet endroit. Les falaises de la Côte d'Opale (cap Gris-Nez / cap Blanc-Nez) sont classées Grand Site de France.",
+      },
+      {
+        heading: "9. Gravelines — la citadelle de Vauban la plus intacte",
+        body: "Gravelines (à 25 km de Dunkerque) est la plus petite cité fortifiée de Vauban en France et la mieux conservée : la citadelle hexagonale de 1559-1583 (antérieure à Vauban, qui l'a réaménagée) est entièrement intacte avec ses bastions, demi-lunes et fossés en eau. Le musée du dessin et de l'estampe originale (dans l'arsenal de la citadelle, XVIIe siècle) est l'un des plus importants de France.",
+      },
+      {
+        heading: "10. La bière et les estaminets flamands",
+        body: "L'estaminet est le café-restaurant traditionnel des Flandres : décor de bois sombre, houblon séché au plafond, bière pression locale et plats flamands (waterzooi de poisson, carbonnade flamande, potjevleesch, lapin à la bière). Les estaminets de Cassel, Hazebrouck et Bailleul (à 40 km de Dunkerque dans les Monts de Flandre) sont les plus authentiques. La bière de garde du Nord (Trois Monts, Jenlain, Grain d'Orge) est la bière locale.",
+      },
+    ],
+    relatedCities: ["dunkerque"],
+    relatedGuides: [
+      "cote-opale-nord-pas-de-calais-vivre-guide-2025",
+    ],
+    tags: ["10 choses à faire à Dunkerque", "activités Dunkerque 2026", "sorties Dunkerque", "que faire à Dunkerque", "carnaval Dunkerque plage Malo opération Dynamo"],
+  },
+  {
+    slug: "10-choses-a-faire-a-mulhouse-2026",
+    title: "10 choses à faire à Mulhouse (les musées de l'industrie et l'Alsace du Sud)",
+    metaTitle: "10 choses à faire à Mulhouse 2026 — activités et sorties locales",
+    metaDesc: "Cité de l'Automobile, écomusée d'Alsace, Cité du Train et Sundgau : 10 activités à Mulhouse pour découvrir la capitale alsacienne de l'industrie.",
+    category: "tourisme",
+    emoji: "🚗",
+    readMinutes: 6,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Mulhouse est la capitale industrielle de l'Alsace du Sud, 110 000 habitants dans une ville qui a été la première à s'industrialiser en France continentale (XIXe siècle, textile et chimie). Son héritage industriel exceptionnel est devenu son principal attrait touristique : la Cité de l'Automobile (la plus grande collection de voitures au monde), la Cité du Train et l'Écomusée d'Alsace en font une capitale muséale unique.",
+    sections: [
+      {
+        heading: "1. Cité de l'Automobile — la plus grande collection de voitures du monde",
+        body: "La Cité de l'Automobile (collection Schlumpf) réunit 428 automobiles dont 122 Bugatti — la collection Bugatti la plus grande du monde. Les frères Schlumpf ont rassemblé cette collection secrètement de 1957 à 1977, dans leur usine textile, avant que les ouvriers en grève ne la découvrent et ne l'occupent. Bugatti Royale (6 exemplaires seulement construits), Bugatti Type 35 de course, McLaren F1 — 3h de visite minimum.",
+      },
+      {
+        heading: "2. Cité du Train — le plus grand musée ferroviaire d'Europe",
+        body: "La Cité du Train (ancienne gare de triage SNCF, 14 000 m²) est le plus grand musée ferroviaire d'Europe : 50 locomotives à vapeur dont les Pacific 231 et la crémaillère du Rigi, 30 wagons de prestige (wagon présidentiel de De Gaulle, Orient-Express de 1926), matériel roulant du XIXe siècle à la grande vitesse. La locomotive Mountain 241 A 65 (la plus puissante de France) est le pièce maîtresse.",
+      },
+      {
+        heading: "3. Écomusée d'Alsace — le plus grand musée en plein air de France",
+        body: "L'Écomusée d'Alsace (à 15 km de Mulhouse, à Ungersheim) regroupe 70 maisons à colombages alsaciennes transplanté d'autres villages et reconstituées sur 15 ha. Artisans en costume (potier, tonnelier, forgeron, boulanger au feu de bois) démontrent les métiers traditionnels. Animaux de basse-cour alsaciens, jardin médiéval, reconstitution d'une foire de 1900. L'un des musées les plus visités d'Alsace.",
+      },
+      {
+        heading: "4. Le Temple Saint-Étienne et la place de la Réunion",
+        body: "La place de la Réunion est le cœur historique de Mulhouse avec l'Hôtel de Ville alsacien (1552, façade peinte en trompe-l'œil) et le Temple Saint-Étienne (ancienne cathédrale catholique, devenue temple protestant en 1529). Les vitraux du XIVe siècle du Temple sont les plus anciens d'Alsace — transférés de l'église démolie, remplacés par des copies. Mulhouse est le berceau du protestantisme alsacien.",
+      },
+      {
+        heading: "5. Le Sundgau — l'Alsace secrète des étangs",
+        body: "Le Sundgau (pays du Sud, entre Mulhouse et la frontière suisse) est la région la plus méconnue d'Alsace : collines, étangs de carpes, villages à colombages et la Largue (petite rivière à truites). Altkirch, Ferrette (ruines du comté médiéval), Oltingue (musée paysan du Sundgau) sont les étapes. La carpe frite du Sundgau (carpe élevée en étang, frite en plein air le samedi) est la spécialité gastronomique absolue.",
+      },
+      {
+        heading: "6. Musée Électropolis — l'électricité dans l'histoire",
+        body: "Électropolis est le seul musée européen dédié exclusivement à l'électricité et à la machine électrique : 2 000 objets de la dynamo de Gramme (1869) aux réseaux intelligents d'aujourd'hui. Le patrimoine industriel de Mulhouse (capitaux alsaciens, ingénieurs protestants) a joué un rôle fondateur dans l'électrification de l'Europe. Collections uniques de générateurs, moteurs et appareils électroménagers des origines.",
+      },
+      {
+        heading: "7. Bâle — la métropole culturelle à 30 km",
+        body: "Bâle (Suisse) est à 30 min de Mulhouse (tramway transfrontalier T3 direct depuis le centre-ville). Art Basel (juin) est la plus grande foire d'art contemporain du monde. Les musées bâlois (Kunstmuseum, Fondation Beyeler, Museum Tinguely) forment l'une des plus denses concentrations muséales d'Europe. Le Rhin à Bâle est navigable à la nage avec l'équipement ad hoc (Wickelfisch, sac étanche en forme de poisson).",
+      },
+      {
+        heading: "8. Colmar et la route des vins depuis Mulhouse",
+        body: "Colmar, à 25 km de Mulhouse, est la capitale viticole alsacienne. La route des vins d'Alsace longe le piémont vosgien entre Mulhouse et Marlenheim — Eguisheim (classé plus beau village, entouré de ses trois châteaux forts), Riquewihr, Ribeauvillé. Les AOC Alsace grands crus (Rangen de Thann à 10 km de Mulhouse, le grand cru le plus méridional d'Alsace) sont accessibles en VTT depuis Mulhouse.",
+      },
+      {
+        heading: "9. Foire aux vins de Colmar et festivals alsaciens",
+        body: "La Foire Aux Vins de Colmar (10 jours en août, depuis 1948) est le plus grand festival viticole de France : 200 exposants, 200 000 visiteurs, concerts de nuit. Le marché de Noël de Colmar (décembre, l'un des cinq plus fréquentés d'Europe) est à 25 min de Mulhouse. La Fête de la Bière de Mulhouse (Zwick'l Bier Festival, septembre) se tient place de la Réunion avec les brasseries alsaciennes et rhénanes.",
+      },
+      {
+        heading: "10. Les Trois Frontières — France, Allemagne, Suisse",
+        body: "Le Dreiländereck (Trois Pays, à 5 km de Mulhouse à Huningue) est le point de convergence des frontières française, allemande et suisse, marqué par un obélisque dans le Rhin. La promenade en bateau sur le Rhin entre Mulhouse, Kembs et Bâle passe devant les premières écluses du Grand Canal d'Alsace. Freiburg-im-Breisgau (Allemagne, à 50 km) complète le triangle transfrontalier.",
+      },
+    ],
+    relatedCities: ["mulhouse"],
+    relatedGuides: [
+      "quitter-mulhouse-guide-2026",
+      "acheter-a-mulhouse-quel-quartier-budget-2026",
+      "vivre-en-alsace-strasbourg-colmar-mulhouse-2025",
+    ],
+    tags: ["10 choses à faire à Mulhouse", "activités Mulhouse 2026", "sorties Mulhouse", "que faire à Mulhouse", "Cité Automobile Bugatti Cité Train Écomusée Alsace"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
