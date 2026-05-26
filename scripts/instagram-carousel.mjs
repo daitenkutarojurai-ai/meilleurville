@@ -738,8 +738,17 @@ async function uploadBufferToCDN(buffer) {
 }
 
 // ─── Text overlay on slide image ──────────────────────────────────────────────
-// Full-image card: dark overlay covers the whole image, text is vertically centred.
+// Magazine-style: 1080×1080 square crop, vignette gradient, big outlined heading,
+// golden subheading, brand bar at bottom.
 // text: { heading, subheading?, body?: string[], accent?: string }
+
+const IG_W = 1080;  // Instagram square — fixes "image doesn't fit" across all slides
+const IG_H = 1080;
+
+// Fonts available on this server (librsvg renders them)
+const FONT_HEAD = "'Nimbus Sans Narrow', 'Liberation Sans Narrow', 'DejaVu Sans', sans-serif";
+const FONT_BODY = "'Nimbus Sans', 'Liberation Sans', 'DejaVu Sans', sans-serif";
+
 function xmlEsc(str) {
   return String(str)
     .replace(/&/g, "&amp;")
@@ -748,7 +757,6 @@ function xmlEsc(str) {
     .replace(/"/g, "&quot;");
 }
 
-// Wrap a string into lines of at most `maxChars` chars.
 function wrapText(str, maxChars) {
   const words = str.split(" ");
   const lines = [];
@@ -768,103 +776,113 @@ function wrapText(str, maxChars) {
 
 async function applyTextOverlay(inputPath, text) {
   const { heading, subheading, body = [], accent } = text;
-  const meta = await sharp(inputPath).metadata();
-  const W = meta.width;   // 1408
-  const H = meta.height;  // 768
-  const PAD = 72;
-  const FONT = "Ubuntu, DejaVu Sans, sans-serif";
 
-  // Wrap text to fit within usable width
-  const headingLines = wrapText(heading, 22);
-  const subLines     = subheading ? wrapText(subheading, 34) : [];
+  // Resize to Instagram square (1080×1080), center-crop so nothing is letterboxed
+  const imgBuf = await sharp(inputPath)
+    .resize(IG_W, IG_H, { fit: "cover", position: "centre" })
+    .png()
+    .toBuffer();
 
-  // Measure total text height to centre vertically
-  const ACCENT_H   = accent ? 52 : 0;
-  const HEAD_SIZE  = 88;
-  const HEAD_LINE  = 100;
-  const SUB_SIZE   = 46;
-  const SUB_LINE   = 56;
-  const BODY_SIZE  = 40;
-  const BODY_LINE  = 52;
-  const BRAND_H    = 44;   // brand line at bottom
-  const GAP        = 24;
+  const W = IG_W, H = IG_H;
+  const PAD = 64;
+  const BRAND_BAR = 72;  // solid dark bar at bottom
+
+  // Text sizing — condensed heading at 152px is the hero element
+  const HEAD_SIZE = 152;
+  const HEAD_LINE = 168;
+  const SUB_SIZE  = 76;
+  const SUB_LINE  = 90;
+  const BODY_SIZE = 56;
+  const BODY_LINE = 70;
+  const GAP       = 28;
+  const ACCENT_H  = accent ? 60 : 0;
+
+  // Narrower wrap since Nimbus Narrow is condensed; adjust for long subheadings
+  const headingLines = wrapText(heading,    14);
+  const subLines     = subheading ? wrapText(subheading, 22) : [];
 
   const totalTextH =
     ACCENT_H +
     (accent ? GAP : 0) +
     headingLines.length * HEAD_LINE +
     (subLines.length ? GAP + subLines.length * SUB_LINE : 0) +
-    (body.length      ? GAP + body.length * BODY_LINE  : 0);
+    (body.length     ? GAP + 6 + body.length * BODY_LINE : 0);
 
-  // Start Y so block is vertically centred (leaving room for brand at bottom)
-  let y = Math.max(PAD + ACCENT_H + 10, Math.round((H - totalTextH) / 2));
+  // Centre block vertically in the area above the brand bar
+  const usableH = H - BRAND_BAR;
+  let y = Math.max(PAD + ACCENT_H + 10, Math.round((usableH - totalTextH) / 2));
 
   const els = [];
 
-  // Accent pill
+  // Accent pill (series tag)
   if (accent) {
-    const pillW = accent.length * 15 + 36;
+    const pillW = accent.length * 22 + 44;
     els.push(`
-      <rect x="${PAD}" y="${y}" width="${pillW}" height="40" rx="8"
-            fill="#A855F7"/>
-      <text x="${PAD + 18}" y="${y + 28}" font-family="${FONT}" font-size="24"
-            font-weight="700" fill="white" letter-spacing="1">${xmlEsc(accent)}</text>`);
-    y += 40 + GAP;
+      <rect x="${PAD}" y="${y}" width="${pillW}" height="52" rx="10" fill="#F97316"/>
+      <text x="${PAD + 22}" y="${y + 37}" font-family="${FONT_BODY}" font-size="28"
+            font-weight="700" fill="white" letter-spacing="2">${xmlEsc(accent)}</text>`);
+    y += 52 + GAP;
   }
 
-  // Heading
+  // Heading — white text with heavy black stroke for readability on any photo
   for (const line of headingLines) {
     els.push(`
-      <text x="${PAD}" y="${y + HEAD_SIZE}" font-family="${FONT}" font-size="${HEAD_SIZE}"
-            font-weight="700" fill="white" filter="url(#sh)">${xmlEsc(line)}</text>`);
+      <text x="${PAD}" y="${y + HEAD_SIZE}" font-family="${FONT_HEAD}" font-size="${HEAD_SIZE}"
+            font-weight="700" fill="white"
+            stroke="black" stroke-width="10" paint-order="stroke fill"
+            letter-spacing="1">${xmlEsc(line)}</text>`);
     y += HEAD_LINE;
   }
 
-  // Subheading
+  // Golden subheading
   if (subLines.length) {
     y += GAP;
     for (const line of subLines) {
       els.push(`
-        <text x="${PAD}" y="${y + SUB_SIZE}" font-family="${FONT}" font-size="${SUB_SIZE}"
-              font-weight="400" fill="#e2e8f0">${xmlEsc(line)}</text>`);
+        <text x="${PAD}" y="${y + SUB_SIZE}" font-family="${FONT_HEAD}" font-size="${SUB_SIZE}"
+              font-weight="700" fill="#FBBF24"
+              stroke="black" stroke-width="6" paint-order="stroke fill">${xmlEsc(line)}</text>`);
       y += SUB_LINE;
     }
   }
 
-  // Divider line
+  // Gold divider + body lines
   if (body.length) {
     y += GAP;
     els.push(`<line x1="${PAD}" y1="${y}" x2="${W - PAD}" y2="${y}"
-                    stroke="#A855F7" stroke-width="2" opacity="0.7"/>`);
-    y += GAP;
-
+                    stroke="#FBBF24" stroke-width="3"/>`);
+    y += GAP + 6;
     for (const line of body) {
       els.push(`
-        <text x="${PAD}" y="${y + BODY_SIZE}" font-family="${FONT}" font-size="${BODY_SIZE}"
-              font-weight="400" fill="#a7f3d0">${xmlEsc(line)}</text>`);
+        <text x="${PAD}" y="${y + BODY_SIZE}" font-family="${FONT_BODY}" font-size="${BODY_SIZE}"
+              font-weight="700" fill="white"
+              stroke="black" stroke-width="5" paint-order="stroke fill">${xmlEsc(line)}</text>`);
       y += BODY_LINE;
     }
   }
 
-  // Brand watermark — always bottom-right
+  // Brand bar at bottom
   els.push(`
-    <text x="${W - PAD}" y="${H - 28}" font-family="${FONT}" font-size="28"
-          font-weight="400" fill="white" opacity="0.55"
-          text-anchor="end">mavilleideale.fr</text>`);
+    <rect x="0" y="${H - BRAND_BAR}" width="${W}" height="${BRAND_BAR}" fill="black" opacity="0.82"/>
+    <text x="${W / 2}" y="${H - 20}" font-family="${FONT_BODY}" font-size="32"
+          font-weight="700" fill="white" opacity="0.85"
+          text-anchor="middle" letter-spacing="3">MAVILLEIDEALE.FR</text>`);
 
+  // Vignette gradient — darker at edges, lets photo show in centre
   const svg = `<svg width="${W}" height="${H}" xmlns="http://www.w3.org/2000/svg">
     <defs>
-      <filter id="sh">
-        <feDropShadow dx="0" dy="2" stdDeviation="4"
-                      flood-color="black" flood-opacity="0.8"/>
-      </filter>
+      <linearGradient id="vg" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%"   stop-color="black" stop-opacity="0.80"/>
+        <stop offset="30%"  stop-color="black" stop-opacity="0.42"/>
+        <stop offset="70%"  stop-color="black" stop-opacity="0.42"/>
+        <stop offset="100%" stop-color="black" stop-opacity="0.80"/>
+      </linearGradient>
     </defs>
-    <!-- Full-image dark overlay -->
-    <rect x="0" y="0" width="${W}" height="${H}" fill="black" opacity="0.62"/>
+    <rect x="0" y="0" width="${W}" height="${H}" fill="url(#vg)"/>
     ${els.join("\n")}
   </svg>`;
 
-  return sharp(inputPath)
+  return sharp(imgBuf)
     .composite([{ input: Buffer.from(svg), blend: "over" }])
     .png()
     .toBuffer();
@@ -1092,7 +1110,12 @@ if (args.includes("--slides")) {
         composited.push(buf);
         console.log("✅");
       } else {
-        composited.push(readFileSync(files[i]));
+        // No text but still resize to 1080×1080 for consistent carousel sizing
+        const buf = await sharp(files[i])
+          .resize(IG_W, IG_H, { fit: "cover", position: "centre" })
+          .png()
+          .toBuffer();
+        composited.push(buf);
       }
     }
   }
@@ -1109,9 +1132,7 @@ if (args.includes("--slides")) {
     cdnUrls = [];
     for (let i = 0; i < files.length; i++) {
       process.stdout.write(`  File ${i + 1}/${files.length}... `);
-      const url = noText
-        ? await uploadFileToCDN(files[i])
-        : await uploadBufferToCDN(composited[i]);
+      const url = await uploadBufferToCDN(composited[i]);
       console.log("✅");
       cdnUrls.push(url);
     }
