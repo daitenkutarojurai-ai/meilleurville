@@ -20302,6 +20302,252 @@ export const GUIDES: Guide[] = [
     tags: ["acheter à Perpignan 2026", "immobilier Perpignan prix quartiers", "primo-accédant Perpignan Pyrénées-Orientales", "investissement locatif Perpignan", "marché immobilier Perpignan Roussillon"],
   },
   {
+    slug: "acheter-a-aix-en-provence-quel-quartier-budget-2026",
+    title: "Acheter à Aix-en-Provence en 2026 : quel quartier et quel budget ?",
+    metaTitle: "Acheter à Aix-en-Provence 2026 — prix m², quartiers, ce qu'on ne vous dit pas",
+    metaDesc: "Guide immobilier Aix-en-Provence 2026 : prix m² par quartier (Mazarin, Cours Mirabeau, Jas de Bouffan, périphérie), dynamique du marché, et les pièges à éviter dans cette ville chère et sous tension.",
+    category: "budget",
+    emoji: "🌿",
+    readMinutes: 10,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Aix-en-Provence est l'une des villes les plus chères de France hors Paris et Côte d'Azur : les prix tournent autour de 4 500–6 000 €/m² en plein centre, avec des pics à 8 000 €/m² pour les hôtels particuliers du quartier Mazarin. Cette cherté s'explique par une demande soutenue (retraités aisés, familles lyonnaises ou parisiennes qui « descendent au soleil », investisseurs), une offre contrainte (le patrimoine est classé, peu de constructions neuves en centre-ville), et une image de marque solide. Voici ce que le marché ressemble réellement.",
+    sections: [
+      {
+        heading: "Cours Mirabeau et Mazarin : le prestige à son prix",
+        body: "Le Cours Mirabeau et le quartier Mazarin (les hôtels particuliers du 17e–18e siècle au sud du Cours) constituent le haut de marché aixois : 5 500–8 000 €/m² pour un appartement haussmannien ou un pied-à-terre dans un hôtel particulier. Ces prix ne baissent pas, parce que la demande est nationale (Parisiens, Lyonnais, retraités du secteur privé) et que l'offre est figée par les ABF (Architectes des Bâtiments de France). À ce prix, l'acheteur obtient le charme du vieux Aix, des volumes (plafonds hauts, moulures), et le cachet Provençal. La contrepartie : les charges de copropriété dans ces immeubles anciens sont souvent élevées, et la rénovation énergétique y est contrainte et coûteuse.",
+      },
+      {
+        heading: "Quartier Sextius-Mirabeau et Encagnane : le virage urbain",
+        body: "À l'ouest du centre, Sextius-Mirabeau (requalification autour de la médiathèque et du Pavillon Noir) propose du neuf et du réhabilité à 4 000–5 500 €/m². Encagnane, quartier populaire reconverti, descend à 2 800–3 500 €/m² pour des appartements des années 1960–70, avec le profil d'un marché de primo-accédants plutôt que d'investisseurs de prestige. Ces prix permettent d'être dans Aix sans le budget Mazarin — mais les volumes sont modestes et les DPE souvent médiocres (isolation à refaire).",
+      },
+      {
+        heading: "Jas de Bouffan et les quartiers résidentiels ouest",
+        body: "Jas de Bouffan (le quartier où Cézanne peignait) est une valeur sûre résidentielle : maisons et villas avec jardin ou piscine, 4 500–6 500 €/m² pour les biens les plus soignés. Les quartiers périphériques ouest (Luynes, Bouc-Bel-Air, Gardanne — techniquement hors Aix) descendent à 3 000–4 200 €/m² pour des maisons avec terrain. Ces communes permettent d'accéder au bassin d'emploi aixois et marseillais à un prix 20–30 % inférieur à Aix intra-muros. La contrepartie : voiture indispensable et distances plus longues.",
+      },
+      {
+        heading: "La Route Cézanne et les collines : le luxe périurbain",
+        body: "La Route Cézanne (RD17, vers Le Tholonet et la Montagne Sainte-Victoire) est l'une des adresses les plus prisées du bassin : bastides et propriétés entre 1 et 4 millions d'euros, peu liquides à la revente mais très demandées. Ce marché est celui des grandes fortunes et des retraités très aisés — peu pertinent pour un primo-accédant, mais intéressant à mentionner comme référence du haut de marché.",
+      },
+      {
+        heading: "Ce que le marché cache",
+        body: "Plusieurs réalités sont peu discutées dans les annonces : (1) la taxe foncière à Aix est parmi les plus élevées de PACA — compter 1 500–2 500 €/an pour un T3, davantage pour une maison. (2) Les périodes de chaleur : Aix est dans une cuvette, et les canicules de 2022–2024 ont montré que le marché aixois n'est pas exempt de chaleur extrême — chercher l'orientation nord ou un rez-de-jardin avec ombre. (3) Le marché des parkings est catastrophique en centre-ville — un box en sous-sol peut se négocier 25 000–40 000 €, à ajouter au budget total si vous avez une voiture.",
+      },
+    ],
+    relatedCities: ["aix-en-provence", "marseille", "avignon", "toulon"],
+    relatedGuides: [
+      "aix-en-provence-vs-marseille-comparatif-2026",
+      "acheter-immobilier-france-meilleures-villes-2025",
+      "acheter-a-marseille-quel-arrondissement-budget-2026",
+    ],
+    tags: ["acheter à Aix-en-Provence 2026", "immobilier Aix prix quartiers", "marché immobilier Aix-en-Provence", "Mazarin Cours Mirabeau prix m²", "investissement Aix-en-Provence 2026"],
+  },
+  {
+    slug: "acheter-a-saint-etienne-quel-quartier-budget-2026",
+    title: "Acheter à Saint-Étienne en 2026 : quel quartier et quel budget ?",
+    metaTitle: "Acheter à Saint-Étienne 2026 — prix m² imbattables, quartiers, réalité du marché",
+    metaDesc: "Immobilier Saint-Étienne 2026 : T2 à 50 000 €, maisons à 80 000 € — les prix les plus bas de France pour une ville de 170 000 habitants. Mais faut-il y aller ? Le guide honnête.",
+    category: "budget",
+    emoji: "⚙️",
+    readMinutes: 9,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Saint-Étienne est probablement la grande ville française la moins chère à l'achat : des T2 se négocient à 40 000–60 000 €, des T3 à 70 000–100 000 €, des maisons avec jardin à 80 000–150 000 €. Ces prix reflètent une réalité économique sombre (la désindustrialisation post-sidérurgie a été brutale), mais aussi une ville qui se transforme — le musée d'art moderne MAMC, l'École de Design, le Zénith, la nouvelle ligne de tram — et qui attire des investisseurs qui parient sur la mutation. Voici ce que ces prix signifient vraiment.",
+    sections: [
+      {
+        heading: "Centre-ville et Secteur Sauvegardé : la rénovation en cours",
+        body: "Le centre-ville de Saint-Étienne a subi plusieurs décennies de vacance commerciale et de dégradation du bâti. La requalification en cours (Secteur Sauvegardé, opérations ANRU) génère des biens à 700–1 200 €/m² pour des appartements anciens à rénover — des prix qui n'existent plus dans aucune autre ville française de cette taille. L'acheteur avertit trouve des appartements haussmanniens avec moulures et parquet pour 40 000–70 000 €, dans des immeubles en copropriété dont l'état général est variable. Due diligence obligatoire : état de la copropriété (les mauvaises gèrent mal les parties communes et accumulent des dettes), PV des dernières AG, et réalisme sur les travaux.",
+      },
+      {
+        heading: "Bellevue, Tarentaize, Beaubrun : les quartiers montants",
+        body: "Bellevue (plateau au nord-ouest du centre) et Tarentaize attirent les jeunes acheteurs et les investisseurs locatifs : prix 900–1 500 €/m², typologies T2–T3 des années 1950–70. Ces quartiers sont proches des facultés (Université Jean-Monnet) et bénéficient de la ligne de tram B. Rendements bruts potentiels : 8–10 %, ce qui explique l'intérêt des investisseurs purement financiers. Attention : la vacance locative existe — le bassin d'emploi stéphanois reste tendu et certains locataires préfèrent Lyon (45 min par A47) à Saint-Étienne pour la recherche d'emploi.",
+      },
+      {
+        heading: "Montreynaud, Méons, Vallée de l'Ondaine : prudence",
+        body: "Certains quartiers périphériques (Montreynaud au nord, Méons à l'est) concentrent les difficultés sociales de la ville et des taux de vacance locative élevés. Les prix y sont inférieurs à 600 €/m², ce qui semble une aubaine — mais le risque locatif est réel et la revente difficile. L'Ondaine (Firminy, Rive-de-Gier, Saint-Chamond) propose des maisons à 60 000–120 000 € avec jardin et est une alternative parfois meilleure que Saint-Étienne intra-muros pour les familles avec budget serré.",
+      },
+      {
+        heading: "Saint-Étienne vs Lyon : le calcul",
+        body: "Lyon est à 45 minutes de Saint-Étienne par l'A47 ou le train (30 min sur le TER express, 13 €/trajet). Ce lien crée une population de navetteurs qui vivent à Saint-Étienne et travaillent à Lyon — payant 30 000–60 000 € par an moins cher pour se loger. Le calcul tient si le trajet quotidien est supporté ; il tient moins bien si le poste est à Lyon Part-Dieu et que le navetteur rentre tard. L'enjeu est aussi psychologique : Saint-Étienne a une image négative dans certains milieux, et certains employeurs font la remarque à l'embauche. Cette réalité s'estompe progressivement mais reste présente.",
+      },
+      {
+        heading: "Le pari sur la mutation : vaut-il d'être fait ?",
+        body: "Saint-Étienne a connu une vague d'investisseurs parisiens et lyonnais depuis 2018, attirés par les rendements bruts à deux chiffres et un pari sur la gentrification. Ce pari est partiellement en train de se réaliser — la Cité du Design, l'attractivité du musée MAMC, le renouveau du centre commercial Mon Grand Plan, la Manufacture Plaine Achille — mais le processus est lent et non linéaire. Les acheteurs qui ont acheté dans le secteur sauvegardé il y a 5 ans ont souvent stagné ou modestement progressé en valeur. Saint-Étienne reste un pari sur 10–15 ans, pas un investissement à court terme.",
+      },
+    ],
+    relatedCities: ["saint-etienne", "lyon", "clermont-ferrand", "grenoble"],
+    relatedGuides: [
+      "quitter-saint-etienne-guide-2026",
+      "acheter-immobilier-france-meilleures-villes-2025",
+      "acheter-moins-200000-euros-france-2026",
+    ],
+    tags: ["acheter à Saint-Étienne 2026", "immobilier Saint-Étienne prix", "investissement locatif Saint-Étienne", "primo-accédant Saint-Étienne budget", "marché immobilier Loire 2026"],
+  },
+  {
+    slug: "acheter-a-le-havre-quel-quartier-budget-2026",
+    title: "Acheter au Havre en 2026 : quel quartier et quel budget ?",
+    metaTitle: "Acheter au Havre 2026 — prix m², quartiers Perret, Saint-François, périphérie",
+    metaDesc: "Immobilier Le Havre 2026 : patrimoine Perret classé UNESCO, front de mer, accès ferroviaire Paris en 2h. Prix m² par quartier, dynamique du marché normand, ce qu'il faut savoir avant d'acheter.",
+    category: "budget",
+    emoji: "🚢",
+    readMinutes: 9,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Le Havre est la ville UNESCO dont personne ne parle : l'architecture d'Auguste Perret (reconstruction d'après-guerre, classée depuis 2005) est unique en France, le front de mer est spectaculaire, et le marché immobilier reste accessible — 1 500 à 2 500 €/m² selon les quartiers — malgré la proximité de Paris (2h par Intercités). Pour les acheteurs qui veulent la mer, la Normandie, et un budget raisonnable, Le Havre mérite une visite sérieuse.",
+    sections: [
+      {
+        heading: "Centre Perret et Saint-François : le patrimoine à prix raisonnable",
+        body: "Le centre reconstruit par Perret (classé UNESCO) est l'identité visuelle de la ville : les immeubles en béton modulaire des années 1950–60, les appartements avec séjour-salle à manger ouvrant sur des cours intérieures lumineuses, les rues orthogonales jusqu'à la mer. Prix : 1 800–2 800 €/m² selon l'étage et l'orientation. Le quartier Saint-François (autour du Bassin du Commerce et du port de plaisance) propose des prix comparables avec des caractéristiques différentes : anciens entrepôts réhabilités, lofts et rez-de-chaussée. Les DPE dans le patrimoine Perret sont souvent mauvais (F ou G) — prévoir le budget isolation.",
+      },
+      {
+        heading: "Sainte-Marie et Côte Sainte-Adresse : le résidentiel en hauteur",
+        body: "Côte Sainte-Adresse (la falaise au nord, au-dessus du port) est l'adresse la plus chère du Havre : villas et maisons avec vue mer, 2 500–4 500 €/m², marché très demandé. Sainte-Marie (versant de la falaise sud) est le quartier résidentiel pavillonnaire prisé par les familles : maisons normandes à 1 800–2 800 €/m², bonnes écoles. Ces secteurs correspondent à ceux qui veulent Le Havre comme résidence principale avec qualité de vie optimale.",
+      },
+      {
+        heading: "Rond-Point, Bléville, Caucriauville : les quartiers populaires",
+        body: "Bléville et Caucriauville (nord-est de la ville) sont les quartiers avec les prix les plus bas (1 000–1 500 €/m²) et un tissu social plus fragile. Ces quartiers font l'objet de programmes ANRU mais présentent les mêmes risques que les quartiers similaires dans les grandes villes industrielles : vacance locative, revente difficile. À distinguer du Rond-Point (entre le centre Perret et la gare) qui offre des appartements corrects à 1 400–1 900 €/m² sans les risques des quartiers précédents.",
+      },
+      {
+        heading: "La Normandie autour : Honfleur, Étretat, Fécamp",
+        body: "L'un des atouts du Havre est géographique : Honfleur est à 20 minutes par le pont de Normandie (depuis 1995), Étretat à 25 minutes. Ces communes touristiques sont beaucoup plus chères (Honfleur : 3 500–6 000 €/m² pour les appartements, 5 000–8 000 €/m² pour les maisons de caractère). Certains acheteurs utilisent Le Havre comme base et font de Honfleur un week-end régulier plutôt qu'une résidence principale — un calcul qui a un sens immobilier évident.",
+      },
+      {
+        heading: "Ce que le marché havrais ne dit pas",
+        body: "Trois points peu mis en avant dans les annonces : (1) La pollution industrielle du port est une réalité historique — certains quartiers proches des zones industrielles (Port 2000, raffinerie de Normandie) ont des sols contaminés ; vérifier les servitudes avant d'acheter. (2) Le Havre a un climat normand : la pluviométrie est élevée (860 mm/an, supérieure à Rouen), les vents fréquents et forts en hiver depuis la mer du Nord. (3) Le TER Paris-Le Havre (2h05-2h30) n'est pas un TGV — la ligne est ancienne et les retards fréquents, ce qui affecte la qualité de vie des navetteurs parisiens.",
+      },
+    ],
+    relatedCities: ["le-havre", "rouen", "caen", "honfleur"],
+    relatedGuides: [
+      "quitter-le-havre-guide-2026",
+      "acheter-immobilier-france-meilleures-villes-2025",
+      "vivre-en-normandie-caen-rouen-guide-2025",
+    ],
+    tags: ["acheter au Havre 2026", "immobilier Le Havre prix quartiers", "Perret UNESCO Havre investissement", "marché immobilier Seine-Maritime 2026", "primo-accédant Le Havre 2026"],
+  },
+  {
+    slug: "acheter-a-orleans-quel-quartier-budget-2026",
+    title: "Acheter à Orléans en 2026 : quel quartier et quel budget ?",
+    metaTitle: "Acheter à Orléans 2026 — prix m², quartiers, Beaugency, Saint-Jean, Argonne",
+    metaDesc: "Immobilier Orléans 2026 : TGV Paris en 1h05, université, marché accessible à 2 000–3 200 €/m². Les quartiers qui montent, ceux à éviter, et le calcul navetteur-Paris.",
+    category: "budget",
+    emoji: "⚔️",
+    readMinutes: 9,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Orléans est la grande ville la plus proche de Paris accessible en train en moins d'une heure (1h05 depuis Paris-Austerlitz) avec un marché immobilier autour de 2 500 €/m² — soit moins de la moitié de Paris. Pour un professionnel parisien qui supporte le trajet quotidien, l'arbitrage est massif. Le marché orléanais est structuré par cette demande navetteur, complétée par un tissu économique local (Orléans Métropole, Cosmétopole, l'hôpital CHR) et une université active.",
+    sections: [
+      {
+        heading: "Centre-ville et vieille ville : charme ligérien et prix modérés",
+        body: "La vieille ville d'Orléans (la cathédrale Sainte-Croix, la Rue Royale, le quartier Saint-Marceau de l'autre côté de la Loire) propose des appartements de caractère à 2 500–3 500 €/m². Les maisons de ville en centre-historique avec jardin atteignent 3 000–4 500 €/m². La demande est soutenue par les navetteurs parisiens et les cadres qui préfèrent la ville à la périphérie. Le centre d'Orléans est agréable et fonctionnel — les grandes surfaces et le commerce de destination sont bien représentés en centre-ville, contrairement à certaines villes équivalentes où la désertion commerciale est avancée.",
+      },
+      {
+        heading: "Argonne et Saint-Marceau : les quartiers résidentiels prisés",
+        body: "Argonne (au nord de la cathédrale) et Saint-Marceau (rive droite, côté Loire) sont les quartiers résidentiels recherchés par les familles : maisons des années 1920–1960 avec jardin, 2 200–3 500 €/m². Ces quartiers ont des bonnes écoles et une vie de quartier réelle. Saint-Jean-de-Braye (commune accolée à l'est) propose des maisons pavillonnaires plus récentes à 2 000–2 800 €/m² et est prisée par les primo-accédants avec enfants.",
+      },
+      {
+        heading: "La Source : le campus universitaire et ses rendements",
+        body: "La Source (quartier universitaire au sud, autour du campus et du parc floral) est le secteur d'investissement locatif par excellence : T1 et T2 à 1 500–2 000 €/m², rendements bruts à 6–9 %. La clientèle locative est estudiantine et médicale (le CHR est contigu). L'attractivité locative dépend du maintien de l'activité universitaire, qui est robuste — Orléans a plus de 25 000 étudiants. Les DPE y sont souvent médiocres (logements des années 1970) — intégrer le coût de rénovation dans l'équation.",
+      },
+      {
+        heading: "La périphérie : Fleury-les-Aubrais, Saran, Ingré",
+        body: "Les communes de la première couronne (Fleury-les-Aubrais au nord, Saran à l'ouest, Ingré, Olivet au sud) proposent des maisons avec jardin à 1 800–2 600 €/m². Olivet (bords du Loiret) est la plus prisée des communes périphériques — un vrai village avec un bourg commerçant et un parc naturel sur les bords du Loiret, à 10 minutes du centre d'Orléans. Ce profil correspond à des familles qui veulent de l'espace et un jardin sans le prix de l'intra-muros.",
+      },
+      {
+        heading: "Le calcul navetteur Paris",
+        body: "L'abonnement mensuel Orléans–Paris coûte environ 330–380 € (Intercités). En ajoutant le coût du logement à Orléans vs Paris, l'économie mensuelle est de l'ordre de 600–1 200 € pour un appartement équivalent — l'abonnement est donc largement amorti. La contrainte réelle est le trajet lui-même : 1h05 minimum, parfois 1h20–1h30 avec les perturbations. Les navetteurs qui passent 2h30 à 3h dans les trains chaque jour s'épuisent en 2–3 ans. L'alternative est le demi-présentiel (2–3 jours/semaine à Paris) qui redevient le modèle dominant post-Covid et rend Orléans nettement plus attractif.",
+      },
+    ],
+    relatedCities: ["orleans", "tours", "blois", "chartres"],
+    relatedGuides: [
+      "centre-val-de-loire-tours-orleans-guide-2025",
+      "acheter-immobilier-france-meilleures-villes-2025",
+      "acheter-moins-200000-euros-france-2026",
+    ],
+    tags: ["acheter à Orléans 2026", "immobilier Orléans prix quartiers", "navetteur Paris Orléans train 2026", "investissement locatif Orléans 2026", "marché immobilier Loiret 2026"],
+  },
+  {
+    slug: "acheter-a-limoges-quel-quartier-budget-2026",
+    title: "Acheter à Limoges en 2026 : quel quartier et quel budget ?",
+    metaTitle: "Acheter à Limoges 2026 — prix m² parmi les plus bas de France, quartiers, réalité",
+    metaDesc: "Immobilier Limoges 2026 : T3 à 100 000–160 000 €, maisons avec jardin à 130 000 €. Les prix les plus bas des grandes villes françaises. Le guide honnête pour acheter à Limoges.",
+    category: "budget",
+    emoji: "🏺",
+    readMinutes: 9,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Limoges est parmi les villes françaises de plus de 130 000 habitants où les prix immobiliers sont les plus bas : 1 100–1 800 €/m² selon les quartiers, soit des T3 à 100 000–160 000 € et des maisons avec jardin à partir de 120 000 €. Ces prix reflètent un marché peu dynamique (la démographie limousine ne croit pas), mais aussi une qualité de vie qui se maintient bien et une ville qui a investi dans son cadre de vie. Pour les primo-accédants à petit budget, les télétravailleurs indépendants du lieu, et les retraités, Limoges mérite une attention sérieuse.",
+    sections: [
+      {
+        heading: "Centre-ville et Cité : le coeur historique abordable",
+        body: "Le centre-ville de Limoges (la Cité historique avec la cathédrale Saint-Étienne, les Halles centrales, les rues piétonnes) propose des appartements à 1 200–1 900 €/m². Les maisons de ville avec jardin en secteur sauvegardé se trouvent à 1 500–2 200 €/m². Le quartier Cité (autour de la cathédrale, sur la colline) est le plus attractif urbanistiquement — mais les immeubles anciens ont souvent des DPE médiocres et des ascenseurs inexistants. Les travaux d'isolation sont à budgéter systématiquement.",
+      },
+      {
+        heading: "Beaubreuil, Landouge, Les Portes Ferrées : résidentiel pavillonnaire",
+        body: "La couronne résidentielle de Limoges (Beaubreuil au nord, Landouge à l'ouest, Les Portes Ferrées) propose des maisons pavillonnaires des années 1960–90 avec jardin à 1 000–1 600 €/m² — soit 130 000–200 000 € pour une maison de 120 m² avec garage. Ces secteurs sont prisés par les jeunes familles et les couples qui veulent de l'espace. La voiture est indispensable (les bus sont peu fréquents en périphérie), mais les écoles sont bien représentées.",
+      },
+      {
+        heading: "L'investissement locatif limousin : les chiffres réels",
+        body: "Le rendement brut à Limoges est parmi les meilleurs des villes universitaires françaises : 7–10 % sur un T1–T2 en centre-ville, avec une demande locative estudiantine (l'Université de Limoges a 15 000 étudiants, plusieurs CHU et écoles d'ingénieurs). La contrepartie : la vacance locative est réelle dans certains quartiers périphériques, et la valeur à la revente progresse lentement. Les investisseurs qui réussissent à Limoges sont ceux qui sélectionnent les biens proches de l'université et du CHU, pas ceux qui achètent au hasard en se fiant au seul rendement brut.",
+      },
+      {
+        heading: "La ruralité limousine autour : la vraie opportunité",
+        body: "Le Limousin rural autour de Limoges est l'un des marchés immobiliers les moins chers de France : maisons de village rénovées à 60 000–100 000 €, fermes à partir de 80 000 € avec 1–3 hectares. Ces opportunités attirent les télétravailleurs qui veulent l'espace, la nature, et le silence à un prix que nulle autre région de France n'offre. La contrepartie : les services de santé sont rares (déserts médicaux existants), les écoles peu nombreuses hors des bourgs, et les commerces éloignés. Limoges elle-même est à 30–60 minutes — la distance hebdomadaire est gérable, le quotidien rural moins.",
+      },
+      {
+        heading: "Ce que Limoges offre vraiment",
+        body: "Limoges n'est pas un coup de foudre urbain. La ville a une image terne, liée à sa désindustrialisation post-porcelaine et au déclin démographique. Mais elle fonctionne bien comme ville à vivre : le CHU est l'un des meilleurs du Massif Central, les équipements sportifs et culturels sont bien dotés par rapport à la taille (musée de la porcelaine, Zénith, un tissu associatif solide). Pour les familles qui ne sont pas sensibles au prestige de l'adresse et cherchent le maximum d'espace et de qualité de vie par euro dépensé, Limoges est difficile à battre en France.",
+      },
+    ],
+    relatedCities: ["limoges", "brive-la-gaillarde", "perigueux", "gueret"],
+    relatedGuides: [
+      "quitter-limoges-guide-2026",
+      "acheter-immobilier-france-meilleures-villes-2025",
+      "acheter-moins-200000-euros-france-2026",
+    ],
+    tags: ["acheter à Limoges 2026", "immobilier Limoges prix quartiers", "investissement locatif Limoges 2026", "primo-accédant Limoges Haute-Vienne", "marché immobilier Limousin 2026"],
+  },
+  {
+    slug: "acheter-a-amiens-quel-quartier-budget-2026",
+    title: "Acheter à Amiens en 2026 : quel quartier et quel budget ?",
+    metaTitle: "Acheter à Amiens 2026 — prix m², quartiers, navetteur Paris, réalité du marché",
+    metaDesc: "Immobilier Amiens 2026 : TGV Paris en 1h05, cathédrale gothique, marché à 1 800–2 800 €/m². Quartiers Saint-Leu, Montplaisir, Saint-Acheul — guide honnête pour acheter dans la Somme.",
+    category: "budget",
+    emoji: "🕌",
+    readMinutes: 9,
+    publishedAt: "2026-05-26",
+    updatedAt: "2026-05-26",
+    intro: "Amiens est à 1h05 de Paris-Nord par TGV — plus rapide que certains RER — avec un marché immobilier à 1 800–2 800 €/m² selon les quartiers. La cathédrale Notre-Dame d'Amiens (la plus grande cathédrale gothique de France en superficie) est à portée à pied, les hortillonnages (les jardins flottants, unique en Europe) traversent la ville, et le coût de la vie est nettement inférieur à la région parisienne. Pour le navetteur parisien qui veut une maison avec jardin, Amiens est l'une des destinations les plus rationnelles de la grande couronne.",
+    sections: [
+      {
+        heading: "Saint-Leu et centre-ville : le charme historique",
+        body: "Le quartier Saint-Leu (le quartier médiéval autour des canaux, au pied de la cathédrale) est l'adresse la plus pittoresque d'Amiens : maisons à colombages, restaurants au bord de l'eau, marché flottant en été. Prix : 2 000–3 000 €/m² pour les appartements, avec une forte proportion de biens atypiques (maisons de pêcheur, anciens entrepôts). Le centre-ville commerçant (Rue des Trois-Cailloux, Place Gambetta) est adjacent : appartements haussmanniens à 1 800–2 600 €/m².",
+      },
+      {
+        heading: "Montplaisir, Saint-Acheul : la bourgeoisie amiénoise",
+        body: "Montplaisir (à l'est du centre, vers le parc de la Hotoie) et Saint-Acheul (au sud-est, autour du Musée de Picardie) sont les quartiers résidentiels historiquement prisés par les cadres locaux : maisons victoriennes en brique rouge des années 1880–1920, jardins, calme. Prix : 1 900–2 800 €/m² pour les maisons de ville, avec des biens qui restent rares à la vente (les propriétaires s'y fixent durablement). C'est ici que les navetteurs parisiens qui veulent la maison avec jardin s'installent prioritairement.",
+      },
+      {
+        heading: "Etouvie, Fafet, Elbeuf : les quartiers à éviter",
+        body: "Amiens a des quartiers prioritaires de la politique de la ville concentrant des difficultés sociales et un bâti dégradé (Etouvie, Fafet). Les prix y sont inférieurs à 900 €/m² — une aubaine apparente qui cache des risques locatifs réels (vacance élevée, dégradations, insécurité) et une revente quasi-impossible à court terme. Ces secteurs sont à exclure pour un investissement sans connaissance locale approfondie.",
+      },
+      {
+        heading: "La périphérie : Longueau, Pont-de-Metz, Camon",
+        body: "La première couronne d'Amiens propose des maisons pavillonnaires des années 1960–2000 à 1 500–2 200 €/m² (Longueau, Pont-de-Metz, Camon, Rivery). Ces communes sont accessibles par bus TURA depuis Amiens et permettent d'avoir une maison avec jardin à 160 000–250 000 € — le format idéal pour les familles navetteurs Paris. La Somme rurale (Saint-Valery-sur-Somme, Baie de Somme) attire les résidences secondaires ou principales de télétravailleurs à des prix encore plus bas (100 000–150 000 € pour une maison de village).",
+      },
+      {
+        heading: "Le calcul navetteur Paris et le marché réel",
+        body: "L'abonnement mensuel TGV Amiens–Paris coûte environ 280–340 € (avec carte d'abonnement TGV Pro). L'économie sur le logement par rapport à la région parisienne est de l'ordre de 600–1 200 €/mois pour un appartement équivalent, davantage pour une maison avec jardin. Le calcul tient clairement — la question est la tolérance au trajet (1h05 par TGV, mais le TGV Amiens–Paris ne circule pas toutes les heures et peut être perturbé). Le marché amiénois a des prix stables depuis 2022 après une hausse de 15–20 % entre 2019 et 2022 : bonne période d'entrée pour les acheteurs qui n'ont pas encore franchi le cap.",
+      },
+    ],
+    relatedCities: ["amiens", "arras", "beauvais", "lille"],
+    relatedGuides: [
+      "quitter-amiens-guide-2026",
+      "acheter-immobilier-france-meilleures-villes-2025",
+      "acheter-moins-200000-euros-france-2026",
+    ],
+    tags: ["acheter à Amiens 2026", "immobilier Amiens prix quartiers", "navetteur Paris Amiens TGV 2026", "investissement locatif Amiens 2026", "marché immobilier Somme Picardie 2026"],
+  },
+  {
     slug: "guide-vivre-seul-france-quelle-ville-2026",
     title: "Vivre seul en France : quelle ville choisir en 2026 ?",
     metaTitle: "Vivre seul France 2026 — meilleures villes pour les célibataires et personnes solo",
