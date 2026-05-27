@@ -31554,6 +31554,598 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["10 choses à faire à Provins", "activités Provins 2026", "sorties Provins", "que faire à Provins", "cité médiévale UNESCO tour César souterrains spectacles Disneyland"],
   },
+  {
+    slug: "10-choses-a-faire-a-lourdes-2026",
+    title: "10 choses à faire à Lourdes (le sanctuaire marial et le pic du Midi)",
+    metaTitle: "10 choses à faire à Lourdes 2026 — activités et sorties locales",
+    metaDesc: "Sanctuaire Notre-Dame, grotte de Massabielle, pic du Midi de Bigorre, cirque de Gavarnie et thermes : 10 activités à Lourdes pour découvrir le sanctuaire pyrénéen.",
+    category: "tourisme",
+    emoji: "⛪",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Lourdes est une commune des Hautes-Pyrénées, 13 000 habitants — le deuxième site catholique le plus visité au monde (après le Vatican) — 6 millions de pèlerins/an. Le sanctuaire marial est né des 18 apparitions de la Vierge à Bernadette Soubirous en 1858 (canonisée en 1933). Hôtels en deuxième densité française après Paris. Au-delà du sanctuaire, Lourdes est aussi la porte d'entrée du Lavedan, des cirques pyrénéens (Gavarnie UNESCO) et du pic du Midi de Bigorre.",
+    sections: [
+      {
+        heading: "1. Le sanctuaire Notre-Dame de Lourdes",
+        body: "Le sanctuaire Notre-Dame de Lourdes (51 ha, créé après les apparitions de 1858) est le cœur spirituel de la cité. Trois basiliques superposées : la crypte (1866), la basilique de l'Immaculée-Conception (1871, néo-gothique, sur le rocher), la basilique du Rosaire (1899, néo-byzantine, mosaïques monumentales). Place du Rosaire pour les rassemblements. Procession aux flambeaux chaque soir à 21h (avril-octobre, plusieurs milliers de pèlerins). Imperdable même pour les non-croyants — le « plus grand cinéma » dévotionnel d'Europe.",
+      },
+      {
+        heading: "2. La grotte de Massabielle — le lieu des apparitions",
+        body: "La grotte de Massabielle (au pied du sanctuaire, où Bernadette Soubirous a vu la Vierge entre février et juillet 1858 — 18 apparitions) est le lieu vénéré par les pèlerins. Statue de la Vierge dans la grotte, source d'eau dont les pèlerins emportent l'eau pour bénir leurs proches malades. Salles des Cierges (où l'on dépose les cierges en intention). Accès libre 24/7. Silence demandé.",
+      },
+      {
+        heading: "3. Le château fort de Lourdes — musée pyrénéen",
+        body: "Le château fort de Lourdes (XIVe-XVIIIe siècles, perché sur un piton rocheux dominant la ville) abrite le Musée Pyrénéen — collection ethnographique sur la vie traditionnelle des Pyrénées (costumes, mobilier, outils, transhumance). Vue panoramique à 360° sur Lourdes, les Pyrénées (le pic du Midi de Bigorre à 30 km, le Vignemale à 60 km). Souvent moins fréquenté que le sanctuaire — un contraste apaisant.",
+      },
+      {
+        heading: "4. Le pic du Midi de Bigorre — observatoire à 2 877 m",
+        body: "Le pic du Midi de Bigorre (2 877 m, à 35 km à l'est de Lourdes — sommet accessible par téléphérique au départ de La Mongie, 25 min de montée) est l'un des sommets emblématiques des Pyrénées. Observatoire astronomique au sommet (depuis 1873, l'un des plus anciens du monde — photos historiques de la Lune et de Mars). Vue à 360° sur 300 km de chaîne pyrénéenne et la plaine du Languedoc. Classé Réserve Internationale de Ciel Étoilé.",
+      },
+      {
+        heading: "5. Le cirque de Gavarnie — UNESCO",
+        body: "Le cirque de Gavarnie (à 50 km au sud de Lourdes, dans le parc national des Pyrénées, classé UNESCO Patrimoine mondial depuis 1997) est l'un des plus impressionnants paysages naturels d'Europe — amphithéâtre rocheux de 3 km de diamètre et 1 500 m de hauteur, encadré par des sommets de 3 000 m. La Grande Cascade de Gavarnie (422 m, la plus haute cascade de France). Sentier balisé à pied depuis le village de Gavarnie (3h aller).",
+      },
+      {
+        heading: "6. Les thermes de Lourdes — la cure",
+        body: "Les Thermes de Lourdes (sur les bords du Gave de Pau, station thermale active) proposent des cures rhumatologiques et phlébologiques. Eaux sulfatées-bicarbonatées de la source des thermes (à 28°C). Centre thermal ouvert au public (espaces thermo-ludiques, hammam, sauna). Moins connue que la vocation religieuse de Lourdes, mais tradition thermale millénaire.",
+      },
+      {
+        heading: "7. Le funiculaire du Pic du Jer",
+        body: "Le Funiculaire du Pic du Jer (à 1 km du sanctuaire, ouvert en 1900) monte au Pic du Jer (948 m, belvédère sur Lourdes et les Pyrénées) en 6 min. Funiculaire historique à crémaillère encore en activité depuis 1900. Au sommet : panorama à 360°, table d'orientation. Sentier balisé pour redescendre à pied (1h). Pour info, c'est le meilleur point de vue sur la cité mariale et la chaîne des Pyrénées.",
+      },
+      {
+        heading: "8. Les villages basques et le pic d'Anie",
+        body: "Le Pays basque français commence à 100 km à l'ouest de Lourdes. Saint-Jean-Pied-de-Port (à 100 km, porte du chemin de Saint-Jacques de Compostelle), Espelette (à 130 km, capitale française du piment), Saint-Jean-de-Luz (à 130 km, station balnéaire basque), Biarritz (à 130 km). Pour info, le pic d'Anie (2 504 m, à 80 km au sud-ouest) marque la frontière entre Pays basque et Béarn.",
+      },
+      {
+        heading: "9. Le Cauterets et la vallée des Pyrénées centrales",
+        body: "Cauterets (à 30 km au sud de Lourdes, station thermale et de ski à 932 m d'altitude) est l'une des stations les plus authentiques des Pyrénées. Pont d'Espagne (cascade aux eaux turquoise — à 6 km du village, accessible en téléphérique), lac de Gaube (à pied 1h depuis le Pont d'Espagne — vue sur le Vignemale, 3 298 m), cirque du Lys (à pied 2h, paysage glaciaire). Saison estivale (randonnée) et hivernale (ski alpin).",
+      },
+      {
+        heading: "10. Gastronomie pyrénéenne — garbure et fromage",
+        body: "La cuisine des Hautes-Pyrénées est rustique et fromagère : garbure (soupe paysanne au chou, haricots tarbais, jambon, confit — plat dominical), poule au pot Henri IV (à 80 km à Pau — recette inventée à la cour royale de Béarn), broye landaise (galette de farine de maïs). Fromages : Brebis des Pyrénées (Ossau-Iraty AOP, à 100 km à l'ouest), tomme des Pyrénées, fromage d'Estive. Vins : Madiran (à 50 km, rouge tannique, l'un des plus grands rouges du Sud-Ouest), Pacherenc-du-Vic-Bilh (blanc liquoreux).",
+      },
+    ],
+    relatedCities: ["lourdes"],
+    relatedGuides: [
+      "vivre-en-occitanie-guide-2025",
+    ],
+    tags: ["10 choses à faire à Lourdes", "activités Lourdes 2026", "sorties Lourdes", "que faire à Lourdes", "sanctuaire Bernadette grotte pic du Midi Gavarnie UNESCO Cauterets"],
+  },
+  {
+    slug: "10-choses-a-faire-a-beaune-2026",
+    title: "10 choses à faire à Beaune (les Hospices et la route des Grands Crus)",
+    metaTitle: "10 choses à faire à Beaune 2026 — activités et sorties locales",
+    metaDesc: "Hospices, vente aux enchères, route des Grands Crus, climats UNESCO et villages viticoles : 10 activités à Beaune pour découvrir la capitale des vins de Bourgogne.",
+    category: "tourisme",
+    emoji: "🍷",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Beaune est la « Capitale des vins de Bourgogne », 22 000 habitants au cœur de la Côte d'Or — les vignobles les plus prestigieux du monde (Romanée-Conti, Montrachet, Meursault — les plus grands crus blancs et rouges de la planète). La ville garde un patrimoine médiéval exceptionnel (remparts intacts, Hôtel-Dieu XVe siècle aux toits de tuiles vernissées multicolores). Les Climats du vignoble de Bourgogne sont classés UNESCO depuis 2015.",
+    sections: [
+      {
+        heading: "1. Les Hospices de Beaune — l'Hôtel-Dieu",
+        body: "Les Hospices de Beaune (Hôtel-Dieu, XVe siècle, gothique flamboyant) sont l'un des plus beaux monuments civils du Moyen Âge en France — fondés en 1443 par Nicolas Rolin (chancelier de Philippe le Bon, duc de Bourgogne) comme hôpital pour les pauvres. Toits polychromes (« tuiles vernissées de Bourgogne » — bleu, rouge, jaune, vert, motifs géométriques), Cour d'honneur, salle des Pôvres (la grande salle médiévale aux 30 lits sous baldaquin), pharmacie médiévale. Polyptyque du Jugement Dernier de Rogier van der Weyden (XVe siècle, l'un des chefs-d'œuvre flamands).",
+      },
+      {
+        heading: "2. La vente aux enchères des Hospices",
+        body: "La Vente des Vins des Hospices de Beaune (3e dimanche de novembre, depuis 1859 — la plus ancienne vente aux enchères caritative de vins au monde) est l'événement viticole le plus prestigieux de Bourgogne. 800 fûts (50 cuvées différentes — Pommard, Volnay, Meursault, Corton-Charlemagne issus des 60 ha de vignes des Hospices) sont vendus aux enchères au Palais des Congrès. Les bénéfices financent l'hôpital. Présidée par une personnalité de premier plan (Macron, Beyoncé, Brad Pitt y sont venus).",
+      },
+      {
+        heading: "3. La route des Grands Crus — UNESCO",
+        body: "La Route des Grands Crus (60 km de Dijon à Santenay, traverse la Côte de Nuits et la Côte de Beaune — classée UNESCO « Climats du vignoble de Bourgogne » depuis 2015) est la route œnologique la plus prestigieuse du monde. Étape Beaune-Pommard-Volnay-Meursault-Puligny-Montrachet (15 km) traverse les plus prestigieux climats. Caveaux ouverts au public dans tous les villages. Voie verte cyclable parallèle à la route.",
+      },
+      {
+        heading: "4. Le Domaine de la Romanée-Conti — l'inaccessible",
+        body: "Le Domaine de la Romanée-Conti (à Vosne-Romanée, 22 km au nord de Beaune — 8 ha, le plus prestigieux domaine viticole du monde) est inaccessible au public — mais on peut voir l'enclos historique de la Romanée-Conti (clos de 1,8 ha, marqué d'une stèle en pierre). Les bouteilles sont vendues 18 000 € (millésime jeune) à 25 000 € (vieux millésime). 6 000 bouteilles/an produites. Le seul moyen d'en boire : restaurants étoilés ou enchères (Christie's, Sotheby's).",
+      },
+      {
+        heading: "5. Les caves de Beaune — Patriarche et autres",
+        body: "Beaune compte des caves historiques visitables. Patriarche Père & Fils (5 km de caves souterraines XVIIe-XVIIIe siècles sous Beaune — les plus longues caves de Bourgogne, dégustation de 13 vins à la sortie, 20€). Maison Joseph Drouhin (négoce iconique, caves dans l'ancien Couvent des Cordeliers du XVe siècle), Maison Bouchard Père & Fils (Château de Beaune, XVe siècle). Réservation obligatoire.",
+      },
+      {
+        heading: "6. Les remparts de Beaune et les jardins",
+        body: "Les remparts de Beaune (XVe-XVIIe siècles, intacts sur 3,5 km en boucle autour de la vieille ville — l'un des plus complets ensembles fortifiés de Bourgogne) entourent la cité historique. Bastions, courtines, douves transformées en jardins. Promenade des Remparts (libre, gratuite, en boucle) en 1h. La porte Saint-Nicolas (XIIIe siècle) et la tour de Garde sont les meilleurs points de vue.",
+      },
+      {
+        heading: "7. La collégiale Notre-Dame — art roman",
+        body: "La collégiale Notre-Dame de Beaune (XIIe siècle, romane bourguignonne) est l'un des chefs-d'œuvre du roman bourguignon — fille de Cluny (à 70 km au sud-est). Tympan sculpté du Christ en majesté. À l'intérieur : tapisseries de la vie de la Vierge (XVe siècle, l'un des plus beaux ensembles de tapisseries médiévales conservées en France — soierie et fils d'or). Visite gratuite.",
+      },
+      {
+        heading: "8. Le musée du Vin de Bourgogne",
+        body: "Le Musée du Vin de Bourgogne (Hôtel des Ducs, XIVe-XVIe siècles, ancien hôtel particulier des ducs de Bourgogne) est dédié à l'histoire de la viticulture bourguignonne — outils anciens (pressoirs gallo-romains, alambics du XVIIIe siècle), métiers de la vigne (tonnellerie), cycle de production du vin (de la vigne au verre). Salle des États (1474, l'une des plus belles salles gothiques de Bourgogne — assemblée des États de Bourgogne).",
+      },
+      {
+        heading: "9. Cluny — l'abbaye historique",
+        body: "Cluny (à 80 km au sud de Beaune, dans la Saône-et-Loire) abrite les vestiges de l'abbaye de Cluny — la plus grande église chrétienne d'Europe avant la construction de Saint-Pierre de Rome au XVIe siècle (187 m de long contre 219 pour Saint-Pierre). Détruite à la Révolution, il reste le clocher de l'Eau Bénite (XIIe siècle, 32 m de hauteur), une partie du transept, le couvent. Centre des Monuments Nationaux. Visite payante.",
+      },
+      {
+        heading: "10. Gastronomie bourguignonne — escargots et bœuf",
+        body: "La cuisine de Bourgogne est l'une des plus prestigieuses de France : œufs en meurette (œufs pochés à la sauce au vin rouge), escargots de Bourgogne (en coquille, au beurre persillé — ail et persil), jambon persillé (charcuterie tradition au persil et au vin blanc), bœuf bourguignon (bœuf braisé au vin rouge, lardons, champignons), coq au vin rouge. Fromages AOP : Époisses (vache pâte molle au marc de Bourgogne, l'un des plus odorants français), Soumaintrain, Aisy Cendré. Sucré : crème de cassis de Dijon (apéritif Kir), nonnettes. Vins : Côtes de Beaune (blancs Meursault, Puligny, Chassagne, rouges Pommard, Volnay), Côtes de Nuits (Vosne-Romanée, Gevrey-Chambertin).",
+      },
+    ],
+    relatedCities: ["beaune"],
+    relatedGuides: [
+      "vivre-en-bourgogne-franche-comte-guide-2025",
+    ],
+    tags: ["10 choses à faire à Beaune", "activités Beaune 2026", "sorties Beaune", "que faire à Beaune", "Hospices Hôtel-Dieu route Grands Crus UNESCO Romanée-Conti Cluny"],
+  },
+  {
+    slug: "10-choses-a-faire-a-concarneau-2026",
+    title: "10 choses à faire à Concarneau (la Ville Close fortifiée et les Glénan)",
+    metaTitle: "10 choses à faire à Concarneau 2026 — activités et sorties locales",
+    metaDesc: "Ville Close, port de pêche, archipel des Glénan, Pont-Aven et école de peinture : 10 activités à Concarneau pour découvrir la côte du Finistère sud.",
+    category: "tourisme",
+    emoji: "🐟",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Concarneau est une ville du Finistère sud, 19 000 habitants — 3e port de pêche français (après Boulogne et Lorient). La ville est célèbre pour sa Ville Close (cité fortifiée Vauban du XIVe-XVIIe siècles sur une île reliée au continent par un pont — l'une des cités fortifiées les plus pittoresques de Bretagne). Capitale française du thon (auctions au port chaque matin). Porte d'entrée de l'archipel des Glénan (à 20 km au large — paradis turquoise).",
+    sections: [
+      {
+        heading: "1. La Ville Close — la cité fortifiée Vauban",
+        body: "La Ville Close de Concarneau (XIVe-XVIIe siècles, fortifiée par Vauban en 1689 — l'une des cités fortifiées les plus pittoresques de Bretagne) est construite sur une île de 350 m de long, reliée au continent par un pont. 2 km de remparts intacts, ruelles pavées (rue Vauban, rue Bélafé), maisons à toits d'ardoise. Tour du Beffroi (XIVe siècle, l'une des plus anciennes encore en service en France). 3 musées : Musée de la Pêche, Musée du Tabac, Maison du Patrimoine.",
+      },
+      {
+        heading: "2. Le musée de la Pêche — le tabac et la sardine",
+        body: "Le Musée de la Pêche de Concarneau (à l'intérieur de la Ville Close, dans les anciens magasins à voiles XVIIe siècle) est l'un des plus complets musées de France sur la pêche maritime — métiers anciens, ateliers de pêche (filets, chalut), reconstitution d'un chalutier des années 1950. Section sardinerie (Concarneau a été l'un des principaux centres français de la conserve à la sardine au XIXe siècle — 30 conserveries en 1900). Section tabac.",
+      },
+      {
+        heading: "3. Le port de pêche — la criée au thon",
+        body: "Le port de pêche de Concarneau (3e port français — 100 tonnes de poisson débarquées chaque jour, 20 000 tonnes par an) est l'un des plus actifs de France. Pour info, le port est spécialisé dans le thon (Concarneau est le premier port français pour le thon — listao, albacore, germon). Criée matinale (vente aux mareyeurs à 6h, accessible sur réservation à l'office de tourisme). Quai du Moros pour voir les chalutiers à thon (12-30 m de long).",
+      },
+      {
+        heading: "4. L'archipel des Glénan — les Maldives bretonnes",
+        body: "L'archipel des Glénan (à 20 km au large de Concarneau, 9 îles principales) est l'un des plus beaux archipels de France — sable blanc fin, eau turquoise translucide. Surnommé « les Maldives bretonnes ». Accessible en 1h de bateau au départ de Concarneau (vedettes Penn ar Bed, 30€ AR). Île Saint-Nicolas (la plus visitée, plage paradisiaque). École de voile mythique des Glénan (CN Glénan, formée d'élite des skippers français). Pas de voitures, pas d'hôtels.",
+      },
+      {
+        heading: "5. Pont-Aven — l'école de peinture",
+        body: "Pont-Aven (à 15 km à l'est de Concarneau, 2 800 habitants) est mondialement connue pour l'École de Pont-Aven (1888-1894, autour de Paul Gauguin — peintres synthétistes et symbolistes : Émile Bernard, Paul Sérusier, Maxime Maufra, Charles Filiger). Musée de Pont-Aven (collection des peintres locaux). Maison de Marie-Henry (auberge où vécurent les peintres). Galettes Traou Mad (« biscuits Pont-Aven », IGP — créés en 1920). Marché du mardi matin.",
+      },
+      {
+        heading: "6. La plage des Sables Blancs — la plus belle",
+        body: "La plage des Sables Blancs (à 2 km au sud du centre de Concarneau, plage urbaine surveillée juin-août) est l'une des plus belles plages de la côte du Finistère sud — sable fin blanc, eau à 18-20°C en été. Promenade en bord de mer aménagée, terrasses de cafés. Plage du Cabellou (plage de réserve naturelle, plus sauvage). Plage du Porzou (plage de famille, abritée).",
+      },
+      {
+        heading: "7. Le Quimperlé — la cité des trois rivières",
+        body: "Quimperlé (à 25 km à l'est de Concarneau, au confluent de l'Ellé et de l'Isole qui forment la Laïta) est l'une des plus belles cités médiévales du Finistère sud. Abbaye Sainte-Croix (XIe siècle, romane bretonne — plan en croix grecque rare en Bretagne), maisons à pans de bois XVe-XVIe siècles. À 10 min, la plage du Pouldu (où Gauguin et Sérusier ont peint).",
+      },
+      {
+        heading: "8. Le sentier des Douaniers — GR34",
+        body: "Le sentier des Douaniers (GR34, 2 000 km — du Mont-Saint-Michel à Saint-Nazaire en longeant toute la côte bretonne) passe par Concarneau. Étape Concarneau-Pont-Aven (15 km, 5h — passage par le rio des Sables Blancs et la côte sauvage du Cabellou), Concarneau-Beg-Meil (la pointe de la presqu'île, 10 km — plages familiales). Sentier balisé blanc et rouge.",
+      },
+      {
+        heading: "9. Bénodet et la rivière de l'Odet",
+        body: "Bénodet (à 15 km à l'ouest de Concarneau) est l'une des plus belles stations balnéaires du Finistère sud — port de plaisance, plage du Trez (la plus emblématique). La rivière de l'Odet (la « plus jolie rivière de France » selon les guides bretons) est navigable en bateau touristique (au départ du port — descente jusqu'à Quimper en 1h30, paysages de châteaux et villages). Le Cap-Coz (presqu'île de pinède dunaire) est une belle randonnée à pied.",
+      },
+      {
+        heading: "10. Gastronomie bretonne — fruits de mer et crêpes",
+        body: "La cuisine de Concarneau est marine et bretonne : kig-ha-farz (potée bretonne au lard, légumes et far — pâte de blé noir cuite dans le bouillon — plat dominical traditionnel), galettes-saucisse (galette de blé noir roulée autour d'une saucisse — « hot dog breton »), homard à la concarnoise, langouste de Bretagne. Fruits de mer : huîtres du Belon (à 30 km, l'une des plus prestigieuses AOC), moules de Bouchot, ormeaux. Spécialités sucrées : galettes Traou Mad de Pont-Aven IGP, kouign-amann (gâteau breton au beurre — IGP). Cidre brut breton, chouchen (hydromel).",
+      },
+    ],
+    relatedCities: ["concarneau"],
+    relatedGuides: [
+      "vivre-en-bretagne-guide-2025",
+    ],
+    tags: ["10 choses à faire à Concarneau", "activités Concarneau 2026", "sorties Concarneau", "que faire à Concarneau", "Ville Close port pêche thon Glénan Pont-Aven Gauguin"],
+  },
+  {
+    slug: "10-choses-a-faire-a-saint-jean-de-luz-2026",
+    title: "10 choses à faire à Saint-Jean-de-Luz (la baie basque et le mariage de Louis XIV)",
+    metaTitle: "10 choses à faire à Saint-Jean-de-Luz 2026 — activités et sorties locales",
+    metaDesc: "Plage de la Grande Plage, église Saint-Jean-Baptiste, Espelette, Sare et corniche basque : 10 activités à Saint-Jean-de-Luz pour découvrir la côte basque.",
+    category: "tourisme",
+    emoji: "🌊",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Saint-Jean-de-Luz est une station balnéaire basque de 13 000 habitants, à 15 km au sud de Bayonne. Port de pêche historique (chasse à la baleine du XVIe au XVIIIe siècle — « luziens » étaient les Basques chasseurs de baleines de l'Atlantique nord), berceau de l'identité basque française moderne. C'est ici que Louis XIV épousa Marie-Thérèse d'Autriche le 9 juin 1660 dans l'église Saint-Jean-Baptiste — événement diplomatique fondateur de la paix franco-espagnole.",
+    sections: [
+      {
+        heading: "1. La Grande Plage et la baie",
+        body: "La Grande Plage de Saint-Jean-de-Luz (1 km de sable fin en arc de cercle parfait, dans la baie de Saint-Jean-de-Luz) est l'une des plus belles plages de la côte basque — eau calme protégée par les digues de Socoa (construites au XIXe siècle pour protéger la baie des vagues atlantiques). Idéale pour les familles. Surf au Banc d'Arguin (vagues plus formées que sur les plages voisines).",
+      },
+      {
+        heading: "2. L'église Saint-Jean-Baptiste — le mariage royal",
+        body: "L'église Saint-Jean-Baptiste (XVe-XVIIe siècles, l'une des plus grandes églises basques de France) est célèbre pour avoir abrité le mariage de Louis XIV et Marie-Thérèse d'Autriche le 9 juin 1660. La porte par laquelle ils sont sortis a été murée juste après le mariage (« porte mariale » au sud de l'église, encore visible). Architecture basque traditionnelle (galeries en bois sur 3 étages le long des nefs latérales — réservées aux hommes, l'église rez-de-chaussée aux femmes), retable doré du XVIIe siècle.",
+      },
+      {
+        heading: "3. Le port de pêche et la criée",
+        body: "Le port de Saint-Jean-de-Luz (port de pêche traditionnel, 6e port français en valeur — pêche au thon et au merlu surtout) est l'un des plus authentiques de la côte basque. Criée matinale (vente aux enchères au retour des bateaux). Quartier de l'Aspirin (rue de la République) — façades à colombages colorés rouge, vert, blanc (couleurs basques). Maison de Louis XIV (XVIIe siècle, où le roi résida 6 semaines pendant les négociations du Traité des Pyrénées — visite payante).",
+      },
+      {
+        heading: "4. Espelette — la capitale du piment",
+        body: "Espelette (à 25 km au sud-est de Saint-Jean-de-Luz) est la capitale française du piment — piment d'Espelette AOP (depuis 2000, premier piment français AOP — Capsicum annuum doux). Visite des séchoirs à piments suspendus aux façades (août-octobre — saison du séchage, l'image emblématique du Pays basque). Foire au Piment fin octobre (fête traditionnelle basque). Maison du Piment (centre d'interprétation gratuit).",
+      },
+      {
+        heading: "5. La corniche basque et la baie d'Hendaye",
+        body: "La Corniche Basque (D912 entre Saint-Jean-de-Luz et Hendaye, sur 10 km — l'une des plus belles routes côtières de France) suit les falaises de schiste du Domaine d'Abbadia (réserve naturelle de 100 ha, ancien château néo-gothique d'Antoine d'Abbadie — savant basque XIXe siècle). Sentier des Douaniers à pied entre Saint-Jean-de-Luz et Hendaye (15 km, 4h). Hendaye et sa plage de 3 km de sable fin (la frontière espagnole — Fontarabie de l'autre côté de la Bidassoa).",
+      },
+      {
+        heading: "6. Sare et la Rhune — le sommet basque",
+        body: "Sare (à 20 km au sud de Saint-Jean-de-Luz, plus beau village de France) est l'un des villages les plus typiques du Pays basque français — maisons à colombages rouges et verts, place centrale avec fronton de pelote basque. La Rhune (905 m, sommet emblématique du Pays basque) est accessible par le Petit Train de la Rhune (1924, 35 min de montée à crémaillère — pottoks et brebis manech en liberté sur le sommet). Vue à 360°.",
+      },
+      {
+        heading: "7. La pelote basque — fronton et chistera",
+        body: "La pelote basque (sport traditionnel basque, 22 variantes — la « grande chistera » est la plus spectaculaire) se pratique dans tous les villages basques. Fronton du Trinquet Saint-André à Saint-Jean-de-Luz (matchs en été, gratuits). Le Jaï Alaï (grand fronton mural couvert) est encore très pratiqué. Pour les curieux, l'office de tourisme propose des démonstrations.",
+      },
+      {
+        heading: "8. La maison Adam — le macaron Louis XIV",
+        body: "La Maison Adam (depuis 1660 — confiserie historique de Saint-Jean-de-Luz) est célèbre pour ses macarons artisanaux. Louis XIV et Marie-Thérèse en auraient mangé pendant leur séjour en 1660 (« le seul gâteau qu'on lui a fait dans sa vie » disait Marie-Thérèse). Recette traditionnelle inchangée depuis 350 ans (amandes du Périgord, sucre, blancs d'œufs). À ne pas confondre avec les macarons parisiens (deux coques meringuées garnies de ganache — recette plus récente).",
+      },
+      {
+        heading: "9. Biarritz et l'aquarium",
+        body: "Biarritz (à 20 km au nord de Saint-Jean-de-Luz) est la grande station balnéaire basque — Eugénie de Montijo, l'épouse de Napoléon III, en a fait sa villégiature préférée en 1854. Aquarium de Biarritz (l'un des plus anciens aquariums français — 1933, 5 000 animaux marins). Phare Belle Époque, Rocher de la Vierge, Hôtel du Palais (l'ancien palais impérial Napoléon III, transformé en hôtel 5*). Spot de surf historique (le surf est arrivé en Europe par Biarritz en 1957).",
+      },
+      {
+        heading: "10. Gastronomie basque — axoa et gâteau basque",
+        body: "La cuisine basque est l'une des plus authentiques de France : axoa (veau émincé sauté avec poivrons rouges, piment d'Espelette et oignons — plat traditionnel typique d'Espelette), piperade (omelette aux poivrons, tomates et piment d'Espelette), poulet basquaise (poulet sauté à la sauce piperade), chipirons (calamars à l'encre), jambon de Bayonne IGP (à 15 km), Toro basque (de Pampelune en Espagne, à 1h). Fromages : Ossau-Iraty AOP (brebis basque ou béarnais, pâte pressée non cuite). Sucré : gâteau basque (génoise fourrée à la crème pâtissière ou à la confiture de cerise noire d'Itxassou). Vins : Irouléguy (AOC, rouge à base de tannat et cabernet).",
+      },
+    ],
+    relatedCities: ["saint-jean-de-luz"],
+    relatedGuides: [
+      "vivre-en-nouvelle-aquitaine-guide-2025",
+    ],
+    tags: ["10 choses à faire à Saint-Jean-de-Luz", "activités Saint-Jean-de-Luz 2026", "sorties Saint-Jean-de-Luz", "que faire à Saint-Jean-de-Luz", "baie basque Louis XIV Espelette Sare Rhune corniche piment"],
+  },
+  {
+    slug: "10-choses-a-faire-a-carnac-2026",
+    title: "10 choses à faire à Carnac (les alignements mégalithiques et le golfe du Morbihan)",
+    metaTitle: "10 choses à faire à Carnac 2026 — activités et sorties locales",
+    metaDesc: "Alignements mégalithiques, plages, île de Belle-Île-en-Mer, golfe du Morbihan et Vannes : 10 activités à Carnac pour découvrir le Morbihan préhistorique.",
+    category: "tourisme",
+    emoji: "🪨",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Carnac est une commune du Morbihan, 4 200 habitants — l'un des plus importants sites mégalithiques au monde. Les Alignements de Carnac (3 000 menhirs alignés sur 4 km, datant de -5 000 à -3 300 av. J.-C.) sont aussi anciens que les pyramides d'Égypte. Site classé UNESCO (depuis 2023, dans le cadre du dossier « Mégalithes de Carnac et des rives du Morbihan »). Station balnéaire familiale au bord de la baie de Quiberon, porte du Golfe du Morbihan.",
+    sections: [
+      {
+        heading: "1. Les Alignements de Carnac — UNESCO 2023",
+        body: "Les Alignements de Carnac (classés UNESCO en 2023) sont l'un des plus impressionnants sites mégalithiques au monde — 3 000 menhirs alignés sur 4 km de long, en 3 ensembles principaux (Le Menec, Kermario, Kerlescan). Date : -5 000 à -3 300 av. J.-C. (néolithique — bien avant les pyramides). Fonction mystérieuse (rituelle ? astronomique ? cimetière ?). Visite guidée obligatoire en été (accès aux pierres restreint pour conservation), libre en hiver. Maison des Mégalithes (centre d'interprétation, gratuit).",
+      },
+      {
+        heading: "2. Le tumulus Saint-Michel — la « pyramide » bretonne",
+        body: "Le Tumulus Saint-Michel (à 1 km du bourg de Carnac, sur les hauteurs) est l'un des plus grands tumulus d'Europe — 125 m de long, 60 m de large, 10 m de hauteur. Construit vers -4 500 av. J.-C. (néolithique moyen). Au sommet, une chapelle Saint-Michel du XVIIe siècle (panorama sur Carnac, le golfe du Morbihan et la baie de Quiberon). Galerie funéraire intérieure (visite payante saisonnière).",
+      },
+      {
+        heading: "3. La presqu'île de Quiberon — Côte Sauvage",
+        body: "La Presqu'île de Quiberon (à 15 km au sud-ouest de Carnac, presqu'île de 14 km de long) est l'une des plus belles côtes bretonnes. La Côte Sauvage (côte ouest, exposée à l'Atlantique — falaises de granit, criques sauvages, pointe du Conguel à l'extrémité sud) est spectaculaire en automne et en hiver. La côte est (Saint-Pierre-Quiberon, Quiberon ville, plage de Penthièvre) est plus protégée et familiale. Embarquement pour Belle-Île à Port-Maria.",
+      },
+      {
+        heading: "4. Belle-Île-en-Mer — l'île aux 60 km de côtes",
+        body: "Belle-Île-en-Mer (à 45 min de bateau de Quiberon, 84 km² — la plus grande île de Bretagne, 5 000 habitants permanents) est l'une des plus belles îles de France. Aiguilles de Port-Coton (peintes par Monet en 1886 — l'une des plus belles séries impressionnistes), pointe des Poulains (avec la maison de Sarah Bernhardt), citadelle de Vauban à Le Palais. Plages : Donnant (la plus belle plage de l'île, ouest), Port Goulphar (sud sauvage), plage des Grands Sables (familiale au nord-est). Réservation hôtelière obligatoire en été.",
+      },
+      {
+        heading: "5. Le Golfe du Morbihan — l'une des plus belles baies du monde",
+        body: "Le Golfe du Morbihan (à 15 km à l'est de Carnac, baie intérieure de 100 km², 42 îles et îlots) est classé parmi les plus belles baies du monde (Most Beautiful Bays in the World Club depuis 2008). Île aux Moines (la plus grande, 6 km de long — climat doux, palmeraies, peintres impressionnistes), île d'Arz (la plus authentique). Tour du golfe en bateau (au départ de Vannes ou Port-Navalo, 4h). Marées : ressacs spectaculaires à l'embouchure (le « courant du golfe » au passage de la Jument).",
+      },
+      {
+        heading: "6. Vannes — la cité médiévale",
+        body: "Vannes (à 30 km à l'est de Carnac, préfecture du Morbihan) est l'une des plus belles cités médiévales de Bretagne — remparts du XIVe siècle intacts, jardins de la Garenne, maisons à colombages XVe-XVIe siècles (place Henri-IV, rue Saint-Vincent), cathédrale Saint-Pierre (XIe-XVIIIe siècles). La Cohue (ancien marché médiéval, aujourd'hui musée d'art).",
+      },
+      {
+        heading: "7. Locmariaquer et le grand menhir brisé",
+        body: "Locmariaquer (à 13 km au sud-est de Carnac) abrite le plus grand menhir d'Europe — le « Grand Menhir Brisé » (-4 700 av. J.-C., 20,3 m de hauteur originelle, 280 tonnes — aujourd'hui couché et brisé en 4 morceaux suite à un tremblement de terre du Moyen Âge). À côté, la Table des Marchands (dolmen néolithique avec gravures intérieures) et le tumulus d'Er-Grah. Site géré par le Centre des Monuments Nationaux.",
+      },
+      {
+        heading: "8. Auray et le port de Saint-Goustan",
+        body: "Auray (à 12 km au nord-est de Carnac) est l'autre cité médiévale du Morbihan central. Le quartier Saint-Goustan (ancien port médiéval au bord du Loch, classé Site historique) est l'un des plus beaux quartiers historiques de Bretagne — maisons à colombages XVe-XVIIe siècles, places pavées, pont médiéval. Benjamin Franklin y débarqua en 1776 (au retour des négociations avec Louis XVI pour l'indépendance américaine).",
+      },
+      {
+        heading: "9. Les plages de Carnac et Le Mané-Bras",
+        body: "Carnac compte 5 plages de sable fin (la « Grande Plage » au centre du bourg, plage de Beaumer, plage de Saint-Colomban, plage de Légenèse). Eau à 19-21°C en été. La plage du Mané-Bras (à 2 km du centre, plus tranquille) est appréciée des locaux. Voile, planche à voile, paddle. Sentier des Douaniers (GR34) le long du littoral.",
+      },
+      {
+        heading: "10. Gastronomie bretonne — crustacés et galettes",
+        body: "La cuisine de Carnac est marine bretonne : huîtres de Carnac (« huîtres plates de la baie de Quiberon » — réputées au XVIIIe siècle, en relance), homard à l'armoricaine (sauce tomate au cognac), galettes de blé noir (au beurre salé, au jambon-fromage, complète), kig-ha-farz (potée bretonne au lard et farz de blé noir). Coquilles Saint-Jacques de la baie de Saint-Brieuc (à 150 km). Spécialités sucrées : kouign-amann (gâteau breton au beurre — IGP), far breton (flan aux pruneaux), gâteau breton au beurre salé. Cidre brut, chouchen (hydromel).",
+      },
+    ],
+    relatedCities: ["carnac"],
+    relatedGuides: [
+      "vivre-en-bretagne-guide-2025",
+    ],
+    tags: ["10 choses à faire à Carnac", "activités Carnac 2026", "sorties Carnac", "que faire à Carnac", "alignements mégalithes UNESCO Quiberon Belle-Île golfe Morbihan Vannes"],
+  },
+  {
+    slug: "10-choses-a-faire-a-gordes-2026",
+    title: "10 choses à faire à Gordes (le village perché du Luberon et l'abbaye de Sénanque)",
+    metaTitle: "10 choses à faire à Gordes 2026 — activités et sorties locales",
+    metaDesc: "Gordes perché, abbaye de Sénanque, Roussillon, Bonnieux, Ménerbes et lavandes : 10 activités à Gordes pour découvrir le cœur du Luberon classique.",
+    category: "tourisme",
+    emoji: "💜",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Gordes est un village du Vaucluse de 1 700 habitants, à 35 km à l'est d'Avignon — l'un des plus beaux villages perchés de France. Maisons en pierre sèche calcaire blanche disposées en cercles concentriques sur un éperon rocheux à 370 m d'altitude, dominant la plaine du Calavon. Au cœur du Parc naturel régional du Luberon (créé en 1977), Gordes est l'icône de la Provence des magazines (Marie-Antoinette de Sofia Coppola y a été tourné, et A Good Year de Ridley Scott).",
+    sections: [
+      {
+        heading: "1. Le village perché de Gordes — l'icône du Luberon",
+        body: "Gordes (perché à 370 m d'altitude, maisons en pierre sèche calcaire blanche disposées en cercles concentriques) est classé parmi les plus beaux villages de France. Vue spectaculaire depuis le belvédère à l'entrée du village (point de vue le plus photographié de Provence — au coucher du soleil, lumière dorée sur les façades blanches). Château Renaissance (XVIe siècle, restauré) au sommet, ruelles pavées, fontaines. Marché du mardi matin sur la place du Château.",
+      },
+      {
+        heading: "2. L'abbaye de Sénanque — les lavandes",
+        body: "L'abbaye de Sénanque (à 4 km au nord-ouest de Gordes, XIIe siècle cistercienne) est l'une des plus photographiées de France — abbaye encore en activité (12 moines), encadrée par un champ de lavandes (floraison fin juin à mi-juillet — image emblématique de la Provence). Visite avec audioguide possible (église, cloître, salle capitulaire). Le bleu intense des lavandes contre la pierre claire de l'abbaye au coucher du soleil est l'un des plus beaux spectacles français.",
+      },
+      {
+        heading: "3. Roussillon — le « village rouge »",
+        body: "Roussillon (à 10 km à l'est de Gordes, plus beau village de France) est l'un des plus colorés villages d'Europe — entièrement construit en pierres ocre (rouge, orange, jaune) extraites des falaises de Roussillon. Le Sentier des Ocres (1h en boucle, 3€ — sentier au cœur de l'ancienne carrière d'ocre, paysage de canyons rouges et orangés). Conservatoire des Ocres et de la Couleur (musée géologique). Vue panoramique sur les Monts de Vaucluse.",
+      },
+      {
+        heading: "4. Bonnieux et le Petit Luberon",
+        body: "Bonnieux (à 15 km au sud de Gordes, plus beau village de France) est l'un des plus pittoresques villages du Luberon — perché à 425 m sur un piton calcaire, terrasses en escaliers, vieille église haute (XIIe siècle, romane) tout en haut du village. Vue panoramique sur le Petit Luberon. Marché du vendredi matin. À 5 km, le Pont Julien (pont romain du Ier siècle av. J.-C. — l'un des mieux conservés en France, encore utilisable il y a 30 ans).",
+      },
+      {
+        heading: "5. Ménerbes — Peter Mayle et la Provence",
+        body: "Ménerbes (à 10 km au sud de Gordes, plus beau village de France) a été popularisé par le roman « Une année en Provence » de Peter Mayle (1989, traduit en 20 langues — Mayle y a vécu 10 ans). Village perché à 224 m, ruelles pavées, maisons en pierre sèche, vue panoramique sur le Luberon. Maison de la Truffe et du Vin (musée de la truffe noire du Vaucluse), Château de Ménerbes (Renaissance, propriété privée).",
+      },
+      {
+        heading: "6. Le village des Bories — pierres sèches",
+        body: "Le Village des Bories (à 3 km au sud-ouest de Gordes, écomusée d'architecture en pierre sèche) est un hameau de 28 cabanes en pierre sèche (« bories ») restauré dans les années 1970. Ces cabanes (XVIIe-XIXe siècles, abris d'éleveurs ou de paysans) sont entièrement construites sans mortier — technique vernaculaire provençale. Reconstitution d'un hameau agricole avec four à pain, citerne, étable. Accès libre payant (4€).",
+      },
+      {
+        heading: "7. Lacoste et le marquis de Sade",
+        body: "Lacoste (à 12 km au sud de Gordes, plus beau village de France) est le village du Marquis de Sade — son château (XIe-XVIIe siècles) domine le bourg. Donatien Alphonse François de Sade (1740-1814) y a vécu une grande partie de sa vie (et y a été emprisonné). Aujourd'hui propriété du couturier Pierre Cardin (qui a restauré le château et y a installé un festival théâtral en juillet). Vieille ville au pied du château.",
+      },
+      {
+        heading: "8. La route des lavandes — Apt et Sault",
+        body: "La route des lavandes du Vaucluse (juin-juillet, floraison) traverse le Luberon. Étape Gordes-Apt-Sault (40 km de paysages lavandiers — Sault est l'un des plus hauts plateaux lavandiers, 800 m d'altitude). Apt (à 15 km au sud-est de Gordes) est la capitale du marché du Luberon (samedi matin — l'un des plus grands marchés de Provence). Fête de la Lavande à Sault le 15 août.",
+      },
+      {
+        heading: "9. Fontaine-de-Vaucluse — la résurgence",
+        body: "Fontaine-de-Vaucluse (à 15 km à l'ouest de Gordes) abrite la plus grande résurgence d'eau douce de France et la 5e du monde — 30 m³/seconde en moyenne, 90 m³/seconde en crue de printemps. Source vauclusienne (au pied d'une falaise de 230 m) qui forme la rivière Sorgue. Pétrarque (poète italien) y a écrit ses sonnets à Laure au XIVe siècle. Musée Pétrarque, marché du dimanche matin. Très fréquenté en été.",
+      },
+      {
+        heading: "10. Gastronomie provençale — agneau et truffe",
+        body: "La cuisine du Luberon est l'une des plus raffinées de Provence : agneau de Sisteron IGP (à 60 km à l'est — la chair la plus claire de France), pieds-paquets (tripes d'agneau farcies), tian de légumes provençaux (tomates, courgettes, aubergines, oignons), soupe au pistou. Spécialités : truffe noire du Vaucluse (Tuber melanosporum — l'une des plus prestigieuses, novembre-mars — 800-1 200€/kg, marché aux truffes d'Apt le samedi matin novembre-mars), miel de Provence (lavande, romarin, thym — IGP). Fromages : Banon AOP (chèvre fermier feuille de châtaignier, à 50 km), Brousse du Rove. Vins : Côtes du Luberon (AOC, rouge léger), Ventoux (à 30 km).",
+      },
+    ],
+    relatedCities: ["gordes"],
+    relatedGuides: [
+      "vivre-en-provence-paca-guide-2025",
+    ],
+    tags: ["10 choses à faire à Gordes", "activités Gordes 2026", "sorties Gordes", "que faire à Gordes", "village perché Sénanque Roussillon Bonnieux Ménerbes Luberon lavandes"],
+  },
+  {
+    slug: "10-choses-a-faire-a-saint-paul-de-vence-2026",
+    title: "10 choses à faire à Saint-Paul-de-Vence (la cité des artistes et la Riviera de l'arrière-pays)",
+    metaTitle: "10 choses à faire à Saint-Paul-de-Vence 2026 — activités et sorties locales",
+    metaDesc: "Cité fortifiée, Fondation Maeght, Colombe d'Or, Vence et villages perchés : 10 activités à Saint-Paul-de-Vence pour découvrir la Riviera des artistes.",
+    category: "tourisme",
+    emoji: "🎨",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Saint-Paul-de-Vence est un village des Alpes-Maritimes de 3 500 habitants, perché à 195 m d'altitude entre mer et Alpes — l'un des plus beaux villages perchés de la Côte d'Azur, fortifié au XVIe siècle par François Ier contre Charles Quint. La cité est devenue dans les années 1920-1960 le rendez-vous des artistes (Chagall, Matisse, Picasso, Léger, Yves Montand, Simone Signoret, Lino Ventura — tous l'ont fréquentée). Marc Chagall y est enterré.",
+    sections: [
+      {
+        heading: "1. La cité fortifiée — François Ier et Charles Quint",
+        body: "Les remparts de Saint-Paul-de-Vence (XVIe siècle, fortifiés par François Ier en 1538 contre Charles Quint — premier exemple en France de fortifications bastionnées à l'italienne) sont l'un des plus précoces ensembles fortifiés modernes d'Europe. 800 m d'enceinte, 4 bastions, 2 portes principales (porte Royale et porte de Vence). Promenade le long des remparts (gratuite). Le village intra-muros (rue principale Grande, 350 m de ruelles pavées) regroupe galeries d'art, boutiques d'artisans, restaurants.",
+      },
+      {
+        heading: "2. La Fondation Maeght — l'art contemporain",
+        body: "La Fondation Marguerite-et-Aimé-Maeght (créée en 1964 par les marchands d'art Aimé et Marguerite Maeght, architecture Josep Lluís Sert — Catalan, ami de Miró) est l'un des plus importants centres d'art contemporain en France et en Europe. Collection de 13 000 œuvres (Bonnard, Braque, Calder, Chagall, Giacometti, Léger, Matisse, Miró). Architecture lumineuse, jardin de sculptures (Miró, Calder), bassin avec mosaïques de Chagall. Expositions temporaires majeures chaque année. Imperdable.",
+      },
+      {
+        heading: "3. La Colombe d'Or — l'auberge des artistes",
+        body: "La Colombe d'Or (rue Grande, place du Général-de-Gaulle — restaurant et hôtel depuis 1920) est l'auberge mythique des artistes du Sud. Chagall, Picasso, Matisse, Bonnard, Léger, Yves Montand y ont payé leur repas avec des toiles dans les années 1920-1950. La collection privée de l'hôtel (visible aux clients du restaurant, pas au grand public) compte 200 chefs-d'œuvre. Visite extérieure : terrasse au figuier centenaire, façade pierre.",
+      },
+      {
+        heading: "4. La tombe de Marc Chagall — cimetière de Saint-Paul",
+        body: "Le cimetière de Saint-Paul-de-Vence (en surplomb du village, sentier accessible à pied) abrite la tombe de Marc Chagall (1887-1985) et de sa femme Vava. Pierre tombale modeste en pierre claire avec des pierres déposées par les visiteurs (tradition juive). Chagall a vécu à Saint-Paul de 1949 à sa mort en 1985. Vue panoramique sur la vallée et la mer.",
+      },
+      {
+        heading: "5. Vence — la chapelle Matisse",
+        body: "Vence (à 4 km au nord de Saint-Paul-de-Vence) abrite la Chapelle du Rosaire de Vence (1951, Henri Matisse — l'œuvre testamentaire du peintre, qui considérait cette chapelle comme son chef-d'œuvre absolu). Vitraux bleus, verts et jaunes inspirés de la Côte d'Azur, dessins muraux en céramique noire représentant le Christ et la Vierge. Style minimaliste révolutionnaire. Ouverture limitée (mardi et jeudi). Vence garde aussi une cathédrale médiévale et une vieille ville fortifiée.",
+      },
+      {
+        heading: "6. Tourrettes-sur-Loup et le Bar-sur-Loup",
+        body: "Tourrettes-sur-Loup (à 10 km au nord de Saint-Paul-de-Vence) est le village des artistes contemporains — fortifié, ruelles pavées, ateliers d'artistes (galeries d'art, peintres, sculpteurs). Capitale française des violettes (fête de la Violette en mars). Bar-sur-Loup (à 12 km), Gourdon (à 20 km, perché à 760 m — vue à 60 km à la ronde, plus beau village de France) complètent une boucle des villages perchés de l'arrière-pays.",
+      },
+      {
+        heading: "7. Le sentier des Sentiers et la Vallée du Loup",
+        body: "La Vallée du Loup (à 10 km au nord de Saint-Paul-de-Vence) est l'une des plus belles vallées de l'arrière-pays niçois — falaises calcaires, cascades (Cascade du Saut du Loup, 40 m), gorges étroites. Sentier balisé du Loup (en boucle 8 km). Aigle royal et vautour fauve (réintroduits dans les Préalpes d'Azur). Centre Mercantour (à 30 km, parc national avec les plus belles randonnées des Alpes Maritimes).",
+      },
+      {
+        heading: "8. Grasse — la capitale mondiale du parfum",
+        body: "Grasse (à 15 km au nord de Saint-Paul-de-Vence) est la capitale mondiale du parfum depuis le XVIIe siècle (3 grandes parfumeries — Fragonard, Galimard, Molinard — proposent des visites gratuites avec démonstration de production, et la confection d'un parfum personnel sur rendez-vous). Musée international de la Parfumerie (le seul au monde — collection de flacons antiques, de matières premières, processus de fabrication). Vieille ville historique en hauteur.",
+      },
+      {
+        heading: "9. Antibes et le musée Picasso",
+        body: "Antibes (à 15 km au sud de Saint-Paul-de-Vence) est l'une des plus belles cités de la Côte d'Azur — Vieil Antibes (cité médiévale fortifiée), port Vauban (l'un des plus grands ports de plaisance d'Europe — yachts géants). Le Musée Picasso (Château Grimaldi, qui hébergea Picasso pendant 2 mois en 1946 — le peintre y laissa 23 toiles et 44 dessins en remerciement, formant la collection actuelle du musée). Marché provençal couvert place Massena.",
+      },
+      {
+        heading: "10. Gastronomie niçoise — socca et pissaladière",
+        body: "La cuisine niçoise (typique de Nice et de l'arrière-pays) est l'une des plus authentiques de Provence : socca (galette de farine de pois chiches cuite au four à bois — apéritif emblématique), pissaladière (tarte à l'oignon, anchois et olives noires), salade niçoise (tomates, œufs, anchois, olives — sans pommes de terre dans la version originale), pan-bagnat (sandwich niçois — version locale du salade niçoise). Fromages : Tomme de l'arrière-pays. Vins : AOC Bellet (à 15 km, micro-AOC unique à Nice — cépages folle noire et braquet rouges, rolle blanc), Côtes-de-Provence (à 30 km à l'ouest).",
+      },
+    ],
+    relatedCities: ["saint-paul-de-vence"],
+    relatedGuides: [
+      "vivre-en-cote-d-azur-guide-2026",
+      "vivre-en-provence-paca-guide-2025",
+    ],
+    tags: ["10 choses à faire à Saint-Paul-de-Vence", "activités Saint-Paul-de-Vence 2026", "sorties Saint-Paul-de-Vence", "que faire à Saint-Paul-de-Vence", "cité fortifiée Maeght Chagall Colombe d'Or Vence Grasse"],
+  },
+  {
+    slug: "10-choses-a-faire-a-amboise-2026",
+    title: "10 choses à faire à Amboise (le château royal et le Clos Lucé de Léonard de Vinci)",
+    metaTitle: "10 choses à faire à Amboise 2026 — activités et sorties locales",
+    metaDesc: "Château royal, Clos Lucé, Chenonceau, Chambord et vignobles Vouvray : 10 activités à Amboise pour découvrir le cœur des châteaux de la Loire.",
+    category: "tourisme",
+    emoji: "🏰",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Amboise est une commune d'Indre-et-Loire, 13 000 habitants au bord de la Loire — ancienne résidence royale (Charles VIII y a passé son enfance, François Ier y a fait construire le Clos Lucé pour Léonard de Vinci qui y a vécu ses 3 dernières années et y est enterré). Au cœur du « Val de Loire » classé UNESCO, à 25 km à l'est de Tours, Amboise est la porte d'entrée des plus beaux châteaux Renaissance de France — Chenonceau, Chambord, Blois, Cheverny.",
+    sections: [
+      {
+        heading: "1. Le château royal d'Amboise — résidence royale",
+        body: "Le château royal d'Amboise (XIIe-XVe siècles, ancienne résidence royale de Charles VIII et François Ier — classée UNESCO comme une partie du Val de Loire) domine la ville depuis sa terrasse en surplomb de la Loire. Reconstruit par Charles VIII après son retour d'Italie en 1495 — premier château français à intégrer l'architecture italienne (escalier en colimaçon, motifs antiques). Logis royal, Tour des Minimes, chapelle Saint-Hubert (où Léonard de Vinci est enterré). Vue panoramique sur la Loire depuis les terrasses.",
+      },
+      {
+        heading: "2. Le Clos Lucé — la maison de Léonard de Vinci",
+        body: "Le Clos Lucé (à 500 m du château royal, ancien manoir du XVe siècle offert par François Ier à Léonard de Vinci en 1516) est le lieu où le maître italien (1452-1519) a vécu ses 3 dernières années — invité par le jeune roi français à 64 ans. Mobilier d'époque, chambre où il est mort, ateliers reconstitués. Le parc Léonardo da Vinci abrite 40 machines fonctionnelles construites d'après ses croquis (char d'assaut, vis aérienne, etc.) — l'une des meilleures scénographies pédagogiques de France.",
+      },
+      {
+        heading: "3. Chenonceau — le château des Dames",
+        body: "Le château de Chenonceau (à 12 km au sud-est d'Amboise, XVIe siècle Renaissance — l'un des plus visités de France après Versailles, 800 000 visiteurs/an) est surnommé le « château des Dames » car six femmes ont marqué son histoire : Catherine Briçonnet (qui le fit construire), Diane de Poitiers (maîtresse d'Henri II), Catherine de Médicis, Louise de Lorraine. Pont-galerie sur le Cher (long de 60 m — unique en France). Jardin de Diane de Poitiers et de Catherine de Médicis. Mobilier d'origine.",
+      },
+      {
+        heading: "4. Chambord — le plus grand château Renaissance",
+        body: "Le château de Chambord (à 35 km au nord-est d'Amboise, 1519-1547, François Ier — le plus grand château Renaissance du monde) est l'icône absolue du Val de Loire. 156 m de façade, 426 pièces, 282 cheminées, 77 escaliers (dont le célèbre escalier à double révolution attribué à Léonard de Vinci). 5 000 ha de forêt et parc clos (le plus grand parc clos d'Europe — 32 km de mur). Coucher de soleil photogénique sur la façade.",
+      },
+      {
+        heading: "5. Blois — le château royal des Bourbons",
+        body: "Blois (à 35 km au nord-est d'Amboise) abrite le château royal de Blois — l'un des plus complets châteaux français (4 ailes représentant 4 époques : Louis XII gothique, François Ier Renaissance, Gaston d'Orléans classique XVIIe, médiéval XIIIe-XIVe). C'est ici que le duc de Guise fut assassiné par Henri III en 1588 (épisode majeur des guerres de Religion). Aile François Ier avec son escalier en colimaçon octogonal sculpté.",
+      },
+      {
+        heading: "6. Cheverny — le modèle de Moulinsart",
+        body: "Le château de Cheverny (à 50 km au nord-est d'Amboise, XVIIe siècle classique) est le plus authentique château Loire encore habité (par la famille Hurault depuis 6 siècles). Hergé l'a utilisé comme modèle pour Moulinsart (château du Capitaine Haddock dans Tintin). Façade Louis XIII en pierre de Bourré (pierre tendre qui durcit à l'air), mobilier d'origine. Meute de chasse à courre (90 chiens — démonstration de soupe à 17h). Tintin et l'aventure de Moulinsart (exposition permanente).",
+      },
+      {
+        heading: "7. La Loire à vélo — voie verte UNESCO",
+        body: "La Loire à Vélo (EuroVélo 6, 800 km de pistes cyclables le long de la Loire — l'une des plus belles voies vertes d'Europe) passe à Amboise. Étape Amboise-Tours (25 km, plate, ombragée) — l'une des plus belles étapes. Étape Amboise-Chenonceau (12 km à vélo via la voie verte). Loueurs de vélos à Amboise. Festival « Loire à Vélo » en juin (animations le long de la voie verte).",
+      },
+      {
+        heading: "8. Le vignoble AOC Vouvray et Montlouis",
+        body: "L'AOC Vouvray (à 15 km à l'ouest d'Amboise, 2 200 ha — l'une des plus prestigieuses AOC de Loire, exclusivement cépage chenin blanc — vins blancs secs, demi-secs, moelleux, effervescents méthode traditionnelle) est l'une des plus belles routes œnologiques de la région. Caves troglodytiques creusées dans le tuffeau (pierre calcaire blanche de Touraine). Domaines : Domaine Huet, Domaine François Pinon. AOC Montlouis-sur-Loire (sur la rive opposée, vins similaires).",
+      },
+      {
+        heading: "9. La pagode de Chanteloup",
+        body: "La Pagode de Chanteloup (à 2 km au sud d'Amboise, ancien château des ducs de Penthièvre — détruit en 1823 sauf la pagode) est un édifice singulier de style chinois construit en 1775 par le duc de Choiseul (ministre de Louis XV exilé sur ses terres après sa disgrâce). 44 m de hauteur, 7 étages décroissants. Au sommet, vue panoramique sur la forêt d'Amboise. Site classé Monument Historique.",
+      },
+      {
+        heading: "10. Gastronomie tourangelle — rillettes et Vouvray",
+        body: "La cuisine de Touraine est paysanne et raffinée : rillettes de Tours (charcuterie cuite longuement au saindoux — IGP), géline de Touraine IGP (poule fermière de race ancienne, chair fine), tarte Tatin (à 80 km au sud-est, à Lamotte-Beuvron — inventée par les sœurs Tatin), poisson de Loire (sandre, brochet, anguille). Fromages : Sainte-Maure-de-Touraine AOP (chèvre cendré en bûchette), Selles-sur-Cher AOP. Sucré : nougat de Tours. Vins : Vouvray (blanc), Montlouis (blanc), Bourgueil et Chinon (rouges à 50 km à l'ouest).",
+      },
+    ],
+    relatedCities: ["amboise"],
+    relatedGuides: [
+      "vivre-en-centre-val-de-loire-guide-2026",
+    ],
+    tags: ["10 choses à faire à Amboise", "activités Amboise 2026", "sorties Amboise", "que faire à Amboise", "château royal Clos Lucé Vinci Chenonceau Chambord Loire UNESCO"],
+  },
+  {
+    slug: "10-choses-a-faire-a-saumur-2026",
+    title: "10 choses à faire à Saumur (le château des ducs d'Anjou et le Cadre Noir)",
+    metaTitle: "10 choses à faire à Saumur 2026 — activités et sorties locales",
+    metaDesc: "Château ducal, Cadre Noir, Abbaye de Fontevraud, vignobles Saumur-Champigny et grottes troglodytes : 10 activités à Saumur pour découvrir le Val de Loire angevin.",
+    category: "tourisme",
+    emoji: "🐎",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Saumur est une commune du Maine-et-Loire, 28 000 habitants au confluent de la Loire et du Thouet — l'une des plus belles cités du Val de Loire (classé UNESCO). Capitale historique de l'équitation française (Cadre Noir de Saumur, École nationale d'équitation depuis 1825), Saumur garde son château ducal XIVe-XVe siècles (« château des Très Riches Heures du Duc de Berry » — l'image enluminée du Moyen Âge français) et son patrimoine troglodytique exceptionnel (carrières de tuffeau reconverties en caves et habitations).",
+    sections: [
+      {
+        heading: "1. Le château de Saumur — la silhouette emblématique",
+        body: "Le château de Saumur (XIVe-XVe siècles, des ducs d'Anjou — Louis Ier d'Anjou, René Ier) domine la Loire depuis sa terrasse — l'une des silhouettes les plus emblématiques du Val de Loire. Représenté dans les Très Riches Heures du Duc de Berry (1413, l'une des plus célèbres enluminures du Moyen Âge). Aujourd'hui musée — collection d'arts décoratifs, faïences de Saumur (XVIIe-XVIIIe siècles), section équestre (en lien avec le Cadre Noir). Visite payante.",
+      },
+      {
+        heading: "2. Le Cadre Noir et l'École nationale d'équitation",
+        body: "Le Cadre Noir de Saumur (créé en 1825, école d'équitation militaire d'origine — école française la plus prestigieuse au monde) abrite l'École nationale d'équitation. Spectacles équestres en saison (mardi-jeudi en haute saison — 30 écuyers, 70 chevaux — démonstration des « airs relevés » : pirouettes, courbettes, levades, croupades, cabrioles — l'art équestre français classique). Réservation obligatoire. Visite des écuries possible.",
+      },
+      {
+        heading: "3. L'abbaye royale de Fontevraud — nécropole Plantagenêt",
+        body: "L'abbaye royale de Fontevraud (à 15 km au sud-est de Saumur, XIIe siècle romane — l'un des plus grands ensembles monastiques médiévaux d'Europe, classée UNESCO) est la nécropole des Plantagenêt — quatre gisants polychromes médiévaux : Henri II d'Angleterre, Aliénor d'Aquitaine (sa femme — la femme la plus puissante du Moyen Âge), Richard Cœur de Lion (leur fils, troisième fils), Isabelle d'Angoulême (femme de Jean sans Terre). Église abbatiale, cloître, salle capitulaire, cuisines romanes uniques en Europe.",
+      },
+      {
+        heading: "4. L'AOC Saumur-Champigny — le rouge tourangeau",
+        body: "L'AOC Saumur-Champigny (1 600 ha sur 9 communes au sud-est de Saumur, cépage cabernet franc) est l'un des plus prestigieux AOC rouges de Loire. Domaines : Clos Rougeard (icône du « vin rouge nature » des Frères Foucault, vendu très cher), Domaine Filliatreau, Château de Targé. Caveaux dans les villages (Champigny, Souzay-Champigny, Varrains, Chacé). À combiner avec les AOC voisines Saumur (effervescents méthode traditionnelle, blancs), Coteaux de Saumur (liquoreux).",
+      },
+      {
+        heading: "5. Les caves troglodytiques — Bouvet-Ladubay et Ackerman",
+        body: "Saumur compte 1 200 km de galeries troglodytiques creusées dans le tuffeau (pierre calcaire blanche utilisée pour les châteaux de la Loire) — l'un des plus grands réseaux souterrains civils d'Europe. Bouvet-Ladubay (1851, vins effervescents — visite des caves et dégustation gratuite, 8 km de galeries), Ackerman (1811, le plus ancien producteur de vins effervescents de Loire — la « méthode traditionnelle » a été développée ici en 1811 par Jean-Baptiste Ackerman). Visite payante.",
+      },
+      {
+        heading: "6. Les villages troglodytes — Rochemenier et Forges",
+        body: "Le village troglodytique de Rochemenier (à 15 km au sud-est de Saumur, écomusée) est un village creusé dans le tuffeau — 250 habitations souterraines abandonnées au début du XXe siècle, restaurées. Ferme troglodytique reconstituée, chapelle souterraine, école troglodytique. Idéal pour comprendre la vie paysanne troglodytique des XIXe-début XXe siècles. Le village voisin de Forges (à 5 km) garde aussi des habitations souterraines en activité.",
+      },
+      {
+        heading: "7. Le musée de la Cavalerie et des Blindés",
+        body: "Le Musée des Blindés de Saumur (créé en 1949, sur le site de l'École de Cavalerie de Saumur) abrite la deuxième plus grande collection mondiale de chars d'assaut (200 véhicules historiques en état de marche — des chars Renault FT-17 de 1917 aux Leclerc modernes). Section pédagogique sur l'évolution de la guerre blindée. Vu de l'extérieur, c'est un hangar industriel — à l'intérieur, fascinant pour les amateurs.",
+      },
+      {
+        heading: "8. La Loire à vélo et le port Saumur",
+        body: "La Loire à Vélo (EuroVélo 6) passe à Saumur. Étape Saumur-Angers (50 km, plate, ombragée — l'une des plus belles étapes du parcours, vue sur les châteaux et les vignobles). Saumur-Chinon (35 km à l'est, par Fontevraud et la vallée de la Vienne). Loueurs de vélos à la gare. Le port de Saumur (sur la Loire — bateaux promenade, descente en gabare 1h).",
+      },
+      {
+        heading: "9. Le Mushroom de la Magdeleine",
+        body: "Saumur est la capitale française de la production de champignons (Agaricus bisporus — champignon de Paris, dit « champignon de Saumur » dans la région — 75 % de la production française) — produits dans les caves troglodytes qui maintiennent une température constante de 14°C. Visite des champignonnières (Saint-Hilaire-Saint-Florent, La Magdeleine — sur réservation). Boutiques. Le marché des Halles à Saumur (samedi matin) vend des champignons frais à prix producteur.",
+      },
+      {
+        heading: "10. Gastronomie angevine — fouée et tarte Tatin",
+        body: "La cuisine de Saumur est tourangelle et angevine : fouée (petit pain creux servi tiède avec beurre, rillauds — confit de porc tendre, ou jambon — classique d'auberge angevine), rillauds d'Anjou, géline de Touraine IGP (poule fermière), poisson de Loire (sandre, brochet, anguille). Champignons de Saumur en accompagnement. Spécialités sucrées : crémet d'Anjou (fromage blanc battu monté en chantilly, servi avec coulis de fruits rouges), gâche vendéenne (brioche), tarte Tatin (à 100 km à l'est — inventée à Lamotte-Beuvron par les sœurs Tatin). Vins : Saumur-Champigny (rouge), Saumur (blanc et effervescent), Coteaux de Saumur (liquoreux).",
+      },
+    ],
+    relatedCities: ["saumur"],
+    relatedGuides: [
+      "vivre-en-pays-de-la-loire-guide-2025",
+    ],
+    tags: ["10 choses à faire à Saumur", "activités Saumur 2026", "sorties Saumur", "que faire à Saumur", "château Cadre Noir Fontevraud Saumur-Champigny troglodytes champignons"],
+  },
+  {
+    slug: "10-choses-a-faire-a-chantilly-2026",
+    title: "10 choses à faire à Chantilly (le château Renaissance et les Grandes Écuries)",
+    metaTitle: "10 choses à faire à Chantilly 2026 — activités et sorties locales",
+    metaDesc: "Château, musée Condé, Grandes Écuries, hippodrome, jardins Le Nôtre et Senlis : 10 activités à Chantilly pour découvrir l'Oise royale.",
+    category: "tourisme",
+    emoji: "🐎",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Chantilly est une commune de l'Oise, 11 000 habitants à 40 km au nord de Paris — l'une des plus prestigieuses cités d'Île-de-France. La ville est dominée par le château de Chantilly (XVIe-XIXe siècles, ancienne propriété des Princes de Condé puis du duc d'Aumale — fils du roi Louis-Philippe) qui abrite le Musée Condé — deuxième collection française de peintures anciennes après le Louvre. Capitale française du cheval (hippodrome de référence, Grandes Écuries XVIIIe siècle).",
+    sections: [
+      {
+        heading: "1. Le château de Chantilly — Renaissance et XIXe",
+        body: "Le château de Chantilly (XVIe-XIXe siècles, propriété successive des Montmorency, des Condé puis du duc d'Aumale — fils du roi Louis-Philippe) est l'un des plus beaux châteaux de France. Petit Château (XVIe siècle Renaissance — l'original conservé), Grand Château (XIXe siècle néo-Renaissance — reconstruction du duc d'Aumale après les destructions révolutionnaires). Jardins à la française dessinés par André Le Nôtre. Hippodrome, étangs, parc paysager. Soirées aux Chandelles en été.",
+      },
+      {
+        heading: "2. Le Musée Condé — la 2e collection française",
+        body: "Le Musée Condé (à l'intérieur du Grand Château de Chantilly) abrite la deuxième collection française de peintures anciennes après le Louvre — Raphaël (3 tableaux), Watteau, Fra Angelico, Poussin, Boucher, Filippo Lippi, Pieter Brueghel le Jeune. Bibliothèque (Les Très Riches Heures du Duc de Berry, le manuscrit enluminé le plus célèbre du Moyen Âge — c'est ici qu'il est conservé). Galerie de Psyché (44 vitraux Renaissance). Cabinet des Livres. Visite incluse dans le pass château.",
+      },
+      {
+        heading: "3. Les Grandes Écuries — le Musée Vivant du Cheval",
+        body: "Les Grandes Écuries de Chantilly (1719-1735, palais conçu par Jean Aubert pour le duc Louis-Henri de Bourbon-Condé, surnommé le « palais des chevaux » — l'un des plus grands palais d'écuries d'Europe) sont un chef-d'œuvre architectural Louis XV. 240 chevaux à l'origine, 90 aujourd'hui. Le Musée Vivant du Cheval (à l'intérieur — l'un des plus complets musées équestres au monde) présente l'histoire du cheval (mythologie, courses, gravures de Stubbs, sculptures équestres). Démonstrations équestres en saison.",
+      },
+      {
+        heading: "4. L'hippodrome — courses prestigieuses",
+        body: "L'hippodrome de Chantilly (créé en 1834 par le duc d'Orléans — l'un des plus prestigieux hippodromes français — plat et obstacles) accueille deux des plus prestigieuses courses du calendrier hippique français : le Prix du Jockey-Club (premier dimanche de juin — dotation 1,5 M€), le Prix de Diane (dernier dimanche de juin — dotation 1 M€, course des pouliches). Centre d'entraînement principal de France (3 000 chevaux en activité). Tribune Belle Époque restaurée.",
+      },
+      {
+        heading: "5. Senlis — la cité royale médiévale à 10 km",
+        body: "Senlis (à 10 km à l'est de Chantilly) est l'une des plus belles cités médiévales d'Île-de-France — première résidence des premiers Capétiens (Hugues Capet y fut élu roi en 987). Cathédrale Notre-Dame (XIIe siècle, gothique primitif, l'une des plus belles façades romanes de France), enceinte gallo-romaine et médiévale (intacte sur 800 m), ruelles pavées, hôtels particuliers Renaissance. Centre-ville pour piétons. Une journée facilement combinée à Chantilly.",
+      },
+      {
+        heading: "6. La crème Chantilly — l'invention culinaire",
+        body: "La Crème Chantilly (crème fouettée sucrée — l'une des plus célèbres préparations culinaires françaises) fut inventée à Chantilly au XVIIe siècle (1671, par François Vatel, maître d'hôtel du Grand Condé — qui se serait suicidé d'humiliation après que le poisson commandé pour le banquet royal de Louis XIV n'arrive pas à temps). La recette traditionnelle (300 g de crème, 30 g de sucre, vanille bourbon) est servie dans les restaurants de Chantilly accompagnée de fruits rouges ou de tarte.",
+      },
+      {
+        heading: "7. Les jardins de Chantilly — Le Nôtre",
+        body: "Les jardins de Chantilly (130 ha) sont l'œuvre cumulative de trois siècles. Jardins à la française dessinés par André Le Nôtre (1660 — l'œuvre la plus emblématique du grand jardinier de Versailles : parterres en broderie, grand canal, perspectives infinies). Jardin Anglo-Chinois (XVIIIe siècle, romantique). Hameau de la Princesse (XVIIIe siècle, modèle pour celui de Marie-Antoinette à Versailles). Visite gratuite avec le château.",
+      },
+      {
+        heading: "8. La forêt domaniale de Chantilly",
+        body: "La forêt domaniale de Chantilly (6 300 ha autour du château, hêtraie centenaire) est l'une des plus belles forêts d'Île-de-France. Allées royales (créées pour les chasses à courre), étangs, sentiers balisés. Site Natura 2000. La chasse à courre (vénerie) y est encore pratiquée par l'équipage Picard-de-Chantilly (chasse au cerf). Forêt préservée du tourisme de masse — peu fréquentée en semaine.",
+      },
+      {
+        heading: "9. L'abbaye de Royaumont — UNESCO contemporaine",
+        body: "L'Abbaye de Royaumont (à 5 km au sud de Chantilly, XIIIe siècle cistercienne — fondée par Saint Louis en 1228) est l'une des plus grandes abbayes cisterciennes médiévales préservées de France. Aujourd'hui Fondation Royaumont (depuis 1964 — centre culturel international : résidences d'artistes, concerts, séminaires). Église en ruines romantiques, cloître intact, salle capitulaire. Festival musical en septembre. À combiner avec Chantilly.",
+      },
+      {
+        heading: "10. Gastronomie picarde — flamiche et brie",
+        body: "La cuisine de Chantilly et de l'Oise mêle traditions picardes et franciliennes : flamiche aux poireaux (tarte salée picarde — l'une des plus anciennes recettes françaises), ficelle picarde (crêpe roulée garnie de jambon-champignons, gratinée), pâté de canard d'Amiens (à 60 km au nord). Fromages : Brie de Meaux AOP (à 60 km à l'est), Coulommiers (à 50 km), Maroilles AOP (à 100 km, le plus odorant). Spécialité d'origine : crème Chantilly (servie avec fruits rouges ou tartes). Tarte au sucre (Picardie).",
+      },
+    ],
+    relatedCities: ["chantilly"],
+    relatedGuides: [
+      "vivre-en-hauts-de-france-guide-2026",
+      "vivre-en-ile-de-france-guide-2025",
+    ],
+    tags: ["10 choses à faire à Chantilly", "activités Chantilly 2026", "sorties Chantilly", "que faire à Chantilly", "château Condé Grandes Écuries hippodrome Le Nôtre crème Senlis"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
