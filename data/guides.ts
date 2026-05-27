@@ -32743,6 +32743,658 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["10 choses à faire à Porto-Vecchio", "activités Porto-Vecchio 2026", "sorties Porto-Vecchio", "que faire à Porto-Vecchio", "Palombaggia Santa-Giulia Rondinara Bonifacio Alta Rocca Bavella"],
   },
+  {
+    slug: "10-choses-a-faire-a-arcachon-2026",
+    title: "10 choses à faire à Arcachon (le bassin et la dune du Pilat)",
+    metaTitle: "10 choses à faire à Arcachon 2026 — activités et sorties locales",
+    metaDesc: "Bassin d'Arcachon, dune du Pilat, Cap-Ferret, île aux Oiseaux et huîtres : 10 activités à Arcachon pour découvrir la perle de la Gironde.",
+    category: "tourisme",
+    emoji: "🦪",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Arcachon est une commune de la Gironde, 11 000 habitants au bord du Bassin d'Arcachon — la plus grande lagune intérieure de la côte Atlantique française (155 km², 270 millions d'huîtres produites par an). Ville née sous Napoléon III (1857 — ligne ferroviaire Bordeaux-Arcachon), Arcachon a été développée comme station balnéaire par les frères Pereire (banquiers et urbanistes). Les quatre « villes » (Ville d'Été, Ville d'Hiver, Ville d'Automne, Ville de Printemps — un quartier par saison, idée des Pereire) gardent leur architecture Belle Époque.",
+    sections: [
+      {
+        heading: "1. La dune du Pilat — la plus haute d'Europe",
+        body: "La dune du Pilat (à 8 km au sud d'Arcachon — 110 m de hauteur, 2,7 km de long, 500 m de large, 60 millions de m³ de sable) est la plus haute dune d'Europe et l'un des sites naturels les plus visités de France (2 millions de visiteurs/an). En perpétuel mouvement (avance de 1-5 m/an vers l'est — recule la forêt). Escalier saisonnier en bois pour l'ascension (juin-septembre), ou montée libre dans le sable (effort important — 20 min). Vue panoramique à 360° : Bassin d'Arcachon, océan Atlantique, forêt des Landes.",
+      },
+      {
+        heading: "2. Le Bassin d'Arcachon en bateau",
+        body: "Le Bassin d'Arcachon (lagune intérieure de 155 km² — 2/3 sont à marée basse) se visite en bateau. Croisières au départ d'Arcachon (Bateliers Arcachonnais — tour du bassin de 3h à 7h, passage par l'île aux Oiseaux et les cabanes Tchanquées). Pour info : Arcachon est aussi le port d'attache de la plus grande flotte ostréicole de France (370 ostréiculteurs sur le bassin). Possibilité de location de bateau (sans permis pour les petits — 80€ la demi-journée).",
+      },
+      {
+        heading: "3. Le Cap-Ferret — la presqu'île chic",
+        body: "Le Cap-Ferret (presqu'île de 25 km de long entre l'océan et le Bassin d'Arcachon — accessible en bateau depuis Arcachon en 20 min ou par la route depuis le sud) est l'une des plus chic destinations française. Plage du Truc Vert (sur l'océan — surf), plage de Bélisaire (sur le bassin — calme), village de pêcheurs traditionnel, phare du Cap-Ferret (3e plus haut de France à 53 m). Restaurants huîtres-vin blanc en bord de bassin (Pinasse Café, Chez Hortense — institution locale).",
+      },
+      {
+        heading: "4. Les huîtres du Bassin — la dégustation",
+        body: "Le Bassin d'Arcachon produit 8 000 tonnes d'huîtres creuses (Crassostrea gigas) par an — 65 % de la production française. Cabanes ostréicoles dans tous les ports du bassin (Petit Piquey, Grand Piquey, L'Herbe, Le Canon, Andernos, Lège). Dégustation traditionnelle : huîtres + crépinettes + verre de vin blanc des Graves AOC — 15-25€ par personne. Spécialité : huîtres de claire d'Arcachon (affinées dans les claires de l'île aux Oiseaux).",
+      },
+      {
+        heading: "5. La Ville d'Hiver — l'architecture pittoresque",
+        body: "La Ville d'Hiver d'Arcachon (perchée sur la colline boisée à l'arrière de la plage — créée en 1862-1863 par les frères Pereire pour les curistes parisiens en hiver) est l'un des plus beaux ensembles architecturaux pittoresques de France. 300 villas du XIXe siècle (style néo-gothique, néo-Renaissance, mauresque, suisse — chacun « pittoresque » — variations stylistiques fantaisistes), parc Mauresque (sur la colline — kiosque à musique, jardins). Salle des Mariages dans une villa originale.",
+      },
+      {
+        heading: "6. L'île aux Oiseaux et les Cabanes Tchanquées",
+        body: "L'Île aux Oiseaux (île centrale du Bassin d'Arcachon — 300 ha, propriété du Conservatoire du Littoral) abrite les célèbres Cabanes Tchanquées — deux cabanes en bois sur pilotis (« tchancat » signifie « sur des échasses » en gascon) construites en 1883 pour surveiller les parcs à huîtres. Devenues l'emblème du Bassin. Croisière obligatoire pour les voir de près (l'île est interdite à la baignade et au débarquement — réserve ornithologique).",
+      },
+      {
+        heading: "7. La plage du Moulleau et l'église Notre-Dame",
+        body: "La plage du Moulleau (à 2 km à l'ouest d'Arcachon — quartier balnéaire chic) est l'une des plus belles plages d'Arcachon. Église Notre-Dame des Passes (1864, néo-mauresque — coupole et tour blanche — l'une des architectures les plus exotiques de la côte Atlantique). Quartier piétonnier avec terrasses, glacier, boutiques. Au coucher du soleil, vue spectaculaire sur le banc d'Arguin et le Cap-Ferret.",
+      },
+      {
+        heading: "8. Le banc d'Arguin — la réserve naturelle",
+        body: "Le Banc d'Arguin (réserve naturelle nationale de 4 360 ha, créée en 1972 — banc de sable au large de la passe sud, entre Arcachon et Cap-Ferret) est l'un des sites ornithologiques majeurs d'Europe. 280 espèces d'oiseaux — colonie de 3 000 sternes caugek (la plus grande de France). Accessible uniquement en bateau (avec guide ornithologique de la Réserve — sorties d'avril à septembre). Eau turquoise, sable blanc.",
+      },
+      {
+        heading: "9. La forêt des Landes — la plus grande d'Europe",
+        body: "La Forêt des Landes de Gascogne (1 million d'hectares de pins maritimes, la plus grande forêt artificielle d'Europe occidentale) entoure le Bassin d'Arcachon. Sentiers de randonnée et pistes cyclables (300 km de pistes cyclables aménagées entre la mer et Arcachon). Étangs (Cazaux, Sanguinet — au sud, plus grands étangs naturels de France). Faune : sangliers, chevreuils, cerfs.",
+      },
+      {
+        heading: "10. Gastronomie aquitaine — huîtres et canelés",
+        body: "La cuisine d'Arcachon est marine girondine : huîtres du Bassin (crues, en duo avec crépinettes — saucisses plates traditionnelles, ou chaudes en gratin), tielle de la mer (à l'encornet et la pomme de terre — version sud-ouest), magret de canard du Sud-Ouest, foie gras. Spécialités : entrecôte à la bordelaise (échalotes et vin rouge), lamproie à la bordelaise (anguille de mer mythique). Spécialités sucrées : canelés bordelais (recette XIXe siècle), tarte aux pruneaux d'Agen. Vins : Graves AOC (à 50 km — les blancs secs idéaux pour les huîtres), Pessac-Léognan, Médoc.",
+      },
+    ],
+    relatedCities: ["arcachon"],
+    relatedGuides: [
+      "vivre-en-nouvelle-aquitaine-guide-2025",
+    ],
+    tags: ["10 choses à faire à Arcachon", "activités Arcachon 2026", "sorties Arcachon", "que faire à Arcachon", "bassin dune Pilat Cap-Ferret huîtres cabanes tchanquées Ville d'Hiver"],
+  },
+  {
+    slug: "10-choses-a-faire-a-royan-2026",
+    title: "10 choses à faire à Royan (l'architecture des années 50 et la Côte de Beauté)",
+    metaTitle: "10 choses à faire à Royan 2026 — activités et sorties locales",
+    metaDesc: "Église Notre-Dame, marché, Côte de Beauté, La Palmyre et phare de Cordouan : 10 activités à Royan pour découvrir la station charentaise.",
+    category: "tourisme",
+    emoji: "🏖️",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Royan est une commune de la Charente-Maritime, 18 000 habitants à l'embouchure de la Gironde — la plus grande station balnéaire de la côte Atlantique française au sud de La Rochelle. La ville a été détruite à 85 % par les bombardements alliés de janvier-avril 1945 (Royan était une « poche allemande » assiégée par les Alliés jusqu'à fin avril 1945), puis entièrement reconstruite dans un style moderniste des années 1950 (Brutaliste, Cité-Idéale — l'un des plus beaux ensembles modernes français).",
+    sections: [
+      {
+        heading: "1. L'église Notre-Dame — Brutaliste 1958",
+        body: "L'église Notre-Dame de Royan (1955-1958, architecte Guillaume Gillet — Brutaliste, monument historique depuis 1988) est l'un des chefs-d'œuvre de l'architecture religieuse moderne française. Toit en V renversé en béton armé (vaisseau de pierre), tour-clocher cylindrique de 65 m, vitraux contemporains d'Henri Martin-Granel. Bâtiment qui ressemble à un grand voilier inversé. Visite gratuite. À ne pas manquer pour qui aime l'architecture du XXe siècle.",
+      },
+      {
+        heading: "2. Le marché central et les halles modernes",
+        body: "Le Marché central de Royan (1955, architecte Louis Simon — coupole en béton armé en forme de coquillage — l'un des plus innovants marchés couverts français des années 1950) est un monument moderniste. 50 commerçants tous les matins (sauf lundi). Spécialités locales : huîtres de Marennes-Oléron, mojettes de Pont-l'Abbé, melons charentais. Conçu en harmonie avec l'architecture moderniste de la ville reconstruite.",
+      },
+      {
+        heading: "3. La Côte de Beauté — Saint-Palais et Vaux",
+        body: "La Côte de Beauté (côte rocheuse entre Royan et la pointe de la Coubre, sur 15 km) est l'une des plus belles côtes Atlantique de France. Saint-Palais-sur-Mer (à 5 km au nord — port de pêche traditionnel, plage de la Grande Côte), Vaux-sur-Mer (à 3 km — plage du Pontaillac populaire), la pointe de la Coubre (à 15 km — falaises blanches, sentier des Douaniers GR4). Phare de la Coubre (1905, signature — bandes rouge et blanche).",
+      },
+      {
+        heading: "4. La Palmyre — le zoo et la côte sauvage",
+        body: "La Palmyre (à 25 km au nord de Royan, sur la côte sauvage) est célèbre pour son Zoo de La Palmyre (créé en 1966 — l'un des plus grands zoos d'Europe, 1 600 animaux de 110 espèces sur 18 ha de pinède). Spectacles : ours blancs, otaries, lions. La forêt domaniale de La Palmyre-Bonne-Anse (4 000 ha de pinède) est l'une des plus belles forêts de la côte. Plage de Bonne-Anse (immense plage sauvage).",
+      },
+      {
+        heading: "5. Le phare de Cordouan — le Versailles de la Mer",
+        body: "Le Phare de Cordouan (à 7 km au large de Royan, à l'embouchure de la Gironde — 1611, surnommé le « Versailles de la Mer » — classé UNESCO depuis 2021, le plus ancien phare de France encore en activité) est l'un des plus beaux phares au monde. Accessible en bateau au départ de Royan ou du Verdon (croisière de 3h — à marée basse, accès à pied autour du phare). Architecture maniériste Renaissance, chapelle royale à l'intérieur (XVIe siècle, Louis XIII y vint en pèlerinage).",
+      },
+      {
+        heading: "6. Le bassin de Marennes-Oléron — huîtres",
+        body: "Le Bassin de Marennes-Oléron (à 30 km au nord de Royan — premier bassin ostréicole français, 45 000 tonnes d'huîtres par an, 25 % de la production française) est l'un des hauts lieux gastronomiques. Cité de l'Huître à Marennes (musée moderne 2007 — parcours pédagogique avec dégustation). Visite des claires (anciens marais salants reconvertis en bassins d'affinage). Spécialités : huîtres « fines de claire », « spéciales de claire ».",
+      },
+      {
+        heading: "7. L'île d'Oléron — la plus grande île métropolitaine après la Corse",
+        body: "L'île d'Oléron (à 35 km au nord de Royan, accessible par le viaduc d'Oléron — 3 km, gratuit) est la deuxième plus grande île française après la Corse — 30 km de long, 23 000 habitants. Plages immenses (côte sauvage à l'ouest — Vert Bois, Grand-Village-Plage), villages typiques (Saint-Pierre-d'Oléron, Le Château-d'Oléron, Saint-Trojan-les-Bains). Citadelle Vauban du Château-d'Oléron (XVIIe siècle). Pour info : île à vélo (300 km de pistes cyclables).",
+      },
+      {
+        heading: "8. L'estuaire de la Gironde — le plus grand d'Europe",
+        body: "L'Estuaire de la Gironde (le plus grand estuaire d'Europe occidentale — 75 km de Bordeaux à l'océan Atlantique, 12 km de large à l'embouchure) est le second axe Atlantique européen après l'estuaire de la Tamise. Bateaux de croisière au départ de Royan (descendre la rive nord — château de Margaux, Saint-Estèphe — domaines viticoles AOC Médoc). Carrelets (cabanes de pêche sur pilotis) typiques de l'estuaire — l'image d'épinal du sud-ouest.",
+      },
+      {
+        heading: "9. Le musée de Royan — la reconstruction",
+        body: "Le Musée de Royan (l'un des musées municipaux moins connus mais riches en histoire locale) raconte la reconstruction de la ville après 1945 — photographies de la ville détruite, plans de reconstruction (Claude Ferret, urbaniste), maquettes des bâtiments emblématiques (église Notre-Dame, halles modernes, palais des Congrès — l'un des chefs-d'œuvre moderniste de Royan). Idéal pour comprendre l'âme architecturale de la ville.",
+      },
+      {
+        heading: "10. Gastronomie charentaise — huîtres et cognac",
+        body: "La cuisine de Royan est marine charentaise : huîtres de Marennes-Oléron (en duo avec crépinettes), mouclade charentaise (moules à la sauce vin blanc et crème), éclade de moules (moules grillées sur aiguilles de pin — spécialité traditionnelle), lamproie à la bordelaise (anguille de mer). Cagouilles à la charentaise (escargots petit-gris, ail-vin blanc). Spécialités : galette charentaise (sablé), beurre Charentes-Poitou AOP. Vins : Pineau des Charentes (apéritif), Cognac (digestif — à 50 km à l'est).",
+      },
+    ],
+    relatedCities: ["royan"],
+    relatedGuides: [
+      "vivre-en-nouvelle-aquitaine-guide-2025",
+    ],
+    tags: ["10 choses à faire à Royan", "activités Royan 2026", "sorties Royan", "que faire à Royan", "architecture années 50 Notre-Dame Côte Beauté Cordouan UNESCO Marennes-Oléron"],
+  },
+  {
+    slug: "10-choses-a-faire-a-libourne-2026",
+    title: "10 choses à faire à Libourne (Saint-Émilion et le grand vignoble bordelais)",
+    metaTitle: "10 choses à faire à Libourne 2026 — activités et sorties locales",
+    metaDesc: "Saint-Émilion, Pomerol, Fronsac, vieille bastide et confluent : 10 activités à Libourne pour découvrir le cœur viticole du Libournais.",
+    category: "tourisme",
+    emoji: "🍇",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Libourne est une commune de la Gironde, 25 000 habitants au confluent de la Dordogne et de l'Isle — fondée en 1270 par le sénéchal anglais Roger de Leybourne (Bastide royale anglaise — d'où le nom). Capitale du « Libournais », l'autre grand vignoble bordelais (avec le Médoc à l'ouest de la Garonne) — AOC Saint-Émilion (le rouge le plus prestigieux), Pomerol (le Petrus, le château Pétrus est le rouge le plus cher au monde — 5 000€/bouteille), Fronsac. Hôtel de Ville XVe siècle (le maire de Libourne a été Robert Boulin — politicien assassiné en 1979).",
+    sections: [
+      {
+        heading: "1. Saint-Émilion — UNESCO et grands crus",
+        body: "Saint-Émilion (à 9 km à l'est de Libourne, plus beau village de France, classé UNESCO 1999 — premier vignoble UNESCO au monde) est l'épicentre des grands crus du Libournais. AOC Saint-Émilion (5 200 ha — cépages merlot dominant et cabernet franc — vins rouges les plus prestigieux du Bordelais). Domaines : Château Cheval Blanc (Premier Grand Cru Classé A — l'un des 4 vins du sommet du classement), Château Ausone, Château Pavie, Château Angélus. Église monolithe taillée dans la roche (XIIe siècle — unique en Europe par sa taille).",
+      },
+      {
+        heading: "2. Pomerol et le Petrus — le rouge le plus cher",
+        body: "L'AOC Pomerol (à 5 km au nord-est de Libourne — 780 ha, le plus petit grand vignoble bordelais) produit certains des rouges les plus prestigieux et chers au monde. Château Pétrus (12 ha, 50 000 bouteilles/an — 5 000-8 000€/bouteille au prix domaine, 25 000€/bouteille pour les grands millésimes en restaurant), Château Le Pin (4 ha, 600 bouteilles/an — l'un des « garage wines » les plus chers, 2 000-5 000€). Pas de classement officiel des AOC Pomerol (contrairement au Médoc) — chaque domaine se vend par sa réputation. Sentier balisé en boucle dans le vignoble.",
+      },
+      {
+        heading: "3. Fronsac et Canon-Fronsac — la Bourgogne du Bordelais",
+        body: "L'AOC Fronsac (à 8 km à l'ouest de Libourne — 800 ha, sur des coteaux argilo-calcaires — surnommée la « Bourgogne du Bordelais » à cause des terroirs plus accidentés que la rive gauche) produit des vins rouges puissants (cépages merlot, cabernet franc). Domaines : Château La Dauphine, Château Dalem, Château Mayne-Vieil. Vues panoramiques sur la Dordogne et le Libournais. Caveau de Fronsac à l'office de tourisme (dégustation gratuite).",
+      },
+      {
+        heading: "4. La bastide de Libourne — XIIIe siècle",
+        body: "La vieille ville de Libourne est l'une des plus anciennes bastides royales anglaises de Gascogne (fondée en 1270 par Roger de Leybourne — sénéchal du roi Édouard Ier d'Angleterre, sous Henri III). Place Abel-Surchamp (cœur de la bastide — 100 m × 100 m, l'une des plus grandes places de bastide encore conservées, terrasses ombragées). Tour du Grand-Port (XIVe siècle, vestige des remparts — au confluent de l'Isle et de la Dordogne).",
+      },
+      {
+        heading: "5. Le confluent Isle-Dordogne — bateau",
+        body: "Le confluent Isle-Dordogne (à Libourne, où l'Isle se jette dans la Dordogne — qui se jette ensuite dans la Gironde) est l'un des hauts lieux fluviaux du Sud-Ouest. Promenade en bateau (croisière de 1h30 — passage par le confluent et descente sur la Dordogne, vue sur les vignobles de Fronsac). Possibilité de location de canot et paddle. Quais aménagés, terrasses face au confluent.",
+      },
+      {
+        heading: "6. Saint-Émilion souterrain — catacombes",
+        body: "Saint-Émilion compte 200 km de galeries souterraines creusées dans le calcaire (utilisées historiquement comme carrière de pierre, refuge, cave à vins). Visite des Catacombes de Saint-Émilion (carrière médiévale — galeries gothiques sur 25 m de hauteur). Visite de l'Église Monolithe (taillée dans la roche à partir d'une grotte naturelle, du Xe au XIIe siècle — unique en Europe par sa taille, 38 m de long, 12 m de hauteur).",
+      },
+      {
+        heading: "7. Saint-Émilion à pied — le village",
+        body: "Saint-Émilion (plus beau village de France, UNESCO) est un dédale médiéval — ruelles pavées, hôtels particuliers Renaissance, place de l'Église-Monolithe (cœur), Tour du Roy (XIIIe siècle — donjon royal anglais), cloître des Cordeliers (XIVe siècle, en partie ruiné — aujourd'hui domaine producteur de Crémant de Saint-Émilion, visite gratuite). Boutiques de vins et de macarons de Saint-Émilion (créés en 1620 par les Sœurs Ursulines — l'un des plus anciens macarons français).",
+      },
+      {
+        heading: "8. Le Périgord et Bergerac — à 60 km",
+        body: "Bergerac (à 60 km à l'est de Libourne, en Dordogne) est la capitale du vignoble bergeracois — AOC Bergerac (rouges et blancs), Monbazillac (vin liquoreux à base de sémillon et muscadelle, vendanges tardives — l'un des plus prestigieux liquoreux français). Le village médiéval. Bergerac est aussi l'origine du nom du personnage de Cyrano (le théâtre d'Edmond Rostand est inspiré du Cyrano historique, né à Paris mais ayant pris ce pseudonyme).",
+      },
+      {
+        heading: "9. La Vélo Voie Verte de la Dordogne",
+        body: "La Vélo Voie Verte de la Dordogne (au départ de Libourne — 30 km de pistes cyclables le long de la Dordogne, plates) est l'une des plus belles voies vertes du Sud-Ouest. Étape Libourne-Saint-Émilion-Castillon-la-Bataille (25 km, plate, ombragée — passage par les vignobles). Loueurs de vélos à Libourne. La Castillon-la-Bataille (à 25 km — site de la bataille de Castillon en 1453 qui mit fin à la guerre de Cent Ans).",
+      },
+      {
+        heading: "10. Gastronomie bordelaise — entrecôte et canelé",
+        body: "La cuisine du Libournais est aquitaine : entrecôte à la bordelaise (échalotes et vin rouge — recette née à Bordeaux à 35 km à l'ouest), lamproie à la bordelaise (anguille de mer, sang et vin rouge — recette mythique), magret de canard du Sud-Ouest, foie gras, confit. Spécialités : asperges du Blayais (à 30 km au nord-ouest — au printemps), huîtres de Marennes-Oléron (à 100 km, achetées à Libourne). Sucré : canelé bordelais (XIXe siècle, à Bordeaux), macaron de Saint-Émilion (depuis 1620 — pâtisserie historique du village). Vins : Saint-Émilion, Pomerol, Fronsac, Lalande-de-Pomerol.",
+      },
+    ],
+    relatedCities: ["libourne"],
+    relatedGuides: [
+      "vivre-en-nouvelle-aquitaine-guide-2025",
+    ],
+    tags: ["10 choses à faire à Libourne", "activités Libourne 2026", "sorties Libourne", "que faire à Libourne", "Saint-Émilion UNESCO Pomerol Petrus Fronsac bastide confluent"],
+  },
+  {
+    slug: "10-choses-a-faire-a-dinan-2026",
+    title: "10 choses à faire à Dinan (la cité médiévale et la Rance)",
+    metaTitle: "10 choses à faire à Dinan 2026 — activités et sorties locales",
+    metaDesc: "Remparts médiévaux, rue du Jerzual, port de Dinan, Saint-Malo et Mont-Saint-Michel : 10 activités à Dinan pour découvrir la cité bretonne fortifiée.",
+    category: "tourisme",
+    emoji: "🏰",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Dinan est une commune des Côtes-d'Armor, 14 000 habitants en surplomb de la Rance — l'une des plus belles cités médiévales de Bretagne. 3 km de remparts du XIIIe siècle intacts (parmi les mieux conservés de France), ruelles pavées (la rue du Jerzual est considérée comme la plus belle rue médiévale de Bretagne), maisons à pans de bois XVe-XVIe siècles. À 30 km au sud de Saint-Malo, à 70 km du Mont-Saint-Michel.",
+    sections: [
+      {
+        heading: "1. Les remparts médiévaux — 3 km intacts",
+        body: "Les Remparts de Dinan (XIIIe-XIVe siècles, 3 km d'enceinte avec 14 tours et 4 portes — l'un des plus complets ensembles fortifiés médiévaux de Bretagne) entourent la vieille ville. Promenade le long des remparts (gratuite, en boucle d'1h). Tour-château Renaissance (XIVe siècle — résidence d'Anne de Bretagne, duchesse puis reine de France à 14 ans en 1491 — aujourd'hui musée municipal). Vue panoramique sur la vallée de la Rance.",
+      },
+      {
+        heading: "2. La rue du Jerzual — la plus belle rue médiévale",
+        body: "La rue du Jerzual (axe pavé en pente reliant la vieille ville haute au port de Dinan en contrebas — 70 m de dénivelé sur 250 m) est considérée comme la plus belle rue médiévale de Bretagne. Maisons à pans de bois XVe-XVIe siècles (anciennes boutiques de cordonniers, tisserands, tanneurs — d'où le nom « Jerzual » qui pourrait venir de l'occitan « jerze » = peau, cuir). Aujourd'hui galeries d'artisans, ateliers de potiers, restaurants. Ascension à pied.",
+      },
+      {
+        heading: "3. Le port de Dinan et la Rance",
+        body: "Le Port de Dinan (au pied de la vieille ville, sur les bords de la Rance — ancien port médiéval) est l'un des plus pittoresques de Bretagne. Maisons à pans de bois XVIIe siècle alignées sur le quai. Possibilité de croisières sur la Rance (de Dinan à Saint-Malo en 2h30 par les écluses — 30€ AR, magnifique). Le pont Vieux (XVe siècle, gothique) franchit la Rance. Café-restaurant en bord de quai.",
+      },
+      {
+        heading: "4. Saint-Malo — la cité corsaire à 30 km",
+        body: "Saint-Malo (à 30 km au nord de Dinan, accessible en croisière par la Rance) est la cité corsaire. Ville fortifiée Vauban entièrement entourée de remparts (1 km de tour complet à pied au-dessus des plages). Plages emblématiques : Bon-Secours et Sillon. Patrie de Surcouf et Cartier (premier explorateur du Canada). Côte d'Émeraude jusqu'à Cancale (port d'huîtres à 15 km, ostréiculture millénaire). Idéal pour une journée depuis Dinan.",
+      },
+      {
+        heading: "5. Le Mont-Saint-Michel — UNESCO à 70 km",
+        body: "Le Mont-Saint-Michel (à 70 km à l'est de Dinan, classé UNESCO depuis 1979 — l'un des sites les plus visités de France) est accessible en 1h30 de route. Abbaye bénédictine du XIe-XVIe siècles, ruelles médiévales de la cité, baie aux plus grandes marées d'Europe (15 m d'amplitude). Traversée à pied de la baie possible avec un guide agréé (au départ de Genêts, 4h, 30€) — une expérience unique.",
+      },
+      {
+        heading: "6. La maison Du Guesclin — le connétable",
+        body: "Bertrand Du Guesclin (1320-1380, connétable de France — le plus grand chef militaire français du Moyen Âge — vainqueur des Anglais pendant la guerre de Cent Ans) est né au Château de la Motte-Broons à 30 km au sud-ouest de Dinan. Son cœur est enterré à Dinan (église Saint-Sauveur — sépulture séparée typique des chevaliers du Moyen Âge — le reste de son corps est aux Mortemer). Statue équestre place Du Guesclin (cœur de la vieille ville).",
+      },
+      {
+        heading: "7. La basilique Saint-Sauveur",
+        body: "La basilique Saint-Sauveur de Dinan (XIIe-XVIe siècles — assemblage roman et gothique flamboyant) est l'une des plus belles églises bretonnes. Porte romane sculptée du XIIe siècle (la « Porte de Pèlerins »), nef gothique flamboyant du XVe siècle, vitraux contemporains du XXe siècle. Le cœur de Bertrand Du Guesclin y est conservé dans une châsse sous le maître-autel.",
+      },
+      {
+        heading: "8. La tour de l'Horloge — XVe siècle",
+        body: "La Tour de l'Horloge de Dinan (XVe siècle, 45 m de hauteur — l'une des plus belles tours-horloges de France) est un beffroi médiéval qui rythmait la vie de la cité. Ascension de 158 marches au sommet (vue à 360° sur Dinan et la vallée de la Rance). Carillon de 4 cloches qui sonnent toutes les 15 min. Pour info, la tour était la marque de la richesse bourgeoise face au pouvoir religieux (la basilique Saint-Sauveur à côté).",
+      },
+      {
+        heading: "9. Le festival des Rencontres internationales de la Harpe celtique",
+        body: "Les Rencontres Internationales de la Harpe Celtique de Dinan (premier festival mondial de harpe celtique — fin juin, organisé par l'association Camac Productions) accueillent les meilleurs harpistes de musique traditionnelle bretonne, irlandaise, écossaise, galicienne. Concerts gratuits dans toute la vieille ville. Marché de luthiers de harpes. Idéal pour les passionnés de musique celtique.",
+      },
+      {
+        heading: "10. Gastronomie bretonne — fruits de mer et galette",
+        body: "La cuisine de Dinan est bretonne classique : galette de blé noir (au beurre salé, au jambon-fromage, complète — sarrasin breton), crêpes de froment (sucrées), kig-ha-farz (potée bretonne au lard et farz). Fruits de mer : huîtres de Cancale (à 50 km — l'une des plus prestigieuses), coquilles Saint-Jacques de la baie de Saint-Brieuc (à 80 km, octobre-mai). Spécialités sucrées : kouign-amann (gâteau breton au beurre IGP), far breton (flan aux pruneaux), caramel au beurre salé. Cidre brut breton (Sarzeau), chouchen (hydromel).",
+      },
+    ],
+    relatedCities: ["dinan"],
+    relatedGuides: [
+      "vivre-en-bretagne-guide-2025",
+      "vivre-en-bretagne-nord-guide-2025",
+    ],
+    tags: ["10 choses à faire à Dinan", "activités Dinan 2026", "sorties Dinan", "que faire à Dinan", "remparts médiévaux Jerzual Du Guesclin Rance Saint-Malo Mont-Saint-Michel"],
+  },
+  {
+    slug: "10-choses-a-faire-a-pezenas-2026",
+    title: "10 choses à faire à Pézenas (la cité de Molière et le Languedoc)",
+    metaTitle: "10 choses à faire à Pézenas 2026 — activités et sorties locales",
+    metaDesc: "Hôtels particuliers Renaissance, atelier Molière, marché, Béziers et étang de Thau : 10 activités à Pézenas pour découvrir la « Versailles du Languedoc ».",
+    category: "tourisme",
+    emoji: "🎭",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Pézenas est une commune de l'Hérault, 8 500 habitants à 22 km au nord-est de Béziers — surnommée la « Versailles du Languedoc ». Capitale du Languedoc historique des États provinciaux du XVIe-XVIIIe siècles (les rois de France réunissaient les états du Languedoc à Pézenas). Molière y a vécu et joué pendant 7 ans (1650-1657) — il en a tiré l'inspiration de plusieurs personnages (Le Médecin malgré lui, Tartuffe). 70 hôtels particuliers Renaissance et XVIIe siècle.",
+    sections: [
+      {
+        heading: "1. Le centre historique — 70 hôtels particuliers",
+        body: "Le centre historique de Pézenas (Secteur sauvegardé depuis 1965) est l'un des plus complets ensembles d'architecture Renaissance et XVIIe siècle de France — 70 hôtels particuliers conservés (Hôtel d'Alfonce où Molière a séjourné, Hôtel des Barons de Lacoste, Maison Jacques-Cœur, Hôtel de Conti). Rues pavées (rue de la Foire, rue Émile-Zola), portes sculptées, cours intérieures à arcades. Promenade libre à pied (2-3h).",
+      },
+      {
+        heading: "2. La boutique du Barbier Gély — Molière",
+        body: "La Boutique du Barbier Gély (rue Triperie-Vieille — où Molière prenait note des manies des Languedociens chez son barbier favori) est l'un des sites emblématiques de la « cité de Molière ». La boutique est aujourd'hui un mini-musée gratuit (avec reconstitution du salon de coiffure). Les personnages observés par Molière dans cette boutique sont devenus Sganarelle, Tartuffe et Le Bourgeois gentilhomme.",
+      },
+      {
+        heading: "3. Le marché du samedi matin — l'un des plus beaux",
+        body: "Le Marché de Pézenas (samedi matin — l'un des plus beaux marchés du Languedoc) attire 5 000 visiteurs en haute saison. Spécialités : olives, huile d'olive du Languedoc, charcuteries cathares, fromages (Pélardon AOP), petits pâtés de Pézenas IGP (gâteau anglo-indien sucré-salé du XVIIIe siècle — la spécialité emblématique), miel des Causses. Marché en plein air sur la place de la République. À combiner avec le marché du jeudi matin (plus quotidien).",
+      },
+      {
+        heading: "4. La collégiale Saint-Jean — gothique flamboyant",
+        body: "La Collégiale Saint-Jean de Pézenas (XIIe-XVIIIe siècles, reconstruite plusieurs fois après destructions) est l'église emblématique de la ville. Façade gothique flamboyant XVe siècle, tour-clocher XVIIIe siècle. À l'intérieur : retable doré XVIIIe siècle, orgue Cavaillé-Coll. Visite gratuite.",
+      },
+      {
+        heading: "5. Les vignobles AOC Languedoc — Picpoul",
+        body: "L'AOC Picpoul de Pinet (à 20 km à l'est de Pézenas — 1 500 ha, l'une des plus prestigieuses AOC blancs de Languedoc — cépage piquepoul blanc unique au monde) est le vin emblématique du Languedoc oriental. Vin blanc sec, citronné, idéal sur huîtres de Bouzigues (étang de Thau à 20 km). Domaines : Domaine de la Mirande, Domaine Félines-Jourdan. À combiner avec une visite à Bouzigues (huîtres) et Sète.",
+      },
+      {
+        heading: "6. Béziers — la cité de Pierre-Paul Riquet",
+        body: "Béziers (à 22 km au sud-ouest de Pézenas) est l'autre grande cité du Languedoc oriental. Les 9 écluses de Fonsérannes (1697, conçues par Pierre-Paul Riquet — chef-d'œuvre du canal du Midi, UNESCO — cascade d'écluses qui permettent au canal de descendre de 21,50 m). Cathédrale Saint-Nazaire (XIIIe siècle, gothique méridional fortifié — silhouette emblématique). Allées Paul-Riquet (la grande promenade arborée). Feria de Béziers en août.",
+      },
+      {
+        heading: "7. L'étang de Thau et Bouzigues — huîtres",
+        body: "L'étang de Thau (à 25 km à l'est de Pézenas — 75 km², la plus grande lagune française) produit 8 000 tonnes d'huîtres et 600 tonnes de moules par an. Bouzigues (à 25 km de Pézenas) est la capitale des huîtres de l'étang — élevées sur cordes verticales (technique unique en Méditerranée). Visite des mas conchylicoles, dégustation au bord de l'eau (12-18€ la douzaine d'huîtres), tour de l'étang en bateau.",
+      },
+      {
+        heading: "8. Sète — la « Venise du Languedoc »",
+        body: "Sète (à 30 km à l'est de Pézenas) est le premier port de pêche de la Méditerranée française. Mont Saint-Clair (175 m, ancien volcan éteint — belvédère panoramique), joutes nautiques (tournoi du 25 août, fête de la Saint-Louis depuis 1666 — sport et fête identitaire de Sète), cimetière marin (où Paul Valéry est enterré), MIAM (Musée International des Arts Modestes). Brassens y est né.",
+      },
+      {
+        heading: "9. Les villages perchés du Languedoc",
+        body: "L'arrière-pays de Pézenas compte plusieurs villages perchés du Languedoc. Saint-Guilhem-le-Désert (à 50 km au nord, plus beau village de France, UNESCO — sur le chemin de Saint-Jacques), Minerve (à 60 km à l'ouest, plus beau village de France — siège cathare de 1210). Mont Saint-Loup (à 8 km à l'est de Pézenas — ancien volcan, vue panoramique sur l'étang de Thau).",
+      },
+      {
+        heading: "10. Gastronomie languedocienne — petit pâté et picpoul",
+        body: "La cuisine de Pézenas mêle Languedoc et héritages méridionaux : petits pâtés de Pézenas IGP (gâteau en croûte sucré-salé au mouton — héritage anglo-indien apporté au XVIIIe siècle par le gouverneur des Indes Lord Clive — chef officiel à Pézenas — la spécialité emblématique). Brandade de morue nîmoise, tielle sétoise (à 30 km), fougasse aux gratons. Charcuteries cévenoles. Fromages : Pélardon AOP (chèvre), Roquefort AOP (à 100 km). Vins : Picpoul de Pinet (sur huîtres de Thau), Terrasses du Larzac (rouge), Muscat de Frontignan (vin doux naturel).",
+      },
+    ],
+    relatedCities: ["pezenas"],
+    relatedGuides: [
+      "vivre-en-occitanie-guide-2025",
+    ],
+    tags: ["10 choses à faire à Pézenas", "activités Pézenas 2026", "sorties Pézenas", "que faire à Pézenas", "Molière hôtels particuliers Renaissance petit pâté Picpoul Thau"],
+  },
+  {
+    slug: "10-choses-a-faire-a-vienne-2026",
+    title: "10 choses à faire à Vienne (la cité gallo-romaine du Rhône et le jazz)",
+    metaTitle: "10 choses à faire à Vienne 2026 — activités et sorties locales",
+    metaDesc: "Temple d'Auguste, théâtre romain, Festival Jazz à Vienne, vignobles Côte-Rôtie et Lyon : 10 activités à Vienne pour découvrir l'Isère gallo-romaine.",
+    category: "tourisme",
+    emoji: "🏛️",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Vienne est une commune de l'Isère, 30 000 habitants au bord du Rhône — l'une des plus anciennes cités françaises (capitale des Allobroges celtiques au -IVe siècle av. J.-C., puis cité romaine majeure — Vienna Allobrogum, l'une des trois capitales de la Gaule romaine avec Lyon et Narbonne). La ville garde des vestiges antiques exceptionnels (Temple d'Auguste et de Livie, théâtre romain de 13 000 places). Aujourd'hui célèbre dans le monde entier pour Jazz à Vienne — l'un des plus grands festivals de jazz au monde.",
+    sections: [
+      {
+        heading: "1. Le Temple d'Auguste et de Livie — Ier siècle av. J.-C.",
+        body: "Le Temple d'Auguste et de Livie (Ier siècle av. J.-C., dédié à l'empereur Auguste et son épouse Livie — l'un des deux seuls temples romains complets de France encore debout avec la Maison Carrée de Nîmes) est l'icône antique de Vienne. 18 m de hauteur, 24 m de long, façade à 6 colonnes corinthiennes. Réutilisé comme église au Moyen Âge (ce qui l'a sauvé de la démolition). À voir absolument.",
+      },
+      {
+        heading: "2. Le théâtre romain — 13 000 places",
+        body: "Le Théâtre romain de Vienne (Ier siècle ap. J.-C., adossé à la colline du Mont Pipet — 13 000 places, l'un des plus grands théâtres romains de la Gaule, comparable à celui d'Orange à 100 km au sud) est le site emblématique de Jazz à Vienne. Restauré au XXe siècle, il accueille chaque été les concerts du festival. Visite libre hors période de concert.",
+      },
+      {
+        heading: "3. Le festival Jazz à Vienne — fin juin-mi-juillet",
+        body: "Jazz à Vienne (créé en 1981, 15 jours fin juin-mi-juillet — l'un des plus grands festivals de jazz au monde, 200 000 spectateurs/an) accueille les plus grands : Herbie Hancock, Marcus Miller, Diana Krall, Tony Bennett, Stevie Wonder. Concerts du soir dans le théâtre antique romain (5 000 places — atmosphère magique sous les étoiles), concerts gratuits du midi au Jardin de Cybèle. Réservation des places très à l'avance pour les concerts de tête d'affiche.",
+      },
+      {
+        heading: "4. Les vignobles AOC Côte-Rôtie et Condrieu",
+        body: "L'AOC Côte-Rôtie (à 5 km au sud de Vienne, sur la rive droite du Rhône — 240 ha de vignobles en terrasses, cépage syrah dominant) est l'une des plus prestigieuses AOC de la vallée du Rhône. Producteurs de premier ordre : Domaine Guigal (les iconiques « La Mouline », « La Landonne », « La Turque » — vendus 200-500€/bouteille), Domaine Jamet, Domaine Rostaing. AOC Condrieu (à 10 km — l'une des plus rares AOC blanches de France, cépage viognier exclusivement).",
+      },
+      {
+        heading: "5. La cathédrale Saint-Maurice — gothique rayonnant",
+        body: "La Cathédrale Saint-Maurice de Vienne (XIIe-XVIe siècles, gothique rayonnant) est l'une des plus belles cathédrales du Rhône-Alpes. Façade à trois portails sculptés (XIVe siècle), nef gothique à 20 travées (l'une des plus longues nef gothique de France à 90 m), vitraux du XIVe au XVIIe siècle. Visite gratuite.",
+      },
+      {
+        heading: "6. Lyon et la Croix-Rousse — à 30 km",
+        body: "Lyon (à 30 km au nord de Vienne) est la grande métropole du sud-est. Vieux Lyon (cité Renaissance UNESCO — l'une des plus grandes zones Renaissance d'Europe avec Florence), Croix-Rousse (quartier des soyeux et des canuts — révoltes ouvrières du XIXe siècle), Fourvière (basilique néo-byzantine), Confluence (quartier moderne au confluent Rhône-Saône — Musée des Confluences). Bouchons lyonnais (les restaurants traditionnels — quenelles, tablier de sapeur). Accessible en 20 min en train ou en voiture.",
+      },
+      {
+        heading: "7. Le Pilat — le parc naturel régional",
+        body: "Le Parc naturel régional du Pilat (créé en 1974 — 70 000 ha entre Loire et Rhône, à 20 km au sud-ouest de Vienne) est l'un des plus beaux parcs régionaux français. Crêts du Pilat (point culminant : Crêt de la Perdrix à 1 432 m — vue panoramique sur les Alpes), forêts, prairies. À pied (sentiers balisés), à VTT, en raquettes l'hiver. Spécialité : la rigotte de Condrieu AOP (chèvre fermier).",
+      },
+      {
+        heading: "8. Le musée gallo-romain de Saint-Romain-en-Gal",
+        body: "Le Musée gallo-romain de Saint-Romain-en-Gal (sur la rive droite du Rhône, juste en face de Vienne — site archéologique de 7 ha) abrite l'une des plus importantes collections françaises sur la vie quotidienne gallo-romaine. Mosaïques en place (la plus belle : « Mosaïque des Atours », IIe siècle ap. J.-C. — 95 m²), maisons romaines avec hypocaustes, ateliers, thermes. Gratuit le premier dimanche.",
+      },
+      {
+        heading: "9. La ViaRhôna — vélo le long du Rhône",
+        body: "La ViaRhôna (EuroVélo 17, voie verte de 815 km du lac Léman à la Méditerranée) traverse Vienne. Étape Lyon-Vienne (30 km, plate, ombragée, le long du Rhône — l'une des plus belles étapes urbaines). Étape Vienne-Tournon-sur-Rhône (60 km, à travers les vignobles de Côte-Rôtie et Condrieu — l'une des plus belles étapes œnologiques). Loueurs de vélos électriques à Vienne et Tournon.",
+      },
+      {
+        heading: "10. Gastronomie rhodanienne — quenelles et Côte-Rôtie",
+        body: "La cuisine de Vienne est lyonnaise et rhodanienne : quenelles de brochet à la lyonnaise (à la sauce Nantua à la crème d'écrevisses), tablier de sapeur (gras-double pané et grillé), poularde de Bresse à la crème (à 50 km à l'ouest — l'une des seules volailles AOC au monde), poisson du Rhône (sandre, brochet, anguille). Fromages : Saint-Marcellin (à 50 km à l'est, AOP), Picodon (à 80 km au sud), rigotte de Condrieu AOP. Vins : Côte-Rôtie (rouge syrah, le grand), Condrieu (blanc viognier, le grand), Saint-Joseph (rouge), Côtes-du-Rhône.",
+      },
+    ],
+    relatedCities: ["vienne"],
+    relatedGuides: [
+      "vivre-en-auvergne-rhone-alpes-guide-2025",
+    ],
+    tags: ["10 choses à faire à Vienne", "activités Vienne 2026", "sorties Vienne", "que faire à Vienne", "Temple Auguste théâtre romain Jazz Côte-Rôtie Condrieu Lyon Pilat"],
+  },
+  {
+    slug: "10-choses-a-faire-a-riom-2026",
+    title: "10 choses à faire à Riom (la cité judiciaire et l'Auvergne romane)",
+    metaTitle: "10 choses à faire à Riom 2026 — activités et sorties locales",
+    metaDesc: "Vieille ville, basilique Saint-Amable, Vichy, Volvic, chaîne des Puys et Clermont-Ferrand : 10 activités à Riom pour découvrir le nord du Puy-de-Dôme.",
+    category: "tourisme",
+    emoji: "🌋",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Riom est une commune du Puy-de-Dôme, 19 000 habitants à 15 km au nord de Clermont-Ferrand — ancienne capitale judiciaire des États d'Auvergne (Cour d'appel encore active aujourd'hui, surnom de « cité judiciaire »). La ville est riche en architecture Renaissance et XVIIIe siècle (75 hôtels particuliers classés). Au pied de la chaîne des Puys (volcans d'Auvergne classés UNESCO 2018) et à 5 km de Volvic (l'une des plus célèbres marques d'eau au monde — eau minérale issue des coulées volcaniques).",
+    sections: [
+      {
+        heading: "1. La vieille ville — 75 hôtels particuliers",
+        body: "La vieille ville de Riom (Secteur sauvegardé) est l'un des plus complets ensembles Renaissance et XVIIIe siècle d'Auvergne — 75 hôtels particuliers conservés. Hôtel Dufraisse (XVIe siècle Renaissance), Hôtel de Rocquière (XVIIe siècle), Maison des Consuls (XVe siècle, gothique flamboyant). Tour de l'Horloge (1525, Renaissance — l'un des plus beaux beffrois d'Auvergne, 30 m de hauteur). Pierre volcanique noire — particularité auvergnate.",
+      },
+      {
+        heading: "2. La basilique Saint-Amable — romane auvergnate",
+        body: "La Basilique Saint-Amable de Riom (XIIe siècle, romane auvergnate — la plus grande église romane d'Auvergne avec celle de Brioude) est l'un des chefs-d'œuvre du roman auvergnat. Façade en lave volcanique noire, tour-clocher d'Auvergne, chœur à déambulatoire avec chapelles rayonnantes (caractéristique de l'art roman auvergnat). À l'intérieur : tombeau de Saint Amable (évangélisateur de la région au IVe siècle).",
+      },
+      {
+        heading: "3. La chaîne des Puys — UNESCO 2018",
+        body: "La Chaîne des Puys (à 10 km à l'ouest de Riom — classée UNESCO 2018 — 80 volcans alignés sur 45 km, le plus jeune complexe volcanique de France métropolitaine, le dernier en activité il y a 8 500 ans) est l'un des plus beaux paysages volcaniques d'Europe. Puy de Dôme (1 465 m, le sommet emblématique — accessible par le Panoramique des Dômes, train à crémaillère depuis 2012 — vue à 360° sur les Alpes par temps clair). Puy de Pariou (le « volcan parfait »).",
+      },
+      {
+        heading: "4. Volvic — eau minérale et source",
+        body: "Volvic (à 5 km au nord-est de Riom — la marque d'eau minérale est l'une des plus exportées au monde) est l'épicentre d'une eau filtrée par 6 strates volcaniques. Maison de la Source Volvic (musée interactif sur le cycle de l'eau, gratuit). Espace de découverte Volvic (visite des installations de production). À côté, le village de Volvic (origine de la pierre de Volvic — utilisée dans toute l'Auvergne pour ses constructions noires en lave).",
+      },
+      {
+        heading: "5. Clermont-Ferrand — à 15 km",
+        body: "Clermont-Ferrand (à 15 km au sud de Riom — préfecture du Puy-de-Dôme, 145 000 habitants — métropole de l'Auvergne) est la grande ville régionale. Cathédrale Notre-Dame-de-l'Assomption (XIIIe siècle gothique en pierre de Volvic — la plus emblématique cathédrale gothique en lave noire du monde), basilique Notre-Dame-du-Port (XIIe siècle, romane auvergnate, UNESCO), place de Jaude (centre — statue équestre de Vercingétorix). Siège de Michelin (l'icône industrielle de Clermont).",
+      },
+      {
+        heading: "6. Vichy — la cité thermale UNESCO à 60 km",
+        body: "Vichy (à 60 km au nord-est de Riom, classée UNESCO 2021 — l'une des « Grandes Villes d'Eaux d'Europe ») est la plus belle station thermale française. Parc des Sources, opéra Belle Époque, casino, sources thermales gratuites (à goûter), galerie des sources (1903, fer forgé). Hôtel Aletti, Hôtel Carlton. Lac d'Allier (le plus grand plan d'eau urbain de France).",
+      },
+      {
+        heading: "7. La Sainte-Chapelle de Riom",
+        body: "La Sainte-Chapelle de Riom (1395, gothique flamboyant — l'une des trois Saintes-Chapelles encore debout en France avec celles de Paris et Vincennes) est un chef-d'œuvre architectural. Édifiée par Jean Ier de Berry (duc de Berry — l'un des plus grands mécènes du Moyen Âge, frère du roi Charles V), elle abrite des vitraux gothiques exceptionnels. Visite payante.",
+      },
+      {
+        heading: "8. Mozac — l'abbaye romane",
+        body: "L'Abbaye de Mozac (à 1 km à l'ouest de Riom, XIe-XIIe siècles — l'une des plus belles abbayes romanes auvergnates) abrite la châsse de saint Calmin (XIIe siècle, émaux limousins — chef-d'œuvre de l'orfèvrerie médiévale). Chapiteaux historiés exceptionnels (notamment la « Résurrection des morts » — l'un des plus beaux chapiteaux romans français). Visite gratuite.",
+      },
+      {
+        heading: "9. Le plateau de Gergovie — Vercingétorix",
+        body: "Le Plateau de Gergovie (à 20 km au sud de Riom — site présumé de la bataille de Gergovie de -52 av. J.-C., où Vercingétorix a vaincu Jules César avant d'être finalement battu à Alésia 6 mois plus tard) est l'un des hauts lieux symboliques de l'identité française. Mémorial érigé en 1903 (« obélisque de Gergovie », 26 m de hauteur). MuséoParc Alésia ouvre des éléments — mais c'est Alésia (à 350 km, en Bourgogne) qui a le grand musée.",
+      },
+      {
+        heading: "10. Gastronomie auvergnate — truffade et fromages AOP",
+        body: "La cuisine de Riom est auvergnate paysanne : truffade (galette de pommes de terre sautées au lard et tomme fraîche), aligot (purée fouettée avec tomme — étirable à 2 m), pounti (pain de viande aux pruneaux et bettes), potée auvergnate (chou, lard, saucisses). 5 fromages AOP du Massif central proches : Saint-Nectaire (à 30 km — pâte pressée non cuite, l'un des plus emblématiques), Fourme d'Ambert AOP (à 60 km — pâte persillée), Bleu d'Auvergne AOP, Cantal AOP, Salers AOP. Spécialités sucrées : pâtes de fruits d'Auvergne, croquant de Riom. Vins : Côtes d'Auvergne AOC (à 20 km), Saint-Pourçain.",
+      },
+    ],
+    relatedCities: ["riom"],
+    relatedGuides: [
+      "vivre-en-auvergne-guide-2025",
+      "vivre-en-auvergne-rhone-alpes-guide-2025",
+    ],
+    tags: ["10 choses à faire à Riom", "activités Riom 2026", "sorties Riom", "que faire à Riom", "vieille ville Saint-Amable chaîne Puys UNESCO Volvic Clermont Vichy"],
+  },
+  {
+    slug: "10-choses-a-faire-a-sisteron-2026",
+    title: "10 choses à faire à Sisteron (la citadelle Vauban et la Provence-Alpes)",
+    metaTitle: "10 choses à faire à Sisteron 2026 — activités et sorties locales",
+    metaDesc: "Citadelle, agneau de Sisteron, gorges de la Durance, plateau de Valensole et Manosque : 10 activités à Sisteron pour découvrir la « porte de la Provence ».",
+    category: "tourisme",
+    emoji: "⛰️",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Sisteron est une commune des Alpes-de-Haute-Provence, 7 000 habitants à 480 m d'altitude — surnommée la « porte de la Provence » (passage stratégique entre Alpes du Sud et Provence sur la Durance). La ville est dominée par sa citadelle Vauban (XIe-XVIIe siècles, perchée sur un éperon rocheux de 100 m de hauteur). Patrie de l'agneau de Sisteron IGP (le plus prestigieux agneau français — élevé en bergeries d'alpage, chair claire et goût subtil).",
+    sections: [
+      {
+        heading: "1. La citadelle de Sisteron — Vauban",
+        body: "La Citadelle de Sisteron (XIe-XVIIe siècles, fortifiée par Vauban en 1690 — perchée à 580 m sur un éperon rocheux de 100 m surplombant la Durance) est l'une des plus impressionnantes places fortes de Provence. Visite avec audioguide (1h30) — bastions, casemates, chapelle Notre-Dame du Château, donjon roman. Vue panoramique à 360° sur les Préalpes de Digne, la Durance et la vallée du Buëch. Festival « Nuits de la Citadelle » en juillet-août (théâtre, musique).",
+      },
+      {
+        heading: "2. L'agneau de Sisteron — IGP",
+        body: "L'Agneau de Sisteron IGP (depuis 1995 — le plus prestigieux agneau français, élevé en bergeries d'alpage de Sisteron-Manosque) est la fierté gastronomique locale. 250 000 agneaux par an. Chair claire, goût subtil, gras absorbé par le muscle. Marché aux ovins de Sisteron (le mercredi matin — l'un des plus grands de France pour le marché des agneaux d'estive). Restaurants spécialisés : Les Becs Fins (à Sisteron — Michelin), Mas des Espérances.",
+      },
+      {
+        heading: "3. La Durance et les gorges",
+        body: "La Durance (rivière qui passe à Sisteron) traverse la cité dans des gorges encaissées entre la Baume et le Rocher de la Baume. Sentier de la Durance (10 km en boucle) au pied de la citadelle. Possibilité de descente en canoë sur la Durance (rivière calme dans cette section). Le Rocher de la Baume (face à la citadelle, sur l'autre rive — escalade renommée, l'un des meilleurs spots calcaires français).",
+      },
+      {
+        heading: "4. Le plateau de Valensole — lavandes",
+        body: "Le Plateau de Valensole (à 30 km au sud de Sisteron) est le plus grand plateau lavandier de France — 800 km² de cultures de lavandin (floraison fin juin à fin juillet — l'un des plus beaux paysages d'Europe). Fête de la Lavande à Valensole le 3e dimanche de juillet. Distilleries à visiter. À photographier avant 8h ou après 18h pour éviter la foule.",
+      },
+      {
+        heading: "5. Manosque — la patrie de Giono",
+        body: "Manosque (à 50 km au sud de Sisteron, dans les Alpes-de-Haute-Provence) est la plus grande ville du département. Patrie de Jean Giono (1895-1970, l'un des plus grands romanciers français du XXe siècle — Hussard sur le toit, Regain) — Centre Jean-Giono à visiter. Siège de L'Occitane en Provence (visite gratuite de l'usine). Centre médiéval avec portes fortifiées.",
+      },
+      {
+        heading: "6. Forcalquier — la cité des comtes de Provence",
+        body: "Forcalquier (à 35 km au sud de Sisteron) est l'ancien siège des comtes de Provence avant Aix. Cité médiévale perchée. La citadelle Notre-Dame-de-Provence (au sommet, vue à 360° sur le Luberon et les Alpes), la cathédrale Notre-Dame-du-Marché (XIIe-XIIIe siècles), la place du Bourget (terrasses ombragées). Marché du lundi matin (l'un des plus beaux de Provence — pas touristique, vraiment local).",
+      },
+      {
+        heading: "7. Les gorges de la Méouge",
+        body: "Les Gorges de la Méouge (à 15 km à l'ouest de Sisteron — sur la rivière Méouge, affluent du Buëch) sont l'une des plus belles gorges des Alpes du Sud. Eau turquoise, baignade sauvage (plages de galets), pont médiéval (XIIIe siècle). Sentier balisé en boucle (8 km, 3h). Mois idéal pour la baignade : juillet-août (eau à 16-18°C).",
+      },
+      {
+        heading: "8. L'observatoire de Saint-Michel et le ciel étoilé",
+        body: "L'Observatoire de Haute-Provence (à 40 km au sud de Sisteron, à Saint-Michel-l'Observatoire — l'un des plus grands observatoires astronomiques français — créé en 1937 dans l'air le plus pur d'Europe occidentale) est l'un des hauts lieux de l'astronomie française. Lieu de la découverte de la première exoplanète en 1995 (Michel Mayor, prix Nobel 2019). Visite guidée des coupoles (T193 cm, le plus grand télescope optique français). Soirées d'observation.",
+      },
+      {
+        heading: "9. La cathédrale Notre-Dame-des-Pommiers",
+        body: "La Cathédrale Notre-Dame-des-Pommiers de Sisteron (XIIe siècle, romane lombarde — l'une des plus belles églises romanes des Alpes du Sud) est le monument religieux emblématique. Façade en pierre blanche, tour-clocher massive. Trésor de la cathédrale (orfèvrerie médiévale, statues sculptées). Restaurée au XIXe siècle. Visite gratuite.",
+      },
+      {
+        heading: "10. Gastronomie haut-provençale — agneau et fromages",
+        body: "La cuisine de Sisteron est haut-provençale : agneau de Sisteron IGP (rôti, grillé, en navarin — recette dominicale), pieds-paquets (tripes d'agneau farcies, héritage de Marseille), tian de légumes provençaux. Fromages AOP : Banon (chèvre fermier feuille de châtaignier — à 50 km à l'ouest), Bleu de Sassenage. Spécialités : huile d'olive de Haute-Provence AOP, miel de Provence (lavande, romarin). Vins : Coteaux de Pierrevert (AOC haute altitude — l'une des AOC les plus hautes de France à 450 m), Côtes du Luberon (à 50 km).",
+      },
+    ],
+    relatedCities: ["sisteron"],
+    relatedGuides: [
+      "vivre-en-provence-paca-guide-2025",
+    ],
+    tags: ["10 choses à faire à Sisteron", "activités Sisteron 2026", "sorties Sisteron", "que faire à Sisteron", "citadelle Vauban agneau IGP Durance Valensole Manosque Forcalquier"],
+  },
+  {
+    slug: "10-choses-a-faire-a-apt-2026",
+    title: "10 choses à faire à Apt (le marché du Luberon et les fruits confits)",
+    metaTitle: "10 choses à faire à Apt 2026 — activités et sorties locales",
+    metaDesc: "Marché provençal, fruits confits, ocres de Roussillon, Luberon et Gordes : 10 activités à Apt pour découvrir le cœur du Vaucluse.",
+    category: "tourisme",
+    emoji: "🍑",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Apt est une commune du Vaucluse, 11 000 habitants au cœur du Luberon — capitale française des fruits confits (les célèbres « fruits d'Apt » exportés depuis le XVIIe siècle dans toutes les cours royales européennes — Maison Aptunion fournisseur du Vatican depuis Pie IX). Marché provençal du samedi matin (l'un des plus grands et authentiques de Provence — pas touristique). Au cœur du Parc naturel régional du Luberon.",
+    sections: [
+      {
+        heading: "1. Le marché provençal du samedi matin",
+        body: "Le Marché provençal d'Apt (samedi matin, depuis 1523 — l'un des plus grands et authentiques marchés de Provence) attire 5 000 visiteurs en haute saison sur 2 km de stalles dans toute la vieille ville. Spécificité : marché de paysans (pas un marché touristique avec revendeurs — vrais producteurs locaux qui parlent provençal). Fruits et légumes du Luberon, fromages provençaux, charcuteries, miel de Provence, huile d'olive, lavande, fruits confits. À ne pas manquer.",
+      },
+      {
+        heading: "2. Les fruits confits d'Apt — Maison Aptunion",
+        body: "Apt est la capitale française des fruits confits depuis le XVIIe siècle (commande des cours royales européennes, fournisseur du Vatican depuis Pie IX). La Maison Aptunion (créée en 1933, regroupement de 3 fabriques historiques — première fabrique française de fruits confits) propose une visite gratuite (sur RDV) avec démonstration et dégustation. Boutiques de fruits confits dans toute la ville (cerises, melons, abricots, ananas — tous confits dans le sirop pendant 60 jours).",
+      },
+      {
+        heading: "3. La cathédrale Sainte-Anne",
+        body: "La Cathédrale Sainte-Anne d'Apt (XIIe-XVIIIe siècles, multi-styles) abrite le voile de Sainte Anne (relique présumée — la mère de la Vierge Marie) ramenée des Croisades au XIIIe siècle. Trésor de la cathédrale (orfèvrerie médiévale, ornements liturgiques). À l'extérieur : place ombragée, terrasses. Visite gratuite.",
+      },
+      {
+        heading: "4. Roussillon — le « village rouge »",
+        body: "Roussillon (à 10 km à l'ouest d'Apt, plus beau village de France) est l'un des plus colorés villages d'Europe — entièrement construit en pierres ocre (rouge, orange, jaune) extraites des falaises de Roussillon. Le Sentier des Ocres (1h en boucle, 3€ — sentier au cœur de l'ancienne carrière d'ocre, paysage de canyons rouges et orangés). Conservatoire des Ocres et de la Couleur (musée géologique). Vue panoramique sur les Monts de Vaucluse.",
+      },
+      {
+        heading: "5. Gordes — le village perché",
+        body: "Gordes (à 20 km à l'ouest d'Apt, classé parmi les plus beaux villages de France) est l'icône du Luberon — maisons en pierre sèche calcaire blanche disposées en cercles concentriques sur un éperon rocheux à 370 m d'altitude. Belvédère à l'entrée du village (point de vue le plus photographié de Provence). L'abbaye de Sénanque (à 4 km, encadrée par un champ de lavandes — image emblématique de la Provence).",
+      },
+      {
+        heading: "6. Le Parc naturel régional du Luberon",
+        body: "Le PNR du Luberon (créé en 1977 — 180 000 ha sur le Luberon, Petit Luberon et Monts de Vaucluse) est l'un des plus beaux parcs régionaux français. Sentiers de randonnée (GR9 traverse le parc), villages perchés (Ménerbes, Lacoste, Bonnieux à 15 km d'Apt), forêts de cèdres (Cèdres de la Cédraie au Petit Luberon — plantés au XIXe siècle, l'une des plus belles cédraies d'Europe). Maison du Parc à Apt (centre d'interprétation gratuit).",
+      },
+      {
+        heading: "7. Bonnieux et le Petit Luberon",
+        body: "Bonnieux (à 15 km au sud d'Apt, plus beau village de France) est l'un des plus pittoresques villages du Luberon — perché à 425 m sur un piton calcaire, terrasses en escaliers, vieille église haute (XIIe siècle, romane) tout en haut du village. Vue panoramique sur le Petit Luberon. Marché du vendredi matin. À 5 km, le Pont Julien (pont romain du Ier siècle av. J.-C. — l'un des mieux conservés en France).",
+      },
+      {
+        heading: "8. Le château de Lacoste — Sade et Cardin",
+        body: "Le Château de Lacoste (à 12 km au sud-ouest d'Apt, XIe-XVIIe siècles) est le château du Marquis de Sade — qui y a vécu une grande partie de sa vie (et y a été emprisonné). Donatien Alphonse François de Sade (1740-1814). Aujourd'hui propriété du couturier Pierre Cardin (qui a restauré le château et y a installé un festival théâtral en juillet). Vieille ville médiévale en pied de château.",
+      },
+      {
+        heading: "9. Les ocres de Rustrel — le « Colorado provençal »",
+        body: "Le Colorado Provençal de Rustrel (à 10 km au nord d'Apt — ancienne carrière d'ocre exploitée jusqu'aux années 1950) est un paysage spectaculaire — cheminées de fée, falaises orangées et rouges, cirques karstiques. Sentier balisé en boucle (5 km, 2h). Le site est l'un des plus colorés de France — comparable au Colorado américain en miniature. Accès à pied uniquement (parking au village).",
+      },
+      {
+        heading: "10. Gastronomie provençale — truffe et fromages",
+        body: "La cuisine d'Apt est l'une des plus raffinées de Provence : agneau de Sisteron IGP (à 70 km à l'est), pieds-paquets, tian de légumes, soupe au pistou. Spécialités emblématiques : truffe noire du Vaucluse (Tuber melanosporum — l'une des plus prestigieuses, novembre-mars — marché aux truffes d'Apt le samedi matin novembre-mars), miel de Provence IGP, lavande, fruits confits d'Apt. Fromages : Banon AOP (chèvre fermier feuille de châtaignier, à 50 km à l'est). Vins : Côtes du Luberon AOC (autour d'Apt, rouge léger), Ventoux (à 30 km au nord — AOC rouge plus structuré).",
+      },
+    ],
+    relatedCities: ["apt"],
+    relatedGuides: [
+      "vivre-en-provence-paca-guide-2025",
+    ],
+    tags: ["10 choses à faire à Apt", "activités Apt 2026", "sorties Apt", "que faire à Apt", "marché fruits confits ocres Roussillon Gordes Bonnieux Luberon"],
+  },
+  {
+    slug: "10-choses-a-faire-a-annonay-2026",
+    title: "10 choses à faire à Annonay (la cité des Montgolfier et l'Ardèche nord)",
+    metaTitle: "10 choses à faire à Annonay 2026 — activités et sorties locales",
+    metaDesc: "Montgolfière, musée des frères Montgolfier, ViaRhôna, vignobles Saint-Joseph et parc du Pilat : 10 activités à Annonay pour découvrir l'Ardèche nord.",
+    category: "tourisme",
+    emoji: "🎈",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Annonay est une commune de l'Ardèche, 16 000 habitants à 400 m d'altitude — ville natale des frères Montgolfier (Joseph-Michel 1740-1810 et Jacques-Étienne 1745-1799), inventeurs de la montgolfière (premier vol démonstration le 4 juin 1783, à Annonay — l'événement fondateur de la conquête de l'air). Aux portes du Parc naturel régional du Pilat et des vignobles AOC Saint-Joseph. Capitale française de la papeterie industrielle au XVIIe-XXe siècles (les Montgolfier étaient des papetiers — le ballon à air chaud est né de leur expertise du papier).",
+    sections: [
+      {
+        heading: "1. Le Musée des frères Montgolfier",
+        body: "Le Musée d'Annonay (rue de Champagne, dans la fabrique papetière historique) abrite le musée des frères Montgolfier — manuscrits, reconstitution du premier ballon (12 m de hauteur, lin et papier), maquettes, gravures d'époque. Section papeterie (Annonay a été la capitale française du papier — les Montgolfier dirigeaient une manufacture, la papeterie Canson — Canson est toujours active à Annonay aujourd'hui). Gratuit le premier dimanche.",
+      },
+      {
+        heading: "2. La place des Cordeliers — où eut lieu le premier vol",
+        body: "La Place des Cordeliers (cœur d'Annonay) est le lieu historique du premier vol démonstration en montgolfière (4 juin 1783, devant les autorités locales — le ballon est monté à 1 000 m d'altitude). Statue commémorative des frères Montgolfier. Marché du samedi matin sur la place. Pour info : 6 mois plus tard, à Paris, les frères Robert ont fait monter le premier homme en montgolfière (Pilâtre de Rozier — premier aéronaute).",
+      },
+      {
+        heading: "3. Le festival international de la Montgolfière",
+        body: "Annonay organise tous les 2 ans (années paires) le « Festival International de la Montgolfière » (en juin, anniversaire du premier vol des Montgolfier en 1783) — rassemblement de 80 montgolfières du monde entier qui décollent simultanément de la place des Cordeliers et des prés voisins. Spectacle spectaculaire. Possibilité de baptême en montgolfière (200-300€ par personne — à réserver des mois à l'avance).",
+      },
+      {
+        heading: "4. Le parc naturel régional du Pilat",
+        body: "Le Parc naturel régional du Pilat (créé en 1974 — 70 000 ha entre Loire et Rhône, à 5 km à l'est d'Annonay) est l'un des plus beaux parcs régionaux français. Crêts du Pilat (point culminant : Crêt de la Perdrix à 1 432 m — vue panoramique sur les Alpes), forêts, prairies. À pied (sentiers balisés), à VTT, en raquettes l'hiver. Sentier des Crêts (35 km en 3 jours, gîtes d'étape).",
+      },
+      {
+        heading: "5. La ViaRhôna — vélo le long du Rhône",
+        body: "La ViaRhôna (EuroVélo 17, voie verte de 815 km du lac Léman à la Méditerranée — à 15 km à l'est d'Annonay) est l'une des plus belles voies vertes d'Europe. Étape Lyon-Vienne-Tournon (60 km, à travers les vignobles de Côte-Rôtie et Condrieu) — l'une des plus belles étapes œnologiques. Loueurs de vélos électriques à Tournon et Annonay.",
+      },
+      {
+        heading: "6. Le vignoble AOC Saint-Joseph",
+        body: "L'AOC Saint-Joseph (1 100 ha à l'est d'Annonay, sur la rive droite du Rhône — l'une des AOC septentrionales de la vallée du Rhône — cépage syrah pour le rouge, marsanne et roussanne pour le blanc) est l'un des grands vignobles rhodaniens. Domaines : Domaine Pierre Gaillard, Domaine Yves Cuilleron, Domaine Stéphane Robert (Domaine du Tunnel). Caves à visiter à Tournon-sur-Rhône (à 25 km à l'est). AOC Cornas (à 30 km, syrah pure) et Saint-Péray (effervescent) à proximité.",
+      },
+      {
+        heading: "7. Tournon-sur-Rhône — le pont Marc Seguin",
+        body: "Tournon-sur-Rhône (à 25 km à l'est d'Annonay, sur la rive droite du Rhône) abrite le château fort de Tournon (XIVe-XVIe siècles — résidence des comtes de Tournon, vues sur le Rhône). Le pont Marc-Seguin (1825 — premier pont suspendu d'Europe à câbles métalliques, classé monument historique) traverse le Rhône — invention de Marc Seguin (lui-même natif de la région, inventeur du pont suspendu moderne et de la chaudière tubulaire).",
+      },
+      {
+        heading: "8. Saint-Étienne — à 40 km",
+        body: "Saint-Étienne (à 40 km au nord-ouest d'Annonay — préfecture de la Loire, 170 000 habitants) est l'une des grandes villes du Massif central. Musée d'Art Moderne (l'un des plus complets musées d'art contemporain français), Manufrance (musée du cycle et de l'armement — Saint-Étienne fut un grand centre français de manufacture industrielle), Stade Geoffroy-Guichard (« le Chaudron » — l'un des stades les plus emblématiques du football français — AS Saint-Étienne).",
+      },
+      {
+        heading: "9. Les gorges du Doux et le Train de l'Ardèche",
+        body: "Les Gorges du Doux (à 30 km au sud-est d'Annonay, sur la rivière Doux — affluent du Rhône) sont l'une des plus belles gorges des Préalpes. Train de l'Ardèche (« Mastrou » — train à vapeur historique sur ligne SNCF désaffectée — circule juin-septembre, parcours de 40 km dans les gorges du Doux entre Tournon et Lamastre, 2h30 aller-retour, 25€). L'un des plus beaux trajets ferroviaires touristiques de France.",
+      },
+      {
+        heading: "10. Gastronomie ardéchoise — caillette et picodon",
+        body: "La cuisine d'Annonay est ardéchoise et rhodanienne : caillette (petite boule de viande hachée et bettes — apéritif emblématique), bombine (ragoût de pomme de terre et viande), maôche (estomac de cochon farci aux feuilles de chou). Fromages : Picodon AOP (chèvre fermier de 100 g), Saint-Marcellin (à 50 km au nord-est). Spécialités sucrées : tarte à la châtaigne, marrons glacés (à Privas à 80 km au sud — Maison Faugier), papillote (chocolat fourré pâte d'amande, inventée à Lyon en 1840). Vins : Saint-Joseph (rouge syrah), Cornas (rouge syrah pur), Côte-Rôtie (à 30 km — l'un des plus prestigieux rouges du Rhône).",
+      },
+    ],
+    relatedCities: ["annonay"],
+    relatedGuides: [
+      "vivre-en-auvergne-rhone-alpes-guide-2025",
+    ],
+    tags: ["10 choses à faire à Annonay", "activités Annonay 2026", "sorties Annonay", "que faire à Annonay", "Montgolfier ballon papeterie Pilat Saint-Joseph Tournon ViaRhôna"],
+  },
+  {
+    slug: "10-choses-a-faire-a-montbeliard-2026",
+    title: "10 choses à faire à Montbéliard (le château des Württemberg et l'Alsace francophone)",
+    metaTitle: "10 choses à faire à Montbéliard 2026 — activités et sorties locales",
+    metaDesc: "Château, Lumières de Noël, musée Peugeot, vallée de la Loue et Sochaux : 10 activités à Montbéliard pour découvrir le nord du Doubs.",
+    category: "tourisme",
+    emoji: "🎄",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Montbéliard est une commune du Doubs, 26 000 habitants — l'une des plus singulières cités de Franche-Comté. Capitale historique du Pays de Montbéliard (principauté luthérienne sous les ducs de Württemberg de 1397 à 1793 — l'un des rares territoires germanophones d'Ancien Régime à devenir français à la Révolution), elle garde une architecture allemande Renaissance et baroque unique en France. Voisine immédiate de Sochaux (siège Peugeot, l'une des plus grandes usines automobiles d'Europe).",
+    sections: [
+      {
+        heading: "1. Le château des Württemberg — XIIIe-XVIIIe siècles",
+        body: "Le Château de Montbéliard (XIIIe-XVIIIe siècles, ancienne résidence des ducs de Württemberg — l'un des plus prestigieux palais princiers de l'est de la France) domine la ville. Deux tours médiévales (Henriette et Frédéric — XIVe-XVe siècles), palais princier reconstruit au XVIIe siècle. Aujourd'hui musée municipal (collection historique du Pays de Montbéliard, archéologie gallo-romaine, peintures). Gratuit le premier dimanche.",
+      },
+      {
+        heading: "2. Les Lumières de Noël — fin novembre-décembre",
+        body: "Les Lumières de Noël de Montbéliard (depuis 1987, fin novembre-fin décembre — premier marché de Noël créé en France, modèle des marchés alsaciens d'aujourd'hui) sont l'événement majeur de la ville. 200 chalets en bois, illuminations, sapin géant sur la place Saint-Martin, manège ancien. Spécialités : pain d'épices, vin chaud, bredele (biscuits de Noël alsaciens — héritage germanophone du Pays de Montbéliard). 1 million de visiteurs/an.",
+      },
+      {
+        heading: "3. Le musée Peugeot — Sochaux",
+        body: "Le Musée Peugeot (à Sochaux, à 3 km au sud-est de Montbéliard — siège mondial du groupe Peugeot et l'une des plus grandes usines automobiles d'Europe) est l'un des plus complets musées automobiles français. 350 véhicules historiques (du moulin à café — premier produit Peugeot 1810 — aux voitures contemporaines, en passant par les bicyclettes Peugeot, motos, scooters). Section motorsport (Le Mans, Rally Paris-Dakar). Pour info : visite de l'usine sur réservation aussi possible.",
+      },
+      {
+        heading: "4. La vallée du Doubs et la Loue",
+        body: "Le Doubs (rivière qui passe à Montbéliard) traverse le Pays de Montbéliard dans des paysages bocagers verdoyants. La Loue (affluent du Doubs, à 30 km au sud) est l'une des plus belles rivières de Franche-Comté — source à Ouhans (résurgence karstique spectaculaire — Vincent Van Gogh y a peint « La Source de la Loue », son ultime toile en 1890). Sentier balisé le long de la Loue (50 km, 3 jours).",
+      },
+      {
+        heading: "5. La principauté de Montbéliard — héritage luthérien",
+        body: "Le Pays de Montbéliard (principauté luthérienne sous les ducs de Württemberg de 1397 à 1793) a une particularité unique en France — l'un des rares territoires germanophones d'Ancien Régime devenus français. Église Saint-Martin (1607-1614, l'un des plus anciens temples protestants de France encore en activité — luthérien). Maisons à pignons à redents (style germanique typique). Quartier Vieille Ville préservé.",
+      },
+      {
+        heading: "6. Le Pays Horloger — Suisse francophone",
+        body: "Le Pays Horloger (à 40 km au sud de Montbéliard, vers Morteau et la frontière suisse) est l'épicentre français de l'horlogerie. Morteau (à 60 km — capitale française du saucisson — Saucisse de Morteau IGP, fumée au bois d'épicéa). Pontarlier (à 80 km — capitale française de l'absinthe). Activités horlogères en lien avec la Suisse voisine (les manufactures du Locle, La Chaux-de-Fonds — UNESCO — à 30 min en voiture).",
+      },
+      {
+        heading: "7. La Citadelle de Belfort — Vauban",
+        body: "Belfort (à 25 km au nord-est de Montbéliard, dans le Territoire de Belfort) est une cité fortifiée Vauban (UNESCO depuis 2008). Citadelle militaire au sommet de la falaise du Château (vue panoramique). Le Lion de Belfort (1880, statue d'Auguste Bartholdi — l'architecte de la statue de la Liberté de New York — en hommage à la résistance de la ville face aux Prussiens en 1870-1871). Très visible depuis la place de la République.",
+      },
+      {
+        heading: "8. Le Ballon d'Alsace — la station de ski",
+        body: "Le Ballon d'Alsace (1 247 m, à 30 km au nord-est de Montbéliard, à la frontière des Vosges et de l'Alsace) est l'une des stations de ski les plus accessibles du nord-est. Station familiale (15 km de pistes alpines, 80 km de pistes de fond). Hors saison de neige : randonnée, VTT, parapente. Vue à 360° sur la plaine d'Alsace et les Vosges du Sud. Le sommet est partagé entre 3 départements (Vosges, Haut-Rhin, Territoire de Belfort).",
+      },
+      {
+        heading: "9. L'Hôtel de Ville et la place Saint-Martin",
+        body: "L'Hôtel de Ville de Montbéliard (1778, néoclassique de style allemand — l'un des plus beaux édifices civils du XVIIIe siècle dans l'est de la France) borde la place Saint-Martin (cœur de la ville — marché du mardi et samedi matin). Maisons à pignons à redents (style germanique). À côté, la rue des Halles (axe commerçant principal) et l'église Saint-Martin (1607-1614 — l'un des plus anciens temples protestants français).",
+      },
+      {
+        heading: "10. Gastronomie franc-comtoise — Comté et saucisse",
+        body: "La cuisine de Montbéliard est franc-comtoise classique : saucisse de Montbéliard IGP (saucisse rosée fumée — moins fumée que la Morteau), saucisse de Morteau IGP, jambon fumé du Haut-Doubs, brési (bœuf séché des Grisons-style). Fromages AOP : Comté (le roi), Munster (à 100 km à l'est), Cancoillotte (fromage fondu et étalable spécifique au Doubs et à la Haute-Saône). Spécialités sucrées : gâteau de ménage (brioche fromagère). Vins : Arbois jaune et de paille (à 80 km au sud, AOC Jura).",
+      },
+    ],
+    relatedCities: ["montbeliard"],
+    relatedGuides: [
+      "vivre-en-bourgogne-franche-comte-guide-2025",
+      "vivre-en-franche-comte-jura-guide-2025",
+    ],
+    tags: ["10 choses à faire à Montbéliard", "activités Montbéliard 2026", "sorties Montbéliard", "que faire à Montbéliard", "château Württemberg Lumières Noël Peugeot Sochaux Belfort Doubs"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
