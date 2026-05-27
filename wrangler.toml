@@ -1,0 +1,25 @@
+name = "meilleurville"
+main = ".open-next/worker.js"
+compatibility_date = "2026-04-01"
+compatibility_flags = ["nodejs_compat"]
+
+[assets]
+binding = "ASSETS"
+directory = ".open-next/assets"
+
+# D1 database for runtime user data (comments, contact, alertes, newsletter).
+# Provisioned via Cloudflare MCP — primary location WEUR (Paris CDG).
+[[d1_databases]]
+binding = "DB"
+database_name = "meilleurville"
+database_id = "73295459-dde2-4bbf-9aef-500ddadd581e"
+
+# Cron triggers replace vercel.json crons:
+# - newsletter: Sunday 07:00 UTC  → /api/cron/newsletter
+# - alertes:    Monday 08:00 UTC  → /api/cron/alertes
+# The Worker entrypoint dispatches based on `event.cron` value.
+[triggers]
+crons = ["0 7 * * 0", "0 8 * * 1"]
+
+[observability]
+enabled = true

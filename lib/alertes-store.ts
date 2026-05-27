@@ -1,17 +1,14 @@
 /**
- * Alertes métrique store — R9.3.
+ * Alertes métrique store — Cloudflare D1 backed — R9.3.
  *
  * Stores city-watch subscriptions: user + city + what to watch (score / comments).
- * Three-tier persistence identical to comments-store: repo file → /tmp → in-memory.
  *
  * An alerte fires when:
  *  - score type: the city's global score changed (by ≥ 0.1) since last notification
  *    AND (if threshold set) the new score crossed the threshold upward.
  *  - comments type: new comments have been posted since last check.
  */
-import { promises as fs } from "fs";
-import path from "path";
-import { randomUUID } from "crypto";
+import { getDB } from "@/lib/db";
 
 export interface Alerte {
   id: string;
@@ -19,7 +16,7 @@ export interface Alerte {
   citySlug: string;
   cityName: string;
   types: Array<"score" | "comments">;
-  scoreThreshold?: number;            // optional: alert only if score ≥ this value
+  scoreThreshold?: number; // optional: alert only if score ≥ this value
   lastNotifiedScore: number;
   lastNotifiedCommentCount: number;
   unsubscribeToken: string;
@@ -28,92 +25,83 @@ export interface Alerte {
   locale: "fr" | "en";
 }
 
-const REPO_PATH = path.join(process.cwd(), "data", "alertes.json");
-const TMP_PATH = path.join("/tmp", "meilleurville-alertes.json");
-
-let memCache: Alerte[] | null = null;
-let activePath: string | null = null;
-
-async function tryReadFrom(p: string): Promise<Alerte[] | null> {
-  try {
-    const raw = await fs.readFile(p, "utf-8");
-    const data = JSON.parse(raw);
-    if (Array.isArray(data)) return data as Alerte[];
-  } catch {
-    /* not present yet */
-  }
-  return null;
+interface Row {
+  id: string;
+  email: string;
+  city_slug: string;
+  city_name: string;
+  types: string;
+  score_threshold: number | null;
+  last_notified_score: number;
+  last_notified_comment_count: number;
+  unsubscribe_token: string;
+  subscribed_at: string;
+  active: number;
+  locale: string;
 }
 
-async function tryWriteTo(p: string, data: Alerte[]): Promise<boolean> {
-  try {
-    await fs.mkdir(path.dirname(p), { recursive: true });
-    await fs.writeFile(p, JSON.stringify(data, null, 2), "utf-8");
-    return true;
-  } catch {
-    return false;
-  }
-}
-
-async function ensureLoaded(): Promise<Alerte[]> {
-  if (memCache) return memCache;
-  const repoData = await tryReadFrom(REPO_PATH);
-  if (repoData) {
-    memCache = repoData;
-    activePath = REPO_PATH;
-    return memCache;
-  }
-  const tmpData = await tryReadFrom(TMP_PATH);
-  if (tmpData) {
-    memCache = tmpData;
-    activePath = TMP_PATH;
-    return memCache;
-  }
-  memCache = [];
-  activePath = null;
-  return memCache;
-}
-
-async function persist(data: Alerte[]): Promise<void> {
-  memCache = data;
-  if (activePath) {
-    await tryWriteTo(activePath, data);
-    return;
-  }
-  if (await tryWriteTo(REPO_PATH, data)) {
-    activePath = REPO_PATH;
-    return;
-  }
-  if (await tryWriteTo(TMP_PATH, data)) {
-    activePath = TMP_PATH;
-  }
+function rowToAlerte(r: Row): Alerte {
+  return {
+    id: r.id,
+    email: r.email,
+    citySlug: r.city_slug,
+    cityName: r.city_name,
+    types: JSON.parse(r.types) as Array<"score" | "comments">,
+    scoreThreshold: r.score_threshold ?? undefined,
+    lastNotifiedScore: r.last_notified_score,
+    lastNotifiedCommentCount: r.last_notified_comment_count,
+    unsubscribeToken: r.unsubscribe_token,
+    subscribedAt: r.subscribed_at,
+    active: r.active === 1,
+    locale: r.locale as "fr" | "en",
+  };
 }
 
 export async function getAllAlertes(): Promise<Alerte[]> {
-  return ensureLoaded();
+  const db = await getDB();
+  const { results } = await db.prepare("SELECT * FROM alertes").all<Row>();
+  return results.map(rowToAlerte);
 }
 
 export async function getAlertesForCity(citySlug: string): Promise<Alerte[]> {
-  const all = await ensureLoaded();
-  return all.filter((a) => a.active && a.citySlug === citySlug);
+  const db = await getDB();
+  const { results } = await db
+    .prepare("SELECT * FROM alertes WHERE active = 1 AND city_slug = ?")
+    .bind(citySlug)
+    .all<Row>();
+  return results.map(rowToAlerte);
 }
 
 export async function findByUnsubscribeToken(token: string): Promise<Alerte | undefined> {
-  const all = await ensureLoaded();
-  return all.find((a) => a.unsubscribeToken === token);
+  const db = await getDB();
+  const row = await db
+    .prepare("SELECT * FROM alertes WHERE unsubscribe_token = ?")
+    .bind(token)
+    .first<Row>();
+  return row ? rowToAlerte(row) : undefined;
 }
 
 export async function findAllByEmail(email: string): Promise<Alerte[]> {
-  const all = await ensureLoaded();
-  return all.filter((a) => a.active && a.email.toLowerCase() === email.toLowerCase());
+  const db = await getDB();
+  const { results } = await db
+    .prepare("SELECT * FROM alertes WHERE active = 1 AND lower(email) = lower(?)")
+    .bind(email)
+    .all<Row>();
+  return results.map(rowToAlerte);
 }
 
 export async function findActiveByEmailAndCity(
   email: string,
-  citySlug: string
+  citySlug: string,
 ): Promise<Alerte | undefined> {
-  const all = await ensureLoaded();
-  return all.find((a) => a.active && a.email === email && a.citySlug === citySlug);
+  const db = await getDB();
+  const row = await db
+    .prepare(
+      "SELECT * FROM alertes WHERE active = 1 AND email = ? AND city_slug = ? LIMIT 1",
+    )
+    .bind(email, citySlug)
+    .first<Row>();
+  return row ? rowToAlerte(row) : undefined;
 }
 
 export async function addAlerte(opts: {
@@ -126,19 +114,21 @@ export async function addAlerte(opts: {
   currentCommentCount: number;
   locale: "fr" | "en";
 }): Promise<Alerte> {
-  const all = await ensureLoaded();
-  const existing = all.find(
-    (a) => a.active && a.email === opts.email && a.citySlug === opts.citySlug
-  );
+  const db = await getDB();
+  const existing = await findActiveByEmailAndCity(opts.email, opts.citySlug);
   if (existing) {
-    // Update existing subscription
-    existing.types = opts.types;
-    existing.scoreThreshold = opts.scoreThreshold;
-    await persist(all);
-    return existing;
+    await db
+      .prepare("UPDATE alertes SET types = ?, score_threshold = ? WHERE id = ?")
+      .bind(JSON.stringify(opts.types), opts.scoreThreshold ?? null, existing.id)
+      .run();
+    return {
+      ...existing,
+      types: opts.types,
+      scoreThreshold: opts.scoreThreshold,
+    };
   }
   const alerte: Alerte = {
-    id: randomUUID(),
+    id: crypto.randomUUID(),
     email: opts.email,
     citySlug: opts.citySlug,
     cityName: opts.cityName,
@@ -146,35 +136,53 @@ export async function addAlerte(opts: {
     scoreThreshold: opts.scoreThreshold,
     lastNotifiedScore: opts.currentScore,
     lastNotifiedCommentCount: opts.currentCommentCount,
-    unsubscribeToken: randomUUID(),
+    unsubscribeToken: crypto.randomUUID(),
     subscribedAt: new Date().toISOString(),
     active: true,
     locale: opts.locale,
   };
-  all.push(alerte);
-  await persist(all);
+  await db
+    .prepare(
+      "INSERT INTO alertes (id, email, city_slug, city_name, types, score_threshold, last_notified_score, last_notified_comment_count, unsubscribe_token, subscribed_at, active, locale) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+    )
+    .bind(
+      alerte.id,
+      alerte.email,
+      alerte.citySlug,
+      alerte.cityName,
+      JSON.stringify(alerte.types),
+      alerte.scoreThreshold ?? null,
+      alerte.lastNotifiedScore,
+      alerte.lastNotifiedCommentCount,
+      alerte.unsubscribeToken,
+      alerte.subscribedAt,
+      1,
+      alerte.locale,
+    )
+    .run();
   return alerte;
 }
 
 export async function deactivateAlerte(token: string): Promise<boolean> {
-  const all = await ensureLoaded();
-  const alerte = all.find((a) => a.unsubscribeToken === token);
-  if (!alerte) return false;
-  alerte.active = false;
-  await persist(all);
-  return true;
+  const db = await getDB();
+  const result = await db
+    .prepare("UPDATE alertes SET active = 0 WHERE unsubscribe_token = ?")
+    .bind(token)
+    .run();
+  const changes = (result.meta as { changes?: number } | undefined)?.changes ?? 0;
+  return changes > 0;
 }
 
 export async function updateLastNotified(
   id: string,
   score: number,
-  commentCount: number
+  commentCount: number,
 ): Promise<void> {
-  const all = await ensureLoaded();
-  const alerte = all.find((a) => a.id === id);
-  if (alerte) {
-    alerte.lastNotifiedScore = score;
-    alerte.lastNotifiedCommentCount = commentCount;
-  }
-  await persist(all);
+  const db = await getDB();
+  await db
+    .prepare(
+      "UPDATE alertes SET last_notified_score = ?, last_notified_comment_count = ? WHERE id = ?",
+    )
+    .bind(score, commentCount, id)
+    .run();
 }

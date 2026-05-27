@@ -1,6 +1,5 @@
 /**
- * Newsletter-subscriber store. File-backed with the same fallback chain as
- * contact-store / comments-store (repo file → /tmp → in-memory).
+ * Newsletter-subscriber store — Cloudflare D1 backed.
  *
  * Every subscriber is tagged with a `locale` so the French list
  * (mavilleideale.fr) and the English list (bestcitiesinfrance.com) stay
@@ -11,12 +10,9 @@
  *   - added to the matching Brevo list (BREVO_LIST_ID_FR / _EN), so campaigns
  *     can be sent per language straight from the Brevo dashboard;
  *   - sent a locale-appropriate welcome email.
- * Both Brevo calls are best-effort: the JSON store is the local source of
- * truth and a missing key / list id simply skips them (no error to the user).
+ * Both Brevo calls are best-effort.
  */
-import { promises as fs } from "fs";
-import path from "path";
-import { randomUUID } from "crypto";
+import { getDB } from "@/lib/db";
 import { sendBrevoEmail, addBrevoContact, type BrevoSender } from "@/lib/brevo";
 
 export type NewsletterLocale = "fr" | "en";
@@ -28,66 +24,20 @@ export interface Subscriber {
   createdAt: string;
 }
 
-const REPO_PATH = path.join(process.cwd(), "data", "newsletter-subscribers.json");
-const TMP_PATH = path.join("/tmp", "meilleurville-newsletter.json");
-
-let memCache: Subscriber[] | null = null;
-let activePath: string | null = null;
-
-async function tryReadFrom(p: string): Promise<Subscriber[] | null> {
-  try {
-    const raw = await fs.readFile(p, "utf-8");
-    const data = JSON.parse(raw);
-    if (Array.isArray(data)) return data as Subscriber[];
-  } catch {
-    /* not present yet */
-  }
-  return null;
+interface Row {
+  id: string;
+  email: string;
+  locale: string;
+  created_at: string;
 }
 
-async function tryWriteTo(p: string, data: Subscriber[]): Promise<boolean> {
-  try {
-    await fs.mkdir(path.dirname(p), { recursive: true });
-    await fs.writeFile(p, JSON.stringify(data, null, 2), "utf-8");
-    return true;
-  } catch {
-    return false;
-  }
-}
-
-async function ensureLoaded(): Promise<Subscriber[]> {
-  if (memCache) return memCache;
-
-  const repoData = await tryReadFrom(REPO_PATH);
-  if (repoData) {
-    memCache = repoData;
-    activePath = REPO_PATH;
-    return memCache;
-  }
-
-  const tmpData = await tryReadFrom(TMP_PATH);
-  if (tmpData) {
-    memCache = tmpData;
-    activePath = TMP_PATH;
-    return memCache;
-  }
-
-  if (await tryWriteTo(REPO_PATH, [])) {
-    activePath = REPO_PATH;
-    memCache = [];
-  } else if (await tryWriteTo(TMP_PATH, [])) {
-    activePath = TMP_PATH;
-    memCache = [];
-  } else {
-    activePath = null;
-    memCache = [];
-  }
-  return memCache;
-}
-
-async function persist(): Promise<void> {
-  if (!memCache || !activePath) return;
-  await tryWriteTo(activePath, memCache);
+function rowToSubscriber(r: Row): Subscriber {
+  return {
+    id: r.id,
+    email: r.email,
+    locale: r.locale as NewsletterLocale,
+    createdAt: r.created_at,
+  };
 }
 
 /**
@@ -99,20 +49,27 @@ export async function addSubscriber(input: {
   email: string;
   locale: NewsletterLocale;
 }): Promise<{ subscriber: Subscriber; alreadySubscribed: boolean }> {
-  const all = await ensureLoaded();
+  const db = await getDB();
   const email = input.email.trim().toLowerCase();
 
-  const existing = all.find((s) => s.email === email && s.locale === input.locale);
-  if (existing) return { subscriber: existing, alreadySubscribed: true };
+  const existing = await db
+    .prepare("SELECT * FROM newsletter_subscribers WHERE email = ? AND locale = ?")
+    .bind(email, input.locale)
+    .first<Row>();
+  if (existing) return { subscriber: rowToSubscriber(existing), alreadySubscribed: true };
 
   const subscriber: Subscriber = {
-    id: randomUUID(),
+    id: crypto.randomUUID(),
     email,
     locale: input.locale,
     createdAt: new Date().toISOString(),
   };
-  all.unshift(subscriber);
-  await persist();
+  await db
+    .prepare(
+      "INSERT INTO newsletter_subscribers (id, email, locale, created_at) VALUES (?, ?, ?, ?)",
+    )
+    .bind(subscriber.id, subscriber.email, subscriber.locale, subscriber.createdAt)
+    .run();
   return { subscriber, alreadySubscribed: false };
 }
 

@@ -26,7 +26,7 @@ Le site n'emploie ni délégué à la protection des données (DPO), ni co-respo
 
 • Adresse e-mail — uniquement si vous vous inscrivez à la newsletter ou laissez un avis.
 • Contenu des avis et commentaires que vous publiez volontairement (texte, scores, tags).
-• Données techniques de connexion gérées par notre hébergeur Vercel : adresse IP (anonymisée dans les 30 jours), user-agent, URL visitée. Ces logs servent à détecter les abus et à dimensionner l'infrastructure.
+• Données techniques de connexion gérées par notre hébergeur Cloudflare : adresse IP (anonymisée dans les 30 jours), user-agent, URL visitée. Ces logs servent à détecter les abus et à dimensionner l'infrastructure.
 • Préférences du quiz et favoris — stockés uniquement dans votre navigateur via localStorage. Ces données ne sont pas envoyées au serveur.
 
 Nous ne collectons jamais : géolocalisation précise, données bancaires, données de santé, opinions politiques, religieuses ou syndicales, ni aucune donnée sensible au sens de l'article 9 du RGPD.`,
@@ -65,7 +65,7 @@ Tous les liens d'affiliation sont identifiés visuellement par la mention « lie
     title: "6. Conservation des données",
     content: `• Adresse e-mail newsletter : jusqu'à votre désinscription.
 • Avis et commentaires publics : conservés tant que le site existe, sauf demande de suppression de votre part.
-• Logs techniques d'accès (Vercel) : 30 jours, puis anonymisation automatique.
+• Logs techniques d'accès (Cloudflare) : 30 jours, puis anonymisation automatique.
 • Préférences locales (favoris, quiz) : tant que vous ne les effacez pas dans votre navigateur — nous n'en avons jamais copie.
 
 Vous pouvez demander la suppression de vos données à tout moment.`,
@@ -90,7 +90,7 @@ Si vous estimez que vos droits ne sont pas respectés, vous pouvez introduire un
     title: "8. Sous-traitants et destinataires",
     content: `Vos données peuvent être traitées par les prestataires techniques suivants, exclusivement pour les finalités décrites ci-dessus :
 
-• Vercel Inc. (États-Unis) — hébergement, CDN, journaux techniques. Vercel adhère au Data Privacy Framework UE-USA, qui encadre les transferts de données vers les États-Unis (décision d'adéquation de la Commission européenne du 10 juillet 2023).
+• Cloudflare, Inc. (États-Unis) — hébergement, CDN, journaux techniques, base de données D1 (région WEUR — Paris). Cloudflare adhère au Data Privacy Framework UE-USA, qui encadre les transferts de données vers les États-Unis (décision d'adéquation de la Commission européenne du 10 juillet 2023).
 • Booking.com B.V. (Pays-Bas) — uniquement si vous cliquez sur un lien partenaire ; aucune donnée n'est partagée en amont.
 
 Nous ne vendons jamais vos données. Nous ne les partageons jamais avec des courtiers de données, des régies publicitaires ou des plateformes de profilage.`,
