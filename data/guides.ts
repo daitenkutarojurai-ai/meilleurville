@@ -30422,6 +30422,541 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["10 choses à faire à Lons-le-Saunier", "activités Lons 2026", "sorties Lons-le-Saunier", "que faire à Lons", "Rouget Marseillaise vin jaune Château-Chalon Hérisson Vache qui Rit"],
   },
+  {
+    slug: "10-choses-a-faire-a-foix-2026",
+    title: "10 choses à faire à Foix (le château des comtes et l'Ariège pyrénéenne)",
+    metaTitle: "10 choses à faire à Foix 2026 — activités et sorties locales",
+    metaDesc: "Château fort, grotte de Niaux, Montségur, rivière souterraine de Labouiche et Mirepoix : 10 activités à Foix pour découvrir la préfecture de l'Ariège.",
+    category: "tourisme",
+    emoji: "🏔️",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Foix est la préfecture de l'Ariège, 10 000 habitants — l'une des plus petites préfectures de France (seul Tulle est plus petite, à 14 500). Dominée par son château des comtes de Foix (XIe-XIVe siècles, perché sur un piton calcaire) qui résista à Simon de Montfort pendant la croisade albigeoise, la ville est la porte d'entrée des Pyrénées ariégeoises, du pays cathare et des plus belles grottes ornées de France (Niaux, Mas-d'Azil).",
+    sections: [
+      {
+        heading: "1. Le château de Foix — la forteresse cathare",
+        body: "Le château des comtes de Foix (XIe-XIVe siècles, trois tours sur un piton calcaire de 60 m de haut) est l'un des derniers châteaux médiévaux à n'avoir jamais été pris par siège — Simon de Montfort y renonça pendant la croisade albigeoise. Visite des trois tours (tour ronde, tour carrée, tour de Foix — la plus haute, vue à 360°). Spectacles médiévaux en été (chevaliers, fauconnerie). Le château est devenu musée d'histoire ariégeoise.",
+      },
+      {
+        heading: "2. La grotte de Niaux — peintures pariétales magdaléniennes",
+        body: "La grotte de Niaux (à 17 km au sud de Foix) est l'une des deux dernières grottes ornées au monde encore ouvertes au public (avec Font-de-Gaume en Dordogne) — peintures pariétales magdaléniennes (-13 000 av. J.-C.). Le « Salon Noir » présente 80 figures noires de bisons, chevaux et bouquetins d'une qualité exceptionnelle. Visite guidée d'1h30 (réservation obligatoire des semaines à l'avance), groupes de 20 personnes max. Lampe à acétylène pour préserver l'art. Inoubliable.",
+      },
+      {
+        heading: "3. Montségur — la dernière forteresse cathare",
+        body: "Montségur (à 30 km à l'est de Foix, perché à 1 207 m sur un piton calcaire) est le symbole de la résistance cathare — siège de mars 1244 où 220 cathares (parfaits et croyants) furent brûlés vifs sur un bûcher après 10 mois de résistance. Ruines du château (perché à 1 207 m, accès à pied — ascension de 30 min depuis le parking). Site classé Grand Site de France. Émotion garantie. À 30 min en voiture de Foix.",
+      },
+      {
+        heading: "4. La rivière souterraine de Labouiche",
+        body: "La rivière souterraine de Labouiche (à 6 km au nord-ouest de Foix) est la plus longue rivière souterraine navigable d'Europe ouverte au public — 1,5 km de galeries en barque à fond plat. Visite d'1h15 (passage sous des voûtes calcaires, cascade souterraine). Découverte en 1908. Idéal pour les enfants (8€ tarif réduit). Réservation conseillée en haute saison.",
+      },
+      {
+        heading: "5. La grotte du Mas-d'Azil — l'art pariétal et le tunnel naturel",
+        body: "Le Mas-d'Azil (à 40 km au nord-ouest de Foix) est l'unique village en France traversé par une grotte naturelle — la route nationale passe à l'intérieur d'un tunnel naturel de 420 m de long. À l'intérieur de la grotte (préhistorique — site éponyme de la période Azilienne entre Magdalénien et Néolithique), peintures et gravures pariétales magdaléniennes. Musée de la Préhistoire au-dessus du village. À combiner avec une visite à Carla-Bayle (village paisible classé parmi les plus beaux villages d'Ariège).",
+      },
+      {
+        heading: "6. Mirepoix — la bastide médiévale",
+        body: "Mirepoix (à 30 km au nord-est de Foix, l'une des plus belles bastides médiévales de France) est fondée en 1289. Place centrale entourée d'arcades en bois sculpté (couverts) du XIVe siècle, cathédrale Saint-Maurice (deuxième plus large nef gothique de France après Gérone — 22 m de largeur). Marché du lundi matin (l'un des plus beaux du Sud-Ouest, produits cathares et ariégeois). Festival des Marionnettes et des Arts de la Parole en août.",
+      },
+      {
+        heading: "7. Les châteaux cathares — Roquefixade et Montaillou",
+        body: "L'Ariège est jalonnée de châteaux cathares — bastions de la résistance contre Simon de Montfort. Roquefixade (à 15 km à l'est de Foix, château perché du XIIIe siècle, plus accessible que Montségur), Montaillou (à 40 km au sud-est de Foix, village célèbre par le livre d'Emmanuel Le Roy Ladurie « Montaillou, village occitan » qui décrit minutieusement la vie des derniers cathares grâce aux interrogatoires de l'inquisiteur Jacques Fournier). La « Route des Châteaux Cathares » (250 km) traverse l'Ariège.",
+      },
+      {
+        heading: "8. Le pic du Saint-Barthélemy et les sentiers pyrénéens",
+        body: "Le Pic du Saint-Barthélemy (2 348 m, à 30 km au sud de Foix dans la chaîne du Tabe) est l'un des plus accessibles sommets ariégeois. Ascension à pied (5h aller-retour) depuis le col du Tougourry. Vue panoramique sur les Pyrénées (Aneto à 100 km), la plaine du Languedoc et la Méditerranée par temps clair. Stations de ski à proximité : Ax-3-Domaines (à 30 km, station moderne), Plateau de Bonascre (à 25 km).",
+      },
+      {
+        heading: "9. La forteresse de Roquefixade et la Route des Cathares",
+        body: "Roquefixade (« roca fixada » — rocher fixe en occitan, à 15 km à l'est de Foix) est l'un des plus emblématiques châteaux cathares — perché sur un piton calcaire de 100 m, vue panoramique à 360° sur le pays cathare. Ascension de 30 min depuis le village. Pour info, la « Route des Châteaux Cathares » (250 km balisés, traverse Aude et Ariège) inclut Foix-Roquefixade-Montségur-Lordat-Quéribus-Peyrepertuse-Aguilar.",
+      },
+      {
+        heading: "10. Gastronomie ariégeoise — azinat et magret",
+        body: "La cuisine ariégeoise est une cuisine pyrénéenne paysanne : azinat (potée ariégeoise au chou, lard, saucisses, jambon — plat dominical), millas (galette de farine de maïs grillée, héritage gascon), confit et magret de canard (très répandu), boudins blancs et noirs des Hautes-Pyrénées. Fromages : Bethmale (vache pâte pressée), Rogallais. Spécialités sucrées : croustade ariégeoise (feuilleté pommes-armagnac). Vins : Côtes-du-Roussillon (à 100 km), Limoux (à 50 km — méthode champenoise inventée en 1531).",
+      },
+    ],
+    relatedCities: ["foix"],
+    relatedGuides: [
+      "vivre-en-ariege-guide-2026",
+      "vivre-en-occitanie-guide-2025",
+    ],
+    tags: ["10 choses à faire à Foix", "activités Foix 2026", "sorties Foix", "que faire à Foix", "château Niaux Montségur Labouiche Mas-d'Azil Mirepoix cathare"],
+  },
+  {
+    slug: "10-choses-a-faire-a-gap-2026",
+    title: "10 choses à faire à Gap (la station de Charance et les Hautes-Alpes)",
+    metaTitle: "10 choses à faire à Gap 2026 — activités et sorties locales",
+    metaDesc: "Domaine de Charance, lac de Serre-Ponçon, Devoluy, Buëch et plus beaux villages : 10 activités à Gap pour découvrir la préfecture des Hautes-Alpes.",
+    category: "tourisme",
+    emoji: "⛰️",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Gap est la préfecture des Hautes-Alpes, 41 000 habitants à 750 m d'altitude — l'une des préfectures les plus hautes de France (après Briançon à 1 326 m). Au pied des Écrins, du Devoluy et du Champsaur, Gap est la porte d'entrée des grandes vallées alpines du sud (Buëch, Champsaur, Embrunais, Queyras). Ville traversée par la Luye, à 30 km du lac de Serre-Ponçon (l'un des plus grands lacs artificiels d'Europe).",
+    sections: [
+      {
+        heading: "1. Le domaine de Charance — le belvédère gapençais",
+        body: "Le domaine de Charance (à 4 km au nord de Gap, 220 ha, à 1 100 m d'altitude) est l'ancien domaine épiscopal — château du XVIIe siècle, ferme, terrasses paysagères dessinées par Le Nôtre. Aujourd'hui propriété du Conservatoire botanique national alpin de Gap-Charance (conservation des fleurs alpines). Roseraie (1 200 variétés — floraison en juin). Vue panoramique sur Gap et les sommets des Écrins (4 102 m). Site classé Espace Naturel Sensible.",
+      },
+      {
+        heading: "2. Le lac de Serre-Ponçon — la « mer des Alpes »",
+        body: "Le lac de Serre-Ponçon (à 30 km à l'est de Gap, 2 800 ha — 3ème plus grand lac artificiel d'Europe occidentale, créé en 1961 par EDF) est surnommé la « mer des Alpes ». Plages aménagées (Savines-le-Lac, Embrun, Crots, Sauze-du-Lac), école de voile et de paddle, croisières en bateau. Eau turquoise, baignade en été (eau à 22°C). Pour info : le village englouti de Savines (avant le barrage) est encore visible à marée basse (juillet-août).",
+      },
+      {
+        heading: "3. Le Devoluy et la Tête de l'Obiou",
+        body: "Le Devoluy (à 30 km au nord-ouest de Gap, massif des Alpes calcaires) est l'un des plus impressionnants paysages géologiques des Alpes — plateau d'altitude perforé de gouffres et de pots-tubes, sommet de l'Obiou (2 789 m) qui domine. Station de ski SuperDévoluy/La Joue du Loup (100 km de pistes, l'une des plus grandes stations des Alpes du Sud). En été : randonnées sur le plateau, escalade dans les falaises, parapente à Saint-Étienne-en-Dévoluy.",
+      },
+      {
+        heading: "4. La vallée du Champsaur et le Vieux Chaillol",
+        body: "La vallée du Champsaur (au nord de Gap, vallée verdoyante au cœur des Écrins) est une terre d'élevage et de randonnée — Saint-Bonnet-en-Champsaur (village historique, cure pour les randonneurs), Orcières-Merlette (station de ski et station VTT en été — l'une des plus grandes stations VTT d'Europe). Le Vieux Chaillol (3 163 m, en limite du Parc national des Écrins) est l'un des sommets emblématiques. Marmottes en abondance sur les chemins.",
+      },
+      {
+        heading: "5. La cathédrale Notre-Dame-et-Saint-Arnoux",
+        body: "La cathédrale Notre-Dame-et-Saint-Arnoux de Gap (XIXe siècle, néo-gothique-byzantin) est l'une des plus singulières cathédrales du sud-est — façade polychrome (pierre rose et grise — alternance), tour-clocher coiffée d'une coupole. Construite à la place d'une cathédrale médiévale détruite à la Révolution. Visite gratuite. À côté : musée départemental (collection préhistorique, ethnographie alpine, peintures).",
+      },
+      {
+        heading: "6. Embrun — la cathédrale et le « tibet français »",
+        body: "Embrun (à 40 km à l'est de Gap, sur les hauteurs du lac de Serre-Ponçon, ancienne cité épiscopale) est surnommée le « tibet français » (climat sec, ciel pur, ensoleillement record — 300 jours/an). Cathédrale Notre-Dame-du-Réal (XIIe siècle, romane lombarde — l'une des plus belles églises romanes des Alpes). Tour Brune (donjon du palais épiscopal). Vue spectaculaire sur le lac de Serre-Ponçon et les Écrins.",
+      },
+      {
+        heading: "7. Briançon — la cité Vauban UNESCO",
+        body: "Briançon (à 80 km au nord-est de Gap) est la ville la plus haute de France (1 326 m d'altitude, dans les Hautes-Alpes). Cité fortifiée par Vauban (citadelle, remparts en étoile, classée UNESCO depuis 2008). Vieille ville médiévale (Grande Rue, collégiale Notre-Dame), forts d'altitude (Salettes, Trois-Têtes, Dauphin). Briançon est aussi une station de ski (Serre Chevalier, 250 km de pistes — l'une des plus grandes des Alpes du Sud).",
+      },
+      {
+        heading: "8. Le parc national des Écrins — Vallouise et la Bérarde",
+        body: "Le Parc national des Écrins (créé en 1973, 270 000 ha — l'un des 11 parcs nationaux français) est à 30 km au nord-est de Gap. Sommets : Barre des Écrins (4 102 m, le plus haut), Meije (3 983 m, l'un des sommets mythiques des Alpes — première ascension en 1877). Vallées emblématiques : Valgaudemar, Vallouise, Bérarde, Champsaur. 700 km de sentiers balisés. Centres d'interprétation du parc à Vallouise, La Bérarde, Champoléon.",
+      },
+      {
+        heading: "9. Le Buëch et les villages perchés du sud",
+        body: "La vallée du Buëch (au sud de Gap, vers Sisteron) est l'une des vallées les plus méditerranéennes des Hautes-Alpes — climat doux, lavandes, oliviers, vignobles. Saint-Geniez (à 25 km de Gap, plus beau village des Hautes-Alpes), Veynes (ancienne capitale du Buëch, gare de chemin de fer historique), Serres (cité médiévale fortifiée). Sentier de grande randonnée GR94 entre Gap et Sisteron.",
+      },
+      {
+        heading: "10. Gastronomie haut-alpine — tourtons et fromages",
+        body: "La cuisine haut-alpine est une cuisine de moyenne montagne et d'alpages : tourtons du Champsaur (beignets carrés farcis aux pommes de terre, aux blettes, à la confiture — la spécialité emblématique), oreilles d'âne (gratin de blettes au lait — saveur alpine), ravioles du Champsaur (pâtes farcies à la viande, en bouillon). Fromages : Bleu du Queyras, Tomme du Champsaur, Brique du Forez. Charcuteries : saucisson d'âne (spécialité hautes-alpine), boudin de Briançon. Vins : Côtes-du-Rhône (à 80 km au sud), vins de Savoie (à 200 km).",
+      },
+    ],
+    relatedCities: ["gap", "embrun", "briancon"],
+    relatedGuides: [
+      "vivre-en-provence-paca-guide-2025",
+    ],
+    tags: ["10 choses à faire à Gap", "activités Gap 2026", "sorties Gap", "que faire à Gap", "Charance Serre-Ponçon Devoluy Champsaur Embrun Briançon Écrins"],
+  },
+  {
+    slug: "10-choses-a-faire-a-digne-les-bains-2026",
+    title: "10 choses à faire à Digne-les-Bains (la cité thermale et la route des Lavandes)",
+    metaTitle: "10 choses à faire à Digne-les-Bains 2026 — activités et sorties locales",
+    metaDesc: "Thermes de Digne, route des Lavandes, géologie UNESCO, train des Pignes et plateau de Valensole : 10 activités à Digne-les-Bains pour découvrir les Alpes-de-Haute-Provence.",
+    category: "tourisme",
+    emoji: "💜",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Digne-les-Bains est la préfecture des Alpes-de-Haute-Provence, 16 000 habitants à 600 m d'altitude — station thermale gallo-romaine dans la vallée de la Bléone, au cœur de la Réserve géologique de Haute-Provence (la plus grande géoréserve d'Europe, classée UNESCO Géopark). À mi-chemin entre Provence et Alpes, Digne est la porte d'entrée du plateau de Valensole (capitale française de la lavande), du Verdon (à 50 km) et des routes de transhumance.",
+    sections: [
+      {
+        heading: "1. Les thermes de Digne — eau gallo-romaine",
+        body: "Les Thermes de Digne (utilisés depuis l'époque gallo-romaine — vestiges du Ier siècle, station thermale moderne reconstruite en 2007) exploitent 8 sources d'eau chaude (38-50°C) — eaux sulfatées-calciques indiquées pour rhumatologie et voies respiratoires. Centre thermo-ludique ouvert au public (bassins thermaux, hammams, sauna — 25€ la journée). À 4 km du centre, dans un parc paysager.",
+      },
+      {
+        heading: "2. La Réserve géologique de Haute-Provence — UNESCO Géopark",
+        body: "La Réserve géologique de Haute-Provence (créée en 1984, 230 000 ha — la plus grande géoréserve d'Europe, classée UNESCO Géopark en 2000) est unique en France. Sites majeurs : dalle aux ammonites (40 m² de dalle calcaire à 1 506 ammonites fossiles datant de -200 millions d'années — accès libre, gratuit, à Saint-Benoit), Bleone (vallée fossile), site de la « ichthyosaure » (squelette fossile en place — d'un dinosaure marin de 200 millions d'années). Centre d'interprétation à Digne (musée de la géologie).",
+      },
+      {
+        heading: "3. La route des Lavandes et le plateau de Valensole",
+        body: "Le plateau de Valensole (à 30 km au sud-ouest de Digne) est le plus grand plateau lavandier de France — 800 km² de cultures de lavandin (floraison fin juin à fin juillet — l'un des plus beaux paysages d'Europe). Fête de la Lavande à Valensole le 3e dimanche de juillet. Distilleries à visiter (Le Mas des Bouteillons, distillerie de Senas, distillerie 1860). Pour info, photographer sans foule : avant 8h ou après 18h. La D6 de Digne à Valensole est l'une des plus belles routes panoramiques.",
+      },
+      {
+        heading: "4. Le train des Pignes — ligne ferroviaire pittoresque",
+        body: "Le Train des Pignes (ligne ferroviaire historique de Nice à Digne — 151 km de voie unique à voie métrique, ouverte en 1911) est l'un des plus beaux trajets ferroviaires de France. 151 km en 3h30, 27 tunnels et 16 viaducs, passage par les gorges du Var et les vallées préalpines. Train historique à vapeur en juillet-août (réservation obligatoire), train régulier toute l'année. Idéal pour combiner Côte d'Azur et arrière-pays.",
+      },
+      {
+        heading: "5. Le gouffre de Pra-Sec et les grottes",
+        body: "Le gouffre de Pra-Sec (à 15 km au nord de Digne, dans le massif des Trois Évêchés) est un site géologique remarquable — gouffre de 130 m de profondeur, rivière souterraine. Visite spéléologique sur réservation (avec guide professionnel). Pour les amateurs de spéléologie. Autres grottes accessibles : grotte de Saint-Marcellin (sentier d'interprétation gratuit), grotte Saint-Vincent (peintures rupestres préhistoriques, accès limité).",
+      },
+      {
+        heading: "6. La vieille ville de Digne et la cathédrale Saint-Jérôme",
+        body: "La vieille ville de Digne (autour de la place du Tampinet) garde son tracé médiéval — ruelles pavées, hôtels particuliers XVIIIe siècle. Cathédrale Saint-Jérôme (XVe siècle, gothique tardif, devenue cathédrale en 1480). À 1 km, la cathédrale Notre-Dame-du-Bourg (XIIe-XIIIe siècles, romane lombarde — l'une des plus belles églises romanes des Alpes du Sud, devenue concathédrale). Marché du mercredi et samedi matin sur la place du Tampinet.",
+      },
+      {
+        heading: "7. Le centre Alexandra-David-Neel — la voyageuse",
+        body: "Le Centre Alexandra-David-Neel (maison Samten Dzong, « la forteresse de la méditation » — où la voyageuse vécut ses 40 dernières années, 1928-1969) est un musée consacré à cette exploratrice française du Tibet (1868-1969, première Occidentale à pénétrer dans Lhassa interdite en 1924). Maison-musée avec ses objets personnels, manuscrits, photographies. Tombe d'Alexandra David-Néel dans le jardin. Lieu unique en France. Gratuit.",
+      },
+      {
+        heading: "8. Les villages des Mées et leurs Pénitents",
+        body: "Les Mées (à 35 km au sud-ouest de Digne) sont célèbres pour les Rochers des Mées — formation rocheuse de 100 colonnes calcaires de 100 m de hauteur surnommées « les Pénitents » (légende : moines pétrifiés en pénitence pour avoir convoité de jeunes Sarrasines). Site Natura 2000. Sentier balisé au pied. Le village des Mées, planté contre les Pénitents, garde son architecture provençale traditionnelle.",
+      },
+      {
+        heading: "9. Les gorges du Verdon — à 50 km",
+        body: "Les gorges du Verdon (à 50 km au sud-ouest de Digne, accessibles par la route des Gorges) sont le plus grand canyon d'Europe — 25 km de long, 700 m de profondeur, eau turquoise. Cinq belvédères majeurs : balcons de la Mescla, Falaise des Cavaliers, Point Sublime. Le lac de Sainte-Croix (en aval) et Moustiers-Sainte-Marie (plus beau village de France perché entre deux falaises) complètent la journée. À 1h30 en voiture.",
+      },
+      {
+        heading: "10. Gastronomie haut-provençale — agneau et miel",
+        body: "La cuisine de Digne est de la haute Provence — entre Méditerranée et Alpes : agneau de Sisteron IGP (le plus prestigieux agneau français — élevé en bergeries d'alpage, chair claire), pieds-paquets (tripes d'agneau farcies, hérité de Marseille), soupe au pistou. Spécialités : miel de Provence (lavande, romarin — IGP), huile d'olive de Haute-Provence AOP. Fromages : Banon AOP (chèvre fermier feuille de châtaignier, à 50 km à l'ouest), Bleu de Sassenage. Vins : Coteaux de Pierrevert (AOC haute altitude — à 50 km à l'ouest), Côtes du Luberon.",
+      },
+    ],
+    relatedCities: ["digne-les-bains"],
+    relatedGuides: [
+      "vivre-en-provence-paca-guide-2025",
+    ],
+    tags: ["10 choses à faire à Digne-les-Bains", "activités Digne 2026", "sorties Digne-les-Bains", "que faire à Digne", "thermes Lavandes Géopark UNESCO Train Pignes Valensole Verdon"],
+  },
+  {
+    slug: "10-choses-a-faire-a-mont-de-marsan-2026",
+    title: "10 choses à faire à Mont-de-Marsan (la cité Carcen et la course landaise)",
+    metaTitle: "10 choses à faire à Mont-de-Marsan 2026 — activités et sorties locales",
+    metaDesc: "Musée Despiau-Wlérick, courses landaises, plages de Capbreton, forêt des Landes et Hossegor : 10 activités à Mont-de-Marsan pour découvrir la préfecture des Landes.",
+    category: "tourisme",
+    emoji: "🐃",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Mont-de-Marsan est la préfecture des Landes, 31 000 habitants au confluent du Midou et de la Douze. La ville est célèbre pour la course landaise (sport traditionnel — sauts et écarts devant la vache landaise — pas de mise à mort, contrairement à la corrida), pour son festival des Fêtes de la Madeleine (mi-juillet, 600 000 spectateurs, une des plus grandes ferias françaises) et pour ses musées (Despiau-Wlérick, plus grand musée français consacré à la sculpture du XXe siècle).",
+    sections: [
+      {
+        heading: "1. Le musée Despiau-Wlérick — sculpture du XXe",
+        body: "Le Musée Despiau-Wlérick (au cœur de Mont-de-Marsan, dans le Donjon Lacataye XIVe siècle restauré) est l'un des plus complets musées de sculpture du XXe siècle en France. Collection de 1 500 sculptures (Charles Despiau et Robert Wlérick, deux sculpteurs montois — école française des années 1920-1940 du néoclassicisme moderne). Bourdelle, Maillol, Rodin (école française), Brancusi, Lipchitz, Zadkine (sculpteurs internationaux). Gratuit le premier dimanche.",
+      },
+      {
+        heading: "2. Les Fêtes de la Madeleine — la feria landaise",
+        body: "Les Fêtes de la Madeleine (5 jours mi-juillet, depuis 1880 dans sa forme actuelle) sont l'une des plus grandes ferias françaises — 600 000 spectateurs en 5 jours. Corridas dans les arènes du Plumaçon (1933, 8 500 places), encierros (lâchers de taureaux dans la ville à 8h), peñas (orchestres de rue), bandas, courses landaises. Tenue blanche et rouge obligatoire (« blanc et rouge »). Atmosphère ibérique unique en France. Réservation des corridas obligatoire des mois à l'avance.",
+      },
+      {
+        heading: "3. La course landaise — sport traditionnel",
+        body: "La course landaise (sport traditionnel landais — pas de corrida, pas de mise à mort, juste agilité du tireur et de l'écarteur face à la vache landaise — race coursière sélectionnée) se pratique dans toutes les arènes des Landes. Saison : avril-octobre (les meilleurs spectacles aux Fêtes de la Madeleine de Mont-de-Marsan et dans les villages le 14 juillet). Les meilleurs sauteurs (« écarteurs ») sont des célébrités locales. Différent radicalement de la corrida sur tous les plans.",
+      },
+      {
+        heading: "4. Le plage de Capbreton et la côte landaise",
+        body: "La côte landaise (à 75 km à l'ouest de Mont-de-Marsan) est l'une des plus belles côtes sauvages d'Europe — 100 km de plages de sable fin et de dunes (jusqu'à 100 m de hauteur — les plus hautes dunes d'Europe à la Dune du Pilat, à 50 km au sud-ouest). Capbreton (port de pêche traditionnel), Hossegor (capitale française du surf — Quiksilver Pro France en octobre, l'une des étapes du WCT), Mimizan, Biscarrosse. Eau à 18-22°C en été.",
+      },
+      {
+        heading: "5. La forêt des Landes — la plus grande d'Europe",
+        body: "La forêt des Landes de Gascogne (1 million d'hectares de pins maritimes, la plus grande forêt artificielle d'Europe occidentale — créée au XIXe siècle pour assainir les marais et fixer les dunes) entoure Mont-de-Marsan. Sentiers de randonnée et pistes cyclables (300 km de pistes cyclables aménagées). Étangs : Léon, Soustons (l'un des plus grands étangs naturels de France). Faune : sangliers, chevreuils, cerfs.",
+      },
+      {
+        heading: "6. La cité administrative et la place Saint-Roch",
+        body: "Mont-de-Marsan a été reconstruite après les inondations de 1933 (la Midou et la Douze ont détruit une partie de la vieille ville) — architecture années 1930. La place Saint-Roch (cœur de la ville) est entourée d'arcades et de terrasses. Marché tous les matins. La cathédrale Saint-Vincent-de-Paul (XIXe siècle) et la chapelle expiatoire du Plumaçon (mémorial aux taureaux morts dans les arènes — unique en France !) sont à voir.",
+      },
+      {
+        heading: "7. Saint-Sever et l'abbatiale Saint-Sever",
+        body: "Saint-Sever (à 18 km au sud de Mont-de-Marsan) abrite l'une des plus belles abbayes romanes du Sud-Ouest — l'abbatiale Saint-Sever (Xe-XIIe siècles, classée UNESCO comme étape sur le chemin de Saint-Jacques de Compostelle). Le Beatus de Saint-Sever (manuscrit enluminé du XIe siècle, exposition à la BNF — l'un des chefs-d'œuvre de l'art mozarabe en France) y fut copié. Visite gratuite.",
+      },
+      {
+        heading: "8. Les ganaderias landaises et l'élevage",
+        body: "La Chalosse et le Tursan (régions landaises autour de Mont-de-Marsan) sont le pays de l'élevage : ganaderias landaises (élevages de vaches landaises pour la course), élevages de canards (capitale française du foie gras — 40 % de la production nationale), poulet des Landes IGP (volaille fermière de premier ordre). Visite des ganaderias et des fermes (ouvertes en saison, sur rendez-vous via l'office de tourisme).",
+      },
+      {
+        heading: "9. Le château de Ravignan et le vignoble du Tursan",
+        body: "Le château de Ravignan (à 35 km au sud-est de Mont-de-Marsan, XVIIe siècle classique) et l'AOC Tursan (à 30 km au sud — l'un des plus petits vignobles AOC de France) produisent les vins blancs du Sud-Ouest landais — cépage Baroque (blanc, unique au monde). Plus connu : l'Armagnac (à 60 km à l'est, l'eau-de-vie la plus ancienne de France, antérieure au Cognac de 300 ans). Caves visitables : Domaine de Cazaubon, domaine Dartigalongue.",
+      },
+      {
+        heading: "10. Gastronomie landaise — foie gras et garbure",
+        body: "La cuisine landaise est l'une des plus généreuses de France : foie gras d'oie ou de canard (premier département producteur français), magret de canard (inventé dans le Gers voisin), confit de canard, garbure (soupe paysanne au chou, haricots tarbais, jambon, confit), tourtière landaise (feuilleté pommes-armagnac). Poulet fermier des Landes IGP (le « jaune » — volaille la plus appréciée des gastronomes). Vins : Tursan (rouge et blanc local), Madiran (à 50 km au sud), Armagnac (à 60 km à l'est).",
+      },
+    ],
+    relatedCities: ["mont-de-marsan"],
+    relatedGuides: [
+      "vivre-dans-les-landes-guide-2026",
+      "vivre-en-nouvelle-aquitaine-guide-2025",
+    ],
+    tags: ["10 choses à faire à Mont-de-Marsan", "activités Mont-de-Marsan 2026", "sorties Mont-de-Marsan", "que faire à Mont-de-Marsan", "Madeleine feria Despiau course landaise Capbreton forêt"],
+  },
+  {
+    slug: "10-choses-a-faire-a-tulle-2026",
+    title: "10 choses à faire à Tulle (la cité de l'accordéon et le plateau corrézien)",
+    metaTitle: "10 choses à faire à Tulle 2026 — activités et sorties locales",
+    metaDesc: "Cathédrale gothique, musée de l'Accordéon, plateau de Millevaches, gouffre de la Fage et Brive : 10 activités à Tulle pour découvrir la préfecture de la Corrèze.",
+    category: "tourisme",
+    emoji: "🪗",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Tulle est la préfecture de la Corrèze, 14 000 habitants — la plus petite préfecture française (devancée seulement par Mende). Allongée dans la vallée encaissée de la Corrèze (rivière), la ville garde sa cathédrale gothique (XIIe-XIVe siècles), ses ateliers historiques de manufacture d'armes (devenu pôle industriel reconverti) et son patrimoine accordéon (Tulle est la capitale française de l'accordéon — manufacture Maugein depuis 1919, dernière en France). À la porte du plateau de Millevaches.",
+    sections: [
+      {
+        heading: "1. La cathédrale Notre-Dame — la cité gothique",
+        body: "La cathédrale Notre-Dame de Tulle (XIIe-XIVe siècles, gothique limousin) domine la ville depuis sa terrasse en contre-haut de la rivière. Tour-clocher de 75 m (l'une des plus hautes du Limousin), flèche pyramidale gothique. Cloître attenant (XIIIe siècle, l'un des plus complets cloîtres romans-gothiques de la région). Trésor de la cathédrale (orfèvrerie médiévale). Visite gratuite.",
+      },
+      {
+        heading: "2. La manufacture d'accordéons Maugein — la dernière de France",
+        body: "La Manufacture Maugein (créée en 1919, dans l'usine historique de la rue Vidal-Naquet) est la dernière manufacture d'accordéons française en activité — produit 5 000 accordéons par an (50 % de la production française restante). Visite des ateliers (sur RDV, mardi et jeudi) — démonstration de fabrication artisanale : assemblage du soufflet, des bandonéons, des touches. Boutique d'usine. Les Maugein équipent les plus grands musiciens français (Yvette Horner, Vincent Peirani, Richard Galliano).",
+      },
+      {
+        heading: "3. Le plateau de Millevaches en Limousin",
+        body: "Le PNR de Millevaches en Limousin (créé en 2004, 314 000 ha) couvre l'est de la Corrèze. Plateau granitique à 700-1 000 m d'altitude — surnommé la « Montagne limousine ». Paysages : forêts (40 %), tourbières, prairies, hêtraies. Mont Bessou (977 m, point culminant du PNR), Suc-au-May (915 m, observatoire panoramique). Ciel étoilé exceptionnel (peu de pollution lumineuse — réserve internationale). Sentiers de randonnée balisés. À 35 km à l'est de Tulle.",
+      },
+      {
+        heading: "4. Brive-la-Gaillarde — la cité gourmande",
+        body: "Brive-la-Gaillarde (à 30 km au sud-ouest de Tulle) est la « gourmande » de Corrèze — capitale gastronomique. La Foire du Livre de Brive (premier week-end de novembre, l'une des trois plus grandes foires aux livres françaises). Marché de Brive (samedi matin, le plus animé de Corrèze — foie gras de canard, truffes, noix du Périgord, châtaignes). Vieille ville médiévale (collégiale Saint-Martin, rue Toulzac).",
+      },
+      {
+        heading: "5. Le gouffre de la Fage — galeries souterraines",
+        body: "Le Gouffre de la Fage (à 25 km au sud de Tulle, sur la commune de Noailles) est l'une des plus belles grottes du Limousin — gouffre de 50 m de profondeur, galeries karstiques sur 800 m. Stalactites, stalagmites, fistuleuses (concrétions fines en forme de paille). Visite guidée d'1h (12€). Pour info, le site est aussi habité par une colonie de chauves-souris (visites limitées en hiver pour préserver l'hibernation).",
+      },
+      {
+        heading: "6. Collonges-la-Rouge — plus beau village de France",
+        body: "Collonges-la-Rouge (à 35 km au sud-ouest de Tulle, plus beau village de France — village qui a donné le nom à l'association « Les Plus Beaux Villages de France » créée en 1981 dans son auberge) est l'une des plus belles cités médiévales du Sud-Ouest. Maisons entièrement construites en grès rouge (vif), tourelles, hôtels particuliers. Église Saint-Pierre (XIIe siècle, romane). Marché du jeudi matin. Très touristique en été — y aller tôt ou hors saison.",
+      },
+      {
+        heading: "7. Turenne — la cité vicomtale",
+        body: "Turenne (à 25 km au sud de Tulle, plus beau village de France) est l'ancienne capitale de la vicomté de Turenne (l'une des plus puissantes vicomtés médiévales — quasi-indépendante du royaume de France jusqu'en 1738). Château de Turenne (XIIe-XVe siècles, vestiges et donjon) au sommet d'un piton calcaire. Vieille ville médiévale en grès rouge. Maréchal de Turenne (Henri de la Tour d'Auvergne, l'un des plus grands stratèges français du XVIIe siècle) est issu de cette famille.",
+      },
+      {
+        heading: "8. L'abbaye d'Aubazine — Coco Chanel",
+        body: "L'abbaye d'Aubazine (à 15 km à l'ouest de Tulle, XIIe siècle cistercien — fondée par saint Étienne d'Obazine en 1142) est l'une des plus rares abbayes cisterciennes du Sud-Ouest. Coco Chanel y a passé son enfance dans l'orphelinat religieux qui occupait les bâtiments conventuels au XIXe siècle (de 1895 à 1900, à 12 ans — c'est ici qu'elle s'est inspirée pour le logo du double C de la maison Chanel : motif des mosaïques médiévales de l'église abbatiale). Église, cloître, salle capitulaire.",
+      },
+      {
+        heading: "9. Les Pans de Travassac — anciennes ardoisières",
+        body: "Les Pans de Travassac (à 25 km au nord-est de Tulle, à Donzenac) sont d'anciennes ardoisières exploitées du XVIe au XXe siècle — découpées dans le schiste sur plus de 90 m de hauteur, vues en cathédrale. Aujourd'hui musée du patrimoine ardoisier (visite des galeries souterraines, démonstration de fente d'ardoise à la main). Site impressionnant : ouverture des galeries vers le ciel, falaises verticales artificielles.",
+      },
+      {
+        heading: "10. Gastronomie corrézienne — farcidure et clafoutis",
+        body: "La cuisine de Corrèze mêle Limousin et Périgord : farcidure (chausson de farine de seigle farci aux herbes — galette paysanne ancienne), bréjaude (soupe paysanne au chou et lard), pâté de pomme de terre limousin, mique levée (gros boudin de pâte au levain — cuit en pot-au-feu). Spécialités : noix du Périgord AOP (à 50 km au sud-ouest), châtaignes corréziennes. Sucré : clafoutis aux cerises (la Corrèze le revendique aussi, en concurrence avec la Creuse — cerises entières non dénoyautées). Vins : Cahors AOC (à 100 km au sud), Bergerac.",
+      },
+    ],
+    relatedCities: ["tulle"],
+    relatedGuides: [
+      "vivre-en-nouvelle-aquitaine-guide-2025",
+    ],
+    tags: ["10 choses à faire à Tulle", "activités Tulle 2026", "sorties Tulle", "que faire à Tulle", "cathédrale accordéon Maugein Millevaches Brive Collonges Aubazine"],
+  },
+  {
+    slug: "10-choses-a-faire-a-chalons-en-champagne-2026",
+    title: "10 choses à faire à Châlons-en-Champagne (la capitale champenoise et la Marne)",
+    metaTitle: "10 choses à faire à Châlons-en-Champagne 2026 — activités et sorties locales",
+    metaDesc: "Cathédrale Saint-Étienne, Notre-Dame-en-Vaux, Reims, Épernay et caves de champagne : 10 activités à Châlons-en-Champagne pour découvrir la préfecture de la Marne.",
+    category: "tourisme",
+    emoji: "🥂",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Châlons-en-Champagne est la préfecture de la Marne et le chef-lieu de la région Grand Est, 44 000 habitants au bord de la Marne. Capitale administrative de la région Champagne historique (l'ancienne province des comtes de Champagne), la ville garde deux ensembles UNESCO — sa cathédrale Saint-Étienne (XIIIe siècle, étape de Saint-Jacques) et la collégiale Notre-Dame-en-Vaux (XIIe siècle, romane). À 45 km au sud-est de Reims (capitale du champagne).",
+    sections: [
+      {
+        heading: "1. La cathédrale Saint-Étienne — UNESCO et vitraux",
+        body: "La cathédrale Saint-Étienne de Châlons (XIIIe siècle, gothique champenois) est classée UNESCO comme étape sur les chemins de Saint-Jacques de Compostelle. Particularité : architecture massive et sobre (typique du gothique champenois — moins exubérante que Reims). Tour-clocher du XVIe siècle. Vitraux du XIIIe au XVIe siècle (l'un des ensembles les plus complets de France). Crypte romane du XIe siècle préservée sous l'édifice gothique. Visite gratuite.",
+      },
+      {
+        heading: "2. Notre-Dame-en-Vaux — UNESCO romane",
+        body: "La collégiale Notre-Dame-en-Vaux (XIIe siècle, romane) est l'un des chefs-d'œuvre de l'art roman champenois — classée UNESCO comme étape de Saint-Jacques. Plan exceptionnel pour une église non-cathédrale (5 nefs, 80 m de long). Cloître attenant célèbre (XIIe siècle, vestiges archéologiques exceptionnels — 50 statues colonnes médiévales conservées au musée du Cloître à côté). Le musée du Cloître Notre-Dame-en-Vaux est gratuit.",
+      },
+      {
+        heading: "3. Reims — la capitale du champagne à 45 km",
+        body: "Reims (à 45 km au nord-ouest de Châlons) est la capitale historique du Champagne. Cathédrale Notre-Dame (XIIIe siècle, lieu du sacre des rois de France de Clovis à Charles X, classée UNESCO). Visite des grandes maisons de Champagne — Veuve Clicquot, Pommery, Taittinger, Mumm, Ruinart (la plus ancienne maison fondée en 1729, cellules de craie creusées sous la ville à 30 m de profondeur). Dégustations comprises (35-60€ selon la maison).",
+      },
+      {
+        heading: "4. Épernay et l'Avenue de Champagne",
+        body: "Épernay (à 30 km à l'ouest de Châlons) est la « Capitale du Champagne » — siège des plus grandes maisons (Moët & Chandon, Mercier, Perrier-Jouët). L'Avenue de Champagne (1,5 km de palais des maisons de Champagne XVIIIe-XXe siècles, classée UNESCO depuis 2015) est surnommée la « plus chère avenue du monde » — sous chaque mètre de pavé, 200 000 bouteilles. Caves Moët (le plus grand réseau souterrain) sur 28 km à 30 m de profondeur.",
+      },
+      {
+        heading: "5. La cathédrale de Reims et le sacre des rois",
+        body: "La cathédrale Notre-Dame de Reims (1211-1311, gothique rayonnant, classée UNESCO 1991) est le sommet de l'art gothique français — voûtes à 38 m, vitraux du XIIIe siècle (rosace ouest), façade ouest sculptée de 2 300 statues (l'Ange au Sourire, célèbre). Lieu du sacre de tous les rois de France de Clovis (496) à Charles X (1825). Plus de 30 sacres royaux. Statues décapitées en 1914 (bombardements allemands), restaurées dans les années 1930.",
+      },
+      {
+        heading: "6. Le canal latéral de la Marne — voie verte",
+        body: "Le canal latéral à la Marne (XIXe siècle, parallèle à la rivière Marne) traverse Châlons-en-Champagne. Voie verte cyclable (50 km, plate, ombragée) en direction d'Épernay (vignobles champenois) ou Vitry-le-François. Promenade en péniche ou en barque possible. Le canal est jalonné d'écluses bien conservées. Berges aménagées dans Châlons (place de la République — terrasses sur la Marne).",
+      },
+      {
+        heading: "7. Châlons-en-Champagne — le quartier des Tanneurs",
+        body: "Le quartier des Tanneurs (autour de la place de la République) garde son tracé médiéval — ruelles pavées, maisons à colombages XVIe siècle, anciennes tanneries reconverties. Hôtels particuliers Renaissance (Hôtel d'Aviau, Hôtel des Marronniers). Marché du mercredi et samedi matin. Le Cirque historique de Châlons (1899, en activité — le seul cirque pérenne en France encore ouvert toute l'année).",
+      },
+      {
+        heading: "8. Le Centre national des arts du cirque (Cnac)",
+        body: "Le Centre national des arts du cirque de Châlons (Cnac, créé en 1985 — école nationale supérieure d'art du cirque, unique en France) est l'une des plus prestigieuses écoles de cirque au monde. Spectacles d'élèves en juin (Festival Furies — semaine internationale du cirque contemporain et de la rue, accessible gratuitement). Installations à proximité de l'ancien manège du Cirque historique. À voir absolument pour les amateurs.",
+      },
+      {
+        heading: "9. La Marne et les vignobles AOC",
+        body: "Les vignobles AOC Champagne (33 000 ha, 5 sous-régions — Montagne de Reims, Vallée de la Marne, Côte des Blancs, Côte de Sézanne, Côte des Bar) entourent Châlons. La route touristique du Champagne (700 km de routes balisées entre vignobles) est l'une des plus belles routes œnologiques de France. Caves coopératives et caveaux indépendants à visiter dans les villages (Hautvillers — où Dom Pérignon est enterré, le « moine du champagne » qui en a inventé la méthode champenoise).",
+      },
+      {
+        heading: "10. Gastronomie champenoise — pieds de cochon et biscuits roses",
+        body: "La cuisine de Champagne est rustique : pieds de cochon Sainte-Menehould (à 30 km à l'est — pieds de cochon panés et grillés, recette inventée par Louis XV de passage en 1730), andouillette de Troyes AAAAA (à 90 km au sud — la plus prestigieuse), potée champenoise (chou, lard, saucisses), boudin blanc de Rethel (à 100 km au nord). Sucré : biscuits roses de Reims (les plus anciens biscuits français, à tremper dans le champagne — recette de 1690). Vins : Champagne (le seul vrai), Coteaux Champenois (rouge tranquille), Rosé des Riceys (rosé AOC).",
+      },
+    ],
+    relatedCities: ["chalons-en-champagne", "epernay"],
+    relatedGuides: [
+      "vivre-en-champagne-guide-2025",
+      "vivre-en-grand-est-alsace-moselle-guide-2025",
+    ],
+    tags: ["10 choses à faire à Châlons-en-Champagne", "activités Châlons 2026", "sorties Châlons-en-Champagne", "que faire à Châlons", "cathédrale UNESCO Notre-Dame-en-Vaux Reims Épernay champagne Cnac"],
+  },
+  {
+    slug: "10-choses-a-faire-a-alencon-2026",
+    title: "10 choses à faire à Alençon (le point d'Alençon et le parc naturel Normandie-Maine)",
+    metaTitle: "10 choses à faire à Alençon 2026 — activités et sorties locales",
+    metaDesc: "Musée des Beaux-Arts et de la Dentelle, basilique Notre-Dame, sainte Thérèse, Bagnoles-de-l'Orne et Suisse normande : 10 activités à Alençon pour découvrir l'Orne.",
+    category: "tourisme",
+    emoji: "🪡",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Alençon est la préfecture de l'Orne, 26 000 habitants — capitale historique du duché d'Alençon (Maison de Valois-Alençon). La ville est mondialement connue pour le Point d'Alençon (dentelle à l'aiguille classée patrimoine immatériel UNESCO depuis 2010 — seule dentelle au monde dont la fabrication est inscrite). Ville natale de Thérèse de Lisieux (1873, future sainte). À la porte du parc naturel régional Normandie-Maine.",
+    sections: [
+      {
+        heading: "1. Le Point d'Alençon — UNESCO immatériel",
+        body: "Le Point d'Alençon (depuis 1665, créé par Colbert pour concurrencer la dentelle de Venise) est l'une des plus précieuses dentelles au monde — fait à l'aiguille (et non aux fuseaux), chaque pièce demande des semaines voire des mois (1 cm² = 7 heures de travail). Classé patrimoine immatériel UNESCO en 2010. Atelier National du Point d'Alençon (visite gratuite, démonstrations par les dentellières au travail). Boutique avec pièces (très chères, prix musée).",
+      },
+      {
+        heading: "2. Le musée des Beaux-Arts et de la Dentelle",
+        body: "Le Musée des Beaux-Arts et de la Dentelle d'Alençon (rue Charles-Aveline, ancien collège jésuite XVIIIe siècle) abrite deux collections majeures. Section dentelle : la plus complète collection française de Point d'Alençon (XVIIe siècle à nos jours), point de Venise, point d'Argentan. Section beaux-arts : peintures flamandes et françaises XVIe-XIXe siècles. Gratuit le premier dimanche.",
+      },
+      {
+        heading: "3. La basilique Notre-Dame — gothique flamboyant",
+        body: "La basilique Notre-Dame d'Alençon (XIVe-XVIe siècles, gothique flamboyant) est l'une des plus belles églises gothiques du nord. Façade ouest à porche en arc en accolade unique en France (typique du gothique flamboyant tardif). Mariage de Louis Martin et Zélie Guérin (parents de sainte Thérèse de Lisieux — eux-mêmes canonisés en 2015) en 1858. Reliques de sainte Thérèse exposées. Vitraux du XVIe siècle.",
+      },
+      {
+        heading: "4. La maison natale de sainte Thérèse",
+        body: "La Maison Natale de sainte Thérèse de Lisieux (50 rue Saint-Blaise, restaurée en 1925, classée monument historique) est le lieu où naquit Thérèse Martin (le 2 janvier 1873). Chapelle attenante (avec berceau de la sainte, mobilier d'origine restauré). Lieu de pèlerinage marial (200 000 visiteurs/an). Thérèse, future sainte de l'Église catholique (« la petite Thérèse de l'enfant-Jésus »), a vécu à Alençon les 4 premières années de sa vie avant que la famille n'emménage à Lisieux.",
+      },
+      {
+        heading: "5. Bagnoles-de-l'Orne — la station thermale",
+        body: "Bagnoles-de-l'Orne (à 45 km au nord d'Alençon, station thermale et casino) est l'une des plus pittoresques stations thermales de Normandie — architecture Belle Époque, lac, casino XIXe siècle. Les eaux thermales (« source de Bagnoles ») sont indiquées pour rhumatologie et phlébologie. Station classée pôle d'excellence rural. Casino historique (gratuit pour les non-joueurs, jeux à partir de 18 ans). Forêt domaniale d'Andaine à proximité.",
+      },
+      {
+        heading: "6. La Suisse normande — gorges du Trespoulon",
+        body: "La « Suisse normande » (à 40 km au nord-ouest d'Alençon, vallée de l'Orne — paysages escarpés inhabituels en Normandie) est l'un des plus beaux paysages bocagers de France. Sites majeurs : Roche d'Oëtre (118 m de hauteur, belvédère panoramique sur les gorges du Trespoulon), Pont d'Ouilly (centre de la Suisse normande), Clécy (ville de gravure ardoisière, train miniature). Activités : escalade, canoë, vol en ULM.",
+      },
+      {
+        heading: "7. La forêt d'Écouves et le parc Normandie-Maine",
+        body: "La forêt d'Écouves (15 000 ha à 10 km au nord d'Alençon, point culminant de l'Ouest de la France à 416 m d'altitude — le Signal d'Écouves) est l'une des plus belles hêtraies de Normandie. Le Parc naturel régional Normandie-Maine (créé en 1975, 257 000 ha sur deux régions — Normandie et Pays de la Loire) inclut Écouves, les Alpes mancelles, le mont des Avaloirs. Sentier balisé du Signal d'Écouves (en boucle 3h).",
+      },
+      {
+        heading: "8. Les Alpes mancelles — un coin de Suisse en Sarthe",
+        body: "Les Alpes mancelles (à 20 km au sud-est d'Alençon, dans la Sarthe — Saint-Léonard-des-Bois, Saint-Cénéri-le-Gérei) sont l'un des plus beaux paysages de moyenne montagne du nord de la France malgré leur altitude modeste (300 m). Saint-Cénéri-le-Gérei (plus beau village de France) est niché dans un méandre serré de la Sarthe. Sentier des peintres (Camille Corot, Daubigny, Boudin y ont peint) en boucle (4 km).",
+      },
+      {
+        heading: "9. Le château d'Alençon — donjon ducal",
+        body: "Les vestiges du château d'Alençon (XIIIe-XVIe siècles, ancienne résidence des ducs d'Alençon, Maison de Valois) sont aujourd'hui des ruines romantiques au centre de la ville. Donjon de la Renaissance encore debout (utilisé comme prison jusqu'au XXe siècle). Tour des Bénédictines. Le château fut grandement endommagé pendant la guerre franco-anglaise au XVe siècle, restauré sous François Ier, démoli sous la Révolution. Aujourd'hui parc public.",
+      },
+      {
+        heading: "10. Gastronomie normande — andouille et tripes",
+        body: "La cuisine de l'Orne est typique de la Normandie : tripes à la mode de Caen (à 90 km au nord), andouille de Vire (à 75 km au nord-ouest — boudin sec aux tripes de porc, IGP), boudin de Mortagne-au-Perche (à 50 km à l'est — capitale française du boudin noir), poulet vallée d'Auge (à la crème et au calvados). Fromages AOP : Camembert (à 100 km au nord), Livarot, Pont-l'Évêque, Neufchâtel. Sucré : teurgoule (riz au lait cuit 6h, à la cannelle), tarte normande. Calvados pays d'Auge AOP, cidre normand AOC.",
+      },
+    ],
+    relatedCities: ["alencon"],
+    relatedGuides: [
+      "vivre-en-normandie-guide-2025",
+      "vivre-en-normandie-interieure-guide-2025",
+    ],
+    tags: ["10 choses à faire à Alençon", "activités Alençon 2026", "sorties Alençon", "que faire à Alençon", "Point d'Alençon dentelle UNESCO sainte Thérèse Bagnoles Suisse normande"],
+  },
+  {
+    slug: "10-choses-a-faire-a-bourges-2026",
+    title: "10 choses à faire à Bourges (la cathédrale UNESCO et le palais Jacques-Cœur)",
+    metaTitle: "10 choses à faire à Bourges 2026 — activités et sorties locales",
+    metaDesc: "Cathédrale Saint-Étienne UNESCO, palais Jacques-Cœur, Printemps de Bourges, marais et Sancerre : 10 activités à Bourges pour découvrir la préfecture du Cher.",
+    category: "tourisme",
+    emoji: "⛪",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Bourges est la préfecture du Cher, 65 000 habitants au centre géographique exact de la France. Capitale historique du Berry (anciennement Bituriges Cubes, Avaricum sous César), la ville garde deux ensembles UNESCO — sa cathédrale Saint-Étienne (XIIe-XIIIe siècles, sœur jumelle de Notre-Dame de Paris) et le palais Jacques-Cœur (XVe siècle, gothique flamboyant — la plus belle demeure civile du Moyen Âge en France). Hôte du célèbre festival musical du Printemps de Bourges.",
+    sections: [
+      {
+        heading: "1. La cathédrale Saint-Étienne — UNESCO et sœur de Notre-Dame de Paris",
+        body: "La cathédrale Saint-Étienne de Bourges (1195-1230, gothique rayonnant, classée UNESCO 1992) est l'une des cathédrales gothiques les plus importantes au monde — sœur jumelle de Notre-Dame de Paris (reprend exactement la même technique architecturale, mais en plus large : 41 m de hauteur sous voûte, 5 nefs au lieu de 4). Vitraux du XIIIe siècle parmi les plus complets de France (90 % d'origine, conservés depuis 800 ans). Crypte romane préservée sous la nef.",
+      },
+      {
+        heading: "2. Le palais Jacques-Cœur — gothique flamboyant",
+        body: "Le palais Jacques-Cœur (1443-1453, gothique flamboyant) est la plus belle demeure civile du Moyen Âge en France. Construit pour Jacques Cœur (1400-1456, négociant et grand argentier du roi Charles VII — le plus riche Français de son temps — ruiné et exilé en 1451 par jalousie royale). Décor sculpté exceptionnel (cheminée monumentale, voûtes peintes, devise « À vaillans cœurs riens impossible »). Visite avec audioguide. Géré par le Centre des Monuments Nationaux.",
+      },
+      {
+        heading: "3. Le Printemps de Bourges — festival musical",
+        body: "Le Printemps de Bourges (créé en 1977, fin avril, 6 jours — l'un des plus anciens festivals musicaux français) est un événement majeur du paysage musical français. Programmation rock, chanson française, électro, rap, world music — 200 artistes français et internationaux. Lieux multiples (Auditorium, salles dans toute la ville, scène ouverte place Séraucourt). Plateforme des « Inouïs » (jeunes talents), tremplin musical historique (Camille, Téléphone, Renaud y ont débuté).",
+      },
+      {
+        heading: "4. Le marais de Bourges — l'extension de la ville",
+        body: "Le marais de Bourges (135 ha au cœur de la ville, sur l'ancien lit des rivières Yèvre et Voiselle) est un site unique en France — 1 500 parcelles de jardins maraîchers cultivés depuis le Moyen Âge, dans une zone humide en pleine ville. Promenade en barque traditionnelle « jardinière » (location au Pont-Marais, juillet-août). Classé Espace Naturel Sensible. La Maison de la Réserve naturelle (gratuite) présente la faune et la flore.",
+      },
+      {
+        heading: "5. La Maison de la Culture — Pierre Boulez",
+        body: "La Maison de la Culture de Bourges (1964, créée par Marcel Bluwal et Gabriel Monnet — la première Maison de la Culture inaugurée par André Malraux) est l'institution culturelle pivot de la ville. Programmation de théâtre, danse, concerts (l'IRCAM y est lié — Pierre Boulez né à Montbrison non loin). Aujourd'hui Scène nationale. Bâtiment moderne d'origine restauré (1964, Bernard Schoeller).",
+      },
+      {
+        heading: "6. Sancerre — la cité viticole en sentinelle",
+        body: "Sancerre (à 50 km au nord-est de Bourges, perchée à 350 m sur un piton calcaire dominant la Loire) est l'épicentre de l'AOC Sancerre — l'un des plus prestigieux vins blancs français (cépage sauvignon blanc, 2 950 ha, terroirs caillottes et silex). Domaines emblématiques : Domaine Henri Bourgeois, Domaine Vacheron, Domaine Alphonse Mellot. Vue panoramique sur la vallée de la Loire et le Pouilly-Fumé (l'autre AOC sauvignon, sur la rive opposée). Marché du samedi matin.",
+      },
+      {
+        heading: "7. Apremont-sur-Allier — plus beau village de France",
+        body: "Apremont-sur-Allier (à 50 km au sud-ouest de Bourges, plus beau village de France) est un village au bord de l'Allier (la dernière grande rivière sauvage de France). Parc floral d'Apremont (jardin paysager créé en 1976 par Gilles de Brissac, descendant des seigneurs locaux — 5 ha, l'un des plus beaux jardins du Centre-Val de Loire). Château d'Apremont (privé, vues extérieures). Maisons traditionnelles bourbonnaises.",
+      },
+      {
+        heading: "8. Le château de Meillant — Renaissance flamboyant",
+        body: "Le château de Meillant (à 30 km au sud-est de Bourges, XVe-XVIe siècles) est l'un des plus beaux châteaux Renaissance du Berry. Façade gothique flamboyante encore médiévale, façade Renaissance sur cour intérieure (modèle italianisant introduit par Charles d'Amboise au début du XVIe siècle). Mobilier d'origine remarquable. Lieu de tournage de plusieurs films. Visite payante.",
+      },
+      {
+        heading: "9. La voie verte du canal de Berry",
+        body: "Le canal de Berry (XIXe siècle, désaffecté en 1955, voie verte aménagée sur 320 km) part de Marseilles-lès-Aubigny (au nord de Bourges) et descend vers Montluçon en passant par Bourges. Étape Bourges-Vierzon (35 km plate, ombragée — l'une des plus belles voies vertes du Centre-Val de Loire). Loueurs de vélos à la base nautique du Pont-Marais. Possibilité de péniche-restaurant pour des croisières (juillet-août).",
+      },
+      {
+        heading: "10. Gastronomie berrichonne — Sancerre et crottin",
+        body: "La cuisine berrichonne est paysanne et fromagère : galette aux pommes de terre, poulet en barbouille (à la sauce sang — héritage de chasse), lentilles vertes du Berry (cousines des lentilles du Puy AOP), pâté berrichon. Fromages AOP : Crottin de Chavignol (à 50 km à l'est — chèvre rond, classique du Berry-Centre), Valençay (à 70 km au sud-ouest — chèvre pyramidal à la pointe), Pouligny-Saint-Pierre. Spécialités sucrées : sablés de Nançay, pain d'épices de Pithiviers. Vins : Sancerre (AOC, blanc et rouge), Pouilly-Fumé (AOC, blanc), Quincy et Reuilly (AOC, blanc).",
+      },
+    ],
+    relatedCities: ["bourges"],
+    relatedGuides: [
+      "vivre-en-centre-val-de-loire-guide-2026",
+    ],
+    tags: ["10 choses à faire à Bourges", "activités Bourges 2026", "sorties Bourges", "que faire à Bourges", "cathédrale UNESCO Jacques-Cœur Printemps Sancerre marais Apremont"],
+  },
+  {
+    slug: "10-choses-a-faire-a-fontainebleau-2026",
+    title: "10 choses à faire à Fontainebleau (le château royal et la forêt de l'École)",
+    metaTitle: "10 choses à faire à Fontainebleau 2026 — activités et sorties locales",
+    metaDesc: "Château royal, forêt de Fontainebleau, escalade, Barbizon et Vaux-le-Vicomte : 10 activités à Fontainebleau pour découvrir la cité royale et son massif forestier.",
+    category: "tourisme",
+    emoji: "🌳",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Fontainebleau est une commune de Seine-et-Marne, 15 000 habitants à 65 km au sud de Paris. La ville est mondialement connue pour deux choses : le château royal de Fontainebleau (XIIe-XIXe siècles, classé UNESCO — « la maison des siècles » selon Napoléon, résidence royale de 30 rois et 2 empereurs de François Ier à Napoléon III) et la forêt de Fontainebleau (25 000 ha, l'un des plus grands espaces forestiers d'Île-de-France — capitale mondiale du bloc — escalade sur rocher).",
+    sections: [
+      {
+        heading: "1. Le château royal de Fontainebleau — UNESCO",
+        body: "Le château royal de Fontainebleau (XIIe-XIXe siècles, classé UNESCO 1981) est le seul château ayant été habité en continuité par tous les souverains français de Philippe Auguste à Napoléon III. 1 500 pièces, 130 ha de parc. Galerie François Ier (1530, premier salon Renaissance italianisant en France — école de Fontainebleau), Salle de Bal Henri II, Appartements impériaux, Petits Appartements de Napoléon. Cour des Adieux (lieu où Napoléon fit ses adieux à la Garde le 20 avril 1814).",
+      },
+      {
+        heading: "2. La forêt de Fontainebleau — 25 000 ha",
+        body: "La forêt domaniale de Fontainebleau (25 000 ha, l'un des plus grands espaces forestiers d'Île-de-France — chênes, hêtres, pins sylvestres, formations rocheuses gréseuses) est inscrite Réserve de biosphère UNESCO depuis 1998. Sentiers balisés (1 000 km au total). Trois entrées majeures : Carrefour de l'Obélisque, Bas-Bréau (Barbizon), Trois-Pignons. Faune : sangliers, cerfs, chevreuils, écureuils roux (en plus grand nombre en Île-de-France). Idéal en automne pour les couleurs.",
+      },
+      {
+        heading: "3. Le bloc — l'escalade sur grès",
+        body: "Fontainebleau est la capitale mondiale du bloc (« escalade de bloc » — grimper sur de gros rochers sans corde, hauteur max 6-8 m, matelas de réception au sol). 12 000 problèmes répertoriés, classés en circuits couleurs (jaune, orange, bleu, rouge, blanc, noir). Sites majeurs : Bas-Cuvier (le plus emblématique), Apremont, Cuvier-Rempart, Trois-Pignons. Pratique gratuite. Loueurs de matelas et chaussons d'escalade en ville. Le « Bleausard » est l'escaladeur amateur du dimanche.",
+      },
+      {
+        heading: "4. Barbizon — l'école des peintres",
+        body: "Barbizon (à 8 km au sud-est de Fontainebleau, en lisière de forêt) est le village des peintres de l'« École de Barbizon » (1830-1875, ancêtre de l'impressionnisme) — Théodore Rousseau, Jean-François Millet (qui y a peint L'Angélus, Les Glaneuses), Charles Daubigny, Camille Corot. La rue principale (Grande Rue) garde les ateliers des peintres (Maison-atelier Millet, Maison-atelier Rousseau — visitables). Auberge du Père Ganne (musée de l'École de Barbizon).",
+      },
+      {
+        heading: "5. Vaux-le-Vicomte — le château qui inspira Versailles",
+        body: "Vaux-le-Vicomte (à 30 km au nord de Fontainebleau, XVIIe siècle classique) est le château qui inspira Louis XIV pour Versailles. Construit en 5 ans (1656-1661) par Nicolas Fouquet (surintendant des Finances de Louis XIV — son ascension provoqua la jalousie du roi, qui le fit emprisonner à vie après une fête grandiose en 1661). Architecture : Louis Le Vau, jardins : André Le Nôtre, décor intérieur : Charles Le Brun (l'équipe artistique qui fera plus tard Versailles).",
+      },
+      {
+        heading: "6. Le palais de Fontainebleau — Galerie François Ier",
+        body: "À l'intérieur du château royal, la Galerie François Ier (1533-1539, décorée par Le Rosso Fiorentino et Le Primatice — peintres italiens importés par François Ier) est l'un des chefs-d'œuvre absolus de la Renaissance française. 60 m de long, 6 m de large, décor en stuc et fresques qui mélangent allégories mythologiques et chiffrement du règne royal. Influence majeure sur tout l'art décoratif européen du XVIe siècle.",
+      },
+      {
+        heading: "7. Les jardins et le Grand Parterre",
+        body: "Les jardins du château de Fontainebleau (130 ha) sont l'œuvre cumulative de trois siècles. Le Grand Parterre (1660, dessiné par André Le Nôtre — le plus grand parterre à la française d'Europe, 1 200 m de long). L'étang aux Carpes (XVIIe siècle, cygnes et carpes royales). Le Jardin de Diane, le Jardin Anglais (XIXe siècle, romantique). Promenade gratuite en accès libre.",
+      },
+      {
+        heading: "8. Le château de Courances — jardin de la Source",
+        body: "Le château de Courances (à 15 km à l'ouest de Fontainebleau, XVIIe siècle classique) est l'un des plus beaux châteaux d'Île-de-France méconnus du grand public. Jardin à la française dessiné par André Le Nôtre — la « Source des Courances » (résurgence naturelle au cœur du parc — la plus grande nappe phréatique d'Île-de-France remonte à la surface ici). Visite uniquement en haute saison. Habité par la famille de Ganay (descendants des propriétaires originels).",
+      },
+      {
+        heading: "9. La via Francigena et les chemins anciens",
+        body: "Fontainebleau est sur la Via Francigena (chemin de pèlerinage médiéval Canterbury-Rome — passage en France 1 700 km) et sur le GR1 (Tour de Paris à pied, 600 km en boucle autour de Paris à 30-90 km du périphérique). Étape Fontainebleau-Barbizon (12 km, traverse la forêt — l'une des plus belles étapes du GR1). Loueurs de vélos à la gare. Possibilité d'aller à Vaux-le-Vicomte à vélo (30 km en boucle au départ de Fontainebleau).",
+      },
+      {
+        heading: "10. Gastronomie francilienne — brie et fontainebleau",
+        body: "La cuisine de Seine-et-Marne et d'Île-de-France est rurale et fromagère : pâté en croûte de Pithiviers (à 60 km au sud — feuilleté à l'alouette ou au gibier, recette du XVIIe siècle), Brie de Meaux AOP (à 60 km au nord, le « roi des fromages »), Brie de Melun AOP (à 35 km au nord — plus rare, plus puissant). Spécialité d'origine : Fontainebleau (fromage frais battu avec crème montée — créé à Fontainebleau au XIXe siècle, servi avec coulis de fruits rouges). Vins : Champagne (à 100 km à l'est).",
+      },
+    ],
+    relatedCities: ["fontainebleau"],
+    relatedGuides: [
+      "vivre-en-ile-de-france-guide-2025",
+    ],
+    tags: ["10 choses à faire à Fontainebleau", "activités Fontainebleau 2026", "sorties Fontainebleau", "que faire à Fontainebleau", "château royal UNESCO forêt bloc Barbizon Vaux-le-Vicomte"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
