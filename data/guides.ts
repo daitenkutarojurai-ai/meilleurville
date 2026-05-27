@@ -30957,6 +30957,603 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["10 choses à faire à Fontainebleau", "activités Fontainebleau 2026", "sorties Fontainebleau", "que faire à Fontainebleau", "château royal UNESCO forêt bloc Barbizon Vaux-le-Vicomte"],
   },
+  {
+    slug: "10-choses-a-faire-a-honfleur-2026",
+    title: "10 choses à faire à Honfleur (le Vieux Bassin et les peintres impressionnistes)",
+    metaTitle: "10 choses à faire à Honfleur 2026 — activités et sorties locales",
+    metaDesc: "Vieux Bassin, église Sainte-Catherine en bois, musée Eugène Boudin, Deauville et estuaire de la Seine : 10 activités à Honfleur pour découvrir la cité normande.",
+    category: "tourisme",
+    emoji: "⚓",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Honfleur est un port de pêche normand de 7 000 habitants, sur la rive sud de l'estuaire de la Seine — l'un des plus beaux villages de France et l'un des plus visités du Calvados. Berceau de l'impressionnisme (le « Salon de Sainte-Adresse » et l'École de Honfleur — Boudin, Monet, Jongkind, Pissarro y peignirent leurs premières marines de plein air dans les années 1860), Honfleur est la porte de la côte Fleurie (Deauville, Trouville, Cabourg) et de l'estuaire.",
+    sections: [
+      {
+        heading: "1. Le Vieux Bassin — l'image emblématique",
+        body: "Le Vieux Bassin (port intérieur du XVIIe siècle, creusé par Colbert sur ordre de Louis XIV en 1681) est l'image emblématique d'Honfleur — façades hautes et étroites de maisons à pans de bois de 4-6 étages reflétées dans l'eau, bateaux de plaisance et de pêche, terrasses de cafés. La Lieutenance (vestige des remparts médiévaux, XVIe siècle) ferme le bassin. Photographier au coucher du soleil ou de nuit (éclairage).",
+      },
+      {
+        heading: "2. L'église Sainte-Catherine — le plus grand édifice en bois",
+        body: "L'église Sainte-Catherine (XVe siècle) est la plus grande église en bois de France — entièrement construite en charpente par les charpentiers de marine d'Honfleur après la guerre de Cent Ans (pas de pierre disponible après les destructions). Voûtes en carène de bateau renversée (vaisseau retourné), clocher séparé de l'église (rare en France). À l'intérieur : statues médiévales, vitraux contemporains de Henri Le Sidaner.",
+      },
+      {
+        heading: "3. Le musée Eugène Boudin — l'impressionnisme",
+        body: "Le musée Eugène Boudin (rue de l'Homme-de-Bois, créé en 1868) abrite la plus belle collection d'œuvres d'Eugène Boudin (1824-1898, peintre honfleurais — « roi des ciels » selon Corot, mentor de Monet jeune). Collection de Boudin, Monet, Dufy, Friesz, Vallotton. Salle Hambourg-Rachet (collection d'art moderne et contemporain). Section ethnographie normande (costumes, coiffes, mobilier). Gratuit le premier dimanche.",
+      },
+      {
+        heading: "4. Deauville et Trouville — la côte Fleurie",
+        body: "Deauville (à 15 km à l'ouest d'Honfleur) et Trouville-sur-Mer (sa voisine moins chic, accessible à pied de Deauville par le pont des Belges) forment la « côte Fleurie ». Deauville : Festival du film américain (septembre), planches de bois en bord de plage, casino, hippodrome. Villa Strassburger, Hôtel Normandy (palace années 1910). Plages de sable fin à perte de vue. Trouville : marché aux poissons, casino, plus authentique.",
+      },
+      {
+        heading: "5. Le Pont de Normandie — l'estuaire majestueux",
+        body: "Le Pont de Normandie (1995, 2 143 m de long, 215 m de hauteur — l'un des plus longs ponts à haubans du monde) franchit l'estuaire de la Seine entre Honfleur et Le Havre. Vue panoramique sur l'estuaire (réserve naturelle, oiseaux migrateurs, vasières). Péage 5,40€ pour les voitures. Le pont remplace l'ancien bac d'Honfleur (qui mit fin à 700 ans de traversée par bateau). Pour info, à voir au coucher du soleil.",
+      },
+      {
+        heading: "6. Le Mont-Saint-Michel à 2h",
+        body: "Le Mont-Saint-Michel (à 150 km à l'ouest d'Honfleur — 2h de route) est l'un des sites les plus visités de France. Abbaye bénédictine du XIe-XVIe siècles, ruelles médiévales de la cité, baie aux plus grandes marées d'Europe (15 m d'amplitude). Pour info : traversée à pied de la baie possible avec un guide agréé (au départ de Genêts, 4h, 30€). À voir un jour de marée haute pour comprendre l'insularité originelle.",
+      },
+      {
+        heading: "7. Étretat et les falaises blanches",
+        body: "Étretat (à 30 km au nord-est d'Honfleur, traversée par le Pont de Normandie) est l'un des sites naturels les plus photographiés de France — falaises crayeuses blanches (Falaise d'Aval avec son Arc, Aiguille et Manneporte). Sentier des Douaniers (GR21) au sommet des falaises (vue spectaculaire). Plage de galets, casino, ville thermale Belle Époque (1834, l'une des plus anciennes stations balnéaires de France). Peintres : Monet, Courbet y ont peint.",
+      },
+      {
+        heading: "8. La maison Erik Satie — le musicien dérangé",
+        body: "Les Maisons Satie (rue Haute, maison natale d'Erik Satie 1866-1925 — compositeur français le plus original du début du XXe siècle — Gymnopédies, Gnossiennes, mentor du Groupe des Six : Poulenc, Milhaud) sont une scénographie immersive avec audioguide qui raconte la vie excentrique du musicien (qui ne portait que du velours, possédait 100 parapluies, ne mangeait que des aliments blancs). Imperdable pour les mélomanes.",
+      },
+      {
+        heading: "9. La réserve naturelle de l'estuaire de la Seine",
+        body: "La Réserve naturelle de l'estuaire de la Seine (à 5 km au nord d'Honfleur, 8 500 ha) est l'une des plus importantes zones humides françaises — point d'arrêt pour 200 espèces d'oiseaux migrateurs (cigognes, hérons, busards, oies, canards). Maison de l'Estuaire (centre d'interprétation, gratuit). Observatoires d'oiseaux sur pilotis. Sentiers et pistes cyclables aménagés. Idéal en automne (migration des oies blanches en provenance de Sibérie).",
+      },
+      {
+        heading: "10. Gastronomie normande — coquilles et crémant",
+        body: "La cuisine d'Honfleur est marine et normande : coquilles Saint-Jacques de Normandie (de novembre à avril, l'or de la côte), moules-frites (la côte Fleurie en abuse), poisson de criée (turbot, sole, bar), tripes à la mode de Caen (à 60 km). Fromages AOP : Camembert (village à 70 km au sud), Pont-l'Évêque, Livarot, Neufchâtel. Spécialités sucrées : teurgoule (riz au lait cuit 6h, à la cannelle), tarte normande aux pommes. Cidre normand AOC, Calvados pays d'Auge AOP, Pommeau (apéritif). Pour info : Honfleur produit aussi son propre crémant normand.",
+      },
+    ],
+    relatedCities: ["honfleur"],
+    relatedGuides: [
+      "vivre-en-normandie-guide-2025",
+    ],
+    tags: ["10 choses à faire à Honfleur", "activités Honfleur 2026", "sorties Honfleur", "que faire à Honfleur", "Vieux Bassin Sainte-Catherine bois Boudin impressionnisme Deauville Étretat"],
+  },
+  {
+    slug: "10-choses-a-faire-a-sarlat-la-caneda-2026",
+    title: "10 choses à faire à Sarlat-la-Canéda (la cité médiévale dorée et le foie gras)",
+    metaTitle: "10 choses à faire à Sarlat-la-Canéda 2026 — activités et sorties locales",
+    metaDesc: "Vieille ville Renaissance, marché aux truffes, châteaux du Périgord, gouffre de Padirac et Rocamadour : 10 activités à Sarlat pour découvrir le cœur du Périgord noir.",
+    category: "tourisme",
+    emoji: "🦆",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Sarlat-la-Canéda est la sous-préfecture du Sud-Dordogne, 9 000 habitants — la cité médiévale et Renaissance la mieux préservée de France (65 monuments classés sur 11 ha, le plus haut ratio du pays). Capitale du Périgord Noir, terre de foie gras, de truffes, de noix, de châtaignes, Sarlat est aux portes de la vallée de la Dordogne — l'une des plus belles vallées de France (Beynac, Castelnaud, La Roque-Gageac, Domme, jardins de Marqueyssac).",
+    sections: [
+      {
+        heading: "1. La cité médiévale et Renaissance — la pierre dorée",
+        body: "La cité médiévale de Sarlat (11 ha classés secteur sauvegardé) est la mieux conservée de France — pierre calcaire jaune dorée, ruelles pavées, hôtels particuliers Renaissance. Place de la Liberté (cœur, marché et terrasses), rue de la Liberté (axe principal), rue des Consuls (artisans), Hôtel de Maleville. Cathédrale Saint-Sacerdos (XIIe-XVIIe siècles). La Lanterne des Morts (XIIe siècle, monument funéraire roman unique en France) à voir aussi.",
+      },
+      {
+        heading: "2. Le marché du samedi matin — gras, truffes, noix",
+        body: "Le marché de Sarlat (samedi matin, place de la Liberté et rues adjacentes — l'un des plus beaux marchés de France) attire 20 000 visiteurs en haute saison. Spécialités : foie gras d'oie et de canard (mi-cuit, en conserve), magrets, confits, truffes noires fraîches (Tuber melanosporum, novembre-mars — 800-1 500€/kg), noix du Périgord AOP, cèpes, fromages (Cabécou de Rocamadour AOP), pruneaux d'Agen. Marché du mercredi matin également (plus petit, plus quotidien).",
+      },
+      {
+        heading: "3. Les châteaux de la Dordogne — Beynac et Castelnaud",
+        body: "La vallée de la Dordogne (entre Sarlat et Bergerac, sur 50 km) abrite la plus grande concentration de châteaux médiévaux de France — résultat de la guerre de Cent Ans (les Anglais tenaient une rive, les Français l'autre). Beynac-et-Cazenac (XIIe siècle, perché sur une falaise à 150 m — la « Tour Eiffel du Périgord ») et Castelnaud (XIIIe-XVIe siècles, sur la rive opposée — musée de la Guerre médiévale, démonstrations de catapultes et trébuchets) sont les deux incontournables.",
+      },
+      {
+        heading: "4. La grotte de Lascaux IV — la « chapelle Sixtine préhistorique »",
+        body: "Lascaux IV (à 25 km au nord de Sarlat, à Montignac, ouvert en 2016) est la réplique intégrale de la grotte ornée la plus célèbre du monde (peintures pariétales magdaléniennes, -17 000 av. J.-C. — l'original fermé en 1963 pour préservation). Reproduction au millimètre près de toutes les salles. Visite avec audioguide, 2h, 22€. Centre d'art pariétal Lascaux IV (extension du centre de recherche) signé Snøhetta.",
+      },
+      {
+        heading: "5. Les jardins de Marqueyssac — le belvédère",
+        body: "Les Jardins suspendus de Marqueyssac (à 15 km au sud-ouest de Sarlat, sur un éperon rocheux dominant la Dordogne, créés au XIXe siècle) sont l'un des plus beaux jardins de buis taillé d'Europe (150 000 buis centenaires sculptés en formes ondulées). 6 km d'allées paysagères en surplomb de la rivière. Vue panoramique à 360° sur la Dordogne, Beynac, La Roque-Gageac, Castelnaud. Promenade aux flambeaux le jeudi en juillet-août.",
+      },
+      {
+        heading: "6. La Roque-Gageac — plus beau village en bord de Dordogne",
+        body: "La Roque-Gageac (à 12 km au sud-ouest de Sarlat, plus beau village de France) est blottie entre une falaise calcaire vertigineuse et la Dordogne, sur 800 m de long. Maisons en pierre, ruelles fleuries, jardin exotique (climat micro-doux abrite bananiers et palmiers — Une rareté en Périgord). Descente de la Dordogne en gabare (bateau traditionnel à fond plat) au départ du village. Domme (à 5 km, plus beau village fortifié — bastide royale du XIIIe siècle, panorama exceptionnel) à combiner.",
+      },
+      {
+        heading: "7. Le gouffre de Padirac — la rivière souternaine",
+        body: "Le gouffre de Padirac (à 40 km à l'est de Sarlat, dans le Quercy) est l'un des grands sites souterrains d'Europe — un effondrement karstique de 75 m de profondeur ouvert sur une rivière souterraine. Descente par ascenseur jusqu'à -103 m, puis navigation en barque à fond plat sur 1 km de galeries (Grand Pendeloque, Lac de la Pluie). 1h30 de visite, 17€. L'une des merveilles naturelles d'Europe.",
+      },
+      {
+        heading: "8. Rocamadour — la cité mariale verticale",
+        body: "Rocamadour (à 50 km au sud-est de Sarlat, plus beau village de France, classé UNESCO comme étape de Saint-Jacques) est l'une des grandes cités de pèlerinage d'Europe — village vertical accroché à une falaise de 150 m, construit autour du sanctuaire de la Vierge Noire (XIIe siècle, statue miraculeuse). 216 marches du Grand Escalier des pèlerins. Sept églises, basilique Saint-Sauveur, château au sommet. Spécialité : Rocamadour AOP (fromage de chèvre, le plus petit AOP de France).",
+      },
+      {
+        heading: "9. La vallée de la Vézère — Eyzies et préhistoire",
+        body: "La vallée de la Vézère (entre Sarlat et Périgueux, à 30 km au nord-ouest de Sarlat) concentre 15 sites classés UNESCO « berceau de l'Humanité » : grotte de Font-de-Gaume (peintures originales — dernière grotte ornée encore ouverte au public, en concurrence avec Niaux en Ariège), grotte des Combarelles (gravures), abri du Poisson, La Madeleine (site éponyme du Magdalénien — village troglodyte médiéval). Musée national de Préhistoire aux Eyzies (le plus grand au monde sur la préhistoire).",
+      },
+      {
+        heading: "10. Gastronomie périgourdine — foie gras et noix",
+        body: "Sarlat est l'une des capitales gastronomiques de France : foie gras d'oie ou de canard (mi-cuit, poêlé, en terrine), magret de canard, confit de canard et d'oie (le canard est élevé en plein air en Périgord), pommes sarladaises (sautées à l'ail et au persil dans la graisse de canard), tourtière au confit. Spécialités : noix du Périgord AOP (gâteau aux noix, huile de noix), truffe noire (en omelette, en sauce Périgueux). Sucré : Croquant de Sarlat, gâteau aux noix. Vins : Bergerac (à 50 km), Pécharmant (rouge), Monbazillac (liquoreux), Cahors (à 80 km au sud).",
+      },
+    ],
+    relatedCities: ["sarlat-la-caneda"],
+    relatedGuides: [
+      "vivre-en-dordogne-perigord-guide-2025",
+      "vivre-en-dordogne-quercy-perigord-guide-2025",
+    ],
+    tags: ["10 choses à faire à Sarlat-la-Canéda", "activités Sarlat 2026", "sorties Sarlat-la-Canéda", "que faire à Sarlat", "cité médiévale Dordogne Beynac Lascaux Padirac Rocamadour foie gras"],
+  },
+  {
+    slug: "10-choses-a-faire-a-ajaccio-2026",
+    title: "10 choses à faire à Ajaccio (la cité napoléonienne et le golfe de la Corse-du-Sud)",
+    metaTitle: "10 choses à faire à Ajaccio 2026 — activités et sorties locales",
+    metaDesc: "Maison Bonaparte, citadelle, Îles Sanguinaires, calanques de Piana et Filitosa : 10 activités à Ajaccio pour découvrir la préfecture de la Corse-du-Sud.",
+    category: "tourisme",
+    emoji: "🌊",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Ajaccio est la préfecture de la Corse-du-Sud et la « Cité Impériale » — ville natale de Napoléon Bonaparte (1769). 70 000 habitants au fond du golfe d'Ajaccio (l'un des plus beaux golfes du monde selon le National Geographic), capitale de l'île de Beauté avec Bastia. Climat méditerranéen doux, palmeraies, plages urbaines, marché coloré quotidien. Porte d'entrée du Sartenais (au sud — Filitosa, mégalithes corses), du Liamone (à l'ouest — calanques de Piana), et de l'arrière-pays montagneux.",
+    sections: [
+      {
+        heading: "1. La maison Bonaparte — la naissance de Napoléon",
+        body: "La Maison Bonaparte (rue Saint-Charles, classée monument historique) est la maison natale de Napoléon Bonaparte (1769). Restaurée au XIXe siècle par Napoléon III (en hommage à son oncle). Mobilier d'origine partiel, salle de l'alcôve où naquit Napoléon, salle des armes, salle d'attente des appartements impériaux. 5 étages, audioguide gratuit. Gérée par le musée national des châteaux de Versailles et de Trianon.",
+      },
+      {
+        heading: "2. La cathédrale Notre-Dame-de-la-Miséricorde",
+        body: "La cathédrale d'Ajaccio (XVIe siècle, baroque génois) est l'église où Napoléon fut baptisé en 1771. Façade en pierre dorée caractéristique du baroque ligure. À l'intérieur : œuvres de l'école italienne (Delacroix « La Vierge au Sacré-Cœur » offerte par la duchesse de Berry), orgue historique. À 200 m de la maison Bonaparte. Visite gratuite.",
+      },
+      {
+        heading: "3. La citadelle Miollis et le port d'Ajaccio",
+        body: "La citadelle Miollis (XVIe siècle, fortifications génoises) domine le port d'Ajaccio. Aujourd'hui propriété militaire (visite uniquement lors des Journées du Patrimoine de septembre). En contrebas, le port d'Ajaccio (avec son embarcadère et son port de plaisance — Tino Rossi, célèbre chanteur ajaccien, a son port à son nom). Marché tous les matins place Foch (poissons frais, charcuteries corses, fromages). Place du Diamant (terrasses, statue équestre de Napoléon Ier).",
+      },
+      {
+        heading: "4. Les Îles Sanguinaires — le coucher de soleil",
+        body: "Les Îles Sanguinaires (à 12 km à l'ouest d'Ajaccio, au bout de la Route des Sanguinaires) sont un archipel de 4 îlots rocheux rouges (granit rose) qui ferment le golfe d'Ajaccio. Surnommées « Sanguinaires » à cause de la couleur rouge sang au coucher du soleil. Croisières au départ d'Ajaccio (1h30, 25€ — passage par le tour de la Grande Sanguinaire). Phare de la Grande Sanguinaire (1844, gardé jusqu'en 1985). Coucher de soleil photogénique depuis la Pointe de la Parata.",
+      },
+      {
+        heading: "5. Les calanques de Piana — UNESCO",
+        body: "Les Calanques de Piana (à 70 km au nord-ouest d'Ajaccio, classées UNESCO depuis 1983) sont l'un des plus beaux sites naturels de Corse — formations rocheuses de granit rose surplombant la mer Méditerranée sur 4 km de côte. La route D81 (la D81 corniche entre Piana et Porto) traverse les calanques — l'une des plus belles routes panoramiques du monde. Sentier balisé du Château fort (1h30, accessible à pied depuis la Pointe de Piana). Coucher de soleil exceptionnel.",
+      },
+      {
+        heading: "6. Filitosa — les mégalithes corses",
+        body: "Filitosa (à 70 km au sud d'Ajaccio, dans le Sartenais) est le plus important site mégalithique de Corse — site préhistorique avec menhirs anthropomorphes (statues-menhirs de granit représentant des guerriers, datant de -4 000 à -1 000 av. J.-C.). 16 statues exposées dans le parc archéologique. Découvert en 1946 par le propriétaire des lieux. Centre d'interprétation. À combiner avec Sartène (« la plus corse des villes corses »).",
+      },
+      {
+        heading: "7. La plage de Palombaggia — la plus belle de Corse",
+        body: "La plage de Palombaggia (à 145 km au sud-est d'Ajaccio, près de Porto-Vecchio) est régulièrement classée parmi les plus belles plages du monde — sable blanc, eau turquoise, pins parasols penchés sur la mer, rochers de granit rose. Accessible à 2h en voiture. Sa voisine, la plage de Santa-Giulia (à 10 km au sud) est tout aussi belle. Pour info : très fréquentées en juillet-août — y aller en juin ou septembre pour profiter sans la foule.",
+      },
+      {
+        heading: "8. Le golfe d'Ajaccio en bateau",
+        body: "Le golfe d'Ajaccio (l'un des plus beaux golfes du monde selon le National Geographic) se visite en bateau au départ du port. Croisières des Îles Sanguinaires (1h30), croisières des Calanques de Piana (journée complète), croisières dans le golfe (toute la journée, baignade, déjeuner à bord). Possibilité de skipper individuel (location de bateau pour la journée). Eau parmi les plus claires d'Europe.",
+      },
+      {
+        heading: "9. Bonifacio — la cité crétée sur falaise",
+        body: "Bonifacio (à 130 km au sud d'Ajaccio, perché sur des falaises calcaires de 70 m face à la Sardaigne) est l'une des cités les plus spectaculaires de Méditerranée. Vieille ville fortifiée génoise (XIIe siècle), Escalier du Roi d'Aragon (taillé dans la falaise, légende d'un siège de 1420). Grottes marines (Dragonato, Saint-Antoine). Plages de Sperone (les Maldives corses, plage des locaux). À 2h en voiture, donc à voir en journée.",
+      },
+      {
+        heading: "10. Gastronomie corse — figatellu et fromages",
+        body: "La cuisine corse est l'une des plus identitaires de France : figatellu (saucisse de foie de porc fumé, hiver), lonzu (filet mignon séché), coppa, prisuttu (jambon corse), brocciu AOP (fromage frais de brebis ou chèvre — emblème national), fromage corse de brebis et chèvre, agneau corse, sanglier (à la brace). Spécialité : cannelloni au brocciu (raviolis ou cannelloni farcis), pulenda (galette de farine de châtaignes — héritage paysan). Vins : Ajaccio AOC (Sciaccarellu rouge), Patrimonio (rouge), muscat du Cap Corse (vin doux), Cap Corse (apéritif).",
+      },
+    ],
+    relatedCities: ["ajaccio", "bastia"],
+    relatedGuides: [
+      "vivre-en-corse-guide-2025",
+      "vivre-en-corse-guide-2026",
+    ],
+    tags: ["10 choses à faire à Ajaccio", "activités Ajaccio 2026", "sorties Ajaccio", "que faire à Ajaccio", "Napoléon Bonaparte Sanguinaires calanques Piana Filitosa Bonifacio"],
+  },
+  {
+    slug: "10-choses-a-faire-a-bastia-2026",
+    title: "10 choses à faire à Bastia (le vieux port et le Cap Corse)",
+    metaTitle: "10 choses à faire à Bastia 2026 — activités et sorties locales",
+    metaDesc: "Vieux port, citadelle Terra Nova, Cap Corse, Saint-Florent et désert des Agriates : 10 activités à Bastia pour découvrir la Haute-Corse.",
+    category: "tourisme",
+    emoji: "🏖️",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Bastia est la préfecture de la Haute-Corse et le principal port de l'île, 45 000 habitants — l'autre capitale de la Corse. La cité fut fondée en 1380 par les Génois autour de la « Bastiglia » (citadelle Terra Nova, intacte). Berceau historique de la résistance corse à Gênes (1729-1769) puis à Paris (1769-aujourd'hui), Bastia donne accès au Cap Corse (« Doigt de la Corse » — péninsule de 40 km au nord), à Saint-Florent (« Saint-Tropez corse ») et au désert des Agriates (désert montagneux unique au monde).",
+    sections: [
+      {
+        heading: "1. Le Vieux Port et les terrasses",
+        body: "Le Vieux Port de Bastia (creusé dans la pierre par les Génois au XIIIe siècle, abrite encore 200 bateaux de pêche et de plaisance) est le cœur historique. Façades colorées (jaune, rose, ocre) de hautes maisons de 6-7 étages — typique des ports méditerranéens italianisants. Place Saint-Nicolas (cœur de Bastia, 300 m de long — l'une des plus grandes places de France, avec sa statue de Napoléon en empereur romain). Terrasses de cafés tous les soirs.",
+      },
+      {
+        heading: "2. La citadelle Terra Nova — Bastiglia",
+        body: "La citadelle de Bastia (« Terra Nova », XIVe siècle, génoise) est l'ensemble fortifié à l'origine de la ville. Murs intacts, ruelles pavées, palais des gouverneurs génois (XVIe siècle — aujourd'hui musée de Bastia, gratuit). Cathédrale Sainte-Marie (XVIIe siècle, baroque génois) et chapelle Sainte-Croix (XVIIe siècle — Christ Noir des Miracles, statue de bois découverte en mer en 1428). Visite à pied, 1h.",
+      },
+      {
+        heading: "3. Le Cap Corse — la Doigts de l'île",
+        body: "Le Cap Corse (péninsule de 40 km au nord de Bastia, surnommée « Doigts de la Corse ») est l'une des plus belles routes panoramiques de France — D80 corniche autour de la presqu'île, falaises plongeant dans la mer, villages perchés (Erbalunga, Macinaggio, Centuri — village de pêcheurs à langoustes, le plus petit port de Corse). Tour génoise tous les 5 km (édifiées au XVIe siècle contre les pirates barbaresques). Plage de Macinaggio (sable fin).",
+      },
+      {
+        heading: "4. Saint-Florent — la « Saint-Tropez corse »",
+        body: "Saint-Florent (à 25 km à l'ouest de Bastia, dans le golfe de Saint-Florent — le « Saint-Tropez corse ») est l'une des plus belles stations de Haute-Corse — port de plaisance, citadelle génoise (1440), plages de Saleccia et Lotu (accessibles uniquement en bateau ou à pied par le désert des Agriates — 12 km — les Caraïbes corses, eau turquoise translucide). Vignobles AOC Patrimonio (à 5 km, l'un des plus prestigieux de Corse).",
+      },
+      {
+        heading: "5. Le désert des Agriates — unique au monde",
+        body: "Le désert des Agriates (au nord-ouest de Bastia, entre Saint-Florent et l'Île-Rousse, 38 000 ha) est l'unique « désert » côtier d'Europe — paysage de maquis dense (cistes, ciste de Montpellier — l'arbuste emblème) sur un relief granitique calciné par le soleil. Plages paradisiaques accessibles uniquement à pied ou en 4×4 par les pistes (Saleccia — 1h30 de piste depuis Saint-Florent, mais c'est une des plus belles plages de Méditerranée). Sentier des Douaniers le long de la côte (30 km, 2-3 jours en bivouac).",
+      },
+      {
+        heading: "6. L'Île-Rousse — la « Pietra Rossa »",
+        body: "L'Île-Rousse (à 70 km à l'ouest de Bastia, en Balagne) est l'une des stations balnéaires les plus authentiques de Corse. Fondée par Pasquale Paoli (héros corse de l'indépendance, 1758) — ville en damier, place Paoli, marché couvert, île de la Pietra (à 200 m de la plage, accessible par une jetée — granit rouge d'où le nom). Plage de la Marinella (sable fin urbain). Train touristique vers Calvi (« le Petit Train de Balagne », côtier).",
+      },
+      {
+        heading: "7. Calvi et la cité génoise — à 90 km",
+        body: "Calvi (à 90 km à l'ouest de Bastia, en Balagne) est la troisième cité historique de Corse — citadelle génoise sur un promontoire (« la plus belle citadelle de Corse » selon de nombreux historiens), vieille ville fortifiée, port de plaisance, plage de 5 km de sable fin. Légende : Christophe Colomb serait né à Calvi (controversé, les Italiens disent Gênes). Festival Calvi on the Rocks (juillet, l'un des grands festivals de musique électronique français).",
+      },
+      {
+        heading: "8. Le vignoble de Patrimonio — AOC corse",
+        body: "L'AOC Patrimonio (à 5 km au nord-ouest de Bastia, 415 ha — le premier AOC de Corse, créé en 1968) est l'un des plus prestigieux vignobles de l'île. Cépages : Nielluccio (rouge, parent toscan du Sangiovese — d'où la couleur des Patrimonio rouges), Vermentinu (blanc, cépage italien). Caves visitables : Domaine Antoine Arena (référence biodynamique), Domaine Yves Leccia, Domaine Orenga de Gaffory. Festival des Nuits du Patrimonio (juillet, musique acoustique).",
+      },
+      {
+        heading: "9. Le mont San Petrone et l'arrière-pays",
+        body: "Le mont San Petrone (1 767 m, à 40 km à l'ouest de Bastia — plus haut sommet du nord de la Corse hors massif central) est l'un des plus beaux sommets accessibles depuis Bastia. Sentier balisé d'ascension (4h aller depuis le col de Prato). Castagniccia (à 30 km à l'ouest, région des châtaigniers — Felce et Bustanico sont les villages historiques de la résistance corse à Paoli). Couvent d'Orezza (XVe siècle, en ruines romantiques).",
+      },
+      {
+        heading: "10. Gastronomie corse — figatellu et brocciu",
+        body: "La cuisine corse de Bastia est marine et continentale : figatellu (saucisse de foie de porc fumée, l'emblème — hiver), lonzu (filet mignon séché), coppa, prisuttu (jambon corse), brocciu AOP (fromage frais de brebis/chèvre — l'emblème), agneau corse, sanglier. Spécialités : storzapreti (boulettes de brocciu et bettes), beignets au brocciu, pulenda (galette farine de châtaignes), fiadone (gâteau au brocciu — dessert national). Vins : AOC Patrimonio (rouge Nielluccio, blanc Vermentinu), Muscat du Cap Corse (vin doux), Cap Corse (apéritif amer aromatique).",
+      },
+    ],
+    relatedCities: ["bastia", "ajaccio"],
+    relatedGuides: [
+      "vivre-en-corse-guide-2025",
+      "vivre-en-corse-guide-2026",
+    ],
+    tags: ["10 choses à faire à Bastia", "activités Bastia 2026", "sorties Bastia", "que faire à Bastia", "vieux port citadelle Cap Corse Saint-Florent Agriates Calvi Patrimonio"],
+  },
+  {
+    slug: "10-choses-a-faire-a-cassis-2026",
+    title: "10 choses à faire à Cassis (les calanques et le Cap Canaille)",
+    metaTitle: "10 choses à faire à Cassis 2026 — activités et sorties locales",
+    metaDesc: "Calanques de Cassis, Cap Canaille, vins blancs AOC, port de pêche et plage de l'Arène : 10 activités à Cassis pour découvrir la perle de la Côte d'Azur méridionale.",
+    category: "tourisme",
+    emoji: "🌊",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Cassis est un village de pêche provençal de 7 500 habitants, à 23 km à l'est de Marseille — l'un des plus visités du sud de la France. La ville est encadrée par les Calanques (parc national depuis 2012 — falaises calcaires de 300 m, criques sauvages d'une beauté absolue) à l'ouest et le Cap Canaille (399 m, la plus haute falaise maritime de France) à l'est. Vignoble AOC Cassis (premier AOC français en 1936 — vin blanc minéral sec).",
+    sections: [
+      {
+        heading: "1. Les calanques de Cassis — parc national",
+        body: "Les Calanques (parc national depuis 2012, 80 000 ha — entre Marseille et Cassis) sont une suite de criques sauvages encadrées par des falaises calcaires verticales. Au départ de Cassis, trois calanques accessibles à pied (Port-Miou, Port-Pin, En-Vau — la plus belle, 1h30 aller-retour). Bateaux taxi vers les calanques inaccessibles à pied (Sormiou, Sugiton, Morgiou). Eau turquoise, fond rocheux, baignade. En été : accès régulé pour la protection. Mistral et tramontane peuvent rendre la mer dangereuse.",
+      },
+      {
+        heading: "2. Le Cap Canaille — la plus haute falaise de France",
+        body: "Le Cap Canaille (399 m, à 5 km à l'est de Cassis — la plus haute falaise maritime de France et l'une des plus hautes d'Europe) offre la vue la plus spectaculaire de la côte. Route des Crêtes (15 km panoramiques entre Cassis et La Ciotat, l'une des plus belles routes de France). Belvédère de la Grande Tête, du Cap Cable, et de la Grande Candelle. Coucher de soleil exceptionnel sur Marseille et les calanques. À voir absolument.",
+      },
+      {
+        heading: "3. Le port de Cassis et la place Baragnon",
+        body: "Le port de Cassis (port de pêche et de plaisance) est encadré de hautes façades pastel — l'image classique du village provençal. Marché aux poissons quotidien (vente directe par les pêcheurs au retour de la pêche — bouillabaisse à acheter sur place). Place Baragnon (cœur du village, terrasses), rue de la République (axe commerçant). Boutiques de produits provençaux (huiles d'olive, savons de Marseille).",
+      },
+      {
+        heading: "4. L'AOC Cassis — premier AOC français",
+        body: "L'AOC Cassis (créé en 1936, l'un des premiers AOC français — 215 ha, le plus petit vignoble AOC) produit principalement du vin blanc sec et minéral (cépages clairette, marsanne, ugni blanc). Domaines à visiter : Clos Sainte-Magdeleine (le plus iconique — vignoble en terrasse au bord de la mer), Domaine du Bagnol, Domaine de la Ferme Blanche. Caveaux ouverts en saison (avril-octobre). Le rosé de Cassis est moins courant mais existe.",
+      },
+      {
+        heading: "5. La calanque d'En-Vau — la plus belle",
+        body: "La calanque d'En-Vau (à 6 km à l'ouest de Cassis, accessible en 1h30 de marche depuis le parking de Port-Miou) est régulièrement classée parmi les plus belles calanques de Méditerranée — falaises verticales de 200 m, plage de galets blancs, eau turquoise translucide. Accessible aussi en bateau (taxi-boat depuis Cassis, 30 min). Aiguille d'En-Vau (rocher en équilibre — emblème). Restriction d'accès en juillet-août (parc national).",
+      },
+      {
+        heading: "6. La plage de l'Arène et la plage Bestouan",
+        body: "La plage de l'Arène (à 200 m du port, urbaine, sable et galets) est la plage la plus accessible de Cassis. La plage Bestouan (à 500 m, plus authentique, galets) est nichée entre les Mauvaises Hauteurs (criques rocheuses). Eau à 22-24°C en été. Très fréquentées de mi-juillet à mi-août — y aller tôt le matin ou hors saison.",
+      },
+      {
+        heading: "7. La Ciotat — la ville natale du cinéma",
+        body: "La Ciotat (à 8 km à l'est de Cassis) est la ville natale du cinéma — les frères Lumière y ont tourné en 1895 « L'Arrivée d'un train en gare de La Ciotat ». L'Eden Théâtre (1899, classé monument historique — la plus ancienne salle de cinéma au monde encore en activité). Berceau aussi de la pétanque (inventée à La Ciotat en 1910 par Jules Lenoir). Plages, port, vieille ville.",
+      },
+      {
+        heading: "8. La randonnée du sentier des Douaniers",
+        body: "Le sentier des Douaniers (GR98, le long du littoral du parc national des Calanques) part de Cassis et longe la côte sur 30 km jusqu'à Marseille. Étape Cassis-Calanque de Sugiton (15 km, 5h — l'une des plus belles randonnées côtières françaises, équivalente au sentier des Douaniers en Bretagne mais sous le soleil). Eau à proximité, baignade possible à plusieurs criques. Attention en juillet-août : sentier fermé en cas de risque incendie.",
+      },
+      {
+        heading: "9. Marseille et la Bonne Mère — à 23 km",
+        body: "Marseille (à 23 km à l'ouest de Cassis) est la grande métropole méditerranéenne. Notre-Dame-de-la-Garde (« la Bonne Mère », XIXe siècle néo-byzantine, sur sa colline — vue à 360° sur la ville et la mer). Le Vieux Port, Le Panier (vieille ville médiévale colorée), MUCEM (Musée des Civilisations de la Méditerranée — architecture moderne signée Rudy Ricciotti, 2013). Une journée complète au départ de Cassis.",
+      },
+      {
+        heading: "10. Gastronomie cassidaine — bouillabaisse et oursins",
+        body: "La cuisine de Cassis est marine provençale : bouillabaisse marseillaise (la recette codifiée par la charte marseillaise — rascasse, vive, congre, baudroie, safran, aïoli, croûtons), bourride (soupe de baudroie à l'aïoli — une variante moins riche), oursins (en hiver — la « caviar de la Méditerranée », pêchés à Cassis), poulpe à la provençale, anchoïade. Spécialités : tielle sétoise (à 50 km, héritage italien), navette de Marseille (à 20 km — petit gâteau biscuit-sec parfumé à la fleur d'oranger). Vins : AOC Cassis (blanc), Bandol (à 25 km, rouge), Côtes-de-Provence rosé.",
+      },
+    ],
+    relatedCities: ["cassis"],
+    relatedGuides: [
+      "vivre-en-provence-paca-guide-2025",
+    ],
+    tags: ["10 choses à faire à Cassis", "activités Cassis 2026", "sorties Cassis", "que faire à Cassis", "calanques Cap Canaille AOC parc national bouillabaisse"],
+  },
+  {
+    slug: "10-choses-a-faire-a-collioure-2026",
+    title: "10 choses à faire à Collioure (le village des Fauves et le Roussillon)",
+    metaTitle: "10 choses à faire à Collioure 2026 — activités et sorties locales",
+    metaDesc: "Église Notre-Dame-des-Anges, château royal, anchois, Banyuls et Côte Vermeille : 10 activités à Collioure pour découvrir le berceau de la peinture fauve.",
+    category: "tourisme",
+    emoji: "🎨",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Collioure est un village de pêche catalan de 3 000 habitants, à 25 km au sud de Perpignan — l'une des perles de la Côte Vermeille (la côte rocheuse entre les Pyrénées et la Méditerranée). Berceau de la peinture fauve (Matisse et Derain y peignirent l'été 1905 — le manifeste fauviste — Salon d'Automne de Paris la même année). Capitale française de l'anchois (production artisanale depuis le Moyen Âge — Maison Roque, Maison Desclaux), porte d'entrée des vignobles Banyuls et Collioure AOC.",
+    sections: [
+      {
+        heading: "1. L'église Notre-Dame-des-Anges — la pointe au phare",
+        body: "L'église Notre-Dame-des-Anges (XVIIe siècle, baroque catalan) est l'image emblématique de Collioure — érigée à la place d'un phare médiéval, sa tour-clocher (XIVe siècle, ancienne tour-fanal) plonge directement dans la Méditerranée. Retable baroque en bois doré (XVIIe siècle, école catalane — l'un des plus beaux du Roussillon). Vue spectaculaire sur la baie de Collioure depuis l'esplanade.",
+      },
+      {
+        heading: "2. Le château royal de Collioure",
+        body: "Le château royal de Collioure (XIIIe-XVIIe siècles, ancien château des rois de Majorque puis des rois de France après le rattachement du Roussillon en 1659 par le Traité des Pyrénées) domine le port. Vauban a remanié les fortifications. Visite des salles royales, donjon, vue panoramique sur la baie. Aujourd'hui propriété du Département des Pyrénées-Orientales. Visite payante (4€).",
+      },
+      {
+        heading: "3. Le Chemin du Fauvisme — Matisse et Derain",
+        body: "Le Chemin du Fauvisme (sentier balisé en boucle dans Collioure, 20 reproductions d'œuvres in situ là où elles ont été peintes en 1905) raconte le « voyage à Collioure » de Henri Matisse et André Derain — qui y inventèrent la peinture fauve l'été 1905. Reproductions de Toits rouges, Vue de Collioure, La Méditerranée. Gratuit, accessible 24/7. Idéal pour les amateurs d'art moderne — l'épisode fondateur de la peinture du XXe siècle.",
+      },
+      {
+        heading: "4. Les anchois de Collioure — la spécialité millénaire",
+        body: "Collioure est la capitale française de l'anchois — pêche et salage artisanal depuis le Moyen Âge. Deux maisons historiques ouvertes au public : Maison Roque (depuis 1870, visite gratuite des saloirs — anchois entiers salés à la main dans des saloirs en bois, IGP en cours) et Maison Desclaux (depuis 1903). Boutiques pour ramener des conserves (anchois à l'huile, à l'ail, au piment d'Espelette). Le « tapas catalan » classique : pa amb tomàquet (pain à la tomate) + anchois.",
+      },
+      {
+        heading: "5. Le vignoble Banyuls et Collioure AOC",
+        body: "Les AOC Banyuls (vin doux naturel, créé en 1936) et Collioure (vins rouges secs depuis 1971) couvrent les vignobles en terrasses (« banyuls ») de la Côte Vermeille — 1 200 ha cultivés à la pioche sur des terrasses séculaires (le travail à la machine est impossible). Cépages : Grenache noir et gris (Banyuls), Mourvèdre et Carignan (Collioure rouge). Domaines à visiter : Domaine du Mas Blanc, Domaine de la Rectorie, Domaine la Tour Vieille, Cave Cellier des Templiers.",
+      },
+      {
+        heading: "6. La Côte Vermeille — Port-Vendres et Banyuls-sur-Mer",
+        body: "La Côte Vermeille (de Collioure à Cerbère, 25 km le long des Albères jusqu'à la frontière espagnole) est la côte rocheuse française la plus méridionale. Port-Vendres (à 3 km au sud de Collioure, port de pêche principal du Roussillon — fish auction au retour des chalutiers). Banyuls-sur-Mer (à 12 km, station balnéaire et port de plaisance — réserve marine de Cerbère-Banyuls, l'une des plus anciennes de Méditerranée — plongée sous-marine et sentier sous-marin).",
+      },
+      {
+        heading: "7. Le sentier des Douaniers et Cap Béar",
+        body: "Le sentier des Douaniers (GR10 maritime — l'ancien chemin de surveillance douanière entre la France et l'Espagne) longe la Côte Vermeille de Collioure au Cap Cerbère (15 km, 6h). Sentier rocailleux le long de criques sauvages. Cap Béar (à 6 km au sud de Collioure — phare et belvédère). Anse de Paulilles (ancienne dynamiterie Nobel reconvertie en site naturel — l'une des plus belles plages de la côte). Site classé Grand Site de France.",
+      },
+      {
+        heading: "8. Les fortifications de Vauban — Mont-Louis et Villefranche",
+        body: "Le Roussillon est un département riche en fortifications Vauban (UNESCO depuis 2008). Mont-Louis (à 80 km à l'ouest de Collioure, dans les Pyrénées catalanes à 1 600 m d'altitude — la plus haute citadelle Vauban). Villefranche-de-Conflent (à 90 km, à 410 m — cité fortifiée médiévale renforcée par Vauban). À combiner avec le train jaune (« le Petit Train Jaune des Pyrénées » — ligne SNCF historique à voie unique, Villefranche-Latour-de-Carol).",
+      },
+      {
+        heading: "9. Le musée d'Art Moderne et le château de Cadaqués",
+        body: "Le musée d'Art Moderne de Céret (à 30 km à l'ouest de Collioure, dans le Vallespir) abrite l'une des plus belles collections françaises consacrées aux peintres qui ont séjourné en Catalogne — Picasso, Soutine, Chagall, Matisse, Dali. Pour info, Cadaqués (à 40 km au sud, en Espagne) est le village où Salvador Dali a vécu — Maison-musée Dali Port Lligat (sa maison à l'architecture barrée, classée monument). Frontière à Cerbère (5 km).",
+      },
+      {
+        heading: "10. Gastronomie catalane — anchois et tapas",
+        body: "La cuisine catalane est l'une des plus colorées de France : anchois de Collioure IGP en cours (à l'huile d'olive, salés, vinaigrette catalane), bouillinade (soupe de poissons catalane à la pomme de terre — différente de la bouillabaisse), boles de Picolat (boulettes de viande à la catalane), escalivada (légumes grillés à l'huile d'olive), pa amb tomàquet (pain frotté de tomate). Spécialités : crème catalane (crème brûlée catalane), rousquilles. Vins : Banyuls (vin doux), Collioure (rouge), Maury (à 50 km, vin doux naturel).",
+      },
+    ],
+    relatedCities: ["collioure"],
+    relatedGuides: [
+      "vivre-en-roussillon-guide-2026",
+      "vivre-en-occitanie-guide-2025",
+    ],
+    tags: ["10 choses à faire à Collioure", "activités Collioure 2026", "sorties Collioure", "que faire à Collioure", "fauvisme Matisse Derain anchois Banyuls Côte Vermeille catalan"],
+  },
+  {
+    slug: "10-choses-a-faire-a-saint-tropez-2026",
+    title: "10 choses à faire à Saint-Tropez (la presqu'île et la baie des Canoubiers)",
+    metaTitle: "10 choses à faire à Saint-Tropez 2026 — activités et sorties locales",
+    metaDesc: "Vieux port, citadelle, plage de Pampelonne, sentier du Littoral et îles d'Hyères : 10 activités à Saint-Tropez pour découvrir la plus glamour des cités varoises.",
+    category: "tourisme",
+    emoji: "🛥️",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Saint-Tropez est une commune varoise de 4 000 habitants permanents (jusqu'à 100 000 en été) — l'une des stations balnéaires les plus connues au monde. Port de pêche médiéval découvert par les artistes au XIXe siècle (Signac y résida en 1892 — le premier qui en lança la « mode »), définitivement glamourisé par Brigitte Bardot dans Et Dieu créa la femme (1956, Roger Vadim) qui en fit le symbole du jet set. Aujourd'hui mélange port traditionnel, plages de Pampelonne et arrière-pays viticole.",
+    sections: [
+      {
+        heading: "1. Le Vieux Port et le quai Jean-Jaurès",
+        body: "Le Vieux Port de Saint-Tropez (port de pêche médiéval transformé en port de plaisance) est l'épicentre de la vie tropézienne — quai Jean-Jaurès bordé de hautes façades pastel reflétées dans l'eau, yachts géants au mouillage (le port accueille les plus grands yachts privés du monde — propriétaires Roman Abramovich, Bernard Arnault, Lakshmi Mittal). Cafés mythiques : Sénéquier (depuis 1887), Le Café (depuis 1989, ex-Café des Arts).",
+      },
+      {
+        heading: "2. La plage de Pampelonne — la mythique",
+        body: "La plage de Pampelonne (à 5 km au sud-est du centre de Saint-Tropez, sur 5 km de sable fin) est l'une des plus belles plages de la Côte d'Azur — eau turquoise, sable blanc. Plages privées légendaires : Club 55 (depuis 1955, fondé par Patrice de Colmont — le plus iconique, fréquenté par toutes les stars), Bagatelle, Nikki Beach, Verde, La Cabane Bambou. Pour info, les plages publiques (Le Capon, Tahiti Beach) sont accessibles gratuitement. Eau à 24°C en juillet-août.",
+      },
+      {
+        heading: "3. La citadelle et le musée maritime",
+        body: "La citadelle de Saint-Tropez (XVIIe siècle, fortification française construite après le rattachement de la Provence au royaume en 1481) domine le village depuis sa colline. Musée maritime (à l'intérieur de la citadelle) qui retrace l'histoire navale du village. Vue panoramique à 360° sur la baie de Saint-Tropez (golfe de Saint-Tropez), la presqu'île, les Maures et les Salins-d'Hyères au loin.",
+      },
+      {
+        heading: "4. Le musée de l'Annonciade — peintres modernes",
+        body: "Le Musée de l'Annonciade (ancienne chapelle des Pénitents XVIe siècle, à 200 m du Vieux Port) est l'un des plus beaux musées du XXe siècle français — peintures pointillistes (Signac, Cross, Seurat), fauves (Matisse, Derain), nabis (Bonnard, Vuillard). Tous ces peintres ont séjourné à Saint-Tropez. Petite collection mais d'une qualité exceptionnelle. Gratuit le premier dimanche.",
+      },
+      {
+        heading: "5. Le sentier du Littoral — Cap Saint-Pierre",
+        body: "Le sentier du Littoral (GR51, 35 km autour de la presqu'île de Saint-Tropez) est l'une des plus belles randonnées côtières françaises. Étape recommandée : Saint-Tropez - plage de Pampelonne - Cap Camarat (12 km en boucle, 4h — passage par criques sauvages, calanques rocheuses, vues sur la baie). Sentier à pied uniquement. Loueurs de vélos en ville si on préfère la route.",
+      },
+      {
+        heading: "6. Les villages perchés — Gassin, Ramatuelle, Grimaud",
+        body: "L'arrière-pays de Saint-Tropez compte les plus beaux villages perchés du Var. Gassin (à 6 km au sud-ouest, plus beau village de France — 200 habitants, place du Barri sur la falaise — vue panoramique sur le golfe), Ramatuelle (à 9 km au sud, village circulaire concentrique unique en Provence), Grimaud (à 15 km au nord-ouest, château ruiné des seigneurs de Grimaldi — ancêtres des princes de Monaco — vue sur le golfe). Idéal pour une journée hors-foule.",
+      },
+      {
+        heading: "7. La presqu'île de Saint-Tropez — calanques sauvages",
+        body: "La presqu'île de Saint-Tropez (sud du golfe, jusqu'au Cap Camarat) garde une dimension sauvage. Plages des Salins (sable et galets, ombragée), Plage de la Bouillabaisse (à 1 km du centre, familiale), Plage de Tahiti (point de départ historique de la plage de Pampelonne — Bardot s'y baignait), Plage de l'Escalet (la plus sauvage, dans les Maures). Sentier rocheux entre criques.",
+      },
+      {
+        heading: "8. Les vignobles AOC Côtes-de-Provence",
+        body: "L'arrière-pays de Saint-Tropez (Plaine des Maures, AOC Côtes-de-Provence — premier vignoble rosé d'AOC au monde) compte des domaines de référence : Château Minuty (icône du rosé à Gassin, à 6 km), Domaine des Lauriers (Ramatuelle), Château Romanin, Château Saint-Maur. Caveaux ouverts d'avril à octobre. Le rosé de Provence se boit jeune (millésime de l'année), frappé à 8°C — apéritif idéal sur les plages.",
+      },
+      {
+        heading: "9. Le port-Grimaud — la « Venise provençale »",
+        body: "Port-Grimaud (à 8 km au nord-ouest de Saint-Tropez, créé en 1966 par l'architecte François Spoerry) est l'une des stations balnéaires modernes les plus réussies — village lacustre avec 2 500 maisons construites les pieds dans l'eau, accessibles par canaux et bateaux à fond plat (« coches d'eau »). Architecture néo-provençale. Marché du jeudi et dimanche matin. Plages de Grimaud Port juste à côté.",
+      },
+      {
+        heading: "10. Gastronomie tropézienne — tarte et bouillabaisse",
+        body: "La cuisine tropézienne mêle Provence et glamour : tarte tropézienne (créée en 1955 par le pâtissier polonais Alexandre Micka — brioche fendue garnie de crème pâtissière, sucre cassonade — devenue célèbre grâce à Brigitte Bardot pendant le tournage de Et Dieu créa la femme), bouillabaisse provençale (rascasse, vive, baudroie, congre — recette codifiée par la charte marseillaise), brandade de morue, soupe au pistou. Vins : Côtes-de-Provence rosé, Bandol (à 50 km — rouge mourvèdre).",
+      },
+    ],
+    relatedCities: ["saint-tropez"],
+    relatedGuides: [
+      "vivre-en-cote-d-azur-guide-2026",
+      "vivre-en-provence-paca-guide-2025",
+    ],
+    tags: ["10 choses à faire à Saint-Tropez", "activités Saint-Tropez 2026", "sorties Saint-Tropez", "que faire à Saint-Tropez", "Vieux Port citadelle Pampelonne Bardot Gassin Ramatuelle rosé"],
+  },
+  {
+    slug: "10-choses-a-faire-a-menton-2026",
+    title: "10 choses à faire à Menton (la cité des citrons et la Riviera frontalière)",
+    metaTitle: "10 choses à faire à Menton 2026 — activités et sorties locales",
+    metaDesc: "Fête du Citron, vieille ville baroque, jardins exotiques, Cap-Martin et villages perchés : 10 activités à Menton pour découvrir l'extrémité orientale de la Côte d'Azur.",
+    category: "tourisme",
+    emoji: "🍋",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Menton est une station balnéaire des Alpes-Maritimes, 29 000 habitants à la frontière italienne. Surnommée la « Perle de la France » par les Anglais qui en firent leur villégiature au XIXe siècle, la ville bénéficie du climat le plus doux de France (28°C en juillet, 14°C en janvier — c'est l'une des seules villes françaises où les agrumes produisent en abondance — citrons, oranges, cédrats, kumquats). Réputée pour sa Fête du Citron (février-mars) et sa vieille ville baroque italienne.",
+    sections: [
+      {
+        heading: "1. La Fête du Citron — février-mars",
+        body: "La Fête du Citron de Menton (15 jours en février-mars, depuis 1934, 250 000 visiteurs/an) est l'un des trois plus grands carnavals français (avec Nice et Dunkerque). Spécificité : 145 tonnes d'agrumes utilisés chaque année pour fabriquer 15 chars géants (sculptures monumentales en oranges et citrons), 8 jardins thématiques (jardins Biovès). Défilés nocturnes les week-ends. Thème renouvelé chaque année. Réservation hôtelière 6 mois à l'avance.",
+      },
+      {
+        heading: "2. La vieille ville baroque et la rampe Saint-Michel",
+        body: "La vieille ville de Menton (autour de la basilique Saint-Michel-Archange) est l'une des plus belles cités baroques de France — héritage du rattachement de Menton à la Maison de Monaco puis au royaume sarde italien (1848-1860, avant le rattachement à la France). Façades pastel italiennes, ruelles pavées, basilique Saint-Michel (XVIIe siècle, baroque italien — la plus grande église baroque du sud-est), chapelle des Pénitents Blancs (XVIIe siècle).",
+      },
+      {
+        heading: "3. Les jardins exotiques — Serre de la Madone et Val Rahmeh",
+        body: "Menton compte plusieurs jardins exotiques exceptionnels grâce à son climat. Val Rahmeh (à 1 km du centre, géré par le Muséum national d'Histoire naturelle — plantes tropicales et subtropicales, l'un des plus riches conservatoires de France), Serre de la Madone (à 2 km, créé par Lawrence Johnston en 1924 — jardin paysager d'inspiration anglaise, 7 ha), Jardin Maria Serena (jardin botanique, parc du XIXe siècle). Idéal en hiver — pleine floraison.",
+      },
+      {
+        heading: "4. Le musée Jean Cocteau et le Bastion",
+        body: "Le Musée Jean-Cocteau de Menton (deux sites : le Bastion XVIIe siècle restauré et le musée principal Severin-Wunderman) abrite la plus grande collection mondiale d'œuvres de Jean Cocteau — 1 800 œuvres (dessins, manuscrits, films, costumes de ballet). Cocteau a décoré la salle des mariages de l'hôtel de ville de Menton (fresques 1957 — visite payante 4€). Le Bastion (XVIIe siècle, décor intérieur Cocteau 1957).",
+      },
+      {
+        heading: "5. Le Cap-Martin et la villa E-1027",
+        body: "Le Cap-Martin (à 3 km au sud-ouest de Menton, presqu'île boisée — Domaine du Cap-Martin) est l'un des plus beaux promontoires de la Côte d'Azur. Sentier du Cap-Martin (sentier de Le Corbusier, 8 km en boucle — le grand architecte y vécut et y mourut noyé en 1965). Villa E-1027 (1929, signée Eileen Gray — chef-d'œuvre du Mouvement Moderne, visite possible). Cabanon Le Corbusier (sa cabane minimaliste de 15 m² — son rêve d'habitat).",
+      },
+      {
+        heading: "6. Sospel et la vallée de la Roya",
+        body: "Sospel (à 25 km au nord de Menton, dans l'arrière-pays mentonnais) est une cité médiévale méconnue — pont médiéval à péage (XIIIe siècle, l'un des derniers ponts à tour de France encore en activité jusqu'au XIXe siècle), vieille ville baroque, cathédrale Saint-Michel (XVIIe siècle). La vallée de la Roya (vallée italienne historiquement, rattachée à la France en 1947) est la « vallée des merveilles » — gravures rupestres préhistoriques, paysages alpins méditerranéens uniques.",
+      },
+      {
+        heading: "7. La vallée de la Bévéra et la Brigue",
+        body: "La vallée de la Bévéra (au nord de Menton, vers le col de Castillon) est la vallée du « pays vert mentonnais » — paysages alpestres à 30 km de la mer. La Brigue (à 50 km au nord, dans la vallée de la Roya) est l'un des plus beaux villages médiévaux des Alpes-Maritimes — vieille ville en pierre, vallée des Merveilles à proximité (Patrimoine UNESCO — gravures rupestres de l'Âge du bronze, parc national du Mercantour).",
+      },
+      {
+        heading: "8. Le « train des merveilles » — la ligne Tende-Nice",
+        body: "La ligne ferroviaire Tende-Nice (« train des merveilles ») traverse l'arrière-pays mentonnais et niçois — l'une des plus belles lignes de France (ouverte en 1928, mêle viaducs et tunnels alpins). Étape Menton-Sospel-Tende-Nice (4h aller-retour). Possibilité d'aller en Italie (Cuneo, Turin) via cette ligne historique. Pour les amateurs de paysages ferroviaires.",
+      },
+      {
+        heading: "9. Monaco et Monte-Carlo — à 10 km",
+        body: "Monaco (à 10 km à l'ouest de Menton — micro-État indépendant, 38 000 habitants) est la principauté la plus peuplée du monde. À voir : Casino de Monte-Carlo (1863, palais Belle Époque), palais princier (relève de la garde tous les jours à 11h55), musée océanographique (1910, créé par le prince Albert Ier — l'un des plus beaux aquariums du monde), Grand Prix de Monaco (fin mai). Accessible en train depuis Menton (10 min, 2€).",
+      },
+      {
+        heading: "10. Gastronomie mentonnaise — pichade et citron",
+        body: "La cuisine de Menton mélange Provence et Italie : pichade mentonnaise (tarte à la tomate, oignons et anchois — version locale de la pissaladière niçoise), barbajuans (raviolis sucrés frits, mentonnais), socca (galette de farine de pois chiches — partagée avec Nice), tielle (héritage italien). Spécialités sucrées : tartes au citron de Menton IGP (le plus prestigieux citron français, depuis 2015), confiture de citron, limoncello mentonnais. Vins : Bellet (à 15 km à l'ouest, AOC niçois unique).",
+      },
+    ],
+    relatedCities: ["menton"],
+    relatedGuides: [
+      "vivre-en-cote-d-azur-guide-2026",
+      "vivre-en-provence-paca-guide-2025",
+    ],
+    tags: ["10 choses à faire à Menton", "activités Menton 2026", "sorties Menton", "que faire à Menton", "Fête du Citron vieille ville baroque jardins Cocteau Cap-Martin Monaco"],
+  },
+  {
+    slug: "10-choses-a-faire-a-epernay-2026",
+    title: "10 choses à faire à Épernay (la capitale du champagne et l'Avenue UNESCO)",
+    metaTitle: "10 choses à faire à Épernay 2026 — activités et sorties locales",
+    metaDesc: "Avenue de Champagne UNESCO, Moët & Chandon, Mercier, Hautvillers, Dom Pérignon et Reims : 10 activités à Épernay pour découvrir la capitale du champagne.",
+    category: "tourisme",
+    emoji: "🍾",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Épernay est une commune de la Marne, 23 000 habitants, surnommée la « Capitale du Champagne » — siège des plus grandes maisons (Moët & Chandon, Mercier, Perrier-Jouët, De Castellane, Pol Roger). À 30 km au sud-ouest de Reims, au confluent de la Marne et du Cubry, au cœur de l'AOC Champagne (33 000 ha — Marne, Aube, Aisne, Seine-et-Marne). L'Avenue de Champagne (1,5 km de palais des maisons de Champagne XVIIIe-XXe siècles) est classée UNESCO depuis 2015.",
+    sections: [
+      {
+        heading: "1. L'Avenue de Champagne — UNESCO depuis 2015",
+        body: "L'Avenue de Champagne d'Épernay (1,5 km, classée UNESCO depuis 2015 — « Coteaux, Maisons et Caves de Champagne ») est surnommée la « plus chère avenue du monde ». Sous chaque mètre de pavé, 200 000 bouteilles vieillissent dans les caves (caves Moët : 28 km sur 30 m de profondeur). Palais des grandes maisons : Moët & Chandon (Château Trianon, XIXe siècle), Pol Roger (palais Renaissance), De Castellane, Perrier-Jouët. À pied, 1h en boucle.",
+      },
+      {
+        heading: "2. Moët & Chandon — la plus grande maison de Champagne",
+        body: "Moët & Chandon (fondée en 1743 par Claude Moët, la plus grande maison de Champagne au monde — 28 millions de bouteilles/an, propriété LVMH depuis 1987) propose la visite la plus emblématique. Tour des caves souterraines à 30 m de profondeur (28 km de galeries — la plus grande cave de champagne au monde), histoire de la maison, dégustation de 2 cuvées (Brut Impérial et Rosé Impérial). 1h, 35€. Réservation obligatoire des semaines à l'avance.",
+      },
+      {
+        heading: "3. Mercier — la cave avec le train",
+        body: "La Maison Mercier (fondée en 1858 par Eugène Mercier — premier à pratiquer le « champagne du peuple » à prix démocratique, 100 millions de bouteilles vendues entre 1858 et 1900) est connue pour son audace marketing du XIXe siècle. Visite des caves souterraines (18 km, à 30 m de profondeur) en petit train électrique (visite la plus ludique des grandes maisons). Foudre Mercier (le plus grand tonneau du monde, 200 000 litres — fabriqué en 1875 pour l'Exposition universelle). 1h, 25€.",
+      },
+      {
+        heading: "4. Hautvillers — Dom Pérignon",
+        body: "Hautvillers (à 6 km au nord-ouest d'Épernay, plus beau village de Champagne) est le village où Dom Pierre Pérignon (moine bénédictin de l'abbaye Saint-Pierre, 1638-1715 — le « père du champagne » — il a inventé la méthode champenoise et l'assemblage des cépages) a vécu et est enterré. L'abbaye Saint-Pierre d'Hautvillers (XIIe siècle, propriété Moët & Chandon) abrite sa tombe. Visite à pied du village avec ses panneaux d'interprétation, vue panoramique sur les vignobles.",
+      },
+      {
+        heading: "5. La route du Champagne — vignobles AOC",
+        body: "La route touristique du Champagne (700 km de routes balisées à travers la Marne, l'Aube, l'Aisne et la Seine-et-Marne) est l'une des plus belles routes œnologiques de France. Au départ d'Épernay : Vallée de la Marne, Montagne de Reims, Côte des Blancs. Caveaux dans les villages (Cumières, Aÿ, Bouzy, Avize). Vendanges en septembre (manuelles, l'une des seules vendanges manuelles obligatoires en France).",
+      },
+      {
+        heading: "6. Reims — la cathédrale UNESCO à 30 km",
+        body: "Reims (à 30 km au nord-est d'Épernay) est la capitale historique du Champagne. Cathédrale Notre-Dame (XIIIe siècle, lieu du sacre des rois de France, classée UNESCO). Visite des grandes maisons (Veuve Clicquot, Pommery, Taittinger, Ruinart — la plus ancienne maison fondée en 1729, cellules de craie creusées sous la ville à 30 m de profondeur). Le complet panorama de Champagne : Reims-Épernay-Aÿ-Bouzy en une boucle (60 km).",
+      },
+      {
+        heading: "7. Le Manège — théâtre Belle Époque",
+        body: "Le Manège d'Épernay (1853, salle Belle Époque) est l'une des plus belles salles XIXe siècle de Champagne — fer forgé, charpente métallique, fauteuils velours rouge. Programmation toute l'année (théâtre, concerts, conférences). À côté, la Maison du Champagne d'Épernay (musée régional du vin) présente l'histoire des cépages et de la production champenoise. Gratuit.",
+      },
+      {
+        heading: "8. La Côte des Blancs — Avize et Cramant",
+        body: "La Côte des Blancs (à l'est d'Épernay, sur 20 km — Cramant, Avize, Oger, Le Mesnil-sur-Oger) est l'une des sous-régions les plus prestigieuses de l'AOC Champagne — exclusivement cépage chardonnay (« vin de blanc »). Domaines de référence : Domaine Krug (à Mesnil-sur-Oger), Domaine Pol Roger, Domaine Salon (Mesnil — l'un des champagnes les plus chers du monde). Sentier balisé sur la Côte des Blancs (12 km).",
+      },
+      {
+        heading: "9. Châlons-en-Champagne — la cathédrale UNESCO",
+        body: "Châlons-en-Champagne (à 30 km à l'est d'Épernay) est la préfecture de la Marne. La cathédrale Saint-Étienne (XIIIe siècle, gothique champenois, classée UNESCO comme étape de Saint-Jacques) et la collégiale Notre-Dame-en-Vaux (XIIe siècle, romane, également UNESCO). Capitale administrative de la Champagne historique — moins glamour qu'Épernay mais plus authentique.",
+      },
+      {
+        heading: "10. Gastronomie champenoise — pieds de cochon et biscuit rose",
+        body: "La cuisine de Champagne est rustique : pieds de cochon Sainte-Menehould (à 50 km à l'est, recette inventée par Louis XV de passage en 1730 — pieds cochon panés et grillés), andouillette de Troyes AAAAA (à 90 km au sud), potée champenoise (chou, lard, saucisses), boudin blanc de Rethel (à 100 km au nord). Sucré : biscuits roses de Reims (les plus anciens biscuits français — recette de 1690, à tremper dans le champagne). Vins : Champagne évidemment, Coteaux Champenois (rouge tranquille), Rosé des Riceys (rosé AOC, l'un des plus rares de France).",
+      },
+    ],
+    relatedCities: ["epernay", "chalons-en-champagne"],
+    relatedGuides: [
+      "vivre-en-champagne-guide-2025",
+      "vivre-en-grand-est-alsace-moselle-guide-2025",
+    ],
+    tags: ["10 choses à faire à Épernay", "activités Épernay 2026", "sorties Épernay", "que faire à Épernay", "champagne Avenue UNESCO Moët Mercier Hautvillers Dom Pérignon Reims"],
+  },
+  {
+    slug: "10-choses-a-faire-a-provins-2026",
+    title: "10 choses à faire à Provins (la cité médiévale UNESCO et les remparts)",
+    metaTitle: "10 choses à faire à Provins 2026 — activités et sorties locales",
+    metaDesc: "Cité médiévale UNESCO, remparts, tour César, spectacles, Disneyland Paris et Fontainebleau : 10 activités à Provins pour découvrir la cité des Foires de Champagne.",
+    category: "tourisme",
+    emoji: "🏰",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Provins est une cité médiévale du sud de la Seine-et-Marne, 12 000 habitants — l'une des cités médiévales les mieux préservées de France, classée patrimoine mondial UNESCO depuis 2001. Capitale des Foires de Champagne au Moyen Âge (XIIe-XIIIe siècles — les plus grandes foires commerciales d'Europe avec Lagny, Bar-sur-Aube, Troyes), Provins était l'une des plus riches cités du royaume — d'où ses 27 hectares de remparts intacts, ses souterrains et ses spectacles médiévaux en saison.",
+    sections: [
+      {
+        heading: "1. La cité médiévale — UNESCO",
+        body: "La cité médiévale de Provins (classée patrimoine mondial UNESCO depuis 2001 — « cité des Foires de Champagne ») est l'une des plus complètes cités médiévales d'Europe. 27 ha de remparts intacts (XIIe-XIIIe siècles, 22 tours debout), Ville Haute et Ville Basse séparées, souterrains médiévaux (extension parallèle de la ville sous la ville — 10 km de galeries au total). Architecture militaire et civile médiévale exceptionnelle.",
+      },
+      {
+        heading: "2. La tour César — le donjon emblématique",
+        body: "La Tour César (XIIe siècle, l'un des plus impressionnants donjons médiévaux français — 44 m de hauteur) est l'icône de Provins. Donjon octogonal à 4 niveaux, escalier en colimaçon. Vue panoramique à 360° depuis le sommet sur la ville et la campagne briarde. Servit de prison pour Jean le Bon (roi de France) capturé par les Anglais en 1356 à la bataille de Poitiers. Visite payante (incluse dans le pass Provins).",
+      },
+      {
+        heading: "3. Les souterrains médiévaux — 10 km",
+        body: "Les souterrains de Provins (galeries souterraines creusées du XIIe au XVIe siècle, 10 km au total — 200 caves médiévales encore intactes dans la Ville Haute) sont uniques en Europe. Visites guidées de 100 m environ (sur 4 m de hauteur, 10°C constant, voûtes en pierre). Galeries probablement utilisées pour stocker des marchandises pendant les Foires de Champagne. Visite incluse dans le pass Provins.",
+      },
+      {
+        heading: "4. Les spectacles médiévaux — La Légende des Chevaliers",
+        body: "Provins propose 4 grands spectacles médiévaux en saison (avril-octobre) qui font sa réputation : « La Légende des Chevaliers » (équestre, joutes, démonstrations d'armes), « Aigles des Remparts » (spectacle de fauconnerie sur les remparts), « Au Temps des Remparts » (assaut médiéval avec catapultes et trébuchets), « La Geste des Chevaliers Errants » (théâtre médiéval). Festival des Médiévales (1 weekend de juin) — fête médiévale grandeur nature. Réservation conseillée.",
+      },
+      {
+        heading: "5. La Grange aux Dîmes — cellier médiéval",
+        body: "La Grange aux Dîmes (XIIIe siècle, ancien cellier de stockage des marchandises des Foires de Champagne) abrite aujourd'hui une scénographie immersive sur les Foires de Champagne — reconstitution d'un marché médiéval (12 personnages animés, mise en scène par Stéphanie Beghain). Pédagogique. Idéal pour les enfants. Visite incluse dans le pass Provins.",
+      },
+      {
+        heading: "6. La rose de Provins — la fleur héraldique",
+        body: "La Rose de Provins (« rose des roseraies de Provins ») est une rose médicinale médiévale rapportée des Croisades par Thibaut IV de Champagne en 1240. C'est elle qui a donné la fameuse rose des York-Lancastre des guerres anglaises (la « rose de Provins » a été emportée en Angleterre par Edmond de Lancastre, fils du roi Henri III). Roseraie de Provins (sur les remparts, gratuite — l'une des plus belles roseraies de France, floraison en juin).",
+      },
+      {
+        heading: "7. Disneyland Paris — à 45 km",
+        body: "Disneyland Paris (à 45 km au nord-ouest de Provins, à Marne-la-Vallée — premier parc d'attractions d'Europe, 15 millions de visiteurs/an) est accessible depuis Provins en 1h. Parc Disneyland et parc Walt Disney Studios. Attractions emblématiques : Big Thunder Mountain, Phantom Manor, Pirates des Caraïbes, Tower of Terror, le Château de la Belle au Bois Dormant (l'emblème du parc européen). Une ou deux journées pleines pour tout voir.",
+      },
+      {
+        heading: "8. Le château de Vaux-le-Vicomte — à 50 km",
+        body: "Vaux-le-Vicomte (à 50 km à l'ouest de Provins, XVIIe siècle classique) est le château qui inspira Louis XIV pour Versailles. Construit en 5 ans (1656-1661) par Nicolas Fouquet (surintendant des Finances de Louis XIV — son ascension provoqua la jalousie du roi qui le fit emprisonner à vie en 1661). Architecture Louis Le Vau, jardins André Le Nôtre, décor intérieur Charles Le Brun. Soirées aux Chandelles (juillet-août, parc et château illuminés à la lueur de 2 000 bougies).",
+      },
+      {
+        heading: "9. Fontainebleau — le château royal UNESCO",
+        body: "Fontainebleau (à 50 km au sud-ouest de Provins) abrite le château royal de Fontainebleau (XIIe-XIXe siècles, classé UNESCO — résidence royale de 30 rois et 2 empereurs de François Ier à Napoléon III). 1 500 pièces, 130 ha de parc. Galerie François Ier (1530, premier salon Renaissance italianisant en France), appartements impériaux, Cour des Adieux. À combiner avec la forêt de Fontainebleau (25 000 ha — escalade de bloc, sentiers).",
+      },
+      {
+        heading: "10. Gastronomie briarde — Brie et fontainebleau",
+        body: "La cuisine de Provins et de la Brie est rurale et fromagère : Brie de Meaux AOP (à 60 km au nord, le « roi des fromages »), Brie de Melun AOP (à 35 km au nord — plus rare, plus puissant), Coulommiers (à 50 km — sœur du Brie, sans AOP). Spécialité d'origine : Fontainebleau (fromage frais battu avec crème montée, créé à Fontainebleau au XIXe siècle, servi avec coulis de fruits rouges). Pâtés et terrines briards. Vins : Champagne (à 80 km à l'est).",
+      },
+    ],
+    relatedCities: ["provins", "fontainebleau"],
+    relatedGuides: [
+      "vivre-en-ile-de-france-guide-2025",
+    ],
+    tags: ["10 choses à faire à Provins", "activités Provins 2026", "sorties Provins", "que faire à Provins", "cité médiévale UNESCO tour César souterrains spectacles Disneyland"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
