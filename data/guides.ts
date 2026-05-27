@@ -32146,6 +32146,603 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["10 choses à faire à Chantilly", "activités Chantilly 2026", "sorties Chantilly", "que faire à Chantilly", "château Condé Grandes Écuries hippodrome Le Nôtre crème Senlis"],
   },
+  {
+    slug: "10-choses-a-faire-a-grasse-2026",
+    title: "10 choses à faire à Grasse (la capitale mondiale du parfum et l'arrière-pays niçois)",
+    metaTitle: "10 choses à faire à Grasse 2026 — activités et sorties locales",
+    metaDesc: "Parfumeries Fragonard, Galimard, Molinard, musée international de la Parfumerie, vieille ville et Cabris : 10 activités à Grasse pour découvrir la capitale du parfum.",
+    category: "tourisme",
+    emoji: "🌹",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Grasse est une commune des Alpes-Maritimes, 51 000 habitants — capitale mondiale du parfum depuis le XVIIe siècle. Sur les hauteurs de la Côte d'Azur (à 350 m d'altitude, à 17 km au nord de Cannes), la ville a fait fortune avec la tannerie au Moyen Âge puis avec les gants parfumés des cours royales européennes au XVIIe siècle. Aujourd'hui Grasse produit 50 % des arômes du monde — 60 entreprises de la parfumerie y sont installées. Trois grandes maisons (Fragonard, Galimard, Molinard) sont ouvertes au public.",
+    sections: [
+      {
+        heading: "1. La parfumerie Fragonard — musée gratuit",
+        body: "La Maison Fragonard (1782, rue Jean-Ossola, dans la vieille ville) est la plus ancienne parfumerie de Grasse encore en activité — visite gratuite avec guide (durée 30 min) qui montre les méthodes traditionnelles (enfleurage à froid, distillation à la vapeur, extraction au solvant). Boutique avec parfums à prix d'usine (l'une des rares boutiques à proposer des « eaux de parfum » sans intermédiaire). 4 musées Fragonard (Parfum, Mode et Bijou, Costume, Provençal) gratuits.",
+      },
+      {
+        heading: "2. Galimard et l'atelier de création de parfums",
+        body: "La Maison Galimard (fondée en 1747 — l'une des plus anciennes parfumeries au monde, fournisseur de la cour de Louis XV) propose l'expérience unique « Atelier du Parfumeur » (réservation obligatoire, 2h, 65€) : créer son propre parfum sous la direction d'un nez professionnel — choix de 127 essences, formulation personnelle, mise en flacon avec nom personnalisé. La recette reste archivée dans le « livre des parfums » de Galimard (permet de re-commander à vie).",
+      },
+      {
+        heading: "3. Molinard et la collection patrimoniale",
+        body: "La Maison Molinard (1849, route de Cannes) est la troisième grande maison ouverte au public. Visite gratuite avec ateliers du « Studio des Fragrances » (création d'eaux de toilette personnalisées — 49€). Collection patrimoniale de flacons Lalique des années 1920 (l'un des plus grands designers de flacons à parfum — il a dessiné les flacons originaux de Coty). Conservatoire des senteurs (jardin de plantes à parfum — rose centifolia de Grasse, lavande, jasmin, tubéreuse).",
+      },
+      {
+        heading: "4. Le Musée international de la Parfumerie (MIP)",
+        body: "Le Musée international de la Parfumerie (MIP, ouvert en 1989 — le seul au monde dédié au parfum) est l'incontournable. Collection de 6 000 objets (flacons antiques égyptiens, romains, médiévaux, art déco — collection Lalique, Galimard, Molinard, Fragonard), parcours olfactif interactif (tester 18 senteurs), atelier de fabrication. Jardins du MIP à Mouans-Sartoux (à 5 km — 2 ha de plantes à parfum cultivées en biodynamie, gratuit). Vue sur la baie de Cannes.",
+      },
+      {
+        heading: "5. Cabris et l'arrière-pays grassois",
+        body: "Cabris (à 5 km au nord-ouest de Grasse) est un village perché de 1 600 habitants surnommé le « balcon de la Côte d'Azur » — à 545 m d'altitude, vue à 180° de la Méditerranée aux Alpes du Mercantour. Antoine de Saint-Exupéry y a séjourné (chez l'amie d'enfance Yvonne de Lestrange). Saint-Cézaire-sur-Siagne (à 12 km — village perché et grottes karstiques visitables), Gourdon (à 15 km à l'est, plus beau village de France à 760 m).",
+      },
+      {
+        heading: "6. La vieille ville de Grasse — médiévale et XVIIIe",
+        body: "La vieille ville de Grasse (autour de la place aux Aires) est l'un des plus complets centres médiévaux de la Côte d'Azur. Maisons hautes de 5-6 étages avec arcades (typique des cités cosmopolites du XVIIe siècle), ruelles pavées étroites. Cathédrale Notre-Dame du Puy (XIIe-XIIIe siècles, romane) abrite 3 toiles de Rubens (« Couronnement d'épines », « Crucifixion », « Saint Honorat »). Hôtel de Pontevès-Bargemon (XVIIIe siècle, mairie). Marché aux fleurs et primeurs tous les matins place aux Aires.",
+      },
+      {
+        heading: "7. La villa-musée Fragonard",
+        body: "La Villa-musée Jean-Honoré Fragonard (peintre grassois 1732-1806, l'un des plus grands peintres rococo français — Les Hasards heureux de l'escarpolette, Les Progrès de l'Amour) est une bastide provençale du XVIIe siècle. Quatre des cinq panneaux de la série « Les Progrès de l'Amour dans le cœur d'une jeune fille » (commandés par Madame du Barry, refusés par elle, rachetés par les Fragonard et installés au salon) y sont reproduits. Gratuit le premier dimanche.",
+      },
+      {
+        heading: "8. La Napoule et le château-musée",
+        body: "Mandelieu-La Napoule (à 25 km au sud-est de Grasse, au bord de la baie de Cannes) abrite le château-musée de la Napoule (1387, restauré 1918-1937 par Henry et Marie Clews — artistes américains qui en firent un sanctuaire d'art éclectique avec leurs sculptures monumentales). Jardin botanique méditerranéen. Plage de la Napoule (sable fin). À combiner avec Cannes (la Croisette, le Palais des Festivals, à 5 km).",
+      },
+      {
+        heading: "9. Les champs de roses et de jasmin",
+        body: "Les champs de fleurs à parfum (rose centifolia de Grasse, jasmin grandiflorum, tubéreuse, mimosa, fleur d'oranger) sont la matière première de la parfumerie grassoise. Récolte manuelle de la rose en mai (3 ha encore en culture autour de Grasse — production exclusive pour Chanel N°5 et Dior J'adore). Jasmin en août. Visite des champs en saison (sur réservation à la Maison Mul, Joseph Mul, fournisseur exclusif de Chanel — l'un des derniers paysans-fleuristes de Grasse).",
+      },
+      {
+        heading: "10. Gastronomie provençale — fougasse et calissons",
+        body: "La cuisine de Grasse est provençale méditerranéenne : fougasse aux olives noires, panisse (galette de farine de pois chiches cuite à l'huile d'olive — la cousine de la socca niçoise), tian de légumes, ratatouille, agneau de Sisteron IGP (à 100 km au nord, élevé en bergeries d'alpage). Spécialités sucrées : calissons d'Aix (à 90 km à l'ouest — pâte d'amande aux fruits confits sur pain azyme), tarte tropézienne (à 100 km, brioche fendue). Confitures aux pétales de rose (Grasse), miel de Provence (lavande, romarin). Vins : Bellet (à 25 km, AOC niçois unique), Côtes-de-Provence rosé.",
+      },
+    ],
+    relatedCities: ["grasse"],
+    relatedGuides: [
+      "vivre-en-cote-d-azur-guide-2026",
+      "vivre-en-provence-paca-guide-2025",
+    ],
+    tags: ["10 choses à faire à Grasse", "activités Grasse 2026", "sorties Grasse", "que faire à Grasse", "parfum Fragonard Galimard Molinard MIP Cabris fleurs"],
+  },
+  {
+    slug: "10-choses-a-faire-a-antibes-2026",
+    title: "10 choses à faire à Antibes (le Vieil Antibes et le musée Picasso)",
+    metaTitle: "10 choses à faire à Antibes 2026 — activités et sorties locales",
+    metaDesc: "Vieil Antibes, Cap d'Antibes, musée Picasso, marché provençal et Juan-les-Pins : 10 activités à Antibes pour découvrir la perle de la Côte d'Azur.",
+    category: "tourisme",
+    emoji: "🛥️",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Antibes est une commune des Alpes-Maritimes, 75 000 habitants à 20 km au sud-ouest de Nice — l'une des plus belles cités de la Côte d'Azur. Cité phocéenne antique (Antipolis), conquise par les Romains, fortifiée par Vauban, devenue station mondaine au XIXe siècle. Aujourd'hui combine Vieil Antibes médiéval, Port Vauban (l'un des plus grands ports de plaisance d'Europe, yachts géants), Cap d'Antibes (presqu'île luxueuse — Eden-Roc, Villa Eilenroc, etc.), et le quartier balnéaire de Juan-les-Pins.",
+    sections: [
+      {
+        heading: "1. Le Vieil Antibes — la cité médiévale",
+        body: "Le Vieil Antibes (cité fortifiée médiévale rénovée par Vauban au XVIIe siècle) est l'un des plus beaux centres historiques de la Côte d'Azur. Ruelles pavées (rue Aubernon, rue Sade — où vécut le marquis), maisons aux façades pastel, place du Safranier (quartier autoproclamé « Commune Libre du Safranier » — fête en juillet). Remparts intacts au front de mer (vue panoramique). Marché provençal couvert place Massena (tous les matins sauf lundi — l'un des plus beaux de la Côte d'Azur).",
+      },
+      {
+        heading: "2. Le musée Picasso — Château Grimaldi",
+        body: "Le Musée Picasso (Château Grimaldi, XIIIe-XVIe siècles — qui hébergea Pablo Picasso pendant 2 mois en 1946) est l'un des principaux musées Picasso au monde. Le peintre, alors âgé de 65 ans et en relation avec Françoise Gilot, y peignit 23 toiles et 44 dessins en 2 mois — et les laissa au château en remerciement de l'accueil — formant la collection actuelle (la « Joie de vivre », « Ulysse et les sirènes »). Vue sur la Méditerranée.",
+      },
+      {
+        heading: "3. Le Cap d'Antibes — la presqu'île luxueuse",
+        body: "Le Cap d'Antibes (presqu'île de 5 km au sud d'Antibes) est l'une des zones les plus luxueuses de France — villas historiques (Eden-Roc, Villa Eilenroc, Villa La Fiorentina), hôtel du Cap-Eden-Roc (palace iconique depuis 1870, payment cash uniquement jusqu'en 2006). Sentier du Tirepoil (à pied, 5 km en boucle, gratuit) qui longe la côte rocheuse — l'une des plus belles promenades de la Côte d'Azur. Plage de la Garoupe et phare de la Garoupe (vue à 360°).",
+      },
+      {
+        heading: "4. Le Port Vauban — yachts géants",
+        body: "Le Port Vauban d'Antibes (le plus grand port de plaisance d'Europe — 2 500 anneaux, accueille les plus grands yachts privés du monde — propriétaires Roman Abramovich, Lakshmi Mittal, David Geffen) est l'un des sites les plus impressionnants de la côte. Quai des Milliardaires (les plus grands yachts du monde y mouillent — jusqu'à 180 m de long). Promenade libre. Au-dessus du port, la cité fortifiée Vauban.",
+      },
+      {
+        heading: "5. Juan-les-Pins — le Jazz à Juan",
+        body: "Juan-les-Pins (à 2 km au sud-ouest d'Antibes, station balnéaire — créée dans les années 1920) est mondialement connue pour son Festival Jazz à Juan (depuis 1960, mi-juillet — l'un des plus anciens festivals de jazz au monde — Miles Davis, Louis Armstrong, Bob Marley, Ray Charles y ont joué). Plage de sable fin urbaine, casino Belle Époque, palace Belles-Rives (où vécut Scott Fitzgerald).",
+      },
+      {
+        heading: "6. Le marché provençal couvert",
+        body: "Le Marché provençal couvert d'Antibes (place Massena, dans le Vieil Antibes — sous une halle métallique fin XIXe siècle) est tous les matins sauf le lundi. L'un des plus beaux marchés de la Côte d'Azur — primeurs locaux, fromages provençaux, charcuteries, fruits de mer, fleurs. Pour info : marché aux fleurs uniquement le matin, marché aux brocantes le samedi après-midi.",
+      },
+      {
+        heading: "7. La Villa Eilenroc et les jardins",
+        body: "La Villa Eilenroc (1860, néo-palladienne, à la pointe du Cap d'Antibes — propriété du baron Hugues Beaumont qui l'a léguée à la ville en 1980) est l'une des plus belles villas Belle Époque de la Côte d'Azur. Architecture signée Charles Garnier (l'architecte de l'Opéra de Paris). Parc paysager (11 ha — l'un des plus beaux jardins de la Côte d'Azur, gratuit, ouvert 2 jours/semaine). Visite intérieure payante (sur réservation).",
+      },
+      {
+        heading: "8. La Marineland — le parc à thème marin",
+        body: "Marineland Antibes (à 5 km à l'ouest, plus grand parc à thème marin d'Europe) est un parc consacré aux mammifères marins — dauphins, orques (uniques en France hors zoos), otaries, manchots. Spectacles quotidiens. Pour info : controverse animaliste depuis les années 2010 sur le bien-être des orques en captivité — les orques ont été supprimées du programme en 2024. Aquarium (8 millions de litres), restaurant sous-marin.",
+      },
+      {
+        heading: "9. Le Fort Carré — la forteresse Vauban",
+        body: "Le Fort Carré d'Antibes (XVIe-XVIIe siècles, fortifié par Vauban en 1680) est l'un des plus impressionnants ouvrages militaires français de la Côte d'Azur — fortification en étoile à 4 bastions, sur un éperon rocheux face au port Vauban. Vue panoramique sur Antibes, Nice et le Cap d'Antibes. Visite payante (1h30). Spot photo emblématique d'Antibes.",
+      },
+      {
+        heading: "10. Gastronomie niçoise — socca et pissaladière",
+        body: "La cuisine antiboise est niçoise méditerranéenne : socca (galette de farine de pois chiches cuite au four à bois — apéritif emblématique), pissaladière (tarte à l'oignon, anchois et olives noires — la cousine niçoise de la pizza italienne), salade niçoise (tomates, œufs, anchois, olives noires — sans pommes de terre dans la version originale), pan-bagnat (sandwich niçois). Spécialité antiboise : tarte de blettes sucrée (avec raisins secs, pignons et fromage râpé — unique en France). Vins : Bellet (à 15 km, AOC niçois unique), Côtes-de-Provence rosé.",
+      },
+    ],
+    relatedCities: ["antibes"],
+    relatedGuides: [
+      "vivre-en-cote-d-azur-guide-2026",
+      "vivre-en-provence-paca-guide-2025",
+    ],
+    tags: ["10 choses à faire à Antibes", "activités Antibes 2026", "sorties Antibes", "que faire à Antibes", "Vieil Antibes Picasso Cap Port Vauban Juan-les-Pins jazz"],
+  },
+  {
+    slug: "10-choses-a-faire-a-cagnes-sur-mer-2026",
+    title: "10 choses à faire à Cagnes-sur-Mer (Renoir et l'hippodrome de la Côte d'Azur)",
+    metaTitle: "10 choses à faire à Cagnes-sur-Mer 2026 — activités et sorties locales",
+    metaDesc: "Musée Renoir, Haut-de-Cagnes médiéval, hippodrome de la Côte d'Azur, Vence et Saint-Paul-de-Vence : 10 activités à Cagnes-sur-Mer pour découvrir la commune où vécut Renoir.",
+    category: "tourisme",
+    emoji: "🎨",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Cagnes-sur-Mer est une commune des Alpes-Maritimes, 53 000 habitants entre Nice et Antibes — trois villes en une : le Cros-de-Cagnes (port de pêche traditionnel), le centre-ville (commerçant), et le Haut-de-Cagnes (cité médiévale perchée — l'une des plus authentiques de la Côte d'Azur). Pierre-Auguste Renoir y a vécu ses 12 dernières années (1907-1919, dans le « Domaine des Collettes »). C'est aussi le siège de l'Hippodrome de la Côte d'Azur — l'un des principaux hippodromes français.",
+    sections: [
+      {
+        heading: "1. Le musée Renoir — Domaine des Collettes",
+        body: "Le Musée Renoir (Domaine des Collettes, où Pierre-Auguste Renoir vécut de 1907 à sa mort en 1919) est l'un des plus émouvants musées d'artistes français — mobilier d'origine, ateliers de peinture intacts, fauteuil roulant (Renoir avait une polyarthrite déformante terrible et peignait pinceau attaché à la main), olivier centenaire. Vue sur le Haut-de-Cagnes et la Méditerranée. 11 toiles originales de Renoir, sculptures qu'il a réalisées avec son fils Pierre (qui guidait sa main).",
+      },
+      {
+        heading: "2. Le Haut-de-Cagnes — cité médiévale",
+        body: "Le Haut-de-Cagnes (village médiéval perché à 100 m, le centre historique de la commune) est l'une des plus authentiques cités médiévales de la Côte d'Azur. Château-Musée Grimaldi (XIVe-XVIIe siècles — anciens seigneurs Grimaldi, ancêtres des princes de Monaco). Maisons à toits de tuiles, ruelles pavées en pente. Beaucoup moins touristique que Saint-Paul-de-Vence (à 10 km). Atmosphère provençale authentique.",
+      },
+      {
+        heading: "3. Le château-musée Grimaldi",
+        body: "Le Château-Musée Grimaldi (XIVe siècle, ancien château fort des seigneurs Grimaldi de Cagnes — différents des Grimaldi de Monaco mais cousins) est le centre culturel du Haut-de-Cagnes. Musée de l'Olivier (au rez-de-chaussée — l'olivier est l'arbre emblématique de Provence), musée Suzy Solidor (étage — collection des 244 portraits de la chanteuse cabaret par les artistes du XXe siècle : Picasso, Cocteau, Foujita, Van Dongen, Marquet). Salle des Fêtes du XVIIe siècle au plafond peint en trompe-l'œil.",
+      },
+      {
+        heading: "4. L'hippodrome de la Côte d'Azur",
+        body: "L'Hippodrome de Cagnes-sur-Mer (créé en 1952 — premier hippodrome de la Côte d'Azur en termes de fréquentation) accueille des courses prestigieuses en hiver (de décembre à mars — la « saison cagnoise »). Plat et obstacles. Tribunes modernes. La piste est tellement spacieuse qu'elle accueille parfois aussi du polo. Visites libres en dehors des courses (accès libre au parc, à proximité de la plage du Cros). Festival Pop Up des courses en avril.",
+      },
+      {
+        heading: "5. Vence et la chapelle Matisse — à 8 km",
+        body: "Vence (à 8 km au nord de Cagnes-sur-Mer) abrite la Chapelle du Rosaire de Vence (1951, Henri Matisse — l'œuvre testamentaire du peintre, qu'il considérait comme son chef-d'œuvre absolu). Vitraux bleus, verts et jaunes, dessins muraux en céramique noire. Ouverture limitée (mardi et jeudi). La vieille ville fortifiée de Vence et sa cathédrale sont à visiter.",
+      },
+      {
+        heading: "6. Saint-Paul-de-Vence — la cité des artistes",
+        body: "Saint-Paul-de-Vence (à 10 km au nord-ouest de Cagnes-sur-Mer) est l'une des plus belles cités perchées de la Côte d'Azur — cité fortifiée par François Ier au XVIe siècle. La Fondation Marguerite-et-Aimé-Maeght (1964, l'un des plus importants centres d'art contemporain en France — Chagall, Miró, Calder, Léger), la Colombe d'Or (auberge mythique des artistes), la tombe de Marc Chagall (au cimetière du village).",
+      },
+      {
+        heading: "7. Nice et la promenade des Anglais",
+        body: "Nice (à 15 km à l'est de Cagnes-sur-Mer) est la grande métropole de la Côte d'Azur — 5e ville française. Promenade des Anglais (7 km de front de mer), Vieille Ville (Cours Saleya — marché aux fleurs et primeurs), Cimiez (quartier romain — arènes de Cimiez, musée Matisse, musée Marc Chagall), colline du Château (vue à 360° sur la baie des Anges). Carnaval de Nice (février).",
+      },
+      {
+        heading: "8. Le Cros-de-Cagnes — village de pêcheurs",
+        body: "Le Cros-de-Cagnes (à 2 km au sud du centre de Cagnes-sur-Mer, ancien village de pêcheurs) est l'un des derniers ports authentiques de la Côte d'Azur. Promenade en bord de mer, restaurants de poissons, petit port avec barques colorées. Plage du Cros (galets, surveillée juin-août). À pied, on rejoint l'hippodrome.",
+      },
+      {
+        heading: "9. La promenade littorale et la véloroute",
+        body: "La Promenade Littorale (boulevard de la Plage) de Cagnes-sur-Mer (3 km le long de la mer entre l'embouchure du Var et l'hippodrome) est aménagée pour piétons et vélos. La Véloroute Méditerranée (EuroVélo 8, projet en cours) traverse la commune. Cagnes-sur-Mer est sur la ligne TER Nice-Marseille (15 min de Nice, 6 min de Antibes).",
+      },
+      {
+        heading: "10. Gastronomie niçoise — socca et pissaladière",
+        body: "La cuisine cagnoise est niçoise méditerranéenne : socca (galette de farine de pois chiches), pissaladière (tarte à l'oignon, anchois et olives noires — version niçoise), salade niçoise traditionnelle (sans pommes de terre), pan-bagnat (sandwich niçois). Spécialités : poutine de Nice (alevins de sardines — pêche réglementée, février-mars), oursins en hiver. Fromages : tomme de l'arrière-pays. Vins : AOC Bellet (à 15 km, micro-AOC unique à Nice — cépages folle noire et braquet rouges, rolle blanc), Côtes-de-Provence rosé (à 30 km à l'ouest).",
+      },
+    ],
+    relatedCities: ["cagnes-sur-mer"],
+    relatedGuides: [
+      "vivre-en-cote-d-azur-guide-2026",
+      "vivre-en-provence-paca-guide-2025",
+    ],
+    tags: ["10 choses à faire à Cagnes-sur-Mer", "activités Cagnes 2026", "sorties Cagnes-sur-Mer", "que faire à Cagnes", "Renoir Haut-de-Cagnes Grimaldi hippodrome Vence Saint-Paul"],
+  },
+  {
+    slug: "10-choses-a-faire-a-saint-raphael-2026",
+    title: "10 choses à faire à Saint-Raphaël (l'Estérel rouge et la baie d'Agay)",
+    metaTitle: "10 choses à faire à Saint-Raphaël 2026 — activités et sorties locales",
+    metaDesc: "Massif de l'Estérel, baie d'Agay, port de plaisance, Fréjus et Cannes : 10 activités à Saint-Raphaël pour découvrir la côte d'Esterel rouge.",
+    category: "tourisme",
+    emoji: "🏝️",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Saint-Raphaël est une station balnéaire du Var, 35 000 habitants — la « capitale » de la Côte d'Azur varoise. Au pied du massif rouge de l'Estérel (volcanisme tardif, granite porphyrique rouge — paysage unique en Méditerranée), la commune compte 36 km de littoral et 6 ports de plaisance. Station née sous Napoléon III et popularisée par Alphonse Karr (le « Père du Saint-Raphaël touristique » dans les années 1860 — Dumas, Gounod, Maupassant s'y retrouvaient).",
+    sections: [
+      {
+        heading: "1. Le massif de l'Estérel — granite rouge",
+        body: "Le Massif de l'Estérel (à 5 km au nord de Saint-Raphaël, 32 000 ha de granite porphyrique rouge — paysage unique en Méditerranée occidentale) est l'un des plus spectaculaires paysages côtiers de France. Pic du Cap Roux (453 m, plus haut sommet — vue à 360°), Pic de l'Ours (492 m), Sentier du Littoral (GR51, 30 km de Saint-Raphaël à Théoule-sur-Mer — falaises rouges plongeant dans la mer). À pied ou à VTT. Beaucoup d'incendies historiquement — paysage souvent en cours de régénération.",
+      },
+      {
+        heading: "2. La baie d'Agay — emblématique",
+        body: "La baie d'Agay (à 8 km à l'est de Saint-Raphaël, sur la Corniche d'Or — D559) est l'une des plus belles baies de Méditerranée occidentale. Plage de sable rouge orangé (couleur unique en France due aux roches d'Estérel), eau turquoise. Antoine de Saint-Exupéry y a été retrouvé en 1944 (son P-38 Lightning a été identifié au fond de la baie en 2003). Restaurant « Tahiti Plage » très réputé. Sentier du Littoral à pied.",
+      },
+      {
+        heading: "3. La Corniche d'Or — la route panoramique",
+        body: "La Corniche d'Or (D559, 30 km de Saint-Raphaël à Mandelieu-La Napoule — créée en 1903) est l'une des plus belles routes panoramiques de France — entre les rochers rouges de l'Estérel et la mer. Calanques inaccessibles, criques sauvages, plages secrètes. À faire en voiture ou à vélo (loueurs à Saint-Raphaël). Coucher de soleil exceptionnel sur les rochers rouges. Vue sur les îles de Lérins (Sainte-Marguerite, Saint-Honorat).",
+      },
+      {
+        heading: "4. Fréjus — la cité gallo-romaine",
+        body: "Fréjus (à 3 km à l'ouest de Saint-Raphaël) est l'une des plus anciennes cités gallo-romaines de France — Forum Julii fondée par Jules César en 49 av. J.-C. Vestiges majeurs : arènes (Ier siècle, 10 000 places — l'une des plus anciennes de France), théâtre romain, aqueduc, port (creusé sous Auguste). Cathédrale Saint-Léonce (Ve-XIe siècles — l'une des plus anciennes baptistères chrétiens de France encore en service). Cloître attenant (XIIe siècle).",
+      },
+      {
+        heading: "5. Cannes et la Croisette — à 30 km",
+        body: "Cannes (à 30 km à l'est de Saint-Raphaël) est la capitale mondiale du cinéma — Festival de Cannes en mai (depuis 1946, le plus prestigieux festival cinématographique au monde). Palais des Festivals, Croisette (3 km de promenade en bord de mer), Carlton, Majestic, Martinez (les palaces emblématiques). Plage publique de la Croisette (sable importé de Bormes-les-Mimosas). Marché Forville (matin, sauf lundi — l'un des plus beaux de la Côte d'Azur).",
+      },
+      {
+        heading: "6. Les Îles de Lérins — Sainte-Marguerite et Saint-Honorat",
+        body: "Les Îles de Lérins (au large de Cannes, accessibles en 20 min de bateau) sont les deux îles principales. Sainte-Marguerite (3 km de long — fort Royal, où le Masque de Fer a été emprisonné de 1687 à 1698 — musée de la Mer dans le fort, gratuit). Saint-Honorat (1,5 km — abbaye de Lérins, monastère cistercien en activité depuis le Ve siècle, vins et liqueurs produits par les moines — visite payante, atmosphère silencieuse). Pas de voitures.",
+      },
+      {
+        heading: "7. La basilique Notre-Dame-de-la-Victoire",
+        body: "La basilique Notre-Dame-de-la-Victoire de Saint-Raphaël (XIXe siècle, néo-byzantine — style en vogue à la Belle Époque, voir le Sacré-Cœur de Paris) est l'emblème de la ville. Coupole centrale, mosaïques dorées. Construite en 1881-1885 sur les plans de Pierre Aublé. À côté, l'église romane Saint-Pierre-des-Templiers (XIIe siècle — antérieure de 7 siècles à la basilique — Templiers).",
+      },
+      {
+        heading: "8. Le port de plaisance et les bateaux",
+        body: "Saint-Raphaël possède 6 ports de plaisance (1 750 anneaux au total — l'un des plus grands réseaux portuaires de plaisance de la Côte d'Azur). Le port de Santa-Lucia (1 500 anneaux, le principal). Activités nautiques : voile, paddle, plongée (massif sous-marin de l'Estérel — sites d'épave et tombants rocheux, l'un des plus beaux spots de Méditerranée). École de voile de Saint-Raphaël.",
+      },
+      {
+        heading: "9. Le musée archéologique — Henri de Lorraine",
+        body: "Le Musée archéologique de Saint-Raphaël (créé en 1912, l'un des plus anciens musées archéologiques sous-marins de France) présente la collection des fouilles sous-marines des épaves antiques retrouvées au large de Saint-Raphaël et Fréjus (amphores romaines, navires de commerce du Ier siècle av. J.-C. au IVe siècle ap. J.-C.). Vase de Saint-Raphaël (Ier siècle ap. J.-C., en parfait état). Gratuit le premier dimanche.",
+      },
+      {
+        heading: "10. Gastronomie provençale — soupe au pistou et rosé",
+        body: "La cuisine de Saint-Raphaël est provençale méditerranéenne : soupe au pistou (soupe de légumes au pistou — basilic, ail, huile d'olive et parmesan), bouillabaisse (rascasse, vive, baudroie — recette codifiée par la charte marseillaise), aïoli (sauce à l'ail et huile d'olive, servie avec morue et légumes vapeur), tian de légumes, ratatouille. Spécialité : poisson de la baie d'Agay (bar de ligne, dorade, loup). Fromages : Banon (à 80 km au nord, AOP chèvre fermier feuille de châtaignier). Vins : AOC Côtes-de-Provence rosé (10 km à l'ouest, capitale du rosé), Bandol (à 80 km — rouge mourvèdre).",
+      },
+    ],
+    relatedCities: ["saint-raphael"],
+    relatedGuides: [
+      "vivre-en-cote-d-azur-guide-2026",
+      "vivre-en-provence-paca-guide-2025",
+    ],
+    tags: ["10 choses à faire à Saint-Raphaël", "activités Saint-Raphaël 2026", "sorties Saint-Raphaël", "que faire à Saint-Raphaël", "Estérel rouge baie Agay Corniche d'Or Fréjus Cannes Lérins"],
+  },
+  {
+    slug: "10-choses-a-faire-a-chinon-2026",
+    title: "10 choses à faire à Chinon (la forteresse Plantagenêt et Rabelais)",
+    metaTitle: "10 choses à faire à Chinon 2026 — activités et sorties locales",
+    metaDesc: "Forteresse royale, musée Rabelais, vignobles Chinon, Fontevraud et bord de Loire : 10 activités à Chinon pour découvrir le Val de Loire angevin.",
+    category: "tourisme",
+    emoji: "🏰",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Chinon est une commune d'Indre-et-Loire, 8 000 habitants au bord de la Vienne — l'une des plus belles cités médiévales du Val de Loire (classé UNESCO). La ville est dominée par la Forteresse royale (XIIe-XVe siècles, l'une des plus grandes places fortes médiévales d'Europe — 400 m de long, 3 enceintes) où Jeanne d'Arc rencontra Charles VII en 1429 — épisode fondateur de la reconquête française. Patrie de François Rabelais (1483-1553, médecin et écrivain — Pantagruel, Gargantua) et capitale de l'AOC Chinon (vin rouge à base de cabernet franc).",
+    sections: [
+      {
+        heading: "1. La forteresse royale — Jeanne d'Arc et Charles VII",
+        body: "La Forteresse royale de Chinon (XIIe-XVe siècles, l'une des plus grandes places fortes médiévales d'Europe — 400 m de long, 3 enceintes successives) domine la ville. Henri II Plantagenêt (mari d'Aliénor d'Aquitaine — roi d'Angleterre et duc de Normandie/Aquitaine) y mourut en 1189. Le 9 mars 1429, Jeanne d'Arc y rencontra Charles VII (épisode fondateur de la reconquête française). Visite avec audioguide, vue panoramique sur la Vienne et la cité médiévale.",
+      },
+      {
+        heading: "2. Le musée Rabelais — la Devinière",
+        body: "La Devinière (à 6 km de Chinon, dans le hameau de Seuilly) est la maison natale de François Rabelais (1483-1553, l'un des plus grands écrivains français du XVIe siècle — Pantagruel 1532, Gargantua 1534 — médecin, humaniste, satiriste). Petite ferme tourangelle (mobilier d'époque restitué), cave troglodyte, jardin à plantes médicinales. Statue de Gargantua devant. Musée Rabelais (à l'intérieur de la ferme) avec son œuvre complète et ses gravures contemporaines.",
+      },
+      {
+        heading: "3. L'AOC Chinon — le rouge cabernet franc",
+        body: "L'AOC Chinon (2 400 ha, l'une des plus prestigieuses AOC rouges de Loire — cépage cabernet franc à 100 %) est l'un des grands vignobles du Val de Loire. Caves troglodytiques creusées dans le tuffeau (pierre calcaire blanche). Domaines à visiter : Clos de l'Olive (Domaine Couly-Dutheil, l'icône — biodynamie), Domaine Charles Joguet, Domaine Bernard Baudry. Vins rouges légers (Saumur-style) ou puissants (à élever 5-10 ans). Vins blancs et rosés également.",
+      },
+      {
+        heading: "4. L'abbaye royale de Fontevraud — UNESCO",
+        body: "L'abbaye royale de Fontevraud (à 15 km au sud-ouest de Chinon, XIIe siècle romane — l'un des plus grands ensembles monastiques médiévaux d'Europe, classée UNESCO) est la nécropole des Plantagenêt. Quatre gisants polychromes médiévaux : Henri II d'Angleterre, Aliénor d'Aquitaine, Richard Cœur de Lion, Isabelle d'Angoulême. Cuisines romanes uniques en Europe (toit aux 20 cheminées en pierre). À combiner avec Chinon.",
+      },
+      {
+        heading: "5. Le vieux Chinon — la rue Voltaire",
+        body: "Le Vieux Chinon (en contrebas de la forteresse) est un dédale médiéval. La rue Voltaire (axe médiéval principal) traverse la cité d'est en ouest. Maisons à pans de bois XVe-XVIe siècles, hôtels particuliers Renaissance. La place Saint-Maurice (cœur de la vieille ville), le Grand Carroi (carrefour médiéval avec fontaine), l'église Saint-Maurice (XIIe siècle, romane). Marché du jeudi matin sur les bords de la Vienne.",
+      },
+      {
+        heading: "6. Les troglodytes et les caves de tuffeau",
+        body: "Chinon compte 100 km de galeries troglodytiques creusées dans le tuffeau (pierre calcaire blanche utilisée pour les châteaux de la Loire). La cité a été creusée en partie sous terre — caves, celliers, anciennes habitations. Les caves Couly-Dutheil (visite des caves à 30 m sous la forteresse), les caves Charles Joguet. Marie-Antoinette aurait été cachée à Chinon dans les caves pendant la Révolution (légende contestée).",
+      },
+      {
+        heading: "7. Le château d'Ussé — la Belle au Bois Dormant",
+        body: "Le Château d'Ussé (à 12 km à l'est de Chinon, XVe-XVIIe siècles — Renaissance et classique) est l'un des plus beaux châteaux du Val de Loire. Charles Perrault (1628-1703) s'en est inspiré pour son conte « La Belle au Bois Dormant » (1697 — la sculpture la plus emblématique du château). Aujourd'hui propriété privée habitée (la famille Blacas d'Aulps), visite payante. Façade Renaissance à pignons, chapelle Renaissance Anne-de-Bretagne, jardins de Le Nôtre.",
+      },
+      {
+        heading: "8. Loches — la cité royale médiévale",
+        body: "Loches (à 60 km à l'est de Chinon, dans l'Indre-et-Loire) est l'une des plus belles cités médiévales fortifiées du Val de Loire. Donjon de Foulques Nerra (XIe siècle, 36 m de hauteur — l'un des plus anciens donjons français), Logis royal (XIVe-XVe siècles, où vécut Agnès Sorel — favorite de Charles VII, première favorite officielle d'un roi de France — son gisant est conservé dans la collégiale Saint-Ours). Cité fortifiée intacte.",
+      },
+      {
+        heading: "9. La Vienne en canoë et la Loire à vélo",
+        body: "La Vienne (rivière qui passe à Chinon) se descend en canoë de L'Île-Bouchard à Chinon (15 km, demi-journée). Calme et bordée de tuffeau blanc. La Loire à Vélo (EuroVélo 6) passe à 10 km au nord de Chinon — étape Saumur-Chinon-Loches (50 km à vélo). Loueurs de vélos à Chinon. Pour info : Chinon a aussi son train touristique à vapeur (« Chinon-Richelieu », ligne historique, le week-end).",
+      },
+      {
+        heading: "10. Gastronomie tourangelle — fouée et rillettes",
+        body: "La cuisine de Chinon est tourangelle : rillettes de Tours (charcuterie cuite longuement au saindoux — IGP), fouée (petit pain creux servi tiède avec beurre, rillauds), géline de Touraine IGP (poule fermière de race ancienne), poisson de Loire (sandre, brochet). Fromages : Sainte-Maure-de-Touraine AOP (chèvre cendré en bûchette), Sainte-Maure de Touraine. Sucré : tarte Tatin (à 100 km à l'est — inventée à Lamotte-Beuvron). Vins : Chinon (rouge cabernet franc, principal), Bourgueil (rouge à 15 km), Saint-Nicolas-de-Bourgueil (rouge), Vouvray (blanc à 35 km), Montlouis (blanc).",
+      },
+    ],
+    relatedCities: ["chinon"],
+    relatedGuides: [
+      "vivre-en-centre-val-de-loire-guide-2026",
+    ],
+    tags: ["10 choses à faire à Chinon", "activités Chinon 2026", "sorties Chinon", "que faire à Chinon", "forteresse Jeanne d'Arc Plantagenêt Rabelais AOC Fontevraud Loches"],
+  },
+  {
+    slug: "10-choses-a-faire-a-compiegne-2026",
+    title: "10 choses à faire à Compiègne (le palais impérial et la clairière de l'Armistice)",
+    metaTitle: "10 choses à faire à Compiègne 2026 — activités et sorties locales",
+    metaDesc: "Palais impérial, clairière de l'Armistice, forêt de Compiègne, Pierrefonds et Senlis : 10 activités à Compiègne pour découvrir la résidence des rois et empereurs.",
+    category: "tourisme",
+    emoji: "🏛️",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Compiègne est une commune de l'Oise, 40 000 habitants au bord de l'Oise — l'une des trois résidences royales et impériales françaises (avec Versailles et Fontainebleau). Le palais de Compiègne (XVIIIe-XIXe siècles) a hébergé Louis XV, Louis XVI, Napoléon Ier, Napoléon III. C'est aussi à Compiègne, en forêt, qu'a été signé l'Armistice du 11 novembre 1918 (puis l'armistice de 1940 imposé par Hitler). Au cœur de la forêt domaniale de Compiègne (14 000 ha).",
+    sections: [
+      {
+        heading: "1. Le palais impérial — résidence royale et impériale",
+        body: "Le Palais impérial de Compiègne (XVIIIe siècle, reconstruit pour Louis XV et Louis XVI par Ange-Jacques Gabriel — l'architecte du Petit Trianon de Versailles — habité par Napoléon Ier puis Napoléon III) est l'une des trois grandes résidences royales et impériales françaises. 1 200 pièces sur 4 ha. Appartements impériaux (Marie-Louise — seconde femme de Napoléon Ier, Eugénie de Montijo — femme de Napoléon III), Galerie de Bal, théâtre impérial.",
+      },
+      {
+        heading: "2. La clairière de l'Armistice — 11 novembre 1918",
+        body: "La Clairière de l'Armistice (à 6 km au nord-est de Compiègne, en forêt de Compiègne) est le lieu où fut signé l'Armistice du 11 novembre 1918 mettant fin à la Première Guerre mondiale (à 5h15 du matin, dans le wagon-restaurant n°2419 D du maréchal Foch). Mémorial de la Clairière (musée gratuit avec reconstitution du wagon historique — l'original a été détruit par les Allemands en 1944 pour ne pas qu'il serve à un nouvel armistice). Site classé Mémorial national.",
+      },
+      {
+        heading: "3. La forêt domaniale de Compiègne",
+        body: "La Forêt domaniale de Compiègne (14 400 ha, l'une des plus grandes forêts d'Île-de-France et l'une des plus belles hêtraies-chênaies de France) est le poumon vert de Compiègne. Allées royales (créées pour les chasses des rois de France), étangs, sentiers balisés. Faune : cerfs (chasse à courre encore pratiquée par l'équipage de Compiègne), biches, chevreuils, sangliers. La forêt est un site de promenade dominicale des Compiégnois et des Parisiens.",
+      },
+      {
+        heading: "4. Pierrefonds — le château néo-gothique",
+        body: "Le Château de Pierrefonds (à 15 km au nord-est de Compiègne, en forêt — XIVe siècle, restauré par Viollet-le-Duc en 1857-1885 sur ordre de Napoléon III) est l'un des plus impressionnants châteaux néo-gothiques d'Europe. Restauration romantique de Viollet-le-Duc (mêlant l'imagination de l'architecte aux vestiges médiévaux — c'est en partie une création XIXe siècle plus qu'une restauration au sens strict). Lieu de tournage de plusieurs films (Les Visiteurs, le Pacte des Loups, série Merlin).",
+      },
+      {
+        heading: "5. Senlis — la cité royale médiévale",
+        body: "Senlis (à 25 km au sud-est de Compiègne) est l'une des plus belles cités médiévales d'Île-de-France — première résidence des premiers Capétiens (Hugues Capet y fut élu roi en 987). Cathédrale Notre-Dame (XIIe siècle, gothique primitif, l'une des plus belles façades romanes de France), enceinte gallo-romaine et médiévale (intacte sur 800 m), ruelles pavées. Une journée combinée à Compiègne.",
+      },
+      {
+        heading: "6. L'historial du Char et de la Cavalerie",
+        body: "Le Musée de la Figurine historique de Compiègne (4 500 figurines historiques retraçant l'histoire de France) est un musée curieux et original. Section 1ère Guerre mondiale (uniformes, armes — Compiègne a été le quartier général du général Joffre puis du général Foch pendant la guerre). Section impériale (Napoléon Ier). Gratuit pour les enfants.",
+      },
+      {
+        heading: "7. Le musée de la Voiture",
+        body: "Le Musée de la Voiture et du Tourisme (1927, au sein du Palais impérial de Compiègne — ancienne salle des Gardes du Corps reconvertie) est le plus ancien musée de l'automobile de France. Collection de 130 véhicules anciens : voitures à cheval (carrosses royaux Louis XIV-XIX, voitures de la Cour de Napoléon III), premières automobiles (1894-1920 — Panhard et Levassor, De Dion-Bouton), vélocipèdes anciens. Visite incluse dans le pass palais.",
+      },
+      {
+        heading: "8. La place du marché et la vieille ville",
+        body: "La vieille ville de Compiègne (autour de la place du Marché) garde quelques vestiges médiévaux malgré les destructions de 1944. Hôtel de Ville (XVe siècle, gothique flamboyant — façade sculptée avec « jacquemarts » — automates qui sonnent les heures). Tour Beauregard (XIIe siècle, vestige des fortifications médiévales). Vieux pont sur l'Oise. Marché du samedi matin.",
+      },
+      {
+        heading: "9. L'abbaye de Saint-Jean-aux-Bois",
+        body: "L'abbaye de Saint-Jean-aux-Bois (à 12 km au sud-est de Compiègne, XIIIe siècle gothique, au cœur de la forêt de Compiègne) est l'une des plus rares abbayes cisterciennes médiévales encore en partie debout. Village du XIIIe siècle attenant (l'un des plus anciens villages forestiers de France encore intact). Sentier balisé en boucle dans la forêt.",
+      },
+      {
+        heading: "10. Gastronomie picarde — flamiche et tarte au sucre",
+        body: "La cuisine de Compiègne et de l'Oise mêle traditions picardes et franciliennes : flamiche aux poireaux (tarte salée picarde — l'une des plus anciennes recettes françaises), ficelle picarde (crêpe roulée garnie de jambon-champignons gratinés), pâté de canard d'Amiens (à 60 km au nord). Fromages : Brie de Meaux AOP (à 90 km au sud-est), Maroilles AOP (à 100 km au nord-est, le plus odorant de France), Rollot. Spécialités sucrées : tarte au sucre (héritage flamand-picard — pâte briochée saupoudrée de sucre), galette des Rois (Pithiviers — à 100 km au sud). Bière du Nord (3 Monts, Saint-Sylvestre).",
+      },
+    ],
+    relatedCities: ["compiegne"],
+    relatedGuides: [
+      "vivre-en-hauts-de-france-guide-2026",
+      "vivre-en-ile-de-france-guide-2025",
+    ],
+    tags: ["10 choses à faire à Compiègne", "activités Compiègne 2026", "sorties Compiègne", "que faire à Compiègne", "palais impérial Armistice 1918 forêt Pierrefonds Senlis"],
+  },
+  {
+    slug: "10-choses-a-faire-a-bayeux-2026",
+    title: "10 choses à faire à Bayeux (la tapisserie UNESCO et les plages du Débarquement)",
+    metaTitle: "10 choses à faire à Bayeux 2026 — activités et sorties locales",
+    metaDesc: "Tapisserie de Bayeux, cathédrale, plages du Débarquement, cimetière américain et Mont-Saint-Michel : 10 activités à Bayeux pour découvrir le Calvados.",
+    category: "tourisme",
+    emoji: "🧵",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Bayeux est une commune du Calvados, 14 000 habitants — l'unique ville bas-normande non détruite en 1944 (libérée le 7 juin 1944 sans combat, premier chef-lieu français libéré). La cité abrite deux trésors patrimoniaux exceptionnels : la Tapisserie de Bayeux (XIe siècle, 70 m de long — broderie représentant la conquête de l'Angleterre par Guillaume le Conquérant en 1066, classée UNESCO Mémoire du Monde) et la cathédrale Notre-Dame (XIe siècle, gothique normand, intacte). Point de départ idéal pour les plages du Débarquement.",
+    sections: [
+      {
+        heading: "1. La tapisserie de Bayeux — UNESCO Mémoire du Monde",
+        body: "La Tapisserie de Bayeux (XIe siècle, 70 m de long, 50 cm de haut — l'une des plus anciennes broderies médiévales conservées en Europe, classée UNESCO Mémoire du Monde depuis 2007) raconte en 58 scènes la conquête de l'Angleterre par Guillaume le Conquérant (duc de Normandie) en 1066, culminant à la bataille d'Hastings. Commande probable de l'évêque Odon de Bayeux (frère utérin de Guillaume). Musée dédié à Bayeux (audioguide gratuit avec narration ligne par ligne).",
+      },
+      {
+        heading: "2. La cathédrale Notre-Dame — gothique normand intact",
+        body: "La cathédrale Notre-Dame de Bayeux (XIe-XVe siècles, gothique normand) est l'une des plus belles cathédrales gothiques de Normandie — restée intacte (contrairement à celle de Caen ou Saint-Lô bombardées en 1944). Tour-clocher de 80 m, crypte romane préservée (XIe siècle, antérieure à la cathédrale gothique — peinte de fresques romanes restaurées). La tapisserie de Bayeux y était originellement exposée jusqu'au XIXe siècle. Visite gratuite.",
+      },
+      {
+        heading: "3. Les plages du Débarquement — Omaha Beach",
+        body: "Bayeux est à 12 km au nord-ouest des plages du Débarquement (6 juin 1944 — l'événement militaire qui a changé la guerre). Omaha Beach (« Bloody Omaha » — débarquement américain, 9 000 morts ce jour-là — la plus meurtrière), Utah Beach (à 60 km à l'ouest — débarquement américain), Gold Beach (à 12 km — débarquement britannique), Juno Beach (à 30 km — débarquement canadien), Sword Beach (à 35 km — débarquement britannique). Mémoriaux et cimetières.",
+      },
+      {
+        heading: "4. Le cimetière américain de Colleville-sur-Mer",
+        body: "Le Cimetière américain de Colleville-sur-Mer (à 15 km au nord de Bayeux, au-dessus d'Omaha Beach) est l'un des sites les plus émouvants de Normandie — 9 387 soldats américains tombés en juin-août 1944, croix blanches alignées sur 70 ha de prairies vertes face à la mer. Mémorial central, étoiles de David pour les juifs, croix latines pour les chrétiens. Quotidiennement, à 16h, cérémonie de descente des couleurs avec sonneries.",
+      },
+      {
+        heading: "5. La Pointe du Hoc — l'assaut des Rangers",
+        body: "La Pointe du Hoc (à 25 km à l'ouest de Bayeux, falaise de 30 m surplombant la mer entre Omaha et Utah Beach) est l'un des sites les plus saisissants du Débarquement. Lieu de l'assaut héroïque des Rangers américains le 6 juin 1944 (225 hommes ayant escaladé la falaise sous le feu allemand — 90 survivants après 3 jours, victoire pyrrhique mais célébrée). Cratères de bombes encore visibles. Bunkers et tobrouks allemands. Site préservé en mémoire.",
+      },
+      {
+        heading: "6. Le Mémorial de Caen — la 2e Guerre",
+        body: "Le Mémorial de Caen (à 30 km à l'est de Bayeux — l'un des plus complets musées français de la Seconde Guerre mondiale) est essentiel pour comprendre le contexte du Débarquement. Sections : Origines de la guerre (montée du nazisme, échec de la SDN), Bataille de Normandie (60 % du musée — Débarquement, Bataille de Caen), Libération de l'Europe, Guerre froide. 1 journée. Restauration sur place.",
+      },
+      {
+        heading: "7. Le Mont-Saint-Michel — UNESCO à 100 km",
+        body: "Le Mont-Saint-Michel (à 100 km au sud-ouest de Bayeux, classé UNESCO depuis 1979 — l'un des sites les plus visités de France, 3 millions de visiteurs/an) est accessible en 1h30 de route. Abbaye bénédictine du XIe-XVIe siècles, ruelles médiévales de la cité, baie aux plus grandes marées d'Europe (15 m d'amplitude). Pour info : traversée à pied de la baie possible avec un guide agréé (au départ de Genêts, 4h, 30€).",
+      },
+      {
+        heading: "8. La maison du Conquérant — Falaise",
+        body: "Falaise (à 50 km au sud-est de Bayeux) est la ville natale de Guillaume le Conquérant (1027 — l'enfant naturel du duc Robert le Magnifique de Normandie et d'Arlette, fille d'un tanneur de Falaise). Château fort de Falaise (XIIe-XIIIe siècles, restauré — donjon Plantagenêt, l'un des plus grands de Normandie). Musée Automates Avenue (curieux musée d'automates animés du XIXe siècle).",
+      },
+      {
+        heading: "9. La voie verte et le Bessin agricole",
+        body: "Le Bessin (région agricole autour de Bayeux — bocage normand riche en prairies et vaches normandes) est l'un des plus authentiques paysages de Basse-Normandie. Voies vertes (V40 — la Vélomaritime, qui longe la côte normande de Cherbourg à Calais — passe au nord de Bayeux). Pour info, la côte de la Mer Albâtre (entre Honfleur et Cherbourg) compte 130 km de littoral varié.",
+      },
+      {
+        heading: "10. Gastronomie normande — andouille et fromages",
+        body: "La cuisine de Bayeux et du Bessin est riche : tripes à la mode de Caen (à 30 km à l'est — recette codifiée depuis le Moyen Âge), andouille de Vire (à 60 km au sud — boudin sec aux tripes de porc, IGP), poulet vallée d'Auge (à la crème et au calvados), salade normande (jambon, œufs, fromage, pommes). Fromages AOP : Camembert (village à 80 km au sud-est), Pont-l'Évêque, Livarot, Neufchâtel. Sucré : teurgoule (riz au lait cuit 6h, à la cannelle), tarte normande. Cidre normand AOC, Calvados pays d'Auge AOP, Pommeau.",
+      },
+    ],
+    relatedCities: ["bayeux"],
+    relatedGuides: [
+      "vivre-en-normandie-guide-2025",
+    ],
+    tags: ["10 choses à faire à Bayeux", "activités Bayeux 2026", "sorties Bayeux", "que faire à Bayeux", "tapisserie UNESCO cathédrale Débarquement Omaha Pointe du Hoc"],
+  },
+  {
+    slug: "10-choses-a-faire-a-martigues-2026",
+    title: "10 choses à faire à Martigues (la Venise provençale et l'étang de Berre)",
+    metaTitle: "10 choses à faire à Martigues 2026 — activités et sorties locales",
+    metaDesc: "Canaux, miroir aux oiseaux, étang de Berre, calanques voisines et la Côte Bleue : 10 activités à Martigues pour découvrir la cité des trois pêcheurs.",
+    category: "tourisme",
+    emoji: "🛶",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Martigues est une commune des Bouches-du-Rhône, 49 000 habitants à 35 km au nord-ouest de Marseille — surnommée la « Venise provençale » pour ses canaux qui traversent la ville. Située à la jonction entre l'étang de Berre (le plus grand étang d'eau salée d'Europe — 155 km²) et la Méditerranée par le canal de Caronte, Martigues est née de la fusion en 1581 de trois villages distincts (Jonquières, l'Île, Ferrières — d'où la « Cité des trois pêcheurs »). À 5 km des calanques de la Côte Bleue.",
+    sections: [
+      {
+        heading: "1. Le quartier de l'Île — la « Venise provençale »",
+        body: "Le quartier de l'Île (île de Jonquières, au cœur de Martigues, entre canaux) est le centre historique et le quartier le plus pittoresque — surnommé la « Venise provençale ». Façades colorées (jaune, ocre, rose) reflétées dans le canal Saint-Sébastien, ponts médiévaux, place de la République (cœur). Le Miroir aux Oiseaux (cadre encadré de hautes maisons aux façades en bois — peint par Félix Ziem, peintre martégal du XIXe siècle, qui en fit son sujet récurrent).",
+      },
+      {
+        heading: "2. Le Miroir aux Oiseaux — le plus peint de Provence",
+        body: "Le Miroir aux Oiseaux (canal Saint-Sébastien, dans le quartier de l'Île) est le motif le plus peint de Provence — Félix Ziem (1821-1911, peintre martégal — qu'on appelle parfois le « peintre du Bosphore » mais qui n'a jamais quitté la France) en a peint 200 versions. Aujourd'hui les pêcheurs en barque, les bateaux et les façades sont restés intacts. Spot photo emblématique. À voir au coucher du soleil.",
+      },
+      {
+        heading: "3. Le musée Félix Ziem — peintre martégal",
+        body: "Le Musée Félix Ziem de Martigues (fondé en 1908 — l'un des premiers musées français consacrés à un peintre orientaliste) abrite 200 toiles de Félix Ziem (Bosphore, Venise, Martigues) ainsi que de l'école provençale du XIXe siècle. Section archéologie phocéenne (Martigues remonte au -VIIe siècle av. J.-C. — comptoir grec puis romain). Gratuit le premier dimanche. À côté de l'hôtel de ville (XVIIIe siècle classique).",
+      },
+      {
+        heading: "4. L'étang de Berre — le plus grand étang salé d'Europe",
+        body: "L'étang de Berre (155 km² — le plus grand étang d'eau salée d'Europe occidentale) entoure Martigues. Voie verte de l'Étang (45 km de pistes cyclables — autour du lac, plate et ombragée). Plage de Tholon (à Martigues, sable, baignade surveillée). Pour info : la qualité de l'eau a longtemps été dégradée par les rejets industriels (raffineries de Lavera, Fos) mais s'améliore depuis 2000. La pêche à la palourde est revenue.",
+      },
+      {
+        heading: "5. La Côte Bleue — calanques sauvages",
+        body: "La Côte Bleue (15 km de littoral entre Martigues et l'Estaque à l'ouest de Marseille — réserve naturelle marine depuis 1983) est l'une des plus belles côtes rocheuses de Méditerranée — calanques sauvages, ports de pêche traditionnels. Carry-le-Rouet (à 15 km, station balnéaire familiale), Sausset-les-Pins, Niolon, l'Estaque (peint par Cézanne). Pas de plages de sable, mais des criques rocheuses accessibles à pied.",
+      },
+      {
+        heading: "6. Le pont de Caronte et le canal",
+        body: "Le Pont de Caronte (1908, reconstruit après 1944 — pont mobile sur le canal de Caronte qui relie l'étang de Berre à la Méditerranée) est un ouvrage industriel emblématique — l'un des derniers ponts mobiles français encore en activité (s'ouvre 4 fois par jour pour laisser passer les pétroliers). Vue spectaculaire. Sentier le long du canal (3 km, à pied ou à vélo) entre l'étang et la mer.",
+      },
+      {
+        heading: "7. Aix-en-Provence — à 30 km",
+        body: "Aix-en-Provence (à 30 km à l'est de Martigues, ancienne capitale des comtes de Provence) est l'une des plus belles cités du sud de la France. Cours Mirabeau (axe ombragé de platanes — l'une des plus belles avenues du sud), fontaines, hôtels particuliers XVIIe-XVIIIe siècles. Atelier Cézanne (le maître impressionniste a vécu à Aix toute sa vie). Sainte-Victoire (montagne emblématique peinte 87 fois par Cézanne).",
+      },
+      {
+        heading: "8. Marseille et le MUCEM — à 35 km",
+        body: "Marseille (à 35 km à l'est de Martigues — la grande métropole méditerranéenne) est la deuxième ville française. Notre-Dame-de-la-Garde (« la Bonne Mère »), Vieux Port, Le Panier (vieille ville médiévale), MUCEM (Musée des Civilisations de la Méditerranée — architecture moderne signée Rudy Ricciotti, 2013). 1 journée complète. Train direct depuis Martigues (15 min).",
+      },
+      {
+        heading: "9. Les calanques de Marseille — UNESCO",
+        body: "Les Calanques (parc national depuis 2012, 80 000 ha — entre Marseille et Cassis) sont à 50 km à l'est de Martigues. Au départ de Cassis : calanques accessibles à pied (Port-Miou, Port-Pin, En-Vau — la plus belle, 1h30 aller-retour). Bateaux taxi vers les calanques inaccessibles à pied (Sormiou, Sugiton, Morgiou). Eau turquoise, fond rocheux, baignade. Mistral et tramontane peuvent rendre la mer dangereuse.",
+      },
+      {
+        heading: "10. Gastronomie martégale — poutargue et bouillabaisse",
+        body: "La cuisine martégale est marine provençale : poutargue de Martigues (œufs de mulet pressés et séchés — spécialité unique en France, vendue à 100-200€/kg, parfois surnommée le « caviar de Martigues »), bouillabaisse provençale (rascasse, vive, baudroie — recette codifiée par la charte marseillaise), bourride (soupe de baudroie à l'aïoli), tielle (héritage italien, à 50 km à l'ouest à Sète). Spécialités : sardines à l'escabèche, anchois marinés. Vins : Coteaux-d'Aix-en-Provence (à 30 km, AOC rouge et rosé), Cassis (à 70 km, AOC blanc).",
+      },
+    ],
+    relatedCities: ["martigues"],
+    relatedGuides: [
+      "vivre-en-provence-paca-guide-2025",
+    ],
+    tags: ["10 choses à faire à Martigues", "activités Martigues 2026", "sorties Martigues", "que faire à Martigues", "Venise provençale Miroir Ziem étang Berre Côte Bleue poutargue"],
+  },
+  {
+    slug: "10-choses-a-faire-a-calvi-2026",
+    title: "10 choses à faire à Calvi (la citadelle génoise et la Balagne)",
+    metaTitle: "10 choses à faire à Calvi 2026 — activités et sorties locales",
+    metaDesc: "Citadelle génoise, plage de Calvi, Balagne, calanques de Piana et désert des Agriates : 10 activités à Calvi pour découvrir la côte ouest de la Corse.",
+    category: "tourisme",
+    emoji: "🏖️",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Calvi est la troisième cité historique de Corse (avec Ajaccio et Bastia), 5 500 habitants — l'une des plus belles cités fortifiées de Méditerranée. Citadelle génoise du XIIIe siècle perchée sur un éperon rocheux, vieille ville en pierre, port de plaisance, plage de 5 km de sable fin. Légende corse : Christophe Colomb serait né à Calvi (controversé — les Italiens disent Gênes). Au cœur de la Balagne (région agricole du nord-ouest corse — figues, olives, châtaignes, vignobles AOC).",
+    sections: [
+      {
+        heading: "1. La citadelle génoise — la « plus belle de Corse »",
+        body: "La citadelle de Calvi (XIIIe siècle, génoise — agrandie au XVe-XVIe siècles, l'une des plus impressionnantes citadelles fortifiées de Méditerranée) domine la ville. Promenade libre sur les remparts (vue à 360° sur la baie de Calvi, la Méditerranée, les sommets corses), Maison de Colomb (où, selon la tradition locale, Christophe Colomb serait né), Oratoire Saint-Antoine. Caserne militaire (4e régiment étranger de la Légion étrangère y est basé — visite limitée aux jours de portes ouvertes).",
+      },
+      {
+        heading: "2. La plage de Calvi — 5 km de sable fin",
+        body: "La plage de Calvi (5 km de sable fin face à la baie de Calvi) est l'une des plus belles plages de Corse — eau cristalline, vue sur les sommets corses (Monte Cinto 2 706 m, Monte Padro 2 393 m en arrière-plan). Plage publique, surveillée juin-août. Eau à 22-24°C en été. Activités nautiques (paddle, jet-ski, parachute ascensionnel). La pinède à l'arrière offre de l'ombre.",
+      },
+      {
+        heading: "3. La Balagne — la région agricole",
+        body: "La Balagne (région du nord-ouest corse, autour de Calvi et de l'Île-Rousse — surnommée le « jardin de la Corse » ou « la verte » à cause de ses oliveraies, figuiers, châtaigniers) est l'une des plus belles régions corses. Petits villages perchés (Pigna, Sant'Antonino, Aregno, Lumio — chacun classé parmi les plus beaux villages de Corse). Boucle de 60 km en voiture. Marchés artisanaux locaux (huile d'olive, miel, fromages, charcuteries).",
+      },
+      {
+        heading: "4. Pigna — le village d'artisans",
+        body: "Pigna (à 15 km à l'est de Calvi, plus beau village de France) est un village perché de Balagne devenu un centre d'artisanat corse — luthiers (la cetera, instrument traditionnel corse), céramistes, sculpteurs, peintres. Festival Estivoce (mi-juillet, festival de chants polyphoniques corses — l'art emblématique de l'île). Boutiques d'artisans ouvertes en saison. Restaurants traditionnels (fiadone — gâteau au brocciu, fromage corse).",
+      },
+      {
+        heading: "5. L'Île-Rousse — la « Pietra Rossa »",
+        body: "L'Île-Rousse (à 25 km à l'est de Calvi, en Balagne) est l'une des stations balnéaires les plus authentiques de Corse. Fondée par Pasquale Paoli (héros corse de l'indépendance, 1758) — ville en damier, place Paoli, marché couvert, île de la Pietra (à 200 m de la plage, accessible par une jetée — granit rouge d'où le nom). Plage de la Marinella (sable fin urbain). Train touristique vers Calvi (« le Petit Train de Balagne », côtier — l'un des plus beaux trajets en train de France).",
+      },
+      {
+        heading: "6. Les calanques de Piana — UNESCO",
+        body: "Les Calanques de Piana (à 80 km au sud de Calvi, classées UNESCO depuis 1983) sont l'un des plus beaux sites naturels de Corse — formations rocheuses de granit rose surplombant la Méditerranée sur 4 km de côte. La route D81 (la D81 corniche entre Piana et Porto) traverse les calanques — l'une des plus belles routes panoramiques du monde. Sentier balisé du Château fort (1h30, accessible à pied). Coucher de soleil exceptionnel.",
+      },
+      {
+        heading: "7. Le désert des Agriates — au nord-est",
+        body: "Le désert des Agriates (à 60 km au nord-est de Calvi, entre Saint-Florent et l'Île-Rousse — 38 000 ha) est l'unique « désert » côtier d'Europe — paysage de maquis dense sur un relief granitique calciné par le soleil. Plages paradisiaques accessibles uniquement à pied ou en 4×4 par les pistes (Saleccia — 1h30 de piste depuis Saint-Florent, mais c'est une des plus belles plages de Méditerranée). Sentier des Douaniers le long de la côte (30 km, 2-3 jours en bivouac).",
+      },
+      {
+        heading: "8. Le Monte Cinto — plus haut sommet corse",
+        body: "Le Monte Cinto (2 706 m, à 50 km au sud-est de Calvi — point culminant de la Corse) est le plus prestigieux sommet de l'île. Ascension difficile (10h aller-retour depuis le refuge de l'Erco, 1 500 m de dénivelé — réservée aux randonneurs expérimentés). Pour les autres : Monte Cinto vu depuis le col de Vergio (1 477 m, accessible en voiture). Le GR20 (l'un des sentiers les plus difficiles d'Europe, 180 km, 15 jours) passe à proximité.",
+      },
+      {
+        heading: "9. Le vignoble AOC Calvi et Patrimonio",
+        body: "L'AOC Calvi (1 700 ha en Balagne — l'une des 9 AOC de Corse) produit des vins rouges, blancs et rosés. Cépages : Nielluccio (rouge — parent toscan du Sangiovese), Sciaccarellu (rouge — cépage corse unique), Vermentinu (blanc — cépage italien). Caves visitables : Domaine Antoine Arena (à 25 km à l'est, vins biodynamiques), Cellier Orenga de Gaffory (Patrimonio à 60 km à l'est — l'autre AOC corse prestigieuse).",
+      },
+      {
+        heading: "10. Gastronomie corse — figatellu et brocciu",
+        body: "La cuisine corse est l'une des plus identitaires de France : figatellu (saucisse de foie de porc fumée — emblème, hiver), lonzu (filet mignon séché), coppa, prisuttu (jambon corse), brocciu AOP (fromage frais de brebis/chèvre — l'emblème national), agneau corse, sanglier (à la brace). Spécialité Balagne : confitures de figues de Balagne (figues blanches uniques au monde), huile d'olive de Balagne (DOP). Spécialité sucrée : fiadone (gâteau au brocciu — dessert national), canistrelli (sablés au vin blanc). Vins : AOC Calvi (rouge Nielluccio/Sciaccarellu, blanc Vermentinu), Patrimonio.",
+      },
+    ],
+    relatedCities: ["calvi"],
+    relatedGuides: [
+      "vivre-en-corse-guide-2025",
+      "vivre-en-corse-guide-2026",
+    ],
+    tags: ["10 choses à faire à Calvi", "activités Calvi 2026", "sorties Calvi", "que faire à Calvi", "citadelle génoise plage Balagne Île-Rousse Piana Cinto"],
+  },
+  {
+    slug: "10-choses-a-faire-a-porto-vecchio-2026",
+    title: "10 choses à faire à Porto-Vecchio (les plages turquoise et l'Alta Rocca)",
+    metaTitle: "10 choses à faire à Porto-Vecchio 2026 — activités et sorties locales",
+    metaDesc: "Plage de Palombaggia, Santa-Giulia, Bonifacio, Alta Rocca et marais salants : 10 activités à Porto-Vecchio pour découvrir le sud-est de la Corse.",
+    category: "tourisme",
+    emoji: "🏝️",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Porto-Vecchio est la troisième commune de Corse-du-Sud, 12 000 habitants — l'une des stations balnéaires les plus prestigieuses de Corse. Au bord du golfe de Porto-Vecchio (l'un des plus beaux ports naturels de Méditerranée), au sud de la côte est corse, la ville donne accès aux plus belles plages de France (Palombaggia, Santa-Giulia, Rondinara — régulièrement classées dans le top 10 mondial). À 30 km de Bonifacio (la « cité crétée sur falaise »), porte de l'Alta Rocca (l'arrière-pays montagneux corse).",
+    sections: [
+      {
+        heading: "1. La plage de Palombaggia — top 10 mondial",
+        body: "La plage de Palombaggia (à 8 km au sud de Porto-Vecchio) est régulièrement classée parmi les plus belles plages du monde — sable blanc fin, eau turquoise translucide, pins parasols penchés sur la mer, rochers de granit rose. 3 km de plage. Très fréquentée en juillet-août (parking parfois saturé). Restaurants et paillotes en bord de plage. Pour info : y aller en juin ou septembre pour profiter de la beauté sans la foule.",
+      },
+      {
+        heading: "2. Santa-Giulia — la baie en arc",
+        body: "La plage de Santa-Giulia (à 10 km au sud de Porto-Vecchio) forme une baie en arc de cercle parfait, eau translucide turquoise, sable fin blanc. Plus protégée des vents que Palombaggia. Plage publique (gratuite) avec restaurants de plage. Idéale pour les familles (eau peu profonde sur 100 m). Concurrent à Palombaggia pour le titre de plus belle plage de Corse.",
+      },
+      {
+        heading: "3. La Rondinara — la plage en coquillage",
+        body: "La plage de la Rondinara (à 18 km au sud de Porto-Vecchio, accessible par piste depuis Lecci) est une plage en forme de coquillage parfait — sable blanc fin, eau turquoise pâle (très peu profonde). Plus sauvage que Palombaggia et Santa-Giulia, moins de touristes. Pas de restaurant sur place (apporter pique-nique). Site Natura 2000.",
+      },
+      {
+        heading: "4. Bonifacio — la cité crétée sur falaise",
+        body: "Bonifacio (à 30 km au sud de Porto-Vecchio, perchée sur des falaises calcaires de 70 m face à la Sardaigne) est l'une des cités les plus spectaculaires de Méditerranée. Vieille ville fortifiée génoise (XIIe siècle), Escalier du Roi d'Aragon (taillé dans la falaise, légende d'un siège de 1420). Grottes marines (Dragonato, Saint-Antoine). Plages de Sperone (les « Maldives corses », plage des locaux). Accessible en 1h.",
+      },
+      {
+        heading: "5. La vieille ville de Porto-Vecchio",
+        body: "La vieille ville de Porto-Vecchio (« Citadelle », perchée à 70 m au-dessus du port) est un dédale de ruelles génoises XVIe siècle. Remparts intacts, place de la République (cœur), portes anciennes (porte génoise XVIe siècle). Aujourd'hui zone piétonne avec terrasses, restaurants, boutiques. Marché du dimanche matin (le « village de Porto-Vecchio » se résume à cette cité fortifiée).",
+      },
+      {
+        heading: "6. L'Alta Rocca — l'arrière-pays montagneux",
+        body: "L'Alta Rocca (à 30 km au nord-ouest de Porto-Vecchio — région montagneuse de Corse-du-Sud, à 500-1 200 m d'altitude) est l'antithèse de la côte. Villages perchés : Zonza (porte du massif de Bavella), Levie (musée archéologique départemental), Sainte-Lucie-de-Tallano (le plus beau village de l'Alta Rocca selon les Corses). Aiguilles de Bavella (1 855 m, l'un des plus beaux sites de Corse), GR20 (le sentier mythique).",
+      },
+      {
+        heading: "7. Le golfe de Porto-Vecchio en bateau",
+        body: "Le golfe de Porto-Vecchio (l'un des plus beaux ports naturels de Méditerranée) se visite en bateau au départ du port. Croisières des îles Lavezzi (à 1h30 en bateau, archipel granitique entre Bonifacio et la Sardaigne — site Natura 2000, baignade), croisières des falaises de Bonifacio (vues depuis la mer). Possibilité de location de bateau (sans permis pour les petits — 70€ la demi-journée).",
+      },
+      {
+        heading: "8. Les salins de Porto-Vecchio",
+        body: "Les Salins de Porto-Vecchio (anciennes salines remontant à l'Antiquité — exploitées jusque dans les années 1970) sont l'origine du nom de la ville (« Porto-Vecchio » signifie « vieux port » en corse, mais aussi « port du sel »). Aujourd'hui réserve ornithologique (flamants roses migrateurs en hivernage). Sentier balisé en boucle (3 km, gratuit). Observatoire d'oiseaux.",
+      },
+      {
+        heading: "9. La forêt de l'Ospédale et le lac",
+        body: "La Forêt de l'Ospédale (à 20 km à l'ouest de Porto-Vecchio, en altitude — pinède de pins laricio de Corse) est l'une des plus belles forêts de Corse-du-Sud. Lac de l'Ospédale (lac artificiel, baignade en été — eau plus fraîche qu'à la mer). Le « Sentier des Tafoni » (tafoni = grottes naturelles dans le granite — érosion éolienne caractéristique). Vue panoramique sur la côte est corse.",
+      },
+      {
+        heading: "10. Gastronomie corse — figatellu et fromages",
+        body: "La cuisine corse de Porto-Vecchio est marine et continentale : figatellu (saucisse de foie de porc fumée — l'emblème, hiver), lonzu (filet mignon séché), coppa, prisuttu (jambon corse), brocciu AOP (fromage frais de brebis/chèvre — l'emblème), agneau corse, sanglier (à la brace). Fruits de mer : oursins (en hiver), langouste, daurade. Spécialités sucrées : fiadone (gâteau au brocciu — dessert national), canistrelli (sablés au vin blanc), polenta corse au châtaignier. Vins : AOC Porto-Vecchio (rouge Nielluccio/Sciaccarellu, blanc Vermentinu), Cap Corse (apéritif).",
+      },
+    ],
+    relatedCities: ["porto-vecchio"],
+    relatedGuides: [
+      "vivre-en-corse-guide-2025",
+      "vivre-en-corse-guide-2026",
+    ],
+    tags: ["10 choses à faire à Porto-Vecchio", "activités Porto-Vecchio 2026", "sorties Porto-Vecchio", "que faire à Porto-Vecchio", "Palombaggia Santa-Giulia Rondinara Bonifacio Alta Rocca Bavella"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
