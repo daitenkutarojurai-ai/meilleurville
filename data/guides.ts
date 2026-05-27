@@ -27991,6 +27991,538 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["10 choses à faire à Cherbourg", "activités Cherbourg 2026", "sorties Cherbourg", "que faire à Cherbourg", "Cité Mer Redoutable Hague Jobourg parapluies Tatihou Barfleur Cotentin"],
   },
+  {
+    slug: "10-choses-a-faire-a-saint-nazaire-2026",
+    title: "10 choses à faire à Saint-Nazaire (les chantiers navals et la base sous-marine)",
+    metaTitle: "10 choses à faire à Saint-Nazaire 2026 — activités et sorties locales",
+    metaDesc: "Chantiers de l'Atlantique, Escal'Atlantic, base sous-marine, Brière et plage de Monsieur Hulot : 10 activités à Saint-Nazaire pour découvrir le port estuarien.",
+    category: "tourisme",
+    emoji: "⚓",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Saint-Nazaire est le grand port industriel de l'estuaire de la Loire, 70 000 habitants connus pour deux choses : les Chantiers de l'Atlantique (qui construisent les plus grands paquebots du monde — Queen Mary 2, Harmony of the Seas, Wonder of the Seas) et la base sous-marine allemande de 1941 (300 000 m³ de béton, jamais détruite pendant la guerre). Détruite à 85 % en 1944, la ville a été reconstruite par Noël Le Maresquier — d'où l'urbanisme moderniste qui surprend les visiteurs.",
+    sections: [
+      {
+        heading: "1. Les Chantiers de l'Atlantique — le berceau des paquebots",
+        body: "Les Chantiers de l'Atlantique (créés en 1861 par John Scott) sont le dernier grand chantier naval français et l'un des trois plus grands au monde. Le bassin de construction (1 200 m de long, 60 m de profondeur) accueille les paquebots de croisière géants (jusqu'à 7 000 passagers) et les frégates militaires (FREMM, FDI). Visite guidée en bus depuis l'office de tourisme (1h30, accès réglementé, réservation obligatoire). On voit les coques en cours d'assemblage et le portique géant Goliath (50 000 tonnes, 75 m de hauteur).",
+      },
+      {
+        heading: "2. La base sous-marine et Escal'Atlantic",
+        body: "La base sous-marine de Saint-Nazaire (1941-1943, 300 000 m³ de béton armé, l'un des plus grands ouvrages militaires nazis jamais construits) abritait 14 sous-marins du Reich. Indestructible (toiture de 8 m d'épaisseur, jamais percée malgré 2 200 bombes anglaises), elle est aujourd'hui un site culturel reconverti. Escal'Atlantic (musée installé dans une alvéole) reconstitue l'expérience d'une traversée transatlantique sur les paquebots des années 1930. Le sous-marin Espadon (1957) se visite à proximité.",
+      },
+      {
+        heading: "3. La plage de Monsieur Hulot — Jacques Tati à Saint-Marc",
+        body: "La plage de Saint-Marc-sur-Mer (à 5 km de Saint-Nazaire) est la « plage de Monsieur Hulot » de Jacques Tati — décor des Vacances de Monsieur Hulot (1953, Palme d'or à Cannes). L'hôtel de la Plage existe toujours (hôtel-restaurant, mêmes proprios depuis 1953). Sentier des Douaniers (GR34) le long des falaises de schiste vers Pornichet. Statue en bronze de Monsieur Hulot sur la plage. À voir avec le film en tête.",
+      },
+      {
+        heading: "4. Le parc naturel régional de Brière — les chaumières",
+        body: "Le Parc naturel régional de Brière (deuxième plus grand marais de France après la Camargue, 49 000 ha) est à 10 km au nord de Saint-Nazaire. Chaumières en pierre blanche et toits de roseaux (le seul village où elles sont encore en activité : Kerhinet, 18 chaumières classées), promenades en chaland (barque à fond plat) sur les canaux, observation d'oiseaux (cigognes, busards, hérons). À Saint-Lyphard (église à clocher-amer dominant le marais) pour la vue à 360°.",
+      },
+      {
+        heading: "5. Le pont de Saint-Nazaire — l'un des plus longs de France",
+        body: "Le pont de Saint-Nazaire (1975, 3 356 m de long, tablier à 61 m au-dessus de l'estuaire) est l'un des plus longs ponts à haubans de France. Il relie Saint-Nazaire à Saint-Brévin-les-Pins (sud de l'estuaire, côté Vendée). Vue spectaculaire sur la Loire en traversant. L'éolienne offshore expérimentale (1ère éolienne flottante française, 2018) est visible depuis le pont. À traverser à vélo possible (piste cyclable séparée).",
+      },
+      {
+        heading: "6. Le sous-marin Espadon — visite à quai",
+        body: "Le sous-marin Espadon (1957, 78 m de long, premier sous-marin français à plonger sous la banquise arctique en 1964) est en cale sèche à Saint-Nazaire et se visite à l'intérieur. Salle des torpilles, salle des machines, postes des officiers : 30 min de visite immersive (espaces très étroits — pas pour les claustrophobes). Adjacent à Escal'Atlantic (billet combiné possible). Ancien sous-marin de la Marine nationale désarmé.",
+      },
+      {
+        heading: "7. Pornichet et la Baule — la côte d'Amour",
+        body: "Pornichet (port de plaisance à 5 km de Saint-Nazaire) et La Baule (à 10 km, l'une des plus belles plages d'Europe — 9 km de sable fin en arc parfait) forment la « Côte d'Amour ». La Baule, station balnéaire des années 1900, a gardé ses villas Belle Époque et Art Déco. Plage surveillée juillet-août, casino, hippodrome (courses estivales). À 15 min en train depuis Saint-Nazaire, ou à vélo par la voie verte.",
+      },
+      {
+        heading: "8. Le centre-ville reconstruit — l'urbanisme moderne",
+        body: "Saint-Nazaire est l'une des « villes reconstruites » de l'après-guerre (avec Le Havre, Royan, Brest) — détruite à 85 % en 1944, reconstruite par Noël Le Maresquier dans un style moderniste sobre. L'avenue de la République, la place du Commando et l'église Saint-Nazaire (1969, béton armé, vitraux de Jean Le Moal) témoignent de cette architecture des années 1950-60. Surprenant pour qui s'attendait à une ville bretonne classique.",
+      },
+      {
+        heading: "9. La voie verte de l'estuaire — vélo le long de la Loire",
+        body: "La Vélodyssée (EuroVélo 1) traverse Saint-Nazaire en longeant l'estuaire de la Loire. Étape Saint-Nazaire-Nantes (60 km, plate, le long de la Loire — passage par Paimboeuf, Cordemais et la centrale thermique, Couëron). Le sentier des Douaniers (GR34) part dans l'autre sens vers Pornichet, La Baule et Le Croisic (35 km côtiers). Loueurs de vélos à la gare et à l'office de tourisme.",
+      },
+      {
+        heading: "10. Gastronomie de l'estuaire — civelle et muscadet",
+        body: "La cuisine de Saint-Nazaire et de l'estuaire est marine et briéronne : civelles (alevins d'anguille — pêche réglementée, plat de fête à 200€/kg), bar de ligne, mulet, anguilles fumées de Brière, grenouilles de Brière (cuisses sautées). Spécialités sucrées : gâteau nantais (à 60 km), berlingots nantais. Vins : Muscadet (vignoble du Pays nantais, AOC à 30 km à l'est — sur huîtres et fruits de mer), Gros-Plant du Pays nantais (blanc sec local).",
+      },
+    ],
+    relatedCities: ["saint-nazaire"],
+    relatedGuides: [
+      "vivre-en-pays-de-la-loire-guide-2025",
+    ],
+    tags: ["10 choses à faire à Saint-Nazaire", "activités Saint-Nazaire 2026", "sorties Saint-Nazaire", "que faire à Saint-Nazaire", "Chantiers Atlantique base sous-marine Brière Hulot Côte Amour"],
+  },
+  {
+    slug: "10-choses-a-faire-a-cholet-2026",
+    title: "10 choses à faire à Cholet (la capitale du textile et la guerre de Vendée)",
+    metaTitle: "10 choses à faire à Cholet 2026 — activités et sorties locales",
+    metaDesc: "Musée d'art et d'histoire, mouchoir de Cholet, Puy du Fou, lac de Ribou et bocage des Mauges : 10 activités à Cholet pour découvrir le sud du Maine-et-Loire.",
+    category: "tourisme",
+    emoji: "🏭",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Cholet est la deuxième ville du Maine-et-Loire, 55 000 habitants au cœur du bocage des Mauges. La ville a deux identités fortes : l'industrie textile (capitale du mouchoir de Cholet — celui que chantait Théodore Botrel, « adieu mouchoirs de Cholet ») et la mémoire des guerres de Vendée (1793, soulèvement royaliste écrasé dans le sang). Aujourd'hui Cholet est aussi connue pour son club de basket pro (Cholet Basket, Pro A) et sa proximité avec le Puy du Fou.",
+    sections: [
+      {
+        heading: "1. Le musée d'Art et d'Histoire — la guerre de Vendée",
+        body: "Le musée d'Art et d'Histoire de Cholet (avenue de l'Abreuvoir) possède l'une des plus complètes collections françaises consacrées aux guerres de Vendée (1793-1796) : armes, drapeaux royalistes (Sacré-Cœur sur fond blanc), portraits des chefs vendéens (Cathelineau, Stofflet, Charette), tableaux de batailles. Section beaux-arts : peinture française du XIXe siècle. Gratuit le premier dimanche du mois. Le mémorial Henri Forestier, juste à côté, est un cénotaphe aux victimes vendéennes.",
+      },
+      {
+        heading: "2. Le mouchoir de Cholet — l'atelier textile",
+        body: "Le mouchoir de Cholet (mouchoir blanc traditionnel des Vendéens, rouge ou rouge à carreaux blancs depuis le XIXe siècle) est l'emblème textile de la ville. Maison du Textile (rue du Docteur-Roux) : atelier-musée avec démonstration de tissage sur métiers Jacquard, boutique de mouchoirs et linge de maison. La chanson de Théodore Botrel « adieu, mouchoirs de Cholet » (1900) a popularisé le motif. Boutiques spécialisées rue du Commerce.",
+      },
+      {
+        heading: "3. Le Puy du Fou — le grand parc à thème à 30 km",
+        body: "Le Puy du Fou (aux Épesses, à 30 km de Cholet — territoire vendéen) est le deuxième parc à thème de France après Disneyland Paris et le plus primé au monde (élu meilleur parc 2014, 2017, 2018). Trois spectacles incontournables : la Cinéscénie (juin-septembre, 90 min, 1 200 acteurs et 28 000 spectateurs — plus grand spectacle nocturne d'Europe), le Signe du Triomphe (jeux du cirque romain), Les Vikings. Une journée entière minimum. Réservation obligatoire en haute saison.",
+      },
+      {
+        heading: "4. Le lac de Ribou — baignade et base de loisirs",
+        body: "Le lac de Ribou (170 ha au sud de Cholet, créé en 1958 par un barrage destiné à l'alimentation en eau) est la principale base de loisirs de l'Anjou. Baignade surveillée (plage de sable en juillet-août, eau à 22°C), école de voile, location de pédalos, paddle, planche à voile, accrobranche. Sentier de 12 km autour du lac (cyclable). Le lac du Verdon (à 5 km, plus sauvage) le complète pour la pêche.",
+      },
+      {
+        heading: "5. Les vignobles du Layon — Coteaux du Layon AOC",
+        body: "À 30 km au nord de Cholet, le vignoble du Layon (10 km au sud d'Angers) produit l'un des plus grands vins blancs liquoreux de France : Coteaux du Layon (AOC, chenin blanc, vendanges tardives — comparable au Sauternes), Quarts de Chaume (Grand Cru), Bonnezeaux (Grand Cru). Domaines visitables : Domaine des Baumard, Château Pierre-Bise, Domaine de la Petite Roche. Le vignoble du Saumurois (à 60 km) complète pour le rouge et le rosé d'Anjou.",
+      },
+      {
+        heading: "6. Le bocage des Mauges et les villages chouans",
+        body: "Le bocage des Mauges (sud du Maine-et-Loire) est le paysage des guerres de Vendée — haies bocagères, fermes isolées, chemins creux où les chouans tendaient des embuscades. Villages chargés d'histoire : Maulévrier (château et parc oriental, le plus grand parc japonais d'Europe — 28 ha conçu en 1900), Le Pin-en-Mauges (église bombardée par les Bleus en 1793), Saint-Florent-le-Vieil (cité monastique sur la Loire). Le « chemin des chouans » (GR balisé) traverse le bocage.",
+      },
+      {
+        heading: "7. L'église Notre-Dame — l'art religieux contemporain",
+        body: "L'église Notre-Dame de Cholet (XIXe siècle, néo-gothique) abrite un trésor d'art religieux contemporain : vitraux d'Henri Guérin (années 1970, dalles de verre éclatées colorées), chemin de croix monumental. Façade reconstruite après les bombardements de 1944. La cathédrale du diocèse d'Angers vaut un détour de 5 min pour les vitraux.",
+      },
+      {
+        heading: "8. Le parc oriental de Maulévrier — le jardin japonais",
+        body: "Le parc oriental de Maulévrier (à 12 km de Cholet, 28 ha) est le plus grand jardin japonais d'Europe — créé en 1900 par l'architecte Alexandre Marcel, classé jardin remarquable. Lac, ponts en bois rouge, cascades, pagodes, érables japonais flamboyants en automne, cerisiers à fleurs au printemps. Promenade circulaire d'1h30. Le château néo-Renaissance attenant abrite expositions et événements. Saison printemps-automne.",
+      },
+      {
+        heading: "9. Le musée du Textile et de la Mode (M.T.M.)",
+        body: "Le Musée du Textile et de la Mode de Cholet (rue du Docteur-Roux, 2 500 m²) raconte l'histoire de l'industrie textile choletaise du XVIIIe siècle à nos jours : machines à tisser, jacquards en fonctionnement (démonstrations), espaces dédiés au mouchoir de Cholet, à la chemiserie, et au prêt-à-porter contemporain (Cholet a été capitale française de la chemise et de la chaussure jusqu'aux années 1980).",
+      },
+      {
+        heading: "10. Gastronomie angevine — fouée et crémet d'Anjou",
+        body: "La cuisine de Cholet et de l'Anjou est une cuisine paysanne bocagère : fouée (petit pain creux servi tiède avec beurre, rillauds — confit de porc tendre, ou jambon), gogue (boudin angevin à base de bettes), rillauds d'Anjou. Spécialités sucrées : crémet d'Anjou (fromage blanc battu monté en chantilly, servi avec coulis de fruits), gâche vendéenne (brioche vendéenne avec crème fraîche). Vins : Anjou rouge, rosé d'Anjou, Saumur, Coteaux du Layon (liquoreux sur dessert).",
+      },
+    ],
+    relatedCities: ["cholet"],
+    relatedGuides: [
+      "vivre-en-pays-de-la-loire-guide-2025",
+    ],
+    tags: ["10 choses à faire à Cholet", "activités Cholet 2026", "sorties Cholet", "que faire à Cholet", "Puy du Fou Vendée mouchoir Mauges Maulévrier Ribou"],
+  },
+  {
+    slug: "10-choses-a-faire-a-la-roche-sur-yon-2026",
+    title: "10 choses à faire à La Roche-sur-Yon (la ville Napoléon et le bocage vendéen)",
+    metaTitle: "10 choses à faire à La Roche-sur-Yon 2026 — activités et sorties locales",
+    metaDesc: "Place Napoléon, Haras de la Vendée, Puy du Fou et Sables-d'Olonne : 10 activités à La Roche-sur-Yon pour découvrir la préfecture impériale de Vendée.",
+    category: "tourisme",
+    emoji: "🐎",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "La Roche-sur-Yon est la préfecture de la Vendée, 55 000 habitants, et l'une des rares villes \"créées de toutes pièces\" en France — Napoléon Ier l'a fondée par décret en 1804 pour pacifier la Vendée après les guerres royalistes. Le plan urbain en pentagone (axé sur la place Napoléon, immense esplanade de 4 ha) est unique en France. La ville est aussi le quartier général du Haras de la Vendée, l'un des principaux centres équestres de France.",
+    sections: [
+      {
+        heading: "1. La place Napoléon — la plus grande place de France",
+        body: "La place Napoléon (4 ha, l'une des plus grandes places urbaines de France) est le cœur de la ville pentagonale conçue par Napoléon Ier. Statue équestre de Napoléon (1854, fonte de fer, bronzée), arbres centenaires, fontaines lumineuses contemporaines (mises en eau le soir), pingouins-animaux mobiles (œuvre d'art contemporain qui se déplace au crépuscule — Pierre-Jean Touzeau, 2012). Préfecture, hôtel de ville et théâtre néoclassique encadrent la place.",
+      },
+      {
+        heading: "2. Le Haras de la Vendée — chevaux de trait",
+        body: "Le Haras de la Vendée (créé en 1843, l'un des plus grands haras nationaux français, 4 ha en plein centre-ville) abrite 60 étalons reproducteurs : pur-sang anglais, trotteur français, percherons, poneys, ânes. Spectacles équestres en été (juillet-août, dressage et numéros de cirque), visites guidées des écuries. Boutique : équipement et souvenirs. Idéal avec des enfants — les chevaux sont en stalles ouvertes au public.",
+      },
+      {
+        heading: "3. Le Puy du Fou — à 50 km en Vendée bocagère",
+        body: "Le Puy du Fou (aux Épesses, à 50 km de La Roche-sur-Yon) est le deuxième parc à thème français après Disneyland Paris — élu \"meilleur parc d'attractions au monde\" plusieurs années consécutives. Spectacles historiques (Vikings, Gladiateurs, Mousquetaires, Cinéscénie nocturne sur l'histoire de la Vendée — 1 200 acteurs, 28 000 spectateurs). Une journée pleine au minimum, deux pour tout voir.",
+      },
+      {
+        heading: "4. Les Sables-d'Olonne et le Vendée Globe",
+        body: "Les Sables-d'Olonne (à 35 km de La Roche-sur-Yon) sont la grande station balnéaire de Vendée — 3 km de plage de sable fin (Grande Plage, fréquentée par 100 000 baigneurs en juillet-août) face à l'Atlantique. Port d'attache du Vendée Globe (course autour du monde en solitaire, sans escale et sans assistance — départ tous les 4 ans, 80 000 spectateurs au départ). Quartier de l'Île Penotte (mosaïques de coquillages sur les façades de pêcheurs). Marché aux poissons quotidien.",
+      },
+      {
+        heading: "5. La forêt et le lac de Mervent",
+        body: "La forêt et le lac de Mervent (à 35 km à l'est de La Roche, parc naturel régional du Marais Poitevin) sont un site Natura 2000 — 3 000 ha de chênaie et de hêtraie autour de quatre lacs artificiels. Sentier de la Mère-Veille (8 km), grotte du Père-Montfort (où vécut Louis-Marie Grignion de Montfort, prédicateur ermite XVIIIe siècle), baignade au lac. Le Pic Boisé est l'un des plus beaux sites d'escalade de Vendée.",
+      },
+      {
+        heading: "6. Le Marais poitevin — la Venise verte",
+        body: "Le Marais poitevin (à 30 km au sud-est de La Roche, deuxième plus grande zone humide de France après la Camargue) est un labyrinthe de canaux ombragés de frênes et d'aulnes — d'où son surnom de \"Venise verte\". Balade en barque traditionnelle (location à Coulon, Maillezais, Damvix) : 1h-3h, guidée ou en autonomie. Faune : ragondins, hérons, anguilles. Spécialité gastronomique locale : anguilles fumées, escargots du marais.",
+      },
+      {
+        heading: "7. Tiffauges — le château de Gilles de Rais (Barbe Bleue)",
+        body: "Tiffauges (à 45 km de La Roche, château fort du Xe siècle) est le château de Gilles de Rais (1404-1440, compagnon de Jeanne d'Arc devenu Barbe Bleue de la légende — exécuté pour meurtre d'enfants et sorcellerie). Animations \"cité médiévale\" en été : démonstrations d'armes médiévales (catapultes, trébuchets), alchimie, fauconnerie. Donjon carré, salle des gardes, oubliettes. Idéal avec enfants et amateurs d'histoire sombre.",
+      },
+      {
+        heading: "8. Le musée municipal — Paul Baudry",
+        body: "Le musée municipal de La Roche-sur-Yon présente une collection consacrée à Paul Baudry (1828-1886, peintre vendéen célèbre pour le plafond du foyer de l'Opéra de Paris — esquisses préparatoires visibles ici). Section archéologie gallo-romaine (Briord, Talmont-Saint-Hilaire), section histoire de la Vendée napoléonienne. Bâtiment XIXe siècle dans le quartier de la mairie. Gratuit le premier dimanche.",
+      },
+      {
+        heading: "9. La vallée de l'Yon — promenades vertes",
+        body: "L'Yon (rivière qui traverse La Roche, affluent du Lay) coule au sud de la ville dans une vallée verte. Promenade balisée des bords de l'Yon (12 km, plate, cyclable) jusqu'à la base de loisirs de Moulin-Papon. Étangs de la Garreau (pêche, baignade interdite). À 20 min en voiture, le moulin de Rambourg (XVIIe siècle restauré, démonstrations de mouture le dimanche) offre une étape sur la vallée.",
+      },
+      {
+        heading: "10. Gastronomie vendéenne — préfou et brioche",
+        body: "La cuisine vendéenne est une cuisine paysanne et marine : préfou (baguette ouverte garnie de beurre à l'ail et au persil, passée au four — apéro classique), mogettes (haricots blancs cuisinés au gras de jambon, plat dominical), jambon de Vendée (jambon cru sur litière de paille), gâche vendéenne (brioche dense au beurre et à la crème — IGP), brioche vendéenne, fion (flan vendéen). Vins : Fiefs vendéens (AOC, rouge léger).",
+      },
+    ],
+    relatedCities: ["la-roche-sur-yon"],
+    relatedGuides: [
+      "vivre-en-pays-de-la-loire-guide-2025",
+    ],
+    tags: ["10 choses à faire à La Roche-sur-Yon", "activités La Roche-sur-Yon 2026", "sorties La Roche-sur-Yon", "que faire à La Roche-sur-Yon", "Napoléon Haras Puy du Fou Sables Marais poitevin"],
+  },
+  {
+    slug: "10-choses-a-faire-a-chatellerault-2026",
+    title: "10 choses à faire à Châtellerault (la manufacture d'armes et le Futuroscope)",
+    metaTitle: "10 choses à faire à Châtellerault 2026 — activités et sorties locales",
+    metaDesc: "Auto Moto Vélo, pont Henri-IV, Futuroscope, abbaye de Saint-Savin et vallée de la Vienne : 10 activités à Châtellerault pour découvrir le nord du Poitou.",
+    category: "tourisme",
+    emoji: "⚙️",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Châtellerault est la sous-préfecture de la Vienne, 32 000 habitants au bord de la rivière Vienne. La ville a été la capitale française de la coutellerie et de l'armement (Manufacture nationale d'armes de 1819 à 1968 — fusils Chassepot, mitrailleuses Hotchkiss). Aujourd'hui carrefour autoroutier (A10 Paris-Bordeaux) et porte du Poitou nord, Châtellerault est à 15 km du Futuroscope et à 30 km de l'abbaye de Saint-Savin (UNESCO).",
+    sections: [
+      {
+        heading: "1. Auto Moto Vélo — le musée des transports",
+        body: "Auto Moto Vélo (rue Clément-Krebs, ancien site de la Manufacture d'armes) est un musée unique en France consacré à l'histoire des transports terrestres : 250 véhicules (voitures Hotchkiss assemblées à Châtellerault de 1903 à 1958, motos, vélos, omnibus à cheval, calèches royales). Reconstitution d'une rue de la Belle Époque. Le \"musée Hotchkiss\" est particulièrement fourni (marque châtelleraudaise). Visite avec audioguide, gratuite le premier dimanche.",
+      },
+      {
+        heading: "2. Le pont Henri-IV — l'ouvrage Renaissance",
+        body: "Le pont Henri-IV (construit de 1564 à 1611, sous Henri III et Henri IV) est l'un des plus beaux ponts Renaissance de France — 9 arches de pierre, 200 m de long, deux tours fortifiées d'origine (l'une seule subsiste). Il enjambe la Vienne et offre la plus belle vue sur la vieille ville. Eclairé le soir. La place du Marché et l'église Saint-Jacques (XIIe-XVe siècles, romane et gothique) sont à 5 min à pied du pont.",
+      },
+      {
+        heading: "3. Le Futuroscope — le parc à thèmes audiovisuels",
+        body: "Le Futuroscope (à 15 km de Châtellerault, à Chasseneuil-du-Poitou) est le deuxième parc d'attractions de France après Disneyland Paris (1,9 million de visiteurs/an). Spécialité : attractions audiovisuelles immersives (Arthur l'aventure, Sébastien Loeb Racing Xperience, La Machine à Voyager dans le Temps avec les Lapins Crétins). Architecture futuriste de Denis Laming (depuis 1987). Une journée pleine minimum. Réservation conseillée.",
+      },
+      {
+        heading: "4. L'abbaye de Saint-Savin — fresques UNESCO",
+        body: "L'abbaye de Saint-Savin (à 40 km à l'est de Châtellerault, classée patrimoine mondial UNESCO) abrite le plus important ensemble de peintures murales romanes d'Europe (XIe-XIIe siècles) — 412 m² de fresques sur les voûtes de l'église abbatiale (scènes de la Genèse, de l'Exode et de l'Apocalypse). Conservation exceptionnelle grâce au lait de chaux qui les a couvertes pendant 8 siècles. Visite avec audioguide. Surnommée la \"chapelle Sixtine de l'art roman\".",
+      },
+      {
+        heading: "5. La vieille ville et la rue Bourbon",
+        body: "La vieille ville de Châtellerault (rive droite de la Vienne) garde ses ruelles médiévales : rue Bourbon (axe principal commerçant), rue du Pont (descendant vers le pont Henri-IV), place Notre-Dame. Maisons à pans de bois XVIe siècle, hôtels particuliers du XVIIIe siècle (hôtel Sully, hôtel Cognet). L'église Saint-Jacques (sur le chemin de Saint-Jacques de Compostelle, étape officielle des pèlerins).",
+      },
+      {
+        heading: "6. Le parc Naturel régional du Pinail — les fosses à meules",
+        body: "Le Pinail (Réserve naturelle nationale, à 15 km au sud-est de Châtellerault) est un site unique en France : 1 800 ha de landes parsemées de 3 000 fosses circulaires creusées du XVe au XIXe siècle pour extraire les meules à aiguiser (pierre meulière). Aujourd'hui devenues mares qui abritent une biodiversité exceptionnelle (190 espèces d'oiseaux, 70 libellules, fleurs rares). Sentier balisé de 4 km. Gratuit, accès libre.",
+      },
+      {
+        heading: "7. Le château d'Oiron — Renaissance et art contemporain",
+        body: "Le château d'Oiron (à 30 km au nord de Châtellerault, XVIe siècle Renaissance) est l'un des plus beaux châteaux de la Renaissance dans l'Ouest. Galerie peinte de 60 m de long (XVIe siècle, fresques mythologiques). Originalité : le château abrite depuis 1993 la collection « Curios & Mirabilia » — œuvres d'art contemporain en dialogue avec l'architecture (Daniel Spoerri, Christian Boltanski, Tom Shannon). Géré par le Centre des Monuments Nationaux.",
+      },
+      {
+        heading: "8. La Vienne en canoë — descente sportive",
+        body: "La Vienne (qui traverse Châtellerault) se descend en canoë de Lussac-les-Châteaux à Châtellerault (40 km en 2 jours) ou en demi-journée depuis l'Île Cognet (5 km en aval). Eaux calmes en été (rivière de plaine), passage sous le pont Henri-IV, paysages de prairies et de bocage. Locations à la base de loisirs de Châtellerault (juin-septembre). Possibilité de bivouac sur les îles fluviales.",
+      },
+      {
+        heading: "9. Poitiers — la capitale du Poitou à 30 km",
+        body: "Poitiers est à 30 km au sud de Châtellerault (20 min en train ou en voiture). La cathédrale Saint-Pierre (XIIe siècle, gothique angevin — voûtes Plantagenêt), Notre-Dame-la-Grande (XIIe siècle, façade romane sculptée polychrome — l'un des chefs-d'œuvre du roman poitevin), baptistère Saint-Jean (IVe siècle, le plus ancien monument chrétien de France encore debout). À combiner avec une journée Futuroscope.",
+      },
+      {
+        heading: "10. Gastronomie poitevine — chabichou et farci",
+        body: "La cuisine poitevine est une cuisine paysanne du Centre-Ouest : farci poitevin (rouleau de légumes et herbes lié à l'œuf et au lait, cuit dans des feuilles de chou — plat dominical), tourteau fromager (gâteau au fromage de chèvre frais à la croûte noire caractéristique), broyé du Poitou (galette sablée au beurre). Fromages : chabichou du Poitou AOP (chèvre fermier, forme conique), Sainte-Maure-de-Touraine (à 30 km). Vins : Haut-Poitou (rouge léger, AOC).",
+      },
+    ],
+    relatedCities: ["chatellerault"],
+    relatedGuides: [
+      "vivre-en-poitou-guide-2026",
+      "vivre-en-nouvelle-aquitaine-guide-2025",
+    ],
+    tags: ["10 choses à faire à Châtellerault", "activités Châtellerault 2026", "sorties Châtellerault", "que faire à Châtellerault", "Futuroscope Saint-Savin pont Henri-IV Hotchkiss Pinail"],
+  },
+  {
+    slug: "10-choses-a-faire-a-cognac-2026",
+    title: "10 choses à faire à Cognac (les chais et le berceau du spiritueux mondial)",
+    metaTitle: "10 choses à faire à Cognac 2026 — activités et sorties locales",
+    metaDesc: "Chais Hennessy, Martell, Rémy Martin, château de François Ier et Charente fluviale : 10 activités à Cognac pour découvrir la capitale mondiale de l'eau-de-vie.",
+    category: "tourisme",
+    emoji: "🥃",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Cognac est une petite ville (19 000 habitants) qui pèse plus de 4 milliards d'euros d'exportations par an — l'eau-de-vie de Cognac (AOC depuis 1936) est le spiritueux français le plus vendu au monde (97 % à l'exportation, surtout USA, Chine, Singapour). Sur les bords de la Charente, la ville est saisie par les chais et le \"part des anges\" (3 % d'évaporation annuelle des fûts — d'où le toit noir des chais, mangé par un champignon microscopique).",
+    sections: [
+      {
+        heading: "1. Hennessy — la maison la plus grande au monde",
+        body: "Hennessy (fondée en 1765 par Richard Hennessy, capitaine irlandais — premier producteur mondial de cognac, 50 % des ventes) propose la visite la plus complète des grandes maisons : tour en bateau sur la Charente (10 min pour traverser à l'usine), passage dans les chais centenaires (fûts en chêne du Limousin), explication de la double distillation charentaise, dégustation guidée de 3 cognacs (VS, VSOP, XO). 1h30, 30€/personne. Réservation obligatoire.",
+      },
+      {
+        heading: "2. Martell — la plus ancienne maison de cognac",
+        body: "Martell (fondée en 1715 par Jean Martell, originaire de Jersey — la plus ancienne des grandes maisons de cognac encore en activité) propose la visite « Indigo » : déambulation immersive dans le hall design, projection 360° sur l'histoire, dégustation de 2 cognacs dans le bar Martell. Architecture du nouveau hall signée Stéphanie Marin (2017). 1h, 25€. Plus moderne et design que Hennessy.",
+      },
+      {
+        heading: "3. Rémy Martin — le centaure et le Fine Champagne",
+        body: "Rémy Martin (fondée en 1724 par Rémy Martin, vigneron charentais — seule grande maison de cognac à n'utiliser que des raisins de Petite et Grande Champagne, les meilleurs crus) propose la visite « Au cœur du Domaine » : tour en voiturette électrique dans le vignoble et les chais, masterclass de dégustation, atelier d'assemblage. 1h30, 35€. Le centaure (symbole de la maison) est tatoué sur tous les bâtiments.",
+      },
+      {
+        heading: "4. Le château de Cognac — François Ier",
+        body: "Le château de Cognac (XIIe-XVe siècles, sur les bords de la Charente) est le lieu de naissance de François Ier (12 septembre 1494). Aujourd'hui propriété de la maison Otard (acheté en 1795), il abrite les chais Baron Otard. Visite des appartements royaux et des chais souterrains (caves troglodytes naturellement à 15°C — idéales pour le vieillissement). Combinaison rare : un château royal qui est aussi un chai en activité.",
+      },
+      {
+        heading: "5. Le musée des Arts du Cognac",
+        body: "Le musée des Arts du Cognac (place de la Salle Verte, ouvert en 2004) présente l'histoire des arts liés au spiritueux : verrerie cristal (Baccarat, Saint-Louis pour les carafes), tonnellerie (tonneliers de Saintes — l'un des derniers savoir-faire artisanaux français), étiquettes Art Nouveau et Art Déco, alambics anciens. Boutique avec sélection de cognacs des petits producteurs. Complément utile aux visites des maisons.",
+      },
+      {
+        heading: "6. La descente de la Charente en gabare",
+        body: "La Charente, fleuve qui traverse Cognac, était l'autoroute commerciale du cognac jusqu'au XIXe siècle (transport vers le port de La Rochelle). Promenades en gabare (bateau traditionnel à fond plat — réplique moderne) au départ du quai Saint-Jacques : 1h pour passer sous les ponts médiévaux, voir les chais en bord de fleuve, et le « Mur d'Anges » (façades de chais avec le champignon noir caractéristique). Avril-octobre.",
+      },
+      {
+        heading: "7. Saintes — la cité gallo-romaine à 30 km",
+        body: "Saintes (à 30 km à l'ouest de Cognac) est la plus ancienne cité gallo-romaine de Charente-Maritime — capitale provinciale d'Aquitaine sous Auguste. Trois sites majeurs : l'amphithéâtre romain (du Ier siècle, 15 000 spectateurs, l'un des plus anciens d'Occident), l'Arc de Germanicus (Ier siècle, sur les bords de la Charente), l'abbaye aux Dames (XIIe siècle, romane saintongeaise). À combiner avec une demi-journée à Cognac.",
+      },
+      {
+        heading: "8. Le Pineau des Charentes — l'autre AOC locale",
+        body: "Le Pineau des Charentes (AOC 1945, mistelle obtenue en arrêtant la fermentation du jus de raisin avec du cognac) est l'apéritif local — blanc (chenin, ugni blanc, sémillon) ou rosé (cabernet, merlot, cot). Maisons à visiter (souvent les mêmes que pour le cognac, mais aussi petits producteurs indépendants) : Domaine des Forges, Maison Boinaud. Servir frappé à 8°C en apéritif, ou sur foie gras et melon.",
+      },
+      {
+        heading: "9. Les vignobles de Petite Champagne et Grande Champagne",
+        body: "L'AOC Cognac se divise en 6 crus (Grande Champagne, Petite Champagne, Borderies, Fins Bois, Bons Bois, Bois Ordinaires) — les deux meilleurs (Grande et Petite Champagne) sont à 5-20 km au sud de Cognac (Segonzac, Salles-d'Angles, Lignières). Sentier balisé du « Pays du Cognac » (40 km, cyclable) à travers les vignes basses. Marc de Cognac (Eau-de-vie de marc) est la spécialité des petits viticulteurs.",
+      },
+      {
+        heading: "10. Gastronomie charentaise — galette et cagouilles",
+        body: "La cuisine charentaise mêle traditions maritimes et terrestres : cagouilles (escargots petit gris cuisinés à la charentaise, à l'ail et au vin blanc), galette charentaise (sablé épais à 50 % de beurre, IGP), pâté de Pâques (terrine briochée garnie d'œufs durs). Spécialités : foie gras de Charente, melon charentais (Lectoure), beurre Charentes-Poitou AOP (le seul beurre AOP de France). Vins : Pineau des Charentes en apéritif, Cognac VSOP en digestif.",
+      },
+    ],
+    relatedCities: ["cognac"],
+    relatedGuides: [
+      "vivre-en-nouvelle-aquitaine-guide-2025",
+    ],
+    tags: ["10 choses à faire à Cognac", "activités Cognac 2026", "sorties Cognac", "que faire à Cognac", "Hennessy Martell Rémy Martin François Ier Pineau Charentes"],
+  },
+  {
+    slug: "10-choses-a-faire-a-perigueux-2026",
+    title: "10 choses à faire à Périgueux (la cité gallo-romaine et la cathédrale byzantine)",
+    metaTitle: "10 choses à faire à Périgueux 2026 — activités et sorties locales",
+    metaDesc: "Cathédrale Saint-Front, Vesunna, marché aux truffes, Lascaux et vallée de la Vézère : 10 activités à Périgueux pour découvrir la capitale du Périgord.",
+    category: "tourisme",
+    emoji: "🍄",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Périgueux est la préfecture de la Dordogne, 30 000 habitants au cœur du Périgord blanc. La ville est née comme cité gallo-romaine (Vesunna, capitale des Pétrocores) — vestiges visibles dans le musée Vesunna conçu par Jean Nouvel. Mais c'est sa cathédrale Saint-Front (XIIe siècle, à coupoles byzantines — modèle du Sacré-Cœur de Paris) qui en fait l'une des plus belles silhouettes urbaines de France. Capitale gastronomique du foie gras, des truffes et de la noix.",
+    sections: [
+      {
+        heading: "1. La cathédrale Saint-Front — les coupoles byzantines",
+        body: "La cathédrale Saint-Front (XIIe siècle) est l'une des plus originales de France : plan en croix grecque (rare en France — inspiré de Saint-Marc de Venise), cinq coupoles byzantines, façade reconstruite par Paul Abadie au XIXe siècle (l'architecte qui a ensuite repris ce modèle pour le Sacré-Cœur de Paris). Classée patrimoine mondial UNESCO (chemins de Saint-Jacques). Le cloître roman (XIIe siècle) est l'un des plus beaux du Périgord.",
+      },
+      {
+        heading: "2. Vesunna — le musée gallo-romain de Jean Nouvel",
+        body: "Vesunna (musée gallo-romain, 2003, architecture Jean Nouvel — verre et acier au-dessus des fouilles antiques) est l'un des plus beaux musées archéologiques de France. La maison gallo-romaine du Ier siècle (domus de 4 000 m² avec hypocauste, thermes privés, fresques) est conservée in situ sous une verrière. Tour de Vésone (Ier siècle, sanctuaire de la déesse celte Vésonna — 27 m de haut, partie cylindrique encore debout) à 200 m du musée.",
+      },
+      {
+        heading: "3. Le marché aux truffes — la diamant noir",
+        body: "Le marché aux truffes de Périgueux (mercredi et samedi matin, place Saint-Louis, de novembre à mars) est le plus important marché de truffe noire du Périgord (Tuber melanosporum, « diamant noir »). Prix au kilo : 800-1 500€ selon le millésime. Marché contrôlé par les courtiers assermentés. Spécialités truffées dans les restaurants du centre (Hercule Poireau, La Taula). À 20 min du marché de Sarlat (samedi matin, plus touristique).",
+      },
+      {
+        heading: "4. La grotte de Lascaux IV — la chapelle Sixtine préhistorique",
+        body: "Lascaux IV (à 45 km de Périgueux, à Montignac, ouverte en 2016) est la réplique intégrale de la grotte ornée la plus célèbre du monde (peintures pariétales magdaléniennes, -17 000 av. J.-C. — l'original fermé en 1963 pour préservation). Reproduction au millimètre près de toutes les salles. Visite avec audioguide, 2h, 22€. Centre d'art pariétal Lascaux IV (extension du centre de recherche) signé Snøhetta.",
+      },
+      {
+        heading: "5. La vallée de la Vézère — les sites préhistoriques UNESCO",
+        body: "La vallée de la Vézère (entre Montignac et Les Eyzies, à 50 km de Périgueux) concentre 15 sites classés UNESCO « berceau de l'Humanité » : grotte de Font-de-Gaume (peintures originales — la dernière grotte ornée encore ouverte au public), grotte des Combarelles (gravures), abri du Poisson, La Madeleine (site éponyme du Magdalénien — village troglodyte médiéval). Musée national de Préhistoire aux Eyzies (le plus grand au monde sur la préhistoire). Une journée pleine.",
+      },
+      {
+        heading: "6. La vieille ville médiévale et la place Saint-Louis",
+        body: "La vieille ville de Périgueux (autour de Saint-Front) est l'un des plus beaux ensembles médiévaux d'Aquitaine — 30 ha classés secteur sauvegardé. Hôtels particuliers Renaissance (rue Limogeanne, hôtel Lestrade, hôtel d'Abzac de Ladouze), maisons à pans de bois XVe siècle, place Saint-Louis (marché aux truffes en hiver). Sentier patrimonial balisé (45 min à pied).",
+      },
+      {
+        heading: "7. Sarlat-la-Canéda — la cité médiévale dorée",
+        body: "Sarlat (à 60 km au sud-est de Périgueux) est la cité médiévale et Renaissance la mieux préservée de France — 65 monuments classés sur 11 ha (le plus haut ratio du pays). Pierre calcaire jaune doré, ruelles pavées, place de la Liberté. Marché du samedi matin (l'un des plus beaux de France — gras, truffes, foie gras, noix). La Lanterne des Morts (XIIe siècle, monument funéraire roman unique en France) et l'hôtel de Maleville.",
+      },
+      {
+        heading: "8. Le château de Hautefort — Versailles du Périgord",
+        body: "Le château de Hautefort (à 40 km à l'est de Périgueux, XVIIe siècle classique) est l'un des plus beaux châteaux d'Aquitaine — surnommé « Versailles du Périgord ». Façade symétrique de 200 m, jardins à la française dessinés au XIXe siècle par les architectes de Vaux-le-Vicomte. Lieu de tournage de plusieurs films (Tendre Poulet, Le Capitan). À combiner avec la Brantôme « Venise du Périgord ».",
+      },
+      {
+        heading: "9. Brantôme — la « Venise du Périgord »",
+        body: "Brantôme (à 27 km au nord de Périgueux) est surnommée la « Venise du Périgord » car la Dronne (rivière qui la traverse) l'encercle complètement — la ville est sur une île. L'abbaye bénédictine (Xe siècle, fondée par Charlemagne, troglodyte) est l'une des plus anciennes du Sud-Ouest. Clocher-amer du XIe siècle (le plus ancien clocher roman de France). Promenade en barque sur la Dronne, sentier le long de la rivière.",
+      },
+      {
+        heading: "10. Gastronomie périgourdine — foie gras et noix",
+        body: "Le Périgord est une terre gastronomique majeure : foie gras d'oie ou de canard (mi-cuit, poêlé, en terrine — Lalbenque et Sorges sont les capitales), truffe noire (en omelette, en sauce Périgueux), confit d'oie, magret de canard, cèpes à la périgourdine (sautés à l'ail et au persil), tourtière au confit. Spécialités sucrées : noix du Périgord AOP (gâteau aux noix, huile de noix), gâteau périgourdin. Vins : Bergerac (à 50 km), Pécharmant (rouge), Monbazillac (liquoreux).",
+      },
+    ],
+    relatedCities: ["perigueux"],
+    relatedGuides: [
+      "vivre-en-nouvelle-aquitaine-guide-2025",
+    ],
+    tags: ["10 choses à faire à Périgueux", "activités Périgueux 2026", "sorties Périgueux", "que faire à Périgueux", "Saint-Front Vesunna Lascaux Sarlat truffe Périgord"],
+  },
+  {
+    slug: "10-choses-a-faire-a-agen-2026",
+    title: "10 choses à faire à Agen (la cité du pruneau et la vallée de la Garonne)",
+    metaTitle: "10 choses à faire à Agen 2026 — activités et sorties locales",
+    metaDesc: "Pruneau d'Agen, musée des Beaux-Arts, pont-canal, Nérac et Lot-et-Garonne : 10 activités à Agen pour découvrir la sous-préfecture viticole.",
+    category: "tourisme",
+    emoji: "🍇",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Agen est la préfecture du Lot-et-Garonne, 33 000 habitants au bord de la Garonne, entre Bordeaux et Toulouse. La ville est mondialement connue pour le pruneau d'Agen IGP (la prune d'ente, séchée — symbole français à l'export). Mais Agen est aussi une vieille cité gallo-romaine (Aginnum), un centre rugby (SUA, club historique) et la porte d'entrée de la Gascogne, du Lot-et-Garonne agricole et du Périgord pourpre.",
+    sections: [
+      {
+        heading: "1. Le musée des Beaux-Arts — la Vénus du Mas",
+        body: "Le musée des Beaux-Arts d'Agen (hôtel particulier XVIe siècle, place du Docteur-Esquirol) possède l'une des plus belles collections de peinture du Sud-Ouest. Pièce maîtresse : la Vénus du Mas (statue grecque hellénistique, IVe-Ier siècle av. J.-C., trouvée à Mas-d'Agenais en 1876 — l'une des trois Vénus grecques en marbre conservées en France). Goya (5 toiles dont \"L'Aérostat\" et un \"Autoportrait\"), Tintoret, Caravage, Corot. Gratuit le premier dimanche.",
+      },
+      {
+        heading: "2. Le pont-canal d'Agen — le plus long de France",
+        body: "Le pont-canal d'Agen (1849, 539 m de long, 23 arches) est le plus long pont-canal de France et l'un des plus longs d'Europe. Il porte le canal latéral à la Garonne (entre Toulouse et Bordeaux, prolongement du canal du Midi) au-dessus de la Garonne. Promenade piétonne et cycliste classée. Vue spectaculaire sur la Garonne. Le canal lui-même est navigable en péniche (location à la base de Buzet).",
+      },
+      {
+        heading: "3. Nérac — le château d'Henri IV et la promenade des Bains",
+        body: "Nérac (à 30 km à l'ouest d'Agen) est la cité des rois de Navarre — Henri IV y a passé sa jeunesse à la cour calviniste de Jeanne d'Albret (sa mère). Le château de Nérac (XVe-XVIe siècles, Renaissance) abrite un musée consacré à la cour de Navarre. Promenade des Bains de Nérac (parc romantique sur la Baïse, créé au XIXe siècle), pont Vieux médiéval. Spécialité locale : foie gras de la Maison Sembolini.",
+      },
+      {
+        heading: "4. Le pruneau d'Agen — visite des séchoirs",
+        body: "Le pruneau d'Agen IGP (prune d'ente, séchée à 18 % d'humidité — production majoritaire à Agen et alentours, 100 000 tonnes/an) est l'emblème agricole de la ville. Maison du Pruneau (à Granges-sur-Lot, 25 km — domaine du Gascon, visite gratuite, dégustation), centres de séchage (août-octobre). Spécialités : pruneau au cognac, glace au pruneau, pruneau d'Agen fourré à la crème de pruneau. Boutiques au centre d'Agen (P. Dauguet, Boyer).",
+      },
+      {
+        heading: "5. La vieille ville — cathédrale et hôtels Renaissance",
+        body: "La vieille ville d'Agen (autour du musée des Beaux-Arts) garde ses hôtels particuliers Renaissance et son passé épiscopal. Cathédrale Saint-Caprais (XIIe-XVe siècles, romane et gothique, classée UNESCO comme étape sur le chemin de Saint-Jacques de Compostelle), église des Jacobins (XIVe siècle, gothique méridional — musée des Confluences). Place des Laitiers et place du Docteur-Esquirol (terrasses).",
+      },
+      {
+        heading: "6. La Bastide royale de Villeneuve-sur-Lot",
+        body: "Villeneuve-sur-Lot (à 30 km au nord d'Agen) est l'une des plus belles bastides royales du Sud-Ouest — fondée en 1264 par Alphonse de Poitiers, frère de Saint Louis. Plan en damier régulier, place centrale arcaturée (place Lafayette), portes fortifiées (porte de Pujols, porte de Paris). Pujols (à 5 km, classé parmi les plus beaux villages de France) est un village médiéval perché qui domine la vallée du Lot.",
+      },
+      {
+        heading: "7. Le Lot-et-Garonne agricole — fraises et tomates",
+        body: "Le Lot-et-Garonne (autour d'Agen) est le premier département producteur français de pruneaux d'Agen, de fraises (Mara des Bois, Garriguette de Marmande), de tomates (Marmande — capitale française de la tomate, fête de la Tomate fin juin), de noisettes. Marchés primeurs à Marmande (mardi, vendredi matin), Tonneins (jeudi matin). Idéal pour ramener un panier de la région.",
+      },
+      {
+        heading: "8. Le canal latéral à la Garonne en vélo",
+        body: "Le canal latéral à la Garonne (1856, 193 km de Toulouse à Castets-en-Dorthe, traverse Agen) est aménagé en voie verte cyclable sur toute sa longueur — l'une des plus belles voies vertes d'Europe (platanes centenaires, écluses, péniches). Étape Agen-Buzet-Sérignac (30 km, plate, ombragée). Loueurs de vélos à la base nautique d'Agen et de Buzet. Buzet (vignoble AOC) est l'étape gastronomique classique.",
+      },
+      {
+        heading: "9. Le rugby — Stade Armandie et SUA",
+        body: "Le Sporting Union Agen Lot-et-Garonne (SUA, créé en 1908) est l'un des clubs historiques du rugby français — 8 titres de champion de France (dernier en 1988). Stade Armandie (15 000 places). Matchs de ProD2 (deuxième division française) septembre-mai. Ambiance familiale et passionnée. Pour les fans de rugby, c'est l'occasion de voir un club d'arrière-pays au cœur du Sud-Ouest rugbystique.",
+      },
+      {
+        heading: "10. Gastronomie gasconne — pruneau, confit et armagnac",
+        body: "La cuisine d'Agen mélange Gascogne et Périgord : pruneau d'Agen IGP (en accompagnement de magret de canard, au cognac, fourré), foie gras de canard du Sud-Ouest, magret de canard grillé (à la plancha ou au four), confit de canard (cuisses confites dans leur graisse), tourtière landaise (feuilleté aux pommes et armagnac). Vins : Buzet (AOC, rouge), Côtes-de-Brulhois (rouge), Brulhois (rosé). Armagnac (à 60 km à l'ouest) en digestif.",
+      },
+    ],
+    relatedCities: ["agen"],
+    relatedGuides: [
+      "vivre-en-nouvelle-aquitaine-guide-2025",
+    ],
+    tags: ["10 choses à faire à Agen", "activités Agen 2026", "sorties Agen", "que faire à Agen", "pruneau Vénus Mas pont-canal Nérac Buzet Marmande rugby"],
+  },
+  {
+    slug: "10-choses-a-faire-a-carcassonne-2026",
+    title: "10 choses à faire à Carcassonne (la cité médiévale UNESCO et le pays cathare)",
+    metaTitle: "10 choses à faire à Carcassonne 2026 — activités et sorties locales",
+    metaDesc: "Cité médiévale UNESCO, château comtal, canal du Midi, châteaux cathares et vignobles Corbières : 10 activités à Carcassonne pour découvrir le berceau cathare.",
+    category: "tourisme",
+    emoji: "🏰",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Carcassonne est la plus grande forteresse médiévale d'Europe encore en élévation — 3 km de remparts à double enceinte, 52 tours, classée patrimoine mondial UNESCO depuis 1997. 46 000 habitants entre la Cité haute (forteresse médiévale, 3 millions de visiteurs/an) et la Ville basse (bastide royale du XIIIe siècle, vie quotidienne). Au cœur du pays cathare, Carcassonne est la porte d'entrée des Corbières, du Minervois et des châteaux cathares.",
+    sections: [
+      {
+        heading: "1. La Cité médiévale — la plus grande d'Europe",
+        body: "La Cité de Carcassonne (3 km de remparts à double enceinte, 52 tours, classée UNESCO 1997) est la plus grande forteresse médiévale d'Europe encore intacte. Construite du Ve siècle (wisigothique) au XIIIe siècle (gothique, après le rattachement à la couronne de France), restaurée par Viollet-le-Duc au XIXe siècle. Entrée libre dans la Cité, 2 millions de visiteurs/an. Idéal tôt le matin ou en fin d'après-midi pour éviter la foule.",
+      },
+      {
+        heading: "2. Le château comtal — au cœur de la Cité",
+        body: "Le château comtal (XIIe siècle, à l'intérieur de la Cité, château dans le château) est la résidence des Trencavel — vicomtes de Carcassonne avant la croisade albigeoise de 1209. Visite avec accès aux remparts (chemin de ronde le long des deux enceintes — vue à 360° sur les Pyrénées et la Montagne Noire). Geré par le Centre des Monuments Nationaux. Réservation conseillée en haute saison (juillet-août).",
+      },
+      {
+        heading: "3. Le canal du Midi — Pierre-Paul Riquet",
+        body: "Le canal du Midi (1681, conçu par Pierre-Paul Riquet — chef-d'œuvre du Grand Siècle, classé UNESCO 1996) traverse Carcassonne d'est en ouest. Promenade en bateau sur le canal (au départ de la gare de Carcassonne, 1h30), à pied le long des berges (chemin de halage piéton et cyclable de Toulouse à Sète, 240 km). Platanes centenaires (en cours de remplacement à cause du chancre coloré), écluses (4 écluses dans Carcassonne).",
+      },
+      {
+        heading: "4. La bastide Saint-Louis — la Ville basse",
+        body: "La bastide Saint-Louis (fondée en 1247 par Saint Louis pour les habitants déplacés de la Cité après leur soutien aux Trencavel) est le centre actuel de Carcassonne. Plan en damier régulier, place Carnot (marché aux fleurs, terrasses), cathédrale Saint-Michel, église Saint-Vincent (3e plus large église gothique de France). Hôtels particuliers XVIe-XVIIIe siècles dans les rues du commerce.",
+      },
+      {
+        heading: "5. Les châteaux cathares — Lastours et Quéribus",
+        body: "Les châteaux cathares (forteresses de défense des Cathares contre la croisade albigeoise, 1209-1244) sont accessibles depuis Carcassonne. Lastours (à 16 km, 4 châteaux jumeaux sur des éperons rocheux, visite en boucle), Peyrepertuse (à 75 km, le plus impressionnant — \"forteresse vertigineuse\" à 800 m), Quéribus (à 80 km, le dernier château cathare à tomber en 1255), Puilaurens, Aguilar. La Route des Châteaux Cathares (250 km) prend 3-4 jours.",
+      },
+      {
+        heading: "6. Le vignoble des Corbières et du Minervois",
+        body: "Les AOC Corbières (13 000 ha au sud-est de Carcassonne) et Minervois (4 500 ha au nord) sont les deux grands vignobles du pays carcassonnais — syrah, grenache, mourvèdre, carignan. Domaines de référence : domaine de Fontsainte (Corbières), domaine de Lastours (cousin du château), Château de Cabezac (Minervois). Le Cabardès (AOC à 10 km au nord — seul vignoble qui mélange cépages atlantiques et méditerranéens).",
+      },
+      {
+        heading: "7. La basilique Saint-Nazaire — le \"vitrail de Carcassonne\"",
+        body: "La basilique Saint-Nazaire (XIe-XIVe siècles, à l'intérieur de la Cité médiévale) abrite ce que Viollet-le-Duc appelait \"les plus beaux vitraux du midi de la France\" — vitraux du XIIIe-XIVe siècles dans le chœur gothique (cycle de la vie du Christ). Nef romane (Xe siècle, transition wisigothique-roman) et chœur gothique flamboyant. Trésor de la basilique (orfèvrerie, statues médiévales). Accès gratuit.",
+      },
+      {
+        heading: "8. Les remparts à vélo — tour de la Cité",
+        body: "Le sentier autour de la Cité (en contrebas des remparts, le long des lices — espace entre les deux enceintes) fait 3 km en boucle. Possible à pied ou à vélo (location à l'office de tourisme). Vue spectaculaire sur les ouvrages défensifs (échauguettes, herses, mâchicoulis) et perspective sur la cité de loin. Sortir par la porte d'Aude (du côté du Pont-Vieux) pour le meilleur point de vue.",
+      },
+      {
+        heading: "9. Mirepoix — la bastide médiévale à 50 km",
+        body: "Mirepoix (à 50 km au sud-ouest de Carcassonne, en Ariège) est l'une des plus belles bastides médiévales du Sud-Ouest — fondée en 1289. Place centrale entourée d'arcades en bois sculpté (maisons à colombages du XIVe siècle), cathédrale Saint-Maurice (deuxième plus large nef gothique de France après Gérone). Marché du lundi matin (l'un des plus beaux du Sud-Ouest — produits cathares et ariégeois).",
+      },
+      {
+        heading: "10. Gastronomie audoise — cassoulet et magret",
+        body: "Carcassonne est l'une des trois capitales du cassoulet (avec Castelnaudary et Toulouse — chaque ville revendique \"son\" cassoulet — Carcassonne ajoute la perdrix rouge). Variantes : haricots tarbais, confit d'oie ou de canard, saucisse de Toulouse, lard. Spécialités : magret de canard du Sud-Ouest, tourtière, fougasse aux gratons. Vins : Corbières (rouge sur cassoulet), Minervois (rouge), Limoux (Crémant — méthode champenoise inventée en 1531, antérieure au champagne).",
+      },
+    ],
+    relatedCities: ["carcassonne"],
+    relatedGuides: [
+      "vivre-en-occitanie-guide-2025",
+    ],
+    tags: ["10 choses à faire à Carcassonne", "activités Carcassonne 2026", "sorties Carcassonne", "que faire à Carcassonne", "Cité médiévale UNESCO cathare canal Midi Corbières cassoulet"],
+  },
+  {
+    slug: "10-choses-a-faire-a-clermont-l-herault-2026",
+    title: "10 choses à faire à Clermont-l'Hérault (le lac du Salagou et les ruffes rouges)",
+    metaTitle: "10 choses à faire à Clermont-l'Hérault 2026 — activités et sorties locales",
+    metaDesc: "Lac du Salagou, cirque de Mourèze, Saint-Guilhem-le-Désert et Terrasses du Larzac : 10 activités à Clermont-l'Hérault aux portes du Languedoc volcanique.",
+    category: "tourisme",
+    emoji: "🌋",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Clermont-l'Hérault est une sous-préfecture de l'Hérault, 8 000 habitants au cœur d'un paysage géologique unique en France : les ruffes (terres rouges permiennes vieilles de 250 millions d'années) du Salagou, les dolomies calcaires de Mourèze, les coulées basaltiques du Mont Saint-Baudille. La ville est la porte d'entrée du Cœur d'Hérault, terroir viticole de premier ordre (Terrasses du Larzac, AOC).",
+    sections: [
+      {
+        heading: "1. Le lac du Salagou — la mer rouge intérieure",
+        body: "Le lac du Salagou (750 ha, créé en 1969 par un barrage destiné à l'irrigation) est un lac artificiel posé sur les ruffes rouges du Permien (250 millions d'années — formation antérieure aux dinosaures). Le contraste entre l'eau turquoise et la terre rouge brique est unique en Europe. Six plages de baignade libre (Les Vailhès, Le Sauvage, Vailhès basse), école de voile et de planche, possibilité de pédalo et paddle. La route du tour du lac (28 km) est l'une des plus belles de l'Hérault à vélo.",
+      },
+      {
+        heading: "2. Le cirque de Mourèze — la dolomie sculptée",
+        body: "Le cirque de Mourèze (à 6 km de Clermont) est un chaos rocheux de 340 ha où l'érosion karstique a sculpté des centaines de pinacles de dolomie calcaire — paysage proche des dolomites italiennes en miniature. Trois sentiers balisés (1h, 2h, 4h) traversent le labyrinthe. Le village médiéval de Mourèze (200 habitants, château ruiné du XIIIe siècle) est blotti dans le cirque. Site classé Natura 2000.",
+      },
+      {
+        heading: "3. Le Mont Saint-Baudille — le belvédère du Languedoc",
+        body: "Le Mont Saint-Baudille (848 m, à 20 km de Clermont) est le sommet de la montagne de la Séranne et offre la vue la plus large sur le Languedoc : Méditerranée (Cap d'Agde, étang de Thau), Pyrénées (Canigou par temps clair), Cévennes (Mont Aigoual), Larzac. Coulées basaltiques du Causse de l'Escandorgue (volcanisme tardif du Massif central, -1 million d'années). Accessible en voiture ou à pied depuis Saint-Jean-de-Buèges (3h aller).",
+      },
+      {
+        heading: "4. Les Terrasses du Larzac — l'AOC viticole montante",
+        body: "Les Terrasses du Larzac (AOC 2014, 1 800 ha sur 32 communes autour de Clermont) sont l'appellation la plus dynamique du Languedoc — syrah, grenache, mourvèdre, carignan. Domaines de référence : Mas Jullien (Olivier Jullien, l'un des pionniers), domaine de la Sauvageonne, domaine d'Aupilhac (Sylvain Fadat). Les rouges (grands vins de garde, structure tannique) sont vendus 20-60€ la bouteille. Caveaux ouverts au public sur RDV.",
+      },
+      {
+        heading: "5. L'abbaye de Saint-Guilhem-le-Désert",
+        body: "Saint-Guilhem-le-Désert (à 15 km de Clermont) est classé parmi les plus beaux villages de France et inscrit au patrimoine mondial de l'UNESCO (chemins de Saint-Jacques). L'abbaye de Gellone (804, fondée par Guilhem cousin de Charlemagne) est l'un des plus beaux exemples de roman languedocien. Le cloître a été démantelé en 1846 et remonté au Cloisters Museum de New York — il reste l'église, la salle capitulaire et le pont du Diable (XIe siècle) sur l'Hérault.",
+      },
+      {
+        heading: "6. La grotte de Clamouse — les cristaux d'aragonite",
+        body: "La grotte de Clamouse (à 18 km de Clermont, à côté de Saint-Guilhem) est l'une des plus belles grottes de France pour la diversité de ses concrétions : stalactites en disques, draperies, cristaux d'aragonite blancs comme des fleurs de glace, gours profonds. Visite guidée d'1h. Le réseau spéléologique (15 km de galeries) abrite encore des secteurs en exploration. Spectacle son et lumière en été.",
+      },
+      {
+        heading: "7. Lodève — la cité des évêques et la Savonnerie",
+        body: "Lodève (à 12 km de Clermont, 7 000 habitants) est l'ancienne cité des évêques du Lodévois. La cathédrale Saint-Fulcran (XIIIe-XIVe siècles, gothique méridional) et le palais épiscopal fortifié dominent la vieille ville. Lodève abrite la seule succursale de la Manufacture nationale de la Savonnerie hors Paris (tapis et tapisseries pour les palais nationaux). Musée Fleury (musée de France, archéologie + beaux-arts) gratuit le premier dimanche.",
+      },
+      {
+        heading: "8. Le Cirque de Navacelles — le canyon du Larzac",
+        body: "Le Cirque de Navacelles (à 50 km de Clermont, sur le Larzac) est l'un des plus grands cirques karstiques d'Europe (300 m de profondeur, 1,5 km de diamètre) — un méandre abandonné de la Vis. Classé Grand Site de France et Patrimoine mondial UNESCO (Causses et Cévennes). Le village de Navacelles (12 habitants permanents au fond du cirque) est accessible par une route en lacets. Belvédère de la Baume-Auriol pour la vue panoramique.",
+      },
+      {
+        heading: "9. Le marché provençal du mercredi à Clermont",
+        body: "Le marché de Clermont-l'Hérault (mercredi matin, place Jean-Jaurès) est l'un des plus animés du Cœur d'Hérault : oléiculteurs (huile de l'AOC Lucques du Languedoc, olive verte locale), maraîchers (asperges du Pic Saint-Loup), charcuteries (saucisson aux herbes), fromages (Pélardon AOP, Roquefort à 60 km, tomes du Larzac). Le marché de Pézenas (samedi matin, à 22 km) est complémentaire et plus touristique.",
+      },
+      {
+        heading: "10. Gastronomie languedocienne — tielle et fougasse",
+        body: "La cuisine du Cœur d'Hérault mélange Méditerranée et Cévennes : tielle sétoise (tourte au poulpe et tomate, spécialité de Sète à 50 km), fougasse aux gratons (brioche salée aux résidus de canard), brandade de morue nîmoise (purée de morue à l'huile d'olive et à l'ail). Charcuteries cévenoles (saucisse aux herbes, jambon de pays). Vins : Terrasses du Larzac (rouge), Picpoul de Pinet (blanc sec sur fruits de mer), Muscat de Frontignan (vin doux naturel).",
+      },
+    ],
+    relatedCities: ["clermont-herault", "sete"],
+    relatedGuides: [
+      "vivre-en-occitanie-guide-2025",
+    ],
+    tags: ["10 choses à faire à Clermont-l'Hérault", "activités Clermont-l'Hérault 2026", "sorties Clermont-l'Hérault", "que faire à Clermont-l'Hérault", "lac Salagou Mourèze Terrasses du Larzac Saint-Guilhem"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
