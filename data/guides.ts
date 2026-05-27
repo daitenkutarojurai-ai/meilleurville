@@ -29472,6 +29472,482 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["10 choses à faire à Bressuire", "activités Bressuire 2026", "sorties Bressuire", "que faire à Bressuire", "château Beaumont Puy du Fou Mauléon Marais poitevin Gâtine"],
   },
+  {
+    slug: "10-choses-a-faire-a-bar-le-duc-2026",
+    title: "10 choses à faire à Bar-le-Duc (la ville haute Renaissance et la Voie sacrée)",
+    metaTitle: "10 choses à faire à Bar-le-Duc 2026 — activités et sorties locales",
+    metaDesc: "Ville haute Renaissance, Voie sacrée, Verdun, Saint-Mihiel et confiture à pépin de groseille : 10 activités à Bar-le-Duc pour découvrir le sud de la Meuse.",
+    category: "tourisme",
+    emoji: "🍓",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Bar-le-Duc est la préfecture de la Meuse, 14 000 habitants au bord de l'Ornain. Capitale historique du Barrois (duché de Bar, rattaché à la France en 1766), la ville garde l'un des plus beaux ensembles Renaissance du Grand Est — la \"Ville haute\" perchée sur la colline, classée parmi les plus belles cités Renaissance de France. Sur la route de Verdun (à 55 km au nord) et de la Voie sacrée (route stratégique de 1916).",
+    sections: [
+      {
+        heading: "1. La Ville haute Renaissance — la « petite Florence lorraine »",
+        body: "La Ville haute de Bar-le-Duc (perchée sur la colline du Bourg, ancien quartier ducal) est l'un des plus beaux ensembles Renaissance du nord de la France — 16 hôtels particuliers du XVIe-XVIIIe siècles classés monuments historiques (parmi lesquels Hôtel de Florainville, Maison du Bailly, Hôtel des Ducs de Bar). Place Saint-Pierre (cœur de la Ville haute) entourée de façades sculptées. Visite guidée par l'office de tourisme.",
+      },
+      {
+        heading: "2. L'église Saint-Étienne et le Transi de Ligier Richier",
+        body: "L'église Saint-Étienne (XIVe-XVIe siècles, Ville haute) abrite le « Transi de René de Chalon » (1547, sculpture funéraire de Ligier Richier — sculpteur lorrain de la Renaissance) : représentation d'un cadavre semi-décomposé tenant son cœur dans la main gauche tendue vers le ciel. L'un des sommets de la sculpture macabre Renaissance européenne. Œuvre commandée par la veuve, Anne de Lorraine, pour l'effigie de son mari mort au siège de Saint-Dizier en 1544.",
+      },
+      {
+        heading: "3. La Voie sacrée — la route de Verdun",
+        body: "La Voie sacrée nationale (RN35, depuis 1916) relie Bar-le-Duc à Verdun sur 55 km — c'est la route par laquelle furent acheminés tous les renforts français pendant la bataille de Verdun (1916, 300 000 morts français et allemands). Bornes commémoratives kilométriques avec casques de poilu en bronze. À Bar-le-Duc, le monument du Sacré-Cœur marque le point de départ. Une « route de pèlerinage » pour les amateurs d'histoire militaire.",
+      },
+      {
+        heading: "4. Verdun et le mémorial — à 55 km",
+        body: "Verdun (à 55 km au nord) est l'épicentre de la bataille la plus meurtrière de la Première Guerre mondiale (1916 — 300 jours de combat, 300 000 morts). À voir : Mémorial de Verdun (musée moderne 2016), Ossuaire de Douaumont (130 000 ossements de soldats non identifiés), Fort de Vaux (résistance héroïque de l'unité du Capitaine Raynal), Tranchée des Baïonnettes. Une journée pleine. Cité de la Paix (la ville est siège du Centre mondial de la Paix).",
+      },
+      {
+        heading: "5. La confiture de groseille épépinée à la plume d'oie",
+        body: "La confiture de Bar-le-Duc (depuis 1344, fournie à la cour royale) est l'une des spécialités gastronomiques les plus chères du monde — 150-300€/kg. Particularité : les groseilles sont épépinées une à une à la plume d'oie (savoir-faire artisanal, 30 minutes pour 100 g de fruits). Une seule maison reste : Maison Dutriez (rue de l'Étoile, depuis 1879). Visite de l'atelier (démonstration d'épépinage), boutique. Confiture servie à Marie de Médicis, Louis XIV, Marlene Dietrich, Eisenhower.",
+      },
+      {
+        heading: "6. Le château de Marbeaumont et le musée barrois",
+        body: "Le château de Marbeaumont (Belle Époque, 1903, sur les hauteurs de Bar-le-Duc) est un château néo-Renaissance qui abrite la médiathèque municipale. Parc paysager de 5 ha. À ne pas confondre avec le musée Barrois (Ville haute, dans l'ancien collège jésuite XVIIe siècle) — collection d'archéologie gallo-romaine (mosaïques de Naix-aux-Forges, l'antique Nasium — capitale des Leuques), peintures Renaissance et XVIIe siècles. Gratuit le premier dimanche.",
+      },
+      {
+        heading: "7. Saint-Mihiel et la Tête de Christ de Ligier Richier",
+        body: "Saint-Mihiel (à 40 km au nord de Bar-le-Duc, sur la Meuse) abrite trois sites majeurs. L'église Saint-Michel possède la « Pâmoison de la Vierge » (Ligier Richier — chef-d'œuvre de la sculpture Renaissance). L'église Saint-Étienne abrite le « Sépulcre » de Ligier Richier (13 statues monumentales — l'un des plus beaux groupes sculptés de la Renaissance française). Le saillant de Saint-Mihiel (1914-1918, front allemand de 4 ans) a fait l'objet d'une grande contre-offensive franco-américaine en 1918.",
+      },
+      {
+        heading: "8. Le canal de la Marne au Rhin et la voie verte",
+        body: "Le canal de la Marne au Rhin (achevé en 1853, 314 km de Vitry-le-François à Strasbourg) traverse Bar-le-Duc. Voie verte cyclable sur les 80 km est-ouest (ombragée, plate, 32 écluses dans le secteur). Étape Bar-le-Duc-Ligny-en-Barrois (15 km, aller-retour 30 km à vélo). Croisière fluviale en péniche aussi possible (au départ de Ligny). Pour info, la « Petite Suisse meusienne » (vallée encaissée du Saulx) longe ce canal.",
+      },
+      {
+        heading: "9. Les forêts d'Argonne — la Grande Guerre encore présente",
+        body: "Le massif d'Argonne (à 60 km à l'ouest de Bar-le-Duc, à cheval Meuse-Marne-Ardennes) est l'une des plus belles forêts de moyenne montagne du nord de la France — chênes, hêtres, sapins. Mais c'est aussi un champ de bataille de la Première Guerre (offensive Meuse-Argonne, septembre-novembre 1918 — 26 000 morts américains, la plus meurtrière bataille de l'histoire de l'US Army). Mémorial américain de Romagne-sous-Montfaucon (le plus grand cimetière militaire américain en Europe).",
+      },
+      {
+        heading: "10. Gastronomie meusienne — quiche et madeleine",
+        body: "La cuisine du Barrois mêle Lorraine et Champagne : quiche lorraine (Bar-le-Duc revendique sa propre variante — sans gruyère contrairement à la version messine), madeleine de Commercy (à 35 km — petit gâteau au beurre originaire d'une cuisinière au service de Stanislas roi de Pologne au XVIIIe siècle), tartelettes aux mirabelles, fromage de Bar (chèvre frais). Spécialités : grenouilles de l'Ornain en persillade, brochet de la Meuse. Vins : Côtes de Toul (AOC, gris de Toul à 80 km), Champagne (à 100 km).",
+      },
+    ],
+    relatedCities: ["bar-le-duc"],
+    relatedGuides: [
+      "vivre-en-grand-est-alsace-moselle-guide-2025",
+    ],
+    tags: ["10 choses à faire à Bar-le-Duc", "activités Bar-le-Duc 2026", "sorties Bar-le-Duc", "que faire à Bar-le-Duc", "Ville haute Renaissance Voie sacrée Verdun groseille Ligier Richier"],
+  },
+  {
+    slug: "10-choses-a-faire-a-chaumont-2026",
+    title: "10 choses à faire à Chaumont (le viaduc Eiffel et la Biennale du Graphisme)",
+    metaTitle: "10 choses à faire à Chaumont 2026 — activités et sorties locales",
+    metaDesc: "Viaduc, Signe (Centre national du graphisme), Colombey, vallée de la Marne et lac du Der : 10 activités à Chaumont pour découvrir la préfecture de la Haute-Marne.",
+    category: "tourisme",
+    emoji: "🎨",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Chaumont est la préfecture de la Haute-Marne, 22 000 habitants au sommet d'un éperon rocheux (310 m d'altitude) au confluent de la Suize et de la Marne. La ville est mondialement reconnue pour son viaduc ferroviaire (1857, 600 m, l'un des plus beaux ouvrages d'art du XIXe siècle français), pour Le Signe — Centre national du graphisme (premier musée français dédié au graphisme) et pour la Biennale internationale de l'Affiche. À 30 km de Colombey-les-Deux-Églises (mémorial Charles de Gaulle).",
+    sections: [
+      {
+        heading: "1. Le viaduc de Chaumont — 1857 et 50 arches",
+        body: "Le viaduc de Chaumont (1857, ligne ferroviaire Paris-Mulhouse, 600 m de long, 50 m de hauteur, 3 étages de 50 arches en plein cintre) est l'un des plus impressionnants ouvrages d'art ferroviaires de France — comparable au viaduc de Garabit (Aveyron, Eiffel 1884). Vue spectaculaire sur la ville. Promenade à pied le long de la voie verte qui passe sous ses arches. Photographie depuis la rue Mareschal et le belvédère du Bord du Saut.",
+      },
+      {
+        heading: "2. Le Signe — Centre national du graphisme",
+        body: "Le Signe (2016, dans un ancien silo à grains restauré) est le premier centre national français dédié au design graphique et à l'affiche. Architecture moderne signée Moatti-Rivière, expositions thématiques renouvelées 4 fois par an (Trame, Saul Bass, Massin, M/M Paris). Bibliothèque de 70 000 affiches consultables. La ville organise tous les 2 ans la Biennale internationale du graphisme (avril-mai) — événement majeur du graphisme international.",
+      },
+      {
+        heading: "3. Colombey-les-Deux-Églises — la Boisserie de De Gaulle",
+        body: "Colombey-les-Deux-Églises (à 30 km au nord-ouest de Chaumont, 600 habitants) est le village où Charles de Gaulle a vécu et est enterré (le général y est mort le 9 novembre 1970, dans sa maison La Boisserie). Trois sites : la Boisserie (sa maison, mobilier d'origine), le Mémorial Charles de Gaulle (musée moderne 2008 — projection holographique, scénographie immersive), la Croix de Lorraine (44 m de hauteur — visible à 60 km). Tombe modeste au cimetière du village.",
+      },
+      {
+        heading: "4. La basilique Saint-Jean-Baptiste — gothique flamboyant",
+        body: "La basilique Saint-Jean-Baptiste (XIIIe-XVIe siècles) est le monument médiéval majeur de Chaumont — gothique flamboyant, façade asymétrique (la tour nord ne fut jamais achevée). Polyptyque des Quatre Saintes (XVIe siècle), Mise au tombeau du XVe siècle, vitraux du XVIe siècle. Restaurée au XIXe siècle par Viollet-le-Duc. Carillon historique (30 cloches) qui sonne tous les quarts d'heure.",
+      },
+      {
+        heading: "5. La vieille ville médiévale — la tour Hautefeuille",
+        body: "La vieille ville de Chaumont (perchée sur son éperon) garde son tracé médiéval et plusieurs vestiges. La tour Hautefeuille (XIIe siècle, donjon des comtes de Champagne — 32 m, propriété des Lorraine-Vaudémont au XVe siècle) est la plus ancienne construction debout. Maisons à pans de bois XVe-XVIe siècles dans la rue Toupot-de-Béveaux. Hôtels particuliers XVIIIe siècle (Hôtel de Villeneuve-de-Vence — sous-préfecture).",
+      },
+      {
+        heading: "6. Le lac du Der-Chantecoq — le plus grand lac artificiel d'Europe",
+        body: "Le lac du Der-Chantecoq (à 65 km à l'ouest de Chaumont, en limite Marne/Haute-Marne) est le plus grand lac artificiel d'Europe occidentale (4 800 ha, créé en 1974 pour réguler la Marne et éviter les crues à Paris). Plages aménagées, voile, paddle, observation des oiseaux migrateurs (40 000 grues cendrées en novembre — l'un des plus grands spectacles ornithologiques d'Europe occidentale, halte migratoire de référence). Maison du Lac et observatoires gratuits.",
+      },
+      {
+        heading: "7. Les Forges de Bussière — fer de Champagne",
+        body: "Les Forges de Bussière (XVIIIe siècle, à 25 km au nord de Chaumont) sont l'un des derniers vestiges intacts du grand passé sidérurgique de la Haute-Marne (« berceau de la métallurgie française » au XVIIIe-XIXe siècles). Haut-fourneau, halle de coulée, ateliers. Musée de l'industrie sidérurgique. La Haute-Marne fut le département qui forgea les statues de la Liberté (Bartholdi a fait fondre la structure d'Eiffel à la fonderie Monduit de Paris, mais le cuivre extérieur vient des Ardennes).",
+      },
+      {
+        heading: "8. La vallée de la Marne et les sentiers nature",
+        body: "La vallée de la Marne (rivière qui contourne Chaumont à l'ouest) offre des paysages variés — gorges étroites au sud, plaines bocagères au nord. Sentiers de randonnée (GR2 et GR714), pêche à la truite et au brochet. La ferme aux Cerfs (à 15 km, parc animalier) présente la faune des forêts haut-marnaises. Châteauvillain (à 25 km) est un bourg médiéval avec son parc aux daims (50 ha enclos, daims en semi-liberté).",
+      },
+      {
+        heading: "9. Auberive — l'abbaye et la résidence d'art contemporain",
+        body: "Auberive (à 60 km au sud-est de Chaumont) est une ancienne abbaye cistercienne du XIIe siècle, transformée en résidence d'artistes contemporains en 1999. L'abbatiale, le cloître et les bâtiments conventuels accueillent des expositions d'art moderne (peinture, sculpture, photo) renouvelées chaque été. Parc paysager, jardin médiéval. Pour info, le site est moins fréquenté que Citeaux ou Fontenay mais d'une qualité équivalente.",
+      },
+      {
+        heading: "10. Gastronomie haut-marnaise — andouillette et fromages",
+        body: "La cuisine haut-marnaise mélange Champagne et Bourgogne : andouillette de Troyes AAAAA (à 80 km à l'ouest — la plus prestigieuse), pâté en croûte de Chaumont, escargots à la champenoise (au beurre et persil), potée champenoise (chou, lard, saucisses). Fromages : Langres AOP (vache, croûte rouge — l'un des plus odorants de France), Chaource AOP (à 70 km au sud — vache pâte molle), Brie de Meaux (à 100 km au nord-ouest). Vins : Champagne (à 100 km au nord), Coteaux Champenois (rouge tranquille), Côteaux Bar-sur-Seine.",
+      },
+    ],
+    relatedCities: ["chaumont"],
+    relatedGuides: [
+      "vivre-en-grand-est-alsace-moselle-guide-2025",
+      "vivre-en-champagne-guide-2025",
+    ],
+    tags: ["10 choses à faire à Chaumont", "activités Chaumont 2026", "sorties Chaumont", "que faire à Chaumont", "viaduc Signe graphisme Colombey de Gaulle Der"],
+  },
+  {
+    slug: "10-choses-a-faire-a-gueret-2026",
+    title: "10 choses à faire à Guéret (les Monédières et le plateau de Millevaches)",
+    metaTitle: "10 choses à faire à Guéret 2026 — activités et sorties locales",
+    metaDesc: "Musée de la Sénatorerie, parc des Loups de Chabrières, plateau de Millevaches et tapisserie d'Aubusson : 10 activités à Guéret pour découvrir la préfecture la plus rurale de la Creuse.",
+    category: "tourisme",
+    emoji: "🐺",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Guéret est la préfecture de la Creuse, 13 000 habitants — deuxième département le moins peuplé de France métropolitaine après la Lozère (115 000 habitants pour 5 600 km²). Sur le plateau de Millevaches (PNR depuis 2004), au cœur du Limousin profond, Guéret est la porte d'entrée d'une France rurale méconnue : tapisserie d'Aubusson (UNESCO), forêts immenses, lacs naturels, sentiers de randonnée.",
+    sections: [
+      {
+        heading: "1. Le musée de la Sénatorerie — la tapisserie d'Aubusson",
+        body: "Le musée de la Sénatorerie (hôtel particulier XVIIIe siècle au cœur de Guéret) présente une collection exceptionnelle de tapisseries d'Aubusson (XVIIe-XVIIIe siècles) — l'un des plus prestigieux savoir-faire français (classé UNESCO). Émaux médiévaux, peintures Renaissance, mobilier. Section archéologie gallo-romaine du Limousin. Gratuit le premier dimanche du mois. À combiner avec une visite à Aubusson (à 30 km, capitale mondiale de la tapisserie).",
+      },
+      {
+        heading: "2. Le parc animalier des Loups de Chabrières",
+        body: "Le Parc animalier de Chabrières (à 6 km de Guéret, dans la forêt domaniale de Chabrières) abrite 32 loups en semi-liberté dans 4 enclos de plusieurs hectares (4 espèces : loup gris d'Europe, du Canada, de Mongolie, de l'Arctique). Visites guidées en soirée (juin-août, observation au crépuscule — quand les loups sont les plus actifs). Spectacle nourrissage. Idéal en famille, projet pédagogique (sensibilisation à la conservation).",
+      },
+      {
+        heading: "3. Aubusson — la cité de la tapisserie UNESCO",
+        body: "Aubusson (à 30 km au sud-est de Guéret) est la capitale mondiale de la tapisserie depuis le XVIIe siècle (Manufacture royale à partir de 1665 sous Colbert). Savoir-faire classé UNESCO depuis 2009. La Cité internationale de la Tapisserie (2016, dans une ancienne école de tapisserie) présente la collection historique et les commandes contemporaines (Le Corbusier, Lurçat, et la série Tolkien en cours d'exécution — 14 tapisseries du Seigneur des Anneaux et de Bilbo). Visites d'ateliers de lissiers en activité.",
+      },
+      {
+        heading: "4. Le plateau de Millevaches — PNR et la « Montagne limousine »",
+        body: "Le Parc naturel régional de Millevaches en Limousin (créé en 2004, 314 000 ha) couvre le sud de la Creuse, le nord de la Corrèze et l'est de la Haute-Vienne. Plateau granitique à 700-1 000 m d'altitude — surnommé « la Montagne limousine ». Paysages : forêts (40 % du PNR), tourbières, prairies, hêtraies. Mont Bessou (977 m, point culminant du PNR), Suc-au-May (915 m, observatoire panoramique). Ciel étoilé exceptionnel (peu de pollution lumineuse). Sentiers de randonnée balisés.",
+      },
+      {
+        heading: "5. Le lac de Vassivière — la « petite mer creusoise »",
+        body: "Le lac de Vassivière (à 50 km au sud-ouest de Guéret, créé en 1949 par EDF pour produire de l'hydroélectricité) est le plus grand lac artificiel du Limousin (1 000 ha). Île de Vassivière au centre (accessible par bateau ou pont) accueille le Centre international d'art et du paysage (CIAP, architecture Aldo Rossi, expositions d'art contemporain en plein air). Baignade en juillet-août (eau à 22°C), location de pédalos, paddle, voiliers. Voie verte cyclable de 30 km autour du lac.",
+      },
+      {
+        heading: "6. Les Pierres Jaumâtres — chaos granitique celtique",
+        body: "Les Pierres Jaumâtres (à 25 km à l'est de Guéret, sur la commune de Toulx-Sainte-Croix) sont un chaos granitique de 80 ha — rochers de granite arrondis et empilés, dispersés sur le plateau. Site préhistorique et celtique (vestiges druidiques selon la tradition orale). Vue panoramique à 360° sur le plateau de Millevaches et les Combrailles. Sentier d'interprétation balisé de 2 km. Gratuit, accès libre.",
+      },
+      {
+        heading: "7. Le château de Boussac et George Sand",
+        body: "Le château de Boussac (à 30 km au nord de Guéret, XVe-XVIIe siècles) est un château médiéval au-dessus de la Petite Creuse. George Sand y a séjourné (1844, lors de son enquête « Voyage chez M. Blaise », ouvrage sur les compagnons et les paysans creusois). Le château a abrité jusqu'en 1882 la célèbre tapisserie « La Dame à la Licorne » (aujourd'hui au musée de Cluny à Paris). Visite avec audioguide.",
+      },
+      {
+        heading: "8. La Maison de l'Eau et les pêcheurs",
+        body: "La Maison de l'Eau (à Bonnat, à 25 km au nord de Guéret) est un centre d'interprétation sur les rivières creusoises et leur faune (truites, écrevisses, anguilles, castors). La Creuse, la Petite Creuse et la Sédelle (sur lesquelles elle se trouve) sont des rivières à truite parmi les plus poissonneuses de France. Pour info, la pêche à la mouche est une spécialité touristique creusoise (séjours guidés). Permis vacances disponibles à l'office de tourisme.",
+      },
+      {
+        heading: "9. La vallée des Peintres — Crozant et l'école impressionniste",
+        body: "Crozant (à 50 km au nord-ouest de Guéret) est l'épicentre de la « Vallée des Peintres » — école impressionniste française qui s'est constituée autour des paysages de la confluence Creuse-Sédelle (1860-1920). Monet, Guillaumin, Allard l'Olivier y ont peint. Ruines du château médiéval de Crozant sur un piton rocheux. Centre d'interprétation à Fresselines (village voisin où Monet a peint 24 toiles en 1889). Sentier balisé des peintres.",
+      },
+      {
+        heading: "10. Gastronomie creusoise — clafoutis et fricassée",
+        body: "La cuisine creusoise est une cuisine paysanne du Limousin : clafoutis aux cerises (la Creuse revendique l'origine — cerises noires entières non dénoyautées, contrairement aux variantes urbaines), pâté de pomme de terre creusois (croûte feuilletée garnie de pommes de terre à la crème), fricassée creusoise (poulet sauté lard-oignons-vin blanc), bréjaude (soupe paysanne au chou et lard). Fromages : Creusois (pâte pressée), Pélardon (chèvre). Spécialités sucrées : creusois aux noisettes (gâteau noisette), tartelettes de pâte sablée. Vins : Saint-Pourçain (à 100 km, Allier).",
+      },
+    ],
+    relatedCities: ["gueret"],
+    relatedGuides: [
+      "vivre-en-creuse-guide-2026",
+      "vivre-en-nouvelle-aquitaine-guide-2025",
+    ],
+    tags: ["10 choses à faire à Guéret", "activités Guéret 2026", "sorties Guéret", "que faire à Guéret", "loups Chabrières Aubusson tapisserie Millevaches Vassivière"],
+  },
+  {
+    slug: "10-choses-a-faire-a-saint-brieuc-2026",
+    title: "10 choses à faire à Saint-Brieuc (la baie aux marées et la côte de Goëlo)",
+    metaTitle: "10 choses à faire à Saint-Brieuc 2026 — activités et sorties locales",
+    metaDesc: "Baie de Saint-Brieuc, falaises de Plouha, Cap Fréhel, île de Bréhat et marées XXL : 10 activités à Saint-Brieuc pour découvrir le nord des Côtes-d'Armor.",
+    category: "tourisme",
+    emoji: "🌊",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Saint-Brieuc est la préfecture des Côtes-d'Armor, 45 000 habitants au fond de la baie de Saint-Brieuc — une des baies aux marées les plus spectaculaires du monde (amplitude jusqu'à 13 m, la deuxième de France après la baie du Mont-Saint-Michel). La ville garde sa cathédrale-forteresse Saint-Étienne (XIIIe siècle, fortifiée pour résister aux Anglais) et donne accès aux plus belles côtes bretonnes : Cap Fréhel à 50 km, falaises de Plouha (les plus hautes de Bretagne), île de Bréhat à 35 km.",
+    sections: [
+      {
+        heading: "1. La baie de Saint-Brieuc — la deuxième amplitude de marée de France",
+        body: "La baie de Saint-Brieuc (180 km² à marée basse, 800 km² à marée haute — amplitude jusqu'à 13 m, la deuxième de France après le Mont-Saint-Michel) est un site exceptionnel pour observer les marées. Classée réserve naturelle nationale (2 000 ha, l'une des plus importantes de France pour les oiseaux limicoles — 80 000 hivernants). Maison de la baie au Verdelet (centre d'interprétation, gratuit). À marée basse, on découvre 10 km² de schorre (prés salés) et de vasière.",
+      },
+      {
+        heading: "2. La cathédrale Saint-Étienne — la forteresse",
+        body: "La cathédrale Saint-Étienne de Saint-Brieuc (XIIIe-XVe siècles) est l'une des rares cathédrales-forteresses de France — fortifiée pour résister aux raids anglais pendant la guerre de Cent Ans. Tour-clocher de 56 m, mâchicoulis, créneaux. À l'intérieur : retable du XVIIe siècle, gisants en albâtre. Visite gratuite. La place Saint-Étienne (devant la cathédrale) est le cœur historique avec hôtels particuliers en bois et granit.",
+      },
+      {
+        heading: "3. Les falaises de Plouha — les plus hautes de Bretagne",
+        body: "Les falaises de Plouha (à 30 km au nord de Saint-Brieuc) sont les plus hautes falaises de Bretagne — 104 m de hauteur (record breton). Sentier des Douaniers (GR34) le long du littoral, points de vue spectaculaires sur la mer ouverte. Plage Bonaparte (interdite à la baignade — mer trop dangereuse — mais accessible à marée basse). Plouha fut le centre de l'opération Bonaparte (1944, exfiltration de 135 aviateurs alliés en Angleterre par la Résistance). Plaque commémorative.",
+      },
+      {
+        heading: "4. Le Cap Fréhel — la pointe rocheuse rose",
+        body: "Le Cap Fréhel (à 50 km au nord-est de Saint-Brieuc) est l'une des plus belles pointes rocheuses de Bretagne — falaises de grès rose et de schiste violet de 70 m de hauteur, lande à bruyères et ajoncs roses au sommet. Phare construit par Vauban (XVIIe siècle, reconstruit en 1950) — ascension possible (145 marches). Le Fort La Latte (à 5 km, XIVe siècle, perché sur un éperon rocheux face à la mer) est l'un des plus beaux châteaux forts de France — lieu de tournage des Vikings (1958, Kirk Douglas).",
+      },
+      {
+        heading: "5. L'île de Bréhat — l'archipel aux fleurs",
+        body: "L'île de Bréhat (à 35 km au nord de Saint-Brieuc, accessible en 10 min de bateau depuis l'Arcouest à Paimpol) est un archipel de 86 îlots. Climat micro-doux (palmiers, agapanthes, hortensias en abondance — surnommée « l'île aux fleurs »). 320 habitants permanents, pas de voitures (vélos et marche uniquement). Phare du Paon (extrémité nord), chapelle Saint-Michel sur son piton rocheux, port de la Corderie. À visiter en journée — 1 journée idéale, 2 si on dort sur place.",
+      },
+      {
+        heading: "6. Paimpol et Loguivy-de-la-Mer — les pêcheurs d'Islande",
+        body: "Paimpol (à 30 km au nord de Saint-Brieuc) est immortalisée par Pierre Loti dans Pêcheur d'Islande (1886, roman du dur métier des morutiers paimpolais — 90 % des morutiers d'Islande étaient bretons). Place du Martray (cœur historique), abbaye de Beauport (XIIe-XIIIe siècles, en ruines romantiques sur la mer). Loguivy-de-la-Mer (à 5 km, port de pêche typique, ancien bastion morutier). Chants de marins (Polig Monjarret, Tri Yann y ont écrit).",
+      },
+      {
+        heading: "7. Dinan — la cité médiévale en pierre rose",
+        body: "Dinan (à 50 km à l'est de Saint-Brieuc) est l'une des plus belles cités médiévales de Bretagne — 3 km de remparts intacts, ruelles pavées, maisons à pans de bois XVe-XVIe siècles. Place des Cordeliers (terrasses), rue du Jerzual (cordonniers et tisserands d'antan, plus belle rue médiévale de Bretagne), Tour de l'Horloge (XVe siècle, ascension possible). Port de Dinan au pied (sur la Rance — gabares en partance pour Saint-Malo).",
+      },
+      {
+        heading: "8. La cité corsaire de Saint-Malo",
+        body: "Saint-Malo (à 65 km à l'est de Saint-Brieuc) est la cité corsaire — ville fortifiée Vauban entièrement entourée de remparts (1 km de tour complet à pied au-dessus des plages). Plages emblématiques : Bon-Secours et Sillon. Patrie de Surcouf et Cartier (premier explorateur du Canada). Côte d'Émeraude jusqu'à Cancale (port d'huîtres à 15 km, ostréiculture millénaire). Idéal pour une journée depuis Saint-Brieuc.",
+      },
+      {
+        heading: "9. Le sentier des Douaniers (GR34) — 2 000 km côtiers",
+        body: "Le GR34 (sentier des Douaniers, 2 000 km — du Mont-Saint-Michel à Saint-Nazaire en longeant toute la côte bretonne) passe par Saint-Brieuc. Étape Saint-Brieuc-Pléneuf-Val-André (25 km, falaises, plages, criques) — la plus belle des Côtes-d'Armor pour les randonneurs. Étape Saint-Brieuc-Paimpol-Plouha (50 km, 2 jours) traverse les falaises de Plouha (les plus hautes). Voies vertes complémentaires (V6 Saint-Brieuc-Saint-Méen, 20 km cyclable plat).",
+      },
+      {
+        heading: "10. Gastronomie costarmoricaine — coquilles et galette",
+        body: "La cuisine de Saint-Brieuc est marine et costarmoricaine : coquilles Saint-Jacques de la baie de Saint-Brieuc (deuxième port français de la coquille — pêche octobre-mai, fraîches sur les marchés), moules de la baie, palourdes, ormeaux d'Erquy. Spécialité : galette-saucisse (à manger debout — pour les Bretons c'est « le hot dog breton »). Sucré : kouign-amann (gâteau breton au beurre — IGP), far breton, caramel au beurre salé. Cidre brut breton, chouchen (hydromel breton).",
+      },
+    ],
+    relatedCities: ["saint-brieuc"],
+    relatedGuides: [
+      "vivre-en-bretagne-guide-2025",
+      "vivre-en-bretagne-nord-guide-2025",
+    ],
+    tags: ["10 choses à faire à Saint-Brieuc", "activités Saint-Brieuc 2026", "sorties Saint-Brieuc", "que faire à Saint-Brieuc", "baie marées Plouha Cap Fréhel Bréhat Paimpol Saint-Malo"],
+  },
+  {
+    slug: "10-choses-a-faire-a-saint-lo-2026",
+    title: "10 choses à faire à Saint-Lô (le haras national et la reconstruction d'après-guerre)",
+    metaTitle: "10 choses à faire à Saint-Lô 2026 — activités et sorties locales",
+    metaDesc: "Haras national, cathédrale reconstruite, plages du Débarquement, marais du Cotentin et Bayeux : 10 activités à Saint-Lô pour découvrir le centre Manche.",
+    category: "tourisme",
+    emoji: "🐎",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Saint-Lô est la préfecture de la Manche, 19 000 habitants au cœur du Bocage normand. La ville a été surnommée « la Capitale des Ruines » par Samuel Beckett (qui y a travaillé pour la Croix-Rouge irlandaise en 1945) — détruite à 95 % en juillet 1944 (bataille de Normandie, plus grand bombardement urbain du conflit en France), entièrement reconstruite. Aujourd'hui Saint-Lô abrite le Haras national (l'un des plus prestigieux de France) et donne accès au cœur des plages du Débarquement.",
+    sections: [
+      {
+        heading: "1. Le Haras national de Saint-Lô — l'un des plus prestigieux",
+        body: "Le Haras national de Saint-Lô (créé en 1806 par Napoléon, l'un des plus prestigieux haras français) abrite 90 étalons reproducteurs — selle français, pur-sang anglais, trotteurs, percherons, cobs normands (race locale). Visite des écuries (250 ans d'architecture haras), spectacles équestres (juillet-août, mardis et jeudis — le « Jeudi du Haras »). Le Haras est aussi un centre de formation aux métiers du cheval (lycée agricole). Gratuit.",
+      },
+      {
+        heading: "2. La cathédrale Notre-Dame — la tour tronquée",
+        body: "La cathédrale Notre-Dame de Saint-Lô (XIIIe-XVIe siècles, gothique normand) a été partiellement détruite en juillet 1944 — sa tour nord a été coupée par les bombes. La reconstruction d'après-guerre a fait le choix audacieux de laisser la tour tronquée (statue à 30 m, ancien escalier à l'air libre, mur de schiste vert d'origine apparent), en témoignage de la destruction. Vitraux contemporains de Max Ingrand. Toit en cuivre brillant qui patine au vert.",
+      },
+      {
+        heading: "3. Les plages du Débarquement — Utah Beach à 25 km",
+        body: "Saint-Lô est à 25 km au sud des plages du Débarquement (6 juin 1944). Utah Beach (la plage la plus à l'ouest, débarquement américain) avec son musée du Débarquement (l'un des plus modernes), Sainte-Mère-Église (premier village libéré, parachutistes du jour J — pendaison du soldat John Steele au clocher est immortalisée par Le Jour le plus long). Pointe du Hoc (assaut héroïque des Rangers américains, falaise de 30 m). Omaha Beach et le cimetière américain de Colleville (à 50 km, le plus émouvant de Normandie).",
+      },
+      {
+        heading: "4. La bataille de Saint-Lô et le mémorial",
+        body: "La bataille de Saint-Lô (12-19 juillet 1944) fut l'une des plus meurtrières de la Bataille de Normandie — 95 % de la ville détruite, 800 civils tués. Le mémorial sur la Hauteur (place Général-de-Gaulle, dans la ville reconstruite) commémore les victimes. La sous-préfecture (architecture moderniste d'après-guerre, signée Marcel Mersier 1951) est l'un des chefs-d'œuvre de la reconstruction. Plaque rappelant la nuit du 6 au 7 juin 1944 (le premier bombardement).",
+      },
+      {
+        heading: "5. Le marais du Cotentin et du Bessin",
+        body: "Le Parc naturel régional du Marais du Cotentin et du Bessin (à 15 km au nord de Saint-Lô, 145 000 ha) est l'un des plus grands marais maritimes de France — bocage et tourbières inondés une grande partie de l'année. Maison du Parc à Saint-Côme-du-Mont (centre d'interprétation, gratuit). Promenades en barque à fond plat (location à Carentan, juin-septembre). Faune exceptionnelle : ragondins, hérons, busards, cigognes. Site Ramsar.",
+      },
+      {
+        heading: "6. Bayeux et la tapisserie — à 35 km",
+        body: "Bayeux (à 35 km à l'est de Saint-Lô) est l'unique ville bas-normande non détruite en 1944 (libérée le 7 juin sans combat) — cathédrale Notre-Dame intacte (XIe siècle, gothique normand, l'une des plus belles de Normandie). Et surtout la tapisserie de Bayeux (XIe siècle, 70 m de long — broderie représentant la conquête de l'Angleterre par Guillaume le Conquérant en 1066, classée UNESCO Mémoire du Monde). Musée moderne dédié.",
+      },
+      {
+        heading: "7. Le Mont-Saint-Michel — à 75 km",
+        body: "Le Mont-Saint-Michel (à 75 km au sud-ouest de Saint-Lô, classé UNESCO depuis 1979) est l'un des sites les plus visités de France (3 millions de visiteurs/an). Abbaye bénédictine du XIe-XVIe siècles, ruelles médiévales de la cité, baie aux plus grandes marées d'Europe (15 m d'amplitude). Pour info : traversée à pied de la baie possible avec un guide agréé (au départ de Genêts, 4h, 30€) — une expérience unique. À voir un jour de marée haute pour comprendre l'insularité.",
+      },
+      {
+        heading: "8. Les ruines d'Hambye — l'abbaye normande",
+        body: "L'abbaye de Hambye (à 25 km au sud de Saint-Lô, XIIe-XVe siècles, en ruines romantiques) est l'une des plus belles abbayes cisterciennes ruinées de Normandie — château intact (logis abbatial XVIIIe siècle), cloître en partie debout, salle capitulaire et chauffoir conservés. Lieu d'expositions temporaires d'art contemporain et de concerts. Sentier le long de la Sienne (rivière à truite, baignade possible).",
+      },
+      {
+        heading: "9. Coutances et la cathédrale gothique normande",
+        body: "Coutances (à 35 km à l'ouest de Saint-Lô) abrite l'une des plus pures cathédrales gothiques normandes — cathédrale Notre-Dame de Coutances (XIIIe siècle, restée intacte, contrairement à celle de Saint-Lô) — flèches de 70 m, vitraux du XIIIe siècle. Festival Jazz sous les Pommiers (mi-mai, l'un des plus grands festivals de jazz du Grand Ouest). Marché du jeudi matin.",
+      },
+      {
+        heading: "10. Gastronomie normande — andouille et fromages",
+        body: "La cuisine bas-normande est l'une des plus riches de France : andouille de Vire (à 35 km au sud-est — boudin sec aux tripes de porc, IGP), tripes à la mode de Caen (à 60 km à l'est), cotriade normande (soupe de poissons), poulet vallée d'Auge (à la crème et au calvados). Fromages : Camembert AOP (Camembert village à 80 km à l'est), Livarot AOP, Pont-l'Évêque AOP, Neufchâtel AOP. Spécialités sucrées : teurgoule (riz au lait cuit 6h au four, à la cannelle), tarte normande. Calvados pays d'Auge AOC, cidre normand.",
+      },
+    ],
+    relatedCities: ["saint-lo"],
+    relatedGuides: [
+      "vivre-en-normandie-guide-2025",
+      "vivre-en-normandie-interieure-guide-2025",
+    ],
+    tags: ["10 choses à faire à Saint-Lô", "activités Saint-Lô 2026", "sorties Saint-Lô", "que faire à Saint-Lô", "Haras national Débarquement Mont-Saint-Michel Bayeux Hambye"],
+  },
+  {
+    slug: "10-choses-a-faire-a-evreux-2026",
+    title: "10 choses à faire à Évreux (la cathédrale Notre-Dame et la vallée de l'Iton)",
+    metaTitle: "10 choses à faire à Évreux 2026 — activités et sorties locales",
+    metaDesc: "Cathédrale Notre-Dame, beffroi, musée municipal, château-musée de Beaumesnil et Giverny : 10 activités à Évreux pour découvrir la préfecture de l'Eure.",
+    category: "tourisme",
+    emoji: "🌳",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Évreux est la préfecture de l'Eure, 50 000 habitants au cœur de la plaine du Neubourg, traversée par l'Iton. La ville garde un patrimoine médiéval malgré les destructions de 1940 (bombardement allemand) et 1944 (libération) — sa cathédrale Notre-Dame (XIe-XVIIe siècles, vitraux du XIIIe au XVIe siècle) est l'une des plus mixtes de France. À 100 km de Paris (TER 1h), Évreux est aussi à 30 km de Giverny (les Nymphéas de Monet).",
+    sections: [
+      {
+        heading: "1. La cathédrale Notre-Dame — vitraux multi-siècles",
+        body: "La cathédrale Notre-Dame d'Évreux (XIe-XVIIe siècles — l'une des plus mixtes de France stylistiquement) est l'épicentre patrimonial de la ville. Architecture : roman au chœur, gothique rayonnant à la nef, gothique flamboyant aux portails latéraux, Renaissance au transept. Vitraux exceptionnels couvrant 5 siècles (XIIIe siècle dans le chœur, XIVe siècle au transept, XVe-XVIe siècles dans les chapelles latérales). Restaurée après les bombardements de 1940. Visite gratuite.",
+      },
+      {
+        heading: "2. Le beffroi et la tour de l'Horloge",
+        body: "Le beffroi d'Évreux (XVe siècle, gothique flamboyant, 44 m de hauteur) est l'un des plus beaux beffrois français — campanile en pierre sculptée, cloche du XVIe siècle (« le Loys »), carillon. Il signalait jadis les heures aux marchands de la place du Grand-Marché. Maison à pans de bois du XVe siècle (Maison Henri IV) à côté. À 200 m de la cathédrale.",
+      },
+      {
+        heading: "3. Le musée municipal — l'archéologie gallo-romaine",
+        body: "Le musée d'Art, Histoire et Archéologie d'Évreux (Ancien Palais épiscopal, XVe-XVIIe siècles, à côté de la cathédrale) abrite une collection riche : statues gallo-romaines (vestiges du sanctuaire de Mediolanum-Eburovicum), trésor du Bernay (orfèvrerie médiévale), peintures XVIIe-XIXe siècles (Boucher, Pissarro, Vlaminck). Gratuit le premier dimanche du mois. Restauré après les destructions de 1944.",
+      },
+      {
+        heading: "4. Giverny — les Nymphéas de Monet à 30 km",
+        body: "Giverny (à 30 km au nord-est d'Évreux) est le village où Claude Monet a vécu et peint de 1883 à sa mort en 1926 — fondation de l'impressionnisme. La maison du peintre (façade rose, persiennes vertes) et le jardin d'eau (les Nymphéas, étang aux nénuphars, pont japonais) se visitent. Musée des Impressionnismes à 100 m (peintures d'amis et disciples de Monet — Pissarro, Sisley, Boudin). Réservation obligatoire en haute saison.",
+      },
+      {
+        heading: "5. Le château-musée de Beaumesnil — le « Petit Versailles »",
+        body: "Le château de Beaumesnil (à 35 km au sud d'Évreux, XVIIe siècle, classé monument historique) est l'un des plus beaux châteaux Louis XIII de Normandie — surnommé le « Versailles normand ». Façade Louis XIII typique (briques rouges et pierre blanche, toits ardoise), douves remplies, jardins à la française dessinés par Le Nôtre, parc paysager. À l'intérieur : appartements, bibliothèque, musée de la Reliure (livres rares et manuscrits). Boulangerie pédagogique dans les communs.",
+      },
+      {
+        heading: "6. La vallée de l'Iton — sentiers et nature",
+        body: "L'Iton (rivière qui traverse Évreux) est l'une des plus belles rivières d'Eure — eau calcaire transparente, truites farios sauvages, sentier le long de la rivière. Voie verte de l'Iton (45 km, plate, cyclable, ombragée) entre Évreux et Conches-en-Ouche (à 20 km au sud, plus beau village de France). Promenade des Remparts à Évreux (boucle de 4 km en ville le long de l'Iton, ancien tracé des fortifications médiévales).",
+      },
+      {
+        heading: "7. La forêt d'Évreux et les hêtraies normandes",
+        body: "La forêt d'Évreux (5 000 ha à 10 km au nord de la ville) est l'une des plus belles forêts domaniales de Normandie — hêtraies cathédrales, chênaies, sentiers balisés. Le Mont-Pichet (266 m, point culminant) offre une vue panoramique. Pour info : c'est l'une des forêts les plus poissonneuses (forêt-rivière) — cerfs, sangliers, chevreuils en abondance. La forêt de Bord (à 15 km vers Louviers) est l'autre grande forêt du département.",
+      },
+      {
+        heading: "8. Le château de Gaillon — l'une des premières Renaissance",
+        body: "Le château de Gaillon (à 30 km au nord d'Évreux, XVIe siècle) est l'un des tout premiers châteaux Renaissance de France — résidence des archevêques de Rouen (Cardinal Georges d'Amboise — qui ramène les architectes italiens d'Italie en 1510). Pillé sous la Révolution, en cours de restauration depuis 1975. Pavillons italianisants, fontaines, sculptures de Michel Colombe. Visite possible sur réservation.",
+      },
+      {
+        heading: "9. Lyons-la-Forêt — village classé",
+        body: "Lyons-la-Forêt (à 50 km au nord-est d'Évreux, classée parmi les plus beaux villages de France) est un village normand à colombages au cœur de la forêt domaniale de Lyons (10 000 ha, l'une des plus belles hêtraies d'Europe occidentale). Halles XVIIIe siècle, maison Maurice-Ravel (le compositeur y a séjourné), abbaye de Mortemer (XIIe siècle, en ruines) à 3 km. Atmosphère normande authentique.",
+      },
+      {
+        heading: "10. Gastronomie normande — andouille de Vire et Pont-l'Évêque",
+        body: "La cuisine normande est riche en produits laitiers, viandes et fruits du bocage : tripes à la mode de Caen (à 75 km à l'ouest), poulet vallée d'Auge (à la crème et au calvados), terrine de canard rouennaise. Fromages AOP : Camembert (à 40 km au sud-ouest, village éponyme), Pont-l'Évêque, Livarot, Neufchâtel. Spécialités sucrées : teurgoule (riz au lait cuit 6h, à la cannelle), tarte normande aux pommes. Cidre normand AOC, Calvados pays d'Auge AOP, Pommeau (apéritif).",
+      },
+    ],
+    relatedCities: ["evreux"],
+    relatedGuides: [
+      "vivre-en-normandie-guide-2025",
+    ],
+    tags: ["10 choses à faire à Évreux", "activités Évreux 2026", "sorties Évreux", "que faire à Évreux", "cathédrale vitraux Giverny Monet Beaumesnil Lyons-la-Forêt"],
+  },
+  {
+    slug: "10-choses-a-faire-a-beauvais-2026",
+    title: "10 choses à faire à Beauvais (la cathédrale la plus haute du monde et la tapisserie)",
+    metaTitle: "10 choses à faire à Beauvais 2026 — activités et sorties locales",
+    metaDesc: "Cathédrale Saint-Pierre, Galerie Nationale de la Tapisserie, MUDO, château de Chantilly et Senlis : 10 activités à Beauvais pour découvrir la préfecture de l'Oise.",
+    category: "tourisme",
+    emoji: "⛪",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Beauvais est la préfecture de l'Oise, 56 000 habitants à 80 km au nord de Paris. La ville est célèbre pour deux choses : sa cathédrale Saint-Pierre (XIIIe-XVIe siècles, jamais achevée — la plus haute voûte gothique du monde, 48,5 m, qui s'est effondrée en 1284 puis en 1573) et sa manufacture nationale de tapisserie (créée en 1664 par Colbert, l'une des trois manufactures royales encore en activité avec les Gobelins et la Savonnerie). Aéroport low-cost (Beauvais-Tillé, deuxième aéroport parisien).",
+    sections: [
+      {
+        heading: "1. La cathédrale Saint-Pierre — la voûte la plus haute du monde",
+        body: "La cathédrale Saint-Pierre de Beauvais (commencée en 1225, jamais achevée) abrite la plus haute voûte gothique du monde — 48,5 m sous clé de voûte (record absolu, dépasse Amiens 42,3 m, Reims 38 m, Chartres 37 m). Le chœur s'est effondré en 1284 (12 ans après son achèvement) puis la flèche en 1573 (la plus haute flèche de l'histoire — 153 m, plus haute que la pyramide de Khéops). La nef n'a jamais été construite. Visite gratuite. La cathédrale abrite aussi la plus ancienne horloge astronomique au monde encore en service (1305).",
+      },
+      {
+        heading: "2. La Galerie nationale de la Tapisserie",
+        body: "La Galerie nationale de la Tapisserie de Beauvais (place du Beauvaisis, dans l'enceinte épiscopale médiévale) est la vitrine de la Manufacture nationale de Tapisserie de Beauvais (créée en 1664 par Colbert, encore en activité dans les ateliers contemporains des Gobelins à Paris). Expositions tournantes de tapisseries XVIIe-XXIe siècles. Tapisseries Boucher, Oudry, Vasarely, Lurçat, Tapiès. Gratuit. Idéal pour comprendre l'évolution d'un art textile noble.",
+      },
+      {
+        heading: "3. Le MUDO — Musée de l'Oise",
+        body: "Le MUDO (Musée Départemental de l'Oise) est installé dans l'ancien palais épiscopal de Beauvais (XIIe-XVIe siècles, l'un des plus anciens palais épiscopaux de France) — bâtiment monumental, salle des États (XVIe siècle, plafond Renaissance). Collections : peinture française et flamande XVIIe-XIXe siècles (Vouet, Watteau, Boucher, Corot, Pissarro), céramique de Beauvais (production locale du XIIIe au XIXe siècle), sculptures gothiques. Gratuit.",
+      },
+      {
+        heading: "4. Le château de Chantilly — à 30 km",
+        body: "Le château de Chantilly (à 30 km au sud-est de Beauvais) est l'un des plus beaux châteaux Renaissance de France — Grand Château (XIXe siècle, néo-Renaissance — reconstruction du XIXe siècle), Petit Château (XVIe siècle, original — Renaissance authentique). Musée Condé (deuxième collection française de peintures anciennes après le Louvre — Raphaël, Watteau, Poussin). Les Grandes Écuries (1719, néo-classique) abritent le Musée vivant du Cheval. Jardins de Le Nôtre, hippodrome.",
+      },
+      {
+        heading: "5. Senlis — la cité royale médiévale",
+        body: "Senlis (à 40 km au sud-est de Beauvais) est l'une des plus belles cités médiévales d'Île-de-France — première résidence des premiers Capétiens (Hugues Capet y fut élu roi en 987). Cathédrale Notre-Dame (XIIe siècle, gothique primitif, l'une des plus belles façades romanes de France), enceinte gallo-romaine et médiévale (intacte sur 800 m), ruelles pavées, hôtels particuliers Renaissance. Centre-ville pour piétons.",
+      },
+      {
+        heading: "6. La maladrerie Saint-Lazare — lépreuses",
+        body: "La Maladrerie Saint-Lazare de Beauvais (XIIe siècle — l'un des derniers ensembles médicaux médiévaux conservés en France) servait de léproserie au Moyen Âge. Chapelle, grange dîmière, logis du chapelain, jardin médicinal. Une visite immersive dans l'organisation hospitalière médiévale (chefs-d'œuvre romans, à 2 km du centre de Beauvais). Géré par le Département. Gratuit.",
+      },
+      {
+        heading: "7. La forêt domaniale d'Hez-Froidmont",
+        body: "La forêt domaniale d'Hez-Froidmont (à 25 km à l'est de Beauvais, 4 200 ha) est l'une des plus belles forêts de l'Oise — chênes, hêtres centenaires, sentiers balisés. Étang du Roy (baignade interdite mais pêche autorisée), allées royales (créées sous Louis XIV pour les chasses). Le château de Saint-Paul-aux-Champs (XVIIe siècle, propriété privée) est visible depuis les sentiers. Sangliers, chevreuils, cerfs en abondance.",
+      },
+      {
+        heading: "8. La cité épiscopale et la place Jeanne-Hachette",
+        body: "La place Jeanne-Hachette (au cœur de Beauvais) commémore l'héroïne du siège de Beauvais en 1472 — Jeanne Laisné, dite « Jeanne Hachette », résista à Charles le Téméraire (duc de Bourgogne) en arrachant un drapeau bourguignon de la main d'un assaillant escaladant les remparts. Statue centrale en bronze. Hôtels particuliers Renaissance autour de la place. Procession du « Combat de la Hachette » chaque 27 juin.",
+      },
+      {
+        heading: "9. Gerberoy — plus beau village de France",
+        body: "Gerberoy (à 30 km au nord-ouest de Beauvais, classé parmi les plus beaux villages de France, 90 habitants) est un village médiéval miraculeusement conservé — maisons à pans de bois XVe-XVIIe siècles, ruelles pavées, glycines monumentales. Le peintre impressionniste Henri Le Sidaner s'y installa en 1901 et fit du village un véritable jardin floral (chaque maison décore sa façade de fleurs). Visite à pied, 30 min en boucle.",
+      },
+      {
+        heading: "10. Gastronomie picarde — flamiche et ficelle",
+        body: "La cuisine picarde mélange traditions normandes et flamandes : flamiche aux poireaux (tarte salée picarde — l'une des plus anciennes recettes françaises), ficelle picarde (crêpe roulée garnie de jambon, champignons et béchamel, gratinée), pâté de canard d'Amiens (à 60 km au nord), terrine d'anguille de la Somme. Fromages : Maroilles AOP (à 100 km au nord-est, le plus odorant de France), Rollot. Cidre picard (différent du cidre normand). Bière du Nord (Saint-Sylvestre, Castelain).",
+      },
+    ],
+    relatedCities: ["beauvais"],
+    relatedGuides: [
+      "vivre-en-hauts-de-france-guide-2026",
+    ],
+    tags: ["10 choses à faire à Beauvais", "activités Beauvais 2026", "sorties Beauvais", "que faire à Beauvais", "cathédrale Saint-Pierre tapisserie Chantilly Senlis Gerberoy"],
+  },
+  {
+    slug: "10-choses-a-faire-a-laon-2026",
+    title: "10 choses à faire à Laon (la cathédrale gothique perchée et la cité fortifiée)",
+    metaTitle: "10 choses à faire à Laon 2026 — activités et sorties locales",
+    metaDesc: "Cathédrale Notre-Dame, remparts médiévaux, palais épiscopal, Chemin des Dames et caves du Champagne : 10 activités à Laon pour découvrir la cité haute de l'Aisne.",
+    category: "tourisme",
+    emoji: "🏰",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Laon est la préfecture de l'Aisne, 25 000 habitants — l'une des plus belles cités médiévales de France, perchée sur un éperon calcaire à 180 m au-dessus de la plaine picarde (« montagne couronnée »). Capitale franque sous les derniers Carolingiens (Xe siècle, Louis IV, Lothaire), Laon a gardé un ensemble exceptionnel : 7 km de remparts médiévaux intacts, palais épiscopal du XIIe siècle, cathédrale Notre-Dame (l'une des cinq grandes cathédrales du gothique primitif en France).",
+    sections: [
+      {
+        heading: "1. La cathédrale Notre-Dame — gothique primitif",
+        body: "La cathédrale Notre-Dame de Laon (1155-1230) est l'une des cinq grandes cathédrales du gothique primitif en France (avec Sens, Senlis, Noyon, Soissons). Façade à trois tours-portails (modèle qui inspira Notre-Dame de Paris et Reims), 5 tours-clochers au lieu des 2 habituels. Particularité : 16 bœufs sculptés sur les tours en hommage aux bœufs qui ont monté les pierres au sommet de la colline (la légende dit que les architectes auraient été aidés par des bœufs miraculeux). Vitraux du XIIIe siècle.",
+      },
+      {
+        heading: "2. Les remparts médiévaux — 7 km intacts",
+        body: "Les remparts de Laon (XIIIe-XIVe siècles) sont l'un des plus complets ensembles fortifiés médiévaux de France — 7 km d'enceinte, 12 portes (dont la Porte d'Ardon, la Porte de Soissons, la Porte des Chenizelles encore intactes), tours rondes et carrées. Sentier le long des remparts (Promenade des Remparts, 4 km) qui fait le tour de la Ville Haute. Vue panoramique sur la plaine picarde et la Champagne (à 30 km).",
+      },
+      {
+        heading: "3. Le palais épiscopal et la cour de justice médiévale",
+        body: "Le palais épiscopal de Laon (XIIe-XVIIe siècles, à côté de la cathédrale) est l'un des plus anciens palais épiscopaux de France encore debout. Chapelle des Évêques (XIIe siècle, romane), salle synodale, jardin médiéval. Aujourd'hui Cour d'appel de Laon (rare exemple de cour de justice dans un palais médiéval encore en activité). Visite extérieure libre.",
+      },
+      {
+        heading: "4. Le Chemin des Dames — la mémoire de 14-18",
+        body: "Le Chemin des Dames (à 25 km au sud-ouest de Laon, sur 30 km) est l'un des principaux champs de bataille de la Première Guerre mondiale — offensive du 16 avril 1917 (général Nivelle, 270 000 morts français en 10 jours, mutineries qui suivirent). À voir : Caverne du Dragon (musée moderne, ancienne carrière souterraine occupée alternativement par les Français et les Allemands), monument de la Malmaison, mémorial des Chars d'assaut, plateau de Vauclair (premier emploi des chars en France).",
+      },
+      {
+        heading: "5. La Champagne et les caves à 50 km",
+        body: "Reims (à 50 km au sud-est de Laon) est la capitale du Champagne — 5 millions de bouteilles produites/an dans la région champenoise (UNESCO depuis 2015). Visite des grandes maisons (Veuve Clicquot, Pommery, Taittinger, Mumm) — caves de craie du XIVe siècle creusées sous la ville, dégustations guidées. La cathédrale Notre-Dame de Reims (XIIIe siècle, lieu du sacre des rois de France, classée UNESCO) complète une journée Reims-Champagne au départ de Laon.",
+      },
+      {
+        heading: "6. L'abbaye de Saint-Martin — gothique de Picardie",
+        body: "L'abbaye de Saint-Martin (XIIe-XIIIe siècles, dans la Ville Basse de Laon) est un ancien monastère prémontré — chef-d'œuvre du gothique de Picardie. Église abbatiale Saint-Martin, cloître du XIIIe siècle (l'un des plus anciens cloîtres prémontrés de France). Aujourd'hui bibliothèque municipale dans une partie des bâtiments conventuels. Visite gratuite.",
+      },
+      {
+        heading: "7. La famille des arbalétriers et le métier d'armes",
+        body: "La compagnie des arbalétriers de Laon (créée en 1431, l'une des plus anciennes compagnies d'arbalétriers de France encore en activité) organise des démonstrations de tir à l'arbalète médiévale en saison estivale. Visite du musée du Tir (4 rue Sérurier) avec collection d'arbalètes XVIIe-XIXe siècles. Activité originale pour ceux qui veulent comprendre l'histoire de cette arme médiévale longtemps mieux que l'arquebuse.",
+      },
+      {
+        heading: "8. Le POMA — le funiculaire automatique",
+        body: "Le POMA 2000 de Laon (1989, premier transport public urbain automatique français — encore en activité) relie la Ville Basse à la Ville Haute en 6 min sans conducteur. 5 stations (Ville Basse SNCF, Carmes, Vaux, Hôtel-de-Ville, Place de la Mairie). Tarif normal de bus (1,40€). Unique en France — le système POMA permet de gravir 100 m de dénivelé en pleine ville. Vue spectaculaire sur la plaine pendant l'ascension.",
+      },
+      {
+        heading: "9. La forêt de Saint-Gobain et le Familistère de Guise",
+        body: "La forêt de Saint-Gobain (à 25 km à l'ouest de Laon, 6 200 ha) est l'une des plus belles forêts de l'Aisne — chênes, hêtres, sentiers balisés. Le Familistère de Guise (à 50 km au nord-est, créé en 1859 par Jean-Baptiste Godin — pionnier de l'utopie sociale et inventeur des poêles Godin) est un palais ouvrier socialiste — 2 000 ouvriers logés dans des conditions exceptionnelles pour l'époque. Visite avec audioguide.",
+      },
+      {
+        heading: "10. Gastronomie axonaise — maroilles et flamiche",
+        body: "La cuisine axonaise (Aisne) est typique du nord — robuste et fromagère : flamiche aux poireaux (tarte salée), ficelle picarde (crêpe roulée à la béchamel), maroilles au four (fromage AOP, le plus odorant de France — produit dans l'Avesnois à 80 km), bières du Nord. Spécialité sucrée : tarte au libouli (gâteau picard à la crème pâtissière sur pâte feuilletée). Vins : Champagne (à 50 km), Coteaux Champenois (rouge tranquille).",
+      },
+    ],
+    relatedCities: ["laon"],
+    relatedGuides: [
+      "vivre-en-hauts-de-france-guide-2026",
+    ],
+    tags: ["10 choses à faire à Laon", "activités Laon 2026", "sorties Laon", "que faire à Laon", "cathédrale gothique remparts Chemin Dames Reims Champagne POMA"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
