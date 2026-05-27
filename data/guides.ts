@@ -29948,6 +29948,480 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["10 choses à faire à Laon", "activités Laon 2026", "sorties Laon", "que faire à Laon", "cathédrale gothique remparts Chemin Dames Reims Champagne POMA"],
   },
+  {
+    slug: "10-choses-a-faire-a-charleville-mezieres-2026",
+    title: "10 choses à faire à Charleville-Mézières (la place ducale et Rimbaud)",
+    metaTitle: "10 choses à faire à Charleville-Mézières 2026 — activités et sorties locales",
+    metaDesc: "Place ducale, musée Rimbaud, Festival mondial des Théâtres de Marionnettes et vallée de la Meuse : 10 activités à Charleville-Mézières pour découvrir la préfecture ardennaise.",
+    category: "tourisme",
+    emoji: "🎭",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Charleville-Mézières est la préfecture des Ardennes, 47 000 habitants au confluent de la Meuse et de la Vence. Deux villes en une : Charleville (créée en 1606 par Charles de Gonzague, autour de la place ducale Louis XIII — l'une des plus belles places de France, sœur jumelle de celle des Vosges à Paris) et Mézières (cité médiévale fortifiée). Patrie d'Arthur Rimbaud (1854-1891, le « poète de génie » — bateau ivre, illuminations). Capitale mondiale de la marionnette (festival international biennal).",
+    sections: [
+      {
+        heading: "1. La place ducale — sœur de la place des Vosges",
+        body: "La place ducale (1606-1620, conçue par Clément Métezeau — frère de Louis Métezeau qui dessina la place des Vosges à Paris pour Henri IV) est l'une des plus belles places de France. Place rectangulaire (130 m × 80 m) entièrement bordée d'arcades et de façades en briques roses et pierre blanche — modèle Louis XIII typique. Hôtel de Ville (XVIIIe siècle) au centre. Terrasses ombragées sous les arcades, marché du jeudi et samedi matin.",
+      },
+      {
+        heading: "2. Le musée Rimbaud — la maison natale du poète",
+        body: "Le musée Arthur-Rimbaud (sur le quai Arthur-Rimbaud, dans un ancien moulin du XVIIe siècle au bord de la Meuse) retrace la vie et l'œuvre du poète né à Charleville en 1854. Manuscrits autographes (« Voyelles », « Bateau ivre »), photographies, lettres à Verlaine. La Maison des Ailleurs (à 200 m, ancienne maison Rimbaud, rue Pierre-Bérégovoy) est une scénographie immersive contemporaine. Tombe de Rimbaud au cimetière municipal (modeste stèle blanche). Promenade « sur les pas de Rimbaud » à pied.",
+      },
+      {
+        heading: "3. Le Festival mondial des Théâtres de Marionnettes",
+        body: "Le Festival mondial des Théâtres de Marionnettes de Charleville-Mézières (créé en 1961, biennal — années impaires en septembre, 10 jours) est le plus grand festival de marionnettes au monde — 200 compagnies internationales, 100 000 spectateurs. Spectacles dans toute la ville (salles, place ducale, rues). Charleville est la capitale mondiale de la marionnette — l'Institut International de la Marionnette (école et conservatoire) est unique au monde.",
+      },
+      {
+        heading: "4. Le Grand Marionnettiste — la sculpture animée",
+        body: "Le Grand Marionnettiste (place Winston-Churchill, sculpture animée de 1991 par Jacques Monestier) est l'attraction urbaine emblématique de Charleville-Mézières — automate de 8,50 m de hauteur qui anime des marionnettes dans un théâtre miniature toutes les heures de 10h à 21h (de 12 spectacles par jour, durée 3 min — légende des Quatre Fils Aymon). Gratuit. Sculpture animée la plus haute d'Europe.",
+      },
+      {
+        heading: "5. La basilique Notre-Dame-d'Espérance",
+        body: "La basilique Notre-Dame-d'Espérance de Mézières (XVe-XVIe siècles, gothique flamboyant) est l'un des derniers monuments médiévaux conservés malgré les destructions. Vitraux contemporains du XXe siècle (par René Dürrbach, 60 vitraux abstraits — l'un des plus beaux ensembles contemporains d'art religieux en France, achevés en 1979). Lieu de pèlerinage marial régional. Charles IX y épousa Élisabeth d'Autriche en 1570.",
+      },
+      {
+        heading: "6. La vallée de la Meuse et la voie verte",
+        body: "La vallée de la Meuse (en aval de Charleville vers la Belgique, sur 50 km) est l'une des plus belles vallées encaissées du nord de la France — falaises ardoisières, méandres serrés, forêts ardennaises. Voie verte cyclable de la Meuse (60 km, plate, ombragée, le long de l'ancien chemin de halage). Trois villes à visiter : Monthermé (au confluent de la Semoy — village ardennais perché), Bogny-sur-Meuse (Roc de la Tour), Givet (forteresse de Charlemont, frontalière avec la Belgique).",
+      },
+      {
+        heading: "7. Le château fort de Sedan — le plus grand d'Europe",
+        body: "Le château fort de Sedan (à 20 km à l'est de Charleville-Mézières, XVe-XVIIIe siècles) est le plus grand château fort d'Europe en superficie (35 000 m² — plus que Carcassonne). Sept étages de salles voûtées, donjon, salle des Princes (XVIe siècle). Sedan fut le lieu de la défaite de Napoléon III contre les Prussiens en 1870 (capitulation française qui mit fin au Second Empire). À combiner avec une journée à Charleville.",
+      },
+      {
+        heading: "8. Le parc Saint-Hubert et les forêts ardennaises",
+        body: "Le Parc Saint-Hubert (au cœur de la forêt ardennaise, à 30 km au sud-est de Charleville) est un parc animalier semi-naturel — 800 animaux européens en semi-liberté sur 60 ha (sangliers, cerfs, biches, daims, mouflons). Spectacle de fauconnerie (rapaces en vol libre, juin-août). Le massif des Ardennes (300 km² de forêts denses) est l'un des derniers massifs forestiers sauvages de France — sentiers balisés, randonnées en boucle.",
+      },
+      {
+        heading: "9. Le musée de l'Ardenne — le département en 4 étages",
+        body: "Le Musée de l'Ardenne (place Ducale, ancien hôtel particulier XVIIe siècle) présente l'histoire et le patrimoine du département des Ardennes — sur 4 étages chronologiques (de la préhistoire au XXe siècle). Section ardoise (carrières d'ardoise de Rimogne, exploitées jusqu'aux années 1970), section industrielle (métallurgie ardennaise, manufactures d'armes de Mézières), section beaux-arts (peintures ardennaises). Gratuit le premier dimanche.",
+      },
+      {
+        heading: "10. Gastronomie ardennaise — cacasse et boulets",
+        body: "La cuisine ardennaise est rustique et fromagère : cacasse à cul nu (pommes de terre cuites en cocotte avec lard et oignons), boulets liégeois (boulettes de viande à la sauce sirop, héritage de la cuisine wallonne — Liège à 50 km), salade ardennaise (jambon d'Ardenne, gésiers, lardons, pommes de terre tièdes), jambon d'Ardenne IGP (séché 9 mois à l'air ardennais). Fromages : Maroilles AOP (à 100 km), Trappe d'Échourgnac. Bière ardennaise (Choulette, Chti, Orval à 25 km en Belgique). Tarte au sucre.",
+      },
+    ],
+    relatedCities: ["charleville-mezieres"],
+    relatedGuides: [
+      "vivre-en-grand-est-alsace-moselle-guide-2025",
+    ],
+    tags: ["10 choses à faire à Charleville-Mézières", "activités Charleville 2026", "sorties Charleville-Mézières", "que faire à Charleville", "place ducale Rimbaud marionnettes Meuse Ardennes Sedan"],
+  },
+  {
+    slug: "10-choses-a-faire-a-saint-die-des-vosges-2026",
+    title: "10 choses à faire à Saint-Dié-des-Vosges (la cité du géographe et le massif vosgien)",
+    metaTitle: "10 choses à faire à Saint-Dié-des-Vosges 2026 — activités et sorties locales",
+    metaDesc: "Cathédrale, baptême de l'Amérique, Festival international de Géographie, Gérardmer et Hautes-Vosges : 10 activités à Saint-Dié-des-Vosges.",
+    category: "tourisme",
+    emoji: "🌲",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Saint-Dié-des-Vosges est une sous-préfecture des Vosges, 19 000 habitants au cœur du massif vosgien (à 350 m d'altitude). La ville est mondialement connue pour avoir « baptisé l'Amérique » en 1507 — c'est à l'imprimerie locale (les Gymnastes de Vosges) que parut la Cosmographiae Introductio de Martin Waldseemüller, premier texte à utiliser le nom « America » pour le Nouveau Monde. Saint-Dié organise le Festival international de Géographie (FIG, premier festival géographique au monde).",
+    sections: [
+      {
+        heading: "1. Le baptême de l'Amérique — la Cosmographiae Introductio",
+        body: "En 1507, à l'imprimerie des Gymnastes de Saint-Dié (où s'étaient réunis Martin Waldseemüller, Mathias Ringmann et le duc René II de Lorraine), parut la Cosmographiae Introductio — premier texte à utiliser le nom « America » pour les terres découvertes par Amerigo Vespucci. C'est donc à Saint-Dié que l'Amérique a été « baptisée ». La bibliothèque municipale conserve un exemplaire (l'un des cinq au monde — il y en a 4 aux États-Unis). Salle « baptême de l'Amérique » à la mairie.",
+      },
+      {
+        heading: "2. La cathédrale Saint-Dié et la cloître roman",
+        body: "La cathédrale Saint-Dié (XIe-XVe siècles, romane à l'est et gothique à l'ouest — assemblage roman-gothique unique en France) est l'un des plus beaux ensembles ecclésiaux des Vosges. Vitraux contemporains du XXe siècle. Cloître roman du XIIe siècle (l'un des plus beaux cloîtres romans de l'Est, conservé). Reconstruite après la destruction nazie du 8 novembre 1944 (Saint-Dié a été incendiée à 80 % par les Allemands en retraite). Le Cloître attenant abrite des concerts en été.",
+      },
+      {
+        heading: "3. Le FIG — Festival international de Géographie",
+        body: "Le Festival international de Géographie de Saint-Dié-des-Vosges (créé en 1990 par Christian Pierret, premier festival géographique au monde — 30 000 visiteurs, 200 conférences) se tient le premier week-end d'octobre. Thèmes : un pays invité, un continent et un sujet transversal (climat, migrations, énergies). Conférences gratuites par des universitaires (Sylvain Tesson, Yves Lacoste). Salon international du Livre de Géographie (le seul au monde du genre). Imperdable pour les passionnés.",
+      },
+      {
+        heading: "4. Gérardmer — la « Perle des Vosges »",
+        body: "Gérardmer (à 25 km au sud-ouest de Saint-Dié, sur le plus grand lac naturel des Vosges — 116 ha à 666 m d'altitude) est la grande station balnéaire et de ski des Vosges. Baignade en été (plages aménagées, eau à 22°C), pédalo, planche à voile. En hiver : station de ski La Mauselaine (40 km de pistes), ski de fond, raquettes. Festival International du Film fantastique de Gérardmer (fin janvier, premier festival fantastique français — équivalent du Sitges espagnol).",
+      },
+      {
+        heading: "5. La route des Crêtes et le Hohneck",
+        body: "La route des Crêtes (D430, 73 km sur la ligne de crête vosgienne, de Cernay à Sainte-Marie-aux-Mines) est l'une des plus belles routes panoramiques de France — créée en 1914 pour des raisons militaires. Étape Le Markstein-Hohneck (1 363 m, l'un des plus hauts sommets vosgiens, vue à 360° sur la Forêt-Noire et les Alpes par temps clair). Le Grand Ballon (1 424 m, point culminant des Vosges). Chaumes (prairies d'altitude) et fermes-auberges traditionnelles.",
+      },
+      {
+        heading: "6. La Roche du Diable et le rocher de la Pierre d'Appel",
+        body: "Le rocher de la Pierre d'Appel (à 5 km au nord de Saint-Dié, 480 m d'altitude) est un éperon gréseux qui domine la vallée de la Meurthe — site préhistorique celtique (occupation à l'Âge du Fer, oppidum gallo-romain), vue panoramique sur les Vosges. Accessible à pied en 30 min depuis le parking. La Roche du Diable (à 15 km vers Gérardmer, 800 m d'altitude, formation rocheuse mystérieuse) est l'un des hauts lieux légendaires des Vosges (« diable qui s'est posé là »).",
+      },
+      {
+        heading: "7. La déportation et le camp du Struthof",
+        body: "Le camp de concentration de Natzweiler-Struthof (à 50 km au sud de Saint-Dié, sur la commune de Natzwiller dans le Bas-Rhin) est le seul camp de concentration nazi sur le sol de la France actuelle (Alsace annexée 1940-1944). Mémorial national, musée, baraquements préservés. 22 000 morts entre 1941 et 1944. Visite gratuite. À combiner avec Schirmeck et le Mémorial de l'Alsace-Moselle.",
+      },
+      {
+        heading: "8. La promenade des Trois-Massifs et le Camp celtique de la Bure",
+        body: "Le Camp celtique de la Bure (à 8 km au nord de Saint-Dié, 580 m d'altitude) est l'un des plus beaux oppidums celtiques fouillés en France — habitations gauloises reconstituées sur le site d'origine. Vestiges en place visibles, panneaux d'interprétation. Sentier de 4 km en boucle accessible à pied depuis le parking de la Pierre d'Appel. Vue sur les massifs de Donon (à l'est) et de Sainte-Odile (au nord). Gratuit.",
+      },
+      {
+        heading: "9. La Bresse — station de ski et tourisme nature",
+        body: "La Bresse (à 30 km au sud-ouest de Saint-Dié) est la première station de ski des Vosges (40 km de pistes, 30 remontées mécaniques — l'une des trois plus grandes stations vosgiennes avec Gérardmer et Métabief). En été : VTT (200 km de pistes balisées), randonnées (sentier des Roches), via ferrata, parapente. Marché du jeudi (produits vosgiens : myrtilles, miel, fromages, bières artisanales).",
+      },
+      {
+        heading: "10. Gastronomie vosgienne — munster et myrtilles",
+        body: "La cuisine vosgienne est une cuisine de moyenne montagne riche : fromages AOP (Munster — fromage à pâte molle au lait cru produit dans les chaumes, et la fameuse \"munster à la cumin\"), tofailles (gratin de pommes de terre au lard et fromage de munster), tartes flambées (\"flammekueche\" — héritage alsacien à 50 km), choucroute. Spécialités sucrées : tarte aux myrtilles des Vosges (myrtilles sauvages cueillies en altitude — août), Confit de Bonbon des Vosges, Eau-de-vie de mirabelle de Lorraine. Vins : Côtes de Toul, Crémant d'Alsace (à 80 km).",
+      },
+    ],
+    relatedCities: ["saint-die-des-vosges"],
+    relatedGuides: [
+      "vivre-en-grand-est-alsace-moselle-guide-2025",
+    ],
+    tags: ["10 choses à faire à Saint-Dié-des-Vosges", "activités Saint-Dié 2026", "sorties Saint-Dié-des-Vosges", "que faire à Saint-Dié", "baptême Amérique FIG géographie Gérardmer Hohneck Vosges"],
+  },
+  {
+    slug: "10-choses-a-faire-a-pontarlier-2026",
+    title: "10 choses à faire à Pontarlier (la ville la plus haute de France et l'absinthe)",
+    metaTitle: "10 choses à faire à Pontarlier 2026 — activités et sorties locales",
+    metaDesc: "Absinthe, musée du Pays du Haut-Doubs, lac Saint-Point, château de Joux et fromage Comté : 10 activités à Pontarlier pour découvrir le Doubs frontalier.",
+    category: "tourisme",
+    emoji: "🌿",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Pontarlier est la sous-préfecture du Haut-Doubs, 17 000 habitants à 837 m d'altitude — la deuxième ville la plus haute de France (après Briançon). Capitale historique de l'absinthe (« Fée verte ») — interdite en France de 1915 à 2011, c'est ici que la liqueur reprend vie. Aux portes du parc naturel régional du Haut-Jura, à 15 km de la Suisse, Pontarlier est la porte du fromage Comté AOP, des montagnes du Jura et du « Pays Horloger ».",
+    sections: [
+      {
+        heading: "1. L'absinthe — la « Fée verte » retrouvée",
+        body: "Pontarlier fut la capitale mondiale de l'absinthe à la Belle Époque (jusqu'à 25 distilleries en 1900 — Pernod, Premier Fils, Edouard Pernod, Cusenier produisaient ici). L'absinthe fut interdite en France de 1915 à 2011 (accusée de rendre fou — Verlaine, Rimbaud, Toulouse-Lautrec en abusaient). Aujourd'hui, 5 distilleries d'absinthe ouvertes au public — Distillerie Émile Pernot (à Doubs, fondée en 1890), Distillerie La Compagnie des Spiritueux. Musée de l'Absinthe à 30 min en Suisse (Val-de-Travers).",
+      },
+      {
+        heading: "2. Le musée du Pays du Haut-Doubs",
+        body: "Le musée du Pays du Haut-Doubs (au cœur de Pontarlier, ancienne église des Annonciades XVIIe siècle) est le centre d'interprétation régional. Section absinthe (la plus complète au monde — histoire de la fée verte, paraphernalia : verres absinthe, fontaines à eau, cuillères perforées), section ethnographie comtoise (vie paysanne du Haut-Doubs), section horlogerie. Gratuit. Visite indispensable pour comprendre la culture régionale.",
+      },
+      {
+        heading: "3. Le lac Saint-Point — le plus grand lac naturel de Franche-Comté",
+        body: "Le lac Saint-Point (à 10 km au sud-est de Pontarlier, 4ème plus grand lac naturel de France métropolitaine après le Léman, le Bourget et Annecy — 8 km de long, 850 ha) est le lac emblématique du Haut-Doubs. Baignade en juillet-août (eau à 20°C), école de voile, paddle. Sentier de 24 km en boucle autour du lac (cyclable). Pour info : le lac est gelé chaque hiver, sports d'hiver pratiqués sur la glace (patinage, char à voile sur glace).",
+      },
+      {
+        heading: "4. Le château de Joux — la forteresse Vauban",
+        body: "Le château de Joux (à 5 km au sud de Pontarlier, XIe-XIXe siècles — fortifié par Vauban en 1690) est l'un des plus impressionnants châteaux forts de France — perché à 950 m d'altitude sur un éperon rocheux surplombant la cluse de Pontarlier (le « passage de la Suisse »). 5 enceintes successives. Toussaint Louverture (le « Spartacus noir » — chef de la révolution haïtienne) y mourut en captivité en 1803. Mirabeau et Heinrich von Kleist y furent aussi enfermés.",
+      },
+      {
+        heading: "5. Le fromage Comté AOP et les fruitières",
+        body: "Le Comté AOP (le plus vendu des fromages AOP français — 70 000 tonnes/an) est la fierté du Haut-Doubs. 150 fruitières (coopératives villageoises de production) sur la zone Comté — Doubs, Jura, Ain. Maison du Comté à Poligny (à 50 km à l'ouest, capitale du Comté). Pontarlier compte plusieurs fruitières visitables — Fruitière de Doubs, Fruitière de Verrières-de-Joux. Affinage : 4 mois minimum, jusqu'à 36 mois pour les « Vieux Comté ». Visite gratuite.",
+      },
+      {
+        heading: "6. La cascade du Saut du Doubs — frontière franco-suisse",
+        body: "La cascade du Saut du Doubs (à 30 km au sud-est de Pontarlier, sur la frontière franco-suisse) est l'une des plus belles cascades de France — chute de 27 m du Doubs entre des falaises de 200 m. Accessible par bateau touristique au départ du lac de Chaillexon (Villers-le-Lac, demi-journée) ou par sentier pédestre de 4 km au départ de Villers. Bassins du Doubs (lacs en chapelet le long de la frontière). Site classé Grand Site de France depuis 2008.",
+      },
+      {
+        heading: "7. La cluse de Pontarlier et le Mont d'Or",
+        body: "La cluse de Pontarlier (passage naturel entre les massifs jurassiens, voie historique entre la France et la Suisse — utilisée par les Romains, les contrebandiers et les passeurs de la guerre) est dominée à l'ouest par le Mont d'Or (1 463 m, point culminant du Doubs — vue à 360°). Accessible en voiture ou à pied par sentier (3h aller). Pour info : c'est aussi le fromage Mont d'Or AOP (vacherin de Haut-Doubs, lait cru, pâte molle, ceinturé d'écorce d'épicéa — produit uniquement d'août à mars).",
+      },
+      {
+        heading: "8. La porte Saint-Pierre et la vieille ville",
+        body: "La vieille ville de Pontarlier (incendiée à plusieurs reprises au cours de son histoire — détruite en 1736 par incendie, reconstruite en pierre) est rebâtie au XVIIIe siècle dans un style classique. La Porte Saint-Pierre (1771, néo-classique, à l'entrée de la rue de la République) est l'emblème de la reconstruction. Boulevard de la Hocquette (terrasses), marché du jeudi matin sur la place Saint-Pierre. L'église Saint-Bénigne (XVe siècle, reconstruite après incendies) garde son chœur d'origine.",
+      },
+      {
+        heading: "9. Métabief — la station de ski transfrontalière",
+        body: "Métabief (à 15 km au sud de Pontarlier, à 1 000 m d'altitude, station de ski) est la plus grande station de ski alpin du Doubs — 35 km de pistes alpines, 90 km de pistes de ski de fond (Métabief est aussi une station de fond renommée — Coupe du monde organisée). En été : VTT de descente (l'une des plus grandes pistes de VTT d'enduro de France — coupe de France), bike park, randonnée. Le Mont d'Or et le belvédère des Quatre-Lacs sont accessibles depuis la station.",
+      },
+      {
+        heading: "10. Gastronomie franc-comtoise — saucisse de Morteau et Mont d'Or",
+        body: "La cuisine du Haut-Doubs est riche en produits charcutiers et fromagers : saucisse de Morteau IGP (saucisse fumée au bois d'épicéa, taille démesurée — la plus emblématique du Doubs), saucisse de Montbéliard IGP, jambon fumé du Haut-Doubs, brési (viande des Grisons jurassienne — bœuf séché). Fromages AOP : Comté (le roi), Mont d'Or (vacherin Haut-Doubs, ceinturé d'écorce — produit uniquement août-mars, fondu façon « boîte chaude »). Spécialité : Morbier AOP (à 50 km). Vins : Arbois (jaune, AOC à 50 km), Vin de Paille.",
+      },
+    ],
+    relatedCities: ["pontarlier"],
+    relatedGuides: [
+      "vivre-en-franche-comte-jura-guide-2025",
+      "vivre-en-bourgogne-franche-comte-guide-2025",
+    ],
+    tags: ["10 choses à faire à Pontarlier", "activités Pontarlier 2026", "sorties Pontarlier", "que faire à Pontarlier", "absinthe Saint-Point Joux Comté Mont d'Or Métabief"],
+  },
+  {
+    slug: "10-choses-a-faire-a-saint-omer-2026",
+    title: "10 choses à faire à Saint-Omer (le marais audomarois et la cathédrale)",
+    metaTitle: "10 choses à faire à Saint-Omer 2026 — activités et sorties locales",
+    metaDesc: "Marais audomarois, cathédrale, ruines de Saint-Bertin, distillerie de gin et coupole d'Helfaut : 10 activités à Saint-Omer pour découvrir le sud des Hauts-de-France.",
+    category: "tourisme",
+    emoji: "🛶",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Saint-Omer est une sous-préfecture du Pas-de-Calais, 14 000 habitants à 50 km au sud-est de Calais. La ville est célèbre pour son marais audomarois (10 000 ha de canaux, seul marais maraîcher cultivé en France — 3 000 parcelles de jardins flottants), sa cathédrale Notre-Dame (XIIIe-XVIe siècles, l'une des plus grandes du nord) et son patrimoine industriel cristallier (Arques, Cristal d'Arques — premier verrier de France à 5 km).",
+    sections: [
+      {
+        heading: "1. Le marais audomarois — UNESCO Géopark",
+        body: "Le marais audomarois (10 000 ha à l'est de Saint-Omer, créé par le creusement médiéval des moines de Saint-Bertin) est unique en France — seul marais maraîcher cultivé encore en activité (3 600 parcelles de jardins flottants, légumes — choux-fleurs, chicons, salades). Classé Réserve de biosphère UNESCO en 2013. Promenades en barque traditionnelle « escute » (location à La Maison du Marais à Saint-Martin-lez-Tatinghem — guide ou autonomie, 1h-3h). 700 km de canaux navigables.",
+      },
+      {
+        heading: "2. La cathédrale Notre-Dame — gothique flamboyant",
+        body: "La cathédrale Notre-Dame de Saint-Omer (XIIIe-XVIe siècles, gothique flamboyant à la fin) est l'une des plus grandes du nord de la France — 105 m de long, 5 600 m². Orgue Cavaillé-Coll (l'un des plus grands de France, 4 claviers, 60 jeux). Tour-clocher culminant à 50 m. Visite gratuite. Mausolée d'Eustache de Croÿ (XVe siècle, sculpture funéraire renommée). Hôtel-Dieu attenant (XVIIe siècle).",
+      },
+      {
+        heading: "3. Les ruines de l'abbaye Saint-Bertin — romantiques",
+        body: "Les ruines de l'abbaye Saint-Bertin (VIIe-XVIIIe siècles, fondée en 660 par Saint-Bertin — l'une des plus puissantes abbayes médiévales du nord) sont les vestiges romantiques de ce qui fut l'une des plus grandes abbayes bénédictines d'Europe (église gothique de 100 m de long, équivalente à une cathédrale). Détruite en 1830 (pillage des pierres par les habitants), il reste la tour Saint-Bertin (50 m, isolée dans un parc — emblème de la ville). Accès libre. Géré par la ville.",
+      },
+      {
+        heading: "4. La distillerie Persyn — Cuvée Or et gin Houlle",
+        body: "La distillerie Persyn (à 5 km de Saint-Omer, à Houlle — depuis 1812, dernière distillerie de genièvre encore en activité en France) produit le célèbre genièvre de Houlle — eau-de-vie de céréale aux baies de genévrier, traditionnellement consommé après le café (« le pousse-café du Nord »). Visite (gratuite, sur rdv) avec démonstration de distillation à l'alambic en cuivre. Boutique et dégustation. Le genièvre flamand est l'ancêtre du gin britannique.",
+      },
+      {
+        heading: "5. Le musée Sandelin — collection extraordinaire",
+        body: "Le musée Sandelin de Saint-Omer (hôtel particulier XVIIIe siècle) est l'un des musées de France les plus sous-cotés — peintures flamandes XVe-XVIIe siècles (Brueghel, Rubens, Van Dyck), collection d'objets d'art décoratifs (faïence de Saint-Omer, ivoires anglo-saxons médiévaux — l'une des plus belles collections d'Europe). Section archéologie. Gratuit le premier dimanche. Réouvert après rénovation en 2017.",
+      },
+      {
+        heading: "6. La coupole d'Helfaut — base V-2 nazie",
+        body: "La Coupole d'Helfaut (à 8 km au sud-ouest de Saint-Omer) est l'une des plus impressionnantes constructions militaires nazies — base souterraine de lancement de fusées V-2 contre Londres (jamais achevée à cause des bombardements alliés). Coupole de béton de 71 m de diamètre et 5 m d'épaisseur. Aujourd'hui musée de la Seconde Guerre mondiale et de la Conquête spatiale (parcours V-2 vers Saturn V vers fusée Ariane). Planétarium attenant.",
+      },
+      {
+        heading: "7. La verrerie d'Arques — la cristallerie",
+        body: "Arques (à 5 km à l'est de Saint-Omer) est le siège de la cristallerie d'Arques (« Arc International » — premier verrier de France, 10 000 employés au pic des années 1980, encore 4 000 aujourd'hui). Visite des ateliers de fabrication de verre (sur réservation, démonstration de souffleurs de verre — magasin d'usine avec verres et carafes à prix d'usine). Production de marques mondialement connues (Luminarc, Cristal d'Arques).",
+      },
+      {
+        heading: "8. Les jardins de la Coupole et le jardin public",
+        body: "Le jardin public de Saint-Omer (créé au XIXe siècle, l'un des plus beaux jardins urbains du Pas-de-Calais — 8 ha, prix des Quatre Fleurs) déploie roseraies, parterres XIXe siècle, étangs, sculptures. Le jardin médiéval reconstitué à proximité de la cathédrale présente des plantes utilisées au Moyen Âge (médicinales, condimentaires, tinctoriales). Saison fleurie d'avril à octobre. Accès gratuit.",
+      },
+      {
+        heading: "9. La Côte d'Opale — Calais et le Cap Blanc-Nez",
+        body: "La Côte d'Opale (côte du Pas-de-Calais, à 30 km de Saint-Omer) est l'une des plus belles côtes du Nord — falaises blanches du Cap Blanc-Nez (134 m de hauteur, vue sur l'Angleterre à 32 km par temps clair), Cap Gris-Nez (45 m, le point le plus proche de l'Angleterre), Boulogne-sur-Mer (à 50 km, premier port de pêche français, vieille ville fortifiée). Calais (à 50 km) abrite la Cité de la Dentelle et de la Mode.",
+      },
+      {
+        heading: "10. Gastronomie nord — chicons et Maroilles",
+        body: "La cuisine du Nord-Pas-de-Calais mêle Flandre et Picardie : chicons au gratin (endives à la béchamel et jambon — plat populaire), waterzoï (de poule ou de poisson, héritage flamand), carbonade flamande (bœuf à la bière brune), ficelle picarde (crêpe roulée). Spécialité audomaroise : choux-fleurs du marais (récoltés en mai-juin — produit emblématique des jardins flottants). Fromages : Maroilles AOP (le plus odorant de France, à 100 km), Mimolette de Lille. Bières du Nord (Chti, 3 Monts, Saint-Sylvestre).",
+      },
+    ],
+    relatedCities: ["saint-omer"],
+    relatedGuides: [
+      "vivre-en-hauts-de-france-guide-2026",
+    ],
+    tags: ["10 choses à faire à Saint-Omer", "activités Saint-Omer 2026", "sorties Saint-Omer", "que faire à Saint-Omer", "marais audomarois UNESCO cathédrale Coupole Helfaut Arques chicons"],
+  },
+  {
+    slug: "10-choses-a-faire-a-chateauroux-2026",
+    title: "10 choses à faire à Châteauroux (le couvent des Cordeliers et la Brenne)",
+    metaTitle: "10 choses à faire à Châteauroux 2026 — activités et sorties locales",
+    metaDesc: "Couvent des Cordeliers, château Raoul, parc Balsan, parc naturel régional de la Brenne et George Sand : 10 activités à Châteauroux pour découvrir la préfecture de l'Indre.",
+    category: "tourisme",
+    emoji: "🦆",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Châteauroux est la préfecture de l'Indre, 43 000 habitants au cœur du Berry. La ville est dominée par le château Raoul (XIVe siècle, ancienne résidence des seigneurs de Châteauroux — aujourd'hui préfecture). À 30 km du Parc naturel régional de la Brenne (« Pays des mille étangs ») et à 30 km de Nohant (maison de George Sand), Châteauroux est la porte d'entrée du Berry central — terre d'eau et de lentilles vertes du Berry.",
+    sections: [
+      {
+        heading: "1. Le couvent des Cordeliers — la nef gothique",
+        body: "Le couvent des Cordeliers (XIIIe-XVe siècles, ancien couvent franciscain — l'un des plus anciens monastères mendiants conservés en France) est aujourd'hui un centre culturel. L'ancienne église gothique abrite des expositions temporaires d'art contemporain. Le cloître attenant accueille des concerts en été. Architecture sobre et puissante — typique de l'art mendiant médiéval. Visite gratuite. À côté, la rue Saint-Sébastien (axe commerçant principal).",
+      },
+      {
+        heading: "2. Le château Raoul — la préfecture",
+        body: "Le château Raoul (XIVe siècle, agrandi au XVIIe siècle, sur les hauteurs de Châteauroux) est l'ancienne résidence des seigneurs de Châteauroux — depuis 1500 propriété de la Maison de Lorraine puis des Bourbon-Condé. Aujourd'hui préfecture de l'Indre (rare cas de préfecture installée dans un château médiéval). Visite extérieure libre, intérieurs visitables lors des Journées du Patrimoine en septembre. Vue panoramique sur la vallée de l'Indre.",
+      },
+      {
+        heading: "3. Le parc naturel régional de la Brenne — « Pays des mille étangs »",
+        body: "Le PNR de la Brenne (à 30 km à l'ouest de Châteauroux, 166 000 ha) est l'une des plus importantes zones humides de France — 2 000 étangs créés du Moyen Âge au XVIIIe siècle pour l'élevage de carpes. Aujourd'hui réserve ornithologique de premier ordre — 280 espèces d'oiseaux dont 16 espèces de hérons, cigognes noires, busards. Maison du Parc à Le Bouchet (gratuit), observatoires d'oiseaux, sentier des étangs. Spécialité gastronomique : carpe à la Brenne (carpe farcie aux champignons).",
+      },
+      {
+        heading: "4. Nohant — la maison de George Sand",
+        body: "Nohant-Vic (à 30 km au sud-est de Châteauroux) est le village de George Sand (Aurore Dupin, 1804-1876, l'une des plus grandes romancières françaises du XIXe siècle — la Mare au Diable, François le Champi, la Petite Fadette). Le château de Nohant (modeste manoir où elle vécut et reçut Chopin, Liszt, Delacroix, Balzac, Flaubert) est ouvert au public. Mobilier d'origine. Tombe de George Sand dans le jardin. Festival de musique romantique en juillet (« Chopin à Nohant », concerts dans la maison même).",
+      },
+      {
+        heading: "5. Le parc Balsan — patrimoine industriel",
+        body: "Le parc Balsan (à Châteauroux, ancienne manufacture de drap militaire — Auguste Balsan, fournisseur des armées impériales et coloniales au XIXe siècle, mariage avec Consuelo Vanderbilt fille du milliardaire américain en 1908). Halles industrielles XIXe siècle reconverties en centre culturel — médiathèque, école de musique, salles d'exposition. Architecture industrielle d'une rare élégance, parc paysager 5 ha. Pour info : Consuelo Vanderbilt-Balsan vécut au château de Loches.",
+      },
+      {
+        heading: "6. Le musée Bertrand — Napoléon et Saint-Hélène",
+        body: "Le Musée Bertrand de Châteauroux (hôtel particulier XVIIIe siècle) est dédié au général Henri-Gatien Bertrand (1773-1844), grand maréchal du palais sous Napoléon, qui suivit l'Empereur en exil à Sainte-Hélène. Collection unique en France : objets ramenés de Sainte-Hélène par Bertrand après la mort de Napoléon (mèche de cheveux, masque mortuaire — l'un des trois conservés au monde, vêtements, mobilier). Section beaux-arts XVIIe-XIXe siècles.",
+      },
+      {
+        heading: "7. Issoudun et le centre Saint-Roch",
+        body: "Issoudun (à 30 km au nord-est de Châteauroux) est la deuxième ville de l'Indre. Le Centre Saint-Roch (ancien hôpital XIIe-XIIIe siècles) est l'un des plus rares ensembles hospitaliers médiévaux conservés en France. À voir : Tour Blanche (XIIe siècle, donjon de Richard Cœur de Lion — 27 m), beffroi du XVe siècle, hôtels particuliers Renaissance. Issoudun est aussi célèbre pour ses pâtés de pommes de terre et le festival de musique baroque (juillet).",
+      },
+      {
+        heading: "8. La forêt de Châteauroux — chênaie domaniale",
+        body: "La forêt domaniale de Châteauroux (5 200 ha à l'est de la ville) est l'une des plus belles chênaies de Centre-Val de Loire. Sentiers balisés (45 km), étang du Gabriau (pêche autorisée), allées royales. Faune : cerfs, biches, chevreuils, sangliers. Cueillette de champignons en automne (cèpes, girolles, trompettes). Pour info, la forêt fut un terrain d'entraînement pour la base américaine de Châteauroux-Déols (1951-1967, OTAN — 8 000 GIs y résidaient à l'époque).",
+      },
+      {
+        heading: "9. Saint-Marcel et le théâtre gallo-romain",
+        body: "Saint-Marcel (à 35 km à l'ouest de Châteauroux, sur la commune d'Argentomagus) est l'un des plus importants sites archéologiques gallo-romains de France — Argentomagus était une cité de 6 000 habitants au IIe siècle (capitale des Bituriges Cubes méridionaux). Théâtre romain (60 m de diamètre, restauré), villas, thermes, fontaine monumentale. Musée d'Argentomagus (collection de mobilier antique). Site archéologique gratuit.",
+      },
+      {
+        heading: "10. Gastronomie berrichonne — galette aux pommes de terre et lentille",
+        body: "La cuisine berrichonne est paysanne et goûteuse : pâté berrichon (terrine de porc aux herbes), galette aux pommes de terre (galette dorée au four ou à la poêle, parfois aux œufs), poulet en barbouille (poulet sauté à la sauce sang — héritage de la cuisine de chasse), pôchouse berrichonne (ragoût de poissons d'étangs de la Brenne — carpe, brochet, sandre). Spécialités : lentille verte du Berry (cousine de celle du Puy), fromage Pouligny-Saint-Pierre AOP (chèvre pyramidal), Valençay AOP (chèvre tronc à la pointe). Vins : Reuilly (AOC, blanc et rosé à 35 km), Quincy (blanc).",
+      },
+    ],
+    relatedCities: ["chateauroux"],
+    relatedGuides: [
+      "vivre-en-centre-val-de-loire-guide-2026",
+    ],
+    tags: ["10 choses à faire à Châteauroux", "activités Châteauroux 2026", "sorties Châteauroux", "que faire à Châteauroux", "Cordeliers château Raoul Brenne Nohant George Sand"],
+  },
+  {
+    slug: "10-choses-a-faire-a-nevers-2026",
+    title: "10 choses à faire à Nevers (la faïence et la sainte Bernadette)",
+    metaTitle: "10 choses à faire à Nevers 2026 — activités et sorties locales",
+    metaDesc: "Cathédrale Saint-Cyr, palais ducal, faïence de Nevers, sainte Bernadette et Magny-Cours : 10 activités à Nevers pour découvrir la préfecture de la Nièvre.",
+    category: "tourisme",
+    emoji: "🏺",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Nevers est la préfecture de la Nièvre, 32 000 habitants au confluent de la Loire et de la Nièvre. La ville est célèbre pour trois choses : sa faïence (« faïence de Nevers », 17 manufactures au XVIIe siècle — l'une des plus belles traditions céramiques européennes), sainte Bernadette (Bernadette Soubirous, voyante de Lourdes, morte au couvent Saint-Gildard de Nevers en 1879 — corps incorrompu conservé dans la chapelle, lieu de pèlerinage) et le circuit de Magny-Cours (à 15 km — ancien circuit du Grand Prix de France de F1 jusqu'en 2008).",
+    sections: [
+      {
+        heading: "1. La cathédrale Saint-Cyr-et-Sainte-Julitte — deux églises en une",
+        body: "La cathédrale Saint-Cyr-et-Sainte-Julitte (Xe-XVIe siècles, unique en France) a la particularité d'avoir deux absides — une à l'est romane (XIe siècle) et une à l'ouest gothique (XIVe siècle) — résultat de la fusion de deux églises au XIe siècle. Vitraux contemporains du XXe siècle. Reconstruite après les bombardements alliés de 1944. Située sur les hauteurs de Nevers, vue sur la Loire. Visite gratuite.",
+      },
+      {
+        heading: "2. Le palais ducal — Renaissance et faïence",
+        body: "Le palais ducal de Nevers (XVe-XVIe siècles, ancien palais des ducs de Nevers — les Clèves puis les Mantoue-Gonzague italiens) est l'un des plus beaux palais Renaissance du nord de la France — façade sculptée d'une rare élégance, tour octogonale, balustres et chapiteaux Renaissance. Aujourd'hui hôtel de ville et office de tourisme. À l'intérieur : musée municipal (collection de faïences de Nevers — la plus importante au monde, expositions d'art contemporain). Gratuit.",
+      },
+      {
+        heading: "3. La faïence de Nevers — quatre siècles de tradition",
+        body: "La faïence de Nevers (depuis 1568, importée d'Italie par les ducs de Mantoue-Gonzague — 4 siècles de tradition) est l'une des plus belles traditions céramiques européennes. Caractéristique : décors « patronymiques » (paysages, scènes mythologiques sur fond blanc), « bleus de Nevers » (camaïeu bleu cobalt). Aujourd'hui 4 manufactures actives à Nevers — Manufacture Montagnon (créée en 1875, la plus ancienne encore en activité). Visite des ateliers gratuite, boutique. Musée de la Faïence dans le palais ducal.",
+      },
+      {
+        heading: "4. Le couvent Saint-Gildard et sainte Bernadette",
+        body: "Le couvent Saint-Gildard (au cœur de Nevers — couvent des Sœurs de la Charité) abrite le corps incorrompu de sainte Bernadette Soubirous (1844-1879, voyante de Lourdes, morte à 35 ans à Nevers). Elle est exposée dans une châsse de verre depuis sa canonisation en 1933 (le corps est resté intact malgré 4 exhumations — phénomène d'incorruption inexpliqué scientifiquement). Lieu de pèlerinage (300 000 visiteurs/an). Visite gratuite (silence demandé). Cellule reconstituée de Bernadette.",
+      },
+      {
+        heading: "5. Le circuit de Magny-Cours — la F1 et le karting",
+        body: "Le circuit de Magny-Cours (à 15 km au sud de Nevers, dans la Nièvre, créé en 1961) fut le circuit du Grand Prix de France de Formule 1 de 1991 à 2008 (sortie du calendrier en 2009). Aujourd'hui il accueille le Bol d'Or moto, le championnat de France de F4, le karting (l'une des meilleures pistes de karting de France). Visites des stands le mercredi matin. Pour les passionnés de motorsport.",
+      },
+      {
+        heading: "6. La Loire et le pont sur la Loire",
+        body: "La Loire à Nevers (entre la Loire « royale » et la Loire « sauvage ») est l'un des plus beaux paysages fluviaux de France. Le pont de la Loire (XVIIIe siècle, reconstruit) offre une vue panoramique sur la rive sauvage. Promenade des Bords de Loire à pied ou en vélo. Le Loiret (à 90 km à l'ouest) marque la transition vers la Loire majestueuse. Pour info : Nevers est sur la Loire à Vélo (V6, 800 km de pistes cyclables le long du fleuve, de Cuffy à Saint-Nazaire — l'une des plus belles voies vertes d'Europe).",
+      },
+      {
+        heading: "7. La porte du Croux — le donjon médiéval",
+        body: "La porte du Croux (XIIIe siècle, à l'entrée de la vieille ville) est l'un des derniers vestiges de l'enceinte médiévale de Nevers. Bâtiment massif en pierre — porte fortifiée à mâchicoulis qui défendait l'entrée orientale de la ville. Abrite aujourd'hui un musée archéologique (vestiges gallo-romains de Nevers — l'antique Noviodunum, capitale celtique des Éduens). Gratuit.",
+      },
+      {
+        heading: "8. La basilique romane de Saint-Étienne",
+        body: "La basilique Saint-Étienne de Nevers (XIe siècle, romane bourguignonne) est l'une des plus pures basiliques romanes de France — antérieure à la cathédrale, restée intacte. Tour-clocher romane, chevet à déambulatoire, chapiteaux sculptés. Église bénédictine fondée vers 1063 par Mathilde de Bourgogne. Trésor : reliques de saint Étienne. Visite gratuite. Située dans le quartier des Ardilliers (commerçant), à 10 min à pied du palais ducal.",
+      },
+      {
+        heading: "9. Bourges et la cathédrale UNESCO — à 70 km",
+        body: "Bourges (à 70 km à l'ouest de Nevers, dans le Cher) est l'autre grande cité du Berry. La cathédrale Saint-Étienne (XIIe-XIIIe siècles, gothique rayonnant, classée UNESCO 1992 — sœur jumelle de Notre-Dame de Paris, dont elle reprend la même technique architecturale, mais en plus large : 41 m de hauteur sous voûte). Vitraux du XIIIe siècle parmi les plus complets de France. Palais Jacques-Cœur (XVe siècle, gothique flamboyant — l'une des plus belles demeures civiles du Moyen Âge en France).",
+      },
+      {
+        heading: "10. Gastronomie nivernaise — Crottin de Chavignol et bœuf charolais",
+        body: "La cuisine du Berry et du Nivernais est paysanne et fromagère : galette aux pommes de terre (galette dorée), poulet en barbouille (à la sauce sang — héritage de chasse), entrecôte charolaise (le bœuf charolais — race emblématique de la Saône-et-Loire à 60 km à l'est — pâturages d'embouche), Loire sauvage (sandre, brochet, anguille). Fromages AOP : Crottin de Chavignol (à 80 km à l'ouest — chèvre rond), Pouligny-Saint-Pierre, Valençay. Vins : Pouilly-Fumé (AOC, sauvignon blanc à 50 km à l'ouest — l'un des plus grands blancs du Centre), Sancerre (à 70 km).",
+      },
+    ],
+    relatedCities: ["nevers"],
+    relatedGuides: [
+      "vivre-en-bourgogne-franche-comte-guide-2025",
+    ],
+    tags: ["10 choses à faire à Nevers", "activités Nevers 2026", "sorties Nevers", "que faire à Nevers", "cathédrale Saint-Cyr palais ducal faïence Bernadette Magny-Cours"],
+  },
+  {
+    slug: "10-choses-a-faire-a-vesoul-2026",
+    title: "10 choses à faire à Vesoul (le lac et la « ville mille fois trop douce »)",
+    metaTitle: "10 choses à faire à Vesoul 2026 — activités et sorties locales",
+    metaDesc: "Lac de Vesoul, château de la Motte, Jacques Brel, Ronchamp et plateau des Mille Étangs : 10 activités à Vesoul pour découvrir la Haute-Saône.",
+    category: "tourisme",
+    emoji: "🌅",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Vesoul est la préfecture de la Haute-Saône, 15 000 habitants — immortalisée par la chanson de Jacques Brel (1968, « Vesoul » — petit succès qui parle d'un voyage d'amour qui finit dans cette ville méconnue). Au pied de la Motte (colline calcaire de 378 m couronnée d'une chapelle), au bord du lac de Vesoul (le plus grand lac artificiel de Franche-Comté), Vesoul est la porte du plateau des Mille Étangs (200 lacs de cirque glaciaire) et du Ballon des Vosges.",
+    sections: [
+      {
+        heading: "1. Le lac de Vesoul-Vaivre — la base de loisirs",
+        body: "Le lac de Vesoul-Vaivre (à 3 km du centre, 90 ha — créé en 1972 par un barrage) est la grande base de loisirs de Vesoul. Plage de sable aménagée (baignade surveillée juillet-août, eau à 22°C), école de voile et de paddle, location de pédalos, accrobranche dans la forêt environnante. Sentier de 4 km en boucle autour du lac. Site classé Natura 2000 (oiseaux migrateurs). Gratuit.",
+      },
+      {
+        heading: "2. La colline de la Motte et la chapelle",
+        body: "La colline de la Motte (378 m, à 2 km au sud de Vesoul) est l'éminence calcaire qui domine la ville. Au sommet : chapelle Notre-Dame-de-la-Motte (XIXe siècle, néo-gothique) construite en ex-voto par les habitants après l'épidémie de choléra de 1854. Vue panoramique sur Vesoul et la vallée de la Saône, par temps clair les Vosges au nord. Sentier balisé d'1h aller-retour. Lieu de promenade dominicale des Vésuliens.",
+      },
+      {
+        heading: "3. Ronchamp — la chapelle Le Corbusier UNESCO",
+        body: "Notre-Dame-du-Haut de Ronchamp (à 30 km au nord-est de Vesoul, Le Corbusier 1955) est l'un des chefs-d'œuvre de l'architecture du XXe siècle — classée UNESCO en 2016 (œuvre architecturale de Le Corbusier). Chapelle de pèlerinage aux formes organiques et expressionnistes (toit incurvé en béton, murs blancs sculptés). À côté, le couvent Sainte-Claire (architecte Renzo Piano, 2011) complète le site spirituel et architectural. À ne pas manquer même si on n'est pas amateur d'architecture moderne.",
+      },
+      {
+        heading: "4. Le plateau des Mille Étangs — Vosges saônoises",
+        body: "Le plateau des Mille Étangs (à 30 km au nord de Vesoul, dans les Vosges saônoises — entre Mélisey, Faucogney et Servance, 700 m d'altitude) est un paysage unique en France — 200 lacs creusés par les glaciers du Quaternaire, plateau granitique parsemé de forêts, prairies et tourbières. Surnommé « la Petite Finlande française ». Sentier des Mille Étangs (40 km en 3-4 jours, gîtes d'étape). Baignade libre dans plusieurs étangs.",
+      },
+      {
+        heading: "5. Le Ballon de Servance — sommet vosgien",
+        body: "Le Ballon de Servance (1 216 m, à 40 km au nord de Vesoul — point culminant de la Haute-Saône, troisième sommet vosgien après les Ballons d'Alsace et le Grand Ballon) offre une vue panoramique à 360° : massif du Jura (au sud), Vosges (au nord), Alpes par temps clair. Accessible en voiture jusqu'au pied (15 min de marche au sommet) ou par sentier depuis Servance (3h aller). Site Natura 2000 (chamois, lynx).",
+      },
+      {
+        heading: "6. Le château de la Motte et l'abbaye de Faverney",
+        body: "Le château de Filain (à 15 km au nord-ouest de Vesoul, XVIe siècle Renaissance) est l'un des plus beaux châteaux Renaissance de Haute-Saône — façades sculptées, mobilier d'époque, jardin à la française. Visite payante. L'abbaye de Faverney (à 20 km au nord-est, XIIe-XVIIIe siècles) est un ancien monastère bénédictin avec un cloître Renaissance — lieu de pèlerinage marial (Notre-Dame-de-Faverney, statue miraculeuse).",
+      },
+      {
+        heading: "7. Le musée Georges-Garret — peinture et archéologie",
+        body: "Le Musée Georges-Garret de Vesoul (musée municipal) possède une collection riche en peinture du XVIe-XIXe siècles (Brueghel, Courbet, Géricault — natifs de la région), sculptures et art religieux. Section archéologie gallo-romaine (vestiges de Vesoul antique). Gratuit le premier dimanche du mois. Hôtel particulier XVIIIe siècle restauré.",
+      },
+      {
+        heading: "8. Luxeuil-les-Bains — la station thermale",
+        body: "Luxeuil-les-Bains (à 35 km au nord-est de Vesoul) est l'une des plus anciennes stations thermales de France (thermes gallo-romains depuis le Ier siècle — Aquae Luxovii). Aujourd'hui centre thermal actif (cures rhumatologiques). Abbaye Saint-Pierre de Luxeuil (VIIe siècle, fondée par saint Colomban — bénédictin irlandais, l'une des premières grandes abbayes de l'Est de la France). Hôtels particuliers Renaissance dans la rue Carnot.",
+      },
+      {
+        heading: "9. La vallée de la Saône — voie verte cyclable",
+        body: "La Saône (rivière qui passe à 20 km au sud de Vesoul) est l'une des plus belles voies vertes fluviales de France — chemin de halage cyclable plat le long du fleuve. Étape Gray-Pesmes (15 km, beaux paysages de bocage saônois). Gray (à 60 km au sud-ouest de Vesoul, sur la Saône) est une cité gallo-romaine avec son musée Baron-Martin (collection de peintures du XIXe siècle — Géricault, Delacroix, Renoir). Possibilité de croisières fluviales sur la Saône.",
+      },
+      {
+        heading: "10. Gastronomie franc-comtoise — saucisse de Morteau et Comté",
+        body: "La cuisine de Haute-Saône est franc-comtoise classique : saucisse de Morteau IGP, jambon fumé du Haut-Doubs, brési (bœuf séché des Grisons-style), trout au bleu (truite cuite au court-bouillon — saônoise). Fromages AOP : Comté (très répandu), Munster (à 50 km), Cancoillotte (fromage liquide spécifique au Doubs et à la Haute-Saône — fondu, étalable sur le pain). Spécialités sucrées : gâteau de ménage (brioche fromagère), pain d'épices de Vesoul. Vins : Arbois jaune et de paille (à 80 km, AOC du Jura).",
+      },
+    ],
+    relatedCities: ["vesoul"],
+    relatedGuides: [
+      "vivre-en-bourgogne-franche-comte-guide-2025",
+    ],
+    tags: ["10 choses à faire à Vesoul", "activités Vesoul 2026", "sorties Vesoul", "que faire à Vesoul", "lac Vesoul Motte Ronchamp Le Corbusier Mille Étangs Brel"],
+  },
+  {
+    slug: "10-choses-a-faire-a-lons-le-saunier-2026",
+    title: "10 choses à faire à Lons-le-Saunier (la cité du sel et le vin jaune)",
+    metaTitle: "10 choses à faire à Lons-le-Saunier 2026 — activités et sorties locales",
+    metaDesc: "Place de la Liberté, Marseillaise, vignobles du Jura, Château-Chalon et lacs de Cascades du Hérisson : 10 activités à Lons-le-Saunier pour découvrir le Jura.",
+    category: "tourisme",
+    emoji: "🍷",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Lons-le-Saunier est la préfecture du Jura, 17 000 habitants à 256 m d'altitude — ville d'eau (cure thermale aux eaux chlorurées-sodiques) et de sel (« Lons » vient du celtique « ledo » = sel). La ville est le berceau de Rouget de Lisle (1760-1836), né dans la maison qui domine la place de la Liberté — auteur du Chant de guerre de l'Armée du Rhin, devenu La Marseillaise. Capitale historique du Jura viticole — vin jaune, Château-Chalon, Arbois.",
+    sections: [
+      {
+        heading: "1. La place de la Liberté et Rouget de Lisle",
+        body: "La place de la Liberté de Lons-le-Saunier est l'une des plus belles places XVIIIe siècle de Franche-Comté — bordée d'arcades du XVIIe siècle (96 arcades), statue de Rouget de Lisle (sculpteur Bartholdi, l'auteur de la statue de la Liberté à New York — c'est la première œuvre de Bartholdi en France, 1882). La maison natale de Rouget de Lisle (auteur de La Marseillaise) est sur la place. Carillon de l'horloge qui sonne La Marseillaise toutes les heures.",
+      },
+      {
+        heading: "2. Le vignoble du Jura et le vin jaune",
+        body: "Le vignoble du Jura (autour de Lons et d'Arbois, 1 950 ha — l'un des plus petits vignobles AOC de France mais l'un des plus uniques au monde) produit le vin jaune (cépage savagnin, vieilli 6 ans 3 mois sous voile de levures dans des fûts non ouillés — vin de garde 100 ans). Domaines à visiter (Maison du Vigneron à Pupillin, Domaine Macle à Château-Chalon, Domaine Tissot à Arbois — biodynamie). Le clavelin (62 cl) est la bouteille unique du vin jaune. Percée du Vin Jaune (premier week-end de février — fête viticole emblématique du Jura).",
+      },
+      {
+        heading: "3. Château-Chalon — vin jaune et plus beau village",
+        body: "Château-Chalon (à 20 km au nord-est de Lons, plus beau village de France) est le « berceau » du vin jaune — village perché sur un piton calcaire à 460 m d'altitude qui produit le plus prestigieux vin jaune du Jura (AOC depuis 1936). Maisons en pierre claire, ruelles pavées, donjon ruiné, église romane Saint-Pierre. Domaine Macle (icône de l'AOC) et autres caves visitables. Vue à 360° sur les Reculées de Baume — l'un des plus beaux paysages du Jura.",
+      },
+      {
+        heading: "4. Les cascades du Hérisson — sept chutes successives",
+        body: "Les cascades du Hérisson (à 30 km au sud-est de Lons, dans le massif jurassien) sont l'un des plus beaux sites naturels de Franche-Comté — 7 cascades successives sur 4 km de descente du Hérisson (rivière). L'Éventail (65 m, la plus grande), le Grand Saut (60 m), le Saut de la Forge, le Gour Bleu. Sentier balisé de 2 km en boucle (départ Maison des Cascades à Ménétrux-en-Joux). Site classé Grand Site de France. Accessible toute l'année.",
+      },
+      {
+        heading: "5. Le Plateau des Sept Lacs — Bonlieu, Ilay et Narlay",
+        body: "Le Plateau des Sept Lacs (à 35 km à l'est de Lons, sur la zone des Reculées) regroupe sept lacs glaciaires : Bonlieu, Ilay, Narlay, Petit-Maclu, Grand-Maclu, Vernois, Val. Belvédère des Quatre Lacs (un seul point de vue à 800 m d'altitude qui domine 4 lacs en même temps — l'un des plus photographiés du Jura). Baignade en juillet-août à Ilay et Bonlieu (plages aménagées). Sentier des Sept Lacs (45 km en 3 jours, gîtes d'étape).",
+      },
+      {
+        heading: "6. Le musée des Beaux-Arts — Courbet et le réalisme",
+        body: "Le Musée des Beaux-Arts de Lons-le-Saunier (place Philibert-de-Chalon) possède une belle collection de peintures XVIIe-XIXe siècles — Gustave Courbet (natif de Ornans, à 80 km — section bien fournie), Pissarro, Boudin, école jurassienne du XIXe siècle. Section archéologie gallo-romaine du Jura. Gratuit le premier dimanche.",
+      },
+      {
+        heading: "7. Le théâtre municipal — style italien",
+        body: "Le théâtre municipal de Lons-le-Saunier (1847, l'un des plus beaux théâtres à l'italienne de Franche-Comté) est une salle 18e-19e siècle à 600 places, balcons rouges, plafond peint. Programmation lyrique et théâtrale d'octobre à mai. Visite guidée gratuite à certaines occasions (Journées du Patrimoine). À deux pas, la rue Saint-Désiré (axe commerçant principal — boutiques jurassiennes : Comté, saucisses de Morteau, vins du Jura).",
+      },
+      {
+        heading: "8. Baume-les-Messieurs — l'abbaye et la reculée",
+        body: "Baume-les-Messieurs (à 12 km au nord de Lons, plus beau village de France) est un village au fond d'une reculée jurassienne spectaculaire — abbaye bénédictine fondée au VIe siècle (l'une des plus anciennes de France, antérieure à Cluny), grottes de Baume (visite en bateau sur la rivière souterraine), résurgence du Dard (le « bout du monde »). Cascade des Tufs au pied de la reculée. Site classé Grand Site de France.",
+      },
+      {
+        heading: "9. La maison de la vache qui rit — patrimoine fromagier",
+        body: "La Maison de La Vache qui Rit (au centre de Lons-le-Saunier — où Léon Bel inventa le fromage portion en 1921) est un musée interactif sur l'histoire du fromage iconique mondial — La Vache qui Rit. Exposition interactive (parcours pour enfants), atelier de design (créer sa propre étiquette Vache qui Rit), espaces ludiques. Boutique avec produits dérivés. Lons-le-Saunier reste le siège mondial du groupe Bel (qui détient Babybel, Mini Babybel, Boursin, Kiri).",
+      },
+      {
+        heading: "10. Gastronomie jurassienne — Comté et coq au vin jaune",
+        body: "La cuisine jurassienne est riche en fromages et plats à base de vin jaune : coq au vin jaune et morilles (LE plat emblématique du Jura — coq de Bresse, vin jaune, morilles fraîches), saucisse de Morteau IGP, jambon fumé du Haut-Doubs, brési, fondue jurassienne (au Comté et vin du Jura, différente de la savoyarde). Fromages AOP : Comté (le roi), Morbier, Mont d'Or vacherin, Bleu de Gex. Spécialités sucrées : galette comtoise (brioche aux raisins), pain d'épices d'Arbois. Vins : Côtes du Jura (rouge léger), vin jaune, vin de paille (vin doux unique).",
+      },
+    ],
+    relatedCities: ["lons-le-saunier"],
+    relatedGuides: [
+      "vivre-en-franche-comte-jura-guide-2025",
+      "vivre-en-bourgogne-franche-comte-guide-2025",
+    ],
+    tags: ["10 choses à faire à Lons-le-Saunier", "activités Lons 2026", "sorties Lons-le-Saunier", "que faire à Lons", "Rouget Marseillaise vin jaune Château-Chalon Hérisson Vache qui Rit"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
