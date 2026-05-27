@@ -28523,6 +28523,478 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["10 choses à faire à Clermont-l'Hérault", "activités Clermont-l'Hérault 2026", "sorties Clermont-l'Hérault", "que faire à Clermont-l'Hérault", "lac Salagou Mourèze Terrasses du Larzac Saint-Guilhem"],
   },
+  {
+    slug: "10-choses-a-faire-a-aix-les-bains-2026",
+    title: "10 choses à faire à Aix-les-Bains (la Riviera des Alpes et le lac du Bourget)",
+    metaTitle: "10 choses à faire à Aix-les-Bains 2026 — activités et sorties locales",
+    metaDesc: "Lac du Bourget, thermes nationaux, Abbaye de Hautecombe, Mont Revard et casino : 10 activités à Aix-les-Bains pour découvrir la Riviera des Alpes.",
+    category: "tourisme",
+    emoji: "🛁",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Aix-les-Bains est la \"Riviera des Alpes\" — la grande station thermale et climatique de la Savoie historique, 30 000 habitants au bord du lac du Bourget (le plus grand lac naturel de France métropolitaine). Fréquentée depuis l'Antiquité (thermes romains d'Aquæ Allobrogum), élevée au rang de Reine des Alpes par la Reine Victoria et l'Impératrice Sissi qui y séjournaient, la ville mêle Belle Époque, casino, jardins romantiques et excursions alpines.",
+    sections: [
+      {
+        heading: "1. Le lac du Bourget — le plus grand lac de France",
+        body: "Le lac du Bourget (45 km² — plus grand lac naturel d'origine glaciaire de France métropolitaine, profondeur max 145 m) est le poumon d'Aix-les-Bains. Croisières au départ du Grand Port (1h30 à 3h, vers Hautecombe ou la baie de Châtillon), plages de la Mémard et du Lido (baignade surveillée juin-août, eau à 22°C), location de paddles et voiliers. Le poète Alphonse de Lamartine y a écrit Le Lac (1820, ode romantique sur Aix-les-Bains).",
+      },
+      {
+        heading: "2. Les Thermes nationaux — Aquæ Allobrogum",
+        body: "Les Thermes Nationaux d'Aix-les-Bains (l'un des derniers thermes nationaux français, propriété de l'État) prolongent une tradition vieille de 2 000 ans : les Romains ont construit les premiers thermes au Ier siècle (Arc de Campanus, temple de Diane — vestiges visibles dans le hall). Aujourd'hui : centre thermal pour cures rhumatologiques et phlébologie, plus l'Aqualis (spa thermo-ludique ouvert au public). Visite guidée des sous-sols (sources, vestiges romains) gratuite.",
+      },
+      {
+        heading: "3. L'Abbaye royale de Hautecombe — nécropole de la Maison de Savoie",
+        body: "L'Abbaye royale de Hautecombe (XIIe siècle, rive ouest du lac du Bourget) est la nécropole des comtes et ducs de Savoie depuis 1232 — 42 souverains de la dynastie y sont enterrés (dont le dernier roi d'Italie Umberto II, mort en exil en 1983). Église abbatiale gothique flamboyant restaurée au XIXe siècle, 300 sculptures néo-gothiques. Accessible par bateau depuis Aix (croisière de 45 min) ou par route (30 km). Communauté monastique du Chemin Neuf y vit encore.",
+      },
+      {
+        heading: "4. Le Mont Revard — le balcon des Alpes",
+        body: "Le Mont Revard (1 562 m, à 12 km d'Aix par la route panoramique) est le belvédère naturel d'Aix-les-Bains — vue à 180° sur le lac du Bourget, le Mont Blanc (à 100 km), la chaîne de Belledonne. Plateau d'altitude qui se pratique en randonnée (sentiers balisés), en VTT (l'un des grands spots du Massif des Bauges), et en ski l'hiver (petite station familiale — 50 km de pistes de fond, snowtubing). Téléphérique historique (1935, fermé en 1969 — vestiges visibles).",
+      },
+      {
+        heading: "5. Le casino Grand Cercle — Belle Époque",
+        body: "Le Casino Grand Cercle (1850 — l'un des plus anciens casinos de France encore en activité) est un palais Belle Époque restauré. Salles de jeux (machines à sous, roulette, poker), théâtre du casino (programmation lyrique et music-hall), restaurant gastronomique. La grande verrière de la salle blanche (1885, signée Antoni Clavé) est classée monument historique. Pour info : entrée gratuite, pièce d'identité demandée, tenue correcte exigée.",
+      },
+      {
+        heading: "6. La Villa Chevalley et le musée Faure",
+        body: "Le musée Faure (Villa des Chimères, route de Tresserve) possède la deuxième collection française d'impressionnistes après le musée d'Orsay : Degas, Sisley, Pissarro, Cézanne, Corot, Bonnard, Renoir. Collection léguée à la ville en 1942 par le docteur Faure (médecin local). Bâtiment Belle Époque (1899) avec jardin sur les hauteurs. Gratuit le premier dimanche du mois. Souvent désert — joyau caché.",
+      },
+      {
+        heading: "7. Chambéry et le château des ducs de Savoie",
+        body: "Chambéry (à 15 km d'Aix-les-Bains, ancienne capitale des États de Savoie de 1232 à 1563) est à 15 min en train. Le château des ducs de Savoie (XIIIe-XVIIIe siècles, abritant la Sainte-Chapelle qui a conservé le Saint Suaire avant Turin de 1453 à 1578), la fontaine des Éléphants (\"Les quatre sans cul\", 1838 — emblème de la ville), la rue Croix-d'Or et son hôtel particulier baroque savoyard. Marché du samedi matin (place de Genève).",
+      },
+      {
+        heading: "8. La voie verte Aix-Annecy — vélo en bord de lac",
+        body: "La voie verte Aix-les-Bains - Annecy (45 km à vélo, ouverte en 2014) est l'une des plus belles voies vertes alpines de France — elle longe le lac du Bourget, traverse le canal de Savière (l'unique cours d'eau de France qui peut couler dans les deux sens), puis suit le Fier vers Annecy. Plat à 95 %, accessible aux familles. Loueurs de vélos à la gare d'Aix-les-Bains et à la base nautique du Grand Port.",
+      },
+      {
+        heading: "9. La réserve naturelle des Marais de Lavours",
+        body: "La Réserve naturelle nationale du Marais de Lavours (à 25 km d'Aix, rive ouest du lac) est l'une des dernières grandes tourbières alcalines de France métropolitaine — 1 100 ha de marais sur la plaine alluviale du Rhône. Sentier sur pilotis de 4 km (accessible aux poussettes), observatoires ornithologiques (140 espèces d'oiseaux, dont butors, busards, courlis cendrés), centre d'interprétation. Gratuit. Site Natura 2000 et Ramsar.",
+      },
+      {
+        heading: "10. Gastronomie savoyarde — fondue et reblochon",
+        body: "La cuisine d'Aix-les-Bains est savoyarde et lémanique : fondue savoyarde (beaufort, comté, emmental — la fondue est née à la frontière Suisse-Savoie), tartiflette (reblochon AOP, pommes de terre, lardons, oignons — recette « inventée » dans les années 1980 par le syndicat du reblochon mais inspirée du péla traditionnel), diots (saucisses fumées au vin blanc), fera et omble chevalier du lac du Bourget. Vins : Roussette de Savoie (blanc sec), Mondeuse (rouge léger), Apremont. Génépi en digestif.",
+      },
+    ],
+    relatedCities: ["aix-les-bains"],
+    relatedGuides: [
+      "vivre-en-savoie-haute-savoie-guide-2025",
+    ],
+    tags: ["10 choses à faire à Aix-les-Bains", "activités Aix-les-Bains 2026", "sorties Aix-les-Bains", "que faire à Aix-les-Bains", "lac Bourget thermes Hautecombe Revard casino"],
+  },
+  {
+    slug: "10-choses-a-faire-a-evian-les-bains-2026",
+    title: "10 choses à faire à Évian-les-Bains (la source mondiale et le Léman)",
+    metaTitle: "10 choses à faire à Évian-les-Bains 2026 — activités et sorties locales",
+    metaDesc: "Source Cachat, palais Lumière, Léman, jardins d'Évian et abbaye d'Abondance : 10 activités à Évian-les-Bains pour découvrir la perle du Léman français.",
+    category: "tourisme",
+    emoji: "💧",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Évian-les-Bains est la grande station thermale et lacustre de la rive française du Léman, 9 000 habitants face à Lausanne (15 min en bateau). La ville doit sa renommée mondiale à l'eau minérale Évian (groupe Danone, vendue dans 140 pays) et à son architecture Belle Époque exceptionnelle (palais Lumière, casino, hôtel Royal). Porte d'entrée du Chablais (Abondance, vacherins, alpages) et station de villégiature aristocratique depuis 1864.",
+    sections: [
+      {
+        heading: "1. La source Cachat et la buvette gratuite",
+        body: "La source Cachat (du nom du jardinier qui en a découvert les vertus en 1789) est l'origine de l'eau Évian. La buvette publique (rue Nationale, face à la mairie) permet de remplir gratuitement sa bouteille — l'eau y sort à 11°C, faiblement minéralisée (309 mg/L de minéraux, idéale pour la santé rénale). Décor Art Nouveau (1903, architecte Albert Hébrard) classé monument historique. L'eau d'Évian est embouteillée à Amphion-les-Bains (à 3 km), usine la plus moderne de Danone.",
+      },
+      {
+        heading: "2. Le Palais Lumière — centre culturel Belle Époque",
+        body: "Le Palais Lumière (1902, anciens thermes d'Évian, architecte Ernest Brunnarius) est l'un des plus beaux édifices Belle Époque des Alpes. Façade Art Nouveau, verrière du hall, mosaïques de marbre. Aujourd'hui centre culturel et d'expositions temporaires d'envergure (rétrospectives Soutine, Camille Claudel, Vassily Kandinsky récemment). Programmation 4-5 expositions/an. Café-restaurant dans la rotonde face au Léman.",
+      },
+      {
+        heading: "3. Le Léman en bateau — Lausanne et Genève",
+        body: "Le port d'Évian dessert toute la Suisse romande par les ferries CGN (Compagnie Générale de Navigation, depuis 1873) : Lausanne en 35 min (toutes les heures), Genève en 1h30, croisières d'1h sur le \"Petit Lac\". Les bateaux à aubes Belle Époque (la Suisse, Italie, Helvétie, Simplon — 5 bateaux historiques toujours en service) sont une attraction en soi. Idéal pour une journée à Lausanne (musée Olympique, cathédrale, Ouchy).",
+      },
+      {
+        heading: "4. Les jardins d'Évian — promenade Belle Époque",
+        body: "Les jardins d'Évian (front de lac de 1 km, créés au XIXe siècle) sont l'un des plus beaux ensembles paysagers Belle Époque de France : palmeraies, magnolias en fleurs en avril, perspective sur le Léman et les Alpes vaudoises. Kiosque à musique (concerts gratuits l'été), pavillon Sapinière, casino face au lac. La promenade va du Grand Port (en face du Palais Lumière) au port de plaisance — 30 min à pied.",
+      },
+      {
+        heading: "5. L'abbaye d'Abondance — UNESCO et fresques",
+        body: "L'abbaye d'Abondance (à 25 km d'Évian dans la vallée d'Abondance, fondée en 1108) est classée patrimoine mondial UNESCO. Le cloître (XVe siècle) abrite des fresques exceptionnelles d'inspiration italienne (15 panneaux peints en 1430, scènes de la vie de la Vierge). Église abbatiale gothique. Spécialité locale : fromage Abondance AOP (vache d'Abondance, pâte pressée non cuite — affinage 90 jours minimum). Visite combinée fromagerie d'alpage.",
+      },
+      {
+        heading: "6. Le téléphérique de Thollon et les Mémises",
+        body: "Le téléphérique de Thollon-les-Mémises (à 15 km d'Évian, ouvert toute l'année) monte à 1 600 m d'altitude sur le plateau des Mémises. Vue à 360° : Léman en contrebas, Mont Blanc à 60 km, Dents du Midi (Suisse), Roc d'Enfer. Sentiers de randonnée balisés (Pic des Mémises, 1 677 m — 1h30 d'ascension). L'hiver, station de ski familiale (45 km de pistes, peu fréquentée, idéale pour débutants).",
+      },
+      {
+        heading: "7. Le Pré Curieux — la villa d'eau",
+        body: "Le Pré Curieux (à 1 km du centre d'Évian, accessible par bateau-navette gratuit depuis le débarcadère) est une villa Belle Époque (1860, néo-Tudor) entourée de 3 ha de jardins thématiques sur l'eau : prairie humide, étang, mare, ruisseaux. Démarche pédagogique sur les milieux aquatiques. Géré par le Conservatoire du Littoral. Site classé Natura 2000. Idéal en famille avec enfants.",
+      },
+      {
+        heading: "8. La fortification de Larringes et la Châtellenie",
+        body: "Larringes (à 8 km d'Évian dans le haut-Chablais) est un village fortifié médiéval avec son château (XIIIe siècle, propriété privée mais visible de l'extérieur) et sa Châtellenie (siège administratif des seigneurs locaux). Vue panoramique sur le Léman et la vallée. Le village voisin de Féternes (avec sa chapelle Saint-Sigismond) complète une journée d'arrière-pays. Sentiers de randonnée balisés au départ du village.",
+      },
+      {
+        heading: "9. Yvoire — la perle du Léman à 30 km",
+        body: "Yvoire (à 30 km d'Évian, plus beau village de France, classé Quatre Fleurs) est une cité médiévale fortifiée du XIVe siècle, blottie sur une presqu'île du Léman. Maisons fleuries, ruelles pavées, château d'Yvoire (privé), Jardin des Cinq Sens (jardin médiéval reconstitué — 5 espaces correspondant aux 5 sens, 1 500 plantes étiquetées). Spécialité : féra du Léman (poisson blanc proche du corégone, fumée ou en filet meunière).",
+      },
+      {
+        heading: "10. Gastronomie chablaisienne — féra et fromages",
+        body: "La cuisine d'Évian mêle poissons du Léman et fromages d'alpage : féra du Léman (poisson emblématique du lac, en filet meunière ou en quenelle), omble chevalier, perchettes (alevins de perches frits — apéritif classique). Fromages AOP de la région : Abondance, Reblochon (à 60 km vers Annecy), Vacherin Mont d'Or (Pays de Gex, fromage à pâte molle d'hiver). Vins : Crépy (AOC, blanc sec sur féra), Marin (blanc), Marignan. Pour info, l'Apremont (à 100 km, Savoie) est aussi servi.",
+      },
+    ],
+    relatedCities: ["evian-les-bains"],
+    relatedGuides: [
+      "vivre-en-savoie-haute-savoie-guide-2025",
+    ],
+    tags: ["10 choses à faire à Évian-les-Bains", "activités Évian-les-Bains 2026", "sorties Évian-les-Bains", "que faire à Évian-les-Bains", "source Cachat Léman Palais Lumière Yvoire Abondance"],
+  },
+  {
+    slug: "10-choses-a-faire-a-manosque-2026",
+    title: "10 choses à faire à Manosque (la patrie de Giono et le plateau de Valensole)",
+    metaTitle: "10 choses à faire à Manosque 2026 — activités et sorties locales",
+    metaDesc: "Centre Jean-Giono, plateau de Valensole, gorges du Verdon, L'Occitane et Forcalquier : 10 activités à Manosque pour découvrir la haute Provence parfumée.",
+    category: "tourisme",
+    emoji: "💜",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Manosque est la plus grande ville des Alpes-de-Haute-Provence (22 000 habitants), à 65 km au nord-est de Marseille, à mi-chemin entre la Méditerranée et les Alpes. La ville est associée à deux noms : Jean Giono (1895-1970, l'un des plus grands romanciers français du XXe siècle, qui y a vécu toute sa vie) et L'Occitane en Provence (siège mondial, usine et boutique-vitrine). Aux portes du Plateau de Valensole (lavandes en floraison juin-juillet) et du Verdon.",
+    sections: [
+      {
+        heading: "1. Le Centre Jean-Giono et le Mont d'Or",
+        body: "Le Centre Jean-Giono (rue Florida, maison natale de l'écrivain) retrace l'œuvre du romancier — auteur du Hussard sur le toit (1951, adaptation Rappeneau 1995), de Regain (1930, adaptation Pagnol 1937) et de cinquante autres livres. Manuscrits, photographies, bibliothèque, films d'archive. À 800 m, le Mont d'Or (le \"Lou Paraïs\" de Giono, son refuge — petite maison qu'il a habitée 40 ans) se visite sur réservation. Vue panoramique sur la haute Provence.",
+      },
+      {
+        heading: "2. Le plateau de Valensole — les champs de lavande",
+        body: "Le plateau de Valensole (à 25 km à l'est de Manosque) est le plus grand plateau lavandier de France — 800 km² de cultures de lavandin (hybride de lavande, plus productif que la lavande fine). Floraison : fin juin à fin juillet (pic mi-juillet — l'un des plus beaux paysages d'Europe). Fête de la Lavande (3e dimanche de juillet à Valensole), distilleries à visiter (Le Mas des Bouteillons, distillerie de Senas). Pour photographier sans foule : avant 8h ou après 18h.",
+      },
+      {
+        heading: "3. L'Occitane en Provence — usine et siège",
+        body: "L'Occitane en Provence (siège mondial à Manosque depuis 1976, fondé par Olivier Baussan) ouvre son usine au public — visite guidée gratuite (mardi-jeudi, réservation obligatoire) : production des cosmétiques (verveine, lavande, immortelle, karité), labo de recherche, ateliers de conditionnement. Boutique d'usine avec prix outlet. Le concept-store Marché de Provence (place du Terreau au centre) est une autre adresse.",
+      },
+      {
+        heading: "4. Forcalquier et la cité des comtes de Provence",
+        body: "Forcalquier (à 17 km au nord de Manosque, ancien siège des comtes de Provence avant Aix) est une cité médiévale perchée. La citadelle Notre-Dame-de-Provence (au sommet, vue à 360° sur le Luberon et les Alpes), la cathédrale Notre-Dame-du-Marché (XIIe-XIIIe siècles), la place du Bourget (terrasses ombragées). Marché du lundi matin (l'un des plus beaux de Provence — pas touristique, vraiment local).",
+      },
+      {
+        heading: "5. Les gorges du Verdon — le grand canyon européen",
+        body: "Les gorges du Verdon (à 45 km de Manosque, accessibles par la route des Gorges) sont le plus grand canyon d'Europe — 25 km de long, 700 m de profondeur, eau turquoise. Cinq belvédères majeurs sur la rive nord : balcons de la Mescla, Falaise des Cavaliers (le plus spectaculaire), Point Sublime. Le lac de Sainte-Croix (en aval, baignade émeraude) et Moustiers-Sainte-Marie (plus beau village de France perché entre deux falaises) complètent la journée.",
+      },
+      {
+        heading: "6. La vieille ville médiévale et la porte Saunerie",
+        body: "La vieille ville de Manosque (cité médiévale fortifiée du XIIIe siècle) est entrée par la porte Saunerie (XIVe siècle, porte fortifiée de l'octroi du sel) et la porte Soubeyran. Rues piétonnes (rue Grande, rue Aubette), place du Terreau (marché du samedi matin et terrasses), église Saint-Sauveur (XIIIe siècle, romane provençale). Promenade de 1h en boucle. Façades pastel typiquement provençales.",
+      },
+      {
+        heading: "7. Le prieuré de Salagon — jardins ethnobotaniques",
+        body: "Le Prieuré de Salagon (à 12 km au nord de Manosque, ancien prieuré roman du XIIe siècle) abrite un musée ethnologique et 5 jardins thématiques exceptionnels : jardin médiéval, jardin des simples (plantes médicinales), jardin des senteurs (lavandes, romarins), jardin des temps modernes (acclimatation), jardin des herbes (cuisine méditerranéenne). Site géré par le Département. Ouvert avril-octobre.",
+      },
+      {
+        heading: "8. L'observatoire de Haute-Provence et le ciel pur",
+        body: "L'Observatoire de Haute-Provence (à 17 km au sud de Manosque, à Saint-Michel-l'Observatoire) est l'un des plus grands observatoires astronomiques français — créé en 1937 dans l'air le plus pur d'Europe occidentale (peu de pollution lumineuse, faible humidité, altitude). Visite guidée des coupoles (télescopes Schmidt, T80, T193 cm), planétarium, soirées d'observation. Patrie de la découverte du premier exoplanète en 1995 (Michel Mayor, prix Nobel 2019).",
+      },
+      {
+        heading: "9. La route de la lavande — Sault et Banon",
+        body: "La route de la lavande (D900, depuis Manosque) traverse les hauts plateaux provençaux. Étape Sault (à 60 km, plus haut plateau lavandier — 800 m d'altitude, floraison plus tardive — juillet-août), Banon (à 35 km, célèbre pour son fromage AOP enveloppé de feuilles de châtaignier et ficelé), distilleries (Distillerie du Siron). Sault organise la Fête de la Lavande le 15 août (la plus authentique du plateau).",
+      },
+      {
+        heading: "10. Gastronomie haut-provençale — agneau et fromages",
+        body: "La cuisine de Manosque est celle de la haute Provence : agneau de Sisteron (IGP, agneau de bergeries d'alpage — chair claire et goût subtil), pieds-paquets (tripes d'agneau farcies), tian de légumes provençaux, soupe au pistou. Fromages : Banon AOP (chèvre fermier feuille de châtaignier), Brousse du Rove. Vins : Coteaux de Pierrevert (AOC très haute altitude — l'une des AOC les plus hautes de France à 450 m), Côtes du Luberon (à 20 km à l'ouest).",
+      },
+    ],
+    relatedCities: ["manosque"],
+    relatedGuides: [
+      "vivre-en-provence-paca-guide-2025",
+    ],
+    tags: ["10 choses à faire à Manosque", "activités Manosque 2026", "sorties Manosque", "que faire à Manosque", "Giono Valensole lavande L'Occitane Forcalquier Verdon"],
+  },
+  {
+    slug: "10-choses-a-faire-a-narbonne-2026",
+    title: "10 choses à faire à Narbonne (la cité romaine et le canal de la Robine)",
+    metaTitle: "10 choses à faire à Narbonne 2026 — activités et sorties locales",
+    metaDesc: "Cathédrale inachevée, Narbo Via, halles, abbaye de Fontfroide et Gruissan : 10 activités à Narbonne pour découvrir la première colonie romaine de Gaule.",
+    category: "tourisme",
+    emoji: "🏛️",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Narbonne est la première colonie romaine fondée en Gaule (Narbo Martius, 118 av. J.-C., bien avant Lyon) et la plus grande sous-préfecture de l'Aude (55 000 habitants). Située sur le canal de la Robine (raccordement du canal du Midi à la mer Méditerranée, UNESCO), Narbonne mélange archéologie romaine spectaculaire, cathédrale gothique inachevée (la plus haute jamais commencée en France) et plage du Languedoc à 15 km.",
+    sections: [
+      {
+        heading: "1. La cathédrale Saint-Just-et-Saint-Pasteur — l'inachevée",
+        body: "La cathédrale Saint-Just-et-Saint-Pasteur de Narbonne (XIIIe-XIVe siècles) est l'une des plus hautes cathédrales gothiques de France — voûtes à 41 m (après Beauvais, Amiens et Metz). Mais elle est inachevée : seul le chœur a été construit, la nef n'a jamais été commencée (interruption au XIVe siècle par la peste noire et la guerre de Cent Ans). Les vitraux du XIVe siècle, le trésor de la cathédrale (tapisseries flamandes), et le cloître attenant sont remarquables.",
+      },
+      {
+        heading: "2. Narbo Via — le musée de la Romanité",
+        body: "Narbo Via (musée ouvert en 2021, signature architecturale de Foster + Partners) est l'un des plus modernes musées archéologiques d'Europe. Pièce maîtresse : le mur lapidaire de 5 000 m² (plus grande pièce du musée, 750 blocs de pierre sculptés de l'antiquité narbonnaise). Reconstitution d'une domus romaine. Sections sur la vie quotidienne, le commerce maritime (Narbonne fut le premier port romain de Gaule), les religions. Architecture lumineuse et collection exceptionnelle.",
+      },
+      {
+        heading: "3. Les Halles centenaires — le ventre de Narbonne",
+        body: "Les Halles de Narbonne (1901, architecte Émile Toulouse — style Baltard, structure métallique de l'école Eiffel) sont l'un des plus beaux marchés couverts de France encore en activité. 70 commerçants tous les jours (sauf lundi). Spécialités : huîtres de Bouzigues (étang de Thau à 50 km), bourride sétoise, anchois de Collioure, charcuteries cathares, fromages des Corbières. Restaurant du Marché (déjeuner sur place — incontournable).",
+      },
+      {
+        heading: "4. L'abbaye de Fontfroide — la chartreuse cistercienne",
+        body: "L'abbaye de Fontfroide (XIIe siècle, cistercienne, à 15 km de Narbonne dans les Corbières) est l'une des plus belles abbayes médiévales du Sud de la France — propriété privée depuis 1908, encore habitée. Cloître roman, salle capitulaire, dortoir des moines convers, jardin d'herbes médicinales. Spécialité contemporaine : vignoble Fontfroide (AOC Corbières, vins biologiques) — dégustation sur place. Pièce maîtresse : le grand vitrail moderne en hommage aux soldats morts à Verdun.",
+      },
+      {
+        heading: "5. Le canal de la Robine — UNESCO",
+        body: "Le canal de la Robine (XVIIe siècle, embranchement du canal du Midi vers la Méditerranée — Patrimoine mondial UNESCO) traverse Narbonne sous le pont des Marchands (l'une des rares traversées de canal habitées d'Europe — les boutiques sur le pont rappellent le Ponte Vecchio de Florence). Promenade à pied ou à vélo le long des berges, location de paddle. Le canal continue vers Port-la-Nouvelle et la mer.",
+      },
+      {
+        heading: "6. Gruissan et Saint-Pierre-la-Mer — les plages",
+        body: "Gruissan (à 15 km de Narbonne, station balnéaire et port de pêche) a une plage de 5 km — la plage des Chalets (cabanes de pêcheurs typiques sur pilotis, lieu de tournage du film 37°2 le matin de Beineix, 1986). Vieille ville circulaire autour de la tour de Barberousse. Saint-Pierre-la-Mer (à 20 km, plus tranquille) et Narbonne-Plage (familiale) complètent le littoral.",
+      },
+      {
+        heading: "7. Le palais des Archevêques — au cœur de la cité",
+        body: "Le palais des Archevêques de Narbonne (XIIe-XIVe siècles, place de l'Hôtel-de-Ville) est l'un des plus grands palais épiscopaux médiévaux de France — Narbonne a été le siège d'un archevêché puissant pendant 1 500 ans. Donjon Gilles-Aycelin (XIIIe siècle, à monter pour la vue), salle de Synode, cour de Madeleine. Aujourd'hui abrite l'Hôtel de Ville et le musée d'Art et d'Histoire de Narbonne.",
+      },
+      {
+        heading: "8. La Via Domitia — la voie romaine",
+        body: "La Via Domitia (118 av. J.-C., première voie romaine construite en Gaule par Cnaeus Domitius Ahenobarbus) reliait Rome à Cadix en traversant Narbonne. Des vestiges sont visibles en plein centre, place de l'Hôtel-de-Ville (sous une dalle de verre — couloir antique pavé de basalte). À 17 km, le tronçon archéologique d'Ambrussum (commune de Villetelle, Hérault) est encore mieux conservé (pont romain à arches sur le Vidourle).",
+      },
+      {
+        heading: "9. Le parc naturel régional de la Narbonnaise en Méditerranée",
+        body: "Le PNR de la Narbonnaise en Méditerranée (créé en 2003, 80 000 ha) englobe les Corbières maritimes et les étangs côtiers (étang de Bages-Sigean, étang de Gruissan). Réserve africaine de Sigean (parc zoologique en semi-liberté, le plus grand de France pour la faune africaine), salines de Gruissan (fleur de sel), oiseaux migrateurs (flamants roses, busards, courlis). Sentiers de randonnée balisés et pistes cyclables.",
+      },
+      {
+        heading: "10. Gastronomie audoise et corbières",
+        body: "La cuisine de Narbonne mélange Languedoc, Catalogne et Méditerranée : cassoulet (Narbonne revendique sa version avec mouton — l'une des trois variantes officielles avec Castelnaudary et Carcassonne), bourride (soupe de baudroie à l'aïoli), brandade de morue, anguilles de l'étang de Bages, escargots des Corbières. Vins : AOC Corbières et Corbières-Boutenac (les rouges de référence), La Clape (cru du littoral — rouge et blanc), Fitou (rouge), Languedoc Blanc.",
+      },
+    ],
+    relatedCities: ["narbonne"],
+    relatedGuides: [
+      "vivre-en-occitanie-guide-2025",
+    ],
+    tags: ["10 choses à faire à Narbonne", "activités Narbonne 2026", "sorties Narbonne", "que faire à Narbonne", "Narbo Via cathédrale inachevée Robine Fontfroide Gruissan Corbières"],
+  },
+  {
+    slug: "10-choses-a-faire-a-beziers-2026",
+    title: "10 choses à faire à Béziers (la cité aux 9 écluses et la corrida)",
+    metaTitle: "10 choses à faire à Béziers 2026 — activités et sorties locales",
+    metaDesc: "Écluses de Fonsérannes, cathédrale Saint-Nazaire, Pont Vieux, Feria et plage de Valras : 10 activités à Béziers pour découvrir la cité héraultaise.",
+    category: "tourisme",
+    emoji: "🐂",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Béziers est la deuxième ville de l'Hérault (78 000 habitants), à 25 km de la Méditerranée. Cité phocéenne antique (Bæterræ Septimanorum), bastion cathare détruit en 1209 (« Tuez-les tous, Dieu reconnaîtra les siens » — phrase attribuée à l'abbé Arnaud Amaury au siège de Béziers), ville du vin (capitale du Languedoc viticole — vignes les plus anciennes de France à Loupian, IIe siècle), ville taurine (Feria de Béziers, 4 jours en août, deuxième feria française après Nîmes).",
+    sections: [
+      {
+        heading: "1. Les 9 écluses de Fonsérannes — Riquet et le canal du Midi",
+        body: "Les 9 écluses de Fonsérannes (1697, conçues par Pierre-Paul Riquet — chef-d'œuvre du canal du Midi, UNESCO) sont une cascade d'écluses qui permettent au canal du Midi de descendre de 21,50 m en seulement 312 m. Aujourd'hui 8 écluses fonctionnelles (la dernière étant désactivée). Passage spectaculaire de péniches en été, visite libre du site, panneaux d'interprétation. L'une des sept merveilles du canal du Midi.",
+      },
+      {
+        heading: "2. La cathédrale Saint-Nazaire — la silhouette emblématique",
+        body: "La cathédrale Saint-Nazaire de Béziers (XIIIe-XIVe siècles, reconstruite après l'incendie de 1209) domine la ville depuis sa colline rocheuse — silhouette emblématique visible de toute la plaine biterroise. Gothique méridional, style fortifié (cathédrale-forteresse, créneaux et machicoulis), cloître attenant. Vue panoramique sur la plaine de l'Hérault et la Méditerranée depuis le parvis. Accès gratuit.",
+      },
+      {
+        heading: "3. Les Allées Paul-Riquet — le poumon urbain",
+        body: "Les Allées Paul-Riquet (créées au XIXe siècle, en hommage à l'enfant du pays — concepteur du canal du Midi) sont la grande promenade arborée de Béziers, entre théâtre municipal (Belle Époque, 1844) et place Jean-Jaurès. 600 m de platanes centenaires, kiosque à musique, fontaine. Le samedi matin, marché aux fleurs et aux plantes. Statue de Riquet par David d'Angers.",
+      },
+      {
+        heading: "4. Le musée des Beaux-Arts — Dufy et Soutine",
+        body: "Le musée des Beaux-Arts de Béziers (hôtel Fayet et hôtel Fabrégat, deux hôtels particuliers du XVIIIe siècle reliés) possède une collection riche en peinture moderne : Raoul Dufy (3 toiles), Soutine, Buffet, Picasso (4 gravures), Géricault, Delacroix, Corot. Section archéologie biterroise (vestiges grecs et romains de la cité antique). Gratuit le premier dimanche.",
+      },
+      {
+        heading: "5. La Feria de Béziers — 1 million de spectateurs",
+        body: "La Feria de Béziers (4 jours autour du 15 août, depuis 1968 dans sa forme actuelle) est la deuxième feria française après Nîmes — 1 million de spectateurs en 4 jours. Corridas dans les arènes (1897, 13 000 places — l'une des plus grandes arènes de France), encierros (lâchers de taureaux dans la ville à 8h), peñas (orchestres de rue), bandas. Atmosphère ibérique unique en France. Réservation des corridas obligatoire (15-150€).",
+      },
+      {
+        heading: "6. Le Pont Vieux et l'Orb",
+        body: "Le Pont Vieux de Béziers (XIIe-XIVe siècles, monument historique) enjambe l'Orb depuis 800 ans — l'un des plus anciens ponts de France en service. 17 arches gothiques en pierre. Vue spectaculaire sur la cathédrale Saint-Nazaire en arrière-plan. À pied ou en vélo. Combinaison avec le canal du Midi (à 1 km) et les écluses de Fonsérannes (à 3 km).",
+      },
+      {
+        heading: "7. Valras-Plage et la Méditerranée à 18 km",
+        body: "Valras-Plage (à 18 km de Béziers, embouchure de l'Orb) est la station balnéaire des Biterrois — plage de sable fin de 4 km, port de plaisance, casino. Plus authentique que les stations du Languedoc construites dans les années 1970 (La Grande-Motte, Le Cap d'Agde — celle-ci à 25 km). Marché du dimanche matin. Sérignan-Plage (à 5 km, plus familiale) et Vias-Plage complètent le littoral.",
+      },
+      {
+        heading: "8. Le château de Margon et les vignobles Faugères",
+        body: "L'AOC Faugères (à 30 km au nord de Béziers, schistes des Cévennes) produit des vins rouges parmi les meilleurs du Languedoc — syrah, mourvèdre, grenache sur sols schisteux. Château de Margon (XIIIe siècle, propriété privée mais caveau ouvert). Domaines de référence : Domaine Léon Barral (biodynamie), Domaine Estanilles, Mas Olivier. Saint-Chinian (AOC à 35 km) est l'AOC voisine, schiste également.",
+      },
+      {
+        heading: "9. Pézenas — la ville de Molière",
+        body: "Pézenas (à 22 km à l'est de Béziers) est la « Versailles du Languedoc » — Molière y a vécu et joué de 1650 à 1657. Maisons Renaissance et hôtels particuliers du XVIIe siècle, place Gambetta (où Molière jouait), boutique du Barbier Gély (où Molière prenait note des manies des Languedociens — qui ont inspiré ses personnages). Marché du samedi matin (le plus beau du Languedoc). Petits pâtés de Pézenas (gâteau anglo-indien sucré-salé du XVIIIe siècle).",
+      },
+      {
+        heading: "10. Gastronomie biterroise — pâté d'Alaric et tielle",
+        body: "La cuisine biterroise mélange Languedoc montagnard et Méditerranée : olivades (tapenade locale), petits pâtés de Pézenas IGP (pâté en croûte sucré-salé au mouton — héritage des Indes anglaises au XVIIIe siècle), brasucade de moules (moules grillées au feu de sarments), bourride sétoise (à 50 km, soupe de baudroie à l'aïoli). Vins : Faugères et Saint-Chinian (rouges), Languedoc Blanc, Picpoul de Pinet (sur huîtres de Bouzigues, étang de Thau à 40 km).",
+      },
+    ],
+    relatedCities: ["beziers"],
+    relatedGuides: [
+      "vivre-en-occitanie-guide-2025",
+    ],
+    tags: ["10 choses à faire à Béziers", "activités Béziers 2026", "sorties Béziers", "que faire à Béziers", "Fonsérannes Saint-Nazaire Feria Faugères Pézenas Riquet"],
+  },
+  {
+    slug: "10-choses-a-faire-a-castres-2026",
+    title: "10 choses à faire à Castres (le Petit Versailles tarnais et Jaurès)",
+    metaTitle: "10 choses à faire à Castres 2026 — activités et sorties locales",
+    metaDesc: "Musée Goya, maisons sur l'Agout, jardin Le Nôtre, parc du Sidobre et Lacaune : 10 activités à Castres pour découvrir la cité protestante du Tarn.",
+    category: "tourisme",
+    emoji: "🏞️",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Castres est la deuxième ville du Tarn, 42 000 habitants au pied de la Montagne Noire et du Sidobre. La ville est célèbre pour trois choses : le musée Goya (la plus grande collection française de peinture espagnole hors Paris), les maisons sur l'Agout (façades colorées au-dessus de la rivière — surnommées le « Petit Florence ») et son club de rugby (Castres Olympique, champion de France 2013, 2018). Patrie de Jean Jaurès (1859-1914).",
+    sections: [
+      {
+        heading: "1. Le musée Goya — la peinture espagnole hors Paris",
+        body: "Le musée Goya (Palais épiscopal de Castres, XVIIe siècle) est l'un des trois musées français consacrés à la peinture espagnole — avec le Louvre et Castres. Pièce maîtresse : 3 chefs-d'œuvre de Francisco Goya (« Junte des Philippines », 1815, autoportrait, « La famille du duc d'Osuna »). Le Greco, Murillo, Velasquez (atelier), Picasso (œuvres jeunesse), Miró, Dali. Collection donnée à Castres en 1840. Gratuit le premier dimanche.",
+      },
+      {
+        heading: "2. Les maisons sur l'Agout — Petit Florence du Tarn",
+        body: "Les maisons sur l'Agout (façades du XIVe-XVIIe siècles surplombant la rivière) sont l'image emblématique de Castres — anciennes maisons de tanneurs et de drapiers à l'architecture vénitienne (encorbellements, balcons en bois colorés rouge ocre et jaune). Vue depuis le pont Vieux (XIIe siècle) ou le pont Neuf. Promenade en coche d'eau (juin-septembre) entre les deux ponts — 30 min sur l'Agout sous les façades.",
+      },
+      {
+        heading: "3. Le jardin de l'évêché — Le Nôtre",
+        body: "Le jardin de l'évêché (à l'arrière du Palais épiscopal — musée Goya) a été dessiné par André Le Nôtre, le jardinier de Louis XIV qui a créé les jardins de Versailles. Parterres à la française, broderies de buis, perspective sur l'évêché. Petit Versailles tarnais à découvrir. Accès gratuit en saison.",
+      },
+      {
+        heading: "4. Le Sidobre — le pays du granite",
+        body: "Le Sidobre (à 15 km de Castres, le plus grand massif granitique d'Europe occidentale) est un paysage géologique unique : 3 millions de mètres cubes de boules de granite arrondies (rivières de granite, chaos de roches en équilibre). Les plus célèbres : le Roc de l'Oie (75 tonnes en équilibre sur 2 m²), Peyro Clabado (780 tonnes), les Trois Fromages, le Roc Tremblant (oscille au toucher). Sentier balisé de 6 km. Maison du Sidobre (centre d'interprétation).",
+      },
+      {
+        heading: "5. Le Centre national et musée Jean-Jaurès",
+        body: "Le Centre national et musée Jean-Jaurès (Place Pélisson, à côté de la maison natale de Jaurès) retrace la vie et l'œuvre du fondateur du socialisme français — assassiné en 1914 par Raoul Villain au Café du Croissant à Paris. Manuscrits originaux, journal L'Humanité dont il fut fondateur, photographies. La ville natale de Jaurès est aussi celle qui l'a élu député en 1885. Gratuit le premier dimanche.",
+      },
+      {
+        heading: "6. La Montagne Noire et le Massif de Nore",
+        body: "La Montagne Noire (au sud de Castres, à 20 km) est un massif forestier (chênes, châtaigniers, sapins) de 1 200 m d'altitude. Le pic de Nore (1 211 m, le plus haut sommet du département) est accessible en voiture jusqu'au sommet — vue à 360° sur les Pyrénées, la Méditerranée, les Cévennes. Plateau d'altitude propice à la randonnée et au VTT. Stations de fond familiales (Les Cammazes, Le Crouzet) en hiver.",
+      },
+      {
+        heading: "7. Lacaune — la cité de la charcuterie",
+        body: "Lacaune (à 40 km au nord-est de Castres, dans les monts de Lacaune à 800 m d'altitude) est la capitale française de la charcuterie sèche IGP — saucisson de Lacaune (premier IGP français de charcuterie en 2015), jambon de Lacaune, fritons. Plus de 50 % de la production française de saucisson sec sort des séchoirs de Lacaune. Maison de la Charcuterie (musée interactif), boutiques d'usine. Lacaune est aussi la capitale de la brebis Lacaune (race ovine du Roquefort).",
+      },
+      {
+        heading: "8. Le château de Magrin et le pastel",
+        body: "Le château de Magrin (à 30 km de Castres, XIIe-XVe siècles) abrite le musée du Pastel — plante (Isatis tinctoria) cultivée massivement en Lauragais et qui a fait la richesse de Toulouse au XVe-XVIe siècles (« le pays de Cocagne » — d'où l'expression). Le pastel produisait le seul colorant bleu naturel intense connu en Europe avant l'arrivée de l'indigo des Indes. Reconstitution d'un moulin à pastel (cocagne = boule de pastel séché). Renouveau du pastel pour la teinture textile bio.",
+      },
+      {
+        heading: "9. Le canal du Midi à 30 km — Castelnaudary",
+        body: "Castelnaudary (à 50 km au sud-ouest de Castres) est la capitale historique du cassoulet et une étape majeure du canal du Midi (UNESCO). Grand Bassin (35 000 m² — point culminant du canal), écluses de Saint-Roch. Le cassoulet de Castelnaudary (haricots tarbais, confit de canard ou d'oie, saucisse de Toulouse) est la version originale (revendiquée comme telle par les Castelnaudariens depuis 1357). Visite des cassoulets industriels (Maison Rivière, Maison Bouquié).",
+      },
+      {
+        heading: "10. Gastronomie tarnaise — cassoulet et fromages",
+        body: "La cuisine castraise mélange Languedoc et Sud-Ouest : cassoulet (Castres revendique sa propre variante avec saucisses de Toulouse), magret de canard du Sud-Ouest, daube de mouton (héritage médiéval), saucisson de Lacaune IGP, jambon de Lacaune. Fromages : Roquefort AOP (à 70 km dans l'Aveyron), tomes du Sidobre. Spécialités sucrées : gâteau à la broche (gâteau cuit en spirale autour d'une broche au feu de bois — spécialité pyrénéenne, mais répandue en Tarn). Vins : Gaillac (AOC à 30 km, rouge, rosé et blanc).",
+      },
+    ],
+    relatedCities: ["castres"],
+    relatedGuides: [
+      "vivre-dans-le-tarn-guide-2025",
+    ],
+    tags: ["10 choses à faire à Castres", "activités Castres 2026", "sorties Castres", "que faire à Castres", "Goya Jaurès maisons Agout Sidobre Lacaune cassoulet"],
+  },
+  {
+    slug: "10-choses-a-faire-a-millau-2026",
+    title: "10 choses à faire à Millau (le viaduc le plus haut du monde et les Causses)",
+    metaTitle: "10 choses à faire à Millau 2026 — activités et sorties locales",
+    metaDesc: "Viaduc de Millau, gorges du Tarn, Roquefort, Larzac et Templiers : 10 activités à Millau pour découvrir le Sud-Aveyron et les Grands Causses.",
+    category: "tourisme",
+    emoji: "🌉",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Millau est la sous-préfecture de l'Aveyron, 22 000 habitants au confluent du Tarn et de la Dourbie, au cœur des Grands Causses (Causse du Larzac, Causse Noir, Causse Méjean — Patrimoine mondial UNESCO). La ville est mondialement connue depuis 2004 pour son viaduc — le pont le plus haut du monde (343 m de hauteur, dépasse la tour Eiffel). Capitale historique du gant de peau (Millau a été la première capitale mondiale du gant au XIXe siècle).",
+    sections: [
+      {
+        heading: "1. Le viaduc de Millau — le pont le plus haut du monde",
+        body: "Le viaduc de Millau (2004, architecte Norman Foster avec Michel Virlogeux) franchit la vallée du Tarn sur 2 460 m de long et culmine à 343 m de hauteur — c'est le pont routier le plus haut du monde (au-dessus du sol). Sept pylônes en béton précontraint, tablier d'acier maintenu par des haubans (11 paires par pile). 25 millions de véhicules/an. Belvédère panoramique gratuit à proximité (aire du Viaduc, sortie autoroutière A75). Café du Viaduc avec vue.",
+      },
+      {
+        heading: "2. Les caves de Roquefort — le fromage roi",
+        body: "Roquefort-sur-Soulzon (à 22 km de Millau, village de 600 habitants — 1 600 employés dans les caves) est la seule commune au monde autorisée à produire du Roquefort AOP. Visite des caves naturelles de fleurines (les anciennes maisons Société, Papillon, Carles, Le Vieux Berger, Coulet, Roquefort Vernières, Mausac) — naturellement à 9°C grâce aux courants d'air dans le rocher. Dégustation comparative à la fin. 20€ par personne en moyenne.",
+      },
+      {
+        heading: "3. Les gorges du Tarn — le grand canyon français",
+        body: "Les gorges du Tarn (de Florac à Millau, sur 50 km, à 30 km au nord de Millau) sont l'un des plus grands canyons d'Europe — 500 m de profondeur, falaises calcaires verticales. Trois belvédères majeurs : Roc des Hourtous (le plus spectaculaire, sur le Causse Méjean), Point Sublime, Roc de Suèges. Descente en canoë depuis La Malène (10 km vers Saint-Chély — 3h sur l'eau, eaux calmes). Pic Saint-Loup pour la vue. Pays des cirques (Cirque de Madasse) et grottes (Grotte de l'Aven Armand).",
+      },
+      {
+        heading: "4. Le Larzac et la Couvertoirade — Templiers et Hospitaliers",
+        body: "Le Larzac (plateau calcaire de 1 000 km² à 800 m d'altitude au sud de Millau) a abrité l'une des plus puissantes commanderies templière puis hospitalière du Languedoc. La Couvertoirade (à 35 km de Millau, plus beau village de France) est l'une des cités templière les mieux conservées d'Europe — enceinte fortifiée intacte, château, église fortifiée. Sainte-Eulalie-de-Cernon (siège de la commanderie templière, à 22 km) abrite le château commanderie. Manifestations militantes du Larzac (José Bové, 1971-1981).",
+      },
+      {
+        heading: "5. Le musée du Gant et la tannerie",
+        body: "Le Musée du Gant et de la Peau de Millau (rue Bargues) retrace l'histoire de l'industrie gantière millavoise — Millau a été la première capitale mondiale du gant de peau au XIXe siècle (employait 2 000 ouvriers, 80 % de la production française). Aujourd'hui 6 ganteries actives — Maison Fabre (fournisseur historique de l'Élysée, des films de James Bond avec Daniel Craig), Maison Boucau. Visite avec atelier de coupe en démonstration.",
+      },
+      {
+        heading: "6. La Couvertoirade et le plateau du Larzac",
+        body: "Le plateau du Larzac (à 800 m d'altitude, paysage de steppes calcaires unique en France) est inscrit au patrimoine mondial UNESCO depuis 2011 (« Causses et Cévennes — paysage culturel de l'agropastoralisme méditerranéen »). Randonnées sur les drailles (anciens chemins de transhumance) entre lavognes (mares aménagées pour les troupeaux) et caselles (cabanes en pierre sèche). Le Larzac compte encore 15 000 brebis Lacaune (lait pour le Roquefort).",
+      },
+      {
+        heading: "7. La Cavalerie — le bourg templier complet",
+        body: "La Cavalerie (à 17 km de Millau, plus beau village de France) est l'autre cité templière du Larzac — fondée vers 1150 par les Templiers comme commanderie agricole. Enceinte fortifiée du XVe siècle (Hospitaliers de l'Ordre de Malte qui ont récupéré les biens des Templiers en 1312), tours d'angle, courtines. Le village est encore habité — 800 habitants permanents, l'un des rares « villages templier » vivants.",
+      },
+      {
+        heading: "8. Les baignades dans le Tarn et la Dourbie",
+        body: "Le Tarn et la Dourbie (deux rivières qui se jettent dans Millau) offrent de nombreuses baignades sauvages — eaux turquoise sur fond calcaire. Plages aménagées : Plage des Cuns (Tarn, gratuite, surveillée juillet-août), plage de la Maladrerie. Sites sauvages : Saint-Véran, Cantobre (pied du village perché). Canoë-kayak (locations à Millau-Plage), descente du Tarn (avec retour navette).",
+      },
+      {
+        heading: "9. La grotte de l'Aven Armand",
+        body: "L'Aven Armand (à 50 km au nord de Millau, sur le Causse Méjean) est l'une des plus belles grottes de France — découverte en 1897 par Louis Armand. La salle principale (110 m de hauteur — pourrait contenir Notre-Dame de Paris) abrite la « Forêt vierge » : 400 stalagmites dont la plus haute (Stalagmite Géante) mesure 30 m — l'une des plus grandes du monde. Visite avec funiculaire descendant. 14€.",
+      },
+      {
+        heading: "10. Gastronomie aveyronnaise — aligot et roquefort",
+        body: "La cuisine du Sud-Aveyron est rustique et fromagère : aligot (purée de pomme de terre fouettée avec tomme fraîche du Cantal — étirable à 2 m), tripoux (tripes de mouton ficelées et cuites en sauce), farçous (galette d'herbes et de fromage). Fromages : Roquefort AOP (la star), Pérail (brebis pâte molle), Laguiole AOP (à 60 km). Spécialités sucrées : fouace aveyronnaise (brioche), flaune (tarte au fromage frais). Vins : Marcillac (à 80 km, rouge), Côtes de Millau (AOC).",
+      },
+    ],
+    relatedCities: ["millau"],
+    relatedGuides: [
+      "vivre-en-aveyron-lot-guide-2025",
+    ],
+    tags: ["10 choses à faire à Millau", "activités Millau 2026", "sorties Millau", "que faire à Millau", "viaduc Roquefort Larzac Tarn Templiers Causses UNESCO"],
+  },
+  {
+    slug: "10-choses-a-faire-a-rodez-2026",
+    title: "10 choses à faire à Rodez (la cathédrale gothique et le musée Soulages)",
+    metaTitle: "10 choses à faire à Rodez 2026 — activités et sorties locales",
+    metaDesc: "Cathédrale Notre-Dame, musée Soulages, Conques, plateau de l'Aubrac et estives : 10 activités à Rodez pour découvrir la préfecture de l'Aveyron.",
+    category: "tourisme",
+    emoji: "⚫",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Rodez est la préfecture de l'Aveyron, 24 000 habitants à 632 m d'altitude sur un piton rocheux dominant la vallée de l'Aveyron. La ville a deux visages : la vieille ville médiévale rouge serrée autour de sa cathédrale gothique (87 m de hauteur — l'une des plus hautes cathédrales gothiques de France) et le musée Soulages (architecture moderne signée RCR, prix Pritzker 2017). Porte d'entrée de l'Aveyron rural, des Causses et de l'Aubrac.",
+    sections: [
+      {
+        heading: "1. La cathédrale Notre-Dame — clocher de 87 m",
+        body: "La cathédrale Notre-Dame de Rodez (XIIIe-XVIe siècles, gothique méridional puis flamboyant) est l'une des plus impressionnantes de France — son clocher de 87 m est l'un des plus hauts clochers gothiques au monde (avec celui de Strasbourg, Anvers et Vienne). Façade ouest fortifiée en grès rouge (typique du bassin de Rodez), nef à voûtes ogivales, rosace flamboyante. Ascension du clocher possible (350 marches) — vue spectaculaire sur les Causses et l'Aubrac.",
+      },
+      {
+        heading: "2. Le musée Soulages — le maître de l'outrenoir",
+        body: "Le musée Soulages (ouvert en 2014, architecture RCR Arquitectes — prix Pritzker 2017) est consacré à Pierre Soulages (1919-2022), peintre rouergat le plus important du XXe siècle, inventeur de l'« outrenoir » (peinture monochrome noire qui réfléchit la lumière). Donation de 500 œuvres par l'artiste lui-même. Architecture en cinq cubes d'acier corten (oxydé) qui dialoguent avec le grès rouge de la cathédrale. Le restaurant Café Bras (Michel Bras) est dans le musée.",
+      },
+      {
+        heading: "3. Conques — village médiéval UNESCO",
+        body: "Conques (à 35 km au nord de Rodez, plus beau village de France, classé UNESCO comme étape majeure des chemins de Saint-Jacques de Compostelle) est l'un des plus beaux villages médiévaux d'Europe. L'abbatiale Sainte-Foy (XIe-XIIe siècles, romane auvergnate) abrite le tympan le plus célèbre de l'art roman (le Jugement Dernier, 124 figures sculptées) et le Trésor de Conques (orfèvrerie sacrée carolingienne — la Majesté de Sainte Foy, statue-reliquaire en or). Vitraux contemporains de Pierre Soulages (1994).",
+      },
+      {
+        heading: "4. Le plateau de l'Aubrac — estives et burons",
+        body: "Le plateau de l'Aubrac (à 40 km au nord de Rodez, à 1 200 m d'altitude, parc naturel régional depuis 2018) est l'un des plus vastes plateaux volcaniques de France — paysage de prairies à perte de vue, vaches Aubrac (race emblématique au pelage froment), burons (cabanes en pierre des estives où les bergers fabriquaient le fromage Laguiole jusqu'au XXe siècle). Jonquilles en mai (l'un des plus beaux paysages floraux d'Europe). Aubrac (village éponyme, 1 100 m).",
+      },
+      {
+        heading: "5. Laguiole — couteaux et fromages",
+        body: "Laguiole (à 50 km au nord de Rodez sur l'Aubrac) est mondialement connue pour deux choses : ses couteaux pliants (créés en 1828, à manche en corne ou en bois — \"abeille\" sur le ressort) et son fromage Laguiole AOP (vache Aubrac, pâte pressée non cuite — affinage 90 jours). Coopérative Jeune Montagne (visite des caves d'affinage, dégustation). Coutellerie Forge de Laguiole (visite ouverte au public). Le bourg est à 1 000 m d'altitude (climat de moyenne montagne).",
+      },
+      {
+        heading: "6. La vieille ville et la place du Bourg",
+        body: "La vieille ville de Rodez (autour de la cathédrale) est un ensemble médiéval en grès rouge — maisons à pans de bois XVe-XVIe siècles, hôtels particuliers Renaissance (Maison de Benoît, Maison d'Armagnac), boutiques sous arcades. Marché du samedi matin place du Bourg. Le palais épiscopal (XVIe-XVIIIe siècles, aujourd'hui préfecture) jouxte la cathédrale. Promenade des Italiens (création XIXe siècle) en surplomb sur la vallée.",
+      },
+      {
+        heading: "7. Sainte-Radegonde et les ruelles médiévales",
+        body: "Sainte-Radegonde (à 4 km de Rodez) est un village médiéval avec une église fortifiée (XIVe siècle, l'une des plus impressionnantes églises fortifiées de France — clocher-donjon, échauguettes, mâchicoulis). À l'intérieur, fresques du XIVe siècle. À côté, Le Monastère (village et lac de loisirs) et Onet-le-Château (capitale historique des comtes d'Armagnac). Le viaduc du Viaur (à 25 km au sud, fer rouge, 1902) est un chef-d'œuvre Eiffel-style.",
+      },
+      {
+        heading: "8. Le marché de Rodez et les producteurs",
+        body: "Le marché de Rodez (samedi matin, place du Bourg) est l'un des plus authentiques d'Occitanie — producteurs locaux d'Aubrac et des Causses : fromages (Laguiole AOP, Roquefort à 60 km, Pérail), charcuteries (saucisse sèche d'Aubrac, jambon de pays), miel des Causses, agneau du Causse du Larzac, brebis fermière. Le mercredi matin, marché à la Madeleine (plus petit, plus quotidien).",
+      },
+      {
+        heading: "9. Le viaduc du Viaur et le château du Bosc",
+        body: "Le viaduc du Viaur (1902, ingénieur Paul Bodin, 460 m de long, 116 m de hauteur — l'un des plus beaux ouvrages d'art ferroviaire de France) franchit la vallée du Viaur entre Rodez et Albi. Style Eiffel — fer rouge industriel. À proximité, le château du Bosc (à 25 km de Rodez) est la maison natale d'Henri de Toulouse-Lautrec — mobilier d'origine, atelier reconstitué, peintures et lithographies. Pour info, Albi (où il est né) est à 80 km au sud.",
+      },
+      {
+        heading: "10. Gastronomie aveyronnaise — aligot et tripoux",
+        body: "La cuisine de Rodez est paysanne et fromagère : aligot (purée de pomme de terre fouettée avec tomme fraîche, étirable à 2 m — spécialité de l'Aubrac), tripoux (tripes de mouton ficelées et cuites en sauce, spécialité de Naucelle), estofinado (morue séchée à la rouergate — héritage de la pêche bretonne réimportée). Fromages : Laguiole AOP, Roquefort AOP, Bleu des Causses AOP. Spécialités sucrées : fouace aveyronnaise (brioche), gâteau à la broche. Vins : Marcillac (AOC, rouge, à 15 km — cépage fer servadou unique au monde), Estaing (AOC).",
+      },
+    ],
+    relatedCities: ["rodez"],
+    relatedGuides: [
+      "vivre-en-aveyron-lot-guide-2025",
+    ],
+    tags: ["10 choses à faire à Rodez", "activités Rodez 2026", "sorties Rodez", "que faire à Rodez", "Soulages cathédrale Conques Aubrac Laguiole Marcillac"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
