@@ -27513,6 +27513,484 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["10 choses à faire à Bourg-en-Bresse", "activités Bourg-en-Bresse 2026", "sorties Bourg-en-Bresse", "que faire à Bourg-en-Bresse", "monastère Brou volaille Bresse AOP Dombes Pérouges"],
   },
+  {
+    slug: "10-choses-a-faire-a-montlucon-2026",
+    title: "10 choses à faire à Montluçon (la cité bourbonnaise et la forêt de Tronçais)",
+    metaTitle: "10 choses à faire à Montluçon 2026 — activités et sorties locales",
+    metaDesc: "Château des ducs de Bourbon, MuPop, forêt de Tronçais et gorges du Cher : 10 activités à Montluçon pour découvrir la sous-préfecture de l'Allier.",
+    category: "tourisme",
+    emoji: "🎻",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Montluçon est la sous-préfecture de l'Allier, deuxième ville du département avec 36 000 habitants, ancien fief des ducs de Bourbon. Coincée entre le Bourbonnais et le Berry, elle conserve une vieille ville médiévale resserrée autour de son château et abrite le MuPop — le plus important musée français consacré aux musiques populaires. Loyers et prix au m² parmi les plus bas de France métropolitaine.",
+    sections: [
+      {
+        heading: "1. Le château des ducs de Bourbon — le MuPop",
+        body: "Le château des ducs de Bourbon (XIIe-XVe siècles) domine la vieille ville depuis son éperon rocheux. Reconverti en 2013 en MuPop (Musée des Musiques Populaires), il abrite la plus grande collection française d'instruments de musique populaire — 800 pièces dont la collection nationale de vielles à roue, instrument emblématique du Bourbonnais. Parcours sonore immersif sur trois étages, expositions temporaires régulières.",
+      },
+      {
+        heading: "2. La vieille ville médiévale — Notre-Dame et la rue des Cinq-Piliers",
+        body: "Le centre médiéval de Montluçon est l'un des plus denses du centre de la France : maisons à pans de bois des XVe-XVIe siècles, rue des Cinq-Piliers (cinq piliers d'angle sculptés sur des maisons à colombages), église Saint-Pierre (XIIe siècle, romane bourbonnaise), église Notre-Dame (XVe siècle, gothique flamboyant, Vierge noire). Le tout se parcourt en une heure à pied.",
+      },
+      {
+        heading: "3. La forêt domaniale de Tronçais — la plus belle hêtraie d'Europe",
+        body: "La forêt de Tronçais (à 50 km au nord de Montluçon, 11 000 ha) est considérée comme la plus belle futaie de chênes sessiles d'Europe — plantée par Colbert en 1670 pour fournir la Marine royale, ses arbres atteignent aujourd'hui 40 m de haut et 400 ans d'âge (chênes Saint-Louis, Carré, Émile-Guillaumin classés). Les douelles de chênes de Tronçais fournissent encore aujourd'hui les meilleures barriques de cognac et de bordeaux. Trois étangs (Saloup, Pirot, Saint-Bonnet) pour la baignade en été.",
+      },
+      {
+        heading: "4. Néris-les-Bains — la station thermale romaine",
+        body: "Néris-les-Bains (à 9 km de Montluçon) est une station thermale exploitée depuis l'époque gallo-romaine (vestiges des thermes du IIe siècle visibles au centre-ville). Les thermes Belle Époque (1880, classés monument historique) sont encore en activité — orientations psychosomatique et rhumatologie. Le casino-théâtre municipal (1900) abrite l'un des derniers cinémas-théâtres Belle Époque encore intact en France.",
+      },
+      {
+        heading: "5. Hérisson — le village médiéval suspendu",
+        body: "Hérisson (à 25 km de Montluçon) est un village médiéval perché sur un éperon dominant l'Aumance. Ses ruines de forteresse des ducs de Bourbon (XIIe-XIVe siècles), ses ruelles pavées et ses maisons à pans de bois en font l'un des plus beaux villages du Bourbonnais. L'église romane Notre-Dame de Châteloy (XIIe siècle, à 3 km, fresques médiévales restaurées) est l'un des joyaux d'art roman de l'Allier.",
+      },
+      {
+        heading: "6. Les gorges du Cher — canoë et baignade",
+        body: "Le Cher traverse Montluçon avant de creuser des gorges modestes mais sauvages en amont (Saint-Désiré, Maillet) et en aval (Vallon-en-Sully). La base nautique du Rocher des Fées (à 15 km en amont) propose des descentes en canoë de 8 à 15 km. Le viaduc de Vaux (1859, viaduc ferroviaire en pierre de 26 arches sur le Cher) est l'un des plus longs viaducs en maçonnerie de France.",
+      },
+      {
+        heading: "7. Le canal de Berry — la randonnée à vélo",
+        body: "Le canal de Berry (creusé 1808-1840, désaffecté en 1955) traverse l'agglomération de Montluçon avant de filer vers Vierzon (143 km). Le chemin de halage est aujourd'hui une véloroute cyclable jalonnée d'écluses désaffectées, de maisons d'éclusiers et de péniches transformées en cafés. Itinéraire idéal pour une boucle de week-end à vélo (Montluçon-Vallon-en-Sully-retour, 35 km plat).",
+      },
+      {
+        heading: "8. Le musée des Musiques Populaires — la collection vielles",
+        body: "Au-delà du château, le MuPop possède la première collection française de musiques traditionnelles : 8 000 instruments, 50 000 enregistrements sonores, 10 000 partitions, archives orales. La vielle à roue (instrument emblématique du Bourbonnais, encore facteur actif à Jenzat à 30 km), la cabrette auvergnate, la cornemuse berrichonne y trouvent leur seule présentation muséographique sérieuse. Démonstrations en direct le samedi.",
+      },
+      {
+        heading: "9. Le musée des Maquettes ferroviaires — la passion locale",
+        body: "Le musée Émile Mâle de modélisme ferroviaire (au cœur de Montluçon) présente l'une des plus grandes maquettes ferroviaires de France ouverte au public : 200 m² de circuits HO et N, reconstitution miniaturisée des gares de Montluçon, Commentry et Saint-Éloy. Montluçon était au XIXe siècle un grand nœud ferroviaire reliant Bordeaux à Lyon — la gare PO (Paris-Orléans, 1859) en garde la mémoire monumentale.",
+      },
+      {
+        heading: "10. Gastronomie bourbonnaise — pompe et truffat",
+        body: "La cuisine bourbonnaise est rustique et peu connue : pompe aux grattons (brioche salée aux résidus de saindoux), truffat (tourte de pommes de terre tranchées au four, à la crème), pâté aux pommes de terre (tourte salée à la pomme de terre et au lard), bourriol auvergnat (galette de sarrasin), fromages caillebottes du Bourbonnais. Le marché couvert (place Notre-Dame, mercredi et samedi matin) reste le meilleur point d'achat des produits fermiers de l'Allier.",
+      },
+    ],
+    relatedCities: ["montlucon"],
+    relatedGuides: [
+      "vivre-en-auvergne-profonde-guide-2026",
+      "vivre-en-auvergne-rhone-alpes-guide-2025",
+    ],
+    tags: ["10 choses à faire à Montluçon", "activités Montluçon 2026", "sorties Montluçon", "que faire à Montluçon", "château ducs Bourbon MuPop forêt Tronçais Néris-les-Bains"],
+  },
+  {
+    slug: "10-choses-a-faire-a-vichy-2026",
+    title: "10 choses à faire à Vichy (la reine des villes d'eaux et UNESCO)",
+    metaTitle: "10 choses à faire à Vichy 2026 — activités et sorties locales",
+    metaDesc: "Sources thermales, parcs Napoléon-III, opéra Belle Époque et hippodrome : 10 activités à Vichy pour découvrir la station UNESCO des Grandes Villes Thermales.",
+    category: "tourisme",
+    emoji: "💧",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Vichy est la « reine des villes d'eaux » française, classée en 2021 au patrimoine mondial UNESCO au titre des « Grandes villes d'eau d'Europe » — l'une des onze stations européennes ayant façonné le thermalisme du XIXe siècle. Avec 24 000 habitants et un patrimoine Belle Époque exceptionnellement préservé, c'est la station thermale la plus complète de France encore en activité.",
+    sections: [
+      {
+        heading: "1. Le Hall des Sources — toutes les eaux sous une seule verrière",
+        body: "Le Hall des Sources (1903, charpente métallique de type Eiffel) abrite les six sources thermales de Vichy distribuées à des fontaines en marbre — Célestins, Grande Grille, Chomel, Hôpital, Parc, Lucas. Chaque eau a une composition minérale distincte (de 1 200 à 5 000 mg/l de bicarbonate de sodium), accessibles gratuitement aux curistes munis d'un gobelet. La Source des Célestins (la plus connue, embouteillée depuis 1900) est la seule également vendue en bouteille.",
+      },
+      {
+        heading: "2. L'Opéra de Vichy — la salle Art nouveau",
+        body: "L'Opéra de Vichy (1903, architecte Charles Le Cœur) est l'une des très rares salles d'opéra Art nouveau encore en activité — 1 412 places, décor de fleurs émaillées, coupole en céramique de Sarreguemines. Construit pour Napoléon III qui séjourna trois fois à Vichy, il a accueilli Caruso, Chaliapine, Sarah Bernhardt. La saison lyrique d'été (juillet-août) y programme des productions de festival.",
+      },
+      {
+        heading: "3. Les parcs Napoléon-III — le parc des Sources et le parc Kennedy",
+        body: "Vichy a été dessinée comme une ville-parc sous Napoléon III (1861) : 140 ha de parcs en bord d'Allier (parc des Sources, parc Napoléon, parc Kennedy, parc des Bourins) plantés d'arbres exotiques (séquoias, ginkgos, tulipiers de Virginie). Le parc des Sources, avec sa galerie couverte (1900, charpente métallique) reliant l'Opéra au Hall des Sources, est le cœur cérémoniel de la cure thermale.",
+      },
+      {
+        heading: "4. Le lac d'Allier — la rivière transformée en plan d'eau",
+        body: "Le lac d'Allier (créé par le barrage de l'Europe en 1963, 7 km de long sur 250 m de large au cœur de la ville) est un plan d'eau urbain unique en France — voile, ski nautique, paddle, aviron, baignade en été. La promenade des bords d'Allier (rive gauche, 7 km piétonniers) traverse les parcs, la passerelle Bellerive et offre une vue continue sur le casino et la skyline thermale.",
+      },
+      {
+        heading: "5. Le quartier thermal Belle Époque — chalets, villas et palaces",
+        body: "Le quartier thermal de Vichy (entre les Sources et la gare) concentre 400 villas et hôtels Belle Époque (1860-1910) — style néo-mauresque (Castel Flamand), néo-Renaissance (villa Strauss), Art nouveau (chalets de la rue de Belgique). Le Sporting Club, le casino des Fleurs et l'hôtel des Célestins (palace 5 étoiles construit en 1900) y composent un décor cinématographique. L'office de tourisme propose une visite guidée du quartier (1h30).",
+      },
+      {
+        heading: "6. Les thermes Callou et les thermes des Dômes",
+        body: "Les Thermes des Dômes (1903, style néo-mauresque, faïences de Sarreguemines, mosaïques byzantines) sont l'un des deux établissements thermaux encore en activité — orientations rhumatologie et appareil digestif. Les Thermes Callou (rive gauche, plus récents) sont spécialisés en remise en forme et soins esthétiques. Cure conventionnée de 18 jours pour les pathologies prises en charge par la Sécurité sociale.",
+      },
+      {
+        heading: "7. L'hippodrome — le pesage Napoléon III",
+        body: "L'hippodrome de Vichy (1875, agrandi en 1900) est l'un des grands hippodromes français : 24 réunions de mai à octobre, courses de plat et de trot, prix du Président de la République en juillet. Le pesage Napoléon III (tribune en bois et fonte) et les écuries ont conservé leur cachet d'origine. Entrée gratuite en pelouse, payante en tribune.",
+      },
+      {
+        heading: "8. La pastille de Vichy — l'histoire d'un bonbon célèbre",
+        body: "La pastille de Vichy (octogonale, blanche, à base de sels minéraux extraits de la Source des Célestins) est commercialisée depuis 1825 par la Compagnie de Vichy. La fabrique des Pastilles de Vichy (au cœur de la ville, visite sur rendez-vous) explique le procédé d'extraction des sels et le rôle digestif de la pastille. La marque appartient aujourd'hui au groupe Mondelez (anciennement Cadbury).",
+      },
+      {
+        heading: "9. La montagne bourbonnaise — moyenne montagne à 30 km",
+        body: "La montagne bourbonnaise (à 30 km au sud-est de Vichy) culmine à 1 287 m (Puy de Montoncel) — moyenne montagne granitique couverte de forêts. Le Mont Saint-Vincent (1 069 m), la station du Pavé (ski de fond et raquettes en hiver, randonnée en été) et les gorges de la Sichon en sont les pôles. Le château de Busset (XVe siècle, famille de Bourbon-Busset, hôtel-restaurant aujourd'hui) et le Vélorail de la montagne bourbonnaise complètent la journée.",
+      },
+      {
+        heading: "10. Gastronomie auvergno-bourbonnaise — pâté et lentilles",
+        body: "La cuisine de Vichy mélange traditions bourbonnaises et auvergnates : pâté aux pommes de terre à la crème, salers et fourme d'Ambert (AOP fromages voisins), saucisse aux herbes, lentille verte du Puy à 70 km (AOP). Le marché de Vichy (mercredi et vendredi matin, place Charles-de-Gaulle) reste le meilleur point d'achat. La distillerie Distillerie de la Verveine du Velay et les producteurs de Saint-Pourçain (AOC vins blancs locaux) complètent les achats gourmands.",
+      },
+    ],
+    relatedCities: ["vichy"],
+    relatedGuides: [
+      "vivre-dans-une-ville-thermale-france-2026",
+      "vivre-en-auvergne-rhone-alpes-guide-2025",
+    ],
+    tags: ["10 choses à faire à Vichy", "activités Vichy 2026", "sorties Vichy", "que faire à Vichy", "thermes UNESCO Hall Sources Opéra Belle Époque pastilles"],
+  },
+  {
+    slug: "10-choses-a-faire-a-clermont-l-herault-2026",
+    title: "10 choses à faire à Clermont-l'Hérault (le lac du Salagou et Saint-Guilhem)",
+    metaTitle: "10 choses à faire à Clermont-l'Hérault 2026 — activités et sorties",
+    metaDesc: "Lac du Salagou, cirque de Mourèze, Saint-Guilhem-le-Désert UNESCO et grotte de Clamouse : 10 activités à Clermont-l'Hérault pour découvrir le cœur géologique de l'Hérault.",
+    category: "tourisme",
+    emoji: "🏞️",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Clermont-l'Hérault est une petite ville de 8 500 habitants au cœur de l'Hérault, posée entre les terres rouges du Salagou, les ruffes volcaniques et les contreforts du Larzac. Modeste en taille, elle est le point de départ idéal pour explorer l'un des concentrés de paysages les plus spectaculaires de France : un parc régional minéral, deux sites UNESCO, des grottes karstiques, des vignes mythiques. Montpellier est à 45 minutes par l'A75.",
+    sections: [
+      {
+        heading: "1. Le lac du Salagou — la mer rouge intérieure",
+        body: "Le lac du Salagou (créé en 1968, 700 ha, 30 m de profondeur) est entouré de ruffes — argiles rouges permiennes contenant 25 % d'oxyde de fer, l'une des rares formations géologiques de cette teinte en France. Le contraste eau bleu-vert / collines pourpres / oliviers / vignes est unique. Baignade autorisée à Octon, Liausson, Le Mas Canet ; voile, paddle, canoë depuis Clermont. Toute l'année 12-25 °C de température d'eau.",
+      },
+      {
+        heading: "2. Le cirque de Mourèze — la forêt de dolomies",
+        body: "Le cirque de Mourèze (à 7 km de Clermont) est un cirque dolomitique d'une douzaine d'hectares — 200 colonnes calcaires sculptées par l'érosion en formes anthropomorphiques (chameau, sphinx, château). Le sentier de découverte (boucle de 2 km, 1h30) serpente entre les piliers. Le village de Mourèze, en contrebas, est l'un des plus petits classés « beaux villages de France » (50 habitants).",
+      },
+      {
+        heading: "3. Saint-Guilhem-le-Désert — UNESCO et Compostelle",
+        body: "Saint-Guilhem-le-Désert (à 25 km de Clermont) est classé parmi les plus beaux villages de France et inscrit UNESCO au titre des chemins de Saint-Jacques-de-Compostelle. Son abbaye de Gellone (804, romane lombarde) et son village resserré dans une faille du causse, traversé par le Verdus, en font l'un des sites les plus spectaculaires d'Occitanie. Affluence importante en été — privilégier les visites matinales hors saison.",
+      },
+      {
+        heading: "4. La grotte de Clamouse — concrétions et aragonite",
+        body: "La grotte de Clamouse (à 25 km de Clermont, près de Saint-Guilhem) est l'une des plus belles grottes touristiques de France pour la diversité de ses concrétions : stalactites excentriques, aragonite (rare en France), draperies translucides, gours en pierre de calcite blanche. La visite (1h, 800 m de galerie aménagée, 16 °C constants) emprunte un escalier sec descendant à 50 m sous la surface du causse.",
+      },
+      {
+        heading: "5. Le pont du Diable — gorge d'Hérault et baignade",
+        body: "Le pont du Diable (XIe siècle, classé UNESCO Compostelle) enjambe les gorges de l'Hérault à 4 km de Saint-Guilhem. C'est le plus vieux pont médiéval encore debout en Europe occidentale. La plage de galets en contrebas, l'une des plus fréquentées du sud de la France en été, permet la baignade dans des vasques d'eau vert turquoise (15-20 °C en juillet). Canoë depuis Saint-Bauzille-de-Putois en amont (15 km de descente).",
+      },
+      {
+        heading: "6. Le Mas Daumas Gassac — la grande cuvée des coteaux",
+        body: "Le Mas de Daumas Gassac (à 15 km de Clermont, près d'Aniane) est l'un des grands vignobles français hors AOC — domaine fondé en 1971 par Aimé Guibert, son cabernet-sauvignon de 8 ha planté sur ruffes glaciaires a été comparé à un grand cru bordelais par Hugh Johnson et Robert Parker. Visite et dégustation sur rendez-vous, vente directe. L'abbaye d'Aniane voisine (VIIIe siècle, fondée par Benoît d'Aniane) complète l'arrêt.",
+      },
+      {
+        heading: "7. Le Pic Saint-Loup — la silhouette emblématique",
+        body: "Le Pic Saint-Loup (658 m, à 50 km de Clermont à l'est) est le sommet emblématique du nord montpelliérain — silhouette pyramidale visible à 80 km à la ronde. L'ascension (3h aller-retour depuis Cazevieille, dénivelé 400 m) offre l'un des plus beaux panoramas méridionaux : Cévennes, Pyrénées par temps clair, Méditerranée, Mont Ventoux. L'AOC Pic Saint-Loup (Coteaux du Languedoc, syrah/grenache/mourvèdre) est la plus prestigieuse du nord héraultais.",
+      },
+      {
+        heading: "8. Le Larzac méridional — Roquefort et Cirque de Navacelles",
+        body: "Le plateau du Larzac méridional commence à 30 km au nord de Clermont. La Couvertoirade (Templiers, XIIe-XVe siècles, classé beaux villages de France) et le Cirque de Navacelles (à 50 km, UNESCO, 300 m de dénivelé creusés par la Vis dans le causse) sont les deux étapes incontournables. Roquefort (à 75 km) est accessible à la journée — visite des caves d'affinage Société, Papillon ou Gabriel Coulet.",
+      },
+      {
+        heading: "9. Pézenas — la ville de Molière",
+        body: "Pézenas (à 25 km au sud-est de Clermont) est la ville où Molière séjourna trois saisons (1650, 1653, 1655-56) avec sa troupe — la maison du Barbier Gély (place Gambetta, où il se faisait raser, dit-on) et la rue des Litanies en gardent la mémoire. La vieille ville (XVIe-XVIIIe siècles, hôtels particuliers à patios, balcons fer forgé) est l'une des plus complètes du Languedoc. La spécialité locale — le petit pâté de Pézenas (pâte sablée, mouton à la cassonade et zeste de citron, recette indienne ramenée par Lord Clive en 1768) — est unique.",
+      },
+      {
+        heading: "10. Gastronomie languedocienne — huîtres et oliviers",
+        body: "À 30 km au sud, Bouzigues (étang de Thau) produit 13 000 t d'huîtres par an — dégustation directe sur les mas. Lunas et Olargues (à 40 km, Parc régional du Haut-Languedoc) sont les villages perchés des vignobles AOC Saint-Chinian et Faugères. L'huile d'olive de Clermont-l'Hérault (AOC Lucques du Languedoc) se déguste en moulins ouverts en hiver après la cueillette de novembre. Marchés à Clermont mercredi et samedi matin.",
+      },
+    ],
+    relatedCities: ["clermont-herault"],
+    relatedGuides: [
+      "vivre-en-occitanie-guide-2025",
+    ],
+    tags: ["10 choses à faire à Clermont-l'Hérault", "activités Clermont-l'Hérault", "sorties Clermont-l'Hérault", "lac Salagou Mourèze Saint-Guilhem grotte Clamouse Mas Daumas Gassac"],
+  },
+  {
+    slug: "10-choses-a-faire-a-sete-2026",
+    title: "10 choses à faire à Sète (la Venise du Languedoc et les joutes)",
+    metaTitle: "10 choses à faire à Sète 2026 — activités et sorties locales",
+    metaDesc: "Canal royal, Mont Saint-Clair, joutes nautiques, Brassens et étang de Thau : 10 activités à Sète pour découvrir la ville singulière de l'Hérault.",
+    category: "tourisme",
+    emoji: "🐟",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Sète n'est pas une ville comme une autre du littoral méditerranéen — fondée seulement en 1666 par ordre de Colbert pour servir de débouché maritime au canal du Midi, elle a inventé sa propre culture en moins de quatre siècles : les joutes nautiques, Brassens, Paul Valéry, la tielle, le festival Voix Vives. 46 000 habitants posés entre mer et étang de Thau, et un caractère ouvrier et artistique qui résiste à la touristification.",
+    sections: [
+      {
+        heading: "1. Le canal royal — la « Venise du Languedoc »",
+        body: "Le canal royal (creusé 1666-1681 par les ingénieurs de Colbert pour relier le port à l'étang de Thau) traverse Sète sur 1 km — pas un, mais une dizaine de petits canaux le complètent. Les bateaux de pêche colorés amarrés le long du Quai du Général Durand, les façades hautes et étroites, les ponts métalliques basculants composent un paysage urbain unique en France méditerranéenne. Les joutes s'y déroulent à la Saint-Louis.",
+      },
+      {
+        heading: "2. Le Mont Saint-Clair — la vue à 360°",
+        body: "Le Mont Saint-Clair (175 m, ancien promontoire devenu presqu'île par accumulation sédimentaire) domine Sète. Le belvédère du chemin de la Corniche offre un panorama à 360° unique : Méditerranée et plages au sud, étang de Thau et conchyliculteurs au nord, Cévennes à l'horizon par temps clair. La chapelle Notre-Dame-de-la-Salette (1864, vue panoramique) et la table d'orientation sont accessibles en voiture ou à pied par escalier de 350 marches depuis le centre.",
+      },
+      {
+        heading: "3. Les joutes nautiques — la fête de la Saint-Louis",
+        body: "Les joutes languedociennes sont la tradition emblématique de Sète depuis 1666 — deux barques (rouge et bleue) propulsées par 10 rameurs s'affrontent : deux jouteurs en blanc, lance de 2,80 m et bouclier (« targe »), se font tomber à l'eau. Le tournoi de la Saint-Louis (autour du 25 août, six jours, finale au Cadre Royal sur le canal) est le rendez-vous historique de la saison ; pavoisement de la ville, foule, fanfare, sardinade. 60 sociétés de joutes en France, mais Sète reste la capitale.",
+      },
+      {
+        heading: "4. L'espace Brassens — le musée du chanteur",
+        body: "Georges Brassens (1921-1981) est né à Sète et y est enterré au cimetière le Py (et non au cimetière marin malgré son souhait). L'espace Brassens (au cœur de Sète) est un parcours sonore avec audioguide d'1h30 traversant la vie et l'œuvre du chanteur — 200 chansons écoutables, manuscrits, photos, recréation de sa chambre rue d'Avignon. Émouvant pour les fans, accessible aux autres.",
+      },
+      {
+        heading: "5. Le cimetière marin — le poème de Paul Valéry",
+        body: "Le cimetière marin (cimetière Saint-Charles, sur le versant maritime du Mont Saint-Clair) est devenu mondialement célèbre grâce au poème éponyme de Paul Valéry, lui-même enterré ici sous une tombe de famille en 1945. Vue mer panoramique sur le bassin du Lazaret et le large. Le musée Paul Valéry (à 100 m du cimetière) présente la collection de peinture moderne et méditerranéenne de la ville (Soulages, Soutine, Sébastien Stoskopff).",
+      },
+      {
+        heading: "6. L'étang de Thau — les huîtres de Bouzigues",
+        body: "L'étang de Thau (7 500 ha, derrière Sète) produit 90 % des huîtres et moules de Méditerranée — 13 000 t/an, 800 conchyliculteurs. Bouzigues, Mèze et Marseillan sont les trois villages ostréicoles à visiter en 30 minutes de voiture. Dégustation directe sur les mas conchylicoles (assiette d'huîtres + verre de Picpoul de Pinet AOC = 12-18 €). Le sentier de l'étang (route panoramique de Sète à Marseillan, 30 km) longe les parcs à huîtres.",
+      },
+      {
+        heading: "7. La criée de Sète — le port de pêche le 1er de Méditerranée",
+        body: "Sète est le 1er port de pêche français de Méditerranée (8 000 t/an : thon rouge, sardine, anchois, daurade royale). La criée de Sète (lundi-vendredi, vente aux professionnels) se visite sur réservation auprès de l'office de tourisme — montée du thon rouge sur la jetée en mai-juin, négoce à la voix, marée fraîche du jour. La halle aux poissons (centre-ville, ouverte au public chaque matin) est la meilleure poissonnerie publique de la côte.",
+      },
+      {
+        heading: "8. La plage de la Corniche — 12 km de sable",
+        body: "Sète n'a pas une plage mais douze kilomètres continus, de la pointe de Sète à Marseillan-Plage — sable fin, mer peu profonde, plage publique gratuite sur toute la longueur. La plage de la Corniche (à 5 min en bus du centre) est la plus accessible ; les Aresquiers (limite Vic-la-Gardiole, dunes, plage naturelle) est la plus sauvage. Le lido (cordon sableux séparant l'étang de Thau de la Méditerranée) est traversé par la D612 panoramique.",
+      },
+      {
+        heading: "9. Voix Vives — le festival international de poésie",
+        body: "Voix Vives (chaque juillet, 9 jours, gratuit) est le premier festival international de poésie de France et l'un des plus grands d'Europe — 100 poètes invités de Méditerranée et au-delà, 350 rendez-vous (lectures, concerts, ateliers) dans 50 lieux de la ville (caves, jardins, quais). Atmosphère populaire et raffinée. Le festival du film méditerranéen Cinémed n'est pas à Sète mais à Montpellier à 30 km.",
+      },
+      {
+        heading: "10. Tielle, macaronade et bouillabaisse sétoise",
+        body: "La gastronomie sétoise est née du brassage italien (immigration ligure XIXe-XXe siècles) et languedocien : tielle (tourte ronde au poulpe et sauce tomate épicée, recette importée de Gaeta en 1873), macaronade (pâtes gratinées à la sauce tomate, daube et fromage italien), bourride sétoise (bouillabaisse blanche à la baudroie et à l'aïoli), oursinade (oursins frais en hiver). La Brasserie Le Goulu et le marché des Halles (place Aristide Briand, tous les matins) sont les bonnes adresses populaires.",
+      },
+    ],
+    relatedCities: ["sete"],
+    relatedGuides: [
+      "vivre-en-occitanie-guide-2025",
+    ],
+    tags: ["10 choses à faire à Sète", "activités Sète 2026", "sorties Sète", "que faire à Sète", "canaux Mont Saint-Clair joutes Brassens Thau Bouzigues tielle"],
+  },
+  {
+    slug: "10-choses-a-faire-a-hyeres-2026",
+    title: "10 choses à faire à Hyères (les Îles d'Or et la villa Noailles)",
+    metaTitle: "10 choses à faire à Hyères 2026 — activités et sorties locales",
+    metaDesc: "Porquerolles, Port-Cros, Presqu'île de Giens, villa Noailles et vieille ville médiévale : 10 activités à Hyères pour découvrir la doyenne des stations varoises.",
+    category: "tourisme",
+    emoji: "🌴",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Hyères est la première station balnéaire de la Côte d'Azur historiquement parlant — fréquentée dès le milieu du XIXe siècle par Victoria, Tolstoï et Robert Louis Stevenson. Avec 57 000 habitants, ses palmiers (la ville en compte 7 000 — premier producteur français), ses Îles d'Or et sa villa Noailles, Hyères est moins courue que les stations de l'est varois mais offre une diversité de paysages incomparable.",
+    sections: [
+      {
+        heading: "1. Porquerolles — la perle des Îles d'Or",
+        body: "Porquerolles (7 km × 3 km, 200 habitants à l'année, parc national) est la plus grande des Îles d'Or. Plages de sable fin (Notre-Dame, La Courtade, Plage d'Argent classée parmi les plus belles d'Europe), forêts d'eucalyptus, vignobles AOC Côtes-de-Provence, fort du Petit-Langoustier. Bateau depuis la Tour Fondue (presqu'île de Giens, 20 min de traversée, 25 € A/R). Vélo obligatoire à l'arrivée (voitures interdites). Très fréquentée en juillet-août.",
+      },
+      {
+        heading: "2. Port-Cros — le seul parc national insulaire d'Europe continentale",
+        body: "Port-Cros (6 km², 30 habitants, parc national depuis 1963 — le premier parc national maritime d'Europe) est la plus sauvage des Îles d'Or. Sentier sous-marin balisé à la plage de la Palud (palmes-masque-tuba, 30 min, libre et gratuit) — la meilleure introduction française à la Posidonie et aux mérous bruns. Forêt méditerranéenne intacte, sentiers terrestres balisés. Bateau depuis Hyères ou la Tour Fondue (1h, 30 € A/R).",
+      },
+      {
+        heading: "3. La Presqu'île de Giens et la route du sel",
+        body: "La Presqu'île de Giens est reliée au continent par deux cordons sableux (double tombolo, unique en France) encadrant des marais salants — la route du sel longe l'isthme ouest entre étangs roses (flamants roses en hiver) et plages désertes. Praticable en voiture en saison sèche, fermée d'octobre à mars. La pointe de l'Almanarre, à l'extrémité nord du tombolo, est l'un des trois meilleurs spots de kitesurf de Méditerranée (vent quasi constant).",
+      },
+      {
+        heading: "4. La villa Noailles — l'avant-garde du XXe siècle",
+        body: "La villa Noailles (1923-1932, architecte Robert Mallet-Stevens) est une œuvre majeure du Mouvement moderne, commandée par les mécènes Charles et Marie-Laure de Noailles. Décor signé Pierre Chareau, Eileen Gray, Theo van Doesburg, Constantin Brancusi, Alberto Giacometti, jardin cubiste de Gabriel Guevrekian. Films de Man Ray et de Buñuel y ont été tournés. Aujourd'hui centre d'art contemporain (entrée libre) et siège du Festival International de Mode, Photographie et Accessoires (avril).",
+      },
+      {
+        heading: "5. La vieille ville médiévale — la rue Massillon et la collégiale",
+        body: "Le vieux Hyères (sur les pentes du Castéou) est un dédale médiéval rare sur le littoral varois : porte Massillon (XIIIe siècle), tour des Templiers (rue Sainte-Claire, 1196), parc Saint-Bernard (jardin en terrasses), collégiale Saint-Paul (XIIe-XVIIIe siècles). Le marché provençal (rue Massillon, jeudi et samedi matin) est l'un des plus authentiques de la côte varoise. Vue mer depuis le sommet du Castéou (parc Saint-Bernard) sur la rade et les îles.",
+      },
+      {
+        heading: "6. Le sentier du littoral — de Hyères à Carqueiranne",
+        body: "Le sentier du littoral (sentier des Douaniers, GR51) entre Hyères et Carqueiranne (15 km, 4-5h) longe une côte de calanques peu connue : plages de la Madrague, calanques de l'Almanarre, criques de Gavotti. Moins spectaculaire que les calanques marseillaises mais beaucoup moins fréquenté. Combinaisons possibles avec la pointe des Salins, le port de Saint-Pierre et le château d'Hyères (ruines).",
+      },
+      {
+        heading: "7. Olbia — la cité grecque oubliée",
+        body: "Olbia (Almanarre, 4e siècle av. J.-C.) est l'un des très rares sites grecs sur le sol français — colonie marseillaise fondée vers 325 av. J.-C., redécouverte en 1909. Les fouilles ont mis au jour le tracé orthogonal des rues, les fortifications, les habitations, le sanctuaire d'Aphrodite. Petit site (1h de visite) mais unique : la Provence pré-romaine grecque s'y voit en plein air. Accès gratuit, signalétique en français/anglais.",
+      },
+      {
+        heading: "8. Le Lavandou et le sentier des Caps Negre — à 20 km",
+        body: "Le Lavandou (à 25 km à l'est de Hyères) est la porte d'entrée du sentier du littoral le plus spectaculaire de la Côte d'Azur : du Cap Nègre (résidence Bruni-Sarkozy) à Saint-Clair, falaises noires sur mer turquoise, calanques accessibles uniquement à pied, plages de galets noirs. 12 km en 4h, exigeant en été. Plage du Pin de Galle classée parmi les plus belles plages sauvages varoises.",
+      },
+      {
+        heading: "9. Le festival de mode et photographie — la nouvelle génération",
+        body: "Le Festival International de Mode, Photographie et Accessoires de la villa Noailles (chaque avril, 9 jours, gratuit) est le rendez-vous européen le plus important pour la jeune création — 10 stylistes et 10 photographes finalistes par an exposent à la villa, jury de stars (Jean Paul Gaultier, Tilda Swinton, Phoebe Philo y sont passés). Off du festival dans toute la ville, expositions parallèles. Atmosphère cosmopolite singulière pour Hyères.",
+      },
+      {
+        heading: "10. Gastronomie varoise — figues, vin et poissons des îles",
+        body: "Hyères est un grand terroir agricole : figues noires d'Hyères (récolte fin août, marché des producteurs cours Strasbourg), vins AOP Côtes-de-Provence (production locale autour de Pierrefeu, La Crau, La Londe), agrumes (bigaradier, kumquat), fleurs coupées (premier producteur français au XIXe siècle). Sur les îles, restaurants spécialisés en poissons des îles (loup, daurade, denti). La cave coopérative de Hyères-La Londe propose des dégustations toute l'année.",
+      },
+    ],
+    relatedCities: ["hyeres"],
+    relatedGuides: [
+      "vivre-dans-le-var-guide-2025",
+      "vivre-en-provence-paca-guide-2025",
+      "cote-azur-abordable-arriere-pays-paca-2025",
+    ],
+    tags: ["10 choses à faire à Hyères", "activités Hyères 2026", "sorties Hyères", "que faire à Hyères", "Porquerolles Port-Cros Giens villa Noailles palmiers Almanarre"],
+  },
+  {
+    slug: "10-choses-a-faire-a-draguignan-2026",
+    title: "10 choses à faire à Draguignan (la porte du Verdon et l'arrière-pays varois)",
+    metaTitle: "10 choses à faire à Draguignan 2026 — activités et sorties locales",
+    metaDesc: "Tour de l'Horloge, gorges du Verdon, Lorgues, cascade de Sillans et Aups truffes : 10 activités à Draguignan pour explorer le Var intérieur.",
+    category: "tourisme",
+    emoji: "🌲",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Draguignan est la sous-préfecture du Var, 40 000 habitants au pied du massif des Maures et porte d'entrée naturelle du Verdon. Longtemps capitale militaire (École d'application de l'artillerie), elle est aujourd'hui une ville de marché provençale au caractère préservé. Les loyers et prix immobiliers sont dramatiquement inférieurs à ceux du littoral varois, à 35 minutes des plages.",
+    sections: [
+      {
+        heading: "1. Le vieux Draguignan — la Tour de l'Horloge et les Halles",
+        body: "Le centre historique de Draguignan est resserré autour de la Tour de l'Horloge (1663, octogonale, 60 m de haut, vue panoramique sur les Maures), des halles couvertes (1933, marché provençal mercredi et samedi) et de la place du Marché. Les ruelles médiévales (rue de la Juiverie, ancienne synagogue du XIIIe siècle), la porte Romaine et l'église Saint-Michel composent un parcours de 1h sans aucune voiture.",
+      },
+      {
+        heading: "2. Les gorges du Verdon — le Grand Canyon d'Europe",
+        body: "Les gorges du Verdon (à 1h de Draguignan par la D955) sont le plus grand canyon d'Europe : 25 km, parois calcaires de 700 m, eau turquoise. L'accès le plus rapide depuis Draguignan se fait par Aups → Régusse → Aiguines (point de vue sur le lac de Sainte-Croix). Sentier Martel (8h, lampe frontale obligatoire, le fond des gorges) ou route des Crêtes côté Rougon (14 belvédères). Canoë et pédalo depuis Sainte-Croix.",
+      },
+      {
+        heading: "3. La cascade de Sillans-la-Cascade",
+        body: "La cascade de Sillans (à 30 km de Draguignan, sur la Bresque) est une chute d'eau de 42 m tombant dans un bassin de tuf vert turquoise — l'une des plus belles cascades de Provence, accessible par un sentier de 800 m (15 min de marche). Baignade interdite (chutes de pierres) mais belvédère panoramique. Le village de Sillans (médiéval, restauré), Cotignac et Entrecasteaux complètent une boucle d'une journée dans la Provence verte.",
+      },
+      {
+        heading: "4. Lorgues — le marché provençal du mardi",
+        body: "Lorgues (à 15 km de Draguignan) accueille chaque mardi matin l'un des plus grands marchés provençaux de France — 350 producteurs et marchands sur 800 m de cours et de places (cours de la République, place Trussy). Produits locaux : oliviers AOC Provence (huiles de Mas Bertrand), miels, fromages de chèvre du haut Var, vins AOP Côtes-de-Provence. Le village médiéval (XIIIe siècle) avec ses fontaines et son ancien hôpital Saint-Ferréol mérite la visite.",
+      },
+      {
+        heading: "5. Aups et le marché aux truffes",
+        body: "Aups (à 35 km de Draguignan, capitale française de la truffe noire Tuber melanosporum après Carpentras) accueille de mi-novembre à fin mars un marché aux truffes chaque jeudi matin (Cours Gambetta). 5 t/an échangées (200-500 €/kg). Le musée Simon Ségal (collection d'art moderne dans une chapelle), le village et la chapelle Saint-Pancrace en haut du Calvaire complètent la visite. Confiserie d'Aups : amandes blanchies au sucre depuis 1860.",
+      },
+      {
+        heading: "6. Le Mémorial du débarquement de Provence",
+        body: "Draguignan abrite le Mémorial du débarquement de Provence (Mont Faron à Toulon à 40 km est aussi en lien) — opération Dragoon, 15 août 1944, 250 000 hommes débarqués sur les plages varoises. Le cimetière américain de Draguignan (Cimetière Américain de Draguignan, 861 tombes de soldats américains) est l'un des deux cimetières américains en France de la Seconde Guerre mondiale.",
+      },
+      {
+        heading: "7. Le château d'Entrecasteaux — jardin à la française",
+        body: "Le château d'Entrecasteaux (à 20 km de Draguignan, XIe-XVIIIe siècles) est l'une des plus belles demeures historiques privées du Var — jardin à la française dessiné par Le Nôtre (escalier monumental, parterres, fontaines), salles d'apparat ornées de boiseries, tableaux du XVIe au XVIIIe siècles. Visites guidées tous les jours en saison.",
+      },
+      {
+        heading: "8. Saint-Tropez en arrière-saison — à 50 km",
+        body: "Saint-Tropez est à 50 min de Draguignan par la D25 (par Vidauban et Le Muy, évitant l'autoroute). Hors saison (octobre à mai), c'est un village provençal authentique : Place des Lices et son marché du mardi-samedi, Citadelle (musée d'histoire maritime), la Ponche (vieux quartier des pêcheurs), Sénéquier. Plages de Pampelonne à 7 km, accessibles à pied par le sentier du littoral.",
+      },
+      {
+        heading: "9. L'abbaye du Thoronet — le silence cistercien",
+        body: "L'abbaye du Thoronet (XIIe siècle, à 30 km de Draguignan) est l'une des trois « sœurs cisterciennes provençales » (avec Sénanque et Silvacane). Architecture romane d'une pureté absolue, acoustique légendaire (chants grégoriens chaque dimanche à 11h45). Le Corbusier la considérait comme l'un des chefs-d'œuvre absolus de l'architecture. Visite seul (1h) ou guidée. Office de tourisme du Thoronet à 5 min en voiture.",
+      },
+      {
+        heading: "10. Gastronomie de l'arrière-pays varois",
+        body: "La cuisine du Var intérieur est rustique et lumineuse : daube provençale au vin rouge, pieds-paquets à la marseillaise (tripes de mouton), tomates farcies, ratatouille (Vaucluse voisin), olives lucques de Provence (AOP), fromages de chèvre du haut Var. La spécialité de Draguignan reste le nougat provençal (vrais nougats artisanaux), l'huile d'olive AOC Provence et les vins AOP Côtes-de-Provence du domaine de Saint-Andrieu et de Saint-Roch-les-Vignes.",
+      },
+    ],
+    relatedCities: ["draguignan"],
+    relatedGuides: [
+      "vivre-dans-le-var-guide-2025",
+      "vivre-en-provence-paca-guide-2025",
+      "cote-azur-abordable-arriere-pays-paca-2025",
+    ],
+    tags: ["10 choses à faire à Draguignan", "activités Draguignan 2026", "sorties Draguignan", "que faire à Draguignan", "Verdon Lorgues Aups truffes Sillans Thoronet arrière-pays varois"],
+  },
+  {
+    slug: "10-choses-a-faire-a-laval-2026",
+    title: "10 choses à faire à Laval (la cité du Douanier Rousseau et la Mayenne)",
+    metaTitle: "10 choses à faire à Laval 2026 — activités et sorties locales",
+    metaDesc: "Vieux château, musée Henri Rousseau, bains-douches Art déco et abbaye de Port-Salut : 10 activités à Laval pour découvrir la capitale de la Mayenne.",
+    category: "tourisme",
+    emoji: "🎨",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Laval est la préfecture de la Mayenne, 52 000 habitants traversés par la rivière éponyme et célèbres pour deux choses : être le berceau du Douanier Rousseau (Henri Rousseau, 1844-1910) et abriter le premier musée français d'art naïf. Ville de marché et de commerce médiéval, elle est à 1h10 de Paris en TGV — l'une des préfectures les mieux desservies pour son coût immobilier dramatiquement bas.",
+    sections: [
+      {
+        heading: "1. Le château de Laval — l'ensemble Renaissance et roman",
+        body: "Le château de Laval (XIe-XVIe siècles) est l'un des très rares ensembles castraux français mélangeant donjon roman (XIIe siècle, cylindrique, exceptionnel en France), logis Renaissance (XVe-XVIe siècles) et architecture militaire médiévale. Le donjon abrite l'une des dernières charpentes médiévales en chêne du XIIIe siècle encore en place en Europe (visible). Vue panoramique sur la Mayenne depuis le sommet.",
+      },
+      {
+        heading: "2. Le musée d'Art naïf — Henri Rousseau et après",
+        body: "Le musée d'Art naïf et d'Arts singuliers (dans le Vieux Château) est le seul musée français consacré entièrement à l'art naïf — 600 œuvres dont une salle Henri Rousseau (le Douanier Rousseau né à Laval en 1844), des œuvres de Séraphine de Senlis, Camille Bombois, Louis Vivin, et des artistes contemporains de l'art brut. Collection régulièrement enrichie.",
+      },
+      {
+        heading: "3. Les bains-douches municipaux — Art déco classé",
+        body: "Les Bains-Douches municipaux de Laval (1928, architecte Léon Magdelaine, classés monument historique 1996) sont l'un des très rares bains publics Art déco encore en activité en France : façade céramique, mosaïques, baignoires en émail, douches collectives reconverties en piscine. La grande piscine (25 m, couverte) est encore exploitée publiquement à des tarifs municipaux.",
+      },
+      {
+        heading: "4. Le quartier médiéval — rue de Bootz et le pont Vieux",
+        body: "Le quartier médiéval de Laval (entre la Mayenne et le château) conserve maisons à pans de bois (XVIe siècle, rue de la Trinité, rue des Trois-Rois), portes de ville (porte Beucheresse, où Rousseau est né au-dessus, plaque à voir), pont Vieux (XIIIe siècle, l'un des plus anciens ponts médiévaux de la Mayenne, six arches en plein cintre). Promenade fluviale aménagée sur les deux rives.",
+      },
+      {
+        heading: "5. La cathédrale de la Trinité — gothique mayennais",
+        body: "La cathédrale de la Trinité (XIIe-XIXe siècles, érigée en cathédrale en 1855) est l'une des plus modestes cathédrales de France — sept siècles d'architecture juxtaposés : roman (chœur, XIIe siècle), gothique flamboyant (nef, XVe siècle), classique (Renaissance, XVIIe siècle), néogothique (façade XIXe siècle). Vitraux contemporains de Pierre Buraglio (2007), commande publique remarquable.",
+      },
+      {
+        heading: "6. L'abbaye Notre-Dame du Port-du-Salut — le berceau du Port-Salut",
+        body: "L'abbaye de Port-du-Salut (à 8 km de Laval, à Entrammes, fondée 1233) est le lieu d'origine du fromage Port-Salut — recette créée par les moines trappistes en 1815, vendue à la SAFR (Société Anonyme des Fermiers Réunis) en 1959. L'abbaye fonctionne toujours (20 moines), produit la bière Trappiste de Saint-Wandrille mais plus le fromage. Visite des extérieurs et de l'église. Boutique monastique (livres, miels, infusions).",
+      },
+      {
+        heading: "7. Sainte-Suzanne — la cité médiévale",
+        body: "Sainte-Suzanne (à 30 km de Laval, classée plus beaux villages de France) est une cité médiévale perchée sur un éperon dominant la Charnie — enceintes fortifiées (XIe-XVe siècles, intactes), donjon roman (1140), maisons à pans de bois du XVe siècle. La cité fut le seul lieu de Normandie à résister à Guillaume le Conquérant en 1083-1086 (siège raté). Centre d'interprétation gratuit dans le château.",
+      },
+      {
+        heading: "8. Jublains — la ville gallo-romaine",
+        body: "Jublains (à 25 km au nord-est de Laval) est l'une des plus complètes villes gallo-romaines du nord de la France — théâtre antique (Ier siècle, 5 000 places), thermes, temples, et une forteresse militaire unique en Gaule (deux enceintes successives III-IVe siècles, le seul exemple connu en France). Musée archéologique sur place. Site en plein air, accès libre.",
+      },
+      {
+        heading: "9. Les rives de la Mayenne — vélo et chemin de halage",
+        body: "Le chemin de halage de la Mayenne (90 km de Mayenne à Angers, balisé V44 véloroute) traverse Laval — 38 écluses encore en activité pour les bateaux de plaisance (location de bateaux sans permis à Daon, en aval). À pied ou à vélo, la rive est plate, ombragée et entièrement piétonne sur de longs tronçons. Le port de Laval (à 100 m du château) permet location de paddle, canoë et croisières-restaurants.",
+      },
+      {
+        heading: "10. Gastronomie mayennaise — Port-Salut, rillauds et cidre",
+        body: "La gastronomie de Laval mélange traditions mayennaises et angevines : fromages Port-Salut et bleu de la Manche (Saint-Calixte), rillauds (rillettes de porc traditionnelles du Maine), cidre fermier de la Mayenne et Maine-et-Loire, beurre cru AOP Charentes-Poitou voisin. Le marché de Laval (samedi matin, place de Hercé) est le grand marché agricole hebdomadaire. La Mayenne reste l'un des départements français les plus agricoles — produits fermiers en abondance.",
+      },
+    ],
+    relatedCities: ["laval"],
+    relatedGuides: [
+      "vivre-en-pays-de-la-loire-guide-2025",
+    ],
+    tags: ["10 choses à faire à Laval", "activités Laval 2026", "sorties Laval", "que faire à Laval", "château Douanier Rousseau bains-douches Art déco Port-Salut Sainte-Suzanne Jublains"],
+  },
+  {
+    slug: "10-choses-a-faire-a-cherbourg-2026",
+    title: "10 choses à faire à Cherbourg (la Cité de la Mer et la pointe du Cotentin)",
+    metaTitle: "10 choses à faire à Cherbourg 2026 — activités et sorties locales",
+    metaDesc: "Cité de la Mer, gare maritime Art déco, Cap de la Hague, Nez de Jobourg et parapluies de Cherbourg : 10 activités pour découvrir la pointe du Cotentin.",
+    category: "tourisme",
+    emoji: "⚓",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Cherbourg-en-Cotentin est la grande ville du nord-Cotentin (80 000 habitants depuis la fusion de 2016 avec Tourlaville, Equeurdreville, Octeville et La Glacerie). Port militaire historique, terminus transatlantique, escale des ferries pour l'Irlande et le Royaume-Uni, c'est la porte d'entrée d'une presqu'île aux paysages parmi les plus sauvages de France métropolitaine. Loyers parmi les plus bas pour une ville de cette taille.",
+    sections: [
+      {
+        heading: "1. La Cité de la Mer — Le Redoutable et le Titanic",
+        body: "La Cité de la Mer (dans l'ancienne gare maritime Art déco, 1933) est le plus grand musée français consacré à l'aventure de l'homme sous la mer. Visite du Redoutable (premier sous-marin nucléaire lanceur d'engins français, 1971, désarmé en 1991 — le seul SNLE visitable au monde), aquariums abyssaux de 11 m de profondeur, exposition permanente sur l'expédition Titanic (Cherbourg fut la dernière escale du Titanic le 10 avril 1912). Compter 4h de visite minimum.",
+      },
+      {
+        heading: "2. La gare maritime transatlantique — Art déco classée",
+        body: "La gare maritime transatlantique (1928-1933, architecte René Levavasseur, classée monument historique 1989) est l'un des chefs-d'œuvre Art déco de France — 280 m de long, hall des Paquebots de 80 m, mosaïques d'Auguste Labouret. Construite pour accueillir les paquebots transatlantiques (le Normandie, le Queen Mary), elle abrite aujourd'hui la Cité de la Mer. Visite extérieure et architecture intérieure accessibles dans le cadre du musée.",
+      },
+      {
+        heading: "3. Le Cap de la Hague et le Nez de Jobourg",
+        body: "Le Cap de la Hague (à 30 km à l'ouest de Cherbourg) marque la pointe nord-ouest de la France métropolitaine — falaises de 128 m tombant à la verticale, raz Blanchard (l'un des courants marins les plus violents d'Europe, jusqu'à 12 nœuds). Le Nez de Jobourg (128 m) et le phare de Goury (signal de la pointe) offrent les panoramas les plus saisissants. Sentier des Douaniers (GR223) sur tout le pourtour.",
+      },
+      {
+        heading: "4. Les Parapluies de Cherbourg — la tradition manufacturière",
+        body: "Le parapluie de Cherbourg, popularisé par le film de Jacques Demy avec Catherine Deneuve (1964), reste fabriqué en ville par la dernière manufacture artisanale Le Véritable Cherbourg (atelier visitable, rue des Tanneries) — toile, baleines, manche en bois local assemblés à la main, 200 modèles. Prix : 150-300 € pièce. Boutique-atelier au centre-ville.",
+      },
+      {
+        heading: "5. La rade — la plus grande rade artificielle d'Europe",
+        body: "La rade de Cherbourg (1 500 ha, plus grande rade artificielle du monde) est protégée par une digue centrale de 3,7 km construite de 1783 à 1853 — Napoléon, qui en posa la première pierre, voulait y construire un port militaire capable de débarquer en Angleterre. Le fort central (1804), le fort de l'Ouest et le fort de l'Est ferment la rade. Tour en bateau (1h30, depuis le port de plaisance) pour la voir de la mer.",
+      },
+      {
+        heading: "6. Le château et les jardins de Tourlaville",
+        body: "Le château des Ravalet (XVIe siècle, à Tourlaville, 5 km à l'est de Cherbourg) est un château Renaissance précoce (1562) construit pour la famille Ravalet — anecdote macabre : les jumeaux Marguerite et Julien y eurent une liaison incestueuse découverte en 1603, tous deux exécutés place de Grève à Paris. Le parc à l'anglaise (17 ha, redessiné au XIXe siècle, classé jardin remarquable) est l'un des plus beaux du Cotentin — pièces d'eau, fabriques, palmiers (à la pointe nord du Cotentin).",
+      },
+      {
+        heading: "7. Barfleur et le phare de Gatteville — à 30 km",
+        body: "Barfleur (à 30 km à l'est de Cherbourg, classé plus beaux villages de France) est l'un des plus authentiques villages de pêche de la Manche — maisons en granit à toits d'ardoise, port abrité de barques colorées, église Saint-Nicolas (XVIIe siècle). À 4 km, le phare de Gatteville (1834, 75 m, 365 marches — un escalier par jour de l'année) est le deuxième plus haut phare d'Europe (après l'Île Vierge). Ascension possible. Vue jusqu'au Cap Lévi par temps clair.",
+      },
+      {
+        heading: "8. Les plages du val de Saire — Saint-Vaast et l'île de Tatihou",
+        body: "Le val de Saire (côte est du Cotentin, à 30 km de Cherbourg) est la côte la plus douce du Cotentin : Saint-Vaast-la-Hougue (classé plus beaux villages, huîtres de Saint-Vaast — l'huître plate normande, dégustation directe), île de Tatihou (UNESCO Vauban, 1693, accessible à pied à marée basse ou en bateau amphibie), Réville et la pointe de Saire. Plages de sable fin sur 20 km.",
+      },
+      {
+        heading: "9. L'abbaye Sainte-Trinité de Lessay — la pure architecture romane",
+        body: "L'abbaye de Lessay (XIe-XIIe siècles, à 40 km au sud de Cherbourg) est l'un des chefs-d'œuvre absolus de l'architecture romane normande — entièrement détruite en 1944 puis reconstruite pierre par pierre à l'identique dans les années 1950 (l'une des restaurations à l'identique les plus complètes de France). La foire Sainte-Croix (en septembre, depuis 1056) est l'une des plus anciennes foires agricoles de France encore en activité.",
+      },
+      {
+        heading: "10. Gastronomie cotentinoise — huîtres, agneau de pré-salé et calvados",
+        body: "La gastronomie du Cotentin est marine et fermière : huîtres de Saint-Vaast (plates et creuses), homards et tourteaux de la Hague, agneau de pré-salé du Mont-Saint-Michel AOP (élevé sur les herbus salés à 60 km au sud), beurre demi-sel AOP Isigny (à 50 km), camembert de Normandie AOP, cidre fermier du Cotentin et calvados AOP (distilleries dans tout le département). Le marché de Cherbourg (jeudi et samedi matin, place du Général de Gaulle) reste le grand rendez-vous hebdomadaire.",
+      },
+    ],
+    relatedCities: ["cherbourg"],
+    relatedGuides: [
+      "vivre-en-normandie-guide-2025",
+    ],
+    tags: ["10 choses à faire à Cherbourg", "activités Cherbourg 2026", "sorties Cherbourg", "que faire à Cherbourg", "Cité Mer Redoutable Hague Jobourg parapluies Tatihou Barfleur Cotentin"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
