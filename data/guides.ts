@@ -28995,6 +28995,483 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["10 choses à faire à Rodez", "activités Rodez 2026", "sorties Rodez", "que faire à Rodez", "Soulages cathédrale Conques Aubrac Laguiole Marcillac"],
   },
+  {
+    slug: "10-choses-a-faire-a-auch-2026",
+    title: "10 choses à faire à Auch (la cité de d'Artagnan et l'escalier monumental)",
+    metaTitle: "10 choses à faire à Auch 2026 — activités et sorties locales",
+    metaDesc: "Cathédrale Sainte-Marie, escalier monumental, statue de d'Artagnan, Marciac et Armagnac : 10 activités à Auch pour découvrir la capitale de la Gascogne.",
+    category: "tourisme",
+    emoji: "⚔️",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Auch est la préfecture du Gers et la capitale historique de la Gascogne, 21 000 habitants entre Toulouse (à 80 km) et le piémont pyrénéen. La ville est associée à d'Artagnan (Charles de Batz-Castelmore, vrai mousquetaire né à Lupiac en 1611, immortalisé par Alexandre Dumas dans Les Trois Mousquetaires). Vieille ville médiévale en escalier sur le Gers, cathédrale Sainte-Marie classée UNESCO, et porte d'entrée vers l'Armagnac (la plus ancienne eau-de-vie de France).",
+    sections: [
+      {
+        heading: "1. La cathédrale Sainte-Marie — UNESCO et vitraux Arnaut de Moles",
+        body: "La cathédrale Sainte-Marie d'Auch (XVe-XVIIe siècles, classée UNESCO comme étape majeure du chemin de Saint-Jacques de Compostelle) est l'une des dernières cathédrales gothiques construites en France. Elle abrite deux trésors exceptionnels : les 113 stalles sculptées du chœur (1500-1554, l'un des plus grands ensembles sculptés du gothique flamboyant) et les vitraux d'Arnaut de Moles (XVIe siècle, Renaissance — considérés comme les plus beaux vitraux Renaissance de France).",
+      },
+      {
+        heading: "2. L'escalier monumental et la statue de d'Artagnan",
+        body: "L'escalier monumental d'Auch (1860, 234 marches reliant la haute ville à la basse ville sur 35 m de dénivelé) est l'un des plus beaux escaliers urbains de France. À mi-chemin, la statue de d'Artagnan en bronze (Firmin Michelet, 1931) regarde la vallée. Vue panoramique sur la cathédrale, la vieille ville et la chaîne des Pyrénées par temps clair. Plante grimpante (glycines) qui fleurit en mai.",
+      },
+      {
+        heading: "3. La tour d'Armagnac — le donjon du XIVe siècle",
+        body: "La tour d'Armagnac (XIVe siècle, à côté de la cathédrale) est l'ancien donjon de l'archevêché — 40 m de hauteur, mâchicoulis intacts. Elle a servi de prison ecclésiastique pendant des siècles. Visite intérieure possible (escalier en colimaçon, vue sur la cathédrale depuis le sommet). Elle marque l'angle de la place Salinis, plus belle place de la vieille ville (terrasses ombragées).",
+      },
+      {
+        heading: "4. Marciac — le festival de jazz d'août",
+        body: "Marciac (à 35 km à l'ouest d'Auch, 1 200 habitants) est l'épicentre du Jazz in Marciac (3 semaines fin juillet-début août, l'un des plus grands festivals de jazz au monde — 250 000 spectateurs/édition). Le chapiteau de 6 000 places accueille les plus grands : Wynton Marsalis (résident historique), Herbie Hancock, Diana Krall, Marcus Miller. Hors festival, le musée Les Territoires du Jazz (gratuit) raconte l'histoire du jazz depuis La Nouvelle-Orléans.",
+      },
+      {
+        heading: "5. Les caves d'Armagnac — la plus ancienne eau-de-vie de France",
+        body: "L'Armagnac (AOC depuis 1936, plus ancienne eau-de-vie de France — distillée depuis 1310, antérieure au Cognac de 3 siècles) est l'emblème spiritueux du Gers. Trois zones de production : Bas-Armagnac (les meilleurs), Ténarèze, Haut-Armagnac. Caves visitables : Domaine de Lasgraves (à 10 km d'Auch), Château de Laubade, Domaine Dartigalongue. Distillation à l'alambic à repasse continue (différent du Cognac). Vieillissement minimum 1 an en fût de chêne.",
+      },
+      {
+        heading: "6. Lupiac — le château natal de d'Artagnan",
+        body: "Lupiac (à 25 km à l'ouest d'Auch, 250 habitants) est le village natal de Charles de Batz-Castelmore, dit d'Artagnan (1611-1673, vrai mousquetaire du roi Louis XIV — Dumas l'a romancé). Le château de Castelmore (à 1 km du village, encore en état mais privé — visite extérieure) et la place du village avec sa statue et son musée d'Artagnan (gratuit, juillet-août). Fête de d'Artagnan le 1er week-end d'août (reconstitutions historiques).",
+      },
+      {
+        heading: "7. Le musée des Jacobins — Amérique précolombienne",
+        body: "Le musée des Jacobins d'Auch (ancien couvent des Jacobins, XVIe siècle) possède l'une des plus belles collections françaises d'art précolombien hors Paris — pièces aztèques, mayas, incas (donation Pujos en 1979). Collection d'art religieux de la Gascogne médiévale, peintures du XVIe-XIXe siècles. Gratuit le premier dimanche du mois. Hôte de la collection nationale de pottery sud-américaine.",
+      },
+      {
+        heading: "8. Les villages perchés du Gers — Lavardens et Larressingle",
+        body: "Le Gers concentre des villages médiévaux exceptionnellement préservés. Lavardens (à 18 km d'Auch, plus beau village de France) : château du XVIIe siècle perché sur un piton rocheux, vue panoramique. Larressingle (à 45 km, plus beau village de France) : la « Carcassonne en miniature » — la plus petite cité fortifiée d'Europe (270 m d'enceinte, 30 habitants à l'intérieur). Fourcès (à 50 km) : village circulaire unique en France (place ronde au lieu de carrée).",
+      },
+      {
+        heading: "9. Le château de Lavardens et la vallée de l'Auch",
+        body: "Le château de Lavardens (XVIIe siècle, 1620-1645, ancien château des comtes d'Armagnac) est le plus beau château du Gers — silhouette d'éperon rocheux, salle des Carrelages aux décors géométriques uniques en France (carreaux peints du XVIIe siècle). Expositions temporaires d'art contemporain. À 18 km d'Auch — combinable avec une journée Lupiac (Auch-Lupiac-Lavardens, 60 km en boucle).",
+      },
+      {
+        heading: "10. Gastronomie gasconne — foie gras et garbure",
+        body: "La cuisine gasconne est l'une des plus généreuses de France : foie gras d'oie ou de canard du Gers (premier département producteur français — Sud-Ouest), magret de canard (inventé au restaurant Le Grand Hôtel d'Auch en 1965 par André Daguin — magret saignant comme un steak), garbure (soupe paysanne au chou, haricots tarbais, jambon de Bayonne et confit), tourtière landaise (feuilleté pommes-armagnac). Vins : Madiran (à 60 km, rouge tannique), Côtes-de-Gascogne (blanc), Floc de Gascogne (apéritif sucré au sol). Armagnac en digestif.",
+      },
+    ],
+    relatedCities: ["auch"],
+    relatedGuides: [
+      "vivre-en-occitanie-guide-2025",
+    ],
+    tags: ["10 choses à faire à Auch", "activités Auch 2026", "sorties Auch", "que faire à Auch", "d'Artagnan cathédrale UNESCO escalier Marciac Armagnac"],
+  },
+  {
+    slug: "10-choses-a-faire-a-cahors-2026",
+    title: "10 choses à faire à Cahors (le pont Valentré et le vin noir du Lot)",
+    metaTitle: "10 choses à faire à Cahors 2026 — activités et sorties locales",
+    metaDesc: "Pont Valentré, vin noir AOC Cahors, Saint-Cirq-Lapopie, gouffre de Padirac et vallée du Lot : 10 activités à Cahors pour découvrir la préfecture du Lot.",
+    category: "tourisme",
+    emoji: "🍷",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Cahors est la préfecture du Lot, 20 000 habitants dans une boucle parfaite du Lot qui encercle la vieille ville à 90 % — presqu'île médiévale. La ville doit sa renommée à deux choses : le pont Valentré (XIVe siècle, classé UNESCO comme étape du chemin de Saint-Jacques — l'un des ponts médiévaux les mieux conservés d'Europe) et le « vin noir » AOC Cahors (cépage Malbec, vin tannique le plus dense de France — exporté en Russie au XVIIIe siècle).",
+    sections: [
+      {
+        heading: "1. Le pont Valentré — UNESCO et la légende du diable",
+        body: "Le pont Valentré (1308-1378, classé UNESCO comme étape du chemin de Saint-Jacques de Compostelle) est l'un des ponts médiévaux fortifiés les mieux conservés d'Europe — trois tours-portes carrées, six arches gothiques, 138 m de long. Légende : le maître d'œuvre a passé un pacte avec le diable pour finir le pont, qu'il a trompé. Une petite sculpture de diable agrippé à la tour centrale (placée par Paul Gout lors de la restauration en 1879) rappelle l'histoire.",
+      },
+      {
+        heading: "2. Le vignoble AOC Cahors — le malbec roi",
+        body: "L'AOC Cahors (4 200 ha, 350 vignerons) est l'une des plus anciennes appellations de France — Romains, puis vin de cour des rois jusqu'au XVIIIe siècle. Cépage roi : Cot (Malbec) — 70 % minimum dans l'assemblage. Vin noir, tannique, qui se garde 20 ans. Domaines à visiter : Clos Triguedina (Jean-Luc Baldès), Château du Cèdre, Château Lagrézette (Alain-Dominique Perrin, propriétaire Cartier). Caveaux ouverts dans les villages de Luzech, Albas, Mercuès.",
+      },
+      {
+        heading: "3. Saint-Cirq-Lapopie — village préféré des Français",
+        body: "Saint-Cirq-Lapopie (à 30 km à l'est de Cahors, élu Village préféré des Français en 2012, plus beau village de France) est l'un des plus beaux villages perchés d'Europe — accroché à une falaise de 100 m surplombant le Lot. André Breton (pape du surréalisme) y a vécu et l'a baptisé « le plus beau village ». Maisons à pans de bois XIIIe-XVIe siècles, ruelles pavées, château ruiné au sommet. Très fréquenté en été — y aller tôt le matin ou hors saison.",
+      },
+      {
+        heading: "4. Le gouffre de Padirac — la rivière souternaine",
+        body: "Le gouffre de Padirac (à 70 km au nord-est de Cahors, dans le Quercy) est l'un des grands sites souterrains d'Europe — un effondrement karstique de 75 m de profondeur ouvert sur une rivière souterraine. Descente par ascenseur jusqu'à -103 m, puis navigation en barque à fond plat sur 1 km de galeries (Grand Pendeloque, Lac de la Pluie). 1h30 de visite, 17€. Mieux que la grotte de Lascaux pour la dimension naturelle — l'une des merveilles naturelles d'Europe.",
+      },
+      {
+        heading: "5. La cathédrale Saint-Étienne — coupoles byzantines",
+        body: "La cathédrale Saint-Étienne de Cahors (XIIe siècle, romane) est l'une des rares cathédrales françaises à coupoles byzantines (deux coupoles de 32 m de diamètre — modèle qui a inspiré le Sacré-Cœur de Paris). Tympan roman du portail nord (Ascension du Christ, XIIe siècle — l'un des chefs-d'œuvre de l'art roman du Sud-Ouest). Cloître Renaissance attenant. Classée UNESCO.",
+      },
+      {
+        heading: "6. La vallée du Lot — kayak et villages perchés",
+        body: "La vallée du Lot (entre Cahors et Saint-Cirq-Lapopie, 30 km) est l'une des plus belles vallées encaissées du Massif central — falaises calcaires de 100-150 m, méandres serrés du Lot, villages perchés (Vers, Bouziès, Saint-Cirq-Lapopie). Descente en canoë (locations à Vers, demi-journée 20€), promenades en gabare (bateau traditionnel) au départ de Bouziès, sentier du Lot (GR65, chemin de Saint-Jacques) à pied.",
+      },
+      {
+        heading: "7. Rocamadour — la cité mariale verticale",
+        body: "Rocamadour (à 60 km au nord de Cahors, plus beau village de France, classé UNESCO) est l'une des grandes cités de pèlerinage d'Europe — village vertical accroché à une falaise de 150 m, construit autour du sanctuaire de la Vierge Noire (XIIe siècle, statue miraculeuse). 216 marches du Grand Escalier des pèlerins (à monter à genoux pour les plus pieux). Sept églises, basilique Saint-Sauveur, château au sommet. Spécialité : Rocamadour AOP (fromage de chèvre, le plus petit AOP de France).",
+      },
+      {
+        heading: "8. Le marché aux truffes de Lalbenque",
+        body: "Lalbenque (à 20 km de Cahors) est l'un des plus grands marchés français à la truffe noire (Tuber melanosporum) — chaque mardi de novembre à mars, 14h pétantes (le marché commence à un coup de sifflet, ferme à 14h30). Prix : 600-1 200€/kg selon le millésime. Pour info, le marché de Lalbenque est le plus authentique du Sud-Ouest pour les amateurs (rituel intact depuis 1880, transactions au comptant). Restaurants à truffe dans le bourg.",
+      },
+      {
+        heading: "9. La vieille ville médiévale et la rue Nationale",
+        body: "La vieille ville de Cahors (à l'intérieur de la boucle du Lot) est un dédale de ruelles médiévales — rue Nationale (axe principal commerçant), place des Maquisards (marché du mercredi et samedi matin). Hôtels particuliers du XIVe-XVIe siècles : palais de Via, Maison Roaldès. Le quartier des Badernes (haute ville) et le quartier de l'Ile (basse ville, côté pont Valentré) sont les deux pôles à voir.",
+      },
+      {
+        heading: "10. Gastronomie quercynoise — foie gras et noix",
+        body: "La cuisine du Quercy (Lot) est l'une des plus riches de France : foie gras de canard ou d'oie, magret de canard, confit, foies gras mi-cuits, agneau du Quercy IGP (race caussenarde sur prés-bois calcaires). Spécialités locales : truffe noire (Tuber melanosporum — en omelette, en sauce Périgueux), Cabécou de Rocamadour AOP (chèvre frais), noix du Périgord AOP. Spécialités sucrées : pastis quercynois (feuilleté aux pommes et armagnac), Rocamadour glacé. Vins : Cahors AOC (le rouge noir), Marcillac (à 50 km dans l'Aveyron).",
+      },
+    ],
+    relatedCities: ["cahors"],
+    relatedGuides: [
+      "vivre-en-aveyron-lot-guide-2025",
+      "vivre-en-occitanie-guide-2025",
+    ],
+    tags: ["10 choses à faire à Cahors", "activités Cahors 2026", "sorties Cahors", "que faire à Cahors", "pont Valentré Malbec Saint-Cirq Padirac Rocamadour"],
+  },
+  {
+    slug: "10-choses-a-faire-a-mende-2026",
+    title: "10 choses à faire à Mende (la cité du Gévaudan et le plus haut chef-lieu de France)",
+    metaTitle: "10 choses à faire à Mende 2026 — activités et sorties locales",
+    metaDesc: "Cathédrale gothique, mont Mimat, gorges du Tarn, Aubrac et Cévennes : 10 activités à Mende pour découvrir la préfecture la plus rurale de France.",
+    category: "tourisme",
+    emoji: "🐺",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Mende est la préfecture de la Lozère — département le moins peuplé de France métropolitaine (76 000 habitants pour 5 200 km²). 11 000 habitants à 731 m d'altitude (préfecture la plus haute de France après Briançon hors chef-lieux). Au confluent du Causse du Sauveterre, des Cévennes et de la Margeride, Mende est la cité du Gévaudan — région du « Loup du Gévaudan » qui terrorisa la région entre 1764 et 1767 (100 victimes).",
+    sections: [
+      {
+        heading: "1. La cathédrale Saint-Pierre — le clocher gothique",
+        body: "La cathédrale Saint-Pierre de Mende (XIVe-XVIe siècles, gothique méridional) est le monument emblématique de la ville. Construite par le pape d'Avignon Urbain V (né au Gévaudan), elle a deux clochers asymétriques (l'un haut de 84 m, l'autre incomplet). À l'intérieur : le « Non Pareille » (cloche du XVe siècle qui pesait 26 tonnes, fondue à la Révolution — fragments visibles), tapisseries d'Aubusson du XVIIe siècle, orgue Cavaillé-Coll. Classée UNESCO.",
+      },
+      {
+        heading: "2. Le mont Mimat — le belvédère et l'ermitage",
+        body: "Le Mont Mimat (1 067 m, à 4 km au sud de Mende — accessible à pied par les escaliers Saint-Privat ou en voiture) est le belvédère naturel de la ville. Vue panoramique sur la Margeride, les Causses et le Mont Lozère (1 699 m, point culminant). À mi-pente, l'ermitage Saint-Privat (grotte naturelle où le premier évêque de Mende a vécu au IIIe siècle — pèlerinage régional). Sentier balisé de 4 km en boucle au départ de la cathédrale.",
+      },
+      {
+        heading: "3. Le pont Notre-Dame — XIIIe siècle",
+        body: "Le pont Notre-Dame (XIIIe siècle, sur le Lot) est l'un des plus anciens ponts médiévaux de France en activité. 4 arches gothiques en pierre de basalte, statue de la Vierge au milieu. À voir depuis les bords du Lot — promenade des Anglais sur les quais. La place Chaptal et le boulevard Lucien-Arnault concentrent les terrasses de cafés en été (marché du samedi matin).",
+      },
+      {
+        heading: "4. Les gorges du Tarn et le Causse Méjean",
+        body: "Les gorges du Tarn (à 30 km au sud-est de Mende, sur 50 km) sont l'un des plus grands canyons d'Europe — falaises de 500 m de hauteur. Belvédères du Causse Méjean (1 000 m d'altitude, Patrimoine mondial UNESCO « Causses et Cévennes ») : Roc des Hourtous (le plus spectaculaire), Point Sublime. Descente en canoë depuis La Malène, hameaux troglodytes (Saint-Marcellin). Vautours fauves réintroduits dans les années 1980 (Maison des Vautours à Le Truel — sortie nature obligatoire).",
+      },
+      {
+        heading: "5. L'Aubrac — estives volcaniques et burons",
+        body: "Le plateau de l'Aubrac (à 50 km à l'ouest de Mende, à 1 200 m d'altitude — Parc naturel régional depuis 2018) est un vaste plateau volcanique de prairies à perte de vue — vaches Aubrac (race emblématique), burons (cabanes en pierre où les bergers faisaient le fromage Laguiole), jonquilles en mai (paysage floral parmi les plus beaux d'Europe). À combiner avec une journée à Laguiole (à 70 km — couteaux et fromage AOP).",
+      },
+      {
+        heading: "6. Le musée du Gévaudan et la légende de la Bête",
+        body: "Le Musée Ignon-Fabre de Mende (sciences naturelles et ethnographie du Gévaudan) consacre une section au « Loup du Gévaudan » (1764-1767, animal qui a tué 100 personnes dans la région — toujours non identifié — loup ? hyène ? grand chien hybride ?). Reconstitution, gravures d'époque, taxidermies de loups locaux. Section géologie des Causses et minéraux de la Margeride. Idéal pour enfants et amateurs de mystères.",
+      },
+      {
+        heading: "7. Les Cévennes et le Mont Lozère",
+        body: "Le Mont Lozère (1 699 m, point culminant du parc national des Cévennes — créé en 1970) est à 30 km au sud-est de Mende. Plateau granitique balayé par le vent, paysage de landes à bruyères et hêtraies. Sentier des Sources (au sommet, randonnée d'1h en boucle), Pic de Finiels (1 699 m), draille (chemin de transhumance) du Mont Lozère. Patrimoine mondial UNESCO (Causses et Cévennes). Ciel étoilé classé Réserve Internationale (la plus grande de France).",
+      },
+      {
+        heading: "8. La Margeride et les loups du parc",
+        body: "La Margeride (massif granitique au nord de Mende, point culminant Truc de Fortunio à 1 552 m) est l'un des plus grands plateaux de landes à genêts de France. Le Parc des Loups du Gévaudan (à 35 km au nord de Mende, à Sainte-Lucie) abrite 130 loups en semi-liberté dans 5 enclos de 4-10 ha (4 espèces : loup de l'Arctique, gris d'Europe, du Canada, de Mongolie). Visite en sentiers libres et observatoires couverts.",
+      },
+      {
+        heading: "9. La vieille ville et la place du Mazel",
+        body: "La vieille ville de Mende (autour de la cathédrale) est un dédale de ruelles médiévales. Place du Mazel (« marché », en occitan — place principale des halles depuis le XVe siècle), rue d'Aigues-Passes (axe commerçant médiéval), place Chaptal (terrasses ombragées). Hôtels particuliers en granit blond du XVIIe siècle. Quartier juif médiéval (Mende avait l'une des plus anciennes communautés juives du Sud — la « rue de la Juiverie » garde son nom).",
+      },
+      {
+        heading: "10. Gastronomie lozérienne — aligot et truite",
+        body: "La cuisine lozérienne est une cuisine paysanne rude et goûteuse : aligot (purée de pommes de terre fouettée avec tomme fraîche du Cantal — étirable à 2 m), truffade (galette de pommes de terre au lard et tomme), manouls (pieds-paquets lozériens — tripes de mouton). Truites des rivières lozériennes (Lot, Tarn, Truyère) au beurre noisette, charcuteries (saucisse sèche de Lozère, jambon de Lacaune à 100 km). Fromages : Roquefort AOP (à 100 km), Laguiole AOP, Bleu des Causses AOP. Spécialités sucrées : croquant de Mende, fouace.",
+      },
+    ],
+    relatedCities: ["mende"],
+    relatedGuides: [
+      "vivre-en-occitanie-guide-2025",
+    ],
+    tags: ["10 choses à faire à Mende", "activités Mende 2026", "sorties Mende", "que faire à Mende", "Gévaudan Tarn Aubrac Mont Lozère Cévennes UNESCO"],
+  },
+  {
+    slug: "10-choses-a-faire-a-privas-2026",
+    title: "10 choses à faire à Privas (la plus petite préfecture de France et le marron AOP)",
+    metaTitle: "10 choses à faire à Privas 2026 — activités et sorties locales",
+    metaDesc: "Vieille ville huguenote, marron d'Ardèche AOP, gorges de l'Ardèche, Mont Gerbier-de-Jonc et Vivarais : 10 activités à Privas pour découvrir l'Ardèche méridionale.",
+    category: "tourisme",
+    emoji: "🌰",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Privas est la plus petite préfecture de France métropolitaine en nombre d'habitants (8 200 — seul Tulle est plus petite parmi les préfectures, à 14 500). Située à 290 m d'altitude au cœur du Vivarais, la ville est connue mondialement pour le marron glacé (Maison Clément Faugier, créée en 1882, premier producteur mondial). Cité huguenote rebelle (« Vous serez ravalée à la condition de simple bourg »), Privas est la porte des Cévennes ardéchoises et des gorges de l'Ardèche.",
+    sections: [
+      {
+        heading: "1. La Maison Clément Faugier — le marron glacé",
+        body: "La Maison Clément Faugier (1882, première fabrique mondiale de marrons glacés — 12 000 tonnes/an, 60 % du marché mondial) est l'icône économique de Privas. Visite de la fabrique (sur réservation), boutique d'usine (marrons glacés à prix d'usine — 50 % moins cher qu'en supermarché), musée du marron. Spécialités : marrons glacés, crème de marron (le célèbre tube — recette inventée en 1924 par Clément Faugier pour valoriser les marrons brisés), marrons au cognac.",
+      },
+      {
+        heading: "2. La châtaigneraie ardéchoise — marron AOP",
+        body: "Le marron d'Ardèche AOP (depuis 2014) est cultivé dans 197 communes du sud de l'Ardèche — variété traditionnelle Marron de l'Ardèche, fruit unique par bogue (contrairement à la châtaigne ordinaire). Sentier de la Châtaigneraie balisé. Fête des Castagnades (octobre-novembre, dans les villages ardéchois — feux de châtaignes, vendange tardive). Spécialités : châtaignes grillées, soupe de châtaignes, pain de châtaigne (héritage paysan de subsistance).",
+      },
+      {
+        heading: "3. Les gorges de l'Ardèche et le Pont d'Arc",
+        body: "Les gorges de l'Ardèche (à 40 km au sud de Privas, sur 30 km) sont le plus grand site naturel d'Ardèche — falaises calcaires de 300 m, méandres serrés de l'Ardèche, paysage karstique. Le Pont d'Arc (arche naturelle de 60 m de hauteur, 54 m de portée — l'une des plus grandes arches naturelles d'Europe) est l'icône. Descente en canoë (8 km Pont d'Arc-Sauze, 24 km Pont d'Arc-Saint-Martin — bivouac autorisé sur 2 emplacements). Belvédère du Serre de Tourre.",
+      },
+      {
+        heading: "4. La grotte Chouvet 2 et l'art pariétal Aurignacien",
+        body: "La Caverne du Pont d'Arc (réplique de la Grotte Chauvet, ouverte en 2015) est la reconstitution intégrale de la grotte Chauvet — découverte en 1994 par Jean-Marie Chauvet, classée UNESCO. Peintures pariétales aurignaciennes (les plus anciennes du monde — 36 000 av. J.-C., dépassent Lascaux de 18 000 ans). 425 figures, dont les célèbres lions, panthères, rhinocéros. Visite guidée d'1h. À 50 km au sud de Privas, à Vallon-Pont-d'Arc.",
+      },
+      {
+        heading: "5. Le Mont Gerbier-de-Jonc — source de la Loire",
+        body: "Le Mont Gerbier-de-Jonc (1 551 m, à 50 km à l'ouest de Privas, dans la Montagne ardéchoise) est un dôme volcanique phonolithique (volcanisme tardif, -2 millions d'années) où naît la Loire (le plus long fleuve de France — 1 012 km jusqu'à l'Atlantique). Trois sources se réclament officielles : la « Vraie source » (sous une dalle), la « Source authentique » et la « Source géographique ». Ascension du Mont en 30 min (sentier balisé). Vue à 360°.",
+      },
+      {
+        heading: "6. Le château de Crussol — la forteresse ruinée",
+        body: "Le château de Crussol (à 25 km à l'est de Privas, perché à 300 m sur un éperon rocheux dominant la vallée du Rhône) est l'une des plus grandes ruines médiévales de France — château des Crussol, vicomtes d'Uzès aux XIe-XVe siècles. Donjon roman, courtines, village médiéval intramuros (Crussol-Saint-Romain). Vue spectaculaire sur le Rhône, la vallée et les Alpes par temps clair (Mont Blanc à 200 km).",
+      },
+      {
+        heading: "7. La vieille ville huguenote — la Tour Diane",
+        body: "La vieille ville de Privas (autour de la place de l'Hôtel-de-Ville) garde quelques vestiges de son passé huguenot — Privas fut l'une des villes-bastion du protestantisme dauphinois (« Vous serez ravalée à la condition de simple bourg » — punition de Louis XIII en 1629 après le siège, plusieurs murs détruits). Tour Diane de Poitiers (XVIe siècle, vestige du château), Temple protestant, place du Champ-de-Mars (terrasses, marché du jeudi matin).",
+      },
+      {
+        heading: "8. Les villages perchés du Vivarais",
+        body: "L'Ardèche méridionale est un musée à ciel ouvert de villages perchés médiévaux. Mirabel (à 25 km, sur un piton basaltique — colonne et tour Renaissance unique), Balazuc (plus beau village de France, à 40 km — accroché à une falaise au-dessus de l'Ardèche), Antraigues-sur-Volane (village natal de Jean Ferrat — concerts du chanteur dans la salle des fêtes en été, musée Jean-Ferrat). Tournée d'1 journée au départ de Privas.",
+      },
+      {
+        heading: "9. La vallée du Rhône en vélo — ViaRhôna",
+        body: "La ViaRhôna (EuroVélo 17, voie verte de 815 km du lac Léman à la Méditerranée) longe le Rhône à 25 km à l'est de Privas. Étape Valence-Montélimar (35 km, plate, ombragée, vignobles AOC Saint-Joseph et Cornas) — l'une des étapes les plus belles. Loueurs de vélos électriques à Valence et Montélimar. Possibilité de croisière fluviale sur le Rhône (Lyon-Avignon, 4-7 jours) au départ de Tournon (à 30 km de Privas).",
+      },
+      {
+        heading: "10. Gastronomie ardéchoise — caillette et picodon",
+        body: "La cuisine ardéchoise est une cuisine paysanne pauvre devenue gourmande : caillette (petite boule de viande hachée et bettes, cuite au four — apéritif emblématique), bombine (ragoût de pomme de terre et viande), maôche (estomac de cochon farci aux feuilles de chou), poutargue (pommes de terre confites). Fromages : Picodon AOP (chèvre fermier, 100 g), Saint-Marcellin (à 80 km, au nord). Spécialités sucrées : tarte à la châtaigne, crémeux de marron (Faugier), bûchettes de marron. Vins : Cornas (AOC syrah), Saint-Joseph (rouge), Côtes-du-Rhône.",
+      },
+    ],
+    relatedCities: ["privas"],
+    relatedGuides: [
+      "vivre-en-auvergne-rhone-alpes-guide-2025",
+    ],
+    tags: ["10 choses à faire à Privas", "activités Privas 2026", "sorties Privas", "que faire à Privas", "marron Faugier Ardèche Pont d'Arc Chauvet Gerbier-de-Jonc"],
+  },
+  {
+    slug: "10-choses-a-faire-a-aurillac-2026",
+    title: "10 choses à faire à Aurillac (le théâtre de rue et les volcans du Cantal)",
+    metaTitle: "10 choses à faire à Aurillac 2026 — activités et sorties locales",
+    metaDesc: "Festival des Arts de la Rue, château Saint-Étienne, Plomb du Cantal, Salers et Carladès : 10 activités à Aurillac pour découvrir la préfecture du Cantal.",
+    category: "tourisme",
+    emoji: "🎭",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Aurillac est la préfecture du Cantal, 25 000 habitants au pied du massif volcanique cantalien (un des plus grands volcans éteints d'Europe). La ville est mondialement connue pour son Festival international des Arts de la Rue (4 jours en août — premier festival de théâtre de rue au monde, 1 500 compagnies, 130 000 spectateurs). Aurillac est aussi une cité Renaissance (Gerbert d'Aurillac, premier pape français en 999 — Sylvestre II) et la porte des plus beaux paysages auvergnats.",
+    sections: [
+      {
+        heading: "1. Le Festival international des Arts de la Rue",
+        body: "Le Festival d'Aurillac (créé en 1986, fin août, 4 jours) est le premier festival de théâtre de rue au monde — 1 500 compagnies inscrites, 600 retenues, 600 spectacles par jour dans toute la ville. Spectacles gratuits dans les rues (rue, places, parcs), spectacles payants en salle (5-15€). Compagnies internationales (Royal de Luxe, Generik Vapeur, Carabosse). Hôtels complets 6 mois à l'avance. Atmosphère unique en France — Avignon de la rue.",
+      },
+      {
+        heading: "2. Le Plomb du Cantal — le plus haut sommet du Massif central",
+        body: "Le Plomb du Cantal (1 855 m, le plus haut sommet du Massif central) est à 25 km à l'est d'Aurillac. Accessible en téléphérique de la station du Lioran (1 270 m — la station de ski du Cantal, 60 km de pistes). Vue à 360° sur les volcans cantaliens (Puy Mary à 1 783 m juste à côté, et les autres puys), les Monts Dore (en Auvergne au nord, à 80 km), les Pyrénées (par temps clair). Randonnée du tour du Plomb du Cantal en 4-5h.",
+      },
+      {
+        heading: "3. Le Puy Mary — Grand Site de France",
+        body: "Le Puy Mary (1 783 m, Grand Site de France depuis 2012) est le sommet emblématique du volcan cantalien. Accessible à pied par le Pas de Peyrol (1 588 m, le plus haut col routier du Massif central) — 30 min d'ascension depuis le parking. Vue à 360°. Paysage de planèzes (plateaux basaltiques en éventail autour du cône volcanique). Été : pâturages, transhumance des Salers. Hiver : ski de fond. À 40 km au nord d'Aurillac.",
+      },
+      {
+        heading: "4. Salers — plus beau village de France",
+        body: "Salers (à 40 km au nord d'Aurillac, classée parmi les plus beaux villages de France) est l'une des plus belles cités Renaissance d'Auvergne — bourg fortifié à 951 m d'altitude, maisons à toits de lauze (pierre volcanique) et façades en basalte sombre. Place Tyssandier-d'Escous (centre), Maison Bargues (Renaissance), donjon ruiné. Le bourg a donné son nom : à la race bovine Salers (vaches à robe rouge acajou), au fromage Salers AOP, et au cantal AOP. Très touristique en été — y aller hors saison.",
+      },
+      {
+        heading: "5. Le château Saint-Étienne et le musée des Volcans",
+        body: "Le château Saint-Étienne (donjon XIe-XVe siècles, sur les hauteurs d'Aurillac) abrite le Musée des Volcans — l'un des meilleurs musées de France sur la vulcanologie. Présentation de la formation des volcans cantaliens (-13 à -3 millions d'années — l'un des plus grands ensembles volcaniques d'Europe), maquettes en relief, projection 3D des éruptions. À côté, le château Saint-Étienne est aussi un belvédère sur Aurillac.",
+      },
+      {
+        heading: "6. Conques — UNESCO à 50 km",
+        body: "Conques (à 50 km au sud-ouest d'Aurillac, dans l'Aveyron) est l'un des plus beaux villages médiévaux d'Europe — Patrimoine mondial UNESCO comme étape majeure du chemin de Saint-Jacques de Compostelle. L'abbatiale Sainte-Foy (XIe-XIIe siècles, romane auvergnate) abrite le tympan le plus célèbre de l'art roman (Le Jugement Dernier, 124 figures) et le Trésor de Conques (orfèvrerie médiévale carolingienne). Vitraux contemporains de Pierre Soulages (1994).",
+      },
+      {
+        heading: "7. La voie verte de la vallée de la Cère",
+        body: "La voie verte de la Cère (45 km, d'Aurillac à Bort-les-Orgues) est aménagée sur l'ancienne ligne SNCF désaffectée — plate, ombragée, traverse 32 tunnels et viaducs. Étape Aurillac-Polminhac-Vic-sur-Cère (15 km) est la plus pratique pour une demi-journée. Vue sur les gorges de la Cère (rivière encaissée), villages perchés (Polminhac avec son château Renaissance de Pesteils, propriété privée mais visible).",
+      },
+      {
+        heading: "8. La maison de la Salers et les visites de fermes",
+        body: "La race bovine Salers (race rustique adaptée aux pâturages d'altitude, robe rouge acajou) est l'emblème agricole du Cantal — 200 000 têtes dans le département. La Maison de la Salers (à Salers — appellation à la fois village et fromage AOP) présente la race et les méthodes de production du fromage AOP Salers (uniquement de mai à octobre, lait des vaches à l'estive — 1 500 tonnes/an seulement). Fermes ouvertes au public : Lestrade (à Saint-Bonnet-de-Salers), Bonnet (à Aurillac).",
+      },
+      {
+        heading: "9. Le Carladès et les châteaux médiévaux",
+        body: "Le Carladès (au sud d'Aurillac, vallée de la Cère vers le Sud) est l'une des régions les moins touristiques du Cantal — paysages préservés de bocage volcanique et de villages médiévaux. Château d'Anjony (à 25 km, XIVe siècle, conservé intact, propriété privée mais visite — fresques médiévales d'origine), village médiéval de Tournemire (plus beau village de France), village de Marcolès (cité monastique du XIVe siècle).",
+      },
+      {
+        heading: "10. Gastronomie auvergnate — truffade et fromages AOP",
+        body: "La cuisine auvergnate est une cuisine paysanne robuste et fromagère : truffade (galette de pommes de terre sautées au lard et tomme fraîche), aligot (purée fouettée avec tomme — étirable à 2 m), pounti (pain de viande aux pruneaux et bettes), potée auvergnate (chou, lard, saucisses). 5 fromages AOP du Cantal : Cantal (le plus connu), Salers (estive uniquement), Saint-Nectaire, Fourme d'Ambert, Bleu d'Auvergne. Vins : Saint-Pourçain (à 200 km), Côtes d'Auvergne (à 100 km). Lentille verte du Puy AOP (à 80 km).",
+      },
+    ],
+    relatedCities: ["aurillac"],
+    relatedGuides: [
+      "vivre-en-auvergne-guide-2025",
+      "vivre-en-auvergne-rhone-alpes-guide-2025",
+    ],
+    tags: ["10 choses à faire à Aurillac", "activités Aurillac 2026", "sorties Aurillac", "que faire à Aurillac", "Festival rue Plomb Cantal Puy Mary Salers volcans Conques"],
+  },
+  {
+    slug: "10-choses-a-faire-au-puy-en-velay-2026",
+    title: "10 choses à faire au Puy-en-Velay (les pitons volcaniques et le chemin de Compostelle)",
+    metaTitle: "10 choses à faire au Puy-en-Velay 2026 — activités et sorties locales",
+    metaDesc: "Notre-Dame du Puy, statue Saint-Michel d'Aiguilhe, rocher Corneille, dentelle du Puy et lentille verte AOP : 10 activités au Puy-en-Velay pour découvrir la cité jacquaire.",
+    category: "tourisme",
+    emoji: "🌋",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Le Puy-en-Velay est la préfecture de la Haute-Loire, 19 000 habitants à 630 m d'altitude dans un cirque volcanique unique au monde — sept pitons rocheux (necks basaltiques résultant de cheminées volcaniques fossilisées) au cœur de la ville. La cathédrale Notre-Dame (UNESCO) est le point de départ historique de la Via Podiensis (GR65, principal chemin français de Saint-Jacques de Compostelle, depuis 951). Capitale de la dentelle du Puy et de la lentille verte AOP.",
+    sections: [
+      {
+        heading: "1. La cathédrale Notre-Dame — UNESCO et Vierge Noire",
+        body: "La cathédrale Notre-Dame-du-Puy (XIe-XIIe siècles, gothique-roman avec influences orientales — coupoles byzantines, polychromie islamique) est classée UNESCO. Elle abrite la Vierge Noire du Puy (XVIIe siècle, statue de pèlerinage — l'originale, vénérée depuis le Moyen Âge, a brûlé en 1794). Cloître roman classé l'un des plus beaux d'Europe, fresques byzantines exceptionnelles. Point de départ historique du GR65 — Via Podiensis (l'un des quatre chemins français de Saint-Jacques de Compostelle).",
+      },
+      {
+        heading: "2. La statue Notre-Dame de France — sur le rocher Corneille",
+        body: "La statue Notre-Dame de France (1860, 22,7 m de hauteur — 110 tonnes de fonte de fer, faite à partir de canons russes pris à Sébastopol pendant la guerre de Crimée) trône au sommet du Rocher Corneille (757 m, neck volcanique de 130 m de hauteur au-dessus de la ville). Accessible à pied (escalier de 15 min) ou par funiculaire. Vue panoramique à 360° sur les pitons volcaniques. On peut entrer à l'intérieur de la statue (66 marches jusqu'au cou).",
+      },
+      {
+        heading: "3. Saint-Michel d'Aiguilhe — la chapelle sur le neck",
+        body: "La chapelle Saint-Michel d'Aiguilhe (Xe siècle — XIIIe siècle, perchée au sommet d'un neck volcanique de 82 m de hauteur, à 1 km du centre du Puy) est l'un des plus extraordinaires monuments d'Europe — chapelle romane construite au sommet d'une aiguille rocheuse volcanique. 268 marches taillées dans la roche pour y monter. Fresques romanes exceptionnelles, façade polychrome (motifs noir, blanc, gris du basalte et de la pierre claire). À ne manquer sous aucun prétexte.",
+      },
+      {
+        heading: "4. La dentelle du Puy — atelier conservatoire",
+        body: "Le Puy-en-Velay est la capitale française de la dentelle aux fuseaux depuis le XVIe siècle (« Dentelle du Puy » — savoir-faire reconnu IGP). Le Centre d'Enseignement de la Dentelle au Fuseau (rue Pannessac) propose des démonstrations gratuites et un musée — fuseaux, métiers, modèles historiques. Boutiques spécialisées sur la place du Plot. La dentelle du Puy a habillé Marie-Antoinette, l'impératrice Eugénie, la Maison Dior. 50 dentellières actives aujourd'hui.",
+      },
+      {
+        heading: "5. La lentille verte du Puy AOP",
+        body: "La lentille verte du Puy AOP (depuis 1996, première lentille au monde à obtenir une AOC) est cultivée sur les hauts plateaux volcaniques du Velay (550-1 200 m d'altitude, sols basaltiques). Production : 4 000 tonnes/an, sur 60 communes. Marché aux lentilles (place du Plot, samedi matin), restaurants spécialisés (lentilles vertes du Puy en salade, au saucisson, au foie gras). Pour info : 30 % moins riche en glucides que les autres lentilles, fond pas à la cuisson, peau fine. Saison récolte août-septembre.",
+      },
+      {
+        heading: "6. La via Podiensis — départ de Compostelle",
+        body: "La Via Podiensis (GR65, 1 530 km du Puy à Saint-Jacques-de-Compostelle) est le principal des quatre chemins français de Compostelle, classée UNESCO. Bénédiction des pèlerins chaque matin à 7h dans la cathédrale (cérémonie publique, depuis 951 — la plus ancienne de France). Les pèlerins partent ensuite de la rue des Tables. À pied : Le Puy-Conques (200 km en 10 jours, étape la plus belle), Le Puy-Saint-Jean-Pied-de-Port (820 km en 35-40 jours).",
+      },
+      {
+        heading: "7. La basilique romane Saint-Julien-de-Brioude",
+        body: "La basilique Saint-Julien de Brioude (à 50 km au nord-ouest du Puy, XIIe siècle) est l'une des plus belles églises romanes auvergnates — la plus grande église romane de la région. Polychromie en pierre volcanique multicolore (noir, rouge, blond), 26 chapiteaux historiés, fresques. Brioude (« la Reine des cités ») est un bourg ancien de tanneurs et d'orfèvres. À combiner avec Le Puy lors d'une boucle Auvergne.",
+      },
+      {
+        heading: "8. Le château de Polignac et la dynastie",
+        body: "Le château de Polignac (à 5 km du Puy, XIIIe-XVIIe siècles, sur une falaise basaltique de 100 m) est le berceau de la maison de Polignac, l'une des plus anciennes familles nobles de France (la princesse Caroline de Monaco descend des Polignac de Velay). Ruines romantiques, vue spectaculaire sur la ville et les pitons volcaniques. Accessible à pied depuis le bourg.",
+      },
+      {
+        heading: "9. Les gorges de la Loire et du Lignon",
+        body: "Les gorges de la Loire (au sud du Puy, vers Solignac-sur-Loire et Goudet) sont l'une des plus belles vallées du Massif central — falaises basaltiques, méandres serrés, villages perchés (Arlempdes — premier château de la Loire, sur un neck volcanique). Le Lignon (rivière du plateau du Velay, affluent de la Loire) traverse Le Chambon-sur-Lignon (village protestant célèbre pour avoir caché 5 000 juifs pendant la guerre — Yad Vashem reconnaissance). Randonnées et baignades sauvages.",
+      },
+      {
+        heading: "10. Gastronomie vellave — verveine et fin gras",
+        body: "La cuisine du Velay est paysanne et inventive : lentilles vertes du Puy AOP (en salade, au saucisson sec, au foie gras de canard), fin gras du Mézenc AOP (viande de bœuf nourrie aux fourrages d'altitude — viande la plus persillée de France, saison décembre-juin), tripes du Velay, saucisson sec d'altitude. Fromages : Velay (chèvre fermier), tomes d'Yssingeaux. Spécialités sucrées : marmolette (gâteau dense). Liqueur : Verveine du Velay (digestif vert depuis 1859 — vert pur et jaune). Vins : Côtes d'Auvergne (à 80 km).",
+      },
+    ],
+    relatedCities: ["le-puy-en-velay"],
+    relatedGuides: [
+      "vivre-en-auvergne-guide-2025",
+      "vivre-en-auvergne-rhone-alpes-guide-2025",
+    ],
+    tags: ["10 choses à faire au Puy-en-Velay", "activités Le Puy 2026", "sorties Le Puy-en-Velay", "que faire au Puy", "Notre-Dame UNESCO Saint-Michel Aiguilhe Compostelle lentille verveine"],
+  },
+  {
+    slug: "10-choses-a-faire-a-moulins-2026",
+    title: "10 choses à faire à Moulins (la cité des Bourbons et le Centre National du Costume)",
+    metaTitle: "10 choses à faire à Moulins 2026 — activités et sorties locales",
+    metaDesc: "Cathédrale Notre-Dame, Centre national du costume de scène, château des Bourbons, vignobles Saint-Pourçain et forêt de Tronçais : 10 activités à Moulins pour découvrir la préfecture de l'Allier.",
+    category: "tourisme",
+    emoji: "🎭",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Moulins est la préfecture de l'Allier, 19 000 habitants au bord de l'Allier (la dernière grande rivière sauvage de France). Capitale historique du Bourbonnais et berceau des Bourbons (la dynastie qui a régné sur la France de 1589 à 1830), la ville garde un patrimoine ducal exceptionnel — donjon du château des Bourbons, cathédrale gothique avec le célèbre Triptyque du Maître de Moulins (1500). Capitale aussi du Centre national du costume de scène (CNCS).",
+    sections: [
+      {
+        heading: "1. Le Centre National du Costume de Scène (CNCS)",
+        body: "Le CNCS (ancienne caserne du XVIIIe siècle restaurée, ouvert en 2006) est l'unique musée français consacré aux costumes de scène (théâtre, opéra, ballet, cinéma). Collection de 9 000 pièces (la plus grande au monde) — costumes de Béjart, Noureev, Maria Callas. 2 expositions par an. Le « Salon Noureev » (legs du danseur, mort en 1993) présente ses costumes personnels, sa loge reconstituée. Architecture lumineuse du XXIe siècle dans une caserne XVIIIe. À 1 km du centre de Moulins.",
+      },
+      {
+        heading: "2. La cathédrale Notre-Dame et le Triptyque",
+        body: "La cathédrale Notre-Dame de Moulins (XVe-XIXe siècles, gothique flamboyant — flèches néo-gothiques de Lassus en 1851-1879) abrite le Triptyque du Maître de Moulins (1502, l'un des chefs-d'œuvre absolus de la peinture française du Moyen Âge). Représente Pierre II de Bourbon, sa femme Anne de France et leur fille Suzanne en donateurs. Identification de l'artiste anonyme contestée (Jean Hey vraisemblable). Visite payante de la sacristie pour voir le triptyque.",
+      },
+      {
+        heading: "3. Le donjon des Bourbons et la salle d'honneur",
+        body: "Le donjon du château des Bourbons (XIVe siècle, dit \"la Mal Coiffée\" — son toit ardoise irrégulier lui vaut ce surnom) est le vestige du château ducal de Moulins. 12 niveaux, 50 m de hauteur. Salle d'honneur des ducs (XVe siècle, polychromie d'origine restaurée) où se tenaient les Grandes Assises du Bourbonnais. Visite avec audioguide. Anne de France, fille de Louis XI, y vécut et y régna en régente du royaume avant Catherine de Médicis.",
+      },
+      {
+        heading: "4. Le vignoble Saint-Pourçain — VDQS bourbonnais",
+        body: "Saint-Pourçain-sur-Sioule (à 30 km au sud-ouest de Moulins) est le centre du vignoble Saint-Pourçain (AOC 2009, 600 ha) — l'un des plus vieux vignobles de France, servi à la cour des rois capétiens depuis le XIIe siècle. Cépages : tressallier (blanc local unique au monde — jamais planté ailleurs), gamay (rouge), pinot noir. Caves coopératives et caveaux indépendants (Union des Vignerons, Domaine Pétillat, Domaine Nebout). Spécialité : Saint-Pourçain blanc sec sur poissons d'Allier.",
+      },
+      {
+        heading: "5. La forêt de Tronçais — la plus belle chênaie d'Europe",
+        body: "La forêt de Tronçais (à 50 km à l'ouest de Moulins, 11 000 ha) est l'une des plus belles forêts de chênes sessiles d'Europe, plantée par Colbert au XVIIe siècle pour fournir le bois de marine à la Royale. Chênes les plus anciens (chêne Carré, chêne Charles-Louis, chêne Émile-Guillaumin) ont 350 ans, 40 m de hauteur. Sentiers balisés (60 km de circuits), étangs (Saint-Bonnet, Pirot), fontaines. Saison automnale magique (octobre — feuillage doré).",
+      },
+      {
+        heading: "6. La rivière Allier — la dernière sauvage",
+        body: "L'Allier (la dernière grande rivière sauvage de France métropolitaine — pas d'aménagement, pas de barrage majeur sur les 200 derniers km, méandres mobiles) traverse Moulins. Plage de la Madeleine (baignade en juillet-août, surveillée), descente en canoë depuis Vichy (à 60 km en amont — 30 km en 1 jour). Pour info : l'Allier abrite encore des saumons sauvages de l'Atlantique (population menacée), des castors, des cigognes noires (espèce rare en France).",
+      },
+      {
+        heading: "7. Souvigny — le « Saint-Denis du Bourbonnais »",
+        body: "Souvigny (à 15 km à l'ouest de Moulins) est la nécropole des premiers sires de Bourbon — surnommée le « Saint-Denis du Bourbonnais ». L'église-prieurale Saint-Pierre-et-Saint-Paul (XIe-XVe siècles, romane et gothique) abrite les gisants des Bourbons (Pierre Ier, Louis II, Louis III). Cloître clunisien (XIIe siècle, l'un des plus beaux de l'Allier). Sentier des Capucins (calvaire et chapelle).",
+      },
+      {
+        heading: "8. La maison Mantin — temps figé",
+        body: "La Maison Mantin (rue de Paris, Moulins, attenante au musée Anne-de-Beaujeu) est une curiosité unique : Louis Mantin (1851-1905, riche bourgeois moulinois) a légué sa maison à la ville à condition qu'elle reste fermée pendant 100 ans et soit rouverte exactement en l'état en 2005. Visite avec audioguide — décoration néo-gothique d'origine, mobilier, papiers peints, garde-robe : tout est de 1905. Voyage dans le temps unique en France.",
+      },
+      {
+        heading: "9. Le musée Anne-de-Beaujeu",
+        body: "Le musée Anne-de-Beaujeu (à côté de la cathédrale, dans le pavillon Anne-de-France de l'ancien château des Bourbons) présente l'art médiéval bourbonnais : sculptures gothiques, peintures (école du Maître de Moulins), tapisseries millefleurs, mobilier. La sculpture funéraire de Marguerite de Bourbon est un chef-d'œuvre. Combiner avec la Maison Mantin (entrée commune).",
+      },
+      {
+        heading: "10. Gastronomie bourbonnaise — pâté aux pommes de terre",
+        body: "La cuisine bourbonnaise est une cuisine paysanne du Centre : pâté aux pommes de terre (croûte feuilletée garnie de pommes de terre, oignons et crème, cuit au four — plat dominical), truffade (galette de pommes de terre au lard et tomme fraîche du Cantal, héritage auvergnat), pompe aux grattons (brioche aux résidus de saindoux), gâteau de Vichy (carottes), poirat (tarte aux poires sous croûte). Vins : Saint-Pourçain (rouge et blanc local), Côtes d'Auvergne (à 100 km). Pastilles de Vichy (à 60 km, en digestif).",
+      },
+    ],
+    relatedCities: ["moulins"],
+    relatedGuides: [
+      "vivre-en-auvergne-rhone-alpes-guide-2025",
+      "vivre-en-auvergne-guide-2025",
+    ],
+    tags: ["10 choses à faire à Moulins", "activités Moulins 2026", "sorties Moulins", "que faire à Moulins", "Bourbons cathédrale Triptyque CNCS costume Tronçais Souvigny"],
+  },
+  {
+    slug: "10-choses-a-faire-a-bressuire-2026",
+    title: "10 choses à faire à Bressuire (le château des Beaumont-Bressuire et le bocage)",
+    metaTitle: "10 choses à faire à Bressuire 2026 — activités et sorties locales",
+    metaDesc: "Château fortifié, bocage bressuirais, Puy du Fou, Mauléon et Marais poitevin : 10 activités à Bressuire pour découvrir le nord des Deux-Sèvres.",
+    category: "tourisme",
+    emoji: "🐎",
+    readMinutes: 6,
+    publishedAt: "2026-05-27",
+    updatedAt: "2026-05-27",
+    intro: "Bressuire est la deuxième sous-préfecture des Deux-Sèvres, 19 000 habitants dans le bocage bressuirais — paysage de haies et de prairies au cœur de la Gâtine vendéenne. La ville est dominée par les ruines de son château fortifié (XIe-XVe siècles, l'une des plus grandes places fortes médiévales du Poitou). À mi-chemin entre la Vendée (Puy du Fou à 25 km) et le Marais poitevin (à 70 km au sud), Bressuire est la porte d'entrée de l'arrière-pays vendéen.",
+    sections: [
+      {
+        heading: "1. Le château fortifié — la « Forteresse des Beaumont »",
+        body: "Le château de Bressuire (XIe-XVe siècles, ancienne propriété de la famille de Beaumont-Bressuire — 800 ans de présence) est l'une des plus grandes places fortes médiévales du Poitou — 38 tours sur 700 m d'enceinte (la plus grande enceinte fortifiée du Poitou avec Niort). En grande partie en ruine après les guerres de Religion. Le grand logis Renaissance (1530) est encore debout — accueille des expositions. Vue panoramique sur le bocage.",
+      },
+      {
+        heading: "2. Le Puy du Fou — à 25 km en Vendée",
+        body: "Le Puy du Fou (aux Épesses, à 25 km à l'ouest de Bressuire) est le deuxième parc à thème français après Disneyland Paris — élu \"meilleur parc d'attractions au monde\" plusieurs années consécutives. Spectacles historiques (Vikings, Gladiateurs, Mousquetaires, Cinéscénie nocturne sur l'histoire de la Vendée — 1 200 acteurs). Une journée pleine minimum, deux pour tout voir. Bressuire est la base hôtelière la plus proche pour ceux qui visitent plusieurs jours d'affilée.",
+      },
+      {
+        heading: "3. Mauléon — la cité des Mauges du Poitou",
+        body: "Mauléon (ancienne Châtillon-sur-Sèvre, à 15 km à l'ouest de Bressuire) est une cité médiévale fortifiée sur la Sèvre nantaise — château des Belleville (XIIe-XVe siècles, en ruines), enceinte de remparts intacte, abbaye de la Trinité (XIIe siècle, romane, vitraux contemporains). Au cœur de la Vendée militaire — c'est ici que se trouvent les bases des grandes batailles de 1793.",
+      },
+      {
+        heading: "4. Le bocage bressuirais et les haies à perte de vue",
+        body: "Le bocage de la Gâtine (entre Bressuire et Parthenay, 100 km² de bocage dense) est l'un des plus beaux paysages bocagers de France — haies de chênes et de châtaigniers, prairies à perte de vue, fermes isolées. Race vache locale : la Parthenaise (vache à robe froment, locale). Sentier balisé du Tour du Bressuirais (60 km, à VTT ou à pied, en boucle). Idéal pour ceux qui cherchent le \"vrai\" silence rural.",
+      },
+      {
+        heading: "5. Parthenay et la cité médiévale",
+        body: "Parthenay (à 35 km au sud-est de Bressuire) est l'autre grande cité médiévale du Bressuirais. La citadelle (XIIe siècle, classée monument historique) domine le Thouet. Porte Saint-Jacques (XIVe siècle, vestige de l'enceinte — chemin de Saint-Jacques de Compostelle officiel). Rue de la Vau-Saint-Jacques (axe médiéval principal). Église Sainte-Croix (XIIe siècle, romane). Marché du mercredi matin (le plus grand marché aux bovins de France encore vivant).",
+      },
+      {
+        heading: "6. Le Marais poitevin — la « Venise verte »",
+        body: "Le Marais poitevin (à 70 km au sud de Bressuire, deuxième plus grande zone humide de France après la Camargue) est un labyrinthe de canaux ombragés de frênes et d'aulnes — surnommé la « Venise verte ». Balade en barque traditionnelle (location à Coulon, Maillezais, Damvix — 1h-3h, guidée ou en autonomie). Abbaye de Maillezais (XIe siècle, en ruines romantiques au bord du marais). Spécialités locales : anguilles fumées, escargots du marais. Niort est la grande ville voisine (à 70 km).",
+      },
+      {
+        heading: "7. L'aigle royal et le parc animalier de Gros-Roc",
+        body: "Le parc animalier de Gros-Roc (à 8 km au sud-ouest de Bressuire) abrite des rapaces (aigles royaux, vautours fauves), des grands carnivores (loups, lynx), des bovins rustiques (Highland Cattle, Galloway). Spectacle de vol des rapaces. Idéal pour une demi-journée en famille. Gratuit pour les moins de 4 ans.",
+      },
+      {
+        heading: "8. Le mémorial de la Vendée à Lucs-sur-Boulogne",
+        body: "Le mémorial de la Vendée (Les Lucs-sur-Boulogne, à 45 km à l'ouest de Bressuire) commémore les massacres de Vendée (1793-1796 — guerres de Vendée, jusqu'à 200 000 morts dans la région). Chapelle expiatoire (XIXe siècle), Historial de la Vendée (musée moderne 2007, parcours chronologique des guerres). À combiner avec une visite au Puy du Fou (à 30 km — même contexte historique).",
+      },
+      {
+        heading: "9. Le château de Saint-Loup-sur-Thouet",
+        body: "Le château de Saint-Loup (à 25 km de Bressuire, XVIIe siècle classique) est l'un des plus beaux châteaux du Poitou — façade symétrique, jardins à la française, parc romantique de 50 ha. Toujours propriété privée mais visite payante. Lieu de tournage de plusieurs films. À côté, l'abbaye royale d'Airvault (XIIe siècle, romane).",
+      },
+      {
+        heading: "10. Gastronomie poitevine — farci et chabichou",
+        body: "La cuisine bressuiraise est typiquement poitevine : farci poitevin (rouleau de légumes et herbes lié à l'œuf et au lait, cuit dans des feuilles de chou — plat dominical), tourteau fromager (gâteau au fromage de chèvre frais à la croûte noire caractéristique), broyé du Poitou (galette sablée au beurre), boudin noir aux pommes (spécialité de la Gâtine). Fromages : Chabichou du Poitou AOP (chèvre fermier, forme conique), Mothais sur feuille (chèvre, sur feuille de châtaignier). Vins : Haut-Poitou (AOC, rouge léger), Anjou (à 50 km au nord).",
+      },
+    ],
+    relatedCities: ["bressuire"],
+    relatedGuides: [
+      "vivre-en-nouvelle-aquitaine-guide-2025",
+      "vivre-en-poitou-guide-2026",
+    ],
+    tags: ["10 choses à faire à Bressuire", "activités Bressuire 2026", "sorties Bressuire", "que faire à Bressuire", "château Beaumont Puy du Fou Mauléon Marais poitevin Gâtine"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
