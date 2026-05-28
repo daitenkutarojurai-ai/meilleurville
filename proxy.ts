@@ -141,6 +141,8 @@ export async function proxy(request: NextRequest): Promise<NextResponse> {
   return response;
 }
 
+export const runtime = "edge";
+
 export const config = {
   matcher: [
     // Run on every path except Next internals and obvious static files.
