@@ -63,7 +63,7 @@ export default function ExpatRetourIndex() {
                       {country.flag}
                     </span>
                     <h3 className="text-lg font-bold text-[var(--text-primary)]">
-                      Depuis le {country.name === "Royaume-Uni" ? "Royaume-Uni" : country.name}
+                      Depuis {country.depuisLabel ?? "le"} {country.name}
                     </h3>
                   </div>
                   <p className="text-xs text-[var(--text-secondary)] line-clamp-3">
