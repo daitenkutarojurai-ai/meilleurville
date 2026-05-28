@@ -3,12 +3,13 @@ main = "worker/index.ts"
 compatibility_date = "2026-04-01"
 compatibility_flags = ["nodejs_compat"]
 
-# FR production domains. canonical host is www (matches app/layout + sitemap);
-# the apex is bound too so it resolves. apex -> www redirect is a follow-up
-# (Cloudflare Bulk Redirect / Rule). Custom domains require the zone in this account.
+# FR production domains. Use Workers routes (not custom_domain) to attach the
+# Worker to the EXISTING proxied DNS records — custom_domain refuses to bind a
+# hostname that already has A/CNAME records. canonical host is www (matches
+# app/layout + sitemap); apex -> www redirect is a follow-up (CF Rule).
 routes = [
-  { pattern = "www.mavilleideale.fr", custom_domain = true },
-  { pattern = "mavilleideale.fr", custom_domain = true },
+  { pattern = "www.mavilleideale.fr/*", zone_name = "mavilleideale.fr" },
+  { pattern = "mavilleideale.fr/*", zone_name = "mavilleideale.fr" },
 ]
 
 # Static-first deployment:
@@ -39,11 +40,13 @@ binding = "DB"
 database_name = "meilleurville"
 database_id = "73295459-dde2-4bbf-9aef-500ddadd581e"
 
-# Cron triggers — dispatched in worker/index.ts scheduled():
+# Cron triggers — dispatched in worker/index.ts scheduled().
+# NB: Cloudflare weekdays are 1-7 with 1=Sunday; use 3-letter names to avoid
+# ambiguity. Match these exact strings in scheduled() (controller.cron).
 #  - Sunday 07:00 UTC -> runCronNewsletter
 #  - Monday 08:00 UTC -> runCronAlertes
 [triggers]
-crons = ["0 7 * * 0", "0 8 * * 1"]
+crons = ["0 7 * * SUN", "0 8 * * MON"]
 
 [observability]
 enabled = true

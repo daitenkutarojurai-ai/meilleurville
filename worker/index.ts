@@ -320,11 +320,25 @@ export default {
       if (path === "/api/alertes/list" && method === "GET") return await handleAlertesList(url);
       if (path === "/api/cities/search" && method === "GET") return handleCitiesSearch(url);
       if (path === "/api/quiz" && method === "POST") return await handleQuiz(request);
-      if (path === "/api/copilot" && method === "POST") return await handleCopilot(request, env);
       if (path === "/widget/embed" && method === "GET") return handleWidgetEmbed(url);
 
+      // AI endpoints call Anthropic — rate-limit per IP to cap spend exposure.
+      // In-memory limiter is per-isolate (soft); the hard backstop is the
+      // Anthropic Console monthly spend cap.
+      if (path === "/api/copilot" && method === "POST") {
+        const ip = getClientIp(request.headers);
+        if (!rateLimit(`ai:cop:m:${ip}`, 8, 60_000).allowed || !rateLimit(`ai:cop:d:${ip}`, 60, 24 * 60 * 60_000).allowed)
+          return json({ reply: "Trop de requêtes — patientez un peu avant de relancer le copilote.", rateLimited: true }, { status: 429 });
+        return await handleCopilot(request, env);
+      }
+
       const summaryMatch = path.match(/^\/api\/cities\/([^/]+)\/summary$/);
-      if (summaryMatch && method === "GET") return await handleCitySummary(summaryMatch[1], env);
+      if (summaryMatch && method === "GET") {
+        const ip = getClientIp(request.headers);
+        if (!rateLimit(`ai:sum:m:${ip}`, 20, 60_000).allowed || !rateLimit(`ai:sum:d:${ip}`, 200, 24 * 60 * 60_000).allowed)
+          return json({ error: "Trop de requêtes" }, { status: 429 });
+        return await handleCitySummary(summaryMatch[1], env);
+      }
 
       if (path.startsWith("/api/")) return json({ error: "Not found" }, { status: 404 });
       // Non-API asset miss → serve the static 404 page.
@@ -338,7 +352,7 @@ export default {
   async scheduled(event: { cron: string }, env: Env): Promise<void> {
     exposeEnv(env);
     setDB(env.DB);
-    if (event.cron === "0 7 * * 0") await runCronNewsletter();
-    else if (event.cron === "0 8 * * 1") await runCronAlertes();
+    if (event.cron === "0 7 * * SUN") await runCronNewsletter();
+    else if (event.cron === "0 8 * * MON") await runCronAlertes();
   },
 };
