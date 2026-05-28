@@ -12,7 +12,7 @@
 // No live API — static lookup table + housing seed.
 
 import { HOUSING } from "@/data/housing";
-import type { CitySeed } from "@/data/cities-seed";
+import { CITIES_SEED, type CitySeed } from "@/data/cities-seed";
 
 // National median T2 rent (€/month), Clameur 2024 panel, hors Île-de-France.
 const NATIONAL_MEDIAN_T2 = 750;
@@ -119,4 +119,48 @@ export function tensionInfo(score: number): {
 } {
   const level = tensionLevel(score);
   return { level, ...TENSION_LABEL[level] };
+}
+
+// ── National ranking helpers (hub /tension-locative) ───────────────────────
+// Reuse the same `rentalTension` engine that powers the ×540 sub-pages so the
+// hub ranking and the per-city rank are always consistent. Module-level cache.
+
+export interface TensionEntry {
+  city: CitySeed;
+  tension: number;
+  info: ReturnType<typeof tensionInfo>;
+  /** Loyer T2 de référence (€/mois) si la ville a une fiche logement. */
+  rentT2: number | null;
+}
+
+let _rankedDesc: TensionEntry[] | null = null;
+
+function rankedDesc(): TensionEntry[] {
+  if (_rankedDesc) return _rankedDesc;
+  _rankedDesc = CITIES_SEED.map((city) => {
+    const tension = rentalTension(city);
+    return {
+      city,
+      tension,
+      info: tensionInfo(tension),
+      rentT2: HOUSING[city.slug]?.avgRentT2 ?? null,
+    };
+  }).sort((a, b) => b.tension - a.tension);
+  return _rankedDesc;
+}
+
+/** Villes au marché le plus tendu (score le plus élevé). */
+export function topMostTense(limit = 30, minPop = 0): TensionEntry[] {
+  return rankedDesc()
+    .filter((e) => (e.city.population ?? 0) >= minPop)
+    .slice(0, limit);
+}
+
+/** Villes au marché le plus détendu (score le plus bas). */
+export function topMostRelaxed(limit = 20, minPop = 0): TensionEntry[] {
+  return rankedDesc()
+    .filter((e) => (e.city.population ?? 0) >= minPop)
+    .slice()
+    .reverse()
+    .slice(0, limit);
 }
