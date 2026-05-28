@@ -21,6 +21,7 @@ function categoryLabel(id: string): string {
   return GUIDE_CATEGORIES.find((c) => c.id === id)?.label ?? id;
 }
 
+export const dynamic = "force-static";
 export async function GET() {
   if (IS_EN) {
     const sorted = [...EN_GUIDES].sort((a, b) =>

@@ -5,6 +5,8 @@ import { MetadataRoute } from "next";
 // MaVilleIdeal on mavilleideale.fr.
 const IS_EN = process.env.NEXT_PUBLIC_DEFAULT_LOCALE === "en";
 
+export const dynamic = "force-static";
+
 export default function manifest(): MetadataRoute.Manifest {
   return {
     name: IS_EN ? "BestCitiesInFrance" : "MaVilleIdeal",

@@ -1,23 +1,47 @@
 name = "meilleurville"
-main = ".open-next/worker.js"
+main = "worker/index.ts"
 compatibility_date = "2026-04-01"
 compatibility_flags = ["nodejs_compat"]
 
+# FR production domains. canonical host is www (matches app/layout + sitemap);
+# the apex is bound too so it resolves. apex -> www redirect is a follow-up
+# (Cloudflare Bulk Redirect / Rule). Custom domains require the zone in this account.
+routes = [
+  { pattern = "www.mavilleideale.fr", custom_domain = true },
+  { pattern = "mavilleideale.fr", custom_domain = true },
+]
+
+# Static-first deployment:
+#  - `out/` (Next static export, RSC .txt stripped) is served by Workers Static
+#    Assets directly at the edge — pages never hit the Worker.
+#  - The Worker (worker/index.ts) runs only for asset misses: the /api/* surface,
+#    /widget/embed, and the two cron triggers.
 [assets]
 binding = "ASSETS"
-directory = ".open-next/assets"
+directory = "out"
+
+# NOTE: bestcitiesinfrance.com (EN) is a SEPARATE deploy — the locale is baked at
+# build time, so the EN site needs its own export (NEXT_PUBLIC_DEFAULT_LOCALE=en)
+# + its own Worker (e.g. name = "meilleurville-en").
+
+# Non-secret env. Read by lib code via process.env (nodejs_compat populates it).
+# Secrets (set with `wrangler secret put`): BREVO_API_KEY, ANTHROPIC_API_KEY.
+[vars]
+NEXT_PUBLIC_DEFAULT_LOCALE = "fr"
+NEXT_PUBLIC_BASE_URL = "https://www.mavilleideale.fr"
+BREVO_LIST_ID_FR = "4"
+BREVO_LIST_ID_EN = "5"
 
 # D1 database for runtime user data (comments, contact, alertes, newsletter).
-# Provisioned via Cloudflare MCP — primary location WEUR (Paris CDG).
+# Primary location WEUR (Paris CDG). Schema in schema.sql.
 [[d1_databases]]
 binding = "DB"
 database_name = "meilleurville"
 database_id = "73295459-dde2-4bbf-9aef-500ddadd581e"
 
-# Cron triggers replace vercel.json crons:
-# - newsletter: Sunday 07:00 UTC  → /api/cron/newsletter
-# - alertes:    Monday 08:00 UTC  → /api/cron/alertes
-# The Worker entrypoint dispatches based on `event.cron` value.
+# Cron triggers — dispatched in worker/index.ts scheduled():
+#  - Sunday 07:00 UTC -> runCronNewsletter
+#  - Monday 08:00 UTC -> runCronAlertes
 [triggers]
 crons = ["0 7 * * 0", "0 8 * * 1"]
 

@@ -22,7 +22,7 @@ export const revalidate = false;
 // Sans ça, la CTA « ✨ Synthèse 8 axes » 404 sur toute paire non curée
 // (SEO_PAIRS / SEO_TRIPLETS), notamment la barre « Comparer cette ville
 // avec » du profil de ville qui produit des paires triées par slug.
-export const dynamicParams = true;
+export const dynamicParams = false;
 
 type Props = { params: Promise<{ pair: string }> };
 

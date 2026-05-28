@@ -14,7 +14,7 @@ import { SEO_TRIPLETS } from "@/lib/comparer-triplets";
 const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const revalidate = false;
-export const dynamicParams = true;
+export const dynamicParams = false;
 
 type Props = { params: Promise<{ locale: string; pair: string }> };
 

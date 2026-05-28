@@ -1,10 +1,9 @@
 /**
  * Cloudflare D1 client helper.
  *
- * In production on Cloudflare Workers (via @opennextjs/cloudflare adapter),
- * `getCloudflareContext().env.DB` returns the bound D1Database. During `next dev`
- * without wrangler the binding is missing — hitting any store function in that
- * mode will throw a descriptive error pointing the developer at the dev wrapper.
+ * The standalone API Worker (worker/index.ts) calls `setDB(env.DB)` at the start
+ * of every fetch/scheduled invocation. Store modules then call `getDB()` with no
+ * args — call sites stay unchanged. The static site (no Worker) never touches D1.
  *
  * D1 binding is configured in wrangler.toml as `[[d1_databases]] binding = "DB"`.
  */
@@ -29,18 +28,22 @@ export interface D1Database {
   batch<T = unknown>(statements: D1PreparedStatement[]): Promise<D1Result<T>[]>;
 }
 
+let _db: D1Database | undefined;
+
+/** Worker entrypoint sets the D1 binding once per invocation. */
+export function setDB(db: D1Database): void {
+  _db = db;
+}
+
 /**
- * Return the D1 binding. Throws if not available — only ever called from
- * dynamic API routes / dynamic pages, never at module load.
+ * Return the D1 binding. Throws if not initialized — only ever called from the
+ * API Worker's request/cron handlers, where setDB(env.DB) ran first.
  */
 export async function getDB(): Promise<D1Database> {
-  const { getCloudflareContext } = await import("@opennextjs/cloudflare");
-  const ctx = getCloudflareContext();
-  const db = ctx?.env?.DB as D1Database | undefined;
-  if (!db) {
+  if (!_db) {
     throw new Error(
-      "D1 binding `DB` missing. Configure [[d1_databases]] binding = \"DB\" in wrangler.toml.",
+      "D1 binding not initialized — call setDB(env.DB) in the Worker entrypoint before using a store.",
     );
   }
-  return db;
+  return _db;
 }

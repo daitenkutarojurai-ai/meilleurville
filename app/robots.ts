@@ -11,6 +11,8 @@ const BASE_URL =
 // emits is advertised here — no manual drift (FR: 16 chunks, EN: 8).
 const SITEMAP_INDEXES = Array.from({ length: SITEMAP_CHUNK_COUNT }, (_, i) => i);
 
+export const dynamic = "force-static";
+
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: {

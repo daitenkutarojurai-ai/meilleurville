@@ -20,6 +20,8 @@ const BASE_URL =
   process.env.NEXT_PUBLIC_BASE_URL ?? (DEFAULT_LOCALE === "en" ? EN_URL : FR_URL);
 const IS_EN = DEFAULT_LOCALE === "en";
 
+export const dynamic = "force-static";
+
 // Honest lastModified values per content family.
 // Bump these when the underlying source actually changes.
 const CITY_DATA_UPDATED = new Date("2026-05-24"); // last seed + score calibration

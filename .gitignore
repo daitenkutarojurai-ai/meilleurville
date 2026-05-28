@@ -24,6 +24,9 @@
 # production
 /build
 
+# static-first migration: routes/pages deferred to the API worker (ported in stage 2)
+/_deferred/
+
 # misc
 .DS_Store
 *.pem

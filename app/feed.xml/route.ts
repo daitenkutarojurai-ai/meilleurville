@@ -16,6 +16,7 @@ const escapeXml = (s: string) =>
     .replace(/"/g, "&quot;")
     .replace(/'/g, "&apos;");
 
+export const dynamic = "force-static";
 export async function GET() {
   if (IS_EN) {
     const sorted = [...EN_GUIDES].sort(

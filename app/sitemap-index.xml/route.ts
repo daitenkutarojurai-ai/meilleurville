@@ -5,18 +5,19 @@
 // /sitemap.xml. This route hand-rolls a proper <sitemapindex> so a
 // single URL covers every chunk in Search Console.
 //
-// The host in each <loc> is derived from the incoming request so the
-// sitemap-index ALWAYS lists URLs on the same hostname as the index file.
-// Google Search Console rejects cross-host sitemap entries silently
-// ("Couldn't fetch"), and we previously got bitten by apex-vs-www and
-// FR-vs-EN host mismatches. Trusting the request host removes that class
-// of bug entirely.
+// The host in each <loc> is the static per-locale origin (ORIGIN_BY_LOCALE),
+// matching the per-chunk files emitted by app/sitemap.ts. A static export has
+// no incoming request to read the host from, so it must be derived at build
+// time from NEXT_PUBLIC_DEFAULT_LOCALE — the same source the rest of the app
+// uses for canonicals.
 
 import { GUIDES } from "@/data/guides";
+import { ORIGIN_BY_LOCALE, type Locale } from "@/lib/i18n";
 
-const DEFAULT_LOCALE = (process.env.NEXT_PUBLIC_DEFAULT_LOCALE ?? "fr") as "fr" | "en";
+const DEFAULT_LOCALE = (process.env.NEXT_PUBLIC_DEFAULT_LOCALE ?? "fr") as Locale;
 // Must match the count of SITEMAP_CHUNKS in app/sitemap.ts (FR: 13, EN: 3)
 const CHUNK_COUNT = DEFAULT_LOCALE === "en" ? 3 : 13;
+const BASE_URL = ORIGIN_BY_LOCALE[DEFAULT_LOCALE];
 
 function latestGuideUpdate(): string {
   const max = GUIDES.reduce((acc, g) => {
@@ -26,14 +27,9 @@ function latestGuideUpdate(): string {
   return new Date(max || Date.now()).toISOString();
 }
 
-export function GET(request: Request) {
-  const url = new URL(request.url);
-  // Vercel sets x-forwarded-host/proto when the request crosses the edge —
-  // prefer those so the emitted URL always reflects the public hostname.
-  const host = request.headers.get("x-forwarded-host") ?? url.host;
-  const proto = request.headers.get("x-forwarded-proto") ?? url.protocol.replace(":", "");
-  const baseUrl = `${proto}://${host}`;
-
+export const dynamic = "force-static";
+export function GET() {
+  const baseUrl = BASE_URL;
   const lastmod = latestGuideUpdate();
   const entries = Array.from({ length: CHUNK_COUNT })
     .map((_, i) => {

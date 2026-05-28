@@ -27,7 +27,7 @@ export function generateStaticParams() {
 
 // On-demand for non-curated pairs (e.g. lyon-pour-bordeaux not in seed list).
 // Cheap to render and avoids 404 on plausible URLs.
-export const dynamicParams = true;
+export const dynamicParams = false;
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { pair } = await params;

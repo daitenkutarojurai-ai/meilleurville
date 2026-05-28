@@ -1,0 +1,3 @@
+# Cloudflare Workers Static Assets redirects.
+# Replaces the next.config redirects() that static export cannot emit.
+/a-propos /about 301
