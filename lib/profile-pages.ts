@@ -233,6 +233,26 @@ export const PROFILE_PAGES: ProfileDef[] = [
     reasonHint: (c) =>
       `Coût ${c.scores.cost.toFixed(1)} · sécurité ${c.scores.safety.toFixed(1)} · écoles ${c.scores.schools.toFixed(1)}`,
   },
+  {
+    slug: "familles-nombreuses",
+    emoji: "👨‍👩‍👧‍👦",
+    label: "Familles nombreuses",
+    metaTitle: "Meilleures villes familles nombreuses 2026 — Top 20",
+    metaDescription:
+      "Top 20 villes françaises pour familles nombreuses : logement spacieux abordable, écoles, sécurité, espaces verts. Score composite calibré 2026.",
+    intro:
+      "Familles nombreuses : trois enfants ou plus, et tout change d'échelle. Le critère qui domine, c'est le logement — il faut un T4 ou un T5, et dans une métropole tendue le ticket d'entrée devient vite infranchissable. Vient ensuite la capacité des écoles, la sécurité, et des espaces verts où plusieurs enfants peuvent réellement respirer. Ces 20 villes mettent en avant l'espace abordable sans sacrifier les services. Souvent des villes moyennes plutôt que de grandes métropoles : elles offrent le mètre carré qui manque ailleurs.",
+    weights: {
+      cost: 2.5,
+      schools: 2.0,
+      famille: 2.0,
+      nature: 2.0,
+      safety: 1.5,
+      life: 1.0,
+    },
+    reasonHint: (c) =>
+      `Coût ${c.scores.cost.toFixed(1)} · écoles ${c.scores.schools.toFixed(1)} · nature ${c.scores.nature.toFixed(1)}`,
+  },
 ];
 
 export const PROFILE_SLUGS = PROFILE_PAGES.map((p) => p.slug);
