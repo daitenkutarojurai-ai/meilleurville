@@ -1,0 +1,8 @@
+# Cloudflare Workers Static Assets headers.
+# Next's opengraph-image routes export as extensionless files (e.g.
+# out/about/opengraph-image), which CF would otherwise serve as
+# application/octet-stream. Force image/png so social scrapers render them.
+/opengraph-image
+  Content-Type: image/png
+/*/opengraph-image
+  Content-Type: image/png
