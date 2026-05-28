@@ -20338,6 +20338,7 @@ export const GUIDES: Guide[] = [
     relatedGuides: [
       "aix-en-provence-vs-marseille-comparatif-2026",
       "acheter-immobilier-france-meilleures-villes-2025",
+      "acheter-a-marseille-quel-quartier-budget-2026",
     ],
     tags: ["acheter à Aix-en-Provence 2026", "immobilier Aix prix quartiers", "marché immobilier Aix-en-Provence", "Mazarin Cours Mirabeau prix m²", "investissement Aix-en-Provence 2026"],
   },
@@ -20378,6 +20379,7 @@ export const GUIDES: Guide[] = [
     relatedGuides: [
       "quitter-saint-etienne-guide-2026",
       "acheter-immobilier-france-meilleures-villes-2025",
+      "acheter-moins-200000-euros-france-quelles-villes-2026",
     ],
     tags: ["acheter à Saint-Étienne 2026", "immobilier Saint-Étienne prix", "investissement locatif Saint-Étienne", "primo-accédant Saint-Étienne budget", "marché immobilier Loire 2026"],
   },
@@ -20418,6 +20420,7 @@ export const GUIDES: Guide[] = [
     relatedGuides: [
       "quitter-le-havre-guide-2026",
       "acheter-immobilier-france-meilleures-villes-2025",
+      "vivre-en-normandie-guide-2025",
     ],
     tags: ["acheter au Havre 2026", "immobilier Le Havre prix quartiers", "Perret UNESCO Havre investissement", "marché immobilier Seine-Maritime 2026", "primo-accédant Le Havre 2026"],
   },
@@ -20458,6 +20461,7 @@ export const GUIDES: Guide[] = [
     relatedGuides: [
       "centre-val-de-loire-tours-orleans-guide-2025",
       "acheter-immobilier-france-meilleures-villes-2025",
+      "acheter-moins-200000-euros-france-quelles-villes-2026",
     ],
     tags: ["acheter à Orléans 2026", "immobilier Orléans prix quartiers", "navetteur Paris Orléans train 2026", "investissement locatif Orléans 2026", "marché immobilier Loiret 2026"],
   },
@@ -20498,6 +20502,7 @@ export const GUIDES: Guide[] = [
     relatedGuides: [
       "quitter-limoges-guide-2026",
       "acheter-immobilier-france-meilleures-villes-2025",
+      "acheter-moins-200000-euros-france-quelles-villes-2026",
     ],
     tags: ["acheter à Limoges 2026", "immobilier Limoges prix quartiers", "investissement locatif Limoges 2026", "primo-accédant Limoges Haute-Vienne", "marché immobilier Limousin 2026"],
   },
@@ -20538,6 +20543,7 @@ export const GUIDES: Guide[] = [
     relatedGuides: [
       "quitter-amiens-guide-2026",
       "acheter-immobilier-france-meilleures-villes-2025",
+      "acheter-moins-200000-euros-france-quelles-villes-2026",
     ],
     tags: ["acheter à Amiens 2026", "immobilier Amiens prix quartiers", "navetteur Paris Amiens TGV 2026", "investissement locatif Amiens 2026", "marché immobilier Somme Picardie 2026"],
   },
@@ -21306,6 +21312,7 @@ export const GUIDES: Guide[] = [
     relatedCities: ["saint-etienne", "mulhouse", "limoges", "gueret", "aurillac"],
     relatedGuides: [
       "quitter-saint-etienne-guide-2026",
+      "acheter-moins-200000-euros-france-quelles-villes-2026",
       "acheter-a-limoges-quel-quartier-budget-2026",
     ],
     tags: ["villes françaises qui perdent habitants 2026", "déclin démographique France villes", "immobilier villes en déclin France", "Saint-Étienne Mulhouse Limoges déclin", "acheter dans une ville en déclin France"],
@@ -21484,6 +21491,8 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["le-mans", "tours", "rennes", "bordeaux", "lyon", "nantes", "strasbourg", "dijon"],
     relatedGuides: [
+      "quitter-paris-guide-2025",
+      "teletravail-rythme-hybride-quelle-ville-choisir-2025",
       "acheter-a-amiens-quel-quartier-budget-2026",
     ],
     tags: ["TGV Paris villes françaises temps trajet 2026", "navetteur Paris province TGV guide", "temps trajet Paris province train 2026", "s'installer en province navetteur Paris", "meilleure ville province navetteur Paris 2026"],
@@ -23236,6 +23245,7 @@ export const GUIDES: Guide[] = [
     relatedCities: ["paris"],
     relatedGuides: [
       "budget-mensuel-realiste-paris-2026",
+      "quitter-paris-province-teletravail-guide-complet-2025",
     ],
     tags: ["10 choses à faire à Paris", "activités Paris 2026", "sorties Paris habitants", "que faire à Paris", "visites Paris moins connus"],
   },
@@ -23294,6 +23304,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["lyon"],
     relatedGuides: [
+      "teletravail-rythme-hybride-quelle-ville-choisir-2025",
       "budget-mensuel-realiste-lyon-2026",
     ],
     tags: ["10 choses à faire à Lyon", "activités Lyon 2026", "sorties Lyon", "que faire à Lyon", "visites Lyon locaux"],
@@ -23354,6 +23365,7 @@ export const GUIDES: Guide[] = [
     relatedCities: ["bordeaux"],
     relatedGuides: [
       "budget-mensuel-realiste-bordeaux-2026",
+      "teletravailler-depuis-nouvelle-aquitaine-guide-2026",
     ],
     tags: ["10 choses à faire à Bordeaux", "activités Bordeaux 2026", "sorties Bordeaux", "que faire à Bordeaux week-end", "visites Bordeaux locaux"],
   },
@@ -23413,6 +23425,7 @@ export const GUIDES: Guide[] = [
     relatedCities: ["toulouse"],
     relatedGuides: [
       "budget-mensuel-realiste-toulouse-2026",
+      "teletravailler-depuis-occitanie-toulouse-montpellier-guide-2025",
     ],
     tags: ["10 choses à faire à Toulouse", "activités Toulouse 2026", "sorties Toulouse", "que faire à Toulouse", "visites Toulouse locaux"],
   },
@@ -23470,7 +23483,10 @@ export const GUIDES: Guide[] = [
       },
     ],
     relatedCities: ["marseille"],
-    relatedGuides: [],
+    relatedGuides: [
+      "teletravailler-depuis-provence-guide-2026",
+      "quitter-marseille-guide-2026",
+    ],
     tags: ["10 choses à faire à Marseille", "activités Marseille 2026", "sorties Marseille", "que faire à Marseille", "calanques Marseille visiteurs"],
   },
   {
@@ -23527,7 +23543,10 @@ export const GUIDES: Guide[] = [
       },
     ],
     relatedCities: ["nice"],
-    relatedGuides: [],
+    relatedGuides: [
+      "nice-vs-marseille-comparatif-2026",
+      "teletravailler-depuis-provence-guide-2026",
+    ],
     tags: ["10 choses à faire à Nice", "activités Nice 2026", "sorties Nice", "que faire à Nice", "visites Nice locaux Côte d'Azur"],
   },
   {
@@ -23585,6 +23604,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["nantes"],
     relatedGuides: [
+      "rennes-vs-nantes-comparatif-2026",
       "budget-mensuel-realiste-nantes-2026",
     ],
     tags: ["10 choses à faire à Nantes", "activités Nantes 2026", "sorties Nantes", "que faire à Nantes", "Machines de l'Île Nantes visiteurs"],
@@ -23643,7 +23663,10 @@ export const GUIDES: Guide[] = [
       },
     ],
     relatedCities: ["rennes"],
-    relatedGuides: [],
+    relatedGuides: [
+      "rennes-vs-nantes-comparatif-2026",
+      "teletravailler-depuis-bretagne-guide-2026",
+    ],
     tags: ["10 choses à faire à Rennes", "activités Rennes 2026", "sorties Rennes", "que faire à Rennes", "marché des Lices Rennes visiteurs"],
   },
   {

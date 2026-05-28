@@ -307,6 +307,12 @@ export default async function TensionLocativePage({ params }: Props) {
       <section className="relative pb-16">
         <div className="mx-auto max-w-5xl px-4 sm:px-6 flex gap-3 flex-wrap">
           <Link
+            href="/tension-locative"
+            className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
+          >
+            📊 Palmarès national tension locative
+          </Link>
+          <Link
             href={`/villes/${slug}/logement`}
             className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
           >

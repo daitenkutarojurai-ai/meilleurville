@@ -24,6 +24,7 @@ export async function generateStaticParams() {
     { locale: "en", slug: "from-belgique" },
     { locale: "en", slug: "from-royaume-uni" },
     { locale: "en", slug: "from-canada" },
+    { locale: "en", slug: "from-etats-unis" },
   ];
 }
 
@@ -35,6 +36,7 @@ const EN_COUNTRY_NAME: Record<string, string> = {
   belgique: "Belgium",
   "royaume-uni": "United Kingdom",
   canada: "Canada",
+  "etats-unis": "the United States",
 };
 
 // ─── EN intro copy ────────────────────────────────────────────────────────────
@@ -50,6 +52,8 @@ const EN_COUNTRY_INTRO: Record<string, string> = {
     "Returning from the UK post-Brexit is now a full administrative process. London salaries, once converted to euros and adjusted for French cost of living, remain comfortable outside Paris. Lille (Eurostar) and Rennes (good TGV access) are natural transition cities.",
   canada:
     "Returning from Canada (most often Québec) is less financially brutal than from Switzerland, but the tax gap is real: the Canadian system is simpler with fewer deductions, while France's is multi-layered. The upside: recovering France's comprehensive public healthcare and social safety net after years of private Canadian coverage.",
+  "etats-unis":
+    "Returning from the United States stacks two shocks: a currency shock (the dollar buys less than a euro) and a social-model shock. You trade high gross salaries, expensive private health insurance and a multi-tier tax bill (federal, state, FICA) for the Sécu and heavier payroll charges — but health cover that no longer depends on your employer. The genuine trap is dual taxation: US citizens are taxed on worldwide income for life, so binationals keep filing US returns even after the move. Internationally connected metros (Paris, Lyon, Bordeaux, Nantes, Toulouse) make the landing softer, especially if you keep a US employer on a remote contract.",
 };
 
 // ─── EN currency notes ───────────────────────────────────────────────────────
@@ -63,6 +67,8 @@ const EN_CURRENCY_NOTE: Record<string, string | null> = {
     "Exchange rate reference: 1 GBP ≈ €1.18 (January 2026). The EUR/GBP rate has been volatile since Brexit — do not plan on the pre-Brexit €1.40 rate. Budget conservatively at €1.15.",
   canada:
     "Exchange rate reference: 1 CAD ≈ €0.68 (January 2026). On a gross basis, a CAD salary converts to euros at a significant haircut. Offset this with France's substantially lower tax burden on modest-to-middle incomes.",
+  "etats-unis":
+    "Exchange rate reference: 1 USD ≈ €0.92 (EUR/USD around 1.08, early 2026). The rate is volatile — do not budget a US salary at a flattering €1.15. A dollar salary converts to euros at a haircut, but France's public healthcare and lower fixed costs outside Paris close much of the gap.",
 };
 
 // ─── EN 'what you had vs what you'll have' tables ────────────────────────────
@@ -213,6 +219,38 @@ const EN_HAD_VS_WILL_HAVE: Record<string, Comparison[]> = {
       had: "RRSP + QPP contributions",
       willHave:
         "French AGIRC-ARRCO (new contributions); RRSP can remain in Canada",
+    },
+  ],
+  "etats-unis": [
+    {
+      topic: "Net salary",
+      had: "$6,000–9,000 net/month (tech / finance, excl. stock)",
+      willHave: "€3,500–4,500 net equivalent in France after charges",
+    },
+    {
+      topic: "T3 rent",
+      had: "$3,000–5,000 (New York / San Francisco / Boston)",
+      willHave: "€900–1,600 (Lyon, Bordeaux, Nantes, Toulouse)",
+    },
+    {
+      topic: "Healthcare",
+      had: "Private insurance $500–1,500/month (premium + high deductible)",
+      willHave: "Sécu + top-up €80–200/month, not tied to your job",
+    },
+    {
+      topic: "Childcare",
+      had: "Daycare $1,500–2,500/month (large cities)",
+      willHave: "Nursery €150–400/month after CAF, free école maternelle from age 3",
+    },
+    {
+      topic: "Income tax",
+      had: "Federal + state + FICA, ~25–40% effective",
+      willHave: "~25–40% effective (income tax + CSG + social charges)",
+    },
+    {
+      topic: "Car",
+      had: "Fuel ~€0.80–1.00/L equivalent, moderate insurance",
+      willHave: "Fuel €1.65–1.95/L, insurance ~€600–800/year in the provinces",
     },
   ],
 };
@@ -367,6 +405,35 @@ const EN_ADMIN_STEPS: Record<string, AdminStep[]> = {
         "RRSP can remain in Canada; no French tax liability as long as it stays invested. You must declare it on form 3916-bis (foreign accounts). Open a French bank account before arrival if possible (Société Générale or BNP have Canada-France account-opening services).",
     },
   ],
+  "etats-unis": [
+    {
+      step: "Deregister from consular registry",
+      detail:
+        "Notify the French consulate before leaving and keep the radiation certificate — it is useful for CAF and CPAM files later.",
+      officialUrl: "https://www.service-public.gouv.fr/particuliers/vosdroits/R43251",
+    },
+    {
+      step: "Social security",
+      detail:
+        "No S1 form (the US is not in the EU): open a CPAM file on arrival with proof of residence and your US insurer's end-of-coverage letter. Keep private cover for the processing gap.",
+      officialUrl: "https://www.service-public.gouv.fr/particuliers/vosdroits/F32824",
+    },
+    {
+      step: "Income tax",
+      detail:
+        "France-US tax treaty (1994): French tax residency from day one. Split-year French return for the year of return + final US return (1040 dual-status). File an FBAR if foreign accounts exceed $10,000.",
+    },
+    {
+      step: "Driving licence",
+      detail:
+        "Exchange depends on the issuing state: only states with a reciprocity agreement allow a swap without retaking the test. Otherwise, retake the code and road exam. Apply online via ANTS.",
+    },
+    {
+      step: "Retirement savings (401(k) / IRA)",
+      detail:
+        "Keep statements and declare the accounts in France: withdrawal taxation differs and US mutual funds (PFIC) are heavily taxed for binationals. Do not liquidate before a transatlantic tax opinion.",
+    },
+  ],
 };
 
 // ─── EN warnings ─────────────────────────────────────────────────────────────
@@ -394,6 +461,12 @@ const EN_WARNINGS: Record<string, string[]> = {
     "The healthcare transition gap: between leaving Québec's RAMQ and activating your CPAM coverage, you'll have no public insurance. Take out private travel insurance for this period (1–3 months).",
     "The tax complexity is real: the year of return requires two country declarations and often a bilateral correction. Use a bilingual (French-Canadian) accountant.",
     "Québec French vs Metropolitan French: the adjustment is real but fast. Professional context may feel more formal; written French registration forms are straightforward.",
+  ],
+  "etats-unis": [
+    "US citizenship or dual nationality: the US taxes worldwide income for life. You will keep filing (1040, FBAR, FATCA) even as a French tax resident — see a Franco-American tax adviser before the move.",
+    "No health totalisation between the two countries: US coverage stops dead. Open CPAM immediately and keep temporary private insurance to bridge the processing gap.",
+    "EUR/USD swings widely: do not convert dollars at a flattering €1.15 — the 2026 rate is closer to €0.90–0.95 per dollar.",
+    "Stock options and RSUs vested in the US: their cross-border taxation is complex — plan the sale and the declaration with an accountant ahead of time.",
   ],
 };
 

@@ -31,6 +31,7 @@ const EN_COUNTRY_NAME: Record<string, string> = {
   belgique: "Belgium",
   "royaume-uni": "United Kingdom",
   canada: "Canada",
+  "etats-unis": "the United States",
 };
 
 const EN_COUNTRY_INTRO: Record<string, string> = {
@@ -44,6 +45,8 @@ const EN_COUNTRY_INTRO: Record<string, string> = {
     "Returning from the UK post-Brexit is now a full administrative process. London salaries, once converted to euros and adjusted for French cost of living, remain comfortable outside Paris. Lille (Eurostar) and Rennes (TGV-accessible) are good compromises for maintaining a UK foothold during the transition.",
   canada:
     "Returning from Canada (most often Québec) is less difficult financially than Switzerland, but the tax gap is real: the Canadian system is simpler with fewer deductions vs France's multi-layer system. Upside: recovering France's social safety net after years of private Canadian coverage.",
+  "etats-unis":
+    "Returning from the United States stacks a currency shock onto a social-model shock: high gross salaries and expensive private health insurance give way to the Sécu and heavier payroll charges. The real trap is dual taxation — US citizens file US returns for life. Internationally connected metros like Paris, Lyon, Bordeaux and Nantes make the landing softer.",
 };
 
 const breadcrumb = breadcrumbJsonLd([

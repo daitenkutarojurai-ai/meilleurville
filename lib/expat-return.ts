@@ -17,12 +17,15 @@ export type ExpatCountry =
   | "belgique"
   | "royaume-uni"
   | "canada"
-  | "allemagne";
+  | "allemagne"
+  | "etats-unis";
 
 export interface ExpatCountryProfile {
   slug: ExpatCountry;
   name: string;
   flag: string;
+  depuisLabel?: string; // article après "Rentrer en France depuis" (défaut "le", ex. "les" pour les États-Unis)
+  auLabel?: string; // en-tête de colonne du tableau (défaut "Au", ex. "Aux" pour les États-Unis)
   currency: string;
   currencyToEurApprox: number; // 1 unité locale = X €, janvier 2026 estimé
   netConversionFactor: number; // pour 100 unités locales nettes, tu retrouves ~ X € en France pour vivre pareil (pouvoir d'achat)
@@ -210,6 +213,40 @@ export const EXPAT_COUNTRIES: ExpatCountryProfile[] = [
       "Le statut de frontalier permet de garder un emploi allemand depuis Strasbourg, Mulhouse, Colmar, Forbach ou Sarreguemines : il suppose de résider et travailler dans les zones frontalières définies par la convention et de rentrer chez soi régulièrement.",
       "Pensez à clôturer l'Anmeldung par une Abmeldung et à résilier le Rundfunkbeitrag : oubliés, ils génèrent des relances et des frais après votre retour.",
       "Les droits à la retraite cotisés auprès de la Deutsche Rentenversicherung sont conservés et totalisés au niveau européen — conservez tous vos relevés de cotisation.",
+    ],
+  },
+  {
+    slug: "etats-unis",
+    name: "États-Unis",
+    flag: "🇺🇸",
+    depuisLabel: "les",
+    auLabel: "Aux",
+    currency: "USD",
+    currencyToEurApprox: 0.92, // 1 USD ≈ 0,92 € (EUR/USD autour de 1,08 début 2026, estimé)
+    netConversionFactor: 0.72, // 100 USD nets ≈ 72 € de pouvoir d'achat pour vivre pareil en province
+    bestSuitedCities: ["paris", "lyon", "bordeaux", "nantes", "toulouse", "montpellier", "nice", "rennes"],
+    intro:
+      "Le retour des États-Unis cumule deux chocs : un choc de change (le dollar pèse moins qu'un euro) et un choc de modèle social. On quitte des salaires bruts élevés, une assurance santé privée chère et une fiscalité à plusieurs niveaux (fédéral, État, FICA) pour retrouver la Sécu, des charges plus lourdes mais une couverture maladie qui ne dépend plus de l'employeur. Le vrai sujet n'est pas le niveau de vie — il reste confortable hors Paris — mais la double fiscalité quand on est binational : les États-Unis taxent leurs citoyens sur le revenu mondial, à vie. Les métropoles connectées à l'international (Paris, Lyon, Bordeaux, Nantes, Toulouse) facilitent la transition, notamment pour garder un employeur américain en télétravail.",
+    hadVsWillHave: [
+      { topic: "Salaire net", had: "6 000-9 000 USD net/mois (cadre tech / finance, hors stock-options)", willHave: "Équivalent ~3 500-4 500 € net en France après charges" },
+      { topic: "Loyer T3", had: "3 000-5 000 USD (New York / San Francisco / Boston)", willHave: "900-1 600 € (Lyon, Bordeaux, Nantes, Toulouse)" },
+      { topic: "Santé", had: "Assurance privée 500-1 500 USD/mois (prime employeur + franchise élevée)", willHave: "Sécu + mutuelle 80-200 €/mois, sans condition d'emploi" },
+      { topic: "Garde d'enfants", had: "Daycare 1 500-2 500 USD/mois (grandes villes)", willHave: "Crèche 150-400 €/mois après CAF/CMG, ou maternelle gratuite dès 3 ans" },
+      { topic: "Fiscalité revenu", had: "Federal + State + FICA, ~25-40 % effectif selon l'État", willHave: "~25-40 % effectif (TMI + CSG + prélèvements sociaux)" },
+      { topic: "Voiture", had: "Carburant ~0,80-1,00 €/L équivalent, assurance modérée", willHave: "Carburant 1,65-1,95 €/L, assurance ~600-800 €/an en province" },
+    ],
+    adminPriorities: [
+      { step: "Déclarer le retour au consulat & radier", detail: "Avant le départ : se radier du registre des Français établis hors de France et conserver l'attestation de radiation, utile pour la CAF et la CPAM.", officialUrl: "https://www.service-public.gouv.fr/particuliers/vosdroits/R43251" },
+      { step: "Sécurité sociale", detail: "Pas de formulaire S1 (les États-Unis ne sont pas dans l'UE) : ouvrir un dossier CPAM dès l'arrivée avec un justificatif de résidence et la fin de couverture de l'assureur américain. Prévoir une assurance privée pour le délai d'instruction.", officialUrl: "https://www.service-public.gouv.fr/particuliers/vosdroits/F32824" },
+      { step: "Fiscalité revenu", detail: "Convention fiscale FR-US (1994) : résidence fiscale française à compter du jour J. Déclaration fractionnée en France l'année du retour + dernière déclaration américaine (1040 dual-status). FBAR à déposer si comptes étrangers dépassant 10 000 USD." },
+      { step: "Permis de conduire", detail: "L'échange du permis dépend de l'État d'émission : seuls les États ayant un accord de réciprocité avec la France permettent l'échange sans repasser l'examen. Sinon, repasser le code et la conduite. Démarche en ligne via l'ANTS." },
+      { step: "Épargne retraite (401(k) / IRA)", detail: "Conserver les relevés et déclarer les comptes en France : la fiscalité des retraits diffère et les fonds américains (PFIC) sont lourdement taxés pour les binationaux. Ne rien liquider avant un avis fiscal transatlantique." },
+    ],
+    warnings: [
+      "Citoyenneté américaine ou binationalité : les États-Unis taxent sur le revenu mondial à vie. Vous continuerez à déclarer (1040, FBAR, FATCA) même résident fiscal français — consultez un conseil fiscal franco-américain avant le retour.",
+      "Aucune totalisation santé entre les deux pays : la couverture américaine s'arrête net. Ouvrez la CPAM immédiatement et gardez une assurance privée temporaire pour combler le délai.",
+      "Le change EUR/USD varie fortement : ne convertissez pas vos dollars à un taux théorique de 1,15 €, le taux 2026 est plutôt autour de 0,90-0,95 € pour 1 USD.",
+      "Stock-options et RSU acquis aux États-Unis : leur imposition à cheval sur deux pays est complexe — anticipez la vente et la déclaration avec un expert-comptable.",
     ],
   },
 ];

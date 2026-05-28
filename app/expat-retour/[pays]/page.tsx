@@ -76,7 +76,7 @@ export default async function ExpatRetourCountryPage({ params }: Props) {
               {country.flag}
             </span>
             <h1 className="text-3xl sm:text-4xl font-bold text-[var(--text-primary)]">
-              Rentrer en France depuis le {country.name}
+              Rentrer en France depuis {country.depuisLabel ?? "le"} {country.name}
             </h1>
           </div>
           <p className="text-[var(--text-secondary)] leading-relaxed">{country.intro}</p>
@@ -104,7 +104,7 @@ export default async function ExpatRetourCountryPage({ params }: Props) {
                 <tr className="border-b border-[var(--border)]">
                   <th className="text-left py-2 font-semibold text-[var(--text-primary)]">Critère</th>
                   <th className="text-left py-2 font-semibold text-[var(--text-secondary)]">
-                    {country.flag} Au {country.name}
+                    {country.flag} {country.auLabel ?? "Au"} {country.name}
                   </th>
                   <th className="text-left py-2 font-semibold text-[var(--text-secondary)]">
                     🇫🇷 En France
