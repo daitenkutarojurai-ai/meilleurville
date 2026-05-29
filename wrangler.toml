@@ -20,6 +20,11 @@ routes = [
 [assets]
 binding = "ASSETS"
 directory = "out"
+# Run the Worker before serving assets so it can 301 apex -> www (host
+# canonicalization can't be expressed in _redirects). Scoped to exclude
+# /_next/* — the bulk of per-page sub-resources (JS/CSS/fonts) stay edge-served
+# with no Worker hit; only HTML navigations pass through (~ pageviews).
+run_worker_first = ["/*", "!/_next/*"]
 
 # NOTE: bestcitiesinfrance.com (EN) is a SEPARATE deploy — the locale is baked at
 # build time, so the EN site needs its own export (NEXT_PUBLIC_DEFAULT_LOCALE=en)

@@ -300,10 +300,19 @@ function handleCitiesSearch(url: URL): Response {
 
 export default {
   async fetch(request: Request, env: Env): Promise<Response> {
+    const url = new URL(request.url);
+
+    // Host canonicalization: apex -> www (301). _redirects can't match on host,
+    // so this lives here. run_worker_first (wrangler.toml, scoped to exclude
+    // /_next/*) puts the Worker ahead of asset serving for HTML navigations, so
+    // this fires even for paths that exist as static files.
+    if (url.hostname === "mavilleideale.fr") {
+      return Response.redirect(`https://www.mavilleideale.fr${url.pathname}${url.search}`, 301);
+    }
+
     exposeEnv(env);
     setDB(env.DB);
 
-    const url = new URL(request.url);
     const path = url.pathname.replace(/\/+$/, "") || "/";
     const method = request.method;
 
@@ -341,7 +350,11 @@ export default {
       }
 
       if (path.startsWith("/api/")) return json({ error: "Not found" }, { status: 404 });
-      // Non-API asset miss → serve the static 404 page.
+      // run_worker_first routes non-/_next/* requests through the Worker before
+      // assets are served, so serve the matching static asset; fall back to the
+      // static 404 page when nothing matches.
+      const asset = await env.ASSETS.fetch(request);
+      if (asset.status !== 404) return asset;
       const notFound = await env.ASSETS.fetch(new Request(new URL("/404.html", url)));
       return new Response(notFound.body, { status: 404, headers: notFound.headers });
     } catch (err) {
