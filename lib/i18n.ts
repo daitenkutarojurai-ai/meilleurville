@@ -92,6 +92,18 @@ const FR_TO_EN_SEGMENT: Record<string, string> = {
   quiz: "quiz",
 };
 
+const EN_TO_FR_SEGMENT: Record<string, string> = Object.fromEntries(
+  Object.entries(FR_TO_EN_SEGMENT).map(([fr, en]) => [en, fr])
+);
+
+function langPair(frPath: string, enPath: string): Record<string, string> {
+  return {
+    "fr-FR": `${ORIGIN_BY_LOCALE.fr}${frPath}`,
+    "en-US": `${ORIGIN_BY_LOCALE.en}${enPath}`,
+    "x-default": `${ORIGIN_BY_LOCALE.fr}${frPath}`,
+  };
+}
+
 // hreflang `alternates.languages` map for a FR route path, when an exact EN
 // equivalent exists. Returns undefined for FR-only families so the page simply
 // omits hreflang rather than advertising a non-existent EN URL.
@@ -99,12 +111,15 @@ export function hreflangLanguages(frPath: string): Record<string, string> | unde
   const segs = frPath.replace(/^\//, "").split("/");
   const enHead = FR_TO_EN_SEGMENT[segs[0]];
   if (!enHead) return undefined;
-  const enPath = "/" + [enHead, ...segs.slice(1)].join("/");
-  return {
-    "fr-FR": `${ORIGIN_BY_LOCALE.fr}${frPath}`,
-    "en-US": `${ORIGIN_BY_LOCALE.en}${enPath}`,
-    "x-default": `${ORIGIN_BY_LOCALE.fr}${frPath}`,
-  };
+  return langPair(frPath, "/" + [enHead, ...segs.slice(1)].join("/"));
+}
+
+// Same, from an EN route path — for the reciprocal hreflang on EN pages.
+export function hreflangLanguagesEn(enPath: string): Record<string, string> | undefined {
+  const segs = enPath.replace(/^\//, "").split("/");
+  const frHead = EN_TO_FR_SEGMENT[segs[0]];
+  if (!frHead) return undefined;
+  return langPair("/" + [frHead, ...segs.slice(1)].join("/"), enPath);
 }
 
 // Map a FR route path to its EN equivalent (for hreflang cross-link).

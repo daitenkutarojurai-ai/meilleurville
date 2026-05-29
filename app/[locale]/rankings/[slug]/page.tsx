@@ -5,7 +5,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { RANKING_META, getRankedCities, type RankingSlug } from "@/lib/rankings";
 import { scoreColor } from "@/lib/utils";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { ORIGIN_BY_LOCALE, hreflangLanguagesEn } from "@/lib/i18n";
 
 const EN_BASE = ORIGIN_BY_LOCALE.en;
 
@@ -326,7 +326,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: en.headline,
     description: en.description,
-    alternates: { canonical: `${EN_BASE}/rankings/${slug}` },
+    alternates: { canonical: `${EN_BASE}/rankings/${slug}`, languages: hreflangLanguagesEn(`/rankings/${slug}`) },
     openGraph: { title: en.headline, description: en.description },
     twitter: { card: "summary_large_image" },
   };

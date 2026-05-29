@@ -6,7 +6,7 @@ import { Footer } from "@/components/Footer";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { deptToSlug, slugToDept } from "@/lib/dept-slug";
 import { scoreColor } from "@/lib/utils";
-import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { ORIGIN_BY_LOCALE, hreflangLanguagesEn } from "@/lib/i18n";
 
 const EN_BASE = ORIGIN_BY_LOCALE.en;
 
@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Cities in ${name} — French department guide`,
     description: `Cities ranked in ${name}. Quality of life, housing, safety, and resident reviews.`,
-    alternates: { canonical: `${EN_BASE}/departments/${dept}` },
+    alternates: { canonical: `${EN_BASE}/departments/${dept}`, languages: hreflangLanguagesEn(`/departments/${dept}`) },
   };
 }
 
