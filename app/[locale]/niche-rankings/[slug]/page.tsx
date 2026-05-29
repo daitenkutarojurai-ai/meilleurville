@@ -185,7 +185,7 @@ export default async function EnNicheRankingPage({ params }: Props) {
   if (!ranking) notFound();
 
   const top = rankByOwnerScore(ranking.scoreKey, 50);
-  const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://www.bestcitiesinfrance.com";
+  const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://bestcitiesinfrance.com";
   const others = EN_NICHE_RANKINGS.filter((r) => r.enSlug !== ranking.enSlug);
 
   return (

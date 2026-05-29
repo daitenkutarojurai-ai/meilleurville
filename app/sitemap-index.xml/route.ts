@@ -13,10 +13,12 @@
 
 import { GUIDES } from "@/data/guides";
 import { ORIGIN_BY_LOCALE, type Locale } from "@/lib/i18n";
+import { SITEMAP_CHUNK_COUNT } from "../sitemap";
 
 const DEFAULT_LOCALE = (process.env.NEXT_PUBLIC_DEFAULT_LOCALE ?? "fr") as Locale;
-// Must match the count of SITEMAP_CHUNKS in app/sitemap.ts (FR: 13, EN: 3)
-const CHUNK_COUNT = DEFAULT_LOCALE === "en" ? 3 : 13;
+// Derived from app/sitemap.ts so the index never drifts from the chunks
+// generateSitemaps actually emits (FR: 16, EN: 19 as of writing).
+const CHUNK_COUNT = SITEMAP_CHUNK_COUNT;
 const BASE_URL = ORIGIN_BY_LOCALE[DEFAULT_LOCALE];
 
 function latestGuideUpdate(): string {

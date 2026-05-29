@@ -53,7 +53,7 @@ export default function CheapestCitiesPage() {
     return all[Math.floor(all.length / 2)] ?? 700;
   })();
 
-  const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://www.bestcitiesinfrance.com";
+  const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://bestcitiesinfrance.com";
 
   return (
     <main id="main-content" className="min-h-screen relative">

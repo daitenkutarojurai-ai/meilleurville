@@ -52,7 +52,7 @@ export default function BestValueCitiesPage() {
     .sort((a, b) => b.value - a.value)
     .slice(0, 50);
 
-  const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://www.bestcitiesinfrance.com";
+  const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://bestcitiesinfrance.com";
 
   return (
     <main id="main-content" className="min-h-screen relative">

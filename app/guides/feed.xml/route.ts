@@ -4,7 +4,7 @@ import { EN_GUIDES } from "@/data/guides-en";
 const DEFAULT_LOCALE = (process.env.NEXT_PUBLIC_DEFAULT_LOCALE ?? "fr") as "fr" | "en";
 const IS_EN = DEFAULT_LOCALE === "en";
 const FR_URL = "https://www.mavilleideale.fr";
-const EN_URL = "https://www.bestcitiesinfrance.com";
+const EN_URL = "https://bestcitiesinfrance.com";
 const SITE_URL =
   process.env.NEXT_PUBLIC_BASE_URL ?? (IS_EN ? EN_URL : FR_URL);
 
