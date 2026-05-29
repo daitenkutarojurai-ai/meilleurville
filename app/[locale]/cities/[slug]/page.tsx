@@ -1,22 +1,12 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
+import { CityProfile } from "@/app/villes/[slug]/CityProfile";
 import { CITIES_SEED } from "@/data/cities-seed";
-import { getHousing } from "@/data/housing";
-import {
-  t,
-  getCityTitle,
-  getCityDescription,
-  getCityBody,
-  ORIGIN_BY_LOCALE,
-} from "@/lib/i18n";
-import { scoreColor, sunshineDays } from "@/lib/utils";
-import { PoliticalLean } from "@/components/PoliticalLean";
+import { getCityTitle, getCityDescription, ORIGIN_BY_LOCALE } from "@/lib/i18n";
 
 // ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
-// revalidate=false → page built once at deploy, served from static edge cache.
 export const revalidate = false;
 export const dynamicParams = false;
 
@@ -25,8 +15,7 @@ type Props = { params: Promise<{ locale: string; slug: string }> };
 const EN_BASE = ORIGIN_BY_LOCALE.en;
 const FR_BASE = ORIGIN_BY_LOCALE.fr;
 
-// Build all 352 EN city pages at compile time, matching the FR site's
-// generateStaticParams pattern in app/villes/[slug]/page.tsx.
+// Build all EN city pages at compile time, matching the FR site's pattern.
 export async function generateStaticParams() {
   return CITIES_SEED.map((c) => ({ locale: "en", slug: c.slug }));
 }
@@ -60,179 +49,27 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-const SCORE_KEYS = [
-  ["life", "city.score.life"],
-  ["transport", "city.score.transport"],
-  ["nature", "city.score.nature"],
-  ["cost", "city.score.cost"],
-  ["safety", "city.score.safety"],
-  ["culture", "city.score.culture"],
-  ["remoteWork", "city.score.remoteWork"],
-  ["schools", "city.score.schools"],
-] as const;
-
+// EN city page = the exact same rich CityProfile as the FR site, rendered with
+// locale="en" (tabs, narrative, niche scores, data cards, sub-page strip — all
+// English, with /cities routes). The aurora hero supplies the page background.
 export default async function EnCityPage({ params }: Props) {
   const { slug } = await params;
   const city = CITIES_SEED.find((c) => c.slug === slug);
   if (!city) notFound();
 
-  const housing = getHousing(city.slug);
-  const body = getCityBody(city, "en");
-
   return (
-    <main id="main-content" className="min-h-screen">
+    <main id="main-content" className="min-h-screen relative">
       <Navbar />
-      <article className="mx-auto max-w-4xl px-4 sm:px-6 pt-20 pb-12">
-        <nav aria-label="Breadcrumb" className="text-sm text-[var(--text-secondary)] mb-4">
-          <Link href="/" className="hover:underline">
-            {t("nav.home", "en")}
-          </Link>{" "}
-          ·{" "}
-          <Link href="/cities" className="hover:underline">
-            {t("nav.cities", "en")}
-          </Link>{" "}
-          · <span>{city.name}</span>
-        </nav>
-
-        <header className="mb-8">
-          <h1 className="text-4xl sm:text-5xl font-bold text-[var(--text-primary)] mb-3 tracking-tight">
-            {city.name}
-          </h1>
-          <p className="text-[var(--text-secondary)] text-base">
-            {city.department ? `${t("city.department", "en")}: ${city.department}` : null}
-            {city.department && city.region ? " · " : null}
-            {city.region ? `${t("city.region", "en")}: ${city.region}` : null}
-          </p>
-        </header>
-
-        <section className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-6 mb-8">
-          <div className="flex items-baseline justify-between">
-            <h2 className="text-lg font-semibold text-[var(--text-primary)]">
-              {t("city.score.global", "en")}
-            </h2>
-            <span
-              className={`font-mono-data text-4xl font-bold ${scoreColor(city.scores.global)}`}
-            >
-              {city.scores.global.toFixed(1)}/10
-            </span>
-          </div>
-          <dl className="mt-5 grid grid-cols-2 sm:grid-cols-4 gap-3 text-sm">
-            {SCORE_KEYS.map(([key, label]) => (
-              <div key={key} className="rounded-lg bg-[var(--bg-canvas)] p-3">
-                <dt className="text-[var(--text-secondary)] text-xs">
-                  {t(label, "en")}
-                </dt>
-                <dd className="font-mono-data font-bold text-[var(--text-primary)]">
-                  {city.scores[key].toFixed(1)}
-                </dd>
-              </div>
-            ))}
-          </dl>
-        </section>
-
-        {body ? (
-          <section className="prose prose-neutral max-w-none mb-8 text-[var(--text-primary)]">
-            <p className="text-base leading-relaxed">{body}</p>
-          </section>
-        ) : (
-          <section className="rounded-2xl border border-amber-200 bg-amber-50 p-5 mb-8 text-sm text-amber-900">
-            English long-form description for {city.name} is not yet available — quality-of-life scores and basic stats above are calibrated on the same French sources used across the site.
-          </section>
-        )}
-
-        <section className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-10">
-          {city.population != null && (
-            <div className="rounded-xl border border-[var(--border)] p-4">
-              <p className="text-xs text-[var(--text-secondary)]">
-                {t("city.population", "en")}
-              </p>
-              <p className="font-mono-data font-bold text-lg text-[var(--text-primary)]">
-                {city.population.toLocaleString("en-US")}
-              </p>
-            </div>
-          )}
-          {city.sunshinedays != null && (
-            <div className="rounded-xl border border-[var(--border)] p-4">
-              <p className="text-xs text-[var(--text-secondary)]">
-                {t("city.sunshine", "en")}
-              </p>
-              <p className="font-mono-data font-bold text-lg text-[var(--text-primary)]">
-                {sunshineDays(city.sunshinedays)}
-              </p>
-            </div>
-          )}
-          {housing?.avgRentT2 != null && (
-            <div className="rounded-xl border border-[var(--border)] p-4">
-              <p className="text-xs text-[var(--text-secondary)]">
-                Avg. T2 rent (€/month)
-              </p>
-              <p className="font-mono-data font-bold text-lg text-[var(--text-primary)]">
-                {housing.avgRentT2}
-              </p>
-            </div>
-          )}
-        </section>
-
-        <div className="mb-10 max-w-md">
-          <PoliticalLean slug={city.slug} cityName={city.name} locale="en" />
-        </div>
-
-        <section className="mb-10">
-          <h2 className="text-lg font-semibold text-[var(--text-primary)] mb-3">
-            Explore {city.name} in depth
-          </h2>
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
-            {[
-              { href: "climate", emoji: "🌡️", label: "Climate" },
-              { href: "transport", emoji: "🚉", label: "Transport" },
-              { href: "schools", emoji: "🎓", label: "Schools" },
-              { href: "cost-of-living", emoji: "💶", label: "Cost of living" },
-              { href: "healthcare", emoji: "🏥", label: "Healthcare" },
-              { href: "safety", emoji: "🛡️", label: "Safety" },
-              { href: "air-quality", emoji: "🌬️", label: "Air quality" },
-              { href: "employment", emoji: "💼", label: "Job market" },
-              { href: "natural-risks", emoji: "🌊", label: "Natural risks" },
-              { href: "noise", emoji: "🔇", label: "Noise" },
-              { href: "water", emoji: "💧", label: "Water stress" },
-              { href: "demographics", emoji: "👥", label: "Demographics" },
-              { href: "public-services", emoji: "🏛️", label: "Public services" },
-              { href: "cycling", emoji: "🚲", label: "Cycling" },
-              { href: "own-vs-rent", emoji: "🏠", label: "Own vs rent" },
-              { href: "remote-work", emoji: "💻", label: "Remote work" },
-              { href: "tax", emoji: "🧾", label: "Property tax" },
-              { href: "honest-review", emoji: "⭐", label: "Honest review" },
-              { href: "climate-2040", emoji: "🌡️", label: "Climate 2040" },
-              { href: "seasons", emoji: "🌷", label: "Seasons" },
-              { href: "neighbourhoods", emoji: "🏘️", label: "Neighbourhoods" },
-              { href: "vibe", emoji: "✨", label: "City vibe" },
-              { href: "profiles", emoji: "👤", label: "Lifestyle profiles" },
-              { href: "fingerprint", emoji: "🔮", label: "City fingerprint" },
-              { href: "internet-quality", emoji: "📶", label: "Internet quality" },
-              { href: "get-settled", emoji: "📋", label: "Get settled" },
-              { href: "housing", emoji: "🏠", label: "Housing" },
-              { href: "synthesis", emoji: "🧩", label: "8-dimension profile" },
-              { href: "overview", emoji: "🗺️", label: "Full overview" },
-            ].map((s) => (
-              <Link
-                key={s.href}
-                href={`/cities/${city.slug}/${s.href}`}
-                className="flex items-center gap-2 rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-3 text-sm font-medium text-[var(--text-primary)] transition-all hover:border-[var(--accent)]/40 hover:shadow-md"
-              >
-                <span aria-hidden className="text-xl">{s.emoji}</span>
-                {s.label}
-              </Link>
-            ))}
-          </div>
-        </section>
-
-        <section className="text-sm text-[var(--text-secondary)]">
-          <p>
-            Prefer the French-language original?{" "}
-            <a className="underline" href={`${FR_BASE}/villes/${city.slug}`}>{city.name} on mavilleideale.fr</a>.
-          </p>
-        </section>
-      </article>
-
+      <CityProfile city={city} locale="en" />
+      <section className="mx-auto max-w-7xl px-4 sm:px-6 pb-12 text-sm text-[var(--text-secondary)]">
+        <p>
+          Prefer the French-language original?{" "}
+          <a className="underline hover:text-[var(--accent)]" href={`${FR_BASE}/villes/${city.slug}`}>
+            {city.name} on mavilleideale.fr
+          </a>
+          .
+        </p>
+      </section>
       <Footer />
     </main>
   );

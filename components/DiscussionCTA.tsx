@@ -4,6 +4,7 @@ import { MessageCircle, ChevronRight } from "lucide-react";
 interface Props {
   citySlug: string;
   cityName: string;
+  locale?: "fr" | "en";
 }
 
 /**
@@ -14,10 +15,15 @@ interface Props {
  * plutôt que de fragmenter la conversation par sous-page. Le clic scrolle
  * directement à `/villes/<slug>#discussions`.
  */
-export function DiscussionCTA({ citySlug, cityName }: Props) {
+export function DiscussionCTA({ citySlug, cityName, locale = "fr" }: Props) {
+  const L = (fr: string, en: string) => (locale === "en" ? en : fr);
+  const href =
+    locale === "en"
+      ? `/cities/${citySlug}#discussions`
+      : `/villes/${citySlug}#discussions`;
   return (
     <Link
-      href={`/villes/${citySlug}#discussions`}
+      href={href}
       className="group flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-elevated)]/40 p-4 hover:border-[var(--accent)]/40 hover:shadow-md transition-all"
     >
       <div className="flex items-start gap-3 min-w-0">
@@ -26,10 +32,13 @@ export function DiscussionCTA({ citySlug, cityName }: Props) {
         </div>
         <div className="min-w-0">
           <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
-            Discuter de {cityName}
+            {L(`Discuter de ${cityName}`, `Talk about ${cityName}`)}
           </div>
           <div className="text-xs text-[var(--text-secondary)] mt-0.5">
-            Lire les retours de la communauté ou partager votre expérience.
+            {L(
+              "Lire les retours de la communauté ou partager votre expérience.",
+              "Read what locals say or share your own experience.",
+            )}
           </div>
         </div>
       </div>

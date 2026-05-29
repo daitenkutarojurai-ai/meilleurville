@@ -10,27 +10,29 @@ import type { CitySeed } from "@/data/cities-seed";
 
 interface Props {
   city: CitySeed;
+  locale?: "fr" | "en";
 }
 
-export function CyclingCard({ city }: Props) {
+export function CyclingCard({ city, locale = "fr" }: Props) {
+  const L = (fr: string, en: string) => (locale === "en" ? en : fr);
   const c = computeCyclingMobility(city);
   const dims: Array<[string, typeof c.network]> = [
-    ["Réseau", c.network],
-    ["Relief", c.topography],
-    ["Sécurité", c.safety],
-    ["Climat", c.climate],
+    [L("Réseau", "Network"), c.network],
+    [L("Relief", "Terrain"), c.topography],
+    [L("Sécurité", "Safety"), c.safety],
+    [L("Climat", "Climate"), c.climate],
   ];
 
   return (
     <Card>
       <Link
-        href={`/villes/${city.slug}/velo`}
+        href={locale === "en" ? `/cities/${city.slug}/cycling` : `/villes/${city.slug}/velo`}
         className="group block -m-5 p-5 hover:bg-[var(--bg-elevated)]/40 transition-colors"
       >
         <div className="flex items-center justify-between mb-3">
           <h3 className="text-sm font-semibold text-[var(--text-primary)] flex items-center gap-2">
             <Bike className="h-4 w-4 text-[var(--text-secondary)]" />
-            Mobilité douce — vélo
+            {L("Mobilité douce — vélo", "Active mobility — cycling")}
           </h3>
           <ArrowRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors" />
         </div>
@@ -57,7 +59,10 @@ export function CyclingCard({ city }: Props) {
         </div>
 
         <p className="text-[11px] text-[var(--text-tertiary)] leading-tight mt-3">
-          Géovélo · FUB · Vélo & Territoires — 10 = excellent.
+          {L(
+            "Géovélo · FUB · Vélo & Territoires — 10 = excellent.",
+            "Géovélo · FUB · Vélo & Territoires — 10 = best.",
+          )}
         </p>
       </Link>
     </Card>

@@ -10,27 +10,29 @@ import type { CitySeed } from "@/data/cities-seed";
 
 interface Props {
   city: CitySeed;
+  locale?: "fr" | "en";
 }
 
-export function PublicServicesCard({ city }: Props) {
+export function PublicServicesCard({ city, locale = "fr" }: Props) {
+  const L = (fr: string, en: string) => (locale === "en" ? en : fr);
   const s = computePublicServices(city);
   const dims: Array<[string, typeof s.schools]> = [
-    ["Écoles", s.schools],
-    ["Médiath.", s.library],
-    ["Poste", s.postOffice],
-    ["Mairie", s.cityHall],
+    [L("Écoles", "Schools"), s.schools],
+    [L("Médiath.", "Library"), s.library],
+    [L("Poste", "Post"), s.postOffice],
+    [L("Mairie", "Town hall"), s.cityHall],
   ];
 
   return (
     <Card>
       <Link
-        href={`/villes/${city.slug}/services-publics`}
+        href={locale === "en" ? `/cities/${city.slug}/public-services` : `/villes/${city.slug}/services-publics`}
         className="group block -m-5 p-5 hover:bg-[var(--bg-elevated)]/40 transition-colors"
       >
         <div className="flex items-center justify-between mb-3">
           <h3 className="text-sm font-semibold text-[var(--text-primary)] flex items-center gap-2">
             <Building2 className="h-4 w-4 text-[var(--text-secondary)]" />
-            Services publics
+            {L("Services publics", "Public services")}
           </h3>
           <ArrowRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors" />
         </div>
@@ -43,7 +45,9 @@ export function PublicServicesCard({ city }: Props) {
             <span className="text-sm font-normal text-[var(--text-tertiary)] ml-0.5">/10</span>
           </span>
           <span className={`text-xs font-bold uppercase ${SERVICES_LEVEL_COLOR[s.level]}`}>
-            {SERVICES_LEVEL_LABEL[s.level]}
+            {locale === "en"
+              ? { excellent: "Excellent", correct: "Adequate", tendu: "Strained", desertique: "Sparse" }[s.level]
+              : SERVICES_LEVEL_LABEL[s.level]}
           </span>
         </div>
 
@@ -59,7 +63,10 @@ export function PublicServicesCard({ city }: Props) {
         </div>
 
         <p className="text-[11px] text-[var(--text-tertiary)] leading-tight mt-3">
-          10 = maillage de services publics complet · DEPP · CAF · La Poste · BNF · France Services.
+          {L(
+            "10 = maillage de services publics complet · DEPP · CAF · La Poste · BNF · France Services.",
+            "10 = full coverage of public services · DEPP · CAF · La Poste · BNF · France Services.",
+          )}
         </p>
       </Link>
     </Card>

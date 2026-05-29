@@ -8,27 +8,31 @@ import { cn } from "@/lib/utils";
 interface CityDiscussionTabsProps {
   citySlug: string;
   cityName: string;
+  locale?: "fr" | "en";
 }
 
-const TABS = [
-  { id: "reviews", label: "Avis & discussions" },
-  { id: "qa", label: "Questions & réponses" },
-] as const;
+type TabId = "reviews" | "qa";
 
-type TabId = (typeof TABS)[number]["id"];
+const TAB_IDS: readonly TabId[] = ["reviews", "qa"] as const;
 
-export function CityDiscussionTabs({ citySlug, cityName }: CityDiscussionTabsProps) {
+export function CityDiscussionTabs({ citySlug, cityName, locale = "fr" }: CityDiscussionTabsProps) {
+  const L = (fr: string, en: string) => (locale === "en" ? en : fr);
   const [active, setActive] = useState<TabId>("reviews");
+
+  const tabs: { id: TabId; label: string }[] = [
+    { id: "reviews", label: L("Avis & discussions", "Reviews & discussion") },
+    { id: "qa", label: L("Questions & réponses", "Questions & answers") },
+  ];
 
   return (
     <div>
       {/* Two-pill tab switcher */}
       <div
         role="tablist"
-        aria-label="Sections discussion"
+        aria-label={L("Sections discussion", "Discussion sections")}
         className="mb-6 inline-flex rounded-xl border border-[var(--border)] bg-[var(--bg-elevated)] p-1 gap-1"
       >
-        {TABS.map((tab) => (
+        {tabs.map((tab) => (
           <button
             key={tab.id}
             id={`disc-tab-${tab.id}`}
@@ -39,11 +43,11 @@ export function CityDiscussionTabs({ citySlug, cityName }: CityDiscussionTabsPro
             onClick={() => setActive(tab.id)}
             onKeyDown={(e) => {
               if (e.key === "ArrowRight" || e.key === "ArrowLeft") {
-                const idx = TABS.findIndex((t) => t.id === active);
+                const idx = TAB_IDS.findIndex((t) => t === active);
                 const next = e.key === "ArrowRight"
-                  ? (idx + 1) % TABS.length
-                  : (idx - 1 + TABS.length) % TABS.length;
-                setActive(TABS[next].id);
+                  ? (idx + 1) % TAB_IDS.length
+                  : (idx - 1 + TAB_IDS.length) % TAB_IDS.length;
+                setActive(TAB_IDS[next]);
               }
             }}
             className={cn(
@@ -68,10 +72,13 @@ export function CityDiscussionTabs({ citySlug, cityName }: CityDiscussionTabsPro
         {active === "reviews" && (
           <CommentSection
             topic={`city:${citySlug}`}
-            title={`Témoignages sur ${cityName}`}
+            title={L(`Témoignages sur ${cityName}`, `Firsthand accounts of ${cityName}`)}
             showRating
             subscribeContext={cityName}
-            emptyHint={`Vous avez vécu ou visité ${cityName} ? Racontez-nous : ce que vous avez aimé, ce qui vous a surpris, vos coups de cœur de quartier…`}
+            emptyHint={L(
+              `Vous avez vécu ou visité ${cityName} ? Racontez-nous : ce que vous avez aimé, ce qui vous a surpris, vos coups de cœur de quartier…`,
+              `Lived in or visited ${cityName}? Tell us: what you liked, what surprised you, the neighbourhoods you loved…`
+            )}
           />
         )}
       </div>

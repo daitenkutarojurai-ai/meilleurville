@@ -10,27 +10,29 @@ import type { CitySeed } from "@/data/cities-seed";
 
 interface Props {
   city: CitySeed;
+  locale?: "fr" | "en";
 }
 
-export function DemographyCard({ city }: Props) {
+export function DemographyCard({ city, locale = "fr" }: Props) {
+  const L = (fr: string, en: string) => (locale === "en" ? en : fr);
   const d = computeDemography(city);
   const dims: Array<[string, typeof d.ageing]> = [
-    ["Vieillis.", d.ageing],
-    ["Jeunes", d.youngActives],
-    ["Traj.", d.trajectory],
-    ["Renouv.", d.renewal],
+    [L("Vieillis.", "Ageing"), d.ageing],
+    [L("Jeunes", "Young"), d.youngActives],
+    [L("Traj.", "Trend"), d.trajectory],
+    [L("Renouv.", "Renewal"), d.renewal],
   ];
 
   return (
     <Card>
       <Link
-        href={`/villes/${city.slug}/demographie`}
+        href={locale === "en" ? `/cities/${city.slug}/demographics` : `/villes/${city.slug}/demographie`}
         className="group block -m-5 p-5 hover:bg-[var(--bg-elevated)]/40 transition-colors"
       >
         <div className="flex items-center justify-between mb-3">
           <h3 className="text-sm font-semibold text-[var(--text-primary)] flex items-center gap-2">
             <Users className="h-4 w-4 text-[var(--text-secondary)]" />
-            Démographie & vieillissement
+            {L("Démographie & vieillissement", "Demographics & ageing")}
           </h3>
           <ArrowRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors" />
         </div>
@@ -59,7 +61,7 @@ export function DemographyCard({ city }: Props) {
         </div>
 
         <p className="text-[11px] text-[var(--text-tertiary)] leading-tight mt-3">
-          10 = démographie dynamique · INSEE RP · OMPHALE.
+          {L("10 = démographie dynamique · INSEE RP · OMPHALE.", "10 = dynamic demographics · INSEE census · OMPHALE.")}
         </p>
       </Link>
     </Card>

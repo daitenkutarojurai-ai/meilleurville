@@ -11,34 +11,8 @@ interface Props {
 
 type Status = "idle" | "loading" | "success" | "error";
 
-const COPY = {
-  fr: {
-    toggle: "🔔 Recevoir des alertes",
-    emailPlaceholder: "votre@email.fr",
-    labelScore: "Score modifié",
-    labelComments: "Nouveaux commentaires",
-    threshold: "Seuil de score (optionnel)",
-    thresholdHint: "Alerter seulement si le score atteint ce seuil (ex. 7.0)",
-    submit: "Activer les alertes",
-    successMsg: (city: string) => `Alertes activées pour ${city}. Email de confirmation envoyé.`,
-    errorMsg: "Une erreur est survenue. Réessayez.",
-    disclaimer: "Pas de spam. Désabonnement en un clic dans chaque email.",
-  },
-  en: {
-    toggle: "🔔 Get alerts",
-    emailPlaceholder: "your@email.com",
-    labelScore: "Score change",
-    labelComments: "New comments",
-    threshold: "Score threshold (optional)",
-    thresholdHint: "Only alert if the score reaches this value (e.g. 7.0)",
-    submit: "Activate alerts",
-    successMsg: (city: string) => `Alerts activated for ${city}. Confirmation email sent.`,
-    errorMsg: "Something went wrong. Please try again.",
-    disclaimer: "No spam. One-click unsubscribe in every email.",
-  },
-};
-
 export function AlerteForm({ citySlug, cityName, locale = "fr" }: Props) {
+  const L = (fr: string, en: string) => (locale === "en" ? en : fr);
   const [open, setOpen] = useState(false);
   const [email, setEmail] = useState("");
   const [watchScore, setWatchScore] = useState(true);
@@ -47,7 +21,7 @@ export function AlerteForm({ citySlug, cityName, locale = "fr" }: Props) {
   const [status, setStatus] = useState<Status>("idle");
   const [message, setMessage] = useState("");
 
-  const c = COPY[locale];
+  const errorMsg = L("Une erreur est survenue. Réessayez.", "Something went wrong. Please try again.");
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
@@ -59,7 +33,7 @@ export function AlerteForm({ citySlug, cityName, locale = "fr" }: Props) {
       if (watchScore) types.push("score");
       if (watchComments) types.push("comments");
 
-      const body: Record<string, unknown> = { email: email.trim(), citySlug, types };
+      const body: Record<string, unknown> = { email: email.trim(), citySlug, types, locale };
       const parsedThreshold = parseFloat(threshold);
       if (!isNaN(parsedThreshold) && parsedThreshold > 0) {
         body.scoreThreshold = parsedThreshold;
@@ -73,14 +47,19 @@ export function AlerteForm({ citySlug, cityName, locale = "fr" }: Props) {
       const data = await res.json();
       if (!res.ok) {
         setStatus("error");
-        setMessage(data.error ?? c.errorMsg);
+        setMessage(data.error ?? errorMsg);
       } else {
         setStatus("success");
-        setMessage(c.successMsg(cityName));
+        setMessage(
+          L(
+            `Alertes activées pour ${cityName}. Email de confirmation envoyé.`,
+            `Alerts activated for ${cityName}. Confirmation email sent.`,
+          ),
+        );
       }
     } catch {
       setStatus("error");
-      setMessage(c.errorMsg);
+      setMessage(errorMsg);
     }
   }
 
@@ -91,7 +70,9 @@ export function AlerteForm({ citySlug, cityName, locale = "fr" }: Props) {
         <div>
           <p className="text-sm text-emerald-700">{message}</p>
           <p className="text-[11px] text-emerald-600 mt-1">
-            <a href="/mes-alertes" className="underline hover:no-underline">Gérer mes alertes</a>
+            <a href={locale === "en" ? "/my-alerts" : "/mes-alertes"} className="underline hover:no-underline">
+              {L("Gérer mes alertes", "Manage my alerts")}
+            </a>
           </p>
         </div>
       </div>
@@ -104,7 +85,7 @@ export function AlerteForm({ citySlug, cityName, locale = "fr" }: Props) {
         onClick={() => setOpen((v) => !v)}
         className="w-full flex items-center justify-between gap-3 px-4 py-3 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
       >
-        <span className="font-medium">{c.toggle}</span>
+        <span className="font-medium">{L("🔔 Recevoir des alertes", "🔔 Get alerts")}</span>
         {open ? (
           <BellOff className="h-4 w-4 text-[var(--text-tertiary)]" />
         ) : (
@@ -119,8 +100,8 @@ export function AlerteForm({ citySlug, cityName, locale = "fr" }: Props) {
             required
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            placeholder={c.emailPlaceholder}
-            aria-label={c.emailPlaceholder}
+            placeholder={L("votre@email.fr", "your@email.com")}
+            aria-label={L("votre@email.fr", "your@email.com")}
             className="w-full rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] px-3 py-2 text-sm text-[var(--text-primary)] placeholder:text-[var(--text-tertiary)] focus:outline-none focus:ring-2 focus:ring-[var(--accent)]/40"
           />
 
@@ -132,7 +113,7 @@ export function AlerteForm({ citySlug, cityName, locale = "fr" }: Props) {
                 onChange={(e) => setWatchScore(e.target.checked)}
                 className="rounded accent-[var(--accent)]"
               />
-              {c.labelScore}
+              {L("Score modifié", "Score change")}
             </label>
             <label className="flex items-center gap-2 text-sm text-[var(--text-secondary)] cursor-pointer">
               <input
@@ -141,13 +122,13 @@ export function AlerteForm({ citySlug, cityName, locale = "fr" }: Props) {
                 onChange={(e) => setWatchComments(e.target.checked)}
                 className="rounded accent-[var(--accent)]"
               />
-              {c.labelComments}
+              {L("Nouveaux commentaires", "New comments")}
             </label>
           </div>
 
           {watchScore && (
             <div>
-              <label className="block text-xs text-[var(--text-tertiary)] mb-1">{c.threshold}</label>
+              <label className="block text-xs text-[var(--text-tertiary)] mb-1">{L("Seuil de score (optionnel)", "Score threshold (optional)")}</label>
               <input
                 type="number"
                 min="1"
@@ -155,7 +136,7 @@ export function AlerteForm({ citySlug, cityName, locale = "fr" }: Props) {
                 step="0.1"
                 value={threshold}
                 onChange={(e) => setThreshold(e.target.value)}
-                placeholder={c.thresholdHint}
+                placeholder={L("Alerter seulement si le score atteint ce seuil (ex. 7.0)", "Only alert if the score reaches this value (e.g. 7.0)")}
                 className="w-full rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] px-3 py-2 text-sm text-[var(--text-primary)] placeholder:text-[var(--text-tertiary)] focus:outline-none focus:ring-2 focus:ring-[var(--accent)]/40"
               />
             </div>
@@ -171,9 +152,9 @@ export function AlerteForm({ citySlug, cityName, locale = "fr" }: Props) {
             className="flex items-center gap-2 rounded-xl bg-[var(--accent)] text-white px-4 py-2 text-sm font-semibold hover:opacity-90 disabled:opacity-50 transition-opacity"
           >
             {status === "loading" && <Loader2 className="h-3.5 w-3.5 animate-spin" />}
-            {c.submit}
+            {L("Activer les alertes", "Activate alerts")}
           </button>
-          <p className="text-[11px] text-[var(--text-tertiary)]">{c.disclaimer}</p>
+          <p className="text-[11px] text-[var(--text-tertiary)]">{L("Pas de spam. Désabonnement en un clic dans chaque email.", "No spam. One-click unsubscribe in every email.")}</p>
         </form>
       )}
     </div>

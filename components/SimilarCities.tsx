@@ -5,6 +5,7 @@ import { HOUSING } from "@/data/housing";
 interface SimilarCitiesProps {
   city: CitySeed;
   maxResults?: number;
+  locale?: "fr" | "en";
 }
 
 function cosineSimilarity(a: CitySeed["scores"], b: CitySeed["scores"]): number {
@@ -20,7 +21,8 @@ function cosineSimilarity(a: CitySeed["scores"], b: CitySeed["scores"]): number 
   return dot / (Math.sqrt(normA) * Math.sqrt(normB));
 }
 
-export function SimilarCities({ city, maxResults = 4 }: SimilarCitiesProps) {
+export function SimilarCities({ city, maxResults = 4, locale = "fr" }: SimilarCitiesProps) {
+  const L = (fr: string, en: string) => (locale === "en" ? en : fr);
   const similar = CITIES_SEED.filter((c) => c.slug !== city.slug)
     .map((c) => ({ city: c, sim: cosineSimilarity(city.scores, c.scores) }))
     .sort((a, b) => b.sim - a.sim)
@@ -31,13 +33,13 @@ export function SimilarCities({ city, maxResults = 4 }: SimilarCitiesProps) {
   return (
     <div>
       <p className="text-xs uppercase tracking-widest text-[var(--text-tertiary)] font-semibold mb-3">
-        Villes similaires
+        {L("Villes similaires", "Similar cities")}
       </p>
       <div className="space-y-2">
         {similar.map(({ city: c, sim }) => (
           <Link
             key={c.slug}
-            href={`/villes/${c.slug}`}
+            href={locale === "en" ? `/cities/${c.slug}` : `/villes/${c.slug}`}
             className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:bg-[var(--bg-elevated)] transition-all px-4 py-3 group"
           >
             <div className="flex-1 min-w-0">
@@ -46,7 +48,7 @@ export function SimilarCities({ city, maxResults = 4 }: SimilarCitiesProps) {
               </div>
               <div className="text-xs text-[var(--text-tertiary)] mt-0.5">
                 {c.region}
-                {HOUSING[c.slug] ? ` · ${HOUSING[c.slug].avgRentT2}€/mois T2` : ""}
+                {HOUSING[c.slug] ? ` · ${HOUSING[c.slug].avgRentT2}€${L("/mois T2", "/mo 2-room")}` : ""}
               </div>
             </div>
             <div className="text-right flex-shrink-0 ml-3">
@@ -54,7 +56,7 @@ export function SimilarCities({ city, maxResults = 4 }: SimilarCitiesProps) {
                 {c.scores.global.toFixed(1)}
               </div>
               <div className="text-xs text-[var(--text-tertiary)]">
-                {Math.round(sim * 100)}% similaire
+                {Math.round(sim * 100)}{L("% similaire", "% similar")}
               </div>
             </div>
           </Link>
@@ -64,17 +66,17 @@ export function SimilarCities({ city, maxResults = 4 }: SimilarCitiesProps) {
         {similar.slice(0, 2).map(({ city: c }) => (
           <Link
             key={c.slug}
-            href={`/comparer/${[city.slug, c.slug].sort().join("-vs-")}`}
+            href={`${locale === "en" ? "/compare" : "/comparer"}/${[city.slug, c.slug].sort().join("-vs-")}`}
             className="text-xs text-[var(--accent)] border border-[var(--accent)]/30 rounded-lg px-3 py-1.5 hover:bg-[var(--accent)]/5 transition-colors"
           >
             vs {c.name} →
           </Link>
         ))}
         <Link
-          href={`/comparer`}
+          href={locale === "en" ? `/compare` : `/comparer`}
           className="text-xs text-[var(--text-secondary)] border border-[var(--border)] rounded-lg px-3 py-1.5 hover:text-[var(--text-primary)] transition-colors"
         >
-          Comparateur →
+          {L("Comparateur →", "Compare →")}
         </Link>
       </div>
     </div>

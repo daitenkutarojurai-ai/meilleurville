@@ -22,20 +22,22 @@ interface CommentSectionProps {
   className?: string;
   /** When set, shows a newsletter subscribe prompt after successful submission. */
   subscribeContext?: string;
+  locale?: "fr" | "en";
 }
 
-function timeAgo(iso: string): string {
+function timeAgo(iso: string, locale: "fr" | "en" = "fr"): string {
+  const en = locale === "en";
   const diff = Date.now() - new Date(iso).getTime();
   const m = Math.floor(diff / 60_000);
-  if (m < 1) return "à l'instant";
-  if (m < 60) return `il y a ${m} min`;
+  if (m < 1) return en ? "just now" : "à l'instant";
+  if (m < 60) return en ? `${m} min ago` : `il y a ${m} min`;
   const h = Math.floor(m / 60);
-  if (h < 24) return `il y a ${h} h`;
+  if (h < 24) return en ? `${h} h ago` : `il y a ${h} h`;
   const d = Math.floor(h / 24);
-  if (d < 7) return `il y a ${d} j`;
+  if (d < 7) return en ? `${d}d ago` : `il y a ${d} j`;
   const w = Math.floor(d / 7);
-  if (w < 5) return `il y a ${w} sem`;
-  return new Date(iso).toLocaleDateString("fr-FR", { day: "numeric", month: "short", year: "numeric" });
+  if (w < 5) return en ? `${w}w ago` : `il y a ${w} sem`;
+  return new Date(iso).toLocaleDateString(en ? "en-GB" : "fr-FR", { day: "numeric", month: "short", year: "numeric" });
 }
 
 function avatarColor(name: string): string {
@@ -56,7 +58,9 @@ export function CommentSection({
   emptyHint,
   className = "",
   subscribeContext,
+  locale = "fr",
 }: CommentSectionProps) {
+  const L = (fr: string, en: string) => (locale === "en" ? en : fr);
   const [items, setItems] = useState<Comment[]>([]);
   const [loading, setLoading] = useState(true);
   const [author, setAuthor] = useState(() => {
@@ -90,22 +94,22 @@ export function CommentSection({
         setItems(Array.isArray(d.items) ? d.items : []);
       })
       .catch(() => {
-        if (!cancelled) setError("Impossible de charger les commentaires.");
+        if (!cancelled) setError(locale === "en" ? "Couldn't load the comments." : "Impossible de charger les commentaires.");
       })
       .finally(() => !cancelled && setLoading(false));
     return () => {
       cancelled = true;
     };
-  }, [topic]);
+  }, [topic, locale]);
 
   async function onSubmit(e: React.FormEvent) {
     e.preventDefault();
     if (submitting) return;
     setError(null);
     setSuccess(null);
-    if (author.trim().length < 3) return setError("Votre prénom (3 caractères minimum).");
-    if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email.trim())) return setError("Email valide requis (ne sera pas affiché).");
-    if (body.trim().length < 8) return setError("Au moins 8 caractères pour le message.");
+    if (author.trim().length < 3) return setError(L("Votre prénom (3 caractères minimum).", "Your first name (3 characters minimum)."));
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email.trim())) return setError(L("Email valide requis (ne sera pas affiché).", "A valid email is required (it won't be shown)."));
+    if (body.trim().length < 8) return setError(L("Au moins 8 caractères pour le message.", "At least 8 characters for the message."));
 
     setSubmitting(true);
     try {
@@ -124,12 +128,12 @@ export function CommentSection({
         body: JSON.stringify(payload),
       });
       const data = await res.json().catch(() => ({}));
-      if (!res.ok) throw new Error(data?.error ?? "Erreur lors de l'envoi");
+      if (!res.ok) throw new Error(data?.error ?? L("Erreur lors de l'envoi", "Something went wrong while sending"));
       const newComment: Comment | null = data.comment ?? null;
       if (newComment) setItems((prev) => [newComment, ...prev]);
       setBody("");
       setRating(null);
-      setSuccess("Votre commentaire est en ligne.");
+      setSuccess(L("Votre commentaire est en ligne.", "Your comment is live."));
       setShowBadge(true);
       try {
         localStorage.setItem(STORAGE_KEY, author.trim());
@@ -141,7 +145,7 @@ export function CommentSection({
         setShowBadge(false);
       }, 4000);
     } catch (err) {
-      setError(err instanceof Error ? err.message : "Erreur réseau");
+      setError(err instanceof Error ? err.message : L("Erreur réseau", "Network error"));
     } finally {
       setSubmitting(false);
     }
@@ -153,7 +157,7 @@ export function CommentSection({
       const res = await fetch("/api/newsletter", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email: email.trim() }),
+        body: JSON.stringify(locale === "en" ? { email: email.trim(), locale } : { email: email.trim() }),
       });
       setSubscribeStatus(res.ok ? "ok" : "err");
     } catch {
@@ -166,13 +170,13 @@ export function CommentSection({
       <div className="flex items-end justify-between mb-6">
         <div>
           <p className="text-xs uppercase tracking-widest text-[var(--accent)] font-semibold mb-1">
-            💬 Communauté
+            {L("💬 Communauté", "💬 Community")}
           </p>
           <h3 className="text-2xl font-bold text-[var(--text-primary)]">{title}</h3>
         </div>
         <div className="flex items-center gap-1.5 text-sm text-[var(--text-secondary)]">
           <MessageCircle className="h-4 w-4" />
-          {items.length} {items.length === 1 ? "message" : "messages"}
+          {items.length} {items.length === 1 ? L("message", "comment") : L("messages", "comments")}
         </div>
       </div>
 
@@ -185,7 +189,7 @@ export function CommentSection({
         <div className="flex flex-col sm:flex-row gap-3 flex-wrap">
           <input
             type="text"
-            placeholder="Votre prénom"
+            placeholder={L("Votre prénom", "Your first name")}
             value={author}
             onChange={(e) => setAuthor(e.target.value)}
             maxLength={40}
@@ -195,7 +199,7 @@ export function CommentSection({
           />
           <input
             type="email"
-            placeholder="Email (non public)"
+            placeholder={L("Email (non public)", "Email (not public)")}
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             maxLength={120}
@@ -210,7 +214,7 @@ export function CommentSection({
                   type="button"
                   onClick={() => setRating(rating === n ? null : n)}
                   className="p-1 transition-transform hover:scale-110"
-                  aria-label={`Note ${n}`}
+                  aria-label={L(`Note ${n}`, `Rating ${n}`)}
                 >
                   <Star
                     className={
@@ -224,8 +228,8 @@ export function CommentSection({
           )}
         </div>
         <textarea
-          placeholder={emptyHint ?? "Partagez votre expérience, votre avis, votre coup de cœur…"}
-          aria-label="Votre avis"
+          placeholder={emptyHint ?? L("Partagez votre expérience, votre avis, votre coup de cœur…", "Share your experience, your take, your favourite spot…")}
+          aria-label={L("Votre avis", "Your comment")}
           value={body}
           onChange={(e) => setBody(e.target.value)}
           maxLength={2000}
@@ -236,7 +240,7 @@ export function CommentSection({
         {/* Honeypot — hidden from real users */}
         <div aria-hidden className="absolute -left-[9999px] top-0 opacity-0 pointer-events-none">
           <label>
-            Site web
+            {L("Site web", "Website")}
             <input
               type="text"
               tabIndex={-1}
@@ -249,7 +253,7 @@ export function CommentSection({
 
         <div className="mt-3 flex items-center justify-between gap-3">
           <div className="text-[11px] text-[var(--text-tertiary)] flex items-center gap-1">
-            {body.length}/2000 · pas de liens · respect
+            {body.length}/2000 · {L("pas de liens · respect", "no links · be respectful")}
           </div>
           <Button
             type="submit"
@@ -261,12 +265,12 @@ export function CommentSection({
             {submitting ? (
               <>
                 <span className="inline-block h-3.5 w-3.5 rounded-full border-2 border-current border-r-transparent animate-spin" aria-hidden />
-                Envoi…
+                {L("Envoi…", "Sending…")}
               </>
             ) : (
               <>
                 <Send className="h-3.5 w-3.5" />
-                Publier
+                {L("Publier", "Post")}
               </>
             )}
           </Button>
@@ -289,17 +293,20 @@ export function CommentSection({
         {showSubscribe && subscribeContext && subscribeStatus !== "ok" && (
           <div className="mt-4 rounded-xl border border-[var(--accent)]/30 bg-gradient-to-br from-[var(--accent-soft)] to-white p-4">
             <p className="text-sm font-semibold text-[var(--accent)] mb-1">
-              📬 Suivre {subscribeContext} ?
+              {L(`📬 Suivre ${subscribeContext} ?`, `📬 Follow ${subscribeContext}?`)}
             </p>
             <p className="text-xs text-[var(--text-secondary)] mb-3">
-              Recevez les nouveaux classements et avis sur {subscribeContext} (1 mail/mois max, désinscription en 1 clic).
+              {L(
+                `Recevez les nouveaux classements et avis sur ${subscribeContext} (1 mail/mois max, désinscription en 1 clic).`,
+                `Get the latest rankings and reviews for ${subscribeContext} (1 email/month max, unsubscribe in one click).`,
+              )}
             </p>
             <div className="flex gap-2">
               <input
                 type="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                placeholder="votre@email.fr"
+                placeholder={L("votre@email.fr", "you@email.com")}
                 className="flex-1 rounded-lg border border-[var(--border)] bg-white px-3 py-1.5 text-xs outline-none focus:border-[var(--accent)]/60"
               />
               <button
@@ -307,26 +314,26 @@ export function CommentSection({
                 onClick={onSubscribe}
                 className="rounded-lg bg-[var(--accent)] text-white text-xs font-semibold px-3 py-1.5 hover:bg-[var(--accent-hover)] transition-colors"
               >
-                S&apos;abonner
+                {L("S'abonner", "Subscribe")}
               </button>
               <button
                 type="button"
                 onClick={() => setShowSubscribe(false)}
                 className="text-xs text-[var(--text-tertiary)] px-2"
-                aria-label="Fermer"
+                aria-label={L("Fermer", "Close")}
               >
                 ✕
               </button>
             </div>
             {subscribeStatus === "err" && (
-              <p className="mt-2 text-xs text-rose-600">Erreur — réessayez plus tard.</p>
+              <p className="mt-2 text-xs text-rose-600">{L("Erreur — réessayez plus tard.", "Something went wrong — try again later.")}</p>
             )}
           </div>
         )}
         {subscribeStatus === "ok" && (
           <div className="mt-4 rounded-xl border border-emerald-200 bg-emerald-50 p-3 text-xs text-emerald-700 flex items-center gap-2">
             <CheckCircle className="h-4 w-4" />
-            Merci ! On vous tient au courant.
+            {L("Merci ! On vous tient au courant.", "Thanks! We'll keep you posted.")}
           </div>
         )}
       </form>
@@ -335,16 +342,16 @@ export function CommentSection({
       <div className="space-y-3">
         {loading ? (
           <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5 text-sm text-[var(--text-tertiary)] text-center">
-            Chargement…
+            {L("Chargement…", "Loading…")}
           </div>
         ) : items.length === 0 ? (
           <div className="rounded-2xl border border-dashed border-[var(--border)] bg-[var(--bg-surface)]/50 p-8 text-center">
             <div className="text-4xl mb-2">🙊</div>
             <p className="text-sm font-medium text-[var(--text-primary)]">
-              Personne n&apos;a encore réagi.
+              {L("Personne n'a encore réagi.", "No one has weighed in yet.")}
             </p>
             <p className="text-xs text-[var(--text-tertiary)] mt-1">
-              Lancez la discussion — soyez le premier !
+              {L("Lancez la discussion — soyez le premier !", "Start the conversation — be the first.")}
             </p>
           </div>
         ) : (
@@ -381,7 +388,7 @@ export function CommentSection({
                     )}
                   </div>
                   <div className="text-[11px] text-[var(--text-tertiary)] font-mono-data">
-                    {timeAgo(c.createdAt)}
+                    {timeAgo(c.createdAt, locale)}
                   </div>
                 </div>
               </header>

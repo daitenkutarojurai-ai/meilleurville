@@ -2,31 +2,41 @@ import Link from "next/link";
 import { Stethoscope, ArrowRight } from "lucide-react";
 import { Card } from "@/components/ui/Card";
 import { computeHealthcareAccess, HEALTH_LEVEL_LABEL, HEALTH_LEVEL_COLOR } from "@/lib/healthcare-access";
+import type { HealthLevel } from "@/lib/healthcare-access";
 import type { CitySeed } from "@/data/cities-seed";
+
+const HEALTH_LEVEL_LABEL_EN: Record<HealthLevel, string> = {
+  facile: "Easy",
+  correct: "Fair",
+  tendu: "Strained",
+  desert: "Desert",
+};
 
 interface Props {
   city: CitySeed;
+  locale?: "fr" | "en";
 }
 
-export function HealthcareCard({ city }: Props) {
+export function HealthcareCard({ city, locale = "fr" }: Props) {
+  const L = (fr: string, en: string) => (locale === "en" ? en : fr);
   const h = computeHealthcareAccess(city);
   const dims: Array<[string, typeof h.generalistes]> = [
-    ["MG", h.generalistes],
-    ["Spé.", h.specialistes],
-    ["Urgences", h.urgences],
-    ["Pharma.", h.pharmacies],
+    [L("MG", "GP"), h.generalistes],
+    [L("Spé.", "Spec."), h.specialistes],
+    [L("Urgences", "ER"), h.urgences],
+    [L("Pharma.", "Pharm."), h.pharmacies],
   ];
 
   return (
     <Card>
       <Link
-        href={`/villes/${city.slug}/sante`}
+        href={locale === "en" ? `/cities/${city.slug}/healthcare` : `/villes/${city.slug}/sante`}
         className="group block -m-5 p-5 hover:bg-[var(--bg-elevated)]/40 transition-colors"
       >
         <div className="flex items-center justify-between mb-3">
           <h3 className="text-sm font-semibold text-[var(--text-primary)] flex items-center gap-2">
             <Stethoscope className="h-4 w-4 text-[var(--text-secondary)]" />
-            Accès aux soins
+            {L("Accès aux soins", "Healthcare access")}
           </h3>
           <ArrowRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors" />
         </div>
@@ -39,7 +49,7 @@ export function HealthcareCard({ city }: Props) {
             <span className="text-sm font-normal text-[var(--text-tertiary)] ml-0.5">/10</span>
           </span>
           <span className={`text-xs font-bold uppercase ${HEALTH_LEVEL_COLOR[h.level]}`}>
-            {HEALTH_LEVEL_LABEL[h.level]}
+            {locale === "en" ? HEALTH_LEVEL_LABEL_EN[h.level] : HEALTH_LEVEL_LABEL[h.level]}
           </span>
         </div>
 
@@ -55,7 +65,7 @@ export function HealthcareCard({ city }: Props) {
         </div>
 
         <p className="text-[11px] text-[var(--text-tertiary)] leading-tight mt-3">
-          10 = excellent accès aux soins · DREES · CNOM · ARS.
+          {L("10 = excellent accès aux soins · DREES · CNOM · ARS.", "10 = excellent healthcare access · DREES · CNOM · ARS.")}
         </p>
       </Link>
     </Card>

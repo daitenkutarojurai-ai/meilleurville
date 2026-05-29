@@ -10,27 +10,29 @@ import type { CitySeed } from "@/data/cities-seed";
 
 interface Props {
   city: CitySeed;
+  locale?: "fr" | "en";
 }
 
-export function SafetyDeepCard({ city }: Props) {
+export function SafetyDeepCard({ city, locale = "fr" }: Props) {
+  const L = (fr: string, en: string) => (locale === "en" ? en : fr);
   const s = computeSafetyDeep(city);
   const dims: Array<[string, typeof s.property]> = [
-    ["Biens", s.property],
-    ["Personnes", s.persons],
-    ["Nuit", s.nocturnal],
+    [L("Biens", "Property"), s.property],
+    [L("Personnes", "Persons"), s.persons],
+    [L("Nuit", "Night"), s.nocturnal],
     ["VFFS", s.vffs],
   ];
 
   return (
     <Card>
       <Link
-        href={`/villes/${city.slug}/securite`}
+        href={locale === "en" ? `/cities/${city.slug}/safety` : `/villes/${city.slug}/securite`}
         className="group block -m-5 p-5 hover:bg-[var(--bg-elevated)]/40 transition-colors"
       >
         <div className="flex items-center justify-between mb-3">
           <h3 className="text-sm font-semibold text-[var(--text-primary)] flex items-center gap-2">
             <Shield className="h-4 w-4 text-[var(--text-secondary)]" />
-            Sécurité — détail SSMSI
+            {L("Sécurité — détail SSMSI", "Safety — SSMSI breakdown")}
           </h3>
           <ArrowRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors" />
         </div>
@@ -57,7 +59,7 @@ export function SafetyDeepCard({ city }: Props) {
         </div>
 
         <p className="text-[11px] text-[var(--text-tertiary)] leading-tight mt-3">
-          SSMSI · Insee CVS — 10 = insécurité maximale.
+          {L("SSMSI · Insee CVS — 10 = insécurité maximale.", "SSMSI · Insee victimization survey — 10 = highest insecurity.")}
         </p>
       </Link>
     </Card>

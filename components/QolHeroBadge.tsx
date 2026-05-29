@@ -12,20 +12,46 @@ import {
 } from "@/lib/quality-of-life-index";
 import { findMacroRegionForCity } from "@/lib/macro-regions";
 
-export function QolHeroBadge({ city }: { city: CitySeed }) {
+export function QolHeroBadge({
+  city,
+  locale = "fr",
+}: {
+  city: CitySeed;
+  locale?: "fr" | "en";
+}) {
+  const L = (fr: string, en: string) => (locale === "en" ? en : fr);
   const qol = computeQualityOfLife(city);
   const macro = findMacroRegionForCity(city);
 
-  const envHref = macro ? `/environnement/${macro.slug}` : "/environnement";
-  const healthHref = macro ? `/sante/${macro.slug}` : "/sante";
-  const jobHref = macro ? `/emploi/${macro.slug}` : "/emploi";
+  const envHref = macro
+    ? locale === "en"
+      ? `/environment/${macro.slug}`
+      : `/environnement/${macro.slug}`
+    : locale === "en"
+      ? "/environment"
+      : "/environnement";
+  const healthHref = macro
+    ? locale === "en"
+      ? `/healthcare/${macro.slug}`
+      : `/sante/${macro.slug}`
+    : locale === "en"
+      ? "/healthcare"
+      : "/sante";
+  const jobHref = macro
+    ? locale === "en"
+      ? `/employment/${macro.slug}`
+      : `/emploi/${macro.slug}`
+    : locale === "en"
+      ? "/employment"
+      : "/emploi";
+  const nationalHub = L("Hub national →", "National hub →");
 
   return (
     <div className="mt-6 rounded-3xl border border-white/50 glass p-5 sm:p-6">
       <div className="flex flex-wrap items-start justify-between gap-4">
         <div className="min-w-0">
           <div className="text-[11px] uppercase tracking-wider text-[var(--text-tertiary)] font-semibold">
-            Index Cadre de Vie
+            {L("Index Cadre de Vie", "Quality of Life Index")}
           </div>
           <div className="mt-1 flex items-baseline gap-2">
             <span className={`text-4xl font-bold font-mono-data ${QOL_LEVEL_COLOR[qol.level]}`}>
@@ -37,22 +63,29 @@ export function QolHeroBadge({ city }: { city: CitySeed }) {
             </span>
           </div>
           <div className="text-xs text-[var(--text-secondary)] mt-1">
-            Composite F52 — environnement 35 % · santé 30 % · emploi 35 %
+            {L(
+              "Composite F52 — environnement 35 % · santé 30 % · emploi 35 %",
+              "F52 composite — environment 35% · healthcare 30% · employment 35%"
+            )}
           </div>
         </div>
 
         <div className="text-xs flex flex-wrap gap-2">
           <Link
-            href="/cadre-de-vie"
+            href={locale === "en" ? "/quality-of-life" : "/cadre-de-vie"}
             className="inline-flex items-center gap-1 px-3 py-1.5 rounded-lg border border-[var(--border)] bg-[var(--bg-elevated)] hover:border-[var(--accent)]/40 transition-colors"
           >
-            Classement national →
+            {L("Classement national →", "National ranking →")}
           </Link>
           <Link
-            href="/cadre-de-vie/personnaliser"
+            href={
+              locale === "en"
+                ? "/quality-of-life/customize"
+                : "/cadre-de-vie/personnaliser"
+            }
             className="inline-flex items-center gap-1 px-3 py-1.5 rounded-lg border border-[var(--accent)]/40 bg-[var(--accent)]/5 hover:bg-[var(--accent)]/10 transition-colors text-[var(--accent)] font-semibold"
           >
-            ✨ Pondérer
+            {L("✨ Pondérer", "✨ Weight it")}
           </Link>
         </div>
       </div>
@@ -61,29 +94,31 @@ export function QolHeroBadge({ city }: { city: CitySeed }) {
       <div className="mt-4 grid grid-cols-3 gap-2 sm:gap-3">
         <PillarTile
           icon="🌿"
-          label="Environnement"
+          label={L("Environnement", "Environment")}
           value={qol.envScore}
           href={envHref}
-          subhref={macro ? `${macro.label} →` : "Hub national →"}
+          subhref={macro ? `${macro.label} →` : nationalHub}
         />
         <PillarTile
           icon="🩺"
-          label="Santé"
+          label={L("Santé", "Healthcare")}
           value={qol.healthScore}
           href={healthHref}
-          subhref={macro ? `${macro.label} →` : "Hub national →"}
+          subhref={macro ? `${macro.label} →` : nationalHub}
         />
         <PillarTile
           icon="💼"
-          label="Emploi"
+          label={L("Emploi", "Employment")}
           value={qol.jobScore}
           href={jobHref}
-          subhref={macro ? `${macro.label} →` : "Hub national →"}
+          subhref={macro ? `${macro.label} →` : nationalHub}
         />
       </div>
       <p className="text-[11px] text-[var(--text-tertiary)] mt-3">
-        Sous-scores : 10 = bon sur la dimension. Méga-index propre au site,
-        agrégat des composites F44 / F47 / F50.
+        {L(
+          "Sous-scores : 10 = bon sur la dimension. Méga-index propre au site, agrégat des composites F44 / F47 / F50.",
+          "Sub-scores: 10 = strong on that dimension. Site-specific mega-index, an aggregate of the F44 / F47 / F50 composites."
+        )}
       </p>
     </div>
   );

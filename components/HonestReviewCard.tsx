@@ -10,7 +10,27 @@ interface Props {
   /** Compact = no "Avis honnête" full page link. Used when this card itself
       lives on /villes/[slug]/avis-honnete. */
   compact?: boolean;
+  locale?: "fr" | "en";
 }
+
+/** FR profile slug → EN /for-who/ slug. Falls back to the FR slug when unknown. */
+const PROFILE_EN_SLUG: Record<string, string> = {
+  "familles-avec-enfants": "families",
+  "jeunes-actifs": "young-professionals",
+  retraites: "retirees",
+  freelances: "freelancers",
+  teletravailleurs: "remote-workers",
+  etudiants: "students",
+  "sans-voiture": "car-free",
+  premium: "premium",
+  "solo-femme": "women-solo",
+  "couple-sans-enfant": "couples",
+  "expat-retour": "returning-expats",
+  "primo-accedants": "first-time-buyers",
+  "familles-monoparentales": "single-parents",
+  "familles-nombreuses": "large-families",
+  "amateurs-de-plein-air": "outdoor-lovers",
+};
 
 function ratingBadge(score: number): { label: string; tone: string } {
   if (score >= 7.5) return { label: score.toFixed(1), tone: "bg-purple-500/15 text-purple-700 border-purple-400/30" };
@@ -19,7 +39,8 @@ function ratingBadge(score: number): { label: string; tone: string } {
   return { label: score.toFixed(1), tone: "bg-red-500/15 text-red-700 border-red-400/30" };
 }
 
-export function HonestReviewCard({ city, compact = false }: Props) {
+export function HonestReviewCard({ city, compact = false, locale = "fr" }: Props) {
+  const L = (fr: string, en: string) => (locale === "en" ? en : fr);
   const review = buildHonestReview(city);
 
   return (
@@ -27,10 +48,10 @@ export function HonestReviewCard({ city, compact = false }: Props) {
       <div className="flex items-center gap-2 mb-3">
         <Sparkles className="h-4 w-4 text-[var(--accent)]" />
         <h2 className="text-base font-semibold text-[var(--text-primary)]">
-          Avis honnête sur {city.name}
+          {L(`Avis honnête sur ${city.name}`, `Honest take on ${city.name}`)}
         </h2>
         <span className="ml-auto inline-flex items-center rounded-full border border-blue-400/30 bg-blue-500/10 text-blue-700 px-1.5 py-0.5 text-[10px] uppercase tracking-wider">
-          Synthèse
+          {L("Synthèse", "Summary")}
         </span>
       </div>
 
@@ -44,7 +65,7 @@ export function HonestReviewCard({ city, compact = false }: Props) {
           <div className="flex items-center gap-1.5 mb-2">
             <ThumbsUp className="h-3.5 w-3.5 text-emerald-600" />
             <span className="text-xs font-semibold uppercase tracking-wider text-emerald-700">
-              Ce qui est vraiment bon
+              {L("Ce qui est vraiment bon", "What's genuinely good")}
             </span>
           </div>
           {review.strengths.length > 0 ? (
@@ -68,7 +89,10 @@ export function HonestReviewCard({ city, compact = false }: Props) {
             </ul>
           ) : (
             <p className="text-xs text-[var(--text-tertiary)]">
-              Pas de score ≥ 7,0 — ville profil correct mais sans excellence marquée.
+              {L(
+                "Pas de score ≥ 7,0 — ville profil correct mais sans excellence marquée.",
+                "No score ≥ 7.0 — a solid all-rounder, but nothing it really stands out at.",
+              )}
             </p>
           )}
         </div>
@@ -78,7 +102,7 @@ export function HonestReviewCard({ city, compact = false }: Props) {
           <div className="flex items-center gap-1.5 mb-2">
             <ThumbsDown className="h-3.5 w-3.5 text-red-600" />
             <span className="text-xs font-semibold uppercase tracking-wider text-red-700">
-              À regarder de près
+              {L("À regarder de près", "Worth a closer look")}
             </span>
           </div>
           {review.weaknesses.length > 0 ? (
@@ -102,7 +126,10 @@ export function HonestReviewCard({ city, compact = false }: Props) {
             </ul>
           ) : (
             <p className="text-xs text-[var(--text-tertiary)]">
-              Aucun score ≤ 4,8 — pas de faiblesse rédhibitoire identifiée.
+              {L(
+                "Aucun score ≤ 4,8 — pas de faiblesse rédhibitoire identifiée.",
+                "No score ≤ 4.8 — no dealbreaker weakness to flag.",
+              )}
             </p>
           )}
         </div>
@@ -114,27 +141,39 @@ export function HonestReviewCard({ city, compact = false }: Props) {
           <div className="flex items-center gap-1.5 mb-2">
             <CheckCircle2 className="h-3.5 w-3.5 text-emerald-600" />
             <span className="text-xs font-semibold uppercase tracking-wider text-emerald-700">
-              Convient à
+              {L("Convient à", "Good fit for")}
             </span>
           </div>
           {review.perfectFor.length > 0 ? (
             <>
               {review.perfectFor.some((f) => f.soft) && (
                 <p className="text-[11px] text-[var(--text-tertiary)] mb-2 italic">
-                  Pas dans le top 30 d&apos;un profil spécifique, mais voici les deux pour lesquels {city.name} reste <em>plutôt adaptée</em> :
+                  {locale === "en" ? (
+                    <>
+                      Not in the top 30 for any specific profile, but here are the two {city.name} is still <em>a reasonable fit</em> for:
+                    </>
+                  ) : (
+                    <>
+                      Pas dans le top 30 d&apos;un profil spécifique, mais voici les deux pour lesquels {city.name} reste <em>plutôt adaptée</em> :
+                    </>
+                  )}
                 </p>
               )}
               <ul className="space-y-1.5">
                 {review.perfectFor.map((f) => (
                   <li key={f.profile.slug} className="text-sm">
                     <Link
-                      href={`/pour-qui/${f.profile.slug}`}
+                      href={
+                        locale === "en"
+                          ? `/for-who/${PROFILE_EN_SLUG[f.profile.slug] ?? f.profile.slug}`
+                          : `/pour-qui/${f.profile.slug}`
+                      }
                       className="inline-flex items-center gap-1 text-[var(--text-primary)] hover:text-[var(--accent)] transition-colors"
                     >
                       <span aria-hidden>{f.profile.emoji}</span>
                       {f.profile.label}
                       <span className="text-[11px] text-[var(--text-tertiary)] ml-1">
-                        (#{f.rank} sur {CITIES_COUNT})
+                        {L(`(#${f.rank} sur ${CITIES_COUNT})`, `(#${f.rank} of ${CITIES_COUNT})`)}
                       </span>
                     </Link>
                   </li>
@@ -143,7 +182,10 @@ export function HonestReviewCard({ city, compact = false }: Props) {
             </>
           ) : (
             <p className="text-xs text-[var(--text-tertiary)]">
-              Aucun profil ne ressort sur cette ville. Vous pouvez la considérer comme un choix généraliste sans signature forte.
+              {L(
+                "Aucun profil ne ressort sur cette ville. Vous pouvez la considérer comme un choix généraliste sans signature forte.",
+                "No profile stands out for this city. Treat it as a generalist pick with no strong signature.",
+              )}
             </p>
           )}
         </div>
@@ -152,14 +194,23 @@ export function HonestReviewCard({ city, compact = false }: Props) {
       {!compact && (
         <div className="mt-5 pt-3 border-t border-[var(--border)]/60 flex items-center justify-between gap-3 text-xs text-[var(--text-tertiary)]">
           <span>
-            Synthèse algorithmique — 8 axes seed + 10 owner scores + classement parmi les 10 profils.
-            Voir <Link href="/methode" className="underline">méthodologie</Link>.
+            {locale === "en" ? (
+              <>
+                Algorithmic summary — 8 seed axes + 10 owner scores + ranking across the 10 profiles.
+                See <Link href="/methodology" className="underline">methodology</Link>.
+              </>
+            ) : (
+              <>
+                Synthèse algorithmique — 8 axes seed + 10 owner scores + classement parmi les 10 profils.
+                Voir <Link href="/methode" className="underline">méthodologie</Link>.
+              </>
+            )}
           </span>
           <Link
-            href={`/villes/${city.slug}/avis-honnete`}
+            href={locale === "en" ? `/cities/${city.slug}/honest-review` : `/villes/${city.slug}/avis-honnete`}
             className="text-[var(--accent)] font-semibold whitespace-nowrap hover:underline"
           >
-            Page dédiée →
+            {L("Page dédiée →", "Full page →")}
           </Link>
         </div>
       )}

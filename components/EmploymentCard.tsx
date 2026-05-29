@@ -1,32 +1,42 @@
 import Link from "next/link";
 import { Briefcase, ArrowRight } from "lucide-react";
 import { Card } from "@/components/ui/Card";
-import { computeEmploymentMarket, JOB_LEVEL_LABEL, JOB_LEVEL_COLOR } from "@/lib/employment-market";
+import { computeEmploymentMarket, JOB_LEVEL_LABEL, JOB_LEVEL_COLOR, type JobLevel } from "@/lib/employment-market";
 import type { CitySeed } from "@/data/cities-seed";
+
+const JOB_LEVEL_LABEL_EN: Record<JobLevel, string> = {
+  facile: "Easy",
+  actif: "Active",
+  tendu: "Tight",
+  sinistre: "Depressed",
+};
 
 interface Props {
   city: CitySeed;
+  locale?: "fr" | "en";
 }
 
-export function EmploymentCard({ city }: Props) {
+export function EmploymentCard({ city, locale = "fr" }: Props) {
+  const L = (fr: string, en: string) => (locale === "en" ? en : fr);
   const e = computeEmploymentMarket(city);
   const dims: Array<[string, typeof e.unemployment]> = [
-    ["Chômage", e.unemployment],
-    ["Dynamisme", e.dynamism],
-    ["Mix", e.sectorMix],
-    ["Salaires", e.salary],
+    [L("Chômage", "Unemployment"), e.unemployment],
+    [L("Dynamisme", "Momentum"), e.dynamism],
+    [L("Mix", "Sector mix"), e.sectorMix],
+    [L("Salaires", "Wages"), e.salary],
   ];
+  const levelLabel = locale === "en" ? JOB_LEVEL_LABEL_EN : JOB_LEVEL_LABEL;
 
   return (
     <Card>
       <Link
-        href={`/villes/${city.slug}/emploi`}
+        href={locale === "en" ? `/cities/${city.slug}/employment` : `/villes/${city.slug}/emploi`}
         className="group block -m-5 p-5 hover:bg-[var(--bg-elevated)]/40 transition-colors"
       >
         <div className="flex items-center justify-between mb-3">
           <h3 className="text-sm font-semibold text-[var(--text-primary)] flex items-center gap-2">
             <Briefcase className="h-4 w-4 text-[var(--text-secondary)]" />
-            Marché du travail
+            {L("Marché du travail", "Job market")}
           </h3>
           <ArrowRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors" />
         </div>
@@ -39,7 +49,7 @@ export function EmploymentCard({ city }: Props) {
             <span className="text-sm font-normal text-[var(--text-tertiary)] ml-0.5">/10</span>
           </span>
           <span className={`text-xs font-bold uppercase ${JOB_LEVEL_COLOR[e.level]}`}>
-            {JOB_LEVEL_LABEL[e.level]}
+            {levelLabel[e.level]}
           </span>
         </div>
 
@@ -55,7 +65,7 @@ export function EmploymentCard({ city }: Props) {
         </div>
 
         <p className="text-[11px] text-[var(--text-tertiary)] leading-tight mt-3">
-          10 = marché du travail dynamique · INSEE · DARES · SIRENE.
+          {L("10 = marché du travail dynamique · INSEE · DARES · SIRENE.", "10 = thriving job market · INSEE · DARES · SIRENE.")}
         </p>
       </Link>
     </Card>

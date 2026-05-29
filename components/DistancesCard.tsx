@@ -10,15 +10,17 @@ import type { CitySeed } from "@/data/cities-seed";
 
 interface Props {
   city: CitySeed;
+  locale?: "fr" | "en";
 }
 
-function timeBadge(km: number): string {
+function timeBadge(km: number, locale: "fr" | "en"): string {
+  const L = (fr: string, en: string) => (locale === "en" ? en : fr);
   const mins = approxDriveTimeMin(km);
-  if (mins < 60) return `~${mins} min en voiture`;
+  if (mins < 60) return `~${mins}${L(" min en voiture", " min by car")}`;
   const h = Math.floor(mins / 60);
   const m = mins % 60;
-  if (m === 0) return `~${h} h en voiture`;
-  return `~${h} h ${m.toString().padStart(2, "0")} en voiture`;
+  if (m === 0) return `~${h}${L(" h en voiture", "h by car")}`;
+  return `~${h}${L(" h ", "h")}${m.toString().padStart(2, "0")}${L(" en voiture", " by car")}`;
 }
 
 interface Row {
@@ -29,7 +31,8 @@ interface Row {
   hint?: string;
 }
 
-export function DistancesCard({ city }: Props) {
+export function DistancesCard({ city, locale = "fr" }: Props) {
+  const L = (fr: string, en: string) => (locale === "en" ? en : fr);
   const d = computeCityDistances(city);
   if (city.latitude == null || city.longitude == null) {
     return null; // DROM or missing coords — silent
@@ -37,7 +40,7 @@ export function DistancesCard({ city }: Props) {
 
   // Special-case Paris itself
   const parisLabel =
-    d.paris != null && d.paris < 5 ? "Vous y êtes" : d.paris != null ? formatDistance(d.paris) : null;
+    d.paris != null && d.paris < 5 ? L("Vous y êtes", "You're there") : d.paris != null ? formatDistance(d.paris) : null;
   const trainToParis = parisCommute(city);
   const isParis = d.paris != null && d.paris < 5;
 
@@ -47,44 +50,44 @@ export function DistancesCard({ city }: Props) {
       label: "Paris",
       value: parisLabel,
       detail: !isParis && trainToParis.source !== "unavailable"
-        ? `Train ~${trainToParis.display}${trainToParis.source === "via-nearby-station" && trainToParis.viaStation ? ` via ${trainToParis.viaStation}` : ""}`
-        : d.paris != null && d.paris >= 5 ? "À vol d'oiseau" : undefined,
-      hint: !isParis && d.paris != null && d.paris >= 50 ? timeBadge(d.paris) : undefined,
+        ? `${L("Train ~", "Train ~")}${trainToParis.display}${trainToParis.source === "via-nearby-station" && trainToParis.viaStation ? `${L(" via ", " via ")}${trainToParis.viaStation}` : ""}`
+        : d.paris != null && d.paris >= 5 ? L("À vol d'oiseau", "As the crow flies") : undefined,
+      hint: !isParis && d.paris != null && d.paris >= 50 ? timeBadge(d.paris, locale) : undefined,
     },
     {
       icon: MapPin,
-      label: "Métropole la plus proche",
+      label: L("Métropole la plus proche", "Nearest metro area"),
       value: d.nearestMetro ? formatDistance(d.nearestMetro.distanceKm) : null,
       detail: d.nearestMetro?.label,
-      hint: d.nearestMetro && d.nearestMetro.distanceKm >= 30 ? timeBadge(d.nearestMetro.distanceKm) : undefined,
+      hint: d.nearestMetro && d.nearestMetro.distanceKm >= 30 ? timeBadge(d.nearestMetro.distanceKm, locale) : undefined,
     },
     {
       icon: Waves,
-      label: "Mer la plus proche",
+      label: L("Mer la plus proche", "Nearest coast"),
       value: d.sea ? formatDistance(d.sea.distanceKm) : null,
       detail: d.sea ? `${d.sea.label}${d.sea.meta ? ` — ${d.sea.meta}` : ""}` : undefined,
-      hint: d.sea && d.sea.distanceKm >= 30 ? timeBadge(d.sea.distanceKm) : undefined,
+      hint: d.sea && d.sea.distanceKm >= 30 ? timeBadge(d.sea.distanceKm, locale) : undefined,
     },
     {
       icon: Mountain,
-      label: "Montagne",
+      label: L("Montagne", "Mountains"),
       value: d.mountain ? formatDistance(d.mountain.distanceKm) : null,
       detail: d.mountain ? `${d.mountain.label}${d.mountain.meta ? ` — ${d.mountain.meta}` : ""}` : undefined,
-      hint: d.mountain && d.mountain.distanceKm >= 50 ? timeBadge(d.mountain.distanceKm) : undefined,
+      hint: d.mountain && d.mountain.distanceKm >= 50 ? timeBadge(d.mountain.distanceKm, locale) : undefined,
     },
     {
       icon: Plane,
-      label: "Aéroport",
+      label: L("Aéroport", "Airport"),
       value: d.airport ? formatDistance(d.airport.distanceKm) : null,
       detail: d.airport?.label,
-      hint: d.airport && d.airport.distanceKm >= 30 ? timeBadge(d.airport.distanceKm) : undefined,
+      hint: d.airport && d.airport.distanceKm >= 30 ? timeBadge(d.airport.distanceKm, locale) : undefined,
     },
     {
       icon: Snowflake,
-      label: "Station de ski",
+      label: L("Station de ski", "Ski resort"),
       value: d.ski ? formatDistance(d.ski.distanceKm) : null,
       detail: d.ski ? `${d.ski.label}${d.ski.meta ? ` — ${d.ski.meta}` : ""}` : undefined,
-      hint: d.ski && d.ski.distanceKm >= 50 ? timeBadge(d.ski.distanceKm) : undefined,
+      hint: d.ski && d.ski.distanceKm >= 50 ? timeBadge(d.ski.distanceKm, locale) : undefined,
     },
   ];
 
@@ -92,7 +95,7 @@ export function DistancesCard({ city }: Props) {
     <Card>
       <h3 className="text-sm font-semibold text-[var(--text-primary)] mb-3 flex items-center gap-2">
         <MapPin className="h-4 w-4 text-[var(--text-secondary)]" />
-        Distances clés
+        {L("Distances clés", "Key distances")}
       </h3>
       <ul className="space-y-2.5">
         {rows.map((r) => {
@@ -120,7 +123,11 @@ export function DistancesCard({ city }: Props) {
         })}
       </ul>
       <p className="mt-3 text-[10px] text-[var(--text-tertiary)] leading-tight">
-        Distances à vol d&apos;oiseau (Haversine). Temps voiture indicatif (~75 km/h).
+        {locale === "en" ? (
+          "Straight-line distances (Haversine). Drive times are rough estimates (~75 km/h)."
+        ) : (
+          <>Distances à vol d&apos;oiseau (Haversine). Temps voiture indicatif (~75 km/h).</>
+        )}
       </p>
     </Card>
   );
