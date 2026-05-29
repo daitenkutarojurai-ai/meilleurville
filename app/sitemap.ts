@@ -151,6 +151,7 @@ function staticSection(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/mes-villes`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.5 },
     { url: `${BASE_URL}/mes-alertes`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.4 },
     { url: `${BASE_URL}/city-match`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.85 },
+    { url: `${BASE_URL}/orientation-politique`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/projection-5ans`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/copilot`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE_URL}/quitter`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.75 },

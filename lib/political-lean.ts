@@ -56,3 +56,8 @@ export function leanBySlug(): Record<string, Bloc> {
   for (const k in DATA) out[k] = DATA[k].lean;
   return out;
 }
+
+// All cities with their lean — for the /orientation-politique ranking page.
+export function allPoliticalLeans(): Array<PoliticalLean & { slug: string }> {
+  return Object.entries(DATA).map(([slug, v]) => ({ slug, ...v }));
+}

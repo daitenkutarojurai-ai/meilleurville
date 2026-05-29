@@ -1,4 +1,5 @@
-import { Vote } from "lucide-react";
+import Link from "next/link";
+import { Vote, ArrowRight } from "lucide-react";
 import {
   getPoliticalLean,
   BLOC_ORDER,
@@ -88,6 +89,16 @@ export function PoliticalLean({
       </ul>
 
       <p className="mt-3 text-[10px] leading-snug text-[var(--text-tertiary)]">{t.caption}</p>
+
+      {locale === "fr" && (
+        <Link
+          href="/orientation-politique"
+          className="group mt-3 inline-flex items-center gap-1 text-xs font-semibold text-[var(--accent)] hover:underline"
+        >
+          Classement des villes par orientation
+          <ArrowRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5" />
+        </Link>
+      )}
     </section>
   );
 }
