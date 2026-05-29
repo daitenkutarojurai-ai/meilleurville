@@ -12,7 +12,9 @@ const DROM = [
 
 // scoreHex imported from @/lib/utils — single source of truth
 
-export function DromStrip() {
+export function DromStrip({ locale = "fr" }: { locale?: "fr" | "en" } = {}) {
+  const L = (fr: string, en: string) => (locale === "en" ? en : fr);
+  const cityHref = (slug: string) => (locale === "en" ? `/cities/${slug}` : `/villes/${slug}`);
   // Group DROM cities by region from the seed
   const byRegion = DROM.map((r) => ({
     ...r,
@@ -26,13 +28,13 @@ export function DromStrip() {
     <div className="relative mt-5">
       <div className="flex items-baseline justify-between mb-2 px-1">
         <span className="text-[11px] uppercase tracking-widest text-[var(--text-tertiary)] font-semibold">
-          Outre-mer
+          {L("Outre-mer", "Overseas")}
         </span>
         <Link
           href="/regions"
           className="text-[11px] text-[var(--accent)] hover:underline font-medium"
         >
-          Toutes les régions →
+          {L("Toutes les régions →", "All regions →")}
         </Link>
       </div>
       <div className="grid grid-cols-2 sm:grid-cols-5 gap-2">
@@ -44,7 +46,7 @@ export function DromStrip() {
             <Link
               href={`/regions/${r.regionSlug}`}
               className="flex items-center gap-1.5 mb-1.5 hover:text-[var(--accent)] transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)] rounded-md"
-              aria-label={`Région ${r.name}`}
+              aria-label={`${L("Région", "Region")} ${r.name}`}
             >
               <span className="text-base leading-none">{r.emoji}</span>
               <span className="text-xs font-bold text-[var(--text-primary)] group-hover:text-[var(--accent)] truncate">{r.name}</span>
@@ -53,7 +55,7 @@ export function DromStrip() {
               {r.cities.slice(0, 4).map((c) => (
                 <Link
                   key={c.slug}
-                  href={`/villes/${c.slug}`}
+                  href={cityHref(c.slug)}
                   className="inline-flex items-center gap-1 text-[10px] text-[var(--text-secondary)] hover:text-[var(--accent)] hover:underline truncate focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)] rounded"
                   title={`${c.name} — ${c.scores.global.toFixed(1)}/10`}
                 >

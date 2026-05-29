@@ -732,7 +732,7 @@ export function FranceHeatmap({ locale = "fr" }: { locale?: "fr" | "en" } = {}) 
               ))}
             </div>
 
-            <DromStrip />
+            <DromStrip locale={locale} />
           </div>
 
           {/* Side panel */}
