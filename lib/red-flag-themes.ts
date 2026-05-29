@@ -777,6 +777,40 @@ function rankInternetPrecaire(): RedFlagRow[] {
   return rows.sort((a, b) => b.severity - a.severity).slice(0, 12);
 }
 
+// --- THEME 21 — Isolement social ---
+// Cible : villes des départements à forte part de ménages d'une personne
+// (proxy `score_solitude` de lib/owner-scores, basé sur l'Insee recensement
+// 2020) dont le « lien social » passe sous 6,5/10 — c'est-à-dire les grandes
+// métropoles et leurs couronnes denses, où l'on vit entouré sans être lié.
+// Severity = blend isolement résidentiel (poids 0,45) + anonymat lié à la
+// taille (poids 0,55) : le paradoxe du « seul au milieu de la foule » se joue
+// d'abord dans les très grandes villes, où la densité humaine ne crée par
+// elle-même aucune relation. Indicateur dédié aux néo-arrivants, étudiants et
+// expats de retour qui se posent la vraie question : « vais-je réussir à me
+// faire un cercle d'amis ici, ou rester un visage anonyme de plus ? ».
+function rankIsolementSocial(): RedFlagRow[] {
+  const rows: RedFlagRow[] = [];
+  for (const city of CITIES_SEED) {
+    const owner = computeOwnerScores(city);
+    const lien = owner.find((s) => s.key === "score_solitude")!.value;
+    if (lien >= 6.5) continue; // lien social correct — hors cible
+
+    const pop = city.population ?? 50_000;
+    // Isolement résidentiel : lien 7/10 → 0, lien 3/10 (Paris) → 10.
+    const isolationFactor = normSeverity(7 - lien, 0, 4);
+    // Anonymat : 80 000 hab. → 0, ≥ 600 000 hab. → 10.
+    const anonymityFactor = normSeverity(pop, 80_000, 600_000);
+    const severity = Math.min(10, isolationFactor * 0.45 + anonymityFactor * 0.55);
+
+    const note = pop >= 200_000
+      ? "anonymat de la grande métropole"
+      : "forte part de ménages d'une personne";
+    const reason = `Lien social ${lien.toFixed(1).replace(".", ",")}/10 · ${pop.toLocaleString("fr-FR")} hab. — ${note}`;
+    rows.push({ city, severity: Math.round(severity * 10) / 10, reason });
+  }
+  return rows.sort((a, b) => b.severity - a.severity).slice(0, 12);
+}
+
 export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-regrets-achat",
@@ -1077,6 +1111,21 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     methodology:
       "Severity = (10 − internetScore) × 1,6 + 0,6 si population < 10 000 hab. + 0,4 si remoteWork seed ≤ 4/10. Filtre : internetScore ≤ 5/10, severity ≥ 6/10. Sources sous-jacentes : ARCEP « Observatoire du marché des communications électroniques » T4 2024 (taux de locaux raccordables FTTH par région), zones peu denses non rentables ARCEP, scores seed propriétaire. Caveat : la couverture évolue trimestriellement — un raccordement neuf à 200 m du logement peut changer le ressenti sans changer le score moyen départemental.",
     rank: rankInternetPrecaire,
+  },
+  {
+    slug: "villes-isolement-social",
+    title: "Villes où l'on se sent le plus seul",
+    metaTitle: "Villes où l'on se sent le plus seul — Isolement 2026",
+    metaDescription:
+      "Classement 2026 des villes françaises où le lien social est le plus fragile : forte part de ménages d'une personne (Insee) et anonymat des grandes métropoles.",
+    emoji: "🫥",
+    intro:
+      "Sur le papier : « grande ville qui ne dort jamais », vie culturelle foisonnante, des milliers de gens à rencontrer. Dans la réalité, beaucoup de néo-arrivants vivent l'inverse — des semaines sans une vraie conversation, des voisins qu'on ne croise jamais sur le palier, une métropole pleine de monde où l'on reste pourtant un visage anonyme de plus. Le lien social ne se voit pas sur une photo de centre-ville animé.",
+    reality:
+      "On s'appuie sur le score « lien social », un proxy bâti sur la part de ménages d'une seule personne au niveau départemental (Insee, recensement 2020) : plus cette part grimpe, plus l'isolement résidentiel devient la norme. Selon ce proxy, à Paris plus de la moitié des ménages sont des personnes seules ; les Hauts-de-Seine et les cœurs de métropole (Lyon, Nice) suivent de près. On retient les villes dont le lien social passe sous 6,5/10, puis on amplifie le score par la taille : c'est le paradoxe du « seul au milieu de la foule », où la densité humaine ne crée par elle-même aucune relation. Une grande ville ne vous isole pas mécaniquement, mais elle ne fait rien non plus pour vous intégrer — tout repose sur votre énergie sociale.",
+    methodology:
+      "Severity = 0,45 × isolement résidentiel (écart au score lien social, borné à lien 3/10) + 0,55 × anonymat lié à la taille (population, plafonnée à 600 000 hab.), clampé à 10/10. Filtre : lien social < 6,5/10, top 12. Proxy v0 : part de ménages d'une personne par département (Insee, recensement 2020), bonus petites communes. À enrichir avec la part de +75 ans isolés, le taux d'adhésion associative (Insee/DJEPVA) et la mobilité résidentielle entrante. Caveat : se sentir seul reste une expérience individuelle — ce classement mesure un terrain de probabilité, pas une fatalité.",
+    rank: rankIsolementSocial,
   },
 ];
 
