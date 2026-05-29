@@ -1,0 +1,47 @@
+# EN deploy (bestcitiesinfrance.com). Same Worker code + same out/ as FR, but
+# built with NEXT_PUBLIC_DEFAULT_LOCALE=en. Deploy flow:
+#   NEXT_PUBLIC_DEFAULT_LOCALE=en npm run build
+#   npx wrangler deploy --config wrangler.en.toml
+#   (then rebuild FR before the next FR deploy — out/ is shared)
+# Secrets are per-Worker: set BREVO_API_KEY + ANTHROPIC_API_KEY on meilleurville-en
+# (`wrangler secret put <NAME> --config wrangler.en.toml`). Static/SEO works without.
+name = "meilleurville-en"
+main = "worker/index.ts"
+compatibility_date = "2026-04-01"
+compatibility_flags = ["nodejs_compat"]
+
+# EN canonical host is the apex (www -> apex 301 handled in worker/index.ts).
+# Both routed so the Worker can redirect www and serve the apex.
+routes = [
+  { pattern = "bestcitiesinfrance.com/*", zone_name = "bestcitiesinfrance.com" },
+  { pattern = "www.bestcitiesinfrance.com/*", zone_name = "bestcitiesinfrance.com" },
+]
+
+[assets]
+binding = "ASSETS"
+directory = "out"
+# Same rationale as FR: Worker runs ahead of asset serving for HTML navigations
+# (host canonicalization + EN clean-URL mapping), /_next/* stays edge-served.
+run_worker_first = ["/*", "!/_next/*"]
+
+[vars]
+NEXT_PUBLIC_DEFAULT_LOCALE = "en"
+NEXT_PUBLIC_BASE_URL = "https://bestcitiesinfrance.com"
+BREVO_LIST_ID_FR = "4"
+BREVO_LIST_ID_EN = "5"
+AI_DAILY_BUDGET = "1500"
+
+# Shares the FR D1 (FR/EN page slugs differ — no key collision).
+[[d1_databases]]
+binding = "DB"
+database_name = "meilleurville"
+database_id = "73295459-dde2-4bbf-9aef-500ddadd581e"
+
+# Crons intentionally OMITTED for launch — the EN newsletter/alertes crons stay
+# off until the EN Brevo flow is verified, so they can't fire unexpected sends.
+
+[observability]
+enabled = true
+
+[limits]
+cpu_ms = 5000

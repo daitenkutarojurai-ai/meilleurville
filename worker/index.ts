@@ -368,21 +368,32 @@ export default {
       }
 
       if (path.startsWith("/api/")) return json({ error: "Not found" }, { status: 404 });
+
+      const serve404 = async () => {
+        const nf = await env.ASSETS.fetch(new Request(new URL("/404.html", url)));
+        return new Response(nf.body, { status: 404, headers: nf.headers });
+      };
+
       // run_worker_first routes non-/_next/* requests through the Worker before
       // assets are served, so serve the matching static asset here.
       // On the EN domain, clean URLs (/cities/lyon) map to the /en/* asset tree
-      // (replaces the proxy.ts rewrite); root files (robots, sitemap, feed,
-      // favicons) live at the root, so fall through to the unprefixed path.
+      // (replaces proxy.ts). The EN export also contains the FR page tree at
+      // root — serve English only: fall through to a root path solely for static
+      // infra files (extension or opengraph-image), never the extensionless FR
+      // page routes (/villes/*, /classements/*, ...).
       if (locale === "en" && path !== "/en" && !path.startsWith("/en/")) {
         const enUrl = new URL(url);
         enUrl.pathname = `/en${path === "/" ? "" : path}`;
         const enAsset = await env.ASSETS.fetch(new Request(enUrl, request));
         if (enAsset.status !== 404) return enAsset;
+        const isInfraFile =
+          /\.[a-z0-9]+$/i.test(path) || path === "/opengraph-image" || path.endsWith("/opengraph-image");
+        if (!isInfraFile) return serve404();
       }
+
       const asset = await env.ASSETS.fetch(request);
       if (asset.status !== 404) return asset;
-      const notFound = await env.ASSETS.fetch(new Request(new URL("/404.html", url)));
-      return new Response(notFound.body, { status: 404, headers: notFound.headers });
+      return serve404();
     } catch (err) {
       return json({ error: "Erreur interne", detail: err instanceof Error ? err.message : String(err) }, { status: 500 });
     }
