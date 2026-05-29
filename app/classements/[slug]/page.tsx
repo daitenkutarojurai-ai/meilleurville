@@ -12,6 +12,7 @@ import { CheckCircle, Info } from "lucide-react";
 import { HOUSING } from "@/data/housing";
 import { GUIDES } from "@/data/guides";
 import { scoreColor } from "@/lib/utils";
+import { hreflangLanguages } from "@/lib/i18n";
 
 // ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
 // revalidate=false → page built once at deploy, served from static edge cache.
@@ -31,7 +32,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: meta.headline,
     description: meta.description,
-    alternates: { canonical: `/classements/${slug}` },
+    alternates: { canonical: `/classements/${slug}`, languages: hreflangLanguages(`/classements/${slug}`) },
     openGraph: { title: meta.headline, description: meta.description },
     twitter: { card: "summary_large_image" },
   };

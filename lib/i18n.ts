@@ -80,6 +80,33 @@ export const ORIGIN_BY_LOCALE: Record<Locale, string> = {
   en: process.env.NEXT_PUBLIC_BASE_URL_EN ?? "https://bestcitiesinfrance.com",
 };
 
+// FR families whose EN counterpart shares the exact same slug (only the head
+// segment differs). Guides are deliberately excluded — EN guides are native
+// content with their own slugs, so there is no 1:1 hreflang pair.
+const FR_TO_EN_SEGMENT: Record<string, string> = {
+  villes: "cities",
+  classements: "rankings",
+  regions: "regions",
+  departements: "departments",
+  comparer: "compare",
+  quiz: "quiz",
+};
+
+// hreflang `alternates.languages` map for a FR route path, when an exact EN
+// equivalent exists. Returns undefined for FR-only families so the page simply
+// omits hreflang rather than advertising a non-existent EN URL.
+export function hreflangLanguages(frPath: string): Record<string, string> | undefined {
+  const segs = frPath.replace(/^\//, "").split("/");
+  const enHead = FR_TO_EN_SEGMENT[segs[0]];
+  if (!enHead) return undefined;
+  const enPath = "/" + [enHead, ...segs.slice(1)].join("/");
+  return {
+    "fr-FR": `${ORIGIN_BY_LOCALE.fr}${frPath}`,
+    "en-US": `${ORIGIN_BY_LOCALE.en}${enPath}`,
+    "x-default": `${ORIGIN_BY_LOCALE.fr}${frPath}`,
+  };
+}
+
 // Map a FR route path to its EN equivalent (for hreflang cross-link).
 // Returns null if the path has no English counterpart.
 export function frToEnPath(frPath: string): string | null {

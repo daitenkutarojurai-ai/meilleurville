@@ -8,6 +8,7 @@ import { CityCard } from "@/components/CityCard";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { GUIDES } from "@/data/guides";
 import type { City } from "@/lib/types";
+import { hreflangLanguages } from "@/lib/i18n";
 
 // ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
 // revalidate=false → page built once at deploy, served from static edge cache.
@@ -91,7 +92,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Meilleures villes ${region} 2026 · Qualité de vie & Classements`,
     description: `Découvrez les ${cities.length} meilleures villes de ${region} : scores de qualité de vie, avis d'habitants, comparaisons. N°1 : ${topCity?.name} (${topCity?.scores.global}/10).`,
-    alternates: { canonical: `/regions/${regionSlug}` },
+    alternates: { canonical: `/regions/${regionSlug}`, languages: hreflangLanguages(`/regions/${regionSlug}`) },
     openGraph: {
       title: `Villes de ${region} · MaVilleIdeal`,
       description: `${cities.length} villes analysées · Top : ${topCity?.name} ${topCity?.scores.global}/10`,
