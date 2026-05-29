@@ -49,3 +49,7 @@ yarn-error.log*
 next-env.d.ts
 .claude/
 n8n/.env.n8n
+
+# Generated social-media artifacts (not versioned)
+scripts/slides/
+scripts/instagram-queue.json
