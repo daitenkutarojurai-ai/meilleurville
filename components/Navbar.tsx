@@ -3,8 +3,8 @@ import Link from "next/link";
 import { useState, useEffect, useRef } from "react";
 import { usePathname } from "next/navigation";
 import {
-  Menu, X, Sparkles, Search,
-  Globe2, BarChart3, Scale,
+  Menu, X, Search,
+  Globe2, BarChart3, Scale, Heart,
 } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import { Button } from "@/components/ui/Button";
@@ -30,10 +30,11 @@ interface MenuGroup {
 
 // Desktop top bar — 4 compact pills, short labels to save space
 const NAV_PRIMARY_FR: NavItem[] = [
-  { label: "Villes",    href: "/villes",      emoji: "🌍", matchPrefix: "/villes" },
-  { label: "Top",       href: "/classements", emoji: "📊", matchPrefix: "/classements" },
-  { label: "VS",        href: "/comparer",    emoji: "⚖️", matchPrefix: "/comparer" },
-  { label: "Red Flags", href: "/red-flags",   emoji: "🚩", matchPrefix: "/red-flags" },
+  { label: "Villes",     href: "/villes",                emoji: "🌍", matchPrefix: "/villes" },
+  { label: "Top",        href: "/classements",           emoji: "📊", matchPrefix: "/classements" },
+  { label: "VS",         href: "/comparer",              emoji: "⚖️", matchPrefix: "/comparer" },
+  { label: "Politique",  href: "/orientation-politique", emoji: "🗳️", matchPrefix: "/orientation-politique" },
+  { label: "Red Flags",  href: "/red-flags",             emoji: "🚩", matchPrefix: "/red-flags" },
 ];
 const NAV_PRIMARY_EN: NavItem[] = [
   { label: "Cities",  href: "/cities",   emoji: "🌍", matchPrefix: "/cities" },
@@ -58,12 +59,13 @@ const MENU_GROUPS_FR: MenuGroup[] = [
   {
     title: "Outils",
     items: [
-      { label: "City Match",      href: "/city-match",  emoji: "💘" },
-      { label: "City Match",         href: "/city-match",        emoji: "✨" },
-      { label: "Comparer villes", href: "/comparer",    emoji: "⚖️" },
-      { label: "Classements",     href: "/classements", emoji: "📊" },
-      { label: "Synthèse",        href: "/synthese",    emoji: "📋" },
-      { label: "Red Flag Radar",  href: "/red-flags",   emoji: "🚩" },
+      { label: "City Match",            href: "/city-match",             emoji: "💘" },
+      { label: "Classement sur-mesure", href: "/palmares/personnaliser", emoji: "🎚️" },
+      { label: "Orientation politique", href: "/orientation-politique",  emoji: "🗳️" },
+      { label: "Comparer villes",       href: "/comparer",               emoji: "⚖️" },
+      { label: "Classements",           href: "/classements",            emoji: "📊" },
+      { label: "Synthèse",              href: "/synthese",               emoji: "📋" },
+      { label: "Red Flag Radar",        href: "/red-flags",              emoji: "🚩" },
     ],
   },
   {
@@ -139,8 +141,9 @@ const NAV_ALL_FR: NavItem[] = [
   { label: "Classements",       href: "/classements",   emoji: "📊", matchPrefix: "/classements" },
   { label: "Leaderboard",       href: "/leaderboard",   emoji: "🏆", matchPrefix: "/leaderboard" },
   { label: "Comparer",          href: "/comparer",      emoji: "⚖️", matchPrefix: "/comparer" },
-  { label: "City Match",        href: "/city-match",    emoji: "💘", matchPrefix: "/city-match" },
-  { label: "City Match",           href: "/city-match",          emoji: "✨", matchPrefix: "/city-match" },
+  { label: "City Match",            href: "/city-match",             emoji: "💘", matchPrefix: "/city-match" },
+  { label: "Classement sur-mesure", href: "/palmares/personnaliser", emoji: "🎚️", matchPrefix: "/palmares" },
+  { label: "Orientation politique", href: "/orientation-politique",  emoji: "🗳️", matchPrefix: "/orientation-politique" },
   { label: "Red Flag Radar",    href: "/red-flags",     emoji: "🚩", matchPrefix: "/red-flags" },
   { label: "Synthèse",          href: "/synthese",      emoji: "📋", matchPrefix: "/synthese" },
   { label: "Guides",            href: "/guides",        emoji: "📖", matchPrefix: "/guides" },
@@ -180,13 +183,13 @@ interface BottomTab {
 const BOTTOM_TABS_FR: BottomTab[] = [
   { label: "Villes",  href: "/villes",      icon: Globe2,    matchPrefix: "/villes" },
   { label: "Top",     href: "/classements", icon: BarChart3, matchPrefix: "/classements" },
-  { label: "City Match",    href: "/city-match",        icon: Sparkles,  matchPrefix: "/city-match" },
+  { label: "City Match",    href: "/city-match",        icon: Heart,  matchPrefix: "/city-match" },
   { label: "VS",      href: "/comparer",    icon: Scale,     matchPrefix: "/comparer" },
 ];
 const BOTTOM_TABS_EN: BottomTab[] = [
   { label: "Cities",   href: "/cities",   icon: Globe2,    matchPrefix: "/cities" },
   { label: "Rankings", href: "/rankings", icon: BarChart3, matchPrefix: "/rankings" },
-  { label: "City Match",     href: "/city-match",     icon: Sparkles,  matchPrefix: "/city-match" },
+  { label: "City Match",     href: "/city-match",     icon: Heart,  matchPrefix: "/city-match" },
   { label: "Compare",  href: "/compare",  icon: Scale,     matchPrefix: "/compare" },
 ];
 
@@ -356,8 +359,8 @@ export function Navbar() {
             <SearchTrigger variant="desktop" />
             <AccountButton />
             <Link href="/city-match">
-              <Button size="md" className="gap-1.5 rounded-full px-3 lg:px-4">
-                <Sparkles className="h-4 w-4" />
+              <Button size="md" className="gap-1.5 rounded-full px-3 lg:px-4 border-0 bg-gradient-to-r from-rose-500 to-fuchsia-500 text-white shadow-md shadow-rose-500/30 hover:from-rose-600 hover:to-fuchsia-600">
+                <Heart className="h-4 w-4 fill-current" />
                 <span>City Match</span>
               </Button>
             </Link>
@@ -428,12 +431,12 @@ export function Navbar() {
             <div className="mx-auto max-w-7xl px-4 sm:px-6 py-3 flex items-center justify-between">
               <p className="text-xs text-[var(--text-tertiary)]">
                 {IS_EN
-                  ? "Not sure where to start? Try the quiz."
-                  : "Pas sûr(e) par où commencer ? Essayez le quiz."}
+                  ? "Not sure where to start? Try City Match."
+                  : "Pas sûr(e) par où commencer ? Essayez City Match."}
               </p>
               <Link href="/city-match" onClick={() => setMenuOpen(false)}>
-                <Button size="sm" className="gap-1.5 rounded-full">
-                  <Sparkles className="h-3.5 w-3.5" />
+                <Button size="sm" className="gap-1.5 rounded-full border-0 bg-gradient-to-r from-rose-500 to-fuchsia-500 text-white shadow-md shadow-rose-500/30 hover:from-rose-600 hover:to-fuchsia-600">
+                  <Heart className="h-3.5 w-3.5 fill-current" />
                   {IS_EN ? "Find my city" : "Trouver ma ville"}
                 </Button>
               </Link>
@@ -537,8 +540,8 @@ export function Navbar() {
           </div>
           <div className="pt-3 border-t border-[var(--border)]">
             <Link href="/city-match" onClick={() => setOpen(false)}>
-              <Button size="md" className="w-full gap-2 rounded-full">
-                <Sparkles className="h-4 w-4" />
+              <Button size="md" className="w-full gap-2 rounded-full border-0 bg-gradient-to-r from-rose-500 to-fuchsia-500 text-white shadow-md shadow-rose-500/30 hover:from-rose-600 hover:to-fuchsia-600">
+                <Heart className="h-4 w-4 fill-current" />
                 {IS_EN ? "City Match — Find my city" : "City Match — Trouvez ma ville"}
               </Button>
             </Link>

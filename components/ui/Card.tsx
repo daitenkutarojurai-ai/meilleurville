@@ -11,13 +11,13 @@ export function Card({ className, children, hover = false, glow = false }: CardP
   return (
     <div
       className={cn(
-        // Premium relief: layered soft shadow lifts the box off the canvas, a
-        // hairline top highlight (inset) reads as a subtle emboss, and the
-        // border is the crisp "outline". Hover deepens the shadow slightly.
-        "rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-6",
-        "shadow-[0_1px_2px_rgba(15,23,42,0.04),0_10px_24px_-14px_rgba(15,23,42,0.12)]",
-        "ring-1 ring-inset ring-white/50 transition-shadow duration-200",
-        "hover:shadow-[0_2px_4px_rgba(15,23,42,0.05),0_16px_36px_-18px_rgba(15,23,42,0.18)]",
+        // Premium relief: a subtle top→bottom sheen, a defined hairline ring
+        // outline beyond the border, and a 3-layer drop shadow that clearly
+        // lifts the box off the canvas. Hover deepens the shadow.
+        "rounded-2xl border border-[var(--border)] bg-gradient-to-b from-[var(--bg-surface)] to-[var(--bg-elevated)]/40 p-6",
+        "shadow-[0_1px_2px_rgba(15,23,42,0.05),0_8px_18px_-8px_rgba(15,23,42,0.12),0_22px_46px_-24px_rgba(15,23,42,0.16)]",
+        "ring-1 ring-black/[0.04] transition-shadow duration-200",
+        "hover:shadow-[0_2px_5px_rgba(15,23,42,0.07),0_30px_58px_-28px_rgba(15,23,42,0.24)]",
         hover && "card-hover cursor-pointer",
         glow && "shadow-lg shadow-[var(--accent)]/5",
         className
