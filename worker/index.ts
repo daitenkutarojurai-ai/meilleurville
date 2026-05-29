@@ -301,13 +301,31 @@ function handleCitiesSearch(url: URL): Response {
 export default {
   async fetch(request: Request, env: Env): Promise<Response> {
     const url = new URL(request.url);
+    const locale = (env.NEXT_PUBLIC_DEFAULT_LOCALE as string) ?? "fr";
 
-    // Host canonicalization: apex -> www (301). _redirects can't match on host,
-    // so this lives here. run_worker_first (wrangler.toml, scoped to exclude
-    // /_next/*) puts the Worker ahead of asset serving for HTML navigations, so
-    // this fires even for paths that exist as static files.
-    if (url.hostname === "mavilleideale.fr") {
-      return Response.redirect(`https://www.mavilleideale.fr${url.pathname}${url.search}`, 301);
+    // Host canonicalization + locale isolation. _redirects can't match on host,
+    // and static export can't rewrite, so the (deleted) proxy.ts logic lives
+    // here. run_worker_first (wrangler.toml, scoped to exclude /_next/*) puts the
+    // Worker ahead of asset serving, so this fires even for paths that exist as
+    // static files. The export bakes BOTH page trees into out/ (FR at root, EN
+    // under /en/*); each domain serves only its own locale.
+    if (locale === "en") {
+      // EN (bestcitiesinfrance.com): canonical host is the apex.
+      if (url.hostname === "www.bestcitiesinfrance.com") {
+        return Response.redirect(`https://bestcitiesinfrance.com${url.pathname}${url.search}`, 301);
+      }
+    } else {
+      // FR (mavilleideale.fr): canonical host is www.
+      if (url.hostname === "mavilleideale.fr") {
+        return Response.redirect(`https://www.mavilleideale.fr${url.pathname}${url.search}`, 301);
+      }
+      // English pages live EXCLUSIVELY on bestcitiesinfrance.com. The FR export
+      // still contains the /en/* tree — never serve it on the FR domain.
+      const p = url.pathname.replace(/\/+$/, "");
+      if (p === "/en" || p.startsWith("/en/")) {
+        const nf = await env.ASSETS.fetch(new Request(new URL("/404.html", url)));
+        return new Response(nf.body, { status: 404, headers: nf.headers });
+      }
     }
 
     exposeEnv(env);
@@ -351,8 +369,16 @@ export default {
 
       if (path.startsWith("/api/")) return json({ error: "Not found" }, { status: 404 });
       // run_worker_first routes non-/_next/* requests through the Worker before
-      // assets are served, so serve the matching static asset; fall back to the
-      // static 404 page when nothing matches.
+      // assets are served, so serve the matching static asset here.
+      // On the EN domain, clean URLs (/cities/lyon) map to the /en/* asset tree
+      // (replaces the proxy.ts rewrite); root files (robots, sitemap, feed,
+      // favicons) live at the root, so fall through to the unprefixed path.
+      if (locale === "en" && path !== "/en" && !path.startsWith("/en/")) {
+        const enUrl = new URL(url);
+        enUrl.pathname = `/en${path === "/" ? "" : path}`;
+        const enAsset = await env.ASSETS.fetch(new Request(enUrl, request));
+        if (enAsset.status !== 404) return enAsset;
+      }
       const asset = await env.ASSETS.fetch(request);
       if (asset.status !== 404) return asset;
       const notFound = await env.ASSETS.fetch(new Request(new URL("/404.html", url)));
