@@ -171,7 +171,7 @@ export default function BestValueCitiesPage() {
               housing affordability ranking
             </Link>{" "}
             ·{" "}
-            <Link href="/quiz" className="underline text-[var(--accent)]">
+            <Link href="/city-match" className="underline text-[var(--accent)]">
               personalised city quiz
             </Link>
             .

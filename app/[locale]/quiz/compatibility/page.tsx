@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 
 const breadcrumb = breadcrumbJsonLd([
   { name: "Home", path: "/" },
-  { name: "Quiz", path: "/quiz" },
+  { name: "Quiz", path: "/city-match" },
   { name: "City compatibility", path: "/quiz/compatibility" },
 ]);
 
@@ -57,7 +57,7 @@ export default function EnQuizCompatibilityPage() {
       <div className="mx-auto max-w-3xl px-4 sm:px-6 pb-16 text-center text-xs text-[var(--text-tertiary)]">
         <p>
           Different from the{" "}
-          <Link href="/quiz" className="underline">
+          <Link href="/city-match" className="underline">
             qualitative quiz
           </Link>
           : here the score is a percentage and every criterion shows its numeric contribution.

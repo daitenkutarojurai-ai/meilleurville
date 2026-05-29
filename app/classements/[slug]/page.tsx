@@ -376,7 +376,7 @@ export default async function RankingPage({ params }: Props) {
               Vous souhaitez une analyse personnalisée ?
             </p>
             <Link
-              href="/quiz"
+              href="/city-match"
               className={`inline-flex items-center gap-1.5 text-sm font-semibold ${meta.color} hover:underline`}
             >
               Lancer le quiz IA →

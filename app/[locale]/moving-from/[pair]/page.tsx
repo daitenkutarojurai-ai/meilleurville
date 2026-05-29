@@ -277,7 +277,7 @@ export default async function MovingFromPairPage({ params }: Props) {
 
           <div className="mt-4 text-xs text-[var(--text-tertiary)]">
             Every household weighs these factors differently.{" "}
-            <Link href="/quiz" className="underline">Take the lifestyle quiz</Link> to refine the picture.
+            <Link href="/city-match" className="underline">Take the lifestyle quiz</Link> to refine the picture.
           </div>
         </Card>
 

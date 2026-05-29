@@ -348,7 +348,7 @@ export default async function ForWhoPage({ params }: Props) {
 
         <p className="text-xs text-[var(--text-tertiary)] text-center">
           For a personalised match combining all criteria, take the{" "}
-          <Link href="/quiz" className="underline">
+          <Link href="/city-match" className="underline">
             compatibility quiz
           </Link>
           .

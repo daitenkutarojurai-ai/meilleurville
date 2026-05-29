@@ -72,7 +72,7 @@ export default function SommairePage() {
               { href: "/comparer", label: "Comparateur" },
               { href: "/carte", label: "Carte interactive" },
               { href: "/leaderboard", label: "Top 100 villes" },
-              { href: "/quiz", label: "Quiz IA" },
+              { href: "/city-match", label: "City Match" },
               { href: "/red-flags", label: "Red Flag Radar" },
               { href: "/guides", label: "Tous les guides" },
               { href: "/tags", label: "Tous les tags" },

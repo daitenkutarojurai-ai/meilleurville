@@ -437,7 +437,7 @@ export default async function ComparerRegionsPage({ params }: Props) {
                 Toutes les villes de {b}
               </Badge>
             </Link>
-            <Link href="/quiz">
+            <Link href="/city-match">
               <Badge variant="accent" className="px-4 py-2 text-sm cursor-pointer hover:opacity-90">
                 ✨ Quiz de matching
               </Badge>

@@ -656,7 +656,7 @@ export function CarteClient() {
               Classements thématiques →
             </Link>
             <Link
-              href="/quiz"
+              href="/city-match"
               className="rounded-xl border border-[var(--accent)]/30 bg-[var(--accent)]/10 px-4 py-2.5 text-sm text-center text-[var(--accent)] hover:bg-[var(--accent)]/20 transition-colors font-semibold"
             >
               ✨ Quiz : trouver ma ville →

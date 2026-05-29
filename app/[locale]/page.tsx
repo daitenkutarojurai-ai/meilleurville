@@ -30,7 +30,7 @@ export const metadata: Metadata = {
 const TOOLS = [
   { href: "/city-match", emoji: "🌸", title: "City Match", desc: "8 questions, your top 3 cities — live as you answer" },
   { href: "/compare", emoji: "⚖️", title: "Compare cities", desc: "Side-by-side scoring on 8 axes" },
-  { href: "/quiz", emoji: "🎯", title: "Lifestyle quiz", desc: "Map your priorities to the right city profile" },
+  { href: "/city-match", emoji: "🎯", title: "Lifestyle quiz", desc: "Map your priorities to the right city profile" },
   { href: "/future-you", emoji: "🔮", title: "Future You", desc: "Simulate your life in 3 French cities" },
   { href: "/map", emoji: "🗺️", title: "Interactive map", desc: "All 352 cities coloured by overall score" },
   { href: "/leaderboard", emoji: "🏆", title: "Full ranking", desc: `All ${CITIES_COUNT} cities ranked globally` },

@@ -233,7 +233,7 @@ export default function CalendrierPage() {
             Glossaire immobilier →
           </Link>
           <Link
-            href="/quiz"
+            href="/city-match"
             className="rounded-xl border border-[var(--accent)]/30 bg-[var(--accent)]/5 px-4 py-2.5 text-sm text-[var(--accent)] hover:bg-[var(--accent)]/10 transition-colors"
           >
             ✨ Trouver ma ville idéale →

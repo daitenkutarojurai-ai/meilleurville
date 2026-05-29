@@ -342,7 +342,7 @@ export function CompareTool() {
             <p className="text-[var(--text-secondary)] mb-3">
               Vous hésitez encore ? Notre IA peut analyser votre profil exact.
             </p>
-            <Link href="/quiz">
+            <Link href="/city-match">
               <Button className="gap-2">
                 ✨ Lancer le quiz de matching
               </Button>

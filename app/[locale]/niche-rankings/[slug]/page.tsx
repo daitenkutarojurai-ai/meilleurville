@@ -299,7 +299,7 @@ export default async function EnNicheRankingPage({ params }: Props) {
           {" "}·{" "}
           <Link href="/for-who" className="underline">rankings by profile</Link>
           {" "}·{" "}
-          <Link href="/quiz" className="underline">personalised quiz</Link>.
+          <Link href="/city-match" className="underline">personalised quiz</Link>.
         </p>
       </div>
 

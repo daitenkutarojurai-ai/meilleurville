@@ -55,7 +55,7 @@ export function FavoritesGrid() {
             Explorer les villes →
           </Link>
           <Link
-            href="/quiz"
+            href="/city-match"
             className="rounded-xl border border-[var(--accent)]/30 bg-white px-5 py-2.5 text-sm font-semibold text-[var(--accent)] hover:bg-[var(--accent-soft)] transition-colors"
           >
             ✨ Faire le quiz

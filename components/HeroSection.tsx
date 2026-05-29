@@ -271,7 +271,7 @@ export function HeroSection() {
         <FadeBlurIn delay={1.5}>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <MagneticButton strength={0.3}>
-              <Link href="/quiz">
+              <Link href="/city-match">
                 <Button size="lg" className="gap-2 text-base shadow-2xl shadow-[var(--accent)]/30 accent-pulse shine">
                   <Sparkles className="h-5 w-5" />
                   Faire le quiz (3 min)

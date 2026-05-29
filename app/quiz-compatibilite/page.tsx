@@ -49,7 +49,7 @@ export default function QuizCompatibilitePage() {
       <div className="mx-auto max-w-3xl px-4 sm:px-6 pb-16 text-center text-xs text-[var(--text-tertiary)]">
         <p>
           Distinct du{" "}
-          <Link href="/quiz" className="underline">
+          <Link href="/city-match" className="underline">
             quiz qualitatif
           </Link>{" "}
           : ici le score est un pourcentage, et chaque critère affiche sa contribution chiffrée.

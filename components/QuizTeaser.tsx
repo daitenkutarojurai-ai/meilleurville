@@ -58,7 +58,7 @@ export function QuizTeaser({ citiesCount }: { citiesCount: number }) {
 
                 <div className="flex flex-wrap items-center gap-4">
                   <MagneticButton strength={0.3}>
-                    <Link href="/quiz">
+                    <Link href="/city-match">
                       <Button size="lg" className="gap-2 shadow-2xl shadow-[var(--accent)]/30 shine accent-pulse">
                         <Sparkles className="h-5 w-5" />
                         Trouver ma ville

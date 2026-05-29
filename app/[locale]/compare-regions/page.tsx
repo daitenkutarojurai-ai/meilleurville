@@ -112,7 +112,7 @@ export default function EnCompareRegionsIndex() {
             Need something more precise than a region? Compare two cities directly with the{" "}
             <Link href="/compare" className="underline text-[var(--accent)]">city comparator</Link>
             , or let the{" "}
-            <Link href="/quiz" className="underline text-[var(--accent)]">matching quiz</Link>{" "}
+            <Link href="/city-match" className="underline text-[var(--accent)]">matching quiz</Link>{" "}
             do the sorting for you.
           </p>
         </Card>

@@ -272,7 +272,7 @@ export default async function EnCommunityProfiles() {
             </div>
             <div className="flex flex-wrap gap-3">
               <Link
-                href="/quiz"
+                href="/city-match"
                 className="inline-flex items-center gap-2 rounded-xl bg-[var(--accent)] text-white px-5 py-2.5 text-sm font-semibold hover:opacity-90 transition-opacity"
               >
                 ✨ Quiz — find my city

@@ -146,7 +146,7 @@ export function computeMatches(answers: CityMatchAnswer[]): CityMatchResult[] {
   const safety = getAnswer(answers, "safety");
   const terrain = getAnswer(answers, "terrain");
 
-  return CITIES_SEED
+  const scored = CITIES_SEED
     .filter(metroBbox)
     .map((c) => {
       const s = c.scores;
@@ -236,15 +236,25 @@ export function computeMatches(answers: CityMatchAnswer[]): CityMatchResult[] {
         if (!isCoastal(c) && !isMountain(c)) { score += 0.6; reasons.push("plaine"); }
       }
 
-      // Final 0-100 conversion
-      const percent = Math.max(0, Math.min(100, Math.round((score / 10) * 100)));
-
       return {
         city: c,
-        percent,
+        raw: score,
         topReasons: reasons.slice(0, 3),
       };
-    })
+    });
+
+  // Calibrated compatibility: the raw score is global (≤8.6) plus stacked
+  // preference bonuses, so it routinely exceeds 10 — the old `(score/10)*100`
+  // clamped every strong city to a fake 100%. Normalize relative to the best
+  // match this run, with a realistic ceiling (~94%, never a perfect 100) and
+  // honest spread downward. No city is a perfect match.
+  const maxRaw = Math.max(...scored.map((r) => r.raw));
+  return scored
+    .map((r) => ({
+      city: r.city,
+      percent: Math.max(28, Math.min(94, Math.round(94 - (maxRaw - r.raw) * 5.5))),
+      topReasons: r.topReasons,
+    }))
     .sort((a, b) => b.percent - a.percent);
 }
 

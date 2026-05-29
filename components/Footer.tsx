@@ -18,7 +18,7 @@ const LINKS_FR = {
   ],
   "Outils & Guides": [
     { label: "City Match", href: "/city-match" },
-    { label: "Trouver ma ville", href: "/quiz" },
+    { label: "Trouver ma ville", href: "/city-match" },
     { label: "Synthèse 8 axes", href: "/synthese" },
     { label: "Guides pratiques", href: "/guides" },
     { label: "Tous les outils", href: "/outils" },
@@ -49,7 +49,7 @@ const LINKS_EN = {
     { label: "For who", href: "/for-who" },
     { label: "Cheapest cities", href: "/cheapest-cities" },
     { label: "Best value", href: "/best-value-cities" },
-    { label: "Quiz", href: "/quiz" },
+    { label: "City Match", href: "/city-match" },
     { label: "Compare", href: "/compare" },
     { label: "Guides", href: "/guides" },
     { label: "Search", href: "/search" },

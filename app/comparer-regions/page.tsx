@@ -134,7 +134,7 @@ export default function ComparerRegionsIndex() {
               le comparateur de villes
             </Link>
             , ou laissez le{" "}
-            <Link href="/quiz" className="underline text-[var(--accent)]">
+            <Link href="/city-match" className="underline text-[var(--accent)]">
               quiz de matching
             </Link>{" "}
             faire le tri sur les {CITIES_COUNT} villes du site.

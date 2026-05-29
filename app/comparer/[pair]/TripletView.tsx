@@ -413,7 +413,7 @@ export function TripletView({ cities, slug }: { cities: SeedCity[]; slug: string
             Vous hésitez encore ? Notre quiz peut affiner par profil personnel.
           </p>
           <div className="flex flex-wrap gap-3 justify-center">
-            <Link href="/quiz">
+            <Link href="/city-match">
               <Badge variant="accent" className="px-4 py-2 text-sm cursor-pointer hover:opacity-90 transition-opacity">
                 ✨ Quiz de matching
               </Badge>

@@ -225,7 +225,7 @@ export function CostCalculator() {
         )}
       </p>
       <Link
-        href="/quiz"
+        href="/city-match"
         className="mt-4 flex items-center justify-center gap-2 rounded-xl border border-[var(--accent)]/30 bg-[var(--accent)]/5 text-sm text-[var(--accent)] font-medium py-2.5 hover:bg-[var(--accent)]/10 transition-colors"
       >
         Affiner avec le quiz IA complet

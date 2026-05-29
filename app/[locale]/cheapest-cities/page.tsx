@@ -193,7 +193,7 @@ export default function CheapestCitiesPage() {
               housing affordability ranking
             </Link>{" "}
             ·{" "}
-            <Link href="/quiz" className="underline text-[var(--accent)]">
+            <Link href="/city-match" className="underline text-[var(--accent)]">
               find your ideal French city
             </Link>
             .

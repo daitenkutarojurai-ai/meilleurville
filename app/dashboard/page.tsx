@@ -84,7 +84,7 @@ export default function DashboardPage() {
                 </span>
               </div>
             </div>
-            <Link href="/quiz">
+            <Link href="/city-match">
               <Button size="sm" className="gap-1.5">
                 <Sparkles className="h-3.5 w-3.5" />
                 Refaire le quiz
@@ -218,7 +218,7 @@ export default function DashboardPage() {
                 <div>• Carte interactive avec filtres</div>
                 <div>• Discussions par ville</div>
               </div>
-              <Link href="/quiz">
+              <Link href="/city-match">
                 <Button size="sm" className="w-full gap-1.5">
                   <Sparkles className="h-3.5 w-3.5" />
                   Faire le quiz

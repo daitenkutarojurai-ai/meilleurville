@@ -299,7 +299,7 @@ export default async function GuidePage({ params }: Props) {
                 Notre quiz IA analyse vos priorités et vous recommande les villes faites pour vous.
               </p>
               <Link
-                href="/quiz"
+                href="/city-match"
                 className="inline-flex items-center gap-2 rounded-xl bg-[var(--accent)] text-white font-semibold px-5 py-2.5 text-sm hover:opacity-90 transition-opacity"
               >
                 ✨ Faire le quiz
@@ -383,7 +383,7 @@ export default async function GuidePage({ params }: Props) {
                 Obtenez un PDF sur mesure avec analyse de compatibilité, budget, Red Flags et checklist déménagement.
               </p>
               <Link
-                href="/quiz"
+                href="/city-match"
                 className="block text-center text-xs font-semibold bg-[var(--accent)] text-white rounded-xl py-2 hover:bg-[var(--accent-hover)] transition-colors"
               >
                 Essai 7j gratuit →

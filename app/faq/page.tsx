@@ -203,7 +203,7 @@ export default function FaqPage() {
           <Link href="/donnees" className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors">
             Données & Sources →
           </Link>
-          <Link href="/quiz" className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors">
+          <Link href="/city-match" className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors">
             Faire le quiz →
           </Link>
         </div>

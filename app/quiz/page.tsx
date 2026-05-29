@@ -9,7 +9,7 @@ import { CITIES_COUNT } from "@/lib/site-stats";
 export const metadata: Metadata = {
   title: "Quiz · Trouvez votre ville idéale en France | MaVilleIdeal",
   description: `Quiz de matching en 3 minutes : 6 questions pour trouver la ville française parfaite pour vous. Algorithme pondéré sur ${CITIES_COUNT} villes.`,
-  alternates: { canonical: "/quiz" },
+  alternates: { canonical: "/city-match" },
   openGraph: {
     title: "Quiz de matching · Trouvez votre ville idéale",
     description: `3 minutes · 6 questions · ${CITIES_COUNT} villes analysées. Quel est votre profil géographique ?`,
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 
 const quizBreadcrumb = breadcrumbJsonLd([
   { name: "Accueil", path: "/" },
-  { name: "Quiz", path: "/quiz" },
+  { name: "Quiz", path: "/city-match" },
 ]);
 
 export default function QuizPage() {

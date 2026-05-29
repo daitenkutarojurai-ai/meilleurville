@@ -70,7 +70,7 @@ export default function ForWhoIndex() {
         <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5">
           <p className="text-sm text-[var(--text-secondary)]">
             For a personalised match combining ALL your criteria, take the{" "}
-            <Link href="/quiz" className="underline text-[var(--accent)]">
+            <Link href="/city-match" className="underline text-[var(--accent)]">
               compatibility quiz
             </Link>{" "}
             — 10 questions, top 5 cities with contribution per criterion.

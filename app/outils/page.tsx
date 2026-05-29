@@ -78,7 +78,7 @@ const TOOLS: Tool[] = [
     cta: "Lancer le timelapse",
   },
   {
-    href: "/quiz",
+    href: "/city-match",
     emoji: "🧠",
     title: "Quiz IA classique",
     desc:

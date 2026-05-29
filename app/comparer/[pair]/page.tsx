@@ -354,7 +354,7 @@ export default async function PairPage({ params }: Props) {
             Vous hésitez encore ? Notre IA peut analyser votre profil exact.
           </p>
           <div className="flex flex-wrap gap-3 justify-center">
-            <Link href="/quiz">
+            <Link href="/city-match">
               <Badge variant="accent" className="px-4 py-2 text-sm cursor-pointer hover:opacity-90 transition-opacity">
                 ✨ Quiz de matching IA
               </Badge>

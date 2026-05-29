@@ -130,7 +130,7 @@ export default function GuidesPage() {
             Notre quiz IA analyse votre profil et vous recommande les villes faites pour vous en 3 minutes.
           </p>
           <Link
-            href="/quiz"
+            href="/city-match"
             className="inline-flex items-center gap-2 rounded-xl bg-[var(--accent)] text-white font-semibold px-6 py-3 hover:opacity-90 transition-opacity"
           >
             ✨ Faire le quiz de matching

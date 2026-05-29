@@ -59,7 +59,7 @@ const MENU_GROUPS_FR: MenuGroup[] = [
     title: "Outils",
     items: [
       { label: "City Match",      href: "/city-match",  emoji: "💘" },
-      { label: "Quiz IA",         href: "/quiz",        emoji: "✨" },
+      { label: "City Match",         href: "/city-match",        emoji: "✨" },
       { label: "Comparer villes", href: "/comparer",    emoji: "⚖️" },
       { label: "Classements",     href: "/classements", emoji: "📊" },
       { label: "Synthèse",        href: "/synthese",    emoji: "📋" },
@@ -101,7 +101,7 @@ const MENU_GROUPS_EN: MenuGroup[] = [
   {
     title: "Tools",
     items: [
-      { label: "Quiz",            href: "/quiz",            emoji: "✨" },
+      { label: "City Match",            href: "/city-match",            emoji: "✨" },
       { label: "Compare",         href: "/compare",         emoji: "⚖️" },
       { label: "Rankings",        href: "/rankings",        emoji: "📊" },
       { label: "For who",         href: "/for-who",         emoji: "👥" },
@@ -140,7 +140,7 @@ const NAV_ALL_FR: NavItem[] = [
   { label: "Leaderboard",       href: "/leaderboard",   emoji: "🏆", matchPrefix: "/leaderboard" },
   { label: "Comparer",          href: "/comparer",      emoji: "⚖️", matchPrefix: "/comparer" },
   { label: "City Match",        href: "/city-match",    emoji: "💘", matchPrefix: "/city-match" },
-  { label: "Quiz IA",           href: "/quiz",          emoji: "✨", matchPrefix: "/quiz" },
+  { label: "City Match",           href: "/city-match",          emoji: "✨", matchPrefix: "/city-match" },
   { label: "Red Flag Radar",    href: "/red-flags",     emoji: "🚩", matchPrefix: "/red-flags" },
   { label: "Synthèse",          href: "/synthese",      emoji: "📋", matchPrefix: "/synthese" },
   { label: "Guides",            href: "/guides",        emoji: "📖", matchPrefix: "/guides" },
@@ -158,7 +158,7 @@ const NAV_ALL_EN: NavItem[] = [
   { label: "Map",             href: "/map",              emoji: "🗺️", matchPrefix: "/map" },
   { label: "Regions",         href: "/regions",          emoji: "📍", matchPrefix: "/regions" },
   { label: "Departments",     href: "/departments",      emoji: "🗂️", matchPrefix: "/departments" },
-  { label: "Quiz",            href: "/quiz",             emoji: "✨", matchPrefix: "/quiz" },
+  { label: "City Match",            href: "/city-match",             emoji: "✨", matchPrefix: "/city-match" },
   { label: "For who",         href: "/for-who",          emoji: "👥", matchPrefix: "/for-who" },
   { label: "Niche rankings",  href: "/niche-rankings",   emoji: "📊", matchPrefix: "/niche-rankings" },
   { label: "Red flags",       href: "/red-flags",        emoji: "🚩", matchPrefix: "/red-flags" },
@@ -180,13 +180,13 @@ interface BottomTab {
 const BOTTOM_TABS_FR: BottomTab[] = [
   { label: "Villes",  href: "/villes",      icon: Globe2,    matchPrefix: "/villes" },
   { label: "Top",     href: "/classements", icon: BarChart3, matchPrefix: "/classements" },
-  { label: "Quiz",    href: "/quiz",        icon: Sparkles,  matchPrefix: "/quiz" },
+  { label: "City Match",    href: "/city-match",        icon: Sparkles,  matchPrefix: "/city-match" },
   { label: "VS",      href: "/comparer",    icon: Scale,     matchPrefix: "/comparer" },
 ];
 const BOTTOM_TABS_EN: BottomTab[] = [
   { label: "Cities",   href: "/cities",   icon: Globe2,    matchPrefix: "/cities" },
   { label: "Rankings", href: "/rankings", icon: BarChart3, matchPrefix: "/rankings" },
-  { label: "Quiz",     href: "/quiz",     icon: Sparkles,  matchPrefix: "/quiz" },
+  { label: "City Match",     href: "/city-match",     icon: Sparkles,  matchPrefix: "/city-match" },
   { label: "Compare",  href: "/compare",  icon: Scale,     matchPrefix: "/compare" },
 ];
 
@@ -355,10 +355,10 @@ export function Navbar() {
           <div className="hidden lg:flex items-center gap-1.5 flex-shrink-0">
             <SearchTrigger variant="desktop" />
             <AccountButton />
-            <Link href="/quiz">
+            <Link href="/city-match">
               <Button size="md" className="gap-1.5 rounded-full px-3 lg:px-4">
                 <Sparkles className="h-4 w-4" />
-                <span>{IS_EN ? "Quiz" : "Quiz IA"}</span>
+                <span>City Match</span>
               </Button>
             </Link>
             {/* Burger — opens full mega-menu */}
@@ -431,7 +431,7 @@ export function Navbar() {
                   ? "Not sure where to start? Try the quiz."
                   : "Pas sûr(e) par où commencer ? Essayez le quiz."}
               </p>
-              <Link href="/quiz" onClick={() => setMenuOpen(false)}>
+              <Link href="/city-match" onClick={() => setMenuOpen(false)}>
                 <Button size="sm" className="gap-1.5 rounded-full">
                   <Sparkles className="h-3.5 w-3.5" />
                   {IS_EN ? "Find my city" : "Trouver ma ville"}
@@ -536,10 +536,10 @@ export function Navbar() {
             })}
           </div>
           <div className="pt-3 border-t border-[var(--border)]">
-            <Link href="/quiz" onClick={() => setOpen(false)}>
+            <Link href="/city-match" onClick={() => setOpen(false)}>
               <Button size="md" className="w-full gap-2 rounded-full">
                 <Sparkles className="h-4 w-4" />
-                {IS_EN ? "AI Quiz — Find my city" : "Quiz IA — Trouvez ma ville"}
+                {IS_EN ? "City Match — Find my city" : "City Match — Trouvez ma ville"}
               </Button>
             </Link>
           </div>

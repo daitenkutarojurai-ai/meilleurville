@@ -257,7 +257,7 @@ export default async function QuartiersPage({ params }: Props) {
                 densité médicale, criminalité par type d&apos;acte.
               </p>
               <Link
-                href="/quiz"
+                href="/city-match"
                 className="inline-flex items-center gap-2 rounded-xl bg-[var(--accent)] text-white font-semibold px-6 py-3 text-sm hover:opacity-90 transition-opacity"
               >
                 ✨ Passer Pro — 9,90€/mois

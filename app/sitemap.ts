@@ -101,7 +101,6 @@ function slugify(s: string): string {
 function staticSection(): MetadataRoute.Sitemap {
   return [
     { url: BASE_URL, lastModified: STATIC_UPDATED, changeFrequency: "daily", priority: 1.0 },
-    { url: `${BASE_URL}/quiz`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.9 },
     { url: `${BASE_URL}/quiz-compatibilite`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.85 },
     { url: `${BASE_URL}/expat-retour`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/expat-retour/quiz`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
@@ -700,7 +699,6 @@ function enStaticSection(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/compare`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.75 },
     { url: `${BASE_URL}/guides`, lastModified: STATIC_UPDATED, changeFrequency: "weekly", priority: 0.8 },
     { url: `${BASE_URL}/map`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.7 },
-    { url: `${BASE_URL}/quiz`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE_URL}/about`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.5 },
     { url: `${BASE_URL}/contact`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.4 },
     { url: `${BASE_URL}/faq`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.55 },
@@ -1018,7 +1016,6 @@ function enCalculatorsSection(): MetadataRoute.Sitemap {
 
 function enQuizSection(): MetadataRoute.Sitemap {
   return [
-    { url: `${BASE_URL}/quiz`, lastModified: STATIC_UPDATED, changeFrequency: "monthly" as const, priority: 0.8 },
     { url: `${BASE_URL}/quiz/compatibility`, lastModified: STATIC_UPDATED, changeFrequency: "monthly" as const, priority: 0.8 },
   ];
 }

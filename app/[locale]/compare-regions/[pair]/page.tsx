@@ -391,7 +391,7 @@ export default async function EnCompareRegionsPair({ params }: Props) {
                 All cities in {b}
               </Badge>
             </Link>
-            <Link href="/quiz">
+            <Link href="/city-match">
               <Badge variant="accent" className="px-4 py-2 text-sm cursor-pointer hover:opacity-90">
                 ✨ Take the matching quiz
               </Badge>

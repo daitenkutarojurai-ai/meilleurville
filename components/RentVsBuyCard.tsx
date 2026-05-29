@@ -1,16 +1,28 @@
 import Link from "next/link";
 import { Home, ArrowRight } from "lucide-react";
 import { Card } from "@/components/ui/Card";
-import { buildRentVsBuy, VERDICT_META } from "@/lib/rent-vs-buy";
+import { buildRentVsBuy, VERDICT_META, type RentVsBuyVerdict } from "@/lib/rent-vs-buy";
 
 interface Props {
   citySlug: string;
 }
 
+// Plain-language headline per verdict — "Acheteur"/"Locataire" alone reads as
+// jargon; say what to actually do.
+const HEADLINE: Record<RentVsBuyVerdict, string> = {
+  "fortement-acheteur": "Acheter est nettement plus avantageux",
+  acheteur: "Acheter est plutôt avantageux",
+  equilibre: "Acheter ou louer se valent",
+  locataire: "Louer est plutôt avantageux",
+  "fortement-locataire": "Louer est nettement plus avantageux",
+};
+
 export function RentVsBuyCard({ citySlug }: Props) {
   const data = buildRentVsBuy(citySlug);
   if (!data) return null;
   const verdict = VERDICT_META[data.verdict];
+  const buyMonthly = data.monthlyMortgage + data.monthlyOwnerCharges;
+  const rentMonthly = Math.round(data.rentT3Annual / 12);
 
   return (
     <Card>
@@ -26,31 +38,34 @@ export function RentVsBuyCard({ citySlug }: Props) {
           <ArrowRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors" />
         </div>
 
-        <div className="flex items-baseline gap-3 mb-2">
-          <span className="text-3xl font-bold font-mono-data tabular-nums text-[var(--text-primary)]">
-            {data.rentToPriceRatio}
-          </span>
-          <span className="text-xs text-[var(--text-tertiary)]">années de loyer<br />pour acheter</span>
-        </div>
-
-        <span className={`inline-flex items-center rounded-full border px-2 py-0.5 text-[11px] font-semibold ${verdict.tone}`}>
-          {verdict.label}
+        {/* Plain verdict first, then the reasoning. */}
+        <span className={`inline-flex items-center rounded-full border px-2.5 py-1 text-xs font-semibold ${verdict.tone}`}>
+          {HEADLINE[data.verdict]}
         </span>
 
-        <div className="mt-3 grid grid-cols-2 gap-2 text-[11px]">
-          <div>
-            <span className="text-[var(--text-tertiary)]">Acheteur :</span>{" "}
-            <strong className="text-[var(--text-primary)] tabular-nums">
-              {(data.monthlyMortgage + data.monthlyOwnerCharges).toLocaleString("fr-FR")} €
-            </strong>
+        {/* Concrete monthly comparison — the part everyone understands. */}
+        <div className="mt-3 grid grid-cols-2 gap-2">
+          <div className="rounded-xl bg-[var(--bg-surface)] p-2.5">
+            <div className="text-[10px] uppercase tracking-wide text-[var(--text-tertiary)]">Acheter (T3)</div>
+            <div className="text-base font-bold tabular-nums text-[var(--text-primary)]">
+              {buyMonthly.toLocaleString("fr-FR")} €<span className="text-[11px] font-normal text-[var(--text-tertiary)]">/mois</span>
+            </div>
           </div>
-          <div>
-            <span className="text-[var(--text-tertiary)]">Locataire :</span>{" "}
-            <strong className="text-[var(--text-primary)] tabular-nums">
-              {Math.round(data.rentT3Annual / 12).toLocaleString("fr-FR")} €
-            </strong>
+          <div className="rounded-xl bg-[var(--bg-surface)] p-2.5">
+            <div className="text-[10px] uppercase tracking-wide text-[var(--text-tertiary)]">Louer (T3)</div>
+            <div className="text-base font-bold tabular-nums text-[var(--text-primary)]">
+              {rentMonthly.toLocaleString("fr-FR")} €<span className="text-[11px] font-normal text-[var(--text-tertiary)]">/mois</span>
+            </div>
           </div>
         </div>
+
+        {/* The ratio, now explained instead of bare. */}
+        <p className="mt-3 text-[11px] leading-snug text-[var(--text-secondary)]">
+          Acheter revient à <strong className="text-[var(--text-primary)] tabular-nums">{data.rentToPriceRatio} ans</strong> de loyer.
+          {" "}{data.rentToPriceRatio < 20
+            ? "En dessous de ~20 ans, l'achat s'amortit vite."
+            : "Au-delà de ~20 ans, louer garde l'avantage pour un séjour court."}
+        </p>
       </Link>
     </Card>
   );

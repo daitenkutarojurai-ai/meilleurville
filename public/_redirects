@@ -3,3 +3,5 @@
 # NB: _redirects only matches paths — cross-host (apex->www) redirects are NOT
 # supported here, so host canonicalization is handled in worker/index.ts.
 /a-propos /about 301
+# /quiz and /city-match were redundant matchers — city-match is the richer one.
+/quiz /city-match 301

@@ -393,7 +393,7 @@ export default function SyntheseHubPage() {
               </div>
             </Card>
           </Link>
-          <Link href="/quiz" className="block">
+          <Link href="/city-match" className="block">
             <Card className="hover:shadow-md transition-shadow h-full">
               <div className="text-sm font-semibold text-[var(--text-primary)]">
                 Trouver ma ville (quiz)
