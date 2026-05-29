@@ -32,6 +32,10 @@ NEXT_PUBLIC_DEFAULT_LOCALE = "fr"
 NEXT_PUBLIC_BASE_URL = "https://www.mavilleideale.fr"
 BREVO_LIST_ID_FR = "4"
 BREVO_LIST_ID_EN = "5"
+# Global daily cap on Claude API calls (cost backstop, enforced in lib/ai-budget.ts).
+# Over budget → the AI endpoints serve their non-AI fallback. Tune without a deploy
+# via `wrangler secret`/dashboard, or here. This bounds worst-case Anthropic spend.
+AI_DAILY_BUDGET = "1500"
 
 # D1 database for runtime user data (comments, contact, alertes, newsletter).
 # Primary location WEUR (Paris CDG). Schema in schema.sql.
@@ -50,3 +54,9 @@ crons = ["0 7 * * SUN", "0 8 * * MON"]
 
 [observability]
 enabled = true
+
+# Cap CPU time per request (default is 30s). This worker does light JSON/D1 work
+# and awaits external APIs (I/O wait isn't billed as CPU), so 5s is a safe ceiling
+# that bounds any runaway invocation without affecting legitimate requests.
+[limits]
+cpu_ms = 5000

@@ -10,6 +10,7 @@ import { getHousing } from "@/data/housing";
 import { fiscalityForCity } from "@/lib/fiscalite";
 import { getNeighborhoods } from "@/data/neighborhoods";
 import { scoreHex } from "@/lib/utils";
+import { reserveAiBudget } from "@/lib/ai-budget";
 import type { QuizAnswers, MatchResult, City } from "@/lib/types";
 
 type Env = { ANTHROPIC_API_KEY?: string; [k: string]: unknown };
@@ -191,6 +192,11 @@ export async function handleCopilot(request: Request, env: Env): Promise<Respons
   if (!env.ANTHROPIC_API_KEY) {
     return json({ reply: "Le copilote IA n'est pas encore disponible. Il fonctionne en production avec la clé API configurée.", fallback: true });
   }
+  // Reserve the worst-case agentic-loop cost (up to 4 Claude calls) against the
+  // global daily budget; over budget → graceful message, no Anthropic spend.
+  if (!(await reserveAiBudget(4))) {
+    return json({ reply: "Le copilote a atteint sa limite quotidienne de requêtes IA. Réessayez demain.", fallback: true });
+  }
   let messages: Array<{ role: "user" | "assistant"; content: string }>;
   try {
     const body = await request.json();
@@ -279,6 +285,7 @@ export async function handleCitySummary(slug: string, env: Env): Promise<Respons
   const city = CITIES_SEED.find((c) => c.slug === slug);
   if (!city) return json({ error: "Ville introuvable" }, { status: 404 });
   if (!env.ANTHROPIC_API_KEY) return json(summaryFallback(city));
+  if (!(await reserveAiBudget(1))) return json(summaryFallback(city));
 
   const h = getHousing(city.slug);
   const cityContext = `

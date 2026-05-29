@@ -53,3 +53,11 @@ CREATE TABLE IF NOT EXISTS newsletter_subscribers (
 );
 CREATE INDEX IF NOT EXISTS idx_newsletter_email_locale
   ON newsletter_subscribers (email, locale);
+
+-- Global daily Claude/AI call budget (cost backstop — see lib/ai-budget.ts).
+-- One row per UTC day; the worker upserts and compares against AI_DAILY_BUDGET.
+-- The worker also creates this lazily, so applying it here is optional but tidy.
+CREATE TABLE IF NOT EXISTS ai_budget (
+  day   TEXT PRIMARY KEY,
+  count INTEGER NOT NULL DEFAULT 0
+);
