@@ -10,7 +10,7 @@ import type { LucideIcon } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { cn } from "@/lib/utils";
 import { AccountButton } from "@/components/effects/AccountButton";
-import { SearchPalette } from "@/components/SearchPalette";
+import { SearchPaletteLauncher } from "@/components/SearchPaletteLauncher";
 import { BrandMark } from "@/components/BrandMark";
 import { DEFAULT_LOCALE } from "@/lib/i18n";
 
@@ -293,7 +293,7 @@ export function Navbar() {
 
   return (
     <>
-      <SearchPalette />
+      <SearchPaletteLauncher />
 
       {/* ── Top bar ──────────────────────────────────────────────── */}
       <nav

@@ -120,6 +120,7 @@ export function AlerteForm({ citySlug, cityName, locale = "fr" }: Props) {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             placeholder={c.emailPlaceholder}
+            aria-label={c.emailPlaceholder}
             className="w-full rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] px-3 py-2 text-sm text-[var(--text-primary)] placeholder:text-[var(--text-tertiary)] focus:outline-none focus:ring-2 focus:ring-[var(--accent)]/40"
           />
 

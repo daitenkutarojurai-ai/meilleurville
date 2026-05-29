@@ -163,63 +163,41 @@ function KindIcon({ kind }: { kind: Entry["kind"] }) {
   return <Trophy className="h-3 w-3" aria-hidden />;
 }
 
-export function SearchPalette() {
-  const [open, setOpen] = useState(false);
+export function SearchPalette({
+  open,
+  onOpenChange,
+}: {
+  open: boolean;
+  onOpenChange: (open: boolean) => void;
+}) {
   const [query, setQuery] = useState("");
   const [highlight, setHighlight] = useState(0);
   const router = useRouter();
   const inputRef = useRef<HTMLInputElement | null>(null);
 
-  // Global keyboard shortcut
-  useEffect(() => {
-    function onKey(e: KeyboardEvent) {
-      const target = e.target as HTMLElement | null;
-      const inField =
-        target &&
-        (target.tagName === "INPUT" ||
-          target.tagName === "TEXTAREA" ||
-          target.isContentEditable);
-      const isCmdK = (e.metaKey || e.ctrlKey) && e.key.toLowerCase() === "k";
-      const isSlash = e.key === "/" && !inField && !open;
-      if (isCmdK || isSlash) {
-        e.preventDefault();
-        // Reset state when opening so the previous query doesn't linger;
-        // doing it here (in a handler) instead of an effect avoids the
-        // react-hooks/set-state-in-effect cascade warning.
-        setOpen((v) => {
-          const next = !v;
-          if (next) {
-            setQuery("");
-            setHighlight(0);
-          }
-          return next;
-        });
-      } else if (e.key === "Escape" && open) {
-        setOpen(false);
-      }
-    }
-    function onOpenEvent() {
-      setOpen((v) => {
-        if (v) return v;
-        setQuery("");
-        setHighlight(0);
-        return true;
-      });
-    }
-    window.addEventListener("keydown", onKey);
-    window.addEventListener("meilleurville:open-search", onOpenEvent);
-    return () => {
-      window.removeEventListener("keydown", onKey);
-      window.removeEventListener("meilleurville:open-search", onOpenEvent);
-    };
-  }, [open]);
+  function close() {
+    setQuery("");
+    setHighlight(0);
+    onOpenChange(false);
+  }
 
+  // Focus the input on open and lock body scroll while the palette is open.
   useEffect(() => {
     if (open) inputRef.current?.focus();
     document.body.style.overflow = open ? "hidden" : "";
     return () => {
       document.body.style.overflow = "";
     };
+  }, [open]);
+
+  // Escape closes the palette.
+  useEffect(() => {
+    if (!open) return;
+    function onKey(e: KeyboardEvent) {
+      if (e.key === "Escape") close();
+    }
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
   }, [open]);
 
   const results = useMemo<Entry[]>(() => {
@@ -250,7 +228,7 @@ export function SearchPalette() {
   const safeHighlight = highlight >= results.length ? 0 : highlight;
 
   function commit(entry: Entry) {
-    setOpen(false);
+    close();
     router.push(entryHref(entry));
   }
 
@@ -266,7 +244,7 @@ export function SearchPalette() {
       <button
         type="button"
         aria-label="Fermer la recherche"
-        onClick={() => setOpen(false)}
+        onClick={close}
         className="absolute inset-0 bg-black/50 backdrop-blur-sm"
       />
       <div className="relative w-full max-w-2xl rounded-2xl border border-white/20 bg-[var(--bg-surface)] shadow-2xl overflow-hidden">
@@ -299,7 +277,7 @@ export function SearchPalette() {
           </kbd>
           <button
             type="button"
-            onClick={() => setOpen(false)}
+            onClick={close}
             aria-label="Fermer"
             className="text-[var(--text-tertiary)] hover:text-[var(--text-primary)] sm:hidden"
           >

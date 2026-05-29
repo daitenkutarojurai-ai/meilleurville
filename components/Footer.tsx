@@ -155,7 +155,7 @@ export function Footer() {
                   <li key={href}>
                     <Link
                       href={href}
-                      className="text-sm text-[#C4D5C0] transition-colors hover:text-white inline-flex items-center gap-1 group"
+                      className="text-sm text-[#C4D5C0] transition-colors hover:text-white inline-flex items-center gap-1 group rounded focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#84CC16]"
                     >
                       <span>{label}</span>
                       <span className="opacity-0 group-hover:opacity-100 transition-opacity text-[#84CC16]">→</span>

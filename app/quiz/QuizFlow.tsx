@@ -185,8 +185,12 @@ export function QuizFlow() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(answers),
       });
-      const data = await res.json();
-      setResults(data.results);
+      const data = res.ok ? await res.json() : null;
+      if (!data || !Array.isArray(data.results)) {
+        setResults(getDemoResults());
+      } else {
+        setResults(data.results);
+      }
     } catch {
       // fallback to demo results
       setResults(getDemoResults());

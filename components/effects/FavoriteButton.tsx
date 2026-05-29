@@ -158,7 +158,7 @@ export function FavoriteButton({
       aria-pressed={active}
       aria-label={active ? "Retirer des favoris" : "Ajouter aux favoris"}
       className={
-        "inline-flex items-center gap-1.5 rounded-full transition-all " +
+        "inline-flex items-center gap-1.5 rounded-full transition-all focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent-pink)] " +
         (active
           ? "bg-[var(--accent-pink)]/15 text-[var(--accent-pink)] hover:bg-[var(--accent-pink)]/25"
           : "bg-white/70 text-[var(--text-secondary)] hover:bg-white hover:text-[var(--accent-pink)]") +

@@ -117,6 +117,7 @@ function AnswerForm({
         <input
           type="text"
           placeholder="Votre prénom"
+          aria-label="Votre prénom"
           value={author}
           onChange={(e) => setAuthor(e.target.value)}
           maxLength={40}
@@ -126,6 +127,7 @@ function AnswerForm({
         <input
           type="email"
           placeholder="Email (non public)"
+          aria-label="Email (non public)"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           maxLength={120}
@@ -424,6 +426,7 @@ export function QASection({ citySlug, cityName }: QASectionProps) {
           <input
             type="text"
             placeholder="Votre prénom"
+            aria-label="Votre prénom"
             value={author}
             onChange={(e) => setAuthor(e.target.value)}
             maxLength={40}
@@ -434,6 +437,7 @@ export function QASection({ citySlug, cityName }: QASectionProps) {
           <input
             type="email"
             placeholder="Email (non public)"
+            aria-label="Email (non public)"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             maxLength={120}

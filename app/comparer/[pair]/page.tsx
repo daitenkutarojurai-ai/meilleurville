@@ -30,8 +30,8 @@ export function generateStaticParams() {
   ];
 }
 
-// Allow any city-vs-city pair beyond the curated SEO_PAIRS list to render on-demand.
-// Only SEO_PAIRS are pre-built + sitemap'd, but Lyon-vs-Annecy etc. still resolve.
+// Only the curated SEO_PAIRS / SEO_TRIPLETS are pre-built and sitemap'd; any
+// other pair 404s (required by output: "export" — no on-demand rendering).
 export const dynamicParams = false;
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {

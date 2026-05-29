@@ -6,6 +6,7 @@ import { Footer } from "@/components/Footer";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
 import { CITIES_SEED } from "@/data/cities-seed";
+import { scoreBarColor } from "@/lib/utils";
 import {
   computeCitySynthesis,
   SYNTHESIS_LEVEL_COLOR,
@@ -71,14 +72,7 @@ function enAxisHref(key: string, slug: string): string {
 
 function ScoreBar({ score }: { score: number }) {
   const pct = Math.max(0, Math.min(100, score * 10));
-  const color =
-    score >= 7.5
-      ? "bg-emerald-500"
-      : score >= 5.5
-        ? "bg-lime-500"
-        : score >= 4
-          ? "bg-amber-500"
-          : "bg-red-500";
+  const color = scoreBarColor(score);
   return (
     <div className="h-2 w-full rounded-full bg-[var(--bg-elevated)] overflow-hidden">
       <div

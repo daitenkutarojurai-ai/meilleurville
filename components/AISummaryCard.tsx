@@ -26,8 +26,15 @@ export function AISummaryCard({ citySlug, cityName }: Props) {
 
   useEffect(() => {
     fetch(`/api/cities/${citySlug}/summary`)
-      .then((r) => r.json())
-      .then((d) => { setData(d); setLoading(false); })
+      .then((r) => (r.ok ? r.json() : Promise.reject(new Error("bad response"))))
+      .then((d) => {
+        if (!d || !Array.isArray(d.bestFor) || !Array.isArray(d.notIdealFor)) {
+          setError(true);
+        } else {
+          setData(d);
+        }
+        setLoading(false);
+      })
       .catch(() => { setError(true); setLoading(false); });
   }, [citySlug]);
 

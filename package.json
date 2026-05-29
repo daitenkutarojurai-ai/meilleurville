@@ -29,8 +29,7 @@
     "resend": "^6.12.2",
     "tailwind-merge": "^3.5.0",
     "wrangler": "^4.86.0",
-    "zod": "^4.3.6",
-    "zustand": "^5.0.12"
+    "zod": "^4.3.6"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

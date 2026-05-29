@@ -41,7 +41,7 @@ export function StickyBookingBar({ cityName }: Props) {
   if (aid) url.searchParams.set("aid", aid);
 
   return (
-    <div className="fixed inset-x-0 bottom-0 z-40 px-3 pb-3 sm:pb-4 pointer-events-none">
+    <div className="fixed inset-x-0 bottom-[calc(3.75rem+env(safe-area-inset-bottom))] lg:bottom-0 z-40 px-3 pb-3 sm:pb-4 pointer-events-none">
       <div className="mx-auto max-w-3xl pointer-events-auto">
         <div className="flex items-center gap-2 rounded-full border border-[var(--accent)]/40 bg-white/95 backdrop-blur-md px-3 py-2 shadow-lg shadow-black/10">
           <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[var(--accent)]/15 text-[var(--accent)]">
