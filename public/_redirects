@@ -1,3 +1,11 @@
 # Cloudflare Workers Static Assets redirects.
 # Replaces the next.config redirects() that static export cannot emit.
+# Evaluated before assets are served, so these fire even for existing pages.
+
+# Host canonicalization. Each rule is host-scoped via an absolute source URL,
+# so it is inert on the other domain (this file ships to both FR and EN builds).
+# FR canonical host is www; EN canonical host is the apex (see .env.example).
+https://mavilleideale.fr/* https://www.mavilleideale.fr/:splat 301
+https://www.bestcitiesinfrance.com/* https://bestcitiesinfrance.com/:splat 301
+
 /a-propos /about 301
