@@ -65,6 +65,20 @@ const LIFE_STAGES = [
   { id: "etudiant", label: "Étudiant", icon: GraduationCap, keys: ["culture", "transport", "cost", "life"] },
 ];
 
+// Editorial section rule — uppercase eyebrow + fading divider. Replaces the
+// flat "wall of cards" look with grouped, scannable sections.
+function SectionRule({ emoji, label, first }: { emoji: string; label: string; first?: boolean }) {
+  return (
+    <div className={cn("flex items-center gap-3 mb-4", first ? "mt-0" : "mt-10")}>
+      <span className="text-base" aria-hidden>{emoji}</span>
+      <h3 className="text-xs font-bold uppercase tracking-[0.16em] text-[var(--text-secondary)] whitespace-nowrap">
+        {label}
+      </h3>
+      <span className="h-px flex-1 bg-gradient-to-r from-[var(--border)] to-transparent" />
+    </div>
+  );
+}
+
 export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number } }) {
   const [activeStage, setActiveStage] = useState("famille");
   const neighborhoods = getNeighborhoods(city.slug);
@@ -271,11 +285,11 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
             <div className="lg:col-span-2 space-y-6">
               {/* Summary — intro + pros/cons + notable */}
               <Card>
-                <div className="mb-5">
-                  <h2 className="text-base font-semibold text-[var(--text-primary)] mb-2">
-                    En bref · {city.name}
-                  </h2>
-                  <p className="text-sm text-[var(--text-secondary)] leading-relaxed">
+                <div className="mb-6">
+                  <p className="text-[11px] font-bold uppercase tracking-[0.18em] text-[var(--accent)] mb-2">
+                    Le verdict · {city.name}
+                  </p>
+                  <p className="font-display text-lg sm:text-xl text-[var(--text-primary)] leading-relaxed">
                     {narrative.intro}
                   </p>
                 </div>
@@ -327,6 +341,12 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                   </ul>
                 </div>
               </Card>
+
+              {/* Featured — political orientation, surfaced prominently (full
+                  main-column width + accent frame) rather than buried in the grid. */}
+              <div className="rounded-3xl bg-gradient-to-br from-[var(--accent)]/[0.07] via-transparent to-[var(--accent-warm)]/[0.05] ring-1 ring-[var(--accent)]/15 p-1.5 shadow-sm">
+                <PoliticalLean slug={city.slug} cityName={city.name} />
+              </div>
 
               {/* Niche scores — pour qui cette ville est-elle faite ? */}
               <Card>
@@ -579,24 +599,40 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                 so the page reads as one block on desktop and stacks cleanly
                 on mobile. */}
             <div className="lg:col-span-3">
-              <h2 className="text-base font-semibold text-[var(--text-primary)] mb-3">
-                Données & analyse
+              <h2 className="font-display text-2xl text-[var(--text-primary)] mb-1">
+                Données &amp; analyse
               </h2>
+              <p className="text-sm text-[var(--text-tertiary)] mb-6">
+                Tout {city.name}, regroupé par thème — sources officielles, sans bullshit.
+              </p>
+
+              <SectionRule emoji="🛡️" label="Sécurité & société" first />
               <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-                <DistancesCard city={city} />
+                <SafetyDeepCard city={city} />
+                <DemographyCard city={city} />
+                <HealthcareCard city={city} />
+                <PublicServicesCard city={city} />
+              </div>
+
+              <SectionRule emoji="🏡" label="Logement, coût & emploi" />
+              <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
                 <RentVsBuyCard citySlug={city.slug} />
+                <EmploymentCard city={city} />
+              </div>
+
+              <SectionRule emoji="🌍" label="Climat & environnement" />
+              <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
                 <Climate2040Card city={city} />
                 <NaturalRisksCard city={city} />
                 <WaterStressCard city={city} />
                 <AirQualityCard city={city} />
                 <NoiseCard city={city} />
-                <HealthcareCard city={city} />
-                <EmploymentCard city={city} />
                 <CyclingCard city={city} />
-                <SafetyDeepCard city={city} />
-                <DemographyCard city={city} />
-                <PublicServicesCard city={city} />
-                <PoliticalLean slug={city.slug} cityName={city.name} />
+              </div>
+
+              <SectionRule emoji="🧭" label="Repères & classements" />
+              <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+                <DistancesCard city={city} />
                 <GeographicNeighborsCard citySlug={city.slug} cityName={city.name} />
                 <Card>
                   <h3 className="text-sm font-semibold text-[var(--text-primary)] mb-3 flex items-center gap-2">
