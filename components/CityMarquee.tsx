@@ -7,7 +7,7 @@ import { scoreColor } from "@/lib/utils";
  * CityMarquee — infinite-scroll trust ribbon of top cities + scores.
  * Sits between the hero and the stats bar.
  */
-export function CityMarquee() {
+export function CityMarquee({ locale = "fr" }: { locale?: "fr" | "en" } = {}) {
   const items = [...CITIES_SEED]
     .sort((a, b) => b.scores.global - a.scores.global)
     .slice(0, 24)
@@ -20,7 +20,7 @@ export function CityMarquee() {
           {items.map((c) => (
             <Link
               key={c.slug}
-              href={`/villes/${c.slug}`}
+              href={locale === "en" ? `/cities/${c.slug}` : `/villes/${c.slug}`}
               className="group flex items-center gap-3 rounded-full px-4 py-2 hover:bg-[var(--bg-elevated)] transition-colors"
             >
               <span className="h-1.5 w-1.5 rounded-full bg-[var(--accent)] group-hover:scale-150 transition-transform" />

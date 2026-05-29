@@ -91,18 +91,21 @@ interface HoverState {
 
 type ScoreKey = "global" | "nature" | "cost" | "safety" | "transport" | "culture" | "remoteWork" | "schools";
 
-const SCORE_OPTIONS: Array<{ key: ScoreKey; label: string; emoji: string }> = [
-  { key: "global", label: "Score global", emoji: "🌍" },
-  { key: "nature", label: "Nature", emoji: "🌲" },
-  { key: "cost", label: "Coût de vie", emoji: "💸" },
-  { key: "safety", label: "Sécurité", emoji: "🛡️" },
-  { key: "transport", label: "Transport", emoji: "🚆" },
-  { key: "culture", label: "Culture", emoji: "🎭" },
-  { key: "remoteWork", label: "Télétravail", emoji: "💻" },
-  { key: "schools", label: "Écoles", emoji: "🎓" },
+const SCORE_OPTIONS: Array<{ key: ScoreKey; label: string; labelEn: string; emoji: string }> = [
+  { key: "global", label: "Score global", labelEn: "Overall score", emoji: "🌍" },
+  { key: "nature", label: "Nature", labelEn: "Nature", emoji: "🌲" },
+  { key: "cost", label: "Coût de vie", labelEn: "Cost of living", emoji: "💸" },
+  { key: "safety", label: "Sécurité", labelEn: "Safety", emoji: "🛡️" },
+  { key: "transport", label: "Transport", labelEn: "Transport", emoji: "🚆" },
+  { key: "culture", label: "Culture", labelEn: "Culture", emoji: "🎭" },
+  { key: "remoteWork", label: "Télétravail", labelEn: "Remote work", emoji: "💻" },
+  { key: "schools", label: "Écoles", labelEn: "Schools", emoji: "🎓" },
 ];
 
-export function FranceHeatmap() {
+export function FranceHeatmap({ locale = "fr" }: { locale?: "fr" | "en" } = {}) {
+  const L = (fr: string, en: string) => (locale === "en" ? en : fr);
+  const optionLabel = (o: { label: string; labelEn: string }) => (locale === "en" ? o.labelEn : o.label);
+  const cityHref = (slug: string) => (locale === "en" ? `/cities/${slug}` : `/villes/${slug}`);
   const [hover, setHover] = useState<HoverState | null>(null);
   const [scoreKey, setScoreKey] = useState<ScoreKey>("global");
   const [mounted, setMounted] = useState(false);
@@ -178,20 +181,27 @@ export function FranceHeatmap() {
         {/* Header */}
         <div className="text-center mb-10">
           <p className="text-xs uppercase tracking-widest text-[var(--accent)] font-semibold mb-2">
-            🗺️ Carte de France
+            {L("🗺️ Carte de France", "🗺️ Map of France")}
           </p>
           <h2 className="text-3xl sm:text-5xl font-bold text-[var(--text-primary)] mb-3">
-            La France des <span className="font-display gradient-text-anim">bons coins</span>
+            {locale === "en" ? (
+              <>The France of <span className="font-display gradient-text-anim">good spots</span></>
+            ) : (
+              <>La France des <span className="font-display gradient-text-anim">bons coins</span></>
+            )}
           </h2>
           <p className="text-[var(--text-secondary)] max-w-2xl mx-auto">
-            Chaque point est une ville, chaque couleur sa note de qualité de vie.
-            Survole pour les détails, clique pour explorer.
+            {L(
+              "Chaque point est une ville, chaque couleur sa note de qualité de vie. Survole pour les détails, clique pour explorer.",
+              "Every dot is a city, every colour its quality-of-life score. Hover for the details, click to explore."
+            )}
           </p>
         </div>
 
         {/* Score chips — colour the map by selected axis */}
         <div className="flex flex-wrap items-center justify-center gap-2 mb-3">
-          {SCORE_OPTIONS.map(({ key, label, emoji }) => {
+          {SCORE_OPTIONS.map((opt) => {
+            const { key, emoji } = opt;
             const active = scoreKey === key;
             return (
               <button
@@ -205,7 +215,7 @@ export function FranceHeatmap() {
                 }
               >
                 <span className="mr-1.5">{emoji}</span>
-                {label}
+                {optionLabel(opt)}
               </button>
             );
           })}
@@ -219,21 +229,37 @@ export function FranceHeatmap() {
             style={{ animation: "fh-axis-pop 0.45s cubic-bezier(.34,1.56,.64,1) both" }}
           >
             {SCORE_OPTIONS.find((o) => o.key === scoreKey)?.emoji}
-            <span>Coloriage par : {SCORE_OPTIONS.find((o) => o.key === scoreKey)?.label}</span>
+            <span>
+              {L("Coloriage par :", "Coloured by:")}{" "}
+              {(() => {
+                const o = SCORE_OPTIONS.find((x) => x.key === scoreKey);
+                return o ? optionLabel(o) : "";
+              })()}
+            </span>
           </div>
         </div>
 
         {/* Legend — score color scale */}
         <div className="mb-8 flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-[11px] text-[var(--text-tertiary)]">
-          <span className="font-semibold uppercase tracking-wider text-[var(--text-secondary)]">Échelle de score</span>
-          {[
-            { color: "#A855F7", label: "≥ 7,5 Exceptionnel" },
-            { color: "#22C55E", label: "≥ 7,0 Excellent" },
-            { color: "#84CC16", label: "≥ 6,0 Bon" },
-            { color: "#F59E0B", label: "≥ 5,0 Moyen" },
-            { color: "#F97316", label: "≥ 4,0 En dessous" },
-            { color: "#EF4444", label: "< 4,0 Mauvais" },
-          ].map((tier) => (
+          <span className="font-semibold uppercase tracking-wider text-[var(--text-secondary)]">{L("Échelle de score", "Score scale")}</span>
+          {(locale === "en"
+            ? [
+                { color: "#A855F7", label: "≥ 7.5 Exceptional" },
+                { color: "#22C55E", label: "≥ 7.0 Excellent" },
+                { color: "#84CC16", label: "≥ 6.0 Good" },
+                { color: "#F59E0B", label: "≥ 5.0 Average" },
+                { color: "#F97316", label: "≥ 4.0 Below par" },
+                { color: "#EF4444", label: "< 4.0 Poor" },
+              ]
+            : [
+                { color: "#A855F7", label: "≥ 7,5 Exceptionnel" },
+                { color: "#22C55E", label: "≥ 7,0 Excellent" },
+                { color: "#84CC16", label: "≥ 6,0 Bon" },
+                { color: "#F59E0B", label: "≥ 5,0 Moyen" },
+                { color: "#F97316", label: "≥ 4,0 En dessous" },
+                { color: "#EF4444", label: "< 4,0 Mauvais" },
+              ]
+          ).map((tier) => (
             <span key={tier.label} className="inline-flex items-center gap-1.5">
               <span
                 aria-hidden
@@ -283,7 +309,7 @@ export function FranceHeatmap() {
               viewBox={`0 0 ${W} ${H}`}
               className="relative w-full h-auto"
               role="img"
-              aria-label="Carte de France des villes notées"
+              aria-label={L("Carte de France des villes notées", "Map of France with rated cities")}
             >
               <defs>
                 <radialGradient id="franceFill" cx="50%" cy="40%" r="60%">
@@ -434,7 +460,7 @@ export function FranceHeatmap() {
                   the metropolitan bbox are filtered from the main dot layer
                   (lng/lat bounds), so we surface them here as small framed
                   labels colored by their top city. */}
-              <g aria-label="Régions d'outre-mer">
+              <g aria-label={L("Régions d'outre-mer", "Overseas regions")}>
                 {/* Faint separator between metro map and DROM strip */}
                 <line
                   x1={PAD}
@@ -517,7 +543,7 @@ export function FranceHeatmap() {
                   letterSpacing="1.5"
                   style={{ textTransform: "uppercase" }}
                 >
-                  Outre-mer · score de la meilleure ville
+                  {L("Outre-mer · score de la meilleure ville", "Overseas · top city score")}
                 </text>
               </g>
 
@@ -562,8 +588,12 @@ export function FranceHeatmap() {
                 return (
                   <a
                     key={d.slug}
-                    href={`/villes/${d.slug}`}
-                    aria-label={`${d.name} (${d.region}) — score ${d.score.toFixed(1)} sur 10`}
+                    href={cityHref(d.slug)}
+                    aria-label={
+                      locale === "en"
+                        ? `${d.name} (${d.region}) — score ${d.score.toFixed(1)} out of 10`
+                        : `${d.name} (${d.region}) — score ${d.score.toFixed(1)} sur 10`
+                    }
                     className="cursor-pointer fh-dot outline-none focus-visible:[outline:2px_solid_white] focus-visible:[outline-offset:2px]"
                     style={{
                       opacity: mounted ? 1 : 0,
@@ -603,7 +633,7 @@ export function FranceHeatmap() {
               const flipY = yPct > 70;
               return (
                 <Link
-                  href={`/villes/${hover.slug}`}
+                  href={cityHref(hover.slug)}
                   className="absolute pointer-events-auto rounded-2xl glass-strong border border-white/60 px-5 py-4 shadow-2xl shadow-[var(--accent)]/30 text-left transition-transform hover:scale-[1.02] z-20"
                   style={{
                     left: flipX ? `calc(${xPct}% - 16px)` : `calc(${xPct}% + 16px)`,
@@ -624,16 +654,20 @@ export function FranceHeatmap() {
                     </span>
                   </div>
                   <div className="text-[10px] uppercase tracking-wider font-semibold mb-2 text-right text-[var(--text-tertiary)]">
-                    sur l&apos;axe {SCORE_OPTIONS.find((o) => o.key === scoreKey)?.label}
+                    {(() => {
+                      const o = SCORE_OPTIONS.find((x) => x.key === scoreKey);
+                      const lbl = o ? optionLabel(o) : "";
+                      return locale === "en" ? <>on the {lbl} axis</> : <>sur l&apos;axe {lbl}</>;
+                    })()}
                   </div>
                   <div className="text-xs text-[var(--text-tertiary)] mb-3 truncate">
-                    {hover.region} · {hover.population.toLocaleString("fr-FR")} hab.
+                    {hover.region} · {hover.population.toLocaleString(locale === "en" ? "en-US" : "fr-FR")} {L("hab.", "pop.")}
                   </div>
                   <div className="space-y-2">
                     {[
-                      { label: "Nature", val: hover.scores.nature },
-                      { label: "Transport", val: hover.scores.transport },
-                      { label: "Coût", val: hover.scores.cost },
+                      { label: L("Nature", "Nature"), val: hover.scores.nature },
+                      { label: L("Transport", "Transport"), val: hover.scores.transport },
+                      { label: L("Coût", "Cost"), val: hover.scores.cost },
                     ].map((s) => (
                       <div key={s.label} className="flex items-center gap-2 text-xs">
                         <span className="w-16 text-[var(--text-secondary)] font-medium">{s.label}</span>
@@ -652,7 +686,7 @@ export function FranceHeatmap() {
                     ))}
                   </div>
                   <div className="mt-3 pt-3 border-t border-[var(--border)]/60 text-xs text-[var(--accent)] font-semibold">
-                    Voir la fiche complète →
+                    {L("Voir la fiche complète →", "See the full profile →")}
                   </div>
                 </Link>
               );
@@ -660,25 +694,29 @@ export function FranceHeatmap() {
 
             {/* Screen reader fallback — text listing of map content */}
             <div className="sr-only">
-              <h3>Top 10 villes affichées sur la carte</h3>
+              <h3>{L("Top 10 villes affichées sur la carte", "Top 10 cities shown on the map")}</h3>
               <ul>
                 {[...dots]
                   .sort((a, b) => b.score - a.score)
                   .slice(0, 10)
                   .map((d) => (
                     <li key={`sr-${d.slug}`}>
-                      <a href={`/villes/${d.slug}`}>
+                      <a href={cityHref(d.slug)}>
                         {d.name} ({d.region}) — {d.score.toFixed(1)}/10
                       </a>
                     </li>
                   ))}
               </ul>
-              <p>Pour la liste complète, consulter la page <Link href="/leaderboard">leaderboard</Link> ou <Link href="/villes">toutes les villes</Link>.</p>
+              {locale === "en" ? (
+                <p>For the full list, see the <Link href="/leaderboard">leaderboard</Link> or <Link href="/cities">all cities</Link>.</p>
+              ) : (
+                <p>Pour la liste complète, consulter la page <Link href="/leaderboard">leaderboard</Link> ou <Link href="/villes">toutes les villes</Link>.</p>
+              )}
             </div>
 
             {/* Legend */}
             <div className="relative mt-4 flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-xs">
-              <span className="text-[#A8C4A8]">Score :</span>
+              <span className="text-[#A8C4A8]">{L("Score :", "Score:")}</span>
               {[
                 { c: "#EF4444", l: "< 4.0" },
                 { c: "#F97316", l: "4.0–5.0" },
@@ -702,24 +740,24 @@ export function FranceHeatmap() {
             {/* Stats card */}
             <div className="rounded-2xl glass border border-white/50 p-5 shadow-md">
               <p className="text-xs font-semibold uppercase tracking-wider text-[var(--accent)] mb-3">
-                📊 Vue d&apos;ensemble
+                {L("📊 Vue d'ensemble", "📊 Overview")}
               </p>
               <div className="grid grid-cols-2 gap-3">
                 <div>
                   <div className="text-2xl font-bold font-mono-data text-[var(--text-primary)]">{stats.count}</div>
-                  <div className="text-[11px] text-[var(--text-secondary)]">villes notées</div>
+                  <div className="text-[11px] text-[var(--text-secondary)]">{L("villes notées", "rated cities")}</div>
                 </div>
                 <div>
                   <div className="text-2xl font-bold font-mono-data text-[var(--accent)]">{stats.avg.toFixed(1)}</div>
-                  <div className="text-[11px] text-[var(--text-secondary)]">score moyen</div>
+                  <div className="text-[11px] text-[var(--text-secondary)]">{L("score moyen", "average score")}</div>
                 </div>
                 <div>
                   <div className="text-2xl font-bold font-mono-data" style={{ color: scoreColor(stats.best) }}>{stats.best.toFixed(1)}</div>
-                  <div className="text-[11px] text-[var(--text-secondary)]">meilleure ville</div>
+                  <div className="text-[11px] text-[var(--text-secondary)]">{L("meilleure ville", "top city")}</div>
                 </div>
                 <div>
                   <div className="text-2xl font-bold font-mono-data text-[var(--accent-warm)]">{stats.top}</div>
-                  <div className="text-[11px] text-[var(--text-secondary)]">villes ≥ 7.0</div>
+                  <div className="text-[11px] text-[var(--text-secondary)]">{L("villes ≥ 7.0", "cities ≥ 7.0")}</div>
                 </div>
               </div>
             </div>
@@ -727,7 +765,7 @@ export function FranceHeatmap() {
             {/* Podium */}
             <div className="rounded-2xl glass border border-white/50 p-5 shadow-md">
               <p className="text-xs font-semibold uppercase tracking-wider text-[var(--accent)] mb-3">
-                🏆 Podium national
+                {L("🏆 Podium national", "🏆 National podium")}
               </p>
               <div className="space-y-2">
                 {top3.map((c, i) => {
@@ -735,7 +773,7 @@ export function FranceHeatmap() {
                   return (
                     <Link
                       key={c.slug}
-                      href={`/villes/${c.slug}`}
+                      href={cityHref(c.slug)}
                       className="flex items-center gap-3 rounded-xl bg-white/60 hover:bg-[var(--accent-soft)] hover:scale-[1.02] transition-all p-2.5 group ring-1 ring-white/60"
                     >
                       <span className="text-2xl flex-shrink-0">{medals[i]}</span>
@@ -768,30 +806,33 @@ export function FranceHeatmap() {
             <div className="rounded-2xl border border-[var(--accent)]/20 bg-gradient-to-br from-[var(--accent-soft)] to-white p-5 relative overflow-hidden">
               <div className="absolute -top-4 -right-4 h-20 w-20 rounded-full bg-[var(--accent-warm)]/30 blur-2xl" aria-hidden />
               <p className="relative text-sm font-semibold text-[var(--accent)] mb-1">
-                💡 Astuce
+                {L("💡 Astuce", "💡 Tip")}
               </p>
               <p className="relative text-xs text-[var(--text-secondary)] leading-relaxed">
-                Les gros points = grandes villes. Les petits = pépites de campagne.
+                {L(
+                  "Les gros points = grandes villes. Les petits = pépites de campagne.",
+                  "Big dots = big cities. Small ones = countryside gems."
+                )}
               </p>
               <ul className="relative mt-2 grid grid-cols-2 gap-x-3 gap-y-1 text-[11px] text-[var(--text-secondary)]">
-                <li className="flex items-center gap-1.5"><span className="h-2 w-2 rounded-full" style={{ background: "#A855F7" }} aria-hidden /> Violet · exceptionnel</li>
-                <li className="flex items-center gap-1.5"><span className="h-2 w-2 rounded-full" style={{ background: "#16A34A" }} aria-hidden /> Vert · excellent</li>
-                <li className="flex items-center gap-1.5"><span className="h-2 w-2 rounded-full" style={{ background: "#84CC16" }} aria-hidden /> Lime · bon</li>
-                <li className="flex items-center gap-1.5"><span className="h-2 w-2 rounded-full" style={{ background: "#F59E0B" }} aria-hidden /> Ambre · moyen</li>
-                <li className="flex items-center gap-1.5"><span className="h-2 w-2 rounded-full" style={{ background: "#F97316" }} aria-hidden /> Orange · en dessous</li>
-                <li className="flex items-center gap-1.5"><span className="h-2 w-2 rounded-full" style={{ background: "#EF4444" }} aria-hidden /> Rouge · mauvais</li>
+                <li className="flex items-center gap-1.5"><span className="h-2 w-2 rounded-full" style={{ background: "#A855F7" }} aria-hidden /> {L("Violet · exceptionnel", "Purple · exceptional")}</li>
+                <li className="flex items-center gap-1.5"><span className="h-2 w-2 rounded-full" style={{ background: "#16A34A" }} aria-hidden /> {L("Vert · excellent", "Green · excellent")}</li>
+                <li className="flex items-center gap-1.5"><span className="h-2 w-2 rounded-full" style={{ background: "#84CC16" }} aria-hidden /> {L("Lime · bon", "Lime · good")}</li>
+                <li className="flex items-center gap-1.5"><span className="h-2 w-2 rounded-full" style={{ background: "#F59E0B" }} aria-hidden /> {L("Ambre · moyen", "Amber · average")}</li>
+                <li className="flex items-center gap-1.5"><span className="h-2 w-2 rounded-full" style={{ background: "#F97316" }} aria-hidden /> {L("Orange · en dessous", "Orange · below par")}</li>
+                <li className="flex items-center gap-1.5"><span className="h-2 w-2 rounded-full" style={{ background: "#EF4444" }} aria-hidden /> {L("Rouge · mauvais", "Red · poor")}</li>
               </ul>
             </div>
 
             <Link
-              href="/carte"
+              href={locale === "en" ? "/map" : "/carte"}
               className="block text-center rounded-2xl border-2 border-[var(--accent)]/30 bg-white hover:bg-[var(--accent-soft)] hover:border-[var(--accent)] transition-all p-4 shine"
             >
               <div className="text-sm font-bold text-[var(--accent)]">
-                Carte interactive complète →
+                {L("Carte interactive complète →", "Full interactive map →")}
               </div>
               <div className="text-[11px] text-[var(--text-tertiary)] mt-0.5">
-                Filtres · Zoom · Cherche par critère
+                {L("Filtres · Zoom · Cherche par critère", "Filters · Zoom · Search by criterion")}
               </div>
             </Link>
           </aside>

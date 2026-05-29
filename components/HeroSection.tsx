@@ -28,7 +28,9 @@ const FLOATING_DOTS = [
   { name: "Montpellier", lng: 3.88, lat: 43.61, score: 8.4 },
 ];
 
-export function HeroSection() {
+export function HeroSection({ locale = "fr" }: { locale?: "fr" | "en" } = {}) {
+  const L = (fr: string, en: string) => (locale === "en" ? en : fr);
+  const cityHref = (slug: string) => (locale === "en" ? `/cities/${slug}` : `/villes/${slug}`);
   const [query, setQuery] = useState("");
   const [dismissed, setDismissed] = useState(false);
   const router = useRouter();
@@ -91,7 +93,7 @@ export function HeroSection() {
   function handleSearch(e: React.FormEvent) {
     e.preventDefault();
     if (suggestions.length > 0) {
-      router.push(`/villes/${suggestions[0].slug}`);
+      router.push(cityHref(suggestions[0].slug));
       setDismissed(true);
       return;
     }
@@ -101,13 +103,13 @@ export function HeroSection() {
       .normalize("NFD")
       .replace(/[̀-ͯ]/g, "")
       .replace(/\s+/g, "-");
-    router.push(`/villes/${slug}`);
+    router.push(cityHref(slug));
   }
 
   function pickCity(slug: string) {
     setQuery("");
     setDismissed(true);
-    router.push(`/villes/${slug}`);
+    router.push(cityHref(slug));
   }
 
   return (
@@ -164,16 +166,18 @@ export function HeroSection() {
               <span className="relative inline-flex h-2 w-2 rounded-full bg-[var(--accent)]" />
             </span>
             <span className="font-medium text-[var(--text-secondary)]">
-              {`${CITIES_COUNT} villes · 8 axes de notation · ${RANKINGS_COUNT} classements`}
+              {locale === "en"
+                ? `${CITIES_COUNT} cities · 8 scoring axes · ${RANKINGS_COUNT} rankings`
+                : `${CITIES_COUNT} villes · 8 axes de notation · ${RANKINGS_COUNT} classements`}
             </span>
           </div>
         </FadeBlurIn>
 
         <h1 className="mb-6 text-5xl sm:text-6xl lg:text-7xl xl:text-[5.5rem] font-bold tracking-tight leading-[1.02] text-[var(--text-primary)]">
-          <WordsReveal text="Là où vous serez" perWord={0.08} startDelay={0.15} />
+          <WordsReveal text={L("Là où vous serez", "Find the city")} perWord={0.08} startDelay={0.15} />
           <br />
           <WordsReveal
-            text="heureux de vivre."
+            text={L("heureux de vivre.", "you'll love.")}
             accentRange={[0, 2]}
             perWord={0.1}
             startDelay={0.55}
@@ -183,9 +187,18 @@ export function HeroSection() {
 
         <FadeBlurIn delay={1.05}>
           <p className="mb-10 mx-auto max-w-2xl text-lg sm:text-xl text-[var(--text-secondary)] leading-relaxed">
-            Comparez les villes françaises pour de vrai. Avis d&apos;habitants,
-            coût de la vie, météo, nature, transports : tout au même endroit, sans
-            chichi.
+            {locale === "en" ? (
+              <>
+                Compare French cities for real. Resident reviews, cost of living,
+                weather, nature, transport: everything in one place, no fluff.
+              </>
+            ) : (
+              <>
+                Comparez les villes françaises pour de vrai. Avis d&apos;habitants,
+                coût de la vie, météo, nature, transports : tout au même endroit, sans
+                chichi.
+              </>
+            )}
           </p>
         </FadeBlurIn>
 
@@ -200,14 +213,14 @@ export function HeroSection() {
                   value={query}
                   onChange={(e) => { setQuery(e.target.value); setDismissed(false); }}
                   onFocus={() => setDismissed(false)}
-                  placeholder="Quelle ville vous fait rêver ?"
-                  aria-label="Rechercher une ville"
+                  placeholder={L("Quelle ville vous fait rêver ?", "Which city are you dreaming of?")}
+                  aria-label={L("Rechercher une ville", "Search for a city")}
                   data-search-shortcut
                   className="flex-1 bg-transparent py-2 text-sm text-[var(--text-primary)] placeholder:text-[var(--text-tertiary)] outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)] rounded-md"
                   autoComplete="off"
                 />
                 <Button type="submit" size="sm">
-                  C&apos;est parti
+                  {locale === "en" ? "Let’s go" : <>C&apos;est parti</>}
                 </Button>
               </div>
             </form>
@@ -215,7 +228,7 @@ export function HeroSection() {
             {open && suggestions.length > 0 && (
               <div
                 role="listbox"
-                aria-label="Suggestions de villes"
+                aria-label={L("Suggestions de villes", "City suggestions")}
                 className="absolute top-full left-0 right-0 mt-2 z-50 rounded-2xl glass-strong shadow-2xl shadow-[var(--accent)]/15 overflow-hidden border border-white/40 max-h-[60vh] overflow-y-auto"
               >
                 {suggestions.map((r) => (
@@ -235,11 +248,11 @@ export function HeroSection() {
                   </button>
                 ))}
                 <Link
-                  href="/villes"
+                  href={locale === "en" ? "/cities" : "/villes"}
                   className="flex items-center justify-center gap-1 py-2.5 text-xs text-[var(--text-tertiary)] hover:text-[var(--accent)] border-t border-white/40 transition-colors"
                   onClick={() => setDismissed(true)}
                 >
-                  Voir toutes les villes →
+                  {L("Voir toutes les villes →", "See all cities →")}
                 </Link>
               </div>
             )}
@@ -248,7 +261,7 @@ export function HeroSection() {
 
         <FadeBlurIn delay={1.35}>
           <div className="flex flex-wrap items-center justify-center gap-2 mb-12">
-            <span className="text-xs font-medium text-[var(--text-secondary)]">✨ On en parle :</span>
+            <span className="text-xs font-medium text-[var(--text-secondary)]">{L("✨ On en parle :", "✨ Trending now:")}</span>
             {TRENDING.map((city) => {
               // Résolution directe via le seed plutôt qu'une dérivation
               // naïve (qui casse pour les noms accentués ou composés).
@@ -257,7 +270,7 @@ export function HeroSection() {
               return (
                 <Link
                   key={city}
-                  href={`/villes/${match.slug}`}
+                  href={cityHref(match.slug)}
                   className="flex items-center gap-1 rounded-full glass px-3 py-1 text-xs text-[var(--text-secondary)] transition-all hover:text-[var(--accent)] hover:shadow-md hover:-translate-y-0.5"
                 >
                   <MapPin className="h-2.5 w-2.5" />
@@ -274,15 +287,15 @@ export function HeroSection() {
               <Link href="/city-match">
                 <Button size="lg" className="gap-2 text-base shadow-2xl shadow-[var(--accent)]/30 accent-pulse shine">
                   <Sparkles className="h-5 w-5" />
-                  Faire le quiz (3 min)
+                  {L("Faire le quiz (3 min)", "Take the quiz (3 min)")}
                   <ArrowRight className="h-4 w-4" />
                 </Button>
               </Link>
             </MagneticButton>
             <MagneticButton strength={0.25}>
-              <Link href="/classements">
+              <Link href={locale === "en" ? "/rankings" : "/classements"}>
                 <Button size="lg" variant="secondary" className="text-base">
-                  Voir le top des villes
+                  {L("Voir le top des villes", "See the top cities")}
                 </Button>
               </Link>
             </MagneticButton>
@@ -293,12 +306,12 @@ export function HeroSection() {
           <div className="mt-12 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-xs text-[var(--text-tertiary)]">
             <span className="inline-flex items-center gap-1.5">
               <Star className="h-3.5 w-3.5 fill-[var(--accent-warm)] text-[var(--accent-warm)]" />
-              <span>Données ouvertes · 2026</span>
+              <span>{L("Données ouvertes · 2026", "Open data · 2026")}</span>
             </span>
             <span className="hidden sm:inline">·</span>
-            <span>Sources : Insee, Min. Intérieur, observatoires loyers</span>
+            <span>{L("Sources : Insee, Min. Intérieur, observatoires loyers", "Sources: Insee, French Interior Ministry, rent observatories")}</span>
             <span className="hidden sm:inline">·</span>
-            <span>Indépendant, sans pub</span>
+            <span>{L("Indépendant, sans pub", "Independent, ad-free")}</span>
           </div>
         </FadeBlurIn>
       </div>

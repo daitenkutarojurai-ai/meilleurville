@@ -21,7 +21,7 @@ interface Priority {
   reasonTemplate: (score: number) => string;
 }
 
-const PRIORITIES: Priority[] = [
+const PRIORITIES_FR: Priority[] = [
   { id: "budget",   label: "Budget",     emoji: "💰", axis: "cost",       reasonTemplate: (s) => `Coût ${s.toFixed(1)}/10 — pouvoir d'achat préservé` },
   { id: "remote",   label: "Télétravail", emoji: "💻", axis: "remoteWork", reasonTemplate: (s) => `Télétravail ${s.toFixed(1)}/10 — fibre, coworkings, cadre` },
   { id: "nature",   label: "Nature",     emoji: "🌿", axis: "nature",     reasonTemplate: (s) => `Nature ${s.toFixed(1)}/10 — accès parcs, forêts, mer/montagne` },
@@ -30,12 +30,23 @@ const PRIORITIES: Priority[] = [
   { id: "securite", label: "Sécurité",   emoji: "🛡️", axis: "safety",     reasonTemplate: (s) => `Sécurité ${s.toFixed(1)}/10 — SSMSI dans la norme` },
 ];
 
+const PRIORITIES_EN: Priority[] = [
+  { id: "budget",   label: "Budget",      emoji: "💰", axis: "cost",       reasonTemplate: (s) => `Cost ${s.toFixed(1)}/10 — keep more of your paycheck` },
+  { id: "remote",   label: "Remote work", emoji: "💻", axis: "remoteWork", reasonTemplate: (s) => `Remote work ${s.toFixed(1)}/10 — fibre, coworking, setup` },
+  { id: "nature",   label: "Nature",      emoji: "🌿", axis: "nature",     reasonTemplate: (s) => `Nature ${s.toFixed(1)}/10 — parks, forests, sea/mountains` },
+  { id: "culture",  label: "Culture",     emoji: "🏛️", axis: "culture",    reasonTemplate: (s) => `Culture ${s.toFixed(1)}/10 — scene, restaurants, museums` },
+  { id: "soleil",   label: "Quality of life", emoji: "☀️", axis: "life",   reasonTemplate: (s) => `Quality of life ${s.toFixed(1)}/10 — climate, atmosphere` },
+  { id: "securite", label: "Safety",      emoji: "🛡️", axis: "safety",     reasonTemplate: (s) => `Safety ${s.toFixed(1)}/10 — crime stats in the normal range` },
+];
+
 function foodIndex(citySlug: string): number {
   const costScore = CITIES_SEED.find((c) => c.slug === citySlug)?.scores.cost ?? 7;
   return Math.round(115 - costScore * 3);
 }
 
-export function CostCalculator() {
+export function CostCalculator({ locale = "fr" }: { locale?: "fr" | "en" } = {}) {
+  const L = (fr: string, en: string) => (locale === "en" ? en : fr);
+  const PRIORITIES = locale === "en" ? PRIORITIES_EN : PRIORITIES_FR;
   const [parisRent, setParisRent] = useState(1400);
   const [salary, setSalary] = useState(3500);
   const [priorityId, setPriorityId] = useState<PriorityId>("budget");
@@ -89,8 +100,8 @@ export function CostCalculator() {
           <Calculator className="h-5 w-5 text-[var(--accent)]" />
         </div>
         <div>
-          <h3 className="font-bold text-[var(--text-primary)]">Calculateur de pouvoir d&apos;achat</h3>
-          <p className="text-xs text-[var(--text-secondary)]">Combien économiseriez-vous en quittant Paris, et où aller selon vos priorités ?</p>
+          <h3 className="font-bold text-[var(--text-primary)]">{locale === "en" ? "Purchasing power calculator" : <>Calculateur de pouvoir d&apos;achat</>}</h3>
+          <p className="text-xs text-[var(--text-secondary)]">{L("Combien économiseriez-vous en quittant Paris, et où aller selon vos priorités ?", "How much would you save by leaving Paris, and where to go based on what matters to you?")}</p>
         </div>
       </div>
 
@@ -98,7 +109,7 @@ export function CostCalculator() {
       <div className="grid sm:grid-cols-2 gap-4 mb-4">
         <div>
           <label htmlFor="calc-loyer" className="text-xs text-[var(--text-secondary)] block mb-2">
-            Mon loyer actuel (Paris)
+            {L("Mon loyer actuel (Paris)", "My current rent (Paris)")}
           </label>
           <div className="flex items-center gap-2">
             <input
@@ -112,13 +123,13 @@ export function CostCalculator() {
               className="flex-1 accent-[var(--accent)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)] rounded"
             />
             <span className="text-sm font-bold font-mono-data text-[var(--accent)] w-20 text-right">
-              {parisRent}€/mois
+              {parisRent}{L("€/mois", "€/mo")}
             </span>
           </div>
         </div>
         <div>
           <label htmlFor="calc-salaire" className="text-xs text-[var(--text-secondary)] block mb-2">
-            Mon salaire net mensuel
+            {L("Mon salaire net mensuel", "My monthly take-home pay")}
           </label>
           <div className="flex items-center gap-2">
             <input
@@ -132,7 +143,7 @@ export function CostCalculator() {
               className="flex-1 accent-[var(--accent)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)] rounded"
             />
             <span className="text-sm font-bold font-mono-data text-[var(--accent)] w-20 text-right">
-              {salary}€/mois
+              {salary}{L("€/mois", "€/mo")}
             </span>
           </div>
         </div>
@@ -141,9 +152,9 @@ export function CostCalculator() {
       {/* Priority selector — this is what actually re-ranks the results */}
       <div className="mb-5">
         <label className="text-xs text-[var(--text-secondary)] block mb-2">
-          Ma priorité pour le déménagement
+          {L("Ma priorité pour le déménagement", "What matters most in my move")}
         </label>
-        <div className="flex flex-wrap gap-2" role="radiogroup" aria-label="Priorité">
+        <div className="flex flex-wrap gap-2" role="radiogroup" aria-label={L("Priorité", "Priority")}>
           {PRIORITIES.map((p) => {
             const active = p.id === priorityId;
             return (
@@ -167,7 +178,9 @@ export function CostCalculator() {
           })}
         </div>
         <p className="text-[10px] text-[var(--text-tertiary)] mt-2">
-          Budget compatible : loyer T2 ≤ {rentBudget}€/mois (33 % du salaire ou votre loyer actuel, le plus haut).
+          {locale === "en"
+            ? <>Within budget: 1-bed rent ≤ {rentBudget}€/mo (33% of pay or your current rent, whichever is higher).</>
+            : <>Budget compatible : loyer T2 ≤ {rentBudget}€/mois (33 % du salaire ou votre loyer actuel, le plus haut).</>}
         </p>
       </div>
 
@@ -178,7 +191,7 @@ export function CostCalculator() {
           return (
             <Link
               key={city.slug}
-              href={`/villes/${city.slug}`}
+              href={locale === "en" ? `/cities/${city.slug}` : `/villes/${city.slug}`}
               className="group flex items-center gap-3 rounded-xl border border-[var(--border)] bg-[var(--bg-canvas)] hover:border-[var(--accent)]/40 hover:bg-[var(--bg-elevated)] transition-all px-4 py-3"
             >
               <div className="flex-1 min-w-0">
@@ -190,21 +203,21 @@ export function CostCalculator() {
                   {!affordable && (
                     <span className="inline-flex items-center gap-1 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-700 text-[10px] font-semibold px-1.5 py-0.5">
                       <AlertCircle className="h-3 w-3" />
-                      Hors budget
+                      {L("Hors budget", "Over budget")}
                     </span>
                   )}
                 </div>
                 <div className="text-xs text-[var(--text-secondary)] mt-0.5 truncate">
-                  Loyer T2 : {housing.avgRentT2}€/mois · <span className="text-[var(--accent)] font-medium">{reason}</span>
+                  {L("Loyer T2 : ", "1-bed rent: ")}{housing.avgRentT2}{L("€/mois", "€/mo")} · <span className="text-[var(--accent)] font-medium">{reason}</span>
                 </div>
               </div>
               <div className="flex items-center gap-2 flex-shrink-0">
                 <div className={cn("text-right", positive ? "text-emerald-600" : "text-red-500")}>
                   <div className="text-sm font-bold font-mono-data">
-                    {positive ? "+" : ""}{totalMonthlySavings}€/mois
+                    {positive ? "+" : ""}{totalMonthlySavings}{L("€/mois", "€/mo")}
                   </div>
                   <div className="text-[10px]">
-                    {positive ? "+" : ""}{annualSavings.toLocaleString("fr-FR")}€/an
+                    {positive ? "+" : ""}{annualSavings.toLocaleString(locale === "en" ? "en-GB" : "fr-FR")}{L("€/an", "€/yr")}
                   </div>
                 </div>
                 {positive ? (
@@ -219,16 +232,17 @@ export function CostCalculator() {
       </div>
 
       <p className="text-[10px] text-[var(--text-tertiary)] mt-4">
-        Estimation indicative basée sur les loyers médians, forfait transport moyen et indice alimentaire. Hors différentiel salarial.
-        {overBudgetCount > 0 && (
-          <> {overBudgetCount} ville{overBudgetCount > 1 ? "s" : ""} {overBudgetCount > 1 ? "sont" : "est"} marquée{overBudgetCount > 1 ? "s" : ""} hors budget : excellent fit priorité mais loyer T2 au-dessus de votre seuil.</>
+        {L("Estimation indicative basée sur les loyers médians, forfait transport moyen et indice alimentaire. Hors différentiel salarial.", "Rough estimate based on median rents, an average transit pass and a food index. Salary differences not included.")}
+        {overBudgetCount > 0 && (locale === "en"
+          ? <> {overBudgetCount} {overBudgetCount > 1 ? "cities are" : "city is"} flagged over budget: a great fit for your priority, but the 1-bed rent is above your threshold.</>
+          : <> {overBudgetCount} ville{overBudgetCount > 1 ? "s" : ""} {overBudgetCount > 1 ? "sont" : "est"} marquée{overBudgetCount > 1 ? "s" : ""} hors budget : excellent fit priorité mais loyer T2 au-dessus de votre seuil.</>
         )}
       </p>
       <Link
         href="/city-match"
         className="mt-4 flex items-center justify-center gap-2 rounded-xl border border-[var(--accent)]/30 bg-[var(--accent)]/5 text-sm text-[var(--accent)] font-medium py-2.5 hover:bg-[var(--accent)]/10 transition-colors"
       >
-        Affiner avec le quiz IA complet
+        {L("Affiner avec le quiz IA complet", "Refine with the full AI quiz")}
         <ArrowRight className="h-4 w-4" />
       </Link>
     </div>

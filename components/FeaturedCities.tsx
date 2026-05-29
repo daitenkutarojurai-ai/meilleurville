@@ -25,7 +25,8 @@ function seedToCity(s: (typeof CITIES_SEED)[number]): City {
   };
 }
 
-export function FeaturedCities() {
+export function FeaturedCities({ locale = "fr" }: { locale?: "fr" | "en" } = {}) {
+  const L = (fr: string, en: string) => (locale === "en" ? en : fr);
   const top = [...CITIES_SEED]
     .sort((a, b) => b.scores.global - a.scores.global)
     .slice(0, 6)
@@ -36,19 +37,21 @@ export function FeaturedCities() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <div className="mb-10 flex items-end justify-between">
           <div>
-            <Badge variant="success" className="mb-3">🏆 Coup de cœur</Badge>
+            <Badge variant="success" className="mb-3">{L("🏆 Coup de cœur", "🏆 Editor's picks")}</Badge>
             <h2 className="text-3xl font-bold text-[var(--text-primary)]">
-              Les villes où on se sent bien
+              {L("Les villes où on se sent bien", "The cities where life just feels good")}
             </h2>
             <p className="mt-2 text-[var(--text-secondary)]">
-              {`${CITIES_SEED.length} villes passées au crible — calibré sur Insee + Ministère Intérieur`}
+              {locale === "en"
+                ? `${CITIES_SEED.length} cities put under the microscope — calibrated on Insee + the French Interior Ministry`
+                : `${CITIES_SEED.length} villes passées au crible — calibré sur Insee + Ministère Intérieur`}
             </p>
           </div>
           <Link
-            href="/villes"
+            href={locale === "en" ? "/cities" : "/villes"}
             className="hidden sm:flex items-center gap-1 text-sm text-[var(--accent)] hover:underline"
           >
-            Toutes les villes
+            {L("Toutes les villes", "All cities")}
             <ArrowRight className="h-4 w-4" />
           </Link>
         </div>
@@ -56,7 +59,7 @@ export function FeaturedCities() {
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {top.map((city, i) => (
             <TiltCard key={city.slug} max={5} scale={1.015}>
-              <CityCard city={city} rank={i + 1} />
+              <CityCard city={city} rank={i + 1} locale={locale} />
             </TiltCard>
           ))}
         </div>

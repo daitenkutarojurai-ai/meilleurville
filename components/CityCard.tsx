@@ -10,6 +10,7 @@ interface CityCardProps {
   city: City;
   rank?: number;
   className?: string;
+  locale?: "fr" | "en";
 }
 
 function gradientForScore(score: number) {
@@ -21,15 +22,16 @@ function gradientForScore(score: number) {
   return "from-red-500 via-rose-400 to-orange-400";
 }
 
-export function CityCard({ city, rank, className }: CityCardProps) {
+export function CityCard({ city, rank, className, locale = "fr" }: CityCardProps) {
   const score = city.scores.global;
   const cover = gradientForScore(score);
   const tier = scoreLabel(score);
+  const L = (fr: string, en: string) => (locale === "en" ? en : fr);
 
   return (
     <Link
-      href={`/villes/${city.slug}`}
-      aria-label={`${city.name} — score ${formatScore(score)} sur 10 (${tier})`}
+      href={locale === "en" ? `/cities/${city.slug}` : `/villes/${city.slug}`}
+      aria-label={`${city.name} — score ${formatScore(score)} ${L("sur", "out of")} 10 (${tier})`}
       className="block h-full"
     >
       <div
@@ -63,7 +65,7 @@ export function CityCard({ city, rank, className }: CityCardProps) {
                   {city.name}
                 </h3>
                 <p className="text-xs text-[var(--text-secondary)]">
-                  {city.region} · {city.population ? formatNumber(city.population) + " hab." : "—"}
+                  {city.region} · {city.population ? formatNumber(city.population) + L(" hab.", " pop.") : "—"}
                 </p>
               </div>
             </div>
@@ -72,13 +74,13 @@ export function CityCard({ city, rank, className }: CityCardProps) {
           <div className="mb-4 flex items-center gap-3">
             <div className={cn("text-3xl font-bold font-mono-data", scoreColor(score))} title={`Score ${tier}`}>
               {formatScore(score)}
-              <span className="sr-only"> sur 10 — {tier}</span>
+              <span className="sr-only"> {L("sur", "out of")} 10 — {tier}</span>
             </div>
             <div className="flex flex-col gap-0.5">
               <div className="flex items-center gap-1">
                 <Star className="h-3 w-3 fill-yellow-400 text-amber-500" />
                 <span className="text-xs text-[var(--text-secondary)]">
-                  {city.reviewCount} avis
+                  {city.reviewCount} {L("avis", "reviews")}
                 </span>
               </div>
             </div>
@@ -87,9 +89,9 @@ export function CityCard({ city, rank, className }: CityCardProps) {
           {/* Mini score grid */}
           <div className="grid grid-cols-3 gap-2 mb-3">
             {[
-              { label: "Nature", val: city.scores.nature },
-              { label: "Transport", val: city.scores.transport },
-              { label: "Coût", val: city.scores.cost },
+              { label: L("Nature", "Nature"), val: city.scores.nature },
+              { label: L("Transport", "Transport"), val: city.scores.transport },
+              { label: L("Coût", "Cost"), val: city.scores.cost },
             ].map(({ label, val }) => (
               <div
                 key={label}

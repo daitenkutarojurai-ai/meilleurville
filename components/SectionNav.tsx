@@ -10,15 +10,15 @@ function readNavbarHeight(): number {
 }
 
 const SECTIONS = [
-  { id: "top5",       label: "Top 5",       emoji: "🏆" },
-  { id: "classements",label: "Classements", emoji: "📊" },
-  { id: "explorer",   label: "Explorer",    emoji: "🔍" },
-  { id: "quiz",       label: "Quiz IA",     emoji: "✨" },
-  { id: "simulateur", label: "Simulateur",  emoji: "💸" },
-  { id: "guides",     label: "Guides",      emoji: "📖" },
+  { id: "top5",       label: "Top 5",       labelEn: "Top 5",      emoji: "🏆" },
+  { id: "classements",label: "Classements", labelEn: "Rankings",   emoji: "📊" },
+  { id: "explorer",   label: "Explorer",    labelEn: "Explore",    emoji: "🔍" },
+  { id: "quiz",       label: "Quiz IA",     labelEn: "AI Quiz",    emoji: "✨" },
+  { id: "simulateur", label: "Simulateur",  labelEn: "Calculator", emoji: "💸" },
+  { id: "guides",     label: "Guides",      labelEn: "Guides",     emoji: "📖" },
 ];
 
-export function SectionNav() {
+export function SectionNav({ locale = "fr" }: { locale?: "fr" | "en" } = {}) {
   const [visible, setVisible] = useState(false);
   const [active, setActive] = useState("");
   const [navHeight, setNavHeight] = useState(56);
@@ -82,7 +82,7 @@ export function SectionNav() {
         visible ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-2 pointer-events-none"
       )}
       style={{ top: navHeight }}
-      aria-label="Navigation sections"
+      aria-label={locale === "en" ? "Section navigation" : "Navigation sections"}
     >
       <div className="border-b border-[var(--border)]/60 bg-[var(--bg-canvas)]/90 backdrop-blur-xl">
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
@@ -99,7 +99,7 @@ export function SectionNav() {
                 )}
               >
                 <span aria-hidden>{s.emoji}</span>
-                {s.label}
+                {locale === "en" ? s.labelEn : s.label}
               </button>
             ))}
           </div>

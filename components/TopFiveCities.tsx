@@ -3,21 +3,22 @@ import { ArrowRight, Trophy } from "lucide-react";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { scoreColor } from "@/lib/utils";
 
-function tagline(city: (typeof CITIES_SEED)[number]): string {
+function tagline(city: (typeof CITIES_SEED)[number], locale: "fr" | "en"): string {
   const s = city.scores;
   const top = [
-    { k: "nature", v: s.nature, label: "nature à portée de main" },
-    { k: "culture", v: s.culture, label: "vie culturelle qui pétille" },
-    { k: "transport", v: s.transport, label: "tout à 15 minutes en transport" },
-    { k: "remoteWork", v: s.remoteWork, label: "paradis du télétravail" },
-    { k: "safety", v: s.safety, label: "sentiment de sécurité au quotidien" },
-    { k: "schools", v: s.schools, label: "très bonnes écoles" },
-    { k: "cost", v: s.cost, label: "loyers raisonnables" },
-    { k: "life", v: s.life, label: "art de vivre assumé" },
+    { k: "nature", v: s.nature, label: locale === "en" ? "nature within reach" : "nature à portée de main" },
+    { k: "culture", v: s.culture, label: locale === "en" ? "a culture scene that buzzes" : "vie culturelle qui pétille" },
+    { k: "transport", v: s.transport, label: locale === "en" ? "everything 15 minutes away by transit" : "tout à 15 minutes en transport" },
+    { k: "remoteWork", v: s.remoteWork, label: locale === "en" ? "a remote-work paradise" : "paradis du télétravail" },
+    { k: "safety", v: s.safety, label: locale === "en" ? "feeling safe day to day" : "sentiment de sécurité au quotidien" },
+    { k: "schools", v: s.schools, label: locale === "en" ? "genuinely good schools" : "très bonnes écoles" },
+    { k: "cost", v: s.cost, label: locale === "en" ? "rents you can live with" : "loyers raisonnables" },
+    { k: "life", v: s.life, label: locale === "en" ? "an unapologetic art of living" : "art de vivre assumé" },
   ].sort((a, b) => b.v - a.v);
 
   const tag = city.characterTags[0];
-  return `${tag ? tag.charAt(0).toUpperCase() + tag.slice(1) : "Équilibrée"} · ${top[0].label}`;
+  const fallback = locale === "en" ? "Well-rounded" : "Équilibrée";
+  return `${tag ? tag.charAt(0).toUpperCase() + tag.slice(1) : fallback} · ${top[0].label}`;
 }
 
 function medal(rank: number): string {
@@ -31,7 +32,8 @@ function rankColor(rank: number): string {
   return "from-slate-200 via-slate-300 to-slate-400";
 }
 
-export function TopFiveCities() {
+export function TopFiveCities({ locale = "fr" }: { locale?: "fr" | "en" } = {}) {
+  const L = (fr: string, en: string) => (locale === "en" ? en : fr);
   const top5 = [...CITIES_SEED]
     .sort((a, b) => b.scores.global - a.scores.global)
     .slice(0, 5);
@@ -46,20 +48,23 @@ export function TopFiveCities() {
           <div>
             <p className="inline-flex items-center gap-2 text-xs uppercase tracking-widest text-[var(--accent)] font-semibold mb-2">
               <Trophy className="h-3.5 w-3.5" />
-              Top 5 villes
+              {L("Top 5 villes", "Top 5 cities")}
             </p>
             <h2 className="text-3xl sm:text-4xl font-bold text-[var(--text-primary)]">
-              Les 5 villes les mieux notées
+              {L("Les 5 villes les mieux notées", "The 5 best-rated cities")}
             </h2>
             <p className="mt-2 text-[var(--text-secondary)]">
-              Mise à jour automatique · Calibré sur {CITIES_SEED.length} villes
+              {L(
+                `Mise à jour automatique · Calibré sur ${CITIES_SEED.length} villes`,
+                `Auto-updated · Calibrated across ${CITIES_SEED.length} cities`,
+              )}
             </p>
           </div>
           <Link
-            href="/villes"
+            href={locale === "en" ? "/cities" : "/villes"}
             className="inline-flex items-center gap-1 text-sm font-medium text-[var(--accent)] hover:underline"
           >
-            Voir le classement complet
+            {L("Voir le classement complet", "See the full ranking")}
             <ArrowRight className="h-4 w-4" />
           </Link>
         </div>
@@ -70,13 +75,13 @@ export function TopFiveCities() {
             return (
               <Link
                 key={city.slug}
-                href={`/villes/${city.slug}`}
+                href={locale === "en" ? `/cities/${city.slug}` : `/villes/${city.slug}`}
                 className="group relative flex flex-col rounded-2xl border border-[var(--border)] bg-[var(--bg-canvas)] hover:border-[var(--accent)]/50 hover:shadow-xl hover:-translate-y-0.5 transition-all overflow-hidden"
               >
                 <div className={`h-1.5 bg-gradient-to-r ${rankColor(rank)}`} aria-hidden />
                 <div className="p-5 flex-1 flex flex-col">
                   <div className="flex items-start justify-between mb-3">
-                    <span className="text-2xl" aria-label={`Rang ${rank}`}>
+                    <span className="text-2xl" aria-label={L(`Rang ${rank}`, `Rank ${rank}`)}>
                       {medal(rank)}
                     </span>
                     <span className="text-xs font-mono-data font-bold text-[var(--text-tertiary)]">
@@ -90,19 +95,19 @@ export function TopFiveCities() {
                     {city.region}
                   </p>
                   <p className="text-xs text-[var(--text-secondary)] mt-3 leading-snug line-clamp-2 sm:line-clamp-3 flex-1">
-                    {tagline(city)}
+                    {tagline(city, locale)}
                   </p>
                   <div className="mt-4 flex items-end justify-between">
                     <div>
                       <div className="text-[10px] uppercase tracking-wider text-[var(--text-tertiary)] font-semibold">
-                        Score global
+                        {L("Score global", "Overall score")}
                       </div>
                       <div className={`text-2xl font-bold font-mono-data ${scoreColor(city.scores.global)}`}>
                         {city.scores.global.toFixed(1)}
                       </div>
                     </div>
                     <span className="text-xs text-[var(--accent)] font-semibold opacity-0 group-hover:opacity-100 transition-opacity">
-                      Voir →
+                      {L("Voir →", "View →")}
                     </span>
                   </div>
                 </div>

@@ -4,6 +4,8 @@ import { Users, MapPin, Star, Sparkles } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import { CITIES_COUNT, RANKINGS_COUNT } from "@/lib/site-stats";
 
+type Locale = "fr" | "en";
+
 interface Stat {
   value: number;
   suffix: string;
@@ -12,12 +14,15 @@ interface Stat {
   accent: string;
 }
 
-const STATS: Stat[] = [
-  { value: CITIES_COUNT,    suffix: "",   label: "villes profilées", icon: MapPin, accent: "from-emerald-400 to-lime-400" },
-  { value: RANKINGS_COUNT,  suffix: "",   label: "classements thématiques", icon: Star, accent: "from-amber-400 to-orange-400" },
-  { value: 8,               suffix: "",   label: "axes de notation", icon: Sparkles, accent: "from-pink-400 to-rose-400" },
-  { value: 100,             suffix: "%",  label: "données ouvertes", icon: Users, accent: "from-sky-400 to-emerald-400" },
-];
+function buildStats(locale: Locale): Stat[] {
+  const L = (fr: string, en: string) => (locale === "en" ? en : fr);
+  return [
+    { value: CITIES_COUNT,    suffix: "",   label: L("villes profilées", "cities profiled"), icon: MapPin, accent: "from-emerald-400 to-lime-400" },
+    { value: RANKINGS_COUNT,  suffix: "",   label: L("classements thématiques", "themed rankings"), icon: Star, accent: "from-amber-400 to-orange-400" },
+    { value: 8,               suffix: "",   label: L("axes de notation", "scoring axes"), icon: Sparkles, accent: "from-pink-400 to-rose-400" },
+    { value: 100,             suffix: "%",  label: L("données ouvertes", "open data"), icon: Users, accent: "from-sky-400 to-emerald-400" },
+  ];
+}
 
 function useCountUp(target: number, started: boolean) {
   const [val, setVal] = useState(0);
@@ -36,7 +41,7 @@ function useCountUp(target: number, started: boolean) {
   return val;
 }
 
-function StatItem({ value, suffix, label, icon: Icon, accent, started }: Stat & { started: boolean }) {
+function StatItem({ value, suffix, label, icon: Icon, accent, started, locale }: Stat & { started: boolean; locale: Locale }) {
   const num = useCountUp(value, started);
   return (
     <div className="group relative flex flex-col items-center text-center">
@@ -44,7 +49,7 @@ function StatItem({ value, suffix, label, icon: Icon, accent, started }: Stat & 
         <Icon className="h-5 w-5 text-white drop-shadow" />
       </div>
       <div className="text-3xl sm:text-4xl font-bold font-mono-data text-[var(--text-primary)] tracking-tight">
-        {num.toLocaleString("fr-FR")}
+        {num.toLocaleString(locale === "en" ? "en-US" : "fr-FR")}
         <span className="text-[var(--accent)]">{suffix}</span>
       </div>
       <div className="text-sm text-[var(--text-secondary)] mt-1">{label}</div>
@@ -52,8 +57,9 @@ function StatItem({ value, suffix, label, icon: Icon, accent, started }: Stat & 
   );
 }
 
-export function StatsBar() {
+export function StatsBar({ locale = "fr" }: { locale?: Locale } = {}) {
   const [started, setStarted] = useState(false);
+  const stats = buildStats(locale);
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -84,8 +90,8 @@ export function StatsBar() {
           <div className="pointer-events-none absolute inset-y-2 left-1/2 hidden sm:block w-px bg-gradient-to-b from-transparent via-[var(--border)] to-transparent" />
           <div className="pointer-events-none absolute inset-y-2 left-3/4 hidden sm:block w-px bg-gradient-to-b from-transparent via-[var(--border)] to-transparent" />
 
-          {STATS.map((s) => (
-            <StatItem key={s.label} {...s} started={started} />
+          {stats.map((s) => (
+            <StatItem key={s.label} {...s} started={started} locale={locale} />
           ))}
         </div>
       </div>

@@ -8,7 +8,8 @@ const COVER_GRADIENTS = [
   "from-sky-300/35 via-emerald-200/25 to-lime-200/20",
 ];
 
-export function GuidesTeaser() {
+export function GuidesTeaser({ locale = "fr" }: { locale?: "fr" | "en" } = {}) {
+  const L = (fr: string, en: string) => (locale === "en" ? en : fr);
   const featured = [...GUIDES]
     .sort((a, b) => new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime())
     .slice(0, 3);
@@ -27,20 +28,31 @@ export function GuidesTeaser() {
         <div className="flex items-end justify-between mb-10">
           <div>
             <p className="text-xs uppercase tracking-widest text-[var(--accent)] font-semibold mb-2">
-              📖 Guides pratiques
+              {L("📖 Guides pratiques", "📖 Practical guides")}
             </p>
             <h2 className="text-3xl sm:text-4xl font-bold text-[var(--text-primary)]">
-              Prenez la <span className="font-display gradient-text-anim italic">meilleure</span> décision
+              {locale === "en" ? (
+                <>
+                  Make the <span className="font-display gradient-text-anim italic">smartest</span> call
+                </>
+              ) : (
+                <>
+                  Prenez la <span className="font-display gradient-text-anim italic">meilleure</span> décision
+                </>
+              )}
             </h2>
             <p className="text-[var(--text-secondary)] mt-2 max-w-lg">
-              Des analyses honnêtes pour choisir où vivre — télétravail, famille, budget, retraite.
+              {L(
+                "Des analyses honnêtes pour choisir où vivre — télétravail, famille, budget, retraite.",
+                "Honest breakdowns to decide where to live — remote work, family, budget, retirement.",
+              )}
             </p>
           </div>
           <Link
             href="/guides"
             className="hidden sm:flex items-center gap-1 text-sm font-medium text-[var(--accent)] hover:underline"
           >
-            Tous les guides →
+            {L("Tous les guides →", "All guides →")}
           </Link>
         </div>
 
@@ -59,7 +71,7 @@ export function GuidesTeaser() {
                 {hero.emoji}
               </div>
               <div className="absolute top-4 right-4 inline-flex items-center gap-1 rounded-full glass px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-[var(--accent)]">
-                ★ À la une
+                {L("★ À la une", "★ Featured")}
               </div>
               <div className="absolute bottom-4 right-4 flex h-10 w-10 items-center justify-center rounded-full bg-white/90 backdrop-blur shadow-lg group-hover:bg-[var(--accent)] transition-colors">
                 <ArrowUpRight className="h-5 w-5 text-[var(--accent)] group-hover:text-white transition-colors" />
@@ -109,7 +121,7 @@ export function GuidesTeaser() {
                     <p className="text-xs text-[var(--text-secondary)] line-clamp-2 leading-relaxed">{guide.intro}</p>
                   </div>
                   <div className="flex items-center gap-1 mt-2 text-xs font-semibold text-[var(--accent)] group-hover:gap-2 transition-all">
-                    Lire <ArrowUpRight className="h-3 w-3" />
+                    {L("Lire", "Read")} <ArrowUpRight className="h-3 w-3" />
                   </div>
                 </div>
               </Link>
@@ -122,7 +134,7 @@ export function GuidesTeaser() {
             href="/guides"
             className="text-sm font-medium text-[var(--accent)] hover:underline"
           >
-            Voir tous les guides →
+            {L("Voir tous les guides →", "See all guides →")}
           </Link>
         </div>
       </div>
