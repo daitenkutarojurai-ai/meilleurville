@@ -1,6 +1,6 @@
 "use client";
 import { useState, useMemo } from "react";
-import { Search, SlidersHorizontal, X, ArrowUpDown, Tag, Users, Mountain, MapPin } from "lucide-react";
+import { Search, SlidersHorizontal, X, ArrowUpDown, Tag, Users, Mountain, MapPin, Vote } from "lucide-react";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { CityCard } from "@/components/CityCard";
 import { Badge } from "@/components/ui/Badge";
@@ -8,6 +8,10 @@ import { Button } from "@/components/ui/Button";
 import { cn } from "@/lib/utils";
 import type { City } from "@/lib/types";
 import { computeNicheScores, TERRAIN_LABELS, type Terrain } from "@/lib/niche-scores";
+import { leanBySlug, leanOptions, BLOC_LABEL, BLOC_COLORS } from "@/lib/political-lean";
+
+const LEAN_MAP = leanBySlug();
+const LEAN_OPTS = leanOptions();
 
 function seedToCity(s: (typeof CITIES_SEED)[number]): City {
   return {
@@ -91,6 +95,7 @@ export function VillesSearch() {
   const [region, setRegion] = useState<string>("");
   const [dept, setDept] = useState<string>("");
   const [tag, setTag] = useState<string>("");
+  const [lean, setLean] = useState<string>("");
   const [niches, setNiches] = useState<Set<NicheKey>>(new Set());
   const [nicheMin, setNicheMin] = useState<number>(7);
   const [terrains, setTerrains] = useState<Set<Terrain>>(new Set());
@@ -138,6 +143,10 @@ export function VillesSearch() {
       result = result.filter((c) => c.characterTags.includes(tag as never));
     }
 
+    if (lean) {
+      result = result.filter((c) => LEAN_MAP[c.slug] === lean);
+    }
+
     if (niches.size > 0) {
       result = result.filter((c) => {
         const n = NICHE_BY_SLUG[c.slug];
@@ -166,20 +175,21 @@ export function VillesSearch() {
         return bv - av;
       })
       .map(seedToCity);
-  }, [query, sortBy, region, dept, tag, niches, nicheMin, terrains]);
+  }, [query, sortBy, region, dept, tag, lean, niches, nicheMin, terrains]);
 
   function clearFilters() {
     setQuery("");
     setRegion("");
     setDept("");
     setTag("");
+    setLean("");
     setNiches(new Set());
     setTerrains(new Set());
     setNicheMin(7);
     setSortBy("global");
   }
 
-  const hasFilters = !!(query || region || dept || tag || sortBy !== "global" || niches.size > 0 || terrains.size > 0);
+  const hasFilters = !!(query || region || dept || tag || lean || sortBy !== "global" || niches.size > 0 || terrains.size > 0);
 
   return (
     <div>
@@ -388,6 +398,32 @@ export function VillesSearch() {
                   <option key={d} value={d}>{d}</option>
                 ))}
               </select>
+            </div>
+          </div>
+
+          <div className="mt-4">
+            <label className="text-xs text-[var(--text-secondary)] flex items-center gap-1.5 mb-2">
+              <Vote className="h-3.5 w-3.5 text-[var(--accent)]" /> Orientation politique
+              <span className="text-[var(--text-tertiary)]">· vote 1ᵉʳ tour 2022 · indicatif</span>
+            </label>
+            <div className="flex flex-wrap gap-2">
+              <button
+                onClick={() => setLean("")}
+                className={`rounded-full px-3 py-1.5 text-xs font-medium border transition-colors ${lean === "" ? "border-[var(--accent)] bg-[var(--accent)]/10 text-[var(--accent)]" : "border-[var(--border)] text-[var(--text-secondary)] hover:border-[var(--accent)]/40"}`}
+              >
+                Toutes
+              </button>
+              {LEAN_OPTS.map((b) => (
+                <button
+                  key={b}
+                  onClick={() => setLean(lean === b ? "" : b)}
+                  className={`rounded-full px-3 py-1.5 text-xs font-medium border transition-colors flex items-center gap-1.5 ${lean === b ? "text-white" : "border-[var(--border)] text-[var(--text-secondary)] hover:border-[var(--accent)]/40"}`}
+                  style={lean === b ? { backgroundColor: BLOC_COLORS[b], borderColor: BLOC_COLORS[b] } : undefined}
+                >
+                  <span className="inline-block h-2 w-2 rounded-sm" style={{ backgroundColor: lean === b ? "rgba(255,255,255,0.9)" : BLOC_COLORS[b] }} />
+                  {BLOC_LABEL.fr[b]}
+                </button>
+              ))}
             </div>
           </div>
         </div>

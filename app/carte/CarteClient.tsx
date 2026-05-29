@@ -6,6 +6,10 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { HOUSING } from "@/data/housing";
 import { DromStrip } from "@/components/DromStrip";
 import { scoreHex as scoreColor } from "@/lib/utils";
+import { leanBySlug, leanOptions, BLOC_LABEL, BLOC_COLORS } from "@/lib/political-lean";
+
+const LEAN_MAP = leanBySlug();
+const LEAN_OPTS = leanOptions();
 
 type ScoreKey = "global" | "nature" | "cost" | "safety" | "transport" | "culture" | "remoteWork" | "schools";
 
@@ -97,7 +101,10 @@ export function CarteClient() {
   const [hover, setHover] = useState<HoverState | null>(null);
   const [mounted, setMounted] = useState(false);
   const [is3D, setIs3D] = useState(false);
+  const [leanFilter, setLeanFilter] = useState<string>("");
   const mapRef = useRef<HTMLDivElement | null>(null);
+
+  const passLean = (slug: string) => !leanFilter || LEAN_MAP[slug] === leanFilter;
 
   useEffect(() => {
     const t = setTimeout(() => setMounted(true), 80);
@@ -126,7 +133,7 @@ export function CarteClient() {
   const dots = useMemo(
     () =>
       [...CITIES_SEED]
-        .filter((c) => isMetropolitan(c.longitude, c.latitude))
+        .filter((c) => isMetropolitan(c.longitude, c.latitude) && passLean(c.slug))
         .sort((a, b) =>
           is3D
             ? a.latitude - b.latitude   // 3D: south first (further from viewer)
@@ -146,7 +153,7 @@ export function CarteClient() {
             delay: i * 8,
           };
         }),
-    [scoreKey, is3D]
+    [scoreKey, is3D, leanFilter]
   );
 
   const hovered = hover ? CITIES_SEED.find((c) => c.slug === hover.slug) : null;
@@ -175,6 +182,37 @@ export function CarteClient() {
             </button>
           );
         })}
+      </div>
+
+      {/* Political-lean filter (2022 presidential 1st round · indicative) */}
+      <div className="flex flex-wrap gap-2 justify-center items-center">
+        <span className="text-xs text-[var(--text-tertiary)] mr-1">Orientation politique :</span>
+        <button
+          onClick={() => setLeanFilter("")}
+          className={
+            "rounded-full px-3 py-1 text-xs font-medium transition-all border " +
+            (leanFilter === ""
+              ? "bg-[var(--accent)] text-white border-[var(--accent)]"
+              : "bg-white/70 backdrop-blur text-[var(--text-secondary)] border-[var(--border)] hover:border-[var(--accent)]/40")
+          }
+        >
+          Toutes
+        </button>
+        {LEAN_OPTS.map((b) => (
+          <button
+            key={b}
+            onClick={() => setLeanFilter(leanFilter === b ? "" : b)}
+            className="rounded-full px-3 py-1 text-xs font-medium transition-all border flex items-center gap-1.5"
+            style={
+              leanFilter === b
+                ? { backgroundColor: BLOC_COLORS[b], borderColor: BLOC_COLORS[b], color: "#fff" }
+                : { borderColor: "var(--border)", color: "var(--text-secondary)" }
+            }
+          >
+            <span className="inline-block h-2 w-2 rounded-sm" style={{ backgroundColor: leanFilter === b ? "rgba(255,255,255,0.9)" : BLOC_COLORS[b] }} />
+            {BLOC_LABEL.fr[b]}
+          </button>
+        ))}
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-6">
@@ -305,7 +343,7 @@ export function CarteClient() {
               {/* Heat layer (top cities for current metric) */}
               <g clipPath="url(#cFranceClip)" opacity="0.55" style={{ mixBlendMode: "screen" }}>
                 {[...CITIES_SEED]
-                  .filter((c) => isMetropolitan(c.longitude, c.latitude) && c.scores[scoreKey] >= 7.5)
+                  .filter((c) => isMetropolitan(c.longitude, c.latitude) && c.scores[scoreKey] >= 7.5 && passLean(c.slug))
                   .map((c) => {
                     const [x, y] = project(c.longitude, c.latitude);
                     const r = 70 + (c.scores[scoreKey] - 7.5) * 30;
@@ -324,7 +362,7 @@ export function CarteClient() {
                     );
                   })}
                 {[...CITIES_SEED]
-                  .filter((c) => isMetropolitan(c.longitude, c.latitude) && c.scores[scoreKey] >= 7.5)
+                  .filter((c) => isMetropolitan(c.longitude, c.latitude) && c.scores[scoreKey] >= 7.5 && passLean(c.slug))
                   .map((c) => {
                     const [x, y] = project(c.longitude, c.latitude);
                     const r = 70 + (c.scores[scoreKey] - 7.5) * 30;

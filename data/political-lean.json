@@ -1,0 +1,7022 @@
+{
+"annecy": {
+"lean": "gauche",
+"topPct": 34.1,
+"blocs": {
+"gauche": 34.1,
+"centre": 33.4,
+"droite": 7.6,
+"extreme_droite": 24.9
+},
+"leanScore": -1.6,
+"insee": "74010",
+"matchedBy": "insee"
+},
+"nantes": {
+"lean": "gauche",
+"topPct": 48.7,
+"blocs": {
+"gauche": 48.7,
+"centre": 29.6,
+"droite": 6.3,
+"extreme_droite": 15.4
+},
+"leanScore": -27.0,
+"insee": "44109",
+"matchedBy": "insee"
+},
+"rennes": {
+"lean": "gauche",
+"topPct": 52.8,
+"blocs": {
+"gauche": 52.8,
+"centre": 29.5,
+"droite": 5.1,
+"extreme_droite": 12.7
+},
+"leanScore": -35.0,
+"insee": "35238",
+"matchedBy": "insee"
+},
+"bordeaux": {
+"lean": "gauche",
+"topPct": 42.4,
+"blocs": {
+"gauche": 42.4,
+"centre": 33.5,
+"droite": 7.6,
+"extreme_droite": 16.6
+},
+"leanScore": -18.2,
+"insee": "33063",
+"matchedBy": "insee"
+},
+"montpellier": {
+"lean": "gauche",
+"topPct": 52.1,
+"blocs": {
+"gauche": 52.1,
+"centre": 22.5,
+"droite": 5.1,
+"extreme_droite": 20.4
+},
+"leanScore": -26.6,
+"insee": "34172",
+"matchedBy": "insee"
+},
+"strasbourg": {
+"lean": "gauche",
+"topPct": 46.1,
+"blocs": {
+"gauche": 46.1,
+"centre": 30.2,
+"droite": 5.2,
+"extreme_droite": 18.5
+},
+"leanScore": -22.4,
+"insee": "67482",
+"matchedBy": "insee"
+},
+"toulouse": {
+"lean": "gauche",
+"topPct": 50.0,
+"blocs": {
+"gauche": 50.0,
+"centre": 26.4,
+"droite": 6.5,
+"extreme_droite": 17.1
+},
+"leanScore": -26.4,
+"insee": "31555",
+"matchedBy": "insee"
+},
+"grenoble": {
+"lean": "gauche",
+"topPct": 53.5,
+"blocs": {
+"gauche": 53.5,
+"centre": 25.3,
+"droite": 4.5,
+"extreme_droite": 16.6
+},
+"leanScore": -32.4,
+"insee": "38185",
+"matchedBy": "insee"
+},
+"nice": {
+"lean": "extreme_droite",
+"topPct": 38.6,
+"blocs": {
+"gauche": 29.3,
+"centre": 25.1,
+"droite": 7.0,
+"extreme_droite": 38.6
+},
+"leanScore": 16.3,
+"insee": "06088",
+"matchedBy": "insee"
+},
+"lyon": {
+"lean": "gauche",
+"topPct": 43.3,
+"blocs": {
+"gauche": 43.3,
+"centre": 31.8,
+"droite": 7.0,
+"extreme_droite": 17.8
+},
+"leanScore": -18.5,
+"insee": "69123",
+"matchedBy": "insee"
+},
+"brest": {
+"lean": "gauche",
+"topPct": 42.0,
+"blocs": {
+"gauche": 42.0,
+"centre": 28.8,
+"droite": 6.1,
+"extreme_droite": 23.1
+},
+"leanScore": -12.8,
+"insee": "29019",
+"matchedBy": "insee"
+},
+"aix-en-provence": {
+"lean": "gauche",
+"topPct": 33.8,
+"blocs": {
+"gauche": 33.8,
+"centre": 30.9,
+"droite": 7.6,
+"extreme_droite": 27.6
+},
+"leanScore": 1.4,
+"insee": "13001",
+"matchedBy": "insee"
+},
+"clermont-ferrand": {
+"lean": "gauche",
+"topPct": 44.2,
+"blocs": {
+"gauche": 44.2,
+"centre": 27.9,
+"droite": 6.4,
+"extreme_droite": 21.5
+},
+"leanScore": -16.3,
+"insee": "63113",
+"matchedBy": "insee"
+},
+"dijon": {
+"lean": "gauche",
+"topPct": 39.0,
+"blocs": {
+"gauche": 39.0,
+"centre": 30.0,
+"droite": 6.7,
+"extreme_droite": 24.3
+},
+"leanScore": -8.0,
+"insee": "21231",
+"matchedBy": "insee"
+},
+"tours": {
+"lean": "gauche",
+"topPct": 41.8,
+"blocs": {
+"gauche": 41.8,
+"centre": 30.1,
+"droite": 6.7,
+"extreme_droite": 21.4
+},
+"leanScore": -13.7,
+"insee": "37261",
+"matchedBy": "insee"
+},
+"reims": {
+"lean": "gauche",
+"topPct": 33.7,
+"blocs": {
+"gauche": 33.7,
+"centre": 29.2,
+"droite": 6.2,
+"extreme_droite": 31.0
+},
+"leanScore": 3.5,
+"insee": "51454",
+"matchedBy": "insee"
+},
+"metz": {
+"lean": "gauche",
+"topPct": 37.4,
+"blocs": {
+"gauche": 37.4,
+"centre": 30.4,
+"droite": 5.8,
+"extreme_droite": 26.4
+},
+"leanScore": -5.2,
+"insee": "57463",
+"matchedBy": "insee"
+},
+"le-mans": {
+"lean": "gauche",
+"topPct": 39.1,
+"blocs": {
+"gauche": 39.1,
+"centre": 30.2,
+"droite": 6.6,
+"extreme_droite": 24.1
+},
+"leanScore": -8.4,
+"insee": "72181",
+"matchedBy": "insee"
+},
+"poitiers": {
+"lean": "gauche",
+"topPct": 47.9,
+"blocs": {
+"gauche": 47.9,
+"centre": 27.6,
+"droite": 6.0,
+"extreme_droite": 18.5
+},
+"leanScore": -23.4,
+"insee": "86194",
+"matchedBy": "insee"
+},
+"limoges": {
+"lean": "gauche",
+"topPct": 38.6,
+"blocs": {
+"gauche": 38.6,
+"centre": 29.2,
+"droite": 8.1,
+"extreme_droite": 24.0
+},
+"leanScore": -6.5,
+"insee": "87085",
+"matchedBy": "insee"
+},
+"caen": {
+"lean": "gauche",
+"topPct": 42.8,
+"blocs": {
+"gauche": 42.8,
+"centre": 32.3,
+"droite": 6.6,
+"extreme_droite": 18.4
+},
+"leanScore": -17.8,
+"insee": "14118",
+"matchedBy": "insee"
+},
+"pau": {
+"lean": "gauche",
+"topPct": 36.9,
+"blocs": {
+"gauche": 36.9,
+"centre": 29.7,
+"droite": 10.4,
+"extreme_droite": 23.0
+},
+"leanScore": -3.5,
+"insee": "64445",
+"matchedBy": "insee"
+},
+"biarritz": {
+"lean": "centre",
+"topPct": 36.0,
+"blocs": {
+"gauche": 27.3,
+"centre": 36.0,
+"droite": 13.2,
+"extreme_droite": 23.5
+},
+"leanScore": 9.4,
+"insee": "64122",
+"matchedBy": "insee"
+},
+"la-rochelle": {
+"lean": "gauche",
+"topPct": 41.0,
+"blocs": {
+"gauche": 41.0,
+"centre": 31.7,
+"droite": 6.7,
+"extreme_droite": 20.6
+},
+"leanScore": -13.7,
+"insee": "17300",
+"matchedBy": "insee"
+},
+"rochefort": {
+"lean": "gauche",
+"topPct": 35.4,
+"blocs": {
+"gauche": 35.4,
+"centre": 27.0,
+"droite": 7.3,
+"extreme_droite": 30.3
+},
+"leanScore": 2.2,
+"insee": "17299",
+"matchedBy": "insee"
+},
+"marseille": {
+"lean": "gauche",
+"topPct": 39.3,
+"blocs": {
+"gauche": 39.3,
+"centre": 22.6,
+"droite": 4.7,
+"extreme_droite": 33.4
+},
+"leanScore": -1.2,
+"insee": "13055",
+"matchedBy": "insee"
+},
+"perpignan": {
+"lean": "extreme_droite",
+"topPct": 38.6,
+"blocs": {
+"gauche": 34.0,
+"centre": 21.4,
+"droite": 5.9,
+"extreme_droite": 38.6
+},
+"leanScore": 10.5,
+"insee": "66136",
+"matchedBy": "insee"
+},
+"rouen": {
+"lean": "gauche",
+"topPct": 45.8,
+"blocs": {
+"gauche": 45.8,
+"centre": 30.1,
+"droite": 5.3,
+"extreme_droite": 18.8
+},
+"leanScore": -21.7,
+"insee": "76540",
+"matchedBy": "insee"
+},
+"toulon": {
+"lean": "extreme_droite",
+"topPct": 41.3,
+"blocs": {
+"gauche": 27.1,
+"centre": 24.2,
+"droite": 7.4,
+"extreme_droite": 41.3
+},
+"leanScore": 21.6,
+"insee": "83137",
+"matchedBy": "insee"
+},
+"amiens": {
+"lean": "gauche",
+"topPct": 40.9,
+"blocs": {
+"gauche": 40.9,
+"centre": 30.1,
+"droite": 4.7,
+"extreme_droite": 24.3
+},
+"leanScore": -11.9,
+"insee": "80021",
+"matchedBy": "insee"
+},
+"besancon": {
+"lean": "gauche",
+"topPct": 44.7,
+"blocs": {
+"gauche": 44.7,
+"centre": 27.7,
+"droite": 6.2,
+"extreme_droite": 21.4
+},
+"leanScore": -17.1,
+"insee": "25056",
+"matchedBy": "insee"
+},
+"angers": {
+"lean": "gauche",
+"topPct": 41.0,
+"blocs": {
+"gauche": 41.0,
+"centre": 33.4,
+"droite": 6.7,
+"extreme_droite": 19.0
+},
+"leanScore": -15.3,
+"insee": "49007",
+"matchedBy": "insee"
+},
+"le-havre": {
+"lean": "gauche",
+"topPct": 41.0,
+"blocs": {
+"gauche": 41.0,
+"centre": 27.5,
+"droite": 4.6,
+"extreme_droite": 26.9
+},
+"leanScore": -9.5,
+"insee": "76351",
+"matchedBy": "insee"
+},
+"saint-etienne": {
+"lean": "gauche",
+"topPct": 43.8,
+"blocs": {
+"gauche": 43.8,
+"centre": 25.1,
+"droite": 5.9,
+"extreme_droite": 25.2
+},
+"leanScore": -12.7,
+"insee": "42218",
+"matchedBy": "insee"
+},
+"orleans": {
+"lean": "gauche",
+"topPct": 40.4,
+"blocs": {
+"gauche": 40.4,
+"centre": 30.4,
+"droite": 7.3,
+"extreme_droite": 21.8
+},
+"leanScore": -11.3,
+"insee": "45234",
+"matchedBy": "insee"
+},
+"lille": {
+"lean": "gauche",
+"topPct": 53.4,
+"blocs": {
+"gauche": 53.4,
+"centre": 25.7,
+"droite": 3.8,
+"extreme_droite": 17.1
+},
+"leanScore": -32.5,
+"insee": "59350",
+"matchedBy": "insee"
+},
+"quimper": {
+"lean": "gauche",
+"topPct": 39.4,
+"blocs": {
+"gauche": 39.4,
+"centre": 33.4,
+"droite": 7.0,
+"extreme_droite": 20.2
+},
+"leanScore": -12.2,
+"insee": "29232",
+"matchedBy": "insee"
+},
+"valence": {
+"lean": "gauche",
+"topPct": 40.3,
+"blocs": {
+"gauche": 40.3,
+"centre": 27.1,
+"droite": 7.0,
+"extreme_droite": 25.6
+},
+"leanScore": -7.7,
+"insee": "26362",
+"matchedBy": "insee"
+},
+"bayonne": {
+"lean": "gauche",
+"topPct": 38.1,
+"blocs": {
+"gauche": 38.1,
+"centre": 27.3,
+"droite": 10.3,
+"extreme_droite": 24.4
+},
+"leanScore": -3.4,
+"insee": "64102",
+"matchedBy": "insee"
+},
+"montauban": {
+"lean": "extreme_droite",
+"topPct": 33.3,
+"blocs": {
+"gauche": 32.4,
+"centre": 25.1,
+"droite": 9.2,
+"extreme_droite": 33.3
+},
+"leanScore": 10.1,
+"insee": "82121",
+"matchedBy": "insee"
+},
+"troyes": {
+"lean": "extreme_droite",
+"topPct": 33.1,
+"blocs": {
+"gauche": 32.5,
+"centre": 27.1,
+"droite": 7.3,
+"extreme_droite": 33.1
+},
+"leanScore": 7.9,
+"insee": "10387",
+"matchedBy": "insee"
+},
+"angouleme": {
+"lean": "gauche",
+"topPct": 44.0,
+"blocs": {
+"gauche": 44.0,
+"centre": 27.3,
+"droite": 6.7,
+"extreme_droite": 22.0
+},
+"leanScore": -15.3,
+"insee": "16015",
+"matchedBy": "insee"
+},
+"lorient": {
+"lean": "gauche",
+"topPct": 38.5,
+"blocs": {
+"gauche": 38.5,
+"centre": 30.3,
+"droite": 6.1,
+"extreme_droite": 25.0
+},
+"leanScore": -7.4,
+"insee": "56121",
+"matchedBy": "insee"
+},
+"arles": {
+"lean": "extreme_droite",
+"topPct": 38.1,
+"blocs": {
+"gauche": 36.6,
+"centre": 19.4,
+"droite": 5.8,
+"extreme_droite": 38.1
+},
+"leanScore": 7.3,
+"insee": "13004",
+"matchedBy": "insee"
+},
+"colmar": {
+"lean": "extreme_droite",
+"topPct": 32.2,
+"blocs": {
+"gauche": 32.2,
+"centre": 28.8,
+"droite": 6.8,
+"extreme_droite": 32.2
+},
+"leanScore": 6.8,
+"insee": "68066",
+"matchedBy": "insee"
+},
+"saint-malo": {
+"lean": "centre",
+"topPct": 37.1,
+"blocs": {
+"gauche": 30.7,
+"centre": 37.1,
+"droite": 8.2,
+"extreme_droite": 24.0
+},
+"leanScore": 1.5,
+"insee": "35288",
+"matchedBy": "insee"
+},
+"avignon": {
+"lean": "gauche",
+"topPct": 46.1,
+"blocs": {
+"gauche": 46.1,
+"centre": 20.4,
+"droite": 5.3,
+"extreme_droite": 28.3
+},
+"leanScore": -12.5,
+"insee": "84007",
+"matchedBy": "insee"
+},
+"chambery": {
+"lean": "gauche",
+"topPct": 45.9,
+"blocs": {
+"gauche": 45.9,
+"centre": 25.5,
+"droite": 6.7,
+"extreme_droite": 22.0
+},
+"leanScore": -17.2,
+"insee": "73065",
+"matchedBy": "insee"
+},
+"frejus": {
+"lean": "extreme_droite",
+"topPct": 50.7,
+"blocs": {
+"gauche": 20.2,
+"centre": 22.6,
+"droite": 6.6,
+"extreme_droite": 50.7
+},
+"leanScore": 37.1,
+"insee": "83061",
+"matchedBy": "insee"
+},
+"libourne": {
+"lean": "gauche",
+"topPct": 33.0,
+"blocs": {
+"gauche": 33.0,
+"centre": 27.0,
+"droite": 8.9,
+"extreme_droite": 31.1
+},
+"leanScore": 7.0,
+"insee": "33227",
+"matchedBy": "insee"
+},
+"nimes": {
+"lean": "gauche",
+"topPct": 38.5,
+"blocs": {
+"gauche": 38.5,
+"centre": 23.2,
+"droite": 6.7,
+"extreme_droite": 31.6
+},
+"leanScore": -0.2,
+"insee": "30189",
+"matchedBy": "insee"
+},
+"gap": {
+"lean": "gauche",
+"topPct": 33.1,
+"blocs": {
+"gauche": 33.1,
+"centre": 26.1,
+"droite": 9.1,
+"extreme_droite": 31.6
+},
+"leanScore": 7.6,
+"insee": "05061",
+"matchedBy": "insee"
+},
+"vannes": {
+"lean": "centre",
+"topPct": 36.8,
+"blocs": {
+"gauche": 31.0,
+"centre": 36.8,
+"droite": 9.4,
+"extreme_droite": 22.7
+},
+"leanScore": 1.1,
+"insee": "56260",
+"matchedBy": "insee"
+},
+"cherbourg": {
+"lean": "gauche",
+"topPct": 36.9,
+"blocs": {
+"gauche": 36.9,
+"centre": 29.4,
+"droite": 6.4,
+"extreme_droite": 27.4
+},
+"leanScore": -3.1,
+"insee": "50129",
+"matchedBy": "insee"
+},
+"tarbes": {
+"lean": "gauche",
+"topPct": 34.3,
+"blocs": {
+"gauche": 34.3,
+"centre": 24.8,
+"droite": 10.1,
+"extreme_droite": 30.7
+},
+"leanScore": 6.5,
+"insee": "65440",
+"matchedBy": "insee"
+},
+"nancy": {
+"lean": "gauche",
+"topPct": 41.8,
+"blocs": {
+"gauche": 41.8,
+"centre": 32.0,
+"droite": 6.8,
+"extreme_droite": 19.4
+},
+"leanScore": -15.6,
+"insee": "54395",
+"matchedBy": "insee"
+},
+"montlucon": {
+"lean": "gauche",
+"topPct": 33.1,
+"blocs": {
+"gauche": 33.1,
+"centre": 25.8,
+"droite": 8.5,
+"extreme_droite": 32.6
+},
+"leanScore": 8.0,
+"insee": "03185",
+"matchedBy": "insee"
+},
+"charleville-mezieres": {
+"lean": "gauche",
+"topPct": 34.5,
+"blocs": {
+"gauche": 34.5,
+"centre": 25.5,
+"droite": 6.1,
+"extreme_droite": 33.8
+},
+"leanScore": 5.4,
+"insee": "08105",
+"matchedBy": "insee"
+},
+"boulogne-sur-mer": {
+"lean": "extreme_droite",
+"topPct": 39.3,
+"blocs": {
+"gauche": 30.4,
+"centre": 26.0,
+"droite": 4.2,
+"extreme_droite": 39.3
+},
+"leanScore": 13.1,
+"insee": "62160",
+"matchedBy": "insee"
+},
+"niort": {
+"lean": "gauche",
+"topPct": 39.5,
+"blocs": {
+"gauche": 39.5,
+"centre": 35.1,
+"droite": 5.9,
+"extreme_droite": 19.5
+},
+"leanScore": -14.1,
+"insee": "79191",
+"matchedBy": "insee"
+},
+"albi": {
+"lean": "gauche",
+"topPct": 36.9,
+"blocs": {
+"gauche": 36.9,
+"centre": 28.5,
+"droite": 9.0,
+"extreme_droite": 25.7
+},
+"leanScore": -2.2,
+"insee": "81004",
+"matchedBy": "insee"
+},
+"ajaccio": {
+"lean": "extreme_droite",
+"topPct": 45.8,
+"blocs": {
+"gauche": 23.0,
+"centre": 19.0,
+"droite": 12.2,
+"extreme_droite": 45.8
+},
+"leanScore": 35.0,
+"insee": "2A004",
+"matchedBy": "insee"
+},
+"mulhouse": {
+"lean": "gauche",
+"topPct": 44.4,
+"blocs": {
+"gauche": 44.4,
+"centre": 25.2,
+"droite": 4.7,
+"extreme_droite": 25.8
+},
+"leanScore": -13.9,
+"insee": "68224",
+"matchedBy": "insee"
+},
+"dunkerque": {
+"lean": "extreme_droite",
+"topPct": 37.3,
+"blocs": {
+"gauche": 30.9,
+"centre": 26.9,
+"droite": 4.9,
+"extreme_droite": 37.3
+},
+"leanScore": 11.3,
+"insee": "59183",
+"matchedBy": "insee"
+},
+"cannes": {
+"lean": "extreme_droite",
+"topPct": 43.8,
+"blocs": {
+"gauche": 21.2,
+"centre": 26.2,
+"droite": 8.8,
+"extreme_droite": 43.8
+},
+"leanScore": 31.4,
+"insee": "06029",
+"matchedBy": "insee"
+},
+"perigueux": {
+"lean": "gauche",
+"topPct": 36.4,
+"blocs": {
+"gauche": 36.4,
+"centre": 29.2,
+"droite": 8.7,
+"extreme_droite": 25.8
+},
+"leanScore": -1.9,
+"insee": "24322",
+"matchedBy": "insee"
+},
+"ales": {
+"lean": "extreme_droite",
+"topPct": 51.8,
+"blocs": {
+"gauche": 24.2,
+"centre": 17.6,
+"droite": 6.5,
+"extreme_droite": 51.8
+},
+"leanScore": 34.1,
+"insee": "30006",
+"matchedBy": "insee"
+},
+"chartres": {
+"lean": "gauche",
+"topPct": 33.9,
+"blocs": {
+"gauche": 33.9,
+"centre": 30.8,
+"droite": 8.9,
+"extreme_droite": 26.4
+},
+"leanScore": 1.4,
+"insee": "28085",
+"matchedBy": "insee"
+},
+"blois": {
+"lean": "gauche",
+"topPct": 41.1,
+"blocs": {
+"gauche": 41.1,
+"centre": 28.3,
+"droite": 6.7,
+"extreme_droite": 23.8
+},
+"leanScore": -10.6,
+"insee": "41018",
+"matchedBy": "insee"
+},
+"beziers": {
+"lean": "extreme_droite",
+"topPct": 43.3,
+"blocs": {
+"gauche": 29.8,
+"centre": 19.9,
+"droite": 7.0,
+"extreme_droite": 43.3
+},
+"leanScore": 20.5,
+"insee": "34032",
+"matchedBy": "insee"
+},
+"laval": {
+"lean": "gauche",
+"topPct": 35.8,
+"blocs": {
+"gauche": 35.8,
+"centre": 35.8,
+"droite": 7.0,
+"extreme_droite": 21.4
+},
+"leanScore": -7.4,
+"insee": "53130",
+"matchedBy": "insee"
+},
+"sete": {
+"lean": "gauche",
+"topPct": 34.8,
+"blocs": {
+"gauche": 34.8,
+"centre": 24.7,
+"droite": 7.2,
+"extreme_droite": 33.4
+},
+"leanScore": 5.8,
+"insee": "34295",
+"matchedBy": "insee"
+},
+"rodez": {
+"lean": "gauche",
+"topPct": 33.4,
+"blocs": {
+"gauche": 33.4,
+"centre": 33.3,
+"droite": 10.5,
+"extreme_droite": 22.8
+},
+"leanScore": -0.1,
+"insee": "12202",
+"matchedBy": "insee"
+},
+"cahors": {
+"lean": "gauche",
+"topPct": 39.5,
+"blocs": {
+"gauche": 39.5,
+"centre": 26.6,
+"droite": 9.1,
+"extreme_droite": 24.8
+},
+"leanScore": -5.6,
+"insee": "46042",
+"matchedBy": "insee"
+},
+"agen": {
+"lean": "gauche",
+"topPct": 36.7,
+"blocs": {
+"gauche": 36.7,
+"centre": 25.7,
+"droite": 8.8,
+"extreme_droite": 28.8
+},
+"leanScore": 0.9,
+"insee": "47001",
+"matchedBy": "insee"
+},
+"macon": {
+"lean": "gauche",
+"topPct": 37.3,
+"blocs": {
+"gauche": 37.3,
+"centre": 29.1,
+"droite": 6.7,
+"extreme_droite": 26.9
+},
+"leanScore": -3.7,
+"insee": "71270",
+"matchedBy": "insee"
+},
+"chalon-sur-saone": {
+"lean": "gauche",
+"topPct": 35.8,
+"blocs": {
+"gauche": 35.8,
+"centre": 28.3,
+"droite": 7.3,
+"extreme_droite": 28.6
+},
+"leanScore": 0.1,
+"insee": "71076",
+"matchedBy": "insee"
+},
+"bourg-en-bresse": {
+"lean": "gauche",
+"topPct": 37.2,
+"blocs": {
+"gauche": 37.2,
+"centre": 28.0,
+"droite": 7.7,
+"extreme_droite": 27.1
+},
+"leanScore": -2.4,
+"insee": "01053",
+"matchedBy": "insee"
+},
+"evreux": {
+"lean": "gauche",
+"topPct": 39.1,
+"blocs": {
+"gauche": 39.1,
+"centre": 27.1,
+"droite": 6.1,
+"extreme_droite": 27.6
+},
+"leanScore": -5.4,
+"insee": "27229",
+"matchedBy": "insee"
+},
+"antibes": {
+"lean": "extreme_droite",
+"topPct": 40.5,
+"blocs": {
+"gauche": 22.8,
+"centre": 28.2,
+"droite": 8.5,
+"extreme_droite": 40.5
+},
+"leanScore": 26.2,
+"insee": "06004",
+"matchedBy": "insee"
+},
+"thionville": {
+"lean": "centre",
+"topPct": 33.2,
+"blocs": {
+"gauche": 30.0,
+"centre": 33.2,
+"droite": 6.4,
+"extreme_droite": 30.5
+},
+"leanScore": 6.9,
+"insee": "57672",
+"matchedBy": "insee"
+},
+"arras": {
+"lean": "gauche",
+"topPct": 33.5,
+"blocs": {
+"gauche": 33.5,
+"centre": 29.5,
+"droite": 5.8,
+"extreme_droite": 31.2
+},
+"leanScore": 3.5,
+"insee": "62041",
+"matchedBy": "insee"
+},
+"carcassonne": {
+"lean": "extreme_droite",
+"topPct": 36.7,
+"blocs": {
+"gauche": 33.1,
+"centre": 22.1,
+"droite": 8.0,
+"extreme_droite": 36.7
+},
+"leanScore": 11.6,
+"insee": "11069",
+"matchedBy": "insee"
+},
+"bayeux": {
+"lean": "centre",
+"topPct": 34.7,
+"blocs": {
+"gauche": 29.7,
+"centre": 34.7,
+"droite": 7.4,
+"extreme_droite": 28.1
+},
+"leanScore": 5.8,
+"insee": "14047",
+"matchedBy": "insee"
+},
+"saint-brieuc": {
+"lean": "gauche",
+"topPct": 42.5,
+"blocs": {
+"gauche": 42.5,
+"centre": 30.2,
+"droite": 6.0,
+"extreme_droite": 21.3
+},
+"leanScore": -15.2,
+"insee": "22278",
+"matchedBy": "insee"
+},
+"saint-nazaire": {
+"lean": "gauche",
+"topPct": 42.6,
+"blocs": {
+"gauche": 42.6,
+"centre": 28.3,
+"droite": 5.6,
+"extreme_droite": 23.5
+},
+"leanScore": -13.5,
+"insee": "44184",
+"matchedBy": "insee"
+},
+"clermont-herault": {
+"lean": "extreme_droite",
+"topPct": 44.2,
+"blocs": {
+"gauche": 25.2,
+"centre": 22.5,
+"droite": 8.1,
+"extreme_droite": 44.2
+},
+"leanScore": 27.1,
+"insee": "34065",
+"matchedBy": "insee"
+},
+"chalons-en-champagne": {
+"lean": "extreme_droite",
+"topPct": 34.8,
+"blocs": {
+"gauche": 31.8,
+"centre": 26.2,
+"droite": 7.2,
+"extreme_droite": 34.8
+},
+"leanScore": 10.2,
+"insee": "51108",
+"matchedBy": "insee"
+},
+"auxerre": {
+"lean": "gauche",
+"topPct": 35.7,
+"blocs": {
+"gauche": 35.7,
+"centre": 28.7,
+"droite": 7.3,
+"extreme_droite": 28.3
+},
+"leanScore": -0.1,
+"insee": "89024",
+"matchedBy": "insee"
+},
+"belfort": {
+"lean": "gauche",
+"topPct": 39.2,
+"blocs": {
+"gauche": 39.2,
+"centre": 24.2,
+"droite": 7.2,
+"extreme_droite": 29.3
+},
+"leanScore": -2.7,
+"insee": "90010",
+"matchedBy": "insee"
+},
+"vichy": {
+"lean": "extreme_droite",
+"topPct": 32.4,
+"blocs": {
+"gauche": 26.1,
+"centre": 31.9,
+"droite": 9.6,
+"extreme_droite": 32.4
+},
+"leanScore": 15.9,
+"insee": "03310",
+"matchedBy": "insee"
+},
+"alencon": {
+"lean": "gauche",
+"topPct": 34.5,
+"blocs": {
+"gauche": 34.5,
+"centre": 31.1,
+"droite": 7.0,
+"extreme_droite": 27.4
+},
+"leanScore": -0.1,
+"insee": "61001",
+"matchedBy": "insee"
+},
+"millau": {
+"lean": "gauche",
+"topPct": 36.7,
+"blocs": {
+"gauche": 36.7,
+"centre": 25.6,
+"droite": 9.7,
+"extreme_droite": 28.0
+},
+"leanScore": 1.0,
+"insee": "12145",
+"matchedBy": "insee"
+},
+"cognac": {
+"lean": "centre",
+"topPct": 31.4,
+"blocs": {
+"gauche": 29.9,
+"centre": 31.4,
+"droite": 8.3,
+"extreme_droite": 30.4
+},
+"leanScore": 8.8,
+"insee": "16102",
+"matchedBy": "insee"
+},
+"epinal": {
+"lean": "gauche",
+"topPct": 34.0,
+"blocs": {
+"gauche": 34.0,
+"centre": 29.9,
+"droite": 7.3,
+"extreme_droite": 28.8
+},
+"leanScore": 2.1,
+"insee": "88160",
+"matchedBy": "insee"
+},
+"montelimar": {
+"lean": "extreme_droite",
+"topPct": 35.4,
+"blocs": {
+"gauche": 31.3,
+"centre": 25.9,
+"droite": 7.5,
+"extreme_droite": 35.4
+},
+"leanScore": 11.6,
+"insee": "26198",
+"matchedBy": "insee"
+},
+"figeac": {
+"lean": "gauche",
+"topPct": 40.0,
+"blocs": {
+"gauche": 40.0,
+"centre": 28.1,
+"droite": 10.0,
+"extreme_droite": 21.9
+},
+"leanScore": -8.1,
+"insee": "46102",
+"matchedBy": "insee"
+},
+"romans-sur-isere": {
+"lean": "gauche",
+"topPct": 37.8,
+"blocs": {
+"gauche": 37.8,
+"centre": 25.9,
+"droite": 6.2,
+"extreme_droite": 30.1
+},
+"leanScore": -1.5,
+"insee": "26281",
+"matchedBy": "insee"
+},
+"cholet": {
+"lean": "centre",
+"topPct": 38.2,
+"blocs": {
+"gauche": 31.5,
+"centre": 38.2,
+"droite": 7.6,
+"extreme_droite": 22.7
+},
+"leanScore": -1.2,
+"insee": "49099",
+"matchedBy": "insee"
+},
+"draguignan": {
+"lean": "extreme_droite",
+"topPct": 46.8,
+"blocs": {
+"gauche": 23.5,
+"centre": 22.6,
+"droite": 7.1,
+"extreme_droite": 46.8
+},
+"leanScore": 30.4,
+"insee": "83050",
+"matchedBy": "insee"
+},
+"saintes": {
+"lean": "gauche",
+"topPct": 36.0,
+"blocs": {
+"gauche": 36.0,
+"centre": 29.2,
+"droite": 7.4,
+"extreme_droite": 27.3
+},
+"leanScore": -1.3,
+"insee": "17415",
+"matchedBy": "insee"
+},
+"aix-les-bains": {
+"lean": "extreme_droite",
+"topPct": 31.6,
+"blocs": {
+"gauche": 29.4,
+"centre": 30.3,
+"droite": 8.6,
+"extreme_droite": 31.6
+},
+"leanScore": 10.8,
+"insee": "73008",
+"matchedBy": "insee"
+},
+"bergerac": {
+"lean": "extreme_droite",
+"topPct": 32.9,
+"blocs": {
+"gauche": 31.6,
+"centre": 26.2,
+"droite": 9.3,
+"extreme_droite": 32.9
+},
+"leanScore": 10.6,
+"insee": "24037",
+"matchedBy": "insee"
+},
+"arcachon": {
+"lean": "centre",
+"topPct": 39.7,
+"blocs": {
+"gauche": 15.8,
+"centre": 39.7,
+"droite": 14.7,
+"extreme_droite": 29.8
+},
+"leanScore": 28.7,
+"insee": "33009",
+"matchedBy": "insee"
+},
+"thonon-les-bains": {
+"lean": "gauche",
+"topPct": 34.3,
+"blocs": {
+"gauche": 34.3,
+"centre": 29.5,
+"droite": 7.0,
+"extreme_droite": 29.2
+},
+"leanScore": 1.9,
+"insee": "74281",
+"matchedBy": "insee"
+},
+"salon-de-provence": {
+"lean": "extreme_droite",
+"topPct": 39.4,
+"blocs": {
+"gauche": 29.2,
+"centre": 23.3,
+"droite": 8.1,
+"extreme_droite": 39.4
+},
+"leanScore": 18.3,
+"insee": "13103",
+"matchedBy": "insee"
+},
+"martigues": {
+"lean": "extreme_droite",
+"topPct": 41.7,
+"blocs": {
+"gauche": 35.1,
+"centre": 18.1,
+"droite": 5.2,
+"extreme_droite": 41.7
+},
+"leanScore": 11.8,
+"insee": "13056",
+"matchedBy": "insee"
+},
+"calais": {
+"lean": "extreme_droite",
+"topPct": 46.9,
+"blocs": {
+"gauche": 27.7,
+"centre": 21.1,
+"droite": 4.3,
+"extreme_droite": 46.9
+},
+"leanScore": 23.5,
+"insee": "62193",
+"matchedBy": "insee"
+},
+"lens": {
+"lean": "extreme_droite",
+"topPct": 45.2,
+"blocs": {
+"gauche": 30.8,
+"centre": 20.8,
+"droite": 3.2,
+"extreme_droite": 45.2
+},
+"leanScore": 17.6,
+"insee": "62498",
+"matchedBy": "insee"
+},
+"valenciennes": {
+"lean": "extreme_droite",
+"topPct": 33.3,
+"blocs": {
+"gauche": 32.6,
+"centre": 28.9,
+"droite": 5.2,
+"extreme_droite": 33.3
+},
+"leanScore": 5.9,
+"insee": "59606",
+"matchedBy": "insee"
+},
+"castres": {
+"lean": "extreme_droite",
+"topPct": 34.0,
+"blocs": {
+"gauche": 29.4,
+"centre": 25.6,
+"droite": 11.0,
+"extreme_droite": 34.0
+},
+"leanScore": 15.6,
+"insee": "81065",
+"matchedBy": "insee"
+},
+"hyeres": {
+"lean": "extreme_droite",
+"topPct": 41.8,
+"blocs": {
+"gauche": 23.3,
+"centre": 26.9,
+"droite": 8.0,
+"extreme_droite": 41.8
+},
+"leanScore": 26.5,
+"insee": "83069",
+"matchedBy": "insee"
+},
+"haguenau": {
+"lean": "extreme_droite",
+"topPct": 37.8,
+"blocs": {
+"gauche": 23.4,
+"centre": 31.4,
+"droite": 7.4,
+"extreme_droite": 37.8
+},
+"leanScore": 21.8,
+"insee": "67180",
+"matchedBy": "insee"
+},
+"roanne": {
+"lean": "extreme_droite",
+"topPct": 31.9,
+"blocs": {
+"gauche": 31.5,
+"centre": 29.3,
+"droite": 7.3,
+"extreme_droite": 31.9
+},
+"leanScore": 7.7,
+"insee": "42187",
+"matchedBy": "insee"
+},
+"douai": {
+"lean": "gauche",
+"topPct": 36.2,
+"blocs": {
+"gauche": 36.2,
+"centre": 23.9,
+"droite": 4.6,
+"extreme_droite": 35.3
+},
+"leanScore": 3.7,
+"insee": "59178",
+"matchedBy": "insee"
+},
+"cambrai": {
+"lean": "extreme_droite",
+"topPct": 41.8,
+"blocs": {
+"gauche": 25.5,
+"centre": 26.9,
+"droite": 5.7,
+"extreme_droite": 41.8
+},
+"leanScore": 22.0,
+"insee": "59122",
+"matchedBy": "insee"
+},
+"montbeliard": {
+"lean": "gauche",
+"topPct": 38.5,
+"blocs": {
+"gauche": 38.5,
+"centre": 25.2,
+"droite": 7.4,
+"extreme_droite": 28.9
+},
+"leanScore": -2.2,
+"insee": "25388",
+"matchedBy": "insee"
+},
+"aurillac": {
+"lean": "gauche",
+"topPct": 32.5,
+"blocs": {
+"gauche": 32.5,
+"centre": 32.1,
+"droite": 9.9,
+"extreme_droite": 25.5
+},
+"leanScore": 2.9,
+"insee": "15014",
+"matchedBy": "insee"
+},
+"chatellerault": {
+"lean": "gauche",
+"topPct": 32.4,
+"blocs": {
+"gauche": 32.4,
+"centre": 30.0,
+"droite": 7.0,
+"extreme_droite": 30.7
+},
+"leanScore": 5.3,
+"insee": "86066",
+"matchedBy": "insee"
+},
+"annemasse": {
+"lean": "gauche",
+"topPct": 42.3,
+"blocs": {
+"gauche": 42.3,
+"centre": 26.1,
+"droite": 5.2,
+"extreme_droite": 26.5
+},
+"leanScore": -10.6,
+"insee": "74012",
+"matchedBy": "insee"
+},
+"compiegne": {
+"lean": "gauche",
+"topPct": 34.3,
+"blocs": {
+"gauche": 34.3,
+"centre": 29.5,
+"droite": 8.1,
+"extreme_droite": 28.1
+},
+"leanScore": 1.9,
+"insee": "60159",
+"matchedBy": "insee"
+},
+"beauvais": {
+"lean": "gauche",
+"topPct": 36.2,
+"blocs": {
+"gauche": 36.2,
+"centre": 26.3,
+"droite": 5.1,
+"extreme_droite": 32.4
+},
+"leanScore": 1.3,
+"insee": "60057",
+"matchedBy": "insee"
+},
+"narbonne": {
+"lean": "extreme_droite",
+"topPct": 38.2,
+"blocs": {
+"gauche": 31.9,
+"centre": 22.3,
+"droite": 7.5,
+"extreme_droite": 38.2
+},
+"leanScore": 13.8,
+"insee": "11262",
+"matchedBy": "insee"
+},
+"saint-quentin": {
+"lean": "extreme_droite",
+"topPct": 40.4,
+"blocs": {
+"gauche": 27.5,
+"centre": 25.3,
+"droite": 6.8,
+"extreme_droite": 40.4
+},
+"leanScore": 19.7,
+"insee": "02691",
+"matchedBy": "insee"
+},
+"selestat": {
+"lean": "extreme_droite",
+"topPct": 32.8,
+"blocs": {
+"gauche": 31.9,
+"centre": 28.9,
+"droite": 6.4,
+"extreme_droite": 32.8
+},
+"leanScore": 7.3,
+"insee": "67462",
+"matchedBy": "insee"
+},
+"bourges": {
+"lean": "gauche",
+"topPct": 34.9,
+"blocs": {
+"gauche": 34.9,
+"centre": 31.0,
+"droite": 7.7,
+"extreme_droite": 26.4
+},
+"leanScore": -0.8,
+"insee": "18033",
+"matchedBy": "insee"
+},
+"chateauroux": {
+"lean": "gauche",
+"topPct": 35.0,
+"blocs": {
+"gauche": 35.0,
+"centre": 28.8,
+"droite": 7.7,
+"extreme_droite": 28.5
+},
+"leanScore": 1.2,
+"insee": "36044",
+"matchedBy": "insee"
+},
+"brive-la-gaillarde": {
+"lean": "gauche",
+"topPct": 31.6,
+"blocs": {
+"gauche": 31.6,
+"centre": 27.3,
+"droite": 12.7,
+"extreme_droite": 28.4
+},
+"leanScore": 9.5,
+"insee": "19031",
+"matchedBy": "insee"
+},
+"auch": {
+"lean": "gauche",
+"topPct": 38.7,
+"blocs": {
+"gauche": 38.7,
+"centre": 27.4,
+"droite": 10.1,
+"extreme_droite": 23.8
+},
+"leanScore": -4.8,
+"insee": "32013",
+"matchedBy": "insee"
+},
+"dole": {
+"lean": "gauche",
+"topPct": 34.6,
+"blocs": {
+"gauche": 34.6,
+"centre": 26.6,
+"droite": 8.4,
+"extreme_droite": 30.4
+},
+"leanScore": 4.2,
+"insee": "39198",
+"matchedBy": "insee"
+},
+"lannion": {
+"lean": "gauche",
+"topPct": 44.0,
+"blocs": {
+"gauche": 44.0,
+"centre": 29.5,
+"droite": 6.4,
+"extreme_droite": 20.0
+},
+"leanScore": -17.6,
+"insee": "22113",
+"matchedBy": "insee"
+},
+"paris": {
+"lean": "gauche",
+"topPct": 42.3,
+"blocs": {
+"gauche": 42.3,
+"centre": 35.3,
+"droite": 7.7,
+"extreme_droite": 14.6
+},
+"leanScore": -20.0,
+"insee": "75056",
+"matchedBy": "insee"
+},
+"versailles": {
+"lean": "centre",
+"topPct": 33.1,
+"blocs": {
+"gauche": 22.5,
+"centre": 33.1,
+"droite": 15.8,
+"extreme_droite": 28.6
+},
+"leanScore": 21.9,
+"insee": "78646",
+"matchedBy": "insee"
+},
+"boulogne-billancourt": {
+"lean": "centre",
+"topPct": 45.6,
+"blocs": {
+"gauche": 24.2,
+"centre": 45.6,
+"droite": 11.8,
+"extreme_droite": 18.4
+},
+"leanScore": 6.0,
+"insee": "92012",
+"matchedBy": "insee"
+},
+"montreuil": {
+"lean": "gauche",
+"topPct": 67.9,
+"blocs": {
+"gauche": 67.9,
+"centre": 18.2,
+"droite": 2.9,
+"extreme_droite": 11.0
+},
+"leanScore": -54.0,
+"insee": "93048",
+"matchedBy": "insee"
+},
+"vincennes": {
+"lean": "centre",
+"topPct": 39.0,
+"blocs": {
+"gauche": 35.9,
+"centre": 39.0,
+"droite": 8.8,
+"extreme_droite": 16.3
+},
+"leanScore": -10.8,
+"insee": "94080",
+"matchedBy": "insee"
+},
+"cergy": {
+"lean": "gauche",
+"topPct": 55.7,
+"blocs": {
+"gauche": 55.7,
+"centre": 23.7,
+"droite": 4.9,
+"extreme_droite": 15.7
+},
+"leanScore": -35.1,
+"insee": "95127",
+"matchedBy": "insee"
+},
+"saint-denis": {
+"lean": "gauche",
+"topPct": 68.8,
+"blocs": {
+"gauche": 68.8,
+"centre": 16.2,
+"droite": 2.7,
+"extreme_droite": 12.3
+},
+"leanScore": -53.8,
+"insee": "93066",
+"matchedBy": "insee"
+},
+"levallois-perret": {
+"lean": "centre",
+"topPct": 42.0,
+"blocs": {
+"gauche": 24.2,
+"centre": 42.0,
+"droite": 11.6,
+"extreme_droite": 22.3
+},
+"leanScore": 9.7,
+"insee": "92044",
+"matchedBy": "insee"
+},
+"issy-les-moulineaux": {
+"lean": "centre",
+"topPct": 40.0,
+"blocs": {
+"gauche": 33.3,
+"centre": 40.0,
+"droite": 9.6,
+"extreme_droite": 17.1
+},
+"leanScore": -6.6,
+"insee": "92040",
+"matchedBy": "insee"
+},
+"neuilly-sur-seine": {
+"lean": "centre",
+"topPct": 49.0,
+"blocs": {
+"gauche": 9.6,
+"centre": 49.0,
+"droite": 16.2,
+"extreme_droite": 25.2
+},
+"leanScore": 31.8,
+"insee": "92051",
+"matchedBy": "insee"
+},
+"fontainebleau": {
+"lean": "centre",
+"topPct": 33.8,
+"blocs": {
+"gauche": 28.2,
+"centre": 33.8,
+"droite": 11.5,
+"extreme_droite": 26.5
+},
+"leanScore": 9.8,
+"insee": "77186",
+"matchedBy": "insee"
+},
+"saint-germain-en-laye": {
+"lean": "centre",
+"topPct": 41.7,
+"blocs": {
+"gauche": 25.4,
+"centre": 41.7,
+"droite": 12.4,
+"extreme_droite": 20.5
+},
+"leanScore": 7.5,
+"insee": "78551",
+"matchedBy": "insee"
+},
+"bastia": {
+"lean": "extreme_droite",
+"topPct": 42.8,
+"blocs": {
+"gauche": 27.8,
+"centre": 17.5,
+"droite": 11.9,
+"extreme_droite": 42.8
+},
+"leanScore": 26.9,
+"insee": "2B033",
+"matchedBy": "insee"
+},
+"pantin": {
+"lean": "gauche",
+"topPct": 65.6,
+"blocs": {
+"gauche": 65.6,
+"centre": 18.7,
+"droite": 3.2,
+"extreme_droite": 12.5
+},
+"leanScore": -49.9,
+"insee": "93055",
+"matchedBy": "insee"
+},
+"ivry-sur-seine": {
+"lean": "gauche",
+"topPct": 61.5,
+"blocs": {
+"gauche": 61.5,
+"centre": 20.9,
+"droite": 3.5,
+"extreme_droite": 14.1
+},
+"leanScore": -43.9,
+"insee": "94041",
+"matchedBy": "insee"
+},
+"creteil": {
+"lean": "gauche",
+"topPct": 48.7,
+"blocs": {
+"gauche": 48.7,
+"centre": 26.0,
+"droite": 5.5,
+"extreme_droite": 19.7
+},
+"leanScore": -23.5,
+"insee": "94028",
+"matchedBy": "insee"
+},
+"rueil-malmaison": {
+"lean": "centre",
+"topPct": 41.5,
+"blocs": {
+"gauche": 29.2,
+"centre": 41.5,
+"droite": 11.0,
+"extreme_droite": 18.3
+},
+"leanScore": 0.1,
+"insee": "92063",
+"matchedBy": "insee"
+},
+"colombes": {
+"lean": "gauche",
+"topPct": 45.9,
+"blocs": {
+"gauche": 45.9,
+"centre": 31.7,
+"droite": 6.6,
+"extreme_droite": 15.8
+},
+"leanScore": -23.5,
+"insee": "92025",
+"matchedBy": "insee"
+},
+"argenteuil": {
+"lean": "gauche",
+"topPct": 56.3,
+"blocs": {
+"gauche": 56.3,
+"centre": 21.1,
+"droite": 4.5,
+"extreme_droite": 18.1
+},
+"leanScore": -33.7,
+"insee": "95018",
+"matchedBy": "insee"
+},
+"nanterre": {
+"lean": "gauche",
+"topPct": 56.1,
+"blocs": {
+"gauche": 56.1,
+"centre": 24.4,
+"droite": 4.5,
+"extreme_droite": 15.0
+},
+"leanScore": -36.6,
+"insee": "92050",
+"matchedBy": "insee"
+},
+"vitry-sur-seine": {
+"lean": "gauche",
+"topPct": 55.1,
+"blocs": {
+"gauche": 55.1,
+"centre": 22.9,
+"droite": 4.2,
+"extreme_droite": 17.8
+},
+"leanScore": -33.1,
+"insee": "94081",
+"matchedBy": "insee"
+},
+"courbevoie": {
+"lean": "centre",
+"topPct": 39.6,
+"blocs": {
+"gauche": 31.2,
+"centre": 39.6,
+"droite": 10.3,
+"extreme_droite": 18.9
+},
+"leanScore": -2.0,
+"insee": "92026",
+"matchedBy": "insee"
+},
+"noisy-le-grand": {
+"lean": "gauche",
+"topPct": 47.0,
+"blocs": {
+"gauche": 47.0,
+"centre": 19.5,
+"droite": 5.6,
+"extreme_droite": 27.9
+},
+"leanScore": -13.5,
+"insee": "93047",
+"matchedBy": "insee"
+},
+"evry-courcouronnes": {
+"lean": "gauche",
+"topPct": 57.1,
+"blocs": {
+"gauche": 57.1,
+"centre": 21.6,
+"droite": 4.6,
+"extreme_droite": 16.6
+},
+"leanScore": -35.9,
+"insee": "91228",
+"matchedBy": "insee"
+},
+"menton": {
+"lean": "extreme_droite",
+"topPct": 49.4,
+"blocs": {
+"gauche": 20.5,
+"centre": 23.5,
+"droite": 6.6,
+"extreme_droite": 49.4
+},
+"leanScore": 35.5,
+"insee": "06083",
+"matchedBy": "insee"
+},
+"la-roche-sur-yon": {
+"lean": "gauche",
+"topPct": 38.0,
+"blocs": {
+"gauche": 38.0,
+"centre": 34.1,
+"droite": 6.6,
+"extreme_droite": 21.3
+},
+"leanScore": -10.1,
+"insee": "85191",
+"matchedBy": "insee"
+},
+"les-sables-d-olonne": {
+"lean": "centre",
+"topPct": 36.6,
+"blocs": {
+"gauche": 22.1,
+"centre": 36.6,
+"droite": 9.2,
+"extreme_droite": 32.0
+},
+"leanScore": 19.1,
+"insee": "85194",
+"matchedBy": "insee"
+},
+"dax": {
+"lean": "centre",
+"topPct": 30.2,
+"blocs": {
+"gauche": 28.1,
+"centre": 30.2,
+"droite": 12.8,
+"extreme_droite": 28.9
+},
+"leanScore": 13.6,
+"insee": "40088",
+"matchedBy": "insee"
+},
+"mont-de-marsan": {
+"lean": "gauche",
+"topPct": 31.4,
+"blocs": {
+"gauche": 31.4,
+"centre": 29.2,
+"droite": 11.2,
+"extreme_droite": 28.1
+},
+"leanScore": 7.9,
+"insee": "40192",
+"matchedBy": "insee"
+},
+"le-puy-en-velay": {
+"lean": "gauche",
+"topPct": 37.0,
+"blocs": {
+"gauche": 37.0,
+"centre": 25.8,
+"droite": 10.8,
+"extreme_droite": 26.4
+},
+"leanScore": 0.2,
+"insee": "43157",
+"matchedBy": "insee"
+},
+"villeurbanne": {
+"lean": "gauche",
+"topPct": 49.4,
+"blocs": {
+"gauche": 49.4,
+"centre": 25.8,
+"droite": 4.7,
+"extreme_droite": 20.0
+},
+"leanScore": -24.7,
+"insee": "69266",
+"matchedBy": "insee"
+},
+"manosque": {
+"lean": "extreme_droite",
+"topPct": 34.3,
+"blocs": {
+"gauche": 32.7,
+"centre": 26.0,
+"droite": 7.0,
+"extreme_droite": 34.3
+},
+"leanScore": 8.6,
+"insee": "04112",
+"matchedBy": "insee"
+},
+"nevers": {
+"lean": "gauche",
+"topPct": 36.1,
+"blocs": {
+"gauche": 36.1,
+"centre": 29.4,
+"droite": 6.0,
+"extreme_droite": 28.5
+},
+"leanScore": -1.6,
+"insee": "58194",
+"matchedBy": "insee"
+},
+"verdun": {
+"lean": "extreme_droite",
+"topPct": 38.8,
+"blocs": {
+"gauche": 24.8,
+"centre": 29.8,
+"droite": 6.7,
+"extreme_droite": 38.8
+},
+"leanScore": 20.7,
+"insee": "55545",
+"matchedBy": "insee"
+},
+"aubenas": {
+"lean": "gauche",
+"topPct": 36.6,
+"blocs": {
+"gauche": 36.6,
+"centre": 23.9,
+"droite": 8.6,
+"extreme_droite": 30.9
+},
+"leanScore": 2.9,
+"insee": "07019",
+"matchedBy": "insee"
+},
+"pamiers": {
+"lean": "gauche",
+"topPct": 39.5,
+"blocs": {
+"gauche": 39.5,
+"centre": 21.1,
+"droite": 14.0,
+"extreme_droite": 25.4
+},
+"leanScore": -0.1,
+"insee": "09220",
+"matchedBy": "insee"
+},
+"saumur": {
+"lean": "centre",
+"topPct": 33.1,
+"blocs": {
+"gauche": 25.7,
+"centre": 33.1,
+"droite": 8.6,
+"extreme_droite": 32.7
+},
+"leanScore": 15.6,
+"insee": "49328",
+"matchedBy": "insee"
+},
+"briancon": {
+"lean": "gauche",
+"topPct": 40.4,
+"blocs": {
+"gauche": 40.4,
+"centre": 24.1,
+"droite": 7.2,
+"extreme_droite": 28.3
+},
+"leanScore": -4.9,
+"insee": "05023",
+"matchedBy": "insee"
+},
+"epernay": {
+"lean": "extreme_droite",
+"topPct": 36.4,
+"blocs": {
+"gauche": 27.5,
+"centre": 29.3,
+"droite": 6.8,
+"extreme_droite": 36.4
+},
+"leanScore": 15.7,
+"insee": "51230",
+"matchedBy": "insee"
+},
+"la-ciotat": {
+"lean": "extreme_droite",
+"topPct": 41.7,
+"blocs": {
+"gauche": 28.4,
+"centre": 23.6,
+"droite": 6.3,
+"extreme_droite": 41.7
+},
+"leanScore": 19.6,
+"insee": "13028",
+"matchedBy": "insee"
+},
+"saint-raphael": {
+"lean": "extreme_droite",
+"topPct": 45.4,
+"blocs": {
+"gauche": 16.2,
+"centre": 28.0,
+"droite": 10.4,
+"extreme_droite": 45.4
+},
+"leanScore": 39.6,
+"insee": "83118",
+"matchedBy": "insee"
+},
+"anglet": {
+"lean": "centre",
+"topPct": 33.1,
+"blocs": {
+"gauche": 29.2,
+"centre": 33.1,
+"droite": 12.8,
+"extreme_droite": 24.9
+},
+"leanScore": 8.5,
+"insee": "64024",
+"matchedBy": "insee"
+},
+"honfleur": {
+"lean": "extreme_droite",
+"topPct": 35.9,
+"blocs": {
+"gauche": 27.4,
+"centre": 29.9,
+"droite": 6.9,
+"extreme_droite": 35.9
+},
+"leanScore": 15.4,
+"insee": "14333",
+"matchedBy": "insee"
+},
+"cassis": {
+"lean": "extreme_droite",
+"topPct": 38.9,
+"blocs": {
+"gauche": 17.3,
+"centre": 33.7,
+"droite": 10.2,
+"extreme_droite": 38.9
+},
+"leanScore": 31.8,
+"insee": "13022",
+"matchedBy": "insee"
+},
+"foix": {
+"lean": "gauche",
+"topPct": 45.6,
+"blocs": {
+"gauche": 45.6,
+"centre": 21.1,
+"droite": 8.0,
+"extreme_droite": 25.3
+},
+"leanScore": -12.3,
+"insee": "09122",
+"matchedBy": "insee"
+},
+"royan": {
+"lean": "centre",
+"topPct": 34.2,
+"blocs": {
+"gauche": 21.5,
+"centre": 34.2,
+"droite": 10.6,
+"extreme_droite": 33.7
+},
+"leanScore": 22.8,
+"insee": "17306",
+"matchedBy": "insee"
+},
+"grasse": {
+"lean": "extreme_droite",
+"topPct": 40.1,
+"blocs": {
+"gauche": 28.8,
+"centre": 24.0,
+"droite": 7.1,
+"extreme_droite": 40.1
+},
+"leanScore": 18.4,
+"insee": "06069",
+"matchedBy": "insee"
+},
+"concarneau": {
+"lean": "centre",
+"topPct": 34.6,
+"blocs": {
+"gauche": 33.3,
+"centre": 34.6,
+"droite": 7.9,
+"extreme_droite": 24.2
+},
+"leanScore": -1.2,
+"insee": "29039",
+"matchedBy": "insee"
+},
+"saint-jean-de-luz": {
+"lean": "centre",
+"topPct": 33.6,
+"blocs": {
+"gauche": 27.7,
+"centre": 33.6,
+"droite": 14.8,
+"extreme_droite": 23.9
+},
+"leanScore": 11.0,
+"insee": "64483",
+"matchedBy": "insee"
+},
+"sanary-sur-mer": {
+"lean": "extreme_droite",
+"topPct": 42.3,
+"blocs": {
+"gauche": 29.4,
+"centre": 19.6,
+"droite": 8.6,
+"extreme_droite": 42.3
+},
+"leanScore": 21.5,
+"insee": "83122",
+"matchedBy": "insee"
+},
+"dinan": {
+"lean": "gauche",
+"topPct": 40.1,
+"blocs": {
+"gauche": 40.1,
+"centre": 23.9,
+"droite": 13.0,
+"extreme_droite": 23.1
+},
+"leanScore": -4.0,
+"insee": "22023",
+"matchedBy": "insee"
+},
+"hendaye": {
+"lean": "gauche",
+"topPct": 40.6,
+"blocs": {
+"gauche": 40.6,
+"centre": 24.9,
+"droite": 10.5,
+"extreme_droite": 24.0
+},
+"leanScore": -6.1,
+"insee": "64260",
+"matchedBy": "insee"
+},
+"vitre": {
+"lean": "centre",
+"topPct": 41.7,
+"blocs": {
+"gauche": 29.3,
+"centre": 41.7,
+"droite": 8.1,
+"extreme_droite": 20.9
+},
+"leanScore": -0.3,
+"insee": "35360",
+"matchedBy": "insee"
+},
+"la-baule": {
+"lean": "centre",
+"topPct": 38.4,
+"blocs": {
+"gauche": 16.8,
+"centre": 38.4,
+"droite": 15.5,
+"extreme_droite": 29.3
+},
+"leanScore": 28.0,
+"insee": "44055",
+"matchedBy": "insee"
+},
+"mende": {
+"lean": "gauche",
+"topPct": 32.8,
+"blocs": {
+"gauche": 32.8,
+"centre": 26.8,
+"droite": 11.6,
+"extreme_droite": 28.7
+},
+"leanScore": 7.5,
+"insee": "48095",
+"matchedBy": "insee"
+},
+"amboise": {
+"lean": "gauche",
+"topPct": 31.4,
+"blocs": {
+"gauche": 31.4,
+"centre": 31.4,
+"droite": 7.5,
+"extreme_droite": 29.8
+},
+"leanScore": 5.9,
+"insee": "37003",
+"matchedBy": "insee"
+},
+"orange": {
+"lean": "extreme_droite",
+"topPct": 46.6,
+"blocs": {
+"gauche": 25.0,
+"centre": 21.7,
+"droite": 6.7,
+"extreme_droite": 46.6
+},
+"leanScore": 28.3,
+"insee": "84087",
+"matchedBy": "insee"
+},
+"vienne": {
+"lean": "gauche",
+"topPct": 37.3,
+"blocs": {
+"gauche": 37.3,
+"centre": 27.8,
+"droite": 7.1,
+"extreme_droite": 27.9
+},
+"leanScore": -2.3,
+"insee": "38544",
+"matchedBy": "insee"
+},
+"granville": {
+"lean": "centre",
+"topPct": 38.4,
+"blocs": {
+"gauche": 29.8,
+"centre": 38.4,
+"droite": 7.6,
+"extreme_droite": 24.3
+},
+"leanScore": 2.1,
+"insee": "50218",
+"matchedBy": "insee"
+},
+"dinard": {
+"lean": "centre",
+"topPct": 38.9,
+"blocs": {
+"gauche": 24.6,
+"centre": 38.9,
+"droite": 10.2,
+"extreme_droite": 26.3
+},
+"leanScore": 11.9,
+"insee": "35093",
+"matchedBy": "insee"
+},
+"collioure": {
+"lean": "extreme_droite",
+"topPct": 37.5,
+"blocs": {
+"gauche": 29.2,
+"centre": 29.2,
+"droite": 4.2,
+"extreme_droite": 37.5
+},
+"leanScore": 12.5,
+"insee": "66047",
+"matchedBy": "insee"
+},
+"senlis": {
+"lean": "extreme_droite",
+"topPct": 34.3,
+"blocs": {
+"gauche": 22.4,
+"centre": 32.8,
+"droite": 10.5,
+"extreme_droite": 34.3
+},
+"leanScore": 22.4,
+"insee": "60612",
+"matchedBy": "insee"
+},
+"morlaix": {
+"lean": "gauche",
+"topPct": 45.2,
+"blocs": {
+"gauche": 45.2,
+"centre": 29.8,
+"droite": 6.3,
+"extreme_droite": 18.7
+},
+"leanScore": -20.2,
+"insee": "29151",
+"matchedBy": "insee"
+},
+"provins": {
+"lean": "extreme_droite",
+"topPct": 34.2,
+"blocs": {
+"gauche": 30.1,
+"centre": 22.3,
+"droite": 13.3,
+"extreme_droite": 34.2
+},
+"leanScore": 17.4,
+"insee": "77379",
+"matchedBy": "insee"
+},
+"gex": {
+"lean": "centre",
+"topPct": 33.2,
+"blocs": {
+"gauche": 31.7,
+"centre": 33.2,
+"droite": 6.8,
+"extreme_droite": 28.3
+},
+"leanScore": 3.4,
+"insee": "01173",
+"matchedBy": "insee"
+},
+"saint-tropez": {
+"lean": "extreme_droite",
+"topPct": 45.4,
+"blocs": {
+"gauche": 16.2,
+"centre": 28.0,
+"droite": 10.4,
+"extreme_droite": 45.4
+},
+"leanScore": 39.6,
+"insee": "83118",
+"matchedBy": "insee"
+},
+"hossegor": {
+"lean": "extreme_droite",
+"topPct": 33.4,
+"blocs": {
+"gauche": 24.8,
+"centre": 24.0,
+"droite": 17.8,
+"extreme_droite": 33.4
+},
+"leanScore": 26.4,
+"insee": "40271",
+"matchedBy": "insee"
+},
+"obernai": {
+"lean": "extreme_droite",
+"topPct": 50.1,
+"blocs": {
+"gauche": 14.8,
+"centre": 27.7,
+"droite": 7.3,
+"extreme_droite": 50.1
+},
+"leanScore": 42.6,
+"insee": "67360",
+"matchedBy": "insee"
+},
+"cagnes-sur-mer": {
+"lean": "extreme_droite",
+"topPct": 46.1,
+"blocs": {
+"gauche": 20.9,
+"centre": 25.4,
+"droite": 7.6,
+"extreme_droite": 46.1
+},
+"leanScore": 32.8,
+"insee": "06027",
+"matchedBy": "insee"
+},
+"noirmoutier": {
+"lean": "centre",
+"topPct": 37.6,
+"blocs": {
+"gauche": 22.1,
+"centre": 37.6,
+"droite": 11.0,
+"extreme_droite": 29.3
+},
+"leanScore": 18.2,
+"insee": "85163",
+"matchedBy": "insee"
+},
+"carnac": {
+"lean": "centre",
+"topPct": 38.9,
+"blocs": {
+"gauche": 22.6,
+"centre": 38.9,
+"droite": 11.4,
+"extreme_droite": 27.1
+},
+"leanScore": 15.9,
+"insee": "56034",
+"matchedBy": "insee"
+},
+"ile-de-re": {
+"lean": "gauche",
+"topPct": 41.0,
+"blocs": {
+"gauche": 41.0,
+"centre": 31.7,
+"droite": 6.7,
+"extreme_droite": 20.6
+},
+"leanScore": -13.7,
+"insee": "17300",
+"matchedBy": "insee"
+},
+"quiberon": {
+"lean": "centre",
+"topPct": 36.9,
+"blocs": {
+"gauche": 21.7,
+"centre": 36.9,
+"droite": 9.4,
+"extreme_droite": 32.0
+},
+"leanScore": 19.7,
+"insee": "56186",
+"matchedBy": "insee"
+},
+"pezenas": {
+"lean": "gauche",
+"topPct": 36.4,
+"blocs": {
+"gauche": 36.4,
+"centre": 21.8,
+"droite": 8.3,
+"extreme_droite": 33.4
+},
+"leanScore": 5.3,
+"insee": "34197",
+"matchedBy": "insee"
+},
+"agde": {
+"lean": "extreme_droite",
+"topPct": 50.6,
+"blocs": {
+"gauche": 20.8,
+"centre": 21.1,
+"droite": 7.5,
+"extreme_droite": 50.6
+},
+"leanScore": 37.3,
+"insee": "34003",
+"matchedBy": "insee"
+},
+"douarnenez": {
+"lean": "gauche",
+"topPct": 43.9,
+"blocs": {
+"gauche": 43.9,
+"centre": 27.0,
+"droite": 7.6,
+"extreme_droite": 21.5
+},
+"leanScore": -14.8,
+"insee": "29046",
+"matchedBy": "insee"
+},
+"biscarrosse": {
+"lean": "extreme_droite",
+"topPct": 36.3,
+"blocs": {
+"gauche": 23.9,
+"centre": 29.2,
+"droite": 10.6,
+"extreme_droite": 36.3
+},
+"leanScore": 23.0,
+"insee": "40046",
+"matchedBy": "insee"
+},
+"saint-remy-de-provence": {
+"lean": "extreme_droite",
+"topPct": 41.0,
+"blocs": {
+"gauche": 23.3,
+"centre": 25.9,
+"droite": 9.8,
+"extreme_droite": 41.0
+},
+"leanScore": 27.5,
+"insee": "13100",
+"matchedBy": "insee"
+},
+"gordes": {
+"lean": "extreme_droite",
+"topPct": 35.8,
+"blocs": {
+"gauche": 22.7,
+"centre": 30.1,
+"droite": 11.4,
+"extreme_droite": 35.8
+},
+"leanScore": 24.5,
+"insee": "84049",
+"matchedBy": "insee"
+},
+"sisteron": {
+"lean": "extreme_droite",
+"topPct": 36.7,
+"blocs": {
+"gauche": 31.4,
+"centre": 22.3,
+"droite": 9.6,
+"extreme_droite": 36.7
+},
+"leanScore": 14.9,
+"insee": "04209",
+"matchedBy": "insee"
+},
+"saint-paul-de-vence": {
+"lean": "extreme_droite",
+"topPct": 39.0,
+"blocs": {
+"gauche": 22.0,
+"centre": 28.8,
+"droite": 10.2,
+"extreme_droite": 39.0
+},
+"leanScore": 27.2,
+"insee": "06111",
+"matchedBy": "insee"
+},
+"valbonne": {
+"lean": "centre",
+"topPct": 32.3,
+"blocs": {
+"gauche": 31.3,
+"centre": 32.3,
+"droite": 6.7,
+"extreme_droite": 29.7
+},
+"leanScore": 5.1,
+"insee": "06152",
+"matchedBy": "insee"
+},
+"ceret": {
+"lean": "extreme_droite",
+"topPct": 38.2,
+"blocs": {
+"gauche": 29.9,
+"centre": 20.7,
+"droite": 11.2,
+"extreme_droite": 38.2
+},
+"leanScore": 19.5,
+"insee": "66044",
+"matchedBy": "insee"
+},
+"carpentras": {
+"lean": "extreme_droite",
+"topPct": 41.7,
+"blocs": {
+"gauche": 31.5,
+"centre": 20.1,
+"droite": 6.6,
+"extreme_droite": 41.7
+},
+"leanScore": 16.8,
+"insee": "84031",
+"matchedBy": "insee"
+},
+"apt": {
+"lean": "extreme_droite",
+"topPct": 35.3,
+"blocs": {
+"gauche": 33.7,
+"centre": 23.2,
+"droite": 7.8,
+"extreme_droite": 35.3
+},
+"leanScore": 9.4,
+"insee": "84003",
+"matchedBy": "insee"
+},
+"aubagne": {
+"lean": "extreme_droite",
+"topPct": 41.3,
+"blocs": {
+"gauche": 32.7,
+"centre": 20.3,
+"droite": 5.7,
+"extreme_droite": 41.3
+},
+"leanScore": 14.3,
+"insee": "13005",
+"matchedBy": "insee"
+},
+"sainte-maxime": {
+"lean": "extreme_droite",
+"topPct": 49.8,
+"blocs": {
+"gauche": 13.2,
+"centre": 27.5,
+"droite": 9.5,
+"extreme_droite": 49.8
+},
+"leanScore": 46.1,
+"insee": "83115",
+"matchedBy": "insee"
+},
+"digne-les-bains": {
+"lean": "gauche",
+"topPct": 35.6,
+"blocs": {
+"gauche": 35.6,
+"centre": 21.8,
+"droite": 8.0,
+"extreme_droite": 34.6
+},
+"leanScore": 7.0,
+"insee": "04070",
+"matchedBy": "insee"
+},
+"vaison-la-romaine": {
+"lean": "extreme_droite",
+"topPct": 34.6,
+"blocs": {
+"gauche": 30.6,
+"centre": 27.0,
+"droite": 7.9,
+"extreme_droite": 34.6
+},
+"leanScore": 11.9,
+"insee": "84137",
+"matchedBy": "insee"
+},
+"albertville": {
+"lean": "gauche",
+"topPct": 34.2,
+"blocs": {
+"gauche": 34.2,
+"centre": 24.2,
+"droite": 7.8,
+"extreme_droite": 33.8
+},
+"leanScore": 7.4,
+"insee": "73011",
+"matchedBy": "insee"
+},
+"evian-les-bains": {
+"lean": "extreme_droite",
+"topPct": 34.5,
+"blocs": {
+"gauche": 26.6,
+"centre": 28.1,
+"droite": 10.9,
+"extreme_droite": 34.5
+},
+"leanScore": 18.8,
+"insee": "74114",
+"matchedBy": "insee"
+},
+"issoire": {
+"lean": "extreme_droite",
+"topPct": 31.8,
+"blocs": {
+"gauche": 30.1,
+"centre": 29.1,
+"droite": 9.0,
+"extreme_droite": 31.8
+},
+"leanScore": 10.7,
+"insee": "63178",
+"matchedBy": "insee"
+},
+"moulins": {
+"lean": "gauche",
+"topPct": 33.1,
+"blocs": {
+"gauche": 33.1,
+"centre": 25.8,
+"droite": 8.5,
+"extreme_droite": 32.6
+},
+"leanScore": 8.0,
+"insee": "03185",
+"matchedBy": "insee"
+},
+"tulle": {
+"lean": "gauche",
+"topPct": 40.1,
+"blocs": {
+"gauche": 40.1,
+"centre": 22.3,
+"droite": 11.3,
+"extreme_droite": 26.2
+},
+"leanScore": -2.6,
+"insee": "19272",
+"matchedBy": "insee"
+},
+"pontarlier": {
+"lean": "centre",
+"topPct": 32.8,
+"blocs": {
+"gauche": 30.8,
+"centre": 32.8,
+"droite": 7.8,
+"extreme_droite": 28.6
+},
+"leanScore": 5.6,
+"insee": "25462",
+"matchedBy": "insee"
+},
+"challans": {
+"lean": "centre",
+"topPct": 35.3,
+"blocs": {
+"gauche": 22.4,
+"centre": 35.3,
+"droite": 8.3,
+"extreme_droite": 34.0
+},
+"leanScore": 19.9,
+"insee": "85047",
+"matchedBy": "insee"
+},
+"fontenay-le-comte": {
+"lean": "centre",
+"topPct": 33.3,
+"blocs": {
+"gauche": 29.0,
+"centre": 33.3,
+"droite": 7.8,
+"extreme_droite": 29.9
+},
+"leanScore": 8.7,
+"insee": "85092",
+"matchedBy": "insee"
+},
+"vendome": {
+"lean": "gauche",
+"topPct": 32.1,
+"blocs": {
+"gauche": 32.1,
+"centre": 30.5,
+"droite": 9.2,
+"extreme_droite": 28.2
+},
+"leanScore": 5.3,
+"insee": "41269",
+"matchedBy": "insee"
+},
+"vierzon": {
+"lean": "gauche",
+"topPct": 37.1,
+"blocs": {
+"gauche": 37.1,
+"centre": 23.0,
+"droite": 5.5,
+"extreme_droite": 34.4
+},
+"leanScore": 2.8,
+"insee": "18279",
+"matchedBy": "insee"
+},
+"montargis": {
+"lean": "gauche",
+"topPct": 32.9,
+"blocs": {
+"gauche": 32.9,
+"centre": 27.4,
+"droite": 8.6,
+"extreme_droite": 31.1
+},
+"leanScore": 6.8,
+"insee": "45208",
+"matchedBy": "insee"
+},
+"gien": {
+"lean": "extreme_droite",
+"topPct": 38.4,
+"blocs": {
+"gauche": 23.8,
+"centre": 29.4,
+"droite": 8.4,
+"extreme_droite": 38.4
+},
+"leanScore": 23.0,
+"insee": "45154",
+"matchedBy": "insee"
+},
+"lourdes": {
+"lean": "extreme_droite",
+"topPct": 35.9,
+"blocs": {
+"gauche": 20.3,
+"centre": 28.7,
+"droite": 15.1,
+"extreme_droite": 35.9
+},
+"leanScore": 30.7,
+"insee": "65286",
+"matchedBy": "insee"
+},
+"sarlat-la-caneda": {
+"lean": "gauche",
+"topPct": 34.2,
+"blocs": {
+"gauche": 34.2,
+"centre": 25.9,
+"droite": 10.5,
+"extreme_droite": 29.4
+},
+"leanScore": 5.7,
+"insee": "24520",
+"matchedBy": "insee"
+},
+"marmande": {
+"lean": "extreme_droite",
+"topPct": 34.2,
+"blocs": {
+"gauche": 30.6,
+"centre": 25.1,
+"droite": 10.1,
+"extreme_droite": 34.2
+},
+"leanScore": 13.7,
+"insee": "47157",
+"matchedBy": "insee"
+},
+"limoux": {
+"lean": "extreme_droite",
+"topPct": 38.5,
+"blocs": {
+"gauche": 30.8,
+"centre": 21.1,
+"droite": 9.6,
+"extreme_droite": 38.5
+},
+"leanScore": 17.3,
+"insee": "11206",
+"matchedBy": "insee"
+},
+"gueret": {
+"lean": "gauche",
+"topPct": 38.4,
+"blocs": {
+"gauche": 38.4,
+"centre": 27.6,
+"droite": 9.0,
+"extreme_droite": 25.1
+},
+"leanScore": -4.3,
+"insee": "23096",
+"matchedBy": "insee"
+},
+"saint-gaudens": {
+"lean": "extreme_droite",
+"topPct": 35.3,
+"blocs": {
+"gauche": 27.6,
+"centre": 25.5,
+"droite": 11.7,
+"extreme_droite": 35.3
+},
+"leanScore": 19.4,
+"insee": "31483",
+"matchedBy": "insee"
+},
+"dieppe": {
+"lean": "extreme_droite",
+"topPct": 34.4,
+"blocs": {
+"gauche": 33.9,
+"centre": 26.4,
+"droite": 5.3,
+"extreme_droite": 34.4
+},
+"leanScore": 5.8,
+"insee": "76217",
+"matchedBy": "insee"
+},
+"saint-lo": {
+"lean": "extreme_droite",
+"topPct": 33.2,
+"blocs": {
+"gauche": 25.6,
+"centre": 31.5,
+"droite": 9.7,
+"extreme_droite": 33.2
+},
+"leanScore": 17.3,
+"insee": "50592",
+"matchedBy": "insee"
+},
+"parthenay": {
+"lean": "centre",
+"topPct": 33.8,
+"blocs": {
+"gauche": 33.0,
+"centre": 33.8,
+"droite": 6.9,
+"extreme_droite": 26.3
+},
+"leanScore": 0.2,
+"insee": "79202",
+"matchedBy": "insee"
+},
+"beaune": {
+"lean": "centre",
+"topPct": 34.3,
+"blocs": {
+"gauche": 23.6,
+"centre": 34.3,
+"droite": 8.7,
+"extreme_droite": 33.3
+},
+"leanScore": 18.4,
+"insee": "21054",
+"matchedBy": "insee"
+},
+"autun": {
+"lean": "extreme_droite",
+"topPct": 37.0,
+"blocs": {
+"gauche": 25.5,
+"centre": 29.3,
+"droite": 8.3,
+"extreme_droite": 37.0
+},
+"leanScore": 19.8,
+"insee": "71014",
+"matchedBy": "insee"
+},
+"saverne": {
+"lean": "extreme_droite",
+"topPct": 40.5,
+"blocs": {
+"gauche": 16.6,
+"centre": 30.6,
+"droite": 12.3,
+"extreme_droite": 40.5
+},
+"leanScore": 36.2,
+"insee": "67440",
+"matchedBy": "insee"
+},
+"laon": {
+"lean": "extreme_droite",
+"topPct": 40.5,
+"blocs": {
+"gauche": 29.2,
+"centre": 24.7,
+"droite": 5.6,
+"extreme_droite": 40.5
+},
+"leanScore": 16.9,
+"insee": "02408",
+"matchedBy": "insee"
+},
+"vesoul": {
+"lean": "extreme_droite",
+"topPct": 33.0,
+"blocs": {
+"gauche": 32.9,
+"centre": 25.9,
+"droite": 8.2,
+"extreme_droite": 33.0
+},
+"leanScore": 8.3,
+"insee": "70550",
+"matchedBy": "insee"
+},
+"chaumont": {
+"lean": "extreme_droite",
+"topPct": 33.7,
+"blocs": {
+"gauche": 29.8,
+"centre": 28.2,
+"droite": 8.3,
+"extreme_droite": 33.7
+},
+"leanScore": 12.2,
+"insee": "52121",
+"matchedBy": "insee"
+},
+"chinon": {
+"lean": "extreme_droite",
+"topPct": 39.4,
+"blocs": {
+"gauche": 30.3,
+"centre": 23.3,
+"droite": 7.0,
+"extreme_droite": 39.4
+},
+"leanScore": 16.1,
+"insee": "37063",
+"matchedBy": "insee"
+},
+"saint-die-des-vosges": {
+"lean": "extreme_droite",
+"topPct": 36.5,
+"blocs": {
+"gauche": 28.8,
+"centre": 27.8,
+"droite": 6.9,
+"extreme_droite": 36.5
+},
+"leanScore": 14.6,
+"insee": "88413",
+"matchedBy": "insee"
+},
+"villefranche-de-rouergue": {
+"lean": "gauche",
+"topPct": 33.7,
+"blocs": {
+"gauche": 33.7,
+"centre": 27.1,
+"droite": 11.1,
+"extreme_droite": 28.1
+},
+"leanScore": 5.5,
+"insee": "12300",
+"matchedBy": "insee"
+},
+"riom": {
+"lean": "gauche",
+"topPct": 36.3,
+"blocs": {
+"gauche": 36.3,
+"centre": 29.7,
+"droite": 8.0,
+"extreme_droite": 26.0
+},
+"leanScore": -2.3,
+"insee": "63300",
+"matchedBy": "insee"
+},
+"thiers": {
+"lean": "gauche",
+"topPct": 36.2,
+"blocs": {
+"gauche": 36.2,
+"centre": 25.6,
+"droite": 7.0,
+"extreme_droite": 31.2
+},
+"leanScore": 2.0,
+"insee": "63430",
+"matchedBy": "insee"
+},
+"oyonnax": {
+"lean": "gauche",
+"topPct": 35.9,
+"blocs": {
+"gauche": 35.9,
+"centre": 22.6,
+"droite": 8.7,
+"extreme_droite": 32.8
+},
+"leanScore": 5.6,
+"insee": "01283",
+"matchedBy": "insee"
+},
+"cluses": {
+"lean": "gauche",
+"topPct": 33.7,
+"blocs": {
+"gauche": 33.7,
+"centre": 28.3,
+"droite": 9.5,
+"extreme_droite": 28.6
+},
+"leanScore": 4.4,
+"insee": "74065",
+"matchedBy": "insee"
+},
+"rumilly": {
+"lean": "extreme_droite",
+"topPct": 37.4,
+"blocs": {
+"gauche": 20.1,
+"centre": 35.2,
+"droite": 7.3,
+"extreme_droite": 37.4
+},
+"leanScore": 24.6,
+"insee": "74228",
+"matchedBy": "insee"
+},
+"annonay": {
+"lean": "gauche",
+"topPct": 37.1,
+"blocs": {
+"gauche": 37.1,
+"centre": 24.8,
+"droite": 8.2,
+"extreme_droite": 30.0
+},
+"leanScore": 1.1,
+"insee": "07010",
+"matchedBy": "insee"
+},
+"lons-le-saunier": {
+"lean": "gauche",
+"topPct": 38.2,
+"blocs": {
+"gauche": 38.2,
+"centre": 27.5,
+"droite": 7.4,
+"extreme_droite": 26.9
+},
+"leanScore": -3.9,
+"insee": "39300",
+"matchedBy": "insee"
+},
+"saint-flour": {
+"lean": "extreme_droite",
+"topPct": 34.5,
+"blocs": {
+"gauche": 21.8,
+"centre": 30.1,
+"droite": 13.6,
+"extreme_droite": 34.5
+},
+"leanScore": 26.3,
+"insee": "15187",
+"matchedBy": "insee"
+},
+"bar-le-duc": {
+"lean": "gauche",
+"topPct": 32.6,
+"blocs": {
+"gauche": 32.6,
+"centre": 27.6,
+"droite": 7.3,
+"extreme_droite": 32.5
+},
+"leanScore": 7.2,
+"insee": "55029",
+"matchedBy": "insee"
+},
+"aubusson": {
+"lean": "gauche",
+"topPct": 37.2,
+"blocs": {
+"gauche": 37.2,
+"centre": 24.9,
+"droite": 10.2,
+"extreme_droite": 27.7
+},
+"leanScore": 0.7,
+"insee": "23008",
+"matchedBy": "insee"
+},
+"langres": {
+"lean": "extreme_droite",
+"topPct": 33.5,
+"blocs": {
+"gauche": 31.5,
+"centre": 26.7,
+"droite": 8.3,
+"extreme_droite": 33.5
+},
+"leanScore": 10.3,
+"insee": "52269",
+"matchedBy": "insee"
+},
+"guingamp": {
+"lean": "gauche",
+"topPct": 38.0,
+"blocs": {
+"gauche": 38.0,
+"centre": 26.9,
+"droite": 6.4,
+"extreme_droite": 28.7
+},
+"leanScore": -2.9,
+"insee": "22070",
+"matchedBy": "insee"
+},
+"flers": {
+"lean": "gauche",
+"topPct": 33.9,
+"blocs": {
+"gauche": 33.9,
+"centre": 31.7,
+"droite": 6.8,
+"extreme_droite": 27.6
+},
+"leanScore": 0.5,
+"insee": "61169",
+"matchedBy": "insee"
+},
+"la-fleche": {
+"lean": "extreme_droite",
+"topPct": 33.6,
+"blocs": {
+"gauche": 29.1,
+"centre": 30.0,
+"droite": 7.4,
+"extreme_droite": 33.6
+},
+"leanScore": 11.9,
+"insee": "72154",
+"matchedBy": "insee"
+},
+"cosne-cours-sur-loire": {
+"lean": "extreme_droite",
+"topPct": 34.2,
+"blocs": {
+"gauche": 26.4,
+"centre": 30.9,
+"droite": 8.5,
+"extreme_droite": 34.2
+},
+"leanScore": 16.3,
+"insee": "58083",
+"matchedBy": "insee"
+},
+"sens": {
+"lean": "gauche",
+"topPct": 34.2,
+"blocs": {
+"gauche": 34.2,
+"centre": 25.8,
+"droite": 6.9,
+"extreme_droite": 33.1
+},
+"leanScore": 5.8,
+"insee": "89387",
+"matchedBy": "insee"
+},
+"condom": {
+"lean": "extreme_droite",
+"topPct": 33.6,
+"blocs": {
+"gauche": 27.8,
+"centre": 26.6,
+"droite": 12.0,
+"extreme_droite": 33.6
+},
+"leanScore": 17.8,
+"insee": "32107",
+"matchedBy": "insee"
+},
+"moissac": {
+"lean": "extreme_droite",
+"topPct": 41.1,
+"blocs": {
+"gauche": 29.5,
+"centre": 19.7,
+"droite": 9.6,
+"extreme_droite": 41.1
+},
+"leanScore": 21.2,
+"insee": "82112",
+"matchedBy": "insee"
+},
+"brioude": {
+"lean": "centre",
+"topPct": 29.8,
+"blocs": {
+"gauche": 27.7,
+"centre": 29.8,
+"droite": 14.9,
+"extreme_droite": 27.7
+},
+"leanScore": 14.9,
+"insee": "43035",
+"matchedBy": "insee"
+},
+"issoudun": {
+"lean": "extreme_droite",
+"topPct": 34.6,
+"blocs": {
+"gauche": 33.0,
+"centre": 25.1,
+"droite": 7.2,
+"extreme_droite": 34.6
+},
+"leanScore": 8.8,
+"insee": "36088",
+"matchedBy": "insee"
+},
+"abbeville": {
+"lean": "extreme_droite",
+"topPct": 39.0,
+"blocs": {
+"gauche": 25.8,
+"centre": 29.6,
+"droite": 5.6,
+"extreme_droite": 39.0
+},
+"leanScore": 18.8,
+"insee": "80001",
+"matchedBy": "insee"
+},
+"les-andelys": {
+"lean": "extreme_droite",
+"topPct": 41.2,
+"blocs": {
+"gauche": 23.8,
+"centre": 27.9,
+"droite": 7.1,
+"extreme_droite": 41.2
+},
+"leanScore": 24.5,
+"insee": "27003",
+"matchedBy": "insee"
+},
+"dreux": {
+"lean": "gauche",
+"topPct": 51.3,
+"blocs": {
+"gauche": 51.3,
+"centre": 19.9,
+"droite": 5.5,
+"extreme_droite": 23.3
+},
+"leanScore": -22.5,
+"insee": "28134",
+"matchedBy": "insee"
+},
+"florac-trois-rivieres": {
+"lean": "gauche",
+"topPct": 48.6,
+"blocs": {
+"gauche": 48.6,
+"centre": 19.2,
+"droite": 12.7,
+"extreme_droite": 19.5
+},
+"leanScore": -16.4,
+"insee": "48061",
+"matchedBy": "insee"
+},
+"sedan": {
+"lean": "extreme_droite",
+"topPct": 38.6,
+"blocs": {
+"gauche": 31.5,
+"centre": 25.4,
+"droite": 4.5,
+"extreme_droite": 38.6
+},
+"leanScore": 11.6,
+"insee": "08409",
+"matchedBy": "insee"
+},
+"bar-sur-aube": {
+"lean": "extreme_droite",
+"topPct": 43.6,
+"blocs": {
+"gauche": 22.8,
+"centre": 25.4,
+"droite": 8.1,
+"extreme_droite": 43.6
+},
+"leanScore": 28.9,
+"insee": "10033",
+"matchedBy": "insee"
+},
+"gray": {
+"lean": "extreme_droite",
+"topPct": 41.6,
+"blocs": {
+"gauche": 26.6,
+"centre": 24.6,
+"droite": 7.2,
+"extreme_droite": 41.6
+},
+"leanScore": 22.2,
+"insee": "70279",
+"matchedBy": "insee"
+},
+"saint-yrieix-la-perche": {
+"lean": "gauche",
+"topPct": 34.5,
+"blocs": {
+"gauche": 34.5,
+"centre": 26.7,
+"droite": 9.0,
+"extreme_droite": 29.9
+},
+"leanScore": 4.4,
+"insee": "87154",
+"matchedBy": "insee"
+},
+"mayenne": {
+"lean": "centre",
+"topPct": 40.0,
+"blocs": {
+"gauche": 20.6,
+"centre": 40.0,
+"droite": 9.5,
+"extreme_droite": 29.8
+},
+"leanScore": 18.7,
+"insee": "53145",
+"matchedBy": "insee"
+},
+"pont-a-mousson": {
+"lean": "extreme_droite",
+"topPct": 37.6,
+"blocs": {
+"gauche": 31.5,
+"centre": 25.0,
+"droite": 5.9,
+"extreme_droite": 37.6
+},
+"leanScore": 12.0,
+"insee": "54431",
+"matchedBy": "insee"
+},
+"etampes": {
+"lean": "gauche",
+"topPct": 43.6,
+"blocs": {
+"gauche": 43.6,
+"centre": 21.6,
+"droite": 7.0,
+"extreme_droite": 27.7
+},
+"leanScore": -8.9,
+"insee": "91223",
+"matchedBy": "insee"
+},
+"soissons": {
+"lean": "extreme_droite",
+"topPct": 39.3,
+"blocs": {
+"gauche": 28.6,
+"centre": 25.7,
+"droite": 6.4,
+"extreme_droite": 39.3
+},
+"leanScore": 17.1,
+"insee": "02722",
+"matchedBy": "insee"
+},
+"villefranche-sur-saone": {
+"lean": "gauche",
+"topPct": 35.7,
+"blocs": {
+"gauche": 35.7,
+"centre": 26.6,
+"droite": 7.2,
+"extreme_droite": 30.4
+},
+"leanScore": 1.9,
+"insee": "69264",
+"matchedBy": "insee"
+},
+"montbard": {
+"lean": "extreme_droite",
+"topPct": 40.7,
+"blocs": {
+"gauche": 30.5,
+"centre": 22.8,
+"droite": 6.1,
+"extreme_droite": 40.7
+},
+"leanScore": 16.3,
+"insee": "21425",
+"matchedBy": "insee"
+},
+"paray-le-monial": {
+"lean": "extreme_droite",
+"topPct": 36.7,
+"blocs": {
+"gauche": 21.1,
+"centre": 31.7,
+"droite": 10.4,
+"extreme_droite": 36.7
+},
+"leanScore": 26.0,
+"insee": "71342",
+"matchedBy": "insee"
+},
+"semur-en-auxois": {
+"lean": "gauche",
+"topPct": 31.8,
+"blocs": {
+"gauche": 31.8,
+"centre": 30.0,
+"droite": 8.6,
+"extreme_droite": 29.7
+},
+"leanScore": 6.5,
+"insee": "21603",
+"matchedBy": "insee"
+},
+"villeneuve-sur-lot": {
+"lean": "extreme_droite",
+"topPct": 35.9,
+"blocs": {
+"gauche": 30.5,
+"centre": 24.3,
+"droite": 9.3,
+"extreme_droite": 35.9
+},
+"leanScore": 14.7,
+"insee": "47323",
+"matchedBy": "insee"
+},
+"gourdon": {
+"lean": "gauche",
+"topPct": 32.6,
+"blocs": {
+"gauche": 32.6,
+"centre": 25.9,
+"droite": 12.7,
+"extreme_droite": 28.8
+},
+"leanScore": 8.9,
+"insee": "46127",
+"matchedBy": "insee"
+},
+"castelsarrasin": {
+"lean": "extreme_droite",
+"topPct": 35.7,
+"blocs": {
+"gauche": 19.0,
+"centre": 19.0,
+"droite": 26.2,
+"extreme_droite": 35.7
+},
+"leanScore": 42.9,
+"insee": "82034",
+"matchedBy": "insee"
+},
+"sarrebourg": {
+"lean": "extreme_droite",
+"topPct": 40.8,
+"blocs": {
+"gauche": 26.5,
+"centre": 26.0,
+"droite": 6.7,
+"extreme_droite": 40.8
+},
+"leanScore": 21.0,
+"insee": "57631",
+"matchedBy": "insee"
+},
+"longwy": {
+"lean": "extreme_droite",
+"topPct": 39.1,
+"blocs": {
+"gauche": 29.6,
+"centre": 23.7,
+"droite": 7.6,
+"extreme_droite": 39.1
+},
+"leanScore": 17.1,
+"insee": "54329",
+"matchedBy": "insee"
+},
+"saint-amand-montrond": {
+"lean": "extreme_droite",
+"topPct": 38.7,
+"blocs": {
+"gauche": 24.6,
+"centre": 28.5,
+"droite": 8.3,
+"extreme_droite": 38.7
+},
+"leanScore": 22.4,
+"insee": "18197",
+"matchedBy": "insee"
+},
+"bressuire": {
+"lean": "centre",
+"topPct": 36.5,
+"blocs": {
+"gauche": 27.5,
+"centre": 36.5,
+"droite": 8.7,
+"extreme_droite": 27.3
+},
+"leanScore": 8.5,
+"insee": "79049",
+"matchedBy": "name+dep"
+},
+"ussel": {
+"lean": "extreme_droite",
+"topPct": 29.9,
+"blocs": {
+"gauche": 27.7,
+"centre": 23.9,
+"droite": 18.5,
+"extreme_droite": 29.9
+},
+"leanScore": 20.7,
+"insee": "19275",
+"matchedBy": "name+dep"
+},
+"montbrison": {
+"lean": "extreme_droite",
+"topPct": 32.2,
+"blocs": {
+"gauche": 28.9,
+"centre": 30.1,
+"droite": 8.9,
+"extreme_droite": 32.2
+},
+"leanScore": 12.2,
+"insee": "42147",
+"matchedBy": "name+dep"
+},
+"pontoise": {
+"lean": "gauche",
+"topPct": 44.5,
+"blocs": {
+"gauche": 44.5,
+"centre": 26.3,
+"droite": 7.1,
+"extreme_droite": 22.1
+},
+"leanScore": -15.3,
+"insee": "95500",
+"matchedBy": "name+dep"
+},
+"romorantin-lanthenay": {
+"lean": "extreme_droite",
+"topPct": 38.4,
+"blocs": {
+"gauche": 26.4,
+"centre": 27.7,
+"droite": 7.5,
+"extreme_droite": 38.4
+},
+"leanScore": 19.5,
+"insee": "41194",
+"matchedBy": "name+dep"
+},
+"joigny": {
+"lean": "gauche",
+"topPct": 34.7,
+"blocs": {
+"gauche": 34.7,
+"centre": 24.2,
+"droite": 6.9,
+"extreme_droite": 34.2
+},
+"leanScore": 6.4,
+"insee": "89206",
+"matchedBy": "name+dep"
+},
+"privas": {
+"lean": "gauche",
+"topPct": 38.8,
+"blocs": {
+"gauche": 38.8,
+"centre": 24.4,
+"droite": 9.1,
+"extreme_droite": 27.7
+},
+"leanScore": -2.0,
+"insee": "07186",
+"matchedBy": "name+dep"
+},
+"bagnols-sur-ceze": {
+"lean": "extreme_droite",
+"topPct": 40.3,
+"blocs": {
+"gauche": 31.9,
+"centre": 20.7,
+"droite": 7.1,
+"extreme_droite": 40.3
+},
+"leanScore": 15.5,
+"insee": "30028",
+"matchedBy": "name+dep"
+},
+"muret": {
+"lean": "gauche",
+"topPct": 34.0,
+"blocs": {
+"gauche": 34.0,
+"centre": 24.4,
+"droite": 7.9,
+"extreme_droite": 33.7
+},
+"leanScore": 7.6,
+"insee": "31395",
+"matchedBy": "name+dep"
+},
+"meaux": {
+"lean": "gauche",
+"topPct": 44.5,
+"blocs": {
+"gauche": 44.5,
+"centre": 21.0,
+"droite": 7.6,
+"extreme_droite": 26.9
+},
+"leanScore": -10.0,
+"insee": "77284",
+"matchedBy": "name+dep"
+},
+"bourgoin-jallieu": {
+"lean": "gauche",
+"topPct": 36.1,
+"blocs": {
+"gauche": 36.1,
+"centre": 26.7,
+"droite": 6.7,
+"extreme_droite": 30.5
+},
+"leanScore": 1.1,
+"insee": "38053",
+"matchedBy": "name+dep"
+},
+"gaillac": {
+"lean": "gauche",
+"topPct": 37.5,
+"blocs": {
+"gauche": 37.5,
+"centre": 21.5,
+"droite": 9.2,
+"extreme_droite": 31.8
+},
+"leanScore": 3.5,
+"insee": "81099",
+"matchedBy": "name+dep"
+},
+"romilly-sur-seine": {
+"lean": "extreme_droite",
+"topPct": 38.9,
+"blocs": {
+"gauche": 34.8,
+"centre": 20.6,
+"droite": 5.6,
+"extreme_droite": 38.9
+},
+"leanScore": 9.7,
+"insee": "10323",
+"matchedBy": "name+dep"
+},
+"saint-dizier": {
+"lean": "extreme_droite",
+"topPct": 45.0,
+"blocs": {
+"gauche": 26.9,
+"centre": 22.1,
+"droite": 6.0,
+"extreme_droite": 45.0
+},
+"leanScore": 24.1,
+"insee": "52448",
+"matchedBy": "name+dep"
+},
+"chateaudun": {
+"lean": "extreme_droite",
+"topPct": 33.6,
+"blocs": {
+"gauche": 29.0,
+"centre": 28.9,
+"droite": 8.5,
+"extreme_droite": 33.6
+},
+"leanScore": 13.1,
+"insee": "28088",
+"matchedBy": "name+dep"
+},
+"venissieux": {
+"lean": "gauche",
+"topPct": 57.3,
+"blocs": {
+"gauche": 57.3,
+"centre": 18.0,
+"droite": 3.2,
+"extreme_droite": 21.5
+},
+"leanScore": -32.6,
+"insee": "69259",
+"matchedBy": "manual"
+},
+"chateau-gontier-sur-mayenne": {
+"lean": "centre",
+"topPct": 44.2,
+"blocs": {
+"gauche": 24.0,
+"centre": 44.2,
+"droite": 8.1,
+"extreme_droite": 23.7
+},
+"leanScore": 7.8,
+"insee": "53062",
+"matchedBy": "name+dep"
+},
+"rambouillet": {
+"lean": "centre",
+"topPct": 31.6,
+"blocs": {
+"gauche": 29.4,
+"centre": 31.6,
+"droite": 10.9,
+"extreme_droite": 28.1
+},
+"leanScore": 9.6,
+"insee": "78517",
+"matchedBy": "name+dep"
+},
+"massy": {
+"lean": "gauche",
+"topPct": 49.1,
+"blocs": {
+"gauche": 49.1,
+"centre": 28.2,
+"droite": 5.9,
+"extreme_droite": 16.8
+},
+"leanScore": -26.4,
+"insee": "91377",
+"matchedBy": "name+dep"
+},
+"argentan": {
+"lean": "extreme_droite",
+"topPct": 33.1,
+"blocs": {
+"gauche": 30.5,
+"centre": 29.9,
+"droite": 6.5,
+"extreme_droite": 33.1
+},
+"leanScore": 9.1,
+"insee": "61006",
+"matchedBy": "name+dep"
+},
+"gerardmer": {
+"lean": "gauche",
+"topPct": 32.9,
+"blocs": {
+"gauche": 32.9,
+"centre": 29.0,
+"droite": 9.0,
+"extreme_droite": 29.0
+},
+"leanScore": 5.1,
+"insee": "88196",
+"matchedBy": "name+dep"
+},
+"guebwiller": {
+"lean": "extreme_droite",
+"topPct": 39.4,
+"blocs": {
+"gauche": 30.1,
+"centre": 24.1,
+"droite": 6.4,
+"extreme_droite": 39.4
+},
+"leanScore": 15.7,
+"insee": "68112",
+"matchedBy": "name+dep"
+},
+"saint-claude": {
+"lean": "gauche",
+"topPct": 39.3,
+"blocs": {
+"gauche": 39.3,
+"centre": 21.2,
+"droite": 8.3,
+"extreme_droite": 31.2
+},
+"leanScore": 0.2,
+"insee": "39478",
+"matchedBy": "name+dep"
+},
+"sable-sur-sarthe": {
+"lean": "extreme_droite",
+"topPct": 31.6,
+"blocs": {
+"gauche": 28.7,
+"centre": 31.1,
+"droite": 8.6,
+"extreme_droite": 31.6
+},
+"leanScore": 11.5,
+"insee": "72264",
+"matchedBy": "name+dep"
+},
+"louviers": {
+"lean": "gauche",
+"topPct": 34.4,
+"blocs": {
+"gauche": 34.4,
+"centre": 26.6,
+"droite": 6.0,
+"extreme_droite": 33.0
+},
+"leanScore": 4.6,
+"insee": "27375",
+"matchedBy": "name+dep"
+},
+"bagneres-de-bigorre": {
+"lean": "gauche",
+"topPct": 39.0,
+"blocs": {
+"gauche": 39.0,
+"centre": 26.6,
+"droite": 11.3,
+"extreme_droite": 23.0
+},
+"leanScore": -4.7,
+"insee": "65059",
+"matchedBy": "name+dep"
+},
+"lure": {
+"lean": "extreme_droite",
+"topPct": 40.6,
+"blocs": {
+"gauche": 31.3,
+"centre": 21.6,
+"droite": 6.5,
+"extreme_droite": 40.6
+},
+"leanScore": 15.8,
+"insee": "70310",
+"matchedBy": "name+dep"
+},
+"peronne": {
+"lean": "extreme_droite",
+"topPct": 40.8,
+"blocs": {
+"gauche": 23.2,
+"centre": 30.3,
+"droite": 5.8,
+"extreme_droite": 40.8
+},
+"leanScore": 23.4,
+"insee": "80620",
+"matchedBy": "name+dep"
+},
+"le-blanc": {
+"lean": "extreme_droite",
+"topPct": 36.5,
+"blocs": {
+"gauche": 27.9,
+"centre": 26.3,
+"droite": 9.4,
+"extreme_droite": 36.5
+},
+"leanScore": 18.0,
+"insee": "36018",
+"matchedBy": "name+dep"
+},
+"montmorillon": {
+"lean": "centre",
+"topPct": 31.8,
+"blocs": {
+"gauche": 27.0,
+"centre": 31.8,
+"droite": 9.7,
+"extreme_droite": 31.6
+},
+"leanScore": 14.3,
+"insee": "86165",
+"matchedBy": "name+dep"
+},
+"monistrol-sur-loire": {
+"lean": "extreme_droite",
+"topPct": 39.7,
+"blocs": {
+"gauche": 26.7,
+"centre": 24.0,
+"droite": 9.7,
+"extreme_droite": 39.7
+},
+"leanScore": 22.7,
+"insee": "43137",
+"matchedBy": "name+dep"
+},
+"embrun": {
+"lean": "gauche",
+"topPct": 39.7,
+"blocs": {
+"gauche": 39.7,
+"centre": 26.3,
+"droite": 7.4,
+"extreme_droite": 26.5
+},
+"leanScore": -5.8,
+"insee": "05046",
+"matchedBy": "name+dep"
+},
+"saint-girons": {
+"lean": "gauche",
+"topPct": 39.2,
+"blocs": {
+"gauche": 39.2,
+"centre": 23.3,
+"droite": 12.0,
+"extreme_droite": 25.5
+},
+"leanScore": -1.7,
+"insee": "09261",
+"matchedBy": "name+dep"
+},
+"rethel": {
+"lean": "extreme_droite",
+"topPct": 44.4,
+"blocs": {
+"gauche": 19.5,
+"centre": 29.3,
+"droite": 6.8,
+"extreme_droite": 44.4
+},
+"leanScore": 31.7,
+"insee": "08362",
+"matchedBy": "name+dep"
+},
+"commercy": {
+"lean": "extreme_droite",
+"topPct": 39.1,
+"blocs": {
+"gauche": 29.7,
+"centre": 25.1,
+"droite": 6.1,
+"extreme_droite": 39.1
+},
+"leanScore": 15.5,
+"insee": "55122",
+"matchedBy": "name+dep"
+},
+"la-souterraine": {
+"lean": "gauche",
+"topPct": 34.7,
+"blocs": {
+"gauche": 34.7,
+"centre": 25.1,
+"droite": 9.6,
+"extreme_droite": 30.6
+},
+"leanScore": 5.5,
+"insee": "23176",
+"matchedBy": "name+dep"
+},
+"fleurance": {
+"lean": "extreme_droite",
+"topPct": 36.9,
+"blocs": {
+"gauche": 28.2,
+"centre": 23.5,
+"droite": 11.4,
+"extreme_droite": 36.9
+},
+"leanScore": 20.1,
+"insee": "32132",
+"matchedBy": "name+dep"
+},
+"bellac": {
+"lean": "extreme_droite",
+"topPct": 32.2,
+"blocs": {
+"gauche": 30.4,
+"centre": 26.4,
+"droite": 11.0,
+"extreme_droite": 32.2
+},
+"leanScore": 12.8,
+"insee": "87011",
+"matchedBy": "name+dep"
+},
+"saint-chely-d-apcher": {
+"lean": "extreme_droite",
+"topPct": 32.4,
+"blocs": {
+"gauche": 23.0,
+"centre": 30.3,
+"droite": 14.4,
+"extreme_droite": 32.4
+},
+"leanScore": 23.8,
+"insee": "48140",
+"matchedBy": "name+dep"
+},
+"clamecy": {
+"lean": "extreme_droite",
+"topPct": 34.1,
+"blocs": {
+"gauche": 33.6,
+"centre": 25.9,
+"droite": 6.5,
+"extreme_droite": 34.1
+},
+"leanScore": 7.0,
+"insee": "58079",
+"matchedBy": "name+dep"
+},
+"porto-vecchio": {
+"lean": "extreme_droite",
+"topPct": 44.5,
+"blocs": {
+"gauche": 22.8,
+"centre": 18.6,
+"droite": 14.1,
+"extreme_droite": 44.5
+},
+"leanScore": 35.8,
+"insee": "2A247",
+"matchedBy": "name+dep"
+},
+"corte": {
+"lean": "extreme_droite",
+"topPct": 34.8,
+"blocs": {
+"gauche": 20.6,
+"centre": 18.6,
+"droite": 26.0,
+"extreme_droite": 34.8
+},
+"leanScore": 40.2,
+"insee": "2B096",
+"matchedBy": "name+dep"
+},
+"sartene": {
+"lean": "extreme_droite",
+"topPct": 42.2,
+"blocs": {
+"gauche": 29.0,
+"centre": 15.8,
+"droite": 13.0,
+"extreme_droite": 42.2
+},
+"leanScore": 26.2,
+"insee": "2A272",
+"matchedBy": "name+dep"
+},
+"calvi": {
+"lean": "extreme_droite",
+"topPct": 50.3,
+"blocs": {
+"gauche": 15.2,
+"centre": 19.2,
+"droite": 15.3,
+"extreme_droite": 50.3
+},
+"leanScore": 50.4,
+"insee": "2B050",
+"matchedBy": "name+dep"
+},
+"jarnac": {
+"lean": "extreme_droite",
+"topPct": 33.4,
+"blocs": {
+"gauche": 26.1,
+"centre": 31.1,
+"droite": 9.4,
+"extreme_droite": 33.4
+},
+"leanScore": 16.7,
+"insee": "16167",
+"matchedBy": "name+dep"
+},
+"mauriac": {
+"lean": "extreme_droite",
+"topPct": 31.5,
+"blocs": {
+"gauche": 25.0,
+"centre": 28.3,
+"droite": 15.2,
+"extreme_droite": 31.5
+},
+"leanScore": 21.7,
+"insee": "15120",
+"matchedBy": "name+dep"
+},
+"delle": {
+"lean": "extreme_droite",
+"topPct": 40.0,
+"blocs": {
+"gauche": 34.5,
+"centre": 20.2,
+"droite": 5.3,
+"extreme_droite": 40.0
+},
+"leanScore": 10.8,
+"insee": "90033",
+"matchedBy": "name+dep"
+},
+"riberac": {
+"lean": "extreme_droite",
+"topPct": 34.9,
+"blocs": {
+"gauche": 31.0,
+"centre": 25.3,
+"droite": 8.8,
+"extreme_droite": 34.9
+},
+"leanScore": 12.7,
+"insee": "24352",
+"matchedBy": "name+dep"
+},
+"saint-denis-reunion": {
+"lean": "gauche",
+"topPct": 45.1,
+"blocs": {
+"gauche": 45.1,
+"centre": 21.1,
+"droite": 4.6,
+"extreme_droite": 29.2
+},
+"leanScore": -11.3,
+"insee": "97411",
+"matchedBy": "insee"
+},
+"saint-paul-reunion": {
+"lean": "gauche",
+"topPct": 49.0,
+"blocs": {
+"gauche": 49.0,
+"centre": 21.0,
+"droite": 4.9,
+"extreme_droite": 25.1
+},
+"leanScore": -19.0,
+"insee": "97415",
+"matchedBy": "insee"
+},
+"saint-pierre-reunion": {
+"lean": "gauche",
+"topPct": 47.9,
+"blocs": {
+"gauche": 47.9,
+"centre": 18.4,
+"droite": 5.2,
+"extreme_droite": 28.5
+},
+"leanScore": -14.2,
+"insee": "97416",
+"matchedBy": "insee"
+},
+"le-tampon": {
+"lean": "gauche",
+"topPct": 42.4,
+"blocs": {
+"gauche": 42.4,
+"centre": 16.0,
+"droite": 4.4,
+"extreme_droite": 37.2
+},
+"leanScore": -0.8,
+"insee": "97422",
+"matchedBy": "insee"
+},
+"fort-de-france": {
+"lean": "gauche",
+"topPct": 62.9,
+"blocs": {
+"gauche": 62.9,
+"centre": 16.2,
+"droite": 4.4,
+"extreme_droite": 16.6
+},
+"leanScore": -41.9,
+"insee": "97209",
+"matchedBy": "insee"
+},
+"le-lamentin": {
+"lean": "gauche",
+"topPct": 62.7,
+"blocs": {
+"gauche": 62.7,
+"centre": 14.6,
+"droite": 4.4,
+"extreme_droite": 18.3
+},
+"leanScore": -40.0,
+"insee": "97213",
+"matchedBy": "insee"
+},
+"les-abymes": {
+"lean": "gauche",
+"topPct": 68.0,
+"blocs": {
+"gauche": 68.0,
+"centre": 10.3,
+"droite": 2.7,
+"extreme_droite": 19.0
+},
+"leanScore": -46.3,
+"insee": "97101",
+"matchedBy": "insee"
+},
+"pointe-a-pitre": {
+"lean": "gauche",
+"topPct": 62.7,
+"blocs": {
+"gauche": 62.7,
+"centre": 13.6,
+"droite": 4.4,
+"extreme_droite": 19.4
+},
+"leanScore": -38.9,
+"insee": "97120",
+"matchedBy": "insee"
+},
+"baie-mahault": {
+"lean": "gauche",
+"topPct": 60.3,
+"blocs": {
+"gauche": 60.3,
+"centre": 14.8,
+"droite": 4.7,
+"extreme_droite": 20.3
+},
+"leanScore": -35.3,
+"insee": "97103",
+"matchedBy": "insee"
+},
+"cayenne": {
+"lean": "gauche",
+"topPct": 58.5,
+"blocs": {
+"gauche": 58.5,
+"centre": 12.5,
+"droite": 4.3,
+"extreme_droite": 24.8
+},
+"leanScore": -29.4,
+"insee": "97302",
+"matchedBy": "insee"
+},
+"saint-laurent-du-maroni": {
+"lean": "gauche",
+"topPct": 67.9,
+"blocs": {
+"gauche": 67.9,
+"centre": 10.7,
+"droite": 3.6,
+"extreme_droite": 17.8
+},
+"leanScore": -46.5,
+"insee": "97311",
+"matchedBy": "insee"
+},
+"mamoudzou": {
+"lean": "extreme_droite",
+"topPct": 33.3,
+"blocs": {
+"gauche": 32.4,
+"centre": 31.0,
+"droite": 3.4,
+"extreme_droite": 33.3
+},
+"leanScore": 4.3,
+"insee": "97608",
+"matchedBy": "insee"
+},
+"cormeilles-en-parisis": {
+"lean": "gauche",
+"topPct": 34.5,
+"blocs": {
+"gauche": 34.5,
+"centre": 31.9,
+"droite": 8.7,
+"extreme_droite": 24.9
+},
+"leanScore": -0.9,
+"insee": "95176",
+"matchedBy": "insee"
+},
+"sarcelles": {
+"lean": "gauche",
+"topPct": 52.4,
+"blocs": {
+"gauche": 52.4,
+"centre": 18.7,
+"droite": 3.5,
+"extreme_droite": 25.3
+},
+"leanScore": -23.6,
+"insee": "95585",
+"matchedBy": "insee"
+},
+"ermont": {
+"lean": "gauche",
+"topPct": 41.9,
+"blocs": {
+"gauche": 41.9,
+"centre": 29.7,
+"droite": 6.9,
+"extreme_droite": 21.6
+},
+"leanScore": -13.4,
+"insee": "95219",
+"matchedBy": "insee"
+},
+"franconville": {
+"lean": "gauche",
+"topPct": 40.3,
+"blocs": {
+"gauche": 40.3,
+"centre": 26.6,
+"droite": 7.7,
+"extreme_droite": 25.3
+},
+"leanScore": -7.3,
+"insee": "95252",
+"matchedBy": "insee"
+},
+"sannois": {
+"lean": "gauche",
+"topPct": 42.3,
+"blocs": {
+"gauche": 42.3,
+"centre": 27.7,
+"droite": 6.7,
+"extreme_droite": 23.3
+},
+"leanScore": -12.3,
+"insee": "95582",
+"matchedBy": "insee"
+},
+"bezons": {
+"lean": "gauche",
+"topPct": 52.7,
+"blocs": {
+"gauche": 52.7,
+"centre": 22.5,
+"droite": 4.0,
+"extreme_droite": 20.8
+},
+"leanScore": -27.9,
+"insee": "95063",
+"matchedBy": "insee"
+},
+"garges-les-gonesse": {
+"lean": "gauche",
+"topPct": 65.5,
+"blocs": {
+"gauche": 65.5,
+"centre": 16.8,
+"droite": 3.1,
+"extreme_droite": 14.6
+},
+"leanScore": -47.8,
+"insee": "95268",
+"matchedBy": "insee"
+},
+"gonesse": {
+"lean": "gauche",
+"topPct": 48.5,
+"blocs": {
+"gauche": 48.5,
+"centre": 19.2,
+"droite": 4.9,
+"extreme_droite": 27.4
+},
+"leanScore": -16.2,
+"insee": "95277",
+"matchedBy": "insee"
+},
+"villiers-le-bel": {
+"lean": "gauche",
+"topPct": 59.1,
+"blocs": {
+"gauche": 59.1,
+"centre": 18.3,
+"droite": 3.2,
+"extreme_droite": 19.4
+},
+"leanScore": -36.5,
+"insee": "95680",
+"matchedBy": "insee"
+},
+"pierrefitte-sur-seine": {
+"lean": "gauche",
+"topPct": 63.2,
+"blocs": {
+"gauche": 63.2,
+"centre": 17.4,
+"droite": 3.4,
+"extreme_droite": 15.9
+},
+"leanScore": -43.9,
+"insee": "93059",
+"matchedBy": "insee"
+},
+"aulnay-sous-bois": {
+"lean": "gauche",
+"topPct": 56.3,
+"blocs": {
+"gauche": 56.3,
+"centre": 19.2,
+"droite": 5.4,
+"extreme_droite": 19.1
+},
+"leanScore": -31.8,
+"insee": "93005",
+"matchedBy": "insee"
+},
+"drancy": {
+"lean": "gauche",
+"topPct": 51.5,
+"blocs": {
+"gauche": 51.5,
+"centre": 18.9,
+"droite": 4.8,
+"extreme_droite": 24.8
+},
+"leanScore": -21.9,
+"insee": "93029",
+"matchedBy": "insee"
+},
+"bondy": {
+"lean": "gauche",
+"topPct": 59.4,
+"blocs": {
+"gauche": 59.4,
+"centre": 19.0,
+"droite": 4.6,
+"extreme_droite": 17.0
+},
+"leanScore": -37.8,
+"insee": "93010",
+"matchedBy": "insee"
+},
+"saint-ouen-sur-seine": {
+"lean": "gauche",
+"topPct": 62.9,
+"blocs": {
+"gauche": 62.9,
+"centre": 21.3,
+"droite": 3.9,
+"extreme_droite": 11.9
+},
+"leanScore": -47.1,
+"insee": "93070",
+"matchedBy": "insee"
+},
+"aubervilliers": {
+"lean": "gauche",
+"topPct": 66.8,
+"blocs": {
+"gauche": 66.8,
+"centre": 16.4,
+"droite": 3.2,
+"extreme_droite": 13.7
+},
+"leanScore": -49.9,
+"insee": "93001",
+"matchedBy": "insee"
+},
+"stains": {
+"lean": "gauche",
+"topPct": 65.2,
+"blocs": {
+"gauche": 65.2,
+"centre": 15.9,
+"droite": 2.7,
+"extreme_droite": 16.2
+},
+"leanScore": -46.3,
+"insee": "93072",
+"matchedBy": "insee"
+},
+"sevran": {
+"lean": "gauche",
+"topPct": 60.2,
+"blocs": {
+"gauche": 60.2,
+"centre": 18.8,
+"droite": 3.7,
+"extreme_droite": 17.4
+},
+"leanScore": -39.1,
+"insee": "93071",
+"matchedBy": "insee"
+},
+"la-courneuve": {
+"lean": "gauche",
+"topPct": 69.1,
+"blocs": {
+"gauche": 69.1,
+"centre": 14.7,
+"droite": 2.5,
+"extreme_droite": 13.8
+},
+"leanScore": -52.8,
+"insee": "93027",
+"matchedBy": "insee"
+},
+"bagnolet": {
+"lean": "gauche",
+"topPct": 65.2,
+"blocs": {
+"gauche": 65.2,
+"centre": 17.5,
+"droite": 2.6,
+"extreme_droite": 14.6
+},
+"leanScore": -48.0,
+"insee": "93006",
+"matchedBy": "insee"
+},
+"asnieres-sur-seine": {
+"lean": "gauche",
+"topPct": 40.5,
+"blocs": {
+"gauche": 40.5,
+"centre": 35.8,
+"droite": 8.7,
+"extreme_droite": 15.1
+},
+"leanScore": -16.7,
+"insee": "92004",
+"matchedBy": "insee"
+},
+"antony": {
+"lean": "centre",
+"topPct": 37.3,
+"blocs": {
+"gauche": 35.5,
+"centre": 37.3,
+"droite": 10.2,
+"extreme_droite": 17.0
+},
+"leanScore": -8.3,
+"insee": "92002",
+"matchedBy": "insee"
+},
+"suresnes": {
+"lean": "centre",
+"topPct": 40.3,
+"blocs": {
+"gauche": 31.6,
+"centre": 40.3,
+"droite": 9.5,
+"extreme_droite": 18.6
+},
+"leanScore": -3.5,
+"insee": "92073",
+"matchedBy": "insee"
+},
+"saint-cloud": {
+"lean": "centre",
+"topPct": 44.7,
+"blocs": {
+"gauche": 20.2,
+"centre": 44.7,
+"droite": 14.1,
+"extreme_droite": 21.0
+},
+"leanScore": 14.9,
+"insee": "92064",
+"matchedBy": "insee"
+},
+"champigny-sur-marne": {
+"lean": "gauche",
+"topPct": 50.1,
+"blocs": {
+"gauche": 50.1,
+"centre": 23.7,
+"droite": 6.1,
+"extreme_droite": 20.1
+},
+"leanScore": -23.9,
+"insee": "94017",
+"matchedBy": "insee"
+},
+"saint-maur-des-fosses": {
+"lean": "centre",
+"topPct": 38.9,
+"blocs": {
+"gauche": 27.8,
+"centre": 38.9,
+"droite": 10.8,
+"extreme_droite": 22.5
+},
+"leanScore": 5.5,
+"insee": "94068",
+"matchedBy": "insee"
+},
+"maisons-alfort": {
+"lean": "gauche",
+"topPct": 37.1,
+"blocs": {
+"gauche": 37.1,
+"centre": 30.9,
+"droite": 8.9,
+"extreme_droite": 23.1
+},
+"leanScore": -5.1,
+"insee": "94046",
+"matchedBy": "insee"
+},
+"fontenay-sous-bois": {
+"lean": "gauche",
+"topPct": 49.5,
+"blocs": {
+"gauche": 49.5,
+"centre": 28.1,
+"droite": 5.8,
+"extreme_droite": 16.7
+},
+"leanScore": -27.0,
+"insee": "94033",
+"matchedBy": "insee"
+},
+"clichy": {
+"lean": "gauche",
+"topPct": 52.6,
+"blocs": {
+"gauche": 52.6,
+"centre": 28.8,
+"droite": 5.2,
+"extreme_droite": 13.4
+},
+"leanScore": -34.0,
+"insee": "92024",
+"matchedBy": "insee"
+},
+"poissy": {
+"lean": "gauche",
+"topPct": 40.5,
+"blocs": {
+"gauche": 40.5,
+"centre": 31.3,
+"droite": 8.2,
+"extreme_droite": 20.0
+},
+"leanScore": -12.3,
+"insee": "78498",
+"matchedBy": "insee"
+},
+"mantes-la-jolie": {
+"lean": "gauche",
+"topPct": 60.3,
+"blocs": {
+"gauche": 60.3,
+"centre": 18.4,
+"droite": 5.3,
+"extreme_droite": 16.0
+},
+"leanScore": -39.0,
+"insee": "78361",
+"matchedBy": "insee"
+},
+"trappes": {
+"lean": "gauche",
+"topPct": 65.9,
+"blocs": {
+"gauche": 65.9,
+"centre": 16.6,
+"droite": 3.3,
+"extreme_droite": 14.3
+},
+"leanScore": -48.3,
+"insee": "78621",
+"matchedBy": "insee"
+},
+"sartrouville": {
+"lean": "gauche",
+"topPct": 43.1,
+"blocs": {
+"gauche": 43.1,
+"centre": 28.8,
+"droite": 7.8,
+"extreme_droite": 20.3
+},
+"leanScore": -15.0,
+"insee": "78586",
+"matchedBy": "insee"
+},
+"cernay": {
+"lean": "extreme_droite",
+"topPct": 41.8,
+"blocs": {
+"gauche": 29.0,
+"centre": 23.5,
+"droite": 5.7,
+"extreme_droite": 41.8
+},
+"leanScore": 18.5,
+"insee": "68063",
+"matchedBy": "insee"
+},
+"roubaix": {
+"lean": "gauche",
+"topPct": 58.5,
+"blocs": {
+"gauche": 58.5,
+"centre": 19.8,
+"droite": 2.9,
+"extreme_droite": 18.8
+},
+"leanScore": -36.8,
+"insee": "59512",
+"matchedBy": "insee"
+},
+"tourcoing": {
+"lean": "gauche",
+"topPct": 43.8,
+"blocs": {
+"gauche": 43.8,
+"centre": 23.4,
+"droite": 3.4,
+"extreme_droite": 29.5
+},
+"leanScore": -10.9,
+"insee": "59599",
+"matchedBy": "insee"
+},
+"wattrelos": {
+"lean": "extreme_droite",
+"topPct": 39.6,
+"blocs": {
+"gauche": 35.6,
+"centre": 21.8,
+"droite": 3.0,
+"extreme_droite": 39.6
+},
+"leanScore": 7.0,
+"insee": "59650",
+"matchedBy": "insee"
+},
+"vitrolles": {
+"lean": "extreme_droite",
+"topPct": 42.0,
+"blocs": {
+"gauche": 34.3,
+"centre": 19.1,
+"droite": 4.7,
+"extreme_droite": 42.0
+},
+"leanScore": 12.4,
+"insee": "13117",
+"matchedBy": "insee"
+},
+"marignane": {
+"lean": "extreme_droite",
+"topPct": 54.5,
+"blocs": {
+"gauche": 23.5,
+"centre": 17.2,
+"droite": 4.8,
+"extreme_droite": 54.5
+},
+"leanScore": 35.8,
+"insee": "13054",
+"matchedBy": "insee"
+},
+"istres": {
+"lean": "extreme_droite",
+"topPct": 44.9,
+"blocs": {
+"gauche": 30.3,
+"centre": 18.7,
+"droite": 6.1,
+"extreme_droite": 44.9
+},
+"leanScore": 20.7,
+"insee": "13047",
+"matchedBy": "insee"
+},
+"la-seyne-sur-mer": {
+"lean": "extreme_droite",
+"topPct": 41.3,
+"blocs": {
+"gauche": 30.1,
+"centre": 22.4,
+"droite": 6.2,
+"extreme_droite": 41.3
+},
+"leanScore": 17.4,
+"insee": "83126",
+"matchedBy": "insee"
+},
+"six-fours-les-plages": {
+"lean": "extreme_droite",
+"topPct": 48.4,
+"blocs": {
+"gauche": 18.9,
+"centre": 24.6,
+"droite": 8.1,
+"extreme_droite": 48.4
+},
+"leanScore": 37.6,
+"insee": "83129",
+"matchedBy": "insee"
+},
+"le-cannet": {
+"lean": "extreme_droite",
+"topPct": 43.8,
+"blocs": {
+"gauche": 21.2,
+"centre": 26.1,
+"droite": 8.8,
+"extreme_droite": 43.8
+},
+"leanScore": 31.4,
+"insee": "06030",
+"matchedBy": "insee"
+},
+"mandelieu-la-napoule": {
+"lean": "extreme_droite",
+"topPct": 50.1,
+"blocs": {
+"gauche": 15.3,
+"centre": 25.5,
+"droite": 9.1,
+"extreme_droite": 50.1
+},
+"leanScore": 43.9,
+"insee": "06079",
+"matchedBy": "insee"
+},
+"vaulx-en-velin": {
+"lean": "gauche",
+"topPct": 61.4,
+"blocs": {
+"gauche": 61.4,
+"centre": 17.3,
+"droite": 2.6,
+"extreme_droite": 18.8
+},
+"leanScore": -40.0,
+"insee": "69256",
+"matchedBy": "insee"
+},
+"bron": {
+"lean": "gauche",
+"topPct": 42.7,
+"blocs": {
+"gauche": 42.7,
+"centre": 27.5,
+"droite": 6.3,
+"extreme_droite": 23.5
+},
+"leanScore": -12.9,
+"insee": "69029",
+"matchedBy": "insee"
+},
+"saint-priest": {
+"lean": "gauche",
+"topPct": 40.6,
+"blocs": {
+"gauche": 40.6,
+"centre": 24.1,
+"droite": 5.3,
+"extreme_droite": 30.0
+},
+"leanScore": -5.3,
+"insee": "69290",
+"matchedBy": "insee"
+},
+"caluire-et-cuire": {
+"lean": "centre",
+"topPct": 36.7,
+"blocs": {
+"gauche": 32.3,
+"centre": 36.7,
+"droite": 8.9,
+"extreme_droite": 22.0
+},
+"leanScore": -1.4,
+"insee": "69034",
+"matchedBy": "insee"
+},
+"decines-charpieu": {
+"lean": "gauche",
+"topPct": 37.6,
+"blocs": {
+"gauche": 37.6,
+"centre": 23.6,
+"droite": 5.6,
+"extreme_droite": 33.2
+},
+"leanScore": 1.2,
+"insee": "69275",
+"matchedBy": "insee"
+},
+"meyzieu": {
+"lean": "gauche",
+"topPct": 36.4,
+"blocs": {
+"gauche": 36.4,
+"centre": 27.1,
+"droite": 5.9,
+"extreme_droite": 30.6
+},
+"leanScore": 0.1,
+"insee": "69282",
+"matchedBy": "insee"
+},
+"merignac": {
+"lean": "gauche",
+"topPct": 37.1,
+"blocs": {
+"gauche": 37.1,
+"centre": 32.8,
+"droite": 7.1,
+"extreme_droite": 23.1
+},
+"leanScore": -6.9,
+"insee": "33281",
+"matchedBy": "insee"
+},
+"pessac": {
+"lean": "gauche",
+"topPct": 39.9,
+"blocs": {
+"gauche": 39.9,
+"centre": 32.1,
+"droite": 7.6,
+"extreme_droite": 20.4
+},
+"leanScore": -11.9,
+"insee": "33318",
+"matchedBy": "insee"
+},
+"talence": {
+"lean": "gauche",
+"topPct": 46.1,
+"blocs": {
+"gauche": 46.1,
+"centre": 30.0,
+"droite": 7.0,
+"extreme_droite": 16.9
+},
+"leanScore": -22.2,
+"insee": "33522",
+"matchedBy": "insee"
+},
+"begles": {
+"lean": "gauche",
+"topPct": 51.2,
+"blocs": {
+"gauche": 51.2,
+"centre": 24.2,
+"droite": 5.7,
+"extreme_droite": 18.9
+},
+"leanScore": -26.6,
+"insee": "33039",
+"matchedBy": "insee"
+},
+"le-bouscat": {
+"lean": "centre",
+"topPct": 39.1,
+"blocs": {
+"gauche": 29.3,
+"centre": 39.1,
+"droite": 9.5,
+"extreme_droite": 22.1
+},
+"leanScore": 2.3,
+"insee": "33069",
+"matchedBy": "insee"
+},
+"villenave-d-ornon": {
+"lean": "gauche",
+"topPct": 39.2,
+"blocs": {
+"gauche": 39.2,
+"centre": 28.2,
+"droite": 7.0,
+"extreme_droite": 25.6
+},
+"leanScore": -6.6,
+"insee": "33550",
+"matchedBy": "insee"
+},
+"bethune": {
+"lean": "extreme_droite",
+"topPct": 39.6,
+"blocs": {
+"gauche": 28.2,
+"centre": 26.8,
+"droite": 5.4,
+"extreme_droite": 39.6
+},
+"leanScore": 16.8,
+"insee": "62119",
+"matchedBy": "insee"
+},
+"lievin": {
+"lean": "extreme_droite",
+"topPct": 50.9,
+"blocs": {
+"gauche": 27.9,
+"centre": 18.4,
+"droite": 2.8,
+"extreme_droite": 50.9
+},
+"leanScore": 25.8,
+"insee": "62510",
+"matchedBy": "insee"
+},
+"bruay-la-buissiere": {
+"lean": "extreme_droite",
+"topPct": 57.5,
+"blocs": {
+"gauche": 22.1,
+"centre": 17.6,
+"droite": 2.8,
+"extreme_droite": 57.5
+},
+"leanScore": 38.2,
+"insee": "62178",
+"matchedBy": "insee"
+},
+"colomiers": {
+"lean": "gauche",
+"topPct": 39.5,
+"blocs": {
+"gauche": 39.5,
+"centre": 28.7,
+"droite": 6.9,
+"extreme_droite": 24.9
+},
+"leanScore": -7.7,
+"insee": "31149",
+"matchedBy": "insee"
+},
+"tournefeuille": {
+"lean": "gauche",
+"topPct": 35.8,
+"blocs": {
+"gauche": 35.8,
+"centre": 34.3,
+"droite": 7.9,
+"extreme_droite": 21.9
+},
+"leanScore": -6.0,
+"insee": "31557",
+"matchedBy": "insee"
+},
+"blagnac": {
+"lean": "gauche",
+"topPct": 38.6,
+"blocs": {
+"gauche": 38.6,
+"centre": 30.7,
+"droite": 8.0,
+"extreme_droite": 22.7
+},
+"leanScore": -7.9,
+"insee": "31069",
+"matchedBy": "insee"
+},
+"cugnaux": {
+"lean": "gauche",
+"topPct": 37.3,
+"blocs": {
+"gauche": 37.3,
+"centre": 28.9,
+"droite": 7.2,
+"extreme_droite": 26.5
+},
+"leanScore": -3.6,
+"insee": "31157",
+"matchedBy": "insee"
+},
+"saint-herblain": {
+"lean": "gauche",
+"topPct": 44.3,
+"blocs": {
+"gauche": 44.3,
+"centre": 30.9,
+"droite": 5.0,
+"extreme_droite": 19.8
+},
+"leanScore": -19.5,
+"insee": "44162",
+"matchedBy": "insee"
+},
+"reze": {
+"lean": "gauche",
+"topPct": 51.4,
+"blocs": {
+"gauche": 51.4,
+"centre": 27.5,
+"droite": 4.3,
+"extreme_droite": 16.8
+},
+"leanScore": -30.3,
+"insee": "44143",
+"matchedBy": "insee"
+},
+"orvault": {
+"lean": "centre",
+"topPct": 38.8,
+"blocs": {
+"gauche": 34.9,
+"centre": 38.8,
+"droite": 7.5,
+"extreme_droite": 18.8
+},
+"leanScore": -8.6,
+"insee": "44114",
+"matchedBy": "insee"
+},
+"vertou": {
+"lean": "centre",
+"topPct": 38.5,
+"blocs": {
+"gauche": 34.4,
+"centre": 38.5,
+"droite": 7.4,
+"extreme_droite": 19.7
+},
+"leanScore": -7.3,
+"insee": "44215",
+"matchedBy": "insee"
+},
+"schiltigheim": {
+"lean": "gauche",
+"topPct": 47.6,
+"blocs": {
+"gauche": 47.6,
+"centre": 26.0,
+"droite": 4.2,
+"extreme_droite": 22.2
+},
+"leanScore": -21.2,
+"insee": "67447",
+"matchedBy": "insee"
+},
+"illkirch-graffenstaden": {
+"lean": "centre",
+"topPct": 34.9,
+"blocs": {
+"gauche": 30.0,
+"centre": 34.9,
+"droite": 6.6,
+"extreme_droite": 28.5
+},
+"leanScore": 5.1,
+"insee": "67218",
+"matchedBy": "insee"
+},
+"lingolsheim": {
+"lean": "gauche",
+"topPct": 33.5,
+"blocs": {
+"gauche": 33.5,
+"centre": 30.9,
+"droite": 5.8,
+"extreme_droite": 29.8
+},
+"leanScore": 2.1,
+"insee": "67267",
+"matchedBy": "insee"
+},
+"bischheim": {
+"lean": "gauche",
+"topPct": 40.1,
+"blocs": {
+"gauche": 40.1,
+"centre": 26.9,
+"droite": 5.0,
+"extreme_droite": 28.1
+},
+"leanScore": -7.0,
+"insee": "67043",
+"matchedBy": "insee"
+},
+"joue-les-tours": {
+"lean": "gauche",
+"topPct": 36.7,
+"blocs": {
+"gauche": 36.7,
+"centre": 31.6,
+"droite": 6.8,
+"extreme_droite": 25.0
+},
+"leanScore": -4.9,
+"insee": "37122",
+"matchedBy": "insee"
+},
+"saint-martin-d-heres": {
+"lean": "gauche",
+"topPct": 50.0,
+"blocs": {
+"gauche": 50.0,
+"centre": 21.7,
+"droite": 4.0,
+"extreme_droite": 24.3
+},
+"leanScore": -21.7,
+"insee": "38421",
+"matchedBy": "insee"
+},
+"echirolles": {
+"lean": "gauche",
+"topPct": 46.6,
+"blocs": {
+"gauche": 46.6,
+"centre": 23.0,
+"droite": 4.3,
+"extreme_droite": 26.1
+},
+"leanScore": -16.2,
+"insee": "38151",
+"matchedBy": "insee"
+},
+"fontaine": {
+"lean": "gauche",
+"topPct": 46.4,
+"blocs": {
+"gauche": 46.4,
+"centre": 22.8,
+"droite": 3.9,
+"extreme_droite": 27.0
+},
+"leanScore": -15.5,
+"insee": "38169",
+"matchedBy": "insee"
+},
+"voiron": {
+"lean": "gauche",
+"topPct": 37.4,
+"blocs": {
+"gauche": 37.4,
+"centre": 30.1,
+"droite": 6.9,
+"extreme_droite": 25.6
+},
+"leanScore": -4.9,
+"insee": "38563",
+"matchedBy": "insee"
+},
+"vandoeuvre-les-nancy": {
+"lean": "gauche",
+"topPct": 41.5,
+"blocs": {
+"gauche": 41.5,
+"centre": 29.5,
+"droite": 5.3,
+"extreme_droite": 23.7
+},
+"leanScore": -12.5,
+"insee": "54547",
+"matchedBy": "insee"
+},
+"laxou": {
+"lean": "gauche",
+"topPct": 36.6,
+"blocs": {
+"gauche": 36.6,
+"centre": 33.7,
+"droite": 6.8,
+"extreme_droite": 22.9
+},
+"leanScore": -6.9,
+"insee": "54304",
+"matchedBy": "insee"
+},
+"saint-chamond": {
+"lean": "gauche",
+"topPct": 35.1,
+"blocs": {
+"gauche": 35.1,
+"centre": 24.8,
+"droite": 6.0,
+"extreme_droite": 34.1
+},
+"leanScore": 5.0,
+"insee": "42207",
+"matchedBy": "insee"
+},
+"firminy": {
+"lean": "gauche",
+"topPct": 37.9,
+"blocs": {
+"gauche": 37.9,
+"centre": 21.1,
+"droite": 5.5,
+"extreme_droite": 35.5
+},
+"leanScore": 3.1,
+"insee": "42095",
+"matchedBy": "insee"
+},
+"chenove": {
+"lean": "gauche",
+"topPct": 48.9,
+"blocs": {
+"gauche": 48.9,
+"centre": 22.0,
+"droite": 4.7,
+"extreme_droite": 24.5
+},
+"leanScore": -19.7,
+"insee": "21166",
+"matchedBy": "insee"
+},
+"saint-louis-haut-rhin": {
+"lean": "gauche",
+"topPct": 34.8,
+"blocs": {
+"gauche": 34.8,
+"centre": 29.4,
+"droite": 6.0,
+"extreme_droite": 29.8
+},
+"leanScore": 1.0,
+"insee": "68297",
+"matchedBy": "insee"
+},
+"wittenheim": {
+"lean": "extreme_droite",
+"topPct": 44.6,
+"blocs": {
+"gauche": 31.5,
+"centre": 19.2,
+"droite": 4.7,
+"extreme_droite": 44.6
+},
+"leanScore": 17.8,
+"insee": "68376",
+"matchedBy": "insee"
+},
+"puteaux": {
+"lean": "centre",
+"topPct": 37.6,
+"blocs": {
+"gauche": 32.0,
+"centre": 37.6,
+"droite": 9.4,
+"extreme_droite": 21.0
+},
+"leanScore": -1.6,
+"insee": "92062",
+"matchedBy": "insee"
+},
+"gennevilliers": {
+"lean": "gauche",
+"topPct": 68.9,
+"blocs": {
+"gauche": 68.9,
+"centre": 15.4,
+"droite": 3.0,
+"extreme_droite": 12.7
+},
+"leanScore": -53.2,
+"insee": "92036",
+"matchedBy": "insee"
+},
+"villeneuve-la-garenne": {
+"lean": "gauche",
+"topPct": 60.4,
+"blocs": {
+"gauche": 60.4,
+"centre": 19.8,
+"droite": 3.9,
+"extreme_droite": 15.8
+},
+"leanScore": -40.7,
+"insee": "92078",
+"matchedBy": "insee"
+},
+"alfortville": {
+"lean": "gauche",
+"topPct": 48.8,
+"blocs": {
+"gauche": 48.8,
+"centre": 24.7,
+"droite": 5.4,
+"extreme_droite": 21.1
+},
+"leanScore": -22.3,
+"insee": "94002",
+"matchedBy": "insee"
+},
+"le-perreux-sur-marne": {
+"lean": "centre",
+"topPct": 36.2,
+"blocs": {
+"gauche": 31.6,
+"centre": 36.2,
+"droite": 10.3,
+"extreme_droite": 22.0
+},
+"leanScore": 0.7,
+"insee": "94058",
+"matchedBy": "insee"
+},
+"nogent-sur-marne": {
+"lean": "centre",
+"topPct": 38.9,
+"blocs": {
+"gauche": 30.2,
+"centre": 38.9,
+"droite": 10.2,
+"extreme_droite": 20.7
+},
+"leanScore": 0.7,
+"insee": "94052",
+"matchedBy": "insee"
+},
+"choisy-le-roi": {
+"lean": "gauche",
+"topPct": 53.4,
+"blocs": {
+"gauche": 53.4,
+"centre": 22.2,
+"droite": 5.7,
+"extreme_droite": 18.7
+},
+"leanScore": -29.0,
+"insee": "94022",
+"matchedBy": "insee"
+},
+"rosny-sous-bois": {
+"lean": "gauche",
+"topPct": 47.6,
+"blocs": {
+"gauche": 47.6,
+"centre": 24.0,
+"droite": 6.4,
+"extreme_droite": 21.9
+},
+"leanScore": -19.3,
+"insee": "93064",
+"matchedBy": "insee"
+},
+"neuilly-sur-marne": {
+"lean": "gauche",
+"topPct": 38.4,
+"blocs": {
+"gauche": 38.4,
+"centre": 30.9,
+"droite": 7.1,
+"extreme_droite": 23.5
+},
+"leanScore": -7.8,
+"insee": "93049",
+"matchedBy": "insee"
+},
+"le-blanc-mesnil": {
+"lean": "gauche",
+"topPct": 58.1,
+"blocs": {
+"gauche": 58.1,
+"centre": 16.7,
+"droite": 4.4,
+"extreme_droite": 20.8
+},
+"leanScore": -32.9,
+"insee": "93007",
+"matchedBy": "insee"
+},
+"tremblay-en-france": {
+"lean": "gauche",
+"topPct": 56.4,
+"blocs": {
+"gauche": 56.4,
+"centre": 17.1,
+"droite": 4.4,
+"extreme_droite": 22.1
+},
+"leanScore": -29.9,
+"insee": "93073",
+"matchedBy": "insee"
+},
+"noisy-le-sec": {
+"lean": "gauche",
+"topPct": 61.3,
+"blocs": {
+"gauche": 61.3,
+"centre": 18.4,
+"droite": 3.9,
+"extreme_droite": 16.4
+},
+"leanScore": -41.0,
+"insee": "93053",
+"matchedBy": "insee"
+},
+"plaisir": {
+"lean": "gauche",
+"topPct": 39.6,
+"blocs": {
+"gauche": 39.6,
+"centre": 30.9,
+"droite": 8.2,
+"extreme_droite": 21.3
+},
+"leanScore": -10.1,
+"insee": "78490",
+"matchedBy": "insee"
+},
+"houilles": {
+"lean": "gauche",
+"topPct": 36.7,
+"blocs": {
+"gauche": 36.7,
+"centre": 35.3,
+"droite": 8.0,
+"extreme_droite": 20.1
+},
+"leanScore": -8.6,
+"insee": "78311",
+"matchedBy": "insee"
+},
+"conflans-sainte-honorine": {
+"lean": "gauche",
+"topPct": 38.5,
+"blocs": {
+"gauche": 38.5,
+"centre": 30.0,
+"droite": 7.3,
+"extreme_droite": 24.2
+},
+"leanScore": -7.0,
+"insee": "78172",
+"matchedBy": "insee"
+},
+"montigny-le-bretonneux": {
+"lean": "gauche",
+"topPct": 36.1,
+"blocs": {
+"gauche": 36.1,
+"centre": 35.6,
+"droite": 9.7,
+"extreme_droite": 18.5
+},
+"leanScore": -7.9,
+"insee": "78423",
+"matchedBy": "insee"
+},
+"guyancourt": {
+"lean": "gauche",
+"topPct": 45.7,
+"blocs": {
+"gauche": 45.7,
+"centre": 29.6,
+"droite": 6.4,
+"extreme_droite": 18.3
+},
+"leanScore": -21.0,
+"insee": "78297",
+"matchedBy": "insee"
+},
+"forbach": {
+"lean": "extreme_droite",
+"topPct": 39.5,
+"blocs": {
+"gauche": 34.6,
+"centre": 21.3,
+"droite": 4.5,
+"extreme_droite": 39.5
+},
+"leanScore": 9.4,
+"insee": "57227",
+"matchedBy": "insee"
+},
+"sarreguemines": {
+"lean": "extreme_droite",
+"topPct": 40.8,
+"blocs": {
+"gauche": 26.5,
+"centre": 26.0,
+"droite": 6.7,
+"extreme_droite": 40.8
+},
+"leanScore": 21.0,
+"insee": "57631",
+"matchedBy": "insee"
+},
+"saint-avold": {
+"lean": "extreme_droite",
+"topPct": 41.5,
+"blocs": {
+"gauche": 31.0,
+"centre": 21.8,
+"droite": 5.7,
+"extreme_droite": 41.5
+},
+"leanScore": 16.2,
+"insee": "57606",
+"matchedBy": "insee"
+},
+"lanester": {
+"lean": "gauche",
+"topPct": 39.4,
+"blocs": {
+"gauche": 39.4,
+"centre": 27.2,
+"droite": 5.1,
+"extreme_droite": 28.3
+},
+"leanScore": -6.0,
+"insee": "56098",
+"matchedBy": "insee"
+},
+"herouville-saint-clair": {
+"lean": "gauche",
+"topPct": 38.8,
+"blocs": {
+"gauche": 38.8,
+"centre": 32.0,
+"droite": 5.4,
+"extreme_droite": 23.8
+},
+"leanScore": -9.6,
+"insee": "14341",
+"matchedBy": "insee"
+},
+"olivet": {
+"lean": "centre",
+"topPct": 38.9,
+"blocs": {
+"gauche": 29.4,
+"centre": 38.9,
+"droite": 9.0,
+"extreme_droite": 22.7
+},
+"leanScore": 2.3,
+"insee": "45232",
+"matchedBy": "insee"
+},
+"fleury-les-aubrais": {
+"lean": "gauche",
+"topPct": 38.9,
+"blocs": {
+"gauche": 38.9,
+"centre": 28.1,
+"droite": 5.8,
+"extreme_droite": 27.2
+},
+"leanScore": -5.9,
+"insee": "45147",
+"matchedBy": "insee"
+},
+"creil": {
+"lean": "gauche",
+"topPct": 62.1,
+"blocs": {
+"gauche": 62.1,
+"centre": 15.5,
+"droite": 2.8,
+"extreme_droite": 19.5
+},
+"leanScore": -39.8,
+"insee": "60175",
+"matchedBy": "insee"
+},
+"cavaillon": {
+"lean": "extreme_droite",
+"topPct": 43.8,
+"blocs": {
+"gauche": 30.2,
+"centre": 19.4,
+"droite": 6.6,
+"extreme_droite": 43.8
+},
+"leanScore": 20.2,
+"insee": "84035",
+"matchedBy": "insee"
+},
+"pertuis": {
+"lean": "extreme_droite",
+"topPct": 37.4,
+"blocs": {
+"gauche": 30.4,
+"centre": 25.8,
+"droite": 6.4,
+"extreme_droite": 37.4
+},
+"leanScore": 13.4,
+"insee": "84089",
+"matchedBy": "insee"
+},
+"allauch": {
+"lean": "extreme_droite",
+"topPct": 49.2,
+"blocs": {
+"gauche": 20.6,
+"centre": 23.5,
+"droite": 6.6,
+"extreme_droite": 49.2
+},
+"leanScore": 35.2,
+"insee": "13002",
+"matchedBy": "insee"
+},
+"trelaze": {
+"lean": "gauche",
+"topPct": 42.1,
+"blocs": {
+"gauche": 42.1,
+"centre": 28.8,
+"droite": 4.6,
+"extreme_droite": 24.5
+},
+"leanScore": -13.0,
+"insee": "49353",
+"matchedBy": "insee"
+},
+"corbeil-essonnes": {
+"lean": "gauche",
+"topPct": 53.1,
+"blocs": {
+"gauche": 53.1,
+"centre": 18.6,
+"droite": 4.8,
+"extreme_droite": 23.5
+},
+"leanScore": -24.8,
+"insee": "91174",
+"matchedBy": "insee"
+},
+"savigny-sur-orge": {
+"lean": "gauche",
+"topPct": 36.3,
+"blocs": {
+"gauche": 36.3,
+"centre": 28.2,
+"droite": 8.4,
+"extreme_droite": 27.1
+},
+"leanScore": -0.8,
+"insee": "91589",
+"matchedBy": "insee"
+},
+"athis-mons": {
+"lean": "gauche",
+"topPct": 47.0,
+"blocs": {
+"gauche": 47.0,
+"centre": 23.1,
+"droite": 5.4,
+"extreme_droite": 24.4
+},
+"leanScore": -17.2,
+"insee": "91027",
+"matchedBy": "insee"
+},
+"yerres": {
+"lean": "extreme_droite",
+"topPct": 34.2,
+"blocs": {
+"gauche": 31.3,
+"centre": 27.6,
+"droite": 7.0,
+"extreme_droite": 34.2
+},
+"leanScore": 9.9,
+"insee": "91691",
+"matchedBy": "insee"
+},
+"brunoy": {
+"lean": "gauche",
+"topPct": 34.8,
+"blocs": {
+"gauche": 34.8,
+"centre": 30.3,
+"droite": 7.4,
+"extreme_droite": 27.4
+},
+"leanScore": 0.0,
+"insee": "91114",
+"matchedBy": "insee"
+},
+"sainte-genevieve-des-bois": {
+"lean": "gauche",
+"topPct": 39.9,
+"blocs": {
+"gauche": 39.9,
+"centre": 26.3,
+"droite": 7.0,
+"extreme_droite": 26.8
+},
+"leanScore": -6.1,
+"insee": "91549",
+"matchedBy": "insee"
+},
+"palaiseau": {
+"lean": "gauche",
+"topPct": 43.9,
+"blocs": {
+"gauche": 43.9,
+"centre": 30.4,
+"droite": 7.9,
+"extreme_droite": 17.8
+},
+"leanScore": -18.2,
+"insee": "91477",
+"matchedBy": "insee"
+},
+"draveil": {
+"lean": "gauche",
+"topPct": 38.0,
+"blocs": {
+"gauche": 38.0,
+"centre": 27.1,
+"droite": 7.8,
+"extreme_droite": 27.1
+},
+"leanScore": -3.1,
+"insee": "91201",
+"matchedBy": "insee"
+},
+"viry-chatillon": {
+"lean": "gauche",
+"topPct": 41.9,
+"blocs": {
+"gauche": 41.9,
+"centre": 24.4,
+"droite": 7.4,
+"extreme_droite": 26.2
+},
+"leanScore": -8.3,
+"insee": "91687",
+"matchedBy": "insee"
+},
+"le-plessis-robinson": {
+"lean": "centre",
+"topPct": 34.7,
+"blocs": {
+"gauche": 31.0,
+"centre": 34.7,
+"droite": 10.1,
+"extreme_droite": 24.1
+},
+"leanScore": 3.2,
+"insee": "92060",
+"matchedBy": "insee"
+},
+"sevres": {
+"lean": "centre",
+"topPct": 42.5,
+"blocs": {
+"gauche": 32.1,
+"centre": 42.5,
+"droite": 9.8,
+"extreme_droite": 15.5
+},
+"leanScore": -6.8,
+"insee": "92072",
+"matchedBy": "insee"
+},
+"chelles": {
+"lean": "gauche",
+"topPct": 43.3,
+"blocs": {
+"gauche": 43.3,
+"centre": 25.0,
+"droite": 6.8,
+"extreme_droite": 24.8
+},
+"leanScore": -11.7,
+"insee": "77108",
+"matchedBy": "insee"
+},
+"melun": {
+"lean": "gauche",
+"topPct": 46.0,
+"blocs": {
+"gauche": 46.0,
+"centre": 23.1,
+"droite": 6.2,
+"extreme_droite": 24.6
+},
+"leanScore": -15.2,
+"insee": "77288",
+"matchedBy": "insee"
+},
+"pontault-combault": {
+"lean": "gauche",
+"topPct": 37.4,
+"blocs": {
+"gauche": 37.4,
+"centre": 27.9,
+"droite": 6.3,
+"extreme_droite": 28.4
+},
+"leanScore": -2.7,
+"insee": "77373",
+"matchedBy": "insee"
+},
+"savigny-le-temple": {
+"lean": "gauche",
+"topPct": 50.1,
+"blocs": {
+"gauche": 50.1,
+"centre": 21.6,
+"droite": 4.6,
+"extreme_droite": 23.7
+},
+"leanScore": -21.8,
+"insee": "77445",
+"matchedBy": "insee"
+},
+"torcy": {
+"lean": "gauche",
+"topPct": 50.7,
+"blocs": {
+"gauche": 50.7,
+"centre": 25.2,
+"droite": 5.3,
+"extreme_droite": 18.8
+},
+"leanScore": -26.6,
+"insee": "77468",
+"matchedBy": "insee"
+},
+"combs-la-ville": {
+"lean": "gauche",
+"topPct": 39.5,
+"blocs": {
+"gauche": 39.5,
+"centre": 25.4,
+"droite": 7.4,
+"extreme_droite": 27.7
+},
+"leanScore": -4.4,
+"insee": "77122",
+"matchedBy": "insee"
+},
+"champs-sur-marne": {
+"lean": "gauche",
+"topPct": 46.2,
+"blocs": {
+"gauche": 46.2,
+"centre": 27.4,
+"droite": 5.9,
+"extreme_droite": 20.5
+},
+"leanScore": -19.8,
+"insee": "77083",
+"matchedBy": "insee"
+},
+"noisiel": {
+"lean": "gauche",
+"topPct": 53.2,
+"blocs": {
+"gauche": 53.2,
+"centre": 25.9,
+"droite": 4.6,
+"extreme_droite": 16.3
+},
+"leanScore": -32.3,
+"insee": "77337",
+"matchedBy": "insee"
+},
+"saint-andre-reunion": {
+"lean": "gauche",
+"topPct": 42.4,
+"blocs": {
+"gauche": 42.4,
+"centre": 19.5,
+"droite": 3.2,
+"extreme_droite": 34.9
+},
+"leanScore": -4.3,
+"insee": "97410",
+"matchedBy": "insee"
+},
+"saint-louis-reunion-974": {
+"lean": "gauche",
+"topPct": 49.3,
+"blocs": {
+"gauche": 49.3,
+"centre": 14.5,
+"droite": 3.3,
+"extreme_droite": 33.0
+},
+"leanScore": -13.0,
+"insee": "97414",
+"matchedBy": "insee"
+},
+"saint-joseph-reunion": {
+"lean": "gauche",
+"topPct": 50.5,
+"blocs": {
+"gauche": 50.5,
+"centre": 12.6,
+"droite": 3.2,
+"extreme_droite": 33.7
+},
+"leanScore": -13.6,
+"insee": "97412",
+"matchedBy": "insee"
+},
+"saint-benoit-reunion": {
+"lean": "gauche",
+"topPct": 45.1,
+"blocs": {
+"gauche": 45.1,
+"centre": 21.1,
+"droite": 4.6,
+"extreme_droite": 29.2
+},
+"leanScore": -11.3,
+"insee": "97411",
+"matchedBy": "insee"
+},
+"le-robert": {
+"lean": "gauche",
+"topPct": 59.3,
+"blocs": {
+"gauche": 59.3,
+"centre": 15.0,
+"droite": 4.7,
+"extreme_droite": 21.0
+},
+"leanScore": -33.6,
+"insee": "97222",
+"matchedBy": "insee"
+},
+"le-francois": {
+"lean": "gauche",
+"topPct": 54.1,
+"blocs": {
+"gauche": 54.1,
+"centre": 18.0,
+"droite": 5.0,
+"extreme_droite": 22.8
+},
+"leanScore": -26.3,
+"insee": "97214",
+"matchedBy": "insee"
+},
+"saint-medard-en-jalles": {
+"lean": "centre",
+"topPct": 33.9,
+"blocs": {
+"gauche": 31.4,
+"centre": 33.9,
+"droite": 7.9,
+"extreme_droite": 26.8
+},
+"leanScore": 3.3,
+"insee": "33449",
+"matchedBy": "insee"
+},
+"tassin-la-demi-lune": {
+"lean": "centre",
+"topPct": 39.3,
+"blocs": {
+"gauche": 22.6,
+"centre": 39.3,
+"droite": 10.9,
+"extreme_droite": 27.2
+},
+"leanScore": 15.5,
+"insee": "69244",
+"matchedBy": "insee"
+},
+"saint-mande": {
+"lean": "centre",
+"topPct": 40.8,
+"blocs": {
+"gauche": 27.0,
+"centre": 40.8,
+"droite": 9.1,
+"extreme_droite": 23.1
+},
+"leanScore": 5.2,
+"insee": "94067",
+"matchedBy": "insee"
+},
+"charenton-le-pont": {
+"lean": "centre",
+"topPct": 34.7,
+"blocs": {
+"gauche": 33.9,
+"centre": 34.7,
+"droite": 8.8,
+"extreme_droite": 22.6
+},
+"leanScore": -2.5,
+"insee": "94018",
+"matchedBy": "insee"
+},
+"sceaux": {
+"lean": "centre",
+"topPct": 40.8,
+"blocs": {
+"gauche": 32.1,
+"centre": 40.8,
+"droite": 11.5,
+"extreme_droite": 15.6
+},
+"leanScore": -5.0,
+"insee": "92071",
+"matchedBy": "insee"
+},
+"bourg-la-reine": {
+"lean": "gauche",
+"topPct": 37.3,
+"blocs": {
+"gauche": 37.3,
+"centre": 37.1,
+"droite": 10.8,
+"extreme_droite": 14.7
+},
+"leanScore": -11.8,
+"insee": "92014",
+"matchedBy": "insee"
+},
+"chatillon-92": {
+"lean": "gauche",
+"topPct": 38.1,
+"blocs": {
+"gauche": 38.1,
+"centre": 36.4,
+"droite": 8.5,
+"extreme_droite": 16.9
+},
+"leanScore": -12.7,
+"insee": "92020",
+"matchedBy": "insee"
+},
+"malakoff": {
+"lean": "gauche",
+"topPct": 54.6,
+"blocs": {
+"gauche": 54.6,
+"centre": 25.3,
+"droite": 5.0,
+"extreme_droite": 15.1
+},
+"leanScore": -34.5,
+"insee": "92046",
+"matchedBy": "insee"
+},
+"bagneux": {
+"lean": "gauche",
+"topPct": 57.1,
+"blocs": {
+"gauche": 57.1,
+"centre": 22.8,
+"droite": 4.2,
+"extreme_droite": 16.0
+},
+"leanScore": -36.9,
+"insee": "92007",
+"matchedBy": "insee"
+},
+"chatenay-malabry": {
+"lean": "gauche",
+"topPct": 39.8,
+"blocs": {
+"gauche": 39.8,
+"centre": 34.1,
+"droite": 8.5,
+"extreme_droite": 17.6
+},
+"leanScore": -13.7,
+"insee": "92019",
+"matchedBy": "insee"
+},
+"fresnes": {
+"lean": "gauche",
+"topPct": 47.5,
+"blocs": {
+"gauche": 47.5,
+"centre": 28.1,
+"droite": 6.4,
+"extreme_droite": 18.1
+},
+"leanScore": -23.0,
+"insee": "94034",
+"matchedBy": "insee"
+},
+"cachan": {
+"lean": "gauche",
+"topPct": 51.9,
+"blocs": {
+"gauche": 51.9,
+"centre": 28.1,
+"droite": 5.5,
+"extreme_droite": 14.6
+},
+"leanScore": -31.8,
+"insee": "94016",
+"matchedBy": "insee"
+},
+"arcueil": {
+"lean": "gauche",
+"topPct": 54.5,
+"blocs": {
+"gauche": 54.5,
+"centre": 24.0,
+"droite": 4.1,
+"extreme_droite": 17.4
+},
+"leanScore": -33.0,
+"insee": "94003",
+"matchedBy": "insee"
+},
+"gentilly": {
+"lean": "gauche",
+"topPct": 58.5,
+"blocs": {
+"gauche": 58.5,
+"centre": 21.9,
+"droite": 4.0,
+"extreme_droite": 15.6
+},
+"leanScore": -38.9,
+"insee": "94037",
+"matchedBy": "insee"
+},
+"le-kremlin-bicetre": {
+"lean": "gauche",
+"topPct": 51.0,
+"blocs": {
+"gauche": 51.0,
+"centre": 26.9,
+"droite": 5.2,
+"extreme_droite": 16.9
+},
+"leanScore": -28.9,
+"insee": "94043",
+"matchedBy": "insee"
+},
+"bois-colombes": {
+"lean": "centre",
+"topPct": 40.7,
+"blocs": {
+"gauche": 33.8,
+"centre": 40.7,
+"droite": 9.7,
+"extreme_droite": 15.9
+},
+"leanScore": -8.2,
+"insee": "92009",
+"matchedBy": "insee"
+},
+"la-garenne-colombes": {
+"lean": "centre",
+"topPct": 40.9,
+"blocs": {
+"gauche": 28.6,
+"centre": 40.9,
+"droite": 11.7,
+"extreme_droite": 18.8
+},
+"leanScore": 1.9,
+"insee": "92035",
+"matchedBy": "insee"
+},
+"eaubonne": {
+"lean": "gauche",
+"topPct": 38.3,
+"blocs": {
+"gauche": 38.3,
+"centre": 31.5,
+"droite": 7.7,
+"extreme_droite": 22.6
+},
+"leanScore": -8.0,
+"insee": "95203",
+"matchedBy": "insee"
+},
+"goussainville": {
+"lean": "gauche",
+"topPct": 56.2,
+"blocs": {
+"gauche": 56.2,
+"centre": 17.7,
+"droite": 3.0,
+"extreme_droite": 23.1
+},
+"leanScore": -30.1,
+"insee": "95280",
+"matchedBy": "insee"
+},
+"saint-leu-la-foret": {
+"lean": "gauche",
+"topPct": 35.2,
+"blocs": {
+"gauche": 35.2,
+"centre": 32.2,
+"droite": 7.7,
+"extreme_droite": 24.9
+},
+"leanScore": -2.6,
+"insee": "95563",
+"matchedBy": "insee"
+},
+"soisy-sous-montmorency": {
+"lean": "gauche",
+"topPct": 33.9,
+"blocs": {
+"gauche": 33.9,
+"centre": 33.0,
+"droite": 8.5,
+"extreme_droite": 24.6
+},
+"leanScore": -0.8,
+"insee": "95598",
+"matchedBy": "insee"
+},
+"montmorency": {
+"lean": "centre",
+"topPct": 33.7,
+"blocs": {
+"gauche": 32.4,
+"centre": 33.7,
+"droite": 9.2,
+"extreme_droite": 24.8
+},
+"leanScore": 1.6,
+"insee": "95428",
+"matchedBy": "insee"
+},
+"domont": {
+"lean": "gauche",
+"topPct": 35.1,
+"blocs": {
+"gauche": 35.1,
+"centre": 27.6,
+"droite": 7.6,
+"extreme_droite": 29.7
+},
+"leanScore": 2.2,
+"insee": "95199",
+"matchedBy": "insee"
+},
+"velizy-villacoublay": {
+"lean": "centre",
+"topPct": 32.2,
+"blocs": {
+"gauche": 30.4,
+"centre": 32.2,
+"droite": 13.3,
+"extreme_droite": 24.1
+},
+"leanScore": 7.0,
+"insee": "78640",
+"matchedBy": "insee"
+},
+"le-chesnay-rocquencourt": {
+"lean": "centre",
+"topPct": 38.9,
+"blocs": {
+"gauche": 18.0,
+"centre": 38.9,
+"droite": 15.5,
+"extreme_droite": 27.6
+},
+"leanScore": 25.1,
+"insee": "78158",
+"matchedBy": "insee"
+},
+"elancourt": {
+"lean": "gauche",
+"topPct": 39.0,
+"blocs": {
+"gauche": 39.0,
+"centre": 31.3,
+"droite": 8.9,
+"extreme_droite": 20.7
+},
+"leanScore": -9.4,
+"insee": "78208",
+"matchedBy": "insee"
+},
+"maurepas": {
+"lean": "gauche",
+"topPct": 36.1,
+"blocs": {
+"gauche": 36.1,
+"centre": 31.7,
+"droite": 8.8,
+"extreme_droite": 23.4
+},
+"leanScore": -3.9,
+"insee": "78383",
+"matchedBy": "insee"
+},
+"saint-omer": {
+"lean": "extreme_droite",
+"topPct": 34.5,
+"blocs": {
+"gauche": 28.0,
+"centre": 31.2,
+"droite": 6.4,
+"extreme_droite": 34.5
+},
+"leanScore": 12.9,
+"insee": "62765",
+"matchedBy": "insee"
+},
+"hazebrouck": {
+"lean": "extreme_droite",
+"topPct": 39.3,
+"blocs": {
+"gauche": 26.6,
+"centre": 28.3,
+"droite": 5.8,
+"extreme_droite": 39.3
+},
+"leanScore": 18.5,
+"insee": "59295",
+"matchedBy": "insee"
+},
+"armentieres": {
+"lean": "gauche",
+"topPct": 36.8,
+"blocs": {
+"gauche": 36.8,
+"centre": 23.1,
+"droite": 4.1,
+"extreme_droite": 36.1
+},
+"leanScore": 3.4,
+"insee": "59017",
+"matchedBy": "insee"
+},
+"maubeuge": {
+"lean": "gauche",
+"topPct": 40.5,
+"blocs": {
+"gauche": 40.5,
+"centre": 18.5,
+"droite": 3.4,
+"extreme_droite": 37.6
+},
+"leanScore": 0.5,
+"insee": "59392",
+"matchedBy": "insee"
+},
+"denain": {
+"lean": "extreme_droite",
+"topPct": 46.7,
+"blocs": {
+"gauche": 36.4,
+"centre": 14.7,
+"droite": 2.2,
+"extreme_droite": 46.7
+},
+"leanScore": 12.5,
+"insee": "59172",
+"matchedBy": "insee"
+},
+"henin-beaumont": {
+"lean": "extreme_droite",
+"topPct": 56.7,
+"blocs": {
+"gauche": 23.7,
+"centre": 16.8,
+"droite": 2.8,
+"extreme_droite": 56.7
+},
+"leanScore": 35.8,
+"insee": "62427",
+"matchedBy": "insee"
+},
+"berck": {
+"lean": "extreme_droite",
+"topPct": 37.6,
+"blocs": {
+"gauche": 23.9,
+"centre": 32.6,
+"droite": 5.9,
+"extreme_droite": 37.6
+},
+"leanScore": 19.6,
+"insee": "62108",
+"matchedBy": "insee"
+},
+"montigny-les-metz": {
+"lean": "extreme_droite",
+"topPct": 32.3,
+"blocs": {
+"gauche": 30.9,
+"centre": 29.9,
+"droite": 6.9,
+"extreme_droite": 32.3
+},
+"leanScore": 8.3,
+"insee": "57480",
+"matchedBy": "insee"
+},
+"hayange": {
+"lean": "extreme_droite",
+"topPct": 47.0,
+"blocs": {
+"gauche": 28.9,
+"centre": 20.2,
+"droite": 3.9,
+"extreme_droite": 47.0
+},
+"leanScore": 22.0,
+"insee": "57306",
+"matchedBy": "insee"
+},
+"riedisheim": {
+"lean": "extreme_droite",
+"topPct": 43.0,
+"blocs": {
+"gauche": 21.3,
+"centre": 27.9,
+"droite": 7.7,
+"extreme_droite": 43.0
+},
+"leanScore": 29.4,
+"insee": "68267",
+"matchedBy": "insee"
+},
+"kingersheim": {
+"lean": "extreme_droite",
+"topPct": 39.4,
+"blocs": {
+"gauche": 30.6,
+"centre": 24.9,
+"droite": 5.1,
+"extreme_droite": 39.4
+},
+"leanScore": 13.9,
+"insee": "68166",
+"matchedBy": "insee"
+},
+"saint-genis-laval": {
+"lean": "centre",
+"topPct": 36.5,
+"blocs": {
+"gauche": 29.0,
+"centre": 36.5,
+"droite": 8.5,
+"extreme_droite": 26.1
+},
+"leanScore": 5.6,
+"insee": "69233",
+"matchedBy": "insee"
+},
+"givors": {
+"lean": "gauche",
+"topPct": 52.5,
+"blocs": {
+"gauche": 52.5,
+"centre": 16.2,
+"droite": 4.0,
+"extreme_droite": 27.2
+},
+"leanScore": -21.3,
+"insee": "69091",
+"matchedBy": "insee"
+},
+"rillieux-la-pape": {
+"lean": "gauche",
+"topPct": 40.9,
+"blocs": {
+"gauche": 40.9,
+"centre": 26.7,
+"droite": 6.7,
+"extreme_droite": 25.7
+},
+"leanScore": -8.5,
+"insee": "69286",
+"matchedBy": "insee"
+},
+"sainte-foy-les-lyon": {
+"lean": "centre",
+"topPct": 39.8,
+"blocs": {
+"gauche": 25.6,
+"centre": 39.8,
+"droite": 11.3,
+"extreme_droite": 23.2
+},
+"leanScore": 8.9,
+"insee": "69202",
+"matchedBy": "insee"
+},
+"oullins-pierre-benite": {
+"lean": "gauche",
+"topPct": 41.2,
+"blocs": {
+"gauche": 41.2,
+"centre": 28.2,
+"droite": 6.7,
+"extreme_droite": 23.9
+},
+"leanScore": -10.6,
+"insee": "69149",
+"matchedBy": "insee"
+},
+"sallanches": {
+"lean": "extreme_droite",
+"topPct": 34.5,
+"blocs": {
+"gauche": 26.9,
+"centre": 30.5,
+"droite": 8.1,
+"extreme_droite": 34.5
+},
+"leanScore": 15.7,
+"insee": "74256",
+"matchedBy": "insee"
+},
+"amberieu-en-bugey": {
+"lean": "extreme_droite",
+"topPct": 36.0,
+"blocs": {
+"gauche": 34.4,
+"centre": 22.2,
+"droite": 7.4,
+"extreme_droite": 36.0
+},
+"leanScore": 9.0,
+"insee": "01004",
+"matchedBy": "insee"
+},
+"vernon": {
+"lean": "gauche",
+"topPct": 37.8,
+"blocs": {
+"gauche": 37.8,
+"centre": 29.8,
+"droite": 6.2,
+"extreme_droite": 26.2
+},
+"leanScore": -5.4,
+"insee": "27681",
+"matchedBy": "insee"
+},
+"sotteville-les-rouen": {
+"lean": "gauche",
+"topPct": 44.7,
+"blocs": {
+"gauche": 44.7,
+"centre": 25.3,
+"droite": 4.1,
+"extreme_droite": 25.9
+},
+"leanScore": -14.7,
+"insee": "76681",
+"matchedBy": "insee"
+},
+"le-grand-quevilly": {
+"lean": "gauche",
+"topPct": 36.0,
+"blocs": {
+"gauche": 36.0,
+"centre": 25.0,
+"droite": 3.5,
+"extreme_droite": 35.5
+},
+"leanScore": 3.0,
+"insee": "76322",
+"matchedBy": "insee"
+},
+"mont-saint-aignan": {
+"lean": "centre",
+"topPct": 38.7,
+"blocs": {
+"gauche": 33.2,
+"centre": 38.7,
+"droite": 9.5,
+"extreme_droite": 18.7
+},
+"leanScore": -5.0,
+"insee": "76451",
+"matchedBy": "insee"
+},
+"chantilly": {
+"lean": "centre",
+"topPct": 34.6,
+"blocs": {
+"gauche": 26.0,
+"centre": 34.6,
+"droite": 8.9,
+"extreme_droite": 30.5
+},
+"leanScore": 13.4,
+"insee": "60141",
+"matchedBy": "insee"
+},
+"crepy-en-valois": {
+"lean": "extreme_droite",
+"topPct": 39.0,
+"blocs": {
+"gauche": 31.7,
+"centre": 23.2,
+"droite": 6.2,
+"extreme_droite": 39.0
+},
+"leanScore": 13.5,
+"insee": "60176",
+"matchedBy": "insee"
+},
+"meru": {
+"lean": "gauche",
+"topPct": 43.8,
+"blocs": {
+"gauche": 43.8,
+"centre": 19.5,
+"droite": 4.9,
+"extreme_droite": 31.7
+},
+"leanScore": -7.2,
+"insee": "60395",
+"matchedBy": "insee"
+}
+}

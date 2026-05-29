@@ -7,6 +7,7 @@ import { Footer } from "@/components/Footer";
 import { CityProfile } from "./CityProfile";
 import { CityJsonLd } from "@/components/CityJsonLd";
 import { CityGuidesList } from "@/components/CityGuidesList";
+import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
 
 // ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
 // revalidate=false → page built once at deploy, served from static edge cache.
@@ -28,7 +29,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${city.name} · Avis habitants, qualité de vie & classements 2026`,
     description: `${city.name} (${city.department}, ${city.region}) : score de qualité de vie ${city.scores.global}/10. Avis d'habitants, quartiers, données locales.${rentHint} Comparez avec d'autres villes.`,
-    alternates: { canonical: `/villes/${slug}` },
+    alternates: {
+      canonical: `/villes/${slug}`,
+      // City slugs are 1:1 across locales, so the EN equivalent is exact.
+      languages: {
+        "fr-FR": `${ORIGIN_BY_LOCALE.fr}/villes/${slug}`,
+        "en-US": `${ORIGIN_BY_LOCALE.en}/cities/${slug}`,
+        "x-default": `${ORIGIN_BY_LOCALE.fr}/villes/${slug}`,
+      },
+    },
     openGraph: {
       title: `${city.name} · MaVilleIdeal · ${city.scores.global}/10`,
       description: `Score QdV ${city.scores.global}/10 · ${city.region} · ${city.characterTags.slice(0, 3).join(", ")}`,

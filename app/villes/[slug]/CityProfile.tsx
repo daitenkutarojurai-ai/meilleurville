@@ -21,6 +21,7 @@ import { DistancesCard } from "@/components/DistancesCard";
 import { RentVsBuyCard } from "@/components/RentVsBuyCard";
 import { GeographicNeighborsCard } from "@/components/GeographicNeighborsCard";
 import { Climate2040Card } from "@/components/Climate2040Card";
+import { PoliticalLean } from "@/components/PoliticalLean";
 import { NaturalRisksCard } from "@/components/NaturalRisksCard";
 import { WaterStressCard } from "@/components/WaterStressCard";
 import { AirQualityCard } from "@/components/AirQualityCard";
@@ -595,6 +596,7 @@ export function CityProfile({ city }: { city: CitySeed & { reviewCount?: number 
                 <SafetyDeepCard city={city} />
                 <DemographyCard city={city} />
                 <PublicServicesCard city={city} />
+                <PoliticalLean slug={city.slug} cityName={city.name} />
                 <GeographicNeighborsCard citySlug={city.slug} cityName={city.name} />
                 <Card>
                   <h3 className="text-sm font-semibold text-[var(--text-primary)] mb-3 flex items-center gap-2">

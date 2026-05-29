@@ -13,6 +13,7 @@ import {
   ORIGIN_BY_LOCALE,
 } from "@/lib/i18n";
 import { scoreColor, sunshineDays } from "@/lib/utils";
+import { PoliticalLean } from "@/components/PoliticalLean";
 
 // ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
 // revalidate=false → page built once at deploy, served from static edge cache.
@@ -171,6 +172,10 @@ export default async function EnCityPage({ params }: Props) {
             </div>
           )}
         </section>
+
+        <div className="mb-10 max-w-md">
+          <PoliticalLean slug={city.slug} cityName={city.name} locale="en" />
+        </div>
 
         <section className="mb-10">
           <h2 className="text-lg font-semibold text-[var(--text-primary)] mb-3">
