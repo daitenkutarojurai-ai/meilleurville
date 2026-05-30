@@ -2,22 +2,23 @@ import { Metadata } from "next";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { AmbientBackground } from "@/components/AmbientBackground";
-import { RedirectToAccount } from "./RedirectToAccount";
+import { CallbackClient } from "./CallbackClient";
 
-// /dashboard is the legacy account URL. The real account home is /mes-villes;
-// keep this path working with a client-side redirect (static export can't 301).
 export const metadata: Metadata = {
-  title: "Mon espace · MaVilleIdéale",
-  alternates: { canonical: "/mes-villes" },
+  title: "Connexion en cours… · MaVilleIdéale",
   robots: { index: false, follow: false },
 };
 
-export default function DashboardPage() {
+export default function AuthCallbackPage() {
   return (
     <main id="main-content" className="min-h-screen relative">
       <AmbientBackground />
       <Navbar />
-      <RedirectToAccount />
+      <section className="relative pt-28 pb-28">
+        <div className="mx-auto max-w-md px-4 sm:px-6">
+          <CallbackClient />
+        </div>
+      </section>
       <Footer />
     </main>
   );

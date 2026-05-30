@@ -1,0 +1,253 @@
+"use client";
+
+import { useEffect, useState } from "react";
+import Link from "next/link";
+import { Heart, Star, Bell, LogOut, Loader2, MapPin, LineChart } from "lucide-react";
+import { CityCard } from "@/components/CityCard";
+import { CITIES_SEED } from "@/data/cities-seed";
+import { authFetch, getToken, logout } from "@/lib/auth-client";
+import type { City } from "@/lib/types";
+
+function seedToCity(s: (typeof CITIES_SEED)[number]): City {
+  return {
+    id: s.slug,
+    slug: s.slug,
+    name: s.name,
+    region: s.region,
+    department: s.department,
+    population: s.population,
+    latitude: s.latitude,
+    longitude: s.longitude,
+    scores: s.scores,
+    characterTags: s.characterTags,
+    reviewCount: 180 + Math.floor(s.scores.global * 30),
+    sunshinedays: s.sunshinedays,
+    avgTempJuly: s.avgTempJuly,
+    avgTempJanuary: s.avgTempJanuary,
+  };
+}
+
+interface Contribution {
+  id: string;
+  topic: string;
+  body: string;
+  rating?: number;
+  type?: "comment" | "question";
+  createdAt: string;
+}
+interface SavedProjection {
+  id: string;
+  citySlug: string;
+  cityName: string;
+  label: string;
+  createdAt: string;
+}
+interface AccountData {
+  user: { id: string; email: string; handle: string | null } | null;
+  favorites: string[];
+  contributions: Contribution[];
+  contributionCount: number;
+  projections: SavedProjection[];
+  alertes: { citySlug: string; cityName: string; types: string[] }[];
+}
+
+export function MesVillesClient() {
+  const [loading, setLoading] = useState(true);
+  const [data, setData] = useState<AccountData | null>(null);
+
+  useEffect(() => {
+    if (!getToken()) {
+      window.location.replace("/connexion?next=/mes-villes");
+      return;
+    }
+    let cancelled = false;
+    authFetch("/api/account")
+      .then(async (res) => {
+        if (res.status === 401) {
+          window.location.replace("/connexion?next=/mes-villes");
+          return null;
+        }
+        return (await res.json()) as AccountData;
+      })
+      .then((d) => {
+        if (cancelled || !d) return;
+        setData(d);
+        setLoading(false);
+      })
+      .catch(() => {
+        if (!cancelled) setLoading(false);
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  if (loading) {
+    return (
+      <section className="relative pt-28 pb-28">
+        <div className="mx-auto max-w-md px-4 text-center">
+          <Loader2 className="mx-auto h-10 w-10 animate-spin text-[var(--accent)]" />
+          <p className="mt-4 text-sm text-[var(--text-secondary)]">Chargement de votre espace…</p>
+        </div>
+      </section>
+    );
+  }
+
+  if (!data || !data.user) {
+    return (
+      <section className="relative pt-28 pb-28">
+        <div className="mx-auto max-w-md px-4 text-center">
+          <p className="text-sm text-[var(--text-secondary)]">Session expirée.</p>
+          <a href="/connexion" className="mt-4 inline-block text-[var(--accent)] hover:underline">
+            Se reconnecter
+          </a>
+        </div>
+      </section>
+    );
+  }
+
+  const favoriteCities = data.favorites
+    .map((slug) => CITIES_SEED.find((c) => c.slug === slug))
+    .filter((c): c is (typeof CITIES_SEED)[number] => Boolean(c))
+    .map(seedToCity);
+
+  const displayName = data.user.handle || data.user.email.split("@")[0];
+
+  return (
+    <>
+      <section className="relative pt-20 pb-8">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6">
+          <div className="flex flex-col sm:flex-row sm:items-center gap-4 rounded-3xl glass-strong border border-white/60 p-6 shadow-md">
+            <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-[var(--accent)] to-emerald-700 ring-1 ring-white/40 text-xl font-bold text-white shadow-lg uppercase">
+              {displayName.charAt(0)}
+            </div>
+            <div className="flex-1">
+              <h1 className="text-2xl font-bold text-[var(--text-primary)]">Mon espace</h1>
+              <p className="text-sm text-[var(--text-secondary)]">{data.user.email}</p>
+            </div>
+            <button
+              type="button"
+              onClick={() => {
+                logout();
+                window.location.replace("/");
+              }}
+              className="inline-flex items-center gap-2 rounded-xl border border-[var(--border)] bg-white/70 px-4 py-2 text-sm font-medium text-[var(--text-secondary)] hover:border-[var(--accent)] hover:text-[var(--accent)] transition-colors"
+            >
+              <LogOut className="h-4 w-4" />
+              Se déconnecter
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 py-6">
+        <div className="grid gap-4 sm:grid-cols-3 mb-10">
+          {[
+            { icon: Heart, label: "Villes favorites", value: data.favorites.length, color: "text-[var(--accent-pink)]" },
+            { icon: Star, label: "Contributions", value: data.contributionCount, color: "text-amber-500" },
+            { icon: Bell, label: "Alertes actives", value: data.alertes.length, color: "text-[var(--accent)]" },
+          ].map(({ icon: Icon, label, value, color }) => (
+            <div key={label} className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5 flex items-center gap-4">
+              <Icon className={`h-6 w-6 ${color}`} />
+              <div>
+                <div className="text-2xl font-bold font-mono-data text-[var(--text-primary)]">{value}</div>
+                <div className="text-xs text-[var(--text-secondary)]">{label}</div>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {/* Favorites */}
+        <section className="mb-12">
+          <div className="flex items-center justify-between mb-4">
+            <div className="flex items-center gap-2">
+              <Heart className="h-4 w-4 text-[var(--accent-pink)]" />
+              <h2 className="font-semibold text-[var(--text-primary)]">Villes favorites</h2>
+            </div>
+            <Link href="/villes" className="text-xs text-[var(--accent)] hover:underline">
+              Explorer →
+            </Link>
+          </div>
+          {favoriteCities.length === 0 ? (
+            <div className="rounded-2xl border border-dashed border-[var(--border)] bg-white/60 p-8 text-center text-sm text-[var(--text-secondary)]">
+              Aucune ville favorite pour l&apos;instant. Cliquez sur le ❤️ d&apos;une ville pour la sauvegarder ici, sur tous vos appareils.
+            </div>
+          ) : (
+            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+              {favoriteCities.map((city) => (
+                <CityCard key={city.slug} city={city} />
+              ))}
+            </div>
+          )}
+        </section>
+
+        {/* Saved projections */}
+        {data.projections.length > 0 && (
+          <section className="mb-12">
+            <div className="flex items-center gap-2 mb-4">
+              <LineChart className="h-4 w-4 text-[var(--accent)]" />
+              <h2 className="font-semibold text-[var(--text-primary)]">Projections sauvegardées</h2>
+            </div>
+            <div className="grid gap-3 sm:grid-cols-2">
+              {data.projections.map((p) => (
+                <Link
+                  key={p.id}
+                  href={`/projection-5ans?ville=${p.citySlug}`}
+                  className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-4 hover:border-[var(--accent)]/40 transition-colors"
+                >
+                  <div className="flex items-center gap-2 mb-1">
+                    <MapPin className="h-3.5 w-3.5 text-[var(--accent)]" />
+                    <span className="text-sm font-medium text-[var(--text-primary)]">{p.cityName}</span>
+                  </div>
+                  <p className="text-xs text-[var(--text-secondary)]">{p.label}</p>
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* Contributions */}
+        <section className="mb-12">
+          <div className="flex items-center gap-2 mb-4">
+            <Star className="h-4 w-4 text-amber-500" />
+            <h2 className="font-semibold text-[var(--text-primary)]">Mes contributions</h2>
+          </div>
+          {data.contributions.length === 0 ? (
+            <div className="rounded-2xl border border-dashed border-[var(--border)] bg-white/60 p-8 text-center text-sm text-[var(--text-secondary)]">
+              Vous n&apos;avez pas encore publié d&apos;avis. Partagez votre expérience sur la page d&apos;une ville.
+            </div>
+          ) : (
+            <div className="space-y-3">
+              {data.contributions.map((c) => {
+                const citySlug = c.topic.startsWith("city:") ? c.topic.slice(5) : null;
+                const city = citySlug ? CITIES_SEED.find((x) => x.slug === citySlug) : null;
+                return (
+                  <div key={c.id} className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-4">
+                    <div className="flex items-center justify-between mb-2">
+                      <span className="text-sm font-medium text-[var(--text-primary)]">
+                        {city ? city.name : c.topic}
+                        {c.type === "question" && (
+                          <span className="ml-2 text-xs text-[var(--accent)]">· question</span>
+                        )}
+                      </span>
+                      {typeof c.rating === "number" && (
+                        <span className="flex items-center gap-1 text-sm font-bold font-mono-data text-amber-500">
+                          <Star className="h-3.5 w-3.5 fill-amber-400" />
+                          {c.rating}/5
+                        </span>
+                      )}
+                    </div>
+                    <p className="text-sm text-[var(--text-secondary)] line-clamp-3">{c.body}</p>
+                    <div className="mt-2 text-xs text-[var(--text-tertiary)]">
+                      {new Date(c.createdAt).toLocaleDateString("fr-FR")}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          )}
+        </section>
+      </div>
+    </>
+  );
+}

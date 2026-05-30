@@ -2,7 +2,7 @@
 
 import { useSyncExternalStore, useState, useEffect } from "react";
 import { Heart } from "lucide-react";
-import { createClient } from "@/lib/supabase/client";
+import { authFetch, getToken } from "@/lib/auth-client";
 
 const STORAGE_KEY = "meilleurville:favorites";
 const CHANGED_EVENT = "favorites-changed";
@@ -72,31 +72,41 @@ function useFavorites(): string[] {
   return useSyncExternalStore(subscribe, readSnapshot, readServerSnapshot);
 }
 
-// ----- Supabase sync helpers ---------------------------------------------
+// ----- Account sync helpers (D1 via the Worker) --------------------------
+// Anonymous favourites live in localStorage. When logged in, writes mirror to
+// /api/favorites and the local + remote sets are merged once per session.
 
-async function getSupabaseUserId(): Promise<string | null> {
-  const supabase = createClient();
-  const { data } = await supabase.auth.getUser();
-  return data.user?.id ?? null;
+let mergeAttempted = false;
+
+async function mergeFavoritesOnLogin(): Promise<void> {
+  if (mergeAttempted || !getToken()) return;
+  mergeAttempted = true;
+  try {
+    const res = await authFetch("/api/favorites", {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({ merge: readFavorites() }),
+    });
+    if (!res.ok) return;
+    const data = (await res.json()) as { favorites: string[] };
+    const merged = Array.from(new Set([...readFavorites(), ...(data.favorites ?? [])]));
+    if (merged.length !== readFavorites().length) writeFavorites(merged);
+  } catch {
+    /* offline / server error — localStorage stays the source of truth */
+  }
 }
 
-async function fetchSupabaseFavorites(userId: string): Promise<string[]> {
-  const supabase = createClient();
-  const { data } = await supabase
-    .from("favorites")
-    .select("city_slug")
-    .eq("user_id", userId);
-  return (data ?? []).map((r) => r.city_slug);
-}
-
-async function insertSupabaseFavorite(userId: string, slug: string): Promise<void> {
-  const supabase = createClient();
-  await supabase.from("favorites").upsert({ user_id: userId, city_slug: slug });
-}
-
-async function deleteSupabaseFavorite(userId: string, slug: string): Promise<void> {
-  const supabase = createClient();
-  await supabase.from("favorites").delete().eq("user_id", userId).eq("city_slug", slug);
+async function syncFavorite(slug: string, adding: boolean): Promise<void> {
+  if (!getToken()) return;
+  try {
+    await authFetch("/api/favorites", {
+      method: adding ? "POST" : "DELETE",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({ slug }),
+    });
+  } catch {
+    /* fire-and-forget — local state already updated */
+  }
 }
 
 // ----- Public components --------------------------------------------------
@@ -116,17 +126,9 @@ export function FavoriteButton({
   const active = favorites.includes(slug);
   const [animating, setAnimating] = useState(false);
 
-  // On mount: if logged in, merge Supabase favorites into localStorage.
+  // On mount: if logged in, merge account favourites into localStorage (once).
   useEffect(() => {
-    getSupabaseUserId().then(async (userId) => {
-      if (!userId) return;
-      const remote = await fetchSupabaseFavorites(userId);
-      if (remote.length === 0) return;
-      const local = readFavorites();
-      const merged = Array.from(new Set([...local, ...remote]));
-      if (merged.length !== local.length) writeFavorites(merged);
-    });
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    mergeFavoritesOnLogin();
   }, []);
 
   function toggle(e: React.MouseEvent) {
@@ -140,15 +142,8 @@ export function FavoriteButton({
     writeFavorites(next);
     setAnimating(true);
     setTimeout(() => setAnimating(false), 400);
-    // Sync to Supabase if logged in (fire-and-forget).
-    getSupabaseUserId().then((userId) => {
-      if (!userId) return;
-      if (adding) {
-        insertSupabaseFavorite(userId, slug);
-      } else {
-        deleteSupabaseFavorite(userId, slug);
-      }
-    });
+    // Mirror to the account if logged in (fire-and-forget).
+    syncFavorite(slug, adding);
   }
 
   return (

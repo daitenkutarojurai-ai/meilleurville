@@ -1,72 +1,69 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 import { Bell, BellOff, Loader2 } from "lucide-react";
-import { createClient } from "@/lib/supabase/client";
+import { authFetch, getToken, fetchMe } from "@/lib/auth-client";
 
 interface Props {
   citySlug: string;
   cityName: string;
 }
 
-// R9.3 — "Suivre cette ville" alert subscription.
-// Writes a sentinel row to the alerts table (metric:"global", direction:"any", threshold:0)
-// which represents a general city-watch subscription.
-// If the user is not logged in, redirects to /connexion.
+// R9.3 — "Suivre cette ville". For logged-in users this creates a score+comments
+// alerte (the working D1 alertes pipeline, keyed to the account email). Anonymous
+// visitors are sent to /connexion. Replaces the old dead Supabase `alerts` path.
 export function FollowCityButton({ citySlug, cityName }: Props) {
   const [following, setFollowing] = useState(false);
   const [loading, setLoading] = useState(true);
-  const [sessionUser, setSessionUser] = useState<string | null>(null);
+  const [email, setEmail] = useState<string | null>(null);
+  const [unsubToken, setUnsubToken] = useState<string | null>(null);
 
   useEffect(() => {
-    const supabase = createClient();
-    supabase.auth.getUser().then(({ data: { user } }) => {
-      if (!user) {
+    if (!getToken()) {
+      setLoading(false);
+      return;
+    }
+    let cancelled = false;
+    fetchMe().then(async (user) => {
+      if (cancelled || !user) {
         setLoading(false);
         return;
       }
-      setSessionUser(user.id);
-      supabase
-        .from("alerts")
-        .select("id")
-        .eq("user_id", user.id)
-        .eq("city_slug", citySlug)
-        .eq("metric", "global")
-        .maybeSingle()
-        .then(({ data }) => {
-          setFollowing(!!data);
-          setLoading(false);
-        });
+      setEmail(user.email);
+      try {
+        const res = await fetch(`/api/alertes/list?email=${encodeURIComponent(user.email)}`);
+        const data = (await res.json()) as { alertes: { citySlug: string; unsubscribeToken: string }[] };
+        const match = data.alertes.find((a) => a.citySlug === citySlug);
+        if (!cancelled && match) {
+          setFollowing(true);
+          setUnsubToken(match.unsubscribeToken);
+        }
+      } catch {
+        /* ignore — default to not-following */
+      }
+      if (!cancelled) setLoading(false);
     });
+    return () => {
+      cancelled = true;
+    };
   }, [citySlug]);
 
   async function toggle() {
-    if (!sessionUser) {
+    if (!email) {
       window.location.href = `/connexion?next=/villes/${citySlug}`;
       return;
     }
-    const supabase = createClient();
     setLoading(true);
-    if (following) {
-      await supabase
-        .from("alerts")
-        .delete()
-        .eq("user_id", sessionUser)
-        .eq("city_slug", citySlug)
-        .eq("metric", "global");
+    if (following && unsubToken) {
+      await fetch(`/api/alertes/unsubscribe?token=${unsubToken}`).catch(() => {});
       setFollowing(false);
+      setUnsubToken(null);
     } else {
-      await supabase.from("alerts").upsert(
-        {
-          user_id: sessionUser,
-          city_slug: citySlug,
-          metric: "global",
-          direction: "any",
-          threshold: 0,
-          active: true,
-        },
-        { onConflict: "user_id,city_slug,metric" },
-      );
+      await authFetch("/api/alertes/subscribe", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ email, citySlug, types: ["score", "comments"] }),
+      }).catch(() => {});
       setFollowing(true);
     }
     setLoading(false);
@@ -84,7 +81,7 @@ export function FollowCityButton({ citySlug, cityName }: Props) {
     );
   }
 
-  if (!sessionUser) {
+  if (!getToken()) {
     return (
       <a
         href={`/connexion?next=/villes/${citySlug}`}

@@ -26,6 +26,33 @@ import { sendBrevoEmail, addBrevoContact } from "@/lib/brevo";
 import { rateLimit, getClientIp } from "@/lib/rate-limit";
 import { checkContent } from "@/lib/spam-filter";
 import { CITIES_SEED } from "@/data/cities-seed";
+import {
+  signSession,
+  verifySession,
+  generateLoginToken,
+  hashToken,
+} from "@/lib/auth-tokens";
+import {
+  findOrCreateUser,
+  findUserById,
+  createLoginToken,
+  consumeLoginToken,
+  markLogin,
+  purgeStaleLoginTokens,
+  setHandle,
+  type User,
+} from "@/lib/auth-store";
+import { listFavorites, addFavorite, removeFavorite, mergeFavorites } from "@/lib/favorites-store";
+import {
+  listProjections,
+  addProjection,
+  removeProjection,
+} from "@/lib/projections-store";
+import {
+  listUserContributions,
+  countUserContributions,
+  addUserComment,
+} from "@/lib/contributions-store";
 import { runCronNewsletter, runCronAlertes } from "./crons";
 import {
   handleQuiz,
@@ -101,6 +128,241 @@ const NewsletterSchema = z.object({
   locale: z.enum(["fr", "en"]).default("fr"),
   website: z.string().optional(),
 });
+
+// ---- auth helpers ---------------------------------------------------------
+
+const ORIGIN_BY_LOCALE = {
+  fr: "https://www.mavilleideale.fr",
+  en: "https://bestcitiesinfrance.com",
+} as const;
+
+function originFor(request: Request, fallbackLocale: string): string {
+  const referer = request.headers.get("referer") ?? "";
+  if (referer.includes("bestcitiesinfrance")) return ORIGIN_BY_LOCALE.en;
+  if (referer.includes("mavilleideale")) return ORIGIN_BY_LOCALE.fr;
+  return fallbackLocale === "en" ? ORIGIN_BY_LOCALE.en : ORIGIN_BY_LOCALE.fr;
+}
+
+/** Resolve the authenticated user from the Bearer JWT, or null. */
+async function authedUser(request: Request): Promise<User | null> {
+  const secret = process.env.AUTH_SECRET;
+  if (!secret) return null;
+  const header = request.headers.get("authorization") ?? "";
+  const m = header.match(/^Bearer\s+(.+)$/i);
+  if (!m) return null;
+  const claims = await verifySession(m[1], secret);
+  if (!claims) return null;
+  return findUserById(claims.sub);
+}
+
+const PublicUser = (u: User) => ({ id: u.id, email: u.email, handle: u.handle });
+
+// ---- auth handlers --------------------------------------------------------
+
+async function handleAuthRequestLink(request: Request, fallbackLocale: string): Promise<Response> {
+  const secret = process.env.AUTH_SECRET;
+  if (!secret) return json({ error: "Auth non configurée." }, { status: 503 });
+
+  const ip = getClientIp(request.headers);
+  if (!rateLimit(`auth:req:m:${ip}`, 4, 60_000).allowed || !rateLimit(`auth:req:h:${ip}`, 15, 60 * 60_000).allowed)
+    return json({ error: "Trop de demandes de connexion. Réessayez plus tard." }, { status: 429 });
+
+  let body: unknown;
+  try { body = await request.json(); } catch { return json({ error: "JSON invalide." }, { status: 400 }); }
+  const { email, website } = body as { email?: string; website?: string };
+  if (website && website.length > 0) return json({ ok: true }); // honeypot
+  if (!email || !EMAIL_RE.test(email) || email.length > 254)
+    return json({ error: "Adresse email invalide." }, { status: 400 });
+
+  // Per-email throttle so one address can't be link-bombed.
+  if (!rateLimit(`auth:req:e:${email.toLowerCase()}`, 3, 10 * 60_000).allowed)
+    return json({ error: "Un lien a déjà été envoyé. Vérifiez vos emails." }, { status: 429 });
+
+  const user = await findOrCreateUser(email);
+  const token = generateLoginToken();
+  await createLoginToken({ userId: user.id, tokenHash: await hashToken(token) });
+  await purgeStaleLoginTokens();
+
+  const origin = originFor(request, fallbackLocale);
+  const locale: "fr" | "en" = origin === ORIGIN_BY_LOCALE.en ? "en" : "fr";
+  const link = `${origin}/auth/callback?token=${token}`;
+  const subject = locale === "fr" ? "Votre lien de connexion — MaVilleIdéale" : "Your sign-in link — Best Cities in France";
+  const text = locale === "fr"
+    ? `Bonjour,\n\nCliquez sur ce lien pour vous connecter à MaVilleIdéale :\n${link}\n\nCe lien expire dans 30 minutes et ne fonctionne qu'une fois. Si vous n'êtes pas à l'origine de cette demande, ignorez cet email.\n\n— L'équipe MaVilleIdéale`
+    : `Hello,\n\nClick this link to sign in to Best Cities in France:\n${link}\n\nThe link expires in 30 minutes and works only once. If you didn't request it, ignore this email.\n\n— Best Cities in France`;
+  await sendBrevoEmail({
+    sender: { email: locale === "fr" ? "bonjour@mavilleideale.fr" : "hello@bestcitiesinfrance.com", name: locale === "fr" ? "MaVilleIdéale" : "Best Cities in France" },
+    to: email, subject, text,
+  });
+
+  return json({ ok: true });
+}
+
+async function handleAuthVerify(request: Request): Promise<Response> {
+  const secret = process.env.AUTH_SECRET;
+  if (!secret) return json({ error: "Auth non configurée." }, { status: 503 });
+
+  const ip = getClientIp(request.headers);
+  if (!rateLimit(`auth:vfy:${ip}`, 10, 60_000).allowed)
+    return json({ error: "Trop de tentatives." }, { status: 429 });
+
+  let body: unknown;
+  try { body = await request.json(); } catch { return json({ error: "JSON invalide." }, { status: 400 }); }
+  const { token } = body as { token?: string };
+  if (!token || token.length < 16 || token.length > 200)
+    return json({ error: "Lien invalide." }, { status: 400 });
+
+  const userId = await consumeLoginToken(await hashToken(token));
+  if (!userId) return json({ error: "Lien invalide ou expiré. Redemandez un lien de connexion." }, { status: 401 });
+
+  const user = await findUserById(userId);
+  if (!user) return json({ error: "Compte introuvable." }, { status: 401 });
+  await markLogin(user.id);
+
+  const jwt = await signSession({ sub: user.id, email: user.email }, secret);
+  return json({ ok: true, token: jwt, user: PublicUser(user) });
+}
+
+async function handleAuthMe(request: Request): Promise<Response> {
+  const user = await authedUser(request);
+  if (!user) return json({ user: null });
+  return json({ user: PublicUser(user) });
+}
+
+const HANDLE_RE = /^[\p{L}0-9 .'_-]{2,40}$/u;
+async function handleAuthHandle(request: Request): Promise<Response> {
+  const user = await authedUser(request);
+  if (!user) return json({ error: "Non authentifié." }, { status: 401 });
+  let body: unknown;
+  try { body = await request.json(); } catch { return json({ error: "JSON invalide." }, { status: 400 }); }
+  const { handle } = body as { handle?: string };
+  if (!handle || !HANDLE_RE.test(handle.trim()))
+    return json({ error: "Pseudo invalide (2 à 40 caractères)." }, { status: 400 });
+  await setHandle(user.id, handle.trim());
+  return json({ ok: true, handle: handle.trim() });
+}
+
+// ---- account data handlers ------------------------------------------------
+
+async function handleFavorites(request: Request): Promise<Response> {
+  const user = await authedUser(request);
+  if (!user) return json({ error: "Non authentifié." }, { status: 401 });
+  const method = request.method;
+
+  if (method === "GET") return json({ favorites: await listFavorites(user.id) });
+
+  let body: unknown;
+  try { body = await request.json(); } catch { return json({ error: "JSON invalide." }, { status: 400 }); }
+
+  if (method === "POST") {
+    const { slug, merge } = body as { slug?: string; merge?: string[] };
+    if (Array.isArray(merge)) return json({ favorites: await mergeFavorites(user.id, merge) });
+    if (!slug || !/^[a-z0-9-]{1,80}$/.test(slug)) return json({ error: "Ville invalide." }, { status: 400 });
+    await addFavorite(user.id, slug);
+    return json({ favorites: await listFavorites(user.id) });
+  }
+  if (method === "DELETE") {
+    const { slug } = body as { slug?: string };
+    if (!slug || !/^[a-z0-9-]{1,80}$/.test(slug)) return json({ error: "Ville invalide." }, { status: 400 });
+    await removeFavorite(user.id, slug);
+    return json({ favorites: await listFavorites(user.id) });
+  }
+  return json({ error: "Method not allowed" }, { status: 405 });
+}
+
+async function handleProjections(request: Request): Promise<Response> {
+  const user = await authedUser(request);
+  if (!user) return json({ error: "Non authentifié." }, { status: 401 });
+  const method = request.method;
+
+  if (method === "GET") return json({ projections: await listProjections(user.id) });
+
+  let body: unknown;
+  try { body = await request.json(); } catch { return json({ error: "JSON invalide." }, { status: 400 }); }
+
+  if (method === "POST") {
+    const { citySlug, cityName, label, payload } = body as {
+      citySlug?: string; cityName?: string; label?: string; payload?: unknown;
+    };
+    if (!citySlug || !/^[a-z0-9-]{1,80}$/.test(citySlug)) return json({ error: "Ville invalide." }, { status: 400 });
+    const serialized = JSON.stringify(payload ?? null);
+    if (serialized.length > 20_000) return json({ error: "Projection trop volumineuse." }, { status: 413 });
+    const proj = await addProjection({
+      userId: user.id,
+      citySlug,
+      cityName: (cityName ?? citySlug).slice(0, 120),
+      label: (label ?? "Projection").slice(0, 120),
+      payload: payload ?? null,
+    });
+    return json({ ok: true, projection: proj }, { status: 201 });
+  }
+  if (method === "DELETE") {
+    const { id } = body as { id?: string };
+    if (!id) return json({ error: "id manquant." }, { status: 400 });
+    await removeProjection(user.id, id);
+    return json({ ok: true });
+  }
+  return json({ error: "Method not allowed" }, { status: 405 });
+}
+
+// Authenticated review/question submission — like /api/comments but identity-bound.
+async function handleReviewsPost(request: Request): Promise<Response> {
+  const user = await authedUser(request);
+  if (!user) return json({ error: "Non authentifié." }, { status: 401 });
+
+  const ip = getClientIp(request.headers);
+  if (!rateLimit(`rev:m:${ip}`, 5, 60_000).allowed || !rateLimit(`rev:h:${user.id}`, 20, 60 * 60_000).allowed)
+    return json({ error: "Trop de contributions. Réessayez plus tard." }, { status: 429 });
+
+  let payload: unknown;
+  try { payload = await request.json(); } catch { return json({ error: "JSON invalide." }, { status: 400 }); }
+  const parsed = CommentSchema.safeParse(payload);
+  if (!parsed.success) return json({ error: "Données invalides", issues: parsed.error.flatten().fieldErrors }, { status: 400 });
+
+  const author = (user.handle ?? parsed.data.author).trim();
+  const check = checkContent({ author, body: parsed.data.body });
+  if (!check.ok) return json({ error: check.reason ?? "Contenu refusé" }, { status: 422 });
+
+  let categoryRatings: Record<string, number> | undefined;
+  if (parsed.data.categoryRatings) {
+    const s: Record<string, number> = {};
+    for (const [k, v] of Object.entries(parsed.data.categoryRatings))
+      if (typeof v === "number" && v >= 1 && v <= 5 && /^[a-z0-9-]+$/i.test(k) && k.length <= 40) s[k] = Math.round(v);
+    if (Object.keys(s).length > 0) categoryRatings = s;
+  }
+
+  const comment = await addUserComment({
+    userId: user.id,
+    topic: parsed.data.topic,
+    author,
+    body: parsed.data.body.trim(),
+    rating: parsed.data.rating,
+    categoryRatings,
+    type: parsed.data.type,
+  });
+  return json({ ok: true, comment }, { status: 201 });
+}
+
+// Dashboard aggregate: everything /mes-villes needs in one authed round-trip.
+async function handleAccount(request: Request): Promise<Response> {
+  const user = await authedUser(request);
+  if (!user) return json({ user: null }, { status: 401 });
+  const [favorites, contributions, contributionCount, projections] = await Promise.all([
+    listFavorites(user.id),
+    listUserContributions(user.id),
+    countUserContributions(user.id),
+    listProjections(user.id),
+  ]);
+  const alertes = await findAllByEmail(user.email);
+  return json({
+    user: PublicUser(user),
+    favorites,
+    contributions,
+    contributionCount,
+    projections,
+    alertes: alertes.map((a) => ({ citySlug: a.citySlug, cityName: a.cityName, types: a.types })),
+  });
+}
 
 // ---- handlers -------------------------------------------------------------
 
@@ -346,6 +608,17 @@ export default {
       if (path === "/api/alertes/unsubscribe" && method === "GET") return await handleAlertesUnsubscribe(url);
       if (path === "/api/alertes/list" && method === "GET") return await handleAlertesList(url);
       if (path === "/api/cities/search" && method === "GET") return handleCitiesSearch(url);
+
+      // ── Accounts (Worker-native magic-link auth — R9.1) ──
+      if (path === "/api/auth/request-link" && method === "POST") return await handleAuthRequestLink(request, locale);
+      if (path === "/api/auth/verify" && method === "POST") return await handleAuthVerify(request);
+      if (path === "/api/auth/me" && method === "GET") return await handleAuthMe(request);
+      if (path === "/api/auth/handle" && method === "POST") return await handleAuthHandle(request);
+      if (path === "/api/account" && method === "GET") return await handleAccount(request);
+      if (path === "/api/favorites") return await handleFavorites(request);
+      if (path === "/api/projections") return await handleProjections(request);
+      if (path === "/api/reviews" && method === "POST") return await handleReviewsPost(request);
+
       if (path === "/api/quiz" && method === "POST") return await handleQuiz(request);
       if (path === "/widget/embed" && method === "GET") return handleWidgetEmbed(url);
 

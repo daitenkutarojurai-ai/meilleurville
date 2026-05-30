@@ -1,23 +1,12 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useSyncExternalStore } from "react";
 import { User } from "lucide-react";
-import { createClient } from "@/lib/supabase/client";
+import { subscribeAuth, getAuthSnapshot, getServerAuthSnapshot } from "@/lib/auth-client";
 
 export function AccountButton() {
-  const [loggedIn, setLoggedIn] = useState(false);
-
-  useEffect(() => {
-    const supabase = createClient();
-    supabase.auth.getUser().then(({ data }) => {
-      setLoggedIn(!!data.user);
-    });
-    const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, session) => {
-      setLoggedIn(!!session?.user);
-    });
-    return () => subscription.unsubscribe();
-  }, []);
+  const loggedIn = useSyncExternalStore(subscribeAuth, getAuthSnapshot, getServerAuthSnapshot);
 
   const href = loggedIn ? "/mes-villes" : "/connexion";
   const ariaLabel = loggedIn ? "Mon espace" : "Se connecter";

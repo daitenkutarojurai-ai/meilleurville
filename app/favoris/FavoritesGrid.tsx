@@ -5,6 +5,7 @@ import Link from "next/link";
 import { CityCard } from "@/components/CityCard";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { readFavorites } from "@/components/effects/FavoriteButton";
+import { authFetch, getToken } from "@/lib/auth-client";
 import type { City } from "@/lib/types";
 
 function seedToCity(s: (typeof CITIES_SEED)[number]): City {
@@ -34,6 +35,15 @@ export function FavoritesGrid() {
       setSlugs(readFavorites());
     }
     window.addEventListener("favorites-changed", onChange);
+    // Logged in: pull the account list so saved cities show across devices.
+    if (getToken()) {
+      authFetch("/api/favorites")
+        .then((res) => (res.ok ? res.json() : null))
+        .then((data: { favorites: string[] } | null) => {
+          if (data?.favorites) setSlugs((prev) => Array.from(new Set([...prev, ...data.favorites])));
+        })
+        .catch(() => {});
+    }
     return () => window.removeEventListener("favorites-changed", onChange);
   }, []);
 
@@ -45,7 +55,7 @@ export function FavoritesGrid() {
           Pas encore de coup de cœur ?
         </h2>
         <p className="text-sm text-[var(--text-secondary)] mb-6 max-w-md mx-auto">
-          Cliquez sur le ❤️ d&apos;une ville pour la sauvegarder ici. C&apos;est local — rien n&apos;est envoyé.
+          Cliquez sur le ❤️ d&apos;une ville pour la sauvegarder ici. Connecté·e, vos favoris vous suivent sur tous vos appareils.
         </p>
         <div className="flex flex-wrap items-center justify-center gap-3">
           <Link
