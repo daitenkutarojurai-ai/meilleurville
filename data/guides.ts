@@ -1121,27 +1121,27 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Rennes : la star bretonne qui ne déçoit pas",
-        body: "Rennes (8.1/10) est régulièrement élue meilleure ville de France pour la qualité de vie. Elle mérite son titre : 70 000 étudiants, une scène startup et tech parmi les plus dynamiques de France (Rennes est la 3ème ville française en densité de startups), des transports en commun exemplaires (métro, BHNS), et une connexion TGV à Paris en 1h25. Le loyer médian T2 est à 760€ — encore raisonnable pour une ville de cette qualité. Son seul défaut : elle est victime de son succès, et les prix montent.",
+        body: "Rennes (8.1/10) est régulièrement élue meilleure ville de France pour la qualité de vie, et elle mérite son titre. On y compte 70 000 étudiants, une scène startup et tech parmi les plus dynamiques de France (Rennes est la 3ème ville française en densité de startups), des transports en commun exemplaires (métro, BHNS) et une connexion TGV à Paris en 1h25. Le loyer médian T2 est à 760€, ce qui reste raisonnable pour une ville de cette qualité. Son seul défaut, c'est qu'elle est victime de son succès et que les prix montent.",
       },
       {
         heading: "Brest : la ville maritime au caractère unique",
-        body: "Brest (6.9/10) est l'anti-marketing de la Bretagne : grise, venteuse, construite dans la précipitation après sa destruction totale en 1944 — et pourtant attachante. C'est l'une des villes françaises avec la plus forte identité locale. Son port militaire est le premier de France. L'université de Bretagne Occidentale maintient une vie étudiante animée. Les loyers sont parmi les plus bas des villes universitaires (T2 médian 650€). Et la mer est partout, littéralement à 10 minutes de n'importe quel point de la ville.",
+        body: "Brest (6.9/10) est l'anti-marketing de la Bretagne : grise, venteuse, construite dans la précipitation après sa destruction totale en 1944, et pourtant attachante. C'est l'une des villes françaises avec la plus forte identité locale. Son port militaire est le premier de France. L'université de Bretagne Occidentale maintient une vie étudiante animée. Les loyers sont parmi les plus bas des villes universitaires (T2 médian 650€). Et la mer est partout, littéralement à 10 minutes de n'importe quel point de la ville.",
       },
       {
         heading: "Quimper : la Bretagne profonde à taille humaine",
-        body: "Quimper (7.2/10) est l'âme de la Bretagne. Sa cathédrale gothique, ses maisons à colombages, son festival de Cornouaille, ses marchés colorés — tout ici respire l'identité bretonne. C'est une ville à taille humaine (60 000 hab.) qui offre tous les services d'une grande ville dans un cadre préservé. Idéale pour les familles et les retraités. L'aéroport de Quimper dessert Paris CDG en 1h, ce qui en fait un choix très sérieux pour les télétravilleurs fréquents.",
+        body: "Quimper (7.2/10) est l'âme de la Bretagne. Sa cathédrale gothique, ses maisons à colombages, son festival de Cornouaille, ses marchés colorés : tout ici respire l'identité bretonne. C'est une ville à taille humaine (60 000 hab.) qui offre tous les services d'une grande ville dans un cadre préservé. Idéale pour les familles et les retraités. L'aéroport de Quimper dessert Paris CDG en 1h, ce qui en fait un choix très sérieux pour les télétravailleurs fréquents.",
       },
       {
         heading: "Saint-Malo : quand la mer devient un mode de vie",
-        body: "Saint-Malo (7.7/10) est la ville corsaire, l'intra-muros, les remparts, les grandes marées. C'est aussi une ville qui se dualise de plus en plus : une cité touristique premium l'été et une ville bretonne authentique le reste du temps. Les prix ont monté avec l'afflux de résidences secondaires, mais l'immobilier reste accessible comparé à la Côte d'Azur. Le lien TGV Paris-Saint-Malo (3h) s'est renforcé ces dernières années.",
+        body: "Saint-Malo (7.7/10) est la ville corsaire, l'intra-muros, les remparts, les grandes marées. C'est aussi une ville qui se dualise de plus en plus : cité touristique premium l'été, ville bretonne authentique le reste du temps. Les prix ont monté avec l'afflux de résidences secondaires, mais l'immobilier reste accessible comparé à la Côte d'Azur. Le lien TGV Paris-Saint-Malo (3h) s'est renforcé ces dernières années.",
       },
       {
         heading: "La question du climat breton",
-        body: "Soyons honnêtes : la Bretagne reçoit plus de précipitations que la moyenne française (800-1200mm/an selon les zones). Mais «il pleut tout le temps en Bretagne» est un mythe. Brest reçoit environ 1200mm/an mais répartis sur 165 jours de pluie — ce qui signifie aussi des ciels mouvants, des lumières uniques et une végétation luxuriante que les climaphiles apprécient. Les Bretons de souche ont d'ailleurs un mot pour ça : «une belle averse bretonne».",
+        body: "Soyons honnêtes : la Bretagne reçoit plus de précipitations que la moyenne française (800-1200mm/an selon les zones). Mais « il pleut tout le temps en Bretagne » est un mythe. Brest reçoit environ 1200mm/an, mais répartis sur 165 jours de pluie, ce qui signifie aussi des ciels mouvants, des lumières uniques et une végétation luxuriante que les climaphiles apprécient. Les Bretons de souche ont d'ailleurs un mot pour ça : « une belle averse bretonne ».",
       },
       {
         heading: "Culture et identité : vivre «breton»",
-        body: "La Bretagne a une identité culturelle forte qui transcende les générations : la langue bretonne (60 000 locuteurs), le fest-noz (danse traditionnelle, classé UNESCO), les pardons, les fest-deiz. Cette culture n'est pas folklorique : elle est vivante, revendiquée par les jeunes, et crée un sentiment d'appartenance rare. Les Bretons sont réputés pour leur solidarité locale — ce qui se traduit concrètement par des associations actives et une vie de quartier réelle.",
+        body: "La Bretagne a une identité culturelle forte qui transcende les générations : la langue bretonne (60 000 locuteurs), le fest-noz (danse traditionnelle, classé UNESCO), les pardons, les fest-deiz. Cette culture n'est pas folklorique, elle est vivante, revendiquée par les jeunes, et elle crée un sentiment d'appartenance rare. Les Bretons sont réputés pour leur solidarité locale, ce qui se traduit concrètement par des associations actives et une vie de quartier réelle.",
       },
     ],
     relatedCities: ["rennes", "brest", "quimper", "saint-malo", "saint-brieuc", "lorient", "vannes"],
@@ -1164,11 +1164,11 @@ export const GUIDES: Guide[] = [
     publishedAt: "2025-04-01",
     updatedAt: "2026-02-22",
     intro:
-      "Le Centre-Val de Loire est la région la plus accessible de France depuis Paris — et pourtant la plus méconnue pour y habiter. Tours à 55 min de TGV, Orléans à 1h, Chartres à 1h15 : vous êtes en province, mais la capitale reste à portée de main pour vos rendez-vous. La région des châteaux, de la douceur de vivre et des loyers encore sages mérite votre attention.",
+      "Le Centre-Val de Loire est la région la plus accessible de France depuis Paris, et pourtant la plus méconnue pour y habiter. Tours à 55 min de TGV, Orléans à 1h, Chartres à 1h15 : vous êtes en province, mais la capitale reste à portée de main pour vos rendez-vous. La région des châteaux, de la douceur de vivre et des loyers encore sages mérite votre attention.",
     sections: [
       {
         heading: "Tours : la «jardin de la France» en ville",
-        body: "Tours (7.6/10) est une ville universitaire de 140 000 habitants avec une qualité de vie remarquable. Le vieux Tours (quartier Plumereau) est l'un des plus beaux centres médiévaux de France. L'université de Tours (30 000 étudiants) maintient une vie culturelle et nocturne active. À 55 min de Paris Montparnasse, Tours est la ville parfaite pour le télétravailleur qui veut «la province sans s'éloigner». Loyer T2 médian : 700€.",
+        body: "Tours (7.6/10) est une ville universitaire de 140 000 habitants avec une qualité de vie remarquable. Le vieux Tours (quartier Plumereau) est l'un des plus beaux centres médiévaux de France. L'université de Tours (30 000 étudiants) maintient une vie culturelle et nocturne active. À 55 min de Paris Montparnasse, Tours est la ville parfaite pour le télétravailleur qui veut « la province sans s'éloigner ». Loyer T2 médian : 700€.",
       },
       {
         heading: "Orléans : la plus parisienne des villes de province",
@@ -1176,7 +1176,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Chartres : petite ville, grand patrimoine",
-        body: "Chartres (7.0/10) est une ville à taille humaine de 40 000 habitants dominée par l'une des plus belles cathédrales gothiques du monde. À 1h15 de Paris Montparnasse, elle est choisie par des familles parisiannes cherchant la maison avec jardin sans se couper de la capitale. L'Eure-et-Loir offre un immobilier parmi les moins chers d'Île-de-France élargie, avec un vrai sentiment de «ville de province» à 80km de Paris.",
+        body: "Chartres (7.0/10) est une ville à taille humaine de 40 000 habitants dominée par l'une des plus belles cathédrales gothiques du monde. À 1h15 de Paris Montparnasse, elle est choisie par des familles parisiennes cherchant la maison avec jardin sans se couper de la capitale. L'Eure-et-Loir offre un immobilier parmi les moins chers d'Île-de-France élargie, avec un vrai sentiment de « ville de province » à 80km de Paris.",
       },
       {
         heading: "Blois et la vallée des châteaux",
@@ -1184,11 +1184,11 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "La «douceur angevine» : mythe ou réalité ?",
-        body: "La Loire est effectivement une des zones climatiques les plus clémentes de France : 2000h de soleil/an à Tours (autant que Lyon), des hivers doux (5°C en janvier), des étés chauds sans excès. La Loire Valley a un microclimat favorisé par le fleuve — c'est pour ça qu'on y a planté des vignes dès l'Antiquité (Vouvray, Chinon, Sancerre, Muscadet). Pour quelqu'un qui sort d'une ville nordique ou parisienne, le soleil ligérien fait réellement la différence.",
+        body: "La Loire est effectivement une des zones climatiques les plus clémentes de France : 2000h de soleil/an à Tours (autant que Lyon), des hivers doux (5°C en janvier), des étés chauds sans excès. La Loire Valley a un microclimat favorisé par le fleuve, et c'est pour ça qu'on y a planté des vignes dès l'Antiquité (Vouvray, Chinon, Sancerre, Muscadet). Pour quelqu'un qui sort d'une ville nordique ou parisienne, le soleil ligérien fait réellement la différence.",
       },
       {
         heading: "Emploi et économie locale",
-        body: "Le Centre-Val de Loire n'est pas une région économique puissante au sens où l'est l'Île-de-France ou l'Auvergne-Rhône-Alpes. Mais elle n'est pas sinistrée non plus : le nucléaire (Chinon, Dampierre, Saint-Laurent), l'agroalimentaire (Nestlé, Jacquet Brossard), le tourisme patrimonial, et la pharmacie (Cosyl à Chartres, Novo Nordisk à Tours) sont les piliers. Pour les profils remote, la région est excellente. Pour les profils qui cherchent un poste local, la palette est plus étroite.",
+        body: "Le Centre-Val de Loire n'est pas une région économique puissante au sens où l'est l'Île-de-France ou l'Auvergne-Rhône-Alpes. Mais elle n'est pas sinistrée non plus : le nucléaire (Chinon, Dampierre, Saint-Laurent), l'agroalimentaire (Nestlé, Jacquet Brossard), le tourisme patrimonial et la pharmacie (Cosyl à Chartres, Novo Nordisk à Tours) sont les piliers. Pour les profils remote, la région est excellente. Pour les profils qui cherchent un poste local, la palette est plus étroite.",
       },
     ],
     relatedCities: ["tours", "orleans", "chartres", "blois", "angers"],
@@ -1264,23 +1264,23 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Strasbourg : capitale européenne, loyers tendus",
-        body: "Strasbourg est dans une catégorie à part. Siège du Parlement européen et du Conseil de l'Europe, la ville attire diplomates, fonctionnaires et étudiants du monde entier — ce qui tire les loyers vers le haut (T2 : 750–900€). La qualité de vie reste exceptionnelle : pistes cyclables, tramway dense, vieille ville classée UNESCO. Idéale pour les profils européens et les familles bilingues franco-allemandes.",
+        body: "Strasbourg est dans une catégorie à part. Siège du Parlement européen et du Conseil de l'Europe, la ville attire diplomates, fonctionnaires et étudiants du monde entier, ce qui tire les loyers vers le haut (T2 : 750-900€). La qualité de vie reste exceptionnelle : pistes cyclables, tramway dense, vieille ville classée UNESCO. Idéale pour les profils européens et les familles bilingues franco-allemandes.",
       },
       {
         heading: "Nancy : la capitale lorraine aux standards élevés",
-        body: "Nancy est souvent décrite comme 'la ville idéale pour ceux qui veulent une vraie ville sans les inconvénients d'une métropole'. Place Stanislas, Opéra, grandes écoles (Sciences Po, Mines Nancy, université de Lorraine) — le niveau culturel est métropolitain pour des loyers 30% inférieurs à Lyon. Transport en commun (tram) performant, gastronomie excellente.",
+        body: "Nancy est souvent décrite comme « la ville idéale pour ceux qui veulent une vraie ville sans les inconvénients d'une métropole ». Place Stanislas, Opéra, grandes écoles (Sciences Po, Mines Nancy, université de Lorraine) : le niveau culturel est métropolitain pour des loyers 30% inférieurs à Lyon. Transport en commun (tram) performant, gastronomie excellente.",
       },
       {
         heading: "Metz : la renaissance spectaculaire du Centre Pompidou",
-        body: "Metz a connu une transformation remarkable depuis l'ouverture du Centre Pompidou-Metz en 2010. La ville, longtemps dans l'ombre de Nancy, s'est affirmée comme destination culturelle et touristique. Économie diversifiée (services, logistique, technologie), proximité du Luxembourg (<40 min) pour les frontaliers, et prix immobiliers encore très raisonnables (T2 : 680€).",
+        body: "Metz a connu une transformation remarquable depuis l'ouverture du Centre Pompidou-Metz en 2010. La ville, longtemps dans l'ombre de Nancy, s'est affirmée comme destination culturelle et touristique. Économie diversifiée (services, logistique, technologie), proximité du Luxembourg (moins de 40 min) pour les frontaliers, et prix immobiliers encore très raisonnables (T2 : 680€).",
       },
       {
         heading: "Reims : Champagne, cathédrale et boom économique",
-        body: "Reims jouit d'une position stratégique à 45 minutes de Paris en TGV. Ce qui en fait une ville prisée des télétravailleurs parisiens. La ville compte aussi sur l'économie champenoise (maisons de champagne, tourisme viticole) et un secteur automobile (Stellantis). La cathédrale gothique est l'une des plus belles de France. Loyers modérés (T2 : 650€) et excellent rapport qualité/prix.",
+        body: "Reims jouit d'une position stratégique à 45 minutes de Paris en TGV, ce qui en fait une ville prisée des télétravailleurs parisiens. La ville compte aussi sur l'économie champenoise (maisons de champagne, tourisme viticole) et un secteur automobile (Stellantis). La cathédrale gothique est l'une des plus belles de France. Loyers modérés (T2 : 650€) et excellent rapport qualité/prix.",
       },
       {
         heading: "Épinal et Colmar : la douceur de vivre en Vosges et Alsace",
-        body: "Épinal reste méconnue du grand public mais offre une qualité de vie exceptionnelle : forêts vosgiennes, Moselle, musée de l'Image, et des loyers parmi les plus bas du Grand Est. Colmar, la «petite Venise d'Alsace», est un bijou touristique avec maisons à colombages et vignobles. Attention : le marché immobilier de Colmar est sous tension du fait du tourisme et du voisinage suisse.",
+        body: "Épinal reste méconnue du grand public mais offre une qualité de vie exceptionnelle : forêts vosgiennes, Moselle, musée de l'Image, et des loyers parmi les plus bas du Grand Est. Colmar, la « petite Venise d'Alsace », est un bijou touristique avec maisons à colombages et vignobles. Attention : le marché immobilier de Colmar est sous tension du fait du tourisme et du voisinage suisse.",
       },
       {
         heading: "Vivre en Grand Est : ce qu'il faut savoir",
@@ -1309,7 +1309,7 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Bordeaux : la belle endormie devenue trop chère",
-        body: "Bordeaux a réalisé en dix ans l'une des transformations urbaines les plus spectaculaires de France : LGV Paris (2h05), rénovation du centre, tram ultramoderne. Résultat : les prix ont explosé (4 500€/m² en moyenne). Bordeaux reste une métropole extraordinaire — la scène gastronomique, la culture, le port de la Lune — mais le rapport qualité/prix a fortement baissé pour les primo-accédants.",
+        body: "Bordeaux a réalisé en dix ans l'une des transformations urbaines les plus spectaculaires de France : LGV Paris (2h05), rénovation du centre, tram ultramoderne. Résultat : les prix ont explosé (4 500€/m² en moyenne). Bordeaux reste une métropole extraordinaire, avec sa scène gastronomique, sa culture et le port de la Lune, mais le rapport qualité/prix a fortement baissé pour les primo-accédants.",
       },
       {
         heading: "Pau et Bayonne : la qualité de vie pyrénéenne",
@@ -1354,15 +1354,15 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Lyon : la métropole incontournable du couloir rhodanien",
-        body: "Lyon est la deuxième ville économique de France, souvent classée meilleure ville où vivre par les Français. La gastronomie, les bouchons, la Presqu'île et la Croix-Rousse font partie d'une identité forte. Le marché de l'emploi est très diversifié (pharmacie, chimie, numérique, finance, logistique). En contrepartie, les loyers ont fortement augmenté (T2 : 900€–1100€ en centre). La banlieue lyonnaise — Tassin, Écully, Caluire — offre un bon compromis.",
+        body: "Lyon est la deuxième ville économique de France, souvent classée meilleure ville où vivre par les Français. La gastronomie, les bouchons, la Presqu'île et la Croix-Rousse font partie d'une identité forte. Le marché de l'emploi est très diversifié (pharmacie, chimie, numérique, finance, logistique). En contrepartie, les loyers ont fortement augmenté (T2 : 900€-1100€ en centre). La banlieue lyonnaise, du côté de Tassin, Écully ou Caluire, offre un bon compromis.",
       },
       {
         heading: "Grenoble : la Silicon Valley des Alpes",
-        body: "Grenoble est l'une des villes les plus innovantes d'Europe : STMicroelectronics, Soitec, Schneider Electric, le CEA et l'INRIA en font un hub technologique de premier plan. La ville est encadrée par trois massifs (Belledonne, Vercors, Chartreuse) — les amateurs de montagne sont servis. Les loyers restent modérés pour la dimension économique de la ville (T2 : 750€). La pollution de l'air en hiver est un Red Flag important.",
+        body: "Grenoble est l'une des villes les plus innovantes d'Europe : STMicroelectronics, Soitec, Schneider Electric, le CEA et l'INRIA en font un hub technologique de premier plan. La ville est encadrée par trois massifs (Belledonne, Vercors, Chartreuse), et les amateurs de montagne sont servis. Les loyers restent modérés pour la dimension économique de la ville (T2 : 750€). La pollution de l'air en hiver est un Red Flag important.",
       },
       {
         heading: "Annecy : la perle des Alpes, mais à quel prix ?",
-        body: "Annecy est régulièrement élue ville préférée des Français — lac, montagnes, vieille ville médiévale, propreté exceptionnelle. Mais cette popularité a un coût : les prix immobiliers ont explosé (5 000–6 000€/m²), rivalisant avec Lyon. Idéale pour les revenus élevés (cadres, freelances bien établis, retraités aisés) ou les propriétaires qui vendent un bien parisien. Pour un primo-accédant, le calcul est difficile.",
+        body: "Annecy est régulièrement élue ville préférée des Français : lac, montagnes, vieille ville médiévale, propreté exceptionnelle. Mais cette popularité a un coût, car les prix immobiliers ont explosé (5 000-6 000€/m²) et rivalisent avec Lyon. Idéale pour les revenus élevés (cadres, freelances bien établis, retraités aisés) ou les propriétaires qui vendent un bien parisien. Pour un primo-accédant, le calcul est difficile.",
       },
       {
         heading: "Chambéry et Valence : les alternatives moins connues",
@@ -1374,7 +1374,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Télétravail et montagne : une combinaison gagnante",
-        body: "Auvergne-Rhône-Alpes est le territoire par excellence du télétravailleur qui veut le meilleur des deux mondes : nature et montagne accessible, mais aussi des villes universitaires avec cafés, co-working et vie culturelle. Romans-sur-Isère, Montélimar, Annonay, Vichy — des dizaines de villes moyennes au bon rapport qualité/coût sont accessibles en 1h de Lyon ou Grenoble. L'idée du 'tribu alpine' (3j/semaine en ville, 2j en montagne) y est particulièrement répandue.",
+        body: "Auvergne-Rhône-Alpes est le territoire par excellence du télétravailleur qui veut le meilleur des deux mondes : nature et montagne accessibles, mais aussi des villes universitaires avec cafés, co-working et vie culturelle. Romans-sur-Isère, Montélimar, Annonay, Vichy : des dizaines de villes moyennes au bon rapport qualité/coût sont accessibles en 1h de Lyon ou Grenoble. L'idée de la « tribu alpine » (3j/semaine en ville, 2j en montagne) y est particulièrement répandue.",
       },
     ],
     relatedCities: ["lyon", "grenoble", "annecy", "chambery", "clermont-ferrand", "valence", "montelimar", "romans-sur-isere"],
@@ -1437,14 +1437,14 @@ export const GUIDES: Guide[] = [
     category: "region",
     metaTitle: "Vivre en PACA : Nice, Marseille, Aix-en-Provence, Toulon — Guide 2025 | MeilleurVille",
     metaDesc: "Guide complet pour s'installer en Provence-Alpes-Côte d'Azur : Nice, Marseille, Aix-en-Provence, Toulon, Avignon, Draguignan, Arles. Soleil, mer, mais aussi red flags.",
-    intro: "PACA est le rêve de millions de Français : soleil, mer, lavande, gastronomie. Mais cette attractivité a un coût — immobilier sous tension, inégalités criantes, embouteillages. Ce guide démêle le vrai du faux pour vous aider à choisir la bonne ville et le bon quartier.",
+    intro: "PACA est le rêve de millions de Français : soleil, mer, lavande, gastronomie. Mais cette attractivité a un coût : immobilier sous tension, inégalités criantes, embouteillages. Ce guide démêle le vrai du faux pour vous aider à choisir la bonne ville et le bon quartier.",
     readMinutes: 11,
     publishedAt: "2025-09-01",
     updatedAt: "2026-05-05",
     sections: [
       {
         heading: "Nice : le luxe méditerranéen et ses contraintes",
-        body: "Nice est la 5ème ville de France et la capitale de la Côte d'Azur. Promenade des Anglais, vieille ville, colline du Château — l'identité est forte. Mais Nice est aussi l'une des villes les plus chères hors Paris (T2 : 900–1200€), avec des embouteillages chroniques sur la Côte et un marché immobilier très spéculatif. Pour les profils très aisés ou les expatriés européens, c'est une destination de choix. Pour les autres, les alternatives — Antibes, Grasse, Draguignan — méritent exploration.",
+        body: "Nice est la 5ème ville de France et la capitale de la Côte d'Azur. Promenade des Anglais, vieille ville, colline du Château : l'identité est forte. Mais Nice est aussi l'une des villes les plus chères hors Paris (T2 : 900-1200€), avec des embouteillages chroniques sur la Côte et un marché immobilier très spéculatif. Pour les profils très aisés ou les expatriés européens, c'est une destination de choix. Pour les autres, les alternatives comme Antibes, Grasse ou Draguignan méritent exploration.",
       },
       {
         heading: "Marseille : la renaissance turbulente d'une métropole",
@@ -1452,15 +1452,15 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Aix-en-Provence : la ville parfaite, au prix parfait ?",
-        body: "Aix est souvent décrite comme 'Marseille pour ceux qui n'ont pas le courage de Marseille'. La ville de Cézanne est effectivement plus calme, plus bourgeoise, plus chère (5 000€/m² en centre). Elle abrite une grande université (Aix-Marseille), une scène culturelle intense (Festival d'art lyrique) et une économie diversifiée. Le trajet Aix-Marseille en train prend 30 minutes, ce qui en fait une base pour travailler à Marseille en vivant à Aix.",
+        body: "Aix est souvent décrite comme « Marseille pour ceux qui n'ont pas le courage de Marseille ». La ville de Cézanne est effectivement plus calme, plus bourgeoise, plus chère (5 000€/m² en centre). Elle abrite une grande université (Aix-Marseille), une scène culturelle intense (Festival d'art lyrique) et une économie diversifiée. Le trajet Aix-Marseille en train prend 30 minutes, ce qui en fait une base pour travailler à Marseille en vivant à Aix.",
       },
       {
         heading: "Toulon et la face cachée du Var",
-        body: "Toulon est la ville militaire de France par excellence (arsenal de la Marine, base navale). Elle a longtemps souffert d'une image dégradée mais se redresse : les quais rénovés, l'opéra, les calanques de Cassis à portée de bateau. Les loyers sont modérés pour une ville côtière (T2 : 680€) et l'immobilier reste accessible. L'hyper-touristique Saint-Tropez est à 1h, mais Toulon reste une ville qui 'vit à l'année'.",
+        body: "Toulon est la ville militaire de France par excellence (arsenal de la Marine, base navale). Elle a longtemps souffert d'une image dégradée mais se redresse : les quais rénovés, l'opéra, les calanques de Cassis à portée de bateau. Les loyers sont modérés pour une ville côtière (T2 : 680€) et l'immobilier reste accessible. L'hyper-touristique Saint-Tropez est à 1h, mais Toulon reste une ville qui « vit à l'année ».",
       },
       {
         heading: "Avignon, Arles et l'arrière-pays : les trésors cachés",
-        body: "Avignon (Palais des Papes, Festival mondial de théâtre) est une ville extraordinaire mais congestionnée et touristique. Les prix ont augmenté (T2 : 720€) mais restent inférieurs à Aix. Arles, plus tranquille, est une ville d'art (musée Fondation Van Gogh, Arles Antique) à prix très raisonnables. L'arrière-pays varois — Draguignan, Barjols, Cotignac — offre l'authenticité provençale à prix plancher. À creuser sérieusement pour les profils remote.",
+        body: "Avignon (Palais des Papes, Festival mondial de théâtre) est une ville extraordinaire mais congestionnée et touristique. Les prix ont augmenté (T2 : 720€) mais restent inférieurs à Aix. Arles, plus tranquille, est une ville d'art (musée Fondation Van Gogh, Arles Antique) à prix très raisonnables. L'arrière-pays varois, du côté de Draguignan, Barjols ou Cotignac, offre l'authenticité provençale à prix plancher. À creuser sérieusement pour les profils remote.",
       },
       {
         heading: "Les Red Flags de PACA",
@@ -1482,7 +1482,7 @@ export const GUIDES: Guide[] = [
     category: "region",
     metaTitle: "Vivre en Bourgogne-Franche-Comté : Dijon, Besançon, Auxerre, Belfort — Guide 2025 | MeilleurVille",
     metaDesc: "Guide complet pour s'installer en Bourgogne-Franche-Comté : Dijon, Besançon, Auxerre, Belfort, Mâcon, Chalon-sur-Saône. Vignobles, Jura, qualité de vie et immobilier abordable.",
-    intro: "La Bourgogne-Franche-Comté est une région souvent sous-estimée. Connue pour ses vins et ses moutardes, elle abrite aussi Besançon — l'une des villes les plus agréables de France — et Dijon, capitale gastronomique mondiale. Une région où l'immobilier reste accessible et la qualité de vie élevée.",
+    intro: "La Bourgogne-Franche-Comté est une région souvent sous-estimée. Connue pour ses vins et ses moutardes, elle abrite aussi Besançon, l'une des villes les plus agréables de France, et Dijon, capitale gastronomique mondiale. Une région où l'immobilier reste accessible et la qualité de vie élevée.",
     readMinutes: 8,
     publishedAt: "2025-09-15",
     updatedAt: "2026-03-06",
@@ -1497,7 +1497,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Auxerre et la Bourgogne viticole",
-        body: "Auxerre est la porte d'entrée de la Bourgogne viticole. La ville sur l'Yonne dispose d'un centre médiéval remarquable (abbaye Saint-Germain, cathédrale), d'un tissu commercial actif et de loyers très accessibles (T2 : 490€). Les amateurs de vin sont à portée des grands crus de Chablis. À 2h de Paris en TER, la ville attire de plus en plus de télétravaille urs parisiens.",
+        body: "Auxerre est la porte d'entrée de la Bourgogne viticole. La ville posée sur l'Yonne dispose d'un centre médiéval remarquable (abbaye Saint-Germain, cathédrale), d'un tissu commercial actif et de loyers très accessibles (T2 : 490€). Les amateurs de vin sont à portée des grands crus de Chablis. À 2h de Paris en TER, la ville attire de plus en plus de télétravailleurs parisiens.",
       },
       {
         heading: "Belfort : la porte d'Alsace et la Franche-Comté industrielle",
@@ -1505,11 +1505,11 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Le vignoble et le Jura : un mode de vie à part",
-        body: "Vivre en Bourgogne ou dans le Jura, c'est adopter un rythme de vie particulier : marché du dimanche matin avec fromages et vins locaux, randonnées dans les reculées du Jura, sorties en vélo dans le vignoble. La gastronomie (coq au vin, bœuf bourguignon, epoisses, comté) fait partie du quotidien. Une vie qui tranche radicalement avec le rythme parisien — pour beaucoup, c'est précisément la raison de venir.",
+        body: "Vivre en Bourgogne ou dans le Jura, c'est adopter un rythme de vie particulier : marché du dimanche matin avec fromages et vins locaux, randonnées dans les reculées du Jura, sorties en vélo dans le vignoble. La gastronomie (coq au vin, bœuf bourguignon, epoisses, comté) fait partie du quotidien. Une vie qui tranche radicalement avec le rythme parisien, et pour beaucoup, c'est précisément la raison de venir.",
       },
       {
         heading: "Travailler en BFC : forces et limites",
-        body: "L'économie bourguignonne-comtoise est solide mais pas bouillonnante. Les secteurs forts sont l'industrie (Peugeot à Sochaux, Alstom à Belfort, Framatome), l'agroalimentaire (Lactalis, coopératives viticoles), la santé et les technologies de précision à Besançon. Pour les profils remote, la région est excellente. Pour les chercheurs d'emploi local en informatique/numérique, Dijon est la seule vraie option — les autres villes ont un marché du travail plus limité.",
+        body: "L'économie bourguignonne-comtoise est solide mais pas bouillonnante. Les secteurs forts sont l'industrie (Peugeot à Sochaux, Alstom à Belfort, Framatome), l'agroalimentaire (Lactalis, coopératives viticoles), la santé et les technologies de précision à Besançon. Pour les profils remote, la région est excellente. Pour les chercheurs d'emploi local en informatique ou numérique, Dijon est la seule vraie option : les autres villes ont un marché du travail plus limité.",
       },
     ],
     relatedCities: ["dijon", "besancon", "auxerre", "belfort", "macon", "chalon-sur-saone"],
@@ -2537,7 +2537,7 @@ export const GUIDES: Guide[] = [
     category: "region",
     metaTitle: "Vivre en Corse 2025 — guide installation Ajaccio, Bastia, Porto-Vecchio | MeilleurVille",
     metaDesc: "Vivre en Corse : logement, emploi, télétravail, coût de la vie, transports, vie pratique. Notre guide honnête pour s'installer à Ajaccio, Bastia ou ailleurs sur l'île.",
-    intro: "La Corse fait rêver : montagne, mer, maquis et soleil quasi méditerranéen. Mais vivre en Corse ne s'improvise pas — le marché immobilier est l'un des plus tendus de France, le marché de l'emploi est limité, et la vie sur l'île nécessite une adaptation réelle.",
+    intro: "La Corse fait rêver : montagne, mer, maquis et soleil quasi méditerranéen. Mais vivre en Corse ne s'improvise pas. Le marché immobilier est l'un des plus tendus de France, le marché de l'emploi est limité, et la vie sur l'île nécessite une adaptation réelle.",
     readMinutes: 9,
     publishedAt: "2026-04-24",
     updatedAt: "2026-01-30",
@@ -3043,23 +3043,23 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Grasse : la capitale mondiale du parfum à 330 m d'altitude",
-        body: "Grasse (51 000 hab) est le compromis parfait : à seulement 18 km de Cannes et 25 km de Nice, mais à 330 m d'altitude avec 5°C de moins en été (précieux avec les canicules). Prix : 3 000-3 500€/m² pour un appartement, contre 6 000-7 000€/m² sur la côte. Accessibilité : bus direct vers Cannes (40 min), Nice (1h). Qualité de vie : vieille ville médiévale parfumée, UNESCO, marchés provençaux, vue mer par temps clair. C'est l'une des alternatives les plus intelligentes pour les familles ou retraités qui refusent de payer le prix côtier.",
+        body: "Grasse (51 000 hab) est le compromis parfait : à seulement 18 km de Cannes et 25 km de Nice, mais à 330 m d'altitude avec 5°C de moins en été (précieux avec les canicules). Côté prix, comptez 3 000-3 500€/m² pour un appartement, contre 6 000-7 000€/m² sur la côte. L'accessibilité est bonne, avec un bus direct vers Cannes (40 min) et Nice (1h). La qualité de vie suit : vieille ville médiévale parfumée classée UNESCO, marchés provençaux, vue mer par temps clair. C'est l'une des alternatives les plus intelligentes pour les familles ou retraités qui refusent de payer le prix côtier.",
       },
       {
         heading: "La Ciotat : le berceau du cinéma face aux calanques",
-        body: "La Ciotat (37 000 hab) bénéficie d'une double localisation stratégique : calanques de Cassis à 5 km, Marseille à 30 min en voiture, Toulon à 45 min. Contrairement à Cassis (7 500€/m²), La Ciotat affiche des prix de 3 500-4 500€/m² pour des appartements avec parfois vue mer. La ville possède le cinéma Eden, le plus ancien encore en activité dans le monde, et des plages décentes. Pour qui veut la Méditerranée sans l'étiquette calanques de luxe, La Ciotat est un choix excellent.",
+        body: "La Ciotat (37 000 hab) bénéficie d'une double localisation stratégique : calanques de Cassis à 5 km, Marseille à 30 min en voiture, Toulon à 45 min. Contrairement à Cassis (7 500€/m²), La Ciotat affiche des prix de 3 500-4 500€/m² pour des appartements parfois avec vue mer. La ville possède le cinéma Eden, le plus ancien encore en activité dans le monde, et des plages décentes. Pour qui veut la Méditerranée sans l'étiquette calanques de luxe, La Ciotat est un choix excellent.",
       },
       {
         heading: "Vence et Saint-Paul-de-Vence : l'art à l'ombre des Alpes",
-        body: "Vence (19 000 hab) est l'une des villes les plus culturellement riches de l'arrière-pays azuréen : Chapelle Matisse, Fondation Maeght à Saint-Paul-de-Vence (2 km), musées, galeries, festival de jazz. À 10 km de Nice en voiture, Vence offre un cadre médiéval spectaculaire, de l'air pur, et des prix de 4 000-5 000€/m² — encore chers mais 30% en dessous de Nice côtier. Attentivement considéré par les artistes, retraités culturels et familles aisées qui veulent Nice sans les embouteillages permanents.",
+        body: "Vence (19 000 hab) est l'une des villes les plus culturellement riches de l'arrière-pays azuréen : Chapelle Matisse, Fondation Maeght à Saint-Paul-de-Vence (2 km), musées, galeries, festival de jazz. À 10 km de Nice en voiture, Vence offre un cadre médiéval spectaculaire, de l'air pur, et des prix de 4 000-5 000€/m², encore chers mais 30% en dessous de Nice côtier. La ville est considérée avec attention par les artistes, retraités culturels et familles aisées qui veulent Nice sans les embouteillages permanents.",
       },
       {
         heading: "Manosque et le Luberon : le vrai arrière-pays provençal",
-        body: "Pour s'éloigner encore plus et vraiment économiser : Manosque (22 000 hab, Alpes-de-Haute-Provence) offre l'arrière-pays provençal authentique à 2 600€/m². La mer est à 1h de route (Cassis, Toulon), mais la Haute-Provence — lavande, Luberon, cigales, luminosité exceptionnelle — est à la porte. L'ensoleillement dépasse 2 750h/an (plus que Nice). C'est le choix du télétravailleurs ou retraité qui cherche la Provence profonde plutôt que les terrasses animées. Également : Apt (Luberon), Forcalquier, Sisteron.",
+        body: "Pour s'éloigner encore plus et vraiment économiser, Manosque (22 000 hab, Alpes-de-Haute-Provence) offre l'arrière-pays provençal authentique à 2 600€/m². La mer est à 1h de route (Cassis, Toulon), mais la Haute-Provence (lavande, Luberon, cigales, luminosité exceptionnelle) est à la porte. L'ensoleillement dépasse 2 750h/an, plus que Nice. C'est le choix du télétravailleur ou du retraité qui cherche la Provence profonde plutôt que les terrasses animées. On peut aussi citer Apt (Luberon), Forcalquier et Sisteron.",
       },
       {
         heading: "Budget comparé : côte vs arrière-pays",
-        body: "Pour un couple sans enfants (T2 loué) : Nice centre 1 350€/mois, Nice périphérie 1 050€, Antibes 1 200€, Cannes 1 300€. Alternatives arrière-pays : Grasse 800€, La Ciotat 920€, Vence 950€, Manosque 680€. L'économie mensuelle entre Nice et Grasse est de 550€ soit 6 600€/an. Sur 5 ans, c'est 33 000€ d'économies — le prix d'une voiture ou d'un voyage au long cours. Et les 18 km vers la mer ? En Côte d'Azur, avec le trafic, c'est 30-45 min — guère plus qu'un trajet dans Nice elle-même.",
+        body: "Pour un couple sans enfants (T2 loué) : Nice centre 1 350€/mois, Nice périphérie 1 050€, Antibes 1 200€, Cannes 1 300€. Du côté de l'arrière-pays : Grasse 800€, La Ciotat 920€, Vence 950€, Manosque 680€. L'économie mensuelle entre Nice et Grasse est de 550€, soit 6 600€/an. Sur 5 ans, c'est 33 000€ d'économies, le prix d'une voiture ou d'un voyage au long cours. Et les 18 km vers la mer ? En Côte d'Azur, avec le trafic, c'est 30-45 min, guère plus qu'un trajet dans Nice elle-même.",
       },
     ],
     relatedCities: ["grasse", "la-ciotat", "cassis", "nice", "cannes", "antibes", "manosque", "menton"],
@@ -3167,7 +3167,7 @@ export const GUIDES: Guide[] = [
     category: "region",
     metaTitle: "Vivre dans le Val de Loire 2025 — guide complet | MeilleurVille",
     metaDesc: "Tours, Orléans, Blois, Saumur, Chartres, Bourges… Notre guide pour s'installer dans le Val de Loire UNESCO en 2025 : qualité de vie, prix, transports et meilleures villes.",
-    intro: "Le Val de Loire est classé Patrimoine Mondial de l'UNESCO depuis 2000 — l'un des plus grands sites inscrits au monde. Pourtant, ses villes restent parmi les plus abordables de France à moins d'1h30 de Paris. La région Centre-Val de Loire bénéficie d'un ensoleillement correct, d'une gastronomie reconnue, et d'un immobilier accessible qui attire de plus en plus les télétravailleur actifs et les familles.",
+    intro: "Le Val de Loire est classé Patrimoine Mondial de l'UNESCO depuis 2000, ce qui en fait l'un des plus grands sites inscrits au monde. Pourtant, ses villes restent parmi les plus abordables de France, à moins d'1h30 de Paris. La région Centre-Val de Loire bénéficie d'un ensoleillement correct, d'une gastronomie reconnue et d'un immobilier accessible qui attire de plus en plus les télétravailleurs actifs et les familles.",
     readMinutes: 8,
     publishedAt: "2026-04-30",
     updatedAt: "2026-01-21",
@@ -3212,7 +3212,7 @@ export const GUIDES: Guide[] = [
     category: "region",
     metaTitle: "Vivre dans les Pyrénées 2025 — guide villes de piémont | MeilleurVille",
     metaDesc: "Pau, Tarbes, Foix, Pamiers, Bayonne, Perpignan… Notre guide pour s'installer au pied des Pyrénées en 2025 : qualité de vie, montagne, prix, et meilleures villes du piémont.",
-    intro: "Les Pyrénées offrent un art de vivre unique que l'on ne retrouve nulle part ailleurs en France : montagne accessible, mer à 1h (Atlantique ou Méditerranée selon le versant), cuisine régionale d'exception (basque, gasconne, catalane), et des prix immobiliers parmi les plus bas de France. Ce guide couvre les meilleures villes de piémont pyrénéen pour s'installer en 2025.",
+    intro: "Les Pyrénées offrent un art de vivre unique que l'on ne retrouve nulle part ailleurs en France : montagne accessible, mer à 1h (Atlantique ou Méditerranée selon le versant), cuisine régionale d'exception (basque, gasconne, catalane) et des prix immobiliers parmi les plus bas de France. Ce guide couvre les meilleures villes de piémont pyrénéen pour s'installer en 2025.",
     readMinutes: 8,
     publishedAt: "2026-04-30",
     updatedAt: "2026-04-24",
@@ -3347,7 +3347,7 @@ export const GUIDES: Guide[] = [
     category: "region",
     metaTitle: "Vivre Morbihan Bretagne Sud 2025 — guide complet | MeilleurVille",
     metaDesc: "Vannes, Lorient, Auray, Quiberon, Belle-Île… Notre guide pour s'installer dans le Morbihan et la Bretagne Sud en 2025 : qualité de vie, golfe, prix et meilleures villes.",
-    intro: "Le Morbihan est le département breton le plus ensoleillé (1 900-2 100h/an, record pour la Bretagne) et le plus doux. Le Golfe du Morbihan — souvent surnommé « petite mer » — est l'un des sites naturels les plus extraordinaires de France avec ses dizaines d'îles. Vannes, Lorient et leurs environs attirent de plus en plus d'actifs et retraités cherchant la Bretagne sans le temps gris permanent.",
+    intro: "Le Morbihan est le département breton le plus ensoleillé (1 900-2 100h/an, record pour la Bretagne) et le plus doux. Le Golfe du Morbihan, souvent surnommé « petite mer », est l'un des sites naturels les plus extraordinaires de France avec ses dizaines d'îles. Vannes, Lorient et leurs environs attirent de plus en plus d'actifs et de retraités en quête de la Bretagne sans le temps gris permanent.",
     readMinutes: 8,
     publishedAt: "2026-04-30",
     updatedAt: "2026-02-19",
@@ -3487,7 +3487,7 @@ export const GUIDES: Guide[] = [
     publishedAt: "2025-04-15",
     updatedAt: "2026-02-26",
     intro:
-      "La Dordogne est l'une des destinations de qualité de vie les plus prisées de France, notamment auprès des retraités, des Britanniques expatriés et des familles cherchant la France profonde. Gastronomie (foie gras, truffes, noix), patrimoine (châteaux des Bories, Lascaux, Sarlat), nature (rivières Dordogne et Vézère), prix immobiliers encore accessibles : tout concourt à en faire l'une des régions les plus séduisantes de Nouvelle-Aquitaine.",
+      "La Dordogne est l'une des destinations de qualité de vie les plus prisées de France, notamment auprès des retraités, des Britanniques expatriés et des familles cherchant la France profonde. Gastronomie (foie gras, truffes, noix), patrimoine (châteaux des Bories, Lascaux, Sarlat), nature (rivières Dordogne et Vézère) et prix immobiliers encore accessibles : tout concourt à en faire l'une des régions les plus séduisantes de Nouvelle-Aquitaine.",
     sections: [
       {
         heading: "Périgueux : la capitale secrète avec tout le confort urbain",
@@ -3530,7 +3530,7 @@ export const GUIDES: Guide[] = [
     publishedAt: "2025-04-20",
     updatedAt: "2026-01-17",
     intro:
-      "L'Alsace est l'une des régions françaises les plus qualitatives pour s'installer : carrefour européen, gastronomie unique, architecture à colombages, vignobles, et une économie parmi les plus dynamiques de France grâce à la frontière germano-suisse. Mais Strasbourg, Colmar et Mulhouse offrent des profils radicalement différents. Ce guide vous aide à faire le bon choix.",
+      "L'Alsace est l'une des régions françaises les plus qualitatives pour s'installer : carrefour européen, gastronomie unique, architecture à colombages, vignobles et une économie parmi les plus dynamiques de France grâce à la frontière germano-suisse. Mais Strasbourg, Colmar et Mulhouse offrent des profils radicalement différents. Ce guide vous aide à faire le bon choix.",
     sections: [
       {
         heading: "Strasbourg : la métropole européenne, cosmopolite et étudiante",
@@ -3612,19 +3612,19 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Boulogne-sur-Mer : la première ville halieutique de France",
-        body: "Boulogne-sur-Mer et ses 55 000 habitants (score MeilleurVille 6,8/10) restent la capitale de la pêche française. Port de pêche, port transmanche, centre historique médiéval sur la haute-ville et Nausicaá, le plus grand aquarium d'Europe. Économie diversifiée entre pêche, agroalimentaire et tourisme. Loyer T2 à 560 €, prix d'achat entre 1 500 et 2 200 €/m². Liaison directe avec Lille en 1h de TER et Paris en 2h30. Idéal pour les familles qui cherchent la mer à prix accessible.",
+        body: "Boulogne-sur-Mer et ses 55 000 habitants (score MeilleurVille 6,8/10) restent la capitale de la pêche française. C'est à la fois un port de pêche, un port transmanche, un centre historique médiéval perché sur la haute-ville et le site de Nausicaá, le plus grand aquarium d'Europe. L'économie y est diversifiée entre pêche, agroalimentaire et tourisme. Comptez 560 € pour un loyer T2 et un prix d'achat entre 1 500 et 2 200 €/m². La liaison avec Lille prend 1h de TER, et Paris est à 2h30. Idéal pour les familles qui cherchent la mer à prix accessible.",
       },
       {
         heading: "Calais : le carrefour européen en pleine transformation",
-        body: "Calais et ses 75 000 habitants (score 6,5/10) souffrent d'une image négative liée à la crise migratoire, mais la ville se transforme. Loyers parmi les plus bas de la côte (T2 à 500 €), liaison Eurostar Londres en 35 minutes depuis la gare de Fréthun, zone industrielle dynamique entre logistique et chimie. Prix d'achat entre 1 200 et 1 800 €/m². La ville s'est engagée dans une rénovation urbaine ambitieuse. Pour les transfrontaliers franco-britanniques ou les budgets ultra-serrés.",
+        body: "Calais et ses 75 000 habitants (score 6,5/10) souffrent d'une image négative liée à la crise migratoire, mais la ville se transforme. Les loyers comptent parmi les plus bas de la côte (T2 à 500 €), la liaison Eurostar rejoint Londres en 35 minutes depuis la gare de Fréthun, et la zone industrielle reste dynamique entre logistique et chimie. Les prix d'achat s'établissent entre 1 200 et 1 800 €/m². La ville s'est engagée dans une rénovation urbaine ambitieuse. Une bonne option pour les transfrontaliers franco-britanniques ou les budgets ultra-serrés.",
       },
       {
         heading: "Le Touquet-Paris-Plage : la station de luxe accessible",
-        body: "Le Touquet est l'exception du trio : station balnéaire huppée créée au XIXe siècle par des Anglais, avec ses villas dans les pins, son casino et sa réputation de week-end parisien par excellence. Aéroport avec liaisons UK. Immobilier cher en bord de mer entre 3 500 et 6 000 €/m², mais les quartiers résidentiels restent abordables entre 2 000 et 3 000 €/m². Pour les télétravailleurs aisés qui cherchent la Côte d'Opale haut de gamme.",
+        body: "Le Touquet est l'exception du trio : station balnéaire huppée créée au XIXe siècle par des Anglais, avec ses villas dans les pins, son casino et sa réputation de week-end parisien par excellence. L'aéroport propose des liaisons vers le Royaume-Uni. L'immobilier y est cher en bord de mer, entre 3 500 et 6 000 €/m², mais les quartiers résidentiels restent abordables entre 2 000 et 3 000 €/m². Pour les télétravailleurs aisés qui cherchent la Côte d'Opale haut de gamme.",
       },
       {
         heading: "Conclusion : pourquoi la Côte d'Opale mérite plus d'attention",
-        body: "La Côte d'Opale souffre d'un déficit d'image injuste. Ses atouts sont pourtant réels : le littoral le plus spectaculaire du nord de la France, des prix immobiliers 50 à 70 % inférieurs à la Normandie ou la Bretagne, une connexion directe aux marchés anglais et belge, et une gastronomie marine authentique. La faiblesse, c'est un tissu économique fragile dans certaines zones et un hiver long et venteux. Pour qui veut la mer à prix bas avec une connexion européenne directe, c'est imbattable.",
+        body: "La Côte d'Opale souffre d'un déficit d'image injuste, car ses atouts sont pourtant bien réels : le littoral le plus spectaculaire du nord de la France, des prix immobiliers 50 à 70 % inférieurs à la Normandie ou la Bretagne, une connexion directe aux marchés anglais et belge, et une gastronomie marine authentique. La faiblesse tient à un tissu économique fragile dans certaines zones et à un hiver long et venteux. Mais pour qui veut la mer à prix bas avec une connexion européenne directe, c'est imbattable.",
       },
     ],
     relatedCities: ["boulogne-sur-mer", "calais", "dunkerque", "arras", "lille"],
@@ -3655,15 +3655,15 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "La Rochelle : la ville lumière de l'Atlantique",
-        body: "La Rochelle (score MeilleurVille : 8.1/10) est la star des Charentes et l'une des villes françaises les plus dynamiques. Qualité de vie exceptionnelle : vélo omniprésent (1er réseau vélo de France hors Paris), 2 300h de soleil, port historique des Francs, Aquarium, Vieux Port magnifique. Loyer T2 : 820€, achat : 3 500-4 500€/m². TGV Paris en 3h. Tissu économique diversifié (maritime, tourisme, enseignement supérieur, agroalimentaire). Idéale pour tous les profils.",
+        body: "La Rochelle (score MeilleurVille : 8.1/10) est la star des Charentes et l'une des villes françaises les plus dynamiques. La qualité de vie y est exceptionnelle : le vélo est omniprésent (1er réseau vélo de France hors Paris), on compte 2 300h de soleil, et le port historique des Francs, l'Aquarium et le magnifique Vieux Port complètent le tableau. Le loyer T2 tourne autour de 820 € et l'achat entre 3 500 et 4 500 €/m². Paris est à 3h en TGV. Le tissu économique reste diversifié (maritime, tourisme, enseignement supérieur, agroalimentaire). Idéale pour tous les profils.",
       },
       {
         heading: "Saintes : la cité romaine authentique le long de la Charente",
-        body: "Saintes (score MeilleurVille : 6.9/10) est la capitale historique des Saintonge, avec son amphithéâtre romain, son arc de Germanicus, ses abbayes médiévales et ses quais de Charente. Ville tranquille de 25 000 habitants, marché animé, bonnes écoles, hôpital. Loyer T2 : 600€, achat : 1 800-2 500€/m². TGV via Bordeaux ou La Rochelle. Idéale pour les retraités, les familles télétravailleuses et les couples cherchant la France douce sans la pression touristique.",
+        body: "Saintes (score MeilleurVille : 6.9/10) est la capitale historique de la Saintonge, avec son amphithéâtre romain, son arc de Germanicus, ses abbayes médiévales et ses quais de Charente. C'est une ville tranquille de 25 000 habitants, dotée d'un marché animé, de bonnes écoles et d'un hôpital. Le loyer T2 s'établit autour de 600 € et l'achat entre 1 800 et 2 500 €/m², avec un TGV accessible via Bordeaux ou La Rochelle. Idéale pour les retraités, les familles télétravailleuses et les couples qui cherchent la France douce sans la pression touristique.",
       },
       {
         heading: "Cognac : le prestige mondial dans une ville à taille humaine",
-        body: "Cognac (score MeilleurVille : 6.8/10) est une ville de 19 000 habitants connue dans le monde entier pour son eau-de-vie. Châis Hennessy, Rémy Martin, Martell — l'économie locale est directement liée au cognac (2,5 milliards d'export/an). La ville bénéficie de prix immobiliers très bas (1 500-2 000€/m²) et d'un cadre de vie authentique le long de la Charente. Liaison ferroviaire avec Saintes (30 min) et Angoulême (30 min). Pour les amateurs de viticulture et de vie tranquille.",
+        body: "Cognac (score MeilleurVille : 6.8/10) est une ville de 19 000 habitants connue dans le monde entier pour son eau-de-vie. Avec les chais Hennessy, Rémy Martin et Martell, l'économie locale est directement liée au cognac (2,5 milliards d'export par an). La ville bénéficie de prix immobiliers très bas (1 500 à 2 000 €/m²) et d'un cadre de vie authentique le long de la Charente. Une liaison ferroviaire relie Saintes (30 min) et Angoulême (30 min). Pour les amateurs de viticulture et de vie tranquille.",
       },
     ],
     relatedCities: ["angouleme", "la-rochelle", "saintes", "cognac", "royan"],
@@ -3776,7 +3776,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Morlaix : l'authenticité bretonne à prix doux",
-        body: "Morlaix (score 7,1/10) est la grande surprise de ce guide. Marché couvert animé, viaduc ferroviaire mythique, maisons à lanterne du XVe siècle : c'est une vraie ville bretonne hors des sentiers touristiques. Loyer T2 à 530 €, achat entre 1 400 et 1 900 €/m². TER vers Brest en 35 minutes et Paris via Rennes en 3h30. La meilleure option budget de Bretagne Nord.",
+        body: "Morlaix (score 7,1/10) est la grande surprise de ce guide. Avec son marché couvert animé, son viaduc ferroviaire mythique et ses maisons à lanterne du XVe siècle, c'est une vraie ville bretonne hors des sentiers touristiques. Comptez 530 € pour un loyer T2 et un achat entre 1 400 et 1 900 €/m². Le TER rejoint Brest en 35 minutes, et Paris via Rennes en 3h30. La meilleure option budget de Bretagne Nord.",
       },
       {
         heading: "Brest : la métropole bretonne dynamique et étudiante",
@@ -3846,19 +3846,19 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Obernai : le meilleur équilibre entre authenticité et commodités",
-        body: "Obernai (score MeilleurVille : 8.2/10) est la perle de la Route des Vins. À 30 min de Strasbourg par TER ou voiture, elle propose tous les services d'une vraie ville (11 500 habitants, lycée, hôpital, commerces) dans un cadre médiéval magnifique. Remparts intacts, place du Marché légendaire, vignobles Grand Cru Zotzenberg. Achat : 2 500-3 500€/m². Le meilleur choix pour les actifs travaillant à Strasbourg.",
+        body: "Obernai (score MeilleurVille : 8.2/10) est la perle de la Route des Vins. À 30 min de Strasbourg par TER ou en voiture, elle propose tous les services d'une vraie ville (11 500 habitants, lycée, hôpital, commerces) dans un cadre médiéval magnifique. Les remparts y sont intacts, la place du Marché est légendaire et les vignobles portent le Grand Cru Zotzenberg. L'achat se situe entre 2 500 et 3 500 €/m². C'est le meilleur choix pour les actifs qui travaillent à Strasbourg.",
       },
       {
         heading: "Ribeauvillé et Riquewihr : les joyaux touristiques pour télétravailleurs",
-        body: "Ribeauvillé (7 000 hab.) et Riquewihr (1 200 hab.) sont classés parmi les plus beaux villages de France. Trop touristiques pour certains, ils offrent pourtant une qualité de vie authentiquement alsacienne hors saison. Riquewihr surtout est petit (on y connaît tout le monde) — idéal pour les écrivains et télétravailleurs cherchant l'immersion totale. Prix en hausse (3 000-5 000€/m²), mais le décor est incomparable.",
+        body: "Ribeauvillé (7 000 hab.) et Riquewihr (1 200 hab.) sont classés parmi les plus beaux villages de France. Trop touristiques pour certains, ils offrent pourtant une qualité de vie authentiquement alsacienne hors saison. Riquewihr surtout est petit, on y connaît tout le monde, ce qui en fait un cadre idéal pour les écrivains et télétravailleurs en quête d'immersion totale. Les prix sont en hausse (3 000 à 5 000 €/m²), mais le décor est incomparable.",
       },
       {
         heading: "Kaysersberg : ville préférée des Français, un classement mérité",
-        body: "Kaysersberg a été élue Ville Préférée des Français en 2017. La maison natale d'Albert Schweitzer, la rivière Weiss traversant le village, les maisons à colombages colorées — c'est un ensemble cohérent d'une rare beauté. 3 000 habitants, petite épicerie, restaurant étoilé (Arnaud Lallement). Achat : 3 500-5 500€/m². Pour les retraités très aisés et les télétravailleurs cherchant le sommet de l'authenticité alsacienne.",
+        body: "Kaysersberg a été élue Ville Préférée des Français en 2017. La maison natale d'Albert Schweitzer, la rivière Weiss qui traverse le village, les maisons à colombages colorées : c'est un ensemble cohérent d'une rare beauté. On y trouve 3 000 habitants, une petite épicerie et un restaurant étoilé (Arnaud Lallement). L'achat se situe entre 3 500 et 5 500 €/m². Pour les retraités très aisés et les télétravailleurs qui cherchent le sommet de l'authenticité alsacienne.",
       },
       {
         heading: "Investir dans un gîte alsacien : une opportunité réelle",
-        body: "La Route des Vins attire 8 millions de visiteurs par an. Un gîte dans un village alsacien se loue 150-250€/nuit en haute saison et génère 25 000-40 000€ de revenus locatifs annuels. Le marché est tendu mais des opportunités existent dans les villages légèrement hors axe touristique (Dambach-la-Ville, Andlau, Barr). Pour les retraités qui veulent compléter leur pension tout en s'impliquant dans l'accueil touristique.",
+        body: "La Route des Vins attire 8 millions de visiteurs par an. Un gîte dans un village alsacien se loue 150 à 250 € la nuit en haute saison et génère 25 000 à 40 000 € de revenus locatifs annuels. Le marché est tendu, mais des opportunités existent dans les villages légèrement hors axe touristique (Dambach-la-Ville, Andlau, Barr). Pour les retraités qui veulent compléter leur pension tout en s'impliquant dans l'accueil touristique.",
       },
     ],
     relatedCities: ["obernai", "colmar", "strasbourg", "mulhouse"],
@@ -3924,23 +3924,23 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Franche-Comté : la grande oubliée de l'exode urbain",
-        body: "La Franche-Comté (fusionnée avec la Bourgogne) est paradoxalement l'une des régions les plus attractives pour la qualité de vie — et les moins surmédiatisées. Forêts du Jura, cascades du Hérisson, lacs de Chalain et de Vouglans, gastronomie (Comté, Morbier, vins jaunes), et une frontière avec la Suisse qui ouvre le marché de l'emploi helvétique. Prix immobiliers : parmi les plus bas de France métropolitaine.",
+        body: "La Franche-Comté (fusionnée avec la Bourgogne) est paradoxalement l'une des régions les plus attractives pour la qualité de vie, et l'une des moins surmédiatisées. On y trouve les forêts du Jura, les cascades du Hérisson, les lacs de Chalain et de Vouglans, une vraie gastronomie (Comté, Morbier, vins jaunes), et une frontière avec la Suisse qui ouvre le marché de l'emploi helvétique. Les prix immobiliers comptent parmi les plus bas de France métropolitaine.",
       },
       {
         heading: "Besançon : la capitale horlogère et étudiante",
-        body: "Besançon (115 000 hab.) est classée régulièrement parmi les villes les plus agréables de France. Construite dans un méandre du Doubs, dominée par la Citadelle Vauban (UNESCO), elle est verte (50% d'espaces naturels), étudiante (28 000 étudiants) et innovante. TGV direct Paris en 2h20. Prix au m² : 2 200-3 200€ en centre, 1 800-2 600€ en périphérie. Loyers T2 : 550-750€. Un excellent rapport qualité/prix.",
+        body: "Besançon (115 000 hab.) est classée régulièrement parmi les villes les plus agréables de France. Construite dans un méandre du Doubs et dominée par la Citadelle Vauban (UNESCO), elle est verte (50 % d'espaces naturels), étudiante (28 000 étudiants) et innovante. Le TGV rejoint Paris en 2h20. Le prix au m² va de 2 200 à 3 200 € en centre et de 1 800 à 2 600 € en périphérie, avec des loyers T2 entre 550 et 750 €. Un excellent rapport qualité/prix.",
       },
       {
         heading: "Pontarlier : la ville des amoureux du Jura et de la Suisse",
-        body: "Pontarlier (18 000 hab.) est la capitale de l'absinthe et la porte du Jura à 837m d'altitude. Hiver enneigé (150 cm), étés frais, ski de fond au départ de la ville, forêts de sapins. À 15 km de la frontière suisse — les frontaliers représentent 20% de la population active. Prix très accessibles (2 000-2 800€/m²) pour cette qualité de cadre. Pour les familles actives et les frontaliers suisses.",
+        body: "Pontarlier (18 000 hab.) est la capitale de l'absinthe et la porte du Jura, à 837m d'altitude. L'hiver y est enneigé (150 cm), les étés frais, le ski de fond part de la ville et les forêts de sapins sont partout. À 15 km de la frontière suisse, les frontaliers représentent 20 % de la population active. Les prix restent très accessibles (2 000 à 2 800 €/m²) pour cette qualité de cadre. Pour les familles actives et les frontaliers suisses.",
       },
       {
         heading: "Dole et Lons-le-Saunier : les villes méconnues du Jura",
-        body: "Dole (23 000 hab.), ville natale de Pasteur, est une belle cité comtoise sur le canal du Rhône au Rhin, accessible et peu chère (1 600-2 200€/m²). Lons-le-Saunier, préfecture du Jura, offre des thermes, un vignoble réputé (Château-Chalon, Arbois) et des paysages de reculées spectaculaires. Deux villes idéales pour les retraités cherchant la France profonde et authentique à budget modeste.",
+        body: "Dole (23 000 hab.), ville natale de Pasteur, est une belle cité comtoise sur le canal du Rhône au Rhin, accessible et peu chère (1 600 à 2 200 €/m²). Lons-le-Saunier, préfecture du Jura, offre des thermes, un vignoble réputé (Château-Chalon, Arbois) et des paysages de reculées spectaculaires. Deux villes idéales pour les retraités qui cherchent la France profonde et authentique à budget modeste.",
       },
       {
         heading: "L'effet Suisse : un marché de l'emploi exceptionnel",
-        body: "Plus de 40 000 frontaliers de Franche-Comté travaillent en Suisse (Neuchâtel, Berne, Genève accessibles). Les salaires suisses (3 à 4 fois supérieurs aux salaires français pour les profils qualifiés) permettent d'acheter à bas prix en France tout en accumulant une épargne conséquente. Pontarlier, Morteau, Maîche, Montbéliard sont les principales zones de départ. Ce modèle attire de plus en plus de jeunes actifs qui quittent Paris.",
+        body: "Plus de 40 000 frontaliers de Franche-Comté travaillent en Suisse (Neuchâtel, Berne et Genève sont accessibles). Les salaires suisses, 3 à 4 fois supérieurs aux salaires français pour les profils qualifiés, permettent d'acheter à bas prix en France tout en accumulant une épargne conséquente. Pontarlier, Morteau, Maîche et Montbéliard sont les principales zones de départ. Ce modèle attire de plus en plus de jeunes actifs qui quittent Paris.",
       },
     ],
     relatedCities: ["besancon", "pontarlier", "belfort", "dole"],
@@ -3965,23 +3965,23 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Le Limousin, eldorado des télétravailleurs",
-        body: "Depuis 2020, la Corrèze et la Haute-Vienne connaissent un afflux de télétravailleurs parisiens et lyonnais attirés par des prix immobiliers parmi les plus bas de France, entre 800 et 1 600 €/m², et par une qualité environnementale exceptionnelle. Forêts, rivières, lacs, air pur, zéro pollution, et une fibre déployée à 95 % du territoire. Les maisons de caractère avec jardin se trouvent pour 80 000 à 150 000 €.",
+        body: "Depuis 2020, la Corrèze et la Haute-Vienne connaissent un afflux de télétravailleurs parisiens et lyonnais, attirés par des prix immobiliers parmi les plus bas de France, entre 800 et 1 600 €/m², et par une qualité environnementale exceptionnelle. Forêts, rivières, lacs, air pur, zéro pollution, et une fibre déployée à 95 % du territoire. Les maisons de caractère avec jardin se trouvent pour 80 000 à 150 000 €.",
       },
       {
         heading: "Brive-la-Gaillarde : la porte d'entrée la plus accessible",
-        body: "Brive et ses 46 000 habitants forment la ville la plus dynamique du Limousin avec un pôle TGV (Paris en 3h30, Bordeaux en 1h), un aéroport, des zones d'activités et une vie culturelle active. Centre-ville animé, marché du samedi légendaire, rugby en Top 14. Prix au m² entre 1 400 et 2 200 €. Loyers T2 entre 480 et 650 €. Pour les actifs qui veulent la « vraie vie de province » sans sacrifier les services d'une ville moyenne bien équipée.",
+        body: "Brive et ses 46 000 habitants forment la ville la plus dynamique du Limousin, avec un pôle TGV (Paris en 3h30, Bordeaux en 1h), un aéroport, des zones d'activités et une vie culturelle active. Le centre-ville est animé, le marché du samedi légendaire et le rugby joue en Top 14. Le prix au m² va de 1 400 à 2 200 €, et les loyers T2 de 480 à 650 €. Pour les actifs qui veulent la « vraie vie de province » sans sacrifier les services d'une ville moyenne bien équipée.",
       },
       {
         heading: "Tulle : la capitale de l'accordéon et des cascades",
-        body: "Tulle et ses 15 000 habitants forment la préfecture de la Corrèze, dans un site géographique saisissant : une vallée encaissée bordée de maisons à encorbellement. Festival accordéon mondialement connu, cathédrale gothique, accès aux gorges de la Truyère et de la Dordogne. Prix immobiliers plancher entre 800 et 1 500 €/m². Loyers T2 entre 400 et 550 €. Pour les retraités et artistes qui cherchent l'authenticité corrézienne la plus brute.",
+        body: "Tulle et ses 15 000 habitants forment la préfecture de la Corrèze, dans un site géographique saisissant : une vallée encaissée bordée de maisons à encorbellement. On y trouve un festival d'accordéon mondialement connu, une cathédrale gothique et un accès aux gorges de la Truyère et de la Dordogne. Les prix immobiliers touchent le plancher, entre 800 et 1 500 €/m², avec des loyers T2 de 400 à 550 €. Pour les retraités et artistes qui cherchent l'authenticité corrézienne la plus brute.",
       },
       {
         heading: "Limoges : réhabilitation d'une capitale porcelainière",
-        body: "Limoges et ses 130 000 habitants souffrent d'une image un peu désuète, mais la ville s'est considérablement améliorée : tramway moderne, centre-ville rénové, gastronomie reconnue, musée des Beaux-Arts exceptionnel. TGV Paris en 2h10. Prix au m² très bas, entre 1 400 et 2 200 €. Grande ville avec toutes les commodités à prix de petite ville. Pour les familles qui veulent les services d'une grande ville avec les prix d'une ville moyenne.",
+        body: "Limoges et ses 130 000 habitants souffrent d'une image un peu désuète, mais la ville s'est considérablement améliorée : tramway moderne, centre-ville rénové, gastronomie reconnue et musée des Beaux-Arts exceptionnel. Le TGV rejoint Paris en 2h10. Le prix au m² reste très bas, entre 1 400 et 2 200 €. C'est une grande ville avec toutes les commodités à prix de petite ville. Pour les familles qui veulent les services d'une grande ville avec les prix d'une ville moyenne.",
       },
       {
         heading: "Maisons de caractère : le marché qu'il faut saisir",
-        body: "Le Limousin offre les meilleurs prix de France pour les maisons de caractère en pierre. Une ferme rénovée avec 3 hectares de terrain coûte entre 180 000 et 280 000 €, là où le même bien vaudrait 800 000 € en Dordogne ou 1,2 million d'euros en Provence. La fibre est déployée, les artisans locaux sont compétents et moins chers qu'ailleurs. Le marché reste accessible en 2025, mais les flux de télétravailleurs font grimper les prix de 15 % depuis 2020. Ne pas trop attendre.",
+        body: "Le Limousin offre les meilleurs prix de France pour les maisons de caractère en pierre. Une ferme rénovée avec 3 hectares de terrain coûte entre 180 000 et 280 000 €, là où le même bien vaudrait 800 000 € en Dordogne ou 1,2 million d'euros en Provence. La fibre est déployée, et les artisans locaux sont compétents et moins chers qu'ailleurs. Le marché reste accessible en 2025, mais les flux de télétravailleurs font grimper les prix de 15 % depuis 2020. Mieux vaut ne pas trop attendre.",
       },
     ],
     relatedCities: ["limoges", "brive-la-gaillarde", "tulle"],
@@ -4043,27 +4043,27 @@ export const GUIDES: Guide[] = [
     readMinutes: 8,
     publishedAt: "2025-05-02",
     updatedAt: "2026-02-14",
-    intro: "Gap, Sisteron, Digne, Manosque : les Alpes du Sud combinent soleil provençal, nature alpine et prix accessibles. Le secret le mieux gardé de la PACA.",
+    intro: "Gap, Sisteron, Digne, Manosque : les Alpes du Sud combinent soleil provençal, nature alpine et prix accessibles. C'est le secret le mieux gardé de la PACA.",
     sections: [
       {
         heading: "Les Alpes du Sud : Provence + montagne sans le prix de la Côte d'Azur",
-        body: "Les Alpes-de-Haute-Provence (04) et les Hautes-Alpes (05) forment un territoire unique : 2 700-3 000 heures d'ensoleillement par an (autant que la Côte d'Azur), nature alpine grandiose, lavande à perte de vue, rivières cristallines — et des prix immobiliers 3 à 5 fois inférieurs à Nice ou Cannes. Une région qui séduit les télétravailleurs et retraités depuis quelques années, sans avoir encore déclenché la bulle spéculative du littoral.",
+        body: "Les Alpes-de-Haute-Provence (04) et les Hautes-Alpes (05) forment un territoire unique : 2 700 à 3 000 heures d'ensoleillement par an (autant que la Côte d'Azur), une nature alpine grandiose, de la lavande à perte de vue, des rivières cristallines, et des prix immobiliers 3 à 5 fois inférieurs à Nice ou Cannes. Une région qui séduit les télétravailleurs et retraités depuis quelques années, sans avoir encore déclenché la bulle spéculative du littoral.",
       },
       {
         heading: "Gap : la capitale alpine la plus ensoleillée de France",
-        body: "Gap (40 000 hab.) est la plus haute préfecture de France (735m) et l'une des villes les plus ensoleillées (3 000h/an). Préfecture des Hautes-Alpes avec tous les services, accès aux domaines skiables de Vars, Risoul, Orciières en moins d'une heure. Prix au m² : 1 800-2 600€. Loyers T2 : 490-660€. Pour les familles cherchant la montagne, le soleil et l'espace à un coût très maîtrisé.",
+        body: "Gap (40 000 hab.) est la plus haute préfecture de France (735m) et l'une des villes les plus ensoleillées (3 000h/an). Préfecture des Hautes-Alpes dotée de tous les services, elle donne accès aux domaines skiables de Vars, Risoul et Orciières en moins d'une heure. Le prix au m² va de 1 800 à 2 600 €, les loyers T2 de 490 à 660 €. Pour les familles qui cherchent la montagne, le soleil et l'espace à un coût très maîtrisé.",
       },
       {
         heading: "Sisteron : entre Provence et Alpes, la porte naturelle",
-        body: "Sisteron (7 500 hab.) marque la frontière géologique entre Provence et Alpes, avec sa citadelle perchée sur un rocher face aux marmites de géants de la Durance. Été très chaud (32°C), hiver doux (5°C). À 1h de Gap au nord, 1h de Digne au sud. Prix très bas (1 500-2 100€/m²). Village animé avec marché, commerces et un festival estival réputé. Pour les amateurs de cadre médiéval et de Haute-Provence authentique.",
+        body: "Sisteron (7 500 hab.) marque la frontière géologique entre Provence et Alpes, avec sa citadelle perchée sur un rocher face aux marmites de géants de la Durance. L'été y est très chaud (32°C), l'hiver doux (5°C). La ville est à 1h de Gap au nord et 1h de Digne au sud. Les prix sont très bas (1 500 à 2 100 €/m²). C'est un village animé, avec marché, commerces et un festival estival réputé. Pour les amateurs de cadre médiéval et de Haute-Provence authentique.",
       },
       {
         heading: "Manosque et la vallée de la Durance : industrie et nature",
-        body: "Manosque (22 000 hab.) est la plus grande ville des Alpes-de-Haute-Provence, connue pour le site nucléaire de Cadarache (CEA, ITER) qui emploie des milliers d'ingénieurs. Ville de Jean Giono, au cœur du pays de Forcalquier et du Parc du Luberon. Prix intermédiaires (2 200-3 000€/m²). Pour les ingénieurs et techniciens du secteur nucléaire qui veulent la Provence à prix raisonnable.",
+        body: "Manosque (22 000 hab.) est la plus grande ville des Alpes-de-Haute-Provence, connue pour le site nucléaire de Cadarache (CEA, ITER) qui emploie des milliers d'ingénieurs. C'est la ville de Jean Giono, au cœur du pays de Forcalquier et du Parc du Luberon. Les prix y sont intermédiaires (2 200 à 3 000 €/m²). Pour les ingénieurs et techniciens du secteur nucléaire qui veulent la Provence à prix raisonnable.",
       },
       {
         heading: "Digne-les-Bains : la lavande, les thermes et le géoparc",
-        body: "Digne-les-Bains (17 000 hab.) est la capitale mondiale de la lavande, classée Géoparc UNESCO et station thermale réputée. Le Train des Pignes vers Nice (3h) reste une ligne emblématique. Prix plancher : 1 400-1 900€/m². Idéale pour les retraités qui veulent se soigner au thermal, randonneurs, et télétravailleurs cherchant la Provence sauvage sans la foule de la Côte d'Azur.",
+        body: "Digne-les-Bains (17 000 hab.) est la capitale mondiale de la lavande, classée Géoparc UNESCO et station thermale réputée. Le Train des Pignes vers Nice (3h) reste une ligne emblématique. Les prix touchent le plancher : 1 400 à 1 900 €/m². Idéale pour les retraités qui veulent se soigner au thermal, les randonneurs et les télétravailleurs en quête de la Provence sauvage sans la foule de la Côte d'Azur.",
       },
     ],
     relatedCities: ["gap", "sisteron", "digne-les-bains", "manosque", "briancon"],
@@ -4084,27 +4084,27 @@ export const GUIDES: Guide[] = [
     readMinutes: 9,
     publishedAt: "2025-04-22",
     updatedAt: "2026-04-24",
-    intro: "Périgueux, Sarlat, Bergerac, Cahors, Figeac : la Dordogne et le Quercy forment le cœur gastronomique et culturel du Sud-Ouest. Foie gras, truffes, vins de Cahors, bastides médiévales — et des prix encore accessibles.",
+    intro: "Périgueux, Sarlat, Bergerac, Cahors et Figeac : la Dordogne et le Quercy forment le cœur gastronomique et culturel du Sud-Ouest. On y trouve le foie gras, les truffes, les vins de Cahors et les bastides médiévales, le tout à des prix encore accessibles.",
     sections: [
       {
         heading: "Périgueux : la capitale historique et commerçante",
-        body: "Périgueux (30 000 hab.) est la préfecture de la Dordogne, avec sa cathédrale byzantine Saint-Front (UNESCO) et son quartier médiéval animé. Marché de Noël du foie gras et truffe mondialement connu. Bonne accessibilité (TGV indirect Paris en 3h30). Prix au m² : 1 600-2 400€. Pour les actifs et retraités qui veulent une ville préfecture avec services complets et l'art de vivre périgourdin.",
+        body: "Périgueux (30 000 hab.) est la préfecture de la Dordogne, avec sa cathédrale byzantine Saint-Front (UNESCO) et son quartier médiéval animé. Son marché de Noël du foie gras et de la truffe est mondialement connu. L'accessibilité est bonne, avec un TGV indirect qui relie Paris en 3h30. Comptez 1 600 à 2 400€ le m². La ville s'adresse aux actifs et aux retraités qui veulent une préfecture aux services complets, doublée de l'art de vivre périgourdin.",
       },
       {
         heading: "Sarlat : la plus belle ville médiévale de Dordogne",
-        body: "Sarlat-la-Canéda est un bijou médiéval de 9 500 habitants avec 70 monuments classés dans un périmètre de 1 km². Marchés du foie gras, noix, truffes. Très prisée des Britanniques et Néerlandais (depuis les années 1980). Prix en hausse (2 500-4 000€/m²) mais toujours inférieurs à la Provence. Pour les retraités aisés qui veulent l'authenticité périgourdine absolue.",
+        body: "Sarlat-la-Canéda est un bijou médiéval de 9 500 habitants qui concentre 70 monuments classés dans un périmètre de 1 km². On y croise les marchés du foie gras, de la noix et de la truffe. La ville est très prisée des Britanniques et des Néerlandais depuis les années 1980. Les prix sont en hausse (2 500 à 4 000€/m²) mais restent inférieurs à ceux de la Provence. Elle vise les retraités aisés qui recherchent l'authenticité périgourdine absolue.",
       },
       {
         heading: "Bergerac : vins, Cyrano et accessibilité",
-        body: "Bergerac (26 000 hab.) est la capitale des vins de Bergerac et le pays de Cyrano de Bergerac. Son aéroport international (vols directs Londres, Dublin) en fait l'entrée de la Dordogne la plus accessible depuis l'étranger. Prix modérés (1 500-2 300€/m²). Ville agréable avec quais animés sur la Dordogne. Pour les couples franco-étrangers et les retraités britanniques emblématiques du Périgord.",
+        body: "Bergerac (26 000 hab.) est la capitale des vins de Bergerac et le pays de Cyrano de Bergerac. Son aéroport international, avec des vols directs vers Londres et Dublin, en fait l'entrée de la Dordogne la plus accessible depuis l'étranger. Les prix restent modérés (1 500 à 2 300€/m²). C'est une ville agréable, avec des quais animés sur la Dordogne. Elle convient aux couples franco-étrangers et aux retraités britanniques, emblématiques du Périgord.",
       },
       {
         heading: "Cahors et le Quercy : vins noirs et falaises",
-        body: "Cahors (20 000 hab.) est la préfecture du Lot, dominée par son pont Valentré médiéval (UNESCO) et entourée de coteaux de Malbec (Cahors AOC). Le Quercy, entre Lot et Dordogne, offre les paysages les plus dramatiques du Sud-Ouest : falaises blanches, causses, rivières. Prix très bas (1 400-2 000€/m²). Pour les amateurs de vin rouge et de paysages calcaires à prix accessibles.",
+        body: "Cahors (20 000 hab.) est la préfecture du Lot, dominée par son pont Valentré médiéval (UNESCO) et entourée de coteaux de Malbec (Cahors AOC). Le Quercy, entre Lot et Dordogne, offre les paysages les plus dramatiques du Sud-Ouest : falaises blanches, causses et rivières. Les prix y sont très bas (1 400 à 2 000€/m²). De quoi séduire les amateurs de vin rouge et de paysages calcaires à prix accessibles.",
       },
       {
         heading: "Figeac : la cité de Champollion, trésor méconnu",
-        body: "Figeac (10 000 hab.) est la ville natale de Jean-François Champollion (déchiffreur des hiéroglyphes égyptiens). Architecture médiévale intacte, musée Champollion de réputation mondiale, Chemin de Saint-Jacques. Hors des circuits touristiques de Sarlat. Prix plancher (1 200-1 700€/m²). Pour les passionnés d'histoire et de culture qui veulent le Quercy authentique à prix modeste.",
+        body: "Figeac (10 000 hab.) est la ville natale de Jean-François Champollion, le déchiffreur des hiéroglyphes égyptiens. Son architecture médiévale est intacte, son musée Champollion de réputation mondiale, et le Chemin de Saint-Jacques y passe. Elle reste hors des circuits touristiques de Sarlat, avec des prix plancher (1 200 à 1 700€/m²). Elle parlera aux passionnés d'histoire et de culture qui veulent le Quercy authentique à prix modeste.",
       },
     ],
     relatedCities: ["perigueux", "bergerac", "cahors", "figeac"],
@@ -4125,27 +4125,27 @@ export const GUIDES: Guide[] = [
     readMinutes: 8,
     publishedAt: "2025-05-08",
     updatedAt: "2026-02-14",
-    intro: "La Vendée est l'une des régions françaises les plus dynamiques : soleil atlantique, plages, bocage verdoyant, dynamisme économique. La Roche-sur-Yon, Les Sables-d'Olonne, Challans, Fontenay-le-Comte — des villes pour tous les profils.",
+    intro: "La Vendée est l'une des régions françaises les plus dynamiques : soleil atlantique, plages, bocage verdoyant et dynamisme économique. La Roche-sur-Yon, Les Sables-d'Olonne, Challans, Fontenay-le-Comte : il y a des villes pour tous les profils.",
     sections: [
       {
         heading: "La Vendée en 2025 : la région surprise de l'exode urbain",
-        body: "La Vendée est devenue l'une des régions les plus attractives depuis 2020 : 2 100h d'ensoleillement (autant que Bordeaux), économie dynamique (3e département français pour la croissance de l'emploi), tourisme de classe mondiale (Puy-du-Fou), et immobilier encore accessible. Le département attire massivement les Parisiens, Lyonnais et Bordelais en quête d'espace et de mer.",
+        body: "La Vendée est devenue l'une des régions les plus attractives depuis 2020, et les raisons s'accumulent : 2 100h d'ensoleillement (autant que Bordeaux), une économie dynamique (3e département français pour la croissance de l'emploi), un tourisme de classe mondiale (Puy-du-Fou) et un immobilier encore accessible. Le département attire massivement les Parisiens, les Lyonnais et les Bordelais en quête d'espace et de mer.",
       },
       {
         heading: "La Roche-sur-Yon : la préfecture moderne et ambitieuse",
-        body: "La Roche-sur-Yon (57 000 hab.) est une ville préfecture napoléonienne construite sur plan géométrique, avec un centre-ville de plus en plus attractif. Tram, services, emplois dans l'agroalimentaire et la santé. À 45 min des plages. Prix au m² : 2 400-3 500€. Loyers T2 : 580-750€. Pour les actifs qui veulent la ville avec accès rapide à l'Atlantique.",
+        body: "La Roche-sur-Yon (57 000 hab.) est une ville préfecture napoléonienne construite sur plan géométrique, avec un centre-ville de plus en plus attractif. On y trouve le tram, les services et des emplois dans l'agroalimentaire et la santé, le tout à 45 min des plages. Comptez 2 400 à 3 500€ le m² et des loyers T2 de 580 à 750€. Elle s'adresse aux actifs qui veulent la ville avec un accès rapide à l'Atlantique.",
       },
       {
         heading: "Les Sables-d'Olonne : station balnéaire et ville à vivre",
-        body: "Les Sables-d'Olonne (43 000 hab.) est bien plus qu'une station balnéaire — c'est une ville qui vit à l'année avec son port de pêche, ses commerces, le Vendée Globe (tour du monde à la voile). 3 km de sable blanc, surf, kitesurf. Prix au m² : 3 500-6 500€ selon la vue mer. Pour les amoureux de l'Atlantique et les familles de plaisanciers.",
+        body: "Les Sables-d'Olonne (43 000 hab.) sont bien plus qu'une station balnéaire : c'est une ville qui vit à l'année, avec son port de pêche, ses commerces et le Vendée Globe (tour du monde à la voile). On y profite de 3 km de sable blanc, de surf et de kitesurf. Les prix vont de 3 500 à 6 500€/m² selon la vue mer. La ville comblera les amoureux de l'Atlantique et les familles de plaisanciers.",
       },
       {
         heading: "Challans : l'authenticité vendéenne au quotidien",
-        body: "Challans (21 000 hab.) est la ville du canard vendéen Label Rouge et du marché-rencontres du mardi. Au carrefour du bocage et du marais, à 25 min de la mer. Prix très accessibles (1 700-2 300€/m²). Pour les familles qui veulent vivre comme les Vendéens — bocage, marché local, plage le week-end — sans les prix des stations.",
+        body: "Challans (21 000 hab.) est la ville du canard vendéen Label Rouge et du marché-rencontres du mardi. Posée au carrefour du bocage et du marais, elle se trouve à 25 min de la mer. Les prix y sont très accessibles (1 700 à 2 300€/m²). Elle convient aux familles qui veulent vivre comme les Vendéens, entre bocage, marché local et plage le week-end, sans subir les prix des stations.",
       },
       {
         heading: "Fontenay-le-Comte : la perle Renaissance du Bas-Poitou",
-        body: "Fontenay-le-Comte (14 000 hab.) est souvent ignorée des circuits touristiques, à tort : c'est une ville de la Renaissance avec des hôtels particuliers du XVIe siècle et à l'entrée de la Venise Verte (Marais Poitevin, site Ramsar). Prix plancher (1 300-1 800€/m²). Pour les amateurs de patrimoine et de nature aquatique qui veulent la Vendée authentique hors saison.",
+        body: "Fontenay-le-Comte (14 000 hab.) est souvent ignorée des circuits touristiques, et c'est bien dommage : c'est une ville de la Renaissance avec des hôtels particuliers du XVIe siècle, posée à l'entrée de la Venise Verte (Marais Poitevin, site Ramsar). Les prix sont au plancher (1 300 à 1 800€/m²). Elle ravira les amateurs de patrimoine et de nature aquatique qui veulent la Vendée authentique, hors saison.",
       },
     ],
     relatedCities: ["la-roche-sur-yon", "les-sables-d-olonne", "challans", "fontenay-le-comte"],
@@ -4207,27 +4207,27 @@ export const GUIDES: Guide[] = [
     readMinutes: 8,
     publishedAt: "2025-04-10",
     updatedAt: "2026-01-24",
-    intro: "Le Gard est un département qui surprend : Nîmes avec son amphithéâtre romain, Uzès la première duchée de France, Alès en reconversion industrielle — avec 2 700h d'ensoleillement et des prix bien inférieurs à la Côte d'Azur.",
+    intro: "Le Gard est un département qui surprend : Nîmes et son amphithéâtre romain, Uzès la première duchée de France, Alès en reconversion industrielle. Le tout avec 2 700h d'ensoleillement et des prix bien inférieurs à la Côte d'Azur.",
     sections: [
       {
         heading: "Nîmes : Rome française, tauromachie et dynamisme",
-        body: "Nîmes (146 000 hab.) est surnommée la Rome française pour ses monuments romains exceptionnels : Arènes (1er s.), Maison Carrée, Tour Magne. Ville passionnée par la tauromachie et les ferias (mai, septembre). Accès Méditerranée (Palavas-les-Flots) en 30 min. TGV Paris en 2h45. Prix au m² : 2 000-3 000€. Pour les actifs et retraités attirés par la Méditerranée sans les prix azuréens.",
+        body: "Nîmes (146 000 hab.) est surnommée la Rome française pour ses monuments romains exceptionnels : les Arènes (1er s.), la Maison Carrée et la Tour Magne. La ville est passionnée par la tauromachie et les ferias (mai, septembre). La Méditerranée (Palavas-les-Flots) est à 30 min, et le TGV rejoint Paris en 2h45. Comptez 2 000 à 3 000€ le m². Elle séduit les actifs et les retraités attirés par la Méditerranée sans les prix azuréens.",
       },
       {
         heading: "Uzès : la plus chic petite ville du Gard",
-        body: "Uzès (8 000 hab.) est la première Duché de France, avec son château ducal médiéval, sa cathédrale et ses marchés légendaires. Elle attire des résidents fortunés, artistes et expatriés depuis les années 1980. Prix en hausse (3 000-5 000€/m²) mais encore raisonnables pour ce niveau de prestige. À 25 km de Nîmes. Pour les retraités aisés cherchant la Provence côté Languedoc.",
+        body: "Uzès (8 000 hab.) est la première Duché de France, avec son château ducal médiéval, sa cathédrale et ses marchés légendaires. Elle attire des résidents fortunés, des artistes et des expatriés depuis les années 1980. Les prix sont en hausse (3 000 à 5 000€/m²) mais restent raisonnables pour ce niveau de prestige. Nîmes est à 25 km. La ville vise les retraités aisés qui cherchent la Provence côté Languedoc.",
       },
       {
         heading: "Alès : la reconversion industrielle réussie",
-        body: "Alès (43 000 hab.) est l'ancienne capitale du bassin houiller gardois, en reconversion réussie vers les industries vertes et le tourisme. Centre-ville rénové, Bambouseraie de Prafrance, accès aux Cévennes. Prix très accessibles (1 400-2 000€/m²). Pour les jeunes actifs et familles cherchant la ville moyenne occitane la plus accessible financièrement avec nature à portée.",
+        body: "Alès (43 000 hab.) est l'ancienne capitale du bassin houiller gardois, aujourd'hui en reconversion réussie vers les industries vertes et le tourisme. On y trouve un centre-ville rénové, la Bambouseraie de Prafrance et un accès aux Cévennes. Les prix y sont très accessibles (1 400 à 2 000€/m²). Elle convient aux jeunes actifs et aux familles cherchant la ville moyenne occitane la plus accessible financièrement, avec la nature à portée.",
       },
       {
         heading: "Le Pont du Gard et la garrigue : vivre dans un site classé",
-        body: "Les communes autour du Pont du Gard (Vers-Pont-du-Gard, Remoulins) permettent de vivre à quelques kilomètres d'un site UNESCO Patrimoine Mondial en ayant pour voisins les cigales et les vignes. Prix très bas pour la région (1 500-2 200€/m²). Garrigues, galets roulants, oliviers. Pour les retraités et télétravailleurs qui veulent le Languedoc authentique hors agglomération.",
+        body: "Les communes autour du Pont du Gard (Vers-Pont-du-Gard, Remoulins) permettent de vivre à quelques kilomètres d'un site UNESCO Patrimoine Mondial, avec pour voisins les cigales et les vignes. Les prix y sont très bas pour la région (1 500 à 2 200€/m²). Garrigues, galets roulants et oliviers composent le décor. C'est l'idéal pour les retraités et les télétravailleurs qui veulent le Languedoc authentique, hors agglomération.",
       },
       {
         heading: "Sommières et les villages gardois : les perles méconnues",
-        body: "Sommières est un bourg médiéval classé avec son pont romain, entre Nîmes et Montpellier. Lawrence Durrell y a écrit 'L'Esprit des Lieux'. Vignoble Pic-Saint-Loup à portée. Prix modérés (2 000-2 800€/m²) pour ce cadre. Autres pépites : Sauve, Quissac, Le Vigan dans les Cévennes pour ceux qui veulent la montagne occitane à prix dérisoire.",
+        body: "Sommières est un bourg médiéval classé, doté d'un pont romain, posé entre Nîmes et Montpellier. Lawrence Durrell y a écrit « L'Esprit des Lieux », et le vignoble Pic-Saint-Loup est à portée. Les prix restent modérés (2 000 à 2 800€/m²) pour ce cadre. Parmi les autres pépites, citons Sauve, Quissac et Le Vigan, dans les Cévennes, pour ceux qui veulent la montagne occitane à prix dérisoire.",
       },
     ],
     relatedCities: ["nimes", "ales", "montpellier"],
@@ -4289,27 +4289,27 @@ export const GUIDES: Guide[] = [
     readMinutes: 9,
     publishedAt: "2025-05-12",
     updatedAt: "2026-02-05",
-    intro: "Rodez, Millau, Cahors, Figeac : l'Aveyron et le Lot sont parmi les destinations les plus authentiques et les moins chères de France. Causses, gorges, viaducs et gastronomie — un art de vivre préservé.",
+    intro: "Rodez, Millau, Cahors, Figeac : l'Aveyron et le Lot comptent parmi les destinations les plus authentiques et les moins chères de France. Causses, gorges, viaducs et gastronomie composent un art de vivre préservé.",
     sections: [
       {
         heading: "L'Aveyron : le département le plus sous-côté de France",
-        body: "L'Aveyron est régulièrement classé parmi les meilleurs départements français pour la qualité de vie, mais reste méconnu des candidats à l'exode urbain. 280 000 habitants sur 8 800 km², forêts, rivières, causses, villages médiévaux classés. 2 000h d'ensoleillement par an. Prix immobiliers parmi les plus bas du Sud-Ouest (1 000-2 000€/m²). Fibre déployée à 90% du territoire depuis 2023.",
+        body: "L'Aveyron est régulièrement classé parmi les meilleurs départements français pour la qualité de vie, mais il reste méconnu des candidats à l'exode urbain. On y compte 280 000 habitants sur 8 800 km², avec forêts, rivières, causses et villages médiévaux classés. Le département profite de 2 000h d'ensoleillement par an et de prix immobiliers parmi les plus bas du Sud-Ouest (1 000 à 2 000€/m²). La fibre y est déployée à 90% du territoire depuis 2023.",
       },
       {
         heading: "Rodez : la préfecture dynamique et culturelle",
-        body: "Rodez (25 000 hab.) surprend par son dynamisme : le musée Soulages (architecte Piano) est une institution d'art contemporain de rang mondial, la cathédrale gothique domine la ville rouge depuis 800 ans. Vie culturelle active, commerces, hôpital, université. Prix au m² : 1 400-2 200€. Loyers T2 : 450-600€. Pour les actifs et familles qui veulent la vie culturelle sans les prix de la grande ville.",
+        body: "Rodez (25 000 hab.) surprend par son dynamisme : le musée Soulages (architecte Piano) est une institution d'art contemporain de rang mondial, et la cathédrale gothique domine la ville rouge depuis 800 ans. La vie culturelle y est active, et l'on y trouve commerces, hôpital et université. Comptez 1 400 à 2 200€ le m² et des loyers T2 de 450 à 600€. Elle s'adresse aux actifs et aux familles qui veulent la vie culturelle sans les prix de la grande ville.",
       },
       {
         heading: "Millau : ville du viaduc et du causse",
-        body: "Millau (22 000 hab.) est mondialement connue pour son viaduc (Foster+Partners, 2004) qui enjambe le Tarn à 270m de hauteur. Capitale mondiale de la ganterie en peau, skis des Gorges du Tarn, escalade, randonnées sur le Causse Noir. Prix très bas (1 200-1 800€/m²). Pour les amateurs d'outdoor et de paysages spectaculaires qui veulent l'Aveyron le plus actif.",
+        body: "Millau (22 000 hab.) est mondialement connue pour son viaduc (Foster+Partners, 2004), qui enjambe le Tarn à 270m de hauteur. Capitale mondiale de la ganterie en peau, la ville offre aussi les skis des Gorges du Tarn, l'escalade et les randonnées sur le Causse Noir. Les prix y sont très bas (1 200 à 1 800€/m²). Elle séduit les amateurs d'outdoor et de paysages spectaculaires qui veulent l'Aveyron le plus actif.",
       },
       {
         heading: "Cahors et le Lot : vin noir et patrimoine remarquable",
-        body: "Cahors (20 000 hab.) est la préfecture du Lot, ville du vin rouge Malbec (AOC Cahors) et du pont Valentré médiéval classé UNESCO. Le département du Lot concentre une densité de villages médiévaux exceptionnelle : Saint-Cirq-Lapopie, Rocamadour, Figeac. Prix au m² : 1 400-2 000€ — accessibles pour ce cadre. Pour les retraités et télétravailleurs qui veulent le Sud-Ouest profond.",
+        body: "Cahors (20 000 hab.) est la préfecture du Lot, ville du vin rouge Malbec (AOC Cahors) et du pont Valentré médiéval classé UNESCO. Le département du Lot concentre une densité de villages médiévaux exceptionnelle : Saint-Cirq-Lapopie, Rocamadour, Figeac. Comptez 1 400 à 2 000€ le m², des prix accessibles pour ce cadre. La ville comblera les retraités et les télétravailleurs qui veulent le Sud-Ouest profond.",
       },
       {
         heading: "Figeac : la ville natale de Champollion",
-        body: "Figeac (10 000 hab.) est une surprise absolue : une ville médiévale parfaitement conservée, berceau de Jean-François Champollion (déchiffreur des hiéroglyphes), avec un musée Champollion de renommée internationale. Chemin de Saint-Jacques, accès aux Gorges du Célé. Prix plancher (1 200-1 700€/m²). Pour les passionnés d'histoire et de nature sauvage cherchant le Quercy authentique loin des foules.",
+        body: "Figeac (10 000 hab.) est une surprise absolue : une ville médiévale parfaitement conservée, berceau de Jean-François Champollion (déchiffreur des hiéroglyphes), avec un musée Champollion de renommée internationale. Le Chemin de Saint-Jacques y passe et les Gorges du Célé sont à portée. Les prix sont au plancher (1 200 à 1 700€/m²). Elle parlera aux passionnés d'histoire et de nature sauvage cherchant le Quercy authentique, loin des foules.",
       },
     ],
     relatedCities: ["rodez", "millau", "cahors", "figeac"],
@@ -4330,27 +4330,27 @@ export const GUIDES: Guide[] = [
     readMinutes: 8,
     publishedAt: "2025-04-28",
     updatedAt: "2026-03-27",
-    intro: "Tours, Amboise, Saumur, Vendôme : la Touraine est le jardin de la France. Châteaux Renaissance, vignobles de renom, gastronomie exceptionnelle — et TGV Paris moins d'1h depuis Tours.",
+    intro: "Tours, Amboise, Saumur, Vendôme : la Touraine est le jardin de la France. Châteaux Renaissance, vignobles de renom et gastronomie exceptionnelle s'y croisent, avec un TGV qui relie Tours à Paris en moins d'1h.",
     sections: [
       {
         heading: "Tours : la métropole du Val de Loire",
-        body: "Tours (136 000 hab., 300 000 dans l'agglo) est la capitale de la Touraine et du Val de Loire classé UNESCO. TGV Paris-Montparnasse en 55 min — l'une des liaisons TGV les plus rapides de France. Ville universitaire dynamique (30 000 étudiants), quartiers piétons animés, gastronomie renommée. Prix au m² : 2 200-3 500€. Pour les actifs en télétravail qui veulent Paris à moins d'1h avec la qualité de vie de province.",
+        body: "Tours (136 000 hab., 300 000 dans l'agglo) est la capitale de la Touraine et du Val de Loire classé UNESCO. Le TGV rejoint Paris-Montparnasse en 55 min, ce qui en fait l'une des liaisons les plus rapides de France. La ville universitaire est dynamique (30 000 étudiants), avec des quartiers piétons animés et une gastronomie renommée. Comptez 2 200 à 3 500€ le m². Elle s'adresse aux actifs en télétravail qui veulent Paris à moins d'1h, avec la qualité de vie de province.",
       },
       {
         heading: "Amboise : le château de Léonard de Vinci",
-        body: "Amboise (13 000 hab.) est le village du Château Royal des Valois et de Clos Lucé, résidence de Léonard de Vinci (1516-1519). 1,5 million de visiteurs par an pour 13 000 habitants — la ville vit intensément du tourisme tout en restant à vivre. Prix au m² : 2 500-4 000€. Accès TER Tours en 20 min. Pour les amoureux de la Renaissance et de la Loire royale à budget intermédiaire.",
+        body: "Amboise (13 000 hab.) est le village du Château Royal des Valois et du Clos Lucé, résidence de Léonard de Vinci (1516-1519). Avec 1,5 million de visiteurs par an pour 13 000 habitants, la ville vit intensément du tourisme tout en restant agréable à vivre. Comptez 2 500 à 4 000€ le m², avec un accès TER à Tours en 20 min. Elle séduit les amoureux de la Renaissance et de la Loire royale à budget intermédiaire.",
       },
       {
         heading: "Saumur : vins, champignonnières et cavalerie",
-        body: "Saumur (27 000 hab.) est triple : la capitale du Saumurois (Saumur brut, Muscadet), la ville des champignonnières (70% de la production française), et la patrie de l'École nationale d'équitation (Cadre Noir). Château dominant la Loire, caves troglodytes. Prix au m² : 1 700-2 800€. Pour les amateurs de vin effervescent, de truffes et de spectacles équestres.",
+        body: "Saumur (27 000 hab.) joue sur trois tableaux : la capitale du Saumurois (Saumur brut, Muscadet), la ville des champignonnières (70% de la production française) et la patrie de l'École nationale d'équitation (Cadre Noir). Le château domine la Loire et les caves troglodytes ponctuent le paysage. Comptez 1 700 à 2 800€ le m². Elle ravira les amateurs de vin effervescent, de truffes et de spectacles équestres.",
       },
       {
         heading: "Vendôme : le TGV le plus proche de Paris pour ce prix",
-        body: "Vendôme (17 000 hab.) est à 44 min de Paris par TGV — record pour une ville à ce niveau de prix (1 300-1 800€/m²). Abbaye de la Trinité flamboyante, bords du Loir verdoyants, marché animé. Pour les télétravailleurs et jeunes actifs parisiens qui veulent s'installer en province tout en travaillant à Paris 2-3 jours/semaine. Le meilleur rapport TGV/prix de France.",
+        body: "Vendôme (17 000 hab.) est à 44 min de Paris par TGV, un record pour une ville à ce niveau de prix (1 300 à 1 800€/m²). On y trouve l'abbaye de la Trinité flamboyante, les bords du Loir verdoyants et un marché animé. La ville s'adresse aux télétravailleurs et aux jeunes actifs parisiens qui veulent s'installer en province tout en travaillant à Paris 2 à 3 jours par semaine. C'est le meilleur rapport TGV/prix de France.",
       },
       {
         heading: "Les vignobles : Vouvray, Chinon, Bourgueil",
-        body: "La Touraine est parsemée de vignobles de grand renom : Vouvray (Chenin blanc pétillant), Chinon (Cabernet Franc rouge), Bourgueil, Montlouis. Vivre entre Tours et Amboise permet d'avoir ces appellations à vélo. Le Val de Loire en tant que vignoble est l'un des plus longs du monde (800 km). Les troglodytes servaient de caves à vin — certains sont à vendre comme résidences.",
+        body: "La Touraine est parsemée de vignobles de grand renom : Vouvray (Chenin blanc pétillant), Chinon (Cabernet Franc rouge), Bourgueil, Montlouis. Vivre entre Tours et Amboise permet d'avoir ces appellations à vélo. En tant que vignoble, le Val de Loire est l'un des plus longs du monde (800 km). Les troglodytes servaient de caves à vin, et certains sont aujourd'hui à vendre comme résidences.",
       },
     ],
     relatedCities: ["tours", "amboise", "saumur", "vendome"],
@@ -4371,27 +4371,27 @@ export const GUIDES: Guide[] = [
     readMinutes: 8,
     publishedAt: "2025-05-18",
     updatedAt: "2026-04-19",
-    intro: "Albi la rouge, Castres la manufacturière, Mazamet et la Montagne Noire — le Tarn est un département de caractère entre Toulouse et la Méditerranée, avec 2 200h de soleil et des prix accessibles.",
+    intro: "Albi la rouge, Castres la manufacturière, Mazamet et la Montagne Noire : le Tarn est un département de caractère, entre Toulouse et la Méditerranée, avec 2 200h de soleil et des prix accessibles.",
     sections: [
       {
         heading: "Albi : la cathédrale UNESCO et la ville rouge",
-        body: "Albi (50 000 hab.) est classée Patrimoine Mondial de l'UNESCO pour sa Cité épiscopale : la cathédrale Sainte-Cécile (la plus grande cathédrale gothique de briques au monde) et le palais de la Berbie. Ville natale de Toulouse-Lautrec avec un musée qui lui est consacré. À 1h de Toulouse, soleil méridional, vignobles de Gaillac. Prix au m² : 1 600-2 400€. Pour les retraités et actifs cherchant une grande ville culturelle à prix raisonnable.",
+        body: "Albi (50 000 hab.) est classée Patrimoine Mondial de l'UNESCO pour sa Cité épiscopale : la cathédrale Sainte-Cécile (la plus grande cathédrale gothique de briques au monde) et le palais de la Berbie. C'est la ville natale de Toulouse-Lautrec, à qui un musée est consacré. Posée à 1h de Toulouse, elle profite du soleil méridional et des vignobles de Gaillac. Comptez 1 600 à 2 400€ le m². Elle vise les retraités et les actifs cherchant une grande ville culturelle à prix raisonnable.",
       },
       {
         heading: "Castres : dynamisme industriel et canal du Midi",
-        body: "Castres (42 000 hab.) est une ville industrie et commerçante au bord de l'Agout, à 40 min de Toulouse et 1h de la Méditerranée. Siège du groupe Pierre Fabre (cosmétique), musée Goya (le plus important hors Espagne). Marché couvert remarquable. Prix accessibles (1 400-2 100€/m²). Pour les familles et actifs cherchant la ville de taille humaine entre Toulouse et Montpellier.",
+        body: "Castres (42 000 hab.) est une ville industrielle et commerçante au bord de l'Agout, à 40 min de Toulouse et 1h de la Méditerranée. Elle abrite le siège du groupe Pierre Fabre (cosmétique) et le musée Goya (le plus important hors Espagne), ainsi qu'un marché couvert remarquable. Les prix y sont accessibles (1 400 à 2 100€/m²). Elle convient aux familles et aux actifs cherchant la ville de taille humaine entre Toulouse et Montpellier.",
       },
       {
         heading: "Mazamet et la Montagne Noire : la reconversion exemplaire",
-        body: "Mazamet (10 000 hab.) est une ancienne capitale mondiale du délainage, en reconversion remarquable vers le tourisme et les loisirs de plein air. La Montagne Noire offre randonnées, VTT, cascades. Accès immédiat au Parc du Haut Languedoc. Prix très bas (800-1 400€/m²). Pour les télétravalleurs et retraités cherchant la montagne méridionale abordable entre Toulouse et Narbonne.",
+        body: "Mazamet (10 000 hab.) est une ancienne capitale mondiale du délainage, aujourd'hui en reconversion remarquable vers le tourisme et les loisirs de plein air. La Montagne Noire offre randonnées, VTT et cascades, et l'accès au Parc du Haut Languedoc est immédiat. Les prix y sont très bas (800 à 1 400€/m²). Elle s'adresse aux télétravailleurs et aux retraités cherchant la montagne méridionale abordable entre Toulouse et Narbonne.",
       },
       {
         heading: "Gaillac et ses vignobles : l'une des plus anciennes AOC de France",
-        body: "Gaillac est la plus ancienne appellation viticole de France (trace écrite en 972). La cité médiévale, le marché, les vignobles en terrasses sur les bords du Tarn. 8 000 habitants, accès direct à Albi (20 min) et Toulouse (45 min). Prix très bas (1 400-2 000€/m²). Pour les amateurs de vin et de Moyen Âge qui veulent vivre au cœur d'une appellation historique.",
+        body: "Gaillac est la plus ancienne appellation viticole de France (trace écrite en 972). On y trouve une cité médiévale, un marché et des vignobles en terrasses sur les bords du Tarn. La commune compte 8 000 habitants, avec un accès direct à Albi (20 min) et Toulouse (45 min). Les prix y sont très bas (1 400 à 2 000€/m²). Elle parlera aux amateurs de vin et de Moyen Âge qui veulent vivre au cœur d'une appellation historique.",
       },
       {
         heading: "Pourquoi le Tarn est encore méconnu des télétravailleurs",
-        body: "Malgré 2 200h d'ensoleillement (autant que Montpellier), des prix parmi les plus bas du Midi, et une fibre déployée à 95%, le Tarn n'est pas encore dans les listes des télétravailleurs. Avantage pour les arrivants : le marché immobilier reste accessible, les artisans sont disponibles, et la congestion n'a pas encore atteint le département. Toulouse n'est qu'à 1h, Méditerranée à 1h30.",
+        body: "Malgré 2 200h d'ensoleillement (autant que Montpellier), des prix parmi les plus bas du Midi et une fibre déployée à 95%, le Tarn n'est pas encore dans les listes des télétravailleurs. C'est un avantage pour les arrivants : le marché immobilier reste accessible, les artisans sont disponibles et la congestion n'a pas encore atteint le département. Toulouse n'est qu'à 1h, et la Méditerranée à 1h30.",
       },
     ],
     relatedCities: ["albi", "castres"],
@@ -4412,27 +4412,27 @@ export const GUIDES: Guide[] = [
     readMinutes: 8,
     publishedAt: "2025-04-15",
     updatedAt: "2026-04-19",
-    intro: "Reims, Troyes, Épernay, Châlons-en-Champagne : la région Champagne combine architecture gothique exceptionnelle, vignobles de renom mondial, et des prix immobiliers bien inférieurs à Paris malgré les TGV directs.",
+    intro: "Reims, Troyes, Épernay, Châlons-en-Champagne : la région Champagne combine une architecture gothique exceptionnelle, des vignobles de renom mondial et des prix immobiliers bien inférieurs à Paris, malgré les TGV directs.",
     sections: [
       {
         heading: "Reims : la cité des sacres et des bulles",
-        body: "Reims (187 000 hab.) est la ville des sacres des rois de France et des Grandes Maisons de Champagne (Veuve Clicquot, Taittinger, Piper-Heidsieck). Sa cathédrale Notre-Dame est classée UNESCO. TGV Paris-Est en 45 min — l'une des villes les plus proches de Paris avec ce niveau de services et ces prix (2 400-3 800€/m²). Excellent rapport qualité/prix pour les familles parisiennes. Pour les actifs qui font Paris en moins d'1h.",
+        body: "Reims (187 000 hab.) est la ville des sacres des rois de France et des Grandes Maisons de Champagne (Veuve Clicquot, Taittinger, Piper-Heidsieck). Sa cathédrale Notre-Dame est classée UNESCO. Le TGV rejoint Paris-Est en 45 min, ce qui en fait l'une des villes les plus proches de Paris à ce niveau de services et de prix (2 400 à 3 800€/m²). Le rapport qualité/prix est excellent pour les familles parisiennes, et la ville s'adresse aux actifs qui font Paris en moins d'1h.",
       },
       {
         heading: "Troyes : capitale de la maille et de l'architecture médiévale",
-        body: "Troyes (60 000 hab.) est une découverte constante : son centre médiéval en forme de bouchon de champagne, ses maisons à colombages colorées, ses 10 musées de référence. Capitale mondiale de la bonneterie (nombreux magasins d'usine). TGV Paris en 1h25. Prix au m² : 1 600-2 500€ — remarquablement bas pour la qualité de vie offerte. Pour les amateurs de Moyen Âge et les familles cherchant Paris accessible à petit budget.",
+        body: "Troyes (60 000 hab.) est une découverte constante : son centre médiéval en forme de bouchon de champagne, ses maisons à colombages colorées et ses 10 musées de référence. Capitale mondiale de la bonneterie, elle compte de nombreux magasins d'usine. Le TGV rejoint Paris en 1h25. Comptez 1 600 à 2 500€ le m², un niveau remarquablement bas pour la qualité de vie offerte. Elle séduit les amateurs de Moyen Âge et les familles cherchant Paris accessible à petit budget.",
       },
       {
         heading: "Épernay : la capitale du Champagne",
-        body: "Épernay (24 000 hab.) est la capitale mondiale du Champagne avec son avenue de Champagne (Moët & Chandon, Perrier-Jouët, Pol Roger). 200 millions de bouteilles de Champagne reposent dans les caves creusées sous la ville. 30 min de Reims, 1h25 de Paris. Ville à taille humaine, bourgeoise et tranquille hors saison. Prix (1 800-2 800€/m²). Pour les amateurs de bulles et de prestige à prix provincial.",
+        body: "Épernay (24 000 hab.) est la capitale mondiale du Champagne, avec son avenue de Champagne (Moët & Chandon, Perrier-Jouët, Pol Roger). 200 millions de bouteilles de Champagne reposent dans les caves creusées sous la ville. Reims est à 30 min, Paris à 1h25. La ville est à taille humaine, bourgeoise et tranquille hors saison. Comptez 1 800 à 2 800€ le m². Elle ravira les amateurs de bulles et de prestige à prix provincial.",
       },
       {
         heading: "Châlons-en-Champagne : la préfecture méconnue",
-        body: "Châlons-en-Champagne (43 000 hab.) est la préfecture de la Marne et l'une des villes les plus sous-cotées de France. Architecture médiévale, canaux navigables, vie calme. Prix plancher (1 100-1 700€/m²) pour une préfecture avec tous les services. À 40 min de Reims. Pour les familles cherchant la ville préfecture la plus calme et la moins chère de l'Est de la France.",
+        body: "Châlons-en-Champagne (43 000 hab.) est la préfecture de la Marne et l'une des villes les plus sous-cotées de France. Elle offre une architecture médiévale, des canaux navigables et une vie calme. Les prix y sont au plancher (1 100 à 1 700€/m²) pour une préfecture dotée de tous les services. Reims est à 40 min. Elle convient aux familles cherchant la ville préfecture la plus calme et la moins chère de l'Est de la France.",
       },
       {
         heading: "La Route du Champagne : vivre dans les vignes",
-        body: "La Route du Champagne traverse des villages viticoles parmi les plus pittoresques de France : Hautvillers (où Dom Pérignon inventa le Champagne), Bouzy, Aÿ, Verzenay. Maisons vigneronnes (1 800-3 000€/m²) avec vue sur les vignes UNESCO. Microclimats chauds. Pour les amoureux du Champagne qui veulent vivre entre les rangées de Pinot Noir et recevoir leurs amis comme dans un rêve.",
+        body: "La Route du Champagne traverse des villages viticoles parmi les plus pittoresques de France : Hautvillers (où Dom Pérignon inventa le Champagne), Bouzy, Aÿ, Verzenay. On y trouve des maisons vigneronnes (1 800 à 3 000€/m²) avec vue sur les vignes UNESCO, dans des microclimats chauds. C'est le rêve des amoureux du Champagne qui veulent vivre entre les rangées de Pinot Noir et recevoir leurs amis.",
       },
     ],
     relatedCities: ["reims", "troyes", "epernay", "chalons-en-champagne"],
@@ -4494,7 +4494,7 @@ export const GUIDES: Guide[] = [
     readMinutes: 10,
     publishedAt: "2025-09-01",
     updatedAt: "2026-05-12",
-    intro: "L'Auvergne — terres de volcans, fromages et air pur — est devenue l'une des destinations phares de l'exode urbain post-Covid. Logement abordable, nature omniprésente, et un tissu économique plus solide qu'on ne le croit : voici pourquoi de plus en plus de familles et de télétravailleurs choisissent de s'y installer.",
+    intro: "L'Auvergne, terres de volcans, de fromages et d'air pur, est devenue l'une des destinations phares de l'exode urbain post-Covid. Logement abordable, nature omniprésente et tissu économique plus solide qu'on ne le croit : voici pourquoi de plus en plus de familles et de télétravailleurs choisissent de s'y installer.",
     sections: [
       {
         heading: "Le dynamisme méconnu de Clermont-Ferrand",
@@ -4937,7 +4937,7 @@ export const GUIDES: Guide[] = [
     readMinutes: 9,
     publishedAt: "2026-03-15",
     updatedAt: "2026-03-27",
-    intro: "La Normandie intérieure — bocage, forêts de hêtres, vallées encaissées de la Seine et de l'Orne — est la face cachée de la région. Moins spectaculaire que le Mont-Saint-Michel ou les falaises d'Étretat, elle offre une qualité de vie authentique, des prix immobiliers très accessibles, et une nature préservée que le littoral commence à perdre.",
+    intro: "La Normandie intérieure, faite de bocage, de forêts de hêtres et de vallées encaissées de la Seine et de l'Orne, est la face cachée de la région. Moins spectaculaire que le Mont-Saint-Michel ou les falaises d'Étretat, elle offre une qualité de vie authentique, des prix immobiliers très accessibles, et une nature préservée que le littoral commence à perdre.",
     sections: [
       {
         heading: "Le bocage normand : Flers, Vire et la Normandie profonde",
@@ -6160,7 +6160,7 @@ export const GUIDES: Guide[] = [
     publishedAt: "2026-05-02",
     updatedAt: "2026-05-12",
     intro:
-      "340 000 habitants à l'année, 3 millions de touristes l'été : la Corse est une île à double visage. Derrière les plages de Porto-Vecchio et les maquis embaumés se cache une réalité quotidienne que les candidats à l'installation doivent connaître avant de signer un bail. Coût de la vie structurellement plus élevé qu'en France continentale, marché de l'emploi concentré autour du tourisme et du secteur public, déserts médicaux dans l'intérieur — mais aussi une qualité de vie exceptionnelle, un ensoleillement record, des paysages qui n'ont pas d'équivalent en Europe occidentale, et une communauté de résidents permanents qui choisissent délibérément l'île comme mode de vie. Ce guide 2026 analyse sans filtre les quatre villes principales où s'installer durablement en Corse. Données sources : INSEE Recensement 2021 (population), Observatoire Régional des Loyers Corse / ADIL Corse (loyers 2025), Météo-France (données climatiques), ARS Corse (accès aux soins), SSMSI Ministère de l'Intérieur (sécurité), ATMO Corse (qualité de l'air).",
+      "340 000 habitants à l'année, 3 millions de touristes l'été : la Corse est une île à double visage. Derrière les plages de Porto-Vecchio et les maquis embaumés se cache une réalité quotidienne que les candidats à l'installation doivent connaître avant de signer un bail. Le coût de la vie y est structurellement plus élevé qu'en France continentale, le marché de l'emploi reste concentré autour du tourisme et du secteur public, et l'intérieur souffre de déserts médicaux. Mais l'île offre aussi une qualité de vie exceptionnelle, un ensoleillement record, des paysages qui n'ont pas d'équivalent en Europe occidentale, et une communauté de résidents permanents qui choisissent délibérément l'île comme mode de vie. Ce guide 2026 analyse sans filtre les quatre villes principales où s'installer durablement en Corse. Données sources : INSEE Recensement 2021 (population), Observatoire Régional des Loyers Corse / ADIL Corse (loyers 2025), Météo-France (données climatiques), ARS Corse (accès aux soins), SSMSI Ministère de l'Intérieur (sécurité), ATMO Corse (qualité de l'air).",
     sections: [
       {
         heading: "Comprendre la Corse avant de s'y installer",
