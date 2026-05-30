@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { Heart, Star, Bell, LogOut, Loader2, MapPin, LineChart } from "lucide-react";
+import { Heart, Star, Bell, LogOut, Loader2, MapPin, LineChart, Pencil, Check, X } from "lucide-react";
 import { CityCard } from "@/components/CityCard";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { authFetch, getToken, logout } from "@/lib/auth-client";
@@ -49,6 +49,78 @@ interface AccountData {
   contributionCount: number;
   projections: SavedProjection[];
   alertes: { citySlug: string; cityName: string; types: string[] }[];
+}
+
+function HandleEditor({ initial, onSaved }: { initial: string | null; onSaved: (h: string) => void }) {
+  const [editing, setEditing] = useState(false);
+  const [value, setValue] = useState(initial ?? "");
+  const [saving, setSaving] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+
+  async function save() {
+    const handle = value.trim();
+    if (handle.length < 2 || handle.length > 40) {
+      setError("2 à 40 caractères.");
+      return;
+    }
+    setSaving(true);
+    setError(null);
+    try {
+      const res = await authFetch("/api/auth/handle", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ handle }),
+      });
+      const d = (await res.json().catch(() => ({}))) as { ok?: boolean; handle?: string; error?: string };
+      if (res.ok && d.handle) {
+        onSaved(d.handle);
+        setEditing(false);
+      } else {
+        setError(d.error ?? "Erreur.");
+      }
+    } catch {
+      setError("Erreur réseau.");
+    } finally {
+      setSaving(false);
+    }
+  }
+
+  if (!editing) {
+    return (
+      <button
+        type="button"
+        onClick={() => setEditing(true)}
+        className="inline-flex items-center gap-1.5 text-xs text-[var(--text-tertiary)] hover:text-[var(--accent)] transition-colors"
+      >
+        <Pencil className="h-3 w-3" />
+        {initial ? "Modifier mon pseudo" : "Choisir un pseudo public"}
+      </button>
+    );
+  }
+
+  return (
+    <div className="flex flex-col gap-1">
+      <div className="flex items-center gap-2">
+        <input
+          type="text"
+          value={value}
+          onChange={(e) => setValue(e.target.value)}
+          maxLength={40}
+          placeholder="Votre pseudo public"
+          autoFocus
+          className="rounded-lg border border-[var(--border)] bg-white/80 px-2.5 py-1 text-sm outline-none focus:border-[var(--accent)]/60"
+        />
+        <button type="button" onClick={save} disabled={saving} aria-label="Enregistrer" className="text-[var(--accent)] hover:opacity-80 disabled:opacity-50">
+          {saving ? <Loader2 className="h-4 w-4 animate-spin" /> : <Check className="h-4 w-4" />}
+        </button>
+        <button type="button" onClick={() => { setEditing(false); setValue(initial ?? ""); setError(null); }} aria-label="Annuler" className="text-[var(--text-tertiary)] hover:text-[var(--text-secondary)]">
+          <X className="h-4 w-4" />
+        </button>
+      </div>
+      {error && <span className="text-xs text-rose-600">{error}</span>}
+      <span className="text-[10px] text-[var(--text-tertiary)]">Affiché sur vos avis et questions.</span>
+    </div>
+  );
 }
 
 export function MesVillesClient() {
@@ -122,8 +194,18 @@ export function MesVillesClient() {
               {displayName.charAt(0)}
             </div>
             <div className="flex-1">
-              <h1 className="text-2xl font-bold text-[var(--text-primary)]">Mon espace</h1>
+              <h1 className="text-2xl font-bold text-[var(--text-primary)]">
+                {data.user.handle ? `Bonjour ${data.user.handle}` : "Mon espace"}
+              </h1>
               <p className="text-sm text-[var(--text-secondary)]">{data.user.email}</p>
+              <div className="mt-1.5">
+                <HandleEditor
+                  initial={data.user.handle}
+                  onSaved={(h) =>
+                    setData((prev) => (prev && prev.user ? { ...prev, user: { ...prev.user, handle: h } } : prev))
+                  }
+                />
+              </div>
             </div>
             <button
               type="button"

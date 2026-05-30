@@ -11,7 +11,10 @@ import {
   Sparkles,
   Telescope,
   ThumbsUp,
+  Bookmark,
+  Loader2,
 } from "lucide-react";
+import { authFetch, getToken } from "@/lib/auth-client";
 import {
   projectionWithSurprise,
   encodeProjectionInput,
@@ -80,6 +83,7 @@ export function ProjectionClient({
   const [currentCity, setCurrentCity] = useState<string>("");
   const [cityQuery, setCityQuery] = useState<string>("");
   const [copied, setCopied] = useState(false);
+  const [saveState, setSaveState] = useState<"idle" | "saving" | "saved" | "error">("idle");
 
   const input: ProjectionInput = useMemo(
     () => ({
@@ -126,10 +130,36 @@ export function ProjectionClient({
     setTimeout(() => setCopied(false), 2000);
   }
 
+  async function saveToAccount() {
+    if (saveState === "saving" || !result?.top[0]) return;
+    if (!getToken()) {
+      window.location.href = `/connexion?next=${encodeURIComponent(`/projection-5ans#${code}`)}`;
+      return;
+    }
+    setSaveState("saving");
+    const top1 = result.top[0];
+    try {
+      const res = await authFetch("/api/projections", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({
+          citySlug: top1.city.slug,
+          cityName: top1.city.name,
+          label: `${LIFE_STAGE_META[input.lifeIn5Years].label} · ${BUDGET_TRAJ_META[input.budgetTraj].label}`,
+          payload: { code, topSlugs: result.top.map((r) => r.city.slug) },
+        }),
+      });
+      setSaveState(res.ok ? "saved" : "error");
+    } catch {
+      setSaveState("error");
+    }
+  }
+
   function restart() {
     setPhase("intro");
     setStep(0);
     setCopied(false);
+    setSaveState("idle");
   }
 
   function goResult() {
@@ -565,6 +595,20 @@ export function ProjectionClient({
         </button>
         <button
           type="button"
+          onClick={saveToAccount}
+          disabled={saveState === "saving" || saveState === "saved"}
+          className="inline-flex items-center gap-2 rounded-full border border-[var(--border)] bg-[var(--bg-surface)] text-[var(--text-secondary)] px-5 py-2.5 text-sm font-medium hover:border-amber-400 transition-all disabled:opacity-70"
+        >
+          {saveState === "saving" ? (
+            <><Loader2 className="h-4 w-4 animate-spin" /> Sauvegarde…</>
+          ) : saveState === "saved" ? (
+            <><Check className="h-4 w-4 text-amber-600" /> Sauvegardée dans mon espace</>
+          ) : (
+            <><Bookmark className="h-4 w-4" /> Sauvegarder ma projection</>
+          )}
+        </button>
+        <button
+          type="button"
           onClick={restart}
           className="inline-flex items-center gap-2 rounded-full border border-[var(--border)] bg-[var(--bg-surface)] text-[var(--text-secondary)] px-5 py-2.5 text-sm font-medium hover:border-amber-400 transition-all"
         >
@@ -572,6 +616,9 @@ export function ProjectionClient({
           Refaire
         </button>
       </div>
+      {saveState === "error" && (
+        <p className="text-center text-xs text-rose-600">Sauvegarde impossible. Réessayez.</p>
+      )}
 
       <p className="text-center text-xs text-[var(--text-tertiary)]">
         Projection indicative — moteur déterministe, données seed + Climat 2040 ARPEGE. Aucun algorithme opaque.
