@@ -94,6 +94,13 @@ export async function createLoginToken(opts: {
 }): Promise<void> {
   const db = await getDB();
   const now = opts.nowMs ?? Date.now();
+  // Invalidate any prior unconsumed links for this user so only the newest
+  // magic link works — the email copy promises "ne fonctionne qu'une fois",
+  // and this prevents an intercepted earlier link from staying valid.
+  await db
+    .prepare("DELETE FROM login_tokens WHERE user_id = ? AND consumed_at IS NULL")
+    .bind(opts.userId)
+    .run();
   await db
     .prepare(
       "INSERT INTO login_tokens (token_hash, user_id, created_at, expires_at, consumed_at) VALUES (?, ?, ?, ?, NULL)",

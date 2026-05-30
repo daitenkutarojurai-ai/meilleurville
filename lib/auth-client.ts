@@ -119,7 +119,16 @@ export function getIdentity(): Promise<AuthUser | null> {
   }
   if (_identityPromise && _identityToken === token) return _identityPromise;
   _identityToken = token;
-  _identityPromise = fetchMe();
+  // Don't cache a null result: fetchMe() returns null on a transient 500/network
+  // error too, which would otherwise pin a still-logged-in user to the anonymous
+  // post path until reload. Only memoize a real user; let null retry next call.
+  _identityPromise = fetchMe().then((user) => {
+    if (user === null) {
+      _identityPromise = null;
+      _identityToken = null;
+    }
+    return user;
+  });
   return _identityPromise;
 }
 

@@ -13,6 +13,9 @@ export function CallbackClient() {
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
     const token = params.get("token");
+    // Scrub the token from the URL bar + history immediately so it can't leak
+    // via browser history or a Referer header on subsequent navigations.
+    if (token) window.history.replaceState(null, "", window.location.pathname);
     if (!token) {
       setState("error");
       setError("Lien de connexion incomplet.");
