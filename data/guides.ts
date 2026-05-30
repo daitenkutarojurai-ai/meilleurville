@@ -33395,6 +33395,61 @@ export const GUIDES: Guide[] = [
     ],
     tags: ["10 choses à faire à Montbéliard", "activités Montbéliard 2026", "sorties Montbéliard", "que faire à Montbéliard", "château Württemberg Lumières Noël Peugeot Sochaux Belfort Doubs"],
   },
+  {
+    slug: "meilleures-villes-marches-couverts-france-2026",
+    title: "Vivre près d'un marché couvert : les meilleures villes françaises en 2026",
+    metaTitle: "Marchés couverts France 2026 — Vivre tout près au quotidien",
+    metaDesc:
+      "Halles centrales, marchés quotidiens : où en France peut-on encore faire ses courses chaque jour dans un vrai marché couvert traditionnel ? Le guide 2026.",
+    category: "lifestyle",
+    emoji: "🥖",
+    readMinutes: 7,
+    publishedAt: "2026-05-30",
+    updatedAt: "2026-05-30",
+    intro:
+      "Acheter son poisson au poissonnier, son pain au boulanger, sa volaille à l'éleveur — pas une fois par mois en se félicitant, mais quotidiennement, parce que c'est à dix minutes à pied. C'est une promesse encore tenue par quelques villes françaises où le marché couvert tourne tous les jours et structure vraiment l'alimentation locale. Ce guide ne regarde pas les villes par leur étiquette gastronomique : il regarde ce qu'on a à portée de panier quand on habite dans le centre, à condition d'ouvrir sa porte avant 13 h.",
+    sections: [
+      {
+        heading: "Ce que change un marché quotidien dans le budget et l'assiette",
+        body: "Le marché couvert n'est pas la version chère du supermarché : sur les produits frais saisonniers (fruits, légumes, poisson commun, fromage standard), les prix tiennent la comparaison une fois la qualité égalisée. Le surcoût apparaît surtout sur les produits d'exception (turbot, agneau de pré-salé, fromage AOP affiné longuement). Ce qui change, c'est la composition de l'assiette : on cuisine ce qui est de saison et bien fait, pas ce qui a tenu le voyage et le rayonnage. Et on jette beaucoup moins, parce qu'on achète tous les deux jours dans des quantités raisonnables.",
+      },
+      {
+        heading: "Bordeaux : le Marché des Capucins, locomotive d'un quartier",
+        body: "Le Marché des Capucins, surnommé le « ventre de Bordeaux », est l'un des marchés couverts les plus vivants de France. Ouvert du mardi au dimanche matin, il concentre poissonniers, primeurs, bouchers, fromagers, ostréiculteurs venus du Bassin d'Arcachon, et une dizaine de comptoirs où on peut déjeuner debout. Le quartier autour, longtemps populaire, s'est rénové sans perdre son ancrage. Habiter dans un rayon de 600 mètres autour des Capucins permet réellement de se passer du supermarché de centre-ville pour les courses fraîches, ce qui reste rare dans les métropoles françaises.",
+      },
+      {
+        heading: "Lyon : les Halles Paul Bocuse et les marchés de quartier",
+        body: "Les Halles de Lyon Paul Bocuse, dans le 3e arrondissement, sont la vitrine la plus institutionnelle de la gastronomie lyonnaise : une soixantaine d'artisans triés sur le volet, ouverts du mardi au dimanche, avec des prix qui assument le standing. Pour le quotidien moins solennel, ce sont les marchés extérieurs (Croix-Rousse le mardi, jeudi, samedi ; Saint-Antoine sur les quais tous les jours sauf lundi ; marché de la Guillotière) qui structurent la vie alimentaire des Lyonnais. Habiter le 1er, le 3e, le 4e ou le 7e arrondissement, c'est presque toujours avoir un marché à pied dans la semaine.",
+      },
+      {
+        heading: "Toulouse : le Marché Victor Hugo, sept jours sur sept ou presque",
+        body: "Le Marché Victor Hugo est au cœur du centre toulousain depuis 1892 dans sa version moderne. Ouvert du mardi au dimanche matin, il regroupe une centaine d'artisans : bouchers spécialisés en viande de Gascogne, poissonniers, traiteurs occitans, foie gras, magret, cassoulet maison. À l'étage, plusieurs restaurants servent au déjeuner ce qui a été acheté à l'étage du dessous le matin. Habiter dans le carré centre-ville (Capitole, Carmes, Saint-Étienne) place le marché à moins de dix minutes à pied — un argument réel quand on compare deux quartiers résidentiels équivalents.",
+      },
+      {
+        heading: "Dijon : les Halles centrales, signées Gustave Eiffel",
+        body: "Les Halles centrales de Dijon, construites à la fin du XIXe siècle d'après les plans de Gustave Eiffel, sont ouvertes le mardi, jeudi, vendredi et samedi. Le samedi matin, le marché déborde sur la place et les rues adjacentes : c'est l'un des plus animés de Bourgogne. Particularité dijonnaise : la densité de produits régionaux (moutarde, pain d'épices, cassis, escargots, fromages de Bourgogne, vins) est exceptionnelle pour une ville de taille moyenne. Le centre piéton autour des Halles facilite les courses à pied ou à vélo sans avoir à manœuvrer une voiture.",
+      },
+      {
+        heading: "Narbonne : les Halles, sept jours sur sept toute l'année",
+        body: "Les Halles de Narbonne ont une singularité administrative qui change tout : elles ouvrent tous les jours, y compris le lundi, du matin jusqu'à 14 h. Pour une ville de 55 000 habitants, c'est une densité d'offre rare. Le bâtiment de 1901 abrite poissonniers (Méditerranée à 15 km), bouchers, primeurs occitans, charcutiers, fromagers, et un comptoir mythique de la côte (Chez Bébelle) où on peut déjeuner d'un sandwich à la viande grillée minute. Habiter le centre historique de Narbonne, c'est avoir un marché ouvert même le lundi de Pâques — une exception française.",
+      },
+      {
+        heading: "Marseille, Limoges, Aix-en-Provence : trois autres halles à considérer",
+        body: "Marseille a ses marchés de plein air (Noailles tous les jours, Prado tous les matins sauf lundi) plus que ses halles couvertes, mais l'offre quotidienne est continue dans le centre. Limoges possède une halle centrale Eiffel-style discrète, ouverte du mardi au dimanche, avec des prix bas et un terroir limousin présent (viande de Limousin, cul noir, pommes du Limousin). Aix-en-Provence a son marché central (place Richelme tous les matins, place des Prêcheurs trois fois par semaine) qui anime le centre ancien et compense partiellement la cherté immobilière par un quotidien gastronomique réel.",
+      },
+      {
+        heading: "Les villes où le marché couvert a disparu (et ce que ça veut dire)",
+        body: "Une ville qui a fermé son marché couvert ou l'a transformé en food court touristique perd souvent dans la décennie qui suit une partie de son tissu artisanal alimentaire. Les petits commerces survivants doivent payer un local commercial cher au lieu d'un emplacement halles à coût encadré, ce qui fait monter les prix, fait fuir la clientèle quotidienne et accélère le glissement vers le supermarché. Avant de s'installer dans une ville moyenne pour sa qualité de vie, vérifier l'état du marché couvert local est un indicateur sérieux : un marché qui tourne le matin un mardi de février, c'est le signe d'une ville encore vivante côté commerce de bouche. Un marché qui n'ouvre que le samedi matin pour les touristes, c'en est un autre.",
+      },
+    ],
+    relatedCities: ["bordeaux", "lyon", "toulouse", "dijon", "narbonne", "marseille", "limoges", "aix-en-provence"],
+    relatedGuides: [
+      "meilleures-villes-gastronomie-france-2026",
+      "villes-france-grandes-tables-gastronomie-budget-reduit-2025",
+      "meilleures-villes-zero-dechet-ecologie-france-2026",
+    ],
+    tags: ["marché couvert", "halles", "gastronomie quotidienne", "Bordeaux", "Lyon", "Toulouse", "Dijon", "Narbonne", "circuits courts", "lifestyle"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
