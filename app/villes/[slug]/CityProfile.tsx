@@ -29,6 +29,7 @@ import { NoiseCard } from "@/components/NoiseCard";
 import { HealthcareCard } from "@/components/HealthcareCard";
 import { EmploymentCard } from "@/components/EmploymentCard";
 import { CyclingCard } from "@/components/CyclingCard";
+import { SportLeisureCard } from "@/components/SportLeisureCard";
 import { SafetyDeepCard } from "@/components/SafetyDeepCard";
 import { DemographyCard } from "@/components/DemographyCard";
 import { PublicServicesCard } from "@/components/PublicServicesCard";
@@ -639,6 +640,7 @@ export function CityProfile({ city, locale = "fr" }: { city: CitySeed & { review
                 <AirQualityCard city={city} locale={locale} />
                 <NoiseCard city={city} locale={locale} />
                 <CyclingCard city={city} locale={locale} />
+                {locale !== "en" && <SportLeisureCard city={city} locale={locale} />}
               </div>
 
               <SectionRule emoji="🧭" label={L("Repères & classements", "Benchmarks & rankings")} />
@@ -958,6 +960,22 @@ export function CityProfile({ city, locale = "fr" }: { city: CitySeed & { review
                     </div>
                     <div className="text-xs text-[var(--text-tertiary)] mt-0.5 truncate">
                       Activités, sorties, bons plans 2026
+                    </div>
+                  </div>
+                  <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors shrink-0" />
+                </a>
+                )}
+                {locale !== "en" && (
+                <a
+                  href={`/villes/${city.slug}/sport`}
+                  className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
+                >
+                  <div className="min-w-0">
+                    <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
+                      🏋️ Sport &amp; loisirs
+                    </div>
+                    <div className="text-xs text-[var(--text-tertiary)] mt-0.5 truncate">
+                      Équipements · outdoor · clubs · climat
                     </div>
                   </div>
                   <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors shrink-0" />

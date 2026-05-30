@@ -238,6 +238,13 @@ function staticSection(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/tension-locative/sud-ouest-gascon`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.75 },
     { url: `${BASE_URL}/tension-locative/vallee-du-rhone`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.75 },
     { url: `${BASE_URL}/tension-locative/ile-de-france-elargie`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.75 },
+    { url: `${BASE_URL}/sport`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.85 },
+    { url: `${BASE_URL}/sport/cote-atlantique`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.75 },
+    { url: `${BASE_URL}/sport/arc-mediterraneen`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.75 },
+    { url: `${BASE_URL}/sport/arc-alpin`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.75 },
+    { url: `${BASE_URL}/sport/sud-ouest-gascon`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.75 },
+    { url: `${BASE_URL}/sport/vallee-du-rhone`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.75 },
+    { url: `${BASE_URL}/sport/ile-de-france-elargie`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.75 },
     { url: `${BASE_URL}/villes`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.8 },
     { url: `${BASE_URL}/classements`, lastModified: RANKING_UPDATED, changeFrequency: "weekly", priority: 0.9 },
     { url: `${BASE_URL}/comparer`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
@@ -478,6 +485,12 @@ function citySubSection(): MetadataRoute.Sitemap {
       lastModified: CITY_DATA_UPDATED,
       changeFrequency: "monthly" as const,
       priority: 0.7,
+    },
+    {
+      url: `${BASE_URL}/villes/${city.slug}/sport`,
+      lastModified: CITY_DATA_UPDATED,
+      changeFrequency: "monthly" as const,
+      priority: 0.65,
     },
   ]);
 }
