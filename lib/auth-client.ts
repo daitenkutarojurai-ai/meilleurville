@@ -104,6 +104,82 @@ export async function fetchMe(): Promise<AuthUser | null> {
   }
 }
 
+// Cache the identity for the page lifetime so multiple forms (comments, Q&A)
+// don't each hit /api/auth/me. Invalidated implicitly on logout (token cleared).
+let _identityPromise: Promise<AuthUser | null> | null = null;
+let _identityToken: string | null = null;
+
+/** Memoized current-user lookup, keyed by the active token. */
+export function getIdentity(): Promise<AuthUser | null> {
+  const token = getToken();
+  if (!token) {
+    _identityPromise = null;
+    _identityToken = null;
+    return Promise.resolve(null);
+  }
+  if (_identityPromise && _identityToken === token) return _identityPromise;
+  _identityToken = token;
+  _identityPromise = fetchMe();
+  return _identityPromise;
+}
+
+/**
+ * Submit a city contribution (comment / review / question). When logged in,
+ * posts to the identity-bound /api/reviews (stamps user_id → shows in the
+ * dashboard, author = account handle). Anonymous visitors fall back to the
+ * public /api/comments path with the name/email/anti-spam fields they filled.
+ */
+export async function submitContribution(opts: {
+  topic: string;
+  body: string;
+  rating?: number;
+  type?: "comment" | "question";
+  // anonymous-path fields (ignored when logged in):
+  author?: string;
+  email?: string;
+  website?: string;
+  formStartedAt?: number;
+}): Promise<{ ok: boolean; comment?: unknown; error?: string }> {
+  const identity = await getIdentity();
+  try {
+    if (identity) {
+      const author = identity.handle || identity.email.split("@")[0];
+      const res = await authFetch("/api/reviews", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({
+          topic: opts.topic,
+          author,
+          email: identity.email,
+          body: opts.body,
+          rating: opts.rating,
+          type: opts.type ?? "comment",
+        }),
+      });
+      const data = (await res.json().catch(() => ({}))) as { comment?: unknown; error?: string };
+      return res.ok ? { ok: true, comment: data.comment } : { ok: false, error: data.error };
+    }
+    const res = await fetch("/api/comments", {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({
+        topic: opts.topic,
+        author: opts.author,
+        email: opts.email,
+        body: opts.body,
+        rating: opts.rating,
+        type: opts.type ?? "comment",
+        website: opts.website,
+        formStartedAt: opts.formStartedAt,
+      }),
+    });
+    const data = (await res.json().catch(() => ({}))) as { comment?: unknown; error?: string };
+    return res.ok ? { ok: true, comment: data.comment } : { ok: false, error: data.error };
+  } catch {
+    return { ok: false, error: "Erreur réseau" };
+  }
+}
+
 // ── useSyncExternalStore plumbing (login-state, not full user) ──
 export function subscribeAuth(notify: () => void): () => void {
   window.addEventListener(CHANGED, notify);

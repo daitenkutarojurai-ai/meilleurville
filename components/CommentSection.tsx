@@ -1,9 +1,15 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, useSyncExternalStore } from "react";
 import { MessageCircle, Send, Star, User, AlertCircle, CheckCircle } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { ContributorBadge } from "@/components/effects/ContributorBadge";
+import {
+  submitContribution,
+  subscribeAuth,
+  getAuthSnapshot,
+  getServerAuthSnapshot,
+} from "@/lib/auth-client";
 
 interface Comment {
   id: string;
@@ -61,6 +67,7 @@ export function CommentSection({
   locale = "fr",
 }: CommentSectionProps) {
   const L = (fr: string, en: string) => (locale === "en" ? en : fr);
+  const loggedIn = useSyncExternalStore(subscribeAuth, getAuthSnapshot, getServerAuthSnapshot);
   const [items, setItems] = useState<Comment[]>([]);
   const [loading, setLoading] = useState(true);
   const [author, setAuthor] = useState(() => {
@@ -107,39 +114,39 @@ export function CommentSection({
     if (submitting) return;
     setError(null);
     setSuccess(null);
-    if (author.trim().length < 3) return setError(L("Votre prénom (3 caractères minimum).", "Your first name (3 characters minimum)."));
-    if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email.trim())) return setError(L("Email valide requis (ne sera pas affiché).", "A valid email is required (it won't be shown)."));
+    // Logged-in users skip the name/email fields — identity comes from the session.
+    if (!loggedIn) {
+      if (author.trim().length < 3) return setError(L("Votre prénom (3 caractères minimum).", "Your first name (3 characters minimum)."));
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email.trim())) return setError(L("Email valide requis (ne sera pas affiché).", "A valid email is required (it won't be shown)."));
+    }
     if (body.trim().length < 8) return setError(L("Au moins 8 caractères pour le message.", "At least 8 characters for the message."));
 
     setSubmitting(true);
     try {
-      const payload: Record<string, unknown> = {
+      const result = await submitContribution({
         topic,
+        body: body.trim(),
+        rating: showRating && rating ? rating : undefined,
+        type: "comment",
         author: author.trim(),
         email: email.trim(),
-        body: body.trim(),
         website,
         formStartedAt,
-      };
-      if (showRating && rating) payload.rating = rating;
-      const res = await fetch("/api/comments", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(payload),
       });
-      const data = await res.json().catch(() => ({}));
-      if (!res.ok) throw new Error(data?.error ?? L("Erreur lors de l'envoi", "Something went wrong while sending"));
-      const newComment: Comment | null = data.comment ?? null;
+      if (!result.ok) throw new Error(result.error ?? L("Erreur lors de l'envoi", "Something went wrong while sending"));
+      const newComment = (result.comment as Comment | undefined) ?? null;
       if (newComment) setItems((prev) => [newComment, ...prev]);
       setBody("");
       setRating(null);
       setSuccess(L("Votre commentaire est en ligne.", "Your comment is live."));
       setShowBadge(true);
-      try {
-        localStorage.setItem(STORAGE_KEY, author.trim());
-        localStorage.setItem(EMAIL_KEY, email.trim());
-      } catch {}
-      if (subscribeContext) setShowSubscribe(true);
+      if (!loggedIn) {
+        try {
+          localStorage.setItem(STORAGE_KEY, author.trim());
+          localStorage.setItem(EMAIL_KEY, email.trim());
+        } catch {}
+      }
+      if (subscribeContext && !loggedIn) setShowSubscribe(true);
       setTimeout(() => {
         setSuccess(null);
         setShowBadge(false);
@@ -187,25 +194,34 @@ export function CommentSection({
         className="rounded-2xl glass border border-white/60 p-5 shadow-md mb-6"
       >
         <div className="flex flex-col sm:flex-row gap-3 flex-wrap">
-          <input
-            type="text"
-            placeholder={L("Votre prénom", "Your first name")}
-            value={author}
-            onChange={(e) => setAuthor(e.target.value)}
-            maxLength={40}
-            minLength={3}
-            required
-            className="rounded-xl border border-[var(--border)] bg-white/80 px-3 py-2 text-sm outline-none focus:border-[var(--accent)]/60 focus:bg-white focus-visible:ring-2 focus-visible:ring-[var(--accent)]/40 transition-all sm:w-44"
-          />
-          <input
-            type="email"
-            placeholder={L("Email (non public)", "Email (not public)")}
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            maxLength={120}
-            required
-            className="rounded-xl border border-[var(--border)] bg-white/80 px-3 py-2 text-sm outline-none focus:border-[var(--accent)]/60 focus:bg-white focus-visible:ring-2 focus-visible:ring-[var(--accent)]/40 transition-all sm:flex-1 sm:min-w-[200px]"
-          />
+          {loggedIn ? (
+            <div className="flex items-center gap-2 rounded-xl border border-[var(--accent)]/30 bg-[var(--accent)]/5 px-3 py-2 text-sm text-[var(--text-secondary)] sm:flex-1">
+              <CheckCircle className="h-4 w-4 text-[var(--accent)]" />
+              {L("Publié avec votre compte", "Posting from your account")}
+            </div>
+          ) : (
+            <>
+              <input
+                type="text"
+                placeholder={L("Votre prénom", "Your first name")}
+                value={author}
+                onChange={(e) => setAuthor(e.target.value)}
+                maxLength={40}
+                minLength={3}
+                required
+                className="rounded-xl border border-[var(--border)] bg-white/80 px-3 py-2 text-sm outline-none focus:border-[var(--accent)]/60 focus:bg-white focus-visible:ring-2 focus-visible:ring-[var(--accent)]/40 transition-all sm:w-44"
+              />
+              <input
+                type="email"
+                placeholder={L("Email (non public)", "Email (not public)")}
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                maxLength={120}
+                required
+                className="rounded-xl border border-[var(--border)] bg-white/80 px-3 py-2 text-sm outline-none focus:border-[var(--accent)]/60 focus:bg-white focus-visible:ring-2 focus-visible:ring-[var(--accent)]/40 transition-all sm:flex-1 sm:min-w-[200px]"
+              />
+            </>
+          )}
           {showRating && (
             <div className="flex items-center gap-1 px-2">
               {[1, 2, 3, 4, 5].map((n) => (

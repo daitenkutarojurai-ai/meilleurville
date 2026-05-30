@@ -1,9 +1,15 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
-import { HelpCircle, Send, User, AlertCircle, MessageSquare, ChevronDown } from "lucide-react";
+import { useEffect, useRef, useState, useSyncExternalStore } from "react";
+import { HelpCircle, Send, User, AlertCircle, MessageSquare, ChevronDown, CheckCircle } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { ContributorBadge } from "@/components/effects/ContributorBadge";
+import {
+  submitContribution,
+  subscribeAuth,
+  getAuthSnapshot,
+  getServerAuthSnapshot,
+} from "@/lib/auth-client";
 
 interface QAItem {
   id: string;
@@ -55,6 +61,7 @@ function AnswerForm({
   onPosted: (answer: QAItem) => void;
 }) {
   const topic = `city:${citySlug}:q:${questionId}`;
+  const loggedIn = useSyncExternalStore(subscribeAuth, getAuthSnapshot, getServerAuthSnapshot);
   const [author, setAuthor] = useState(() => {
     if (typeof window === "undefined") return "";
     try { return localStorage.getItem(STORAGE_KEY) ?? ""; } catch { return ""; }
@@ -74,34 +81,33 @@ function AnswerForm({
     e.preventDefault();
     if (submitting) return;
     setError(null);
-    if (author.trim().length < 3) return setError("Votre prénom (3 caractères minimum).");
-    if (!EMAIL_RE.test(email.trim())) return setError("Email valide requis (ne sera pas affiché).");
+    if (!loggedIn) {
+      if (author.trim().length < 3) return setError("Votre prénom (3 caractères minimum).");
+      if (!EMAIL_RE.test(email.trim())) return setError("Email valide requis (ne sera pas affiché).");
+    }
     if (body.trim().length < 8) return setError("Au moins 8 caractères.");
 
     setSubmitting(true);
     try {
-      const res = await fetch("/api/comments", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          topic,
-          author: author.trim(),
-          email: email.trim(),
-          body: body.trim(),
-          website,
-          formStartedAt,
-          type: "comment",
-        }),
+      const result = await submitContribution({
+        topic,
+        body: body.trim(),
+        type: "comment",
+        author: author.trim(),
+        email: email.trim(),
+        website,
+        formStartedAt,
       });
-      const data = await res.json().catch(() => ({}));
-      if (!res.ok) throw new Error(data?.error ?? "Erreur lors de l'envoi");
-      if (data.comment) onPosted(data.comment);
+      if (!result.ok) throw new Error(result.error ?? "Erreur lors de l'envoi");
+      if (result.comment) onPosted(result.comment as QAItem);
       setBody("");
       setShowBadge(true);
-      try {
-        localStorage.setItem(STORAGE_KEY, author.trim());
-        localStorage.setItem(EMAIL_KEY, email.trim());
-      } catch {}
+      if (!loggedIn) {
+        try {
+          localStorage.setItem(STORAGE_KEY, author.trim());
+          localStorage.setItem(EMAIL_KEY, email.trim());
+        } catch {}
+      }
       setTimeout(() => setShowBadge(false), 4000);
     } catch (err) {
       setError(err instanceof Error ? err.message : "Erreur réseau");
@@ -113,28 +119,35 @@ function AnswerForm({
   return (
     <form onSubmit={onSubmit} className="mt-3 rounded-xl border border-[var(--border)] bg-[var(--bg-elevated)]/60 p-4">
       <p className="text-xs font-semibold text-[var(--text-secondary)] mb-3">Votre réponse</p>
-      <div className="flex flex-col sm:flex-row gap-2 mb-2">
-        <input
-          type="text"
-          placeholder="Votre prénom"
-          aria-label="Votre prénom"
-          value={author}
-          onChange={(e) => setAuthor(e.target.value)}
-          maxLength={40}
-          required
-          className="rounded-lg border border-[var(--border)] bg-white/80 px-3 py-1.5 text-sm outline-none focus:border-[var(--accent)]/60 focus:bg-white transition-all sm:w-40"
-        />
-        <input
-          type="email"
-          placeholder="Email (non public)"
-          aria-label="Email (non public)"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          maxLength={120}
-          required
-          className="rounded-lg border border-[var(--border)] bg-white/80 px-3 py-1.5 text-sm outline-none focus:border-[var(--accent)]/60 focus:bg-white transition-all sm:flex-1"
-        />
-      </div>
+      {loggedIn ? (
+        <div className="mb-2 flex items-center gap-2 rounded-lg border border-[var(--accent)]/30 bg-[var(--accent)]/5 px-3 py-1.5 text-xs text-[var(--text-secondary)]">
+          <CheckCircle className="h-3.5 w-3.5 text-[var(--accent)]" />
+          Publié avec votre compte
+        </div>
+      ) : (
+        <div className="flex flex-col sm:flex-row gap-2 mb-2">
+          <input
+            type="text"
+            placeholder="Votre prénom"
+            aria-label="Votre prénom"
+            value={author}
+            onChange={(e) => setAuthor(e.target.value)}
+            maxLength={40}
+            required
+            className="rounded-lg border border-[var(--border)] bg-white/80 px-3 py-1.5 text-sm outline-none focus:border-[var(--accent)]/60 focus:bg-white transition-all sm:w-40"
+          />
+          <input
+            type="email"
+            placeholder="Email (non public)"
+            aria-label="Email (non public)"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            maxLength={120}
+            required
+            className="rounded-lg border border-[var(--border)] bg-white/80 px-3 py-1.5 text-sm outline-none focus:border-[var(--accent)]/60 focus:bg-white transition-all sm:flex-1"
+          />
+        </div>
+      )}
       <textarea
         placeholder="Partagez ce que vous savez…"
         aria-label="Votre réponse"
@@ -323,6 +336,7 @@ function QuestionCard({
 
 export function QASection({ citySlug, cityName }: QASectionProps) {
   const questionTopic = `city:${citySlug}:questions`;
+  const loggedIn = useSyncExternalStore(subscribeAuth, getAuthSnapshot, getServerAuthSnapshot);
 
   const [questions, setQuestions] = useState<QAItem[]>([]);
   const [loading, setLoading] = useState(true);
@@ -360,34 +374,33 @@ export function QASection({ citySlug, cityName }: QASectionProps) {
     e.preventDefault();
     if (submitting) return;
     setError(null);
-    if (author.trim().length < 3) return setError("Votre prénom (3 caractères minimum).");
-    if (!EMAIL_RE.test(email.trim())) return setError("Email valide requis (ne sera pas affiché).");
+    if (!loggedIn) {
+      if (author.trim().length < 3) return setError("Votre prénom (3 caractères minimum).");
+      if (!EMAIL_RE.test(email.trim())) return setError("Email valide requis (ne sera pas affiché).");
+    }
     if (body.trim().length < 8) return setError("Au moins 8 caractères.");
 
     setSubmitting(true);
     try {
-      const res = await fetch("/api/comments", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          topic: questionTopic,
-          author: author.trim(),
-          email: email.trim(),
-          body: body.trim(),
-          website,
-          formStartedAt,
-          type: "question",
-        }),
+      const result = await submitContribution({
+        topic: questionTopic,
+        body: body.trim(),
+        type: "question",
+        author: author.trim(),
+        email: email.trim(),
+        website,
+        formStartedAt,
       });
-      const data = await res.json().catch(() => ({}));
-      if (!res.ok) throw new Error(data?.error ?? "Erreur lors de l'envoi");
-      if (data.comment) setQuestions((prev) => [data.comment, ...prev]);
+      if (!result.ok) throw new Error(result.error ?? "Erreur lors de l'envoi");
+      if (result.comment) setQuestions((prev) => [result.comment as QAItem, ...prev]);
       setBody("");
       setShowBadge(true);
-      try {
-        localStorage.setItem(STORAGE_KEY, author.trim());
-        localStorage.setItem(EMAIL_KEY, email.trim());
-      } catch {}
+      if (!loggedIn) {
+        try {
+          localStorage.setItem(STORAGE_KEY, author.trim());
+          localStorage.setItem(EMAIL_KEY, email.trim());
+        } catch {}
+      }
       setTimeout(() => setShowBadge(false), 4000);
     } catch (err) {
       setError(err instanceof Error ? err.message : "Erreur réseau");
@@ -422,29 +435,36 @@ export function QASection({ citySlug, cityName }: QASectionProps) {
         <p className="text-sm font-semibold text-[var(--text-primary)] mb-3">
           Vous avez une question sur {cityName} ?
         </p>
-        <div className="flex flex-col sm:flex-row gap-3 flex-wrap">
-          <input
-            type="text"
-            placeholder="Votre prénom"
-            aria-label="Votre prénom"
-            value={author}
-            onChange={(e) => setAuthor(e.target.value)}
-            maxLength={40}
-            minLength={3}
-            required
-            className="rounded-xl border border-[var(--border)] bg-white/80 px-3 py-2 text-sm outline-none focus:border-[var(--accent)]/60 focus:bg-white focus-visible:ring-2 focus-visible:ring-[var(--accent)]/40 transition-all sm:w-44"
-          />
-          <input
-            type="email"
-            placeholder="Email (non public)"
-            aria-label="Email (non public)"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            maxLength={120}
-            required
-            className="rounded-xl border border-[var(--border)] bg-white/80 px-3 py-2 text-sm outline-none focus:border-[var(--accent)]/60 focus:bg-white focus-visible:ring-2 focus-visible:ring-[var(--accent)]/40 transition-all sm:flex-1 sm:min-w-[200px]"
-          />
-        </div>
+        {loggedIn ? (
+          <div className="flex items-center gap-2 rounded-xl border border-[var(--accent)]/30 bg-[var(--accent)]/5 px-3 py-2 text-sm text-[var(--text-secondary)]">
+            <CheckCircle className="h-4 w-4 text-[var(--accent)]" />
+            Publié avec votre compte
+          </div>
+        ) : (
+          <div className="flex flex-col sm:flex-row gap-3 flex-wrap">
+            <input
+              type="text"
+              placeholder="Votre prénom"
+              aria-label="Votre prénom"
+              value={author}
+              onChange={(e) => setAuthor(e.target.value)}
+              maxLength={40}
+              minLength={3}
+              required
+              className="rounded-xl border border-[var(--border)] bg-white/80 px-3 py-2 text-sm outline-none focus:border-[var(--accent)]/60 focus:bg-white focus-visible:ring-2 focus-visible:ring-[var(--accent)]/40 transition-all sm:w-44"
+            />
+            <input
+              type="email"
+              placeholder="Email (non public)"
+              aria-label="Email (non public)"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              maxLength={120}
+              required
+              className="rounded-xl border border-[var(--border)] bg-white/80 px-3 py-2 text-sm outline-none focus:border-[var(--accent)]/60 focus:bg-white focus-visible:ring-2 focus-visible:ring-[var(--accent)]/40 transition-all sm:flex-1 sm:min-w-[200px]"
+            />
+          </div>
+        )}
         <textarea
           placeholder={`Quelle est votre question sur ${cityName} ? (logement, transports, vie locale, écoles…)`}
           aria-label="Votre question"
