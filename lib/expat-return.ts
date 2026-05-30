@@ -18,7 +18,8 @@ export type ExpatCountry =
   | "royaume-uni"
   | "canada"
   | "allemagne"
-  | "etats-unis";
+  | "etats-unis"
+  | "espagne";
 
 export interface ExpatCountryProfile {
   slug: ExpatCountry;
@@ -247,6 +248,41 @@ export const EXPAT_COUNTRIES: ExpatCountryProfile[] = [
       "Aucune totalisation santé entre les deux pays : la couverture américaine s'arrête net. Ouvrez la CPAM immédiatement et gardez une assurance privée temporaire pour combler le délai.",
       "Le change EUR/USD varie fortement : ne convertissez pas vos dollars à un taux théorique de 1,15 €, le taux 2026 est plutôt autour de 0,90-0,95 € pour 1 USD.",
       "Stock-options et RSU acquis aux États-Unis : leur imposition à cheval sur deux pays est complexe — anticipez la vente et la déclaration avec un expert-comptable.",
+    ],
+  },
+  {
+    slug: "espagne",
+    name: "Espagne",
+    flag: "🇪🇸",
+    depuisLabel: "l'",
+    auLabel: "En",
+    currency: "EUR",
+    currencyToEurApprox: 1.0,
+    netConversionFactor: 0.85, // 100 € nets en Espagne valent environ 85 € de pouvoir d'achat en France hors Paris (coût de la vie plus élevé en France)
+    bestSuitedCities: ["perpignan", "hendaye", "bayonne", "biarritz", "saint-jean-de-luz", "toulouse", "montpellier", "pau"],
+    intro:
+      "Le retour d'Espagne est l'un des plus doux côté change (zone euro) mais l'un des plus contrastés côté pouvoir d'achat : on quitte des loyers et un panier alimentaire 20 à 30 % moins chers qu'en France pour retrouver une fiscalité plus lourde, une administration plus lente et un climat moins clément. Pour les actifs qualifiés, l'écart de salaire net joue en défaveur de l'Espagne (sauf statut Beckham à Madrid) — le retour signifie souvent un meilleur salaire net français. Les villes frontalières (Perpignan, Hendaye, Bayonne, Saint-Jean-de-Luz) restent les ancrages les plus naturels pour conserver un pied au sud des Pyrénées, et Toulouse / Montpellier offrent un climat et un art de vivre proches de la Catalogne ou du Levante.",
+    hadVsWillHave: [
+      { topic: "Salaire net", had: "1 800-2 500 € net cadre (Madrid / Barcelone)", willHave: "Équivalent ~2 200-3 000 € net en France après charges" },
+      { topic: "Loyer T3", had: "1 100-1 700 € (centre Madrid / Barcelone)", willHave: "650-1 200 € (Perpignan, Toulouse, Montpellier, Bayonne)" },
+      { topic: "Panier alimentaire", had: "Environ 20-30 % moins cher (Mercadona, marchés)", willHave: "Reprise du niveau français (Lidl / Carrefour, marchés)" },
+      { topic: "Santé", had: "SNS publique gratuite (délais variables selon CCAA)", willHave: "Sécu + mutuelle 80-200 €/mois, accès spécialiste souvent plus rapide" },
+      { topic: "Fiscalité revenu", had: "~19-30 % effectif (IRPF + cotisations modestes)", willHave: "~25-35 % effectif (TMI + CSG + prélèvements sociaux)" },
+      { topic: "Garde d'enfants", had: "Escuela infantil 300-600 €/mois (publique / concertée)", willHave: "Crèche FR 150-400 €/mois après CAF/CMG, maternelle gratuite dès 3 ans" },
+      { topic: "Voiture", had: "Carburant ~1,45-1,60 €/L, péages réduits", willHave: "Carburant 1,65-1,85 €/L, péages autoroutiers plus fréquents" },
+    ],
+    adminPriorities: [
+      { step: "Déclarer le retour au consulat & radier", detail: "Avant le départ : se radier du registre des Français établis hors de France et conserver l'attestation, utile pour la CAF et la CPAM.", officialUrl: "https://www.service-public.gouv.fr/particuliers/vosdroits/R43251" },
+      { step: "Baja consulaire & padrón", detail: "Demander la baja del padrón à la mairie espagnole (ayuntamiento) pour stopper la résidence fiscale et les services municipaux. Indispensable pour éviter les relances de l'IBI et de l'IRPF résident." },
+      { step: "Sécurité sociale", detail: "Demander le formulaire S1 à la Seguridad Social espagnole avant le départ pour le transmettre à la CPAM. Compter 3-6 semaines pour activation côté français.", officialUrl: "https://www.service-public.gouv.fr/particuliers/vosdroits/F32824" },
+      { step: "Fiscalité revenu", detail: "Convention fiscale FR-ES (1995) : résidence fiscale française à compter du jour J. Déclaration fractionnée l'année du retour côté français + dernière declaración de la renta en Espagne (modelo 100) la dernière année de résidence." },
+      { step: "Permis & scolarité", detail: "Permis espagnol reconnu de droit en France (UE), pas d'échange obligatoire mais demande utile pour récupérer un titre français en cas de perte. Pour les enfants, inscription en mairie + entretien d'équivalence (le système ESO / Bachillerato diffère du collège-lycée français)." },
+    ],
+    warnings: [
+      "Modelo 720 / 721 : si vous déteniez des actifs hors d'Espagne (comptes, placements) supérieurs à 50 000 €, vérifier que la dernière déclaration a bien été déposée — les pénalités espagnoles pour omission, même après le retour, peuvent être lourdes.",
+      "Statut Beckham (Madrid principalement) : si vous en bénéficiiez, il prend fin au moment du départ. La fiscalité française récupère alors les revenus à compter du jour J — anticiper avec un conseil fiscal hispano-français pour les stock-options et bonus.",
+      "Climat et art de vivre : le contraste est réel hors façade méditerranéenne. Si vous rentrez de Valence ou Séville, viser Perpignan, Montpellier, Toulouse ou la Côte basque plutôt qu'une métropole du nord pour adoucir la transition.",
+      "Pension espagnole : les trimestres cotisés à la Seguridad Social sont totalisés au niveau européen avec ceux de l'Assurance retraite française — conservez tous vos vida laboral et bulletins de cotisation.",
     ],
   },
 ];
