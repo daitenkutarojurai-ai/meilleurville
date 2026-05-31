@@ -21106,7 +21106,7 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Le Plateau et centre historique",
-        body: "Le Plateau — le cœur médiéval sur la butte calcaire dominée par l'église Notre-Dame-la-Grande — est le quartier le plus recherché pour l'adresse et le charme. Rues piétonnes, marchés, cafés, architecture romane. Prix : 1 900–2 500 €/m² pour du rénové. Un T2 de 45 m² : 90 000–115 000 €. Les maisons de ville à colombages ou pierres calcaires : 200 000–350 000 € selon état et surface. Contrainte principale : parking inexistant ou payant, ruelles étroites.",
+        body: "Le Plateau, le cœur médiéval sur la butte calcaire dominée par l'église Notre-Dame-la-Grande, est le quartier le plus recherché pour l'adresse et le charme. Rues piétonnes, marchés, cafés, architecture romane. Prix : 1 900–2 500 €/m² pour du rénové. Un T2 de 45 m² : 90 000–115 000 €. Les maisons de ville à colombages ou pierres calcaires : 200 000–350 000 € selon état et surface. Contrainte principale : parking inexistant ou payant, ruelles étroites.",
       },
       {
         heading: "Demi-Lune et Saint-Éloi : le résidentiel convoité",
@@ -21114,11 +21114,11 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Beaulieu et secteurs étudiants",
-        body: "Le campus universitaire de Beaulieu (sud) génère une forte demande locative étudiante. Les studios et T1 proches de l'université : 1 300–1 700 €/m², rendement brut 6–8 %. La clientèle étudiante est stable (Université de Poitiers couvre médecine, droit, sciences, lettres — 30 000 inscrits). Le risque de vacance y est faible sur les petites surfaces. C'est la logique investisseur classique.",
+        body: "Le campus universitaire de Beaulieu (sud) génère une forte demande locative étudiante. Les studios et T1 proches de l'université : 1 300–1 700 €/m², rendement brut 6–8 %. La clientèle étudiante est stable (Université de Poitiers couvre médecine, droit, sciences, lettres, 30 000 inscrits). Le risque de vacance y est faible sur les petites surfaces. C'est la logique investisseur classique.",
       },
       {
         heading: "Le TGV Paris–Poitiers",
-        body: "Poitiers est sur la LGV Atlantique : Paris-Montparnasse en 1h20, Bordeaux en 55 minutes. C'est le meilleur accès TGV pour son niveau de prix. Abonnement mensuel Paris–Poitiers (Fréquence SNCF) : environ 350–380 €/mois. La ville est moins connue que Tours dans le cadre des «villes TGV accessibles pour télétravailleurs parisiens» — ce qui explique en partie que les prix n'aient pas autant décollé.",
+        body: "Poitiers est sur la LGV Atlantique : Paris-Montparnasse en 1h20, Bordeaux en 55 minutes. C'est le meilleur accès TGV pour son niveau de prix. Abonnement mensuel Paris–Poitiers (Fréquence SNCF) : environ 350–380 €/mois. La ville est moins connue que Tours dans le cadre des «villes TGV accessibles pour télétravailleurs parisiens»: ce qui explique en partie que les prix n'aient pas autant décollé.",
       },
       {
         heading: "Budget global",
@@ -21126,7 +21126,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Points de vigilance",
-        body: "Poitiers souffre d'un déficit d'image par rapport à des villes voisines plus «sexy» (Bordeaux, Nantes, La Rochelle). Ce n'est pas une ville en déclin démographique — la population est stable grâce à l'université — mais la dynamique économique hors université et Futuroscope reste à surveiller. Les quartiers en rive de Clain (est) peuvent être soumis à risque d'inondation — vérifier plan PPR avant achat.",
+        body: "Poitiers souffre d'un déficit d'image par rapport à des villes voisines plus «sexy» (Bordeaux, Nantes, La Rochelle). Ce n'est pas une ville en déclin démographique, la population est stable grâce à l'université, mais la dynamique économique hors université et Futuroscope reste à surveiller. Les quartiers en rive de Clain (est) peuvent être soumis à risque d'inondation: vérifier plan PPR avant achat.",
       },
     ],
     relatedCities: ["poitiers", "niort", "la-rochelle", "tours", "angouleme"],
@@ -21151,7 +21151,7 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Le centre médiéval et Ville close",
-        body: "La Ville close de Vannes — remparts, porte Saint-Vincent, rues de maisons à colombages — est le secteur le plus recherché. Offre rare, prix élevés : 3 500–4 800 €/m² pour une maison de caractère. Un T2 rénové intra-muros : 190 000–260 000 €. Les contraintes patrimoniales (ABF) sont fortes ; les travaux d'isolation thermique nécessitent des autorisations. Pour une adresse de prestige Vannetais, c'est le choix — mais pas pour optimiser le rapport m²/€.",
+        body: "La Ville close de Vannes, remparts, porte Saint-Vincent, rues de maisons à colombages, est le secteur le plus recherché. Offre rare, prix élevés : 3 500–4 800 €/m² pour une maison de caractère. Un T2 rénové intra-muros : 190 000–260 000 €. Les contraintes patrimoniales (ABF) sont fortes ; les travaux d'isolation thermique nécessitent des autorisations. Pour une adresse de prestige Vannetais, c'est le choix, mais pas pour optimiser le rapport m²/€.",
       },
       {
         heading: "Saint-Patern et Kercado : le cœur résidentiel",
@@ -21167,7 +21167,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Accessibilité et contraintes",
-        body: "TGV Paris-Montparnasse–Vannes : 2h40 en TGV direct (quelques rotations par jour) ou 3h15 en TER via Rennes. Pour un télétravailleur qui va rarement à Paris, c'est acceptable. Pour un navetteur hebdomadaire, l'abonnement (400–450 €/mois) s'ajoute à des prix immobiliers élevés — la combinaison devient chère. Bretagne Wifi, les espaces de coworking et les fibre très bien déployés en Morbihan compensent partiellement pour les télétravailleurs à plein temps.",
+        body: "TGV Paris-Montparnasse–Vannes : 2h40 en TGV direct (quelques rotations par jour) ou 3h15 en TER via Rennes. Pour un télétravailleur qui va rarement à Paris, c'est acceptable. Pour un navetteur hebdomadaire, l'abonnement (400–450 €/mois) s'ajoute à des prix immobiliers élevés: la combinaison devient chère. Bretagne Wifi, les espaces de coworking et les fibre très bien déployés en Morbihan compensent partiellement pour les télétravailleurs à plein temps.",
       },
       {
         heading: "Budget et perspectives 2026",
@@ -21196,11 +21196,11 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Centre-ville et Rebberg : le bon et le moins bon",
-        body: "La Rebberg est le quartier résidentiel bourgeois de Mulhouse, sur la colline ouest : villas début XXe, jardins, vue sur la plaine du Rhin, calme. C'est l'adresse la plus convoitée (1 800–2 400 €/m²). Le centre-ville historique autour de la place de la Réunion est en cours de réhabilitation progressive : hôtel de ville Renaissance, rues piétonnes, marché. Prix centre : 1 400–1 900 €/m². Les achats en centre représentent un pari sur la requalification urbaine — la tendance est positive mais lente.",
+        body: "La Rebberg est le quartier résidentiel bourgeois de Mulhouse, sur la colline ouest : villas début XXe, jardins, vue sur la plaine du Rhin, calme. C'est l'adresse la plus convoitée (1 800–2 400 €/m²). Le centre-ville historique autour de la place de la Réunion est en cours de réhabilitation progressive : hôtel de ville Renaissance, rues piétonnes, marché. Prix centre : 1 400–1 900 €/m². Les achats en centre représentent un pari sur la requalification urbaine: la tendance est positive mais lente.",
       },
       {
         heading: "Dornach et Bourtzwiller : les quartiers à éviter",
-        body: "Bourtzwiller et certaines parties de Dornach sont des quartiers en grande difficulté sociale — fort taux de logement social dégradé, insécurité réelle. Les prix y sont mécaniquement bas (700–1 100 €/m²) mais les risques locatifs (impayés, dégradations, difficulté de revente) sont élevés. Ce n'est pas une zone d'investissement recommandable sauf pour les professionnels de l'immobilier social.",
+        body: "Bourtzwiller et certaines parties de Dornach sont des quartiers en grande difficulté sociale, fort taux de logement social dégradé, insécurité réelle. Les prix y sont mécaniquement bas (700–1 100 €/m²) mais les risques locatifs (impayés, dégradations, difficulté de revente) sont élevés. Ce n'est pas une zone d'investissement recommandable sauf pour les professionnels de l'immobilier social.",
       },
       {
         heading: "Illzach, Kingersheim, Wittenheim : le périurbain fonctionnel",
@@ -21241,7 +21241,7 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Qui quitte Aix et pourquoi",
-        body: "Les profils qui envisagent de quitter Aix sont typiquement : les locataires dont le loyer a été augmenté lors du renouvellement (la ville n'est pas en zone d'encadrement des loyers stricte), les primo-accédants qui n'ont pas réussi à acheter malgré plusieurs années de tentatives, les retraités qui ont vendu leur maison et cherchent à réinvestir avec un reste à vivre confortable, et les télétravailleurs qui n'ont plus de contrainte géographique. Le facteur commun est le prix : Aix est perçue comme « trop chère pour ce qu'on y obtient concrètement » — sans la plage à portée (la mer est à 25 min de Marseille, pas d'Aix), sans le dynamisme économique de Lyon, sans le rayonnement culturel de Paris.",
+        body: "Les profils qui envisagent de quitter Aix sont typiquement : les locataires dont le loyer a été augmenté lors du renouvellement (la ville n'est pas en zone d'encadrement des loyers stricte), les primo-accédants qui n'ont pas réussi à acheter malgré plusieurs années de tentatives, les retraités qui ont vendu leur maison et cherchent à réinvestir avec un reste à vivre confortable, et les télétravailleurs qui n'ont plus de contrainte géographique. Le facteur commun est le prix : Aix est perçue comme « trop chère pour ce qu'on y obtient concrètement », sans la plage à portée (la mer est à 25 min de Marseille, pas d'Aix), sans le dynamisme économique de Lyon, sans le rayonnement culturel de Paris.",
       },
       {
         heading: "Avignon : la Provence authentique moins chère",
@@ -21253,7 +21253,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Toulon : la mer et le soleil à un prix raisonnable",
-        body: "Toulon est à 60 km au sud-est d'Aix (55 minutes par l'A51 puis l'A8). Les prix y sont 30–40 % inférieurs à Aix pour un ensoleillement équivalent (Toulon est même légèrement plus ensoleillé). T2 à 700–950 €/mois de loyer, achat à 2 200–3 500 €/m² selon quartier. Le Mourillon (face à la petite mer, pins maritimes, promenade) est l'un des cadres de vie les plus agréables de PACA pour un prix qui reste abordable. Toulon a un port militaire actif, ce qui lui confère une image peu glamour — mais ceux qui y habitent apprécient justement que ce ne soit pas une station balnéaire saturée de touristes.",
+        body: "Toulon est à 60 km au sud-est d'Aix (55 minutes par l'A51 puis l'A8). Les prix y sont 30–40 % inférieurs à Aix pour un ensoleillement équivalent (Toulon est même légèrement plus ensoleillé). T2 à 700–950 €/mois de loyer, achat à 2 200–3 500 €/m² selon quartier. Le Mourillon (face à la petite mer, pins maritimes, promenade) est l'un des cadres de vie les plus agréables de PACA pour un prix qui reste abordable. Toulon a un port militaire actif, ce qui lui confère une image peu glamour, mais ceux qui y habitent apprécient justement que ce ne soit pas une station balnéaire saturée de touristes.",
       },
       {
         heading: "Nîmes : l'Occitanie méditerranéenne oubliée",
@@ -21380,7 +21380,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Dijon : sous-estimée, pas déclinante",
-        body: "Dijon est régulièrement identifiée comme l'une des villes françaises au meilleur rapport qualité/prix par les analystes immobiliers sérieux. Le marché oscille autour de 2 500–3 200 €/m² en centre-ville — 30 % moins qu'à Lyon pour une qualité de vie qui n'en est pas si éloignée (gastronomie, culture, université, CHU, TGV Paris en 1h30). La ville attire des Parisiens qui achètent une résidence principale et des Lyonnais qui veulent plus d'espace. Signe de sous-cotation avancée : des pressions haussières perceptibles depuis 2023, mais qui restent mesurées.",
+        body: "Dijon est régulièrement identifiée comme l'une des villes françaises au meilleur rapport qualité/prix par les analystes immobiliers sérieux. Le marché oscille autour de 2 500–3 200 €/m² en centre-ville, 30 % moins qu'à Lyon pour une qualité de vie qui n'en est pas si éloignée (gastronomie, culture, université, CHU, TGV Paris en 1h30). La ville attire des Parisiens qui achètent une résidence principale et des Lyonnais qui veulent plus d'espace. Signe de sous-cotation avancée : des pressions haussières perceptibles depuis 2023, mais qui restent mesurées.",
       },
       {
         heading: "Clermont-Ferrand : le paradoxe du chef-lieu auvergnat",
@@ -21411,7 +21411,7 @@ export const GUIDES: Guide[] = [
     slug: "nouvelles-villes-montantes-france-2026",
     title: "Les nouvelles villes qui montent en France en 2026 — émergence et trajectoires",
     metaTitle: "Villes françaises montantes 2026 — émergence, trajectoires et opportunités",
-    metaDesc: "Quelles villes françaises gagnent en attractivité en 2026 ? Émergence post-Covid, télétravail, réurbanisation des villes moyennes — les marchés en train de se retourner.",
+    metaDesc: "Quelles villes françaises gagnent en attractivité en 2026 ? Émergence post-Covid, télétravail, réurbanisation des villes moyennes: les marchés en train de se retourner.",
     category: "lifestyle",
     emoji: "🚀",
     readMinutes: 10,
@@ -21560,7 +21560,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Reims : la grande ville champagnoise",
-        body: "Reims (185 000 hab.) est à 80 km de Troyes — 1h15 par route, pas de liaison ferroviaire directe rapide. C'est la grande ville régionale de référence : Champagne-Ardenne académique et administratif, un beau centre-ville, le TGV Paris en 45 minutes. Immobilier : 2 200–3 000 €/m², soit 20–40 % de plus qu'à Troyes. Pour quelqu'un qui cherche une ville plus dynamique sans aller jusqu'à Paris, Reims est la destination logique.",
+        body: "Reims (185 000 hab.) est à 80 km de Troyes, 1h15 par route, pas de liaison ferroviaire directe rapide. C'est la grande ville régionale de référence : Champagne-Ardenne académique et administratif, un beau centre-ville, le TGV Paris en 45 minutes. Immobilier : 2 200–3 000 €/m², soit 20–40 % de plus qu'à Troyes. Pour quelqu'un qui cherche une ville plus dynamique sans aller jusqu'à Paris, Reims est la destination logique.",
       },
       {
         heading: "Dijon : la ville bourguignonne",
@@ -21568,7 +21568,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Sens : l'alternative calme",
-        body: "Sens (26 000 hab.) à 60 km au nord-ouest de Troyes est une petite ville historique (cathédrale gothique, musée), à 55 minutes de Paris-Bercy par Transilien — ce qui en fait une option de résidence pour les Parisiens ou navetteurs à la recherche de calme et de prix très bas (1 200–1 700 €/m²). Pour quelqu'un qui quitte Troyes pour encore plus de tranquillité et un accès Paris facilité, Sens est une option.",
+        body: "Sens (26 000 hab.) à 60 km au nord-ouest de Troyes est une petite ville historique (cathédrale gothique, musée), à 55 minutes de Paris-Bercy par Transilien: ce qui en fait une option de résidence pour les Parisiens ou navetteurs à la recherche de calme et de prix très bas (1 200–1 700 €/m²). Pour quelqu'un qui quitte Troyes pour encore plus de tranquillité et un accès Paris facilité, Sens est une option.",
       },
       {
         heading: "Paris : la fuite classique",
@@ -21609,11 +21609,11 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Brest : pour un marché immobilier encore sain",
-        body: "Brest est à 140 km (1h45) — plus loin, mais le marché immobilier y reste parmi les plus abordables de Bretagne pour une vraie ville (1 700–2 400 €/m² en ville). CHU, université de 24 000 étudiants, port militaire actif, technopôle : le bassin d'emploi est plus solide que Vannes ou Lorient. Le cadre n'a pas le glamour du Golfe du Morbihan, mais l'accessibilité aux plages de l'Iroise et au Finistère est réelle.",
+        body: "Brest est à 140 km (1h45): plus loin, mais le marché immobilier y reste parmi les plus abordables de Bretagne pour une vraie ville (1 700–2 400 €/m² en ville). CHU, université de 24 000 étudiants, port militaire actif, technopôle : le bassin d'emploi est plus solide que Vannes ou Lorient. Le cadre n'a pas le glamour du Golfe du Morbihan, mais l'accessibilité aux plages de l'Iroise et au Finistère est réelle.",
       },
       {
         heading: "Saint-Brieuc : la discrétion côtes d'armor",
-        body: "Saint-Brieuc (45 000 hab.) à 120 km au nord est la capitale des Côtes-d'Armor — souvent négligée mais offrant un marché très accessible (1 400–2 000 €/m²), des accès côtiers remarquables (baie de Saint-Brieuc classée Natura 2000), et Paris en 2h30 de TGV. Pour les familles qui veulent la Bretagne vraiment authentique (sans l'inflation touristique du Golfe), Saint-Brieuc mérite d'être sérieusement envisagé.",
+        body: "Saint-Brieuc (45 000 hab.) à 120 km au nord est la capitale des Côtes-d'Armor, souvent négligée mais offrant un marché très accessible (1 400–2 000 €/m²), des accès côtiers remarquables (baie de Saint-Brieuc classée Natura 2000), et Paris en 2h30 de TGV. Pour les familles qui veulent la Bretagne vraiment authentique (sans l'inflation touristique du Golfe), Saint-Brieuc mérite d'être sérieusement envisagé.",
       },
       {
         heading: "Communes morbihannaises moins chères",
@@ -21646,7 +21646,7 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Pourquoi part-on ?",
-        body: "L'économie poitevine repose largement sur la fonction publique (préfecture de région jusqu'en 2016 — statut perdu lors de la fusion avec la Nouvelle-Aquitaine), l'université, et Futuroscope (5 000 emplois, essentiellement saisonniers ou peu qualifiés). Pour un cadre ou un ingénieur qui cherche un marché de l'emploi diversifié, la frustration s'installe rapidement. La ville n'est pas en déclin démographique — elle stabilise autour de 90 000 habitants — mais elle ne croît pas.",
+        body: "L'économie poitevine repose largement sur la fonction publique (préfecture de région jusqu'en 2016: statut perdu lors de la fusion avec la Nouvelle-Aquitaine), l'université, et Futuroscope (5 000 emplois, essentiellement saisonniers ou peu qualifiés). Pour un cadre ou un ingénieur qui cherche un marché de l'emploi diversifié, la frustration s'installe rapidement. La ville n'est pas en déclin démographique, elle stabilise autour de 90 000 habitants, mais elle ne croît pas.",
       },
       {
         heading: "La Rochelle : le choix qualité de vie",
@@ -21662,7 +21662,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Niort : l'option calme et abordable",
-        body: "Niort (60 000 hab.) à 70 km au sud-ouest est une ville de mutuelles et d'assurance (MAIF, MACIF, GMPA ont leur siège ou de grands établissements dans l'agglomération) — offre d'emploi tertiaire réelle pour les profils finance et administratif. Immobilier très accessible (1 500–2 200 €/m²). Pas de TGV direct mais TER Niort–Paris via TGV à Poitiers ou Saint-Pierre-des-Corps. Pour un télétravailleur ou un profil assurance/mutuelle, c'est un choix cohérent.",
+        body: "Niort (60 000 hab.) à 70 km au sud-ouest est une ville de mutuelles et d'assurance (MAIF, MACIF, GMPA ont leur siège ou de grands établissements dans l'agglomération): offre d'emploi tertiaire réelle pour les profils finance et administratif. Immobilier très accessible (1 500–2 200 €/m²). Pas de TGV direct mais TER Niort–Paris via TGV à Poitiers ou Saint-Pierre-des-Corps. Pour un télétravailleur ou un profil assurance/mutuelle, c'est un choix cohérent.",
       },
       {
         heading: "Ce que vous perdez",
@@ -21707,11 +21707,11 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Passer en Suisse (Bâle)",
-        body: "Pour les frontaliers qui quittent Colmar, s'installer côté suisse à Bâle est parfois la réponse — mais les prix immobiliers suisses (7 000–12 000 CHF/m² dans le canton de Bâle-Ville) sont prohibitifs pour un achat. La location est gérable mais reste chère. Certains optent pour la rive alémanique du Rhin (Binningen, Riehen) ou les communes du canton de Bâle-Campagne.",
+        body: "Pour les frontaliers qui quittent Colmar, s'installer côté suisse à Bâle est parfois la réponse, mais les prix immobiliers suisses (7 000–12 000 CHF/m² dans le canton de Bâle-Ville) sont prohibitifs pour un achat. La location est gérable mais reste chère. Certains optent pour la rive alémanique du Rhin (Binningen, Riehen) ou les communes du canton de Bâle-Campagne.",
       },
       {
         heading: "Ce que vous abandonnez",
-        body: "Colmar présente un argument irremplaçable : un patrimoine architectural médiéval intact que vous ne retrouverez pas dans les alternatives régionales. Strasbourg a son centre historique, Besançon sa citadelle, Mulhouse ses musées — mais aucune n'a la densité de colombages et de canaux du vieux Colmar. Pour ceux qui ont fait le choix de vivre à Colmar pour l'esthétique, les raisons de partir doivent être impératives (professionnelles ou familiales) pour dépasser le poids de cet argument.",
+        body: "Colmar présente un argument irremplaçable : un patrimoine architectural médiéval intact que vous ne retrouverez pas dans les alternatives régionales. Strasbourg a son centre historique, Besançon sa citadelle, Mulhouse ses musées, mais aucune n'a la densité de colombages et de canaux du vieux Colmar. Pour ceux qui ont fait le choix de vivre à Colmar pour l'esthétique, les raisons de partir doivent être impératives (professionnelles ou familiales) pour dépasser le poids de cet argument.",
       },
     ],
     relatedCities: ["colmar", "strasbourg", "mulhouse", "besancon", "belfort"],
@@ -21736,27 +21736,27 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Le problème spécifique de Biarritz",
-        body: "Biarritz souffre d'une rente de position extrême : la Grande Plage, les villas Belle Époque, le surf de réputation mondiale, la proximité de San Sebastián — tout cela crée une demande mondiale sur une ville de 26 000 habitants. Le résultat : une stratification sociale où les actifs locaux (employés hôteliers, surfeurs pro, artisans) ne peuvent plus habiter là où ils travaillent. La ville est en voie de devenir une station premium à temps partiel plutôt qu'une ville vivante.",
+        body: "Biarritz souffre d'une rente de position extrême : la Grande Plage, les villas Belle Époque, le surf de réputation mondiale, la proximité de San Sebastián: tout cela crée une demande mondiale sur une ville de 26 000 habitants. Le résultat : une stratification sociale où les actifs locaux (employés hôteliers, surfeurs pro, artisans) ne peuvent plus habiter là où ils travaillent. La ville est en voie de devenir une station premium à temps partiel plutôt qu'une ville vivante.",
       },
       {
         heading: "Bayonne : la ville voisine à prix raisonnable",
-        body: "Bayonne (50 000 hab.) à 8 km est la réponse la plus évidente : culture basque intacte (les fêtes de Bayonne sont aussi importantes que celles de Pampelune), ruelles et halles couvertes authentiques, marché de l'emploi plus diversifié (port fluvial, administration, commerce), et immobilier à 3 000–4 500 €/m² — soit 25–40 % de moins que Biarritz. Pour la majorité de ceux qui quittent Biarritz, Bayonne est la destination principale.",
+        body: "Bayonne (50 000 hab.) à 8 km est la réponse la plus évidente : culture basque intacte (les fêtes de Bayonne sont aussi importantes que celles de Pampelune), ruelles et halles couvertes authentiques, marché de l'emploi plus diversifié (port fluvial, administration, commerce), et immobilier à 3 000–4 500 €/m²: soit 25–40 % de moins que Biarritz. Pour la majorité de ceux qui quittent Biarritz, Bayonne est la destination principale.",
       },
       {
         heading: "Anglet : entre les deux",
-        body: "Anglet (40 000 hab.) est littéralement coincé entre Biarritz et Bayonne — moins cher que Biarritz (3 200–4 800 €/m²) mais préservant l'accès surf (la forêt de pins et les plages sont en grande partie dans Anglet). C'est la commune périurbaine pour les familles qui veulent rester dans l'univers BAB (Bayonne-Anglet-Biarritz) sans payer le prix Biarritz.",
+        body: "Anglet (40 000 hab.) est littéralement coincé entre Biarritz et Bayonne, moins cher que Biarritz (3 200–4 800 €/m²) mais préservant l'accès surf (la forêt de pins et les plages sont en grande partie dans Anglet). C'est la commune périurbaine pour les familles qui veulent rester dans l'univers BAB (Bayonne-Anglet-Biarritz) sans payer le prix Biarritz.",
       },
       {
         heading: "Saint-Jean-de-Luz : pour rester côte basque mais au sud",
-        body: "Saint-Jean-de-Luz (13 000 hab.) à 25 km au sud est une petite ville balnéaire basque avec un port de pêche actif, une Côte Basque-Landaise accessible, et des prix inférieurs à Biarritz mais quand même élevés (4 000–6 500 €/m²). C'est la destination des acheteurs qui veulent vraiment rester en Pays Basque côtier et ont les moyens. Saint-Jean est calme hors saison — plus que Biarritz.",
+        body: "Saint-Jean-de-Luz (13 000 hab.) à 25 km au sud est une petite ville balnéaire basque avec un port de pêche actif, une Côte Basque-Landaise accessible, et des prix inférieurs à Biarritz mais quand même élevés (4 000–6 500 €/m²). C'est la destination des acheteurs qui veulent vraiment rester en Pays Basque côtier et ont les moyens. Saint-Jean est calme hors saison: plus que Biarritz.",
       },
       {
         heading: "Dax et les Landes : l'option abordable",
-        body: "Dax (20 000 hab.) à 40 km au nord est une ville thermale dans les Landes — forêt de pins, immobilier à 1 500–2 500 €/m², calme, mais une économie centrée sur le thermalisme. Pour les retraités et les télétravailleurs qui veulent la douceur des Landes sans les prix basques, c'est une option sérieuse. Mont-de-Marsan (32 000 hab., 70 km) est la plus grande ville des Landes avec un marché de l'emploi plus diversifié.",
+        body: "Dax (20 000 hab.) à 40 km au nord est une ville thermale dans les Landes, forêt de pins, immobilier à 1 500–2 500 €/m², calme, mais une économie centrée sur le thermalisme. Pour les retraités et les télétravailleurs qui veulent la douceur des Landes sans les prix basques, c'est une option sérieuse. Mont-de-Marsan (32 000 hab., 70 km) est la plus grande ville des Landes avec un marché de l'emploi plus diversifié.",
       },
       {
         heading: "Pau : la ville béarnaise",
-        body: "Pau (75 000 hab.) à 100 km au sud-est est la grande ville béarnaise — Pyrénées visibles depuis le boulevard des Pyrénées, économie pétrolière (TotalEnergies) et aéronautique, immobilier accessible (2 000–3 200 €/m²), TGV Paris en 4h05 (ou Bordeaux en 2h pour TGV de bonne fréquence). C'est la destination pour ceux qui quittent Biarritz pour raisons économiques mais veulent rester dans le grand Sud-Ouest atlantico-montagnard.",
+        body: "Pau (75 000 hab.) à 100 km au sud-est est la grande ville béarnaise, Pyrénées visibles depuis le boulevard des Pyrénées, économie pétrolière (TotalEnergies) et aéronautique, immobilier accessible (2 000–3 200 €/m²), TGV Paris en 4h05 (ou Bordeaux en 2h pour TGV de bonne fréquence). C'est la destination pour ceux qui quittent Biarritz pour raisons économiques mais veulent rester dans le grand Sud-Ouest atlantico-montagnard.",
       },
     ],
     relatedCities: ["biarritz", "bayonne", "saint-jean-de-luz", "dax", "pau"],
@@ -21781,15 +21781,15 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Prix par quartier : où en est le marché ?",
-        body: "La Cathédrale et le centre historique concentrent le patrimoine (maisons à colombages, rues médiévales) mais aussi les biens les plus chers : 2 600–3 200 €/m² en bon état. C'est le quartier pour les acheteurs qui veulent le cachet sans se soucier de l'animation. Beaulieu (rive gauche) est le quartier résidentiel des familles — pavillons et immeubles 1960–1980, 2 200–2 700 €/m², à 15 min à pied du centre. Rechèvres (nord) est le quartier le plus abordable de Chartres : 1 900–2 400 €/m², parc des Bords de l'Eure à proximité, tramway pour rejoindre la gare.",
+        body: "La Cathédrale et le centre historique concentrent le patrimoine (maisons à colombages, rues médiévales) mais aussi les biens les plus chers : 2 600–3 200 €/m² en bon état. C'est le quartier pour les acheteurs qui veulent le cachet sans se soucier de l'animation. Beaulieu (rive gauche) est le quartier résidentiel des familles, pavillons et immeubles 1960–1980, 2 200–2 700 €/m², à 15 min à pied du centre. Rechèvres (nord) est le quartier le plus abordable de Chartres : 1 900–2 400 €/m², parc des Bords de l'Eure à proximité, tramway pour rejoindre la gare.",
       },
       {
         heading: "Les frais réels d'un achat à Chartres",
-        body: "Pour un 3 pièces 65 m² à Beaulieu (2 450 €/m²) : prix FAI 160 000 €, frais de notaire ~13 000 €, agence ~6 000 € = total 179 000 €. Apport recommandé : 20 % = 36 000 €. Mensualité sur 20 ans à 3,9 % : ~870 €/mois. À comparer avec un loyer Chartres du même bien : 700–800 €/mois. L'achat s'amortit en environ 12–14 ans dans ce scénario — rentable si vous restez. Attention aux copropriétés années 1970 avec charges élevées et DPE E/F.",
+        body: "Pour un 3 pièces 65 m² à Beaulieu (2 450 €/m²) : prix FAI 160 000 €, frais de notaire ~13 000 €, agence ~6 000 € = total 179 000 €. Apport recommandé : 20 % = 36 000 €. Mensualité sur 20 ans à 3,9 % : ~870 €/mois. À comparer avec un loyer Chartres du même bien : 700–800 €/mois. L'achat s'amortit en environ 12–14 ans dans ce scénario, rentable si vous restez. Attention aux copropriétés années 1970 avec charges élevées et DPE E/F.",
       },
       {
         heading: "Chartres pour un navetteur Paris : réalité du train",
-        body: "Intercités Paris-Montparnasse–Chartres, 1h08 de trajet, ~20 allers-retours par jour en semaine. Abonnement mensuel : ~200 € avec carte Avantage SNCF (ou 250 € sans). Le quai à Paris est Montparnasse — bien placé pour le 14e, 15e, la Défense en correspondance. Problème : pas de TGV ici, que des Intercités. En cas de grève ou perturbation, pas d'alternative rapide. Les navetteurs Chartres-Paris décrivent une dépendance forte au réseau SNCF — à anticiper dans le projet de vie.",
+        body: "Intercités Paris-Montparnasse–Chartres, 1h08 de trajet, ~20 allers-retours par jour en semaine. Abonnement mensuel : ~200 € avec carte Avantage SNCF (ou 250 € sans). Le quai à Paris est Montparnasse, bien placé pour le 14e, 15e, la Défense en correspondance. Problème : pas de TGV ici, que des Intercités. En cas de grève ou perturbation, pas d'alternative rapide. Les navetteurs Chartres-Paris décrivent une dépendance forte au réseau SNCF, à anticiper dans le projet de vie.",
       },
       {
         heading: "Ce qu'on ne vous dit pas sur Chartres",
@@ -21797,7 +21797,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Alternatives proches si Chartres ne convient pas",
-        body: "Dreux (32 000 hab., 40 km) à 1h20 de Paris-St-Lazare — encore plus abordable (1 600–2 500 €/m²) mais moins de charme. Orléans (115 000 hab., 1h05 de Paris-Austerlitz) — plus grande ville, meilleur marché de l'emploi, mais 30 % plus cher. Rambouillet (27 000 hab.) à 40 min de Paris Montparnasse, forêt, cadre résidentiel mais prix élevés (3 200–4 500 €/m²). Vendôme (TGV direct Paris 45 min) à 60 km — surprenant rapport qualité-prix pour les acheteurs avec budget serré.",
+        body: "Dreux (32 000 hab., 40 km) à 1h20 de Paris-St-Lazare, encore plus abordable (1 600–2 500 €/m²) mais moins de charme. Orléans (115 000 hab., 1h05 de Paris-Austerlitz), plus grande ville, meilleur marché de l'emploi, mais 30 % plus cher. Rambouillet (27 000 hab.) à 40 min de Paris Montparnasse, forêt, cadre résidentiel mais prix élevés (3 200–4 500 €/m²). Vendôme (TGV direct Paris 45 min) à 60 km, surprenant rapport qualité-prix pour les acheteurs avec budget serré.",
       },
     ],
     relatedCities: ["chartres", "orleans", "dreux", "vendome", "rambouillet"],
@@ -21821,15 +21821,15 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Prix par quartier : le marché lorientais",
-        body: "Le centre-ville (Lorient-Perrière, quartier de la reconstruction) concentre les appartements T2/T3 — 1 900–2 600 €/m². Proche gare, commerces, mais peu de cachet architectural. Keryado (est) est le quartier résidentiel préféré des familles : maisons individuelles, 2 000–2 800 €/m², calme, commodités. Lanester (commune limitrophe, rive gauche du Blavet) offre les prix les plus bas : 1 400–2 000 €/m², accessible en 10 min en centre-ville Lorient, mais commune distincte à intégrer dans la réflexion. Larmor-Plage (5 km sud) : bord de mer, plages, 2 500–3 800 €/m² — la prime balnéaire.",
+        body: "Le centre-ville (Lorient-Perrière, quartier de la reconstruction) concentre les appartements T2/T3, 1 900–2 600 €/m². Proche gare, commerces, mais peu de cachet architectural. Keryado (est) est le quartier résidentiel préféré des familles : maisons individuelles, 2 000–2 800 €/m², calme, commodités. Lanester (commune limitrophe, rive gauche du Blavet) offre les prix les plus bas : 1 400–2 000 €/m², accessible en 10 min en centre-ville Lorient, mais commune distincte à intégrer dans la réflexion. Larmor-Plage (5 km sud) : bord de mer, plages, 2 500–3 800 €/m², la prime balnéaire.",
       },
       {
         heading: "Budget réaliste pour un achat à Lorient",
-        body: "Pour un T3 65 m² à Keryado (2 200 €/m²) : 143 000 € FAI, frais de notaire ~11 500 €, agence ~5 000 € = total 160 000 €. Apport 20 % = 32 000 €. Mensualité 20 ans à 3,9 % : ~780 €/mois. Loyer équivalent : 650–750 €/mois. Durée d'amortissement : 13–16 ans. Les maisons de ville dans le centre reconstruit — typiques architecture Lorient — démarrent à 160 000–220 000 € pour 80–100 m².",
+        body: "Pour un T3 65 m² à Keryado (2 200 €/m²) : 143 000 € FAI, frais de notaire ~11 500 €, agence ~5 000 € = total 160 000 €. Apport 20 % = 32 000 €. Mensualité 20 ans à 3,9 % : ~780 €/mois. Loyer équivalent : 650–750 €/mois. Durée d'amortissement : 13–16 ans. Les maisons de ville dans le centre reconstruit, typiques architecture Lorient, démarrent à 160 000–220 000 € pour 80–100 m².",
       },
       {
         heading: "Marché de l'emploi et économie locale",
-        body: "Lorient est une ville à économie mixte : port militaire (DCN, Marine nationale), pêche industrielle et criée (3e port de pêche français), industrie nautique (Lorient Agglomération Nautisme), agroalimentaire (conserveries) et services publics. Le taux de chômage (autour de 11 %) est au-dessus de la moyenne bretonne. Pour un emploi dans le privé hors secteurs identifiés, le bassin est limité. Le télétravail change la donne — beaucoup de cadres acheteurs à Lorient en 2024–2026 travaillent à Paris ou Rennes.",
+        body: "Lorient est une ville à économie mixte : port militaire (DCN, Marine nationale), pêche industrielle et criée (3e port de pêche français), industrie nautique (Lorient Agglomération Nautisme), agroalimentaire (conserveries) et services publics. Le taux de chômage (autour de 11 %) est au-dessus de la moyenne bretonne. Pour un emploi dans le privé hors secteurs identifiés, le bassin est limité. Le télétravail change la donne, beaucoup de cadres acheteurs à Lorient en 2024–2026 travaillent à Paris ou Rennes.",
       },
       {
         heading: "Cadre de vie : Lorient au quotidien",
@@ -21837,7 +21837,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Alternatives si Lorient ne correspond pas",
-        body: "Vannes (55 000 hab., 60 km est) est plus dynamique économiquement, plus chère (2 200–3 500 €/m²), golfe du Morbihan. Quimper (63 000 hab., 70 km ouest) — préfecture finistérienne, belle vieille ville, 1 700–2 600 €/m². Brest (150 000 hab., 100 km nord-ouest) — ville universitaire, prix comparables à Lorient (1 800–2 800 €/m²), meilleur bassin d'emploi. Hennebont (15 000 hab., 12 km nord) — satellite de Lorient, maisons moins chères, cadre de bourg.",
+        body: "Vannes (55 000 hab., 60 km est) est plus dynamique économiquement, plus chère (2 200–3 500 €/m²), golfe du Morbihan. Quimper (63 000 hab., 70 km ouest), préfecture finistérienne, belle vieille ville, 1 700–2 600 €/m². Brest (150 000 hab., 100 km nord-ouest), ville universitaire, prix comparables à Lorient (1 800–2 800 €/m²), meilleur bassin d'emploi. Hennebont (15 000 hab., 12 km nord), satellite de Lorient, maisons moins chères, cadre de bourg.",
       },
     ],
     relatedCities: ["lorient", "vannes", "quimper", "brest", "rennes"],
@@ -21861,11 +21861,11 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Prix par quartier : le marché chambérien",
-        body: "Le Vieux-Chambéry (centre historique) — fontaine des Éléphants, maisons de caractère, arcades — est le segment premium : 2 900–3 600 €/m² pour du rénové. C'est le choix des acheteurs qui veulent le cachet. Jacob-Bellecombette (est, colline) est le quartier résidentiel prisé des familles : maisons avec jardins, 2 800–3 400 €/m², calme, vue sur le château. Bissy (nord-ouest) offre le meilleur rapport qualité-prix de Chambéry : 2 100–2 700 €/m², tramway ligne T2, commerces de proximité. Le secteur Barberaz–Challes-les-Eaux (commune limitrophe) descend à 2 000–2 600 €/m² avec un cadre plus résidentiel.",
+        body: "Le Vieux-Chambéry (centre historique), fontaine des Éléphants, maisons de caractère, arcades, est le segment premium : 2 900–3 600 €/m² pour du rénové. C'est le choix des acheteurs qui veulent le cachet. Jacob-Bellecombette (est, colline) est le quartier résidentiel prisé des familles : maisons avec jardins, 2 800–3 400 €/m², calme, vue sur le château. Bissy (nord-ouest) offre le meilleur rapport qualité-prix de Chambéry : 2 100–2 700 €/m², tramway ligne T2, commerces de proximité. Le secteur Barberaz–Challes-les-Eaux (commune limitrophe) descend à 2 000–2 600 €/m² avec un cadre plus résidentiel.",
       },
       {
         heading: "Budget réaliste pour un achat à Chambéry",
-        body: "Pour un T3 68 m² à Bissy (2 400 €/m²) : 163 000 € FAI, frais de notaire ~13 200 €, agence ~6 000 € = total 182 000 €. Apport 20 % = 36 400 €. Mensualité 20 ans à 3,9 % : ~890 €/mois. Loyer équivalent Chambéry : 800–950 €/mois. L'achat s'amortit en 14–17 ans. Pour une maison avec jardin à Jacob : comptez 380 000–550 000 € — c'est là où Chambéry reste accessible là où Annecy dépasse allègrement le million.",
+        body: "Pour un T3 68 m² à Bissy (2 400 €/m²) : 163 000 € FAI, frais de notaire ~13 200 €, agence ~6 000 € = total 182 000 €. Apport 20 % = 36 400 €. Mensualité 20 ans à 3,9 % : ~890 €/mois. Loyer équivalent Chambéry : 800–950 €/mois. L'achat s'amortit en 14–17 ans. Pour une maison avec jardin à Jacob : comptez 380 000–550 000 €: c'est là où Chambéry reste accessible là où Annecy dépasse allègrement le million.",
       },
       {
         heading: "Chambéry vs Annecy : la comparaison honnête",
@@ -21877,7 +21877,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Alternatives si Chambéry ne convient pas",
-        body: "Aix-les-Bains (30 000 hab., 15 km nord) — sur le lac du Bourget, plus balnéaire, légèrement plus cher (2 500–3 800 €/m²). Albertville (19 000 hab., 40 km est) — porte des Alpes, marché très abordable (1 800–2 800 €/m²), mais ville fonctionnelle sans grand charme. Grenoble (165 000 hab., 55 km sud) — plus grande ville alpine, prix comparables, meilleur bassin d'emploi tech/recherche. Annecy (130 000 hab., 45 km nord) — le prestige, mais 50 % plus cher.",
+        body: "Aix-les-Bains (30 000 hab., 15 km nord), sur le lac du Bourget, plus balnéaire, légèrement plus cher (2 500–3 800 €/m²). Albertville (19 000 hab., 40 km est), porte des Alpes, marché très abordable (1 800–2 800 €/m²), mais ville fonctionnelle sans grand charme. Grenoble (165 000 hab., 55 km sud), plus grande ville alpine, prix comparables, meilleur bassin d'emploi tech/recherche. Annecy (130 000 hab., 45 km nord): le prestige, mais 50 % plus cher.",
       },
     ],
     relatedCities: ["chambery", "annecy", "grenoble", "aix-les-bains", "albertville"],
@@ -22022,15 +22022,15 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Immobilier : des marchés sans commune mesure",
-        body: "Nice est l'une des villes les plus chères de France après Paris : 4 000–7 500 €/m² selon le quartier (Cimiez, Promenade des Anglais, Vieux-Nice). Le marché est tiré par la demande internationale (retraités italiens, britanniques post-Brexit, investisseurs Monaco). Marseille est 40 à 60 % moins chère : 2 500–5 000 €/m² (Corniche-Kennedy en haut, 13e/14e arrondissement en bas). Pour un même budget, vous achetez deux fois plus de surface à Marseille qu'à Nice. Marseille a aussi un parc de biens anciens très varié — haussmannien, Art Déco, maisons de village dans les quartiers Nord.",
+        body: "Nice est l'une des villes les plus chères de France après Paris : 4 000–7 500 €/m² selon le quartier (Cimiez, Promenade des Anglais, Vieux-Nice). Le marché est tiré par la demande internationale (retraités italiens, britanniques post-Brexit, investisseurs Monaco). Marseille est 40 à 60 % moins chère : 2 500–5 000 €/m² (Corniche-Kennedy en haut, 13e/14e arrondissement en bas). Pour un même budget, vous achetez deux fois plus de surface à Marseille qu'à Nice. Marseille a aussi un parc de biens anciens très varié, haussmannien, Art Déco, maisons de village dans les quartiers Nord.",
       },
       {
         heading: "Emploi et économie : deux structures différentes",
-        body: "Nice est une économie de services et de tourisme : hôtellerie, restauration, finance, immobilier de luxe, et les grandes entreprises de la Côte d'Azur (Sophia Antipolis à 20 km — premier technopôle européen, 36 000 emplois tech). Nice est aussi ville universitaire (30 000 étudiants). Marseille est une économie plus diversifiée et plus grande : port (1er port méditerranéen français), logistique, pétrochimie (Fos-sur-Mer), tourisme, santé (CHU), université (80 000 étudiants), et un écosystème startup en forte croissance (French Tech Aix-Marseille). Pour l'emploi dans la tech, Nice est meilleure grâce à Sophia Antipolis.",
+        body: "Nice est une économie de services et de tourisme : hôtellerie, restauration, finance, immobilier de luxe, et les grandes entreprises de la Côte d'Azur (Sophia Antipolis à 20 km: premier technopôle européen, 36 000 emplois tech). Nice est aussi ville universitaire (30 000 étudiants). Marseille est une économie plus diversifiée et plus grande : port (1er port méditerranéen français), logistique, pétrochimie (Fos-sur-Mer), tourisme, santé (CHU), université (80 000 étudiants), et un écosystème startup en forte croissance (French Tech Aix-Marseille). Pour l'emploi dans la tech, Nice est meilleure grâce à Sophia Antipolis.",
       },
       {
         heading: "Sécurité : un écart réel mais nuancé",
-        body: "Marseille a une réputation de ville dangereuse qui est à la fois vraie et caricaturée. Les statistiques de criminalité violente dans certains quartiers Nord (13e–15e) sont réelles. Mais les quartiers où s'installent les cadres et les familles — 8e, 9e, 12e arrondissements, Mazargues, Château-Gombert — ont des niveaux de sécurité comparables à n'importe quelle grande ville française. Nice a une criminalité de droit commun plus faible, mais des tensions dans certains quartiers (Nice Nord, Ariane). La règle : choisir son quartier à Marseille est crucial ; à Nice, le marché fait le tri naturellement par les prix.",
+        body: "Marseille a une réputation de ville dangereuse qui est à la fois vraie et caricaturée. Les statistiques de criminalité violente dans certains quartiers Nord (13e–15e) sont réelles. Mais les quartiers où s'installent les cadres et les familles, 8e, 9e, 12e arrondissements, Mazargues, Château-Gombert, ont des niveaux de sécurité comparables à n'importe quelle grande ville française. Nice a une criminalité de droit commun plus faible, mais des tensions dans certains quartiers (Nice Nord, Ariane). La règle : choisir son quartier à Marseille est crucial ; à Nice, le marché fait le tri naturellement par les prix.",
       },
       {
         heading: "Plages, mer et qualité de vie méditerranéenne",
@@ -22063,7 +22063,7 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Immobilier : Montpellier plus chère que la logique ne le suggère",
-        body: "Montpellier : 2 800–4 500 €/m² selon le quartier (Écusson en haut, Port-Marianne, Antigone). La ville est chère pour sa taille et son marché de l'emploi — c'est l'effet mer + université + demande résidence secondaire. Toulouse : 2 500–4 000 €/m² (Capitole, Saint-Cyprien, Côte Pavée). Toulouse est légèrement moins chère pour une ville deux fois plus grande avec un marché de l'emploi deux fois plus profond. Rapport qualité/prix global : Toulouse. Pour les amateurs de mer et de Méditerranée : Montpellier justifie son premium.",
+        body: "Montpellier : 2 800–4 500 €/m² selon le quartier (Écusson en haut, Port-Marianne, Antigone). La ville est chère pour sa taille et son marché de l'emploi: c'est l'effet mer + université + demande résidence secondaire. Toulouse : 2 500–4 000 €/m² (Capitole, Saint-Cyprien, Côte Pavée). Toulouse est légèrement moins chère pour une ville deux fois plus grande avec un marché de l'emploi deux fois plus profond. Rapport qualité/prix global : Toulouse. Pour les amateurs de mer et de Méditerranée : Montpellier justifie son premium.",
       },
       {
         heading: "Emploi : Toulouse domine dans le privé",
@@ -22071,11 +22071,11 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Vie étudiante et jeunesse",
-        body: "Montpellier est l'une des villes les plus étudiantes de France (plus de 80 000 étudiants pour 300 000 hab. — ratio exceptionnel). L'ambiance estivale, la mer à 12 km, le Vieux-Montpellier, la Comédie — c'est une ville jeune, animée, parfois bruyante. Toulouse a aussi 130 000 étudiants (pour 800 000 hab.) et une vie étudiante dense. L'avantage Montpellier : la mer est là, l'ambiance est ibérique. L'avantage Toulouse : les salaires après études sont plus élevés grâce à l'industrie aéro.",
+        body: "Montpellier est l'une des villes les plus étudiantes de France (plus de 80 000 étudiants pour 300 000 hab., ratio exceptionnel). L'ambiance estivale, la mer à 12 km, le Vieux-Montpellier, la Comédie, c'est une ville jeune, animée, parfois bruyante. Toulouse a aussi 130 000 étudiants (pour 800 000 hab.) et une vie étudiante dense. L'avantage Montpellier : la mer est là, l'ambiance est ibérique. L'avantage Toulouse : les salaires après études sont plus élevés grâce à l'industrie aéro.",
       },
       {
         heading: "Qualité de vie quotidienne",
-        body: "Montpellier : mer à 12 km (Palavas, Carnon), garrigue, Camargue, tramway 5 lignes mais bouchons terribles sur périphérique. Chaleur estivale extrême (35–40°C, mais sec). Hiver doux. Toulouse : Pyrénées à 1h30, Carcassonne à 1h, Bordeaux à 2h TGV. Chaleur similaire en été. Tramway 2 lignes + métro 2 lignes — meilleure offre transport que Montpellier. Les deux ont des marchés frais exceptionnels, une culture festive du sport et du plein air.",
+        body: "Montpellier : mer à 12 km (Palavas, Carnon), garrigue, Camargue, tramway 5 lignes mais bouchons terribles sur périphérique. Chaleur estivale extrême (35–40°C, mais sec). Hiver doux. Toulouse : Pyrénées à 1h30, Carcassonne à 1h, Bordeaux à 2h TGV. Chaleur similaire en été. Tramway 2 lignes + métro 2 lignes, meilleure offre transport que Montpellier. Les deux ont des marchés frais exceptionnels, une culture festive du sport et du plein air.",
       },
       {
         heading: "Transports et connexions nationales",
@@ -22116,11 +22116,11 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Charme, culture et vie quotidienne",
-        body: "Colmar est souvent classée parmi les plus belles villes de France : colombages du XVe–XVIIe, canaux, rues médiévales. 2 millions de visiteurs par an — ce tourisme crée une animation mais aussi des inconvénients (prix des commerces, nuisances haute saison). Strasbourg a aussi une vieille ville exceptionnelle (Petite France, cathédrale Notre-Dame), une vie culturelle très dense (Opéra du Rhin, Philharmonie, Musées de Strasbourg), et une ambiance euro-cosmopolite. Colmar = village de carte postale à grande échelle. Strasbourg = vraie grande ville européenne.",
+        body: "Colmar est souvent classée parmi les plus belles villes de France : colombages du XVe–XVIIe, canaux, rues médiévales. 2 millions de visiteurs par an, ce tourisme crée une animation mais aussi des inconvénients (prix des commerces, nuisances haute saison). Strasbourg a aussi une vieille ville exceptionnelle (Petite France, cathédrale Notre-Dame), une vie culturelle très dense (Opéra du Rhin, Philharmonie, Musées de Strasbourg), et une ambiance euro-cosmopolite. Colmar = village de carte postale à grande échelle. Strasbourg = vraie grande ville européenne.",
       },
       {
         heading: "Transports : Strasbourg bien connectée, Colmar en satellite",
-        body: "Strasbourg : TGV Paris en 1h48 direct — l'une des meilleures connexions de province. Eurostar Strasbourg–Londres (via Paris). Tramway 6 lignes (réseau exceptionnel pour une ville de cette taille). Colmar : TER Strasbourg–Colmar en 25 min, TGV Paris en 2h20 (via Strasbourg ou avec changement Mulhouse). Pas d'autoroute directe Colmar–Paris. Pour les déplacements fréquents vers Paris ou l'international, Strasbourg est incomparable. Colmar + TER Strasbourg = solution acceptable si vous acceptez de dépendre du train régional.",
+        body: "Strasbourg : TGV Paris en 1h48 direct, l'une des meilleures connexions de province. Eurostar Strasbourg–Londres (via Paris). Tramway 6 lignes (réseau exceptionnel pour une ville de cette taille). Colmar : TER Strasbourg–Colmar en 25 min, TGV Paris en 2h20 (via Strasbourg ou avec changement Mulhouse). Pas d'autoroute directe Colmar–Paris. Pour les déplacements fréquents vers Paris ou l'international, Strasbourg est incomparable. Colmar + TER Strasbourg = solution acceptable si vous acceptez de dépendre du train régional.",
       },
     ],
     relatedCities: ["strasbourg", "colmar", "mulhouse", "metz", "belfort"],
@@ -22145,7 +22145,7 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Pourquoi des gens quittent Arles",
-        body: "Les raisons de départ les plus fréquentes : emploi insuffisant pour les actifs non-indépendants (le tissu économique d'Arles est dominé par le tourisme saisonnier, l'agroalimentaire et les services publics) ; la gentrification LUMA qui tire les loyers et les prix d'achat vers le haut sans créer d'emplois proportionnels pour les résidents permanents ; les chaleurs extrêmes de juillet-août (35–42°C, ville peu végétalisée) ; et, pour les familles, l'offre scolaire secondaire limitée (lycée général sans grande option spécialisée). La ville reste attractive pour les retraités, télétravailleurs et indépendants — mais les jeunes actifs cherchent ailleurs.",
+        body: "Les raisons de départ les plus fréquentes : emploi insuffisant pour les actifs non-indépendants (le tissu économique d'Arles est dominé par le tourisme saisonnier, l'agroalimentaire et les services publics) ; la gentrification LUMA qui tire les loyers et les prix d'achat vers le haut sans créer d'emplois proportionnels pour les résidents permanents ; les chaleurs extrêmes de juillet-août (35–42°C, ville peu végétalisée) ; et, pour les familles, l'offre scolaire secondaire limitée (lycée général sans grande option spécialisée). La ville reste attractive pour les retraités, télétravailleurs et indépendants, mais les jeunes actifs cherchent ailleurs.",
       },
       {
         heading: "Avignon (35 km) : la plus logique des alternatives",
@@ -22153,7 +22153,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Nîmes (30 km) : grand site romain, prix Arles",
-        body: "Nîmes (150 000 hab.) est souvent négligée mais offre un excellent rapport valeur-taille : arènes romaines, Maison Carrée, Jardins de la Fontaine, et une économie locale plus diversifiée qu'Arles. Prix : 2 000–3 200 €/m² — comparables à Arles mais pour une ville trois fois plus grande avec un meilleur accès à l'emploi. TGV Paris en 2h50. Montpellier est à 50 km (35 min en voiture) — accessible pour des visites pro sans déménager. Inconvénient : Nîmes est moins 'tendance' qu'Arles, et le centre-ville a souffert de la concurrence des périphéries commerciales.",
+        body: "Nîmes (150 000 hab.) est souvent négligée mais offre un excellent rapport valeur-taille : arènes romaines, Maison Carrée, Jardins de la Fontaine, et une économie locale plus diversifiée qu'Arles. Prix : 2 000–3 200 €/m², comparables à Arles mais pour une ville trois fois plus grande avec un meilleur accès à l'emploi. TGV Paris en 2h50. Montpellier est à 50 km (35 min en voiture), accessible pour des visites pro sans déménager. Inconvénient : Nîmes est moins 'tendance' qu'Arles, et le centre-ville a souffert de la concurrence des périphéries commerciales.",
       },
       {
         heading: "Montpellier (90 km) : pour les actifs et les étudiants",
@@ -22161,7 +22161,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Saint-Rémy-de-Provence et les Alpilles : pour rester dans le paysage",
-        body: "Pour les Arlésiens très attachés à la Provence authentique qui cherchent à quitter la ville proprement dite, Saint-Rémy-de-Provence (10 000 hab., 20 km nord) et les villages des Alpilles offrent un cadre naturel exceptionnel — mais les prix sont explosés (4 000–7 000 €/m²) et l'emploi local quasi inexistant. C'est l'option résidence principale pour les personnes dont les revenus sont indépendants de la géographie (retraités, télétravailleurs, professions libérales installées).",
+        body: "Pour les Arlésiens très attachés à la Provence authentique qui cherchent à quitter la ville proprement dite, Saint-Rémy-de-Provence (10 000 hab., 20 km nord) et les villages des Alpilles offrent un cadre naturel exceptionnel, mais les prix sont explosés (4 000–7 000 €/m²) et l'emploi local quasi inexistant. C'est l'option résidence principale pour les personnes dont les revenus sont indépendants de la géographie (retraités, télétravailleurs, professions libérales installées).",
       },
     ],
     relatedCities: ["arles", "avignon", "nimes", "montpellier", "aix-en-provence"],
@@ -22350,19 +22350,19 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Les villes à connaître",
-        body: "Tours (145 000 hab.) est la métropole ligérienne par excellence — TGV Paris en 1h00, économie pharma et nucléaire solide, université (30 000 étudiants), vieille ville dynamique, 2 200–3 500 €/m². Orléans (115 000 hab.) est plus proche de Paris (1h05 TGV) mais moins autonome — 2 500–3 800 €/m². Blois (45 000 hab.) est la ville de la Loire classique — château royal, vieille ville médiévale, Loire en centre-ville, 1 500–2 300 €/m²; idéal pour les télétravailleurs. Chartres (40 000 hab.) est la ville cathédrale, 1h08 de Paris-Montparnasse, 2 000–3 200 €/m². Bourges (65 000 hab.) est la capitale du Berry — cathédrale UNESCO, prix parmi les plus bas de la région (1 400–2 200 €/m²), calme provincial.",
+        body: "Tours (145 000 hab.) est la métropole ligérienne par excellence, TGV Paris en 1h00, économie pharma et nucléaire solide, université (30 000 étudiants), vieille ville dynamique, 2 200–3 500 €/m². Orléans (115 000 hab.) est plus proche de Paris (1h05 TGV) mais moins autonome, 2 500–3 800 €/m². Blois (45 000 hab.) est la ville de la Loire classique, château royal, vieille ville médiévale, Loire en centre-ville, 1 500–2 300 €/m²; idéal pour les télétravailleurs. Chartres (40 000 hab.) est la ville cathédrale, 1h08 de Paris-Montparnasse, 2 000–3 200 €/m². Bourges (65 000 hab.) est la capitale du Berry. Cathédrale UNESCO, prix parmi les plus bas de la région (1 400–2 200 €/m²), calme provincial.",
       },
       {
         heading: "Immobilier : parmi les moins chers près de Paris",
-        body: "Le Centre-Val de Loire offre les prix immobiliers les plus bas de France pour une région avec un accès TGV vers Paris. Les villes moyennes (Vierzon, Dreux, Vendôme, Romorantin-Lanthenay) descendent à 800–1 600 €/m². Pour un pavillon 100 m² avec jardin dans un bourg proche d'une ville TGV, comptez 150 000–220 000 €. La région souffre d'une démographie vieillissante et d'une pression immobilière limitée — ce qui profite aux acheteurs. Mais attention : une démographie atone signifie aussi moins de dynamisme économique local.",
+        body: "Le Centre-Val de Loire offre les prix immobiliers les plus bas de France pour une région avec un accès TGV vers Paris. Les villes moyennes (Vierzon, Dreux, Vendôme, Romorantin-Lanthenay) descendent à 800–1 600 €/m². Pour un pavillon 100 m² avec jardin dans un bourg proche d'une ville TGV, comptez 150 000–220 000 €. La région souffre d'une démographie vieillissante et d'une pression immobilière limitée: ce qui profite aux acheteurs. Mais attention : une démographie atone signifie aussi moins de dynamisme économique local.",
       },
       {
         heading: "Emploi et économie",
-        body: "L'économie régionale est diversifiée mais de taille modeste. Secteurs clés : pharmaceutique et cosmétique (Cosmétic Valley entre Paris, Chartres et Tours — premier cluster cosmétique mondial en termes d'emplois), énergie nucléaire (centrale de Saint-Laurent-Nouan, Dampierre, Belleville), agriculture et viticulture (Vouvray, Chinon, Sancerre), et les services publics dans les villes préfectures. Pour les profils tech ou finance, Tours est le seul bassin d'emploi local significatif. Orléans et Chartres restent dans l'orbite Paris. Télétravail : la région est l'une des premières bénéficiaires du travail à distance — beaucoup de cadres parisiens y ont acheté depuis 2020.",
+        body: "L'économie régionale est diversifiée mais de taille modeste. Secteurs clés : pharmaceutique et cosmétique (Cosmétic Valley entre Paris, Chartres et Tours: premier cluster cosmétique mondial en termes d'emplois), énergie nucléaire (centrale de Saint-Laurent-Nouan, Dampierre, Belleville), agriculture et viticulture (Vouvray, Chinon, Sancerre), et les services publics dans les villes préfectures. Pour les profils tech ou finance, Tours est le seul bassin d'emploi local significatif. Orléans et Chartres restent dans l'orbite Paris. Télétravail : la région est l'une des premières bénéficiaires du travail à distance, beaucoup de cadres parisiens y ont acheté depuis 2020.",
       },
       {
         heading: "Qualité de vie : la Loire et les châteaux au quotidien",
-        body: "Le patrimoine est la ressource qualitative principale de la région : 42 châteaux inscrits au Patrimoine Mondial UNESCO (Chambord, Chenonceau, Villandry...) à moins de 1h de voiture depuis n'importe quelle ville de la région. La Loire — fleuve sauvage, non canalisé, classé par l'UNESCO — est une ressource de loisirs exceptionnelle : vélo (la Loire à Vélo, 800 km de pistes), canoë, pêche. Le vignoble ligérien (Vouvray, Chinon, Sancerre, Pouilly-Fumé, Muscadet) est l'un des plus diversifiés de France. Le réseau de marchés locaux et de producteurs directs est dense — qualité alimentaire élevée à prix raisonnables.",
+        body: "Le patrimoine est la ressource qualitative principale de la région : 42 châteaux inscrits au Patrimoine Mondial UNESCO (Chambord, Chenonceau, Villandry...) à moins de 1h de voiture depuis n'importe quelle ville de la région. La Loire, fleuve sauvage, non canalisé, classé par l'UNESCO, est une ressource de loisirs exceptionnelle : vélo (la Loire à Vélo, 800 km de pistes), canoë, pêche. Le vignoble ligérien (Vouvray, Chinon, Sancerre, Pouilly-Fumé, Muscadet) est l'un des plus diversifiés de France. Le réseau de marchés locaux et de producteurs directs est dense, qualité alimentaire élevée à prix raisonnables.",
       },
       {
         heading: "Pour quel profil ?",
@@ -22391,19 +22391,19 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Les villes clés de Normandie",
-        body: "Rouen (115 000 hab., 115 000 dans l'agglomération) est la grande métropole normande — cathédrale gothique, vieille ville à colombages, Seine, musées de classe mondiale (Musée des Beaux-Arts, Musée de la Céramique), et une économie diversifiée (pharmacie, logistique, port). TGV Paris-Saint-Lazare en 1h20. Prix : 2 000–3 500 €/m². Caen (100 000 hab.) est la capitale de Basse-Normandie — Mémorial, abbaye aux Hommes, campus universitaire (25 000 étudiants), accès côte (Deauville, Cabourg à 30 km). Intercités Paris-Saint-Lazare en 2h00. Prix : 1 800–3 000 €/m². Le Havre (165 000 hab.) est le grand port normand — architecture Le Corbusier UNESCO, plage de galets, estuaire de la Seine. TER + Intercités Paris en 2h10. Prix : 1 400–2 500 €/m².",
+        body: "Rouen (115 000 hab., 115 000 dans l'agglomération) est la grande métropole normande, cathédrale gothique, vieille ville à colombages, Seine, musées de classe mondiale (Musée des Beaux-Arts, Musée de la Céramique), et une économie diversifiée (pharmacie, logistique, port). TGV Paris-Saint-Lazare en 1h20. Prix : 2 000–3 500 €/m². Caen (100 000 hab.) est la capitale de Basse-Normandie, Mémorial, abbaye aux Hommes, campus universitaire (25 000 étudiants), accès côte (Deauville, Cabourg à 30 km). Intercités Paris-Saint-Lazare en 2h00. Prix : 1 800–3 000 €/m². Le Havre (165 000 hab.) est le grand port normand, architecture Le Corbusier UNESCO, plage de galets, estuaire de la Seine. TER + Intercités Paris en 2h10. Prix : 1 400–2 500 €/m².",
       },
       {
         heading: "Mer, falaises et qualité de vie côtière",
-        body: "La Normandie offre 600 km de côte : les falaises d'Étretat (classées parmi les plus belles d'Europe), la Côte Fleurie (Deauville, Trouville, Cabourg — stations balnéaires bourgeois au charme authentique), les plages du Débarquement (Omaha, Utah, Arromanches), et le Cotentin sauvage. Pour les amateurs de mer froide et de grands espaces, c'est une ressource unique. La météo normande est tempérée atlantique — pas le midi, mais pas le nord pluvieux non plus : Rouen reçoit 700 mm de pluie/an (comparable à Paris). Les étés normands (17–22°C en juillet-août) sont frais mais agréables.",
+        body: "La Normandie offre 600 km de côte : les falaises d'Étretat (classées parmi les plus belles d'Europe), la Côte Fleurie (Deauville, Trouville, Cabourg, stations balnéaires bourgeois au charme authentique), les plages du Débarquement (Omaha, Utah, Arromanches), et le Cotentin sauvage. Pour les amateurs de mer froide et de grands espaces, c'est une ressource unique. La météo normande est tempérée atlantique, pas le midi, mais pas le nord pluvieux non plus : Rouen reçoit 700 mm de pluie/an (comparable à Paris). Les étés normands (17–22°C en juillet-août) sont frais mais agréables.",
       },
       {
         heading: "Immobilier : prix accessibles à la mer",
-        body: "La Normandie est l'une des rares régions françaises où il est encore possible d'acheter une maison avec jardin à 5 km de la mer pour moins de 200 000 €. Les villes côtières comme Fécamp, Étretat, Lisieux, Bayeux offrent des prix entre 1 500 et 2 800 €/m². Les villes du Bocage normand (Flers, Vire, Argentan) tombent à 800–1 500 €/m² — certains des prix les plus bas de France métropolitaine. Même Deauville, qui a une image luxueuse, reste accessible dans ses quartiers non-front de mer (2 500–4 000 €/m²). Pour les télétravailleurs parisiens, la combinaison accès Paris + mer + prix est difficilement battable en France.",
+        body: "La Normandie est l'une des rares régions françaises où il est encore possible d'acheter une maison avec jardin à 5 km de la mer pour moins de 200 000 €. Les villes côtières comme Fécamp, Étretat, Lisieux, Bayeux offrent des prix entre 1 500 et 2 800 €/m². Les villes du Bocage normand (Flers, Vire, Argentan) tombent à 800–1 500 €/m², certains des prix les plus bas de France métropolitaine. Même Deauville, qui a une image luxueuse, reste accessible dans ses quartiers non-front de mer (2 500–4 000 €/m²). Pour les télétravailleurs parisiens, la combinaison accès Paris + mer + prix est difficilement battable en France.",
       },
       {
         heading: "Économie et emploi normand",
-        body: "L'économie normande est dominée par l'industrie (raffinage pétrolier à Port-Jérôme, agroalimentaire Danone/Lactalis, automobile Renault à Flins et Cléon), la logistique portuaire (port du Havre — 1er port français de conteneurs), l'agriculture (lait, pommes, cidre, fromage — Normandie représente 25 % de la production laitière française), et le nucléaire (centrale de Paluel, Penly). Les profils ingénierie industrielle, chimie, logistique et agroalimentaire trouvent des opportunités régionales. Rouen a un écosystème numérique modeste mais croissant.",
+        body: "L'économie normande est dominée par l'industrie (raffinage pétrolier à Port-Jérôme, agroalimentaire Danone/Lactalis, automobile Renault à Flins et Cléon), la logistique portuaire (port du Havre, 1er port français de conteneurs), l'agriculture (lait, pommes, cidre, fromage, Normandie représente 25 % de la production laitière française), et le nucléaire (centrale de Paluel, Penly). Les profils ingénierie industrielle, chimie, logistique et agroalimentaire trouvent des opportunités régionales. Rouen a un écosystème numérique modeste mais croissant.",
       },
       {
         heading: "Pour quel profil ?",
@@ -22432,19 +22432,19 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Lille : la métropole qui défie les clichés",
-        body: "Lille (230 000 hab., 1,2 million dans l'aire urbaine incluant Roubaix-Tourcoing) est l'une des villes françaises les plus dynamiques — et les plus jeunes. Premier pôle universitaire de France hors Paris (110 000 étudiants), centre européen grâce à Euralille et l'Eurostar, marché de l'emploi profond (grande distribution Auchan/Décathlon/La Redoute, services financiers, santé, numérique). Vieille ville flamande (Grand'Place, Vieux-Lille) parmi les plus belles de France. Et des prix défiant toute logique : 2 200–4 000 €/m² selon le quartier — Paris à l'envers. La jeunesse, la bière, la braderie (plus grande brocante d'Europe), et le stade Pierre-Mauroy (LOSC, Daft Punk) font le reste.",
+        body: "Lille (230 000 hab., 1,2 million dans l'aire urbaine incluant Roubaix-Tourcoing) est l'une des villes françaises les plus dynamiques, et les plus jeunes. Premier pôle universitaire de France hors Paris (110 000 étudiants), centre européen grâce à Euralille et l'Eurostar, marché de l'emploi profond (grande distribution Auchan/Décathlon/La Redoute, services financiers, santé, numérique). Vieille ville flamande (Grand'Place, Vieux-Lille) parmi les plus belles de France. Et des prix défiant toute logique : 2 200–4 000 €/m² selon le quartier, Paris à l'envers. La jeunesse, la bière, la braderie (plus grande brocante d'Europe), et le stade Pierre-Mauroy (LOSC, Daft Punk) font le reste.",
       },
       {
         heading: "Les autres villes de la région",
-        body: "Amiens (135 000 hab.) est la préfecture de la Somme — cathédrale Notre-Dame (la plus grande de France, UNESCO), Hortillonnages (jardins flottants en centre-ville), économie pharmaceutique (GSK, Baxter). Prix : 1 500–2 500 €/m². Reims (185 000 hab.) est à 45 min de Paris par TGV — champagne, cathédrale du Sacré Couronnement, Cave Mumm. Prix : 1 800–3 000 €/m². Dunkerque (90 000 hab.) est en pleine renaissance : grande zone industrielle (ArcelorMittal, Dunkerque LNG, futur méga-projet industriel avec 13 Mds d'investissements annoncés), plages de la mer du Nord, port. Prix ultra-bas : 1 200–2 000 €/m². Saint-Quentin, Valenciennes, Douai complètent le tissu urbain régional.",
+        body: "Amiens (135 000 hab.) est la préfecture de la Somme, cathédrale Notre-Dame (la plus grande de France, UNESCO), Hortillonnages (jardins flottants en centre-ville), économie pharmaceutique (GSK, Baxter). Prix : 1 500–2 500 €/m². Reims (185 000 hab.) est à 45 min de Paris par TGV, champagne, cathédrale du Sacré Couronnement, Cave Mumm. Prix : 1 800–3 000 €/m². Dunkerque (90 000 hab.) est en pleine renaissance : grande zone industrielle (ArcelorMittal, Dunkerque LNG, futur méga-projet industriel avec 13 Mds d'investissements annoncés), plages de la mer du Nord, port. Prix ultra-bas : 1 200–2 000 €/m². Saint-Quentin, Valenciennes, Douai complètent le tissu urbain régional.",
       },
       {
         heading: "Immobilier : les prix les plus bas de la France du nord",
-        body: "Hors Lille centre, les Hauts-de-France offrent certains des prix immobiliers les plus bas de France métropolitaine. Roubaix : 700–1 500 €/m² (l'une des villes les moins chères de l'arc nord-européen). Tourcoing : 1 000–2 000 €/m². Amiens périphérie : 1 200–2 000 €/m². Dunkerque : 1 200–2 000 €/m². Ces prix bas reflètent une démographie fragile et des défis économiques réels — ce ne sont pas des aubaines sans contrepartie. Mais pour les primo-accédants ou les investisseurs à budget limité, la région offre des opportunités que les autres régions françaises n'ont plus.",
+        body: "Hors Lille centre, les Hauts-de-France offrent certains des prix immobiliers les plus bas de France métropolitaine. Roubaix : 700–1 500 €/m² (l'une des villes les moins chères de l'arc nord-européen). Tourcoing : 1 000–2 000 €/m². Amiens périphérie : 1 200–2 000 €/m². Dunkerque : 1 200–2 000 €/m². Ces prix bas reflètent une démographie fragile et des défis économiques réels, ce ne sont pas des aubaines sans contrepartie. Mais pour les primo-accédants ou les investisseurs à budget limité, la région offre des opportunités que les autres régions françaises n'ont plus.",
       },
       {
         heading: "Economie en mutation : déclin et reconversion",
-        body: "Les Hauts-de-France portent l'héritage du déclin industriel (charbon, textile, sidérurgie) mais aussi une reconversion réelle. La 'Vallée de la Batterie' autour de Dunkerque attire des gigafactories de batteries (Verkor, Envision AESC, ACC — 10 Mds d'euros d'investissements, 10 000 emplois directs attendus d'ici 2030). Toyota à Onnaing, Renault électrique à Douai, Amazon à Brétigny et Lauwin-Planque — le tissu industriel se réinvente. Lille concentre les emplois tertiaires, la finance, et le commerce. La reconversion industrielle du bassin minier est lente mais réelle.",
+        body: "Les Hauts-de-France portent l'héritage du déclin industriel (charbon, textile, sidérurgie) mais aussi une reconversion réelle. La 'Vallée de la Batterie' autour de Dunkerque attire des gigafactories de batteries (Verkor, Envision AESC, ACC, 10 Mds d'euros d'investissements, 10 000 emplois directs attendus d'ici 2030). Toyota à Onnaing, Renault électrique à Douai, Amazon à Brétigny et Lauwin-Planque, le tissu industriel se réinvente. Lille concentre les emplois tertiaires, la finance, et le commerce. La reconversion industrielle du bassin minier est lente mais réelle.",
       },
       {
         heading: "Pour quel profil ?",
@@ -22473,19 +22473,19 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Rennes : la métropole bretonne et sa dynamique",
-        body: "Rennes (225 000 hab.) est la locomotive économique de la Bretagne — et l'une des métropoles françaises les plus attractives pour les 25–45 ans. Écosystème tech et numérique dense (French Tech Rennes, Capgemini, Atos, Orange, Thales), deux universités importantes (60 000 étudiants), TGV Paris en 1h27, ligne LGV Rennes–Nantes (horizon 2026), et une vieille ville en bois et ardoise authentique. Prix : 3 000–4 500 €/m² — en forte hausse depuis 2015 mais encore abordables par rapport à Lyon ou Bordeaux. C'est la première destination des Bretons qui partent de leurs villes côtières pour chercher un emploi qualifié.",
+        body: "Rennes (225 000 hab.) est la locomotive économique de la Bretagne, et l'une des métropoles françaises les plus attractives pour les 25–45 ans. Écosystème tech et numérique dense (French Tech Rennes, Capgemini, Atos, Orange, Thales), deux universités importantes (60 000 étudiants), TGV Paris en 1h27, ligne LGV Rennes–Nantes (horizon 2026), et une vieille ville en bois et ardoise authentique. Prix : 3 000–4 500 €/m², en forte hausse depuis 2015 mais encore abordables par rapport à Lyon ou Bordeaux. C'est la première destination des Bretons qui partent de leurs villes côtières pour chercher un emploi qualifié.",
       },
       {
         heading: "Les villes côtières : Saint-Malo, Vannes, Quimper, Brest",
-        body: "Saint-Malo (47 000 hab.) — cité corsaire intra-muros, plages, Dinard en face, Emeraude. Marché très tendu (2 800–5 000 €/m²), attiré par les résidences secondaires parisiennes et les télétravailleurs. Vannes (55 000 hab.) — golfe du Morbihan, vieille ville à colombages, économie touristique et services. 2 200–3 500 €/m². Quimper (65 000 hab.) — cathédrale gothique, faïences, Finistère sud, accès plages. 1 700–2 600 €/m². Brest (145 000 hab.) — arsenal, océanographie (Ifremer), université, rade exceptionnelle. 1 800–2 800 €/m². Lorient (57 000 hab.) — festival interceltique, port de pêche, abordable. 1 600–2 800 €/m².",
+        body: "Saint-Malo (47 000 hab.), cité corsaire intra-muros, plages, Dinard en face, Emeraude. Marché très tendu (2 800–5 000 €/m²), attiré par les résidences secondaires parisiennes et les télétravailleurs. Vannes (55 000 hab.), golfe du Morbihan, vieille ville à colombages, économie touristique et services. 2 200–3 500 €/m². Quimper (65 000 hab.), cathédrale gothique, faïences, Finistère sud, accès plages. 1 700–2 600 €/m². Brest (145 000 hab.). Arsenal, océanographie (Ifremer), université, rade exceptionnelle. 1 800–2 800 €/m². Lorient (57 000 hab.), festival interceltique, port de pêche, abordable. 1 600–2 800 €/m².",
       },
       {
         heading: "Immobilier : la pression post-2020",
-        body: "La Bretagne a subi une pression immobilière forte depuis 2020, alimentée par l'exode urbain parisien et l'essor du télétravail. Les prix des maisons avec jardin en campagne proche d'une ville bretonne ont augmenté de 25–40 % entre 2019 et 2024. Zones tendues : Saint-Malo (très tendu), Golfe du Morbihan, côte bretonne. Zones encore abordables : Finistère intérieur, Côtes-d'Armor intérieur, Loudéac, Pontivy, Guingamp — comptez 800–1 600 €/m² pour un pavillon en zone rurale. La Bretagne intérieure (Argoat) est parmi les moins chères de France — et parmi les plus vertes.",
+        body: "La Bretagne a subi une pression immobilière forte depuis 2020, alimentée par l'exode urbain parisien et l'essor du télétravail. Les prix des maisons avec jardin en campagne proche d'une ville bretonne ont augmenté de 25–40 % entre 2019 et 2024. Zones tendues : Saint-Malo (très tendu), Golfe du Morbihan, côte bretonne. Zones encore abordables : Finistère intérieur, Côtes-d'Armor intérieur, Loudéac, Pontivy, Guingamp, comptez 800–1 600 €/m² pour un pavillon en zone rurale. La Bretagne intérieure (Argoat) est parmi les moins chères de France, et parmi les plus vertes.",
       },
       {
         heading: "Qualité de vie : la mer, le bocage, l'identité",
-        body: "La Bretagne a 2 730 km de côtes — la plus longue façade maritime de France. L'accès quotidien à la mer depuis n'importe quelle ville bretonne est rarement supérieur à 45 min. La culture locale (fest-noz, pardons, crêperies, marchés de producteurs, voile, surf sur la côte atlantique) crée un tissu social et identitaire fort. Le cidre breton, les huîtres de Cancale, le kouign-amann, le far breton — la gastronomie est ancrée dans le terroir. Météo : atlantique doux, sans grande chaleur (18–22°C en été) ni grand froid, mais venteux et pluvieux d'octobre à mars.",
+        body: "La Bretagne a 2 730 km de côtes: la plus longue façade maritime de France. L'accès quotidien à la mer depuis n'importe quelle ville bretonne est rarement supérieur à 45 min. La culture locale (fest-noz, pardons, crêperies, marchés de producteurs, voile, surf sur la côte atlantique) crée un tissu social et identitaire fort. Le cidre breton, les huîtres de Cancale, le kouign-amann, le far breton, la gastronomie est ancrée dans le terroir. Météo : atlantique doux, sans grande chaleur (18–22°C en été) ni grand froid, mais venteux et pluvieux d'octobre à mars.",
       },
       {
         heading: "Pour quel profil ?",
@@ -22514,19 +22514,19 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Toulouse et Montpellier : deux pôles très différents",
-        body: "Toulouse (800 000 hab. dans l'aire urbaine) est la capitale régionale — économie aéronautique (Airbus, 40 000 emplois directs), spatiale (CNES), et industrielle de premier plan. TGV Paris en 4h10 (→ 3h15 après 2032). Économie solide, marché de l'emploi profond, prix en hausse mais encore moins chers que Paris ou Lyon (2 500–4 000 €/m²). Montpellier (400 000 hab.) est la métropole méditerranéenne — mer à 12 km, 300 000 étudiants pour la région, santé et pharma, croissance démographique record. TGV Paris en 3h15. Plus chère que Toulouse pour des services équivalents : 2 800–4 500 €/m².",
+        body: "Toulouse (800 000 hab. dans l'aire urbaine) est la capitale régionale, économie aéronautique (Airbus, 40 000 emplois directs), spatiale (CNES), et industrielle de premier plan. TGV Paris en 4h10 (→ 3h15 après 2032). Économie solide, marché de l'emploi profond, prix en hausse mais encore moins chers que Paris ou Lyon (2 500–4 000 €/m²). Montpellier (400 000 hab.) est la métropole méditerranéenne, mer à 12 km, 300 000 étudiants pour la région, santé et pharma, croissance démographique record. TGV Paris en 3h15. Plus chère que Toulouse pour des services équivalents : 2 800–4 500 €/m².",
       },
       {
         heading: "Les villes secondaires : Nîmes, Perpignan, Narbonne, Carcassonne",
-        body: "Nîmes (150 000 hab.) — arènes romaines, Maison Carrée, accès Montpellier (50 km), immobilier abordable (2 000–3 200 €/m²). Perpignan (120 000 hab.) — porte de la Catalogne française, Pyrénées à 50 km, Méditerranée à 15 km, les prix les plus bas d'une ville côtière méditerranéenne française (1 600–2 800 €/m²). Narbonne (55 000 hab.) — entre Montpellier et Perpignan, Via Domitia, étangs, 1 500–2 500 €/m². Carcassonne (45 000 hab.) — citadelle médiévale UNESCO exceptionnelle, prix très bas (1 200–2 200 €/m²), mais emploi local limité.",
+        body: "Nîmes (150 000 hab.), arènes romaines, Maison Carrée, accès Montpellier (50 km), immobilier abordable (2 000–3 200 €/m²). Perpignan (120 000 hab.), porte de la Catalogne française, Pyrénées à 50 km, Méditerranée à 15 km, les prix les plus bas d'une ville côtière méditerranéenne française (1 600–2 800 €/m²). Narbonne (55 000 hab.), entre Montpellier et Perpignan, Via Domitia, étangs, 1 500–2 500 €/m². Carcassonne (45 000 hab.). Citadelle médiévale UNESCO exceptionnelle, prix très bas (1 200–2 200 €/m²), mais emploi local limité.",
       },
       {
         heading: "Soleil, Pyrénées, Méditerranée : le cadre de vie",
-        body: "L'Occitanie est la région française avec le plus de soleil et de chaleur après la Côte d'Azur : 2 500–2 800 heures de soleil/an (contre 1 600 à Paris). Les Pyrénées (ski à Font-Romeu, Ax-les-Thermes, Piau-Engaly, Cauterets, Luchon) sont à 1h–2h de Toulouse. La Méditerranée (Sète, Cap d'Agde, Leucate, Canet) est à 10–45 min de Montpellier ou Narbonne. Le canal du Midi (UNESCO) traverse la région de Toulouse à la Méditerranée. Les étés sont chauds (35–40°C en juillet-août) et longs (juin–septembre) — un atout ou un inconvénient selon les goûts.",
+        body: "L'Occitanie est la région française avec le plus de soleil et de chaleur après la Côte d'Azur : 2 500–2 800 heures de soleil/an (contre 1 600 à Paris). Les Pyrénées (ski à Font-Romeu, Ax-les-Thermes, Piau-Engaly, Cauterets, Luchon) sont à 1h–2h de Toulouse. La Méditerranée (Sète, Cap d'Agde, Leucate, Canet) est à 10–45 min de Montpellier ou Narbonne. Le canal du Midi (UNESCO) traverse la région de Toulouse à la Méditerranée. Les étés sont chauds (35–40°C en juillet-août) et longs (juin–septembre): un atout ou un inconvénient selon les goûts.",
       },
       {
         heading: "Marché de l'emploi régional",
-        body: "L'économie occitane est portée par Toulouse (aéronautique, spatial) et Montpellier (santé, pharma, services). Hors de ces deux pôles, le tissu économique est fragile : agriculture (viticulture Languedoc, grande culture), tourisme côtier et montagnard, et services publics dominent dans les villes secondaires. La croissance démographique exceptionnelle (l'Occitanie gagne 50 000 habitants/an) crée une demande de services — mais les emplois qualifiés dans le privé restent très concentrés sur les deux métropoles.",
+        body: "L'économie occitane est portée par Toulouse (aéronautique, spatial) et Montpellier (santé, pharma, services). Hors de ces deux pôles, le tissu économique est fragile : agriculture (viticulture Languedoc, grande culture), tourisme côtier et montagnard, et services publics dominent dans les villes secondaires. La croissance démographique exceptionnelle (l'Occitanie gagne 50 000 habitants/an) crée une demande de services, mais les emplois qualifiés dans le privé restent très concentrés sur les deux métropoles.",
       },
       {
         heading: "Pour quel profil ?",
@@ -23127,11 +23127,11 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Les Alpes : avantage Grenoble",
-        body: "Grenoble est encerclée par les Alpes — Belledonne, Chartreuse, Vercors à 20–30 min, les grands domaines (Alpe d'Huez, Les 2 Alpes, Chamrousse) à 40–60 min. C'est inégalé pour une métropole. Lyon n'est pas sans accès montagne (Mont Blanc en 2h30 par l'A40, Chartreuse en 1h30) mais la différence qualitative avec Grenoble est énorme. Si le ski, la randonnée et les sports alpins sont centraux dans votre projet de vie, Grenoble change la proposition de valeur fondamentalement.",
+        body: "Grenoble est encerclée par les Alpes, Belledonne, Chartreuse, Vercors à 20–30 min, les grands domaines (Alpe d'Huez, Les 2 Alpes, Chamrousse) à 40–60 min. C'est inégalé pour une métropole. Lyon n'est pas sans accès montagne (Mont Blanc en 2h30 par l'A40, Chartreuse en 1h30) mais la différence qualitative avec Grenoble est énorme. Si le ski, la randonnée et les sports alpins sont centraux dans votre projet de vie, Grenoble change la proposition de valeur fondamentalement.",
       },
       {
         heading: "Qualité de vie générale : Lyon gagne",
-        body: "Lyon a une gastronomie (numéro un mondial du rapport qualité-prix), une vie culturelle (Opéra, Nuits de Fourvière, Fête des Lumières), et un tissu social plus riche que Grenoble pour la plupart des modes de vie. Grenoble a une image d'enfermement dans sa cuvette alpine (pollution hivernale réelle par inversion thermique) et une université très dominante qui oriente la sociabilité vers les cycles étudiants. Grenoble est une ville sympa mais plus 'fonctionnelle' que Lyon — qui est un art de vivre en soi.",
+        body: "Lyon a une gastronomie (numéro un mondial du rapport qualité-prix), une vie culturelle (Opéra, Nuits de Fourvière, Fête des Lumières), et un tissu social plus riche que Grenoble pour la plupart des modes de vie. Grenoble a une image d'enfermement dans sa cuvette alpine (pollution hivernale réelle par inversion thermique) et une université très dominante qui oriente la sociabilité vers les cycles étudiants. Grenoble est une ville sympa mais plus 'fonctionnelle' que Lyon, qui est un art de vivre en soi.",
       },
       {
         heading: "Verdict",
@@ -23160,23 +23160,23 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "1. Limoges — la capitale méconnue du Centre-Ouest",
-        body: "Limoges (130 000 hab.) est régulièrement classée parmi les moins chères de France pour une préfecture de cette taille. Prix immobilier : 1 000–2 000 €/m². T3 65 m² : 700–950 €/mois en location. Pavillon 100 m² avec jardin en périphérie : 120 000–180 000 €. L'économie tourne autour de la porcelaine historique (Haviland, Bernardaud), la santé, et les services publics. TGV Paris en 2h58. Hors bons plans immobiliers, l'offre culturelle et économique est limitée — mais pour les télétravailleurs ou retraités cherchant l'espace, c'est une valeur sûre.",
+        body: "Limoges (130 000 hab.) est régulièrement classée parmi les moins chères de France pour une préfecture de cette taille. Prix immobilier : 1 000–2 000 €/m². T3 65 m² : 700–950 €/mois en location. Pavillon 100 m² avec jardin en périphérie : 120 000–180 000 €. L'économie tourne autour de la porcelaine historique (Haviland, Bernardaud), la santé, et les services publics. TGV Paris en 2h58. Hors bons plans immobiliers, l'offre culturelle et économique est limitée, mais pour les télétravailleurs ou retraités cherchant l'espace, c'est une valeur sûre.",
       },
       {
         heading: "2. Châteauroux — la surprise du Berry",
-        body: "Châteauroux (43 000 hab., Indre) est l'une des villes de France avec les prix immobiliers les plus bas parmi les villes dotées d'une gare et de services. Prix : 800–1 600 €/m². Maisons avec jardins à partir de 70 000–100 000 €. Intercités Paris-Austerlitz en 1h45 (sans TGV). L'économie est industrielle (Mécachrome aviation, Alstom) — plus robuste qu'il n'y paraît. Pour un télétravailleur qui valorise l'espace maximal à coût minimal et accepte l'isolement relatif, Châteauroux est une option légitimement sous-estimée.",
+        body: "Châteauroux (43 000 hab., Indre) est l'une des villes de France avec les prix immobiliers les plus bas parmi les villes dotées d'une gare et de services. Prix : 800–1 600 €/m². Maisons avec jardins à partir de 70 000–100 000 €. Intercités Paris-Austerlitz en 1h45 (sans TGV). L'économie est industrielle (Mécachrome aviation, Alstom): plus robuste qu'il n'y paraît. Pour un télétravailleur qui valorise l'espace maximal à coût minimal et accepte l'isolement relatif, Châteauroux est une option légitimement sous-estimée.",
       },
       {
         heading: "3. Vierzon et Bourges — le Berry accessible",
-        body: "Bourges (65 000 hab.) : prix 1 200–2 000 €/m², cathédrale UNESCO, Printemps de Bourges (festival). Vierzon (25 000 hab., 30 km nord) : prix encore plus bas (900–1 500 €/m²), gare avec liaisons correctes. Le Berry est une région agricole verte et calme — paysages de bocage et d'étangs, qualité de vie tranquille, coût de la vie parmi les plus bas de France métropolitaine.",
+        body: "Bourges (65 000 hab.) : prix 1 200–2 000 €/m², cathédrale UNESCO, Printemps de Bourges (festival). Vierzon (25 000 hab., 30 km nord) : prix encore plus bas (900–1 500 €/m²), gare avec liaisons correctes. Le Berry est une région agricole verte et calme, paysages de bocage et d'étangs, qualité de vie tranquille, coût de la vie parmi les plus bas de France métropolitaine.",
       },
       {
         heading: "4. Saint-Quentin et le bassin de l'Aisne",
-        body: "Saint-Quentin (55 000 hab., Aisne) : prix 800–1 400 €/m². TGV Paris en 55 min — extraordinaire connexion pour ces prix. L'économie est en reconversion (textile, industrie) avec des défis réels, mais la connexion Paris en moins d'1h est unique à ce niveau de prix. Laon, Soissons, Reims proche (60 km) — le bassin de l'Aisne est une option pour les télétravauilleurs qui ne refusent pas la sociologie des villes post-industrielles.",
+        body: "Saint-Quentin (55 000 hab., Aisne) : prix 800–1 400 €/m². TGV Paris en 55 min, extraordinaire connexion pour ces prix. L'économie est en reconversion (textile, industrie) avec des défis réels, mais la connexion Paris en moins d'1h est unique à ce niveau de prix. Laon, Soissons, Reims proche (60 km), le bassin de l'Aisne est une option pour les télétravauilleurs qui ne refusent pas la sociologie des villes post-industrielles.",
       },
       {
         heading: "5–10 : Épinal, Roanne, Alençon, Guéret, Tulle, Cahors",
-        body: "Épinal (30 000 hab., Vosges) : 1 000–1 700 €/m², préfecture vosgienne entre forêts et industrie textile. Roanne (35 000 hab., Loire) : 900–1 600 €/m², gastronomie (les frères Troisgros — 3 étoiles Michelin à 5 km), à 1h de Lyon. Alençon (26 000 hab., Orne) : 1 000–1 700 €/m², dentelle, proche Normandie. Guéret (13 000 hab., Creuse) : 700–1 200 €/m² — l'une des moins chères de France préfecture. Tulle (15 000 hab., Corrèze) : 700–1 300 €/m², capitale de l'accordéon, miel, cadre de moyenne montagne. Cahors (20 000 hab., Lot) : 1 200–2 200 €/m², cité médiévale sur le Lot, vin de Cahors, Quercy.",
+        body: "Épinal (30 000 hab., Vosges) : 1 000–1 700 €/m², préfecture vosgienne entre forêts et industrie textile. Roanne (35 000 hab., Loire) : 900–1 600 €/m², gastronomie (les frères Troisgros, 3 étoiles Michelin à 5 km), à 1h de Lyon. Alençon (26 000 hab., Orne) : 1 000–1 700 €/m², dentelle, proche Normandie. Guéret (13 000 hab., Creuse) : 700–1 200 €/m², l'une des moins chères de France préfecture. Tulle (15 000 hab., Corrèze) : 700–1 300 €/m², capitale de l'accordéon, miel, cadre de moyenne montagne. Cahors (20 000 hab., Lot) : 1 200–2 200 €/m², cité médiévale sur le Lot, vin de Cahors, Quercy.",
       },
     ],
     relatedCities: ["limoges", "bourges", "saint-quentin", "cahors", "roanne"],
@@ -23193,7 +23193,7 @@ export const GUIDES: Guide[] = [
     slug: "10-choses-a-faire-a-paris-2026",
     title: "10 choses à faire à Paris (au-delà des clichés)",
     metaTitle: "10 choses à faire à Paris 2026 — sorties locales et spots moins connus",
-    metaDesc: "Au-delà de la tour Eiffel : 10 activités concrètes à Paris pour vivre la ville comme un habitant — marchés, quartiers vivants, scènes culturelles.",
+    metaDesc: "Au-delà de la tour Eiffel : 10 activités concrètes à Paris pour vivre la ville comme un habitant, marchés, quartiers vivants, scènes culturelles.",
     category: "tourisme",
     emoji: "🗼",
     readMinutes: 7,
@@ -23219,11 +23219,11 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "5. Déjeuner dans un bouillon parisien",
-        body: "Les bouillons (Chartier, Pigalle, République) servent la cuisine bourgeoise classique — œuf mayonnaise, blanquette, tarte tatin — pour 15 à 20 € le midi. Cadres Belle Époque, service rapide, zéro chichi.",
+        body: "Les bouillons (Chartier, Pigalle, République) servent la cuisine bourgeoise classique, œuf mayonnaise, blanquette, tarte tatin, pour 15 à 20 € le midi. Cadres Belle Époque, service rapide, zéro chichi.",
       },
       {
         heading: "6. Visiter le Palais Royal et ses galeries",
-        body: "Jardin intérieur calme à deux pas du Louvre, entouré de galeries marchandes du XVIIIe siècle. Librairies, antiquaires, restaurants discrets. Les colonnes de Buren divisent encore — forcément.",
+        body: "Jardin intérieur calme à deux pas du Louvre, entouré de galeries marchandes du XVIIIe siècle. Librairies, antiquaires, restaurants discrets. Les colonnes de Buren divisent encore, forcément.",
       },
       {
         heading: "7. Assister à un concert à la Philharmonie ou au Théâtre du Châtelet",
@@ -23231,7 +23231,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "8. Grimper à Montmartre en semaine avant 9h",
-        body: "Le Sacré-Cœur bondé le week-end devient presque silencieux les matins de semaine. Vue sur Paris dégagée, cafés ouverts pour les locaux, Place du Tertre sans caricaturistes — pour une fois.",
+        body: "Le Sacré-Cœur bondé le week-end devient presque silencieux les matins de semaine. Vue sur Paris dégagée, cafés ouverts pour les locaux, Place du Tertre sans caricaturistes, pour une fois.",
       },
       {
         heading: "9. Découvrir le Canal Saint-Martin à pied",
@@ -23239,7 +23239,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "10. Profiter d'un bain public dans un hammam ou une piscine Art déco",
-        body: "Paris compte plusieurs piscines classées — Pontoise (5e), Butte-aux-Cailles (13e) — et des hammams ouverts au public comme le hammam de la Mosquée. Entrée entre 5 et 20 €. Un Paris moins connu, très efficace.",
+        body: "Paris compte plusieurs piscines classées, Pontoise (5e), Butte-aux-Cailles (13e), et des hammams ouverts au public comme le hammam de la Mosquée. Entrée entre 5 et 20 €. Un Paris moins connu, très efficace.",
       },
     ],
     relatedCities: ["paris"],
@@ -23259,7 +23259,7 @@ export const GUIDES: Guide[] = [
     readMinutes: 7,
     publishedAt: "2026-05-26",
     updatedAt: "2026-05-26",
-    intro: "Lyon est régulièrement classée parmi les meilleures villes de France pour la qualité de vie — et ses habitants en profitent au quotidien. Voici 10 activités pour comprendre pourquoi.",
+    intro: "Lyon est régulièrement classée parmi les meilleures villes de France pour la qualité de vie, et ses habitants en profitent au quotidien. Voici 10 activités pour comprendre pourquoi.",
     sections: [
       {
         heading: "1. Emprunter les traboules du Vieux-Lyon un matin de semaine",
@@ -23283,7 +23283,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "6. Explorer le quartier de la Guillotière",
-        body: "Le quartier le plus cosmopolite de Lyon — épiceries nord-africaines, restaurants asiatiques, brocanteurs, bars alternatifs. Ignoré des guides classiques, très vivant le week-end.",
+        body: "Le quartier le plus cosmopolite de Lyon, épiceries nord-africaines, restaurants asiatiques, brocanteurs, bars alternatifs. Ignoré des guides classiques, très vivant le week-end.",
       },
       {
         heading: "7. Assister à une représentation à l'Opéra ou aux Nuits de Fourvière",
@@ -23387,19 +23387,19 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "2. Flâner sur les berges de la Garonne",
-        body: "Les berges aménagées entre le pont Neuf et le pont Saint-Michel offrent une promenade de 3 km avec vues sur les briques roses. Prairie des Filtres, guinguettes temporaires, couchers de soleil sur les dômes — le vrai visage de Toulouse.",
+        body: "Les berges aménagées entre le pont Neuf et le pont Saint-Michel offrent une promenade de 3 km avec vues sur les briques roses. Prairie des Filtres, guinguettes temporaires, couchers de soleil sur les dômes: le vrai visage de Toulouse.",
       },
       {
         heading: "3. Assister à un match du Stade Toulousain",
-        body: "Le Stade Toulousain est le club de rugby le plus titré d'Europe. Un match au Stadium ou au futur Grand Stade (Toulouse Arena) est une expérience totale — ambiance, chants, troisième mi-temps incluse. Places dès 15 € en tribune.",
+        body: "Le Stade Toulousain est le club de rugby le plus titré d'Europe. Un match au Stadium ou au futur Grand Stade (Toulouse Arena) est une expérience totale, ambiance, chants, troisième mi-temps incluse. Places dès 15 € en tribune.",
       },
       {
         heading: "4. Explorer le marché Victor Hugo",
-        body: "Halle couverte en plein centre, ouverte mardi-dimanche. Charcuteries du Gers, fromages des Pyrénées, marché aux fleurs, poissonneries. Les restaurants à l'étage — une dizaine — servent midi et soir avec les produits frais du rez-de-chaussée.",
+        body: "Halle couverte en plein centre, ouverte mardi-dimanche. Charcuteries du Gers, fromages des Pyrénées, marché aux fleurs, poissonneries. Les restaurants à l'étage, une dizaine, servent midi et soir avec les produits frais du rez-de-chaussée.",
       },
       {
         heading: "5. Visite de la Cité de l'Espace",
-        body: "Musée de l'espace en plein air avec vraies fusées (Ariane 5, Soyouz), simulateurs et planétarium. À 20 minutes du centre en bus. Idéal famille mais aussi adultes seuls — les expositions sur les missions habitées et le futur de l'exploration sont rigoureuses.",
+        body: "Musée de l'espace en plein air avec vraies fusées (Ariane 5, Soyouz), simulateurs et planétarium. À 20 minutes du centre en bus. Idéal famille mais aussi adultes seuls: les expositions sur les missions habitées et le futur de l'exploration sont rigoureuses.",
       },
       {
         heading: "6. Soirée au Bikini ou aux Abattoirs",
@@ -23447,7 +23447,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "2. Matin au marché du Vieux-Port",
-        body: "Chaque matin, les pêcheurs vendent leur prise directement sur le quai de la Fraternité. Poissons de roche, oursins en saison, herbes pour la bouillabaisse. La vraie bouillabaisse se prépare avec ce que le marché donne — pas avec ce que le restaurant choisit.",
+        body: "Chaque matin, les pêcheurs vendent leur prise directement sur le quai de la Fraternité. Poissons de roche, oursins en saison, herbes pour la bouillabaisse. La vraie bouillabaisse se prépare avec ce que le marché donne, pas avec ce que le restaurant choisit.",
       },
       {
         heading: "3. Visite du MuCEM",
@@ -23459,19 +23459,19 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "5. Quartier du Panier : balade et street art",
-        body: "Le plus vieux quartier de Marseille (2600 ans), reconstruit en partie après la guerre. Ruelles, courettes, ateliers d'artistes. La Vieille Charité — ancien hospice baroque devenu musée — est l'un des plus beaux ensembles architecturaux de la ville.",
+        body: "Le plus vieux quartier de Marseille (2600 ans), reconstruit en partie après la guerre. Ruelles, courettes, ateliers d'artistes. La Vieille Charité, ancien hospice baroque devenu musée, est l'un des plus beaux ensembles architecturaux de la ville.",
       },
       {
         heading: "6. Navette maritime vers les îles du Frioul",
-        body: "30 minutes en bateau depuis le Vieux-Port pour rejoindre l'archipel du Frioul. Eaux turquoise, sentiers de randonnée, fort d'If (château du Comte de Monte-Cristo). Navettes RTMM toute l'année. Apportez à manger — la restauration sur les îles est limitée.",
+        body: "30 minutes en bateau depuis le Vieux-Port pour rejoindre l'archipel du Frioul. Eaux turquoise, sentiers de randonnée, fort d'If (château du Comte de Monte-Cristo). Navettes RTMM toute l'année. Apportez à manger: la restauration sur les îles est limitée.",
       },
       {
         heading: "7. Soirée dans le quartier de la Plaine ou de Noailles",
-        body: "La Plaine (place Jean-Jaurès) est le cœur estudiantin de Marseille — bars, concerts spontanés, terrasses tard le soir. Noailles est le quartier commerçant nord-africain et turc, épices, confiseries, snacks à toute heure.",
+        body: "La Plaine (place Jean-Jaurès) est le cœur estudiantin de Marseille, bars, concerts spontanés, terrasses tard le soir. Noailles est le quartier commerçant nord-africain et turc, épices, confiseries, snacks à toute heure.",
       },
       {
         heading: "8. Baignade à la plage de Malmousque ou aux Catalans",
-        body: "Les Catalans (5e) sont la plage du centre-ville, en face du Vieux-Port. Malmousque (7e) est une crique entre rochers avec un escalier pour descendre — moins connue, eau plus propre. Accès libre, eau surveillée l'été.",
+        body: "Les Catalans (5e) sont la plage du centre-ville, en face du Vieux-Port. Malmousque (7e) est une crique entre rochers avec un escalier pour descendre, moins connue, eau plus propre. Accès libre, eau surveillée l'été.",
       },
       {
         heading: "9. Marché de Noailles pour les épices et produits méditerranéens",
@@ -23511,7 +23511,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "3. Déjeuner de socca dans le Vieux-Nice",
-        body: "La socca (galette de farine de pois chiche, huile d'olive, poivre) est la street food niçoise par excellence. Chez Thérésa à la Socca, Cours Saleya — queue inévitable, mais prix et qualité sont au rendez-vous. À manger debout, avec un verre de rosé.",
+        body: "La socca (galette de farine de pois chiche, huile d'olive, poivre) est la street food niçoise par excellence. Chez Thérésa à la Socca, Cours Saleya, queue inévitable, mais prix et qualité sont au rendez-vous. À manger debout, avec un verre de rosé.",
       },
       {
         heading: "4. Journée à Èze et la Côte d'Azur médiévale",
@@ -23519,11 +23519,11 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "5. Randonnée dans l'arrière-pays niçois (Mercantour)",
-        body: "Le Parc du Mercantour est à 1h de Nice. Vallées de la Vésubie, de la Roya et de la Tinée — villages occitans, lacs d'altitude, chamois et bouquetins. La Valle delle Meraviglie (gravures rupestres de l'Âge du Bronze) se mérite mais reste accessible.",
+        body: "Le Parc du Mercantour est à 1h de Nice. Vallées de la Vésubie, de la Roya et de la Tinée, villages occitans, lacs d'altitude, chamois et bouquetins. La Valle delle Meraviglie (gravures rupestres de l'Âge du Bronze) se mérite mais reste accessible.",
       },
       {
         heading: "6. Visiter le MAMAC (Musée d'Art Moderne et d'Art Contemporain)",
-        body: "Nice a produit des artistes majeurs du XXe siècle — Yves Klein (bleu IKB), Niki de Saint Phalle, Arman. Le MAMAC en plein centre présente leurs œuvres de façon permanente. Gratuit le premier dimanche du mois.",
+        body: "Nice a produit des artistes majeurs du XXe siècle, Yves Klein (bleu IKB), Niki de Saint Phalle, Arman. Le MAMAC en plein centre présente leurs œuvres de façon permanente. Gratuit le premier dimanche du mois.",
       },
       {
         heading: "7. Baignade aux plages de Villefranche-sur-Mer",
@@ -23531,7 +23531,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "8. Explorer le quartier Libération le dimanche matin",
-        body: "Le marché Libération est le marché vivrier des niçois — moins touristique que Cours Saleya, produits du pays niçois, prix locaux. Socca servie directement aux stands, café-croissant dans les cafés du coin.",
+        body: "Le marché Libération est le marché vivrier des niçois, moins touristique que Cours Saleya, produits du pays niçois, prix locaux. Socca servie directement aux stands, café-croissant dans les cafés du coin.",
       },
       {
         heading: "9. Soirée dans les bars du Vieux-Nice",
@@ -23539,7 +23539,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "10. Train des Merveilles vers Tende",
-        body: "La ligne ferroviaire Nice-Tende longe la Roya à travers des paysages sauvages. 2h de train, gorges verticales, viaducs, tunnels, villages accrochés aux rochers. Billet aller-retour moins de 20 €. La région a été durement touchée par les inondations de 2020 — la ligne est l'un des symboles de la reconstruction.",
+        body: "La ligne ferroviaire Nice-Tende longe la Roya à travers des paysages sauvages. 2h de train, gorges verticales, viaducs, tunnels, villages accrochés aux rochers. Billet aller-retour moins de 20 €. La région a été durement touchée par les inondations de 2020: la ligne est l'un des symboles de la reconstruction.",
       },
     ],
     relatedCities: ["nice"],
@@ -23571,7 +23571,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "3. Explorer le quartier Bouffay le soir",
-        body: "Le cœur médiéval de Nantes — ruelles pavées, restaurants de cuisine du monde, bars à cocktails, concerts de rue. Lively sans être saturé de touristes. La rue Kervégan ouvre sur un quartier de créateurs et de galeristes.",
+        body: "Le cœur médiéval de Nantes, ruelles pavées, restaurants de cuisine du monde, bars à cocktails, concerts de rue. Lively sans être saturé de touristes. La rue Kervégan ouvre sur un quartier de créateurs et de galeristes.",
       },
       {
         heading: "4. Vélo sur les bords de l'Erdre",
@@ -23591,11 +23591,11 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "8. Soirée au Lieu Unique ou au Stéréolux",
-        body: "Le LieuUnique occupe les anciennes biscuiteries LU — spectacles pluridisciplinaires, bar, hammam, restaurant. Le Stéréolux est la salle de musiques électroniques et numériques de la métropole. Deux lieux incontournables de la scène culturelle nantaise.",
+        body: "Le LieuUnique occupe les anciennes biscuiteries LU, spectacles pluridisciplinaires, bar, hammam, restaurant. Le Stéréolux est la salle de musiques électroniques et numériques de la métropole. Deux lieux incontournables de la scène culturelle nantaise.",
       },
       {
         heading: "9. Sortie en Brière ou aux marais de Loire",
-        body: "À 45 minutes, le Parc de Brière est le deuxième plus grand marais de France — barques à fond plat, aigrettes et hérons, chaumières et villages isolés. Peut se combiner avec une nuit à La Baule.",
+        body: "À 45 minutes, le Parc de Brière est le deuxième plus grand marais de France, barques à fond plat, aigrettes et hérons, chaumières et villages isolés. Peut se combiner avec une nuit à La Baule.",
       },
       {
         heading: "10. Muscadet et galettes à Clisson",
@@ -24171,15 +24171,15 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "3. Palais du Tau",
-        body: "Résidence des archevêques de Reims, construit au XIVe et XVIIe siècles, classé UNESCO aux côtés de la cathédrale. Il abrite le trésor de la cathédrale — reliques, ornements royaux, sculptures originales du XIIIe siècle retirées de la façade pour préservation.",
+        body: "Résidence des archevêques de Reims, construit au XIVe et XVIIe siècles, classé UNESCO aux côtés de la cathédrale. Il abrite le trésor de la cathédrale, reliques, ornements royaux, sculptures originales du XIIIe siècle retirées de la façade pour préservation.",
       },
       {
         heading: "4. Quartier art déco autour de la rue de Vesle",
-        body: "Reims a été reconstruite après la Première Guerre mondiale avec un soin architectural art déco remarquable. La rue de Vesle, la place d'Erlon et le quartier Saint-Remi conservent des façades et des intérieurs de cette période — un ensemble cohérent unique en France.",
+        body: "Reims a été reconstruite après la Première Guerre mondiale avec un soin architectural art déco remarquable. La rue de Vesle, la place d'Erlon et le quartier Saint-Remi conservent des façades et des intérieurs de cette période: un ensemble cohérent unique en France.",
       },
       {
         heading: "5. Marché dominical et halles du Boulingrin",
-        body: "Le marché du Boulingrin se tient dans les halles métalliques de 1929 — chef-d'œuvre d'architecture industrielle du XXe siècle. Marchés quotidiens à l'intérieur, grand marché le samedi. Produits champenois : ratafia, marc de champagne, fromages de Langres, volailles de Bresse.",
+        body: "Le marché du Boulingrin se tient dans les halles métalliques de 1929, chef-d'œuvre d'architecture industrielle du XXe siècle. Marchés quotidiens à l'intérieur, grand marché le samedi. Produits champenois : ratafia, marc de champagne, fromages de Langres, volailles de Bresse.",
       },
       {
         heading: "6. Balade dans la Montagne de Reims",
@@ -24227,11 +24227,11 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "2. Marché Richelme ou Grand Marché le matin",
-        body: "La Place Richelme accueille un marché quotidien de producteurs — fruits et légumes de Provence, herbes aromatiques, miel, fromages de chèvre. Le grand marché du samedi place des Prêcheurs et alentours étend l'offre aux fleurs, épices, charcuteries et antiquités.",
+        body: "La Place Richelme accueille un marché quotidien de producteurs, fruits et légumes de Provence, herbes aromatiques, miel, fromages de chèvre. Le grand marché du samedi place des Prêcheurs et alentours étend l'offre aux fleurs, épices, charcuteries et antiquités.",
       },
       {
         heading: "3. Atelier Cézanne",
-        body: "Paul Cézanne est né et a vécu à Aix. Son dernier atelier, à l'extérieur du centre, est conservé tel qu'il l'a laissé. Les objets représentés dans les natures mortes sont exposés — une visite courte (30 min) mais saisissante. La Montagne Sainte-Victoire, son obsession, est visible depuis les hauteurs de la ville.",
+        body: "Paul Cézanne est né et a vécu à Aix. Son dernier atelier, à l'extérieur du centre, est conservé tel qu'il l'a laissé. Les objets représentés dans les natures mortes sont exposés: une visite courte (30 min) mais saisissante. La Montagne Sainte-Victoire, son obsession, est visible depuis les hauteurs de la ville.",
       },
       {
         heading: "4. Randonnée vers la Montagne Sainte-Victoire",
@@ -24243,7 +24243,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "6. Journée dans le Luberon ou au Gorges du Verdon",
-        body: "Le Luberon (Gordes, Roussillon, Lacoste) est à 40 minutes d'Aix. Les Gorges du Verdon — Canyon européen de référence, eaux turquoise, randonnée du sentier Martel (21 km) — à 1h30. Deux sorties dans la journée accessibles sans logistique complexe.",
+        body: "Le Luberon (Gordes, Roussillon, Lacoste) est à 40 minutes d'Aix. Les Gorges du Verdon, Canyon européen de référence, eaux turquoise, randonnée du sentier Martel (21 km), à 1h30. Deux sorties dans la journée accessibles sans logistique complexe.",
       },
       {
         heading: "7. Quartier Mazarin et hôtels particuliers",
@@ -24255,11 +24255,11 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "9. Calissons et pâtisseries provençales",
-        body: "Le calisson d'Aix est un des IGP culinaires les plus anciens de France — amande de Provence, melon confit, pain azyme, glaçage royal. Confiseries Roy René et Léonard Parli sont les maisons de référence. La visite des laboratoires explique la fabrication.",
+        body: "Le calisson d'Aix est un des IGP culinaires les plus anciens de France, amande de Provence, melon confit, pain azyme, glaçage royal. Confiseries Roy René et Léonard Parli sont les maisons de référence. La visite des laboratoires explique la fabrication.",
       },
       {
         heading: "10. Thermes Sextius ou spa local",
-        body: "Aix est une ville thermale depuis l'Antiquité — les eaux chaudes ont été utilisées par les Romains. Les thermes Sextius en plein centre proposent accès à l'eau thermale et soins. Une tradition locale qui se pratique encore entre deux rendez-vous.",
+        body: "Aix est une ville thermale depuis l'Antiquité: les eaux chaudes ont été utilisées par les Romains. Les thermes Sextius en plein centre proposent accès à l'eau thermale et soins. Une tradition locale qui se pratique encore entre deux rendez-vous.",
       },
     ],
     relatedCities: ["aix-en-provence"],
@@ -24283,7 +24283,7 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "1. Océanopolis",
-        body: "L'un des meilleurs aquariums d'Europe — trois pavillons thématiques (tropical, polaire, tempéré), expositions sur l'océan mondial et les défis environnementaux. Le pavillon polaire avec ses manchots et les requins du pavillon tropical sont les points forts. Compter une demi-journée.",
+        body: "L'un des meilleurs aquariums d'Europe, trois pavillons thématiques (tropical, polaire, tempéré), expositions sur l'océan mondial et les défis environnementaux. Le pavillon polaire avec ses manchots et les requins du pavillon tropical sont les points forts. Compter une demi-journée.",
       },
       {
         heading: "2. Traversée en bateau vers la presqu'île de Crozon",
@@ -24291,7 +24291,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "3. Château de Brest et Musée National de la Marine",
-        body: "La fortification construite par Vauban abrite le Musée National de la Marine avec ses maquettes et instruments nautiques historiques. Le château est l'un des rares monuments médiévaux de Brest — la ville ayant été reconstruite après les bombardements de la Seconde Guerre mondiale.",
+        body: "La fortification construite par Vauban abrite le Musée National de la Marine avec ses maquettes et instruments nautiques historiques. Le château est l'un des rares monuments médiévaux de Brest: la ville ayant été reconstruite après les bombardements de la Seconde Guerre mondiale.",
       },
       {
         heading: "4. Conservatoire Botanique National et Vallon du Stangalar",
@@ -24299,7 +24299,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "5. Soirée dans le quartier de la Liberté ou Saint-Martin",
-        body: "Le quartier de la Liberté est le cœur de la vie nocturne brestoise — bars à bières (Brest est une ville de bière, pas de cidre), concerts de musique bretonne, ambiance maritime. Le Saint-Martin, plus calme, abrite des restaurants de poissons et de fruits de mer de qualité.",
+        body: "Le quartier de la Liberté est le cœur de la vie nocturne brestoise, bars à bières (Brest est une ville de bière, pas de cidre), concerts de musique bretonne, ambiance maritime. Le Saint-Martin, plus calme, abrite des restaurants de poissons et de fruits de mer de qualité.",
       },
       {
         heading: "6. Randonnée sur les GR34 autour de la rade",
@@ -24307,19 +24307,19 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "7. Pointe Saint-Mathieu et abbaye en ruine",
-        body: "À 20 km de Brest, la pointe Saint-Mathieu est l'un des sites maritimes les plus impressionnants de Bretagne — phare, ruines d'une abbaye bénédictine du VIe siècle, vue sur l'Iroise et les côtes normandes par temps clair. Accès libre.",
+        body: "À 20 km de Brest, la pointe Saint-Mathieu est l'un des sites maritimes les plus impressionnants de Bretagne, phare, ruines d'une abbaye bénédictine du VIe siècle, vue sur l'Iroise et les côtes normandes par temps clair. Accès libre.",
       },
       {
         heading: "8. Marché des Halles Saint-Martin",
-        body: "Halle couverte centrale ouverte 6j/7. Poissons de la criée de Brest, homards et araignées vivants, charcuteries du Finistère, fromages et crêpes. La halle est moins touristique que celles de Rennes ou Nantes — vraiment utile aux habitants.",
+        body: "Halle couverte centrale ouverte 6j/7. Poissons de la criée de Brest, homards et araignées vivants, charcuteries du Finistère, fromages et crêpes. La halle est moins touristique que celles de Rennes ou Nantes, vraiment utile aux habitants.",
       },
       {
         heading: "9. Les Ateliers des Capucins",
-        body: "Anciens ateliers de la Marine nationale reconvertis en espace culturel de 60 000 m². Médiathèque, cinémas, Quartz (salle de spectacle nationale), restaurants, musée des beaux-arts. L'architecture industrielle du XIXe préservée — le meilleur de la reconversion des friches maritimes.",
+        body: "Anciens ateliers de la Marine nationale reconvertis en espace culturel de 60 000 m². Médiathèque, cinémas, Quartz (salle de spectacle nationale), restaurants, musée des beaux-arts. L'architecture industrielle du XIXe préservée: le meilleur de la reconversion des friches maritimes.",
       },
       {
         heading: "10. Festival des Vieilles Charrues (Carhaix) ou Brest les Fêtes Maritimes",
-        body: "Les Vieilles Charrues (juillet, Carhaix — 50 km) est le plus grand festival de France en termes de fréquentation (300 000 spectateurs, 4 jours). Les Fêtes Maritimes de Brest (bisannuelles) réunissent voiliers traditionnels et cultures du monde entier dans la rade.",
+        body: "Les Vieilles Charrues (juillet, Carhaix, 50 km) est le plus grand festival de France en termes de fréquentation (300 000 spectateurs, 4 jours). Les Fêtes Maritimes de Brest (bisannuelles) réunissent voiliers traditionnels et cultures du monde entier dans la rade.",
       },
     ],
     relatedCities: ["brest"],
@@ -24339,7 +24339,7 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-26",
     updatedAt: "2026-05-26",
-    intro: "Clermont-Ferrand est construite sur des basaltes volcaniques — ses pierres noires, ses volcans en toile de fond et sa gastronomie en font une destination singulière. Sous-estimée, elle recèle une qualité de vie remarquable et l'une des natures de proximité les plus spectaculaires de France.",
+    intro: "Clermont-Ferrand est construite sur des basaltes volcaniques, ses pierres noires, ses volcans en toile de fond et sa gastronomie en font une destination singulière. Sous-estimée, elle recèle une qualité de vie remarquable et l'une des natures de proximité les plus spectaculaires de France.",
     sections: [
       {
         heading: "1. Sommet du Puy de Dôme",
@@ -24351,11 +24351,11 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "3. Marché Saint-Pierre le samedi matin",
-        body: "Le plus grand marché d'Auvergne, place Saint-Pierre — fromages (cantal, saint-nectaire, fourme d'Ambert, bleu d'Auvergne), lentilles du Puy (AOP), saucissons secs, vins des Côtes d'Auvergne. Ambiance populaire et régionale authentique.",
+        body: "Le plus grand marché d'Auvergne, place Saint-Pierre, fromages (cantal, saint-nectaire, fourme d'Ambert, bleu d'Auvergne), lentilles du Puy (AOP), saucissons secs, vins des Côtes d'Auvergne. Ambiance populaire et régionale authentique.",
       },
       {
         heading: "4. Randonnée dans la Chaîne des Puys",
-        body: "Classée UNESCO en 2018, la Chaîne des Puys est une alignée de 80 volcans dont le dernier cratère date de 6 000 ans. Le sentier des Puys relie une dizaine de cônes en une journée. Puy Pariou, Puy de Come, Puy de Lemptégy (fouilles archéologiques) — chaque volcan a sa personnalité.",
+        body: "Classée UNESCO en 2018, la Chaîne des Puys est une alignée de 80 volcans dont le dernier cratère date de 6 000 ans. Le sentier des Puys relie une dizaine de cônes en une journée. Puy Pariou, Puy de Come, Puy de Lemptégy (fouilles archéologiques), chaque volcan a sa personnalité.",
       },
       {
         heading: "5. Basilique Notre-Dame du Port",
@@ -24367,7 +24367,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "7. Dégustation de fromages d'Auvergne",
-        body: "L'Auvergne compte 5 AOP fromagères — cantal, saint-nectaire, fourme d'Ambert, bleu d'Auvergne, salers. Les fruitières locales (laiteries artisanales) proposent des dégustations directes. Le Salon du Fromage de Clermont (automne) réunit les meilleurs producteurs.",
+        body: "L'Auvergne compte 5 AOP fromagères, cantal, saint-nectaire, fourme d'Ambert, bleu d'Auvergne, salers. Les fruitières locales (laiteries artisanales) proposent des dégustations directes. Le Salon du Fromage de Clermont (automne) réunit les meilleurs producteurs.",
       },
       {
         heading: "8. Gergovie et le site de la victoire de Vercingétorix",
@@ -24375,11 +24375,11 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "9. Soirée dans le quartier Jaude ou Les Salins",
-        body: "La Place de Jaude est la grande place de Clermont — commerces, terrasses, statue de Vercingétorix. Le quartier Les Salins, plus alternatif, concentre bars à bières locaux, concerts et restaurants indépendants. Ambiance estudiantine (deux universités, CHU).",
+        body: "La Place de Jaude est la grande place de Clermont, commerces, terrasses, statue de Vercingétorix. Le quartier Les Salins, plus alternatif, concentre bars à bières locaux, concerts et restaurants indépendants. Ambiance estudiantine (deux universités, CHU).",
       },
       {
         heading: "10. Ski à Super-Besse ou Le Mont-Dore",
-        body: "À 45 minutes de Clermont, Super-Besse et Le Mont-Dore sont les deux stations de ski du Massif Central. Domaines modestes mais accessibles, prix inférieurs aux Alpes, foule limitée. L'hiver, Clermont permet de skier le soir après le travail — un avantage de localisation unique.",
+        body: "À 45 minutes de Clermont, Super-Besse et Le Mont-Dore sont les deux stations de ski du Massif Central. Domaines modestes mais accessibles, prix inférieurs aux Alpes, foule limitée. L'hiver, Clermont permet de skier le soir après le travail: un avantage de localisation unique.",
       },
     ],
     relatedCities: ["clermont-ferrand"],
@@ -24399,7 +24399,7 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-26",
     updatedAt: "2026-05-26",
-    intro: "Tours est la ville de référence du Val de Loire UNESCO — accès direct à une douzaine des plus beaux châteaux du monde, gastronomie tourangelle reconnue, vieille ville préservée et qualité de vie parmi les meilleures des villes moyennes françaises.",
+    intro: "Tours est la ville de référence du Val de Loire UNESCO: accès direct à une douzaine des plus beaux châteaux du monde, gastronomie tourangelle reconnue, vieille ville préservée et qualité de vie parmi les meilleures des villes moyennes françaises.",
     sections: [
       {
         heading: "1. Vieux-Tours — place Plumereau et colombages",
@@ -24407,11 +24407,11 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "2. Château de Chambord (45 km)",
-        body: "Le plus grand château de la Loire — 440 pièces, l'escalier à double révolution attribué à Léonard de Vinci, 5 440 hectares de forêt. Monument le plus visité de la région. Arrivez à l'ouverture (9h) pour profiter des terrasses sans foule.",
+        body: "Le plus grand château de la Loire, 440 pièces, l'escalier à double révolution attribué à Léonard de Vinci, 5 440 hectares de forêt. Monument le plus visité de la région. Arrivez à l'ouverture (9h) pour profiter des terrasses sans foule.",
       },
       {
         heading: "3. Château d'Amboise et clos Lucé",
-        body: "Amboise (30 km) : château royal sur falaise, chapelle Saint-Hubert où repose Léonard de Vinci, et le Clos Lucé — dernière demeure de Léonard de Vinci, avec ses machines reconstituées dans les jardins. Association Renaissance unique. Demi-journée suffisante.",
+        body: "Amboise (30 km) : château royal sur falaise, chapelle Saint-Hubert où repose Léonard de Vinci, et le Clos Lucé, dernière demeure de Léonard de Vinci, avec ses machines reconstituées dans les jardins. Association Renaissance unique. Demi-journée suffisante.",
       },
       {
         heading: "4. Loire à Vélo vers Villandry ou Chinon",
@@ -24423,7 +24423,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "6. Marché gourmand des Halles ou marché de la Victoire",
-        body: "Les Halles de Tours (Place Gaston-Pailhou) accueillent un marché quotidien — rillettes de Tours (AOP), fromages de chèvre Sainte-Maure-de-Touraine (AOP), vins de Touraine. Le marché de la Victoire (mercredi et samedi, place de la Victoire) est le plus grand marché de plein air.",
+        body: "Les Halles de Tours (Place Gaston-Pailhou) accueillent un marché quotidien, rillettes de Tours (AOP), fromages de chèvre Sainte-Maure-de-Touraine (AOP), vins de Touraine. Le marché de la Victoire (mercredi et samedi, place de la Victoire) est le plus grand marché de plein air.",
       },
       {
         heading: "7. Cathédrale Saint-Gatien",
@@ -24431,11 +24431,11 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "8. Troglodytes et caves de Vouvray",
-        body: "Le tuffeau du Val de Loire se creuse facilement — des milliers de caves et d'habitations troglodytiques jalonnent la rive nord de la Loire. Les vignerons de Vouvray élèvent leurs vins dans ces caves naturelles à température constante. La route des troglodytes entre Tours et Vouvray vaut une demi-journée.",
+        body: "Le tuffeau du Val de Loire se creuse facilement: des milliers de caves et d'habitations troglodytiques jalonnent la rive nord de la Loire. Les vignerons de Vouvray élèvent leurs vins dans ces caves naturelles à température constante. La route des troglodytes entre Tours et Vouvray vaut une demi-journée.",
       },
       {
         heading: "9. Rillettes, charcuterie et gastronomie tourangelle",
-        body: "Les rillettes de Tours (cuites à l'eau, plus grasses que les rillettes du Mans) sont une spécialité locale AOP. Boudin noir de Touraine, nougat de Tours, pithiviers feuilleté — la gastronomie tourangelle est riche et accessible. Les charcuteries artisanales du marché des Halles en sont la vitrine.",
+        body: "Les rillettes de Tours (cuites à l'eau, plus grasses que les rillettes du Mans) sont une spécialité locale AOP. Boudin noir de Touraine, nougat de Tours, pithiviers feuilleté: la gastronomie tourangelle est riche et accessible. Les charcuteries artisanales du marché des Halles en sont la vitrine.",
       },
       {
         heading: "10. Soirée place Plumereau ou bords de Loire",
@@ -24971,15 +24971,15 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "8. Thermalisme à Eaux-Bonnes ou Salies-de-Béarn",
-        body: "Le Béarn a une tradition thermale ancienne. Eaux-Bonnes (40 km), station thermale victorienne dans un cadre pyrénéen préservé. Salies-de-Béarn (50 km) utilise une saumure naturelle dix fois plus concentrée que la mer — pour les soins rhumatologiques et la détente. Les thermes fonctionnent toute l'année.",
+        body: "Le Béarn a une tradition thermale ancienne. Eaux-Bonnes (40 km), station thermale victorienne dans un cadre pyrénéen préservé. Salies-de-Béarn (50 km) utilise une saumure naturelle dix fois plus concentrée que la mer, pour les soins rhumatologiques et la détente. Les thermes fonctionnent toute l'année.",
       },
       {
         heading: "9. Pelote basque à Pau",
-        body: "La pelote basque et les sports gascons (courses landaises) débordent jusqu'à Pau. Les fronton en plein air organisent des parties libres les week-ends. La JAV (Jugeant à Vue), variante locale de la chistera, se joue au trinquet de Pau — spectacle de vitesse et de technique.",
+        body: "La pelote basque et les sports gascons (courses landaises) débordent jusqu'à Pau. Les fronton en plein air organisent des parties libres les week-ends. La JAV (Jugeant à Vue), variante locale de la chistera, se joue au trinquet de Pau, spectacle de vitesse et de technique.",
       },
       {
         heading: "10. Lourdes et Pyrénées spirituelles",
-        body: "Lourdes est à 30 km de Pau. Indépendamment de la foi, le sanctuaire de Lourdes reçoit 6 millions de pèlerins par an — la deuxième destination de pèlerinage catholique après Rome. La grotte de Massabielle, le château fort médiéval et les vues sur le gave de Pau constituent un site singulier à connaître.",
+        body: "Lourdes est à 30 km de Pau. Indépendamment de la foi, le sanctuaire de Lourdes reçoit 6 millions de pèlerins par an: la deuxième destination de pèlerinage catholique après Rome. La grotte de Massabielle, le château fort médiéval et les vues sur le gave de Pau constituent un site singulier à connaître.",
       },
     ],
     relatedCities: ["pau"],
@@ -25087,11 +25087,11 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "7. Leçon de surf ou stage de quelques jours",
-        body: "Biarritz est la meilleure base française pour apprendre le surf — écoles de surf reconnues (Hastea, Rip Curl School), conditions adaptées aux débutants sur la Côte des Basques hors été. Une semaine de stage incluant hébergement et cours est 30 à 40% moins chère que les mêmes prestations à Hossegor.",
+        body: "Biarritz est la meilleure base française pour apprendre le surf, écoles de surf reconnues (Hastea, Rip Curl School), conditions adaptées aux débutants sur la Côte des Basques hors été. Une semaine de stage incluant hébergement et cours est 30 à 40% moins chère que les mêmes prestations à Hossegor.",
       },
       {
         heading: "8. Plage de Marbella et falaises de la Milady",
-        body: "La Plage de Marbella et la plage de la Milady, au sud de Biarritz vers Bidart, sont moins fréquentées que la Grande Plage et offrent une eau plus propre. Les falaises de la Milady sont idéales pour observer les vagues d'automne et d'hiver — les sessions de surf professionnel s'y tiennent en octobre-novembre.",
+        body: "La Plage de Marbella et la plage de la Milady, au sud de Biarritz vers Bidart, sont moins fréquentées que la Grande Plage et offrent une eau plus propre. Les falaises de la Milady sont idéales pour observer les vagues d'automne et d'hiver: les sessions de surf professionnel s'y tiennent en octobre-novembre.",
       },
       {
         heading: "9. Fête de l'Atlantique et événements surf",
