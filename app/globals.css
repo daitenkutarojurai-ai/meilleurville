@@ -125,6 +125,55 @@ body {
   font-variant-numeric: tabular-nums;
 }
 
+/* Readable editorial lead paragraph. The city "verdict" was set in the display
+   serif, which is forced italic (.font-display) — fine for a one-line hero but
+   hard to read as a multi-sentence summary. This keeps the body in the legible
+   sans (Inter) with generous leading; the serif survives as a drop-cap accent. */
+.lead-paragraph {
+  font-family: var(--font-inter), 'Inter', system-ui, -apple-system, sans-serif;
+  font-size: 1.0625rem;       /* 17px */
+  line-height: 1.72;
+  font-weight: 400;
+  letter-spacing: -0.003em;
+  color: var(--text-primary);
+}
+@media (min-width: 640px) {
+  .lead-paragraph {
+    font-size: 1.1875rem;     /* 19px */
+    line-height: 1.75;
+  }
+}
+
+/* Editorial drop cap — premium serif accent on the first letter only, so the
+   paragraph body stays readable. */
+.drop-cap::first-letter {
+  font-family: var(--font-display), 'Cormorant Garamond', Georgia, serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 2.9em;
+  line-height: 0.86;
+  float: left;
+  margin: 0.06em 0.12em -0.04em 0;
+  color: var(--accent);
+}
+
+/* Premium card sheen — a hairline highlight along the top edge that catches
+   light, lifting the box off the canvas. Pair with .card-sheen on relative
+   containers. */
+.card-sheen {
+  position: relative;
+}
+.card-sheen::before {
+  content: "";
+  position: absolute;
+  left: 1rem;
+  right: 1rem;
+  top: 0;
+  height: 1px;
+  pointer-events: none;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.9), transparent);
+}
+
 @keyframes float {
   0%, 100% { transform: translateY(0px); }
   50% { transform: translateY(-8px); }

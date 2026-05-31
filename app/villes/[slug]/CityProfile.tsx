@@ -299,12 +299,12 @@ export function CityProfile({ city, locale = "fr" }: { city: CitySeed & { review
             {/* Scores */}
             <div className="lg:col-span-2 space-y-6">
               {/* Summary — intro + pros/cons + notable */}
-              <Card>
-                <div className="mb-6">
-                  <p className="text-[11px] font-bold uppercase tracking-[0.18em] text-[var(--accent)] mb-2">
+              <Card className="card-sheen">
+                <div className="mb-6 rounded-2xl border-l-[3px] border-[var(--accent)] bg-gradient-to-br from-[var(--accent)]/[0.06] via-transparent to-[var(--accent-warm)]/[0.04] py-4 pl-5 pr-4">
+                  <p className="text-[11px] font-bold uppercase tracking-[0.18em] text-[var(--accent)] mb-2.5">
                     {L("Le verdict", "The verdict")} · {city.name}
                   </p>
-                  <p className="font-display text-lg sm:text-xl text-[var(--text-primary)] leading-relaxed">
+                  <p className="lead-paragraph drop-cap">
                     {narrative.intro}
                   </p>
                 </div>
@@ -341,7 +341,7 @@ export function CityProfile({ city, locale = "fr" }: { city: CitySeed & { review
                   </div>
                 </div>
 
-                <div className="rounded-xl border border-[var(--border)] bg-[var(--bg-elevated)]/50 p-4">
+                <div className="rounded-xl border border-[var(--border)] bg-gradient-to-br from-[var(--bg-elevated)]/70 to-[var(--bg-elevated)]/30 ring-1 ring-black/[0.03] p-4">
                   <h3 className="flex items-center gap-2 text-sm font-bold text-[var(--text-primary)] mb-3">
                     <Sparkles className="h-4 w-4 text-[var(--accent)]" />
                     {L("À savoir", "Good to know")}
@@ -397,7 +397,7 @@ export function CityProfile({ city, locale = "fr" }: { city: CitySeed & { review
                       <div
                         key={n.label}
                         title={n.hint}
-                        className="rounded-xl border border-[var(--border)] bg-[var(--bg-canvas)] p-3"
+                        className="rounded-xl border border-[var(--border)] bg-gradient-to-b from-[var(--bg-surface)] to-[var(--bg-elevated)]/40 ring-1 ring-black/[0.03] p-3 transition-shadow hover:shadow-md"
                       >
                         <div className="flex items-baseline justify-between mb-1.5">
                           <span className="text-xs font-semibold text-[var(--text-secondary)]">{n.label}</span>
