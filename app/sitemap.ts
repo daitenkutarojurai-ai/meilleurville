@@ -137,6 +137,7 @@ function staticSection(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/pour-qui/familles-monoparentales`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/pour-qui/familles-nombreuses`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/pour-qui/amateurs-de-plein-air`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE_URL}/pour-qui/neo-ruraux`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/salaire-equivalent`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.75 },
     { url: `${BASE_URL}/macro-region`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/macro-region/cote-atlantique`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.65 },
