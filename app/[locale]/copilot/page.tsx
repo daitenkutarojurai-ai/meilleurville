@@ -38,7 +38,7 @@ export default function EnCopilotPage() {
         <div className="pt-16">
           <div className="mx-auto max-w-2xl px-0 sm:px-4">
             <div className="sm:rounded-2xl sm:border sm:border-[var(--border)] overflow-hidden bg-[var(--bg-canvas)] shadow-lg">
-              <CopilotClient />
+              <CopilotClient locale="en" />
             </div>
           </div>
         </div>
