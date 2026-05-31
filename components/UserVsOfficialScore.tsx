@@ -13,11 +13,13 @@ interface Props {
   topic: string;
   officialGlobal: number;
   cityName: string;
+  locale?: "fr" | "en";
 }
 
 const MIN_VOTES = 5;
 
-export function UserVsOfficialScore({ topic, officialGlobal, cityName }: Props) {
+export function UserVsOfficialScore({ topic, officialGlobal, cityName, locale = "fr" }: Props) {
+  const t = (fr: string, en: string) => (locale === "en" ? en : fr);
   const [items, setItems] = useState<Comment[]>([]);
   const [loading, setLoading] = useState(true);
 
@@ -52,12 +54,12 @@ export function UserVsOfficialScore({ topic, officialGlobal, cityName }: Props) 
       <div className="flex items-center gap-2 mb-4">
         <BarChart3 className="h-4 w-4 text-[var(--accent)]" />
         <h3 className="text-sm font-bold text-[var(--text-primary)]">
-          Score officiel vs avis habitants
+          {t("Score officiel vs avis habitants", "Official score vs resident reviews")}
         </h3>
       </div>
 
       {loading ? (
-        <p className="text-xs text-[var(--text-tertiary)]">Chargement…</p>
+        <p className="text-xs text-[var(--text-tertiary)]">{t("Chargement…", "Loading…")}</p>
       ) : (
         <>
           <div className="space-y-3 mb-4">
@@ -65,7 +67,7 @@ export function UserVsOfficialScore({ topic, officialGlobal, cityName }: Props) 
               <div className="flex items-center justify-between mb-1">
                 <span className="text-xs font-semibold text-[var(--text-secondary)] flex items-center gap-1.5">
                   <Star className="h-3 w-3 text-amber-500" />
-                  Score MaVilleIdeal
+                  {t("Score MaVilleIdeal", "BestCitiesInFrance score")}
                 </span>
                 <span className="text-sm font-bold font-mono-data text-[var(--accent)]">
                   {officialGlobal.toFixed(1)} / 10
@@ -83,15 +85,15 @@ export function UserVsOfficialScore({ topic, officialGlobal, cityName }: Props) 
               <div className="flex items-center justify-between mb-1">
                 <span className="text-xs font-semibold text-[var(--text-secondary)] flex items-center gap-1.5">
                   <Users className="h-3 w-3 text-[var(--accent-warm)]" />
-                  Avis habitants
+                  {t("Avis habitants", "Resident reviews")}
                   {voteCount > 0 && (
                     <span className="text-[10px] font-mono-data text-[var(--text-tertiary)]">
-                      ({voteCount} vote{voteCount > 1 ? "s" : ""})
+                      ({voteCount} {t(`vote${voteCount > 1 ? "s" : ""}`, `vote${voteCount > 1 ? "s" : ""}`)})
                     </span>
                   )}
                 </span>
                 <span className="text-sm font-bold font-mono-data text-[var(--text-primary)]">
-                  {enough ? `${userOnTen.toFixed(1)} / 10` : "Pas assez de votes"}
+                  {enough ? `${userOnTen.toFixed(1)} / 10` : t("Pas assez de votes", "Not enough votes")}
                 </span>
               </div>
               <div className="h-2 rounded-full bg-[var(--bg-elevated)] overflow-hidden">
@@ -110,14 +112,26 @@ export function UserVsOfficialScore({ topic, officialGlobal, cityName }: Props) 
           {enough ? (
             <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
               {Math.abs(delta) < 0.4
-                ? `Les habitants confirment le score officiel : convergence à ${Math.abs(delta).toFixed(1)} pt près.`
+                ? t(
+                    `Les habitants confirment le score officiel : convergence à ${Math.abs(delta).toFixed(1)} pt près.`,
+                    `Residents back up the official score, agreeing to within ${Math.abs(delta).toFixed(1)} pt.`
+                  )
                 : delta > 0
-                ? `Les habitants notent ${cityName} ${delta.toFixed(1)} pt au-dessus du score officiel — la ville est sous-cotée selon eux.`
-                : `Les habitants notent ${cityName} ${Math.abs(delta).toFixed(1)} pt sous le score officiel — perception plus sévère.`}
+                ? t(
+                    `Les habitants notent ${cityName} ${delta.toFixed(1)} pt au-dessus du score officiel — la ville est sous-cotée selon eux.`,
+                    `Residents rate ${cityName} ${delta.toFixed(1)} pt above the official score — they think the city is underrated.`
+                  )
+                : t(
+                    `Les habitants notent ${cityName} ${Math.abs(delta).toFixed(1)} pt sous le score officiel — perception plus sévère.`,
+                    `Residents rate ${cityName} ${Math.abs(delta).toFixed(1)} pt below the official score — a harsher take.`
+                  )}
             </p>
           ) : (
             <p className="text-xs text-[var(--text-tertiary)] leading-relaxed">
-              Il faut au moins {MIN_VOTES} avis avec note pour comparer. Soyez le premier à noter dans la discussion plus bas.
+              {t(
+                `Il faut au moins ${MIN_VOTES} avis avec note pour comparer. Soyez le premier à noter dans la discussion plus bas.`,
+                `At least ${MIN_VOTES} rated reviews are needed to compare. Be the first to rate in the discussion below.`
+              )}
             </p>
           )}
         </>
