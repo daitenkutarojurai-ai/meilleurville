@@ -61,7 +61,7 @@ export function CityProfileCta({ city, eyebrow, blurb }: CityProfileCtaProps) {
           </p>
         </div>
 
-        <span className="hidden flex-shrink-0 items-center gap-1.5 rounded-xl bg-[var(--accent)] px-4 py-2.5 text-sm font-semibold text-white transition-all group-hover:bg-[#15803D] sm:inline-flex">
+        <span className="hidden flex-shrink-0 items-center gap-1.5 rounded-xl bg-[var(--accent)] px-4 py-2.5 text-sm font-semibold text-white transition-all group-hover:bg-[var(--accent-hover)] sm:inline-flex">
           Voir la fiche
           <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
         </span>
