@@ -229,7 +229,7 @@ export function VillesSearch() {
 
       {/* Filters panel */}
       {showFilters && (
-        <div className="mb-6 rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5 space-y-5">
+        <div className="mb-6 rounded-2xl border border-[var(--border)] bg-gradient-to-b from-[var(--bg-surface)] to-[var(--bg-elevated)]/40 ring-1 ring-black/[0.03] shadow-lg shadow-[var(--accent)]/[0.04] p-5 space-y-5">
           <div className="flex items-center justify-between">
             <span className="text-sm font-semibold text-[var(--text-primary)]">Filtres</span>
             {hasFilters && (
