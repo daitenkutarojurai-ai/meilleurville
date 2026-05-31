@@ -9,6 +9,7 @@ import { QUITTER_PAIRS, pairToSlug } from "@/lib/quitter-pairs";
 import { METRO_REGIONS, regionToSlug } from "@/lib/regions";
 import { TAG_SLUGS } from "@/lib/guide-tags";
 import { RED_FLAG_THEME_SLUGS } from "@/lib/red-flag-themes";
+import { commonOriginSlugs } from "@/lib/people-like-you";
 
 // Locale-aware sitemap. Each Vercel project sets NEXT_PUBLIC_DEFAULT_LOCALE and
 // (optionally) NEXT_PUBLIC_BASE_URL — the FR project emits FR URLs at
@@ -163,6 +164,12 @@ function staticSection(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/depuis`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.8 },
     ...["lyon","marseille","bordeaux","toulouse","nice","nantes","strasbourg","montpellier","lille","grenoble","rennes","reims","dijon","metz","nancy","rouen","caen","angers","tours","le-havre","brest","annecy","pau","bayonne","clermont-ferrand","besancon"].map((slug) => ({
       url: `${BASE_URL}/depuis/${slug}`,
+      lastModified: STATIC_UPDATED,
+      changeFrequency: "monthly" as const,
+      priority: 0.72,
+    })),
+    ...commonOriginSlugs(24).map((slug) => ({
+      url: `${BASE_URL}/ou-vont-les-gens/${slug}`,
       lastModified: STATIC_UPDATED,
       changeFrequency: "monthly" as const,
       priority: 0.72,

@@ -1,8 +1,11 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Badge } from "@/components/ui/Badge";
 import { PeopleLikeYouClient } from "./PeopleLikeYouClient";
+import { commonOriginSlugs } from "@/lib/people-like-you";
+import { CITIES_SEED } from "@/data/cities-seed";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 
 export const revalidate = false;
@@ -48,6 +51,28 @@ export default function PeopleLikeYouPage() {
       <div className="mx-auto max-w-5xl px-4 sm:px-6 py-10">
         <PeopleLikeYouClient />
       </div>
+
+      {/* SSG landing pages per departure city — readable without JS, indexable */}
+      <section className="mx-auto max-w-5xl px-4 sm:px-6 pb-14">
+        <h2 className="text-sm font-semibold text-[var(--text-primary)] mb-3">
+          Pages dédiées « quitter X » par ville de départ
+        </h2>
+        <div className="flex flex-wrap gap-2">
+          {commonOriginSlugs(24).map((slug) => {
+            const c = CITIES_SEED.find((x) => x.slug === slug);
+            if (!c) return null;
+            return (
+              <Link
+                key={slug}
+                href={`/ou-vont-les-gens/${slug}`}
+                className="rounded-full border border-[var(--border)] px-3 py-1 text-xs font-medium text-[var(--text-secondary)] hover:border-[var(--accent)]/40 hover:text-[var(--accent)] transition-all"
+              >
+                Quitter {c.name}
+              </Link>
+            );
+          })}
+        </div>
+      </section>
 
       <Footer />
     </main>
