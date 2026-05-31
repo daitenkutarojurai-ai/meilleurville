@@ -51,7 +51,7 @@ export default function EnProjection5AnsPage() {
 
       <section className="border-b border-[var(--border)] bg-[var(--bg-surface)] py-10">
         <div className="mx-auto max-w-5xl px-4 sm:px-6">
-          <Badge variant="accent" className="mb-3">R9.5 · 5-Year Projection</Badge>
+          <Badge variant="accent" className="mb-3">5-year projection</Badge>
           <div className="mb-2 inline-flex items-center gap-2 text-xs uppercase tracking-widest text-[var(--accent)] font-semibold">
             <Telescope className="h-3.5 w-3.5" />
             Forward-looking

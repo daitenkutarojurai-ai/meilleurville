@@ -35,7 +35,7 @@ export default function PeopleLikeYouPage() {
 
       <section className="border-b border-[var(--border)] bg-[var(--bg-surface)] py-10">
         <div className="mx-auto max-w-5xl px-4 sm:px-6">
-          <Badge variant="accent" className="mb-3">R11.3 Phase A · personas</Badge>
+          <Badge variant="accent" className="mb-3">Profils types</Badge>
           <h1 className="text-3xl sm:text-4xl font-bold text-[var(--text-primary)] mb-2">
             Les profils comme vous vont là
           </h1>

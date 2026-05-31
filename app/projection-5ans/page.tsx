@@ -54,7 +54,7 @@ export default function Projection5AnsPage() {
 
       <section className="border-b border-[var(--border)] bg-[var(--bg-surface)] py-10">
         <div className="mx-auto max-w-4xl px-4 sm:px-6">
-          <Badge variant="accent" className="mb-3">R9.5 · Projection 5 ans</Badge>
+          <Badge variant="accent" className="mb-3">Projection 5 ans</Badge>
           <div className="mb-2 inline-flex items-center gap-2 text-xs uppercase tracking-widest text-amber-600 font-semibold">
             <Telescope className="h-3.5 w-3.5" />
             Outil de projection

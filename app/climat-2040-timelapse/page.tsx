@@ -32,7 +32,7 @@ export default function Climat2040TimelapsePage() {
 
       <section className="border-b border-[var(--border)] bg-[var(--bg-surface)] py-10">
         <div className="mx-auto max-w-5xl px-4 sm:px-6">
-          <Badge variant="accent" className="mb-3">R10.3 · Visualisation</Badge>
+          <Badge variant="accent" className="mb-3">Visualisation climat</Badge>
           <h1 className="text-3xl sm:text-4xl font-bold text-[var(--text-primary)] mb-2">
             Climat 2040 — France en accéléré
           </h1>

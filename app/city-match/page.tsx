@@ -32,7 +32,7 @@ export default function CityMatchPage() {
 
       <section className="border-b border-[var(--border)] bg-[var(--bg-surface)] py-10">
         <div className="mx-auto max-w-4xl px-4 sm:px-6">
-          <Badge variant="accent" className="mb-3">R8.1 · City Match</Badge>
+          <Badge variant="accent" className="mb-3">City Match</Badge>
           <h1 className="text-3xl sm:text-4xl font-bold text-[var(--text-primary)] mb-2">
             La ville qui colle à votre vie
           </h1>
