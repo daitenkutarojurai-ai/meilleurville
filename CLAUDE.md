@@ -184,8 +184,11 @@ Vivre sans voiture +5, Acheter à [ville] +5, and the "Lire ensuite" reading lis
 
 ## Technical roadmap — pending
 
-- [ ] **`NEXT_PUBLIC_BASE_URL`** set on Vercel to the production domain
-- [ ] **`app/cgu` + `app/confidentialite`** date: bump "Dernière mise à jour" after legal review
+Hosting is **Cloudflare** (Workers + `wrangler.toml`), not Vercel.
+
+- [x] **`NEXT_PUBLIC_BASE_URL`** — set in `wrangler.toml [vars]` (`https://www.mavilleideale.fr`); EN export sets `NEXT_PUBLIC_DEFAULT_LOCALE=en`.
+- [x] **Host disclosure** — `mentions-légales` / `legal-notice` / privacy pages corrected Vercel → Cloudflare (Cloudflare, Inc.); dates bumped 31 mai 2026.
+- [ ] **`app/cgu`** date: bump "Dernière mise à jour" after legal review (currently 25 mai 2026). `confidentialite` already current (Cloudflare + D1 disclosure).
 
 ---
 
