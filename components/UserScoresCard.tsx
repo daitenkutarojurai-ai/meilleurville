@@ -14,6 +14,7 @@ interface UserScoresCardProps {
   cityName: string;
   /** Open the review modal. Provided by the parent. */
   onOpenReview?: () => void;
+  locale?: "fr" | "en";
 }
 
 interface MinimalComment {
@@ -21,7 +22,19 @@ interface MinimalComment {
   categoryRatings?: Record<string, number>;
 }
 
-export function UserScoresCard({ citySlug, cityName, onOpenReview }: UserScoresCardProps) {
+const CATEGORY_LABELS_EN: Record<ReviewCategoryId, string> = {
+  transport: "Transport",
+  nature: "Nature & green space",
+  securite: "Safety",
+  "vie-nocturne": "Nightlife",
+  cout: "Cost of living",
+  emploi: "Jobs",
+  ecoles: "Schools",
+  ambiance: "Overall vibe",
+};
+
+export function UserScoresCard({ citySlug, cityName, onOpenReview, locale = "fr" }: UserScoresCardProps) {
+  const t = (fr: string, en: string) => (locale === "en" ? en : fr);
   const [items, setItems] = useState<MinimalComment[]>([]);
   const [loaded, setLoaded] = useState(false);
 
@@ -48,7 +61,7 @@ export function UserScoresCard({ citySlug, cityName, onOpenReview }: UserScoresC
       <div className="flex items-center justify-between mb-3">
         <h3 className="text-sm font-semibold text-[var(--text-primary)] flex items-center gap-2">
           <Users className="h-4 w-4 text-[var(--text-secondary)]" />
-          Note communauté
+          {t("Note communauté", "Community rating")}
         </h3>
         {agg.overallMean != null && (
           <span className="inline-flex items-center gap-1 text-sm font-bold tabular-nums">
@@ -60,14 +73,17 @@ export function UserScoresCard({ citySlug, cityName, onOpenReview }: UserScoresC
       </div>
 
       {!loaded ? (
-        <div className="text-xs text-[var(--text-tertiary)]">Chargement…</div>
+        <div className="text-xs text-[var(--text-tertiary)]">{t("Chargement…", "Loading…")}</div>
       ) : !hasAnyRatings ? (
         <div className="rounded-xl border border-dashed border-[var(--border)] bg-[var(--bg-surface)]/50 p-3 text-center">
           <p className="text-xs text-[var(--text-primary)] font-medium mb-1">
-            Pas encore d&apos;avis communauté
+            {locale === "en" ? "No community reviews yet" : <>Pas encore d&apos;avis communauté</>}
           </p>
           <p className="text-[11px] text-[var(--text-tertiary)] mb-3">
-            Soyez le premier à noter {cityName} sur 8 catégories.
+            {t(
+              `Soyez le premier à noter ${cityName} sur 8 catégories.`,
+              `Be the first to rate ${cityName} across 8 categories.`,
+            )}
           </p>
           {onOpenReview && (
             <button
@@ -75,7 +91,7 @@ export function UserScoresCard({ citySlug, cityName, onOpenReview }: UserScoresC
               onClick={onOpenReview}
               className="inline-flex items-center gap-1 rounded-full bg-[var(--accent)] text-white text-xs font-semibold px-3 py-1.5 hover:bg-[var(--accent-hover)] transition-colors"
             >
-              Donner mon avis →
+              {t("Donner mon avis →", "Write a review →")}
             </button>
           )}
         </div>
@@ -89,7 +105,7 @@ export function UserScoresCard({ citySlug, cityName, onOpenReview }: UserScoresC
                 <div key={cat.id} className="flex items-center justify-between text-xs">
                   <span className="text-[var(--text-secondary)] flex items-center gap-1.5">
                     <span aria-hidden>{cat.emoji}</span>
-                    {cat.label}
+                    {t(cat.label, CATEGORY_LABELS_EN[k])}
                   </span>
                   {v ? (
                     <span className="inline-flex items-center gap-1 font-mono-data">
@@ -106,7 +122,10 @@ export function UserScoresCard({ citySlug, cityName, onOpenReview }: UserScoresC
           </div>
           <div className="mt-3 flex items-center justify-between gap-2 pt-3 border-t border-[var(--border)]/50">
             <span className="text-[11px] text-[var(--text-tertiary)]">
-              {agg.totalReviewers} habitant{agg.totalReviewers > 1 ? "s" : ""} a{agg.totalReviewers > 1 ? "ont" : ""} noté
+              {t(
+                `${agg.totalReviewers} habitant${agg.totalReviewers > 1 ? "s" : ""} a${agg.totalReviewers > 1 ? "ont" : ""} noté`,
+                `Rated by ${agg.totalReviewers} resident${agg.totalReviewers > 1 ? "s" : ""}`,
+              )}
             </span>
             {onOpenReview && (
               <button
@@ -114,7 +133,7 @@ export function UserScoresCard({ citySlug, cityName, onOpenReview }: UserScoresC
                 onClick={onOpenReview}
                 className="text-xs text-[var(--accent)] font-semibold hover:underline"
               >
-                Ajouter mon avis →
+                {t("Ajouter mon avis →", "Add your review →")}
               </button>
             )}
           </div>

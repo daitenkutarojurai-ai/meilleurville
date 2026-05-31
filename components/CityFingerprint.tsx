@@ -8,7 +8,28 @@ interface Props {
   showLabels?: boolean;
   showFooter?: boolean;
   className?: string;
+  locale?: "fr" | "en";
 }
+
+const AXIS_SHORT_EN: Record<string, string> = {
+  life: "Living",
+  culture: "Culture",
+  transport: "Transit",
+  remoteWork: "Remote",
+  schools: "Schools",
+  safety: "Safety",
+  cost: "Cost",
+  nature: "Nature",
+};
+
+const SCORE_LABEL_EN: Record<string, string> = {
+  exceptionnel: "exceptional",
+  excellent: "excellent",
+  bon: "good",
+  moyen: "average",
+  "en dessous": "below average",
+  mauvais: "poor",
+};
 
 function petalPath(p: Petal, cx: number, cy: number): string {
   const halfWidth = 18;
@@ -30,13 +51,16 @@ function petalPath(p: Petal, cx: number, cy: number): string {
   );
 }
 
-export function CityFingerprint({ city, size = 320, showLabels = true, showFooter = true, className }: Props) {
+export function CityFingerprint({ city, size = 320, showLabels = true, showFooter = true, className, locale = "fr" }: Props) {
+  const t = (fr: string, en: string) => (locale === "en" ? en : fr);
   const geom: FingerprintGeometry = buildFingerprint(city);
+  const frScoreLabel = scoreLabel(geom.globalScore);
+  const localizedScoreLabel = locale === "en" ? SCORE_LABEL_EN[frScoreLabel] ?? frScoreLabel : frScoreLabel;
   const idBase = `fp-${city.slug}`;
   const guideRings = [0.35, 0.7, 1.0];
 
   return (
-    <figure className={className} aria-label={`Empreinte visuelle de ${city.name}`}>
+    <figure className={className} aria-label={t(`Empreinte visuelle de ${city.name}`, `Visual fingerprint of ${city.name}`)}>
       <svg
         viewBox={`0 0 ${geom.size} ${geom.size}`}
         width={size}
@@ -127,7 +151,7 @@ export function CityFingerprint({ city, size = 320, showLabels = true, showFoote
               fill="currentColor"
               opacity={0.55}
             >
-              {p.short}
+              {locale === "en" ? AXIS_SHORT_EN[p.key] ?? p.short : p.short}
             </text>
           ))}
 
@@ -161,10 +185,13 @@ export function CityFingerprint({ city, size = 320, showLabels = true, showFoote
       {showFooter && (
         <figcaption className="mt-3 text-center">
           <div className="text-sm font-semibold text-[var(--text-primary)]">
-            Empreinte de {city.name}
+            {t(`Empreinte de ${city.name}`, `${city.name} fingerprint`)}
           </div>
           <div className="text-xs text-[var(--text-tertiary)]">
-            Signature unique · {scoreLabel(geom.globalScore)} · dérivée des 8 axes
+            {t(
+              `Signature unique · ${localizedScoreLabel} · dérivée des 8 axes`,
+              `Unique signature · ${localizedScoreLabel} · derived from 8 axes`,
+            )}
           </div>
         </figcaption>
       )}

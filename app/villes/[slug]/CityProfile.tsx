@@ -424,7 +424,7 @@ export function CityProfile({ city, locale = "fr" }: { city: CitySeed & { review
               </Card>
 
               {/* F3 — Profils propriétaires (10 scores avec source) */}
-              <OwnerScoresCard city={city} />
+              <OwnerScoresCard city={city} locale={locale} />
 
               {/* Vue selon profil de vie */}
               <Card>
@@ -494,19 +494,21 @@ export function CityProfile({ city, locale = "fr" }: { city: CitySeed & { review
 
             {/* Sidebar */}
             <div className="space-y-4">
-              <VibeWidget city={city} />
+              <VibeWidget city={city} locale={locale} />
               <UserScoresCard
                 key={reviewBumpKey}
                 citySlug={city.slug}
                 cityName={city.name}
                 onOpenReview={() => setReviewOpen(true)}
+                locale={locale}
               />
               <UserVsOfficialScore
                 topic={`city:${city.slug}`}
                 officialGlobal={city.scores.global}
                 cityName={city.name}
+                locale={locale}
               />
-              <AISummaryCard citySlug={city.slug} cityName={city.name} />
+              <AISummaryCard citySlug={city.slug} cityName={city.name} locale={locale} />
               {/* All scores mini */}
               <Card>
                 <h3 className="text-sm font-semibold text-[var(--text-primary)] mb-4">
@@ -1187,7 +1189,7 @@ export function CityProfile({ city, locale = "fr" }: { city: CitySeed & { review
             <Card className="overflow-hidden">
               <div className="flex flex-col items-center gap-2 sm:flex-row sm:items-center sm:gap-6">
                 <div className="shrink-0">
-                  <CityFingerprint city={city} size={260} showFooter={false} />
+                  <CityFingerprint city={city} size={260} showFooter={false} locale={locale} />
                 </div>
                 <div className="min-w-0 text-center sm:text-left">
                   <div className="inline-flex items-center gap-1.5 rounded-full bg-[var(--bg-elevated)] px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wider text-[var(--text-tertiary)]">
@@ -1396,6 +1398,7 @@ export function CityProfile({ city, locale = "fr" }: { city: CitySeed & { review
         open={reviewOpen}
         onClose={() => setReviewOpen(false)}
         onPosted={() => setReviewBumpKey((k) => k + 1)}
+        locale={locale}
       />
     </div>
   );
