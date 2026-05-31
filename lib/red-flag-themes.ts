@@ -23,6 +23,7 @@ import { computeCyclingMobility } from "@/lib/cycling-mobility";
 import { computeSafetyDeep } from "@/lib/safety-deep";
 import { computeDemography } from "@/lib/demography";
 import { computePublicServices } from "@/lib/public-services";
+import { computeSportLeisure } from "@/lib/sport-leisure";
 import { housingTensionFor } from "@/lib/housing-tension";
 import { internetScore, internetLabel } from "@/lib/internet-score";
 import { sunshineDays } from "@/lib/utils";
@@ -811,6 +812,43 @@ function rankIsolementSocial(): RedFlagRow[] {
   return rows.sort((a, b) => b.severity - a.severity).slice(0, 12);
 }
 
+// --- THEME 20 — Pauvres en sport ---
+// Cible : composite F70 ≤ 4,5 (10 = excellent, donc faible = pire).
+// Bonus +1,2 quand équipements ET clubs sont tous deux ≤ 4 (combo
+// bloquant : ni piscine/gymnase municipal correct ni tissu associatif
+// pour compenser). Bonus +0,4 quand le cadre outdoor est lui aussi
+// limité (≤ 4) — la nature ne sauve même pas le quotidien sportif.
+function rankPauvreEnSport(): RedFlagRow[] {
+  const rows: RedFlagRow[] = [];
+  for (const city of CITIES_SEED) {
+    if ((city.population ?? 0) < 15_000) continue;
+    const s = computeSportLeisure(city);
+    if (s.composite > 4.5) continue;
+
+    let bonus = 0;
+    if (s.facilities.score <= 4 && s.clubs.score <= 4) bonus += 1.2;
+    if (s.outdoor.score <= 4) bonus += 0.4;
+    // Severity inversée : composite faible = pire. Rescale (5 − composite) × 2.
+    const severity = Math.min(10, Math.max(0, (5 - s.composite) * 2 + bonus));
+
+    // Remonte les deux axes les plus faibles pour la raison citable.
+    const tops = [
+      { k: "équipements", v: s.facilities.score },
+      { k: "outdoor", v: s.outdoor.score },
+      { k: "clubs", v: s.clubs.score },
+      { k: "climat", v: s.climate.score },
+    ]
+      .sort((a, b) => a.v - b.v)
+      .slice(0, 2)
+      .map((x) => `${x.k} ${x.v.toFixed(1)}/10`)
+      .join(" · ");
+
+    const reason = `Composite sport ${s.composite.toFixed(1)}/10${tops ? ` — ${tops}` : ""}`;
+    rows.push({ city, severity: Math.round(severity * 10) / 10, reason });
+  }
+  return rows.sort((a, b) => b.severity - a.severity).slice(0, 12);
+}
+
 export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-regrets-achat",
@@ -1126,6 +1164,21 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     methodology:
       "Severity = 0,45 × isolement résidentiel (écart au score lien social, borné à lien 3/10) + 0,55 × anonymat lié à la taille (population, plafonnée à 600 000 hab.), clampé à 10/10. Filtre : lien social < 6,5/10, top 12. Proxy v0 : part de ménages d'une personne par département (Insee, recensement 2020), bonus petites communes. À enrichir avec la part de +75 ans isolés, le taux d'adhésion associative (Insee/DJEPVA) et la mobilité résidentielle entrante. Caveat : se sentir seul reste une expérience individuelle — ce classement mesure un terrain de probabilité, pas une fatalité.",
     rank: rankIsolementSocial,
+  },
+  {
+    slug: "villes-pauvres-en-sport",
+    title: "Villes où la pratique sportive régulière reste compliquée",
+    metaTitle: "Villes pauvres en sport 2026 — Pratique régulière compliquée",
+    metaDescription:
+      "Classement 2026 des villes ≥ 15 000 hab. au composite sport & loisirs ≤ 4,5/10 : peu d'équipements municipaux, tissu associatif fragile, cadre outdoor limité. Sources INJEP/RES + DRAJES + Météo-France.",
+    emoji: "🏟️",
+    intro:
+      "Le discours municipal vante les « équipements rénovés », la plaquette met en avant une photo de stade ou de piscine. Sur le terrain, le même quotidien ressemble à : un seul gymnase scolaire ouvert au public, une piscine couverte intercommunale à 18 km, un club de tennis qui ne prend plus d'inscriptions, et le créneau cardio du mardi soir à six mois d'attente. Faire du sport régulièrement y devient une logistique permanente, pas une habitude. Les profils les plus pénalisés : familles qui veulent inscrire deux enfants à deux disciplines, jeunes actifs sans voiture, retraités qui cherchent un encadrement médicalisé.",
+    reality:
+      "On classe les villes ≥ 15 000 hab. dont le composite sport (équipements RES + cadre outdoor + tissu associatif + climat propice) tombe ≤ 4,5/10. La convention est positive : 10 = excellent pour la pratique, donc faible = pire. Bonus +1,2 quand équipements ET clubs sont tous deux ≤ 4 — combo bloquant où ni l'offre municipale ni le tissu associatif ne tiennent. Bonus +0,4 quand le cadre outdoor est lui aussi limité (≤ 4), c'est-à-dire quand la nature ne sauve même pas la sortie footing. On retrouve massivement les petites sous-préfectures rurales en déprise (Creuse, Cantal, Lozère, Indre), les bassins industriels en reconversion sans relance sportive, et les communes péri-urbaines sans massif forestier ni façade naturelle proche.",
+    methodology:
+      "Severity = (5 − composite) × 2 + 1,2 si équipements ET clubs ≤ 4 + 0,4 si outdoor ≤ 4, clampé à 10/10. Pondération du composite : équipements 35 % · cadre outdoor 30 % · vie associative 20 % · climat 15 %. Sources sous-jacentes : RES INJEP (Recensement des Équipements Sportifs, sports.gouv.fr) pour piscines / stades / gymnases, DRAJES/DDETSPP pour le maillage clubs et licenciés, IGN + Météo-France pour relief et climatologie 1991-2020, FFRandonnée pour la densité GR/PR. Caveat : un nouvel équipement intercommunal mis en service après 2024 peut faire bouger la note d'une commune sans changer la moyenne départementale du seed.",
+    rank: rankPauvreEnSport,
   },
 ];
 
