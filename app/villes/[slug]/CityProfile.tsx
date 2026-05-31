@@ -412,7 +412,7 @@ export function CityProfile({ city, locale = "fr" }: { city: CitySeed & { review
                       </div>
                     );
                   })}
-                  <div className="rounded-xl border border-[var(--border)] bg-[var(--bg-canvas)] p-3 flex flex-col justify-center">
+                  <div className="rounded-xl border border-[var(--border)] bg-gradient-to-b from-[var(--bg-surface)] to-[var(--bg-elevated)]/40 ring-1 ring-black/[0.03] p-3 flex flex-col justify-center transition-shadow hover:shadow-md">
                     <div className="text-[10px] uppercase tracking-wider text-[var(--text-tertiary)] font-semibold mb-1">
                       {L("Terrain", "Terrain")}
                     </div>
