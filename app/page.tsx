@@ -100,7 +100,7 @@ export default function HomePage() {
                   <Link
                     key={city.slug}
                     href={`/villes/${city.slug}`}
-                    className="group flex items-center gap-4 rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-4 py-3"
+                    className="group flex items-center gap-4 rounded-xl border border-[var(--border)] bg-gradient-to-b from-[var(--bg-surface)] to-[var(--bg-elevated)]/40 ring-1 ring-black/[0.03] hover:border-[var(--accent)]/40 hover:shadow-lg hover:-translate-y-0.5 transition-all px-4 py-3"
                   >
                     <div className="flex-1 min-w-0">
                       <p className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
@@ -162,7 +162,7 @@ export default function HomePage() {
                 <Link
                   key={`${slugA}-${slugB}`}
                   href={`/comparer/${slugA}-vs-${slugB}`}
-                  className="group flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-canvas)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-4 py-3"
+                  className="group flex items-center justify-between rounded-xl border border-[var(--border)] bg-gradient-to-b from-[var(--bg-surface)] to-[var(--bg-elevated)]/40 ring-1 ring-black/[0.03] hover:border-[var(--accent)]/40 hover:shadow-lg hover:-translate-y-0.5 transition-all px-4 py-3"
                 >
                   <div className="flex items-center gap-3 min-w-0">
                     <span className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors truncate">
