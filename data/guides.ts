@@ -6778,27 +6778,27 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Lille : capitale européenne, pas juste régionale",
-        body: "Score MeilleurVille Lille : 7.1/10. Lille est à 1h de Paris (TGV), 35 min de Bruxelles, 1h20 de Londres (Eurostar). Ce positionnement géographique est unique en France. La métropole lilloise (1,2 million d'habitants) dispose d'un tissu économique diversifié — distribution (Décathlon, Kiabi, Leroy Merlin ont toutes leur siège dans l'agglo), logistique, fintech, commerce. L'immobilier au centre (Vieux-Lille) taquine 4 200 €/m², mais Wazemmes, Fives ou Moulins offrent des prix 30 % inférieurs pour une vie de quartier authentique. Le revers : la grisaille climatique entre novembre et mars est réelle (une centaine de jours de pluie de plus par an que Nantes).",
+        body: "Score MeilleurVille Lille : 7.1/10. Lille est à 1h de Paris (TGV), 35 min de Bruxelles, 1h20 de Londres (Eurostar). Ce positionnement géographique est unique en France. La métropole lilloise (1,2 million d'habitants) dispose d'un tissu économique diversifié : distribution (Décathlon, Kiabi, Leroy Merlin ont toutes leur siège dans l'agglo), logistique, fintech, commerce. L'immobilier au centre (Vieux-Lille) taquine 4 200 €/m², mais Wazemmes, Fives ou Moulins offrent des prix 30 % inférieurs pour une vie de quartier authentique. Le revers : la grisaille climatique entre novembre et mars est réelle (une centaine de jours de pluie de plus par an que Nantes).",
       },
       {
         heading: "Amiens : le joyau de la Somme sous-estimé",
-        body: "Score MeilleurVille : 6.2/10. Amiens a une cathédrale qui écrase Notre-Dame de Paris en volume, des hortillonnages uniques au monde (jardins flottants médiévaux dans les canaux), et un prix immobilier ≈ 2 100 €/m² — 50 % de moins que Lille. TGV Paris en 1h10. La ville abrite une université active (27 000 étudiants) et un CHU régional. Ce qui manque : un tissu économique privé diversifié. Amiens est encore trop dépendante du secteur public et de quelques grands groupes (Goodyear, Whirlpool — dont les fermetures ont marqué la région).",
+        body: "Score MeilleurVille : 6.2/10. Amiens a une cathédrale qui écrase Notre-Dame de Paris en volume, des hortillonnages uniques au monde (jardins flottants médiévaux dans les canaux), et un prix immobilier ≈ 2 100 €/m², 50 % de moins que Lille. TGV Paris en 1h10. La ville abrite une université active (27 000 étudiants) et un CHU régional. Ce qui manque : un tissu économique privé diversifié. Amiens est encore trop dépendante du secteur public et de quelques grands groupes (Goodyear, Whirlpool, dont les fermetures ont marqué la région).",
       },
       {
         heading: "Arras : la ville de marché qui redevient désirable",
-        body: "Arras est la grande surprise des Hauts-de-France pour les télé-travailleurs. Ses deux grandes places flamandes (Grand-Place et Place des Héros) classées sont parmi les plus belles de France. Prix ≈ 1 900 €/m², TGV Paris en 50 minutes, TGV Lille en 35 minutes. La vie de marché y est intense — marchés trois fois par semaine. L'offre culturelle reste limitée mais la qualité de vie quotidienne (calme, espaces, architecture) est réelle. Pour un couple télétravaillant 4 jours sur 5, c'est peut-être la ville la plus sous-cotée du Nord.",
+        body: "Arras est la grande surprise des Hauts-de-France pour les télé-travailleurs. Ses deux grandes places flamandes (Grand-Place et Place des Héros) classées sont parmi les plus belles de France. Prix ≈ 1 900 €/m², TGV Paris en 50 minutes, TGV Lille en 35 minutes. La vie de marché y est intense : marchés trois fois par semaine. L'offre culturelle reste limitée mais la qualité de vie quotidienne (calme, espaces, architecture) est réelle. Pour un couple télétravaillant 4 jours sur 5, c'est peut-être la ville la plus sous-cotée du Nord.",
       },
       {
         heading: "Valenciennes, Douai, Lens : le renouveau industriel",
-        body: "Ces trois villes portent les stigmates et les opportunités de la transition industrielle. Valenciennes abrite l'IRT Railenium (ferroviaire) et des industries liées à la mobilité électrique (Toyota, Alstom). Lens a réussi un pari culturel remarquable avec le Louvre-Lens. Douai reconstruit. Les prix immobiliers sont parmi les plus bas des villes moyennes françaises (≈ 1 400–1 600 €/m²) — ouvrant l'accession à la propriété pour des ménages exclus partout ailleurs. À considérer si on cherche maison + jardin + potager pour moins de 150 000 €.",
+        body: "Ces trois villes portent les stigmates et les opportunités de la transition industrielle. Valenciennes abrite l'IRT Railenium (ferroviaire) et des industries liées à la mobilité électrique (Toyota, Alstom). Lens a réussi un pari culturel remarquable avec le Louvre-Lens. Douai reconstruit. Les prix immobiliers sont parmi les plus bas des villes moyennes françaises (≈ 1 400–1 600 €/m²), ouvrant l'accession à la propriété pour des ménages exclus partout ailleurs. À considérer si on cherche maison + jardin + potager pour moins de 150 000 €.",
       },
       {
         heading: "La nature des Hauts-de-France : un bien-gardé",
-        body: "La Côte d'Opale (Boulogne-sur-Mer, Le Touquet, Wimereux) est l'une des côtes les plus spectaculaires de France — falaises, dunes, surf, vents du large. Le Parc Naturel Régional Scarpe-Escaut couvre 100 000 hectares de forêts et zones humides. La Baie de Somme (phoques, oiseaux migrateurs, sealwatching) est une des zones humides majeures d'Europe de l'Ouest. Ces richesses naturelles sont accessibles en voiture depuis toutes les villes de la région en moins de 1h30.",
+        body: "La Côte d'Opale (Boulogne-sur-Mer, Le Touquet, Wimereux) est l'une des côtes les plus spectaculaires de France : falaises, dunes, surf, vents du large. Le Parc Naturel Régional Scarpe-Escaut couvre 100 000 hectares de forêts et zones humides. La Baie de Somme (phoques, oiseaux migrateurs, sealwatching) est une des zones humides majeures d'Europe de l'Ouest. Ces richesses naturelles sont accessibles en voiture depuis toutes les villes de la région en moins de 1h30.",
       },
       {
         heading: "Le Nord pour qui, vraiment ?",
-        body: "Les Hauts-de-France sont faites pour trois profils. (1) Le frontalier belge ou le salarié d'un grand groupe de la MEL (Métropole Européenne de Lille) qui cherche à combiner emploi métropolitain et logement abordable. (2) Le télétravailleur qui valorise la connectivité TGV (Paris en 1h, Londres en 1h20) et cherche à acheter une maison sans se saigner. (3) La famille dont les enfants aiment les grands espaces et le cheval (l'équitation est une tradition profonde de la région). En revanche, si vous fuyez la grisaille climatique pour le soleil — ce n'est pas ici qu'il faut chercher.",
+        body: "Les Hauts-de-France sont faites pour trois profils. (1) Le frontalier belge ou le salarié d'un grand groupe de la MEL (Métropole Européenne de Lille) qui cherche à combiner emploi métropolitain et logement abordable. (2) Le télétravailleur qui valorise la connectivité TGV (Paris en 1h, Londres en 1h20) et cherche à acheter une maison sans se saigner. (3) La famille dont les enfants aiment les grands espaces et le cheval (l'équitation est une tradition profonde de la région). En revanche, si vous fuyez la grisaille climatique pour le soleil, ce n'est pas ici qu'il faut chercher.",
       },
     ],
     relatedCities: ["lille", "amiens", "arras", "valenciennes", "lens", "boulogne-sur-mer"],
@@ -6825,19 +6825,19 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Tours : la métropole idéale pour les ex-Parisiens",
-        body: "Score MeilleurVille : 7.2/10. Tours est probablement la ville française la plus confortable pour un Parisien qui télétravaille 3-4 jours par semaine. TGV Paris en 1h05 (Montparnasse), prix immobilier ≈ 2 800 €/m² en centre-ville — 40 % de moins qu'à Bordeaux pour un cadre similaire. La ville est belle, plate (cyclable), avec une université de 30 000 étudiants qui maintient une vie nocturne et culturelle active. Le marché de l'emploi local est porté par le CHU, l'industrie pharmaceutique (Servier, Pfizer ont des sites dans l'agglo) et le secteur agricole-agroalimentaire.",
+        body: "Score MeilleurVille : 7.2/10. Tours est probablement la ville française la plus confortable pour un Parisien qui télétravaille 3-4 jours par semaine. TGV Paris en 1h05 (Montparnasse), prix immobilier ≈ 2 800 €/m² en centre-ville, 40 % de moins qu'à Bordeaux pour un cadre similaire. La ville est belle, plate (cyclable), avec une université de 30 000 étudiants qui maintient une vie nocturne et culturelle active. Le marché de l'emploi local est porté par le CHU, l'industrie pharmaceutique (Servier, Pfizer ont des sites dans l'agglo) et le secteur agricole-agroalimentaire.",
       },
       {
         heading: "Orléans : la surprise à 1h de Paris",
-        body: "Orléans est la ville de la région qui monte le plus vite. Récemment rénovée (nouveau tramway, réhabilitation du centre historique autour de la cathédrale), elle offre un profil cohérent : 115 000 habitants, une vie urbaine équilibrée, des prix ≈ 2 600 €/m², et une connexion Paris Austerlitz en 55 minutes (Intercités) ou TGV Austerlitz–Tours avec arrêt partiel. L'économie locale est davantage tournée vers la logistique, l'agroalimentaire et les services aux entreprises — moins de profils tech qu'à Tours.",
+        body: "Orléans est la ville de la région qui monte le plus vite. Récemment rénovée (nouveau tramway, réhabilitation du centre historique autour de la cathédrale), elle offre un profil cohérent : 115 000 habitants, une vie urbaine équilibrée, des prix ≈ 2 600 €/m², et une connexion Paris Austerlitz en 55 minutes (Intercités) ou TGV Austerlitz–Tours avec arrêt partiel. L'économie locale est davantage tournée vers la logistique, l'agroalimentaire et les services aux entreprises : moins de profils tech qu'à Tours.",
       },
       {
         heading: "Blois : la ville de château qui fonctionne vraiment",
-        body: "Blois (46 000 habitants) est la préfecture qui illustre le mieux le modèle «ville moyenne avec château». Le château de Blois est l'un des plus beaux de la Loire — et il surplombe le centre-ville. Prix immobilier ≈ 2 000 €/m², loyer médian T2 ≈ 600 €. TGV Paris en 1h20. Pour un télétravailleur cherchant à acheter une maison dans une ville à échelle humaine, à proximité de vignobles (Vouvray, Cheverny) et de forêts (Chambord à 20 km), Blois est un choix cohérent. Bémol : les offres d'emploi locales sont limitées et le réseau de transport interne à la ville est faible.",
+        body: "Blois (46 000 habitants) est la préfecture qui illustre le mieux le modèle «ville moyenne avec château». Le château de Blois est l'un des plus beaux de la Loire, et il surplombe le centre-ville. Prix immobilier ≈ 2 000 €/m², loyer médian T2 ≈ 600 €. TGV Paris en 1h20. Pour un télétravailleur cherchant à acheter une maison dans une ville à échelle humaine, à proximité de vignobles (Vouvray, Cheverny) et de forêts (Chambord à 20 km), Blois est un choix cohérent. Bémol : les offres d'emploi locales sont limitées et le réseau de transport interne à la ville est faible.",
       },
       {
         heading: "Les vignobles et la Loire à vélo",
-        body: "Le Val de Loire est classé au patrimoine mondial de l'UNESCO — non pour les seuls châteaux, mais pour l'ensemble paysager de la Loire et ses levées de tuffeau. La Loire à Vélo (820 km du source à l'Atlantique) traverse Tours, Blois, Amboise, Chinon. Ce n'est pas qu'un attrait touristique : c'est un mode de vie pour beaucoup d'habitants. Les caves tuffeau (creusées dans la roche calcaire blanche) servent de chais à vins, de chambres d'hôtes et même d'habitations — un patrimoine troglodytique unique en France.",
+        body: "Le Val de Loire est classé au patrimoine mondial de l'UNESCO, non pour les seuls châteaux, mais pour l'ensemble paysager de la Loire et ses levées de tuffeau. La Loire à Vélo (820 km du source à l'Atlantique) traverse Tours, Blois, Amboise, Chinon. Ce n'est pas qu'un attrait touristique : c'est un mode de vie pour beaucoup d'habitants. Les caves tuffeau (creusées dans la roche calcaire blanche) servent de chais à vins, de chambres d'hôtes et même d'habitations : un patrimoine troglodytique unique en France.",
       },
       {
         heading: "Châteauroux, Vierzon, Bourges : la France profonde abordable",
@@ -6845,7 +6845,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Le Centre-Val de Loire pour quel profil ?",
-        body: "La région est faite pour trois profils nets. (1) L'ex-Parisien en télétravail 3-5j/semaine qui veut garder la connexion TGV sans payer les prix de Bordeaux ou Nantes. (2) La famille qui valorise la nature immédiate (Loire, forêts de Sologne, vignobles), l'architecture, et une échelle humaine. (3) Le retraité ou le proche-retraite qui cherche à acheter grand pour peu cher, dans un cadre de vie doux, sans exil au bout de la France. Ce n'est pas la région pour qui cherche une vie de grande métropole ou une dynamique startup — Nantes, Rennes ou Toulouse sont alors plus pertinentes.",
+        body: "La région est faite pour trois profils nets. (1) L'ex-Parisien en télétravail 3-5j/semaine qui veut garder la connexion TGV sans payer les prix de Bordeaux ou Nantes. (2) La famille qui valorise la nature immédiate (Loire, forêts de Sologne, vignobles), l'architecture, et une échelle humaine. (3) Le retraité ou le proche-retraite qui cherche à acheter grand pour peu cher, dans un cadre de vie doux, sans exil au bout de la France. Ce n'est pas la région pour qui cherche une vie de grande métropole ou une dynamique startup : Nantes, Rennes ou Toulouse sont alors plus pertinentes.",
       },
     ],
     relatedCities: ["tours", "orleans", "blois", "bourges", "amboise", "chinon"],
@@ -6923,15 +6923,15 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "La fibre en Bretagne : état réel en 2026",
-        body: "La Bretagne a réalisé un rattrapage spectaculaire sur le numérique grâce au réseau Mégalis Bretagne. En 2026, plus de 92 % des locaux bretons sont éligibles à la fibre optique (FTTH). Rennes, Brest, Lorient, Vannes, Quimper et Saint-Brieuc sont couvertes à quasi 100 %. Les zones rurales côtières (Finistère nord, cap Sizun, presqu'île de Crozon) restent plus hétérogènes — prévoir de vérifier l'éligibilité à l'adresse exacte avant de louer. En tertiaire (coworkings, tiers-lieux), la connexion est systématiquement garantie.",
+        body: "La Bretagne a réalisé un rattrapage spectaculaire sur le numérique grâce au réseau Mégalis Bretagne. En 2026, plus de 92 % des locaux bretons sont éligibles à la fibre optique (FTTH). Rennes, Brest, Lorient, Vannes, Quimper et Saint-Brieuc sont couvertes à quasi 100 %. Les zones rurales côtières (Finistère nord, cap Sizun, presqu'île de Crozon) restent plus hétérogènes : prévoir de vérifier l'éligibilité à l'adresse exacte avant de louer. En tertiaire (coworkings, tiers-lieux), la connexion est systématiquement garantie.",
       },
       {
         heading: "Rennes : le hub breton pour les remote workers",
-        body: "Score télétravail MeilleurVille : 8.4/10. Rennes cumule tous les avantages : TGV Paris en 1h25 (2 allers-retours/jour sans difficulté), French Tech active (>400 startups), coworkings à partir de 100 €/mois (La Cordée, Grains de Sel, Le Village by CA). Le loyer médian T2 est de 750 €/mois — moitié d'un T2 parisien. Deux réserves : le prix immobilier monte vite (≈ 3 700 €/m² en 2026) et la ville est moins «Bretagne» que ses cousines du Finistère.",
+        body: "Score télétravail MeilleurVille : 8.4/10. Rennes cumule tous les avantages : TGV Paris en 1h25 (2 allers-retours/jour sans difficulté), French Tech active (>400 startups), coworkings à partir de 100 €/mois (La Cordée, Grains de Sel, Le Village by CA). Le loyer médian T2 est de 750 €/mois, moitié d'un T2 parisien. Deux réserves : le prix immobilier monte vite (≈ 3 700 €/m² en 2026) et la ville est moins «Bretagne» que ses cousines du Finistère.",
       },
       {
         heading: "Brest : le choix du bout du monde bien connecté",
-        body: "Brest est à 3h de Paris par TGV — plus loin que Rennes, mais pas au bout du monde. La ville a développé un écosystème numérique inattendu autour de l'Ifremer, de la Marine Nationale et de l'UBO (Université de Bretagne Occidentale). Les coworkings se sont multipliés (Espace Nautilus, Digital Lab) et les prix ≈ 2 100 €/m² permettent d'acheter un T3 pour 180 000 €. La réalité du temps breton (vent, pluie, lumière grise d'octobre à mars) est un filtre naturel — ceux qui restent adorent.",
+        body: "Brest est à 3h de Paris par TGV : plus loin que Rennes, mais pas au bout du monde. La ville a développé un écosystème numérique inattendu autour de l'Ifremer, de la Marine Nationale et de l'UBO (Université de Bretagne Occidentale). Les coworkings se sont multipliés (Espace Nautilus, Digital Lab) et les prix ≈ 2 100 €/m² permettent d'acheter un T3 pour 180 000 €. La réalité du temps breton (vent, pluie, lumière grise d'octobre à mars) est un filtre naturel : ceux qui restent adorent.",
       },
       {
         heading: "Lorient et Vannes : la mer sans faire le sacrifice brestois",
@@ -6939,15 +6939,15 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Le calcul TGV : quand est-ce que ça devient rentable ?",
-        body: "Un aller-retour Paris-Rennes en TGV coûte 70-140 € selon le préavis. Pour un remote worker qui monte une fois par semaine à Paris (50 fois/an), le budget transport est de 3 500 à 7 000 €/an. C'est significatif — mais les économies sur le logement (750 € vs 1 400 € de loyer) représentent 7 800 €/an. Le différentiel net est positif même avec un aller-retour hebdomadaire. Pour ceux qui montent une à deux fois par mois, le gain annuel dépasse 10 000 €. Faites votre propre calcul avec la fréquence réelle de vos déplacements.",
+        body: "Un aller-retour Paris-Rennes en TGV coûte 70-140 € selon le préavis. Pour un remote worker qui monte une fois par semaine à Paris (50 fois/an), le budget transport est de 3 500 à 7 000 €/an. C'est significatif, mais les économies sur le logement (750 € vs 1 400 € de loyer) représentent 7 800 €/an. Le différentiel net est positif même avec un aller-retour hebdomadaire. Pour ceux qui montent une à deux fois par mois, le gain annuel dépasse 10 000 €. Faites votre propre calcul avec la fréquence réelle de vos déplacements.",
       },
       {
         heading: "Coworking et tiers-lieux en Bretagne : état des lieux 2026",
-        body: "Rennes concentre l'essentiel des espaces de coworking premium (La Cordée, Station C, Cowork'In Rennes). Brest, Lorient et Vannes ont chacune 3 à 5 espaces opérationnels. La carte des tiers-lieux (fab labs, ateliers partagés, espaces hybrides) est bien fournie dans les villes moyennes (Quimper, Pontivy, Morlaix). Pour le travail rural ou côtier, le réseau Bretagne Fabrique développe des «télécentres de village» avec fibre et salle de réunion dans plusieurs communes — une option méconnue qui change la donne pour les profils solo souhaitant s'installer dans une commune de moins de 5 000 habitants.",
+        body: "Rennes concentre l'essentiel des espaces de coworking premium (La Cordée, Station C, Cowork'In Rennes). Brest, Lorient et Vannes ont chacune 3 à 5 espaces opérationnels. La carte des tiers-lieux (fab labs, ateliers partagés, espaces hybrides) est bien fournie dans les villes moyennes (Quimper, Pontivy, Morlaix). Pour le travail rural ou côtier, le réseau Bretagne Fabrique développe des «télécentres de village» avec fibre et salle de réunion dans plusieurs communes : une option méconnue qui change la donne pour les profils solo souhaitant s'installer dans une commune de moins de 5 000 habitants.",
       },
       {
         heading: "Les limites à connaître avant de signer",
-        body: "La Bretagne n'est pas parfaite pour tous les profils remote. Trois limites réelles. (1) Les déplacements inter-villes sont lents hors TGV : Brest-Rennes en TER prend 2h (contre 1h en voiture). Si votre employeur est à Lorient et vos collègues à Rennes, les réunions en présentiel peuvent devenir chronophages. (2) L'aéroport de Rennes est limité aux liaisons domestiques et européennes courtes — si votre client est à New York ou Dubai, l'aéroport de Nantes (1h30) ou CDG (1h25 de TGV) sont indispensables. (3) L'hiver breton demande une adaptation psychologique : les journées de pluie continue entre novembre et février peuvent être dures pour des profils peu habitués.",
+        body: "La Bretagne n'est pas parfaite pour tous les profils remote. Trois limites réelles. (1) Les déplacements inter-villes sont lents hors TGV : Brest-Rennes en TER prend 2h (contre 1h en voiture). Si votre employeur est à Lorient et vos collègues à Rennes, les réunions en présentiel peuvent devenir chronophages. (2) L'aéroport de Rennes est limité aux liaisons domestiques et européennes courtes : si votre client est à New York ou Dubai, l'aéroport de Nantes (1h30) ou CDG (1h25 de TGV) sont indispensables. (3) L'hiver breton demande une adaptation psychologique : les journées de pluie continue entre novembre et février peuvent être dures pour des profils peu habitués.",
       },
     ],
     relatedCities: ["rennes", "brest", "lorient", "vannes", "quimper", "saint-brieuc"],
@@ -7010,7 +7010,7 @@ export const GUIDES: Guide[] = [
     title: "Quitter Nice en 2026 : qui part, où, et ce qu'on gagne vraiment",
     metaTitle: "Quitter Nice 2026 — Toulon, Antibes, Montpellier, Aix : le guide honnête",
     metaDesc:
-      "Nice est magnifique et hors de prix. Pourquoi de plus en plus de Niçois regardent vers Toulon, l'arrière-pays ou Montpellier — et ce que le calcul donne vraiment.",
+      "Nice est magnifique et hors de prix. Pourquoi de plus en plus de Niçois regardent vers Toulon, l'arrière-pays ou Montpellier, et ce que le calcul donne vraiment.",
     category: "comparaison",
     emoji: "🌊",
     readMinutes: 8,
@@ -7076,11 +7076,11 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Biarritz : vivre le mythe à quel prix ?",
-        body: "Biarritz est la ville du rêve basque — et c'est précisément le problème. Le mythe fait les prix. En dehors du tourisme de luxe, de la retraite aisée et du télétravail premium, il est très difficile d'y habiter avec un revenu local ordinaire. Le bénéfice réel : les plages de surf de renommée mondiale à 5 minutes à pied, une architecture Belle Époque unique, le marché des Halles parmi les meilleurs de France pour les produits basques. Le réalisme : une location T2 dépasse 1 200 €/mois hors charges et un T3 à l'achat s'inscrit rarement sous 550 000 €.",
+        body: "Biarritz est la ville du rêve basque, et c'est précisément le problème. Le mythe fait les prix. En dehors du tourisme de luxe, de la retraite aisée et du télétravail premium, il est très difficile d'y habiter avec un revenu local ordinaire. Le bénéfice réel : les plages de surf de renommée mondiale à 5 minutes à pied, une architecture Belle Époque unique, le marché des Halles parmi les meilleurs de France pour les produits basques. Le réalisme : une location T2 dépasse 1 200 €/mois hors charges et un T3 à l'achat s'inscrit rarement sous 550 000 €.",
       },
       {
         heading: "Le Pays Basque intérieur : l'alternative méconnue",
-        body: "Cambo-les-Bains, Hasparren, Mauléon-Licharre, Tardets — le Pays Basque intérieur (Soule, Basse-Navarre) est une autre planète tarifaire. Cambo-les-Bains : ≈ 3 500 €/m², 30 km de Bayonne. Hasparren : ≈ 2 800 €/m², marché agricole, authenticité basque non touristifiée. Ces communes permettent de vivre l'identité basque (langue, fêtes, fronton, gastronomie) sans les prix du littoral. Le revers : l'isolement relatif et la dépendance à la voiture — les transports en commun s'arrêtent vite dès qu'on quitte la côte.",
+        body: "Cambo-les-Bains, Hasparren, Mauléon-Licharre, Tardets : le Pays Basque intérieur (Soule, Basse-Navarre) est une autre planète tarifaire. Cambo-les-Bains : ≈ 3 500 €/m², 30 km de Bayonne. Hasparren : ≈ 2 800 €/m², marché agricole, authenticité basque non touristifiée. Ces communes permettent de vivre l'identité basque (langue, fêtes, fronton, gastronomie) sans les prix du littoral. Le revers : l'isolement relatif et la dépendance à la voiture, les transports en commun s'arrêtent vite dès qu'on quitte la côte.",
       },
       {
         heading: "Saint-Jean-de-Luz, Hendaye : la frontière espagnole comme levier",
@@ -7088,7 +7088,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "S'installer au Pays Basque : les règles non écrites",
-        body: "Trois choses que les guides touristiques ne disent pas. (1) Le marché locatif est extrêmement tendu à l'année — les propriétaires préfèrent souvent la location saisonnière, plus lucrative. Arriver en juin pour chercher un logement à l'année pour septembre est une stratégie perdante. Prévoir de commencer la recherche en janvier. (2) La communauté est soudée et les réseaux informels comptent. Connaître des gens locaux accélère tout. (3) L'identité culturelle basque (euskara, traditions) est présente et valorisée — ne pas l'ignorer est un signe de respect qui ouvre des portes.",
+        body: "Trois choses que les guides touristiques ne disent pas. (1) Le marché locatif est extrêmement tendu à l'année : les propriétaires préfèrent souvent la location saisonnière, plus lucrative. Arriver en juin pour chercher un logement à l'année pour septembre est une stratégie perdante. Prévoir de commencer la recherche en janvier. (2) La communauté est soudée et les réseaux informels comptent. Connaître des gens locaux accélère tout. (3) L'identité culturelle basque (euskara, traditions) est présente et valorisée : ne pas l'ignorer est un signe de respect qui ouvre des portes.",
       },
     ],
     relatedCities: ["bayonne", "biarritz", "anglet", "saint-jean-de-luz", "hendaye", "pau"],
@@ -7213,27 +7213,27 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Pourquoi la Normandie est sous-estimée pour le télétravail",
-        body: "Trois préjugés persistent. (1) La pluie : la Normandie est humide, c'est réel (800 à 1 200 mm de pluie par an selon les secteurs). Mais la pluie normande est souvent une bruine légère, pas des averses tropicales. Les télétravailleurs qui y sont installés mentionnent rarement la météo comme problème — parce qu'on ne sort pas dehors pour travailler. (2) L'enclavement : faux. Rouen est à 1h20 de Paris Saint-Lazare, Caen à 2h. (3) Le manque de vie : faux pour Rouen et Caen, vrai pour des communes rurales de 500 habitants. Le préjugé s'applique à la Normandie profonde, pas aux villes.",
+        body: "Trois préjugés persistent. (1) La pluie : la Normandie est humide, c'est réel (800 à 1 200 mm de pluie par an selon les secteurs). Mais la pluie normande est souvent une bruine légère, pas des averses tropicales. Les télétravailleurs qui y sont installés mentionnent rarement la météo comme problème, parce qu'on ne sort pas dehors pour travailler. (2) L'enclavement : faux. Rouen est à 1h20 de Paris Saint-Lazare, Caen à 2h. (3) Le manque de vie : faux pour Rouen et Caen, vrai pour des communes rurales de 500 habitants. Le préjugé s'applique à la Normandie profonde, pas aux villes.",
       },
       {
         heading: "Rouen : la métropole à 1h20 de Paris",
-        body: "Score MeilleurVille : 6.8/10. Rouen est la grande ville la plus proche de Paris en dehors de l'Île-de-France. La cathédrale gothique, les vieux quartiers à colombages, la Seine qui traverse la ville — le cadre est riche. Prix ≈ 2 800 €/m² (contre 10 000 €+ à Paris pour le même niveau de charme architectural). Les coworkings se sont développés ces 5 dernières années (Le Betamax, La Cantine Numérique de Normandie). Bémol : Rouen est vallonnée, avec des colles difficiles à vélo. Et le trafic routier vers Paris (A13) reste une horreur aux heures de pointe si vous ne prenez pas le train.",
+        body: "Score MeilleurVille : 6.8/10. Rouen est la grande ville la plus proche de Paris en dehors de l'Île-de-France. La cathédrale gothique, les vieux quartiers à colombages, la Seine qui traverse la ville : le cadre est riche. Prix ≈ 2 800 €/m² (contre 10 000 €+ à Paris pour le même niveau de charme architectural). Les coworkings se sont développés ces 5 dernières années (Le Betamax, La Cantine Numérique de Normandie). Bémol : Rouen est vallonnée, avec des colles difficiles à vélo. Et le trafic routier vers Paris (A13) reste une horreur aux heures de pointe si vous ne prenez pas le train.",
       },
       {
         heading: "Caen : le compromis parfait pour les familles",
-        body: "Caen (110 000 habitants) est plate, cyclable, et dispose d'une offre scolaire et universitaire solide (Université de Caen Normandie, 30 000 étudiants). Le m² y est ≈ 2 600 €, soit 74 % de moins qu'à Paris. La mer (Côte de Nacre, plages du Débarquement) est à 20-30 minutes en voiture. Les associations sportives sont nombreuses. TGV Paris en 2h05 (Montparnasse). Pour une famille qui télétravaille avec enfants, Caen est une option très sérieuse — moins chargée en repères culturels que Rouen, mais plus vivable au quotidien.",
+        body: "Caen (110 000 habitants) est plate, cyclable, et dispose d'une offre scolaire et universitaire solide (Université de Caen Normandie, 30 000 étudiants). Le m² y est ≈ 2 600 €, soit 74 % de moins qu'à Paris. La mer (Côte de Nacre, plages du Débarquement) est à 20-30 minutes en voiture. Les associations sportives sont nombreuses. TGV Paris en 2h05 (Montparnasse). Pour une famille qui télétravaille avec enfants, Caen est une option très sérieuse : moins chargée en repères culturels que Rouen, mais plus vivable au quotidien.",
       },
       {
         heading: "Le Havre : le port UNESCO et l'esprit maritime",
-        body: "Le Havre est une ville de caractère. Reconstruite par Auguste Perret après-guerre, elle est classée au patrimoine mondial de l'UNESCO pour son architecture moderniste — unique au monde. Le MuMa (musée des Beaux-Arts) et le MHNA ont une programmation de qualité. Prix ≈ 2 200 €/m², parmi les moins chers des villes normandes de cette taille. La mer est à 5 minutes à pied. L'identité portuaire et ouvrière est forte — certains y voient une authenticité, d'autres un manque de douceur. À voir en hiver avant de décider.",
+        body: "Le Havre est une ville de caractère. Reconstruite par Auguste Perret après-guerre, elle est classée au patrimoine mondial de l'UNESCO pour son architecture moderniste, unique au monde. Le MuMa (musée des Beaux-Arts) et le MHNA ont une programmation de qualité. Prix ≈ 2 200 €/m², parmi les moins chers des villes normandes de cette taille. La mer est à 5 minutes à pied. L'identité portuaire et ouvrière est forte : certains y voient une authenticité, d'autres un manque de douceur. À voir en hiver avant de décider.",
       },
       {
         heading: "Cherbourg, Granville, Honfleur : les niches normandes",
-        body: "Cherbourg (50 000 habitants) est une ville de sous-marins nucléaires et de ferries vers l'Angleterre — un profil industriel assumé avec des prix ≈ 1 800 €/m² et une connectivité maritime vers Portsmouth. Granville est la Saint-Malo normande : falaises, port de plaisance, prix ≈ 3 200 €/m². Honfleur est la ville la plus touristique de Normandie, adorée des Parisiens le week-end, avec des prix qui le reflètent (≈ 4 000 €/m²). Pour un télétravailleur cherchant à acheter, Caen, Rouen et Cherbourg sont les options les plus pertinentes.",
+        body: "Cherbourg (50 000 habitants) est une ville de sous-marins nucléaires et de ferries vers l'Angleterre, un profil industriel assumé avec des prix ≈ 1 800 €/m² et une connectivité maritime vers Portsmouth. Granville est la Saint-Malo normande : falaises, port de plaisance, prix ≈ 3 200 €/m². Honfleur est la ville la plus touristique de Normandie, adorée des Parisiens le week-end, avec des prix qui le reflètent (≈ 4 000 €/m²). Pour un télétravailleur cherchant à acheter, Caen, Rouen et Cherbourg sont les options les plus pertinentes.",
       },
       {
         heading: "Fibre et coworking en Normandie 2026",
-        body: "La couverture fibre FTTH en Normandie dépasse 88 % des locaux en 2026, avec des efforts particuliers dans le Calvados et la Seine-Maritime. Les zones blanches résiduelles se concentrent dans le Perche et la Normandie profonde du Bocage. En termes de coworking, Rouen concentre l'essentiel de l'offre régionale (6 espaces confirmés), Caen en compte 4, Le Havre 3. Pour les télétravailleurs ruraux, le réseau de tiers-lieux normands (programme Normandie Numérique) propose des solutions dans des communes de 2 000 à 10 000 habitants — moins développé qu'en Bretagne mais en progression.",
+        body: "La couverture fibre FTTH en Normandie dépasse 88 % des locaux en 2026, avec des efforts particuliers dans le Calvados et la Seine-Maritime. Les zones blanches résiduelles se concentrent dans le Perche et la Normandie profonde du Bocage. En termes de coworking, Rouen concentre l'essentiel de l'offre régionale (6 espaces confirmés), Caen en compte 4, Le Havre 3. Pour les télétravailleurs ruraux, le réseau de tiers-lieux normands (programme Normandie Numérique) propose des solutions dans des communes de 2 000 à 10 000 habitants : moins développé qu'en Bretagne mais en progression.",
       },
     ],
     relatedCities: ["rouen", "caen", "le-havre", "cherbourg", "granville"],
@@ -7260,7 +7260,7 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "La chaleur estivale : le problème dont personne ne parle",
-        body: "L'été provençal est magnifique. Il est aussi difficile pour le télétravail. Depuis 2019, les épisodes de canicule (>38 °C plusieurs jours consécutifs) sont fréquents de juin à septembre. Sans climatisation — que beaucoup d'appartements anciens du centre d'Aix ou d'Avignon n'ont pas — le travail de 13h à 17h devient impraticable. Les télétravailleurs expérimentés en Provence décalent leurs horaires (7h-12h, puis 18h-20h) ou investissent dans une clim réversible. Ce n'est pas rédhibitoire mais c'est une adaptation réelle qui ne figure dans aucune brochure.",
+        body: "L'été provençal est magnifique. Il est aussi difficile pour le télétravail. Depuis 2019, les épisodes de canicule (>38 °C plusieurs jours consécutifs) sont fréquents de juin à septembre. Sans climatisation (que beaucoup d'appartements anciens du centre d'Aix ou d'Avignon n'ont pas) le travail de 13h à 17h devient impraticable. Les télétravailleurs expérimentés en Provence décalent leurs horaires (7h-12h, puis 18h-20h) ou investissent dans une clim réversible. Ce n'est pas rédhibitoire mais c'est une adaptation réelle qui ne figure dans aucune brochure.",
       },
       {
         heading: "Aix-en-Provence : le hub premium et ses coûts réels",
@@ -7268,11 +7268,11 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Avignon : la carte culture-connexion TGV",
-        body: "Avignon dispose d'une gare TGV (Paris en 2h35 avec TGV direct) et d'un centre historique classé UNESCO — le Palais des Papes est une institution mondiale. Prix ≈ 3 200 €/m² (40 % moins qu'Aix). La ville est plate et relativement cyclable. Le Festival d'Avignon en juillet amène 150 000 spectateurs et crée une effervescence culturelle unique en France. Réserves : la saison culturelle est très concentrée (juin-août), le reste de l'année est plus calme. L'économie locale est moins diversifiée qu'Aix. La chaleur en été dépasse régulièrement 42 °C dans la cuvette du Rhône.",
+        body: "Avignon dispose d'une gare TGV (Paris en 2h35 avec TGV direct) et d'un centre historique classé UNESCO : le Palais des Papes est une institution mondiale. Prix ≈ 3 200 €/m² (40 % moins qu'Aix). La ville est plate et relativement cyclable. Le Festival d'Avignon en juillet amène 150 000 spectateurs et crée une effervescence culturelle unique en France. Réserves : la saison culturelle est très concentrée (juin-août), le reste de l'année est plus calme. L'économie locale est moins diversifiée qu'Aix. La chaleur en été dépasse régulièrement 42 °C dans la cuvette du Rhône.",
       },
       {
         heading: "Le Luberon et le Vaucluse : la carte villages",
-        body: "Lourmarin, Roussillon, Gordes, Apt — les villages du Luberon attirent des télétravailleurs franco-étrangers depuis le Covid. Mais la réalité en 2026 est plus complexe. (1) La fibre est présente dans les bourgs principaux (Apt, Pertuis, Cadenet) mais pas dans tous les hameaux. (2) Les prix ont explosé : une maison de 100 m² avec terrain dans le Luberon dépasse souvent 450 000–600 000 €. (3) L'isolement hivernal est réel — les villages se vident de septembre à mars et la vie sociale se réduit drastiquement. À visiter en février avant d'acheter.",
+        body: "Lourmarin, Roussillon, Gordes, Apt : les villages du Luberon attirent des télétravailleurs franco-étrangers depuis le Covid. Mais la réalité en 2026 est plus complexe. (1) La fibre est présente dans les bourgs principaux (Apt, Pertuis, Cadenet) mais pas dans tous les hameaux. (2) Les prix ont explosé : une maison de 100 m² avec terrain dans le Luberon dépasse souvent 450 000–600 000 €. (3) L'isolement hivernal est réel : les villages se vident de septembre à mars et la vie sociale se réduit drastiquement. À visiter en février avant d'acheter.",
       },
       {
         heading: "Salon-de-Provence, Manosque, Pertuis : les villes moyennes intelligentes",
@@ -7280,7 +7280,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Fibre et coworking en Provence 2026",
-        body: "La couverture fibre FTTH en PACA atteint 89 % des locaux en 2026. Aix, Avignon, Arles, Salon, Manosque : couverture quasi complète. Les zones blanches résiduelles touchent des hameaux du Luberon, des Alpilles et de la montagne du Luberon nord. Les coworkings se sont multipliés depuis 2020 : Aix en compte 8 espaces, Avignon 5, Arles 3. Le réseau Provence Coworking recense les espaces par département. Pour les installations rurales, les tiers-lieux financés par le Conseil Régional SUD se développent — prévoir de vérifier l'adresse exacte avant signature.",
+        body: "La couverture fibre FTTH en PACA atteint 89 % des locaux en 2026. Aix, Avignon, Arles, Salon, Manosque : couverture quasi complète. Les zones blanches résiduelles touchent des hameaux du Luberon, des Alpilles et de la montagne du Luberon nord. Les coworkings se sont multipliés depuis 2020 : Aix en compte 8 espaces, Avignon 5, Arles 3. Le réseau Provence Coworking recense les espaces par département. Pour les installations rurales, les tiers-lieux financés par le Conseil Régional SUD se développent : prévoir de vérifier l'adresse exacte avant signature.",
       },
     ],
     relatedCities: ["aix-en-provence", "avignon", "arles", "salon-de-provence", "apt", "manosque"],
@@ -7491,11 +7491,11 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Le Cantal : l'authenticité à un prix déconcertant",
-        body: "Le Cantal est le département français le moins dense après la Lozère. Aurillac, sa préfecture (27 000 habitants), offre des prix immobiliers à ≈ 1 200 €/m² — parmi les plus bas de toutes les préfectures françaises. Une maison de 120 m² avec jardin dans un village cantalu s'achète entre 60 000 et 120 000 €. La qualité de vie nature est exceptionnelle : plateau du Cézallier, monts du Cantal, Truyère. Le fromage (Cantal, Salers, Laguiole côté Aveyron) est au sommet de la production française. Ce qu'il faut savoir avant : l'emploi local est dominé par l'agriculture, le service public et l'artisanat. Pour un salarié du privé urbain, l'installation exige soit le télétravail complet, soit une reconversion.",
+        body: "Le Cantal est le département français le moins dense après la Lozère. Aurillac, sa préfecture (27 000 habitants), offre des prix immobiliers à ≈ 1 200 €/m², parmi les plus bas de toutes les préfectures françaises. Une maison de 120 m² avec jardin dans un village cantalu s'achète entre 60 000 et 120 000 €. La qualité de vie nature est exceptionnelle : plateau du Cézallier, monts du Cantal, Truyère. Le fromage (Cantal, Salers, Laguiole côté Aveyron) est au sommet de la production française. Ce qu'il faut savoir avant : l'emploi local est dominé par l'agriculture, le service public et l'artisanat. Pour un salarié du privé urbain, l'installation exige soit le télétravail complet, soit une reconversion.",
       },
       {
         heading: "La Haute-Loire : le plateau et la foi",
-        body: "Le Puy-en-Velay est une des villes françaises les plus singulières : les rochers volcaniques qui portent la chapelle Saint-Michel d'Aiguilhe et la Cathédrale Notre-Dame sont uniques au monde. Le Puy est aussi le principal point de départ du chemin de Saint-Jacques de Compostelle (GR65), ce qui lui confère une vocation spirituelle et touristique particulière. Prix ≈ 1 600 €/m². L'économie locale tourne autour du pèlerinage, des dentelles du Puy (tradition artisanale classée UNESCO) et de l'agriculture du plateau. Altitude 630 m — les hivers sont froids mais l'ensoleillement est meilleur que dans les vallées.",
+        body: "Le Puy-en-Velay est une des villes françaises les plus singulières : les rochers volcaniques qui portent la chapelle Saint-Michel d'Aiguilhe et la Cathédrale Notre-Dame sont uniques au monde. Le Puy est aussi le principal point de départ du chemin de Saint-Jacques de Compostelle (GR65), ce qui lui confère une vocation spirituelle et touristique particulière. Prix ≈ 1 600 €/m². L'économie locale tourne autour du pèlerinage, des dentelles du Puy (tradition artisanale classée UNESCO) et de l'agriculture du plateau. Altitude 630 m : les hivers sont froids mais l'ensoleillement est meilleur que dans les vallées.",
       },
       {
         heading: "L'Allier : la douceur bourbonnaise ignorée",
@@ -7503,15 +7503,15 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "La désertification médicale : état réel en 2026",
-        body: "C'est le problème réel de la région — il ne faut pas le minimiser. L'Auvergne figure parmi les régions les plus touchées par les déserts médicaux. Dans le Cantal, le délai pour obtenir un rendez-vous de médecin généraliste non-urgentiste peut dépasser 3 mois. Les spécialistes (cardiologue, rhumatologue, pédiâtre) sont concentrés à Aurillac, Clermont-Ferrand et Saint-Flour. Pour une personne avec des besoins médicaux réguliers, cet accès aux soins est une contrainte réelle. Pour une personne jeune et en bonne santé, c'est un risque gérable à condition d'anticiper.",
+        body: "C'est le problème réel de la région : il ne faut pas le minimiser. L'Auvergne figure parmi les régions les plus touchées par les déserts médicaux. Dans le Cantal, le délai pour obtenir un rendez-vous de médecin généraliste non-urgentiste peut dépasser 3 mois. Les spécialistes (cardiologue, rhumatologue, pédiâtre) sont concentrés à Aurillac, Clermont-Ferrand et Saint-Flour. Pour une personne avec des besoins médicaux réguliers, cet accès aux soins est une contrainte réelle. Pour une personne jeune et en bonne santé, c'est un risque gérable à condition d'anticiper.",
       },
       {
         heading: "Qui s'installe vraiment en Auvergne profonde ?",
-        body: "Trois profils dominent parmi les nouveaux arrivants. (1) Les télétravailleurs en pleine propriété : couple ou famille qui vend un appartement parisien ou lyonnais, achète une maison avec 2 hectares pour le prix d'un garage en métropole, et télétravaille 5j/5. (2) Les artisans et créateurs : potiers, charpentiers, maraîchers bio, fromagers — la région attire ceux qui valorisent l'espace, le foncier bon marché et une communauté de ruraux motivés. (3) Les retraités anticipés ou les FIRE (Financial Independence, Retire Early) qui maximisent leur capital sur une faible charge de vie. Ces profils ne représentent pas le mouvement de masse — mais ils existent et ont transformé certains villages.",
+        body: "Trois profils dominent parmi les nouveaux arrivants. (1) Les télétravailleurs en pleine propriété : couple ou famille qui vend un appartement parisien ou lyonnais, achète une maison avec 2 hectares pour le prix d'un garage en métropole, et télétravaille 5j/5. (2) Les artisans et créateurs : potiers, charpentiers, maraîchers bio, fromagers : la région attire ceux qui valorisent l'espace, le foncier bon marché et une communauté de ruraux motivés. (3) Les retraités anticipés ou les FIRE (Financial Independence, Retire Early) qui maximisent leur capital sur une faible charge de vie. Ces profils ne représentent pas le mouvement de masse, mais ils existent et ont transformé certains villages.",
       },
       {
         heading: "Ressources pratiques pour s'installer",
-        body: "La Région Auvergne-Rhône-Alpes et les trois conseils départementaux proposent des dispositifs spécifiques pour attirer les nouveaux habitants : télécentres municipaux (fibre + salle de réunion), aides à l'installation artisanale, accompagnement à la reprise de commerce de village. Le réseau Bienvenue en Auvergne centralise les offres immobilières et les témoignages de nouveaux arrivants. La connexion fibre dépasse 75 % dans les bourgs du Cantal et de la Haute-Loire — suffisant pour du télétravail, insuffisant pour certains hameaux en fond de vallée.",
+        body: "La Région Auvergne-Rhône-Alpes et les trois conseils départementaux proposent des dispositifs spécifiques pour attirer les nouveaux habitants : télécentres municipaux (fibre + salle de réunion), aides à l'installation artisanale, accompagnement à la reprise de commerce de village. Le réseau Bienvenue en Auvergne centralise les offres immobilières et les témoignages de nouveaux arrivants. La connexion fibre dépasse 75 % dans les bourgs du Cantal et de la Haute-Loire : suffisant pour du télétravail, insuffisant pour certains hameaux en fond de vallée.",
       },
     ],
     relatedCities: ["aurillac", "moulins", "vichy", "riom", "issoire", "brioude"],
@@ -7589,7 +7589,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Angers : l'équilibre parfait du primo-accédant",
-        body: "Score 7.4/10 : Angers reste la ville de plus de 150 000 habitants la plus pertinente pour ce profil en 2026. À 3 200 €/m² en centre, avec un loyer médian T3 autour de 850 €, un T3 revient à environ 210 000 € frais inclus pour notre ménage-cible. Bien dans l'enveloppe. La qualité de vie tient debout : Loire à Vélo, CHU, universités, TGV Paris en 1h35. Le PTZ y est éligible en zone B2 depuis la réforme 2024 — à confirmer selon l'ancienneté du bien.",
+        body: "Score 7.4/10 : Angers reste la ville de plus de 150 000 habitants la plus pertinente pour ce profil en 2026. À 3 200 €/m² en centre, avec un loyer médian T3 autour de 850 €, un T3 revient à environ 210 000 € frais inclus pour notre ménage-cible. Bien dans l'enveloppe. La qualité de vie tient debout : Loire à Vélo, CHU, universités, TGV Paris en 1h35. Le PTZ y est éligible en zone B2 depuis la réforme 2024, à confirmer selon l'ancienneté du bien.",
       },
       {
         heading: "Le Mans : la valeur sûre du Grand Ouest",
@@ -7636,11 +7636,11 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Reims : la connexion TGV la plus spectaculaire de France",
-        body: "Score MeilleurVille : 6.7/10. Reims est à 45 minutes de TGV de Paris-Est. C'est la connexion TGV la plus courte de toutes les villes de province de plus de 100 000 habitants. Prix immobilier ≈ 2 700 €/m² au centre — contre 10 000+ €/m² à Paris pour des quartiers comparables architecturalement (Reims a sa propre tradition haussmannienne et art déco post-reconstruction). Le loyer médian T3 est de 800 €/mois. Pour un télétravailleur qui monte à Paris une ou deux fois par semaine, le calcul est brutal : économie de logement 10 000+ €/an, surcoût transport (abonnement Reims-Paris ≈ 300 €/mois) → gain net ≈ 6 000–8 000 €/an.",
+        body: "Score MeilleurVille : 6.7/10. Reims est à 45 minutes de TGV de Paris-Est. C'est la connexion TGV la plus courte de toutes les villes de province de plus de 100 000 habitants. Prix immobilier ≈ 2 700 €/m² au centre, contre 10 000+ €/m² à Paris pour des quartiers comparables architecturalement (Reims a sa propre tradition haussmannienne et art déco post-reconstruction). Le loyer médian T3 est de 800 €/mois. Pour un télétravailleur qui monte à Paris une ou deux fois par semaine, le calcul est brutal : économie de logement 10 000+ €/an, surcoût transport (abonnement Reims-Paris ≈ 300 €/mois) → gain net ≈ 6 000–8 000 €/an.",
       },
       {
         heading: "Troyes : le bonus champêtre à 1h30 de Paris",
-        body: "Troyes est architecturalement l'une des plus belles villes de France — son centre médiéval (colombages, ruelles, la forme de bouchon de champagne de la vieille ville) est exceptionnel. Prix ≈ 2 000 €/m² (encore inférieur à Reims). TGV Paris-Est en 1h30. Le lac de la Forêt d'Orient (3 000 ha, voile, kayak, plage) est à 15 minutes. Les magasins d'usine (McArthurGlen, Marques Avenue) en font paradoxalement un lieu de shopping recherché — ce qui entretient une économie locale. Pour un couple télétravailleur cherchant maison et nature, Troyes est peut-être la meilleure offre à moins de 2h de Paris.",
+        body: "Troyes est architecturalement l'une des plus belles villes de France : son centre médiéval (colombages, ruelles, la forme de bouchon de champagne de la vieille ville) est exceptionnel. Prix ≈ 2 000 €/m² (encore inférieur à Reims). TGV Paris-Est en 1h30. Le lac de la Forêt d'Orient (3 000 ha, voile, kayak, plage) est à 15 minutes. Les magasins d'usine (McArthurGlen, Marques Avenue) en font paradoxalement un lieu de shopping recherché, ce qui entretient une économie locale. Pour un couple télétravailleur cherchant maison et nature, Troyes est peut-être la meilleure offre à moins de 2h de Paris.",
       },
       {
         heading: "Metz et Nancy : la Lorraine mise à jour",
@@ -7648,11 +7648,11 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "La Champagne viticole comme argument de vie",
-        body: "Vivre dans le Grand Est, c'est aussi avoir accès à la Route de la Champagne (Épernay, Hautvillers, Ay) en 30 à 45 minutes depuis Reims. Les dégustations directes au domaine, les vendanges en septembre, le vignoble UNESCO inscrit depuis 2015 — c'est un art de vivre particulier qui n'a pas d'équivalent en France à ce prix. Pour les amateurs de vins, c'est un argument concret : acheter du champagne de producteur récoltant directement à la propriété à 12–20 €/bouteille, c'est une réalité du quotidien pour les Rémois.",
+        body: "Vivre dans le Grand Est, c'est aussi avoir accès à la Route de la Champagne (Épernay, Hautvillers, Ay) en 30 à 45 minutes depuis Reims. Les dégustations directes au domaine, les vendanges en septembre, le vignoble UNESCO inscrit depuis 2015 : c'est un art de vivre particulier qui n'a pas d'équivalent en France à ce prix. Pour les amateurs de vins, c'est un argument concret : acheter du champagne de producteur récoltant directement à la propriété à 12–20 €/bouteille, c'est une réalité du quotidien pour les Rémois.",
       },
       {
         heading: "Fibre et coworkings dans le Grand Est 2026",
-        body: "La couverture fibre FTTH dans les zones urbaines du Grand Est dépasse 91 % en 2026, portée par des investissements massifs dans les métropoles de Strasbourg, Metz et Nancy. Reims et Troyes affichent >88 %. Les zones rurales de l'Aube et de la Meuse restent plus hétérogènes. Les coworkings se sont développés rapidement : Reims compte 7 espaces (Coworking Reims, La Nacelle, Workstay), Troyes 4, Metz 6. Les abonnements démarrent à 100 €/mois pour un accès flexible — 30 à 40 % moins chers qu'à Paris pour une qualité souvent supérieure.",
+        body: "La couverture fibre FTTH dans les zones urbaines du Grand Est dépasse 91 % en 2026, portée par des investissements massifs dans les métropoles de Strasbourg, Metz et Nancy. Reims et Troyes affichent >88 %. Les zones rurales de l'Aube et de la Meuse restent plus hétérogènes. Les coworkings se sont développés rapidement : Reims compte 7 espaces (Coworking Reims, La Nacelle, Workstay), Troyes 4, Metz 6. Les abonnements démarrent à 100 €/mois pour un accès flexible, 30 à 40 % moins chers qu'à Paris pour une qualité souvent supérieure.",
       },
       {
         heading: "Le vrai avantage concurrentiel du Grand Est",
@@ -7730,19 +7730,19 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Mont-de-Marsan : la préfecture méconnue",
-        body: "Mont-de-Marsan (32 000 habitants) est la préfecture des Landes — et l'une des préfectures françaises les moins connues hors de sa région. La ville est au confluent de deux Douze et dispose d'un musée de sculpture contemporaine remarquable (Despiau-Wlérick). Prix immobilier ≈ 1 800 €/m², loyer médian T2 ≈ 550 €. L'économie tourne autour de la base aérienne 118 (armée de l'Air), de l'agroalimentaire landais (foie gras, volailles, pintades Label Rouge) et de l'administration. Pour un fonctionnaire en mutation ou un télétravailleur cherchant une ville à taille humaine avec une qualité de vie discrète et un coût bas, Mont-de-Marsan mérite qu'on s'y arrête.",
+        body: "Mont-de-Marsan (32 000 habitants) est la préfecture des Landes, et l'une des préfectures françaises les moins connues hors de sa région. La ville est au confluent de deux Douze et dispose d'un musée de sculpture contemporaine remarquable (Despiau-Wlérick). Prix immobilier ≈ 1 800 €/m², loyer médian T2 ≈ 550 €. L'économie tourne autour de la base aérienne 118 (armée de l'Air), de l'agroalimentaire landais (foie gras, volailles, pintades Label Rouge) et de l'administration. Pour un fonctionnaire en mutation ou un télétravailleur cherchant une ville à taille humaine avec une qualité de vie discrète et un coût bas, Mont-de-Marsan mérite qu'on s'y arrête.",
       },
       {
         heading: "Dax : les thermes et la corrida",
-        body: "Dax (22 000 habitants) est la ville thermale la plus fréquentée de France — 70 000 curistes par an viennent traiter leurs rhumatismes dans la boue volcanique de l'Adour. Ce n'est pas une image de jeunesse, mais la ville a un dynamisme propre : arènes actives (corrida avec les plus grands toreros d'Espagne), festival de jazz du Nouveau Genre, et une position géographique idéale entre Pau (45 min), Bordeaux (1h15) et Bayonne (35 min). Prix ≈ 1 900 €/m². Pour une famille cherchant une base dans le Sud-Ouest avec accès thermalisme, nature landaise et mer à 30 km, Dax fonctionne bien.",
+        body: "Dax (22 000 habitants) est la ville thermale la plus fréquentée de France : 70 000 curistes par an viennent traiter leurs rhumatismes dans la boue volcanique de l'Adour. Ce n'est pas une image de jeunesse, mais la ville a un dynamisme propre : arènes actives (corrida avec les plus grands toreros d'Espagne), festival de jazz du Nouveau Genre, et une position géographique idéale entre Pau (45 min), Bordeaux (1h15) et Bayonne (35 min). Prix ≈ 1 900 €/m². Pour une famille cherchant une base dans le Sud-Ouest avec accès thermalisme, nature landaise et mer à 30 km, Dax fonctionne bien.",
       },
       {
         heading: "La côte landaise : entre Biscarrosse et Hossegor",
-        body: "Le littoral landais s'étend de la pointe du Cap-Ferret (Gironde) jusqu'à Hossegor/Capbreton. Entre les deux : Biscarrosse (lac + mer, surf, camping premium), Mimizan (station surf familiale, prix plus accessibles qu'Hossegor : ≈ 3 200 €/m²), Lit-et-Mixe, Vieux-Boucau. Ces communes sont des stations balnéaires authentiques — moins gentrifiées que le littoral basque, encore accessibles pour les familles qui cherchent une résidence principale et pas une résidence secondaire. La connexion vers Bordeaux (1h30) ou Bayonne (45-60 min) permet d'envisager un emploi en métropole avec résidence côtière.",
+        body: "Le littoral landais s'étend de la pointe du Cap-Ferret (Gironde) jusqu'à Hossegor/Capbreton. Entre les deux : Biscarrosse (lac + mer, surf, camping premium), Mimizan (station surf familiale, prix plus accessibles qu'Hossegor : ≈ 3 200 €/m²), Lit-et-Mixe, Vieux-Boucau. Ces communes sont des stations balnéaires authentiques : moins gentrifiées que le littoral basque, encore accessibles pour les familles qui cherchent une résidence principale et pas une résidence secondaire. La connexion vers Bordeaux (1h30) ou Bayonne (45-60 min) permet d'envisager un emploi en métropole avec résidence côtière.",
       },
       {
         heading: "La forêt landaise : comprendre ce qu'on habite",
-        body: "La forêt des Landes de Gascogne est la plus grande forêt artificielle d'Europe de l'Ouest (1 million d'hectares, créée au XIXe pour assécher les marécages). Elle couvre 70 % du département. Ce n'est pas une forêt de diversité botanique maximale — c'est une monoculture de pins maritimes plantée par l'État et régulièrement entretenue pour la sylviculture. La forêt brûle régulièrement : l'incendie de l'été 2022 a détruit 35 000 hectares. Vivre dans les Landes, c'est comprendre ce rapport particulier à la forêt : beau, apaisante, mais vulnérable.",
+        body: "La forêt des Landes de Gascogne est la plus grande forêt artificielle d'Europe de l'Ouest (1 million d'hectares, créée au XIXe pour assécher les marécages). Elle couvre 70 % du département. Ce n'est pas une forêt de diversité botanique maximale : c'est une monoculture de pins maritimes plantée par l'État et régulièrement entretenue pour la sylviculture. La forêt brûle régulièrement : l'incendie de l'été 2022 a détruit 35 000 hectares. Vivre dans les Landes, c'est comprendre ce rapport particulier à la forêt : beau, apaisante, mais vulnérable.",
       },
       {
         heading: "La gastronomie landaise : la France qui mange le mieux",
@@ -7777,15 +7777,15 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Perpignan : capitale catalane de France",
-        body: "Score MeilleurVille : 5.9/10. Perpignan est souvent présentée comme une ville avec des problèmes — et elle en a réellement (chômage structurel ≈ 17 %, indicateurs sociaux en retrait). Mais la vision est incomplète. Le Castillet, le Palais des Rois de Majorque, les marchés animés et la culture catalane profonde font de Perpignan une ville authentique et singulière. Le prix immobilier ≈ 1 900 €/m² permet d'acheter un appartement T3 pour 130 000 €. Le marché locatif est parmi les moins tendus du Midi. Pour un télétravailleur qui optimise le rapport soleil/coût/mer, Perpignan est l'option la plus agressive de France.",
+        body: "Score MeilleurVille : 5.9/10. Perpignan est souvent présentée comme une ville avec des problèmes, et elle en a réellement (chômage structurel ≈ 17 %, indicateurs sociaux en retrait). Mais la vision est incomplète. Le Castillet, le Palais des Rois de Majorque, les marchés animés et la culture catalane profonde font de Perpignan une ville authentique et singulière. Le prix immobilier ≈ 1 900 €/m² permet d'acheter un appartement T3 pour 130 000 €. Le marché locatif est parmi les moins tendus du Midi. Pour un télétravailleur qui optimise le rapport soleil/coût/mer, Perpignan est l'option la plus agressive de France.",
       },
       {
         heading: "La Côte Vermeille : Collioure, Banyuls, Port-Vendres",
-        body: "La Côte Vermeille est le tronçon littoral entre Argelès-sur-Mer et la frontière espagnole. Ses calanques, ses villages colorés et ses vignobles (Banyuls, Collioure AOC) en font un des paysages les plus beaux du Midi. Collioure est classée parmi les plus beaux villages de France et a été peinte par Matisse et Derrière — mais ne vous y installez pas sans avoir vérifié le marché : les prix y ont fortement monté (≈ 4 000–5 000 €/m²). Banyuls-sur-Mer et Port-Vendres sont plus accessibles (≈ 3 000 €/m²) tout en restant à 10 minutes des calanques.",
+        body: "La Côte Vermeille est le tronçon littoral entre Argelès-sur-Mer et la frontière espagnole. Ses calanques, ses villages colorés et ses vignobles (Banyuls, Collioure AOC) en font un des paysages les plus beaux du Midi. Collioure est classée parmi les plus beaux villages de France et a été peinte par Matisse et Derrière, mais ne vous y installez pas sans avoir vérifié le marché : les prix y ont fortement monté (≈ 4 000–5 000 €/m²). Banyuls-sur-Mer et Port-Vendres sont plus accessibles (≈ 3 000 €/m²) tout en restant à 10 minutes des calanques.",
       },
       {
         heading: "Les Pyrénées catalanes : Céret, Prades, Font-Romeu",
-        body: "L'arrière-pays roussillonnais monte rapidement vers les Pyrénées. Céret (musée d'art moderne remarquable, marché aux cerises réputé) : ≈ 2 800 €/m², à 30 km de la mer et 45 min de Perpignan. Prades (ville de Pablo Casals, festival de musique baroque) : ≈ 1 800 €/m², porte du Conflent et du Vernet-les-Bains. Font-Romeu (2 000 m d'altitude, ensoleillement exceptionnel, station ski) : ≈ 1 600 €/m² — une des stations de montagne les moins chères de France pour un cadre alpin pyrénéen. Ces villes attirent les télétravailleurs cherchant montagne + soleil + accessibilité.",
+        body: "L'arrière-pays roussillonnais monte rapidement vers les Pyrénées. Céret (musée d'art moderne remarquable, marché aux cerises réputé) : ≈ 2 800 €/m², à 30 km de la mer et 45 min de Perpignan. Prades (ville de Pablo Casals, festival de musique baroque) : ≈ 1 800 €/m², porte du Conflent et du Vernet-les-Bains. Font-Romeu (2 000 m d'altitude, ensoleillement exceptionnel, station ski) : ≈ 1 600 €/m², une des stations de montagne les moins chères de France pour un cadre alpin pyrénéen. Ces villes attirent les télétravailleurs cherchant montagne + soleil + accessibilité.",
       },
       {
         heading: "L'identité catalane : une réalité quotidienne",
@@ -8055,11 +8055,11 @@ export const GUIDES: Guide[] = [
     publishedAt: "2026-05-11",
     updatedAt: "2026-01-27",
     intro:
-      "Le freelance français ne vit plus à Paris par obligation. La dématérialisation des missions, l'essor des plateformes de mise en relation et la maturité des coworkings de province ont rendu l'installation possible dans à peu près n'importe quelle ville pourvue d'une fibre correcte. Mais toutes les villes de province ne se valent pas pour un indépendant : réseau local, densité de clients potentiels, coût des espaces de travail, accès à des associations professionnelles actives — tout ça varie franchement d'un endroit à l'autre. Ce guide fait le point sans romantisme.",
+      "Le freelance français ne vit plus à Paris par obligation. La dématérialisation des missions, l'essor des plateformes de mise en relation et la maturité des coworkings de province ont rendu l'installation possible dans à peu près n'importe quelle ville pourvue d'une fibre correcte. Mais toutes les villes de province ne se valent pas pour un indépendant : réseau local, densité de clients potentiels, coût des espaces de travail, accès à des associations professionnelles actives : tout ça varie franchement d'un endroit à l'autre. Ce guide fait le point sans romantisme.",
     sections: [
       {
         heading: "Les 4 critères qui comptent pour un freelance en province",
-        body: "Un salarié en remote cherche surtout fibre et loyer bas. Un freelance a quatre besoins supplémentaires. Un réseau client local ou accessible en 2h, parce que même si les missions 100 % distance existent, la proximité physique ouvre toujours plus de portes. Des coworkings avec salles de réunion, imprimante et adresse postale (pour les mentions légales). Des événements professionnels — meetups, conférences, BNI ou équivalents — pour entretenir le pipeline commercial. Une identité professionnelle visible localement (LinkedIn local actif, associations sectorielles). Ces critères défavorisent mécaniquement les villes de moins de 50 000 habitants.",
+        body: "Un salarié en remote cherche surtout fibre et loyer bas. Un freelance a quatre besoins supplémentaires. Un réseau client local ou accessible en 2h, parce que même si les missions 100 % distance existent, la proximité physique ouvre toujours plus de portes. Des coworkings avec salles de réunion, imprimante et adresse postale (pour les mentions légales). Des événements professionnels (meetups, conférences, BNI ou équivalents) pour entretenir le pipeline commercial. Une identité professionnelle visible localement (LinkedIn local actif, associations sectorielles). Ces critères défavorisent mécaniquement les villes de moins de 50 000 habitants.",
       },
       {
         heading: "Rennes : l'écosystème freelance le plus dynamique hors Paris",
@@ -8095,7 +8095,7 @@ export const GUIDES: Guide[] = [
     title: "Quitter Dijon en 2026 : quand la Bourgogne devient trop petite",
     metaTitle: "Quitter Dijon 2026 — Lyon, Besançon, Chalon, Mâcon : le guide honnête",
     metaDesc:
-      "Dijon est agréable mais son marché de l'emploi est étroit. Qui part, pourquoi, et quelles villes offrent plus sans tout sacrifier — calcul honnête.",
+      "Dijon est agréable mais son marché de l'emploi est étroit. Qui part, pourquoi, et quelles villes offrent plus sans tout sacrifier : calcul honnête.",
     category: "comparaison",
     emoji: "🍷",
     readMinutes: 7,
@@ -8251,23 +8251,23 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Bourg-en-Bresse : la préfecture gastronomique méconnue",
-        body: "Score MeilleurVille : 6.6/10. Bourg-en-Bresse est une des préfectures françaises les moins connues pour sa taille (60 000 habitants) — et l'une des plus gastronomiques. La volaille de Bresse AOP (poulet, poularde, chapon) est le seul produit carné classé AOC/AOP en Europe, produit à moins de 30 km du centre. Prix ≈ 2 100 €/m². Lyon est à 1h de TER, Genève à 1h30 de TGV. Pour un télétravailleur gastronome, c'est un choix cohérent et sous-estimé.",
+        body: "Score MeilleurVille : 6.6/10. Bourg-en-Bresse est une des préfectures françaises les moins connues pour sa taille (60 000 habitants), et l'une des plus gastronomiques. La volaille de Bresse AOP (poulet, poularde, chapon) est le seul produit carné classé AOC/AOP en Europe, produit à moins de 30 km du centre. Prix ≈ 2 100 €/m². Lyon est à 1h de TER, Genève à 1h30 de TGV. Pour un télétravailleur gastronome, c'est un choix cohérent et sous-estimé.",
       },
       {
         heading: "La Dombes : mille étangs et tranquillité radicale",
-        body: "La Dombes est un plateau entre Bourg-en-Bresse et Lyon parsemé de 1 000 étangs médiévaux. C'est un des sites ornithologiques les plus riches de France (Parc des Oiseaux de Villars-les-Dombes). Prix immobilier ≈ 1 600–1 900 €/m², connexion routière Lyon en 40-60 minutes. Pour un télétravailleur cherchant nature et tranquillité à portée de métropole, la Dombes est unique — et presque ignorée des guides de relocation.",
+        body: "La Dombes est un plateau entre Bourg-en-Bresse et Lyon parsemé de 1 000 étangs médiévaux. C'est un des sites ornithologiques les plus riches de France (Parc des Oiseaux de Villars-les-Dombes). Prix immobilier ≈ 1 600–1 900 €/m², connexion routière Lyon en 40-60 minutes. Pour un télétravailleur cherchant nature et tranquillité à portée de métropole, la Dombes est unique, et presque ignorée des guides de relocation.",
       },
       {
         heading: "Belley et le Bugey : le Jura méridional méconnu",
-        body: "Le Bugey est la partie méridionale du Jura dans l'Ain. Belley (9 000 habitants) en est la capitale — ville médiévale avec cathédrale, gastronomie locale et vignoble du Bugey AOC (Manicle, Montagnieu, Cerdon pétillant rosé). Prix ≈ 1 900 €/m². Accès Chambéry (50 min) et Lyon (1h15). La nature est immédiatement présente : gorges de l'Ain, randonnée, cascade de Cerveyrieu.",
+        body: "Le Bugey est la partie méridionale du Jura dans l'Ain. Belley (9 000 habitants) en est la capitale : ville médiévale avec cathédrale, gastronomie locale et vignoble du Bugey AOC (Manicle, Montagnieu, Cerdon pétillant rosé). Prix ≈ 1 900 €/m². Accès Chambéry (50 min) et Lyon (1h15). La nature est immédiatement présente : gorges de l'Ain, randonnée, cascade de Cerveyrieu.",
       },
       {
         heading: "Oyonnax : l'industrie plastique qui se réinvente",
-        body: "Oyonnax (23 000 habitants) est surnommée «capitale mondiale de la lunetterie» — un passé industriel plastique qui lui a valu une réputation difficile. La ville se réinvente : pôle de plasturgie technique (médical, aéronautique), tissu de PMI solide, prix ≈ 1 500 €/m² parmi les moins chers du département. Pour un ingénieur ou technicien dans les matériaux, Oyonnax reste un bassin d'emploi réel à coût de vie réduit.",
+        body: "Oyonnax (23 000 habitants) est surnommée «capitale mondiale de la lunetterie» : un passé industriel plastique qui lui a valu une réputation difficile. La ville se réinvente : pôle de plasturgie technique (médical, aéronautique), tissu de PMI solide, prix ≈ 1 500 €/m² parmi les moins chers du département. Pour un ingénieur ou technicien dans les matériaux, Oyonnax reste un bassin d'emploi réel à coût de vie réduit.",
       },
       {
         heading: "L'Ain pour quel profil ?",
-        body: "Quatre profils distincts. (1) Le frontalier genevois cherchant la résidence française : Pays de Gex. (2) Le gastronome télétravailleur : Bourg-en-Bresse pour le poulet AOP et le marché couvert. (3) L'ornithologiste ou amateur de nature aquatique : la Dombes est unique en France. (4) L'industrie-technique : Oyonnax et Ambérieu-en-Bugey (nœud ferroviaire et ZI active). Ce n'est pas une destination lifestyle généraliste — c'est un département de niches précises.",
+        body: "Quatre profils distincts. (1) Le frontalier genevois cherchant la résidence française : Pays de Gex. (2) Le gastronome télétravailleur : Bourg-en-Bresse pour le poulet AOP et le marché couvert. (3) L'ornithologiste ou amateur de nature aquatique : la Dombes est unique en France. (4) L'industrie-technique : Oyonnax et Ambérieu-en-Bugey (nœud ferroviaire et ZI active). Ce n'est pas une destination lifestyle généraliste : c'est un département de niches précises.",
       },
     ],
     relatedCities: ["bourg-en-bresse", "oyonnax", "gex"],
@@ -8377,7 +8377,7 @@ export const GUIDES: Guide[] = [
     title: "Investissement locatif sous 100 000 € : les villes françaises où c'est encore possible en 2026",
     metaTitle: "Investissement locatif < 100 000 € France 2026 — Rentabilité, risques, villes",
     metaDesc:
-      "Studio ou T2 sous 100 000 € avec un loyer viable : les villes françaises où ce profil reste possible en 2026 — rentabilité brute, vacance locative, pièges à éviter.",
+      "Studio ou T2 sous 100 000 € avec un loyer viable : les villes françaises où ce profil reste possible en 2026, rentabilité brute, vacance locative, pièges à éviter.",
     category: "budget",
     emoji: "🔑",
     readMinutes: 8,
@@ -8518,7 +8518,7 @@ export const GUIDES: Guide[] = [
     title: "Quitter Annecy en 2026 : quand le lac ne justifie plus le prix",
     metaTitle: "Quitter Annecy 2026 — Chambéry, Aix-les-Bains, Grenoble, Thonon : le guide honnête",
     metaDesc:
-      "Annecy est la ville française la plus chère hors Paris pour son niveau de services. Qui peut encore y rester — et où partent ceux qui n'en ont plus les moyens.",
+      "Annecy est la ville française la plus chère hors Paris pour son niveau de services. Qui peut encore y rester, et où partent ceux qui n'en ont plus les moyens.",
     category: "comparaison",
     emoji: "🏔️",
     readMinutes: 8,
@@ -8670,27 +8670,27 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Foix : la préfecture médiévale au pied des Pyrénées",
-        body: "Foix (10 000 habitants) est l'une des plus petites préfectures de France — et l'une des plus spectaculaires. Le château comtal dominant la ville depuis son rocher calcaire, les gorges de la Frau à 30 minutes, les grottes de Niaux (peintures rupestres paléolithiques) à 15 km : le cadre est exceptionnel. Prix immobilier ≈ 1 500 €/m² — parmi les plus bas des villes préfectorales françaises. Toulouse est à 1h10 par l'A66 (et bientôt 50 minutes avec l'A66 complétée). Pour un télétravailleur qui peut se rendre à Toulouse une ou deux fois par semaine, Foix est une base crédible.",
+        body: "Foix (10 000 habitants) est l'une des plus petites préfectures de France, et l'une des plus spectaculaires. Le château comtal dominant la ville depuis son rocher calcaire, les gorges de la Frau à 30 minutes, les grottes de Niaux (peintures rupestres paléolithiques) à 15 km : le cadre est exceptionnel. Prix immobilier ≈ 1 500 €/m², parmi les plus bas des villes préfectorales françaises. Toulouse est à 1h10 par l'A66 (et bientôt 50 minutes avec l'A66 complétée). Pour un télétravailleur qui peut se rendre à Toulouse une ou deux fois par semaine, Foix est une base crédible.",
       },
       {
         heading: "Pamiers : la ville la plus accessible du département",
-        body: "Pamiers (16 000 habitants) est la plus grande ville de l'Ariège et la porte d'entrée du département depuis Toulouse (60 km). Train Toulouse-Pamiers : 55 minutes (TER direct, plusieurs par jour). Prix ≈ 1 700 €/m², loyer médian T2 ≈ 480 €. L'économie locale tourne autour des services, de l'agroalimentaire et du commerce. C'est la ville la plus fonctionnelle du département pour ceux qui gardent une dépendance à Toulouse — emploi, médecins spécialistes, commerces spécialisés.",
+        body: "Pamiers (16 000 habitants) est la plus grande ville de l'Ariège et la porte d'entrée du département depuis Toulouse (60 km). Train Toulouse-Pamiers : 55 minutes (TER direct, plusieurs par jour). Prix ≈ 1 700 €/m², loyer médian T2 ≈ 480 €. L'économie locale tourne autour des services, de l'agroalimentaire et du commerce. C'est la ville la plus fonctionnelle du département pour ceux qui gardent une dépendance à Toulouse, emploi, médecins spécialistes, commerces spécialisés.",
       },
       {
         heading: "Le Couserans et Saint-Girons : la haute vallée préservée",
-        body: "Saint-Girons (7 000 habitants) est le chef-lieu du Couserans, la partie occidentale de l'Ariège, au confluent de plusieurs vallées pyrénéennes. C'est la ville la plus éloignée de Toulouse (1h30) mais aussi la plus préservée et la plus «sauvage». Les Pyrénées ariégeoises offrent des conditions de randonnée et de ski nordique (plateau de Beille) de haute qualité. Prix ≈ 1 200 €/m² — parmi les plus bas de France hors DOM. Pour un profil rural-radical ou un télétravailleur cherchant à couper totalement, Saint-Girons est l'option maximale.",
+        body: "Saint-Girons (7 000 habitants) est le chef-lieu du Couserans, la partie occidentale de l'Ariège, au confluent de plusieurs vallées pyrénéennes. C'est la ville la plus éloignée de Toulouse (1h30) mais aussi la plus préservée et la plus «sauvage». Les Pyrénées ariégeoises offrent des conditions de randonnée et de ski nordique (plateau de Beille) de haute qualité. Prix ≈ 1 200 €/m², parmi les plus bas de France hors DOM. Pour un profil rural-radical ou un télétravailleur cherchant à couper totalement, Saint-Girons est l'option maximale.",
       },
       {
         heading: "La montagne ariégeoise : ski, randonnée, spéléologie",
-        body: "L'Ariège est une des régions françaises les plus riches en activités de plein air. Ax-les-Thermes (1 400 m) est la station ski la plus méridionale des Pyrénées françaises — 80 km de pistes, prix accessibles. Le GR10 traverse le département d'est en ouest. Les grottes (Niaux, Mas-d'Azil, Bédeilhac) font de l'Ariège la capitale française de la spéléologie. Le parc naturel régional des Pyrénées Ariégeoises protège 280 000 hectares. Pour un randonneur, vttiste ou spéléologue, c'est un terrain de jeu exceptionnel.",
+        body: "L'Ariège est une des régions françaises les plus riches en activités de plein air. Ax-les-Thermes (1 400 m) est la station ski la plus méridionale des Pyrénées françaises, 80 km de pistes, prix accessibles. Le GR10 traverse le département d'est en ouest. Les grottes (Niaux, Mas-d'Azil, Bédeilhac) font de l'Ariège la capitale française de la spéléologie. Le parc naturel régional des Pyrénées Ariégeoises protège 280 000 hectares. Pour un randonneur, vttiste ou spéléologue, c'est un terrain de jeu exceptionnel.",
       },
       {
         heading: "Le désert médical ariégeois : ne pas minimiser",
-        body: "L'Ariège figure régulièrement parmi les départements français les plus touchés par le désert médical. Le délai pour un médecin généraliste non-urgentiste peut dépasser 3 à 4 mois dans certaines zones. Les spécialistes (cardiologue, gynécologue, rhumatologue) sont quasi absents du département — les rendez-vous se prennent à Toulouse, à 1h-1h30. Pour une famille avec enfants en bas âge, une personne âgée ou quelqu'un avec des besoins médicaux réguliers, c'est un risque réel qu'aucun guide honnête ne peut minimiser.",
+        body: "L'Ariège figure régulièrement parmi les départements français les plus touchés par le désert médical. Le délai pour un médecin généraliste non-urgentiste peut dépasser 3 à 4 mois dans certaines zones. Les spécialistes (cardiologue, gynécologue, rhumatologue) sont quasi absents du département, les rendez-vous se prennent à Toulouse, à 1h-1h30. Pour une famille avec enfants en bas âge, une personne âgée ou quelqu'un avec des besoins médicaux réguliers, c'est un risque réel qu'aucun guide honnête ne peut minimiser.",
       },
       {
         heading: "L'Ariège pour quel profil ?",
-        body: "Trois profils s'y installent avec succès. (1) Le télétravailleur complet qui n'a besoin d'aller à Toulouse qu'une fois par mois maximum, cherche une maison avec terrain pour moins de 150 000 €, et valorise la montagne quotidienne. (2) L'artisan ou le maraîcher en reconversion : l'espace foncier, les prix et la communauté de néo-ruraux établis (l'Ariège attire ce type de profil depuis les années 1970) créent un tissu social favorable. (3) La retraite active : randonnée, thermes (Ax-les-Thermes, Ussat), vignoble de l'Ariège côté Mirepoix — à condition d'être en bonne santé.",
+        body: "Trois profils s'y installent avec succès. (1) Le télétravailleur complet qui n'a besoin d'aller à Toulouse qu'une fois par mois maximum, cherche une maison avec terrain pour moins de 150 000 €, et valorise la montagne quotidienne. (2) L'artisan ou le maraîcher en reconversion : l'espace foncier, les prix et la communauté de néo-ruraux établis (l'Ariège attire ce type de profil depuis les années 1970) créent un tissu social favorable. (3) La retraite active : randonnée, thermes (Ax-les-Thermes, Ussat), vignoble de l'Ariège côté Mirepoix, à condition d'être en bonne santé.",
       },
     ],
     relatedCities: ["foix", "pamiers", "saint-girons"],
@@ -8994,7 +8994,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Emploi et tissu économique",
-        body: "Brest a un tissu économique plus diversifié. Naval Group (sous-marins), Thales (défense), le CHU de Brest (5 500 salariés), l'UBO (4 500 personnels), le pôle mer Bretagne Atlantique (recherche océanographique, Ifremer) : c'est un écosystème technique et académique solide. La ville attire aussi des entreprises numériques (Orange a un centre R&D, des startups tech en cybersécurité s'installent). Lorient a un tissu plus concentré : le port de pêche (premier port de pêche fraîche de France), Bourbon (offshore maritime), le chantier naval Multiplast (voiliers de course — Banque Populaire, Initiatives-Cœur partent de Lorient). L'industrie agroalimentaire de pêche est importante. Pour un ingénieur ou un informaticien, Brest offre plus de choix. Pour un profil maritime, naval léger ou agroalimentaire, Lorient est plus ciblé mais très compétitif.",
+        body: "Brest a un tissu économique plus diversifié. Naval Group (sous-marins), Thales (défense), le CHU de Brest (5 500 salariés), l'UBO (4 500 personnels), le pôle mer Bretagne Atlantique (recherche océanographique, Ifremer) : c'est un écosystème technique et académique solide. La ville attire aussi des entreprises numériques (Orange a un centre R&D, des startups tech en cybersécurité s'installent). Lorient a un tissu plus concentré : le port de pêche (premier port de pêche fraîche de France), Bourbon (offshore maritime), le chantier naval Multiplast (voiliers de course, Banque Populaire, Initiatives-Cœur partent de Lorient). L'industrie agroalimentaire de pêche est importante. Pour un ingénieur ou un informaticien, Brest offre plus de choix. Pour un profil maritime, naval léger ou agroalimentaire, Lorient est plus ciblé mais très compétitif.",
       },
       {
         heading: "Vie étudiante : l'avantage Brest",
@@ -9032,11 +9032,11 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Charleville-Mézières et Sedan : les deux pôles urbains des Ardennes",
-        body: "Charleville-Mézières (45 000 habitants) est la préfecture des Ardennes, connue internationalement pour son Festival Mondial des Théâtres de Marionnettes (biennal, 700 000 visiteurs). La place Ducale (architecte Clément Métezeau, contemporaine de la place des Vosges) est l'une des plus belles de France — et quasi-inconnue hors région. L'immobilier y est stupéfiant de bas : 700–1 200 €/m² en achat, 7–9 €/m² en location. Un T3 de 70 m² se loue 500–600 €/mois.\n\nSedan (17 000 habitants) est plus petite, avec le plus grand château fort médiéval d'Europe et un passé industriel (draps de Sedan). L'immobilier y est encore moins cher : 500–900 €/m². Ces villes ne sont pas des campagnes — elles ont des commerces, des lycées, un hôpital (CH de Charleville-Mézières, restructuré récemment). Mais le dynamisme économique est limité et le chômage structurellement supérieur à la moyenne nationale.",
+        body: "Charleville-Mézières (45 000 habitants) est la préfecture des Ardennes, connue internationalement pour son Festival Mondial des Théâtres de Marionnettes (biennal, 700 000 visiteurs). La place Ducale (architecte Clément Métezeau, contemporaine de la place des Vosges) est l'une des plus belles de France, et quasi-inconnue hors région. L'immobilier y est stupéfiant de bas : 700–1 200 €/m² en achat, 7–9 €/m² en location. Un T3 de 70 m² se loue 500–600 €/mois.\n\nSedan (17 000 habitants) est plus petite, avec le plus grand château fort médiéval d'Europe et un passé industriel (draps de Sedan). L'immobilier y est encore moins cher : 500–900 €/m². Ces villes ne sont pas des campagnes, elles ont des commerces, des lycées, un hôpital (CH de Charleville-Mézières, restructuré récemment). Mais le dynamisme économique est limité et le chômage structurellement supérieur à la moyenne nationale.",
       },
       {
         heading: "Verdun et Bar-le-Duc : la Meuse entre mémoire et renouveau",
-        body: "Verdun (18 000 habitants) tire son identité de la Grande Guerre — le Mémorial de Verdun, les champs de bataille, Douaumont, attirent 600 000 visiteurs/an. Cette notoriété mémorielle génère une économie touristique réelle mais saisonnière. L'immobilier : 900–1 400 €/m² en achat, 8–10 €/m² en location. Bar-le-Duc (15 000 habitants, préfecture de la Meuse) est moins connue mais offre un centre médiéval splendide (la Ville Haute) et des services de préfecture complets. L'industrie (AGC Glass, GSK) maintient quelques emplois qualifiés. La Meuse est aussi la patrie des fameuses groseilles épépinées à la plume, spécialité unique au monde qui donne son nom à une filière artisanale toujours vivante à Bar-le-Duc.",
+        body: "Verdun (18 000 habitants) tire son identité de la Grande Guerre, le Mémorial de Verdun, les champs de bataille, Douaumont, attirent 600 000 visiteurs/an. Cette notoriété mémorielle génère une économie touristique réelle mais saisonnière. L'immobilier : 900–1 400 €/m² en achat, 8–10 €/m² en location. Bar-le-Duc (15 000 habitants, préfecture de la Meuse) est moins connue mais offre un centre médiéval splendide (la Ville Haute) et des services de préfecture complets. L'industrie (AGC Glass, GSK) maintient quelques emplois qualifiés. La Meuse est aussi la patrie des fameuses groseilles épépinées à la plume, spécialité unique au monde qui donne son nom à une filière artisanale toujours vivante à Bar-le-Duc.",
       },
       {
         heading: "L'immobilier : les prix les plus bas de France métropolitaine",
@@ -9044,7 +9044,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "La nature comme argument principal",
-        body: "La Forêt des Ardennes couvre 100 000 hectares entre France et Belgique — l'un des plus grands massifs forestiers de l'ouest européen. Randonnée, VTT, chasse, pêche en rivière (la Meuse, la Semoy, l'Aisne), kayak : les activités de plein air sont accessibles sans avoir à planifier. La faune sauvage est présente (cerfs, sangliers, rapaces) dans une mesure rare en France de l'Ouest.\n\nLes méandres de la Meuse dans les Ardennes, les villages de Monthermé, Revin, Bogny-sur-Meuse ont une beauté discrète mais réelle. Pour quelqu'un qui veut du vert, du silence et un rapport direct à la nature sans avoir à \"partir en vacances\" le week-end, c'est un atout quotidien. Les enfants grandissent différemment ici — espace, liberté de mouvement, relation aux saisons.",
+        body: "La Forêt des Ardennes couvre 100 000 hectares entre France et Belgique, l'un des plus grands massifs forestiers de l'ouest européen. Randonnée, VTT, chasse, pêche en rivière (la Meuse, la Semoy, l'Aisne), kayak : les activités de plein air sont accessibles sans avoir à planifier. La faune sauvage est présente (cerfs, sangliers, rapaces) dans une mesure rare en France de l'Ouest.\n\nLes méandres de la Meuse dans les Ardennes, les villages de Monthermé, Revin, Bogny-sur-Meuse ont une beauté discrète mais réelle. Pour quelqu'un qui veut du vert, du silence et un rapport direct à la nature sans avoir à \"partir en vacances\" le week-end, c'est un atout quotidien. Les enfants grandissent différemment ici, espace, liberté de mouvement, relation aux saisons.",
       },
       {
         heading: "Les limites à connaître avant de s'engager",
@@ -9074,7 +9074,7 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Guéret, Aubusson, Ussel : trois villes, trois réalités",
-        body: "Guéret (12 000 habitants), préfecture de la Creuse, est le centre administratif et commercial du département. On y trouve les services essentiels : hôpital (CH de Guéret, restructuré mais insuffisant), lycées, commerces, administration. L'immobilier : 800–1 400 €/m² en appartement, 60 000–120 000 € pour une maison en ville. La vie de bourg est tranquille, les commerces survivent, mais la dynamique économique est fragile.\n\nAubusson (3 200 habitants) est connue dans le monde entier pour ses tapisseries et ses tapis (classés au patrimoine immatériel de l'UNESCO). La Cité Internationale de la Tapisserie est un musée de qualité rare dans une ville de cette taille. Une maison de village à Aubusson tourne entre 40 000 et 90 000 €. Ussel (9 500 habitants), en Corrèze voisine, est le dernier bastion avant les Volcans d'Auvergne — plus résidentielle, avec quelques activités industrielles.",
+        body: "Guéret (12 000 habitants), préfecture de la Creuse, est le centre administratif et commercial du département. On y trouve les services essentiels : hôpital (CH de Guéret, restructuré mais insuffisant), lycées, commerces, administration. L'immobilier : 800–1 400 €/m² en appartement, 60 000–120 000 € pour une maison en ville. La vie de bourg est tranquille, les commerces survivent, mais la dynamique économique est fragile.\n\nAubusson (3 200 habitants) est connue dans le monde entier pour ses tapisseries et ses tapis (classés au patrimoine immatériel de l'UNESCO). La Cité Internationale de la Tapisserie est un musée de qualité rare dans une ville de cette taille. Une maison de village à Aubusson tourne entre 40 000 et 90 000 €. Ussel (9 500 habitants), en Corrèze voisine, est le dernier bastion avant les Volcans d'Auvergne, plus résidentielle, avec quelques activités industrielles.",
       },
       {
         heading: "Prix immobiliers : la réalité des chiffres",
@@ -9090,7 +9090,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Qui réussit vraiment en Creuse ?",
-        body: "L'expérience des \"néoruraux\" en Creuse depuis 2020 dessine un profil assez précis de ceux qui s'épanouissent. (1) **Télétravailleurs en CDI à temps plein** dont l'employeur est à Paris ou Lyon — revenus stables découplés du marché local, faible dépendance aux services locaux. (2) **Retraités de moins de 70 ans** en bonne santé, attachés à la nature, jardiniers ou artisans amateurs, avec un réseau social préexistant dans la région. (3) **Artisans d'art** (céramiste, ébéniste, tisserand) qui peuvent travailler depuis un atelier ici et vendre en ligne ou dans les marchés artisanaux. (4) **Familles en rupture** avec le coût de la métropole, capables d'organiser les soins médicaux et l'éducation des enfants (souvent en homeschooling ou en écoles rurales à petits effectifs). Ceux qui échouent : les personnes dépendantes d'un tissu social dense, d'un emploi local salarié qualifié, ou d'un accès régulier à des services de santé spécialisés.",
+        body: "L'expérience des \"néoruraux\" en Creuse depuis 2020 dessine un profil assez précis de ceux qui s'épanouissent. (1) **Télétravailleurs en CDI à temps plein** dont l'employeur est à Paris ou Lyon, revenus stables découplés du marché local, faible dépendance aux services locaux. (2) **Retraités de moins de 70 ans** en bonne santé, attachés à la nature, jardiniers ou artisans amateurs, avec un réseau social préexistant dans la région. (3) **Artisans d'art** (céramiste, ébéniste, tisserand) qui peuvent travailler depuis un atelier ici et vendre en ligne ou dans les marchés artisanaux. (4) **Familles en rupture** avec le coût de la métropole, capables d'organiser les soins médicaux et l'éducation des enfants (souvent en homeschooling ou en écoles rurales à petits effectifs). Ceux qui échouent : les personnes dépendantes d'un tissu social dense, d'un emploi local salarié qualifié, ou d'un accès régulier à des services de santé spécialisés.",
       },
     ],
     relatedCities: ["gueret", "aubusson", "limoges", "clermont-ferrand", "brive-la-gaillarde", "ussel"],
@@ -9563,15 +9563,15 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Où vivre en Dordogne : les principales villes",
-        body: "Périgueux est la préfecture (30 000 habitants) : ville moyenne avec toutes les administrations, un CHU de taille correcte, une gare reliée à Bordeaux en 1h20 et à Paris en 3h45. C'est le centre de gravité pour les services. Bergerac (25 000 habitants) est la deuxième ville : plutôt tournée vers l'agriculture, le vin (AOC Bergerac) et l'aéroport international (vols low-cost vers UK). Sarlat-la-Canéda (10 000 habitants mais 1 million de visiteurs/an) est la capitale touristique médiévale — belle à vivre hors saison, mais envahie de juillet à août. Les marchés hebdomadaires (Sarlat, Périgueux, Bergerac) sont des institutions. Pour s'installer, les villages entre Périgueux et Sarlat offrent le meilleur compromis : accès aux services + cadre naturel.",
+        body: "Périgueux est la préfecture (30 000 habitants) : ville moyenne avec toutes les administrations, un CHU de taille correcte, une gare reliée à Bordeaux en 1h20 et à Paris en 3h45. C'est le centre de gravité pour les services. Bergerac (25 000 habitants) est la deuxième ville : plutôt tournée vers l'agriculture, le vin (AOC Bergerac) et l'aéroport international (vols low-cost vers UK). Sarlat-la-Canéda (10 000 habitants mais 1 million de visiteurs/an) est la capitale touristique médiévale, belle à vivre hors saison, mais envahie de juillet à août. Les marchés hebdomadaires (Sarlat, Périgueux, Bergerac) sont des institutions. Pour s'installer, les villages entre Périgueux et Sarlat offrent le meilleur compromis : accès aux services + cadre naturel.",
       },
       {
         heading: "Immobilier : les vrais prix en 2026",
-        body: "Le Périgord Noir (Sarlat, Belvès, Domme) est le secteur le plus cher : maisons en pierre avec jardin à 180 000–280 000 €, fermes rénovées à 350 000 €+. Le Périgord Blanc (autour de Périgueux) est plus abordable : maison avec terrain à 80 000–130 000 €. Le Périgord Vert (nord, Brantôme) propose des prix similaires avec un cadre un peu moins touristique. Les longères et bastides à rénover se trouvent encore sous 80 000 € dans les secteurs non touristiques. Pour les acheteurs britanniques post-Brexit, les démarches administratives ont ajouté de la complexité mais le flux reste positif — le marché anglophone reste actif, notamment via les agences spécialisées en transactions franco-britanniques.",
+        body: "Le Périgord Noir (Sarlat, Belvès, Domme) est le secteur le plus cher : maisons en pierre avec jardin à 180 000–280 000 €, fermes rénovées à 350 000 €+. Le Périgord Blanc (autour de Périgueux) est plus abordable : maison avec terrain à 80 000–130 000 €. Le Périgord Vert (nord, Brantôme) propose des prix similaires avec un cadre un peu moins touristique. Les longères et bastides à rénover se trouvent encore sous 80 000 € dans les secteurs non touristiques. Pour les acheteurs britanniques post-Brexit, les démarches administratives ont ajouté de la complexité mais le flux reste positif, le marché anglophone reste actif, notamment via les agences spécialisées en transactions franco-britanniques.",
       },
       {
         heading: "Communauté expatriée et vie sociale",
-        body: "La communauté britannique du Périgord est une réalité structurante depuis les années 1980. Elle a ses propres réseaux : associations d'expatriés à Périgueux et Bergerac, les «apéros anglais» dans les villages, l'English Doctor Network (médecins anglophones), des artisans britanniques établis de longue date. Cette communauté est un atout pour les nouveaux arrivants anglophones mais peut aussi créer une bulle sociale qui ralentit l'intégration. Des familles françaises s'installent aussi, notamment des télétravailleurs fuyant les grandes métropoles depuis 2020 — ce flux «néo-ruraux» a changé la sociologie du département : les écoles reçoivent à nouveau des enfants, quelques coworkings ont ouvert à Périgueux et Sarlat.",
+        body: "La communauté britannique du Périgord est une réalité structurante depuis les années 1980. Elle a ses propres réseaux : associations d'expatriés à Périgueux et Bergerac, les «apéros anglais» dans les villages, l'English Doctor Network (médecins anglophones), des artisans britanniques établis de longue date. Cette communauté est un atout pour les nouveaux arrivants anglophones mais peut aussi créer une bulle sociale qui ralentit l'intégration. Des familles françaises s'installent aussi, notamment des télétravailleurs fuyant les grandes métropoles depuis 2020, ce flux «néo-ruraux» a changé la sociologie du département : les écoles reçoivent à nouveau des enfants, quelques coworkings ont ouvert à Périgueux et Sarlat.",
       },
       {
         heading: "Gastronomie, art de vivre et culture",
@@ -9579,11 +9579,11 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Ce qui manque : emplois, médecins, accès",
-        body: "La Dordogne est l'un des départements français les plus touchés par la désertification médicale : 78 médecins généralistes pour 100 000 habitants en 2026 (vs 103 en moyenne nationale). Certaines zones rurales sont en «désert médical» — délais de rendez-vous de 2 à 5 semaines. Le marché de l'emploi est structurellement limité : agriculture, BTP, tourisme, commerce local. Pas de grande entreprise industrielle, pas de technopôle. La connexion internet reste très inégale — la fibre est déployée dans les bourgs mais les hameaux les plus isolés sont encore en 4G instable. La A89 (Bordeaux-Clermont-Ferrand) traverse le département mais le réseau routier secondaire est sinueux. Sans voiture, la vie en Dordogne est quasiment impossible.",
+        body: "La Dordogne est l'un des départements français les plus touchés par la désertification médicale : 78 médecins généralistes pour 100 000 habitants en 2026 (vs 103 en moyenne nationale). Certaines zones rurales sont en «désert médical», délais de rendez-vous de 2 à 5 semaines. Le marché de l'emploi est structurellement limité : agriculture, BTP, tourisme, commerce local. Pas de grande entreprise industrielle, pas de technopôle. La connexion internet reste très inégale, la fibre est déployée dans les bourgs mais les hameaux les plus isolés sont encore en 4G instable. La A89 (Bordeaux-Clermont-Ferrand) traverse le département mais le réseau routier secondaire est sinueux. Sans voiture, la vie en Dordogne est quasiment impossible.",
       },
       {
         heading: "Pour qui le Périgord est (et n'est pas) fait",
-        body: "Le Périgord convient parfaitement aux retraités (budget suffisant, rythme de vie adapté, patrimoine accessible), aux télétravailleurs full-remote avec une connexion fibre dans un bourg (Périgueux, Bergerac, Terrasson, Montpon), aux artistes et artisans cherchant un atelier à bas coût, et aux familles qui acceptent une vie sans ville-centre mais au milieu d'une nature exceptionnelle. C'est un mauvais choix pour les profils en recherche d'emploi salarié, les personnes dépendantes d'un accès médical rapide, et ceux qui ont besoin de stimulation urbaine. La retraite de 1 800 €/mois est confortable ici — la même somme est insuffisante à Bordeaux.",
+        body: "Le Périgord convient parfaitement aux retraités (budget suffisant, rythme de vie adapté, patrimoine accessible), aux télétravailleurs full-remote avec une connexion fibre dans un bourg (Périgueux, Bergerac, Terrasson, Montpon), aux artistes et artisans cherchant un atelier à bas coût, et aux familles qui acceptent une vie sans ville-centre mais au milieu d'une nature exceptionnelle. C'est un mauvais choix pour les profils en recherche d'emploi salarié, les personnes dépendantes d'un accès médical rapide, et ceux qui ont besoin de stimulation urbaine. La retraite de 1 800 €/mois est confortable ici, la même somme est insuffisante à Bordeaux.",
       },
     ],
     relatedCities: ["perigueux", "bergerac", "bordeaux"],
@@ -9616,23 +9616,23 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Architecture et art de vivre alsaciens",
-        body: "La Petite France (maisons à colombages, canaux, ponts couverts) est l'un des quartiers les plus photographiés d'Europe. La Neustadt (ville allemande construite entre 1870 et 1918, UNESCO depuis 2017) est un bijou d'architecture wilhelminienne. Colmar concentre les maisons alsaciennes les plus colorées de la région — chaque ruelle est une carte postale. La Route des Vins d'Alsace s'étend sur 170 km entre Thann et Marlenheim : Riesling, Gewurztraminer, Pinot Gris sont produits ici. Les marchés de Noël alsaciens (Strasbourg, Colmar, Kaysersberg) sont les plus fréquentés de France, attirant chaque décembre plus de 2 millions de visiteurs. L'art de vivre alsacien — tarte flambée, choucroute, baeckeoffe — est une réalité quotidienne, pas une attraction touristique.",
+        body: "La Petite France (maisons à colombages, canaux, ponts couverts) est l'un des quartiers les plus photographiés d'Europe. La Neustadt (ville allemande construite entre 1870 et 1918, UNESCO depuis 2017) est un bijou d'architecture wilhelminienne. Colmar concentre les maisons alsaciennes les plus colorées de la région, chaque ruelle est une carte postale. La Route des Vins d'Alsace s'étend sur 170 km entre Thann et Marlenheim : Riesling, Gewurztraminer, Pinot Gris sont produits ici. Les marchés de Noël alsaciens (Strasbourg, Colmar, Kaysersberg) sont les plus fréquentés de France, attirant chaque décembre plus de 2 millions de visiteurs. L'art de vivre alsacien, tarte flambée, choucroute, baeckeoffe, est une réalité quotidienne, pas une attraction touristique.",
       },
       {
         heading: "Marché de l'emploi : trilinguisme comme atout",
-        body: "Le marché de l'emploi alsacien est structurellement différent du reste de la France. La proximité de l'Allemagne et de la Suisse crée une zone d'emploi transfrontalière : 70 000 Alsaciens travaillent quotidiennement en Allemagne ou en Suisse. Les salaires suisses sont particulièrement attractifs — un ingénieur à Bâle gagne 4 500–6 000 CHF nets/mois. Strasbourg concentre les emplois dans les institutions européennes, l'université, la santé (CHU de Strasbourg), et un tissu d'entreprises industrielles et chimiques (Roquette, BioMérieux, Alsachim). La maîtrise de l'allemand est un vrai différenciateur sur le marché local — les postes bilingues FR/DE paient systématiquement plus. Mulhouse a une tradition industrielle forte (automobile avec Stellantis/PSA, chimie avec Novartis, Arkema).",
+        body: "Le marché de l'emploi alsacien est structurellement différent du reste de la France. La proximité de l'Allemagne et de la Suisse crée une zone d'emploi transfrontalière : 70 000 Alsaciens travaillent quotidiennement en Allemagne ou en Suisse. Les salaires suisses sont particulièrement attractifs, un ingénieur à Bâle gagne 4 500–6 000 CHF nets/mois. Strasbourg concentre les emplois dans les institutions européennes, l'université, la santé (CHU de Strasbourg), et un tissu d'entreprises industrielles et chimiques (Roquette, BioMérieux, Alsachim). La maîtrise de l'allemand est un vrai différenciateur sur le marché local, les postes bilingues FR/DE paient systématiquement plus. Mulhouse a une tradition industrielle forte (automobile avec Stellantis/PSA, chimie avec Novartis, Arkema).",
       },
       {
         heading: "Colmar et les villes moyennes du vignoble",
-        body: "Colmar (70 000 habitants, Haut-Rhin) est souvent décrite comme la ville alsacienne la plus «habitable» — taille humaine, patrimoine exceptionnel, marché couvert actif, vie de quartier réelle. L'immobilier y est plus abordable qu'à Strasbourg : 2 400–2 900 €/m² en centre-ville, 2 000–2 400 €/m² en périphérie. Un T2 se loue 600–720 €/mois. Elle est à 40 minutes de Bâle (Suisse) et de Fribourg-en-Brisgau (Allemagne) — ce qui ouvre les mêmes opportunités transfrontalières qu'à Strasbourg mais avec un coût de vie moindre. Obernai, Ribeauvillé, Riquewihr, Sélestat : les villes moyennes du vignoble offrent un cadre de vie quasiment sans équivalent en France pour le rapport qualité-prix.",
+        body: "Colmar (70 000 habitants, Haut-Rhin) est souvent décrite comme la ville alsacienne la plus «habitable», taille humaine, patrimoine exceptionnel, marché couvert actif, vie de quartier réelle. L'immobilier y est plus abordable qu'à Strasbourg : 2 400–2 900 €/m² en centre-ville, 2 000–2 400 €/m² en périphérie. Un T2 se loue 600–720 €/mois. Elle est à 40 minutes de Bâle (Suisse) et de Fribourg-en-Brisgau (Allemagne) : ce qui ouvre les mêmes opportunités transfrontalières qu'à Strasbourg mais avec un coût de vie moindre. Obernai, Ribeauvillé, Riquewihr, Sélestat : les villes moyennes du vignoble offrent un cadre de vie quasiment sans équivalent en France pour le rapport qualité-prix.",
       },
       {
         heading: "Mulhouse : l'outsider abordable",
-        body: "Mulhouse (110 000 habitants) souffre d'une mauvaise réputation par rapport à Strasbourg et Colmar, mais elle mérite une analyse objective. L'immobilier y est le plus bas d'Alsace : 1 600–2 000 €/m², T2 en location à 520–620 €. Elle est à 25 minutes de la frontière suisse et 30 minutes de Bâle — permettant le même accès aux salaires suisses qu'ailleurs, mais avec un coût de logement réduit. Le Musée de l'Automobile (Cité de l'Automobile) est l'un des meilleurs musées du genre en Europe. La reconversion post-industrielle avance (quartiers Fonderie, Wolf Wagner réhabilités). Mulhouse n'est pas la ville la plus attrayante d'Alsace en première impression, mais pour un couple dont l'un travaille en Suisse, elle est financièrement rationnelle.",
+        body: "Mulhouse (110 000 habitants) souffre d'une mauvaise réputation par rapport à Strasbourg et Colmar, mais elle mérite une analyse objective. L'immobilier y est le plus bas d'Alsace : 1 600–2 000 €/m², T2 en location à 520–620 €. Elle est à 25 minutes de la frontière suisse et 30 minutes de Bâle, permettant le même accès aux salaires suisses qu'ailleurs, mais avec un coût de logement réduit. Le Musée de l'Automobile (Cité de l'Automobile) est l'un des meilleurs musées du genre en Europe. La reconversion post-industrielle avance (quartiers Fonderie, Wolf Wagner réhabilités). Mulhouse n'est pas la ville la plus attrayante d'Alsace en première impression, mais pour un couple dont l'un travaille en Suisse, elle est financièrement rationnelle.",
       },
       {
         heading: "Ce qu'on ne vous dit pas sur l'Alsace",
-        body: "L'Alsace a des inconvénients réels. L'hiver est froid — les brouillards de la plaine rhénane sont persistants, le vent du nord-est (Vent de la Montagne, Vent d'Est) est mordant entre novembre et mars. Les prix à Strasbourg ont augmenté de plus de 35 % entre 2018 et 2024, réduisant l'écart avec Lyon. La vie sans voiture est possible à Strasbourg (excellent réseau tram, 6 lignes, cyclabilité élevée) mais difficile dans les villages du vignoble. Le droit local alsacien-mosellan (qui diffère du droit français sur le concordat, les jours fériés, etc.) est un avantage pratique mais peut surprendre les non-initiés.",
+        body: "L'Alsace a des inconvénients réels. L'hiver est froid, les brouillards de la plaine rhénane sont persistants, le vent du nord-est (Vent de la Montagne, Vent d'Est) est mordant entre novembre et mars. Les prix à Strasbourg ont augmenté de plus de 35 % entre 2018 et 2024, réduisant l'écart avec Lyon. La vie sans voiture est possible à Strasbourg (excellent réseau tram, 6 lignes, cyclabilité élevée) mais difficile dans les villages du vignoble. Le droit local alsacien-mosellan (qui diffère du droit français sur le concordat, les jours fériés, etc.) est un avantage pratique mais peut surprendre les non-initiés.",
       },
     ],
     relatedCities: ["strasbourg", "colmar", "mulhouse", "metz", "nancy"],
@@ -9661,7 +9661,7 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "La Rochelle : la ville qui ne ressemble à aucune autre",
-        body: "La Rochelle est l'une des villes françaises au rapport qualité-prix/lifestyle les plus solides pour un profil télétravailler ou semi-retraité. L'architecture du Vieux-Port (Tours médiévales, arcades de la rue du Palais) est unique. Le soleil est statistiquement au rendez-vous — 2 250 heures/an, presque autant que Perpignan. La ville est très cyclable (réseau Yélo bien développé, pistes côtières). Université de La Rochelle (9 000 étudiants) donne une énergie jeune. Côté marché immobilier : 2 800–3 400 €/m² dans le centre-ville et les quartiers côtiers, 2 200–2 600 €/m² dans les quartiers plus éloignés (Laleu, La Pallice). Un T2 en location coûte 680–820 €/mois. La connexion TGV (Paris Montparnasse en 3h) est correcte mais pas aussi rapide que certaines concurrentes.",
+        body: "La Rochelle est l'une des villes françaises au rapport qualité-prix/lifestyle les plus solides pour un profil télétravailler ou semi-retraité. L'architecture du Vieux-Port (Tours médiévales, arcades de la rue du Palais) est unique. Le soleil est statistiquement au rendez-vous, 2 250 heures/an, presque autant que Perpignan. La ville est très cyclable (réseau Yélo bien développé, pistes côtières). Université de La Rochelle (9 000 étudiants) donne une énergie jeune. Côté marché immobilier : 2 800–3 400 €/m² dans le centre-ville et les quartiers côtiers, 2 200–2 600 €/m² dans les quartiers plus éloignés (Laleu, La Pallice). Un T2 en location coûte 680–820 €/mois. La connexion TGV (Paris Montparnasse en 3h) est correcte mais pas aussi rapide que certaines concurrentes.",
       },
       {
         heading: "Royan, Rochefort, Saintes : les alternatives abordables",
@@ -9669,15 +9669,15 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Île de Ré et Île d'Oléron : le luxe et l'accessible",
-        body: "L'Île de Ré est devenue un marché immobilier hors-norme. En 2026, le prix médian dépasse 7 500–9 000 €/m² dans les villages les plus prisés (Saint-Martin-de-Ré, La Flotte, Ars-en-Ré). Vivre à l'année sur Ré suppose d'être propriétaire depuis longtemps ou retraité avec un capital conséquent — les loyers annuels sont rares et chers. L'Île d'Oléron est significativement plus abordable : 4 000–6 000 €/m² selon le village, T2 en location annuelle à 650–800 €. Oléron offre un cadre de vie authentique, moins mondain que Ré, avec une production ostréicole active (côté est de l'île). Les deux îles sont reliées au continent par pont — pas d'insularité réelle mais une saisonnalité marquée.",
+        body: "L'Île de Ré est devenue un marché immobilier hors-norme. En 2026, le prix médian dépasse 7 500–9 000 €/m² dans les villages les plus prisés (Saint-Martin-de-Ré, La Flotte, Ars-en-Ré). Vivre à l'année sur Ré suppose d'être propriétaire depuis longtemps ou retraité avec un capital conséquent, les loyers annuels sont rares et chers. L'Île d'Oléron est significativement plus abordable : 4 000–6 000 €/m² selon le village, T2 en location annuelle à 650–800 €. Oléron offre un cadre de vie authentique, moins mondain que Ré, avec une production ostréicole active (côté est de l'île). Les deux îles sont reliées au continent par pont, pas d'insularité réelle mais une saisonnalité marquée.",
       },
       {
         heading: "Huîtres, Cognac et art de vivre charentais",
-        body: "La Charente-Maritime est l'un des premiers bassins ostréicoles de France. Le Bassin de Marennes-Oléron produit les huîtres «Marennes-Oléron» (IGP), réputées pour la «claires» d'affinage — vertes grâce aux diatomées de la nappe phréatique. Comptez 6–9 € la douzaine directement au producteur. Cognac (40 km au nord-est sur la Charente) est l'autre capitale culturelle et économique de la région : le Cognac (eau-de-vie d'appellation) y est produit par Hennessy, Martell, Courvoisier, Rémy Martin. Le vignoble de Cognac est l'un des plus rentables de France. La cuisine charentaise combine produits de mer (moules de l'anse de l'Aiguillon), pineau des Charentes (apéritif), beurre de Charentes-Poitou.",
+        body: "La Charente-Maritime est l'un des premiers bassins ostréicoles de France. Le Bassin de Marennes-Oléron produit les huîtres «Marennes-Oléron» (IGP), réputées pour la «claires» d'affinage, vertes grâce aux diatomées de la nappe phréatique. Comptez 6–9 € la douzaine directement au producteur. Cognac (40 km au nord-est sur la Charente) est l'autre capitale culturelle et économique de la région : le Cognac (eau-de-vie d'appellation) y est produit par Hennessy, Martell, Courvoisier, Rémy Martin. Le vignoble de Cognac est l'un des plus rentables de France. La cuisine charentaise combine produits de mer (moules de l'anse de l'Aiguillon), pineau des Charentes (apéritif), beurre de Charentes-Poitou.",
       },
       {
         heading: "Pour les retraités : un des meilleurs rapports soleil/prix/mer de France",
-        body: "La Charente-Maritime cumule trois avantages rares pour un retraité : soleil atlantique (mieux qu'en Normandie ou Bretagne), mer accessible (littoral atlantique, plages sur 450 km), et coût de vie inférieur à la Côte d'Azur. Rochefort ou Saintes permettent de vivre confortablement avec 1 500–1 800 €/mois de retraite — ce que Nice ou Cannes rendent impossible. La qualité de vie médicale est correcte à La Rochelle (CH de La Rochelle, 750 lits), mais les zones rurales souffrent de désertification médicale. L'accès autoroutier est bon (A10, A837 vers Bordeaux en 1h30, vers Paris en 3h30–4h).",
+        body: "La Charente-Maritime cumule trois avantages rares pour un retraité : soleil atlantique (mieux qu'en Normandie ou Bretagne), mer accessible (littoral atlantique, plages sur 450 km), et coût de vie inférieur à la Côte d'Azur. Rochefort ou Saintes permettent de vivre confortablement avec 1 500–1 800 €/mois de retraite, ce que Nice ou Cannes rendent impossible. La qualité de vie médicale est correcte à La Rochelle (CH de La Rochelle, 750 lits), mais les zones rurales souffrent de désertification médicale. L'accès autoroutier est bon (A10, A837 vers Bordeaux en 1h30, vers Paris en 3h30–4h).",
       },
       {
         heading: "Télétravailleurs : La Rochelle gagne sur tous les critères",
@@ -9700,7 +9700,7 @@ export const GUIDES: Guide[] = [
     title: "Télétravailler depuis l'Occitanie : le guide 2026",
     metaTitle: "Télétravail en Occitanie 2026 : Montpellier, Toulouse, Nîmes, Perpignan — guide complet",
     metaDesc:
-      "Fibre, TGV Paris 3h15, coworkings actifs et 300 jours de soleil. Les meilleures villes d'Occitanie pour télétravailler en 2026 — avec les prix et les pièges réels.",
+      "Fibre, TGV Paris 3h15, coworkings actifs et 300 jours de soleil. Les meilleures villes d'Occitanie pour télétravailler en 2026, avec les prix et les pièges réels.",
     category: "teletravail",
     emoji: "☀️",
     readMinutes: 8,
@@ -9750,7 +9750,7 @@ export const GUIDES: Guide[] = [
     title: "Télétravailler depuis les Hauts-de-France : le guide 2026",
     metaTitle: "Télétravail Hauts-de-France 2026 : Lille, Amiens, Arras, Valenciennes — guide complet",
     metaDesc:
-      "À 1h de Paris en TGV et 3x moins cher : Lille, Amiens, Arras. Le guide pour télétravailler depuis les Hauts-de-France en 2026 — avec les prix, la fibre et les pièges.",
+      "À 1h de Paris en TGV et 3x moins cher : Lille, Amiens, Arras. Le guide pour télétravailler depuis les Hauts-de-France en 2026, avec les prix, la fibre et les pièges.",
     category: "teletravail",
     emoji: "🌾",
     readMinutes: 7,
@@ -9773,7 +9773,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Valenciennes : reconversion industrielle et budget plancher",
-        body: "Score télétravail : 5.8/10. Valenciennes (45 000 habitants) est la ville de la reconversion industrielle dans les Hauts-de-France. Ancienne capitale minière, elle abrite aujourd'hui le pôle de compétitivité i-Trans (transport ferroviaire, Alstom) et l'Université Polytechnique des Hauts-de-France (UPHF, 12 000 étudiants). Loyer T2 : 420–520 €/mois, immobilier autour de 1 000–1 400 €/m² — parmi les moins chers des villes moyennes françaises. TGV Paris-Valenciennes : 1h20, mais avec moins de fréquences que Lille ou Arras. Fibre à ~82 %. Pour un profil technique (ingénierie, transport ferroviaire) ou quelqu'un qui cherche l'immobilier le moins cher possible dans un rayon Paris <1h30, Valenciennes mérite d'être étudiée.",
+        body: "Score télétravail : 5.8/10. Valenciennes (45 000 habitants) est la ville de la reconversion industrielle dans les Hauts-de-France. Ancienne capitale minière, elle abrite aujourd'hui le pôle de compétitivité i-Trans (transport ferroviaire, Alstom) et l'Université Polytechnique des Hauts-de-France (UPHF, 12 000 étudiants). Loyer T2 : 420–520 €/mois, immobilier autour de 1 000–1 400 €/m², parmi les moins chers des villes moyennes françaises. TGV Paris-Valenciennes : 1h20, mais avec moins de fréquences que Lille ou Arras. Fibre à ~82 %. Pour un profil technique (ingénierie, transport ferroviaire) ou quelqu'un qui cherche l'immobilier le moins cher possible dans un rayon Paris <1h30, Valenciennes mérite d'être étudiée.",
       },
       {
         heading: "L'argument décisif : le profil Paris 1-2 jours/semaine",
@@ -9781,7 +9781,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Les limites : météo, dynamisme et image",
-        body: "Soyons honnêtes. Les Hauts-de-France ne gagnent pas sur le terrain de l'hédonisme. L'ensoleillement annuel est faible : 1 600–1 800 heures à Lille (vs 2 700 à Montpellier). L'hiver est gris, pluvieux, et le vent du nord peut être décourageant. L'image de la région souffre d'un biais négatif persistant, lié à l'héritage minier et industriel. La dynamique économique est en amélioration mais reste derrière Lyon, Bordeaux ou Nantes. En pratique, de nombreux remote workers qui s'y installent sont agréablement surpris par la qualité de vie quotidienne, notamment à Lille — ville étudiante vivante, gastronomie (maroilles, carbonade flamande, welsh), proximité de la Belgique, Louvre-Lens à 40 minutes.",
+        body: "Soyons honnêtes. Les Hauts-de-France ne gagnent pas sur le terrain de l'hédonisme. L'ensoleillement annuel est faible : 1 600–1 800 heures à Lille (vs 2 700 à Montpellier). L'hiver est gris, pluvieux, et le vent du nord peut être décourageant. L'image de la région souffre d'un biais négatif persistant, lié à l'héritage minier et industriel. La dynamique économique est en amélioration mais reste derrière Lyon, Bordeaux ou Nantes. En pratique, de nombreux remote workers qui s'y installent sont agréablement surpris par la qualité de vie quotidienne, notamment à Lille, ville étudiante vivante, gastronomie (maroilles, carbonade flamande, welsh), proximité de la Belgique, Louvre-Lens à 40 minutes.",
       },
     ],
     relatedCities: ["lille", "amiens", "arras", "valenciennes"],
@@ -9947,7 +9947,7 @@ export const GUIDES: Guide[] = [
     title: "Vivre au SMIC en France : quelles villes sont réellement vivables en 2026 ?",
     metaTitle: "Vivre au SMIC 2026 : quelles villes françaises permettent de s'en sortir ?",
     metaDesc:
-      "1 426 €/mois nets au SMIC en 2026 : où peut-on vivre sans s'asphyxier financièrement ? Loyers, APL, transport — analyse concrète ville par ville.",
+      "1 426 €/mois nets au SMIC en 2026 : où peut-on vivre sans s'asphyxier financièrement ? Loyers, APL, transport, analyse concrète ville par ville.",
     category: "budget",
     emoji: "💼",
     readMinutes: 8,
@@ -10094,7 +10094,7 @@ export const GUIDES: Guide[] = [
     title: "Quitter Reims en 2026 : quand la cathédrale ne compense plus la grisaille",
     metaTitle: "Quitter Reims 2026 — Châlons, Épernay, Troyes, Paris : le guide honnête",
     metaDesc:
-      "Reims attire pour sa cathédrale et son TGV à 45 minutes de Paris, mais son climat, son tissu d'emploi et certains quartiers font partir. Où partent les Rémois — et ce qu'ils gagnent vraiment.",
+      "Reims attire pour sa cathédrale et son TGV à 45 minutes de Paris, mais son climat, son tissu d'emploi et certains quartiers font partir. Où partent les Rémois, et ce qu'ils gagnent vraiment.",
     category: "comparaison",
     emoji: "🍾",
     readMinutes: 8,
@@ -10260,15 +10260,15 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Géographie : quatre Vaucluses très différents",
-        body: "1. Avignon et sa couronne (~95 000 hab.) : ville moyenne, gare TGV (2h40 de Paris, 1h de Lyon, 35 min de Marseille), tissu culturel dense (Festival d'Avignon). 2. Le triangle Orange–Carpentras–Cavaillon : zone agricole et viticole (côtes-du-Rhône), villes moyennes (15–30 000 hab.), prix immobiliers raisonnables. 3. Le Luberon (Apt, Gordes, Bonnieux, Lourmarin) : villages très demandés par les expatriés et résidents secondaires — prix immobiliers parmi les plus élevés de Provence intérieure. 4. Le Haut-Vaucluse (Vaison-la-Romaine, Valréas) : campagne plus rude, plus rurale, prix plus accessibles, désertification médicale plus marquée. Le choix entre ces quatre zones détermine entièrement votre projet de vie.",
+        body: "1. Avignon et sa couronne (~95 000 hab.) : ville moyenne, gare TGV (2h40 de Paris, 1h de Lyon, 35 min de Marseille), tissu culturel dense (Festival d'Avignon). 2. Le triangle Orange–Carpentras–Cavaillon : zone agricole et viticole (côtes-du-Rhône), villes moyennes (15–30 000 hab.), prix immobiliers raisonnables. 3. Le Luberon (Apt, Gordes, Bonnieux, Lourmarin) : villages très demandés par les expatriés et résidents secondaires, prix immobiliers parmi les plus élevés de Provence intérieure. 4. Le Haut-Vaucluse (Vaison-la-Romaine, Valréas) : campagne plus rude, plus rurale, prix plus accessibles, désertification médicale plus marquée. Le choix entre ces quatre zones détermine entièrement votre projet de vie.",
       },
       {
         heading: "Climat : mistral, canicule, sécheresse",
-        body: "Le Vaucluse a un climat méditerranéen contrasté. Été : caniculaire, températures dépassant 40 °C en plein cœur d'Avignon (2023 : record à 42,9 °C). Pas d'air conditionné systématique dans le logement ancien. Hiver : doux mais ponctué par le mistral, ce vent du nord qui souffle 100–130 jours par an et peut durer 3 à 9 jours d'affilée. Vitesse moyenne 50 km/h, rafales 100+. Effet sur le moral : significatif pour les habitants non originaires de la région. Sécheresse : le Vaucluse est régulièrement en alerte sécheresse (de juin à octobre depuis 2022). Restrictions d'arrosage, jardins difficiles à entretenir sans système économe. Si vous achetez en zone rurale, vérifier le statut du forage/puits — beaucoup sont sur l'aquifère karstique très sensible. Précipitations : surtout concentrées en automne (épisodes cévenols intenses), avec risque d'inondation dans certaines vallées (Sorgue, Coulon).",
+        body: "Le Vaucluse a un climat méditerranéen contrasté. Été : caniculaire, températures dépassant 40 °C en plein cœur d'Avignon (2023 : record à 42,9 °C). Pas d'air conditionné systématique dans le logement ancien. Hiver : doux mais ponctué par le mistral, ce vent du nord qui souffle 100–130 jours par an et peut durer 3 à 9 jours d'affilée. Vitesse moyenne 50 km/h, rafales 100+. Effet sur le moral : significatif pour les habitants non originaires de la région. Sécheresse : le Vaucluse est régulièrement en alerte sécheresse (de juin à octobre depuis 2022). Restrictions d'arrosage, jardins difficiles à entretenir sans système économe. Si vous achetez en zone rurale, vérifier le statut du forage/puits, beaucoup sont sur l'aquifère karstique très sensible. Précipitations : surtout concentrées en automne (épisodes cévenols intenses), avec risque d'inondation dans certaines vallées (Sorgue, Coulon).",
       },
       {
         heading: "Avignon : ville-pivot, qualités et défis",
-        body: "Avignon (~94 000 hab.) est la porte d'entrée du Vaucluse. Atouts : TGV direct (Paris en 2h40), CHU efficace, université (10 000 étudiants), tissu culturel exceptionnel pendant le Festival (juillet) et toute l'année (Opéra Grand Avignon, théâtres). Loyer T2 ~620 €/mois, prix à l'achat ~2 200 €/m² intra-muros (avec fortes variations selon quartier). Quartiers à connaître : Intra-muros (touristique mais charmant), Saint-Lazare (résidentiel calme), Champfleury (ouvrier, en gentrification lente), Quartier de la Croix-des-Oiseaux (à éviter pour familles selon SSMSI 2024). Défis : sécurité — Avignon est classée 5e ville française pour les atteintes aux personnes par habitant (Statistique 2024 Ministère Intérieur), problèmes concentrés dans des quartiers spécifiques. Embouteillages aux entrées de ville aux heures de pointe. Habitat ancien souvent mal isolé thermiquement (problème pour les étés).",
+        body: "Avignon (~94 000 hab.) est la porte d'entrée du Vaucluse. Atouts : TGV direct (Paris en 2h40), CHU efficace, université (10 000 étudiants), tissu culturel exceptionnel pendant le Festival (juillet) et toute l'année (Opéra Grand Avignon, théâtres). Loyer T2 ~620 €/mois, prix à l'achat ~2 200 €/m² intra-muros (avec fortes variations selon quartier). Quartiers à connaître : Intra-muros (touristique mais charmant), Saint-Lazare (résidentiel calme), Champfleury (ouvrier, en gentrification lente), Quartier de la Croix-des-Oiseaux (à éviter pour familles selon SSMSI 2024). Défis : sécurité, Avignon est classée 5e ville française pour les atteintes aux personnes par habitant (Statistique 2024 Ministère Intérieur), problèmes concentrés dans des quartiers spécifiques. Embouteillages aux entrées de ville aux heures de pointe. Habitat ancien souvent mal isolé thermiquement (problème pour les étés).",
       },
       {
         heading: "Le Luberon : trop cher, trop touristique, mais magique",
@@ -10298,7 +10298,7 @@ export const GUIDES: Guide[] = [
     title: "Quitter Saint-Étienne en 2026 — vers Lyon, vers la montagne, vers la mer ?",
     metaTitle: "Quitter Saint-Étienne 2026 : Lyon, Annecy, Saint-Chamond, Roanne — le guide",
     metaDesc:
-      "Saint-Étienne attire pour son immobilier (parmi les moins chers de France) mais fait partir pour son emploi, sa réputation et son climat. Vers où partent les Stéphanois — et ce qu'ils gagnent vraiment.",
+      "Saint-Étienne attire pour son immobilier (parmi les moins chers de France) mais fait partir pour son emploi, sa réputation et son climat. Vers où partent les Stéphanois, et ce qu'ils gagnent vraiment.",
     category: "comparaison",
     emoji: "⚒️",
     readMinutes: 8,
@@ -10309,7 +10309,7 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Pourquoi on quitte Saint-Étienne",
-        body: "Trois raisons principales reviennent dans les enquêtes Insee migrations : (1) Emploi — le tissu industriel local s'est érodé (Manufrance fermée depuis 1985, GIAT-Industries en transformation, sous-traitance automobile fragilisée par le passage à l'électrique). Le taux de chômage reste 1,5 point au-dessus de la moyenne nationale et les cadres trouvent l'offre limitée hors santé et tech. (2) Réputation — la ville garde une image «grise», «post-industrielle», parfois injuste mais persistante, qui pèse sur la valeur des biens et la fierté d'y vivre. (3) Climat — pluviométrie soutenue (~860 mm/an, supérieure à Lyon), brouillards d'hiver dans la cuvette stéphanoise. Beaucoup de cadres mutés à Lyon refusent de s'installer à Saint-Étienne pour ces raisons combinées.",
+        body: "Trois raisons principales reviennent dans les enquêtes Insee migrations : (1) Emploi, le tissu industriel local s'est érodé (Manufrance fermée depuis 1985, GIAT-Industries en transformation, sous-traitance automobile fragilisée par le passage à l'électrique). Le taux de chômage reste 1,5 point au-dessus de la moyenne nationale et les cadres trouvent l'offre limitée hors santé et tech. (2) Réputation, la ville garde une image «grise», «post-industrielle», parfois injuste mais persistante, qui pèse sur la valeur des biens et la fierté d'y vivre. (3) Climat, pluviométrie soutenue (~860 mm/an, supérieure à Lyon), brouillards d'hiver dans la cuvette stéphanoise. Beaucoup de cadres mutés à Lyon refusent de s'installer à Saint-Étienne pour ces raisons combinées.",
       },
       {
         heading: "Option 1 : Lyon — la fuite vers la grande ville (60 % des départs)",
@@ -10317,19 +10317,19 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Option 2 : la montagne — Annecy, Chambéry, Grenoble",
-        body: "Pour les Stéphanois qui aiment la nature et les sports outdoor (proximité Pilat, Massif Central), le pivot vers la Savoie/Isère est cohérent. Annecy (à 2h30 par autoroute) est très demandée — qualité de vie classée numéro 1 dans nos rankings — mais l'immobilier est inaccessible (~6 500 €/m² centre). Chambéry et Grenoble sont des cibles plus réalistes : Grenoble est techniquement comparable à Saint-Étienne en taille (~160 000 hab.), avec un emploi très différent (CEA, recherche, semi-conducteurs, alpinisme professionnel). Loyer T2 ~520 €/mois à Grenoble. Chambéry (~60 000 hab.) : ville à taille humaine, marché de l'emploi plus restreint, mais TGV vers Paris (3h) et Lyon (1h).",
+        body: "Pour les Stéphanois qui aiment la nature et les sports outdoor (proximité Pilat, Massif Central), le pivot vers la Savoie/Isère est cohérent. Annecy (à 2h30 par autoroute) est très demandée, qualité de vie classée numéro 1 dans nos rankings, mais l'immobilier est inaccessible (~6 500 €/m² centre). Chambéry et Grenoble sont des cibles plus réalistes : Grenoble est techniquement comparable à Saint-Étienne en taille (~160 000 hab.), avec un emploi très différent (CEA, recherche, semi-conducteurs, alpinisme professionnel). Loyer T2 ~520 €/mois à Grenoble. Chambéry (~60 000 hab.) : ville à taille humaine, marché de l'emploi plus restreint, mais TGV vers Paris (3h) et Lyon (1h).",
       },
       {
         heading: "Option 3 : retour à la mer — Marseille, Montpellier, Nice",
-        body: "Profil-type : Stéphanois originaire du Sud ou rêvant de Méditerranée. Marseille (~2h en TGV) est l'option la plus abordable (T2 ~570 €/mois centre-ville, à condition d'éviter certains arrondissements). Montpellier est plus chère (~520 €/mois T2) mais offre une qualité de vie étudiante+sun rare en France. Nice est sur-cotée — prix très élevés, tissu d'emploi étroit hors tourisme et santé. Le risque : sous-estimer l'éloignement (départ famille/amis stéphanois compliqué, retour ponctuel coûteux en TGV ou avion). Pour beaucoup, c'est un projet de fin de carrière ou de retraite plutôt qu'une mobilité professionnelle.",
+        body: "Profil-type : Stéphanois originaire du Sud ou rêvant de Méditerranée. Marseille (~2h en TGV) est l'option la plus abordable (T2 ~570 €/mois centre-ville, à condition d'éviter certains arrondissements). Montpellier est plus chère (~520 €/mois T2) mais offre une qualité de vie étudiante+sun rare en France. Nice est sur-cotée, prix très élevés, tissu d'emploi étroit hors tourisme et santé. Le risque : sous-estimer l'éloignement (départ famille/amis stéphanois compliqué, retour ponctuel coûteux en TGV ou avion). Pour beaucoup, c'est un projet de fin de carrière ou de retraite plutôt qu'une mobilité professionnelle.",
       },
       {
         heading: "Option 4 : rester dans la région — Roanne, Saint-Chamond, Firminy",
-        body: "Beaucoup de Stéphanois qui veulent quitter le centre-ville sans changer de vie complète optent pour les villes moyennes du nord-Loire : Roanne (39 000 hab., à 1h05 en TER de Saint-Étienne, 1h10 de Lyon) — prix immobilier bas, tissu textile en reconversion. Saint-Chamond (35 000 hab., à 15 min de Saint-Étienne) — banlieue stéphanoise plus calme avec accès direct au TER vers Lyon. Firminy (17 000 hab.) — patrimoine Le Corbusier, prix très bas (1 200 €/m²), idéale pour primo-accédants travaillant à Saint-Étienne. Ces solutions n'offrent pas un grand changement de vie mais minimisent le coût et le déracinement.",
+        body: "Beaucoup de Stéphanois qui veulent quitter le centre-ville sans changer de vie complète optent pour les villes moyennes du nord-Loire : Roanne (39 000 hab., à 1h05 en TER de Saint-Étienne, 1h10 de Lyon) : prix immobilier bas, tissu textile en reconversion. Saint-Chamond (35 000 hab., à 15 min de Saint-Étienne) : banlieue stéphanoise plus calme avec accès direct au TER vers Lyon. Firminy (17 000 hab.) : patrimoine Le Corbusier, prix très bas (1 200 €/m²), idéale pour primo-accédants travaillant à Saint-Étienne. Ces solutions n'offrent pas un grand changement de vie mais minimisent le coût et le déracinement.",
       },
       {
         heading: "Le calcul honnête : qui gagne vraiment à partir ?",
-        body: "Selon les enquêtes Insee suivies sur 5 ans : les Stéphanois qui partent à Lyon pour un emploi mieux rémunéré gagnent en moyenne +18 % de salaire net mais perdent 35 % en pouvoir d'achat immobilier (impossible de devenir propriétaire dans des conditions équivalentes). Ceux qui partent à Grenoble ou Annecy déclarent un meilleur équilibre vie/travail mais une plus grande charge de transport-loisirs. Ceux qui partent vers le Sud gagnent en qualité de vie ressentie mais déclarent souvent un budget mal calibré (sous-estimation des charges logement + voiture). Le pire calcul observé : déménager à Lyon banlieue lointaine pour échapper aux loyers du centre, et passer 1h30 dans les transports — situation pire que Saint-Étienne+TER.",
+        body: "Selon les enquêtes Insee suivies sur 5 ans : les Stéphanois qui partent à Lyon pour un emploi mieux rémunéré gagnent en moyenne +18 % de salaire net mais perdent 35 % en pouvoir d'achat immobilier (impossible de devenir propriétaire dans des conditions équivalentes). Ceux qui partent à Grenoble ou Annecy déclarent un meilleur équilibre vie/travail mais une plus grande charge de transport-loisirs. Ceux qui partent vers le Sud gagnent en qualité de vie ressentie mais déclarent souvent un budget mal calibré (sous-estimation des charges logement + voiture). Le pire calcul observé : déménager à Lyon banlieue lointaine pour échapper aux loyers du centre, et passer 1h30 dans les transports, situation pire que Saint-Étienne+TER.",
       },
     ],
     relatedCities: ["saint-etienne", "lyon", "grenoble", "annecy", "chambery", "roanne"],
@@ -10347,7 +10347,7 @@ export const GUIDES: Guide[] = [
     title: "Quitter Mulhouse en 2026 — Suisse, Allemagne, ou Strasbourg ?",
     metaTitle: "Quitter Mulhouse 2026 : Bâle, Fribourg, Strasbourg, Colmar — le guide honnête",
     metaDesc:
-      "Mulhouse a des avantages rares (frontière suisse, immobilier abordable) mais une réputation qui pèse. Vers où partent vraiment les Mulhousiens — et qui regrette ?",
+      "Mulhouse a des avantages rares (frontière suisse, immobilier abordable) mais une réputation qui pèse. Vers où partent vraiment les Mulhousiens, et qui regrette ?",
     category: "comparaison",
     emoji: "🇨🇭",
     readMinutes: 8,
@@ -10362,11 +10362,11 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Option 1 : devenir frontalier sans déménager",
-        body: "Solution la plus rationnelle pour 80 % des Mulhousiens en transition. On garde son logement, sa famille, ses amis, son médecin, son réseau associatif — on prend juste un train ou voiture matin et soir vers Bâle (35 min en TER direct, ~12 € l'aller-retour avec abonnement). Statut fiscal : convention France-Suisse, salaires imposés en France (sauf cantons de Bâle-Ville et Bâle-Campagne où c'est la Suisse qui prélève d'abord, ensuite compensation). Sécu : LAMal obligatoire en Suisse, déductible des impôts français. Conditions : être recruté par un employeur suisse (les CV étrangers passent moins bien sans réseau local), maîtriser un allemand professionnel (l'anglais ne suffit que dans les multinationales pharma à Bâle).",
+        body: "Solution la plus rationnelle pour 80 % des Mulhousiens en transition. On garde son logement, sa famille, ses amis, son médecin, son réseau associatif, on prend juste un train ou voiture matin et soir vers Bâle (35 min en TER direct, ~12 € l'aller-retour avec abonnement). Statut fiscal : convention France-Suisse, salaires imposés en France (sauf cantons de Bâle-Ville et Bâle-Campagne où c'est la Suisse qui prélève d'abord, ensuite compensation). Sécu : LAMal obligatoire en Suisse, déductible des impôts français. Conditions : être recruté par un employeur suisse (les CV étrangers passent moins bien sans réseau local), maîtriser un allemand professionnel (l'anglais ne suffit que dans les multinationales pharma à Bâle).",
       },
       {
         heading: "Option 2 : Strasbourg — la capitale régionale",
-        body: "Strasbourg est à 1h en TER de Mulhouse (~25 €). Beaucoup de Mulhousiens diplômés se tournent vers Strasbourg pour : (1) un marché de l'emploi cadre plus dense, (2) une image plus valorisée socialement, (3) la proximité Europe (institutions européennes). Strasbourg offre une qualité de vie reconnue (notes élevées dans nos classements). Inconvénient : immobilier ~30 % plus cher qu'à Mulhouse (T2 ~520 €/mois Strasbourg vs ~395 €/mois Mulhouse). La trajectoire classique : étudiant à Strasbourg, retour à Mulhouse pour acheter dans le quartier où on a grandi — ou inversement, départ vers Strasbourg à 30 ans avec famille.",
+        body: "Strasbourg est à 1h en TER de Mulhouse (~25 €). Beaucoup de Mulhousiens diplômés se tournent vers Strasbourg pour : (1) un marché de l'emploi cadre plus dense, (2) une image plus valorisée socialement, (3) la proximité Europe (institutions européennes). Strasbourg offre une qualité de vie reconnue (notes élevées dans nos classements). Inconvénient : immobilier ~30 % plus cher qu'à Mulhouse (T2 ~520 €/mois Strasbourg vs ~395 €/mois Mulhouse). La trajectoire classique : étudiant à Strasbourg, retour à Mulhouse pour acheter dans le quartier où on a grandi, ou inversement, départ vers Strasbourg à 30 ans avec famille.",
       },
       {
         heading: "Option 3 : Colmar — le compromis Alsace",
@@ -10378,7 +10378,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Pourquoi des Mulhousiens reviennent",
-        body: "Le profil des retours observé sur 10 ans : (1) Frontaliers Bâle qui craquent après 5–7 ans — fatigue du trajet, sentiment d'exil dans son propre pays. (2) Strasbourgeois ex-mulhousiens qui veulent acheter (Strasbourg trop chère pour un primo-accédant moyen). (3) Familles qui réalisent que la communauté mulhousienne et la qualité des services publics (excellent CHU, écoles correctes) compensaient des choses qu'ils ne voyaient plus. Le vrai défi mulhousien : la fierté collective. Les Mulhousiens qui restent et la défendent sont nombreux et organisés (associations, événements, soutien à l'OL Mulhouse). Pour beaucoup, partir veut juste dire prendre la voiture chaque jour vers Bâle — pas changer de vie.",
+        body: "Le profil des retours observé sur 10 ans : (1) Frontaliers Bâle qui craquent après 5–7 ans, fatigue du trajet, sentiment d'exil dans son propre pays. (2) Strasbourgeois ex-mulhousiens qui veulent acheter (Strasbourg trop chère pour un primo-accédant moyen). (3) Familles qui réalisent que la communauté mulhousienne et la qualité des services publics (excellent CHU, écoles correctes) compensaient des choses qu'ils ne voyaient plus. Le vrai défi mulhousien : la fierté collective. Les Mulhousiens qui restent et la défendent sont nombreux et organisés (associations, événements, soutien à l'OL Mulhouse). Pour beaucoup, partir veut juste dire prendre la voiture chaque jour vers Bâle, pas changer de vie.",
       },
     ],
     relatedCities: ["mulhouse", "strasbourg", "colmar", "belfort", "haguenau"],
@@ -10414,7 +10414,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Écoles et études supérieures",
-        body: "Aix accueille 25 000 étudiants (Aix-Marseille Université campus, Sciences Po Aix, Schola Cantorum, écoles de commerce). Marseille en accueille 50 000 sur plusieurs campus (Luminy pour sciences, La Timone pour santé, Saint-Charles pour lettres). Pour les enfants : écoles primaires aixoises uniformément bonnes (mixité sociale plus faible). À Marseille, qualité variable selon arrondissement — 8e/9e excellentes, 13e/14e en réseau d'éducation prioritaire renforcé. Pour le secondaire : lycées privés très demandés (Lycée Saint-Joseph les Maristes à Marseille, Lycée Vauvenargues à Aix). Beaucoup de familles marseillaises CSP+ inscrivent leurs enfants en privé pour contourner la carte scolaire.",
+        body: "Aix accueille 25 000 étudiants (Aix-Marseille Université campus, Sciences Po Aix, Schola Cantorum, écoles de commerce). Marseille en accueille 50 000 sur plusieurs campus (Luminy pour sciences, La Timone pour santé, Saint-Charles pour lettres). Pour les enfants : écoles primaires aixoises uniformément bonnes (mixité sociale plus faible). À Marseille, qualité variable selon arrondissement, 8e/9e excellentes, 13e/14e en réseau d'éducation prioritaire renforcé. Pour le secondaire : lycées privés très demandés (Lycée Saint-Joseph les Maristes à Marseille, Lycée Vauvenargues à Aix). Beaucoup de familles marseillaises CSP+ inscrivent leurs enfants en privé pour contourner la carte scolaire.",
       },
       {
         heading: "Transports et mobilité",
@@ -10426,11 +10426,11 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Vie sociale et culturelle",
-        body: "Aix vit autour de son centre piétonnier (Cours Mirabeau, marchés Place Richelme), Festival d'Aix (lyrique, juillet), tissu d'expat anglo-saxons (universités américaines installées). Vie nocturne calme (la ville se vide à 23h en semaine). Marseille est une métropole 24h/24 : OM, calanques accessibles directement (Sormiou, Morgiou, Sugiton), cuisine populaire de classe mondiale (bouillabaisse, panier, pizza marseillaise), scène artistique en effervescence depuis Marseille 2013. Culture corse, comorienne, algérienne, italienne — métissage permanent. La différence se résume : Aix est une ville qu'on visite et qu'on apprécie, Marseille est une ville qu'on vit ou qu'on déteste.",
+        body: "Aix vit autour de son centre piétonnier (Cours Mirabeau, marchés Place Richelme), Festival d'Aix (lyrique, juillet), tissu d'expat anglo-saxons (universités américaines installées). Vie nocturne calme (la ville se vide à 23h en semaine). Marseille est une métropole 24h/24 : OM, calanques accessibles directement (Sormiou, Morgiou, Sugiton), cuisine populaire de classe mondiale (bouillabaisse, panier, pizza marseillaise), scène artistique en effervescence depuis Marseille 2013. Culture corse, comorienne, algérienne, italienne, métissage permanent. La différence se résume : Aix est une ville qu'on visite et qu'on apprécie, Marseille est une ville qu'on vit ou qu'on déteste.",
       },
       {
         heading: "Profils-types : qui doit choisir quoi",
-        body: "Choisissez Aix si : vous êtes une famille CSP+ avec enfants en bas âge, vous travaillez en télétravail ou dans le tertiaire haut de gamme (consulting, finance, droit), vous valorisez la sécurité et l'esthétique uniforme, votre budget logement est confortable. Choisissez Marseille si : vous êtes jeune actif/étudiant cherchant énergie et budget, vous aimez la diversité sociale et culturelle, vous travaillez dans le portuaire, la tech, la culture, ou un secteur qui exige une grande ville, vous êtes prêt à choisir précisément votre quartier. Cas hybride fréquent : Marseille 8e/Roucas-Blanc — qualité aixoise + énergie marseillaise — mais c'est l'un des marchés immobiliers les plus chers de la métropole (5 500 €/m²).",
+        body: "Choisissez Aix si : vous êtes une famille CSP+ avec enfants en bas âge, vous travaillez en télétravail ou dans le tertiaire haut de gamme (consulting, finance, droit), vous valorisez la sécurité et l'esthétique uniforme, votre budget logement est confortable. Choisissez Marseille si : vous êtes jeune actif/étudiant cherchant énergie et budget, vous aimez la diversité sociale et culturelle, vous travaillez dans le portuaire, la tech, la culture, ou un secteur qui exige une grande ville, vous êtes prêt à choisir précisément votre quartier. Cas hybride fréquent : Marseille 8e/Roucas-Blanc, qualité aixoise + énergie marseillaise, mais c'est l'un des marchés immobiliers les plus chers de la métropole (5 500 €/m²).",
       },
     ],
     relatedCities: ["aix-en-provence", "marseille", "toulon", "nice"],
@@ -10459,15 +10459,15 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Géographie : qu'est-ce que la Bretagne intérieure ?",
-        body: "On parle ici du quart nord-ouest du Morbihan et du centre-est des Côtes-d'Armor — grosso modo le triangle entre Pontivy, Carhaix-Plouguer et Loudéac. Population : ~250 000 habitants sur ~7 000 km². Topographie : Monts d'Arrée à l'ouest (point culminant Roc'h Trevezel 384 m), Landes de Lanvaux au sud-est, vallées encaissées du Blavet et de l'Aulne. C'est la Bretagne dite «Argoat» (par opposition à l'«Armor» littoral), boisée, vallonnée, sans façade maritime. Distance à la côte : 40–60 km selon le point. Distance à Rennes : 1h–1h45 selon la commune. À Brest : 1h–2h. À Vannes : 30 min–1h.",
+        body: "On parle ici du quart nord-ouest du Morbihan et du centre-est des Côtes-d'Armor, grosso modo le triangle entre Pontivy, Carhaix-Plouguer et Loudéac. Population : ~250 000 habitants sur ~7 000 km². Topographie : Monts d'Arrée à l'ouest (point culminant Roc'h Trevezel 384 m), Landes de Lanvaux au sud-est, vallées encaissées du Blavet et de l'Aulne. C'est la Bretagne dite «Argoat» (par opposition à l'«Armor» littoral), boisée, vallonnée, sans façade maritime. Distance à la côte : 40–60 km selon le point. Distance à Rennes : 1h–1h45 selon la commune. À Brest : 1h–2h. À Vannes : 30 min–1h.",
       },
       {
         heading: "Prix immobiliers : trois fois moins cher que le littoral",
-        body: "Maison de 100 m² avec jardin : 90 000–140 000 € à Pontivy, Loudéac, Rostrenen. Même surface à Vannes : 320 000–450 000 €. À Carnac : 500 000+ €. La Bretagne intérieure est l'une des dernières zones de France où une famille peut acheter une maison entière pour moins de 150 000 €. Conséquence : forte présence de retraités modestes (~38 % de plus de 60 ans sur certains cantons), mais aussi installation croissante de néo-ruraux et télétravailleurs depuis 2020. Le bémol : valeur de revente faible (le marché est étroit, peu d'acquéreurs sur les biens moyens — sauf gros effort de mise aux normes). Si vous achetez ici, c'est pour vivre, pas pour spéculer.",
+        body: "Maison de 100 m² avec jardin : 90 000–140 000 € à Pontivy, Loudéac, Rostrenen. Même surface à Vannes : 320 000–450 000 €. À Carnac : 500 000+ €. La Bretagne intérieure est l'une des dernières zones de France où une famille peut acheter une maison entière pour moins de 150 000 €. Conséquence : forte présence de retraités modestes (~38 % de plus de 60 ans sur certains cantons), mais aussi installation croissante de néo-ruraux et télétravailleurs depuis 2020. Le bémol : valeur de revente faible (le marché est étroit, peu d'acquéreurs sur les biens moyens, sauf gros effort de mise aux normes). Si vous achetez ici, c'est pour vivre, pas pour spéculer.",
       },
       {
         heading: "Climat océanique tempéré (atout sous-estimé)",
-        body: "Bretagne intérieure : pluviométrie comparable à Rennes (~700 mm/an, contre ~900 mm sur le littoral nord), brouillards moins fréquents, hivers très doux (0 à -2 °C la nuit, 7–10 °C la journée en janvier), étés tempérés (22–27 °C, rarement au-delà de 30 °C même en canicule). Pas d'effet «pluie continue» qu'on imagine : selon Météo-France, Pontivy a 1 750 h de soleil/an, équivalent à Reims, supérieur à Lille (1 600 h). Le climat est régulier, sans extrêmes — atout majeur pour santé et confort énergétique (moins de besoins climatisation, hivers peu coûteux à chauffer en RT2012/RT2020).",
+        body: "Bretagne intérieure : pluviométrie comparable à Rennes (~700 mm/an, contre ~900 mm sur le littoral nord), brouillards moins fréquents, hivers très doux (0 à -2 °C la nuit, 7–10 °C la journée en janvier), étés tempérés (22–27 °C, rarement au-delà de 30 °C même en canicule). Pas d'effet «pluie continue» qu'on imagine : selon Météo-France, Pontivy a 1 750 h de soleil/an, équivalent à Reims, supérieur à Lille (1 600 h). Le climat est régulier, sans extrêmes, atout majeur pour santé et confort énergétique (moins de besoins climatisation, hivers peu coûteux à chauffer en RT2012/RT2020).",
       },
       {
         heading: "Télétravail et services",
@@ -10479,7 +10479,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Pour qui ça marche, pour qui ça ne marche pas",
-        body: "Ça marche pour : télétravailleurs autonomes avec emploi stable hors zone, retraités actifs cherchant nature + culture (réseau associatif breton très dense), familles d'origine bretonne souhaitant racheter du local, créateurs d'entreprise dans l'artisanat/agriculture/tourisme rural. Ça ne marche pas pour : célibataires de moins de 35 ans hors profil très spécifique (vie sociale limitée, peu de pairs), personnes à besoins médicaux fréquents, ménages dépendant d'un emploi local non télétravaillé hors agriculture/services publics, personnes attachées à la ville (cafés, magasins, événements quotidiens). L'erreur classique : sous-estimer la solitude. Le test : faire un mois de location en novembre-décembre avant de décider — si vous tenez, vous tiendrez à long terme.",
+        body: "Ça marche pour : télétravailleurs autonomes avec emploi stable hors zone, retraités actifs cherchant nature + culture (réseau associatif breton très dense), familles d'origine bretonne souhaitant racheter du local, créateurs d'entreprise dans l'artisanat/agriculture/tourisme rural. Ça ne marche pas pour : célibataires de moins de 35 ans hors profil très spécifique (vie sociale limitée, peu de pairs), personnes à besoins médicaux fréquents, ménages dépendant d'un emploi local non télétravaillé hors agriculture/services publics, personnes attachées à la ville (cafés, magasins, événements quotidiens). L'erreur classique : sous-estimer la solitude. Le test : faire un mois de location en novembre-décembre avant de décider, si vous tenez, vous tiendrez à long terme.",
       },
     ],
     relatedCities: ["vannes", "lorient", "brest", "rennes"],
@@ -10545,7 +10545,7 @@ export const GUIDES: Guide[] = [
     title: "Quitter Le Havre en 2026 — vers Rouen, vers Caen, vers Paris ?",
     metaTitle: "Quitter Le Havre 2026 : Rouen, Caen, Paris, Deauville — le guide honnête",
     metaDesc:
-      "Le Havre attire pour son immobilier UNESCO abordable et son port, mais fait partir pour l'emploi cadre limité, le vent et la grisaille. Vers où partent les Havrais — et ce qu'ils gagnent vraiment.",
+      "Le Havre attire pour son immobilier UNESCO abordable et son port, mais fait partir pour l'emploi cadre limité, le vent et la grisaille. Vers où partent les Havrais, et ce qu'ils gagnent vraiment.",
     category: "comparaison",
     emoji: "⚓",
     readMinutes: 8,
@@ -10556,7 +10556,7 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Pourquoi on quitte Le Havre",
-        body: "Trois raisons principales : (1) Emploi cadre — l'économie locale reste dominée par la logistique portuaire, le raffinage et l'industrie lourde. Les fonctions tertiaires supérieures sont rares ; pour un cadre marketing, com', design, finance, l'offre est très étroite. (2) Climat — vent fort presque toute l'année (~22 km/h moyenne, l'un des plus venteux de France métropolitaine), grisaille hivernale persistante (~110 jours de pluie/an), ressentis durs sur le moral après quelques années. (3) Image — la ville garde une réputation post-industrielle malgré le réinvestissement UNESCO et la rénovation des Bassins. Beaucoup d'anciens Havrais qualifiés partent étudier à Rouen ou Paris et ne reviennent pas.",
+        body: "Trois raisons principales : (1) Emploi cadre, l'économie locale reste dominée par la logistique portuaire, le raffinage et l'industrie lourde. Les fonctions tertiaires supérieures sont rares ; pour un cadre marketing, com', design, finance, l'offre est très étroite. (2) Climat, vent fort presque toute l'année (~22 km/h moyenne, l'un des plus venteux de France métropolitaine), grisaille hivernale persistante (~110 jours de pluie/an), ressentis durs sur le moral après quelques années. (3) Image, la ville garde une réputation post-industrielle malgré le réinvestissement UNESCO et la rénovation des Bassins. Beaucoup d'anciens Havrais qualifiés partent étudier à Rouen ou Paris et ne reviennent pas.",
       },
       {
         heading: "Option 1 : Rouen — la métropole normande (~40 % des départs)",
@@ -10568,15 +10568,15 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Option 3 : Paris et la grande couronne (~20 % des départs)",
-        body: "Le Havre-Paris en train direct (intercités) prend ~2h15 — trop long pour un commuting quotidien. Les Havrais qui visent Paris déménagent vraiment, le plus souvent vers les Yvelines ou le Val-d'Oise (Mantes-la-Jolie, Cergy, Poissy) pour conserver un coût de logement supportable. Gain salarial moyen estimé : +25 % (offre cadre démultipliée). Perte de pouvoir d'achat immobilier : 50–60 % (T2 ~720 €/mois Mantes vs 440 € Le Havre, et bien plus à Paris intramuros). Ce déplacement n'a de sens que si la trajectoire de carrière le justifie clairement.",
+        body: "Le Havre-Paris en train direct (intercités) prend ~2h15, trop long pour un commuting quotidien. Les Havrais qui visent Paris déménagent vraiment, le plus souvent vers les Yvelines ou le Val-d'Oise (Mantes-la-Jolie, Cergy, Poissy) pour conserver un coût de logement supportable. Gain salarial moyen estimé : +25 % (offre cadre démultipliée). Perte de pouvoir d'achat immobilier : 50–60 % (T2 ~720 €/mois Mantes vs 440 € Le Havre, et bien plus à Paris intramuros). Ce déplacement n'a de sens que si la trajectoire de carrière le justifie clairement.",
       },
       {
         heading: "Option 4 : la côte normande — Deauville, Honfleur, Étretat",
-        body: "Pour ceux qui aiment Le Havre pour la mer mais veulent quitter l'industriel : la côte fleurie offre un cadre très différent à 30–60 min. Deauville (~3 800 hab.) est élitiste et chère (achat ~6 800 €/m² centre, T2 ~720 €/mois), faite pour les retraités aisés et résidences secondaires. Honfleur (~7 500 hab., côté Calvados) est plus accessible (~4 500 €/m²), villes d'artistes, tourisme important. Étretat et Fécamp (côté Seine-Maritime) sont des compromis Havrais — accessibles en voiture quotidienne, prix maîtrisés, ambiance village balnéaire. Limite : ces villes-là ne règlent pas le problème «emploi» ; elles ne marchent que pour télétravailleurs ou retraités.",
+        body: "Pour ceux qui aiment Le Havre pour la mer mais veulent quitter l'industriel : la côte fleurie offre un cadre très différent à 30–60 min. Deauville (~3 800 hab.) est élitiste et chère (achat ~6 800 €/m² centre, T2 ~720 €/mois), faite pour les retraités aisés et résidences secondaires. Honfleur (~7 500 hab., côté Calvados) est plus accessible (~4 500 €/m²), villes d'artistes, tourisme important. Étretat et Fécamp (côté Seine-Maritime) sont des compromis Havrais, accessibles en voiture quotidienne, prix maîtrisés, ambiance village balnéaire. Limite : ces villes-là ne règlent pas le problème «emploi» ; elles ne marchent que pour télétravailleurs ou retraités.",
       },
       {
         heading: "Le calcul honnête : qui gagne vraiment à partir ?",
-        body: "Selon les enquêtes Insee migrations sur 5 ans : les Havrais qui partent à Rouen pour le même métier gagnent peu (+5 à 8 % en moyenne) mais gagnent surtout en qualité de vie ressentie (moins de vent, marché de l'emploi cadre plus profond, plus d'options de carrière). Ceux qui partent à Paris gagnent +25 % de salaire mais perdent 50 % en pouvoir d'achat logement — le calcul ne vaut que pour les couples sans enfants ou les célibataires en début de carrière. Le pire calcul observé : déménager à Deauville en télétravail sans avoir vérifié la couverture 4G/fibre sur le secteur exact, et finir à 30 min de café en lieu sûr. Vérifier le débit avant de signer.",
+        body: "Selon les enquêtes Insee migrations sur 5 ans : les Havrais qui partent à Rouen pour le même métier gagnent peu (+5 à 8 % en moyenne) mais gagnent surtout en qualité de vie ressentie (moins de vent, marché de l'emploi cadre plus profond, plus d'options de carrière). Ceux qui partent à Paris gagnent +25 % de salaire mais perdent 50 % en pouvoir d'achat logement, le calcul ne vaut que pour les couples sans enfants ou les célibataires en début de carrière. Le pire calcul observé : déménager à Deauville en télétravail sans avoir vérifié la couverture 4G/fibre sur le secteur exact, et finir à 30 min de café en lieu sûr. Vérifier le débit avant de signer.",
       },
     ],
     relatedCities: ["le-havre", "rouen", "caen", "saint-malo"],
@@ -10594,7 +10594,7 @@ export const GUIDES: Guide[] = [
     title: "Quitter Tours en 2026 — vers Paris, vers Nantes, vers la campagne tourangelle ?",
     metaTitle: "Quitter Tours 2026 : Paris (TGV), Nantes, Orléans, Poitiers — le guide",
     metaDesc:
-      "Tours offre une qualité de vie reconnue et un TGV Paris en 1h, mais fait partir pour le manque de dynamisme cadre et la pression immobilière. Vers où partent les Tourangeaux — analyse honnête.",
+      "Tours offre une qualité de vie reconnue et un TGV Paris en 1h, mais fait partir pour le manque de dynamisme cadre et la pression immobilière. Vers où partent les Tourangeaux, analyse honnête.",
     category: "comparaison",
     emoji: "🏰",
     readMinutes: 8,
@@ -10605,7 +10605,7 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Pourquoi on quitte Tours",
-        body: "Trois raisons reviennent : (1) Plafond de verre pour les cadres — hors santé (CHU, recherche médicale), pharmacie et services publics, les fonctions tertiaires supérieures sont limitées. Beaucoup de jeunes diplômés tourangeaux montent à Paris ou Nantes après le master. (2) Immobilier — la hausse 2019–2024 a écarté les primo-accédants : un T3 dans le centre coûte 250 000 € minimum, presque équivalent à des quartiers périphériques de Paris. (3) Saisonnalité touristique — l'été draine beaucoup de monde, les loyers étudiants sont tendus et certains habitants estiment que la ville se vide hors-vacances scolaires.",
+        body: "Trois raisons reviennent : (1) Plafond de verre pour les cadres, hors santé (CHU, recherche médicale), pharmacie et services publics, les fonctions tertiaires supérieures sont limitées. Beaucoup de jeunes diplômés tourangeaux montent à Paris ou Nantes après le master. (2) Immobilier, la hausse 2019–2024 a écarté les primo-accédants : un T3 dans le centre coûte 250 000 € minimum, presque équivalent à des quartiers périphériques de Paris. (3) Saisonnalité touristique, l'été draine beaucoup de monde, les loyers étudiants sont tendus et certains habitants estiment que la ville se vide hors-vacances scolaires.",
       },
       {
         heading: "Option 1 : Paris (~35 % des départs)",
@@ -10613,7 +10613,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Option 2 : Nantes (~12 % des départs)",
-        body: "Nantes (à 1h45 en TGV) attire les Tourangeaux pour son dynamisme : marché de l'emploi cadre plus dense (numérique, agro, naval, biotech), scène culturelle plus engagée, proximité Atlantique. Coût immobilier comparable (~3 800 €/m² centre Nantes vs 3 600 € Tours), loyer T2 similaire (~590 €/mois Nantes). La principale différence : un marché du travail 3× plus profond et une ville plus jeune (~40 % de moins de 30 ans). Limite : Nantes n'a pas le TGV Paris en 1h ; elle est à 2h05 — choisir Nantes c'est s'éloigner de Paris.",
+        body: "Nantes (à 1h45 en TGV) attire les Tourangeaux pour son dynamisme : marché de l'emploi cadre plus dense (numérique, agro, naval, biotech), scène culturelle plus engagée, proximité Atlantique. Coût immobilier comparable (~3 800 €/m² centre Nantes vs 3 600 € Tours), loyer T2 similaire (~590 €/mois Nantes). La principale différence : un marché du travail 3× plus profond et une ville plus jeune (~40 % de moins de 30 ans). Limite : Nantes n'a pas le TGV Paris en 1h ; elle est à 2h05, choisir Nantes c'est s'éloigner de Paris.",
       },
       {
         heading: "Option 3 : Orléans (~10 % des départs)",
@@ -10621,11 +10621,11 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Option 4 : la campagne tourangelle — Amboise, Vouvray, Loches",
-        body: "Pour les Tourangeaux qui aiment la Touraine mais veulent quitter la pression urbaine : les villes moyennes du département offrent un compromis. Amboise (~13 000 hab., à 25 min en train) — patrimoine UNESCO, achat ~2 800 €/m², communautés actives. Vouvray (~3 000 hab., à 15 min) — viticole, plus rural. Loches (~6 500 hab., à 50 min) — médiéval, prix très bas (~1 600 €/m²), idéal pour télétravailleurs ou retraités. Ces options ne règlent pas le problème emploi mais maximisent qualité de vie pour les indépendants ou fonctionnaires.",
+        body: "Pour les Tourangeaux qui aiment la Touraine mais veulent quitter la pression urbaine : les villes moyennes du département offrent un compromis. Amboise (~13 000 hab., à 25 min en train) : patrimoine UNESCO, achat ~2 800 €/m², communautés actives. Vouvray (~3 000 hab., à 15 min) : viticole, plus rural. Loches (~6 500 hab., à 50 min) : médiéval, prix très bas (~1 600 €/m²), idéal pour télétravailleurs ou retraités. Ces options ne règlent pas le problème emploi mais maximisent qualité de vie pour les indépendants ou fonctionnaires.",
       },
       {
         heading: "Le calcul honnête : qui gagne vraiment à partir ?",
-        body: "Les Tourangeaux qui montent à Paris gagnent en salaire et opportunités mais perdent en équilibre. Ceux qui descendent à Nantes gagnent en dynamisme et marché de l'emploi sans gain immobilier — le choix est plus culturel qu'économique. Ceux qui passent à Orléans optimisent souvent : même qualité de vie, prix plus accessibles, TGV Paris comparable. Ceux qui restent en campagne tourangelle gagnent en cadre mais perdent en services (médecin, écoles, commerces) — à vérifier précisément avant de signer. Le pire calcul observé : déménager à 40 min de Tours en pensant garder le réseau social tourangeau, et le perdre en 18 mois faute de trajets.",
+        body: "Les Tourangeaux qui montent à Paris gagnent en salaire et opportunités mais perdent en équilibre. Ceux qui descendent à Nantes gagnent en dynamisme et marché de l'emploi sans gain immobilier, le choix est plus culturel qu'économique. Ceux qui passent à Orléans optimisent souvent : même qualité de vie, prix plus accessibles, TGV Paris comparable. Ceux qui restent en campagne tourangelle gagnent en cadre mais perdent en services (médecin, écoles, commerces) : à vérifier précisément avant de signer. Le pire calcul observé : déménager à 40 min de Tours en pensant garder le réseau social tourangeau, et le perdre en 18 mois faute de trajets.",
       },
     ],
     relatedCities: ["tours", "orleans", "nantes", "poitiers", "angers"],
@@ -10643,7 +10643,7 @@ export const GUIDES: Guide[] = [
     title: "Quitter Angers en 2026 — vers Nantes, vers Paris, vers la campagne ?",
     metaTitle: "Quitter Angers 2026 : Nantes, Paris (TGV), Le Mans, Saumur — le guide",
     metaDesc:
-      "Angers a la qualité de vie mais le marché de l'emploi cadre reste modeste. Vers où partent vraiment les Angevins qui s'en vont — Nantes, Paris, ou la campagne du Maine-et-Loire ?",
+      "Angers a la qualité de vie mais le marché de l'emploi cadre reste modeste. Vers où partent vraiment les Angevins qui s'en vont, Nantes, Paris, ou la campagne du Maine-et-Loire ?",
     category: "comparaison",
     emoji: "🌿",
     readMinutes: 8,
@@ -10654,15 +10654,15 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Pourquoi on quitte Angers",
-        body: "Trois motivations principales : (1) Plafond cadre — au-delà de l'agro-alimentaire (Bouvet-Ladubay, agro-végétal), de l'IT et de l'université, les opportunités tertiaires supérieures se raréfient. Les jeunes cadres en finance, conseil, marketing partent vers Paris ou Nantes. (2) Saturation immobilière — Angers a vu ses prix grimper +35 % sur 5 ans (T2 ~490 €/mois, achat ~3 100 €/m² centre). La rareté du foncier autour du Maine et de la Loire pèse. (3) Effet «trop petit» — beaucoup d'Angevins jeunes diplômés trouvent la ville rapidement étroite (mêmes restaurants, mêmes sorties, mêmes événements).",
+        body: "Trois motivations principales : (1) Plafond cadre, au-delà de l'agro-alimentaire (Bouvet-Ladubay, agro-végétal), de l'IT et de l'université, les opportunités tertiaires supérieures se raréfient. Les jeunes cadres en finance, conseil, marketing partent vers Paris ou Nantes. (2) Saturation immobilière, Angers a vu ses prix grimper +35 % sur 5 ans (T2 ~490 €/mois, achat ~3 100 €/m² centre). La rareté du foncier autour du Maine et de la Loire pèse. (3) Effet «trop petit», beaucoup d'Angevins jeunes diplômés trouvent la ville rapidement étroite (mêmes restaurants, mêmes sorties, mêmes événements).",
       },
       {
         heading: "Option 1 : Nantes (~30 % des départs)",
-        body: "Nantes est à 1h en train (90 km) et capte massivement les départs angevins. Marché de l'emploi 3× plus dense (numérique, agro, naval, biotech), tissu culturel plus large (Voyage à Nantes, scène musicale), ouverture océanique. Coût immobilier supérieur d'environ 20 % (T2 ~590 €/mois centre Nantes vs 490 € Angers ; achat ~3 800 €/m² vs 3 100 €). Beaucoup d'Angevins font le trajet quotidien sans déménager (TER abonnement ~225 €/mois). Pour ceux qui s'installent : gain de carrière net en moyenne, mais perte d'identité tranquille angevine — Nantes est nettement plus métropolitaine.",
+        body: "Nantes est à 1h en train (90 km) et capte massivement les départs angevins. Marché de l'emploi 3× plus dense (numérique, agro, naval, biotech), tissu culturel plus large (Voyage à Nantes, scène musicale), ouverture océanique. Coût immobilier supérieur d'environ 20 % (T2 ~590 €/mois centre Nantes vs 490 € Angers ; achat ~3 800 €/m² vs 3 100 €). Beaucoup d'Angevins font le trajet quotidien sans déménager (TER abonnement ~225 €/mois). Pour ceux qui s'installent : gain de carrière net en moyenne, mais perte d'identité tranquille angevine, Nantes est nettement plus métropolitaine.",
       },
       {
         heading: "Option 2 : Paris (~18 % des départs)",
-        body: "TGV Angers-Montparnasse 1h30. Trajet pendulaire viable pour cadres 2 jours/semaine à Paris (abonnement TGV illimité ~525 €/mois, équivalent loyer Angers). Pour ceux qui montent vraiment : gain salarial +25 % moyen, mais coût parisien prohibitif — la plupart s'installent en banlieue (Yvelines, Essonne, Val-de-Marne) avec compromis transport-budget. Le profil-type : cadre Angevin avec mobilité professionnelle imposée par une promotion, parents souvent encore en Maine-et-Loire (retour fréquent week-ends).",
+        body: "TGV Angers-Montparnasse 1h30. Trajet pendulaire viable pour cadres 2 jours/semaine à Paris (abonnement TGV illimité ~525 €/mois, équivalent loyer Angers). Pour ceux qui montent vraiment : gain salarial +25 % moyen, mais coût parisien prohibitif, la plupart s'installent en banlieue (Yvelines, Essonne, Val-de-Marne) avec compromis transport-budget. Le profil-type : cadre Angevin avec mobilité professionnelle imposée par une promotion, parents souvent encore en Maine-et-Loire (retour fréquent week-ends).",
       },
       {
         heading: "Option 3 : Le Mans, Laval — l'arrière-pays accessible",
@@ -10670,11 +10670,11 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Option 4 : campagne du Maine-et-Loire — Saumur, Cholet, Segré",
-        body: "Pour les Angevins qui veulent garder le département : Saumur (~26 000 hab., à 50 min en TER) — patrimoine UNESCO Val de Loire, viticulture, accueil chaleureux, prix 40 % plus bas qu'Angers. Cholet (~54 000 hab., à 1h) — tissu industriel textile reconverti, fortement catholique-conservateur, prix très accessibles. Segré (~17 000 hab., à 45 min) — Anjou bleu rural, qualité de vie nature mais services réduits. Pour télétravailleurs avec bon réseau internet, Saumur est l'option la plus équilibrée — patrimoine, prix, train direct Angers/Tours.",
+        body: "Pour les Angevins qui veulent garder le département : Saumur (~26 000 hab., à 50 min en TER) : patrimoine UNESCO Val de Loire, viticulture, accueil chaleureux, prix 40 % plus bas qu'Angers. Cholet (~54 000 hab., à 1h) : tissu industriel textile reconverti, fortement catholique-conservateur, prix très accessibles. Segré (~17 000 hab., à 45 min) : Anjou bleu rural, qualité de vie nature mais services réduits. Pour télétravailleurs avec bon réseau internet, Saumur est l'option la plus équilibrée, patrimoine, prix, train direct Angers/Tours.",
       },
       {
         heading: "Le calcul honnête : qui gagne vraiment à partir ?",
-        body: "Les Angevins qui descendent à Nantes gagnent en marché de l'emploi cadre et en stimulation urbaine, perdent peu en immobilier. Ceux qui montent à Paris gagnent en salaire mais perdent en qualité de vie ressentie — chiffres Insee montrent un taux de retour sur 7 ans plus élevé que la moyenne nationale (~28 % reviennent en Anjou). Ceux qui restent dans le Maine-et-Loire (Saumur, Cholet) gagnent souvent — pouvoir d'achat amélioré, identité préservée, retour week-end facile. Le pire calcul observé : départ à Paris pour le prestige carrière, retour à Angers après 4 ans avec un projet familial en route et un budget logement explosé. Vérifier dès le départ si Paris est vraiment compatible avec le projet de vie à 10 ans.",
+        body: "Les Angevins qui descendent à Nantes gagnent en marché de l'emploi cadre et en stimulation urbaine, perdent peu en immobilier. Ceux qui montent à Paris gagnent en salaire mais perdent en qualité de vie ressentie, chiffres Insee montrent un taux de retour sur 7 ans plus élevé que la moyenne nationale (~28 % reviennent en Anjou). Ceux qui restent dans le Maine-et-Loire (Saumur, Cholet) gagnent souvent, pouvoir d'achat amélioré, identité préservée, retour week-end facile. Le pire calcul observé : départ à Paris pour le prestige carrière, retour à Angers après 4 ans avec un projet familial en route et un budget logement explosé. Vérifier dès le départ si Paris est vraiment compatible avec le projet de vie à 10 ans.",
       },
     ],
     relatedCities: ["angers", "nantes", "le-mans", "tours", "saumur", "cholet"],
@@ -10692,7 +10692,7 @@ export const GUIDES: Guide[] = [
     title: "Quitter Brest en 2026 — vers Rennes, vers Nantes, vers Paris ?",
     metaTitle: "Quitter Brest 2026 : Rennes, Nantes, Quimper, Lorient — le guide honnête",
     metaDesc:
-      "Brest a la mer, la marine et un immobilier accessible, mais la grisaille et l'éloignement font partir. Vers où vont vraiment les Brestois qui quittent la pointe — analyse data-led.",
+      "Brest a la mer, la marine et un immobilier accessible, mais la grisaille et l'éloignement font partir. Vers où vont vraiment les Brestois qui quittent la pointe, analyse data-led.",
     category: "comparaison",
     emoji: "⛵",
     readMinutes: 8,
@@ -10703,7 +10703,7 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Pourquoi on quitte Brest",
-        body: "Trois raisons : (1) Éloignement — Brest est la ville française grand-ouest la plus éloignée de Paris en train (3h35 TGV). Le bassin parisien est inaccessible pour pendulaire ; même Nantes (3h en voiture) demande un vrai voyage. Pour conjoints en télétravail ou consultants bi-localisés, c'est dur. (2) Marché cadre étroit — hors Marine nationale, Naval Group, Thales, Ifremer et UBO, l'offre cadre tertiaire est limitée. Les fonctions support (RH, finance, marketing privé) sont rares. (3) Climat — moyenne ~155 jours de pluie/an, gris hivernal prolongé. Beaucoup d'arrivants quittent après 2–3 ans pour cette raison plus que pour des raisons économiques.",
+        body: "Trois raisons : (1) Éloignement, Brest est la ville française grand-ouest la plus éloignée de Paris en train (3h35 TGV). Le bassin parisien est inaccessible pour pendulaire ; même Nantes (3h en voiture) demande un vrai voyage. Pour conjoints en télétravail ou consultants bi-localisés, c'est dur. (2) Marché cadre étroit, hors Marine nationale, Naval Group, Thales, Ifremer et UBO, l'offre cadre tertiaire est limitée. Les fonctions support (RH, finance, marketing privé) sont rares. (3) Climat, moyenne ~155 jours de pluie/an, gris hivernal prolongé. Beaucoup d'arrivants quittent après 2–3 ans pour cette raison plus que pour des raisons économiques.",
       },
       {
         heading: "Option 1 : Rennes (~30 % des départs)",
@@ -10719,11 +10719,11 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Option 4 : la côte sud — Quimper, Lorient, Vannes",
-        body: "Pour les Brestois qui veulent garder la mer et la Bretagne en quittant la grisaille : la côte sud Morbihan offre +20 jours de soleil/an, des prix modérément inférieurs, et un climat plus doux. Quimper (~63 000 hab., à 1h de Brest) — patrimoine, prix très bas (T2 ~390 €/mois), services adaptés ; Lorient (~57 000 hab., à 2h) — port et reconversion industrielle, prix accessibles ; Vannes (~55 000 hab., à 2h30, golfe du Morbihan) — qualité de vie remarquable mais prix grimpants (T2 ~510 €/mois). Profil-type : famille brestoise voulant moins de pluie sans changer de région.",
+        body: "Pour les Brestois qui veulent garder la mer et la Bretagne en quittant la grisaille : la côte sud Morbihan offre +20 jours de soleil/an, des prix modérément inférieurs, et un climat plus doux. Quimper (~63 000 hab., à 1h de Brest) : patrimoine, prix très bas (T2 ~390 €/mois), services adaptés ; Lorient (~57 000 hab., à 2h) : port et reconversion industrielle, prix accessibles ; Vannes (~55 000 hab., à 2h30, golfe du Morbihan) : qualité de vie remarquable mais prix grimpants (T2 ~510 €/mois). Profil-type : famille brestoise voulant moins de pluie sans changer de région.",
       },
       {
         heading: "Le calcul honnête : qui gagne vraiment à partir ?",
-        body: "Les Brestois qui passent à Rennes gagnent presque toujours : ouverture professionnelle, climat un peu meilleur, accès Paris facilité, sans perdre l'identité bretonne. Ceux qui montent à Paris gagnent en salaire mais paient cher en qualité de vie et en éloignement familial. Ceux qui passent à Quimper, Lorient ou Vannes optimisent souvent qualité de vie sans bénéfice carrière (à réserver aux télétravailleurs et profils publics). Le pire calcul observé : déménagement vers banlieue parisienne en pensant que «c'est presque Bretagne», puis isolement social total — le tissu Breton ne se reconstitue pas en Île-de-France malgré la diaspora.",
+        body: "Les Brestois qui passent à Rennes gagnent presque toujours : ouverture professionnelle, climat un peu meilleur, accès Paris facilité, sans perdre l'identité bretonne. Ceux qui montent à Paris gagnent en salaire mais paient cher en qualité de vie et en éloignement familial. Ceux qui passent à Quimper, Lorient ou Vannes optimisent souvent qualité de vie sans bénéfice carrière (à réserver aux télétravailleurs et profils publics). Le pire calcul observé : déménagement vers banlieue parisienne en pensant que «c'est presque Bretagne», puis isolement social total, le tissu Breton ne se reconstitue pas en Île-de-France malgré la diaspora.",
       },
     ],
     relatedCities: ["brest", "rennes", "quimper", "lorient", "vannes", "nantes"],
@@ -10741,7 +10741,7 @@ export const GUIDES: Guide[] = [
     title: "Quitter Caen en 2026 — vers Rouen, vers Paris, vers la côte ?",
     metaTitle: "Quitter Caen 2026 : Rouen, Paris, Cherbourg, Deauville — le guide",
     metaDesc:
-      "Caen offre la qualité de vie normande et la mer en 20 min, mais le marché cadre reste modeste. Vers où partent vraiment les Caennais qui changent de ville — données et arbitrages.",
+      "Caen offre la qualité de vie normande et la mer en 20 min, mais le marché cadre reste modeste. Vers où partent vraiment les Caennais qui changent de ville, données et arbitrages.",
     category: "comparaison",
     emoji: "🐎",
     readMinutes: 8,
@@ -10790,7 +10790,7 @@ export const GUIDES: Guide[] = [
     title: "Quitter Avignon en 2026 — vers Aix, vers Marseille, vers la campagne provençale ?",
     metaTitle: "Quitter Avignon 2026 : Aix-en-Provence, Marseille, Nîmes, Montpellier — le guide",
     metaDesc:
-      "Avignon a le patrimoine, le Festival, le TGV, mais une saisonnalité dure et un marché cadre limité. Vers où partent vraiment les Avignonnais — Aix, Marseille, Montpellier, ou la campagne ?",
+      "Avignon a le patrimoine, le Festival, le TGV, mais une saisonnalité dure et un marché cadre limité. Vers où partent vraiment les Avignonnais, Aix, Marseille, Montpellier, ou la campagne ?",
     category: "comparaison",
     emoji: "🎭",
     readMinutes: 8,
@@ -10839,7 +10839,7 @@ export const GUIDES: Guide[] = [
     title: "Quitter Limoges en 2026 — vers Bordeaux, vers Poitiers, vers Clermont ?",
     metaTitle: "Quitter Limoges 2026 : Bordeaux, Poitiers, Clermont-Ferrand, Brive — le guide",
     metaDesc:
-      "Limoges a un immobilier parmi les plus accessibles de France et un cadre vert, mais le marché cadre reste étroit. Où vont vraiment les Limougeauds — et ce que coûte chaque option.",
+      "Limoges a un immobilier parmi les plus accessibles de France et un cadre vert, mais le marché cadre reste étroit. Où vont vraiment les Limougeauds, et ce que coûte chaque option.",
     category: "comparaison",
     emoji: "🍒",
     readMinutes: 7,
@@ -10888,7 +10888,7 @@ export const GUIDES: Guide[] = [
     title: "Quitter Besançon en 2026 — vers Dijon, vers Lyon, vers la Suisse ?",
     metaTitle: "Quitter Besançon 2026 : Dijon, Lyon, Strasbourg, Suisse frontalière — le guide",
     metaDesc:
-      "Besançon a la qualité de vie comtoise et un cadre exceptionnel, mais le marché cadre reste limité. Vers où partent les Bisontins — Dijon, Lyon, Suisse, ou le Jura ?",
+      "Besançon a la qualité de vie comtoise et un cadre exceptionnel, mais le marché cadre reste limité. Vers où partent les Bisontins, Dijon, Lyon, Suisse, ou le Jura ?",
     category: "comparaison",
     emoji: "⌚",
     readMinutes: 7,
@@ -10937,7 +10937,7 @@ export const GUIDES: Guide[] = [
     title: "Quitter Pau en 2026 — vers Bordeaux, vers Toulouse, vers Bayonne ?",
     metaTitle: "Quitter Pau 2026 : Bordeaux, Toulouse, Bayonne, Tarbes — le guide honnête",
     metaDesc:
-      "Pau a les Pyrénées en face et un climat doux, mais le marché cadre reste limité. Où vont vraiment les Palois — Bordeaux, Toulouse, Pays Basque, ou montagne ?",
+      "Pau a les Pyrénées en face et un climat doux, mais le marché cadre reste limité. Où vont vraiment les Palois, Bordeaux, Toulouse, Pays Basque, ou montagne ?",
     category: "comparaison",
     emoji: "🏔️",
     readMinutes: 7,
@@ -10986,7 +10986,7 @@ export const GUIDES: Guide[] = [
     title: "Quitter Bayonne en 2026 — vers Bordeaux, vers Pau, vers l'Espagne ?",
     metaTitle: "Quitter Bayonne 2026 : Bordeaux, Pau, San Sebastian, Landes — le guide",
     metaDesc:
-      "Bayonne et le BAB (Bayonne-Anglet-Biarritz) ont vu les prix exploser. Où vont les Bayonnais qui ne peuvent plus suivre — Bordeaux, Espagne, Landes, ou Pau ?",
+      "Bayonne et le BAB (Bayonne-Anglet-Biarritz) ont vu les prix exploser. Où vont les Bayonnais qui ne peuvent plus suivre, Bordeaux, Espagne, Landes, ou Pau ?",
     category: "comparaison",
     emoji: "🌊",
     readMinutes: 7,
@@ -11035,7 +11035,7 @@ export const GUIDES: Guide[] = [
     title: "Quitter Perpignan en 2026 — vers Montpellier, vers Toulouse, vers Barcelone ?",
     metaTitle: "Quitter Perpignan 2026 : Montpellier, Toulouse, Barcelone, Narbonne — le guide",
     metaDesc:
-      "Perpignan a le soleil et la frontière catalane, mais le chômage et la sécurité ressentie font partir. Où vont vraiment les Perpignanais — Montpellier, Barcelone, ou le Roussillon rural ?",
+      "Perpignan a le soleil et la frontière catalane, mais le chômage et la sécurité ressentie font partir. Où vont vraiment les Perpignanais, Montpellier, Barcelone, ou le Roussillon rural ?",
     category: "comparaison",
     emoji: "🌞",
     readMinutes: 7,
@@ -11084,7 +11084,7 @@ export const GUIDES: Guide[] = [
     title: "Quitter La Rochelle en 2026 — vers Bordeaux, vers Nantes, vers Niort ?",
     metaTitle: "Quitter La Rochelle 2026 : Bordeaux, Nantes, Niort, Île de Ré — le guide",
     metaDesc:
-      "La Rochelle a vu ses prix exploser et sa saisonnalité s'intensifier. Où vont les Rochelais qui ne suivent plus — Bordeaux, Nantes, Niort, ou l'arrière-pays charentais ?",
+      "La Rochelle a vu ses prix exploser et sa saisonnalité s'intensifier. Où vont les Rochelais qui ne suivent plus, Bordeaux, Nantes, Niort, ou l'arrière-pays charentais ?",
     category: "comparaison",
     emoji: "⛵",
     readMinutes: 7,
@@ -11133,7 +11133,7 @@ export const GUIDES: Guide[] = [
     title: "Quitter Metz en 2026 — vers Nancy, vers le Luxembourg, vers Strasbourg ?",
     metaTitle: "Quitter Metz 2026 : Nancy, Luxembourg (frontalier), Strasbourg, Thionville — le guide",
     metaDesc:
-      "Metz a la qualité de vie lorraine et le frontalier Luxembourg, mais le marché cadre local reste étroit. Où vont vraiment les Messins — Nancy, Lux, Strasbourg, ou les villes voisines ?",
+      "Metz a la qualité de vie lorraine et le frontalier Luxembourg, mais le marché cadre local reste étroit. Où vont vraiment les Messins, Nancy, Lux, Strasbourg, ou les villes voisines ?",
     category: "comparaison",
     emoji: "🟡",
     readMinutes: 7,
@@ -11182,7 +11182,7 @@ export const GUIDES: Guide[] = [
     title: "Quitter Nancy en 2026 — vers Metz, vers Strasbourg, vers Paris ?",
     metaTitle: "Quitter Nancy 2026 : Metz, Strasbourg, Paris (TGV 1h30), Épinal — le guide",
     metaDesc:
-      "Nancy a la qualité de vie et l'identité lorraine, mais le marché cadre reste contraint. Où vont vraiment les Nancéiens — Metz, Strasbourg, Paris, Luxembourg, ou la campagne ?",
+      "Nancy a la qualité de vie et l'identité lorraine, mais le marché cadre reste contraint. Où vont vraiment les Nancéiens, Metz, Strasbourg, Paris, Luxembourg, ou la campagne ?",
     category: "comparaison",
     emoji: "🦄",
     readMinutes: 7,
@@ -11231,7 +11231,7 @@ export const GUIDES: Guide[] = [
     title: "Quitter Amiens en 2026 — vers Lille, vers Paris, vers la baie de Somme ?",
     metaTitle: "Quitter Amiens 2026 : Lille, Paris, Beauvais, Abbeville — le guide honnête",
     metaDesc:
-      "Amiens a la cathédrale UNESCO et le TGV vers Paris, mais le marché cadre est étroit. Où vont vraiment les Amiénois — Lille, Paris, ou la côte picarde ?",
+      "Amiens a la cathédrale UNESCO et le TGV vers Paris, mais le marché cadre est étroit. Où vont vraiment les Amiénois, Lille, Paris, ou la côte picarde ?",
     category: "comparaison",
     emoji: "⛪",
     readMinutes: 7,
@@ -11280,7 +11280,7 @@ export const GUIDES: Guide[] = [
     title: "Quitter Reims en 2026 — vers Paris, vers Lille, vers Épernay ?",
     metaTitle: "Quitter Reims 2026 : Paris (TGV 45 min), Lille, Châlons, Épernay — le guide",
     metaDesc:
-      "Reims est à 45 min de Paris en TGV mais le marché cadre local reste étroit. Où vont vraiment les Rémois — Paris, Lille, ou la Champagne viticole ?",
+      "Reims est à 45 min de Paris en TGV mais le marché cadre local reste étroit. Où vont vraiment les Rémois, Paris, Lille, ou la Champagne viticole ?",
     category: "comparaison",
     emoji: "🍾",
     readMinutes: 7,
@@ -11329,7 +11329,7 @@ export const GUIDES: Guide[] = [
     title: "Quitter Le Mans en 2026 — vers Paris, vers Nantes, vers la Sarthe rurale ?",
     metaTitle: "Quitter Le Mans 2026 : Paris (TGV 55 min), Nantes, Tours, Sarthe rurale — le guide",
     metaDesc:
-      "Le Mans est à 55 min de Paris en TGV avec un immobilier accessible, mais le marché cadre reste étroit. Où vont les Manceaux — Paris, Nantes, Tours, ou la campagne sarthoise ?",
+      "Le Mans est à 55 min de Paris en TGV avec un immobilier accessible, mais le marché cadre reste étroit. Où vont les Manceaux, Paris, Nantes, Tours, ou la campagne sarthoise ?",
     category: "comparaison",
     emoji: "🏎️",
     readMinutes: 7,
@@ -11476,7 +11476,7 @@ export const GUIDES: Guide[] = [
     title: "Vivre sans voiture à Strasbourg en 2026 — la ville la plus vélo de France",
     metaTitle: "Vivre sans voiture à Strasbourg 2026 : tram, vélo, Vélhop — guide",
     metaDesc:
-      "Strasbourg a 600 km de pistes cyclables et 6 lignes de tram. C'est la ville française la plus vélo-compatible. Coûts, quartiers, écueils — guide 2026.",
+      "Strasbourg a 600 km de pistes cyclables et 6 lignes de tram. C'est la ville française la plus vélo-compatible. Coûts, quartiers, écueils, guide 2026.",
     category: "lifestyle",
     emoji: "🚲",
     readMinutes: 7,
@@ -11721,7 +11721,7 @@ export const GUIDES: Guide[] = [
     title: "Acheter à Marseille en 2026 — quel arrondissement pour quel budget ?",
     metaTitle: "Acheter à Marseille 2026 : 6e 7e 8e 13e, prix m², quartiers — guide",
     metaDesc:
-      "Marseille en 2026 : amplitude énorme de prix entre arrondissements (3 000 à 6 500 €/m²). Quel quartier pour quel budget, où acheter, où éviter — guide honnête.",
+      "Marseille en 2026 : amplitude énorme de prix entre arrondissements (3 000 à 6 500 €/m²). Quel quartier pour quel budget, où acheter, où éviter, guide honnête.",
     category: "budget",
     emoji: "🌊",
     readMinutes: 8,
@@ -12030,7 +12030,7 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Le profil «retour expat»",
-        body: "Quatre besoins typiques : (1) Scolarité bilingue ou internationale — souvent enfants nés à l'étranger ou scolarisés en anglais. (2) Marché de l'emploi cadre — fonctions internationales (export, finance, tech, conseil), profils CDI cadre senior. (3) Communauté internationale — ne pas être le seul retour expat, trouver pairs en même situation. (4) Coût de vie raisonnable — souvent perte de pouvoir d'achat vs Singapour, Dubaï, Londres. Une bonne ville-étape coche au moins 3 sur 4.",
+        body: "Quatre besoins typiques : (1) Scolarité bilingue ou internationale, souvent enfants nés à l'étranger ou scolarisés en anglais. (2) Marché de l'emploi cadre, fonctions internationales (export, finance, tech, conseil), profils CDI cadre senior. (3) Communauté internationale, ne pas être le seul retour expat, trouver pairs en même situation. (4) Coût de vie raisonnable, souvent perte de pouvoir d'achat vs Singapour, Dubaï, Londres. Une bonne ville-étape coche au moins 3 sur 4.",
       },
       {
         heading: "Aix-en-Provence : la transition douce",
@@ -12054,7 +12054,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Le calcul honnête : choisir la ville-étape",
-        body: "Pour expat avec famille et enfants en école internationale : Aix, Bordeaux, Strasbourg, Annecy. Pour expat sans enfants ou enfants déjà adultes : choix s'élargit à Lyon, Nantes, Montpellier. Pour expat retour pour retraite : La Rochelle, Bayonne, Montpellier, Aix. Éviter Paris pour la réintégration premier retour (choc coût de vie + rythme + bureaucratie) — beaucoup d'expats reviennent à Paris pour le job mais demandent à muter en province après 2–3 ans. Tester par séjour 3 mois (Airbnb longue durée) avant achat est l'option la plus prudente.",
+        body: "Pour expat avec famille et enfants en école internationale : Aix, Bordeaux, Strasbourg, Annecy. Pour expat sans enfants ou enfants déjà adultes : choix s'élargit à Lyon, Nantes, Montpellier. Pour expat retour pour retraite : La Rochelle, Bayonne, Montpellier, Aix. Éviter Paris pour la réintégration premier retour (choc coût de vie + rythme + bureaucratie) : beaucoup d'expats reviennent à Paris pour le job mais demandent à muter en province après 2–3 ans. Tester par séjour 3 mois (Airbnb longue durée) avant achat est l'option la plus prudente.",
       },
     ],
     relatedCities: ["aix-en-provence", "bordeaux", "annecy", "la-rochelle", "strasbourg"],
@@ -12087,11 +12087,11 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "La Rochelle : référence atlantique",
-        body: "Fibre FTTH ~95 % couverture centre. Coworking : La Smalah, Hub17, plusieurs espaces. Services complets (CHU, écoles internationales secteur, marché bouche dense). Climat doux (~2 200 h soleil/an). Cadre exceptionnel (Vieux-Port, Île de Ré accessible). Prix immobilier élevé (T2 ~620 €/mois centre, achat ~4 200 €/m²) — choix de cadres aisés. Saison estivale dure (afflux touristique multiplie population) mais service public résiste.",
+        body: "Fibre FTTH ~95 % couverture centre. Coworking : La Smalah, Hub17, plusieurs espaces. Services complets (CHU, écoles internationales secteur, marché bouche dense). Climat doux (~2 200 h soleil/an). Cadre exceptionnel (Vieux-Port, Île de Ré accessible). Prix immobilier élevé (T2 ~620 €/mois centre, achat ~4 200 €/m²) : choix de cadres aisés. Saison estivale dure (afflux touristique multiplie population) mais service public résiste.",
       },
       {
         heading: "Brest : meilleure couverture / prix",
-        body: "Fibre FTTH ~98 % (Brest est un projet pilote France Très Haut Débit). Coworking : Le Faubourg, Hub Innov, Pony. Climat humide (~155 jours pluie/an) mais qualité air excellente (vent océanique). Prix immobilier très bas (T2 ~430 €/mois centre, achat ~2 100 €/m²) — le meilleur rapport qualité-prix télétravail mer en France. CHU, écoles, services complets. Limite : éloignement Paris (3h35 TGV), retours fréquents coûteux.",
+        body: "Fibre FTTH ~98 % (Brest est un projet pilote France Très Haut Débit). Coworking : Le Faubourg, Hub Innov, Pony. Climat humide (~155 jours pluie/an) mais qualité air excellente (vent océanique). Prix immobilier très bas (T2 ~430 €/mois centre, achat ~2 100 €/m²) : le meilleur rapport qualité-prix télétravail mer en France. CHU, écoles, services complets. Limite : éloignement Paris (3h35 TGV), retours fréquents coûteux.",
       },
       {
         heading: "Hossegor, Capbreton, Soustons (Landes)",
@@ -12099,7 +12099,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Cassis, La Ciotat, Marseille 8e (Méditerranée)",
-        body: "Cassis : fibre déployée ~80 %, mais commune touristique à logement très rare et cher (T2 ~750 €/mois, achat ~6 800 €/m²). La Ciotat : alternative plus tenable (T2 ~520 €/mois, achat ~4 200 €/m²), fibre ~95 %, redynamisation urbaine. Marseille 8e/9e côtier : fibre ~98 %, prix variables selon micro-quartier, accès TGV Paris 3h. Climat méditerranéen, ~2 850 h soleil. Saturation routière été (calanques, Cassis) — vélo cargo recommandé.",
+        body: "Cassis : fibre déployée ~80 %, mais commune touristique à logement très rare et cher (T2 ~750 €/mois, achat ~6 800 €/m²). La Ciotat : alternative plus tenable (T2 ~520 €/mois, achat ~4 200 €/m²), fibre ~95 %, redynamisation urbaine. Marseille 8e/9e côtier : fibre ~98 %, prix variables selon micro-quartier, accès TGV Paris 3h. Climat méditerranéen, ~2 850 h soleil. Saturation routière été (calanques, Cassis) : vélo cargo recommandé.",
       },
       {
         heading: "Quimper, Lorient, Vannes (Bretagne sud)",
@@ -12107,7 +12107,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Le calcul honnête : choisir sa ville côtière télétravail",
-        body: "Vérifier d'abord la fibre à l'adresse exacte (carte ARCEP, comparateurs Ariase/DegroupTest). Une commune «couverte fibre» peut avoir 30 % d'adresses non-éligibles. Tester en location 3 mois avant d'acheter — la saisonnalité touristique change radicalement la vie quotidienne (commerces, médecin, école). Pour cadres parisiens télétravaillant 1–2 j/semaine au bureau : viser TGV <3h (La Rochelle, Bordeaux+côte, Brest limite, Quimper non). Pour télétravailleurs 100 % distants : choix s'élargit considérablement.",
+        body: "Vérifier d'abord la fibre à l'adresse exacte (carte ARCEP, comparateurs Ariase/DegroupTest). Une commune «couverte fibre» peut avoir 30 % d'adresses non-éligibles. Tester en location 3 mois avant d'acheter, la saisonnalité touristique change radicalement la vie quotidienne (commerces, médecin, école). Pour cadres parisiens télétravaillant 1–2 j/semaine au bureau : viser TGV <3h (La Rochelle, Bordeaux+côte, Brest limite, Quimper non). Pour télétravailleurs 100 % distants : choix s'élargit considérablement.",
       },
     ],
     relatedCities: ["la-rochelle", "brest", "quimper", "vannes", "lorient"],
@@ -12144,7 +12144,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Problèmes opérationnels",
-        body: "(1) Chaleur estivale — ~35 jours >30 °C, vélo dur l'été à 14h, métro climatisé OK. (2) Courses lourdes — Carrefour, Auchan, Leclerc livrent ; drives accessibles. (3) Bricolage — Castorama, Leroy Merlin desservis Tisséo ou Citiz 2h. (4) Enfants — école pied/vélo 80 % cas, activités sport souvent accessibles métro. (5) Sortie Pyrénées (Saint-Lary, Peyragudes) — TER + bus station saisonnier mais difficile en intersaison, Citiz week-end recommandé.",
+        body: "(1) Chaleur estivale, ~35 jours >30 °C, vélo dur l'été à 14h, métro climatisé OK. (2) Courses lourdes, Carrefour, Auchan, Leclerc livrent ; drives accessibles. (3) Bricolage, Castorama, Leroy Merlin desservis Tisséo ou Citiz 2h. (4) Enfants, école pied/vélo 80 % cas, activités sport souvent accessibles métro. (5) Sortie Pyrénées (Saint-Lary, Peyragudes) : TER + bus station saisonnier mais difficile en intersaison, Citiz week-end recommandé.",
       },
       {
         heading: "Week-ends et vacances",
@@ -12152,7 +12152,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Pièges classiques",
-        body: "(1) Chaleur estivale — vélo praticable jusqu'à 30 °C, au-delà devient pénible. (2) Familles activités banlieue (rugby Blagnac, équitation Lévignac) — Citiz week-end utile mais coûteux régulier. (3) Toulouse n'a que 2 lignes de métro — certaines zones sud-est (Rangueil-Médipôle) sont desservies mais distances finales à pied. (4) Pluviométrie modérée (~670 mm/an) mais épisodes cévenols ponctuels créent inondations soudaines vélo dur.",
+        body: "(1) Chaleur estivale, vélo praticable jusqu'à 30 °C, au-delà devient pénible. (2) Familles activités banlieue (rugby Blagnac, équitation Lévignac) : Citiz week-end utile mais coûteux régulier. (3) Toulouse n'a que 2 lignes de métro, certaines zones sud-est (Rangueil-Médipôle) sont desservies mais distances finales à pied. (4) Pluviométrie modérée (~670 mm/an) mais épisodes cévenols ponctuels créent inondations soudaines vélo dur.",
       },
       {
         heading: "Pour qui ça marche",
@@ -12174,7 +12174,7 @@ export const GUIDES: Guide[] = [
     title: "Vivre sans voiture à Grenoble en 2026 — tram, vélo, montagne",
     metaTitle: "Vivre sans voiture à Grenoble 2026 : TAG, Métrovélo, Citiz — guide",
     metaDesc:
-      "Grenoble est la 2e ville française pour la part vélo. Tram, Métrovélo, Citiz, TER Alpes — combien on économise et où ça marche vraiment.",
+      "Grenoble est la 2e ville française pour la part vélo. Tram, Métrovélo, Citiz, TER Alpes, combien on économise et où ça marche vraiment.",
     category: "lifestyle",
     emoji: "🏔️",
     readMinutes: 7,
@@ -12193,7 +12193,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Problèmes opérationnels",
-        body: "(1) Inversion thermique hivernale — pollution pics fréquents décembre-janvier (jusqu'à 10 jours/an), vélo déconseillé sur ces journées, tram intérieur OK. (2) Courses lourdes — Casino, Carrefour, Auchan livrent. (3) Ski — c'est l'argument N°1 contre le no-car à Grenoble. Bus stations alpines (Lans, Les 7 Laux, Chamrousse) hivernaux, mais lourd avec matériel. Location week-end Citiz ou 4×4 ponctuel souvent plus simple. (4) Étalement urbain Y grenoblois — Grenoble + Voiron + Vif crée des distances que le no-car ne couvre pas hors voie ferrée.",
+        body: "(1) Inversion thermique hivernale, pollution pics fréquents décembre-janvier (jusqu'à 10 jours/an), vélo déconseillé sur ces journées, tram intérieur OK. (2) Courses lourdes, Casino, Carrefour, Auchan livrent. (3) Ski, c'est l'argument N°1 contre le no-car à Grenoble. Bus stations alpines (Lans, Les 7 Laux, Chamrousse) hivernaux, mais lourd avec matériel. Location week-end Citiz ou 4×4 ponctuel souvent plus simple. (4) Étalement urbain Y grenoblois, Grenoble + Voiron + Vif crée des distances que le no-car ne couvre pas hors voie ferrée.",
       },
       {
         heading: "Week-ends et vacances",
@@ -12201,11 +12201,11 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Pièges classiques",
-        body: "(1) Ski intensif sans voiture — devient pénible à plus de 2× par hiver, location week-end coûteuse. (2) Familles à activités banlieue (foot Échirolles, équitation Crolles) — limites du no-car. (3) Pics pollution hiver — vélo devient santé-risquée, à anticiper. (4) Trajets Y grenoblois (Saint-Martin-d'Hères, Domène, Crolles) — tram E couvre une partie mais pas tout.",
+        body: "(1) Ski intensif sans voiture, devient pénible à plus de 2× par hiver, location week-end coûteuse. (2) Familles à activités banlieue (foot Échirolles, équitation Crolles) : limites du no-car. (3) Pics pollution hiver, vélo devient santé-risquée, à anticiper. (4) Trajets Y grenoblois (Saint-Martin-d'Hères, Domène, Crolles) : tram E couvre une partie mais pas tout.",
       },
       {
         heading: "Pour qui ça marche",
-        body: "Excellent : centre + corridor tram A/B/C/D/E. Bon : couples actifs, étudiants, télétravailleurs. Moins bon : skieurs intensifs, familles banlieue Y grenoblois élargie. Grenoble convertit massivement à vélo + tram — la culture est très installée, beaucoup d'arrivants abandonnent leur voiture en 2 ans.",
+        body: "Excellent : centre + corridor tram A/B/C/D/E. Bon : couples actifs, étudiants, télétravailleurs. Moins bon : skieurs intensifs, familles banlieue Y grenoblois élargie. Grenoble convertit massivement à vélo + tram, la culture est très installée, beaucoup d'arrivants abandonnent leur voiture en 2 ans.",
       },
     ],
     relatedCities: ["grenoble", "chambery", "annecy", "valence", "lyon"],
@@ -12242,7 +12242,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Problèmes opérationnels",
-        body: "(1) Pluviométrie ~700 mm, ~135 jours pluie/an — vélo praticable avec équipement. (2) Courses lourdes — Carrefour, Leclerc, Lidl livrent, drives accessibles. (3) Enfants — école à pied/vélo 88 % cas. (4) Sortie Bretagne (Saint-Malo, Vannes, presqu'île Crozon) — TER excellent vers Saint-Malo (50 min), Vannes (1h), Brest (2h), Quimper (2h30). Location week-end côté presqu'île moins desservi. (5) Côte basse-rennes (golfe Morbihan) — voiture ou train+bus tient.",
+        body: "(1) Pluviométrie ~700 mm, ~135 jours pluie/an, vélo praticable avec équipement. (2) Courses lourdes, Carrefour, Leclerc, Lidl livrent, drives accessibles. (3) Enfants, école à pied/vélo 88 % cas. (4) Sortie Bretagne (Saint-Malo, Vannes, presqu'île Crozon) : TER excellent vers Saint-Malo (50 min), Vannes (1h), Brest (2h), Quimper (2h30). Location week-end côté presqu'île moins desservi. (5) Côte basse-rennes (golfe Morbihan) : voiture ou train+bus tient.",
       },
       {
         heading: "Week-ends et vacances",
@@ -12250,11 +12250,11 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Pièges classiques",
-        body: "(1) Climat humide — équipement vélo qualité indispensable. (2) Activités banlieue (équitation, voile Saint-Cast, randonnée Brocéliande) — TER + bus saisonnier insuffisant en intersaison. (3) Familles 3+ enfants — comme partout, logistique sport/musique/médecin devient lourde. (4) Stade Rennais (Roazhon Park) — tram + métro saturé soirs match.",
+        body: "(1) Climat humide, équipement vélo qualité indispensable. (2) Activités banlieue (équitation, voile Saint-Cast, randonnée Brocéliande) : TER + bus saisonnier insuffisant en intersaison. (3) Familles 3+ enfants, comme partout, logistique sport/musique/médecin devient lourde. (4) Stade Rennais (Roazhon Park) : tram + métro saturé soirs match.",
       },
       {
         heading: "Pour qui ça marche",
-        body: "Très bon pour : tous profils centre + petite couronne métro. Excellent rapport coût mobilité : Rennes a le tarif transport annuel le plus bas des grandes villes françaises. Limite : skieurs (Massif Central à 4h, Pyrénées à 8h) — éviter d'y vivre si ski hebdomadaire. Rennes est devenue ville-laboratoire mobilité — taux d'usage transports en commun ~22 % (hausse continue).",
+        body: "Très bon pour : tous profils centre + petite couronne métro. Excellent rapport coût mobilité : Rennes a le tarif transport annuel le plus bas des grandes villes françaises. Limite : skieurs (Massif Central à 4h, Pyrénées à 8h) : éviter d'y vivre si ski hebdomadaire. Rennes est devenue ville-laboratoire mobilité, taux d'usage transports en commun ~22 % (hausse continue).",
       },
     ],
     relatedCities: ["rennes", "saint-malo", "vannes", "brest", "nantes"],
@@ -12283,7 +12283,7 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Budget mobilité no-car à Montpellier",
-        body: "TaM 2026 : **gratuit** pour les résidents de la métropole (carte gratuite sur justificatif). Vélomagg longue durée : ~30 €/an. Citiz Montpellier : ~200 €/an. TER + Avantage : ~400 €/an. Total no-car montpelliérain : ~300–600 €/an — record national de basse mobilité. Coût voiture Montpellier : ~4 200 €/an. Économie : ~3 800 €/an.",
+        body: "TaM 2026 : **gratuit** pour les résidents de la métropole (carte gratuite sur justificatif). Vélomagg longue durée : ~30 €/an. Citiz Montpellier : ~200 €/an. TER + Avantage : ~400 €/an. Total no-car montpelliérain : ~300–600 €/an, record national de basse mobilité. Coût voiture Montpellier : ~4 200 €/an. Économie : ~3 800 €/an.",
       },
       {
         heading: "Quartiers no-car friendly",
@@ -12291,7 +12291,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Problèmes opérationnels",
-        body: "(1) Canicule estivale ~45 jours >30 °C — vélo dur en milieu de journée, tram climatisé sauve. (2) Courses lourdes — Carrefour, Auchan, Lidl livrent, drives accessibles tram. (3) Plage (Palavas, Carnon, La Grande-Motte) — bus + tram desservent toute l'année, vélo possible Carnon (~10 km piste cyclable). (4) Camargue, Cévennes intensifs — voiture obligatoire, Citiz/location week-end. (5) Vélos saturés tram heure de pointe — règlement vélo plus restrictif certaines heures.",
+        body: "(1) Canicule estivale ~45 jours >30 °C, vélo dur en milieu de journée, tram climatisé sauve. (2) Courses lourdes, Carrefour, Auchan, Lidl livrent, drives accessibles tram. (3) Plage (Palavas, Carnon, La Grande-Motte) : bus + tram desservent toute l'année, vélo possible Carnon (~10 km piste cyclable). (4) Camargue, Cévennes intensifs, voiture obligatoire, Citiz/location week-end. (5) Vélos saturés tram heure de pointe, règlement vélo plus restrictif certaines heures.",
       },
       {
         heading: "Week-ends et vacances",
@@ -12299,11 +12299,11 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Pièges classiques",
-        body: "(1) Canicule estivale — vélo praticable seulement matin/soir 4 mois/an. (2) Cévennes / arrière-pays (Saint-Guilhem, Pic Saint-Loup) — voiture quasi obligatoire pour ces sorties. (3) Familles activités banlieue lointaine (Cévennes scolaires, voile Méditerranée) — limites du no-car. (4) Tram saturé heure de pointe — certaines lignes vélo interdit 7h-9h.",
+        body: "(1) Canicule estivale, vélo praticable seulement matin/soir 4 mois/an. (2) Cévennes / arrière-pays (Saint-Guilhem, Pic Saint-Loup) : voiture quasi obligatoire pour ces sorties. (3) Familles activités banlieue lointaine (Cévennes scolaires, voile Méditerranée) : limites du no-car. (4) Tram saturé heure de pointe, certaines lignes vélo interdit 7h-9h.",
       },
       {
         heading: "Pour qui ça marche",
-        body: "Excellent : tous profils centre + petite couronne tram. Bon pour : couples actifs, jeunes parents, étudiants, retraités urbains. Moins bon : amateurs Cévennes / Camargue intensifs. Montpellier est probablement la grande ville française avec le meilleur rapport coût mobilité grâce à la gratuité du tram — modèle unique en France et Europe.",
+        body: "Excellent : tous profils centre + petite couronne tram. Bon pour : couples actifs, jeunes parents, étudiants, retraités urbains. Moins bon : amateurs Cévennes / Camargue intensifs. Montpellier est probablement la grande ville française avec le meilleur rapport coût mobilité grâce à la gratuité du tram, modèle unique en France et Europe.",
       },
     ],
     relatedCities: ["montpellier", "nimes", "beziers", "narbonne", "sete"],
@@ -12340,7 +12340,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Problèmes opérationnels",
-        body: "(1) Canicule estivale ~40 jours >30 °C — vélo dur l'après-midi, tram climatisé sauve. (2) Courses lourdes — Casino, Monoprix, Carrefour livrent. (3) Plages — accessible vélo Promenade ou tram T1 (Riquier, Port, Carras desservent toute la côte). (4) Arrière-pays (Vésubie, Roya, Tinée) — voiture obligatoire, Citiz week-end. (5) Aéroport Nice — tram T2 direct depuis 2018, énorme amélioration.",
+        body: "(1) Canicule estivale ~40 jours >30 °C, vélo dur l'après-midi, tram climatisé sauve. (2) Courses lourdes, Casino, Monoprix, Carrefour livrent. (3) Plages, accessible vélo Promenade ou tram T1 (Riquier, Port, Carras desservent toute la côte). (4) Arrière-pays (Vésubie, Roya, Tinée) : voiture obligatoire, Citiz week-end. (5) Aéroport Nice, tram T2 direct depuis 2018, énorme amélioration.",
       },
       {
         heading: "Week-ends et vacances",
@@ -12348,11 +12348,11 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Pièges classiques",
-        body: "(1) Collines niçoises (Cimiez, Mont-Boron) — vélo praticable mais dénivelé important, scooter électrique alternative populaire. (2) Activités arrière-pays — randonnée Mercantour, ski Isola/Auron — voiture quasi obligatoire. (3) Tram T1 saturé l'été (touristes) — alterner Vélo Bleu. (4) Stationnement Vélo Bleu rare juillet-août en zones touristiques.",
+        body: "(1) Collines niçoises (Cimiez, Mont-Boron) : vélo praticable mais dénivelé important, scooter électrique alternative populaire. (2) Activités arrière-pays, randonnée Mercantour, ski Isola/Auron, voiture quasi obligatoire. (3) Tram T1 saturé l'été (touristes) : alterner Vélo Bleu. (4) Stationnement Vélo Bleu rare juillet-août en zones touristiques.",
       },
       {
         heading: "Pour qui ça marche",
-        body: "Excellent : centre + corridor tram T1/T2/T3, retraités urbains, télétravailleurs, célibataires/couples actifs. Moins bon : amateurs Mercantour/ski Mercantour intensifs, familles avec collines (Cimiez haut, Saint-Pancrace). Nice convertit moins vite que Strasbourg/Bordeaux mais le climat aide énormément — pratique du vélo en hausse continue ~+8 %/an depuis 2020.",
+        body: "Excellent : centre + corridor tram T1/T2/T3, retraités urbains, télétravailleurs, célibataires/couples actifs. Moins bon : amateurs Mercantour/ski Mercantour intensifs, familles avec collines (Cimiez haut, Saint-Pancrace). Nice convertit moins vite que Strasbourg/Bordeaux mais le climat aide énormément, pratique du vélo en hausse continue ~+8 %/an depuis 2020.",
       },
     ],
     relatedCities: ["nice", "cannes", "antibes", "menton", "cagnes-sur-mer"],
@@ -12642,7 +12642,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Profils qui devraient envisager partir",
-        body: "Pour les personnes âgées avec pathologies chroniques (insuffisance respiratoire, cardiaque), la canicule devient mortelle de façon progressive et silencieuse. Pour les familles avec très jeunes enfants dans un logement sans clim, c\'est l\'enfer estival pendant plusieurs semaines d\'affilée. Les asthmatiques sévères subissent des pics d\'ozone et de pollens en hausse continue. Et pour les profils en location DPE médiocre, sans budget pour investir dans l\'isolation ou la clim, mieux vaut anticiper que subir. Si on cherche un Sud plus doux, regarder la façade Atlantique (Bayonne, La Rochelle), la Bretagne (Quimper, Vannes), ou l\'Auvergne (Clermont-Ferrand) — pas la même lumière, mais une marge climatique réelle.",
+        body: "Pour les personnes âgées avec pathologies chroniques (insuffisance respiratoire, cardiaque), la canicule devient mortelle de façon progressive et silencieuse. Pour les familles avec très jeunes enfants dans un logement sans clim, c\'est l\'enfer estival pendant plusieurs semaines d\'affilée. Les asthmatiques sévères subissent des pics d\'ozone et de pollens en hausse continue. Et pour les profils en location DPE médiocre, sans budget pour investir dans l\'isolation ou la clim, mieux vaut anticiper que subir. Si on cherche un Sud plus doux, regarder la façade Atlantique (Bayonne, La Rochelle), la Bretagne (Quimper, Vannes), ou l\'Auvergne (Clermont-Ferrand), pas la même lumière, mais une marge climatique réelle.",
       },
       {
         heading: "Le calcul honnête : rester ou partir ?",
@@ -12675,7 +12675,7 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Ce qui change d'ici 2040",
-        body: "La mer monte de 15 à 25 cm d\'ici 2050, et probablement 30 à 60 cm d\'ici 2100 (GIEC + Cerema). Conséquence : les zones soumises à PPRL (submersion marine) s\'étendent en Charente-Maritime, baie de Bourgneuf, Cotentin et Médoc. L\'érosion côtière, elle, fait son travail discret mais constant : 0,5 à 3 m par an sur certains secteurs aquitains (Lacanau, Soulac, Capbreton). Les tempêtes gagnent en intensité, avec des fréquences proches du cyclonique sub-tropical. Côté pluviométrie, on prend +5 à +10 % l\'hiver et on perd 10 % l\'été — des sécheresses estivales déjà bien notables en Charente-Maritime, Vendée et Pays de Loire.",
+        body: "La mer monte de 15 à 25 cm d\'ici 2050, et probablement 30 à 60 cm d\'ici 2100 (GIEC + Cerema). Conséquence : les zones soumises à PPRL (submersion marine) s\'étendent en Charente-Maritime, baie de Bourgneuf, Cotentin et Médoc. L\'érosion côtière, elle, fait son travail discret mais constant : 0,5 à 3 m par an sur certains secteurs aquitains (Lacanau, Soulac, Capbreton). Les tempêtes gagnent en intensité, avec des fréquences proches du cyclonique sub-tropical. Côté pluviométrie, on prend +5 à +10 % l\'hiver et on perd 10 % l\'été : des sécheresses estivales déjà bien notables en Charente-Maritime, Vendée et Pays de Loire.",
       },
       {
         heading: "Zones à éviter pour 2040+",
@@ -12724,7 +12724,7 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Ce qui change d'ici 2040",
-        body: "Sur les vagues de chaleur, Paris passe d\'une dizaine de jours par an au-dessus de 30 °C aujourd\'hui à environ 35 en 2040, dont 5 à 8 jours au-delà de 35 °C. Les nuits tropicales montent à 5-15 par an, jusqu\'à 25 dans le centre. La canicule de 2003 (60 000 morts en Europe, 15 000 en France) deviendra un événement fréquent. La pluie devient plus erratique : orages plus violents, sécheresses estivales plus marquées. Et puis il y a l\'îlot de chaleur urbain : 5 à 8 °C de plus dans le centre parisien que dans une banlieue boisée pendant les nuits caniculaires. Effet déjà bien documenté — exemple récent, Paris-Centre +8 °C par rapport à la Forêt de Saint-Germain.",
+        body: "Sur les vagues de chaleur, Paris passe d\'une dizaine de jours par an au-dessus de 30 °C aujourd\'hui à environ 35 en 2040, dont 5 à 8 jours au-delà de 35 °C. Les nuits tropicales montent à 5-15 par an, jusqu\'à 25 dans le centre. La canicule de 2003 (60 000 morts en Europe, 15 000 en France) deviendra un événement fréquent. La pluie devient plus erratique : orages plus violents, sécheresses estivales plus marquées. Et puis il y a l\'îlot de chaleur urbain : 5 à 8 °C de plus dans le centre parisien que dans une banlieue boisée pendant les nuits caniculaires. Effet déjà bien documenté. Exemple récent, Paris-Centre +8 °C par rapport à la Forêt de Saint-Germain.",
       },
       {
         heading: "Quartiers parisiens les plus vulnérables canicule",
@@ -12762,7 +12762,7 @@ export const GUIDES: Guide[] = [
     title: "Vivre au vert près de Paris en 2026 — top villes à 1h maximum",
     metaTitle: "Vivre au vert près de Paris 2026 : Fontainebleau, Provins, Senlis, Chartres — guide",
     metaDesc:
-      "Quitter Paris pour le vert sans renoncer au travail parisien : Fontainebleau, Provins, Senlis, Chartres, Mantes — comparaison train/budget/cadre.",
+      "Quitter Paris pour le vert sans renoncer au travail parisien : Fontainebleau, Provins, Senlis, Chartres, Mantes. Comparaison train/budget/cadre.",
     category: "lifestyle",
     emoji: "🌿",
     readMinutes: 7,
@@ -12933,7 +12933,7 @@ export const GUIDES: Guide[] = [
     title: "Vivre au vert près de Marseille en 2026 — top villes à 1h maximum",
     metaTitle: "Vivre au vert près de Marseille 2026 : Cassis, Aubagne, Aix, Calanques — guide",
     metaDesc:
-      "Quitter Marseille pour le vert : Cassis, Aubagne, Salon, Aix, La Ciotat. Comparaison transport/budget/cadre — guide honnête 2026.",
+      "Quitter Marseille pour le vert : Cassis, Aubagne, Salon, Aix, La Ciotat. Comparaison transport/budget/cadre. Guide honnête 2026.",
     category: "lifestyle",
     emoji: "🌊",
     readMinutes: 7,
@@ -12990,7 +12990,7 @@ export const GUIDES: Guide[] = [
     title: "Vivre au vert près de Toulouse en 2026 — top villes à 1h maximum",
     metaTitle: "Vivre au vert près de Toulouse 2026 : Albi, Montauban, Auch, Saint-Lys — guide",
     metaDesc:
-      "Quitter Toulouse pour le vert : Albi, Montauban, Auch, Castelnaudary, Foix. Comparaison train/budget/cadre — guide 2026.",
+      "Quitter Toulouse pour le vert : Albi, Montauban, Auch, Castelnaudary, Foix. Comparaison train/budget/cadre. Guide 2026.",
     category: "lifestyle",
     emoji: "🌾",
     readMinutes: 7,
@@ -13303,11 +13303,11 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Ce qui change d'ici 2040 (projections Météo-France)",
-        body: "On attend +2 à +3 °C à 2040 vs 1981-2010, mais l\'altitude joue son rôle d\'amortisseur. À 800 m, une journée caniculaire fait 4-5 °C de moins qu\'en plaine voisine — c\'est ce qui change tout. Clermont-Ferrand, à 400 m, montera autour de 25 jours par an au-dessus de 30 °C (contre une dizaine aujourd\'hui). Aurillac, à 630 m, reste plus modeste avec 15 jours par an. Le Puy-en-Velay, même altitude, tourne autour de 12. Brioude et Saint-Flour : 10-15. Côté neige, l\'enneigement de moyenne montagne s\'effrite — les stations sous 1500 m (Monts du Cantal, Sancy, Aubrac) perdent en fiabilité et voient leur saison de ski raccourcir nettement. La sécheresse estivale reste modérée mais grimpe, avec des restrictions ponctuelles à anticiper. La pluviométrie annuelle est stable à très légèrement en baisse, mais les épisodes orageux gagnent en intensité, surtout côté cévenol.",
+        body: "On attend +2 à +3 °C à 2040 vs 1981-2010, mais l\'altitude joue son rôle d\'amortisseur. À 800 m, une journée caniculaire fait 4-5 °C de moins qu\'en plaine voisine, c\'est ce qui change tout. Clermont-Ferrand, à 400 m, montera autour de 25 jours par an au-dessus de 30 °C (contre une dizaine aujourd\'hui). Aurillac, à 630 m, reste plus modeste avec 15 jours par an. Le Puy-en-Velay, même altitude, tourne autour de 12. Brioude et Saint-Flour : 10-15. Côté neige, l\'enneigement de moyenne montagne s\'effrite : les stations sous 1500 m (Monts du Cantal, Sancy, Aubrac) perdent en fiabilité et voient leur saison de ski raccourcir nettement. La sécheresse estivale reste modérée mais grimpe, avec des restrictions ponctuelles à anticiper. La pluviométrie annuelle est stable à très légèrement en baisse, mais les épisodes orageux gagnent en intensité, surtout côté cévenol.",
       },
       {
         heading: "Villes et bourgs bien positionnés 2040",
-        body: "Clermont-Ferrand, à 400 m, reste la métropole de la zone : services, université, CHU, TGV, aéroport. Climat continental, étés chauds mais nuits qui rafraîchissent, eau bien alimentée par le Sancy. Aurillac, à 630 m, est la préfecture du Cantal — climat doux montagnard, prix m² autour de 1 200 €, qualité de vie élevée mais isolement transport réel. Le Puy-en-Velay, même altitude, profite d\'un climat sec et lumineux dans un bassin protégé, avec un foncier accessible. Mende, à 750 m en Lozère, est la plus haute préfecture de France : climat très tempéré l\'été, mais services limités. Brioude, Saint-Flour et Issoire jouent le rôle de bourgs intermédiaires entre 400 et 900 m, avec un bon équilibre prix-services. Et Rodez, à 570 m en Aveyron, reste une préfecture dynamique au climat océanique de montagne tempéré.",
+        body: "Clermont-Ferrand, à 400 m, reste la métropole de la zone : services, université, CHU, TGV, aéroport. Climat continental, étés chauds mais nuits qui rafraîchissent, eau bien alimentée par le Sancy. Aurillac, à 630 m, est la préfecture du Cantal, climat doux montagnard, prix m² autour de 1 200 €, qualité de vie élevée mais isolement transport réel. Le Puy-en-Velay, même altitude, profite d\'un climat sec et lumineux dans un bassin protégé, avec un foncier accessible. Mende, à 750 m en Lozère, est la plus haute préfecture de France : climat très tempéré l\'été, mais services limités. Brioude, Saint-Flour et Issoire jouent le rôle de bourgs intermédiaires entre 400 et 900 m, avec un bon équilibre prix-services. Et Rodez, à 570 m en Aveyron, reste une préfecture dynamique au climat océanique de montagne tempéré.",
       },
       {
         heading: "Profils pour qui ça marche",
@@ -13319,11 +13319,11 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Stratégie d'achat 2026-2030",
-        body: "On privilégie les bourgs structurants (préfecture, sous-préfecture, gros chef-lieu de canton) plutôt qu'un village de 200 habitants perdu sur un plateau : c'est là que les services restent. On cible une altitude entre 500 et 900 m, sweet spot entre amortissement canicule et hiver raisonnable. Au-delà de 1000 m, on accepte des hivers plus rudes, du déneigement, des accès parfois compliqués. On vérifie la fibre (carte ARCEP), la couverture mobile 4G et le débit ADSL en attendant. On cible un bien en DPE C ou D, ou on anticipe la rénovation avec un budget réel — pas une estimation optimiste qui s'effondre au premier devis. Et on lit le PLU communal : certaines communes limitent les divisions parcellaires ou imposent couleurs et matériaux qui renchérissent vite la note.",
+        body: "On privilégie les bourgs structurants (préfecture, sous-préfecture, gros chef-lieu de canton) plutôt qu'un village de 200 habitants perdu sur un plateau : c'est là que les services restent. On cible une altitude entre 500 et 900 m, sweet spot entre amortissement canicule et hiver raisonnable. Au-delà de 1000 m, on accepte des hivers plus rudes, du déneigement, des accès parfois compliqués. On vérifie la fibre (carte ARCEP), la couverture mobile 4G et le débit ADSL en attendant. On cible un bien en DPE C ou D, ou on anticipe la rénovation avec un budget réel, pas une estimation optimiste qui s'effondre au premier devis. Et on lit le PLU communal : certaines communes limitent les divisions parcellaires ou imposent couleurs et matériaux qui renchérissent vite la note.",
       },
       {
         heading: "Le calcul honnête : refuge mais pas Eldorado",
-        body: "Le Massif Central est probablement la zone française la mieux positionnée climatiquement pour 2040 dans la logique altitude + eau + foncier abordable. C'est un vrai refuge climatique, sans guillemets. Mais ce n'est pas un Eldorado : services en contraction, mobilité dépendante de la voiture, isolement bien réel dans le rural profond. Bon profil : télétravail solide, autonomie pratique, capacité de rénovation, goût sincère de la nature. Mauvais profil : besoin métropolitain quotidien, santé fragile, dépendance aux services, sociabilité strictement urbaine. Pour qui c'est adapté, c'est une fenêtre historique sur le rapport prix-qualité de vie — qui ne durera pas. L'effet de mode 'refuge climatique' commence à pousser les prix dans quelques communes-vitrines, c'est le signe que le marché regarde.",
+        body: "Le Massif Central est probablement la zone française la mieux positionnée climatiquement pour 2040 dans la logique altitude + eau + foncier abordable. C'est un vrai refuge climatique, sans guillemets. Mais ce n'est pas un Eldorado : services en contraction, mobilité dépendante de la voiture, isolement bien réel dans le rural profond. Bon profil : télétravail solide, autonomie pratique, capacité de rénovation, goût sincère de la nature. Mauvais profil : besoin métropolitain quotidien, santé fragile, dépendance aux services, sociabilité strictement urbaine. Pour qui c'est adapté, c'est une fenêtre historique sur le rapport prix-qualité de vie, qui ne durera pas. L'effet de mode 'refuge climatique' commence à pousser les prix dans quelques communes-vitrines, c'est le signe que le marché regarde.",
       },
     ],
     relatedCities: ["clermont-ferrand", "aurillac", "le-puy-en-velay", "mende", "rodez"],
@@ -13360,11 +13360,11 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Zones à arbitrer prudemment",
-        body: "La côte sauvage du Finistère (Pointe du Raz, Crozon) cumule exposition vent et tempête forte : la beauté brute s'y paie en travaux récurrents, et le bâti doit être vérifié sérieusement (anti-tempête, étanchéité). La côte d'Émeraude (Saint-Malo, Dinard, Cancale) est exposée à la montée des eaux sur le long terme, avec certaines zones basses en PPRL strict. Belle-Île, Houat, Hoëdic restent attractives mais avec services limités, dépendance bateau et exposition tempête — c'est un choix de mode de vie autant qu'un achat. La Bretagne intérieure très rurale (Centre-Bretagne, monts d'Arrée, Argoat profond) garde un climat OK mais voit sa désertification médicale et scolaire avancer vite. Et certains quartiers bas de Brest (Recouvrance basse) ou de Lorient méritent une vraie vérification du risque submersion locale avant achat.",
+        body: "La côte sauvage du Finistère (Pointe du Raz, Crozon) cumule exposition vent et tempête forte : la beauté brute s'y paie en travaux récurrents, et le bâti doit être vérifié sérieusement (anti-tempête, étanchéité). La côte d'Émeraude (Saint-Malo, Dinard, Cancale) est exposée à la montée des eaux sur le long terme, avec certaines zones basses en PPRL strict. Belle-Île, Houat, Hoëdic restent attractives mais avec services limités, dépendance bateau et exposition tempête : c'est un choix de mode de vie autant qu'un achat. La Bretagne intérieure très rurale (Centre-Bretagne, monts d'Arrée, Argoat profond) garde un climat OK mais voit sa désertification médicale et scolaire avancer vite. Et certains quartiers bas de Brest (Recouvrance basse) ou de Lorient méritent une vraie vérification du risque submersion locale avant achat.",
       },
       {
         heading: "Le vrai sujet 2040 : la ressource en eau",
-        body: "C'est le point complètement sous-estimé. Région agricole intensive, sols peu profonds, nappes phréatiques mal rechargées, ni grand fleuve alpin ni grand barrage en stock. Les étés 2022 et 2023 ont déjà imposé des restrictions strictes : interdiction d'arrosage, de lavage voiture, de remplissage piscine. D'ici 2040, les restrictions estivales deviendront probablement chroniques de juin à septembre, surtout en Morbihan intérieur et Ille-et-Vilaine sud. Les conséquences sont très concrètes : rendement variable au potager, piscine privée à terme plutôt non — sauf à arroser le jardin du voisin en cachette — lavage de voiture et de façade réglementé, jardin gourmand en eau à repenser. On bascule sur des plantes méditerranéennes parfaitement adaptables : lavande, romarin, gaura.",
+        body: "C'est le point complètement sous-estimé. Région agricole intensive, sols peu profonds, nappes phréatiques mal rechargées, ni grand fleuve alpin ni grand barrage en stock. Les étés 2022 et 2023 ont déjà imposé des restrictions strictes : interdiction d'arrosage, de lavage voiture, de remplissage piscine. D'ici 2040, les restrictions estivales deviendront probablement chroniques de juin à septembre, surtout en Morbihan intérieur et Ille-et-Vilaine sud. Les conséquences sont très concrètes : rendement variable au potager, piscine privée à terme plutôt non (sauf à arroser le jardin du voisin en cachette), lavage de voiture et de façade réglementé, jardin gourmand en eau à repenser. On bascule sur des plantes méditerranéennes parfaitement adaptables : lavande, romarin, gaura.",
       },
       {
         heading: "Adaptations stratégiques achat 2026-2030",
@@ -13401,11 +13401,11 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Ce qui change d'ici 2040 (projections)",
-        body: "On attend +2 à +3 °C à 2040 par rapport à 1981-2010, l'un des taux d'évolution les plus forts du pays avec le Nord-Est. Lille passe à une vingtaine de jours par an au-dessus de 30 °C, contre cinq aujourd'hui, avec quelques pointes à 35-37 °C. Amiens reste à 15 jours par an. L'hiver s'adoucit nettement : gelées plus rares, neige devenue exceptionnelle en plaine. La pluie reste stable en cumul annuel mais se redistribue — automnes plus pluvieux avec un risque inondation sur Somme, Aa et Lys, étés plus secs. Les tempêtes hivernales gagnent en intensité moyenne côté côte nord. Et la mer monte de 15 à 25 cm d'ici 2050, avec une exposition forte sur la côte d'Opale, Dunkerque et la baie de Somme.",
+        body: "On attend +2 à +3 °C à 2040 par rapport à 1981-2010, l'un des taux d'évolution les plus forts du pays avec le Nord-Est. Lille passe à une vingtaine de jours par an au-dessus de 30 °C, contre cinq aujourd'hui, avec quelques pointes à 35-37 °C. Amiens reste à 15 jours par an. L'hiver s'adoucit nettement : gelées plus rares, neige devenue exceptionnelle en plaine. La pluie reste stable en cumul annuel mais se redistribue : automnes plus pluvieux avec un risque inondation sur Somme, Aa et Lys, étés plus secs. Les tempêtes hivernales gagnent en intensité moyenne côté côte nord. Et la mer monte de 15 à 25 cm d'ici 2050, avec une exposition forte sur la côte d'Opale, Dunkerque et la baie de Somme.",
       },
       {
         heading: "Métropoles bien positionnées 2040",
-        body: "Lille reste la métropole solide de la zone : services complets, TGV Paris en 1h, Bruxelles en 35 min, Londres en 1h20. Aucune exposition mer directe, des étés plus chauds mais encore tenables avec un bâti adapté, et un m² accessible comparé à l'Île-de-France. Amiens, préfecture de la Somme, propose université, TGV Paris en 1h05, climat tempéré et foncier accessible. Arras, c'est le bourg de qualité par excellence — TGV Paris 50 min, climat tempéré, art de vivre intact. Valenciennes joue sur sa réindustrialisation (Stellantis, Toyota), avec des prix très bas et un climat tempéré. Et les bourgs intermédiaires (Saint-Quentin, Cambrai, Compiègne, Beauvais) restent accessibles dans un climat océanique-continental qui se tient.",
+        body: "Lille reste la métropole solide de la zone : services complets, TGV Paris en 1h, Bruxelles en 35 min, Londres en 1h20. Aucune exposition mer directe, des étés plus chauds mais encore tenables avec un bâti adapté, et un m² accessible comparé à l'Île-de-France. Amiens, préfecture de la Somme, propose université, TGV Paris en 1h05, climat tempéré et foncier accessible. Arras, c'est le bourg de qualité par excellence : TGV Paris 50 min, climat tempéré, art de vivre intact. Valenciennes joue sur sa réindustrialisation (Stellantis, Toyota), avec des prix très bas et un climat tempéré. Et les bourgs intermédiaires (Saint-Quentin, Cambrai, Compiègne, Beauvais) restent accessibles dans un climat océanique-continental qui se tient.",
       },
       {
         heading: "Zones côtières à arbitrer prudemment",
@@ -13413,7 +13413,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "L'avantage caché des Hauts-de-France 2040",
-        body: "L'eau, c'est le grand oublié de la conversation. La région est bien pourvue en nappes phréatiques (craie picarde, calcaire), avec une pluviométrie suffisante et des rivières correctes (Somme, Lys, Aa). Les restrictions d'eau y sont quasi inexistantes comparées à la Bretagne ou au Sud-Ouest. Les sols agricoles sont riches en limons, ce qui donne une vraie résilience alimentaire locale. Côté énergie, l'éolien terrestre et offshore montent en puissance, le mix futur est favorable. Côté infrastructure, on cumule TGV, autoroutes, ports et aéroports — la connectivité européenne est difficile à battre. C'est probablement la région la plus sous-cotée en 2026 dans une lecture 2040 sérieuse.",
+        body: "L'eau, c'est le grand oublié de la conversation. La région est bien pourvue en nappes phréatiques (craie picarde, calcaire), avec une pluviométrie suffisante et des rivières correctes (Somme, Lys, Aa). Les restrictions d'eau y sont quasi inexistantes comparées à la Bretagne ou au Sud-Ouest. Les sols agricoles sont riches en limons, ce qui donne une vraie résilience alimentaire locale. Côté énergie, l'éolien terrestre et offshore montent en puissance, le mix futur est favorable. Côté infrastructure, on cumule TGV, autoroutes, ports et aéroports, la connectivité européenne est difficile à battre. C'est probablement la région la plus sous-cotée en 2026 dans une lecture 2040 sérieuse.",
       },
       {
         heading: "Adaptations stratégiques achat 2026-2030",
@@ -13466,7 +13466,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Adaptations stratégiques achat 2026-2030",
-        body: "DPE C minimum sur tout achat : hivers encore frais (chauffage) plus étés qui chauffent (isolation toiture), c'est une double exigence. Le bâti pierre et colombages d'Alsace est souvent en DPE D à F, donc rénovation à anticiper. La clim réversible (pompe à chaleur) devient nécessaire en plaine d'Alsace et de Champagne d'ici 2030. Sur le vignoble, on évite l'achat spéculatif sans diversification : le climat change vite, certains cépages seront obsolètes en 2040. Pour les frontaliers, on cible Thionville (Luxembourg), Saint-Louis (Bâle), Sarreguemines (Sarre) — combo emploi rémunérateur plus foncier accessible. Et on vérifie le PPRI sur les zones Rhin, Moselle, Meuse : les épisodes pluvieux gagnent en intensité.",
+        body: "DPE C minimum sur tout achat : hivers encore frais (chauffage) plus étés qui chauffent (isolation toiture), c'est une double exigence. Le bâti pierre et colombages d'Alsace est souvent en DPE D à F, donc rénovation à anticiper. La clim réversible (pompe à chaleur) devient nécessaire en plaine d'Alsace et de Champagne d'ici 2030. Sur le vignoble, on évite l'achat spéculatif sans diversification : le climat change vite, certains cépages seront obsolètes en 2040. Pour les frontaliers, on cible Thionville (Luxembourg), Saint-Louis (Bâle), Sarreguemines (Sarre) : combo emploi rémunérateur plus foncier accessible. Et on vérifie le PPRI sur les zones Rhin, Moselle, Meuse : les épisodes pluvieux gagnent en intensité.",
       },
       {
         heading: "Le calcul honnête : tempéré, accessible, européen",
@@ -13519,7 +13519,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Adaptations stratégiques achat 2026-2030",
-        body: "À Toulouse comme à Bordeaux, on vise DPE A-C, clim réversible, jardin ou terrasse arborée, quartier résidentiel arboré plutôt qu'hyper-centre dense. Dans les Pyrénées (Pau, Tarbes, vallées), le refuge climatique est en construction et il faut anticiper une hausse de prix d'ici 2030 — on cible les bourgs structurants (préfecture, sous-préfecture) plutôt qu'un village isolé. Sur la côte basque, la valorisation continue et les prix sont déjà élevés : on regarde alors les communes périphériques (Boucau, Tarnos, Saint-Pierre-d'Irube) ou l'intérieur du Pays Basque (Cambo, Hasparren, Saint-Palais). Dans le Sud-Ouest profond (Gers, Lot, Tarn-et-Garonne), attention à la combinaison sécheresse plus désertification médicale : à privilégier seulement avec télétravail solide, DPE correct et accès eau garanti. Et on vérifie les zones inondables Garonne, Adour, Gave de Pau via le PPRI.",
+        body: "À Toulouse comme à Bordeaux, on vise DPE A-C, clim réversible, jardin ou terrasse arborée, quartier résidentiel arboré plutôt qu'hyper-centre dense. Dans les Pyrénées (Pau, Tarbes, vallées), le refuge climatique est en construction et il faut anticiper une hausse de prix d'ici 2030 : on cible les bourgs structurants (préfecture, sous-préfecture) plutôt qu'un village isolé. Sur la côte basque, la valorisation continue et les prix sont déjà élevés : on regarde alors les communes périphériques (Boucau, Tarnos, Saint-Pierre-d'Irube) ou l'intérieur du Pays Basque (Cambo, Hasparren, Saint-Palais). Dans le Sud-Ouest profond (Gers, Lot, Tarn-et-Garonne), attention à la combinaison sécheresse plus désertification médicale : à privilégier seulement avec télétravail solide, DPE correct et accès eau garanti. Et on vérifie les zones inondables Garonne, Adour, Gave de Pau via le PPRI.",
       },
       {
         heading: "Le calcul honnête : Pyrénées > intérieur > côte basque saturée",
@@ -13564,7 +13564,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Refuges altitude : Drôme, Ardèche, Vercors, Diois",
-        body: "Dans la vallée de la Drôme, Crest, Die et Saillans tournent autour de 200-400 m d'altitude, climat plus tempéré, communauté alternative active, foncier raisonnable. Aubenas, Largentière et Privas (Ardèche) sont en moyenne montagne entre 300 et 700 m, climat tenable, foncier accessible. Le Vercors (Villard-de-Lans, Lans-en-Vercors) à 1000 m et plus joue le refuge climatique fort, à condition d'accepter la saisonnalité touristique. Annonay et Tournon sur les coteaux rhodaniens nord gardent un climat continental et des services corrects. Le plateau ardéchois (Saint-Agrève, Coucouron) à plus de 1000 m offre un refuge climatique réel, avec un isolement assumé — pour profils télétravail et autonomie. Et côté Monts du Lyonnais, Saint-Symphorien, Brindas, Sainte-Foy-l'Argentière à 300-600 m d'altitude proposent un refuge urbain de proximité à 30 min de Lyon : le meilleur compromis quotidien.",
+        body: "Dans la vallée de la Drôme, Crest, Die et Saillans tournent autour de 200-400 m d'altitude, climat plus tempéré, communauté alternative active, foncier raisonnable. Aubenas, Largentière et Privas (Ardèche) sont en moyenne montagne entre 300 et 700 m, climat tenable, foncier accessible. Le Vercors (Villard-de-Lans, Lans-en-Vercors) à 1000 m et plus joue le refuge climatique fort, à condition d'accepter la saisonnalité touristique. Annonay et Tournon sur les coteaux rhodaniens nord gardent un climat continental et des services corrects. Le plateau ardéchois (Saint-Agrève, Coucouron) à plus de 1000 m offre un refuge climatique réel, avec un isolement assumé, pour profils télétravail et autonomie. Et côté Monts du Lyonnais, Saint-Symphorien, Brindas, Sainte-Foy-l'Argentière à 300-600 m d'altitude proposent un refuge urbain de proximité à 30 min de Lyon : le meilleur compromis quotidien.",
       },
       {
         heading: "Ozone et qualité de l'air : le sujet 2040",
@@ -13613,7 +13613,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Côte normande : arbitrage sérieux",
-        body: "La côte d'Albâtre (Étretat, Fécamp, Yport, Veules-les-Roses) voit ses falaises calcaires reculer, avec un recul documenté jusqu'à 50 cm par an sur certains secteurs. La beauté patrimoniale est réelle mais la valeur foncière des biens en front de falaise sera fragilisée d'ici 2040-2050. La côte fleurie (Deauville, Trouville, Houlgate, Cabourg) garde son front de mer attractif, mais avec une exposition submersion sur les zones basses et une érosion de plage marquée — PPRL strict. Le Cotentin côte est (Carentan, Saint-Vaast, Barfleur) cumule montée des eaux et tempêtes Manche. Le Cotentin pointe et côte ouest (Granville, Coutances, Avranches) a une exposition plus modérée mais des tempêtes fortes. Et Le Havre, port industriel reconstruit, a certaines zones basses (Saint-François) à examiner sous PPRL.",
+        body: "La côte d'Albâtre (Étretat, Fécamp, Yport, Veules-les-Roses) voit ses falaises calcaires reculer, avec un recul documenté jusqu'à 50 cm par an sur certains secteurs. La beauté patrimoniale est réelle mais la valeur foncière des biens en front de falaise sera fragilisée d'ici 2040-2050. La côte fleurie (Deauville, Trouville, Houlgate, Cabourg) garde son front de mer attractif, mais avec une exposition submersion sur les zones basses et une érosion de plage marquée, PPRL strict. Le Cotentin côte est (Carentan, Saint-Vaast, Barfleur) cumule montée des eaux et tempêtes Manche. Le Cotentin pointe et côte ouest (Granville, Coutances, Avranches) a une exposition plus modérée mais des tempêtes fortes. Et Le Havre, port industriel reconstruit, a certaines zones basses (Saint-François) à examiner sous PPRL.",
       },
       {
         heading: "Intérieur normand : excellent pari 2040",
@@ -13621,7 +13621,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Le sujet 2040 : tempêtes hivernales et inondations",
-        body: "Au-delà du réchauffement, le risque normand 2040, c'est l'intensification des tempêtes hivernales (sillage Xynthia plus Ciaran 2023). Concrètement : les vents 130+ km/h deviennent plus fréquents, toitures et arbres à surveiller. Les inondations Seine, Risle, Orne, Vire sont en hausse — on vérifie le PPRI avant tout achat en fond de vallée. Les éboulements de falaises côte d'Albâtre se multiplient, on évite les biens en surplomb ou en pied de falaise. La submersion des polders du Cotentin est et des marais de Carentan demande un examen sérieux. Et une sécheresse estivale émergente s'installe : le Bessin et le Pays d'Auge ont connu des déficits hydriques en 2022-2023, des restrictions agricoles deviennent probables.",
+        body: "Au-delà du réchauffement, le risque normand 2040, c'est l'intensification des tempêtes hivernales (sillage Xynthia plus Ciaran 2023). Concrètement : les vents 130+ km/h deviennent plus fréquents, toitures et arbres à surveiller. Les inondations Seine, Risle, Orne, Vire sont en hausse : on vérifie le PPRI avant tout achat en fond de vallée. Les éboulements de falaises côte d'Albâtre se multiplient, on évite les biens en surplomb ou en pied de falaise. La submersion des polders du Cotentin est et des marais de Carentan demande un examen sérieux. Et une sécheresse estivale émergente s'installe : le Bessin et le Pays d'Auge ont connu des déficits hydriques en 2022-2023, des restrictions agricoles deviennent probables.",
       },
       {
         heading: "Adaptations stratégiques achat 2026-2030",
@@ -13658,7 +13658,7 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Ce qui change d'ici 2040 (projections)",
-        body: "On attend +2 à +3 °C à 2040 par rapport à 1981-2010, un taux d'évolution proche du bassin parisien. Tours passe à 25 jours par an au-dessus de 30 °C (contre une dizaine aujourd'hui), avec pointes à 37-39 °C. Orléans tourne autour de 22 jours par an, Bourges et Châteauroux autour de 25. Le vrai sujet, c'est la sécheresse : la Beauce et la Sologne sont en stress hydrique chronique, la nappe phréatique de Beauce a perdu 2 à 3 m depuis 2000. La Loire et ses affluents connaissent des étiages estivaux sévères — 2022 et 2023 ont marqué des niveaux historiquement bas. Les restrictions d'eau agricoles sont confirmées chaque été. Côté vignobles, Vouvray, Chinon, Sancerre, Pouilly-Fumé sont en transition climatique : dates de vendanges avancées, cépages à adapter.",
+        body: "On attend +2 à +3 °C à 2040 par rapport à 1981-2010, un taux d'évolution proche du bassin parisien. Tours passe à 25 jours par an au-dessus de 30 °C (contre une dizaine aujourd'hui), avec pointes à 37-39 °C. Orléans tourne autour de 22 jours par an, Bourges et Châteauroux autour de 25. Le vrai sujet, c'est la sécheresse : la Beauce et la Sologne sont en stress hydrique chronique, la nappe phréatique de Beauce a perdu 2 à 3 m depuis 2000. La Loire et ses affluents connaissent des étiages estivaux sévères : 2022 et 2023 ont marqué des niveaux historiquement bas. Les restrictions d'eau agricoles sont confirmées chaque été. Côté vignobles, Vouvray, Chinon, Sancerre, Pouilly-Fumé sont en transition climatique : dates de vendanges avancées, cépages à adapter.",
       },
       {
         heading: "Métropoles bien positionnées 2040",
@@ -13670,7 +13670,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Beauce et Sologne : sécheresse structurelle",
-        body: "La Beauce (Chartres-Étampes-Pithiviers-Orléans nord) reste cette grande plaine céréalière qu'on connaît, mais elle bascule en sécheresse chronique pour 2040, avec une nappe phréatique en baisse continue et des restrictions agricoles structurelles. Ce n'est pas un refuge climatique. La Sologne (Romorantin, La Ferté-Saint-Aubin) voit ses étangs sous stress, ses forêts s'assécher et un risque d'incendie en hausse — beauté patrimoniale incontestable mais résilience climatique faible. Et les communes rurales du Loiret, du Loir-et-Cher et du Cher sont en désertification médicale et scolaire bien avancée : à choisir uniquement avec un télétravail solide et une autonomie réelle.",
+        body: "La Beauce (Chartres-Étampes-Pithiviers-Orléans nord) reste cette grande plaine céréalière qu'on connaît, mais elle bascule en sécheresse chronique pour 2040, avec une nappe phréatique en baisse continue et des restrictions agricoles structurelles. Ce n'est pas un refuge climatique. La Sologne (Romorantin, La Ferté-Saint-Aubin) voit ses étangs sous stress, ses forêts s'assécher et un risque d'incendie en hausse. Beauté patrimoniale incontestable mais résilience climatique faible. Et les communes rurales du Loiret, du Loir-et-Cher et du Cher sont en désertification médicale et scolaire bien avancée : à choisir uniquement avec un télétravail solide et une autonomie réelle.",
       },
       {
         heading: "Berry et Sud Indre : oubli stratégique 2040",
@@ -13678,7 +13678,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Adaptations stratégiques achat 2026-2030",
-        body: "À Tours, Orléans et Chartres, on vise DPE A-C, clim réversible, quartiers arborés ou hauteurs plutôt que centres denses. Au bord de Loire, on vérifie le PPRI strictement, l'altitude vs Loire et l'historique des inondations communales. En Beauce ou Sologne, on évite ou on choisit en pleine conscience (sécheresse, désertification). Dans le Berry et l'Indre, l'opportunité foncière est réelle, mais on contrôle médecine, école et fibre avant tout. Sur les vignobles (Vouvray, Chinon, Sancerre), la transition reste viable mais on évite de surpayer un terroir en mutation rapide. Et on vérifie toujours la fibre via ARCEP — la couverture rurale reste très inégale.",
+        body: "À Tours, Orléans et Chartres, on vise DPE A-C, clim réversible, quartiers arborés ou hauteurs plutôt que centres denses. Au bord de Loire, on vérifie le PPRI strictement, l'altitude vs Loire et l'historique des inondations communales. En Beauce ou Sologne, on évite ou on choisit en pleine conscience (sécheresse, désertification). Dans le Berry et l'Indre, l'opportunité foncière est réelle, mais on contrôle médecine, école et fibre avant tout. Sur les vignobles (Vouvray, Chinon, Sancerre), la transition reste viable mais on évite de surpayer un terroir en mutation rapide. Et on vérifie toujours la fibre via ARCEP : la couverture rurale reste très inégale.",
       },
       {
         heading: "Le calcul honnête : métropoles + Berry sous-coté",
@@ -13719,7 +13719,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Jura et frontaliers : pari fort 2040",
-        body: "Pontarlier (840 m), climat froid mais en réchauffement, frontaliers Suisse vers Neuchâtel et la Vallée de Joux, foncier accessible (autour de 2 200 €/m²) : refuge altitude + emploi rémunérateur, combo rare. Morteau, Maîche, Villers-le-Lac sont des bourgs frontaliers à 700-900 m, avec salaires suisses et foncier abordable — très bonne combinaison 2040. Saint-Claude et Champagnole, en Jura intérieur, gardent l'altitude, un climat préservé et un foncier très bas, mais avec un éloignement frontière notable. Lons-le-Saunier, préfecture du Jura, propose un climat plus tempéré, un foncier accessible et les services de préfecture. Et les plateaux d'Orgelet et de Nozeroy sont en refuge altitude marqué, avec un isolement réel et un foncier dérisoire pour qui sait pourquoi il vient.",
+        body: "Pontarlier (840 m), climat froid mais en réchauffement, frontaliers Suisse vers Neuchâtel et la Vallée de Joux, foncier accessible (autour de 2 200 €/m²) : refuge altitude + emploi rémunérateur, combo rare. Morteau, Maîche, Villers-le-Lac sont des bourgs frontaliers à 700-900 m, avec salaires suisses et foncier abordable : très bonne combinaison 2040. Saint-Claude et Champagnole, en Jura intérieur, gardent l'altitude, un climat préservé et un foncier très bas, mais avec un éloignement frontière notable. Lons-le-Saunier, préfecture du Jura, propose un climat plus tempéré, un foncier accessible et les services de préfecture. Et les plateaux d'Orgelet et de Nozeroy sont en refuge altitude marqué, avec un isolement réel et un foncier dérisoire pour qui sait pourquoi il vient.",
       },
       {
         heading: "Morvan et Châtillonnais : refuge oublié",
@@ -13731,7 +13731,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Adaptations stratégiques achat 2026-2030",
-        body: "À Dijon, Mâcon et Chalon, on vise DPE A-C, clim réversible, quartiers arborés ou hauteurs plutôt que centres denses. Pour le Jura frontalier, le pari est fort mais on vérifie l'accès frontière (douane, route, neige hivernale) et la fibre. Dans le Morvan et le Châtillonnais, l'opportunité est réelle mais on contrôle fibre (encore inégale), médecine et école. Sur les vignobles, on évite de surpayer un terroir en mutation rapide, on préfère les parcelles en altitude et exposition nord ou est. Le long de la Saône, on vérifie le PPRI sur les plaines inondables. Et le bâti pierre épaisse, malgré un DPE moyen, profite d'une inertie thermique qui devient un avantage canicule — bon point.",
+        body: "À Dijon, Mâcon et Chalon, on vise DPE A-C, clim réversible, quartiers arborés ou hauteurs plutôt que centres denses. Pour le Jura frontalier, le pari est fort mais on vérifie l'accès frontière (douane, route, neige hivernale) et la fibre. Dans le Morvan et le Châtillonnais, l'opportunité est réelle mais on contrôle fibre (encore inégale), médecine et école. Sur les vignobles, on évite de surpayer un terroir en mutation rapide, on préfère les parcelles en altitude et exposition nord ou est. Le long de la Saône, on vérifie le PPRI sur les plaines inondables. Et le bâti pierre épaisse, malgré un DPE moyen, profite d'une inertie thermique qui devient un avantage canicule, bon point.",
       },
       {
         heading: "Le calcul honnête : Jura frontalier + Morvan + Besançon",
@@ -13780,7 +13780,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Adaptations stratégiques achat 2026-2030",
-        body: "Avant tout achat, on vérifie le PPRIF (Plan de Prévention Risques Incendies de Forêt), obligatoire dans plus de 60 communes corses. Une maison en zone rouge feu sera difficilement assurable d'ici 2030. Le débroussaillement obligatoire (OLD) à 50 m du bâti dans les zones boisées coûte en argent et en entretien — à intégrer dans le budget annuel. La climatisation devient indispensable, l'isolation thermique critique : un DPE entre E et G sera inhabitable l'été d'ici 2030. Côté eau, on vérifie le réseau communal plutôt que le puits, et l'historique des restrictions. Sur la côte, on vérifie le PPRL, une altitude supérieure à 5 m NGF si proche mer et la distance au trait de côte. Et sur le bâti pierre traditionnel (mazets, maisons d'alpage), l'inertie thermique est un avantage, mais une isolation moderne reste souvent nécessaire.",
+        body: "Avant tout achat, on vérifie le PPRIF (Plan de Prévention Risques Incendies de Forêt), obligatoire dans plus de 60 communes corses. Une maison en zone rouge feu sera difficilement assurable d'ici 2030. Le débroussaillement obligatoire (OLD) à 50 m du bâti dans les zones boisées coûte en argent et en entretien, à intégrer dans le budget annuel. La climatisation devient indispensable, l'isolation thermique critique : un DPE entre E et G sera inhabitable l'été d'ici 2030. Côté eau, on vérifie le réseau communal plutôt que le puits, et l'historique des restrictions. Sur la côte, on vérifie le PPRL, une altitude supérieure à 5 m NGF si proche mer et la distance au trait de côte. Et sur le bâti pierre traditionnel (mazets, maisons d'alpage), l'inertie thermique est un avantage, mais une isolation moderne reste souvent nécessaire.",
       },
       {
         heading: "Profils pour qui ça marche",
@@ -13821,7 +13821,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Métropoles et villes bien positionnées 2040",
-        body: "Annecy garde un climat tempéré relatif grâce à son lac (effet régulateur), des services complets et une qualité de vie élevée — mais avec un foncier saturé autour de 5 500 €/m². Excellent climat 2040, mais cher. Chambéry, préfecture de Savoie, propose un climat continental modéré, université, foncier accessible (autour de 3 500 €/m²) et accès TGV. Grenoble joue la métropole : climat de vallée plus chaud mais services maximaux (université, CHU, recherche), foncier accessible. Les quartiers en hauteur (Chartreuse pied, Vercors pied) prennent l'avantage sur la vallée centrale. Aix-les-Bains profite du climat du lac du Bourget, tempéré, avec services thermalisme et foncier accessible. Et Albertville et Saint-Jean-de-Maurienne sont des vallées dynamiques industrielles, à foncier très accessible et climat de vallée.",
+        body: "Annecy garde un climat tempéré relatif grâce à son lac (effet régulateur), des services complets et une qualité de vie élevée, mais avec un foncier saturé autour de 5 500 €/m². Excellent climat 2040, mais cher. Chambéry, préfecture de Savoie, propose un climat continental modéré, université, foncier accessible (autour de 3 500 €/m²) et accès TGV. Grenoble joue la métropole : climat de vallée plus chaud mais services maximaux (université, CHU, recherche), foncier accessible. Les quartiers en hauteur (Chartreuse pied, Vercors pied) prennent l'avantage sur la vallée centrale. Aix-les-Bains profite du climat du lac du Bourget, tempéré, avec services thermalisme et foncier accessible. Et Albertville et Saint-Jean-de-Maurienne sont des vallées dynamiques industrielles, à foncier très accessible et climat de vallée.",
       },
       {
         heading: "Vrai refuge climatique : plateaux et bourgs altitude",
@@ -13829,7 +13829,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Zones à arbitrer prudemment",
-        body: "Les stations de ski moyenne montagne (1000 à 1500 m) — Megève bas, Combloux, Saint-Gervais bas, Pralognan, Aussois, La Norma, Notre-Dame-de-Bellecombe — voient leur enneigement chuter, leur modèle économique en transition et leur foncier sous pression baissière long-terme. La vallée de l'Arve (Bonneville, Cluses, Sallanches) subit une pollution chronique hivernale (combustion plus effet de relief), aggravée par le réchauffement. La vallée du Grésivaudan (Crolles, Le Touvet basse) cumule climat de vallée chaud et ozone l'été, mais avec accès Grenoble-Chambéry. La côte Léman bas (Évian, Thonon) garde son climat doux, mais avec saturation touristique et foncier élevé. Et les plaines d'Embrun et de Gap basse altitude basculent vers un climat chaud sec, avec une sécheresse en hausse.",
+        body: "Les stations de ski moyenne montagne (1000 à 1500 m), Megève bas, Combloux, Saint-Gervais bas, Pralognan, Aussois, La Norma, Notre-Dame-de-Bellecombe, voient leur enneigement chuter, leur modèle économique en transition et leur foncier sous pression baissière long-terme. La vallée de l'Arve (Bonneville, Cluses, Sallanches) subit une pollution chronique hivernale (combustion plus effet de relief), aggravée par le réchauffement. La vallée du Grésivaudan (Crolles, Le Touvet basse) cumule climat de vallée chaud et ozone l'été, mais avec accès Grenoble-Chambéry. La côte Léman bas (Évian, Thonon) garde son climat doux, mais avec saturation touristique et foncier élevé. Et les plaines d'Embrun et de Gap basse altitude basculent vers un climat chaud sec, avec une sécheresse en hausse.",
       },
       {
         heading: "L'enjeu 2040 : économie ski en mutation",
@@ -13870,7 +13870,7 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Ce qui change d'ici 2040 (projections GIEC + Météo-France)",
-        body: "On attend +1,5 à +2,5 °C selon DROM d'ici 2040. Les cyclones ne deviennent pas plus fréquents mais plus intenses : la proportion de cyclones catégorie 4-5 est en hausse (Irma 2017 à Saint-Martin, Maria 2017 dans les Caraïbes, c'était l'avant-goût). La mer monte de 15 à 25 cm d'ici 2050, et 30 à 60 cm d'ici 2100 — fortement impactant pour les îles basses (Mayotte, certaines parties de Guadeloupe). La sécheresse s'aggrave : déficits hydriques saison sèche en hausse de 30 à 50 % aux Antilles. La biodiversité paie cher : les récifs coralliens blanchissent (plus de 50 % déjà touchés dans les Caraïbes), les forêts tropicales sont sous pression. L'eau devient une tension structurelle en Martinique, Guadeloupe, Mayotte. Et l'énergie reste très dépendante d'imports en combustibles fossiles, donc fragile.",
+        body: "On attend +1,5 à +2,5 °C selon DROM d'ici 2040. Les cyclones ne deviennent pas plus fréquents mais plus intenses : la proportion de cyclones catégorie 4-5 est en hausse (Irma 2017 à Saint-Martin, Maria 2017 dans les Caraïbes, c'était l'avant-goût). La mer monte de 15 à 25 cm d'ici 2050, et 30 à 60 cm d'ici 2100, fortement impactant pour les îles basses (Mayotte, certaines parties de Guadeloupe). La sécheresse s'aggrave : déficits hydriques saison sèche en hausse de 30 à 50 % aux Antilles. La biodiversité paie cher : les récifs coralliens blanchissent (plus de 50 % déjà touchés dans les Caraïbes), les forêts tropicales sont sous pression. L'eau devient une tension structurelle en Martinique, Guadeloupe, Mayotte. Et l'énergie reste très dépendante d'imports en combustibles fossiles, donc fragile.",
       },
       {
         heading: "La Réunion : altitude protectrice, côte exposée",
@@ -13878,7 +13878,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Martinique : ressource eau critique 2040",
-        body: "La Martinique fait environ 1100 km², sans gradient altitudinal majeur — la Montagne Pelée monte à 1397 m mais l'île compte peu de plateaux. Plusieurs vulnérabilités structurent 2040. L'eau d'abord : la Martinique connaît des crises hydriques récurrentes (2020, 2022) liées à une infrastructure vétuste plus la sécheresse, et la situation est projetée à empirer en 2040. Les cyclones ensuite : exposition Atlantique-Caraïbes complète. La pollution chlordécone : héritage agricole qui continue de contaminer terres et eaux. Et les sargasses : échouages massifs d'algues sur les côtes, avec impact sur la santé respiratoire et le tourisme. Pour acheter : Fort-de-France et Schoelcher restent les métropoles de services, les hauteurs de la Pelée (Morne-Rouge, Ajoupa-Bouillon) offrent une fraîcheur relative, la côte Caraïbe ouest est plus protégée des cyclones que la côte Atlantique. À vérifier également : la contamination chlordécone, dont les cartes IGN sont disponibles.",
+        body: "La Martinique fait environ 1100 km², sans gradient altitudinal majeur : la Montagne Pelée monte à 1397 m mais l'île compte peu de plateaux. Plusieurs vulnérabilités structurent 2040. L'eau d'abord : la Martinique connaît des crises hydriques récurrentes (2020, 2022) liées à une infrastructure vétuste plus la sécheresse, et la situation est projetée à empirer en 2040. Les cyclones ensuite : exposition Atlantique-Caraïbes complète. La pollution chlordécone : héritage agricole qui continue de contaminer terres et eaux. Et les sargasses : échouages massifs d'algues sur les côtes, avec impact sur la santé respiratoire et le tourisme. Pour acheter : Fort-de-France et Schoelcher restent les métropoles de services, les hauteurs de la Pelée (Morne-Rouge, Ajoupa-Bouillon) offrent une fraîcheur relative, la côte Caraïbe ouest est plus protégée des cyclones que la côte Atlantique. À vérifier également : la contamination chlordécone, dont les cartes IGN sont disponibles.",
       },
       {
         heading: "Guadeloupe : archipel à risque inégal",
@@ -13894,7 +13894,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Adaptations stratégiques achat DROM 2026-2030",
-        body: "Avant tout, on vérifie les PPR (Plans de Prévention des Risques) : cyclones, submersion marine, mouvements de terrain, séismes — document accessible en mairie. On cible l'altitude à la Réunion, Martinique et Basse-Terre, refuges climatiques relatifs. Le bâti anti-cyclonique est obligatoire : toiture renforcée, volets cyclone, ancrages structurels, conformité à la norme cyclone à vérifier. Côté eau, la citerne de récupération de pluie devient pertinente partout (sécheresses chroniques), avec un réseau communal à contrôler en parallèle. Le solaire est massivement pertinent et l'autonomie partielle valorisable. La sismicité Antilles plus Mayotte impose un bâti aux normes parasismiques. La chlordécone en Martinique et Guadeloupe oblige à consulter les cartes IGN pour éviter les terres contaminées (notamment pour potager). Et les assurances voient leurs primes en forte hausse, avec certains assureurs qui refusent désormais les zones rouges.",
+        body: "Avant tout, on vérifie les PPR (Plans de Prévention des Risques) : cyclones, submersion marine, mouvements de terrain, séismes, document accessible en mairie. On cible l'altitude à la Réunion, Martinique et Basse-Terre, refuges climatiques relatifs. Le bâti anti-cyclonique est obligatoire : toiture renforcée, volets cyclone, ancrages structurels, conformité à la norme cyclone à vérifier. Côté eau, la citerne de récupération de pluie devient pertinente partout (sécheresses chroniques), avec un réseau communal à contrôler en parallèle. Le solaire est massivement pertinent et l'autonomie partielle valorisable. La sismicité Antilles plus Mayotte impose un bâti aux normes parasismiques. La chlordécone en Martinique et Guadeloupe oblige à consulter les cartes IGN pour éviter les terres contaminées (notamment pour potager). Et les assurances voient leurs primes en forte hausse, avec certains assureurs qui refusent désormais les zones rouges.",
       },
       {
         heading: "Le calcul honnête : DROM = choix de vie, pas refuge climatique",
@@ -14025,7 +14025,7 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Le seuil critique : 5 services indispensables",
-        body: "Pour qu'une petite ville soit autonome au quotidien sans dépendre constamment d'une métropole, elle doit cumuler : (1) **Hôpital** avec urgences 24/7 (≥1 par ville structurante). (2) **Connectivité** : TGV/Intercités à <2h Paris ou TER vers métropole <1h. (3) **Fibre FTTH** couverture >85 % (ARCEP 2025). (4) **Écoles** : maternelle + primaire + collège + lycée public général. (5) **Vie culturelle** : médiathèque, cinéma, conservatoire ou école musique, restaurants variés. Sous 30 000 habitants, ces 5 services co-existent rarement — c'est l'exception qui fait la valeur d'une petite ville.",
+        body: "Pour qu'une petite ville soit autonome au quotidien sans dépendre constamment d'une métropole, elle doit cumuler : (1) **Hôpital** avec urgences 24/7 (≥1 par ville structurante). (2) **Connectivité** : TGV/Intercités à <2h Paris ou TER vers métropole <1h. (3) **Fibre FTTH** couverture >85 % (ARCEP 2025). (4) **Écoles** : maternelle + primaire + collège + lycée public général. (5) **Vie culturelle** : médiathèque, cinéma, conservatoire ou école musique, restaurants variés. Sous 30 000 habitants, ces 5 services co-existent rarement : c'est l'exception qui fait la valeur d'une petite ville.",
       },
       {
         heading: "Façade Atlantique — Pays de la Loire, Bretagne, Nouvelle-Aquitaine",
@@ -14049,7 +14049,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Le calcul honnête : choisir au-delà du score global",
-        body: "Petite ville <50 000 = compromis assumé entre qualité de vie + foncier accessible et services moins denses qu'en métropole. Ce qui fonctionne : (1) Profil télétravailleur avec fibre + accès TGV ponctuel. (2) Famille avec enfants en âge primaire-collège (lycée local suffit jusqu'au bac). (3) Retraités cherchant ville structurante + verdure. (4) Couples cherchant logement abordable et qualité de vie. Ce qui ne marche pas : (1) Carrière nécessitant changements fréquents d'employeur (offres d'emploi cadre limitées localement). (2) Besoins médicaux spécialisés réguliers (radiothérapie, transplantation — souvent à 1-2h métropole). (3) Vie nocturne intense, scène culturelle métropolitaine. (4) Familles avec adolescents demandant grande offre activités/sorties. Le meilleur pari : viser une petite ville à <1h d'une métropole (TER ou voiture) — on a le foncier accessible + la culture/services métropolitains accessibles ponctuellement.",
+        body: "Petite ville <50 000 = compromis assumé entre qualité de vie + foncier accessible et services moins denses qu'en métropole. Ce qui fonctionne : (1) Profil télétravailleur avec fibre + accès TGV ponctuel. (2) Famille avec enfants en âge primaire-collège (lycée local suffit jusqu'au bac). (3) Retraités cherchant ville structurante + verdure. (4) Couples cherchant logement abordable et qualité de vie. Ce qui ne marche pas : (1) Carrière nécessitant changements fréquents d'employeur (offres d'emploi cadre limitées localement). (2) Besoins médicaux spécialisés réguliers (radiothérapie, transplantation, souvent à 1-2h métropole). (3) Vie nocturne intense, scène culturelle métropolitaine. (4) Familles avec adolescents demandant grande offre activités/sorties. Le meilleur pari : viser une petite ville à <1h d'une métropole (TER ou voiture) : on a le foncier accessible + la culture/services métropolitains accessibles ponctuellement.",
       },
     ],
     relatedCities: ["saint-malo", "colmar", "aurillac", "rodez", "auxerre"],
@@ -14180,7 +14180,7 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Les 3 facteurs critiques pour freelance",
-        body: "(1) **Connectivité** : fibre FTTH symétrique ≥1 Gbit/s (vital pour visio, transferts, cloud). Vérifier sur ARCEP 'Ma Connexion Internet'. (2) **Écosystème** : présence de coworkings ouverts, d'événements pro/networking réguliers (meetups tech, business club, salon), de profils similaires (freelances, startups, indépendants). (3) **Accessibilité métropole** : TGV ou aéroport pour rejoindre Paris/Lyon en 2-3h max — utile pour clients présentiels, conférences, prospection ponctuelle. Sans ces 3 facteurs, le freelance en province devient un isolement professionnel risqué à 1-2 ans.",
+        body: "(1) **Connectivité** : fibre FTTH symétrique ≥1 Gbit/s (vital pour visio, transferts, cloud). Vérifier sur ARCEP 'Ma Connexion Internet'. (2) **Écosystème** : présence de coworkings ouverts, d'événements pro/networking réguliers (meetups tech, business club, salon), de profils similaires (freelances, startups, indépendants). (3) **Accessibilité métropole** : TGV ou aéroport pour rejoindre Paris/Lyon en 2-3h max, utile pour clients présentiels, conférences, prospection ponctuelle. Sans ces 3 facteurs, le freelance en province devient un isolement professionnel risqué à 1-2 ans.",
       },
       {
         heading: "Top 10 villes freelance-friendly 2026",
@@ -14196,7 +14196,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Pièges classiques du freelance en province",
-        body: "(1) **Isolement professionnel** : sans coworking ni meetups, on perd le pouls de son marché en 6-12 mois. Solution : viser une ville avec ≥3 coworkings et ≥1 meetup mensuel pro. (2) **Clients trop locaux** : se cantonner à des clients de proximité divise les revenus par 2-3 vs Paris. Solution : maintenir clients à distance (visio, livrables online). (3) **Fibre absente ou poussive** : 30 % des communes <10 000 hab n'ont pas encore la fibre stable en 2026. Vérifier impérativement avant emménagement. (4) **Surévaluation foncière** : Annecy, Bordeaux, Bayonne, Lyon — le freelance s'y installe nombreux, fait monter les prix. (5) **Isolement géographique** : si ville >3h de la métropole client, le présentiel ponctuel devient lourd. (6) **Pas d'événement pro** : viser ville avec calendrier de meetups/salons. (7) **Famille mal intégrée** : freelance + télétravail = présence à la maison renforcée, attention à l'équilibre conjugal et parental.",
+        body: "(1) **Isolement professionnel** : sans coworking ni meetups, on perd le pouls de son marché en 6-12 mois. Solution : viser une ville avec ≥3 coworkings et ≥1 meetup mensuel pro. (2) **Clients trop locaux** : se cantonner à des clients de proximité divise les revenus par 2-3 vs Paris. Solution : maintenir clients à distance (visio, livrables online). (3) **Fibre absente ou poussive** : 30 % des communes <10 000 hab n'ont pas encore la fibre stable en 2026. Vérifier impérativement avant emménagement. (4) **Surévaluation foncière** : Annecy, Bordeaux, Bayonne, Lyon : le freelance s'y installe nombreux, fait monter les prix. (5) **Isolement géographique** : si ville >3h de la métropole client, le présentiel ponctuel devient lourd. (6) **Pas d'événement pro** : viser ville avec calendrier de meetups/salons. (7) **Famille mal intégrée** : freelance + télétravail = présence à la maison renforcée, attention à l'équilibre conjugal et parental.",
       },
       {
         heading: "Le calcul honnête : ville métropole secondaire + écosystème local",
@@ -15133,7 +15133,7 @@ export const GUIDES: Guide[] = [
     publishedAt: "2026-05-15",
     updatedAt: "2026-01-03",
     intro:
-      "L'encadrement des loyers s'étend en 2026 — 28 villes concernées (vs 5 en 2021), plafonds revus annuellement, sanctions renforcées. Pour les investisseurs locatifs, l'enjeu est de comprendre où le dispositif s'applique vraiment, comment fixer un loyer conforme, et quelles alternatives existent pour optimiser malgré l'encadrement.",
+      "L'encadrement des loyers s'étend en 2026 : 28 villes concernées (vs 5 en 2021), plafonds revus annuellement, sanctions renforcées. Pour les investisseurs locatifs, l'enjeu est de comprendre où le dispositif s'applique vraiment, comment fixer un loyer conforme, et quelles alternatives existent pour optimiser malgré l'encadrement.",
     sections: [
       {
         heading: "Encadrement loyers — état des lieux 2026",
@@ -15332,7 +15332,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Profil 4 — Acheter en viager — pour qui ça marche",
-        body: "Niche très spécifique mais pertinente pour 50-65 ans. (1) **Principe** : acheter à une personne âgée (75+) qui reste dans le logement jusqu'à son décès. Prix décoté + rente viagère mensuelle. (2) **Acheteur typique 2026** : 50-65 ans avec capital + revenus stables. (3) **Avantage** : prix de marché ×60-75 %, étalement paiement, propriété future. (4) **Risque principal** : vendeur vit longtemps (au-delà des projections actuarielles). Calcul rente sur table de mortalité INSEE. (5) **Variantes** : (a) **Viager occupé** : vendeur reste, prix le plus décoté. (b) **Viager libre** : vendeur quitte, prix moins décoté, acheteur peut louer. (6) **Cas favorable** : viager occupé d'une personne de 80+ ans avec espérance de vie moyenne 8-10 ans = excellent calcul. (7) **Pièges** : (a) Vendeur en bonne santé, longévité. (b) Frais d'entretien gros œuvre à charge acheteur. (c) Rente indexée annuellement (souvent IRL ou Insee inflation). (d) Acceptation morale : 'attendre' implicitement la mort du vendeur — éthique personnelle à clarifier.",
+        body: "Niche très spécifique mais pertinente pour 50-65 ans. (1) **Principe** : acheter à une personne âgée (75+) qui reste dans le logement jusqu'à son décès. Prix décoté + rente viagère mensuelle. (2) **Acheteur typique 2026** : 50-65 ans avec capital + revenus stables. (3) **Avantage** : prix de marché ×60-75 %, étalement paiement, propriété future. (4) **Risque principal** : vendeur vit longtemps (au-delà des projections actuarielles). Calcul rente sur table de mortalité INSEE. (5) **Variantes** : (a) **Viager occupé** : vendeur reste, prix le plus décoté. (b) **Viager libre** : vendeur quitte, prix moins décoté, acheteur peut louer. (6) **Cas favorable** : viager occupé d'une personne de 80+ ans avec espérance de vie moyenne 8-10 ans = excellent calcul. (7) **Pièges** : (a) Vendeur en bonne santé, longévité. (b) Frais d'entretien gros œuvre à charge acheteur. (c) Rente indexée annuellement (souvent IRL ou Insee inflation). (d) Acceptation morale : 'attendre' implicitement la mort du vendeur, éthique personnelle à clarifier.",
       },
       {
         heading: "Prêt et assurance emprunteur 50-65 ans",
@@ -15405,7 +15405,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Le calcul honnête : 2026 est probablement une bonne année",
-        body: "Pour la majorité des acheteurs en 2026 : (1) Le marché est en bas de cycle, négociation possible. (2) Taux 3,4-4 % en baisse projetée — pas optimaux mais acceptables. (3) Stocks DPE F/G nombreux = opportunités de rénovation. (4) Tension acheteurs/vendeurs équilibrée — délai de réflexion possible. **Recommandation par profil** : (a) **Primo-accédant prêt** : acheter en 2026, profiter PTZ + correction prix. (b) **Famille déménagement nécessaire** : 2026, négocier ferme (-5 à -8 %). (c) **Investisseur locatif rendement** : 2026 plancher probable, viser hors-encadrement (Lille, Reims, Tours, Strasbourg). (d) **Acheteur sans urgence et flexible** : possible d'attendre 2027 pour meilleurs taux, mais marge limitée. (e) **Spéculateur revente 10+ ans** : 2026 entrée intelligente. **Mantra** : le meilleur moment d'acheter de l'immobilier était il y a 5 ans, le deuxième meilleur moment c'est maintenant. Inertie immobilière française = stratégie long terme bat presque toujours le timing court terme.",
+        body: "Pour la majorité des acheteurs en 2026 : (1) Le marché est en bas de cycle, négociation possible. (2) Taux 3,4-4 % en baisse projetée, pas optimaux mais acceptables. (3) Stocks DPE F/G nombreux = opportunités de rénovation. (4) Tension acheteurs/vendeurs équilibrée, délai de réflexion possible. **Recommandation par profil** : (a) **Primo-accédant prêt** : acheter en 2026, profiter PTZ + correction prix. (b) **Famille déménagement nécessaire** : 2026, négocier ferme (-5 à -8 %). (c) **Investisseur locatif rendement** : 2026 plancher probable, viser hors-encadrement (Lille, Reims, Tours, Strasbourg). (d) **Acheteur sans urgence et flexible** : possible d'attendre 2027 pour meilleurs taux, mais marge limitée. (e) **Spéculateur revente 10+ ans** : 2026 entrée intelligente. **Mantra** : le meilleur moment d'acheter de l'immobilier était il y a 5 ans, le deuxième meilleur moment c'est maintenant. Inertie immobilière française = stratégie long terme bat presque toujours le timing court terme.",
       },
     ],
     relatedCities: ["lyon", "bordeaux", "nantes", "toulouse", "rennes"],
@@ -15491,7 +15491,7 @@ export const GUIDES: Guide[] = [
     publishedAt: "2026-05-15",
     updatedAt: "2026-03-18",
     intro:
-      "Acheter sa résidence principale avec un seul salaire — qu'on soit célibataire, parent solo ou couple avec un seul actif — devient un défi sérieux en 2026. Les conditions HCSF strictes (35 % taux d'effort), les prix immobiliers toujours élevés en métropole, et les taux 3,5-4 % limitent les options. Voici la lecture honnête, par tranche de salaire et par profil.",
+      "Acheter sa résidence principale avec un seul salaire (qu'on soit célibataire, parent solo ou couple avec un seul actif) devient un défi sérieux en 2026. Les conditions HCSF strictes (35 % taux d'effort), les prix immobiliers toujours élevés en métropole, et les taux 3,5-4 % limitent les options. Voici la lecture honnête, par tranche de salaire et par profil.",
     sections: [
       {
         heading: "Capacité d'emprunt mono-revenu 2026",
@@ -15942,7 +15942,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Pièges classiques",
-        body: "(1) **Sur-évaluer le CA repris** : vendeur exhibe meilleure année, vérifier 5 ans bilans + 3 ans déclarations TVA. Demander expertise-comptable indépendant 800-1 500 €. (2) **Compétences absentes** : reprendre boulangerie sans CAP = embaucher boulanger (salaire 2 200-2 800 €) = marge réduite. Anticiper. (3) **Logement + commerce mêlés** : juridique compliqué — souvent SCI distincte pour bien immobilier + société d'exploitation pour fonds. (4) **Charge mentale couple** : reprise = engagement 2 conjoints souvent. Conflit fréquent (rythme, vacances, salaires divergents). (5) **Saisonnalité touristique** : commerce saisonnier = 8 mois pour faire CA de l'année. Trésorerie hivernale critique. (6) **Bâtiments anciens** : commerce historique avec mises aux normes lourdes (accessibilité PMR, hygiène, énergie). Budget 30-80 k€. (7) **Suivi clients vendeur** : la moitié des clients suivent par habitude personnelle (relation vendeur), perdent à reprise. Anticiper baisse CA 15-25 % an 1. (8) **Loi Pinel 2014** baux commerciaux : durée 9 ans avec rupture triennale, encadrement loyer. Vérifier conditions exactes.",
+        body: "(1) **Sur-évaluer le CA repris** : vendeur exhibe meilleure année, vérifier 5 ans bilans + 3 ans déclarations TVA. Demander expertise-comptable indépendant 800-1 500 €. (2) **Compétences absentes** : reprendre boulangerie sans CAP = embaucher boulanger (salaire 2 200-2 800 €) = marge réduite. Anticiper. (3) **Logement + commerce mêlés** : juridique compliqué : souvent SCI distincte pour bien immobilier + société d'exploitation pour fonds. (4) **Charge mentale couple** : reprise = engagement 2 conjoints souvent. Conflit fréquent (rythme, vacances, salaires divergents). (5) **Saisonnalité touristique** : commerce saisonnier = 8 mois pour faire CA de l'année. Trésorerie hivernale critique. (6) **Bâtiments anciens** : commerce historique avec mises aux normes lourdes (accessibilité PMR, hygiène, énergie). Budget 30-80 k€. (7) **Suivi clients vendeur** : la moitié des clients suivent par habitude personnelle (relation vendeur), perdent à reprise. Anticiper baisse CA 15-25 % an 1. (8) **Loi Pinel 2014** baux commerciaux : durée 9 ans avec rupture triennale, encadrement loyer. Vérifier conditions exactes.",
       },
       {
         heading: "Le calcul honnête : excellente reconversion pour profil engagé",
@@ -16003,7 +16003,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Pièges classiques",
-        body: "(1) **Acheter Denormandie sans connaître marché locatif local** : commune éligible Denormandie mais marché locatif faible = vacance + rendement déçu. Étudier marché AVANT achat. (2) **Sous-évaluer coût rénovation** : Denormandie exige travaux ≥ 25 % du prix achat. Dépassements fréquents (+30-50 %). (3) **Plafond loyer Denormandie strict** : 10 €/m² typique zones B/C, vs marché 12-14 €/m². Rendement attendu en baisse. (4) **Encadrement loyers communal** : certaines villes Denormandie (Limoges, Saint-Étienne) sont aussi encadrées ! Cumul de plafonds. Vérifier. (5) **LMNP réformes en cours** : abattement micro-BIC saisonnier non classé baissé à 30 %, possibles autres réformes 2026-2027. Préférer régime réel. (6) **Pinel en cours** : si engagement 12 ans, ne pas céder même si prix optimal — perte rétroactive. (7) **LLI marché secondaire** : peu liquide, cession compliquée avant 15 ans. (8) **Plus-value Denormandie** : pas d'avantage spécifique, abattement durée détention classique.",
+        body: "(1) **Acheter Denormandie sans connaître marché locatif local** : commune éligible Denormandie mais marché locatif faible = vacance + rendement déçu. Étudier marché AVANT achat. (2) **Sous-évaluer coût rénovation** : Denormandie exige travaux ≥ 25 % du prix achat. Dépassements fréquents (+30-50 %). (3) **Plafond loyer Denormandie strict** : 10 €/m² typique zones B/C, vs marché 12-14 €/m². Rendement attendu en baisse. (4) **Encadrement loyers communal** : certaines villes Denormandie (Limoges, Saint-Étienne) sont aussi encadrées ! Cumul de plafonds. Vérifier. (5) **LMNP réformes en cours** : abattement micro-BIC saisonnier non classé baissé à 30 %, possibles autres réformes 2026-2027. Préférer régime réel. (6) **Pinel en cours** : si engagement 12 ans, ne pas céder même si prix optimal : perte rétroactive. (7) **LLI marché secondaire** : peu liquide, cession compliquée avant 15 ans. (8) **Plus-value Denormandie** : pas d'avantage spécifique, abattement durée détention classique.",
       },
       {
         heading: "Le calcul honnête : Denormandie + LMNP réel = duo gagnant 2026",
@@ -16365,7 +16365,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Pièges classiques DPE et diagnostics",
-        body: "(1) **DPE 'arrangé'** : certains diagnostiqueurs sous-estiment volontairement. Demander noms 3 diagnostiqueurs alternatifs pour comparer. (2) **DPE 'mythique' < 2021** : ancienne méthode souvent fausse (surévaluait performance). Tous DPE > 2018 < 2021 invalides depuis 2024 — exiger DPE récent. (3) **Ignorer audit énergétique** : achat DPE F sans connaître coût rénovation = piège budget. (4) **Sous-estimer travaux** : 30-50 % de dépassement moyen sur rénovation énergétique. Garder réserve. (5) **Aides MaPrimeRénov'** : non rétroactives. Toujours demander aide AVANT engager travaux. (6) **Étiquette climat** ignorée : un DPE C peut être incompatible 2034 si étiquette climat E (DPE est pris au moins favorable des deux étiquettes). (7) **Bâtiment classé** : Monuments Historiques exemptés, mais autres bâtiments anciens non. Restauration patrimoine + DPE = casse-tête. (8) **Achat sans DPE** : depuis 2021, sanctions lourdes pour vendeur (annulation possible vente).",
+        body: "(1) **DPE 'arrangé'** : certains diagnostiqueurs sous-estiment volontairement. Demander noms 3 diagnostiqueurs alternatifs pour comparer. (2) **DPE 'mythique' < 2021** : ancienne méthode souvent fausse (surévaluait performance). Tous DPE > 2018 < 2021 invalides depuis 2024 : exiger DPE récent. (3) **Ignorer audit énergétique** : achat DPE F sans connaître coût rénovation = piège budget. (4) **Sous-estimer travaux** : 30-50 % de dépassement moyen sur rénovation énergétique. Garder réserve. (5) **Aides MaPrimeRénov'** : non rétroactives. Toujours demander aide AVANT engager travaux. (6) **Étiquette climat** ignorée : un DPE C peut être incompatible 2034 si étiquette climat E (DPE est pris au moins favorable des deux étiquettes). (7) **Bâtiment classé** : Monuments Historiques exemptés, mais autres bâtiments anciens non. Restauration patrimoine + DPE = casse-tête. (8) **Achat sans DPE** : depuis 2021, sanctions lourdes pour vendeur (annulation possible vente).",
       },
       {
         heading: "Le calcul honnête : DPE = critère central 2026",
@@ -16475,7 +16475,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Quartiers gares TGV — opportunités 2026",
-        body: "(1) **Reims gare TGV centre** : Paris 45 min, ZAC Sernam en transformation, prix 3 000-4 200 €/m². Sweet spot. (2) **Le Mans gare** : Paris 50 min, services, prix 2 200-3 000 €/m². Excellent ratio. (3) **Tours gare** : Paris 1h, université, services. Prix 2 800-3 800 €/m². (4) **Lille gare** : Paris 1h, Bruxelles 35 min, métropole. Premium 3 500-5 000 €/m². (5) **Strasbourg gare** : Paris 1h45, prix 3 500-4 800 €/m². (6) **Aix-en-Provence TGV** : éloigné du centre, peu intéressant pour résidence principale. (7) **Avignon TGV** : éloigné centre. (8) **Nantes gare** : prix 3 800-5 200 €/m². (9) **Bordeaux gare** : zone Belcier en transformation, prix 4 000-5 500 €/m². **Stratégie** : viser logement à 300-800 m de la gare TGV (5-10 min à pied) — patrimoine + accès sans nuisance bruit infrastructure.",
+        body: "(1) **Reims gare TGV centre** : Paris 45 min, ZAC Sernam en transformation, prix 3 000-4 200 €/m². Sweet spot. (2) **Le Mans gare** : Paris 50 min, services, prix 2 200-3 000 €/m². Excellent ratio. (3) **Tours gare** : Paris 1h, université, services. Prix 2 800-3 800 €/m². (4) **Lille gare** : Paris 1h, Bruxelles 35 min, métropole. Premium 3 500-5 000 €/m². (5) **Strasbourg gare** : Paris 1h45, prix 3 500-4 800 €/m². (6) **Aix-en-Provence TGV** : éloigné du centre, peu intéressant pour résidence principale. (7) **Avignon TGV** : éloigné centre. (8) **Nantes gare** : prix 3 800-5 200 €/m². (9) **Bordeaux gare** : zone Belcier en transformation, prix 4 000-5 500 €/m². **Stratégie** : viser logement à 300-800 m de la gare TGV (5-10 min à pied) : patrimoine + accès sans nuisance bruit infrastructure.",
       },
       {
         heading: "Quartiers à éviter (bruit infrastructure)",
@@ -16552,7 +16552,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Le calcul honnête : 5 ans = horizon réaliste avec discipline",
-        body: "Devenir propriétaire en 5 ans en France 2026 est réaliste pour : (1) **CDI confirmé** salaire 2 500-5 000 €/mois sans charges familiales lourdes. (2) **Capacité épargne** 300-800 €/mois soutenue. (3) **Mobilité géographique** acceptée vers ville moyenne ou métropole secondaire. (4) **Discipline financière** : pas de découvert, pas de crédit consommation, vie sous moyens. **À éviter** : projet 5 ans pour acheter Paris centre / Lyon Croix-Rousse / Bordeaux Chartrons avec apport modeste — pas réaliste sans capital familial. **Sweet spot 2026** : (a) Cadre 28-32 ans, salaire 3 200 €, apport visé 50 k€, achat T2-T3 à 220-280 k€ dans Lille, Reims, Tours, Strasbourg, Nantes, Bordeaux périphérie, Lyon périphérie. (b) Couple cadres 32-38 ans, salaires cumulés 6 500 €, apport visé 80 k€, achat T3-T4 à 350-450 k€ dans métropole sweet spot. **Recommandation finale** : démarrer plan dès aujourd'hui même sans achat immédiat. Le plus tôt, le mieux. À 25 ans avec discipline = propriétaire à 30. À 35 ans sans plan = propriétaire à 45.",
+        body: "Devenir propriétaire en 5 ans en France 2026 est réaliste pour : (1) **CDI confirmé** salaire 2 500-5 000 €/mois sans charges familiales lourdes. (2) **Capacité épargne** 300-800 €/mois soutenue. (3) **Mobilité géographique** acceptée vers ville moyenne ou métropole secondaire. (4) **Discipline financière** : pas de découvert, pas de crédit consommation, vie sous moyens. **À éviter** : projet 5 ans pour acheter Paris centre / Lyon Croix-Rousse / Bordeaux Chartrons avec apport modeste : pas réaliste sans capital familial. **Sweet spot 2026** : (a) Cadre 28-32 ans, salaire 3 200 €, apport visé 50 k€, achat T2-T3 à 220-280 k€ dans Lille, Reims, Tours, Strasbourg, Nantes, Bordeaux périphérie, Lyon périphérie. (b) Couple cadres 32-38 ans, salaires cumulés 6 500 €, apport visé 80 k€, achat T3-T4 à 350-450 k€ dans métropole sweet spot. **Recommandation finale** : démarrer plan dès aujourd'hui même sans achat immédiat. Le plus tôt, le mieux. À 25 ans avec discipline = propriétaire à 30. À 35 ans sans plan = propriétaire à 45.",
       },
     ],
     relatedCities: ["lyon", "bordeaux", "nantes", "lille", "rennes"],
@@ -16772,7 +16772,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Services attendus dans bourg 2 000 hab",
-        body: "(1) **École primaire** : présence quasi-systématique. Effectif 50-180 élèves toutes classes. Souvent regroupement pédagogique intercommunal (RPI) si commune voisine plus petite. (2) **Collège** : pas dans bourg 2 000 hab. À 8-25 km dans chef-lieu canton. Ramassage scolaire matin/soir. (3) **Médecin généraliste** : 60-80 % bourgs 2 000 hab en ont au moins 1. Difficulté croissante 2020+, médecin parfois temps partagé entre 2-3 bourgs. (4) **Pharmacie** : présente dans 70 % bourgs 2 000 hab. (5) **Boulangerie** : 1-2 typique. Indispensable. (6) **Supérette / petit supermarché** : 70 % bourgs en ont. Marques Coccinelle, Vival, Carrefour Contact, Spar, Casino Shop. (7) **Café/Bar** : 1-2 typique. (8) **Tabac/presse** : souvent combiné café/bar. (9) **Mairie + services administratifs** : pour démarches courantes (état civil, urbanisme). (10) **Bibliothèque/médiathèque** : 60 % bourgs. (11) **Salle des fêtes/sport** : pour vie associative. (12) **Banque** : agence ou ATM (distributeur) — souvent. (13) **Poste** : agence postale communale (APC) si moins de poste classique.",
+        body: "(1) **École primaire** : présence quasi-systématique. Effectif 50-180 élèves toutes classes. Souvent regroupement pédagogique intercommunal (RPI) si commune voisine plus petite. (2) **Collège** : pas dans bourg 2 000 hab. À 8-25 km dans chef-lieu canton. Ramassage scolaire matin/soir. (3) **Médecin généraliste** : 60-80 % bourgs 2 000 hab en ont au moins 1. Difficulté croissante 2020+, médecin parfois temps partagé entre 2-3 bourgs. (4) **Pharmacie** : présente dans 70 % bourgs 2 000 hab. (5) **Boulangerie** : 1-2 typique. Indispensable. (6) **Supérette / petit supermarché** : 70 % bourgs en ont. Marques Coccinelle, Vival, Carrefour Contact, Spar, Casino Shop. (7) **Café/Bar** : 1-2 typique. (8) **Tabac/presse** : souvent combiné café/bar. (9) **Mairie + services administratifs** : pour démarches courantes (état civil, urbanisme). (10) **Bibliothèque/médiathèque** : 60 % bourgs. (11) **Salle des fêtes/sport** : pour vie associative. (12) **Banque** : agence ou ATM (distributeur), souvent. (13) **Poste** : agence postale communale (APC) si moins de poste classique.",
       },
       {
         heading: "Services AUTRES (>30 min route)",
@@ -16780,15 +16780,15 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Profils pour qui ça marche",
-        body: "(1) **Famille télétravail solide** : fibre + emploi cadre distant + école primaire sur place. Critère obligatoire fibre. (2) **Retraité actif 60-75 ans** : autonomie véhicule + services médicaux sur place + climat doux. (3) **Couple télétravail + activité locale** (gîte, artisanat) : revenu mixte + ancrage local. (4) **Familles à projet 'simplicité de vie'** : choix conscient bourg vs métropole. Communauté engagée. (5) **Profils créatifs** : artisans, artistes, écrivains, chercheurs en télétravail — patrimoine + tranquillité. **Mauvais profil** : (1) Carrière nécessitant présentiel métropole quotidien. (2) Famille avec ado lycéen (lycée 15-40 km + sociabilité limitée). (3) Profil santé fragile (services médicaux limités). (4) Profil dépendant vie urbaine intense. (5) Couple non-aligné (l'un veut bourg, l'autre subit) — risque tension à 3-5 ans.",
+        body: "(1) **Famille télétravail solide** : fibre + emploi cadre distant + école primaire sur place. Critère obligatoire fibre. (2) **Retraité actif 60-75 ans** : autonomie véhicule + services médicaux sur place + climat doux. (3) **Couple télétravail + activité locale** (gîte, artisanat) : revenu mixte + ancrage local. (4) **Familles à projet 'simplicité de vie'** : choix conscient bourg vs métropole. Communauté engagée. (5) **Profils créatifs** : artisans, artistes, écrivains, chercheurs en télétravail, patrimoine + tranquillité. **Mauvais profil** : (1) Carrière nécessitant présentiel métropole quotidien. (2) Famille avec ado lycéen (lycée 15-40 km + sociabilité limitée). (3) Profil santé fragile (services médicaux limités). (4) Profil dépendant vie urbaine intense. (5) Couple non-aligné (l'un veut bourg, l'autre subit), risque tension à 3-5 ans.",
       },
       {
         heading: "Communes pionnières revitalisation 2026",
-        body: "Programmes 'Petites Villes de Demain' (222 communes labellisées) + 'Action Cœur de Ville' (245 villes) cofinancent revitalisation bourgs. (1) **Petits bourgs revitalisés** : (a) Saint-Affrique (Aveyron) — préfecture sud, projet revitalisation Cœur de Ville. (b) Souillac (Lot) — patrimoine + accessibilité + commerce dynamique. (c) Sancerre (Cher) — vignoble, tourisme, services maintenus. (d) Saint-Florent-le-Vieil (Maine-et-Loire) — Loire patrimoniale, services maintenus. (e) Quintin (Côtes-d'Armor) — Bretagne intérieure, patrimoine. (f) Saint-Sever (Landes) — Sud-Ouest accessible. (g) Crest (Drôme) — communauté alternative + services préfecture. (h) Lamastre (Ardèche) — refuge climatique 2040 + train touristique. (2) **Aides locales** : aide installation médecin, aide création commerce, aide rénovation bâti ancien (jusqu'à 50 % travaux dans certaines communes).",
+        body: "Programmes 'Petites Villes de Demain' (222 communes labellisées) + 'Action Cœur de Ville' (245 villes) cofinancent revitalisation bourgs. (1) **Petits bourgs revitalisés** : (a) Saint-Affrique (Aveyron), préfecture sud, projet revitalisation Cœur de Ville. (b) Souillac (Lot), patrimoine + accessibilité + commerce dynamique. (c) Sancerre (Cher), vignoble, tourisme, services maintenus. (d) Saint-Florent-le-Vieil (Maine-et-Loire), Loire patrimoniale, services maintenus. (e) Quintin (Côtes-d'Armor), Bretagne intérieure, patrimoine. (f) Saint-Sever (Landes), Sud-Ouest accessible. (g) Crest (Drôme), communauté alternative + services préfecture. (h) Lamastre (Ardèche), refuge climatique 2040 + train touristique. (2) **Aides locales** : aide installation médecin, aide création commerce, aide rénovation bâti ancien (jusqu'à 50 % travaux dans certaines communes).",
       },
       {
         heading: "À éviter — bourgs en déclin",
-        body: "(1) **Bourgs sous 1 500 hab sans dynamisme** : pertes services régulières, école menacée, médecin partant. Spirale négative. (2) **Bourgs miniers/industriels en reconversion** : Forbach-Centre, Hayange, Le Creusot — démographie en baisse 30+ ans. (3) **Bourgs traversés autoroute / rocade** : bruit + déclin commerces. (4) **Bourgs isolés vallées profondes** : services limités structurellement. (5) **Bourgs Champagne crayeuse / Beauce sèche** : agriculture intensive monotone, peu d'attrait résidentiel. (6) **Bourgs en zone fortement inondable** : Aisne sud, Picardie nord, certains bourgs Sud-Ouest. PPRI strict. (7) **Bourgs sans fibre 2026** : 5-10 % communes <3 000 hab. À éviter pour télétravail. **Indicateur** : démographie 2010-2020 — si baisse >10 %, signal d'alarme.",
+        body: "(1) **Bourgs sous 1 500 hab sans dynamisme** : pertes services régulières, école menacée, médecin partant. Spirale négative. (2) **Bourgs miniers/industriels en reconversion** : Forbach-Centre, Hayange, Le Creusot, démographie en baisse 30+ ans. (3) **Bourgs traversés autoroute / rocade** : bruit + déclin commerces. (4) **Bourgs isolés vallées profondes** : services limités structurellement. (5) **Bourgs Champagne crayeuse / Beauce sèche** : agriculture intensive monotone, peu d'attrait résidentiel. (6) **Bourgs en zone fortement inondable** : Aisne sud, Picardie nord, certains bourgs Sud-Ouest. PPRI strict. (7) **Bourgs sans fibre 2026** : 5-10 % communes <3 000 hab. À éviter pour télétravail. **Indicateur** : démographie 2010-2020, si baisse >10 %, signal d'alarme.",
       },
       {
         heading: "Pièges classiques achat bourg 2 000 hab",
@@ -16841,11 +16841,11 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Quand choisir Visale",
-        body: "(1) **Locataire 18-30 ans étudiant/alternant/jeune actif** : profil cible Visale, gratuit. (2) **Loyer <1 500 €/mois IDF ou <1 300 € autres régions** : éligible Visale. (3) **Locataire en mobilité pro** : salarié muté, changement employeur — Visale couvre ce profil. (4) **Étudiant boursier** : pas de garant familial possible souvent. Visale = solution. (5) **Bailleur petit propriétaire 1 bien** : économie 200-400 €/an si Visale possible. (6) **Logement 'parc social-like'** (location modérée jeune actif) : Visale promu par Action Logement. (7) **Refus de payer GLI** : éviter ces 2-3 % loyer = bonus rentabilité. Si profil locataire compatible Visale, no-brainer.",
+        body: "(1) **Locataire 18-30 ans étudiant/alternant/jeune actif** : profil cible Visale, gratuit. (2) **Loyer <1 500 €/mois IDF ou <1 300 € autres régions** : éligible Visale. (3) **Locataire en mobilité pro** : salarié muté, changement employeur, Visale couvre ce profil. (4) **Étudiant boursier** : pas de garant familial possible souvent. Visale = solution. (5) **Bailleur petit propriétaire 1 bien** : économie 200-400 €/an si Visale possible. (6) **Logement 'parc social-like'** (location modérée jeune actif) : Visale promu par Action Logement. (7) **Refus de payer GLI** : éviter ces 2-3 % loyer = bonus rentabilité. Si profil locataire compatible Visale, no-brainer.",
       },
       {
         heading: "Cumul caution familiale + GLI/Visale — possible ?",
-        body: "(1) **Loi Élan 2018** : interdiction de cumul caution personne physique + GLI privée pour le même locataire. Bailleur doit choisir. (2) **Exceptions** : (a) Étudiant ou apprenti : cumul autorisé. (b) Locataire ayant garant pour 1 mois caution. (c) Visale + caution familiale possible (Visale couvre risque, garant familial peut sécuriser dégradations supplémentaires). (3) **Pratique courante 2026** : si bailleur prend GLI = pas de garant personnel exigé du locataire. Si Visale = pas de garant requis. (4) **Avantage côté locataire** : Visale supprime besoin garant familial — appréciable pour jeunes sans famille en France. (5) **Risque double sécurité** : bailleur tenté d'exiger GLI + garant illégal. Faire respecter loi.",
+        body: "(1) **Loi Élan 2018** : interdiction de cumul caution personne physique + GLI privée pour le même locataire. Bailleur doit choisir. (2) **Exceptions** : (a) Étudiant ou apprenti : cumul autorisé. (b) Locataire ayant garant pour 1 mois caution. (c) Visale + caution familiale possible (Visale couvre risque, garant familial peut sécuriser dégradations supplémentaires). (3) **Pratique courante 2026** : si bailleur prend GLI = pas de garant personnel exigé du locataire. Si Visale = pas de garant requis. (4) **Avantage côté locataire** : Visale supprime besoin garant familial, appréciable pour jeunes sans famille en France. (5) **Risque double sécurité** : bailleur tenté d'exiger GLI + garant illégal. Faire respecter loi.",
       },
       {
         heading: "Sinistres — procédure et délais réels",
@@ -16894,7 +16894,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Vendée et Charente-Maritime",
-        body: "(1) **Île de Ré** : maisons rétaises classiques (basse, volets verts, fleurs). Prix saturés (~9 000-15 000 €/m²). Foncier inaccessible primo. (2) **Île d'Oléron** : maisons saunières et de pêcheurs. Prix 350-650 k€ rénovées, 200-400 k€ à rénover. (3) **La Tranche-sur-Mer, La Faute-sur-Mer** : prix accessibles 180-320 k€ MAIS PPRL strict post-Xynthia 2010. (4) **Saint-Gilles-Croix-de-Vie, Pornic** : ports pittoresques, prix 250-450 k€. (5) **Royan** : station balnéaire, maisons accessibles 200-350 k€. (6) **La Rochelle (intra-muros)** : Vieux-Port, prix premium 450-750 k€ pour maison de pêcheur restaurée. (7) **Climat 2040** : façade tempérée préservée mais saisonnalité touristique extrême. (8) **Risque submersion** : zones basses Charente-Maritime, Vendée sud — PPRL strict.",
+        body: "(1) **Île de Ré** : maisons rétaises classiques (basse, volets verts, fleurs). Prix saturés (~9 000-15 000 €/m²). Foncier inaccessible primo. (2) **Île d'Oléron** : maisons saunières et de pêcheurs. Prix 350-650 k€ rénovées, 200-400 k€ à rénover. (3) **La Tranche-sur-Mer, La Faute-sur-Mer** : prix accessibles 180-320 k€ MAIS PPRL strict post-Xynthia 2010. (4) **Saint-Gilles-Croix-de-Vie, Pornic** : ports pittoresques, prix 250-450 k€. (5) **Royan** : station balnéaire, maisons accessibles 200-350 k€. (6) **La Rochelle (intra-muros)** : Vieux-Port, prix premium 450-750 k€ pour maison de pêcheur restaurée. (7) **Climat 2040** : façade tempérée préservée mais saisonnalité touristique extrême. (8) **Risque submersion** : zones basses Charente-Maritime, Vendée sud, PPRL strict.",
       },
       {
         heading: "Normandie et Cotentin",
@@ -16918,7 +16918,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Le calcul honnête : Bretagne sud = sweet spot 2026",
-        body: "Acheter une maison de pêcheur sur l'Atlantique en 2026 = projet patrimoniale 10-25 ans pour bon profil : (1) **Bretagne sud** (Concarneau, Camaret, Audierne, Paimpol) : sweet spot — climat préservé 2040, foncier accessible 100-220 k€, ports actifs, communauté authentique. **TOP CHOIX**. (2) **Cotentin** (Saint-Vaast, Granville, Cherbourg port) : prix accessibles 150-280 k€, climat tempéré, mais isolement géographique. (3) **Charente-Maritime hors îles** (Royan, Saint-Gilles-Croix-de-Vie, Sables-d'Olonne) : climat doux, prix 180-320 k€, mais PPRL à vérifier. (4) **Saint-Malo intra-muros** : patrimoine exceptionnel mais foncier 400-650 k€. (5) **Honfleur, Étretat** : patrimoine valorisé mais saturation touristique + érosion. **À éviter** : (a) Île de Ré, Île d'Oléron (foncier inaccessible + risque submersion). (b) Vendée sud Tranche/Faute (PPRL post-Xynthia strict). (c) Front de mer Côte d'Albâtre exposé érosion. **Recommandation** : tester en location hiver complet AVANT achat (climat dur, vie ralentie). Budget total achat + rénovation 200-350 k€ pour maison vraiment habitable.",
+        body: "Acheter une maison de pêcheur sur l'Atlantique en 2026 = projet patrimoniale 10-25 ans pour bon profil : (1) **Bretagne sud** (Concarneau, Camaret, Audierne, Paimpol) : sweet spot, climat préservé 2040, foncier accessible 100-220 k€, ports actifs, communauté authentique. **TOP CHOIX**. (2) **Cotentin** (Saint-Vaast, Granville, Cherbourg port) : prix accessibles 150-280 k€, climat tempéré, mais isolement géographique. (3) **Charente-Maritime hors îles** (Royan, Saint-Gilles-Croix-de-Vie, Sables-d'Olonne) : climat doux, prix 180-320 k€, mais PPRL à vérifier. (4) **Saint-Malo intra-muros** : patrimoine exceptionnel mais foncier 400-650 k€. (5) **Honfleur, Étretat** : patrimoine valorisé mais saturation touristique + érosion. **À éviter** : (a) Île de Ré, Île d'Oléron (foncier inaccessible + risque submersion). (b) Vendée sud Tranche/Faute (PPRL post-Xynthia strict). (c) Front de mer Côte d'Albâtre exposé érosion. **Recommandation** : tester en location hiver complet AVANT achat (climat dur, vie ralentie). Budget total achat + rénovation 200-350 k€ pour maison vraiment habitable.",
       },
     ],
     relatedCities: ["concarneau", "saint-malo", "la-rochelle", "royan", "vannes"],
@@ -17101,11 +17101,11 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Pièges classiques",
-        body: "(1) **Piste 'annoncée'** : projet piste cyclable peut prendre 5-10 ans à se réaliser. Vérifier dossier urbanisme local. (2) **Tronçon discontinu** : piste qui s'arrête à un croisement = sécurité limitée. Préférer tronçon abouti. (3) **Surfréquentation été** : Vélodyssée en juillet-août = embouteillage. Si propriété bord-de-piste = cohue. (4) **Piste municipale vs EuroVelo** : ne pas confondre — une simple piste 'pour aller à la pharmacie' n'a pas même valeur qu'une EuroVelo. (5) **Topographie** : piste annoncée sur dépliant = ne signifie pas pratiquable en réalité (côte 8 % = pénible sans VAE). (6) **Saisonnalité Méditerranée** : été trop chaud pour vélo midi. Vélo limité octobre-avril. (7) **Sous-estimer entretien commune** : commune sans budget = piste mal entretenue, peu pratique. Vérifier état réel.",
+        body: "(1) **Piste 'annoncée'** : projet piste cyclable peut prendre 5-10 ans à se réaliser. Vérifier dossier urbanisme local. (2) **Tronçon discontinu** : piste qui s'arrête à un croisement = sécurité limitée. Préférer tronçon abouti. (3) **Surfréquentation été** : Vélodyssée en juillet-août = embouteillage. Si propriété bord-de-piste = cohue. (4) **Piste municipale vs EuroVelo** : ne pas confondre, une simple piste 'pour aller à la pharmacie' n'a pas même valeur qu'une EuroVelo. (5) **Topographie** : piste annoncée sur dépliant = ne signifie pas pratiquable en réalité (côte 8 % = pénible sans VAE). (6) **Saisonnalité Méditerranée** : été trop chaud pour vélo midi. Vélo limité octobre-avril. (7) **Sous-estimer entretien commune** : commune sans budget = piste mal entretenue, peu pratique. Vérifier état réel.",
       },
       {
         heading: "Le calcul honnête : critère qualité de vie + plus-value documentée",
-        body: "Vivre proche d'une piste cyclable en France 2026 = double bénéfice : qualité de vie quotidienne + plus-value immobilière documentée. **Sweet spots 2026** : (1) **Strasbourg** : champion vélo, infrastructure exceptionnelle, plus-value confirmée. (2) **Loire EuroVelo 6** : Tours, Saumur, Orléans, Nevers, Châlon — tourisme + climat + qualité. (3) **Vélodyssée Atlantique** : Vannes, La Rochelle, Royan, Bayonne — climat doux + tourisme. (4) **ViaRhôna** : Lyon, Valence (attention canicule 2040), Avignon. (5) **Vélo Francette intérieur** : Saumur, Mayenne, Le Mans, Caen — moins touristique, calme. (6) **Communes cyclables petites/moyennes** : La Rochelle, Vannes, Niort, Pau, Grenoble, Annecy. **À privilégier** : bien à 200-500 m d'une EuroVelo ou voie verte structurante, dans ville/commune avec maillage cyclable dense (>3 pistes connectées) et climat compatible (climat océanique > climat continental sec). **Recommandation** : critère de plus en plus important. Plus-value 8-15 % documentée. À intégrer dès la recherche.",
+        body: "Vivre proche d'une piste cyclable en France 2026 = double bénéfice : qualité de vie quotidienne + plus-value immobilière documentée. **Sweet spots 2026** : (1) **Strasbourg** : champion vélo, infrastructure exceptionnelle, plus-value confirmée. (2) **Loire EuroVelo 6** : Tours, Saumur, Orléans, Nevers, Châlon, tourisme + climat + qualité. (3) **Vélodyssée Atlantique** : Vannes, La Rochelle, Royan, Bayonne, climat doux + tourisme. (4) **ViaRhôna** : Lyon, Valence (attention canicule 2040), Avignon. (5) **Vélo Francette intérieur** : Saumur, Mayenne, Le Mans, Caen, moins touristique, calme. (6) **Communes cyclables petites/moyennes** : La Rochelle, Vannes, Niort, Pau, Grenoble, Annecy. **À privilégier** : bien à 200-500 m d'une EuroVelo ou voie verte structurante, dans ville/commune avec maillage cyclable dense (>3 pistes connectées) et climat compatible (climat océanique > climat continental sec). **Recommandation** : critère de plus en plus important. Plus-value 8-15 % documentée. À intégrer dès la recherche.",
       },
     ],
     relatedCities: ["strasbourg", "tours", "la-rochelle", "vannes", "annecy"],
@@ -17459,7 +17459,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "La zone PPI 20 km : ce qu'elle change pour qui y vit",
-        body: "Sources : arrêté interministériel du 4 novembre 2019 portant extension du rayon des PPI nucléaires de 10 à 20 km ; circulaire DGSCGC du 3 octobre 2016 (post-Fukushima) ; préfectures de département concernées (chaque PPI est public, consultable en mairie). Le Plan Particulier d'Intervention définit la zone autour d'une installation nucléaire dans laquelle s'applique un dispositif renforcé de gestion de crise. Depuis la révision 2019 (entrée en application sur les 18 sites entre 2020 et 2022), le rayon est passé de 10 km à 20 km autour de chaque CNPE. Concrètement, dans une commune située dans le rayon PPI 20 km : (1) Distribution préventive de comprimés d'iodure de potassium à chaque foyer, école, ERP, par campagne nationale tous les 5-7 ans (la dernière campagne d'extension du rayon a couvert 2,2 millions de personnes en 2019-2020, ANSM/IRSN). (2) Plan communal de sauvegarde (PCS) obligatoire, mis à jour annuellement, avec exercice de simulation. Les communes scolarisent les enfants à des exercices de mise à l'abri. (3) Sirène d'alerte testée mensuellement (premier mercredi à midi) — pas spécifique aux communes nucléaires mais densité de sirènes plus forte dans la zone PPI. (4) Cellules d'information du public (CIP) activables en cas d'incident. (5) Information annuelle aux résidents (campagne de la Commission Locale d'Information, CLI). Hors évacuation d'urgence (extrêmement rare ; la dernière en France remonte à l'incident de Saint-Laurent A en 1969, sans conséquence sanitaire mesurée), le PPI ne change pas la vie quotidienne. Pour beaucoup d'habitants, le seul signal visible reste la sirène mensuelle et le pli de iode dans le tiroir.",
+        body: "Sources : arrêté interministériel du 4 novembre 2019 portant extension du rayon des PPI nucléaires de 10 à 20 km ; circulaire DGSCGC du 3 octobre 2016 (post-Fukushima) ; préfectures de département concernées (chaque PPI est public, consultable en mairie). Le Plan Particulier d'Intervention définit la zone autour d'une installation nucléaire dans laquelle s'applique un dispositif renforcé de gestion de crise. Depuis la révision 2019 (entrée en application sur les 18 sites entre 2020 et 2022), le rayon est passé de 10 km à 20 km autour de chaque CNPE. Concrètement, dans une commune située dans le rayon PPI 20 km : (1) Distribution préventive de comprimés d'iodure de potassium à chaque foyer, école, ERP, par campagne nationale tous les 5-7 ans (la dernière campagne d'extension du rayon a couvert 2,2 millions de personnes en 2019-2020, ANSM/IRSN). (2) Plan communal de sauvegarde (PCS) obligatoire, mis à jour annuellement, avec exercice de simulation. Les communes scolarisent les enfants à des exercices de mise à l'abri. (3) Sirène d'alerte testée mensuellement (premier mercredi à midi), pas spécifique aux communes nucléaires mais densité de sirènes plus forte dans la zone PPI. (4) Cellules d'information du public (CIP) activables en cas d'incident. (5) Information annuelle aux résidents (campagne de la Commission Locale d'Information, CLI). Hors évacuation d'urgence (extrêmement rare ; la dernière en France remonte à l'incident de Saint-Laurent A en 1969, sans conséquence sanitaire mesurée), le PPI ne change pas la vie quotidienne. Pour beaucoup d'habitants, le seul signal visible reste la sirène mensuelle et le pli de iode dans le tiroir.",
       },
       {
         heading: "Risque réel selon l'ASN et l'IRSN — la mesure, pas la peur",
@@ -17669,7 +17669,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Les villes moyennes et les zones blanches : la réalité du déploiement",
-        body: "Le Plan France Très Haut Débit prévoit 100 % des locaux couverts en fibre d'ici fin 2025 — objectif atteint très partiellement. Les zones RIP (Réseaux d'Initiative Publique, financés par les collectivités) progressent mais avec des délais. En pratique, fin 2026, environ 7 % des locaux français ne sont pas encore éligibles FTTH. Ces zones sont concentrées dans les espaces ruraux (Creuse, Haute-Loire, Gers, parties des Ardennes) mais aussi dans certains bourgs péri-urbains de 3 000 à 10 000 habitants mal raccordés. Si vous envisagez de télétravailler depuis une commune rurale ou une petite ville, vérifiez l'éligibilité adresse par adresse sur arcep.fr avant de signer le bail. La 4G/5G fixe (Bouygues, SFR, Free) peut constituer une alternative réelle dans les zones non couvertes en fibre : débit 50-150 Mbit/s, latence 20-50 ms, usage illimité en données. Pas parfait pour les visios intenses, mais viable pour la majorité des usages."
+        body: "Le Plan France Très Haut Débit prévoit 100 % des locaux couverts en fibre d'ici fin 2025: objectif atteint très partiellement. Les zones RIP (Réseaux d'Initiative Publique, financés par les collectivités) progressent mais avec des délais. En pratique, fin 2026, environ 7 % des locaux français ne sont pas encore éligibles FTTH. Ces zones sont concentrées dans les espaces ruraux (Creuse, Haute-Loire, Gers, parties des Ardennes) mais aussi dans certains bourgs péri-urbains de 3 000 à 10 000 habitants mal raccordés. Si vous envisagez de télétravailler depuis une commune rurale ou une petite ville, vérifiez l'éligibilité adresse par adresse sur arcep.fr avant de signer le bail. La 4G/5G fixe (Bouygues, SFR, Free) peut constituer une alternative réelle dans les zones non couvertes en fibre : débit 50-150 Mbit/s, latence 20-50 ms, usage illimité en données. Pas parfait pour les visios intenses, mais viable pour la majorité des usages."
       },
       {
         heading: "Villes intermédiantes à fibre solide mais moins connues",
@@ -17720,7 +17720,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Les aides locales aux indépendants : encore méconnues",
-        body: "Plusieurs régions et métropoles proposent des dispositifs d'aide aux créateurs et auto-entrepreneurs : exonérations de CFE les premières années, aides à l'installation (loyer de coworking subventionné, accès à des espaces de travail mutualisés dans des tiers-lieux), programmes de mise en réseau. La Région Occitanie a développé un programme de soutien aux nomades numériques s'installant en zone peu dense. Bretagne, Nouvelle-Aquitaine et Auvergne-Rhône-Alpes proposent des aides à l'équipement numérique pour les indépendants en zones rurales. Ces dispositifs changent souvent — vérifiez directement auprès de la CCI, de la CMA ou de l'ADIE de votre département cible avant de vous installer. Ils ne sont jamais déterminants à eux seuls, mais peuvent alléger concrètement les premiers mois d'activité dans une nouvelle ville."
+        body: "Plusieurs régions et métropoles proposent des dispositifs d'aide aux créateurs et auto-entrepreneurs : exonérations de CFE les premières années, aides à l'installation (loyer de coworking subventionné, accès à des espaces de travail mutualisés dans des tiers-lieux), programmes de mise en réseau. La Région Occitanie a développé un programme de soutien aux nomades numériques s'installant en zone peu dense. Bretagne, Nouvelle-Aquitaine et Auvergne-Rhône-Alpes proposent des aides à l'équipement numérique pour les indépendants en zones rurales. Ces dispositifs changent souvent, vérifiez directement auprès de la CCI, de la CMA ou de l'ADIE de votre département cible avant de vous installer. Ils ne sont jamais déterminants à eux seuls, mais peuvent alléger concrètement les premiers mois d'activité dans une nouvelle ville."
       }
     ],
     relatedCities: ["lyon", "nantes", "rennes", "bordeaux", "montpellier", "toulouse"],
@@ -18091,23 +18091,23 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Ce que le DPE change concrètement depuis 2022",
-        body: "Le DPE (Diagnostic de Performance Énergétique) est obligatoire pour toute vente ou location depuis 2006, mais ses conséquences légales ont radicalement changé depuis 2022. Avant 2022, c'était un document informatif. Depuis juillet 2021, il est opposable : si le DPE est erroné, le vendeur ou le bailleur en est responsable. Depuis 2022, les logements classés G à énergie extrêmement consommatrice (au-dessus de 450 kWh/m²/an) ne peuvent plus faire l'objet de nouveaux baux. À partir de 2025, les logements G sont totalement interdits à la location (renouvellement de bail inclus). À partir de 2028, les logements F suivront. À partir de 2034, les logements E. Ce calendrier est officiel et progressif. Il crée une pression mécanique sur les propriétaires-bailleurs qui ont des biens énergivores : soit ils rénovent, soit ils vendent, soit ils ne peuvent plus louer. Cette pression se traduit dans les prix de vente — mais inégalement selon les marchés."
+        body: "Le DPE (Diagnostic de Performance Énergétique) est obligatoire pour toute vente ou location depuis 2006, mais ses conséquences légales ont radicalement changé depuis 2022. Avant 2022, c'était un document informatif. Depuis juillet 2021, il est opposable : si le DPE est erroné, le vendeur ou le bailleur en est responsable. Depuis 2022, les logements classés G à énergie extrêmement consommatrice (au-dessus de 450 kWh/m²/an) ne peuvent plus faire l'objet de nouveaux baux. À partir de 2025, les logements G sont totalement interdits à la location (renouvellement de bail inclus). À partir de 2028, les logements F suivront. À partir de 2034, les logements E. Ce calendrier est officiel et progressif. Il crée une pression mécanique sur les propriétaires-bailleurs qui ont des biens énergivores : soit ils rénovent, soit ils vendent, soit ils ne peuvent plus louer. Cette pression se traduit dans les prix de vente, mais inégalement selon les marchés."
       },
       {
         heading: "La décote de marché : ce qu'elle est et ce qu'elle n'est pas",
-        body: "La décote moyenne d'un bien DPE F ou G par rapport à un bien DPE D équivalent est estimée entre 5 et 20 % selon les études FNAIM et Observatoire du marché (2024). Elle est plus forte dans les villes où la demande locative est élevée (grande valeur de rendement futur perdue), plus faible dans les marchés résidentiels détendus où les propriétaires-occupants dominent. Concrètement à Paris : un appartement en DPE G vaut en moyenne 13-17 % de moins que le même bien en DPE C. À Lyon, Bordeaux, Nantes : 8-12 %. Dans les villes moyennes et les zones rurales : 3-8 %, parfois moins si les acheteurs sont principalement des résidents et non des investisseurs. La décote n'est pas automatiquement égale au coût des travaux. Vérifiez toujours si le prix affiché intègre déjà la décote DPE (de nombreux vendeurs continuent à afficher un prix plein en espérant négocier après le DPE) — si ce n'est pas le cas, la négociation est justifiée et chiffrée."
+        body: "La décote moyenne d'un bien DPE F ou G par rapport à un bien DPE D équivalent est estimée entre 5 et 20 % selon les études FNAIM et Observatoire du marché (2024). Elle est plus forte dans les villes où la demande locative est élevée (grande valeur de rendement futur perdue), plus faible dans les marchés résidentiels détendus où les propriétaires-occupants dominent. Concrètement à Paris : un appartement en DPE G vaut en moyenne 13-17 % de moins que le même bien en DPE C. À Lyon, Bordeaux, Nantes : 8-12 %. Dans les villes moyennes et les zones rurales : 3-8 %, parfois moins si les acheteurs sont principalement des résidents et non des investisseurs. La décote n'est pas automatiquement égale au coût des travaux. Vérifiez toujours si le prix affiché intègre déjà la décote DPE (de nombreux vendeurs continuent à afficher un prix plein en espérant négocier après le DPE), si ce n'est pas le cas, la négociation est justifiée et chiffrée."
       },
       {
         heading: "Estimation du coût de rénovation énergétique",
-        body: "Les travaux nécessaires pour passer d'un DPE G à un DPE D ou E varient selon la nature des problèmes. Isolation des combles : 2 000 à 5 000 euros pour un appartement standard — rentabilité rapide (3-5 ans) et impact DPE fort. Isolation des murs par l'intérieur (ITE) : 8 000 à 20 000 euros — gros impact mais perd quelques m² de surface habitable. Remplacement de la chaudière à fioul/gaz par une pompe à chaleur air/eau : 8 000 à 16 000 euros (avant aides). Changement des fenêtres (simple vitrage → double vitrage) : 3 000 à 9 000 euros. Un audit énergétique complet (obligatoire pour les ventes de maisons individuelles en F/G depuis 2023) coûte 500 à 1 000 euros et vous donne un scénario de travaux priorisés avec les montants. Commandez cet audit avant de décider si vous achetez — les vendeurs sont tenus de le mettre à disposition dans les annonces de vente de maisons individuelles en F ou G."
+        body: "Les travaux nécessaires pour passer d'un DPE G à un DPE D ou E varient selon la nature des problèmes. Isolation des combles : 2 000 à 5 000 euros pour un appartement standard, rentabilité rapide (3-5 ans) et impact DPE fort. Isolation des murs par l'intérieur (ITE) : 8 000 à 20 000 euros, gros impact mais perd quelques m² de surface habitable. Remplacement de la chaudière à fioul/gaz par une pompe à chaleur air/eau : 8 000 à 16 000 euros (avant aides). Changement des fenêtres (simple vitrage → double vitrage) : 3 000 à 9 000 euros. Un audit énergétique complet (obligatoire pour les ventes de maisons individuelles en F/G depuis 2023) coûte 500 à 1 000 euros et vous donne un scénario de travaux priorisés avec les montants. Commandez cet audit avant de décider si vous achetez, les vendeurs sont tenus de le mettre à disposition dans les annonces de vente de maisons individuelles en F ou G."
       },
       {
         heading: "Les aides disponibles en 2026 : MaPrimeRénov et Eco-PTZ",
-        body: "MaPrimeRénov' : aide de l'ANAH accessible aux propriétaires occupants qui rénovent leur résidence principale. Les taux varient selon les revenus (4 plafonds : Très modestes, Modestes, Intermédiaires, Supérieurs). Pour les ménages modestes, la prime peut couvrir 70 à 90 % du coût des travaux — par exemple, une pompe à chaleur à 14 000 euros peut coûter réellement 3 000 à 5 000 euros après prime. Pour les ménages intermédiaires, les taux sont 40-50 %. Pour les revenus plus élevés, 15-25 % — moins généreux mais cumulable avec l'Eco-PTZ. L'Eco-PTZ (prêt à taux zéro pour la rénovation énergétique) est disponible sans condition de ressources, jusqu'à 50 000 euros sur 15 à 20 ans à 0 %. Cumulé avec MaPrimeRénov', pour un ménage intermédiaire, une rénovation complète de 35 000 euros peut revenir réellement à 12 000 à 18 000 euros sortis de poche, le reste étant financé par aides et prêt sans intérêts."
+        body: "MaPrimeRénov' : aide de l'ANAH accessible aux propriétaires occupants qui rénovent leur résidence principale. Les taux varient selon les revenus (4 plafonds : Très modestes, Modestes, Intermédiaires, Supérieurs). Pour les ménages modestes, la prime peut couvrir 70 à 90 % du coût des travaux, par exemple, une pompe à chaleur à 14 000 euros peut coûter réellement 3 000 à 5 000 euros après prime. Pour les ménages intermédiaires, les taux sont 40-50 %. Pour les revenus plus élevés, 15-25 %, moins généreux mais cumulable avec l'Eco-PTZ. L'Eco-PTZ (prêt à taux zéro pour la rénovation énergétique) est disponible sans condition de ressources, jusqu'à 50 000 euros sur 15 à 20 ans à 0 %. Cumulé avec MaPrimeRénov', pour un ménage intermédiaire, une rénovation complète de 35 000 euros peut revenir réellement à 12 000 à 18 000 euros sortis de poche, le reste étant financé par aides et prêt sans intérêts."
       },
       {
         heading: "Acheter une passoire thermique : la décision rationnelle",
-        body: "Pour un acheteur qui veut habiter le bien et peut faire les travaux dans les 2 premières années : acheter une passoire est souvent une bonne opération si la décote dépasse le coût réel des travaux net des aides. Ce cas se produit souvent : acheter un bien avec 15 % de décote DPE, puis financer 60 % des travaux par MaPrimeRénov' et Eco-PTZ revient à habiter un bien rénové pour un coût total inférieur à un bien équivalent en DPE D acheté au prix de marché. Pour un investisseur-bailleur : la fenêtre se ferme rapidement. Les interdictions de location 2025-2028 sont en vigueur et les amendes pour location illégale d'un G en 2025 peuvent aller jusqu'à 5 % du loyer annuel. Acheter un G pour le rénover et le relouer est viable si le calcul de rentabilité tient compte du coût de travaux net des aides ET du délai de travaux pendant lequel le bien n'est pas loué. Ne rachetez jamais une passoire thermique en espérant que la réglementation sera assouplie — le calendrier légal est voté et le lobby des propriétaires n'a pas réussi à le faire bouger significativement depuis 2022."
+        body: "Pour un acheteur qui veut habiter le bien et peut faire les travaux dans les 2 premières années : acheter une passoire est souvent une bonne opération si la décote dépasse le coût réel des travaux net des aides. Ce cas se produit souvent : acheter un bien avec 15 % de décote DPE, puis financer 60 % des travaux par MaPrimeRénov' et Eco-PTZ revient à habiter un bien rénové pour un coût total inférieur à un bien équivalent en DPE D acheté au prix de marché. Pour un investisseur-bailleur : la fenêtre se ferme rapidement. Les interdictions de location 2025-2028 sont en vigueur et les amendes pour location illégale d'un G en 2025 peuvent aller jusqu'à 5 % du loyer annuel. Acheter un G pour le rénover et le relouer est viable si le calcul de rentabilité tient compte du coût de travaux net des aides ET du délai de travaux pendant lequel le bien n'est pas loué. Ne rachetez jamais une passoire thermique en espérant que la réglementation sera assouplie, le calendrier légal est voté et le lobby des propriétaires n'a pas réussi à le faire bouger significativement depuis 2022."
       }
     ],
     relatedCities: ["paris", "bordeaux", "lyon", "nantes", "dijon", "grenoble"],
@@ -18138,19 +18138,19 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Préparer les enfants : ce qui fonctionne",
-        body: "Annoncer le déménagement tôt (2 à 4 mois à l'avance selon l'âge) et en parler régulièrement plutôt qu'une seule fois. Impliquer les enfants dans des décisions concrètes : visiter la nouvelle ville, choisir des éléments de leur nouvelle chambre, visiter l'école. Pour les collégiens et lycéens : les faire participer à la recherche de l'école et aux visites — donner l'impression qu'ils ont une prise sur leur avenir dans la nouvelle ville. Maintenir le contact avec les amis de la ville d'origine (WhatsApp, visites programmées) — couper net est plus traumatisant qu'une transition lente. Inscrire l'enfant dans une activité parascolaire dès les premières semaines dans la nouvelle ville — le club de sport, la chorale ou le conservatoire est souvent plus rapide que l'école pour créer des liens sociaux nouveaux."
+        body: "Annoncer le déménagement tôt (2 à 4 mois à l'avance selon l'âge) et en parler régulièrement plutôt qu'une seule fois. Impliquer les enfants dans des décisions concrètes : visiter la nouvelle ville, choisir des éléments de leur nouvelle chambre, visiter l'école. Pour les collégiens et lycéens : les faire participer à la recherche de l'école et aux visites, donner l'impression qu'ils ont une prise sur leur avenir dans la nouvelle ville. Maintenir le contact avec les amis de la ville d'origine (WhatsApp, visites programmées), couper net est plus traumatisant qu'une transition lente. Inscrire l'enfant dans une activité parascolaire dès les premières semaines dans la nouvelle ville, le club de sport, la chorale ou le conservatoire est souvent plus rapide que l'école pour créer des liens sociaux nouveaux."
       },
       {
         heading: "L'inscription scolaire : les démarches concrètes",
-        body: "Pour l'école primaire : s'adresser à la mairie de la nouvelle commune qui attribue l'école selon la carte scolaire (secteur géographique). La mairie délivre un certificat d'inscription, l'école demandera ensuite les documents : livret de famille, carnet de vaccinations à jour, justificatif de domicile, carnet scolaire. Délai raisonnable : 2 à 3 semaines. Pour le collège et le lycée : s'adresser directement au chef d'établissement ou à la Direction des Services de l'Éducation Nationale (DSDEN) du département pour obtenir une affectation. En cours d'année, une demande de dérogation peut permettre d'accéder à un établissement hors secteur si l'établissement de secteur a de la place. Pour la crèche et l'assistante maternelle : les places de crèche publique sont attribuées par les mairies sur critères (ancienneté sur liste d'attente, revenus, situation familiale). L'inscription en crèche se fait idéalement avant même la naissance dans les villes tendues (Paris, Lyon, Bordeaux) — en provincial modéré, 3 à 6 mois avant la date souhaitée suffisent. L'assistante maternelle agréée (trouvée via assistante-maternelle.net ou le relais petite enfance de la commune) peut être disponible en 4 à 8 semaines."
+        body: "Pour l'école primaire : s'adresser à la mairie de la nouvelle commune qui attribue l'école selon la carte scolaire (secteur géographique). La mairie délivre un certificat d'inscription, l'école demandera ensuite les documents : livret de famille, carnet de vaccinations à jour, justificatif de domicile, carnet scolaire. Délai raisonnable : 2 à 3 semaines. Pour le collège et le lycée : s'adresser directement au chef d'établissement ou à la Direction des Services de l'Éducation Nationale (DSDEN) du département pour obtenir une affectation. En cours d'année, une demande de dérogation peut permettre d'accéder à un établissement hors secteur si l'établissement de secteur a de la place. Pour la crèche et l'assistante maternelle : les places de crèche publique sont attribuées par les mairies sur critères (ancienneté sur liste d'attente, revenus, situation familiale). L'inscription en crèche se fait idéalement avant même la naissance dans les villes tendues (Paris, Lyon, Bordeaux), en provincial modéré, 3 à 6 mois avant la date souhaitée suffisent. L'assistante maternelle agréée (trouvée via assistante-maternelle.net ou le relais petite enfance de la commune) peut être disponible en 4 à 8 semaines."
       },
       {
         heading: "Choisir une ville avec des enfants : les critères spécifiques",
-        body: "Au-delà des scores de qualité des écoles (visibles sur les pages /villes/[slug]/ecoles), voici ce que les familles qui ont fait le choix racontent comme critères déterminants. L'accès aux espaces extérieurs sécurisés (parcs, jardins publics, espaces verts accessibles à pied depuis le logement) — crucial pour les 2-10 ans. La densité de clubs sportifs et culturels pour enfants (associations sportives, conservatoires, accueils de loisirs) — certaines villes ont une offre parascolaire très riche, d'autres très clairsemée. La qualité des transports en commun pour les collégiens et lycéens qui commencent à se déplacer seuls. La distance domicile-école réalisable à pied ou à vélo — les familles qui ont pu faire ce choix rapportent une qualité de vie nettement supérieure au combo voiture matin + soir. La présence d'autres familles avec enfants dans le même immeuble ou quartier — les liens de voisinage naissent plus vite dans les quartiers avec forte densité de familles."
+        body: "Au-delà des scores de qualité des écoles (visibles sur les pages /villes/[slug]/ecoles), voici ce que les familles qui ont fait le choix racontent comme critères déterminants. L'accès aux espaces extérieurs sécurisés (parcs, jardins publics, espaces verts accessibles à pied depuis le logement), crucial pour les 2-10 ans. La densité de clubs sportifs et culturels pour enfants (associations sportives, conservatoires, accueils de loisirs), certaines villes ont une offre parascolaire très riche, d'autres très clairsemée. La qualité des transports en commun pour les collégiens et lycéens qui commencent à se déplacer seuls. La distance domicile-école réalisable à pied ou à vélo, les familles qui ont pu faire ce choix rapportent une qualité de vie nettement supérieure au combo voiture matin + soir. La présence d'autres familles avec enfants dans le même immeuble ou quartier, les liens de voisinage naissent plus vite dans les quartiers avec forte densité de familles."
       },
       {
         heading: "Les villes françaises les mieux notées par les familles qui ont déménagé",
-        body: "D'après les témoignages collectés via nos formulaires de contact et les études Ifop/CREDOC régulières sur la satisfaction résidentielle des familles : Rennes ressort régulièrement en tête pour les familles — accessibilité scolaire, transports bien maillés, offre culturelle et associative dense, espaces naturels accessibles. Nantes : idem profil, légèrement plus cher mais avec une très forte satisfaction des familles arrivées depuis moins de 5 ans. Angers : villes moins médiatisée mais plébiscitée pour sa qualité de vie familiale, ses loyers encore raisonnables et sa scène associative active. Bordeaux : satisfaction élevée des familles, mais signaux de tension sur le logement depuis 2019. Strasbourg : appréciée des familles pour la mobilité douce, les parcs et la qualité de l'offre scolaire publique. Lyon est très bien notée pour la qualité scolaire mais moins pour la détente familiale quotidienne — ville dense et chère. Montpellier : excellente pour le cadre de vie (soleil, littoral) mais des signaux de tension scolaire dans certains quartiers. Le match idéal pour une famille : une ville de 150 000 à 400 000 habitants avec une bonne desserte TGV, des loyers sous 900 euros pour un T3, et une offre parascolaire riche."
+        body: "D'après les témoignages collectés via nos formulaires de contact et les études Ifop/CREDOC régulières sur la satisfaction résidentielle des familles : Rennes ressort régulièrement en tête pour les familles, accessibilité scolaire, transports bien maillés, offre culturelle et associative dense, espaces naturels accessibles. Nantes : idem profil, légèrement plus cher mais avec une très forte satisfaction des familles arrivées depuis moins de 5 ans. Angers : villes moins médiatisée mais plébiscitée pour sa qualité de vie familiale, ses loyers encore raisonnables et sa scène associative active. Bordeaux : satisfaction élevée des familles, mais signaux de tension sur le logement depuis 2019. Strasbourg : appréciée des familles pour la mobilité douce, les parcs et la qualité de l'offre scolaire publique. Lyon est très bien notée pour la qualité scolaire mais moins pour la détente familiale quotidienne, ville dense et chère. Montpellier : excellente pour le cadre de vie (soleil, littoral) mais des signaux de tension scolaire dans certains quartiers. Le match idéal pour une famille : une ville de 150 000 à 400 000 habitants avec une bonne desserte TGV, des loyers sous 900 euros pour un T3, et une offre parascolaire riche."
       }
     ],
     relatedCities: ["rennes", "nantes", "angers", "bordeaux", "strasbourg", "lyon"],
@@ -18177,23 +18177,23 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Les deux modèles principaux",
-        body: "Modèle 1 — Loyer solidaire : le jeune paie un loyer réduit (souvent 30 à 50 % du loyer marché) et s'engage à être présent un certain nombre de nuits par semaine (généralement 5 à 7 nuits) et à rendre quelques heures de services par semaine (2 à 5h selon les accords). Ce modèle est géré par des associations ou des plateformes (Ensemble2Générations, Cohabit'âge, Prism'emploi Jeunes) qui jouent le rôle d'intermédiaire, de garant et de médiateur si des difficultés surviennent. Modèle 2 — Hébergement gratuit ou presque : le jeune loge à titre gratuit ou pour une participation symbolique aux charges (50 à 100 euros/mois). En contrepartie, il s'engage à des présences nocturnes régulières et à des services plus substantiels. Ce modèle est plus exigeant et demande une vraie compatibilité de mode de vie. Les deux modèles nécessitent un contrat formalisé — les associations le rédigent, incluant les clauses de service, les modalités de préavis, et les règles de cohabitation."
+        body: "Modèle 1 — Loyer solidaire : le jeune paie un loyer réduit (souvent 30 à 50 % du loyer marché) et s'engage à être présent un certain nombre de nuits par semaine (généralement 5 à 7 nuits) et à rendre quelques heures de services par semaine (2 à 5h selon les accords). Ce modèle est géré par des associations ou des plateformes (Ensemble2Générations, Cohabit'âge, Prism'emploi Jeunes) qui jouent le rôle d'intermédiaire, de garant et de médiateur si des difficultés surviennent. Modèle 2 — Hébergement gratuit ou presque : le jeune loge à titre gratuit ou pour une participation symbolique aux charges (50 à 100 euros/mois). En contrepartie, il s'engage à des présences nocturnes régulières et à des services plus substantiels. Ce modèle est plus exigeant et demande une vraie compatibilité de mode de vie. Les deux modèles nécessitent un contrat formalisé, les associations le rédigent, incluant les clauses de service, les modalités de préavis, et les règles de cohabitation."
       },
       {
         heading: "Les programmes nationaux et locaux actifs en 2026",
-        body: "Ensemble2Générations est l'opérateur le plus développé en France (présent dans 30 villes). Leur modèle : loyer réduit + convention de services signée par les deux parties + accompagnement sur toute la durée. Leur site permet de chercher par ville. Le réseau CAES (Cohabitations Aménagées entre Étudiants et Seniors) est plus concentré sur les grandes villes universitaires. PACT, Action Logement et certaines CCAS (Centres Communaux d'Action Sociale) locales ont des dispositifs similaires. Du côté des universités : certains Crous ont des partenariats avec des associations de colocation intergénérationnelle — à vérifier directement au CROUS de votre ville de destination. Les villes les plus actives en nombre de colocations intergénérationnelles formalisées : Paris et Île-de-France (hors coût du marché classique, la demande est forte), Lyon, Bordeaux, Nantes, Rennes, Toulouse, Grenoble, Montpellier, Lille, Strasbourg."
+        body: "Ensemble2Générations est l'opérateur le plus développé en France (présent dans 30 villes). Leur modèle : loyer réduit + convention de services signée par les deux parties + accompagnement sur toute la durée. Leur site permet de chercher par ville. Le réseau CAES (Cohabitations Aménagées entre Étudiants et Seniors) est plus concentré sur les grandes villes universitaires. PACT, Action Logement et certaines CCAS (Centres Communaux d'Action Sociale) locales ont des dispositifs similaires. Du côté des universités : certains Crous ont des partenariats avec des associations de colocation intergénérationnelle, à vérifier directement au CROUS de votre ville de destination. Les villes les plus actives en nombre de colocations intergénérationnelles formalisées : Paris et Île-de-France (hors coût du marché classique, la demande est forte), Lyon, Bordeaux, Nantes, Rennes, Toulouse, Grenoble, Montpellier, Lille, Strasbourg."
       },
       {
         heading: "Ce que les deux parties gagnent réellement",
-        body: "Le senior : une présence régulière qui rompt l'isolement sans dépendance médicale (les seniors recherchent souvent un compagnonnage de vie, pas une aide soignante), une aide pratique pour les tâches devenues pénibles sans être handicapantes, et une sécurité passive (quelqu'un est là si quelque chose arrive). Parfois aussi une source de revenus complémentaires modeste mais réelle. Le jeune : un logement à 150-300 euros par mois dans une ville où le marché est à 600-900 euros pour un studio. Sur 10 mois de location universitaire, l'économie représente 3 000 à 6 000 euros — de quoi changer la viabilité financière d'une année d'études. En contrepartie : moins de liberté d'horaires, une cohabitation avec quelqu'un de sensibilités différentes, et des responsabilités réelles même si légères."
+        body: "Le senior : une présence régulière qui rompt l'isolement sans dépendance médicale (les seniors recherchent souvent un compagnonnage de vie, pas une aide soignante), une aide pratique pour les tâches devenues pénibles sans être handicapantes, et une sécurité passive (quelqu'un est là si quelque chose arrive). Parfois aussi une source de revenus complémentaires modeste mais réelle. Le jeune : un logement à 150-300 euros par mois dans une ville où le marché est à 600-900 euros pour un studio. Sur 10 mois de location universitaire, l'économie représente 3 000 à 6 000 euros, de quoi changer la viabilité financière d'une année d'études. En contrepartie : moins de liberté d'horaires, une cohabitation avec quelqu'un de sensibilités différentes, et des responsabilités réelles même si légères."
       },
       {
         heading: "Les points de friction et comment les anticiper",
-        body: "Les ruptures de colocation intergénérationnelle arrivent dans trois cas : incompatibilité de modes de vie non anticipée (le jeune rentre à 2h du matin, le senior se lève à 6h), glissement non voulu des services demandés (le senior commence à demander plus que prévu), ou manque de présence du jeune (sorties fréquentes, absences longues). Comment les anticiper : être très précis dans le contrat sur les créneaux de présence attendus et les services convenus (liste écrite, pas verbale). Faire une période d'essai de 3 mois avant d'engager sur une année entière. Maintenir le contact avec l'association intermédiaire — les bonnes associations font un suivi mensuel. Les seniors qui ont les meilleures expériences : ceux qui recherchent de la compagnie plus que de l'aide, et qui sont eux-mêmes encore très autonomes. Les jeunes qui ont les meilleures expériences : ceux qui sont sincèrement intéressés par la relation humaine, pas seulement par l'économie du loyer."
+        body: "Les ruptures de colocation intergénérationnelle arrivent dans trois cas : incompatibilité de modes de vie non anticipée (le jeune rentre à 2h du matin, le senior se lève à 6h), glissement non voulu des services demandés (le senior commence à demander plus que prévu), ou manque de présence du jeune (sorties fréquentes, absences longues). Comment les anticiper : être très précis dans le contrat sur les créneaux de présence attendus et les services convenus (liste écrite, pas verbale). Faire une période d'essai de 3 mois avant d'engager sur une année entière. Maintenir le contact avec l'association intermédiaire, les bonnes associations font un suivi mensuel. Les seniors qui ont les meilleures expériences : ceux qui recherchent de la compagnie plus que de l'aide, et qui sont eux-mêmes encore très autonomes. Les jeunes qui ont les meilleures expériences : ceux qui sont sincèrement intéressés par la relation humaine, pas seulement par l'économie du loyer."
       },
       {
         heading: "Comment trouver une colocation intergénérationnelle",
-        body: "Étape 1 : identifiez les associations actives dans la ville cible (Ensemble2Générations, Cohabit'âge, réseau CAES) et prenez contact. La plupart ont des listes d'attente — plus vous contactez tôt (3 à 6 mois avant la rentrée), meilleures sont vos chances. Étape 2 : préparez un profil honnête — les associations font des entretiens pour vérifier la compatibilité. Parlez de vos rythmes, de vos activités, de ce que vous cherchez dans cette relation. Étape 3 : participez à la réunion de matching (la plupart des associations organisent des sessions de rencontre) et prenez le temps de rencontrer plusieurs seniors avant de vous engager. Étape 4 : signez un contrat complet — loyer, services, présence minimale, modalités de préavis (généralement 1 mois), règles sur les invités. Ne jamais démarrer sans contrat écrit. Étape 5 : informez la CAF de votre mode d'hébergement — selon le montant du loyer, vous pouvez avoir droit à l'APL. Au-dessous d'un certain seuil, l'APL n'est pas versée mais cela reste votre droit de vérifier."
+        body: "Étape 1 : identifiez les associations actives dans la ville cible (Ensemble2Générations, Cohabit'âge, réseau CAES) et prenez contact. La plupart ont des listes d'attente, plus vous contactez tôt (3 à 6 mois avant la rentrée), meilleures sont vos chances. Étape 2 : préparez un profil honnête, les associations font des entretiens pour vérifier la compatibilité. Parlez de vos rythmes, de vos activités, de ce que vous cherchez dans cette relation. Étape 3 : participez à la réunion de matching (la plupart des associations organisent des sessions de rencontre) et prenez le temps de rencontrer plusieurs seniors avant de vous engager. Étape 4 : signez un contrat complet, loyer, services, présence minimale, modalités de préavis (généralement 1 mois), règles sur les invités. Ne jamais démarrer sans contrat écrit. Étape 5 : informez la CAF de votre mode d'hébergement, selon le montant du loyer, vous pouvez avoir droit à l'APL. Au-dessous d'un certain seuil, l'APL n'est pas versée mais cela reste votre droit de vérifier."
       }
     ],
     relatedCities: ["paris", "lyon", "bordeaux", "nantes", "rennes", "toulouse"],
@@ -18220,19 +18220,19 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Le littoral breton : de quoi parle-t-on exactement ?",
-        body: "La Bretagne côtière couvre environ 2 730 km de linéaire côtier (le plus long de France). Les profils sont très différents. Côte nord (Côtes d'Armor) : côtes déchiquetées, plages sauvages, ports de pêche. Communes : Paimpol, Tréguier, Perros-Guirec, Lannion (50 000 hab., vraie ville avec un tissu économique). Finistère (Brest, Quimper, Douarnenez, Pont-Aven, Concarneau) : la Bretagne la plus isolée géographiquement mais avec deux villes de taille significative (Brest 140 000 hab., Quimper 65 000 hab.). Côte sud (Morbihan) : golfe du Morbihan, Lorient (57 000 hab.), Vannes (55 000 hab.) — le secteur avec le meilleur ensoleillement de Bretagne et les marchés immobiliers les plus tendus. La Presqu'île de Quiberon, Belle-Île : littoral insulaire et semi-insulaire, isolement assumé. Chaque secteur a ses propres réalités immobilières, professionnelles et météorologiques."
+        body: "La Bretagne côtière couvre environ 2 730 km de linéaire côtier (le plus long de France). Les profils sont très différents. Côte nord (Côtes d'Armor) : côtes déchiquetées, plages sauvages, ports de pêche. Communes : Paimpol, Tréguier, Perros-Guirec, Lannion (50 000 hab., vraie ville avec un tissu économique). Finistère (Brest, Quimper, Douarnenez, Pont-Aven, Concarneau) : la Bretagne la plus isolée géographiquement mais avec deux villes de taille significative (Brest 140 000 hab., Quimper 65 000 hab.). Côte sud (Morbihan) : golfe du Morbihan, Lorient (57 000 hab.), Vannes (55 000 hab.), le secteur avec le meilleur ensoleillement de Bretagne et les marchés immobiliers les plus tendus. La Presqu'île de Quiberon, Belle-Île : littoral insulaire et semi-insulaire, isolement assumé. Chaque secteur a ses propres réalités immobilières, professionnelles et météorologiques."
       },
       {
         heading: "La météo : ce qu'on vous dit et ce qu'on ne vous dit pas",
-        body: "Rennes a 1 850 heures de soleil par an. Brest, en Finistère, a 1 600 heures — soit moins que Strasbourg, moins que Dijon, légèrement plus que Lille. Vannes a 1 900 heures — c'est le seuil de la Bretagne douce. Ce qu'on ne dit pas : la Bretagne côtière reçoit 900 à 1 200 mm de pluie par an (contre 640 mm à Paris). Mais les pluies sont fréquentes et fines, pas torrentielles — et la Bretagne a une culture de l'extérieur sous la pluie que les Bretons trouvent normale et que les Parisiens trouvent difficile. Ce qu'on dit mais qu'on minimise : le vent. La Bretagne a des vents moyens de 5 à 8 m/s sur le littoral, avec des tempêtes hivernales régulières (Irma, Ciaran). Les maisons côtières sont bâties pour tenir, mais la vie quotidienne en hiver avec 50 km/h de vent permanent est physiquement et psychologiquement différente de ce que l'on imagine en été. Les Bretons d'origine trouvent ça vivifiant. Les néo-Bretons d'installation hivernale y sont souvent moins préparés."
+        body: "Rennes a 1 850 heures de soleil par an. Brest, en Finistère, a 1 600 heures: soit moins que Strasbourg, moins que Dijon, légèrement plus que Lille. Vannes a 1 900 heures: c'est le seuil de la Bretagne douce. Ce qu'on ne dit pas : la Bretagne côtière reçoit 900 à 1 200 mm de pluie par an (contre 640 mm à Paris). Mais les pluies sont fréquentes et fines, pas torrentielles, et la Bretagne a une culture de l'extérieur sous la pluie que les Bretons trouvent normale et que les Parisiens trouvent difficile. Ce qu'on dit mais qu'on minimise : le vent. La Bretagne a des vents moyens de 5 à 8 m/s sur le littoral, avec des tempêtes hivernales régulières (Irma, Ciaran). Les maisons côtières sont bâties pour tenir, mais la vie quotidienne en hiver avec 50 km/h de vent permanent est physiquement et psychologiquement différente de ce que l'on imagine en été. Les Bretons d'origine trouvent ça vivifiant. Les néo-Bretons d'installation hivernale y sont souvent moins préparés."
       },
       {
         heading: "L'emploi et le télétravail : la réalité du marché littoral",
-        body: "Dans les communes littorales de moins de 5 000 habitants, le marché de l'emploi est saisonnier (hôtellerie-restauration, tourisme) et limité hors saison. Si vous n'êtes pas en télétravail complet ou à la retraite, évitez les communes exclusivement touristiques sans secteur économique propre. Les villes avec un marché de l'emploi réel : Brest (marine nationale, pêche, numérique — Naval Group, Dassault Marine, Tech'espace), Lorient (économie portuaire et marine), Lannion (Orange Labs, pôle optronique, Telecom Bretagne — une des villes françaises avec le meilleur ratio entreprises tech/habitant), Vannes et Quimper (PME agroalimentaire, services, commerce). Pour les télétravailleurs, la qualité de la connexion est bonne dans les communes équipées (vérifiez ARCEP adresse par adresse — les zones non couvertes en fibre existent encore dans les communes rurales côtières). La 4G/5G est souvent la solution de secours — les opérateurs ont bien couvert le littoral breton en hauteur de réseau."
+        body: "Dans les communes littorales de moins de 5 000 habitants, le marché de l'emploi est saisonnier (hôtellerie-restauration, tourisme) et limité hors saison. Si vous n'êtes pas en télétravail complet ou à la retraite, évitez les communes exclusivement touristiques sans secteur économique propre. Les villes avec un marché de l'emploi réel : Brest (marine nationale, pêche, numérique, Naval Group, Dassault Marine, Tech'espace), Lorient (économie portuaire et marine), Lannion (Orange Labs, pôle optronique, Telecom Bretagne: une des villes françaises avec le meilleur ratio entreprises tech/habitant), Vannes et Quimper (PME agroalimentaire, services, commerce). Pour les télétravailleurs, la qualité de la connexion est bonne dans les communes équipées (vérifiez ARCEP adresse par adresse, les zones non couvertes en fibre existent encore dans les communes rurales côtières). La 4G/5G est souvent la solution de secours, les opérateurs ont bien couvert le littoral breton en hauteur de réseau."
       },
       {
         heading: "Les prix immobiliers : ce qui s'est passé depuis 2020",
-        body: "Les prix immobiliers sur le littoral breton ont augmenté de 30 à 60 % entre 2019 et 2024 — portés par l'exode urbain post-Covid et la découverte du TGV Rennes-Paris (1h30). Quelques ordres de grandeur 2026 : Quiberon (île, très prisée) : 4 000 à 7 000 €/m². Belle-Île : 4 500 à 8 000 €/m². Vannes centre : 3 500 à 5 000 €/m². Lorient : 1 800 à 2 800 €/m². Brest : 1 600 à 2 500 €/m². Perros-Guirec (Côtes d'Armor) : 2 500 à 4 000 €/m² pour les vues mer. Concarneau, Quimper : 2 000 à 3 500 €/m². Les zones encore accessibles : le Finistère intérieur (15 à 30 km de la côte) — 1 200 à 1 800 €/m² — et les bourgs de l'arrière-littoral des Côtes d'Armor. La Bretagne n'est plus bon marché partout. Mais elle reste nettement en dessous du Pays Basque, de la Côte d'Azur ou du Sud Bretagne premium pour des qualités de vie comparables."
+        body: "Les prix immobiliers sur le littoral breton ont augmenté de 30 à 60 % entre 2019 et 2024, portés par l'exode urbain post-Covid et la découverte du TGV Rennes-Paris (1h30). Quelques ordres de grandeur 2026 : Quiberon (île, très prisée) : 4 000 à 7 000 €/m². Belle-Île : 4 500 à 8 000 €/m². Vannes centre : 3 500 à 5 000 €/m². Lorient : 1 800 à 2 800 €/m². Brest : 1 600 à 2 500 €/m². Perros-Guirec (Côtes d'Armor) : 2 500 à 4 000 €/m² pour les vues mer. Concarneau, Quimper : 2 000 à 3 500 €/m². Les zones encore accessibles : le Finistère intérieur (15 à 30 km de la côte), 1 200 à 1 800 €/m², et les bourgs de l'arrière-littoral des Côtes d'Armor. La Bretagne n'est plus bon marché partout. Mais elle reste nettement en dessous du Pays Basque, de la Côte d'Azur ou du Sud Bretagne premium pour des qualités de vie comparables."
       },
       {
         heading: "Pour qui la Bretagne côtière fonctionne vraiment",
@@ -18271,15 +18271,15 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "L'impact du DPE sur la facture énergétique",
-        body: "Un logement en DPE G (très mauvais) coûte 3 à 4 fois plus en énergie qu'un logement en DPE B. Concrètement : un T2 de 50 m² en DPE G dans une ville froide (Strasbourg, Grenoble, Dijon) peut coûter 350 à 500 euros par mois en électricité/gaz de novembre à mars. Le même appartement en DPE B coûte 60 à 100 euros. La différence de loyer (un DPE G se loue souvent moins cher) est entièrement annulée par la facture énergétique, et souvent inversée. Une annonce pour un T2 à 650 euros en DPE G dans une ville froide est en réalité plus chère qu'un T2 à 800 euros en DPE C dans le même secteur. Ce calcul est rarement fait par les locataires au moment de choisir — et c'est l'une des principales sources de mauvaise surprise dans le premier logement."
+        body: "Un logement en DPE G (très mauvais) coûte 3 à 4 fois plus en énergie qu'un logement en DPE B. Concrètement : un T2 de 50 m² en DPE G dans une ville froide (Strasbourg, Grenoble, Dijon) peut coûter 350 à 500 euros par mois en électricité/gaz de novembre à mars. Le même appartement en DPE B coûte 60 à 100 euros. La différence de loyer (un DPE G se loue souvent moins cher) est entièrement annulée par la facture énergétique, et souvent inversée. Une annonce pour un T2 à 650 euros en DPE G dans une ville froide est en réalité plus chère qu'un T2 à 800 euros en DPE C dans le même secteur. Ce calcul est rarement fait par les locataires au moment de choisir, et c'est l'une des principales sources de mauvaise surprise dans le premier logement."
       },
       {
         heading: "Comment comparer honnêtement deux logements",
-        body: "Méthode simple : pour chaque logement visité, calculez le coût mensuel normalisé. Loyer HC + estimation des charges récupérables (demandez au bailleur ou à l'agence la moyenne des 2 dernières années) + simulation énergétique (le DPE indique la consommation en kWh/m²/an — multipliez par la surface et par le tarif électrique moyen de 0,25 €/kWh pour avoir une estimation annuelle, divisez par 12) + internet 30 € + assurance 20-25 €. Cette démarche prend 10 minutes par logement et vous évitera de choisir un appartement qui paraît 100 euros moins cher par mois mais qui en coûte 180 de plus en charges et énergie. La simulation énergétique n'est qu'une estimation — mais elle vous permet de comparer deux logements en DPE D vs DPE F sur les mêmes bases, et de négocier le loyer du DPE F en conséquence."
+        body: "Méthode simple : pour chaque logement visité, calculez le coût mensuel normalisé. Loyer HC + estimation des charges récupérables (demandez au bailleur ou à l'agence la moyenne des 2 dernières années) + simulation énergétique (le DPE indique la consommation en kWh/m²/an, multipliez par la surface et par le tarif électrique moyen de 0,25 €/kWh pour avoir une estimation annuelle, divisez par 12) + internet 30 € + assurance 20-25 €. Cette démarche prend 10 minutes par logement et vous évitera de choisir un appartement qui paraît 100 euros moins cher par mois mais qui en coûte 180 de plus en charges et énergie. La simulation énergétique n'est qu'une estimation, mais elle vous permet de comparer deux logements en DPE D vs DPE F sur les mêmes bases, et de négocier le loyer du DPE F en conséquence."
       },
       {
         heading: "Les aides sur les charges : APL, FSL, chèque énergie",
-        body: "APL (Aide Personnalisée au Logement) : versée par la CAF directement sur le loyer ou à vous selon l'accord avec le bailleur. Dépend de vos revenus, de la composition du foyer, et de la zone de la commune. Simulateur sur caf.fr. Chèque énergie : versé automatiquement par l'État aux foyers modestes (revenus fiscaux sous ~11 000 €/an par unité de consommation). Montant : 48 à 277 euros/an selon les revenus. Valable chez tous les fournisseurs d'énergie et pour les travaux de rénovation chez un professionnel RGE. FSL (Fonds de Solidarité Logement) : aide ponctuelle accordée par les départements pour payer les impayés de loyer, de charges ou d'énergie en situation de précarité — à demander via le CCAS de votre commune. Ces aides sont cumulables et souvent méconnues. L'APL seule peut représenter 100 à 200 euros de réduction effective du loyer pour un ménage aux revenus modestes."
+        body: "APL (Aide Personnalisée au Logement) : versée par la CAF directement sur le loyer ou à vous selon l'accord avec le bailleur. Dépend de vos revenus, de la composition du foyer, et de la zone de la commune. Simulateur sur caf.fr. Chèque énergie : versé automatiquement par l'État aux foyers modestes (revenus fiscaux sous ~11 000 €/an par unité de consommation). Montant : 48 à 277 euros/an selon les revenus. Valable chez tous les fournisseurs d'énergie et pour les travaux de rénovation chez un professionnel RGE. FSL (Fonds de Solidarité Logement) : aide ponctuelle accordée par les départements pour payer les impayés de loyer, de charges ou d'énergie en situation de précarité, à demander via le CCAS de votre commune. Ces aides sont cumulables et souvent méconnues. L'APL seule peut représenter 100 à 200 euros de réduction effective du loyer pour un ménage aux revenus modestes."
       }
     ],
     relatedCities: ["paris", "lyon", "bordeaux", "nantes", "rennes", "dijon"],
@@ -18304,19 +18304,19 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Prix m² par quartier en 2026",
-        body: "Bordeaux intra-muros couvre une surface relativement contenue, ce qui signifie que la géographie compte énormément. Quartiers les plus chers : Triangle d'Or (Saint-Seurin, Fondaudège, Judaïque) entre 5 500 et 7 000 €/m² pour l'ancien bien rénové. Saint-Pierre, Saint-Paul, quartier historique : 5 000-6 500 €/m². Chartrons (rive gauche, proche fleuve) : 4 800-6 200 €/m² selon la vue. Les Capucins, Saint-Michel : 4 200-5 200 €/m², plus populaire et moins homogène qualitativement. Rive droite (Bastide, Belcier, Floirac) : 3 200-4 500 €/m² pour du neuf à Euratlantique, 2 800-3 800 €/m² pour l'ancien. Saint-Augustin, Caudéran, grands Bordeaux-périphérie : 3 000-4 000 €/m². Mérignac, Pessac, Villenave-d'Ornon (première couronne) : 2 800-3 800 €/m². Ces fourchettes sont des médianes DVF — le haut de gamme ponctuellement dépasse ces plafonds.",
+        body: "Bordeaux intra-muros couvre une surface relativement contenue, ce qui signifie que la géographie compte énormément. Quartiers les plus chers : Triangle d'Or (Saint-Seurin, Fondaudège, Judaïque) entre 5 500 et 7 000 €/m² pour l'ancien bien rénové. Saint-Pierre, Saint-Paul, quartier historique : 5 000-6 500 €/m². Chartrons (rive gauche, proche fleuve) : 4 800-6 200 €/m² selon la vue. Les Capucins, Saint-Michel : 4 200-5 200 €/m², plus populaire et moins homogène qualitativement. Rive droite (Bastide, Belcier, Floirac) : 3 200-4 500 €/m² pour du neuf à Euratlantique, 2 800-3 800 €/m² pour l'ancien. Saint-Augustin, Caudéran, grands Bordeaux-périphérie : 3 000-4 000 €/m². Mérignac, Pessac, Villenave-d'Ornon (première couronne) : 2 800-3 800 €/m². Ces fourchettes sont des médianes DVF, le haut de gamme ponctuellement dépasse ces plafonds.",
       },
       {
         heading: "Quartiers à surveiller en 2026",
-        body: "La Bastide (rive droite) a profité d'une décennie de réaménagement et continue sa montée : le tram D y circule, les berges sont réaménagées, les équipements arrivent. On est encore 20-30 % sous les prix de la rive gauche pour une qualité architecturale qui monte. Belcier et ses abords (gare Saint-Jean) bénéficient de l'effet Euratlantique — le programme de renouvellement urbain massif autour de la gare TGV tire les prix vers le haut dans un rayon de 500 m à 1 km. Bègles (commune limitrophe au sud) reste sous-évalué par rapport à sa qualité de vie et sa connexion tram. Bacalan (nord du centre, ex-industriel) a rattrapé une partie de son retard mais garde une marge de progression si le projet Bordeaux Maritime se concrétise.",
+        body: "La Bastide (rive droite) a profité d'une décennie de réaménagement et continue sa montée : le tram D y circule, les berges sont réaménagées, les équipements arrivent. On est encore 20-30 % sous les prix de la rive gauche pour une qualité architecturale qui monte. Belcier et ses abords (gare Saint-Jean) bénéficient de l'effet Euratlantique, le programme de renouvellement urbain massif autour de la gare TGV tire les prix vers le haut dans un rayon de 500 m à 1 km. Bègles (commune limitrophe au sud) reste sous-évalué par rapport à sa qualité de vie et sa connexion tram. Bacalan (nord du centre, ex-industriel) a rattrapé une partie de son retard mais garde une marge de progression si le projet Bordeaux Maritime se concrétise.",
       },
       {
         heading: "Le calcul honnête : louer ou acheter ?",
-        body: "À Bordeaux, le ratio prix d'achat / loyer annuel se situe autour de 22-26 ans selon le quartier (les Chartrons tournent autour de 24-26 ans, la rive droite autour de 20-22 ans). Ces ratios indiquent que l'achat n'est rentable, à taux d'intérêt actuels (3,5-4,2 % en mai 2026), que sur des horizons de détention de 10-15 ans minimum. Un achat à 350 000 € (appartement T2 50 m² Chartrons) financé à 100 % sur 20 ans à 3,8 % représente une mensualité de 2 100 €. Un loyer équivalent est 1 050-1 250 €. La différence initiale de 850-1 050 €/mois se comble par l'amortissement du capital sur 10-12 ans, mais seulement si les prix ne reculent pas. Ce calcul n'est pas une recommandation d'acheter ou de ne pas acheter — c'est le cadre honnête pour évaluer votre décision.",
+        body: "À Bordeaux, le ratio prix d'achat / loyer annuel se situe autour de 22-26 ans selon le quartier (les Chartrons tournent autour de 24-26 ans, la rive droite autour de 20-22 ans). Ces ratios indiquent que l'achat n'est rentable, à taux d'intérêt actuels (3,5-4,2 % en mai 2026), que sur des horizons de détention de 10-15 ans minimum. Un achat à 350 000 € (appartement T2 50 m² Chartrons) financé à 100 % sur 20 ans à 3,8 % représente une mensualité de 2 100 €. Un loyer équivalent est 1 050-1 250 €. La différence initiale de 850-1 050 €/mois se comble par l'amortissement du capital sur 10-12 ans, mais seulement si les prix ne reculent pas. Ce calcul n'est pas une recommandation d'acheter ou de ne pas acheter: c'est le cadre honnête pour évaluer votre décision.",
       },
       {
         heading: "Ce que les annonces ne disent pas",
-        body: "Bordeaux intra-muros est traversée par plusieurs axes à fort trafic (rocade, boulevard ceinture, ponts) qui génèrent un bruit de fond constant dans les appartements qui y donnent. Vérifier systématiquement la carte de bruit de la ville (disponible sur le géoportail de l'urbanisme). Les copropriétés des années 1960-1980 dans les quartiers périphériques (Saint-Augustin, Pessac) ont souvent des charges de copropriété élevées et des travaux votés ou à venir — toujours demander le carnet d'entretien et les procès-verbaux des trois dernières AG. Les appartements en rez-de-chaussée dans la plupart des quartiers se vendent 15-20 % moins cher mais sont difficiles à revendre et à louer. Le marché locatif bordelais est tendu : les zones tendues s'étendent à l'ensemble de la métropole, ce qui limite les hausses de loyer lors des relocations.",
+        body: "Bordeaux intra-muros est traversée par plusieurs axes à fort trafic (rocade, boulevard ceinture, ponts) qui génèrent un bruit de fond constant dans les appartements qui y donnent. Vérifier systématiquement la carte de bruit de la ville (disponible sur le géoportail de l'urbanisme). Les copropriétés des années 1960-1980 dans les quartiers périphériques (Saint-Augustin, Pessac) ont souvent des charges de copropriété élevées et des travaux votés ou à venir, toujours demander le carnet d'entretien et les procès-verbaux des trois dernières AG. Les appartements en rez-de-chaussée dans la plupart des quartiers se vendent 15-20 % moins cher mais sont difficiles à revendre et à louer. Le marché locatif bordelais est tendu : les zones tendues s'étendent à l'ensemble de la métropole, ce qui limite les hausses de loyer lors des relocations.",
       },
       {
         heading: "Budget total réel pour un achat T2 à Bordeaux",
@@ -18345,7 +18345,7 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Prix m² par quartier en 2026",
-        body: "Rennes intra-muros (à l'intérieur du périphérique) : le centre historique (Thabor, Arsenal, Saint-Germain, Quartier de la gare) : 4 000-5 200 €/m² pour l'ancien rénové. Beaulieu-Baud (pôle universitaire est) : 3 200-4 000 €/m². Villejean-Beauregard (nord, proche fac de médecine) : 2 800-3 500 €/m². Cleunay, Bréquigny (sud-ouest) : 2 600-3 200 €/m². Maurepas, Patton (est populaire) : 2 400-3 000 €/m². Première couronne (Cesson-Sévigné, Saint-Grégoire, Bruz, Pacé) : 3 000-4 200 €/m² selon la proximité du métro et du périphérique. Vitré, Redon (30-45 min par TER) : 1 800-2 500 €/m² — alternative réelle pour les télétravail complet.",
+        body: "Rennes intra-muros (à l'intérieur du périphérique) : le centre historique (Thabor, Arsenal, Saint-Germain, Quartier de la gare) : 4 000-5 200 €/m² pour l'ancien rénové. Beaulieu-Baud (pôle universitaire est) : 3 200-4 000 €/m². Villejean-Beauregard (nord, proche fac de médecine) : 2 800-3 500 €/m². Cleunay, Bréquigny (sud-ouest) : 2 600-3 200 €/m². Maurepas, Patton (est populaire) : 2 400-3 000 €/m². Première couronne (Cesson-Sévigné, Saint-Grégoire, Bruz, Pacé) : 3 000-4 200 €/m² selon la proximité du métro et du périphérique. Vitré, Redon (30-45 min par TER) : 1 800-2 500 €/m², alternative réelle pour les télétravail complet.",
       },
       {
         heading: "L'impact du métro et de la Ligne B",
@@ -18431,11 +18431,11 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Les zones à risque pour les télétravailleurs",
-        body: "Avant de vous engager sur un logement en dehors des grandes agglomérations, vérifiez systématiquement l'éligibilité FTTH via le site de chaque opérateur (pas les agrégateurs tiers) ou via eligibilite.arcep.fr. Les zones à risque réel en 2026 : vallées alpines hors des stations principales (Bourg-d'Oisans, Valloire, Argentière), zones rurales du Massif Central (Cantal, Haute-Loire intérieure, Corrèze profonde), certaines parties des Pyrénées (Ariège, Hautes-Pyrénées hors de Tarbes), et des zones côtières à l'habitat diffus (certaines parties de la Bretagne intérieure, cap Sizun). La 4G fixe (offre box 4G par Bouygues, SFR, Orange) est une alternative viable dans ces zones — elle offre des débits de 20-80 Mb/s, suffisants pour la visioconférence et les usages courants mais insuffisants pour les transferts massifs ou le gaming en temps réel.",
+        body: "Avant de vous engager sur un logement en dehors des grandes agglomérations, vérifiez systématiquement l'éligibilité FTTH via le site de chaque opérateur (pas les agrégateurs tiers) ou via eligibilite.arcep.fr. Les zones à risque réel en 2026 : vallées alpines hors des stations principales (Bourg-d'Oisans, Valloire, Argentière), zones rurales du Massif Central (Cantal, Haute-Loire intérieure, Corrèze profonde), certaines parties des Pyrénées (Ariège, Hautes-Pyrénées hors de Tarbes), et des zones côtières à l'habitat diffus (certaines parties de la Bretagne intérieure, cap Sizun). La 4G fixe (offre box 4G par Bouygues, SFR, Orange) est une alternative viable dans ces zones, elle offre des débits de 20-80 Mb/s, suffisants pour la visioconférence et les usages courants mais insuffisants pour les transferts massifs ou le gaming en temps réel.",
       },
       {
         heading: "Comment vérifier la connexion avant de signer un bail",
-        body: "La méthode sérieuse : avant de signer un bail ou un compromis de vente dans une zone non-urbaine, passez dans le logement avec votre smartphone et faites un test de débit (nperf.com ou speedtest.net) en Wi-Fi sur la box existante. Si le logement est vide et non raccordé, vérifiez l'adresse exacte sur le site de chaque opérateur principal (Orange, SFR, Free, Bouygues Télécom) — les estimations diffèrent souvent d'un opérateur à l'autre pour la même adresse. Demandez au propriétaire ou au bailleur quel opérateur est présent dans l'immeuble (notamment pour le raccordement immeuble). En copropriété, vérifiez si le câblage vertical a été réalisé en FTTH ou si on est encore en FTTB/coaxial.",
+        body: "La méthode sérieuse : avant de signer un bail ou un compromis de vente dans une zone non-urbaine, passez dans le logement avec votre smartphone et faites un test de débit (nperf.com ou speedtest.net) en Wi-Fi sur la box existante. Si le logement est vide et non raccordé, vérifiez l'adresse exacte sur le site de chaque opérateur principal (Orange, SFR, Free, Bouygues Télécom), les estimations diffèrent souvent d'un opérateur à l'autre pour la même adresse. Demandez au propriétaire ou au bailleur quel opérateur est présent dans l'immeuble (notamment pour le raccordement immeuble). En copropriété, vérifiez si le câblage vertical a été réalisé en FTTH ou si on est encore en FTTB/coaxial.",
       },
     ],
     relatedCities: ["paris", "lyon", "rennes", "grenoble", "strasbourg"],
@@ -18501,19 +18501,19 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Prix m² par quartier en 2026",
-        body: "Annecy-le-Vieux et les bords du lac : 6 000-10 000 €/m² pour les appartements avec vue. Centre historique (vieille ville, quais) : 5 500-7 500 €/m². Secteur gare, Novel, Courier : 4 500-5 800 €/m². Meythet (commune limitrophe à l'ouest, plus résidentielle) : 4 000-5 000 €/m². Seynod (au sud, accès rocade) : 3 500-4 500 €/m². Rumilly (20 km au nord, accès A41) : 2 800-3 500 €/m². Cluses, Bonneville, La Roche-sur-Foron (vallée de l'Arve, 30-40 km) : 2 200-3 200 €/m² — l'alternative réelle pour les frontaliers suisses.",
+        body: "Annecy-le-Vieux et les bords du lac : 6 000-10 000 €/m² pour les appartements avec vue. Centre historique (vieille ville, quais) : 5 500-7 500 €/m². Secteur gare, Novel, Courier : 4 500-5 800 €/m². Meythet (commune limitrophe à l'ouest, plus résidentielle) : 4 000-5 000 €/m². Seynod (au sud, accès rocade) : 3 500-4 500 €/m². Rumilly (20 km au nord, accès A41) : 2 800-3 500 €/m². Cluses, Bonneville, La Roche-sur-Foron (vallée de l'Arve, 30-40 km) : 2 200-3 200 €/m², l'alternative réelle pour les frontaliers suisses.",
       },
       {
         heading: "Pourquoi Annecy est aussi chère",
-        body: "Trois facteurs structurels : le lac (foncier limité et déjà saturé), la proximité de Genève (les frontaliers suisses, rémunérés en CHF, poussent les prix par leur capacité d'achat), et la réputation internationale de la ville comme destination de qualité de vie. Ces facteurs ne vont pas s'inverser. Le foncier disponible est quasi nul en bord de lac et très limité dans la vallée. Les prix d'Annecy ne reviendront pas à des niveaux «raisonnables» au regard des revenus français — c'est un marché qui suit une logique de destination premium, pas de marché résidentiel ordinaire.",
+        body: "Trois facteurs structurels : le lac (foncier limité et déjà saturé), la proximité de Genève (les frontaliers suisses, rémunérés en CHF, poussent les prix par leur capacité d'achat), et la réputation internationale de la ville comme destination de qualité de vie. Ces facteurs ne vont pas s'inverser. Le foncier disponible est quasi nul en bord de lac et très limité dans la vallée. Les prix d'Annecy ne reviendront pas à des niveaux «raisonnables» au regard des revenus français: c'est un marché qui suit une logique de destination premium, pas de marché résidentiel ordinaire.",
       },
       {
         heading: "Le calcul honnête : acheter ou louer à Annecy ?",
-        body: "Un T2 50 m² à 5 500 €/m² dans le centre : 275 000 € FAI. Frais de notaire (8 %) : 22 000 €. Budget total : 297 000 €. Loyer équivalent : 1 100-1 400 €/mois. Mensualité pour 250 000 € emprunté sur 20 ans à 3,8 % : environ 1 490 €. Le ratio prix/loyer est de l'ordre de 22-25 ans selon le quartier — l'achat n'est intéressant qu'avec un horizon long (12-15 ans) et si vous êtes certain de rester. Pour les profils mobiles ou incertains sur la durée, louer à Annecy et acheter ailleurs est souvent la décision rationnelle.",
+        body: "Un T2 50 m² à 5 500 €/m² dans le centre : 275 000 € FAI. Frais de notaire (8 %) : 22 000 €. Budget total : 297 000 €. Loyer équivalent : 1 100-1 400 €/mois. Mensualité pour 250 000 € emprunté sur 20 ans à 3,8 % : environ 1 490 €. Le ratio prix/loyer est de l'ordre de 22-25 ans selon le quartier, l'achat n'est intéressant qu'avec un horizon long (12-15 ans) et si vous êtes certain de rester. Pour les profils mobiles ou incertains sur la durée, louer à Annecy et acheter ailleurs est souvent la décision rationnelle.",
       },
       {
         heading: "Les alternatives dans le bassin annécien",
-        body: "Pour les budgets qui ne permettent pas le centre d'Annecy : Cran-Gevrier (commune fusionnée avec Annecy en 2017, légèrement moins chère) : 4 000-4 800 €/m². Saint-Jorioz et Duingt (rive ouest du lac, verdoyant) : 4 500-6 000 €/m² selon la vue. Faverges (20 km au sud, Bauges) : 2 500-3 200 €/m², avec une qualité de vie montagne réelle. Pour les frontaliers suisses : les communes de la vallée de l'Arve (Bonneville, Cluses, Scionzier) offrent un accès à la Suisse par l'autoroute A40 et des prix entre 2 200 et 3 000 €/m² — économie de 60 000-150 000 € sur un T3 par rapport à Annecy.",
+        body: "Pour les budgets qui ne permettent pas le centre d'Annecy : Cran-Gevrier (commune fusionnée avec Annecy en 2017, légèrement moins chère) : 4 000-4 800 €/m². Saint-Jorioz et Duingt (rive ouest du lac, verdoyant) : 4 500-6 000 €/m² selon la vue. Faverges (20 km au sud, Bauges) : 2 500-3 200 €/m², avec une qualité de vie montagne réelle. Pour les frontaliers suisses : les communes de la vallée de l'Arve (Bonneville, Cluses, Scionzier) offrent un accès à la Suisse par l'autoroute A40 et des prix entre 2 200 et 3 000 €/m², économie de 60 000-150 000 € sur un T3 par rapport à Annecy.",
       },
     ],
     relatedCities: ["annecy"],
@@ -18575,7 +18575,7 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Les options d'éducation bilingue en France",
-        body: "Il existe trois grandes voies : les sections bilingues dans l'école publique ordinaire (dispositif EMILE — Enseignement de Matières par l'Intégration d'une Langue Étrangère), les sections internationales dans les collèges et lycées publics (DNL — Disciplines Non Linguistiques), et les établissements privés bilingues sous contrat ou hors contrat. Les sections internationales anglaises existent dans plusieurs grandes villes et permettent de passer le Baccalauréat international option internationale (OIB), reconnu dans les universités anglo-saxonnes. L'IB (International Baccalaureate) est proposé dans un nombre limité d'établissements, principalement privés ou à statut international.",
+        body: "Il existe trois grandes voies : les sections bilingues dans l'école publique ordinaire (dispositif EMILE, Enseignement de Matières par l'Intégration d'une Langue Étrangère), les sections internationales dans les collèges et lycées publics (DNL, Disciplines Non Linguistiques), et les établissements privés bilingues sous contrat ou hors contrat. Les sections internationales anglaises existent dans plusieurs grandes villes et permettent de passer le Baccalauréat international option internationale (OIB), reconnu dans les universités anglo-saxonnes. L'IB (International Baccalaureate) est proposé dans un nombre limité d'établissements, principalement privés ou à statut international.",
       },
       {
         heading: "Paris et l'Île-de-France : la première option mais pas la seule",
@@ -18612,7 +18612,7 @@ export const GUIDES: Guide[] = [
     readMinutes: 7,
     publishedAt: "2026-05-24",
     updatedAt: "2026-05-24",
-    intro: "Les Alpes françaises attirent de plus en plus de télétravailleurs — la combinaison ski en hiver, randonnée en été, air pur, et logements encore abordables hors des stations haut de gamme est réelle. Mais télétravailler depuis les Alpes comporte des contraintes spécifiques que les posts Instagram ne montrent pas.",
+    intro: "Les Alpes françaises attirent de plus en plus de télétravailleurs, la combinaison ski en hiver, randonnée en été, air pur, et logements encore abordables hors des stations haut de gamme est réelle. Mais télétravailler depuis les Alpes comporte des contraintes spécifiques que les posts Instagram ne montrent pas.",
     sections: [
       {
         heading: "Les villes alpines compatibles avec le télétravail",
@@ -18620,7 +18620,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Les stations : une illusion pour le télétravail quotidien",
-        body: "Télétravailler depuis Chamonix, Courchevel, ou Les Deux Alpes semble séduisant. La réalité : la fibre est présente dans beaucoup de stations mais souvent sur des nœuds surchargés en haute saison. Les loyers en station sont extrêmement élevés (un T2 à Chamonix coûte 1 200-1 800 €/mois en hors saison, davantage en saison). La vie de village d'altitude en dehors des saisons touristiques peut être très ennuyeuse — les commerces ferment, les transports publics sont réduits, et l'isolement social peut devenir un problème réel pour les télétravailleurs isolés. Le profil qui réussit en station : couple, autonome socialement, avec une vraie pratique sportive et un emploi du temps flexible. Le profil qui déchante au bout de 6 mois : célibataire urban qui cherchait un changement de cadre et sous-estime l'isolement.",
+        body: "Télétravailler depuis Chamonix, Courchevel, ou Les Deux Alpes semble séduisant. La réalité : la fibre est présente dans beaucoup de stations mais souvent sur des nœuds surchargés en haute saison. Les loyers en station sont extrêmement élevés (un T2 à Chamonix coûte 1 200-1 800 €/mois en hors saison, davantage en saison). La vie de village d'altitude en dehors des saisons touristiques peut être très ennuyeuse, les commerces ferment, les transports publics sont réduits, et l'isolement social peut devenir un problème réel pour les télétravailleurs isolés. Le profil qui réussit en station : couple, autonome socialement, avec une vraie pratique sportive et un emploi du temps flexible. Le profil qui déchante au bout de 6 mois : célibataire urban qui cherchait un changement de cadre et sous-estime l'isolement.",
       },
       {
         heading: "Connexion internet : les points de vigilance alpins",
@@ -18657,7 +18657,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Tramway et bus",
-        body: "Le réseau Ilevia (transports en commun de la métropole lilloise) inclut 2 lignes de tramway desservant Tourcoing et Roubaix depuis Lille. Le réseau de bus est dense, avec des lignes à haut niveau de service (ChronoLille) sur les axes principaux. Le tarif mensuel (carte OùRA!) : environ 65-70 € pour une zone urbaine complète. La vitesse commerciale reste le point faible sur les lignes de bus en heures de pointe — les axes nord-est (vers Roubaix) peuvent être lents.",
+        body: "Le réseau Ilevia (transports en commun de la métropole lilloise) inclut 2 lignes de tramway desservant Tourcoing et Roubaix depuis Lille. Le réseau de bus est dense, avec des lignes à haut niveau de service (ChronoLille) sur les axes principaux. Le tarif mensuel (carte OùRA!) : environ 65-70 € pour une zone urbaine complète. La vitesse commerciale reste le point faible sur les lignes de bus en heures de pointe, les axes nord-est (vers Roubaix) peuvent être lents.",
       },
       {
         heading: "Le vélo à Lille en 2026",
@@ -18727,15 +18727,15 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Les villes où l'habitat participatif est le plus développé",
-        body: "Grenoble est la référence française : la ville a une longue tradition d'habitat participatif, des élus locaux favorables, et un tissu associatif dense (Habitat et Humanisme, HABICOOP, plusieurs groupes actifs). Lyon (notamment la Part-Dieu et les quartiers en renouvellement) et Bordeaux (Ginko, Bastide) ont des projets en cours ou récemment livrés. Strasbourg a des initiatives portées par les bailleurs sociaux. Rennes, Nantes, et Montpellier ont chacune plusieurs projets à différents stades. Paris concentre la demande mais peu de terrains disponibles et une administration plus complexe — quelques opérations dans les arrondissements périphériques.",
+        body: "Grenoble est la référence française : la ville a une longue tradition d'habitat participatif, des élus locaux favorables, et un tissu associatif dense (Habitat et Humanisme, HABICOOP, plusieurs groupes actifs). Lyon (notamment la Part-Dieu et les quartiers en renouvellement) et Bordeaux (Ginko, Bastide) ont des projets en cours ou récemment livrés. Strasbourg a des initiatives portées par les bailleurs sociaux. Rennes, Nantes, et Montpellier ont chacune plusieurs projets à différents stades. Paris concentre la demande mais peu de terrains disponibles et une administration plus complexe, quelques opérations dans les arrondissements périphériques.",
       },
       {
         heading: "Les avantages réels",
-        body: "Le coût au m² peut être 10-20 % inférieur à un achat en promotion classique (les marges du promoteur sont éliminées), mais ce chiffre cache une grande variabilité selon la localisation et le projet. La qualité architecturale des projets participatifs est souvent supérieure à celle de la promotion classique car les futurs occupants choisissent les matériaux et les prestations avec soin. Les espaces partagés (laverie, atelier, salle commune, jardin) réduisent les besoins individuels. La communauté crée un filet social réel — cela peut compter pour les familles avec enfants et les personnes vieillissantes. Le DPE (diagnostic de performance énergétique) des projets participatifs est généralement excellent car les futurs occupants ont intérêt à minimiser les charges d'énergie.",
+        body: "Le coût au m² peut être 10-20 % inférieur à un achat en promotion classique (les marges du promoteur sont éliminées), mais ce chiffre cache une grande variabilité selon la localisation et le projet. La qualité architecturale des projets participatifs est souvent supérieure à celle de la promotion classique car les futurs occupants choisissent les matériaux et les prestations avec soin. Les espaces partagés (laverie, atelier, salle commune, jardin) réduisent les besoins individuels. La communauté crée un filet social réel, cela peut compter pour les familles avec enfants et les personnes vieillissantes. Le DPE (diagnostic de performance énergétique) des projets participatifs est généralement excellent car les futurs occupants ont intérêt à minimiser les charges d'énergie.",
       },
       {
         heading: "Les risques et les contraintes que personne ne dit",
-        body: "Le risque principal : les délais. Un projet d'autopromotion prend rarement moins de 4 ans de la première réunion à la livraison. Pendant ce temps, vous immobilisez votre apport (pas de rendement), les prix peuvent changer, et les groupes se transforment (départs, conflits). Les projets qui aboutissent sont ceux avec un noyau dur solide de 3-5 ménages très engagés et une cohérence des valeurs sur les questions de vie commune. Les conflits autour de la gouvernance (comment prendre les décisions ?) et du niveau de vie commune (jusqu'où partage-t-on ?) sont fréquents et parfois destructeurs. L'accompagnement par une AMO (Assistance à Maîtrise d'Ouvrage) spécialisée en habitat participatif est quasi-obligatoire pour les projets neufs — budget entre 3 et 8 % du coût total du projet.",
+        body: "Le risque principal : les délais. Un projet d'autopromotion prend rarement moins de 4 ans de la première réunion à la livraison. Pendant ce temps, vous immobilisez votre apport (pas de rendement), les prix peuvent changer, et les groupes se transforment (départs, conflits). Les projets qui aboutissent sont ceux avec un noyau dur solide de 3-5 ménages très engagés et une cohérence des valeurs sur les questions de vie commune. Les conflits autour de la gouvernance (comment prendre les décisions ?) et du niveau de vie commune (jusqu'où partage-t-on ?) sont fréquents et parfois destructeurs. L'accompagnement par une AMO (Assistance à Maîtrise d'Ouvrage) spécialisée en habitat participatif est quasi-obligatoire pour les projets neufs, budget entre 3 et 8 % du coût total du projet.",
       },
       {
         heading: "Comment trouver un projet ou lancer le sien",
@@ -18902,7 +18902,7 @@ export const GUIDES: Guide[] = [
     slug: "vivre-en-normandie-interieure-guide-2026",
     title: "Vivre en Normandie intérieure en 2026 : Évreux, Alençon, Argentan, Lisieux",
     metaTitle: "Vivre en Normandie intérieure 2026 — Évreux, Alençon, Argentan : guide honnête",
-    metaDesc: "La Normandie intérieure, loin de Rouen, Caen et des côtes. Bocage, silence, prix bas — mais aussi un marché de l'emploi limité. Le guide sans bullshit.",
+    metaDesc: "La Normandie intérieure, loin de Rouen, Caen et des côtes. Bocage, silence, prix bas, mais aussi un marché de l'emploi limité. Le guide sans bullshit.",
     category: "region",
     emoji: "🌿",
     readMinutes: 7,
@@ -18912,19 +18912,19 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Les villes principales et leur profil",
-        body: "Évreux (Eure) : la préfecture de l'Eure, 50 000 habitants. À 1h15 de Paris (Saint-Lazare) et 1h de Rouen. Tissu d'emploi industriel (pharmacie, logistique), CHU régional. Prix immobilier : 1 400-2 200 €/m². La ville la mieux connectée de la Normandie intérieure. Alençon (Orne) : 27 000 habitants, préfecture de l'Orne, 2h30 de Paris, 1h de Caen. Connue pour la dentelle d'Alençon (patrimoine UNESCO). Prix : 1 100-1 700 €/m². Marché de l'emploi restreint. Lisieux (Calvados) : 21 000 habitants, ville de pèlerinage (Sainte-Thérèse), 2h de Paris, 40 min de Caen. Commerce local solide autour du tourisme religieux. Prix : 1 200-1 800 €/m². Argentan (Orne) : 15 000 habitants, bourg de marché, Haras du Pin (le Versailles du cheval) à 20 min. Prix : 900-1 400 €/m² — parmi les plus bas de France pour une commune avec un tissu de services réel.",
+        body: "Évreux (Eure) : la préfecture de l'Eure, 50 000 habitants. À 1h15 de Paris (Saint-Lazare) et 1h de Rouen. Tissu d'emploi industriel (pharmacie, logistique), CHU régional. Prix immobilier : 1 400-2 200 €/m². La ville la mieux connectée de la Normandie intérieure. Alençon (Orne) : 27 000 habitants, préfecture de l'Orne, 2h30 de Paris, 1h de Caen. Connue pour la dentelle d'Alençon (patrimoine UNESCO). Prix : 1 100-1 700 €/m². Marché de l'emploi restreint. Lisieux (Calvados) : 21 000 habitants, ville de pèlerinage (Sainte-Thérèse), 2h de Paris, 40 min de Caen. Commerce local solide autour du tourisme religieux. Prix : 1 200-1 800 €/m². Argentan (Orne) : 15 000 habitants, bourg de marché, Haras du Pin (le Versailles du cheval) à 20 min. Prix : 900-1 400 €/m², parmi les plus bas de France pour une commune avec un tissu de services réel.",
       },
       {
         heading: "Les maisons : le vrai argument de la Normandie intérieure",
-        body: "Si vous cherchez une maison avec jardin pour moins de 150 000 € — l'exercice est quasi-impossible dans la plupart des régions françaises sauf dans les zones rurales profondes. Dans la Normandie intérieure, c'est encore faisable. Des maisons en brique normande de 100-140 m² avec terrain de 500-1 000 m² se trouvent entre 80 000 et 150 000 € dans le triangle Alençon/Argentan/Flers. Les maisons à colombages (à rénover) débutent à 60 000 €. La contrepartie : la plupart nécessitent une rénovation énergétique sérieuse (chauffage, isolation) — les DPE F et G sont courants dans les biens anciens de cette région.",
+        body: "Si vous cherchez une maison avec jardin pour moins de 150 000 €, l'exercice est quasi-impossible dans la plupart des régions françaises sauf dans les zones rurales profondes. Dans la Normandie intérieure, c'est encore faisable. Des maisons en brique normande de 100-140 m² avec terrain de 500-1 000 m² se trouvent entre 80 000 et 150 000 € dans le triangle Alençon/Argentan/Flers. Les maisons à colombages (à rénover) débutent à 60 000 €. La contrepartie : la plupart nécessitent une rénovation énergétique sérieuse (chauffage, isolation), les DPE F et G sont courants dans les biens anciens de cette région.",
       },
       {
         heading: "La vie quotidienne : ce que les guides omettent",
-        body: "La Normandie intérieure reçoit beaucoup de précipitations — entre 800 et 1 100 mm par an selon les zones, répartis sur toute l'année. L'ensoleillement est parmi les plus faibles de France métropolitaine (1 700-1 800 h/an, contre 2 700 à Nice). Les mois de novembre à mars peuvent être particulièrement gris et humides. Ce n'est pas une exagération : c'est la réalité climatique du bocage normand. En contrepartie, les étés sont frais et agréables (22-26°C), les orages violents sont rares, et la végétation est luxuriante. Si vous êtes sensible au manque de lumière hivernale, étudiez sérieusement cette donnée avant de vous installer.",
+        body: "La Normandie intérieure reçoit beaucoup de précipitations, entre 800 et 1 100 mm par an selon les zones, répartis sur toute l'année. L'ensoleillement est parmi les plus faibles de France métropolitaine (1 700-1 800 h/an, contre 2 700 à Nice). Les mois de novembre à mars peuvent être particulièrement gris et humides. Ce n'est pas une exagération : c'est la réalité climatique du bocage normand. En contrepartie, les étés sont frais et agréables (22-26°C), les orages violents sont rares, et la végétation est luxuriante. Si vous êtes sensible au manque de lumière hivernale, étudiez sérieusement cette donnée avant de vous installer.",
       },
       {
         heading: "Télétravail : la condition d'un mode de vie réussi",
-        body: "S'installer dans la Normandie intérieure avec un emploi local à temps plein est difficile sauf dans des secteurs bien représentés (agriculture, logistique, santé, éducation). La stratégie qui fonctionne : le télétravail avec des déplacements ponctuels à Paris, Rouen ou Caen, ou un emploi local dans les secteurs porteurs de la région. La couverture fibre est en cours de déploiement dans toute la Normandie (plan France Très Haut Débit) — la plupart des communes de plus de 2 000 habitants sont fibrées ou le seront d'ici 2026-2027. Vérifier le statut exact de la commune cible avant d'acheter.",
+        body: "S'installer dans la Normandie intérieure avec un emploi local à temps plein est difficile sauf dans des secteurs bien représentés (agriculture, logistique, santé, éducation). La stratégie qui fonctionne : le télétravail avec des déplacements ponctuels à Paris, Rouen ou Caen, ou un emploi local dans les secteurs porteurs de la région. La couverture fibre est en cours de déploiement dans toute la Normandie (plan France Très Haut Débit), la plupart des communes de plus de 2 000 habitants sont fibrées ou le seront d'ici 2026-2027. Vérifier le statut exact de la commune cible avant d'acheter.",
       },
     ],
     relatedCities: ["evreux", "caen", "rouen"],
@@ -19031,15 +19031,15 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Ce que le réseau RTM couvre (et ne couvre pas)",
-        body: "Le réseau RTM dispose de 2 lignes de métro (M1 et M2, 28 stations au total), 2 lignes de tramway (T2 et T3), et un réseau de bus dense mais lent. Le métro couvre un axe centre-nord (M2) et centre-est (M1) — c'est relativement limité pour une ville de 870 000 habitants. La couverture est bonne dans les 1er, 2e, 3e, 4e, 5e arrondissements (cœur dense), correcte dans les 6e, 7e, 8e (rive sud bourgeoise), et mauvaise voire inexistante dans les 13e, 14e, 15e, 16e (quartiers nord et calanques). Le tramway dessert le Vieux-Port, Noailles, et s'étend progressivement vers les Caillols. Bus : fréquents sur les axes principaux, mais souvent bloqués dans la circulation marseillaise dense — les temps de trajet réels divergent fortement des horaires théoriques.",
+        body: "Le réseau RTM dispose de 2 lignes de métro (M1 et M2, 28 stations au total), 2 lignes de tramway (T2 et T3), et un réseau de bus dense mais lent. Le métro couvre un axe centre-nord (M2) et centre-est (M1): c'est relativement limité pour une ville de 870 000 habitants. La couverture est bonne dans les 1er, 2e, 3e, 4e, 5e arrondissements (cœur dense), correcte dans les 6e, 7e, 8e (rive sud bourgeoise), et mauvaise voire inexistante dans les 13e, 14e, 15e, 16e (quartiers nord et calanques). Le tramway dessert le Vieux-Port, Noailles, et s'étend progressivement vers les Caillols. Bus : fréquents sur les axes principaux, mais souvent bloqués dans la circulation marseillaise dense, les temps de trajet réels divergent fortement des horaires théoriques.",
       },
       {
         heading: "Le vélo à Marseille : progressif mais encore limité",
-        body: "Marseille accuse un retard historique sur le vélo. La topographie (collines, pentes) et la culture automobile dominante ont longtemps découragé l'investissement cyclable. Depuis 2022, la municipalité a accéléré : des pistes cyclables ont été tracées sur les boulevards principaux (Boulevard Michelet, Rue de Rome), et le réseau s'étend. Le service de vélos en libre-service (le Vélo à Marseille, 130 stations) couvre le cœur de ville de manière satisfaisante. La réalité : à Paris, Lyon ou Bordeaux, le vélo est une option sérieuse pour 60-70 % des déplacements quotidiens en intra-muros. À Marseille, c'est plutôt 30-40 % — les montées et la discontinuité des pistes restent des freins réels.",
+        body: "Marseille accuse un retard historique sur le vélo. La topographie (collines, pentes) et la culture automobile dominante ont longtemps découragé l'investissement cyclable. Depuis 2022, la municipalité a accéléré : des pistes cyclables ont été tracées sur les boulevards principaux (Boulevard Michelet, Rue de Rome), et le réseau s'étend. Le service de vélos en libre-service (le Vélo à Marseille, 130 stations) couvre le cœur de ville de manière satisfaisante. La réalité : à Paris, Lyon ou Bordeaux, le vélo est une option sérieuse pour 60-70 % des déplacements quotidiens en intra-muros. À Marseille, c'est plutôt 30-40 %, les montées et la discontinuité des pistes restent des freins réels.",
       },
       {
         heading: "Les quartiers où vivre sans voiture est réaliste",
-        body: "Noailles, Belsunce, Saint-Charles (1er, 2e, 3e arrondissements) : densité maximale, tout à pied, métro et tram accessibles, commerces de proximité très denses. Idéal pour le sans-voiture — au prix d'une mixité sociale intense et d'un environnement bruyant. Castellane, La Plaine, Cours Julien (5e, 6e) : quartiers intermédiaires, vie de quartier forte, vélo et métro viables. Préfecture, Notre-Dame-du-Mont (6e) : résidentiel bobo, le compromis le plus confortable pour vivre sans voiture tout en ayant un cadre agréable. À éviter sans voiture : tout ce qui est au-delà de La Fourragère au nord (M1) ou sans connexion tramway directe. Les calanques sont incompatibles avec un mode de vie sans voiture permanente.",
+        body: "Noailles, Belsunce, Saint-Charles (1er, 2e, 3e arrondissements) : densité maximale, tout à pied, métro et tram accessibles, commerces de proximité très denses. Idéal pour le sans-voiture, au prix d'une mixité sociale intense et d'un environnement bruyant. Castellane, La Plaine, Cours Julien (5e, 6e) : quartiers intermédiaires, vie de quartier forte, vélo et métro viables. Préfecture, Notre-Dame-du-Mont (6e) : résidentiel bobo, le compromis le plus confortable pour vivre sans voiture tout en ayant un cadre agréable. À éviter sans voiture : tout ce qui est au-delà de La Fourragère au nord (M1) ou sans connexion tramway directe. Les calanques sont incompatibles avec un mode de vie sans voiture permanente.",
       },
       {
         heading: "Le coût de la non-voiture à Marseille",
@@ -19068,11 +19068,11 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Le réseau vélo : un atout réel mais concentré",
-        body: "La piste cyclable autour du lac d'Annecy (30 km bouclés, entièrement séparée du trafic) est l'infrastructure cyclable la plus belle et la plus fréquentée de Haute-Savoie — mais elle est surtout récréative. Le réseau cyclable urbain, lui, s'est développé depuis 2019 : des bandes et pistes cyclables existent sur les principaux axes (avenue de Genève, avenue de France, rue de la République). Mais la continuité entre quartiers reste incomplète — des sauts de mode (piste → bande → chaussée) rendent certains itinéraires inconfortables pour les cyclistes peu expérimentés. Le réseau Cycloparc (stationnement sécurisé) s'est développé en gares et points clés.",
+        body: "La piste cyclable autour du lac d'Annecy (30 km bouclés, entièrement séparée du trafic) est l'infrastructure cyclable la plus belle et la plus fréquentée de Haute-Savoie, mais elle est surtout récréative. Le réseau cyclable urbain, lui, s'est développé depuis 2019 : des bandes et pistes cyclables existent sur les principaux axes (avenue de Genève, avenue de France, rue de la République). Mais la continuité entre quartiers reste incomplète, des sauts de mode (piste → bande → chaussée) rendent certains itinéraires inconfortables pour les cyclistes peu expérimentés. Le réseau Cycloparc (stationnement sécurisé) s'est développé en gares et points clés.",
       },
       {
         heading: "Le réseau SIBRA : correct pour le centre, limité en périphérie",
-        body: "Le réseau de bus SIBRA couvre le centre d'Annecy et les communes proches (Cran-Gevrier, Seynod, Pringy) avec une fréquence raisonnable (toutes les 10-15 min sur les lignes principales en heure de pointe). Pour les déplacements centre-centre, le SIBRA + vélo est une combinaison viable. La faiblesse : les communes à l'est du lac (Annecy-le-Vieux, Veyrier-du-Lac, Talloires) sont moins bien desservies — une voiture reste quasi-indispensable pour y vivre sans voiture. Pas de tramway ni de métro à Annecy : c'est un choix assumé par la ville jusqu'ici (débat ouvert sur une ligne de tram-bus).",
+        body: "Le réseau de bus SIBRA couvre le centre d'Annecy et les communes proches (Cran-Gevrier, Seynod, Pringy) avec une fréquence raisonnable (toutes les 10-15 min sur les lignes principales en heure de pointe). Pour les déplacements centre-centre, le SIBRA + vélo est une combinaison viable. La faiblesse : les communes à l'est du lac (Annecy-le-Vieux, Veyrier-du-Lac, Talloires) sont moins bien desservies, une voiture reste quasi-indispensable pour y vivre sans voiture. Pas de tramway ni de métro à Annecy : c'est un choix assumé par la ville jusqu'ici (débat ouvert sur une ligne de tram-bus).",
       },
       {
         heading: "Où vivre sans voiture à Annecy",
@@ -19080,7 +19080,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "La réalité quotidienne en hiver",
-        body: "L'hiver savoyard change les données. Novembre à mars, les journées sont courtes, il peut neiger en ville, et les températures descendent régulièrement sous 0°C. Faire ses courses à vélo par -5°C et neige collante est possible mais pas confortable. Le vélo électrique (VAE) change la donne — il compense les dénivelés et réduit l'effort physique, mais l'entretien hivernal (chaîne, pneus) est un sujet. Le SIBRA maintient son service en conditions normales (sauf épisodes neigeux exceptionnels sur les lignes périphériques). Sans voiture l'hiver à Annecy-centre : réaliste. Sans voiture l'hiver en périphérie montagnarde : inconfortable.",
+        body: "L'hiver savoyard change les données. Novembre à mars, les journées sont courtes, il peut neiger en ville, et les températures descendent régulièrement sous 0°C. Faire ses courses à vélo par -5°C et neige collante est possible mais pas confortable. Le vélo électrique (VAE) change la donne, il compense les dénivelés et réduit l'effort physique, mais l'entretien hivernal (chaîne, pneus) est un sujet. Le SIBRA maintient son service en conditions normales (sauf épisodes neigeux exceptionnels sur les lignes périphériques). Sans voiture l'hiver à Annecy-centre : réaliste. Sans voiture l'hiver en périphérie montagnarde : inconfortable.",
       },
     ],
     relatedCities: ["annecy"],
@@ -19105,19 +19105,19 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Le réseau Divia : tramway + bus bien intégrés",
-        body: "Dijon dispose de 4 lignes de tramway (T1, T2, T3, T4) couvrant les principaux axes de la ville — une infrastructure remarquable pour une agglomération de 250 000 habitants. Le réseau de bus Divia complète les zones non desservies par le tram. La fréquence est satisfaisante sur les lignes principales (tram toutes les 5-8 min en heure de pointe, bus toutes les 10-15 min). Les horaires s'étendent jusqu'à 0h environ en semaine, 1h le week-end. Le coût : abonnement mensuel Divia à 44 €/mois (tarif plein), 28 €/mois pour les jeunes et les bas revenus. La qualité du réseau Divia est régulièrement citée comme l'un des meilleurs rapports couverture/taille dans les classements de mobilité en ville de taille intermédiaire.",
+        body: "Dijon dispose de 4 lignes de tramway (T1, T2, T3, T4) couvrant les principaux axes de la ville, une infrastructure remarquable pour une agglomération de 250 000 habitants. Le réseau de bus Divia complète les zones non desservies par le tram. La fréquence est satisfaisante sur les lignes principales (tram toutes les 5-8 min en heure de pointe, bus toutes les 10-15 min). Les horaires s'étendent jusqu'à 0h environ en semaine, 1h le week-end. Le coût : abonnement mensuel Divia à 44 €/mois (tarif plein), 28 €/mois pour les jeunes et les bas revenus. La qualité du réseau Divia est régulièrement citée comme l'un des meilleurs rapports couverture/taille dans les classements de mobilité en ville de taille intermédiaire.",
       },
       {
         heading: "DiviaVélo et la cyclabilité dijonnaise",
-        body: "DiviaVélo, le système de vélos en libre-service de Dijon, compte plus de 50 stations et des vélos mécaniques et électriques. L'abonnement annuel est à 29 €. La ville dispose de pistes cyclables sur ses axes principaux — le centre historique (rue de la Liberté piétonne, alentours) est particulièrement agréable à vélo. Dijon a progressivement développé ses Zones à Trafic Limité (ZTL) dans le centre, ce qui favorise le vélo sur les itinéraires clés. La topographie est favorable : Dijon est plate, sans dénivelé significatif à l'intérieur de l'agglomération. Le seul point de vigilance : certaines pistes cyclables restent des bandes peintes sans protection — le niveau de sécurité varie selon l'axe.",
+        body: "DiviaVélo, le système de vélos en libre-service de Dijon, compte plus de 50 stations et des vélos mécaniques et électriques. L'abonnement annuel est à 29 €. La ville dispose de pistes cyclables sur ses axes principaux, le centre historique (rue de la Liberté piétonne, alentours) est particulièrement agréable à vélo. Dijon a progressivement développé ses Zones à Trafic Limité (ZTL) dans le centre, ce qui favorise le vélo sur les itinéraires clés. La topographie est favorable : Dijon est plate, sans dénivelé significatif à l'intérieur de l'agglomération. Le seul point de vigilance : certaines pistes cyclables restent des bandes peintes sans protection, le niveau de sécurité varie selon l'axe.",
       },
       {
         heading: "Quartiers idéaux pour vivre sans voiture",
-        body: "Hypercentre (Vieux-Dijon, cathédrale, place Darcy) : le nec plus ultra. Tout à pied, tram à moins de 5 min, marchés couverts, commerces. Prix : 3 000-4 500 €/m² à l'achat, T2 700-950 €/mois en location. Parc, Montchapet (ouest résidentiel) : accès tram T2 ou T4, ambiance résidentielle tranquille, bon équilibre prix/qualité. Gare (Gare-Faubourg Raines) : accès tram direct, gare TGV à pied — idéal pour les navetteurs Paris-Dijon (1h35 de trajet). République, Drapeau (est) : desserte tram correcte, plus populaire, prix plus abordables (achat 2 400-3 200 €/m²).",
+        body: "Hypercentre (Vieux-Dijon, cathédrale, place Darcy) : le nec plus ultra. Tout à pied, tram à moins de 5 min, marchés couverts, commerces. Prix : 3 000-4 500 €/m² à l'achat, T2 700-950 €/mois en location. Parc, Montchapet (ouest résidentiel) : accès tram T2 ou T4, ambiance résidentielle tranquille, bon équilibre prix/qualité. Gare (Gare-Faubourg Raines) : accès tram direct, gare TGV à pied, idéal pour les navetteurs Paris-Dijon (1h35 de trajet). République, Drapeau (est) : desserte tram correcte, plus populaire, prix plus abordables (achat 2 400-3 200 €/m²).",
       },
       {
         heading: "Le calcul financier sans voiture à Dijon",
-        body: "Coût mensuel transport sans voiture : abonnement Divia 44 € + DiviaVélo 2,4 €/mois (29 €/an) + VTC occasionnel 20-30 €/mois = environ 70-80 €/mois. Économie vs. voiture à Dijon (assurance + carburant + parking + entretien) : 350-550 €/mois selon le véhicule et l'usage. En 10 ans, l'économie totale de ne pas posséder de voiture à Dijon (transport remplacé par abonnement Divia) : environ 30 000-55 000 €. Dijon est l'une des villes où l'arbitrage financier en faveur du sans-voiture est le plus net — à la fois parce que le réseau est suffisant pour s'en passer et parce que la ville est petite enough pour que les déplacements restent courts.",
+        body: "Coût mensuel transport sans voiture : abonnement Divia 44 € + DiviaVélo 2,4 €/mois (29 €/an) + VTC occasionnel 20-30 €/mois = environ 70-80 €/mois. Économie vs. voiture à Dijon (assurance + carburant + parking + entretien) : 350-550 €/mois selon le véhicule et l'usage. En 10 ans, l'économie totale de ne pas posséder de voiture à Dijon (transport remplacé par abonnement Divia) : environ 30 000-55 000 €. Dijon est l'une des villes où l'arbitrage financier en faveur du sans-voiture est le plus net, à la fois parce que le réseau est suffisant pour s'en passer et parce que la ville est petite enough pour que les déplacements restent courts.",
       },
     ],
     relatedCities: ["dijon", "chenove"],
@@ -19146,7 +19146,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Top 5 villes outdoor France : les meilleures combinaisons",
-        body: "Grenoble : le meilleur score global. Accès ski (Chamrousse, Chartreuse) à 45 min, trail en Chartreuse ou Vercors à 30 min depuis le centre, escalade à Presles (1h) ou fontaine (20 min), kayak sur l'Isère. Le tout avec une ville universitaire dynamique. Annecy : lac (voile, kayak, paddle), VTT Semnoz, ski Semnoz et Grand-Bornand (1h), escalade aux Aravis. Concentration de sportifs parmi les plus élevées de France. Chamonix-adjacent (résider à Sallanches ou Cluses pour des prix humains) : alpinisme, ski, trail de renommée mondiale — pour les pratiquants sérieux. Gap : discret mais exceptionnel. Accès Écrins, Dévoluy, Sisteron, Serre-Ponçon (voile). Moins cher que Grenoble et plus nature. Bayonne/Anglet/Biarritz : surf, surf de rivière sur la Nive, trail en Pyrénées (1h), VTT Basque. La ville côtière avec le meilleur accès montagne de France.",
+        body: "Grenoble : le meilleur score global. Accès ski (Chamrousse, Chartreuse) à 45 min, trail en Chartreuse ou Vercors à 30 min depuis le centre, escalade à Presles (1h) ou fontaine (20 min), kayak sur l'Isère. Le tout avec une ville universitaire dynamique. Annecy : lac (voile, kayak, paddle), VTT Semnoz, ski Semnoz et Grand-Bornand (1h), escalade aux Aravis. Concentration de sportifs parmi les plus élevées de France. Chamonix-adjacent (résider à Sallanches ou Cluses pour des prix humains) : alpinisme, ski, trail de renommée mondiale, pour les pratiquants sérieux. Gap : discret mais exceptionnel. Accès Écrins, Dévoluy, Sisteron, Serre-Ponçon (voile). Moins cher que Grenoble et plus nature. Bayonne/Anglet/Biarritz : surf, surf de rivière sur la Nive, trail en Pyrénées (1h), VTT Basque. La ville côtière avec le meilleur accès montagne de France.",
       },
       {
         heading: "Villes de plaine sous-estimées pour l'outdoor",
@@ -19154,7 +19154,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Ce que les grandes métropoles offrent (et pas)",
-        body: "Lyon : trail sur les coteaux du Rhône (30 min), Chartreuse et Belledonne (1h), ski en Chartreuse (1h), canoë sur la Bourbre. La proximité des Alpes compense la taille de la métropole. Paris : pratiquement rien à moins de 1h pour les sports de montagne. Accès bonne escalade (Fontainebleau, 1h) et trail correct en forêt d'Île-de-France — mais c'est tout. Marseille : calanques (grimpe, randonnée, kayak de mer) à 20-40 min depuis le centre. C'est le grand atout de Marseille pour les sportifs outdoor malgré tous ses inconvénients urbains. Bordeaux : surf à 1h (Lacanau, Hossegor), Dordogne en canoë (1h30), Pyrénées (2h30) — la ville outdoor de l'Atlantique.",
+        body: "Lyon : trail sur les coteaux du Rhône (30 min), Chartreuse et Belledonne (1h), ski en Chartreuse (1h), canoë sur la Bourbre. La proximité des Alpes compense la taille de la métropole. Paris : pratiquement rien à moins de 1h pour les sports de montagne. Accès bonne escalade (Fontainebleau, 1h) et trail correct en forêt d'Île-de-France, mais c'est tout. Marseille : calanques (grimpe, randonnée, kayak de mer) à 20-40 min depuis le centre. C'est le grand atout de Marseille pour les sportifs outdoor malgré tous ses inconvénients urbains. Bordeaux : surf à 1h (Lacanau, Hossegor), Dordogne en canoë (1h30), Pyrénées (2h30), la ville outdoor de l'Atlantique.",
       },
     ],
     relatedCities: ["grenoble", "annecy", "bayonne", "pau", "gap"],
@@ -19183,15 +19183,15 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "L'effet frontalier : opportunité et marché drivé",
-        body: "La Haute-Savoie partage sa frontière avec la Suisse (Canton de Genève, Canton de Vaud). Les travailleurs frontaliers (plus de 90 000 actifs font ce trajet quotidiennement en 2026) bénéficient de salaires suisses tout en payant leurs impôts en France — un avantage fiscal significatif. Cet effet double les salaires moyens dans le département et soutient la demande immobilière à des niveaux bien au-delà des salaires locaux. Conséquence pour les résidents non-frontaliers : les prix sont structurellement poussés à la hausse par une demande solvable atypique. Si vous n'êtes pas travailleur frontalier, vivez en Haute-Savoie pour la qualité de vie, pas pour un investissement purement financier — les rendements locatifs nets sont faibles (3-4 %).",
+        body: "La Haute-Savoie partage sa frontière avec la Suisse (Canton de Genève, Canton de Vaud). Les travailleurs frontaliers (plus de 90 000 actifs font ce trajet quotidiennement en 2026) bénéficient de salaires suisses tout en payant leurs impôts en France, un avantage fiscal significatif. Cet effet double les salaires moyens dans le département et soutient la demande immobilière à des niveaux bien au-delà des salaires locaux. Conséquence pour les résidents non-frontaliers : les prix sont structurellement poussés à la hausse par une demande solvable atypique. Si vous n'êtes pas travailleur frontalier, vivez en Haute-Savoie pour la qualité de vie, pas pour un investissement purement financier, les rendements locatifs nets sont faibles (3-4 %).",
       },
       {
         heading: "La vie quotidienne dans les Alpes : hiver et été",
-        body: "L'hiver en Haute-Savoie dure de novembre à mars — parfois plus en altitude. Pour les amateurs de ski et de sports d'hiver, c'est un atout incomparable : Morzine, Les Gets, Chamonix, La Clusaz sont à 45 minutes à 1h30 des principaux bassins d'habitat. Pour les non-skieurs ou les personnes sensibles à la grisaille hivernale en fond de vallée (Cluses, Bonneville), les mois de décembre à février peuvent être longs. L'été savoyard est en revanche exceptionnel : températures douces, activités outdoor en abondance (randonnée, vélo, baignade en lac), tourisme vivant sans excès.",
+        body: "L'hiver en Haute-Savoie dure de novembre à mars, parfois plus en altitude. Pour les amateurs de ski et de sports d'hiver, c'est un atout incomparable : Morzine, Les Gets, Chamonix, La Clusaz sont à 45 minutes à 1h30 des principaux bassins d'habitat. Pour les non-skieurs ou les personnes sensibles à la grisaille hivernale en fond de vallée (Cluses, Bonneville), les mois de décembre à février peuvent être longs. L'été savoyard est en revanche exceptionnel : températures douces, activités outdoor en abondance (randonnée, vélo, baignade en lac), tourisme vivant sans excès.",
       },
       {
         heading: "Fiscalité et coût de la vie",
-        body: "La taxe foncière en Haute-Savoie est dans la moyenne haute des départements alpins — les communes comme Annecy et Thonon ont des taux modérés, mais les valeurs locatives cadastrales élevées créent des montants absolus importants pour les propriétaires. La taxe d'habitation résidence secondaire reste élevée dans les communes touristiques (Saint-Gervais, Megève, etc.). Vie quotidienne : l'alimentation, les restaurants et les services sont chers dans les zones touristiques et dans la grande Annecy — de 15 à 25 % au-dessus de la moyenne nationale. Les marchés fermiers locaux (Annecy, Thonon) offrent un meilleur rapport qualité-prix pour l'alimentation.",
+        body: "La taxe foncière en Haute-Savoie est dans la moyenne haute des départements alpins, les communes comme Annecy et Thonon ont des taux modérés, mais les valeurs locatives cadastrales élevées créent des montants absolus importants pour les propriétaires. La taxe d'habitation résidence secondaire reste élevée dans les communes touristiques (Saint-Gervais, Megève, etc.). Vie quotidienne : l'alimentation, les restaurants et les services sont chers dans les zones touristiques et dans la grande Annecy, de 15 à 25 % au-dessus de la moyenne nationale. Les marchés fermiers locaux (Annecy, Thonon) offrent un meilleur rapport qualité-prix pour l'alimentation.",
       },
       {
         heading: "Pour qui la Haute-Savoie est-elle faite ?",
@@ -19220,23 +19220,23 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Critères pour une retraite maritime réussie",
-        body: "Une station balnéaire animée toute l'année — pas seulement en juillet-août. Un accès aux soins réel : médecins généralistes acceptant de nouveaux patients, proximité d'un CHU ou d'un service d'urgences compétent, pas seulement une clinique saisonnière. Un prix immobilier qui ne vide pas votre retraite en 2 ans. Un réseau de transport public minimal (ou la capacité de rester mobile sans voiture). Une vie culturelle et sociale hors saison — marchés, cinéma, associations, club de natation. Ces critères éliminent immédiatement la majorité des stations balnéaires françaises (Hossegor, Deauville, Carnac, Saint-Tropez) qui sont magnifiques l'été et à moitié mortes le reste de l'année.",
+        body: "Une station balnéaire animée toute l'année, pas seulement en juillet-août. Un accès aux soins réel : médecins généralistes acceptant de nouveaux patients, proximité d'un CHU ou d'un service d'urgences compétent, pas seulement une clinique saisonnière. Un prix immobilier qui ne vide pas votre retraite en 2 ans. Un réseau de transport public minimal (ou la capacité de rester mobile sans voiture). Une vie culturelle et sociale hors saison, marchés, cinéma, associations, club de natation. Ces critères éliminent immédiatement la majorité des stations balnéaires françaises (Hossegor, Deauville, Carnac, Saint-Tropez) qui sont magnifiques l'été et à moitié mortes le reste de l'année.",
       },
       {
         heading: "Vannes (Bretagne) : l'équilibre parfait",
-        body: "Vannes est la capitale du Morbihan breton, sur le golfe du Morbihan. 65 000 habitants en ville, 150 000 dans l'agglomération. Mer à 5 minutes à vélo depuis le centre. Ville médiévale préservée et vivante — pas un décor, un vrai tissu commercial et culturel. Prix immobilier T2 : 3 500-4 800 €/m² (encore raisonnable pour du bord de mer breton). CHU de Bretagne Sud à Lorient (45 min) + hôpital local de Vannes correct. Réseau Kicéo (bus) correct pour la ville. Accès TGV Paris en 2h40. L'été est chargé de touristes mais Vannes garde sa vie de ville à l'année. Le seul défaut : il pleut (Bretagne oblige), même si le golfe du Morbihan est statistiquement moins arrosé que le Finistère.",
+        body: "Vannes est la capitale du Morbihan breton, sur le golfe du Morbihan. 65 000 habitants en ville, 150 000 dans l'agglomération. Mer à 5 minutes à vélo depuis le centre. Ville médiévale préservée et vivante, pas un décor, un vrai tissu commercial et culturel. Prix immobilier T2 : 3 500-4 800 €/m² (encore raisonnable pour du bord de mer breton). CHU de Bretagne Sud à Lorient (45 min) + hôpital local de Vannes correct. Réseau Kicéo (bus) correct pour la ville. Accès TGV Paris en 2h40. L'été est chargé de touristes mais Vannes garde sa vie de ville à l'année. Le seul défaut : il pleut (Bretagne oblige), même si le golfe du Morbihan est statistiquement moins arrosé que le Finistère.",
       },
       {
         heading: "Sète (Hérault) : la Marseille abordable du Languedoc",
-        body: "Sète est une ville portuaire authentique sur la mer Méditerranée, à 30 km de Montpellier et 75 km de Montpellier-Fabre (aéroport). 45 000 habitants, une vraie ville qui vit à l'année — pêcheurs, vignobles environnants, marché central permanent. Plages de sable à 5 minutes, Bassin de Thau (huîtres, eau chaude en été) à pied. Prix immobilier : 3 000-4 500 €/m² — nettement inférieur à la Côte d'Azur pour un climat méditerranéen quasi-identique. CHU de Montpellier accessible en 30 min. Réseau bus Hérault Transport. La réputation de Sète a évolué depuis 10 ans — ville d'artistes (Brassens, Valéry en sont originaires), festival Cinemed, galeries. Moins chic que Nice, moins touristique que Montpellier — le bon équilibre.",
+        body: "Sète est une ville portuaire authentique sur la mer Méditerranée, à 30 km de Montpellier et 75 km de Montpellier-Fabre (aéroport). 45 000 habitants, une vraie ville qui vit à l'année, pêcheurs, vignobles environnants, marché central permanent. Plages de sable à 5 minutes, Bassin de Thau (huîtres, eau chaude en été) à pied. Prix immobilier : 3 000-4 500 €/m², nettement inférieur à la Côte d'Azur pour un climat méditerranéen quasi-identique. CHU de Montpellier accessible en 30 min. Réseau bus Hérault Transport. La réputation de Sète a évolué depuis 10 ans, ville d'artistes (Brassens, Valéry en sont originaires), festival Cinemed, galeries. Moins chic que Nice, moins touristique que Montpellier, le bon équilibre.",
       },
       {
         heading: "La Rochelle : le bon compromis Atlantique",
-        body: "La Rochelle est la ville côtière française qui répond le mieux aux critères de la retraite maritime sérieuse. 80 000 habitants. Ville universitaire et culturelle (IUT, université, écoles supérieures). Hôpital de La Rochelle correct, CHU de Poitiers à 1h pour le spécialisé. Île de Ré à 15 minutes. Réseau yélo (vélos + bus) honnête pour la ville. Plages urbaines accessibles. Prix immobilier T2 : 3 800-5 500 €/m² selon le quartier (cher pour l'Atlantique). La tension du marché locatif est forte à La Rochelle (tourisme + étudiants). Point de vigilance : l'ensoleillement atlantique est bien inférieur au méditerranéen — entre 1 900 et 2 100 h/an, soit 600 h de moins que Nice ou Sète.",
+        body: "La Rochelle est la ville côtière française qui répond le mieux aux critères de la retraite maritime sérieuse. 80 000 habitants. Ville universitaire et culturelle (IUT, université, écoles supérieures). Hôpital de La Rochelle correct, CHU de Poitiers à 1h pour le spécialisé. Île de Ré à 15 minutes. Réseau yélo (vélos + bus) honnête pour la ville. Plages urbaines accessibles. Prix immobilier T2 : 3 800-5 500 €/m² selon le quartier (cher pour l'Atlantique). La tension du marché locatif est forte à La Rochelle (tourisme + étudiants). Point de vigilance : l'ensoleillement atlantique est bien inférieur au méditerranéen, entre 1 900 et 2 100 h/an, soit 600 h de moins que Nice ou Sète.",
       },
       {
         heading: "Les côtes à éviter pour une retraite permanente",
-        body: "Côte d'Azur (Antibes, Juan-les-Pins, Villefranche) : magnifique mais prix de Paris ou plus. Côte d'Émeraude (Saint-Malo, Dinard) : chère et très saisonnière hors ville de Saint-Malo. Bassin d'Arcachon (Arcachon, Cap Ferret) : excessivement saisonnier hors saison, prix très élevés depuis 2020. Hossegor, Capbreton, Capbreton : surf culture jeune, désert de services en hiver. Quiberon, Île de Ré, Île d'Oléron : les îles et presqu'îles sont magiques — et complètement inadaptées pour une retraite permanente sans voiture et sans services de santé spécialisés. Le fantasme des îles françaises tient rarement à l'usage.",
+        body: "Côte d'Azur (Antibes, Juan-les-Pins, Villefranche) : magnifique mais prix de Paris ou plus. Côte d'Émeraude (Saint-Malo, Dinard) : chère et très saisonnière hors ville de Saint-Malo. Bassin d'Arcachon (Arcachon, Cap Ferret) : excessivement saisonnier hors saison, prix très élevés depuis 2020. Hossegor, Capbreton, Capbreton : surf culture jeune, désert de services en hiver. Quiberon, Île de Ré, Île d'Oléron : les îles et presqu'îles sont magiques, et complètement inadaptées pour une retraite permanente sans voiture et sans services de santé spécialisés. Le fantasme des îles françaises tient rarement à l'usage.",
       },
     ],
     relatedCities: ["la-rochelle", "vannes", "sete", "bayonne"],
@@ -19265,15 +19265,15 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Villes avec la meilleure densité d'employeurs",
-        body: "Lyon arrive systématiquement en tête : siège de nombreux grands groupes (Sanofi, BNP Paribas, Euronext, L'Oréal R&D, bioMérieux), tissu de PME-ETI dynamique, marché de l'emploi le plus diversifié après Paris. Toulouse : aéronautique et spatial (Airbus, Safran, Thales, CNES) — marché excellent pour les ingénieurs, informaticiens et gestionnaires de projets industriels. Rennes : tech/télécoms (historiquement Orange, Technicolor) et écosystème deeptech en croissance. Forte présence de startups et scaleups. Bordeaux : diversifié mais aucune spécialité dominante — bonne option généraliste. Nantes : aéroconfluence tech, services numériques, forte communauté startup. Strasbourg : administrations européennes et organismes internationaux — unique en France pour certains profils.",
+        body: "Lyon arrive systématiquement en tête : siège de nombreux grands groupes (Sanofi, BNP Paribas, Euronext, L'Oréal R&D, bioMérieux), tissu de PME-ETI dynamique, marché de l'emploi le plus diversifié après Paris. Toulouse : aéronautique et spatial (Airbus, Safran, Thales, CNES), marché excellent pour les ingénieurs, informaticiens et gestionnaires de projets industriels. Rennes : tech/télécoms (historiquement Orange, Technicolor) et écosystème deeptech en croissance. Forte présence de startups et scaleups. Bordeaux : diversifié mais aucune spécialité dominante, bonne option généraliste. Nantes : aéroconfluence tech, services numériques, forte communauté startup. Strasbourg : administrations européennes et organismes internationaux, unique en France pour certains profils.",
       },
       {
         heading: "Vie sociale et nocturne : les classements réels",
-        body: "La vie sociale d'une ville pour un jeune professionnel n'est pas seulement la densité de bars — c'est la capacité à créer des liens professionnels et personnels rapidement. Villes où les jeunes pros créent des réseaux rapidement : Lyon (culture des apéros professionnels, associations alumni d'écoles nombreuses, événements Meetup denses), Rennes (taille humaine, communauté tech soudée, festivals), Bordeaux (culture du vin et de la gastronomie comme liant social). Villes sous-estimées pour la vie sociale : Nantes (festival Royal de Luxe, BIIG, La Cantine numérique, communauté entrepreneuriale très active), Strasbourg (dynamique européenne, ville de congrès et d'événements académiques). Paris gagne en densité absolue mais perd sur l'accessibilité — difficile de maintenir des sorties régulières quand le loyer absorbe la moitié du salaire.",
+        body: "La vie sociale d'une ville pour un jeune professionnel n'est pas seulement la densité de bars: c'est la capacité à créer des liens professionnels et personnels rapidement. Villes où les jeunes pros créent des réseaux rapidement : Lyon (culture des apéros professionnels, associations alumni d'écoles nombreuses, événements Meetup denses), Rennes (taille humaine, communauté tech soudée, festivals), Bordeaux (culture du vin et de la gastronomie comme liant social). Villes sous-estimées pour la vie sociale : Nantes (festival Royal de Luxe, BIIG, La Cantine numérique, communauté entrepreneuriale très active), Strasbourg (dynamique européenne, ville de congrès et d'événements académiques). Paris gagne en densité absolue mais perd sur l'accessibilité, difficile de maintenir des sorties régulières quand le loyer absorbe la moitié du salaire.",
       },
       {
         heading: "Spécificités par secteur : où aller selon son métier",
-        body: "Tech/data/IA : Paris (densité absolue), Lyon (second pôle), Rennes, Bordeaux (forte croissance). Ingénierie aéronautique/spatiale : Toulouse sans discussion, avec Bordeaux et Paris comme alternatives. Santé/biotech/pharma : Lyon (IARC, CIRC, Mérieux), Strasbourg (INSERM, CHU reference européen), Montpellier (CNRS-INSERM, agri-food-santé). Finance/assurance : Paris (90 % du marché), Lyon (reste 8 %), Bordeaux, Rennes en croissance. Architecture/urbanisme : Paris, Lyon, Bordeaux (ville en mutation constante). Design/modes/luxe : Paris — pas d'alternative française sérieuse. Éducation/recherche publique : toute ville universitaire, mais les opportunités d'avancement restent concentrées à Paris et Lyon. Communication/marketing digital : Paris, Bordeaux, Rennes, Nantes.",
+        body: "Tech/data/IA : Paris (densité absolue), Lyon (second pôle), Rennes, Bordeaux (forte croissance). Ingénierie aéronautique/spatiale : Toulouse sans discussion, avec Bordeaux et Paris comme alternatives. Santé/biotech/pharma : Lyon (IARC, CIRC, Mérieux), Strasbourg (INSERM, CHU reference européen), Montpellier (CNRS-INSERM, agri-food-santé). Finance/assurance : Paris (90 % du marché), Lyon (reste 8 %), Bordeaux, Rennes en croissance. Architecture/urbanisme : Paris, Lyon, Bordeaux (ville en mutation constante). Design/modes/luxe : Paris, pas d'alternative française sérieuse. Éducation/recherche publique : toute ville universitaire, mais les opportunités d'avancement restent concentrées à Paris et Lyon. Communication/marketing digital : Paris, Bordeaux, Rennes, Nantes.",
       },
     ],
     relatedCities: ["lyon", "rennes", "nantes", "bordeaux", "toulouse", "strasbourg"],
@@ -19339,15 +19339,15 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Le marché de l'emploi : réaliste ou surestimé ?",
-        body: "Le mythe : la Côte d'Azur grouille d'opportunités. La réalité : la Côte d'Azur est une économie très déséquilibrée. Les secteurs porteurs : tourisme et hôtellerie de luxe (saisonnier), nautisme (Antibes est la capitale mondiale de la superyacht), Monaco (accessoire : pas France), Sophia Antipolis (parc technologique entre Nice et Antibes — 36 000 emplois tech, pharma, télécom), hospitalité médicale (CHU de Nice, polycliniques). Les secteurs faibles : industrie, logistique, finance classique. Les salaires locaux hors Monaco et Sophia sont souvent décalés par rapport aux prix de l'immobilier. De nombreux résidents sont soit retraités, soit frontaliers Monaco, soit télétravailleurs avec des revenus extérieurs à la région.",
+        body: "Le mythe : la Côte d'Azur grouille d'opportunités. La réalité : la Côte d'Azur est une économie très déséquilibrée. Les secteurs porteurs : tourisme et hôtellerie de luxe (saisonnier), nautisme (Antibes est la capitale mondiale de la superyacht), Monaco (accessoire : pas France), Sophia Antipolis (parc technologique entre Nice et Antibes, 36 000 emplois tech, pharma, télécom), hospitalité médicale (CHU de Nice, polycliniques). Les secteurs faibles : industrie, logistique, finance classique. Les salaires locaux hors Monaco et Sophia sont souvent décalés par rapport aux prix de l'immobilier. De nombreux résidents sont soit retraités, soit frontaliers Monaco, soit télétravailleurs avec des revenus extérieurs à la région.",
       },
       {
         heading: "Monaco : l'effet frontalier",
-        body: "Monaco est à 20 km de Nice (30 min par train, 45 min par route), à 10 km de Menton. Les salaires à Monaco (pas de cotisations sociales pour les résidents français qui y travaillent, mais protection sociale française maintenue grâce aux accords bilatéraux) sont sensiblement supérieurs aux équivalents français. Résider en France et travailler à Monaco est légal et courant — environ 35 000 Français font ce trajet quotidiennement. C'est le facteur principal qui soutient les prix immobiliers de la zone Menton-Roquebrune-Beausoleil-Cap-Martin : des actifs Monaco solvables cherchant la France sans payer l'immobilier monégasque.",
+        body: "Monaco est à 20 km de Nice (30 min par train, 45 min par route), à 10 km de Menton. Les salaires à Monaco (pas de cotisations sociales pour les résidents français qui y travaillent, mais protection sociale française maintenue grâce aux accords bilatéraux) sont sensiblement supérieurs aux équivalents français. Résider en France et travailler à Monaco est légal et courant, environ 35 000 Français font ce trajet quotidiennement. C'est le facteur principal qui soutient les prix immobiliers de la zone Menton-Roquebrune-Beausoleil-Cap-Martin : des actifs Monaco solvables cherchant la France sans payer l'immobilier monégasque.",
       },
       {
         heading: "Le vrai budget de vie sur la Côte d'Azur",
-        body: "Loyer T2 Nice (hors centre historique et Promenade, qualité normale) : 900-1 300 €/mois. Loyer T2 Cannes vue mer : 1 400-2 500 €/mois. Loyer T2 Menton : 700-1 000 €/mois. Alimentation : 15-25 % plus cher que la moyenne française en grande ville côtière — l'effet 'tourisme permanent' sur les prix des services. Restaurant déjeuner non-touristique : 16-22 €. Transport : le réseau Lignes d'Azur (Nice) est correct pour la ville mais insuffisant inter-villes. La voiture reste quasi-indispensable pour circuler entre Cannes, Antibes, Nice et Menton. Gasoil, péage A8 (Nice-Cannes ~8 € aller-retour), parkings — le budget voiture mensuel est significatif.",
+        body: "Loyer T2 Nice (hors centre historique et Promenade, qualité normale) : 900-1 300 €/mois. Loyer T2 Cannes vue mer : 1 400-2 500 €/mois. Loyer T2 Menton : 700-1 000 €/mois. Alimentation : 15-25 % plus cher que la moyenne française en grande ville côtière, l'effet 'tourisme permanent' sur les prix des services. Restaurant déjeuner non-touristique : 16-22 €. Transport : le réseau Lignes d'Azur (Nice) est correct pour la ville mais insuffisant inter-villes. La voiture reste quasi-indispensable pour circuler entre Cannes, Antibes, Nice et Menton. Gasoil, péage A8 (Nice-Cannes ~8 € aller-retour), parkings, le budget voiture mensuel est significatif.",
       },
       {
         heading: "Pour qui la Côte d'Azur est-elle faite en 2026 ?",
@@ -19376,7 +19376,7 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Critères utilisés pour ce classement",
-        body: "Proximité d'un parc national ou régional : moins de 30 minutes de route ou de transport. Richesse ornithologique : nombre d'espèces observables dans un rayon de 50 km (données LPO). Zones humides et rivières accessibles : cours d'eau, zones Ramsar, marais. Espaces de garrigue, maquis, landes et tourbières selon la région. Qualité de l'air et bruit ambiant : les milieux naturels proches de zones urbaines bruyantes sont moins favorables à l'observation faune/flore. Communauté naturaliste locale : clubs, LPO (Ligue pour la Protection des Oiseaux), associations botaniques — un indicateur de la densité d'amateurs déjà installés.",
+        body: "Proximité d'un parc national ou régional : moins de 30 minutes de route ou de transport. Richesse ornithologique : nombre d'espèces observables dans un rayon de 50 km (données LPO). Zones humides et rivières accessibles : cours d'eau, zones Ramsar, marais. Espaces de garrigue, maquis, landes et tourbières selon la région. Qualité de l'air et bruit ambiant : les milieux naturels proches de zones urbaines bruyantes sont moins favorables à l'observation faune/flore. Communauté naturaliste locale : clubs, LPO (Ligue pour la Protection des Oiseaux), associations botaniques, un indicateur de la densité d'amateurs déjà installés.",
       },
       {
         heading: "Top 5 villes nature en France",
@@ -19388,7 +19388,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Les villes sous-estimées pour les naturalistes",
-        body: "Bourges : au cœur du Berry (mares et étangs, forêts de Sologne accessibles en 30 min, réserves naturelles de la Brenne à 1h). La Brenne est surnommée 'la région aux 1000 étangs' — un des hauts lieux mondiaux de la libellule et du râle des genêts. Béziers : entre Camargue, Cévennes et garrigue languedocienne, avec accès au Parc Naturel Régional de la Narbonnaise en Méditerranée (zone Ramsar). Encore abordable et méconnu. Aurillac / Issoire (Auvergne) : à portée des tourbières du Massif Central (zone humide unique en France), des plateaux basaltiques à busards, des rivières à loutres et martins-pêcheurs.",
+        body: "Bourges : au cœur du Berry (mares et étangs, forêts de Sologne accessibles en 30 min, réserves naturelles de la Brenne à 1h). La Brenne est surnommée 'la région aux 1000 étangs': un des hauts lieux mondiaux de la libellule et du râle des genêts. Béziers : entre Camargue, Cévennes et garrigue languedocienne, avec accès au Parc Naturel Régional de la Narbonnaise en Méditerranée (zone Ramsar). Encore abordable et méconnu. Aurillac / Issoire (Auvergne) : à portée des tourbières du Massif Central (zone humide unique en France), des plateaux basaltiques à busards, des rivières à loutres et martins-pêcheurs.",
       },
     ],
     relatedCities: ["bayonne", "montpellier", "strasbourg", "grenoble", "la-rochelle"],
@@ -19403,7 +19403,7 @@ export const GUIDES: Guide[] = [
     slug: "vivre-en-var-guide-2026",
     title: "Vivre dans le Var en 2026 : Toulon, Draguignan, Hyères — guide complet",
     metaTitle: "Vivre dans le Var 2026 — Toulon, Draguignan, Hyères, Brignoles : guide honnête",
-    metaDesc: "Le Var : mer, Provence, forêts — mais aussi les prix qui montent, les incendies, et les villes qui diffèrent beaucoup entre elles. Guide honnête 2026.",
+    metaDesc: "Le Var : mer, Provence, forêts, mais aussi les prix qui montent, les incendies, et les villes qui diffèrent beaucoup entre elles. Guide honnête 2026.",
     category: "region",
     emoji: "🌿",
     readMinutes: 8,
@@ -19417,15 +19417,15 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Hyères : l'alternative calme à Toulon",
-        body: "Hyères est la ville balnéaire la plus ancienne de la Côte d'Azur (XIXe siècle), avec un climat légèrement plus chaud que Toulon (exposée plein sud), des plages de sable fin vers l'Almanarre, et les îles d'Or (Porquerolles, Port-Cros, Île du Levant) à 20-30 minutes en ferry. Population stable de 60 000 habitants. Prix immobilier T2 : 3 000-5 000 €/m² selon la proximité des plages. Commerce et services convenables pour un bassin de vie autonome. Aéroport Toulon-Hyères à 5 km — petite structure, mais vols vers Paris, Brest, Strasbourg et quelques destinations européennes.",
+        body: "Hyères est la ville balnéaire la plus ancienne de la Côte d'Azur (XIXe siècle), avec un climat légèrement plus chaud que Toulon (exposée plein sud), des plages de sable fin vers l'Almanarre, et les îles d'Or (Porquerolles, Port-Cros, Île du Levant) à 20-30 minutes en ferry. Population stable de 60 000 habitants. Prix immobilier T2 : 3 000-5 000 €/m² selon la proximité des plages. Commerce et services convenables pour un bassin de vie autonome. Aéroport Toulon-Hyères à 5 km, petite structure, mais vols vers Paris, Brest, Strasbourg et quelques destinations européennes.",
       },
       {
         heading: "Draguignan et le Var intérieur : le vrai Var abordable",
-        body: "Draguignan (40 000 hab.) est la préfecture historique du Var — avant que le chef-lieu administratif ne passe à Toulon. Ville de garnison (centre de formation de l'Artillerie), marché agricole (roses, truffes, huile d'olive), commerce local actif. Prix T2 : 1 600-2 500 €/m² — parmi les plus abordables de Provence. Brignoles (Var vert) : 20 000 habitants, entre Toulon (45 min) et Aix (45 min), dans un paysage de bauxite rouge et de collines. Très calme, services de base présents, immobilier à 1 400-2 200 €/m² pour les appartements, maisons de village disponibles entre 100 000 et 200 000 €. Idéal pour les télétravailleurs cherchant la Provence abordable avec un accès autoroutier.",
+        body: "Draguignan (40 000 hab.) est la préfecture historique du Var, avant que le chef-lieu administratif ne passe à Toulon. Ville de garnison (centre de formation de l'Artillerie), marché agricole (roses, truffes, huile d'olive), commerce local actif. Prix T2 : 1 600-2 500 €/m², parmi les plus abordables de Provence. Brignoles (Var vert) : 20 000 habitants, entre Toulon (45 min) et Aix (45 min), dans un paysage de bauxite rouge et de collines. Très calme, services de base présents, immobilier à 1 400-2 200 €/m² pour les appartements, maisons de village disponibles entre 100 000 et 200 000 €. Idéal pour les télétravailleurs cherchant la Provence abordable avec un accès autoroutier.",
       },
       {
         heading: "Le risque incendie : le facteur à intégrer impérativement",
-        body: "Le Var est le département français le plus touché par les incendies de forêt. L'été 2003, l'été 2021 (incendie de Gonfaron, 7 000 ha brûlés), l'été 2022 (La Garde-Freinet) — les épisodes d'incendie dévastateurs se multiplient avec le changement climatique. Si vous achetez ou louez dans le Var, vérifiez : le classement PPRIF (Plan de Prévention des Risques d'Incendie de Forêt) de la commune, la distance entre le bâtiment et la végétation (débroussaillement obligatoire à 50 m autour des constructions), les accès (routes à double sens pour l'évacuation), et l'assurance habitation (certaines zones sont devenues difficiles à assurer ou avec des surprimes élevées). Ce n'est pas une raison d'éviter le Var — mais c'est un risque à intégrer, pas à occulter.",
+        body: "Le Var est le département français le plus touché par les incendies de forêt. L'été 2003, l'été 2021 (incendie de Gonfaron, 7 000 ha brûlés), l'été 2022 (La Garde-Freinet), les épisodes d'incendie dévastateurs se multiplient avec le changement climatique. Si vous achetez ou louez dans le Var, vérifiez : le classement PPRIF (Plan de Prévention des Risques d'Incendie de Forêt) de la commune, la distance entre le bâtiment et la végétation (débroussaillement obligatoire à 50 m autour des constructions), les accès (routes à double sens pour l'évacuation), et l'assurance habitation (certaines zones sont devenues difficiles à assurer ou avec des surprimes élevées). Ce n'est pas une raison d'éviter le Var, mais c'est un risque à intégrer, pas à occulter.",
       },
       {
         heading: "Pour qui le Var convient-il ?",
@@ -19659,19 +19659,19 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Poitiers : la ville universitaire sous-estimée",
-        body: "30 000 étudiants pour 90 000 habitants, soit le ratio le plus élevé de France parmi les villes moyennes. L'université de Poitiers (droit, médecine, sciences humaines) et l'ENSMA (ingénieurs aéronautiques) animent une ville qui mériterait plus d'attention. Le centre historique est magnifique : baptistère paléochrétien, quartier médiéval quasi intact, palais des Comtes d'Aquitaine. Prix immobiliers autour de 1 600-2 000 €/m² pour les appartements anciens — parmi les plus bas des villes universitaires françaises. Demande locative forte et fiable. Transport : TGV Paris (1h15) mais liaison TGV discontinue (passage par Les Aubrais pour certains trains). Emploi local limité hors université et administrations.",
+        body: "30 000 étudiants pour 90 000 habitants, soit le ratio le plus élevé de France parmi les villes moyennes. L'université de Poitiers (droit, médecine, sciences humaines) et l'ENSMA (ingénieurs aéronautiques) animent une ville qui mériterait plus d'attention. Le centre historique est magnifique : baptistère paléochrétien, quartier médiéval quasi intact, palais des Comtes d'Aquitaine. Prix immobiliers autour de 1 600-2 000 €/m² pour les appartements anciens, parmi les plus bas des villes universitaires françaises. Demande locative forte et fiable. Transport : TGV Paris (1h15) mais liaison TGV discontinue (passage par Les Aubrais pour certains trains). Emploi local limité hors université et administrations.",
       },
       {
         heading: "Niort : la capitale silencieuse des mutuelles",
-        body: "Niort héberge les sièges sociaux de Maif, Macif, GMF, Groupama (partiellement) et plusieurs grandes mutuelles de santé. Résultat : le taux de chômage local tourne autour de 6 %, l'un des plus bas des villes de cette taille en France. Les emplois sont stables, les salaires corrects, et le turn-over faible. Pour un profil cadre dans l'assurance, la finance, ou l'informatique, Niort est une opportunité réelle — à condition d'accepter une vie sociale moins dense qu'à Bordeaux. Prix immobiliers : 1 500-1 900 €/m² pour les appartements. La Sèvre Niortaise traverse la ville, quelques beaux quartiers anciens. À 45 min de La Rochelle et ses plages.",
+        body: "Niort héberge les sièges sociaux de Maif, Macif, GMF, Groupama (partiellement) et plusieurs grandes mutuelles de santé. Résultat : le taux de chômage local tourne autour de 6 %, l'un des plus bas des villes de cette taille en France. Les emplois sont stables, les salaires corrects, et le turn-over faible. Pour un profil cadre dans l'assurance, la finance, ou l'informatique, Niort est une opportunité réelle, à condition d'accepter une vie sociale moins dense qu'à Bordeaux. Prix immobiliers : 1 500-1 900 €/m² pour les appartements. La Sèvre Niortaise traverse la ville, quelques beaux quartiers anciens. À 45 min de La Rochelle et ses plages.",
       },
       {
         heading: "Châtellerault : l'option discrète",
-        body: "Châtellerault (32 000 habitants) est la ville qu'on ne cite jamais dans les palmarès mais qui offre un rapport qualité-prix imbattable. Centre-ville XVIIIe bien conservé (bâtiments en tuffeau blanc), parc de 100 ha, berges de la Vienne. TGV Paris (1h30 via Futuroscope). Industrie de précision héritée de l'arsenal (Stellantis partiellement), quelques PME technologiques. Prix immobiliers : 900-1 400 €/m² — on peut acheter un grand appartement ou une maison de ville pour 100-150 k€. Risque : peu de dynamisme économique endogène, jeunes qui partent à Poitiers ou Bordeaux.",
+        body: "Châtellerault (32 000 habitants) est la ville qu'on ne cite jamais dans les palmarès mais qui offre un rapport qualité-prix imbattable. Centre-ville XVIIIe bien conservé (bâtiments en tuffeau blanc), parc de 100 ha, berges de la Vienne. TGV Paris (1h30 via Futuroscope). Industrie de précision héritée de l'arsenal (Stellantis partiellement), quelques PME technologiques. Prix immobiliers : 900-1 400 €/m², on peut acheter un grand appartement ou une maison de ville pour 100-150 k€. Risque : peu de dynamisme économique endogène, jeunes qui partent à Poitiers ou Bordeaux.",
       },
       {
         heading: "Coût de vie dans le Poitou",
-        body: "Loyer T2 à Poitiers : 480-600 €/mois. À Niort : 450-570 €/mois. À Châtellerault : 380-480 €/mois. Courses, restaurants, services : 5-10 % moins cher que la moyenne nationale. L'argument budgétaire est réel — le Poitou permet de vivre confortablement avec des revenus médians, ce qui n'est plus vrai à Nantes, Bordeaux ou La Rochelle.",
+        body: "Loyer T2 à Poitiers : 480-600 €/mois. À Niort : 450-570 €/mois. À Châtellerault : 380-480 €/mois. Courses, restaurants, services : 5-10 % moins cher que la moyenne nationale. L'argument budgétaire est réel, le Poitou permet de vivre confortablement avec des revenus médians, ce qui n'est plus vrai à Nantes, Bordeaux ou La Rochelle.",
       },
       {
         heading: "À qui convient le Poitou ?",
@@ -19700,23 +19700,23 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Les critères d'évaluation",
-        body: "Pour ce classement, on a regardé : le nombre de restaurants végétariens et végans identifiés (source : HappyCow, The Fork), la présence d'épiceries bio et de marchés en vrac, l'existence d'une communauté végane active (associations, groupes Meetup, festivals vegan), la facilité d'accès à des alternatives végétales dans la grande distribution (Biocoop, La Vie Claire, Naturalia, mais aussi Carrefour Bio), et enfin le coût de vie — parce qu'un régime végé dans une ville chère peut coûter plus cher qu'une alimentation omnivore standard.",
+        body: "Pour ce classement, on a regardé : le nombre de restaurants végétariens et végans identifiés (source : HappyCow, The Fork), la présence d'épiceries bio et de marchés en vrac, l'existence d'une communauté végane active (associations, groupes Meetup, festivals vegan), la facilité d'accès à des alternatives végétales dans la grande distribution (Biocoop, La Vie Claire, Naturalia, mais aussi Carrefour Bio), et enfin le coût de vie, parce qu'un régime végé dans une ville chère peut coûter plus cher qu'une alimentation omnivore standard.",
       },
       {
         heading: "Top 5 des villes véganes",
-        body: "**1. Paris (11e / 20e arrondissements)** : leader incontestable avec plusieurs centaines de restaurants végétariens ou végans. Quartiers Oberkampf, République, Canal Saint-Martin — véganisme ancré dans la culture bobo. Épiceries en vrac partout (Day by Day, La Recharge). Coût de vie rédhibitoire pour beaucoup. **2. Lyon** : deuxième ville végane de France. Marché de la Croix-Rousse (bios, producteurs locaux), restaurants végétariens dans le Vieux-Lyon et Guillotière, association Vegan Impact active. Coût de vie plus raisonnable qu'à Paris. **3. Montpellier** : Biocoop, restaurants végé en centre-ville, marché bio du Lez. Ville jeune, étudiante, végane — profil idéal. Les températures méditerranéennes facilitent une alimentation végétale locale 9 mois/12. **4. Bordeaux** : scène végane qui a explosé depuis 2020, marché des Capucins avec producteurs locaux bio, plusieurs restaurants spécialisés. Le Vieux-Bordeaux reste très carnivore — mais les quartiers Chartrons et Victor Hugo ont évolué. **5. Rennes** : ville bretonne qu'on n'attendait pas. Le marché des Lices (le plus grand de l'Ouest), une communauté végane active depuis longtemps, des coopératives d'achat. Coût de vie raisonnable.",
+        body: "**1. Paris (11e / 20e arrondissements)** : leader incontestable avec plusieurs centaines de restaurants végétariens ou végans. Quartiers Oberkampf, République, Canal Saint-Martin, véganisme ancré dans la culture bobo. Épiceries en vrac partout (Day by Day, La Recharge). Coût de vie rédhibitoire pour beaucoup. **2. Lyon** : deuxième ville végane de France. Marché de la Croix-Rousse (bios, producteurs locaux), restaurants végétariens dans le Vieux-Lyon et Guillotière, association Vegan Impact active. Coût de vie plus raisonnable qu'à Paris. **3. Montpellier** : Biocoop, restaurants végé en centre-ville, marché bio du Lez. Ville jeune, étudiante, végane, profil idéal. Les températures méditerranéennes facilitent une alimentation végétale locale 9 mois/12. **4. Bordeaux** : scène végane qui a explosé depuis 2020, marché des Capucins avec producteurs locaux bio, plusieurs restaurants spécialisés. Le Vieux-Bordeaux reste très carnivore, mais les quartiers Chartrons et Victor Hugo ont évolué. **5. Rennes** : ville bretonne qu'on n'attendait pas. Le marché des Lices (le plus grand de l'Ouest), une communauté végane active depuis longtemps, des coopératives d'achat. Coût de vie raisonnable.",
       },
       {
         heading: "Les bonnes surprises : villes moyennes",
-        body: "**Toulouse** : les étudiants de Paul Sabatier et Jean Jaurès ont développé une scène végane notable. Épiceries bio en vrac, quelques restaurants 100 % végé dans le centre. **Grenoble** : ville militante, végane ancré dans la culture étudiante et environnementaliste. Marché de l'Estacade (producteurs locaux). **Nantes** : marché de Talensac, communauté végane visible, restaurants bien implantés dans le quartier du Bouffay. **Strasbourg** : surprenante — derrière l'image alsacienne-choucroute, une communauté végane active, probablement liée à la proximité de la Suisse et de l'Allemagne (pionniers du végétalisme).",
+        body: "**Toulouse** : les étudiants de Paul Sabatier et Jean Jaurès ont développé une scène végane notable. Épiceries bio en vrac, quelques restaurants 100 % végé dans le centre. **Grenoble** : ville militante, végane ancré dans la culture étudiante et environnementaliste. Marché de l'Estacade (producteurs locaux). **Nantes** : marché de Talensac, communauté végane visible, restaurants bien implantés dans le quartier du Bouffay. **Strasbourg** : surprenante, derrière l'image alsacienne-choucroute, une communauté végane active, probablement liée à la proximité de la Suisse et de l'Allemagne (pionniers du végétalisme).",
       },
       {
         heading: "Où éviter (ou préparer son terrain)",
-        body: "Les villes à forte tradition carnivore sans scène végane développée : Bayonne (charcuterie basque), Brest (port et pêche), Perpignan (cuisine catalane-carnivore), La Rochelle (huîtres + charcuterie). Ça ne veut pas dire qu'on ne peut pas y vivre en végé — il faut cuisiner plus souvent à la maison et trouver les bonnes épiceries. La Grande Surface Bio (Leclerc Bio, Carrefour Bio) s'est développée partout, donc les bases sont accessibles même en province profonde.",
+        body: "Les villes à forte tradition carnivore sans scène végane développée : Bayonne (charcuterie basque), Brest (port et pêche), Perpignan (cuisine catalane-carnivore), La Rochelle (huîtres + charcuterie). Ça ne veut pas dire qu'on ne peut pas y vivre en végé, il faut cuisiner plus souvent à la maison et trouver les bonnes épiceries. La Grande Surface Bio (Leclerc Bio, Carrefour Bio) s'est développée partout, donc les bases sont accessibles même en province profonde.",
       },
       {
         heading: "Budget : manger végane en France, ça coûte combien ?",
-        body: "Un régime végétarien cuisiné maison avec courses en marché et Biocoop coûte 200-300 €/mois pour une personne dans une grande ville. Le végétalisme (100 % végétal) est du même ordre si on cuisineé plutôt que de dépendre des produits de substitution industriels (steak végétal, fromage vegan industriel — souvent chers et décevants nutritionnellement). L'erreur à éviter : manger exclusivement des produits transformés végans — souvent plus chers que la viande conventionnelle. La base reste les légumineuses, les céréales complètes et les légumes frais de saison.",
+        body: "Un régime végétarien cuisiné maison avec courses en marché et Biocoop coûte 200-300 €/mois pour une personne dans une grande ville. Le végétalisme (100 % végétal) est du même ordre si on cuisineé plutôt que de dépendre des produits de substitution industriels (steak végétal, fromage vegan industriel, souvent chers et décevants nutritionnellement). L'erreur à éviter : manger exclusivement des produits transformés végans, souvent plus chers que la viande conventionnelle. La base reste les légumineuses, les céréales complètes et les légumes frais de saison.",
       },
     ],
     relatedCities: ["lyon", "montpellier", "bordeaux", "rennes", "paris"],
@@ -19745,7 +19745,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Le top 5 français de la mobilité douce",
-        body: "**1. Strasbourg** : capitale du vélo en France (CEREMA 2024). 600 km de pistes cyclables, tram sur 6 lignes, Vélhop (vélos en libre-service), culture allemande du vélo ancrée depuis 40 ans. 45 % des déplacements domicile-travail en mode actif. **2. Bordeaux** : réseau tram exemplaire (4 lignes, fréquence 4 min), pistes cyclables sur les quais, Vcub vélos en libre-service. La voiture est clairement optionnelle en centre-ville et première couronne. **3. Lyon** : métro + tram + funiculaire + TCL, réseau exceptionnel. Le vélo a explosé depuis 2019 (Vélo'v 5 000 stations). Moins confortable pour les arrondissements de colline (Fourvière, Croix-Rousse) — mais l'ascenseur mécanique et le funiculaire compensent. **4. Nantes** : pionnière du tramway en France (1985), réseau de pistes cyclables cohérent, Bicloo bien déployé. La vie sans voiture est réaliste sur l'île de Nantes et les quartiers centraux. **5. Grenoble** : ville à pieds et à vélo par excellence. Topographie plate en centre-ville (les montagnes en arrière-plan), réseau tram dense, 600 km de voies vertes dans l'agglomération. 30 % de déplacements à vélo — record national pour une ville de cette taille.",
+        body: "**1. Strasbourg** : capitale du vélo en France (CEREMA 2024). 600 km de pistes cyclables, tram sur 6 lignes, Vélhop (vélos en libre-service), culture allemande du vélo ancrée depuis 40 ans. 45 % des déplacements domicile-travail en mode actif. **2. Bordeaux** : réseau tram exemplaire (4 lignes, fréquence 4 min), pistes cyclables sur les quais, Vcub vélos en libre-service. La voiture est clairement optionnelle en centre-ville et première couronne. **3. Lyon** : métro + tram + funiculaire + TCL, réseau exceptionnel. Le vélo a explosé depuis 2019 (Vélo'v 5 000 stations). Moins confortable pour les arrondissements de colline (Fourvière, Croix-Rousse), mais l'ascenseur mécanique et le funiculaire compensent. **4. Nantes** : pionnière du tramway en France (1985), réseau de pistes cyclables cohérent, Bicloo bien déployé. La vie sans voiture est réaliste sur l'île de Nantes et les quartiers centraux. **5. Grenoble** : ville à pieds et à vélo par excellence. Topographie plate en centre-ville (les montagnes en arrière-plan), réseau tram dense, 600 km de voies vertes dans l'agglomération. 30 % de déplacements à vélo, record national pour une ville de cette taille.",
       },
       {
         heading: "Les bonnes surprises de taille moyenne",
@@ -19757,7 +19757,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Conseils pratiques pour passer sans voiture",
-        body: "Checklist avant de décider : vérifiez la fréquence réelle de votre ligne (pas juste les horaires théoriques — regardez les avis d'usagers en décembre), testez le trajet domicile-travail en vélo via OpenStreetMap cyclable (pas Google Maps qui minimise les dénivels et les voies dangereuses), identifiez le supermarché le plus proche accessible à pied ou à vélo chargé, et assurez-vous que votre logement a un local vélo sécurisé (un appartement au 3e sans ascenseur + un vélo cargo, c'est le piège classique). Prévoir un budget Zipcar ou Getaround pour les 3-4 sorties/mois où la voiture reste pratique.",
+        body: "Checklist avant de décider : vérifiez la fréquence réelle de votre ligne (pas juste les horaires théoriques, regardez les avis d'usagers en décembre), testez le trajet domicile-travail en vélo via OpenStreetMap cyclable (pas Google Maps qui minimise les dénivels et les voies dangereuses), identifiez le supermarché le plus proche accessible à pied ou à vélo chargé, et assurez-vous que votre logement a un local vélo sécurisé (un appartement au 3e sans ascenseur + un vélo cargo, c'est le piège classique). Prévoir un budget Zipcar ou Getaround pour les 3-4 sorties/mois où la voiture reste pratique.",
       },
     ],
     relatedCities: ["strasbourg", "bordeaux", "grenoble", "nantes", "montpellier"],
@@ -19772,7 +19772,7 @@ export const GUIDES: Guide[] = [
     slug: "brest-vs-rennes-comparatif-2026",
     title: "Brest ou Rennes en 2026 : laquelle choisir ? Comparatif complet",
     metaTitle: "Brest vs Rennes 2026 — comparatif : prix, emploi, qualité de vie, météo",
-    metaDesc: "Brest ou Rennes ? Comparatif complet 2026 : loyers, marché de l'emploi, vie culturelle, météo, transport — pour choisir la bonne ville bretonne.",
+    metaDesc: "Brest ou Rennes ? Comparatif complet 2026 : loyers, marché de l'emploi, vie culturelle, météo, transport, pour choisir la bonne ville bretonne.",
     category: "comparaison",
     emoji: "⚓",
     readMinutes: 9,
@@ -19786,11 +19786,11 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Emploi et marché du travail",
-        body: "Rennes domine sur l'emploi. L'écosystème tech rennais (Thales, Orange, Airbus, Capgemini, startups) génère des emplois qualifiés que Brest ne peut pas égaler en volume. Rennes est aussi siège de grandes administrations (région Bretagne, préfecture), universités importantes et école de commerce reconnue. Brest a ses points forts : base navale (Marine Nationale — premier employeur), Ifremer (recherche marine de rang mondial), Finistère Mer Vent (filière éolien offshore), CHU Brest. La ville est incontournable pour les profils défense-naval, océanographie, ou éolien offshore. Pour tout le reste, Rennes a plus d'offres.",
+        body: "Rennes domine sur l'emploi. L'écosystème tech rennais (Thales, Orange, Airbus, Capgemini, startups) génère des emplois qualifiés que Brest ne peut pas égaler en volume. Rennes est aussi siège de grandes administrations (région Bretagne, préfecture), universités importantes et école de commerce reconnue. Brest a ses points forts : base navale (Marine Nationale, premier employeur), Ifremer (recherche marine de rang mondial), Finistère Mer Vent (filière éolien offshore), CHU Brest. La ville est incontournable pour les profils défense-naval, océanographie, ou éolien offshore. Pour tout le reste, Rennes a plus d'offres.",
       },
       {
         heading: "Météo et cadre naturel",
-        body: "Sur la météo, il n'y a pas de vainqueur — les deux villes sont bretonnes. Brest est plus exposée aux vents atlantiques et aux pluies horizontales en hiver, mais reçoit moins de jours de gel que Rennes (temperatures plus douces grâce à l'océan). Rennes est plus continentale, avec des étés plus chauds mais aussi plus de canicule depuis 2019. L'avantage de Brest est son accès immédiat à la mer : plages de la presqu'île de Crozon à 45 min, côtes sauvages, rade de Brest (un des plus grands estuaires d'Europe). Rennes est à 30 min de Saint-Malo en train et 1h de la côte en voiture — accessible mais pas immédiat.",
+        body: "Sur la météo, il n'y a pas de vainqueur, les deux villes sont bretonnes. Brest est plus exposée aux vents atlantiques et aux pluies horizontales en hiver, mais reçoit moins de jours de gel que Rennes (temperatures plus douces grâce à l'océan). Rennes est plus continentale, avec des étés plus chauds mais aussi plus de canicule depuis 2019. L'avantage de Brest est son accès immédiat à la mer : plages de la presqu'île de Crozon à 45 min, côtes sauvages, rade de Brest (un des plus grands estuaires d'Europe). Rennes est à 30 min de Saint-Malo en train et 1h de la côte en voiture, accessible mais pas immédiat.",
       },
       {
         heading: "Transport et connexion",
@@ -19798,7 +19798,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Vie quotidienne et identité",
-        body: "Brest a un caractère qui plaît ou ne plaît pas. La ville a été rasée à 80 % en 1944 et reconstruite selon un plan en damier — belle ville de la reconstruction, très lisible, mais sans le bâti ancien de Rennes ou Dinan. L'identité ouvrière et maritime est forte. La population est moins bobo, moins « TGV-Paris », plus ancrée localement. Rennes est plus étudiante, plus branchée, avec une scène culturelle et musicale (Transmusicales, Festival des Tombées de la Nuit) de réputation nationale. Vie nocturne plus développée. Marchés — Rennes a le marché des Lices (l'un des plus grands de France) ; Brest a le marché de Saint-Louis, moins spectaculaire mais local et authentique.",
+        body: "Brest a un caractère qui plaît ou ne plaît pas. La ville a été rasée à 80 % en 1944 et reconstruite selon un plan en damier, belle ville de la reconstruction, très lisible, mais sans le bâti ancien de Rennes ou Dinan. L'identité ouvrière et maritime est forte. La population est moins bobo, moins « TGV-Paris », plus ancrée localement. Rennes est plus étudiante, plus branchée, avec une scène culturelle et musicale (Transmusicales, Festival des Tombées de la Nuit) de réputation nationale. Vie nocturne plus développée. Marchés, Rennes a le marché des Lices (l'un des plus grands de France) ; Brest a le marché de Saint-Louis, moins spectaculaire mais local et authentique.",
       },
       {
         heading: "Le verdict selon le profil",
@@ -19831,15 +19831,15 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Emploi : deux économies différentes",
-        body: "Angers se distingue par son tissu industriel — Michelin (siège d'une usine majeure), Groupe SEB, filière végétale (horticulture, semences) et une économie diversifiée. Le Pôle d'économie végétale est une spécificité nationale. Angers est aussi siège de grandes mutuelles et d'administrations. Tours a une économie plus tertiaire : pharmacie (Chiesi, Pfizer historiquement), tourisme (capital du tourisme mondial des châteaux), administration (préfecture de région Centre-Val de Loire), université (30 000 étudiants). Pour les profils industriels, Angers est légèrement mieux. Pour les profils santé, tourisme ou enseignement-recherche, Tours tient la comparaison.",
+        body: "Angers se distingue par son tissu industriel, Michelin (siège d'une usine majeure), Groupe SEB, filière végétale (horticulture, semences) et une économie diversifiée. Le Pôle d'économie végétale est une spécificité nationale. Angers est aussi siège de grandes mutuelles et d'administrations. Tours a une économie plus tertiaire : pharmacie (Chiesi, Pfizer historiquement), tourisme (capital du tourisme mondial des châteaux), administration (préfecture de région Centre-Val de Loire), université (30 000 étudiants). Pour les profils industriels, Angers est légèrement mieux. Pour les profils santé, tourisme ou enseignement-recherche, Tours tient la comparaison.",
       },
       {
         heading: "Connexion Paris et transport",
-        body: "Les deux villes sont bien connectées à Paris en TGV : Angers-Paris en 1h35, Tours-Paris en 1h05. Tours gagne sur ce point — c'est l'une des connexions TGV les plus rapides de province. Angers a une courte avance sur le tramway intérieur (3 lignes) ; Tours a 1 ligne de tramway mais en extension. Les deux sont cyclables en centre-ville. L'aéroport de Tours est petit mais actif (Ryanair, Dublin, Maroc).",
+        body: "Les deux villes sont bien connectées à Paris en TGV : Angers-Paris en 1h35, Tours-Paris en 1h05. Tours gagne sur ce point: c'est l'une des connexions TGV les plus rapides de province. Angers a une courte avance sur le tramway intérieur (3 lignes) ; Tours a 1 ligne de tramway mais en extension. Les deux sont cyclables en centre-ville. L'aéroport de Tours est petit mais actif (Ryanair, Dublin, Maroc).",
       },
       {
         heading: "Vie culturelle et patrimoine",
-        body: "Le Val de Loire est un terrain de jeu exceptionnel pour les amateurs de patrimoine : châteaux de Chambord, Chenonceau, Amboise, Villandry — tous à moins d'une heure de Tours ou d'Angers. Côté vins : l'Anjou-Saumur (autour d'Angers) et la Touraine-Vouvray (autour de Tours) sont deux appellations distinctes, également excellentes. Angers a le château des rois d'Anjou et la tapisserie de l'Apocalypse, patrimoine mondial unique. Tours a le Vieux-Tours (maisons à colombages) et une scène gastronomique reconnue (fromages de chèvre, rillettes). Socialement, Tours est perçue comme légèrement plus animée avec une plus grande densité de restaurants et bars en centre-ville.",
+        body: "Le Val de Loire est un terrain de jeu exceptionnel pour les amateurs de patrimoine : châteaux de Chambord, Chenonceau, Amboise, Villandry, tous à moins d'une heure de Tours ou d'Angers. Côté vins : l'Anjou-Saumur (autour d'Angers) et la Touraine-Vouvray (autour de Tours) sont deux appellations distinctes, également excellentes. Angers a le château des rois d'Anjou et la tapisserie de l'Apocalypse, patrimoine mondial unique. Tours a le Vieux-Tours (maisons à colombages) et une scène gastronomique reconnue (fromages de chèvre, rillettes). Socialement, Tours est perçue comme légèrement plus animée avec une plus grande densité de restaurants et bars en centre-ville.",
       },
       {
         heading: "Verdict selon le profil",
@@ -19868,19 +19868,19 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Coût de vie et immobilier",
-        body: "Les deux villes sont parmi les moins chères de France pour une ville avec un CHU, une université et un réseau de transports correct. Limoges est légèrement moins chère : T2 meublé 400-550 €/mois contre 470-620 €/mois à Clermont. Prix immobilier à l'achat : Limoges tourne autour de 1 200-1 600 €/m², Clermont autour de 1 600-2 100 €/m². À Limoges, on peut acheter un appartement de 60 m² en bon état pour 70-90 k€ — c'est parmi les prix les plus bas de France pour une grande ville. Un télétravailleur avec un salaire parisien peut vivre confortablement dans les deux villes sans effort financier particulier.",
+        body: "Les deux villes sont parmi les moins chères de France pour une ville avec un CHU, une université et un réseau de transports correct. Limoges est légèrement moins chère : T2 meublé 400-550 €/mois contre 470-620 €/mois à Clermont. Prix immobilier à l'achat : Limoges tourne autour de 1 200-1 600 €/m², Clermont autour de 1 600-2 100 €/m². À Limoges, on peut acheter un appartement de 60 m² en bon état pour 70-90 k€: c'est parmi les prix les plus bas de France pour une grande ville. Un télétravailleur avec un salaire parisien peut vivre confortablement dans les deux villes sans effort financier particulier.",
       },
       {
         heading: "Emploi : deux économies différentes",
-        body: "Clermont-Ferrand est dominée par Michelin — le premier employeur privé de la ville et l'un des plus importants de France, avec plusieurs milliers de salariés directs et un écosystème de sous-traitants. Le groupe Limagrain (semences) est le second grand employeur. L'université Clermont Auvergne (35 000 étudiants) anime aussi la recherche. Limoges est dominée par Legrand (matériel électrique, siège mondial), la porcelaine haut de gamme (Bernardaud, Haviland), et les hôpitaux (CHU important pour sa taille). Pour les ingénieurs matériaux, chimie ou caoutchouc : Clermont. Pour les profils électrotechnique ou design industriel : Limoges.",
+        body: "Clermont-Ferrand est dominée par Michelin: le premier employeur privé de la ville et l'un des plus importants de France, avec plusieurs milliers de salariés directs et un écosystème de sous-traitants. Le groupe Limagrain (semences) est le second grand employeur. L'université Clermont Auvergne (35 000 étudiants) anime aussi la recherche. Limoges est dominée par Legrand (matériel électrique, siège mondial), la porcelaine haut de gamme (Bernardaud, Haviland), et les hôpitaux (CHU important pour sa taille). Pour les ingénieurs matériaux, chimie ou caoutchouc : Clermont. Pour les profils électrotechnique ou design industriel : Limoges.",
       },
       {
         heading: "Cadre naturel",
-        body: "Clermont-Ferrand gagne clairement sur ce point : le Puy-de-Dôme (volcano de 1 465 m) est visible depuis la ville. La Chaîne des Puys — classée au patrimoine mondial UNESCO depuis 2018 — est à 20 min en voiture. Ski à Super Besse à 50 min. Randonnées dans les volcans depuis les portes de la ville. Limoges offre aussi un cadre plaisant (lacs, Creuse), mais sans cette proximité spectaculaire avec des espaces naturels exceptionnels. Pour les amateurs de plein air, Clermont est un avantage compétitif clair.",
+        body: "Clermont-Ferrand gagne clairement sur ce point : le Puy-de-Dôme (volcano de 1 465 m) est visible depuis la ville. La Chaîne des Puys, classée au patrimoine mondial UNESCO depuis 2018, est à 20 min en voiture. Ski à Super Besse à 50 min. Randonnées dans les volcans depuis les portes de la ville. Limoges offre aussi un cadre plaisant (lacs, Creuse), mais sans cette proximité spectaculaire avec des espaces naturels exceptionnels. Pour les amateurs de plein air, Clermont est un avantage compétitif clair.",
       },
       {
         heading: "Transport et connexion",
-        body: "Clermont-Ferrand est pénalisée sur ce point : pas de TGV direct Paris (3h15 en Intercités, ou TGV via Lyon = 2h45 mais plus cher). Annecy, Lyon et Vichy sont accessibles, mais Paris reste lointain. Limoges a une connexion TGV Paris (Haute-Vienne) à 2h20 — bien meilleure que Clermont pour ceux qui ont des liens parisiens. Clermont a un aéroport actif (Lyon-Paris en correspondance, quelques vols européens) ; Limoges a un petit aéroport avec vols Paris et quelques destinations UK.",
+        body: "Clermont-Ferrand est pénalisée sur ce point : pas de TGV direct Paris (3h15 en Intercités, ou TGV via Lyon = 2h45 mais plus cher). Annecy, Lyon et Vichy sont accessibles, mais Paris reste lointain. Limoges a une connexion TGV Paris (Haute-Vienne) à 2h20, bien meilleure que Clermont pour ceux qui ont des liens parisiens. Clermont a un aéroport actif (Lyon-Paris en correspondance, quelques vols européens) ; Limoges a un petit aéroport avec vols Paris et quelques destinations UK.",
       },
       {
         heading: "Verdict",
@@ -19913,11 +19913,11 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Top 5 : les villes vins",
-        body: "**1. Bordeaux** : la capitale mondiale du vin. Les vignobles du Médoc, Saint-Émilion, Pomerol et Pessac-Léognan sont à 20-40 min de voiture. Les négociants et courtiers du Quai des Chartrons sont à 10 min à vélo. Vinexpo bordeaux, la fête du vin (biennale, 300 000 visiteurs). Cave Brunet, Le Verre Bouteille, Bordeaux Vinothèque — des cavistes de référence nationale. **2. Dijon** : porte d'entrée de la Bourgogne. Nuits-Saint-Georges à 20 min, Gevrey-Chambertin à 15 min, la Route des Grands Crus passe sous les fenêtres. L'école des Vins de Bourgogne forme le monde entier. Caviste Quentin Leroux référence locale. **3. Lyon** : capitale de la Beaujolais + portail Nord du Rhône. Beaujeu à 60 min, Ampuis (Côte-Rôtie) à 40 min, Condrieu à 45 min. Les bouchons lyonnais ont une culture du vin au verre incomparable en France. Pas de vignobles à 10 min comme Bordeaux ou Dijon, mais la densité de culture viticole urbaine est unique. **4. Colmar (Alsace)** : au cœur de la Route des Vins d'Alsace. Riesling, Gewurztraminer, Pinot Gris en direct producteur à 5 min. Festival Alsace Alsace. Cave Wolfberger + dizaines de producteurs locaux. À noter : Colmar est petite (70 000 hab) et peut manquer d'animation hors saison. **5. Reims** : capitale du Champagne. Moët & Chandon, Taittinger, Ruinart sont à 20 min des caves historiques. La Route du Champagne part de la ville. Un caviste comme La Cave des Sacres concentre une sélection exceptionnelle de grower champagnes. Bonus : Sciences Po Reims et l'université rémoise créent une population éduquée consommatrice de belles bouteilles.",
+        body: "**1. Bordeaux** : la capitale mondiale du vin. Les vignobles du Médoc, Saint-Émilion, Pomerol et Pessac-Léognan sont à 20-40 min de voiture. Les négociants et courtiers du Quai des Chartrons sont à 10 min à vélo. Vinexpo bordeaux, la fête du vin (biennale, 300 000 visiteurs). Cave Brunet, Le Verre Bouteille, Bordeaux Vinothèque, des cavistes de référence nationale. **2. Dijon** : porte d'entrée de la Bourgogne. Nuits-Saint-Georges à 20 min, Gevrey-Chambertin à 15 min, la Route des Grands Crus passe sous les fenêtres. L'école des Vins de Bourgogne forme le monde entier. Caviste Quentin Leroux référence locale. **3. Lyon** : capitale de la Beaujolais + portail Nord du Rhône. Beaujeu à 60 min, Ampuis (Côte-Rôtie) à 40 min, Condrieu à 45 min. Les bouchons lyonnais ont une culture du vin au verre incomparable en France. Pas de vignobles à 10 min comme Bordeaux ou Dijon, mais la densité de culture viticole urbaine est unique. **4. Colmar (Alsace)** : au cœur de la Route des Vins d'Alsace. Riesling, Gewurztraminer, Pinot Gris en direct producteur à 5 min. Festival Alsace Alsace. Cave Wolfberger + dizaines de producteurs locaux. À noter : Colmar est petite (70 000 hab) et peut manquer d'animation hors saison. **5. Reims** : capitale du Champagne. Moët & Chandon, Taittinger, Ruinart sont à 20 min des caves historiques. La Route du Champagne part de la ville. Un caviste comme La Cave des Sacres concentre une sélection exceptionnelle de grower champagnes. Bonus : Sciences Po Reims et l'université rémoise créent une population éduquée consommatrice de belles bouteilles.",
       },
       {
         heading: "Les bonnes surprises",
-        body: "**Bayonne / Bordeaux (Pyrénées-Atlantiques)** : Irouléguy et Jurançon sont les deux AOC basques, difficiles à trouver ailleurs qu'ici. La culture gastronomique locale place le vin naturellement au centre de la table. **Montpellier** : à 30 min du Pic Saint-Loup, de Pic Saint-Loup, et des AOP Languedoc. Le marché du vin nature a explosé — des cavistes comme La Cave des Abbés ou Vert et Rouge font référence. Budget vins significativement inférieur aux Bordeaux ou Bourgogne. **Tours** : Val de Loire, Vouvray, Bourgueil, Chinon — des vins de Loire magnifiques produits à 20-40 min. La Guinguette du Vieux Tours l'été, caves troglodytes de Rochecorbon.",
+        body: "**Bayonne / Bordeaux (Pyrénées-Atlantiques)** : Irouléguy et Jurançon sont les deux AOC basques, difficiles à trouver ailleurs qu'ici. La culture gastronomique locale place le vin naturellement au centre de la table. **Montpellier** : à 30 min du Pic Saint-Loup, de Pic Saint-Loup, et des AOP Languedoc. Le marché du vin nature a explosé, des cavistes comme La Cave des Abbés ou Vert et Rouge font référence. Budget vins significativement inférieur aux Bordeaux ou Bourgogne. **Tours** : Val de Loire, Vouvray, Bourgueil, Chinon, des vins de Loire magnifiques produits à 20-40 min. La Guinguette du Vieux Tours l'été, caves troglodytes de Rochecorbon.",
       },
       {
         heading: "Ce que beaucoup ignorent : les vins confidentiels",
@@ -19925,7 +19925,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Acheter du vin à Paris vs en région",
-        body: "Un Bordeaux grand cru classé acheté au négoce à Bordeaux coûte 15-25 % moins cher qu'en cave parisienne pour les mêmes bouteilles — et c'est encore moins cher en achat direct au domaine. L'amateur qui s'installe dans un bassin viticole peut constituer une cave de qualité en 2-3 ans à un coût prohibitif depuis Paris. La logistique est aussi plus simple (cave naturelle dans les maisons anciennes en Bourgogne, cave creusée en tuffeau en Touraine).",
+        body: "Un Bordeaux grand cru classé acheté au négoce à Bordeaux coûte 15-25 % moins cher qu'en cave parisienne pour les mêmes bouteilles, et c'est encore moins cher en achat direct au domaine. L'amateur qui s'installe dans un bassin viticole peut constituer une cave de qualité en 2-3 ans à un coût prohibitif depuis Paris. La logistique est aussi plus simple (cave naturelle dans les maisons anciennes en Bourgogne, cave creusée en tuffeau en Touraine).",
       },
     ],
     relatedCities: ["bordeaux", "dijon", "lyon", "reims", "colmar"],
@@ -19950,19 +19950,19 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Bourges : la belle endormie",
-        body: "Bourges (65 000 habitants) est l'une des grandes surprises de la France profonde. Sa cathédrale Saint-Étienne (XIIe-XIIIe siècle, nef centrale la plus haute de France après Amiens) est classée UNESCO depuis 1992 — ce qui en fait un monument de niveau mondial dans une ville de taille modeste. Le palais Jacques Cœur (XVe), le quartier médiéval et les nombreux hôtels particuliers forment un ensemble patrimonial exceptionnel. Économiquement : Bourges a su maintenir un tissu industriel — MBDA (missiles balistiques, défense), Safran Helicopter Engines (maintenance), et quelques PME métallurgie. Le Printemps de Bourges (festival de musique, 200 000 participants/an) est l'un des rendez-vous culturels les plus importants de France. TGV Paris (via Les Aubrais) : 2h15.",
+        body: "Bourges (65 000 habitants) est l'une des grandes surprises de la France profonde. Sa cathédrale Saint-Étienne (XIIe-XIIIe siècle, nef centrale la plus haute de France après Amiens) est classée UNESCO depuis 1992, ce qui en fait un monument de niveau mondial dans une ville de taille modeste. Le palais Jacques Cœur (XVe), le quartier médiéval et les nombreux hôtels particuliers forment un ensemble patrimonial exceptionnel. Économiquement : Bourges a su maintenir un tissu industriel, MBDA (missiles balistiques, défense), Safran Helicopter Engines (maintenance), et quelques PME métallurgie. Le Printemps de Bourges (festival de musique, 200 000 participants/an) est l'un des rendez-vous culturels les plus importants de France. TGV Paris (via Les Aubrais) : 2h15.",
       },
       {
         heading: "Châteauroux : l'option encore plus accessible",
-        body: "Châteauroux (43 000 habitants) est la préfecture de l'Indre — département classé parmi les moins denses de France. Prix immobiliers : 800-1 200 €/m² pour les appartements, maisons de ville 4 pièces pour 80-120 k€. Difficile de faire moins cher dans une ville avec un CHU, un lycée classique-moderne et un réseau de transport fonctionnel. Le déficit d'image est réel : la ville n'a pas de monument emblématique, peu de tourisme, une économie qui souffre depuis la fermeture de la base américaine de Déols dans les années 1990. Mais pour un télétravailleur cherchant une maison avec jardin pour 100-150 k€ à 2h30 de Paris, Châteauroux est une option sérieuse.",
+        body: "Châteauroux (43 000 habitants) est la préfecture de l'Indre, département classé parmi les moins denses de France. Prix immobiliers : 800-1 200 €/m² pour les appartements, maisons de ville 4 pièces pour 80-120 k€. Difficile de faire moins cher dans une ville avec un CHU, un lycée classique-moderne et un réseau de transport fonctionnel. Le déficit d'image est réel : la ville n'a pas de monument emblématique, peu de tourisme, une économie qui souffre depuis la fermeture de la base américaine de Déols dans les années 1990. Mais pour un télétravailleur cherchant une maison avec jardin pour 100-150 k€ à 2h30 de Paris, Châteauroux est une option sérieuse.",
       },
       {
         heading: "Coût de vie dans le Berry",
-        body: "Le Berry est l'une des régions les moins chères de France — sans compromis sur la sécurité ou les services de base. Loyer T2 à Bourges : 380-500 €/mois. À Châteauroux : 320-430 €/mois. Immobilier à l'achat : parmi les prix les plus bas de France pour une ville avec hôpital et lycée. Courses, restaurants, services : 10-15 % moins chers que la moyenne nationale. Un télétravailleur avec 2 500 €/mois net peut épargner significativement dans le Berry — ce qui n'est pas possible à Bordeaux, Lyon ou même Clermont.",
+        body: "Le Berry est l'une des régions les moins chères de France, sans compromis sur la sécurité ou les services de base. Loyer T2 à Bourges : 380-500 €/mois. À Châteauroux : 320-430 €/mois. Immobilier à l'achat : parmi les prix les plus bas de France pour une ville avec hôpital et lycée. Courses, restaurants, services : 10-15 % moins chers que la moyenne nationale. Un télétravailleur avec 2 500 €/mois net peut épargner significativement dans le Berry, ce qui n'est pas possible à Bordeaux, Lyon ou même Clermont.",
       },
       {
         heading: "Ce que le Berry offre vraiment",
-        body: "Des randonnées dans la Sologne (réserve naturelle humide, étangs, cerfs), des marchés locaux (fromages de chèvre, Valençay AOC, cochons de lait), et le silence. Beaucoup de silence. La Creuse et l'Indre sont des rivières de pêche de premier ordre. Les étangs de la Brenne (5 000 ha) sont un paradis ornithologique. L'hiver est froid et gris, la densité de population très faible — ce qui peut être exactement ce qu'on cherche, ou une raison de ne pas y aller.",
+        body: "Des randonnées dans la Sologne (réserve naturelle humide, étangs, cerfs), des marchés locaux (fromages de chèvre, Valençay AOC, cochons de lait), et le silence. Beaucoup de silence. La Creuse et l'Indre sont des rivières de pêche de premier ordre. Les étangs de la Brenne (5 000 ha) sont un paradis ornithologique. L'hiver est froid et gris, la densité de population très faible, ce qui peut être exactement ce qu'on cherche, ou une raison de ne pas y aller.",
       },
       {
         heading: "À qui convient le Berry ?",
@@ -20036,7 +20036,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Budgets types",
-        body: "T1 (investissement locatif) : 120-180 k€. Rentabilité locative brute 4-5 % — honorable dans ce marché mais pas exceptionnel. T2 (primo-accédant) : 180-260 k€. T3 (famille) : 250-360 k€. Maison de ville avec jardin (Saint-Esprit ou Mousserolles) : 350-550 k€. Appartement de standing Grand Bayonne T3 : 280-420 k€.",
+        body: "T1 (investissement locatif) : 120-180 k€. Rentabilité locative brute 4-5 %, honorable dans ce marché mais pas exceptionnel. T2 (primo-accédant) : 180-260 k€. T3 (famille) : 250-360 k€. Maison de ville avec jardin (Saint-Esprit ou Mousserolles) : 350-550 k€. Appartement de standing Grand Bayonne T3 : 280-420 k€.",
       },
       {
         heading: "Le piège Airbnb et la réglementation",
@@ -20126,7 +20126,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Rentabilité locative",
-        body: "Rendement locatif brut : 5,5–7,5 % selon le quartier. Sanitas et Velpeau offrent les meilleures rentabilités. Le marché locatif est tiré par les 30 000 étudiants de l'université de Tours (UFR, CHU, IUT, Sciences Po Tours). La vacance locative est faible en secteur étudiant. Attention à la copropriété dans les immeubles anciens du centre — les charges et travaux peuvent être importants.",
+        body: "Rendement locatif brut : 5,5–7,5 % selon le quartier. Sanitas et Velpeau offrent les meilleures rentabilités. Le marché locatif est tiré par les 30 000 étudiants de l'université de Tours (UFR, CHU, IUT, Sciences Po Tours). La vacance locative est faible en secteur étudiant. Attention à la copropriété dans les immeubles anciens du centre, les charges et travaux peuvent être importants.",
       },
     ],
     relatedCities: ["tours", "angers", "orleans"],
@@ -20233,7 +20233,7 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "État du marché avignonnais en 2026",
-        body: "Avignon affiche des prix médians de 2 800–3 800 €/m² selon le secteur — bien supérieurs à Nîmes ou Arles, mais nettement inférieurs à Aix-en-Provence (3 800–5 000 €/m²). La prime «Avignon intra-muros» est réelle : les appartements dans les hôtels particuliers de la cité sont rares et fortement demandés. Extra-muros, les prix sont beaucoup plus accessibles. TGV : Avignon TGV est à 35 min de Marseille, 2h40 de Paris. L'accès ferroviaire est un atout majeur.",
+        body: "Avignon affiche des prix médians de 2 800–3 800 €/m² selon le secteur, bien supérieurs à Nîmes ou Arles, mais nettement inférieurs à Aix-en-Provence (3 800–5 000 €/m²). La prime «Avignon intra-muros» est réelle : les appartements dans les hôtels particuliers de la cité sont rares et fortement demandés. Extra-muros, les prix sont beaucoup plus accessibles. TGV : Avignon TGV est à 35 min de Marseille, 2h40 de Paris. L'accès ferroviaire est un atout majeur.",
       },
       {
         heading: "Les quartiers d'Avignon",
@@ -20274,7 +20274,7 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "État du marché perpignanais en 2026",
-        body: "Perpignan affiche des prix médians de 1 600–2 300 €/m² selon le secteur — parmi les plus bas de toutes les villes méditerranéennes françaises. Le marché a progressé (+18 % sur 5 ans) mais reste bien en-dessous de Montpellier (+55 %), Marseille, ou même Nîmes. La croissance est tirée par des télétravailleurs qui cherchent le soleil catalan à budget contraint, des retraités britanniques et néerlandais (tradition ancienne), et une immigration de Barcelone (ville plus chère, 1h de TGV).",
+        body: "Perpignan affiche des prix médians de 1 600–2 300 €/m² selon le secteur, parmi les plus bas de toutes les villes méditerranéennes françaises. Le marché a progressé (+18 % sur 5 ans) mais reste bien en-dessous de Montpellier (+55 %), Marseille, ou même Nîmes. La croissance est tirée par des télétravailleurs qui cherchent le soleil catalan à budget contraint, des retraités britanniques et néerlandais (tradition ancienne), et une immigration de Barcelone (ville plus chère, 1h de TGV).",
       },
       {
         heading: "Les quartiers de Perpignan",
@@ -20319,19 +20319,19 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Quartier Sextius-Mirabeau et Encagnane : le virage urbain",
-        body: "À l'ouest du centre, Sextius-Mirabeau (requalification autour de la médiathèque et du Pavillon Noir) propose du neuf et du réhabilité à 4 000–5 500 €/m². Encagnane, quartier populaire reconverti, descend à 2 800–3 500 €/m² pour des appartements des années 1960–70, avec le profil d'un marché de primo-accédants plutôt que d'investisseurs de prestige. Ces prix permettent d'être dans Aix sans le budget Mazarin — mais les volumes sont modestes et les DPE souvent médiocres (isolation à refaire).",
+        body: "À l'ouest du centre, Sextius-Mirabeau (requalification autour de la médiathèque et du Pavillon Noir) propose du neuf et du réhabilité à 4 000–5 500 €/m². Encagnane, quartier populaire reconverti, descend à 2 800–3 500 €/m² pour des appartements des années 1960–70, avec le profil d'un marché de primo-accédants plutôt que d'investisseurs de prestige. Ces prix permettent d'être dans Aix sans le budget Mazarin, mais les volumes sont modestes et les DPE souvent médiocres (isolation à refaire).",
       },
       {
         heading: "Jas de Bouffan et les quartiers résidentiels ouest",
-        body: "Jas de Bouffan (le quartier où Cézanne peignait) est une valeur sûre résidentielle : maisons et villas avec jardin ou piscine, 4 500–6 500 €/m² pour les biens les plus soignés. Les quartiers périphériques ouest (Luynes, Bouc-Bel-Air, Gardanne — techniquement hors Aix) descendent à 3 000–4 200 €/m² pour des maisons avec terrain. Ces communes permettent d'accéder au bassin d'emploi aixois et marseillais à un prix 20–30 % inférieur à Aix intra-muros. La contrepartie : voiture indispensable et distances plus longues.",
+        body: "Jas de Bouffan (le quartier où Cézanne peignait) est une valeur sûre résidentielle : maisons et villas avec jardin ou piscine, 4 500–6 500 €/m² pour les biens les plus soignés. Les quartiers périphériques ouest (Luynes, Bouc-Bel-Air, Gardanne, techniquement hors Aix) descendent à 3 000–4 200 €/m² pour des maisons avec terrain. Ces communes permettent d'accéder au bassin d'emploi aixois et marseillais à un prix 20–30 % inférieur à Aix intra-muros. La contrepartie : voiture indispensable et distances plus longues.",
       },
       {
         heading: "La Route Cézanne et les collines : le luxe périurbain",
-        body: "La Route Cézanne (RD17, vers Le Tholonet et la Montagne Sainte-Victoire) est l'une des adresses les plus prisées du bassin : bastides et propriétés entre 1 et 4 millions d'euros, peu liquides à la revente mais très demandées. Ce marché est celui des grandes fortunes et des retraités très aisés — peu pertinent pour un primo-accédant, mais intéressant à mentionner comme référence du haut de marché.",
+        body: "La Route Cézanne (RD17, vers Le Tholonet et la Montagne Sainte-Victoire) est l'une des adresses les plus prisées du bassin : bastides et propriétés entre 1 et 4 millions d'euros, peu liquides à la revente mais très demandées. Ce marché est celui des grandes fortunes et des retraités très aisés, peu pertinent pour un primo-accédant, mais intéressant à mentionner comme référence du haut de marché.",
       },
       {
         heading: "Ce que le marché cache",
-        body: "Plusieurs réalités sont peu discutées dans les annonces : (1) la taxe foncière à Aix est parmi les plus élevées de PACA — compter 1 500–2 500 €/an pour un T3, davantage pour une maison. (2) Les périodes de chaleur : Aix est dans une cuvette, et les canicules de 2022–2024 ont montré que le marché aixois n'est pas exempt de chaleur extrême — chercher l'orientation nord ou un rez-de-jardin avec ombre. (3) Le marché des parkings est catastrophique en centre-ville — un box en sous-sol peut se négocier 25 000–40 000 €, à ajouter au budget total si vous avez une voiture.",
+        body: "Plusieurs réalités sont peu discutées dans les annonces : (1) la taxe foncière à Aix est parmi les plus élevées de PACA, compter 1 500–2 500 €/an pour un T3, davantage pour une maison. (2) Les périodes de chaleur : Aix est dans une cuvette, et les canicules de 2022–2024 ont montré que le marché aixois n'est pas exempt de chaleur extrême, chercher l'orientation nord ou un rez-de-jardin avec ombre. (3) Le marché des parkings est catastrophique en centre-ville, un box en sous-sol peut se négocier 25 000–40 000 €, à ajouter au budget total si vous avez une voiture.",
       },
     ],
     relatedCities: ["aix-en-provence", "marseille", "avignon", "toulon"],
@@ -20346,7 +20346,7 @@ export const GUIDES: Guide[] = [
     slug: "acheter-a-saint-etienne-quel-quartier-budget-2026",
     title: "Acheter à Saint-Étienne en 2026 : quel quartier et quel budget ?",
     metaTitle: "Acheter à Saint-Étienne 2026 — prix m² imbattables, quartiers, réalité du marché",
-    metaDesc: "Immobilier Saint-Étienne 2026 : T2 à 50 000 €, maisons à 80 000 € — les prix les plus bas de France pour une ville de 170 000 habitants. Mais faut-il y aller ? Le guide honnête.",
+    metaDesc: "Immobilier Saint-Étienne 2026 : T2 à 50 000 €, maisons à 80 000 €, les prix les plus bas de France pour une ville de 170 000 habitants. Mais faut-il y aller ? Le guide honnête.",
     category: "budget",
     emoji: "⚙️",
     readMinutes: 9,
@@ -20356,23 +20356,23 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Centre-ville et Secteur Sauvegardé : la rénovation en cours",
-        body: "Le centre-ville de Saint-Étienne a subi plusieurs décennies de vacance commerciale et de dégradation du bâti. La requalification en cours (Secteur Sauvegardé, opérations ANRU) génère des biens à 700–1 200 €/m² pour des appartements anciens à rénover — des prix qui n'existent plus dans aucune autre ville française de cette taille. L'acheteur avertit trouve des appartements haussmanniens avec moulures et parquet pour 40 000–70 000 €, dans des immeubles en copropriété dont l'état général est variable. Due diligence obligatoire : état de la copropriété (les mauvaises gèrent mal les parties communes et accumulent des dettes), PV des dernières AG, et réalisme sur les travaux.",
+        body: "Le centre-ville de Saint-Étienne a subi plusieurs décennies de vacance commerciale et de dégradation du bâti. La requalification en cours (Secteur Sauvegardé, opérations ANRU) génère des biens à 700–1 200 €/m² pour des appartements anciens à rénover, des prix qui n'existent plus dans aucune autre ville française de cette taille. L'acheteur avertit trouve des appartements haussmanniens avec moulures et parquet pour 40 000–70 000 €, dans des immeubles en copropriété dont l'état général est variable. Due diligence obligatoire : état de la copropriété (les mauvaises gèrent mal les parties communes et accumulent des dettes), PV des dernières AG, et réalisme sur les travaux.",
       },
       {
         heading: "Bellevue, Tarentaize, Beaubrun : les quartiers montants",
-        body: "Bellevue (plateau au nord-ouest du centre) et Tarentaize attirent les jeunes acheteurs et les investisseurs locatifs : prix 900–1 500 €/m², typologies T2–T3 des années 1950–70. Ces quartiers sont proches des facultés (Université Jean-Monnet) et bénéficient de la ligne de tram B. Rendements bruts potentiels : 8–10 %, ce qui explique l'intérêt des investisseurs purement financiers. Attention : la vacance locative existe — le bassin d'emploi stéphanois reste tendu et certains locataires préfèrent Lyon (45 min par A47) à Saint-Étienne pour la recherche d'emploi.",
+        body: "Bellevue (plateau au nord-ouest du centre) et Tarentaize attirent les jeunes acheteurs et les investisseurs locatifs : prix 900–1 500 €/m², typologies T2–T3 des années 1950–70. Ces quartiers sont proches des facultés (Université Jean-Monnet) et bénéficient de la ligne de tram B. Rendements bruts potentiels : 8–10 %, ce qui explique l'intérêt des investisseurs purement financiers. Attention : la vacance locative existe, le bassin d'emploi stéphanois reste tendu et certains locataires préfèrent Lyon (45 min par A47) à Saint-Étienne pour la recherche d'emploi.",
       },
       {
         heading: "Montreynaud, Méons, Vallée de l'Ondaine : prudence",
-        body: "Certains quartiers périphériques (Montreynaud au nord, Méons à l'est) concentrent les difficultés sociales de la ville et des taux de vacance locative élevés. Les prix y sont inférieurs à 600 €/m², ce qui semble une aubaine — mais le risque locatif est réel et la revente difficile. L'Ondaine (Firminy, Rive-de-Gier, Saint-Chamond) propose des maisons à 60 000–120 000 € avec jardin et est une alternative parfois meilleure que Saint-Étienne intra-muros pour les familles avec budget serré.",
+        body: "Certains quartiers périphériques (Montreynaud au nord, Méons à l'est) concentrent les difficultés sociales de la ville et des taux de vacance locative élevés. Les prix y sont inférieurs à 600 €/m², ce qui semble une aubaine, mais le risque locatif est réel et la revente difficile. L'Ondaine (Firminy, Rive-de-Gier, Saint-Chamond) propose des maisons à 60 000–120 000 € avec jardin et est une alternative parfois meilleure que Saint-Étienne intra-muros pour les familles avec budget serré.",
       },
       {
         heading: "Saint-Étienne vs Lyon : le calcul",
-        body: "Lyon est à 45 minutes de Saint-Étienne par l'A47 ou le train (30 min sur le TER express, 13 €/trajet). Ce lien crée une population de navetteurs qui vivent à Saint-Étienne et travaillent à Lyon — payant 30 000–60 000 € par an moins cher pour se loger. Le calcul tient si le trajet quotidien est supporté ; il tient moins bien si le poste est à Lyon Part-Dieu et que le navetteur rentre tard. L'enjeu est aussi psychologique : Saint-Étienne a une image négative dans certains milieux, et certains employeurs font la remarque à l'embauche. Cette réalité s'estompe progressivement mais reste présente.",
+        body: "Lyon est à 45 minutes de Saint-Étienne par l'A47 ou le train (30 min sur le TER express, 13 €/trajet). Ce lien crée une population de navetteurs qui vivent à Saint-Étienne et travaillent à Lyon, payant 30 000–60 000 € par an moins cher pour se loger. Le calcul tient si le trajet quotidien est supporté ; il tient moins bien si le poste est à Lyon Part-Dieu et que le navetteur rentre tard. L'enjeu est aussi psychologique : Saint-Étienne a une image négative dans certains milieux, et certains employeurs font la remarque à l'embauche. Cette réalité s'estompe progressivement mais reste présente.",
       },
       {
         heading: "Le pari sur la mutation : vaut-il d'être fait ?",
-        body: "Saint-Étienne a connu une vague d'investisseurs parisiens et lyonnais depuis 2018, attirés par les rendements bruts à deux chiffres et un pari sur la gentrification. Ce pari est partiellement en train de se réaliser — la Cité du Design, l'attractivité du musée MAMC, le renouveau du centre commercial Mon Grand Plan, la Manufacture Plaine Achille — mais le processus est lent et non linéaire. Les acheteurs qui ont acheté dans le secteur sauvegardé il y a 5 ans ont souvent stagné ou modestement progressé en valeur. Saint-Étienne reste un pari sur 10–15 ans, pas un investissement à court terme.",
+        body: "Saint-Étienne a connu une vague d'investisseurs parisiens et lyonnais depuis 2018, attirés par les rendements bruts à deux chiffres et un pari sur la gentrification. Ce pari est partiellement en train de se réaliser, la Cité du Design, l'attractivité du musée MAMC, le renouveau du centre commercial Mon Grand Plan, la Manufacture Plaine Achille, mais le processus est lent et non linéaire. Les acheteurs qui ont acheté dans le secteur sauvegardé il y a 5 ans ont souvent stagné ou modestement progressé en valeur. Saint-Étienne reste un pari sur 10–15 ans, pas un investissement à court terme.",
       },
     ],
     relatedCities: ["saint-etienne", "lyon", "clermont-ferrand", "grenoble"],
@@ -20510,7 +20510,7 @@ export const GUIDES: Guide[] = [
     slug: "acheter-a-amiens-quel-quartier-budget-2026",
     title: "Acheter à Amiens en 2026 : quel quartier et quel budget ?",
     metaTitle: "Acheter à Amiens 2026 — prix m², quartiers, navetteur Paris, réalité du marché",
-    metaDesc: "Immobilier Amiens 2026 : TGV Paris en 1h05, cathédrale gothique, marché à 1 800–2 800 €/m². Quartiers Saint-Leu, Montplaisir, Saint-Acheul — guide honnête pour acheter dans la Somme.",
+    metaDesc: "Immobilier Amiens 2026 : TGV Paris en 1h05, cathédrale gothique, marché à 1 800–2 800 €/m². Quartiers Saint-Leu, Montplaisir, Saint-Acheul, guide honnête pour acheter dans la Somme.",
     category: "budget",
     emoji: "🕌",
     readMinutes: 9,
@@ -20551,7 +20551,7 @@ export const GUIDES: Guide[] = [
     slug: "guide-vivre-seul-france-quelle-ville-2026",
     title: "Vivre seul en France : quelle ville choisir en 2026 ?",
     metaTitle: "Vivre seul France 2026 — meilleures villes pour les célibataires et personnes solo",
-    metaDesc: "Où vivre seul en France en 2026 ? Guide complet : studios accessibles, vie sociale, sécurité, transports, communauté — sans budget couple.",
+    metaDesc: "Où vivre seul en France en 2026 ? Guide complet : studios accessibles, vie sociale, sécurité, transports, communauté, sans budget couple.",
     category: "lifestyle",
     emoji: "🧭",
     readMinutes: 9,
@@ -20561,7 +20561,7 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Les critères spécifiques au célibataire géographique",
-        body: "Un couple peut mutualiser le loyer et les charges — un solo non. Le budget logement représente souvent 40-50 % des revenus pour quelqu'un qui vit seul, contre 20-30 % pour un couple avec deux salaires. Premier critère : trouver une ville avec de vraies petites surfaces abordables (< 600 €/mois pour un studio ou T1 en bon état). Deuxième critère : la densité sociale — une ville universitaire ou étudiante avec beaucoup de jeunes actifs facilite les rencontres spontanées. Troisième : la sécurité nocturne — rentrer à pied ou en tram seul à 23h ne doit pas être une aventure. Quatrième : les transports sans voiture, parce qu'un solo qui possède une voiture voit ses charges fixes exploser.",
+        body: "Un couple peut mutualiser le loyer et les charges, un solo non. Le budget logement représente souvent 40-50 % des revenus pour quelqu'un qui vit seul, contre 20-30 % pour un couple avec deux salaires. Premier critère : trouver une ville avec de vraies petites surfaces abordables (< 600 €/mois pour un studio ou T1 en bon état). Deuxième critère : la densité sociale, une ville universitaire ou étudiante avec beaucoup de jeunes actifs facilite les rencontres spontanées. Troisième : la sécurité nocturne, rentrer à pied ou en tram seul à 23h ne doit pas être une aventure. Quatrième : les transports sans voiture, parce qu'un solo qui possède une voiture voit ses charges fixes exploser.",
       },
       {
         heading: "Top 7 villes pour vivre seul",
@@ -20577,7 +20577,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Le télétravail solo : une équation différente",
-        body: "Le télétravailleur solo cumule les avantages (pas de bureau imposé, mobilité géographique) et les risques (isolement amplifié, pas de déjeuner-machine à café avec collègues). La solution n'est pas la ville la moins chère — c'est la ville où l'investissement social est le plus facile. Coworking 2 jours/semaine dans une ville de 80 000 habitants avec une communauté tech active (Poitiers, Clermont, Brest) vaut souvent mieux qu'un appart sur rue à Paris. La vie de quartier compte doublement quand on n'a pas de bureau.",
+        body: "Le télétravailleur solo cumule les avantages (pas de bureau imposé, mobilité géographique) et les risques (isolement amplifié, pas de déjeuner-machine à café avec collègues). La solution n'est pas la ville la moins chère: c'est la ville où l'investissement social est le plus facile. Coworking 2 jours/semaine dans une ville de 80 000 habitants avec une communauté tech active (Poitiers, Clermont, Brest) vaut souvent mieux qu'un appart sur rue à Paris. La vie de quartier compte doublement quand on n'a pas de bureau.",
       },
     ],
     relatedCities: ["toulouse", "montpellier", "rennes", "bordeaux"],
@@ -20643,7 +20643,7 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Les critères qui comptent pour les tout-petits",
-        body: "Pour les 0-3 ans : accessibilité des crèches municipales (taux de couverture, délai d'attente), assistantes maternelles agréées disponibles, RAM (Relais Assistantes Maternelles) actif. Pour les 3-6 ans : maternelle publique de qualité, proximité pédestre ou cyclable, activités périscolaires, ALSH (accueil loisirs) le mercredi. Pour toute la période : espace extérieur au logement (jardin ou terrasse — ce que très peu d'appartements parisiens ou lyonnais centraux offrent à prix raisonnable), parcs publics à portée de poussette, sécurité du quartier, réseau de parents locaux pour les échanges informels.",
+        body: "Pour les 0-3 ans : accessibilité des crèches municipales (taux de couverture, délai d'attente), assistantes maternelles agréées disponibles, RAM (Relais Assistantes Maternelles) actif. Pour les 3-6 ans : maternelle publique de qualité, proximité pédestre ou cyclable, activités périscolaires, ALSH (accueil loisirs) le mercredi. Pour toute la période : espace extérieur au logement (jardin ou terrasse, ce que très peu d'appartements parisiens ou lyonnais centraux offrent à prix raisonnable), parcs publics à portée de poussette, sécurité du quartier, réseau de parents locaux pour les échanges informels.",
       },
       {
         heading: "Les villes qui réussissent pour les jeunes familles",
@@ -20674,7 +20674,7 @@ export const GUIDES: Guide[] = [
     slug: "villes-france-litteraires-patrimoine-culturel-2026",
     title: "Les villes littéraires et culturelles de France : où vivre si vous aimez les livres et les arts",
     metaTitle: "Villes littéraires culturelles France 2026 — librairies, théâtres, musées, patrimoine",
-    metaDesc: "Classement des villes françaises les plus riches culturellement : librairies indépendantes, théâtres, musées, festivals littéraires, patrimoine — pour les amateurs d'art et de culture.",
+    metaDesc: "Classement des villes françaises les plus riches culturellement : librairies indépendantes, théâtres, musées, festivals littéraires, patrimoine, pour les amateurs d'art et de culture.",
     category: "lifestyle",
     emoji: "📚",
     readMinutes: 9,
@@ -20684,11 +20684,11 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Les critères de la ville culturelle",
-        body: "Pour ce classement : densité de librairies indépendantes (pas la FNAC — les librairies de quartier avec un libraire qui connaît ses fonds), nombre de théâtres subventionnés et programmation saisonnière, grands musées ou collections permanentes accessibles, festivals littéraires et culturels notoires, et la présence d'une vie culturelle quotidienne (cinémas d'art et essai, conférences publiques, galeries).",
+        body: "Pour ce classement : densité de librairies indépendantes (pas la FNAC, les librairies de quartier avec un libraire qui connaît ses fonds), nombre de théâtres subventionnés et programmation saisonnière, grands musées ou collections permanentes accessibles, festivals littéraires et culturels notoires, et la présence d'une vie culturelle quotidienne (cinémas d'art et essai, conférences publiques, galeries).",
       },
       {
         heading: "Paris : irremplaçable mais cher",
-        body: "Aucune ville au monde n'a la densité culturelle de Paris. Le Quartier Latin seul concentre plus de librairies indépendantes que certaines capitales. Le Théâtre du Châtelet, la Comédie-Française, l'Odéon, le Centre Pompidou, le Louvre, le Musée d'Orsay — des institutions de rang mondial. Les lectures publiques, dédicaces, conférences quotidiennes gratuites ou à prix libre. Le prix à payer : 1 000 €/mois pour un studio de 20 m² dans les bons quartiers, une foule permanente, et un rythme que beaucoup trouvent épuisant après 5 ans.",
+        body: "Aucune ville au monde n'a la densité culturelle de Paris. Le Quartier Latin seul concentre plus de librairies indépendantes que certaines capitales. Le Théâtre du Châtelet, la Comédie-Française, l'Odéon, le Centre Pompidou, le Louvre, le Musée d'Orsay, des institutions de rang mondial. Les lectures publiques, dédicaces, conférences quotidiennes gratuites ou à prix libre. Le prix à payer : 1 000 €/mois pour un studio de 20 m² dans les bons quartiers, une foule permanente, et un rythme que beaucoup trouvent épuisant après 5 ans.",
       },
       {
         heading: "Le top 5 hors Paris",
@@ -20696,7 +20696,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Les surprises : villes moyennes à haute densité culturelle",
-        body: "**Avignon** : en dehors du Festival (juillet), la ville a une vie théâtrale permanente quasi unique en province — plusieurs compagnies résidentes, off permanent. Musée du Petit Palais. Librairies spécialisées théâtre. **Arles** : capitale mondiale de la photographie (Rencontres d'Arles, chaque été). Petite ville (55 000 hab) avec une densité culturelle hors normes pour sa taille. LUMA Arles (Gehry). **Aix-en-Provence** : Festival international d'art lyrique, Musée Granet, culture Cézanne. Librairies de qualité. Prix élevés mais qualité culturelle justifiée. **Saint-Malo** : Étonnants Voyageurs (festival littéraire majeur). Corsaires et mer — une identité culturelle forte.",
+        body: "**Avignon** : en dehors du Festival (juillet), la ville a une vie théâtrale permanente quasi unique en province, plusieurs compagnies résidentes, off permanent. Musée du Petit Palais. Librairies spécialisées théâtre. **Arles** : capitale mondiale de la photographie (Rencontres d'Arles, chaque été). Petite ville (55 000 hab) avec une densité culturelle hors normes pour sa taille. LUMA Arles (Gehry). **Aix-en-Provence** : Festival international d'art lyrique, Musée Granet, culture Cézanne. Librairies de qualité. Prix élevés mais qualité culturelle justifiée. **Saint-Malo** : Étonnants Voyageurs (festival littéraire majeur). Corsaires et mer, une identité culturelle forte.",
       },
       {
         heading: "La librairie indépendante comme baromètre",
@@ -20725,11 +20725,11 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Les critères spécifiques d'un fonctionnaire en mutation",
-        body: "Un fonctionnaire en mutation n'a pas le même profil de décision qu'un cadre privé. Points de différence : le salaire est connu à l'avance (grille indiciaire + primes), donc la variable logement est prépondérante — un T3 à 600 €/mois vs 1 200 €/mois change radicalement le niveau de vie résiduel. La question des enfants est souvent centrale : qualité des écoles publiques, accès aux collèges et lycées, activités périscolaires. Si la mutation est temporaire (2–4 ans), la priorité sera la location facile et la revendabilité du bien immobilier si achat. Si elle est durable, le critère « j'ai envie d'y vivre » pèse davantage.",
+        body: "Un fonctionnaire en mutation n'a pas le même profil de décision qu'un cadre privé. Points de différence : le salaire est connu à l'avance (grille indiciaire + primes), donc la variable logement est prépondérante, un T3 à 600 €/mois vs 1 200 €/mois change radicalement le niveau de vie résiduel. La question des enfants est souvent centrale : qualité des écoles publiques, accès aux collèges et lycées, activités périscolaires. Si la mutation est temporaire (2–4 ans), la priorité sera la location facile et la revendabilité du bien immobilier si achat. Si elle est durable, le critère « j'ai envie d'y vivre » pèse davantage.",
       },
       {
         heading: "Villes Administration centrale : Paris et Île-de-France",
-        body: "Paris concentre une part importante des postes d'administration centrale, ministères, grandes directions. Les avantages : réseau de transports exceptionnels (IDF Mobilités), accès à des services et équipements culturels inégalés, réseau professionnel dense. Le problème : le logement. Un fonctionnaire A ou B (salaire 1 900–2 800 €/mois) peinera à se loger correctement à Paris même. Les options raisonnables : Seine-Saint-Denis (logement moins cher mais transport long), Val-de-Marne, Hauts-de-Seine bord de ligne. L'IGESA (institution de gestion sociale des armées) et les logements inter-ministériels permettent parfois d'accéder à des logements conventionnés à prix préférentiel — renseignez-vous auprès de votre gestionnaire RH dès l'affectation.",
+        body: "Paris concentre une part importante des postes d'administration centrale, ministères, grandes directions. Les avantages : réseau de transports exceptionnels (IDF Mobilités), accès à des services et équipements culturels inégalés, réseau professionnel dense. Le problème : le logement. Un fonctionnaire A ou B (salaire 1 900–2 800 €/mois) peinera à se loger correctement à Paris même. Les options raisonnables : Seine-Saint-Denis (logement moins cher mais transport long), Val-de-Marne, Hauts-de-Seine bord de ligne. L'IGESA (institution de gestion sociale des armées) et les logements inter-ministériels permettent parfois d'accéder à des logements conventionnés à prix préférentiel, renseignez-vous auprès de votre gestionnaire RH dès l'affectation.",
       },
       {
         heading: "Le top 5 des villes de mutation hors Paris",
@@ -20737,11 +20737,11 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Éducation nationale : les académies à privilégier",
-        body: "Pour les enseignants — voir aussi le guide dédié — le choix de l'académie conditionne tout : le barème SIALC, les possibilités de mouvement intra, les primes d'attractivité. Les académies les plus demandées (Bordeaux, Lyon, Nantes, Rennes, Grenoble) sont aussi les plus chères au concours de mutation. Le conseil pratique : regarder les académies légèrement moins demandées mais avec qualité de vie élevée — Clermont-Ferrand (Auvergne-Rhône-Alpes, coût de vie raisonnable), Nancy-Metz (Grand-Est, logements accessibles), Caen (Normandie, mer, immobilier abordable). Chaque académie publie son barème de mutation — consultez-le avant de postuler.",
+        body: "Pour les enseignants, voir aussi le guide dédié, le choix de l'académie conditionne tout : le barème SIALC, les possibilités de mouvement intra, les primes d'attractivité. Les académies les plus demandées (Bordeaux, Lyon, Nantes, Rennes, Grenoble) sont aussi les plus chères au concours de mutation. Le conseil pratique : regarder les académies légèrement moins demandées mais avec qualité de vie élevée, Clermont-Ferrand (Auvergne-Rhône-Alpes, coût de vie raisonnable), Nancy-Metz (Grand-Est, logements accessibles), Caen (Normandie, mer, immobilier abordable). Chaque académie publie son barème de mutation, consultez-le avant de postuler.",
       },
       {
         heading: "Acheter ou louer lors d'une mutation ?",
-        body: "La règle générale : louer si la mutation est inférieure à 5 ans, acheter si vous êtes quasi-certain de rester ou de partir dans une ville à marché liquide. Les fonctionnaires ont accès au prêt à taux zéro (PTZ), au prêt fonctionnaire (Action Logement pour certains corps), et dans certains ministères à des logements de fonction ou de service. Évitez d'acheter dans des villes à marché immobilier peu liquide (villes de 15 000–40 000 habitants avec peu de demande locative) — la revente en cas de nouvelle mutation peut devenir un enfer. Lyon, Bordeaux, Nantes, Rennes, Toulouse ont des marchés suffisamment profonds pour revendre rapidement.",
+        body: "La règle générale : louer si la mutation est inférieure à 5 ans, acheter si vous êtes quasi-certain de rester ou de partir dans une ville à marché liquide. Les fonctionnaires ont accès au prêt à taux zéro (PTZ), au prêt fonctionnaire (Action Logement pour certains corps), et dans certains ministères à des logements de fonction ou de service. Évitez d'acheter dans des villes à marché immobilier peu liquide (villes de 15 000–40 000 habitants avec peu de demande locative), la revente en cas de nouvelle mutation peut devenir un enfer. Lyon, Bordeaux, Nantes, Rennes, Toulouse ont des marchés suffisamment profonds pour revendre rapidement.",
       },
     ],
     relatedCities: ["rennes", "nantes", "lyon", "bordeaux", "montpellier"],
@@ -20766,7 +20766,7 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "Ce que \"base\" signifie vraiment",
-        body: "Une base pour van-lifer remplit trois fonctions : domiciliation administrative (adresse postale pour les papiers, carte grise, sécu), point de retour entre les voyages (famille, stockage de matériel, courrier), et accès à des services réguliers (médecin, dentiste, banque, livraisons). Les associations de domiciliation (type SDF ou associations locales) permettent d'être domicilié sans résidence fixe — elles existent dans la plupart des grandes villes. Si vous travaillez à distance, ajoutez la qualité de la connexion 4G/5G/fibre des environs, les espaces de coworking disponibles lors des sédentarisations, et la tolérance réelle de la ville au stationnement prolongé.",
+        body: "Une base pour van-lifer remplit trois fonctions : domiciliation administrative (adresse postale pour les papiers, carte grise, sécu), point de retour entre les voyages (famille, stockage de matériel, courrier), et accès à des services réguliers (médecin, dentiste, banque, livraisons). Les associations de domiciliation (type SDF ou associations locales) permettent d'être domicilié sans résidence fixe, elles existent dans la plupart des grandes villes. Si vous travaillez à distance, ajoutez la qualité de la connexion 4G/5G/fibre des environs, les espaces de coworking disponibles lors des sédentarisations, et la tolérance réelle de la ville au stationnement prolongé.",
       },
       {
         heading: "Les bases mer : Brest, Bayonne, Sète",
@@ -25127,7 +25127,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "2. Île de Ré en vélo",
-        body: "L'Île de Ré est à 3 km de La Rochelle via le pont (péage voiture, gratuit vélo). Le réseau cyclable de l'île (110 km balisés) est le plus dense de France en proportion de surface. Saint-Martin-de-Ré (citadelle Vauban classée UNESCO), Ars-en-Ré, les marais salants de Loix — une journée complète à vélo suffit pour le tour des villages principaux.",
+        body: "L'Île de Ré est à 3 km de La Rochelle via le pont (péage voiture, gratuit vélo). Le réseau cyclable de l'île (110 km balisés) est le plus dense de France en proportion de surface. Saint-Martin-de-Ré (citadelle Vauban classée UNESCO), Ars-en-Ré, les marais salants de Loix : une journée complète à vélo suffit pour le tour des villages principaux.",
       },
       {
         heading: "3. Aquarium de La Rochelle",
@@ -25143,11 +25143,11 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "6. Fortifications et remparts",
-        body: "La Rochelle était une place forte protestante sous Louis XIII — le siège de Richelieu (1627-1628) et la famine qui s'ensuivit restent une des pages les plus sombres des guerres de religion. Les remparts du XVIIe siècle sont partiellement visitables. La porte de la Grosse-Horloge est l'entrée historique de la vieille ville.",
+        body: "La Rochelle était une place forte protestante sous Louis XIII : le siège de Richelieu (1627-1628) et la famine qui s'ensuivit restent une des pages les plus sombres des guerres de religion. Les remparts du XVIIe siècle sont partiellement visitables. La porte de la Grosse-Horloge est l'entrée historique de la vieille ville.",
       },
       {
         heading: "7. Vélo en ville — la capitale française du vélo",
-        body: "La Rochelle est depuis les années 1970 une ville pionnière du vélo urbain. 170 km de pistes cyclables, vélos en libre-service (Yelo), possibilité de traverser toute la ville sans jamais quitter un aménagement dédié. En 2024, 20% des déplacements domicile-travail s'effectuent à vélo — le taux le plus élevé de France pour une ville de cette taille.",
+        body: "La Rochelle est depuis les années 1970 une ville pionnière du vélo urbain. 170 km de pistes cyclables, vélos en libre-service (Yelo), possibilité de traverser toute la ville sans jamais quitter un aménagement dédié. En 2024, 20% des déplacements domicile-travail s'effectuent à vélo : le taux le plus élevé de France pour une ville de cette taille.",
       },
       {
         heading: "8. Plages de La Rochelle et Châtelaillon",
@@ -25155,11 +25155,11 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "9. Île d'Aix et Île d'Oléron — escapades en ferry",
-        body: "L'Île d'Aix (80 habitants permanents, interdite aux voitures) est accessible en ferry depuis La Rochelle en 45 min. Fortifications napoléoniennes, plages sauvages, maison de Napoléon. L'Île d'Oléron (via Fouras ou pont depuis Rochefort) est la plus grande île française après la Corse — réputée pour ses huîtres et ses forêts de pins.",
+        body: "L'Île d'Aix (80 habitants permanents, interdite aux voitures) est accessible en ferry depuis La Rochelle en 45 min. Fortifications napoléoniennes, plages sauvages, maison de Napoléon. L'Île d'Oléron (via Fouras ou pont depuis Rochefort) est la plus grande île française après la Corse : réputée pour ses huîtres et ses forêts de pins.",
       },
       {
         heading: "10. Les Francofolies et vie culturelle estivale",
-        body: "Les Francofolies de La Rochelle (juillet) sont le plus grand festival de chanson francophone au monde — 150 000 spectateurs, scènes gratuites et payantes. En dehors du festival, La Rochelle a une programmation culturelle dense pour une ville de 80 000 habitants : Scopitone (musiques actuelles), cinéma La Coursive, Les Luminessences d'Île de Ré en août.",
+        body: "Les Francofolies de La Rochelle (juillet) sont le plus grand festival de chanson francophone au monde, 150 000 spectateurs, scènes gratuites et payantes. En dehors du festival, La Rochelle a une programmation culturelle dense pour une ville de 80 000 habitants : Scopitone (musiques actuelles), cinéma La Coursive, Les Luminessences d'Île de Ré en août.",
       },
     ],
     relatedCities: ["la-rochelle"],
@@ -25179,7 +25179,7 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-26",
     updatedAt: "2026-05-26",
-    intro: "Annecy est une ville de 130 000 habitants avec un lac glaciaire d'une pureté exceptionnelle (eau potable directement prélevée), une vieille ville médiévale et les Alpes à portée de main. Son attractivité est réelle — les prix immobiliers le confirment — mais ses richesses naturelles restent accessibles sans budget.",
+    intro: "Annecy est une ville de 130 000 habitants avec un lac glaciaire d'une pureté exceptionnelle (eau potable directement prélevée), une vieille ville médiévale et les Alpes à portée de main. Son attractivité est réelle : les prix immobiliers le confirment, mais ses richesses naturelles restent accessibles sans budget.",
     sections: [
       {
         heading: "1. Tour du lac d'Annecy à vélo",
@@ -25203,7 +25203,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "6. Paragliding depuis la Montagne d'Annecy",
-        body: "Annecy est l'une des capitales mondiales du parapente — ses conditions thermiques au-dessus du lac sont idéales de mai à octobre. Les écoles de vol tandem (vol avec moniteur, aucune formation requise) partent de Forclaz ou de Montmin. Réservation 48h à l'avance en haute saison. Comptez 80-120€ pour un vol de 20-30 min.",
+        body: "Annecy est l'une des capitales mondiales du parapente, ses conditions thermiques au-dessus du lac sont idéales de mai à octobre. Les écoles de vol tandem (vol avec moniteur, aucune formation requise) partent de Forclaz ou de Montmin. Réservation 48h à l'avance en haute saison. Comptez 80-120€ pour un vol de 20-30 min.",
       },
       {
         heading: "7. Talloires et Duingt — les villages du lac",
@@ -25263,15 +25263,15 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "6. Musée des Beaux-Arts de Chambéry",
-        body: "Le musée de Chambéry possède la plus grande collection de peintures italiennes de France en dehors du Louvre — reflet de l'histoire piémontaise de la Savoie. Primitifs italiens, tableaux du XVIIe siècle (école bolonaise, vénitienne, florentine) et une salle de portraits de la maison de Savoie. Entrée gratuite le dimanche matin.",
+        body: "Le musée de Chambéry possède la plus grande collection de peintures italiennes de France en dehors du Louvre, reflet de l'histoire piémontaise de la Savoie. Primitifs italiens, tableaux du XVIIe siècle (école bolonaise, vénitienne, florentine) et une salle de portraits de la maison de Savoie. Entrée gratuite le dimanche matin.",
       },
       {
         heading: "7. Les Charmettes — maison de Jean-Jacques Rousseau",
-        body: "À 2 km du centre de Chambéry, Les Charmettes est la maison de campagne où Rousseau vécut avec Madame de Warens entre 1736 et 1742 — une période qu'il décrit dans les Confessions comme la plus heureuse de sa vie. La maison et le jardin sont conservés dans leur état d'origine. Promenade de 30 min depuis la vieille ville.",
+        body: "À 2 km du centre de Chambéry, Les Charmettes est la maison de campagne où Rousseau vécut avec Madame de Warens entre 1736 et 1742 : une période qu'il décrit dans les Confessions comme la plus heureuse de sa vie. La maison et le jardin sont conservés dans leur état d'origine. Promenade de 30 min depuis la vieille ville.",
       },
       {
         heading: "8. Chartreuse et massif de Belledonne",
-        body: "Chambéry est encerclée par trois massifs : Chartreuse (à l'ouest), Belledonne (à l'est), Bauges (au nord). La Chartreuse offre des randonnées exceptionnelles depuis Entremont-le-Vieux ou Saint-Pierre-de-Chartreuse — paysages calcaires spectaculaires, cirques glaciaires. En 1h30 de voiture depuis Chambéry : Alpe d'Huez, Les Menuires, Val Thorens.",
+        body: "Chambéry est encerclée par trois massifs : Chartreuse (à l'ouest), Belledonne (à l'est), Bauges (au nord). La Chartreuse offre des randonnées exceptionnelles depuis Entremont-le-Vieux ou Saint-Pierre-de-Chartreuse, paysages calcaires spectaculaires, cirques glaciaires. En 1h30 de voiture depuis Chambéry : Alpe d'Huez, Les Menuires, Val Thorens.",
       },
       {
         heading: "9. Gastronomie savoyarde et cave à vins",
@@ -26508,11 +26508,11 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "2. Musée des 24 Heures du Mans — l'histoire de la course",
-        body: "Le Musée des 24 Heures du Mans (sur le circuit de la Sarthe, ouvert toute l'année) retrace le siècle de la course avec 150 voitures de compétition originales — des premières Bentley et Bugatti des années 1920 aux prototypes hybrides d'aujourd'hui (Toyota GR010, Ferrari 499P). La visite comprend le circuit pédestre du circuit avec vue sur les stands. Accès au circuit en dehors des jours de course.",
+        body: "Le Musée des 24 Heures du Mans (sur le circuit de la Sarthe, ouvert toute l'année) retrace le siècle de la course avec 150 voitures de compétition originales : des premières Bentley et Bugatti des années 1920 aux prototypes hybrides d'aujourd'hui (Toyota GR010, Ferrari 499P). La visite comprend le circuit pédestre du circuit avec vue sur les stands. Accès au circuit en dehors des jours de course.",
       },
       {
         heading: "3. La cité Plantagenêt — les remparts gallo-romains et médiévaux",
-        body: "La vieille ville du Mans (cité Plantagenêt) est entourée de remparts gallo-romains du IIIe siècle — les mieux conservés de France (1 300 m, hauteur jusqu'à 11 m). À l'intérieur, les ruelles médiévales (Grande-Rue, place Saint-Michel) sont bordées de maisons à pans de bois du XVe siècle. Richard Cœur de Lion est né dans le palais comtal ici en 1157 — son père Henri II Plantagenêt était comte du Maine.",
+        body: "La vieille ville du Mans (cité Plantagenêt) est entourée de remparts gallo-romains du IIIe siècle : les mieux conservés de France (1 300 m, hauteur jusqu'à 11 m). À l'intérieur, les ruelles médiévales (Grande-Rue, place Saint-Michel) sont bordées de maisons à pans de bois du XVe siècle. Richard Cœur de Lion est né dans le palais comtal ici en 1157, son père Henri II Plantagenêt était comte du Maine.",
       },
       {
         heading: "4. Cathédrale Saint-Julien — l'art roman et gothique réunis",
@@ -26532,7 +26532,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "8. Sablé-sur-Sarthe et le château de Solesmes",
-        body: "Sablé-sur-Sarthe, à 40 km du Mans, est connue pour son abbaye de Solesmes (bénédictins, en activité) et ses moines qui ont codifié le chant grégorien au XIXe siècle — les enregistrements de Solesmes font autorité mondiale. Les Sculptures Blanches (groupes sculptés du XVe siècle dans le transept de l'abbatiale) sont exceptionnels. La rivière Sarthe entre Sablé et Le Mans est un itinéraire canoë de 40 km.",
+        body: "Sablé-sur-Sarthe, à 40 km du Mans, est connue pour son abbaye de Solesmes (bénédictins, en activité) et ses moines qui ont codifié le chant grégorien au XIXe siècle : les enregistrements de Solesmes font autorité mondiale. Les Sculptures Blanches (groupes sculptés du XVe siècle dans le transept de l'abbatiale) sont exceptionnels. La rivière Sarthe entre Sablé et Le Mans est un itinéraire canoë de 40 km.",
       },
       {
         heading: "9. Rillettes du Mans — la charcuterie locale",
@@ -26986,7 +26986,7 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "1. Carnaval de Chalon-sur-Saône — le deuxième de France",
-        body: "Le carnaval de Chalon-sur-Saône (3 semaines en février-mars, depuis 1449 — le plus ancien de France) est avec 100 000 spectateurs sur le défilé du dimanche gras le deuxième carnaval de France après Nice. Les chars chalonnais (construits par des associations locales tout l'hiver) atteignent 15 m de hauteur. La « Goniotte » (la figure satirique de l'année, brûlée en clôture) et le défilé aux flambeaux du vendredi soir sont les moments les plus spectaculaires.",
+        body: "Le carnaval de Chalon-sur-Saône (3 semaines en février-mars, depuis 1449 : le plus ancien de France) est avec 100 000 spectateurs sur le défilé du dimanche gras le deuxième carnaval de France après Nice. Les chars chalonnais (construits par des associations locales tout l'hiver) atteignent 15 m de hauteur. La « Goniotte » (la figure satirique de l'année, brûlée en clôture) et le défilé aux flambeaux du vendredi soir sont les moments les plus spectaculaires.",
       },
       {
         heading: "2. Musée Nicéphore Niépce — l'invention de la photographie",
@@ -26994,31 +26994,31 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "3. La Côte Chalonnaise — les vins entre Beaune et Mâcon",
-        body: "La Côte Chalonnaise (entre Chagny et Montagny, à 5-15 km de Chalon) est la zone viticole entre la Côte de Beaune et le Mâconnais : quatre appellations majeures — Rully (blanc et rouge), Mercurey (premier rouge de la Côte, robuste et tannique), Givry (le vin d'Henri IV, dit-on) et Montagny (blanc uniquement). Les villages de Mercurey (caves de négociants et domaines) sont visitables librement le week-end.",
+        body: "La Côte Chalonnaise (entre Chagny et Montagny, à 5-15 km de Chalon) est la zone viticole entre la Côte de Beaune et le Mâconnais : quatre appellations majeures, Rully (blanc et rouge), Mercurey (premier rouge de la Côte, robuste et tannique), Givry (le vin d'Henri IV, dit-on) et Montagny (blanc uniquement). Les villages de Mercurey (caves de négociants et domaines) sont visitables librement le week-end.",
       },
       {
         heading: "4. Abbaye de Cluny — la mère des abbayes",
-        body: "Cluny (à 25 km de Chalon) abritait la plus grande église chrétienne du monde (Cluny III, 1088-1130 : 187 m de long) avant la construction de Saint-Pierre de Rome. Détruite à 90 % à la Révolution (pierres récupérées pour construire les haras), il n'en reste que deux clochers et un transept — mais l'échelle de ce qui a été perdu est lisible grâce à une reconstitution 3D exceptionnelle au musée du site. La ville de Cluny conserve ses hôtels abbatiaux médiévaux.",
+        body: "Cluny (à 25 km de Chalon) abritait la plus grande église chrétienne du monde (Cluny III, 1088-1130 : 187 m de long) avant la construction de Saint-Pierre de Rome. Détruite à 90 % à la Révolution (pierres récupérées pour construire les haras), il n'en reste que deux clochers et un transept, mais l'échelle de ce qui a été perdu est lisible grâce à une reconstitution 3D exceptionnelle au musée du site. La ville de Cluny conserve ses hôtels abbatiaux médiévaux.",
       },
       {
         heading: "5. L'île Saint-Laurent et les quais de la Saône",
-        body: "L'île Saint-Laurent (au milieu de la Saône, accessible par deux ponts) est le quartier historique de Chalon avec ses maisons à colombages du XVe siècle, son église Saint-Vincent (cathédrale gothique et romane), ses bras de Saône et ses guinguettes. Les quais de Saône (côté île) sont le lieu de promenade du soir — restaurants de terrasse sous les platanes, péniches-restaurants. Le marché du vendredi matin (place de l'Hôtel de Ville) est le plus animé du Sud Bourgogne.",
+        body: "L'île Saint-Laurent (au milieu de la Saône, accessible par deux ponts) est le quartier historique de Chalon avec ses maisons à colombages du XVe siècle, son église Saint-Vincent (cathédrale gothique et romane), ses bras de Saône et ses guinguettes. Les quais de Saône (côté île) sont le lieu de promenade du soir, restaurants de terrasse sous les platanes, péniches-restaurants. Le marché du vendredi matin (place de l'Hôtel de Ville) est le plus animé du Sud Bourgogne.",
       },
       {
         heading: "6. Tournus — l'abbatiale romane de Saint-Philibert",
-        body: "Tournus (à 30 km de Chalon) possède l'abbatiale Saint-Philibert (Xe-XIe siècles) — la plus ancienne abbatiale romane de Bourgogne en élévation complète : narthex à deux étages, nef à hauts piliers cylindriques sans chapiteaux, crypte carolingienne. L'austérité de la pierre blanche et le plan basilical sont un contraste complet avec la richesse sculptée de Cluny ou Vézelay. Le village de Tournus, sur les quais de Saône, est classé.",
+        body: "Tournus (à 30 km de Chalon) possède l'abbatiale Saint-Philibert (Xe-XIe siècles) : la plus ancienne abbatiale romane de Bourgogne en élévation complète : narthex à deux étages, nef à hauts piliers cylindriques sans chapiteaux, crypte carolingienne. L'austérité de la pierre blanche et le plan basilical sont un contraste complet avec la richesse sculptée de Cluny ou Vézelay. Le village de Tournus, sur les quais de Saône, est classé.",
       },
       {
         heading: "7. Les Grandes Heures de Bourgogne à Beaune",
-        body: "Beaune (à 35 km de Chalon) est la capitale des vins de Bourgogne : Hôtel-Dieu (hospices de Beaune, 1443, toits de tuiles vernissées multicolores — le monument le plus photographié de Bourgogne), remparts du XVe siècle avec caves de la maison Patriarche (la plus grande cave de Bourgogne, 5 km de galeries). Les ventes aux enchères des Hospices de Beaune (3e dimanche de novembre) fixent les prix des Bourgognes pour l'année.",
+        body: "Beaune (à 35 km de Chalon) est la capitale des vins de Bourgogne : Hôtel-Dieu (hospices de Beaune, 1443, toits de tuiles vernissées multicolores, le monument le plus photographié de Bourgogne), remparts du XVe siècle avec caves de la maison Patriarche (la plus grande cave de Bourgogne, 5 km de galeries). Les ventes aux enchères des Hospices de Beaune (3e dimanche de novembre) fixent les prix des Bourgognes pour l'année.",
       },
       {
         heading: "8. Voie Verte Chalon-Mâcon — 60 km sans voiture",
-        body: "La Voie Verte de la Bresse (60 km de Chalon à Mâcon sur une ancienne voie ferrée) longe la Saône à travers les prairies humides de la Bresse bourguignonne. Terrain plat, asphalte, sans circulation automobile — adapté aux familles. Les haltes sur la Saône (ponts de bateaux, épis de pêche, hérons et martins-pêcheurs) et les villages de pierre dorée de la Côte Chalonnaise (en vue à l'ouest) ponctuent le parcours.",
+        body: "La Voie Verte de la Bresse (60 km de Chalon à Mâcon sur une ancienne voie ferrée) longe la Saône à travers les prairies humides de la Bresse bourguignonne. Terrain plat, asphalte, sans circulation automobile, adapté aux familles. Les haltes sur la Saône (ponts de bateaux, épis de pêche, hérons et martins-pêcheurs) et les villages de pierre dorée de la Côte Chalonnaise (en vue à l'ouest) ponctuent le parcours.",
       },
       {
         heading: "9. La Bresse bourguignonne — volaille et fromages",
-        body: "La Bresse (plaine agricole entre Saône et Ain, à l'est de Chalon) est la région de la volaille de Bresse AOP — la seule volaille au monde avec une AOC : chair très ferme, peau crémeuse, chair à saveur de noisette. Les marchés au gras de Bourg-en-Bresse (décembre) et les poulaillers artisanaux sont les meilleurs endroits pour la déguster. La gastronomie chalonnaise se nourrit aussi des escargots de Bourgogne (préparés au beurre persillé, AOP).",
+        body: "La Bresse (plaine agricole entre Saône et Ain, à l'est de Chalon) est la région de la volaille de Bresse AOP : la seule volaille au monde avec une AOC : chair très ferme, peau crémeuse, chair à saveur de noisette. Les marchés au gras de Bourg-en-Bresse (décembre) et les poulaillers artisanaux sont les meilleurs endroits pour la déguster. La gastronomie chalonnaise se nourrit aussi des escargots de Bourgogne (préparés au beurre persillé, AOP).",
       },
       {
         heading: "10. Festival Chalon dans la Rue — le théâtre de rue",
@@ -27834,11 +27834,11 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "3. La cascade de Sillans-la-Cascade",
-        body: "La cascade de Sillans (à 30 km de Draguignan, sur la Bresque) est une chute d'eau de 42 m tombant dans un bassin de tuf vert turquoise — l'une des plus belles cascades de Provence, accessible par un sentier de 800 m (15 min de marche). Baignade interdite (chutes de pierres) mais belvédère panoramique. Le village de Sillans (médiéval, restauré), Cotignac et Entrecasteaux complètent une boucle d'une journée dans la Provence verte.",
+        body: "La cascade de Sillans (à 30 km de Draguignan, sur la Bresque) est une chute d'eau de 42 m tombant dans un bassin de tuf vert turquoise, l'une des plus belles cascades de Provence, accessible par un sentier de 800 m (15 min de marche). Baignade interdite (chutes de pierres) mais belvédère panoramique. Le village de Sillans (médiéval, restauré), Cotignac et Entrecasteaux complètent une boucle d'une journée dans la Provence verte.",
       },
       {
         heading: "4. Lorgues — le marché provençal du mardi",
-        body: "Lorgues (à 15 km de Draguignan) accueille chaque mardi matin l'un des plus grands marchés provençaux de France — 350 producteurs et marchands sur 800 m de cours et de places (cours de la République, place Trussy). Produits locaux : oliviers AOC Provence (huiles de Mas Bertrand), miels, fromages de chèvre du haut Var, vins AOP Côtes-de-Provence. Le village médiéval (XIIIe siècle) avec ses fontaines et son ancien hôpital Saint-Ferréol mérite la visite.",
+        body: "Lorgues (à 15 km de Draguignan) accueille chaque mardi matin l'un des plus grands marchés provençaux de France, 350 producteurs et marchands sur 800 m de cours et de places (cours de la République, place Trussy). Produits locaux : oliviers AOC Provence (huiles de Mas Bertrand), miels, fromages de chèvre du haut Var, vins AOP Côtes-de-Provence. Le village médiéval (XIIIe siècle) avec ses fontaines et son ancien hôpital Saint-Ferréol mérite la visite.",
       },
       {
         heading: "5. Aups et le marché aux truffes",
@@ -27846,11 +27846,11 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "6. Le Mémorial du débarquement de Provence",
-        body: "Draguignan abrite le Mémorial du débarquement de Provence (Mont Faron à Toulon à 40 km est aussi en lien) — opération Dragoon, 15 août 1944, 250 000 hommes débarqués sur les plages varoises. Le cimetière américain de Draguignan (Cimetière Américain de Draguignan, 861 tombes de soldats américains) est l'un des deux cimetières américains en France de la Seconde Guerre mondiale.",
+        body: "Draguignan abrite le Mémorial du débarquement de Provence (Mont Faron à Toulon à 40 km est aussi en lien) : opération Dragoon, 15 août 1944, 250 000 hommes débarqués sur les plages varoises. Le cimetière américain de Draguignan (Cimetière Américain de Draguignan, 861 tombes de soldats américains) est l'un des deux cimetières américains en France de la Seconde Guerre mondiale.",
       },
       {
         heading: "7. Le château d'Entrecasteaux — jardin à la française",
-        body: "Le château d'Entrecasteaux (à 20 km de Draguignan, XIe-XVIIIe siècles) est l'une des plus belles demeures historiques privées du Var — jardin à la française dessiné par Le Nôtre (escalier monumental, parterres, fontaines), salles d'apparat ornées de boiseries, tableaux du XVIe au XVIIIe siècles. Visites guidées tous les jours en saison.",
+        body: "Le château d'Entrecasteaux (à 20 km de Draguignan, XIe-XVIIIe siècles) est l'une des plus belles demeures historiques privées du Var, jardin à la française dessiné par Le Nôtre (escalier monumental, parterres, fontaines), salles d'apparat ornées de boiseries, tableaux du XVIe au XVIIIe siècles. Visites guidées tous les jours en saison.",
       },
       {
         heading: "8. Saint-Tropez en arrière-saison — à 50 km",
@@ -27883,7 +27883,7 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-27",
     updatedAt: "2026-05-27",
-    intro: "Laval est la préfecture de la Mayenne, 52 000 habitants traversés par la rivière éponyme et célèbres pour deux choses : être le berceau du Douanier Rousseau (Henri Rousseau, 1844-1910) et abriter le premier musée français d'art naïf. Ville de marché et de commerce médiéval, elle est à 1h10 de Paris en TGV — l'une des préfectures les mieux desservies pour son coût immobilier dramatiquement bas.",
+    intro: "Laval est la préfecture de la Mayenne, 52 000 habitants traversés par la rivière éponyme et célèbres pour deux choses : être le berceau du Douanier Rousseau (Henri Rousseau, 1844-1910) et abriter le premier musée français d'art naïf. Ville de marché et de commerce médiéval, elle est à 1h10 de Paris en TGV, l'une des préfectures les mieux desservies pour son coût immobilier dramatiquement bas.",
     sections: [
       {
         heading: "1. Le château de Laval — l'ensemble Renaissance et roman",
@@ -27891,7 +27891,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "2. Le musée d'Art naïf — Henri Rousseau et après",
-        body: "Le musée d'Art naïf et d'Arts singuliers (dans le Vieux Château) est le seul musée français consacré entièrement à l'art naïf — 600 œuvres dont une salle Henri Rousseau (le Douanier Rousseau né à Laval en 1844), des œuvres de Séraphine de Senlis, Camille Bombois, Louis Vivin, et des artistes contemporains de l'art brut. Collection régulièrement enrichie.",
+        body: "Le musée d'Art naïf et d'Arts singuliers (dans le Vieux Château) est le seul musée français consacré entièrement à l'art naïf, 600 œuvres dont une salle Henri Rousseau (le Douanier Rousseau né à Laval en 1844), des œuvres de Séraphine de Senlis, Camille Bombois, Louis Vivin, et des artistes contemporains de l'art brut. Collection régulièrement enrichie.",
       },
       {
         heading: "3. Les bains-douches municipaux — Art déco classé",
@@ -27903,27 +27903,27 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "5. La cathédrale de la Trinité — gothique mayennais",
-        body: "La cathédrale de la Trinité (XIIe-XIXe siècles, érigée en cathédrale en 1855) est l'une des plus modestes cathédrales de France — sept siècles d'architecture juxtaposés : roman (chœur, XIIe siècle), gothique flamboyant (nef, XVe siècle), classique (Renaissance, XVIIe siècle), néogothique (façade XIXe siècle). Vitraux contemporains de Pierre Buraglio (2007), commande publique remarquable.",
+        body: "La cathédrale de la Trinité (XIIe-XIXe siècles, érigée en cathédrale en 1855) est l'une des plus modestes cathédrales de France, sept siècles d'architecture juxtaposés : roman (chœur, XIIe siècle), gothique flamboyant (nef, XVe siècle), classique (Renaissance, XVIIe siècle), néogothique (façade XIXe siècle). Vitraux contemporains de Pierre Buraglio (2007), commande publique remarquable.",
       },
       {
         heading: "6. L'abbaye Notre-Dame du Port-du-Salut — le berceau du Port-Salut",
-        body: "L'abbaye de Port-du-Salut (à 8 km de Laval, à Entrammes, fondée 1233) est le lieu d'origine du fromage Port-Salut — recette créée par les moines trappistes en 1815, vendue à la SAFR (Société Anonyme des Fermiers Réunis) en 1959. L'abbaye fonctionne toujours (20 moines), produit la bière Trappiste de Saint-Wandrille mais plus le fromage. Visite des extérieurs et de l'église. Boutique monastique (livres, miels, infusions).",
+        body: "L'abbaye de Port-du-Salut (à 8 km de Laval, à Entrammes, fondée 1233) est le lieu d'origine du fromage Port-Salut : recette créée par les moines trappistes en 1815, vendue à la SAFR (Société Anonyme des Fermiers Réunis) en 1959. L'abbaye fonctionne toujours (20 moines), produit la bière Trappiste de Saint-Wandrille mais plus le fromage. Visite des extérieurs et de l'église. Boutique monastique (livres, miels, infusions).",
       },
       {
         heading: "7. Sainte-Suzanne — la cité médiévale",
-        body: "Sainte-Suzanne (à 30 km de Laval, classée plus beaux villages de France) est une cité médiévale perchée sur un éperon dominant la Charnie — enceintes fortifiées (XIe-XVe siècles, intactes), donjon roman (1140), maisons à pans de bois du XVe siècle. La cité fut le seul lieu de Normandie à résister à Guillaume le Conquérant en 1083-1086 (siège raté). Centre d'interprétation gratuit dans le château.",
+        body: "Sainte-Suzanne (à 30 km de Laval, classée plus beaux villages de France) est une cité médiévale perchée sur un éperon dominant la Charnie, enceintes fortifiées (XIe-XVe siècles, intactes), donjon roman (1140), maisons à pans de bois du XVe siècle. La cité fut le seul lieu de Normandie à résister à Guillaume le Conquérant en 1083-1086 (siège raté). Centre d'interprétation gratuit dans le château.",
       },
       {
         heading: "8. Jublains — la ville gallo-romaine",
-        body: "Jublains (à 25 km au nord-est de Laval) est l'une des plus complètes villes gallo-romaines du nord de la France — théâtre antique (Ier siècle, 5 000 places), thermes, temples, et une forteresse militaire unique en Gaule (deux enceintes successives III-IVe siècles, le seul exemple connu en France). Musée archéologique sur place. Site en plein air, accès libre.",
+        body: "Jublains (à 25 km au nord-est de Laval) est l'une des plus complètes villes gallo-romaines du nord de la France, théâtre antique (Ier siècle, 5 000 places), thermes, temples, et une forteresse militaire unique en Gaule (deux enceintes successives III-IVe siècles, le seul exemple connu en France). Musée archéologique sur place. Site en plein air, accès libre.",
       },
       {
         heading: "9. Les rives de la Mayenne — vélo et chemin de halage",
-        body: "Le chemin de halage de la Mayenne (90 km de Mayenne à Angers, balisé V44 véloroute) traverse Laval — 38 écluses encore en activité pour les bateaux de plaisance (location de bateaux sans permis à Daon, en aval). À pied ou à vélo, la rive est plate, ombragée et entièrement piétonne sur de longs tronçons. Le port de Laval (à 100 m du château) permet location de paddle, canoë et croisières-restaurants.",
+        body: "Le chemin de halage de la Mayenne (90 km de Mayenne à Angers, balisé V44 véloroute) traverse Laval, 38 écluses encore en activité pour les bateaux de plaisance (location de bateaux sans permis à Daon, en aval). À pied ou à vélo, la rive est plate, ombragée et entièrement piétonne sur de longs tronçons. Le port de Laval (à 100 m du château) permet location de paddle, canoë et croisières-restaurants.",
       },
       {
         heading: "10. Gastronomie mayennaise — Port-Salut, rillauds et cidre",
-        body: "La gastronomie de Laval mélange traditions mayennaises et angevines : fromages Port-Salut et bleu de la Manche (Saint-Calixte), rillauds (rillettes de porc traditionnelles du Maine), cidre fermier de la Mayenne et Maine-et-Loire, beurre cru AOP Charentes-Poitou voisin. Le marché de Laval (samedi matin, place de Hercé) est le grand marché agricole hebdomadaire. La Mayenne reste l'un des départements français les plus agricoles — produits fermiers en abondance.",
+        body: "La gastronomie de Laval mélange traditions mayennaises et angevines : fromages Port-Salut et bleu de la Manche (Saint-Calixte), rillauds (rillettes de porc traditionnelles du Maine), cidre fermier de la Mayenne et Maine-et-Loire, beurre cru AOP Charentes-Poitou voisin. Le marché de Laval (samedi matin, place de Hercé) est le grand marché agricole hebdomadaire. La Mayenne reste l'un des départements français les plus agricoles, produits fermiers en abondance.",
       },
     ],
     relatedCities: ["laval"],
@@ -27946,39 +27946,39 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "1. La Cité de la Mer — Le Redoutable et le Titanic",
-        body: "La Cité de la Mer (dans l'ancienne gare maritime Art déco, 1933) est le plus grand musée français consacré à l'aventure de l'homme sous la mer. Visite du Redoutable (premier sous-marin nucléaire lanceur d'engins français, 1971, désarmé en 1991 — le seul SNLE visitable au monde), aquariums abyssaux de 11 m de profondeur, exposition permanente sur l'expédition Titanic (Cherbourg fut la dernière escale du Titanic le 10 avril 1912). Compter 4h de visite minimum.",
+        body: "La Cité de la Mer (dans l'ancienne gare maritime Art déco, 1933) est le plus grand musée français consacré à l'aventure de l'homme sous la mer. Visite du Redoutable (premier sous-marin nucléaire lanceur d'engins français, 1971, désarmé en 1991 : le seul SNLE visitable au monde), aquariums abyssaux de 11 m de profondeur, exposition permanente sur l'expédition Titanic (Cherbourg fut la dernière escale du Titanic le 10 avril 1912). Compter 4h de visite minimum.",
       },
       {
         heading: "2. La gare maritime transatlantique — Art déco classée",
-        body: "La gare maritime transatlantique (1928-1933, architecte René Levavasseur, classée monument historique 1989) est l'un des chefs-d'œuvre Art déco de France — 280 m de long, hall des Paquebots de 80 m, mosaïques d'Auguste Labouret. Construite pour accueillir les paquebots transatlantiques (le Normandie, le Queen Mary), elle abrite aujourd'hui la Cité de la Mer. Visite extérieure et architecture intérieure accessibles dans le cadre du musée.",
+        body: "La gare maritime transatlantique (1928-1933, architecte René Levavasseur, classée monument historique 1989) est l'un des chefs-d'œuvre Art déco de France, 280 m de long, hall des Paquebots de 80 m, mosaïques d'Auguste Labouret. Construite pour accueillir les paquebots transatlantiques (le Normandie, le Queen Mary), elle abrite aujourd'hui la Cité de la Mer. Visite extérieure et architecture intérieure accessibles dans le cadre du musée.",
       },
       {
         heading: "3. Le Cap de la Hague et le Nez de Jobourg",
-        body: "Le Cap de la Hague (à 30 km à l'ouest de Cherbourg) marque la pointe nord-ouest de la France métropolitaine — falaises de 128 m tombant à la verticale, raz Blanchard (l'un des courants marins les plus violents d'Europe, jusqu'à 12 nœuds). Le Nez de Jobourg (128 m) et le phare de Goury (signal de la pointe) offrent les panoramas les plus saisissants. Sentier des Douaniers (GR223) sur tout le pourtour.",
+        body: "Le Cap de la Hague (à 30 km à l'ouest de Cherbourg) marque la pointe nord-ouest de la France métropolitaine, falaises de 128 m tombant à la verticale, raz Blanchard (l'un des courants marins les plus violents d'Europe, jusqu'à 12 nœuds). Le Nez de Jobourg (128 m) et le phare de Goury (signal de la pointe) offrent les panoramas les plus saisissants. Sentier des Douaniers (GR223) sur tout le pourtour.",
       },
       {
         heading: "4. Les Parapluies de Cherbourg — la tradition manufacturière",
-        body: "Le parapluie de Cherbourg, popularisé par le film de Jacques Demy avec Catherine Deneuve (1964), reste fabriqué en ville par la dernière manufacture artisanale Le Véritable Cherbourg (atelier visitable, rue des Tanneries) — toile, baleines, manche en bois local assemblés à la main, 200 modèles. Prix : 150-300 € pièce. Boutique-atelier au centre-ville.",
+        body: "Le parapluie de Cherbourg, popularisé par le film de Jacques Demy avec Catherine Deneuve (1964), reste fabriqué en ville par la dernière manufacture artisanale Le Véritable Cherbourg (atelier visitable, rue des Tanneries), toile, baleines, manche en bois local assemblés à la main, 200 modèles. Prix : 150-300 € pièce. Boutique-atelier au centre-ville.",
       },
       {
         heading: "5. La rade — la plus grande rade artificielle d'Europe",
-        body: "La rade de Cherbourg (1 500 ha, plus grande rade artificielle du monde) est protégée par une digue centrale de 3,7 km construite de 1783 à 1853 — Napoléon, qui en posa la première pierre, voulait y construire un port militaire capable de débarquer en Angleterre. Le fort central (1804), le fort de l'Ouest et le fort de l'Est ferment la rade. Tour en bateau (1h30, depuis le port de plaisance) pour la voir de la mer.",
+        body: "La rade de Cherbourg (1 500 ha, plus grande rade artificielle du monde) est protégée par une digue centrale de 3,7 km construite de 1783 à 1853, Napoléon, qui en posa la première pierre, voulait y construire un port militaire capable de débarquer en Angleterre. Le fort central (1804), le fort de l'Ouest et le fort de l'Est ferment la rade. Tour en bateau (1h30, depuis le port de plaisance) pour la voir de la mer.",
       },
       {
         heading: "6. Le château et les jardins de Tourlaville",
-        body: "Le château des Ravalet (XVIe siècle, à Tourlaville, 5 km à l'est de Cherbourg) est un château Renaissance précoce (1562) construit pour la famille Ravalet — anecdote macabre : les jumeaux Marguerite et Julien y eurent une liaison incestueuse découverte en 1603, tous deux exécutés place de Grève à Paris. Le parc à l'anglaise (17 ha, redessiné au XIXe siècle, classé jardin remarquable) est l'un des plus beaux du Cotentin — pièces d'eau, fabriques, palmiers (à la pointe nord du Cotentin).",
+        body: "Le château des Ravalet (XVIe siècle, à Tourlaville, 5 km à l'est de Cherbourg) est un château Renaissance précoce (1562) construit pour la famille Ravalet : anecdote macabre : les jumeaux Marguerite et Julien y eurent une liaison incestueuse découverte en 1603, tous deux exécutés place de Grève à Paris. Le parc à l'anglaise (17 ha, redessiné au XIXe siècle, classé jardin remarquable) est l'un des plus beaux du Cotentin, pièces d'eau, fabriques, palmiers (à la pointe nord du Cotentin).",
       },
       {
         heading: "7. Barfleur et le phare de Gatteville — à 30 km",
-        body: "Barfleur (à 30 km à l'est de Cherbourg, classé plus beaux villages de France) est l'un des plus authentiques villages de pêche de la Manche — maisons en granit à toits d'ardoise, port abrité de barques colorées, église Saint-Nicolas (XVIIe siècle). À 4 km, le phare de Gatteville (1834, 75 m, 365 marches — un escalier par jour de l'année) est le deuxième plus haut phare d'Europe (après l'Île Vierge). Ascension possible. Vue jusqu'au Cap Lévi par temps clair.",
+        body: "Barfleur (à 30 km à l'est de Cherbourg, classé plus beaux villages de France) est l'un des plus authentiques villages de pêche de la Manche, maisons en granit à toits d'ardoise, port abrité de barques colorées, église Saint-Nicolas (XVIIe siècle). À 4 km, le phare de Gatteville (1834, 75 m, 365 marches : un escalier par jour de l'année) est le deuxième plus haut phare d'Europe (après l'Île Vierge). Ascension possible. Vue jusqu'au Cap Lévi par temps clair.",
       },
       {
         heading: "8. Les plages du val de Saire — Saint-Vaast et l'île de Tatihou",
-        body: "Le val de Saire (côte est du Cotentin, à 30 km de Cherbourg) est la côte la plus douce du Cotentin : Saint-Vaast-la-Hougue (classé plus beaux villages, huîtres de Saint-Vaast — l'huître plate normande, dégustation directe), île de Tatihou (UNESCO Vauban, 1693, accessible à pied à marée basse ou en bateau amphibie), Réville et la pointe de Saire. Plages de sable fin sur 20 km.",
+        body: "Le val de Saire (côte est du Cotentin, à 30 km de Cherbourg) est la côte la plus douce du Cotentin : Saint-Vaast-la-Hougue (classé plus beaux villages, huîtres de Saint-Vaast, l'huître plate normande, dégustation directe), île de Tatihou (UNESCO Vauban, 1693, accessible à pied à marée basse ou en bateau amphibie), Réville et la pointe de Saire. Plages de sable fin sur 20 km.",
       },
       {
         heading: "9. L'abbaye Sainte-Trinité de Lessay — la pure architecture romane",
-        body: "L'abbaye de Lessay (XIe-XIIe siècles, à 40 km au sud de Cherbourg) est l'un des chefs-d'œuvre absolus de l'architecture romane normande — entièrement détruite en 1944 puis reconstruite pierre par pierre à l'identique dans les années 1950 (l'une des restaurations à l'identique les plus complètes de France). La foire Sainte-Croix (en septembre, depuis 1056) est l'une des plus anciennes foires agricoles de France encore en activité.",
+        body: "L'abbaye de Lessay (XIe-XIIe siècles, à 40 km au sud de Cherbourg) est l'un des chefs-d'œuvre absolus de l'architecture romane normande, entièrement détruite en 1944 puis reconstruite pierre par pierre à l'identique dans les années 1950 (l'une des restaurations à l'identique les plus complètes de France). La foire Sainte-Croix (en septembre, depuis 1056) est l'une des plus anciennes foires agricoles de France encore en activité.",
       },
       {
         heading: "10. Gastronomie cotentinoise — huîtres, agneau de pré-salé et calvados",
@@ -28238,43 +28238,43 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-27",
     updatedAt: "2026-05-27",
-    intro: "Cognac est une petite ville (19 000 habitants) qui pèse plus de 4 milliards d'euros d'exportations par an — l'eau-de-vie de Cognac (AOC depuis 1936) est le spiritueux français le plus vendu au monde (97 % à l'exportation, surtout USA, Chine, Singapour). Sur les bords de la Charente, la ville est saisie par les chais et le \"part des anges\" (3 % d'évaporation annuelle des fûts — d'où le toit noir des chais, mangé par un champignon microscopique).",
+    intro: "Cognac est une petite ville (19 000 habitants) qui pèse plus de 4 milliards d'euros d'exportations par an, l'eau-de-vie de Cognac (AOC depuis 1936) est le spiritueux français le plus vendu au monde (97 % à l'exportation, surtout USA, Chine, Singapour). Sur les bords de la Charente, la ville est saisie par les chais et le \"part des anges\" (3 % d'évaporation annuelle des fûts : d'où le toit noir des chais, mangé par un champignon microscopique).",
     sections: [
       {
         heading: "1. Hennessy — la maison la plus grande au monde",
-        body: "Hennessy (fondée en 1765 par Richard Hennessy, capitaine irlandais — premier producteur mondial de cognac, 50 % des ventes) propose la visite la plus complète des grandes maisons : tour en bateau sur la Charente (10 min pour traverser à l'usine), passage dans les chais centenaires (fûts en chêne du Limousin), explication de la double distillation charentaise, dégustation guidée de 3 cognacs (VS, VSOP, XO). 1h30, 30€/personne. Réservation obligatoire.",
+        body: "Hennessy (fondée en 1765 par Richard Hennessy, capitaine irlandais, premier producteur mondial de cognac, 50 % des ventes) propose la visite la plus complète des grandes maisons : tour en bateau sur la Charente (10 min pour traverser à l'usine), passage dans les chais centenaires (fûts en chêne du Limousin), explication de la double distillation charentaise, dégustation guidée de 3 cognacs (VS, VSOP, XO). 1h30, 30€/personne. Réservation obligatoire.",
       },
       {
         heading: "2. Martell — la plus ancienne maison de cognac",
-        body: "Martell (fondée en 1715 par Jean Martell, originaire de Jersey — la plus ancienne des grandes maisons de cognac encore en activité) propose la visite « Indigo » : déambulation immersive dans le hall design, projection 360° sur l'histoire, dégustation de 2 cognacs dans le bar Martell. Architecture du nouveau hall signée Stéphanie Marin (2017). 1h, 25€. Plus moderne et design que Hennessy.",
+        body: "Martell (fondée en 1715 par Jean Martell, originaire de Jersey : la plus ancienne des grandes maisons de cognac encore en activité) propose la visite « Indigo » : déambulation immersive dans le hall design, projection 360° sur l'histoire, dégustation de 2 cognacs dans le bar Martell. Architecture du nouveau hall signée Stéphanie Marin (2017). 1h, 25€. Plus moderne et design que Hennessy.",
       },
       {
         heading: "3. Rémy Martin — le centaure et le Fine Champagne",
-        body: "Rémy Martin (fondée en 1724 par Rémy Martin, vigneron charentais — seule grande maison de cognac à n'utiliser que des raisins de Petite et Grande Champagne, les meilleurs crus) propose la visite « Au cœur du Domaine » : tour en voiturette électrique dans le vignoble et les chais, masterclass de dégustation, atelier d'assemblage. 1h30, 35€. Le centaure (symbole de la maison) est tatoué sur tous les bâtiments.",
+        body: "Rémy Martin (fondée en 1724 par Rémy Martin, vigneron charentais, seule grande maison de cognac à n'utiliser que des raisins de Petite et Grande Champagne, les meilleurs crus) propose la visite « Au cœur du Domaine » : tour en voiturette électrique dans le vignoble et les chais, masterclass de dégustation, atelier d'assemblage. 1h30, 35€. Le centaure (symbole de la maison) est tatoué sur tous les bâtiments.",
       },
       {
         heading: "4. Le château de Cognac — François Ier",
-        body: "Le château de Cognac (XIIe-XVe siècles, sur les bords de la Charente) est le lieu de naissance de François Ier (12 septembre 1494). Aujourd'hui propriété de la maison Otard (acheté en 1795), il abrite les chais Baron Otard. Visite des appartements royaux et des chais souterrains (caves troglodytes naturellement à 15°C — idéales pour le vieillissement). Combinaison rare : un château royal qui est aussi un chai en activité.",
+        body: "Le château de Cognac (XIIe-XVe siècles, sur les bords de la Charente) est le lieu de naissance de François Ier (12 septembre 1494). Aujourd'hui propriété de la maison Otard (acheté en 1795), il abrite les chais Baron Otard. Visite des appartements royaux et des chais souterrains (caves troglodytes naturellement à 15°C : idéales pour le vieillissement). Combinaison rare : un château royal qui est aussi un chai en activité.",
       },
       {
         heading: "5. Le musée des Arts du Cognac",
-        body: "Le musée des Arts du Cognac (place de la Salle Verte, ouvert en 2004) présente l'histoire des arts liés au spiritueux : verrerie cristal (Baccarat, Saint-Louis pour les carafes), tonnellerie (tonneliers de Saintes — l'un des derniers savoir-faire artisanaux français), étiquettes Art Nouveau et Art Déco, alambics anciens. Boutique avec sélection de cognacs des petits producteurs. Complément utile aux visites des maisons.",
+        body: "Le musée des Arts du Cognac (place de la Salle Verte, ouvert en 2004) présente l'histoire des arts liés au spiritueux : verrerie cristal (Baccarat, Saint-Louis pour les carafes), tonnellerie (tonneliers de Saintes, l'un des derniers savoir-faire artisanaux français), étiquettes Art Nouveau et Art Déco, alambics anciens. Boutique avec sélection de cognacs des petits producteurs. Complément utile aux visites des maisons.",
       },
       {
         heading: "6. La descente de la Charente en gabare",
-        body: "La Charente, fleuve qui traverse Cognac, était l'autoroute commerciale du cognac jusqu'au XIXe siècle (transport vers le port de La Rochelle). Promenades en gabare (bateau traditionnel à fond plat — réplique moderne) au départ du quai Saint-Jacques : 1h pour passer sous les ponts médiévaux, voir les chais en bord de fleuve, et le « Mur d'Anges » (façades de chais avec le champignon noir caractéristique). Avril-octobre.",
+        body: "La Charente, fleuve qui traverse Cognac, était l'autoroute commerciale du cognac jusqu'au XIXe siècle (transport vers le port de La Rochelle). Promenades en gabare (bateau traditionnel à fond plat : réplique moderne) au départ du quai Saint-Jacques : 1h pour passer sous les ponts médiévaux, voir les chais en bord de fleuve, et le « Mur d'Anges » (façades de chais avec le champignon noir caractéristique). Avril-octobre.",
       },
       {
         heading: "7. Saintes — la cité gallo-romaine à 30 km",
-        body: "Saintes (à 30 km à l'ouest de Cognac) est la plus ancienne cité gallo-romaine de Charente-Maritime — capitale provinciale d'Aquitaine sous Auguste. Trois sites majeurs : l'amphithéâtre romain (du Ier siècle, 15 000 spectateurs, l'un des plus anciens d'Occident), l'Arc de Germanicus (Ier siècle, sur les bords de la Charente), l'abbaye aux Dames (XIIe siècle, romane saintongeaise). À combiner avec une demi-journée à Cognac.",
+        body: "Saintes (à 30 km à l'ouest de Cognac) est la plus ancienne cité gallo-romaine de Charente-Maritime, capitale provinciale d'Aquitaine sous Auguste. Trois sites majeurs : l'amphithéâtre romain (du Ier siècle, 15 000 spectateurs, l'un des plus anciens d'Occident), l'Arc de Germanicus (Ier siècle, sur les bords de la Charente), l'abbaye aux Dames (XIIe siècle, romane saintongeaise). À combiner avec une demi-journée à Cognac.",
       },
       {
         heading: "8. Le Pineau des Charentes — l'autre AOC locale",
-        body: "Le Pineau des Charentes (AOC 1945, mistelle obtenue en arrêtant la fermentation du jus de raisin avec du cognac) est l'apéritif local — blanc (chenin, ugni blanc, sémillon) ou rosé (cabernet, merlot, cot). Maisons à visiter (souvent les mêmes que pour le cognac, mais aussi petits producteurs indépendants) : Domaine des Forges, Maison Boinaud. Servir frappé à 8°C en apéritif, ou sur foie gras et melon.",
+        body: "Le Pineau des Charentes (AOC 1945, mistelle obtenue en arrêtant la fermentation du jus de raisin avec du cognac) est l'apéritif local, blanc (chenin, ugni blanc, sémillon) ou rosé (cabernet, merlot, cot). Maisons à visiter (souvent les mêmes que pour le cognac, mais aussi petits producteurs indépendants) : Domaine des Forges, Maison Boinaud. Servir frappé à 8°C en apéritif, ou sur foie gras et melon.",
       },
       {
         heading: "9. Les vignobles de Petite Champagne et Grande Champagne",
-        body: "L'AOC Cognac se divise en 6 crus (Grande Champagne, Petite Champagne, Borderies, Fins Bois, Bons Bois, Bois Ordinaires) — les deux meilleurs (Grande et Petite Champagne) sont à 5-20 km au sud de Cognac (Segonzac, Salles-d'Angles, Lignières). Sentier balisé du « Pays du Cognac » (40 km, cyclable) à travers les vignes basses. Marc de Cognac (Eau-de-vie de marc) est la spécialité des petits viticulteurs.",
+        body: "L'AOC Cognac se divise en 6 crus (Grande Champagne, Petite Champagne, Borderies, Fins Bois, Bons Bois, Bois Ordinaires) : les deux meilleurs (Grande et Petite Champagne) sont à 5-20 km au sud de Cognac (Segonzac, Salles-d'Angles, Lignières). Sentier balisé du « Pays du Cognac » (40 km, cyclable) à travers les vignes basses. Marc de Cognac (Eau-de-vie de marc) est la spécialité des petits viticulteurs.",
       },
       {
         heading: "10. Gastronomie charentaise — galette et cagouilles",
@@ -28297,15 +28297,15 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-27",
     updatedAt: "2026-05-27",
-    intro: "Périgueux est la préfecture de la Dordogne, 30 000 habitants au cœur du Périgord blanc. La ville est née comme cité gallo-romaine (Vesunna, capitale des Pétrocores) — vestiges visibles dans le musée Vesunna conçu par Jean Nouvel. Mais c'est sa cathédrale Saint-Front (XIIe siècle, à coupoles byzantines — modèle du Sacré-Cœur de Paris) qui en fait l'une des plus belles silhouettes urbaines de France. Capitale gastronomique du foie gras, des truffes et de la noix.",
+    intro: "Périgueux est la préfecture de la Dordogne, 30 000 habitants au cœur du Périgord blanc. La ville est née comme cité gallo-romaine (Vesunna, capitale des Pétrocores), vestiges visibles dans le musée Vesunna conçu par Jean Nouvel. Mais c'est sa cathédrale Saint-Front (XIIe siècle, à coupoles byzantines : modèle du Sacré-Cœur de Paris) qui en fait l'une des plus belles silhouettes urbaines de France. Capitale gastronomique du foie gras, des truffes et de la noix.",
     sections: [
       {
         heading: "1. La cathédrale Saint-Front — les coupoles byzantines",
-        body: "La cathédrale Saint-Front (XIIe siècle) est l'une des plus originales de France : plan en croix grecque (rare en France — inspiré de Saint-Marc de Venise), cinq coupoles byzantines, façade reconstruite par Paul Abadie au XIXe siècle (l'architecte qui a ensuite repris ce modèle pour le Sacré-Cœur de Paris). Classée patrimoine mondial UNESCO (chemins de Saint-Jacques). Le cloître roman (XIIe siècle) est l'un des plus beaux du Périgord.",
+        body: "La cathédrale Saint-Front (XIIe siècle) est l'une des plus originales de France : plan en croix grecque (rare en France, inspiré de Saint-Marc de Venise), cinq coupoles byzantines, façade reconstruite par Paul Abadie au XIXe siècle (l'architecte qui a ensuite repris ce modèle pour le Sacré-Cœur de Paris). Classée patrimoine mondial UNESCO (chemins de Saint-Jacques). Le cloître roman (XIIe siècle) est l'un des plus beaux du Périgord.",
       },
       {
         heading: "2. Vesunna — le musée gallo-romain de Jean Nouvel",
-        body: "Vesunna (musée gallo-romain, 2003, architecture Jean Nouvel — verre et acier au-dessus des fouilles antiques) est l'un des plus beaux musées archéologiques de France. La maison gallo-romaine du Ier siècle (domus de 4 000 m² avec hypocauste, thermes privés, fresques) est conservée in situ sous une verrière. Tour de Vésone (Ier siècle, sanctuaire de la déesse celte Vésonna — 27 m de haut, partie cylindrique encore debout) à 200 m du musée.",
+        body: "Vesunna (musée gallo-romain, 2003, architecture Jean Nouvel, verre et acier au-dessus des fouilles antiques) est l'un des plus beaux musées archéologiques de France. La maison gallo-romaine du Ier siècle (domus de 4 000 m² avec hypocauste, thermes privés, fresques) est conservée in situ sous une verrière. Tour de Vésone (Ier siècle, sanctuaire de la déesse celte Vésonna, 27 m de haut, partie cylindrique encore debout) à 200 m du musée.",
       },
       {
         heading: "3. Le marché aux truffes — la diamant noir",
@@ -28313,31 +28313,31 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "4. La grotte de Lascaux IV — la chapelle Sixtine préhistorique",
-        body: "Lascaux IV (à 45 km de Périgueux, à Montignac, ouverte en 2016) est la réplique intégrale de la grotte ornée la plus célèbre du monde (peintures pariétales magdaléniennes, -17 000 av. J.-C. — l'original fermé en 1963 pour préservation). Reproduction au millimètre près de toutes les salles. Visite avec audioguide, 2h, 22€. Centre d'art pariétal Lascaux IV (extension du centre de recherche) signé Snøhetta.",
+        body: "Lascaux IV (à 45 km de Périgueux, à Montignac, ouverte en 2016) est la réplique intégrale de la grotte ornée la plus célèbre du monde (peintures pariétales magdaléniennes, -17 000 av. J.-C., l'original fermé en 1963 pour préservation). Reproduction au millimètre près de toutes les salles. Visite avec audioguide, 2h, 22€. Centre d'art pariétal Lascaux IV (extension du centre de recherche) signé Snøhetta.",
       },
       {
         heading: "5. La vallée de la Vézère — les sites préhistoriques UNESCO",
-        body: "La vallée de la Vézère (entre Montignac et Les Eyzies, à 50 km de Périgueux) concentre 15 sites classés UNESCO « berceau de l'Humanité » : grotte de Font-de-Gaume (peintures originales — la dernière grotte ornée encore ouverte au public), grotte des Combarelles (gravures), abri du Poisson, La Madeleine (site éponyme du Magdalénien — village troglodyte médiéval). Musée national de Préhistoire aux Eyzies (le plus grand au monde sur la préhistoire). Une journée pleine.",
+        body: "La vallée de la Vézère (entre Montignac et Les Eyzies, à 50 km de Périgueux) concentre 15 sites classés UNESCO « berceau de l'Humanité » : grotte de Font-de-Gaume (peintures originales, la dernière grotte ornée encore ouverte au public), grotte des Combarelles (gravures), abri du Poisson, La Madeleine (site éponyme du Magdalénien, village troglodyte médiéval). Musée national de Préhistoire aux Eyzies (le plus grand au monde sur la préhistoire). Une journée pleine.",
       },
       {
         heading: "6. La vieille ville médiévale et la place Saint-Louis",
-        body: "La vieille ville de Périgueux (autour de Saint-Front) est l'un des plus beaux ensembles médiévaux d'Aquitaine — 30 ha classés secteur sauvegardé. Hôtels particuliers Renaissance (rue Limogeanne, hôtel Lestrade, hôtel d'Abzac de Ladouze), maisons à pans de bois XVe siècle, place Saint-Louis (marché aux truffes en hiver). Sentier patrimonial balisé (45 min à pied).",
+        body: "La vieille ville de Périgueux (autour de Saint-Front) est l'un des plus beaux ensembles médiévaux d'Aquitaine, 30 ha classés secteur sauvegardé. Hôtels particuliers Renaissance (rue Limogeanne, hôtel Lestrade, hôtel d'Abzac de Ladouze), maisons à pans de bois XVe siècle, place Saint-Louis (marché aux truffes en hiver). Sentier patrimonial balisé (45 min à pied).",
       },
       {
         heading: "7. Sarlat-la-Canéda — la cité médiévale dorée",
-        body: "Sarlat (à 60 km au sud-est de Périgueux) est la cité médiévale et Renaissance la mieux préservée de France — 65 monuments classés sur 11 ha (le plus haut ratio du pays). Pierre calcaire jaune doré, ruelles pavées, place de la Liberté. Marché du samedi matin (l'un des plus beaux de France — gras, truffes, foie gras, noix). La Lanterne des Morts (XIIe siècle, monument funéraire roman unique en France) et l'hôtel de Maleville.",
+        body: "Sarlat (à 60 km au sud-est de Périgueux) est la cité médiévale et Renaissance la mieux préservée de France, 65 monuments classés sur 11 ha (le plus haut ratio du pays). Pierre calcaire jaune doré, ruelles pavées, place de la Liberté. Marché du samedi matin (l'un des plus beaux de France, gras, truffes, foie gras, noix). La Lanterne des Morts (XIIe siècle, monument funéraire roman unique en France) et l'hôtel de Maleville.",
       },
       {
         heading: "8. Le château de Hautefort — Versailles du Périgord",
-        body: "Le château de Hautefort (à 40 km à l'est de Périgueux, XVIIe siècle classique) est l'un des plus beaux châteaux d'Aquitaine — surnommé « Versailles du Périgord ». Façade symétrique de 200 m, jardins à la française dessinés au XIXe siècle par les architectes de Vaux-le-Vicomte. Lieu de tournage de plusieurs films (Tendre Poulet, Le Capitan). À combiner avec la Brantôme « Venise du Périgord ».",
+        body: "Le château de Hautefort (à 40 km à l'est de Périgueux, XVIIe siècle classique) est l'un des plus beaux châteaux d'Aquitaine : surnommé « Versailles du Périgord ». Façade symétrique de 200 m, jardins à la française dessinés au XIXe siècle par les architectes de Vaux-le-Vicomte. Lieu de tournage de plusieurs films (Tendre Poulet, Le Capitan). À combiner avec la Brantôme « Venise du Périgord ».",
       },
       {
         heading: "9. Brantôme — la « Venise du Périgord »",
-        body: "Brantôme (à 27 km au nord de Périgueux) est surnommée la « Venise du Périgord » car la Dronne (rivière qui la traverse) l'encercle complètement — la ville est sur une île. L'abbaye bénédictine (Xe siècle, fondée par Charlemagne, troglodyte) est l'une des plus anciennes du Sud-Ouest. Clocher-amer du XIe siècle (le plus ancien clocher roman de France). Promenade en barque sur la Dronne, sentier le long de la rivière.",
+        body: "Brantôme (à 27 km au nord de Périgueux) est surnommée la « Venise du Périgord » car la Dronne (rivière qui la traverse) l'encercle complètement : la ville est sur une île. L'abbaye bénédictine (Xe siècle, fondée par Charlemagne, troglodyte) est l'une des plus anciennes du Sud-Ouest. Clocher-amer du XIe siècle (le plus ancien clocher roman de France). Promenade en barque sur la Dronne, sentier le long de la rivière.",
       },
       {
         heading: "10. Gastronomie périgourdine — foie gras et noix",
-        body: "Le Périgord est une terre gastronomique majeure : foie gras d'oie ou de canard (mi-cuit, poêlé, en terrine — Lalbenque et Sorges sont les capitales), truffe noire (en omelette, en sauce Périgueux), confit d'oie, magret de canard, cèpes à la périgourdine (sautés à l'ail et au persil), tourtière au confit. Spécialités sucrées : noix du Périgord AOP (gâteau aux noix, huile de noix), gâteau périgourdin. Vins : Bergerac (à 50 km), Pécharmant (rouge), Monbazillac (liquoreux).",
+        body: "Le Périgord est une terre gastronomique majeure : foie gras d'oie ou de canard (mi-cuit, poêlé, en terrine, Lalbenque et Sorges sont les capitales), truffe noire (en omelette, en sauce Périgueux), confit d'oie, magret de canard, cèpes à la périgourdine (sautés à l'ail et au persil), tourtière au confit. Spécialités sucrées : noix du Périgord AOP (gâteau aux noix, huile de noix), gâteau périgourdin. Vins : Bergerac (à 50 km), Pécharmant (rouge), Monbazillac (liquoreux).",
       },
     ],
     relatedCities: ["perigueux"],
@@ -28356,11 +28356,11 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-27",
     updatedAt: "2026-05-27",
-    intro: "Agen est la préfecture du Lot-et-Garonne, 33 000 habitants au bord de la Garonne, entre Bordeaux et Toulouse. La ville est mondialement connue pour le pruneau d'Agen IGP (la prune d'ente, séchée — symbole français à l'export). Mais Agen est aussi une vieille cité gallo-romaine (Aginnum), un centre rugby (SUA, club historique) et la porte d'entrée de la Gascogne, du Lot-et-Garonne agricole et du Périgord pourpre.",
+    intro: "Agen est la préfecture du Lot-et-Garonne, 33 000 habitants au bord de la Garonne, entre Bordeaux et Toulouse. La ville est mondialement connue pour le pruneau d'Agen IGP (la prune d'ente, séchée, symbole français à l'export). Mais Agen est aussi une vieille cité gallo-romaine (Aginnum), un centre rugby (SUA, club historique) et la porte d'entrée de la Gascogne, du Lot-et-Garonne agricole et du Périgord pourpre.",
     sections: [
       {
         heading: "1. Le musée des Beaux-Arts — la Vénus du Mas",
-        body: "Le musée des Beaux-Arts d'Agen (hôtel particulier XVIe siècle, place du Docteur-Esquirol) possède l'une des plus belles collections de peinture du Sud-Ouest. Pièce maîtresse : la Vénus du Mas (statue grecque hellénistique, IVe-Ier siècle av. J.-C., trouvée à Mas-d'Agenais en 1876 — l'une des trois Vénus grecques en marbre conservées en France). Goya (5 toiles dont \"L'Aérostat\" et un \"Autoportrait\"), Tintoret, Caravage, Corot. Gratuit le premier dimanche.",
+        body: "Le musée des Beaux-Arts d'Agen (hôtel particulier XVIe siècle, place du Docteur-Esquirol) possède l'une des plus belles collections de peinture du Sud-Ouest. Pièce maîtresse : la Vénus du Mas (statue grecque hellénistique, IVe-Ier siècle av. J.-C., trouvée à Mas-d'Agenais en 1876, l'une des trois Vénus grecques en marbre conservées en France). Goya (5 toiles dont \"L'Aérostat\" et un \"Autoportrait\"), Tintoret, Caravage, Corot. Gratuit le premier dimanche.",
       },
       {
         heading: "2. Le pont-canal d'Agen — le plus long de France",
@@ -28368,31 +28368,31 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "3. Nérac — le château d'Henri IV et la promenade des Bains",
-        body: "Nérac (à 30 km à l'ouest d'Agen) est la cité des rois de Navarre — Henri IV y a passé sa jeunesse à la cour calviniste de Jeanne d'Albret (sa mère). Le château de Nérac (XVe-XVIe siècles, Renaissance) abrite un musée consacré à la cour de Navarre. Promenade des Bains de Nérac (parc romantique sur la Baïse, créé au XIXe siècle), pont Vieux médiéval. Spécialité locale : foie gras de la Maison Sembolini.",
+        body: "Nérac (à 30 km à l'ouest d'Agen) est la cité des rois de Navarre, Henri IV y a passé sa jeunesse à la cour calviniste de Jeanne d'Albret (sa mère). Le château de Nérac (XVe-XVIe siècles, Renaissance) abrite un musée consacré à la cour de Navarre. Promenade des Bains de Nérac (parc romantique sur la Baïse, créé au XIXe siècle), pont Vieux médiéval. Spécialité locale : foie gras de la Maison Sembolini.",
       },
       {
         heading: "4. Le pruneau d'Agen — visite des séchoirs",
-        body: "Le pruneau d'Agen IGP (prune d'ente, séchée à 18 % d'humidité — production majoritaire à Agen et alentours, 100 000 tonnes/an) est l'emblème agricole de la ville. Maison du Pruneau (à Granges-sur-Lot, 25 km — domaine du Gascon, visite gratuite, dégustation), centres de séchage (août-octobre). Spécialités : pruneau au cognac, glace au pruneau, pruneau d'Agen fourré à la crème de pruneau. Boutiques au centre d'Agen (P. Dauguet, Boyer).",
+        body: "Le pruneau d'Agen IGP (prune d'ente, séchée à 18 % d'humidité : production majoritaire à Agen et alentours, 100 000 tonnes/an) est l'emblème agricole de la ville. Maison du Pruneau (à Granges-sur-Lot, 25 km, domaine du Gascon, visite gratuite, dégustation), centres de séchage (août-octobre). Spécialités : pruneau au cognac, glace au pruneau, pruneau d'Agen fourré à la crème de pruneau. Boutiques au centre d'Agen (P. Dauguet, Boyer).",
       },
       {
         heading: "5. La vieille ville — cathédrale et hôtels Renaissance",
-        body: "La vieille ville d'Agen (autour du musée des Beaux-Arts) garde ses hôtels particuliers Renaissance et son passé épiscopal. Cathédrale Saint-Caprais (XIIe-XVe siècles, romane et gothique, classée UNESCO comme étape sur le chemin de Saint-Jacques de Compostelle), église des Jacobins (XIVe siècle, gothique méridional — musée des Confluences). Place des Laitiers et place du Docteur-Esquirol (terrasses).",
+        body: "La vieille ville d'Agen (autour du musée des Beaux-Arts) garde ses hôtels particuliers Renaissance et son passé épiscopal. Cathédrale Saint-Caprais (XIIe-XVe siècles, romane et gothique, classée UNESCO comme étape sur le chemin de Saint-Jacques de Compostelle), église des Jacobins (XIVe siècle, gothique méridional, musée des Confluences). Place des Laitiers et place du Docteur-Esquirol (terrasses).",
       },
       {
         heading: "6. La Bastide royale de Villeneuve-sur-Lot",
-        body: "Villeneuve-sur-Lot (à 30 km au nord d'Agen) est l'une des plus belles bastides royales du Sud-Ouest — fondée en 1264 par Alphonse de Poitiers, frère de Saint Louis. Plan en damier régulier, place centrale arcaturée (place Lafayette), portes fortifiées (porte de Pujols, porte de Paris). Pujols (à 5 km, classé parmi les plus beaux villages de France) est un village médiéval perché qui domine la vallée du Lot.",
+        body: "Villeneuve-sur-Lot (à 30 km au nord d'Agen) est l'une des plus belles bastides royales du Sud-Ouest, fondée en 1264 par Alphonse de Poitiers, frère de Saint Louis. Plan en damier régulier, place centrale arcaturée (place Lafayette), portes fortifiées (porte de Pujols, porte de Paris). Pujols (à 5 km, classé parmi les plus beaux villages de France) est un village médiéval perché qui domine la vallée du Lot.",
       },
       {
         heading: "7. Le Lot-et-Garonne agricole — fraises et tomates",
-        body: "Le Lot-et-Garonne (autour d'Agen) est le premier département producteur français de pruneaux d'Agen, de fraises (Mara des Bois, Garriguette de Marmande), de tomates (Marmande — capitale française de la tomate, fête de la Tomate fin juin), de noisettes. Marchés primeurs à Marmande (mardi, vendredi matin), Tonneins (jeudi matin). Idéal pour ramener un panier de la région.",
+        body: "Le Lot-et-Garonne (autour d'Agen) est le premier département producteur français de pruneaux d'Agen, de fraises (Mara des Bois, Garriguette de Marmande), de tomates (Marmande, capitale française de la tomate, fête de la Tomate fin juin), de noisettes. Marchés primeurs à Marmande (mardi, vendredi matin), Tonneins (jeudi matin). Idéal pour ramener un panier de la région.",
       },
       {
         heading: "8. Le canal latéral à la Garonne en vélo",
-        body: "Le canal latéral à la Garonne (1856, 193 km de Toulouse à Castets-en-Dorthe, traverse Agen) est aménagé en voie verte cyclable sur toute sa longueur — l'une des plus belles voies vertes d'Europe (platanes centenaires, écluses, péniches). Étape Agen-Buzet-Sérignac (30 km, plate, ombragée). Loueurs de vélos à la base nautique d'Agen et de Buzet. Buzet (vignoble AOC) est l'étape gastronomique classique.",
+        body: "Le canal latéral à la Garonne (1856, 193 km de Toulouse à Castets-en-Dorthe, traverse Agen) est aménagé en voie verte cyclable sur toute sa longueur, l'une des plus belles voies vertes d'Europe (platanes centenaires, écluses, péniches). Étape Agen-Buzet-Sérignac (30 km, plate, ombragée). Loueurs de vélos à la base nautique d'Agen et de Buzet. Buzet (vignoble AOC) est l'étape gastronomique classique.",
       },
       {
         heading: "9. Le rugby — Stade Armandie et SUA",
-        body: "Le Sporting Union Agen Lot-et-Garonne (SUA, créé en 1908) est l'un des clubs historiques du rugby français — 8 titres de champion de France (dernier en 1988). Stade Armandie (15 000 places). Matchs de ProD2 (deuxième division française) septembre-mai. Ambiance familiale et passionnée. Pour les fans de rugby, c'est l'occasion de voir un club d'arrière-pays au cœur du Sud-Ouest rugbystique.",
+        body: "Le Sporting Union Agen Lot-et-Garonne (SUA, créé en 1908) est l'un des clubs historiques du rugby français, 8 titres de champion de France (dernier en 1988). Stade Armandie (15 000 places). Matchs de ProD2 (deuxième division française) septembre-mai. Ambiance familiale et passionnée. Pour les fans de rugby, c'est l'occasion de voir un club d'arrière-pays au cœur du Sud-Ouest rugbystique.",
       },
       {
         heading: "10. Gastronomie gasconne — pruneau, confit et armagnac",
@@ -28415,7 +28415,7 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-27",
     updatedAt: "2026-05-27",
-    intro: "Carcassonne est la plus grande forteresse médiévale d'Europe encore en élévation — 3 km de remparts à double enceinte, 52 tours, classée patrimoine mondial UNESCO depuis 1997. 46 000 habitants entre la Cité haute (forteresse médiévale, 3 millions de visiteurs/an) et la Ville basse (bastide royale du XIIIe siècle, vie quotidienne). Au cœur du pays cathare, Carcassonne est la porte d'entrée des Corbières, du Minervois et des châteaux cathares.",
+    intro: "Carcassonne est la plus grande forteresse médiévale d'Europe encore en élévation, 3 km de remparts à double enceinte, 52 tours, classée patrimoine mondial UNESCO depuis 1997. 46 000 habitants entre la Cité haute (forteresse médiévale, 3 millions de visiteurs/an) et la Ville basse (bastide royale du XIIIe siècle, vie quotidienne). Au cœur du pays cathare, Carcassonne est la porte d'entrée des Corbières, du Minervois et des châteaux cathares.",
     sections: [
       {
         heading: "1. La Cité médiévale — la plus grande d'Europe",
@@ -28423,11 +28423,11 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "2. Le château comtal — au cœur de la Cité",
-        body: "Le château comtal (XIIe siècle, à l'intérieur de la Cité, château dans le château) est la résidence des Trencavel — vicomtes de Carcassonne avant la croisade albigeoise de 1209. Visite avec accès aux remparts (chemin de ronde le long des deux enceintes — vue à 360° sur les Pyrénées et la Montagne Noire). Geré par le Centre des Monuments Nationaux. Réservation conseillée en haute saison (juillet-août).",
+        body: "Le château comtal (XIIe siècle, à l'intérieur de la Cité, château dans le château) est la résidence des Trencavel, vicomtes de Carcassonne avant la croisade albigeoise de 1209. Visite avec accès aux remparts (chemin de ronde le long des deux enceintes, vue à 360° sur les Pyrénées et la Montagne Noire). Geré par le Centre des Monuments Nationaux. Réservation conseillée en haute saison (juillet-août).",
       },
       {
         heading: "3. Le canal du Midi — Pierre-Paul Riquet",
-        body: "Le canal du Midi (1681, conçu par Pierre-Paul Riquet — chef-d'œuvre du Grand Siècle, classé UNESCO 1996) traverse Carcassonne d'est en ouest. Promenade en bateau sur le canal (au départ de la gare de Carcassonne, 1h30), à pied le long des berges (chemin de halage piéton et cyclable de Toulouse à Sète, 240 km). Platanes centenaires (en cours de remplacement à cause du chancre coloré), écluses (4 écluses dans Carcassonne).",
+        body: "Le canal du Midi (1681, conçu par Pierre-Paul Riquet, chef-d'œuvre du Grand Siècle, classé UNESCO 1996) traverse Carcassonne d'est en ouest. Promenade en bateau sur le canal (au départ de la gare de Carcassonne, 1h30), à pied le long des berges (chemin de halage piéton et cyclable de Toulouse à Sète, 240 km). Platanes centenaires (en cours de remplacement à cause du chancre coloré), écluses (4 écluses dans Carcassonne).",
       },
       {
         heading: "4. La bastide Saint-Louis — la Ville basse",
@@ -28435,27 +28435,27 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "5. Les châteaux cathares — Lastours et Quéribus",
-        body: "Les châteaux cathares (forteresses de défense des Cathares contre la croisade albigeoise, 1209-1244) sont accessibles depuis Carcassonne. Lastours (à 16 km, 4 châteaux jumeaux sur des éperons rocheux, visite en boucle), Peyrepertuse (à 75 km, le plus impressionnant — \"forteresse vertigineuse\" à 800 m), Quéribus (à 80 km, le dernier château cathare à tomber en 1255), Puilaurens, Aguilar. La Route des Châteaux Cathares (250 km) prend 3-4 jours.",
+        body: "Les châteaux cathares (forteresses de défense des Cathares contre la croisade albigeoise, 1209-1244) sont accessibles depuis Carcassonne. Lastours (à 16 km, 4 châteaux jumeaux sur des éperons rocheux, visite en boucle), Peyrepertuse (à 75 km, le plus impressionnant, \"forteresse vertigineuse\" à 800 m), Quéribus (à 80 km, le dernier château cathare à tomber en 1255), Puilaurens, Aguilar. La Route des Châteaux Cathares (250 km) prend 3-4 jours.",
       },
       {
         heading: "6. Le vignoble des Corbières et du Minervois",
-        body: "Les AOC Corbières (13 000 ha au sud-est de Carcassonne) et Minervois (4 500 ha au nord) sont les deux grands vignobles du pays carcassonnais — syrah, grenache, mourvèdre, carignan. Domaines de référence : domaine de Fontsainte (Corbières), domaine de Lastours (cousin du château), Château de Cabezac (Minervois). Le Cabardès (AOC à 10 km au nord — seul vignoble qui mélange cépages atlantiques et méditerranéens).",
+        body: "Les AOC Corbières (13 000 ha au sud-est de Carcassonne) et Minervois (4 500 ha au nord) sont les deux grands vignobles du pays carcassonnais, syrah, grenache, mourvèdre, carignan. Domaines de référence : domaine de Fontsainte (Corbières), domaine de Lastours (cousin du château), Château de Cabezac (Minervois). Le Cabardès (AOC à 10 km au nord, seul vignoble qui mélange cépages atlantiques et méditerranéens).",
       },
       {
         heading: "7. La basilique Saint-Nazaire — le \"vitrail de Carcassonne\"",
-        body: "La basilique Saint-Nazaire (XIe-XIVe siècles, à l'intérieur de la Cité médiévale) abrite ce que Viollet-le-Duc appelait \"les plus beaux vitraux du midi de la France\" — vitraux du XIIIe-XIVe siècles dans le chœur gothique (cycle de la vie du Christ). Nef romane (Xe siècle, transition wisigothique-roman) et chœur gothique flamboyant. Trésor de la basilique (orfèvrerie, statues médiévales). Accès gratuit.",
+        body: "La basilique Saint-Nazaire (XIe-XIVe siècles, à l'intérieur de la Cité médiévale) abrite ce que Viollet-le-Duc appelait \"les plus beaux vitraux du midi de la France\", vitraux du XIIIe-XIVe siècles dans le chœur gothique (cycle de la vie du Christ). Nef romane (Xe siècle, transition wisigothique-roman) et chœur gothique flamboyant. Trésor de la basilique (orfèvrerie, statues médiévales). Accès gratuit.",
       },
       {
         heading: "8. Les remparts à vélo — tour de la Cité",
-        body: "Le sentier autour de la Cité (en contrebas des remparts, le long des lices — espace entre les deux enceintes) fait 3 km en boucle. Possible à pied ou à vélo (location à l'office de tourisme). Vue spectaculaire sur les ouvrages défensifs (échauguettes, herses, mâchicoulis) et perspective sur la cité de loin. Sortir par la porte d'Aude (du côté du Pont-Vieux) pour le meilleur point de vue.",
+        body: "Le sentier autour de la Cité (en contrebas des remparts, le long des lices, espace entre les deux enceintes) fait 3 km en boucle. Possible à pied ou à vélo (location à l'office de tourisme). Vue spectaculaire sur les ouvrages défensifs (échauguettes, herses, mâchicoulis) et perspective sur la cité de loin. Sortir par la porte d'Aude (du côté du Pont-Vieux) pour le meilleur point de vue.",
       },
       {
         heading: "9. Mirepoix — la bastide médiévale à 50 km",
-        body: "Mirepoix (à 50 km au sud-ouest de Carcassonne, en Ariège) est l'une des plus belles bastides médiévales du Sud-Ouest — fondée en 1289. Place centrale entourée d'arcades en bois sculpté (maisons à colombages du XIVe siècle), cathédrale Saint-Maurice (deuxième plus large nef gothique de France après Gérone). Marché du lundi matin (l'un des plus beaux du Sud-Ouest — produits cathares et ariégeois).",
+        body: "Mirepoix (à 50 km au sud-ouest de Carcassonne, en Ariège) est l'une des plus belles bastides médiévales du Sud-Ouest, fondée en 1289. Place centrale entourée d'arcades en bois sculpté (maisons à colombages du XIVe siècle), cathédrale Saint-Maurice (deuxième plus large nef gothique de France après Gérone). Marché du lundi matin (l'un des plus beaux du Sud-Ouest, produits cathares et ariégeois).",
       },
       {
         heading: "10. Gastronomie audoise — cassoulet et magret",
-        body: "Carcassonne est l'une des trois capitales du cassoulet (avec Castelnaudary et Toulouse — chaque ville revendique \"son\" cassoulet — Carcassonne ajoute la perdrix rouge). Variantes : haricots tarbais, confit d'oie ou de canard, saucisse de Toulouse, lard. Spécialités : magret de canard du Sud-Ouest, tourtière, fougasse aux gratons. Vins : Corbières (rouge sur cassoulet), Minervois (rouge), Limoux (Crémant — méthode champenoise inventée en 1531, antérieure au champagne).",
+        body: "Carcassonne est l'une des trois capitales du cassoulet (avec Castelnaudary et Toulouse, chaque ville revendique \"son\" cassoulet, Carcassonne ajoute la perdrix rouge). Variantes : haricots tarbais, confit d'oie ou de canard, saucisse de Toulouse, lard. Spécialités : magret de canard du Sud-Ouest, tourtière, fougasse aux gratons. Vins : Corbières (rouge sur cassoulet), Minervois (rouge), Limoux (Crémant, méthode champenoise inventée en 1531, antérieure au champagne).",
       },
     ],
     relatedCities: ["carcassonne"],
@@ -28478,11 +28478,11 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "1. Le lac du Salagou — la mer rouge intérieure",
-        body: "Le lac du Salagou (750 ha, créé en 1969 par un barrage destiné à l'irrigation) est un lac artificiel posé sur les ruffes rouges du Permien (250 millions d'années — formation antérieure aux dinosaures). Le contraste entre l'eau turquoise et la terre rouge brique est unique en Europe. Six plages de baignade libre (Les Vailhès, Le Sauvage, Vailhès basse), école de voile et de planche, possibilité de pédalo et paddle. La route du tour du lac (28 km) est l'une des plus belles de l'Hérault à vélo.",
+        body: "Le lac du Salagou (750 ha, créé en 1969 par un barrage destiné à l'irrigation) est un lac artificiel posé sur les ruffes rouges du Permien (250 millions d'années : formation antérieure aux dinosaures). Le contraste entre l'eau turquoise et la terre rouge brique est unique en Europe. Six plages de baignade libre (Les Vailhès, Le Sauvage, Vailhès basse), école de voile et de planche, possibilité de pédalo et paddle. La route du tour du lac (28 km) est l'une des plus belles de l'Hérault à vélo.",
       },
       {
         heading: "2. Le cirque de Mourèze — la dolomie sculptée",
-        body: "Le cirque de Mourèze (à 6 km de Clermont) est un chaos rocheux de 340 ha où l'érosion karstique a sculpté des centaines de pinacles de dolomie calcaire — paysage proche des dolomites italiennes en miniature. Trois sentiers balisés (1h, 2h, 4h) traversent le labyrinthe. Le village médiéval de Mourèze (200 habitants, château ruiné du XIIIe siècle) est blotti dans le cirque. Site classé Natura 2000.",
+        body: "Le cirque de Mourèze (à 6 km de Clermont) est un chaos rocheux de 340 ha où l'érosion karstique a sculpté des centaines de pinacles de dolomie calcaire : paysage proche des dolomites italiennes en miniature. Trois sentiers balisés (1h, 2h, 4h) traversent le labyrinthe. Le village médiéval de Mourèze (200 habitants, château ruiné du XIIIe siècle) est blotti dans le cirque. Site classé Natura 2000.",
       },
       {
         heading: "3. Le Mont Saint-Baudille — le belvédère du Languedoc",
@@ -28490,11 +28490,11 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "4. Les Terrasses du Larzac — l'AOC viticole montante",
-        body: "Les Terrasses du Larzac (AOC 2014, 1 800 ha sur 32 communes autour de Clermont) sont l'appellation la plus dynamique du Languedoc — syrah, grenache, mourvèdre, carignan. Domaines de référence : Mas Jullien (Olivier Jullien, l'un des pionniers), domaine de la Sauvageonne, domaine d'Aupilhac (Sylvain Fadat). Les rouges (grands vins de garde, structure tannique) sont vendus 20-60€ la bouteille. Caveaux ouverts au public sur RDV.",
+        body: "Les Terrasses du Larzac (AOC 2014, 1 800 ha sur 32 communes autour de Clermont) sont l'appellation la plus dynamique du Languedoc, syrah, grenache, mourvèdre, carignan. Domaines de référence : Mas Jullien (Olivier Jullien, l'un des pionniers), domaine de la Sauvageonne, domaine d'Aupilhac (Sylvain Fadat). Les rouges (grands vins de garde, structure tannique) sont vendus 20-60€ la bouteille. Caveaux ouverts au public sur RDV.",
       },
       {
         heading: "5. L'abbaye de Saint-Guilhem-le-Désert",
-        body: "Saint-Guilhem-le-Désert (à 15 km de Clermont) est classé parmi les plus beaux villages de France et inscrit au patrimoine mondial de l'UNESCO (chemins de Saint-Jacques). L'abbaye de Gellone (804, fondée par Guilhem cousin de Charlemagne) est l'un des plus beaux exemples de roman languedocien. Le cloître a été démantelé en 1846 et remonté au Cloisters Museum de New York — il reste l'église, la salle capitulaire et le pont du Diable (XIe siècle) sur l'Hérault.",
+        body: "Saint-Guilhem-le-Désert (à 15 km de Clermont) est classé parmi les plus beaux villages de France et inscrit au patrimoine mondial de l'UNESCO (chemins de Saint-Jacques). L'abbaye de Gellone (804, fondée par Guilhem cousin de Charlemagne) est l'un des plus beaux exemples de roman languedocien. Le cloître a été démantelé en 1846 et remonté au Cloisters Museum de New York, il reste l'église, la salle capitulaire et le pont du Diable (XIe siècle) sur l'Hérault.",
       },
       {
         heading: "6. La grotte de Clamouse — les cristaux d'aragonite",
@@ -28506,7 +28506,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "8. Le Cirque de Navacelles — le canyon du Larzac",
-        body: "Le Cirque de Navacelles (à 50 km de Clermont, sur le Larzac) est l'un des plus grands cirques karstiques d'Europe (300 m de profondeur, 1,5 km de diamètre) — un méandre abandonné de la Vis. Classé Grand Site de France et Patrimoine mondial UNESCO (Causses et Cévennes). Le village de Navacelles (12 habitants permanents au fond du cirque) est accessible par une route en lacets. Belvédère de la Baume-Auriol pour la vue panoramique.",
+        body: "Le Cirque de Navacelles (à 50 km de Clermont, sur le Larzac) est l'un des plus grands cirques karstiques d'Europe (300 m de profondeur, 1,5 km de diamètre) : un méandre abandonné de la Vis. Classé Grand Site de France et Patrimoine mondial UNESCO (Causses et Cévennes). Le village de Navacelles (12 habitants permanents au fond du cirque) est accessible par une route en lacets. Belvédère de la Baume-Auriol pour la vue panoramique.",
       },
       {
         heading: "9. Le marché provençal du mercredi à Clermont",
@@ -28655,23 +28655,23 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "1. Le Centre Jean-Giono et le Mont d'Or",
-        body: "Le Centre Jean-Giono (rue Florida, maison natale de l'écrivain) retrace l'œuvre du romancier — auteur du Hussard sur le toit (1951, adaptation Rappeneau 1995), de Regain (1930, adaptation Pagnol 1937) et de cinquante autres livres. Manuscrits, photographies, bibliothèque, films d'archive. À 800 m, le Mont d'Or (le \"Lou Paraïs\" de Giono, son refuge — petite maison qu'il a habitée 40 ans) se visite sur réservation. Vue panoramique sur la haute Provence.",
+        body: "Le Centre Jean-Giono (rue Florida, maison natale de l'écrivain) retrace l'œuvre du romancier, auteur du Hussard sur le toit (1951, adaptation Rappeneau 1995), de Regain (1930, adaptation Pagnol 1937) et de cinquante autres livres. Manuscrits, photographies, bibliothèque, films d'archive. À 800 m, le Mont d'Or (le \"Lou Paraïs\" de Giono, son refuge, petite maison qu'il a habitée 40 ans) se visite sur réservation. Vue panoramique sur la haute Provence.",
       },
       {
         heading: "2. Le plateau de Valensole — les champs de lavande",
-        body: "Le plateau de Valensole (à 25 km à l'est de Manosque) est le plus grand plateau lavandier de France — 800 km² de cultures de lavandin (hybride de lavande, plus productif que la lavande fine). Floraison : fin juin à fin juillet (pic mi-juillet — l'un des plus beaux paysages d'Europe). Fête de la Lavande (3e dimanche de juillet à Valensole), distilleries à visiter (Le Mas des Bouteillons, distillerie de Senas). Pour photographier sans foule : avant 8h ou après 18h.",
+        body: "Le plateau de Valensole (à 25 km à l'est de Manosque) est le plus grand plateau lavandier de France, 800 km² de cultures de lavandin (hybride de lavande, plus productif que la lavande fine). Floraison : fin juin à fin juillet (pic mi-juillet, l'un des plus beaux paysages d'Europe). Fête de la Lavande (3e dimanche de juillet à Valensole), distilleries à visiter (Le Mas des Bouteillons, distillerie de Senas). Pour photographier sans foule : avant 8h ou après 18h.",
       },
       {
         heading: "3. L'Occitane en Provence — usine et siège",
-        body: "L'Occitane en Provence (siège mondial à Manosque depuis 1976, fondé par Olivier Baussan) ouvre son usine au public — visite guidée gratuite (mardi-jeudi, réservation obligatoire) : production des cosmétiques (verveine, lavande, immortelle, karité), labo de recherche, ateliers de conditionnement. Boutique d'usine avec prix outlet. Le concept-store Marché de Provence (place du Terreau au centre) est une autre adresse.",
+        body: "L'Occitane en Provence (siège mondial à Manosque depuis 1976, fondé par Olivier Baussan) ouvre son usine au public, visite guidée gratuite (mardi-jeudi, réservation obligatoire) : production des cosmétiques (verveine, lavande, immortelle, karité), labo de recherche, ateliers de conditionnement. Boutique d'usine avec prix outlet. Le concept-store Marché de Provence (place du Terreau au centre) est une autre adresse.",
       },
       {
         heading: "4. Forcalquier et la cité des comtes de Provence",
-        body: "Forcalquier (à 17 km au nord de Manosque, ancien siège des comtes de Provence avant Aix) est une cité médiévale perchée. La citadelle Notre-Dame-de-Provence (au sommet, vue à 360° sur le Luberon et les Alpes), la cathédrale Notre-Dame-du-Marché (XIIe-XIIIe siècles), la place du Bourget (terrasses ombragées). Marché du lundi matin (l'un des plus beaux de Provence — pas touristique, vraiment local).",
+        body: "Forcalquier (à 17 km au nord de Manosque, ancien siège des comtes de Provence avant Aix) est une cité médiévale perchée. La citadelle Notre-Dame-de-Provence (au sommet, vue à 360° sur le Luberon et les Alpes), la cathédrale Notre-Dame-du-Marché (XIIe-XIIIe siècles), la place du Bourget (terrasses ombragées). Marché du lundi matin (l'un des plus beaux de Provence, pas touristique, vraiment local).",
       },
       {
         heading: "5. Les gorges du Verdon — le grand canyon européen",
-        body: "Les gorges du Verdon (à 45 km de Manosque, accessibles par la route des Gorges) sont le plus grand canyon d'Europe — 25 km de long, 700 m de profondeur, eau turquoise. Cinq belvédères majeurs sur la rive nord : balcons de la Mescla, Falaise des Cavaliers (le plus spectaculaire), Point Sublime. Le lac de Sainte-Croix (en aval, baignade émeraude) et Moustiers-Sainte-Marie (plus beau village de France perché entre deux falaises) complètent la journée.",
+        body: "Les gorges du Verdon (à 45 km de Manosque, accessibles par la route des Gorges) sont le plus grand canyon d'Europe, 25 km de long, 700 m de profondeur, eau turquoise. Cinq belvédères majeurs sur la rive nord : balcons de la Mescla, Falaise des Cavaliers (le plus spectaculaire), Point Sublime. Le lac de Sainte-Croix (en aval, baignade émeraude) et Moustiers-Sainte-Marie (plus beau village de France perché entre deux falaises) complètent la journée.",
       },
       {
         heading: "6. La vieille ville médiévale et la porte Saunerie",
@@ -28683,15 +28683,15 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "8. L'observatoire de Haute-Provence et le ciel pur",
-        body: "L'Observatoire de Haute-Provence (à 17 km au sud de Manosque, à Saint-Michel-l'Observatoire) est l'un des plus grands observatoires astronomiques français — créé en 1937 dans l'air le plus pur d'Europe occidentale (peu de pollution lumineuse, faible humidité, altitude). Visite guidée des coupoles (télescopes Schmidt, T80, T193 cm), planétarium, soirées d'observation. Patrie de la découverte du premier exoplanète en 1995 (Michel Mayor, prix Nobel 2019).",
+        body: "L'Observatoire de Haute-Provence (à 17 km au sud de Manosque, à Saint-Michel-l'Observatoire) est l'un des plus grands observatoires astronomiques français, créé en 1937 dans l'air le plus pur d'Europe occidentale (peu de pollution lumineuse, faible humidité, altitude). Visite guidée des coupoles (télescopes Schmidt, T80, T193 cm), planétarium, soirées d'observation. Patrie de la découverte du premier exoplanète en 1995 (Michel Mayor, prix Nobel 2019).",
       },
       {
         heading: "9. La route de la lavande — Sault et Banon",
-        body: "La route de la lavande (D900, depuis Manosque) traverse les hauts plateaux provençaux. Étape Sault (à 60 km, plus haut plateau lavandier — 800 m d'altitude, floraison plus tardive — juillet-août), Banon (à 35 km, célèbre pour son fromage AOP enveloppé de feuilles de châtaignier et ficelé), distilleries (Distillerie du Siron). Sault organise la Fête de la Lavande le 15 août (la plus authentique du plateau).",
+        body: "La route de la lavande (D900, depuis Manosque) traverse les hauts plateaux provençaux. Étape Sault (à 60 km, plus haut plateau lavandier, 800 m d'altitude, floraison plus tardive, juillet-août), Banon (à 35 km, célèbre pour son fromage AOP enveloppé de feuilles de châtaignier et ficelé), distilleries (Distillerie du Siron). Sault organise la Fête de la Lavande le 15 août (la plus authentique du plateau).",
       },
       {
         heading: "10. Gastronomie haut-provençale — agneau et fromages",
-        body: "La cuisine de Manosque est celle de la haute Provence : agneau de Sisteron (IGP, agneau de bergeries d'alpage — chair claire et goût subtil), pieds-paquets (tripes d'agneau farcies), tian de légumes provençaux, soupe au pistou. Fromages : Banon AOP (chèvre fermier feuille de châtaignier), Brousse du Rove. Vins : Coteaux de Pierrevert (AOC très haute altitude — l'une des AOC les plus hautes de France à 450 m), Côtes du Luberon (à 20 km à l'ouest).",
+        body: "La cuisine de Manosque est celle de la haute Provence : agneau de Sisteron (IGP, agneau de bergeries d'alpage, chair claire et goût subtil), pieds-paquets (tripes d'agneau farcies), tian de légumes provençaux, soupe au pistou. Fromages : Banon AOP (chèvre fermier feuille de châtaignier), Brousse du Rove. Vins : Coteaux de Pierrevert (AOC très haute altitude, l'une des AOC les plus hautes de France à 450 m), Côtes du Luberon (à 20 km à l'ouest).",
       },
     ],
     relatedCities: ["manosque"],
@@ -28714,7 +28714,7 @@ export const GUIDES: Guide[] = [
     sections: [
       {
         heading: "1. La cathédrale Saint-Just-et-Saint-Pasteur — l'inachevée",
-        body: "La cathédrale Saint-Just-et-Saint-Pasteur de Narbonne (XIIIe-XIVe siècles) est l'une des plus hautes cathédrales gothiques de France — voûtes à 41 m (après Beauvais, Amiens et Metz). Mais elle est inachevée : seul le chœur a été construit, la nef n'a jamais été commencée (interruption au XIVe siècle par la peste noire et la guerre de Cent Ans). Les vitraux du XIVe siècle, le trésor de la cathédrale (tapisseries flamandes), et le cloître attenant sont remarquables.",
+        body: "La cathédrale Saint-Just-et-Saint-Pasteur de Narbonne (XIIIe-XIVe siècles) est l'une des plus hautes cathédrales gothiques de France, voûtes à 41 m (après Beauvais, Amiens et Metz). Mais elle est inachevée : seul le chœur a été construit, la nef n'a jamais été commencée (interruption au XIVe siècle par la peste noire et la guerre de Cent Ans). Les vitraux du XIVe siècle, le trésor de la cathédrale (tapisseries flamandes), et le cloître attenant sont remarquables.",
       },
       {
         heading: "2. Narbo Via — le musée de la Romanité",
@@ -28722,27 +28722,27 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "3. Les Halles centenaires — le ventre de Narbonne",
-        body: "Les Halles de Narbonne (1901, architecte Émile Toulouse — style Baltard, structure métallique de l'école Eiffel) sont l'un des plus beaux marchés couverts de France encore en activité. 70 commerçants tous les jours (sauf lundi). Spécialités : huîtres de Bouzigues (étang de Thau à 50 km), bourride sétoise, anchois de Collioure, charcuteries cathares, fromages des Corbières. Restaurant du Marché (déjeuner sur place — incontournable).",
+        body: "Les Halles de Narbonne (1901, architecte Émile Toulouse, style Baltard, structure métallique de l'école Eiffel) sont l'un des plus beaux marchés couverts de France encore en activité. 70 commerçants tous les jours (sauf lundi). Spécialités : huîtres de Bouzigues (étang de Thau à 50 km), bourride sétoise, anchois de Collioure, charcuteries cathares, fromages des Corbières. Restaurant du Marché (déjeuner sur place, incontournable).",
       },
       {
         heading: "4. L'abbaye de Fontfroide — la chartreuse cistercienne",
-        body: "L'abbaye de Fontfroide (XIIe siècle, cistercienne, à 15 km de Narbonne dans les Corbières) est l'une des plus belles abbayes médiévales du Sud de la France — propriété privée depuis 1908, encore habitée. Cloître roman, salle capitulaire, dortoir des moines convers, jardin d'herbes médicinales. Spécialité contemporaine : vignoble Fontfroide (AOC Corbières, vins biologiques) — dégustation sur place. Pièce maîtresse : le grand vitrail moderne en hommage aux soldats morts à Verdun.",
+        body: "L'abbaye de Fontfroide (XIIe siècle, cistercienne, à 15 km de Narbonne dans les Corbières) est l'une des plus belles abbayes médiévales du Sud de la France, propriété privée depuis 1908, encore habitée. Cloître roman, salle capitulaire, dortoir des moines convers, jardin d'herbes médicinales. Spécialité contemporaine : vignoble Fontfroide (AOC Corbières, vins biologiques), dégustation sur place. Pièce maîtresse : le grand vitrail moderne en hommage aux soldats morts à Verdun.",
       },
       {
         heading: "5. Le canal de la Robine — UNESCO",
-        body: "Le canal de la Robine (XVIIe siècle, embranchement du canal du Midi vers la Méditerranée — Patrimoine mondial UNESCO) traverse Narbonne sous le pont des Marchands (l'une des rares traversées de canal habitées d'Europe — les boutiques sur le pont rappellent le Ponte Vecchio de Florence). Promenade à pied ou à vélo le long des berges, location de paddle. Le canal continue vers Port-la-Nouvelle et la mer.",
+        body: "Le canal de la Robine (XVIIe siècle, embranchement du canal du Midi vers la Méditerranée, Patrimoine mondial UNESCO) traverse Narbonne sous le pont des Marchands (l'une des rares traversées de canal habitées d'Europe : les boutiques sur le pont rappellent le Ponte Vecchio de Florence). Promenade à pied ou à vélo le long des berges, location de paddle. Le canal continue vers Port-la-Nouvelle et la mer.",
       },
       {
         heading: "6. Gruissan et Saint-Pierre-la-Mer — les plages",
-        body: "Gruissan (à 15 km de Narbonne, station balnéaire et port de pêche) a une plage de 5 km — la plage des Chalets (cabanes de pêcheurs typiques sur pilotis, lieu de tournage du film 37°2 le matin de Beineix, 1986). Vieille ville circulaire autour de la tour de Barberousse. Saint-Pierre-la-Mer (à 20 km, plus tranquille) et Narbonne-Plage (familiale) complètent le littoral.",
+        body: "Gruissan (à 15 km de Narbonne, station balnéaire et port de pêche) a une plage de 5 km : la plage des Chalets (cabanes de pêcheurs typiques sur pilotis, lieu de tournage du film 37°2 le matin de Beineix, 1986). Vieille ville circulaire autour de la tour de Barberousse. Saint-Pierre-la-Mer (à 20 km, plus tranquille) et Narbonne-Plage (familiale) complètent le littoral.",
       },
       {
         heading: "7. Le palais des Archevêques — au cœur de la cité",
-        body: "Le palais des Archevêques de Narbonne (XIIe-XIVe siècles, place de l'Hôtel-de-Ville) est l'un des plus grands palais épiscopaux médiévaux de France — Narbonne a été le siège d'un archevêché puissant pendant 1 500 ans. Donjon Gilles-Aycelin (XIIIe siècle, à monter pour la vue), salle de Synode, cour de Madeleine. Aujourd'hui abrite l'Hôtel de Ville et le musée d'Art et d'Histoire de Narbonne.",
+        body: "Le palais des Archevêques de Narbonne (XIIe-XIVe siècles, place de l'Hôtel-de-Ville) est l'un des plus grands palais épiscopaux médiévaux de France, Narbonne a été le siège d'un archevêché puissant pendant 1 500 ans. Donjon Gilles-Aycelin (XIIIe siècle, à monter pour la vue), salle de Synode, cour de Madeleine. Aujourd'hui abrite l'Hôtel de Ville et le musée d'Art et d'Histoire de Narbonne.",
       },
       {
         heading: "8. La Via Domitia — la voie romaine",
-        body: "La Via Domitia (118 av. J.-C., première voie romaine construite en Gaule par Cnaeus Domitius Ahenobarbus) reliait Rome à Cadix en traversant Narbonne. Des vestiges sont visibles en plein centre, place de l'Hôtel-de-Ville (sous une dalle de verre — couloir antique pavé de basalte). À 17 km, le tronçon archéologique d'Ambrussum (commune de Villetelle, Hérault) est encore mieux conservé (pont romain à arches sur le Vidourle).",
+        body: "La Via Domitia (118 av. J.-C., première voie romaine construite en Gaule par Cnaeus Domitius Ahenobarbus) reliait Rome à Cadix en traversant Narbonne. Des vestiges sont visibles en plein centre, place de l'Hôtel-de-Ville (sous une dalle de verre, couloir antique pavé de basalte). À 17 km, le tronçon archéologique d'Ambrussum (commune de Villetelle, Hérault) est encore mieux conservé (pont romain à arches sur le Vidourle).",
       },
       {
         heading: "9. Le parc naturel régional de la Narbonnaise en Méditerranée",
@@ -28750,7 +28750,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "10. Gastronomie audoise et corbières",
-        body: "La cuisine de Narbonne mélange Languedoc, Catalogne et Méditerranée : cassoulet (Narbonne revendique sa version avec mouton — l'une des trois variantes officielles avec Castelnaudary et Carcassonne), bourride (soupe de baudroie à l'aïoli), brandade de morue, anguilles de l'étang de Bages, escargots des Corbières. Vins : AOC Corbières et Corbières-Boutenac (les rouges de référence), La Clape (cru du littoral — rouge et blanc), Fitou (rouge), Languedoc Blanc.",
+        body: "La cuisine de Narbonne mélange Languedoc, Catalogne et Méditerranée : cassoulet (Narbonne revendique sa version avec mouton, l'une des trois variantes officielles avec Castelnaudary et Carcassonne), bourride (soupe de baudroie à l'aïoli), brandade de morue, anguilles de l'étang de Bages, escargots des Corbières. Vins : AOC Corbières et Corbières-Boutenac (les rouges de référence), La Clape (cru du littoral, rouge et blanc), Fitou (rouge), Languedoc Blanc.",
       },
     ],
     relatedCities: ["narbonne"],
@@ -28769,19 +28769,19 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-27",
     updatedAt: "2026-05-27",
-    intro: "Béziers est la deuxième ville de l'Hérault (78 000 habitants), à 25 km de la Méditerranée. Cité phocéenne antique (Bæterræ Septimanorum), bastion cathare détruit en 1209 (« Tuez-les tous, Dieu reconnaîtra les siens » — phrase attribuée à l'abbé Arnaud Amaury au siège de Béziers), ville du vin (capitale du Languedoc viticole — vignes les plus anciennes de France à Loupian, IIe siècle), ville taurine (Feria de Béziers, 4 jours en août, deuxième feria française après Nîmes).",
+    intro: "Béziers est la deuxième ville de l'Hérault (78 000 habitants), à 25 km de la Méditerranée. Cité phocéenne antique (Bæterræ Septimanorum), bastion cathare détruit en 1209 (« Tuez-les tous, Dieu reconnaîtra les siens » : phrase attribuée à l'abbé Arnaud Amaury au siège de Béziers), ville du vin (capitale du Languedoc viticole, vignes les plus anciennes de France à Loupian, IIe siècle), ville taurine (Feria de Béziers, 4 jours en août, deuxième feria française après Nîmes).",
     sections: [
       {
         heading: "1. Les 9 écluses de Fonsérannes — Riquet et le canal du Midi",
-        body: "Les 9 écluses de Fonsérannes (1697, conçues par Pierre-Paul Riquet — chef-d'œuvre du canal du Midi, UNESCO) sont une cascade d'écluses qui permettent au canal du Midi de descendre de 21,50 m en seulement 312 m. Aujourd'hui 8 écluses fonctionnelles (la dernière étant désactivée). Passage spectaculaire de péniches en été, visite libre du site, panneaux d'interprétation. L'une des sept merveilles du canal du Midi.",
+        body: "Les 9 écluses de Fonsérannes (1697, conçues par Pierre-Paul Riquet, chef-d'œuvre du canal du Midi, UNESCO) sont une cascade d'écluses qui permettent au canal du Midi de descendre de 21,50 m en seulement 312 m. Aujourd'hui 8 écluses fonctionnelles (la dernière étant désactivée). Passage spectaculaire de péniches en été, visite libre du site, panneaux d'interprétation. L'une des sept merveilles du canal du Midi.",
       },
       {
         heading: "2. La cathédrale Saint-Nazaire — la silhouette emblématique",
-        body: "La cathédrale Saint-Nazaire de Béziers (XIIIe-XIVe siècles, reconstruite après l'incendie de 1209) domine la ville depuis sa colline rocheuse — silhouette emblématique visible de toute la plaine biterroise. Gothique méridional, style fortifié (cathédrale-forteresse, créneaux et machicoulis), cloître attenant. Vue panoramique sur la plaine de l'Hérault et la Méditerranée depuis le parvis. Accès gratuit.",
+        body: "La cathédrale Saint-Nazaire de Béziers (XIIIe-XIVe siècles, reconstruite après l'incendie de 1209) domine la ville depuis sa colline rocheuse, silhouette emblématique visible de toute la plaine biterroise. Gothique méridional, style fortifié (cathédrale-forteresse, créneaux et machicoulis), cloître attenant. Vue panoramique sur la plaine de l'Hérault et la Méditerranée depuis le parvis. Accès gratuit.",
       },
       {
         heading: "3. Les Allées Paul-Riquet — le poumon urbain",
-        body: "Les Allées Paul-Riquet (créées au XIXe siècle, en hommage à l'enfant du pays — concepteur du canal du Midi) sont la grande promenade arborée de Béziers, entre théâtre municipal (Belle Époque, 1844) et place Jean-Jaurès. 600 m de platanes centenaires, kiosque à musique, fontaine. Le samedi matin, marché aux fleurs et aux plantes. Statue de Riquet par David d'Angers.",
+        body: "Les Allées Paul-Riquet (créées au XIXe siècle, en hommage à l'enfant du pays, concepteur du canal du Midi) sont la grande promenade arborée de Béziers, entre théâtre municipal (Belle Époque, 1844) et place Jean-Jaurès. 600 m de platanes centenaires, kiosque à musique, fontaine. Le samedi matin, marché aux fleurs et aux plantes. Statue de Riquet par David d'Angers.",
       },
       {
         heading: "4. Le musée des Beaux-Arts — Dufy et Soutine",
@@ -28789,27 +28789,27 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "5. La Feria de Béziers — 1 million de spectateurs",
-        body: "La Feria de Béziers (4 jours autour du 15 août, depuis 1968 dans sa forme actuelle) est la deuxième feria française après Nîmes — 1 million de spectateurs en 4 jours. Corridas dans les arènes (1897, 13 000 places — l'une des plus grandes arènes de France), encierros (lâchers de taureaux dans la ville à 8h), peñas (orchestres de rue), bandas. Atmosphère ibérique unique en France. Réservation des corridas obligatoire (15-150€).",
+        body: "La Feria de Béziers (4 jours autour du 15 août, depuis 1968 dans sa forme actuelle) est la deuxième feria française après Nîmes, 1 million de spectateurs en 4 jours. Corridas dans les arènes (1897, 13 000 places, l'une des plus grandes arènes de France), encierros (lâchers de taureaux dans la ville à 8h), peñas (orchestres de rue), bandas. Atmosphère ibérique unique en France. Réservation des corridas obligatoire (15-150€).",
       },
       {
         heading: "6. Le Pont Vieux et l'Orb",
-        body: "Le Pont Vieux de Béziers (XIIe-XIVe siècles, monument historique) enjambe l'Orb depuis 800 ans — l'un des plus anciens ponts de France en service. 17 arches gothiques en pierre. Vue spectaculaire sur la cathédrale Saint-Nazaire en arrière-plan. À pied ou en vélo. Combinaison avec le canal du Midi (à 1 km) et les écluses de Fonsérannes (à 3 km).",
+        body: "Le Pont Vieux de Béziers (XIIe-XIVe siècles, monument historique) enjambe l'Orb depuis 800 ans, l'un des plus anciens ponts de France en service. 17 arches gothiques en pierre. Vue spectaculaire sur la cathédrale Saint-Nazaire en arrière-plan. À pied ou en vélo. Combinaison avec le canal du Midi (à 1 km) et les écluses de Fonsérannes (à 3 km).",
       },
       {
         heading: "7. Valras-Plage et la Méditerranée à 18 km",
-        body: "Valras-Plage (à 18 km de Béziers, embouchure de l'Orb) est la station balnéaire des Biterrois — plage de sable fin de 4 km, port de plaisance, casino. Plus authentique que les stations du Languedoc construites dans les années 1970 (La Grande-Motte, Le Cap d'Agde — celle-ci à 25 km). Marché du dimanche matin. Sérignan-Plage (à 5 km, plus familiale) et Vias-Plage complètent le littoral.",
+        body: "Valras-Plage (à 18 km de Béziers, embouchure de l'Orb) est la station balnéaire des Biterrois, plage de sable fin de 4 km, port de plaisance, casino. Plus authentique que les stations du Languedoc construites dans les années 1970 (La Grande-Motte, Le Cap d'Agde, celle-ci à 25 km). Marché du dimanche matin. Sérignan-Plage (à 5 km, plus familiale) et Vias-Plage complètent le littoral.",
       },
       {
         heading: "8. Le château de Margon et les vignobles Faugères",
-        body: "L'AOC Faugères (à 30 km au nord de Béziers, schistes des Cévennes) produit des vins rouges parmi les meilleurs du Languedoc — syrah, mourvèdre, grenache sur sols schisteux. Château de Margon (XIIIe siècle, propriété privée mais caveau ouvert). Domaines de référence : Domaine Léon Barral (biodynamie), Domaine Estanilles, Mas Olivier. Saint-Chinian (AOC à 35 km) est l'AOC voisine, schiste également.",
+        body: "L'AOC Faugères (à 30 km au nord de Béziers, schistes des Cévennes) produit des vins rouges parmi les meilleurs du Languedoc, syrah, mourvèdre, grenache sur sols schisteux. Château de Margon (XIIIe siècle, propriété privée mais caveau ouvert). Domaines de référence : Domaine Léon Barral (biodynamie), Domaine Estanilles, Mas Olivier. Saint-Chinian (AOC à 35 km) est l'AOC voisine, schiste également.",
       },
       {
         heading: "9. Pézenas — la ville de Molière",
-        body: "Pézenas (à 22 km à l'est de Béziers) est la « Versailles du Languedoc » — Molière y a vécu et joué de 1650 à 1657. Maisons Renaissance et hôtels particuliers du XVIIe siècle, place Gambetta (où Molière jouait), boutique du Barbier Gély (où Molière prenait note des manies des Languedociens — qui ont inspiré ses personnages). Marché du samedi matin (le plus beau du Languedoc). Petits pâtés de Pézenas (gâteau anglo-indien sucré-salé du XVIIIe siècle).",
+        body: "Pézenas (à 22 km à l'est de Béziers) est la « Versailles du Languedoc ». Molière y a vécu et joué de 1650 à 1657. Maisons Renaissance et hôtels particuliers du XVIIe siècle, place Gambetta (où Molière jouait), boutique du Barbier Gély (où Molière prenait note des manies des Languedociens, qui ont inspiré ses personnages). Marché du samedi matin (le plus beau du Languedoc). Petits pâtés de Pézenas (gâteau anglo-indien sucré-salé du XVIIIe siècle).",
       },
       {
         heading: "10. Gastronomie biterroise — pâté d'Alaric et tielle",
-        body: "La cuisine biterroise mélange Languedoc montagnard et Méditerranée : olivades (tapenade locale), petits pâtés de Pézenas IGP (pâté en croûte sucré-salé au mouton — héritage des Indes anglaises au XVIIIe siècle), brasucade de moules (moules grillées au feu de sarments), bourride sétoise (à 50 km, soupe de baudroie à l'aïoli). Vins : Faugères et Saint-Chinian (rouges), Languedoc Blanc, Picpoul de Pinet (sur huîtres de Bouzigues, étang de Thau à 40 km).",
+        body: "La cuisine biterroise mélange Languedoc montagnard et Méditerranée : olivades (tapenade locale), petits pâtés de Pézenas IGP (pâté en croûte sucré-salé au mouton, héritage des Indes anglaises au XVIIIe siècle), brasucade de moules (moules grillées au feu de sarments), bourride sétoise (à 50 km, soupe de baudroie à l'aïoli). Vins : Faugères et Saint-Chinian (rouges), Languedoc Blanc, Picpoul de Pinet (sur huîtres de Bouzigues, étang de Thau à 40 km).",
       },
     ],
     relatedCities: ["beziers"],
@@ -28828,19 +28828,19 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-27",
     updatedAt: "2026-05-27",
-    intro: "Castres est la deuxième ville du Tarn, 42 000 habitants au pied de la Montagne Noire et du Sidobre. La ville est célèbre pour trois choses : le musée Goya (la plus grande collection française de peinture espagnole hors Paris), les maisons sur l'Agout (façades colorées au-dessus de la rivière — surnommées le « Petit Florence ») et son club de rugby (Castres Olympique, champion de France 2013, 2018). Patrie de Jean Jaurès (1859-1914).",
+    intro: "Castres est la deuxième ville du Tarn, 42 000 habitants au pied de la Montagne Noire et du Sidobre. La ville est célèbre pour trois choses : le musée Goya (la plus grande collection française de peinture espagnole hors Paris), les maisons sur l'Agout (façades colorées au-dessus de la rivière, surnommées le « Petit Florence ») et son club de rugby (Castres Olympique, champion de France 2013, 2018). Patrie de Jean Jaurès (1859-1914).",
     sections: [
       {
         heading: "1. Le musée Goya — la peinture espagnole hors Paris",
-        body: "Le musée Goya (Palais épiscopal de Castres, XVIIe siècle) est l'un des trois musées français consacrés à la peinture espagnole — avec le Louvre et Castres. Pièce maîtresse : 3 chefs-d'œuvre de Francisco Goya (« Junte des Philippines », 1815, autoportrait, « La famille du duc d'Osuna »). Le Greco, Murillo, Velasquez (atelier), Picasso (œuvres jeunesse), Miró, Dali. Collection donnée à Castres en 1840. Gratuit le premier dimanche.",
+        body: "Le musée Goya (Palais épiscopal de Castres, XVIIe siècle) est l'un des trois musées français consacrés à la peinture espagnole, avec le Louvre et Castres. Pièce maîtresse : 3 chefs-d'œuvre de Francisco Goya (« Junte des Philippines », 1815, autoportrait, « La famille du duc d'Osuna »). Le Greco, Murillo, Velasquez (atelier), Picasso (œuvres jeunesse), Miró, Dali. Collection donnée à Castres en 1840. Gratuit le premier dimanche.",
       },
       {
         heading: "2. Les maisons sur l'Agout — Petit Florence du Tarn",
-        body: "Les maisons sur l'Agout (façades du XIVe-XVIIe siècles surplombant la rivière) sont l'image emblématique de Castres — anciennes maisons de tanneurs et de drapiers à l'architecture vénitienne (encorbellements, balcons en bois colorés rouge ocre et jaune). Vue depuis le pont Vieux (XIIe siècle) ou le pont Neuf. Promenade en coche d'eau (juin-septembre) entre les deux ponts — 30 min sur l'Agout sous les façades.",
+        body: "Les maisons sur l'Agout (façades du XIVe-XVIIe siècles surplombant la rivière) sont l'image emblématique de Castres, anciennes maisons de tanneurs et de drapiers à l'architecture vénitienne (encorbellements, balcons en bois colorés rouge ocre et jaune). Vue depuis le pont Vieux (XIIe siècle) ou le pont Neuf. Promenade en coche d'eau (juin-septembre) entre les deux ponts, 30 min sur l'Agout sous les façades.",
       },
       {
         heading: "3. Le jardin de l'évêché — Le Nôtre",
-        body: "Le jardin de l'évêché (à l'arrière du Palais épiscopal — musée Goya) a été dessiné par André Le Nôtre, le jardinier de Louis XIV qui a créé les jardins de Versailles. Parterres à la française, broderies de buis, perspective sur l'évêché. Petit Versailles tarnais à découvrir. Accès gratuit en saison.",
+        body: "Le jardin de l'évêché (à l'arrière du Palais épiscopal, musée Goya) a été dessiné par André Le Nôtre, le jardinier de Louis XIV qui a créé les jardins de Versailles. Parterres à la française, broderies de buis, perspective sur l'évêché. Petit Versailles tarnais à découvrir. Accès gratuit en saison.",
       },
       {
         heading: "4. Le Sidobre — le pays du granite",
@@ -28848,27 +28848,27 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "5. Le Centre national et musée Jean-Jaurès",
-        body: "Le Centre national et musée Jean-Jaurès (Place Pélisson, à côté de la maison natale de Jaurès) retrace la vie et l'œuvre du fondateur du socialisme français — assassiné en 1914 par Raoul Villain au Café du Croissant à Paris. Manuscrits originaux, journal L'Humanité dont il fut fondateur, photographies. La ville natale de Jaurès est aussi celle qui l'a élu député en 1885. Gratuit le premier dimanche.",
+        body: "Le Centre national et musée Jean-Jaurès (Place Pélisson, à côté de la maison natale de Jaurès) retrace la vie et l'œuvre du fondateur du socialisme français, assassiné en 1914 par Raoul Villain au Café du Croissant à Paris. Manuscrits originaux, journal L'Humanité dont il fut fondateur, photographies. La ville natale de Jaurès est aussi celle qui l'a élu député en 1885. Gratuit le premier dimanche.",
       },
       {
         heading: "6. La Montagne Noire et le Massif de Nore",
-        body: "La Montagne Noire (au sud de Castres, à 20 km) est un massif forestier (chênes, châtaigniers, sapins) de 1 200 m d'altitude. Le pic de Nore (1 211 m, le plus haut sommet du département) est accessible en voiture jusqu'au sommet — vue à 360° sur les Pyrénées, la Méditerranée, les Cévennes. Plateau d'altitude propice à la randonnée et au VTT. Stations de fond familiales (Les Cammazes, Le Crouzet) en hiver.",
+        body: "La Montagne Noire (au sud de Castres, à 20 km) est un massif forestier (chênes, châtaigniers, sapins) de 1 200 m d'altitude. Le pic de Nore (1 211 m, le plus haut sommet du département) est accessible en voiture jusqu'au sommet, vue à 360° sur les Pyrénées, la Méditerranée, les Cévennes. Plateau d'altitude propice à la randonnée et au VTT. Stations de fond familiales (Les Cammazes, Le Crouzet) en hiver.",
       },
       {
         heading: "7. Lacaune — la cité de la charcuterie",
-        body: "Lacaune (à 40 km au nord-est de Castres, dans les monts de Lacaune à 800 m d'altitude) est la capitale française de la charcuterie sèche IGP — saucisson de Lacaune (premier IGP français de charcuterie en 2015), jambon de Lacaune, fritons. Plus de 50 % de la production française de saucisson sec sort des séchoirs de Lacaune. Maison de la Charcuterie (musée interactif), boutiques d'usine. Lacaune est aussi la capitale de la brebis Lacaune (race ovine du Roquefort).",
+        body: "Lacaune (à 40 km au nord-est de Castres, dans les monts de Lacaune à 800 m d'altitude) est la capitale française de la charcuterie sèche IGP, saucisson de Lacaune (premier IGP français de charcuterie en 2015), jambon de Lacaune, fritons. Plus de 50 % de la production française de saucisson sec sort des séchoirs de Lacaune. Maison de la Charcuterie (musée interactif), boutiques d'usine. Lacaune est aussi la capitale de la brebis Lacaune (race ovine du Roquefort).",
       },
       {
         heading: "8. Le château de Magrin et le pastel",
-        body: "Le château de Magrin (à 30 km de Castres, XIIe-XVe siècles) abrite le musée du Pastel — plante (Isatis tinctoria) cultivée massivement en Lauragais et qui a fait la richesse de Toulouse au XVe-XVIe siècles (« le pays de Cocagne » — d'où l'expression). Le pastel produisait le seul colorant bleu naturel intense connu en Europe avant l'arrivée de l'indigo des Indes. Reconstitution d'un moulin à pastel (cocagne = boule de pastel séché). Renouveau du pastel pour la teinture textile bio.",
+        body: "Le château de Magrin (à 30 km de Castres, XIIe-XVe siècles) abrite le musée du Pastel : plante (Isatis tinctoria) cultivée massivement en Lauragais et qui a fait la richesse de Toulouse au XVe-XVIe siècles (« le pays de Cocagne », d'où l'expression). Le pastel produisait le seul colorant bleu naturel intense connu en Europe avant l'arrivée de l'indigo des Indes. Reconstitution d'un moulin à pastel (cocagne = boule de pastel séché). Renouveau du pastel pour la teinture textile bio.",
       },
       {
         heading: "9. Le canal du Midi à 30 km — Castelnaudary",
-        body: "Castelnaudary (à 50 km au sud-ouest de Castres) est la capitale historique du cassoulet et une étape majeure du canal du Midi (UNESCO). Grand Bassin (35 000 m² — point culminant du canal), écluses de Saint-Roch. Le cassoulet de Castelnaudary (haricots tarbais, confit de canard ou d'oie, saucisse de Toulouse) est la version originale (revendiquée comme telle par les Castelnaudariens depuis 1357). Visite des cassoulets industriels (Maison Rivière, Maison Bouquié).",
+        body: "Castelnaudary (à 50 km au sud-ouest de Castres) est la capitale historique du cassoulet et une étape majeure du canal du Midi (UNESCO). Grand Bassin (35 000 m², point culminant du canal), écluses de Saint-Roch. Le cassoulet de Castelnaudary (haricots tarbais, confit de canard ou d'oie, saucisse de Toulouse) est la version originale (revendiquée comme telle par les Castelnaudariens depuis 1357). Visite des cassoulets industriels (Maison Rivière, Maison Bouquié).",
       },
       {
         heading: "10. Gastronomie tarnaise — cassoulet et fromages",
-        body: "La cuisine castraise mélange Languedoc et Sud-Ouest : cassoulet (Castres revendique sa propre variante avec saucisses de Toulouse), magret de canard du Sud-Ouest, daube de mouton (héritage médiéval), saucisson de Lacaune IGP, jambon de Lacaune. Fromages : Roquefort AOP (à 70 km dans l'Aveyron), tomes du Sidobre. Spécialités sucrées : gâteau à la broche (gâteau cuit en spirale autour d'une broche au feu de bois — spécialité pyrénéenne, mais répandue en Tarn). Vins : Gaillac (AOC à 30 km, rouge, rosé et blanc).",
+        body: "La cuisine castraise mélange Languedoc et Sud-Ouest : cassoulet (Castres revendique sa propre variante avec saucisses de Toulouse), magret de canard du Sud-Ouest, daube de mouton (héritage médiéval), saucisson de Lacaune IGP, jambon de Lacaune. Fromages : Roquefort AOP (à 70 km dans l'Aveyron), tomes du Sidobre. Spécialités sucrées : gâteau à la broche (gâteau cuit en spirale autour d'une broche au feu de bois, spécialité pyrénéenne, mais répandue en Tarn). Vins : Gaillac (AOC à 30 km, rouge, rosé et blanc).",
       },
     ],
     relatedCities: ["castres"],
@@ -28887,47 +28887,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-27",
     updatedAt: "2026-05-27",
-    intro: "Millau est la sous-préfecture de l'Aveyron, 22 000 habitants au confluent du Tarn et de la Dourbie, au cœur des Grands Causses (Causse du Larzac, Causse Noir, Causse Méjean — Patrimoine mondial UNESCO). La ville est mondialement connue depuis 2004 pour son viaduc — le pont le plus haut du monde (343 m de hauteur, dépasse la tour Eiffel). Capitale historique du gant de peau (Millau a été la première capitale mondiale du gant au XIXe siècle).",
+    intro: "Millau est la sous-préfecture de l'Aveyron, 22 000 habitants au confluent du Tarn et de la Dourbie, au cœur des Grands Causses (Causse du Larzac, Causse Noir, Causse Méjean, Patrimoine mondial UNESCO). La ville est mondialement connue depuis 2004 pour son viaduc : le pont le plus haut du monde (343 m de hauteur, dépasse la tour Eiffel). Capitale historique du gant de peau (Millau a été la première capitale mondiale du gant au XIXe siècle).",
     sections: [
       {
         heading: "1. Le viaduc de Millau — le pont le plus haut du monde",
-        body: "Le viaduc de Millau (2004, architecte Norman Foster avec Michel Virlogeux) franchit la vallée du Tarn sur 2 460 m de long et culmine à 343 m de hauteur — c'est le pont routier le plus haut du monde (au-dessus du sol). Sept pylônes en béton précontraint, tablier d'acier maintenu par des haubans (11 paires par pile). 25 millions de véhicules/an. Belvédère panoramique gratuit à proximité (aire du Viaduc, sortie autoroutière A75). Café du Viaduc avec vue.",
+        body: "Le viaduc de Millau (2004, architecte Norman Foster avec Michel Virlogeux) franchit la vallée du Tarn sur 2 460 m de long et culmine à 343 m de hauteur, c'est le pont routier le plus haut du monde (au-dessus du sol). Sept pylônes en béton précontraint, tablier d'acier maintenu par des haubans (11 paires par pile). 25 millions de véhicules/an. Belvédère panoramique gratuit à proximité (aire du Viaduc, sortie autoroutière A75). Café du Viaduc avec vue.",
       },
       {
         heading: "2. Les caves de Roquefort — le fromage roi",
-        body: "Roquefort-sur-Soulzon (à 22 km de Millau, village de 600 habitants — 1 600 employés dans les caves) est la seule commune au monde autorisée à produire du Roquefort AOP. Visite des caves naturelles de fleurines (les anciennes maisons Société, Papillon, Carles, Le Vieux Berger, Coulet, Roquefort Vernières, Mausac) — naturellement à 9°C grâce aux courants d'air dans le rocher. Dégustation comparative à la fin. 20€ par personne en moyenne.",
+        body: "Roquefort-sur-Soulzon (à 22 km de Millau, village de 600 habitants, 1 600 employés dans les caves) est la seule commune au monde autorisée à produire du Roquefort AOP. Visite des caves naturelles de fleurines (les anciennes maisons Société, Papillon, Carles, Le Vieux Berger, Coulet, Roquefort Vernières, Mausac) : naturellement à 9°C grâce aux courants d'air dans le rocher. Dégustation comparative à la fin. 20€ par personne en moyenne.",
       },
       {
         heading: "3. Les gorges du Tarn — le grand canyon français",
-        body: "Les gorges du Tarn (de Florac à Millau, sur 50 km, à 30 km au nord de Millau) sont l'un des plus grands canyons d'Europe — 500 m de profondeur, falaises calcaires verticales. Trois belvédères majeurs : Roc des Hourtous (le plus spectaculaire, sur le Causse Méjean), Point Sublime, Roc de Suèges. Descente en canoë depuis La Malène (10 km vers Saint-Chély — 3h sur l'eau, eaux calmes). Pic Saint-Loup pour la vue. Pays des cirques (Cirque de Madasse) et grottes (Grotte de l'Aven Armand).",
+        body: "Les gorges du Tarn (de Florac à Millau, sur 50 km, à 30 km au nord de Millau) sont l'un des plus grands canyons d'Europe, 500 m de profondeur, falaises calcaires verticales. Trois belvédères majeurs : Roc des Hourtous (le plus spectaculaire, sur le Causse Méjean), Point Sublime, Roc de Suèges. Descente en canoë depuis La Malène (10 km vers Saint-Chély, 3h sur l'eau, eaux calmes). Pic Saint-Loup pour la vue. Pays des cirques (Cirque de Madasse) et grottes (Grotte de l'Aven Armand).",
       },
       {
         heading: "4. Le Larzac et la Couvertoirade — Templiers et Hospitaliers",
-        body: "Le Larzac (plateau calcaire de 1 000 km² à 800 m d'altitude au sud de Millau) a abrité l'une des plus puissantes commanderies templière puis hospitalière du Languedoc. La Couvertoirade (à 35 km de Millau, plus beau village de France) est l'une des cités templière les mieux conservées d'Europe — enceinte fortifiée intacte, château, église fortifiée. Sainte-Eulalie-de-Cernon (siège de la commanderie templière, à 22 km) abrite le château commanderie. Manifestations militantes du Larzac (José Bové, 1971-1981).",
+        body: "Le Larzac (plateau calcaire de 1 000 km² à 800 m d'altitude au sud de Millau) a abrité l'une des plus puissantes commanderies templière puis hospitalière du Languedoc. La Couvertoirade (à 35 km de Millau, plus beau village de France) est l'une des cités templière les mieux conservées d'Europe, enceinte fortifiée intacte, château, église fortifiée. Sainte-Eulalie-de-Cernon (siège de la commanderie templière, à 22 km) abrite le château commanderie. Manifestations militantes du Larzac (José Bové, 1971-1981).",
       },
       {
         heading: "5. Le musée du Gant et la tannerie",
-        body: "Le Musée du Gant et de la Peau de Millau (rue Bargues) retrace l'histoire de l'industrie gantière millavoise — Millau a été la première capitale mondiale du gant de peau au XIXe siècle (employait 2 000 ouvriers, 80 % de la production française). Aujourd'hui 6 ganteries actives — Maison Fabre (fournisseur historique de l'Élysée, des films de James Bond avec Daniel Craig), Maison Boucau. Visite avec atelier de coupe en démonstration.",
+        body: "Le Musée du Gant et de la Peau de Millau (rue Bargues) retrace l'histoire de l'industrie gantière millavoise, Millau a été la première capitale mondiale du gant de peau au XIXe siècle (employait 2 000 ouvriers, 80 % de la production française). Aujourd'hui 6 ganteries actives, Maison Fabre (fournisseur historique de l'Élysée, des films de James Bond avec Daniel Craig), Maison Boucau. Visite avec atelier de coupe en démonstration.",
       },
       {
         heading: "6. La Couvertoirade et le plateau du Larzac",
-        body: "Le plateau du Larzac (à 800 m d'altitude, paysage de steppes calcaires unique en France) est inscrit au patrimoine mondial UNESCO depuis 2011 (« Causses et Cévennes — paysage culturel de l'agropastoralisme méditerranéen »). Randonnées sur les drailles (anciens chemins de transhumance) entre lavognes (mares aménagées pour les troupeaux) et caselles (cabanes en pierre sèche). Le Larzac compte encore 15 000 brebis Lacaune (lait pour le Roquefort).",
+        body: "Le plateau du Larzac (à 800 m d'altitude, paysage de steppes calcaires unique en France) est inscrit au patrimoine mondial UNESCO depuis 2011 (« Causses et Cévennes : paysage culturel de l'agropastoralisme méditerranéen »). Randonnées sur les drailles (anciens chemins de transhumance) entre lavognes (mares aménagées pour les troupeaux) et caselles (cabanes en pierre sèche). Le Larzac compte encore 15 000 brebis Lacaune (lait pour le Roquefort).",
       },
       {
         heading: "7. La Cavalerie — le bourg templier complet",
-        body: "La Cavalerie (à 17 km de Millau, plus beau village de France) est l'autre cité templière du Larzac — fondée vers 1150 par les Templiers comme commanderie agricole. Enceinte fortifiée du XVe siècle (Hospitaliers de l'Ordre de Malte qui ont récupéré les biens des Templiers en 1312), tours d'angle, courtines. Le village est encore habité — 800 habitants permanents, l'un des rares « villages templier » vivants.",
+        body: "La Cavalerie (à 17 km de Millau, plus beau village de France) est l'autre cité templière du Larzac, fondée vers 1150 par les Templiers comme commanderie agricole. Enceinte fortifiée du XVe siècle (Hospitaliers de l'Ordre de Malte qui ont récupéré les biens des Templiers en 1312), tours d'angle, courtines. Le village est encore habité, 800 habitants permanents, l'un des rares « villages templier » vivants.",
       },
       {
         heading: "8. Les baignades dans le Tarn et la Dourbie",
-        body: "Le Tarn et la Dourbie (deux rivières qui se jettent dans Millau) offrent de nombreuses baignades sauvages — eaux turquoise sur fond calcaire. Plages aménagées : Plage des Cuns (Tarn, gratuite, surveillée juillet-août), plage de la Maladrerie. Sites sauvages : Saint-Véran, Cantobre (pied du village perché). Canoë-kayak (locations à Millau-Plage), descente du Tarn (avec retour navette).",
+        body: "Le Tarn et la Dourbie (deux rivières qui se jettent dans Millau) offrent de nombreuses baignades sauvages, eaux turquoise sur fond calcaire. Plages aménagées : Plage des Cuns (Tarn, gratuite, surveillée juillet-août), plage de la Maladrerie. Sites sauvages : Saint-Véran, Cantobre (pied du village perché). Canoë-kayak (locations à Millau-Plage), descente du Tarn (avec retour navette).",
       },
       {
         heading: "9. La grotte de l'Aven Armand",
-        body: "L'Aven Armand (à 50 km au nord de Millau, sur le Causse Méjean) est l'une des plus belles grottes de France — découverte en 1897 par Louis Armand. La salle principale (110 m de hauteur — pourrait contenir Notre-Dame de Paris) abrite la « Forêt vierge » : 400 stalagmites dont la plus haute (Stalagmite Géante) mesure 30 m — l'une des plus grandes du monde. Visite avec funiculaire descendant. 14€.",
+        body: "L'Aven Armand (à 50 km au nord de Millau, sur le Causse Méjean) est l'une des plus belles grottes de France, découverte en 1897 par Louis Armand. La salle principale (110 m de hauteur, pourrait contenir Notre-Dame de Paris) abrite la « Forêt vierge » : 400 stalagmites dont la plus haute (Stalagmite Géante) mesure 30 m, l'une des plus grandes du monde. Visite avec funiculaire descendant. 14€.",
       },
       {
         heading: "10. Gastronomie aveyronnaise — aligot et roquefort",
-        body: "La cuisine du Sud-Aveyron est rustique et fromagère : aligot (purée de pomme de terre fouettée avec tomme fraîche du Cantal — étirable à 2 m), tripoux (tripes de mouton ficelées et cuites en sauce), farçous (galette d'herbes et de fromage). Fromages : Roquefort AOP (la star), Pérail (brebis pâte molle), Laguiole AOP (à 60 km). Spécialités sucrées : fouace aveyronnaise (brioche), flaune (tarte au fromage frais). Vins : Marcillac (à 80 km, rouge), Côtes de Millau (AOC).",
+        body: "La cuisine du Sud-Aveyron est rustique et fromagère : aligot (purée de pomme de terre fouettée avec tomme fraîche du Cantal, étirable à 2 m), tripoux (tripes de mouton ficelées et cuites en sauce), farçous (galette d'herbes et de fromage). Fromages : Roquefort AOP (la star), Pérail (brebis pâte molle), Laguiole AOP (à 60 km). Spécialités sucrées : fouace aveyronnaise (brioche), flaune (tarte au fromage frais). Vins : Marcillac (à 80 km, rouge), Côtes de Millau (AOC).",
       },
     ],
     relatedCities: ["millau"],
@@ -28946,47 +28946,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-27",
     updatedAt: "2026-05-27",
-    intro: "Rodez est la préfecture de l'Aveyron, 24 000 habitants à 632 m d'altitude sur un piton rocheux dominant la vallée de l'Aveyron. La ville a deux visages : la vieille ville médiévale rouge serrée autour de sa cathédrale gothique (87 m de hauteur — l'une des plus hautes cathédrales gothiques de France) et le musée Soulages (architecture moderne signée RCR, prix Pritzker 2017). Porte d'entrée de l'Aveyron rural, des Causses et de l'Aubrac.",
+    intro: "Rodez est la préfecture de l'Aveyron, 24 000 habitants à 632 m d'altitude sur un piton rocheux dominant la vallée de l'Aveyron. La ville a deux visages : la vieille ville médiévale rouge serrée autour de sa cathédrale gothique (87 m de hauteur, l'une des plus hautes cathédrales gothiques de France) et le musée Soulages (architecture moderne signée RCR, prix Pritzker 2017). Porte d'entrée de l'Aveyron rural, des Causses et de l'Aubrac.",
     sections: [
       {
         heading: "1. La cathédrale Notre-Dame — clocher de 87 m",
-        body: "La cathédrale Notre-Dame de Rodez (XIIIe-XVIe siècles, gothique méridional puis flamboyant) est l'une des plus impressionnantes de France — son clocher de 87 m est l'un des plus hauts clochers gothiques au monde (avec celui de Strasbourg, Anvers et Vienne). Façade ouest fortifiée en grès rouge (typique du bassin de Rodez), nef à voûtes ogivales, rosace flamboyante. Ascension du clocher possible (350 marches) — vue spectaculaire sur les Causses et l'Aubrac.",
+        body: "La cathédrale Notre-Dame de Rodez (XIIIe-XVIe siècles, gothique méridional puis flamboyant) est l'une des plus impressionnantes de France, son clocher de 87 m est l'un des plus hauts clochers gothiques au monde (avec celui de Strasbourg, Anvers et Vienne). Façade ouest fortifiée en grès rouge (typique du bassin de Rodez), nef à voûtes ogivales, rosace flamboyante. Ascension du clocher possible (350 marches), vue spectaculaire sur les Causses et l'Aubrac.",
       },
       {
         heading: "2. Le musée Soulages — le maître de l'outrenoir",
-        body: "Le musée Soulages (ouvert en 2014, architecture RCR Arquitectes — prix Pritzker 2017) est consacré à Pierre Soulages (1919-2022), peintre rouergat le plus important du XXe siècle, inventeur de l'« outrenoir » (peinture monochrome noire qui réfléchit la lumière). Donation de 500 œuvres par l'artiste lui-même. Architecture en cinq cubes d'acier corten (oxydé) qui dialoguent avec le grès rouge de la cathédrale. Le restaurant Café Bras (Michel Bras) est dans le musée.",
+        body: "Le musée Soulages (ouvert en 2014, architecture RCR Arquitectes, prix Pritzker 2017) est consacré à Pierre Soulages (1919-2022), peintre rouergat le plus important du XXe siècle, inventeur de l'« outrenoir » (peinture monochrome noire qui réfléchit la lumière). Donation de 500 œuvres par l'artiste lui-même. Architecture en cinq cubes d'acier corten (oxydé) qui dialoguent avec le grès rouge de la cathédrale. Le restaurant Café Bras (Michel Bras) est dans le musée.",
       },
       {
         heading: "3. Conques — village médiéval UNESCO",
-        body: "Conques (à 35 km au nord de Rodez, plus beau village de France, classé UNESCO comme étape majeure des chemins de Saint-Jacques de Compostelle) est l'un des plus beaux villages médiévaux d'Europe. L'abbatiale Sainte-Foy (XIe-XIIe siècles, romane auvergnate) abrite le tympan le plus célèbre de l'art roman (le Jugement Dernier, 124 figures sculptées) et le Trésor de Conques (orfèvrerie sacrée carolingienne — la Majesté de Sainte Foy, statue-reliquaire en or). Vitraux contemporains de Pierre Soulages (1994).",
+        body: "Conques (à 35 km au nord de Rodez, plus beau village de France, classé UNESCO comme étape majeure des chemins de Saint-Jacques de Compostelle) est l'un des plus beaux villages médiévaux d'Europe. L'abbatiale Sainte-Foy (XIe-XIIe siècles, romane auvergnate) abrite le tympan le plus célèbre de l'art roman (le Jugement Dernier, 124 figures sculptées) et le Trésor de Conques (orfèvrerie sacrée carolingienne : la Majesté de Sainte Foy, statue-reliquaire en or). Vitraux contemporains de Pierre Soulages (1994).",
       },
       {
         heading: "4. Le plateau de l'Aubrac — estives et burons",
-        body: "Le plateau de l'Aubrac (à 40 km au nord de Rodez, à 1 200 m d'altitude, parc naturel régional depuis 2018) est l'un des plus vastes plateaux volcaniques de France — paysage de prairies à perte de vue, vaches Aubrac (race emblématique au pelage froment), burons (cabanes en pierre des estives où les bergers fabriquaient le fromage Laguiole jusqu'au XXe siècle). Jonquilles en mai (l'un des plus beaux paysages floraux d'Europe). Aubrac (village éponyme, 1 100 m).",
+        body: "Le plateau de l'Aubrac (à 40 km au nord de Rodez, à 1 200 m d'altitude, parc naturel régional depuis 2018) est l'un des plus vastes plateaux volcaniques de France : paysage de prairies à perte de vue, vaches Aubrac (race emblématique au pelage froment), burons (cabanes en pierre des estives où les bergers fabriquaient le fromage Laguiole jusqu'au XXe siècle). Jonquilles en mai (l'un des plus beaux paysages floraux d'Europe). Aubrac (village éponyme, 1 100 m).",
       },
       {
         heading: "5. Laguiole — couteaux et fromages",
-        body: "Laguiole (à 50 km au nord de Rodez sur l'Aubrac) est mondialement connue pour deux choses : ses couteaux pliants (créés en 1828, à manche en corne ou en bois — \"abeille\" sur le ressort) et son fromage Laguiole AOP (vache Aubrac, pâte pressée non cuite — affinage 90 jours). Coopérative Jeune Montagne (visite des caves d'affinage, dégustation). Coutellerie Forge de Laguiole (visite ouverte au public). Le bourg est à 1 000 m d'altitude (climat de moyenne montagne).",
+        body: "Laguiole (à 50 km au nord de Rodez sur l'Aubrac) est mondialement connue pour deux choses : ses couteaux pliants (créés en 1828, à manche en corne ou en bois, \"abeille\" sur le ressort) et son fromage Laguiole AOP (vache Aubrac, pâte pressée non cuite, affinage 90 jours). Coopérative Jeune Montagne (visite des caves d'affinage, dégustation). Coutellerie Forge de Laguiole (visite ouverte au public). Le bourg est à 1 000 m d'altitude (climat de moyenne montagne).",
       },
       {
         heading: "6. La vieille ville et la place du Bourg",
-        body: "La vieille ville de Rodez (autour de la cathédrale) est un ensemble médiéval en grès rouge — maisons à pans de bois XVe-XVIe siècles, hôtels particuliers Renaissance (Maison de Benoît, Maison d'Armagnac), boutiques sous arcades. Marché du samedi matin place du Bourg. Le palais épiscopal (XVIe-XVIIIe siècles, aujourd'hui préfecture) jouxte la cathédrale. Promenade des Italiens (création XIXe siècle) en surplomb sur la vallée.",
+        body: "La vieille ville de Rodez (autour de la cathédrale) est un ensemble médiéval en grès rouge, maisons à pans de bois XVe-XVIe siècles, hôtels particuliers Renaissance (Maison de Benoît, Maison d'Armagnac), boutiques sous arcades. Marché du samedi matin place du Bourg. Le palais épiscopal (XVIe-XVIIIe siècles, aujourd'hui préfecture) jouxte la cathédrale. Promenade des Italiens (création XIXe siècle) en surplomb sur la vallée.",
       },
       {
         heading: "7. Sainte-Radegonde et les ruelles médiévales",
-        body: "Sainte-Radegonde (à 4 km de Rodez) est un village médiéval avec une église fortifiée (XIVe siècle, l'une des plus impressionnantes églises fortifiées de France — clocher-donjon, échauguettes, mâchicoulis). À l'intérieur, fresques du XIVe siècle. À côté, Le Monastère (village et lac de loisirs) et Onet-le-Château (capitale historique des comtes d'Armagnac). Le viaduc du Viaur (à 25 km au sud, fer rouge, 1902) est un chef-d'œuvre Eiffel-style.",
+        body: "Sainte-Radegonde (à 4 km de Rodez) est un village médiéval avec une église fortifiée (XIVe siècle, l'une des plus impressionnantes églises fortifiées de France, clocher-donjon, échauguettes, mâchicoulis). À l'intérieur, fresques du XIVe siècle. À côté, Le Monastère (village et lac de loisirs) et Onet-le-Château (capitale historique des comtes d'Armagnac). Le viaduc du Viaur (à 25 km au sud, fer rouge, 1902) est un chef-d'œuvre Eiffel-style.",
       },
       {
         heading: "8. Le marché de Rodez et les producteurs",
-        body: "Le marché de Rodez (samedi matin, place du Bourg) est l'un des plus authentiques d'Occitanie — producteurs locaux d'Aubrac et des Causses : fromages (Laguiole AOP, Roquefort à 60 km, Pérail), charcuteries (saucisse sèche d'Aubrac, jambon de pays), miel des Causses, agneau du Causse du Larzac, brebis fermière. Le mercredi matin, marché à la Madeleine (plus petit, plus quotidien).",
+        body: "Le marché de Rodez (samedi matin, place du Bourg) est l'un des plus authentiques d'Occitanie, producteurs locaux d'Aubrac et des Causses : fromages (Laguiole AOP, Roquefort à 60 km, Pérail), charcuteries (saucisse sèche d'Aubrac, jambon de pays), miel des Causses, agneau du Causse du Larzac, brebis fermière. Le mercredi matin, marché à la Madeleine (plus petit, plus quotidien).",
       },
       {
         heading: "9. Le viaduc du Viaur et le château du Bosc",
-        body: "Le viaduc du Viaur (1902, ingénieur Paul Bodin, 460 m de long, 116 m de hauteur — l'un des plus beaux ouvrages d'art ferroviaire de France) franchit la vallée du Viaur entre Rodez et Albi. Style Eiffel — fer rouge industriel. À proximité, le château du Bosc (à 25 km de Rodez) est la maison natale d'Henri de Toulouse-Lautrec — mobilier d'origine, atelier reconstitué, peintures et lithographies. Pour info, Albi (où il est né) est à 80 km au sud.",
+        body: "Le viaduc du Viaur (1902, ingénieur Paul Bodin, 460 m de long, 116 m de hauteur, l'un des plus beaux ouvrages d'art ferroviaire de France) franchit la vallée du Viaur entre Rodez et Albi. Style Eiffel, fer rouge industriel. À proximité, le château du Bosc (à 25 km de Rodez) est la maison natale d'Henri de Toulouse-Lautrec, mobilier d'origine, atelier reconstitué, peintures et lithographies. Pour info, Albi (où il est né) est à 80 km au sud.",
       },
       {
         heading: "10. Gastronomie aveyronnaise — aligot et tripoux",
-        body: "La cuisine de Rodez est paysanne et fromagère : aligot (purée de pomme de terre fouettée avec tomme fraîche, étirable à 2 m — spécialité de l'Aubrac), tripoux (tripes de mouton ficelées et cuites en sauce, spécialité de Naucelle), estofinado (morue séchée à la rouergate — héritage de la pêche bretonne réimportée). Fromages : Laguiole AOP, Roquefort AOP, Bleu des Causses AOP. Spécialités sucrées : fouace aveyronnaise (brioche), gâteau à la broche. Vins : Marcillac (AOC, rouge, à 15 km — cépage fer servadou unique au monde), Estaing (AOC).",
+        body: "La cuisine de Rodez est paysanne et fromagère : aligot (purée de pomme de terre fouettée avec tomme fraîche, étirable à 2 m, spécialité de l'Aubrac), tripoux (tripes de mouton ficelées et cuites en sauce, spécialité de Naucelle), estofinado (morue séchée à la rouergate, héritage de la pêche bretonne réimportée). Fromages : Laguiole AOP, Roquefort AOP, Bleu des Causses AOP. Spécialités sucrées : fouace aveyronnaise (brioche), gâteau à la broche. Vins : Marcillac (AOC, rouge, à 15 km, cépage fer servadou unique au monde), Estaing (AOC).",
       },
     ],
     relatedCities: ["rodez"],
@@ -29064,47 +29064,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-27",
     updatedAt: "2026-05-27",
-    intro: "Cahors est la préfecture du Lot, 20 000 habitants dans une boucle parfaite du Lot qui encercle la vieille ville à 90 % — presqu'île médiévale. La ville doit sa renommée à deux choses : le pont Valentré (XIVe siècle, classé UNESCO comme étape du chemin de Saint-Jacques — l'un des ponts médiévaux les mieux conservés d'Europe) et le « vin noir » AOC Cahors (cépage Malbec, vin tannique le plus dense de France — exporté en Russie au XVIIIe siècle).",
+    intro: "Cahors est la préfecture du Lot, 20 000 habitants dans une boucle parfaite du Lot qui encercle la vieille ville à 90 %, presqu'île médiévale. La ville doit sa renommée à deux choses : le pont Valentré (XIVe siècle, classé UNESCO comme étape du chemin de Saint-Jacques, l'un des ponts médiévaux les mieux conservés d'Europe) et le « vin noir » AOC Cahors (cépage Malbec, vin tannique le plus dense de France, exporté en Russie au XVIIIe siècle).",
     sections: [
       {
         heading: "1. Le pont Valentré — UNESCO et la légende du diable",
-        body: "Le pont Valentré (1308-1378, classé UNESCO comme étape du chemin de Saint-Jacques de Compostelle) est l'un des ponts médiévaux fortifiés les mieux conservés d'Europe — trois tours-portes carrées, six arches gothiques, 138 m de long. Légende : le maître d'œuvre a passé un pacte avec le diable pour finir le pont, qu'il a trompé. Une petite sculpture de diable agrippé à la tour centrale (placée par Paul Gout lors de la restauration en 1879) rappelle l'histoire.",
+        body: "Le pont Valentré (1308-1378, classé UNESCO comme étape du chemin de Saint-Jacques de Compostelle) est l'un des ponts médiévaux fortifiés les mieux conservés d'Europe, trois tours-portes carrées, six arches gothiques, 138 m de long. Légende : le maître d'œuvre a passé un pacte avec le diable pour finir le pont, qu'il a trompé. Une petite sculpture de diable agrippé à la tour centrale (placée par Paul Gout lors de la restauration en 1879) rappelle l'histoire.",
       },
       {
         heading: "2. Le vignoble AOC Cahors — le malbec roi",
-        body: "L'AOC Cahors (4 200 ha, 350 vignerons) est l'une des plus anciennes appellations de France — Romains, puis vin de cour des rois jusqu'au XVIIIe siècle. Cépage roi : Cot (Malbec) — 70 % minimum dans l'assemblage. Vin noir, tannique, qui se garde 20 ans. Domaines à visiter : Clos Triguedina (Jean-Luc Baldès), Château du Cèdre, Château Lagrézette (Alain-Dominique Perrin, propriétaire Cartier). Caveaux ouverts dans les villages de Luzech, Albas, Mercuès.",
+        body: "L'AOC Cahors (4 200 ha, 350 vignerons) est l'une des plus anciennes appellations de France, Romains, puis vin de cour des rois jusqu'au XVIIIe siècle. Cépage roi : Cot (Malbec), 70 % minimum dans l'assemblage. Vin noir, tannique, qui se garde 20 ans. Domaines à visiter : Clos Triguedina (Jean-Luc Baldès), Château du Cèdre, Château Lagrézette (Alain-Dominique Perrin, propriétaire Cartier). Caveaux ouverts dans les villages de Luzech, Albas, Mercuès.",
       },
       {
         heading: "3. Saint-Cirq-Lapopie — village préféré des Français",
-        body: "Saint-Cirq-Lapopie (à 30 km à l'est de Cahors, élu Village préféré des Français en 2012, plus beau village de France) est l'un des plus beaux villages perchés d'Europe — accroché à une falaise de 100 m surplombant le Lot. André Breton (pape du surréalisme) y a vécu et l'a baptisé « le plus beau village ». Maisons à pans de bois XIIIe-XVIe siècles, ruelles pavées, château ruiné au sommet. Très fréquenté en été — y aller tôt le matin ou hors saison.",
+        body: "Saint-Cirq-Lapopie (à 30 km à l'est de Cahors, élu Village préféré des Français en 2012, plus beau village de France) est l'un des plus beaux villages perchés d'Europe, accroché à une falaise de 100 m surplombant le Lot. André Breton (pape du surréalisme) y a vécu et l'a baptisé « le plus beau village ». Maisons à pans de bois XIIIe-XVIe siècles, ruelles pavées, château ruiné au sommet. Très fréquenté en été, y aller tôt le matin ou hors saison.",
       },
       {
         heading: "4. Le gouffre de Padirac — la rivière souternaine",
-        body: "Le gouffre de Padirac (à 70 km au nord-est de Cahors, dans le Quercy) est l'un des grands sites souterrains d'Europe — un effondrement karstique de 75 m de profondeur ouvert sur une rivière souterraine. Descente par ascenseur jusqu'à -103 m, puis navigation en barque à fond plat sur 1 km de galeries (Grand Pendeloque, Lac de la Pluie). 1h30 de visite, 17€. Mieux que la grotte de Lascaux pour la dimension naturelle — l'une des merveilles naturelles d'Europe.",
+        body: "Le gouffre de Padirac (à 70 km au nord-est de Cahors, dans le Quercy) est l'un des grands sites souterrains d'Europe : un effondrement karstique de 75 m de profondeur ouvert sur une rivière souterraine. Descente par ascenseur jusqu'à -103 m, puis navigation en barque à fond plat sur 1 km de galeries (Grand Pendeloque, Lac de la Pluie). 1h30 de visite, 17€. Mieux que la grotte de Lascaux pour la dimension naturelle, l'une des merveilles naturelles d'Europe.",
       },
       {
         heading: "5. La cathédrale Saint-Étienne — coupoles byzantines",
-        body: "La cathédrale Saint-Étienne de Cahors (XIIe siècle, romane) est l'une des rares cathédrales françaises à coupoles byzantines (deux coupoles de 32 m de diamètre — modèle qui a inspiré le Sacré-Cœur de Paris). Tympan roman du portail nord (Ascension du Christ, XIIe siècle — l'un des chefs-d'œuvre de l'art roman du Sud-Ouest). Cloître Renaissance attenant. Classée UNESCO.",
+        body: "La cathédrale Saint-Étienne de Cahors (XIIe siècle, romane) est l'une des rares cathédrales françaises à coupoles byzantines (deux coupoles de 32 m de diamètre : modèle qui a inspiré le Sacré-Cœur de Paris). Tympan roman du portail nord (Ascension du Christ, XIIe siècle, l'un des chefs-d'œuvre de l'art roman du Sud-Ouest). Cloître Renaissance attenant. Classée UNESCO.",
       },
       {
         heading: "6. La vallée du Lot — kayak et villages perchés",
-        body: "La vallée du Lot (entre Cahors et Saint-Cirq-Lapopie, 30 km) est l'une des plus belles vallées encaissées du Massif central — falaises calcaires de 100-150 m, méandres serrés du Lot, villages perchés (Vers, Bouziès, Saint-Cirq-Lapopie). Descente en canoë (locations à Vers, demi-journée 20€), promenades en gabare (bateau traditionnel) au départ de Bouziès, sentier du Lot (GR65, chemin de Saint-Jacques) à pied.",
+        body: "La vallée du Lot (entre Cahors et Saint-Cirq-Lapopie, 30 km) est l'une des plus belles vallées encaissées du Massif central, falaises calcaires de 100-150 m, méandres serrés du Lot, villages perchés (Vers, Bouziès, Saint-Cirq-Lapopie). Descente en canoë (locations à Vers, demi-journée 20€), promenades en gabare (bateau traditionnel) au départ de Bouziès, sentier du Lot (GR65, chemin de Saint-Jacques) à pied.",
       },
       {
         heading: "7. Rocamadour — la cité mariale verticale",
-        body: "Rocamadour (à 60 km au nord de Cahors, plus beau village de France, classé UNESCO) est l'une des grandes cités de pèlerinage d'Europe — village vertical accroché à une falaise de 150 m, construit autour du sanctuaire de la Vierge Noire (XIIe siècle, statue miraculeuse). 216 marches du Grand Escalier des pèlerins (à monter à genoux pour les plus pieux). Sept églises, basilique Saint-Sauveur, château au sommet. Spécialité : Rocamadour AOP (fromage de chèvre, le plus petit AOP de France).",
+        body: "Rocamadour (à 60 km au nord de Cahors, plus beau village de France, classé UNESCO) est l'une des grandes cités de pèlerinage d'Europe, village vertical accroché à une falaise de 150 m, construit autour du sanctuaire de la Vierge Noire (XIIe siècle, statue miraculeuse). 216 marches du Grand Escalier des pèlerins (à monter à genoux pour les plus pieux). Sept églises, basilique Saint-Sauveur, château au sommet. Spécialité : Rocamadour AOP (fromage de chèvre, le plus petit AOP de France).",
       },
       {
         heading: "8. Le marché aux truffes de Lalbenque",
-        body: "Lalbenque (à 20 km de Cahors) est l'un des plus grands marchés français à la truffe noire (Tuber melanosporum) — chaque mardi de novembre à mars, 14h pétantes (le marché commence à un coup de sifflet, ferme à 14h30). Prix : 600-1 200€/kg selon le millésime. Pour info, le marché de Lalbenque est le plus authentique du Sud-Ouest pour les amateurs (rituel intact depuis 1880, transactions au comptant). Restaurants à truffe dans le bourg.",
+        body: "Lalbenque (à 20 km de Cahors) est l'un des plus grands marchés français à la truffe noire (Tuber melanosporum), chaque mardi de novembre à mars, 14h pétantes (le marché commence à un coup de sifflet, ferme à 14h30). Prix : 600-1 200€/kg selon le millésime. Pour info, le marché de Lalbenque est le plus authentique du Sud-Ouest pour les amateurs (rituel intact depuis 1880, transactions au comptant). Restaurants à truffe dans le bourg.",
       },
       {
         heading: "9. La vieille ville médiévale et la rue Nationale",
-        body: "La vieille ville de Cahors (à l'intérieur de la boucle du Lot) est un dédale de ruelles médiévales — rue Nationale (axe principal commerçant), place des Maquisards (marché du mercredi et samedi matin). Hôtels particuliers du XIVe-XVIe siècles : palais de Via, Maison Roaldès. Le quartier des Badernes (haute ville) et le quartier de l'Ile (basse ville, côté pont Valentré) sont les deux pôles à voir.",
+        body: "La vieille ville de Cahors (à l'intérieur de la boucle du Lot) est un dédale de ruelles médiévales, rue Nationale (axe principal commerçant), place des Maquisards (marché du mercredi et samedi matin). Hôtels particuliers du XIVe-XVIe siècles : palais de Via, Maison Roaldès. Le quartier des Badernes (haute ville) et le quartier de l'Ile (basse ville, côté pont Valentré) sont les deux pôles à voir.",
       },
       {
         heading: "10. Gastronomie quercynoise — foie gras et noix",
-        body: "La cuisine du Quercy (Lot) est l'une des plus riches de France : foie gras de canard ou d'oie, magret de canard, confit, foies gras mi-cuits, agneau du Quercy IGP (race caussenarde sur prés-bois calcaires). Spécialités locales : truffe noire (Tuber melanosporum — en omelette, en sauce Périgueux), Cabécou de Rocamadour AOP (chèvre frais), noix du Périgord AOP. Spécialités sucrées : pastis quercynois (feuilleté aux pommes et armagnac), Rocamadour glacé. Vins : Cahors AOC (le rouge noir), Marcillac (à 50 km dans l'Aveyron).",
+        body: "La cuisine du Quercy (Lot) est l'une des plus riches de France : foie gras de canard ou d'oie, magret de canard, confit, foies gras mi-cuits, agneau du Quercy IGP (race caussenarde sur prés-bois calcaires). Spécialités locales : truffe noire (Tuber melanosporum, en omelette, en sauce Périgueux), Cabécou de Rocamadour AOP (chèvre frais), noix du Périgord AOP. Spécialités sucrées : pastis quercynois (feuilleté aux pommes et armagnac), Rocamadour glacé. Vins : Cahors AOC (le rouge noir), Marcillac (à 50 km dans l'Aveyron).",
       },
     ],
     relatedCities: ["cahors"],
@@ -29124,35 +29124,35 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-27",
     updatedAt: "2026-05-27",
-    intro: "Mende est la préfecture de la Lozère — département le moins peuplé de France métropolitaine (76 000 habitants pour 5 200 km²). 11 000 habitants à 731 m d'altitude (préfecture la plus haute de France après Briançon hors chef-lieux). Au confluent du Causse du Sauveterre, des Cévennes et de la Margeride, Mende est la cité du Gévaudan — région du « Loup du Gévaudan » qui terrorisa la région entre 1764 et 1767 (100 victimes).",
+    intro: "Mende est la préfecture de la Lozère, département le moins peuplé de France métropolitaine (76 000 habitants pour 5 200 km²). 11 000 habitants à 731 m d'altitude (préfecture la plus haute de France après Briançon hors chef-lieux). Au confluent du Causse du Sauveterre, des Cévennes et de la Margeride, Mende est la cité du Gévaudan, région du « Loup du Gévaudan » qui terrorisa la région entre 1764 et 1767 (100 victimes).",
     sections: [
       {
         heading: "1. La cathédrale Saint-Pierre — le clocher gothique",
-        body: "La cathédrale Saint-Pierre de Mende (XIVe-XVIe siècles, gothique méridional) est le monument emblématique de la ville. Construite par le pape d'Avignon Urbain V (né au Gévaudan), elle a deux clochers asymétriques (l'un haut de 84 m, l'autre incomplet). À l'intérieur : le « Non Pareille » (cloche du XVe siècle qui pesait 26 tonnes, fondue à la Révolution — fragments visibles), tapisseries d'Aubusson du XVIIe siècle, orgue Cavaillé-Coll. Classée UNESCO.",
+        body: "La cathédrale Saint-Pierre de Mende (XIVe-XVIe siècles, gothique méridional) est le monument emblématique de la ville. Construite par le pape d'Avignon Urbain V (né au Gévaudan), elle a deux clochers asymétriques (l'un haut de 84 m, l'autre incomplet). À l'intérieur : le « Non Pareille » (cloche du XVe siècle qui pesait 26 tonnes, fondue à la Révolution, fragments visibles), tapisseries d'Aubusson du XVIIe siècle, orgue Cavaillé-Coll. Classée UNESCO.",
       },
       {
         heading: "2. Le mont Mimat — le belvédère et l'ermitage",
-        body: "Le Mont Mimat (1 067 m, à 4 km au sud de Mende — accessible à pied par les escaliers Saint-Privat ou en voiture) est le belvédère naturel de la ville. Vue panoramique sur la Margeride, les Causses et le Mont Lozère (1 699 m, point culminant). À mi-pente, l'ermitage Saint-Privat (grotte naturelle où le premier évêque de Mende a vécu au IIIe siècle — pèlerinage régional). Sentier balisé de 4 km en boucle au départ de la cathédrale.",
+        body: "Le Mont Mimat (1 067 m, à 4 km au sud de Mende, accessible à pied par les escaliers Saint-Privat ou en voiture) est le belvédère naturel de la ville. Vue panoramique sur la Margeride, les Causses et le Mont Lozère (1 699 m, point culminant). À mi-pente, l'ermitage Saint-Privat (grotte naturelle où le premier évêque de Mende a vécu au IIIe siècle, pèlerinage régional). Sentier balisé de 4 km en boucle au départ de la cathédrale.",
       },
       {
         heading: "3. Le pont Notre-Dame — XIIIe siècle",
-        body: "Le pont Notre-Dame (XIIIe siècle, sur le Lot) est l'un des plus anciens ponts médiévaux de France en activité. 4 arches gothiques en pierre de basalte, statue de la Vierge au milieu. À voir depuis les bords du Lot — promenade des Anglais sur les quais. La place Chaptal et le boulevard Lucien-Arnault concentrent les terrasses de cafés en été (marché du samedi matin).",
+        body: "Le pont Notre-Dame (XIIIe siècle, sur le Lot) est l'un des plus anciens ponts médiévaux de France en activité. 4 arches gothiques en pierre de basalte, statue de la Vierge au milieu. À voir depuis les bords du Lot, promenade des Anglais sur les quais. La place Chaptal et le boulevard Lucien-Arnault concentrent les terrasses de cafés en été (marché du samedi matin).",
       },
       {
         heading: "4. Les gorges du Tarn et le Causse Méjean",
-        body: "Les gorges du Tarn (à 30 km au sud-est de Mende, sur 50 km) sont l'un des plus grands canyons d'Europe — falaises de 500 m de hauteur. Belvédères du Causse Méjean (1 000 m d'altitude, Patrimoine mondial UNESCO « Causses et Cévennes ») : Roc des Hourtous (le plus spectaculaire), Point Sublime. Descente en canoë depuis La Malène, hameaux troglodytes (Saint-Marcellin). Vautours fauves réintroduits dans les années 1980 (Maison des Vautours à Le Truel — sortie nature obligatoire).",
+        body: "Les gorges du Tarn (à 30 km au sud-est de Mende, sur 50 km) sont l'un des plus grands canyons d'Europe, falaises de 500 m de hauteur. Belvédères du Causse Méjean (1 000 m d'altitude, Patrimoine mondial UNESCO « Causses et Cévennes ») : Roc des Hourtous (le plus spectaculaire), Point Sublime. Descente en canoë depuis La Malène, hameaux troglodytes (Saint-Marcellin). Vautours fauves réintroduits dans les années 1980 (Maison des Vautours à Le Truel, sortie nature obligatoire).",
       },
       {
         heading: "5. L'Aubrac — estives volcaniques et burons",
-        body: "Le plateau de l'Aubrac (à 50 km à l'ouest de Mende, à 1 200 m d'altitude — Parc naturel régional depuis 2018) est un vaste plateau volcanique de prairies à perte de vue — vaches Aubrac (race emblématique), burons (cabanes en pierre où les bergers faisaient le fromage Laguiole), jonquilles en mai (paysage floral parmi les plus beaux d'Europe). À combiner avec une journée à Laguiole (à 70 km — couteaux et fromage AOP).",
+        body: "Le plateau de l'Aubrac (à 50 km à l'ouest de Mende, à 1 200 m d'altitude, Parc naturel régional depuis 2018) est un vaste plateau volcanique de prairies à perte de vue, vaches Aubrac (race emblématique), burons (cabanes en pierre où les bergers faisaient le fromage Laguiole), jonquilles en mai (paysage floral parmi les plus beaux d'Europe). À combiner avec une journée à Laguiole (à 70 km, couteaux et fromage AOP).",
       },
       {
         heading: "6. Le musée du Gévaudan et la légende de la Bête",
-        body: "Le Musée Ignon-Fabre de Mende (sciences naturelles et ethnographie du Gévaudan) consacre une section au « Loup du Gévaudan » (1764-1767, animal qui a tué 100 personnes dans la région — toujours non identifié — loup ? hyène ? grand chien hybride ?). Reconstitution, gravures d'époque, taxidermies de loups locaux. Section géologie des Causses et minéraux de la Margeride. Idéal pour enfants et amateurs de mystères.",
+        body: "Le Musée Ignon-Fabre de Mende (sciences naturelles et ethnographie du Gévaudan) consacre une section au « Loup du Gévaudan » (1764-1767, animal qui a tué 100 personnes dans la région, toujours non identifié, loup ? hyène ? grand chien hybride ?). Reconstitution, gravures d'époque, taxidermies de loups locaux. Section géologie des Causses et minéraux de la Margeride. Idéal pour enfants et amateurs de mystères.",
       },
       {
         heading: "7. Les Cévennes et le Mont Lozère",
-        body: "Le Mont Lozère (1 699 m, point culminant du parc national des Cévennes — créé en 1970) est à 30 km au sud-est de Mende. Plateau granitique balayé par le vent, paysage de landes à bruyères et hêtraies. Sentier des Sources (au sommet, randonnée d'1h en boucle), Pic de Finiels (1 699 m), draille (chemin de transhumance) du Mont Lozère. Patrimoine mondial UNESCO (Causses et Cévennes). Ciel étoilé classé Réserve Internationale (la plus grande de France).",
+        body: "Le Mont Lozère (1 699 m, point culminant du parc national des Cévennes, créé en 1970) est à 30 km au sud-est de Mende. Plateau granitique balayé par le vent, paysage de landes à bruyères et hêtraies. Sentier des Sources (au sommet, randonnée d'1h en boucle), Pic de Finiels (1 699 m), draille (chemin de transhumance) du Mont Lozère. Patrimoine mondial UNESCO (Causses et Cévennes). Ciel étoilé classé Réserve Internationale (la plus grande de France).",
       },
       {
         heading: "8. La Margeride et les loups du parc",
@@ -29160,11 +29160,11 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "9. La vieille ville et la place du Mazel",
-        body: "La vieille ville de Mende (autour de la cathédrale) est un dédale de ruelles médiévales. Place du Mazel (« marché », en occitan — place principale des halles depuis le XVe siècle), rue d'Aigues-Passes (axe commerçant médiéval), place Chaptal (terrasses ombragées). Hôtels particuliers en granit blond du XVIIe siècle. Quartier juif médiéval (Mende avait l'une des plus anciennes communautés juives du Sud — la « rue de la Juiverie » garde son nom).",
+        body: "La vieille ville de Mende (autour de la cathédrale) est un dédale de ruelles médiévales. Place du Mazel (« marché », en occitan, place principale des halles depuis le XVe siècle), rue d'Aigues-Passes (axe commerçant médiéval), place Chaptal (terrasses ombragées). Hôtels particuliers en granit blond du XVIIe siècle. Quartier juif médiéval (Mende avait l'une des plus anciennes communautés juives du Sud : la « rue de la Juiverie » garde son nom).",
       },
       {
         heading: "10. Gastronomie lozérienne — aligot et truite",
-        body: "La cuisine lozérienne est une cuisine paysanne rude et goûteuse : aligot (purée de pommes de terre fouettée avec tomme fraîche du Cantal — étirable à 2 m), truffade (galette de pommes de terre au lard et tomme), manouls (pieds-paquets lozériens — tripes de mouton). Truites des rivières lozériennes (Lot, Tarn, Truyère) au beurre noisette, charcuteries (saucisse sèche de Lozère, jambon de Lacaune à 100 km). Fromages : Roquefort AOP (à 100 km), Laguiole AOP, Bleu des Causses AOP. Spécialités sucrées : croquant de Mende, fouace.",
+        body: "La cuisine lozérienne est une cuisine paysanne rude et goûteuse : aligot (purée de pommes de terre fouettée avec tomme fraîche du Cantal, étirable à 2 m), truffade (galette de pommes de terre au lard et tomme), manouls (pieds-paquets lozériens, tripes de mouton). Truites des rivières lozériennes (Lot, Tarn, Truyère) au beurre noisette, charcuteries (saucisse sèche de Lozère, jambon de Lacaune à 100 km). Fromages : Roquefort AOP (à 100 km), Laguiole AOP, Bleu des Causses AOP. Spécialités sucrées : croquant de Mende, fouace.",
       },
     ],
     relatedCities: ["mende"],
@@ -29183,47 +29183,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-27",
     updatedAt: "2026-05-27",
-    intro: "Privas est la plus petite préfecture de France métropolitaine en nombre d'habitants (8 200 — seul Tulle est plus petite parmi les préfectures, à 14 500). Située à 290 m d'altitude au cœur du Vivarais, la ville est connue mondialement pour le marron glacé (Maison Clément Faugier, créée en 1882, premier producteur mondial). Cité huguenote rebelle (« Vous serez ravalée à la condition de simple bourg »), Privas est la porte des Cévennes ardéchoises et des gorges de l'Ardèche.",
+    intro: "Privas est la plus petite préfecture de France métropolitaine en nombre d'habitants (8 200, seul Tulle est plus petite parmi les préfectures, à 14 500). Située à 290 m d'altitude au cœur du Vivarais, la ville est connue mondialement pour le marron glacé (Maison Clément Faugier, créée en 1882, premier producteur mondial). Cité huguenote rebelle (« Vous serez ravalée à la condition de simple bourg »), Privas est la porte des Cévennes ardéchoises et des gorges de l'Ardèche.",
     sections: [
       {
         heading: "1. La Maison Clément Faugier — le marron glacé",
-        body: "La Maison Clément Faugier (1882, première fabrique mondiale de marrons glacés — 12 000 tonnes/an, 60 % du marché mondial) est l'icône économique de Privas. Visite de la fabrique (sur réservation), boutique d'usine (marrons glacés à prix d'usine — 50 % moins cher qu'en supermarché), musée du marron. Spécialités : marrons glacés, crème de marron (le célèbre tube — recette inventée en 1924 par Clément Faugier pour valoriser les marrons brisés), marrons au cognac.",
+        body: "La Maison Clément Faugier (1882, première fabrique mondiale de marrons glacés, 12 000 tonnes/an, 60 % du marché mondial) est l'icône économique de Privas. Visite de la fabrique (sur réservation), boutique d'usine (marrons glacés à prix d'usine, 50 % moins cher qu'en supermarché), musée du marron. Spécialités : marrons glacés, crème de marron (le célèbre tube, recette inventée en 1924 par Clément Faugier pour valoriser les marrons brisés), marrons au cognac.",
       },
       {
         heading: "2. La châtaigneraie ardéchoise — marron AOP",
-        body: "Le marron d'Ardèche AOP (depuis 2014) est cultivé dans 197 communes du sud de l'Ardèche — variété traditionnelle Marron de l'Ardèche, fruit unique par bogue (contrairement à la châtaigne ordinaire). Sentier de la Châtaigneraie balisé. Fête des Castagnades (octobre-novembre, dans les villages ardéchois — feux de châtaignes, vendange tardive). Spécialités : châtaignes grillées, soupe de châtaignes, pain de châtaigne (héritage paysan de subsistance).",
+        body: "Le marron d'Ardèche AOP (depuis 2014) est cultivé dans 197 communes du sud de l'Ardèche : variété traditionnelle Marron de l'Ardèche, fruit unique par bogue (contrairement à la châtaigne ordinaire). Sentier de la Châtaigneraie balisé. Fête des Castagnades (octobre-novembre, dans les villages ardéchois, feux de châtaignes, vendange tardive). Spécialités : châtaignes grillées, soupe de châtaignes, pain de châtaigne (héritage paysan de subsistance).",
       },
       {
         heading: "3. Les gorges de l'Ardèche et le Pont d'Arc",
-        body: "Les gorges de l'Ardèche (à 40 km au sud de Privas, sur 30 km) sont le plus grand site naturel d'Ardèche — falaises calcaires de 300 m, méandres serrés de l'Ardèche, paysage karstique. Le Pont d'Arc (arche naturelle de 60 m de hauteur, 54 m de portée — l'une des plus grandes arches naturelles d'Europe) est l'icône. Descente en canoë (8 km Pont d'Arc-Sauze, 24 km Pont d'Arc-Saint-Martin — bivouac autorisé sur 2 emplacements). Belvédère du Serre de Tourre.",
+        body: "Les gorges de l'Ardèche (à 40 km au sud de Privas, sur 30 km) sont le plus grand site naturel d'Ardèche, falaises calcaires de 300 m, méandres serrés de l'Ardèche, paysage karstique. Le Pont d'Arc (arche naturelle de 60 m de hauteur, 54 m de portée, l'une des plus grandes arches naturelles d'Europe) est l'icône. Descente en canoë (8 km Pont d'Arc-Sauze, 24 km Pont d'Arc-Saint-Martin, bivouac autorisé sur 2 emplacements). Belvédère du Serre de Tourre.",
       },
       {
         heading: "4. La grotte Chouvet 2 et l'art pariétal Aurignacien",
-        body: "La Caverne du Pont d'Arc (réplique de la Grotte Chauvet, ouverte en 2015) est la reconstitution intégrale de la grotte Chauvet — découverte en 1994 par Jean-Marie Chauvet, classée UNESCO. Peintures pariétales aurignaciennes (les plus anciennes du monde — 36 000 av. J.-C., dépassent Lascaux de 18 000 ans). 425 figures, dont les célèbres lions, panthères, rhinocéros. Visite guidée d'1h. À 50 km au sud de Privas, à Vallon-Pont-d'Arc.",
+        body: "La Caverne du Pont d'Arc (réplique de la Grotte Chauvet, ouverte en 2015) est la reconstitution intégrale de la grotte Chauvet, découverte en 1994 par Jean-Marie Chauvet, classée UNESCO. Peintures pariétales aurignaciennes (les plus anciennes du monde, 36 000 av. J.-C., dépassent Lascaux de 18 000 ans). 425 figures, dont les célèbres lions, panthères, rhinocéros. Visite guidée d'1h. À 50 km au sud de Privas, à Vallon-Pont-d'Arc.",
       },
       {
         heading: "5. Le Mont Gerbier-de-Jonc — source de la Loire",
-        body: "Le Mont Gerbier-de-Jonc (1 551 m, à 50 km à l'ouest de Privas, dans la Montagne ardéchoise) est un dôme volcanique phonolithique (volcanisme tardif, -2 millions d'années) où naît la Loire (le plus long fleuve de France — 1 012 km jusqu'à l'Atlantique). Trois sources se réclament officielles : la « Vraie source » (sous une dalle), la « Source authentique » et la « Source géographique ». Ascension du Mont en 30 min (sentier balisé). Vue à 360°.",
+        body: "Le Mont Gerbier-de-Jonc (1 551 m, à 50 km à l'ouest de Privas, dans la Montagne ardéchoise) est un dôme volcanique phonolithique (volcanisme tardif, -2 millions d'années) où naît la Loire (le plus long fleuve de France, 1 012 km jusqu'à l'Atlantique). Trois sources se réclament officielles : la « Vraie source » (sous une dalle), la « Source authentique » et la « Source géographique ». Ascension du Mont en 30 min (sentier balisé). Vue à 360°.",
       },
       {
         heading: "6. Le château de Crussol — la forteresse ruinée",
-        body: "Le château de Crussol (à 25 km à l'est de Privas, perché à 300 m sur un éperon rocheux dominant la vallée du Rhône) est l'une des plus grandes ruines médiévales de France — château des Crussol, vicomtes d'Uzès aux XIe-XVe siècles. Donjon roman, courtines, village médiéval intramuros (Crussol-Saint-Romain). Vue spectaculaire sur le Rhône, la vallée et les Alpes par temps clair (Mont Blanc à 200 km).",
+        body: "Le château de Crussol (à 25 km à l'est de Privas, perché à 300 m sur un éperon rocheux dominant la vallée du Rhône) est l'une des plus grandes ruines médiévales de France, château des Crussol, vicomtes d'Uzès aux XIe-XVe siècles. Donjon roman, courtines, village médiéval intramuros (Crussol-Saint-Romain). Vue spectaculaire sur le Rhône, la vallée et les Alpes par temps clair (Mont Blanc à 200 km).",
       },
       {
         heading: "7. La vieille ville huguenote — la Tour Diane",
-        body: "La vieille ville de Privas (autour de la place de l'Hôtel-de-Ville) garde quelques vestiges de son passé huguenot — Privas fut l'une des villes-bastion du protestantisme dauphinois (« Vous serez ravalée à la condition de simple bourg » — punition de Louis XIII en 1629 après le siège, plusieurs murs détruits). Tour Diane de Poitiers (XVIe siècle, vestige du château), Temple protestant, place du Champ-de-Mars (terrasses, marché du jeudi matin).",
+        body: "La vieille ville de Privas (autour de la place de l'Hôtel-de-Ville) garde quelques vestiges de son passé huguenot, Privas fut l'une des villes-bastion du protestantisme dauphinois (« Vous serez ravalée à la condition de simple bourg », punition de Louis XIII en 1629 après le siège, plusieurs murs détruits). Tour Diane de Poitiers (XVIe siècle, vestige du château), Temple protestant, place du Champ-de-Mars (terrasses, marché du jeudi matin).",
       },
       {
         heading: "8. Les villages perchés du Vivarais",
-        body: "L'Ardèche méridionale est un musée à ciel ouvert de villages perchés médiévaux. Mirabel (à 25 km, sur un piton basaltique — colonne et tour Renaissance unique), Balazuc (plus beau village de France, à 40 km — accroché à une falaise au-dessus de l'Ardèche), Antraigues-sur-Volane (village natal de Jean Ferrat — concerts du chanteur dans la salle des fêtes en été, musée Jean-Ferrat). Tournée d'1 journée au départ de Privas.",
+        body: "L'Ardèche méridionale est un musée à ciel ouvert de villages perchés médiévaux. Mirabel (à 25 km, sur un piton basaltique, colonne et tour Renaissance unique), Balazuc (plus beau village de France, à 40 km, accroché à une falaise au-dessus de l'Ardèche), Antraigues-sur-Volane (village natal de Jean Ferrat, concerts du chanteur dans la salle des fêtes en été, musée Jean-Ferrat). Tournée d'1 journée au départ de Privas.",
       },
       {
         heading: "9. La vallée du Rhône en vélo — ViaRhôna",
-        body: "La ViaRhôna (EuroVélo 17, voie verte de 815 km du lac Léman à la Méditerranée) longe le Rhône à 25 km à l'est de Privas. Étape Valence-Montélimar (35 km, plate, ombragée, vignobles AOC Saint-Joseph et Cornas) — l'une des étapes les plus belles. Loueurs de vélos électriques à Valence et Montélimar. Possibilité de croisière fluviale sur le Rhône (Lyon-Avignon, 4-7 jours) au départ de Tournon (à 30 km de Privas).",
+        body: "La ViaRhôna (EuroVélo 17, voie verte de 815 km du lac Léman à la Méditerranée) longe le Rhône à 25 km à l'est de Privas. Étape Valence-Montélimar (35 km, plate, ombragée, vignobles AOC Saint-Joseph et Cornas), l'une des étapes les plus belles. Loueurs de vélos électriques à Valence et Montélimar. Possibilité de croisière fluviale sur le Rhône (Lyon-Avignon, 4-7 jours) au départ de Tournon (à 30 km de Privas).",
       },
       {
         heading: "10. Gastronomie ardéchoise — caillette et picodon",
-        body: "La cuisine ardéchoise est une cuisine paysanne pauvre devenue gourmande : caillette (petite boule de viande hachée et bettes, cuite au four — apéritif emblématique), bombine (ragoût de pomme de terre et viande), maôche (estomac de cochon farci aux feuilles de chou), poutargue (pommes de terre confites). Fromages : Picodon AOP (chèvre fermier, 100 g), Saint-Marcellin (à 80 km, au nord). Spécialités sucrées : tarte à la châtaigne, crémeux de marron (Faugier), bûchettes de marron. Vins : Cornas (AOC syrah), Saint-Joseph (rouge), Côtes-du-Rhône.",
+        body: "La cuisine ardéchoise est une cuisine paysanne pauvre devenue gourmande : caillette (petite boule de viande hachée et bettes, cuite au four, apéritif emblématique), bombine (ragoût de pomme de terre et viande), maôche (estomac de cochon farci aux feuilles de chou), poutargue (pommes de terre confites). Fromages : Picodon AOP (chèvre fermier, 100 g), Saint-Marcellin (à 80 km, au nord). Spécialités sucrées : tarte à la châtaigne, crémeux de marron (Faugier), bûchettes de marron. Vins : Cornas (AOC syrah), Saint-Joseph (rouge), Côtes-du-Rhône.",
       },
     ],
     relatedCities: ["privas"],
@@ -29242,47 +29242,47 @@ export const GUIDES: Guide[] = [
     readMinutes: 6,
     publishedAt: "2026-05-27",
     updatedAt: "2026-05-27",
-    intro: "Aurillac est la préfecture du Cantal, 25 000 habitants au pied du massif volcanique cantalien (un des plus grands volcans éteints d'Europe). La ville est mondialement connue pour son Festival international des Arts de la Rue (4 jours en août — premier festival de théâtre de rue au monde, 1 500 compagnies, 130 000 spectateurs). Aurillac est aussi une cité Renaissance (Gerbert d'Aurillac, premier pape français en 999 — Sylvestre II) et la porte des plus beaux paysages auvergnats.",
+    intro: "Aurillac est la préfecture du Cantal, 25 000 habitants au pied du massif volcanique cantalien (un des plus grands volcans éteints d'Europe). La ville est mondialement connue pour son Festival international des Arts de la Rue (4 jours en août, premier festival de théâtre de rue au monde, 1 500 compagnies, 130 000 spectateurs). Aurillac est aussi une cité Renaissance (Gerbert d'Aurillac, premier pape français en 999, Sylvestre II) et la porte des plus beaux paysages auvergnats.",
     sections: [
       {
         heading: "1. Le Festival international des Arts de la Rue",
-        body: "Le Festival d'Aurillac (créé en 1986, fin août, 4 jours) est le premier festival de théâtre de rue au monde — 1 500 compagnies inscrites, 600 retenues, 600 spectacles par jour dans toute la ville. Spectacles gratuits dans les rues (rue, places, parcs), spectacles payants en salle (5-15€). Compagnies internationales (Royal de Luxe, Generik Vapeur, Carabosse). Hôtels complets 6 mois à l'avance. Atmosphère unique en France — Avignon de la rue.",
+        body: "Le Festival d'Aurillac (créé en 1986, fin août, 4 jours) est le premier festival de théâtre de rue au monde, 1 500 compagnies inscrites, 600 retenues, 600 spectacles par jour dans toute la ville. Spectacles gratuits dans les rues (rue, places, parcs), spectacles payants en salle (5-15€). Compagnies internationales (Royal de Luxe, Generik Vapeur, Carabosse). Hôtels complets 6 mois à l'avance. Atmosphère unique en France, Avignon de la rue.",
       },
       {
         heading: "2. Le Plomb du Cantal — le plus haut sommet du Massif central",
-        body: "Le Plomb du Cantal (1 855 m, le plus haut sommet du Massif central) est à 25 km à l'est d'Aurillac. Accessible en téléphérique de la station du Lioran (1 270 m — la station de ski du Cantal, 60 km de pistes). Vue à 360° sur les volcans cantaliens (Puy Mary à 1 783 m juste à côté, et les autres puys), les Monts Dore (en Auvergne au nord, à 80 km), les Pyrénées (par temps clair). Randonnée du tour du Plomb du Cantal en 4-5h.",
+        body: "Le Plomb du Cantal (1 855 m, le plus haut sommet du Massif central) est à 25 km à l'est d'Aurillac. Accessible en téléphérique de la station du Lioran (1 270 m : la station de ski du Cantal, 60 km de pistes). Vue à 360° sur les volcans cantaliens (Puy Mary à 1 783 m juste à côté, et les autres puys), les Monts Dore (en Auvergne au nord, à 80 km), les Pyrénées (par temps clair). Randonnée du tour du Plomb du Cantal en 4-5h.",
       },
       {
         heading: "3. Le Puy Mary — Grand Site de France",
-        body: "Le Puy Mary (1 783 m, Grand Site de France depuis 2012) est le sommet emblématique du volcan cantalien. Accessible à pied par le Pas de Peyrol (1 588 m, le plus haut col routier du Massif central) — 30 min d'ascension depuis le parking. Vue à 360°. Paysage de planèzes (plateaux basaltiques en éventail autour du cône volcanique). Été : pâturages, transhumance des Salers. Hiver : ski de fond. À 40 km au nord d'Aurillac.",
+        body: "Le Puy Mary (1 783 m, Grand Site de France depuis 2012) est le sommet emblématique du volcan cantalien. Accessible à pied par le Pas de Peyrol (1 588 m, le plus haut col routier du Massif central), 30 min d'ascension depuis le parking. Vue à 360°. Paysage de planèzes (plateaux basaltiques en éventail autour du cône volcanique). Été : pâturages, transhumance des Salers. Hiver : ski de fond. À 40 km au nord d'Aurillac.",
       },
       {
         heading: "4. Salers — plus beau village de France",
-        body: "Salers (à 40 km au nord d'Aurillac, classée parmi les plus beaux villages de France) est l'une des plus belles cités Renaissance d'Auvergne — bourg fortifié à 951 m d'altitude, maisons à toits de lauze (pierre volcanique) et façades en basalte sombre. Place Tyssandier-d'Escous (centre), Maison Bargues (Renaissance), donjon ruiné. Le bourg a donné son nom : à la race bovine Salers (vaches à robe rouge acajou), au fromage Salers AOP, et au cantal AOP. Très touristique en été — y aller hors saison.",
+        body: "Salers (à 40 km au nord d'Aurillac, classée parmi les plus beaux villages de France) est l'une des plus belles cités Renaissance d'Auvergne, bourg fortifié à 951 m d'altitude, maisons à toits de lauze (pierre volcanique) et façades en basalte sombre. Place Tyssandier-d'Escous (centre), Maison Bargues (Renaissance), donjon ruiné. Le bourg a donné son nom : à la race bovine Salers (vaches à robe rouge acajou), au fromage Salers AOP, et au cantal AOP. Très touristique en été, y aller hors saison.",
       },
       {
         heading: "5. Le château Saint-Étienne et le musée des Volcans",
-        body: "Le château Saint-Étienne (donjon XIe-XVe siècles, sur les hauteurs d'Aurillac) abrite le Musée des Volcans — l'un des meilleurs musées de France sur la vulcanologie. Présentation de la formation des volcans cantaliens (-13 à -3 millions d'années — l'un des plus grands ensembles volcaniques d'Europe), maquettes en relief, projection 3D des éruptions. À côté, le château Saint-Étienne est aussi un belvédère sur Aurillac.",
+        body: "Le château Saint-Étienne (donjon XIe-XVe siècles, sur les hauteurs d'Aurillac) abrite le Musée des Volcans, l'un des meilleurs musées de France sur la vulcanologie. Présentation de la formation des volcans cantaliens (-13 à -3 millions d'années, l'un des plus grands ensembles volcaniques d'Europe), maquettes en relief, projection 3D des éruptions. À côté, le château Saint-Étienne est aussi un belvédère sur Aurillac.",
       },
       {
         heading: "6. Conques — UNESCO à 50 km",
-        body: "Conques (à 50 km au sud-ouest d'Aurillac, dans l'Aveyron) est l'un des plus beaux villages médiévaux d'Europe — Patrimoine mondial UNESCO comme étape majeure du chemin de Saint-Jacques de Compostelle. L'abbatiale Sainte-Foy (XIe-XIIe siècles, romane auvergnate) abrite le tympan le plus célèbre de l'art roman (Le Jugement Dernier, 124 figures) et le Trésor de Conques (orfèvrerie médiévale carolingienne). Vitraux contemporains de Pierre Soulages (1994).",
+        body: "Conques (à 50 km au sud-ouest d'Aurillac, dans l'Aveyron) est l'un des plus beaux villages médiévaux d'Europe, Patrimoine mondial UNESCO comme étape majeure du chemin de Saint-Jacques de Compostelle. L'abbatiale Sainte-Foy (XIe-XIIe siècles, romane auvergnate) abrite le tympan le plus célèbre de l'art roman (Le Jugement Dernier, 124 figures) et le Trésor de Conques (orfèvrerie médiévale carolingienne). Vitraux contemporains de Pierre Soulages (1994).",
       },
       {
         heading: "7. La voie verte de la vallée de la Cère",
-        body: "La voie verte de la Cère (45 km, d'Aurillac à Bort-les-Orgues) est aménagée sur l'ancienne ligne SNCF désaffectée — plate, ombragée, traverse 32 tunnels et viaducs. Étape Aurillac-Polminhac-Vic-sur-Cère (15 km) est la plus pratique pour une demi-journée. Vue sur les gorges de la Cère (rivière encaissée), villages perchés (Polminhac avec son château Renaissance de Pesteils, propriété privée mais visible).",
+        body: "La voie verte de la Cère (45 km, d'Aurillac à Bort-les-Orgues) est aménagée sur l'ancienne ligne SNCF désaffectée, plate, ombragée, traverse 32 tunnels et viaducs. Étape Aurillac-Polminhac-Vic-sur-Cère (15 km) est la plus pratique pour une demi-journée. Vue sur les gorges de la Cère (rivière encaissée), villages perchés (Polminhac avec son château Renaissance de Pesteils, propriété privée mais visible).",
       },
       {
         heading: "8. La maison de la Salers et les visites de fermes",
-        body: "La race bovine Salers (race rustique adaptée aux pâturages d'altitude, robe rouge acajou) est l'emblème agricole du Cantal — 200 000 têtes dans le département. La Maison de la Salers (à Salers — appellation à la fois village et fromage AOP) présente la race et les méthodes de production du fromage AOP Salers (uniquement de mai à octobre, lait des vaches à l'estive — 1 500 tonnes/an seulement). Fermes ouvertes au public : Lestrade (à Saint-Bonnet-de-Salers), Bonnet (à Aurillac).",
+        body: "La race bovine Salers (race rustique adaptée aux pâturages d'altitude, robe rouge acajou) est l'emblème agricole du Cantal, 200 000 têtes dans le département. La Maison de la Salers (à Salers, appellation à la fois village et fromage AOP) présente la race et les méthodes de production du fromage AOP Salers (uniquement de mai à octobre, lait des vaches à l'estive, 1 500 tonnes/an seulement). Fermes ouvertes au public : Lestrade (à Saint-Bonnet-de-Salers), Bonnet (à Aurillac).",
       },
       {
         heading: "9. Le Carladès et les châteaux médiévaux",
-        body: "Le Carladès (au sud d'Aurillac, vallée de la Cère vers le Sud) est l'une des régions les moins touristiques du Cantal — paysages préservés de bocage volcanique et de villages médiévaux. Château d'Anjony (à 25 km, XIVe siècle, conservé intact, propriété privée mais visite — fresques médiévales d'origine), village médiéval de Tournemire (plus beau village de France), village de Marcolès (cité monastique du XIVe siècle).",
+        body: "Le Carladès (au sud d'Aurillac, vallée de la Cère vers le Sud) est l'une des régions les moins touristiques du Cantal : paysages préservés de bocage volcanique et de villages médiévaux. Château d'Anjony (à 25 km, XIVe siècle, conservé intact, propriété privée mais visite, fresques médiévales d'origine), village médiéval de Tournemire (plus beau village de France), village de Marcolès (cité monastique du XIVe siècle).",
       },
       {
         heading: "10. Gastronomie auvergnate — truffade et fromages AOP",
-        body: "La cuisine auvergnate est une cuisine paysanne robuste et fromagère : truffade (galette de pommes de terre sautées au lard et tomme fraîche), aligot (purée fouettée avec tomme — étirable à 2 m), pounti (pain de viande aux pruneaux et bettes), potée auvergnate (chou, lard, saucisses). 5 fromages AOP du Cantal : Cantal (le plus connu), Salers (estive uniquement), Saint-Nectaire, Fourme d'Ambert, Bleu d'Auvergne. Vins : Saint-Pourçain (à 200 km), Côtes d'Auvergne (à 100 km). Lentille verte du Puy AOP (à 80 km).",
+        body: "La cuisine auvergnate est une cuisine paysanne robuste et fromagère : truffade (galette de pommes de terre sautées au lard et tomme fraîche), aligot (purée fouettée avec tomme, étirable à 2 m), pounti (pain de viande aux pruneaux et bettes), potée auvergnate (chou, lard, saucisses). 5 fromages AOP du Cantal : Cantal (le plus connu), Salers (estive uniquement), Saint-Nectaire, Fourme d'Ambert, Bleu d'Auvergne. Vins : Saint-Pourçain (à 200 km), Côtes d'Auvergne (à 100 km). Lentille verte du Puy AOP (à 80 km).",
       },
     ],
     relatedCities: ["aurillac"],
