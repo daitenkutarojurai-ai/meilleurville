@@ -214,8 +214,8 @@ R9.1 (`/auth` + `/connexion`, Supabase), R9.2 (`/favoris` + `/dashboard`), R9.3 
 R10.2 (`/villes/[slug]/empreinte` + `lib/city-fingerprint.ts` + `components/CityFingerprint.tsx`), R10.3 (`/climat-2040-timelapse`) shipped.
 
 ### Features IA (R11)
-- **R11.3 "Where people like YOU moved"** — Phase A shipped: `/portraits-types` (FR) + `/community-profiles` (EN). 6 fictional labeled archetypes with real niche scores. Phase B (post-R9.1): données réelles anonymisées. (Distinct from `/expat-retour`.)
-- **R11.5 Street Reality Score** — Google Street View Static API (~$12 pour 352 villes ×5 images) + Claude Vision (`claude-haiku` pour le coût). 5 axes: végétation, propreté, densité piétonne, luminosité, état bâtiments. Résultats en `data/street-scores.json`. Env vars: `GOOGLE_STREETVIEW_KEY`, `ANTHROPIC_API_KEY`. **Not done — needs budget.**
+- **R11.3 "Where people like YOU moved"** — Phase A: `/portraits-types` (FR) + `/community-profiles` (EN), 6 fictional labeled archetypes with real niche scores. Phase B (shipped): estimation model `lib/people-like-you.ts` (`migrationFor(origin, profile)` → upgrades/laterals by persona score over 17 `lib/profile-pages.ts` profiles). Surfaces: interactive `/people-like-you` (FR) + `/[locale]/people-like-you` (EN), and SSG per-origin landing pages `/ou-vont-les-gens/[ville]` (24 biggest departure cities, no-JS/indexable, same engine). Clearly labelled "modèle estimatif, pas de suivi"; swaps to real anonymized account flows once volume allows. (Distinct from `/depuis/[slug]` = weekend travel, and `/expat-retour`.)
+- **R11.5 Street Reality Score** — _removed from roadmap (2026-05-31)._
 
 R11.1 (`/future-you` + `lib/future-you.ts`), R11.2 (`/vibe` + `lib/vibe.ts`), R11.6 (`components/VsBattle.tsx`), R11.7 (`/copilot`) shipped.
 
