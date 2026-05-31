@@ -60,7 +60,7 @@ const FAQ_SECTIONS = [
     questions: [
       {
         q: "MaVilleIdeal vend-il des données à des tiers ?",
-        a: "Non. Nous ne vendons, ne louons, ni ne partageons vos données personnelles avec des tiers à des fins commerciales. Nos partenaires techniques (Vercel pour l'hébergement, Stripe pour les paiements) ont accès aux données strictement nécessaires à leur service. Voir notre politique de confidentialité complète.",
+        a: "Non. Nous ne vendons, ne louons, ni ne partageons vos données personnelles avec des tiers à des fins commerciales. Nos partenaires techniques (Cloudflare pour l'hébergement) ont accès aux données strictement nécessaires à leur service. Voir notre politique de confidentialité complète.",
       },
       {
         q: "Puis-je télécharger mes données personnelles ?",

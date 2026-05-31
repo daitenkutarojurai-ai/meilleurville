@@ -35,7 +35,7 @@ export default function LegalNoticePage() {
             6-III-2).
           </p>
           <p className="text-xs text-[var(--text-tertiary)] mt-1">
-            Last updated: 19 May 2026.
+            Last updated: 31 May 2026.
           </p>
         </div>
 
@@ -84,15 +84,15 @@ export default function LegalNoticePage() {
               Hosting provider
             </h2>
             <p>
-              Vercel Inc.
+              Cloudflare, Inc.
               <br />
-              340 S Lemon Ave #4133
+              101 Townsend Street
               <br />
-              Walnut, CA 91789, United States
+              San Francisco, CA 94107, United States
               <br />
-              Phone: +1 (559) 288-7060
+              Phone: +1 (888) 993-5273
               <br />
-              Website: vercel.com
+              Website: cloudflare.com
             </p>
           </div>
 
@@ -156,7 +156,7 @@ export default function LegalNoticePage() {
               Technical credits
             </h2>
             <p>
-              The site is built with Next.js (Vercel), Tailwind CSS, and uses
+              The site is built with Next.js, hosted on Cloudflare, Tailwind CSS, and uses
               the Open-Meteo public weather API alongside open datasets from
               Insee and data.gouv.fr.
             </p>

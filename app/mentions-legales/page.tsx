@@ -24,7 +24,7 @@ export default function MentionsLegalesPage() {
             dans l&apos;Économie Numérique (LCEN), articles 6-III-1 et 6-III-2.
           </p>
           <p className="text-xs text-[var(--text-tertiary)] mt-1">
-            Dernière mise à jour : 19 mai 2026.
+            Dernière mise à jour : 31 mai 2026.
           </p>
         </div>
 
@@ -70,15 +70,15 @@ export default function MentionsLegalesPage() {
               Hébergement
             </h2>
             <p>
-              Vercel Inc.
+              Cloudflare, Inc.
               <br />
-              340 S Lemon Ave #4133
+              101 Townsend Street
               <br />
-              Walnut, CA 91789, États-Unis
+              San Francisco, CA 94107, États-Unis
               <br />
-              Téléphone : +1 (559) 288-7060
+              Téléphone : +1 (888) 993-5273
               <br />
-              Site : vercel.com
+              Site : cloudflare.com
             </p>
           </div>
 
@@ -144,7 +144,7 @@ export default function MentionsLegalesPage() {
               Crédits technologiques
             </h2>
             <p>
-              Ce site est construit avec Next.js (Vercel), Tailwind CSS, et
+              Ce site est construit avec Next.js, hébergé sur Cloudflare, Tailwind CSS, et
               utilise les API publiques Open-Meteo (météo) et les jeux de
               données ouverts de l&apos;Insee et data.gouv.fr.
             </p>

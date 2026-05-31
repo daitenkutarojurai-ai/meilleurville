@@ -35,7 +35,7 @@ The site has no Data Protection Officer (DPO) and no joint controller — the pu
 
 • Email address — only if you subscribe to the newsletter or post a review.
 • Reviews and comments you publish voluntarily (text, scores, tags).
-• Technical access logs managed by our hosting provider Vercel: IP address (anonymised within 30 days), user-agent, requested URL. These logs are used to detect abuse and to size infrastructure.
+• Technical access logs managed by our hosting provider Cloudflare: IP address (anonymised within 30 days), user-agent, requested URL. These logs are used to detect abuse and to size infrastructure.
 • Quiz answers and favourites — stored only in your browser via localStorage. This data is never sent to our server.
 
 We never collect: precise geolocation, payment data, health data, political, religious or trade-union opinions, or any sensitive data within the meaning of article 9 of the GDPR.`,
@@ -74,7 +74,7 @@ All affiliate links are labelled "partner link" and carry the HTML rel="sponsore
     title: "6. Data retention",
     content: `• Newsletter email address: until you unsubscribe.
 • Public reviews and comments: kept while the site exists, unless you ask for deletion.
-• Vercel technical access logs: 30 days, then automatic anonymisation.
+• Cloudflare technical access logs: 30 days, then automatic anonymisation.
 • Local preferences (favourites, quiz): only on your device — we never have a copy.
 
 You can request deletion of your data at any time.`,
@@ -99,7 +99,7 @@ If you believe your rights have been infringed, you can lodge a complaint with t
     title: "8. Processors and recipients",
     content: `Your data may be processed by the following technical providers, exclusively for the purposes described above:
 
-• Vercel Inc. (United States) — hosting, CDN, technical logs. Vercel is certified under the EU–US Data Privacy Framework, which governs personal-data transfers to the United States (European Commission adequacy decision of 10 July 2023).
+• Cloudflare, Inc. (United States) — hosting, CDN, technical logs. Cloudflare is certified under the EU–US Data Privacy Framework, which governs personal-data transfers to the United States (European Commission adequacy decision of 10 July 2023).
 • Booking.com B.V. (Netherlands) — only if you click a partner link; no data is shared upstream.
 
 We never sell your data. We never share it with data brokers, ad networks or profiling platforms.`,
@@ -112,7 +112,7 @@ We never sell your data. We never share it with data brokers, ad networks or pro
     title: "10. Policy updates",
     content: `We may update this policy to reflect technical, legal or editorial changes. Any material change (new data category, new processor, new purpose) will be highlighted at the top of this page for at least 30 days.
 
-Last updated: 19 May 2026.`,
+Last updated: 31 May 2026.`,
   },
 ];
 
