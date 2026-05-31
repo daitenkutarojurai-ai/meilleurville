@@ -75,7 +75,19 @@ const METRIC_ICON: Record<ClimateMetric, typeof Thermometer> = {
   tropicalNights: Moon,
 };
 
-export function TimelapseClient() {
+const METRIC_LABEL_EN: Record<ClimateMetric, { label: string; unit: string }> = {
+  julyC: { label: "July temperature", unit: "°C" },
+  days30C: { label: "Days above 30 °C / yr", unit: "d" },
+  tropicalNights: { label: "Tropical nights", unit: "n" },
+};
+
+export function TimelapseClient({ locale = "fr" }: { locale?: "fr" | "en" } = {}) {
+  const t = <T,>(fr: T, en: T): T => (locale === "en" ? en : fr);
+  const cityHref = (slug: string) => (locale === "en" ? `/cities/${slug}` : `/villes/${slug}`);
+  const metricLabel = (m: ClimateMetric) =>
+    locale === "en" ? METRIC_LABEL_EN[m].label : METRIC_META[m].label;
+  const metricUnit = (m: ClimateMetric) =>
+    locale === "en" ? METRIC_LABEL_EN[m].unit : METRIC_META[m].unit;
   const [year, setYear] = useState(CLIMATE_TIMELINE_MIN_YEAR);
   const [metric, setMetric] = useState<ClimateMetric>("days30C");
   const [playing, setPlaying] = useState(false);
@@ -124,8 +136,6 @@ export function TimelapseClient() {
     ) / 10;
   }, [interpolatedCities]);
 
-  const meta = METRIC_META[metric];
-
   return (
     <div className="space-y-6">
       {/* Controls */}
@@ -147,7 +157,7 @@ export function TimelapseClient() {
                 }
               >
                 <Icon className="h-3.5 w-3.5" />
-                {METRIC_META[m].label}
+                {metricLabel(m)}
               </button>
             );
           })}
@@ -158,14 +168,14 @@ export function TimelapseClient() {
             type="button"
             onClick={() => setPlaying((p) => !p)}
             className="rounded-full bg-[var(--accent)] text-white h-10 w-10 inline-flex items-center justify-center shadow-md hover:shadow-lg transition-shadow"
-            aria-label={playing ? "Pause" : "Lecture"}
+            aria-label={playing ? t("Pause", "Pause") : t("Lecture", "Play")}
           >
             {playing ? <Pause className="h-4 w-4" /> : <Play className="h-4 w-4 ml-0.5" />}
           </button>
           <div className="flex-1">
             <div className="flex items-baseline justify-between mb-1">
               <span className="text-[10px] uppercase tracking-widest font-semibold text-[var(--text-tertiary)]">
-                Année projetée
+                {t("Année projetée", "Projected year")}
               </span>
               <span className="text-2xl font-bold font-mono-data text-[var(--text-primary)]">
                 {year}
@@ -181,7 +191,7 @@ export function TimelapseClient() {
                 setPlaying(false);
                 setYear(Number(e.target.value));
               }}
-              aria-label="Année de projection"
+              aria-label={t("Année de projection", "Projection year")}
               className="w-full accent-[var(--accent)]"
             />
             <div className="flex justify-between text-[10px] text-[var(--text-tertiary)] font-mono-data mt-0.5">
@@ -192,9 +202,18 @@ export function TimelapseClient() {
         </div>
 
         <p className="mt-3 text-[11px] text-[var(--text-tertiary)] text-center">
-          Projection ARPEGE / GIEC interpolée linéairement par macro-région — pas
-          une prévision ville par ville. Le 2040 affiché correspond à l&apos;horizon
-          médian RCP4.5/8.5.
+          {t(
+            <>
+              Projection ARPEGE / GIEC interpolée linéairement par macro-région — pas
+              une prévision ville par ville. Le 2040 affiché correspond à l&apos;horizon
+              médian RCP4.5/8.5.
+            </>,
+            <>
+              ARPEGE / IPCC projection interpolated linearly by macro-region — not a
+              city-by-city forecast. The 2040 figure reflects the median RCP4.5/8.5
+              horizon.
+            </>,
+          )}
         </p>
       </section>
 
@@ -205,10 +224,10 @@ export function TimelapseClient() {
             background: "radial-gradient(ellipse 80% 100% at 50% 0%, #1F3A2A 0%, #15301F 55%, #0B1E14 100%)",
           }}>
           <div className="mb-2 flex items-center justify-between text-[11px] uppercase tracking-widest font-semibold text-[#84CC16]/80">
-            <span>{meta.label}</span>
-            <span>moyenne France · <span className="text-white font-mono-data">{avg} {meta.unit}</span></span>
+            <span>{metricLabel(metric)}</span>
+            <span>{t("moyenne France", "France average")} · <span className="text-white font-mono-data">{avg} {metricUnit(metric)}</span></span>
           </div>
-          <svg viewBox={`0 0 ${W} ${H}`} className="w-full h-auto" role="img" aria-label={`Carte timelapse climat ${year} — ${meta.label}`}>
+          <svg viewBox={`0 0 ${W} ${H}`} className="w-full h-auto" role="img" aria-label={`${t("Carte timelapse climat", "Climate timelapse map")} ${year} — ${metricLabel(metric)}`}>
             <defs>
               <radialGradient id="tlFill" cx="50%" cy="40%" r="60%">
                 <stop offset="0%" stopColor="#34D399" stopOpacity="0.16" />
@@ -237,7 +256,7 @@ export function TimelapseClient() {
             {interpolatedCities.map((c) => {
               const r = c.population > 200000 ? 7 : c.population > 80000 ? 5 : c.population > 30000 ? 4 : 3;
               return (
-                <a key={c.slug} href={`/villes/${c.slug}`} aria-label={`${c.name} — ${c.value.toFixed(1)} ${meta.unit}`} className="tl-dot">
+                <a key={c.slug} href={cityHref(c.slug)} aria-label={`${c.name} — ${c.value.toFixed(1)} ${metricUnit(metric)}`} className="tl-dot">
                   <circle cx={c.x} cy={c.y} r={r * 2.6} fill={c.color} opacity="0.18" filter="url(#tlDotGlow)" />
                   <circle cx={c.x} cy={c.y} r={r * 1.5} fill={c.color} opacity="0.35" />
                   <circle cx={c.x} cy={c.y} r={r} fill={c.color} stroke="white" strokeWidth="1" />
@@ -249,12 +268,12 @@ export function TimelapseClient() {
           {/* Legend */}
           <div className="mt-3 flex flex-wrap items-center justify-center gap-x-3 gap-y-1.5 text-[10px] font-mono-data text-[#C4D5C0]">
             {[
-              { c: "#3B82F6", l: "très bas" },
-              { c: "#22D3EE", l: "bas" },
-              { c: "#84CC16", l: "modéré" },
-              { c: "#F59E0B", l: "élevé" },
-              { c: "#F97316", l: "très élevé" },
-              { c: "#EF4444", l: "sévère" },
+              { c: "#3B82F6", l: t("très bas", "very low") },
+              { c: "#22D3EE", l: t("bas", "low") },
+              { c: "#84CC16", l: t("modéré", "moderate") },
+              { c: "#F59E0B", l: t("élevé", "high") },
+              { c: "#F97316", l: t("très élevé", "very high") },
+              { c: "#EF4444", l: t("sévère", "severe") },
             ].map((s) => (
               <span key={s.l} className="flex items-center gap-1">
                 <span className="h-2 w-2 rounded-full" style={{ background: s.c, boxShadow: `0 0 6px ${s.c}` }} />
@@ -268,16 +287,16 @@ export function TimelapseClient() {
         <aside className="space-y-3">
           <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-4">
             <h3 className="text-[10px] font-bold uppercase tracking-widest text-[var(--text-tertiary)] mb-2">
-              Top 5 affectées en {year}
+              {t("Top 5 affectées en", "Top 5 most affected in")} {year}
             </h3>
             <ul className="space-y-1.5">
               {top5.map((c, i) => (
                 <li key={c.slug}>
-                  <Link href={`/villes/${c.slug}`} className="flex items-center gap-2 group">
+                  <Link href={cityHref(c.slug)} className="flex items-center gap-2 group">
                     <span className="text-[10px] font-mono-data text-[var(--text-tertiary)] w-4">{i + 1}</span>
                     <span className="flex-1 text-sm text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors truncate">{c.name}</span>
                     <span className="font-mono-data text-sm font-bold" style={{ color: c.color }}>
-                      {c.value.toFixed(meta.unit === "°C" ? 1 : 0)}{meta.unit !== "°C" ? "" : ""}
+                      {c.value.toFixed(metricUnit(metric) === "°C" ? 1 : 0)}{metricUnit(metric) !== "°C" ? "" : ""}
                     </span>
                   </Link>
                 </li>
@@ -292,10 +311,10 @@ export function TimelapseClient() {
             <div className="flex items-center justify-between">
               <div>
                 <div className="text-sm font-semibold text-[var(--text-primary)]">
-                  Guides Climat 2040
+                  {t("Guides Climat 2040", "Climate 2040 guides")}
                 </div>
                 <div className="text-[10px] text-[var(--text-tertiary)] mt-0.5">
-                  15 macro-régions analysées
+                  {t("15 macro-régions analysées", "15 macro-regions analysed")}
                 </div>
               </div>
               <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)]" />

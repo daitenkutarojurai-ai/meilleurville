@@ -63,11 +63,59 @@ const PRIORITY_KEYS: ProjectionPriority[] = [
 
 const MAX_PRIORITIES = 3;
 
+const LIFE_STAGE_LABEL_EN: Record<LifeStageIn5Years, { label: string; desc: string }> = {
+  same:         { label: "Same situation",          desc: "My life stays roughly the same" },
+  with_partner: { label: "With a partner",          desc: "I'll be in a relationship (or already am)" },
+  with_kids:    { label: "Family with young kids",  desc: "I'll have young children" },
+  kids_growing: { label: "Kids in their teens",     desc: "My children will be teenagers" },
+  remote_full:  { label: "Fully remote",            desc: "I'll work from home full-time" },
+  retiring:     { label: "Retired (or close to it)",desc: "I'll retire within 5 years" },
+  freelance:    { label: "Freelance / self-employed",desc: "I'll be working for myself" },
+};
+
+const BUDGET_TRAJ_LABEL_EN: Record<BudgetTrajectory, { label: string; desc: string }> = {
+  stable:     { label: "Stable",        desc: "Income similar to today" },
+  growing:    { label: "Rising",        desc: "I expect my income to grow" },
+  downsizing: { label: "Tighter budget",desc: "I'll be scaling back my lifestyle" },
+  buying:     { label: "Looking to buy",desc: "Buying a home is a concrete plan" },
+};
+
+const PRIORITY_LABEL_EN: Record<ProjectionPriority, string> = {
+  cost:      "Cost of living",
+  nature:    "Nature",
+  safety:    "Safety",
+  culture:   "Culture",
+  schools:   "Schools",
+  remote:    "Remote work",
+  transport: "Transport",
+};
+
+const CLIMATE_RISK_LABEL_EN: Record<"low" | "med" | "high", string> = {
+  low:  "Low",
+  med:  "Moderate",
+  high: "High",
+};
+
 export function ProjectionClient({
   initialCode,
+  locale = "fr",
 }: {
   initialCode?: string | null;
+  locale?: "fr" | "en";
 }) {
+  const t = (fr: string, en: string) => (locale === "en" ? en : fr);
+  const cityHref = (slug: string) =>
+    locale === "en" ? `/cities/${slug}` : `/villes/${slug}`;
+  const lifeStageLabel = (s: LifeStageIn5Years) =>
+    locale === "en" ? LIFE_STAGE_LABEL_EN[s].label : LIFE_STAGE_META[s].label;
+  const lifeStageDesc = (s: LifeStageIn5Years) =>
+    locale === "en" ? LIFE_STAGE_LABEL_EN[s].desc : LIFE_STAGE_META[s].desc;
+  const budgetLabel = (b: BudgetTrajectory) =>
+    locale === "en" ? BUDGET_TRAJ_LABEL_EN[b].label : BUDGET_TRAJ_META[b].label;
+  const budgetDesc = (b: BudgetTrajectory) =>
+    locale === "en" ? BUDGET_TRAJ_LABEL_EN[b].desc : BUDGET_TRAJ_META[b].desc;
+  const priorityLabel = (p: ProjectionPriority) =>
+    locale === "en" ? PRIORITY_LABEL_EN[p] : PROJECTION_PRIORITY_META[p].label;
   const [phase, setPhase] = useState<Phase>(initialCode ? "result" : "intro");
   const [step, setStep] = useState<Step>(0);
   const [lifeStage, setLifeStage] = useState<LifeStageIn5Years>("same");
@@ -116,8 +164,14 @@ export function ProjectionClient({
     if (navigator.share) {
       try {
         await navigator.share({
-          title: `Ma projection 5 ans — ${result?.top[0]?.city.name ?? ""}`,
-          text: "Où devrais-je vivre dans 5 ans ? Ma projection sur mavilleideale.fr",
+          title: t(
+            `Ma projection 5 ans — ${result?.top[0]?.city.name ?? ""}`,
+            `My 5-year projection — ${result?.top[0]?.city.name ?? ""}`,
+          ),
+          text: t(
+            "Où devrais-je vivre dans 5 ans ? Ma projection sur mavilleideale.fr",
+            "Where should I live in 5 years? My projection on bestcitiesinfrance.com",
+          ),
           url,
         });
         return;
@@ -145,7 +199,7 @@ export function ProjectionClient({
         body: JSON.stringify({
           citySlug: top1.city.slug,
           cityName: top1.city.name,
-          label: `${LIFE_STAGE_META[input.lifeIn5Years].label} · ${BUDGET_TRAJ_META[input.budgetTraj].label}`,
+          label: `${lifeStageLabel(input.lifeIn5Years)} · ${budgetLabel(input.budgetTraj)}`,
           payload: { code, topSlugs: result.top.map((r) => r.city.slug) },
         }),
       });
@@ -178,15 +232,25 @@ export function ProjectionClient({
     return (
       <div className="rounded-3xl border border-[var(--border)] bg-gradient-to-br from-amber-50/50 to-rose-50/30 dark:from-amber-900/10 dark:to-rose-900/5 p-8 sm:p-12 text-center shadow-sm">
         <div className="inline-flex items-center gap-1.5 rounded-full bg-amber-500/15 px-3 py-1 text-[10px] font-bold uppercase tracking-widest text-amber-700 dark:text-amber-400 mb-4">
-          <Telescope className="h-3 w-3" /> 3 étapes · 2 minutes
+          <Telescope className="h-3 w-3" /> {t("3 étapes · 2 minutes", "3 steps · 2 minutes")}
         </div>
         <h2 className="text-3xl sm:text-4xl font-bold text-[var(--text-primary)] mb-3">
-          Où devriez-vous vivre dans 5 ans ?
+          {t("Où devriez-vous vivre dans 5 ans ?", "Where should you live in 5 years?")}
         </h2>
         <p className="text-base text-[var(--text-secondary)] max-w-xl mx-auto mb-8 leading-relaxed">
-          Pas « où vivre aujourd&apos;hui » : où vivre <em>dans 5 ans</em>,
-          compte tenu de ce que vous serez — famille, carrière, budget, et d&apos;un
-          climat 2040 qui ne ressemblera pas au climat 2025.
+          {locale === "en" ? (
+            <>
+              Not &laquo; where to live today &raquo;: where to live <em>in 5 years</em>,
+              given who you&apos;ll be — family, career, budget, and a 2040 climate
+              that won&apos;t look like the climate of 2025.
+            </>
+          ) : (
+            <>
+              Pas « où vivre aujourd&apos;hui » : où vivre <em>dans 5 ans</em>,
+              compte tenu de ce que vous serez — famille, carrière, budget, et d&apos;un
+              climat 2040 qui ne ressemblera pas au climat 2025.
+            </>
+          )}
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-3 mb-8">
           <button
@@ -194,12 +258,12 @@ export function ProjectionClient({
             onClick={() => { setPhase("wizard"); setStep(0); }}
             className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-amber-500 to-rose-500 text-white px-7 py-3 text-base font-semibold shadow-lg shadow-amber-500/25 hover:shadow-xl hover:opacity-90 transition-all"
           >
-            Commencer
+            {t("Commencer", "Get started")}
             <ArrowRight className="h-4 w-4" />
           </button>
         </div>
         <p className="text-xs text-[var(--text-tertiary)]">
-          Aucun email. Lien partageable. 352 villes analysées.
+          {t("Aucun email. Lien partageable. 352 villes analysées.", "No email. Shareable link. 352 cities analysed.")}
         </p>
       </div>
     );
@@ -207,7 +271,9 @@ export function ProjectionClient({
 
   // ── WIZARD ───────────────────────────────────────────────────────────────────
   if (phase === "wizard") {
-    const steps = ["Situation dans 5 ans", "Budget & climat", "Priorités"];
+    const steps = locale === "en"
+      ? ["Situation in 5 years", "Budget & climate", "Priorities"]
+      : ["Situation dans 5 ans", "Budget & climat", "Priorités"];
     const progress = ((step + 1) / 3) * 100;
 
     return (
@@ -218,7 +284,7 @@ export function ProjectionClient({
             type="button"
             onClick={() => (step === 0 ? setPhase("intro") : setStep((s) => (s - 1) as Step))}
             className="rounded-full bg-[var(--bg-elevated)] h-9 w-9 inline-flex items-center justify-center text-[var(--text-secondary)] hover:bg-amber-500/10 hover:text-amber-600 transition"
-            aria-label="Étape précédente"
+            aria-label={t("Étape précédente", "Previous step")}
           >
             <ArrowLeft className="h-4 w-4" />
           </button>
@@ -249,10 +315,10 @@ export function ProjectionClient({
             <div className="text-center mb-6">
               <div className="text-5xl mb-3">🔭</div>
               <h3 className="text-xl sm:text-2xl font-bold text-[var(--text-primary)]">
-                Votre situation dans 5 ans ?
+                {t("Votre situation dans 5 ans ?", "Your situation in 5 years?")}
               </h3>
               <p className="text-sm text-[var(--text-secondary)] mt-1">
-                Choisissez la trajectoire la plus proche de votre réalité.
+                {t("Choisissez la trajectoire la plus proche de votre réalité.", "Pick the trajectory closest to your reality.")}
               </p>
             </div>
             <div className="grid gap-3 sm:grid-cols-2">
@@ -278,9 +344,9 @@ export function ProjectionClient({
                           "text-sm font-semibold transition-colors " +
                           (selected ? "text-amber-700 dark:text-amber-400" : "text-[var(--text-primary)] group-hover:text-amber-600")
                         }>
-                          {m.label}
+                          {lifeStageLabel(s)}
                         </span>
-                        <p className="text-xs text-[var(--text-tertiary)] mt-0.5">{m.desc}</p>
+                        <p className="text-xs text-[var(--text-tertiary)] mt-0.5">{lifeStageDesc(s)}</p>
                       </div>
                     </div>
                   </button>
@@ -291,12 +357,12 @@ export function ProjectionClient({
             {/* Optional: current city */}
             <div className="mt-5 border-t border-[var(--border)] pt-4">
               <p className="text-xs text-[var(--text-secondary)] mb-2">
-                Ville actuelle (optionnel — pour calculer l&apos;écart de score) :
+                {t("Ville actuelle (optionnel — pour calculer l'écart de score) :", "Current city (optional — to compute the score gap):")}
               </p>
               <div className="relative">
                 <input
                   type="text"
-                  placeholder="Ex : Paris, Lyon, Bordeaux…"
+                  placeholder={t("Ex : Paris, Lyon, Bordeaux…", "e.g. Paris, Lyon, Bordeaux…")}
                   value={cityQuery}
                   onChange={(e) => setCityQuery(e.target.value)}
                   className="w-full rounded-xl border border-[var(--border)] bg-[var(--bg-canvas)] px-4 py-2.5 text-sm text-[var(--text-primary)] placeholder:text-[var(--text-tertiary)] focus:outline-none focus:border-amber-400 transition"
@@ -325,10 +391,10 @@ export function ProjectionClient({
               </div>
               {currentCity && (
                 <p className="mt-1.5 text-xs text-amber-600 font-medium">
-                  Ville actuelle : {CITIES_SEED.find((c) => c.slug === currentCity)?.name}
+                  {t("Ville actuelle :", "Current city:")} {CITIES_SEED.find((c) => c.slug === currentCity)?.name}
                   {" "}
                   <button type="button" onClick={() => { setCurrentCity(""); setCityQuery(""); }} className="underline text-[var(--text-tertiary)]">
-                    Effacer
+                    {t("Effacer", "Clear")}
                   </button>
                 </p>
               )}
@@ -346,23 +412,23 @@ export function ProjectionClient({
             <div className="text-center">
               <div className="text-5xl mb-3">💰</div>
               <h3 className="text-xl sm:text-2xl font-bold text-[var(--text-primary)]">
-                Budget et sensibilité au climat
+                {t("Budget et sensibilité au climat", "Budget and climate sensitivity")}
               </h3>
             </div>
 
             <div>
               <p className="text-sm font-semibold text-[var(--text-secondary)] mb-2">
-                Trajectoire budgétaire dans 5 ans
+                {t("Trajectoire budgétaire dans 5 ans", "Budget trajectory in 5 years")}
               </p>
               <div className="grid gap-3 sm:grid-cols-2">
-                {BUDGET_TRAJS.map((t) => {
-                  const m = BUDGET_TRAJ_META[t];
-                  const selected = budgetTraj === t;
+                {BUDGET_TRAJS.map((bt) => {
+                  const m = BUDGET_TRAJ_META[bt];
+                  const selected = budgetTraj === bt;
                   return (
                     <button
-                      key={t}
+                      key={bt}
                       type="button"
-                      onClick={() => setBudgetTraj(t)}
+                      onClick={() => setBudgetTraj(bt)}
                       className={
                         "group rounded-2xl border p-4 text-left transition-all hover:-translate-y-0.5 " +
                         (selected
@@ -377,9 +443,9 @@ export function ProjectionClient({
                             "text-sm font-semibold transition-colors " +
                             (selected ? "text-amber-700 dark:text-amber-400" : "text-[var(--text-primary)]")
                           }>
-                            {m.label}
+                            {budgetLabel(bt)}
                           </span>
-                          <p className="text-xs text-[var(--text-tertiary)] mt-0.5">{m.desc}</p>
+                          <p className="text-xs text-[var(--text-tertiary)] mt-0.5">{budgetDesc(bt)}</p>
                         </div>
                       </div>
                     </button>
@@ -390,11 +456,15 @@ export function ProjectionClient({
 
             <div>
               <p className="text-sm font-semibold text-[var(--text-secondary)] mb-2">
-                Sensibilité au réchauffement climatique (horizon 2040)
+                {t("Sensibilité au réchauffement climatique (horizon 2040)", "Sensitivity to global warming (2040 horizon)")}
               </p>
               <div className="grid grid-cols-3 gap-2">
                 {(["low", "med", "high"] as const).map((level) => {
-                  const labels = {
+                  const labels = locale === "en" ? {
+                    low: { emoji: "🌤️", label: "Low", desc: "I'll adapt" },
+                    med: { emoji: "🌡️", label: "Moderate", desc: "It matters" },
+                    high: { emoji: "🔥", label: "High", desc: "Major factor" },
+                  } as const : {
                     low: { emoji: "🌤️", label: "Faible", desc: "Je m'adapterai" },
                     med: { emoji: "🌡️", label: "Modérée", desc: "Ça compte" },
                     high: { emoji: "🔥", label: "Forte", desc: "Critère majeur" },
@@ -432,7 +502,7 @@ export function ProjectionClient({
               onClick={() => setStep(2)}
               className="w-full rounded-full bg-gradient-to-r from-amber-500 to-rose-500 text-white py-3 font-semibold shadow-md hover:opacity-90 transition flex items-center justify-center gap-2"
             >
-              Suivant <ArrowRight className="h-4 w-4" />
+              {t("Suivant", "Next")} <ArrowRight className="h-4 w-4" />
             </button>
           </div>
         )}
@@ -447,10 +517,10 @@ export function ProjectionClient({
             <div className="text-center">
               <div className="text-5xl mb-3">🎯</div>
               <h3 className="text-xl sm:text-2xl font-bold text-[var(--text-primary)]">
-                Vos 3 critères prioritaires
+                {t("Vos 3 critères prioritaires", "Your top 3 priorities")}
               </h3>
               <p className="text-sm text-[var(--text-secondary)] mt-1">
-                Sélectionnez jusqu&apos;à {MAX_PRIORITIES} critères.{" "}
+                {t(`Sélectionnez jusqu'à ${MAX_PRIORITIES} critères.`, `Pick up to ${MAX_PRIORITIES} criteria.`)}{" "}
                 <span className="font-mono-data text-amber-600">{priorities.length}/{MAX_PRIORITIES}</span>
               </p>
             </div>
@@ -481,7 +551,7 @@ export function ProjectionClient({
                         "text-xs font-semibold " +
                         (selected ? "text-amber-700 dark:text-amber-400" : "text-[var(--text-primary)]")
                       }>
-                        {m.label}
+                        {priorityLabel(p)}
                       </span>
                       {selected && <Check className="h-3 w-3 text-amber-600 ml-auto flex-shrink-0" />}
                     </div>
@@ -497,7 +567,7 @@ export function ProjectionClient({
               className="w-full rounded-full bg-gradient-to-r from-amber-500 to-rose-500 text-white py-3 font-semibold shadow-md hover:opacity-90 transition flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
             >
               <Sparkles className="h-4 w-4" />
-              Calculer ma projection
+              {t("Calculer ma projection", "Compute my projection")}
             </button>
           </div>
         )}
@@ -524,33 +594,35 @@ export function ProjectionClient({
     <div className="space-y-6">
       <div className="text-center">
         <div className="inline-flex items-center gap-1.5 rounded-full bg-amber-500/15 px-3 py-1 text-[10px] font-bold uppercase tracking-widest text-amber-700 dark:text-amber-400 mb-3">
-          <Telescope className="h-3 w-3" /> Projection 5 ans
+          <Telescope className="h-3 w-3" /> {t("Projection 5 ans", "5-year projection")}
         </div>
         <h2 className="text-3xl sm:text-4xl font-bold text-[var(--text-primary)] mb-2">
           {top1 ? (
-            <>Dans 5 ans — <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-500 to-rose-500">{top1.city.name}</span> ({top1.score}/100)</>
+            <>{t("Dans 5 ans —", "In 5 years —")} <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-500 to-rose-500">{top1.city.name}</span> ({top1.score}/100)</>
           ) : (
-            "Votre projection"
+            t("Votre projection", "Your projection")
           )}
         </h2>
         <p className="text-sm text-[var(--text-secondary)] max-w-xl mx-auto">
-          Résultat basé sur votre trajectoire ({LIFE_STAGE_META[input.lifeIn5Years].label}),
-          votre budget ({BUDGET_TRAJ_META[input.budgetTraj].label}) et le risque climatique 2040.
+          {t(
+            `Résultat basé sur votre trajectoire (${lifeStageLabel(input.lifeIn5Years)}), votre budget (${budgetLabel(input.budgetTraj)}) et le risque climatique 2040.`,
+            `Result based on your trajectory (${lifeStageLabel(input.lifeIn5Years)}), your budget (${budgetLabel(input.budgetTraj)}) and the 2040 climate risk.`,
+          )}
         </p>
       </div>
 
       <div className="grid gap-4 md:grid-cols-3">
         {top.map((r, i) => (
-          <ProjectionCard key={r.city.slug} r={r} rank={i + 1} highlight={i === 0} />
+          <ProjectionCard key={r.city.slug} r={r} rank={i + 1} highlight={i === 0} locale={locale} />
         ))}
       </div>
 
       {surprise && (
         <div className="rounded-3xl border border-amber-400/30 bg-amber-50/50 dark:bg-amber-900/10 p-5">
           <div className="text-[10px] font-bold uppercase tracking-widest text-amber-600 mb-3 flex items-center gap-1.5">
-            <Sparkles className="h-3 w-3" /> Match surprise — hors des sentiers battus
+            <Sparkles className="h-3 w-3" /> {t("Match surprise — hors des sentiers battus", "Surprise match — off the beaten path")}
           </div>
-          <ProjectionCard r={surprise} rank={null} highlight={false} />
+          <ProjectionCard r={surprise} rank={null} highlight={false} locale={locale} />
         </div>
       )}
 
@@ -558,14 +630,14 @@ export function ProjectionClient({
       <div className="grid sm:grid-cols-2 gap-3">
         {top1 && (
           <Link
-            href={`/comparer/${input.currentCity && input.currentCity !== top1.city.slug ? `${input.currentCity}-vs-${top1.city.slug}` : top1.city.slug}`}
+            href={`${locale === "en" ? "/compare" : "/comparer"}/${input.currentCity && input.currentCity !== top1.city.slug ? `${input.currentCity}-vs-${top1.city.slug}` : top1.city.slug}`}
             className="group rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-4 hover:border-amber-400 transition-colors"
           >
-            <p className="text-xs uppercase tracking-widest font-bold text-[var(--text-tertiary)] mb-1">Comparer</p>
+            <p className="text-xs uppercase tracking-widest font-bold text-[var(--text-tertiary)] mb-1">{t("Comparer", "Compare")}</p>
             <p className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-amber-600 transition-colors">
               {input.currentCity
-                ? `Ma ville actuelle vs ${top1.city.name} →`
-                : `Détails sur ${top1.city.name} →`}
+                ? t(`Ma ville actuelle vs ${top1.city.name} →`, `My current city vs ${top1.city.name} →`)
+                : t(`Détails sur ${top1.city.name} →`, `Details on ${top1.city.name} →`)}
             </p>
           </Link>
         )}
@@ -573,9 +645,13 @@ export function ProjectionClient({
           href="/city-match"
           className="group rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-4 hover:border-[var(--accent)] transition-colors"
         >
-          <p className="text-xs uppercase tracking-widest font-bold text-[var(--text-tertiary)] mb-1">Présent</p>
+          <p className="text-xs uppercase tracking-widest font-bold text-[var(--text-tertiary)] mb-1">{t("Présent", "Present")}</p>
           <p className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
-            Quelle ville me correspond <em>maintenant</em> ? →
+            {locale === "en" ? (
+              <>Which city fits me <em>right now</em>? →</>
+            ) : (
+              <>Quelle ville me correspond <em>maintenant</em> ? →</>
+            )}
           </p>
         </Link>
       </div>
@@ -588,9 +664,9 @@ export function ProjectionClient({
           className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-amber-500 to-rose-500 text-white px-5 py-2.5 text-sm font-semibold shadow-md hover:opacity-90 transition-all"
         >
           {copied ? (
-            <><Check className="h-4 w-4" /> Lien copié</>
+            <><Check className="h-4 w-4" /> {t("Lien copié", "Link copied")}</>
           ) : (
-            <><Share2 className="h-4 w-4" /> Partager ma projection</>
+            <><Share2 className="h-4 w-4" /> {t("Partager ma projection", "Share my projection")}</>
           )}
         </button>
         <button
@@ -600,11 +676,11 @@ export function ProjectionClient({
           className="inline-flex items-center gap-2 rounded-full border border-[var(--border)] bg-[var(--bg-surface)] text-[var(--text-secondary)] px-5 py-2.5 text-sm font-medium hover:border-amber-400 transition-all disabled:opacity-70"
         >
           {saveState === "saving" ? (
-            <><Loader2 className="h-4 w-4 animate-spin" /> Sauvegarde…</>
+            <><Loader2 className="h-4 w-4 animate-spin" /> {t("Sauvegarde…", "Saving…")}</>
           ) : saveState === "saved" ? (
-            <><Check className="h-4 w-4 text-amber-600" /> Sauvegardée dans mon espace</>
+            <><Check className="h-4 w-4 text-amber-600" /> {t("Sauvegardée dans mon espace", "Saved to my account")}</>
           ) : (
-            <><Bookmark className="h-4 w-4" /> Sauvegarder ma projection</>
+            <><Bookmark className="h-4 w-4" /> {t("Sauvegarder ma projection", "Save my projection")}</>
           )}
         </button>
         <button
@@ -613,15 +689,18 @@ export function ProjectionClient({
           className="inline-flex items-center gap-2 rounded-full border border-[var(--border)] bg-[var(--bg-surface)] text-[var(--text-secondary)] px-5 py-2.5 text-sm font-medium hover:border-amber-400 transition-all"
         >
           <RotateCcw className="h-4 w-4" />
-          Refaire
+          {t("Refaire", "Start over")}
         </button>
       </div>
       {saveState === "error" && (
-        <p className="text-center text-xs text-rose-600">Sauvegarde impossible. Réessayez.</p>
+        <p className="text-center text-xs text-rose-600">{t("Sauvegarde impossible. Réessayez.", "Could not save. Please try again.")}</p>
       )}
 
       <p className="text-center text-xs text-[var(--text-tertiary)]">
-        Projection indicative — moteur déterministe, données seed + Climat 2040 ARPEGE. Aucun algorithme opaque.
+        {t(
+          "Projection indicative — moteur déterministe, données seed + Climat 2040 ARPEGE. Aucun algorithme opaque.",
+          "Indicative projection — deterministic engine, seed data + Climate 2040 ARPEGE. No opaque algorithm.",
+        )}
       </p>
     </div>
   );
@@ -631,12 +710,16 @@ function ProjectionCard({
   r,
   rank,
   highlight,
+  locale = "fr",
 }: {
   r: ProjectionResult;
   rank: number | null;
   highlight: boolean;
+  locale?: "fr" | "en";
 }) {
+  const t = (fr: string, en: string) => (locale === "en" ? en : fr);
   const riskMeta = CLIMATE_RISK_META[r.climateRisk];
+  const riskLabel = locale === "en" ? CLIMATE_RISK_LABEL_EN[r.climateRisk] : riskMeta.label;
 
   return (
     <div
@@ -662,7 +745,7 @@ function ProjectionCard({
         </div>
       </div>
 
-      <Link href={`/villes/${r.city.slug}`} className="group block">
+      <Link href={`${locale === "en" ? "/cities" : "/villes"}/${r.city.slug}`} className="group block">
         <h3 className="text-2xl font-bold text-[var(--text-primary)] group-hover:text-amber-600 transition-colors leading-tight">
           {r.city.name}
         </h3>
@@ -677,7 +760,7 @@ function ProjectionCard({
             color: r.delta >= 0 ? "#16A34A" : "#EF4444",
           }}
         >
-          {r.delta >= 0 ? "+" : ""}{r.delta} vs ma ville
+          {r.delta >= 0 ? "+" : ""}{r.delta} {t("vs ma ville", "vs my city")}
         </div>
       )}
 
@@ -685,7 +768,7 @@ function ProjectionCard({
       <div className="mt-3 flex items-center gap-1.5">
         <span className="text-xs" aria-hidden>{riskMeta.emoji}</span>
         <span className="text-[10px] font-bold uppercase tracking-widest" style={{ color: riskMeta.color }}>
-          Risque climat 2040 : {riskMeta.label}
+          {t("Risque climat 2040 :", "Climate risk 2040:")} {riskLabel}
         </span>
       </div>
 

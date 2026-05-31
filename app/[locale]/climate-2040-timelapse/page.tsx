@@ -52,7 +52,7 @@ export default function EnClimate2040TimelapsePage() {
       </section>
 
       <div className="mx-auto max-w-5xl px-4 sm:px-6 py-10">
-        <TimelapseClient />
+        <TimelapseClient locale="en" />
       </div>
 
       <Footer />
