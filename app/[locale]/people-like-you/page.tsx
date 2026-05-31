@@ -51,7 +51,7 @@ export default function EnPeopleLikeYouPage() {
       </section>
 
       <div className="mx-auto max-w-5xl px-4 sm:px-6 py-10">
-        <PeopleLikeYouClient />
+        <PeopleLikeYouClient locale="en" />
       </div>
 
       <Footer />
