@@ -18,7 +18,7 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: "*",
       allow: "/",
-      disallow: ["/api/", "/admin/", "/favoris", "/dashboard"],
+      disallow: ["/api/", "/admin/", "/favoris", "/dashboard", "/mes-villes", "/connexion", "/auth"],
     },
     // Sitemap index + per-chunk URLs so crawlers can fetch them individually
     // (Google supports multiple Sitemap: lines and a parent index file).
