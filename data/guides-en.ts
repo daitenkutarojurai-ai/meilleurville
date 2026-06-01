@@ -10641,6 +10641,210 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["avignon", "nimes", "gordes"],
     tags: ["things to do in avignon", "avignon", "travel", "city guide", "provence"],
   },
+  {
+    slug: "things-to-do-in-rennes-2026",
+    title: "Things to do in Rennes: Breton capital, half-timbered and young",
+    metaTitle: "Things to Do in Rennes (2026) — Old Town, Parks & Brittany",
+    metaDesc:
+      "Rennes's medieval half-timbered centre, the parliament of Brittany, the Thabor gardens and the lively student-city nightlife.",
+    category: "city-guide",
+    emoji: "🏚️",
+    readMinutes: 6,
+    publishedAt: "2026-06-01",
+    updatedAt: "2026-06-01",
+    intro:
+      "Rennes is the capital of Brittany and one of France's youngest, most student-heavy cities, which gives its beautiful old centre a buzz that outlasts the tourist season. It's compact, walkable and an easy 90-minute TGV from Paris. Here's how to use a day or two.",
+    sections: [
+      {
+        heading: "The half-timbered old town",
+        body: "Rennes has one of the finest collections of medieval half-timbered houses in Brittany, clustered around the Place des Lices, the Rue du Chapitre and the Rue Saint-Georges. A great fire in 1720 destroyed much of the city, so the surviving timbered streets sit beside elegant stone reconstruction; the contrast is the city's signature. Wander without a map and stop at the Place Sainte-Anne, the heart of student nightlife.",
+      },
+      {
+        heading: "Parliament of Brittany and grand squares",
+        body: "The Parlement de Bretagne, the historic regional parliament, is a 17th-century palace that survived (and was restored after) a 1994 fire; guided tours show the gilded debating chambers. Nearby, the Place de la Mairie and the opera house form a grand classical square. The two cathedrals and the covered Halles Centrales market round out the centre.",
+      },
+      {
+        heading: "Parc du Thabor and green Rennes",
+        body: "The Parc du Thabor is one of the loveliest city gardens in France: formal French parterres, an English-style landscape, a rose garden and an aviary, all free. It's the city's outdoor living room. Rennes is also notably green and cyclable, with the Vilaine river and canal paths leading out of the centre for walks and rides.",
+      },
+      {
+        heading: "Markets, food and day trips",
+        body: "The Saturday Marché des Lices is one of the largest markets in France and the place to try galettes and crêpes, Breton cider and seafood. Rennes is also the gateway to Brittany: Saint-Malo's walled corsair city and Mont-Saint-Michel are both reachable as day trips by train or bus, and the Brocéliande forest of Arthurian legend lies just to the west.",
+      },
+    ],
+    relatedCities: ["rennes", "saint-malo", "vannes"],
+    tags: ["things to do in rennes", "rennes", "travel", "city guide", "brittany"],
+  },
+  {
+    slug: "things-to-do-in-grenoble-2026",
+    title: "Things to do in Grenoble: a city wrapped in mountains",
+    metaTitle: "Things to Do in Grenoble (2026) — Bastille, Museums & Alps",
+    metaDesc:
+      "Grenoble's cable-car fortress, strong museums, the old town and the three mountain ranges that start at the end of the tram line.",
+    category: "city-guide",
+    emoji: "🚡",
+    readMinutes: 6,
+    publishedAt: "2026-06-01",
+    updatedAt: "2026-06-01",
+    intro:
+      "Grenoble sits flat in a bowl where three mountain ranges meet, so every street ends in a wall of Alps. It's a science-and-student city, not a postcard town, but its setting is unmatched and the mountains are genuinely on the doorstep. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The Bastille cable car",
+        body: "The bubble-shaped cable cars (les Bulles) lift you from the riverbank to the Bastille fortress on the hillside in a few minutes; it's one of the oldest urban cable cars in the world and the view over the city to the Vercors, Chartreuse and Belledonne ranges is the single best thing to do in Grenoble. Walk back down through the fort's tiered defences and gardens if your knees allow.",
+      },
+      {
+        heading: "Museums and the old town",
+        body: "The Musée de Grenoble is one of France's best regional fine-arts museums, strong on modern art. The old town around the Place Saint-André and the Place aux Herbes is small but characterful, with cafés under the arcades. The Musée Dauphinois, in a former convent on the Bastille slope, tells the story of the Alpine region and is worth the climb.",
+      },
+      {
+        heading: "Mountains from the tram",
+        body: "Grenoble's claim to fame is access: tram and bus lines, plus short drives, put you at trailheads and ski lifts within the hour. In summer, the Vercors and Chartreuse plateaus offer hiking, caves and cliffs; in winter, resorts like Chamrousse and the Alpe d'Huez are close. Even without a car, day-hikes start surprisingly near the city. Pack proper shoes and check the weather, which the mountains change fast.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Grenoble can be hot and still in summer (the mountains trap the air) and grey in mid-winter, but spring and autumn are superb. The city is flat and one of France's best for cycling. It's a base as much as a destination: come for the setting and the access, plan at least one day in the mountains, and don't expect a chocolate-box centre.",
+      },
+    ],
+    relatedCities: ["grenoble", "chambery", "annecy"],
+    tags: ["things to do in grenoble", "grenoble", "travel", "city guide", "alps"],
+  },
+  {
+    slug: "things-to-do-in-aix-en-provence-2026",
+    title: "Things to do in Aix-en-Provence: fountains, Cézanne and markets",
+    metaTitle: "Things to Do in Aix-en-Provence (2026) — Old Town & Cézanne",
+    metaDesc:
+      "Aix's elegant old town and the Cours Mirabeau, the Cézanne trail, the Provençal markets and the mountain that he painted.",
+    category: "city-guide",
+    emoji: "⛲",
+    readMinutes: 6,
+    publishedAt: "2026-06-01",
+    updatedAt: "2026-06-01",
+    intro:
+      "Aix-en-Provence is the polished, elegant counterweight to nearby Marseille: a town of honey-stone mansions, plane-tree avenues, fountains and markets, with Cézanne's spirit everywhere. It's small, walkable and best taken slowly. Here's how.",
+    sections: [
+      {
+        heading: "The Cours Mirabeau and old town",
+        body: "The Cours Mirabeau, a wide plane-shaded avenue lined with cafés and fountains, is Aix's spine; sit at one of the historic cafés and watch the town go by. North of it, the old town (Vieil Aix) is a web of narrow lanes, small squares with fountains, and grand 17th- and 18th-century mansions. The Saint-Sauveur cathedral mixes styles across a thousand years and has a celebrated triptych.",
+      },
+      {
+        heading: "On the Cézanne trail",
+        body: "Paul Cézanne was born and worked here, and the city marks his footsteps with a self-guided trail of bronze pavement studs. His preserved studio (Atelier Cézanne) on a hill north of the centre is a quiet, moving stop. For the real payoff, head to the Terrain des Peintres or the Bibémus quarries for the view of Montagne Sainte-Victoire, the mountain he painted obsessively.",
+      },
+      {
+        heading: "Markets and Provençal life",
+        body: "Aix's markets are the daily pleasure: produce, flowers and antiques fill the squares several mornings a week (the Place Richelme has a food market most days). Calissons, the local almond sweets, are the edible souvenir. The town's many fountains, including the mossy Fontaine des Quatre-Dauphins, make a hot-weather walking route in themselves.",
+      },
+      {
+        heading: "Around Aix",
+        body: "Montagne Sainte-Victoire is a hiker's mountain with trails from several villages; even a short drive to its base rewards you. Marseille and its Calanques are 30 minutes away by frequent bus or train, making Aix a calm base for a coast-and-culture trip. Summers are hot and the town empties of locals in August; spring and autumn are ideal.",
+      },
+    ],
+    relatedCities: ["aix-en-provence", "marseille", "cassis"],
+    tags: ["things to do in aix-en-provence", "aix-en-provence", "travel", "city guide", "provence"],
+  },
+  {
+    slug: "things-to-do-in-dijon-2026",
+    title: "Things to do in Dijon: dukes, mustard and Burgundy wine",
+    metaTitle: "Things to Do in Dijon (2026) — Ducal Palace, Owl Trail & Wine",
+    metaDesc:
+      "Dijon's ducal palace and fine-arts museum, the owl trail through the old town, the mustard and the Burgundy wine route on the doorstep.",
+    category: "city-guide",
+    emoji: "🦉",
+    readMinutes: 6,
+    publishedAt: "2026-06-01",
+    updatedAt: "2026-06-01",
+    intro:
+      "Dijon was the seat of the powerful dukes of Burgundy, and it kept the grandeur: a well-preserved old town, one of France's great art museums (free), and the start of one of the world's most famous wine routes. It's compact, affordable and underrated. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The Palace of the Dukes and the museum",
+        body: "The Palais des Ducs dominates the half-moon Place de la Libération at the city's heart; climb the Tour Philippe le Bon for a rooftop view. The palace houses the Musée des Beaux-Arts, one of the oldest and richest in France and free to visit, with the spectacular carved tombs of the Burgundian dukes as its centrepiece.",
+      },
+      {
+        heading: "The owl trail",
+        body: "A numbered trail marked by bronze owl plaques in the pavement (the Parcours de la Chouette) leads you through the best of the old town, named for the little carved owl on the Notre-Dame church that locals rub for luck. It's the most enjoyable way to see the timbered houses, covered passages and mansions without a guide. Pick up the leaflet at the tourist office or follow the arrows.",
+      },
+      {
+        heading: "Mustard, markets and food",
+        body: "Dijon is synonymous with mustard, and you can buy the real local stuff (and gingerbread, another speciality) in the old shops. The covered market hall, designed in part by Gustave Eiffel, is excellent for Burgundian produce: cheeses, charcuterie and, of course, the wine. The city is a fine place to eat the region's classics, from boeuf bourguignon to coq au vin.",
+      },
+      {
+        heading: "The Burgundy wine route",
+        body: "Dijon is the northern gateway to the Route des Grands Crus, the legendary wine road running south through Gevrey-Chambertin, Vougeot, Nuits-Saint-Georges and Beaune. You can cycle parts of it on the dedicated path, or drive village to village. Beaune, with its famous polychrome-roofed Hospices, is the classic day trip and well connected by train.",
+      },
+    ],
+    relatedCities: ["dijon", "beaune", "chalon-sur-saone"],
+    tags: ["things to do in dijon", "dijon", "travel", "city guide", "burgundy"],
+  },
+  {
+    slug: "things-to-do-in-rouen-2026",
+    title: "Things to do in Rouen: Normandy's Gothic, half-timbered capital",
+    metaTitle: "Things to Do in Rouen (2026) — Cathedral, Old Town & Monet",
+    metaDesc:
+      "Rouen's soaring cathedral that Monet painted, the half-timbered medieval streets, the Joan of Arc story and the Normandy coast nearby.",
+    category: "city-guide",
+    emoji: "⛪",
+    readMinutes: 6,
+    publishedAt: "2026-06-01",
+    updatedAt: "2026-06-01",
+    intro:
+      "Rouen packs an astonishing amount of Gothic and medieval beauty into a walkable centre, and it carries two huge stories: it's where Joan of Arc was burned, and where Monet painted the cathedral over and over in changing light. It's an easy day trip from Paris and a fine base for Normandy.",
+    sections: [
+      {
+        heading: "The cathedral and Gothic Rouen",
+        body: "Rouen's Notre-Dame cathedral, with its lace-like façade, is the one Monet painted in his famous series; stand where he stood and you'll see why. The city is studded with Gothic churches, none more startling than Saint-Maclou and the adjoining Aître Saint-Maclou, a medieval plague cemetery with carved skulls and bones. The Abbey Church of Saint-Ouen is another giant.",
+      },
+      {
+        heading: "Half-timbered streets and the Gros-Horloge",
+        body: "Rouen has hundreds of preserved half-timbered houses lining its pedestrian streets. The Gros-Horloge, a Renaissance astronomical clock spanning an archway over the street, is the city's emblem; you can climb the belfry for a view. The Rue du Gros-Horloge and the surrounding lanes are the heart of the old town.",
+      },
+      {
+        heading: "The Joan of Arc story",
+        body: "Joan of Arc was tried and executed in Rouen in 1431. The modern Église Sainte-Jeanne-d'Arc on the Place du Vieux-Marché marks the spot of her death with striking 20th-century architecture and salvaged Renaissance stained glass. The Historial Jeanne d'Arc, in the archbishop's palace where she was tried, tells the story well.",
+      },
+      {
+        heading: "Art and the Normandy coast",
+        body: "The Musée des Beaux-Arts is free and strong on Impressionism (fitting, given Monet). Rouen also makes a good base for Normandy: the Seine valley abbeys, Monet's garden at Giverny, the cliffs of Étretat and the harbour of Honfleur are all within day-trip reach, and the D-Day beaches are a longer excursion west.",
+      },
+    ],
+    relatedCities: ["rouen", "le-havre", "honfleur"],
+    tags: ["things to do in rouen", "rouen", "travel", "city guide", "normandy"],
+  },
+  {
+    slug: "things-to-do-in-reims-2026",
+    title: "Things to do in Reims: coronation cathedral and Champagne cellars",
+    metaTitle: "Things to Do in Reims (2026) — Cathedral, Champagne & Cellars",
+    metaDesc:
+      "Reims's coronation cathedral, the great Champagne houses and their chalk cellars, the Roman gate and an easy day trip from Paris.",
+    category: "city-guide",
+    emoji: "🥂",
+    readMinutes: 6,
+    publishedAt: "2026-06-01",
+    updatedAt: "2026-06-01",
+    intro:
+      "Reims is the capital of Champagne and the city where French kings were crowned for a thousand years, which makes it a rare two-for-one: a UNESCO-listed Gothic cathedral and a network of chalk cellars full of the world's most famous sparkling wine. It's 45 minutes from Paris by TGV. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The coronation cathedral",
+        body: "Notre-Dame de Reims is where almost every French king was crowned, including Charles VII with Joan of Arc at his side. It's a masterpiece of High Gothic, with a celebrated smiling angel on the façade and modern Chagall stained glass inside. The neighbouring Palais du Tau, the former archbishop's palace, holds the coronation treasures and is part of the same UNESCO listing.",
+      },
+      {
+        heading: "Champagne houses and chalk cellars",
+        body: "This is why most people come. The great houses (maisons) offer tours of their crayères, kilometres of cellars dug into Roman-era chalk pits, ending in a tasting. Several are walkable or a short ride from the centre; book ahead, especially in season. Beyond the famous names, smaller growers around the city offer more personal tastings. Even one cellar tour reframes how you think about the wine.",
+      },
+      {
+        heading: "Roman and Art Deco Reims",
+        body: "Reims was an important Roman city, and the Porte de Mars, a monumental Roman triumphal arch, still stands. Much of the centre was rebuilt after First World War devastation, leaving a notable concentration of Art Deco architecture; the Carnegie library and the covered market (Boulingrin) are highlights. The Surrender Museum marks where the Nazi capitulation was signed in 1945.",
+      },
+      {
+        heading: "Day trips in Champagne",
+        body: "Reims pairs naturally with Épernay, the other Champagne capital, whose Avenue de Champagne hides millions of bottles beneath its grand houses. The vineyard villages of the Montagne de Reims between the two, and Hautvillers (where Dom Pérignon worked), make a scenic drive or cycle. With its fast Paris link, Reims also works as a Champagne day trip in its own right.",
+      },
+    ],
+    relatedCities: ["reims", "epernay", "chalons-en-champagne"],
+    tags: ["things to do in reims", "reims", "travel", "city guide", "champagne"],
+  },
 ];
 
 export function getEnGuide(slug: string): EnGuide | undefined {
