@@ -44,25 +44,37 @@ const LINKS_FR = {
 const LINKS_EN = {
   Explore: [
     { label: "All cities", href: "/cities" },
+    { label: "By region", href: "/regions" },
+    { label: "By department", href: "/departments" },
+    { label: "Interactive map", href: "/map" },
     { label: "Rankings", href: "/rankings" },
-    { label: "Niche rankings", href: "/niche-rankings" },
-    { label: "For who", href: "/for-who" },
-    { label: "Cheapest cities", href: "/cheapest-cities" },
-    { label: "Best value", href: "/best-value-cities" },
-    { label: "City Match", href: "/city-match" },
+    { label: "Leaderboard", href: "/leaderboard" },
     { label: "Compare", href: "/compare" },
+    { label: "Red Flag Radar", href: "/red-flags" },
+    { label: "Vacations in France", href: "/vacations" },
+    { label: "Quality of life", href: "/quality-of-life" },
+  ],
+  "Tools & Guides": [
+    { label: "City Match", href: "/city-match" },
+    { label: "Sport ranking", href: "/sport" },
+    { label: "Rental pressure", href: "/rental-tension" },
+    { label: "Political leaning", href: "/political-leaning" },
+    { label: "Weekend getaways", href: "/weekend-getaways" },
     { label: "Guides", href: "/guides" },
-    { label: "Search", href: "/search" },
+    { label: "Tags", href: "/tags" },
+    { label: "All tools", href: "/tools" },
+    { label: "Global search", href: "/search" },
+    { label: "RSS feed", href: "/feed.xml" },
   ],
-  About: [
-    { label: "Home", href: "/" },
+  "About & Legal": [
+    { label: "Our mission", href: "/about" },
+    { label: "Who it's for", href: "/for-who" },
     { label: "Methodology", href: "/methodology" },
-    { label: "Data sources", href: "/data-sources" },
-    { label: "Glossary", href: "/glossary" },
+    { label: "Data & sources", href: "/data-sources" },
     { label: "FAQ", href: "/faq" },
-    { label: "Contact", href: "mailto:hello@mavilleideale.fr" },
-  ],
-  Legal: [
+    { label: "Glossary", href: "/glossary" },
+    { label: "Contact", href: "/contact" },
+    { label: "Site index", href: "/site-index" },
     { label: "Legal notice", href: "/legal-notice" },
     { label: "Privacy policy", href: "/privacy-policy" },
     { label: "Affiliate disclosure", href: "/legal-notice#affiliate-disclosure" },
@@ -76,7 +88,7 @@ const TAGLINE =
     : "On vous aide à trouver votre coin idéal en France 🌿 Données vraies, avis d'habitants, zéro bullshit.";
 const PUBLISHER_LINE =
   DEFAULT_LOCALE === "en"
-    ? "Edited by Thomas Fendrich · hello@mavilleideale.fr"
+    ? "Edited by Thomas Fendrich · hello@bestcitiesinfrance.com"
     : "Édité par Thomas Fendrich · hello@mavilleideale.fr";
 const COPY_LINE =
   DEFAULT_LOCALE === "en"
