@@ -294,7 +294,7 @@ FR-equivalent routes covered: home, cities index + 352 city pages, 4 city sub-pa
 - [x] City sub-pages: `neighbourhoods`, `seasons`, `honest-review`, `climate-2040`, plus `fingerprint`, `vibe`, `get-settled`, `overview`, `synthesis`, `profiles`
 
 **Phase 4 — long tail**
-- [ ] EN guides — in progress (260 native EN guides shipped via `data/guides-en.ts`; FR has 672; not 1:1 translations, native expat-angle content)
+- [ ] EN guides — in progress (271 native EN guides via `data/guides-en.ts`; FR has 672; not 1:1 translations, native expat-angle content). 2026-06-01: added first 12 EN tourism guides `things-to-do-in-[city]-2026` (Paris/Lyon/Nice/Bordeaux/Marseille/Strasbourg/Toulouse/Nantes/Montpellier/Lille/Annecy/Avignon), auto-surfaced as the featured card on `/cities/[slug]/things-to-do`.
 - [x] Per-city OG images with EN copy (`app/[locale]/cities/[slug]/opengraph-image.tsx`, EN locale, "BestCitiesInFrance")
 - [x] EN-specific RSS feed (`/feed.xml` + `/guides/feed.xml` locale-aware via `NEXT_PUBLIC_DEFAULT_LOCALE`)
 
