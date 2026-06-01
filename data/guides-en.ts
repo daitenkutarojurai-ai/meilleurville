@@ -10845,6 +10845,198 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["reims", "epernay", "chalons-en-champagne"],
     tags: ["things to do in reims", "reims", "travel", "city guide", "champagne"],
   },
+  {
+    slug: "things-to-do-in-la-rochelle-2026",
+    title: "Things to do in La Rochelle: towers, harbour and Atlantic light",
+    metaTitle: "Things to Do in La Rochelle (2026) — Old Port, Towers & Islands",
+    metaDesc:
+      "La Rochelle's medieval harbour towers, the arcaded old town, the aquarium and the island of Ré a bridge away.",
+    category: "city-guide",
+    emoji: "⚓",
+    readMinutes: 6,
+    publishedAt: "2026-06-01",
+    updatedAt: "2026-06-01",
+    intro:
+      "La Rochelle is one of the most likeable cities on the Atlantic coast: a historic harbour guarded by medieval towers, a stone old town of arcaded streets, big skies and the island of Ré on its doorstep. It's flat, cyclable and made for slow days by the water. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The harbour towers",
+        body: "The Vieux-Port is the heart of La Rochelle, and its three medieval towers are the emblem: the Tour Saint-Nicolas and the Tour de la Chaîne once held a chain between them to close the harbour at night, while the Tour de la Lanterne served as a lighthouse and prison (covered in old graffiti from its inmates). You can climb them for harbour views; a combined ticket covers all three.",
+      },
+      {
+        heading: "The arcaded old town",
+        body: "Behind the port, the old town is a grid of streets lined with stone arcades that keep you dry and shaded, a pleasure to wander. Look for the grand merchant houses, the Renaissance city hall and the Grosse-Horloge gate between the town and the port. The covered market is excellent for Atlantic seafood and Charentais produce.",
+      },
+      {
+        heading: "Aquarium and the waterfront",
+        body: "La Rochelle's aquarium is one of the largest private aquariums in Europe and a reliable family stop. Beyond it, the modern Les Minimes marina (one of Europe's biggest) and the waterfront promenades are made for walking and cycling. The city pioneered bike-sharing in France and is exceptionally flat, so renting a bike is the best way to get around.",
+      },
+      {
+        heading: "Île de Ré and the coast",
+        body: "A toll bridge links the city to the Île de Ré, a flat island of whitewashed villages, salt marshes, oyster beds, cycle paths and beaches, beloved by Parisians in summer. It's the classic day trip (or longer); go by bike or bus to skip the bridge traffic in peak season. The island of Aix and the Fort Boyard fortress out in the bay are reachable by boat.",
+      },
+    ],
+    relatedCities: ["la-rochelle", "royan", "niort"],
+    tags: ["things to do in la rochelle", "la rochelle", "travel", "city guide", "atlantic coast"],
+  },
+  {
+    slug: "things-to-do-in-biarritz-2026",
+    title: "Things to do in Biarritz: surf, Belle Époque and Basque flavour",
+    metaTitle: "Things to Do in Biarritz (2026) — Beaches, Surf & Basque Coast",
+    metaDesc:
+      "Biarritz's surf beaches, the Rock of the Virgin, the Belle Époque seafront and the Basque towns along the coast.",
+    category: "city-guide",
+    emoji: "🏄",
+    readMinutes: 6,
+    publishedAt: "2026-06-01",
+    updatedAt: "2026-06-01",
+    intro:
+      "Biarritz was a sleepy whaling village until 19th-century royalty made it a glamorous resort, and then surfers made it the capital of European surfing. The result is an unusual mix of Belle Époque grandeur, Atlantic waves and Basque culture. Here's how to spend the time.",
+    sections: [
+      {
+        heading: "The beaches and the surf",
+        body: "The Grande Plage in the centre is the see-and-be-seen beach, framed by old casino-era architecture; the Côte des Basques, just south, is the historic surf beach and the place to take a lesson or watch the longboarders at low tide. The Atlantic here is powerful and the surf culture genuine, with schools all along the front. Even non-surfers should walk the clifftop paths between the beaches.",
+      },
+      {
+        heading: "The Rocher de la Vierge and the coast path",
+        body: "The Rocher de la Vierge, a rock topped by a statue of the Virgin and reached by a footbridge attributed to Eiffel's workshop, is the postcard viewpoint over the wild coastline. The clifftop promenades that link it to the old port and the lighthouse are the best free walk in town, especially as the sun drops into the Atlantic.",
+      },
+      {
+        heading: "Belle Époque town and Basque food",
+        body: "Biarritz keeps its resort-era grandeur in its grand hotels and villas. The covered market (Les Halles) is the place to taste the Basque larder: jambon de Bayonne, Espelette pepper, sheep's-milk Ossau-Iraty cheese, gâteau basque and txakoli wine. The town is small and walkable, more about atmosphere and the sea than monuments.",
+      },
+      {
+        heading: "The Basque coast and country",
+        body: "Biarritz sits in a string of Basque towns: elegant Bayonne (the cultural capital, with its cathedral and chocolate tradition) and pretty Saint-Jean-de-Luz are both a short train or bus ride away. Inland, the green Basque hills, villages like Espelette and Sare, and the Spanish border (San Sebastián is under an hour) make easy day trips. The coast is rainier than the Mediterranean, so pack for changeable weather.",
+      },
+    ],
+    relatedCities: ["biarritz", "bayonne", "saint-jean-de-luz"],
+    tags: ["things to do in biarritz", "biarritz", "travel", "city guide", "basque country"],
+  },
+  {
+    slug: "things-to-do-in-colmar-2026",
+    title: "Things to do in Colmar: the storybook capital of Alsace wine",
+    metaTitle: "Things to Do in Colmar (2026) — Little Venice, Wine & Old Town",
+    metaDesc:
+      "Colmar's half-timbered old town and Little Venice canals, the Unterlinden museum's altarpiece, and the Alsace wine villages around it.",
+    category: "city-guide",
+    emoji: "🍇",
+    readMinutes: 6,
+    publishedAt: "2026-06-01",
+    updatedAt: "2026-06-01",
+    intro:
+      "Colmar looks like a film set, because it more or less is one: improbably preserved half-timbered houses in candy colours, flower-decked canals and a great medieval altarpiece, all at the heart of the Alsace wine route. It's tiny and very popular, so the trick is timing. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The old town and Little Venice",
+        body: "Colmar's centre is a wonderfully intact maze of colourful timbered houses, with landmarks like the Maison Pfister and the Koïfhus (old customs house). La Petite Venise (Little Venice) is the much-photographed stretch where pastel houses lean over the Lauch canal; a short flat-bottomed boat ride is touristy but charming. Go early or late to beat the crowds and the tour groups.",
+      },
+      {
+        heading: "The Unterlinden Museum",
+        body: "The Musée Unterlinden, in a former convent, is one of the great regional museums of France, and its centrepiece is the Isenheim Altarpiece, a masterpiece of late-Gothic painting that is genuinely worth a detour in its own right. A modern extension adds 20th-century art. It's the one indoor must-see if the weather turns.",
+      },
+      {
+        heading: "Alsace wine and food",
+        body: "Colmar is the unofficial capital of the Alsace wine route, surrounded by Riesling and Gewürztraminer vineyards. Winstubs serve the regional table: tarte flambée, choucroute, baeckeoffe. The covered market is good for local produce. The town is the base for tasting, with wine shops and bars throughout the old town for those not driving out to the villages.",
+      },
+      {
+        heading: "The wine villages",
+        body: "Colmar sits among the prettiest villages in France: Riquewihr, Eguisheim, Kaysersberg and Turckheim are all minutes away and look much like Colmar in miniature, ringed by vines. A car or an organised tour lets you village-hop along the wine route; some are reachable by bus. Like Strasbourg, Colmar runs a famous Christmas market, beautiful but extremely crowded.",
+      },
+    ],
+    relatedCities: ["colmar", "strasbourg", "obernai"],
+    tags: ["things to do in colmar", "colmar", "travel", "city guide", "alsace"],
+  },
+  {
+    slug: "things-to-do-in-toulon-2026",
+    title: "Things to do in Toulon: naval harbour and a cable-car mountain",
+    metaTitle: "Things to Do in Toulon (2026) — Harbour, Mont Faron & Beaches",
+    metaDesc:
+      "Toulon's great naval harbour, the Mont Faron cable car, the old town and the beaches and islands of the Var coast.",
+    category: "city-guide",
+    emoji: "🚢",
+    readMinutes: 5,
+    publishedAt: "2026-06-01",
+    updatedAt: "2026-06-01",
+    intro:
+      "Toulon is a working Mediterranean naval city, less polished than its Riviera neighbours and more authentic for it, with one of the most beautiful natural harbours in Europe and a mountain rising right behind it. It's underrated and improving fast. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The harbour and naval Toulon",
+        body: "Toulon has been France's main Mediterranean naval base for centuries, and the rade (roadstead) is spectacular. Boat tours take you around the harbour past the warships; the National Navy Museum on the port tells the story. The recently revived waterfront and the old town behind it have shaken off a rough reputation and are now lively with bars and the daily Cours Lafayette market.",
+      },
+      {
+        heading: "Mont Faron by cable car",
+        body: "A cable car climbs Mont Faron, the mountain behind the city, for a panoramic view over the harbour and the coast, one of the best on this stretch of the Mediterranean. At the top there's a memorial to the 1944 Allied landings in Provence and walking trails. It's the standout half-day in Toulon.",
+      },
+      {
+        heading: "Beaches, islands and the Var coast",
+        body: "The Mourillon beaches in the city are family-friendly and free. Toulon is also the gateway to some of the Mediterranean's finest islands: ferries reach Porquerolles and Port-Cros (a protected national park of clear water and car-free paths) in the Îles d'Hyères. Along the coast, Hyères, Sanary and the Giens peninsula make easy day trips.",
+      },
+    ],
+    relatedCities: ["toulon", "hyeres", "marseille"],
+    tags: ["things to do in toulon", "toulon", "travel", "city guide", "var"],
+  },
+  {
+    slug: "things-to-do-in-perpignan-2026",
+    title: "Things to do in Perpignan: Catalan France at the Pyrenees' edge",
+    metaTitle: "Things to Do in Perpignan (2026) — Palace, Old Town & Coast",
+    metaDesc:
+      "Perpignan's kings-of-Majorca palace, the Catalan old town, the Castillet gate and the beaches and mountains of the Pyrénées-Orientales.",
+    category: "city-guide",
+    emoji: "🌶️",
+    readMinutes: 5,
+    publishedAt: "2026-06-01",
+    updatedAt: "2026-06-01",
+    intro:
+      "Perpignan is the capital of French Catalonia, closer to Barcelona in feel than to Paris: Catalan flags, red-and-yellow everything, and a sun-baked old town between the Pyrenees and the Mediterranean. It's a gateway as much as a destination, and an underrated one. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The Palace of the Kings of Majorca",
+        body: "Perpignan was briefly the capital of the Kingdom of Majorca, and the hilltop Palais des Rois de Majorque, a fortified medieval palace with Gothic halls and a sun-drenched courtyard, is the city's grandest monument and its best viewpoint. Allow an hour or two and enjoy the ramparts.",
+      },
+      {
+        heading: "The Catalan old town",
+        body: "The old centre is small and atmospheric: the red-brick Castillet gate (now a Catalan museum) is the emblem, the Loge de Mer and town hall mark the old commercial heart, and the cathedral of Saint-Jean-Baptiste anchors the lanes. The Campo Santo, a rare medieval cloister-cemetery, is a quiet highlight. The food and café culture lean Catalan and Mediterranean.",
+      },
+      {
+        heading: "Coast, mountains and Catalan country",
+        body: "Perpignan sits between sea and summit. The beaches of Canet and the lively port of Collioure (a jewel of a fishing town that drew Matisse and the Fauvists) are a short hop. Inland, the Pyrenees climb fast toward Andorra and Spain, with hill villages, hot springs and the pink-marble landscapes of the Têt and Tech valleys. The Spanish border and the Costa Brava are within easy reach.",
+      },
+    ],
+    relatedCities: ["perpignan", "collioure", "narbonne"],
+    tags: ["things to do in perpignan", "perpignan", "travel", "city guide", "catalonia"],
+  },
+  {
+    slug: "things-to-do-in-carcassonne-2026",
+    title: "Things to do in Carcassonne: Europe's great walled city",
+    metaTitle: "Things to Do in Carcassonne (2026) — Cité, Ramparts & Canal",
+    metaDesc:
+      "Carcassonne's double-walled medieval citadel, the castle and ramparts, the lower town and the Canal du Midi.",
+    category: "city-guide",
+    emoji: "🏰",
+    readMinutes: 5,
+    publishedAt: "2026-06-01",
+    updatedAt: "2026-06-01",
+    intro:
+      "Carcassonne is the most complete fortified medieval city in Europe: a double ring of walls and 52 towers crowning a hill, restored in the 19th century into the storybook citadel you picture when you imagine a castle. It's intensely touristy and still unmissable. Here's how to do it well.",
+    sections: [
+      {
+        heading: "The Cité: walls and castle",
+        body: "The Cité de Carcassonne, a UNESCO World Heritage site, is the walled upper town. Entering through the Porte Narbonnaise and walking the cobbled lanes is free; a ticket gets you into the inner Château Comtal and onto the ramparts walk, which is the part actually worth paying for, with views over the vineyards and the Pyrenees. Go early or stay into the evening, when the day-trippers leave and the floodlit walls are magical.",
+      },
+      {
+        heading: "Beyond the walls: the lower town",
+        body: "Most visitors never leave the Cité, which means the Bastide Saint-Louis (the lower town across the river) is calmer and more lived-in: a grid of 13th-century streets, a daily square market, real shops and restaurants at honest prices. The view of the floodlit Cité from the Pont Vieux at night is the best free photo in town.",
+      },
+      {
+        heading: "The Canal du Midi and around",
+        body: "The UNESCO-listed Canal du Midi passes through Carcassonne; the plane-shaded towpaths make for an easy walk or bike ride, and boat trips run in season. The surrounding Cathar country is dotted with dramatic ruined castles (Lastours, Quéribus, Peyrepertuse) for those with a car, and the wine region of the Minervois and Corbières is on the doorstep.",
+      },
+    ],
+    relatedCities: ["carcassonne", "narbonne", "toulouse"],
+    tags: ["things to do in carcassonne", "carcassonne", "travel", "city guide", "occitanie"],
+  },
 ];
 
 export function getEnGuide(slug: string): EnGuide | undefined {
