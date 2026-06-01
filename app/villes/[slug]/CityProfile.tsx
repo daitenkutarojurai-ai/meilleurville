@@ -951,22 +951,20 @@ export function CityProfile({ city, locale = "fr" }: { city: CitySeed & { review
                   </div>
                   <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors shrink-0" />
                 </a>
-                {locale !== "en" && (
                 <a
-                  href={`/villes/${city.slug}/a-faire`}
+                  href={sub("a-faire", "things-to-do")}
                   className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
                 >
                   <div className="min-w-0">
                     <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
-                      🎯 Que faire ici ?
+                      {L("🎯 Que faire ici ?", "🎯 Things to do here")}
                     </div>
                     <div className="text-xs text-[var(--text-tertiary)] mt-0.5 truncate">
-                      Activités, sorties, bons plans 2026
+                      {L("Activités, sorties, bons plans 2026", "Activities, days out, local tips 2026")}
                     </div>
                   </div>
                   <ChevronRight className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors shrink-0" />
                 </a>
-                )}
                 <a
                   href={sub("sport", "sports-leisure")}
                   className="flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4 group"
