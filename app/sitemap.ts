@@ -821,6 +821,7 @@ function enCitySubSection(): MetadataRoute.Sitemap {
     "get-settled", "housing", "fingerprint", "profiles", "vibe",
     "internet-quality", "seasons", "neighbourhoods", "synthesis",
     "questions", "calendar", "local-mindset", "rental-market",
+    "sports-leisure",
   ] as const;
   return CITIES_SEED.flatMap((c) =>
     subs.map((sub) => ({
