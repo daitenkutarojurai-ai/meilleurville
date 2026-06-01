@@ -10433,6 +10433,214 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["strasbourg", "colmar", "obernai"],
     tags: ["things to do in strasbourg", "strasbourg", "travel", "city guide", "alsace"],
   },
+  {
+    slug: "things-to-do-in-toulouse-2026",
+    title: "Things to do in Toulouse: the pink city on the Garonne",
+    metaTitle: "Things to Do in Toulouse (2026) — Old Town, Space & Canals",
+    metaDesc:
+      "Toulouse beyond aerospace: the rose-brick old town, the basilica, the Canal du Midi and the riverside life of France's fourth city.",
+    category: "city-guide",
+    emoji: "🌹",
+    readMinutes: 7,
+    publishedAt: "2026-06-01",
+    updatedAt: "2026-06-01",
+    intro:
+      "Toulouse is built from rose-coloured brick that glows at sunset, which is how it earned its nickname, la ville rose. It's a young, warm, southern city: student-heavy, aerospace-rich and far less touristed than the coast. Here's how to spend a couple of days without an itinerary that fights the heat.",
+    sections: [
+      {
+        heading: "The old town in brick",
+        body: "Start at the Place du Capitole, the vast main square fronted by the city hall and its arcades. From there the centre is a walkable grid of brick mansions (hôtels particuliers built by Renaissance pastel merchants), small squares and churches. The Basilica of Saint-Sernin is the largest surviving Romanesque church in Europe and a stop on the pilgrim road to Santiago; the Jacobins convent nearby has an extraordinary palm-tree vault. Both are calm and free or near-free to enter.",
+      },
+      {
+        heading: "The river and the Canal du Midi",
+        body: "The Garonne is the city's spine. Cross the Pont Neuf for the classic view, and walk the quays at golden hour when the brick turns properly pink. The Canal du Midi, a UNESCO-listed 17th-century engineering marvel, starts in Toulouse; the plane-tree-shaded towpaths are perfect for a walk or a bike ride out of the centre. La Daurade riverbank is where students gather on warm evenings.",
+      },
+      {
+        heading: "Space and science",
+        body: "Toulouse is Europe's aerospace capital, and it leans into it. The Cité de l'espace is a large space-themed park with full-size rockets, a planetarium and hands-on exhibits, genuinely good for families and aviation buffs. Aviation enthusiasts can also book ahead for the Aeroscopia museum and Airbus factory tours near the airport. Neither is essential for a short city break, but both are standout half-days if the theme appeals.",
+      },
+      {
+        heading: "Markets, food and the southwest table",
+        body: "Toulouse eats well and cheaply. The Victor Hugo covered market is the place for southwestern produce: duck, foie gras, cassoulet (the local bean-and-meat stew), Toulouse sausage. Several market-floor restaurants serve lunch straight from the stalls. The city's bars and terraces fill the squares of the old town in the evening; this is a place to sit out, not to rush between sights.",
+      },
+      {
+        heading: "Day trips and seasons",
+        body: "Albi, about an hour away by train, is a UNESCO-listed brick city with a cathedral-fortress and the Toulouse-Lautrec museum, and makes an excellent day out. Carcassonne's walled citadel is also within reach. Toulouse summers are hot and dry; spring and autumn are the most comfortable, and the city stays lively year-round thanks to its large student population.",
+      },
+    ],
+    relatedCities: ["toulouse", "albi", "carcassonne"],
+    tags: ["things to do in toulouse", "toulouse", "travel", "city guide", "occitanie"],
+  },
+  {
+    slug: "things-to-do-in-nantes-2026",
+    title: "Things to do in Nantes: mechanical elephants and Atlantic edge",
+    metaTitle: "Things to Do in Nantes (2026) — Les Machines, Château & Loire",
+    metaDesc:
+      "Nantes beyond the castle: the giant mechanical elephant, the art trail along the Loire, the medieval centre and the estuary out to the coast.",
+    category: "city-guide",
+    emoji: "🐘",
+    readMinutes: 6,
+    publishedAt: "2026-06-01",
+    updatedAt: "2026-06-01",
+    intro:
+      "Nantes reinvented itself from a post-industrial port into one of France's most creative cities, and it shows. It's green, walkable, close to the Atlantic, and home to a giant mechanical elephant you can ride. Here's what to do in a city that takes its weirdness seriously.",
+    sections: [
+      {
+        heading: "Les Machines de l'île",
+        body: "The headline attraction is genuinely unique: a workshop on the old shipyards builds enormous mechanical animals inspired by Jules Verne (a Nantes native) and Leonardo da Vinci. The centrepiece is the Grand Éléphant, a 12-metre walking elephant that carries passengers and sprays water on the crowd. There's also a marine-worlds carousel. It's touristy, yes, and also one of the most charming attractions in France; book ahead in summer.",
+      },
+      {
+        heading: "The Château and the medieval centre",
+        body: "The Château des ducs de Bretagne, the moated castle of the dukes of Brittany, sits right in the centre; the ramparts walk is free and the inside houses a well-done city history museum. Around it, the Bouffay quarter is the medieval old town, full of timbered houses, bars and restaurants. The Passage Pommeraye, a three-level 19th-century shopping arcade, is an architectural gem worth a detour.",
+      },
+      {
+        heading: "Le Voyage à Nantes art trail",
+        body: "A green line painted on the pavement links the city's contemporary art installations and landmarks into a self-guided walking trail; in summer the route expands with temporary works. It's a free, clever way to see the whole city and stumble on the LU tower, the Île de Nantes redevelopment and riverside surprises. Just follow the line.",
+      },
+      {
+        heading: "Loire, estuary and coast",
+        body: "Nantes sits on the Loire near where it meets the Atlantic. The Estuaire art trail dots large-scale sculptures along the river between Nantes and Saint-Nazaire, some reachable by boat. The coast and the beaches of the Loire-Atlantique are a short drive or train ride; La Baule and the salt marshes of Guérande make a classic day out. The city itself is flat and very cyclable.",
+      },
+    ],
+    relatedCities: ["nantes", "saint-nazaire"],
+    tags: ["things to do in nantes", "nantes", "travel", "city guide", "loire-atlantique"],
+  },
+  {
+    slug: "things-to-do-in-montpellier-2026",
+    title: "Things to do in Montpellier: young, sunny, ten minutes from the sea",
+    metaTitle: "Things to Do in Montpellier (2026) — Old Town, Beaches & Art",
+    metaDesc:
+      "Montpellier's medieval lanes, the grand Place de la Comédie, the modern Antigone quarter and the Mediterranean beaches a tram ride away.",
+    category: "city-guide",
+    emoji: "☀️",
+    readMinutes: 6,
+    publishedAt: "2026-06-01",
+    updatedAt: "2026-06-01",
+    intro:
+      "Montpellier is one of France's youngest cities by average age, thanks to a huge student population, and one of its sunniest. It pairs a tangle of medieval lanes with bold modern architecture and beaches a short tram ride away. It's made for wandering.",
+    sections: [
+      {
+        heading: "The Écusson old town",
+        body: "The historic core, nicknamed l'Écusson for its shield shape, is a maze of narrow medieval streets, hidden mansion courtyards and small squares packed with cafés. It funnels into the Place de la Comédie, the huge egg-shaped main square with the opera house, which is the city's living room. Get lost on purpose: the pleasure here is the lanes, not a checklist of monuments.",
+      },
+      {
+        heading: "Grand sights and green walks",
+        body: "The Promenade du Peyrou is a grand classical esplanade with a triumphal arch, an equestrian statue and an aqueduct, ending at a water tower with a view to the sea and the hills. The adjacent botanical garden, the oldest in France, is a peaceful free stop. The Musée Fabre is a serious fine-arts museum if the weather turns.",
+      },
+      {
+        heading: "Antigone and modern Montpellier",
+        body: "East of the old town, the Antigone district is a striking piece of postmodern neoclassical architecture, a planned quarter of monumental squares stretching toward the river. Further out, contemporary buildings like the wave-shaped city hall show a city that keeps building boldly. The tram network itself, with its flowery and swallow-patterned liveries, is part of the city's design identity.",
+      },
+      {
+        heading: "Beaches and the lagoon",
+        body: "Montpellier's trump card is the sea: the beaches at Palavas-les-Flots and the wilder stretches toward Carnon and the Espiguette dunes are reachable by tram-plus-bus or bike. Between city and sea lie lagoons full of flamingos and oyster and mussel farms; the village of Maguelone with its isolated cathedral on a sandbar is a lovely half-day. Summers are hot, so locals hit the beach early and the lanes stay cool in the shade.",
+      },
+    ],
+    relatedCities: ["montpellier", "sete", "nimes"],
+    tags: ["things to do in montpellier", "montpellier", "travel", "city guide", "occitanie"],
+  },
+  {
+    slug: "things-to-do-in-lille-2026",
+    title: "Things to do in Lille: Flemish flair in the French north",
+    metaTitle: "Things to Do in Lille (2026) — Vieux-Lille, Art & Markets",
+    metaDesc:
+      "Lille's Flemish old town, the grand squares, one of France's great fine-arts museums and the famous September braderie.",
+    category: "city-guide",
+    emoji: "🇫🇷",
+    readMinutes: 6,
+    publishedAt: "2026-06-01",
+    updatedAt: "2026-06-01",
+    intro:
+      "Lille feels like a crossroads, because it is one: French, Flemish and a short hop from Belgium and London on the high-speed line. It's a warm, student-rich city with a beautiful brick-and-stone old town and a food culture all its own. Here's how to spend a weekend.",
+    sections: [
+      {
+        heading: "Vieux-Lille and the grand squares",
+        body: "The old town is the highlight: Flemish-Baroque façades in red brick and pale stone, cobbled lanes, and the ornate Vieille Bourse (old stock exchange), whose courtyard hosts a daily second-hand book market and tango in summer. The adjoining Grand'Place and the Place du Théâtre, with the opera and the belfry of the chamber of commerce, are the monumental heart. It's compact and made for strolling.",
+      },
+      {
+        heading: "World-class art",
+        body: "The Palais des Beaux-Arts is one of the largest fine-arts museums in France outside Paris, strong on Flemish and French painting. A short tram ride away in Villeneuve-d'Ascq, the LaM combines modern, contemporary and art brut collections in a sculpture park. For something different, La Piscine in nearby Roubaix displays art and design in a restored Art Deco swimming pool, a genuinely memorable space.",
+      },
+      {
+        heading: "Eating the north",
+        body: "Lille's cuisine is hearty and distinctive: carbonnade flamande (beef braised in beer), moules-frites, maroilles cheese and the local estaminets (traditional Flemish taverns) to eat them in. The city's beer culture is excellent given the Belgian proximity. Sweet-wise, the merveilleux (meringue-and-cream confection) and waffles from Méert, a historic shop in Vieux-Lille, are local institutions.",
+      },
+      {
+        heading: "The braderie and getting around",
+        body: "If you can come on the first weekend of September, the Braderie de Lille is one of Europe's largest flea markets, when the whole city turns into a giant sale and everyone eats mussels; book accommodation far ahead. Lille is a major rail hub: Brussels is about 35 minutes, Paris an hour, London around 90 minutes by Eurostar, which makes it a superb base for a multi-city trip.",
+      },
+    ],
+    relatedCities: ["lille", "roubaix", "arras"],
+    tags: ["things to do in lille", "lille", "travel", "city guide", "hauts-de-france"],
+  },
+  {
+    slug: "things-to-do-in-annecy-2026",
+    title: "Things to do in Annecy: the Alpine lake town",
+    metaTitle: "Things to Do in Annecy (2026) — Lake, Old Town & Mountains",
+    metaDesc:
+      "Annecy's canal-laced old town, the clearest lake in France, the lakeside cycle path and the mountains rising straight from the water.",
+    category: "city-guide",
+    emoji: "🏔️",
+    readMinutes: 6,
+    publishedAt: "2026-06-01",
+    updatedAt: "2026-06-01",
+    intro:
+      "Annecy is almost unfairly pretty: a medieval old town threaded with canals, a turquoise lake ringed by mountains, and air that smells of the Alps. It's small, very popular and entirely walkable. The skill is timing your visit and getting onto and around the lake.",
+    sections: [
+      {
+        heading: "The old town and the canals",
+        body: "The Vieille Ville is the postcard: pastel houses over the Thiou canal, flower-lined bridges and the Palais de l'Île, a 12th-century building marooned mid-canal that's been a prison, a courthouse and now a small museum. The covered passages and the morning market (Tuesday, Friday, Sunday) are the best of it. Above the town, the medieval Château d'Annecy gives a view over the rooftops and the lake.",
+      },
+      {
+        heading: "The lake",
+        body: "Lac d'Annecy is among the cleanest lakes in Europe, fed by mountain springs, and it's the whole point. Swim from the free public beaches or the lakeside Pâquier lawn, rent a pedalo or small electric boat (no licence needed), or take a scenic cruise. The water is genuinely turquoise and swimmable in summer. The Pont des Amours over the canal is the classic photo spot where the town meets the lake.",
+      },
+      {
+        heading: "Cycling and walking the shore",
+        body: "A flat, car-free cycle path runs much of the lake's western shore from Annecy to Doussard, one of the best easy rides in France with constant lake-and-mountain views and villages to stop in. Rent a bike in town. On foot, the lakeside gardens and the Semnoz mountain above the town (drivable or a stiff hike) give the big panorama.",
+      },
+      {
+        heading: "Seasons and crowds",
+        body: "Annecy is busy. July and August are beautiful but packed and pricey; June and September give you the lake at its best with more room to breathe. Winter brings the nearby ski resorts (La Clusaz, Le Grand-Bornand are close) and a quieter, atmospheric old town. The early-June international animation festival fills the town, so check dates if you want calm.",
+      },
+    ],
+    relatedCities: ["annecy", "chambery", "aix-les-bains"],
+    tags: ["things to do in annecy", "annecy", "travel", "city guide", "alps"],
+  },
+  {
+    slug: "things-to-do-in-avignon-2026",
+    title: "Things to do in Avignon: popes, ramparts and the Provence bridge",
+    metaTitle: "Things to Do in Avignon (2026) — Papal Palace, Bridge & Festival",
+    metaDesc:
+      "Avignon's vast papal palace, the famous half-bridge, the walled old town and the Provence villages and vineyards on its doorstep.",
+    category: "city-guide",
+    emoji: "🎭",
+    readMinutes: 6,
+    publishedAt: "2026-06-01",
+    updatedAt: "2026-06-01",
+    intro:
+      "For most of the 14th century the popes ruled from Avignon, not Rome, and they left behind one of the largest Gothic palaces in Europe and a ring of walls that still encircle the old town. Today it's a compact, walkable Provençal city and a perfect base for the surrounding villages. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The Palais des Papes",
+        body: "The Popes' Palace is the unmissable sight: a colossal Gothic fortress-palace that dominates the town, a UNESCO World Heritage site. The interior is largely bare stone now, but the scale, the frescoed chapels and the rooftop terrace view make it worth the ticket; the augmented-reality tablet tour helps fill in the lost grandeur. The adjoining cathedral and the Rocher des Doms gardens above give the best view over the Rhône and the famous bridge.",
+      },
+      {
+        heading: "The Pont d'Avignon",
+        body: "The Pont Saint-Bénézet, the 'Pont d'Avignon' of the nursery rhyme, famously stops halfway across the Rhône, its other arches swept away by floods centuries ago. You can walk out onto the surviving span; honestly, the better value is the free view of it from the Rocher des Doms gardens or from the île de la Barthelasse across the river, where the classic photo is taken.",
+      },
+      {
+        heading: "The walled old town",
+        body: "Avignon's intact medieval ramparts ring a centre of squares, churches and the lively Place de l'Horloge. Les Halles covered market is excellent for Provençal produce and a market-lunch. The town is small enough to cover on foot in a day, and pleasantly shaded in the heat. The Collection Lambert is a strong contemporary-art stop if you want a break from the Middle Ages.",
+      },
+      {
+        heading: "Festival, villages and vineyards",
+        body: "Every July the Festival d'Avignon turns the whole city into a vast theatre event, with the official programme and a sprawling fringe (the 'Off'); it's electric but accommodation vanishes, so plan months ahead or visit another month. Avignon is also the gateway to the Vaucluse: Châteauneuf-du-Pape wine villages, the Pont du Gard Roman aqueduct, the Luberon hilltop villages (Gordes, Roussillon) and the lavender plateaus in summer are all easy day trips.",
+      },
+    ],
+    relatedCities: ["avignon", "nimes", "gordes"],
+    tags: ["things to do in avignon", "avignon", "travel", "city guide", "provence"],
+  },
 ];
 
 export function getEnGuide(slug: string): EnGuide | undefined {
