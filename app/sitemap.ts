@@ -748,6 +748,13 @@ function enStaticSection(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/rental-tension/vallee-du-rhone`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.6 },
     { url: `${BASE_URL}/rental-tension/ile-de-france-elargie`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.6 },
     { url: `${BASE_URL}/political-leaning`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.6 },
+    { url: `${BASE_URL}/weekend-getaways`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.7 },
+    ...["lyon","marseille","bordeaux","toulouse","nice","nantes","strasbourg","montpellier","lille","grenoble","rennes","reims","dijon","metz","nancy","rouen","caen","angers","tours","le-havre","brest","annecy","pau","bayonne","clermont-ferrand","besancon"].map((slug) => ({
+      url: `${BASE_URL}/weekend-getaways/${slug}`,
+      lastModified: STATIC_UPDATED,
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
+    })),
     { url: `${BASE_URL}/own-vs-rent`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.7 },
     { url: `${BASE_URL}/healthcare`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.7 },
     { url: `${BASE_URL}/safety`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.7 },
