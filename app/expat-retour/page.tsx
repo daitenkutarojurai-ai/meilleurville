@@ -12,7 +12,7 @@ import { CITIES_COUNT } from "@/lib/site-stats";
 export const metadata: Metadata = {
   title: "Expat retour France 2026 · Guide pratique pour rentrer | MaVilleIdeal",
   description:
-    "Vous rentrez de Suisse, Luxembourg, Belgique, UK, Canada, Allemagne, États-Unis ou Espagne ? Comparatif salaire, coût de la vie, fiscalité, admin par pays + quiz.",
+    "Vous rentrez de Suisse, Luxembourg, Belgique, UK, Canada, Allemagne, USA, Espagne ou Portugal ? Salaire, coût de la vie, fiscalité, admin par pays + quiz.",
   alternates: { canonical: "/expat-retour" },
 };
 
@@ -38,7 +38,7 @@ export default function ExpatRetourIndex() {
           </h1>
           <p className="text-[var(--text-secondary)] text-base max-w-2xl mx-auto">
             Salaires, fiscalité, santé, admin : ce qui change vraiment en rentrant de
-            Suisse, Luxembourg, Belgique, UK, Canada, Allemagne, États-Unis ou Espagne.
+            Suisse, Luxembourg, Belgique, UK, Canada, Allemagne, États-Unis, Espagne ou Portugal.
             Plus un quiz adapté pour trouver la bonne ville côté France.
           </p>
         </div>

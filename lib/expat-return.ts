@@ -19,7 +19,8 @@ export type ExpatCountry =
   | "canada"
   | "allemagne"
   | "etats-unis"
-  | "espagne";
+  | "espagne"
+  | "portugal";
 
 export interface ExpatCountryProfile {
   slug: ExpatCountry;
@@ -283,6 +284,42 @@ export const EXPAT_COUNTRIES: ExpatCountryProfile[] = [
       "Statut Beckham (Madrid principalement) : si vous en bénéficiiez, il prend fin au moment du départ. La fiscalité française récupère alors les revenus à compter du jour J — anticiper avec un conseil fiscal hispano-français pour les stock-options et bonus.",
       "Climat et art de vivre : le contraste est réel hors façade méditerranéenne. Si vous rentrez de Valence ou Séville, viser Perpignan, Montpellier, Toulouse ou la Côte basque plutôt qu'une métropole du nord pour adoucir la transition.",
       "Pension espagnole : les trimestres cotisés à la Seguridad Social sont totalisés au niveau européen avec ceux de l'Assurance retraite française — conservez tous vos vida laboral et bulletins de cotisation.",
+    ],
+  },
+  {
+    slug: "portugal",
+    name: "Portugal",
+    flag: "🇵🇹",
+    depuisLabel: "le",
+    auLabel: "Au",
+    currency: "EUR",
+    currencyToEurApprox: 1.0,
+    netConversionFactor: 0.8, // 100 € nets au Portugal valent environ 80 € de pouvoir d'achat en France hors Paris (logement et alimentaire plus chers en France)
+    bestSuitedCities: ["bordeaux", "bayonne", "biarritz", "saint-jean-de-luz", "pau", "nantes", "toulouse", "montpellier"],
+    intro:
+      "Le retour du Portugal est en pleine recomposition depuis la réforme du Résident Non Habituel : la fin du RNH classique fin 2023 et l'arrivée du dispositif IFICI plus restreint ont changé l'équation fiscale pour beaucoup de retraités et de cadres français installés à Lisbonne, Porto ou en Algarve. Côté change, aucun choc (zone euro), mais le pouvoir d'achat se contracte au retour : les loyers et le panier alimentaire portugais des dix dernières années ont monté fortement, sans rattraper le niveau français. Les villes les plus naturelles pour la transition sont la façade atlantique (Bordeaux, Bayonne, Biarritz, Saint-Jean-de-Luz, Pau, Nantes) qui rappelle l'art de vivre lusitanien, et l'arc méditerranéen (Toulouse, Montpellier) pour les profils plus solaires.",
+    hadVsWillHave: [
+      { topic: "Salaire net", had: "1 500-2 500 € net cadre (Lisbonne / Porto)", willHave: "Équivalent ~2 000-2 800 € net en France après charges" },
+      { topic: "Loyer T3", had: "1 100-1 800 € (centre Lisbonne / Porto)", willHave: "700-1 300 € (Bordeaux, Bayonne, Pau, Nantes, Toulouse)" },
+      { topic: "Panier alimentaire", had: "Environ 15-25 % moins cher (Pingo Doce, Continente, marchés)", willHave: "Reprise du niveau français (Lidl, Carrefour, marchés)" },
+      { topic: "Santé", had: "SNS publique gratuite ou symbolique (délais longs) + ADSE / privé courant", willHave: "Sécu + mutuelle 80-200 €/mois, accès spécialiste plus structuré" },
+      { topic: "Fiscalité revenu", had: "~14-28 % effectif (IRS standard) ou taux réduit RNH/IFICI selon profil", willHave: "~25-35 % effectif (TMI + CSG + prélèvements sociaux)" },
+      { topic: "Garde d'enfants", had: "Crèche privée 350-600 €/mois ou publique sous condition de ressources", willHave: "Crèche FR 150-400 €/mois après CAF/CMG, maternelle gratuite dès 3 ans" },
+      { topic: "Voiture", had: "Carburant ~1,70-1,85 €/L, péages autoroutiers fréquents", willHave: "Carburant 1,65-1,85 €/L, péages présents mais réseau ferroviaire plus dense" },
+    ],
+    adminPriorities: [
+      { step: "Déclarer le retour au consulat & radier", detail: "Avant le départ : se radier du registre des Français établis hors de France et conserver l'attestation de radiation, utile pour la CAF et la CPAM.", officialUrl: "https://www.service-public.gouv.fr/particuliers/vosdroits/R43251" },
+      { step: "Mettre à jour le NIF et fermer le dossier fiscal portugais", detail: "Demander la mise à jour de l'adresse fiscale au Portal das Finanças avant de partir, puis transmettre la dernière déclaration de revenus (modelo 3) en tant que résident pour clôturer proprement le dossier. Conserver l'accès au NIF pour les démarches résiduelles." },
+      { step: "Sécurité sociale", detail: "Demander le formulaire S1 à la Segurança Social portugaise avant le départ pour le transmettre à la CPAM. Compter 3-6 semaines pour activation côté français.", officialUrl: "https://www.service-public.gouv.fr/particuliers/vosdroits/F32824" },
+      { step: "Fiscalité revenu", detail: "Convention fiscale FR-PT (1971, révisée 2024) : résidence fiscale française à compter du jour J. Déclaration fractionnée l'année du retour côté français + dernière declaração de IRS au Portugal. Le statut RNH/IFICI prend fin avec le départ — anticiper la sortie avec un conseil fiscal franco-portugais, surtout pour les revenus passifs et de retraite." },
+      { step: "Permis & scolarité", detail: "Permis portugais reconnu de droit en France (UE), pas d'échange obligatoire mais demande utile en cas de perte ou de vol. Pour les enfants, inscription en mairie + entretien d'équivalence (le système ensino básico / secundário diffère du collège-lycée français)." },
+    ],
+    warnings: [
+      "Sortie du RNH / IFICI : le statut résident non habituel prend fin avec le départ. Si vous bénéficiiez du taux réduit sur les retraites ou les revenus de source étrangère, anticipez la bascule vers le barème français — l'écart peut représenter plusieurs milliers d'euros par an pour les retraites privées.",
+      "Convention fiscale révisée en 2024 : l'avenant vise à éviter la double non-imposition (notamment sur les pensions privées). Vérifiez votre situation avec un conseil fiscal franco-portugais avant de planifier le retour, surtout pour les retraités.",
+      "Loyers portugais en hausse : si vous avez gardé un T3 à Lisbonne ou Porto au tarif d'il y a cinq ans, la revente ou la résiliation peut être plus complexe que prévu. Anticipez le préavis de 30 à 90 jours selon le bail et conservez les justificatifs.",
+      "Pension portugaise : les trimestres cotisés à la Segurança Social sont totalisés au niveau européen avec ceux de l'Assurance retraite française — conservez tous vos relevés de carrière (carreira contributiva) et bulletins de salaire.",
+      "Compte bancaire portugais : garder le compte ouvert 6 à 12 mois après le départ facilite les régularisations IRS, le remboursement de la caution de location et le versement d'éventuels arriérés d'allocations.",
     ],
   },
 ];
