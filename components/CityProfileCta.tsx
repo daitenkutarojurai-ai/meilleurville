@@ -15,7 +15,17 @@ interface CityProfileCtaProps {
   eyebrow?: string;
   /** Short sentence under the city name. */
   blurb?: string;
+  locale?: "fr" | "en";
 }
+
+const SCORE_LABEL_EN: Record<string, string> = {
+  exceptionnel: "exceptional",
+  excellent: "excellent",
+  bon: "good",
+  moyen: "average",
+  "en dessous": "below average",
+  mauvais: "poor",
+};
 
 /**
  * Styled end-of-page CTA linking back to a city's full profile.
@@ -23,11 +33,14 @@ interface CityProfileCtaProps {
  * tool pages (calculateur coût réel, coût ménage…). Shows the city
  * name, its global score badge (6-tier colour) and a clear button.
  */
-export function CityProfileCta({ city, eyebrow, blurb }: CityProfileCtaProps) {
+export function CityProfileCta({ city, eyebrow, blurb, locale = "fr" }: CityProfileCtaProps) {
+  const t = (fr: string, en: string) => (locale === "en" ? en : fr);
   const score = city.scores.global;
+  const frLabel = scoreLabel(score);
+  const label = locale === "en" ? SCORE_LABEL_EN[frLabel] ?? frLabel : frLabel;
   return (
     <Link
-      href={`/villes/${city.slug}`}
+      href={locale === "en" ? `/cities/${city.slug}` : `/villes/${city.slug}`}
       className="group block rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5 transition-all hover:border-[var(--accent)] hover:shadow-md focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)] sm:p-6"
     >
       <div className="flex items-center gap-4">
@@ -37,7 +50,7 @@ export function CityProfileCta({ city, eyebrow, blurb }: CityProfileCtaProps) {
 
         <div className="min-w-0 flex-1">
           <div className="text-xs font-medium uppercase tracking-wide text-[var(--text-tertiary)]">
-            {eyebrow ?? "Fiche complète"}
+            {eyebrow ?? t("Fiche complète", "Full profile")}
           </div>
           <div className="mt-0.5 flex flex-wrap items-center gap-2">
             <span className="text-lg font-bold text-[var(--text-primary)]">
@@ -49,26 +62,29 @@ export function CityProfileCta({ city, eyebrow, blurb }: CityProfileCtaProps) {
                 scoreBg(score),
                 scoreColor(score)
               )}
-              title={`Score global ${scoreLabel(score)}`}
+              title={t(`Score global ${frLabel}`, `Overall score ${label}`)}
             >
               {formatScore(score)}/10
-              <span className="font-medium opacity-80">{scoreLabel(score)}</span>
+              <span className="font-medium opacity-80">{label}</span>
             </span>
           </div>
           <p className="mt-1 text-sm text-[var(--text-secondary)]">
             {blurb ??
-              `Score détaillé, quartiers, climat, transports et coût de la vie à ${city.name}.`}
+              t(
+                `Score détaillé, quartiers, climat, transports et coût de la vie à ${city.name}.`,
+                `Detailed score, neighbourhoods, climate, transport and cost of living in ${city.name}.`,
+              )}
           </p>
         </div>
 
         <span className="hidden flex-shrink-0 items-center gap-1.5 rounded-xl bg-[var(--accent)] px-4 py-2.5 text-sm font-semibold text-white transition-all group-hover:bg-[var(--accent-hover)] sm:inline-flex">
-          Voir la fiche
+          {t("Voir la fiche", "View profile")}
           <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
         </span>
       </div>
 
       <span className="mt-3 inline-flex items-center gap-1.5 text-sm font-semibold text-[var(--accent)] sm:hidden">
-        Voir la fiche complète
+        {t("Voir la fiche complète", "View full profile")}
         <ArrowRight className="h-4 w-4" />
       </span>
     </Link>

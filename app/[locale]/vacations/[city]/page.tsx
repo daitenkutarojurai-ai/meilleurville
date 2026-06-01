@@ -385,7 +385,7 @@ export default async function CityVacationsPage({ params }: Props) {
 
       {/* Booking CTA */}
       <section className="mx-auto max-w-4xl px-4 sm:px-6 py-6">
-        <BookingCTA cityName={city.name} variant="full" />
+        <BookingCTA cityName={city.name} locale="en" variant="full" />
       </section>
 
       {/* Link to full city profile */}
@@ -407,7 +407,7 @@ export default async function CityVacationsPage({ params }: Props) {
       </section>
 
       <Footer />
-      <StickyBookingBar cityName={city.name} />
+      <StickyBookingBar cityName={city.name} locale="en" />
     </main>
   );
 }

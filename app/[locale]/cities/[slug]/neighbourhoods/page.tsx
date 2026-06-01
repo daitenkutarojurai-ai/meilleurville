@@ -218,7 +218,7 @@ export default async function EnCityNeighbourhoodsPage({ params }: Props) {
           </>
         )}
 
-        <DiscussionCTA cityName={city.name} citySlug={city.slug} />
+        <DiscussionCTA cityName={city.name} citySlug={city.slug} locale="en" />
       </div>
 
       <Footer />

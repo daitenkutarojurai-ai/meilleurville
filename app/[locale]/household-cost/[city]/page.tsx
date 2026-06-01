@@ -170,6 +170,7 @@ export default async function EnHouseholdCostCityPage({ params }: Props) {
         <div className="mt-3">
           <CityProfileCta
             city={c}
+            locale="en"
             blurb={`Global score, neighbourhoods, climate, and all costs in detail for ${c.name}.`}
           />
         </div>

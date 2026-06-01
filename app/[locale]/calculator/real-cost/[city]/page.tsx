@@ -138,6 +138,7 @@ export default async function EnCalculatorRealCostCityPage({ params }: Props) {
 
         <CityProfileCta
           city={c}
+          locale="en"
           eyebrow="Go further"
           blurb={`Global score, safety, transport, climate and reviews: the full profile for ${c.name}.`}
         />

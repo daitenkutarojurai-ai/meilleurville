@@ -223,6 +223,7 @@ export default async function EnCitySeasonsPage({ params }: Props) {
         <DiscussionCTA
           cityName={city.name}
           citySlug={city.slug}
+          locale="en"
         />
       </div>
 

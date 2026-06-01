@@ -177,7 +177,7 @@ export default async function ProfilePage({ params }: Props) {
                     </span>
                   </div>
                   <div className="mt-3">
-                    <BookingCTA cityName={city.name} variant="compact" />
+                    <BookingCTA cityName={city.name} locale="en" variant="compact" />
                   </div>
                 </div>
               </div>

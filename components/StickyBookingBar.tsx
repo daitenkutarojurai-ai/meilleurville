@@ -4,6 +4,7 @@ import { Hotel, ExternalLink, X } from "lucide-react";
 
 interface Props {
   cityName: string;
+  locale?: "fr" | "en";
 }
 
 /**
@@ -11,7 +12,8 @@ interface Props {
  * 30 % de scroll, dismissible (session-storage). Conçue pour ne PAS gêner
  * la lecture (slim, retirable, ton transparent).
  */
-export function StickyBookingBar({ cityName }: Props) {
+export function StickyBookingBar({ cityName, locale = "fr" }: Props) {
+  const t = (fr: string, en: string) => (locale === "en" ? en : fr);
   const [visible, setVisible] = useState(false);
   // Lazy initialiser — évite le setState-in-effect (cf. CLAUDE.md).
   const [dismissed, setDismissed] = useState(() => {
@@ -36,7 +38,11 @@ export function StickyBookingBar({ cityName }: Props) {
   if (dismissed || !visible) return null;
 
   const aid = process.env.NEXT_PUBLIC_BOOKING_AID;
-  const url = new URL("https://www.booking.com/searchresults.fr.html");
+  const url = new URL(
+    locale === "en"
+      ? "https://www.booking.com/searchresults.en-gb.html"
+      : "https://www.booking.com/searchresults.fr.html",
+  );
   url.searchParams.set("ss", `${cityName}, France`);
   if (aid) url.searchParams.set("aid", aid);
 
@@ -49,10 +55,10 @@ export function StickyBookingBar({ cityName }: Props) {
           </div>
           <div className="min-w-0 flex-1">
             <div className="text-xs font-semibold text-[var(--text-primary)] truncate">
-              Trouver un hôtel à {cityName}
+              {t(`Trouver un hôtel à ${cityName}`, `Find a hotel in ${cityName}`)}
             </div>
             <div className="text-[10px] text-[var(--text-tertiary)] truncate">
-              Lien partenaire Booking
+              {t("Lien partenaire Booking", "Booking partner link")}
             </div>
           </div>
           <a
@@ -61,7 +67,7 @@ export function StickyBookingBar({ cityName }: Props) {
             rel="sponsored noopener"
             className="inline-flex items-center gap-1 rounded-full bg-[var(--accent)] text-white text-xs font-semibold px-3 py-1.5 hover:bg-[var(--accent-hover)] transition-colors shrink-0"
           >
-            Voir
+            {t("Voir", "View")}
             <ExternalLink className="h-3 w-3" />
           </a>
           <button
@@ -70,7 +76,7 @@ export function StickyBookingBar({ cityName }: Props) {
               sessionStorage.setItem("mv-booking-dismissed", "1");
               setDismissed(true);
             }}
-            aria-label="Fermer"
+            aria-label={t("Fermer", "Close")}
             className="ml-1 rounded-full p-1 text-[var(--text-tertiary)] hover:bg-[var(--bg-elevated)] hover:text-[var(--text-primary)] transition-colors shrink-0"
           >
             <X className="h-3.5 w-3.5" />

@@ -106,7 +106,7 @@ export default async function CityFingerprintENPage({ params }: Props) {
         <Card className="overflow-hidden bg-gradient-to-br from-[var(--bg-canvas)] to-[var(--bg-elevated)]">
           <div className="grid items-center gap-8 md:grid-cols-[auto,1fr]">
             <div className="flex justify-center">
-              <CityFingerprint city={city} size={380} showFooter={false} />
+              <CityFingerprint city={city} size={380} showFooter={false} locale="en" />
             </div>
             <div className="min-w-0 space-y-4">
               <div>
@@ -214,7 +214,7 @@ export default async function CityFingerprintENPage({ params }: Props) {
                 href={`/cities/${n.slug}/fingerprint`}
                 className="group flex flex-col items-center rounded-xl border border-[var(--border)] bg-[var(--bg-canvas)] p-4 transition hover:border-[var(--accent)]/40 hover:shadow-lg"
               >
-                <CityFingerprint city={n} size={180} showLabels={false} showFooter={false} />
+                <CityFingerprint city={n} size={180} showLabels={false} showFooter={false} locale="en" />
                 <div className="mt-3 text-center">
                   <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)]">
                     {n.name}

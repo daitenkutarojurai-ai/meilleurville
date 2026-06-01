@@ -6,6 +6,7 @@ interface Props {
   variant?: "compact" | "full";
   /** Optional preferred month — appended as date hint in the search URL */
   month?: number;
+  locale?: "fr" | "en";
 }
 
 /**
@@ -17,10 +18,15 @@ interface Props {
  * Note : on déclare clairement le caractère affilié au-dessus du lien
  * (« lien partenaire ») — cohérence avec le ton « sans bullshit » du site.
  */
-export function BookingCTA({ cityName, variant = "compact", month }: Props) {
+export function BookingCTA({ cityName, variant = "compact", month, locale = "fr" }: Props) {
+  const t = (fr: string, en: string) => (locale === "en" ? en : fr);
   const aid = process.env.NEXT_PUBLIC_BOOKING_AID;
 
-  const url = new URL("https://www.booking.com/searchresults.fr.html");
+  const url = new URL(
+    locale === "en"
+      ? "https://www.booking.com/searchresults.en-gb.html"
+      : "https://www.booking.com/searchresults.fr.html",
+  );
   url.searchParams.set("ss", `${cityName}, France`);
   if (aid) url.searchParams.set("aid", aid);
   if (month) {
@@ -34,7 +40,7 @@ export function BookingCTA({ cityName, variant = "compact", month }: Props) {
   }
 
   const href = url.toString();
-  const label = `Trouver un hôtel à ${cityName}`;
+  const label = t(`Trouver un hôtel à ${cityName}`, `Find a hotel in ${cityName}`);
 
   if (variant === "compact") {
     return (
@@ -70,8 +76,8 @@ export function BookingCTA({ cityName, variant = "compact", month }: Props) {
             <ExternalLink className="h-3.5 w-3.5 text-[var(--text-tertiary)]" />
           </div>
           <p className="text-xs text-[var(--text-secondary)] mt-1 leading-snug">
-            Comparer les disponibilités et les prix sur Booking.
-            <span className="text-[var(--text-tertiary)]"> Lien partenaire — on touche une petite commission si vous réservez via ce lien, sans surcoût pour vous.</span>
+            {t("Comparer les disponibilités et les prix sur Booking.", "Compare availability and prices on Booking.")}
+            <span className="text-[var(--text-tertiary)]">{t(" Lien partenaire — on touche une petite commission si vous réservez via ce lien, sans surcoût pour vous.", " Partner link — we earn a small commission if you book through it, at no extra cost to you.")}</span>
           </p>
         </div>
       </div>

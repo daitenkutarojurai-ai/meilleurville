@@ -300,7 +300,7 @@ export default async function MonthPage({ params }: Props) {
                       </span>
                     </div>
                     <div className="mt-3">
-                      <BookingCTA cityName={city.name} variant="compact" month={idx} />
+                      <BookingCTA cityName={city.name} locale="en" variant="compact" month={idx} />
                     </div>
                   </div>
                 </div>
