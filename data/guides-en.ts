@@ -11241,6 +11241,242 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["cassis", "marseille", "aix-en-provence"],
     tags: ["things to do in cassis", "cassis", "travel", "city guide", "provence"],
   },
+  {
+    slug: "one-week-in-provence-itinerary-2026",
+    title: "One week in Provence: a route that actually works",
+    metaTitle: "One Week in Provence Itinerary (2026) — A Practical Route",
+    metaDesc:
+      "A realistic 7-day Provence itinerary: Avignon, the Luberon villages, Aix, Marseille and the calanques, with honest pacing and where to base yourself.",
+    category: "lifestyle",
+    emoji: "🌿",
+    readMinutes: 8,
+    publishedAt: "2026-06-01",
+    updatedAt: "2026-06-01",
+    intro:
+      "Provence is bigger and more spread out than its postcards suggest, and the classic mistake is trying to do all of it in a week from a single base. This itinerary splits the week between two bases to cut the driving, mixes the famous hilltop villages with a real city or two, and leaves room to actually sit down. A car helps for the village days; the cities are reachable by train.",
+    sections: [
+      {
+        heading: "Before you go: pacing and bases",
+        body: "Seven days does not cover all of Provence, so don't try. This route uses two bases: Avignon (or a Luberon village) for the first half, then Aix-en-Provence for the second, with Marseille and the coast at the end. That keeps each drive short and means you unpack twice, not six times. Avoid mid-July to mid-August if you can: the heat is fierce, the villages are jammed and prices peak. May, June and September are far better, and June catches early lavender.",
+      },
+      {
+        heading: "Days 1–2: Avignon and the Pont du Gard",
+        body: "Start in Avignon: the vast Palais des Papes, the famous half-bridge, and the walled old town are an easy first day, and the city is a TGV hub if you're arriving by train. On day two, drive out to the Pont du Gard, the colossal Roman aqueduct, and the handsome town of Uzès nearby, or head to Châteauneuf-du-Pape for wine. Avignon's July theatre festival is wonderful but books out months ahead, so plan around it.",
+      },
+      {
+        heading: "Days 3–4: the Luberon villages",
+        body: "This is the Provence of the imagination: hilltop villages strung across the Luberon. Gordes (with the nearby Sénanque abbey and its lavender), the ochre cliffs of Roussillon, Ménerbes and Bonnieux reward slow village-hopping by car. Markets are the daily ritual; the Isle-sur-la-Sorgue antiques market (Sunday) is famous. Base in or near one of the villages to enjoy them in the quiet evening after the day-trippers leave.",
+      },
+      {
+        heading: "Days 5–6: Aix-en-Provence",
+        body: "Move base to Aix, the elegant fountain town of Cézanne, plane-tree avenues and daily markets. Use it as a calm base: a full day in town (the Cours Mirabeau, the old quarter, the Cézanne studio and the view of Montagne Sainte-Victoire) and a half-day hike on the mountain itself if you like walking. Aix is well connected, so you can also dip into Marseille from here by frequent train.",
+      },
+      {
+        heading: "Day 7: Marseille and the calanques",
+        body: "End on the coast. Marseille gives you the Vieux-Port, the Panier quarter, the basilica view and the MuCEM, and just east the Calanques national park offers turquoise coves reachable by boat or on foot. The pretty port of Cassis is the gentler alternative base for the calanques. Fly home from Marseille airport or take the TGV back north from Aix or Marseille.",
+      },
+      {
+        heading: "Practical notes",
+        body: "A hire car is worth it for the Luberon days but a liability in city centres (park outside and walk in). Provence summers are hot and dry, with real wildfire risk; calanque trails can close on high-risk days, so always check. Book village accommodation and any festival dates early. And resist adding the Côte d'Azur to the same week: Nice and the Riviera are a different trip, and cramming both means seeing neither properly.",
+      },
+    ],
+    relatedCities: ["avignon", "gordes", "aix-en-provence", "marseille", "cassis"],
+    tags: ["provence itinerary", "one week in provence", "travel", "itinerary", "provence"],
+  },
+  {
+    slug: "french-riviera-road-trip-itinerary-2026",
+    title: "French Riviera road trip: Nice, the corniches and the coast",
+    metaTitle: "French Riviera Road Trip Itinerary (2026) — Côte d'Azur Route",
+    metaDesc:
+      "A practical Côte d'Azur itinerary from Nice: the three corniche roads, Cannes, Antibes, Menton and the perched villages, with honest advice on driving vs the train.",
+    category: "lifestyle",
+    emoji: "🌅",
+    readMinutes: 8,
+    publishedAt: "2026-06-01",
+    updatedAt: "2026-06-01",
+    intro:
+      "The Côte d'Azur is compact, which is both the joy and the trap: everything is close, so people try to do all of it and spend the trip in traffic. This route bases you in or near Nice and fans out by a mix of car and train, because the coastal railway is often faster and far less stressful than the summer roads. Five or six days is the sweet spot.",
+    sections: [
+      {
+        heading: "Base yourself in Nice",
+        body: "Nice is the obvious base: a real city with an airport, an old town, beaches and the best train connections on the coast. Give it a day or two up front (the old town, the Promenade des Anglais, the Cimiez museums) before you start exploring. Staying central means you can ditch the car for the rail days, which is the single best decision you'll make on this trip.",
+      },
+      {
+        heading: "The three corniches to Monaco and Menton",
+        body: "East of Nice, three roads climb the cliffs at different heights. The Grande Corniche (highest) gives the big views; the Moyenne Corniche passes the perched village of Èze with its exotic garden; the Basse Corniche hugs the sea through Villefranche and Beaulieu. Drive one out and another back, or take the train along the coast to Monaco and on to gentle, lemon-scented Menton near the Italian border. The corniche drive is the iconic Riviera experience.",
+      },
+      {
+        heading: "West to Antibes and Cannes",
+        body: "West of Nice the train runs to Antibes (the old town, the Picasso museum and Cap d'Antibes) and Cannes (the Croisette and the calm Lérins islands by ferry). Both make easy half-days by rail; you don't need the car, and parking in either is a summer nightmare. This stretch is busier and glossier than the east, so pick the bits that appeal rather than ticking all of it.",
+      },
+      {
+        heading: "Inland: perched villages and perfume",
+        body: "The Riviera isn't only the coast. Inland lie the perfume town of Grasse, the art village of Saint-Paul-de-Vence and a string of perched stone villages in the hills behind Nice and Cannes. These need a car and reward a day away from the beach crowds. The Gorges du Loup and the village of Gourdon make a scenic loop.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Drive the corniches and the inland villages; take the train for Monaco, Antibes and Cannes. Summer traffic and parking are genuinely punishing, so plan rail days around the peak. Beaches here are mostly pebble, so bring a mat. Late spring and September give you warm sea, lighter crowds and lower prices than July and August. Monaco is a separate country with its own rules but no border formality from France.",
+      },
+    ],
+    relatedCities: ["nice", "menton", "antibes", "cannes", "grasse"],
+    tags: ["french riviera road trip", "cote d azur itinerary", "travel", "itinerary", "cote d azur"],
+  },
+  {
+    slug: "loire-valley-chateaux-itinerary-2026",
+    title: "Loire Valley châteaux itinerary: which castles, in what order",
+    metaTitle: "Loire Valley Châteaux Itinerary (2026) — A Practical Route",
+    metaDesc:
+      "A realistic Loire Valley castle route: Chambord, Chenonceau, Amboise, Blois and Chinon, with how many châteaux are too many and where to base yourself.",
+    category: "lifestyle",
+    emoji: "🏰",
+    readMinutes: 8,
+    publishedAt: "2026-06-01",
+    updatedAt: "2026-06-01",
+    intro:
+      "The Loire Valley has hundreds of châteaux, and château fatigue is real: three a day and they blur into one. This itinerary picks the distinctive ones, spaces them out, and bases you in two riverside towns so the driving stays short. Three to four days is plenty; a car makes it easy, though the main towns are reachable by train.",
+    sections: [
+      {
+        heading: "The rule of two châteaux a day",
+        body: "The single most useful tip for the Loire: cap it at two châteaux a day, ideally one grand and one intimate, with lunch and a village in between. They are genuinely tiring (lots of rooms, lots of standing), and the valley itself, with its river, vineyards and gardens, deserves time too. Pick distinctive castles rather than the most famous: variety beats volume.",
+      },
+      {
+        heading: "Base 1: Amboise or Tours",
+        body: "Base the first half near Tours or in pretty Amboise (itself a fine royal château, and Leonardo da Vinci's final home at Clos Lucé is next door). From here, Chenonceau, the elegant château arching over the river Cher, is the unmissable one, and arguably the loveliest in the valley. Villandry, famous for its Renaissance gardens, is also close. Tours is the rail hub if you're carless.",
+      },
+      {
+        heading: "Base 2: Blois",
+        body: "Move east to Blois, whose own royal château layers four architectural styles around one courtyard and tells the bloodiest royal history in the valley. From Blois it's a short hop to Chambord, the colossal Renaissance hunting lodge with its double-helix staircase attributed to Leonardo, best appreciated from the surrounding park (rent a bike or a boat). Cheverny, nearby, is still privately lived in and beautifully furnished.",
+      },
+      {
+        heading: "West to Chinon and the wine",
+        body: "If you have a fourth day, head west to the medieval fortress town of Chinon above the Vienne, and the white-tuffeau châteaux and troglodyte caves around Saumur. This is also serious wine country (Chinon, Bourgueil, Vouvray, Saumur), and many caves offer tastings. The west feels less coach-toured than the central castles.",
+      },
+      {
+        heading: "Practical notes",
+        body: "A car makes the valley effortless; without one, base in Tours or Blois and use trains plus the seasonal château shuttle buses, which serve the big sites in summer. Buy tickets online for Chambord and Chenonceau in peak season. Spring and early autumn are ideal: the gardens are at their best and the crowds thinner. Don't underestimate distances between the western and eastern castles, which is exactly why two bases beat one.",
+      },
+    ],
+    relatedCities: ["tours", "amboise", "blois", "chinon", "saumur"],
+    tags: ["loire valley itinerary", "loire chateaux", "travel", "itinerary", "loire valley"],
+  },
+  {
+    slug: "alsace-wine-route-itinerary-2026",
+    title: "Alsace Wine Route itinerary: villages, vines and two capitals",
+    metaTitle: "Alsace Wine Route Itinerary (2026) — Villages & Wine",
+    metaDesc:
+      "A practical Alsace Wine Route itinerary: Strasbourg, Colmar and the prettiest wine villages, with how to taste, where to base and the best season.",
+    category: "lifestyle",
+    emoji: "🍷",
+    readMinutes: 7,
+    publishedAt: "2026-06-01",
+    updatedAt: "2026-06-01",
+    intro:
+      "The Alsace Wine Route runs for over 170 kilometres along the foothills of the Vosges, linking a string of half-timbered villages between Strasbourg and the south. It's one of the most charming drives in France and easy to do badly, by rushing. This itinerary bases you in the two capitals and dips into the villages between them. Three to four days works well.",
+    sections: [
+      {
+        heading: "Start in Strasbourg",
+        body: "Begin in Strasbourg: the soaring sandstone cathedral, the canal-laced Petite France quarter and the European institutions make a full day or two, and it's the region's transport hub. It's also a great eating city for the Alsatian table (choucroute, tarte flambée) before you head into wine country. Strasbourg has trams, trains and an airport, so you can arrive carless and hire a car for the village days.",
+      },
+      {
+        heading: "The northern villages",
+        body: "Heading south from Strasbourg, Obernai is a handsome walled town and a good first stop, with Barr and the Mont Sainte-Odile (a clifftop monastery with views over the plain) nearby. The villages here are quieter than the southern stars. Wineries (domaines) throughout offer tastings of the Alsace grapes, mostly aromatic whites: Riesling, Gewürztraminer, Pinot Gris and Muscat.",
+      },
+      {
+        heading: "Colmar and the famous villages",
+        body: "Base the second half in Colmar, the storybook capital of Alsace wine, with its Little Venice canals and the Unterlinden museum's great altarpiece. Around it cluster the most photogenic villages in France: Riquewihr, Eguisheim, Kaysersberg and Turckheim, all minutes apart and ringed by vines. This is the heart of the route; go early or late to beat the crowds the postcards attract.",
+      },
+      {
+        heading: "How to taste and get around",
+        body: "Tasting in Alsace is informal and welcoming; many domaines have a cellar door (caveau) you can walk into, and the cooperative cellars are good for comparing across a village. If you're driving, share the tasting or spit, and use the dedicated cycle paths between villages on the plain for a wine-free way to explore. Designate a driver, or take a small-group tour from Colmar to taste freely.",
+      },
+      {
+        heading: "Seasons and the Christmas markets",
+        body: "Late spring and early autumn (the September–October harvest) are the loveliest, with vines turning gold and village wine festivals. Summer is busy and hot. Winter brings the famous Christmas markets in Strasbourg, Colmar and the villages, beautiful but extremely crowded with accommodation booked far ahead. Whatever the season, the villages are tiny and parking is limited, so arrive early.",
+      },
+    ],
+    relatedCities: ["strasbourg", "colmar", "obernai"],
+    tags: ["alsace wine route", "alsace itinerary", "travel", "itinerary", "alsace"],
+  },
+  {
+    slug: "brittany-coast-road-trip-itinerary-2026",
+    title: "Brittany coast road trip: walled cities, capes and oysters",
+    metaTitle: "Brittany Road Trip Itinerary (2026) — Coast & Towns",
+    metaDesc:
+      "A practical Brittany coastal itinerary: Saint-Malo, the pink granite coast, the wild west capes, Quimper and Vannes, with honest pacing and food stops.",
+    category: "lifestyle",
+    emoji: "🦪",
+    readMinutes: 8,
+    publishedAt: "2026-06-01",
+    updatedAt: "2026-06-01",
+    intro:
+      "Brittany is a big, weather-changeable peninsula, and its coast is the point: walled corsair cities, pink granite headlands, wild western capes and sheltered southern gulfs. This route runs roughly east to west and then south, mixing towns with coastline. A week lets you do it without rushing; a car is essential for the capes, though the main towns are on the rail network.",
+    sections: [
+      {
+        heading: "Start: Saint-Malo and the north coast",
+        body: "Begin at Saint-Malo, the granite walled city rising out of the sea, with its rampart walk, tidal islands and huge Atlantic tides. Nearby, elegant Dinard and the medieval river town of Dinan are easy add-ons, and Mont-Saint-Michel is within reach just over the Normandy border. This corner is the busiest and the best-connected; give it a day or two.",
+      },
+      {
+        heading: "The Pink Granite Coast",
+        body: "West along the north coast lies the Côte de Granit Rose, where the shoreline turns to giant rose-coloured boulders, strangest and most beautiful around Ploumanac'h and Perros-Guirec. The coastal path here is superb walking. This stretch needs a car and rewards an unhurried day clambering the rocks and watching the light change.",
+      },
+      {
+        heading: "The wild west: Finistère",
+        body: "The far west, Finistère ('land's end'), is the wildest and most Breton part: the capes of the Crozon peninsula and Pointe du Raz, the maritime city of Brest, and the charming old town of Quimper with its cathedral and faience pottery. The weather is at its most dramatic here; pack layers and a raincoat whatever the forecast. Concarneau's walled island town is a highlight further south.",
+      },
+      {
+        heading: "The south coast and the Gulf of Morbihan",
+        body: "The south coast is gentler and sunnier: the megalithic standing stones of Carnac, the medieval walled town of Vannes, and the island-dotted Gulf of Morbihan, lovely by boat. This is the warmest, most sheltered part of Brittany and a good place to end on the beach. Seafood, cider and galettes are the constant pleasures all the way round.",
+      },
+      {
+        heading: "Practical notes",
+        body: "A car is essential for the capes and the granite coast; the towns (Saint-Malo, Rennes, Brest, Quimper, Vannes) are linked by train if you prefer a town-based trip. Brittany's weather is genuinely changeable, so build in flexibility and don't pin a single beach day. Tides are huge: check tables before walking out to islands or across bays. Late spring to early autumn is the season; many coastal spots quieten sharply out of summer.",
+      },
+    ],
+    relatedCities: ["saint-malo", "dinan", "quimper", "concarneau", "vannes"],
+    tags: ["brittany road trip", "brittany itinerary", "travel", "itinerary", "brittany"],
+  },
+  {
+    slug: "three-days-in-paris-first-time-itinerary-2026",
+    title: "Three days in Paris: a first-timer's itinerary that isn't exhausting",
+    metaTitle: "3 Days in Paris Itinerary (2026) — A First-Timer's Route",
+    metaDesc:
+      "A realistic first-time Paris itinerary over three days: the essential landmarks, two museums not ten, and time to actually enjoy a neighbourhood.",
+    category: "lifestyle",
+    emoji: "🥐",
+    readMinutes: 8,
+    publishedAt: "2026-06-01",
+    updatedAt: "2026-06-01",
+    intro:
+      "Three days is enough to see the best of Paris if you stop trying to see all of it. This itinerary groups the essentials by area so you're not crossing the city six times a day, caps the museums at a sane number, and leaves evenings for the thing Paris does best: sitting outside and watching it go by. Walk where you can; use the metro for the long hops.",
+    sections: [
+      {
+        heading: "Before you go",
+        body: "Book timed tickets in advance for anything with a queue: the Eiffel Tower, the Louvre, Sainte-Chapelle and the Arc de Triomphe rooftop. Use contactless or a Navigo Easy card on the metro rather than paper tickets. Pick a central base (the Marais, the Latin Quarter or around the Saint-Germain area) so most days start on foot. And accept the core truth of Paris: you will not see everything, and the trips people remember are the relaxed ones.",
+      },
+      {
+        heading: "Day 1: the historic heart",
+        body: "Start on the Île de la Cité: Sainte-Chapelle (go early, on a bright morning, for the stained glass) and the exterior of Notre-Dame. Cross to the Latin Quarter and Saint-Germain: the Jardin du Luxembourg, the bookshops and cafés, and a wander with no fixed plan. End along the Seine at golden hour, walking the quais toward the Pont Alexandre III. It's a full day and almost all on foot.",
+      },
+      {
+        heading: "Day 2: the grand axis and one big museum",
+        body: "Do the monumental sweep: the Arc de Triomphe (climb it for the view down the Champs-Élysées and across to the Eiffel Tower), then the Tuileries and one museum, not three. The Louvre if you must, treated as a single wing; or the more humane Musée d'Orsay for the Impressionists; or the Orangerie for Monet's water lilies. In the evening, see the Eiffel Tower lit up, ideally from the Trocadéro or the Champ de Mars rather than queuing to go up.",
+      },
+      {
+        heading: "Day 3: a neighbourhood and a viewpoint",
+        body: "Spend the last day living like a local rather than ticking sights. Montmartre for the Sacré-Cœur and the village streets behind it (early, before the crowds), or the Marais for medieval lanes, falafel and small galleries, or the Canal Saint-Martin for a younger, calmer Paris. Climb something for a last view: the towers of Notre-Dame's neighbourhood, the Centre Pompidou escalators, or the Galeries Lafayette rooftop (free). Leave time for a long lunch.",
+      },
+      {
+        heading: "If you have a fourth day",
+        body: "With an extra day, the obvious add is Versailles (40 minutes on the RER C; go early and head for the gardens first). Other strong options: the Catacombs (book ahead), the Musée Rodin and its garden, or simply more neighbourhood time. Resist the urge to cram a day trip into a three-day trip; Versailles alone eats most of a day.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Eat where there's no host outside waving a photo menu; walk two streets back from the main sights for better, cheaper food, and use the lunch formule. Pharmacies (green cross) handle minor needs. Pickpocketing is the main nuisance around crowded sights and on the metro, so keep bags zipped and front-facing. And build in caffeine and sitting-down time: Paris rewards the unhurried far more than the box-tickers.",
+      },
+    ],
+    relatedCities: ["paris", "versailles"],
+    tags: ["paris itinerary", "3 days in paris", "travel", "itinerary", "ile-de-france"],
+  },
 ];
 
 export function getEnGuide(slug: string): EnGuide | undefined {

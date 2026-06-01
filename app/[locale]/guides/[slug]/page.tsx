@@ -52,6 +52,23 @@ export default async function EnGuidePage({ params }: Props) {
     dateModified: g.updatedAt,
     inLanguage: "en",
     url: `${EN_BASE}/guides/${g.slug}`,
+    mainEntityOfPage: { "@type": "WebPage", "@id": `${EN_BASE}/guides/${g.slug}` },
+    author: { "@type": "Organization", name: "BestCitiesInFrance", url: EN_BASE },
+    publisher: {
+      "@type": "Organization",
+      name: "BestCitiesInFrance",
+      url: EN_BASE,
+      logo: { "@type": "ImageObject", url: `${EN_BASE}/icon.png` },
+    },
+  };
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: EN_BASE },
+      { "@type": "ListItem", position: 2, name: "Guides", item: `${EN_BASE}/guides` },
+      { "@type": "ListItem", position: 3, name: g.title, item: `${EN_BASE}/guides/${g.slug}` },
+    ],
   };
   const faqJsonLd = {
     "@context": "https://schema.org",
@@ -67,6 +84,7 @@ export default async function EnGuidePage({ params }: Props) {
     <main id="main-content" className="min-h-screen">
       <Navbar />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
 
       <article className="mx-auto max-w-3xl px-4 sm:px-6 pt-16 pb-12">
