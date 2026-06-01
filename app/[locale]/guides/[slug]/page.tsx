@@ -7,6 +7,7 @@ import { EN_GUIDES, EN_GUIDE_CATEGORIES, getEnGuide } from "@/data/guides-en";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
 import { scoreColor } from "@/lib/utils";
+import { slugifyTagEn, TAG_SLUGS_EN } from "@/lib/guide-tags-en";
 
 const EN_BASE = ORIGIN_BY_LOCALE.en;
 
@@ -113,6 +114,28 @@ export default async function EnGuidePage({ params }: Props) {
               ))}
             </ul>
           </section>
+        )}
+
+        {g.tags.length > 0 && (
+          <div className="flex flex-wrap gap-2 mt-12 pt-8 border-t border-[var(--border)]">
+            {g.tags.map((tag) => {
+              const tagSlug = slugifyTagEn(tag);
+              const hasPage = TAG_SLUGS_EN.includes(tagSlug);
+              return hasPage ? (
+                <Link
+                  key={tag}
+                  href={`/tags/${tagSlug}`}
+                  className="text-xs px-3 py-1 rounded-full bg-[var(--bg-elevated)] border border-[var(--border)] text-[var(--text-secondary)] hover:text-[var(--accent)] hover:border-[var(--accent)]/40 transition-colors"
+                >
+                  {tag}
+                </Link>
+              ) : (
+                <span key={tag} className="text-xs px-3 py-1 rounded-full bg-[var(--bg-elevated)] border border-[var(--border)] text-[var(--text-secondary)]">
+                  {tag}
+                </span>
+              );
+            })}
+          </div>
         )}
 
         {otherGuides.length > 0 && (
