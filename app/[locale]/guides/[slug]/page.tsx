@@ -8,6 +8,7 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
 import { scoreColor } from "@/lib/utils";
 import { slugifyTagEn, TAG_SLUGS_EN } from "@/lib/guide-tags-en";
+import { suggestNextEnGuides } from "@/lib/guide-suggestions-en";
 
 const EN_BASE = ORIGIN_BY_LOCALE.en;
 
@@ -40,7 +41,7 @@ export default async function EnGuidePage({ params }: Props) {
   const relatedCities = g.relatedCities
     .map((s) => CITIES_SEED.find((c) => c.slug === s))
     .filter((c): c is NonNullable<typeof c> => Boolean(c));
-  const otherGuides = EN_GUIDES.filter((x) => x.slug !== g.slug).slice(0, 3);
+  const otherGuides = suggestNextEnGuides(g, 3);
 
   const articleJsonLd = {
     "@context": "https://schema.org",
