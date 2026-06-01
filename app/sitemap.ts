@@ -8,6 +8,7 @@ import { SEO_TRIPLETS } from "@/lib/comparer-triplets";
 import { QUITTER_PAIRS, pairToSlug } from "@/lib/quitter-pairs";
 import { METRO_REGIONS, regionToSlug } from "@/lib/regions";
 import { TAG_SLUGS } from "@/lib/guide-tags";
+import { TAG_SLUGS_EN } from "@/lib/guide-tags-en";
 import { RED_FLAG_THEME_SLUGS } from "@/lib/red-flag-themes";
 import { commonOriginSlugs } from "@/lib/people-like-you";
 
@@ -72,6 +73,7 @@ const SITEMAP_CHUNKS_EN = [
   "en-gentrification",
   "en-thematic-macro",
   "en-geographic-zones",
+  "en-tags",
 ] as const;
 
 const SITEMAP_CHUNKS = IS_EN ? SITEMAP_CHUNKS_EN : SITEMAP_CHUNKS_FR;
@@ -619,6 +621,18 @@ function tagsSection(): MetadataRoute.Sitemap {
   return [
     { url: `${BASE_URL}/tags`, lastModified: latestGuideUpdate(), changeFrequency: "weekly", priority: 0.6 },
     ...TAG_SLUGS.map((slug) => ({
+      url: `${BASE_URL}/tags/${slug}`,
+      lastModified: latestGuideUpdate(),
+      changeFrequency: "weekly" as const,
+      priority: 0.5,
+    })),
+  ];
+}
+
+function enTagsSection(): MetadataRoute.Sitemap {
+  return [
+    { url: `${BASE_URL}/tags`, lastModified: latestGuideUpdate(), changeFrequency: "weekly", priority: 0.6 },
+    ...TAG_SLUGS_EN.map((slug) => ({
       url: `${BASE_URL}/tags/${slug}`,
       lastModified: latestGuideUpdate(),
       changeFrequency: "weekly" as const,
@@ -1228,6 +1242,7 @@ export default async function sitemap({ id }: { id: Promise<string> }): Promise<
     case "en-gentrification": return enGentrificationSection();
     case "en-thematic-macro": return enThematicMacroRegionSection();
     case "en-geographic-zones": return enGeographicZonesSection();
+    case "en-tags": return enTagsSection();
     default: return [];
   }
 }
