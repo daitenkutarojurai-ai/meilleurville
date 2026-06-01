@@ -6,6 +6,7 @@ import { Footer } from "@/components/Footer";
 import { AmbientBackground } from "@/components/AmbientBackground";
 import { DiscussionCTA } from "@/components/DiscussionCTA";
 import { CITIES_SEED } from "@/data/cities-seed";
+import { getEnGuide } from "@/data/guides-en";
 import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { ChevronRight, MapPin, TreePine, Utensils, Music, Bike, Camera, Coffee, Sunset } from "lucide-react";
@@ -122,6 +123,7 @@ export default async function EnThingsToDoPage({ params }: Props) {
 
   const activities = buildActivityCategories(city);
   const enabledActivities = activities.filter((a) => a.enabled);
+  const guide = getEnGuide(`things-to-do-in-${slug}-2026`);
 
   const breadcrumb = breadcrumbJsonLd([
     { name: "Home", path: "/" },
@@ -161,6 +163,39 @@ export default async function EnThingsToDoPage({ params }: Props) {
             </p>
           </div>
         </div>
+
+        {/* Featured guide card when a things-to-do guide exists */}
+        {guide && (
+          <div className="mb-8 rounded-2xl border border-[var(--accent)]/30 bg-gradient-to-br from-[var(--bg-surface)] to-[var(--accent)]/5 p-6">
+            <div className="text-xs font-semibold uppercase tracking-wider text-[var(--accent)] mb-2">
+              In-depth guide
+            </div>
+            <h2 className="text-xl font-bold text-[var(--text-primary)] mb-2">{guide.title}</h2>
+            <p className="text-sm text-[var(--text-secondary)] line-clamp-3">{guide.intro}</p>
+            <div className="mt-4 flex flex-wrap gap-2">
+              {guide.sections.slice(0, 5).map((s, i) => (
+                <span
+                  key={i}
+                  className="text-xs bg-[var(--bg-canvas)] border border-[var(--border)] rounded-full px-3 py-1 text-[var(--text-secondary)]"
+                >
+                  {s.heading}
+                </span>
+              ))}
+              {guide.sections.length > 5 && (
+                <span className="text-xs bg-[var(--bg-canvas)] border border-[var(--border)] rounded-full px-3 py-1 text-[var(--accent)]">
+                  +{guide.sections.length - 5} more
+                </span>
+              )}
+            </div>
+            <Link
+              href={`/guides/${guide.slug}`}
+              className="mt-5 inline-flex items-center gap-2 rounded-xl bg-[var(--accent)] px-5 py-2.5 text-sm font-semibold text-white hover:opacity-90 transition-opacity"
+            >
+              Read the full guide
+              <ChevronRight className="h-4 w-4" />
+            </Link>
+          </div>
+        )}
 
         {/* Activity categories grid */}
         <div className="mb-10">

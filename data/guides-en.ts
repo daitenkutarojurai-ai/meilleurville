@@ -10201,6 +10201,238 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["bordeaux", "aix-en-provence", "montpellier", "tours", "nice"],
     tags: ["retiring to France non-EU 2026", "France retirement visa British American guide", "best places retire France expat 2026", "French long-stay visa Visiteur retiree", "taxes retiring to France UK US"],
   },
+  {
+    slug: "things-to-do-in-paris-2026",
+    title: "Things to do in Paris: a resident's honest shortlist",
+    metaTitle: "Things to Do in Paris (2026) — A Resident's Honest Guide",
+    metaDesc:
+      "What's actually worth your time in Paris: the landmarks that earn the queue, the museums to skip the crowds, and the neighbourhoods where the city feels lived-in.",
+    category: "city-guide",
+    emoji: "🗼",
+    readMinutes: 8,
+    publishedAt: "2026-06-01",
+    updatedAt: "2026-06-01",
+    intro:
+      "Paris has more 'must-sees' than any sane trip can hold, and trying to tick them all is the fastest way to hate the city. This is the opposite of a bucket list. It's how a resident would spend the time: a handful of landmarks that genuinely earn the queue, the museums worth a half-day, and the everyday neighbourhoods where Paris stops being a postcard and starts being a place.",
+    sections: [
+      {
+        heading: "The landmarks that earn the queue",
+        body: "Not all icons are equal. The view from the top of Notre-Dame's towers and the Arc de Triomphe rooftop both beat the Eiffel Tower's queue-to-payoff ratio, and the Arc gives you the tower in the frame. If you do the Eiffel Tower, book a timed ticket weeks ahead and go at dusk so you catch both daylight and the hourly sparkle after dark. Sainte-Chapelle, hidden on the Île de la Cité, is the single most underrated landmark in the city: a small upper chapel walled almost entirely in 13th-century stained glass. Go on a bright morning when the light comes through.",
+      },
+      {
+        heading: "Museums: pick two, not ten",
+        body: "The Louvre is overwhelming by design; treat it as one wing, not one building, and leave before fatigue sets in. The Musée d'Orsay, in a former railway station, is the more humane choice for Impressionists and is hard to beat. If you only have an afternoon, the Orangerie (Monet's water-lily rooms) or the Rodin museum with its garden give you world-class art without the marathon. Many national museums are free on the first Sunday of the month, which is wonderful for your wallet and brutal for the crowds, so weigh that trade-off.",
+      },
+      {
+        heading: "Neighbourhoods where Paris feels lived-in",
+        body: "Skip a day of monuments and just walk. The Marais (3rd and 4th) mixes medieval streets, falafel queues on Rue des Rosiers and small galleries. The Canal Saint-Martin (10th) is where younger Paris drinks by the water on warm evenings. Belleville and Ménilmontant (20th) are multicultural, hilly and full of street art, with some of the best cheap food in the city. The Latin Quarter and Saint-Germain (5th, 6th) are touristy but genuinely beautiful, especially the side streets and the Jardin du Luxembourg.",
+      },
+      {
+        heading: "Parks, markets and the river",
+        body: "The Jardin du Luxembourg is the city's living room: bring a book and take a green metal chair. For something wilder, the Buttes-Chaumont (19th) has cliffs, a waterfall and skyline views with far fewer tourists. Markets are a free, delicious way to see real Parisian life: the Marché d'Aligre (12th) is one of the liveliest. And the Seine itself is the best free attraction in Paris, especially the car-free quais on the Right Bank in summer. A walk from the Île de la Cité to the Pont Alexandre III at golden hour costs nothing and beats most paid tours.",
+      },
+      {
+        heading: "Day trips that are worth the train",
+        body: "Versailles is 40 minutes on the RER C and worth it if you go early and head straight for the gardens before the palace crush; the Trianon estate and the hamlet are calmer than the main château. Giverny (Monet's garden) is a seasonal half-day from spring to autumn. If you have a full day and a TGV budget, you can be in Reims (Champagne country) in under an hour. None of these is essential, but each gives you a different register of the region.",
+      },
+      {
+        heading: "Practical resident tips",
+        body: "Buy a Navigo Easy card or use contactless on the metro rather than paper tickets. Avoid restaurants with photo menus and a host outside on the main tourist axes; walk two streets back. Lunch menus (formule midi) are far cheaper than dinner for the same kitchen. Pharmacies (green cross) are your friend for minor issues. And accept that you will not see everything: the Parisians who love their city most are the ones who pick a neighbourhood, sit down, and let an afternoon happen.",
+      },
+    ],
+    relatedCities: ["paris", "versailles", "reims"],
+    tags: ["things to do in paris", "paris", "travel", "city guide", "ile-de-france"],
+  },
+  {
+    slug: "things-to-do-in-lyon-2026",
+    title: "Things to do in Lyon: food capital, two rivers, Roman hills",
+    metaTitle: "Things to Do in Lyon (2026) — Food, History & Neighbourhoods",
+    metaDesc:
+      "Lyon beyond the bouchons: the Renaissance old town, the traboule passages, the hilltop Roman ruins and where to eat without the tourist markup.",
+    category: "city-guide",
+    emoji: "🦁",
+    readMinutes: 7,
+    publishedAt: "2026-06-01",
+    updatedAt: "2026-06-01",
+    intro:
+      "Lyon is France's quiet heavyweight: the country's gastronomic capital, a UNESCO-listed old town, two rivers and a Roman past, all without the crowds or the prices of Paris. It rewards walkers and eaters more than checklist tourists. Here's how to spend the time well.",
+    sections: [
+      {
+        heading: "Vieux Lyon and the traboules",
+        body: "The Renaissance old town (Vieux Lyon) is one of the largest in Europe and a UNESCO site. Its secret is the traboules: covered passageways cutting through buildings and courtyards, originally used by silk workers to move goods out of the rain. Many are open to the public during the day; look for the small plaques and push the heavy doors. Saint-Jean cathedral with its astronomical clock anchors the quarter. Go in the morning before the cobblestones fill up.",
+      },
+      {
+        heading: "Fourvière hill and Roman Lyon",
+        body: "Take the funicular up Fourvière hill for the basilica and a sweeping view over the city to the Alps on clear days. Just below, the Gallo-Roman theatres are genuine 2,000-year-old ruins you can walk through for free, and they still host concerts in summer (the Nuits de Fourvière festival). The adjacent Lugdunum museum is excellent if Roman history is your thing. Walk back down through the gardens rather than taking the funicular both ways.",
+      },
+      {
+        heading: "Eating in the food capital",
+        body: "Lyon's bouchons are traditional restaurants serving hearty local dishes (quenelles, andouillette, salade lyonnaise). The catch: the ones clustered around the touristy stretches of Vieux Lyon are variable. Look for the 'Bouchons Lyonnais' authenticity label, or head to the Presqu'île and Croix-Rousse for places where locals actually eat. For a food-hall experience, Les Halles de Lyon Paul Bocuse is a temple of regional produce, best at lunch. Budget travellers do well at the markets along the Saône and Rhône quais.",
+      },
+      {
+        heading: "Croix-Rousse and the Presqu'île",
+        body: "The Presqu'île, the peninsula between the two rivers, is the elegant heart: Place Bellecour, shopping streets and the Musée des Beaux-Arts (one of France's best, in a former abbey). North of it, the Croix-Rousse is the old silk-weavers' hill, now a villagey, bohemian quarter with steep stairs, market stalls and a great view back over the rooftops. The two together make a perfect car-free day on foot.",
+      },
+      {
+        heading: "Riverside, parks and seasons",
+        body: "The Parc de la Tête d'Or is a huge free park with a lake, a botanical garden and a zoo, ideal on a warm afternoon. The redeveloped Rhône riverbanks (berges du Rhône) are where Lyon walks, runs and drinks at sunset. If you can time it, the Fête des Lumières in early December turns the whole city into a light-art festival over four nights; it's spectacular but book accommodation far ahead.",
+      },
+    ],
+    relatedCities: ["lyon", "vienne", "annecy"],
+    tags: ["things to do in lyon", "lyon", "travel", "city guide", "food"],
+  },
+  {
+    slug: "things-to-do-in-nice-2026",
+    title: "Things to do in Nice: the Riviera without the clichés",
+    metaTitle: "Things to Do in Nice (2026) — Old Town, Sea & Day Trips",
+    metaDesc:
+      "Nice beyond the Promenade: the old town, the hilltop views, the art museums and the easy train hops along the Côte d'Azur.",
+    category: "city-guide",
+    emoji: "🌊",
+    readMinutes: 7,
+    publishedAt: "2026-06-01",
+    updatedAt: "2026-06-01",
+    intro:
+      "Nice is the most walkable base on the French Riviera and the best-connected: a real city with an airport, a old town and a coastline, not just a resort. The trick is to balance the famous Promenade with the things that make Nice itself, and to use the train to reach the rest of the coast cheaply.",
+    sections: [
+      {
+        heading: "The old town (Vieux Nice)",
+        body: "The old town is a warren of ochre lanes, baroque churches and the daily Cours Saleya market (flowers and produce by day, antiques on Mondays). It's touristy and worth it anyway: eat socca, the chickpea pancake that is Nice's signature street food, from a stall rather than a sit-down place. Climb up to the Colline du Château at the eastern end for the postcard view over the red roofs and the Baie des Anges; there's no castle left, but there is a waterfall, gardens and the best panorama in the city, reached on foot or by a free lift.",
+      },
+      {
+        heading: "The Promenade des Anglais, used well",
+        body: "The seafront Promenade is the icon, and a sunrise or evening walk along it is genuinely lovely. The beaches are pebble, not sand, so bring or rent a mat. Rather than paying for a private beach club, the public stretches are free and fine. Rent a bike or use the city's bike share to cover the full curve of the bay; it's flat and separated from traffic for much of the way.",
+      },
+      {
+        heading: "Art above the city",
+        body: "Nice punches far above its weight on art. The Matisse museum and the Chagall museum (with its biblical-message cycle) sit up in the leafy Cimiez district, near Roman ruins and a monastery garden. Both are calm, manageable half-days, a relief after the seafront crowds. The Musée d'Art Moderne (MAMAC) downtown covers Pop Art and the Nice school. Cimiez also has some of the city's grandest Belle Époque architecture.",
+      },
+      {
+        heading: "Day trips by train and bus",
+        body: "Nice's real luxury is the coastal railway. In well under an hour you can reach Monaco, the medieval hill of Èze, Antibes (with the Picasso museum) and Cannes. Menton, near the Italian border, is warmer and quieter. The frequent, cheap regional trains mean you don't need a car: pick one or two stops rather than rushing all of them. Villefranche-sur-Mer, one stop away, has the prettiest little harbour on the coast.",
+      },
+      {
+        heading: "When to go and practical notes",
+        body: "Late spring and September are the sweet spots: warm sea, fewer crowds, lower prices than July and August, when the city and its prices are at full tilt. Summers are hot and increasingly so; mornings and evenings are the comfortable hours. The airport is a short tram ride from the centre, which makes Nice an unusually easy weekend city. Carry small change for the market stalls and the socca queue.",
+      },
+    ],
+    relatedCities: ["nice", "antibes", "menton", "cannes"],
+    tags: ["things to do in nice", "nice", "travel", "city guide", "cote d azur"],
+  },
+  {
+    slug: "things-to-do-in-bordeaux-2026",
+    title: "Things to do in Bordeaux: stone, wine and the river",
+    metaTitle: "Things to Do in Bordeaux (2026) — Old Town, Wine & River",
+    metaDesc:
+      "Bordeaux beyond the vineyards: the 18th-century waterfront, the wine museum that's actually fun, and the day trips into Médoc and Saint-Émilion.",
+    category: "city-guide",
+    emoji: "🍷",
+    readMinutes: 7,
+    publishedAt: "2026-06-01",
+    updatedAt: "2026-06-01",
+    intro:
+      "Bordeaux spent two decades cleaning the soot off its 18th-century stone and is now one of the best-looking cities in France, a UNESCO-listed centre wrapped around a curve of the Garonne. The wine is the headline, but the city itself is the reason to stay. Here's how to use a few days.",
+    sections: [
+      {
+        heading: "The water mirror and the waterfront",
+        body: "Start at the Place de la Bourse and its Miroir d'Eau, the thin sheet of water that reflects the grand façade and mists over on the hour; on a warm day the whole city's children are in it. From there the redeveloped left-bank quais run for kilometres, perfect for walking, cycling or just sitting. Cross the Pont de Pierre or take the tram to the right bank for the best view back at the floodlit waterfront after dark.",
+      },
+      {
+        heading: "The old town on foot",
+        body: "Bordeaux's centre is made for walking. The Grosse Cloche and the Porte Cailhau are surviving medieval gates; the Saint-André cathedral and its separate bell tower (Tour Pey-Berland, climbable for a view) anchor the centre. The Rue Sainte-Catherine is one of Europe's longest pedestrian shopping streets, though the interesting independent shops and wine bars hide in the Saint-Pierre and Chartrons quarters on either side.",
+      },
+      {
+        heading: "La Cité du Vin and city wine bars",
+        body: "La Cité du Vin is a modern museum of wine culture worldwide, not just Bordeaux; it's genuinely well done and ends with a tasting and a panoramic view. In the city itself, the Chartrons district (the old wine-merchant quarter) and the bars around Place du Parlement are where to taste without committing to a full château visit. Many wine bars offer flights so you can compare appellations cheaply.",
+      },
+      {
+        heading: "Vineyards: which way to go",
+        body: "Two directions, two moods. Saint-Émilion, about 40 minutes east, is a beautiful medieval hilltop village surrounded by vines, with an underground monolithic church; it's the easy, scenic half-day, reachable even by train. The Médoc, north along the estuary, is flatter and more about the grand châteaux (Margaux, Pauillac); it rewards a booked tour or a car. Either way, book tastings in advance and don't try to do both in one day.",
+      },
+      {
+        heading: "Coast and dune day trips",
+        body: "Bordeaux is close to two very different escapes. The Dune du Pilat, Europe's tallest sand dune, and the oyster bays of Arcachon are about an hour away and make a classic summer day. In the other direction, the city is well placed for the surf beaches of the Atlantic coast. If you have a spare day and the weather is good, the coast is worth more than a third vineyard.",
+      },
+    ],
+    relatedCities: ["bordeaux", "arcachon", "libourne"],
+    tags: ["things to do in bordeaux", "bordeaux", "travel", "city guide", "wine"],
+  },
+  {
+    slug: "things-to-do-in-marseille-2026",
+    title: "Things to do in Marseille: the rough, real Mediterranean city",
+    metaTitle: "Things to Do in Marseille (2026) — Calanques, Port & Panier",
+    metaDesc:
+      "Marseille without the clichés: the old port, the Panier quarter, the basilica view and the turquoise Calanques on the city's doorstep.",
+    category: "city-guide",
+    emoji: "⛵",
+    readMinutes: 7,
+    publishedAt: "2026-06-01",
+    updatedAt: "2026-06-01",
+    intro:
+      "Marseille is France's oldest city and its least polished, and that's the point. It's loud, sun-blasted, multicultural and unpretentious, with the best urban access to wild coastline in the country. Skip the people who tell you it's dangerous and the people who oversell it; here's what's actually worth doing.",
+    sections: [
+      {
+        heading: "The Vieux-Port and Notre-Dame de la Garde",
+        body: "The Old Port is the city's hinge: fishing boats, the morning fish market on the quay, and ferries to the islands. Walk up (or take the little tourist train if the heat is brutal) to Notre-Dame de la Garde, the basilica on the highest hill, for a 360-degree view over the whole city, the sea and the islands. It's the one unmissable viewpoint in Marseille and it's free to enter.",
+      },
+      {
+        heading: "Le Panier and the old quarters",
+        body: "Le Panier, behind the port, is the oldest district: steep lanes, street art, artisan shops and the restored Vieille Charité (a 17th-century almshouse, now a museum complex). It's gentrifying and touristy in parts but still full of life. Nearby, the modern MuCEM (museum of Mediterranean civilisations) is architecturally striking, connected by a footbridge to the old Fort Saint-Jean, with rooftop views and a lattice shell you can walk through for free.",
+      },
+      {
+        heading: "The Calanques",
+        body: "This is why you come. The Calanques are a national park of white limestone cliffs and turquoise inlets right on the city's southern edge. You can hike in from Callelongue or Luminy (bring water, a hat and proper shoes; summer access is sometimes restricted in fire-risk conditions), or take a boat from the Old Port. Sormiou and Morgiou are the classic coves; En-Vau is the postcard but a serious walk. Even a half-day here reframes the whole city.",
+      },
+      {
+        heading: "Food: bouillabaisse and beyond",
+        body: "Real bouillabaisse is a ceremony, not a cheap lunch; if it's suspiciously cheap on the tourist quay, it isn't the real thing. For the genuine version, go to a specialist and expect to pay and to order ahead. Day to day, Marseille's joy is its North African and Mediterranean street food: the markets at Noailles (the 'belly of Marseille') are a sensory overload of spices, produce and cheap eats. Panisse and navettes are the local snacks to try.",
+      },
+      {
+        heading: "Islands and practical notes",
+        body: "A short ferry from the Old Port reaches the Frioul islands and the Château d'If, the island fortress of Count of Monte Cristo fame. For beaches in the city, the Prado beaches are free and busy. Marseille is a real city with rough edges: keep normal urban awareness around the station and at night, don't flash valuables, and you'll be fine. Go in late spring or early autumn to dodge the worst heat.",
+      },
+    ],
+    relatedCities: ["marseille", "cassis", "aix-en-provence"],
+    tags: ["things to do in marseille", "marseille", "travel", "city guide", "calanques"],
+  },
+  {
+    slug: "things-to-do-in-strasbourg-2026",
+    title: "Things to do in Strasbourg: French-German crossroads on the Rhine",
+    metaTitle: "Things to Do in Strasbourg (2026) — Cathedral, Canals & Alsace",
+    metaDesc:
+      "Strasbourg's sandstone cathedral, the canal-laced Petite France quarter, the European institutions and the Alsace wine villages on the doorstep.",
+    category: "city-guide",
+    emoji: "⛪",
+    readMinutes: 7,
+    publishedAt: "2026-06-01",
+    updatedAt: "2026-06-01",
+    intro:
+      "Strasbourg sits where France and Germany have traded the same ground for centuries, and the city wears both cultures at once: half-timbered houses and a Gothic cathedral, choucroute and tarte flambée, French administration and the European Parliament. It's compact, walkable and one of the most charming city centres in France.",
+    sections: [
+      {
+        heading: "The cathedral",
+        body: "Strasbourg's rose-sandstone cathedral was for centuries the tallest building in the Christian world, and its single asymmetric spire still dominates the skyline. Inside, the astronomical clock performs at solar noon (get a timed ticket), and you can climb the platform for a view over the rooftops to the Black Forest on a clear day. The façade's carved figures repay a slow look; arrive early to have the square to yourself.",
+      },
+      {
+        heading: "La Petite France and the canals",
+        body: "The Grande Île, the historic centre, is a UNESCO site ringed by water. Petite France, the former tanners' and millers' quarter, is the picture-book bit: half-timbered houses leaning over canals, locks and covered bridges (the Ponts Couverts) with the Barrage Vauban terrace above for the classic view. A boat tour on the Ill is the easy way to see it, but walking the lanes early or late is better. Don't miss the cluster of streets just east of the cathedral, less photographed and just as pretty.",
+      },
+      {
+        heading: "The European quarter",
+        body: "North-east of the centre, Strasbourg's role as a European capital is visible in the modern architecture of the European Parliament, the Council of Europe and the European Court of Human Rights, set around the Orangerie park. The Parliament has visitor sessions and a parlamentarium-style exhibit; the park itself, the city's oldest, is a fine free walk with a small zoo and a stork enclosure (storks are the symbol of Alsace).",
+      },
+      {
+        heading: "Alsace food and wine",
+        body: "Strasbourg is a great eating city with a distinct cuisine: choucroute (sauerkraut with charcuterie), tarte flambée (the thin Alsatian 'pizza'), baeckeoffe and pretzels, washed down with Alsace whites or local beer. Winstubs are the cosy traditional taverns to look for. Just outside the city, the Alsace Wine Route runs through impossibly pretty villages: Obernai, Riquewihr and Colmar (a short train ride south) are the headline stops for a day trip.",
+      },
+      {
+        heading: "Christmas market and seasons",
+        body: "Strasbourg calls itself the Capital of Christmas, and its market (one of the oldest in Europe) takes over the whole centre through Advent; it's magical and extremely crowded, so book accommodation months ahead. The rest of the year is quieter and cheaper: spring and early autumn are ideal for walking and the wine villages. Winters are cold and summers warm; the city's flat, compact centre makes it a superb cycling town in any season.",
+      },
+    ],
+    relatedCities: ["strasbourg", "colmar", "obernai"],
+    tags: ["things to do in strasbourg", "strasbourg", "travel", "city guide", "alsace"],
+  },
 ];
 
 export function getEnGuide(slug: string): EnGuide | undefined {
