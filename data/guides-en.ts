@@ -11037,6 +11037,210 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["carcassonne", "narbonne", "toulouse"],
     tags: ["things to do in carcassonne", "carcassonne", "travel", "city guide", "occitanie"],
   },
+  {
+    slug: "things-to-do-in-cannes-2026",
+    title: "Things to do in Cannes: beyond the red carpet",
+    metaTitle: "Things to Do in Cannes (2026) — Croisette, Old Town & Islands",
+    metaDesc:
+      "Cannes past the film festival: the Croisette and beaches, the old Le Suquet quarter, and the calm Lérins islands a short boat ride out.",
+    category: "city-guide",
+    emoji: "🎬",
+    readMinutes: 5,
+    publishedAt: "2026-06-01",
+    updatedAt: "2026-06-01",
+    intro:
+      "Cannes is famous for ten days of film festival glamour, but the other 355 days it's a genuinely pleasant Riviera town with a working old quarter, a long beach and two islands that feel a world away. Here's how to enjoy it without the red-carpet markup.",
+    sections: [
+      {
+        heading: "The Croisette and the beaches",
+        body: "The Boulevard de la Croisette is the palm-lined seafront where the grand hotels, designer shops and the festival palace (with its handprint-studded steps) line up. Much of the beach is private clubs, but there are free public stretches; the promenade walk is the thing, especially at either end of the day. The Palais des Festivals is the venue behind the famous staircase.",
+      },
+      {
+        heading: "Le Suquet, the old town",
+        body: "Climb up to Le Suquet, the old fishing quarter on the hill, for cobbled lanes, restaurants and the best view over the bay from the church and clock tower. The Marché Forville below is a proper Provençal food market, and the streets around it are where to eat better and cheaper than on the seafront.",
+      },
+      {
+        heading: "The Lérins islands",
+        body: "A short ferry from the old port reaches the Îles de Lérins. Sainte-Marguerite is wooded and quiet, with walking trails, swimming spots and the fort where the Man in the Iron Mask was held. Saint-Honorat is still home to monks who make and sell wine. Both are car-free and a refreshing antidote to the glitz; pack water and a picnic.",
+      },
+      {
+        heading: "Around Cannes",
+        body: "The whole western Riviera is on the train line: Antibes and Nice to the east, the perched perfume town of Grasse inland, and the red rock of the Estérel and Saint-Raphaël to the west. Cannes works well as a calmer, cheaper base than Nice for exploring the coast. Avoid festival week (May) unless that's why you're coming, when prices and crowds spike.",
+      },
+    ],
+    relatedCities: ["cannes", "antibes", "grasse"],
+    tags: ["things to do in cannes", "cannes", "travel", "city guide", "cote d azur"],
+  },
+  {
+    slug: "things-to-do-in-antibes-2026",
+    title: "Things to do in Antibes: ramparts, Picasso and the biggest yachts",
+    metaTitle: "Things to Do in Antibes (2026) — Old Town, Picasso & Cap",
+    metaDesc:
+      "Antibes's ramparts and old town, the Picasso museum in the seafront castle, the Provençal market and the millionaire's Cap d'Antibes.",
+    category: "city-guide",
+    emoji: "🛥️",
+    readMinutes: 5,
+    publishedAt: "2026-06-01",
+    updatedAt: "2026-06-01",
+    intro:
+      "Antibes is the Riviera's most balanced town: a walled old quarter and Provençal market, a superb Picasso museum, a vast yacht harbour and a wooded cape of millionaire villas, all between Nice and Cannes. It's the local favourite, and easy to see why. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The old town and the market",
+        body: "Antibes's old town sits behind sea ramparts you can walk along. Inside, the covered Marché Provençal (mornings) is one of the best on the coast for produce, flowers and street food. The lanes around it are full of restaurants and small shops, and the Cathedral and the seafront walls give constant glimpses of the Mediterranean.",
+      },
+      {
+        heading: "The Picasso museum",
+        body: "The Château Grimaldi, perched on the ramparts above the sea, was Picasso's studio for a time in 1946, and he left works to what is now the Musée Picasso. It's a compact, sunlit museum with a sculpture terrace over the water, one of the most enjoyable art stops on the Riviera precisely because it's small.",
+      },
+      {
+        heading: "Port Vauban and Cap d'Antibes",
+        body: "Port Vauban is one of the largest yacht harbours in Europe; the 'Billionaires' Quay' draws gawkers for the superyachts, and the old Fort Carré guards the entrance. South of town, the wooded Cap d'Antibes hides grand villas, the Sentier de Tirepoil coastal path (a beautiful clifftop walk) and quiet coves. The lively neighbouring town of Juan-les-Pins adds beaches and nightlife.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Antibes is on the coastal railway, minutes from Nice and Cannes airports and stations, which makes it an excellent low-key base for the whole Riviera. The beaches mix sand and pebble; the Plage de la Gravette in the old town is a sheltered, free favourite. Late spring and September are the sweet spots before and after the summer crush.",
+      },
+    ],
+    relatedCities: ["antibes", "cannes", "nice"],
+    tags: ["things to do in antibes", "antibes", "travel", "city guide", "cote d azur"],
+  },
+  {
+    slug: "things-to-do-in-saint-malo-2026",
+    title: "Things to do in Saint-Malo: the walled corsair city",
+    metaTitle: "Things to Do in Saint-Malo (2026) — Ramparts, Beaches & Tides",
+    metaDesc:
+      "Saint-Malo's walled old town and rampart walk, the tidal islands, the huge Atlantic tides and the Brittany coast around it.",
+    category: "city-guide",
+    emoji: "🏴‍☠️",
+    readMinutes: 5,
+    publishedAt: "2026-06-01",
+    updatedAt: "2026-06-01",
+    intro:
+      "Saint-Malo is a granite walled city rising straight out of the sea on the Brittany coast, built by corsairs and rebuilt stone by stone after wartime destruction. It has some of the largest tides in Europe, which reshape the beaches twice a day. Here's how to use a day or two.",
+    sections: [
+      {
+        heading: "Walk the ramparts",
+        body: "The free walk along the top of the ramparts that ring the old town (Intra-Muros) is the essential thing to do: a full circuit with views over the rooftops on one side and the sea, beaches and islands on the other. Inside the walls, the lanes are packed with granite townhouses, restaurants and shops; it's touristy but genuinely handsome, especially early or late.",
+      },
+      {
+        heading: "Tidal islands and the tides",
+        body: "Saint-Malo's tides are among the biggest in Europe, and at low tide you can walk out to the fortified islet of the Grand Bé (where the writer Chateaubriand is buried) and the Petit Bé fort; check the tide tables, because the sea cuts them off and comes in fast. The drama of the tide itself, exposing huge beaches then swallowing them, is part of the experience.",
+      },
+      {
+        heading: "Beaches and seafood",
+        body: "The town has fine sandy beaches right beside the walls, busy in summer. Saint-Malo is also a great eating town: oysters, mussels, galettes and the famous salted butter and caramels. The covered market and the restaurants of the old town serve the Breton table well.",
+      },
+      {
+        heading: "Around Saint-Malo",
+        body: "Just across the estuary, the elegant resort of Dinard and the medieval river town of Dinan make easy trips. Mont-Saint-Michel is about an hour away and pairs naturally with a Saint-Malo stay. Boats also run to the Channel Islands and along the coast. It's a ferry port from the UK and well connected by TGV to Rennes and Paris.",
+      },
+    ],
+    relatedCities: ["saint-malo", "dinan", "rennes"],
+    tags: ["things to do in saint-malo", "saint-malo", "travel", "city guide", "brittany"],
+  },
+  {
+    slug: "things-to-do-in-honfleur-2026",
+    title: "Things to do in Honfleur: the painters' harbour of Normandy",
+    metaTitle: "Things to Do in Honfleur (2026) — Old Port, Art & Normandy Coast",
+    metaDesc:
+      "Honfleur's picture-perfect old harbour, the remarkable wooden church, the Impressionist heritage and the Normandy coast nearby.",
+    category: "city-guide",
+    emoji: "🎨",
+    readMinutes: 5,
+    publishedAt: "2026-06-01",
+    updatedAt: "2026-06-01",
+    intro:
+      "Honfleur is small, and it knows exactly how charming it is: a slate-fronted old harbour that has drawn painters for two centuries, a wooden church unlike any other, and the Normandy coast and its produce all around. It's a half-day that easily becomes a full one. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The Vieux Bassin",
+        body: "The old harbour, the Vieux Bassin, is the picture: tall, narrow slate-clad houses reflected in the water, lined with cafés and the masts of small boats. It's busy and beautiful; the trick is to come early or stay for the evening light, which is exactly what drew Boudin, Monet and the Impressionists here. Just wander the harbour and the lanes behind it.",
+      },
+      {
+        heading: "Sainte-Catherine church",
+        body: "The Église Sainte-Catherine is the largest wooden church in France, built by shipwrights after the Hundred Years' War, with a double nave like two upturned hulls and a separate free-standing bell tower across the square. It's genuinely unusual and worth stepping inside.",
+      },
+      {
+        heading: "Art and museums",
+        body: "Honfleur's light made it a cradle of Impressionism. The Musée Eugène Boudin holds works by the local painter who mentored Monet, alongside other coastal painters. The town's many small galleries continue the tradition. The Maisons Satie, a quirky museum in the composer Erik Satie's birthplace, is a delightful surprise.",
+      },
+      {
+        heading: "The Normandy coast and food",
+        body: "Honfleur sits at the mouth of the Seine, linked to Le Havre by the soaring Pont de Normandie. The Côte Fleurie resorts of Deauville and Trouville are minutes away, and the cliffs and D-Day beaches are within reach. Normandy's table is the other pleasure: oysters, cider, Calvados, and cheeses like Camembert and Livarot, all on the market and restaurant menus.",
+      },
+    ],
+    relatedCities: ["honfleur", "le-havre", "rouen"],
+    tags: ["things to do in honfleur", "honfleur", "travel", "city guide", "normandy"],
+  },
+  {
+    slug: "things-to-do-in-menton-2026",
+    title: "Things to do in Menton: lemons, gardens and the Italian border",
+    metaTitle: "Things to Do in Menton (2026) — Old Town, Gardens & Lemons",
+    metaDesc:
+      "Menton's pastel old town, the exotic gardens, the famous lemon festival and the last warm corner of France before Italy.",
+    category: "city-guide",
+    emoji: "🍋",
+    readMinutes: 5,
+    publishedAt: "2026-06-01",
+    updatedAt: "2026-06-01",
+    intro:
+      "Menton is the last French town before Italy, and it has the warmest microclimate on the coast, which is why it grows lemons and shelters extraordinary gardens. It's quieter and gentler than the rest of the Riviera, all pastel and citrus. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The old town and the seafront",
+        body: "Menton's old town climbs the hillside in tiers of warm-coloured houses, topped by the baroque Basilica of Saint-Michel and its mosaic-paved square overlooking the sea, one of the prettiest spots on the coast. The covered market (Halles) is excellent, and the long seafront promenade is made for slow walks with the Italian mountains in view.",
+      },
+      {
+        heading: "The gardens",
+        body: "Menton's microclimate makes it a garden town. The Jardin Serre de la Madone and the Val Rahmeh botanical garden are lush with rare and exotic plants; the Jardin de la Villa Maria Serena is another gem. If you only do one, pick by season and book where required. The town's whole appeal is this gentle, green, sun-warmed quality.",
+      },
+      {
+        heading: "The lemon festival and culture",
+        body: "Every February, the Fête du Citron fills the town with enormous sculptures built from lemons and oranges, a genuinely unusual spectacle that draws big crowds. Year-round, the Jean Cocteau museum and the artist-decorated wedding hall reflect the town's links to the writer and artist who loved it.",
+      },
+      {
+        heading: "Across the border and along the coast",
+        body: "Italy is walking distance: the border and the bustling Friday market town of Ventimiglia are a short hop, and the Italian Riviera opens up beyond. In the other direction, the train runs back along the coast through Monaco and Èze to Nice. Menton's warmth makes it pleasant even in winter, when much of the Riviera goes quiet.",
+      },
+    ],
+    relatedCities: ["menton", "nice", "antibes"],
+    tags: ["things to do in menton", "menton", "travel", "city guide", "cote d azur"],
+  },
+  {
+    slug: "things-to-do-in-cassis-2026",
+    title: "Things to do in Cassis: calanques, cliffs and a fishing port",
+    metaTitle: "Things to Do in Cassis (2026) — Calanques, Port & Cap Canaille",
+    metaDesc:
+      "Cassis's pretty fishing harbour, the turquoise calanques on its doorstep, the towering Cap Canaille cliff road and the local wine.",
+    category: "city-guide",
+    emoji: "🚤",
+    readMinutes: 5,
+    publishedAt: "2026-06-01",
+    updatedAt: "2026-06-01",
+    intro:
+      "Cassis is a small fishing port east of Marseille that punches far above its size: it sits at the foot of the Calanques national park and beneath one of the highest sea cliffs in Europe, and it makes a crisp white wine. It's busy in summer for good reason. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The calanques",
+        body: "Cassis is the eastern gateway to the Calanques, the fjord-like limestone inlets with turquoise water. The three closest (Port-Miou, Port-Pin and the spectacular En-Vau) are reachable on foot from town along a marked path; En-Vau is a proper hike with a steep descent but the payoff is one of the most beautiful coves in France. Boat tours from the harbour are the easy alternative, and the only way to see several at once.",
+      },
+      {
+        heading: "The port and the town",
+        body: "The harbour, ringed by pastel houses, cafés and a small castle on the headland, is the heart of Cassis and a lovely place to eat seafood and watch the boats. The town beaches are small; the calanques and the coves are where you really swim. It's compact and walkable, made for an unhurried day.",
+      },
+      {
+        heading: "Cap Canaille and the wine",
+        body: "The Route des Crêtes climbs from Cassis up Cap Canaille, among the highest sea cliffs in Europe, for vertiginous views over the town, the calanques and the coast toward Marseille; it's a stunning drive or a serious walk. Cassis is also a small, respected wine appellation, mostly crisp whites; several domaines around the town offer tastings.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Cassis gets very busy and parking is a nightmare in summer; come by train (the station is a couple of kilometres uphill, with a shuttle) or arrive early. Calanque access is sometimes restricted on high fire-risk days in summer, so check before you hike, and always carry water, sun protection and proper shoes. Marseille and Aix are both close for a combined trip.",
+      },
+    ],
+    relatedCities: ["cassis", "marseille", "aix-en-provence"],
+    tags: ["things to do in cassis", "cassis", "travel", "city guide", "provence"],
+  },
 ];
 
 export function getEnGuide(slug: string): EnGuide | undefined {
