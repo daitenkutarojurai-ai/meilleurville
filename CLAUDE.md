@@ -278,6 +278,8 @@ FR-equivalent routes covered: home, cities index + 352 city pages, 4 city sub-pa
 
 **Phase 2 — missing routes**
 - [x] Triplet comparisons `/compare/[a]-vs-[b]-vs-[c]` (shipped via `lib/comparer-triplets.ts` + `app/[locale]/compare/[pair]/page.tsx`)
+- [x] `/cities/[slug]/things-to-do` (EN port of FR `a-faire`, ×540 SSG, 2026-06-01) — EN city sub-pages now fully mirror FR
+- [x] `/sport` + `/sport/[macroregion]` ×6 (EN national sport ranking, 2026-06-01) — mirrors the `cycling` hub, reuses `lib/sport-leisure`
 
 **Phase 3 — secondary surfaces** (all shipped)
 - [x] `/red-flags` + `/red-flags/themes` (EN)
