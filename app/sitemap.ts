@@ -747,6 +747,7 @@ function enStaticSection(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/rental-tension/sud-ouest-gascon`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.6 },
     { url: `${BASE_URL}/rental-tension/vallee-du-rhone`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.6 },
     { url: `${BASE_URL}/rental-tension/ile-de-france-elargie`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.6 },
+    { url: `${BASE_URL}/political-leaning`, lastModified: CITY_DATA_UPDATED, changeFrequency: "monthly", priority: 0.6 },
     { url: `${BASE_URL}/own-vs-rent`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.7 },
     { url: `${BASE_URL}/healthcare`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.7 },
     { url: `${BASE_URL}/safety`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.7 },
