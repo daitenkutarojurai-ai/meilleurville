@@ -39,8 +39,8 @@ export default function EnAbout() {
         <h2 className="text-2xl font-bold text-[var(--text-primary)] mt-10 mb-3">Who runs this</h2>
         <p className="text-[var(--text-secondary)] leading-relaxed mb-6">
           Edited by Thomas Fendrich. Contact:{" "}
-          <a className="text-[var(--accent)] hover:underline" href="mailto:hello@mavilleideale.fr">
-            hello@mavilleideale.fr
+          <a className="text-[var(--accent)] hover:underline" href="mailto:hello@bestcitiesinfrance.com">
+            hello@bestcitiesinfrance.com
           </a>
           .
         </p>

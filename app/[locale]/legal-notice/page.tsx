@@ -60,7 +60,7 @@ export default function LegalNoticePage() {
               31 October 2013. Not registered with the Trade and Companies
               Register (RCS).
               <br />
-              Contact: hello@mavilleideale.fr · GDPR requests:
+              Contact: hello@bestcitiesinfrance.com · GDPR requests:
               privacy@mavilleideale.fr
             </p>
             <p className="mt-2 text-xs text-[var(--text-tertiary)]">
@@ -168,7 +168,7 @@ export default function LegalNoticePage() {
             </h2>
             <p>
               In accordance with article 6-I-5 of the LCEN, any content
-              deemed illegal can be reported to hello@mavilleideale.fr. The
+              deemed illegal can be reported to hello@bestcitiesinfrance.com. The
               notification must include the date, the identity of the
               reporting party, a precise description of the content, and the
               legal grounds for its removal.

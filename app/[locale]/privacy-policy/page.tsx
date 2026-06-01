@@ -25,7 +25,7 @@ const SECTIONS = [
     content: `The data controller is Thomas Fendrich, sole trader (SIREN 797 983 665), publisher of BestCitiesInFrance (bestcitiesinfrance.com) and MaVilleIdeal (mavilleideale.fr).
 
 GDPR contact: privacy@mavilleideale.fr
-General contact: hello@mavilleideale.fr
+General contact: hello@bestcitiesinfrance.com
 
 The site has no Data Protection Officer (DPO) and no joint controller — the publisher is the sole decision-maker.`,
   },
