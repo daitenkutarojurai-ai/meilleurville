@@ -14622,6 +14622,374 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["things to do in nevers", "nevers", "travel", "city guide", "burgundy"],
   },
   {
+    slug: "things-to-do-in-saint-etienne-2026",
+    title: "Things to do in Saint-Étienne: design, art and industrial reinvention",
+    metaTitle: "Things to Do in Saint-Étienne (2026) — Design, Modern Art & Le Corbusier",
+    metaDesc:
+      "Saint-Étienne's design heritage and biennale, the modern art museum, the Cité du Design, and Le Corbusier's Firminy site nearby.",
+    category: "city-guide",
+    emoji: "🎨",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Saint-Étienne, a former coal-and-arms city near Lyon, has reinvented itself as France's capital of design — a UNESCO 'Creative City' with a major biennale, a striking design centre, and one of the country's best modern-art museums. It's a place for people curious about industrial heritage and contemporary creativity rather than old-town charm. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The Cité du Design and biennale",
+        body: "The Cité du Design, built on a former arms-factory site, is the hub of the city's design identity, with exhibitions and an observation tower. Every two years it hosts the International Design Biennale, one of the biggest design events in Europe, which fills the city with installations and ideas. It's the reason Saint-Étienne carries the UNESCO 'City of Design' label.",
+      },
+      {
+        heading: "The Museum of Modern and Contemporary Art",
+        body: "The MAMC+ holds one of France's richest collections of modern and contemporary art outside Paris — strong on the 1960s–80s, with work by Warhol, Léger and major design objects. It's a genuinely excellent museum that surprises visitors who don't expect it in an old industrial town.",
+      },
+      {
+        heading: "Industrial heritage",
+        body: "Saint-Étienne's coal-mining and manufacturing past is told at the Musée de la Mine (a former colliery you can descend into) and the Manufacture d'Armes et de Cycles (it made weapons, then bicycles — Saint-Étienne is a cradle of French cycling). The bold regeneration of these industrial sites is a story in itself.",
+      },
+      {
+        heading: "Le Corbusier at Firminy",
+        body: "A short trip away at Firminy is the largest collection of Le Corbusier buildings in Europe — his church of Saint-Pierre, a cultural centre, stadium and housing unit, a UNESCO-listed ensemble of 20th-century modernist architecture. For architecture lovers it's the standout excursion.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Saint-Étienne is about 50 minutes from Lyon by train, an easy day trip or a base for design and architecture. The centre is walkable with a tram network. Time a visit for the design biennale (in odd-numbered years) for the full effect, or come any time for the museums and Firminy.",
+      },
+    ],
+    relatedCities: ["saint-etienne", "lyon", "vienne"],
+    tags: ["things to do in saint-etienne", "saint-etienne", "travel", "city guide", "rhone-alpes"],
+  },
+  {
+    slug: "things-to-do-in-belfort-2026",
+    title: "Things to do in Belfort: a giant lion and a Vauban citadel",
+    metaTitle: "Things to Do in Belfort (2026) — The Lion, Citadel & Old Town",
+    metaDesc:
+      "Belfort's colossal Bartholdi lion, the Vauban citadel and fortifications, the old town, and the gateway between the Vosges and Jura.",
+    category: "city-guide",
+    emoji: "🦁",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Belfort, in eastern France between the Vosges and Jura, is guarded by an enormous stone lion carved into the rock beneath its citadel — a monument by the sculptor of the Statue of Liberty, celebrating the city's heroic resistance in 1870. With its star-shaped fortifications and a lively old town, it's a characterful stop. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The Lion of Belfort",
+        body: "The Lion de Belfort is the emblem of the city — a colossal red sandstone lion (22 metres long) carved at the foot of the citadel by Frédéric Auguste Bartholdi (creator of the Statue of Liberty) to commemorate the city's defiant 103-day resistance during the Franco-Prussian War of 1870. You can walk right up to it and onto a terrace beside it. It's a genuinely impressive, defiant monument.",
+      },
+      {
+        heading: "The Citadel",
+        body: "Above the lion, Belfort's citadel — fortified over centuries and perfected by Vauban — wraps the old town in massive ramparts. You can walk the fortifications and visit the history museum inside, with panoramic views over the city and the gap (the 'Belfort Gap') it was built to guard between the mountain ranges.",
+      },
+      {
+        heading: "The old town",
+        body: "Below the citadel, the old town is a pleasant grid of pastel houses, squares and the Saint-Christophe cathedral, ringed by Vauban's star-shaped defences. It's compact and walkable, with cafés and the city's lively student energy. The big EuroPop music festival ('Les Eurockéennes') is held by a nearby lake each summer.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Belfort has a TGV station (about 2h20 from Paris, close to Mulhouse and the Swiss border). The lion, citadel and old town are all walkable and close together. It pairs well with the Vosges mountains, the Jura, and Mulhouse's museums. Spring to autumn is pleasant; the citadel views are best on a clear day.",
+      },
+    ],
+    relatedCities: ["belfort", "montbeliard", "mulhouse"],
+    tags: ["things to do in belfort", "belfort", "travel", "city guide", "franche-comte"],
+  },
+  {
+    slug: "things-to-do-in-cherbourg-2026",
+    title: "Things to do in Cherbourg: a great port and the Cité de la Mer",
+    metaTitle: "Things to Do in Cherbourg (2026) — Cité de la Mer, Umbrellas & the Cotentin",
+    metaDesc:
+      "Cherbourg's Cité de la Mer with its giant submarine and Titanic story, the famous umbrellas, the art museum, and the wild Cotentin coast.",
+    category: "city-guide",
+    emoji: "🌂",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Cherbourg, at the tip of Normandy's Cotentin peninsula, is a great transatlantic port — the last port of call for the Titanic — with a superb maritime museum built around the world's largest visitable submarine, a tradition of fine umbrellas, and a wild peninsula of cliffs and beaches around it. Here's the shortlist.",
+    sections: [
+      {
+        heading: "La Cité de la Mer",
+        body: "Cherbourg's standout attraction is the Cité de la Mer, in the magnificent Art Deco former transatlantic terminal. Its centrepiece is Le Redoutable, the largest submarine open to visitors in the world, which you tour from inside. There's also a deep-ocean aquarium and a moving exhibition on the Titanic and the emigrants who sailed from here. It's a brilliant half-day.",
+      },
+      {
+        heading: "Cherbourg umbrellas and the town",
+        body: "Made famous by the film 'The Umbrellas of Cherbourg', the city still produces fine handmade umbrellas (you can visit the workshop). The town itself has a covered market, the Thomas Henry art museum (with works by local painter Jean-François Millet), and the lush Emmanuel Liais botanical garden — pleasant for a wander between maritime sights.",
+      },
+      {
+        heading: "The harbour and gardens",
+        body: "Cherbourg has one of the largest artificial harbours in the world, protected by a vast breakwater. The hillside Parc du Château des Ravalet and the surprisingly exotic public gardens (the mild Gulf Stream climate lets palms and subtropical plants thrive) are lovely green escapes above the port.",
+      },
+      {
+        heading: "The Cotentin peninsula",
+        body: "Around Cherbourg, the Cotentin is wild and beautiful — the dramatic cliffs of the Nez de Jobourg, the dune-backed beaches, the Cap de la Hague, and the D-Day landing area of Utah Beach to the south-east. It's an underrated, weather-beaten corner of Normandy, perfect for a coastal drive.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Cherbourg is reachable by train (about 3 hours from Paris) and is a ferry port for England and Ireland. The Cité de la Mer and town centre are walkable; a car opens up the Cotentin coast. Spring to autumn is best for the peninsula; the maritime museum is a great wet-weather option any time.",
+      },
+    ],
+    relatedCities: ["cherbourg", "bayeux", "caen"],
+    tags: ["things to do in cherbourg", "cherbourg", "travel", "city guide", "normandy"],
+  },
+  {
+    slug: "things-to-do-in-laon-2026",
+    title: "Things to do in Laon: a cathedral city on a crowned mountain",
+    metaTitle: "Things to Do in Laon (2026) — Cathedral, Ramparts & the Upper Town",
+    metaDesc:
+      "Laon's early-Gothic cathedral with its ox towers, the long ramparts walk, the hilltop old town, and the views over the Picardy plain.",
+    category: "city-guide",
+    emoji: "⛪",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Laon, north-east of Paris, sits dramatically on a long, narrow ridge rising abruptly from the Picardy plain — a 'crowned mountain' topped by one of the earliest and finest Gothic cathedrals in France, ringed by medieval ramparts. It's an underrated hilltop gem. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The cathedral",
+        body: "Notre-Dame de Laon, built from the 1150s, is one of the first great Gothic cathedrals and the model for many that followed. Its five towers and the famous stone oxen peering out from them (a tribute to the beasts that hauled the building stone up the hill) are unmistakable. The luminous, harmonious interior and the early architecture make it a must for anyone interested in Gothic.",
+      },
+      {
+        heading: "The ramparts and upper town",
+        body: "The hilltop old town (Ville Haute) is wrapped in seven kilometres of medieval ramparts with gates and towers — a wonderful walk with sweeping views over the plain in every direction. Inside, cobbled streets, old houses, the bishops' palace and the Templar chapel reward a wander. The whole upper town is a protected historic ensemble.",
+      },
+      {
+        heading: "Getting up and around",
+        body: "A little automated cable-shuttle ('Poma') once linked the lower town and station to the hilltop; however you climb, the reward is the views and the quiet, lived-in old town. Laon sees few tourists, so you often have the ramparts and cathedral nearly to yourself.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Laon is reachable by train (about 1h40 from Paris, Gare du Nord). The upper town is the attraction — be ready for a climb or use local transport up from the station. Spring to autumn is best for the ramparts walk. It pairs with the Champagne region and the WWI Chemin des Dames battlefield nearby.",
+      },
+    ],
+    relatedCities: ["laon", "reims", "amiens"],
+    tags: ["things to do in laon", "laon", "travel", "city guide", "hauts-de-france"],
+  },
+  {
+    slug: "things-to-do-in-tarbes-2026",
+    title: "Things to do in Tarbes: a garden city at the foot of the Pyrenees",
+    metaTitle: "Things to Do in Tarbes (2026) — Massey Garden, Stud Farm & the Mountains",
+    metaDesc:
+      "Tarbes's beautiful Massey garden, the national stud farm, the Foch museum, and the gateway to the high Pyrenees and Lourdes.",
+    category: "city-guide",
+    emoji: "🌳",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Tarbes, capital of the Hautes-Pyrénées, is a green city in the plain with the high mountains on the horizon — known for a glorious public garden, a historic horse-breeding stud, and its position as a gateway to the Pyrenees and to Lourdes. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The Jardin Massey",
+        body: "The Jardin Massey is one of the loveliest public gardens in France — a botanical and landscape garden with rare trees, a lake, peacocks, a restored medieval cloister moved here stone by stone, and a museum. It's the green heart of Tarbes and a delightful place to spend an hour or two, free to enter.",
+      },
+      {
+        heading: "The Haras national stud farm",
+        body: "The Haras de Tarbes, a national stud founded by Napoleon, is the cradle of the Anglo-Arab horse breed. You can tour the elegant stables and grounds and, on event days, watch demonstrations — a fine slice of French equestrian heritage in a parkland setting.",
+      },
+      {
+        heading: "The town and Maréchal Foch",
+        body: "Tarbes's centre has the covered market (Les Halles Marcadieu), the cathedral, and the birthplace and museum of Marshal Foch, the WWI Allied commander-in-chief who was born here. It's a workaday but pleasant southern town with the mountains always in view.",
+      },
+      {
+        heading: "Gateway to the Pyrenees",
+        body: "Tarbes is the springboard for the high Pyrenees: the legendary cycling cols of the Tourmalet and Aubisque, the cirques of Gavarnie and Troumouse, the spa towns and ski resorts of Cauterets and Barèges, and the Pic du Midi observatory. Lourdes is just down the road. The mountains are the real draw beyond the city.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Tarbes has a TGV station and shares an airport with Lourdes. The garden, stud and centre are walkable. A car is needed for the mountains. Late spring to autumn is best for the high country; the garden is lovely in any green season.",
+      },
+    ],
+    relatedCities: ["tarbes", "lourdes", "pau"],
+    tags: ["things to do in tarbes", "tarbes", "travel", "city guide", "pyrenees"],
+  },
+  {
+    slug: "things-to-do-in-pezenas-2026",
+    title: "Things to do in Pézenas: Molière's town of art and crafts",
+    metaTitle: "Things to Do in Pézenas (2026) — Old Town, Molière & Artisan Workshops",
+    metaDesc:
+      "Pézenas's beautifully preserved old town, its Molière heritage, the artisan and antique workshops, the markets, and the Languedoc wine country.",
+    category: "city-guide",
+    emoji: "🎭",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Pézenas, in the Languedoc, is a small town with a beautifully preserved old centre of Renaissance mansions and cobbled lanes — once the seat of the regional parliament and a haunt of the playwright Molière, now a thriving town of artisans, galleries and antiques. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The old town",
+        body: "Pézenas's historic centre is a gem of Renaissance and 17th-century hôtels particuliers (mansions) with carved doorways, courtyards and wrought-iron balconies, strung along narrow medieval streets. It's been carefully preserved and is a pleasure to wander, with hidden courtyards opening off the lanes at every turn.",
+      },
+      {
+        heading: "Molière's Pézenas",
+        body: "The playwright Molière and his troupe spent several seasons here in the 1650s, and the town leans happily into the connection — the Scénovision Molière experience, a heritage trail, and the barber's shop he supposedly frequented all evoke his time. The town's theatrical past gives it a special character.",
+      },
+      {
+        heading: "Arts, crafts and antiques",
+        body: "Pézenas has reinvented itself as a town of métiers d'art — dozens of artisan workshops, potters, glassblowers, leatherworkers, and a strong antiques and bric-à-brac trade fill the old houses. The Saturday market and the regular antiques fairs are a draw, and it's a fine place to find a handmade souvenir.",
+      },
+      {
+        heading: "Around Pézenas",
+        body: "The town sits amid the Languedoc vineyards (try the local Pézenas wines and the curious sweet-savoury 'petit pâté de Pézenas'), with the Mediterranean beaches, Béziers and the Canal du Midi all a short drive away. It's a calm, cultured base in a sunny corner of the south.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Pézenas has no train station of its own; reach it by bus or car from Béziers or Montpellier. The old town is compact and walkable. Spring and autumn are pleasant; the markets and antiques fairs are the liveliest times. Combine it with the coast and the Languedoc wine villages.",
+      },
+    ],
+    relatedCities: ["pezenas", "beziers", "montpellier"],
+    tags: ["things to do in pezenas", "pezenas", "travel", "city guide", "occitanie"],
+  },
+  {
+    slug: "things-to-do-in-moulins-2026",
+    title: "Things to do in Moulins: the dukes of Bourbon and a costume museum",
+    metaTitle: "Things to Do in Moulins (2026) — Cathedral, Stage-Costume Museum & Old Town",
+    metaDesc:
+      "Moulins's cathedral triptych, the national stage-costume museum, the Bourbon old town and clock tower, and the Allier riverside.",
+    category: "city-guide",
+    emoji: "👗",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Moulins, on the Allier in the Bourbonnais, was the capital of the powerful dukes of Bourbon, and it keeps a handsome old town, a cathedral with a masterpiece triptych, and a unique national museum of stage and costume. It's a quietly rich stop in central France. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The cathedral and Maître de Moulins triptych",
+        body: "The Cathédrale Notre-Dame holds its great treasure: the 'Triptyque du Maître de Moulins', a luminous late-15th-century painting of the Virgin in glory, one of the masterpieces of early French art. The cathedral's stained glass and the ducal connection make it the heart of the old town.",
+      },
+      {
+        heading: "The National Stage Costume Museum",
+        body: "The CNCS (Centre National du Costume de Scène), in a restored former cavalry barracks, is unique in France — a museum devoted to theatre, opera and ballet costumes, with rotating exhibitions drawn from the great national stages. Beautifully staged, it's a surprising and delightful highlight, even for those with no special interest in theatre.",
+      },
+      {
+        heading: "The old town",
+        body: "Moulins's old town, the seat of the Bourbon dukes, has the Jacquemart (a colourful clock tower with figures that strike the hours), the remains of the ducal palace, timber-framed houses, and pleasant squares. The Anne de Beaujeu museum in the old ducal pavilion adds fine and decorative arts.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Moulins is on the train line between Paris and Clermont-Ferrand (about 2h30 from Paris). The old town and cathedral are walkable; the costume museum is a short walk across the river. It's an uncrowded, cultured stop; spring through autumn is pleasant, and the riverside is lovely in good weather.",
+      },
+    ],
+    relatedCities: ["moulins", "vichy", "nevers"],
+    tags: ["things to do in moulins", "moulins", "travel", "city guide", "auvergne"],
+  },
+  {
+    slug: "things-to-do-in-castres-2026",
+    title: "Things to do in Castres: a Goya museum on a painted river",
+    metaTitle: "Things to Do in Castres (2026) — Goya Museum, Riverside Houses & the Sidobre",
+    metaDesc:
+      "Castres's Goya museum of Spanish art, the colourful houses along the Agout, the Goudouli garden, and the granite Sidobre nearby.",
+    category: "city-guide",
+    emoji: "🎨",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Castres, in the Tarn, is a former textile town strung along the Agout river, with rows of colourful old dyers' and tanners' houses overhanging the water — and, improbably, one of the finest collections of Spanish art in France. The strange granite landscape of the Sidobre lies on its doorstep. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The Goya Museum",
+        body: "The Musée Goya holds the most important collection of Spanish painting in France outside Paris — including works by Goya himself (etchings and paintings), Velázquez and Murillo — housed in the former bishops' palace with a formal garden designed by Le Nôtre. It's a genuine surprise in a town this size and the cultural highlight.",
+      },
+      {
+        heading: "The houses on the Agout",
+        body: "The signature view of Castres is the row of tall, colourful former tanners' and weavers' houses leaning over the river Agout, their lower floors once used for the textile trade, now reflected prettily in the water. A walk along the banks, or a trip on the little 'coche d'eau' river boat, shows them at their best.",
+      },
+      {
+        heading: "Gardens and the old town",
+        body: "Behind the Goya museum, the Jardin de l'Évêché is a classic French formal garden. The old town has the cathedral, pleasant squares and a museum dedicated to Jean Jaurès, the great socialist leader born in Castres. It's a relaxed, walkable centre.",
+      },
+      {
+        heading: "The Sidobre and around",
+        body: "Just east of Castres, the Sidobre is one of the largest granite areas in Europe — a strange landscape of giant balanced boulders, rocking stones and rock formations with fanciful names, scattered through woodland. It's great for walking and a quirky natural counterpoint to the town. The Montagne Noire and the Tarn countryside are also close.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Castres has a train station (via Toulouse, about 1h15) and a small airport. The museum, riverside and old town are walkable. A car helps for the Sidobre and the surrounding hills. Spring to autumn is pleasant; the riverside houses are loveliest in soft morning or evening light.",
+      },
+    ],
+    relatedCities: ["castres", "albi", "toulouse"],
+    tags: ["things to do in castres", "castres", "travel", "city guide", "occitanie"],
+  },
+  {
+    slug: "things-to-do-in-libourne-2026",
+    title: "Things to do in Libourne: a bastide gateway to Saint-Émilion",
+    metaTitle: "Things to Do in Libourne (2026) — Bastide Square, Wine & Saint-Émilion",
+    metaDesc:
+      "Libourne's arcaded bastide square and riverside, and its role as the gateway to the Saint-Émilion and Pomerol wine country.",
+    category: "city-guide",
+    emoji: "🍷",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Libourne, where the Dordogne and Isle rivers meet near Bordeaux, is a handsome medieval bastide town — but its real fame is as the trading and gateway town for some of the world's most prestigious wines: Saint-Émilion, Pomerol and Fronsac are all on its doorstep. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The bastide and Place Abel Surchamp",
+        body: "Libourne is a 13th-century bastide (planned medieval town), centred on the large arcaded Place Abel Surchamp — ringed by stone arcades and old houses, with the town hall and a lively market. The grid of streets, the riverside Porte du Grand Port gateway and the quays where wine was once shipped to Bordeaux and beyond make a pleasant wander.",
+      },
+      {
+        heading: "Wine gateway",
+        body: "Libourne is the commercial heart of the 'Right Bank' wine region, and the place to base yourself for tasting. The town's wine merchants and bars are a good introduction before you head into the vineyards, and the riverside reminds you this was the port from which these wines reached the world.",
+      },
+      {
+        heading: "Saint-Émilion",
+        body: "Just a few kilometres away, Saint-Émilion is the jewel — a UNESCO-listed medieval wine village of golden stone tumbling down a hillside of vines, with an extraordinary monolithic church carved from the rock, catacombs, and dozens of prestigious châteaux around it offering tastings. It's one of the great wine destinations on earth and the unmissable excursion from Libourne.",
+      },
+      {
+        heading: "Pomerol and around",
+        body: "Pomerol, home to some of the most expensive wines in the world (Pétrus among them), and Fronsac sit close by, their small châteaux dotting a gentle landscape of vines. The wider Dordogne valley, with its castles and villages, stretches east. A car or a wine tour is the way to explore.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Libourne is about 25 minutes from Bordeaux by train, and Saint-Émilion has its own small station nearby. A car or an organised wine tour is best for the vineyards. Spring through autumn is ideal; the harvest in September/October is atmospheric. Tastings involve alcohol, so plan a driver.",
+      },
+    ],
+    relatedCities: ["libourne", "bordeaux", "perigueux"],
+    tags: ["things to do in libourne", "libourne", "travel", "city guide", "bordeaux"],
+  },
+  {
+    slug: "things-to-do-in-manosque-2026",
+    title: "Things to do in Manosque: Giono's town in high Provence",
+    metaTitle: "Things to Do in Manosque (2026) — Old Town, Giono & the Luberon",
+    metaDesc:
+      "Manosque's walled old town and gates, the Giono literary heritage, the L'Occitane connection, and the lavender and gorges of high Provence.",
+    category: "city-guide",
+    emoji: "🌿",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Manosque, in the Alpes-de-Haute-Provence, is a warm Provençal town of pale stone and plane trees, immortalised by the writer Jean Giono and now home to the cosmetics brand L'Occitane. It's a gateway to high Provence — lavender plateaus, gorges and hill villages. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The old town",
+        body: "Manosque's old town is entered through two handsome medieval gates, the Porte Saunerie and Porte Soubeyran (topped by a wrought-iron campanile), and is a pleasant maze of narrow streets, small squares with fountains, and ochre façades. It's compact, lived-in and unmistakably Provençal, with a good market.",
+      },
+      {
+        heading: "Giono's Manosque",
+        body: "The writer Jean Giono spent his life in Manosque and set much of his work in these landscapes. The Centre Jean Giono and his house, Lou Paraïs, on the hillside, keep his memory, and a literary trail links the places of his life. For lovers of French literature it's a meaningful pilgrimage; for others, his vision of Provence enriches the visit.",
+      },
+      {
+        heading: "L'Occitane",
+        body: "The cosmetics brand L'Occitane en Provence was founded in Manosque and has its factory here; you can tour the site and shop, and the brand's connection to local lavender, almond and shea echoes the region's traditions. It's a modern chapter in the town's long link to the products of the land.",
+      },
+      {
+        heading: "High Provence around",
+        body: "Manosque is a base for the Alpes-de-Haute-Provence: the lavender plateau of Valensole (a sea of purple in late June and July), the turquoise Verdon gorges and lake of Sainte-Croix, the perched villages, and the observatory at Saint-Michel. The light and the wild landscapes are the real draw beyond the town.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Manosque has a train station (on the Marseille–Briançon line). The old town is walkable; a car is needed for the lavender fields and the Verdon. Late June and July are the lavender season (and busy); spring and September are quieter with the same beautiful light.",
+      },
+    ],
+    relatedCities: ["manosque", "apt", "digne-les-bains"],
+    tags: ["things to do in manosque", "manosque", "travel", "city guide", "provence"],
+  },
+  {
     slug: "one-week-in-provence-itinerary-2026",
     title: "One week in Provence: a route that actually works",
     metaTitle: "One Week in Provence Itinerary (2026) — A Practical Route",
