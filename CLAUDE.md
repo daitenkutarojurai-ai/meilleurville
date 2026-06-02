@@ -294,8 +294,8 @@ FR-equivalent routes covered: home, cities index + 352 city pages, 4 city sub-pa
 - [x] City sub-pages: `neighbourhoods`, `seasons`, `honest-review`, `climate-2040`, plus `fingerprint`, `vibe`, `get-settled`, `overview`, `synthesis`, `profiles`
 
 **Phase 4 — long tail**
-- [ ] EN guides — in progress (295 native EN guides via `data/guides-en.ts`; FR has 672; not 1:1 translations, native expat-angle content). 2026-06-01:
-  - 30 EN tourism guides `things-to-do-in-[city]-2026` (top 24 cities + Riviera/coast gems Cannes/Antibes/Saint-Malo/Honfleur/Menton/Cassis), auto-surfaced as the featured card on `/cities/[slug]/things-to-do`. Slug + featured-card lookup mirror FR `a-faire` → `10-choses-a-faire`.
+- [ ] EN guides — in progress (307 native EN guides via `data/guides-en.ts`; FR has 673; not 1:1 translations, native expat-angle content). 2026-06-01/02:
+  - 40 EN tourism guides `things-to-do-in-[city]-2026`, auto-surfaced as the featured card on `/cities/[slug]/things-to-do`. Slug + featured-card lookup mirror FR `a-faire` → `10-choses-a-faire`. Batch 1–5 (top 24 cities + Riviera/coast gems Cannes/Antibes/Saint-Malo/Honfleur/Menton/Cassis); batch 6 (2026-06-02): Arles/Nîmes/Bayeux/Caen/Tours/Beaune/Sarlat-la-Canéda/Saint-Tropez/Saint-Paul-de-Vence/Ajaccio — heritage + Riviera. FR still has ~130 tourism guides without an EN equivalent (gap list in `data/guides.ts` `10-choses-a-faire-*`).
   - 6 EN itinerary guides (`one-week-in-provence`, `french-riviera-road-trip`, `loire-valley-chateaux`, `alsace-wine-route`, `brittany-coast-road-trip`, `three-days-in-paris`) — `category: "lifestyle"`, distinct travel-intent series.
   - EN guide-page "Read next" now relevance-ranked (`lib/guide-suggestions-en.ts`); guide-page JSON-LD enriched (Article author/publisher/mainEntityOfPage + BreadcrumbList).
 - [x] Per-city OG images with EN copy (`app/[locale]/cities/[slug]/opengraph-image.tsx`, EN locale, "BestCitiesInFrance")
