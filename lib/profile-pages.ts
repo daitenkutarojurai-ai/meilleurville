@@ -310,7 +310,7 @@ export function rankByProfile(profile: ProfileDef, limit = 20): ProfileMatch[] {
       if (weight == null) continue;
       weightedSum += getScoreValue(city, key) * weight;
     }
-    const score = totalWeight > 0 ? (weightedSum / totalWeight) * 10 : 50;
+    const score = totalWeight > 0 ? weightedSum / totalWeight : 5;
     return {
       city,
       score: Math.round(score * 10) / 10,

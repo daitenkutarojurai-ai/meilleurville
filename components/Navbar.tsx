@@ -60,6 +60,7 @@ const MENU_GROUPS_FR: MenuGroup[] = [
     title: "Outils",
     items: [
       { label: "City Match",            href: "/city-match",             emoji: "💘" },
+      { label: "Pour qui ?",            href: "/pour-qui",               emoji: "👥" },
       { label: "Classement sur-mesure", href: "/palmares/personnaliser", emoji: "🎚️" },
       { label: "Orientation politique", href: "/orientation-politique",  emoji: "🗳️" },
       { label: "Comparer villes",       href: "/comparer",               emoji: "⚖️" },
@@ -142,6 +143,7 @@ const NAV_ALL_FR: NavItem[] = [
   { label: "Leaderboard",       href: "/leaderboard",   emoji: "🏆", matchPrefix: "/leaderboard" },
   { label: "Comparer",          href: "/comparer",      emoji: "⚖️", matchPrefix: "/comparer" },
   { label: "City Match",            href: "/city-match",             emoji: "💘", matchPrefix: "/city-match" },
+  { label: "Pour qui ?",            href: "/pour-qui",               emoji: "👥", matchPrefix: "/pour-qui" },
   { label: "Classement sur-mesure", href: "/palmares/personnaliser", emoji: "🎚️", matchPrefix: "/palmares" },
   { label: "Orientation politique", href: "/orientation-politique",  emoji: "🗳️", matchPrefix: "/orientation-politique" },
   { label: "Red Flag Radar",    href: "/red-flags",     emoji: "🚩", matchPrefix: "/red-flags" },

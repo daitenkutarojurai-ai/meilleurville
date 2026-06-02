@@ -31,7 +31,19 @@ const EN_BASE = ORIGIN_BY_LOCALE.en;
 export const metadata: Metadata = {
   title: "BestCitiesInFrance · Find the French city that fits you",
   description: `Independent rankings, lifestyle quiz, and city comparisons across ${CITIES_COUNT} French cities. Find where to live, work, or retire in France — with real data, no fluff.`,
-  alternates: { canonical: `${EN_BASE}/` },
+  alternates: {
+    canonical: `${EN_BASE}/`,
+    // Page-level alternates override the layout default, so the hreflang map
+    // must be restated here or the EN home emits no reciprocal hreflang (the FR
+    // home links to EN but not vice-versa — breaks the language pairing).
+    languages: {
+      fr: ORIGIN_BY_LOCALE.fr,
+      "fr-FR": ORIGIN_BY_LOCALE.fr,
+      en: `${EN_BASE}/`,
+      "en-US": `${EN_BASE}/`,
+      "x-default": ORIGIN_BY_LOCALE.fr,
+    },
+  },
   openGraph: {
     type: "website",
     locale: "en_US",

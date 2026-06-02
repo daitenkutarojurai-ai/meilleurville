@@ -7,7 +7,7 @@ import { GuideCard } from "@/components/GuideCard";
 import { CommentSection } from "@/components/CommentSection";
 import { GUIDES, GUIDE_CATEGORIES } from "@/data/guides";
 import { CITIES_SEED } from "@/data/cities-seed";
-import { linkifyCities } from "@/lib/link-cities";
+import { renderRich } from "@/lib/link-cities";
 import { suggestNextGuides } from "@/lib/guide-suggestions";
 import { slugifyTag, TAG_SLUGS } from "@/lib/guide-tags";
 
@@ -149,7 +149,7 @@ export default async function GuidePage({ params }: Props) {
             {guide.title}
           </h1>
           <p className="text-[var(--text-secondary)] leading-relaxed text-base">
-            {guide.intro}
+            {renderRich(guide.intro)}
           </p>
         </div>
       </section>
@@ -191,7 +191,7 @@ export default async function GuidePage({ params }: Props) {
                     {section.heading}
                   </h2>
                   <p className="text-[var(--text-secondary)] leading-relaxed text-base">
-                    {linkifyCities(section.body, { excludeSlug: guide.relatedCities[0] })}
+                    {renderRich(section.body, { linkify: true, excludeSlug: guide.relatedCities[0] })}
                   </p>
                 </section>
               ))}

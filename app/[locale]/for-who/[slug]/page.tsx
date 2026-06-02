@@ -302,7 +302,7 @@ export default async function ForWhoPage({ params }: Props) {
                     </span>
                   </span>
                   <span className="flex-shrink-0">
-                    <span className={`font-mono-data font-bold ${scoreColor(row.score / 10)}`}>
+                    <span className={`font-mono-data font-bold ${scoreColor(row.score)}`}>
                       {row.score.toFixed(1)}
                     </span>
                     <span className="text-[10px] text-[var(--text-tertiary)]"> /10</span>

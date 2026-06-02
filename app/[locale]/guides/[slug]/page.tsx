@@ -9,6 +9,7 @@ import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
 import { scoreColor } from "@/lib/utils";
 import { slugifyTagEn, TAG_SLUGS_EN } from "@/lib/guide-tags-en";
 import { suggestNextEnGuides } from "@/lib/guide-suggestions-en";
+import { renderRich } from "@/lib/link-cities";
 
 const EN_BASE = ORIGIN_BY_LOCALE.en;
 
@@ -105,12 +106,12 @@ export default async function EnGuidePage({ params }: Props) {
         <h1 className="text-3xl sm:text-5xl font-bold text-[var(--text-primary)] tracking-tight mb-6 leading-tight">
           {g.title}
         </h1>
-        <p className="text-lg text-[var(--text-secondary)] leading-relaxed mb-10">{g.intro}</p>
+        <p className="text-lg text-[var(--text-secondary)] leading-relaxed mb-10">{renderRich(g.intro)}</p>
 
         {g.sections.map((s) => (
           <section key={s.heading} className="mb-8">
             <h2 className="text-2xl font-bold text-[var(--text-primary)] mb-3">{s.heading}</h2>
-            <p className="text-[var(--text-secondary)] leading-relaxed">{s.body}</p>
+            <p className="text-[var(--text-secondary)] leading-relaxed">{renderRich(s.body)}</p>
           </section>
         ))}
 

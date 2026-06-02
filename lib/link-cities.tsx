@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Fragment } from "react";
 import { CITIES_SEED } from "@/data/cities-seed";
 
 type Entry = { name: string; slug: string };
@@ -63,5 +64,38 @@ export function linkifyCities(
   }
 
   if (lastIndex < text.length) out.push(text.slice(lastIndex));
+  return out.length > 0 ? out : [text];
+}
+
+const BOLD_RE = /\*\*([^*]+)\*\*/g;
+
+// Render guide prose: `**bold**` lead-ins become <strong> (the guide bodies use
+// markdown emphasis but the template renders plain text, so the markers showed
+// literally). When `linkify` is set, non-bold text segments also get city links.
+export function renderRich(
+  text: string,
+  opts: { linkify?: boolean; excludeSlug?: string } = {}
+): React.ReactNode[] {
+  const out: React.ReactNode[] = [];
+  let last = 0;
+  let key = 0;
+  const pushPlain = (s: string) => {
+    if (!s) return;
+    // Wrap each linkified segment in a keyed Fragment so the per-call city keys
+    // (which restart at 0) can't collide across segments.
+    if (opts.linkify) out.push(<Fragment key={`seg-${key++}`}>{linkifyCities(s, { excludeSlug: opts.excludeSlug })}</Fragment>);
+    else out.push(s);
+  };
+  for (const m of text.matchAll(BOLD_RE)) {
+    const idx = m.index ?? 0;
+    if (idx > last) pushPlain(text.slice(last, idx));
+    out.push(
+      <strong key={`b-${key++}`} className="font-semibold text-[var(--text-primary)]">
+        {m[1]}
+      </strong>
+    );
+    last = idx + m[0].length;
+  }
+  if (last < text.length) pushPlain(text.slice(last));
   return out.length > 0 ? out : [text];
 }
