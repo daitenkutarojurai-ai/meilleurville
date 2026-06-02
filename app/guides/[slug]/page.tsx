@@ -8,6 +8,7 @@ import { CommentSection } from "@/components/CommentSection";
 import { GUIDES, GUIDE_CATEGORIES } from "@/data/guides";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { renderRich } from "@/lib/link-cities";
+import { FeedbackWidget } from "@/components/FeedbackWidget";
 import { suggestNextGuides } from "@/lib/guide-suggestions";
 import { slugifyTag, TAG_SLUGS } from "@/lib/guide-tags";
 
@@ -195,6 +196,10 @@ export default async function GuidePage({ params }: Props) {
                   </p>
                 </section>
               ))}
+            </div>
+
+            <div className="mt-10">
+              <FeedbackWidget />
             </div>
 
             {/* Tags — linked when the tag has a /tags/[slug] aggregate page */}

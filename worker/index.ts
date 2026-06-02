@@ -15,6 +15,7 @@ import { z } from "zod";
 import { setDB, type D1Database } from "@/lib/db";
 import { addComment, listComments, countComments } from "@/lib/comments-store";
 import { addContactMessage, maybeForwardEmail } from "@/lib/contact-store";
+import { addPageFeedback, maybeForwardFeedback } from "@/lib/feedback-store";
 import { addSubscriber, maybeSyncList, maybeSendWelcome } from "@/lib/newsletter-store";
 import {
   addAlerte,
@@ -108,6 +109,14 @@ const ContactSchema = z.object({
   name: z.string().min(2).max(80).regex(/^[\p{L}0-9 .'_-]+$/u),
   email: z.string().email(),
   body: z.string().min(20).max(4000),
+  locale: z.enum(["fr", "en"]).default("fr"),
+  website: z.string().max(0).optional(),
+});
+
+const FeedbackSchema = z.object({
+  path: z.string().min(1).max(300),
+  sentiment: z.enum(["up", "down"]),
+  comment: z.string().max(280).optional(),
   locale: z.enum(["fr", "en"]).default("fr"),
   website: z.string().max(0).optional(),
 });
@@ -443,6 +452,23 @@ async function handleContact(request: Request): Promise<Response> {
   return json({ ok: true, id: stored.id, emailDelivered: sent }, { status: 201 });
 }
 
+async function handleFeedback(request: Request): Promise<Response> {
+  const ip = getClientIp(request.headers);
+  if (!rateLimit(`fb:b:${ip}`, 6, 5 * 60_000).allowed) return json({ error: "Trop de votes — patientez un peu." }, { status: 429 });
+  if (!rateLimit(`fb:d:${ip}`, 60, 24 * 60 * 60_000).allowed) return json({ error: "Limite quotidienne atteinte." }, { status: 429 });
+
+  let payload: unknown;
+  try { payload = await request.json(); } catch { return json({ error: "Body JSON invalide" }, { status: 400 }); }
+  const parsed = FeedbackSchema.safeParse(payload);
+  if (!parsed.success) return json({ error: "Données invalides", issues: parsed.error.flatten().fieldErrors }, { status: 400 });
+  if (parsed.data.website && parsed.data.website.length > 0) return json({ ok: true }); // honeypot
+
+  const { path, sentiment, comment, locale } = parsed.data;
+  const stored = await addPageFeedback({ path, sentiment, comment, locale });
+  const sent = await maybeForwardFeedback(stored);
+  return json({ ok: true, id: stored.id, emailDelivered: sent }, { status: 201 });
+}
+
 async function handleNewsletter(request: Request): Promise<Response> {
   const ip = getClientIp(request.headers);
   const burst = rateLimit(`nl:${ip}`, 5, 10 * 60_000);
@@ -603,6 +629,7 @@ export default {
         if (method === "POST") return await handleCommentsPost(request);
       }
       if (path === "/api/contact" && method === "POST") return await handleContact(request);
+      if (path === "/api/feedback" && method === "POST") return await handleFeedback(request);
       if (path === "/api/newsletter" && method === "POST") return await handleNewsletter(request);
       if (path === "/api/vacances/newsletter" && method === "POST") return await handleVacancesNewsletter(request);
       if (path === "/api/alertes/subscribe" && method === "POST") return await handleAlertesSubscribe(request);

@@ -10,6 +10,7 @@ import { scoreColor } from "@/lib/utils";
 import { slugifyTagEn, TAG_SLUGS_EN } from "@/lib/guide-tags-en";
 import { suggestNextEnGuides } from "@/lib/guide-suggestions-en";
 import { renderRich } from "@/lib/link-cities";
+import { FeedbackWidget } from "@/components/FeedbackWidget";
 
 const EN_BASE = ORIGIN_BY_LOCALE.en;
 
@@ -114,6 +115,10 @@ export default async function EnGuidePage({ params }: Props) {
             <p className="text-[var(--text-secondary)] leading-relaxed">{renderRich(s.body)}</p>
           </section>
         ))}
+
+        <div className="my-8">
+          <FeedbackWidget locale="en" />
+        </div>
 
         {relatedCities.length > 0 && (
           <section className="mt-12">

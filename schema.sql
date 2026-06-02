@@ -114,3 +114,15 @@ CREATE TABLE IF NOT EXISTS projections (
   created_at TEXT NOT NULL
 );
 CREATE INDEX IF NOT EXISTS idx_projections_user ON projections (user_id, created_at DESC);
+
+-- Per-page 👍/👎 feedback (anonymous). Mirrors the contact pipeline: stored in
+-- D1 and optionally forwarded by email. No account binding.
+CREATE TABLE IF NOT EXISTS page_feedback (
+  id         TEXT PRIMARY KEY,
+  path       TEXT NOT NULL,
+  sentiment  TEXT NOT NULL,          -- 'up' | 'down'
+  comment    TEXT,
+  locale     TEXT NOT NULL DEFAULT 'fr',
+  created_at TEXT NOT NULL
+);
+CREATE INDEX IF NOT EXISTS idx_feedback_path ON page_feedback (path, created_at DESC);
