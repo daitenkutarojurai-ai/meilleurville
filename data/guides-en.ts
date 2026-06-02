@@ -12758,6 +12758,386 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["things to do in narbonne", "narbonne", "travel", "city guide", "occitanie"],
   },
   {
+    slug: "things-to-do-in-angers-2026",
+    title: "Things to do in Angers: a black-stone château and the Apocalypse tapestry",
+    metaTitle: "Things to Do in Angers (2026) — Château, Apocalypse Tapestry & Old Town",
+    metaDesc:
+      "Angers's massive château and its medieval Apocalypse tapestry, the old town and cathedral, the Cointreau distillery, and the Loire's Anjou.",
+    category: "city-guide",
+    emoji: "🏰",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Angers, capital of Anjou at the western end of the Loire, is a green, easy-going city built around a colossal black-and-white striped château that guards one of the great treasures of medieval art — the Apocalypse Tapestry. Add a lively old town and the surrounding vineyards, and it earns a day. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The château and the Apocalypse Tapestry",
+        body: "The Château d'Angers is a massive fortress of dark schist banded with white stone, ringed by seventeen drum towers — formidable from outside, with gardens within the walls. Its treasure is the Tenture de l'Apocalypse, a 100-metre, 14th-century woven tapestry depicting the Book of Revelation — the largest medieval tapestry in the world and utterly mesmerising. It alone is worth the trip.",
+      },
+      {
+        heading: "The old town and cathedral",
+        body: "Around the château, Angers's old town has the twin-spired Saint-Maurice cathedral, the half-timbered Maison d'Adam (one of France's finest medieval houses), and the Jean Lurçat museum, whose modern 'Chant du Monde' tapestry answers the medieval Apocalypse across the centuries. The streets are walkable and full of cafés and shops.",
+      },
+      {
+        heading: "Cointreau and the green city",
+        body: "Angers is the home of Cointreau, and the distillery on the edge of town runs tours and tastings of the orange liqueur. The city is also famously green — the 'art de vivre' here includes the Terra Botanica plant park and plenty of riverside walks. It consistently ranks among France's most pleasant cities to live in, and you feel why.",
+      },
+      {
+        heading: "The Anjou around",
+        body: "The Loire and its tributaries spread out into Anjou's vineyards (Saumur and the sweet wines of the Layon), troglodyte villages, and the abbey of Fontevraud with its Plantagenet royal tombs, all within easy reach. Saumur itself is a short train ride upstream.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Angers is about 1h30 from Paris by TGV and on the Nantes–Tours line. The centre is flat, walkable and served by a tram. Spring and autumn are lovely; the tapestry and château are indoor-friendly whatever the weather. An underrated, comfortable Loire stop.",
+      },
+    ],
+    relatedCities: ["angers", "saumur", "nantes"],
+    tags: ["things to do in angers", "angers", "travel", "city guide", "loire valley"],
+  },
+  {
+    slug: "things-to-do-in-le-mans-2026",
+    title: "Things to do in Le Mans: a Roman-walled old city and the 24 Hours",
+    metaTitle: "Things to Do in Le Mans (2026) — Cité Plantagenêt, Roman Walls & the Circuit",
+    metaDesc:
+      "Le Mans's medieval Cité Plantagenêt inside Roman walls, the great cathedral, the 24 Hours racing museum, and the night-light show.",
+    category: "city-guide",
+    emoji: "🏎️",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Le Mans is famous worldwide for its 24-hour endurance race, but its real surprise is one of the best-preserved medieval old towns in France — the Cité Plantagenêt — wrapped inside a spectacular ring of Roman walls. History and horsepower in one city. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The Cité Plantagenêt",
+        body: "The old town, birthplace of the Plantagenet dynasty that would rule England, is a beautifully preserved maze of cobbled lanes, half-timbered and Renaissance houses, and quiet squares climbing to the cathedral. So film-set perfect that many period movies are shot here, it's wonderful to wander, especially in the early evening.",
+      },
+      {
+        heading: "The Roman walls",
+        body: "Le Mans keeps one of the most complete circuits of late-Roman walls anywhere in the former empire — long stretches of patterned red-and-pink stonework with towers, best seen from the riverbank below or on the walk around the base. Lit up at night, they're magical. This is a genuinely rare survival.",
+      },
+      {
+        heading: "Saint-Julien cathedral and Chroma",
+        body: "The Cathédrale Saint-Julien is a giant, mixing a Romanesque nave with a soaring Gothic choir and superb stained glass and flying buttresses. On summer nights, the 'Nuit des Chimères' light show projects illuminations across the cathedral, walls and old town — a free, atmospheric way to see the city after dark.",
+      },
+      {
+        heading: "The 24 Hours of Le Mans",
+        body: "Motor-racing fans can visit the Musée des 24 Heures du Mans at the Circuit de la Sarthe, with its collection of legendary racing and vintage cars, and (outside race periods) drive part of the public-road sections of the circuit. The race itself, each June, takes over the whole region.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Le Mans is under an hour from Paris by TGV, making the old town an easy day trip. The Cité Plantagenêt and walls are walkable from the station via tram; the circuit is on the southern edge. Avoid the race weekend in June unless that's why you're coming — the city fills completely.",
+      },
+    ],
+    relatedCities: ["le-mans", "tours", "angers"],
+    tags: ["things to do in le-mans", "le mans", "travel", "city guide", "pays de la loire"],
+  },
+  {
+    slug: "things-to-do-in-limoges-2026",
+    title: "Things to do in Limoges: porcelain, enamels and a covered market",
+    metaTitle: "Things to Do in Limoges (2026) — Porcelain, Cathedral & the Old Town",
+    metaDesc:
+      "Limoges's world-famous porcelain and the Adrien Dubouché museum, the medieval old town, the cathedral, and the art-nouveau market hall.",
+    category: "city-guide",
+    emoji: "🏺",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Limoges, capital of the Limousin, is synonymous with fine porcelain, made here since the 18th century, and with the jewel-like enamels it crafted long before that. Beyond the famous china, it's a green city of medieval lanes, a riverside cathedral and one of France's prettiest market halls. Here's the shortlist.",
+    sections: [
+      {
+        heading: "Porcelain and the Adrien Dubouché museum",
+        body: "The Musée National Adrien Dubouché holds one of the world's great ceramics collections, tracing the story of Limoges porcelain and pottery across cultures and centuries. Around the city, porcelain shops, ateliers and outlet stores let you see and buy the craft. It's the reason Limoges is a household name, and the museum tells it well.",
+      },
+      {
+        heading: "Enamels",
+        body: "Long before porcelain, medieval Limoges was the European capital of enamelwork, and the art continues today. The Musée des Beaux-Arts in the former bishop's palace displays a remarkable collection of Limoges enamels spanning a thousand years — small, intensely coloured masterpieces that are easy to overlook but genuinely dazzling.",
+      },
+      {
+        heading: "The old town and market hall",
+        body: "Limoges has two old quarters — the Cité around the cathedral and the Château district — linked by medieval and half-timbered streets, butchers' lanes and small squares. The covered market, Les Halles Centrales, is a lovely 1880s iron-and-tile hall and the best place to taste Limousin beef, charcuterie and cakes.",
+      },
+      {
+        heading: "The cathedral and gardens",
+        body: "The Cathédrale Saint-Étienne, a tall Gothic church above the Vienne river, anchors the Cité, with the terraced Jardins de l'Évêché (botanical gardens) descending to the riverbank and the old Pont Saint-Étienne — a peaceful, green spot. The surrounding Limousin countryside of lakes and the Monts d'Ambazac is good walking and cycling country.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Limoges is on the Paris–Toulouse line (about 3 hours from Paris) and has an airport. The centre is walkable, if hilly. It's an uncrowded, characterful stop in central France; spring and autumn are the pleasantest seasons, and the market is best on weekend mornings.",
+      },
+    ],
+    relatedCities: ["limoges", "perigueux", "tulle"],
+    tags: ["things to do in limoges", "limoges", "travel", "city guide", "nouvelle-aquitaine"],
+  },
+  {
+    slug: "things-to-do-in-angouleme-2026",
+    title: "Things to do in Angoulême: comic-strip capital on a hill",
+    metaTitle: "Things to Do in Angoulême (2026) — Comics, Ramparts & the Old Town",
+    metaDesc:
+      "Angoulême's comic-strip heritage and museum, the ramparts walk with valley views, the cathedral, the painted murals and the Charente river.",
+    category: "city-guide",
+    emoji: "💬",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Angoulême is the comic-strip capital of France — home to Europe's biggest bande dessinée festival and a national comics museum — set on a hilltop wrapped in ramparts above the Charente. Between the murals, the views and the old town, it's a characterful stop on the way south. Here's the shortlist.",
+    sections: [
+      {
+        heading: "Comics city",
+        body: "Angoulême lives and breathes the bande dessinée. The Cité Internationale de la Bande Dessinée et de l'Image, in former riverside breweries, is the national comics museum, with original artwork from Tintin to modern graphic novels. Around town, dozens of huge painted murals turn building walls into comic panels — a free, self-guided trail. Each January the comics festival takes over the whole city.",
+      },
+      {
+        heading: "The ramparts",
+        body: "The old town crowns a plateau ringed by ramparts, and the walk around them gives a continuous balcony view over the Charente valley and rooftops below. It's the best way to orient yourself and a lovely stroll, especially at sunset.",
+      },
+      {
+        heading: "The old town and cathedral",
+        body: "Inside the walls, the Saint-Pierre cathedral has an extraordinary carved Romanesque façade crowded with figures, and the surrounding streets, squares and the town hall (built around two medieval towers) are pleasant to wander. The 'Circuit des Remparts' classic-car race adds vintage glamour each September.",
+      },
+      {
+        heading: "The river and around",
+        body: "Down below, the Charente river has been redeveloped with walks, the old paper mills (Angoulême was a papermaking centre, fitting for a comics town), and boat trips. Cognac, with its famous brandy houses, is a short drive downriver, making an easy pairing.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Angoulême is a TGV stop between Bordeaux and Poitiers (about 35 minutes from Bordeaux). The old town is on the hill above the station — a steepish walk or a short bus. Avoid the comics-festival weekend in late January unless that's the draw, when the city is packed. Otherwise it's calm year-round.",
+      },
+    ],
+    relatedCities: ["angouleme", "cognac", "bordeaux"],
+    tags: ["things to do in angouleme", "angouleme", "travel", "city guide", "nouvelle-aquitaine"],
+  },
+  {
+    slug: "things-to-do-in-lourdes-2026",
+    title: "Things to do in Lourdes: a great pilgrimage in the Pyrenees",
+    metaTitle: "Things to Do in Lourdes (2026) — Sanctuary, Castle & the Mountains",
+    metaDesc:
+      "Lourdes's pilgrimage sanctuary and grotto, the hilltop castle, the Pic du Jer funicular, and the Pyrenees on the doorstep.",
+    category: "city-guide",
+    emoji: "🕯️",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Lourdes is one of the most visited pilgrimage sites in the world, where in 1858 a young girl reported visions of the Virgin Mary at a grotto. Millions come each year for the sanctuary and its waters, but the town also sits at the foot of the Pyrenees, with a castle and mountain views. Here's the shortlist — written for visitors of any (or no) faith.",
+    sections: [
+      {
+        heading: "The Sanctuary and grotto",
+        body: "The Sanctuaire Notre-Dame de Lourdes is a vast complex around the Grotto of Massabielle where the apparitions are said to have occurred. The Rosary Basilica, the soaring Basilica of the Immaculate Conception above it, and the underground Basilica of St Pius X (one of the largest churches in the world) are all open to visitors. The candlelit evening Marian procession is moving regardless of belief.",
+      },
+      {
+        heading: "Understanding the place",
+        body: "Whatever your views, Lourdes is a remarkable human phenomenon — a small Pyrenean town transformed into a global pilgrimage centre, with an enormous infrastructure for the sick and disabled who come hoping for healing. The sanctuary museums and the Bernadette trail explain the story. Approach it with curiosity and respect and it's genuinely fascinating.",
+      },
+      {
+        heading: "The castle and town",
+        body: "Away from the sanctuary, the Château Fort de Lourdes crowns a rocky outcrop in the centre, housing the Pyrenean Museum and offering fine views; it predates the pilgrimage by centuries. The town itself is heavily geared to pilgrims (and the souvenir trade is intense), but the castle and the river give it another dimension.",
+      },
+      {
+        heading: "The Pyrenees",
+        body: "Lourdes is a gateway to the high Pyrenees. The Pic du Jer funicular climbs to a 1,000-metre summit with a panorama over the range, and the Cirque de Gavarnie, the Pont d'Espagne, and the spa town of Cauterets are within reach for a day in the mountains — a complete change of register from the sanctuary.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Lourdes has its own train station (on the Pau–Tarbes line) and an airport, reflecting its pilgrim traffic. The sanctuary is walkable from the centre. It's busiest from spring to autumn and around major feast days; a car opens up the surrounding mountains. Dress modestly at the sanctuary.",
+      },
+    ],
+    relatedCities: ["lourdes", "tarbes", "pau"],
+    tags: ["things to do in lourdes", "lourdes", "travel", "city guide", "pyrenees"],
+  },
+  {
+    slug: "things-to-do-in-hyeres-2026",
+    title: "Things to do in Hyères: palms, islands and a modernist villa",
+    metaTitle: "Things to Do in Hyères (2026) — Old Town, Îles d'Or & Villa Noailles",
+    metaDesc:
+      "Hyères's medieval hilltop old town, the modernist Villa Noailles, the golden islands of Porquerolles and Port-Cros, and the salt-pan beaches.",
+    category: "city-guide",
+    emoji: "🌴",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Hyères is the oldest resort on the French Riviera and the most relaxed — a palm-lined town (it supplies France's ornamental palms) with a medieval old town climbing a hill, a landmark of modernist architecture, and ferries to some of the most beautiful islands in the Mediterranean. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The medieval old town",
+        body: "Hyères's old town rises in steep, narrow lanes through medieval gates to the ruined castle on the hill, with views over the coast and the salt pans. It's a real, lived-in old town of squares, markets and small shops rather than a museum piece, and the climb to the château ruins rewards with a sweeping panorama.",
+      },
+      {
+        heading: "Villa Noailles",
+        body: "Above the town, the Villa Noailles is a landmark of 1920s modernist architecture, built for art patrons who hosted the avant-garde (Man Ray, Buñuel, Giacometti). Now a centre for design, photography and fashion with changing exhibitions and a cubist garden, it's free to visit and a highlight for anyone interested in 20th-century art and design.",
+      },
+      {
+        heading: "The Golden Islands",
+        body: "Ferries from the Giens peninsula and Hyères port reach the Îles d'Or: Porquerolles, with its turquoise coves, vineyards and car-free villages (rent a bike); Port-Cros, a protected national park island with superb walking and snorkelling; and the wilder Levant. Porquerolles in particular is one of the loveliest day trips on the whole coast.",
+      },
+      {
+        heading: "Beaches and salt pans",
+        body: "The double sandbar (tombolo) of Giens encloses old salt pans that draw flamingos, with long beaches on either side and some of the best windsurfing in France at l'Almanarre. The coast around Hyères is flatter, sandier and less built-up than the glamorous eastern Riviera, which is part of its appeal.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Hyères has a train station and a small airport, and is reachable from Toulon (about 20 minutes). A car or the local buses help to reach the ferry ports and beaches. Book the Porquerolles ferry ahead in summer. Spring and early autumn are ideal — warm, with the islands at their best and calmer crowds.",
+      },
+    ],
+    relatedCities: ["hyeres", "toulon", "saint-tropez"],
+    tags: ["things to do in hyeres", "hyeres", "travel", "city guide", "french riviera"],
+  },
+  {
+    slug: "things-to-do-in-frejus-2026",
+    title: "Things to do in Fréjus: Roman ruins and Riviera beaches",
+    metaTitle: "Things to Do in Fréjus (2026) — Roman Town, Cathedral & the Coast",
+    metaDesc:
+      "Fréjus's Roman amphitheatre and remains, the medieval cathedral cloister, the sandy beaches, and the red rocks of the Estérel nearby.",
+    category: "city-guide",
+    emoji: "🏟️",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Fréjus pairs two things you don't usually get together on the Riviera: a serious Roman heritage — it was a naval base founded by Julius Caesar — and a long sandy beach. Add a beautiful medieval cathedral complex and the red Estérel hills, and it's a more layered stop than its resort neighbours. Here's the shortlist.",
+    sections: [
+      {
+        heading: "Roman Fréjus",
+        body: "Forum Julii was an important Roman port, and the remains are scattered around the modern town: an amphitheatre (still used for events), a theatre, sections of aqueduct, and the old harbour walls (the sea has since retreated). Pick up the heritage trail to link them. It's the most significant Roman ensemble on this stretch of coast.",
+      },
+      {
+        heading: "The cathedral cloister",
+        body: "The medieval episcopal complex at the heart of the old town is a gem: the Cathédrale Saint-Léonce, an early baptistery (one of the oldest Christian buildings in France), and above all a serene two-storey cloister with a painted wooden ceiling of medieval creatures. It's a peaceful, atmospheric counterpoint to the Roman stones and the beach.",
+      },
+      {
+        heading: "The beaches and marina",
+        body: "Fréjus-Plage is a long stretch of sand shared with neighbouring Saint-Raphaël, backed by a promenade — family-friendly and lively in summer. Port-Fréjus is a modern marina with restaurants, and the area has some quirky extras: an unexpected Buddhist pagoda and a Sudanese-style mosque, both built by colonial troops stationed here.",
+      },
+      {
+        heading: "The Estérel and around",
+        body: "West of town, the Massif de l'Estérel is a wild range of fiery red volcanic rock plunging into the blue sea — superb for driving the coastal corniche, hiking and swimming in hidden coves. Saint-Raphaël is right next door, and Cannes and Saint-Tropez are both within easy reach.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Fréjus shares a train station with Saint-Raphaël on the coastal line, well connected along the Riviera. The Roman sites and old town are walkable but spread out; a car helps for the Estérel. Summer is busy and hot; spring and autumn give you the ruins and the red rocks without the beach crowds.",
+      },
+    ],
+    relatedCities: ["frejus", "saint-raphael", "cannes"],
+    tags: ["things to do in frejus", "frejus", "travel", "city guide", "french riviera"],
+  },
+  {
+    slug: "things-to-do-in-chambery-2026",
+    title: "Things to do in Chambéry: a Savoyard capital between the mountains",
+    metaTitle: "Things to Do in Chambéry (2026) — Castle, Old Town & the Elephants",
+    metaDesc:
+      "Chambéry's dukes-of-Savoy castle, the arcaded old town, the famous Elephant Fountain, Rousseau's house, and the Alps and lakes around.",
+    category: "city-guide",
+    emoji: "🐘",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Chambéry was the historic capital of Savoy, and its old town — arcaded streets, a ducal castle, and an unmistakable elephant fountain — has an Italian-Alpine flavour all its own. Cradled between mountain ranges and close to two of France's biggest lakes, it's a gateway to the Alps with real character. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The Château des Ducs de Savoie",
+        body: "The castle of the dukes of Savoy, who ruled a cross-Alpine realm from here before moving to Turin, dominates the old town. You can tour parts of it (now offices) and its Sainte-Chapelle, which once housed the Turin Shroud and has a grand carillon of bells. It anchors the city's proud Savoyard history.",
+      },
+      {
+        heading: "The old town and the Elephant Fountain",
+        body: "Chambéry's old town is a delight of arcaded passages ('traboules'-like covered streets), tall painted houses and quiet squares. Its emblem is the Fontaine des Éléphants — four life-size stone elephants ('les quatre sans cul') commemorating a local count's exploits in India. The cathedral's trompe-l'œil painted interior is another surprise.",
+      },
+      {
+        heading: "Rousseau and Les Charmettes",
+        body: "On the edge of town, Les Charmettes is the country house where philosopher Jean-Jacques Rousseau spent an idyllic, formative period — now a museum preserved much as he knew it, with a charming garden. It's a peaceful literary pilgrimage and a green escape from the centre.",
+      },
+      {
+        heading: "Lakes and mountains",
+        body: "Chambéry sits between the Bauges and Chartreuse massifs and minutes from the spa town of Aix-les-Bains on Lac du Bourget, France's largest natural lake. Lake Annecy, the vineyards of Savoie, and the ski resorts are all within easy reach — making the city an excellent year-round Alpine base.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Chambéry is on the train line to the Alps (about 3 hours from Paris, close to Lyon, Grenoble and Annecy). The old town is compact and walkable. It's a good base in any season — lakes and hiking in summer, skiing within reach in winter, and the Savoyard cheese and wine year-round.",
+      },
+    ],
+    relatedCities: ["chambery", "aix-les-bains", "annecy"],
+    tags: ["things to do in chambery", "chambery", "travel", "city guide", "savoie"],
+  },
+  {
+    slug: "things-to-do-in-aix-les-bains-2026",
+    title: "Things to do in Aix-les-Bains: a belle-époque spa on the lake",
+    metaTitle: "Things to Do in Aix-les-Bains (2026) — Lac du Bourget, Spa & Abbey",
+    metaDesc:
+      "Aix-les-Bains's lakeside on Lac du Bourget, the thermal baths and belle-époque heritage, the Hautecombe abbey by boat, and the Alpine views.",
+    category: "city-guide",
+    emoji: "💧",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Aix-les-Bains is a genteel spa town on the shore of Lac du Bourget, France's largest natural lake, that drew European royalty and writers in the belle époque for its thermal waters. Today it's a relaxed lakeside resort beneath the mountains, mixing spa, water and faded grandeur. Here's the shortlist.",
+    sections: [
+      {
+        heading: "Lac du Bourget",
+        body: "The vast, deep blue Lac du Bourget — immortalised by the poet Lamartine — is the main attraction. The Grand Port and Petit Port have beaches, gardens, sailing and boat trips, and the lakeside promenade is made for an easy stroll or cycle. Swimming, paddleboarding and lake cruises fill a summer day, with the mountains rising all around.",
+      },
+      {
+        heading: "Spa and belle-époque heritage",
+        body: "Aix has been a thermal cure town since Roman times (you can see the remains of the Roman baths and a triumphal arch in the centre), and its golden age left grand hotels, the casino, and the elegant Thermes. You can still take the waters at the modern spa. The Musée Faure holds a surprising collection of Impressionist art, including Rodin sculptures.",
+      },
+      {
+        heading: "Hautecombe Abbey",
+        body: "Across the lake, the Royal Abbey of Hautecombe — burial place of the dukes and kings of the House of Savoy — sits dramatically at the water's edge, reachable by a scenic boat trip from Aix. The church interior is richly decorated, and the lake crossing is half the pleasure. It's the classic Aix excursion.",
+      },
+      {
+        heading: "Mountains around",
+        body: "The Mont Revard balcony above the town gives a panorama over the lake to Mont Blanc, and the Bauges massif offers walking and the via ferrata. Chambéry, Annecy and the Savoie vineyards are all close, so Aix works well as a calm lakeside base for the wider region.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Aix-les-Bains has a train station on the Alpine line (close to Chambéry and Annecy). The lake and centre are walkable or a short bus ride apart; boats run across the lake in season. Summer is the liveliest by the water; spring and autumn are calmer, with the spa and abbey pleasant year-round.",
+      },
+    ],
+    relatedCities: ["aix-les-bains", "chambery", "annecy"],
+    tags: ["things to do in aix-les-bains", "aix-les-bains", "travel", "city guide", "savoie"],
+  },
+  {
+    slug: "things-to-do-in-valence-2026",
+    title: "Things to do in Valence: the gateway to the south",
+    metaTitle: "Things to Do in Valence (2026) — Old Town, Kiosk & the Rhône",
+    metaDesc:
+      "Valence's old town and cathedral, the Peynet bandstand and park, the Maison des Têtes, great food, and the gateway to Provence and the Ardèche.",
+    category: "city-guide",
+    emoji: "☀️",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Valence, on the Rhône, is where the French south is said to begin — 'à Valence, le Midi commence', as the saying goes, when the light sharpens and the first olive trees appear. A pleasant old town, a famous bandstand, serious food and easy access to Provence and the Ardèche make it a worthwhile pause. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The old town",
+        body: "Valence's old town climbs above the Rhône in a network of lanes and stepped passages ('côtes'), with the Romanesque Saint-Apollinaire cathedral, the ornate Renaissance Maison des Têtes (covered in carved faces), and the Pendentif, a curious 16th-century funerary monument. It's a compact, pleasant centre for a wander.",
+      },
+      {
+        heading: "The Parc Jouvet and the Kiosque Peynet",
+        body: "The riverside Parc Jouvet is a lovely green space below the old town, and its bandstand — the Kiosque Peynet — inspired the illustrator Raymond Peynet's famous 'Lovers' drawings. The terrace of the Champ de Mars above gives a fine view over the park, the Rhône and the ruined château de Crussol on its crag across the river.",
+      },
+      {
+        heading: "Food",
+        body: "Valence punches above its weight on food: it's home to one of France's most celebrated restaurants, and the local speciality is the 'Suisse', a citrus-scented shortbread biscuit shaped like a Swiss Guard. The covered market and the cafés make it a good eating stop on a north–south journey.",
+      },
+      {
+        heading: "Gateway to Provence and the Ardèche",
+        body: "Valence is a springboard: the Ardèche gorges and their dramatic scenery lie to the west, the northern Rhône wine villages (Hermitage, Crozes, Saint-Joseph) are just upriver, and Provence proper is a short drive south. As a TGV hub it's also a practical base for exploring the wider Drôme, with its lavender and the perched village of Crest.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Valence is a major TGV junction (about 2h10 from Paris, close to Lyon, Avignon and Grenoble), which makes it a handy base. The old town and park are walkable. Spring and autumn are ideal; the Drôme and Ardèche around it are best explored by car.",
+      },
+    ],
+    relatedCities: ["valence", "grenoble", "avignon"],
+    tags: ["things to do in valence", "valence", "travel", "city guide", "drome"],
+  },
+  {
     slug: "one-week-in-provence-itinerary-2026",
     title: "One week in Provence: a route that actually works",
     metaTitle: "One Week in Provence Itinerary (2026) — A Practical Route",
