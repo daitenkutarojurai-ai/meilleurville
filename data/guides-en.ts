@@ -14990,6 +14990,370 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["things to do in manosque", "manosque", "travel", "city guide", "provence"],
   },
   {
+    slug: "things-to-do-in-lens-2026",
+    title: "Things to do in Lens: the Louvre in mining country",
+    metaTitle: "Things to Do in Lens (2026) — Louvre-Lens, Mining Heritage & UNESCO Slag Heaps",
+    metaDesc:
+      "Lens's Louvre-Lens museum, the UNESCO mining basin and its slag heaps, the WWI memorials nearby, and the region's football passion.",
+    category: "city-guide",
+    emoji: "🖼️",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Lens, a former coal-mining town in the north, made a bold bet that paid off: it brought a branch of the Louvre to its old pit-head land, and the result has put this working-class city on the cultural map. Around it lies a UNESCO-listed mining landscape and the great WWI battlefields. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The Louvre-Lens",
+        body: "The Louvre-Lens, a long, low glass-and-aluminium museum set on a former colliery, is the reason to come — its luminous 'Galerie du Temps' displays masterpieces from the Paris Louvre in a single sweeping, chronological hall, free to enter. The building, the park around it and the rotating exhibitions make it one of the most welcoming great museums in France. It alone justifies the trip.",
+      },
+      {
+        heading: "The mining basin",
+        body: "Lens sits in the Nord-Pas-de-Calais Mining Basin, a UNESCO World Heritage Site recognising the landscape and culture of two centuries of coal. The twin slag heaps (terrils) of Loos-en-Gohelle — the highest in Europe — can be climbed for a view over the plain, and the mining museum at Lewarde nearby takes you down a pit. It's a moving, distinctive industrial heritage.",
+      },
+      {
+        heading: "WWI memorials",
+        body: "Lens is at the heart of the Western Front. The Canadian memorial at Vimy Ridge, with its preserved trenches and tunnels, and the vast Notre-Dame-de-Lorette necropolis and its 'Ring of Remembrance' are a short drive — essential, sobering ground for anyone interested in the First World War.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Lens is about 1h10 from Paris by TGV (close to Lille and Arras). The Louvre-Lens is a walk or short bus from the station. A car helps for the slag heaps and the battlefields. The museum is a great any-weather day; pair it with Arras's squares nearby.",
+      },
+    ],
+    relatedCities: ["lens", "arras", "lille"],
+    tags: ["things to do in lens", "lens", "travel", "city guide", "hauts-de-france"],
+  },
+  {
+    slug: "things-to-do-in-niort-2026",
+    title: "Things to do in Niort: a keep and the Green Venice",
+    metaTitle: "Things to Do in Niort (2026) — Keep, Old Town & the Marais Poitevin",
+    metaDesc:
+      "Niort's medieval double keep, the old town and covered market, and the canals of the Marais Poitevin 'Green Venice' nearby.",
+    category: "city-guide",
+    emoji: "🛶",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Niort, in the Deux-Sèvres, is the gateway to one of the most magical landscapes in France — the Marais Poitevin, a maze of tree-lined canals known as the 'Green Venice', best explored by flat-bottomed boat. The town itself has a mighty medieval keep and a fine market. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The Donjon",
+        body: "Niort's twin-towered keep (Donjon), begun by the Plantagenet kings Henry II and Richard the Lionheart, is one of the largest Romanesque keeps in Europe and dominates the old town by the river Sèvre. Now a museum, it's a reminder of the region's medieval, Anglo-Angevin past, and the climb gives views over the town.",
+      },
+      {
+        heading: "The old town and market",
+        body: "Niort's centre has the old town around the keep, the Pilori (the former town hall, a Renaissance gem) and the splendid 19th-century covered market (Les Halles), one of the best-looking in France and a fine place to taste regional produce — angelica (a local candied speciality), goat cheese and more.",
+      },
+      {
+        heading: "The Marais Poitevin — Green Venice",
+        body: "Just west of Niort lies the 'Venise Verte', the wet heart of the Marais Poitevin — a luminous green labyrinth of canals roofed by trees, where you drift in a traditional flat-bottomed boat (with a guide who poles you along, or self-paddled) past meadows and waterside villages like Coulon. It's serene, otherworldly and one of the loveliest gentle experiences in France.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Niort is a TGV stop (about 2h15 from Paris, between Poitiers and La Rochelle). The town is walkable; a car helps to reach the marsh's embarcadères (boat-hire points) at Coulon and Arçais, though there are buses in season. Spring to autumn is the boating season — the marsh is greenest and most magical in late spring and summer.",
+      },
+    ],
+    relatedCities: ["niort", "la-rochelle", "poitiers"],
+    tags: ["things to do in niort", "niort", "travel", "city guide", "nouvelle-aquitaine"],
+  },
+  {
+    slug: "things-to-do-in-saint-omer-2026",
+    title: "Things to do in Saint-Omer: a marsh of market gardens and a great cathedral",
+    metaTitle: "Things to Do in Saint-Omer (2026) — Cathedral, Marais & La Coupole",
+    metaDesc:
+      "Saint-Omer's Gothic cathedral and Sandelin museum, the cultivated marsh explored by boat, and La Coupole WWII bunker nearby.",
+    category: "city-guide",
+    emoji: "🚣",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Saint-Omer, in the far north, pairs a fine medieval old town and cathedral with a unique living landscape — a vast cultivated marsh of market gardens threaded by waterways, the last of its kind in France, worked by boat. Add a chilling WWII bunker nearby, and it's a varied stop. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The cathedral and old town",
+        body: "Notre-Dame de Saint-Omer is one of the finest Gothic churches in the north, richly furnished with a famous organ, an astronomical clock and the tomb of Saint Omer. Around it, the old town has handsome squares, the ruins of the Saint-Bertin abbey, and the Sandelin museum in an 18th-century mansion (with a celebrated medieval enamelled cross). The restored Bibliothèque d'Agglomération holds rare manuscripts.",
+      },
+      {
+        heading: "The Marais Audomarois",
+        body: "The Marais Audomarois is a 3,000-hectare marsh of market gardens (still farmed for cauliflowers, leeks and more) crisscrossed by some 170 km of canals — a UNESCO biosphere reserve, and the last cultivated marsh in France worked from the water. You explore it by traditional flat-bottomed boat (bacôve) on guided trips, gliding past gardens, reedbeds and birdlife. It's a serene, distinctive landscape.",
+      },
+      {
+        heading: "La Coupole",
+        body: "A few kilometres away, La Coupole is a colossal WWII bunker — a domed concrete structure built by the Nazis to launch V2 rockets at London — now a powerful history museum on the rocket programme, the occupation, and the dawn of the space age. It's a sobering, well-presented contrast to the gentle marsh.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Saint-Omer is reachable by train (close to Calais and Lille). The old town is walkable; the marsh embarcadère at Clairmarais and La Coupole need a car or local transport. Spring to autumn is best for the boat trips. It pairs well with the Opal Coast and the northern WWI/WWII sites.",
+      },
+    ],
+    relatedCities: ["saint-omer", "calais", "boulogne-sur-mer"],
+    tags: ["things to do in saint-omer", "saint-omer", "travel", "city guide", "hauts-de-france"],
+  },
+  {
+    slug: "things-to-do-in-charleville-mezieres-2026",
+    title: "Things to do in Charleville-Mézières: Rimbaud and the puppet capital",
+    metaTitle: "Things to Do in Charleville-Mézières (2026) — Place Ducale, Rimbaud & Puppets",
+    metaDesc:
+      "Charleville-Mézières's grand Place Ducale, the Rimbaud museum, the world puppet festival and museum, and the Meuse valley of the Ardennes.",
+    category: "city-guide",
+    emoji: "🎭",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Charleville-Mézières, in the Ardennes on the Meuse, has a magnificent 17th-century square, was the birthplace of the poet Arthur Rimbaud, and is the world capital of puppetry. It's a characterful gateway to the forested Ardennes and the meandering Meuse valley. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The Place Ducale",
+        body: "The Place Ducale, built in the 1610s, is a magnificent arcaded square of pink-brick and stone pavilions — a near-twin of the Place des Vosges in Paris (by the same family of architects), and one of the finest squares in France. It's the grand heart of Charleville, ringed by cafés and arcades, and the obvious place to begin.",
+      },
+      {
+        heading: "Rimbaud's Charleville",
+        body: "The poet Arthur Rimbaud was born and grew up here, and the town keeps his memory: the Musée Rimbaud in an old mill by the Meuse, his family home, his grave in the town cemetery, and a literary trail. For lovers of poetry it's a moving pilgrimage to the restless prodigy who wrote his masterpieces as a teenager before abandoning verse entirely.",
+      },
+      {
+        heading: "The puppet capital",
+        body: "Charleville-Mézières is the world centre of puppetry — home to the International Institute of Puppetry and, every two years, the huge World Puppet Theatre Festival that fills the streets. The 'Grand Marionnettiste', a giant automaton clock on the institute, performs scenes on the hour. Even outside the festival, the puppet heritage gives the town a playful identity.",
+      },
+      {
+        heading: "The Ardennes around",
+        body: "The Meuse loops dramatically through the forested Ardennes around the city, past the legendary rocks of the Roc la Tour and the village of Monthermé, with hiking, kayaking and quiet villages. It's a green, atmospheric, little-visited corner of France near the Belgian border.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Charleville-Mézières is reachable by train (about 1h45 from Paris via the new line, or via Reims). The square, Rimbaud sites and centre are walkable. A car helps for the Meuse valley. Time a visit for the puppet festival (in odd-numbered Septembers) for the full spectacle, or come any time for the square and Rimbaud.",
+      },
+    ],
+    relatedCities: ["charleville-mezieres", "reims", "epernay"],
+    tags: ["things to do in charleville-mezieres", "charleville-mezieres", "travel", "city guide", "grand est"],
+  },
+  {
+    slug: "things-to-do-in-digne-les-bains-2026",
+    title: "Things to do in Digne-les-Bains: lavender, fossils and Alpine spa",
+    metaTitle: "Things to Do in Digne-les-Bains (2026) — Lavender, UNESCO Geopark & the Alps",
+    metaDesc:
+      "Digne-les-Bains's lavender, the UNESCO geological reserve and giant ammonite slab, the Alexandra David-Néel house, and the spa and mountains.",
+    category: "city-guide",
+    emoji: "💜",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Digne-les-Bains, in the Alpes-de-Haute-Provence, is a small spa town where Provence meets the Alps — surrounded by lavender fields, an extraordinary UNESCO geological reserve of fossils, and the home of a famous explorer of Tibet. It's a quiet, characterful mountain gateway. Here's the shortlist.",
+    sections: [
+      {
+        heading: "Lavender",
+        body: "Digne sits in lavender country and celebrates it with a big lavender festival ('Corso de la Lavande') each summer. The fields around the town and on the plateaus turn purple from late June into July, and the local distilleries and the museum explain the crop's place in Provençal life. It's the fragrant heart of a visit in season.",
+      },
+      {
+        heading: "The UNESCO geopark and ammonite slab",
+        body: "Digne is the capital of the UNESCO Geopark of Haute-Provence, a vast geological reserve. Its star is the 'Dalle aux Ammonites' just outside town — a tilted rock slab studded with around 1,500 giant fossil ammonites, a jaw-dropping window into deep time. The Saint-Benoît geology museum and fossil sites around make this a paradise for the earth-curious.",
+      },
+      {
+        heading: "Alexandra David-Néel",
+        body: "The explorer and writer Alexandra David-Néel, the first European woman to reach Lhasa, made Digne her home; her house, Samten Dzong, is now a museum of her remarkable life and Tibetan collections — an unexpected and fascinating stop. The town's Tibetan connection runs surprisingly deep.",
+      },
+      {
+        heading: "Spa and the mountains",
+        body: "Digne is a thermal spa town, and beyond it the Alps rise — the Vallée de la Blanche, the lakes, and the scenic 'Train des Pignes' narrow-gauge railway that winds through the mountains toward Nice, one of the great train rides in France. The light and the wild landscapes are the deeper draw.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Digne-les-Bains is reachable by the scenic Train des Pignes from Nice or by bus/car; it's somewhat off the main rail network. A car helps for the lavender fields and geology sites. Late June and July are the lavender season; the geopark and the mountains reward spring through autumn.",
+      },
+    ],
+    relatedCities: ["digne-les-bains", "manosque", "gap"],
+    tags: ["things to do in digne-les-bains", "digne-les-bains", "travel", "city guide", "provence"],
+  },
+  {
+    slug: "things-to-do-in-montbeliard-2026",
+    title: "Things to do in Montbéliard: a castle, a car museum and a festival of light",
+    metaTitle: "Things to Do in Montbéliard (2026) — Château, Peugeot Museum & Lights of Christmas",
+    metaDesc:
+      "Montbéliard's twin-towered château, the Peugeot Adventure car museum, the colourful old town, and the famous Christmas lights festival.",
+    category: "city-guide",
+    emoji: "🚙",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Montbéliard, in Franche-Comté near the Swiss border, has a distinctive character from its centuries as a German-speaking princely town — a hilltop château, brightly painted houses, the cradle of Peugeot, and one of the biggest Christmas markets in France. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The Château des ducs de Wurtemberg",
+        body: "The château, with its two big round towers, crowns the old town — for centuries this was a possession of the dukes of Württemberg, giving Montbéliard a Germanic, Protestant heritage unusual in France. The castle now houses museums of local history, archaeology and natural science, and the climb up gives views over the colourful rooftops.",
+      },
+      {
+        heading: "The Musée de l'Aventure Peugeot",
+        body: "Peugeot was born nearby, and the Musée de l'Aventure Peugeot at Sochaux (next to Montbéliard) traces the company from its origins making coffee mills and bicycles to a century of cars — hundreds of vehicles, plus the brand's tools and pepper mills. For car enthusiasts and families it's an excellent, well-staged day.",
+      },
+      {
+        heading: "The old town",
+        body: "Montbéliard's old town is unusually colourful, its houses painted in warm Renaissance hues, with the Temple Saint-Martin (one of the oldest Protestant churches in France, dating from 1607), pleasant squares and the Halles. The town has a distinctive, slightly Central-European feel that sets it apart from the rest of France.",
+      },
+      {
+        heading: "The Christmas lights",
+        body: "Montbéliard is famous for 'Les Lumières de Noël' — one of the largest and oldest Christmas markets in France, when the colourful old town is decked in lights and chalets for weeks. If you visit in December, it's the standout experience; the rest of the year, the château and Peugeot museum carry a visit.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Montbéliard is close to the Belfort-Montbéliard TGV station (about 2h30 from Paris) and the Swiss border. The old town and château are walkable; the Peugeot museum is a short trip to Sochaux. December is magical for the lights; spring to autumn is pleasant for the rest.",
+      },
+    ],
+    relatedCities: ["montbeliard", "belfort", "besancon"],
+    tags: ["things to do in montbeliard", "montbeliard", "travel", "city guide", "franche-comte"],
+  },
+  {
+    slug: "things-to-do-in-chalons-en-champagne-2026",
+    title: "Things to do in Châlons-en-Champagne: canals and Gothic churches",
+    metaTitle: "Things to Do in Châlons-en-Champagne (2026) — Cathedral, Canals & Champagne",
+    metaDesc:
+      "Châlons-en-Champagne's cathedral and Notre-Dame-en-Vaux, the canals and 'Petite Venise', the half-timbered houses, and the champagne country.",
+    category: "city-guide",
+    emoji: "⛪",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Châlons-en-Champagne, the administrative capital of the Champagne region, is a quietly handsome town of Gothic churches, half-timbered houses and tree-lined canals that give it a 'Little Venice' charm. It's a calm base in the heart of champagne country. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The churches",
+        body: "Châlons has two outstanding Gothic churches: the Cathédrale Saint-Étienne, light and harmonious with fine stained glass, and the UNESCO-listed Notre-Dame-en-Vaux, a Romanesque-Gothic collegiate church on the pilgrim route, famous for its carillon of bells and a museum of remarkable medieval cloister sculptures. Both reward a slow look.",
+      },
+      {
+        heading: "The canals and 'Petite Venise'",
+        body: "The Mau and Nau rivers and canals thread through the centre, lined with willows, footbridges and old houses, earning Châlons its 'Petite Venise' nickname. A walk along the water (or a boat trip in season) is the prettiest way to see the town, especially around the Jard, a lovely English-style park by the canal.",
+      },
+      {
+        heading: "The old town",
+        body: "The centre has handsome half-timbered and Renaissance houses, the Porte Sainte-Croix triumphal arch, and pleasant squares. The Musée des Beaux-Arts and the quirky Musée Garinet add interest. It's an uncrowded, dignified town that few foreign visitors reach.",
+      },
+      {
+        heading: "Champagne country",
+        body: "Châlons sits among the vineyards, with Épernay and its great houses, the Avenue de Champagne, and the Côte des Blancs villages a short drive west — easily combined for tastings. The town itself has a champagne presence too, a reminder you're in the heart of the world's most famous wine region.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Châlons-en-Champagne has a TGV station (about 1h30 from Paris, close to Reims and Épernay). The centre and canals are walkable. A car helps for the vineyards. Spring to autumn is loveliest by the water and in the park; combine it with Épernay and Reims for a champagne trip.",
+      },
+    ],
+    relatedCities: ["chalons-en-champagne", "epernay", "reims"],
+    tags: ["things to do in chalons-en-champagne", "chalons-en-champagne", "travel", "city guide", "champagne"],
+  },
+  {
+    slug: "things-to-do-in-auch-2026",
+    title: "Things to do in Auch: d'Artagnan's Gascony and a grand staircase",
+    metaTitle: "Things to Do in Auch (2026) — Cathedral, Monumental Stair & Gascony",
+    metaDesc:
+      "Auch's cathedral with its carved choir and Renaissance glass, the monumental staircase and d'Artagnan statue, the old town, and Gascony around.",
+    category: "city-guide",
+    emoji: "⚔️",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Auch, the capital of Gascony and of the Gers, is a sun-warmed southern town climbing a hill above the Gers river, crowned by a great cathedral and proud of its links to d'Artagnan, the real-life model for Dumas's musketeer. It's the gateway to the gentle, gourmet countryside of Gascony. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The cathedral",
+        body: "The Cathédrale Sainte-Marie is Auch's treasure — a late-Gothic and Renaissance church with two glories inside: a set of richly carved oak choir stalls (over a hundred, of extraordinary intricacy) and a series of luminous Renaissance stained-glass windows by Arnaud de Moles. Both are masterpieces; the cathedral is UNESCO-listed on the pilgrim route.",
+      },
+      {
+        heading: "The monumental staircase and d'Artagnan",
+        body: "A grand 19th-century monumental staircase of some 370 steps links the upper town to the river, with a statue of d'Artagnan (Charles de Batz, a Gascon, was the model for Dumas's hero) standing partway down. The climb and the views over the rooftops and countryside are part of the Auch experience.",
+      },
+      {
+        heading: "The old town",
+        body: "The upper old town has the 14th-century Tour d'Armagnac, medieval lanes called 'pousterles' that drop steeply toward the river, and pleasant squares. The covered market and the local Gascon produce — foie gras, Armagnac, duck, garbure soup — make it a fine place to eat well.",
+      },
+      {
+        heading: "Gascony around",
+        body: "Auch is the heart of the Gers, a rolling, unhurried countryside of bastide towns, sunflower fields, Armagnac distilleries and Romanesque churches — 'la France profonde' at its most appealing. The Armagnac vineyards, Condom, and the fortified villages of Larressingle and Fourcès are easy drives.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Auch is reachable by train from Toulouse (about 1h30). The old town is walkable but hilly. A car is best for exploring Gascony. Spring to autumn is lovely in this sunny region; the food and Armagnac are a year-round pleasure.",
+      },
+    ],
+    relatedCities: ["auch", "toulouse", "montauban"],
+    tags: ["things to do in auch", "auch", "travel", "city guide", "occitanie"],
+  },
+  {
+    slug: "things-to-do-in-saint-brieuc-2026",
+    title: "Things to do in Saint-Brieuc: a bay, cliffs and a coastal path",
+    metaTitle: "Things to Do in Saint-Brieuc (2026) — Old Town, the Bay & the GR34 Coast",
+    metaDesc:
+      "Saint-Brieuc's cathedral and old town, the great bay with its huge tides, the coastal path and beaches, and the pink granite coast nearby.",
+    category: "city-guide",
+    emoji: "🌊",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Saint-Brieuc, on the north Brittany coast, is the gateway to a magnificent bay famous for some of the biggest tides in Europe — a working town with a fortified cathedral, set between two river valleys, and surrounded by cliffs, beaches and the celebrated coastal path. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The cathedral and old town",
+        body: "The Cathédrale Saint-Étienne is a striking fortress-church, with great defensive towers that doubled as a stronghold in turbulent times. Around it, the old town has half-timbered houses, pedestrian streets and squares — compact and pleasant, sitting on a plateau between the deep wooded valleys (the 'vallées') that cut through the town.",
+      },
+      {
+        heading: "The Bay of Saint-Brieuc",
+        body: "The Baie de Saint-Brieuc is the draw — a vast bay with enormous tides that uncover huge expanses of sand and feed a rich birdlife (a nature reserve protects the wetlands). The bay is famous for its scallops (coquilles Saint-Jacques), celebrated at a spring festival, and ringed by beaches and viewpoints.",
+      },
+      {
+        heading: "The coastal path",
+        body: "The GR34 coastal path (the 'sentier des douaniers') runs around the bay, past cliffs, coves and the harbours of Le Légué and Binic — superb walking with constantly changing sea views. The cliffs at the Pointe du Roselier and the beaches nearby are easy escapes from the town.",
+      },
+      {
+        heading: "The pink granite coast",
+        body: "West along the coast lies the famous Côte de Granit Rose, where the rocks glow pink at sunset around Ploumanac'h and Perros-Guirec — one of the most beautiful stretches of the Breton coast, an easy drive for a day. Cap Fréhel and Fort la Latte are to the east.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Saint-Brieuc is a TGV stop (about 2h30 from Paris). The old town is walkable; a car helps for the bay viewpoints, the coastal path trailheads and the pink granite coast. Spring to autumn is best; the huge tides are a spectacle worth checking the timetable for.",
+      },
+    ],
+    relatedCities: ["saint-brieuc", "dinan", "saint-malo"],
+    tags: ["things to do in saint-brieuc", "saint-brieuc", "travel", "city guide", "brittany"],
+  },
+  {
+    slug: "things-to-do-in-gap-2026",
+    title: "Things to do in Gap: the sunny capital of the southern Alps",
+    metaTitle: "Things to Do in Gap (2026) — Old Town, Domaine de Charance & the Alps",
+    metaDesc:
+      "Gap's lively old town, the Domaine de Charance gardens and lake, the surrounding mountains and lakes, and the gateway to the Écrins.",
+    category: "city-guide",
+    emoji: "🏔️",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Gap, the highest prefecture town in France, is a sunny, sporty gateway to the southern Alps — where the mountains meet a Provençal warmth. It's less a sightseeing destination than a lively base for the lakes, peaks and national park around it. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The old town",
+        body: "Gap's compact old town has a pleasant pedestrian centre of squares, fountains and cafés, the cathedral, and a relaxed Alpine-Provençal atmosphere — busy with markets and an outdoor, sporty crowd. The Musée Muséum Départemental, with regional history and natural science, includes the surprising mausoleum of a Bourbon-Condé prince.",
+      },
+      {
+        heading: "The Domaine de Charance",
+        body: "On the hillside above town, the Domaine de Charance is a highlight — a château with terraced botanical gardens, a conservatory of old rose and fruit varieties, a lake, and walking trails with panoramic views over Gap and the mountains. It's a beautiful, free green escape and the best easy outing from the centre.",
+      },
+      {
+        heading: "Lakes and mountains",
+        body: "Gap is ringed by the southern Alps: the vast turquoise Lac de Serre-Ponçon (one of Europe's biggest reservoirs, great for water sports) is close, as are ski resorts, the Dévoluy massif, and the gateway to the wild Écrins National Park. Cycling (the Tour de France often passes), hiking and watersports are the real draw.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Gap has a train station (on the Marseille–Briançon line) and is best explored with a car for the lakes and mountains. It's a four-season base — skiing and snow in winter, lakes and hiking in summer, with the southern light and warmth year-round. A practical hub rather than a postcard town.",
+      },
+    ],
+    relatedCities: ["gap", "digne-les-bains", "sisteron"],
+    tags: ["things to do in gap", "gap", "travel", "city guide", "alps"],
+  },
+  {
     slug: "one-week-in-provence-itinerary-2026",
     title: "One week in Provence: a route that actually works",
     metaTitle: "One Week in Provence Itinerary (2026) — A Practical Route",
