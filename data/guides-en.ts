@@ -15706,6 +15706,730 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["things to do in aurillac", "aurillac", "travel", "city guide", "auvergne"],
   },
   {
+    slug: "things-to-do-in-alencon-2026",
+    title: "Things to do in Alençon: the lace capital of Normandy",
+    metaTitle: "Things to Do in Alençon (2026) — Lace, Old Town & the Château",
+    metaDesc:
+      "Alençon's UNESCO-listed needle lace and its museum, the old town and basilica, the ducal castle, and the forests of the Normandie-Maine.",
+    category: "city-guide",
+    emoji: "🧵",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Alençon, on the southern edge of Normandy, is famous for one of the most refined crafts in France — 'Point d'Alençon' needle lace, so exquisite it's UNESCO-listed. It's a dignified old town with a castle, a fine basilica, and forests all around. Here's the shortlist.",
+    sections: [
+      {
+        heading: "Alençon lace",
+        body: "The 'Point d'Alençon', a needle lace of extraordinary fineness developed in the 17th century, is recognised by UNESCO as an intangible cultural heritage. The Musée des Beaux-Arts et de la Dentelle displays its delicate history alongside a fine-arts collection, and a national workshop keeps the rare skill alive. It's the town's claim to fame and a window into a vanishing craft.",
+      },
+      {
+        heading: "The old town and basilica",
+        body: "Alençon's centre has the flamboyant Gothic Basilique Notre-Dame with its richly carved porch (where Saint Thérèse of Lisieux was baptised — her birthplace nearby is a place of pilgrimage), old houses, and pleasant squares. It's compact and walkable, with a relaxed Norman character.",
+      },
+      {
+        heading: "The château and around",
+        body: "The remains of the ducal castle, with its big round towers, stand in the centre. Beyond town, the Normandie-Maine regional park offers forests, the Alpes Mancelles (a surprisingly rugged little landscape), and the perched village of Saint-Céneri-le-Gérei, one of the 'most beautiful villages of France', a short and lovely drive.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Alençon is reachable by train (about 2 hours from Paris via Le Mans). The old town and museum are walkable. A car helps for the regional park and villages. Spring to autumn is pleasant; the lace museum is a fine any-weather stop, and Saint Thérèse pilgrims visit year-round.",
+      },
+    ],
+    relatedCities: ["alencon", "le-mans", "caen"],
+    tags: ["things to do in alencon", "alencon", "travel", "city guide", "normandy"],
+  },
+  {
+    slug: "things-to-do-in-saint-lo-2026",
+    title: "Things to do in Saint-Lô: a rebuilt city of ramparts and horses",
+    metaTitle: "Things to Do in Saint-Lô (2026) — Ramparts, Stud Farm & the Bocage",
+    metaDesc:
+      "Saint-Lô's surviving ramparts and rebuilt centre, the national stud farm, the art museum, and the Normandy bocage and D-Day sites nearby.",
+    category: "city-guide",
+    emoji: "🐎",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Saint-Lô, capital of the Manche in Normandy, was so devastated in 1944 that it was called 'the capital of ruins' — and its rebuilding is part of its story. Today it's a hilltop town of ramparts, one of France's great stud farms, and the gateway to the bocage and the D-Day country. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The ramparts and rebuilt town",
+        body: "Saint-Lô sits on a rocky spur still ringed by medieval ramparts that survived the bombing — you can walk them for views over the Vire valley. The town was rebuilt in a bold post-war style, including the Notre-Dame church with its deliberately unrestored green-schist scar left as a war memorial. It's a place that wears its history of destruction and renewal openly.",
+      },
+      {
+        heading: "The Haras national stud",
+        body: "The Haras de Saint-Lô is one of France's most important national stud farms, a centre of Norman horse-breeding (the region is famous for its horses). You can tour the elegant 19th-century stables and grounds and watch demonstrations on event days — a fine slice of Norman equestrian heritage.",
+      },
+      {
+        heading: "Art and around",
+        body: "The town's museum holds a notable set of Renaissance Flemish tapestries (the 'Amours de Gombaut et Macé'). Around Saint-Lô, the green Normandy bocage — hedged fields and sunken lanes — was the scene of fierce 1944 fighting, and the D-Day beaches and the Cotentin coast are within easy reach.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Saint-Lô is reachable by train (via Caen or Cherbourg). The ramparts and centre are walkable; a car helps for the bocage and coast. It's a stop for those interested in WWII history and Norman horse country rather than medieval quaintness; spring to autumn is pleasant.",
+      },
+    ],
+    relatedCities: ["saint-lo", "bayeux", "cherbourg"],
+    tags: ["things to do in saint-lo", "saint-lo", "travel", "city guide", "normandy"],
+  },
+  {
+    slug: "things-to-do-in-cholet-2026",
+    title: "Things to do in Cholet: textiles, the Vendée wars and a great lake",
+    metaTitle: "Things to Do in Cholet (2026) — History Museum, Textiles & Lac de Ribou",
+    metaDesc:
+      "Cholet's history and textile museums, the red handkerchief heritage, the Vendée wars story, and the Lac de Ribou for outdoor leisure.",
+    category: "city-guide",
+    emoji: "🧣",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Cholet, in the Anjou hills near the Vendée, is a textile town with a turbulent past — it was at the heart of the bloody Vendée wars of the Revolution — and today pairs its industrial heritage with a big lake for outdoor leisure. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The textile heritage",
+        body: "Cholet has woven cloth for centuries, and is famous for the 'mouchoir rouge de Cholet' — the red handkerchief that became a symbol of the town (and of the Vendée wars). The Musée du Textile et de la Mode, in an old bleaching works with a working steam engine, tells the story of the industry and the craft. It's the town's distinctive thread.",
+      },
+      {
+        heading: "The Vendée wars",
+        body: "Cholet was a centre of the Catholic and Royalist uprising against the Revolution in 1793, and the fighting here was devastating. The Musée d'Art et d'Histoire tells the story of the 'Guerres de Vendée' through art and artefacts — essential context for understanding this proud, scarred region. It's a sobering but important history.",
+      },
+      {
+        heading: "Lac de Ribou and the outdoors",
+        body: "Just outside town, the Lac de Ribou is a large reservoir lake that's the area's leisure hub — sailing, swimming, walking, cycling and a leisure park, with the rolling Mauges countryside around. It's where Cholet relaxes, a green counterpoint to the industrial history.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Cholet has a train station (close to Nantes and Angers). The museums and centre are walkable; the lake is a short way out. A car helps for the surrounding Mauges and Vendée country. Spring to autumn is best for the lake; the museums are good any-weather stops.",
+      },
+    ],
+    relatedCities: ["cholet", "angers", "nantes"],
+    tags: ["things to do in cholet", "cholet", "travel", "city guide", "pays de la loire"],
+  },
+  {
+    slug: "things-to-do-in-la-roche-sur-yon-2026",
+    title: "Things to do in La Roche-sur-Yon: Napoleon's planned town",
+    metaTitle: "Things to Do in La Roche-sur-Yon (2026) — Place Napoléon, Star Plan & the Vendée",
+    metaDesc:
+      "La Roche-sur-Yon's pentagonal Napoleonic plan and grand square, the animated animal statues, the haras, and the Vendée coast nearby.",
+    category: "city-guide",
+    emoji: "🐎",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "La Roche-sur-Yon, capital of the Vendée, is unusual: a town built from scratch on Napoleon's orders in 1804 to control the rebellious region, laid out on a strict geometric plan around a vast central square. It's a curiosity of urban planning and the gateway to the Vendée coast. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The Napoleonic plan and Place Napoléon",
+        body: "La Roche-sur-Yon was designed as an ideal town on a pentagonal star plan, with straight streets radiating from an enormous central square — the Place Napoléon, dominated by an equestrian statue of the emperor who created the town. The geometry is best appreciated from a map; the square is the grand civic heart.",
+      },
+      {
+        heading: "The animated animals",
+        body: "The Place Napoléon has a playful modern twist: a troupe of large mechanical animals — a polar bear, crocodiles, an elephant and more — that come to life in a free, choreographed water-and-movement show in season, delighting children. It's an unexpected, charming contrast to the imperial formality.",
+      },
+      {
+        heading: "The haras and museum",
+        body: "The town has a national stud farm (haras) reflecting the Vendée's horse heritage, and a good art and history museum. With its covered market, riverside gardens and tree-lined avenues, La Roche is a relaxed administrative town rather than a tourist hotspot, but easy and pleasant to spend half a day in.",
+      },
+      {
+        heading: "The Vendée coast",
+        body: "La Roche-sur-Yon is the gateway to the Vendée's famous coast — the long sandy beaches of Les Sables-d'Olonne (the start of the Vendée Globe round-the-world race), the wild Île d'Yeu and Noirmoutier, and the Puy du Fou, France's spectacular historical theme park, a short drive away. The coast and Puy du Fou are the big regional draws.",
+      },
+      {
+        heading: "Practical notes",
+        body: "La Roche-sur-Yon is a rail hub for the Vendée (close to Nantes and the coast). The centre and square are walkable. A car opens up the beaches, islands and Puy du Fou. Spring to autumn is best; the mechanical-animal shows run in the warmer months.",
+      },
+    ],
+    relatedCities: ["la-roche-sur-yon", "nantes", "cholet"],
+    tags: ["things to do in la-roche-sur-yon", "la roche-sur-yon", "travel", "city guide", "vendee"],
+  },
+  {
+    slug: "things-to-do-in-chateauroux-2026",
+    title: "Things to do in Châteauroux: the Berry, George Sand country",
+    metaTitle: "Things to Do in Châteauroux (2026) — Old Town, Bertrand Museum & the Berry",
+    metaDesc:
+      "Châteauroux's old town and the Raymond Bertrand museum, the riverside, the Déols abbey nearby, and George Sand's Berry countryside.",
+    category: "city-guide",
+    emoji: "🏛️",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Châteauroux, capital of the Indre in the heart of the Berry, is a calm town on the Indre river, the gateway to the gentle countryside that the writer George Sand made her own. It's 'la France profonde' at its most peaceful. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The old town",
+        body: "Châteauroux's old town climbs from the river with the Château Raoul (the medieval castle that gave the town its name, now offices), old streets and squares, and the Bertrand museum in a fine mansion — covering local history and Napoleonic memorabilia (a marshal of the Empire was born here). It's a pleasant, low-key wander.",
+      },
+      {
+        heading: "Déols and the river",
+        body: "Just across the river, the village of Déols was once a great medieval abbey town; its surviving Romanesque bell tower and carved sarcophagi hint at past glory. The banks of the Indre, the Belle-Isle park and lake, and the riverside walks are the town's green pleasures.",
+      },
+      {
+        heading: "George Sand's Berry",
+        body: "The real draw is the surrounding Berry — the writer George Sand lived nearby at Nohant, whose house (a museum) hosted Chopin, Liszt and Flaubert and inspired her rustic novels. The villages, the Brenne 'land of a thousand lakes' nature reserve (rich in birdlife), and the medieval town of Issoudun are all within reach.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Châteauroux is on the Paris–Toulouse line (about 2 hours from Paris). The old town is walkable; a car helps for Nohant, the Brenne and the Berry villages. Spring to autumn is best for the countryside, which is the deeper reason to come.",
+      },
+    ],
+    relatedCities: ["chateauroux", "bourges", "tours"],
+    tags: ["things to do in chateauroux", "chateauroux", "travel", "city guide", "centre-val de loire"],
+  },
+  {
+    slug: "things-to-do-in-montlucon-2026",
+    title: "Things to do in Montluçon: a medieval old town and a music museum",
+    metaTitle: "Things to Do in Montluçon (2026) — Château, Old Town & MuPop",
+    metaDesc:
+      "Montluçon's hilltop medieval old town and ducal castle, the MuPop popular-music museum, the canal, and the Bourbonnais countryside.",
+    category: "city-guide",
+    emoji: "🎵",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Montluçon, on the Cher in the Allier, has a charming medieval old town climbing to a ducal castle — and, surprisingly, one of France's best museums of popular music. It's a pleasant stop in the Bourbonnais, between the Auvergne and the Berry. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The medieval old town",
+        body: "Montluçon's old town (the 'Ville Médiévale') is a steep, picturesque quarter of cobbled lanes, half-timbered houses and small squares climbing to the Château des ducs de Bourbon at the top, with views over the rooftops and the Cher. Carefully restored, it's a delight to wander and the heart of any visit.",
+      },
+      {
+        heading: "MuPop — the popular-music museum",
+        body: "Montluçon's standout surprise is MuPop, the Musée des Musiques Populaires — a modern, interactive museum tracing French popular music and its instruments (from the hurdy-gurdy and bagpipes to electric guitars), with headphones throughout so you hear as you go. It's genuinely excellent and unexpected for the town's size.",
+      },
+      {
+        heading: "The canal and around",
+        body: "The Canal de Berry runs through Montluçon, with pleasant towpath walks, and the Cher river adds to the green setting. The Bourbonnais countryside around — castles, Romanesque churches, the spa village of Néris-les-Bains with its Roman remains — rewards a short drive.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Montluçon has a train station (via Bourges or Clermont). The old town is walkable but steep; MuPop is in the centre. A car helps for the Bourbonnais countryside. Spring to autumn is pleasant; the old town and music museum are rewarding any-weather stops.",
+      },
+    ],
+    relatedCities: ["montlucon", "vichy", "bourges"],
+    tags: ["things to do in montlucon", "montlucon", "travel", "city guide", "auvergne"],
+  },
+  {
+    slug: "things-to-do-in-riom-2026",
+    title: "Things to do in Riom: black-stone elegance near Clermont",
+    metaTitle: "Things to Do in Riom (2026) — Old Town, Mascarons & the Auvergne",
+    metaDesc:
+      "Riom's elegant black-lava old town and carved mascarons, the Madonna with a bird, the law-courts heritage, and the Auvergne volcanoes nearby.",
+    category: "city-guide",
+    emoji: "🏛️",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Riom, just north of Clermont-Ferrand, is a refined former judicial capital of the Auvergne, built from dark volcanic stone and full of elegant Renaissance and classical mansions. Quieter than its big neighbour, it rewards a stroll and pairs with the volcanoes. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The old town and mascarons",
+        body: "Riom's historic centre is a dignified ensemble of black-lava-stone townhouses and mansions, many decorated with carved 'mascarons' (grotesque or expressive faces) above their doorways and windows — a hallmark of the town worth looking up for as you wander. The Tour de l'Horloge clock tower and the law courts recall its past as a seat of justice.",
+      },
+      {
+        heading: "The Vierge à l'Oiseau",
+        body: "The church of Notre-Dame-du-Marthuret holds Riom's treasure: the 'Vierge à l'Oiseau', a delicate 14th-century statue of the Virgin holding a child who reaches for a small bird — one of the masterpieces of medieval French sculpture, tender and lifelike. It's a small, quiet highlight.",
+      },
+      {
+        heading: "Museums and around",
+        body: "Riom has good small museums — the Mandet (fine and decorative arts) and the regional folk-arts museum. And it's perfectly placed for the Auvergne: the Chaîne des Puys volcanoes and Clermont-Ferrand are minutes away, the spa town of Châtel-Guyon is next door, and the Volvic spring water comes from just up the road.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Riom is a short train ride from Clermont-Ferrand. The old town is compact and walkable. A car helps for the volcanoes and spa towns. It makes a calm alternative base to Clermont, or an easy half-day; spring to autumn is best for combining it with the high country.",
+      },
+    ],
+    relatedCities: ["riom", "clermont-ferrand", "vichy"],
+    tags: ["things to do in riom", "riom", "travel", "city guide", "auvergne"],
+  },
+  {
+    slug: "things-to-do-in-draguignan-2026",
+    title: "Things to do in Draguignan: a Provençal town and a great dolmen",
+    metaTitle: "Things to Do in Draguignan (2026) — Old Town, Pierre de la Fée & the Verdon",
+    metaDesc:
+      "Draguignan's old town and clock tower, the giant Pierre de la Fée dolmen, the American war cemetery, and the Verdon and Var country nearby.",
+    category: "city-guide",
+    emoji: "🗿",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Draguignan, in the hilly Var hinterland behind the Riviera, is a sunny Provençal town with an old quarter, a striking prehistoric dolmen on its edge, and a position that makes it a gateway to the Verdon gorges and the perched villages of the Var. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The old town",
+        body: "Draguignan's old town winds up to the 17th-century Tour de l'Horloge (clock tower), built on the site of the old castle, with views over the rooftops and surrounding hills. The narrow lanes, squares, fountains and the Provençal-arts museum give a relaxed southern-town feel, best enjoyed at café pace.",
+      },
+      {
+        heading: "The Pierre de la Fée",
+        body: "On the edge of town stands the Pierre de la Fée ('Fairy Stone'), one of the most impressive dolmens in Provence — a huge prehistoric megalith of three standing stones topped by an enormous capstone, thousands of years old. It's a striking, free, easily reached sight and the town's most unusual landmark.",
+      },
+      {
+        heading: "The war cemetery",
+        body: "Draguignan holds the Rhône American Cemetery, the resting place of American soldiers who died in the August 1944 landings in Provence (Operation Dragoon) — a moving, beautifully kept memorial, and a reminder that southern France had its own D-Day.",
+      },
+      {
+        heading: "The Verdon and Var around",
+        body: "Draguignan is a gateway to the spectacular Gorges du Verdon and its turquoise lake, and to the perched villages, vineyards (Côtes de Provence) and the wild Haut-Var. The scenery and the villages are the real reason to be in this corner of Provence.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Draguignan is reached by bus from the coast (Les Arcs is the nearest train station). The old town is walkable; a car is essential for the Verdon and the villages. Spring and autumn are ideal; summer is hot but well placed for the Verdon's cooling water.",
+      },
+    ],
+    relatedCities: ["draguignan", "frejus", "saint-raphael"],
+    tags: ["things to do in draguignan", "draguignan", "travel", "city guide", "provence"],
+  },
+  {
+    slug: "things-to-do-in-mont-de-marsan-2026",
+    title: "Things to do in Mont-de-Marsan: a town of three rivers and sculpture",
+    metaTitle: "Things to Do in Mont-de-Marsan (2026) — Old Town, Sculpture Museum & the Landes",
+    metaDesc:
+      "Mont-de-Marsan's confluence of rivers and old town, the figurative-sculpture museum, the férias, and the Landes forest and coast nearby.",
+    category: "city-guide",
+    emoji: "🗿",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Mont-de-Marsan, capital of the Landes, sits where two rivers meet to form a third, giving it a green, watery old town. It's known for a unique sculpture museum, a lively féria, and its position amid the vast pine forest of the Landes. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The old town and rivers",
+        body: "Mont-de-Marsan grew at the confluence of the Douze and Midou rivers, which join to form the Midouze, and the old quarter ('Montryon') with its medieval Romanesque houses sits on the spur between them. The riverbanks, the old bridges and the tropical-feeling Parc Jean Rameau (palms thrive in the mild climate) make pleasant strolls.",
+      },
+      {
+        heading: "The sculpture museum",
+        body: "The Musée Despiau-Wlérick is unique in France — devoted to figurative sculpture of the first half of the 20th century, honouring two sculptors born in the town. Set in medieval buildings, it's a quiet, distinctive collection and the cultural highlight.",
+      },
+      {
+        heading: "The féria and culture",
+        body: "Like much of the southwest, Mont-de-Marsan has a passionate festival culture — its summer Madeleine féria brings days of bullfighting, bandas (brass bands), white-and-red crowds and all-night celebration. The town is also a centre of the 'course landaise', the local, bloodless form of bull-leaping.",
+      },
+      {
+        heading: "The Landes around",
+        body: "Mont-de-Marsan sits at the edge of the immense Landes forest — Europe's largest planted pine forest — with the eco-museum at Marquèze (reached by old steam train) preserving traditional Landes life, and the long Atlantic surf beaches an hour or so west. It's the gateway to a singular, sandy, pine-scented region.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Mont-de-Marsan is reachable by train (via Bordeaux or Dax). The old town is walkable; a car helps for the forest and coast. Spring to autumn is pleasant; the Madeleine féria (mid-July) is the big, boisterous event — book ahead or avoid if crowds aren't your thing.",
+      },
+    ],
+    relatedCities: ["mont-de-marsan", "agen", "bayonne"],
+    tags: ["things to do in mont-de-marsan", "mont-de-marsan", "travel", "city guide", "landes"],
+  },
+  {
+    slug: "things-to-do-in-annonay-2026",
+    title: "Things to do in Annonay: the birthplace of the hot-air balloon",
+    metaTitle: "Things to Do in Annonay (2026) — Montgolfier Heritage, Old Town & the Ardèche",
+    metaDesc:
+      "Annonay's Montgolfier balloon heritage and museum, the old town and viaducts, the paper-making history, and the northern Ardèche hills.",
+    category: "city-guide",
+    emoji: "🎈",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Annonay, in the green hills of the northern Ardèche, is where the Montgolfier brothers launched the first hot-air balloon in 1783 — and the town has celebrated flight ever since. A steep old town of paper-makers and tanners, it's a characterful gateway to the Ardèche. Here's the shortlist.",
+    sections: [
+      {
+        heading: "Montgolfier and the balloon",
+        body: "The Montgolfier brothers, paper-makers from Annonay, made the first public hot-air balloon ascent here in June 1783. The town commemorates it with a monument, the Espace Montgolfier-aérostation, and a balloon festival each June when colourful montgolfières fill the sky above the old town. It's the town's proud claim to a place in history.",
+      },
+      {
+        heading: "The old town and viaducts",
+        body: "Annonay's old town tumbles steeply through medieval and Renaissance lanes, crossed dramatically by tall stone viaducts, with old squares, the Montgolfier paper-mill heritage, and a faded industrial character. It's an atmospheric, vertical place to wander, less polished than the famous Provençal towns and all the more genuine for it.",
+      },
+      {
+        heading: "Paper and industry",
+        body: "Annonay's wealth came from paper (the Montgolfiers' trade), leather and tanning, and that industrial heritage is part of its identity — the Canson paper company, famous to artists worldwide, has its roots here. The town museum traces this rich past.",
+      },
+      {
+        heading: "The Ardèche around",
+        body: "Annonay is a gateway to the green northern Ardèche — the Monts du Vivarais, the Doux gorges (with a scenic steam train, the Train de l'Ardèche), chestnut forests and quiet villages. It's a softer, less-visited Ardèche than the famous southern gorges. The northern Rhône vineyards are also close.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Annonay is reached by bus or car (the nearest stations are on the Rhône valley line). The old town is walkable but steep. A car helps for the Ardèche hills. Time a visit for the June balloon festival for the full Montgolfier spirit; otherwise spring to autumn suits the green countryside.",
+      },
+    ],
+    relatedCities: ["annonay", "vienne", "valence"],
+    tags: ["things to do in annonay", "annonay", "travel", "city guide", "ardeche"],
+  },
+  {
+    slug: "things-to-do-in-privas-2026",
+    title: "Things to do in Privas: chestnuts and the heart of the Ardèche",
+    metaTitle: "Things to Do in Privas (2026) — Old Town, Marrons & the Ardèche",
+    metaDesc:
+      "Privas's old town and bridge, its famous candied chestnuts (marrons glacés), and the wild Ardèche mountains and gorges around.",
+    category: "city-guide",
+    emoji: "🌰",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Privas, the small capital of the Ardèche, is famous above all for one thing — it's the world capital of the candied chestnut, the 'marron glacé'. Set among hills and rivers, it's a modest, friendly base for one of France's wildest and most beautiful departments. Here's the shortlist.",
+    sections: [
+      {
+        heading: "Marrons glacés",
+        body: "Privas is the global capital of the marron glacé — the labour-intensive candied chestnut — and the producers here have made it for over a century. You can learn the story and taste them in town (and the wider Ardèche chestnut, the 'châtaigne', is a regional staple celebrated in autumn festivals). It's the town's sweet, distinctive claim to fame.",
+      },
+      {
+        heading: "The old town and bridge",
+        body: "Privas has a compact old town with traces of its turbulent Protestant past (it was besieged in the Wars of Religion), pleasant squares, and the handsome old Pont Louis XIII spanning the Ouvèze river below town. It's a modest, lived-in centre rather than a showpiece, but pleasant for a stroll and a market.",
+      },
+      {
+        heading: "The Ardèche around",
+        body: "The real reason to be here is the Ardèche itself — one of France's most dramatic landscapes. The famous Gorges de l'Ardèche with the Pont d'Arc natural arch and the Chauvet cave (a replica of the world's oldest known cave paintings) are to the south; volcanic plateaus, chestnut forests, rivers for canoeing and perched villages are all around. Privas is a gateway to it all.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Privas is reached by bus or car; it's one of the few French prefectures with no train station, which tells you how rural the Ardèche is. A car is essential for exploring the gorges, caves and villages. Spring to autumn is best; autumn brings the chestnut harvest and festivals.",
+      },
+    ],
+    relatedCities: ["privas", "valence", "annonay"],
+    tags: ["things to do in privas", "privas", "travel", "city guide", "ardeche"],
+  },
+  {
+    slug: "things-to-do-in-lons-le-saunier-2026",
+    title: "Things to do in Lons-le-Saunier: salt, an anthem and the Jura",
+    metaTitle: "Things to Do in Lons-le-Saunier (2026) — Arcades, Rouget de Lisle & the Vineyards",
+    metaDesc:
+      "Lons-le-Saunier's arcaded old town, the Rouget de Lisle and Marseillaise heritage, the salt-spa past, and the Jura vineyards and lakes nearby.",
+    category: "city-guide",
+    emoji: "🎶",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Lons-le-Saunier, capital of the Jura, is a pleasant arcaded town with a salt-water past, the birthplace of the man who wrote the Marseillaise, and the gateway to the beautiful Jura vineyards, lakes and waterfalls. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The old town and arcades",
+        body: "Lons-le-Saunier's centre has the long, handsome Rue du Commerce, lined with 17th-century stone arcades and colourful façades, leading to squares with fountains and the clock tower. It's an elegant, walkable old town with a relaxed feel and good cafés under the arches.",
+      },
+      {
+        heading: "Rouget de Lisle and the Marseillaise",
+        body: "Claude Joseph Rouget de Lisle, who composed the French national anthem 'La Marseillaise' in 1792, was born in Lons-le-Saunier; his statue (by Bartholdi, of Statue of Liberty fame) stands in town, and a small museum and the anthem's melody chimed by the church bells keep his memory. A nice thread for anyone curious about the song's origins.",
+      },
+      {
+        heading: "The salt and spa heritage",
+        body: "Lons grew rich on salt (the '-saunier' in its name), drawn from underground brine, and later became a small thermal spa. The thermal park and gardens recall that past, and the wider region's salt history is told at the spectacular Royal Saltworks of Arc-et-Senans (a UNESCO site) and Salins-les-Bains nearby.",
+      },
+      {
+        heading: "The Jura around",
+        body: "Lons is a gateway to the lovely southern Jura — the vineyards of the Jura wine country (Château-Chalon and its famous 'vin jaune', the Poligny Comté cheese capital), the lakes region around Clairvaux, the waterfalls of the Hérisson, and the dramatic 'reculées' (box canyons). It's beautiful, gentle mountain country.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Lons-le-Saunier has a train station (via Besançon or Bourg-en-Bresse). The old town is walkable; a car opens up the Jura vineyards, lakes and waterfalls. Spring to autumn is loveliest in the hills; the Comté, vin jaune and Jura wines are a year-round draw.",
+      },
+    ],
+    relatedCities: ["lons-le-saunier", "besancon", "pontarlier"],
+    tags: ["things to do in lons-le-saunier", "lons-le-saunier", "travel", "city guide", "jura"],
+  },
+  {
+    slug: "things-to-do-in-vesoul-2026",
+    title: "Things to do in Vesoul: a lake, a hill chapel and the Haute-Saône",
+    metaTitle: "Things to Do in Vesoul (2026) — Old Town, Lake & La Motte",
+    metaDesc:
+      "Vesoul's old town and museum, the hilltop chapel of La Motte, the leisure lake, and the green Haute-Saône countryside around.",
+    category: "city-guide",
+    emoji: "⛰️",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Vesoul, the small capital of the Haute-Saône, sits beneath a distinctive wooded hill in a green corner of Franche-Comté — a quiet town with an old quarter, a hilltop chapel for views, and a big leisure lake. It's an unhurried, off-the-radar stop. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The old town",
+        body: "Vesoul's old town is a compact knot of medieval and Renaissance houses, narrow streets and small squares around the church of Saint-Georges. The Musée Georges-Garret holds Gallo-Roman finds and a notable collection including works by the sculptor Gérôme, born in nearby Vesoul. It's a pleasant, modest centre for a wander.",
+      },
+      {
+        heading: "La Motte hill and chapel",
+        body: "The town's landmark is La Motte, the steep wooded hill rising right behind it, topped by a chapel and a statue of the Virgin. The climb (or drive) up rewards you with a sweeping panorama over Vesoul, the lake and the rolling Haute-Saône countryside — the best viewpoint and a popular local walk.",
+      },
+      {
+        heading: "The lake and around",
+        body: "The Lac de Vesoul-Vaivre, on the edge of town, is a large leisure lake ringed by a walking and cycling path, with swimming, boating and birdlife — the area's outdoor hub. The green Haute-Saône around, with its villages, forests and the Saône valley, is gentle, uncrowded country.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Vesoul has a train station (between Besançon and Belfort). The old town and La Motte are walkable; the lake is on the edge of town. A car helps for the wider countryside. Spring to autumn is best for the lake and the hill views. A calm, genuine stop rather than a tourist sight.",
+      },
+    ],
+    relatedCities: ["vesoul", "besancon", "belfort"],
+    tags: ["things to do in vesoul", "vesoul", "travel", "city guide", "franche-comte"],
+  },
+  {
+    slug: "things-to-do-in-tulle-2026",
+    title: "Things to do in Tulle: lace, accordions and the Corrèze",
+    metaTitle: "Things to Do in Tulle (2026) — Cathedral, Accordion Heritage & the Corrèze",
+    metaDesc:
+      "Tulle's cathedral and cloister, the lace ('poinct de Tulle') and accordion-making heritage, the stepped old town, and the green Corrèze valleys.",
+    category: "city-guide",
+    emoji: "🪗",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Tulle, capital of the Corrèze, is a narrow town strung along a river deep in green Limousin hills, with a cathedral, a rare lace tradition, and France's last accordion factory. It's a modest, authentic stop in one of France's least-touristed corners. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The cathedral and old town",
+        body: "Tulle's Cathédrale Notre-Dame, with its tall spire, and the lovely adjoining cloister (housing the town museum) are the historic heart. The old town climbs the steep hillsides above the Corrèze river in stepped lanes ('pébradous') and old houses — Tulle is squeezed into its narrow valley, which gives it a distinctive vertical character.",
+      },
+      {
+        heading: "Lace and accordions",
+        body: "Tulle gave its name to the fine net fabric 'tulle', and its rare hand-made lace ('poinct de Tulle') is kept alive by a local workshop. The town is also home to Maugein, France's last accordion manufacturer, where the instruments are still hand-built — you can tour the workshop. Two distinctive crafts for a small town.",
+      },
+      {
+        heading: "History and culture",
+        body: "Tulle carries a heavy WWII history — a tragic Nazi reprisal in June 1944 is solemnly remembered. On a lighter note, the town has a lively accordion festival ('Nuits de Nacre') celebrating its musical heritage. The museums and memorials give depth to a visit.",
+      },
+      {
+        heading: "The Corrèze around",
+        body: "Tulle sits amid the green, hilly Corrèze — a land of 'most beautiful villages' (Collonges-la-Rouge with its red-sandstone houses, Turenne, Curemonte), the Dordogne valley to the south, and rivers, lakes and forests for the outdoors. The countryside is the real draw beyond the town.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Tulle has a train station (via Brive-la-Gaillarde). The old town is walkable but steep; a car is best for the Corrèze villages. Spring to autumn is loveliest in the green hills. A genuine, quiet stop for those who like France off the beaten track.",
+      },
+    ],
+    relatedCities: ["tulle", "limoges", "perigueux"],
+    tags: ["things to do in tulle", "tulle", "travel", "city guide", "nouvelle-aquitaine"],
+  },
+  {
+    slug: "things-to-do-in-gueret-2026",
+    title: "Things to do in Guéret: wolves and the green Creuse",
+    metaTitle: "Things to Do in Guéret (2026) — Wolf Park, Old Town & the Creuse",
+    metaDesc:
+      "Guéret's old town and art museum, the nearby Loups de Chabrières wolf park, the maze and arboretum, and the unspoiled Creuse countryside.",
+    category: "city-guide",
+    emoji: "🐺",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Guéret, capital of the Creuse — one of France's emptiest, greenest departments — is a small town best known for the wolves that roam a forest park on its edge. It's a peaceful base for nature in la France profonde. Here's the shortlist.",
+    sections: [
+      {
+        heading: "Les Loups de Chabrières",
+        body: "Just outside Guéret, the Parc Animalier des Loups de Chabrières lets you observe packs of wolves — European, Arctic and others — roaming large wooded enclosures in the forest, with explanations of the species and its return to France. It's a genuinely memorable, slightly wild experience and the town's headline draw, especially for families.",
+      },
+      {
+        heading: "The old town and museum",
+        body: "Guéret's modest old town has the Hôtel des Moneyroux, a flamboyant Gothic mansion, and the Musée d'Art et d'Archéologie, surprisingly rich in medieval enamels, Asian art and local archaeology. It's a quiet, walkable centre rather than a showpiece.",
+      },
+      {
+        heading: "Nature around the town",
+        body: "The forest of Chabrières around the wolf park also has a labyrinth, an arboretum and walking trails, and a granite landscape of chaos boulders. Guéret leans into the outdoors, with the green hills of the Creuse all around.",
+      },
+      {
+        heading: "The Creuse around",
+        body: "The Creuse is deeply rural and unspoiled — the valley that drew the Impressionist painters to Crozant (where ruined castles overlook the river gorge), the Lac de Vassivière with its island and art centre, tapestry-famous Aubusson, and quiet villages. It's a region for slow travel, walking and getting away from it all.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Guéret has a train station (via Limoges or Montluçon). The town is walkable; a car is needed for the wolf park (just outside) and the Creuse countryside. Spring to autumn is best for the outdoors. One of France's quietest corners — come for nature and calm, not bustle.",
+      },
+    ],
+    relatedCities: ["gueret", "limoges", "montlucon"],
+    tags: ["things to do in gueret", "gueret", "travel", "city guide", "nouvelle-aquitaine"],
+  },
+  {
+    slug: "things-to-do-in-bar-le-duc-2026",
+    title: "Things to do in Bar-le-Duc: a Renaissance upper town and redcurrant jam",
+    metaTitle: "Things to Do in Bar-le-Duc (2026) — Ville Haute, the Skeleton & Lorraine Jam",
+    metaDesc:
+      "Bar-le-Duc's remarkable Renaissance upper town, Ligier Richier's macabre skeleton statue, the famous seeded redcurrant jam, and the Meuse.",
+    category: "city-guide",
+    emoji: "🍓",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Bar-le-Duc, in the Meuse, hides one of the finest Renaissance ensembles in France — an aristocratic 'upper town' that few visitors know — along with a famously macabre sculpture and an artisanal jam so prized it's been called 'the caviar of Bar'. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The Ville Haute",
+        body: "Bar-le-Duc's upper town (Ville Haute) is a remarkably preserved Renaissance quarter — a street of elegant 16th- and 17th-century mansions with carved façades, where the dukes of Bar and their nobility lived, gathered around the Place Saint-Pierre and the château grounds. Quiet and little-visited, it's a genuine architectural treasure and the highlight.",
+      },
+      {
+        heading: "The Transi skeleton",
+        body: "In the church of Saint-Étienne in the upper town stands the 'Transi' (or 'Le Squelette') by the Lorraine sculptor Ligier Richier — an astonishing, unsettling Renaissance statue of a flayed, decomposing skeletal corpse raising its own heart heavenward. Macabre and masterful, it's one of the strangest and most powerful sculptures in France.",
+      },
+      {
+        heading: "Redcurrant jam",
+        body: "Bar-le-Duc is famous for its 'confiture de groseilles épépinées' — redcurrant jam in which each tiny seed is removed by hand, using a goose feather, a painstaking craft kept alive by one remaining maker. Prized for centuries (and once served to royalty), it's a delicious, only-here souvenir.",
+      },
+      {
+        heading: "The lower town and around",
+        body: "The lively lower town along the Ornain river has shops, the canal and Art Nouveau touches. Bar-le-Duc was also the start of the 'Voie Sacrée', the vital supply road to Verdun in WWI — the great battlefield and memorials of Verdun are within reach for a sobering day.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Bar-le-Duc has a train station (about 2h30 from Paris via the TGV at Meuse, or direct lines). The upper and lower towns are walkable, linked by stairways. A car helps for Verdun. Spring to autumn is pleasant; the Renaissance upper town is the unmissable, uncrowded reason to come.",
+      },
+    ],
+    relatedCities: ["bar-le-duc", "chaumont", "chalons-en-champagne"],
+    tags: ["things to do in bar-le-duc", "bar-le-duc", "travel", "city guide", "grand est"],
+  },
+  {
+    slug: "things-to-do-in-chaumont-2026",
+    title: "Things to do in Chaumont: a giant viaduct and graphic design",
+    metaTitle: "Things to Do in Chaumont (2026) — Viaduct, Le Signe & the Old Town",
+    metaDesc:
+      "Chaumont's monumental railway viaduct, the Le Signe graphic-design centre and poster biennial, the old town and keep, and the Haute-Marne.",
+    category: "city-guide",
+    emoji: "🌉",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Chaumont, capital of the Haute-Marne, sits on a spur between two valleys, crossed by a colossal three-tiered railway viaduct — and it has reinvented itself as a world centre of graphic design and the poster. It's a characterful stop in eastern France. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The viaduct",
+        body: "Chaumont's emblem is its magnificent 19th-century railway viaduct — a three-tiered arcade of 50 arches striding 600 metres across the Suize valley, one of the most impressive in France. You can walk across a pedestrian level and admire it from the valley below; floodlit at night, it's spectacular.",
+      },
+      {
+        heading: "Le Signe and graphic design",
+        body: "Chaumont has a long link to the poster and graphic arts (it holds a major historic poster collection), and the striking modern centre 'Le Signe – Centre National du Graphisme' celebrates it with exhibitions, alongside the renowned International Poster and Graphic Design Biennial. It's an unexpected, contemporary cultural identity for a small town.",
+      },
+      {
+        heading: "The old town",
+        body: "Chaumont's old town has the medieval keep (Donjon) of the counts of Champagne, the basilica of Saint-Jean-Baptiste with a notable carved 'Mise au Tombeau' and a spiral 'screw' staircase, and old houses with characteristic round stair-towers ('tourelles'). It's a pleasant, compact centre to wander.",
+      },
+      {
+        heading: "Around Chaumont",
+        body: "The Haute-Marne around offers the great lakes (Lac du Der, a vast reservoir famous for migrating cranes, is to the north-west), the source of the Marne, and Colombey-les-Deux-Églises, where Charles de Gaulle lived and is buried, marked by a giant Cross of Lorraine memorial — a short drive away.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Chaumont has a train station (about 2h15 from Paris). The old town and viaduct are walkable. A car helps for the lakes and Colombey. Spring to autumn is pleasant; time a visit for the graphic-design biennial (in odd years) if that appeals, or come any time for the viaduct.",
+      },
+    ],
+    relatedCities: ["chaumont", "bar-le-duc", "troyes"],
+    tags: ["things to do in chaumont", "chaumont", "travel", "city guide", "grand est"],
+  },
+  {
+    slug: "things-to-do-in-bressuire-2026",
+    title: "Things to do in Bressuire: a great castle in the Vendée hills",
+    metaTitle: "Things to Do in Bressuire (2026) — Château, Old Town & the Bocage",
+    metaDesc:
+      "Bressuire's vast medieval castle ruins, the old town and church, the market, and the Vendée wars heritage of the bocage country.",
+    category: "city-guide",
+    emoji: "🏰",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Bressuire, in the bocage country of the Deux-Sèvres on the edge of the Vendée, is dominated by the extensive ruins of one of the largest medieval castles in the region. It's a market town in a landscape marked by the Vendée wars, and a quiet, genuine stop. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The château",
+        body: "Bressuire's castle is the draw — a vast medieval fortress, now romantically ruined, with a long double ring of ramparts and towers enclosing a green space, once one of the mightiest strongholds of the Poitou. You can wander the grounds and walls and climb for views. Floodlit and atmospheric, it's the town's centrepiece.",
+      },
+      {
+        heading: "The old town",
+        body: "The old town has the large church of Notre-Dame with its tall Gothic-Renaissance bell tower, pedestrian streets, and a big traditional market (Bressuire's livestock and produce markets are among the most important in the region). It's a working market town with a real sense of rural life.",
+      },
+      {
+        heading: "The bocage and Vendée wars",
+        body: "Bressuire sits in the 'bocage' — a landscape of small hedged fields and sunken lanes — that was the heartland of the Vendée wars, the brutal Royalist uprising against the Revolution. The region's memory of that history runs deep, and the nearby Puy du Fou theme park dramatises it spectacularly.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Bressuire has a train station (between Nantes/Cholet and Niort/Poitiers). The castle and old town are walkable. A car helps for the bocage and the Puy du Fou (a short drive). Spring to autumn is pleasant; market days bring the town to life. A genuine, uncrowded country stop.",
+      },
+    ],
+    relatedCities: ["bressuire", "cholet", "niort"],
+    tags: ["things to do in bressuire", "bressuire", "travel", "city guide", "nouvelle-aquitaine"],
+  },
+  {
+    slug: "things-to-do-in-clermont-l-herault-2026",
+    title: "Things to do in Clermont-l'Hérault: a red lake and Languedoc hills",
+    metaTitle: "Things to Do in Clermont-l'Hérault (2026) — Lac du Salagou, Old Town & Mourèze",
+    metaDesc:
+      "Clermont-l'Hérault's old town and Gothic church, the striking red shores of the Lac du Salagou, the dolomite chaos of Mourèze, and the Languedoc wine.",
+    category: "city-guide",
+    emoji: "🏞️",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Clermont-l'Hérault, inland from the Mediterranean in the Languedoc, is the gateway to one of the most extraordinary landscapes in the south — the Lac du Salagou, where blue water meets bright red earth. The town itself is a pleasant wine and market centre. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The Lac du Salagou",
+        body: "The Lac du Salagou is the star — a large reservoir whose shores are made of 'ruffe', a vivid brick-red sedimentary rock, creating a startling, almost Martian landscape of red hills around blue water. It's wonderful for swimming, kayaking, walking and cycling, and the contrast of colours is unforgettable. It's the region's must-see.",
+      },
+      {
+        heading: "The Cirque de Mourèze",
+        body: "Nearby, the Cirque de Mourèze is a 'chaos' of weathered dolomitic limestone — a labyrinth of strange grey rock pinnacles and formations around a tiny medieval village, with walking trails threading through. It's an atmospheric natural maze and a fine short hike, paired easily with the lake.",
+      },
+      {
+        heading: "The old town and wine",
+        body: "Clermont-l'Hérault's old town has medieval lanes and the fortified Gothic church of Saint-Paul. The town is a centre of Languedoc wine and olive growing, with a big market, and the nearby village of Villeneuvette (a planned royal cloth-manufacturing village) is a curious stop.",
+      },
+      {
+        heading: "Around",
+        body: "The area is rich: the medieval village and abbey of Saint-Guilhem-le-Désert (a 'most beautiful village' and pilgrim stop) and the Pont du Diable on the Hérault gorge are a short drive, as are the vineyards and the Mediterranean beaches. Montpellier is under an hour away.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Clermont-l'Hérault is reached by bus or car from Montpellier (about 45 minutes). A car is best for the lake, Mourèze and the villages. Spring to autumn is ideal — the lake for swimming in summer, the red landscape glorious in low light year-round. Bring water and sun protection for the exposed trails.",
+      },
+    ],
+    relatedCities: ["clermont-l-herault", "montpellier", "beziers"],
+    tags: ["things to do in clermont-l-herault", "clermont-l'herault", "travel", "city guide", "occitanie"],
+  },
+  {
+    slug: "things-to-do-in-chatellerault-2026",
+    title: "Things to do in Châtellerault: a grand bridge and industrial heritage",
+    metaTitle: "Things to Do in Châtellerault (2026) — Pont Henri IV, Car Museum & the Vienne",
+    metaDesc:
+      "Châtellerault's monumental Pont Henri IV, the automobile and industrial museum in the old arms factory, the old town, and the Vienne valley.",
+    category: "city-guide",
+    emoji: "🌉",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Châtellerault, on the Vienne north of Poitiers, is a former arms-manufacturing town with a magnificent towered bridge, a good museum of cars and industry in its old factory, and a pleasant old centre. It's an easy, characterful stop on the road south. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The Pont Henri IV",
+        body: "Châtellerault's landmark is the Pont Henri IV, a grand early-17th-century stone bridge across the Vienne, framed at one end by two tall round towers — an elegant, monumental crossing and the town's emblem. The riverbanks and the view of the bridge are the prettiest part of a visit.",
+      },
+      {
+        heading: "The car and industry museum",
+        body: "The town's old royal arms factory (Manufacture d'Armes) on the riverside now houses the Musée Auto Moto Vélo — a large collection of cars, motorbikes and bicycles, including local production, in an impressive industrial building. It's a fine outing for transport enthusiasts and tells the story of the town's manufacturing past.",
+      },
+      {
+        heading: "The old town",
+        body: "Châtellerault's old town has handsome Renaissance and classical houses, a theatre, pedestrian streets and squares. The philosopher René Descartes spent part of his youth in the area (the nearby town of Descartes is named after him). It's a relaxed, walkable centre.",
+      },
+      {
+        heading: "Around",
+        body: "Châtellerault is close to Poitiers and the Futuroscope park, the Romanesque churches of the Poitou, and the gentle Vienne valley. It makes an easy stop or a quieter base than Poitiers for exploring the area.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Châtellerault is a TGV stop (about 1h30 from Paris, just north of Poitiers). The old town, bridge and museum are walkable along the river. Spring to autumn is pleasant; the museum is a good any-weather stop, easily paired with Futuroscope or Poitiers.",
+      },
+    ],
+    relatedCities: ["chatellerault", "poitiers", "tours"],
+    tags: ["things to do in chatellerault", "chatellerault", "travel", "city guide", "nouvelle-aquitaine"],
+  },
+  {
     slug: "one-week-in-provence-itinerary-2026",
     title: "One week in Provence: a route that actually works",
     metaTitle: "One Week in Provence Itinerary (2026) — A Practical Route",
