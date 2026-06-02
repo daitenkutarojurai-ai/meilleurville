@@ -7,6 +7,7 @@ import "./globals.css";
 import { CITIES_COUNT } from "@/lib/site-stats";
 
 const GTM_ID = "GTM-MXMF7XFJ";
+const GA4_ID = "G-4X0HKD8LC7";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -183,6 +184,17 @@ new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','${GTM_ID}');`}
+        </Script>
+        {/* Google Analytics 4 (gtag.js). Reuses the gtag/dataLayer defined in the
+            consent-default script above so it honours Consent Mode v2. */}
+        <Script
+          id="ga4-loader"
+          strategy="afterInteractive"
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA4_ID}`}
+        />
+        <Script id="ga4-config" strategy="afterInteractive">
+          {`gtag('js', new Date());
+gtag('config', '${GA4_ID}');`}
         </Script>
       </head>
       <body className="min-h-full flex flex-col antialiased pb-[calc(3.75rem+env(safe-area-inset-bottom))] lg:pb-0">
