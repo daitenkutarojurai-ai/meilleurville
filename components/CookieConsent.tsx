@@ -9,8 +9,8 @@ const IS_EN = (process.env.NEXT_PUBLIC_DEFAULT_LOCALE ?? "fr") === "en";
 
 type Decision = "granted" | "denied";
 
-function updateGtagConsent(decision: Decision) {
-  if (typeof window === "undefined") return;
+function getGtag() {
+  if (typeof window === "undefined") return null;
   const w = window as unknown as {
     dataLayer?: unknown[];
     gtag?: (...args: unknown[]) => void;
@@ -21,13 +21,30 @@ function updateGtagConsent(decision: Decision) {
       (w.dataLayer as unknown[]).push(args);
     };
   }
+  return w as { dataLayer: unknown[]; gtag: (...args: unknown[]) => void };
+}
+
+// Re-apply the stored consent choice. Safe to call on every page load: the
+// consent 'update' command is idempotent and must run on each page so a
+// previously-granted visitor isn't held at the 'denied' default. See
+// developers.google.com/tag-platform/security/guides/consent — "persist their
+// choice and call the update command accordingly on subsequent pages".
+function applyGtagConsent(decision: Decision) {
+  const w = getGtag();
+  if (!w) return;
   w.gtag("consent", "update", {
     ad_storage: decision,
     ad_user_data: decision,
     ad_personalization: decision,
     analytics_storage: decision,
   });
-  (w.dataLayer as unknown[]).push({ event: decision === "granted" ? "consent_accepted" : "consent_refused" });
+}
+
+// Interaction marker — only on an actual user click, not on reload.
+function emitConsentEvent(decision: Decision) {
+  const w = getGtag();
+  if (!w) return;
+  w.dataLayer.push({ event: decision === "granted" ? "consent_accepted" : "consent_refused" });
 }
 
 const COPY = IS_EN
@@ -58,7 +75,11 @@ export function CookieConsent() {
   useEffect(() => {
     try {
       const existing = localStorage.getItem(STORAGE_KEY);
-      if (existing === "granted" || existing === "denied") return;
+      if (existing === "granted" || existing === "denied") {
+        // Re-assert the persisted choice on this page load, then stay hidden.
+        applyGtagConsent(existing);
+        return;
+      }
     } catch {
       // localStorage unavailable (private mode, SSR fallback) — still show.
     }
@@ -72,7 +93,8 @@ export function CookieConsent() {
     } catch {
       // ignore
     }
-    updateGtagConsent(decision);
+    applyGtagConsent(decision);
+    emitConsentEvent(decision);
     setOpen(false);
   };
 
