@@ -279,6 +279,19 @@ export const PROFILE_PAGES: ProfileDef[] = [
     reasonHint: (c) =>
       `Coût ${c.scores.cost.toFixed(1)} · nature ${c.scores.nature.toFixed(1)} · qualité de vie ${c.scores.life.toFixed(1)}`,
   },
+  {
+    slug: "anti-canicule",
+    emoji: "🧊",
+    label: "Anti-canicule",
+    metaTitle: "Meilleures villes anti-canicule 2026 — Top 20 France",
+    metaDescription:
+      "Top 20 villes françaises où l'été reste vivable : étés tempérés, air respirable, nature accessible. Pour les personnes sensibles à la chaleur.",
+    intro:
+      "Anti-canicule : la décennie à venir verra les étés français devenir plus longs, plus secs et plus suffocants. Choisir aujourd'hui une ville fraîche n'est plus une lubie de retraité, c'est une stratégie de santé pour les asthmatiques, les seniors, les jeunes enfants et toute personne qui supporte mal les pics au-delà de 32 °C. Le critère qui domine, c'est la résistance climatique — dérivée des températures moyennes de juillet et du potentiel de canicule projeté à 2040. On ajoute une qualité de l'air correcte (les pics d'ozone s'aggravent dans le sud), de la nature accessible pour respirer hors des îlots de chaleur urbains, et une qualité de vie générale qui ne s'effondre pas l'été. Résultat : un classement dominé par les façades atlantique et nord, le piémont alpin et les villes d'altitude — les zones qui resteront vivables même après dix années de réchauffement supplémentaires.",
+    weights: { canicule: 3.0, qualiteAir: 2.0, nature: 1.5, life: 1.5, safety: 1.0 },
+    reasonHint: (c) =>
+      `Juillet ${(c.avgTempJuly ?? 23).toFixed(1)} °C · nature ${c.scores.nature.toFixed(1)} · qualité de vie ${c.scores.life.toFixed(1)}`,
+  },
 ];
 
 export const PROFILE_SLUGS = PROFILE_PAGES.map((p) => p.slug);
