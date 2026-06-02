@@ -739,6 +739,7 @@ function enStaticSection(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/guides`, lastModified: STATIC_UPDATED, changeFrequency: "weekly", priority: 0.8 },
     { url: `${BASE_URL}/map`, lastModified: CITY_DATA_UPDATED, changeFrequency: "weekly", priority: 0.7 },
     { url: `${BASE_URL}/about`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.5 },
+    { url: `${BASE_URL}/sign-in`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.5 },
     { url: `${BASE_URL}/contact`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.4 },
     { url: `${BASE_URL}/faq`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.55 },
     { url: `${BASE_URL}/methodology`, lastModified: STATIC_UPDATED, changeFrequency: "monthly", priority: 0.55 },

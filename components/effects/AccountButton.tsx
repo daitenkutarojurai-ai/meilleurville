@@ -13,7 +13,7 @@ import {
 const IS_EN = (process.env.NEXT_PUBLIC_DEFAULT_LOCALE ?? "fr") === "en";
 
 const COPY = IS_EN
-  ? { signedIn: "My account · signed in", signIn: "Sign in", home: "/mes-villes", login: "/connexion" }
+  ? { signedIn: "My account · signed in", signIn: "Sign in", home: "/my-account", login: "/sign-in" }
   : { signedIn: "Mon espace · connecté", signIn: "Se connecter", home: "/mes-villes", login: "/connexion" };
 
 export function AccountButton() {

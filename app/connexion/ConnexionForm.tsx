@@ -4,6 +4,9 @@ import { useState } from "react";
 import { Mail, Loader2, CheckCircle2 } from "lucide-react";
 import { requestLoginLink } from "@/lib/auth-client";
 
+const IS_EN = (process.env.NEXT_PUBLIC_DEFAULT_LOCALE ?? "fr") === "en";
+const t = (fr: string, en: string) => (IS_EN ? en : fr);
+
 export function ConnexionForm() {
   const [email, setEmail] = useState("");
   const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
@@ -19,7 +22,7 @@ export function ConnexionForm() {
       setStatus("sent");
     } else {
       setStatus("error");
-      setError(res.error ?? "Erreur, réessayez.");
+      setError(res.error ?? t("Erreur, réessayez.", "Something went wrong, please try again."));
     }
   }
 
@@ -28,12 +31,22 @@ export function ConnexionForm() {
       <div className="rounded-3xl glass-strong border border-white/60 p-8 text-center shadow-md">
         <CheckCircle2 className="mx-auto h-12 w-12 text-[var(--accent)] mb-4" />
         <h2 className="text-lg font-semibold text-[var(--text-primary)] mb-2">
-          Vérifiez vos emails
+          {t("Vérifiez vos emails", "Check your inbox")}
         </h2>
         <p className="text-sm text-[var(--text-secondary)]">
-          Si un compte existe (ou vient d&apos;être créé) pour{" "}
-          <strong className="text-[var(--text-primary)]">{email}</strong>, un lien de
-          connexion vient d&apos;y être envoyé. Il expire dans 30 minutes.
+          {IS_EN ? (
+            <>
+              If an account exists (or was just created) for{" "}
+              <strong className="text-[var(--text-primary)]">{email}</strong>, a sign-in link
+              is on its way. It expires in 30 minutes.
+            </>
+          ) : (
+            <>
+              Si un compte existe (ou vient d&apos;être créé) pour{" "}
+              <strong className="text-[var(--text-primary)]">{email}</strong>, un lien de
+              connexion vient d&apos;y être envoyé. Il expire dans 30 minutes.
+            </>
+          )}
         </p>
         <button
           type="button"
@@ -43,7 +56,7 @@ export function ConnexionForm() {
           }}
           className="mt-6 text-sm text-[var(--accent)] hover:underline"
         >
-          Utiliser une autre adresse
+          {t("Utiliser une autre adresse", "Use a different address")}
         </button>
       </div>
     );
@@ -52,7 +65,7 @@ export function ConnexionForm() {
   return (
     <form onSubmit={onSubmit} className="rounded-3xl glass-strong border border-white/60 p-6 sm:p-8 shadow-md">
       <label htmlFor="email" className="block text-sm font-medium text-[var(--text-primary)] mb-2">
-        Adresse email
+        {t("Adresse email", "Email address")}
       </label>
       <div className="relative">
         <Mail className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-[var(--text-tertiary)]" />
@@ -63,7 +76,7 @@ export function ConnexionForm() {
           required
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          placeholder="vous@exemple.fr"
+          placeholder={t("vous@exemple.fr", "you@example.com")}
           className="w-full rounded-xl border border-[var(--border)] bg-white/80 pl-10 pr-3 py-2.5 text-sm text-[var(--text-primary)] outline-none focus:border-[var(--accent)] focus:ring-2 focus:ring-[var(--accent)]/20"
         />
       </div>
@@ -78,17 +91,27 @@ export function ConnexionForm() {
         {status === "sending" ? (
           <>
             <Loader2 className="h-4 w-4 animate-spin" />
-            Envoi…
+            {t("Envoi…", "Sending…")}
           </>
         ) : (
-          "Recevoir mon lien de connexion"
+          t("Recevoir mon lien de connexion", "Send me a sign-in link")
         )}
       </button>
 
       <p className="mt-4 text-xs text-[var(--text-tertiary)] text-center">
-        En vous connectant, vous acceptez nos{" "}
-        <a href="/cgu" className="underline hover:text-[var(--accent)]">CGU</a> et notre{" "}
-        <a href="/confidentialite" className="underline hover:text-[var(--accent)]">politique de confidentialité</a>.
+        {IS_EN ? (
+          <>
+            By signing in, you agree to our{" "}
+            <a href="/legal-notice" className="underline hover:text-[var(--accent)]">Terms</a> and{" "}
+            <a href="/privacy-policy" className="underline hover:text-[var(--accent)]">Privacy Policy</a>.
+          </>
+        ) : (
+          <>
+            En vous connectant, vous acceptez nos{" "}
+            <a href="/cgu" className="underline hover:text-[var(--accent)]">CGU</a> et notre{" "}
+            <a href="/confidentialite" className="underline hover:text-[var(--accent)]">politique de confidentialité</a>.
+          </>
+        )}
       </p>
     </form>
   );

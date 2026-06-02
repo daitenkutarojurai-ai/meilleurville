@@ -8,6 +8,14 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { authFetch, getToken, logout } from "@/lib/auth-client";
 import type { City } from "@/lib/types";
 
+const IS_EN = (process.env.NEXT_PUBLIC_DEFAULT_LOCALE ?? "fr") === "en";
+const t = (fr: string, en: string) => (IS_EN ? en : fr);
+const LOGIN_PATH = IS_EN ? "/sign-in" : "/connexion";
+const HOME_PATH = IS_EN ? "/my-account" : "/mes-villes";
+const REDIRECT_TO_LOGIN = `${LOGIN_PATH}?next=${HOME_PATH}`;
+const CITIES_PATH = IS_EN ? "/cities" : "/villes";
+const DATE_LOCALE = IS_EN ? "en-GB" : "fr-FR";
+
 function seedToCity(s: (typeof CITIES_SEED)[number]): City {
   return {
     id: s.slug,
@@ -60,7 +68,7 @@ function HandleEditor({ initial, onSaved }: { initial: string | null; onSaved: (
   async function save() {
     const handle = value.trim();
     if (handle.length < 2 || handle.length > 40) {
-      setError("2 à 40 caractères.");
+      setError(t("2 à 40 caractères.", "2 to 40 characters."));
       return;
     }
     setSaving(true);
@@ -76,10 +84,10 @@ function HandleEditor({ initial, onSaved }: { initial: string | null; onSaved: (
         onSaved(d.handle);
         setEditing(false);
       } else {
-        setError(d.error ?? "Erreur.");
+        setError(d.error ?? t("Erreur.", "Error."));
       }
     } catch {
-      setError("Erreur réseau.");
+      setError(t("Erreur réseau.", "Network error."));
     } finally {
       setSaving(false);
     }
@@ -93,7 +101,7 @@ function HandleEditor({ initial, onSaved }: { initial: string | null; onSaved: (
         className="inline-flex items-center gap-1.5 text-xs text-[var(--text-tertiary)] hover:text-[var(--accent)] transition-colors"
       >
         <Pencil className="h-3 w-3" />
-        {initial ? "Modifier mon pseudo" : "Choisir un pseudo public"}
+        {initial ? t("Modifier mon pseudo", "Edit my display name") : t("Choisir un pseudo public", "Choose a public display name")}
       </button>
     );
   }
@@ -106,19 +114,19 @@ function HandleEditor({ initial, onSaved }: { initial: string | null; onSaved: (
           value={value}
           onChange={(e) => setValue(e.target.value)}
           maxLength={40}
-          placeholder="Votre pseudo public"
+          placeholder={t("Votre pseudo public", "Your public display name")}
           autoFocus
           className="rounded-lg border border-[var(--border)] bg-white/80 px-2.5 py-1 text-sm outline-none focus:border-[var(--accent)]/60"
         />
-        <button type="button" onClick={save} disabled={saving} aria-label="Enregistrer" className="text-[var(--accent)] hover:opacity-80 disabled:opacity-50">
+        <button type="button" onClick={save} disabled={saving} aria-label={t("Enregistrer", "Save")} className="text-[var(--accent)] hover:opacity-80 disabled:opacity-50">
           {saving ? <Loader2 className="h-4 w-4 animate-spin" /> : <Check className="h-4 w-4" />}
         </button>
-        <button type="button" onClick={() => { setEditing(false); setValue(initial ?? ""); setError(null); }} aria-label="Annuler" className="text-[var(--text-tertiary)] hover:text-[var(--text-secondary)]">
+        <button type="button" onClick={() => { setEditing(false); setValue(initial ?? ""); setError(null); }} aria-label={t("Annuler", "Cancel")} className="text-[var(--text-tertiary)] hover:text-[var(--text-secondary)]">
           <X className="h-4 w-4" />
         </button>
       </div>
       {error && <span className="text-xs text-rose-600">{error}</span>}
-      <span className="text-[10px] text-[var(--text-tertiary)]">Affiché sur vos avis et questions.</span>
+      <span className="text-[10px] text-[var(--text-tertiary)]">{t("Affiché sur vos avis et questions.", "Shown on your reviews and questions.")}</span>
     </div>
   );
 }
@@ -129,14 +137,14 @@ export function MesVillesClient() {
 
   useEffect(() => {
     if (!getToken()) {
-      window.location.replace("/connexion?next=/mes-villes");
+      window.location.replace(REDIRECT_TO_LOGIN);
       return;
     }
     let cancelled = false;
     authFetch("/api/account")
       .then(async (res) => {
         if (res.status === 401) {
-          window.location.replace("/connexion?next=/mes-villes");
+          window.location.replace(REDIRECT_TO_LOGIN);
           return null;
         }
         return (await res.json()) as AccountData;
@@ -159,7 +167,7 @@ export function MesVillesClient() {
       <section className="relative pt-28 pb-28">
         <div className="mx-auto max-w-md px-4 text-center">
           <Loader2 className="mx-auto h-10 w-10 animate-spin text-[var(--accent)]" />
-          <p className="mt-4 text-sm text-[var(--text-secondary)]">Chargement de votre espace…</p>
+          <p className="mt-4 text-sm text-[var(--text-secondary)]">{t("Chargement de votre espace…", "Loading your account…")}</p>
         </div>
       </section>
     );
@@ -169,9 +177,9 @@ export function MesVillesClient() {
     return (
       <section className="relative pt-28 pb-28">
         <div className="mx-auto max-w-md px-4 text-center">
-          <p className="text-sm text-[var(--text-secondary)]">Session expirée.</p>
-          <a href="/connexion" className="mt-4 inline-block text-[var(--accent)] hover:underline">
-            Se reconnecter
+          <p className="text-sm text-[var(--text-secondary)]">{t("Session expirée.", "Session expired.")}</p>
+          <a href={LOGIN_PATH} className="mt-4 inline-block text-[var(--accent)] hover:underline">
+            {t("Se reconnecter", "Sign in again")}
           </a>
         </div>
       </section>
@@ -195,7 +203,7 @@ export function MesVillesClient() {
             </div>
             <div className="flex-1">
               <h1 className="text-2xl font-bold text-[var(--text-primary)]">
-                {data.user.handle ? `Bonjour ${data.user.handle}` : "Mon espace"}
+                {data.user.handle ? t(`Bonjour ${data.user.handle}`, `Hi ${data.user.handle}`) : t("Mon espace", "My account")}
               </h1>
               <p className="text-sm text-[var(--text-secondary)]">{data.user.email}</p>
               <div className="mt-1.5">
@@ -216,7 +224,7 @@ export function MesVillesClient() {
               className="inline-flex items-center gap-2 rounded-xl border border-[var(--border)] bg-white/70 px-4 py-2 text-sm font-medium text-[var(--text-secondary)] hover:border-[var(--accent)] hover:text-[var(--accent)] transition-colors"
             >
               <LogOut className="h-4 w-4" />
-              Se déconnecter
+              {t("Se déconnecter", "Sign out")}
             </button>
           </div>
         </div>
@@ -225,9 +233,9 @@ export function MesVillesClient() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 py-6">
         <div className="grid gap-4 sm:grid-cols-3 mb-10">
           {[
-            { icon: Heart, label: "Villes favorites", value: data.favorites.length, color: "text-[var(--accent-pink)]" },
-            { icon: Star, label: "Contributions", value: data.contributionCount, color: "text-amber-500" },
-            { icon: Bell, label: "Alertes actives", value: data.alertes.length, color: "text-[var(--accent)]" },
+            { icon: Heart, label: t("Villes favorites", "Saved cities"), value: data.favorites.length, color: "text-[var(--accent-pink)]" },
+            { icon: Star, label: t("Contributions", "Contributions"), value: data.contributionCount, color: "text-amber-500" },
+            { icon: Bell, label: t("Alertes actives", "Active alerts"), value: data.alertes.length, color: "text-[var(--accent)]" },
           ].map(({ icon: Icon, label, value, color }) => (
             <div key={label} className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5 flex items-center gap-4">
               <Icon className={`h-6 w-6 ${color}`} />
@@ -244,15 +252,19 @@ export function MesVillesClient() {
           <div className="flex items-center justify-between mb-4">
             <div className="flex items-center gap-2">
               <Heart className="h-4 w-4 text-[var(--accent-pink)]" />
-              <h2 className="font-semibold text-[var(--text-primary)]">Villes favorites</h2>
+              <h2 className="font-semibold text-[var(--text-primary)]">{t("Villes favorites", "Saved cities")}</h2>
             </div>
-            <Link href="/villes" className="text-xs text-[var(--accent)] hover:underline">
-              Explorer →
+            <Link href={CITIES_PATH} className="text-xs text-[var(--accent)] hover:underline">
+              {t("Explorer →", "Explore →")}
             </Link>
           </div>
           {favoriteCities.length === 0 ? (
             <div className="rounded-2xl border border-dashed border-[var(--border)] bg-white/60 p-8 text-center text-sm text-[var(--text-secondary)]">
-              Aucune ville favorite pour l&apos;instant. Cliquez sur le ❤️ d&apos;une ville pour la sauvegarder ici, sur tous vos appareils.
+              {IS_EN ? (
+                <>No saved cities yet. Tap the ❤️ on any city to save it here, across all your devices.</>
+              ) : (
+                <>Aucune ville favorite pour l&apos;instant. Cliquez sur le ❤️ d&apos;une ville pour la sauvegarder ici, sur tous vos appareils.</>
+              )}
             </div>
           ) : (
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -268,7 +280,7 @@ export function MesVillesClient() {
           <section className="mb-12">
             <div className="flex items-center gap-2 mb-4">
               <LineChart className="h-4 w-4 text-[var(--accent)]" />
-              <h2 className="font-semibold text-[var(--text-primary)]">Projections sauvegardées</h2>
+              <h2 className="font-semibold text-[var(--text-primary)]">{t("Projections sauvegardées", "Saved projections")}</h2>
             </div>
             <div className="grid gap-3 sm:grid-cols-2">
               {data.projections.map((p) => (
@@ -292,11 +304,15 @@ export function MesVillesClient() {
         <section className="mb-12">
           <div className="flex items-center gap-2 mb-4">
             <Star className="h-4 w-4 text-amber-500" />
-            <h2 className="font-semibold text-[var(--text-primary)]">Mes contributions</h2>
+            <h2 className="font-semibold text-[var(--text-primary)]">{t("Mes contributions", "My contributions")}</h2>
           </div>
           {data.contributions.length === 0 ? (
             <div className="rounded-2xl border border-dashed border-[var(--border)] bg-white/60 p-8 text-center text-sm text-[var(--text-secondary)]">
-              Vous n&apos;avez pas encore publié d&apos;avis. Partagez votre expérience sur la page d&apos;une ville.
+              {IS_EN ? (
+                <>You haven&apos;t posted a review yet. Share your experience on a city page.</>
+              ) : (
+                <>Vous n&apos;avez pas encore publié d&apos;avis. Partagez votre expérience sur la page d&apos;une ville.</>
+              )}
             </div>
           ) : (
             <div className="space-y-3">
@@ -309,7 +325,7 @@ export function MesVillesClient() {
                       <span className="text-sm font-medium text-[var(--text-primary)]">
                         {city ? city.name : c.topic}
                         {c.type === "question" && (
-                          <span className="ml-2 text-xs text-[var(--accent)]">· question</span>
+                          <span className="ml-2 text-xs text-[var(--accent)]">· {t("question", "question")}</span>
                         )}
                       </span>
                       {typeof c.rating === "number" && (
@@ -321,7 +337,7 @@ export function MesVillesClient() {
                     </div>
                     <p className="text-sm text-[var(--text-secondary)] line-clamp-3">{c.body}</p>
                     <div className="mt-2 text-xs text-[var(--text-tertiary)]">
-                      {new Date(c.createdAt).toLocaleDateString("fr-FR")}
+                      {new Date(c.createdAt).toLocaleDateString(DATE_LOCALE)}
                     </div>
                   </div>
                 );
