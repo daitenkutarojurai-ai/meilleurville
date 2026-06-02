@@ -11638,6 +11638,382 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["things to do in ajaccio", "ajaccio", "travel", "city guide", "corsica"],
   },
   {
+    slug: "things-to-do-in-amboise-2026",
+    title: "Things to do in Amboise: a royal château and Leonardo's last home",
+    metaTitle: "Things to Do in Amboise (2026) — Château, Clos Lucé & the Loire",
+    metaDesc:
+      "Amboise's royal château above the Loire, Leonardo da Vinci's final home at Clos Lucé, the old town and the nearby Loire châteaux.",
+    category: "city-guide",
+    emoji: "🏰",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Amboise is a small Loire town with an outsized place in French history: a royal château perched over the river, and the manor where Leonardo da Vinci spent his final years as a guest of François I. It's one of the best bases for the central Loire châteaux. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The Château Royal",
+        body: "The Château d'Amboise rises straight from the riverbank, a former royal residence with terraced gardens and sweeping views over the Loire and the rooftops. Leonardo da Vinci is buried in the small Chapelle Saint-Hubert within the grounds. It's smaller and more digestible than Chambord, and the ramparts are the best free-feeling viewpoint in town.",
+      },
+      {
+        heading: "Clos Lucé — Leonardo's house",
+        body: "A few minutes' walk uphill, the Clos Lucé is the manor where François I installed an ageing Leonardo, who arrived (legend says) with the Mona Lisa under his arm. The house and its large park display models built from his drawings — flying machines, war engines, hydraulics — making it a genuine highlight for adults and children alike. Allow a couple of hours.",
+      },
+      {
+        heading: "The old town and the river",
+        body: "Amboise's centre is compact and walkable: a clock tower gate, a Sunday riverside market, troglodyte (cave) houses cut into the tufa cliffs, and good restaurants. The pedestrian bridge and the island in the Loire give the classic photo of the château. It's an easy, pleasant place to spend an evening between château days.",
+      },
+      {
+        heading: "Châteaux within reach",
+        body: "Amboise is perfectly placed: Chenonceau, the most beautiful of all, arched across the Cher, is a short drive or a quick train; Chambord and Blois are close; Villandry's gardens and Azay-le-Rideau are an easy day. Don't attempt more than two or three in a day. The Loire à Vélo cycle route also passes through, a lovely flat way to reach Chenonceau by bike.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Amboise is on the train line from Tours (about 20 minutes) and reachable from Paris in roughly two hours with a change. The town itself is walkable; a car or a tour helps for the more remote châteaux. Spring and early autumn are ideal — summer brings crowds and the popular son-et-lumière show at the château.",
+      },
+    ],
+    relatedCities: ["amboise", "tours", "blois"],
+    tags: ["things to do in amboise", "amboise", "travel", "city guide", "loire valley"],
+  },
+  {
+    slug: "things-to-do-in-blois-2026",
+    title: "Things to do in Blois: a royal city between Chambord and Chambord",
+    metaTitle: "Things to Do in Blois (2026) — Royal Château, Old Town & the Loire",
+    metaDesc:
+      "Blois's royal château with its famous spiral staircase, the steep old town, the house of magic, and Chambord and Chaumont nearby.",
+    category: "city-guide",
+    emoji: "🏰",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Blois sits on the Loire midway between the great châteaux of Chambord and Chaumont, with a royal château of its own at its heart and a steep, handsome old town tumbling down to the river. It's an underrated base for the Loire that most rush past. Here's what's worth your time.",
+    sections: [
+      {
+        heading: "The Château Royal de Blois",
+        body: "Home to seven kings and ten queens, the royal château is really four buildings around one courtyard, each in a different style from Gothic to Classical — an architecture lesson in one stop. The famous François I spiral staircase, jutting into the courtyard, is the signature image. The dramatic history (a notorious royal assassination happened here) is well told inside.",
+      },
+      {
+        heading: "The old town",
+        body: "Blois climbs the hillside in a tangle of stairways and lanes between the château, the cathedral and the river. The Maison de la Magie opposite the château — a museum of magic with dragons that emerge from the windows on the hour — is a fun, quirky stop, fitting for the home town of the conjurer Robert-Houdin. The riverfront and the old bridge make the best evening stroll.",
+      },
+      {
+        heading: "Chambord and Chaumont",
+        body: "Blois is the gateway to Chambord, the vast and astonishing royal hunting lodge with its double-helix staircase and rooftop forest of chimneys — the single most impressive château in the Loire, about 20 minutes away. In the other direction, Chaumont-sur-Loire combines a fairytale castle with a celebrated international garden festival each year. Both are easy half-days.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Blois is on the main Paris–Tours line (about 1h20 from Paris), which makes it very reachable. A shuttle bus runs to Chambord and Cheverny in season; otherwise a car or bike opens up the surrounding châteaux. It's quieter and cheaper than Amboise or Tours as a base, with the big-hitter Chambord on the doorstep.",
+      },
+    ],
+    relatedCities: ["blois", "tours", "amboise"],
+    tags: ["things to do in blois", "blois", "travel", "city guide", "loire valley"],
+  },
+  {
+    slug: "things-to-do-in-chinon-2026",
+    title: "Things to do in Chinon: a medieval fortress and red wine",
+    metaTitle: "Things to Do in Chinon (2026) — Royal Fortress, Old Town & Wine",
+    metaDesc:
+      "Chinon's clifftop royal fortress where Joan of Arc met the future king, the medieval old town, and the red wines of the Vienne valley.",
+    category: "city-guide",
+    emoji: "🍷",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Chinon is a medieval town on the Vienne river, dominated by the clifftop fortress where Joan of Arc came to convince the future Charles VII to fight. Below it, a perfectly preserved old town and one of the Loire's best red-wine appellations. It's smaller and less visited than the château towns, and all the better for it. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The Forteresse Royale",
+        body: "The royal fortress stretches along the ridge above the town — a long line of towers and ramparts rather than a single keep. It was here in 1429 that Joan of Arc, the legend goes, picked out the disguised dauphin from his courtiers. The site is well restored with modern displays, and the walk along the walls gives a commanding view over the river and the rooftops.",
+      },
+      {
+        heading: "The medieval old town",
+        body: "Below the fortress, the old town is one of the most intact in the Loire: timber-framed and stone houses along the Rue Voltaire and Rue Haute Saint-Maurice, quiet squares, and the writer Rabelais's country nearby (he was born close to Chinon). It's a town for slow wandering rather than ticking off sights.",
+      },
+      {
+        heading: "Chinon wine",
+        body: "Chinon is one of the Loire's finest red appellations, mostly Cabernet Franc — fresh, perfumed reds that locals will tell you to drink slightly cool. Cellars and wine bars in town offer tastings, and domaines in the surrounding vineyards welcome visitors. A wine tasting here is more relaxed and far cheaper than in Burgundy or Bordeaux.",
+      },
+      {
+        heading: "Nearby",
+        body: "The fairytale moated château of Azay-le-Rideau and the Renaissance Langeais are short drives away, as is the vast Fontevraud abbey, burial place of the Plantagenet kings including Richard the Lionheart and Eleanor of Aquitaine — one of the most remarkable sites in the region and well worth the trip.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Chinon is reachable by train from Tours (about an hour, sometimes with a change). A car helps for the surrounding abbeys and vineyards. It makes a calmer, more authentic Loire base than the busier towns, especially if wine and medieval atmosphere appeal more than blockbuster châteaux.",
+      },
+    ],
+    relatedCities: ["chinon", "tours", "saumur"],
+    tags: ["things to do in chinon", "chinon", "travel", "city guide", "loire valley"],
+  },
+  {
+    slug: "things-to-do-in-saumur-2026",
+    title: "Things to do in Saumur: white château, sparkling wine and horses",
+    metaTitle: "Things to Do in Saumur (2026) — Château, Cavalry School & Wine",
+    metaDesc:
+      "Saumur's gleaming white château over the Loire, the famous Cadre Noir riding school, the sparkling-wine cellars and the troglodyte villages.",
+    category: "city-guide",
+    emoji: "🐎",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Saumur is an elegant Loire town known for three things: a gleaming white château straight out of a medieval illumination, France's national riding school with its famous Cadre Noir, and the sparkling wines aged in the limestone caves beneath the surrounding hills. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The Château de Saumur",
+        body: "The brilliant-white château rising above the town appears in the famous medieval book of hours, Les Très Riches Heures, and still looks the part. It houses museums of decorative arts and the horse, and its terrace gives a fine view over the Loire and the slate rooftops. It's a steep but rewarding climb from the centre.",
+      },
+      {
+        heading: "Horses and the Cadre Noir",
+        body: "Saumur is the home of French classical horsemanship. The École Nationale d'Équitation and its elite Cadre Noir riders train here; you can tour the stables and, on certain dates, watch the famous demonstrations of dressage and the spectacular 'airs above the ground'. Even non-riders find it impressive. Book demonstration dates well ahead.",
+      },
+      {
+        heading: "Sparkling wine and troglodyte caves",
+        body: "The hills around Saumur are honeycombed with limestone caves once quarried for building stone, now used to age the region's sparkling wines (Saumur Brut, Crémant de Loire). Houses like Bouvet-Ladubay and Ackerman offer cellar tours and tastings underground. Some caves also hide troglodyte villages and even mushroom farms — a genuinely unusual day out.",
+      },
+      {
+        heading: "Around Saumur",
+        body: "The royal abbey of Fontevraud, with the tombs of Richard the Lionheart and the Plantagenets, is a short drive and one of the great sites of the Loire. The riverside villages, the Cadre Noir's parade ground, and the bike paths along the Loire all reward an extra day.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Saumur is on the train line between Tours and Angers (and reachable from Paris in under two hours via Angers or Tours). The town is walkable; a car helps for Fontevraud and the cave wineries. Spring and autumn are best, and check the Cadre Noir's public-demonstration calendar before fixing dates if the horses are your priority.",
+      },
+    ],
+    relatedCities: ["saumur", "chinon", "tours"],
+    tags: ["things to do in saumur", "saumur", "travel", "city guide", "loire valley"],
+  },
+  {
+    slug: "things-to-do-in-bayonne-2026",
+    title: "Things to do in Bayonne: chocolate, ham and Basque colour",
+    metaTitle: "Things to Do in Bayonne (2026) — Old Town, Cathedral & Basque Culture",
+    metaDesc:
+      "Bayonne's red-and-green Basque old town, its Gothic cathedral, the famous ham and chocolate, the Basque museum and nearby Biarritz.",
+    category: "city-guide",
+    emoji: "🍫",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Bayonne is the cultural capital of the French Basque Country: a river city of tall shuttered houses painted Basque red and green, famous for its cured ham and its centuries-old chocolate trade. It's more authentic and less polished than glamorous Biarritz next door. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The old town",
+        body: "Bayonne splits into Grand Bayonne and Petit Bayonne across the Nive river, both full of narrow streets, half-timbered façades painted in the distinctive Basque palette, and arcaded quays. It's made for wandering, with the riverside, the ramparts (designed by Vauban) and the covered market (Les Halles) as anchors.",
+      },
+      {
+        heading: "The cathedral and Basque museum",
+        body: "The Cathédrale Sainte-Marie, a soaring Gothic church with a peaceful cloister, dominates Grand Bayonne and is a UNESCO-listed stop on the pilgrim route to Santiago. Across the river, the excellent Musée Basque explains the region's distinctive culture, language and traditions — the best introduction to what makes the Basque Country its own world.",
+      },
+      {
+        heading: "Ham, chocolate and food",
+        body: "Bayonne is a food town. Jambon de Bayonne (the cured ham) is everywhere, and the city introduced chocolate to France via Jewish refugees in the 17th century — the chocolatiers along the Rue Port-Neuf carry on the tradition. Try a cup of thick hot chocolate, and graze the Halles market for Basque cheese, peppers (piment d'Espelette) and gâteau basque.",
+      },
+      {
+        heading: "Festivals and around",
+        body: "The Fêtes de Bayonne in late July/early August is one of the biggest festivals in France — five days of white-and-red crowds, music and bull-running energy (book accommodation months ahead, or avoid if crowds aren't your thing). Biarritz and its beaches are 15 minutes away by tram-bus, and the Basque hill villages and Spain are an easy drive.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Bayonne is a TGV stop (about four hours from Paris) and the hub for the whole Basque coast. The old town is walkable; the tram-bus links Bayonne, Anglet and Biarritz. Spring through autumn is ideal — the climate is mild but it's one of the rainier corners of France, so pack for a shower.",
+      },
+    ],
+    relatedCities: ["bayonne", "biarritz", "saint-jean-de-luz"],
+    tags: ["things to do in bayonne", "bayonne", "travel", "city guide", "basque country"],
+  },
+  {
+    slug: "things-to-do-in-saint-jean-de-luz-2026",
+    title: "Things to do in Saint-Jean-de-Luz: a Basque fishing town and a royal wedding",
+    metaTitle: "Things to Do in Saint-Jean-de-Luz (2026) — Beach, Old Town & Bay",
+    metaDesc:
+      "Saint-Jean-de-Luz's sheltered beach, the church where Louis XIV married, the lively old town and the Basque coast around it.",
+    category: "city-guide",
+    emoji: "🏖️",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Saint-Jean-de-Luz is the prettiest of the French Basque resorts: a former whaling and fishing port wrapped around a sheltered bay, with a calm family beach, an old town full of Basque colour, and the church where Louis XIV married the Spanish infanta. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The beach and bay",
+        body: "The town beach is one of the safest on the Atlantic coast, protected by breakwaters that tame the ocean swell — rare on this surf-battered shore, and perfect for families. The promenade behind it, lined with villas, is a lovely walk, and the coastal path out to the wild Pointe de Sainte-Barbe rewards the effort with views over the whole bay.",
+      },
+      {
+        heading: "The old town and the royal wedding",
+        body: "The Église Saint-Jean-Baptiste, plain outside and gilded within with its tiered Basque galleries, is where Louis XIV married Maria Theresa of Spain in 1660 — the door he used was sealed up afterwards. Around it, the old streets and the harbour are full of red-and-green houses, good restaurants and shops selling Basque linen, espadrilles and macarons (a local speciality since the royal wedding).",
+      },
+      {
+        heading: "The port and food",
+        body: "Saint-Jean-de-Luz is still a working fishing port, and it shows on the plate: tuna, hake, and the Basque fish stews are superb here. The market and the harbourside restaurants are the place to eat. Pair it with a glass of Txakoli or local cider, and finish with a gâteau basque.",
+      },
+      {
+        heading: "Around",
+        body: "The neighbouring port of Ciboure (composer Ravel's birthplace) sits just across the harbour. The dramatic Corniche road runs south toward Hendaye and the Spanish border, and San Sebastián, one of the world's great food cities, is only about 40 minutes away. Inland, the Basque villages of Sare and Ainhoa are postcard-perfect.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Saint-Jean-de-Luz is a short train ride from Bayonne and Biarritz and a TGV stop in its own right. It's compact and walkable. It gets busy in July and August; June and September give you the warm sea and calmer streets. The Basque coast is mild but can be wet, so plan for the odd shower.",
+      },
+    ],
+    relatedCities: ["saint-jean-de-luz", "bayonne", "biarritz"],
+    tags: ["things to do in saint-jean-de-luz", "saint-jean-de-luz", "travel", "city guide", "basque country"],
+  },
+  {
+    slug: "things-to-do-in-dinan-2026",
+    title: "Things to do in Dinan: a walled medieval town above the Rance",
+    metaTitle: "Things to Do in Dinan (2026) — Ramparts, Old Town & the Rance Valley",
+    metaDesc:
+      "Dinan's complete medieval ramparts, the cobbled old town and timber houses, the steep port on the Rance, and Brittany's north coast nearby.",
+    category: "city-guide",
+    emoji: "🏰",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Dinan is one of the best-preserved medieval towns in Brittany: a hill town wrapped in three kilometres of ramparts, with cobbled streets of timber-framed houses sloping down to a pretty river port. It's compact, atmospheric and an easy add-on to the north Breton coast. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The ramparts and château",
+        body: "Dinan keeps almost its entire circuit of medieval walls — among the most complete in Brittany — and you can walk long stretches and climb the towers. The 14th-century château and its keep anchor the southern end and house a museum of the town's history. The Tour de l'Horloge in the centre is worth the climb for the rooftop view.",
+      },
+      {
+        heading: "The old town",
+        body: "Inside the walls, streets like the Rue du Jerzual and Rue de l'Apport are lined with leaning timber-framed houses, many now craft workshops, galleries and crêperies. The Place des Merciers is the postcard square. It's small enough to see in a few hours but rewards a slow, looking-up sort of wander.",
+      },
+      {
+        heading: "The port on the Rance",
+        body: "The steep cobbled Rue du Jerzual drops from the old town down to the little river port on the Rance — a lovely (if knee-testing) walk past artisans' workshops, ending at a row of waterside houses, a stone bridge and restaurants. In season you can take a boat down the Rance estuary toward Dinard and Saint-Malo.",
+      },
+      {
+        heading: "Around Dinan",
+        body: "The walled corsair city of Saint-Malo and the elegant resort of Dinard are both close, as is Cancale (oysters) and the wider Emerald Coast. Mont-Saint-Michel is about an hour away. Dinan makes a quieter, cheaper base than Saint-Malo for exploring this stretch of coast.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Dinan has a train station (usually with a change at Dol-de-Bretagne) and is an easy drive from Saint-Malo and Rennes. The old town is steep and cobbled — comfortable shoes matter. Summer is busy; spring and autumn are calmer and the Breton light is at its best.",
+      },
+    ],
+    relatedCities: ["dinan", "saint-malo", "rennes"],
+    tags: ["things to do in dinan", "dinan", "travel", "city guide", "brittany"],
+  },
+  {
+    slug: "things-to-do-in-vannes-2026",
+    title: "Things to do in Vannes: a walled town on the Gulf of Morbihan",
+    metaTitle: "Things to Do in Vannes (2026) — Ramparts, Old Town & the Gulf",
+    metaDesc:
+      "Vannes's medieval walls and gardens, the half-timbered old town, the harbour, and boat trips out into the island-dotted Gulf of Morbihan.",
+    category: "city-guide",
+    emoji: "⛵",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Vannes is a handsome walled town at the head of the Gulf of Morbihan, one of the most beautiful bays in France — an inland sea scattered with islands. It pairs a well-preserved medieval centre with a harbour that runs right into the old town. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The ramparts and gardens",
+        body: "Vannes keeps a long stretch of its medieval walls, and the formal flower gardens laid out at their foot — with the old wash-houses below the towers — make the prettiest, most photographed scene in town. A walk along the ramparts is the best orientation to the old centre.",
+      },
+      {
+        heading: "The old town",
+        body: "Inside the walls, Vannes is a maze of cobbled lanes and leaning half-timbered houses, including the famous carved 'Vannes et sa femme' figures. The Cathédrale Saint-Pierre, the covered market hall and small squares full of crêperies and cafés make it a lovely place to wander. The harbour pushes right up to the old gate, lined with restaurants.",
+      },
+      {
+        heading: "The Gulf of Morbihan",
+        body: "Vannes is the gateway to the Golfe du Morbihan, a sheltered inland sea dotted with dozens of islands. Boat trips from the harbour cruise among them and call at the two big inhabited islands, the Île aux Moines and the Île d'Arz — both lovely to explore on foot or by bike. On a fine day this is one of the best half-days in Brittany.",
+      },
+      {
+        heading: "Around Vannes",
+        body: "The prehistoric stone alignments of Carnac — thousands of standing stones older than Stonehenge — are a short drive west, along with the resort of Quiberon and its wild coast. The walled town and the megaliths together make a strong two- or three-day southern Brittany trip.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Vannes is a TGV stop (about 2h30 from Paris) and an easy base for southern Brittany. The old town is walkable; a car or the boats open up the gulf and Carnac. Summer is busy and the gulf is at its best; spring and autumn are quieter with the same gentle light.",
+      },
+    ],
+    relatedCities: ["vannes", "quimper", "rennes"],
+    tags: ["things to do in vannes", "vannes", "travel", "city guide", "brittany"],
+  },
+  {
+    slug: "things-to-do-in-quimper-2026",
+    title: "Things to do in Quimper: cathedral spires and Breton faience",
+    metaTitle: "Things to Do in Quimper (2026) — Cathedral, Old Town & Pottery",
+    metaDesc:
+      "Quimper's twin-spired cathedral, the half-timbered old town along the Odet, the famous hand-painted faience, and the heart of Breton culture.",
+    category: "city-guide",
+    emoji: "🏺",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Quimper is the historic capital of the Cornouaille region and the cultural heart of western Brittany: a town of half-timbered houses gathered along the little Odet river beneath the twin spires of its great cathedral, famous for its hand-painted pottery. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The cathedral",
+        body: "The Cathédrale Saint-Corentin, with its soaring twin spires (a 19th-century addition that completed the medieval church), dominates the old town. Look for the curious kink in its nave and the equestrian statue of the legendary King Gradlon between the spires. The stained glass is among the finest in Brittany.",
+      },
+      {
+        heading: "The old town",
+        body: "Around the cathedral, the old streets — Rue Kéréon is the prettiest — are lined with leaning timber-framed houses, crêperies and shops. Footbridges cross the flower-lined Odet, giving the town its intimate, walkable charm. The two excellent museums (the Musée des Beaux-Arts and the Musée Départemental Breton) sit right by the cathedral.",
+      },
+      {
+        heading: "Quimper faience",
+        body: "Quimper has made distinctive hand-painted tin-glazed pottery (faience) since the 17th century, decorated with Breton figures and bold florals. The Faïenceries de Quimper still produce it; you can tour the workshop and museum in the Locmaria quarter and watch pieces being painted by hand — a genuine local craft, not a tourist gimmick.",
+      },
+      {
+        heading: "Breton culture and around",
+        body: "Quimper is a stronghold of Breton language and tradition, and the Festival de Cornouaille each July fills the town with Celtic music, costume and dance. The wild coast of the Pointe du Raz, the resort of Bénodet and the pretty port of Concarneau with its walled island are all short drives away.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Quimper is the western terminus of the TGV (about 4 hours from Paris) and a good base for Finistère. The old town is compact and walkable; a car helps for the coast. Brittany's weather is changeable year-round, so pack for both sun and showers — the light after rain is part of the appeal.",
+      },
+    ],
+    relatedCities: ["quimper", "brest", "vannes"],
+    tags: ["things to do in quimper", "quimper", "travel", "city guide", "brittany"],
+  },
+  {
+    slug: "things-to-do-in-gordes-2026",
+    title: "Things to do in Gordes: the postcard hill village of the Luberon",
+    metaTitle: "Things to Do in Gordes (2026) — Hill Village, Sénanque & the Luberon",
+    metaDesc:
+      "Gordes's tumbling stone village, the lavender abbey of Sénanque, the dry-stone Village des Bories, and the Luberon villages around it.",
+    category: "city-guide",
+    emoji: "🌾",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Gordes is the picture that sells Provence: a village of pale stone houses tumbling down a hillside, crowned by a château and a church, with the Luberon spread out below. It's beautiful, famous and busy — worth it if you time it right. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The village",
+        body: "Gordes is one of the 'most beautiful villages of France', and the classic view is from the road as you approach from the valley — pull into the marked viewpoint for the photo. Inside, steep cobbled 'calades' wind up past the Renaissance château (which hosts art exhibitions) to the church. It's small; the pleasure is the climb, the views and a drink in a square.",
+      },
+      {
+        heading: "Sénanque Abbey",
+        body: "A few minutes' drive into a fold of the hills, the 12th-century Cistercian Abbaye de Sénanque is the source of the iconic lavender photo — rows of purple in front of honey-stone monastery walls. The lavender blooms roughly mid-June to mid-July; outside that window it's still a serene, working monastery worth visiting. Go early to beat the crowds and the heat.",
+      },
+      {
+        heading: "The Village des Bories",
+        body: "Just outside Gordes, the Village des Bories is a cluster of dry-stone huts (bories) built without mortar, some centuries old, once used by farmers and shepherds. It's an evocative, low-key open-air museum that gives a sense of older, harder Provençal rural life — a good counterpoint to the polished village above.",
+      },
+      {
+        heading: "The Luberon around",
+        body: "Gordes is the hub of the Luberon hill villages: the ochre cliffs and dyers' trails of Roussillon, the perched Ménerbes and Bonnieux, the antiques and Sunday market of L'Isle-sur-la-Sorgue, and Fontaine-de-Vaucluse's spring. A car turns Gordes into the base for a slow, village-hopping few days.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Gordes has no train; you arrive by car (parking is limited and fills fast in summer — come early). It's at its most beautiful, and most crowded, during the lavender season; May, June and September are the sweet spots. Avignon and Aix are both about an hour away for a wider Provence trip.",
+      },
+    ],
+    relatedCities: ["gordes", "avignon", "aix-en-provence"],
+    tags: ["things to do in gordes", "gordes", "travel", "city guide", "provence"],
+  },
+  {
     slug: "one-week-in-provence-itinerary-2026",
     title: "One week in Provence: a route that actually works",
     metaTitle: "One Week in Provence Itinerary (2026) — A Practical Route",
