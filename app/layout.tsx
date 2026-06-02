@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Inter, Instrument_Serif } from "next/font/google";
-import Script from "next/script";
 import { ScrollProgress } from "@/components/ScrollProgress";
 import { CookieConsent } from "@/components/CookieConsent";
 import "./globals.css";
@@ -163,10 +162,13 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }} />
-        {/* Consent Mode v2 default — denied until the user accepts. Runs
-            before GTM so any tag loaded by GTM respects the default. */}
-        <Script id="gtm-consent-default" strategy="beforeInteractive">
-          {`window.dataLayer = window.dataLayer || [];
+        {/* Consent Mode v2 default — denied until the user accepts. Plain inline
+            script (not next/script) so it ships in the static HTML and runs
+            synchronously, in document order, before GTM and the Google tag
+            queue any commands. */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 window.gtag = gtag;
 gtag('consent', 'default', {
@@ -175,27 +177,28 @@ gtag('consent', 'default', {
   ad_personalization: 'denied',
   analytics_storage: 'denied',
   wait_for_update: 500
-});`}
-        </Script>
-        {/* Google Tag Manager */}
-        <Script id="gtm-loader" strategy="afterInteractive">
-          {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+});`,
+          }}
+        />
+        {/* Google tag (gtag.js) — GA4. In the static HTML head so it is
+            detectable by crawlers; honours the consent default queued above. */}
+        <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA4_ID}`} />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `gtag('js', new Date());
+gtag('config', '${GA4_ID}');`,
+          }}
+        />
+        {/* Google Tag Manager — shares the same dataLayer/gtag and consent state. */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','${GTM_ID}');`}
-        </Script>
-        {/* Google Analytics 4 (gtag.js). Reuses the gtag/dataLayer defined in the
-            consent-default script above so it honours Consent Mode v2. */}
-        <Script
-          id="ga4-loader"
-          strategy="afterInteractive"
-          src={`https://www.googletagmanager.com/gtag/js?id=${GA4_ID}`}
+})(window,document,'script','dataLayer','${GTM_ID}');`,
+          }}
         />
-        <Script id="ga4-config" strategy="afterInteractive">
-          {`gtag('js', new Date());
-gtag('config', '${GA4_ID}');`}
-        </Script>
       </head>
       <body className="min-h-full flex flex-col antialiased pb-[calc(3.75rem+env(safe-area-inset-bottom))] lg:pb-0">
         {/* Google Tag Manager (noscript) */}
