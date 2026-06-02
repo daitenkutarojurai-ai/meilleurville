@@ -15354,6 +15354,358 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["things to do in gap", "gap", "travel", "city guide", "alps"],
   },
   {
+    slug: "things-to-do-in-sisteron-2026",
+    title: "Things to do in Sisteron: the gateway to Provence",
+    metaTitle: "Things to Do in Sisteron (2026) — Citadel, Rock & the Durance",
+    metaDesc:
+      "Sisteron's dramatic citadel and folded rock over the Durance, the old town's narrow andrônes, and the gateway between the Alps and Provence.",
+    category: "city-guide",
+    emoji: "🏰",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Sisteron guards a narrow gap where the Durance river cuts between two mountains — a spectacular natural gateway 'where the Alps meet Provence', crowned by a citadel and backed by an extraordinary wall of folded rock. It's one of the most dramatically sited towns in the south. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The Citadel",
+        body: "Sisteron's citadel climbs the rock above the town in tiers of ramparts, towers and a chapel, fortified over centuries (Vauban had a hand in it). The climb up through its levels rewards you with breathtaking views over the river, the town's rooftops and the mountains — and a summer festival, the Nuits de la Citadelle, stages music and theatre here. It's the unmissable sight.",
+      },
+      {
+        heading: "The Rocher de la Baume",
+        body: "Across the Durance from the citadel rises the Rocher de la Baume, a sheer wall of rock whose strata have been folded almost vertical by ancient earth movements — a geological wonder and a striking sight, popular with climbers. The river squeezing through the gap between rock and citadel is the classic Sisteron view.",
+      },
+      {
+        heading: "The old town",
+        body: "Sisteron's old town tumbles down the hillside in steep, narrow covered passages called 'andrônes', with tall houses, four medieval towers from the old ramparts, and the Romanesque Notre-Dame cathedral. It's atmospheric to wander, and the local lamb (agneau de Sisteron) is a regional specialty worth seeking out.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Sisteron has a train station on the Marseille–Briançon line. The old town is walkable but steep; the citadel involves a climb. It sits on the route between Provence and the Alps, making an easy, scenic stop. Late spring to early autumn is best; the citadel festival animates summer evenings.",
+      },
+    ],
+    relatedCities: ["sisteron", "gap", "digne-les-bains"],
+    tags: ["things to do in sisteron", "sisteron", "travel", "city guide", "provence"],
+  },
+  {
+    slug: "things-to-do-in-agen-2026",
+    title: "Things to do in Agen: prunes, art and a canal over a river",
+    metaTitle: "Things to Do in Agen (2026) — Fine Arts Museum, Canal Bridge & Prunes",
+    metaDesc:
+      "Agen's fine-arts museum with its Goya and Venus, the great canal bridge over the Garonne, the old town, and the famous prunes.",
+    category: "city-guide",
+    emoji: "🍑",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Agen, on the Garonne between Bordeaux and Toulouse, is a warm southern town famous for its prunes, proud of its rugby, and home to a surprisingly fine art museum and a remarkable bridge that carries a canal over the river. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The Musée des Beaux-Arts",
+        body: "Agen's fine-arts museum, set in handsome Renaissance mansions, punches above its weight — it holds five paintings by Goya and a celebrated Roman marble, the 'Vénus du Mas', among a rich collection of paintings, ceramics and archaeology. It's the cultural highlight and a real surprise for the town's size.",
+      },
+      {
+        heading: "The canal bridge",
+        body: "One of Agen's landmarks is the Pont-canal d'Agen — a long, elegant 19th-century aqueduct that carries the Canal latéral à la Garonne over the wide Garonne river on a series of stone arches. You can walk or cycle along the towpath across it, with the river flowing beneath you — a quietly impressive feat of engineering and a lovely stroll.",
+      },
+      {
+        heading: "The old town and prunes",
+        body: "Agen's old town has half-timbered houses, the cathedral, pedestrian streets and a good market. And then there are the prunes — the famous 'pruneaux d'Agen', dried plums that are a regional institution, sold plain, stuffed and in every dessert. Tasting them (and the local Armagnac-soaked versions) is part of any visit.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Agen is on the Bordeaux–Toulouse TGV line (easy from either). The old town, museum and canal bridge are walkable. The surrounding Lot-et-Garonne countryside — bastide towns, orchards, the Lot valley — rewards a car. Spring to autumn is pleasant in this sunny corner of the southwest.",
+      },
+    ],
+    relatedCities: ["agen", "montauban", "bordeaux"],
+    tags: ["things to do in agen", "agen", "travel", "city guide", "nouvelle-aquitaine"],
+  },
+  {
+    slug: "things-to-do-in-mende-2026",
+    title: "Things to do in Mende: a cathedral town in wild Lozère",
+    metaTitle: "Things to Do in Mende (2026) — Cathedral, Old Town & the Gorges",
+    metaDesc:
+      "Mende's grand cathedral and medieval old town, the old Pont Notre-Dame, and the gateway to the Tarn gorges, Aubrac and Cévennes.",
+    category: "city-guide",
+    emoji: "⛪",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Mende, capital of the Lozère — France's least-populated department — is a small cathedral town on the Lot, surrounded by some of the wildest and most beautiful country in the south: the Tarn gorges, the Aubrac plateau and the Cévennes. It's a peaceful base for big landscapes. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The cathedral",
+        body: "The Cathédrale Notre-Dame-et-Saint-Privat, with its two mismatched towers, is surprisingly grand for so small a town — built under a local-born pope, it dominates the old centre. Inside are fine Aubusson tapestries and the remains of what was once the largest bell in Christendom. It's the heart of Mende.",
+      },
+      {
+        heading: "The old town and the bridge",
+        body: "Mende's old town is a tight knot of medieval lanes, squares and old houses around the cathedral, easy to wander in an hour. The 13th-century Pont Notre-Dame, a humpbacked stone bridge over the Lot that has survived centuries of floods, is the prettiest spot, especially with the town behind it.",
+      },
+      {
+        heading: "Gateway to wild Lozère",
+        body: "The real reason to base in Mende is what surrounds it. The dramatic Gorges du Tarn and the limestone causses, the high Aubrac plateau (of cheese, cattle and wide horizons), the Cévennes national park, and the Mont Lozère are all within reach — superb for hiking, driving, canoeing and stargazing (the Cévennes is a dark-sky reserve).",
+      },
+      {
+        heading: "Practical notes",
+        body: "Mende has a small train station; a car is really needed to explore the gorges and plateaus of the Lozère. The old town is compact and walkable. Late spring to autumn is best for the high country; this is a place for nature and quiet rather than monuments, with the town as a friendly base.",
+      },
+    ],
+    relatedCities: ["mende", "millau", "le-puy-en-velay"],
+    tags: ["things to do in mende", "mende", "travel", "city guide", "occitanie"],
+  },
+  {
+    slug: "things-to-do-in-roanne-2026",
+    title: "Things to do in Roanne: gastronomy on the upper Loire",
+    metaTitle: "Things to Do in Roanne (2026) — Food, the Loire Gorges & the Old Town",
+    metaDesc:
+      "Roanne's celebrated food scene, the riverside and port, the museum, and the Loire gorges and Roannais wine country nearby.",
+    category: "city-guide",
+    emoji: "🍽️",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Roanne, on the upper Loire in the foothills between Lyon and the Auvergne, is best known as a temple of French gastronomy — home to one of the country's most famous restaurants — set near the wild Loire gorges and gentle vineyard hills. It's a stop for food lovers and quiet countryside. Here's the shortlist.",
+    sections: [
+      {
+        heading: "Gastronomy",
+        body: "Roanne's name is synonymous with fine dining — the Troisgros family ran one of France's most celebrated restaurants here for generations, drawing food pilgrims to the town. Even beyond the temple of haute cuisine, Roanne has good bistros, charcutiers and a strong market culture. For food lovers, the town is a destination in itself.",
+      },
+      {
+        heading: "The town and river",
+        body: "Roanne sits on the Loire, with a pleasant port and riverside, a fine-arts and ceramics museum (Roanne and nearby Charlieu have a pottery heritage), and a relaxed centre. The medieval priory town of Charlieu, with its remarkable carved Romanesque abbey doorway, is a short and worthwhile drive.",
+      },
+      {
+        heading: "The Loire gorges and lakes",
+        body: "Upstream, the young Loire cuts through the wild Gorges de la Loire, dammed into scenic lakes good for walking, swimming and watersports, with ruined castles on the heights. It's a green, little-visited landscape on Roanne's doorstep, a complete contrast to the polished dining scene.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Roanne has a train station (between Lyon and Clermont). The town is walkable; a car helps for the gorges, Charlieu and the Côte Roannaise vineyards. Spring to autumn is pleasant. Book well ahead if fine dining is the reason for your visit.",
+      },
+    ],
+    relatedCities: ["roanne", "saint-etienne", "lyon"],
+    tags: ["things to do in roanne", "roanne", "travel", "city guide", "rhone-alpes"],
+  },
+  {
+    slug: "things-to-do-in-epinal-2026",
+    title: "Things to do in Épinal: printed images and the Vosges",
+    metaTitle: "Things to Do in Épinal (2026) — Imagerie, Old Town & the Vosges Forest",
+    metaDesc:
+      "Épinal's famous imagerie print workshop and image museum, the old town and basilica on the Moselle, the park, and the Vosges nearby.",
+    category: "city-guide",
+    emoji: "🖼️",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Épinal, on the Moselle in the Vosges, gave the French language a phrase — 'image d'Épinal', for a charmingly idealised picture — thanks to the colourful printed images it has produced since the 18th century. It's a green riverside town and a gateway to the Vosges forests. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The Imagerie d'Épinal",
+        body: "The Imagerie d'Épinal is the historic workshop that has printed bright, popular images — saints, soldiers, fables, board games — since 1796, using the original presses. You can tour the working factory, watch the old machines and stencil colouring, and browse the shop. The nearby Musée de l'Image displays the rich heritage of these prints. It's the town's unique signature.",
+      },
+      {
+        heading: "The old town and basilica",
+        body: "Épinal's old town along the Moselle has the Basilique Saint-Maurice, pleasant squares, and the ruins of the medieval château in a park above. The Musée Départemental d'Art Ancien et Contemporain holds a fine collection (including works by Rembrandt and Georges de La Tour) — a strong art museum for the town's size.",
+      },
+      {
+        heading: "Parks and the river",
+        body: "Épinal is a green town — the Parc du Château on the hill, the riverside walks and the 'Cité-Jardin' make it pleasant to stroll. The Moselle and its canals add to the relaxed feel, and the town is proud of its trees and gardens.",
+      },
+      {
+        heading: "The Vosges around",
+        body: "Épinal is a gateway to the southern Vosges — forests, lakes (Gérardmer is the resort 'Pearl of the Vosges'), the high balloon summits, the thermal spa of Plombières, and walking and skiing country. The mountains and their lakes are the natural draw beyond the town.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Épinal has a train station (about 2h20 from Paris via Nancy). The imagerie, old town and museums are walkable. A car helps for the Vosges lakes and resorts. Spring to autumn is best for the mountains; the imagerie and museums are good any-weather stops.",
+      },
+    ],
+    relatedCities: ["epinal", "nancy", "saint-die-des-vosges"],
+    tags: ["things to do in epinal", "epinal", "travel", "city guide", "vosges"],
+  },
+  {
+    slug: "things-to-do-in-pontarlier-2026",
+    title: "Things to do in Pontarlier: absinthe and the high Jura",
+    metaTitle: "Things to Do in Pontarlier (2026) — Absinthe, Old Town & the Jura Mountains",
+    metaDesc:
+      "Pontarlier's absinthe heritage, the old town gate, the dramatic Cluse de Joux fortress, and the lakes and slopes of the high Jura.",
+    category: "city-guide",
+    emoji: "🌿",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Pontarlier, high in the Jura near the Swiss border, was the world capital of absinthe — the notorious 'green fairy' — and it remains the gateway to a beautiful mountain country of forests, lakes, fortresses and ski trails. Here's the shortlist.",
+    sections: [
+      {
+        heading: "Absinthe heritage",
+        body: "Pontarlier was the heart of the absinthe industry until the drink was banned in 1915; since absinthe's legalisation, distilleries have returned, and you can tour them, taste the ritual (the slotted spoon, the sugar, the water) and learn the story at the town museum. It's a distinctive, slightly rebellious local heritage and the town's claim to fame.",
+      },
+      {
+        heading: "The old town",
+        body: "Pontarlier's centre has the triumphal Porte Saint-Pierre gateway, a long main street of shops and cafés, the Saint-Bénigne church, and a relaxed mountain-town feel at over 800 metres altitude — one of the highest towns in France. The municipal museum covers both absinthe and local art.",
+      },
+      {
+        heading: "The Cluse de Joux",
+        body: "Just outside town, the Château de Joux guards a dramatic narrow mountain pass (cluse) — a fortress rebuilt by Vauban, with a grim history as a prison (the Haitian revolutionary Toussaint Louverture died here). Touring it, perched above the gorge, is the standout excursion, with sweeping views and atmospheric dungeons.",
+      },
+      {
+        heading: "The high Jura",
+        body: "Pontarlier is a base for the Haut-Jura: the source of the Doubs, the spectacular Saut du Doubs waterfall and the Lac de Saint-Point, cross-country and downhill skiing in winter, and hiking and the Swiss border (and Neuchâtel) close by. The mountains, forests and lakes are the real draw.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Pontarlier has a train station (via Besançon or from Switzerland). The old town is walkable; a car helps for the château, lakes and ski areas. It's a four-season base — skiing and snow in winter, hiking and lakes in summer. The altitude means it can be cool even in summer, so pack a layer.",
+      },
+    ],
+    relatedCities: ["pontarlier", "besancon", "lons-le-saunier"],
+    tags: ["things to do in pontarlier", "pontarlier", "travel", "city guide", "jura"],
+  },
+  {
+    slug: "things-to-do-in-saint-die-des-vosges-2026",
+    title: "Things to do in Saint-Dié-des-Vosges: where America got its name",
+    metaTitle: "Things to Do in Saint-Dié-des-Vosges (2026) — Cathedral, the America Map & the Vosges",
+    metaDesc:
+      "Saint-Dié's cathedral and cloister, its claim as the 'godmother of America', the Pierre d'Appel and Camp Celtique, and the Vosges around.",
+    category: "city-guide",
+    emoji: "🗺️",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Saint-Dié-des-Vosges, in the Vosges mountains, holds a remarkable footnote in world history: it was here in 1507 that scholars printed the map that first named the new continent 'America'. Largely rebuilt after WWII destruction, it's a modern town in a beautiful mountain setting. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The 'godmother of America'",
+        body: "In 1507, a group of scholars working at Saint-Dié (the Gymnase Vosgien) printed the 'Cosmographiae Introductio' and a world map that, for the first time, applied the name 'America' to the New World, honouring Amerigo Vespucci. The town proudly calls itself the 'marraine de l'Amérique' (godmother of America), with exhibitions and a tower commemorating the story — a genuinely surprising piece of history.",
+      },
+      {
+        heading: "The cathedral and cloister",
+        body: "The cathedral complex survived the war: the Cathédrale Saint-Dié, the older Romanesque church of Notre-Dame-de-Galilée beside it, and the beautiful Gothic cloister linking them, with its carved details and outdoor pulpit. Together they're the historic heart of the rebuilt town.",
+      },
+      {
+        heading: "The town and the Tour de la Liberté",
+        body: "Saint-Dié was reconstructed in the modern era (with a striking library by Le Corbusier's collaborator), giving it a 20th-century character. The Tour de la Liberté, a modern landmark, and the Pierre d'Appel and Camp Celtique de la Bure (an ancient hilltop site nearby) add interest. The International Geography Festival each autumn is a notable event.",
+      },
+      {
+        heading: "The Vosges around",
+        body: "Saint-Dié sits among the Vosges mountains — forests, the high Route des Crêtes, lakes, and resorts like Gérardmer within reach for hiking, cycling and winter sports. The Alsace plain and its wine route are just over the mountains to the east. The scenery is the wider draw.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Saint-Dié-des-Vosges has a train station (via Nancy or Strasbourg). The cathedral and centre are walkable; a car helps for the Vosges. Spring to autumn is best for the mountains; the geography festival animates early autumn. A stop for the curious, set in lovely mountain country.",
+      },
+    ],
+    relatedCities: ["saint-die-des-vosges", "epinal", "colmar"],
+    tags: ["things to do in saint-die-des-vosges", "saint-die-des-vosges", "travel", "city guide", "vosges"],
+  },
+  {
+    slug: "things-to-do-in-evreux-2026",
+    title: "Things to do in Évreux: a cathedral and gardens in Normandy",
+    metaTitle: "Things to Do in Évreux (2026) — Cathedral, Belfry & the Iton",
+    metaDesc:
+      "Évreux's cathedral with its famous stained glass, the belfry, the riverside gardens along the Iton, and the museum in the bishops' palace.",
+    category: "city-guide",
+    emoji: "⛪",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Évreux, capital of the Eure in Normandy, is a green riverside town that has rebuilt itself across the centuries after repeated destruction — its cathedral, famous for stained glass, and its riverside gardens along the Iton make it a pleasant stop between Paris and the Normandy coast. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The cathedral",
+        body: "The Cathédrale Notre-Dame d'Évreux is the town's treasure, blending Romanesque, Gothic and Renaissance work after centuries of damage and rebuilding, and famous for its outstanding stained glass spanning several eras. The carved Renaissance wooden screens and the lantern tower are highlights. It's the heart of the old town.",
+      },
+      {
+        heading: "The belfry and old town",
+        body: "The Tour de l'Horloge, a 15th-century belfry, stands near the cathedral as a symbol of the town's medieval civic pride. The centre, much rebuilt after WWII bombing, has pedestrian streets, squares and the former bishops' palace, which houses the town museum with archaeology (including fine Gallo-Roman bronzes) and art.",
+      },
+      {
+        heading: "The river and gardens",
+        body: "The Iton river splits into channels through the town, lined with gardens, the old ramparts walk (Promenade des Remparts) and willow-shaded banks — a green, peaceful setting that's the nicest part of an Évreux stroll. The riverside is the town at its most attractive.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Évreux is about an hour from Paris (Gare Saint-Lazare) by train, an easy stop on the way to or from Normandy. The cathedral, belfry and riverside are walkable. It's a pleasant, low-key town rather than a blockbuster; spring to autumn is loveliest along the river. Giverny and the Seine valley are within easy reach.",
+      },
+    ],
+    relatedCities: ["evreux", "rouen", "paris"],
+    tags: ["things to do in evreux", "evreux", "travel", "city guide", "normandy"],
+  },
+  {
+    slug: "things-to-do-in-laval-2026",
+    title: "Things to do in Laval: a castle, a customs-officer painter and the Mayenne",
+    metaTitle: "Things to Do in Laval (2026) — Château, Rousseau & the River",
+    metaDesc:
+      "Laval's old and new castles, the naïve-art museum honouring Henri Rousseau, the riverboats on the Mayenne, and the old town.",
+    category: "city-guide",
+    emoji: "🏰",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Laval, on the Mayenne between Brittany and the Loire, is a handsome river town with a striking medieval castle, the birthplace of the naïve painter Henri 'Le Douanier' Rousseau, and a pleasant old quarter tumbling down to the water. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The castle",
+        body: "Laval's château has two parts: the medieval Vieux-Château with its rare round Romanesque keep (one of the oldest timber-roofed keeps in France) and a museum, and the Renaissance Château-Neuf beside it (now the law courts). The old castle dominates the river and the old town below, and the keep and ramparts are the historic centrepiece.",
+      },
+      {
+        heading: "Naïve art and Henri Rousseau",
+        body: "Laval was the birthplace of Henri Rousseau, the self-taught 'Douanier' (customs officer) painter whose dreamlike jungle scenes influenced modern art. The town honours him with the Musée d'Art Naïf et d'Arts Singuliers in the old castle — the only French museum dedicated to naïve art — a charming, quirky collection.",
+      },
+      {
+        heading: "The old town and river",
+        body: "The old town climbs from the river in steep medieval lanes, with timber-framed houses, the cathedral and the Jardin de la Perrine (a lovely garden with views, where Rousseau is buried). The Mayenne river is central to Laval's charm — riverside walks, an old bridge, and boat trips on the restored river and its locks.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Laval is on the Paris–Rennes TGV line (about 1h10 from Paris). The castle, old town and river are walkable and close together. It's a pleasant, uncrowded stop between Paris, Brittany and the Loire; spring to autumn is loveliest along the Mayenne, with riverboat trips in season.",
+      },
+    ],
+    relatedCities: ["laval", "le-mans", "rennes"],
+    tags: ["things to do in laval", "laval", "travel", "city guide", "pays de la loire"],
+  },
+  {
+    slug: "things-to-do-in-aurillac-2026",
+    title: "Things to do in Aurillac: street theatre and the heart of the Cantal",
+    metaTitle: "Things to Do in Aurillac (2026) — Old Town, Street-Arts Festival & the Volcanoes",
+    metaDesc:
+      "Aurillac's old town and castle keep, the famous international street-theatre festival, the Cantal cheese, and the volcanic mountains around.",
+    category: "city-guide",
+    emoji: "🎭",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Aurillac, capital of the Cantal deep in the Auvergne, is a stone-built town that explodes into life each August for one of Europe's great street-theatre festivals — and otherwise serves as the gateway to a magnificent landscape of extinct volcanoes and the cheese that bears its region's name. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The street-arts festival",
+        body: "Each August, the Festival International de Théâtre de Rue turns Aurillac into an open-air stage — hundreds of street-theatre companies from around the world performing in squares, streets and unexpected corners for huge crowds. It's one of the biggest events of its kind in Europe and transforms the town; if you can time a visit for it, it's unforgettable.",
+      },
+      {
+        heading: "The old town",
+        body: "Aurillac's old town, built of dark volcanic stone, has medieval lanes, the Place du Square, old houses, and the Château Saint-Étienne on its hill — whose Romanesque keep now houses a volcano museum (Maison des Volcans) explaining the Cantal's fiery origins. The abbey church and the riverside add to a pleasant wander.",
+      },
+      {
+        heading: "Cheese and the Cantal",
+        body: "This is the home of Cantal, one of France's oldest cheeses, and of Salers and bleu d'Auvergne — the markets and shops are full of them. The town is the base for the Monts du Cantal, the eroded remains of a giant ancient volcano, with the Puy Mary summit, high pastures, waterfalls and the Salers cattle that graze them.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Aurillac has a train station and a small airport, though the mountain roads reward a car. The old town is walkable. The street-arts festival in late August packs the town (book far ahead); otherwise late spring to autumn is best for the volcanic high country, which is the deeper draw.",
+      },
+    ],
+    relatedCities: ["aurillac", "rodez", "clermont-ferrand"],
+    tags: ["things to do in aurillac", "aurillac", "travel", "city guide", "auvergne"],
+  },
+  {
     slug: "one-week-in-provence-itinerary-2026",
     title: "One week in Provence: a route that actually works",
     metaTitle: "One Week in Provence Itinerary (2026) — A Practical Route",
