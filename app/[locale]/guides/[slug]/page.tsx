@@ -9,7 +9,7 @@ import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
 import { scoreColor } from "@/lib/utils";
 import { slugifyTagEn, TAG_SLUGS_EN } from "@/lib/guide-tags-en";
 import { suggestNextEnGuides } from "@/lib/guide-suggestions-en";
-import { renderRich } from "@/lib/link-cities";
+import { renderRich, stripMd } from "@/lib/link-cities";
 import { FeedbackWidget } from "@/components/FeedbackWidget";
 
 const EN_BASE = ORIGIN_BY_LOCALE.en;
@@ -78,7 +78,7 @@ export default async function EnGuidePage({ params }: Props) {
     mainEntity: g.sections.map((s) => ({
       "@type": "Question",
       name: s.heading,
-      acceptedAnswer: { "@type": "Answer", text: s.body },
+      acceptedAnswer: { "@type": "Answer", text: stripMd(s.body) },
     })),
   };
 

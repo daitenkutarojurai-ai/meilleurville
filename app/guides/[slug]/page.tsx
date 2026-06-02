@@ -7,7 +7,7 @@ import { GuideCard } from "@/components/GuideCard";
 import { CommentSection } from "@/components/CommentSection";
 import { GUIDES, GUIDE_CATEGORIES } from "@/data/guides";
 import { CITIES_SEED } from "@/data/cities-seed";
-import { renderRich } from "@/lib/link-cities";
+import { renderRich, stripMd } from "@/lib/link-cities";
 import { FeedbackWidget } from "@/components/FeedbackWidget";
 import { suggestNextGuides } from "@/lib/guide-suggestions";
 import { slugifyTag, TAG_SLUGS } from "@/lib/guide-tags";
@@ -74,7 +74,7 @@ export default async function GuidePage({ params }: Props) {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: guide.title,
-    description: guide.intro,
+    description: stripMd(guide.intro),
     url: `${baseUrl}/guides/${guide.slug}`,
     image: [`${baseUrl}/guides/${guide.slug}/opengraph-image`],
     datePublished: guide.publishedAt,
@@ -105,7 +105,7 @@ export default async function GuidePage({ params }: Props) {
     mainEntity: guide.sections.map((s) => ({
       "@type": "Question",
       name: s.heading,
-      acceptedAnswer: { "@type": "Answer", text: s.body },
+      acceptedAnswer: { "@type": "Answer", text: stripMd(s.body) },
     })),
   };
 

@@ -69,6 +69,12 @@ export function linkifyCities(
 
 const BOLD_RE = /\*\*([^*]+)\*\*/g;
 
+// Strip markdown emphasis from a string — for plain-text contexts like JSON-LD
+// descriptions and FAQ answers, where `**bold**` markers shouldn't appear.
+export function stripMd(text: string): string {
+  return text.replace(BOLD_RE, "$1");
+}
+
 // Render guide prose: `**bold**` lead-ins become <strong> (the guide bodies use
 // markdown emphasis but the template renders plain text, so the markers showed
 // literally). When `linkify` is set, non-bold text segments also get city links.
