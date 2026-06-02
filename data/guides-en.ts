@@ -13514,6 +13514,378 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["things to do in beauvais", "beauvais", "travel", "city guide", "hauts-de-france"],
   },
   {
+    slug: "things-to-do-in-clermont-ferrand-2026",
+    title: "Things to do in Clermont-Ferrand: a black cathedral and a ring of volcanoes",
+    metaTitle: "Things to Do in Clermont-Ferrand (2026) — Cathedral, Volcanoes & Old Town",
+    metaDesc:
+      "Clermont-Ferrand's black lava cathedral, the old town, the Puy de Dôme volcano and its rack railway, and the Auvergne volcano park.",
+    category: "city-guide",
+    emoji: "🌋",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Clermont-Ferrand, capital of the Auvergne, is built from black volcanic stone and ringed by a chain of extinct volcanoes — including the iconic Puy de Dôme on its doorstep. It's a workmanlike city (home of Michelin) with a striking dark old town and some of the best volcanic scenery in France. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The black cathedral and old town",
+        body: "The Cathédrale Notre-Dame-de-l'Assomption is built of dark grey-black volcanic lava stone, which makes it unlike any other Gothic cathedral — its colour gives the whole old town a distinctive, slightly sombre beauty. Climb the tower for a view to the volcanoes. Nearby, the Romanesque Notre-Dame-du-Port (UNESCO-listed) is a gem in warmer stone. The old streets and the Place de Jaude anchor the centre.",
+      },
+      {
+        heading: "The Puy de Dôme",
+        body: "The city's backdrop is the Chaîne des Puys, a UNESCO-listed line of some 80 volcanic cones, crowned by the Puy de Dôme. A rack railway (the Panoramique des Dômes) climbs to the 1,465-metre summit, where a Roman temple once stood and paragliders now launch — the panorama over the whole volcanic chain is superb. It's the unmissable half-day.",
+      },
+      {
+        heading: "The volcano park",
+        body: "Beyond the Puy de Dôme, the Parc Naturel Régional des Volcans d'Auvergne is a vast landscape of green volcanic peaks, crater lakes and high pastures (the source of Saint-Nectaire and Cantal cheeses). Vulcania, a volcano-themed science park, is a family-friendly introduction. Walking and driving here is the real reason many people come.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Clermont-Ferrand has a train station (about 3h30 from Paris) and an airport. The old town is walkable; a car or the rack railway is needed for the volcanoes. Late spring to autumn is best for the high country; the cheeses, lentils and Auvergne cooking are a year-round draw.",
+      },
+    ],
+    relatedCities: ["clermont-ferrand", "vichy", "le-puy-en-velay"],
+    tags: ["things to do in clermont-ferrand", "clermont-ferrand", "travel", "city guide", "auvergne"],
+  },
+  {
+    slug: "things-to-do-in-carnac-2026",
+    title: "Things to do in Carnac: thousands of standing stones",
+    metaTitle: "Things to Do in Carnac (2026) — Megaliths, Beaches & the Bay",
+    metaDesc:
+      "Carnac's vast prehistoric stone alignments, the megalith museum, the sandy beaches and the Gulf of Morbihan nearby.",
+    category: "city-guide",
+    emoji: "🗿",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Carnac, on the south Brittany coast, holds one of the greatest prehistoric sites on earth: thousands of standing stones lined up across the heathland, older than Stonehenge and the pyramids, raised for reasons still debated. Add good beaches and the Gulf of Morbihan nearby, and it's a remarkable stop. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The alignments",
+        body: "More than 3,000 menhirs (standing stones) stretch in long parallel rows across the fields north of town — the Ménec, Kermario and Kerlescan alignments — erected around 4500 BC. From October to March you can wander freely; in summer, to protect the site, access is by guided tour (well worth it for the context). Seeing the stones march to the horizon is genuinely awe-inspiring.",
+      },
+      {
+        heading: "The Maison des Mégalithes and tombs",
+        body: "The Maison des Mégalithes visitor centre opposite the Ménec alignment explains the site and the theories about it, and offers a rooftop view over the rows. Nearby are great burial mounds and dolmens — the Tumulus Saint-Michel (climbable, with a chapel on top) and the Kercado tomb — adding to the prehistoric landscape.",
+      },
+      {
+        heading: "Beaches and the town",
+        body: "Carnac splits into the old inland village (Carnac-Ville, with a pretty church) and the seaside Carnac-Plage, which has long sandy beaches sheltered by the bay — calm, family-friendly swimming and a relaxed resort feel. It's an easy combination of ancient mystery and beach holiday.",
+      },
+      {
+        heading: "The Gulf of Morbihan around",
+        body: "Carnac sits beside the beautiful Gulf of Morbihan and the Quiberon peninsula, whose wild 'Côte Sauvage' and broad beaches are a short drive. Boat trips to the gulf's islands, the walled town of Vannes, and more megaliths at Locmariaquer round out the region.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Carnac is reachable by train (via Auray, then bus, with a seasonal rail link). A car is the easiest way to reach the alignments and the coast. Book guided alignment tours ahead in summer. Late spring and September give you the stones, the beaches and the bay without peak crowds.",
+      },
+    ],
+    relatedCities: ["carnac", "vannes", "quimper"],
+    tags: ["things to do in carnac", "carnac", "travel", "city guide", "brittany"],
+  },
+  {
+    slug: "things-to-do-in-chantilly-2026",
+    title: "Things to do in Chantilly: a château, an art collection and horses",
+    metaTitle: "Things to Do in Chantilly (2026) — Château, Condé Museum & the Great Stables",
+    metaDesc:
+      "Chantilly's fairytale château and Condé art museum, the Great Stables and living horse museum, the gardens, and the famous cream.",
+    category: "city-guide",
+    emoji: "🐎",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Chantilly, north of Paris, packs an astonishing amount into a small town: a fairytale château holding one of France's greatest art collections outside the Louvre, monumental stables built for a prince who believed he'd be reincarnated as a horse, vast gardens, and a whipped cream that bears its name. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The château and Condé museum",
+        body: "The Château de Chantilly, rebuilt in the 19th century and reflected in its moat, houses the Musée Condé — a collection of old master paintings (Raphael, Poussin, Ingres) second only to the Louvre in France, displayed exactly as its last owner arranged it. Its treasure is the medieval illuminated manuscript 'Les Très Riches Heures du Duc de Berry'. The library and apartments are sumptuous.",
+      },
+      {
+        heading: "The Great Stables and horse museum",
+        body: "The Grandes Écuries beside the château are a palace for horses — built on a monumental scale, now home to the Musée du Cheval (living horse museum) with breeds on show, equestrian demonstrations under the great dome, and the history of the horse. Chantilly remains a capital of French horse racing, with a famous racecourse alongside.",
+      },
+      {
+        heading: "The gardens",
+        body: "The grounds are a tour through garden history: a grand formal French garden designed by Le Nôtre (of Versailles fame), an English landscape garden, and a charming 'hameau' (rustic hamlet) that inspired Marie-Antoinette's at Versailles. You can explore on foot, by little train or by electric boat. Allow time — they're extensive and lovely.",
+      },
+      {
+        heading: "Crème Chantilly and the town",
+        body: "Sweetened whipped cream was, by legend, perfected here — and you can still take a 'crème Chantilly' in the château's hamlet or the town. Chantilly itself is small and pleasant, set at the edge of a large forest good for walking, with the town of Senlis and its old streets nearby.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Chantilly is about 25 minutes from Paris (Gare du Nord) by direct train, making it one of the best day trips from the capital. The château is a walk or shuttle from the station through the forest. Allow a full day to do the museum, stables and gardens justice.",
+      },
+    ],
+    relatedCities: ["chantilly", "compiegne", "paris"],
+    tags: ["things to do in chantilly", "chantilly", "travel", "city guide", "hauts-de-france"],
+  },
+  {
+    slug: "things-to-do-in-fontainebleau-2026",
+    title: "Things to do in Fontainebleau: a royal palace and a forest of rocks",
+    metaTitle: "Things to Do in Fontainebleau (2026) — Château, Forest & Bouldering",
+    metaDesc:
+      "Fontainebleau's vast royal château and gardens, the world-famous forest for walking and bouldering, and the artists' village of Barbizon.",
+    category: "city-guide",
+    emoji: "👑",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Fontainebleau, south of Paris, offers a royal palace lived in by French monarchs for 700 years and one of the most beautiful forests in France — a sandstone wonderland that's a global capital of bouldering. Palace and wilderness in one easy day from the city. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The Château de Fontainebleau",
+        body: "Less crowded than Versailles but arguably more atmospheric, the UNESCO-listed château was a royal residence from the Middle Ages to Napoleon, who called it 'the true home of kings'. The Renaissance François I gallery, the lavish apartments, the Napoleon museum and the famous horseshoe staircase (where he bade his guard farewell) make it a rich visit. The grand gardens and carp pond stretch behind.",
+      },
+      {
+        heading: "The Forest of Fontainebleau",
+        body: "The 25,000-hectare forest is the city's other treasure — oak and pine woods strewn with dramatic sandstone boulders and gorges, laced with marked trails. It's been a draw for nature-lovers since the 19th century and is one of the world's great bouldering destinations, with thousands of routes. Even for non-climbers, the walking among the rocks is wonderful.",
+      },
+      {
+        heading: "Bouldering",
+        body: "If you climb, Fontainebleau ('Font' to climbers worldwide) is a pilgrimage — endless sandstone problems on areas like Bas Cuvier and Franchard, graded by colour-marked circuits for all levels. You can rent a crash pad locally. It's the spiritual home of the sport, and a brilliant introduction for beginners.",
+      },
+      {
+        heading: "Barbizon and around",
+        body: "On the forest's edge, the village of Barbizon was home to the Barbizon School of landscape painters (Millet, Rousseau) who came to paint the woods — its main street of galleries and the painters' houses make a charming visit. The medieval town of Moret-sur-Loing is also close.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Fontainebleau is about 40 minutes from Paris (Gare de Lyon) by train, then a short bus to the château. A car or bike helps to reach the best forest and bouldering spots. The palace is a full morning; pair it with an afternoon in the forest. Spring and autumn are glorious in the woods.",
+      },
+    ],
+    relatedCities: ["fontainebleau", "provins", "paris"],
+    tags: ["things to do in fontainebleau", "fontainebleau", "travel", "city guide", "ile-de-france"],
+  },
+  {
+    slug: "things-to-do-in-poitiers-2026",
+    title: "Things to do in Poitiers: Romanesque churches and a theme park",
+    metaTitle: "Things to Do in Poitiers (2026) — Notre-Dame-la-Grande, Old Town & Futuroscope",
+    metaDesc:
+      "Poitiers's richly carved Romanesque churches, the medieval old town, the baptistery, and the Futuroscope theme park nearby.",
+    category: "city-guide",
+    emoji: "⛪",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Poitiers is a city of churches — one of the great centres of Romanesque art, with a façade so richly carved it's called 'the picture book in stone' — wrapped in a hilly medieval old town. Just outside lies Futuroscope, one of France's biggest theme parks. Old and new sit side by side. Here's the shortlist.",
+    sections: [
+      {
+        heading: "Notre-Dame-la-Grande",
+        body: "The west front of Notre-Dame-la-Grande is one of the masterpieces of Romanesque sculpture — a wall of carved figures and arcading telling biblical stories, once brightly painted (a summer light show restores the colours after dark). The church is the unmissable centrepiece of the old town and a highlight of the whole Romanesque road.",
+      },
+      {
+        heading: "The old town and baptistery",
+        body: "Poitiers climbs a hill in medieval lanes, with the large Cathédrale Saint-Pierre (note its remarkable 12th-century stained glass and carved choir stalls) and the Baptistère Saint-Jean — one of the oldest Christian buildings in the West, a 4th-century baptistery. The Palais des Comtes de Poitou, with its great medieval hall, and good museums round out the centre.",
+      },
+      {
+        heading: "Futuroscope",
+        body: "A few kilometres north, Futuroscope is a major theme park built around moving-image, immersive and multimedia attractions — a very different day out, popular with families, with striking futuristic architecture. It's one of France's most visited parks and easy to combine with the medieval city.",
+      },
+      {
+        heading: "Around Poitiers",
+        body: "The wider Poitou is dotted with Romanesque churches and abbeys, and the watery Marais Poitevin (the 'Green Venice' of canals) near Niort is within reach. The pilgrim and history-rich countryside makes a quiet, rewarding region beyond the city.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Poitiers is on the Paris–Bordeaux TGV line (about 1h20 from Paris). The old town is walkable but hilly; Futuroscope has its own TGV station and shuttle. The Romanesque façade light show runs on summer evenings — a lovely free spectacle if you can time it.",
+      },
+    ],
+    relatedCities: ["poitiers", "niort", "angouleme"],
+    tags: ["things to do in poitiers", "poitiers", "travel", "city guide", "nouvelle-aquitaine"],
+  },
+  {
+    slug: "things-to-do-in-troyes-2026",
+    title: "Things to do in Troyes: a half-timbered champagne capital",
+    metaTitle: "Things to Do in Troyes (2026) — Old Town, Churches & Outlet Shopping",
+    metaDesc:
+      "Troyes's beautifully preserved half-timbered old town, its stained-glass churches, the cork-shaped medieval plan, and the famous outlet stores.",
+    category: "city-guide",
+    emoji: "🏘️",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Troyes, the historic capital of the Champagne region (the southern, less-visited part), has one of the best-preserved half-timbered old towns in France — a tilting, colourful maze whose street plan is shaped like a champagne cork. Add a wealth of stained glass and France's biggest factory outlets, and it's a characterful stop. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The half-timbered old town",
+        body: "Troyes's old town is a wonderland of leaning, brightly coloured 16th-century timber-framed houses along narrow lanes — none more charming than the Ruelle des Chats, an alley so tight the upper floors almost touch overhead. The cork-shaped centre is compact and made for wandering, with squares, courtyards and the restored Cité du Vitrail explaining the local glass.",
+      },
+      {
+        heading: "Stained glass and churches",
+        body: "Troyes is a capital of stained glass, with around half of France's surviving medieval and Renaissance glass in and around the city. The Cathédrale Saint-Pierre-et-Saint-Paul, the Basilique Saint-Urbain (a soaring 'glass cage' of Gothic) and the Église Sainte-Madeleine with its lacework stone rood screen are the highlights. The Cité du Vitrail museum makes sense of it all.",
+      },
+      {
+        heading: "Museums and the cork",
+        body: "The old mansions of wealthy merchants now house museums — the Maison de l'Outil (a beautiful collection of craft tools in a Renaissance house) and the modern-art museum among them. The whole 'bouchon de champagne' (champagne cork) shape of the centre, ringed by boulevards on the old ramparts, is a quirk worth noticing.",
+      },
+      {
+        heading: "Outlets and champagne",
+        body: "Troyes is, improbably, the factory-outlet capital of France — its long textile history left big 'magasins d'usine' on the edge of town where many come to shop. And the Champagne vineyards of the Côte des Bar (around Les Riceys and Bar-sur-Aube) are a short drive south for tastings off the tourist trail.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Troyes is about 1h30 from Paris (Gare de l'Est) by train. The old town is compact and walkable; the outlets and vineyards need a car or bus. Spring through autumn is pleasant; the old town is atmospheric in any season, and especially lit up at night.",
+      },
+    ],
+    relatedCities: ["troyes", "epernay", "chaumont"],
+    tags: ["things to do in troyes", "troyes", "travel", "city guide", "champagne"],
+  },
+  {
+    slug: "things-to-do-in-provins-2026",
+    title: "Things to do in Provins: a complete medieval fair town",
+    metaTitle: "Things to Do in Provins (2026) — Ramparts, Tower & Medieval Shows",
+    metaDesc:
+      "Provins's UNESCO medieval ramparts and Tour César, the underground galleries, the falconry and knights' shows, and the rose heritage.",
+    category: "city-guide",
+    emoji: "🏰",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Provins, east of Paris, is a remarkably complete medieval town — once one of the great fair towns of Champagne — with its ramparts, towers and underground galleries intact, all UNESCO-listed. It leans happily into its past with knights' tournaments and falconry. It's a fun, atmospheric day trip. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The ramparts and Tour César",
+        body: "Provins keeps long, walkable stretches of its medieval ramparts with their gates and towers. The keep, the Tour César, dominates the upper town — climb it for a view over the rooftops and countryside. The upper town's cobbled streets, the half-timbered Place du Châtel and the great tithe barn (Grange aux Dîmes, with displays on the medieval fairs) complete the picture.",
+      },
+      {
+        heading: "The underground galleries",
+        body: "Beneath the upper town runs a network of mysterious medieval underground galleries, carved into the rock and once used for storage and perhaps craft work. Guided visits take you down into the cool, candle-lit tunnels — an evocative, slightly eerie highlight that few towns can offer.",
+      },
+      {
+        heading: "Medieval shows",
+        body: "Provins makes the most of its setting with costumed spectacles: a stirring falconry display ('Les Aigles des Remparts'), a jousting and knights' show ('La Légende des Chevaliers'), and, each June, a big medieval festival that fills the town with markets, music and re-enactors. Great fun for families.",
+      },
+      {
+        heading: "The rose of Provins",
+        body: "Provins is famous for its rose, brought back from the Crusades and the ancestor of many cultivated varieties (and, the story goes, the red rose of the House of Lancaster). The rose garden and shops selling rose products — petals, jam, sweets — keep the tradition alive, at their best in late spring.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Provins is about 1h20 from Paris (Gare de l'Est) by direct train. The upper town is a walk or shuttle up from the station. Check show times before you go and consider a combined ticket. Late spring (for the roses and festival) and early autumn are the nicest times.",
+      },
+    ],
+    relatedCities: ["provins", "fontainebleau", "paris"],
+    tags: ["things to do in provins", "provins", "travel", "city guide", "ile-de-france"],
+  },
+  {
+    slug: "things-to-do-in-mulhouse-2026",
+    title: "Things to do in Mulhouse: world-class museums in industrial Alsace",
+    metaTitle: "Things to Do in Mulhouse (2026) — Car Museum, Train Museum & Old Town",
+    metaDesc:
+      "Mulhouse's extraordinary car and railway museums, the painted old-town square, the printed-textile heritage, and the Alsace wine route nearby.",
+    category: "city-guide",
+    emoji: "🚗",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Mulhouse, in southern Alsace, was a great industrial city, and that legacy gives it a cluster of world-class technical museums — including the largest car museum on earth — that punch far above the town's size. Add a colourful old square and the Alsace wine route nearby, and it's a surprising stop. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The Cité de l'Automobile",
+        body: "The Cité de l'Automobile holds the largest car collection in the world — the Schlumpf collection — including an unrivalled hoard of Bugattis, among them two of the legendary Bugatti Royales. Hundreds of gleaming vehicles fill a vast hall lit by rows of lamp posts copied from a Paris bridge. For any car enthusiast it's a pilgrimage; even for others it's a spectacle.",
+      },
+      {
+        heading: "The Cité du Train",
+        body: "France's national railway museum, the Cité du Train, is the largest in Europe — historic locomotives and carriages, from imperial saloon cars to record-breaking electrics, displayed with theatrical staging. Together with the car museum, it makes Mulhouse a genuine capital of transport heritage.",
+      },
+      {
+        heading: "The old town and textile heritage",
+        body: "Mulhouse's old town centres on the Place de la Réunion, ringed by colourful houses and the painted former town hall (now a history museum). The city was a printed-textile powerhouse, and the Musée de l'Impression sur Étoffes (printed textiles) and the wallpaper museum nearby celebrate that craft — niche but fascinating.",
+      },
+      {
+        heading: "Around Mulhouse",
+        body: "The southern end of the Alsace Wine Route, with its flower-decked villages, begins just to the north, and the eco-museum (Écomusée d'Alsace), a large open-air village of rescued traditional buildings, is close. Colmar and the Vosges mountains are within easy reach for a wider Alsace trip.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Mulhouse is on the TGV line (close to Basel and the Swiss/German borders, about 2h40 from Paris). The old town is walkable; the museums are a tram ride from the centre. Allow a full day if you want to do both big museums. It pairs naturally with Colmar and the wine route.",
+      },
+    ],
+    relatedCities: ["mulhouse", "colmar", "strasbourg"],
+    tags: ["things to do in mulhouse", "mulhouse", "travel", "city guide", "alsace"],
+  },
+  {
+    slug: "things-to-do-in-concarneau-2026",
+    title: "Things to do in Concarneau: a walled island in a fishing port",
+    metaTitle: "Things to Do in Concarneau (2026) — Ville Close, Fishing Port & Beaches",
+    metaDesc:
+      "Concarneau's walled island old town (Ville Close), the working fishing port, the fishing museum, the beaches and the south Brittany coast.",
+    category: "city-guide",
+    emoji: "🐟",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Concarneau, on the south Brittany coast, is built around a fortified island — the Ville Close — sitting in the middle of one of France's busiest fishing harbours. The walled town, the working port and nearby beaches make it a quintessential, salty Breton stop. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The Ville Close",
+        body: "The Ville Close is a small granite island in the harbour, ringed by ramparts you can walk for views over the port and bay, and reached by a footbridge. Inside, cobbled lanes are lined with crêperies, shops and the fishing museum. It's touristy but genuinely atmospheric, especially early or late when the day crowds thin.",
+      },
+      {
+        heading: "The fishing port and museum",
+        body: "Concarneau is one of France's major fishing ports (especially for tuna), and the working harbour around the Ville Close is the real thing — trawlers, the fish auction (criée), and seafood restaurants. The Musée de la Pêche inside the walls tells the story of the trade, with a former trawler you can board.",
+      },
+      {
+        heading: "Beaches and the coast",
+        body: "Beyond the harbour, Concarneau has sandy beaches (the Plage des Sables Blancs is the main one) and a coastal path for walks along the shore. The town makes a relaxed base, with the pretty port of Pont-Aven (of Gauguin fame), Quimper and the Glénan islands' Caribbean-clear water all within reach.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Concarneau is reached by bus from Quimper or Rosporden (the nearest train stations). The Ville Close and port are walkable; a car helps for the wider coast. Summer is busy; spring and autumn give you the ramparts and the working port in calmer light. The Filets Bleus festival in August celebrates the fishing tradition.",
+      },
+    ],
+    relatedCities: ["concarneau", "quimper", "vannes"],
+    tags: ["things to do in concarneau", "concarneau", "travel", "city guide", "brittany"],
+  },
+  {
+    slug: "things-to-do-in-vienne-2026",
+    title: "Things to do in Vienne: Roman ruins and a jazz festival",
+    metaTitle: "Things to Do in Vienne (2026) — Roman Temple, Theatre & Jazz",
+    metaDesc:
+      "Vienne's remarkably preserved Roman temple and theatre, the medieval cathedral, the riverside old town, and the famous summer jazz festival.",
+    category: "city-guide",
+    emoji: "🎺",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Vienne, on the Rhône just south of Lyon, was a major Roman city and still wears its past openly — a near-complete Roman temple in the middle of town, a great theatre on the hillside (which hosts a famous jazz festival each summer), and a rich medieval layer on top. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The Roman temple and theatre",
+        body: "The Temple of Augustus and Livia stands almost intact in the heart of Vienne — a remarkable survival, on a par with the Maison Carrée in Nîmes. Up the hillside, the large Roman theatre, one of the biggest in Gaul, has been restored and still seats thousands. Together they make Vienne one of the best places in France to feel the Roman world.",
+      },
+      {
+        heading: "Roman Vienne beyond",
+        body: "Across the river in Saint-Romain-en-Gal, an extensive Gallo-Roman archaeological site with a fine museum reveals the villas, mosaics and workshops of the ancient city — a genuinely excellent museum that brings daily Roman life to life. A 'pyramid' (the spine of the old Roman circus) survives in town too.",
+      },
+      {
+        heading: "The medieval town",
+        body: "Vienne's later history shows in the Cathédrale Saint-Maurice on the riverbank, the early church of Saint-Pierre (one of France's oldest, now a lapidary museum), and the old streets and riverside quays. It's a compact, walkable centre layering centuries.",
+      },
+      {
+        heading: "Jazz à Vienne",
+        body: "Each summer, the Roman theatre hosts Jazz à Vienne, one of Europe's great jazz festivals — two weeks of concerts in an ancient amphitheatre under the stars. If you can time a visit for it, seeing live music in a 2,000-year-old Roman theatre is unforgettable.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Vienne is a short train ride south of Lyon (about 20 minutes), an easy half-day or day trip. The centre and Roman sites are walkable; the Saint-Romain-en-Gal museum is across the river. Time a visit for the jazz festival in late June/early July if music is the draw; otherwise spring and autumn are pleasant for the ruins.",
+      },
+    ],
+    relatedCities: ["vienne", "lyon", "valence"],
+    tags: ["things to do in vienne", "vienne", "travel", "city guide", "rhone-alpes"],
+  },
+  {
     slug: "one-week-in-provence-itinerary-2026",
     title: "One week in Provence: a route that actually works",
     metaTitle: "One Week in Provence Itinerary (2026) — A Practical Route",
