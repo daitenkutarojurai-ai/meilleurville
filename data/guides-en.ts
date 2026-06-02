@@ -12390,6 +12390,374 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["things to do in calvi", "calvi", "travel", "city guide", "corsica"],
   },
   {
+    slug: "things-to-do-in-albi-2026",
+    title: "Things to do in Albi: a red-brick cathedral-fortress and Toulouse-Lautrec",
+    metaTitle: "Things to Do in Albi (2026) — Sainte-Cécile, Toulouse-Lautrec & the Old Town",
+    metaDesc:
+      "Albi's vast brick cathedral, the Toulouse-Lautrec museum in the bishop's palace, the UNESCO old town and the banks of the Tarn.",
+    category: "city-guide",
+    emoji: "🧱",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Albi is built almost entirely of pinkish-red brick, and its centrepiece is one of the most extraordinary cathedrals in France — a fortress of brick that looks more like a castle than a church. Add the world's best collection of Toulouse-Lautrec (he was born here) and a UNESCO old town on the Tarn, and it's a standout. Here's the shortlist.",
+    sections: [
+      {
+        heading: "Sainte-Cécile cathedral",
+        body: "The Cathédrale Sainte-Cécile is the largest brick building in the world and unlike any other cathedral — a sheer, windowless-looking fortress outside, built to intimidate after the Cathar wars, and a riot of painted vaults, a vast 'Last Judgement' fresco and a carved rood screen inside. The contrast between the austere exterior and the dazzling interior is the whole point. Don't miss it.",
+      },
+      {
+        heading: "The Toulouse-Lautrec museum",
+        body: "Next to the cathedral, the Palais de la Berbie (the former bishops' palace, a fortress in its own right with lovely formal gardens) houses the Musée Toulouse-Lautrec — the largest public collection of the artist's work, including his famous Moulin Rouge posters. He was born in Albi, and the museum traces his whole career. It's the city's second unmissable sight.",
+      },
+      {
+        heading: "The old town and the Tarn",
+        body: "The UNESCO-listed 'Cité Épiscopale' spreads out in narrow brick lanes around the cathedral, with medieval houses, the covered market and the birthplace of Toulouse-Lautrec. The old Pont-Vieux still carries traffic across the Tarn after nearly 900 years, and the view of the cathedral and palace reflected in the river from the far bank is the classic Albi photo.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Albi is about an hour from Toulouse by train or car, an easy day trip or an overnight. The centre is compact and walkable. It's warm in summer; spring and autumn are pleasant, and the red brick glows beautifully in low evening light.",
+      },
+    ],
+    relatedCities: ["albi", "toulouse", "montauban"],
+    tags: ["things to do in albi", "albi", "travel", "city guide", "occitanie"],
+  },
+  {
+    slug: "things-to-do-in-cahors-2026",
+    title: "Things to do in Cahors: a fortified bridge and dark red wine",
+    metaTitle: "Things to Do in Cahors (2026) — Pont Valentré, Old Town & Lot Valley",
+    metaDesc:
+      "Cahors's UNESCO fortified medieval bridge, the cathedral and old town in a loop of the Lot, the black wine, and the valley beyond.",
+    category: "city-guide",
+    emoji: "🌉",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Cahors sits inside a tight loop of the Lot river, and its emblem is the Pont Valentré — a fortified medieval bridge with three towers that's one of the most photographed in France. Add a domed cathedral, a maze of an old town and the dark 'black wine' of the region, and it's a fine stop. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The Pont Valentré",
+        body: "The 14th-century Pont Valentré, with its three tall defensive towers spanning the Lot, is the must-see — a near-perfect medieval bridge wrapped in a devil legend (look for the carved devil on the central tower). Walk across it, and follow the riverbank or climb to the Mont Saint-Cyr viewpoint for the postcard shot of the bridge and the river loop.",
+      },
+      {
+        heading: "The old town and cathedral",
+        body: "Cahors's old town is a dense tangle of medieval lanes, the Saint-Étienne cathedral with its two big Byzantine-style domes and a fine cloister, and the lively covered market. The 'secret gardens' trail links small medieval-style gardens tucked through the centre, a charming free way to explore. It rewards aimless wandering.",
+      },
+      {
+        heading: "Cahors wine",
+        body: "Cahors is famous for its deep, inky red wine made mostly from Malbec (called 'côt' or 'auxerrois' locally) — historically known as the 'black wine of Cahors'. Wine bars in town and domaines in the Lot valley offer tastings; it's robust, characterful and far better value than the famous names elsewhere. The Villa Cahors Malbec is a good orientation point.",
+      },
+      {
+        heading: "The Lot valley around",
+        body: "The Lot valley is gorgeous: the clifftop pilgrimage village of Rocamadour, the perched Saint-Cirq-Lapopie (often voted France's favourite village), the Pech Merle prehistoric painted cave, and the Célé valley are all within reach. Cahors makes a practical base for one of the most scenic corners of southwest France.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Cahors is on the Paris–Toulouse train line (about an hour from Toulouse). The town is walkable, but a car is essential for the surrounding villages and caves, most of which have little public transport. Spring and autumn are ideal; summer is hot and the popular villages get busy.",
+      },
+    ],
+    relatedCities: ["cahors", "montauban", "toulouse"],
+    tags: ["things to do in cahors", "cahors", "travel", "city guide", "occitanie"],
+  },
+  {
+    slug: "things-to-do-in-perigueux-2026",
+    title: "Things to do in Périgueux: Roman ruins and a domed cathedral",
+    metaTitle: "Things to Do in Périgueux (2026) — Cathedral, Roman Town & Markets",
+    metaDesc:
+      "Périgueux's Byzantine-domed cathedral, the medieval old town, the Roman quarter and Gallo-Roman museum, and the famous Périgord markets.",
+    category: "city-guide",
+    emoji: "🍽️",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Périgueux, capital of the Dordogne, layers two thousand years into a walkable centre: a Roman town with surviving ruins, a medieval and Renaissance old quarter, and a multi-domed cathedral that looks like it strayed from Istanbul. It's also one of the great food towns of France. Here's the shortlist.",
+    sections: [
+      {
+        heading: "Saint-Front cathedral",
+        body: "The Cathédrale Saint-Front, crowned with a cluster of pale Byzantine-style domes and turrets, dominates the skyline and is a UNESCO-listed stop on the Santiago pilgrim route. Heavily restored in the 19th century (the architect later worked on Paris's Sacré-Cœur, which it resembles), it's striking inside and out. The rooftops around it make the classic riverside view.",
+      },
+      {
+        heading: "The medieval old town",
+        body: "The Puy Saint-Front quarter around the cathedral is a warren of medieval and Renaissance houses, courtyards and narrow lanes, beautifully preserved and full of restaurants and shops. It's compact and made for wandering, with small squares opening up unexpectedly.",
+      },
+      {
+        heading: "Roman Périgueux",
+        body: "Before the medieval town, this was the Roman city of Vesunna. The remains include the Tour de Vésone (a tall temple cella), an amphitheatre turned into a public garden, and the excellent Vesunna museum built by Jean Nouvel around the ruins of a Roman villa. The two-quarter, two-era layout makes the city's history unusually legible.",
+      },
+      {
+        heading: "Markets and food",
+        body: "Périgueux is a capital of Périgord gastronomy — truffles, foie gras, walnuts, ceps. The Wednesday and Saturday markets fill the squares around the cathedral, and in winter the truffle and foie gras markets are an event. Eating well here is effortless. The Dordogne castles and prehistoric caves around Sarlat are also within easy reach.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Périgueux has a train station (reachable from Bordeaux in about 1h15). The centre is walkable; a car helps for the wider Dordogne. Markets are best on Wednesday and Saturday mornings; spring and autumn are the most comfortable seasons.",
+      },
+    ],
+    relatedCities: ["perigueux", "sarlat-la-caneda", "bordeaux"],
+    tags: ["things to do in perigueux", "perigueux", "travel", "city guide", "dordogne"],
+  },
+  {
+    slug: "things-to-do-in-chartres-2026",
+    title: "Things to do in Chartres: the greatest Gothic cathedral and its blue glass",
+    metaTitle: "Things to Do in Chartres (2026) — Cathedral, Stained Glass & Old Town",
+    metaDesc:
+      "Chartres's UNESCO cathedral and its famous medieval stained glass, the old town on the Eure, the light festival, and an easy day from Paris.",
+    category: "city-guide",
+    emoji: "⛪",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Chartres is, for many, the finest Gothic cathedral in the world — and it's an easy hour from Paris. Its medieval stained glass survived almost intact, glowing in the famous 'Chartres blue', and a pretty old town tumbles down to the river below. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The cathedral",
+        body: "Notre-Dame de Chartres, UNESCO-listed and remarkably complete, is the reason to come. Its two mismatched spires, the carved Royal Portal, and above all its 12th- and 13th-century stained glass — over 170 windows, including the celebrated deep-blue ones — are unmatched. The labyrinth set into the nave floor is a medieval pilgrimage in itself. Take a guided 'cathedral decoded' tour if you can.",
+      },
+      {
+        heading: "The stained glass and crypt",
+        body: "The glass is the headline: spend time letting your eyes adjust and pick out the famous 'Notre-Dame de la Belle-Verrière' and the rose windows. Below, the long Romanesque crypt (visited by guided tour) is the largest in France and holds the relic that made Chartres a major pilgrimage site. The International Stained Glass Centre nearby explains the craft.",
+      },
+      {
+        heading: "The old town",
+        body: "Below the cathedral, the old town drops in stepped lanes to the Eure river, past medieval houses, wash-houses, humpback bridges and small squares. The 'tertres' (stairways) and the riverbanks make a lovely walk, with the cathedral always looming above. The Beaux-Arts museum sits in the former bishop's palace behind the cathedral.",
+      },
+      {
+        heading: "Chartres en Lumières",
+        body: "From spring to autumn, the 'Chartres en Lumières' festival illuminates the cathedral and around 20 other monuments after dark with elaborate projections — a free, magical evening walk through the city. If you can stay into the night during the festival season, it's well worth timing your visit for it.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Chartres is about an hour from Paris (Gare Montparnasse) by direct train, making it one of the easiest and most rewarding day trips from the capital. The cathedral and old town are a short walk from the station and easily done on foot. Go on a bright day to see the glass at its best.",
+      },
+    ],
+    relatedCities: ["chartres", "orleans", "paris"],
+    tags: ["things to do in chartres", "chartres", "travel", "city guide", "centre-val de loire"],
+  },
+  {
+    slug: "things-to-do-in-amiens-2026",
+    title: "Things to do in Amiens: France's largest cathedral and floating gardens",
+    metaTitle: "Things to Do in Amiens (2026) — Cathedral, Hortillonnages & Jules Verne",
+    metaDesc:
+      "Amiens's vast Gothic cathedral, the floating market gardens of the Hortillonnages, the Jules Verne house, and the Saint-Leu quarter.",
+    category: "city-guide",
+    emoji: "⛪",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Amiens, capital of Picardy, has the largest Gothic cathedral in France — big enough to fit Notre-Dame de Paris twice — plus a unique network of canal-threaded market gardens, the home of Jules Verne, and a colourful canalside quarter. It's an underrated city an hour or so from Paris. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The cathedral",
+        body: "Notre-Dame d'Amiens is the largest cathedral in France by volume and a UNESCO-listed masterpiece of High Gothic — soaring, harmonious, and covered in superb carved sculpture, including the famous 'weeping angel'. In the labyrinth on the floor and the polychrome figures (their original medieval colours revealed by a nightly summer light show, 'Chroma'), it's spectacular. The light show is free and unmissable in season.",
+      },
+      {
+        heading: "The Hortillonnages",
+        body: "On the eastern edge of the city, the Hortillonnages are a 300-hectare maze of market gardens and islets threaded by canals, cultivated since medieval times and still partly worked. You glide through them in a traditional flat-bottomed boat — a serene, green, utterly distinctive Amiens experience. Book a boat trip in season; it's the city's quiet wonder.",
+      },
+      {
+        heading: "Jules Verne and Saint-Leu",
+        body: "Jules Verne lived much of his life in Amiens, and his handsome house is now a museum full of his world of imagined voyages — good fun for fans and families. Nearby, the Saint-Leu quarter along the canals, with its low colourful houses, cafés and water, is the prettiest and liveliest part of town, especially in the evening.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Amiens is about 1h15 from Paris (Gare du Nord) by direct train, an easy day trip. The cathedral, Saint-Leu and the Jules Verne house are walkable; the Hortillonnages are a short walk or bus from the centre. Time a visit for a summer evening to catch the cathedral light show.",
+      },
+    ],
+    relatedCities: ["amiens", "beauvais", "lille"],
+    tags: ["things to do in amiens", "amiens", "travel", "city guide", "hauts-de-france"],
+  },
+  {
+    slug: "things-to-do-in-bourges-2026",
+    title: "Things to do in Bourges: a cathedral, a palace and medieval lanes",
+    metaTitle: "Things to Do in Bourges (2026) — Cathedral, Palais Jacques-Cœur & Old Town",
+    metaDesc:
+      "Bourges's UNESCO cathedral, the lavish Palais Jacques-Cœur, the half-timbered old town and the marshland gardens.",
+    category: "city-guide",
+    emoji: "⛪",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Bourges, in the heart of France, is a quietly rewarding city: a UNESCO-listed cathedral famous for its stained glass, one of the finest Gothic-civil mansions in the country, a tangle of medieval streets, and even canalside market gardens. It sees few foreign visitors, which is part of the charm. Here's the shortlist.",
+    sections: [
+      {
+        heading: "Saint-Étienne cathedral",
+        body: "The Cathédrale Saint-Étienne, UNESCO-listed, is unusual for having no transept, giving it a vast, unbroken interior, and for its sublime 13th-century stained glass in deep blues and reds. Climb the tower for a view over the rooftops, and visit the crypt with its remarkable recumbent tomb statue. It's the equal of better-known cathedrals, with a fraction of the crowds.",
+      },
+      {
+        heading: "Palais Jacques-Cœur",
+        body: "The Palais Jacques-Cœur is one of the great secular Gothic buildings in France — the lavish 15th-century mansion of Jacques Cœur, the merchant who financed Charles VII. Its carved details, hidden jokes in the stonework, and surprisingly modern comforts make a guided visit genuinely fascinating. It's the city's hidden gem.",
+      },
+      {
+        heading: "The old town and marshes",
+        body: "Around the cathedral, Bourges keeps a large medieval quarter of half-timbered houses, especially along the Rue Bourbonnoux and Promenade des Remparts. On the eastern edge, the Marais — a network of cultivated allotment gardens threaded by waterways — offers a green, peaceful walk, a smaller cousin of the gardens at Amiens.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Bourges is about two hours from Paris by train (via Vierzon). The centre is compact and walkable. Spring brings the 'Printemps de Bourges' music festival, which fills the city; outside that it's calm and uncrowded year-round. A good, untouristy stop in the French heartland.",
+      },
+    ],
+    relatedCities: ["bourges", "orleans", "tours"],
+    tags: ["things to do in bourges", "bourges", "travel", "city guide", "centre-val de loire"],
+  },
+  {
+    slug: "things-to-do-in-orleans-2026",
+    title: "Things to do in Orléans: Joan of Arc and the upper Loire",
+    metaTitle: "Things to Do in Orléans (2026) — Joan of Arc, Cathedral & the Loire",
+    metaDesc:
+      "Orléans's Joan of Arc heritage, the twin-spired cathedral, the restored old town, the riverside, and the Loire châteaux nearby.",
+    category: "city-guide",
+    emoji: "⚜️",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Orléans is forever tied to Joan of Arc, who lifted the English siege here in 1429 and turned the Hundred Years' War. The city wears that history proudly, alongside a soaring cathedral, a handsomely restored centre and an easy reach to the upper Loire châteaux. Here's the shortlist.",
+    sections: [
+      {
+        heading: "On the Joan of Arc trail",
+        body: "Orléans celebrates 'the Maid' everywhere: the Maison de Jeanne d'Arc (a reconstruction of the house where she stayed, with displays on her story), her statue in the central Place du Martroi, and the windows of the cathedral telling her tale. Every late April/early May, the Fêtes de Jeanne d'Arc fill the city with a medieval pageant and parades — a 600-year-old tradition.",
+      },
+      {
+        heading: "Sainte-Croix cathedral",
+        body: "The Cathédrale Sainte-Croix, with its distinctive twin towers and lacy Gothic-revival façade, dominates the centre. Inside, a series of 19th-century stained-glass windows narrate Joan of Arc's life. The tree-lined Rue Jeanne d'Arc runs straight to its doors — the city's grand axis.",
+      },
+      {
+        heading: "The old town and river",
+        body: "Orléans's centre was carefully restored, with painted timber-framed houses around the cathedral and the Place du Châtelet, the covered market, and the excellent Musée des Beaux-Arts. Down at the Loire, the quays, the old bridge and the riverside walks are pleasant, and in odd-numbered years the Loire festival brings traditional boats to the river.",
+      },
+      {
+        heading: "The Loire and around",
+        body: "Orléans is the upstream gateway to the Loire châteaux: Chambord and Blois are within reach to the southwest, and the gardens of the Loiret and the Sologne's forests and lakes lie close by. It's also the closest 'Loire city' to Paris, making it an easy first stop on a château trip.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Orléans is about an hour from Paris (Gare d'Austerlitz) by frequent trains, an easy day trip. The centre is flat, walkable and served by trams. Time a visit for the Joan of Arc festival in early May if you want the full pageantry; otherwise it's an uncrowded, pleasant city year-round.",
+      },
+    ],
+    relatedCities: ["orleans", "blois", "chartres"],
+    tags: ["things to do in orleans", "orleans", "travel", "city guide", "loire valley"],
+  },
+  {
+    slug: "things-to-do-in-grasse-2026",
+    title: "Things to do in Grasse: the perfume capital of the world",
+    metaTitle: "Things to Do in Grasse (2026) — Perfume Houses, Old Town & the Hills",
+    metaDesc:
+      "Grasse's historic perfume houses and museum, the steep old town, the flower fields behind the Riviera, and the hill villages around.",
+    category: "city-guide",
+    emoji: "🌸",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Grasse, in the hills above Cannes, has been the perfume capital of the world for centuries — its flower fields and 'noses' supply the great fragrance houses, and the craft is UNESCO-listed. Add a colourful, faded old town and Riviera views, and it's a fragrant change of pace from the coast. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The perfume houses",
+        body: "Three historic houses — Fragonard, Galimard and Molinard — offer free or low-cost tours of their workshops, explaining how flowers become fragrance, often ending with a chance to create your own scent (a fun paid workshop). It's touristy but genuinely interesting, and the smell of the place is unforgettable. Fragonard's town-centre factory is the easiest to reach.",
+      },
+      {
+        heading: "The International Perfume Museum",
+        body: "The Musée International de la Parfumerie tells the wider story — 3,000 years of scent, from Egyptian unguents to modern marketing — with antique bottles, instruments and an immersive sensory journey. Its conservatory gardens down in the valley, where the famous Grasse roses and jasmine are grown, are a lovely seasonal extension.",
+      },
+      {
+        heading: "The old town",
+        body: "Grasse's old town is steep, faded and Italian in feel — tall ochre houses, washing lines, stepped alleys and small squares, with a Romanesque cathedral holding paintings by Rubens and a young Fragonard (the painter was born here). It's less manicured than the coastal towns, which gives it character. The views over the hills to the sea are excellent.",
+      },
+      {
+        heading: "Around Grasse",
+        body: "The hills behind Grasse hold perched villages — Gourdon clinging to a clifftop, Tourrettes-sur-Loup (the violet village), Saint-Paul-de-Vence and Vence — and the dramatic Gorges du Loup. Cannes and the coast are 30 minutes downhill, making Grasse an easy half-day or a quieter base above the Riviera bustle.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Grasse is reachable by train from Cannes (about 25 minutes) and by bus across the area; a car helps for the hill villages and gorges. The flower harvests (rose in May, jasmine in late summer) are the most atmospheric times. The old town is steep — wear comfortable shoes.",
+      },
+    ],
+    relatedCities: ["grasse", "cannes", "antibes"],
+    tags: ["things to do in grasse", "grasse", "travel", "city guide", "french riviera"],
+  },
+  {
+    slug: "things-to-do-in-sete-2026",
+    title: "Things to do in Sète: canals, seafood and a singular spirit",
+    metaTitle: "Things to Do in Sète (2026) — Canals, Mont Saint-Clair & Seafood",
+    metaDesc:
+      "Sète's working canals and water-jousting, the view from Mont Saint-Clair, the beaches, the oyster-rich lagoon and the famous seafood.",
+    category: "city-guide",
+    emoji: "🦑",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Sète is a singular Mediterranean port between the sea and a vast lagoon, threaded with canals and known as the 'Venice of Languedoc' — though it's grittier and more characterful than that suggests. A working fishing town with its own traditions, fierce seafood and a hill of a viewpoint, it has a devoted following. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The canals and water-jousting",
+        body: "Sète is built around its canals, lined with tall colourful houses and bobbing fishing boats — lovely to wander and to see by boat tour. The town's signature tradition is 'joutes nautiques' (water-jousting), where lances-wielding competitors on boats try to knock each other into the canal; the big summer tournaments during the Fête de la Saint-Louis are a spectacle.",
+      },
+      {
+        heading: "Mont Saint-Clair",
+        body: "The hill of Mont Saint-Clair rises right behind the town, and the climb (or drive) up to the viewpoint and the Notre-Dame-de-la-Salette chapel rewards you with a sweeping panorama — the port and canals on one side, the Étang de Thau lagoon on the other, and the sea stretching away. The marine cemetery below, where the poet Paul Valéry is buried, inspired his most famous poem.",
+      },
+      {
+        heading: "Beaches and the lagoon",
+        body: "Sète sits on a narrow strip between the Mediterranean and the Étang de Thau. The long Lido beach runs for miles along the sea side, while the lagoon is France's oyster and mussel capital — the nearby village of Bouzigues is the place to eat them straight from the water with a glass of Picpoul de Pinet. Seafood here is exceptional and unfussy.",
+      },
+      {
+        heading: "Art and atmosphere",
+        body: "Sète has a strong creative streak — birthplace of the singer Georges Brassens and the poet Paul Valéry (both have museums), and home to a lively street-art scene and the MIAM museum of outsider art. It's a town with a genuine identity rather than a resort gloss, which is exactly why people love it.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Sète is on the main Mediterranean train line, a short hop from Montpellier (about 25 minutes) and Béziers. The centre is walkable; the beaches stretch along the lido. Summer brings the festivals and the water-jousting; spring and autumn are quieter with the seafood just as good.",
+      },
+    ],
+    relatedCities: ["sete", "montpellier", "beziers"],
+    tags: ["things to do in sete", "sete", "travel", "city guide", "occitanie"],
+  },
+  {
+    slug: "things-to-do-in-narbonne-2026",
+    title: "Things to do in Narbonne: Roman roots and a half-built cathedral",
+    metaTitle: "Things to Do in Narbonne (2026) — Cathedral, Roman Horreum & the Canal",
+    metaDesc:
+      "Narbonne's soaring unfinished cathedral, the archbishops' palace, the Roman road and underground granary, the new Narbo Via museum and the canal.",
+    category: "city-guide",
+    emoji: "🏛️",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Narbonne was the first Roman colony in Gaul and a great Mediterranean port before the sea retreated, and that long history shows: a soaring (and deliberately unfinished) Gothic cathedral, a fortified archbishops' palace, Roman remains, and a branch of the Canal du Midi running through the centre. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The cathedral and palace",
+        body: "The Cathédrale Saint-Just-et-Saint-Pasteur is one of the tallest Gothic choirs in France — but the nave was never built, leaving a soaring, dramatically truncated church attached to the cloisters. It adjoins the massive Palais des Archevêques (archbishops' palace), a fortress-palace on the main square that now holds the town hall and museums. Together they dominate the old centre.",
+      },
+      {
+        heading: "Roman Narbonne",
+        body: "Reminders of the Roman city are scattered through the centre: a preserved section of the Via Domitia (the great Roman road) sits exposed in the main square, and the Horreum, an underground network of Roman storage galleries, can be visited beneath the streets. On the edge of town, the striking modern Narbo Via museum (by Foster + Partners) gathers the region's outstanding Roman collection — a genuine highlight.",
+      },
+      {
+        heading: "The canal and market",
+        body: "The Canal de la Robine, a UNESCO-listed branch of the Canal du Midi, runs right through Narbonne, crossed by the photogenic shop-lined Pont des Marchands. Les Halles, the covered market beside the canal, is one of the best in the south — a wonderful place to graze on oysters, charcuterie and wine at lunchtime.",
+      },
+      {
+        heading: "Around Narbonne",
+        body: "The wild Massif de la Clape, the long beaches of Narbonne-Plage and Gruissan (with its circular village and stilt cabins), the abbey of Fontfroide in the hills, and the Corbières and Minervois vineyards are all close. The flamingo-filled lagoons make this a quietly beautiful corner of the Mediterranean.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Narbonne is a rail hub on the Mediterranean and Toulouse lines, easily reached from Montpellier, Béziers and Carcassonne. The centre is compact and walkable. A car opens up the beaches, abbey and vineyards. Spring and autumn are ideal; the Halles is best at weekend lunchtimes.",
+      },
+    ],
+    relatedCities: ["narbonne", "beziers", "carcassonne"],
+    tags: ["things to do in narbonne", "narbonne", "travel", "city guide", "occitanie"],
+  },
+  {
     slug: "one-week-in-provence-itinerary-2026",
     title: "One week in Provence: a route that actually works",
     metaTitle: "One Week in Provence Itinerary (2026) — A Practical Route",
