@@ -14246,6 +14246,382 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["things to do in beziers", "beziers", "travel", "city guide", "occitanie"],
   },
   {
+    slug: "things-to-do-in-porto-vecchio-2026",
+    title: "Things to do in Porto-Vecchio: Corsica's dream beaches",
+    metaTitle: "Things to Do in Porto-Vecchio (2026) — Palombaggia, Old Town & the South",
+    metaDesc:
+      "Porto-Vecchio's world-famous beaches like Palombaggia and Santa Giulia, the hilltop old town, the salt marshes, and the wild south of Corsica.",
+    category: "city-guide",
+    emoji: "🏖️",
+    readMinutes: 5,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Porto-Vecchio, in the south-east of Corsica, is the gateway to some of the most beautiful beaches in the Mediterranean — turquoise water, white sand and umbrella pines. Above the marina, an old salt-trading town crowns the hill. It's the island at its most idyllic. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The beaches",
+        body: "This is beach country at its best. Palombaggia, with its red rocks, pines and pale sand, is one of the most photographed beaches in France; Santa Giulia curves around a shallow turquoise bay perfect for families; and quieter coves like Rondinara (a near-circular bay) and Cala Rossa stretch along the coast. These beaches are the reason most people come, and they live up to the hype.",
+      },
+      {
+        heading: "The old town",
+        body: "Above the marina, the haute ville (upper town) is a former Genoese salt-trading port wrapped in citadel walls, with narrow lanes, the Porte Génoise gateway, the church, and squares full of restaurants that come alive in the evening. The views over the gulf and the salt pans are lovely at sunset.",
+      },
+      {
+        heading: "The marina and salt marshes",
+        body: "The port below buzzes in summer with yachts and nightlife, and the old salt pans (salines) that gave the town its wealth still fringe the gulf, drawing birdlife. Boat trips run out to the beaches and along the coast toward the spectacular Lavezzi islands.",
+      },
+      {
+        heading: "The wild south",
+        body: "Porto-Vecchio is the base for southern Corsica: the dramatic cliff-top town of Bonifacio with its chalk stacks, the Lavezzi and Cavallo islands of clear water and granite, the Ospedale forest and mountain pools inland, and the megalithic site of Cucuruzzu. The contrast of beach, mountain and history is the island's magic.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Porto-Vecchio has no train; you arrive via Figari airport nearby, or by ferry to Porto-Vecchio or Bonifacio, then a car — essential for reaching the beaches and the south. July and August are very busy and pricey; June and September give you the warm sea and the beaches in calm. Book accommodation well ahead in peak summer.",
+      },
+    ],
+    relatedCities: ["porto-vecchio", "ajaccio", "bastia"],
+    tags: ["things to do in porto-vecchio", "porto-vecchio", "travel", "city guide", "corsica"],
+  },
+  {
+    slug: "things-to-do-in-montauban-2026",
+    title: "Things to do in Montauban: a pink-brick city and the painter Ingres",
+    metaTitle: "Things to Do in Montauban (2026) — Place Nationale, Ingres Bourdelle & the Tarn",
+    metaDesc:
+      "Montauban's arcaded pink-brick Place Nationale, the Ingres Bourdelle museum, the old bridge over the Tarn, and the southwest countryside.",
+    category: "city-guide",
+    emoji: "🧱",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Montauban, north of Toulouse, is a warm pink-brick town built around one of the most beautiful arcaded squares in France, and home to a fine museum dedicated to the painter Ingres, who was born here. On the banks of the Tarn, it's an elegant, underrated stop in the southwest. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The Place Nationale",
+        body: "The Place Nationale is the jewel of Montauban — a 17th-century square enclosed by a double row of pink-brick arcades, harmonious and atmospheric, with a market beneath the arches. It's the heart of the town and one of the loveliest squares in the region; simply sitting in a café here is a pleasure.",
+      },
+      {
+        heading: "The Ingres Bourdelle museum",
+        body: "The Musée Ingres Bourdelle, in the former bishops' palace by the river, holds a large collection of works and drawings by Jean-Auguste-Dominique Ingres, the great Neoclassical painter born in Montauban, alongside sculptures by Antoine Bourdelle (also a local). Recently renovated, it's an excellent art museum and the cultural highlight.",
+      },
+      {
+        heading: "The old town and the Tarn",
+        body: "Montauban's pink-brick old town spreads around the square, with the 14th-century Pont Vieux spanning the Tarn — a fine fortified bridge with views back to the museum and the brick skyline. The riverside, the covered market and the cathedral round out a relaxed wander.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Montauban is about 25 minutes from Toulouse by train, an easy day trip or a quieter base. The centre is compact and walkable. The pink brick glows in evening light. The Quercy countryside, the Aveyron gorges and the bastide towns of the southwest are within easy reach by car.",
+      },
+    ],
+    relatedCities: ["montauban", "toulouse", "cahors"],
+    tags: ["things to do in montauban", "montauban", "travel", "city guide", "occitanie"],
+  },
+  {
+    slug: "things-to-do-in-foix-2026",
+    title: "Things to do in Foix: a three-towered castle in the Pyrenees",
+    metaTitle: "Things to Do in Foix (2026) — Castle, Cave & the Ariège Pyrenees",
+    metaDesc:
+      "Foix's dramatic counts' castle, the underground river cave of Lombrives or Labouiche, the old town, and the Cathar country of the Ariège.",
+    category: "city-guide",
+    emoji: "🏰",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Foix, capital of the Ariège, is dominated by a dramatic three-towered castle perched on a rock above the town — the seat of the powerful medieval counts of Foix, deep in Cathar and Pyrenean country. It's the gateway to caves, mountains and a wild, beautiful department. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The Château de Foix",
+        body: "The counts' castle, its three distinct towers rising from a crag over the town, is the unmissable sight — never taken by siege, it now houses a museum of the Ariège and stages live medieval demonstrations in summer. The climb up rewards you with sweeping views over the rooftops and the surrounding mountains. It's one of the most photogenic castles in the Pyrenees.",
+      },
+      {
+        heading: "The old town",
+        body: "Below the castle, Foix's small old town has medieval lanes, half-timbered houses, fountains and squares, and the abbey church of Saint-Volusien. It's compact and pleasant for a stroll, with the river Ariège running through and good local restaurants.",
+      },
+      {
+        heading: "Underground rivers and caves",
+        body: "The Ariège is cave country. Just outside Foix, the Rivière Souterraine de Labouiche is the longest navigable underground river in Europe — you glide through floodlit galleries by boat. Further afield, the painted prehistoric cave of Niaux and the vast Lombrives cave add to one of France's richest underground regions.",
+      },
+      {
+        heading: "Cathar country and the mountains",
+        body: "The Ariège is the heart of Cathar country, with dramatic ruined fortresses like Montségur (the site of the Cathars' last stand) on their lonely peaks within reach. The high Pyrenees — hiking, the Plateau de Beille, thermal spas and wildlife — rise to the south. It's wild, atmospheric and uncrowded.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Foix is on the train line south of Toulouse (about 1h20). The castle and old town are walkable; a car is needed for the caves, Montségur and the mountains. Spring to autumn is best; the castle's summer medieval shows are popular with families.",
+      },
+    ],
+    relatedCities: ["foix", "toulouse", "carcassonne"],
+    tags: ["things to do in foix", "foix", "travel", "city guide", "pyrenees"],
+  },
+  {
+    slug: "things-to-do-in-evian-les-bains-2026",
+    title: "Things to do in Évian-les-Bains: a spa town on Lake Geneva",
+    metaTitle: "Things to Do in Évian-les-Bains (2026) — Lakefront, Spa Heritage & the Water",
+    metaDesc:
+      "Évian's Lake Geneva promenade and boats to Switzerland, the belle-époque spa architecture, the famous water spring, and the Alps behind.",
+    category: "city-guide",
+    emoji: "💧",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Évian-les-Bains, on the French shore of Lake Geneva, is an elegant spa town famous worldwide for its bottled water, with a graceful lakefront, belle-époque architecture, and the Alps rising behind. Boats glide across to Switzerland from its quay. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The lakefront",
+        body: "Évian's great pleasure is the lake — a long, flower-lined promenade along the water, with gardens, a marina, and grand hotels looking across to the Swiss Alps. Paddle steamers and ferries cross to Lausanne and other Swiss towns in under an hour, making for a lovely day on the water. The lakefront is free and made for strolling.",
+      },
+      {
+        heading: "Belle-époque heritage",
+        body: "The town's spa heyday left elegant buildings: the former thermal baths, the Palais Lumière (now an exhibition centre), the Art Nouveau Villa Lumière (the town hall), and the funicular that once carried curistes up the hillside. The casino and grand hotels complete the genteel, early-20th-century atmosphere.",
+      },
+      {
+        heading: "The water",
+        body: "Évian water rises from a spring filtered through the Alps, and you can taste it free at the source fountains in town (the Cachat spring pavilion). The story of the water and the spa is part of the town's identity, and the bottling plant is nearby in Amphion.",
+      },
+      {
+        heading: "The mountains around",
+        body: "Behind Évian, the Chablais Alps offer hiking, the Gorges du Pont du Diable, and ski resorts in winter. The medieval village of Yvoire (one of the 'most beautiful villages of France') juts into the lake a short drive west, with flowery lanes and a famous garden. The lake and the mountains together make a relaxed, scenic base.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Évian-les-Bains is reachable by train (via Geneva or Annemasse) and by boat across the lake from Switzerland. The lakefront and centre are walkable; a car helps for the mountains and Yvoire. Late spring to early autumn is loveliest by the water; the lake crossings to Switzerland run most frequently in season.",
+      },
+    ],
+    relatedCities: ["evian-les-bains", "aix-les-bains", "annecy"],
+    tags: ["things to do in evian-les-bains", "evian-les-bains", "travel", "city guide", "savoie"],
+  },
+  {
+    slug: "things-to-do-in-apt-2026",
+    title: "Things to do in Apt: ochre country and the great Luberon market",
+    metaTitle: "Things to Do in Apt (2026) — Saturday Market, Ochre Trails & the Luberon",
+    metaDesc:
+      "Apt's famous Saturday market, the candied-fruit and ochre heritage, the Colorado Provençal and Roussillon cliffs, and the Luberon villages.",
+    category: "city-guide",
+    emoji: "🍑",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Apt sits at the heart of the Luberon, best known for one of the great markets of Provence and for the ochre that stains the cliffs around it a dozen shades of red and orange. It's a working Provençal town and the practical base for exploring the Luberon. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The Saturday market",
+        body: "Apt's Saturday morning market is one of the biggest and best in Provence — it fills the whole old town with stalls of produce, olives, cheese, herbs, lavender, fabric and the local candied fruit. It's a feast for the senses and the social event of the week; come early and graze your way through. The market is reason enough to plan a Saturday here.",
+      },
+      {
+        heading: "Ochre country",
+        body: "Apt sits amid the world's largest ochre deposits, and the landscape shows it. Nearby Roussillon (a 'most beautiful village') glows red and orange with its Sentier des Ocres trail through old quarries, and the 'Colorado Provençal' at Rustrel is a mini canyon of vivid ochre formations. It's an extraordinary, fiery counterpoint to the green Luberon.",
+      },
+      {
+        heading: "Candied fruit and the old town",
+        body: "Apt has been the candied-fruit (fruits confits) capital of France for centuries, and its confectioners still produce them — a sweet local specialty to take home. The old town has a Roman past, the former cathedral with its crypt, and pleasant squares. The Luberon regional park's house here is a good orientation point.",
+      },
+      {
+        heading: "The Luberon around",
+        body: "Apt is the base for the Luberon villages — Roussillon, Gordes, Bonnieux, Ménerbes, Lacoste — and the lavender of the plateau, the cedar forest, and the hiking and cycling routes of the regional park. A car turns it into the springboard for some of the most beautiful countryside in France.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Apt has no train; you reach it by bus from Avignon or by car, which you'll want anyway for the villages and ochre sites. The Saturday market is the highlight — plan around it. Spring and early summer (for the green Luberon and, later, lavender) and September are the best times; high summer is hot and busy.",
+      },
+    ],
+    relatedCities: ["apt", "gordes", "avignon"],
+    tags: ["things to do in apt", "apt", "travel", "city guide", "provence"],
+  },
+  {
+    slug: "things-to-do-in-auxerre-2026",
+    title: "Things to do in Auxerre: a Burgundy town on the Yonne",
+    metaTitle: "Things to Do in Auxerre (2026) — Old Town, Cathedral & Chablis",
+    metaDesc:
+      "Auxerre's hillside old town and cathedral over the Yonne, the frescoed abbey crypt, the riverside quays, and the Chablis vineyards nearby.",
+    category: "city-guide",
+    emoji: "⛪",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Auxerre, in northern Burgundy, rises in a handsome tumble of old houses and church towers above the Yonne river — a classic Burgundian town with a great cathedral, an ancient frescoed crypt, and the Chablis vineyards on its doorstep. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The riverside view",
+        body: "The classic image of Auxerre is from the far bank of the Yonne or from a boat — the town climbing the hillside, crowned by the towers of the cathedral, the abbey and the church of Saint-Eusèbe, reflected in the water. The quays and the old bridges make a lovely walk, and river cruises pass through on the Yonne and the Nivernais canal.",
+      },
+      {
+        heading: "The cathedral and abbey crypt",
+        body: "The Cathédrale Saint-Étienne is a fine Gothic church with good stained glass and a Romanesque crypt holding a rare fresco of Christ on horseback. Nearby, the former Abbaye Saint-Germain has a remarkable Carolingian crypt with some of the oldest wall paintings in France (9th century) — a quietly extraordinary survival, seen by guided tour.",
+      },
+      {
+        heading: "The old town",
+        body: "Auxerre's old town is a pleasure of half-timbered houses, the cheerful 15th-century clock tower (Tour de l'Horloge) over a main street, pedestrian lanes and small squares. It's compact, lived-in and easy to wander, with cafés and shops throughout.",
+      },
+      {
+        heading: "Chablis and around",
+        body: "The famous Chablis vineyards — crisp, mineral Chardonnay — lie a short drive east, with the village of Chablis and its growers offering tastings. The Burgundy canals, the ochre village of Noyers (a 'most beautiful village'), and the wider Yonne countryside make Auxerre a good base for slow exploring.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Auxerre is reachable by train (about 1h45 from Paris via Laroche-Migennes). The old town is walkable but hilly. A car helps for Chablis and the villages. Spring through autumn is pleasant; the riverside and the vineyards are at their best in early autumn around the harvest.",
+      },
+    ],
+    relatedCities: ["auxerre", "troyes", "beaune"],
+    tags: ["things to do in auxerre", "auxerre", "travel", "city guide", "burgundy"],
+  },
+  {
+    slug: "things-to-do-in-saint-nazaire-2026",
+    title: "Things to do in Saint-Nazaire: giant ships and an Atlantic past",
+    metaTitle: "Things to Do in Saint-Nazaire (2026) — Shipyards, Submarine Base & Beaches",
+    metaDesc:
+      "Saint-Nazaire's shipyard and ocean-liner heritage, the WWII submarine base, the Escal'Atlantic experience, the beaches, and the Loire estuary.",
+    category: "city-guide",
+    emoji: "🚢",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Saint-Nazaire, at the mouth of the Loire, is a shipbuilding city where the world's largest ocean liners and cruise ships are still built — and where a colossal WWII U-boat base survives on the waterfront, now reinvented for culture and tourism. It's an industrial port with a fascinating story and beaches nearby. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The shipyards and Escal'Atlantic",
+        body: "Saint-Nazaire builds the biggest cruise ships afloat at the Chantiers de l'Atlantique, and you can tour the working shipyard (book ahead). Beside it, Escal'Atlantic is an immersive experience that recreates the golden age of the great ocean liners built here — walking the decks, cabins and engine rooms of a vanished world. Together they tell the city's maritime story brilliantly.",
+      },
+      {
+        heading: "The submarine base",
+        body: "On the waterfront looms the vast concrete WWII German submarine base, so massively built it survived the bombing that flattened the rest of the city. It's been reinvented as a striking cultural space, with a rooftop walk, an art centre (LiFE), and the Espadon — a real submarine you can board inside one of the pens. It's a powerful, atmospheric reuse of a grim relic.",
+      },
+      {
+        heading: "Beaches and the coast",
+        body: "Beyond the port, Saint-Nazaire has sandy beaches and a coastal path, and the elegant resort of La Baule with its enormous beach is a short hop along the coast. The wild, salt-marsh peninsula of Guérande and its medieval walled town are close too.",
+      },
+      {
+        heading: "The estuary and bridge",
+        body: "The graceful Pont de Saint-Nazaire arcs across the Loire estuary — a landmark drive — and the estuary itself is dotted with quirky contemporary artworks (the 'Estuaire' trail) linking the city to Nantes. It's an unexpectedly creative industrial landscape.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Saint-Nazaire is reachable by train (close to Nantes, about 40 minutes). The shipyard tours, submarine base and Escal'Atlantic cluster by the port; book the shipyard tour ahead. A car helps for La Baule and Guérande. Spring to autumn is best; this is industrial-heritage tourism rather than chocolate-box charm.",
+      },
+    ],
+    relatedCities: ["saint-nazaire", "nantes", "lorient"],
+    tags: ["things to do in saint-nazaire", "saint-nazaire", "travel", "city guide", "pays de la loire"],
+  },
+  {
+    slug: "things-to-do-in-lorient-2026",
+    title: "Things to do in Lorient: sailing, a submarine base and a Celtic festival",
+    metaTitle: "Things to Do in Lorient (2026) — Cité de la Voile, Submarine Base & Interceltique",
+    metaDesc:
+      "Lorient's sailing museum and Eric Tabarly heritage, the WWII submarine base, the great Interceltique festival, and the south Brittany coast.",
+    category: "city-guide",
+    emoji: "⛵",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Lorient, on the south Brittany coast, is a sailing city — home to a major ocean-racing base, a museum of the sport, and a vast WWII submarine base reborn as a sailing and culture hub. Each summer it hosts one of the world's great Celtic festivals. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The Cité de la Voile and submarine base",
+        body: "The old German submarine base of Keroman, a huge concrete complex that survived the war, is now the heart of French ocean racing and home to the Cité de la Voile Éric Tabarly — an interactive sailing museum celebrating the legendary skipper and the science of sailing. You can tour the submarine pens, board a real submarine (the Flore) and see racing yachts up close. It's a brilliant, hands-on day.",
+      },
+      {
+        heading: "The Festival Interceltique",
+        body: "Each August, Lorient hosts the Festival Interceltique — one of the biggest Celtic cultural festivals in the world, drawing musicians, dancers and crowds from Brittany, Ireland, Scotland, Wales, Galicia and beyond for ten days of pipes, fest-noz and parades. If you can time a visit for it, it's an unforgettable celebration of Celtic culture.",
+      },
+      {
+        heading: "The port and around",
+        body: "Lorient is a working fishing and sailing port, rebuilt after wartime destruction, so it's modern rather than quaint — but the harbour, the fish market and the ferries give it energy. The pretty Île de Groix, with its beaches and clifftop walks, is a short ferry ride and a lovely day trip.",
+      },
+      {
+        heading: "The coast",
+        body: "South Brittany's beaches and rias spread out from Lorient — the resort of Larmor-Plage, the Ría d'Étel, the megaliths of Carnac and the Gulf of Morbihan are all within easy reach, making the city a practical base for the wider coast.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Lorient is a TGV stop (about 3 hours from Paris). The submarine base and Cité de la Voile are across the harbour from the centre (a short drive or boat). A car helps for the coast; ferries serve Groix. The Interceltique festival in early August packs the city — book far ahead or come another time for calm.",
+      },
+    ],
+    relatedCities: ["lorient", "quimper", "vannes"],
+    tags: ["things to do in lorient", "lorient", "travel", "city guide", "brittany"],
+  },
+  {
+    slug: "things-to-do-in-chalon-sur-saone-2026",
+    title: "Things to do in Chalon-sur-Saône: birthplace of photography on the river",
+    metaTitle: "Things to Do in Chalon-sur-Saône (2026) — Niépce Museum, Old Town & Wine",
+    metaDesc:
+      "Chalon-sur-Saône's photography museum honouring Niépce, the half-timbered old town, the riverside and island, and the Côte Chalonnaise wines.",
+    category: "city-guide",
+    emoji: "📷",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Chalon-sur-Saône, on the river in southern Burgundy, is the birthplace of photography — Nicéphore Niépce took the world's first photograph here — and it celebrates that legacy in a fine museum. Add a half-timbered old town, a riverside setting and the wines of the Côte Chalonnaise, and it's a pleasant Burgundy stop. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The Niépce photography museum",
+        body: "The Musée Nicéphore Niépce, on the riverbank, is one of the best photography museums in France — telling the story from the very first photograph (made by Niépce, a local, in the 1820s) through the history of cameras and images to the present, with a rich collection of historic equipment. For anyone interested in photography, it's a genuine pilgrimage.",
+      },
+      {
+        heading: "The old town",
+        body: "Chalon's old town around the Saint-Vincent cathedral is full of half-timbered houses, pedestrian streets, squares and good restaurants. The Place Saint-Vincent and the surrounding lanes are charming and lively, especially on market days. A statue and trail mark Niépce's connection to the town.",
+      },
+      {
+        heading: "The river and the island",
+        body: "The Saône and the leafy Île Saint-Laurent are central to Chalon's appeal — riverside quays, the old bridge, and the island with its restaurants and the former hospital make a relaxed walk. The town's carnival and its summer street-arts festival ('Chalon dans la Rue') bring extra colour.",
+      },
+      {
+        heading: "Wine around",
+        body: "Chalon is the gateway to the Côte Chalonnaise, a less-famous but excellent and good-value Burgundy wine area — Mercurey, Givry, Rully — whose villages and growers welcome visitors a short drive west. Beaune and the great Côte d'Or are also close.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Chalon-sur-Saône is a TGV stop (about 1h30 from Paris, close to Beaune and Mâcon). The old town and museum are walkable along the river. A car helps for the Côte Chalonnaise vineyards. Spring through autumn is pleasant; the summer street-arts festival is a lively time to visit.",
+      },
+    ],
+    relatedCities: ["chalon-sur-saone", "beaune", "macon"],
+    tags: ["things to do in chalon-sur-saone", "chalon-sur-saone", "travel", "city guide", "burgundy"],
+  },
+  {
+    slug: "things-to-do-in-nevers-2026",
+    title: "Things to do in Nevers: faience, a ducal palace and the Loire",
+    metaTitle: "Things to Do in Nevers (2026) — Ducal Palace, Faience & Saint Bernadette",
+    metaDesc:
+      "Nevers's ducal palace and cathedral, the famous blue faience pottery, the shrine of Saint Bernadette, and the Loire riverside.",
+    category: "city-guide",
+    emoji: "🏺",
+    readMinutes: 4,
+    publishedAt: "2026-06-02",
+    updatedAt: "2026-06-02",
+    intro:
+      "Nevers, where the Loire meets the Nièvre, is a quietly rewarding town: a Renaissance ducal palace, a cathedral spanning a thousand years of architecture, the famous blue-and-white faience pottery, and the resting place of Saint Bernadette of Lourdes. Here's the shortlist.",
+    sections: [
+      {
+        heading: "The Ducal Palace",
+        body: "The Palais Ducal, former seat of the dukes of Nevers, is considered one of the earliest of the great Loire-style Renaissance châteaux — an elegant building with a richly carved façade and turrets, now housing exhibitions including local faience. It anchors the old town and is free to wander.",
+      },
+      {
+        heading: "The cathedral",
+        body: "The Cathédrale Saint-Cyr-et-Sainte-Julitte is unusual for having two opposing apses (one Romanesque, one Gothic) from different eras, and striking modern stained glass installed after WWII damage. It's an architectural patchwork that rewards a slow look.",
+      },
+      {
+        heading: "Nevers faience",
+        body: "Nevers has produced fine tin-glazed earthenware (faïence) since the 16th century, in its characteristic deep 'bleu de Nevers'. The Musée de la Faïence displays the best of it, and workshops in town continue the craft — a distinctive local souvenir with real history behind it.",
+      },
+      {
+        heading: "Saint Bernadette and the river",
+        body: "Bernadette Soubirous, who reported the visions at Lourdes, spent her later life and died in the convent of Saint-Gildard in Nevers, where her body lies in a glass reliquary — a place of pilgrimage. The Loire riverside and the old town's lanes and gateways make for pleasant walks, and the racing circuit of Magny-Cours is nearby.",
+      },
+      {
+        heading: "Practical notes",
+        body: "Nevers is on the train line south of Paris (about 2 hours). The old town, palace and cathedral are walkable. It's an uncrowded, characterful stop on the Loire; spring through autumn is pleasant, and the riverside is lovely in good weather.",
+      },
+    ],
+    relatedCities: ["nevers", "bourges", "moulins"],
+    tags: ["things to do in nevers", "nevers", "travel", "city guide", "burgundy"],
+  },
+  {
     slug: "one-week-in-provence-itinerary-2026",
     title: "One week in Provence: a route that actually works",
     metaTitle: "One Week in Provence Itinerary (2026) — A Practical Route",
